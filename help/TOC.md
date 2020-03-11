@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5f97a68f90150c6d42ce6022473004602769fef2
+source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 5f97a68f90150c6d42ce6022473004602769fef2
    + [FAQ](getting-started/cja-faq.md)
    + [고객 여정 분석 기능 지원](getting-started/cja-aa.md)
    + [CJA 용어](getting-started/cja-glossary.md)
-+ 프로젝트 {#cja-reporting}
++ 작업 영역 프로젝트 {#cja-reporting}
    + [작업 영역 소개](projects/workspace-basics.md)
    + [기본 분석 수행](projects/perform-basic-analysis.md)
    + [고급 분석 수행](projects/perform-adv-analysis.md)
