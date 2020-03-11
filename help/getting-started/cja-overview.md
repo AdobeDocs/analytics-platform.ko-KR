@@ -2,7 +2,7 @@
 title: 고객 경로 분석 개요
 description: 고객 여정 분석 소개
 translation-type: tm+mt
-source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -11,28 +11,22 @@ source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
 
 Customer Journey Analytics는 Adobe Experience Platform의 데이터와 함께 강력한 분석 작업 공간을 사용할 수 있는 Analytics 기능입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합됩니다. XDM( **Experience Data Model)**&#x200B;을 사용하면 데이터를 일관되게 표시하고 구성하여 조합과 탐색을 수행할 수 있습니다. **Experience Query** Services를 사용하면 SQL 호환 툴과 프레임워크를 사용하여 모든 데이터를 쿼리 및 조작할 수 있습니다.
 
-## CJA와 분석 작업 공간 비교
+## CJA와 기존 Adobe Analytics 비교
 
 고객 여정 분석은 사용하기 쉬운 크로스 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거함으로써 Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
 
 * **무제한 변수 및 이벤트**:eVar, prop 및 이벤트의 개념이 더 이상 존재하지 않습니다. 데이터는 주로 차원 및 지표에 중점을 둡니다. 데이터 세트는 고유 차원 및 지표를 무제한으로 가질 수 있습니다.
-* **무제한 고유**:Adobe Experience Platform은 기존 보고서 세트의 500k 고유 값과 같은 고유한 제한 사항으로 제한되지 않습니다.
+* **무제한 고유 값**:Adobe Experience Platform은 기존 보고서 세트의 500k 고유 값과 같은 고유한 제한 사항으로 제한되지 않습니다.
 * **내역 데이터**&#x200B;변경:Adobe Experience Platform을 사용하면 데이터를 제거하거나 수정할 수 있습니다.
-* **보고서 세트 데이터**:여러 데이터 세트의 기존 구현을 플랫폼에서 결합할 수 있습니다.
+* **보고서 세트 간 데이터**:여러 데이터 세트의 기존 구현을 플랫폼에서 결합할 수 있습니다.
 
 고객 여정 분석의 초기 릴리스에는 분석 작업 공간에 포함된 많은 기능이 포함됩니다. 전체 목록은 고객 경로 [분석 기능 지원을](cja-aa.md)참조하십시오.
 
-### 용어 업데이트
+## CJA와 크로스 디바이스 분석 비교
 
-업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 일부 이름은 다음과 같습니다.
+[Cross-Device](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) Analytics는 Co-op Graph 또는 Private Graph를 활용하여 디지털 장치가 사람들에게 매핑되는 방식을 식별하는 Adobe Experience Platform Identity Service와 통합됩니다. Adobe Analytics Ultimate 고객이 이용할 수 있습니다.
 
-* 이제 세그먼트를 &#39;필터&#39;라고 합니다.
-* 가상 보고서 세트를 이제 &#39;보기&#39;라고 합니다.
-* 이제 분류를 &#39;데이터 집합 조회&#39;라고 합니다.
-* 이제 고객 속성을 &#39;프로필 데이터 집합&#39;이라고 합니다.
-* 히트 컨테이너를 이제 &#39;이벤트&#39; 컨테이너라고 합니다.
-* 이제 방문 컨테이너를 &#39;세션&#39; 컨테이너라고 합니다.
-* 이제 방문자 컨테이너를 &#39;개인&#39; 컨테이너라고 합니다.
+CJA는 Adobe Experience Platform 데이터 세트와 통합되어 분석 작업 공간에서 크로스 채널 분석을 지원합니다. CJA는 아직 Co-op 또는 Private ID 그래프와 통합되지 않았지만 &quot;고유한 ID&quot;를 사용하여 데이터 세트를 함께 결합할 수 있으며 이러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
 ## 주요 활용 사례
 
@@ -47,7 +41,7 @@ Customer Journey Analytics는 Adobe Experience Platform의 데이터와 함께 �
 
 ## 전제 조건
 
-고객 여정 분석 사용을 시작하려면 먼저 다음 단계를 완료해야 합니다.
+고객 여정 분석 사용을 시작하려면 먼저 다음 전제 조건을 충족해야 합니다.
 
 * 조직은 고객 여정 분석 추가 기능과 Select, Prime 또는 Ultimate를 위한 Adobe Analytics와 계약을 맺고 있습니다. 어떤 유형의 계약을 보유하고 있는지 확실하지 않거나 CJA Add-On이 있는지 확실하지 않은 경우 조직의 계정 관리자에게 문의하십시오.
 * 조직이 Adobe Experience Platform을 프로비저닝했습니다.
@@ -63,6 +57,18 @@ Customer Journey Analytics는 Adobe Experience Platform의 데이터와 함께 �
    * ID 네임스페이스 관리
    * 샌드박스 보기
 * 고객 여정 분석에 액세스하거나 연결하려면 관리 콘솔에서 고객 여정 분석 제품 프로필에 추가되어야 [합니다](https://adminconsole.adobe.com/enterprise/).
+
+### 용어 업데이트
+
+업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 일부 이름은 다음과 같습니다.
+
+* 이제 세그먼트를 &#39;필터&#39;라고 합니다.
+* 가상 보고서 세트를 이제 &#39;보기&#39;라고 합니다.
+* 이제 분류를 &#39;데이터 집합 조회&#39;라고 합니다.
+* 고객 속성을 이제 &#39;프로필 데이터 집합&#39;이라고 합니다.
+* 히트 컨테이너를 이제 &#39;이벤트&#39; 컨테이너라고 합니다.
+* 이제 방문 컨테이너를 &#39;세션&#39; 컨테이너라고 합니다.
+* 이제 방문자 컨테이너를 &#39;개인&#39; 컨테이너라고 합니다.
 
 ## Adobe Experience Platform 기반의 기타 기능
 
