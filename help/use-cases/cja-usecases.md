@@ -2,39 +2,18 @@
 title: 고객 경로 분석 활용 사례
 description: 고객 경로 분석을 위한 활용 사례
 translation-type: tm+mt
-source-git-commit: 1cddd8624826bddb89c9b362ec91a2c0c30c7a6f
+source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 ---
 
 
 # 고객 경로 분석 활용 사례
 
-Adobe는 현재 고객과 협력하여 사용 사례를 구축하고 있습니다. 정기적으로 업데이트를 확인하십시오.
+고객 여정 분석을 통해 다음과 같은 주요 사용 사례를 사용할 수 있습니다.
 
-<!-- ## Report on full cross-channel customer journey for customers with high customer ID (join key) coverage
-
-More detail here.
-
-## Report on and visualize any event dataset in an interactive way
-
-Details
-
-## Combine datasets keyed off of ECID such as Analytics, Triggered Journeys, Target, and AAM data
-
-Details.
-
-## Report interactively on XDM data collection or Experience Edge deployments
-
-Details
-
-## Build "manually stitched" versions of your data to analyze
-
-Details
-
-## Analyze multi-channel data in Analysis Workspace even if unstitched
-
-Details
-
-## Combine multiple report suites
-
-Details -->
+* **고객 여정 상황**&#x200B;파악:여러 채널에 걸쳐 데이터를 순차적으로 보고 분석할 수 있습니다. 콜 센터, POS 시스템 및 온라인 속성의 데이터를 하나의 보고 보기로 결합할 수 있습니다.
+* **모든 사람이**&#x200B;인사이트를 활용할 수 있습니다.데이터 액세스를 민주화하고 더 많은 사용자가 데이터를 기반으로 한 통찰력으로 비즈니스 의사 결정을 내릴 수 있도록 합니다. 조직 내에서 고객 경험의 모든 측면을 담당하는 사람은 보다 완벽한 데이터를 기반으로 실제 의사 결정을 신속하게 내릴 수 있습니다.
+* **분석가를**&#x200B;위한 강력한 데이터 과학 활용:Customer Journey Analytics를 사용하면 일반 사용자는 데이터 과학을 사용하여 심도 있는 인사이트와 분석을 수행할 수 있습니다.
+* **애드혹 보고를**&#x200B;사용하여 데이터 세트를 시각화하고 인터랙션합니다.작업 공간은 몇 가지 기본 규칙을 준수하는 Adobe Experience Platform의 모든 데이터 세트를 사용할 수 있습니다.
+* **비웹 데이터**&#x200B;보기:작업 영역은 더 이상 &#39;히트&#39; 또는 &#39;이벤트&#39;의 엄격한 정의로 제한되지 않습니다. 사용자 정의 스키마를 사용하여 데이터 및 정의를 완벽하게 제어할 수 있습니다.
+* **데이터 조작을**&#x200B;보다 강력하게 제어합니다.업로드한 데이터를 변경하고, 새 데이터 세트를 만들고, 이를 작업 공간으로 가져옵니다. Adobe Experience Platform은 Experience Cloud 쿼리 서비스를 통해 쿼리, 추출, 변환 및 로드 도구를 제공합니다.
