@@ -2,7 +2,7 @@
 title: 고객 여정 분석 FAQ
 description: 고객 경로 분석 - FAQ
 translation-type: tm+mt
-source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 17a61026bc92d1fe12c09848f3f249ab50057a5a
 | **전제 조건** |  |
 | 고객 여정 분석을 위한 Device Graph 또는 Device Coop가 필요합니까? | 아니오. 고객 여정 분석에는 개인 장치 그래프 또는 장치 Coop가 필요하지 않습니다. 실제로 아직 지원되지 않습니다. |
 | 고객 여정 분석에는 Experience Cloud ID(ECID)가 필요합니까? | 아니요. 고객 여정 분석은 데이터 세트에 있는 ID가 ECID이든 다른 ID이든 지원합니다. |
-| 고객 여정 분석 전에 데이터를 ETL해야 하는 경우 어떻게 해야 합니까? | AEP에 데이터를 추가하기 전에 데이터를 변환해야 하는 경우 ETL 파트너(Unifi 또는 Informatica)와 함께 작업해야 합니다. 이미 데이터를 인제스트한 후 ETL이 필요한 경우 AEP 쿼리 서비스는 일부 제한된 옵션을 제공합니다. |
+| 고객 여정 분석 전에 데이터를 ETL(추출, 변환, 로드)해야 하는 경우 어떻게 해야 합니까? | AEP에 데이터를 추가하기 전에 데이터를 변환해야 하는 경우 ETL 파트너(Unifi 또는 Informatica)와 함께 작업해야 합니다. 이미 데이터를 인제스트한 후 ETL이 필요한 경우 AEP 쿼리 서비스는 일부 제한된 옵션을 제공합니다. |
 | **스티칭** |  |
 | 고객 여정 분석의 &quot;스티치&quot;를 장치 또는 데이터 세트 간에 적용할 수 있습니까? | 아니요. Customer Journey Analytics는 &quot;고유한 ID&quot; 분석 시스템입니다. 잘 봉합할 수 있는 방법을 구상하고 있다. |
 | 익명의 동작에서 인증된 동작으로 결합할 수 있습니까? | 아니요. 아직 사용할 수 없습니다. |
