@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
+source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
    + [연결 관리](connections/manage-connection.md)
+   + [데이터 세트 결합](connections/combined-dataset.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 뷰 만들기](data-views/create-dataview.md)
    + [데이터 뷰 및 기여도 구성](data-views/configure-dataviews.md)
