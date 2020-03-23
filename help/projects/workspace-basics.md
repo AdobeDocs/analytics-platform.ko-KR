@@ -22,7 +22,7 @@ source-git-commit: eba2b60496976eb6027d58e0ce231ee046c8fc02
 1. 클릭 **[!UICONTROL Create New Project]**.
 1. In the modal popup, make sure &#39;Blank Project&#39; is selected, then click **[!UICONTROL Create]**.
 1. 왼쪽에는 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원(주황색으로 표시됨)을 찾아 &#39;차원을 여기에 드래그하여 놓습니다&#39;라는 캔버스에 드래그하여 놓으십시오.
-1. 이 달의 상위 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) 지표로 채웠습니다.
+1. 이달의 최고 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) 지표로 채웠습니다.
 1. 방문 횟수 지표(녹색으로 표시됨)를 찾아서 발생 횟수 지표 머리글 **위** 또는 **옆**&#x200B;으로 드래그합니다(지표 위에 놓지 않도록 합니다.). 방문 횟수 지표를 발생 횟수 위에 드래그하면 보고에서 지표가 대체됩니다. 방문 횟수 지표를 발생 횟수 옆으로 드래그하면 두 지표가 나란히 표시됩니다.
 1. If you&#39;d like to save your project, click **[!UICONTROL Project]>[!UICONTROL Save]**in the upper left menu.
 
