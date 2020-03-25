@@ -30,7 +30,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 보고서 처리 시간 | CJA는 보고서 시간 처리에만 의존합니다. |
 | GDPR 삭제 | GDPR은 이제 Adobe Experience Platform과 연동되므로 CJA는 Experience Platform에서 기본 데이터 세트에 대한 모든 데이터 변경 사항을 상속받습니다. |
 
-## 경고가 지원됨
+## 주의 사항 지원
 
 | 기능 | 참고 |
 | --- | --- |
@@ -49,7 +49,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | --- | --- |
 | 즉시 사용 가능한 분석 작업 공간 차원(예: 브라우저 유형, 레퍼러 유형, 마케팅 채널, 방문 번호 등) | CJA는 기본적으로 이러한 차원을 제공하지 않습니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 일부 차원은 사용할 수 없습니다. ADC를 통해 지원되는 Analytics 변수에 대한 [설명서를 참조하십시오](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | 패널 | 빈 패널, 속성 패널 및 자유 형식 패널이 완전히 지원됩니다. 세그먼트 비교는 지원되지 않습니다. |
-| 머천다이징 eVars | 머천다이징 eVar는 동일한 XDM 스키마(위의 제품 목록 제한 사항과 유사)를 엄격하게 준수하지 않는 한 ADC 기반 데이터 집합에서만 작동합니다. |
+| 머천다이징 eVar | 머천다이징 eVar는 동일한 XDM 스키마(위의 제품 목록 제한 사항과 유사)를 엄격하게 준수하지 않는 한 ADC 기반 데이터 집합에서만 작동합니다. |
 | 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 집합의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리는 Experience Platform 또는 CJA에서 수행하지 않습니다. |
 | 처리 규칙 | ADC 기반 데이터 세트의 경우 처리 규칙이 계속 적용됩니다. |
 | 장치 간 ID 연결 | 고객은 쿼리 서비스를 통해 데이터를 &quot;1회&quot; 스티치로 제한되거나, 현재 경험 플랫폼 데이터 통합 전에 데이터에 이 논리를 적용해야 합니다. |
