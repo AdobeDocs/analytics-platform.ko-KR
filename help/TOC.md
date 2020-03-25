@@ -39,7 +39,7 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
    + [데이터 뷰 만들기](data-views/create-dataview.md)
    + [데이터 뷰 및 기여도 구성](data-views/configure-dataviews.md)
 + 구성 요소 {#cja-components}
-   + 필터 {#cja-filters}
+   + Filters {#cja-filters}
       + [필터 개요](components/filters/filters-overview.md)
       + [필터 만들기](components/filters/create-filters.md)
       + [필터 관리](components/filters/manage-filters.md)
@@ -60,5 +60,5 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 + 사용 사례 {#cja-usecases}
    + [고객 경로 분석 활용 사례](use-cases/cja-usecases.md)
 + 개인 정보 보호 {#cja-privacy}
-   + [개인 정보 보호 개요](privacy/privacy-overview.md)
+   + [개인 정보 개요](privacy/privacy-overview.md)
 + [CJA 설명서 업데이트](doc-changes.md)
