@@ -11,7 +11,7 @@ source-git-commit: fb2b5868db69bfff3345abcd69b0b70112fdcf3c
 
 고객 여정 분석을 구현하려면 이 워크플로우를 따라야 합니다. 일부 초기 작업은 Adobe Experience Platform에서, 일부는 고객 여정 분석에서 수행됩니다.
 
-| 작업 | 장소 performed | 세부 사항 |
+| 작업 | 수행 위치 | 세부 사항 |
 |---|---|---|
 | **1단계:Adobe Experience Platform에 데이터 통합** | Adobe Experience Platform | API와 데이터 업로드를 위한 그래픽 인터페이스 등 스트리밍 및 배치 사용 사례용 데이터를 인제스트하는 방법에는 여러 가지가 있습니다. Adobe Experience Platform은 다음과 같은 데이터를 제공합니다.<ul><li>S3 스토리지</li><li>Azure Blob 저장소</li><li>카프카 스트림</li><li>SFTP 전송</li><li>CSV 파일 업로드</li><li>JSON 파일 업로드</li></ul> |
 | **2단계:데이터 스키마 준비** | Adobe Experience Platform | XDM( [Adobe Experience Data Model)](https://www.adobe.io/apis/experienceplatform/home/xdm.html) 을 사용하여 고객 경험 데이터를 표준화하고 고객 경험 관리를 위한 스키마를 정의할 수 있습니다. |
