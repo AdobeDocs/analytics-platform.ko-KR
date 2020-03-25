@@ -33,7 +33,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
    | 태그 추가 | 태그를 사용하면 데이터 보기를 카테고리로 구성할 수 있습니다. |
    | 시간대 | 데이터 보기의 시간대를 선택합니다. |
    | 세션 시간 초과 | &quot;세션&quot;의 정의를 선택합니다. 세션 시간 초과 설정은 새 세션이 자동으로 시작되기 전에 고유 방문자가 가져야 하는 비활성 시간을 정의합니다. 기본값은 30분입니다. For example, if you set the session timeout to 45 minutes, a new session grouping is created for each sequence of hits collected, separated by 45 minutes of inactivity. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | 이벤트를 사용하여 새 세션 시작 | 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 수, 세션(이전 방문) 세그먼트 컨테이너 및 차원에 대한 방문 만료 논리에 영향을 줍니다. |
+   | 이벤트를 사용하여 새 세션 시작 | 세션이 시간 초과되었는지 여부에 관계없이 이벤트가 발생할 때 새 세션이 시작됩니다. 새로 만든 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 데이터에서 이러한 이벤트가 관찰된 경우 새 세션이 실행됩니다. 이 설정은 방문 수, 세션(이전 방문) 세그먼트 컨테이너 및 차원에 대한 방문 만료 논리에 영향을 줍니다. |
    | 필터 추가 | &quot;필터&quot;는 고객 경로 분석의 &quot;세그먼트&quot;를 의미합니다. 데이터를 필터링하려면 왼쪽 레일에서 적절한 필터를 여기로 드래그합니다. 필터를 선택하지 않으면 데이터 보기에 모든 데이터가 포함됩니다. |
 
 1. 클릭 **[!UICONTROL Continue]**.
