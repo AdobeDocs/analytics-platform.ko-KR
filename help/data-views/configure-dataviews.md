@@ -74,7 +74,7 @@ source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 자세한 내용은 기여도 IQ [문서를](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)참조하십시오.
 
-### 전환 확인 기간
+### 조회 창
 
 전환 확인 기간은 터치 포인트를 포함하도록 전환에서 다시 확인해야 하는 시간의 양입니다. 첫 번째 상호 작용에 더 많은 크레딧을 제공하는 기여도 분석 모델은 서로 다른 전환 확인 기간을 볼 때 더 큰 차이를 보입니다.
 
