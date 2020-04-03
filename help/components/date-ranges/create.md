@@ -16,7 +16,7 @@ source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
 
 날짜 범위 관리자에서 날짜 범위를 만들려면
 
-1. AdobeID 자격 증명을 사용하여 [analytics.adobe.com](https://analytics.adobe.com) 에 로그인합니다.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. > [!UICONTROL Components] 으로 [!UICONTROL Date Ranges]이동합니다.
 1. 단추를 클릭하여 날짜 범위를 만드는 모달 창을 엽니다. [!UICONTROL Add]
 
