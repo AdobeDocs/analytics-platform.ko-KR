@@ -1,5 +1,5 @@
 ---
-title: 고객 경로 분석 개요
+title: Customer Journey Analytics 개요
 description: 고객 여정 분석 소개
 translation-type: tm+mt
 source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
@@ -7,7 +7,7 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 ---
 
 
-# 고객 경로 분석 개요
+# Customer Journey Analytics 개요
 
 Customer Journey Analytics는 Adobe Experience Platform의 데이터와 함께 강력한 분석 작업 공간을 사용할 수 있는 Analytics 기능입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합됩니다. XDM( **Experience Data Model)**&#x200B;을 사용하면 데이터를 일관되게 표시하고 구성하여 조합과 탐색을 수행할 수 있습니다. **Experience Query** Services를 사용하면 SQL 호환 툴과 프레임워크를 사용하여 모든 데이터를 쿼리 및 조작할 수 있습니다.
 
