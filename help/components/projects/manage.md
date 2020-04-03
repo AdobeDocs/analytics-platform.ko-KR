@@ -11,7 +11,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 
 프로젝트 관리자를 사용하여 프로젝트를 공유, 이름 변경 또는 삭제할 수 있습니다. 날짜 관리자에 도달하려면
 
-1. AdobeID 자격 증명을 사용하여 [analytics.adobe.com](https://analytics.adobe.com) 에 로그인합니다.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. > [!UICONTROL Components] 으로 [!UICONTROL Projects]이동합니다.
 
 ## 인터페이스
