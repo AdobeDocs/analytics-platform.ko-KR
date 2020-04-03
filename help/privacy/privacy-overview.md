@@ -1,7 +1,7 @@
 ---
 title: Customer Journey Analytics 개인 정보 보호 개요
 description: Customer Journey Analytics에서 개인 정보 보호 설정이 작동하는 방식을 설명합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
 
 ---
