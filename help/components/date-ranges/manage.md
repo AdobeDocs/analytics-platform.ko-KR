@@ -11,7 +11,7 @@ source-git-commit: cd854a7543a6e31abb9cffd2657c75366cfe2737
 
 날짜 범위 관리자를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제합니다. 날짜 관리자에 도달하려면
 
-1. AdobeID 자격 증명을 사용하여 [analytics.adobe.com](https://analytics.adobe.com) 에 로그인합니다.
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. > [!UICONTROL Components] 으로 [!UICONTROL Date Ranges]이동합니다.
 
 ## 인터페이스
