@@ -1,5 +1,5 @@
 ---
-title: 고객 경로 분석 활용 사례
+title: Customer Journey Analytics 활용 사례
 description: 고객 경로 분석을 위한 활용 사례
 translation-type: tm+mt
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
@@ -7,7 +7,7 @@ source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 ---
 
 
-# 고객 경로 분석 활용 사례
+# Customer Journey Analytics 활용 사례
 
 고객 여정 분석을 통해 다음과 같은 주요 사용 사례를 사용할 수 있습니다.
 
