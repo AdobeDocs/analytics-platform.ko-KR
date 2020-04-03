@@ -1,5 +1,5 @@
 ---
-title: 고객 여정 분석 기능 지원
+title: Customer Journey Analytics 기능 지원
 description: Adobe Analytics 기능 세트와 비교하여 고객 여정 분석 기능
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
@@ -7,7 +7,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 ---
 
 
-# 고객 여정 분석 기능 지원
+# Customer Journey Analytics 기능 지원
 
 다음 표는 CJA(Customer Journey Analytics)에서 지원되거나 부분적으로 지원되거나 지원되지 않는 Adobe Analytics의 기능을 나열합니다. CJA에 기능이 추가되면 시간이 지남에 따라 이러한 목록이 변경됩니다.
 
