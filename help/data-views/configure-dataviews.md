@@ -1,5 +1,5 @@
 ---
-title: 데이터 뷰 및 기여도 구성
+title: 데이터 보기 및 기여도 구성
 description: 고객 여정 분석에서 플랫폼 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
 translation-type: tm+mt
 source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
@@ -9,7 +9,7 @@ source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 # 구성 요소 및 속성 설정
 
-기존 Adobe Analytics 센스의 eVar, prop 및 이벤트는 고객 여정 분석에 더 이상 존재하지 않습니다. 대신 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 데이터 수집 프로세스 동안 eVar 및 prop에 적용하는 데 사용한 모든 속성 설정이 이제 쿼리 시간에 적용되어 보고서 시간 처리라고도 합니다.
+기존 Adobe Analytics 센스의 eVar, prop, 이벤트는 Customer Journey Analytics에 더 이상 존재하지 않습니다. 대신 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 데이터 수집 프로세스 동안 eVar 및 prop에 적용하는 데 사용한 모든 속성 설정이 이제 쿼리 시간에 적용되어 보고서 시간 처리라고도 합니다.
 
 비디오 개요를 보려면 [여기를](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) 클릭하십시오.
 
