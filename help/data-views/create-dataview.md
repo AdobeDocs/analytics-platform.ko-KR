@@ -1,5 +1,5 @@
 ---
-title: 데이터 뷰 만들기
+title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 플랫폼 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
 translation-type: tm+mt
 source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
@@ -7,7 +7,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 ---
 
 
-# 데이터 뷰 만들기
+# 데이터 보기 만들기
 
 데이터 보기는 데이터의 &quot;필터링된&quot; 보기라는 점에서 Analytics의 가상 보고서 세트와 유사합니다. 방문 시간 초과, 속성 등에 대한 서로 다른 설정을 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 단일 데이터 세트에 대해 여러 데이터 보기를 만들 수 있습니다. 예를 들어 모든 차원이 &quot;마지막 터치&quot;로 설정되는 하나의 데이터 보기를 가질 수 있고, 모든 차원이 &quot;첫 번째 터치&quot;로 설정된 다른 데이터 보기(동일한 데이터 세트 기반)를 동시에 볼 수 있습니다.
 
