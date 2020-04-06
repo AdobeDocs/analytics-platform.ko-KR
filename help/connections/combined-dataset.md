@@ -2,7 +2,7 @@
 title: 데이터 세트 결합
 description: CJA에서 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
 
 다음 예를 고려하십시오. 데이터 집합이 두 개 있는데, 각각 다른 데이터가 들어 있는 필드가 다릅니다.
 
-> [!NOTE] Adobe Experience Platform은 일반적으로 타임스탬프를 Unix 밀리초 단위로 저장합니다. 이 예에서 가독성을 위해 날짜 및 시간이 사용됩니다.
+>[!NOTE] Adobe Experience Platform은 일반적으로 타임스탬프를 Unix 밀리초 단위로 저장합니다. 이 예에서 가독성을 위해 날짜 및 시간이 사용됩니다.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
