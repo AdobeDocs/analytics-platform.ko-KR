@@ -2,7 +2,7 @@
 title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -27,7 +27,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 인수의 값을 반환합니다. NOT을 사용하여 값이 하나의 특정 값과 같지 않은지 확인합니다.
 
-> [!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
+>[!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -64,7 +64,7 @@ Approximate Count Distinct (dimension)
 
 ## 고유 수가 초과되었습니다
 
-Count() 및 RowCount()와 마찬가지로 Approximate Count Distinct()는 [&quot;고유 수가 초과되었습니다&quot;](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)제한을 받습니다. 차원에 대한 특정 월 내에 &quot;고유 수가 초과되었습니다&quot; 제한에 도달하면 값이 1차원 항목으로 계산됩니다.
+Count() 및 RowCount()와 마찬가지로 Approximate Count Distinct()는 [&quot;고유 수가 초과되었습니다&quot;](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_uniques_high_numbers.html)제한을 받습니다. 차원에 대한 특정 월 내에 &quot;고유 수가 초과되었습니다&quot; 제한에 도달하면 값이 1차원 항목으로 계산됩니다.
 
 ## 카운트 함수 비교
 
@@ -203,7 +203,7 @@ N &lt;= 0이면 이전 행을 모두 사용합니다. 차원으로 순서가 지
 
 N &lt;= 0이면 이전 행을 모두 사용합니다. 차원으로 순서가 지정되므로 날짜 또는 경로 길이와 같은 자연스런 순서가 있는 차원에서만 유용합니다.
 
-> [!NOTE] 수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
+>[!NOTE] 수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -446,7 +446,7 @@ NOT을 사용하기 위해서는 표현식(&lt;, >, =, &lt;> 등)이 0이나 1 �
 
 인수가 TRUE이면 TRUE를 반환하고, 인수가 FALSE이면 FALSE를 반환합니다.
 
-> [!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
+>[!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -687,7 +687,7 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
 
-> [!NOTE][!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
+>[!NOTE][!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
 
 Z 점수(지표)
 
@@ -712,5 +712,5 @@ Z 스코어가 A인 n측 검증 Z 테스트를 수행합니다.
 
 현재 행이 열에서 우연히 볼 수 있는 확률을 반환합니다.
 
-> [!NOTE] 값은 정상적으로 배분된다고 가정합니다.
+>[!NOTE] 값은 정상적으로 배분된다고 가정합니다.
 
