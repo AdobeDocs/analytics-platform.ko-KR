@@ -2,7 +2,7 @@
 title: 참조 - 기본 함수
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 다음은 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
-> [!NOTE] [!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
+>[!NOTE] [!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
 
 ## 테이블 함수 대 행 함수
 
