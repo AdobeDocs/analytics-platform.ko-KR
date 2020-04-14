@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 기능 지원
 description: Adobe Analytics 기능 세트와 비교하여 고객 여정 분석 기능
 translation-type: tm+mt
-source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 가상 보고서 세트 | 이제 데이터 [보기라고 합니다](/help/data-views/create-dataview.md). |
 | VRS 구성 요소 조정 | 이제 데이터 보기의 일부입니다. |
 | 보고서 처리 시간 | CJA는 보고서 시간 처리에만 의존합니다. |
-| GDPR 삭제 | GDPR은 이제 Adobe Experience Platform과 연동되므로 CJA는 Experience Platform에서 기본 데이터 세트에 대한 모든 데이터 변경 사항을 상속받습니다. |
+| GDPR 삭제 | 이제 GDPR은 [!UICONTROL Experience Platform] - CJA는 기본 데이터 세트에 대한 모든 데이터 변경 사항을 상속합니다 [!UICONTROL Experience Platform] . |
 
 ## 주의 사항 지원
 
@@ -36,7 +36,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | --- | --- |
 | 제품 변수 | 현재 경험 이벤트 스키마를 따르는 데이터에 대해 보고할 수 있는 제품 변수(특히 productListItems 개체 사용)입니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
-| AAM 대상 | 고객이 Analytics 데이터 커넥터 데이터 집합을 사용하는 경우 이 데이터는 ADC 데이터의 일부가 됩니다. |
+| AAM 대상 | 고객이 [!UICONTROL Analytics Data Connector] 데이터 세트를 사용하는 경우 이 데이터는 ADC 데이터의 일부가 됩니다. |
 | 프로젝트 공유 | CJA 사용자는 프로젝트 공유만 지원됩니다. CJA와 기존 분석 작업 공간 간에는 프로젝트 공유가 없습니다. |
 | 사용자 정의 세션 | 모바일 백그라운드 히트를 제외한 모든 사용자 정의 세션 기능 지원 |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 속하지 않습니다. 하지만 이제 지속성 설정은 데이터 보기의 일부이며 모든 차원에 사용할 수 있습니다. 지속성은 데이터 수집 처리가 아닌 보고서 시간 처리를 기반으로 한다는 점을 염두에 두십시오. 즉, 모든 지속성은 데이터 전체가 아닌 보고 날짜 범위를 기반으로 합니다. |
@@ -50,9 +50,9 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 즉시 사용 가능한 분석 작업 공간 차원(예: 브라우저 유형, 레퍼러 유형, 마케팅 채널, 방문 번호 등) | CJA는 기본적으로 이러한 차원을 제공하지 않습니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 일부 차원은 사용할 수 없습니다. ADC를 통해 지원되는 Analytics 변수에 대한 [설명서를 참조하십시오](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md). |
 | 패널 | 빈 패널, 속성 패널 및 자유 형식 패널이 완전히 지원됩니다. 세그먼트 비교는 지원되지 않습니다. |
 | 머천다이징 eVar | 머천다이징 eVar는 동일한 XDM 스키마(위의 제품 목록 제한 사항과 유사)를 엄격하게 준수하지 않는 한 ADC 기반 데이터 집합에서만 작동합니다. |
-| 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 집합의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리는 Experience Platform 또는 CJA에서 수행하지 않습니다. |
+| 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 집합의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리는 [!UICONTROL Experience Platform] 또는 CJA에서 수행하지 않습니다. |
 | 처리 규칙 | ADC 기반 데이터 세트의 경우 처리 규칙이 계속 적용됩니다. |
-| 장치 간 ID 연결 | 고객은 쿼리 서비스를 통해 데이터를 &quot;1회&quot; 스티치로 제한되거나, 현재 경험 플랫폼 데이터 통합 전에 데이터에 이 논리를 적용해야 합니다. |
+| 장치 간 ID 연결 | 고객은 쿼리 서비스를 통해 데이터를 &quot;1회&quot; 스티치로 제한되거나, 현재 [!UICONTROL Experience Platform] 데이터를 수집하기 전에 데이터에 이 논리를 적용해야 합니다. |
 
 ## 현재 지원되지 않지만 계획됨
 
@@ -95,6 +95,6 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 보고 및 분석 대상 |  |
 | 보고 및 분석 달력 이벤트 |  |
 | Ad Hoc Analysis |  |
-| Data Warehouse 보고 | Adobe Experience Platform Query Service는 CJA에서 이러한 사용 사례를 위한 새로운 인터페이스입니다. |
+| Data Warehouse 보고 | [!UICONTROL Experience Platform Query Service] 는 CJA에서 이러한 사용 사례를 위한 새로운 인터페이스입니다. |
 | Mobile Services |  |
 | 데이터 피드 |  |
