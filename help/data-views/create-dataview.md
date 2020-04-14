@@ -2,7 +2,7 @@
 title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 플랫폼 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 
 ## 전제 조건
 
-데이터 뷰를 만들려면 먼저 Adobe Experience Platform 데이터 세트에 [](/help/connections/create-connection.md)대해 하나 이상의 연결을 설정해야 합니다.
+데이터 뷰를 만들려면 먼저 Experience Platform 데이터 세트에 대한 하나 이상의 연결을 [설정해야] 합니다(/help/connections/create-connection.md).
 
 ## 설정 구성
 
@@ -27,7 +27,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 
    | 세션 설정 | 정의 |
    |---|---|
-   | 연결 | 이 필드는 데이터 보기를 이전에 설정한 연결과 연결하며, 여기에는 플랫폼 데이터 집합/s가 포함됩니다. |
+   | 연결 | 이 필드는 데이터 뷰를 이전에 설정한 연결과 연결하여 데이터 [!UICONTROL Experience Platform] 세트/s를 포함합니다. |
    |  이름  | 데이터 보기에 이름을 지정해야 합니다. |
    | 설명 | 자세한 설명은 필수가 아니지만 권장됩니다. |
    | 태그 추가 | 태그를 사용하면 데이터 보기를 카테고리로 구성할 수 있습니다. |
