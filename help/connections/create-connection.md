@@ -2,7 +2,7 @@
 title: 연결 만들기
 description: 고객 경로 분석에서 플랫폼 데이터 세트에 대한 연결을 만드는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 757aea2f2ef4bb7eb1e9ba7c06a5705427255208
+source-git-commit: f17994c7d6812480102b9dc5fdbfc4609d2d1012
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 757aea2f2ef4bb7eb1e9ba7c06a5705427255208
 
    | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
    |---|---|---|---|---|
-   | [!UICONTROL Event-Schema] | &quot;Time Series&quot; 비헤이비어가 있는 XDM 클래스를 기반으로 하는 모든 내장 스키마 또는 사용자 지정 스키마입니다. &quot;XDM 경험 이벤트&quot; 또는 &quot;XDM 결정 이벤트&quot;가 그 예입니다. <br>시간(예: 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 데이터 등)으로 이벤트를 나타내는 데이터 예를 들어 고객 ID 또는 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용되는 ID에 대한 유연성이 있습니다. | UICONTROL Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 [필드로 자동 설정됩니다]. | 이 [데이터 집합] 유형이 기반으로 하는 UICONTROL Experience Platform 스키마. | 포함할 사람 ID를 선택할 수 있습니다. 경험 플랫폼에 정의된 각 데이터 세트 스키마는 하나 이상의 ID를 정의하거나 ID 네임스페이스와 연결할 수 있습니다. 이러한 ID 중 하나를 개인 ID로 사용할 수 있습니다. 쿠키 ID, 스티칭된 ID, 사용자 ID, 추적 코드 등이 있습니다. |
-   | [!UICONTROL Lookup-Schema] | &quot;XDM 개별 프로필&quot; 클래스를 제외하고 &quot;기록&quot; 비헤이비어가 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 지정 스키마.<br>분류 파일과 유사합니다. 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름으로 매핑하는 조회 데이터를 업로드할 수 있습니다. | 해당 없음 | 이 데이터 집합 유형이 기반으로 하는 [!DNL Experience Platform] 스키마입니다. | 해당 없음 |
-   | [!UICONTROL Profile-Schema] | &quot;XDM 개인 프로필&quot; 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. <br>비변경 및 비임시 [!UICONTROL Customer Attributes] 속성에 대한 것과 유사합니다. 방문자, 사용자 또는 [!UICONTROL Event] 데이터에 있는 고객에게 적용되는 데이터입니다. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | 이 데이터 집합 유형이 기반으로 하는 [!DNL Experience Platform] 스키마입니다. | 포함할 사람 ID를 선택할 수 있습니다. 에 정의된 각 데이터 집합에는 쿠키 ID, 스티칭된 ID, 사용자 ID, 추적 코드 등과 같은 하나 이상의 개인 ID가 정의되어 [!DNL Experience Platform] 있습니다.<br>![개인](assets/person-id.png)**정보&#x200B;**:ID가 다른 데이터 세트를 포함하는 연결을 만들면 보고에 해당 ID가 반영됩니다. 실제로 데이터 세트를 병합하려면 동일한 개인 ID를 사용해야 합니다. |
+   | [!UICONTROL Event] | 시간(예: 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 데이터 등)으로 이벤트를 나타내는 데이터 예를 들어 고객 ID 또는 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용되는 ID에 대한 유연성이 있습니다. | UICONTROL Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 [필드로 자동 설정됩니다]. | &quot;Time Series&quot; 비헤이비어가 있는 XDM 클래스를 기반으로 하는 모든 내장 스키마 또는 사용자 지정 스키마입니다. &quot;XDM 경험 이벤트&quot; 또는 &quot;XDM 결정 이벤트&quot;가 그 예입니다. | 포함할 사람 ID를 선택할 수 있습니다. 경험 플랫폼에 정의된 각 데이터 세트 스키마는 하나 이상의 ID를 정의하거나 ID 네임스페이스와 연결할 수 있습니다. 이러한 ID 중 하나를 개인 ID로 사용할 수 있습니다. 쿠키 ID, 스티칭된 ID, 사용자 ID, 추적 코드 등이 있습니다. |
+   | [!UICONTROL Lookup] | 분류 파일과 유사합니다. 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름으로 매핑하는 조회 데이터를 업로드할 수 있습니다. | 해당 없음 | &quot;XDM 개별 프로필&quot; 클래스를 제외하고 &quot;기록&quot; 비헤이비어가 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 지정 스키마. | 해당 없음 |
+   | [!UICONTROL Profile] | 비변경 및 비임시 [!UICONTROL Customer Attributes] 속성에 대한 것과 유사합니다. 방문자, 사용자 또는 [!UICONTROL Event] 데이터에 있는 고객에게 적용되는 데이터입니다. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | &quot;XDM 개인 프로필&quot; 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. | 포함할 사람 ID를 선택할 수 있습니다. 에 정의된 각 데이터 집합에는 쿠키 ID, 스티칭된 ID, 사용자 ID, 추적 코드 등과 같은 하나 이상의 개인 ID가 정의되어 [!DNL Experience Platform] 있습니다.<br>![개인](assets/person-id.png)**정보&#x200B;**:ID가 다른 데이터 세트를 포함하는 연결을 만들면 보고에 해당 ID가 반영됩니다. 실제로 데이터 세트를 병합하려면 동일한 개인 ID를 사용해야 합니다. |
 
 1. 클릭하면 **[!UICONTROL Next]** 대화 상자로 이동합니다 [!UICONTROL Create Connection] .
 
