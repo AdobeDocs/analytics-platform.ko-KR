@@ -2,9 +2,9 @@
 title: 연결 만들기
 description: 고객 경로 분석에서 플랫폼 데이터 세트에 연결하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
+source-git-commit: 4b672b0decfecc5a3c607ad966ebb2ecbf178a96
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '886'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 4%
 
    ![연결 생성](assets/create-connection.png)
 
-1. 먼저 연결을 만들 데이터 세트/s가 포함된 경험 플랫폼의 샌드박스를 선택합니다. Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 제공합니다. 샌드박스를 데이터 세트가 포함된 &quot;데이터 사일로&quot;로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다. 샌드박스 간에 데이터에 액세스할 수 없습니다.
+1. 먼저 데이터 세트 **[!UICONTROL 선택]**&#x200B;아래에서 연결을 만들 데이터 세트를 포함하는 경험 플랫폼의 [!UICONTROL 샌드박스를] 선택합니다.
+Adobe Experience Platform은 단일 [플랫폼 인스턴스를 별도의 가상 환경에 분할하는 샌드박스를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 제공합니다. 샌드박스를 [!UICONTROL 데이터] 세트를 포함하고 데이터 세트에 대한 액세스를 제어하는 데 사용되는 &quot;데이터 사일로&quot;로 간주할 수 있습니다. 샌드박스 간에 데이터에 액세스할 수 [!UICONTROL 없습니다].
 
 1. 샌드박스를 선택하면 왼쪽 레일은 해당 샌드박스의 모든 데이터 세트를 표시합니다. 고객 여정 분석으로 가져올 데이터 세트를 하나 이상 선택하고 [!UICONTROL 추가를] 클릭합니다 ****. 선택할 데이터 세트가 많을 경우 데이터 집합 목록 위의 검색 막대를 사용하여 올바른 데이터 집합을 검색할 수 있습니다.
 
