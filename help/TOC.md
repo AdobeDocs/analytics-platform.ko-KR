@@ -2,9 +2,9 @@
 git-repo: https://github.com/adobedocs/analytics-platform.en
 cloud: experience-cloud
 product: adobe analytics
-sub-product: customer journey
+sub-product: 고객 여정
 index: true
-user-guide-title: Customer Journey Analytics Guide
+user-guide-title: Customer Journey Analytics 안내서
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
@@ -12,7 +12,7 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 
 ---
