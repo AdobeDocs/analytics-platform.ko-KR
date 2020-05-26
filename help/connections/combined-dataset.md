@@ -1,8 +1,11 @@
 ---
 title: 데이터 세트 결합
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 100%
 
 ---
 
@@ -58,8 +61,8 @@ source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 | string_color | metric_a |
 | --- | --- |
-| 파란색 | 5 |
 | 지정되지 않음 | 6 |
+| 파란색 | 3 |
 | 빨간색 | 2 |
 
 하지만 두 표를 모두 연결에 포함한 경우 `user_847`이 두 데이터 세트에 있으므로 속성 변경됩니다. 두 번째 데이터 세트 속성의 한 행 `metric_a`가 이전에 지정되지 않은 &#39;노란색&#39;이면 다음이 표시됩니다.
@@ -67,5 +70,5 @@ source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 | string_color | metric_a |
 | --- | --- |
 | 노란색 | 6 |
-| 빨간색 | 2 |
 | 파란색 | 3 |
+| 빨간색 | 2 |
