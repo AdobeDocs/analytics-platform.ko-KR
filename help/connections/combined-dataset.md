@@ -1,9 +1,9 @@
 ---
 title: 데이터 세트 결합
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
