@@ -1,15 +1,20 @@
 ---
 title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '2949'
+ht-degree: 99%
 
 ---
 
 
 # 참조 - 고급 함수
 
-**[!UICONTROL Functions]** 드롭다운 목록에서 **[!UICONTROL Show Advanced]**&#x200B;를 선택하여 이러한 기능에 액세스합니다.
+>[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+
+**[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
 ## 테이블 함수 대 행 함수
 
