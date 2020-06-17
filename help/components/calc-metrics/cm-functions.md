@@ -1,13 +1,18 @@
 ---
 title: 참조 - 기본 함수
 description: '계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다. '
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 97%
 
 ---
 
 
 # 참조 - 기본 함수
+
+>[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 [계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.
 
@@ -213,7 +218,7 @@ ROUND(metric)
 
 | 인수 | 설명 |
 |---|---|
-| *수* | 반올림할 지표. |
+| *number* | 반올림할 지표. |
 
 자리 매개 변수가 없는 반올림은 자리 매개 변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다. 자리 매개 변수를 사용하면 소수의 오른쪽에 그만큼 많은 자리를 반환합니다. 자리가 음수이면, 소수의 왼쪽에 0들을 반환합니다.
 
@@ -250,7 +255,7 @@ SQRT(metric)
 
 | 인수 | 설명 |
 |---|---|
-| *수* | 제곱근이 필요한 지표. |
+| *number* | 제곱근이 필요한 지표. |
 
 ## 표준 편차(테이블)
 
