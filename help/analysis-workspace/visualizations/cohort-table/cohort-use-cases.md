@@ -1,0 +1,70 @@
+---
+description: 집단 분석 사용 사례 예입니다.
+keywords: Analysis Workspace
+title: 집단 분석 활용 사례
+topic: Reports and analytics
+uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 73%
+
+---
+
+
+# [!UICONTROL 집단 분석] 사용 사례
+
+>[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+
+Use case examples for [!UICONTROL Cohort Analysis].
+
+## 앱 참여 사용 사례
+
+앱을 설치하는 사용자가 어떻게 시간이 지남에 따라 앱에 참여하는지를 분석하려 한다고 가정합니다. 사용자들이 앱을 설치한 후 사용한 적이 없습니까? 잠깐 사용하고는 서서히 사용하지 않습니까? 또는 시간이 지남에 따라 참여한 채로 남아 있습니까?
+
+You can create a six-month [!UICONTROL Cohort Analysis]:
+
+**세부기간**: 2015년 1월부터 2015년 6월까지 매월.
+
+**포함 지표**: 앱 설치.
+
+**반환 지표**: 세션 또는 시작
+
+방문자가 세션을 사용하고 있거나 적어도 앱을 시작하고 있는 경우가 아니라면 그 다음 달은 세션을 하거나 앱을 시작하지 않는 한 다음 달에&#x200B;*`engaged`*&#x200B;입니다. [!UICONTROL 그런 다음 집단 분석은] 사용량에 있는 패턴을 보여주고, 이 패턴은 항상 월 0일에 *`App Install`* 발생합니다. 사용자가 언제 앱을 설치했는지에 상관없이 2번째 달에 사용량이 떨어질 수 있습니다. (2015년 1월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 3월입니다. 2015년 2월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 4월입니다.) 이 분석을 이용하면 앱을 설치한 후 2번째 달에 모든 사용자에게 이메일이나 푸시 메시지를 보내어 앱을 사용하도록 상기시킬 수 있습니다.
+
+## 앱 참여 사용 사례
+
+여러분은 Adobe.com에서 일하고 무료 Creative Cloud 가입을 제공합니다. 목표는 사용자가 무료 버전을 30일 평가판이나, (궁극적으로) 유료 버전으로 업그레이드하는 것입니다.
+
+**세부기간**: 월별
+
+**포함 지표**: 다운로드 링크
+
+**반환 지표**: 유료 Creative Cloud 구입
+
+Using this [!UICONTROL Cohort Analysis], you could see, for example, that anywhere between 8% and 10% of free Creative Cloud users upgrade in the first month after installation, regardless of when they installed. 두 번째 사용 달에는 12-15%가 업그레이드합니다. 그 후에는, 업그레이드가 크게 떨어져서, 세 번째 달에는 4-5%, 네 번째 달에는 3-4%, 다섯 번째 달에는 1-2%가 됩니다.
+
+세 번째 달에는 잠재적인 고객을 잃지 않아야 한다고 생각하고, 사용자 샘플에게 세 번째 달의 중간에 실행되도록 설계된 이메일 캠페인을 설정하여 아직 업그레이드하지 않은 사용자에게 $50 쿠폰을 제공합니다.
+
+몇 달 후 집단 분석 보고서로 다시 확인하십시오. 캠페인 시작 후 형성된 집단의 경우, 3번째 달에 유료 Creative Cloud 가입으로 전환하는 비율이 4-5%에서 13-14%로 증가하여, 이때부터 3번째 달을 히트하는 모든 월별 집단에 대해, 집단당 수십만 달러가 발생했습니다.
+
+## 복합 집단 세그먼트 사용 사례
+
+주요 호텔 체인은 프로모션을 위해 여러 고객 그룹을 대상으로 하며 성과를 추적합니다. 대상으로 가장 적합한 사용자 집단을 식별하기 위해 매우 구체적인 집단을 생성하려고 합니다. Using the augmented [!UICONTROL Inclusion] and [!UICONTROL Return] Criteria within [!UICONTROL Cohort] Tables, they are able to define just the right cohort groupings with multiple metrics and segments to identify underperforming customers groups in order to target them with promotions and deals to increase bookings.
+
+## 앱 버전 채택 사용 사례
+
+대형 보험 회사는 모바일 앱을 사용하여 많은 고객 참여를 유도합니다. 그러나 새로운 기능이 앱에 추가되면 고객이 최신 앱 버전으로 업그레이드하는 것이 중요합니다. They can analyze and compare all of their app versions side-by-side using [!UICONTROL Custom Dimension] Cohort to see which customers on which app version to target. 또한, 유지 및 이탈을 모두 추적하여 특정 앱 버전이 시간이 지남에 따라 고객이 앱을 사용하지 못하게 하는지 확인할 수 있습니다. 모바일 메시징을 통해 이러한 사용자가 최신 버전으로 업그레이드하여 최신 기능을 활용할 수 있도록 할 수 있습니다.
+
+## 캠페인 고착성 사용 사례
+
+다국적 미디어 기업은 대상 캠페인을 사용하여 사용자를 다양한 플랫폼으로 안내하여 참여를 유도합니다. 플랫폼당 광고 지출은 고객 참여 및 보존을 기반으로 하므로 성공적인 캠페인은 비즈니스 성공에 중요합니다. They use our new [!UICONTROL Custom Dimension] Cohort feature in [!UICONTROL Cohort] Tables to compare various campaigns side-by-side to identify which campaigns are most effective at acquiring and retaining users to increase engagement. 그런 다음 캠페인을 성공적으로 만드는 요소를 식별하고 다른 캠페인에 적용하여 다양한 플랫폼에서 참여를 높일 수 있습니다.
+
+## 제품 출시 사용 사례
+
+대형 의류 소매점은 수익에 큰 영향을 미치는 다양한 특정 고객군이 있습니다. 각 고객군에는 해당 고객군을 염두에 두고 설계한 특정 제품이 있습니다. 이러한 소매점은 각 제품이 출시되면 해당 신제품이 시간이 지나면서 다양한 집단에 대한 판매를 어떻게 증가시켰는지 파악하고 싶어합니다. Using the new [!UICONTROL Latency Table] setting in [!UICONTROL Cohort Analysis], they are able to analyze a given customer segment&#39;s pre-launch and post-launch behavior and revenue. 이 정보를 사용하여 새로운 수익을 창출하는 제품을 식별하고 어떤 제품이 고객의 관심을 끌지 못하는지 파악할 수 있습니다.
+
+## 개인 고착성 - 대부분의 단골 사용자 사용 사례
+
+주요 항공사는 반복적으로 해당 항공사를 이용하는 단골 고객으로부터 비즈니스의 성공을 도모하고 수익을 얻습니다. 대부분의 경우, 단골 여행객이 주요 수익원이며 이러한 고객은 장기적인 성공에 중요합니다. 충성도가 높고 일관된 고객을 식별하는 것은 쉽지 않습니다. However, using the new [!UICONTROL Rolling Calculation] setting in [!UICONTROL Cohort Analysis], they were able to analyze loyal customer segments and find out which travelers were repeat purchasers month-over-month. 그런 다음 이러한 여행객을 대상으로 충성도에 대한 보상과 혜택을 제공할 수 있습니다. 또한 집단 유형을 보존에서 이탈로 전환하면 시간이 경과하면서 어떤 고객이 반복 구매자가 되지 않는지 식별할 수 있고, 이러한 고객군을 대상으로 다시 구매를 유도할 수 있는 프로모션을 제공하여 미래의 단골 고객으로 확보할 수 있습니다.
