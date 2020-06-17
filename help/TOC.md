@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/adobedocs/analytics-platform.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
 cloud: experience-cloud
 product: adobe analytics
 sub-product: 고객 여정
@@ -12,8 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
+translation-type: tm+mt
+source-git-commit: d8450b8435400aa16ce4d87868f804b82d1df4d7
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 92%
 
 ---
 
@@ -27,10 +30,6 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
    + [FAQ](getting-started/cja-faq.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
    + [CJA 용어](getting-started/cja-glossary.md)
-+ Workspace 프로젝트 {#cja-reporting}
-   + [Workspace 소개](projects/workspace-basics.md)
-   + [기본 분석 수행](projects/perform-basic-analysis.md)
-   + [고급 분석 수행](projects/perform-adv-analysis.md)
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
    + [연결 관리](connections/manage-connection.md)
@@ -38,7 +37,91 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
++ Workspace projects {#cja-workspace}
+   + [Analysis Workspace 개요](analysis-workspace/home.md)
+   + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
+   + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
+   + Workspace 프로젝트 작성 {#build-workspace-project}
+      + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
+      + 열 및 행 설정 {#column-row-settings}
+         + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
+         + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
+         + [수동 행과 다이내믹 행 비교](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
+      + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
+      + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
+      + [작업 공간 합계](analysis-workspace/build-workspace-project/workspace-totals.md)
+   + 시각화 {#visualizations}
+      + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table.md)
+      + 집단 테이블 {#cohort-table}
+         + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [집단 분석 활용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+      + 폴아웃 {#fallout}
+         + [폴아웃 개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [차원 간 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [폴아웃 분석에 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+      + 흐름 {#flow}
+         + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
+         + [흐름 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
+         + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + [히스토그램](analysis-workspace/visualizations/histogram.md)
+      + [벤](analysis-workspace/visualizations/venn.md)
+      + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
+      + [막대 및 스택 막대](analysis-workspace/visualizations/bar.md)
+      + [글머리 기호 그래프](analysis-workspace/visualizations/bullet-graph.md)
+      + [도넛](analysis-workspace/visualizations/donut.md)
+      + [가로 막대 및 스택 가로 막대](analysis-workspace/visualizations/horizontal-bar.md)
+      + [라인](analysis-workspace/visualizations/line.md)
+      + [산포도](analysis-workspace/visualizations/scatterplot.md)
+      + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
+      + [텍스트](analysis-workspace/visualizations/text.md)
+      + [트리 맵](analysis-workspace/visualizations/treemap.md)
+   + 패널 {#panels}
+      + [패널 개요](analysis-workspace/c-panels/panels.md)
+      + [기여도 분석 패널](analysis-workspace/c-panels/attribution.md)
+      + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
+      + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
+      + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
+   + 프로젝트 조정 및 공유 {#curate-share}
+      + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
+      + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
+      + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
+      + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
+   + 속성 IQ {#attribution}
+      + [기여도 분석 개요](analysis-workspace/attribution/overview.md)
+      + [기여도 모델 및 조회 창](analysis-workspace/attribution/models.md)
+      + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
+      + [FAQ](analysis-workspace/attribution/faq.md)
+   + 가상 분석가 {#virtual-analyst}
+      + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
+      + 예외 항목 탐지 {#anomaly-detection}
+         + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+         + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
+         + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + 작업 영역 FAQ {#workspace-faq}
+      + [FAQ](analysis-workspace/workspace-faq/faq.md)
+      + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Analysis Workspace의 접근성](analysis-workspace/workspace-faq/aw-accessibility.md)
 + 구성 요소 {#cja-components}
+   + [구성 요소 개요](components/overview.md)
+   + 차원 {#dimensions}
+      + [차원 미리 보기](components/dimensions/view-dimensions.md)
+      + [차원 분류](components/dimensions/t-breakdown-fa.md)
+      + [차원 시간 분할](components/dimensions/time-parting-dimensions.md)
+   + [지표](components/apply-create-metrics.md)
    + 필터 {#cja-filters}
       + [필터 개요](components/filters/filters-overview.md)
       + [필터 만들기](components/filters/create-filters.md)
@@ -53,10 +136,9 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
       + [날짜 범위 개요](components/date-ranges/overview.md)
       + [날짜 범위 만들기](components/date-ranges/create.md)
       + [날짜 범위 관리](components/date-ranges/manage.md)
-   + 프로젝트 {cja-projects}
-      + [프로젝트 개요](components/projects/overview.md)
-      + [프로젝트 만들기](components/projects/create.md)
-      + [프로젝트 관리](components/projects/manage.md)
+      + [달력 개요](components/date-ranges/calendar.md)
+      + [사용자 지정 날짜 범위 만들기](components/date-ranges/custom-date-ranges.md)
+      + [날짜 비교](components/date-ranges/time-comparison.md)
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
 + 개인 정보 보호 {#cja-privacy}
