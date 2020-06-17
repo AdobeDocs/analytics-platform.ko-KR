@@ -1,0 +1,74 @@
+---
+description: Analysis Workspace의 실행 취소 옵션 변경 사항 및 개선 사항
+title: 실행 취소 및 다시 실행 설정
+translation-type: tm+mt
+source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 89%
+
+---
+
+
+# 실행 취소 및 다시 실행 설정
+
+>[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+
+**[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 실행 취소/다시 실행]**
+
+* **[!UICONTROL 다시 실행]** 선택 사항(실행 취소를 다시 실행)은 **[!UICONTROL 편집]** 메뉴에 있습니다.
+
+* **[!UICONTROL 저장]**&#x200B;을 클릭해도 **[!UICONTROL 실행 취소]** 스택이 지워지지 않습니다.
+
+* **[!UICONTROL 새 프로젝트]** 또는 **[!UICONTROL 기존 프로젝트 열기]**&#x200B;를 사용하면 **[!UICONTROL 실행 취소]** 스택이 지워집니다.
+
+* 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
+* 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
+* 다음 [핫키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용할 수 있습니다.
+
+   * CTRL(CMD)+Z: 실행 취소
+   * CTRL(CMD)+SHIFT+Z: 다시 실행
+
+## 실행 취소 또는 다시 실행할 수 있는 작업 {#section_1E94152CC206470D84FC11710311DA12}
+
+* 큐레이션
+* 모두 삭제
+* 기간
+* 기여도 분석
+* 세그먼트 비교
+* 프로젝트 이름
+* 보고서 세트 선택
+* 시각화 추가/제거
+* 패널 또는 시각화 축소/확장
+* 핫키를 사용한 삽입(CTRL(CMD)+Z: 실행 취소), (CTRL(CMD)+SHIFT+Z: 다시 실행)
+* 삽입 패널
+* 마우스 오른쪽 단추 클릭 패널 옵션(중복 패널, 모든 패널 축소, 모든 패널 확장, 패널의 모든 시각화 축소, 패널의 모든 시각화 확장, 패널 설명 편집)
+* 자유 형식 패널 변경 사항
+* 시각화 크기, 패널 크기, 시각화 위치 변경 사항
+* 자유 형식 마우스 오른쪽 단추 클릭 옵션
+* 선택
+* 시각화 범례 선택
+* 패널에 세그먼트 추가
+* 차트에서의 시각화 설정
+* 범례 레이블 편집
+* 매직 시각화
+* 데이터 소스 설정
+* 폴아웃 터치포인트 및 시각화 설정
+* 플로우 노드 변경 사항 및 시각화 설정
+* 히스토그램 및 시각화 설정
+* 벤 및 시각화 설정
+* 집단(세부기간 변경 실행 취소, 포함 지표 및 반환 지표의 추가 또는 변경 실행 취소, 재설정 실행 취소, 보고서 실행 실행 취소)
+* 플로우, 벤 및 히스토그램 다시 시작
+* 설명 편집
+* 중복 시각화
+
+## 실행 취소 또는 다시 실행할 수 없는 작업 {#section_65BB313E048F4744B692926362873230}
+
+* 프로젝트 정보 및 설정 변경 사항(태그 추가, 설명 변경 사항, 반복 인스턴스 계산 설정)
+* 랜딩 페이지로 설정
+* 새 항목 추가(세그먼트/지표/날짜 범위/경고)
+* 프로젝트 공유, 프로젝트 링크 가져오기, 파일 보내기(지금 또는 예약)
+* 플로우 시각화 시 이 경로에 대해 세그먼트 만들기
+* 계산된 지표 만들기
+* 날짜 범위 만들기
+
