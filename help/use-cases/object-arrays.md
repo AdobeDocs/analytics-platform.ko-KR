@@ -1,16 +1,16 @@
 ---
-title: 개체 배열에 CJA 사용
+title: 개체 배열 사용
 description: CJA가 데이터 계층에 대해 보고하는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: b7cd74f3fe2f0222e78452f58a7c387f6e0c86d2
+source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# 개체 배열에 CJA 사용
+# 개체 배열 사용
 
 일부 플랫폼 스키마에는 개체 배열이 있을 수 있습니다. 가장 일반적인 예 중 하나는 여러 제품을 포함하는 장바구니입니다. 각 제품에는 이름, SKU, 카테고리, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 측면에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
 
@@ -206,7 +206,7 @@ CJA는 보고서를 생성하기 위해 히트의 이러한 부분을 확인합�
       "SKU": "1234", 
       "category": "Washing Machines", 
       "name": "LG Washing Machine 2000", 
-      "orders": 1, 
++      "orders": 1, 
       "revenue": 1600, 
       "units": 1,
       "order_id":"abc123", 
@@ -239,3 +239,30 @@ CJA는 보고서를 생성하기 위해 히트의 이러한 부분을 확인합�
 +  "timestamp": 1534219229
 +}
 ```
+
+여기에 이름이 연결되어 있지 않은 주문에 주목하십시오. &#39;지정되지 않음&#39; 차원 값에 속하는 주문입니다.
+
+### 지표 결합
+
+CJA는 이름이 비슷한 지표를 다른 객체 수준에 있는 경우 기본적으로 결합하지 않습니다.
+
+| `product : category` | `product : revenue` | `product : warranty : revenue` |
+| --- | --- | --- |
+| `Washing Machines` | `1600` | `250` |
+| `Dryers` | `500` | `0` |
+| `Total` | `2100` | `250` |
+
+하지만 원하는 지표를 결합하는 계산된 지표를 만들 수 있습니다.
+
+계산된 지표 &quot;총 매출액&quot;: `[product : revenue] + [product : warranty : revenue]`
+
+이 계산된 지표를 적용하면 원하는 결과가 표시됩니다.
+
+| `product : warranty : name` | `Total revenue (calculated metric)` |
+| --- | --- |
+| `Washing Machines` | `1850` |
+| `Dryers` | `500` |
+| `Total` | `2350` |
+
+## 지속성 예
+
