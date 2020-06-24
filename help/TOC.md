@@ -13,10 +13,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 17e6cc8f79c542465971162666d846e2b1e0da58
+source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 91%
+source-wordcount: '379'
+ht-degree: 90%
 
 ---
 
@@ -115,6 +115,7 @@ ht-degree: 91%
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace의 접근성](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace의 롱테일](analysis-workspace/workspace-faq/long-tail.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
    + 차원 {#dimensions}
