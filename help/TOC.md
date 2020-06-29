@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
-+ Workspace projects {#cja-workspace}
++ Workspace 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
@@ -66,7 +66,7 @@ ht-degree: 90%
          + [폴아웃 개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [폴아웃 분석에 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [폴아웃 분석에서 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 흐름 {#flow}
          + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [흐름 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
@@ -91,16 +91,16 @@ ht-degree: 90%
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 조정 및 공유 {#curate-share}
-      + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
-      + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
-      + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [Workspace 프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [Workspace 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [보기 전용 Workspace 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
       + [기여도 분석 개요](analysis-workspace/attribution/overview.md)
-      + [기여도 모델 및 조회 창](analysis-workspace/attribution/models.md)
+      + [기여도 분석 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
    + 가상 분석가 {#virtual-analyst}
@@ -114,7 +114,7 @@ ht-degree: 90%
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace의 접근성](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace의 롱테일](analysis-workspace/workspace-faq/long-tail.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
