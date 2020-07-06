@@ -3,7 +3,7 @@ description: 'null'
 title: 흐름 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 90%
@@ -13,7 +13,9 @@ ht-degree: 90%
 
 # 흐름 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 이 흐름 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
 
@@ -23,7 +25,9 @@ ht-degree: 90%
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석 
 * 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성 
 
->[!NOTE] 흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
+>[!NOTE]
+>
+>흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
 
 [플로우 시각화 - YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
