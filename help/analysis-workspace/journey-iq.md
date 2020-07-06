@@ -2,7 +2,7 @@
 title: Journey IQ
 description: Adobe Analytics의 일부인 기능들의 세트인 Journey IQ를 구성하는 기능들을 이해하십시오.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 85%
@@ -12,7 +12,9 @@ ht-degree: 85%
 
 # Journey IQ
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 Journey IQ는 고객 환경을 더 잘 이해하기 위해 사용하기 쉽고 완전히 사용자 지정 가능한 시각화 및 설정을 제공하는 기능 세트로서, 고객이 서로 다른 채널을 이동하더라도 고객의 동선에 있는 각 터치 포인트를 측정할 수 있도록 해줍니다. 고객을 다시 참여시키고 고객의 충성도를 유지하며 그 과정에서 고객 환경을 개인화할 위치를 더 잘 알려면 이 기능들을 사용하십시오.
 
