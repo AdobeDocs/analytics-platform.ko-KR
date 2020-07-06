@@ -3,7 +3,7 @@ description: 테이블의 정적 행과 상호 작용하는 방법.
 title: 정적 행과 및 다이내믹 행 비교
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 91%
@@ -13,7 +13,9 @@ ht-degree: 91%
 
 # 정적 행과 및 다이내믹 행 비교
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 테이블은 사용자가 차원을 테이블에 놓을 때 &quot;다이내믹&quot; 행을 생성합니다. 즉, 지정된 지표에 대해 차원에 해당하는 모든 항목이 테이블로 가져오게 됩니다.
 
