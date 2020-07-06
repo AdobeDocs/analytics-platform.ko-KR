@@ -5,7 +5,7 @@ title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 96%
@@ -15,7 +15,9 @@ ht-degree: 96%
 
 # 프로젝트 만들기 - 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**
 
@@ -25,13 +27,13 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 쿼리는 보고 엔진에 바로 적용됩니다. 다른 보고서를 가져오지 않고 인라인으로 변경 작업을 수행하여 분석을 만들 수 있습니다. 브라우저를 새로 고침하지 않고 결과가 바로 반환됩니다.
 
-## Workspace 프로젝트 목록 페이지 {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## 작업 공간 프로젝트 목록 페이지 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-처음에 **[!UICONTROL 분석]**> **[!UICONTROL Workspace]**&#x200B;로 이동하면 페이지는 소유하거나 액세스 권한이 부여된 모든 프로젝트를 나열합니다. **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭하여 이 페이지를 Adobe Analytics 랜딩 페이지로 설정할 수 있습니다. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
+처음에 **[!UICONTROL 분석]**> **[!UICONTROL 작업 공간]**&#x200B;으로 이동하면 페이지는 소유하거나 액세스 권한이 부여된 모든 프로젝트를 나열합니다. **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭하여 이 페이지를 Adobe Analytics 랜딩 페이지로 설정할 수 있습니다. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
 
 ![](assets/sample-project.png)
 
-Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있습니다.
+작업 공간 프로젝트 목록 페이지에는 다음 정보가 포함되어 있습니다.
 
 | 요소 | 설명 |
 |---|---|
@@ -39,9 +41,9 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 | [새 프로젝트 만들기](/help/analysis-workspace/home.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
-| 이름 | Workspace 프로젝트의 이름. |
+| 이름 | 작업 공간 프로젝트의 이름. |
 | 작성자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
+| 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 
 ## 프로젝트 정보 및 설정 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
@@ -57,7 +59,7 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 | 프로젝트 이름 | 프로젝트에 지정된 이름. 이름을 두 번 클릭하여 편집할 수 있습니다.  |
 | 작성자 | 프로젝트 소유자 이름 |
 | 마지막 수정 날짜 | 프로젝트의 마지막 수정 날짜.  |
-| 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. 프로젝트를 저장하는 동안 태그를 지정할 수도 있습니다. Workspace 랜딩 페이지의 [!UICONTROL 태그] 열에서 프로젝트의 태그를 봅니다. |
+| 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. 프로젝트를 저장하는 동안 태그를 지정할 수도 있습니다. 작업 공간 랜딩 페이지의 [!UICONTROL 태그] 열에서 프로젝트의 태그를 봅니다. |
 | 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 두 번 클릭하여 편집할 수 있습니다.  |
 | 프로젝트에서 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. |
 | 시각화 색상 구성표 | 다른 색상 팔레트에서 선택하거나 사용자가 보유한 팔레트를 지정하여 작업 공간에서 사용되는 색상 구성표를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 공간의 많은 사항에 영향을 줍니다. |
@@ -71,7 +73,9 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 
 하위 메뉴에는 다음 선택 사항이 포함됩니다.
 
->[!NOTE] 별표(*)로 표시된 선택 사항은 **저장된** 프로젝트에서만 표시됩니다.
+>[!NOTE]
+>
+>별표(*)로 표시된 선택 사항은 **저장된** 프로젝트에서만 표시됩니다.
 
 | 프로젝트 | 편집 | 삽입 | 구성 요소 | 공유 | 도움말 |
 |---|---|---|---|---|---|
