@@ -2,7 +2,7 @@
 title: 산포도
 description: 최대 3개의 지표 간의 관계를 보여주는 시각화입니다.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 9%
@@ -12,7 +12,9 @@ ht-degree: 9%
 
 # 산포도
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 산포도 시각화는 차원 값과 최대 3개의 지표 간의 관계를 보여줍니다. 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
 
