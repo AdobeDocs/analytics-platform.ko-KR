@@ -2,7 +2,7 @@
 title: 기여도 분석 개요
 description: 성공 이벤트의 크레딧을 여러 차원 값에 기인하는 개념.
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 50%
@@ -12,7 +12,9 @@ ht-degree: 50%
 
 # 기여도 분석 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 기여도 분석가는 차원 값이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
 
