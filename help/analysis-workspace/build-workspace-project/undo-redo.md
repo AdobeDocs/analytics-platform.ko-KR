@@ -2,7 +2,7 @@
 description: Analysis Workspace의 실행 취소 옵션 변경 사항 및 개선 사항
 title: 실행 취소 및 다시 실행 설정
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
@@ -12,9 +12,11 @@ ht-degree: 89%
 
 # 실행 취소 및 다시 실행 설정
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 실행 취소/다시 실행]**
+**[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 실행 취소/다시 실행]**
 
 * **[!UICONTROL 다시 실행]** 선택 사항(실행 취소를 다시 실행)은 **[!UICONTROL 편집]** 메뉴에 있습니다.
 
