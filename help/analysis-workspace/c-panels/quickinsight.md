@@ -2,7 +2,7 @@
 description: 빠른 통찰력은 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 6%
@@ -12,7 +12,9 @@ ht-degree: 6%
 
 # 빠른 인사이트 패널
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
@@ -68,6 +70,7 @@ ht-degree: 6%
 1. 하나 이상의 차원과 지표를 추가한 경우 다음을 생성합니다.
 
    * 세로 차원(미국 주)과 맨 위에 가로로 지표(여기, 방문)가 있는 자유 형식 테이블. 다음 표를 확인하십시오.
+
    ![](assets/qibuilder3.png)
 
    * 함께 제공되는 시각화(이 경우 [막대 차트](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/ [!UICONTROL 월당 방문] 수)는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: 장치당 [!UICONTROL 방문] 수 )는 기본적으로 [!UICONTROL 막대] 차트가됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
