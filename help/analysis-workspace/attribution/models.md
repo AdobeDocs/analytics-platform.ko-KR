@@ -1,18 +1,20 @@
 ---
-title: 기여도 모델 및 조회 창
+title: 기여도 분석 모델 및 전환 확인 기간
 description: 다양한 유형의 속성이 차원 값 간에 크레딧을 나누는 방법입니다.
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
 
-# 기여도 모델 및 조회 창
+# 기여도 분석 모델 및 전환 확인 기간
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 Adobe Analytics의 기여도 개념에는 두 가지 구성 요소가 필요합니다.
 
@@ -45,7 +47,9 @@ Adobe Analytics의 기여도 개념에는 두 가지 구성 요소가 필요합�
 
 * **사용자 지정 조회 창:** 보고 날짜 범위를 최대 90일까지 확장할 수 있습니다. 사용자 지정 조회 창은 보고 기간의 각 변환에 대해 평가됩니다. 예를 들어 2월 20일에 발생한 전환의 경우 10일의 전환 확인 창은 속성 모델에서 2월 10일부터 20일까지 모든 차원 터치포인트를 평가합니다.
 
->[!NOTE] **[!UICONTROL 사용자 지정 검색 창은]** 현재 제한된 테스트에 있습니다. 자세한 내용은 [Adobe Analytics 기능 릴리스를](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) 참조하십시오.
+>[!NOTE]
+>
+>**[!UICONTROL 사용자 지정 검색 창은]** 현재 제한된 테스트에 있습니다. 자세한 내용은 [Adobe Analytics 기능 릴리스를](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) 참조하십시오.
 
 ## 예
 
@@ -76,4 +80,6 @@ Adobe Analytics의 기여도 개념에는 두 가지 구성 요소가 필요합�
       * 소셜: 18.6%, $9.32 받음
       * 유료 검색: 13.8%, $6.92 받음
 
->[!TIP] 주문이나 사용자 지정 이벤트와 같은 기타 전환 이벤트도 크레딧이 둘 이상의 채널에 속하는 경우 나누어집니다. 예를 들어 두 채널이 선형 기여도 분석 모델을 사용하여 사용자 지정 이벤트에 기여하는 경우 두 채널 모두 사용자 지정 이벤트의 0.5를 받습니다. 이러한 이벤트 소수 값은 모든 방문에 걸쳐 집계된 다음 보고를 위해 가장 가까운 정수로 반올림됩니다.
+>[!NOTE]
+>
+>주문이나 사용자 지정 이벤트와 같은 기타 전환 이벤트도 크레딧이 둘 이상의 채널에 속하는 경우 나누어집니다. 예를 들어 두 채널이 선형 기여도 분석 모델을 사용하여 사용자 지정 이벤트에 기여하는 경우 두 채널 모두 사용자 지정 이벤트의 0.5를 받습니다. 이러한 이벤트 소수 값은 모든 방문에 걸쳐 집계된 다음 보고를 위해 가장 가까운 정수로 반올림됩니다.
