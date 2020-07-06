@@ -3,7 +3,7 @@ description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위�
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 96%
@@ -13,7 +13,9 @@ ht-degree: 96%
 
 # 날짜 비교
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
@@ -48,7 +50,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    [퍼센트 변경] 열의 행은 음수 값인 경우 빨간색으로 표시되고 양수 값인 경우 녹색으로 표시됩니다.
 
-1. (선택 사항) 다른 Workspace 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
+1. (선택 사항) 다른 작업 공간 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
 
    ![](assets/compare-time-barchart.png)
 
