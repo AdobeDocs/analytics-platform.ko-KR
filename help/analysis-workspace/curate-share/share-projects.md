@@ -1,9 +1,9 @@
 ---
 description: 작업 공간의 프로젝트 공유 및 프로젝트 역할
 keywords: Analysis Workspace sharing
-title: Workspace 프로젝트 공유
+title: 작업 공간 프로젝트 공유
 translation-type: tm+mt
-source-git-commit: 3a2cb7ad15f1491ef4fe6fdcb3135b29675c40e8
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 5%
@@ -11,9 +11,11 @@ ht-degree: 5%
 ---
 
 
-# Workspace 프로젝트 공유
+# 작업 공간 프로젝트 공유
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 공유하면 조직의 다른 Analysis Workspace 사용자가 프로젝트를 사용할 수 있습니다. 적용한 모든 [조정](curate.md) 기능은 받는 사람이 프로젝트를 열 때 반영됩니다.
 
