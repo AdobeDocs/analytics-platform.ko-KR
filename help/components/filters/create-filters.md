@@ -2,7 +2,7 @@
 title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 38%
@@ -26,7 +26,9 @@ ht-degree: 38%
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] 이렇게 만든 필터는 프로젝트 내부입니다.
+>[!NOTE]
+>
+>이렇게 만든 필터는 프로젝트 내부입니다.
 
 다음 단계에 따라 이러한 필터를 공개(전역)하도록 선택할 수 있습니다.
 
