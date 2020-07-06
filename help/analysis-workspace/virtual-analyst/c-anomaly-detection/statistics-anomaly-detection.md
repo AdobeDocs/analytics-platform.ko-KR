@@ -3,7 +3,7 @@ description: Analysis Workspace의 예외 항목 탐지에서는 일련의 고�
 title: 예외 항목 탐지에서 사용된 통계 기법
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 97%
@@ -13,7 +13,9 @@ ht-degree: 97%
 
 # 예외 항목 탐지에서 사용된 통계 기법
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기법을 사용하여 관찰 내용을 예외적인 것으로 간주해야 하는지 여부를 결정합니다.
 
