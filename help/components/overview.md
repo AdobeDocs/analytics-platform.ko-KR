@@ -2,7 +2,7 @@
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 86%
@@ -38,7 +38,9 @@ See [Create a project](/help/analysis-workspace/home.md) for information about u
 
 다양한 방법으로(개별적으로 또는 두 개 이상을 선택하여) 구성 요소를 관리할 수 있습니다. 구성 요소를 마우스 오른쪽 단추로 클릭하거나 구성 요소 목록의 맨 위에서 **[!UICONTROL 작업]**&#x200B;을 클릭하십시오.
 
->[!NOTE] 시간 구성 요소에는 이 작업이 적용되지 않습니다.
+>[!NOTE]
+>
+>시간 구성 요소에는 이 작업이 적용되지 않습니다.
 
 | 구성 요소 작업 | 설명 |
 |--- |--- |
