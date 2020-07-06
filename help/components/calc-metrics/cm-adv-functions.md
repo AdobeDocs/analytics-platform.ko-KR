@@ -2,7 +2,7 @@
 title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 99%
@@ -12,7 +12,9 @@ ht-degree: 99%
 
 # 참조 - 고급 함수
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
@@ -32,7 +34,9 @@ ht-degree: 99%
 
 인수의 값을 반환합니다. NOT을 사용하여 값이 하나의 특정 값과 동일하지 않도록 하십시오.
 
->[!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
+>[!NOTE]
+>
+>0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -208,7 +212,9 @@ N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 
 
 N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 지정되므로 날짜나 경로 길이와 같은 자연상의 순서가 있는 차원에만 유용합니다.
 
->[!NOTE] 수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
+>[!NOTE]
+>
+>수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -451,7 +457,9 @@ NOT을 사용하기 위해서는 표현식(&lt;, >, =, &lt;> 등)이 0이나 1 �
 
 인수가 TRUE이면 TRUE를 반환하고, 인수가 FALSE이면 FALSE를 반환합니다.
 
->[!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
+>[!NOTE]
+>
+>0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -692,7 +700,9 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
 
->[!NOTE][!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
+>[!NOTE]
+>
+>[!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
 
 Z 점수(지표)
 
@@ -717,5 +727,7 @@ Z 스코어가 A인 n측 검증 Z 테스트를 수행합니다.
 
 현재 행이 열에서 우연히 보일 수 있는 확률을 반환합니다.
 
->[!NOTE] 값은 정상적으로 배분된다고 가정합니다.
+>[!NOTE]
+>
+>값은 정상적으로 배분된다고 가정합니다.
 
