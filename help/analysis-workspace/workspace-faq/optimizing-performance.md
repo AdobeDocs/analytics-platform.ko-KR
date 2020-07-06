@@ -3,7 +3,7 @@ description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 98%
@@ -13,7 +13,9 @@ ht-degree: 98%
 
 # Analysis Workspace 성능 최적화
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 특정 요소는 Analysis Workspace 내에 있는 프로젝트의 성능에 영향을 줄 수 있습니다. 최적의 방법으로 프로젝트를 계획 및 작성할 수 있도록 프로젝트 작성을 시작하기 전에 그러한 기여자가 무엇인지 알아두는 것이 중요합니다. 다음은 프로젝트 최적화에 대한 성과 및 우수 사례에 영향을 주는 요소 목록입니다. Analysis Workspace 성능은 Adobe의 최우선 순위 중 하나이며 매일 지속적으로 개선되고 있습니다.
 
