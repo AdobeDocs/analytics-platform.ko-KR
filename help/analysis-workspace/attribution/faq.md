@@ -2,7 +2,7 @@
 title: 기여도 분석 FAQ
 description: 기여도 분석과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 83%
@@ -12,7 +12,9 @@ ht-degree: 83%
 
 # 기여도 분석 FAQ
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 **기여도 분석을 사용할 때 &quot;없음&quot; 라인 항목은 무엇입니까?**
 
@@ -85,4 +87,6 @@ Analytics의 일부 차원은 하나의 히트에 여러 값을 포함할 수 �
 
 ![디스플레이 전용 가상 보고서 세트](assets/vrs-aiq-example.png)
 
->[!NOTE] 세그먼트가 지표를 포함하는 히트를 억제하면 해당 지표 인스턴스는 어떤 차원에서든 기여하지 않습니다. 하지만 비슷한 보고서 필터는 속성 모델별로 처리된 지표에 영향을 주지 않고 일부 차원 값을 숨기기만 합니다. 따라서 세그먼트는 비교 가능한 정의가 있는 필터보다 낮은 값을 반환할 수 있습니다.
+>[!NOTE]
+>
+>세그먼트가 지표를 포함하는 히트를 억제하면 해당 지표 인스턴스는 어떤 차원에서든 기여하지 않습니다. 하지만 비슷한 보고서 필터는 속성 모델별로 처리된 지표에 영향을 주지 않고 일부 차원 값을 숨기기만 합니다. 따라서 세그먼트는 비교 가능한 정의가 있는 필터보다 낮은 값을 반환할 수 있습니다.
