@@ -4,21 +4,25 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: 폴아웃 분석에서 세그먼트 적용
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 
-# 폴아웃 분석에 필터 적용
+# 폴아웃 분석에서 필터 적용
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 터치포인트에서 필터를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 필터에서 주요 워크플로우를 비교할 수 있습니다.
 
->[!IMPORTANT] 폴아웃에서 체크포인트로 사용되는 필터는 폴아웃 시각화의 전체 컨텍스트보다 낮은 수준의 컨테이너를 사용해야 합니다. 방문자 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 필터는 방문 또는 히트 기반 필터여야 합니다. 방문 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 필터는 히트 기반 세그먼트여야 합니다. 잘못된 조합을 사용하는 경우 폴아웃은 100%가 됩니다. 호환되지 않는 필터를 터치포인트로 추가할 때 표시되는 폴아웃 시각화에 경고가 추가되었습니다. 특정 잘못된 필터 컨테이너 조합은 다음과 같은 잘못된 폴아웃 다이어그램을 생성합니다.
+>[!IMPORTANT]
+>
+>폴아웃에서 체크포인트로 사용되는 필터는 폴아웃 시각화의 전체 컨텍스트보다 낮은 수준의 컨테이너를 사용해야 합니다. 방문자 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 필터는 방문 또는 히트 기반 필터여야 합니다. 방문 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 필터는 히트 기반 세그먼트여야 합니다. 잘못된 조합을 사용하는 경우 폴아웃은 100%가 됩니다. 호환되지 않는 필터를 터치포인트로 추가할 때 표시되는 폴아웃 시각화에 경고가 추가되었습니다. 특정 잘못된 필터 컨테이너 조합은 다음과 같은 잘못된 폴아웃 다이어그램을 생성합니다.
 
 * 방문자 기반 필터를 방문자 컨텍스트 폴아웃 시각화 내에서 터치포인트로 사용
 * 방문자 기반 필터를 방문 컨텍스트 폴아웃 시각화 내에서 터치포인트로 사용
