@@ -3,7 +3,7 @@ description: 'null'
 title: 폴아웃 개요
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 95%
@@ -13,7 +13,9 @@ ht-degree: 95%
 
 # 폴아웃 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다.
 
@@ -39,13 +41,13 @@ ht-degree: 95%
 
 ## 흐름 및 폴아웃을 위한 기초로서의 세그멘테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics 및 Ad Hoc Analysis의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만, 주된 차이점은 Reports &amp; Analytics 및 Ad Hoc Analysis의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
+작업 공간 패널에 적용된 세그먼트는 Reports &amp; Analytics 및 Ad Hoc Analysis의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만, 주된 차이점은 Reports &amp; Analytics 및 Ad Hoc Analysis의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
 
 다음 두 단계를 사용하여 폴아웃의 예를 살펴보겠습니다.
 
 ![](assets/fallout_segments1.png)
 
-그런 다음 Workspace 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
+그런 다음 작업 공간 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
 
 ![](assets/fallout_seg.png)
 
