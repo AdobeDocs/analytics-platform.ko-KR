@@ -1,9 +1,9 @@
 ---
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
-translation-type: ht
-source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 비디오 개요를 보려면 [여기](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)를 클릭하십시오.
 
->[!IMPORTANT] 여러 [!DNL Experience Platform] 데이터 세트를 하나의 연결로 결합할 수 있습니다.
+>[!IMPORTANT]
+>
+>여러 [!DNL Experience Platform] 데이터 세트를 하나의 연결로 결합할 수 있습니다.
 
 1. [https://analytics.adobe.com](https://analytics.adobe.com)으로 이동합니다.
 
