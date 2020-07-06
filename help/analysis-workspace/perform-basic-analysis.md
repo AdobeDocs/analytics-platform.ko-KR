@@ -2,7 +2,7 @@
 title: Customer Journey Analytics에서 기본 분석 수행
 description: Customer Journey Analytics에서 기본 시각화를 사용하여 데이터를 분석하는 방법을 설명합니다.
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 72%
@@ -12,7 +12,9 @@ ht-degree: 72%
 
 # 기본 분석 수행
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 연결 및 데이터 보기를 만든 후 Analysis Workspace의 강력한 기능과 유연성을 사용하여 가져온 데이터를 분석합니다. 차원과 지표를 자유롭게 테스트하고 드래그하고, 차원과 지표 속성 설정, 친숙한 이름, 시간대, 세션 설정 등을 변경할 수 있습니다.
 
