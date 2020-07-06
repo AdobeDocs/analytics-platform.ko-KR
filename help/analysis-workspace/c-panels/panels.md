@@ -2,17 +2,19 @@
 description: 'null'
 title: 패널 개요
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
 
 # 패널 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 이러한 네 가지 유형의 패널을 Customer Journey Analytics에 사용할 수 있습니다.
 
