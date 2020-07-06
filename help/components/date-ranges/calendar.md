@@ -3,7 +3,7 @@ description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설�
 title: 달력 및 날짜 범위 개요
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 93%
@@ -13,7 +13,9 @@ ht-degree: 93%
 
 # 달력 및 날짜 범위 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 
@@ -23,7 +25,7 @@ ht-degree: 93%
 
 달력에서 처음 클릭하면 날짜 범위 선택이 시작됩니다. 두 번째 클릭을 수행하면 날짜 범위 선택이 완료되고 강조 표시됩니다. `Shift` 키를 누르고 있거나 마우스 오른쪽 단추 클릭을 사용하면 현재 선택한 범위에 추가됩니다.
 
-사용자는 날짜(및 시간 차원)를 Workspace 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
+사용자는 날짜(및 시간 차원)를 작업 공간 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
 [Analysis Workspace에서 날짜 범위 및 달력 사용 - YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
 
