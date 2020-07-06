@@ -3,7 +3,7 @@ description: '히스토그램은 Analysis Workspace의 새로운 시각화 유�
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 87%
@@ -13,7 +13,9 @@ ht-degree: 87%
 
 # 히스토그램
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
 
@@ -27,7 +29,9 @@ ht-degree: 87%
 
 ![](assets/histogram.png)
 
->[!NOTE] 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
+>[!NOTE]
+>
+> 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
 
 여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째(왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
 
