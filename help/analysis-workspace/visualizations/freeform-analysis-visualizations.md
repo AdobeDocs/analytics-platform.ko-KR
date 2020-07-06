@@ -3,7 +3,7 @@ description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 �
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: c6d98c03362617d34213e5d0d4ca35a24350b26c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 97%
@@ -13,7 +13,9 @@ ht-degree: 97%
 
 # 시각화 개요
 
->[!NOTE] Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. 각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 자세한 내용을 보려면 시각화의 이름을 클릭합니다.
 
