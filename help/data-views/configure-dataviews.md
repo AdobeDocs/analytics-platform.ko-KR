@@ -1,8 +1,11 @@
 ---
 title: 데이터 보기 및 기여도 구성
 description: Customer Journey Analytics에서 Platform 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 속성 설정을 적용하기 전에 다음 사항을 염두에 두십시오.
 
-* 데이터 보기 사용자 인터페이스에서 기본 속성을 지정합니다. **참고**: 나중에 Workspace 프로젝트에서 이러한 설정을 재지정할 수 있습니다. 그러나 이 기능은 현재 사용할 수 없습니다.
+* 데이터 보기 사용자 인터페이스에서 기본 속성을 지정합니다. **참고**: 나중에 작업 공간 프로젝트에서 이러한 설정을 재지정할 수 있습니다. 그러나 이 기능은 현재 사용할 수 없습니다.
 
-* Customer Journey Analytics의 속성 설정은 비파괴적이며 소급 적용됩니다. 즉, Customer Journey Analytics에서는 데이터 세트에 되돌릴 수 없는 손상을 줄 수 없습니다. 실수로 무언가를 삭제하더라도 언제든지 [!UICONTROL Experience Platform]으로 돌아가서 데이터 세트를 다시 가져올 수 있습니다. 그러나 데이터 세트를 다시 가져올 경우 추가 비용이 발생할 수 있음을 염두에 두십시오.
+* Customer Journey Analytics의 속성 설정은 비파괴적이며 소급 적용됩니다. 즉, Customer Journey Analytics에서는 데이터 세트에 되돌릴 수 없는 손상을 줄 수 없습니다. Even if you accidentally delete something, you can always go back to [!UICONTROL Experience Platform] and bring the dataset back in. 그러나 데이터 세트를 다시 가져올 경우 추가 비용이 발생할 수 있음을 염두에 두십시오.
 
 * 기존의 eVar(전환 변수)처럼 차원이 &quot;동작&quot;하게 하려면 기본적으로 &quot;마지막 터치 방문&quot; 속성으로 구성해야 합니다.
 
@@ -38,7 +41,7 @@ source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 1. 차원 및 지표에 대한 구성 요소 및 속성 설정을 지정합니다. 개별 설정에 대한 자세한 내용은 아래를 참조하십시오.
 
-1. 데이터 보기를 저장하려면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Save]** to save your data view.
 
 
 ### 구성 요소 설정
@@ -64,7 +67,7 @@ source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ### 만료
 
-차원 값이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 세션, 개인 또는 사용자 지정 수준에서 속성 만료를 설정할 수 있습니다.
+차원 항목이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 세션, 개인 또는 사용자 지정 수준에서 속성 만료를 설정할 수 있습니다.
 
 | 설정 | 정의 |
 |---|---|
