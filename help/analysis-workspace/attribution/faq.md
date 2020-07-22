@@ -2,10 +2,10 @@
 title: 기여도 분석 FAQ
 description: 기여도 분석과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 **기여도 분석을 사용할 때 &quot;없음&quot; 라인 항목은 무엇입니까?**
 
@@ -77,7 +77,7 @@ ht-degree: 83%
 
 Analytics의 일부 차원은 하나의 히트에 여러 값을 포함할 수 있습니다. 일반적인 예로는 목록 변수와 제품 변수가 있습니다.
 
-기여도 분석이 다중 값 히트에 적용되면 동일한 히트에 있는 모든 값이 동일한 크레딧을 받습니다. 많은 값이 이 크레딧을 받을 수 있으므로 보고서 합계는 각 개별 라인 항목을 합산한 경우와 다를 수 있습니다. 보고서 합계는 중복 제거되고 각 개별 차원값은 적절한 크레딧을 받습니다.
+기여도 분석이 다중 값 히트에 적용되면 동일한 히트에 있는 모든 값이 동일한 크레딧을 받습니다. 많은 값이 이 크레딧을 받을 수 있으므로 보고서 합계는 각 개별 라인 항목을 합산한 경우와 다를 수 있습니다. 보고서 합계는 중복 제거되지만 각 개별 차원 항목은 적절한 크레딧을 받습니다.
 
 **기여도는 세그먼테이션과 어떻게 연동됩니까?**
 
@@ -89,4 +89,4 @@ Analytics의 일부 차원은 하나의 히트에 여러 값을 포함할 수 �
 
 >[!NOTE]
 >
->세그먼트가 지표를 포함하는 히트를 억제하면 해당 지표 인스턴스는 어떤 차원에서든 기여하지 않습니다. 하지만 비슷한 보고서 필터는 속성 모델별로 처리된 지표에 영향을 주지 않고 일부 차원 값을 숨기기만 합니다. 따라서 세그먼트는 비교 가능한 정의가 있는 필터보다 낮은 값을 반환할 수 있습니다.
+>세그먼트가 지표를 포함하는 히트를 억제하면 해당 지표 인스턴스는 어떤 차원에서든 기여하지 않습니다. 하지만 비슷한 보고서 필터는 속성 모델별로 처리된 지표에 영향을 주지 않고 일부 차원 항목을 숨기기만 합니다. 따라서 세그먼트는 비교 가능한 정의가 있는 필터보다 낮은 값을 반환할 수 있습니다.
