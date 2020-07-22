@@ -5,10 +5,10 @@ title: 차원 분류
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
@@ -28,7 +28,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
    ![단계 결과](assets/fa_data_table_actions.png)
 
-   선택한 기간에 대해 차원 값이나 대상 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
+   선택한 기간에 대해 차원 항목이나 대상 세그먼트별로 지표를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
    >[!NOTE] 테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
