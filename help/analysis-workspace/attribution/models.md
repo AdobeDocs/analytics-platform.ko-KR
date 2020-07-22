@@ -1,11 +1,11 @@
 ---
 title: 기여도 분석 모델 및 전환 확인 기간
-description: 다양한 유형의 속성이 차원 값 간에 크레딧을 나누는 방법입니다.
+description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Adobe Analytics의 기여도 개념에는 두 가지 구성 요소가 필요합니다.
 
