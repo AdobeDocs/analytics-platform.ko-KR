@@ -3,10 +3,10 @@ description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 �
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. 각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 자세한 내용을 보려면 시각화의 이름을 클릭합니다.
 
@@ -34,7 +34,7 @@ YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.
 | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다. |
-| [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 값과 최대 3개 지표 간의 관계를 표시합니다. |
+| [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 합계와 요약을 표시합니다. |
 | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 셀을 서로 비교합니다. |
 | [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다. |
