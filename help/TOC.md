@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 98%
@@ -37,17 +37,17 @@ ht-degree: 98%
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
-+ Workspace 프로젝트 {#cja-workspace}
++ 작업 공간 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
-   + Workspace 프로젝트 작성 {#build-workspace-project}
+   + 작업 공간 프로젝트 작성 {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [수동 행과 다이내믹 행 비교](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [동적 항목과 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -91,9 +91,9 @@ ht-degree: 98%
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 조정 및 공유 {#curate-share}
-      + [Workspace 프로젝트 조정](analysis-workspace/curate-share/curate.md)
-      + [Workspace 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
-      + [보기 전용 Workspace 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
