@@ -1,11 +1,11 @@
 ---
-title: 동적 차원과 정적 차원 항목
+title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목
 description: 표의 동적 및 정적 차원 항목과 상호 작용하는 방법.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 8%
+source-wordcount: '518'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 8%
 
 동적 차원 항목에는 행 필터 옵션이 있으며, 잠금 및 X 아이콘이 **없습니다** .
 
+![](assets/dynamic-items.png)
+
 ## 정적 차원 항목
 
 정적 차원 항목은 시간에 따라 변경되지 않습니다. 자유 형식 테이블에서 항상 반환되는 고정 구성 요소입니다. 정적 차원 항목은 특정 캠페인이든 주의 특정 요일이든 항상 동일한 항목을 분석하려는 경우 선호됩니다.
@@ -39,15 +41,18 @@ ht-degree: 8%
 
 정적 차원 항목에는 행 필터 옵션이 **없습니다** . 대신 각 항목에 잠금 및 X 아이콘이 표시됩니다. 테이블에서 해당 차원 항목을 제거하려면 X 아이콘을 클릭합니다.
 
+![](assets/static-items.png)
+
 ## 혼합 차원 항목
 
 다른 차원의 차원 항목을 동일한 테이블에 추가할 수 있습니다. 이러한 경우 행 헤더에는 &quot;혼합 차원&quot;이 표시됩니다. 이러한 차원 항목은 정적입니다. 예를 들어 브라우저 유형 차원의 특정 차원 항목과 브라우저 차원의 기타 차원 항목을 추가하는 것이 좋습니다.
+
+![](assets/mixed-dimensions.png)
 
 ## 자유 형식 총 행
 
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로:
 
 * 동적 행은 방문 또는 방문자와 같은 서버 측 및 중복 제거 지표를 합합니다
-* 정적 행은 클라이언트측에서 합해지며 지표 중복을 **해제하지** 않습니다.
+* 정적 행은 클라이언트측에서 합해지며 지표 중복을 **해제하지** 않습니다. 총 행 서버측을 계산하려면 행 설정을 총 합계 **표시로 변경하십시오**. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
-[동적 및 정적 행에 대한 작업 공간 전체](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) 옵션에 대해 자세히 알아보십시오.
