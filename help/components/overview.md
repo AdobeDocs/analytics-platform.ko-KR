@@ -1,11 +1,11 @@
 ---
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 82%
 구성 요소는 보고서에서 사용하거나 보고 기능을 보완하는 Customer Journey Analytics의 기능입니다. 다음 단계를 사용하여 이러한 구성 요소를 관리할 수 있습니다.
 
 1. Adobe ID 자격 증명을 사용하여 [analytics.adobe.com](https://analytics.adobe.com)에 로그인합니다.
-2. Navigate to [!UICONTORL Components] > [!UICONTROL Components] in the header menu.
+2. 헤더 메뉴에서 [!UICONTORL 구성 요소] > [!UICONTROL 구성 요소]로 이동합니다.
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [**필터&#x200B;**](filters/filters-overview.md): 일반적인 차원 항목에 집중할 데이터 일부 제외
+* [**필터&#x200B;**](filters/filters-overview.md): 데이터의 일부를 제외하여 공통 차원 항목에 주력
 * [**계산된 지표&#x200B;**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [**날짜 범위&#x200B;**](date-ranges/overview.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 지정 및 세분화
 * [**프로젝트&#x200B;**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트 구성 및 유지 관리
@@ -28,11 +28,11 @@ ht-degree: 82%
 
 Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자 지정 날짜 범위와 같은 만든 사용자 지정 구성 요소는 이러한 패널에 추가됩니다.
 
-구성 요소 패널에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. You can switch among Panels (Blank panel, [Freeform panel](/help/analysis-workspace/visualizations/freeform-table.md), [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md), or [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) panel), [Visualizations](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and Components using the left-rail icons or by using [hotkeys](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+구성 요소 패널에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. 왼쪽 레일 아이콘이나 [핫키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널(빈 패널, [자유 형식 패널](/help/analysis-workspace/visualizations/freeform-table.md), [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md) 또는 [기여도 IQ](/help/analysis-workspace/c-panels/attribution.md) 패널), [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 구성 요소 간을 전환할 수 있습니다.
 
 ![](assets/components.png)
 
-See [Create a project](/help/analysis-workspace/home.md) for information about using Components in a project.
+프로젝트에서의 구성 요소 사용에 대한 자세한 내용은 [프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 
 ## 구성 요소 작업
 
