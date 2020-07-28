@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [동적 항목과 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [동적 및 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
