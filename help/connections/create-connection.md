@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
+source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 82%
+source-wordcount: '1351'
+ht-degree: 62%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 82%
 
 1. **[!UICONTROL 타임스탬프]**: 여기에 콘텐트 추가
 
-1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만든 스키마를 기반으로 합니다.
+1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 [데이터](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html) 세트를 만든 스키마를 기반으로 합니다.
 
-1. **[!UICONTROL 개인 ID]**: Experience Platform의 데이터 집합 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다.
+1. **[!UICONTROL 개인 ID]**: 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 집합 스키마에서 정의되었습니다. 개인 ID로 ID 맵을 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -66,9 +66,20 @@ ht-degree: 82%
 
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Enable Connection] dialog.
 
-### ID 맵
+### 개인 ID로 ID 맵 사용
 
+이제 Customer Journey Analytics은 개인 ID에 대해 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 키 -> 값 쌍을 업로드할 수 있는 지도 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 존재하며 그에 따라 각 행에 대해 채워집니다.
 
+Identity Map은 ExperienceEvent XDM 클래스를 기반으로 스키마를 사용하는 모든 데이터 세트에 사용할 수 있습니다. CJA 연결에 포함할 데이터 세트를 선택하는 경우 필드를 기본 ID 또는 ID 맵으로 선택할 수 있습니다.
+
+![](assets/idmap1.png)
+
+ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
+
+| 옵션 | 설명 |
+|---|---|
+| [!UICONTROL 기본 ID 네임스페이스 사용] | CJA는 행당 기본=true 속성으로 표시된 ID 맵에서 ID를 찾아 해당 행의 개인 ID로 사용합니다. 즉, Experience Platform에서 파티셔닝에 사용할 기본 키입니다. 또한 CJA의 방문자 ID로 사용하기에 가장 적합한 후보(CJA 연결에서 데이터 세트를 구성하는 방법에 따라 다름)입니다. |
+| [!UICONTROL 네임스페이스] | 이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다. ID 네임스페이스는 ID와 관련된 컨텍스트의 지표로 사용되는 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) 의 구성 요소입니다. 네임스페이스를 지정하면 CJA가 각 행의 ID 맵에서 이 네임스페이스 키를 검색하고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 모든 행의 전체 데이터 세트를 스캔하여 실제로 사용 중인 네임스페이스가 무엇인지 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운에 나열됩니다. 데이터에서 어떤 네임스페이스가 지정되었는지 알아야 합니다. 자동으로 검색할 수 없습니다. |
 
 ## 연결 활성화
 
@@ -76,7 +87,7 @@ ht-degree: 82%
 
 1. 연결을 활성화하려면 다음 설정을 정의합니다.
 
-   | 필드 | 설명 |
+   | 옵션 | 설명 |
    |---|---|
    | [!UICONTROL 이름 연결] | 연결을 설명하는 이름을 지정합니다. 연결을 저장할 때 반드시 이름을 지정해야 합니다. |
    | [!UICONTROL 설명] | 이 연결을 다른 연결과 구분하려면 세부 사항을 더 추가합니다. |
