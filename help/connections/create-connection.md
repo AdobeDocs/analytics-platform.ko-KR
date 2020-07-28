@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
+source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 62%
+source-wordcount: '1626'
+ht-degree: 52%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 62%
 
 이제 Customer Journey Analytics은 개인 ID에 대해 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 키 -> 값 쌍을 업로드할 수 있는 지도 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 존재하며 그에 따라 각 행에 대해 채워집니다.
 
-Identity Map은 ExperienceEvent XDM 클래스를 기반으로 스키마를 사용하는 모든 데이터 세트에 사용할 수 있습니다. CJA 연결에 포함할 데이터 세트를 선택하는 경우 필드를 기본 ID 또는 ID 맵으로 선택할 수 있습니다.
+Identity Map은 ExperienceEvent XDM 클래스를 기반으로 스키마를 사용하는 모든 데이터 세트에 [사용할 수](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html) 있습니다. CJA 연결에 포함할 데이터 세트를 선택하는 경우 필드를 기본 ID 또는 ID 맵으로 선택할 수 있습니다.
 
 ![](assets/idmap1.png)
 
@@ -80,6 +80,15 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 |---|---|
 | [!UICONTROL 기본 ID 네임스페이스 사용] | CJA는 행당 기본=true 속성으로 표시된 ID 맵에서 ID를 찾아 해당 행의 개인 ID로 사용합니다. 즉, Experience Platform에서 파티셔닝에 사용할 기본 키입니다. 또한 CJA의 방문자 ID로 사용하기에 가장 적합한 후보(CJA 연결에서 데이터 세트를 구성하는 방법에 따라 다름)입니다. |
 | [!UICONTROL 네임스페이스] | 이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다. ID 네임스페이스는 ID와 관련된 컨텍스트의 지표로 사용되는 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) 의 구성 요소입니다. 네임스페이스를 지정하면 CJA가 각 행의 ID 맵에서 이 네임스페이스 키를 검색하고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 모든 행의 전체 데이터 세트를 스캔하여 실제로 사용 중인 네임스페이스가 무엇인지 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운에 나열됩니다. 데이터에서 어떤 네임스페이스가 지정되었는지 알아야 합니다. 자동으로 검색할 수 없습니다. |
+
+### Identity Map Edge Case
+
+이 표에서는 Edge Case가 있을 때와 이 사례들이 처리되는 방식을 두 가지 구성 옵션으로 보여 줍니다.
+
+| 옵션 | ID가 Identity Map에 없습니다. | 기본 ID로 표시된 ID 없음 | 여러 ID가 기본 ID로 표시됨 | 단일 ID가 기본 ID로 표시됨 | ID가 기본으로 표시된 네임스페이스가 잘못되었습니다. |
+|---|---|---|---|---|---|
+| **&quot;기본 ID 네임스페이스 사용&quot; 선택** | 행이 CJA에 의해 삭제됩니다. | 기본 ID가 지정되지 않았으므로 이 행은 CJA에 의해 삭제됩니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 압축됩니다. 그런 다음 알파벳순으로 정렬됩니다. 이 새로운 정렬을 사용하면 첫 번째 ID를 가진 첫 번째 네임스페이스가 사람 ID로 사용됩니다. | 기본 ID로 표시된 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(AEP에 없음) CJA는 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
+| **특정 ID 맵 네임스페이스 선택** | 행이 CJA에 의해 삭제됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록에 추출되며 첫 번째 ID는 개인 ID로 사용됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록에 추출되며 첫 번째 ID는 개인 ID로 사용됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록에 추출되며 첫 번째 ID는 개인 ID로 사용됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록에 추출되며 첫 번째 ID는 개인 ID로 사용됩니다. 연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 사람 ID로 사용할 수 없습니다. |
 
 ## 연결 활성화
 
