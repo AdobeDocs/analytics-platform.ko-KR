@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
+source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 90%
+source-wordcount: '999'
+ht-degree: 82%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 1. 오른쪽 상단에 있는 **[!UICONTROL 새 연결 만들기]**&#x200B;를 클릭합니다.
 
-   ![연결 생성](assets/create-connection.png)
+   ![연결 생성](assets/create-connection0.png)
 
 1. 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.
 
@@ -39,6 +39,8 @@ ht-degree: 90%
 ## 데이터 세트 구성
 
 오른쪽에서는 추가한 데이터 세트를 구성할 수 있습니다.
+
+![데이터 세트 구성](assets/create-connection.png)
 
 1. **[!UICONTROL 데이터 집합 유형]**: 이 연결에 추가한 각 데이터 세트에 대해 [!UICONTROL Customer Journey Analytics은] 들어오는 데이터를 기반으로 데이터 집합 유형을 자동으로 설정합니다.
 
@@ -54,17 +56,25 @@ ht-degree: 90%
 
 1. **[!UICONTROL 타임스탬프]**: 여기에 콘텐트 추가
 
-1. **[!UICONTROL 스키마]**:
+1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만든 스키마를 기반으로 합니다.
 
-1. **[!UICONTROL 개인 ID]**:
+1. **[!UICONTROL 개인 ID]**: Experience Platform의 데이터 집합 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다.
+
+   >[!IMPORTANT]
+   >
+   >선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. Experience Platform에서 ID를 정의하는 방법에 대한 [이 비디오를](https://youtu.be/G_ttmGl_LRU) 보십시오.
 
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Enable Connection] dialog.
 
-   ![연결 활성화](assets/create-connection2.png)
+### ID 맵
+
+
 
 ## 연결 활성화
 
-1. [!UICONTROL 연결 만들기] 대화 상자에서 다음 설정을 정의합니다.
+![연결 활성화](assets/create-connection2.png)
+
+1. 연결을 활성화하려면 다음 설정을 정의합니다.
 
    | 필드 | 설명 |
    |---|---|
