@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 90%
 
 ---
 
@@ -34,9 +34,13 @@ ht-degree: 100%
 
 1. [!UICONTROL Customer Journey Analytics]로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-   선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.
+   (If you have a lot of datasets to choose from, you can search for the right one(s) using the **[!UICONTROL Search datasets]** search bar above the list of datasets.)
 
-1. 그런 다음 이 연결에 추가한 각 데이터 세트에 대해 가져오는 데이터를 기반으로 데이터 세트 유형을 [!UICONTROL Customer Journey Analytics]에서 자동으로 설정합니다.
+## 데이터 세트 구성
+
+오른쪽에서는 추가한 데이터 세트를 구성할 수 있습니다.
+
+1. **[!UICONTROL 데이터 집합 유형]**: 이 연결에 추가한 각 데이터 세트에 대해 [!UICONTROL Customer Journey Analytics은] 들어오는 데이터를 기반으로 데이터 집합 유형을 자동으로 설정합니다.
 
    [!UICONTROL 이벤트] 데이터, [!UICONTROL 프로필] 데이터 및 [!UICONTROL 조회] 데이터의 세 가지 데이터 세트 유형이 있습니다.
 
@@ -46,9 +50,19 @@ ht-degree: 100%
    | [!UICONTROL 조회] | 분류 파일과 유사합니다. 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 내장 스키마 또는 사용자 지정 스키마. | 해당 없음 |
    | [!UICONTROL 프로필] | [!UICONTROL 고객 속성]의 비변경 및 비임시 속성과 유사합니다. [!UICONTROL 이벤트] 데이터에서 방문자, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | XDM 개인 프로필 클래스를 기반으로 하는 모든 내장 또는 사용자 지정 스키마. | 포함할 개인 ID를 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트에는 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등과 같은 개인 ID가 하나 이상 정의된 고유한 ID 세트가 있습니다.<br>![개인 ID](assets/person-id.png)**참고&#x200B;**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 동일한 개인 ID를 사용해야 합니다. |
 
-1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 연결 만들기] 대화 상자로 이동합니다.
+1. **[!UICONTROL 데이터 집합 ID]**: 이 ID는 자동으로 생성됩니다.
 
-   ![연결 생성](assets/create-connection2.png)
+1. **[!UICONTROL 타임스탬프]**: 여기에 콘텐트 추가
+
+1. **[!UICONTROL 스키마]**:
+
+1. **[!UICONTROL 개인 ID]**:
+
+1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Enable Connection] dialog.
+
+   ![연결 활성화](assets/create-connection2.png)
+
+## 연결 활성화
 
 1. [!UICONTROL 연결 만들기] 대화 상자에서 다음 설정을 정의합니다.
 
