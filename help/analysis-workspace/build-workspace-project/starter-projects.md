@@ -3,10 +3,10 @@ description: 작업 공간의 템플릿
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c7bf87b4ff3a7d0da930a22336db762fa3d74393
 workflow-type: tm+mt
 source-wordcount: '1420'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
 * **빈 프로젝트(기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
-* **사용자 지정 템플릿**: 이러한 템플릿은 관리자 권한이 있는 사용자 또는 관리자가 아닌 사용자가 만들거나, 공유하거나, 삭제할 수 있습니다. 단, 이러한 템플릿은 [!UICONTROL Analysis Workspace이 부여된 경우 가능합니다. Admin Console에서 템플릿으로] 저장 권한 [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
+* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -46,7 +46,7 @@ ht-degree: 95%
 
 | 작업 | 설명 |
 |--- |--- |
-| 편집 template | 관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다.  사용자 지정 템플릿을 편집하려면 다음을 수행하십시오.<ul><li>Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 템플릿 편집을 클릭합니다. 또는</li><li>Analytics에서 구성 요소 >  프로젝트로 이동한 다음 템플릿에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오.</li></ul>**참고:** 상황에 따라 템플릿을 편집한 후에는 저장과 다른 이름으로 저장, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다.<ul><li>**저장**: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다.</li><li>**다른 이름으로 저장**: 사용자의 변경 내용이 적용된 사용자 지정 템플릿의 사본을 만듭니다. (공유 > 프로젝트 공유 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.)</li></ul> |
+| 템플릿 편집 | 관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다.  사용자 지정 템플릿을 편집하려면 다음을 수행하십시오.<ul><li>Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 템플릿 편집을 클릭합니다. 또는</li><li>Analytics에서 구성 요소 >  프로젝트로 이동한 다음 템플릿에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오.</li></ul>**참고:** 상황에 따라 템플릿을 편집한 후에는 저장과 다른 이름으로 저장, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다.<ul><li>**저장**: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다.</li><li>**다른 이름으로 저장**: 사용자의 변경 내용이 적용된 사용자 지정 템플릿의 사본을 만듭니다. (공유 > 프로젝트 공유 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.)</li></ul> |
 | 템플릿 검색 | 사용자 지정 템플릿 대화 상자에서 템플릿 검색을 클릭합니다. |
 | 템플릿 정렬 | 템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다.  사용자 지정 템플릿 대화 상자에서 정렬:을 클릭합니다. |
 | 템플릿에 태그 적용 | 템플릿을 열고 프로젝트 > 프로젝트 정보 및 설정으로 이동합니다. 태그 추가를 클릭합니다. |
@@ -81,7 +81,7 @@ ht-degree: 95%
 
 ### 상거래
 
-* **마젠토: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 기여도 분석으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요가 필요하면 [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)를 참조하십시오.
+* **마젠토: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요가 필요하면 [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)를 참조하십시오.
 
 ### 미디어
 
@@ -133,7 +133,7 @@ ht-degree: 95%
 
 ### 여정 IQ: 장치 간 분석 템플릿
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 이 템플릿을 사용하면 중요한 장치 간 성능 데이터를 볼 수 있습니다. CDA([Cross-Device Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
 
