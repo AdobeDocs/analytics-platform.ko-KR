@@ -2,9 +2,9 @@
 title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: 721915ffdc9f196a13a360fb5ac145f750788bcf
+source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,15 @@ Creating your own schema for the [조회](/help/getting-started/cja-glossary.md)
 1. 데이터 세트 이름(예: B2B 정보)을 지정하고 설명을 제공합니다.
 1. **[!UICONTROL 마침을 클릭합니다]**.
 
+## 3. Experience Platform에 데이터 수집
 
-## 3. 데이터 세트를 연결(Customer Journey Analytics)에 결합
+방법 지침 [XDM 스키마에 CSV 파일 매핑](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) CSV 파일을 사용하는 경우 도움이 필요합니다.
+
+[기타 방법](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) 이 제공되고 있습니다.
+
+데이터를 온보딩하고 조회를 설정하는 데 조회 테이블의 크기에 따라 약 2~4시간이 소요됩니다.
+
+## 4. 데이터 세트를 연결(Customer Journey Analytics)에 결합
 
 이 예에서는 세 개의 데이터 세트를 하나의 CJA 연결로 결합합니다.
 
@@ -61,20 +68,18 @@ Creating your own schema for the [조회](/help/getting-started/cja-glossary.md)
 
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** tab.
 1. 결합할 데이터 세트(예: 위의 세 개)를 선택합니다.
-1. (이 단계가 속한 부분인지 확실하지 않음..) B2B 정보 데이터 세트에 대해 `accountID` 키. 그런 다음 일치하는 키(해당 차원)를 선택합니다. `accountID` 이벤트 데이터세트에 있는
+1. B2B 정보 데이터 세트에 대해 `accountID` 키. 그런 다음 일치하는 키(해당 차원)를 선택합니다. `accountID` 이벤트 데이터세트에 있는
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 연결 이름 및 설명 및 [이러한 지침](/help/connections/create-connection.md).
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-이제 데이터를 수집할 것입니다. 데이터를 온보딩하고 조회를 설정하는 데 조회 테이블의 크기에 따라 약 2~4시간이 소요됩니다.
-
-## 이 연결에서 데이터 보기 만들기
+## 5. 이 연결에서 데이터 보기를 만듭니다.
 
 다음 지침을 따르십시오. [dataviews 생성](/help/data-views/create-dataview.md).
 
 * 데이터 세트에서 필요한 모든 구성 요소(차원 및 지표)를 추가합니다.
 
-## 작업 공간에서 데이터 분석
+## 6. Workspace에서 데이터 분석
 
 이제 3개 데이터 세트의 데이터를 기반으로 Workspace 프로젝트를 만들 수 있습니다.
 
