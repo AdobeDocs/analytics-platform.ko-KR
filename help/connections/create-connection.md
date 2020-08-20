@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: bbe86f2d6e052262f0e8a84bca0996f4e2589433
+source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 97%
+source-wordcount: '1655'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
    >[!IMPORTANT]
    >
-   >샌드박스 간에 데이터를 액세스할 수 없습니다. 즉, 하나의 샌드박스 내에서만 데이터 세트를 결합할 수 있습니다.
+   >샌드박스 간 데이터에 액세스할 수 없습니다. 즉, 동일한 샌드박스 내에 있는 데이터 집합만 결합할 수 있습니다.
 
 1. [!UICONTROL Customer Journey Analytics]로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
