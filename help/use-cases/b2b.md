@@ -2,9 +2,9 @@
 title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 89%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 89%
 | 데이터 세트 이름 | 설명 | AEP 스키마 클래스 | 데이터 세트 세부 정보 |
 |---|---|---|---|
 | B2B 노출 | 계정 수준에서 클릭스트림, 이벤트 수준 데이터를 포함합니다. 예를 들어 마케팅 광고를 실행하기 위한 이메일 ID 및 해당 계정 ID와 마케팅 이름이 포함되어 있습니다. 또한 사용자당 해당 광고에 대한 노출 횟수도 포함됩니다. | XDM ExperienceEvent 스키마 클래스 기반 | `emailID`는 기본 ID로 사용되고 `Customer ID` 네임스페이스가 할당됩니다. 그 결과 Customer Journey Analytics에서 기본값 **[!UICONTROL 개인 ID]**&#x200B;로 표시됩니다. ![노출 횟수](assets/impressions-mixins.png) |
-| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`를 이 스키마의 기본 ID로 선택할 필요는 없습니다. **[!UICONTROL 프로필]**&#x200B;을 활성화해야 합니다. 그렇지 않으면 CJA가 B2B 프로필에서 `emailID`를 `emailID`와 함께 B2B 노출 데이터에서 연결할 수 없게 됩니다. (이 기능을 필드 기반 스티칭이라고 합니다.) ![프로필](assets/profile-mixins.png) |
+| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`를 이 스키마의 기본 ID로 선택할 필요는 없습니다. **[!UICONTROL 프로필]**&#x200B;을 활성화해야 합니다. 그렇지 않으면 CJA가 B2B 프로필에서 `emailID`를 `emailID`와 함께 B2B 노출 데이터에서 연결할 수 없게 됩니다. ![프로필](assets/profile-mixins.png) |
 | B2B 정보 | 위의 &quot;조회 데이터 세트 만들기&quot;를 참조하십시오. | B2BAccount(사용자 정의 조회 스키마 클래스) | `accountID` 및 B2B 노출 데이터 세트 간 관계는 아래 단계에 설명된 대로 B2B 정보 데이터 세트와 CJA의 B2B 노출 데이터 세트를 연결하여 자동으로 생성됩니다. ![조회](assets/lookup-mixins.png) |
 
 데이터 세트를 결합하는 방법은 다음과 같습니다.
