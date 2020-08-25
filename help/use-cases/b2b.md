@@ -1,11 +1,11 @@
 ---
 title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가하는 방법 알아보기
-translation-type: ht
-source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
-workflow-type: ht
-source-wordcount: '851'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 89%
 
 ---
 
@@ -37,6 +37,12 @@ ht-degree: 100%
 ## 2. 조회 데이터 세트 만들기(Experience Platform)
 
 스키마가 만들어지면 Experience Platform의 해당 스키마에서 조회 데이터 세트를 만들어야 합니다. 이 조회 데이터 세트에는 다음과 같은 계정 수준 마케팅 정보가 포함됩니다. 회사 이름, 총 직원 수, 도메인 이름, 해당 기업이 속한 업계, 연간 매출, 해당 고객이 Experience Platform의 현재 고객인지 여부, 현재 영업 단계, 계정 내에서 CJA를 사용하고 있는 팀 등.
+
+>[!IMPORTANT]
+>
+>CJA는 조회 데이터 집합의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA에서 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열을 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
+
+예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 Integer로 정의되는데, 이 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 관리 > 데이터 세트]**&#x200B;로 이동합니다.
 1. **[!UICONTROL + 데이터 세트 만들기]**&#x200B;를 클릭합니다.
@@ -73,9 +79,9 @@ ht-degree: 100%
 1. 연결의 이름을 지정하고 연결에 대해 설명하고 [이러한 지침](/help/connections/create-connection.md)에 따라 구성합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 5. 이 연결에서 데이터 뷰를 만듭니다.
+## 5. 이 연결에서 데이터 보기를 만듭니다.
 
-[데이터 뷰 생성](/help/data-views/create-dataview.md)에 대한 지침을 따르십시오.
+다음 지침을 따르십시오. [데이터 뷰 생성](/help/data-views/create-dataview.md).
 
 * 데이터 세트에서 필요한 모든 구성 요소(차원 및 지표)를 추가합니다.
 
