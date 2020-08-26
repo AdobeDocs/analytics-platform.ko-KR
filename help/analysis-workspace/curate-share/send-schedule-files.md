@@ -1,54 +1,24 @@
 ---
-description: 프로젝트를 공유 및 조정하고 프로젝트 파일(PDF 또는 CSV 형식)을 즉시 또는 일정에 따라 보낼 수 있습니다.
+description: 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다.
 title: 공유 메뉴
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c4c6bc367ba1a45146267b968edb88a634cbc7ae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 80%
+source-wordcount: '170'
+ht-degree: 32%
 
 ---
 
 
 # 공유 메뉴
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+작업 공간 내에서 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다 **공유 메뉴**.
 
-프로젝트를 공유 및 조정하고 프로젝트 파일(PDF 또는 CSV 형식)을 즉시 또는 일정에 따라 보낼 수 있습니다.
-
-**[!UICONTROL Workplace]** > **[!UICONTROL 공유]**
-
-<table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 옵션 </th> 
-   <th colname="col2" class="entry"> 방법 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 프로젝트 공유 </td> 
-   <td colname="col2"><a href="/help/analysis-workspace/curate-share/share-projects.md"  > 추가 정보</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 프로젝트 링크 가져오기 </td> 
-   <td colname="col2"> <p>다른 사람을 이 프로젝트로 바로 보내려면 링크를 복사 및 공유하십시오. 사용자는 로그인해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 지금 파일 보내기 </td> 
-   <td colname="col2"> <p>파일 유형, 설명 및 수신자를 지정합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 일정에 따라 파일 보내기 </td> 
-   <td colname="col2"> <p>시작 날짜, 간격 및 빈도, 종료 날짜를 지정합니다. <a href="/help/analysis-workspace/curate-share/schedule-projects.md"  > 추가 정보</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 프로젝트 데이터 조정 </td> 
-   <td colname="col2"> <p><a href="/help/analysis-workspace/curate-share/curate.md"  > 추가 정보</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 메뉴 옵션 | 설명 |
+|---|---|
+| 프로젝트 공유 | 조직의 다른 Analysis Workspace 사용자가 사용할 수 있는 프로젝트를 만듭니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 프로젝트 링크 가져오기 | 프로젝트에 신속하게 액세스할 수 있는 공유 가능한 링크를 만듭니다. 사용자는 로그인해야 합니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
+| 지금 파일 보내기 | 프로젝트를 지정된 수신자에게 즉시 CSV 또는 PDF로 전송할 수 있습니다. |
+| 일정에 따라 파일 보내기 | 예약된 시간에 특정 수신자에게 프로젝트를 CSV 또는 PDF로 보냅니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
+| 프로젝트 데이터 조정 | 프로젝트에서 사용할 수 있는 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한합니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html) |
