@@ -1,33 +1,60 @@
 ---
-description: 이메일을 통해 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
+description: Analysis Workspace 프로젝트를 이메일로 전송하거나 배달 일정을 예약할 수 있습니다.
 keywords: Analysis Workspace
-title: 파일 보내기 - 프로젝트를 게재할 일정 예약
+title: 예약된 프로젝트
+topic: Reports and analytics
+uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c4c6bc367ba1a45146267b968edb88a634cbc7ae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 76%
+source-wordcount: '465'
+ht-degree: 8%
 
 ---
 
 
-# 파일 보내기 - 프로젝트를 게재할 일정 예약
+# 예약된 프로젝트
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+작업 공간에서 **공유 메뉴**, you can send Analysis Workspace projects via email via email to selected recipients. 파일을 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
-이메일을 통해 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
+## 지금 파일 보내기
 
-1. [Analysis Workspace 프로젝트를 생성하고](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) 저장합니다.
-1. **[!UICONTROL 공유]** > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;를 클릭합니다.
+이메일을 통해 파일을 수신자에게 즉시 보내려면:
 
-   ![단계 결과](assets/send-file.png)
+1. 클릭 **공유 > 지금 파일 보내기**.
+1. 파일 유형(CSV 또는 PDF)을 지정합니다.
+1. (선택 사항) 수신되는 파일을 설명하는 이메일에 포함될 설명을 추가합니다.
+1. 받는 사람 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
+1. **지금 보내기**&#x200B;를 클릭합니다.
+1. (선택 사항) **예약 옵션 표시** 을 클릭하여 배달 일정을 지정합니다.
 
-1. [!UICONTROL 파일 보내기] 페이지에서 파일 형식(CSV 또는 PDF)을 지정합니다.
+## 일정에 따라 파일 보내기
 
-   ![단계 결과](assets/send-file-pop-up.png)
+이메일을 통해 주기적인 일정에서 수신자에게 파일을 보내려면:
 
-1. 수신자의 이메일 주소 또는 이름을 추가하고 **[!UICONTROL 지금 보내기]**&#x200B;를 클릭합니다.
-1. (선택 사항) **[!UICONTROL 예약 선택 사항 표시]**&#x200B;를 클릭하여 배달 일정을 지정한 다음, **[!UICONTROL 일정에 따라 보내기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 구성 요소]** > [예약된 프로젝트](/help/analysis-workspace/curate-share/schedule-projects.md)에서 예약된 프로젝트를 관리합니다.
+1. 클릭 **공유 > 일정에 따라 파일 보내기**.
+1. 파일 유형(CSV 또는 PDF)을 지정합니다.
+1. (선택 사항) 수신되는 파일을 설명하는 이메일에 포함될 설명을 추가합니다.
+1. 받는 사람 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
+1. 입력에서 시작 및 종료를 수정하여 일정이 전달될 범위를 지정합니다. 종료 날짜는 일정을 만들거나 수정한 날로부터 1년 이내여야 합니다.
+1. 배달 빈도를 지정합니다. 각 빈도에서는 다양한 사용자 지정을 사용할 수 있습니다.
+1. 클릭 **일정에 따라 보내기**.
+
+## 예약된 프로젝트 관리자
+
+예약된 Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 예약된 프로젝트**.
+
+예약된 프로젝트 관리자에서 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다. 검색 막대에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색합니다. 태그, 승인된 일정, 소유자 등으로 필터링할 수 있습니다.
+
+다음은 예약된 프로젝트 관리자의 일반적인 작업입니다.
+
+| 작업 | 설명 |
+|---|---|
+| **일정 편집** | 예약 제목을 클릭하여 배달 설정을 업데이트합니다. |
+| **일정 삭제** | 목록에서 예약된 프로젝트를 선택한 다음 메뉴에서 삭제를 클릭합니다. 선택한 프로젝트 일정이 삭제됩니다.프로젝트 자체는 삭제되지 않습니다. |
+| **태그 추가** | 목록에서 예약된 프로젝트를 선택한 다음 &quot;태그&quot; 또는 &quot;승인&quot;을 선택하여 일정을 구성하고 검색하기가 더 쉽습니다. |
+| **실패한 일정 보기** | 왼쪽 레일 > 기타 필터 > 실패한 예약을 보지 못했습니다. |
+| **만료된 일정 보기** | 왼쪽 레일 > 기타 필터 > 만료됨으로 이동하여 만료된 일정을 확인합니다. 일정의 제목을 클릭하여 새 배달 일정을 설정합니다. |
+| **예약 ID 보기** | 오른쪽 상단의 열 옵션으로 이동하고 예약 ID 열을 테이블에 추가합니다. 예약된 ID는 디버깅에 유용합니다. |
+
+예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다. 프로젝트 소유권 예약 **전송** 새 사용자에게 **관리 > Analytics 사용자 및 자산 > 자산 전송**.
