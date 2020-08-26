@@ -13,9 +13,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 98%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 98%
    + 프로젝트 조정 및 공유 {#curate-share}
       + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
       + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
       + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
