@@ -3,9 +3,9 @@ description: 요약 번호 및 변경 시각화를 사용하여 프로젝트의 
 title: 요약 번호 및 요약 변경 사항
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '403'
 ht-degree: 52%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 52%
 * 단일 셀을 선택하면 해당 셀의 요약이 표시됩니다.
 * 두 개 이상의 셀을 선택하면 선택한 첫 번째 셀이 표시됩니다.
 * 열을 선택하면 열의 첫 번째 셀 값이 선택됩니다.
+
+![요약 번호](assets/summary-number.png)
 
 Click the **시각화 설정** 오른쪽 상단에서 요약 번호 설정을 구성합니다.
 
@@ -43,6 +45,8 @@ Click the **시각화 설정** 오른쪽 상단에서 요약 번호 설정을 �
 * 세 개 이상의 셀을 선택하면 처음 두 개만 비교합니다.
 * 셀 범위를 선택하면 범위에서 선택한 첫 번째 셀과 마지막 셀을 비교합니다.
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
+
+![요약 변경](assets/summary-change.png)
 
 Click the **시각화 설정** 오른쪽 상단에서 요약 변경 설정을 구성합니다.
 
