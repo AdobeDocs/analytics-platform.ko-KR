@@ -3,19 +3,15 @@ description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 98%
+source-wordcount: '1315'
+ht-degree: 85%
 
 ---
 
 
 # Analysis Workspace 성능 최적화
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
 
 특정 요소는 Analysis Workspace 내에 있는 프로젝트의 성능에 영향을 줄 수 있습니다. 최적의 방법으로 프로젝트를 계획 및 작성할 수 있도록 프로젝트 작성을 시작하기 전에 그러한 기여자가 무엇인지 알아두는 것이 중요합니다. 다음은 프로젝트 최적화에 대한 성과 및 우수 사례에 영향을 주는 요소 목록입니다. Analysis Workspace 성능은 Adobe의 최우선 순위 중 하나이며 매일 지속적으로 개선되고 있습니다.
 
@@ -44,17 +40,15 @@ ht-degree: 98%
 
 프로젝트 전체에서 요청한 데이터 범위는 Analysis Workspace 성능에 영향을 줍니다.
 
-**데이터 범위에 대한 권장 사항**
+**날짜 범위에 대한 우수 사례**
 
-가능하면 필요 이상의 데이터를 가져오지 마십시오.
+가능하면 필요 이상의 데이터를 가져오지 마십시오. 분석 관련 날짜로 패널 달력의 범위를 좁히거나 자유 형식 테이블에서 날짜 범위 구성 요소(자주색 구성 요소)를 사용합니다. 표에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제 데이터를 테이블 열에 추가하여 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://www.youtube.com/watch?v=MIkT6FZ5gKk)에서 확인하십시오 .
 
-날짜 범위(자주색 구성 요소)는 패널 날짜 범위를 재정의합니다. 따라서 다른 날짜 범위를 열(예: 지난 달, 지난 주 및 어제 열)로 사용하는 경우 패널 날짜 범위에서 열 날짜 범위를 모두 확장하지 않아도 됩니다. 자유 형식 테이블에서 사용된 날짜 범위가 이 패널을 재정의하므로 간단하게 어제로 설정할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://www.youtube.com/watch?v=ybmv6EBmhn0)에서 확인하십시오 .
-
-비교하려는 특정 기간의 데이터를 가져오려면 [날짜 비교 선택 사항](/help/components/date-ranges/time-comparison.md)을 사용하십시오. 예를 들어, 최근 13개월간의 데이터로 패널을 설정하지 않고 작년 같은 달과 비교한 지난달의 데이터를 표시해야 하는 경우 기간 비교 선택 사항을 사용하여 전년 대비 성과를 표시하면 됩니다.
+프로젝트에서 사용한 연간 비교 횟수를 최소화할 수 있습니다. 1년 대비 비교가 계산되면 관심 개월 사이의 전체 13개월 데이터를 검색합니다. 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다.
 
 ## 시각화 수
 
-한 프로젝트에 포함된 그래프 시각화 수는 Analysis Workspace의 전체 응답성에 영향을 줍니다.
+하나의 프로젝트에 포함된 시각화 수는 Analysis Workspace의 전반적인 응답에 영향을 줍니다. 테이블 또는 그래프든 각 시각화에는 요청해야 하는 데이터 소스가 있기 때문입니다.
 
 **시각화 개수에 대한 우수 사례**
 
@@ -67,7 +61,7 @@ ht-degree: 98%
 * 위에 언급된 대로 요청한 데이터 범위
 * 적용된 세그먼트 수(예: 자유 형식 테이블의 행으로 사용된 세그먼트 수)
 * 복잡한 세그먼트 사용
-* 자유 형식 테이블의 정적 항목 행 또는 열
+* [자유 형식 테이블의 정적 항목 행 또는 열](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
 * 자유 형식 테이블의 행에 적용된 필터
 * 포함된 지표 수, 특히 세그먼트를 사용하는 계산된 지표 수
 
@@ -87,14 +81,14 @@ ht-degree: 98%
 
 더 많은 프로젝트 구성이 필요한 경우 프로젝트에 대한 [직접 연결](https://www.youtube.com/watch?v=6IOEewflG2U)을 선택할 수도 있습니다. 이해 당사자가 필요한 것을 쉽게 찾을 수 있도록 프로젝트의 내부 색인을 만드십시오.
 
-작업 공간 하나에 많은 패널이 필요한 경우 저장 및 공유하기 전에 패널을 축소하십시오. 프로젝트가 로드되면 Analysis Workspace는 확장된 패널에 대한 내용만 로드합니다. 축소된 패널은 사용자가 확장할 때까지 로드되지 않습니다. 이 방법은 다음과 같은 두 가지 점에서 도움이 됩니다.
+하나의 프로젝트에 여러 패널이 필요한 경우 저장하고 공유하기 전에 패널을 축소합니다. 프로젝트가 로드되면 Analysis Workspace는 확장된 패널에 대한 내용만 로드합니다. 축소된 패널은 사용자가 확장할 때까지 로드되지 않습니다. 이 방법은 다음과 같은 두 가지 점에서 도움이 됩니다.
 
 * 축소된 패널은 프로젝트의 전체 로드 시간을 줄여줍니다.
 * 축소된 패널은 보고서 소비자를 위해 프로젝트를 논리적인 방식으로 구성하는 좋은 방법입니다.
 
 ## 보고서 세트 크기
 
-보고서 세트 크기가 영향력이 큰 요인으로 보일 수 있지만, 실제로는 Adobe의 데이터 처리 방법으로 인해 프로젝트 성능에 미치는 영향은 미미합니다.
+보고서 세트 크기가 영향력이 큰 요인으로 보일 수 있지만, 실제로는 Adobe의 데이터 처리 방법으로 인해 프로젝트 성능에 미치는 영향은 미미합니다.. 이 규칙에는 예외가 있을 수 있습니다.adobe analytics의 전반적인 경험을 개선하기 위해 구현 방법이 개선되는지 확인하려면 구현 팀 또는 Adobe 전문가와 문의하십시오.
 
 ## Analysis Workspace를 동시에 액세스하는 사용자 수
 
@@ -110,5 +104,5 @@ Analysis Workspace와 상호 작용할 때 오류가 발생할 수 있습니다.
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe에서 해결해야 하는 문제가 발생했습니다. 고객 지원 요청을 통해 오류 코드를 제출하는 것이 좋습니다. |
 | `The request is too complex.` | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 기여하는 요소는 요청의 크기로 인한 시간 초과, 세그먼트 또는 검색 필터에 일치하는 항목이 너무 많음, 포함된 지표가 너무 많음, 호환되지 않는 차원과 지표 조합 등입니다. 요청을 간소화하는 것이 좋습니다. |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | 검색 텍스트 기준을 좁히고 요청을 다시 시도하는 것이 좋습니다. |
-| `This dimension does not currently support non-default attribution models.` | 테이블의 차원을 [기여도 분석 IQ](../attribution/overview.md)와 호환되는 차원으로 바꾸는 것이 좋습니다. |
+| `This dimension does not currently support non-default attribution models.` | 테이블의 차원을 [속성 IQ](../attribution/overview.md)와 호환되는 차원으로 바꾸는 것이 좋습니다. |
 | `Your request failed as a result of too many columns or pre-configured rows.` | 일부 열이나 행을 제거하거나 별도의 시각화로 분할하는 것이 좋습니다. |
