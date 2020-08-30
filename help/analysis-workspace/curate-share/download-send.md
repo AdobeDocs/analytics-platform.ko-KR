@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 814e02648607b6f06e2743cd054c14c892200b44
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 ![](assets/download-data-viz.png)
 
-## 항목을 CSV로 다운로드 {#download-items}
+## CSV로 항목 다운로드 {#download-items}
 
 표에 표시된 400개 이상의 데이터 행을 분석하려면 테이블 머리글이나 행을 마우스 오른쪽 단추로 클릭하고 **항목을 CSV로 다운로드(Dimension 이름)**. 이 옵션을 선택하면 필터 및 세그먼트가 적용된 선택한 차원에 대해 최대 50,000개의 차원 항목을 내보냅니다. 표 맨 위에서 이 옵션을 선택하면 표의 첫 번째 치수가 내보내집니다. 자유 형식 테이블에 적용되는 제한은 없지만 최적의 성능을 위해 20개 미만의 열이 있는 테이블에 항목 다운로드 옵션을 사용하는 것이 좋습니다.
 
