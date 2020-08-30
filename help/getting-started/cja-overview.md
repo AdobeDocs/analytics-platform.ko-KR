@@ -1,9 +1,9 @@
 ---
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics 소개
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 데이터 수집에서 직접 SQL 액세스를 위해 Experience Platform의 여러 구성 요소는 Customer Journey Analytics에 중요하며, 이와 함께 작동합니다.
 
-* [Query Service](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 데이터 과학 작업 공간에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
+* [Query Service](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
 * [실시간 고객 프로필](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md):
 * [ID 서비스](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_services_architectural_overview/identity_services_architectural_overview.md):
-* 개발자 옵션의 [데이터 과학 작업 공간](https://www.adobe.io/apis/experienceplatform/home/data-science-workspace.html): Adobe Experience Platform에 재구성된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나, 번거로운 프로세스를 자동화할 수 있습니다.
+* 개발자 옵션의 [Data Science Workspace](https://www.adobe.io/apis/experienceplatform/home/data-science-workspace.html): Adobe Experience Platform에 재구성된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나, 번거로운 프로세스를 자동화할 수 있습니다.
