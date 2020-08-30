@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 터치포인트를 지정하여 차원이 여러 개인 폴아웃 시퀀스를 만들 수 있습니다. 일반적으로 터치포인트는 사이트에 있는 페이지입니다. 하지만, 터치포인트는 페이지에 제한되지 않습니다. 예를 들어, 고유 방문자 수 및 재방문 뿐만 아니라 단위와 같은 이벤트를 추가할 수도 있습니다. 카테고리, 브라우저 유형 또는 내부 검색어와 같은 차원을 추가할 수도 있습니다. 
 
