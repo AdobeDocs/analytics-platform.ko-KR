@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
 
@@ -46,7 +46,7 @@ ht-degree: 87%
 | 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨).  |
 | 지표 버킷 | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다.  |
-| 계산 방법 | Lets you choose among [Visitor](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [Visit](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html), or Hit Type. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
+| 계산 방법 | [방문자](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [방문](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html) 또는 히트 유형 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
