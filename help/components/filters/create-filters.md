@@ -16,12 +16,12 @@ ht-degree: 38%
 
 패널 상단의 필터 드롭 영역에 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 드롭하여 즉석 필터를 만들 수 있습니다.
 
-구성 요소 유형은 필터로 자동 변환됩니다. Alternatively, you can click the &quot;+&quot; sign in the **[!UICONTROL Add Filter]** drop box.
+구성 요소 유형은 필터로 자동 변환됩니다. 또는 **[!UICONTROL 필터 추가]** 드롭 상자
 
 주의 사항:
 
-* You **cannot** drop the following component types into the filter zone: calculated metrics and dimensions/metrics from which you cannot build filters.
-* 전체 차원 및 이벤트의 경우 Analysis Workspace은 &quot;존재함&quot; 히트 필터를 만듭니다. 예: &quot;eVar1이 있는 위치 히트&quot; 또는 &quot;event1이 있는 위치 히트&quot;.
+* 귀하 **cannot** 다음 구성 요소 유형을 필터 영역에 놓습니다.필터를 만들 수 없는 계산된 지표 및 차원/지표.
+* 전체 차원 및 이벤트의 경우, Analysis Workspace은 &quot;존재함&quot; 히트 필터를 만듭니다. 예: &quot;eVar1이 있는 위치 히트&quot; 또는 &quot;event1이 있는 위치 히트&quot;.
 * 필터 드롭 영역에 &quot;지정되지 않음&quot; 또는 &quot;없음&quot;이 놓이면 &quot;존재하지 않음&quot; 필터로 자동 변환되므로 올바로 처리됩니다.
 
 ![](assets/segment-dropzone.png)
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 | 작업 | 설명 |
 |--- |--- |
-| 선택 항목에서 필터 만들기 | 인라인 필터를 만듭니다. 행을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 인라인 필터를 만듭니다. 이 필터는 열린 프로젝트에만 적용되며 CJA 필터로 저장되지 않습니다. 1. 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 단추로 클릭합니다. 3. Click *Create filter from selection*. |
-| 구성 요소 > 새 필터 | 필터 빌더를 표시합니다. See [Filter Builder](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about filtering. |
-| 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | In [Curate and Share](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how filters that you apply to the project are available in shared analysis for the recipient. |
+| 선택 항목에서 필터 만들기 | 인라인 필터를 만듭니다. 행을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 인라인 필터를 만듭니다. 이 필터는 열린 프로젝트에만 적용되며 CJA 필터로 저장되지 않습니다. 1. 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 단추로 클릭합니다. 3. *선택 항목에서 필터 만들기*. |
+| 구성 요소 > 새 필터 | 필터 빌더를 표시합니다. 자세한 내용은 [필터 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html) 필터링을 참조하십시오. |
+| 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | 인 [조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), 프로젝트에 적용한 필터가 수신자에 대한 공유 분석에서 어떻게 사용할 수 있는지 알아보십시오. |
 | 필터를 차원으로 사용 | 비디오: [Analysis Workspace에서 세그먼트를 차원으로 사용](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
