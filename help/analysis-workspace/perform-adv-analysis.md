@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 18%
+ht-degree: 51%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-고급 분석은 [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) 다이어그램, 기여도 IQ [, 폴아웃](/help/analysis-workspace/attribution/overview.md)다이어그램, [](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) [](/help/components/dimensions/t-breakdown-fa.md)차원 분류 등과 같은 기능을 활용합니다.
+고급 분석은 [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) 다이어그램, [Attribution IQ](/help/analysis-workspace/attribution/overview.md), [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 다이어그램, [차원 분류](/help/components/dimensions/t-breakdown-fa.md).
 
 ![작업 영역 스크린샷 1](assets/cja-adv-analysis1.png)
 
