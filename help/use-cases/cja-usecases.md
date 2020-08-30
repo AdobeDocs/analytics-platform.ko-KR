@@ -1,8 +1,11 @@
 ---
 title: Customer Journey Analytics 활용 사례
 description: Customer Journey Analytics에 대한 사용 사례
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
