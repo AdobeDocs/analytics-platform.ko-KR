@@ -1,9 +1,9 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
 
