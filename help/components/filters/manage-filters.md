@@ -1,8 +1,11 @@
 ---
 title: 필터 관리
 description: Customer Journey Analytics에서 필터를 관리 방법 알아보기
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 필터 관리자는 사용자가 보유하는 모든 필터 및 사용자와 공유되는 모든 필터를 표시합니다. 관리자 수준의 사용자는 조직의 모든 필터를 볼 수 있습니다. 이 개요에서는 필터 관리자의 사용자 인터페이스와 기능을 설명합니다.
 
-상단 탐색에서 **[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]**&#x200B;로 이동하여 필터 관리자에 액세스합니다.
+필터 관리자로 이동하여 **[!UICONTROL 고객 경로 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 필터]** 위쪽 탐색에서
 
 ## 필터 관리자 UI
 
@@ -71,16 +74,16 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 필터 관리자에서 태깅할 필터 옆의 확인란을 선택합니다. 필터 관리 도구 모음이 표시됩니다.
 
-1. **[!UICONTROL Tag]**&#x200B;를 클릭하고 다음 중 하나를 수행합니다.
+1. **[!UICONTROL 태그]**&#x200B;를 클릭하고
 
    * 기존 태그에서 선택하거나
 
-   * 새 태그 이름을 입력하고 **[!UICONTROL Enter]** 키를 누릅니다.
+   * 새 태그 이름을 입력하고 **[!UICONTROL Enter]**.
 
-1. **[!UICONTROL Tag]**&#x200B;를 다시 클릭하여 세그먼트에 태깅합니다.
+1. **[!UICONTROL 태그]**&#x200B;를 다시 클릭하여 세그먼트에 태깅합니다.
 
 이제 태그가 태그 열에 나타납니다. (열을 관리하려면 오른쪽 위에 있는 톱니바퀴 아이콘 클릭)
-**[!UICONTROL Filters > Tags]**&#x200B;로 이동하여 태그를 필터링할 수도 있습니다.
+**[!UICONTROL 필터 > 태그]**&#x200B;로 이동하여 태그를 필터링할 수도 있습니다.
 
 ### 승인 필터
 
@@ -90,17 +93,17 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 필터 관리자에서 필터 제목 왼쪽의 확인란을 선택합니다.
 
-1. 필터 관리 작업 표시줄에서 **[!UICONTROL Approve]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL 승인]** 를 선택합니다.
 
 1. 승인된 세그먼트를 조직과 공유할 수 있습니다.
 
-1. 클릭 **[!UICONTROL OK]**.
+1. **[!UICONTROL 확인을 클릭합니다]**.
 
    목록의 필터 옆에 승인 아이콘이 표시됩니다.
 
    ![](assets/seg_approved.png)
 
-1. **[!UICONTROL Unapprove]**&#x200B;을 클릭하여 승인된 세그먼트의 승인을 취소할 수도 있습니다.
+1. **[!UICONTROL 비승인]**&#x200B;을 클릭하여 승인된 세그먼트의 승인을 취소할 수도 있습니다.
 
 ### 공유 필터
 
@@ -122,9 +125,9 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 필터 관리자에서 공유할 필터 옆의 확인란을 선택합니다.
 
-1. 필터 관리 도구 모음에서 **[!UICONTROL Share]**&#x200B;를 클릭합니다.
+1. 필터 관리 도구 모음에서 **[!UICONTROL 공유]**.
 
-1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. 클릭 **[!UICONTROL Share]**. 공유 아이콘이 필터 ![](assets/share_icon.png) 옆에 표시됩니다.
+1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. 공유 아이콘이 필터 ![](assets/share_icon.png) 옆에 표시됩니다.
 
 1. 필터 > 기타 필터 > 나와 공유로 이동하여 공유된 필터를 필터링할 수 있습니다.
 
