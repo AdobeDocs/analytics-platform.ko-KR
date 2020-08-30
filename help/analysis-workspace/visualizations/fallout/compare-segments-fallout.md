@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 있습니다. 이 기능은 기존 Adobe Analytics의 [Analysis Workspace과 약간 다릅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 터치포인트에서 필터를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 필터에서 주요 워크플로우를 비교할 수 있습니다.
 
@@ -28,9 +28,9 @@ ht-degree: 17%
 * 방문자 기반 필터를 방문 컨텍스트 폴아웃 시각화 내에서 터치포인트로 사용
 * 방문 기반 필터를 방문 컨텍스트 폴아웃 시각화 내에서 터치포인트로 사용
 
-## Create a filter from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## 터치포인트에서 필터 만들기 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 특히 관심이 있고 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치포인트에서 필터를 만듭니다. You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create filter from touchpoint]**.
+1. 특히 관심이 있고 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치포인트에서 필터를 만듭니다. 터치포인트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 터치포인트에서 필터 만들기]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -42,7 +42,7 @@ ht-degree: 17%
 
    이제 원하는 프로젝트에서 이 필터를 사용할 수 있습니다.
 
-## Add a filter as a touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## 터치포인트로 필터 추가 {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
 예를 들어 미국 사용자의 트렌드 및 폴아웃 영향을 확인하려면 미국 사용자 필터를 폴아웃으로 드래그하면 됩니다.
 
@@ -50,11 +50,11 @@ ht-degree: 17%
 
 또는 미국 사용자를 다른 체크포인트로 드래그하여 AND 터치포인트를 만들 수 있습니다.
 
-## Compare filters in fallout {#section_E0B761A69B1545908B52E05379277B56}
+## 폴아웃 필터 비교 {#section_E0B761A69B1545908B52E05379277B56}
 
 폴아웃 시각화에서 필터 수를 제한 없이 비교할 수 있습니다.
 
-1. Select the segments you want to compare from the [!UICONTROL Filter] rail on the left. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다. 
+1. 비교할 세그먼트를 [!UICONTROL 필터] 왼쪽 레일. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다. 
 1. 맨 위에 있는 필터 드롭 영역으로 드래그합니다.
 
    ![](assets/segment-drop.png)
@@ -63,4 +63,4 @@ ht-degree: 17%
 
    ![](assets/seg-compare.png)
 
-1. 이제 한 필터가 다른 필터나 다른 통찰력을 수행하는 경우와 같이 두 필터의 폴아웃을 비교할 수 있습니다.
+1. 이제 한 필터가 다른 필터나 다른 인사이트를 더 많이 수행하는 경우와 같이 두 필터 간의 폴아웃을 비교할 수 있습니다.
