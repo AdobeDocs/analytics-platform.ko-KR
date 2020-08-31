@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->CJA는 조회 데이터 집합의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA에서 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열을 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
+>CJA는 조회 데이터 세트의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA의 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
 
-예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 Integer로 정의되는데, 이 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
+예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 정수로 정의되는데 그 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 관리 > 데이터 세트]**&#x200B;로 이동합니다.
 1. **[!UICONTROL + 데이터 세트 만들기]**&#x200B;를 클릭합니다.
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 ## 5. 이 연결에서 데이터 보기를 만듭니다.
 
-다음 지침을 따르십시오. [데이터 뷰 생성](/help/data-views/create-dataview.md).
+[데이터 보기 생성](/help/data-views/create-dataview.md)에 대한 지침을 따르십시오.
 
 * 데이터 세트에서 필요한 모든 구성 요소(차원 및 지표)를 추가합니다.
 
