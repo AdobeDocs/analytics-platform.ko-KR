@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
 workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
    >[!IMPORTANT]
    >
-   >샌드박스 간 데이터에 액세스할 수 없습니다. 즉, 동일한 샌드박스 내에 있는 데이터 집합만 결합할 수 있습니다.
+   >샌드박스 간 데이터에 액세스할 수 없습니다. 즉, 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다.
 
 1. [!UICONTROL Customer Journey Analytics]로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
