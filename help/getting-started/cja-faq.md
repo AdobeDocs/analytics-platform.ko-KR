@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 69%
 | 질문 | 답변 |
 | --- | --- |
 | **전제 조건** |  |
-| Device Graph 또는 Device Coop이 필요합니까? [!UICONTROL Customer Journey Analytics]? | 아니요, Private Device Graph 또는 Device Coop은 [!UICONTROL Customer Journey Analytics]. 실제로 아직 지원되지 않습니다. |
-| Experience Cloud ID(ECID)가 필요합니까? [!UICONTROL Customer Journey Analytics]? | 아니요, [!UICONTROL Customer Journey Analytics] 는 ECID이든 선택한 다른 ID든 데이터세트에 있는 모든 ID를 지원합니다. |
-| Customer Journey Analytics 전에 데이터를 ETL(추출, 변환, 로드)해야 하는 경우 어떻게 됩니까? | 현재 AEP에 데이터를 추가하기 전에 데이터를 변환해야 하는 경우 ETL 파트너(Unifi 또는 Informatica)와 함께 작업해야 합니다. 데이터를 이미 인제스트한 후 ETL이 필요한 경우 AEP 쿼리 서비스는 일부 제한된 옵션을 제공합니다. |
+| [!UICONTROL Customer Journey Analytics]에는 Device Graph 또는 Device Coop가 필요합니까? | 아니요. [!UICONTROL Customer Journey Analytics]에는 개인 Device Graph 또는 Device Coop가 필요하지 않습니다. 실제로 아직 지원되지 않습니다. |
+| [!UICONTROL Customer Journey Analytics]에는 Experience Cloud ID(ECID)가 필요합니까? | 아니요. [!UICONTROL Customer Journey Analytics]는 데이터 세트에서 선택한 ID가 ECID든 다른 ID이든 모두 지원합니다. |
+| Customer Journey Analytics 전에 데이터를 ETL(추출, 변환, 로드)해야 하는 경우엔 어떻게 해야 합니까? | 현재 AEP에 데이터를 추가하기 전에 데이터를 변환해야 하는 경우 ETL 파트너(Unifi 또는 Informatica)와 함께 작업해야 합니다. 이미 데이터를 처리한 후 ETL이 필요한 경우 AEP Query Services에서 제한된 옵션을 제공합니다. |
 | **결합** |  |
-| Can [!UICONTROL Customer Journey Analytics] 여러 디바이스나 데이터 세트에서 &quot;연결&quot;을 수행하십니까? | 아니요. [!UICONTROL Customer Journey Analytics는 ID 하나로 로그인하는 &quot;BYOI&quot; 분석 시스템입니다. ] 현재 좋은 결합 방법을 구상하고 있습니다. |
+| [!UICONTROL Customer Journey Analytics]를 장치 또는 데이터 세트 간에 &quot;결합&quot;할 수 있습니까? | 아니요. [!UICONTROL Customer Journey Analytics]는 ID 하나로 로그인하는 &quot;BYOI&quot; 분석 시스템입니다. 현재 좋은 결합 방법을 구상하고 있습니다. |
 | 익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까? | 아니요. 아직 지원되지 않습니다. |
-| **[!UICONTROL Customer Journey Analytics로 데이터 가져오기]** |  |
-| 여러 Experience Platform 샌드박스의 데이터를 하나의 CJA 연결에 통합할 수 있습니까? | 아니요. 샌드박스 간에 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| 예상 대기 시간은 [!UICONTROL Customer Journey Analytics] on [!UICONTROL Experience Platform]? | <ul><li>일반 로드 중: 60분 미만입니다. <br>**참고:** 파이프라인을 통해 비정상적으로 많은 데이터 흐름이 있는 경우 최대 24시간이 소요될 수 있습니다.</li><li>데이터 채우기(최대 100억 개의 이벤트)의 경우에는 4주 미만입니다.</li></ul> |
-| 온라인 데이터를 [!UICONTROL Customer Journey Analytics]? | [!UICONTROL Customer Journey Analytics는 ID 하나로 로그인하는 &quot;BYOI&quot; 분석 시스템입니다. ] 개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics] 세그먼트, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다. 세그먼트, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다. |
-| 오프라인 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Customer Journey Analytics에서 사용하려면 먼저 모든 데이터를 Experience Platform으로 가져와야 합니다. Experience Platform 데이터 온보딩 팀은 필요한 경우 추천 또는 컨설팅을 제공할 수 있습니다. |
-| Analytics 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Analytics 데이터는 [Analytics 데이터 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html). Analytics 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다(마케팅 채널 차원 등). |
+| **[!UICONTROL Customer Journey Analytics]**&#x200B;로 데이터 가져오기 |  |
+| 여러 Experience Platform 샌드박스의 데이터를 하나의 CJA 연결에 통합할 수 있습니까? | 아니요. 샌드박스에서 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
+| [!UICONTROL Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>일반 로드 중: 60분 미만입니다. <br>**참고:** 파이프라인을 통해 비정상적으로 많은 데이터 흐름이 있는 경우 최대 24시간이 소요될 수 있습니다.</li><li>데이터 채우기(최대 100억 개의 이벤트)의 경우에는 4주 미만입니다.</li></ul> |
+| [!UICONTROL Customer Journey Analytics]에서 온라인 데이터를 오프라인 데이터로 어떻게 연결합니까? | [!UICONTROL Customer Journey Analytics]는 ID 하나로 로그인하는 &quot;BYOI&quot; 분석 시스템입니다. 개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics]는 전체 데이터 세트에서 세그먼트, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다. |
+| 오프라인 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Customer Journey Analytics에서 오프라인 데이터를 사용하려면 먼저 모든 데이터를 Experience Platform으로 가져와야 합니다. 필요한 경우 Experience Platform의 데이터 온보딩팀에서 추천이나 컨설팅 서비스를 제공할 수 있습니다. |
+| Analytics 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Analytics 데이터는 [Analytics Data Connector](https://docs.adobe.com/content/help/ko-KR/experience-platform/sources/connectors/adobe-applications/analytics.html)를 통해 Experience Platform에 연결할 수 있습니다. Analytics 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다(마케팅 채널 차원 등). |
 | 데이터 세트 요소를 데이터 보기로 취합하는 데 얼마나 걸립니까? | 시작하는 데 몇 시간이 소요되고 지난 13개월간의 데이터를 채우는 데는 며칠이 소요됩니다. |
 | 데이터 간의 연결을 설정하려면 PII 데이터를 가져와야 합니까? | 아니요. PII가 아닌 고객 ID의 해시를 포함하여 모든 ID를 사용할 수 있습니다. |
 | **기존 Analytics 구성 요소** |  |
