@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/object-arrays.html"> 개체 배열 사용 </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/b2b.html"> 계정 수준 데이터를 조회 데이터 세트로 추가 </a> </li>
+      <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/b2b.html"> 계정 수준 데이터를 조회 데이터 세트로 추가 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 시작하기 </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-faq.html"> FAQ</a> </li> 
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-glossary.html"> Customer Journey Analytics 용어</a> </li> 
