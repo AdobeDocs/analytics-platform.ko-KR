@@ -1,16 +1,16 @@
 ---
-title: 개체 배열 사용
+title: '개체 배열 사용 '
 description: CJA가 데이터 계층에 관해 보고하는 방법을 이해합니다.
 translation-type: tm+mt
 source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# 개체 배열 사용
+# 개체 배열 사용 
 
 일부 플랫폼 스키마에 개체 배열이 있을 수 있습니다. 가장 일반적인 예 중 하나는 여러 제품이 포함된 장바구니입니다. 각 제품에는 이름, SKU, 카테고리, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 패싯에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
 
