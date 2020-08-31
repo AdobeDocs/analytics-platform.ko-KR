@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: ef0e1823e1343266853253fe29dc25d58c88cdee
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 98%
       + [날짜 비교](components/date-ranges/time-comparison.md)
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
-   + [개체 배열 사용](use-cases/object-arrays.md)
+   + [ 개체 배열 사용 ](use-cases/object-arrays.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
 + 개인 정보 보호 {#cja-privacy}
    + [개인 정보 보호 개요](privacy/privacy-overview.md)
