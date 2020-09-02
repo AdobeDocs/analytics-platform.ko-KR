@@ -3,15 +3,19 @@ description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터
 title: 라인
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: afe5b341ea1b442c23561299fbffce59dae45930
+source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 20%
 
 ---
 
 
 # 라인
+
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 라인 시각화는 일정 기간 동안 값이 변경되는 방법을 보여주기 위해 행을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
 
@@ -35,7 +39,7 @@ ht-degree: 15%
 
 ## 최소 또는 최대 표시
 
-Under **[!UICONTROL 시각화 설정]** > **[!UICONTROL 오버레이]** > **[!UICONTROL 최소/최대 표시]**, you can overlay a minimum and maximum value label to quickly highlight in a metric.
+Under **[!UICONTROL 시각화 설정]** > **[!UICONTROL 오버레이]** > **[!UICONTROL 최소/최대 표시]**, you can overlay a minimum and maximum value label to quickly highlight in a metric. 참고:최소/최대 값은 차원 내의 전체 값 집합이 아니라 시각화에서 보이는 데이터 포인트에서 파생됩니다.
 
 ![최소/최대 표시](assets/min-max-labels.png)
 
@@ -48,7 +52,7 @@ Under **[!UICONTROL 시각화 설정]** > **[!UICONTROL 오버레이]** > **[!UI
 모든 모델은 보통 최소 제곱을 사용하여 적합합니다.
 
 | 모델 | 설명 |
-|---|---|
+| --- | --- |
 | 선형 | 단순한 선형 데이터 세트에 가장 잘 맞는 직선을 만들며, 데이터가 일정한 속도로 증가 또는 감소하는 경우 유용합니다. 수식: `y = a + b * x` |
 | 로그 | 최적 곡선 선을 만들며 데이터의 변경 비율이 빠르게 증가 또는 감소하여 레벨을 빼는 경우 유용합니다. 로그 트렌드라인은 음수와 양수 값을 사용할 수 있습니다. 수식: `y = a + b * log(x)` |
 | 지수 | 곡선을 만들 수 있으며 데이터가 증가하거나 지속적으로 증가하는 속도로 떨어질 때 유용합니다. 데이터에 0 또는 음수 값이 있는 경우에는 이 옵션을 사용하지 마십시오. 수식: `y = a + e^(b * x)` |
