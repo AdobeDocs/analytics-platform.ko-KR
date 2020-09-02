@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 제품 설명서
 description: Customer Journey Analytics 랜딩 페이지.
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
 
@@ -23,11 +23,12 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions"> 업데이트된 사용자 권한 요구 사항(2020년 9월 9일 기준) </a> </li>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/object-arrays.html"> 개체 배열 사용 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/b2b.html"> 계정 수준 데이터를 조회 데이터 세트로 추가 </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 시작하기 </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-faq.html"> FAQ</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-glossary.html"> Customer Journey Analytics 용어</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 시작하기 </a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-faq.html"> FAQ</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html"> Customer Journey Analytics 용어</a> </li> 
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> Adobe Analytics API 2.0</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>릴리스 노트</b> </p> 
