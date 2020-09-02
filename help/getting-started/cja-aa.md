@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 translation-type: tm+mt
-source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '879'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | 데이터 범위 | 사용자 지정 달력 지원이 예정되어 있습니다. |
 | 계산된 지표 | 기존 Analysis Workspace의 기존 계산 지표가 CJA에 포팅되지 않습니다. |
 | 세그먼트 | 이제 &quot;필터&quot;라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
-| 예외 항목 탐지 | 2020년 6월 자 전체 지원 |
+| 예외 항목 탐지 | 2020년 9월 현재 전체 지원 |
 | 기여도 분석 IQ | 전체 지원 |
 | 프로젝트 큐레이션 | 전체 지원 |
 | 프로젝트 연결 | 전체 지원 |
@@ -80,7 +80,7 @@ ht-degree: 100%
 | 기능 | 참고 |
 | --- | --- |
 | A4T | 지원이 아직 예정되지 않았습니다. |
-| Video Analytics | 지원이 아직 예정되지 않았습니다. |
+| Media Analytics | 지원이 아직 예정되지 않았습니다. |
 | Advertising Cloud | 지원이 아직 예정되지 않았습니다. |
 | Report Builder(Excel 플러그인) | 지원이 아직 예정되지 않았습니다. |
 | Activity Map | 지원이 아직 예정되지 않았습니다. |
@@ -90,14 +90,12 @@ ht-degree: 100%
 
 ## 지원 예정이 없습니다.
 
-| 기능 | 참고 |
-| --- | --- |
-| 교차 장치 조합을 사용하는 사람 지표 |  |
-| Reports &amp; Analytics 대시보드 |  |
-| Reports &amp; Analytics 책갈피 |  |
-| Reports &amp; Analytics 대상 |  |
-| Reports &amp; Analytics 달력 이벤트 |  |
-| Ad Hoc Analysis |  |
-| Data Warehouse 보고 | [!UICONTROL Experience Platform 쿼리 서비스]는 CJA의 이러한 사용 사례를 위한 새로운 인터페이스입니다. |
-| Mobile Services |  |
-| 데이터 피드 |  |
+* 교차 장치 조합을 사용하는 사람 지표
+* Reports &amp; Analytics 대시보드
+* Reports &amp; Analytics 책갈피
+* Reports &amp; Analytics 대상
+* Reports &amp; Analytics 달력 이벤트
+* Ad Hoc Analysis
+* Data Warehouse 보고 - [!UICONTROL Experience Platform 쿼리 서비스] 는 CJA에서 이러한 사용 사례를 위한 새로운 인터페이스입니다.
+* Mobile Services
+* 데이터 피드
