@@ -1,9 +1,9 @@
 ---
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
