@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics 소개
 translation-type: tm+mt
-source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
+source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 82%
@@ -61,7 +61,9 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
    * 스키마 보기
    * 스키마 관리
    * ID 네임스페이스 보기
-   * 데이터 집합 보기 Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+   * 데이터 세트 보기
+
+Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
 ### 사용자 액세스
 
