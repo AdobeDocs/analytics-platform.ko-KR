@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics 소개
 translation-type: tm+mt
-source-git-commit: 7fb439c0796f94e79ae2b738b71cfa85b86f2e8f
+source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 87%
+source-wordcount: '1215'
+ht-degree: 82%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포�
 
 [교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html)은 디지털 장치가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
-CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 교차 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
+반면 CJA는 Adobe Experience Platform 데이터 세트와 통합하며 Analysis Workspace에서 크로스채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
 ## 주요 사용 사례
 
@@ -49,23 +49,25 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 * 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 CJA 추가 기능이 있는지 확실하지 않은 경우 조직의 계정 관리자에게 문의하십시오.
 * 조직에 Adobe Experience Platform이 프로비저닝되었습니다.
 
-## 사용자 액세스 권한
+## 관리자 액세스 권한
 
 연결 만들기, 데이터 세트 추가 등을 수행하려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
 
-* Experience Platform에서 데이터 세트를 관리하려면 &quot;데이터 세트 관리&quot; 권한을 제공하는 Platform 제품 프로필에 포함되어야 합니다. 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)를 참조하십시오.
-* Experience Platform 데이터 세트에 대한 연결을 만들려면 다음 권한을 제공하는 플랫폼 제품 프로필의 일부여야 합니다.
-   * 스키마 보기
-   * 데이터 세트 보기
-   * ID 네임스페이스 관리
-   * 샌드박스 보기
-* 2020년 9월 9일부터 Customer Journey Analytics에 액세스하거나 연결을 하려면 [Admin Console](https://adminconsole.adobe.com/enterprise/). 관리자는 다음 권한을 가집니다.
+* 2020년 9월 9일부터 Customer Journey Analytics에 액세스하거나 연결을 하려면 관리자로 **Customer Journey Analytics 제품 프로필** in [Admin Console](https://adminconsole.adobe.com/enterprise/). 관리자는 다음 권한이 필요합니다.
    * 연결 또는 데이터 보기 만들기/업데이트/삭제
    * 다른 사용자가 만든 프로젝트, 필터, 계산 지표 또는 세그먼트 업데이트/삭제
    * 모든 사용자에게 작업 영역 프로젝트 공유
-* Customer Journey Analytics의 관리자가 아닌 사용자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
+* Customer Journey Analytics 내에서 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 **Experience Platform 제품 프로필** 이렇게 하면 다음 권한이 부여됩니다.
+   * 스키마 보기
+   * 스키마 관리
+   * ID 네임스페이스 보기
+   * 데이터 집합 보기 Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
-### 용어 업데이트
+### 사용자 액세스
+
+Customer Journey Analytics의 관리자가 아닌 사용자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
+
+## 용어 업데이트
 
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
