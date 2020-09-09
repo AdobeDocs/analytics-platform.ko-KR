@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Customer Journey Analytics의 관리자가 아닌 사용자(사용자)는 데이
 
 ## Adobe Experience Platform에 구축된 기타 기능
 
-Customer Journey Analytics는 Adobe Experience Platform을 사용하는 많은 기능 중 하나입니다. Experience Platform에 내장된 다양한 기능을 사용하면 데이터를 최대한 활용할 수 있습니다.
+Customer Journey Analytics는 Adobe Experience Platform을 사용하는 많은 기능 중 하나입니다. Experience Platform에 구축된 다양한 기능을 통해 데이터를 최대한 활용할 수 있습니다.
 
 Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고, 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다. 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://www.adobe.io/apis/experienceplatform/home/overview.html)를 참조하십시오.
 
