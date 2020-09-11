@@ -2,7 +2,7 @@
 description: 빠른 인사이트는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 468f1f3bbe8ed555e944be49ec3bf3dcc577a23e
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 99%
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 이 [!UICONTROL Analysis Workspace]를 처음 사용하기 시작할 때 어떤 시각화가 가장 유용한지, 어떤 차원과 지표를 통해 인사이트를 얻을 수 있는지, 항목을 드래그 앤 드롭할 위치, 세그먼트를 만들 위치 등이 궁금해질 수 있습니다.
 
-이를 돕기 위해 [!UICONTROL Analysis Workspace]에서 자사의 데이터 구성 요소 사용을 기반으로 하는 [!UICONTROL 빠른 인사이트](Quick Insights)는 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 [!UICONTROL 자주 사용됨]으로 태그가 지정된 차원, 지표 및 세그먼트를 드롭다운 목록에서 볼 수 있습니다.
+이를 돕기 위해 [!UICONTROL Analysis Workspace]에서 자사의 데이터 구성 요소 사용을 기반으로 하는 [!UICONTROL 빠른 인사이트] (Quick Insights)는 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 [!UICONTROL 자주 사용됨]으로 태그가 지정된 차원, 지표 및 세그먼트를 드롭다운 목록에서 볼 수 있습니다.
 
 ![](assets/popular-tag.png)
 
