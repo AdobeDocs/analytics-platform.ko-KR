@@ -2,10 +2,10 @@
 title: Customer Journey Analytics을 위한 데이터 수집 옵션
 description: 데이터를 Customer Journey Analytics으로 인제스트할 수 있는 다양한 방법 이해
 translation-type: tm+mt
-source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
+source-git-commit: a48ebc2fbd4cb43de4424e9c1805504752a44fce
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 31%
+source-wordcount: '481'
+ht-degree: 32%
 
 ---
 
@@ -31,27 +31,3 @@ ht-degree: 31%
 1. 사용 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/analytics/implementation/launch/overview.html) to implement code on your site for data collection, if you have already not already. Launch는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해주는 태그 관리 솔루션입니다. Launch는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 지정 코드를 배포할 수 있습니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다..
 1. 만들기 [Adobe Analytics 소스 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) adobe experience platform. 이 소스 커넥터는 Analytics 데이터를 [XDM(Experience Data Model) 시스템](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 1. 사용 [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) 을 클릭하여 하나 이상의 연결 및 데이터 보기를 만들어 크로스채널 보고를 알려줍니다.
-
-## AEP 웹 SDK에서 데이터 인제스트
-
-TBD
-
-### Experience Edge를 통해
-
-TBD
-
-### 론치를 통해
-
-TBD
-
-## 일괄 처리 처리 및 스트리밍 통합
-
-TBD
-
-## Google Analytics 데이터 인제스트
-
-TBD
-
-## 일괄 처리 API를 통해 데이터 인제스트
-
-TBD
