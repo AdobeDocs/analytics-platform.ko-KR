@@ -2,10 +2,10 @@
 title: CJA 설명서 업데이트
 description: '2019년 12월 이후 설정된 Customer Journey Analytics 설명서에 대한 컨텐츠 업데이트를 나열합니다. '
 translation-type: tm+mt
-source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
+source-git-commit: a87fa5e09962787849541d8c98a59566f867fc8b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 16%
+source-wordcount: '119'
+ht-degree: 24%
 
 ---
 
@@ -16,8 +16,8 @@ CJA 설명서가 처음 출시된 이후로 다음과 같은 업데이트가 수
 
 | 날짜 | 업데이트 설명 |
 | --- | --- |
-| 2020년 9월 2일 | 섹션 업데이트 [사용자 권한](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions) |
-| 2020년 8월 7일 | 새 주제: [B22 사용 사례 - 데이터 집합 조회](/help/use-cases/b2b.md) 추가됨. |
+| 2020년 9월 2일 | 섹션 업데이트 [사용자 권한](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions) |
+| 2020년 8월 7일 | 새 주제: [B2B 사용 사례 - 조회 데이터 집합](/help/use-cases/b2b.md) 추가됨. |
 | 2020년 7월 | 다음에 대한 정보가 추가되었습니다. [개인 ID에 대한 ID 맵 옵션](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 | 2020년 7월 | 새 주제: [개체 배열](/help/use-cases/object-arrays.md) 또는 &#39;데이터 계층&#39;이 추가되었습니다. |
 | 2020년 4월 14일 | 최신 UI의 [연결 만들기](/help/connections/create-connection.md) 주제. |
