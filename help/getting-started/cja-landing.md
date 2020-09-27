@@ -1,16 +1,16 @@
 ---
-title: Customer Journey Analytics 제품 설명서
+title: Customer Journey Analytics 안내서
 description: Customer Journey Analytics 랜딩 페이지.
-translation-type: ht
-source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
-workflow-type: ht
-source-wordcount: '288'
+translation-type: tm+mt
+source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
 
 
-# Customer Journey Analytics - 제품 설명서
+# Customer Journey Analytics 안내서
 
 이 기술 설명서 가이드는 Customer Journey Analytics에 대한 자가 진단 지원을 제공합니다. Customer Journey Analytics를 사용하면 온라인과 오프라인을 막론하고 선택한 모든 채널에서 고객 데이터를 Adobe Experience Platform으로 가져온 다음 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다.
 
