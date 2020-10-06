@@ -3,19 +3,15 @@ description: 'null'
 title: 흐름 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 93%
 
 ---
 
 
 # 흐름 개요
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 이 흐름 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
 
@@ -29,7 +25,7 @@ ht-degree: 100%
 >
 >흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
 
-[플로우 시각화 - YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[흐름 시각화 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## 차원 간 흐름 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
