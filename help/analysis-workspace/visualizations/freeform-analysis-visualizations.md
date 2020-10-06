@@ -3,30 +3,26 @@ description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 �
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 98%
+source-wordcount: '1046'
+ht-degree: 94%
 
 ---
 
 
 # 시각화 개요
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
-
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. 각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 자세한 내용을 보려면 시각화의 이름을 클릭합니다.
 
-YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
+비디오 자습서: [Analysis Workspace의 시각화 유형](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | 시각화 이름 | 설명 |
-|---|---|
-| [영역](/help/analysis-workspace/visualizations/area.md) | 선 그래프 모양이며 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
+| --- | --- |
+| [영역](/help/analysis-workspace/visualizations/area.md) | 선 그래프처럼 표시되지만 선 아래에는 색상 영역이 표시됩니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
 | [막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
-| [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. |
+| [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. |
 | [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. |
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. |
 | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹사이트와 앱의 고객 경로를 보여줍니다. |
@@ -43,7 +39,7 @@ YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.
 
 ## 시각화 패널 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-시각화 패널을 표시하려면 사이드 패널에서 **[!UICONTROL 시각화]**&#x200B;를 클릭합니다.
+시각화 패널을 표시하려면 **[!UICONTROL 시각화]** 왼쪽 레일에 있습니다.
 
 ![단계 결과](assets/visualizations.png)
 
@@ -60,7 +56,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 ![](assets/visualization_settings.png)
 
 | 설정 | 설명 |
-|--- |--- |
+| --- | --- |
 | 백분율 | 값을 백분율로 표시합니다. |
 | 100% 누적 | 스택 영역 또는 스택 막대 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다. 예: ![](assets/stacked_100_percent.png) |
 | 범례 표시 | 요약 번호/요약 변경 사항 시각화에 대한 필터 세부 사항 텍스트를 숨길 수 있습니다. |
@@ -83,7 +79,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 ![](assets/right-click_menu.png)
 
 | 설정 | 설명 |
-|--- |--- |
+| --- | --- |
 | 복사한 시각화/패널 삽입 | 복사한 요소를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다. |
 | 시각화/패널 복사 | 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사할 수 있습니다. |
 | 중복 시각화/패널 | 현재 시각화의 수정할 수 있는 정확한 중복을 만듭니다. |
@@ -112,4 +108,4 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-다음은 이 항목의 [비디오에 대한 링크](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
+다음은 이 항목의 [비디오에 대한 링크](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)입니다.
