@@ -5,10 +5,10 @@ title: 차원 분류
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 94%
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
@@ -34,9 +34,13 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-[Analysis Workspace 차원 - YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:54)
+**비디오:Analysis Workspace Dimension**
 
-[차원 분류 - YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13)(2:02)
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+**비디오:Dimension 분류**
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 ## 분류에 속성 모델 적용
 
