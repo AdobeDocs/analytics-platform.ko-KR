@@ -3,10 +3,10 @@ description: 작업 공간의 템플릿
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 43487b0dc9d0246fc4750fcc0175055899a198b5
+source-git-commit: bb75be2608a9eedaa856cfb5f0a233fff7f8c074
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 99%
+source-wordcount: '1395'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 99%
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
-[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
+>[!VIDEO](https://video.tv.adobe.com/v/23960) (2:46)
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
@@ -81,9 +81,9 @@ ht-degree: 99%
 
 ### 상거래
 
-* **마젠토: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
+* **Magento:마케팅 및 상거래**:이 템플릿은 마케팅 채널 기여도에 따라 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 기준으로 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://video.tv.adobe.com/v/28164)
 
 ### 미디어
 
