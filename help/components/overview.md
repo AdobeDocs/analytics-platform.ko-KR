@@ -1,11 +1,11 @@
 ---
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
@@ -50,5 +50,6 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
-[지표, 세그먼트 및 날짜 만들기 - YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:51)
+지표, 세그먼트 및 날짜 만들기에 대한 비디오를 시청하십시오.
 
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
