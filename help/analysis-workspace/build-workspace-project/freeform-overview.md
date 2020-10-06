@@ -5,19 +5,15 @@ title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '758'
+ht-degree: 84%
 
 ---
 
 
 # 프로젝트 만들기 - 개요
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**
 
@@ -37,14 +33,18 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 | 요소 | 설명 |
 |---|---|
-| 프로젝트 [템플릿](/help/analysis-workspace/build-workspace-project/starter-projects.md) | 이렇게 사전에 채워진 프로젝트 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. |
-| [새 프로젝트 만들기](/help/analysis-workspace/home.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
+| 새 프로젝트 만들기 | 이 링크를 클릭하여 [처음부터 새 프로젝트 시작](/help/analysis-workspace/home.md). |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
-| 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
+| 랜딩 페이지로 설정 | 이 페이지를 작업 공간 랜딩 페이지로 바꿉니다. |
+| 자습서 보기 | Adobe Experience Manager를 [Analysis Workspace 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | 이름 | 작업 공간 프로젝트의 이름. |
-| 작성자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
+| 소유자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
+| 유형 | 이것이 작업 공간 프로젝트인지 아니면 [모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html). |
+| 프로젝트 역할 | 소유자인지, 프로젝트를 편집할 수 있는지 또는 중복 프로젝트인지 여부를 나타냅니다. |
 | 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
+| 내 즐겨찾기 프로젝트 | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 프로젝트 이름 옆에 있는 별표를 클릭합니다. 다음에 작업 공간을 열면 이 목록에 표시됩니다. |
+| 자주 보는 프로젝트 | 편리한 액세스를 위해 자주 여는 모든 프로젝트를 나열합니다. |
 
 ## 프로젝트 정보 및 설정 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
