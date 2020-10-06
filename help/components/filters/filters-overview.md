@@ -2,10 +2,10 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
+source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '885'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 필터 빌더에서 필터를 작성 및 저장하거나 폴아웃 시각화(Workspace의)에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
 >[!IMPORTANT]
->필터를 Adobe Analytics에서 &#39;세그먼트&#39;라고 합니다. Adobe Experience Platform에는 &quot;세그먼트&quot;에 대한 다른 정의가 있으므로 세그먼트를 필터라고 이름을 변경했습니다.
+>필터를 Adobe Analytics에서 &#39;세그먼트&#39;라고 합니다. Adobe Experience Platform이 [&quot;segment&quot;의 다른 정의](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/create-filters.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
 
@@ -32,7 +32,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 ![](assets/sequential_fil.png)
 
 | 방문 1 | 방문 2 | 방문 3 |
-|---|---|---|
+| --- | --- | --- |
 | 방문자는 기본 랜딩 페이지(A)로 이동하고, 캠페인 페이지(B)를 제외한 다음 제품 페이지(C)를 열람했습니다. | 방문자는 다시 기본 랜딩 페이지(A)로 이동하고, 캠페인 페이지(B)를 제외하고, 제품 페이지(C)로 다시 이동했다가 새 페이지(D)로 이동했습니다. | 방문자는 첫 번째 및 두 번째 방문과 같은 경로로 이동한 다음 페이지 F를 제외하고 타게팅된 제품 페이지(G)로 바로 이동했습니다. |
 
 ## 필터 컨테이너
@@ -52,9 +52,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 개인 컨테이너는 방문자의 전체 내역을 기반으로 하는 값을 포함할 수 있습니다.
 
 * 첫 구매까지 소요된 일 수
-
 * 원래 시작 페이지
-
 * 최초 참조 도메인
 
 ### 세션 컨테이너
@@ -62,19 +60,14 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 세션 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 세션 컨테이너는 규칙이 충족되면 전체 방문 세션에 대한 동작을 캡처하므로 가장 일반적으로 사용되는 컨테이너이며, 세그먼트 작성 및 적용 시 포함 또는 제외할 세션을 정의할 수 있도록 합니다. 다음과 같은 질문에 답하는 데 도움이 됩니다.
 
 * 동일한 세션에서 뉴스 및 스포츠 섹션을 본 방문자는 몇 명입니까?
-
 * 어떤 페이지가 판매로 성공적으로 전환되었습니까?
 
 세션 컨테이너에는 세션당 발생 횟수에 따른 값이 포함됩니다.
 
 * 세션 번호
-
 * 시작 페이지
-
 * 반환 주기
-
 * 기여도 지표
-
 * 선형 할당 지표
 
 ### 이벤트 컨테이너
@@ -84,9 +77,6 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 이벤트 컨테이너에는 값 기반의 단일 페이지 분류가 포함됩니다.
 
 * 제품
-
 * 모든 prop
-
 * 목록 차원
-
 * 머천다이징 차원(이벤트 컨텍스트)
