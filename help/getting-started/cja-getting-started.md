@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 시작하기
-description: Customer Journey Analytics를 시작합니다.
+description: Customer Journey Analytics을 구현하는 데 필요한 사전 요구 사항 및 워크플로우를 파악합니다.
 translation-type: tm+mt
-source-git-commit: 16bca45f2576d3feef8129d558fad6f236852cb9
+source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 97%
 
 ---
 
