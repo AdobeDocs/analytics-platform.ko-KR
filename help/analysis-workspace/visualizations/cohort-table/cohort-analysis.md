@@ -2,19 +2,15 @@
 title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '468'
 ht-degree: 97%
 
 ---
 
 
 # [!UICONTROL 집단 분석]이란?
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 *`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. ] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://en.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
@@ -30,13 +26,13 @@ ht-degree: 97%
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-[집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
+[집단 분석 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 집단 분석]
 >
->은 필터링 가능한 지표가 아닌 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
+>세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
 >[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
