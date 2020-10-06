@@ -2,10 +2,10 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 
 이벤트 컨테이너는 필터에서 포함 또는 제외할 페이지 이벤트를 정의합니다. 이것은 조건이 참일 때 특정 클릭 수 및 페이지 보기를 식별하는 데 사용할 수 있는 가장 좁은 범위의 컨테이너로, 단일 추적 코드를 확인하거나 특정 사이트 섹션 내에서의 동작을 격리할 수 있습니다. 주문이 이행되었을 때의 마케팅 채널과 같이 한 동작이 발생할 때의 특정 값을 정확히 알아내고 싶을 수 있습니다.
 
-이벤트 컨테이너에는 단일 페이지 분류에 따른 값이 포함되어 있습니다.
+이벤트 컨테이너에는 값 기반의 단일 페이지 분류가 포함됩니다.
 
 * 제품
 
