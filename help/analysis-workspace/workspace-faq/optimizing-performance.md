@@ -3,9 +3,9 @@ description: 작업 공간 성능 및 권장 최적화에 영향을 주는 요�
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2028'
 ht-degree: 17%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 다양한 요소들이 Analysis Workspace 내의 프로젝트 성과에 영향을 줄 수 있다. 프로젝트를 가장 최적의 방식으로 계획 및 구축할 수 있도록 프로젝트를 빌드하기 전에 이러한 기여자가 어떤 사람인지 아는 것이 중요합니다. 이 페이지에는 성능에 영향을 주는 요소 및 Analysis Workspace의 최고 성능을 보장하기 위해 수행할 수 있는 권장 최적화 목록이 포함되어 있습니다.
 
->[!IMPORTANT 참고]
+>[!IMPORTANT]
 >
 >Analysis Workspace의 성능 페이지는 제한된 릴리스에 있습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
