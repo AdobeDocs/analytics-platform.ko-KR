@@ -2,7 +2,7 @@
 title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 33%
@@ -46,4 +46,6 @@ ht-degree: 33%
 | 선택 항목에서 필터 만들기 | 인라인 필터를 만듭니다. 행을 선택하고 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 인라인 필터를 만듭니다. 이 필터는 열린 프로젝트에만 적용되며 CJA 필터로 저장되지 않습니다. 1. 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 단추로 클릭합니다. 3. *선택 항목에서 필터 만들기*. |
 | 구성 요소 > 새 필터 | 필터 빌더를 표시합니다. 자세한 내용은 [필터 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html) 필터링을 참조하십시오. |
 | 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | 인 [조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), 프로젝트에 적용한 필터가 수신자에 대한 공유 분석에서 어떻게 사용할 수 있는지 알아보십시오. |
-| 필터를 차원으로 사용 | 비디오:Analysis Workspace에서 필터를 Dimension으로 사용<br>>[!VIDEO](https://video.tv.adobe.com/v/23974) |
+| 필터를 차원으로 사용 | 비디오:Analysis Workspace에서 필터를 Dimension으로 사용 |
+
+>[!VIDEO](https://video.tv.adobe.com/v/23974)
