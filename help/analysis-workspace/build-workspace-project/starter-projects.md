@@ -3,7 +3,7 @@ description: 작업 공간의 템플릿
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: bb75be2608a9eedaa856cfb5f0a233fff7f8c074
+source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 97%
@@ -59,7 +59,9 @@ ht-degree: 97%
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
->[!VIDEO](https://video.tv.adobe.com/v/23960) (2:46)
+>[!VIDEO](https://video.tv.adobe.com/v/23960)
+
+*(2:46)*
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
