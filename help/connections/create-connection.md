@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
+source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 100%
+source-wordcount: '1671'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 데이터 세트 ID]**: 이 ID는 자동으로 생성됩니다.
 
-1. **[!UICONTROL 타임스탬프]**: 여기에 컨텐츠를 추가합니다.
+1. **[!UICONTROL 타임스탬프]**:이벤트 데이터 집합만 해당, 이 설정은 [!UICONTROL Experience Platform].
 
 1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)입니다.
 
