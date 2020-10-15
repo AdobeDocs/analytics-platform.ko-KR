@@ -3,7 +3,7 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
+source-git-commit: 12172ab612db8ebb78bcf4b2c1b68f125c7d5a34
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 [!UICONTROL 열 설정] 일부 열에 조건부 서식을 지정할 수 있습니다.
 
-## 편집 [!UICONTROL 열 설정] {#column-settings}
+## 편집 [!UICONTROL 열 설정] {#edit-column-settings}
 
 [!UICONTROL 열 설정]에 액세스하려면 자유 형식 테이블을 프로젝트로 드래그한 다음 열 제목에서 톱니바퀴 아이콘을 클릭합니다.
 
