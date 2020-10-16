@@ -1,10 +1,10 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
-translation-type: ht
-source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
-workflow-type: ht
-source-wordcount: '890'
+translation-type: tm+mt
+source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
+workflow-type: tm+mt
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
 | --- | --- |
 | 제품 변수 | 제품 변수는 현재 경험 이벤트 스키마(구체적으로 productListItems 개체 사용)를 따르는 데이터에 대한 보고에 사용할 수 있습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
-| AAM 대상 | 고객이 [!UICONTROL Analytics 데이터 커넥터] 데이터 세트를 사용 중인 경우 이 데이터는 ADC 데이터에 포함됩니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 사용자 지정 세션 | 모바일 배경 조회 수를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라, 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 즉, 모든 지속성은 데이터 전체가 아니라 보고 날짜 범위를 기반으로 합니다. |
