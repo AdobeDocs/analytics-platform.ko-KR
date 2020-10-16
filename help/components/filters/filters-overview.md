@@ -1,11 +1,11 @@
 ---
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 
 필터는 속성(브라우저 유형, 장치, 방문 횟수, 국가, 성별), 상호 작용(캠페인, 키워드 검색, 검색 엔진), 종료 및 항목(Facebook의 방문자, 정의된 랜딩 페이지, 참조 도메인), 사용자 지정 변수(양식 필드, 정의된 카테고리, 고객 ID) 및 기타 기준을 기반으로 할 수 있습니다.
 
-필터 빌더에서 필터를 작성 및 저장하거나 폴아웃 시각화(Workspace의)에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
+필터 빌더에서 필터를 작성 및 저장하거나 폴아웃 시각화(Analysis Workspace의)에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
 >[!IMPORTANT]
->필터를 Adobe Analytics에서 &#39;세그먼트&#39;라고 합니다. Adobe Experience Platform이 [&quot;segment&quot;의 다른 정의](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
+>필터를 Adobe Analytics에서 &#39;세그먼트&#39;라고 합니다. Adobe Experience Platform에는 [&quot;세그먼트&quot;에 대한 다른 정의](https://docs.adobe.com/content/help/ko-KR/experience-platform/segmentation/home.html)가 있으므로 세그먼트를 필터라고 이름을 변경했습니다.
 
 필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/create-filters.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
 
