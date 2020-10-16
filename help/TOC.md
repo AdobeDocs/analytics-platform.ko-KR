@@ -19,7 +19,7 @@ translation-type: tm+mt
 source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
    + [연결 관리](connections/manage-connection.md)
-   + [이벤트 데이터 집합 결합](connections/combined-dataset.md)
+   + [결합된 이벤트 데이터 세트](connections/combined-dataset.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
