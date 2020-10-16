@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 | 데이터 범위 | 사용자 지정 달력 지원이 예정되어 있습니다. |
 | 계산된 지표 | 기존 Analysis Workspace의 기존 계산 지표가 CJA에 포팅되지 않습니다. |
 | 세그먼트 | 이제 &quot;필터&quot;라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
-| 예외 항목 탐지 | 전체 지원 |
+| 예외 항목 탐지 | 모든 지원 |
 | 기여도 분석 IQ | 전체 지원 |
 | 프로젝트 큐레이션 | 전체 지원 |
 | 프로젝트 연결 | 전체 지원 |
@@ -33,7 +33,7 @@ ht-degree: 93%
 | VRS 구성 요소 큐레이션 | 이제 데이터 보기의 일부입니다. |
 | 보고서 처리 시간 | CJA는 보고서 처리 시간에만 사용합니다. |
 | GDPR 삭제 | 이제 [!UICONTROL Experience Platform]에 GDPR이 적용되면서 CJA에서 [!UICONTROL Experience Platform]의 기본 데이터 세트에 변경된 모든 데이터 변경 사항을 이어받습니다. |
-| 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) 작업 공간 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
+| 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
 
 ## 경고가 지원됨
 
@@ -53,7 +53,7 @@ ht-degree: 93%
 | 기능 | 참고 |
 | --- | --- |
 | 즉시 사용 가능한 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 마케팅 채널, 방문 횟수 등) | CJA는 기본적으로 이러한 차원을 제공하지 않습니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
-| 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Target(A4T) 분석 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
+| 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
 | 머천다이징 eVars | 머천다이징 eVar는 동일한 XDM 스키마(위의 제품 목록 제한 사항과 유사)를 엄격하게 따르지 않는 경우 ADC 기반 데이터 세트에서만 작동합니다. |
 | 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
 | 처리 규칙 | ADC 기반 데이터 세트의 경우 처리 규칙이 계속 적용됩니다. |
@@ -65,7 +65,7 @@ ht-degree: 93%
 | --- | --- |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
-| 세그먼트 게시(Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. |
+| 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. |
 | CSV 다운로드 | 지원이 예정되어 있습니다. |
 | 예약된 보고서/프로젝트 | 지원이 예정되어 있습니다. |
 | 경고 | 지원이 예정되어 있습니다. |
