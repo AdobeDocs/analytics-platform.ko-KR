@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 1. **[!UICONTROL 데이터 세트 ID]**: 이 ID는 자동으로 생성됩니다.
 
-1. **[!UICONTROL 타임스탬프]**:이벤트 데이터 집합만 해당, 이 설정은 [!UICONTROL Experience Platform].
+1. **[!UICONTROL 타임스탬프]**: 이벤트 데이터 세트의 경우에만 이 설정이 [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다.
 
 1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)입니다.
 
