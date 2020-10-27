@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d700146427505e464df4006204f730751e315524
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 | 질문 | 답변 |
 | --- | --- |
 | 여러 Experience Platform 샌드박스의 데이터를 하나의 CJA 연결에 통합할 수 있습니까? | 아니요. 샌드박스에서 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| [!UICONTROL Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>일반 로드 중: 60분 미만입니다. <br>**참고:** 파이프라인을 통해 비정상적으로 많은 데이터 흐름이 있는 경우 최대 24시간이 소요될 수 있습니다.</li><li>데이터 채우기(크기에 상관없이 최대 13개월 데이터):&lt; 4주</li></ul> |
+| [!UICONTROL Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>일반 로드 중: 60분 미만입니다. <br>**참고:** 파이프라인을 통해 비정상적으로 많은 데이터 흐름이 있는 경우 최대 24시간이 소요될 수 있습니다.</li><li>데이터 채우기(크기에 상관없이 최대 13개월 데이터): &lt; 4주</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 온라인 데이터를 오프라인 데이터로 어떻게 연결합니까? | [!UICONTROL Customer Journey Analytics]는 ID 하나로 로그인하는 &quot;BYOI&quot; 분석 시스템입니다. 개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics]는 전체 데이터 세트에서 세그먼트, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다. |
 | 오프라인 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Customer Journey Analytics에서 오프라인 데이터를 사용하려면 먼저 모든 데이터를 Experience Platform으로 가져와야 합니다. 필요한 경우 Experience Platform의 데이터 온보딩팀에서 추천이나 컨설팅 서비스를 제공할 수 있습니다. |
 | Analytics 데이터를 Customer Journey Analytics로 가져오려면 어떻게 해야 합니까? | Analytics 데이터는 [Analytics Data Connector](https://docs.adobe.com/content/help/ko-KR/experience-platform/sources/connectors/adobe-applications/analytics.html)를 통해 Experience Platform에 연결할 수 있습니다. Analytics 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다(마케팅 채널 차원 등). |
@@ -43,7 +43,7 @@ ht-degree: 96%
 
 | 질문 | 답변 |
 | --- | --- |
-| 기존의 Adobe Analytics 제품에 어떤 영향을 미칩니까? | Customer Journey Analytics은 차세대 분석 제품입니다. 현재 제품에서 Customer Journey Analytics로 진화하는 데 수년이 걸리며 많은 조정이 필요합니다. 자세한 내용은 [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md). |
+| 기존의 Adobe Analytics 제품에 어떤 영향을 미칩니까? | Customer Journey Analytics는 차세대 분석 제품입니다. 현재 제품에서 Customer Journey Analytics로 진화하는 데 수년이 걸리며 많은 조정이 필요합니다. 자세한 내용은 [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md)을 검토하세요. |
 | Customer Journey Analytics에서 AEP 또는 다른 솔루션으로 세그먼트를 공유할 수 있습니까? | 아직 공유할 수 없습니다. 향후 Customer Journey Analytics에서 AEP로 세그먼트를 오랜 지연 없이 공유할 수 있는 새롭고 혁신적인 방법을 모색하고 있습니다. 즉, 잠재적인 해결 방법으로 Query Services의 결과를 통합 프로필에 공유할 수 있습니다. |
 | 이전 eVar 설정은 어떻게 됩니까? | 기존 Adobe Analytics 센스의 eVar, prop, 이벤트는 Customer Journey Analytics에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다. |
 | 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | Customer Journey Analytics의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
