@@ -3,15 +3,15 @@ description: 작업 공간 성능 및 권장 최적화에 영향을 주는 요�
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 3928307fb51d1bde628773a91d5f4e2d4e5c2a5c
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 17%
+source-wordcount: '2026'
+ht-degree: 20%
 
 ---
 
 
-# Analysis Workspace 성능 요소 및 최적화
+# Analysis Workspace 성능 최적화
 
 다양한 요소들이 Analysis Workspace 내의 프로젝트 성과에 영향을 줄 수 있다. 프로젝트를 가장 최적의 방식으로 계획 및 구축할 수 있도록 프로젝트를 빌드하기 전에 이러한 기여자가 어떤 사람인지 아는 것이 중요합니다. 이 페이지에는 성능에 영향을 주는 요소 및 Analysis Workspace의 최고 성능을 보장하기 위해 수행할 수 있는 권장 최적화 목록이 포함되어 있습니다.
 
@@ -62,7 +62,7 @@ Under **[!UICONTROL Analysis Workspace > 도움말 > 성능]**&#x200B;네트워�
 | 자유 형식 셀 개수 | 프로젝트의 총 자유 형식 테이블 셀 수(모든 테이블의 행 * 열로 계산됨) 숨겨진 데이터 소스를 제외합니다. 권장 임계값은 4000입니다. | 표의 열 개수를 가장 관련성이 높은 데이터 포인트로만 줄입니다. 표 필터를 적용하거나 세그먼트를 적용하여 표의 행 수를 줄입니다. |
 | 사용 가능한 구성 요소 | 프로젝트의 모든 보고서 세트에 걸쳐 프로젝트의 왼쪽 레일에서 검색된 총 구성 요소 수입니다. 권장 임계값은 2000입니다. | 보다 맞춤화된 구성 요소를 포함하는 선별된 가상 보고서 세트를 만드는 방법에 대해 제품 관리자에게 문의하십시오. |
 | 사용된 구성 요소 | 프로젝트에 사용된 총 구성 요소 수입니다. 권장 임계값은 100입니다. | 사용된 구성 요소의 수는 성능에 직접적인 영향을 주지 않습니다. 그러나 이러한 구성 요소의 복잡성은 프로젝트 성능에 기여합니다. 아래의 &quot;추가 요인&quot; 섹션에서 권장 최적화를 참조하십시오. |
-| 가장 긴 날짜 범위 | 이 인수는 프로젝트에 사용된 가장 긴 날짜 범위를 표시합니다. 권장 임계값은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 분석 관련 날짜로 패널 달력을 좁히거나 자유 형식 테이블에서 날짜 범위 구성 요소(자주색 구성 요소)를 사용합니다. 표에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제 데이터를 테이블 열에 추가하여 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)에서 확인하십시오. <br><br>또한 프로젝트에서 사용한 연간 비교 수를 최소화할 수 있습니다. 1년 대비 비교가 계산되면 관심 개월 사이의 전체 13개월 데이터를 검색합니다. 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다. |
+| 가장 긴 날짜 범위 | 이 인수는 프로젝트에 사용된 가장 긴 날짜 범위를 표시합니다. 권장 임계값은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 분석 관련 날짜로 패널 달력을 좁히거나 자유 형식 테이블에서 날짜 범위 구성 요소(자주색 구성 요소)를 사용합니다. 테이블에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제를 테이블 열에 추가하여 해당하는 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)에서 확인하십시오. <br><br>또한 프로젝트에서 사용한 연간 비교 수를 최소화할 수 있습니다. 연도별 비교가 계산되면 관심 월들 사이의 전체 13개월 데이터를 살펴봅니다. 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 효과가 있습니다. |
 
 ## 추가 요소
 
