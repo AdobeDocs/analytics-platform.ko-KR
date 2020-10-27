@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 
 연결 만들기, 데이터 세트 추가 등을 수행하려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
 
-* 2020년 9월 9일부터 Customer Journey Analytics에 액세스하거나 연결을 하려면 **Customer Journey Analytics 제품** in [Admin Console](https://adminconsole.adobe.com/enterprise/). 제품 관리자에게는 다음 권한이 부여됩니다.
+* 2020년 9월 9일부터 Customer Journey Analytics에 액세스하거나 연결을 만들려면 **관리 콘솔**&#x200B;에서 [Customer Jorney Analytics 제품](https://adminconsole.adobe.com/enterprise/)에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
    * 연결 또는 데이터 보기 만들기/업데이트/삭제
    * 다른 사용자가 만든 프로젝트, 필터, 계산 지표 또는 세그먼트 업데이트/삭제
    * 모든 사용자에게 작업 영역 프로젝트 공유
-* Customer Journey Analytics에서만 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
+* Customer Journey Analytics 내에서 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
    * 스키마 보기
    * 스키마 관리
    * ID 네임스페이스 보기
@@ -67,7 +67,7 @@ Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platf
 
 ### 사용자 액세스
 
-Customer Journey Analytics의 비제품 관리자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
+Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
 
 ## 용어 업데이트
 
