@@ -2,7 +2,7 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 619eaeabfbd0fb6a7205488075c1c9cfb0fd5a26
+source-git-commit: 3f57da53a377f357109a828721e7f3b2c964a1eb
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 83%
@@ -109,7 +109,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
    | [!UICONTROL 데이터 세트] | 이 연결에 포함된 데이터 세트입니다. |
    | [!UICONTROL 오늘부터 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져옵니다.] | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 [!UICONTROL 작업 공간]으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. |
    | [!UICONTROL 기존 데이터 모두 가져오기] | 이 옵션을 선택하고 연결을 저장하면 [!DNL Experience Platform] 이 연결의 모든 데이터 세트를 가져오거나 다시 채웁니다. 이후에 여기에 저장된 연결에 추가된 새로운 데이터 세트에 대한 기존의 모든 이전 데이터도 자동으로 가져옵니다. 자세한 내용은 [내역 데이터 채우기](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) 아래 URL을 참조하십시오.<br>**이 연결이 저장되면 이 설정을 변경할 수 없습니다.** |
-   | [!UICONTROL 일일 평균 이벤트 수] | 가져올 일별 이벤트의 평균 수를 지정해야 합니다(새 데이터). **and** 데이터 채우기)를 참조하십시오. Adobe이 이 데이터에 충분한 공간을 할당할 수 있도록 해줍니다.<br>회사에서 가져오려는 일일 이벤트의 평균 수를 모를 경우 [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 를 참조하십시오. 이 옵션은 다음과 같습니다. ![일별 이벤트](assets/daily_size.png) |
+   | [!UICONTROL 일일 평균 이벤트 수] | 가져올 일별 이벤트의 평균 수를 지정해야 합니다(새 데이터). **and** 데이터 채우기)를 참조하십시오. Adobe이 이 데이터에 충분한 공간을 할당할 수 있도록 해줍니다.<br>회사에서 가져오려는 일일 이벤트의 평균 수를 모를 경우 [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 를 참조하십시오. 이 옵션은 다음과 같습니다.<br>![일별 이벤트](assets/daily_size.png) |
 
 1. 클릭 **[!UICONTROL 데이터 뷰 저장 및 만들기]**. 설명서는 [데이터 뷰 만들기](/help/data-views/create-dataview.md).
 
