@@ -1,17 +1,17 @@
 ---
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
 keywords: Analysis Workspace curation
-title: 작업 공간 프로젝트 조정
+title: 프로젝트 조정
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 99%
 
 ---
 
 
-# 작업 공간 프로젝트 조정
+# 프로젝트 조정
 
 >[!NOTE]
 >
