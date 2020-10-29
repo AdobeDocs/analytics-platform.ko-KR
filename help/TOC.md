@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
    + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
    + 작업 공간 프로젝트 작성 {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
@@ -94,13 +95,13 @@ ht-degree: 100%
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 조정 및 공유 {#curate-share}
-      + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
-      + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
+      + [프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
-      + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
-      + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
-      + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
+      + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
