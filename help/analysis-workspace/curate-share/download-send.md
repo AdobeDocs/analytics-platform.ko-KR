@@ -1,26 +1,19 @@
 ---
 description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV 형식으로 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
+uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 12%
+source-wordcount: '987'
+ht-degree: 9%
 
 ---
 
 
 # PDF 또는 CSV 파일 다운로드
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
-
 도구 외부에서 분석하려는 데이터 세트와 정보를 받아야 하는 사람에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 방법에는 여러 가지가 있습니다. 내보낸 데이터는 복사된 데이터, CSV 또는 PDF 파일 형태로 될 수 있습니다. PDF는 일반적으로 시각화를 파일에 포함하려는 경우 선호되지만 CSV(또는 복사된 데이터)는 단순히 일반 텍스트 데이터를 원하는 경우에 선호됩니다.
-
->[!IMPORTANT]
->
-> 이 페이지에서 참조되는 일부 옵션(예: **항목을 CSV로 다운로드**&#x200B;에 있는 경우 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
 ## 프로젝트를 CSV 또는 PDF로 다운로드 {#download-project}
 
@@ -95,6 +88,5 @@ ht-degree: 12%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 작업 공간은 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | &quot;항목을 CSV로 다운로드&quot; 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 더 긴 꼬리 항목을 검색하기 위해 표 정렬을 변경하거나 필터를 적용하여 보다 구체적인 항목을 다운로드할 수 있습니다. |
-| 어떤 기능 **[!UICONTROL 시각화 복사]** 뭐? | **[!UICONTROL 시각화 복사]** 은 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. 아래 비디오를 시청하십시오. |
+| 어떤 기능 **[!UICONTROL 시각화 복사]** 뭐? | **[!UICONTROL 시각화 복사]** 은 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. [인사이트 연결 비디오](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
->[!VIDEO](https://video.tv.adobe.com/v/23724)
