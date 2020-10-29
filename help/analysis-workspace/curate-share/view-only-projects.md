@@ -1,17 +1,17 @@
 ---
 description: 작업 공간에서 보기 전용 프로젝트
 keywords: View-only projects
-title: 보기 전용 작업 공간 프로젝트
+title: 보기 전용 프로젝트
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
 
-# 보기 전용 작업 공간 프로젝트
+# 보기 전용 프로젝트
 
 >[!NOTE]
 >
