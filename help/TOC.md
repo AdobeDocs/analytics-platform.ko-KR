@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '407'
 ht-degree: 98%
 
 ---
@@ -102,7 +102,6 @@ ht-degree: 98%
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
-      + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
