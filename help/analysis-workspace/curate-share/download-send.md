@@ -1,17 +1,16 @@
 ---
 description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV 형식으로 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 11%
+source-wordcount: '1042'
+ht-degree: 12%
 
 ---
 
 
-# PDF 또는 CSV 파일 다운로드 작업 공간에서
+# PDF 또는 CSV 파일 다운로드
 
 >[!NOTE]
 >
@@ -31,7 +30,7 @@ ht-degree: 11%
 
 프로젝트 다운로드 시 주의하십시오.
 
-* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되므로 브라우저에서 다운로드한 PDF를 내보내는 데 몇 분이 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. PDF를 렌더링하는 데 5분 이상 걸리는 경우 대신 이메일로 전송하라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
 * 프로젝트가 PDF로 렌더링되면 페이지의 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 컨텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단 모서리의 단추)되도록 변경해야 합니다.
