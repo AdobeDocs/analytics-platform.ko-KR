@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
-translation-type: ht
-source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 100%
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라, 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 즉, 모든 지속성은 데이터 전체가 아니라 보고 날짜 범위를 기반으로 합니다. |
 | 분류 | 이제 &quot;조회 데이터 세트&quot;라고 하며, 기존 Analytics에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
 | 사용자 특성 | 이제 &quot;프로필 데이터 세트&quot;라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
+| 디바이스, 브라우저, 기술 규모 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되어 있고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. |
+| 시작, 종료 및 시간 간격 차원 및 지표 | 지원됨(시작 및 종료)은 이제 세션 시작 및 세션 종료(Session Start and Session Ends)이라고 하며 약간 다른 방식으로 계산됩니다. |
 
 ## 부분 지원
 
@@ -66,6 +68,10 @@ ht-degree: 100%
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. |
 | CSV 다운로드 | 지원이 예정되어 있습니다. |
+| 지표 중복 제거 | 지원이 예정되어 있습니다. |
+| 사용자 지정 달력 | 지원이 예정되어 있습니다. |
+| 지표 중복 제거 | 지원이 예정되어 있습니다. |
+| 머천다이징 변수 지속성 | 지원이 예정되어 있습니다. |
 | 예약된 보고서/프로젝트 | 지원이 예정되어 있습니다. |
 | 경고 | 지원이 예정되어 있습니다. |
 | 사용자 지정 달력 | 지원이 예정되어 있습니다. |
