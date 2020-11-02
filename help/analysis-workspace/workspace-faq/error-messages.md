@@ -1,16 +1,16 @@
 ---
-description: ' Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록'
-title: Analysis Workspace의 알려진 제한 사항
+description: Analysis Workspace 및 관련 구성 요소의 오류 메시지 목록
+title: 오류 메시지
 translation-type: tm+mt
-source-git-commit: 3d3620ef9180688b6216be0c930769e0f836370a
+source-git-commit: 130dd81b580a8a011d24401918c9cb1d6bb545e7
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 39%
+source-wordcount: '326'
+ht-degree: 35%
 
 ---
 
 
-# 일반적인 오류 메시지
+# 오류 메시지
 
 Analysis Workspace과 상호 작용할 때 오류가 발생할 수 있으며 이는 성과에도 영향을 줍니다. 다음은 가장 일반적인 오류 유형, 오류 발생 이유 및 최적화할 수 있는 최적화 유형입니다.
 
