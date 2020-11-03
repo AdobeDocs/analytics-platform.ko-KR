@@ -3,15 +3,19 @@ description: 작업 공간에서 보기 전용 프로젝트
 keywords: View-only projects
 title: 보기 전용 프로젝트
 translation-type: tm+mt
-source-git-commit: 9af9d7331d70fa37e1f138cb5a4b4064c34fec5e
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '281'
 ht-degree: 98%
 
 ---
 
 
 # 보기 전용 프로젝트
+
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 [프로젝트 공유 워크플로우](/help/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
 
