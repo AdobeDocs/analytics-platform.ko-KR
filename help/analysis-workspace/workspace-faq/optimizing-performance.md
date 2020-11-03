@@ -3,15 +3,19 @@ description: 작업 공간 성능 및 최적화에 영향을 주는 요인
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: fb7738a47818e62e8f90b9dd9e4c1abe842214d8
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 25%
+source-wordcount: '1839'
+ht-degree: 27%
 
 ---
 
 
 # 최적화 [!UICONTROL Analysis Workspace 공연]
+
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 다양한 요소들이 Analysis Workspace 내의 프로젝트 성과에 영향을 줄 수 있다. 프로젝트를 가장 최적의 방식으로 계획 및 구축할 수 있도록 프로젝트를 빌드하기 전에 이러한 기여자가 어떤 사람인지 아는 것이 중요합니다. 이 페이지에는 Analysis Workspace의 최고 성능을 보장하기 위해 수행할 수 있는 성능 및 최적화에 영향을 주는 요소 목록이 포함되어 있습니다.
 
