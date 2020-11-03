@@ -3,15 +3,19 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 9%
+source-wordcount: '1022'
+ht-degree: 12%
 
 ---
 
 
 # PDF 또는 CSV 파일 다운로드
+
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 도구 외부에서 분석하려는 데이터 세트와 정보를 받아야 하는 사람에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 방법에는 여러 가지가 있습니다. 내보낸 데이터는 복사된 데이터, CSV 또는 PDF 파일 형태로 될 수 있습니다. PDF는 일반적으로 시각화를 파일에 포함하려는 경우 선호되지만 CSV(또는 복사된 데이터)는 단순히 일반 텍스트 데이터를 원하는 경우에 선호됩니다.
 
