@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
-source-git-commit: ba9629adb93358bf4a44181c880e97ae584556e4
-workflow-type: ht
-source-wordcount: '474'
+translation-type: tm+mt
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,15 @@ ht-degree: 100%
 
 # Analysis Workspace 개요
 
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+
 Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유할 수 있는 유연한 브라우저 도구입니다. 드래그하여 놓기 인터페이스를 사용하여 분석을 만들고 시각화를 추가하여 데이터를 생동감 있게 표현하고 데이터 세트를 조정하며 조직 내 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
 
 시간이 몇 분 밖에 없다면 이 간단한 개요를 통해 무엇이 가능한지 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Adobe Analytics에 로그인합니다 {#login}
 
