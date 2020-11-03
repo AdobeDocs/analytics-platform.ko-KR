@@ -2,10 +2,10 @@
 description: 프로젝트 또는 시각화에 공유 가능한 링크를 만드는 방법을 알아봅니다.
 keywords: Analysis Workspace sharing
 title: 공유 가능한 링크 만들기
-translation-type: ht
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
-workflow-type: ht
-source-wordcount: '296'
+translation-type: tm+mt
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+workflow-type: tm+mt
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
@@ -13,11 +13,15 @@ ht-degree: 100%
 
 # 공유 가능한 링크 만들기
 
+>[!NOTE]
+>
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+
 Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 링크를 받은 사용자는 프로젝트에 액세스하기 전에 Adobe Analytics에 로그인해야 합니다.
 
 ## 프로젝트 링크 가져오기 {#project-link}
 
-전체 프로젝트에 대한 링크를 공유하려면 **[!UICONTROL 공유 > 프로젝트 링크 가져오기]**&#x200B;로 이동합니다. 링크의 수신자에게 [프로젝트 역할](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html)이 할당되지 않은 경우 관리자는 **[!UICONTROL 편집 가능]** 기능을 받으며 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 경험을 받습니다.
+전체 프로젝트에 대한 링크를 공유하려면 **[!UICONTROL 공유 > 프로젝트 링크 가져오기]**&#x200B;로 이동합니다. 링크의 수신자에게 [프로젝트 역할](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html)이 할당되지 않은 경우 관리자는 **[!UICONTROL 편집 가능]** 기능을 받으며 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 경험을 받습니다.
 
 ![](assets/get-project-link.png)
 
