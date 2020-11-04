@@ -3,10 +3,10 @@ description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 �
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 94%
 | [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. |
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. |
 | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹사이트와 앱의 고객 경로를 보여줍니다. |
-| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. |
+| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. |
 | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다. |
 | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 합계와 요약을 표시합니다. |
 | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 셀을 서로 비교합니다. |
-| [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다. |
+| [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analysis-workspace/visualizations/venn.md) | 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다. |
 
