@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: a5f7a17d99d5ea7c8f944d02fb304bddf759030a
+source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 98%
+source-wordcount: '404'
+ht-degree: 97%
 
 ---
 
@@ -48,20 +48,20 @@ ht-degree: 98%
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
-      + 열 및 행 설정 {#column-row-settings}
-         + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [동적 및 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
-      + [작업 공간 합계](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table.md)
+      + 자유 형식 테이블 {#freeform-table}
+         + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + 열 및 행 설정 {#column-row-settings}
+            + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [작업 공간 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
