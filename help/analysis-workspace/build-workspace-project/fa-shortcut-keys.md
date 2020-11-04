@@ -1,21 +1,19 @@
 ---
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
-title: Analysis Workspace에서 사용 가능한 핫키(단축키)
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: 핫키(단축키)
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 77%
+source-wordcount: '306'
+ht-degree: 98%
 
 ---
 
 
-# Analysis Workspace에서 사용 가능한 핫키(단축키)
+# 핫키(단축키)
 
-Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 완벽한 내비게이션, 분석 및 민주화를 수행할 수 있습니다.
+Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 탐색, 분석 및 민주화를 수행할 수 있습니다.
 
 참고: `CTRL` = Windows 및 `command` = Mac
 
@@ -30,8 +28,8 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 | [구성 요소] 창으로 이동 | alt + shift + 3 |
 | 모든 패널 축소/확장 | alt + m |
 | 활성 패널 축소/확장 | alt + ctrl + m |
-| 다음 패널로 이동 | alt + 오른쪽 키 |
-| 이전 패널로 이동 | alt + 왼쪽 키 |
+| 다음 패널로 이동 | alt + 오른쪽 화살표 키 |
+| 이전 패널로 이동 | alt + 왼쪽 화살표 키 |
 
 ## 분석 작업
 
@@ -54,18 +52,18 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 
 | 작업 | 단축키 |
 |---|---|
-| 새 Target 패널 분석 | alt + g |
+| 새 Analytics for Target 패널 | alt + g |
 | 새 기여도 분석 패널 | alt + e |
 | 새 빈 패널 | Alt + b |
 | 새 자유 형식 패널 | alt + a |
 | 새 미디어 동시 뷰어 패널 | alt + h |
-| 새로운 빠른 인사이트 패널 | alt + f |
+| 새 빠른 인사이트 패널 | alt + f |
 | 새 세그먼트 비교 패널 | Alt + c |
 | 새 자유 형식 테이블 | alt + 1 |
 | 새 선 그래프 | alt + 2 |
 | 새 막대 차트 | alt + 3 |
 
-## 민주화 운동
+## 민주화 동작
 
 | 작업 | 단축키 |
 |---|---|
