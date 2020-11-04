@@ -1,11 +1,11 @@
 ---
 title: 속성 개요
-description: 성공 이벤트의 크레딧을 여러 차원 항목에 적용하는 개념.
+description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 분석하는 개념입니다.
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-기여도 분석가는 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 지정할 수 있습니다. 예:
+속성을 사용하면 분석자는 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
 
 1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
 2. 다음날 친구 중 한 사람의 소셜 미디어 게시물을 보고 링크를 클릭한 다음 구매를 완료합니다.
@@ -45,6 +45,6 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 속성 IQ는 다음 기능으로 구성됩니다.
 
 * [속성 패널](../c-panels/attribution.md): 모든 차원과 지표를 가져와 다양한 속성 모델과 신속하게 비교할 수 있습니다.
-* [지표에 속성 적용](../build-workspace-project/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
+* [지표에 속성 적용](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
 * [분류에 속성 적용](/help/components/dimensions/t-breakdown-fa.md): 분류에서 기본이 아닌 속성을 사용합니다.
 * [속성 모델 비교](/help/components/apply-create-metrics.md): 모든 지표에 대해 다양한 속성 모델을 비교하는 방법을 신속하게 확인할 수 있습니다.
