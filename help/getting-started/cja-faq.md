@@ -2,10 +2,10 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 translation-type: tm+mt
-source-git-commit: 3b3d0b0858d559e94f1bed6a31a63b018ed32a23
+source-git-commit: 830e7d71ad38539d1a73fe2df9f8886956f57acc
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 40%
+source-wordcount: '1284'
+ht-degree: 41%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 40%
 
 | 만약.. | 이런 일이.. |
 | --- | --- |
-| 샌드박스 삭제 [!UICONTROL Adobe Experience Platform]? | 샌드박스를 삭제하면 [!UICONTROL Customer Journey Analytics] 해당 샌드박스의 데이터 세트에 대한 연결. 그러나 CJA의 데이터 세트는 현재 삭제되지 않습니다. |
+| 샌드박스 삭제 [!UICONTROL Adobe Experience Platform]? | 샌드박스를 삭제하면 모든 [!UICONTROL Customer Journey Analytics] 해당 샌드박스의 데이터 세트에 대한 연결. 현재 해당 샌드박스와 연결된 CJA의 연결은 자동으로 삭제되지 않습니다. |
 | 스키마 삭제 [!UICONTROL Adobe Experience Platform]이 스키마와 연결된 데이터 세트/s가 아닌 경우 | [!UICONTROL Adobe Experience Platform] 과(와) 연관된 데이터 세트가 하나 이상 있는 스키마를 삭제할 수 없습니다. 그러나 적절한 권한이 설정된 관리자는 데이터 집합을 먼저 삭제한 다음 스키마를 삭제할 수 있습니다. |
-| 데이터 세트 삭제 [!UICONTROL Adobe Experience Platform]? | There would be no notification in [!UICONTROL Customer Journey Analytics];그러나 스트리밍 데이터가 활성화되어 있으면 데이터 세트가 삭제된 후 새로운 데이터가 더 이상 나오지 않습니다.<br>즉, **[!UICONTROL 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져오기]** 연결이 활성화되어 있으면 데이터 세트가 삭제된 후 새 데이터가 더 이상 나오지 않습니다. |
+| 데이터 세트 삭제 [!UICONTROL Adobe Experience Platform]? | AEP에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 모든 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 집합의 데이터는 관련 CJA 연결에서 자동으로 삭제되지 않습니다. |
 | 데이터 세트 삭제 [!UICONTROL Customer Journey Analytics]? | 현재 저장된 연결 내에서는 데이터 세트를 삭제할 수 없습니다. 전체 연결을 삭제하고 다시 시작해야 합니다. (그러나 [!UICONTROL Adobe Experience Platform].) |
-| 데이터 세트에서 일괄 삭제( [!UICONTROL Adobe Experience Platform])? | 배치를 이미 인제스트한 경우 [!UICONTROL Customer Journey Analytics], [!UICONTROL Customer Journey Analytics] 이(가) 현재 일괄 처리가 삭제되었음을 알지 못합니다. 배치를 인제스트하지 않은 경우 [!UICONTROL Adobe Experience Platform]. |
+| 데이터 세트에서 일괄 삭제( [!UICONTROL Adobe Experience Platform])? | AEP 데이터 세트에서 일괄 처리를 삭제하면 해당 특정 일괄 처리가 포함된 CJA 연결에서도 동일한 일괄 처리가 제거됩니다. |
 | 일괄 삭제 **수집되는 동안** into [!UICONTROL Customer Journey Analytics]? | 데이터 세트에 묶음이 하나만 있으면 해당 묶음의 데이터나 부분 데이터는 [!UICONTROL Customer Journey Analytics]. 섭취 되돌아갑니다. 예를 들어 데이터 세트에 5개의 배치가 있고 데이터 세트를 삭제할 때 이미 인제스트된 배치의 3개가 있는 경우 해당 3개의 배치의 데이터가 [!UICONTROL Customer Journey Analytics]. |
 | 연결 삭제 [!UICONTROL Customer Journey Analytics]? | 다음과 같은 오류 메시지가 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기는 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Workspace 프로젝트의 작업이 중단됩니다.</li></ul> |
 | 데이터 보기 삭제 [!UICONTROL Customer Journey Analytics]? | 이 삭제된 데이터 보기에 의존하는 모든 작업 영역 프로젝트의 작동이 중단된다는 오류 메시지가 표시됩니다. |
