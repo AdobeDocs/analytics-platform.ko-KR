@@ -3,6 +3,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
 cloud: experience-cloud
 product: adobe analytics
 sub-product: 고객 여정
+solution: Customer Journey Analytics
+type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
@@ -16,7 +18,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
+source-git-commit: 5fe2177d8e1da64304b0f9c84caa5383b6909d06
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 97%
