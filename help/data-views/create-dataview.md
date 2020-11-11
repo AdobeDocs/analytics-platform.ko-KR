@@ -2,10 +2,10 @@
 title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 Platform 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 83%
+source-wordcount: '572'
+ht-degree: 94%
 
 ---
 
@@ -20,17 +20,17 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 
 ## 전제 조건
 
-데이터 보기를 만들려면 먼저 [experience platform 데이터 세트에 대해 하나 이상의 연결 설정](/help/connections/create-connection.md).
+데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다.](/help/connections/create-connection.md)
 
 ## 설정 구성
 
-1. Customer Journey Analytics에서 **[!UICONTROL 데이터 보기]** tab.
+1. Customer Journey Analytics에서 **[!UICONTROL 데이터 보기]** 탭으로 이동합니다.
 
-1. 클릭 **[!UICONTROL 추가]** 을 클릭하여 데이터 뷰를 추가하고 해당 설정을 구성합니다.
+1. 데이터 보기를 추가하고 해당 설정을 구성하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
    | 세션 설정 | 정의 |
    |---|---|
-   | 연결 | 이 필드는 데이터 보기를 이전에 설정한 연결과 연결하며 [!UICONTROL Experience Platform] 데이터세트/s. |
+   | 연결 | 이 필드는 [!UICONTROL Experience Platform] 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
    | 이름 | 데이터 보기에 이름을 지정해야 합니다. |
    | 설명 | 자세한 설명은 필수가 아니지만, 권장됩니다. |
    | 태그 추가 | 태그를 사용하여 데이터 보기를 범주로 구성할 수 있습니다. |
@@ -39,18 +39,22 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
    | 이벤트로 새 세션 시작 | 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 카운트, 방문 세션(이전의 방문), 세그먼트 컨테이너 및 차원의 방문 만료 논리에 영향을 줍니다. |
    | 필터 추가 | 필터는 Customer Journey Analytics에서 세그먼트에 사용되는 용어입니다. 데이터를 필터링하려면 왼쪽 레일에서 적절한 필터를 여기로 드래그합니다. 필터를 선택하지 않으면 데이터 보기에는 모든 데이터가 포함됩니다. |
 
-1. **[!UICONTROL 계속을 클릭합니다]**.
+1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
 ## 구성 요소 추가
 
-1. 이제 데이터 보기에 구성 요소(차원, 지표)를 추가할 차례입니다(가상 보고서 세트의 큐레이션 경험과 유사). 이제 데이터 세트에 있는 각 필드가 차원이나 지표로 변환됩니다. 차원 및 지표를 패널 또는 **[!UICONTROL 모두 선택]** 를 클릭하여 모든 구성 요소를 추가합니다.
+1. 이제 데이터 보기에 구성 요소(차원, 지표)를 추가할 차례입니다(가상 보고서 세트의 큐레이션 경험과 유사). 이제 데이터 세트에 있는 각 필드가 차원이나 지표로 변환됩니다. 차원 및 지표를 패널이나 **[!UICONTROL 모두 선택]**&#x200B;으로 드래그하여 모든 구성 요소를 추가합니다.
 
    ![](assets/add-all-components.png)
 
-1. Click the **[!UICONTROL 구성 요소 추가]** 탭하여 데이터 보기에 차원 및 지표를 추가합니다.
+1. **[!UICONTROL 구성 요소 추가]** 탭을 클릭하여 데이터 보기에 차원 및 지표를 추가합니다.
 
    ![](assets/add-all-components2.png)
 
 1. (선택 사항) 구성 요소를 선택하고 해당 설정을 편집하여 구성 요소의 이름을 친숙한 이름으로 변경하거나 해당 속성 설정을 변경할 수 있습니다. 기본 이름은 그대로 유지됩니다. 자세한 내용은 [데이터 보기 및 속성 구성](/help/data-views/configure-dataviews.md)을 참조하십시오.
 
 1. 다음 단계는 [구성 요소 및 속성 설정을 지정](/help/data-views/configure-dataviews.md)하는 것입니다.
+
+## 데이터 뷰 삭제
+
+[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하면 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다.
