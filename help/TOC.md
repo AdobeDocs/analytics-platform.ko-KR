@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5fe2177d8e1da64304b0f9c84caa5383b6909d06
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 97%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 97%
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
    + [연결 관리](connections/manage-connection.md)
+   + [연결 크기 예상](connections/estimate-connection-size.md)
    + [결합된 이벤트 데이터 세트](connections/combined-dataset.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
