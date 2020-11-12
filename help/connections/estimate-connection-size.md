@@ -1,10 +1,10 @@
 ---
 title: 연결 크기 예상
-description: 현재 Customer Journey Analytics 사용 현황(청구 목적) 보고
+description: 현재 Customer Journey Analytics 사용 현황 보고
 translation-type: tm+mt
-source-git-commit: 27b3b1d9e6042f4c61cd1d5bb9d574cc268c3460
+source-git-commit: 1f496175e504cefed4239aab454744ecae72a6ea
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -29,24 +29,24 @@ ht-degree: 0%
 
 1. 이 데이터 세트에 대한 **[!UICONTROL 총 레코드]**&#x200B;은 3.83k 레코드이며 데이터 크기는 388.59KB입니다.
 
-1. 연결의 다른 데이터 세트에 대해 1-5단계를 반복하여 레코드/행 수를 추가합니다. 마지막으로 집계된 숫자는 연결의 사용 지표가 되며, 이 수는 [!UICONTROL Adobe Experience Platform]에서 인제스트할 연결의 데이터 집합 수입니다.
+1. 연결의 다른 데이터 세트에 대해 1-5단계를 반복하여 레코드/행 수를 추가합니다. 마지막으로 집계한 숫자는 연결의 사용 지표가 됩니다. 이 수는 [!UICONTROL Adobe Experience Platform]에서 인제스트할 연결의 데이터 집합 수입니다.
 
 ## 수집되는 행 수 확인
 
-CJA에서 실제로 수집되는 이벤트 수는 연결 구성 설정에 따라 달라집니다. 또한 잘못된 개인 ID를 선택했거나 데이터 집합의 일부 행에 이 ID를 사용할 수 없는 경우 [!UICONTROL Customer Journey Analytics]은 해당 행을 무시합니다. 수집되는 이벤트의 실제 행을 확인하려면 다음 단계를 수행하십시오.
+[!UICONTROL Customer Journey Analytics]에서 실제로 수집되는 이벤트 수는 연결 구성 설정에 따라 달라집니다. 또한 잘못된 개인 ID를 선택했거나 데이터 집합의 일부 행에 이 ID를 사용할 수 없는 경우 [!UICONTROL Customer Journey Analytics]은 해당 행을 무시합니다. 수집되는 이벤트의 실제 행을 확인하려면 다음 단계를 수행하십시오.
 
 1. 연결을 저장하면 필터 없이 동일한 연결의 데이터 보기를 만듭니다.
-1. 작업 공간 프로젝트를 만들고 올바른 데이터 보기를 선택합니다. 자유 형식 테이블을 만들고 **[!UICONTROL 이벤트]** 지표를 **[!UICONTROL 년]** 차원으로 드래그하여 놓습니다. 날짜 선택 달력에서 데이터 범위를 충분히 넓혀 연결 내의 모든 데이터를 캡슐화합니다. 이렇게 하면 인제스트되는 이벤트 수가 [!UICONTROL Customer Journey Analytics]에 표시됩니다.
+1. 작업 공간 프로젝트를 만들고 올바른 데이터 보기를 선택합니다. 자유 형식 테이블을 만들고 **[!UICONTROL 이벤트]** 지표를 **[!UICONTROL 년]** 차원으로 드래그하여 놓습니다. 날짜 선택 달력에서 데이터 범위를 충분히 넓혀 연결에 있는 모든 데이터를 캡슐화합니다. 이렇게 하면 인제스트되는 이벤트 수를 [!UICONTROL Customer Journey Analytics]에 볼 수 있습니다.
 
    ![작업 영역 프로젝트](assets/event-number.png)
 
    >[!NOTE]
    >
-   >이를 통해 이벤트 데이터 세트에서 수집되는 이벤트 수를 확인할 수 있습니다. 여기에는 프로필 및 조회 유형 데이터 집합이 포함되지 않습니다. 프로필 및 조회 데이터 세트에 대해 1-3단계를 수행하고 숫자를 추가하여 이 연결에 대한 총 행 수를 가져옵니다.
+   >이를 통해 이벤트 데이터 세트에서 수집되는 이벤트 수를 확인할 수 있습니다. 여기에는 프로필 및 조회 유형 데이터 집합이 포함되지 않습니다. 프로필 및 조회 데이터 세트에 대해 &quot;연결 크기 예측&quot;에서 1-3단계를 수행하고 숫자를 추가하여 이 연결에 대한 총 행 수를 가져옵니다.
 
 ## 불일치 진단
 
-경우에 따라 Connection에서 수집되는 총 이벤트 수가 AEP의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 경우 데이터 세트 &quot;B2B 노출 수&quot;에는 7650개의 행이 있지만 데이터 세트에 AEP에 3830개의 행이 포함됩니다. 불일치가 발생할 수 있는 이유는 여러 가지이며 다음 단계를 수행하여 진단할 수 있습니다.
+경우에 따라 연결에 의해 수집되는 총 이벤트 수가 [!UICONTROL Adobe Experience Platform]의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 예에서 데이터 세트 &quot;B2B 노출 수&quot;에는 7650개의 행이 있지만 데이터 세트에 [!UICONTROL Adobe Experience Platform]에 3830개의 행이 포함됩니다. 불일치가 발생할 수 있는 이유는 여러 가지이며 다음 단계를 수행하여 진단할 수 있습니다.
 
 1. 이 차원을 **[!UICONTROL 플랫폼 데이터 집합 ID]**&#x200B;로 분류하면 크기가 같지만 크기가 다른 데이터 집합 ID ]**이 두 개 있음을 알 수 있습니다.**[!UICONTROL  각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 사용자 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]이 5개의 레코드를 무시했습니다.
 
