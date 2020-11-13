@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 8eb7d3e24a941eaf882426e230561e2bf0d0145e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 96%
    + [연결 관리](connections/manage-connection.md)
    + [연결 크기 예상](connections/estimate-connection-size.md)
    + [결합된 이벤트 데이터 세트](connections/combined-dataset.md)
+   + 크로스 채널 분석 {#cca}
+      + [크로스 채널 분석 개요](connections/cca/overview.md)
+      + [재생 작동 방식](connections/cca/replay.md)
+      + [크로스채널 분석 FAQ](connections/cca/faq.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
@@ -152,6 +156,7 @@ ht-degree: 96%
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + [ 개체 배열 사용 ](use-cases/object-arrays.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
+   + [콜 센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
 + 개인 정보 보호 {#cja-privacy}
    + [개인 정보 보호 개요](privacy/privacy-overview.md)
