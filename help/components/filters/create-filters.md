@@ -1,9 +1,9 @@
 ---
 title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ ht-degree: 100%
 | 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | [조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)에서, 수신자를 위한 공유 분석에서 프로젝트에 적용하는 필터를 어떻게 사용할 수 있는지 알아봅니다. |
 | 필터를 차원으로 사용 | 비디오: Analysis Workspace에서 필터를 차원으로 사용 |
 
->[!VIDEO](https://video.tv.adobe.com/v/23974?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23974)
