@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 >
 >흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
 
-[흐름 시각화 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[흐름 시각화 비디오 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## 차원 간 흐름 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
