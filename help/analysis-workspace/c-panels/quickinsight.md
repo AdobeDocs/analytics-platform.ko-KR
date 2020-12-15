@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른]** 인사이트 스팬은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한, 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
