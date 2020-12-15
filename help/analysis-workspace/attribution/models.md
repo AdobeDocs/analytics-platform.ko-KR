@@ -49,7 +49,7 @@ Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니�
 
 >[!NOTE]
 >
->**[!UICONTROL 사용자 지정 검색 창]** 현재 제한된 테스트 중입니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html) 를 참조하십시오.
+>**[!UICONTROL 사용자 지정 조회]** 창이 현재 제한된 테스트에 있습니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)를 참조하십시오.
 
 ## 예
 
