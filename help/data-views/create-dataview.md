@@ -57,4 +57,4 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 
 ## 데이터 뷰 삭제
 
-[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하면 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다.
+[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다.
