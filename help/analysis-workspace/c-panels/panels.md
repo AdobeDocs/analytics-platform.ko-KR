@@ -16,14 +16,14 @@ ht-degree: 91%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 이러한 네 가지 유형의 패널은 Customer Journey Analytics에 대해 Analysis Workspace에서 사용할 수 있습니다.
+패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 다음 4가지 유형의 패널을 Analysis Workspace에서 Customer Journey Analytics에 사용할 수 있습니다.
 
 * [빈 패널](blank-panel.md)
 * [빠른 인사이트 패널](quickinsight.md)
 * [속성 패널](attribution.md)
 * [자유 형식 패널](freeform-panel.md)
 
-빠른 인사이트, 빈 패널 및 자유 형식 패널은 분석을 시작할 수 있는 좋은 곳이며, Attribution IQ 패널은 더 많은 고급 분석을 빌려줍니다. 프로젝트에서 `"+"` 단추를 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+빠른 인사이트, 빈 패널 및 자유 형식 패널은 분석을 시작할 수 있는 좋은 곳이며, Attribution IQ 패널은 더 높은 고급 분석을 제공합니다. 프로젝트에서 `"+"` 단추를 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
 기본 시작 패널은 자유 형식 패널이지만 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)을 기본값으로 설정할 수 있습니다.
 
