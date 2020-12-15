@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
    ![단계 결과](assets/fa_data_table_actions.png)
 
-   선택한 기간에 대해 차원 항목이나 대상 세그먼트별로 지표를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
+   선택한 기간에 대해 차원 항목이나 대상 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
    >[!NOTE]
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-**비디오:Analysis Workspace Dimension**
+**비디오:Analysis Workspace의 Dimension**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
