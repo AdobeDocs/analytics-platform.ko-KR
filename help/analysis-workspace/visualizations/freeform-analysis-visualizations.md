@@ -15,11 +15,11 @@ ht-degree: 95%
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. 각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 자세한 내용을 보려면 시각화의 이름을 클릭합니다.
 
-비디오 자습서: [Analysis Workspace의 시각화 유형](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
+비디오 자습서:[Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html)의 시각화 유형(2:57)
 
 | 시각화 이름 | 설명 |
 | --- | --- |
-| [영역](/help/analysis-workspace/visualizations/area.md) | 선 그래프처럼 표시되지만 선 아래에는 색상 영역이 표시됩니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
+| [영역](/help/analysis-workspace/visualizations/area.md) | 선 그래프처럼 표시되지만 선 아래에 색상이 있는 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
 | [막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. |
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 ## 시각화 패널 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-시각화 패널을 표시하려면 **[!UICONTROL 시각화]** 왼쪽 레일에 있습니다.
+시각화 패널을 표시하려면 왼쪽 레일에서 **[!UICONTROL 시각화]**&#x200B;를 클릭합니다.
 
 ![단계 결과](assets/visualizations.png)
 
