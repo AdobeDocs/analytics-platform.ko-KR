@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 특정 구성 요소 값(차원, 지표, 세그먼트, 날짜 범위)을 수동으로 선택하여 테이블에 놓을 때마다 그 결과는 행 또는 열의 정적 목록입니다. 다음 옵션을 선택하면 정적 차원 항목을 생성할 수도 있습니다.
 
 * 행에서 마우스 오른쪽 단추 클릭 > [!UICONTROL 선택한 행만 표시]
-* 열에서 마우스 오른쪽 단추 클릭 > [!UICONTROL 정적인 항목 만들기]
+* 열에서 마우스 오른쪽 단추를 클릭하고 > [!UICONTROL 항목을 정적 항목으로 만들기]
 
 예를 들어 Microsoft나 Apple과 같은 특정 브라우저 유형 항목 위로 드래그하면 그 2개의 특정 항목이 항상 테이블에 표시되게 됩니다.
 
@@ -56,5 +56,5 @@ ht-degree: 95%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
 
 * 동적 행은 방문 횟수나 방문자 수와 같이 합계로서 계산된 서버 측 및 중복 제거 지표입니다.
-* 정적 행은 클라이언트 측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버 측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 정적 행은 클라이언트 측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버 측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
 
