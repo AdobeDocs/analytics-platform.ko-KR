@@ -20,6 +20,6 @@ Adobe Analytics의 일부인 기능들의 세트인 Virtual Analyst는 예측 �
 
 ## 기능 {#features}
 
-고객 경로 분석의 가상 분석가는 [예외 항목 탐지:](c-anomaly-detection/anomaly-detection.md), 이전 데이터와 관련하여 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
+고객 경로 분석의 가상 분석가는 이전 데이터와 관련하여 주어진 지표가 변경되는 방법을 판별하는 통계적 방법을 제공하는 [예외 항목 탐지:](c-anomaly-detection/anomaly-detection.md)로 구성됩니다.
 
-고객 여정 분석에서는 기여도 분석 및 지능형 경고를 아직 사용할 수 없습니다.
+기여도 분석 및 지능형 경고는 아직 고객 경로 분석에서 사용할 수 없습니다.
