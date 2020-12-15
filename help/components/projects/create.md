@@ -1,21 +1,21 @@
 ---
 title: 프로젝트를 만듭니다.
-description: 프로젝트를 만들어 Analysis Workspace 사용을 시작하십시오.
+description: 프로젝트를 만들어 Analysis Workspace 사용을 시작합니다.
 translation-type: tm+mt
 source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
 
 # 프로젝트를 만듭니다.
 
-두 가지 방법으로 [프로젝트 만들기](/help/analysis-workspace/home.md) analysis workspace:
+Analysis Workspace에서 [프로젝트](/help/analysis-workspace/home.md)를 만드는 방법에는 두 가지가 있습니다.
 
-* 클릭 [!UICONTROL 프로젝트] 헤더에서 [!UICONTROL 새 프로젝트 만들기].
-* 클릭 [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트], click ![추가](../assets/add.png) [!UICONTROL 추가].
+* 헤더에서 [!UICONTROL 프로젝트]를 클릭한 다음 [!UICONTROL 새 프로젝트 만들기]를 클릭합니다.
+* [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]를 클릭한 다음 ![추가](../assets/add.png) [!UICONTROL 추가]를 클릭합니다.
 
 프로젝트를 만들면 빈 작업 공간 프로젝트가 표시됩니다.
 
