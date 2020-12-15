@@ -1,5 +1,5 @@
 ---
-description: 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다.
+description: 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다.
 title: 텍스트
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다.
+사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다.
 
 글꼴 설정(굵게, 기울임꼴 등)을 변경할 수 있습니다. 그리고 텍스트 상자 시각화 및 패널/시각화 설명 내에 하이퍼링크를 추가할 수 있습니다.
 
