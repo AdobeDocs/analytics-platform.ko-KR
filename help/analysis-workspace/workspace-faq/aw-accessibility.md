@@ -22,7 +22,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 [!UICONTROL Analysis Workspace]는 다음과 같은 사용 지원 도구를 제공합니다.
 
-## 키보드를 사용하여 [!UICONTROL Workspace] 탐색
+## 키보드를 사용하여 [!UICONTROL Analysis Workspace] 탐색
 
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 > 아래쪽, 왼쪽 > 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
