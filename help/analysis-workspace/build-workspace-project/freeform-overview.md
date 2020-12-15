@@ -33,14 +33,14 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 | 요소 | 설명 |
 |---|---|
-| 새 프로젝트 만들기 | 이 링크를 클릭하여 [처음부터 새 프로젝트 시작](/help/analysis-workspace/home.md). |
+| 새 프로젝트 만들기 | [처음부터 새 프로젝트를 시작하려면 이 링크를 클릭합니다](/help/analysis-workspace/home.md). |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 랜딩 페이지로 설정 | 이 페이지를 작업 공간 랜딩 페이지로 바꿉니다. |
-| 자습서 보기 | Adobe Experience Manager를 [Analysis Workspace 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
+| 자습서 보기 | [Analysis Workspace 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)로 이동합니다. |
 | 이름 | 작업 공간 프로젝트의 이름. |
 | 소유자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| 유형 | 이것이 작업 공간 프로젝트인지 아니면 [모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html). |
-| 프로젝트 역할 | 소유자인지, 프로젝트를 편집할 수 있는지 또는 중복 프로젝트인지 여부를 나타냅니다. |
+| 유형 | 작업 공간 프로젝트인지 [Mobile Scorecard](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html)인지 여부를 나타냅니다. |
+| 프로젝트 역할 | 소유자인지, 프로젝트를 편집할 수 있는지 또는 이 프로젝트가 복제 프로젝트인지 여부를 나타냅니다. |
 | 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 | 내 즐겨찾기 프로젝트 | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 프로젝트 이름 옆에 있는 별표를 클릭합니다. 다음에 작업 공간을 열면 이 목록에 표시됩니다. |
@@ -89,7 +89,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 | PDF 다운로드* |  |  |  |  |  |
 | 프로젝트 정보 및 설정 |  |  |  |  |  |
 
-## 왼쪽 레일 {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## 왼쪽 레일  {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 왼쪽 레일에는 3개의 아이콘이 있어서 클릭 한 번으로 패널, [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 [구성 요소](/help/components/overview.md)(차원, 지표, 세그먼트, 데이터 범위)에 액세스할 수 있습니다.
 
