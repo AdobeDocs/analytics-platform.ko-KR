@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 translation-type: tm+mt
-source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 94%
+source-wordcount: '985'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 94%
 | 기능 | 참고 |
 | --- | --- |
 | 제품 변수 | 제품 변수는 현재 경험 이벤트 스키마(구체적으로 productListItems 개체 사용)를 따르는 데이터에 대한 보고에 사용할 수 있습니다. |
+| 마케팅 채널 | 이제 마케팅 채널 데이터가 분석 데이터 커넥터를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)를 참조하십시오. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 사용자 지정 세션 | 모바일 배경 조회 수를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
@@ -75,10 +76,11 @@ ht-degree: 94%
 | 예약된 보고서/프로젝트 | 지원이 예정되어 있습니다. |
 | 경고 | 지원이 예정되어 있습니다. |
 | 사용자 지정 달력 | 지원이 예정되어 있습니다. |
-| 마케팅 채널 | 지원이 예정되어 있습니다. |
 | PDF 내보내기 | 지원이 예정되어 있습니다. |
 | 보고 API 액세스 | 지원이 예정되어 있습니다. API 2.0에서만 사용할 수 있습니다. |
 | 장치 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
+| Report Builder(Excel 플러그인) | 지원이 예정되어 있습니다. |
+| 실시간 보고 | 지원이 예정되어 있습니다. |
 
 ## 지원이 아직 예정되지 않았습니다.
 
@@ -87,11 +89,9 @@ ht-degree: 94%
 | A4T | 지원이 아직 예정되지 않았습니다. |
 | Media Analytics | 지원이 아직 예정되지 않았습니다. |
 | Advertising Cloud | 지원이 아직 예정되지 않았습니다. |
-| Report Builder(Excel 플러그인) | 지원이 아직 예정되지 않았습니다. |
 | Activity Map | 지원이 아직 예정되지 않았습니다. |
 | 분류 규칙 빌더 | 지원이 아직 예정되지 않았습니다. |
 | 요약 데이터 소스 | 지원이 아직 예정되지 않았습니다. |
-| 실시간 보고 | 지원이 아직 예정되지 않았습니다. |
 
 ## 지원 예정이 없습니다.
 
