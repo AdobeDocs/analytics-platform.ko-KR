@@ -3,19 +3,15 @@ description: 'null'
 title: 플로우 시각화 구성
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
 
 
 # 플로우 시각화 구성
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 흐름을 사용하면 eVar와 같이, 페이지나 차원을 통해 경로를 추적할 수 있습니다. 
 
