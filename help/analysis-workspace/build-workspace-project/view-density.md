@@ -2,19 +2,15 @@
 description: 보기 밀도를 조정하는 방법을 알아봅니다.
 title: 보기 밀도
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
 
 
 # 보기 밀도
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 보기 밀도를 조정하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다.
 라디오 단추를 통해 보기 밀도를 토글할 때 다음과 같은 3개의 선택 사항이 표시됩니다.
