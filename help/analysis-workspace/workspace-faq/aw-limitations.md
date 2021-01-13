@@ -2,19 +2,15 @@
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 93%
+source-wordcount: '382'
+ht-degree: 85%
 
 ---
 
 
 # Analysis Workspace의 알려진 제한 사항
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 다음은 Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록입니다.
 
@@ -32,14 +28,14 @@ ht-degree: 93%
 * [!UICONTROL 흐름]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 흐름에서 사용할 수 없습니다.
 * [!UICONTROL 집단]: 정수가 아닌 항목은 집단 기준으로 사용할 수 없습니다.
 
-<!--## Panels
+## 패널
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.<-->
+* 세그먼트 비교: [!UICONTROL 기타 사용자] 세그먼트는 세그먼트 템플릿이 초기 놓기 영역에 사용되는 경우 생성되지 않습니다.
 
 ## 구성 요소 > 필터
 
-* 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그멘테이션할 수 없습니다.
-* 특정 구성 요소 및 연산자는 작업 공간에서 만든 경우 사용할 수 없습니다(대신 [!UICONTROL 구성 요소 > 필터]에서 만든 것). 예를 들어 IP 주소가 그렇습니다.
+* [!UICONTROL 발생], [!UICONTROL 고유 방문자] 등과 같이 특정 지표 및 차원을 필터링할 수 없습니다.
+* [패널 드롭존](/help/analysis-workspace/c-panels/panels.md)에서 만든 임시 필터는 공개되지 않는 한 작업 공간 또는 필터 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 이 작업은 필터를 편집하고 **[!UICONTROL 이 필터를 공개하도록 선택합니다]**.
 
 ## 구성 요소 > 계산된 지표
 
@@ -50,6 +46,7 @@ ht-degree: 93%
 ## 구성 요소 > 날짜 범위
 
 * 사용자 지정 날짜 범위는 [!UICONTROL 지난해 이날], [!UICONTROL 지난달 이날] 등을 지원하지 않습니다.
+
 
 ## 구성 요소 > 보고서 설정
 
