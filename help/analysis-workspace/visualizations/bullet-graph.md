@@ -3,19 +3,15 @@ description: 중요한 값이 다른 성능 범위(목표)에 대해 비교되�
 title: 글머리 기호 그래프
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
 
 
 # 글머리 기호 그래프
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해줍니다.
 
