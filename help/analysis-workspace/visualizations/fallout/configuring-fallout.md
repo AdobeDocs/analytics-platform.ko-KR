@@ -3,19 +3,15 @@ description: 'null'
 title: 폴아웃 시각화 구성
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
 
 
 # 폴아웃 시각화 구성
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 터치포인트를 지정하여 차원이 여러 개인 폴아웃 시퀀스를 만들 수 있습니다. 일반적으로 터치포인트는 사이트에 있는 페이지입니다. 하지만, 터치포인트는 페이지에 제한되지 않습니다. 예를 들어, 고유 방문자 수 및 재방문 뿐만 아니라 단위와 같은 이벤트를 추가할 수도 있습니다. 카테고리, 브라우저 유형 또는 내부 검색어와 같은 차원을 추가할 수도 있습니다. 
 
@@ -69,7 +65,6 @@ ht-degree: 100%
 | 설정 | 설명 |
 |--- |--- |
 | 폴아웃 컨테이너 <ul><li>방문</li><li>방문자</li></ul> | 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 기본값은 방문자입니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다.  |
-| 첫 번째 터치 포인트로 &quot;전체 방문자 수&quot;를 표시 | 첫 번째 체크포인트로 &quot;모든 방문 횟수&quot;를 가지고 있지 않은 경우에는 이 확인란을 선택 취소할 수 있습니다.  |
 
 **터치 포인트를 마우스 오른쪽 단추로 클릭**&#x200B;하면 다음 선택 사항이 표시됩니다.
 
