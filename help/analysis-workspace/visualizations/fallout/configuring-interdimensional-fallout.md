@@ -3,19 +3,15 @@ description: Analysis Workspace의 폴아웃을 사용하면 단계 및 워크�
 title: 차원 간 폴아웃
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '164'
 ht-degree: 100%
 
 ---
 
 
 # 차원 간 폴아웃
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로우의 터치포인트로서 차원과 지표를 짜 맞출 수 있습니다. 따라서 조사할 사용자 단계를 더욱 유연하게 정의할 수 있습니다.
 
