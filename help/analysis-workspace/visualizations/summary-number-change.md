@@ -3,19 +3,15 @@ description: 요약 번호 및 변경 시각화를 사용하여 프로젝트의 
 title: 요약 번호 및 요약 변경 사항
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 
 # 요약 번호 및 요약 변경 사항
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 ## 요약 번호 시각화 {#summary-number}
 
@@ -26,7 +22,15 @@ ht-degree: 100%
 * 두 개 이상의 셀을 선택하면 선택한 첫 번째 셀이 표시됩니다.
 * 열을 선택하면 열의 첫 번째 셀 값이 선택됩니다.
 
-![요약 번호](assets/summary-number.png)
+오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 번호 설정을 구성합니다.
+
+| 설정 | 정의 |
+|--- |--- |
+| 백분율 | 숫자 대신 백분율을 표시합니다. |
+| 범례 표시 | 표시된 지표에 대한 정보를 표시합니다. |
+| 값 생략 | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
+| 다음을 기준으로 값 요약 | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
+
 
 오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 번호 설정을 구성합니다.
 
@@ -36,6 +40,7 @@ ht-degree: 100%
 | 범례 표시 | 표시된 지표에 대한 정보를 표시합니다. |
 | 값 생략 | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
 | 다음을 기준으로 값 요약 | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
+
 
 ## 요약 변경 시각화 {#summary-change}
 
@@ -50,7 +55,9 @@ ht-degree: 100%
 * 셀 범위를 선택하면 범위에서 선택한 첫 번째 셀과 마지막 셀을 비교합니다.
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
 
-![요약 변경](assets/summary-change.png)
+
+![](assets/summary-change.png)
+
 
 오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 변경 설정을 구성합니다.
 
