@@ -3,9 +3,9 @@ description: 시각화를 동기화하면 시각화에 해당하는 데이터 �
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 데이터 소스 관리
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 100%
 
 # 데이터 소스 관리
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
-
 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 
 **팁:** 제목 옆의 점 색상을 통해 연관된 시각화를 구분할 수 있습니다. 색상이 일치하면 시각화가 동일한 데이터 소스를 기준으로 한다는 것을 의미합니다.
 
 데이터 소스를 관리하면 데이터 소스를 표시하거나 선택을 잠글 수 있습니다. 이러한 설정은 새 데이터가 유입될 때 시각화가 변경되는(또는 변경되지 않는) 방식을 결정합니다.
 
-1. 데이터 테이블과 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](/help/analysis-workspace/home.md).
+1. 데이터 테이블과 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](//help/analysis-workspace/home.md).
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
 1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스]** 대화 상자를 표시합니다. **[!UICONTROL 데이터 소스 표시]** 또는 **[!UICONTROL 선택 잠금]**&#x200B;을 선택하십시오.
 
