@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 수집 옵션
 description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다양한 방법 이해
 translation-type: tm+mt
-source-git-commit: 4ea06ca1f13255c570ccc9f69cb328d57bf975b2
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 61%
 
 ---
 
@@ -30,4 +30,41 @@ ht-degree: 100%
 1. 아직 수행하지 않았다면 [데이터 레이어를 만듭니다](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html). 데이터 계층은 구현에 사용된 모든 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크로서, 구현을 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
 1. 아직 수행하지 않았다면 데이터 수집을 위해 사이트에서 코드를 구현하도록 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/launch/overview.html)를 사용합니다. Launch는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해주는 태그 관리 솔루션입니다. Launch는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 지정 코드를 배포할 수 있도록 해줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다..
 1. Adobe Experience Platform에서 [Adobe Analytics 소스 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 만듭니다. 이 소스 커넥터는 Analytics 데이터를 [XDM(Experience Data Model) 시스템](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)이라는 표준화된 프레임워크에서 Experience Platform에 수집합니다.
+1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
+
+## Adobe Experience Platform 웹 SDK 및 Edge 네트워크를 통해 데이터 인제스트
+
+[Adobe Experience Platform 웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다. Launch를 사용하거나 사용하지 않고 이 질문을 구성할 수 있습니다.
+
+### 실행 안 함
+
+이 링크는 작동하지 않습니다.https://docs.adobe.com/content/help/en/experience-platform/edge/get-started/quick-start-without-launch.html을 참조하십시오. Launch가 없어도 가능합니까?
+
+### 실행 사용
+
+1. [Adobe Experience Platform Edge Network를 ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) 통해 웹 속성에서 Adobe Experience Cloud으로 데이터를 전송하도록 AEP Web SDK 익스텐션을 구성합니다.
+1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
+
+## 일괄 처리 수집 및 스트리밍 통합 기능을 사용하여 데이터 수집
+
+Adobe Experience Platform은 마케터가 고객의 행동을 더 잘 이해할 수 있도록 다양한 소스의 데이터를 통합합니다. Adobe Experience Platform 데이터 통합은 플랫폼에서 이러한 소스의 데이터를 수집하는 여러 방법뿐만 아니라 다운스트림 플랫폼 서비스에서 사용하기 위해 Data Lake 내에 데이터가 유지되는 방식을 나타냅니다.
+
+### 일괄 처리
+
+1. 데이터를 Adobe Experience Platform에 일괄 처리로 인제스트할 수 있도록 [일괄 처리 통합](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch)을 설정합니다. 인제스트되는 데이터는 CRM 시스템의 플랫 파일에서 프로파일 데이터(예: 쪽모이 세공 항목 파일)나 XDM(Experience Data Model) 레지스트리에서 알려진 스키마를 따르는 데이터일 수 있습니다.
+1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
+
+### 스트리밍 통합
+
+1. 클라이언트 및 서버측 장치에서 Experience Platform으로 데이터를 실시간으로 전송하려면 [스트리밍 통합](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#streaming)을 설정합니다.
+1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
+
+## Customer Journey Analytics에서 분석할 Google Analytics 데이터 가져오기
+
+자세한 단계를 보려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html?lang=en#objectives)을 사용하여 Google Analytics 데이터를 분석하는 방법에 대한 이 자습서를 검토하십시오.
+
+## 벌크 데이터 삽입 API를 사용하여 데이터를 Analytics로 가져온 다음 Experience Platform의 Adobe 소스 커넥터를 통해 인제스트
+
+1. [벌크 데이터 삽입 ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) API를 사용하여 서버측 수집 데이터를 Adobe Analytics에 제출합니다. 이벤트 데이터를 포함하는 CSV 형식의 파일을 제출할 수 있습니다.
+1. [Adobe Analytics 소스 연결](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) 을 만들어 이 소비자 데이터를 Adobe Experience Platform으로 가져옵니다.
 1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
