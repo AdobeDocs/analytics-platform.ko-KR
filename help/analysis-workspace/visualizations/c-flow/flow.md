@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 흐름 기능은 웹 사이트와 앱의 고객 경로를 보여줍니다.
 title: 흐름 개요
-uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '187'
+ht-degree: 86%
 
 ---
 
@@ -19,11 +18,7 @@ ht-degree: 98%
 
 * 웹 사이트나 응용 프로그램 내의 고객 이동 시각화
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석 
-* 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성 
-
->[!NOTE]
->
->흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
+* 선택한 패스에서 특정 점을 지정하여 필터 만들기
 
 [흐름 시각화 비디오 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
