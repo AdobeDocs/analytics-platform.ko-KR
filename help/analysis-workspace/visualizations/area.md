@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 영역 시각화는 선 그래프와 비슷하지만 선 아래에 색상 영역이 있습니다.
 title: 영역 및 스택 영역
-uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 100%
+source-wordcount: '99'
+ht-degree: 83%
 
 ---
 
