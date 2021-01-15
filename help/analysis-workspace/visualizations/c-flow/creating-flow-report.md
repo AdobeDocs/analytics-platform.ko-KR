@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 흐름 시각화를 사용하면 페이지나 차원을 통해 경로를 추적할 수 있습니다.
 title: 플로우 시각화 구성
-uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 96%
 
 ---
 
