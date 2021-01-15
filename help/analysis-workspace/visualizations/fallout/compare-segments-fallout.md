@@ -1,10 +1,9 @@
 ---
 description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
-title: 폴아웃 분석에서 세그먼트 적용
-uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
+title: 폴아웃 분석에서 필터 적용
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 23%
