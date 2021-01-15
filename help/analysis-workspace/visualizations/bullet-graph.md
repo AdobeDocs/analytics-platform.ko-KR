@@ -1,9 +1,8 @@
 ---
 description: 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해줍니다.
 title: 글머리 기호 그래프
-uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
