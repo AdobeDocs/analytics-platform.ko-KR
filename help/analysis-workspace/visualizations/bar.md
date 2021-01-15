@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 막대 시각화는 하나 이상의 지표에 걸쳐 다양한 값을 나타내는 세로 막대를 표시합니다.
 title: 막대 및 스택 막대
-uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 85%
 
 ---
 
