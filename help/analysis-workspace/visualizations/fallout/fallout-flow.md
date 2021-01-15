@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 폴아웃 시각화는 방문자가 사전 정의된 페이지 시퀀스를 떠났다가(폴아웃됨) 계속 통과(폴스루)하는 위치를 보여줍니다.
 title: 폴아웃 개요
-uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 99%
+source-wordcount: '532'
+ht-degree: 95%
 
 ---
 
