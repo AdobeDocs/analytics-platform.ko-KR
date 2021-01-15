@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 도넛형 시각화는 데이터를 전체 부분 또는 세그먼트로 표시합니다.
 title: 도넛
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '81'
+ht-degree: 86%
 
 ---
 
