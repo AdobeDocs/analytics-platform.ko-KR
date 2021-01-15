@@ -1,11 +1,10 @@
 ---
-description: '히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다. '
+description: 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷).
 title: 히스토그램
-uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '429'
 ht-degree: 95%
 
 ---
