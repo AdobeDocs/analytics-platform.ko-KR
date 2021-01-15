@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 translation-type: tm+mt
-source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 89%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 | 가상 보고서 세트 | 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | VRS 구성 요소 큐레이션 | 이제 데이터 보기의 일부입니다. |
 | 보고서 처리 시간 | CJA는 보고서 처리 시간에만 사용합니다. |
-| GDPR 삭제 | 이제 [!UICONTROL Experience Platform]에 GDPR이 적용되면서 CJA에서 [!UICONTROL Experience Platform]의 기본 데이터 세트에 변경된 모든 데이터 변경 사항을 이어받습니다. |
+| GDPR 삭제 | 이제 GDPR은 [!UICONTROL Adobe Experience Platform]과(와) 함께 처리됩니다. CJA는 기본 데이터 집합에 대해 [!UICONTROL Experience Platform]으로 변경되는 모든 데이터를 상속합니다. |
 | 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
 
 ## 경고가 지원됨
