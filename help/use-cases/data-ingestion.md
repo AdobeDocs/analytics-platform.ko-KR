@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 수집 옵션
 description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다양한 방법 이해
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 8a3a868ff4e2fbbcdf83ff7769382c6a92f78ec2
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 61%
+source-wordcount: '968'
+ht-degree: 63%
 
 ---
 
@@ -34,15 +34,9 @@ ht-degree: 61%
 
 ## Adobe Experience Platform 웹 SDK 및 Edge 네트워크를 통해 데이터 인제스트
 
-[Adobe Experience Platform 웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다. Launch를 사용하거나 사용하지 않고 이 질문을 구성할 수 있습니다.
+[Adobe Experience Platform 웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
 
-### 실행 안 함
-
-이 링크는 작동하지 않습니다.https://docs.adobe.com/content/help/en/experience-platform/edge/get-started/quick-start-without-launch.html을 참조하십시오. Launch가 없어도 가능합니까?
-
-### 실행 사용
-
-1. [Adobe Experience Platform Edge Network를 ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) 통해 웹 속성에서 Adobe Experience Cloud으로 데이터를 전송하도록 AEP Web SDK 익스텐션을 구성합니다.
+1. [Adobe Experience Platform Edge 네트워크를 통해 웹 속성에서 Adobe Experience Cloud으로 데이터를 ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) 전송하려면 Launchch에서 AEP 웹 SDK 익스텐션을 구성합니다.
 1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
 
 ## 일괄 처리 수집 및 스트리밍 통합 기능을 사용하여 데이터 수집
