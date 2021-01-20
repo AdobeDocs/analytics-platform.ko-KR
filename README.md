@@ -6,7 +6,7 @@ source-wordcount: '439'
 ht-degree: 98%
 
 ---
-# Customer Journey Analytics 문서에 대한 Contribute
+# Customer Journey Analytics 문서에 게시
 
 Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환영합니다.
 
