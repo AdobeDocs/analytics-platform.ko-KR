@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 91%
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키(바로 가기)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
