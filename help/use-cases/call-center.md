@@ -2,9 +2,9 @@
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터 및 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 8d2f70ad47dcf9b97808da3a04d32d3412a1f0c8
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 콜 센터 및 웹 데이터 가져오기
 
-Customer Journey Analytics은 다양한 소스의 데이터 세트를 하나의 작업 공간 프로젝트로 결합하는 강력하고 중요한 기능을 제공합니다. 조직에서 웹 사이트의 데이터를 콜 센터에서 생성된 데이터로 연결하는 방법을 이해하려면 이 안내서를 사용합니다.
+Customer Journey Analytics은 다양한 소스의 데이터 세트를 하나의 작업 공간 프로젝트로 결합하는 강력하고 중요한 기능을 제공합니다. 조직에서 웹 사이트 데이터를 콜 센터 데이터와 결합하는 방법을 이해하려면 이 안내서를 사용합니다.
 
 ## 전제 조건
 
@@ -31,7 +31,7 @@ Customer Journey Analytics은 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜 센터 데이터를 플랫폼으로 가져오기
 
-Adobe Experience Platform으로 데이터 가져오기를 시작합니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 인제스트](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/home.html)를 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져올 수 있습니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 인제스트](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/home.html)를 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
 
@@ -100,9 +100,19 @@ step 3: call
 another good one
 
 step 1: all sessions
-step 2: -->
+step 2: 
 
-<!--  use target (AB testing) to test new versions of these pages so they reduce calls (using an eVar to determine A/B?)
-  filter by specific call reason using workspace dropdowns
-  visualize flow of pages > call reason 
--->
+Orrr we could also use dataset ID
+
+### Site sections that result in a call within 30 minutes
+
+Slide 4
+
+Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+
+wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
+
+use sequential segmentation, but you lose the ability to use attribution IQ
+
+## What to do when you've found insight -->
+
