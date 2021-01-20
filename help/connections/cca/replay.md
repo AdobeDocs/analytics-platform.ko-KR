@@ -2,7 +2,7 @@
 title: 재생 작동 방식
 description: 크로스 채널 분석의 "다시 보기" 개념 이해
 translation-type: tm+mt
-source-git-commit: 26486c79f6d94db1aa795bf024f581cad74c25f6
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # 재생 작동 방식
 
-크로스 채널 분석은 지정된 연결에 대해 두 개의 데이터 전달을 만듭니다.
+크로스 채널 분석은 지정된 연결에 대한 데이터를 두 번 전달합니다.
 
 * **라이브 스티칭**:CCA는 들어오는 대로 각 히트를 연결하려고 합니다. 로그인하지 않은 데이터 세트에 대한 새 장치는 일반적으로 이 수준에서 스티칭되지 않습니다. 이미 인식된 장치는 즉시 결합됩니다.
 * **재생**:CCA는 학습한 고유 식별자를 기반으로 데이터를 &quot;재생&quot;합니다. 이 단계에서는 연결에 대한 새 장치가 스티칭됩니다. Adobe은 두 개의 재생 간격을 제공합니다.
