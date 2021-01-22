@@ -1,11 +1,11 @@
 ---
 title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 특정 구성 요소 값(차원, 지표, 세그먼트, 날짜 범위)을 수동으로 선택하여 테이블에 놓을 때마다 그 결과는 행 또는 열의 정적 목록입니다. 다음 옵션을 선택하면 정적 차원 항목을 생성할 수도 있습니다.
 
 * 행에서 마우스 오른쪽 단추 클릭 > [!UICONTROL 선택한 행만 표시]
-* 열에서 마우스 오른쪽 단추를 클릭하고 > [!UICONTROL 항목을 정적 항목으로 만들기]
+* 열에서 마우스 오른쪽 단추 클릭 > [!UICONTROL 정적 항목으로 설정]
 
 예를 들어 Microsoft나 Apple과 같은 특정 브라우저 유형 항목 위로 드래그하면 그 2개의 특정 항목이 항상 테이블에 표시되게 됩니다.
 
