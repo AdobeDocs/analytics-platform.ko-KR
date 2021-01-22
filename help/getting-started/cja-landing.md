@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 안내서
 description: Customer Journey Analytics 랜딩 페이지.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c4463fe1c7454ede80330d8889bc4157eb99fca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석에 대한 새 설명서(Customer Journey Analytics의 스티칭 ID)  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> 업데이트된 사용자 권한 요구 사항  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석에 대한 새 설명서(Customer Journey Analytics의 결합 ID) </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> 업데이트된 사용자 권한 요구 사항 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> 개체 배열 사용 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-usecases/b2b.html"> 계정 수준 데이터를 조회 데이터 세트로 추가 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 시작하기 </a> </li> 
@@ -34,7 +34,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
      <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오. </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 리소스</b> </p> 
     <ul> 
-     <li><a href="https://www.adobe.com/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
+     <li><a href="https://www.adobe.com/kr/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external">Adobe Experience Platform 튜토리얼</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API 참조</a> </li> 
      <li><a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> 설명서 및 개발자 리소스</a> </li> 
