@@ -1,9 +1,9 @@
 ---
 description: 작업 공간 합계를 계산하는 방법.
 title: 작업 공간 합계
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
 ht-degree: 100%
 
