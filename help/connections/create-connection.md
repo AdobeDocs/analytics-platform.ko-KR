@@ -1,11 +1,11 @@
 ---
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 ![연결 활성화](assets/create-connection2.png)
 
-1. 연결을 활성화하려면 전체 연결에 대해 다음 설정을 정의합니다(예: 연결의 모든 데이터 집합).
+1. 연결을 활성화하려면 전체 연결에 대해 다음 설정을 정의합니다(예: 연결의 모든 데이터 세트).
 
    | 옵션 | 설명 |
    | --- | --- |
@@ -108,28 +108,28 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
    | [!UICONTROL 설명] | 이 연결을 다른 연결과 구분하려면 세부 사항을 더 추가합니다. |
    | [!UICONTROL 데이터 세트] | 이 연결에 포함된 데이터 세트입니다. |
    | [!UICONTROL 오늘부터 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져옵니다.] | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 [!UICONTROL 작업 공간]으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. |
-   | [!UICONTROL 기존 데이터 모두 가져오기] | 이 옵션을 선택하고 연결을 저장하면 이 연결의 모든 데이터 세트에 대해 [!DNL Experience Platform]의 기존(기록) 데이터를 모두 가져오거나 다시 채웁니다. 이후에 여기에 저장된 연결에 추가된 새로운 데이터 세트에 대한 기존의 모든 이전 데이터도 자동으로 가져옵니다. 아래의 [내역 데이터 채우기](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)를 참조하십시오.<br>**이 연결이 저장되면 이 설정을 변경할 수 없습니다.** |
-   | [!UICONTROL 일일 평균 이벤트 수] | 연결에 있는 모든 데이터 세트에 대해 가져올 일일 이벤트(새 데이터 **및** 데이터 채우기)의 평균 수를 지정해야 합니다. 드롭다운 메뉴에서 옵션 하나를 선택합니다. 이렇게 하면 Adobe에서 이 데이터에 충분한 공간을 할당할 수 있습니다.<br>회사가 가져올 평균 일별 이벤트 수를 모를 경우  [Adobe Experience Platform 쿼리 서비스에서 간단한 SQL 쿼리를 수행하여 ](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 확인할 수 있습니다.<br>아래의 &quot;평균 일일 이벤트 수 계산&quot;을 참조하십시오. |
+   | [!UICONTROL 기존 데이터 모두 가져오기] | 이 옵션을 선택하고 연결을 저장하면 이 연결에 있는 모든 데이터 세트에 대한 [!DNL Experience Platform]의 기존(내역) 데이터를 모두 가져오거나 채웁니다. 이후에 여기에 저장된 연결에 추가된 새로운 데이터 세트에 대한 기존의 모든 이전 데이터도 자동으로 가져옵니다. 아래의 [내역 데이터 채우기](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)도 참조하십시오.<br>**이 연결이 저장되면 이 설정을 변경할 수 없습니다.** |
+   | [!UICONTROL 일일 평균 이벤트 수] | 연결에 있는 모든 데이터 세트에 대해 가져올 일일 이벤트(새 데이터 **및** 데이터 채우기)의 평균 수를 지정해야 합니다. 드롭다운 메뉴에서 옵션 하나를 선택합니다. 이렇게 하면 Adobe에서 이 데이터에 충분한 공간을 할당할 수 있습니다.<br>회사에서 가져오는 평균 일별 이벤트 수를 모를 경우, [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/ko-KR/experience-platform/query/home.html)에서 간단한 SQL 쿼리를 수행하여 확인할 수 있습니다.<br>아래의 &quot;평균 일일 이벤트 수 계산&quot;을 참조하십시오. |
 
-1. **[!UICONTROL 저장을 클릭하고 데이터 보기]**&#x200B;를 만듭니다. 설명서는 [데이터 보기](/help/data-views/create-dataview.md) 만들기를 참조하십시오.
+1. **[!UICONTROL 데이터 보기 저장 및 만들기]**&#x200B;를 클릭합니다. 설명서는 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 
 ### 내역 데이터 채우기
 
-**[!UICONTROL 내역 데이터를]** 채우는 기존 데이터를 모두 가져옵니다. 다음 사항에 주의하십시오.
+**[!UICONTROL 기존 데이터 모두 가져오기]**&#x200B;로 내역 데이터를 채울 수 있습니다. 다음 사항에 주의하십시오.
 
-* 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 직접 데이터를 채울 수 있습니다.
-* 연결에서 데이터 세트에 추가된 새 데이터의 우선 순위를 매겨 이 새 데이터의 지연 시간이 가장 짧습니다.
-* 모든 채우기(이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 사용자가 선택한 평균 일별 이벤트 수&#x200B;**[!UICONTROL 설정과 결합되어 있는 내역 데이터의 양에 영향을 받습니다.]** 예를 들어 하루에 10억 개 이상의 데이터 행과 3년의 내역 데이터를 가져오는 데 여러 주가 걸릴 수 있습니다. 반면에 하루에 1백만 개 미만의 행과 1주일 동안의 내역 데이터가 있는 경우 1시간 미만의 시간이 소요됩니다.
+* 채우기(내역 데이터 가져오기) 제한을 제거했습니다. 이전에는 스스로 최대 25억 개의 행을 채우거나 엔지니어링 관련 이외의 작업을 수행할 수 있었습니다. 이제 제한 없이 데이터 채우기를 원하는 대로 할 수 있습니다.
+* 연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.
+* 모든 채우기(이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 사용자가 선택한 **[!UICONTROL 평균 일별 이벤트 수]** 설정과 결합되어 있는 내역 데이터의 양에 영향을 받습니다. 예를 들어, 하루에 10억 개 이상의 데이터 행과 3년의 내역 데이터를 가져오는 데 여러 주가 걸릴 수 있습니다. 반면에 하루에 1백만 개 미만의 행과 1주일 동안의 내역 데이터가 있는 경우 1시간 미만의 시간이 소요됩니다.
 * 채우기 작업은 각 데이터 세트에 개별적으로 적용되는 것이 아니라 전체 연결에 적용됩니다.
 * [Adobe Analytics 소스 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)는 크기에 상관없이 최대 13개월의 데이터를 가져옵니다.
 
-### 일별 평균 이벤트 수 계산
+### 일일 평균 이벤트 수 계산
 
 이 계산은 연결의 모든 데이터 세트에 대해 수행해야 합니다.
 
-1. [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/en/experience-platform/query/home.html)로 이동하여 새 쿼리를 만듭니다.
+1. [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/ko-KR/experience-platform/query/home.html)로 이동하여 새 쿼리를 만듭니다.
 
-1. 쿼리는 다음과 같습니다.<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
+1. 이 쿼리의 형태는 다음과 같습니다.<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
 * 이 예에서 &quot;analytics_demo_data&quot;는 데이터 세트의 이름입니다.
 * AEP에 있는 모든 데이터 세트를 표시하려면 `Show Tables` 쿼리를 수행하십시오.
