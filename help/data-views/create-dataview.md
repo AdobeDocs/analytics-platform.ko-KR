@@ -1,11 +1,11 @@
 ---
 title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 Platform 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,6 +55,6 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 
 1. 다음 단계는 [구성 요소 및 속성 설정을 지정](/help/data-views/configure-dataviews.md)하는 것입니다.
 
-## 데이터 뷰 삭제
+## 데이터 보기 삭제
 
-[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다.
+[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우, 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다.
