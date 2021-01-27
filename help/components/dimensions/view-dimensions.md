@@ -1,11 +1,11 @@
 ---
 description: 비시간 차원에 대한 상위 5개 값(시간 차원에 대해 15개)을 표시합니다.
-title: 차원 미리 보기
+title: CJA 작업 공간에서 차원을 미리 보는 방법
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '230'
+ht-degree: 92%
 
 ---
 
