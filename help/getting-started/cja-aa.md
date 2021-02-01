@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 translation-type: tm+mt
-source-git-commit: c70662468126279110f14291c135a3f60dd919db
+source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 75%
+source-wordcount: '1014'
+ht-degree: 76%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 75%
 | 보고서 처리 시간 | CJA는 보고서 처리 시간에만 사용합니다. |
 | GDPR 삭제 | 이제 GDPR은 [!UICONTROL Adobe Experience Platform]과(와) 함께 처리됩니다. CJA는 기본 데이터 집합에 대해 [!UICONTROL Experience Platform]으로 변경되는 모든 데이터를 상속합니다. |
 | 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
+| 크로스 디바이스/크로스 채널 연결 | [크로스 채널 분석](/help/connections/cca/overview.md)을 참조하십시오. |
 | 기본 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 운영 체제 등) | CJA는 기본 XDM 필드(예: 사용자 에이전트 또는 장치 ID)가 채워지는 한 기본적으로 이러한 크기를 제공합니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
 | 보고 API 액세스 | 현재 Analytics API 2.0을 사용하여 사용할 수 있습니다. |
 
@@ -59,8 +60,7 @@ ht-degree: 75%
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
 | 머천다이징 eVars | 머천다이징 eVar이 지속성을 사용하도록 설정되지 않은 경우 개체 배열 내의 차원을 사용하여 머천다이징 eVar의 동작을 구현할 수 있습니다. 현재 머천다이징 차원 지속성을 사용할 수 없습니다. |
 | 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
-| 처리 규칙 | ADC 기반 데이터 세트의 경우 처리 규칙이 계속 적용됩니다. |
-| 교차 장치 ID 결합 | CJA는 기록 데이터의 정기 복구를 비롯하여 상호 장치, 크로스 채널 ID 스티치를 지속적으로 지원합니다. 현재는 단일 쿠키 ID와 결합하여 단일 고객 세트 ID를 사용해야만 수행할 수 있습니다. |
+| 처리 규칙 | Analytics 데이터 커넥터 기반 데이터 집합의 경우 처리 규칙이 여전히 적용됩니다. |
 | Media Analytics | 미디어 데이터는 Analytics 데이터 커넥터의 일부로 사용할 수 있습니다. |
 
 ## 현재는 지원되지 않지만, 지원 예정
