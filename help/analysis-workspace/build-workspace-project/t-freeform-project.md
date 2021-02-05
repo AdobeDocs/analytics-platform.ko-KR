@@ -5,8 +5,8 @@ title: 작업 공간 프로젝트 만들기
 translation-type: tm+mt
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
@@ -115,11 +115,11 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >세그먼트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
-   <td colname="col2"> <p>패널 수준에서 드래그할 수 있습니다. 날짜 범위를 구성할 때 [일정]에서 프로젝트를 만들 수 있습니다. </p> <p><img  src="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
+   <td colname="col2"> <p>패널 수준에서 드래그할 수 있습니다. 날짜 범위를 구성할 때 일정에서 프로젝트를 만들 수 있습니다. </p> <p><img  src="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
