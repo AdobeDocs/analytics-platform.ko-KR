@@ -21,7 +21,7 @@ translation-type: tm+mt
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [핫키(바로 가기)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
@@ -103,7 +103,7 @@ ht-degree: 93%
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 조정 및 공유 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
-      + [프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
@@ -159,7 +159,7 @@ ht-degree: 93%
    + [콜 센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
-   + [데이터 세트에 글로벌 조회 추가](use-cases/global-lookups.md)
+   + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
 + 개인 정보 보호 {#cja-privacy}
    + [개인 정보 보호 개요](privacy/privacy-overview.md)
 + [CJA 설명서 업데이트](doc-changes.md)
