@@ -5,8 +5,8 @@ description: Analysis Workspace 기능 개요
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '517'
+ht-degree: 99%
 
 ---
 
@@ -67,4 +67,4 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)를 제공합니다.
+* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)를 제공합니다.
