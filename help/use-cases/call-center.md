@@ -1,11 +1,11 @@
 ---
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜 센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져올 수 있습니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/home.html)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/home.html)을 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
 
@@ -43,7 +43,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 CJA에는 [결합된 데이터 세트](../connections/combined-dataset.md)를 생성하려면 공통 식별자가 필요합니다.
 
 * 이미 데이터 세트 모두에 모든 이벤트에 대한 공통 식별자가 있는 경우 이 단계를 건너뛰고 연결을 만들 수 있습니다.
-* 데이터 세트 중 하나에 일부 이벤트에만 공통 식별자가 있으면 크로스 채널 분석을 사용하여 데이터를 결합할 수 있습니다. 이러한 두 데이터 세트에 대해 CCA를 활성화하는 단계는 [크로스채널 분석 개요](/help/connections/cca/overview.md)를 참조하십시오.
+* 데이터 세트 중 하나에 일부 이벤트에만 적용되는 공통 식별자가 있으면 크로스 채널 분석을 사용하여 데이터를 결합할 수 있습니다. 이러한 두 데이터 세트에 CCA를 활성화하는 단계는 [크로스 채널 분석 개요](/help/connections/cca/overview.md)를 참조하십시오.
 
 ## CJA에서 연결 만들기
 
