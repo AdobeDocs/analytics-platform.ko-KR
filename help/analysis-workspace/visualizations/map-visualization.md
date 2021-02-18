@@ -1,11 +1,11 @@
 ---
-description: Analysis Workspace에서 모든 지표의 시각적 맵을 만드는 방법을 알아봅니다.
+description: Analysis Workspace에서 모든 지표의 시각적 맵을 작성하는 방법을 알아봅니다.
 title: 맵
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
