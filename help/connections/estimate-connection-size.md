@@ -1,9 +1,9 @@
 ---
 title: 연결 크기 예상
 description: 현재 Customer Journey Analytics 사용 현황 보고
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
 1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없습니다. 나중에 [!UICONTROL Customer Journey Analytics]에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
 
-[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
+[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
