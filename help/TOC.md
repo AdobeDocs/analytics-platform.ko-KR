@@ -2,7 +2,7 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
 cloud: experience-cloud
 product: adobe analytics
-sub-product: 고객 여정
+sub-product: customer journey
 solution: Customer Journey Analytics
 type: Documentation
 index: true
@@ -17,11 +17,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
    + 크로스 채널 분석 {#cca}
       + [크로스 채널 분석 개요](connections/cca/overview.md)
       + [재생 작동 방식](connections/cca/replay.md)
-      + [크로스채널 분석 FAQ](connections/cca/faq.md)
+      + [크로스 채널 분석 FAQ](connections/cca/faq.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
