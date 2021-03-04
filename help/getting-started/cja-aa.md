@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 translation-type: tm+mt
-source-git-commit: 1a436ac162df0ae96525fd2e71daef55b078a59c
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 94%
+source-wordcount: '1035'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 ## 완전히 지원되는 기능/구성 요소
 
-| Adobe Analytics 기능 | 참고 |
+| Adobe Analytics 기능 | 지원에 대한 참고 사항 |
 | --- | --- |
 | 지표 | CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트와 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트. |
 | 차원 | CJA는 XDM을 활용하고 무제한 차원을 지원하며 기존 Analytics의 사용자 지정 eVar 또는 prop에 연결되지 않습니다. |
@@ -100,5 +100,4 @@ ht-degree: 94%
 * Reports &amp; Analytics 책갈피
 * Reports &amp; Analytics 대상
 * Reports &amp; Analytics 달력 이벤트
-* Ad Hoc Analysis
 * Mobile Services
