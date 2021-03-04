@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
-translation-type: ht
-source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
-workflow-type: ht
-source-wordcount: '1014'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1a436ac162df0ae96525fd2e71daef55b078a59c
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 | Adobe Analytics 기능 | 참고 |
 | --- | --- |
 | 지표 | CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트와 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트. |
-| 차원 | CJA는 XDM을 활용하고 무제한 차원을 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트와 연결되지 않습니다. |
-| 목록 변수/목록 속성 | CJA는 XDM을 활용하고 무제한 목록 변수를 지원합니다. |
+| 차원 | CJA는 XDM을 활용하고 무제한 차원을 지원하며 기존 Analytics의 사용자 지정 eVar 또는 prop에 연결되지 않습니다. |
+| 목록 변수/목록 속성 | CJA는 XDM을 활용하며 listVars와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
 | 데이터 범위 | 사용자 지정 달력 지원이 예정되어 있습니다. |
 | 계산된 지표 | 기존 Analysis Workspace의 기존 계산 지표가 CJA에 포팅되지 않습니다. |
 | 세그먼트 | 이제 &quot;필터&quot;라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
@@ -80,6 +80,7 @@ ht-degree: 100%
 | 장치 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | Report Builder(Excel 플러그인) | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
+| Data Warehouse 보고(100% 행 내보내기) | 지원은 Analysis Workspace 인터페이스에서 계획됩니다. [!UICONTROL Experience Platform 쿼리 서비스] 는 CJA에서 이러한 사용 사례에 대한 인터페이스도 제공합니다. |
 
 ## 지원이 아직 예정되지 않았습니다.
 
@@ -90,6 +91,7 @@ ht-degree: 100%
 | Activity Map | 지원이 아직 예정되지 않았습니다. |
 | 분류 규칙 빌더 | 지원이 아직 예정되지 않았습니다. |
 | 요약 데이터 소스 | 지원이 아직 예정되지 않았습니다. |
+| 데이터 피드 | 지원이 아직 예정되지 않았습니다. |
 
 ## 지원 예정이 없습니다.
 
@@ -99,6 +101,4 @@ ht-degree: 100%
 * Reports &amp; Analytics 대상
 * Reports &amp; Analytics 달력 이벤트
 * Ad Hoc Analysis
-* Data Warehouse 보고 - [!UICONTROL Experience Platform 쿼리 서비스]는 CJA의 이러한 사용 사례를 위한 새로운 인터페이스입니다.
 * Mobile Services
-* 데이터 피드
