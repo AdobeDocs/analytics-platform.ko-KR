@@ -2,9 +2,9 @@
 title: 참조 - 기본 함수
 description: '계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1079'
 ht-degree: 100%
 
 ---
@@ -324,10 +324,4 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다. Ad Hoc Analysis에서는 다음과 같이 표시됩니다.
-
-1 2/3
-
-2 2/3
-
-3 2/3
+이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다.
