@@ -1,11 +1,11 @@
 ---
 title: 크로스 채널 분석 개요
 description: 방문자 결합을 위해 여러 데이터 세트의 방문자 ID를 다시 입력합니다.
-translation-type: ht
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
-source-wordcount: '787'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 100%
 * 이벤트 데이터 세트만 지원됩니다. 조회 데이터 세트와 같은 다른 데이터 세트는 지원되지 않습니다.
 * 조직에서 사용한 사용자 지정 ID 맵은 지원되지 않습니다.
 * Adobe 공동 작업 그래프 및 비공개 그래프는 지원되지 않습니다.
+* 크로스 채널 분석에서는 스티칭에 사용되는 필드를 어떤 방식으로든 변형하지 않습니다. 필드 기반 스티칭은 데이터 레이크 내의 연결된 데이터세트에 있는 것처럼 지정된 필드의 값을 사용합니다. 예를 들어, 필드에 &#39;Bob&#39;이라는 단어가 종종 나타나고, 때때로 &#39;BOB&#39;라는 단어가 나타나면, 이 단어들은 두 개의 분리된 사람들로 처리됩니다.
+
 
 ## 크로스 채널 분석 활성화
 
