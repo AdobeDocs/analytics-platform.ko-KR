@@ -5,20 +5,20 @@ translation-type: tm+mt
 source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Customer Journey Analytics 기능 지원
 
-다음 표는 CJA(Customer Journey Analytics)에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능을 보여줍니다. 이러한 기능은 CJA에 추가되므로 시간이 지남에 따라 위의 표가 변경됩니다.
+다음 표는 CJA(Customer Journey Analytics)에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능을 보여 줍니다. 이들 목록은 CJA에 추가되므로 시간이 지남에 따라 변경됩니다.
 
 ## 완전히 지원되는 기능/구성 요소
 
-| Adobe Analytics 기능 | 지원에 대한 참고 사항 |
+| Adobe Analytics 기능 | 지원 관련 참고 사항 |
 | --- | --- |
-| 지표 | CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트와 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트. |
+| 지표 | CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트와 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
 | 차원 | CJA는 XDM을 활용하고 무제한 측정을 지원하며 기존 Analytics의 사용자 지정 eVar 또는 속성에 귀속되지 않습니다. |
 | 목록 변수/목록 속성 | CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
 | 데이터 범위 | 사용자 지정 달력 지원이 예정되어 있습니다. |
@@ -34,8 +34,8 @@ ht-degree: 99%
 | 보고서 처리 시간 | CJA는 보고서 처리 시간에만 사용합니다. |
 | GDPR 삭제 | 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용되면서 CJA에서 [!UICONTROL Experience Platform]의 기본 데이터 세트에 변경된 모든 데이터 변경 사항을 이어받습니다. |
 | 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
-| 교차 장치/크로스 채널 결합 | [크로스 채널 분석](/help/connections/cca/overview.md)을 참조하십시오. |
-| 기본 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 운영 체제 등) | CJA는 기본 XDM 필드(예: 사용자 에이전트 또는 장치 ID)가 추가되면 기본적으로 이러한 차원을 제공합니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
+| 크로스 디바이스/크로스 채널 결합 | [크로스 채널 분석](/help/connections/cca/overview.md)을 참조하십시오. |
+| 기본 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 운영 체제 등) | CJA는 기본 XDM 필드(예: 사용자 에이전트 또는 디바이스 ID)가 추가되면 기본적으로 이러한 차원을 제공합니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
 | 보고 API 액세스 | 현재 Analytics API 2.0을 이용하여 사용할 수 있습니다. |
 
 ## 경고가 지원됨
@@ -43,7 +43,7 @@ ht-degree: 99%
 | 기능 | 참고 |
 | --- | --- |
 | 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
-| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
+| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)를 참조하십시오. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 사용자 지정 세션 | 모바일 배경 조회 수를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
@@ -77,25 +77,25 @@ ht-degree: 99%
 | 예약된 보고서/프로젝트 | 지원이 예정되어 있습니다. |
 | 경고 | 지원이 예정되어 있습니다. |
 | PDF 내보내기 | 지원이 예정되어 있습니다. |
-| 장치 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
+| 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | Report Builder(Excel 플러그인) | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. [!UICONTROL Experience Platform Query Service] 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
 
-## 지원이 아직 예정되지 않았습니다.
+## 지원이 아직 예정되지 않음
 
 | 기능 | 참고 |
 | --- | --- |
-| A4T | 지원이 아직 예정되지 않았습니다. |
-| Advertising Cloud | 지원이 아직 예정되지 않았습니다. |
-| Activity Map | 지원이 아직 예정되지 않았습니다. |
-| 분류 규칙 빌더 | 지원이 아직 예정되지 않았습니다. |
-| 요약 데이터 소스 | 지원이 아직 예정되지 않았습니다. |
-| 데이터 피드 | 지원이 아직 예정되지 않았습니다. |
+| A4T | 지원이 아직 예정되지 않음 |
+| Advertising Cloud | 지원이 아직 예정되지 않음 |
+| Activity Map | 지원이 아직 예정되지 않음 |
+| 분류 규칙 빌더 | 지원이 아직 예정되지 않음 |
+| 요약 데이터 소스 | 지원이 아직 예정되지 않음 |
+| 데이터 피드 | 지원이 아직 예정되지 않음 |
 
-## 지원 예정이 없습니다.
+## 지원 예정 없음
 
-* 교차 장치 조합을 사용하는 사람 지표
+* 크로스 디바이스 조합을 사용하는 사용자 메트릭
 * Reports &amp; Analytics 대시보드
 * Reports &amp; Analytics 책갈피
 * Reports &amp; Analytics 대상
