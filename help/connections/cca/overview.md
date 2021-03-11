@@ -2,10 +2,10 @@
 title: 크로스 채널 분석 개요
 description: 방문자 결합을 위해 여러 데이터 세트의 방문자 ID를 다시 입력합니다.
 translation-type: tm+mt
-source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 93%
+source-wordcount: '898'
+ht-degree: 84%
 
 ---
 
@@ -59,7 +59,8 @@ ht-degree: 93%
    * 원하는 데이터 세트에 대한 영구 ID의 열 이름(모든 행에 표시되는 식별자)
    * 원하는 데이터 세트에 대한 임시 ID의 열 이름(데이터 세트 간 개인 식별자 링크)
    * [재생](replay.md) 빈도 및 전환 길이에 대한 사용자 기본 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
-1. 요청을 받으면 Adobe 계정 관리자가 크로스 채널 분석을 활성화합니다. 활성화되면 새로운 개인 ID 열이 포함된 재입력된 새 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 계정 관리자는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
+1. Adobe 계정 관리자는 요청을 받을 때 크로스 채널 분석을 활성화하려면 Adobe 엔지니어링 팀과 협력하게 됩니다. 활성화되면 새로운 개인 ID 열이 포함된 다시 키 지정된 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 계정 관리자는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
+1. 처음 켜지면 Adobe은 이전 달 시작까지(최대 60일) 연결된 데이터를 채우도록 제공합니다. 이 채우기를 수행하려면 해당 시간 이전의 연결된 데이터에 임시 ID가 있어야 합니다.
 1. 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하여 CJA에서 [연결을 만듭니다](../create-connection.md). 각 데이터 세트에 올바른 개인 ID를 선택합니다.
 1. 연결을 기반으로 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
 
