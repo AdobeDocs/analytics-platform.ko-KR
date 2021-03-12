@@ -1,11 +1,11 @@
 ---
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 57%
 
 ---
 
@@ -52,4 +52,16 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 지표, 세그먼트 및 날짜 만들기에 대한 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23979?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
+
+## 구성 요소 액세스 권한
+
+관리자는 보고 시 사용자에게 노출되는 구성 요소를 [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)을 통해 관리할 수 있습니다. 다음 표는 이러한 구성 요소 액세스 권한이 어떻게 작동하는지 보여줍니다.
+
+| 조정 유형 | 관리자는 | 관리자가 아닌 프로젝트 소유자(또는 역할 편집)는 | 관리자가 아닌 복제 역할 |
+| --- | --- | --- | --- |
+| **데이터 보기에서 &quot;숨겨진&quot; 구성 요소** | 보고에 사용할 수 있는 모든 데이터 보기 구성 요소(숨겨진 구성 요소는 &quot;모두 표시&quot; 클릭 필요) | 보고에 사용할 수 없음 | 보고에 사용할 수 없음 |
+| **데이터 보기에서 추가 또는 제거된 구성 요소** | 데이터 보기에 추가된 구성 요소만(숨김 또는 숨김 안). 관리자는 데이터 보기로 정의되지 않은 필드 또는 구성 요소에 대해 보고할 수 없습니다. | 데이터 보기에 추가된 구성 요소나 사용자가 소유하거나 사용자와 공유한 구성 요소만 해당됩니다. 숨겨진 구성 요소는 사용할 수 없습니다(예: VRS 조정). | DV에 추가된 구성 요소만 숨겨지지 않으며 프로젝트 큐레이션에 포함되어 있습니다. |
+| **프로젝트에서 조정된 구성 요소** | 보고에 사용할 수 있는 모든 데이터 보기 구성 요소(숨겨진 구성 요소는 &quot;모두 표시&quot; 클릭 필요) | 숨기지 않은 모든 데이터 보기 구성 요소(&quot;모두 표시&quot; 클릭 필요) | 선별된 구성 요소뿐만 아니라 사용자와 소유 또는 공유된 모든 구성 요소만 |
+| **숨겨진 구성 요소가 있는 데이터 보기를 사용하여 조정된 프로젝트** | 보고에 사용할 수 있는 모든 데이터 구성 요소(숨겨진 구성 요소와 큐레이트가 없는 구성 요소는 &quot;모두 표시&quot;를 클릭해야 함) | 선별되지 않은 모든 프로젝트 구성 요소, 숨기지 않은 모든 데이터 보기 구성 요소 및 사용자가 소유하거나 사용자와 공유한 모든 구성 요소 | 선별된 구성 요소 및 사용자가 소유하거나 사용자와 공유한 모든 구성 요소 |
+
