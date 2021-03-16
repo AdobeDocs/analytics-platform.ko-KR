@@ -2,10 +2,10 @@
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
+source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 57%
+source-wordcount: '360'
+ht-degree: 95%
 
 ---
 
@@ -43,10 +43,10 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 >시간 구성 요소에는 이 작업이 적용되지 않습니다.
 
 | 구성 요소 작업 | 설명 |
-|--- |--- |
-| 태그 | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
-| 즐겨찾기 | 구성 요소를 즐겨찾기 목록에 추가합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
-| 승인 | 정형화되도록 구성 요소를 승인합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
+| --- | --- |
+| 태그 | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그러면 각 구성 요소 관리자에 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 세그먼트] 또는 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]와 같이 표시됩니다. |
+| 즐겨찾기 | 구성 요소를 즐겨찾기 목록에 추가합니다. 그러면 각 구성 요소 관리자에 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 세그먼트] 또는 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]와 같이 표시됩니다. |
+| 승인 | 정형화되도록 구성 요소를 승인합니다. 그러면 각 구성 요소 관리자에 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 세그먼트] 또는 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]와 같이 표시됩니다. |
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
@@ -56,12 +56,4 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 ## 구성 요소 액세스 권한
 
-관리자는 보고 시 사용자에게 노출되는 구성 요소를 [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products)을 통해 관리할 수 있습니다. 다음 표는 이러한 구성 요소 액세스 권한이 어떻게 작동하는지 보여줍니다.
-
-| 조정 유형 | 관리자는 | 관리자가 아닌 프로젝트 소유자(또는 역할 편집)는 | 관리자가 아닌 복제 역할 |
-| --- | --- | --- | --- |
-| **데이터 보기에서 &quot;숨겨진&quot; 구성 요소** | 보고에 사용할 수 있는 모든 데이터 보기 구성 요소(숨겨진 구성 요소는 &quot;모두 표시&quot; 클릭 필요) | 보고에 사용할 수 없음 | 보고에 사용할 수 없음 |
-| **데이터 보기에서 추가 또는 제거된 구성 요소** | 데이터 보기에 추가된 구성 요소만(숨김 또는 숨김 안). 관리자는 데이터 보기로 정의되지 않은 필드 또는 구성 요소에 대해 보고할 수 없습니다. | 데이터 보기에 추가된 구성 요소나 사용자가 소유하거나 사용자와 공유한 구성 요소만 해당됩니다. 숨겨진 구성 요소는 사용할 수 없습니다(예: VRS 조정). | DV에 추가된 구성 요소만 숨겨지지 않으며 프로젝트 큐레이션에 포함되어 있습니다. |
-| **프로젝트에서 조정된 구성 요소** | 보고에 사용할 수 있는 모든 데이터 보기 구성 요소(숨겨진 구성 요소는 &quot;모두 표시&quot; 클릭 필요) | 숨기지 않은 모든 데이터 보기 구성 요소(&quot;모두 표시&quot; 클릭 필요) | 선별된 구성 요소뿐만 아니라 사용자와 소유 또는 공유된 모든 구성 요소만 |
-| **숨겨진 구성 요소가 있는 데이터 보기를 사용하여 조정된 프로젝트** | 보고에 사용할 수 있는 모든 데이터 구성 요소(숨겨진 구성 요소와 큐레이트가 없는 구성 요소는 &quot;모두 표시&quot;를 클릭해야 함) | 선별되지 않은 모든 프로젝트 구성 요소, 숨기지 않은 모든 데이터 보기 구성 요소 및 사용자가 소유하거나 사용자와 공유한 모든 구성 요소 | 선별된 구성 요소 및 사용자가 소유하거나 사용자와 공유한 모든 구성 요소 |
-
+Analysis Workspace에서 관리자는 보고 시 사용자에게 노출되는 구성 요소를 [조정](/help/analysis-workspace/curate-share/curate.md)할 수 있습니다.
