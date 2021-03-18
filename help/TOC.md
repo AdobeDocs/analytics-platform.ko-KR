@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
+source-git-commit: c4338e2d53f56b97bab06a1ba862bbfd35126c2d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
@@ -120,6 +120,7 @@ ht-degree: 100%
          + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [FAQ](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -131,7 +132,7 @@ ht-degree: 100%
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
    + 차원 {#dimensions}
-      + [차원 미리 보기](components/dimensions/view-dimensions.md)
+      + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
       + [차원 시간 분할](components/dimensions/time-parting-dimensions.md)
    + [지표](components/apply-create-metrics.md)
