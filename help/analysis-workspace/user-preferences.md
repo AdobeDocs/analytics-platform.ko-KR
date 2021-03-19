@@ -2,7 +2,7 @@
 title: Analysis Workspace에서 사용자 환경 설정을 지정하는 방법
 description: 사용자에 대한 일반 및 프로젝트 환경 설정을 지정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 90b69c13a7a63228f62c4b6291b3d66f8e3c821b
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 17%
@@ -36,8 +36,8 @@ ht-degree: 17%
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** |  |  |
-|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>컴팩트</li><li>편안함</li><li>확장(기본값)</li></ul> |
-|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Adobe 제공 팔레트(기본값)</li><li>사용자 정의 팔레트</li></ul> |
+|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>컴팩트</li><li>편안함</li><li>확장(기본값)</li></ul> |
+|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Adobe 제공 팔레트(기본값)</li><li>사용자 정의 팔레트</li></ul> |
 | **데이터** |  |  |
 |  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>가장 최근(기본값)</li><li>특정 - 목록에서 선택</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | **[!UICONTROL 이번 달]**(기본값)을 포함한 기본 날짜 범위 목록 |
