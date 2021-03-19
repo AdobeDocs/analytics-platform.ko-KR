@@ -1,20 +1,20 @@
 ---
-title: Customer Journey Analytics 대시보드 - 개요
+title: Analytics 대시보드 - 개요
 description: Customer Journey Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
 translation-type: tm+mt
-source-git-commit: 6a2e32f6bdac3b47a74e262c0b0e0f4f93b2dc4d
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 79%
+source-wordcount: '204'
+ht-degree: 87%
 
 ---
 
 
-# Customer Journey Analytics [!UICONTROL 대시보드] - 개요
+# Analytics [!UICONTROL 대시보드] - 개요
 
-**Customer Journey Analytics  ** 대시보드는 Customer Journey Analytics에서 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+**분석  ** 대시보드는 Customer Journey Analytics에서 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
-Customer Journey Analytics [!UICONTROL 대시보드]에 대한 자세한 내용은 다음 리소스를 참조하십시오.
+ Analytics [!UICONTROL 대시보드]에대한 자세한 내용은 다음 리소스를 참조하십시오.
 
 * [큐레이터 안내서](/help/mobile-app/curator.md): 이 안내서는 데이터 큐레이터가 [!UICONTROL 대시보드]에서 경영진 사용자를 위해 스코어카드를 구성할 수 있도록 돕기 위한 것입니다. 큐레이터는 조직 관리자이거나 스코어카드 설정을 담당하는 다른 역할의 사람일 수 있습니다.
 
