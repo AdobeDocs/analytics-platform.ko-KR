@@ -1,23 +1,23 @@
 ---
 description: 대시보드 스코어카드 사용 지침
-title: Adobe Analytics 대시보드 경영진 안내서
+title: Analytics 대시보드 경영진 안내서
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 91%
 
 ---
 
 
-# Adobe Analytics 대시보드: 경영진 사용자 빠른 시작 안내서
+# Analytics 대시보드: 경영진 사용자 빠른 시작 안내서
 
-다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 이 정보를 보여 주는 비디오를 보려면 [Adobe Analytics 대시보드 인앱 경험](https://youtu.be/QXqQ_PkArbA)을 참조하십시오.
+다음 정보는 경영진 사용자에게 Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 이 정보를 보여 주는 비디오를 보려면 [ Analytics 대시보드 인앱 경험](https://youtu.be/QXqQ_PkArbA)을 참조하십시오.
 
 
 ## 소개
 
-Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다.  이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+분석 대시보드는 Customer Journey Analytics을 통해 언제 어디서나 통찰력을 제공합니다.  이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 ## 이 안내서에 대한 자세한 내용
 
@@ -27,8 +27,8 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 | 용어 | 정의 |
 |--- |--- |
-| 소비자 | 모바일 장치의 Analytics를 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
-| 큐레이터 | Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
+| 소비자 | 모바일 디바이스의 CJA에서 주요 측정 지표 및 통찰력을 보는 경영진 |
+| 큐레이터 | CJA에서 통찰력을 검색 및 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 리터칭 |
 | 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 작업 |
 | 득점 카드 | 한 개 이상의 타일이 포함된 대시보드 보기 |
 | 타일 | 스코어카드 보기 내에 있는 지표에 대한 렌더링 |
@@ -44,7 +44,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 대시보드에서 스코어카드에 액세스하려면 다음을 확인합니다.
 
-* Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
+* Customer Journey Analytics에 유효한 로그인이 있습니다.
 * 큐레이터가 모바일 스코어카드를 올바르게 작성하고 공유했습니다.
 
 ### 대시보드 다운로드 및 설치
@@ -53,13 +53,13 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크를 클릭합니다(**[!UICONTROL 도구]** > **[!UICONTROL 분석 대시보드(모바일 앱)]**&#x200B;의 CJA에서도 이용 가능). 화면의 지시에 따라 앱을 다운로드, 설치 및 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크를 클릭합니다(**[!UICONTROL 도구]** > **[!UICONTROL 분석 대시보드(모바일 앱)]**&#x200B;의 CJA에서도 이용 가능). 화면의 지시에 따라 앱을 다운로드, 설치 및 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
