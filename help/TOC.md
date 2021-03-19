@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: c4338e2d53f56b97bab06a1ba862bbfd35126c2d
+source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,10 @@ ht-degree: 100%
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
++ Analytics 대시보드 {#cja-dashboards}
+   + [Analytics 대시보드 - 개요](mobile-app/home.md)
+   + [큐레이터 안내서](mobile-app/curator.md)
+   + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 개인 정보 보호 {#cja-privacy}
    + [개인 정보 보호 개요](privacy/privacy-overview.md)
 + [CJA 설명서 업데이트](doc-changes.md)
