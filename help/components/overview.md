@@ -1,11 +1,11 @@
 ---
 title: 구성 요소 개요
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 ## 구성 요소 작업
 
-다양한 방법으로(개별적으로 또는 두 개 이상을 선택하여) 구성 요소를 관리할 수 있습니다. 구성 요소를 마우스 오른쪽 단추로 클릭하거나 구성 요소 목록의 맨 위에서 **[!UICONTROL 작업]**&#x200B;을 클릭하십시오.
+다양한 방법으로(개별적으로 또는 두 개 이상을 선택하여) 구성 요소를 관리할 수 있습니다. 구성 요소를 마우스 오른쪽 버튼으로 클릭하거나 구성 요소 목록의 맨 위에서 **[!UICONTROL 액션]**&#x200B;을 클릭하십시오.
 
 >[!NOTE]
 >
@@ -54,6 +54,6 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
 
-## 구성 요소 액세스 권한
+## 구성 요소 액세스 권한
 
-Analysis Workspace에서 관리자는 보고 시 사용자에게 노출되는 구성 요소를 [조정](/help/analysis-workspace/curate-share/curate.md)할 수 있습니다.
+Analysis Workspace에서 관리자는 보고 시 어떤 구성 요소가 사용자에게 노출되도록 할지 [선별](/help/analysis-workspace/curate-share/curate.md)할 수 있습니다.
