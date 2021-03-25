@@ -2,17 +2,17 @@
 title: Analytics 대시보드 - 개요
 description: Customer Journey Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: 8b8fa177b1fdfc760845b1fad7c145da68c320c8
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 87%
+source-wordcount: '208'
+ht-degree: 73%
 
 ---
 
 
 # Analytics [!UICONTROL 대시보드] - 개요
 
-**분석  ** 대시보드는 Customer Journey Analytics에서 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+**분석  ** 대시보드는 Customer Journey Analytics을 비롯한 Adobe Analytics을 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 보다 자세한 분류 및 트렌드 데이터 보기를 탭할 수 있는 타일식 레이아웃으로 제공되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
  Analytics [!UICONTROL 대시보드]에대한 자세한 내용은 다음 리소스를 참조하십시오.
 
