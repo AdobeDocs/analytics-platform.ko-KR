@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
-description: null
+description: 데이터 보기는 지표, 차원, 세션 등과 같은 CJA 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다.
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 6%
+source-wordcount: '1126'
+ht-degree: 7%
 
 ---
 
@@ -52,13 +52,15 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 ## 전제 조건
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다.](/help/connections/create-connection.md)
-* 데이터 보기를 만들거나 관리하려면 Adobe Admin Console에서 다음 권한이 필요합니다.
+* 데이터 보기를 만들거나 관리하려면 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions)에서 [의 권한 세트가 필요합니다.
 
 ## 구성 요소에 대한 정보 보기
 
 작업 공간에서 (i) 정보 아이콘을 클릭하여 구성 요소가 기반으로 하는 스키마 필드 및 설명 등의 설정을 확인합니다.
 
 ## 작업 공간에서 재정의할 수 있는 데이터 보기 설정
+
+일부 데이터 보기 설정은 프로젝트 수준에서 Analysis Workspace에서 재정의할 수 있으며 다른 데이터 보기 설정은 재정의할 수 없습니다.
 
 * 전환 확인 기간
 * 지표 속성
@@ -70,10 +72,6 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 * 지표 서식
 * 데이터 보기 이름
 * Dimension 할당
-
-## 값 없음
-
-이 없음/없음 값/지정되지 않음 차원을 호출할지 여부 및 보고 시 사용자에게 표시되도록 할지 여부를 결정할 수 있습니다. 그러나 관리자 및 사용자(소유한 프로젝트의 경우)는 작업 공간에서 가시성 설정을 변경할 수 있습니다.
 
 ## 데이터 보기 삭제
 
