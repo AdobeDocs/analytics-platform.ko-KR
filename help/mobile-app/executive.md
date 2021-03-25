@@ -2,10 +2,10 @@
 description: 대시보드 스코어카드 사용 지침
 title: Analytics 대시보드 경영진 안내서
 translation-type: tm+mt
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
+source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 91%
+source-wordcount: '1288'
+ht-degree: 89%
 
 ---
 
@@ -120,9 +120,9 @@ ht-degree: 91%
 
    * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-7. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
+7. 스코어카드에 필터를 적용하려면 필터 드롭다운을 누르고 큐레이터가 구성한 필터를 선택합니다. 앱의 [필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
-   ![세그먼트 필터](assets/segment_filter.png)
+   ![필터](assets/segment_filter.png)
 
 8. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Analytics 팀에 연락하여 스코어카드가 업데이트되도록 하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
 
