@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
+source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 
 연결 만들기, 데이터 세트 추가 등을 수행하려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
 
-* 2020년 9월 9일부터 Customer Journey Analytics에 액세스하거나 연결을 만들려면 **관리 콘솔**&#x200B;에서 [Customer Jorney Analytics 제품](https://adminconsole.adobe.com/enterprise/)에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
+* Customer Journey Analytics에 액세스하거나 연결을 하려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)의 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가해야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
    * 연결 또는 데이터 보기 만들기/업데이트/삭제
    * 다른 사용자가 만든 프로젝트, 필터, 계산 지표 또는 세그먼트 업데이트/삭제
    * 모든 사용자에게 작업 영역 프로젝트 공유
