@@ -16,12 +16,12 @@ solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
-tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
+tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 99%
+source-wordcount: '448'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
       + [재생 작동 방식](connections/cca/replay.md)
       + [크로스 채널 분석 FAQ](connections/cca/faq.md)
 + 데이터 보기 {#cja-dataviews}
+   + [데이터 뷰 개요](data-views/data-views.md)
    + [데이터 보기 만들기](data-views/create-dataview.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
 + 작업 공간 프로젝트 {#cja-workspace}
