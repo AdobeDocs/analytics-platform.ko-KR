@@ -2,10 +2,10 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 92%
 
 ---
 
@@ -80,3 +80,11 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 * 모든 prop
 * 목록 차원
 * 머천다이징 차원(이벤트 컨텍스트)
+
+## 기본 필터 템플릿
+
+기존 Analytics에는 기본적으로 제공되는 많은 템플릿 세그먼트(필터) 및 계산된 지표가 포함되어 있습니다. 이들 중 많은 수가 CJA에 적용되지 않거나 이름을 바꾸거나 다시 만들어야 합니다. CJA의 컨텍스트 인식 변수에 대한 솔루션에 따라 달라지기도 합니다.
+
+| 필터 이름 | 설명 |
+| --- | --- |
+| 모두 데이터 | 기존 Adobe 분석의 &quot;모든 방문&quot; 세그먼트와 유사한 필수 필터입니다. 지표가 자유 형식 테이블의 행에 추가될 때 보고에 동적으로 추가됩니다. |
