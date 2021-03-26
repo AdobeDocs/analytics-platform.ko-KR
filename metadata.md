@@ -4,12 +4,16 @@ solution-title: Adobe Analytics
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-image: help/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
-tutorials-title: 자습서
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/analytics/how-to/adobe-launch-publishing-process.html
-git-repo: https://github.com/AdobeDocs/analytics-platform.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
+description: 이 파일에는 보고서에서 사용자 안내서 TOC.md 파일로 전달하는 보고서 수준 메타데이터가 포함되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 8559ff2f6e311822bc8021e98c2c8c72880bbe8a
+source-git-commit: 7f846ac36d787159d25aaf9ff7240e3a51979408
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 86%
 
 ---
 
