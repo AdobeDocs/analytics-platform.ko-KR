@@ -2,9 +2,9 @@
 title: Customer Journey Analytics의 데이터 보기에 대한 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여주는 다양한 사용 사례
 translation-type: tm+mt
-source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
+source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 데이터 보기 사용 사례
 
-사용 가능한
+이러한 사용 사례는 Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여줍니다.
 
 ## pageTitle(문자열) 스키마 필드에서 주문 지표 만들기
 
