@@ -2,15 +2,19 @@
 title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
 description: 데이터 보기는 지표, 차원, 세션 등과 같은 CJA 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
 
 
 # 데이터 보기란 무엇입니까?
+
+>[!IMPORTANT]
+>
+>이 기능은 현재 제한된 테스트 중입니다.
 
 데이터 보기는 Customer Journey Analytics(CJA) [connection](/help/connections/create-connection.md)의 맨 위에 있습니다. Adobe Experience Platform에서 데이터 세트를 하나 이상 결합하고 CJA에 연결합니다. 데이터 보기는 지표, 차원, 세션 등과 같이 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다. 데이터 보기는 Workspace에서 데이터를 보고할 준비를 위해 정의됩니다.
 
