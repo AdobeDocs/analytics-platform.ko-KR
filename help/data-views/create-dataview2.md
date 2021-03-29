@@ -2,7 +2,7 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법입니다.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6cfab7fc7ce3360b5ea2ed8bdd7f3e0a8e76a24d
+source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
 workflow-type: tm+mt
 source-wordcount: '2464'
 ht-degree: 8%
@@ -19,7 +19,7 @@ ht-degree: 8%
 1. Customer Journey Analytics에서 **데이터 보기** 탭으로 이동합니다.
 2. **추가**&#x200B;를 클릭하여 새 데이터 보기를 만들고 해당 설정을 구성합니다.
 
-![](assets/)
+![](assets/new-data-view.png)
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
