@@ -2,15 +2,19 @@
 title: Customer Journey Analytics의 데이터 보기에 대한 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여주는 다양한 사용 사례
 translation-type: tm+mt
-source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
 
 
 # 데이터 보기 사용 사례
+
+>[!IMPORTANT]
+>
+>이 기능은 현재 제한된 테스트 중입니다.
 
 이러한 사용 사례는 Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여줍니다.
 
