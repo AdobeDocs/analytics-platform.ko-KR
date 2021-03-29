@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 보기에 대한 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여주는 다양한 사용 사례
 translation-type: tm+mt
-source-git-commit: 7db2474bf3cd16863c597295399a262c328172dc
+source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 0%
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
@@ -29,10 +29,12 @@ ht-degree: 0%
 1. [!UICONTROL 세션]의 [!UICONTROL 뒤로 조회 창]과 같이 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다(예: [!UICONTROL 마지막 접촉]).
 동일한 필드에서 다른 [!UICONTROL 주문] 지표를 만들고 그에 대해 다른 속성 모델(예: [!UICONTROL 첫 번째 터치])을 지정하고 다른 [!UICONTROL 룩백 창]을(를) 지정할 수도 있습니다(예: [!UICONTROL 30일]).
 
-## 하나의 스키마 필드에서 여러 차원 만들기
-
 ## 정수를 차원으로 사용
 
-34:00
+이전에는 정수가 CJA에서 지표로 자동 처리됩니다. 이제 숫자(Adobe Analytics의 사용자 지정 이벤트 포함)를 차원으로 처리할 수 있습니다. 다음은 한 예입니다.
 
-버킷 포함
+1. [!UICONTROL 포함된 구성 요소]의 [!UICONTROL call_length_min] 정수를 [!UICONTROL Dimension] 섹션으로 드래그합니다.
+   ![](assets/integers.png)
+
+1. 이제 [!UICONTROL Value Bucketing]을(를) 추가하여 보고 시 버킷으로 이 차원을 표시할 수 있습니다. 그렇지 않으면 이 차원의 각 인스턴스가 작업 공간에 라인 항목으로 나타납니다.
+   ![](assets/bucketing.png)
