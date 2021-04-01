@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
 description: 데이터 보기는 지표, 차원, 세션 등과 같은 CJA 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다.
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 >
 >이 기능은 일반적으로 2021년 4월 22일에 제공됩니다.
 
-데이터 보기는 Customer Journey Analytics(CJA) [connection](/help/connections/create-connection.md)의 맨 위에 있습니다. Adobe Experience Platform에서 데이터 세트를 하나 이상 결합하고 CJA에 연결합니다. 데이터 보기는 지표, 차원, 세션 등과 같이 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다. 데이터 보기는 Workspace에서 데이터를 보고할 준비를 위해 정의됩니다.
+데이터 보기는 Customer Journey Analytics(CJA) [connection](/help/connections/create-connection.md)의 맨 위에 있습니다. Adobe Experience Platform에서 데이터 세트를 하나 이상 결합하고 CJA에 연결합니다. 데이터 보기는 지표, 차원, 세션 등과 같이 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다. 데이터 보기는 Workspace에서 데이터를 보고할 준비를 위해 정의됩니다. 데이터 보기는 소급 적용되며 비파괴입니다. 즉, 기본 데이터는 영구적으로 변경되지 않습니다.
 
-기존 Adobe Analytics을 사용한 적이 있는 경우 데이터 보기는 데이터의 &quot;필터링된&quot; 보기라는 점에서 가상 보고서 세트와 유사합니다.
+기존 Adobe Analytics을 사용한 적이 있는 경우 데이터 보기는 데이터의 &quot;필터링된&quot; 뷰가 될 수 있다는 점에서 가상 보고서 세트와 유사합니다.
 
-방문 시간 제한, 속성 등에 대한 서로 다른 설정을 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 단일 데이터 세트에 대해 여러 데이터 뷰를 만들 수도 있습니다. 예를 들어 모든 차원이 [!UICONTROL 마지막 접촉]으로 설정되고 동시에 모든 차원이 [!UICONTROL 첫 번째 터치]로 설정된 다른 데이터 보기(동일한 데이터 세트에 기반한)가 있을 수 있습니다.
+서로 다른 구성 요소 세트(차원/지표)를 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 또는 방문 시간 초과, 속성 등에 대한 다양한 설정으로 데이터 뷰를 만들 수 있습니다. 예를 들어 모든 차원이 [!UICONTROL 마지막 접촉]으로 설정되고 동시에 모든 차원이 [!UICONTROL 첫 번째 터치]로 설정된 다른 데이터 보기(동일한 데이터 세트에 기반한)가 있을 수 있습니다.
 
 Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 기반으로 합니다.
 
