@@ -2,9 +2,9 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 92%
 
 ---
@@ -87,4 +87,4 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 
 | 필터 이름 | 설명 |
 | --- | --- |
-| 모두 데이터 | 기존 Adobe 분석의 &quot;모든 방문&quot; 세그먼트와 유사한 필수 필터입니다. 지표가 자유 형식 테이블의 행에 추가될 때 보고에 동적으로 추가됩니다. |
+| 모두 데이터 | 지표가 자유 형식 테이블의 행에 추가될 때 보고에 동적으로 추가되는 필수 필터입니다. |
