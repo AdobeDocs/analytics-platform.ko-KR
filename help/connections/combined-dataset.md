@@ -1,10 +1,10 @@
 ---
 title: 결합된 이벤트 데이터 세트
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: b6bfb14b594f42efc114bbde1b047b814e1cf653
-workflow-type: ht
-source-wordcount: '344'
+translation-type: tm+mt
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 * 스키마가 결합됩니다. 중복된 스키마 필드가 병합됩니다.
 * 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 CJA에서 고유한 방문자를 식별하는 기반입니다.
 * 행은 타임스탬프를 기반으로 처리됩니다.
-
-결합된 데이터 세트의 개념은 기존 Adobe Analytics에서 보고서 세트를 결합하는 개념과 비슷합니다.
 
 ## 예
 
