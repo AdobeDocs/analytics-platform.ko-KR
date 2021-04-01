@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5182e6c97e475296ca5ecd4014193770491b1988
+source-git-commit: 16341ab99e24d40580a1052aacc7daedb5b5f9c1
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 96%
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
    + [데이터 뷰 만들기 2](data-views/create-dataview2.md)
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
    + [데이터 보기 사용 사례](data-views/data-views-usecases.md)
+   + [지속성](data-views/persistence.md)
 + 작업 공간 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
