@@ -1,11 +1,11 @@
 ---
-title: Customer Journey Analytics의 지속성은 무엇입니까?
+title: Customer Journey Analytics에서 차원 지속성이란 무엇입니까?
 description: Dimension 지속성은 할당과 만료의 조합입니다. 두 값을 함께 사용하면 어떤 차원 값이 지속되는지 확인할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 09f49cff89d69ae630e917243425967dbf56a9ed
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
