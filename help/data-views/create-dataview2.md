@@ -2,9 +2,9 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법입니다.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2607'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 | [!UICONTROL 설명] | 자세한 설명은 필수가 아니지만 권장됩니다. |
 | [!UICONTROL 시간대] | 데이터를 표시할 시간대를 선택합니다. |
 | [!UICONTROL 태그] | 태그를 사용하여 데이터 보기를 범주로 구성할 수 있습니다. |
-| [!UICONTROL 컨테이너] | 여기에서 컨테이너 이름을 변경할 수 있으며 이 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에 컨테이너가 표시되는 방식입니다. 컨테이너는 범위 또는 컨텍스트의 범위를 넓히거나 좁히는 정도를 정의하기 위해 필터 및 폴아웃/플로우에 사용됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL 컨테이너] | 여기에서 컨테이너 이름을 변경할 수 있으며 이 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에 컨테이너가 표시되는 방식입니다. 컨테이너는 범위 또는 컨텍스트의 범위를 넓히거나 좁히는 정도를 정의하기 위해 필터 및 폴아웃/흐름 등에 사용됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL 사람 컨테이너 이름:..] | [!UICONTROL 개인] (기본값). [!UICONTROL 사람] 컨테이너에는 지정된 기간 내의 방문자에 대한 모든 방문 및 페이지 보기가 포함됩니다. 이 이름을 &#39;사용자&#39; 또는 다른 용어로 바꿀 수 있습니다. |
 | [!UICONTROL 세션 컨테이너 이름:..] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너를 사용하여 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 전환을 식별할 수 있습니다. 이 이름을 &#39;방문&#39; 또는 원하는 다른 용어로 변경할 수 있습니다. |
 | [!UICONTROL 이벤트 컨테이너 이름:..] | [!UICONTROL 이벤트] (기본값). [!UICONTROL Event] 컨테이너는 필터에서 포함하거나 제외할 페이지 이벤트를 정의합니다. |
@@ -45,11 +45,12 @@ ht-degree: 6%
 
 ![](assets/components-tab.png)
 
-데이터 세트가 포함된 [!UICONTROL Connection]과 아래에 있는 [!UICONTROL 스키마 필드]를 볼 수 있습니다.
+데이터 세트가 포함된 [!UICONTROL Connection]과 아래에 있는 [!UICONTROL 스키마 필드]를 볼 수 있습니다. 이미 있는 구성 요소는 표준 필수 구성 요소(시스템 생성)입니다.
 
 1. 이제 왼쪽 레일에서 지표 또는 Dimension 섹션으로 [!UICONTROL pageTitle] 등의 스키마 필드를 드래그합니다.
 
-   동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 다른 방법으로 동일한 차원이나 지표를 구성할 수 있습니다. 예를 들어 **[!UICONTROL pageTitle]** 필드에서 &quot;제품 페이지&quot;라는 차원 및 다른 &quot;오류 페이지&quot; 등을 만들 수 있습니다. **[!UICONTROL pageTitle]**;필드에서 문자열 값에서 지표를 만들 수도 있습니다. 예를 들어 서로 다른 속성 설정과 다른 포함/제외 값으로 하나 이상의 **[!UICONTROL 주문]** 지표를 만들 수 있습니다.
+   동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 다른 방법으로 동일한 차원이나 지표를 구성할 수 있습니다.
+예를 들어 **[!UICONTROL pageTitle]** 필드에서 &quot;제품 페이지&quot;라는 차원 및 오른쪽의 **[!UICONTROL 구성 요소 이름]**&#x200B;의 이름을 변경하여 다른 &quot;오류 페이지&quot; 등을 만들 수 있습니다. **[!UICONTROL pageTitle]**;필드에서 문자열 값에서 지표를 만들 수도 있습니다. 예를 들어 서로 다른 속성 설정과 다른 포함/제외 값으로 하나 이상의 **[!UICONTROL 주문]** 지표를 만들 수 있습니다.
 
    ![](assets/components-tab-3.png)
 
@@ -134,10 +135,10 @@ ht-degree: 6%
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
-| [!UICONTROL 표시된 경우 값] 없음...을 호출합니다. | 여기서 **[!UICONTROL 값]**&#x200B;을 다른 이름으로 변경할 수 있습니다. |
+| [!UICONTROL 표시된 경우 값 없음...을 호출합니다.] | 여기서 **[!UICONTROL 값]**&#x200B;을 다른 이름으로 변경할 수 있습니다. |
 | [!UICONTROL 기본적으로 값 없음 표시 안 함] | 보고에 이 값을 표시하지 않습니다. |
 | [!UICONTROL 기본적으로 값 없음 표시] | 보고에 이 값을 표시합니다. |
-| [!UICONTROL 값을 값으로 처리] | 예를 들어 모바일 장치 유형이 차원으로 있는 경우 **[!UICONTROL No value]** 항목의 이름을 &quot;Desktop&quot;으로 바꿀 수 있습니다. 이 필드를 사용자 지정 값으로 변경하면 사용자 지정 값이 올바른 문자열 값으로 간주됩니다. 따라서 이 필드에 &quot;Red&quot; 값을 입력하면 데이터 자체에 나타나는 문자열 &quot;Red&quot;의 모든 인스턴스가 지정한 라인 항목 아래에도 롤링됩니다. |
+| [!UICONTROL 값을 값으로 처리] | 이 설정은 데이터의 빈 값을 [!UICONTROL 이(가) 표시되면 값 없음...]. 예를 들어 모바일 장치 유형이 차원으로 있는 경우 **[!UICONTROL No value]** 항목의 이름을 &quot;Desktop&quot;으로 바꿀 수 있습니다. 이 필드를 사용자 지정 값으로 변경하면 사용자 지정 값이 올바른 문자열 값으로 간주됩니다. 따라서 이 필드에 &quot;Red&quot; 값을 입력하면 데이터 자체에 나타나는 문자열 &quot;Red&quot;의 모든 인스턴스가 지정한 라인 항목 아래에도 롤링됩니다. |
 
 ### 지속성 설정 구성
 
