@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Adobe Analytics
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-image: help/assets/experience-cloud-logo-24.png
@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/kr/analytics/how-to/adobe-launch-publishi
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
 description: 이 파일에는 보고서에서 사용자 안내서 TOC.md 파일로 전달하는 보고서 수준 메타데이터가 포함되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 7f846ac36d787159d25aaf9ff7240e3a51979408
+source-git-commit: 5182e6c97e475296ca5ecd4014193770491b1988
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 86%
