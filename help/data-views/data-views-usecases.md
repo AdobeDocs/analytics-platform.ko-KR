@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 보기에 대한 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여주는 다양한 사용 사례
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 1. 오른쪽에서 [!UICONTROL 값 포함/제외] 대화 상자를 열고 다음을 지정합니다.
    ![](assets/orders2.png)
 
-   &quot;확인&quot; 구문은 이것이 주문임을 나타냅니다. 이러한 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 &quot;1&quot;이 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 표준 지표를 사용할 수 있는 모든 Attribution IQ, 필터 및 다른 지표와 연동됩니다.
+   &quot;확인&quot; 구문은 이것이 주문임을 나타냅니다. 이러한 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 &quot;1&quot;이 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 포함/제외된 값이 있는 지표는 다른 모든 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. 표준 지표를 사용할 수 있는 모든 Attribution IQ, 필터 및 다른 지표와 연동됩니다.
 1. [!UICONTROL 세션]의 [!UICONTROL 뒤로 조회 창]과 같이 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다(예: [!UICONTROL 마지막 접촉]).
 동일한 필드에서 다른 [!UICONTROL 주문] 지표를 만들고 그에 대해 다른 속성 모델(예: [!UICONTROL 첫 번째 터치])을 지정하고 다른 [!UICONTROL 룩백 창]을(를) 지정할 수도 있습니다(예: [!UICONTROL 30일]).
 
