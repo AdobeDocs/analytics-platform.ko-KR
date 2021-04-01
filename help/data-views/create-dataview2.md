@@ -2,9 +2,9 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법입니다.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2599'
 ht-degree: 6%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 6%
 
 ![](assets/persistence.png)
 
-이러한 설정은 기존 Adobe Analytics의 eVar 설정과 유사합니다.
+자세한 내용은 [지속성](/help/data-views/persistence.md)에 대한 항목을 참조하십시오.
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
@@ -215,7 +215,7 @@ Analysis Workspace의 보고 기능을 용이하게 하려면 데이터 보기�
 
 ## 3. 데이터 보기에 글로벌 필터를 추가합니다.
 
-가상 보고서 세트(기존 Adobe Analytics)의 데이터 필터링된 보기와 유사하게 전체 데이터 보기에 적용되는 필터(이전의 세그먼트)를 추가할 수 있습니다.
+전체 데이터 보기에 적용되는 필터를 추가할 수 있습니다. 이 필터는 Workspace에서 실행하는 모든 보고서에 적용됩니다.
 
 1. [!UICONTROL 데이터 보기]에서 [!UICONTROL 설정] 탭을 클릭합니다.
 1. 왼쪽 레일의 목록에서 [!UICONTROL 필터 추가] 필드로 필터를 드래그합니다.
