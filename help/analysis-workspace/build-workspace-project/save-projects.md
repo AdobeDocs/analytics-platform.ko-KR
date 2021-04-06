@@ -1,10 +1,11 @@
 ---
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장 등 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
-translation-type: ht
-source-git-commit: f01585ffdc0b54d1b21b035278869e59bd4947dc
-workflow-type: ht
-source-wordcount: '313'
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 100%
 |---|---| 
 | **[!UICONTROL 저장]** | 프로젝트에 변경 사항을 저장합니다. 프로젝트가 공유되면 프로젝트의 수신자도 변경 내용을 보게 됩니다. 프로젝트를 처음 저장할 때 프로젝트에 이름, 설명(선택 사항) 및 태그를 추가(선택 사항)하라는 메시지가 표시됩니다. |
 | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
-| **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [사용자 지정 템플릿](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)으로 저장합니다. |
+| **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 사용자 지정 템플릿으로 저장합니다. |
 
 ![](assets/save-project.png)
 
