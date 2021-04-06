@@ -2,9 +2,9 @@
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
 title: 작업 공간 프로젝트 만들기
-translation-type: ht
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
 
    이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot;(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
@@ -124,9 +124,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-**[시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
+**[시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-[!UICONTROL 시각화] 패널은 표준 분석 그래프, 차트, 도넛, 데이터 테이블, [집단](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 테이블, 벤 다이어그램 등을 제공합니다. 여러 시각화를 프로젝트로 드래그하여 놓을 수 있습니다.
+[!UICONTROL 시각화] 패널은 표준 분석 그래프, 차트, 도넛, 데이터 테이블, [집단](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 테이블, 벤 다이어그램 등을 제공합니다. 여러 시각화를 프로젝트로 드래그하여 놓을 수 있습니다.
 
 ![단계 결과](assets/visualizations.png)
 
@@ -149,11 +149,11 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 기간 열 추가</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 기간 열 추가</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 기간 비교</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 기간 비교</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 분류</a> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 분류</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">차원 </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">지표 </li> 
@@ -179,23 +179,23 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 시각화</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 시각화</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > CSV로 다운로드</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/curate-share/download-send.md"  > CSV로 다운로드</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > 트렌드 선택</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/home.md"  > 트렌드 선택</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 선택 항목에서 세그먼트 만들기</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 선택 항목에서 세그먼트 만들기</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 세그먼트 비교에서 실행</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 세그먼트 비교에서 실행</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -209,4 +209,4 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-행 복사 및 선택에 대한 자세한 내용은 [Analysis Workspace에서 사용할 수 있는 키보드 및 마우스 상호 작용](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)을 참조하십시오.
+행 복사 및 선택에 대한 자세한 내용은 [Analysis Workspace에서 사용할 수 있는 키보드 및 마우스 상호 작용](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)을 참조하십시오.
