@@ -2,14 +2,14 @@
 keywords: Analysis Workspace
 title: Analysis Workspace 개요
 description: Analysis Workspace 기능 개요
-translation-type: ht
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
-workflow-type: ht
-source-wordcount: '517'
+exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace 개요
 
@@ -29,19 +29,17 @@ Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://e
 
 ![](assets/login-analytics.png)
 
-## 교육 자습서 사용 {#training-tutorial}
+## 교육 튜토리얼 사용 {#training-tutorial}
 
-로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 자습서를 방문하여야 합니다. 자습서를 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 자습서**&#x200B;를 선택합니다.
+로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 튜토리얼을 방문해야 합니다. 튜토리얼을 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 튜토리얼**&#x200B;을 선택합니다.
 
 ![](assets/training-tutorial.png)
 
 ## 새 프로젝트 만들기 {#new-project}
 
-자습서가 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
+튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
 
 ![](assets/create-new-project.png)
-
-또한 Adobe에서 제공하는 표준 템플릿 또는 조직에서 만든 사용자 정의 템플릿인 미리 빌드된 **템플릿**&#x200B;에서 분석을 시작할 수 있습니다. 분석 또는 염두에 둔 사용 사례에 따라 사용 가능한 템플릿에는 여러 가지가 있습니다. 사용 가능한 다양한 템플릿 옵션에 대해 [자세히 알아보십시오](/help/analysis-workspace/build-workspace-project/starter-projects.md).
 
 ## 분석 빌드 {#analysis}
 
