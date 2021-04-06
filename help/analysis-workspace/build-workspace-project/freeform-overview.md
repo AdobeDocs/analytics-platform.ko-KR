@@ -5,7 +5,7 @@ title: 프로젝트 개요
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 90%
@@ -80,7 +80,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)에서도 시각화 및 패널에 액세스할 수 있습니다.
 
-왼쪽 레일의 구성 요소(Dimension, 지표, 세그먼트, 날짜 범위)는 활성 패널 데이터 뷰와 관련되어 있습니다. 활성 패널에는 주위에 파란색 테두리가 있고 활성 데이터 보기는 구성 요소 레일 상단에 나열됩니다.
+왼쪽 레일의 구성 요소(Dimension, 지표, 필터, 날짜 범위)는 활성 패널 데이터 뷰와 관련됩니다. 활성 패널에는 주위에 파란색 테두리가 있고 활성 데이터 보기는 구성 요소 레일 상단에 나열됩니다.
 
 ![](assets/left-rail.png)
 
