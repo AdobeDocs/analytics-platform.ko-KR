@@ -3,10 +3,10 @@ title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 Platform 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
    | 설명 | 자세한 설명은 필수가 아니지만, 권장됩니다. |
    | 태그 추가 | 태그를 사용하여 데이터 보기를 범주로 구성할 수 있습니다. |
    | 시간대 | 데이터 보기에 대한 시간대를 선택합니다. |
-   | 세션 시간 초과 | 세션에 대한 정의를 선택합니다. 새 세션이 자동으로 시작되도록 하려면 먼저 세션 시간 초과 설정에서 고유 방문자가 활동을 하지 않아야 하는 시간을 정의합니다. 기본값은 30분입니다. 예를 들어 세션 시간 초과를 45분으로 설정하면 45분의 비활성 상태로 구분되는 수집된 일련의 히트마다 새로운 세션 그룹이 생성됩니다. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | 이벤트로 새 세션 시작 | 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 카운트, 방문 세션(이전의 방문), 세그먼트 컨테이너 및 차원의 방문 만료 논리에 영향을 줍니다. |
-   | 필터 추가 | 필터는 Customer Journey Analytics에서 세그먼트에 사용되는 용어입니다. 데이터를 필터링하려면 왼쪽 레일에서 적절한 필터를 여기로 드래그합니다. 필터를 선택하지 않으면 데이터 보기에는 모든 데이터가 포함됩니다. |
+   | 세션 시간 초과 | 세션에 대한 정의를 선택합니다. 새 세션이 자동으로 시작되도록 하려면 먼저 세션 시간 초과 설정에서 고유 방문자가 활동을 하지 않아야 하는 시간을 정의합니다. 기본값은 30분입니다. 예를 들어 세션 시간 초과를 45분으로 설정하면 45분의 비활성 상태로 구분되는 수집된 일련의 히트마다 새로운 세션 그룹이 생성됩니다. <!--This setting impacts not only your visit counts, but also how visit filter containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | 이벤트로 새 세션 시작 | 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 카운트, 세션(이전 방문) 필터 컨테이너 및 차원에 대한 방문 만료 논리에 영향을 줍니다. |
+   | 필터 추가 | 데이터를 필터링하려면 왼쪽 레일에서 적절한 필터를 여기로 드래그합니다. 필터를 선택하지 않으면 데이터 보기에는 모든 데이터가 포함됩니다. |
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
