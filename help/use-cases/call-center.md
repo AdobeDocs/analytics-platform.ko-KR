@@ -1,14 +1,14 @@
 ---
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
+exl-id: 48546227-029c-4cf9-9b7e-66d547769270
+translation-type: tm+mt
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
 ---
-
 
 # 콜 센터 및 웹 데이터 가져오기
 
@@ -112,7 +112,6 @@ Create a bunch of filters - facets to their business. Filters were used because 
 
 wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
 
-use sequential segmentation, but you lose the ability to use attribution IQ
+use sequential filters, but you lose the ability to use attribution IQ
 
 ## What to do when you've found insight -->
-
