@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
+exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1217'
+ht-degree: 95%
 
 ---
-
 
 # Customer Journey Analytics 개요
 
@@ -19,7 +19,7 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 Customer Journey Analytics는 사용하기 쉬운 교차 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
 
 * **제한 없는 변수 및 이벤트**: eVar, 속성 및 이벤트에 대한 개념이 더 이상 없습니다. 데이터는 주로 차원과 지표에 중점을 둡니다. 데이터 세트의 고유한 차원과 지표 크기는 제한이 없습니다.
-* **고유 값 수 무제한**: Adobe Experience Platform은 기존 보고서 세트의 500k 고유 값과 같은 고유한 제한 사항으로 제한되지 않습니다.
+* **무제한 고유 값**:Adobe Experience Platform은 고유한 제한 사항에 제한되지 않습니다.
 * **이전 데이터 변경**: Adobe Experience Platform을 사용하여 데이터를 제거하거나 수정할 수 있습니다.
 * **크로스 보고서 세트 데이터**: 여러 데이터 세트의 기존 구현을 Platform에 결합할 수 있습니다.
 
@@ -74,7 +74,7 @@ Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
 * 이제 세그먼트를 &#39;필터&#39;라고 합니다.
-* 이제 가상 보고서 세트를 &#39;보기&#39;라고 합니다.
+* 가상 보고서 세트를 이제 &#39;데이터 보기&#39;라고 합니다.
 * 이제 분류를 &#39;조회 데이터 세트&#39;라고 합니다.
 * 이제 고객 속성을 &#39;프로필 데이터 세트&#39;라고 합니다.
 * 이제 히트 컨테이너를 &#39;이벤트&#39; 컨테이너라고 합니다.
