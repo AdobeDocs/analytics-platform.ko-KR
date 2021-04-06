@@ -4,10 +4,10 @@ title: Analysis Workspace 개요
 description: Analysis Workspace 기능 개요
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 구성 요소
 
-**구성 요소**&#x200B;는 차원, 지표, 세그먼트 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/components/overview.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](/help/analysis-workspace/build-workspace-project/freeform-overview.md)할 수 있습니다.
+**구성** 요소는 차원, 지표, 필터 또는 날짜 범위를 말하며, 이 모든 항목을  **[!UICONTROL 자유 형식]** 탭에 결합하여 비즈니스 질문에 답할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/components/overview.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](/help/analysis-workspace/build-workspace-project/freeform-overview.md)할 수 있습니다.
 
 ![](assets/build-components.png)
 
