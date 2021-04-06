@@ -1,14 +1,14 @@
 ---
 title: 알고리즘 속성
 description: 알고리즘 속성 모델에 대한 세부 사항입니다.
+exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
-
 
 # 알고리즘 속성
 
@@ -18,9 +18,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->**[!UICONTROL 알고리즘]** 속성은 현재 제한된 테스트 중입니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)를 참조하십시오.
+>**[!UICONTROL 알고리즘]** 속성은 현재 제한된 테스트 중입니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko/analytics/landing/an-releases.html)를 참조하십시오.
 
-Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 속성 모델과 마찬가지로 모든 차원이나 지표에서 사용할 수 있으며 무제한 세그먼테이션 및 분류를 지원하고 테이블의 차원에 대한 100% 전환(&quot;분수&quot; 속성)을 분배합니다.
+Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 기여도 모델과 마찬가지로 모든 차원 또는 지표에서 사용할 수 있으며 제한 없는 필터 및 분류를 지원하고 100%의 전환을 테이블의 차원에 배포합니다(&quot;분수&quot; 속성이라고도 함).
 
 속성에 사용되는 알고리즘은 협업 게임 이론의 Harsanyi 배당을 기반으로 합니다. Harsanyi 배당은 결과에 불평등한 기여와 함께 플레이어들 간의 크레딧을 분배하기 위해 Shapley 값 솔루션(노벨 경제학상 수상자인 Lloyd Shapley의 이름을 따서 이름이 지어짐)의 일반화입니다.
 
