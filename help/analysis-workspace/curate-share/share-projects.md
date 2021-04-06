@@ -1,15 +1,15 @@
 ---
 description: 작업 공간의 프로젝트 공유 및 프로젝트 역할
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace 공유
 title: 프로젝트 공유
+exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 99%
+source-wordcount: '1138'
+ht-degree: 98%
 
 ---
-
 
 # 프로젝트 공유
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 저장하지 않은 변경 사항이 있으면 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 1. 수신자 또는 수신자 그룹을 추가합니다.
 각 역할에 대한 설명은 맨 위의 도움말 아이콘을 참조하십시오.
-1. (선택 사항) 모든 수신자와 포함된 구성 요소(세그먼트, 계산된 지표 및 날짜 범위)를 공유할 수 있습니다.
+1. (선택 사항) 포함된 프로젝트 구성 요소(필터, 계산된 지표 및 날짜 범위)를 모든 받는 사람과 공유합니다.
 이러한 구성 요소가 공유되면 수신자 작업 공간의 구성 요소 드롭다운에 표시됩니다. 이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
 1. (선택 사항) 이 페이지를 수신자의 랜딩 페이지로 설정합니다.
 이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
