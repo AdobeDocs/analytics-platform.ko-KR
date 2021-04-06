@@ -1,14 +1,14 @@
 ---
 title: 계산된 지표 개요
-description: '알아보기 '
+description: 알아보기
+exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 82%
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
-
 
 # 계산된 지표 개요
 
@@ -16,12 +16,11 @@ ht-degree: 82%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다. Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다.
+계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다. Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는  구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다.
 
-다음을 수행할 수 있습니다.
+다음과 같은 작업을 수행할 수 있습니다.
 
-* [구현을 변경하지 않고도](https://youtu.be/CuQTm9RaUpY) 보고서 실행 시 파생된 필터링된 지표를 만들 수 있습니다. 이러한 지표는 필터를 기반으로 하므로 기록에서 볼 수 있습니다.
-* 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
+* 구현을 변경하지 않고도 보고서 실행 시 파생된 필터링된 지표를 만들 수 있습니다. 이러한 지표는 필터를 기반으로 하므로 기록에서 볼 수 있습니다.
 * (고급 계산 지표만 해당) 지표의 필터. 예를 들어 이번이 첫 번째 세션인 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다.
 * (고급 계산 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
 
