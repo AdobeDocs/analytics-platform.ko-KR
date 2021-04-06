@@ -3,9 +3,9 @@ title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c021892119cbebccaa49e5c04fd7cc7450cce8c6
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2805'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 12%
 | [!UICONTROL 태그] | 선택 사항입니다. Analysis Workspace UI에서 보다 쉽게 검색/필터링할 수 있도록 구성 요소에 사용자 지정 태그나 기본 태그로 태그를 지정할 수 있습니다. |
 | [!UICONTROL 필드 이름] | 스키마 필드의 이름입니다. |
 | [!UICONTROL 데이터 세트 유형] | 필수 여부. 구성 요소가 가져온 데이터 세트 유형(이벤트, 조회 또는 프로필)을 보여주는 편집 불가능한 필드입니다. |
-| [!UICONTROL 데이터 집합] | 필수 여부. 구성 요소가 가져온 필드 유형(예: 문자열, 정수 등)을 보여주는 편집할 수 없는 필드입니다. 여러 보고서 세트를 결합하는 경우와 같이 이 필드에는 여러 데이터 세트가 포함될 수 있습니다. |
+| [!UICONTROL 데이터 집합] | 필수 여부. 구성 요소가 가져온 필드 유형(예: 문자열, 정수 등)을 보여주는 편집할 수 없는 필드입니다. 이 필드에는 여러 데이터 세트가 포함될 수 있습니다. |
 | [!UICONTROL 스키마 유형] | 구성 요소가 문자열, 정수 등인지 여부를 나타냅니다. |
 | [!UICONTROL 구성 요소 ID] | 필수 여부. [CJA API](https://adobe.io/cja-apis/docs)에서는 이 필드를 사용하여 구성 요소를 참조합니다. 편집 아이콘을 클릭하고 이 구성 요소 ID를 수정할 수 있습니다. 그러나 이 구성 요소 ID를 변경하면 이 구성 요소가 포함된 기존의 모든 작업 영역 프로젝트가 중단됩니다.<br>pageTitle 차원에 대해 다른 필드를 사용하는 다른 데이터 보기를 만든 경우 이름을 변경하고 차원 간 데이터 보기를 호환되게 만들 수 있습니다. |
 | [!UICONTROL 경로] | 필수 여부. 구성 요소가 가져온 스키마 경로를 보여 주는 편집할 수 없는 필드입니다. |
