@@ -2,14 +2,14 @@
 description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: ht
+exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
+translation-type: tm+mt
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
-
 
 # 행 설정
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 항목 내에서 차원, 세그먼트, 지표, 기간 또는 분류 옆에 있는 설정 아이콘을 클릭합니다.
+행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 다음 각 항목 내의 차원, 필터, 지표, 기간 또는 분류 옆에 있는 설정 아이콘을 클릭합니다.
 
 ![](assets/row-settings.png)
 
