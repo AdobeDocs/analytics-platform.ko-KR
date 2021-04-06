@@ -1,14 +1,14 @@
 ---
 title: 속성 모델 및 전환 확인 기간
 description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
+exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1541'
 ht-degree: 98%
 
 ---
-
 
 # 속성 모델 및 전환 확인 기간
 
@@ -41,7 +41,7 @@ Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니�
 
 전환 확인 기간은 터치 포인트를 포함하도록 전환에서 다시 확인해야 하는 시간의 양입니다. 첫 번째 상호 작용에 더 많은 크레딧을 제공하는 속성 모델은 서로 다른 전환 확인 기간을 볼 때 더 큰 차이를 보입니다.
 
-* **방문 전환 확인 기간:** 전환이 발생한 방문 시작 부분까지 되돌아봅니다. 방문 전환 확인 기간은 방문 이후를 보지 않으므로 좁습니다. 방문 전환 확인 기간은 가상 보고서 세트의 수정된 방문 정의를 준수합니다.
+* **방문 전환 확인 기간:** 전환이 발생한 방문 시작 부분까지 되돌아봅니다. 방문 전환 확인 기간은 방문 이후를 보지 않으므로 좁습니다. 방문 확인 창은 데이터 보기에서 수정된 방문 정의를 따릅니다.
 
 * **방문자 전환 확인 기간:** 현재 날짜 범위 달의 1일까지의 모든 방문을 다시 봅니다. 방문자가 많은 방문을 했을 수 있으므로 방문자 전환 확인 기간은 넓습니다. 방문자 전환은 보고서 날짜 범위의 월 초에 있는 모든 값을 고려합니다. 예를 들어, 보고서 날짜 범위가 9월 15일~9월 30일인 경우, 방문자 전환 확인 날짜 범위는 9월 1일~9월 30일이 됩니다.
 
@@ -49,7 +49,7 @@ Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니�
 
 >[!NOTE]
 >
->**[!UICONTROL 사용자 지정 조회]** 창이 현재 제한된 테스트에 있습니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)를 참조하십시오.
+>**[!UICONTROL 사용자 지정 조회]** 창이 현재 제한된 테스트에 있습니다. 자세한 내용은 [Adobe Analytics 기능 릴리스](https://docs.adobe.com/content/help/ko/analytics/landing/an-releases.html)를 참조하십시오.
 
 ## 예
 
