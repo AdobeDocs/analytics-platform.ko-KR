@@ -2,14 +2,14 @@
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
 title: 핫키(단축키)
+exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 98%
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # 핫키(단축키)
 
@@ -39,7 +39,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | 경고 만들기 | ctrl(또는 cmd) + shift + a |
 | 계산된 지표 만들기 | ctrl(또는 cmd) + shift + c |
 | 날짜 범위 만들기 | ctrl(또는 cmd) + shift + d |
-| 세그먼트 만들기 | ctrl(또는 cmd) + shift + e |
+| 필터 만들기 | ctrl(또는 cmd) + shift + e |
 | 모두 삭제 | Alt + w |
 | 복사 | ctrl(또는 cmd) + c |
 | 다시 실행 | ctrl(또는 cmd) + shift + z |
@@ -52,13 +52,10 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 | 작업 | 단축키 |
 |---|---|
-| 새 Analytics for Target 패널 | alt + g |
 | 새 기여도 분석 패널 | alt + e |
 | 새 빈 패널 | Alt + b |
 | 새 자유 형식 패널 | alt + a |
-| 새 미디어 동시 뷰어 패널 | alt + h |
 | 새 빠른 인사이트 패널 | alt + f |
-| 새 세그먼트 비교 패널 | Alt + c |
 | 새 자유 형식 테이블 | alt + 1 |
 | 새 선 그래프 | alt + 2 |
 | 새 막대 차트 | alt + 3 |
