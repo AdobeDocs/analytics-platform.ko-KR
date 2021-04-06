@@ -1,15 +1,15 @@
 ---
 description: 작업 공간에서 보기 전용 프로젝트
-keywords: View-only projects
+keywords: 보기 전용 프로젝트
 title: 보기 전용 프로젝트
+exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # 보기 전용 프로젝트
 
@@ -26,7 +26,6 @@ ht-degree: 98%
 보기 전용 프로젝트에서 비활성화된 상호 작용은 다음과 같습니다.
 
 * 숨겨진 왼쪽 레일
-* 보고서 세트
 * 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 제공되는 드롭다운 필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)에 추가합니다.
 * 자유 형식 필터링
 * 보이는 행의 자유 형식 수
