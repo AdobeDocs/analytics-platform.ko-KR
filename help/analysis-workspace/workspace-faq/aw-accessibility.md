@@ -1,14 +1,14 @@
 ---
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
+exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
-
 
 # Analysis Workspace 액세스 가능 여부
 
@@ -67,9 +67,9 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 | Alt + 1 | 새 자유 형식 테이블 |
 | Ctrl + Shift + C | 새로 계산된 지표 |
 | Ctrl + Shift + D | 새 날짜 범위 |
-| Ctrl + Shift + E | 새 세그먼트 |
+| Ctrl + Shift + E | 새 필터 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키(패널 세그먼트 드롭존) | [드롭다운 필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 만들기 |
+| Shift 키(패널 필터 드롭존에서) | [드롭다운 필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 만들기 |
 
 #### 민주화
 
