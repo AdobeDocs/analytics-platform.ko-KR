@@ -1,14 +1,14 @@
 ---
 title: 데이터 보기 만들기
 description: CJA(Customer Journey Analytics)에서 Platform 데이터 세트에 대한 데이터 보기를 만드는 방법에 대해 설명합니다.
-translation-type: ht
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
-
 
 # 데이터 보기 만들기
 
@@ -43,7 +43,7 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 
 ## 구성 요소 추가
 
-1. 이제 데이터 보기에 구성 요소(차원, 지표)를 추가할 차례입니다(가상 보고서 세트의 큐레이션 경험과 유사). 이제 데이터 세트에 있는 각 필드가 차원이나 지표로 변환됩니다. 차원 및 지표를 패널이나 **[!UICONTROL 모두 선택]**&#x200B;으로 드래그하여 모든 구성 요소를 추가합니다.
+1. 이제 데이터 보기에 구성 요소(차원, 지표)를 추가해야 합니다. 이제 데이터 세트에 있는 각 필드가 차원이나 지표로 변환됩니다. 차원 및 지표를 패널이나 **[!UICONTROL 모두 선택]**&#x200B;으로 드래그하여 모든 구성 요소를 추가합니다.
 
    ![](assets/add-all-components.png)
 
