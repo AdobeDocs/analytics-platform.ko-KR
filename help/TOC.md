@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 16341ab99e24d40580a1052aacc7daedb5b5f9c1
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '456'
 ht-degree: 97%
 
 ---
@@ -51,14 +51,13 @@ ht-degree: 97%
    + [데이터 보기 및 기여도 구성](data-views/configure-dataviews.md)
    + [데이터 보기 사용 사례](data-views/data-views-usecases.md)
    + [지속성](data-views/persistence.md)
-+ 작업 공간 프로젝트 {#cja-workspace}
++ Workspace 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
-      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
@@ -72,7 +71,7 @@ ht-degree: 97%
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [작업 공간 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -125,7 +124,7 @@ ht-degree: 97%
          + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
-   + 작업 영역 FAQ {#workspace-faq}
+   + Workspace FAQ {#workspace-faq}
       + [FAQ](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
