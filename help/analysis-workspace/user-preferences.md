@@ -1,14 +1,14 @@
 ---
 title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
-translation-type: ht
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
-workflow-type: ht
-source-wordcount: '216'
+exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
+translation-type: tm+mt
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
-
 
 # 사용자 환경 설정
 
@@ -39,7 +39,6 @@ ht-degree: 100%
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html?lang=ko) | <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
 |  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html?lang=ko) | <ul><li>Adobe 제공 팔레트 (기본값)</li><li>사용자 정의 팔레트</li></ul> |
 | **데이터** |  |  |
-|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=ko?#report-suite) | <ul><li>가장 최근 (기본값)</li><li>특정 - 목록에서 선택됨</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=ko?#calendar) | **[!UICONTROL 이번 달]**(기본값)을 포함한 즉시 사용 가능한 날짜 범위 목록 |
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=ko) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
