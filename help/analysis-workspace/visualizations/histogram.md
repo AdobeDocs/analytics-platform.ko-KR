@@ -1,14 +1,14 @@
 ---
 description: 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷).
 title: 히스토그램
+exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
-
 
 # 히스토그램
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 
 ![](assets/manage-data-source.png)
 
-표에 표시되는 사전에 작성된 세그먼트는 내부 세그먼트이며, 세그먼트 선택기에 나타나지 않습니다. 세그먼트 이름의 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음, **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 세그먼트를 공개로 만듭니다.
+표에 표시되는 미리 작성된 필터는 내부 필터이며 필터 선택기에 표시되지 않습니다. 필터 이름 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음 **[!UICONTROL 공개 만들기]**&#x200B;를 클릭하여 필터를 공개합니다.
 
 ![](assets/prebuilt_segments.png)
 
