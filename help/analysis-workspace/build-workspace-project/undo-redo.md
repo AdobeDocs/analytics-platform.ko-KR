@@ -2,10 +2,10 @@
 description: Analysis Workspace의 실행 취소 및 다시 실행 옵션에 대해 알아봅니다.
 title: 실행 취소 및 다시 실행 설정
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
-workflow-type: ht
-source-wordcount: '298'
+translation-type: tm+mt
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 새 프로젝트]** 또는 **[!UICONTROL 기존 프로젝트 열기]**&#x200B;를 사용하면 **[!UICONTROL 실행 취소]** 스택이 지워집니다.
 
-* 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
 * 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
 * 다음 [핫키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용할 수 있습니다.
 
@@ -36,7 +35,6 @@ ht-degree: 100%
 * 기여도 분석
 * 세그먼트 비교
 * 프로젝트 이름
-* 보고서 세트 선택
 * 시각화 추가/제거
 * 패널 또는 시각화 축소/확장
 * 핫키를 사용한 삽입(CTRL(CMD)+Z: 실행 취소), (CTRL(CMD)+SHIFT+Z: 다시 실행)
