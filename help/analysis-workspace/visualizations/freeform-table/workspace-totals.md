@@ -3,7 +3,7 @@ description: 작업 공간 합계를 계산하는 방법.
 title: 작업 공간 합계
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 92%
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 자유 형식 테이블에서, 합계 행은 각 분류 수준에 나타나고 두 개의 합계를 표시할 수 있습니다.
 
-* **[!UICONTROL 합계]** (회색 &#39;out&#39; 수) - 이 합계는 수집된 모든 히트를 나타냅니다. 필터가 패널 수준 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다.
+* **[!UICONTROL 합계]** (회색 &#39;out&#39; 수) - 이 합계는 수집된 모든 히트를 나타냅니다. 필터가 패널 수준 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 히트를 반영하도록 조정됩니다.
 * **[!UICONTROL 테이블 합계]**(검정 숫자) - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 세트입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다.
 
 ![](assets/total-row.png)
