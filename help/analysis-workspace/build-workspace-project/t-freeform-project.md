@@ -1,12 +1,12 @@
 ---
-description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
+description: 프로젝트를 만들고 구성 요소(차원, 지표, 필터, 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
 title: 작업 공간 프로젝트 만들기
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 95%
+source-wordcount: '668'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > 구성 요소</a> </td> 
-   <td colname="col2"> <p>프로젝트로 드래그할 수 있는 차원, 지표, 세그먼트 및 날짜 범위입니다. </p> </td> 
+   <td colname="col2"> <p>프로젝트로 드래그할 수 있는 Dimension, 지표, 필터 및 날짜 범위. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 시각화</a> </td> 
@@ -90,7 +90,7 @@ ht-degree: 95%
 
    **구성 요소**
 
-   구성 요소 도구 모음에는 가장 자주 사용하는 검색 가능한 차원, 지표, 세그먼트 및 날짜 범위가 표시됩니다.
+   구성 요소 도구 모음에는 가장 자주 사용하는 검색 가능한 차원, 지표, 필터 및 날짜 범위가 표시됩니다.
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -109,8 +109,8 @@ ht-degree: 95%
    <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 발생 횟수</span>는 데이터 테이블용 기본 지표입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >세그먼트</a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> 필터(파란색) </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만 데이터 테이블에서 인라인 필터를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 필터 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
@@ -187,10 +187,6 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 선택 내용에서 필터 생성</a> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 세그먼트 비교에서 실행</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
