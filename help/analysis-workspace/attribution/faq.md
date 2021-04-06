@@ -3,9 +3,9 @@ title: 속성 FAQ
 description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 88%
 
 ---
@@ -53,4 +53,4 @@ ht-degree: 88%
 
 **필터는 어떻게 작동합니까?**
 
-속성은 항상 필터 전에 실행되며 다른 보고서 필터가 적용되기 전에 세그먼테이션이 실행됩니다.
+속성은 항상 필터 전에 실행되며 다른 보고서 필터가 적용되기 전에 글로벌 필터가 실행됩니다.
