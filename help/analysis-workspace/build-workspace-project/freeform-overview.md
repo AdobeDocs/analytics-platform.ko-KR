@@ -5,10 +5,10 @@ title: 프로젝트 개요
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 94%
+source-wordcount: '1165'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 요소 | 설명 |
 |---|---|
-| [새 프로젝트 만들기](/help/analysis-workspace/home.md) | 이 링크를 클릭하여 새 프로젝트를 처음부터 시작하거나 자동으로 생성된 [템플릿](/help/analysis-workspace/build-workspace-project/starter-projects.md)에서 시작합니다. |
+| [새 프로젝트 만들기](/help/analysis-workspace/home.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여 주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 랜딩 페이지로 설정 | 이 페이지를 Workspace 랜딩 페이지로 바꿉니다. |
 | [튜토리얼 보기](/help/analysis-workspace/home.md) | Analysis Workspace 비디오 튜토리얼로 이동합니다. |
@@ -47,12 +47,12 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 메뉴 항목 | 설명 |
 |---|---|
-| 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, [템플릿으로 저장](/help/analysis-workspace/build-workspace-project/starter-projects.md) 등 프로젝트 관리를 위한 일반적인 작업이 포함됩니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. [프로젝트 정보 및 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko-KR?#info-settings)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
+| 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, 템플릿으로 저장 등 프로젝트 관리를 위한 일반적인 작업이 포함됩니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](/help/analysis-workspace/curate-share/download-send.md) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. **프로젝트 정보 및 설정** (아래 참조)에서는 프로젝트 관리에 대한 다양한 옵션을 제공합니다. |
 | 편집 | 마지막 작업을 실행 취소하거나 다시 실행합니다. 모두 지우기는 프로젝트를 빈 시작 지점으로 재설정합니다. |
 | 삽입 | 이 메뉴에서 새 패널 또는 시각화를 삽입합니다. 왼쪽 레일에서 새 패널과 시각화를 삽입할 수도 있습니다. |
-| [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR) | 프로젝트에서 새 세그먼트, 계산된 지표, 날짜 범위 또는 경고 구성 요소를 만듭니다. 왼쪽 레일에서 새 구성 요소를 만들 수도 있습니다. 구성 요소 정의가 최근에 변경된 경우 구성 요소 새로 고침이 최신 정의를 검색합니다. |
-| [공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html?lang=ko-KR) | 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약합니다. |
-| 도움말 | 도움말 문서, 비디오 및 Analytics [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)에 액세스합니다. [디버거](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) 외에도 Workspace 팁의 가시성을 관리합니다. 프로젝트 [성능](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ko-KR)에 영향을 미치는 Workspace 및 요인에 대한 세부 정보를 확인할 수 있습니다. |
+| [구성 요소](/help/components/overview.md) | 프로젝트에서 새 필터, 계산된 지표, 날짜 범위 또는 경고 구성 요소를 만듭니다. 왼쪽 레일에서 새 구성 요소를 만들 수도 있습니다. 구성 요소 정의가 최근에 변경된 경우 구성 요소 새로 고침이 최신 정의를 검색합니다. |
+| [공유](/help/analysis-workspace/curate-share/send-schedule-files.md) | 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다. |
+| 도움말 | 도움말 문서, 비디오 및 Analytics [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)에 액세스합니다. [디버거](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) 외에도 Workspace 팁의 가시성을 관리합니다. 프로젝트 [성능](/help/analysis-workspace/workspace-faq/optimizing-performance.md)에 영향을 미치는 Workspace 및 요인에 대한 세부 정보를 확인할 수 있습니다. |
 | 공유 버튼 또는 소유자 | 프로젝트를 소유 또는 편집 중인 경우 오른쪽 상단의 공유 버튼을 클릭하면 프로젝트 수신자를 관리할 수 있습니다. 프로젝트에 대한 중복 또는 보기 역할이 있는 경우 프로젝트 소유자의 이름이 표시됩니다. |
 
 ### 프로젝트 정보 및 설정 {#info-settings}
@@ -106,7 +106,7 @@ Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 프로젝트**&
 
 | 작업 | 설명 |
 |---|---|
-| 추가 | 새 프로젝트를 처음부터 만들거나 [템플릿](/help/analysis-workspace/build-workspace-project/starter-projects.md)에서 시작할 수 있습니다. |
+| 추가 | 처음부터 새로운 프로젝트를 만들 수 있습니다. |
 | 태그 또는 승인 | “태그” 또는 “승인”을 선택하여 프로젝트를 구성하고 쉽게 검색할 수 있도록 만듭니다. |
 | [공유](/help/analysis-workspace/curate-share/share-projects.md) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
 | 삭제 | 프로젝트를 삭제합니다. |
