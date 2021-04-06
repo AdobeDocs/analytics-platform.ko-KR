@@ -1,14 +1,14 @@
 ---
 title: 자유 형식 테이블
 description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
+exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
-
 
 # 자유 형식 테이블
 
@@ -24,7 +24,7 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
 
 ## 자유 형식 테이블 빌더
 
-먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 자유 형식 테이블 빌더를 활성화할 수 있습니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않고 **[!UICONTROL 빌드]**&#x200B;를 클릭하면 업데이트됩니다.
+먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 자유 형식 테이블 빌더를 활성화할 수 있습니다. 빌더가 활성화되면 많은 차원, 분류, 지표 및 필터를 드래그하여 놓는 방식으로 보다 복잡한 질문에 대한 해답을 만들 수 있습니다. 데이터는 즉시 업데이트되지 않고 **[!UICONTROL 빌드]**&#x200B;를 클릭하면 업데이트됩니다.
 
 ![](assets/table-builder.png)
 
@@ -39,7 +39,7 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
    * 행을 [필터링](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html)에서 사용할 수 있습니다.
 
 * **열**
-   * 구성 요소를 열 내에 스택하여 세그먼트화된 지표, 탭 간 분석 등을 만들 수 있습니다.
+   * 구성 요소를 열 내에 스택하여 필터링된 지표, 탭 간 분석 등을 만들 수 있습니다.
    * 각 열의 보기는 [열 설정](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)에서 조정할 수 있습니다.
    * [마우스 오른쪽 단추 클릭 메뉴](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴는 표 머리글, 행 또는 열을 클릭하는지 여부에 따라 다른 작업을 제공합니다.
 
