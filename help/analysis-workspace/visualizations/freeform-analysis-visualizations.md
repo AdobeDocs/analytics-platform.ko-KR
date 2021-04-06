@@ -2,20 +2,20 @@
 description: Analysis Workspace에서 데이터를 시각적으로 나타냅니다.
 keywords: Analysis Workspace
 title: 시각화 개요
+exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 42%
+source-wordcount: '1060'
+ht-degree: 41%
 
 ---
-
 
 # 시각화 개요
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. Adobe Analytics을 사용하면 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-작업 영역의 왼쪽 위 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html) 또는 워크플로우의 오른쪽 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
+작업 영역의 왼쪽 위 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html?lang=ko-KR) 또는 워크플로우의 오른쪽 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
 
 ![](assets/viz-rail.png)
 
@@ -27,7 +27,7 @@ Analysis Workspace에서는 다음 시각화 유형을 사용할 수 있습니�
 | [막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 분석에 유용합니다. |
-| [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. |
+| [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체 부분의 또는 필터로 표시합니다. |
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있음 |
 | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여줍니다. |
 | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. Workspace의 데이터 분석을 위한 기반입니다. |
@@ -39,7 +39,7 @@ Analysis Workspace에서는 다음 시각화 유형을 사용할 수 있습니�
 | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀 간의 변경 내용을 큰 숫자/퍼센트로 표시합니다. |
 | [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 분석 및 인사이트에 추가 컨텍스트를 추가하는 데 도움이 됩니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
-| [벤](/help/analysis-workspace/visualizations/venn.md) | 서클을 사용하여 최대 3개의 세그먼트가 겹치는 지표를 표시합니다. |
+| [벤](/help/analysis-workspace/visualizations/venn.md) | 서클을 사용하여 최대 3개의 필터에 겹치는 지표를 표시합니다. |
 
 ## 설정 {#settings}
 
@@ -97,6 +97,6 @@ Analysis Workspace에서는 다음 시각화 유형을 사용할 수 있습니�
 
 ## 시각화 만들기 아이콘 {#quick-viz}
 
-어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행(마우스로 사용 가능)에서 **[!UICONTROL 시각적 만들기]** 아이콘을 클릭합니다. 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택하면 트렌드 라인 그래프가 생성됩니다. 3개의 세그먼트 행을 선택한 경우 벤 다이어그램을 만듭니다.
+어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행(마우스로 사용 가능)에서 **[!UICONTROL 시각적 만들기]** 아이콘을 클릭합니다. 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택하면 트렌드 라인 그래프가 생성됩니다. 3개의 필터 행을 선택한 경우 벤 다이어그램을 만듭니다.
 
 ![](assets/quick-viz.png)
