@@ -1,18 +1,18 @@
 ---
 title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가하는 방법 알아보기
+exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 translation-type: tm+mt
-source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
+source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 100%
+source-wordcount: '932'
+ht-degree: 89%
 
 ---
 
-
 # (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 
-이 B2B 사용 사례는 분석을 위한 개인 수준이 아닌 계정 수준에서 데이터를 지정하는 방법을 보여줍니다. 계정 수준 분석은 다음과 같은 질문에 답변할 수 있습니다.
+이 B2B 사용 사례는 분석을 위해 개인 수준이 아니라 계정 수준에서 데이터를 지정하는 방법을 보여줍니다. 계정 수준 분석은 다음과 같은 질문에 답변할 수 있습니다.
 
 * 이 계정과 일치하는 회사 이름은 무엇입니까?
 * 이 계정/회사와 연계되는 직원은 몇 명입니까?
@@ -20,9 +20,9 @@ ht-degree: 100%
 * 다른 계정과 비교하여 특정 마케팅 캠페인과 관련하여 이 계정이 전체적으로 어떻게 수행됩니까?
 * 한 계정에서 특정 역할(예: IT 관리자)이 다른 계정에서 동일한 역할과 다르게 동작합니까?
 
-계정 수준 정보에서 [조회](/help/getting-started/cja-glossary.md) 데이터 세트(기존 Adobe Analytics의 분류와 유사)로 가져와 이 모두를 달성합니다.
+계정 수준 정보를 [조회](/help/getting-started/cja-glossary.md) 데이터 집합으로 가져오면 이 모든 작업을 수행할 수 있습니다.
 
-먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 연결 CJA를 만듭니다. 그런 다음 데이터 뷰를 만들고 최종적으로 작업 공간에서 이 모든 데이터를 활용할 수 있습니다.
+먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 Customer Journey Analytics에 연결을 만듭니다(만든 조회를 포함하여 다른 데이터 세트를 결합하는 CJA0). 그런 다음 데이터 보기를 만들고 Workspace에서 이 모든 데이터를 활용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >CJA는 조회 데이터 세트의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA의 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
 
-예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 정수로 정의되는데 그 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
+예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 Integer로 정의됩니다. 이 때문에 CJA에 &quot;0&quot;이 표시됩니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 관리 > 데이터 세트]**&#x200B;로 이동합니다.
 1. **[!UICONTROL + 데이터 세트 만들기]**&#x200B;를 클릭합니다.
@@ -65,7 +65,7 @@ ht-degree: 100%
 이 예에서는 세 개의 데이터 세트를 하나의 CJA 연결로 결합합니다.
 
 | 데이터 세트 이름 | 설명 | AEP 스키마 클래스 | 데이터 세트 세부 정보 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | B2B 노출 | 계정 수준에서 클릭스트림, 이벤트 수준 데이터를 포함합니다. 예를 들어 마케팅 광고를 실행하기 위한 이메일 ID 및 해당 계정 ID와 마케팅 이름이 포함되어 있습니다. 또한 사용자당 해당 광고에 대한 노출 횟수도 포함됩니다. | XDM ExperienceEvent 스키마 클래스 기반 | `emailID`는 기본 ID로 사용되고 `Customer ID` 네임스페이스가 할당됩니다. 그 결과 Customer Journey Analytics에서 기본값 **[!UICONTROL 개인 ID]**&#x200B;로 표시됩니다. ![노출 횟수](assets/impressions-mixins.png) |
 | B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`를 이 스키마의 기본 ID로 선택할 필요는 없습니다. **[!UICONTROL 프로필]**&#x200B;을 활성화해야 합니다. 그렇지 않으면 CJA가 B2B 프로필에서 `emailID`를 `emailID`와 함께 B2B 노출 데이터에서 연결할 수 없게 됩니다. ![프로필](assets/profile-mixins.png) |
 | B2B 정보 | 위의 &quot;조회 데이터 세트 만들기&quot;를 참조하십시오. | B2BAccount(사용자 정의 조회 스키마 클래스) | `accountID` 및 B2B 노출 데이터 세트 간 관계는 아래 단계에 설명된 대로 B2B 정보 데이터 세트와 CJA의 B2B 노출 데이터 세트를 연결하여 자동으로 생성됩니다. ![조회](assets/lookup-mixins.png) |
