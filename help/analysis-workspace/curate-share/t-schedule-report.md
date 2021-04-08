@@ -2,14 +2,14 @@
 description: 이메일을 통해 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
 keywords: Analysis Workspace
 title: 프로젝트 예약
+exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 99%
+source-wordcount: '488'
+ht-degree: 100%
 
 ---
-
 
 # 프로젝트 예약
 
@@ -30,7 +30,7 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 1. **지금 보내기**&#x200B;를 클릭합니다.
 1. (선택 사항) 배달 일정을 지정하려면 **예약 옵션 표시**&#x200B;를 클릭합니다.
 
-![지금 파일 보내기](assets/send-file-now.png)
+![지금 파일 보내기](assets/send-file-no-scheduling-options.JPG)
 
 ## 일정에 따라 파일 보내기
 
@@ -44,15 +44,13 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 1. 배달 빈도를 지정합니다. 각 빈도에서는 다양한 사용자 지정을 사용할 수 있습니다.
 1. **일정에 따라 보내기**&#x200B;를 클릭합니다.
 
-![](assets/send-on-schedule.png)
+![](assets/send-file.JPG)
 
 ## 예약된 프로젝트 관리자
 
 예약된 Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 예약된 프로젝트**&#x200B;에서 관리할 수 있습니다.
 
 예약된 프로젝트 관리자에서 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색하십시오. 태그, 승인된 일정, 소유자 등으로 필터링할 수 있습니다.
-
-![](assets/scheduled-project-manager.png)
 
 다음은 예약된 프로젝트 관리자의 일반적인 작업입니다.
 
@@ -65,4 +63,4 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 | **만료된 일정 보기** | 만료된 예약을 보려면 왼쪽 레일 > 기타 필터 > 만료됨으로 이동합니다. 예약의 제목을 클릭하여 새 배달 예약을 설정합니다. |
 | **예약 ID 보기** | 오른쪽 상단의 열 옵션으로 이동하고 예약 ID 열을 테이블에 추가합니다. 예약된 ID는 종종 디버깅에 유용합니다. |
 
-예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다. 예약된 프로젝트 소유권은 **관리 > Analytics 사용자 및 자산 > 자산 전송**&#x200B;에서 새 사용자에게 **양도**&#x200B;할 수 있습니다.
+예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
