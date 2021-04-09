@@ -1,20 +1,30 @@
 ---
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
+exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 26176b446c5d825aa8893f0fe45190079d923251
 workflow-type: tm+mt
-source-wordcount: '1939'
-ht-degree: 100%
+source-wordcount: '1974'
+ht-degree: 98%
 
 ---
-
 
 # 연결 만들기
 
 연결을 통해 [!DNL Adobe Experience Platform]의 데이터 세트를 [!UICONTROL 작업 공간]에 통합할 수 있습니다. [!DNL Experience Platform] 데이터 세트에 대해 보고하려면 먼저 [!DNL Experience Platform]과 [!UICONTROL 작업 공간]의 데이터 세트 간에 연결을 설정해야 합니다.
 
 비디오 개요를 보려면 [여기](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)를 클릭하십시오.
+
+CJA 연결을 만들려면 다음 권한이 필요합니다.
+
+Adobe Experience Platform:
+* 데이터 모델링:스키마 보기, 스키마 관리
+* 데이터 관리:데이터 집합 보기, 데이터 집합 관리
+* 데이터 통합:소스 관리
+
+Customer Journey Analytics
+* 제품 관리자 액세스
 
 >[!IMPORTANT]
 >
