@@ -2,7 +2,7 @@
 title: Customer Journey Analytics에서 Google Analytics 보고 설정
 description: null
 translation-type: tm+mt
-source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
+source-git-commit: 13828f484ec1edcd00a6d049ff78c7e2642d2b01
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 1%
@@ -47,7 +47,8 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 
    ![](assets/ga-bigquery.png)
 유니버설 분석 데이터를 경험 플랫폼 호환 형식으로 변환하려면 SQL 쿼리를 만들어야 합니다.
-   * 지침은 이 비디오를 보십시오.
+   * 다음 지침을 보려면 이 비디오를 보십시오.
+   >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
 1. Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보내고 버킷에 저장합니다.
 [다음 지침](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)을 참조하십시오.
