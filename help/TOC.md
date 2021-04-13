@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
+source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 96%
+source-wordcount: '463'
+ht-degree: 95%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 96%
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
-   + [CJA에서 Google Analytics 보고 설정](use-cases/ga-to-cja.md)
+   + [Adobe Experience Platform에 Google Analytics 데이터 인제스트](use-cases/ga-to-cja.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)
