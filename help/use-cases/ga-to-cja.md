@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
+source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1024'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 
 또한 Google 태그 관리자에서 Adobe Experience Platform으로 바로 실시간 스트리밍 이벤트를 캡처할 수도 있습니다.
 
-### 사용자 지정 변수 추가
+### 1. 사용자 지정 변수 추가
 
 Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데이터 집합 ID와 관련된 사용자 지정 상수 변수를 추가해야 합니다. 고객 이메일, 고객 이름, 언어 및 고객 로그인 상태와 같이 Google Analytics로 전송되는 Google 태그 관리자에 이미 변수가 있을 수 있습니다. 5개의 새 사용자 지정 변수를 정의해야 합니다.
 
@@ -120,7 +120,7 @@ Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데
 
 이러한 사용자 지정 변수를 정의하면 이미 Google Analytics으로 보내는 모든 데이터를 Experience Platform에 전송하도록 트리거를 설정할 수 있습니다.
 
-### Google 태그 관리자에서 트리거 설정
+### 2. Google 태그 관리자에서 트리거 설정
 
 이 예에서 &quot;계정 생성&quot; 트리거가 정의되었으며 여기서 `pageUrl equals account-creation`. 이 트리거에 일부 정보를 추가하면 사용자가 인증되고 계정 만들기 페이지가 로드되면 Google Analytics 및 AEP 모두에 데이터가 전송되도록 할 수 있습니다.
 
@@ -128,11 +128,12 @@ Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-### 다음 단계
+## CJA에서 Google Analytics 데이터 세트에 대한 연결 만들기
 
 Adobe Experience Platform에서 라이브 Google Analytics 데이터를 받기 시작하고 BigQuery에서 내역 Google Analytics 데이터를 채우면 CJA로 바로 이동할 수 있습니다.
+[첫 번째 연결](/help/connections/create-connection.md)을 만듭니다. 이 연결을 통해 GA 데이터가 공통 &quot;고객 ID&quot;를 사용하여 다른 모든 고객 데이터와 통합됩니다.
 
-1. [공통 &quot;](/help/connections/create-connection.md) 고객 ID&quot;를 사용하여 GA 데이터를 다른 모든 고객 데이터와 통합하는 첫 번째 연결을 만듭니다.
-1. 작업 공간에서 다음과 같은 놀라운 분석을 수행합니다.
 
-*여기에서 이 주제를 중단해야 합니까, 아니면 연결에 대한 세부 사항을 진행해야 합니까?*
+## 작업 공간에서 놀라운 분석 수행
+
+팔로우하려면
