@@ -3,9 +3,9 @@ title: Customer Journey Analytics(CJA)에서 분석을 위해 Adobe Experience P
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
+source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 
 | 다음 항목을 사용하는 경우 | 이 라이선스도 필요합니다... | 그리고 이렇게... |
 | --- | --- | --- |
-| **범용 Google Analytics** | Google Analytics 360 | 아래 지침 중 1 - 5단계를 수행합니다. |
+| **범용 분석** | Google Analytics 360 | 아래 지침 중 1 - 5단계를 수행합니다. |
 | **Google Analytics 4** | 무료 GA 버전 또는 Google Analytics 360 | 아래 지침의 1단계와 3-5단계를 수행합니다. 2단계를 수행하지 않아도 됩니다. |
 
 ## 내역 데이터 인제스트
@@ -53,11 +53,30 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 
 GA 데이터는 개별 이벤트가 아닌 사용자의 세션으로 데이터의 각 레코드를 저장합니다. 유니버설 분석 데이터를 경험 플랫폼 호환 형식으로 변환하려면 SQL 쿼리를 만들어야 합니다. GA 스키마의 &quot;hits&quot; 필드에 &quot;unnest&quot; 함수를 적용합니다. 다음은 사용할 수 있는 SQL 예입니다.
 
-`SQL sample`
+`SELECT
+*,
+timestamp_seconds(`` + hit.time) AS `` 
+FROM
+(
+SELECT
+fullVisitorId,
+visitNumber,
+visitId,
+visitStartTime,
+trafficSource,
+socialEngagementType,
+channelGrouping,
+device,
+geoNetwork,
+hit 
+FROM
+`visitStartTimestampyour_bq_table_2021_04_*`,
+UNNEST(hits) AS hit 
+)`
 
 쿼리가 완료되면 전체 결과를 BigQuery 테이블에 저장합니다.
 
-[다음 지침](https://support.google.com/analytics/answer/3437618?hl=en)을 참조하십시오.
+[다음 지침](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql)을 참조하십시오.
 
 또는 다음 비디오를 보십시오.
 
