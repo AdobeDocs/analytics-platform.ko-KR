@@ -3,17 +3,17 @@ title: Customer Journey Analytics(CJA)에서 분석을 위해 Adobe Experience P
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 793b2ce4ec8a487f6c4290fe2eff00879fcca13d
+source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '1030'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Experience Platform에 Google Analytics 데이터 인제스트
 
-이 사용 사례에서는 Google Analytics 데이터를 데이터 집합으로 Adobe Experience Platform에 인제스트하는 방법에 중점을 둡니다. (이것은 내역 데이터와 라이브 데이터 모두에 적용됩니다.) 한 번 작업을 완료하면 두 데이터 세트를 결합하여 사용자 여정의 크로스 디바이스 보기를 수행할 수 있습니다.
+이 사용 사례에서는 Google Analytics 데이터를 데이터 집합으로 Adobe Experience Platform에 인제스트하는 방법에 중점을 둡니다. 내역 데이터와 라이브 데이터를 모두 수집하는 방법에 대해 설명합니다. 한 번 작업을 수행하면 Customer Journey Analytics에 두 데이터 세트를 결합하여 사용자 여정의 크로스 디바이스 보기를 수행할 수 있습니다.
 
 Experience Platform의 데이터 세트는 다음 두 가지 항목으로 구성됩니다.스키마 및 데이터 세트에 있는 실제 레코드. 스키마(이것을 경험 데이터 모델 또는 XDM이라고 함)는 데이터 세트 열과 비슷하며 데이터 자체를 설명하는 블루프린트 또는 규칙과 같습니다. 플랫폼 내에서 Adobe은 다음 2가지 유형의 스키마를 제공합니다.
 
@@ -37,36 +37,83 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 | **범용 Google Analytics** | Google Analytics 360 | 아래 지침 중 1 - 5단계를 수행합니다. |
 | **Google Analytics 4** | 무료 GA 버전 또는 Google Analytics 360 | 아래 지침의 1단계와 3-5단계를 수행합니다. 2단계를 수행하지 않아도 됩니다. |
 
-## 1. Google Analytics 데이터를 BigQuery에 연결
+## 내역 데이터 인제스트
 
-다음 지침은 범용 Google Analytics을 기반으로 합니다.
+### 1. Google Analytics 데이터를 BigQuery에 연결
+
+다음 지침은 범용 Google Analytics을 기반으로 합니다. 그것들은 내역 데이터에 적용된다. 실시간 스트리밍 데이터에 대한 지침은 AEP로 라이브 스트리밍 데이터를 가져오기로 이동합니다.
 
 [다음 지침](https://support.google.com/analytics/answer/3416092?hl=en)을 참조하십시오.
 
-## 2. Google Analytics 세션을 BigQuery의 이벤트로 변환합니다.
+### 2. Google Analytics 세션을 BigQuery의 이벤트로 변환합니다.
 
 >[!IMPORTANT]
 >
 >이 단계는 Universal Analytics 고객에게만 적용됩니다
 
-GA 데이터는 개별 이벤트가 아닌 사용자의 세션으로 데이터의 각 레코드를 저장합니다. 데이터를 변환하면 데이터가 Adobe Experience Platform과 호환됩니다.
+GA 데이터는 개별 이벤트가 아닌 사용자의 세션으로 데이터의 각 레코드를 저장합니다. 유니버설 분석 데이터를 경험 플랫폼 호환 형식으로 변환하려면 SQL 쿼리를 만들어야 합니다. GA 스키마의 &quot;hits&quot; 필드에 &quot;unnest&quot; 함수를 적용합니다. 다음은 사용할 수 있는 SQL 예입니다.
+
+`SQL sample`
+
+쿼리가 완료되면 전체 결과를 BigQuery 테이블에 저장합니다.
 
 [다음 지침](https://support.google.com/analytics/answer/3437618?hl=en)을 참조하십시오.
 
-유니버설 분석 데이터를 경험 플랫폼 호환 형식으로 변환하려면 SQL 쿼리를 만들어야 합니다. 다음 지침을 보려면 이 비디오를 보십시오.
+또는 다음 비디오를 보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
-## 3. Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보내고 버킷에 저장합니다.
+### 3. Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보내고 버킷에 저장합니다.
+
+다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 가져옵니다. 그럼 Experience Platform으로 가져가세요
 
 [다음 지침](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)을 참조하십시오.
 
-## 4. Google 클라우드 스토리지의 데이터를 Experience Platform으로 가져옵니다.
+### 4. Google 클라우드 스토리지의 데이터를 Experience Platform으로 가져옵니다.
+
+Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UICONTROL Google 클라우드 스토리지]** 옵션을 찾습니다. 빅쿼리에서 저장한 데이터 세트를 찾을 수 있습니다.
 
 다음 지침을 보려면 이 비디오를 보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
 
-## 5. GCS 이벤트를 Adobe Experience Platform으로 가져오고 XDM 스키마에 매핑
+### 5. GCS 이벤트를 Adobe Experience Platform으로 가져오고 XDM 스키마에 매핑
 
-BigQuery 내보내기 스키마(https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)
+그런 다음 GA 이벤트 데이터를 이전에 만든 기존 데이터 세트에 매핑하거나 원하는 XDM 스키마를 사용하여 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform은 시스템 학습을 적용하여 Google Analytics 데이터의 각 필드를 고유한 스키마에 자동으로 매핑합니다.
+
+매핑은 쉽게 변경할 수 있으며 Google Analytics 데이터에서 파생되거나 계산된 필드를 만들 수도 있습니다. 필드를 XDM 스키마로 매핑한 후에 이 가져오기를 반복 예약하고 수집 프로세스 중에 오류 유효성 검사를 적용할 수 있습니다. 이렇게 하면 가져온 데이터에 아무런 문제가 없습니다.
+
+## 실시간 스트리밍 Google Analytics 데이터 인제스트
+
+또한 Google 태그 관리자에서 Adobe Experience Platform으로 바로 실시간 스트리밍 이벤트를 캡처할 수도 있습니다.
+
+### 사용자 지정 변수 추가
+
+Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데이터 집합 ID와 관련된 사용자 지정 상수 변수를 추가해야 합니다. 고객 이메일, 고객 이름, 언어 및 고객 로그인 상태와 같이 Google Analytics로 전송되는 Google 태그 관리자에 이미 변수가 있을 수 있습니다. 5개의 새 사용자 지정 변수를 정의해야 합니다.
+
+* Adobe Experience Cloud 조직 ID
+* DCS 스트리밍 끝점
+* Experience Platform 데이터 집합 ID
+* 스키마 참조
+* 페이지 타임스탬프.
+
+이러한 값을 가져오면 모든 Google Analytics 데이터가 올바른 데이터 세트로 전송되고 올바른 스키마가 있습니다. Experience Cloud 조직 또는 방금 언급했던 다른 변수를 모르는 경우 Adobe 계정 관리자가 이를 추적하는 데 도움이 됩니다.
+
+이러한 사용자 지정 변수를 정의하면 이미 Google Analytics으로 보내는 모든 데이터를 Experience Platform에 전송하도록 트리거를 설정할 수 있습니다.
+
+### Google 태그 관리자에서 트리거 설정
+
+이 예에서 &quot;계정 생성&quot; 트리거가 정의되었으며 여기서 `pageUrl equals account-creation`. 이 트리거에 일부 정보를 추가하면 사용자가 인증되고 계정 만들기 페이지가 로드되면 Google Analytics 및 AEP 모두에 데이터가 전송되도록 할 수 있습니다.
+
+지침은 다음 비디오를 보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/332668)
+
+### 다음 단계
+
+Adobe Experience Platform에서 라이브 Google Analytics 데이터를 받기 시작하고 BigQuery에서 내역 Google Analytics 데이터를 채우면 CJA로 바로 이동할 수 있습니다.
+
+1. [공통 &quot;](/help/connections/create-connection.md) 고객 ID&quot;를 사용하여 GA 데이터를 다른 모든 고객 데이터와 통합하는 첫 번째 연결을 만듭니다.
+1. 작업 공간에서 다음과 같은 놀라운 분석을 수행합니다.
+
+*여기에서 이 주제를 중단해야 합니까, 아니면 연결에 대한 세부 사항을 진행해야 합니까?*
