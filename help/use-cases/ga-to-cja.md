@@ -1,11 +1,11 @@
 ---
-title: Customer Journey Analytics(CJA)에서 분석을 위해 Adobe Experience Platform으로 Google Analytics 데이터를 가져오는 방법
+title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
+source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 
 ### 1. Google Analytics 데이터를 BigQuery에 연결
 
-다음 지침은 범용 Google Analytics을 기반으로 합니다. 그것들은 내역 데이터에 적용된다. 실시간 스트리밍 데이터에 대한 지침은 AEP로 라이브 스트리밍 데이터를 가져오기로 이동합니다.
+다음 지침은 범용 Google Analytics을 기반으로 합니다. 그것들은 내역 데이터에 적용된다. 실시간 스트리밍 데이터에 대한 지침은 [실시간 스트리밍 데이터를 AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#ingest-live-streaming-google-analytics-data)로 이동합니다.
 
 [다음 지침](https://support.google.com/analytics/answer/3416092?hl=en)을 참조하십시오.
 
@@ -84,7 +84,7 @@ UNNEST(hits) AS hit
 
 ### 3. Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보내고 버킷에 저장합니다.
 
-다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 가져옵니다. 그럼 Experience Platform으로 가져가세요
+다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 가져옵니다.
 
 [다음 지침](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)을 참조하십시오.
 
