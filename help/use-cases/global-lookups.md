@@ -1,14 +1,14 @@
 ---
 title: 데이터 세트에 전역 조회 추가
 description: 전역 조회를 사용하여 Customer Journey Analytics의 유용한 차원으로 보고를 보완할 수 있습니다.
+exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 translation-type: tm+mt
-source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
+source-git-commit: e19e9b7d7a88232e1eeb7ddaa739389e26763c1a
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
-
 
 # 데이터 세트에 전역 조회 추가
 
@@ -23,7 +23,7 @@ Adobe에서 분류하는 각 스키마 위치에 대한 전역 조회 데이터 
 
 ## 사용자 지정 데이터 세트에서 전역 조회 사용
 
-전역 조회 데이터 세트와 호환되는 이벤트 데이터 세트에 키가 있어야 합니다. 표준 [Adobe Experience Platform 스키마 Mixins](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) 중 일부를 추가하여 올바른 XDM 필드를 채우면 사용자 지정 데이터 세트를 전역 조회 작업에 사용할 수 있습니다.
+글로벌 조회 데이터 세트와 호환되는 이벤트 데이터 세트에 키가 있어야 합니다. 표준 [Adobe Experience Platform 스키마 Mixins](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins) 중 일부를 추가하여 올바른 XDM 필드를 채우면 사용자 지정 데이터 세트를 전역 조회 작업에 사용할 수 있습니다.
 
 ## 사용 가능한 전역 조회 필드
 
@@ -67,4 +67,3 @@ Adobe에서 분류하는 각 스키마 위치에 대한 전역 조회 데이터 
 그러면 작업 공간에서 조회 데이터를 볼 수 있습니다.
 
 ![](assets/gl-reporting.png)
-
