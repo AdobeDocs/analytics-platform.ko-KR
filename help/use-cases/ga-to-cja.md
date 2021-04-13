@@ -1,18 +1,18 @@
 ---
 title: Customer Journey Analytics에서 Google Analytics 보고 설정
 description: null
+exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1324ad5768a7ab215431b9447d9519367dfe17a0
+source-git-commit: 49b49f24dbc68b1d9e843e0f4522123e6792a438
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
 
-
 # Customer Journey Analytics에서 Google Analytics 보고 설정
 
-
+이 사용 사례에서는 Google Analytics 데이터를 Adobe Experience Platform으로 가져온 다음
 
 ## 전제 조건
 
@@ -26,12 +26,12 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 
 | 다음 항목을 사용하는 경우 | 이 라이선스도 필요합니다... | 그리고 이렇게... |
 | --- | --- | --- |
-| **범용 Google Analytics** | Google Analytics 360 | 아래의 지침 1 - x 단계를 수행합니다. |
-| **Google Analytics 4** | 무료 GA 버전 또는 Google Analytics 360 | 아래 지침에 x단계가 필요하지 않습니다. |
+| **범용 Google Analytics** | Google Analytics 360 | 아래 지침 중 1 - 5단계를 수행합니다. |
+| **Google Analytics 4** | 무료 GA 버전 또는 Google Analytics 360 | 아래 지침 중 2 - 5단계를 수행합니다. 1단계가 필요하지 않습니다. |
 
 다음 지침은 범용 Google Analytics을 기준으로 합니다.
 
-1. Google Analytics 데이터를 BigQuery 및
+1. 일부 데이터를 변형할 수 있도록 Google Analytics 데이터를 BigQuery에 연결합니다.
 [다음 지침](https://support.google.com/analytics/answer/3416092?hl=en)을 참조하십시오.
 
 1. (Universal Analytics 고객만 해당) Google Analytics 세션을 BigQuery의 이벤트로 변환합니다.
@@ -55,4 +55,3 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 1. GCS 이벤트를 Adobe Experience Platform으로 가져오고 XDM 스키마에 매핑
 
 BigQuery 내보내기 스키마(https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)
-
