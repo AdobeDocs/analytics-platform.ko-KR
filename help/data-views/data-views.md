@@ -3,9 +3,9 @@ title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
 description: 데이터 보기는 지표, 차원, 세션 등과 같은 CJA 연결에 있는 데이터의 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ Customer Journey Analytics의 작업 공간 프로젝트는 데이터 보기를 
 
 * 데이터 보기에서 **컨테이너**&#x200B;의 이름을 바꿀 수 있으며 해당 데이터 보기를 기반으로 하는 Workspace 프로젝트에서 컨테이너 이름이 변경된 컨테이너를 표시할 수 있습니다.
 
-## 전제 조건
+## 데이터 보기 사전 요구 사항
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다.](/help/connections/create-connection.md)
 * 데이터 보기를 만들거나 관리하려면 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions)에서 [의 권한 세트가 필요합니다.
