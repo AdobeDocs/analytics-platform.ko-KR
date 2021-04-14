@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방�
 | **범용 분석** | Google Analytics 360 | 아래 지침 중 1 - 5단계를 수행합니다. |
 | **Google Analytics 4** | 무료 GA 버전 또는 Google Analytics 360 | 아래 지침의 1단계와 3-5단계를 수행합니다. 2단계를 수행하지 않아도 됩니다. |
 
-## 내역 데이터 인제스트
+## 내역(채우기) 데이터 인제스트
 
 ### 1. Google Analytics 데이터를 BigQuery에 연결
 
@@ -84,13 +84,20 @@ UNNEST(hits) AS hit
 
 ### 3. Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보내고 버킷에 저장합니다.
 
-다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 가져옵니다.
+다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보냅니다. **내보내기 > GCS로 내보내기**&#x200B;를 클릭하면 됩니다. 데이터가 제공되면 Adobe Experience Platform으로 가져올 수 있습니다.
 
 [다음 지침](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)을 참조하십시오.
 
 ### 4. Google 클라우드 스토리지의 데이터를 Experience Platform으로 가져옵니다.
 
-Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UICONTROL Google 클라우드 스토리지]** 옵션을 찾습니다. 빅쿼리에서 저장한 데이터 세트를 찾을 수 있습니다.
+Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UICONTROL Google 클라우드 스토리지]** 옵션을 찾습니다. 여기에서 BigQuery에서 저장한 데이터 세트를 찾을 수 있습니다.
+
+다음 사항에 주의하십시오.
+
+* JSON 형식을 선택해야 합니다.
+* 기존 데이터 집합을 선택하거나 새 데이터 집합을 만들 수 있습니다(권장).
+* 개별 데이터 세트에 있더라도 내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터에 대해 동일한 스키마를 선택해야 합니다. 나중에 [CJA 연결](/help/connections/combined-dataset.md)의 데이터 집합을 병합할 수 있습니다.
+
 
 다음 지침을 보려면 이 비디오를 보십시오.
 
@@ -98,7 +105,7 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 
 ### 5. GCS 이벤트를 Adobe Experience Platform으로 가져오고 XDM 스키마에 매핑
 
-그런 다음 GA 이벤트 데이터를 이전에 만든 기존 데이터 세트에 매핑하거나 원하는 XDM 스키마를 사용하여 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform은 시스템 학습을 적용하여 Google Analytics 데이터의 각 필드를 고유한 스키마에 자동으로 매핑합니다.
+다음으로, GA 이벤트 데이터를 이전에 만든 기존 데이터 세트에 매핑하거나, 선택하는 XDM 스키마를 사용하여 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform은 시스템 학습을 적용하여 Google Analytics 데이터의 각 필드를 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui)에 자동으로 미리 매핑합니다.
 
 매핑은 쉽게 변경할 수 있으며 Google Analytics 데이터에서 파생되거나 계산된 필드를 만들 수도 있습니다. 필드를 XDM 스키마로 매핑한 후에 이 가져오기를 반복 예약하고 수집 프로세스 중에 오류 유효성 검사를 적용할 수 있습니다. 이렇게 하면 가져온 데이터에 아무런 문제가 없습니다.
 
