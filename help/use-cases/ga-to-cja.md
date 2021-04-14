@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
+source-git-commit: df3b69b837fda821e1b50b0ba211ac578d856892
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,8 @@ UNNEST(hits) AS hit
 
 다음으로 Google Analytics 이벤트를 JSON 형식으로 Google 클라우드 스토리지에 내보냅니다. **내보내기 > GCS로 내보내기**&#x200B;를 클릭하면 됩니다. 데이터가 제공되면 Adobe Experience Platform으로 가져올 수 있습니다.
 
-[다음 지침](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)을 참조하십시오.
+유니버설 분석](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)에 대한 지침은 [을 참조하십시오.
+Google Analytics 4](https://support.google.com/analytics/answer/7029846?hl=en)에 대한 지침은 [을 참조하십시오.
 
 ### 4. Google 클라우드 스토리지의 데이터를 Experience Platform으로 가져옵니다.
 
@@ -98,10 +99,11 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 * 기존 데이터 집합을 선택하거나 새 데이터 집합을 만들 수 있습니다(권장).
 * 개별 데이터 세트에 있더라도 내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터에 대해 동일한 스키마를 선택해야 합니다. 나중에 [CJA 연결](/help/connections/combined-dataset.md)의 데이터 집합을 병합할 수 있습니다.
 
-
 다음 지침을 보려면 이 비디오를 보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
+
+이 가져오기를 반복해서 예약하려면 Google 설명서를 참조하십시오.
 
 ### 5. GCS 이벤트를 Adobe Experience Platform으로 가져오고 XDM 스키마에 매핑
 
@@ -110,6 +112,10 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 ![](assets/schema-map.png)
 
 매핑은 쉽게 변경할 수 있으며 Google Analytics 데이터에서 파생되거나 계산된 필드를 만들 수도 있습니다. 필드를 XDM 스키마로 매핑한 후에 이 가져오기를 반복 예약하고 수집 프로세스 중에 오류 유효성 검사를 적용할 수 있습니다. 이렇게 하면 가져온 데이터에 아무런 문제가 없습니다.
+
+다음 지침을 보려면 이 비디오를 보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **타임스탬프 계산 필드**
 
@@ -133,13 +139,13 @@ Google Analytics 데이터의 `timestamp` 필드의 경우 Experience Platform �
 
 ### 1. 사용자 지정 변수 추가
 
-Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데이터 집합 ID와 관련된 사용자 지정 상수 변수를 추가해야 합니다. 고객 이메일, 고객 이름, 언어 및 고객 로그인 상태와 같이 Google Analytics로 전송되는 Google 태그 관리자에 이미 변수가 있을 수 있습니다. 5개의 새 사용자 지정 변수를 정의해야 합니다.
+Google 태그 관리자 계정에 로그인한 후에는 Adobe과 관련된 일부 사용자 지정 상수 변수를 추가해야 합니다. 고객 이메일, 고객 이름, 언어 및 고객 로그인 상태와 같이 Google Analytics로 전송되는 Google 태그 관리자에 이미 변수가 있을 수 있습니다. 5개의 새 사용자 지정 변수를 정의해야 합니다.
 
 * Adobe Experience Cloud 조직 ID
 * DCS 스트리밍 끝점
 * Experience Platform 데이터 집합 ID
 * 스키마 참조
-* 페이지 타임스탬프.
+* 페이지 타임스탬프
 
 이러한 값을 가져오면 모든 Google Analytics 데이터가 올바른 데이터 세트로 전송되고 올바른 스키마가 있습니다. Experience Cloud 조직 또는 방금 언급했던 다른 변수를 모르는 경우 Adobe 계정 관리자가 이를 추적하는 데 도움이 됩니다.
 
@@ -153,10 +159,16 @@ Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
+[데이터 통합 및 Google 태그 관리자](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9)를 참조할 수도 있습니다.
+
 ## CJA에서 Google Analytics 데이터 세트에 대한 연결 만들기
 
 Adobe Experience Platform에서 라이브 Google Analytics 데이터를 받기 시작하고 BigQuery에서 내역 Google Analytics 데이터를 채우면 CJA로 바로 이동할 수 있습니다.
 [첫 번째 연결](/help/connections/create-connection.md)을 만듭니다. 이 연결을 통해 GA 데이터가 공통 &quot;고객 ID&quot;를 사용하여 다른 모든 고객 데이터와 통합됩니다.
+
+지침은 다음 비디오를 보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/332676)
 
 ## 작업 공간에서 놀라운 분석 수행
 
