@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,25 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 
 다음으로, GA 이벤트 데이터를 이전에 만든 기존 데이터 세트에 매핑하거나, 선택하는 XDM 스키마를 사용하여 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform은 시스템 학습을 적용하여 Google Analytics 데이터의 각 필드를 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui)에 자동으로 미리 매핑합니다.
 
+![](assets/schema-map.png)
+
 매핑은 쉽게 변경할 수 있으며 Google Analytics 데이터에서 파생되거나 계산된 필드를 만들 수도 있습니다. 필드를 XDM 스키마로 매핑한 후에 이 가져오기를 반복 예약하고 수집 프로세스 중에 오류 유효성 검사를 적용할 수 있습니다. 이렇게 하면 가져온 데이터에 아무런 문제가 없습니다.
+
+**타임스탬프 계산 필드**
+
+Google Analytics 데이터의 `timestamp` 필드의 경우 Experience Platform 스키마 UI에 특별한 계산 필드를 만들어야 합니다. **[!UICONTROL 계산된 필드 추가]**&#x200B;를 클릭하고 `date` 함수에서 `timestamp` 문자열을 다음과 같이 래핑합니다.
+
+`date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+
+그런 다음 이 계산된 필드를 스키마의 타임스탬프 데이터 구조에 저장해야 합니다.
+
+![](assets/timestamp.png)
+
+**_id XDM 계산 필드**
+
+`_id` 스키마 필드에 값이 있어야 합니다. CJA는 값이 무엇인지는 중요하지 않습니다. 필드에 &quot;1&quot;을 추가할 수 있습니다.
+
+![](assets/_id.png)
 
 ## 실시간 스트리밍 Google Analytics 데이터 인제스트
 
