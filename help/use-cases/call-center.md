@@ -3,7 +3,7 @@ title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
@@ -80,7 +80,7 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 1. 웹 페이지 이름을 포함하는 차원을 자유 형식 테이블 시각화로 드래그합니다.
 1. 지표를 전환을 측정하려는 원하는 콜 센터 지표로 바꿉니다.
 1. 지표 헤더 근처에 있는 톱니바퀴 아이콘을 클릭합니다. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 클릭합니다.
-1. 원하는 [속성 모델](/help/data-views/configure-dataviews.md#Attribution-model)을 설정합니다.
+1. 원하는 [속성 모델](/help/data-views/create-dataview.md)을 설정합니다.
 
 결과 보고서는 콜 센터 데이터의 상위 지표를 보여줍니다.<!-- Complement with donut visualization -->
 
