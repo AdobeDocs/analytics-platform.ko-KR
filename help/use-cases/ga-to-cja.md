@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
+source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,6 @@ Google 태그 관리자 계정에 로그인한 후에는 Adobe 조직 ID 및 데
 Adobe Experience Platform에서 라이브 Google Analytics 데이터를 받기 시작하고 BigQuery에서 내역 Google Analytics 데이터를 채우면 CJA로 바로 이동할 수 있습니다.
 [첫 번째 연결](/help/connections/create-connection.md)을 만듭니다. 이 연결을 통해 GA 데이터가 공통 &quot;고객 ID&quot;를 사용하여 다른 모든 고객 데이터와 통합됩니다.
 
-
 ## 작업 공간에서 놀라운 분석 수행
 
-팔로우하려면
+여기에서 더 많은 컨텐츠를 보십시오.
