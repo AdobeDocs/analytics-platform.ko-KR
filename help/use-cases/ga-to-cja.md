@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: df3b69b837fda821e1b50b0ba211ac578d856892
+source-git-commit: 99ae3fb2978afc2f5ec7db05ac82cfb5113df3b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,9 @@ Adobe Experience Platform에서 라이브 Google Analytics 데이터를 받기 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-## 작업 공간에서 놀라운 분석 수행
+## 다음 단계
 
-여기에서 더 많은 컨텐츠를 보십시오.
+* Google Analytics 데이터를 기반으로 데이터 보기 만들기
+그런 다음 Google Analytics 데이터가 포함된 연결을 기준으로 [CJA에서 데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews)를 만듭니다.
+
+* [작업 공간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/home.html?lang=en#cja-workspace)에서 놀라운 분석을 수행합니다.
