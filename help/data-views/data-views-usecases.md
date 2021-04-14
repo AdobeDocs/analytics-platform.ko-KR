@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics의 데이터 보기에 대한 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 강력함을 보여주는 다양한 사용 사례
+exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
-
 
 # 데이터 보기 사용 사례
 
@@ -45,5 +45,5 @@ ht-degree: 0%
 
    ![](assets/bucketing.png)
 
-다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview2.md)를 참조하십시오.
+다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기에 대한 개념 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
