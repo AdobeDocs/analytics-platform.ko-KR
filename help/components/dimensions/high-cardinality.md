@@ -2,9 +2,9 @@
 title: Customer Journey Analytics에서 추기경이 매우 높은 Dimension
 description: Customer Journey Analytics에서 높은 카디널리티 차원 처리에 대한 우수 사례를 설명합니다.
 translation-type: tm+mt
-source-git-commit: 9af5c74164462851ac4a6cbc4764569789f677fc
+source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Customer Journey Analytics(CJA)는 단일 차원 내에서 보고할 수 있는 
 
 ### 1. 행 수는 정확하게 보고할 수 없습니다.
 
-높은 기수 차원에 대한 행 수는 정확하게 보고할 수 없을 수 있습니다. 이러한 경우 자유 형식 테이블은 아래와 같은 표시를 제공합니다.
+높은 카디널리티 차원에 대한 행 수는 정확하게 보고할 수 없습니다. 이러한 경우 자유형 테이블은 아래와 같이 표시를 제공합니다.
 
 ![](assets/high-cardinality.png)
 
