@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics에서 추기경이 매우 높은 Dimension
 description: Customer Journey Analytics에서 높은 카디널리티 차원 처리에 대한 우수 사례를 설명합니다.
+exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 translation-type: tm+mt
-source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
+source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # 추기경이 매우 높은 Dimension
 
@@ -49,7 +49,7 @@ Customer Journey Analytics(CJA)는 단일 차원 내에서 보고할 수 있는 
 
 * 영향을 받는 열 또는 패널에 필터를 추가합니다.
 * 자유 형식 테이블에 검색을 적용합니다.
-* 원하는 행에 분류를 적용하거나 매우 기본적인 차원을 분류 차원으로 사용합니다
+* 원하는 행에 분류를 적용하거나 매우 기본적인 차원을 분류 차원으로 사용합니다.
 * 차원의 데이터 보기 구성에 포함/제외 기준을 추가하여 차원에 있는 고유 값의 수를 좁힙니다.
 
 이러한 기법을 사용하면 추기경 치수를 사용할 때 경험할 수 있는 바람직하지 않은 견적 또는 경고를 없앨 수 있습니다.
