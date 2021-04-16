@@ -2,13 +2,11 @@
 description: Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 keywords: Analysis Workspace
 title: 차원 분류
-topic: Reports and Analytics
-uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c086f21e1a13ef4dec4e1be63d9f462bfb32f2ea
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 79%
 
 ---
