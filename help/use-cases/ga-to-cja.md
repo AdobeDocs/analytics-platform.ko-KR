@@ -3,9 +3,9 @@ title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
 description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1dcc566f286b0399e5ebd1e06e9d42a9522a1684
+source-git-commit: de822eb00a5e205889b4fa96f729845ad4c7e356
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1217'
 ht-degree: 7%
 
 ---
@@ -99,10 +99,6 @@ GA 이벤트 데이터를 이전에 만든 기존 데이터 세트에 매핑하�
 ![](assets/schema-map.png)
 
 매핑은 쉽게 변경할 수 있으며 Google Analytics 데이터에서 파생되거나 계산된 필드를 만들 수도 있습니다. 필드를 XDM 스키마로 매핑한 후에 이 가져오기를 반복 예약하고 수집 프로세스 중에 오류 유효성 검사를 적용할 수 있습니다. 이렇게 하면 가져온 데이터에 아무런 문제가 없습니다.
-
-다음 지침을 보려면 이 비디오를 보십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **&#39;타임스탬프&#39; 계산 필드**
 
