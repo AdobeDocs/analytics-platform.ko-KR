@@ -2,7 +2,7 @@
 description: Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
-feature: 보고 및 분석 기본 사항
+feature: Reports & Analytics Basics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 translation-type: tm+mt

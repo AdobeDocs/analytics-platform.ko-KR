@@ -2,7 +2,7 @@
 description: 집단 분석 사용 사례 예입니다.
 keywords: Analysis Workspace
 title: 집단 분석 활용 사례
-feature: 보고 및 분석 기본 사항
+feature: Reports & Analytics Basics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 translation-type: tm+mt
