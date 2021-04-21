@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Platform에 Google Analytics 데이터 인제스트
-description: 'Customer Journey Analytics(CJA)를 사용하여 Google Analytics 및 firebase 데이터를 Adobe Experience Platform에 인제스트하는 방법에 대해 설명합니다. '
+description: 'Customer Journey Analytics(CJA)를 활용하여 Google Analytics 데이터를 Adobe Experience Platform에 인제스트하는 방법을 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: de822eb00a5e205889b4fa96f729845ad4c7e356
+source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1215'
 ht-degree: 7%
 
 ---
