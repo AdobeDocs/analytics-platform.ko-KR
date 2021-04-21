@@ -11,9 +11,9 @@ user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으�
 breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 95%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 95%
       + [재생 작동 방식](connections/cca/replay.md)
       + [크로스 채널 분석 FAQ](connections/cca/faq.md)
 + 데이터 보기 {#cja-dataviews}
-   + [데이터 뷰 개요](data-views/data-views.md)
+   + [데이터 보기 개요](data-views/data-views.md)
    + [데이터 보기 만들기](data-views/create-dataview.md)
-   + [데이터 보기 사용 사례](data-views/data-views-usecases.md)
+   + [데이터 보기 활용 사례](data-views/data-views-usecases.md)
    + [지속성](data-views/persistence.md)
 + Workspace 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
@@ -157,10 +157,11 @@ ht-degree: 95%
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
    + [Adobe Experience Platform에 Google Analytics 데이터 인제스트](use-cases/ga-to-cja.md)
+   + [CJA의 Google Analytics 데이터에 대한 보고서](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
-+ 개인 정보 보호 {#cja-privacy}
-   + [개인 정보 보호 개요](privacy/privacy-overview.md)
++ 개인정보 보호 {#cja-privacy}
+   + [개인정보 보호 개요](privacy/privacy-overview.md)
 + [CJA 설명서 업데이트](doc-changes.md)
