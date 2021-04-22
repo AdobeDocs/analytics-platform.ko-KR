@@ -3,10 +3,10 @@ title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
 description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
+source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->데이터 보기에서 선택하거나 변경하는 설정은 소급 적용되며 비파괴적입니다. 즉, 기본 데이터가 영구적으로 변경되지 않습니다.
+>데이터 보기에서 선택하거나 변경하는 설정은 소급 적용되며 비파괴적입니다. 즉, 기본 데이터는 영구적으로 변경되지 않습니다.
 
 매우 다른 구성 요소 세트(차원/지표)를 사용하여 동일한 연결에 대해 서로 다른 데이터 보기를 생성할 수 있습니다. 또는 방문 시간 초과, 속성 등에 대해 서로 다른 설정으로 데이터 보기를 만들 수 있습니다. 예를 들어 모든 차원이 [!UICONTROL 마지막 터치]로 설정되는 데이터 보기가 한 개 있고 동시에 모든 차원이 [!UICONTROL 첫 번째 터치]로 설정된 다른 데이터 보기(동일한 데이터 세트에 기반)가 있을 수 있습니다.
 
@@ -60,13 +60,13 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 일부 데이터 보기 설정은 프로젝트 수준의 Analysis Workspace에서 재정의할 수 있으며, 다른 설정은 재정의할 수 없습니다.
 
-* 전환 확인 기간
+* [!UICONTROL 전환 확인 기간]
 * 지표 속성
-* 사용자가 보고서에서 &#39;값 없음&#39; 라인 항목을 볼 수 있는지 여부
+* 사용자가 보고서에 [!UICONTROL 값 없음] 라인 항목을 표시할지 여부
 
 ## Workspace에서 재정의할 수 없는 데이터 보기 설정
 
-* 구성 요소 유형
+* [!UICONTROL 구성 요소 유형]
 * 지표 서식
 * 데이터 보기 이름
 * 차원 할당
