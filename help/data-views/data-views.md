@@ -3,10 +3,10 @@ title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
 description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 8f3b57e0851441b86a282411674ffe67ed34ea32
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,3 +74,9 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 ## 데이터 보기 삭제
 
 [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우, 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 더 이상 작동하지 않는다는 오류 메시지가 표시됩니다.
+
+## 다음 단계
+
+* [데이터 뷰 만들기](/help/data-views/create-dataview.md)
+* [데이터 보기 활용 사례](/help/data-views/data-views-usecases.md)
+* [지속성](/help/data-views/persistence.md)이 작동하는 방식에 대한 세부 정보
