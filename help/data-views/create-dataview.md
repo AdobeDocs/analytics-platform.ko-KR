@@ -3,10 +3,10 @@ title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: c6ce71788582b20f6542ff8e26a7b86d8b1b3eb3
 workflow-type: tm+mt
-source-wordcount: '2794'
-ht-degree: 100%
+source-wordcount: '2795'
+ht-degree: 99%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 토글 키 |
 | [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 기존 Analytics의 eVar과 유사한 값을 유지하려는 경우 여기서 값을 설정할 수 있습니다. 유일한 차이점은 설정할 수 있는 최대 지속성이 90일이라는 점입니다. 또한 [!UICONTROL 만료되지 않음]은 옵션이 아닙니다. |
-| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션] (기본값), [!UICONTROL 개인], [!UICONTROL 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. [!UICONTROL 지표]를 사용하면 정의된 지표 중 하나를 이 차원의 만료([!UICONTROL 구매] 지표 등)로 지정할 수 있습니다. |
+| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션](기본값), [!UICONTROL 개인], [!UICONTROL 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. [!UICONTROL 지표]를 사용하면 정의된 지표 중 하나를 이 차원의 만료([!UICONTROL 구매] 지표 등)로 지정할 수 있습니다. |
 
 ### 값 버킷팅 설정 구성
 
@@ -172,7 +172,7 @@ ht-degree: 100%
 
 ![](assets/standard-components.png)
 
-필요한 표준 구성 요소는 기본적으로 데이터 보기에 추가됩니다.
+이러한 필수 표준 구성 요소는 기본적으로 데이터 보기에 추가됩니다.
 
 | 구성 요소 이름 | 차원 또는 지표 | 참고 |
 | --- | --- | --- |
