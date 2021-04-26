@@ -3,10 +3,10 @@ title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c6ce71788582b20f6542ff8e26a7b86d8b1b3eb3
+source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -172,13 +172,13 @@ ht-degree: 99%
 
 ![](assets/standard-components.png)
 
-이러한 필수 표준 구성 요소는 기본적으로 데이터 보기에 추가됩니다.
+이러한 필수 표준 구성 요소는 기본적으로 각 데이터 보기에 추가됩니다.
 
 | 구성 요소 이름 | 차원 또는 지표 | 참고 |
 | --- | --- | --- |
-| [!UICONTROL 사람] | 지표 | 이 지표는 연결에 지정된 사용자 ID를 기반으로 합니다. |
+| [!UICONTROL 사람] | 지표 | 이 지표는 [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
 | [!UICONTROL 세션] | 지표 | 이 지표는 아래에 지정된 세션화 설정을 기반으로 합니다. |
-| [!UICONTROL 이벤트] | 지표 | 이 지표는 연결의 모든 이벤트 데이터 세트의 행 수를 나타냅니다. |
+| [!UICONTROL 이벤트] | 지표 | 이 지표는 [!UICONTROL Connection]에 있는 모든 이벤트 데이터세트의 행 수를 나타냅니다. |
 | [!UICONTROL 일] | 차원 | &#39;일&#39; 차원은 주어진 지표가 발생한 날짜의 일을 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
 | [!UICONTROL 주] | 차원 | &#39;주&#39; 차원은 주어진 지표가 발생한 주를 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. |
 | [!UICONTROL 월] | 차원 | 월 차원은 주어진 지표가 발생한 월을 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 마지막 월입니다. |
