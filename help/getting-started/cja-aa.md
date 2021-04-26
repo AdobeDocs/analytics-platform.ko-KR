@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
+exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+source-git-commit: 4b543a1566580a8f3060c2387928148d55be70f2
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 99%
 
 ---
-
 
 # Customer Journey Analytics 기능 지원
 
@@ -36,14 +36,16 @@ ht-degree: 100%
 | 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
 | 크로스 디바이스/크로스 채널 결합 | [크로스 채널 분석](/help/connections/cca/overview.md)을 참조하십시오. |
 | 기본 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 운영 체제 등) | CJA는 기본 XDM 필드(예: 사용자 에이전트 또는 디바이스 ID)가 추가되면 기본적으로 이러한 차원을 제공합니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
-| 보고 API 액세스 | 현재 Analytics API 2.0을 이용하여 사용할 수 있습니다. |
+| 보고 API 액세스 | 이제 [CJA API](https://www.adobe.io/cja-apis/docs/)을(를) 사용하여 사용할 수 있습니다. |
+| 예약된 보고서/프로젝트 | 전체 지원 |
+| PDF 내보내기 | 전체 지원 |
 
 ## 경고가 지원됨
 
 | 기능 | 참고 |
 | --- | --- |
 | 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
-| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)를 참조하십시오. |
+| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 사용자 지정 세션 | 모바일 배경 조회 수를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
@@ -74,9 +76,7 @@ ht-degree: 100%
 | 사용자 지정 달력 | 지원이 예정되어 있습니다. |
 | 지표 중복 제거 | 지원이 예정되어 있습니다. |
 | 머천다이징 변수 지속성 | 지원이 예정되어 있습니다. |
-| 예약된 보고서/프로젝트 | 지원이 예정되어 있습니다. |
 | 경고 | 지원이 예정되어 있습니다. |
-| PDF 내보내기 | 지원이 예정되어 있습니다. |
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | Report Builder(Excel 플러그인) | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
