@@ -3,9 +3,9 @@ title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: 6de1907e74eb0323bde921f4400e27bcdf06cdd1
+source-git-commit: aa11e81e63e993fdcddd400d491d863e05ac65b9
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 66%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 66%
 | b | [!UICONTROL Customer Journey Analytics]에 [!UICONTROL Experience Cloud ID] (ECID)가 필요합니까? | 아니요. [!UICONTROL Customer Journey Analytics]는 데이터 세트에서 선택한 ID가 ECID든 다른 ID이든 모두 지원합니다. |
 | c | [!UICONTROL Customer Journey Analytics] 전에 데이터를 ETL(추출, 변환, 로드)해야 하는 경우엔 어떻게 해야 합니까? | Customer Journey Analytics에는 데이터를 Adobe Experience Platform 데이터 호수에 올리기 전에 데이터를 변형하는 데 도움이 되는 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html) 기능이 포함되어 있습니다. 데이터를 이미 인제스트한 후 ETL이 필요한 경우 추가 비용이 있더라도 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=en#queries)는 일부 제한된 옵션을 제공합니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 2. 데이터 연결(크로스 채널 분석)
 
 | # | 질문 | 답변 |
@@ -30,6 +32,8 @@ ht-degree: 66%
 | b | 익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까? | 예. [크로스 채널 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html) 분석은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 확인하여 연결된 ID를 생성합니다. |
 | c | CCA에서 &#39;replay&#39;가 어떻게 작동합니까? | CCA는 학습한 고유 식별자를 기반으로 데이터를 &quot;재생&quot;합니다. 다시 재생하면 새 장치의 연결 연결이 스티칭됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=en#step-1%3A-live-stitching) |
 | d | CCA에서 내역 데이터(채우기)를 어떻게 결합합니까? | 처음 이 기능을 활성화하면 Adobe은 이전 월의 시작까지(최대 60일) 거슬러 올라가는 스티칭된 데이터의 채우기 기능을 제공합니다. 이 채우기를 수행하려면, 시간이 오래 지난 봉합되지 않은 데이터에 임시 ID가 있어야 합니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#enable-cross-channel-analytics) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 3. [!UICONTROL Customer Journey Analytics]에 데이터를 가져오는 중
 
@@ -43,6 +47,8 @@ ht-degree: 66%
 | f | 데이터 세트 요소를 데이터 보기로 취합하는 데 얼마나 걸립니까? | 시작하는 데 몇 시간이 소요되고 지난 13개월간의 데이터를 채우는 데는 며칠이 소요됩니다. |
 | g | 데이터 간의 연결을 설정하려면 PII 데이터를 가져와야 합니까? | 아니요. PII가 아닌 고객 ID의 해시를 포함하여 모든 ID를 사용할 수 있습니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 4. 기존 [!UICONTROL Adobe Analytics] 구성 요소
 
 | # | 질문 | 답변 |
@@ -53,6 +59,8 @@ ht-degree: 66%
 | d | 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
 | e | [!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까? | [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.] |
 | f | 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 사용 사례에 따라 다릅니다. Adobe 계정 팀과 작업하십시오. 현재 사용 사례는 이미 Customer Journey Analytics에 적합합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 5. 자료요소 삭제에 관한 사항
 
