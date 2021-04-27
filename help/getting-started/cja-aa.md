@@ -3,10 +3,10 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 translation-type: tm+mt
-source-git-commit: b149b4e95d8395c41242de7a2a3997315ba142a6
+source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 81%
+ht-degree: 98%
 
 ---
 
@@ -44,16 +44,15 @@ ht-degree: 81%
 
 | 기능 | 참고 |
 | --- | --- |
-
-| 분류 | 이제 &quot;데이터 집합 조회&quot;라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 데이터 커넥터를 사용하여 Experience Platform 및 CJA로 가져올 수 있습니다. 조회 데이터 세트를 AEP에 직접 업로드하여 CJA에서 사용할 수도 있습니다. |
-| 사용자 정의 세션 | 모바일 백그라운드 히트를 제외한 모든 사용자 정의 세션 화 기능 지원. |
-| 고객 속성 | 이제 &quot;프로필 데이터 집합&quot;이라고 불리며, Experience Cloud에서 자동으로 가져오지 않지만 CJA에서 제공하기 전에 AEP에 업로드해야 합니다. |
-| 장치, 브라우저, 기술 규격 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되어 있고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. |
-| 시작, 종료, 체류 시간 차원 및 지표 | Supported(시작 및 종료는 이제 세션 시작 및 세션 종료)라고 하며 약간 다른 방식으로 계산됩니다. |
+| 분류 | 이제 &quot;조회 데이터 세트&quot;라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 데이터 커넥터를 사용하여 Experience Platform 및 CJA로 가져올 수 있습니다. 조회 데이터 세트를 AEP에 직접 업로드하여 CJA에서 사용할 수도 있습니다. |
+| 사용자 지정 세션 | 모바일 배경 조회 수를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
+| 사용자 특성 | 이제 &quot;프로필 데이터 세트&quot;라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
+| 디바이스, 브라우저, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. |
+| 시작, 종료, 체류 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함)이제 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라, 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
-| 마케팅 채널 | 마케팅 채널 데이터는 분석 데이터 커넥터를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
+| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
 | 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
-| 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 간에만 지원되므로 CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
+| 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 
 ## 부분 지원
