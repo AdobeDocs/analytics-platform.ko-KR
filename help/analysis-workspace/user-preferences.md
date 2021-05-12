@@ -2,19 +2,14 @@
 title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
 
 # 사용자 환경 설정
-
->[!NOTE]
->
->이 기능은 곧 제공될 예정입니다. 일반 가용성 날짜는 2021년 3월 25일입니다.
 
 [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지를 통해 사용자의 Analysis Workspace 설정 및 관련 구성 요소를 관리할 수 있습니다. 사용자 환경 설정은 *모든* 새 프로젝트 또는 패널에 적용됩니다.
 
