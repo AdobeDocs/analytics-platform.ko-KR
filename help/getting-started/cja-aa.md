@@ -2,11 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-translation-type: tm+mt
-source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
+source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 98%
+source-wordcount: '1071'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ ht-degree: 98%
 | Media Analytics | 미디어 데이터는 Analytics Data Connector의 일부로 사용할 수 있습니다. |
 | 머천다이징 eVars | 머천다이징 eVar가 지속성을 사용하도록 설정되지 않은 경우 개체 배열 내의 차원을 사용하여 머천다이징 eVar의 동작을 달성할 수 있습니다. 현재 머천다이징 차원 지속성을 사용할 수 없습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
-| 처리 규칙 | Analytics Data Connector 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. |
+| 처리 규칙 | Analytics Data Connector 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) 을 Platform으로 바로 연결되는 데이터의 처리 규칙을 대체할 수도 있습니다. |
 
 ## 현재는 지원되지 않지만, 지원 예정
 
