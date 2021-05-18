@@ -2,11 +2,10 @@
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 94%
+source-wordcount: '1257'
+ht-degree: 96%
 
 ---
 
@@ -16,20 +15,20 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 ## CJA와 기존 Adobe Analytics 비교하기
 
-Customer Journey Analytics는 사용하기 쉬운 교차 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
+Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
 
 * **제한 없는 변수 및 이벤트**: eVar, 속성 및 이벤트에 대한 개념이 더 이상 없습니다. 데이터는 주로 차원과 지표에 중점을 둡니다. 데이터 세트의 고유한 차원과 지표 크기는 제한이 없습니다.
-* **무제한 고유 값**:Adobe Experience Platform은 고유한 제한 사항에 제한되지 않습니다.
+* **무제한 고유 값**: Adobe Experience Platform은 고유한 제한 사항으로 제한되지 않습니다.
 * **이전 데이터 변경**: Adobe Experience Platform을 사용하여 데이터를 제거하거나 수정할 수 있습니다.
 * **크로스 보고서 세트 데이터**: 여러 데이터 세트의 기존 구현을 Platform에 결합할 수 있습니다.
 
 Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](cja-aa.md)을 참조하십시오.
 
-## CJA와 교차 장치 분석 비교
+## CJA와 교차 디바이스 분석 비교
 
-[교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html)은 디지털 장치가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
+[교차 디바이스 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
-반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 교차 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
+반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
 ## 주요 사용 사례
 
@@ -53,10 +52,10 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 
 연결 만들기, 데이터 세트 추가 등을 수행하려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
 
-* Customer Journey Analytics에 액세스하거나 연결을 하려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)의 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가해야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
+* Customer Journey Analytics에 액세스하거나 연결을 만들려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
    * 연결 또는 데이터 보기 만들기/업데이트/삭제
    * 다른 사용자가 만든 프로젝트, 필터, 계산 지표 또는 필터 업데이트/삭제
-   * 모든 사용자에게 작업 영역 프로젝트 공유
+   * 모든 사용자에게 Workspace 프로젝트 공유
 * Customer Journey Analytics 내에서 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
    * 스키마 보기
    * 스키마 관리
@@ -64,6 +63,10 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
    * 데이터 세트 보기
 
 Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>기존 Adobe Analytics에서와 같이 Customer Journey Analytics에서 개별 지표 또는 차원에 대한 권한은 없습니다. 지표 및 차원은 데이터 보기에서 수정할 수 있으므로 CJA에서 변경될 수 있으며 보고 소급 변경도 가능합니다.
 
 ### 사용자 액세스
 
@@ -74,7 +77,7 @@ Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
 * 이제 세그먼트를 &#39;필터&#39;라고 합니다.
-* 가상 보고서 세트를 이제 &#39;데이터 보기&#39;라고 합니다.
+* 이제 가상 보고서 세트를 &#39;데이터 보기&#39;라고 합니다
 * 이제 분류를 &#39;조회 데이터 세트&#39;라고 합니다.
 * 이제 고객 속성을 &#39;프로필 데이터 세트&#39;라고 합니다.
 * 이제 히트 컨테이너를 &#39;이벤트&#39; 컨테이너라고 합니다.
