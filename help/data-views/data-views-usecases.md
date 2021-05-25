@@ -2,11 +2,10 @@
 title: Customer Journey Analytics의 데이터 뷰 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 주는 여러 사용 사례
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +39,14 @@ ht-degree: 100%
 1. 이제 [!UICONTROL 값 버킷팅]을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. (버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.)
 
    ![](assets/bucketing.png)
+
+## 숫자 차원을 흐름 다이어그램에서 &quot;지표&quot;로 사용합니다
+
+숫자 차원을 사용하여 [!UICONTROL  흐름] 시각화로 &quot;지표&quot;를 가져올 수 있습니다. 아래 예제는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]에 흐르는 것을 보여줍니다.
+
+![](assets/flow.png)
+
+## 지표 값 포함 또는 제외
 
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
