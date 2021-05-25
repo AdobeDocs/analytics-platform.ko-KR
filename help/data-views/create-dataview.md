@@ -2,10 +2,9 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-translation-type: tm+mt
-source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2812'
 ht-degree: 98%
 
 ---
@@ -149,7 +148,7 @@ ht-degree: 98%
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 토글 키 |
 | [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 기존 Analytics의 eVar과 유사한 값을 유지하려는 경우 여기서 값을 설정할 수 있습니다. 유일한 차이점은 설정할 수 있는 최대 지속성이 90일이라는 점입니다. 또한 [!UICONTROL 만료되지 않음]은 옵션이 아닙니다. |
-| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션](기본값), [!UICONTROL 개인], [!UICONTROL 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. [!UICONTROL 지표]를 사용하면 정의된 지표 중 하나를 이 차원의 만료([!UICONTROL 구매] 지표 등)로 지정할 수 있습니다. |
+| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션](기본값), [!UICONTROL 개인], [!UICONTROL 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. [!UICONTROL 지표]를 사용하면 정의된 지표 중 하나를 이 차원의 만료([!UICONTROL 구매] 지표 등)로 지정할 수 있습니다.<br>**참고**: [!UICONTROL 모두]의 할당을 선택하면 차원에 대한 사용자 지정 만료를 설정할 수 없습니다. |
 
 ### 값 버킷팅 설정 구성
 
@@ -178,7 +177,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | [!UICONTROL 사람] | 지표 | 이 지표는 [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
 | [!UICONTROL 세션] | 지표 | 이 지표는 아래에 지정된 세션화 설정을 기반으로 합니다. |
-| [!UICONTROL 이벤트] | 지표 | 이 지표는 [!UICONTROL Connection]에 있는 모든 이벤트 데이터세트의 행 수를 나타냅니다. |
+| [!UICONTROL 이벤트] | 지표 | 이 지표는 [!UICONTROL 연결]에 있는 모든 이벤트 데이터 세트의 행 수를 나타냅니다. |
 | [!UICONTROL 일] | 차원 | &#39;일&#39; 차원은 주어진 지표가 발생한 날짜의 일을 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
 | [!UICONTROL 주] | 차원 | &#39;주&#39; 차원은 주어진 지표가 발생한 주를 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. |
 | [!UICONTROL 월] | 차원 | 월 차원은 주어진 지표가 발생한 월을 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 마지막 월입니다. |
