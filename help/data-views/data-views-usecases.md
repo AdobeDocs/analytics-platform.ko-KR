@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 뷰 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 주는 여러 사용 사례
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 90%
+source-wordcount: '549'
+ht-degree: 59%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 이러한 사용 사례는 Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 줍니다.
 
-## pageTitle (문자열) 스키마 필드에서 주문 지표 만들기
+## 1. pageTitle(문자열) 스키마 필드에서 주문 지표를 만듭니다.
 
 예를 들어 데이터 보기를 생성할 때 문자열인 [!UICONTROL pageTitle] 스키마 필드에서 [!UICONTROL 주문] 지표를 생성할 수 있습니다. 단계는 다음과 같습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 90%
 1. [!UICONTROL 세션]의 [!UICONTROL 전환 확인 기간]을 사용하여 [!UICONTROL 마지막 터치]와 같은 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다.
 또한 동일한 필드에서 다른 [!UICONTROL 주문] 지표를 만들고 [!UICONTROL 첫 번째 터치]와 같은 다른 속성 모델과 [!UICONTROL 30일] 같은 다른 [!UICONTROL 전환 확인 기간]을 지정할 수 있습니다.
 
-## 정수를 차원으로 사용
+## 2. 정수를 차원으로 사용
 
 이전에는 정수가 자동으로 CJA에서 지표로 처리되었습니다. 이제 숫자(Adobe Analytics의 사용자 지정 이벤트 포함)를 차원으로 처리할 수 있습니다. 다음은 한 예입니다.
 
@@ -40,13 +40,27 @@ ht-degree: 90%
 
    ![](assets/bucketing.png)
 
-## 숫자 차원을 흐름 다이어그램에서 &quot;지표&quot;로 사용합니다
+## 3. 숫자 차원을 흐름 다이어그램에서 &quot;지표&quot;로 사용합니다
 
-숫자 차원을 사용하여 [!UICONTROL  흐름] 시각화로 &quot;지표&quot;를 가져올 수 있습니다. 아래 예제는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]에 흐르는 것을 보여줍니다.
+숫자 차원을 사용하여 [!UICONTROL  흐름] 시각화로 &quot;지표&quot;를 가져올 수 있습니다.
+
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+2. Workspace 보고에서 이 흐름은 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 유입되는 것을 보여줍니다.
 
 ![](assets/flow.png)
 
-## 지표 값 포함 또는 제외
+## 4. 하위 이벤트 필터링 작업
+
+이벤트를 필터링하여 보려는 항목만 표시할 수 있습니다. 예를 들어, 데이터 보기에 있는 포함/제외 기능을 사용하여 50달러 이상의 매출을 생성한 제품에만 집중할 수 있습니다. 그래서 50달러 제품 구매와 25달러 제품 구매가 포함된 주문이 있다면, 전체 주문품이 아닌 25달러 제품 구매만 제거할 것입니다.
+
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 주문] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
+   1. [!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
+   1. [!UICONTROL 통화]에서 USD를 선택합니다.
+   1. [!UICONTROL 값 포함/제외]에서 [!UICONTROL 값 포함/제외 설정] 옆에 있는 확인란을 선택합니다.
+   1. [!UICONTROL Match]에서 [!UICONTROL 모든 기준이 충족되는 경우]을 선택합니다.
+   1. [!UICONTROL 기준]에서 [!UICONTROL 이]보다 크거나 같음 을 선택합니다.
+   1. 값으로 &quot;50&quot;을 지정합니다.
 
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
