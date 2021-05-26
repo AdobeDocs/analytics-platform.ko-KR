@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 뷰 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 주는 여러 사용 사례
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
+source-git-commit: 27e472f534590112194ce46b28a15b655c9caf2b
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 59%
+source-wordcount: '707'
+ht-degree: 46%
 
 ---
 
@@ -53,14 +53,36 @@ ht-degree: 59%
 
 이벤트를 필터링하여 보려는 항목만 표시할 수 있습니다. 예를 들어, 데이터 보기에 있는 포함/제외 기능을 사용하여 50달러 이상의 매출을 생성한 제품에만 집중할 수 있습니다. 그래서 50달러 제품 구매와 25달러 제품 구매가 포함된 주문이 있다면, 전체 주문품이 아닌 25달러 제품 구매만 제거할 것입니다.
 
-1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 주문] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
-   1. [!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
-   1. [!UICONTROL 통화]에서 USD를 선택합니다.
-   1. [!UICONTROL 값 포함/제외]에서 [!UICONTROL 값 포함/제외 설정] 옆에 있는 확인란을 선택합니다.
-   1. [!UICONTROL Match]에서 [!UICONTROL 모든 기준이 충족되는 경우]을 선택합니다.
-   1. [!UICONTROL 기준]에서 [!UICONTROL 이]보다 크거나 같음 을 선택합니다.
-   1. 값으로 &quot;50&quot;을 지정합니다.
+a.[!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
+나.[!UICONTROL 통화]에서 USD를 선택합니다.
+c. [!UICONTROL 값 포함/제외]에서 [!UICONTROL 포함/제외 값 설정] 옆에 있는 확인란을 선택합니다.
+d.[!UICONTROL Match]에서 [!UICONTROL 모든 기준이 충족되는 경우]을 선택합니다.
+e.[!UICONTROL 기준]에서 [!UICONTROL 이]보다 크거나 같음 을 선택합니다.
+f.값으로 &quot;50&quot;을 지정합니다.
+
+이러한 새 설정을 사용하면 고부가가치 수익만 보고 $50 미만의 수입을 필터링할 수 있습니다.
+
+## 5. [!UICONTROL 값 없음 옵션] 설정을 사용합니다.
+
+회사에서 사용자에게 보고서에서 &quot;지정되지 않음&quot;을 기대하도록 교육하는 데 시간을 소비했을 수 있습니다. 데이터 보기의 기본값은 &quot;값 없음&quot;입니다. 이제 데이터 보기 UI에서 [값 없음 이름을 &quot;지정되지 않음&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings)으로 바꿀 수 있습니다.
+
+## 6. [!UICONTROL 복제] 기능을 사용합니다.
+
+지표를 복제한 다음 특정 설정을 수정하는 것은 단일 스키마 필드에서 여러 지표 또는 차원을 쉽게 만드는 방법입니다.
+
+오른쪽 상단에 있는 지표 또는 차원 이름 아래에 있는 복제 설정을 선택하면 됩니다.
+
+![](assets/duplicate.png)
+
+## 다른 속성 설정으로 여러 지표 만들기
+
+위에 언급된 [!UICONTROL Duplicate] 기능을 사용하여 [!UICONTROL 첫 번째 터치], [!UICONTROL 마지막 터치] 및 [!UICONTROL 알고리즘]과 같은 다양한 속성 설정으로 많은 매출 지표를 만드십시오.
+
+&quot;알고리즘 매출&quot;과 같은 차이점을 반영하도록 각 지표의 이름을 바꾸는 것을 잊지 마십시오.
+
+![](assets/algo-revenue.png)
 
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
