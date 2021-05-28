@@ -2,10 +2,10 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
 workflow-type: tm+mt
 source-wordcount: '2934'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 94%
 | [!UICONTROL 설명] | 자세한 설명은 필수가 아니지만, 권장됩니다. |
 | [!UICONTROL 시간대] | 데이터를 표시할 표준 시간대를 선택합니다. |
 | [!UICONTROL 태그] | 태그를 사용하여 데이터 보기를 범주로 구성할 수 있습니다. |
-| [!UICONTROL 컨테이너] | 여기서 컨테이너의 이름을 바꿀 수 있으며, 컨테이너는 이 데이터 보기에 기반한 모든 Workspace 프로젝트에 이런 방식으로 표시됩니다. 컨테이너는 필터 및 폴아웃/흐름 등에 사용되어 범위 또는 컨텍스트의 폭이 얼마나 넓은지 정의합니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=ko-KR#filter-containers) |
-| [!UICONTROL 개인 컨테이너 이름…] | [!UICONTROL 개인] (기본값). [!UICONTROL 개인] 컨테이너에는 지정된 기간 내의 방문자에 대한 모든 방문 및 페이지 보기가 포함됩니다. 이름을 &#39;사용자&#39; 또는 원하는 다른 용어로 바꿀 수 있습니다. |
-| [!UICONTROL 세션 컨테이너 이름…] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이름을 &#39;방문&#39; 또는 원하는 다른 용어로 바꿀 수 있습니다. |
+| [!UICONTROL 컨테이너] | 여기에서 컨테이너의 이름을 변경하여 이 데이터 보기를 기반으로 하는 Analysis Workspace 프로젝트에 표시되는 방법을 결정할 수 있습니다. 컨테이너는 범위 또는 컨텍스트의 범위를 넓히거나 좁히는 정도를 정의하기 위해 필터, 폴아웃/흐름 등에 사용됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=ko-KR#filter-containers) |
+| [!UICONTROL 개인 컨테이너 이름…] | [!UICONTROL 개인] (기본값). [!UICONTROL 개인] 컨테이너에는 지정된 기간 내의 방문자에 대한 모든 방문 및 페이지 보기가 포함됩니다. 이 컨테이너의 이름을 &#39;사용자&#39; 또는 원하는 다른 용어로 바꿀 수 있습니다. |
+| [!UICONTROL 세션 컨테이너 이름…] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 &#39;방문&#39; 또는 원하는 다른 용어로 바꿀 수 있습니다. |
 | [!UICONTROL 이벤트 컨테이너 이름…] | [!UICONTROL 이벤트] (기본값). [!UICONTROL 이벤트] 컨테이너는 필터에서 포함 또는 제외할 페이지 이벤트를 정의합니다. |
 
 그런 다음 스키마 요소에서 지표와 차원을 생성할 수 있습니다. 표준 구성 요소를 사용할 수도 있습니다.
@@ -43,7 +43,7 @@ ht-degree: 94%
 데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다. 주의 사항:
 
 * 이미 포함된 구성 요소는 표준 필수 구성 요소(시스템 생성)입니다.
-* 또한 기본적으로 **[!UICONTROL 데이터 포함]** 필터를 적용하여 데이터가 포함된 스키마 필드만 나타납니다. 데이터가 포함되지 않은 필드를 찾는 경우 필터만 제거합니다.
+* Adobe은 기본적으로 **[!UICONTROL 데이터 포함]** 필터를 적용하므로 데이터가 포함된 스키마 필드만 표시됩니다. 데이터가 포함되지 않은 필드를 찾으려면 필터를 제거합니다.
 
 1. 이제 왼쪽 레일에서 지표 또는 차원 섹션으로 [!UICONTROL pageTitle]과 같은 스키마 필드를 끌어옵니다.
 
