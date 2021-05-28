@@ -2,10 +2,10 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '2848'
-ht-degree: 96%
+source-wordcount: '2934'
+ht-degree: 94%
 
 ---
 
@@ -117,11 +117,13 @@ ht-degree: 96%
 
 ### 비헤이비어 설정 구성
 
+보고에서 지표가 작동하는 방식을 지정할 수 있도록 해줍니다.
+
 ![](assets/behavior-settings.png)
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
-| [!UICONTROL 값 계산] | 부울 지표의 경우에만 이 설정을 사용하여 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. |
+| [!UICONTROL 값 계산] | 부울 지표의 경우에만 이 설정을 사용하여 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. 주문 값이 50인 경우 &quot;50&quot;과 같이 지표의 실제 값을 제공합니다. |
 | [!UICONTROL 인스턴스 계산] | 지표로 사용되는 숫자 또는 날짜 유형 필드가 값 자체보다 설정된 시간을 계산해야 하는지 여부를 지정할 수 있습니다.<br> 숫자 필드의 인스턴스를 더하고 싶고 내부의 실제 값이 아닌 필드가 *설정된* 횟수를 더하고 싶은 경우.<br>예를 들어, [!UICONTROL 매출] 필드에서 [!UICONTROL 주문] 지표를 생성하는 경우 유용합니다. 매출이 설정된 경우 숫자 매출액이 아닌 1개의 단일 주문을 계산합니다. |
 
 ### [!UICONTROL 값 옵션 없음] 설정 구성
@@ -202,6 +204,12 @@ ht-degree: 96%
 | [!UICONTROL 일괄 처리 ID] | 차원 | [!UICONTROL 이벤트]가 속한 Experience Platform 일괄 처리를 나타냅니다. |
 | [!UICONTROL 데이터 세트 ID] | 차원 | [!UICONTROL 이벤트]가 속한 Experience Platform 데이터 세트를 나타냅니다. |
 
+## [!UICONTROL 복제] 기능 사용
+
+지표나 차원을 복제한 다음 특정 설정을 수정하는 것은 단일 스키마 필드에서 여러 지표 또는 차원을 쉽게 만드는 방법입니다. 오른쪽 상단에 있는 지표 또는 차원 이름 아래에 있는 [!UICONTROL 복제] 설정을 선택하면 됩니다. 그런 다음 새 지표 또는 차원을 수정하고 좀 더 설명적인 이름으로 저장합니다.
+
+![](assets/duplicate.png)
+
 ### 필터, 스키마 필드 및 차원/지표
 
 다음 데이터 유형을 사용하여 왼쪽 레일의 스키마 필드를 필터링할 수 있습니다.
@@ -212,8 +220,7 @@ ht-degree: 96%
 
 ![](assets/filter-other.png)
 
-
-## 3. 데이터 보기에 전역 필터 추가
+## 데이터 보기에 전역 필터 추가
 
 전체 데이터 보기에 적용되는 필터를 추가할 수 있습니다. 이 필터는 Workspace에서 실행하는 모든 보고서에 적용됩니다.
 
