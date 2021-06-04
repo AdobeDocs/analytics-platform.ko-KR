@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 뷰 사용 사례
 description: Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 주는 여러 사용 사례
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 47%
+source-wordcount: '763'
+ht-degree: 42%
 
 ---
 
@@ -53,7 +53,9 @@ ht-degree: 47%
 
 ## 4. 하위 이벤트 필터링 작업
 
-이벤트를 필터링하여 보려는 항목만 표시할 수 있습니다. 예를 들어, 데이터 보기에 있는 포함/제외 기능을 사용하여 50달러 이상의 매출을 생성한 제품에만 집중할 수 있습니다. 그래서 50달러 제품 구매와 25달러 제품 구매가 포함된 주문이 있다면, 전체 주문품이 아닌 25달러 제품 구매만 제거할 것입니다.
+이 기능은 특히 어레이 기반 필드에 적용됩니다. 포함/제외 기능을 사용하면 하위 이벤트 수준에서 필터링할 수 있지만 필터 빌더에 포함된 필터(세그먼트)는 이벤트 수준에서 필터링만 제공합니다. 따라서 데이터 보기에서 포함/제외를 사용하여 하위 이벤트 필터링을 수행한 다음 이벤트 수준의 필터에서 해당 새 지표/차원을 참조할 수 있습니다.
+
+예를 들어, 데이터 보기에 있는 포함/제외 기능을 사용하여 50달러 이상의 매출을 생성한 제품에만 집중할 수 있습니다. 그래서 50달러 제품 구매와 25달러 제품 구매가 포함된 주문이 있다면, 전체 주문품이 아닌 25달러 제품 구매만 제거할 것입니다.
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
@@ -69,6 +71,8 @@ f.값으로 &quot;50&quot;을 지정합니다.
 ## 5. [!UICONTROL 값 없음 옵션] 설정을 사용합니다.
 
 회사에서 사용자에게 보고서에서 &quot;지정되지 않음&quot;을 기대하도록 교육하는 데 시간을 소비했을 수 있습니다. 데이터 보기의 기본값은 &quot;값 없음&quot;입니다. 이제 데이터 보기 UI에서 [값 없음 이름을 &quot;지정되지 않음&quot;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings)으로 바꿀 수 있습니다.
+
+다른 예로는 멤버십 프로그램 등록에 대한 차원이 있습니다. 이 경우 &quot;값 없음&quot;의 이름을 &quot;멤버십 프로그램 등록 없음&quot;으로 바꿀 수 있습니다.
 
 ## 6. 다른 [!UICONTROL 속성] 설정으로 여러 지표를 만듭니다.
 
