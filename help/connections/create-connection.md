@@ -2,26 +2,25 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-translation-type: tm+mt
-source-git-commit: 26176b446c5d825aa8893f0fe45190079d923251
+source-git-commit: 90470be09d666c0c3937670d5d5669ab668ed2c4
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 98%
 
 ---
 
 # 연결 만들기
 
-연결을 통해 [!DNL Adobe Experience Platform]의 데이터 세트를 [!UICONTROL 작업 공간]에 통합할 수 있습니다. [!DNL Experience Platform] 데이터 세트에 대해 보고하려면 먼저 [!DNL Experience Platform]과 [!UICONTROL 작업 공간]의 데이터 세트 간에 연결을 설정해야 합니다.
+연결을 통해 [!DNL Adobe Experience Platform]의 데이터 세트를 [!UICONTROL 작업 영역]에 통합할 수 있습니다. [!DNL Experience Platform] 데이터 세트에 대해 보고하려면 먼저 [!DNL Experience Platform]과 [!UICONTROL 작업 영역]의 데이터 세트 간에 연결을 설정해야 합니다.
 
-비디오 개요를 보려면 [여기](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)를 클릭하십시오.
+비디오 개요를 보려면 [여기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)를 클릭하십시오.
 
 CJA 연결을 만들려면 다음 권한이 필요합니다.
 
 Adobe Experience Platform:
 * 데이터 모델링:스키마 보기, 스키마 관리
-* 데이터 관리:데이터 집합 보기, 데이터 집합 관리
-* 데이터 통합:소스 관리
+* 데이터 관리:데이터 세트 보기, 데이터 세트 관리
+* 데이터 수집:소스 관리
 
 Customer Journey Analytics
 * 제품 관리자 액세스
@@ -65,7 +64,7 @@ Customer Journey Analytics
    | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
    |---|---|---|---|---|
    | [!UICONTROL 이벤트] | 시간으로 이벤트를 나타내는 데이터(예: 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 데이터 등). 예를 들어 고객 ID 또는 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용할 ID를 유연하게 선택할 수 있습니다. | [!UICONTROL  Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. | 시간 일련 동작 있는 XDM 클래스를 기반으로 하는 모든 내장 또는 스키마 또는 사용자 지정 스키마. 예를 들면 &quot;XDM 경험 이벤트&quot; 또는 &quot;XDM 결정 이벤트&quot;가 해당됩니다. | 포함할 개인 ID를 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이 중 원하는 ID를 개인 ID로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등이 있습니다. |
-   | [!UICONTROL 조회] | 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 예제는 [본 사용 사례](/help/use-cases/b2b.md)를 참고하세요. | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 내장 스키마 또는 사용자 지정 스키마. | 해당 없음 |
+   | [!UICONTROL 조회] | 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 예제는 [본 사용 사례](/help/use-cases/b2b.md)를 참고하십시오. | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 내장 스키마 또는 사용자 지정 스키마. | 해당 없음 |
    | [!UICONTROL 프로필] | [!UICONTROL 이벤트] 데이터에서 방문자, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | XDM 개인 프로필 클래스를 기반으로 하는 모든 내장 또는 사용자 지정 스키마. | 포함할 개인 ID를 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트에는 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등과 같은 개인 ID가 하나 이상 정의된 고유한 ID 세트가 있습니다.<br>![개인 ID ](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 동일한 개인 ID를 사용해야 합니다. |
 
 1. **[!UICONTROL 데이터 세트 ID]**: 이 ID는 자동으로 생성됩니다.
@@ -99,7 +98,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 ### ID 맵의 극단적 사례
 
-이 표에서는 극단적 사례가 있을 때 이 사례들이 처리되는 방식을 두 가지 구성 옵션으로 보여줍니다.
+이 표에서는 극단적 사례가 있을 때 이 사례들이 처리되는 방식을 두 가지 구성 옵션으로 보여 줍니다.
 
 | 옵션 | ID가 ID 맵에 없음 | 기본 ID로 표시된 ID 없음 | 여러 ID가 기본 ID로 표시됨 | 단일 ID가 기본 ID로 표시됨 | 기본 ID로 표시된 ID의 네임스페이스가 잘못됨 |
 |---|---|---|---|---|---|
@@ -117,7 +116,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
    | [!UICONTROL 이름 연결] | 연결을 설명하는 이름을 지정합니다. 연결을 저장할 때 반드시 이름을 지정해야 합니다. |
    | [!UICONTROL 설명] | 이 연결을 다른 연결과 구분하려면 세부 사항을 더 추가합니다. |
    | [!UICONTROL 데이터 세트] | 이 연결에 포함된 데이터 세트입니다. |
-   | [!UICONTROL 오늘부터 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져옵니다.] | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 [!UICONTROL 작업 공간]으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. |
+   | [!UICONTROL 오늘부터 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져옵니다.] | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 [!UICONTROL 작업 영역]으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. |
    | [!UICONTROL 기존 데이터 모두 가져오기] | 이 옵션을 선택하고 연결을 저장하면 이 연결에 있는 모든 데이터 세트에 대한 [!DNL Experience Platform]의 기존(내역) 데이터를 모두 가져오거나 채웁니다. 이후에 여기에 저장된 연결에 추가된 새로운 데이터 세트에 대한 기존의 모든 이전 데이터도 자동으로 가져옵니다. 아래의 [내역 데이터 채우기](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)도 참조하십시오.<br>**이 연결이 저장되면 이 설정을 변경할 수 없습니다.** |
    | [!UICONTROL 일일 평균 이벤트 수] | 연결에 있는 모든 데이터 세트에 대해 가져올 일일 이벤트(새 데이터 **및** 데이터 채우기)의 평균 수를 지정해야 합니다. 드롭다운 메뉴에서 옵션 하나를 선택합니다. 이렇게 하면 Adobe에서 이 데이터에 충분한 공간을 할당할 수 있습니다.<br>회사에서 가져오는 평균 일별 이벤트 수를 모를 경우, [Adobe Experience Platform 쿼리 서비스](https://docs.adobe.com/content/help/ko-KR/experience-platform/query/home.html)에서 간단한 SQL 쿼리를 수행하여 확인할 수 있습니다.<br>아래의 &quot;평균 일일 이벤트 수 계산&quot;을 참조하십시오. |
 
@@ -131,7 +130,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 * 연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.
 * 모든 채우기(이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 사용자가 선택한 **[!UICONTROL 평균 일별 이벤트 수]** 설정과 결합되어 있는 내역 데이터의 양에 영향을 받습니다. 예를 들어, 하루에 10억 개 이상의 데이터 행과 3년의 내역 데이터를 가져오는 데 여러 주가 걸릴 수 있습니다. 반면에 하루에 1백만 개 미만의 행과 1주일 동안의 내역 데이터가 있는 경우 1시간 미만의 시간이 소요됩니다.
 * 채우기 작업은 각 데이터 세트에 개별적으로 적용되는 것이 아니라 전체 연결에 적용됩니다.
-* [Adobe Analytics 소스 커넥터](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)는 크기에 상관없이 최대 13개월의 데이터를 가져옵니다.
+* [Adobe Analytics 소스 커넥터](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)는 크기에 상관없이 최대 13개월의 데이터를 가져옵니다.
 
 ### 일일 평균 이벤트 수 계산
 
