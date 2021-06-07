@@ -3,10 +3,9 @@ description: Analysis Workspace에서 차원 및 차원 항목을 분류합니�
 keywords: Analysis Workspace
 title: 차원 분류
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
-translation-type: tm+mt
-source-git-commit: c086f21e1a13ef4dec4e1be63d9f462bfb32f2ea
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '232'
 ht-degree: 79%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
