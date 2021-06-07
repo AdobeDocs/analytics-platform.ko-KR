@@ -2,11 +2,10 @@
 description: 빠른 인사이트는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 75%
+source-wordcount: '1097'
+ht-degree: 74%
 
 ---
 
@@ -14,17 +13,17 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른]** 인사이트 스팬은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한, 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
-이 [!UICONTROL Analysis Workspace]을 처음 사용할 때 가장 유용한 시각화, 통찰력을 활용할 수 있는 차원 및 지표, 항목을 드래그 앤 드롭할 위치, 필터를 만들 위치 등이 궁금할 수 있습니다.
+이 [!UICONTROL Analysis Workspace]을 처음 사용하기 시작할 때 어떤 시각화가 가장 유용한지, 어떤 차원과 지표를 통해 인사이트를 얻을 수 있는지, 항목을 드래그 앤 드롭할 위치, 필터를 만들 위치 등이 궁금해질 수 있습니다.
 
-이를 돕기 위해 그리고 [!UICONTROL Analysis Workspace]의 데이터 구성 요소를 사용한 자체 회사를 기반으로, [!UICONTROL 빠른 통찰력]은 회사가 사용하는 가장 인기 있는 차원, 지표, 필터 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 드롭다운 목록에 [!UICONTROL Popular]로 태그가 지정된 차원, 지표 및 필터가 표시됩니다.
+이를 돕기 위해 [!UICONTROL Analysis Workspace]에서 자사의 데이터 구성 요소 사용을 기반으로 하는 [!UICONTROL 빠른 인사이트]는 회사에서 사용하는 가장 인기 있는 차원, 지표, 필터 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 [!UICONTROL Popular]로 태그가 지정된 차원, 지표 및 필터를 드롭다운 목록에서 볼 수 있습니다.
 
 ![](assets/popular-tag.png)
 
@@ -32,33 +31,33 @@ ht-degree: 75%
 
 * [!UICONTROL Analysis Workspace]에서 데이터 테이블 및 관련 시각화를 올바르게 작성합니다.
 * 기본 구성 요소 및 [!UICONTROL Analysis Workspace]조각에 대한 용어 및 용어를 알아봅니다.
-* 간단하게 차원 분류를 하거나, 여러 지표를 추가하거나, [!UICONTROL 자유 형식 테이블] 내에서 필터를 쉽게 비교할 수 있습니다.
+* 간단하게 차원을 분류하거나, 여러 지표를 추가하거나, [!UICONTROL 자유 형식 테이블] 내에서 필터를 쉽게 비교할 수 있습니다.
 * 다양한 시각화 유형을 변경하거나 테스트하여 분석에 필요한 찾기 툴을 빠르고 직관적으로 찾을 수 있습니다.
 
 ## 기본 키 용어
 
-다음은 익숙해야 하는 몇 가지 기본 용어입니다. 각 데이터 테이블은 데이터 스토리를 전달하는 데 사용하는 2개 이상의 구성 요소(구성 요소)로 구성됩니다.
+다음은 익숙해야 하는 몇 가지 기본 용어입니다. 각 데이터 테이블은 데이터 스토리를 전달하는 데 사용하는 2개 이상의 구성 요소 (구성 요소)로 구성됩니다.
 
-| 빌딩 블록(구성 요소) | 정의 |
+| 빌딩 블록 (구성 요소) | 정의 |
 |---|---|
 | [!UICONTROL 차원] | 차원은 프로젝트에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 숫자가 아닌 값 및 차원 항목으로 분류되는 날짜입니다. 예를 들어 &quot;browser&quot; 또는 &quot;page&quot;는 차원입니다. |
 | [!UICONTROL 차원 항목] | 차원 항목은 차원의 개별 값입니다. 예를 들어 브라우저 차원의 차원 항목은 &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; 등이 됩니다. |
 | [!UICONTROL 지표] | 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다. |
 | [!UICONTROL 시각화] | 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 [다양한 시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다. |
 | [!UICONTROL 차원 분류] | 차원 분류는 차원을 다른 차원으로 문자 그대로 분류하는 방법입니다. 이 예에서는 미국 주를 모바일 장치별로 분류하여 주별 모바일 장치 방문하거나 모바일 장치 유형별로, 지역별, 내부 캠페인 등으로 분류할 수 있습니다. |
-| [!UICONTROL 필터] | 필터를 사용하면 특성 또는 웹 사이트 상호 작용을 기반으로 방문자의 하위 집합을 식별할 수 있습니다. 예를 들어 속성을 기반으로 [!UICONTROL 방문자] 필터를 만들 수 있습니다.브라우저 유형, 장치, 방문 수, 국가, 성별 또는 상호 작용에 따른 상호 작용캠페인, 키워드 검색, 검색 엔진 또는 종료 및 항목 기반:Facebook의 방문자, 정의된 랜딩 페이지, 참조 도메인 또는 사용자 지정 변수를 기반으로 하는 방문자:양식 필드, 정의된 카테고리, 고객 ID. |
+| [!UICONTROL 필터] | 필터를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 방문자 하위 세트를 식별할 수 있습니다. 예를 들어 속성을 기반으로 [!UICONTROL 방문자] 필터를 작성할 수 있습니다.브라우저 유형, 장치, 방문 횟수, 국가, 성별 또는 상호 작용 기반:캠페인, 키워드 검색, 검색 엔진 또는 종료 및 항목 기반:facebook, 정의된 랜딩 페이지, 참조 도메인 또는 사용자 지정 변수를 기반으로 하는 방문자:양식 필드, 정의된 카테고리, 고객 ID입니다. |
 
 ## 빠른 인사이트 시작하기
 
 1. 제공된 자격 증명을 사용하여 Adobe Analytics에 로그인합니다.
-1. [!UICONTROL Workspace]로 이동하고 **[!UICONTROL 새 프로젝트  만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 빠른 인사이트]**&#x200B;를 클릭합니다. (왼쪽 레일의 **[!UICONTROL 패널]** 메뉴에서 이 패널에 액세스할 수도 있습니다.)
+1. [!UICONTROL Workspace]로 이동하고 **[!UICONTROL 새 프로젝트  만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 빠른 인사이트]**&#x200B;를 클릭합니다.  (왼쪽 레일의 **[!UICONTROL 패널]** 메뉴에서 이 패널에 액세스할 수도 있습니다.)
 
    ![](assets/qibuilder.png)
 
    ![](assets/qi-panel.png)
 
 1. 처음 시작할 때 [!UICONTROL 빠른 인사이트 패널]의 기본 사항을 설명하는 간단한 자습서를 살펴보십시오. 또는 **[!UICONTROL 자습서 건너뛰기]**&#x200B;를 클릭합니다.
-1. 구성 요소(구성 요소라고도 함)를 선택하십시오.차원(주황색), 지표(녹색), 필터(파란색) 또는 날짜 범위(자주색) 자동으로 만들어질 테이블에 대해 하나 이상의 차원 및 하나의 지표를 선택해야 합니다.
+1. 구성 요소라고도 하는 구성 요소를 선택합니다.차원(주황색), 지표(녹색), 필터(파란색) 또는 날짜 범위(자주색) 자동으로 만들어질 테이블에 대해 하나 이상의 차원 및 지표를 선택해야 합니다.
 
    ![](assets/qibuilder2.png)
 
@@ -69,14 +68,14 @@ ht-degree: 75%
 
 1. 하나 이상의 차원과 지표를 추가한 경우 다음을 생성합니다.
 
-   * 세로 차원(미국 주)과 맨 위에 가로로 지표(방문)가 있는 자유 형식 테이블입니다. 다음 표를 확인하십시오.
+   * 세로 차원 (미국 주)과 맨 위에 가로로 지표 (방문)가 있는 자유 형식 테이블입니다. 다음 표를 확인하십시오.
 
    ![](assets/qibuilder3.png)
 
-   * 함께 제공되는 시각화(이 경우 [막대 차트](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/개월당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: [!UICONTROL 장치]당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
+   * 함께 제공되는 시각화 (이 경우 [막대 차트](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터 (예: 일/개월당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터 (예: [!UICONTROL 장치]당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
 
-1. (선택 사항) 차원 옆에 있는 > 오른쪽 화살표를 클릭하여 차원을 드릴다운하고 차원 항목을 살펴봅니다.
+1.  (선택 사항) 차원 옆에 있는 > 오른쪽 화살표를 클릭하여 차원을 드릴다운하고 차원 항목을 살펴봅니다.
 
 1. 아래의 &quot;추가 팁&quot;에 설명된 대로 세부 사항을 추가해 보십시오.
 
@@ -86,7 +85,7 @@ ht-degree: 75%
 
 다른 유용한 힌트는 [!UICONTROL 빠른 인사이트 빌더]에 표시되며, 일부는 마지막 작업에 따라 표시됩니다.
 
-* 먼저 **[!UICONTROL 추가 팁]** 자습서를 완료합니다. 도움말(?) ([!UICONTROL 빠른 인사이트] 타일 옆) 아이콘을 통해 액세스합니다. 이 자습서는 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여줍니다.
+* 먼저 **[!UICONTROL 추가 팁]** 자습서를 완료합니다. 도움말 (?)  ([!UICONTROL 빠른 인사이트] 타일 옆) 아이콘을 통해 액세스합니다. 이 자습서는 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여줍니다.
 
    ![](assets/qibuilder4.png)
 
@@ -98,7 +97,7 @@ ht-degree: 75%
 
    ![](assets/qibuilder6.png)
 
-* **필터 추가**:AND 또는 OR 연산자를 사용하여 최대 2개의 필터를 추가하여 표를 추가할 수 있습니다. 모바일 사용자 또는 단골 방문자를 추가할 때 표에 나타나는 상황을 살펴봅니다. 이러한 정보는 지표 위에 서로 나란히 표시됩니다. 모바일 사용자 및 단골 방문자를 추가한 경우 두 필터 모두에서 결과가 함께 표시되고 이 두 필터 모두 표에 있는 서로 맨 위에 스택됩니다.
+* **필터 추가**:AND 또는 OR 연산자를 사용하여 테이블을 추가하여 최대 2개의 필터를 추가할 수 있습니다. 모바일 사용자 또는 단골 방문자를 추가할 때 표에 나타나는 상황을 살펴봅니다. 이러한 정보는 지표 위에 서로 나란히 표시됩니다. 모바일 사용자 및 단골 방문자를 추가한 경우 두 필터의 결과를 함께 볼 수 있으며 표에서 서로 겹쳐 표시됩니다.
 
    ![](assets/qibuilder7.png)
 
