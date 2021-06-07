@@ -1,23 +1,22 @@
 ---
-description: 폴아웃 시각화는 방문자가 사전 정의된 페이지 시퀀스를 떠났다가(폴아웃됨) 계속 통과(폴스루)하는 위치를 보여줍니다.
+description: 폴아웃 시각화 는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다.
 title: 폴아웃 개요
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 88%
+source-wordcount: '243'
+ht-degree: 84%
 
 ---
 
 # 폴아웃 개요
 
-폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다.
+폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다.
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
 * 동일한 보고서에서 두 개의 서로 다른 필터를 나란히 비교할 수 있습니다.
-* 단계 절차(터치포인트) 드래그, 놓기 및 다시 정렬
+* 단계 절차 (터치포인트) 드래그, 놓기 및 다시 정렬
 * 서로 다른 차원 및 지표의 값을 혼합 및 대응
 * 차원이 여러 개인 폴아웃 보고서 작성
 * 폴아웃 직후 고객이 이동해 가는 위치 식별
@@ -28,9 +27,9 @@ ht-degree: 88%
 
 폴아웃 시각화는 다음 항목을 분석하는 데 유용합니다.
 
-* 사이트의 특정 프로세스를 통한 전환율(예: 구매 또는 등록 프로세스)
+* 사이트의 특정 프로세스를 통한 전환율 (예: 구매 또는 등록 프로세스)
 * 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
 
-[폴아웃 시각화 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  (4:15)
 
