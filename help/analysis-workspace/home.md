@@ -3,11 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 개요
 description: Analysis Workspace 기능 개요
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '466'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +36,7 @@ Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://e
 
 ## 새 프로젝트 만들기 {#new-project}
 
-튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
+튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
 
 ![](assets/create-new-project.png)
 
@@ -47,7 +46,7 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 구성 요소
 
-**구성** 요소는 차원, 지표, 필터 또는 날짜 범위를 말하며, 이 모든 항목을  **[!UICONTROL 자유 형식]** 탭에 결합하여 비즈니스 질문에 답할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/components/overview.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](/help/analysis-workspace/build-workspace-project/freeform-overview.md)할 수 있습니다.
+**구성 요소**&#x200B;는 차원, 지표, 필터 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/components/overview.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](/help/analysis-workspace/build-workspace-project/freeform-overview.md)할 수 있습니다.
 
 ![](assets/build-components.png)
 
@@ -65,4 +64,4 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)를 제공합니다.
+* Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)을 제공합니다.
