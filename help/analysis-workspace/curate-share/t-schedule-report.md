@@ -3,10 +3,9 @@ description: 이메일을 통해 Analysis Workspace 프로젝트를 보내거나
 keywords: Analysis Workspace
 title: 프로젝트 예약
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-translation-type: tm+mt
-source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신자에게 Analysis Workspace 프로젝트를 보낼 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
@@ -24,11 +23,11 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 이메일을 통해 파일을 수신자에게 즉시 보내려면
 
 1. **공유 > 지금 파일 보내기**&#x200B;를 클릭합니다.
-1. 파일 유형(CSV 또는 PDF)을 지정합니다.
-1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
+1. 파일 유형 (CSV 또는 PDF)을 지정합니다.
+1.  (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. **지금 보내기**&#x200B;를 클릭합니다.
-1. (선택 사항) 배달 일정을 지정하려면 **예약 옵션 표시**&#x200B;를 클릭합니다.
+1.  (선택 사항) 배달 일정을 지정하려면 **예약 옵션 표시**&#x200B;를 클릭합니다.
 
 ![지금 파일 보내기](assets/send-file-no-scheduling-options.JPG)
 
@@ -37,8 +36,8 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 이메일을 통해 되풀이되는 일정으로 수신자에게 파일을 보내려면
 
 1. **공유 > 일정에 따라 파일 보내기**&#x200B;를 클릭합니다.
-1. 파일 유형(CSV 또는 PDF)을 지정합니다.
-1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
+1. 파일 유형 (CSV 또는 PDF)을 지정합니다.
+1.  (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. 입력 시 시작 및 종료를 수정하여 일정이 전달될 범위를 지정합니다. 종료 날짜는 일정을 만들거나 수정한 날로부터 1년 이내여야 합니다.
 1. 배달 빈도를 지정합니다. 각 빈도에서는 다양한 사용자 지정을 사용할 수 있습니다.
