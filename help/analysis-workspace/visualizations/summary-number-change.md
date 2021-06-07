@@ -2,14 +2,13 @@
 description: 요약 번호 및 변경 시각화를 사용하여 프로젝트의 중요 데이터 포인트를 표시할 수 있습니다.
 title: 요약 번호 및 요약 변경 사항
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+exl-id: 8872fc58-0957-415d-9958-ce564612ce87
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
-
 
 # 요약 번호 및 요약 변경 사항
 
@@ -44,7 +43,7 @@ ht-degree: 100%
 
 ## 요약 변경 시각화 {#summary-change}
 
-요약 변경 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. 요약 변경의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) 옵션을 통해 제어할 수 있습니다.
+요약 변경 시각화를 사용하여 두 숫자 간의 델타 (변화량)를 표시합니다. 요약 변경의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) 옵션을 통해 제어할 수 있습니다.
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 
