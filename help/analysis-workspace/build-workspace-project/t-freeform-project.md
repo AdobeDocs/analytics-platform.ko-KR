@@ -1,29 +1,28 @@
 ---
-description: 프로젝트를 만들고 구성 요소(차원, 지표, 필터, 날짜 범위)를 자유 형식 패널에 추가합니다.
+description: 프로젝트를 만들고 구성 요소(차원, 지표, 필터 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
-title: 작업 공간 프로젝트 만들기
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+title: 작업 영역 프로젝트 만들기
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 86%
+source-wordcount: '666'
+ht-degree: 98%
 
 ---
 
 
-# 작업 공간 프로젝트 만들기
+# Workspace 프로젝트 만들기
 
-프로젝트를 만들고 구성 요소(차원, 지표, 필터, 날짜 범위)를 자유 형식 패널에 추가합니다.
+프로젝트를 만들고 구성 요소(차원, 지표, 필터 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 
-이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다.
+이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여 줍니다.
 
 ## 프로젝트를 만듭니다.
 
 1. 프로젝트를 생성하고 조정하는 사용자 권한을 지정합니다.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)).
+   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;를 클릭합니다.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 영역]**&#x200B;을 클릭합니다.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -45,7 +44,7 @@ ht-degree: 86%
    * 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭하거나,
    * 간단히 **[!UICONTROL Enter를 클릭합니다]**.
 
-   자유 형식 패널과 데이터 테이블 시각화를 보여주는 빈 프로젝트가 표시됩니다.
+   자유 형식 패널과 데이터 테이블 시각화를 보여 주는 빈 프로젝트가 표시됩니다.
 
    ![](assets/fa_project_new.png)
 
@@ -59,7 +58,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > 구성 요소</a> </td> 
-   <td colname="col2"> <p>프로젝트로 드래그할 수 있는 Dimension, 지표, 필터 및 날짜 범위. </p> </td> 
+   <td colname="col2"> <p>프로젝트로 드래그할 수 있는 차원, 지표, 필터 및 날짜 범위입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 시각화</a> </td> 
@@ -67,7 +66,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 자유 형식 패널 </a> </td> 
-   <td colname="col2"> <p>Analysis Workspace에서 상호 작용하는 캔버스 또는 작업 공간입니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace에서 상호 작용하는 캔버스 또는 작업 영역입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,9 +75,9 @@ ht-degree: 86%
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 (&quot;삽입&quot;) 수 있습니다.
 
-   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot;(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
+   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot; (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
    >[!NOTE]
    >
@@ -110,7 +109,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> 필터(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만 데이터 테이블에서 인라인 필터를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 필터 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 필터를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  >필터</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
@@ -127,9 +126,9 @@ ht-degree: 86%
 
 ![](assets/fa_full_panel.png)
 
-1. 단계. 
+1. 단계
 
-## 마우스 오른쪽 단추 클릭 메뉴를 사용하여 데이터 {#concept_8117C300F21843B99F4E1B9AB7B11B6F} 사용자 지정
+## 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 데이터 사용자 지정   {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 마우스 오른쪽 버튼 클릭 메뉴를 사용하면 마우스 오른쪽 버튼으로 클릭하는 테이블의 셀에 따라 다음 작업을 수행할 수 있습니다.
 
