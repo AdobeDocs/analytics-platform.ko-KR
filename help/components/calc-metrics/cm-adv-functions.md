@@ -1,20 +1,19 @@
 ---
 title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '2947'
 ht-degree: 100%
 
 ---
-
 
 # 참조 - 고급 함수
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->0(영)은 False를 의미하며, 다른 값은 True입니다.
+>0 (영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -49,7 +48,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## 근사 고유 개수(차원)
 
-선택한 차원에 대한 차원 항목의 근사 고유 개수를 반환합니다. 이 함수는 뚜렷한 수를 근사화하는 HyperLogLog(HLL) 메서드를 사용합니다.  값이 실제 값의 95%의 5% 내에 있음을 보장하도록 구성됩니다.
+선택한 차원에 대한 차원 항목의 근사 고유 개수를 반환합니다. 이 함수는 뚜렷한 수를 근사화하는 HyperLogLog (HLL) 메서드를 사용합니다.  값이 실제 값의 95%의 5% 내에 있음을 보장하도록 구성됩니다.
 
 ```
 Approximate Count Distinct (dimension)
@@ -61,7 +60,7 @@ Approximate Count Distinct (dimension)
 
 ## 사용 사례 예제
 
-근사 고유 개수(고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
+근사 고유 개수 (고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
 새로운 &#39;예상 고객&#39; 계산된 지표에 대한 정의:
 
@@ -73,17 +72,17 @@ Approximate Count Distinct (dimension)
 
 ## 고유 수 초과됨
 
-Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 [&quot;고유 수 초과&quot; 한도](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_uniques_high_numbers.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
+Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_uniques_high_numbers.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교
 
-근사 고유 개수()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count() 및 RowCount() 함수보다 향상되었습니다. 예를 들어 모바일 장치 유형 보고서에 사용된 고객 ID의 수입니다.
+근사 고유 개수 ()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count () 및 RowCount () 함수보다 향상되었습니다. 예를 들어 모바일 장치 유형 보고서에 사용된 고객 ID의 수입니다.
 
-Count() 및 RowCount()가 정확한 수인 반면 이 함수는 HLL 메서드를 사용하므로 Count() 및 RowCount()보다 정확성이 다소 떨어집니다.
+Count () 및 RowCount ()가 정확한 수인 반면 이 함수는 HLL 메서드를 사용하므로 Count () 및 RowCount ()보다 정확성이 다소 떨어집니다.
 
 ## 아크코사인(행)
 
-지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI( )를 곱하십시오.
+지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0 (영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI ( )를 곱하십시오.
 
 ```
 ACOS(metric)
@@ -91,11 +90,11 @@ ACOS(metric)
 
 | 인수 |  |
 |---|---|
-| *지표* | 원하는 각도의 코사인(-1 ~ 1 범위). |
+| *지표* | 원하는 각도의 코사인 (-1 ~ 1 범위). |
 
 ## 아크사인(행)
 
-숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI( )를 곱하십시오.
+숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI ( )를 곱하십시오.
 
 ```
 ASIN(metric) 
@@ -103,11 +102,11 @@ ASIN(metric)
 
 | 인수 |  |
 |---|---|
-| *지표* | 원하는 각도의 코사인(-1 ~ 1 범위). |
+| *지표* | 원하는 각도의 코사인 (-1 ~ 1 범위). |
 
 ## 아크탄젠트(행)
 
-숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI( )를 곱하십시오.
+숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI ( )를 곱하십시오.
 
 ```
 ATAN(metric)
@@ -115,11 +114,11 @@ ATAN(metric)
 
 | 인수 |  |
 |---|---|
-| *지표* | 원하는 각도의 코사인(-1 ~ 1 범위). |
+| *지표* | 원하는 각도의 코사인 (-1 ~ 1 범위). |
 
 ## 지수 회귀: 예측된 Y(행)
 
-를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 x-값(metric_X)이 주어지면 예측된 y-값(metric_Y)을 계산합니다.
+를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 x-값 (metric_X)이 주어지면 예측된 y-값 (metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -157,7 +156,7 @@ cdf_z( -3 ) ? 0.0013499
 
 ## 천정(행)
 
-주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $570으로 올림하십시오.
+주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING (*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $570으로 올림하십시오.
 
 ```
 CEILING(metric)
@@ -169,7 +168,7 @@ CEILING(metric)
 
 ## 코사인(행)
 
-주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
+주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
 
 ```
 COS(metric)
@@ -193,7 +192,7 @@ CBRT(metric)
 
 ## 누적
 
-마지막 N개 행(문자열 기반 필드의 해시 값을 사용하여 차원으로 순서가 정해진 대로)에 대한 x의 합을 반환합니다.
+마지막 N개 행 (문자열 기반 필드의 해시 값을 사용하여 차원으로 순서가 정해진 대로)에 대한 x의 합을 반환합니다.
 
 N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 지정되므로 날짜나 경로 길이와 같은 자연상의 순서가 있는 차원에만 유용합니다.
 
@@ -226,7 +225,7 @@ cumul(revenue)/cumul(visitor)
 
 ## 지수 회귀_ 상관 계수(테이블)
 
-다음 회귀방정식에 대한 두 지표 열(*metric_A*&#x200B;와 *metric_B*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
+다음 회귀방정식에 대한 두 지표 열 (*metric_A*&#x200B;와 *metric_B*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -239,7 +238,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## 지수 회귀: 절편(테이블)
 
-다음 식에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
+다음 식에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -252,7 +251,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## 지수 회귀: 기울기(테이블)
 
-다음 식에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
+다음 식에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -265,7 +264,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## 내림(행)
 
-주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 내림하십시오.
+주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR (*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 내림하십시오.
 
 ```
 FLOOR(metric)
@@ -330,8 +329,8 @@ IF(logical_test, [value_if_true], [value_if_false])
 | 인수 | 설명 |
 |---|---|
 | *logical_test* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
-| *[value_if_true]* | *logical_test* 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
-| *[value_if_false]* | *logical_test* 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| *[value_if_true]* | *logical_test* 인수가 TRUE로 평가되는 경우 반환할 값.  (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| *[value_if_false]* | *logical_test* 인수가 FALSE로 평가되는 경우 반환할 값.  (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
 ## 보다 작음
 
@@ -371,7 +370,7 @@ LOG10(metric)
 
 ## 로그 회귀: 상관 계수(테이블)
 
-회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다. 이것은 CORREL 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다. 이것은 CORREL 방정식을 사용하여 계산됩니다.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -384,7 +383,7 @@ CORREL.LOG(metric_X,metric_Y)
 
 ## 로그 회귀: 절편(테이블)
 
-회귀방정식 *에 대한 두 지표 열(* metric_X *와* metric_Y *) 간의 최소 제곱 회귀로서* b[!DNL Y = a ln(X) + b]를 반환합니다. 이것은 INTERCEPT 방정식을 사용하여 계산됩니다.
+회귀방정식 *에 대한 두 지표 열 (* metric_X *와* metric_Y *) 간의 최소 제곱 회귀로서* b[!DNL Y = a ln(X) + b]를 반환합니다. 이것은 INTERCEPT 방정식을 사용하여 계산됩니다.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -397,9 +396,9 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 예측된 Y(행)
 
-[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어지면 예측된 [!DNL y] 값(metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
+[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값 (metric_X)이 주어지면 예측된 [!DNL y] 값 (metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
 
-회귀 분석에서 이 함수는 회귀 방정식 [!DNL Y = a ln(X) + b]에 최적선을 계산하기 위해 로그를 사용하여 알려진 [!DNL x] 값(*metric_X*)이 주어질 때 예측된 [!DNL y] 값(*metric_Y*)을 계산합니다. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
+회귀 분석에서 이 함수는 회귀 방정식 [!DNL Y = a ln(X) + b]에 최적선을 계산하기 위해 로그를 사용하여 알려진 [!DNL x] 값 (*metric_X*)이 주어질 때 예측된 [!DNL y] 값 (*metric_Y*)을 계산합니다. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
@@ -412,7 +411,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 기울기(테이블)
 
-회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다. 이것은 SLOPE 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다. 이것은 SLOPE 방정식을 사용하여 계산됩니다.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -425,7 +424,7 @@ SLOPE.LOG(metric_A, metric_B)
 
 ## 자연 로그
 
-숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 *e*(2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다.
+숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 *e* (2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다.
 
 ```
 LN(metric)
@@ -447,7 +446,7 @@ NOT(logical)
 |---|---|
 | *논리적* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 값 또는 표현식. |
 
-NOT을 사용하기 위해서는 표현식(&lt;, >, =, &lt;> 등)이 0이나 1 값을 반환할지 여부를 알아야 합니다.
+NOT을 사용하기 위해서는 표현식 (&lt;, >, =, &lt;> 등)이 0이나 1 값을 반환할지 여부를 알아야 합니다.
 
 ## 같지 않음
 
@@ -459,7 +458,7 @@ NOT을 사용하기 위해서는 표현식(&lt;, >, =, &lt;> 등)이 0이나 1 �
 
 >[!NOTE]
 >
->0(영)은 False를 의미하며, 다른 값은 True입니다.
+>0 (영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -482,7 +481,7 @@ PI()
 
 ## 거듭제곱 회귀: 상관 계수(테이블)
 
-[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
+[!DNL Y = b*X]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -495,7 +494,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 거듭제곱 회귀: 절편(테이블)
 
-[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
+[!DNL Y = b*X]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -508,7 +507,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 거듭제곱 회귀: 예측된 Y(행)
 
-[!DNL Y = b*X]에 대해 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값([!DNL metric_X])이 주어지면 예측된 [!DNL y] 값([!DNL metric_Y])을 계산합니다.
+[!DNL Y = b*X]에 대해 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값 ([!DNL metric_X])이 주어지면 예측된 [!DNL y] 값 ([!DNL metric_Y])을 계산합니다.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -521,7 +520,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 거듭제곱 회귀: 기울기(테이블)
 
-[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
+[!DNL Y = b*X]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -534,7 +533,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## 이차 회귀: 상관 계수(테이블)
 
-[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -547,7 +546,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## 이차 회귀: 절편(테이블)
 
-[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -560,7 +559,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## 이차 회귀: 예측된 Y(행)
 
-[!DNL Y=(a*X+b)]****를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어질 때 예측된 [!DNL y] 값(metric_Y)을 계산합니다.
+[!DNL Y=(a*X+b)]****를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값 (metric_X)이 주어질 때 예측된 [!DNL y] 값 (metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -573,7 +572,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## 이차 회귀: 기울기(테이블)
 
-[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 metric_Y) 간의 기울기 *a*&#x200B;를 반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열 (*metric_X*&#x200B;와 metric_Y) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -586,7 +585,7 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 ## 역수 회귀: 상관 계수(테이블)
 
-*에 대한 두 지표 열(* metric_X)*와* metric_Y *) 간의 상관 계수* r[!DNL Y = a/X+b]을 반환합니다.
+*에 대한 두 지표 열 (* metric_X)*와* metric_Y *) 간의 상관 계수* r[!DNL Y = a/X+b]을 반환합니다.
 
 ```
 CORREL.RECIPROCAL(metric_X, metric_Y)
@@ -599,7 +598,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## 역수 회귀: 절편(테이블)
 
-[!DNL Y = a/X+b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
+[!DNL Y = a/X+b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -612,7 +611,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## 역수 회귀: 예측된 Y(행)
 
-[!DNL Y = a/X+b]를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어질 때 예측된 [!DNL y] 값(metric_Y)을 계산합니다.
+[!DNL Y = a/X+b]를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값 (metric_X)이 주어질 때 예측된 [!DNL y] 값 (metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -625,7 +624,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## 역수 회귀: 기울기(테이블)
 
-[!DNL Y = a/X+b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
+[!DNL Y = a/X+b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -638,7 +637,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 ## 사인(행)
 
-주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
+주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
 
 ```
 SIN(metric)
@@ -656,11 +655,11 @@ T 스코어에 대한 별칭, 즉, 표준 편차로 나눈 평균과의 편차
 
 t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니다.
 
-서명은 `t_test( x, n, m )`입니다. 이 식은 아래에서 `m*cdf_t(-abs(x),n)`을 호출합니다. (이것은 `m*cdf_z(-abs(x))`를 실행하는 z 테스트 함수와 유사합니다.)
+서명은 `t_test( x, n, m )`입니다. 이 식은 아래에서 `m*cdf_t(-abs(x),n)`을 호출합니다.  (이것은 `m*cdf_z(-abs(x))`를 실행하는 z 테스트 함수와 유사합니다.)
 
-여기서 `m`은 꼬리(tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다(전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
+여기서 `m`은 꼬리 (tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다 (전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
 
-`X`는 t-test 통계로 종종 지표를 기반으로 하는 공식(예: zscore)으로 표시되며 모든 행에서 평가됩니다.
+`X`는 t-test 통계로 종종 지표를 기반으로 하는 공식 (예: zscore)으로 표시되며 모든 행에서 평가됩니다.
 
 반환 값은 자유도 및 꼬리 수를 감안할 때 테스트 통계 x의 지각 확률입니다.
 
@@ -680,7 +679,7 @@ t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니�
 
 ## 탄젠트
 
-주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
+주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
 
 ```
 TAN (metric)
@@ -692,7 +691,7 @@ TAN (metric)
 
 ## Z 스코어(행)
 
-정규 분포를 기반으로 Z 스코어 또는 정규 점수를 반환합니다. Z 스코어는 평균에서 관찰값까지의 표준 편차의 수입니다. Z 스코어가 0(영)이면 스코어가 평균과 같음을 의미합니다. Z 스코어는 양수 또는 음수일 수 있으며, 이것은 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
+정규 분포를 기반으로 Z 스코어 또는 정규 점수를 반환합니다. Z 스코어는 평균에서 관찰값까지의 표준 편차의 수입니다. Z 스코어가 0 (영)이면 스코어가 평균과 같음을 의미합니다. Z 스코어는 양수 또는 음수일 수 있으며, 이것은 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
 
 Z 스코어에 대한 방정식은 다음과 같습니다.
 
@@ -702,9 +701,9 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 >[!NOTE]
 >
->[!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
+>[!DNL μ]  (mu)와[!DNL σ]  (sigma) 는 지표에서 자동으로 계산됩니다.
 
-Z 점수(지표)
+Z 점수 (지표)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -730,4 +729,3 @@ Z 스코어가 A인 n측 검증 Z 테스트를 수행합니다.
 >[!NOTE]
 >
 >값은 정상적으로 배분된다고 가정합니다.
-
