@@ -2,11 +2,10 @@
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜 센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/home.html)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)을 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
 
@@ -71,7 +70,7 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 2. Analysis Workspace에서 [벤](/help/analysis-workspace/visualizations/venn.md) 시각화를 작업 영역 캔버스로 드래그합니다.
 3. 새로 만든 필터 2개를 **[!UICONTROL 필터 추가]** 영역으로 드래그하고 사람 지표를 **[!UICONTROL 지표 추가]** 영역으로 드래그합니다.
 
-결과 벤 시각화는 웹 데이터와 콜 센터 데이터를 모두 포함하는 데이터 세트에 있는 사람 수를 보여줍니다. 겹치는 부분이 클수록 결합된 사람이 많습니다. 겹치지 않는 영역은 하나의 데이터 세트 또는 다른 데이터 세트에만 있는 사람을 나타냅니다.
+결과 벤 시각화는 웹 데이터와 콜 센터 데이터를 모두 포함하는 데이터 세트에 있는 사람 수를 보여 줍니다. 겹치는 부분이 클수록 결합된 사람이 많습니다. 겹치지 않는 영역은 하나의 데이터 세트 또는 다른 데이터 세트에만 있는 사람을 나타냅니다.
 
 ### 웹 페이지에 콜 센터 이벤트 특성 지정
 
@@ -82,7 +81,7 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 1. 지표 헤더 근처에 있는 톱니바퀴 아이콘을 클릭합니다. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 클릭합니다.
 1. 원하는 [속성 모델](/help/data-views/create-dataview.md)을 설정합니다.
 
-결과 보고서는 콜 센터 데이터의 상위 지표를 보여줍니다.<!-- Complement with donut visualization -->
+결과 보고서는 콜 센터 데이터의 상위 지표를 보여 줍니다.<!-- Complement with donut visualization -->
 
 <!-- ### Flow between web data and call center
 
