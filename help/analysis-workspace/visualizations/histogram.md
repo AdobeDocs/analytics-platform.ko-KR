@@ -2,10 +2,9 @@
 description: 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷).
 title: 히스토그램
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '421'
 ht-degree: 87%
 
 ---
@@ -14,9 +13,9 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
+히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다 (버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
 
 ## 히스토그램 작성 {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -32,20 +31,20 @@ ht-degree: 87%
 >
 > 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
 
-여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째(왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
+여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째 (왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
 
 ![](assets/histogram2.png)
 
 ## 고급 설정 {#section_09D774C584864D4CA6B5672DC2927477}
 
-히스토그램 설정을 조정하려면 오른쪽 상단의 설정(&quot;톱니바퀴&quot;) 아이콘을 클릭하십시오. 수정할 수 있는 설정은 다음과 같습니다. 
+히스토그램 설정을 조정하려면 오른쪽 상단의 설정 (&quot;톱니바퀴&quot;) 아이콘을 클릭하십시오. 수정할 수 있는 설정은 다음과 같습니다. 
 
 | 히스토그램 설정 | 설명 |
 |---|---|
-| 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨).  |
-| 지표 버킷 | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
+| 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다 (음수는 안 됨).  |
+| 지표 버킷 | 데이터 범위 (버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다.  |
-| 계산 방법 | [방문자](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html), [방문](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html) 또는 히트 유형 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
+| 계산 방법 | [방문자](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) 또는 히트 유형 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -60,8 +59,8 @@ ht-degree: 87%
 
 ![](assets/manage-data-source.png)
 
-표에 표시되는 미리 작성된 필터는 내부 필터이며 필터 선택기에 표시되지 않습니다. 필터 이름 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음 **[!UICONTROL 공개 만들기]**&#x200B;를 클릭하여 필터를 공개합니다.
+표에 표시되는 미리 빌드된 필터는 내부 필터이며 필터 선택기에 표시되지 않습니다. 필터 이름 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 필터를 공개로 만듭니다.
 
 ![](assets/prebuilt_segments.png)
 
-데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)로 이동하십시오. 
+데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)로 이동하십시오. 
