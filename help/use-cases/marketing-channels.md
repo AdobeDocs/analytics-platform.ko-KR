@@ -1,23 +1,22 @@
 ---
 title: Adobe Experience Platform에서의 마케팅 채널 차원 사용
 description: Analytics 데이터 커넥터를 사용하여 마케팅 채널 처리 규칙을 Adobe Experience Platform으로 가져옵니다.
-translation-type: ht
-source-git-commit: b5ed4c65877fa8e2de83810a3c4bd1a4048f5b31
-workflow-type: ht
-source-wordcount: '930'
-ht-degree: 100%
+exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 96%
 
 ---
 
-
 # Adobe Experience Platform에서의 마케팅 채널 차원 사용
 
-조직에서 [분석 데이터 커넥터](https://docs.adobe.com/content/help/ko-KR/experience-platform/sources/connectors/adobe-applications/analytics.html)를 사용하여 보고서 세트 데이터를 CJA로 가져오는 경우 CJA에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
+조직에서 [분석 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 사용하여 보고서 세트 데이터를 CJA로 가져오는 경우 CJA에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
 
 ## 전제 조건
 
-* 보고서 세트 데이터는 미리 [분석 데이터 커넥터](https://docs.adobe.com/content/help/ko-KR/experience-platform/sources/connectors/adobe-applications/analytics.html)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
-* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 기존 분석 구성 요소 안내서의 [마케팅 채널 처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/c-rules.html)을 참조하십시오.
+* 보고서 세트 데이터는 미리 [분석 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
+* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 기존 분석 구성 요소 안내서의 [마케팅 채널 처리 규칙](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
 
@@ -25,8 +24,8 @@ ht-degree: 100%
 
 1. 분석 데이터 커넥터 기반의 데이터 세트를 포함하는 [연결을 만듭니다](/help/connections/create-connection.md).
 2. 다음 차원을 포함하는 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
-   * **`channel.typeAtSource`**: [마케팅 채널](https://docs.adobe.com/content/help/ko-KR/analytics/components/dimensions/marketing-channel.html) 차원에 해당합니다.
-   * **`channel._id`**: [마케팅 채널 세부 사항](https://docs.adobe.com/content/help/ko-KR/analytics/components/dimensions/marketing-detail.html)에 해당합니다.
+   * **`channel.typeAtSource`**: [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=ko-KR) 차원에 해당합니다.
+   * **`channel._id`**: [마케팅 채널 세부 사항](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)에 해당합니다.
 3. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 첫 번째 및 마지막 터치 차원을 모두 사용하려면 각 마케팅 채널 차원을 구성 요소 영역으로 여러 번 드래그합니다. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 또한 Adobe에서는 Analysis Workspace에서 쉽게 사용할 수 있도록 각 차원에 표시 이름을 지정하도록 권장합니다.
 4. 데이터 보기를 만듭니다.
 
