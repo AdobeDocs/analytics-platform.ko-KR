@@ -2,14 +2,13 @@
 description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
 title: 지표
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 85%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
-
 
 # 지표
 
@@ -29,11 +28,11 @@ Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니�
 
 ![](assets/calc_metrics.png)
 
-[계산된 지표:구현 없는 지표](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
 
 ## 다양한 속성 모델과 지표 비교
 
-한 속성 모델을 빠르고 쉽게 다른 속성 모델과 비교하려면 지표를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택합니다.
+하나의 속성 모델을 다른 속성 모델과 빠르고 쉽게 비교하려면 지표를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
 
 ![속성 비교](assets/compare-attribution.png)
 
