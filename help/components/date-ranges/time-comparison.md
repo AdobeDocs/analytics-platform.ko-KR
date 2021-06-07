@@ -2,20 +2,19 @@
 description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 08113536-658f-486b-ac56-6c531240c3c2
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
-
 
 # 날짜 비교
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
@@ -42,7 +41,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    >[!NOTE]
    >
-   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
+   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일 (14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 결과 비교 모양은 다음과 같습니다.
 
@@ -50,7 +49,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    [퍼센트 변경] 열의 행은 음수 값인 경우 빨간색으로 표시되고 양수 값인 경우 녹색으로 표시됩니다.
 
-1. (선택 사항) 다른 작업 공간 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
+1.  (선택 사항) 다른 작업 공간 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
 
    ![](assets/compare-time-barchart.png)
 
@@ -72,7 +71,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    >[!NOTE]
    >
-   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
+   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일 (14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
@@ -86,13 +85,13 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 열 날짜를 같은 행의 시작으로 정렬 {#section_5085E200082048CB899C3F355062A733}
 
-모든 테이블에 새 설정을 사용하여 **[!UICONTROL 날짜를 각 열에서 동일한 행의 시작으로 정렬합니다(전체 테이블에 적용)]**. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
+모든 테이블에 새 설정을 사용하여 **[!UICONTROL 날짜를 각 열에서 동일한 행의 시작으로 정렬합니다 (전체 테이블에 적용)]**. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
 
 ![](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
->이 설정은 기존의 모든 프로젝트에 대해 **비활성화**(선택 취소됨)되고, 새로운 모든 프로젝트에 대해 **활성화**(선택됨)됩니다.
+>이 설정은 기존의 모든 프로젝트에 대해 **비활성화** (선택 취소됨)되고, 새로운 모든 프로젝트에 대해 **활성화** (선택됨)됩니다.
 
 예: 날짜를 맞추도록 선택한 경우 예를 들어, 2016년 10월과 9월 간에 월별 비교를 수행하는 경우 왼쪽 열이 10월 1일로 시작되고 오른쪽 열이 9월 1일로 시작됩니다.
 
@@ -103,4 +102,3 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
