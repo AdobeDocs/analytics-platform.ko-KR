@@ -1,20 +1,19 @@
 ---
 title: 참조 - 기본 함수
-description: '계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다. '
-translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+description: 계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다.
+exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1077'
 ht-degree: 100%
 
 ---
-
 
 # 참조 - 기본 함수
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 [계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.
 
@@ -42,7 +41,7 @@ ABS(metric)
 
 ## 열 최대값
 
-지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열들에서 단일 열(지표) 내에서 수직으로 평가됩니다.
+지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열들에서 단일 열 (지표) 내에서 수직으로 평가됩니다.
 
 ```
 MAXV(metric)
@@ -54,7 +53,7 @@ MAXV(metric)
 
 ## 열 최소값
 
-지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열들에서 단일 열(지표) 내에서 수직으로 평가됩니다.
+지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열들에서 단일 열 (지표) 내에서 수직으로 평가됩니다.
 
 ```
 MINV(metric)
@@ -66,7 +65,7 @@ MINV(metric)
 
 ## 열 합계
 
-열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해).
+열 내의 한 지표에 대한 모든 숫자 값을 추가합니다 (차원의 요소들에 대해).
 
 ```
 SUM(metric)
@@ -78,7 +77,7 @@ SUM(metric)
 
 ## 카운트(테이블)
 
-열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수).
+열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다 (한 차원 내에서 보고된 고유 요소의 수).
 
 ```
 COUNT(metric)
@@ -142,7 +141,7 @@ x를 y로 나눈 후 나머지를 반환합니다.
 x = floor(x/y) + modulo(x,y)
 ```
 
-반환 값의 부호는 입력과 같습니다(또는 영임).
+반환 값의 부호는 입력과 같습니다 (또는 영임).
 
 ```
 modulo(4,3) = 1 
@@ -185,7 +184,7 @@ PERCENTILE(metric,k)
 
 ## 사분위수(테이블)
 
-지표에 대한 값들의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다. MINV, MEDIAN 및 MAXV는 quart가 각각 0(영), 2 및 4일 때 동일한 값을 QUARTILE로 반환합니다.
+지표에 대한 값들의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다. MINV, MEDIAN 및 MAXV는 quart가 각각 0 (영), 2 및 4일 때 동일한 값을 QUARTILE로 반환합니다.
 
 ```
 QUARTILE(metric,quart)
@@ -210,11 +209,11 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-**quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수(25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수(50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수(75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
+**quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수 (25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수 (50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수 (75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
 
 ## 라운드
 
-주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 Round(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
+주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 Round (*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
 
 ```
 ROUND(metric)
@@ -314,7 +313,7 @@ VARIANCE(metric)
 
 3. 그 값을 총계에 더합니다.
 
-전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
+전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수 (열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
 
 예를 들어 3개 항목으로 된 열이 있습니다.
 
@@ -324,4 +323,4 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다.
+이 열의 평균은 2입니다. 열의 변량은  (1 - 2)² +  (2 - 2)² +  (3 - 2)²/3 = 2/3입니다.
