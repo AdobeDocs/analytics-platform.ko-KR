@@ -1,13 +1,12 @@
 ---
-description: 작업 공간에서 템플릿을 사용하여 사용자 정의 템플릿을 만들 수 있습니다.
+description: Workspace에서 템플릿을 사용하고 사용자 지정 템플릿을 만듭니다.
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 exl-id: 464032a1-6dae-4df5-b4db-b277788e88c2
-translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 95%
+source-wordcount: '709'
+ht-degree: 93%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
-* **빈 프로젝트(기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
+* **빈 프로젝트 (기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
-* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
+* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -34,11 +33,11 @@ ht-degree: 95%
 
    ![](assets/save_project_template.png)
 
-   프로젝트는 현재 프로젝트 이름 아래에 저장되며 프로젝트 이름 다음에 괄호를 사용한 단어 (템플릿)이 표시됩니다. 관리자는 템플릿을 편집하여 이 이름을 변경할 수 있습니다.
+   프로젝트는 현재 프로젝트 이름 아래에 저장되며 프로젝트 이름 다음에 괄호를 사용한 단어  (템플릿)이 표시됩니다. 관리자는 템플릿을 편집하여 이 이름을 변경할 수 있습니다.
 
    >[!NOTE]
    >
-   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.)
+   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다.  (태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.)
 
 ### 사용자 지정 템플릿에서 수행할 수 있는 작업
 
@@ -46,7 +45,7 @@ ht-degree: 95%
 
 | 작업 | 설명 |
 |--- |--- |
-| 템플릿 편집 | 관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다.  사용자 지정 템플릿을 편집하려면 다음을 수행하십시오.<ul><li>Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 템플릿 편집을 클릭합니다. 또는</li><li>Analytics에서 구성 요소 > 프로젝트로 이동한 다음 템플릿에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오.</li></ul>**참고:** 상황에 따라 템플릿을 편집한 후에는 저장과 다른 이름으로 저장, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다.<ul><li>**저장**: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다.</li><li>**다른 이름으로 저장**: 사용자의 변경 내용이 적용된 사용자 지정 템플릿의 사본을 만듭니다. (공유 > 프로젝트 공유 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.)</li></ul> |
+| 템플릿 편집 | 관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다.  사용자 지정 템플릿을 편집하려면 다음을 수행하십시오.<ul><li>Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 템플릿 편집을 클릭합니다. 또는</li><li>Analytics에서 구성 요소 > 프로젝트로 이동한 다음 템플릿에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오.</li></ul>**참고:** 상황에 따라 템플릿을 편집한 후에는 저장과 다른 이름으로 저장, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다.<ul><li>**저장**: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다.</li><li>**다른 이름으로 저장**: 사용자의 변경 내용이 적용된 사용자 지정 템플릿의 사본을 만듭니다.  (공유 > 프로젝트 공유 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.)</li></ul> |
 | 템플릿 검색 | 사용자 지정 템플릿 대화 상자에서 템플릿 검색을 클릭합니다. |
 | 템플릿 정렬 | 템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다.  사용자 지정 템플릿 대화 상자에서 정렬:을 클릭합니다. |
 | 템플릿에 태그 적용 | 템플릿을 열고 프로젝트 > 프로젝트 정보 및 설정으로 이동합니다. 태그 추가를 클릭합니다. |
@@ -55,9 +54,9 @@ ht-degree: 95%
 
 ## 표준 템플릿
 
-작업 공간을 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 지표는 사용자가 속한 세로로 그룹화되며 선택한 데이터 보기에 따라 다양한 차원, 필터, 지표 및 시각화로 채워집니다.
+작업 공간을 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 프로젝트들은 해당 프로젝트가 속해 있는 특성으로 그룹화되고 선택한 데이터 보기에 따라 서로 다른 차원, 필터, 지표 및 시각화로 사전에 채워지게 됩니다.
 
-이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다.
+이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정 (예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23960)
 
