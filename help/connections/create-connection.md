@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 96%
+source-wordcount: '2084'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 96%
 
 비디오 개요를 보려면 [여기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)를 클릭하십시오.
 
-CJA 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
+## 필요한 권한
+
+CJA(Customer Journey Analytics) 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
 
 Adobe Experience Platform:
 * 데이터 모델링:스키마 보기, 스키마 관리
@@ -41,7 +43,7 @@ Customer Journey Analytics
 
 1. 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.
 
-   Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)를 제공합니다. 샌드박스를 데이터 세트가 포함된 &quot;데이터 사일로&quot;로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다. 샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다.
+   Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 제공합니다. 샌드박스를 데이터 세트가 포함된 &quot;데이터 사일로&quot;로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다. 샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다.
 
    >[!IMPORTANT]
    >
@@ -50,6 +52,9 @@ Customer Journey Analytics
 1. [!UICONTROL Customer Journey Analytics]로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    (선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 **[!UICONTROL 데이터 세트 검색]** 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.)
+
+   CJA는 Experience Platform 데이터 세트를 기반으로 합니다. 플랫폼에서 지원되는 스키마 필드 유형을 사용할 수 있지만, 모든 필드 유형이 CJA에서 지원되지는 않습니다. 문자열 또는 숫자 이외의 스키마 필드 유형을 사용하여 CJA에 데이터 세트를 추가할 수 있지만 CJA에서는 해당 데이터를 표시할 수 없습니다. 또한 현재 조회 데이터 세트에는 문자열만 사용할 수 있습니다.
+데이터 세트를 연결에 추가한 후 데이터 보기에 추가할 필드를 찾고 있는 경우 데이터 세트의 모든 필드에 대해 기본 태그 [!UICONTROL 데이터 포함]을 사용할 수 있습니다. 이 태그는 데이터 세트에 데이터가 있는 스키마 필드만 포함되므로 데이터 보기를 보다 편리하게 관리할 수 있도록 해줍니다.
 
 ## 데이터 세트 구성
 
@@ -85,7 +90,7 @@ Customer Journey Analytics
 
 Customer Journey Analytics에서는 이제 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 -> 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
 
-ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
+ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
 
 ![](assets/idmap1.png)
 
@@ -118,7 +123,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
    | [!UICONTROL 데이터 세트] | 이 연결에 포함된 데이터 세트입니다. |
    | [!UICONTROL 오늘부터 이 연결에 있는 모든 새 데이터 세트를 자동으로 가져옵니다.] | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 [!UICONTROL 작업 영역]으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. |
    | [!UICONTROL 기존 데이터 모두 가져오기] | 이 옵션을 선택하고 연결을 저장하면 이 연결에 있는 모든 데이터 세트에 대한 [!DNL Experience Platform]의 기존(내역) 데이터를 모두 가져오거나 채웁니다. 이후에 여기에 저장된 연결에 추가된 새로운 데이터 세트에 대한 기존의 모든 이전 데이터도 자동으로 가져옵니다. 아래의 [내역 데이터 채우기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)도 참조하십시오.<br>**이 연결이 저장되면 이 설정을 변경할 수 없습니다.** |
-   | [!UICONTROL 일일 평균 이벤트 수] | 연결에 있는 모든 데이터 세트에 대해 가져올 일일 이벤트(새 데이터 **및** 데이터 채우기)의 평균 수를 지정해야 합니다. 드롭다운 메뉴에서 옵션 하나를 선택합니다. 이렇게 하면 Adobe에서 이 데이터에 충분한 공간을 할당할 수 있습니다.<br>회사에서 가져오는 평균 일별 이벤트 수를 모를 경우, [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)에서 간단한 SQL 쿼리를 수행하여 확인할 수 있습니다.<br>아래의 &quot;평균 일일 이벤트 수 계산&quot;을 참조하십시오. |
+   | [!UICONTROL 일일 평균 이벤트 수] | 연결에 있는 모든 데이터 세트에 대해 가져올 일일 이벤트(새 데이터 **및** 데이터 채우기)의 평균 수를 지정해야 합니다. 드롭다운 메뉴에서 옵션 하나를 선택합니다. 이렇게 하면 Adobe에서 이 데이터에 충분한 공간을 할당할 수 있습니다.<br>회사에서 가져오는 평균 일별 이벤트 수를 모를 경우, [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)에서 간단한 SQL 쿼리를 수행하여 확인할 수 있습니다.<br>아래의 &quot;평균 일일 이벤트 수 계산&quot;을 참조하십시오. |
 
 1. **[!UICONTROL 데이터 보기 저장 및 만들기]**&#x200B;를 클릭합니다. 설명서는 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 
