@@ -3,16 +3,16 @@ description: Analysis Workspace에서 데이터를 시각적으로 나타냅니�
 keywords: Analysis Workspace
 title: 시각화 개요
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1052'
 ht-degree: 93%
 
 ---
 
 # 시각화 개요
 
-작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. Adobe Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
+작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. Customer Journey Analytics을 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
 Workspace의 왼쪽 상단 아이콘, [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md), 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
 
@@ -75,7 +75,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-다음은 이 항목의 [비디오에 대한 링크](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)입니다.
+다음은 이 항목의 [비디오에 대한 링크](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=ko-KR)입니다.
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
