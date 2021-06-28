@@ -2,10 +2,10 @@
 title: 속성 개요
 description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 분석하는 개념입니다.
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
 2. 다음날 친구 중 한 사람의 소셜 미디어 게시물을 보고 링크를 클릭한 다음 구매를 완료합니다.
 
-일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe와 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 계정 관리자에게 문의하십시오.
+일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다.
 
 ## 속성 IQ 값
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 ![속성 IQ 문제](assets/attribution_iq_problem.png)
 
-Adobe Analytics는 다음을 통해 속성을 강화합니다.
+Customer Journey Analytics은 다음을 통해 속성을 강화합니다.
 
 * 유료 미디어 이외의 속성 정의: 차원, 지표, 채널 또는 이벤트는 마케팅 캠페인뿐 아니라 모델 (예: 내부 검색)에 적용할 수 있습니다.
 * 무제한 속성 모델 비교를 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
