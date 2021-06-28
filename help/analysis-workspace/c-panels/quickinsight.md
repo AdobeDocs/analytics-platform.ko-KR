@@ -2,10 +2,10 @@
 description: 빠른 인사이트는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 74%
+source-wordcount: '1098'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=kr)
 
 [!UICONTROL Quick Insights]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한, 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
@@ -49,7 +49,7 @@ ht-degree: 74%
 
 ## 빠른 인사이트 시작하기
 
-1. 제공된 자격 증명을 사용하여 Adobe Analytics에 로그인합니다.
+1. 제공된 자격 증명을 사용하여 Customer Journey Analytics에 로그인합니다.
 1. [!UICONTROL Workspace]로 이동하고 **[!UICONTROL 새 프로젝트  만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 빠른 인사이트]**&#x200B;를 클릭합니다.  (왼쪽 레일의 **[!UICONTROL 패널]** 메뉴에서 이 패널에 액세스할 수도 있습니다.)
 
    ![](assets/qibuilder.png)
