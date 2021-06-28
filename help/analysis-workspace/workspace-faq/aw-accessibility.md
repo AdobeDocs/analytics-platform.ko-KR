@@ -2,16 +2,16 @@
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 98%
+source-wordcount: '656'
+ht-degree: 96%
 
 ---
 
 # Analysis Workspace 액세스 가능 여부
 
-Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접근성 지원에 대해 알아보십시오.
+Customer Journey Analytics을 위한 최고의 분석 도구인 [!UICONTROL Analysis Workspace]의 접근성 지원에 대해 알아보십시오.
 
 접근성은 제품이 시각, 청각, 인지, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 접근성 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
 
@@ -68,7 +68,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 필터 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키(패널 필터 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko) 만들기 |
+| Shift 키(패널 필터 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) 만들기 |
 
 #### 민주화
 
