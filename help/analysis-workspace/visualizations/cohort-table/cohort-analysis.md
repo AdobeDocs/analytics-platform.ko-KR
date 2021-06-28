@@ -2,16 +2,16 @@
 title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 83%
+source-wordcount: '468'
+ht-degree: 75%
 
 ---
 
 # [!UICONTROL 집단 분석]이란?
 
-*`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다.  ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다.  ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://en.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
 집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 필터)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 
@@ -23,9 +23,9 @@ ht-degree: 83%
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 * 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
-[!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
+[!UICONTROL 집단 ] 분석은  [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객에 대해 사용할 수 있습니다.
 
-[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  (4:36)
+[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR)  (4:36)
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ ht-degree: 83%
 
 ### [!UICONTROL 사용자 지정 차원 집단]
 
-기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅·채널],·[!UICONTROL 캠페인],·[!UICONTROL 제품],·[!UICONTROL 페이지],·[!UICONTROL 영역]·또는·Adobe·Analytics의·다른·차원과·같은·차원을·사용하여·차원의·다양한·값을·기준으로·유지·변경·방법을·보여·줍니다.￼
+기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅 채널], [!UICONTROL 캠페인], [!UICONTROL 제품], [!UICONTROL 페이지], [!UICONTROL 지역] 또는 Customer Journey Analytics의 다른 차원과 같은 차원을 사용하여 이러한 차원의 다른 값을 기반으로 보존이 어떻게 변경되는지를 보여 줍니다.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
