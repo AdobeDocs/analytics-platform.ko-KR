@@ -2,9 +2,9 @@
 title: Customer Journey Analytics에서 기본 분석 수행
 description: Customer Journey Analytics에서 기본 시각화를 사용하여 데이터를 분석하는 방법을 설명합니다.
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 85%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 * 시간에 따라 두 데이터 소스를 비교하는 온라인 매출과 매장 내 매출에 대한 트렌드 보고서를 만듭니다.
 
-* 광고 노출 데이터, Adobe Analytics 데이터, 이메일 데이터, POS 데이터, 콜 센터 데이터 및 설문 조사 데이터와 같은 데이터 소스별 대상 크기를 나타냅니다.
+* 광고 노출 데이터, Customer Journey Analytics 데이터, 이메일 데이터, POS 데이터, 콜 센터 데이터 및 설문 조사 데이터와 같은 데이터 소스별 대상 크기를 나타냅니다.
 
 ![](assets/cja-basic-analysis.png)
 
