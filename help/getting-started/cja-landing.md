@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 안내서
 description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '331'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> FAQ</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>릴리스 정보</b> </p> 
     <ul> 
-     <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 정보</a>를 참조하십시오. </li> 
+     <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR" format="https" scope="external">Experience Cloud 릴리스 정보</a>를 참조하십시오. </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 리소스</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/kr/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
