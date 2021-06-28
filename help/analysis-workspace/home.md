@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 개요
 description: Analysis Workspace 기능 개요
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '461'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Adobe Analytics에 로그인합니다 {#login}
+## 로그인 Customer Journey Analytics {#login}
 
-Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Adobe Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
+Analysis Workspace을 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Customer Journey Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
 
 ![](assets/login-analytics.png)
 
@@ -36,7 +36,7 @@ Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://e
 
 ## 새 프로젝트 만들기 {#new-project}
 
-튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
+튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Customer Journey Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](/help/mobile-app/curator.md)에서 시작하도록 선택할 수 있습니다.
 
 ![](assets/create-new-project.png)
 
@@ -64,4 +64,4 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)을 제공합니다.
+* Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
