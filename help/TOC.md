@@ -10,10 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+source-git-commit: 03be6a7a62d0ce43cd89657ecf828aa6e8fa03ee
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 95%
 
 ---
@@ -27,10 +26,11 @@ ht-degree: 95%
    + [시작하기](getting-started/cja-getting-started.md)
    + [FAQ](getting-started/cja-faq.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
+   + [삭제 의미](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
-   + [연결 관리](connections/manage-connection.md)
+   + [연결 관리](connections/manage-connections.md)
    + [연결 크기 예상](connections/estimate-connection-size.md)
    + [결합된 이벤트 데이터 세트](connections/combined-dataset.md)
    + 크로스 채널 분석 {#cca}
@@ -74,7 +74,7 @@ ht-degree: 95%
          + [폴아웃 분석에서 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 흐름 {#flow}
          + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
-         + [흐름 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
@@ -91,7 +91,7 @@ ht-degree: 95%
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [기여도 분석 패널](analysis-workspace/c-panels/attribution.md)
+      + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
@@ -103,7 +103,7 @@ ht-degree: 95%
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
-   + 속성 IQ {#attribution}
+   + Attribution IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
@@ -129,7 +129,7 @@ ht-degree: 95%
       + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
       + [차원 시간 분할](components/dimensions/time-parting-dimensions.md)
-      + [추기경이 매우 높은 Dimension](components/dimensions/high-cardinality.md)
+      + [카디널리티가 매우 높은 Dimension](components/dimensions/high-cardinality.md)
    + [지표](components/apply-create-metrics.md)
    + 필터 {#cja-filters}
       + [필터 개요](components/filters/filters-overview.md)
@@ -150,14 +150,14 @@ ht-degree: 95%
       + [날짜 비교](components/date-ranges/time-comparison.md)
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
-   + [ 개체 배열 사용 ](use-cases/object-arrays.md)
+   + [개체 배열 사용](use-cases/object-arrays.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [콜 센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
-   + [Adobe Experience Platform에 Google Analytics 데이터 인제스트](use-cases/ga-to-cja.md)
-   + [CJA의 Google Analytics 데이터에 대한 보고서](use-cases/ga-to-cja-reporting.md)
+   + [Adobe Experience Platform에 Google Analytics 데이터 수집](use-cases/ga-to-cja.md)
+   + [CJA의 Google Analytics 데이터 보고서](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)
