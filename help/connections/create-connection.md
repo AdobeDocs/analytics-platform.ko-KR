@@ -2,10 +2,10 @@
 title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
+source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 91%
+source-wordcount: '1980'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 91%
 
 비디오 개요를 보려면 [여기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)를 클릭하십시오.
 
-## 필요한 권한
+## 필수 권한
 
-CJA(Customer Journey Analytics) 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
+CJA 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
 
 Adobe Experience Platform:
 * 데이터 모델링:스키마 보기, 스키마 관리
@@ -33,7 +33,9 @@ Customer Journey Analytics
 
 ## 샌드박스 및 데이터 세트 선택
 
-1. [https://analytics.adobe.com](https://analytics.adobe.com)으로 이동합니다.
+1. [https://analytics.adobe.com](https://analytics.adobe.com)로 이동하여 Adobe ID으로 로그인합니다.
+
+1. [!DNL Customer Journey Analytics] 아이콘을 클릭합니다.
 
 1. **[!UICONTROL 연결]** 탭을 클릭합니다.
 
@@ -53,10 +55,7 @@ Customer Journey Analytics
 
    (선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 **[!UICONTROL 데이터 세트 검색]** 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.)
 
-   CJA는 Experience Platform 데이터 세트를 기반으로 합니다. 플랫폼에서 지원되는 스키마 필드 유형을 사용할 수 있지만, 모든 필드 유형이 CJA에서 지원되지는 않습니다. 문자열 또는 숫자 이외의 스키마 필드 유형을 사용하여 CJA에 데이터 세트를 추가할 수 있지만 CJA에서는 해당 데이터를 표시할 수 없습니다. 또한 현재 조회 데이터 세트에는 문자열만 사용할 수 있습니다.
-데이터 세트를 연결에 추가한 후 데이터 보기에 추가할 필드를 찾고 있는 경우 데이터 세트의 모든 필드에 대해 기본 태그 [!UICONTROL 데이터 포함]을 사용할 수 있습니다. 이 태그는 데이터 세트에 데이터가 있는 스키마 필드만 포함되므로 데이터 보기를 보다 편리하게 관리할 수 있도록 해줍니다.
-
-## 데이터 세트 구성
+## 2. 데이터 집합 구성
 
 오른쪽에서는 추가한 데이터 세트를 구성할 수 있습니다.
 
@@ -76,7 +75,7 @@ Customer Journey Analytics
 
 1. **[!UICONTROL 타임스탬프]**: 이벤트 데이터 세트의 경우에만 이 설정이 [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다.
 
-1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)입니다.
+1. **[!UICONTROL 스키마]**: Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)입니다.
 
 1. **[!UICONTROL 개인 ID]**: 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.
 
@@ -90,7 +89,7 @@ Customer Journey Analytics
 
 Customer Journey Analytics에서는 이제 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 -> 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
 
-ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
+ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
 
 ![](assets/idmap1.png)
 
