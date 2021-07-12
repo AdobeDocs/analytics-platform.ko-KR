@@ -2,9 +2,9 @@
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장, 이전 버전 열기 등 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
