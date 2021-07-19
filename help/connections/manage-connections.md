@@ -2,7 +2,7 @@
 title: 연결 관리
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
-source-git-commit: ec76734f270666d13db28fd60ffdf62c04e378bf
+source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 8%
@@ -18,7 +18,7 @@ ht-degree: 8%
 * 이 옵션을 사용하면 잘못된 구성으로 인해 **데이터 불일치를 식별할 수 있습니다**. 행이 누락되었습니까? yes인 경우 누락된 행과 그 이유는 무엇입니까? 연결 구성 및 CJA에 누락된 데이터가 발생했습니까?
 
 >[!NOTE]
-> 이 기능은 일반적으로 2021년 8월 19일에 제공됩니다.
+> 이 기능은 일반적으로 2021년 8월 10일에 제공됩니다.
 
 ## 연결 관리자 {#connections-manager}
 
