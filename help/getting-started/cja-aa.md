@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: bc0e722ad33f818a6d580305301a869af2fff385
+source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 95%
+source-wordcount: '1086'
+ht-degree: 93%
 
 ---
 
@@ -32,12 +32,13 @@ ht-degree: 95%
 | 프로젝트 큐레이션 | 전체 지원 |
 | 프로젝트 연결 | 전체 지원 |
 | 보고서 처리 시간 | CJA는 보고서 처리 시간에만 사용합니다. |
-| 보고 API 액세스 | 이제 [CJA API](https://www.adobe.io/cja-apis/docs/)을(를) 사용하여 사용할 수 있습니다. |
+| 보고 API 액세스 | 이제 [CJA API](https://www.adobe.io/cja-apis/docs/)를 사용하여 사용할 수 있습니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 이제 &quot;필터&quot;라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
 | 사용자 권한/데이터 액세스 제어 | CJA는 Adobe Admin Console 제품 관리자와 사용자를 구별합니다. 제품 관리자만 1) 연결 또는 데이터 보기 생성/업데이트/삭제하고, 2) 다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제하고, 3) Analysis Workspace 프로젝트를 모든 사용자에게 공유할 수 있습니다 |
 | 가상 보고서 세트 | 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | VRS 구성 요소 큐레이션 | 이제 데이터 보기의 일부입니다. |
+| A4T | 지원은 [Analytics 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)의 필드를 통해 제공됩니다. |
 
 ## 경고가 지원됨
 
@@ -49,7 +50,7 @@ ht-degree: 95%
 | 디바이스, 브라우저, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. |
 | 시작, 종료, 체류 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함)이제 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라, 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
-| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
+| 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko#cja-usecases)를 참조하십시오. |
 | 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
@@ -62,7 +63,7 @@ ht-degree: 95%
 | Media Analytics | 미디어 데이터는 Analytics Data Connector의 일부로 사용할 수 있습니다. |
 | 머천다이징 eVars | 머천다이징 eVar가 지속성을 사용하도록 설정되지 않은 경우 개체 배열 내의 차원을 사용하여 머천다이징 eVar의 동작을 달성할 수 있습니다. 현재 머천다이징 차원 지속성을 사용할 수 없습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
-| 처리 규칙 | Analytics Data Connector 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) 을 Platform으로 바로 연결되는 데이터의 처리 규칙을 대체할 수도 있습니다. |
+| 처리 규칙 | Analytics Data Connector 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) 준비 기능은 Platform으로 직접 이동하는 데이터의 처리 규칙을 대체용으로 사용할 수도 있습니다. |
 
 ## 현재는 지원되지 않지만, 지원 예정
 
@@ -85,7 +86,6 @@ ht-degree: 95%
 
 | 기능 | 참고 |
 | --- | --- |
-| A4T | 지원이 아직 예정되지 않음 |
 | Activity Map | 지원이 아직 예정되지 않음 |
 | Advertising Cloud | 지원이 아직 예정되지 않음 |
 | 분류 규칙 빌더 | 지원이 아직 예정되지 않음 |
