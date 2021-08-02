@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: a2e8f8a48078bfe247645b4ca57e10bf4f4e3fab
+source-git-commit: f6ec268d3820a7bcbcc84521e486c26e8ea9329b
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 95%
+source-wordcount: '449'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
-   + [FAQ](getting-started/cja-faq.md)
+   + [자주 묻는 질문](getting-started/cja-faq.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
    + [삭제 의미](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
@@ -95,7 +95,7 @@ ht-degree: 95%
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
-   + 프로젝트 조정 및 공유 {#curate-share}
+   + 프로젝트 조정, 공유 및 예약 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
