@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics 개인 정보 보호 개요
-description: Customer Journey Analytics에서 개인 정보 보호 설정이 작동하는 방식을 설명합니다.
-translation-type: tm+mt
-source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
-workflow-type: tm+mt
+title: Customer Journey Analytics 개인정보 보호 개요
+description: Customer Journey Analytics에서 개인정보 보호 설정이 작동하는 방식을 설명합니다.
+exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
+translation-type: ht
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
 
+# Customer Journey Analytics 개인정보 보호 개요
 
-# Customer Journey Analytics 개인 정보 보호 개요
-
-일반적으로 Customer Journey Analytics의 개인 정보 보호 관련 설정은 Adobe Experience Platform에서 상속됩니다.
+일반적으로 Customer Journey Analytics의 개인정보 보호 관련 설정은 Adobe Experience Platform에서 상속됩니다.
 
 ## GDPR
 
@@ -20,6 +20,6 @@ Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central S
 
 ## CCPA
 
-CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 위해 개인 정보 보호 권한 및 소비자 보호를 개선합니다. 이 조례는 2020년 1월 1일부터 시행됩니다.
-CCPA는 개인 데이터의 판매 및 공개 여부(및 공개된 대상)를 인지하고, 개인 데이터 판매를 거부하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인 정보 보호 권한을 캘리포니아주 거주자에게 제공합니다.
-CCPA에 따라 개인 정보 보호 서비스는 개인 데이터 판매를 거부하는 요청을 지원합니다.
+CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 위해 개인정보 보호 권한 및 소비자 보호를 개선합니다. 이 조례는 2020년 1월 1일부터 시행됩니다.
+CCPA는 개인 데이터의 판매 및 공개 여부(및 공개된 대상)를 인지하고, 개인 데이터 판매를 거부하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인정보 보호 권한을 캘리포니아주 거주자에게 제공합니다.
+CCPA에 따라 개인정보 보호 서비스는 개인 데이터 판매를 거부하는 요청을 지원합니다.
