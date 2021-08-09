@@ -1,14 +1,14 @@
 ---
 title: 연결 크기 예상
 description: 현재 Customer Journey Analytics 사용 현황 보고
+exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 translation-type: ht
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
 workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # 연결 크기 예상
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
    ![데이터 세트](assets/dataset.png)
 
-1. 이름 옆에 있는 파란색(i) 아이콘(정보)을 클릭합니다. 데이터 세트에 3.8k 행/이벤트가 있음을 알 수 있습니다. 또한 정확한 개수의 행을 보려면 미리 보기 테이블 아래 **[!UICONTROL Experience Platform에서 편집]**&#x200B;을 클릭합니다. 이렇게 하면 [!UICONTROL Adobe Experience Platform]의 데이터 세트로 리디렉션됩니다.
+1. 이름 옆에 있는 파란색(i) 아이콘(정보)을 클릭합니다. 데이터 세트에 3.8k 행/이벤트가 있음을 알 수 있습니다. 또한 정확한 개수의 행을 보려면 미리보기 테이블 아래 **[!UICONTROL Experience Platform에서 편집]**&#x200B;을 클릭합니다. 이렇게 하면 [!UICONTROL Adobe Experience Platform]의 데이터 세트로 리디렉션됩니다.
 
    ![AEP 데이터 세트 정보](assets/data-size.png)
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 1. 연결을 저장하면 필터 없이 동일한 연결의 데이터 보기를 만듭니다.
 1. Analysis Workspace 프로젝트를 만들고 올바른 데이터 보기를 선택합니다. 자유 형식 테이블을 만들고 **[!UICONTROL 연도]** 차원으로 **[!UICONTROL 이벤트]** 지표를 드래그하여 놓습니다. 날짜 선택 달력에서 데이터 범위를 충분히 확장하여 연결에 있는 모든 데이터를 캡슐화합니다. 이렇게 하면 [!UICONTROL Customer Journey Analytics]에 수집되는 이벤트 수를 볼 수 있습니다.
 
-   ![작업 공간 프로젝트](assets/event-number.png)
+   ![작업 영역 프로젝트](assets/event-number.png)
 
    >[!NOTE]
    >
