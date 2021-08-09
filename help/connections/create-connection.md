@@ -20,9 +20,9 @@ ht-degree: 95%
 CJA 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
 
 Adobe Experience Platform:
-* 데이터 모델링:스키마 보기, 스키마 관리
-* 데이터 관리:데이터 세트 보기, 데이터 세트 관리
-* 데이터 수집:소스 관리
+* 데이터 모델링: 스키마 보기, 스키마 관리
+* 데이터 관리: 데이터 세트 보기, 데이터 세트 관리
+* 데이터 수집: 소스 관리
 
 Customer Journey Analytics
 * 제품 관리자 액세스
