@@ -59,12 +59,12 @@ ht-degree: 42%
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
-a.[!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
-나.[!UICONTROL 통화]에서 USD를 선택합니다.
+a. [!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
+나. [!UICONTROL 통화]에서 USD를 선택합니다.
 c. [!UICONTROL 값 포함/제외]에서 [!UICONTROL 포함/제외 값 설정] 옆에 있는 확인란을 선택합니다.
-d.[!UICONTROL Match]에서 [!UICONTROL 모든 기준이 충족되는 경우]을 선택합니다.
-e.[!UICONTROL 기준]에서 [!UICONTROL 이]보다 크거나 같음 을 선택합니다.
-f.값으로 &quot;50&quot;을 지정합니다.
+d. [!UICONTROL Match]에서 [!UICONTROL 모든 기준이 충족되는 경우]을 선택합니다.
+e. [!UICONTROL 기준]에서 [!UICONTROL 이]보다 크거나 같음 을 선택합니다.
+f. 값으로 &quot;50&quot;을 지정합니다.
 
 이러한 새 설정을 사용하면 고부가가치 수익만 보고 $50 미만의 수입을 필터링할 수 있습니다.
 
