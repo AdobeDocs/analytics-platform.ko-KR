@@ -5,7 +5,7 @@ exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## 합계 표시 설정
 
-**[!UICONTROL 열 설정]** 아래에는 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총계 표시]** 선택 사항이 있습니다. 이러한 설정을 선택 취소하면 표에서 합계가 제거됩니다. 예를 들어 특정 [계산된 지표 시나리오](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)에서 합계가 적절하지 않은 경우 이 선택 사항이 필요할 수 있습니다.
+**[!UICONTROL 열 설정]** 아래에는 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총계 표시]** 선택 사항이 있습니다. 이러한 설정을 선택 취소하면 표에서 합계가 제거됩니다. 예를 들어 특정 [계산된 지표 시나리오](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ko-KR)에서 합계가 적절하지 않은 경우 이 선택 사항이 필요할 수 있습니다.
 
 ![](assets/column-settings-total.png)
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 | 질문 | 답변 |
 |---|---|
 | 회색 열 비율은 어느 &#39;합계&#39;를 기반으로 합니까? | 이는 **[!UICONTROL 행 설정]**&#x200B;의 **[!UICONTROL 백분율]** 설정 선택 사항에 따라 달라집니다.<ul><li>열별 백분율 계산 - 기본 설정입니다. 백분율이 테이블 합계를 기반으로 합니다.</li><li>행별 백분율 계산 - 백분율이 총계를 기반으로 합니다.</li></ul> |
-| **[!UICONTROL 지정되지 않음 (없음) 포함]** 설정은 합계에 어떤 영향을 줍니까? | **[!UICONTROL 지정되지 않음 (없음) 포함]** 설정이 선택 취소되면 없음/지정되지 않음 행이 테이블, 테이블 합계에서 제거되고, [&#39;합계&#39; 지표 유형](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html)을 사용하는 임의의 계산된 지표로 전달됩니다. |
+| **[!UICONTROL 지정되지 않음 (없음) 포함]** 설정은 합계에 어떤 영향을 줍니까? | **[!UICONTROL 지정되지 않음 (없음) 포함]** 설정이 선택 취소되면 없음/지정되지 않음 행이 테이블, 테이블 합계에서 제거되고, [&#39;합계&#39; 지표 유형](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html?lang=ko-KR)을 사용하는 임의의 계산된 지표로 전달됩니다. |
 | 사용자 지정 테이블 필터가 자유 형식 테이블에 적용되는 경우 모든 계산된 지표 및 조건부 서식이 필터를 처리합니까? | 현재 처리하지 않습니다. **[!UICONTROL 지정되지 않음 (없음) 포함]**&#x200B;은 처리되지만 사용자 지정 테이블 필터는 다음 항목에 영향을 주지 않습니다.<ul><li>조건부 서식에서 사용하는 열 최대/최소 범위는 모든 데이터에 적용됩니다.</li><li>**[!UICONTROL 총계]** 지표 유형을 활용하는 계산된 지표.</li><li>자유 형식 테이블의 행들 간에 계산되는 열 합계, 열 최댓값, 열 최솟값, 카운트, 평균, 중간값, 백분위수, 사분위, 행 수, 표준 편차, 분산, 누적, 누적 평균, 회귀 변형, T 스코어, T 테스트, Z 스코어, Z 테스트와 같은 함수를 사용하는 계산된 지표.</li></ul> |
 | 계산된 지표에서 **[!UICONTROL 총계]** 지표 유형은 무엇을 반영합니까? | **[!UICONTROL 총계]**&#x200B;는 **[!UICONTROL 총계]**&#x200B;를 계속 지칭하며 테이블이나 **[!UICONTROL 테이블 총계]**&#x200B;에 적용된 필터를 반영하지 않습니다. |
 | 데이터를 자유 형식 테이블에서 복사하여 붙여넣거나 CSV를 통해 다운로드할 때에는 어떤 합계가 표시됩니까? | 합계 행은 **[!UICONTROL 테이블 총계]**&#x200B;만 반영하며 **[!UICONTROL 합계 표시]** 열 설정을 준수합니다. |
