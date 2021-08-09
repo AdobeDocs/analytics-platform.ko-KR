@@ -14,7 +14,7 @@ ht-degree: 7%
 
 이 사용 사례에서는 Google Analytics 데이터를 데이터 세트로 Adobe Experience Platform에 수집하는 방법에 중점을 둡니다. 이전 데이터와 라이브 데이터를 모두 수집하는 방법을 설명합니다. 이렇게 하면 Customer Journey Analytics에 두 데이터 세트를 모두 결합하여 사용자 여정의 교차 장치 보기를 수행할 수 있습니다.
 
-Experience Platform의 데이터 세트는 다음 두 가지 사항으로 구성됩니다.스키마 및 데이터 집합에 있는 실제 레코드. 스키마(이것을 Experience Data Model 또는 XDM이라고 함)는 데이터 세트의 열과 유사하며 데이터 자체를 설명하는 블루프린트 또는 규칙과 같습니다. 플랫폼 내에서 Adobe은 다음 두 가지 유형의 스키마를 제공합니다.
+Experience Platform의 데이터 세트는 다음 두 가지 항목으로 구성됩니다. 스키마 및 데이터 집합에 있는 실제 레코드. 스키마(이것을 Experience Data Model 또는 XDM이라고 함)는 데이터 세트의 열과 유사하며 데이터 자체를 설명하는 블루프린트 또는 규칙과 같습니다. 플랫폼 내에서 Adobe은 다음 두 가지 유형의 스키마를 제공합니다.
 
 * Google Analytics 데이터를 자동으로(Experience Event 스키마라고 함)에 매핑할 수 있는 기본 스키마
 * Google Analytics 데이터를 만들고 쉽게 매핑할 수 있는 사용자 지정 스키마
