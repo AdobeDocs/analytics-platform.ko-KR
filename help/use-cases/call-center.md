@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜 센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)을 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
 
