@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 
 [XDM 스키마에 CSV 파일 매핑](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) 방법에 대한 지침은 CSV 파일을 사용하는 경우 도움이 됩니다.
 
-[기타 방법](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)도 제공되고 있습니다.
+[기타 방법](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)도 제공되고 있습니다.
 
 데이터를 온보딩하고 조회를 설정하는 데 조회 테이블의 크기에 따라 약 2~4시간이 소요됩니다.
 
