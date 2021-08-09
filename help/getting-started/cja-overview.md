@@ -26,7 +26,7 @@ Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포�
 
 ## CJA와 교차 디바이스 분석 비교
 
-[교차 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
+[교차 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html?lang=ko-KR)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
 반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
