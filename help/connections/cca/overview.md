@@ -5,7 +5,7 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 94%
 
 조직에서 모든 사전 요구 사항을 충족하고 제한 사항을 이해하면 다음 단계에 따라 CJA에서 사용할 수 있습니다.
 
-1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)을 참조하십시오.
+1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)을 참조하십시오.
 1. 다음을 포함한 Adobe 계정 관리자에게 문의하십시오.
    * 크로스 채널 분석 활성화 요청
    * 다시 입력할 데이터 세트에 대한 데이터 세트 ID
