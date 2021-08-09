@@ -2,7 +2,6 @@
 title: 결합된 이벤트 데이터 세트
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-translation-type: tm+mt
 source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '326'
@@ -74,4 +73,4 @@ ht-degree: 100%
 | --- | --- |
 | 노란색 | 6 |
 | 파란색 | 1 |
-| 빨간색 | 2 |
+| 빨간색 | 2개 |
