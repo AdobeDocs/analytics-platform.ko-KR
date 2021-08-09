@@ -1,14 +1,14 @@
 ---
 description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
+exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 translation-type: ht
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
 workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL 열 설정]
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 | 배경 | 막대그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다. |
 | 막대그래프 | 열에 대한 합계와 상대적인 셀 값을 나타내는 수평 막대그래프를 표시합니다. |
 | 조건부 서식 | 아래 섹션을 참조하십시오. |
-| 테이블 셀 미리 보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리 보기를 표시합니다. |
+| 테이블 셀 미리보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리보기를 표시합니다. |
 
 ## 조건부 서식 {#conditional-formatting}
 
