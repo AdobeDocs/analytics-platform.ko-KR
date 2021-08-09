@@ -1,16 +1,16 @@
 ---
-title: '개체 배열 사용 '
+title: 개체 배열 사용
 description: CJA가 데이터 계층에 관해 보고하는 방법을 이해합니다.
+exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 translation-type: ht
-source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
 workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
 ---
 
-
-# 개체 배열 사용 
+# 개체 배열 사용
 
 일부 플랫폼 스키마에 개체 배열이 있을 수 있습니다. 가장 일반적인 예 중 하나는 여러 제품이 포함된 장바구니입니다. 각 제품에는 이름, SKU, 카테고리, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 패싯에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 ### 동일한 히트 예(보고 동작)
 
-위의 히트만 사용한 다음 표에는 몇 가지 차원과 지표 조합이 있는 작업 공간 보고서가 나와 있습니다.
+위의 히트만 사용한 다음 표에는 몇 가지 차원과 지표 조합이 있는 작업 영역 보고서가 나와 있습니다.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
