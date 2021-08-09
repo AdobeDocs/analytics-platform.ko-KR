@@ -5,7 +5,7 @@ title: 작업 영역 프로젝트 만들기
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 1. 프로젝트를 생성하고 조정하는 사용자 권한을 지정합니다.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
+   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR)).
 
 1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 영역]**&#x200B;을 클릭합니다.
 
    ![](assets/analysis_workspace_menu.png)
 
-   또는, 슬래시(/)를 입력하여 보고서 검색 막대를 연 다음, *`workspace`*&#x200B;를 입력합니다.
+   또는 슬래시(/)를 입력하여 보고서 검색 막대를 연 다음 *`workspace`*&#x200B;를 입력합니다.
 
    ![](assets/analysis-app-search.png)
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 (&quot;삽입&quot;) 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 (&quot;삽입&quot;) 수 있습니다.
 
    이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot; (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 ## 구성 요소 및 시각화 추가 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. *`components`* 및 *`visualizations`*&#x200B;를 프로젝트에 드래그하여 프로젝트를 작성합니다.
+1. *`components`* 및 *`visualizations`* 를 프로젝트에 드래그하여 프로젝트를 작성합니다.
 
    **구성 요소**
 
@@ -101,11 +101,11 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> 차원(주황색) </td> 
-   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar# 및 event#가 차원 이름에 추가되고 해당 숫자를 검색할 수 있습니다. 예: 왼쪽 레일에 "내부 캠페인"이 "내부 캠페인(evar2)"으로 표시됩니다. </p> <p> 표에 prop, eVar 및 이벤트 번호가 표시되지 않습니다(제목을 짧게 유지하기 위해). </p> <p>일부 특별 차원을 자유 형식 테이블에 드래그하거나 왼쪽 레일에서 볼 때 이 차원들을 위한 기본 정렬 순서가 있습니다. 예를 들어, "시간"을 테이블에 놓거나 왼쪽 레일에서 보면, 오전 12시부터 오후 11시까지 정렬됩니다. 지표 열을 기준으로 정렬할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar# 및 event#가 차원 이름에 추가되고 해당 숫자를 검색할 수 있습니다. 예: 왼쪽 레일에 "내부 캠페인"이 "내부 캠페인(evar2)"으로 표시됩니다. </p> <p> 표에 prop, eVar 및 이벤트 번호가 표시되지 않습니다(제목을 짧게 유지하기 위해). </p> <p>일부 특별 차원을 자유 형식 테이블에 드래그하거나 왼쪽 레일에서 볼 때 이 차원들을 위한 기본 정렬 순서가 있습니다. 예를 들어, "시간"을 테이블에 놓거나 왼쪽 레일에서 보면 오전 12시부터 오후 11시까지 정렬됩니다. 지표 열을 기준으로 정렬할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 지표(녹색) </td> 
-   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 발생 횟수</span>는 데이터 테이블용 기본 지표입니다. </p> </td> 
+   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 발생 횟수</span> 는 데이터 테이블용 기본 지표입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 필터(파란색) </td> 
@@ -199,4 +199,4 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-행 복사 및 선택에 대한 자세한 내용은 [Analysis Workspace에서 사용할 수 있는 키보드 및 마우스 상호 작용](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)을 참조하십시오.
+행 복사 및 선택에 대한 자세한 내용은 [Analysis Workspace에서 사용할 수 있는 키보드 및 마우스 상호 작용](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) 을 참조하십시오.
