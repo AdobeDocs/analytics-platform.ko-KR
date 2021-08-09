@@ -21,7 +21,7 @@ ht-degree: 90%
 
 1. 아직 수행하지 않았다면 [데이터 레이어를 만듭니다](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html). 데이터 계층은 구현에 사용된 모든 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크로서, 구현을 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
 1. 아직 수행하지 않았다면 데이터 수집을 위해 사이트에서 코드를 구현하도록 [DTM](https://experienceleague.adobe.com/docs/analytics/implementation/other/dtm/dtm-implementation-overview.html)을 사용합니다. Dynamic Tag Management는 여러 소스의 데이터를 푸시하는 단일 데이터 계층을 제공합니다.
-1. Adobe Experience Platform에서 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 만듭니다. 이 소스 커넥터는 Analytics 데이터를 [XDM(Experience Data Model) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)이라는 표준화된 프레임워크에서 Experience Platform에 수집합니다.
+1. Adobe Experience Platform에서 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 만듭니다. 이 소스 커넥터는 Analytics 데이터를 [XDM(Experience Data Model) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)이라는 표준화된 프레임워크에서 Experience Platform에 수집합니다.
 1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
 
 ### Launch를 통해
