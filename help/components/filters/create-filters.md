@@ -3,7 +3,7 @@ title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
