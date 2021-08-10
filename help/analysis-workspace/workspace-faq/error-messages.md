@@ -3,7 +3,7 @@ description: Adobe Analysis Workspace 및 관련 구성 요소의 오류 메시�
 title: Analysis Workspace의 일반 오류 메시지
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
