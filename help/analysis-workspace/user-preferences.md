@@ -3,7 +3,7 @@ title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
 ht-degree: 100%
 
