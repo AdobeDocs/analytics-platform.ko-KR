@@ -2,10 +2,10 @@
 title: Customer Journey Analytics의 데이터 수집 옵션
 description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다양한 방법 이해
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 90%
+source-wordcount: '939'
+ht-degree: 89%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 90%
 
 ## Adobe Experience Platform Web SDK 및 Edge 네트워크를 통해 데이터 수집
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR)는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
 
-1. [Lanch에서 AEP Web SDK 확장을 구성](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)하여 Adobe Experience Platform Edge를 통해 웹 속성에서 Adobe Experience Cloud로 데이터를 전송합니다.
+1. [Lanch에서 AEP Web SDK 확장을 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)하여 Adobe Experience Platform Edge를 통해 웹 속성에서 Adobe Experience Cloud로 데이터를 전송합니다.
 1. 채널 간 보고를 알리는 하나 이상의 연결 및 데이터 보기를 만들려면[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
 
 ## 일괄 처리 수집 및 스트리밍 수집을 통한 데이터 수집
