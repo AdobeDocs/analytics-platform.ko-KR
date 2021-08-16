@@ -2,10 +2,10 @@
 title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 100%
+source-wordcount: '2944'
+ht-degree: 99%
 
 ---
 
@@ -72,11 +72,11 @@ Approximate Count Distinct (dimension)
 
 ## 고유 수 초과됨
 
-Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_uniques_high_numbers.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
+Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교
 
-근사 고유 개수 ()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count () 및 RowCount () 함수보다 향상되었습니다. 예를 들어 모바일 장치 유형 보고서에 사용된 고객 ID의 수입니다.
+근사 고유 개수 ()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count () 및 RowCount () 함수보다 향상되었습니다. 예를 들어 모바일 디바이스 유형 보고서에 사용된 고객 ID의 수입니다.
 
 Count () 및 RowCount ()가 정확한 수인 반면 이 함수는 HLL 메서드를 사용하므로 Count () 및 RowCount ()보다 정확성이 다소 떨어집니다.
 
@@ -329,8 +329,8 @@ IF(logical_test, [value_if_true], [value_if_false])
 | 인수 | 설명 |
 |---|---|
 | *logical_test* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
-| *[value_if_true]* | *logical_test* 인수가 TRUE로 평가되는 경우 반환할 값.  (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
-| *[value_if_false]* | *logical_test* 인수가 FALSE로 평가되는 경우 반환할 값.  (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| *[value_if_true]* | *logical_test* 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| *[value_if_false]* | *logical_test* 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
 ## 보다 작음
 
@@ -370,7 +370,7 @@ LOG10(metric)
 
 ## 로그 회귀: 상관 계수(테이블)
 
-회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다. 이것은 CORREL 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다. 이는 CORREL 방정식을 사용하여 계산됩니다.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -383,7 +383,7 @@ CORREL.LOG(metric_X,metric_Y)
 
 ## 로그 회귀: 절편(테이블)
 
-회귀방정식 *에 대한 두 지표 열 (* metric_X *와* metric_Y *) 간의 최소 제곱 회귀로서* b[!DNL Y = a ln(X) + b]를 반환합니다. 이것은 INTERCEPT 방정식을 사용하여 계산됩니다.
+회귀방정식 *에 대한 두 지표 열 (* metric_X *와* metric_Y *) 간의 최소 제곱 회귀로서* b[!DNL Y = a ln(X) + b]를 반환합니다. 이는 INTERCEPT 방정식을 사용하여 계산됩니다.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -396,7 +396,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 예측된 Y(행)
 
-[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값 (metric_X)이 주어지면 예측된 [!DNL y] 값 (metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
+[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값 (metric_X)이 주어지면 예측된 [!DNL y] 값 (metric_Y)을 계산합니다. 이는 ESTIMATE 방정식을 사용하여 계산됩니다.
 
 회귀 분석에서 이 함수는 회귀 방정식 [!DNL Y = a ln(X) + b]에 최적선을 계산하기 위해 로그를 사용하여 알려진 [!DNL x] 값 (*metric_X*)이 주어질 때 예측된 [!DNL y] 값 (*metric_Y*)을 계산합니다. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
 
@@ -411,7 +411,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 기울기(테이블)
 
-회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다. 이것은 SLOPE 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열 (*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다. 이는 SLOPE 방정식을 사용하여 계산됩니다.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -655,9 +655,9 @@ T 스코어에 대한 별칭, 즉, 표준 편차로 나눈 평균과의 편차
 
 t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니다.
 
-서명은 `t_test( x, n, m )`입니다. 이 식은 아래에서 `m*cdf_t(-abs(x),n)`을 호출합니다.  (이것은 `m*cdf_z(-abs(x))`를 실행하는 z 테스트 함수와 유사합니다.)
+서명은 `t_test( x, n, m )`입니다. 이 식은 아래에서 `m*cdf_t(-abs(x),n)`을 호출합니다. (이는 `m*cdf_z(-abs(x))`를 실행하는 z 테스트 함수와 유사합니다.)
 
-여기서 `m`은 꼬리 (tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다 (전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
+여기서 `m`은 꼬리 (tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다(전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
 
 `X`는 t-test 통계로 종종 지표를 기반으로 하는 공식 (예: zscore)으로 표시되며 모든 행에서 평가됩니다.
 
@@ -691,7 +691,7 @@ TAN (metric)
 
 ## Z 스코어(행)
 
-정규 분포를 기반으로 Z 스코어 또는 정규 점수를 반환합니다. Z 스코어는 평균에서 관찰값까지의 표준 편차의 수입니다. Z 스코어가 0 (영)이면 스코어가 평균과 같음을 의미합니다. Z 스코어는 양수 또는 음수일 수 있으며, 이것은 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
+정규 분포를 기반으로 Z 스코어 또는 정규 점수를 반환합니다. Z 스코어는 평균에서 관찰값까지의 표준 편차의 수입니다. Z 스코어가 0 (영)이면 스코어가 평균과 같음을 의미합니다. Z 스코어는 양수 또는 음수일 수 있으며, 이는 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
 
 Z 스코어에 대한 방정식은 다음과 같습니다.
 
