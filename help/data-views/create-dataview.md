@@ -2,10 +2,10 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
+source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
 workflow-type: tm+mt
-source-wordcount: '2974'
-ht-degree: 87%
+source-wordcount: '3024'
+ht-degree: 85%
 
 ---
 
@@ -125,6 +125,7 @@ ht-degree: 87%
 | --- | --- |
 | [!UICONTROL 값 계산] | 부울 지표의 경우에만 이 설정을 사용하여 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. 주문 값이 50인 경우 &quot;50&quot;과 같이 지표의 실제 값을 제공합니다. |
 | [!UICONTROL 인스턴스 계산] | 지표로 사용되는 숫자 또는 날짜 유형 필드가 값 자체보다 설정된 시간을 계산해야 하는지 여부를 지정할 수 있습니다.<br> 숫자 필드의 인스턴스를 더하고 싶고 내부의 실제 값이 아닌 필드가 *설정된* 횟수를 더하고 싶은 경우.<br>예를 들어, [!UICONTROL 매출] 필드에서 [!UICONTROL 주문] 지표를 생성하는 경우 유용합니다. 매출이 설정된 경우 숫자 매출액이 아닌 1개의 단일 주문을 계산합니다. |
+| [!UICONTROL 소문자] | *새로운*  - &quot;문자열&quot; 유형 차원의 경우. 이 설정을 사용하면 Customer Journey Analytics이 차원 값을 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이 옵션을 통해 동일한 값이지만 대소문자를 달리하는 행의 중복 제거를 수행할 수 있습니다. 이 스크린샷은 Workspace:<br>![대/소문자 구분 차원](assets/case-sens-workspace.png)에 있는 대/소문자 구분 차원의 예를 보여줍니다. |
 
 ### [!UICONTROL 값 옵션 없음] 설정 구성
 
