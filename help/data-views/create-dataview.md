@@ -2,10 +2,10 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
+source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
-source-wordcount: '3054'
-ht-degree: 82%
+source-wordcount: '3069'
+ht-degree: 81%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 82%
 | --- | --- |
 | [!UICONTROL 값 계산] | 부울 지표의 경우에만 이 설정을 사용하여 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. 주문 값이 50인 경우 &quot;50&quot;과 같이 지표의 실제 값을 제공합니다. |
 | [!UICONTROL 인스턴스 계산] | 지표로 사용되는 숫자 또는 날짜 유형 필드가 값 자체보다 설정된 시간을 계산해야 하는지 여부를 지정할 수 있습니다.<br> 숫자 필드의 인스턴스를 더하고 싶고 내부의 실제 값이 아닌 필드가 *설정된* 횟수를 더하고 싶은 경우.<br>예를 들어, [!UICONTROL 매출] 필드에서 [!UICONTROL 주문] 지표를 생성하는 경우 유용합니다. 매출이 설정된 경우 숫자 매출액이 아닌 1개의 단일 주문을 계산합니다. |
-| [!UICONTROL 소문자] | *새로운*  - &quot;문자열&quot; 유형 차원의 경우. 이 설정을 사용하면 Customer Journey Analytics이 차원 값을 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이 옵션을 통해 동일한 값이지만 대소문자를 달리하는 행의 중복 제거를 수행할 수 있습니다. **[!UICONTROL 소문자]**&#x200B;를 선택하면 값이 동일한 차원의 모든 인스턴스가 소문자로 보고됩니다. 이 스크린샷은 [!UICONTROL Lower case]을 선택하지 **않고**&#x200B;을 수행하면 발생하는 내용을 보여줍니다. &quot;리버풀&quot;, &quot;리버풀&quot; 및 &quot;리버풀&quot;이 보고서에서 세 개의 개별 라인 항목을 만드는 방법을 확인합니다.<br>![대/소문자 구분 차원](assets/case-sens-workspace.png) |
+| [!UICONTROL 소문자] | *새로운*  - &quot;문자열&quot; 유형 차원의 경우. 이 설정을 사용하면 Customer Journey Analytics이 차원 값을 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이 옵션을 통해 동일한 값이지만 대소문자를 달리하는 행의 중복 제거를 수행할 수 있습니다. **[!UICONTROL 소문자]**&#x200B;를 선택하면 값이 동일한 차원의 모든 인스턴스가 소문자로 보고됩니다. 이 스크린샷은 **검사[!UICONTROL 소문자]를 선택하지 않고**&#x200B;확인란을 선택하지 않으면 발생하는 내용을 보여줍니다. **do** 선택 왼쪽 테이블에서 &quot;리버풀&quot;, &quot;리버풀&quot; 및 &quot;리버풀&quot;이 보고에서 3개의 개별 라인 항목을 만드는 방법을 확인합니다. 오른쪽 테이블에서 동일한 값이 중복 제거되어 하나의 라인 항목에 속합니다.<br>![대/소문자 구분 차원](assets/case-sens-workspace.png) |
 
 ### [!UICONTROL 값 옵션 없음] 설정 구성
 
@@ -151,7 +151,7 @@ ht-degree: 82%
 | 설정 | 설명/사용 사례 |
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 토글 키 |
-| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 기존 Analytics의 eVar과 유사한 값을 유지하려는 경우 여기서 값을 설정할 수 있습니다. 유일한 차이점은 설정할 수 있는 최대 지속성이 90일이라는 점입니다. 또한 [!UICONTROL 만료되지 않음]은 옵션이 아닙니다. |
+| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 값을 유지하려면 이 값을 설정해야 합니다. 설정할 수 있는 최대 지속성은 90일입니다. 또한 [!UICONTROL 만료되지 않음]은 옵션이 아닙니다. |
 | [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션](기본값), [!UICONTROL 개인], [!UICONTROL 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. [!UICONTROL 지표]를 사용하면 정의된 지표 중 하나를 이 차원의 만료([!UICONTROL 구매] 지표 등)로 지정할 수 있습니다.<br>**참고**:  [!UICONTROL 모두]의 할당을 선택하면 차원에 대한 사용자 지정 만료를 설정할 수 없습니다. |
 
 ### 값 버킷팅 설정 구성
