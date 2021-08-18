@@ -2,10 +2,10 @@
 title: 알고리즘 속성
 description: 알고리즘 속성 모델에 대한 세부 사항입니다.
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: 34a1e7cea518e39ee665470dc3e1087d728b654d
+source-git-commit: 3f893e5430eb4591939226e694f70064a90c7adb
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 86%
+source-wordcount: '298'
+ht-degree: 84%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 86%
 >[!NOTE]
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+
+다음은 알고리즘 속성의 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
 Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 속성 모델과 마찬가지로 모든 차원이나 지표에서 사용할 수 있으며 무제한 필터 및 분류를 지원하고 테이블의 차원에 대한 100% 전환(&quot;분수&quot; 속성)을 분배합니다.
 
@@ -24,6 +28,6 @@ Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기�
 * Shapley, Lloyd S.  (1953). A value for n-person games. *Contributions to the Theory of Games, 2 (28)*, 307-317.
 * Harsanyi, John C.  (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4 (2)*, 194-220.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >주어진 전환 창 내에 여러 접점이 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 접점을 사용하는 전환은 속성 모델에 상관없이 100% 크레딧을 받습니다.
