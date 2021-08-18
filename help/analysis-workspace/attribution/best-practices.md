@@ -1,10 +1,10 @@
 ---
 title: 속성 모범 사례
 description: 속성 모델을 결정하는 것과 관련된 우수 사례는 무엇입니까?
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 2%
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!NOTE]
 >속성 모델을 선택하기 전에 이 분석을 수행해야 합니다.
 
-이 단계는 처음에 고객 행동을 이해하고 전환 지표를 정의하는 것으로 구성됩니다. 전환 지표를 기반으로, [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en)(원시 데이터의 경우) 또는 Analysis Workspace과 같은 도구는 를 쉽게 이해할 수 있도록 합니다
+이 단계는 처음에 고객 행동을 이해하고 전환 지표를 정의하는 것으로 구성됩니다. 전환 지표를 기반으로, Analysis Workspace과 같은 도구 및 여러 채널에서 데이터 소스 가져오기(예: 노출 횟수 데이터)를 통해 사용자 이해를 도울 수 있습니다
 
 * 전환하기 전에 서로 다른 마케팅 채널을 터치하는 고객은 몇 명입니까?
 * 이러한 동작의 비율/분배입니다.
@@ -53,6 +53,3 @@ ht-degree: 2%
 ## 기타 고려 사항
 
 * Analysis Workspace에만 의존하지 않고 데이터 과학자 서비스를 사용해야 할 수도 있습니다.
-* Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 횟수 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용을 고려해 보십시오.
-
