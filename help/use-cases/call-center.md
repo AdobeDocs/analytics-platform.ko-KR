@@ -3,7 +3,7 @@ title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
 ht-degree: 100%
 
@@ -26,16 +26,16 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
    * 통화 기간
    * 통화 결과
    * 통화 비용(가능한 경우)
-   * 조직에서 포함할 추가 통화 메타 데이터
+   * 조직에서 포함할 추가 통화 메타데이터
 
 ## 웹 및 콜 센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
 
 * 콜 센터와 웹 데이터를 함께 연결하는 데 사용되는 식별자의 형식이 유사한지 확인합니다.
-* 각 데이터 세트에 데이터 소스를 포함합니다. 예를 들어, `data_source`각 스키마에 열을 포함하고 모든 이벤트의 값을 각각 `"Web"` 또는 `"Call center"`로 설정합니다.<!--mapper-->
+* 각 데이터 세트에 데이터 소스를 포함합니다. 예를 들어 `data_source`각 스키마에 열을 포함하고 모든 이벤트의 값을 각각 `"Web"` 또는 `"Call center"`로 설정합니다.<!--mapper-->
 
 ## 개인 ID 결합
 
