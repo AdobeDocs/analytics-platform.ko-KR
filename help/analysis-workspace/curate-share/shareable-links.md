@@ -4,9 +4,9 @@ keywords: Analysis Workspace 공유
 title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
