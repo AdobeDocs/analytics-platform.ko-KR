@@ -4,9 +4,9 @@ title: Analysis Workspace 개요
 description: Analysis Workspace 기능 개요
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## 로그인 Customer Journey Analytics {#login}
+## Customer Journey Analytics 로그인 {#login}
 
-Analysis Workspace을 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Customer Journey Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
+Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Customer Journey Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
 
 ![](assets/login-analytics.png)
 
