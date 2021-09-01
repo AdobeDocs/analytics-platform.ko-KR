@@ -3,7 +3,7 @@ description: Analysis Workspace의 페이지 매김, 테이블 필터링 및 정
 title: 테이블 페이지 매김, 필터링 및 정렬
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
