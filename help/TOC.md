@@ -12,8 +12,8 @@ breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 93%
+source-wordcount: '450'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 93%
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
-   + [자주 묻는 질문](getting-started/cja-faq.md)
+   + [FAQ](getting-started/cja-faq.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
-   + [삭제 의미](getting-started/cja-deletion.md)
+   + [삭제 영향](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
 + 연결 {#cja-connections}
    + [연결 만들기](connections/create-connection.md)
@@ -95,7 +95,7 @@ ht-degree: 93%
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
-   + 프로젝트 조정, 공유 및 예약 {#curate-share}
+   + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
@@ -130,7 +130,7 @@ ht-degree: 93%
       + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
       + [차원 시간 분할](components/dimensions/time-parting-dimensions.md)
-      + [카디널리티가 매우 높은 Dimension](components/dimensions/high-cardinality.md)
+      + [카디널리티가 매우 높은 차원](components/dimensions/high-cardinality.md)
    + [지표](components/apply-create-metrics.md)
    + 필터 {#cja-filters}
       + [필터 개요](components/filters/filters-overview.md)
@@ -149,7 +149,7 @@ ht-degree: 93%
       + [달력 개요](components/date-ranges/calendar.md)
       + [사용자 지정 날짜 범위 만들기](components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](components/date-ranges/time-comparison.md)
-+ 사용 사례 {#cja-usecases}
++ 활용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + [개체 배열 사용](use-cases/object-arrays.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
@@ -157,8 +157,8 @@ ht-degree: 93%
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
-   + [Adobe Experience Platform에 Google Analytics 데이터 수집](use-cases/ga-to-cja.md)
-   + [CJA의 Google Analytics 데이터 보고서](use-cases/ga-to-cja-reporting.md)
+   + [Google Analytics 데이터를 Adobe Experience Platform으로 수집](use-cases/ga-to-cja.md)
+   + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)

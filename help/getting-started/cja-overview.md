@@ -24,15 +24,15 @@ Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제
 
 Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](cja-aa.md)을 참조하십시오.
 
-## CJA와 교차 디바이스 분석 비교
+## CJA와 크로스 디바이스 분석 비교
 
-[교차 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
+[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
 반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
 ## 주요 사용 사례
 
-Customer Journey Analytics을 통해 다음을 수행할 수 있습니다.
+Customer Journey Analytics을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * **여정 컨텍스트에서 고객 보기**: 여러 채널에 걸쳐 데이터를 순차적으로 보고 분석할 수 있습니다. 콜 센터, POS 시스템 및 온라인 속성의 데이터를 하나의 보고 보기에 결합할 수 있습니다.
 * **모든 사람이 이용할 수 있는 인사이트 만들기**: 데이터 액세스 기능을 대중화하고 더 많은 사람들이 데이터를 기반으로 한 인사이트로 비즈니스 의사 결정을 내리도록 할 수 있습니다. 조직 내에서 고객 경험의 모든 측면에 대한 책임을 지는 사람은 보다 완전한 데이터를 기반으로 하여 보다 신속하게 실제 의사 결정을 내릴 수 있습니다.
