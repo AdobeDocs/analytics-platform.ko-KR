@@ -3,7 +3,7 @@ description: 작업 영역 합계를 계산하는 방법.
 title: 작업 영역 합계
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
