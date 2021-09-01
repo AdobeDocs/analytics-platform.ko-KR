@@ -3,9 +3,9 @@ title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
 description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가하는 방법 알아보기
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 계정 수준 정보를 [조회](/help/getting-started/cja-glossary.md) 데이터 세트로 가져와 이 모든 작업을 수행할 수 있습니다.
 
-먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 Customer Journey Analytics(사용자가 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 CJA0)에서 연결을 만듭니다. 그런 다음 데이터 보기를 만들고 최종적으로 작업 공간에서 이 모든 데이터를 활용할 수 있습니다.
+먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 Customer Journey Analytics(사용자가 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 CJA0)에서 연결을 만듭니다. 그런 다음 데이터 보기를 만들고 최종적으로 Workspace에서 이 모든 데이터를 활용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 ## 1. 조회 스키마 만들기(Experience Platform)
 
-[조회](/help/getting-started/cja-glossary.md) 테이블에 대한 자체 스키마를 만들면 사용되는 데이터 세트를 올바른 설정(레코드 유형)으로 CJA에서 사용할 수 있도록 합니다. 모범 사례는 &quot;조회&quot;라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
+[조회](/help/getting-started/cja-glossary.md) 테이블에 대한 자체 스키마를 만들면 사용되는 데이터 세트를 올바른 설정(레코드 유형)으로 CJA에서 사용할 수 있도록 합니다. 모범 사례는 &quot;조회&quot;라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
 
 ![](assets/create-new-class.png)
 
@@ -39,9 +39,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->CJA는 조회 데이터 세트의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA의 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
+>CJA는 조회 데이터 세트의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어 annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA의 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
 
-예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 정수로 정의되는데 그 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
+예를 들어 annualRevenue 또는 totalEmployees는 다음 예에서 정수로 정의되는데 그 이유는 CJA에서 &quot;0&quot;을 표시하는 것입니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 관리 > 데이터 세트]**&#x200B;로 이동합니다.
 1. **[!UICONTROL + 데이터 세트 만들기]**&#x200B;를 클릭합니다.
@@ -53,9 +53,9 @@ ht-degree: 96%
 
 ## 3. Experience Platform에 데이터 수집
 
-[XDM 스키마에 CSV 파일 매핑](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) 방법에 대한 지침은 CSV 파일을 사용하는 경우 도움이 됩니다.
+[XDM 스키마에 CSV 파일 매핑](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR) 방법에 대한 지침은 CSV 파일을 사용하는 경우 도움이 됩니다.
 
-[기타 방법](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)도 제공되고 있습니다.
+[기타 방법](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)도 제공되고 있습니다.
 
 데이터를 온보딩하고 조회를 설정하는 데 조회 테이블의 크기에 따라 약 2~4시간이 소요됩니다.
 
@@ -66,7 +66,7 @@ ht-degree: 96%
 | 데이터 세트 이름 | 설명 | AEP 스키마 클래스 | 데이터 세트 세부 정보 |
 | --- | --- | --- | --- |
 | B2B 노출 | 계정 수준에서 클릭스트림, 이벤트 수준 데이터를 포함합니다. 예를 들어 마케팅 광고를 실행하기 위한 이메일 ID 및 해당 계정 ID와 마케팅 이름이 포함되어 있습니다. 또한 사용자당 해당 광고에 대한 노출 횟수도 포함됩니다. | XDM ExperienceEvent 스키마 클래스 기반 | `emailID`는 기본 ID로 사용되고 `Customer ID` 네임스페이스가 할당됩니다. 그 결과 Customer Journey Analytics에서 기본값 **[!UICONTROL 개인 ID]**&#x200B;로 표시됩니다. ![노출 횟수](assets/impressions-mixins.png) |
-| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`를 이 스키마의 기본 ID로 선택할 필요는 없습니다. **[!UICONTROL 프로필]**&#x200B;을 활성화해야 합니다. 그렇지 않으면 CJA가 B2B 프로필에서 `emailID`를 `emailID`와 함께 B2B 노출 데이터에서 연결할 수 없게 됩니다. ![프로필](assets/profile-mixins.png) |
+| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려 줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`를 이 스키마의 기본 ID로 선택할 필요는 없습니다. **[!UICONTROL 프로필]**&#x200B;을 활성화해야 합니다. 그렇지 않으면 CJA가 B2B 프로필에서 `emailID`를 `emailID`와 함께 B2B 노출 데이터에서 연결할 수 없게 됩니다. ![프로필](assets/profile-mixins.png) |
 | B2B 정보 | 위의 &quot;조회 데이터 세트 만들기&quot;를 참조하십시오. | B2BAccount(사용자 정의 조회 스키마 클래스) | `accountID` 및 B2B 노출 데이터 세트 간 관계는 아래 단계에 설명된 대로 B2B 정보 데이터 세트와 CJA의 B2B 노출 데이터 세트를 연결하여 자동으로 생성됩니다. ![조회](assets/lookup-mixins.png) |
 
 데이터 세트를 결합하는 방법은 다음과 같습니다.
