@@ -2,10 +2,10 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '1360'
-ht-degree: 100%
+source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 질문 | 답변 |
 | --- | --- |
 | [!UICONTROL Customer Journey Analytics]를 디바이스 또는 데이터 세트 간에 &quot;결합&quot;할 수 있습니까? | 예. [!UICONTROL Customer Journey Analytics]에는 CCA([크로스 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR))이라고 하는 결합 솔루션이 있습니다. 이 솔루션을 사용하여 데이터 세트의 개인 ID에 대해 다시 키를 입력할 수 있으므로 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
-| 익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까? | 예. [크로스 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다. |
+| 익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까? | 예. [크로스 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html)은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다. |
 | CCA에서 &#39;재생&#39;은 어떻게 작동합니까? | CCA는 학습한 고유 식별자를 기반으로 데이터를 &quot;재생&quot;합니다. 재생으로 인해 연결에 새 디바이스가 결합됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=ko-KR#step-1%3A-live-stitching) |
 | CCA에서 내역 데이터(채우기)의 결합은 어떻게 작동합니까? | 처음 켜질 때 Adobe에서 이전 달의 시작 시점(최대 60일)까지 포함하는 결합된 데이터 채우기를 제공합니다. 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#enable-cross-channel-analytics) |
 
@@ -75,3 +75,16 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 처리가 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
+
+## 6. CJA에서 보고서 세트를 병합할 때의 고려 사항
+
+[Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)를 통해 Adobe Analytics 데이터를 수집하려는 경우, 2개 이상의 Adobe Analytics 보고서 세트를 병합할 때 이러한 영향을 고려하십시오.
+
+| 문제 | 고려 사항 |
+| --- | --- |
+| 변수 | [!UICONTROL eVars] 와 같은 변수는 보고서 세트에 줄 수 없습니다. 예를 들어, 보고서 세트 1의 eVar 1은 **[!UICONTROL Page]**&#x200B;를 가리킬 수 있습니다. 보고서 세트 2에서 eVar1은 **[!UICONTROL 내부 캠페인]**&#x200B;을 가리키면 혼합되고 부정확한 보고가 발생할 수 있습니다. |
+|  세션 및   사람 | 보고서 세트 간에 중복 제거됩니다. 따라서 카운트가 일치하지 않을 수 있습니다. |
+| 지표 중복 제거 | 여러 행에 동일한 거래 ID가 있는 경우(예: [!UICONTROL Orders]) 지표의 인스턴스를 중복 제거합니다(예: [!UICONTROL 구매 ID]). 따라서 주요 지표의 초과 카운트가 방지됩니다. 따라서 [!UICONTROL 주문]과 같은 지표는 보고서 세트에 추가할 수 없습니다. |
+| 통화 | 통화 변환은 아직 CJA에서 지원되지 않습니다. 병합하려는 보고서 세트가 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
+| [!UICONTROL 지속성] | [](/help/data-views/persistence.md) 지속성은 보고서 세트 간에 확장되며,  [!UICONTROL 필터],  [!UICONTROL 속성] 등에 영향을 줍니다. 숫자가 제대로 추가되지 않을 수 있습니다. |
+| [!UICONTROL 분류] |  분류는 보고서 세트를 병합할 때 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하면 문제가 발생할 수 있습니다. |
