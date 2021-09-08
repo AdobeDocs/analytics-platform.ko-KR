@@ -2,10 +2,11 @@
 title: 연결 관리
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
-source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
-workflow-type: ht
+exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 100%
 * 이를 통해 구성 오류로 인해 발생하는 **모든 데이터 불일치를 식별**&#x200B;할 수 있습니다. 혹시 누락된 행이 있습니까? 그렇다면 어떤 행이 누락되었고 이유는 무엇입니까? 연결을 잘못 구성하여 CJA에서 데이터 누락이 발생했습니까?
 
 >[!NOTE]
-> 이 기능은 2021년 8월 10일에 일반적으로 사용할 수 있습니다.
+> 이 기능은 일반적으로 2021년 9월 20일에 제공됩니다.
 
 ## 연결 관리자 {#connections-manager}
 
@@ -102,11 +103,11 @@ ht-degree: 100%
 | **연결 수준의 오른쪽 레일** |  |
 | [!UICONTROL 새로 고침] | 최근에 추가된 기록이 반영될 수 있도록 연결을 새로 고침합니다. |
 | [!UICONTROL 삭제] | 이 연결을 삭제합니다. |
-| [!UICONTROL 데이터 보기 만들기] | 이 연결을 기반으로 새 데이터 보기를 만듭니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR) |
+| [!UICONTROL 데이터 보기 만들기] | 이 연결을 기반으로 새 데이터 보기를 만듭니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
 | [!UICONTROL 연결 이름] | 연결의 알기 쉬운 이름을 표시합니다. |
 | [!UICONTROL 연결 설명] | 이 연결의 목적을 가장 잘 설명하는 비교적 상세한 설명을 표시합니다. |
 | [!UICONTROL 개인 ID] | Experience Platform의 데이터 세트 스키마에 정의된 ID를 표시합니다. 이는 연결 생성 중 선택한 [!UICONTROL 개인 ID]입니다. 다양한 ID가 있는 데이터 세트를 포함하는 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 동일한 [!UICONTROL 개인 ID]를 사용해야 합니다. |
-| [!UICONTROL 샌드박스] | 이 연결이 그 데이터 세트를 가져오는 출처 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 샌드박스는 연결을 처음 만들 때 선택됩니다. 이는 변경할 수 없습니다. |
+| [!UICONTROL 샌드박스] | 이 연결이 그 데이터 세트를 가져오는 출처 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)입니다. 이 샌드박스는 연결을 처음 만들 때 선택됩니다. 이는 변경할 수 없습니다. |
 | [!UICONTROL 연결 ID] | 이 ID는 Adobe Experience Platform에서 시스템에 의해 생성됩니다. |
 | [!UICONTROL IMS 조직 ID] | 공급된 Experience Cloud 회사와 연결된 [조직 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko-KR)입니다. 이전에는 &quot;로그인 회사&quot;라고 불렀습니다. |
 | [!UICONTROL 연결을 이용한 데이터 보기] | 이 연결을 사용하는 데이터 보기를 모두 나열합니다. |
@@ -119,7 +120,7 @@ ht-degree: 100%
 | [!UICONTROL 생략된 기록 오류] | 기록이 생략된 이유가 여기에 제시됩니다. 기록 생략의 이유로는 타임스탬프 누락, 개인 ID 누락 등이 포함될 수 있습니다. |
 | [!UICONTROL 수집된 배치] | 이 데이터 세트에 얼마나 많은 데이터가 추가되었는지 나타냅니다. |
 | [!UICONTROL 마지막으로 추가됨] | 마지막 배치가 추가된 시기입니다. |
-| [!UICONTROL 데이터 세트 유형] | [!UICONTROL 이벤트], [!UICONTROL 조회] 또는 [!UICONTROL 프로필]입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#configure-dataset) |
+| [!UICONTROL 데이터 세트 유형] | [!UICONTROL 이벤트], [!UICONTROL 조회] 또는 [!UICONTROL 프로필]입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL 스키마] | 이 데이터 세트가 기반으로 삼는 Adobe Experience Platform 스키마입니다. |
 | [!UICONTROL 데이터 세트 ID] | 이 ID는 Adobe Experience Platform에서 시스템에 의해 생성됩니다. |
 | [!UICONTROL 채우기 데이터] | 채우기(내역) 데이터는 [!UICONTROL 대기 중], [!UICONTROL 진행 중] (진행률 함께 표시), [!UICONTROL 완료]의 3가지 상태로 추적됩니다. |
