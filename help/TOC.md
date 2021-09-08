@@ -11,9 +11,9 @@ user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으�
 breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
-   + [FAQ](getting-started/cja-faq.md)
+   + [자주 묻는 질문](getting-started/cja-faq.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
    + [삭제 영향](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
@@ -117,7 +117,7 @@ ht-degree: 99%
          + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + Workspace FAQ {#workspace-faq}
-      + [FAQ](analysis-workspace/workspace-faq/faq.md)
+      + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
