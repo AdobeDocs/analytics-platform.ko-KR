@@ -3,9 +3,9 @@ title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 source-git-commit: fa0033202650f17acd275f1050565285c1464f53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
