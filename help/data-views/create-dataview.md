@@ -2,14 +2,14 @@
 title: Customer Journey Analytics에서 새 데이터 보기를 만드는 방법.
 description: 새 데이터 보기를 만드는 데 필요한 모든 설정을 설명합니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
-workflow-type: ht
-source-wordcount: '3069'
-ht-degree: 100%
+source-git-commit: fb8de8c65b44fd57ca5da6d993bb02b8574f7f47
+workflow-type: tm+mt
+source-wordcount: '3076'
+ht-degree: 95%
 
 ---
 
-# 새 데이터 보기 만들기
+# 데이터 보기 만들기
 
 데이터 보기 만들기에는 스키마 요소에서 지표와 차원을 생성하거나 표준 구성 요소를 활용하는 작업이 포함됩니다. 지표 또는 차원을 생성하면 엄청난 유연성을 확보할 수 있습니다. 이전에는 Adobe Experience Platform에 데이터 세트가 있는 경우 문자열 필드를 차원으로 사용하고 숫자 필드를 지표로 사용한다고 가정했습니다. 이러한 필드를 변경하려면 플랫폼에서 스키마를 편집해야 합니다. 이제 데이터 보기 UI를 통해 [지표와 차원을 보다 자유롭게 정의](/help/data-views/data-views.md)할 수 있습니다. 추가 사용 사례는 [데이터 보기 사용 사례](/help/data-views/data-views-usecases.md)를 참조하십시오.
 
@@ -123,9 +123,13 @@ ht-degree: 100%
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
-| [!UICONTROL 값 계산] | 부울 지표에 한하여, 이 설정을 이용하면 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. 이는 주문 값이 50인 경우, &quot;50&quot;과 같은 실제 지표 값을 제공합니다. |
+| [!UICONTROL 값 계산] | 부울 지표에 한하여, 이 설정을 이용하면 [!UICONTROL Count True], [!UICONTROL Count False] 또는 [!UICONTROL Count True 또는 False]를 지표 값으로 사용할지 여부를 지정할 수 있습니다. 기본값은 [!UICONTROL Count True]입니다. 주문 값이 50인 경우 &quot;50&quot;과 같이 지표의 실제 값을 제공합니다. |
 | [!UICONTROL 인스턴스 계산] | 지표로 사용되는 숫자 또는 날짜 유형 필드가 값 자체보다 설정된 시간을 계산해야 하는지 여부를 지정할 수 있습니다.<br> 숫자 필드의 인스턴스를 더하고 싶고 내부의 실제 값이 아닌 필드가 *설정된* 횟수를 더하고 싶은 경우.<br>예를 들어 [!UICONTROL 매출] 필드에서 [!UICONTROL 주문] 지표를 생성하는 경우 유용합니다. 매출이 설정된 경우 숫자 매출액이 아닌 1개의 단일 주문을 계산합니다. |
-| [!UICONTROL 소문자] | *새로 만들기* - “문자열” 유형의 차원용 이 설정을 사용하여 Customer Journey Analytics가 차원 값에 대해 대/소문자를 구분하는지 여부를 제어할 수 있습니다. 이를 통해 값이 같지만 대/소문자가 다른 행의 중복 제거가 가능합니다. **[!UICONTROL 소문자]**&#x200B;를 선택하면 동일한 값을 가진 차원의 모든 인스턴스가 소문자로 보고됩니다. 이 스크린샷은 [!UICONTROL 소문자]를 **선택하지 않은** 경우와 확인란을 **선택한** 경우의 상황을 보여 줍니다. 왼쪽 표에서 “liverpool”, “Liverpool” 및 “LIVERPOOL”이 보고에서 세 개의 개별 라인 항목을 구성하는 방식을 확인하십시오. 오른쪽 표에서 이 동일한 값은 중복 제거되며 하나의 라인 항목인 <br>![대/소문자 차원](assets/case-sens-workspace.png)에 포함됩니다. |
+| [!UICONTROL 소문자] | 문자열 차원과 함께 사용됩니다. 값은 같지만 사례는 다른 행을 중복 제거합니다. 활성화된 경우 값이 동일한 차원의 모든 인스턴스가 소문자로 보고됩니다. 예를 들어 데이터 세트에는 문자열 차원의 `"liverpool"`, `"Liverpool"` 및 `"LIVERPOOL"` 값이 포함되어 있습니다. [!UICONTROL 소문자]가 활성화되어 있으면 세 값이 모두 `"liverpool"`에 결합됩니다. 비활성화하면 세 값 모두 고유한 값으로 처리됩니다.<br>![대/소문자 구분 차원](assets/case-sens-workspace.png)<br> |
+
+>[!NOTE]
+>
+>조회 데이터 세트 차원에서 [!UICONTROL 소문자]을 활성화하는 경우, 동일한 식별자에 대해 여러 조회 값이 있을 수 있습니다. 이 충돌이 발생하면 CJA에서는 첫 번째 ASCII 수집 값을 사용합니다(소문자 값 앞에 대문자 값). Adobe은 [!UICONTROL 소문자]가 활성화되어 있을 때 동일한 값을 포함하는 조회 데이터 세트를 사용하지 않도록 권장합니다.
 
 ### [!UICONTROL 값 옵션 없음] 설정 구성
 
