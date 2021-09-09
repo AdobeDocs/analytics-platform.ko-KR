@@ -2,9 +2,9 @@
 title: CJA 설명서 업데이트
 description: 2019년 12월 이후 설정된 Customer Journey Analytics 설명서에 대한 콘텐츠 업데이트를 나열합니다.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+source-git-commit: 8f576a8321c0e50cc34c1c08c8f8f7c48b427233
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '404'
 ht-degree: 18%
 
 ---
@@ -17,19 +17,20 @@ CJA 설명서가 시작된 이후로 다음과 같은 업데이트가 수행되�
 | --- | --- |
 | 2021년 9월 | CJA에서 보고서 세트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#6.-고려 사항-when-merger-report-suites-in-cja)의 병합에 대한 [의미에 대한 새 섹션을 추가했습니다. |
 | 2021월 8일 | CJA의 향상된 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) 경험에 대한 새로운 섹션을 추가했습니다. |
-| 2021월 8일 | 데이터 보기 차원의 [대/소문자 구분에 대한 새 섹션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) |
+| 2021월 8일 | 데이터 보기 차원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings)의 [대/소문자 구분에 대한 새 섹션을 추가했습니다. |
 | 2021년 6월 | 작업 공간의 이전 프로젝트 버전](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version)에 대한 새 설명서입니다.[ |
+| 2021년 4월 | [지속성](/help/data-views/persistence.md)에 대한 새 주제입니다. |
 | 2021년 4월 | 작업 공간에서 예약된 프로젝트에 대한 지원에 대한 새 설명서입니다. |
 | 2021년 4월 | [향상된 데이터 보기 경험](/help/data-views/data-views.md)에 대한 새 주제입니다. |
 | 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga-to-cja.md) 및 [해당 데이터 분석](/help/use-cases/ga-to-cja-reporting.md)에 대한 새 주제입니다. |
-| 2021년 4월 | 작업 공간에 [예약된 보고서](/help/analysis-workspace/curate-share/t-schedule-report.md)에 대한 주제가 추가되었습니다 |
-| 2021년 4월 | CJA](/help/components/dimensions/high-cardinality.md)의 높은 카디널리티 차원에 대한 새로운 항목[ |
+| 2021년 4월 | 작업 공간에서 [예약된 보고서](/help/analysis-workspace/curate-share/t-schedule-report.md)에 대한 주제가 추가되었습니다. |
+| 2021년 4월 | CJA](/help/components/dimensions/high-cardinality.md)의 높은 카디널리티 차원에 대한 새로운 주제입니다.[ |
 | 2021년 3월 | [Analytics 대시보드](/help/mobile-app/home.md)(모바일 앱)에 대한 지원에 대한 항목이 추가되었습니다. |
-| 2021년 3월 | 작업 공간의 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md)에 대한 새 항목 |
-| 2021년 2월 | Adobe Experience Platform](/help/use-cases/marketing-channels.md)에서 [마케팅 채널 차원 사용에 대한 새로운 항목 |
+| 2021년 3월 | Workspace의 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md)에 대한 새 주제입니다. |
+| 2021년 2월 | Adobe Experience Platform](/help/use-cases/marketing-channels.md)에서 [마케팅 채널 차원 사용에 대한 새 주제입니다. |
 | 2021년 2월 | 새 [CJA API](https://www.adobe.io/cja-apis/docs/) 설명서를 게시했습니다. |
-| 2021년 1월 | 데이터 세트에 전역 조회 추가](/help/use-cases/global-lookups.md)에 대한 새로운 항목[ |
-| 2020년 11월 13일 | [크로스 채널 분석](/help/connections/cca/overview.md)에 대한 새 주제이며, 데이터 세트의 개인 ID를 다시 입력할 수 있으므로 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
+| 2021년 1월 | 데이터 세트에 전역 조회 추가](/help/use-cases/global-lookups.md)에 대한 새로운 주제입니다.[ |
+| 2020년 11월 13일 | [크로스 채널 분석](/help/connections/cca/overview.md)에 대한 새 주제이며, 데이터 세트의 개인 ID를 다시 입력할 수 있고 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
 | 2020년 11월 13일 | [콜 센터와 웹 데이터 가져오기](/help/use-cases/call-center.md)에 대한 새로운 사용 사례가 추가되었습니다. |
 | 2020년 11월 11일 | [연결 크기 추정](/help/connections/estimate-connection-size.md)에 대한 주제가 추가되었습니다. |
 | 2020년 11월 10일 | 데이터 구성 요소를 [FAQ](/help/getting-started/cja-faq.md)에 삭제하는 의미에 대한 섹션이 추가되었습니다. |
@@ -39,7 +40,7 @@ CJA 설명서가 시작된 이후로 다음과 같은 업데이트가 수행되�
 | 2020년 9월 15일 | [데이터 수집](/help/use-cases/data-ingestion.md)에 대한 주제가 추가되었습니다. |
 | 2020년 9월 2일 | [사용자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR)에 대한 섹션이 업데이트되었습니다. |
 | 2020년 8월 7일 | [B2B 사용 사례 - 조회 데이터 세트](/help/use-cases/b2b.md)에 대한 새 항목이 추가되었습니다. |
-| 7월 2020일 | 개인 ID](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR)에 대한 [ID 맵 옵션에 대한 정보를 추가했습니다 |
+| 7월 2020일 | 개인 ID](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR)에 대한 [ID 맵 옵션에 대한 정보를 추가했습니다. |
 | 7월 2020일 | [개체 배열](/help/use-cases/object-arrays.md) 또는 &#39;데이터 계층&#39;에 대한 새 항목이 추가되었습니다. |
 | 2020년 4월 14일 | [연결 만들기](/help/connections/create-connection.md) 항목의 최신 UI에 대한 업데이트입니다. |
 | 2020년 2월 27일 | [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md) 페이지를 업데이트했습니다. |
