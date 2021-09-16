@@ -1,7 +1,7 @@
 ---
 title: 값 버킷팅 구성 요소 설정
 description: 차원에서 숫자 값을 결합합니다.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 12%
@@ -9,7 +9,7 @@ ht-degree: 12%
 ---
 
 
-# 값 그룹 구성 요소 설정
+# [!UICONTROL 값 ] 그룹 구성 요소 설정
 
 데이터 보기를 만들거나 편집할 때 값 그룹 을 사용하면 범위를 기반으로 숫자 값을 결합할 수 있습니다. 정수 또는 이중 스키마 데이터 유형을 사용하는 차원에만 사용할 수 있습니다.
 

@@ -1,10 +1,10 @@
 ---
 title: 구성 요소 설정
 description: 구성 요소에 대한 코어 설정을 봅니다.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 

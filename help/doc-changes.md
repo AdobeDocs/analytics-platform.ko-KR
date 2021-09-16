@@ -2,10 +2,10 @@
 title: CJA 설명서 업데이트
 description: 2019년 12월 이후 설정된 Customer Journey Analytics 설명서에 대한 콘텐츠 업데이트를 나열합니다.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 6fca2dbffb0a631b0c5425c7d8964296ad22b7cc
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 20%
+source-wordcount: '448'
+ht-degree: 18%
 
 ---
 
@@ -15,8 +15,9 @@ CJA 설명서가 시작된 이후로 다음과 같은 업데이트가 수행되�
 
 | 날짜 | 업데이트 설명 |
 | --- | --- |
+| 2021년 9월 | 데이터 보기의 구성 요소 설정을 개별 파일로 분류했습니다.<ul><li>[ 구성 요소 설정 개요](/help/data-views/component-settings/overview.md)</li><li>[ 속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)</li><li>[ 동작 구성 요소 설정](/help/data-views/component-settings/behavior.md)</li><li>[ Formatcomponent 설정](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL 포함/] 제외 구성 요소 설정](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL 지표 ] 중복 제거 구성 요소 설정](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL 값 ] 구성 요소 설정이 없음](/help/data-views/component-settings/no-value-options.md)</li><li>[ Persistencecomponent 설정](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL 값 ] 그룹 구성 요소 설정](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | 2021년 9월 | CJA에서 보고서 세트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#6.-고려 사항-when-merger-report-suites-in-cja)의 병합에 대한 [의미에 대한 새 섹션을 추가했습니다. |
-| 2021월 8일 | CJA의 향상된 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) 경험에 대한 새로운 섹션을 추가했습니다. |
+| 2021월 8일 | CJA의 향상된 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) 경험에 대한 새 섹션을 추가했습니다. |
 | 2021월 8일 | 데이터 보기 차원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings)의 [대/소문자 구분에 대한 새 섹션을 추가했습니다. |
 | 2021년 6월 | 작업 공간의 이전 프로젝트 버전](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version)에 대한 새 설명서입니다.[ |
 | 2021년 4월 | [지속성](data-views/component-settings/persistence.md)에 대한 새 주제입니다. |

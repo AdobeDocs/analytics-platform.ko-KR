@@ -2,10 +2,10 @@
 title: 데이터 보기 만들기
 description: 데이터 보기를 만들거나 편집하기 위해 조정할 수 있는 모든 설정입니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+source-git-commit: 49b4998194274eec2ab8eca231029ccb5ccf648d
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 81%
+source-wordcount: '805'
+ht-degree: 77%
 
 ---
 
@@ -56,7 +56,17 @@ ht-degree: 81%
    >
    >왼쪽 레일에서 전체 스키마 필드 폴더를 드래그할 수 있으며, 일반 섹션으로 자동으로 정렬됩니다. 문자열 필드는 [!UICONTROL Dimension] 섹션과 [!UICONTROL 지표] 섹션에 있습니다. 또는 **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 모든 스키마 필드가 추가됩니다.
 
-1. 구성 요소를 선택하면 오른쪽에 여러 가지 설정이 나타납니다. 아래 설명된 설정을 사용하여 구성 요소를 구성합니다.
+1. 구성 요소를 선택하면 오른쪽에 여러 가지 설정이 나타납니다. 에 설명된 설정을 사용하여 구성 요소를 구성합니다.
+
+* [ 구성 요소 설정 개요](/help/data-views/component-settings/overview.md)
+* [ 속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)
+* [ 동작 구성 요소 설정](/help/data-views/component-settings/behavior.md)
+* [ Formatcomponent 설정](/help/data-views/component-settings/format.md)
+* [[!UICONTROL 포함|] 제외 구성 요소 설정](/help/data-views/component-settings/include-exclude-values.md)
+* [[!UICONTROL 지표 ] 중복 제거 구성 요소 설정](/help/data-views/component-settings/metric-deduplication.md)
+* [[!UICONTROL 값 ] 구성 요소 설정이 없음](/help/data-views/component-settings/no-value-options.md)
+* [ Persistencecomponent 설정](/help/data-views/component-settings/persistence.md)
+   [[!UICONTROL 값 ] 그룹 구성 요소 설정](/help/data-views/component-settings/value-bucketing.md)
 
 ## [!UICONTROL 복제] 기능 사용
 
