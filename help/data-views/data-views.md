@@ -1,17 +1,17 @@
 ---
-title: Customer Journey Analytics의 데이터 보기란 무엇입니까?
+title: 데이터 보기 개요
 description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 94%
 
 ---
 
-# 데이터 보기란 무엇입니까?
+# 데이터 보기 개요
 
-데이터 보기는 CJA(Customer Journey Analytics) [연결](/help/connections/create-connection.md) 위에 있습니다. 연결은 Adobe Experience Platform의 하나 이상의 데이터 세트를 결합하여 CDA에 연결합니다. 데이터 보기는 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다. 데이터 보기는 Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
+데이터 보기는 [연결](/help/connections/create-connection.md)에서 데이터를 해석하는 방법을 결정할 수 있도록 해주는 Customer Journey Analytics과 관련된 컨테이너입니다. Analysis Workspace에서 사용할 수 있는 모든 차원 및 지표와 그러한 차원 및 지표가 데이터를 가져오는 열을 지정합니다. 데이터 보기는 Analysis Workspace에서 보고할 준비를 위해 정의됩니다.
 
 >[!NOTE]
 >
@@ -78,4 +78,3 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * [데이터 보기 만들기](/help/data-views/create-dataview.md)
 * [데이터 보기 활용 사례](/help/data-views/data-views-usecases.md)
-* [지속성](/help/data-views/persistence.md)의 원리에 관한 세부 정보

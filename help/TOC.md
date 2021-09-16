@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+source-git-commit: dd88dc79d523d6e5ef4fa868eef4bbb22df6b61b
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -40,8 +40,18 @@ ht-degree: 100%
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](data-views/data-views.md)
    + [데이터 보기 만들기](data-views/create-dataview.md)
+   + 구성 요소 설정 {#component-settings}
+      + [구성 요소 설정 개요](data-views/component-settings/overview.md)
+      + [속성](data-views/component-settings/attribution.md)
+      + [동작](data-views/component-settings/behavior.md)
+      + [형식](data-views/component-settings/format.md)
+      + [포함/제외 값](data-views/component-settings/include-exclude-values.md)
+      + [지표 중복 제거](data-views/component-settings/metric-deduplication.md)
+      + [값 옵션 없음](data-views/component-settings/no-value-options.md)
+      + [지속성](data-views/component-settings/persistence.md)
+      + [값 버킷팅](data-views/component-settings/value-bucketing.md)
+   + [표준 구성 요소 참조](data-views/component-reference.md)
    + [데이터 보기 활용 사례](data-views/data-views-usecases.md)
-   + [지속성](data-views/persistence.md)
 + Workspace 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)

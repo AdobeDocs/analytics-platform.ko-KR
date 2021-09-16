@@ -2,7 +2,7 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 87%
@@ -86,5 +86,5 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 |  세션 및   사람 | 보고서 세트 간에 중복 제거됩니다. 따라서 카운트가 일치하지 않을 수 있습니다. |
 | 지표 중복 제거 | 여러 행에 동일한 거래 ID가 있는 경우(예: [!UICONTROL Orders]) 지표의 인스턴스를 중복 제거합니다(예: [!UICONTROL 구매 ID]). 따라서 주요 지표의 초과 카운트가 방지됩니다. 따라서 [!UICONTROL 주문]과 같은 지표는 보고서 세트에 추가할 수 없습니다. |
 | 통화 | 통화 변환은 아직 CJA에서 지원되지 않습니다. 병합하려는 보고서 세트가 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
-| [!UICONTROL 지속성] | [](/help/data-views/persistence.md) 지속성은 보고서 세트 간에 확장되며,  [!UICONTROL 필터],  [!UICONTROL 속성] 등에 영향을 줍니다. 숫자가 제대로 추가되지 않을 수 있습니다. |
+| [!UICONTROL 지속성] | [](../data-views/component-settings/persistence.md) 지속성은 보고서 세트 간에 확장되며,  [!UICONTROL 필터],  [!UICONTROL 속성] 등에 영향을 줍니다. 숫자가 제대로 추가되지 않을 수 있습니다. |
 | [!UICONTROL 분류] |  분류는 보고서 세트를 병합할 때 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하면 문제가 발생할 수 있습니다. |

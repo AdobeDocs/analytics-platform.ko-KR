@@ -2,10 +2,10 @@
 title: CJA 설명서 업데이트
 description: 2019년 12월 이후 설정된 Customer Journey Analytics 설명서에 대한 콘텐츠 업데이트를 나열합니다.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: 8f576a8321c0e50cc34c1c08c8f8f7c48b427233
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ CJA 설명서가 시작된 이후로 다음과 같은 업데이트가 수행되�
 | 2021월 8일 | CJA의 향상된 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) 경험에 대한 새로운 섹션을 추가했습니다. |
 | 2021월 8일 | 데이터 보기 차원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings)의 [대/소문자 구분에 대한 새 섹션을 추가했습니다. |
 | 2021년 6월 | 작업 공간의 이전 프로젝트 버전](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version)에 대한 새 설명서입니다.[ |
-| 2021년 4월 | [지속성](/help/data-views/persistence.md)에 대한 새 주제입니다. |
+| 2021년 4월 | [지속성](data-views/component-settings/persistence.md)에 대한 새 주제입니다. |
 | 2021년 4월 | 작업 공간에서 예약된 프로젝트에 대한 지원에 대한 새 설명서입니다. |
 | 2021년 4월 | [향상된 데이터 보기 경험](/help/data-views/data-views.md)에 대한 새 주제입니다. |
 | 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga-to-cja.md) 및 [해당 데이터 분석](/help/use-cases/ga-to-cja-reporting.md)에 대한 새 주제입니다. |
