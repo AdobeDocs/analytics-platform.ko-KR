@@ -2,10 +2,10 @@
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 86%
+source-wordcount: '1148'
+ht-degree: 56%
 
 ---
 
@@ -79,30 +79,58 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 이 자유 형식 테이블을 사용하면 콜 센터 이벤트에 기여하는 상위 페이지를 볼 수 있습니다. 먼저 원하는 차원과 지표에 올바른 속성 모델이 있는지 확인합니다.
 
 1. 웹 페이지 이름을 포함하는 차원을 자유 형식 테이블 시각화로 드래그합니다.
-1. 지표를 전환을 측정하려는 원하는 콜 센터 지표로 바꿉니다.
+1. 지표를 측정하려는 원하는 콜 센터 지표로 바꿉니다.
 1. 지표 헤더 근처에 있는 톱니바퀴 아이콘을 클릭합니다. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 클릭합니다.
-1. 원하는 [속성 모델](/help/data-views/create-dataview.md)을 설정합니다.
+1. 원하는 [속성 모델](/help/analysis-workspace/attribution/models.md)을 설정합니다. 예를 들어 반감기가 15분인 시간 감소 모델과 세션의 전환 창 을 예로 들 수 있습니다. 이 속성 모델은 콜 센터까지 연결하는 페이지에 크레딧을 제공합니다.
 
-결과 보고서는 콜 센터 데이터의 상위 지표를 보여 줍니다.
+결과 보고서는 콜 센터까지 호출을 유도하는 상위 페이지를 보여줍니다. <!-- use case behind what we use these pages for -->
 
-<!-- ### Flow between web data and call center
+<!-- Complement with donut visualization -->
 
-call reason as an exit dimension, web page name for previous pages
+이유 또는 카테고리별로 호출을 분할하여 이 테이블을 사용하여 인사이트를 더 높일 수 있습니다.
 
-### Histogram
+1. 구성 요소 목록에서 &#39;호출 이유&#39; 차원 아래에 있는 오른쪽 화살표를 클릭합니다. 이 작업은 개별 차원 값을 표시합니다.
+2. 원하는 차원 값을 &#39;호출&#39; 지표 아래에서 끌어서 각 호출 이유에 따라 해당 지표를 필터링합니다.
+3. 드릴다운할 각 호출 이유에 대해 반복합니다. 총 합계를 보려면 &#39;모든 세션&#39; 필터를 사용합니다.
+
+<!-- screenshot -->
+
+### 플로우 시각화
+
+고객이 콜 센터 채널을 사용하기 전에 고객이 수행하려는 작업에 대한 통찰력을 얻을 수 있습니다. 이 흐름 시각화는 고객이 콜 센터에 도달하기 위해 가장 자주 사용하는 여정을 이해하는 데 도움이 됩니다. 이 인사이트를 통해 고객이 보다 쉽게 방문할 수 있도록 사이트에 수행할 수 있는 가장 효과적인 개선 사항을 결정할 수 있습니다.
+
+1. 왼쪽의 **[!UICONTROL 시각화]** 탭을 클릭하고 흐름 시각화를 작업 공간 캔버스로 드래그합니다.
+2. 왼쪽의 **[!UICONTROL 구성 요소]** 탭을 클릭하고 &#39;호출 이유&#39; 차원을 찾습니다.
+3. 이 차원 옆에 있는 오른쪽 펼침 화살표를 클릭합니다. 이 작업은 개별 차원 값을 표시합니다.
+4. 원하는 호출 이유 차원 항목을 흐름 시각화의 중심 위치로 드래그합니다.
+5. 흐름 시각화는 이전 및 다음 호출 이유를 자동으로 채웁니다. 이전 호출 이유를 웹 사이트 페이지 차원으로 바꿉니다.
+6. 흐름 시각화의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하고 흐름 컨테이너를 **[!UICONTROL 세션]**&#x200B;으로 변경합니다.
+
+### 히스토그램
+
+한 번 전화하거나 두 번 전화하거나 여섯 번 이상 전화한 고객은 몇 명입니까? 이 사람들 중 일부는 웹사이트 방문을 안 합니다. 히스토그램 시각화를 사용하여 각 버킷에 속하는 사람 수를 결정합니다. 웹 사이트를 방문하지 않는 사용자의 경우 자체 서비스를 제공할 수 있도록 어떻게 장려할 수 있는지 확인하십시오.
+
+1. 왼쪽의 **[!UICONTROL 시각화]** 탭을 클릭하고 히스토그램 시각화를 작업 공간 캔버스로 드래그합니다.
+2. 왼쪽의 **[!UICONTROL 구성 요소]** 탭을 클릭하고 호출 지표를 히스토그램 시각화로 드래그합니다.
+3. 시각화 가운데 있는 **[!UICONTROL 고급 설정 표시]**&#x200B;를 클릭하고 원하는 버킷을 사용자 지정합니다.
+4. **[!UICONTROL 작성을 클릭합니다]**.
+
+<!--
+### Web to call, call to web
 
 ### Fallout
 
-step 1: all sessions
-step 2: purchase step 1
-step 3: call
+Fallout sessions - session
 
-another good one
+All sessions > page views metric > calls metric
+
+All sessions > calls metric > page views
+
+Orrr we could also use dataset ID
 
 step 1: all sessions
 step 2: 
 
-Orrr we could also use dataset ID
 
 ### Site sections that result in a call within 30 minutes
 
