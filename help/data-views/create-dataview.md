@@ -2,10 +2,10 @@
 title: 데이터 보기 만들기 또는 편집
 description: 데이터 보기를 만들거나 편집하기 위해 조정할 수 있는 모든 설정입니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 384679788d140a01a12e1c830b47099398a920b1
+source-git-commit: 36b7cc72c34e27f90af29146f7a32c525b279b9b
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -60,12 +60,9 @@ ht-degree: 18%
 1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 데이터 보기를 만들거나 기존 데이터 보기를 클릭하여 편집합니다.
 1. **[!UICONTROL 구성 요소]** 탭을 클릭합니다.
 
-![구성 요소 탭](assets/components-tab.png)
+   ![구성 요소 탭](assets/components-tab.png)
 
-데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다. 주의 사항:
-
-    * 이미 포함된 구성 요소는 표준 필수 구성 요소(시스템 생성)입니다.
-    * Adobe은 기본적으로 데이터가 포함된 스키마 필드만 표시되도록 **[!UICONTROL 데이터 포함]** 필터를 적용합니다. 데이터가 포함되지 않은 필드를 찾는 경우 필터를 제거하면 됩니다.
+   데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다. 이미 포함된 구성 요소는 모든 데이터 보기에 대한 표준 필수 구성 요소(시스템 생성)입니다. Adobe은 기본적으로 **[!UICONTROL 데이터 포함]** 필터를 적용하므로 데이터가 포함된 스키마 필드만 표시됩니다. 데이터가 포함되지 않은 필드를 원하는 경우 이 필터를 제거합니다.
 
 1. 왼쪽 레일의 `pageTitle` 과 같은 스키마 필드를 지표 또는 Dimension 섹션으로 드래그합니다.
 

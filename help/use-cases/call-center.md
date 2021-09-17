@@ -2,16 +2,16 @@
 title: 콜 센터 및 웹 데이터 가져오기
 description: 콜 센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '675'
-ht-degree: 100%
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 86%
 
 ---
 
 # 콜 센터 및 웹 데이터 가져오기
 
-Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 Analysis Workspace 프로젝트로 결합하는 강력하고 중요한 기능을 제공합니다. 조직에서 웹 사이트 데이터를 콜 센터 데이터와 결합하는 방법을 이해하려면 이 안내서를 사용합니다.
+Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 Analysis Workspace 프로젝트로 결합하는 강력하고 중요한 기능을 제공합니다. 조직에서 웹 사이트 데이터를 콜 센터 데이터와 결합하는 방법을 이해하려면 이 안내서를 사용합니다. 예를 들어 고객이 고객 지원에 문의하기 전에 고객이 수행하는 작업, 고객이 보는 콘텐츠 및 검색하는 용어를 이해할 수 있습니다. 그런 다음 을(를) 지원하기 위해 콘텐츠 및 셀프 서비스 도구를 결정할 수 있으므로 고객이 호출을 하지 않고도 문제를 더 잘 해결할 수 있습니다.
 
 ## 전제 조건
 
@@ -53,8 +53,10 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 
 ## 데이터 보기 만들기
 
-연결을 만든 후 Analysis Workspace에서 사용할 [데이터 보기를 만들 수](/help/data-views/create-dataview.md) 있습니다.<!-- page dimension last touch, session persistence -->
-<!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
+연결을 만든 후 Analysis Workspace에서 사용할 [데이터 보기를 만들 수](/help/data-views/create-dataview.md) 있습니다. 유용한 구성 요소는 다음과 같습니다.
+
+* 마지막 터치 및 세션 지속성을 갖는 페이지 차원입니다. 고객이 로그인하기 전에 본 마지막 페이지에 콜 센터 지표를 연결할 수 있습니다.
+* 발생 횟수를 늘리기 위해 &#39;콜 센터 이유&#39; 스키마 필드를 사용하는 호출 지표. [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md)를 사용하면 세션당 한 번만 증가합니다.
 
 ## 시각화 만들기
 
@@ -81,14 +83,13 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 1. 지표 헤더 근처에 있는 톱니바퀴 아이콘을 클릭합니다. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 클릭합니다.
 1. 원하는 [속성 모델](/help/data-views/create-dataview.md)을 설정합니다.
 
-결과 보고서는 콜 센터 데이터의 상위 지표를 보여 줍니다.<!-- Complement with donut visualization -->
+결과 보고서는 콜 센터 데이터의 상위 지표를 보여 줍니다.
 
 <!-- ### Flow between web data and call center
 
 call reason as an exit dimension, web page name for previous pages
 
 ### Histogram
-
 
 ### Fallout
 
