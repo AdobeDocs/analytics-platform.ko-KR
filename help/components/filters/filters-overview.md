@@ -2,9 +2,8 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-translation-type: ht
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: ht
+source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 
@@ -84,4 +83,4 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 
 | 필터 이름 | 설명 |
 | --- | --- |
-| 모두 데이터 | 이 필터는 자유 형식 테이블의 행에 지표를 추가할 때 보고에 동적으로 추가되는 필수 필터입니다. |
+| 모든 데이터 | 이 필터는 자유 형식 테이블의 행에 지표를 추가할 때 보고에 동적으로 추가되는 필수 필터입니다. |
