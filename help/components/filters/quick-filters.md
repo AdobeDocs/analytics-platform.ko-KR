@@ -3,22 +3,22 @@ description: Analysis Workspace에서 빠른 필터 사용.
 title: 빠른 필터
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: a32b260fb4c4696ac460903f44b240cb71a62db9
+exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
+source-git-commit: 300bc4069b77b62ae13fd5baf2eec5846676fc6e
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 3%
 
 ---
-
 
 # 빠른 필터
 
 프로젝트 내에서 빠른 필터를 만들어 전체 [필터 빌더](/help/components/filters/create-filters.md)의 복잡성을 무시할 수 있습니다. 빠른 필터
 
-* 특정 프로젝트에만 적용(변경할 수 있음).
+* 에서 만든 프로젝트에만 적용합니다(이 작업을 변경할 수 있습니다.).
 * 최대 3개의 규칙 허용
 * 중첩된 컨테이너 또는 순차적 규칙을 수용하지 마십시오.
-* 여러 보고서 세트가 있는 패널에서 작업
+* 여러 보고서 세트를 사용하는 프로젝트에서 작업
 
 빠른 필터가 수행할 수 있는 작업과 완전한 구성 요소 목록 필터를 비교하려면 [여기](/help/components/filters/filters-overview.md)로 이동하십시오.
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 전제 조건
 
-빠른 필터를 만들 수 있으려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)에서 [!UICONTROL 필터 만들기] 권한이 있어야 합니다.
+빠른 필터를 만들 수 있으려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)에서 [!UICONTROL 세그먼트 생성] 권한이 있어야 합니다.
 
 ## 빠른 필터 만들기
 
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 | 설정 | 설명 |
 | --- | --- |
-| 이름 | 필터의 기본 이름은 필터에 있는 규칙 이름의 조합입니다. 필터 이름을 변경할 수 있습니다. |
+| 이름 | 필터의 기본 이름은 필터에 있는 규칙 이름의 조합입니다. 필터 이름을 보다 친숙한 이름으로 바꿀 수 있습니다. |
 | 포함/제외 | 필터 정의에 구성 요소를 포함하거나 제외할 수 있지만, 둘 다 포함할 수는 없습니다. |
-| 히트/방문/방문자 컨테이너 | 빠른 필터에는 필터에 차원/지표/날짜 범위를 포함하거나 제외할 수 있는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6)만 포함됩니다.  방문자에는 방문 및 페이지 보기에서 해당 방문자 고유의 중요 데이터가 포함되어 있습니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
+| 히트/방문/방문자 컨테이너 | 빠른 필터에는 필터에 차원/지표/날짜 범위를 포함하거나 제외할 수 있는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=ko-KR#filter-containers)만 포함됩니다.  방문자에는 방문 및 페이지 보기에서 해당 방문자 고유의 중요 데이터가 포함되어 있습니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
 | 구성 요소(Dimension/지표/날짜 범위) | 구성 요소 차원 및/또는 지표 및/또는 날짜 범위 및 해당 값을 추가하여 최대 3개의 규칙을 정의합니다. 올바른 구성 요소를 찾는 세 가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 해당 구성 요소를 자동으로 찾습니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 찾습니다.</li><li>왼쪽 레일에서 구성 요소를 드래그하여 놓습니다.</li></ul> |
 | 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자와 [!UICONTROL 고유 개수] 연산자를 찾습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
 | 더하기(+) 기호 | 다른 규칙 추가 |
@@ -83,9 +83,6 @@ ht-degree: 1%
 
 1. 빠른 필터를 마우스로 가리키고 정보(&quot;i&quot;) 아이콘을 선택합니다.
 1. **[!UICONTROL 필터 저장]** 선택
-
-   ![](assets/save-quick-seg.png)
-
 1. 이름을 그대로 두거나 필터 이름을 변경합니다.
 
    작업 공간으로 돌아가서 필터가 이제 파란색 사이드바를 어떻게 가지고 있는지 확인합니다. 이는 빠른 필터 빌더에서 더 이상 편집하거나 열 수 없음을 나타냅니다. 이렇게 저장하면 구성 요소 목록의 일부가 됩니다.
@@ -100,7 +97,7 @@ ht-degree: 1%
 
    ![](assets/project-only.png)
 
-1. **[!UICONTROL 옆의 확인란을 선택하여 모든 프로젝트에서 이 필터를 사용할 수 있도록 하고 구성 요소 목록에 추가합니다.]**
+1. **[!UICONTROL 옆의 확인란을 선택하여 모든 프로젝트에 사용 가능하게 하고 구성 요소 목록에 추가합니다.]**
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 이제 모든 프로젝트의 필터 구성 요소 목록에 필터가 표시됩니다.
 1. 또한 [필터](/help/components/filters/manage-filters.md)를 조직의 다른 사용자와 공유할 수도 있습니다.

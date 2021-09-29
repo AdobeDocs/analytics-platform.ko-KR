@@ -2,10 +2,10 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,18 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 필터 빌더에서 필터를 작성 및 저장하거나 폴아웃 시각화(Analysis Workspace의)에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
 필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/create-filters.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
+
+## 필터 유형
+
+복잡한 필터 필요 여부, 이 프로젝트에만 적용해야 하는지 여부에 따라 Workspace 및 Filter Builder에서 다양한 유형의 필터를 만들 수 있습니다. 다음은 필터 유형에 대한 요약입니다.
+
+| 필터 유형 | 어디에서 만들었습니까? | 적용 가능한 위치? | 사용 시기 |
+| --- | --- | --- | --- |
+| 구성 요소 목록 필터 | + 를 클릭하면 [필터 빌더](/help/components/filters/create-filters.md)로 이동합니다. | 모든 작업 공간 프로젝트 | 더 복잡한 필터의 경우 순차적 필터 |
+| 빠른 필터 | [빠른 필터 빌더](/help/components/filters/quick-filters.md) | 프로젝트에만 사용할 수 있지만, 저장하고 세그먼트 목록에 추가할 수 있습니다. | 하나 이상의 규칙을 추가/편집할 수 있는 유연성 |
+| 임시 프로젝트 필터 | [프로젝트의 세그먼트 드롭 영역으로 끌어다 놓습니다](/help/components/filters/ad-hoc-filters.md) | 프로젝트에만 사용할 수 있지만, 저장하고 필터 목록에 추가할 수 있습니다. | 단일 규칙 필터 |
+| 폴아웃 분석의 필터 | [Analysis Workspace](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) 의 폴아웃 시각화 | 개별 폴아웃 시각화를 만들려면 | 터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, 다양한 필터에서 주요 워크플로우를 비교합니다 |
+| 계산된 지표 기반 필터 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 개별 계산된 지표로 | 지표 정의 내에 필터/s 적용 |
 
 ## 순차적 필터
 
