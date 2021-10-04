@@ -2,9 +2,9 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
+source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1195'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 | 기여도 분석 IQ | 전체 지원 |
 | 계산된 지표 | 전체 지원: 기존 Analysis Workspace의 기존 계산된 지표는 CJA에 포팅되지 않습니다. |
 | 크로스 디바이스/크로스 채널 결합 | 전체 지원: [크로스 채널 Analytics](/help/connections/cca/overview.md)를 참조하십시오. |
+| CSV 다운로드 | 전체 지원 |
 | 사용자 지정 달력 | 전체 지원 |
 | 날짜 비교 | 전체 지원 |
 | 날짜 범위 | 모든 날짜 범위 기능이 지원됩니다. |
@@ -31,9 +32,11 @@ ht-degree: 99%
 | 목록 변수/목록 속성 | 전체 지원: CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
 | 지표 | 전체 지원: CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
 | 지표 중복 제거 | 전체 지원 |
+| 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. |
 | PDF 내보내기 | 전체 지원 |
 | 프로젝트 큐레이션 | 전체 지원 |
 | 프로젝트 연결 | 전체 지원 |
+| Report Builder(Excel 플러그인) | 전체 지원(2021년 10월) |
 | 보고서 처리 시간 | 전체 지원: CJA는 보고서 처리 시간에만 사용합니다. |
 | 보고 API 액세스 | 전체 지원: [CJA API](https://www.adobe.io/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
@@ -75,12 +78,10 @@ ht-degree: 99%
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
-| CSV 다운로드 | 지원이 예정되어 있습니다. |
 | 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. [!UICONTROL Experience Platform Query Service] 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | 머천다이징 변수 지속성 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
-| Report Builder(Excel 플러그인) | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. |
 
