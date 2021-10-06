@@ -3,10 +3,10 @@ description: Adobe Analytics 대시보드 스코어카드를 만드는 방법
 title: 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 56%
+source-wordcount: '1339'
+ht-degree: 54%
 
 ---
 
@@ -126,7 +126,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공
 
 **라인 시각화**
 
-라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
+라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간에 따른 차원을 표시하지만 시각화와 함께 작동합니다. 이 예에서 제품 카테고리 차원을 시각화하고 있습니다.
 
 ![라인 시각화](assets/line.png)
 
@@ -146,7 +146,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공
 
    ![지정되지 않음](assets/unspecified.png)
 
-1. 보고서에서 지정되지 않은 데이터를 제거하려면 **[!UICONTROL 지정되지 않음]** 옆에 있는 아이콘을 클릭하십시오.
+1. 보고서에서 지정되지 않은 데이터를 제거하려면 **[!UICONTROL 지정되지 않음]** 옆에 있는 아이콘을 클릭하십시오. 다른 차원 항목을 제거할 수도 있습니다.
 
 ## 타일 속성 보기 및 구성
 
