@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1ee998aa4c5c429ebb62be83f56431842dd75602
+source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 95%
+source-wordcount: '490'
+ht-degree: 93%
 
 ---
 
@@ -173,7 +173,9 @@ ht-degree: 95%
    + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
-   + [큐레이터 안내서](mobile-app/curator.md)
+   + [큐레이터 작업](mobile-app/curator.md)
+   + [스코어카드 만들기](mobile-app/create-scorecard.md)
+   + [대시보드를 사용하도록 경영진 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 개인정보 보호 {#cja-privacy}
    + [개인정보 보호 개요](privacy/privacy-overview.md)
