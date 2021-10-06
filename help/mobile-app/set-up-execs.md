@@ -3,13 +3,13 @@ description: Analytics 모바일 앱을 사용하도록 사용자를 설정하�
 title: 대시보드를 사용하도록 경영진 설정
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
+exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 56%
 
 ---
-
 
 # 대시보드를 사용하도록 경영진 사용자 설정
 
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en)에서 새 사용자를 설정합니다.
 
-1. 스코어카드를 공유하려면 앱 사용자에게 세그먼트, 지표 및 차원은 물론 스코어카드가 기반으로 하는 보고서 세트, Analysis Workspace과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
+1. 스코어카드를 공유하려면 앱 사용자에게 Analysis Workspace과 같은 스코어카드 구성 요소, 스코어카드가 기반으로 하는 데이터 보기, 필터, 지표 및 차원에 액세스할 수 있는 권한을 부여해야 합니다.
 
 ## 앱 사용자의 시스템 사전 요구 사항
 
@@ -111,4 +111,3 @@ ht-degree: 56%
 * 스코어카드가 경영진 사용자와 공유되지 않았을 수 있습니다.
 
 경영진 사용자가 올바른 Adobe Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
-
