@@ -4,10 +4,10 @@ title: 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 54%
+source-wordcount: '1378'
+ht-degree: 53%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 54%
 다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 대시보드를 구성 및 제공하는 방법에 대해 설명합니다. 시작하려면 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!NOTE]
+>이 페이지에 대한 스코어카드 스크린샷은 CJA가 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.
 
 Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
@@ -116,7 +119,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 요약 번호 시각화를 사용하십시오.
 
-![요약 번호](assets/sparkline.png)
+![요약 번호](assets/summary-number.png)
 
 ### [!UICONTROL 도넛]
 
@@ -153,11 +156,11 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공
 
 ![속성 타일](assets/properties_tile.png)
 
-## 드릴 보기(분류)
+## 드릴인 보기(분류)
 
-타일을 클릭하면 앱에서 드릴인(분류) 보기가 경영진 사용자에게 표시되는 방법이 동적 팝업에 나타납니다. 차원이 타일에 적용되지 않은 경우 분류 차원은 기본 날짜 범위에 따라 **시간** 또는 **일**&#x200B;이 됩니다.
+타일을 클릭하면 앱에서 드릴인(분류) 보기가 경영진 사용자에게 표시되는 방법이 동적 팝업에 나타납니다. 차원 및 차원 항목을 분류하여 특정 요구에 대한 데이터를 분류할 수 있습니다. 차원이 타일에 적용되지 않은 경우 분류 차원은 기본 날짜 범위에 따라 **시간** 또는 **일**&#x200B;이 됩니다.
 
-분류는 이 소매 예제와 같이, 지표와 차원을 다른 지표 및 차원으로 문자 그대로 분류하여 분석을 세분화합니다.
+분류는 이 소매 예제와 같이, 차원을 다른 지표 및 차원으로 문자 그대로 분류하여 분석을 세분화합니다.
 
 * 광고 플랫폼(AMO ID)별로 분류된 고유 방문자 수 지표
 * 제품 카테고리별로 분류된 방문 수(소매)
