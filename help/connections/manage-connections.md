@@ -3,10 +3,10 @@ title: 연결 관리
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
+source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 86%
+source-wordcount: '1714'
+ht-degree: 80%
 
 ---
 
@@ -137,3 +137,10 @@ ht-degree: 86%
 * 연결 이름을 변경할 수 있습니다.
 * 데이터 세트를 새로 고칩니다.
 * 연결에서 데이터 세트를 제거합니다.
+
+## [!UICONTROL 연결] 데이터 유지에 대한 롤링 창을 설정합니다
+
+>[!IMPORTANT]
+>이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. CJA UI를 통해 아직 사용할 수 없습니다.
+
+이 설정을 사용하면 CJA 데이터 보존 기간을 [!UICONTROL 연결] 수준([!UICONTROL 데이터 세트] 수준이 아님)에서 월(3개월, 6개월 등)으로 롤링 창으로 정의할 수 있습니다. 데이터 유지는 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없으므로 프로필 또는 조회 데이터 세트에 대한 데이터 유지 설정이 없습니다. 주요 이점은 적용 가능하고 유용한 데이터만 저장하거나 보고하고 더 이상 유용하지 않은 이전 데이터를 삭제하는 것입니다. 이것은 여러분이 계약 한도 내에서 머무르는 데 도움이 되고, 과도한 비용이 발생할 위험을 줄여줍니다.
