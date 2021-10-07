@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: 4b528ef401cbe63b6237c66c2e9f39ee831aa71e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 93%
+source-wordcount: '518'
+ht-degree: 88%
 
 ---
 
@@ -133,6 +133,15 @@ ht-degree: 93%
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace의 롱테일](analysis-workspace/workspace-faq/long-tail.md)
++ Report Builder {#cja-reportbuilder}
+   + [Report Builder 개요](report-builder/report-buider-overview.md)
+   + [Report Builder 설정](report-builder/report-builder-setup.md)
+   + [데이터 블록 만들기](report-builder/create-a-data-block.md)
+   + [Report Builder 허브](report-builder/report-builder-hub.md)
+   + [날짜 범위 선택](report-builder/select-date-range.md)
+   + [필터를 사용한 작업](report-builder/work-with-filters.md)
+   + [차원 필터링](report-builder/filter-dimensions.md)
+   + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
    + 차원 {#dimensions}

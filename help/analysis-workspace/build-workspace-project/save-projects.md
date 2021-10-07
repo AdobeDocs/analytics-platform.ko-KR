@@ -1,12 +1,12 @@
 ---
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장, 이전 버전 열기 등 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
-workflow-type: ht
-source-wordcount: '463'
+source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
+workflow-type: tm+mt
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 나중에 분석에 액세스하는 방식에 따라 **[!UICONTROL 프로젝트]** 메뉴 아래에서 수행할 수 있는 서로 다른 저장 작업이 있습니다.
 
 | 작업 | 설명 |
-|---|---| 
+|---|---|
 | **[!UICONTROL 저장]** | 프로젝트에 변경 사항을 저장합니다. 프로젝트가 공유되면 프로젝트의 수신자도 변경 내용을 보게 됩니다. 프로젝트를 처음 저장할 때 프로젝트에 이름, 설명(선택 사항) 및 태그를 추가(선택 사항)하라는 메시지가 표시됩니다. |
 | **[!UICONTROL 메모와 함께 저장]** | 프로제트를 저장하기 전에 프로젝트의 변경 내용에 대한 메모를 추가합니다. 메모는 프로젝트 버전과 함께 저장되고 [!UICONTROL 프로젝트] > [!UICONTROL 이전 버전 열기]에서 모든 편집자들이 사용할 수 있습니다. |
 | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
