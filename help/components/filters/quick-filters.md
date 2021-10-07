@@ -4,9 +4,9 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
+source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 2%
 * 프로젝트가 만들어진 프로젝트에만 적용합니다(이 설정을 변경할 수 있습니다.).
 * 최대 3개의 규칙 허용
 * 중첩된 컨테이너 또는 순차적 규칙을 수용하지 마십시오.
-* 여러 보고서 세트를 사용하는 프로젝트에서 작업
 
 빠른 필터가 수행할 수 있는 작업과 완전한 구성 요소 목록 필터를 비교하려면 [여기](/help/components/filters/filters-overview.md)로 이동하십시오.
 
