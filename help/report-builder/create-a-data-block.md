@@ -4,13 +4,13 @@ description: 데이터 블록을 만드는 방법을 설명합니다.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: d946e6dbda608499594cf48a9456131485e7349a
+exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
+source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
-
 
 # 데이터 블록 만들기
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. **날짜 범위**&#x200B;를 설정합니다.
 
-   날짜 범위 옵션을 사용하여 날짜 범위를 선택할 수 있습니다. 날짜 범위는 고정되거나 롤링될 수 있습니다. 데이터 범위 옵션에 대한 자세한 내용은 &lt;&lt; 날짜 범위에 연결 섹션 >> 을 참조하십시오.
+   날짜 범위 옵션을 사용하여 날짜 범위를 선택할 수 있습니다. 날짜 범위는 고정되거나 롤링될 수 있습니다. 데이터 범위 옵션에 대한 자세한 내용은 [날짜 범위 선택](select-date-range.md)을 참조하십시오.
 
 1. **다음**&#x200B;을 클릭합니다.
 
