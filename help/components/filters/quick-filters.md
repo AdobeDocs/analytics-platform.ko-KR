@@ -4,7 +4,7 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 2%
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 자유 형식 테이블의 패널 헤더에서 필터+ 아이콘을 클릭합니다.
 
-![](assets/quick-seg1.png)
+![세그먼트 필터](assets/quick-seg1.png)
 
 | 설정 | 설명 |
 | --- | --- |
 | 이름 | 필터의 기본 이름은 필터에 있는 규칙 이름의 조합입니다. 필터 이름을 보다 친숙한 이름으로 바꿀 수 있습니다. |
 | 포함/제외 | 필터 정의에 구성 요소를 포함하거나 제외할 수 있지만, 둘 다 포함할 수는 없습니다. |
 | 히트/방문/방문자 컨테이너 | 빠른 필터에는 필터에 차원/지표/날짜 범위를 포함하거나 제외할 수 있는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=ko-KR#filter-containers)만 포함됩니다.  방문자에는 방문 및 페이지 보기에서 해당 방문자 고유의 중요 데이터가 포함되어 있습니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
-| 구성 요소(Dimension/지표/날짜 범위) | 구성 요소(차원 및/또는 지표 및/또는 날짜 범위) 및 해당 값을 추가하여 최대 3개의 규칙을 정의합니다. 올바른 구성 요소를 찾는 세 가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 해당 구성 요소를 자동으로 찾습니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 찾습니다.</li><li>왼쪽 레일에서 구성 요소를 드래그하여 놓습니다.</li></ul> |
-| 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자와 [!UICONTROL 고유 개수] 연산자를 찾습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
+| 구성 요소(Dimension/지표/날짜 범위) | 구성 요소(차원, 지표, 날짜 범위 또는 차원 값)를 추가하여 최대 3개의 규칙을 정의합니다. 올바른 구성 요소를 찾는 세 가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 해당 구성 요소를 자동으로 찾습니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 찾습니다.</li><li>왼쪽 레일에서 구성 요소를 드래그하여 놓습니다.</li></ul> |
+| 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자와 [!UICONTROL 고유 개수] 연산자를 찾습니다. [필터 연산자](operators.md)를 참조하십시오. |
 | 더하기(+) 기호 | 다른 규칙 추가 |
 | 및/또는 구분자 | 규칙에 &quot;AND&quot; 또는 &quot;OR&quot; 한정자를 추가할 수 있지만, 단일 필터 정의에서 &quot;AND&quot; 및 &quot;OR&quot;를 혼합할 수 없습니다. |
 | 적용 | 이 필터를 패널에 적용합니다. 필터에 데이터가 없는 경우 계속하시겠습니까? |
@@ -51,11 +51,11 @@ ht-degree: 2%
 
 다음은 차원과 지표를 결합하는 필터의 예입니다.
 
-![](assets/quick-seg2.png)
+![필터 정의 예](assets/quick-seg2.png)
 
 필터가 맨 위에 나타납니다. 왼쪽의 필터 라이브러리에서 구성 요소 수준 필터에 대한 파란색 사이드바 대신 파란색으로 표시된 줄무늬 사이드바를 확인합니다.
 
-![](assets/quick-seg3.png)
+![구성 요소 위치 필터링](assets/quick-seg3.png)
 
 ## 빠른 필터 편집
 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
    Workspace 로 돌아가서 이제 필터가 어떻게 연한 파란색 사이드바를 가지고 있는지 확인합니다. 이는 빠른 필터 빌더에서 더 이상 편집하거나 열 수 없음을 나타냅니다. 이렇게 저장하면 구성 요소 목록의 일부가 됩니다.
 
-   ![](assets/quick-seg4.png)
+   ![구성 요소 목록 필터링](assets/quick-seg4.png)
 
 필터를 적용한 후 필터 구성 요소 목록에 추가하고 모든 프로젝트에서 사용할 수 있도록 선택할 수 있습니다.
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 1. 필터 빌더의 맨 위에서 다음 대화 상자를 확인합니다.
 
-   ![](assets/project-only.png)
+   ![필터 대화 상자](assets/project-only.png)
 
 1. **[!UICONTROL 옆의 확인란을 선택하여 모든 프로젝트에 사용 가능하게 하고 구성 요소 목록에 추가합니다.]**
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
