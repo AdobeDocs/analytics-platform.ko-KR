@@ -2,10 +2,10 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 87%
+source-wordcount: '1611'
+ht-degree: 83%
 
 ---
 
@@ -39,7 +39,6 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 질문 | 답변 |
 | --- | --- |
 | 하나의 [!UICONTROL Customer Journey Analytics] 연결에 다른 [!UICONTROL Adobe Experience Platform] 샌드박스의 데이터를 결합할 수 있습니까? | 아니요. 샌드박스에서 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#select-sandbox-and-datasets) |
-| [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>일반 로드 중: 60분 미만입니다. <br>**참고:** 파이프라인을 통해 비정상적으로 많은 데이터 흐름이 있는 경우 최대 24시간이 소요될 수 있습니다.</li><li>데이터 채우기(크기에 상관없이 최대 13개월 데이터): &lt; 4주</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 온라인 데이터를 오프라인 데이터로 어떻게 연결합니까? | 개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics]는 전체 데이터 세트에서 필터, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다. |
 | 오프라인 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까? | Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experience Platform에 수집할 수 있습니다. 그런 다음 Analysis Workspace에서의 보고를 위해 [!UICONTROL Customer Journey Analytics]에서 해당 데이터 및 데이터 보기에 대한 연결을 만들 수 있습니다. 필요한 경우 Experience Platform의 데이터 온보딩팀에서 추천이나 컨설팅 서비스를 제공할 수 있습니다. |
 | [!UICONTROL Adobe Analytics] 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까? | [!UICONTROL Adobe Analytics] 데이터는 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다. |
@@ -48,7 +47,17 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. 기존 [!UICONTROL Adobe Analytics] 구성 요소
+## 4. 지연 고려 사항
+
+>[!NOTE]
+>CJA에는 고정 데이터 크기가 없으므로 Adobe이 표준 수집 시간에 커밋할 수 없습니다. Adobe는 새로운 업데이트 및 수집 최적화를 통해 이러한 지연을 줄이기 위해 적극적으로 노력하고 있습니다.
+
+| 질문 | 답변 |
+| --- | --- |
+| [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>라이브 데이터 또는 이벤트: AEP에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다.</li><li>일괄 처리 크기 5,000만 개 이상의 행: 90분 이상</li><li>작은 채우기 - 예를 들어, 1,000만 행 조회 데이터 세트: 24시간 이내<li>큰 채우기 - 예를 들어 5,000억 행: 30일</li></ul> |
+
+
+## 5. 기존 [!UICONTROL Adobe Analytics] 구성 요소
 
 | 질문 | 답변 |
 | --- | --- |
@@ -61,7 +70,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 {style=&quot;table-layout:auto&quot;}
 
-## 5. 데이터 구성 요소 삭제의 영향
+## 6. 데이터 구성 요소 삭제의 영향
 
 데이터 삭제는 여섯 가지 유형의 구성 요소인 샌드박스, 스키마, 데이터 세트, 연결, 데이터 보기, Workspace 프로젝트와 관련이 있습니다. 다음은 이러한 구성 요소 중 하나를 삭제하는 것과 관련된 몇 가지 가능한 시나리오입니다.
 
@@ -76,7 +85,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
 
-## 6. CJA에서 보고서 세트를 병합할 때의 고려 사항
+## 7. CJA에서 보고서 세트를 병합할 때의 고려 사항
 
 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)를 통해 Adobe Analytics 데이터를 수집하려는 경우, 2개 이상의 Adobe Analytics 보고서 세트를 병합할 때 이러한 영향을 고려하십시오.
 
@@ -87,4 +96,4 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 지표 중복 제거 | 여러 행에 동일한 거래 ID가 있는 경우(예: [!UICONTROL Orders]) 지표의 인스턴스를 중복 제거합니다(예: [!UICONTROL 구매 ID]). 따라서 주요 지표의 초과 카운트가 방지됩니다. 따라서 [!UICONTROL 주문]과 같은 지표는 보고서 세트에 추가할 수 없습니다. |
 | 통화 | 통화 변환은 아직 CJA에서 지원되지 않습니다. 병합하려는 보고서 세트가 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
 | [!UICONTROL 지속성] | [](../data-views/component-settings/persistence.md) 지속성은 보고서 세트 간에 확장되며,  [!UICONTROL 필터],  [!UICONTROL 속성] 등에 영향을 줍니다. 숫자가 제대로 추가되지 않을 수 있습니다. |
-| [!UICONTROL 분류] |  분류는 보고서 세트를 병합할 때 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하면 문제가 발생할 수 있습니다. |
+| [!UICONTROL 분류] |  보고서 세트를 병합할 때 분류는 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하면 문제가 발생할 수 있습니다. |
