@@ -2,10 +2,10 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
+source-git-commit: d88502218cd94fbb430a0fc5a3af994e7edaa73c
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 83%
+source-wordcount: '1649'
+ht-degree: 93%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 
 CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다. 다음은 CJA와 관련하여 자주 묻는 질문에 대한 답변입니다. 자세한 내용은 [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md)을 검토하십시오.
 
-## 1. 전제 조건
+## 1. 사전 요구 사항
 
 | 질문 | 답변 |
 | --- | --- |
@@ -44,6 +44,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Adobe Analytics] 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까? | [!UICONTROL Adobe Analytics] 데이터는 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다. |
 | 데이터 세트 요소를 데이터 보기로 취합하는 데 얼마나 걸립니까? | 시작하는 데 몇 시간이 소요되고 지난 13개월간의 데이터를 채우는 데는 며칠이 소요됩니다. |
 | 데이터 간의 연결을 설정하려면 PII 데이터를 가져와야 합니까? | 아니요. PII가 아닌 고객 ID의 해시를 포함하여 모든 ID를 사용할 수 있습니다. |
+| CJA 이벤트 데이터 세트에서 과거 또는 향후 날짜/타임스탬프를 수집하기 위한 제한은 무엇입니까? | <ul><li>지난 날짜/타임스탬프와 관련하여: 최대 10년의 이벤트 데이터.</li><li>향후 날짜/타임스탬프와 관련하여: 향후 최대 1개월까지 이벤트 데이터(예측)</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,20 +81,20 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Adobe Experience Platform]에서 스키마를 삭제하지만 이 스키마와 연결된 데이터 세트는 삭제하지 않음 | [!UICONTROL Adobe Experience Platform]에서는 연관된 데이터 세트가 하나 이상 있는 스키마를 삭제할 수 없습니다. 그러나 적절한 권한 세트가 있는 관리자는 먼저 데이터 세트를 삭제한 다음 스키마를 삭제할 수 있습니다. |
 | [!UICONTROL Adobe Experience Platform]에서 데이터 세트를 삭제 | AEP 데이터 레이크에서 데이터 세트를 삭제하면 해당 데이터 세트로부터 이 데이터 세트를 포함하는 모든 CJA 연결로의 데이터 흐름이 정지됩니다. 해당 데이터 세트의 데이터는 연관된 CJA 연결에서 자동으로 삭제되지 않습니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트를 삭제 | 현재 저장된 연결 내에서는 데이터 세트를 삭제할 수 없습니다. 전체 연결을 삭제하고 다시 시작해야 합니다. (그러나 CJA SKU를 구매한 고객은 [!UICONTROL Adobe Experience Platform] 사용자 인터페이스에서 데이터 세트를 삭제할 수 있습니다.) |
-| [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 CJA 연결에서 동일한 일괄 처리가 제거됩니다.  CJA는 [!UICONTROL Adobe Experience Platform]에서 일괄 삭제 알림을 수신합니다. |
+| [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 CJA 연결에서 동일한 일괄 처리가 제거됩니다. CJA는 [!UICONTROL Adobe Experience Platform]에서 일괄 삭제 알림을 수신합니다. |
 | 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 처리가 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
 
-## 7. CJA에서 보고서 세트를 병합할 때의 고려 사항
+## 7. CJA에서 보고서 세트 병합 시 고려 사항
 
-[Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)를 통해 Adobe Analytics 데이터를 수집하려는 경우, 2개 이상의 Adobe Analytics 보고서 세트를 병합할 때 이러한 영향을 고려하십시오.
+[Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
 
 | 문제 | 고려 사항 |
 | --- | --- |
-| 변수 | [!UICONTROL eVars] 와 같은 변수는 보고서 세트에 줄 수 없습니다. 예를 들어, 보고서 세트 1의 eVar 1은 **[!UICONTROL Page]**&#x200B;를 가리킬 수 있습니다. 보고서 세트 2에서 eVar1은 **[!UICONTROL 내부 캠페인]**&#x200B;을 가리키면 혼합되고 부정확한 보고가 발생할 수 있습니다. |
-|  세션 및   사람 | 보고서 세트 간에 중복 제거됩니다. 따라서 카운트가 일치하지 않을 수 있습니다. |
-| 지표 중복 제거 | 여러 행에 동일한 거래 ID가 있는 경우(예: [!UICONTROL Orders]) 지표의 인스턴스를 중복 제거합니다(예: [!UICONTROL 구매 ID]). 따라서 주요 지표의 초과 카운트가 방지됩니다. 따라서 [!UICONTROL 주문]과 같은 지표는 보고서 세트에 추가할 수 없습니다. |
-| 통화 | 통화 변환은 아직 CJA에서 지원되지 않습니다. 병합하려는 보고서 세트가 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
-| [!UICONTROL 지속성] | [](../data-views/component-settings/persistence.md) 지속성은 보고서 세트 간에 확장되며,  [!UICONTROL 필터],  [!UICONTROL 속성] 등에 영향을 줍니다. 숫자가 제대로 추가되지 않을 수 있습니다. |
-| [!UICONTROL 분류] |  보고서 세트를 병합할 때 분류는 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하면 문제가 발생할 수 있습니다. |
+| 변수 | 보고서 세트에 [!UICONTROL eVar]와 같은 변수를 정렬할 수 없습니다. 예를 들어 보고서 세트 1의 eVar1은 **[!UICONTROL 페이지]**&#x200B;를 지정할 수 있습니다. eVar1이 보고서 세트2에서 **[!UICONTROL 내부 캠페인]**&#x200B;을 지정하는 경우 보고가 혼합되고 정확하지 않을 수 있습니다. |
+| [!UICONTROL 세션] 및 [!UICONTROL 인원] 수 | 보고서 세트에 대해서는 중복 제거되지 않습니다. 결과적으로 수는 일치하지 않을 수 있습니다. |
+| 지표 중복 제거 | 여러 행에 동일한 거래 ID(예: [!UICONTROL 구매 ID])가 있는 경우 지표의 인스턴스(예: [!UICONTROL 주문])를 중복 제거합니다. 이로써 주요 지표의 초과 계산을 방지합니다. 따라서 보고서 세트에서 [!UICONTROL 주문]과 같은 지표를 추가할 수 없습니다. |
+| 통화 | 통화 전환은 CIA에서 지원되지 않습니다. 병합하려는 보고서 세트가 서로 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
+| [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 필터] [!UICONTROL 속성] 등에 영향을 미칩니다. 번호가 제대로 추가될 수 없습니다. |
+| [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하는 경우 문제가 발생할 수 있습니다. |
