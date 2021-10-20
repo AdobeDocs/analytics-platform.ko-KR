@@ -2,7 +2,7 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: d88502218cd94fbb430a0fc5a3af994e7edaa73c
+source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 93%
@@ -44,7 +44,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Adobe Analytics] 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까? | [!UICONTROL Adobe Analytics] 데이터는 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다. |
 | 데이터 세트 요소를 데이터 보기로 취합하는 데 얼마나 걸립니까? | 시작하는 데 몇 시간이 소요되고 지난 13개월간의 데이터를 채우는 데는 며칠이 소요됩니다. |
 | 데이터 간의 연결을 설정하려면 PII 데이터를 가져와야 합니까? | 아니요. PII가 아닌 고객 ID의 해시를 포함하여 모든 ID를 사용할 수 있습니다. |
-| CJA 이벤트 데이터 세트에서 과거 또는 향후 날짜/타임스탬프를 수집하기 위한 제한은 무엇입니까? | <ul><li>지난 날짜/타임스탬프와 관련하여: 최대 10년의 이벤트 데이터.</li><li>향후 날짜/타임스탬프와 관련하여: 향후 최대 1개월까지 이벤트 데이터(예측)</li></ul> |
+| 과거 또는 향후 날짜/타임스탬프를 CJA 이벤트 데이터 세트에 섭취하는 제한은 무엇입니까? | <ul><li>지난 날짜/타임스탬프와 관련하여: 최대 10년의 이벤트 데이터.</li><li>향후 날짜/타임스탬프와 관련하여: 향후 최대 1개월까지 이벤트 데이터(예측)</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
