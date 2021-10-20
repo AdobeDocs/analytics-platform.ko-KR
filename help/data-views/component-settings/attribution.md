@@ -1,17 +1,17 @@
 ---
 title: 속성 구성 요소 설정
-description: 지표에 대한 기본 속성을 설정할 수 있도록 해줍니다.
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
-workflow-type: tm+mt
+description: 지표에 대한 기본 속성을 설정할 수 있습니다.
+exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
+source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-
 # 속성 구성 요소 설정
 
-속성을 사용하면 지표에 대한 기본 속성 모델을 설정할 수 있습니다. Analysis Workspace에서 작업하는 동안 주어진 지표의 속성 모델을 무시할 수 있습니다.
+속성을 통해 지표에 대한 기본 속성 모델을 설정할 수 있습니다. Analysis Workspace에서 작업하는 동안 특정 지표의 속성 모델을 재정의할 수 있습니다.
 
 ![속성](../assets/attribution-settings.png)
 
