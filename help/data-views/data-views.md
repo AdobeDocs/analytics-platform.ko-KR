@@ -3,15 +3,15 @@ title: 데이터 보기 개요
 description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 데이터 보기 개요
 
-데이터 보기는 [연결](/help/connections/create-connection.md)에서 데이터를 해석하는 방법을 결정할 수 있도록 해주는 Customer Journey Analytics과 관련된 컨테이너입니다. Analysis Workspace에서 사용할 수 있는 모든 차원 및 지표와 그러한 차원 및 지표가 데이터를 가져오는 열을 지정합니다. 데이터 보기는 Analysis Workspace에서 보고할 준비를 위해 정의됩니다.
+데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 [연결](/help/connections/create-connection.md)에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * 데이터 보기에서 **컨테이너의 이름을 바꾸고** 해당 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에서 이름이 변경된 컨테이너를 표면화하도록 할 수 있습니다.
 
-## 데이터 보기의 전제 조건
+## 데이터 보기의 사전 요구 사항
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다](/help/connections/create-connection.md).
 * 데이터 보기를 생성하거나 관리하려면 [Adobe Admin Console에서 권한 집합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR#admin-access-permissions)이 필요합니다.
