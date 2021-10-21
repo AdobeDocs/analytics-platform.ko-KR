@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 89%
    + 구성 요소 설정 {#component-settings}
       + [구성 요소 설정 개요](data-views/component-settings/overview.md)
       + [속성](data-views/component-settings/attribution.md)
-      + [동작](data-views/component-settings/behavior.md)
-      + [형식](data-views/component-settings/format.md)
+      + [비헤이비어](data-views/component-settings/behavior.md)
+      + [포맷](data-views/component-settings/format.md)
       + [포함/제외 값](data-views/component-settings/include-exclude-values.md)
       + [지표 중복 제거](data-views/component-settings/metric-deduplication.md)
       + [값 옵션 없음](data-views/component-settings/no-value-options.md)
@@ -155,7 +155,7 @@ ht-degree: 89%
       + [필터 만들기](components/filters/create-filters.md)
       + [필터 관리](components/filters/manage-filters.md)
       + [빠른 필터](components/filters/quick-filters.md)
-      + [애드혹 필터](components/filters/ad-hoc-filters.md)
+      + [임시 필터](components/filters/ad-hoc-filters.md)
       + [연산자](components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](components/calc-metrics/calc-metr-overview.md)
@@ -174,8 +174,8 @@ ht-degree: 89%
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + [개체 배열 사용](use-cases/object-arrays.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
-   + [여러 채널에서 데이터 분석](use-cases/cross-channel.md)
-   + [콜 센터 및 웹 데이터 가져오기](use-cases/call-center.md)
+   + [채널 간 데이터 분석](use-cases/cross-channel.md)
+   + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
    + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
