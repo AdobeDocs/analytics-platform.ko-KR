@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
+source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 93%
+source-wordcount: '560'
+ht-degree: 92%
 
 ---
 
@@ -159,8 +159,21 @@ ht-degree: 93%
       + [연산자](components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](components/calc-metrics/calc-metr-overview.md)
-      + [계산된 지표 만들기](components/calc-metrics/create.md)
-      + [계산된 지표 관리](components/calc-metrics/manage.md)
+      + 계산된 지표 워크플로우 {#cm-workflow}
+         + [계산된 지표 작업 과정](components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [지표 찾기](components/calc-metrics/cm-workflow/cm-finding.md)
+         + [지표 작성](components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [지표 유형 및 속성](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+         + [간단한 &quot;방문자 수당 페이지 조회수&quot; 지표 작성](components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [필터링된 지표](components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [세그먼트 스택 및 바꾸기](components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [필터 및 가중치가 적용된 지표](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [함수 사용](components/calc-metrics/cm-workflow/cm-using-functions.md)
+         + [참여도 지표](components/calc-metrics/cm-workflow/participation-metric.md)
+         + [계산된 지표에 태그 지정](components/calc-metrics/cm-workflow/cm-tagging.md)
+         + [계산된 지표 승인](components/calc-metrics/cm-workflow/cm-approving.md)
+         + [계산된 지표 공유](components/calc-metrics/cm-workflow/cm-sharing.md)
+         + [계산된 지표 관리자](components/calc-metrics/cm-workflow/cm-manager.md)
       + [기본 함수](components/calc-metrics/cm-functions.md)
       + [고급 함수](components/calc-metrics/cm-adv-functions.md)
    + 날짜 범위 {#cja-date-ranges}
