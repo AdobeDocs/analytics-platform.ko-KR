@@ -3,10 +3,10 @@ description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 941c32ce5ec9bfec020a68297397574f687d5e2b
+source-git-commit: 7abd4d08f02597aed1af27970b8497898a553a10
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 표시되는 행 수를 변경하려면 다음을 수행하십시오.
 
-1. 표의 맨 위에 있는 행 옆에 있는 숫자를 클릭합니다.
+1. 옆에 있는 숫자를 클릭합니다 [!UICONTROL 행] 테이블 맨 위에
 
    ![](assets/row-number.png)
 
