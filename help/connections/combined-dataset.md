@@ -2,10 +2,10 @@
 title: 결합된 이벤트 데이터 세트
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: dd68a85b1398fa99e6ee5fff1c356a005ebb9482
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 * 스키마가 결합됩니다. 중복된 스키마 필드가 병합됩니다.
 * 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 CJA에서 고유한 방문자를 식별하는 기반입니다.
 * 행은 타임스탬프를 기반으로 처리됩니다.
+* 이벤트는 밀리초 수준으로 확인됩니다.
 
 ## 예
 
@@ -73,4 +74,4 @@ ht-degree: 100%
 | --- | --- |
 | 노란색 | 6 |
 | 파란색 | 3 |
-| 빨간색 | 2 |
+| 빨간색 | 2개 |
