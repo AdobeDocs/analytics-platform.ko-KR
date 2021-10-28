@@ -2,10 +2,10 @@
 title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 82%
 
 ---
 
@@ -38,3 +38,14 @@ ht-degree: 100%
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=ko) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 구분 기호 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
+
+## [!UICONTROL 어두운 테마]
+
+Customer Journey Analytics 사용자 인터페이스에 어두운 배경이 있으려면 다음과 같이 전환할 수 있습니다 [!UICONTROL 어두운 테마].
+
+1. 오른쪽 상단에 있는 Experience Cloud 사용자 아이콘을 클릭합니다.
+
+   ![어두운 테마](assets/dark-theme.png)
+
+1. 이동 **[!UICONTROL 어두운 테마]** 오른쪽으로 전환합니다.
+

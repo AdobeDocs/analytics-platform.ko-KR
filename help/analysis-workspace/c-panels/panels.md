@@ -2,16 +2,16 @@
 description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 62%
+source-wordcount: '845'
+ht-degree: 60%
 
 ---
 
 # 패널 개요
 
-[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)에 액세스 할 수 있습니다. 패널 은 기간, 데이터 보기 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
+[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)에 액세스할 수 있습니다. 패널 은 기간, 데이터 보기 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL 빠른 인사이트],   빈 및   자유 형식 패널은 분석을 시작할 수 있는 좋은 위치이며,  [!UICONTROL 속성 ] IQ는 더 고급 분석을 지원합니다. 프로젝트에서 `"+"` 단추를 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+[!UICONTROL 빠른 인사이트], [!UICONTROL 비어 있음] 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기 좋은 위치입니다 [!UICONTROL Attribution IQ] 더 고급 분석에 도움이 됩니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
 기본 시작 패널은 [!UICONTROL 자유 형식] 패널이지만 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)도 기본값으로 설정할 수 있습니다.
 
@@ -30,9 +30,11 @@ ht-degree: 62%
 
 패널 달력은 패널 내의 테이블 및 시각화에 대한 보고 범위를 제어합니다.
 
-참고:  (보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
+참고: (보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
 
 ![](assets/panel-calendar.png)
+
+패널 달력의 고급 설정에서 분 수준 날짜 범위를 적용할 수 있습니다. 여러 일에 걸쳐 있는 날짜 범위에 대해 보고하는 경우, 시작 시간이 첫 번째 날에 적용되고 종료 시간이 범위의 마지막 날에 적용됩니다.
 
 ## 드롭 영역 {#dropzone}
 
@@ -44,7 +46,7 @@ ht-degree: 62%
 
 ![](assets/segment-filter.png)
 
-### 애드혹 필터
+### 임시 필터
 
 필터가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 필터를 생성할 수도 있습니다. 이렇게 하면 필터 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 히트 수준 필터로 정의됩니다. 필터 옆의 정보 아이콘(i)을 클릭한 다음, 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 이 정의를 수정할 수 있습니다.
 
@@ -63,12 +65,12 @@ ht-degree: 62%
 드롭다운 필터를 만들려면 다음을 수행하십시오.
 
 1. [!UICONTROL 마케팅 채널] 차원 내의 값과 같은 [!UICONTROL 차원 항목]을 사용하여 드롭다운 필터를 생성하려면 왼쪽 레일에서 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 그러면 사용 가능한 모든 항목이 표시됩니다. 왼쪽 레일에서 하나 이상의 구성 요소 항목을 선택하고 **Shift 키를 누른 상태에서** 패널 드롭 영역에 드롭합니다. 이렇게 하면 구성 요소가 단일 필터가 아닌 드롭다운 필터로 바뀝니다.
-1. 지표, 필터 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 구성 요소 유형 중에서 선택하고 Shift 키&#x200B;**를 누른 채 패널 드롭존**&#x200B;에 드롭합니다.
+1. 지표, 필터 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 구성 요소 유형 중에서 선택하고 패널 드롭존에 드롭합니다 **Shift 키를 누른 채**.
 1. 드롭다운에서 옵션 중 하나를 선택하여 패널의 데이터를 변경합니다. **[!UICONTROL 필터 없음]**&#x200B;을 선택하여 패널 데이터를 필터링하지 않도록 선택할 수도 있습니다.
 
 ![](assets/create-dropdown.png)
 
-프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html).
+프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko-KR).
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
