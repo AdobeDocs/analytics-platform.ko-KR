@@ -2,7 +2,7 @@
 description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세그먼트를 정리할 수 있습니다.
 title: 계산된 지표에 태그 지정
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
