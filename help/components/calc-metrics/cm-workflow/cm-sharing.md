@@ -2,7 +2,7 @@
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
 title: 계산된 지표 공유
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
 ht-degree: 100%
 
