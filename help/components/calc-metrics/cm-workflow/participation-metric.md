@@ -2,7 +2,7 @@
 description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표를 만들 수 있습니다.
 title: 기여도 지표
 source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
