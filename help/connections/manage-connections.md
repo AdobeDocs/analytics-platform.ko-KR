@@ -3,9 +3,9 @@ title: 연결 관리
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 6d1907d676ea01b3956d5ce2ce76d43d7a8f0f1d
+source-git-commit: 3103e02bb49b6e5913c8a71d7ecf436b5ee90d11
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1866'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 81%
 * 연결 이름을 변경할 수 있습니다.
 * 연결에서 데이터 보기를 만들 수 있습니다.
 
-![연결 관리](assets/conn-manager.png)
+![](assets/conn-manager.png)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -85,7 +85,7 @@ ht-degree: 81%
 
 위젯과 설정에 대한 설명은 다음과 같습니다.
 
-![연결 세부 정보 보기](assets/conn-details.png)
+![](assets/conn-details.png)
 
 | 위젯/설정 | 설명 |
 | --- | --- |
