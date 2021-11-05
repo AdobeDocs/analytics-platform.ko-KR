@@ -3,7 +3,7 @@ title: 연결 관리
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 4ac2d58cd14df8a6aae5728b4fabd11ec47abbed
+source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 77%
@@ -141,7 +141,7 @@ ht-degree: 77%
 | [!UICONTROL 스키마] | 이 데이터 세트가 기반으로 하는 Adobe Experience Platform 스키마를 표시합니다. |
 | [!UICONTROL 데이터 세트 ID] | 이 ID는 Adobe Experience Platform에서 시스템에 의해 생성됩니다. |
 
-### 연결 편집
+## 연결 편집
 
 관리자가 연결을 편집할 수 있습니다. 이 대화 상자를 사용하려면 연결을 선택하고 [!UICONTROL 연결 편집]을 클릭합니다. 여기에서 다음과 같은 작업을 수행할 수 있습니다.
 
