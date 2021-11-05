@@ -2,10 +2,10 @@
 description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 94b086c9eb0b148ebb176a37205030b862ac2678
+source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 60%
+source-wordcount: '851'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 60%
 
 ## 패널 유형
 
-Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
+다음 패널 유형은 Analysis Workspace에서 사용할 수 있습니다 [!UICONTROL Customer Journey Analytics]:
 
 | 패널 이름 | 설명 |
 | --- | --- |
@@ -38,7 +38,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 ![](assets/panel-calendar.png)
 
-패널 달력의 고급 설정에서 분 수준 날짜 범위를 적용할 수 있습니다. 여러 일에 걸쳐 있는 날짜 범위에 대해 보고하는 경우, 시작 시간이 첫 번째 날에 적용되고 종료 시간이 범위의 마지막 날에 적용됩니다.
+패널 달력의 고급 설정에서 분 수준 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다.
 
 ## 드롭 영역 {#dropzone}
 
