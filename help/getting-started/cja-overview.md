@@ -2,16 +2,20 @@
 title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-source-git-commit: fa0033202650f17acd275f1050565285c1464f53
-workflow-type: ht
-source-wordcount: '1255'
-ht-degree: 100%
+source-git-commit: e358d79921c30f0d8663f35768ce20e2439439fd
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
 # Customer Journey Analytics 개요
 
 Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Experience Platform의 데이터에 사용할 수 있는 Analytics 기능입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며, 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합되어 있습니다. **XDM(Experience Data Model)**&#x200B;을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. **Experience Query Services**&#x200B;를 사용하면 SQL 호환 도구와 프레임워크를 사용하여 모든 데이터를 쿼리하고 조작할 수 있습니다.
+
+높은 수준의 CJA 아키텍처는 다음과 같습니다.
+
+![아키텍처](assets/cja-architecture.png)
 
 ## CJA와 기존 Adobe Analytics 비교하기
 
