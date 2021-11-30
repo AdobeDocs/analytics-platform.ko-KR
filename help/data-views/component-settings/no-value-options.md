@@ -2,8 +2,9 @@
 title: 값 옵션 없음 구성 요소 설정
 description: 비어 있는 경우 차원을 처리하는 방법을 결정합니다.
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 

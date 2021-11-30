@@ -2,8 +2,9 @@
 title: 포맷 구성 요소 설정
 description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 

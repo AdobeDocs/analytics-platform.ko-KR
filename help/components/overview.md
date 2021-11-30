@@ -1,12 +1,12 @@
 ---
-title: 구성 요소 개요
+title: Customer Journey Analytics에 있는 구성 요소는 무엇입니까?
 description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 요소를 사용할 수 있는 방법을 알아봅니다.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
-translation-type: ht
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 

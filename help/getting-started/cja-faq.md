@@ -2,10 +2,11 @@
 title: Customer Journey Analytics FAQ
 description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,18 +45,18 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Adobe Analytics] 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까? | [!UICONTROL Adobe Analytics] 데이터는 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다. |
 | 데이터 세트 요소를 데이터 보기로 취합하는 데 얼마나 걸립니까? | 시작하는 데 몇 시간이 소요되고 지난 13개월간의 데이터를 채우는 데는 며칠이 소요됩니다. |
 | 데이터 간의 연결을 설정하려면 PII 데이터를 가져와야 합니까? | 아니요. PII가 아닌 고객 ID의 해시를 포함하여 모든 ID를 사용할 수 있습니다. |
-| 과거 또는 향후 날짜/타임스탬프를 CJA 이벤트 데이터 세트에 섭취하는 제한은 무엇입니까? | <ul><li>지난 날짜/타임스탬프와 관련하여: 최대 10년의 이벤트 데이터.</li><li>향후 날짜/타임스탬프와 관련하여: 향후 최대 1개월까지 이벤트 데이터(예측)</li></ul> |
+| 과거 또는 미래 날짜/타임스탬프를 CJA 이벤트 데이터 세트로 수집하는 것에 대한 제한은 얼마입니까? | <ul><li>과거 날짜/타임스탬프 관련: 최대 10년 이전의 이벤트 데이터.</li><li>미래 날짜/타임스탬프 관련: 최대 1개월 후의 이벤트 데이터(예측).</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 4. 지연 고려 사항
 
 >[!NOTE]
->CJA에는 고정 데이터 크기가 없으므로 Adobe이 표준 수집 시간에 커밋할 수 없습니다. Adobe는 새로운 업데이트 및 수집 최적화를 통해 이러한 지연을 줄이기 위해 적극적으로 노력하고 있습니다.
+>CJA에는 고정된 데이터 크기가 없으므로 Adobe는 표준 수집 시간을 약속할 수 없습니다. 당사는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
 | 질문 | 답변 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>라이브 데이터 또는 이벤트: AEP에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다.</li><li>일괄 처리 크기 5,000만 개 이상의 행: 90분 이상</li><li>작은 채우기 - 예를 들어, 1,000만 행 조회 데이터 세트: 24시간 이내<li>큰 채우기 - 예를 들어 5,000억 행: 30일</li></ul> |
+| [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>라이브 데이터 또는 이벤트: AEP에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다.</li><li>배치 크기 > 5천만 행: 90분 이상.</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 24시간 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul> |
 
 
 ## 5. 기존 [!UICONTROL Adobe Analytics] 구성 요소
@@ -73,7 +74,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 ## 6. 데이터 구성 요소 삭제의 영향
 
-데이터 삭제는 여섯 가지 유형의 구성 요소인 샌드박스, 스키마, 데이터 세트, 연결, 데이터 보기, Workspace 프로젝트와 관련이 있습니다. 다음은 이러한 구성 요소 중 하나를 삭제하는 것과 관련된 몇 가지 가능한 시나리오입니다.
+데이터 삭제는 여섯 가지 유형의 구성 요소인 샌드박스, 스키마, 데이터 세트, 연결, 데이터 보기, 작업 영역 프로젝트와 관련이 있습니다. 다음은 이러한 구성 요소 중 하나를 삭제하는 것과 관련된 몇 가지 가능한 시나리오입니다.
 
 | 다음을 수행하는 경우 | 발생하는 결과 |
 | --- | --- |

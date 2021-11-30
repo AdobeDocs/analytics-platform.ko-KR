@@ -2,10 +2,11 @@
 title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 99%
 | 보고 API 액세스 | 전체 지원: [CJA API](https://www.adobe.io/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원: 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
-| 사용자 권한/데이터 액세스 제어 | 전체 지원: CJA는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자와 사용자를 구별합니다. 제품 관리자만 다음과 같은 작업을 수행할 수 있습니다. <ul><li>연결 또는 데이터 보기 만들기/업데이트/삭제</li><li>다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제</li><li>모든 사용자에게 Workspace 프로젝트 공유</li></ul> |
+| 사용자 권한/데이터 액세스 제어 | 전체 지원: CJA는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자와 사용자를 구별합니다. 제품 관리자만 다음과 같은 작업을 수행할 수 있습니다. <ul><li>연결 또는 데이터 보기 만들기/업데이트/삭제</li><li>다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제</li><li>모든 사용자에게 작업 영역 프로젝트 공유</li></ul> |
 | 가상 보고서 세트 | 전체 지원: 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | VRS 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
 

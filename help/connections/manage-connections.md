@@ -1,12 +1,13 @@
 ---
-title: 연결 관리
+title: Customer Journey Analytics에서 연결을 관리하는 방법
 description: CJA(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 77%
+source-wordcount: '1948'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 77%
 | [!UICONTROL 소유자] | 연결을 만든 사람입니다. |
 | [!UICONTROL 데이터 세트 가져오기] | &quot;데이터 스트리밍&quot;으로 불렸던 기능을 활성화 또는 비활성화할 수 있습니다. |
 | [!UICONTROL 만든 날짜] | 연결을 처음 만든 날짜입니다. |
-| [!UICONTROL 마지막 수정 날짜] | 연결을 마지막으로 업데이트한 날짜입니다. |
+| [!UICONTROL 마지막 수정일] | 연결을 마지막으로 업데이트한 날짜입니다. |
 
 ### 연결 삭제 {#connections-delete}
 
@@ -120,17 +121,17 @@ ht-degree: 77%
 | [!UICONTROL 샌드박스] | 이 연결이 그 데이터 세트를 가져오는 출처 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)입니다. 이 샌드박스는 연결을 처음 만들 때 선택됩니다. 이는 변경할 수 없습니다. |
 | [!UICONTROL 연결 ID] | 이 ID는 Adobe Experience Platform에서 시스템에 의해 생성됩니다. |
 | [!UICONTROL 연결을 이용한 데이터 보기] | 이 연결을 사용하는 데이터 보기를 모두 나열합니다. |
-| [!UICONTROL 새 데이터 가져오기] | (설정/해제) 데이터의 새 배치를 내역(채우기) 데이터에 추가해야 하는지 여부를 나타냅니다. |
+| [!UICONTROL 새 데이터 가져오기] | (켜기/끄기) 데이터의 새 배치를 내역(채우기) 데이터에 추가해야 하는지 여부를 나타냅니다. |
 | [!UICONTROL 채우기 데이터] | 채우기(내역) 데이터는 [!UICONTROL 대기 중], [!UICONTROL 진행 중] (진행률 함께 표시), [!UICONTROL 완료]의 3가지 상태로 추적됩니다. |
 | [!UICONTROL 작성자] | 연결을 만든 사람의 이름을 표시합니다. |
-| [!UICONTROL 마지막 수정] | 연결에 대한 마지막 변경 날짜 및 시간을 표시합니다. |
+| [!UICONTROL 마지막 수정일] | 연결에 대한 마지막 변경 날짜 및 시간을 표시합니다. |
 | [!UICONTROL 마지막 수정자] | 연결을 마지막으로 수정한 사람을 표시합니다. |
 
 ### 데이터 세트 수준의 오른쪽 레일 설정
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL 개인 ID] | Experience Platform의 데이터 세트 스키마에 정의된 ID를 표시합니다. 이는 연결 생성 중 선택한 개인 ID입니다. 다양한 ID가 있는 데이터 세트를 포함하는 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 데이터 세트에서 동일한 개인 ID를 사용해야 합니다. |
+| [!UICONTROL 개인 ID] | Experience Platform의 데이터 세트 스키마에 정의된 ID를 표시합니다. 이는 연결 생성 중 선택한 개인 ID입니다. 다양한 ID가 있는 데이터 세트를 포함하는 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 데이터 세트 간에 동일한 개인 ID를 사용해야 합니다. |
 | [!UICONTROL 사용 가능한 레코드] | 달력을 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수를 나타냅니다. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. (예외적으로, 새 연결을 만들 때는 [지연 시간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#3.-getting-data-into-customer-journey-analytics)이 있습니다. |
 | [!UICONTROL 추가된 레코드] | 선택한 기간에 추가된 행 수를 나타냅니다. **참고**: **[!UICONTROL 추가된 레코드]**&#x200B;에 대한 데이터에는 현재 프로필이나 조회 데이터가 아닌 이벤트 데이터만 포함됩니다. |
 | [!UICONTROL 삭제된 레코드] | 선택한 기간 동안 삭제된 레코드 수를 나타냅니다. **참고**: **[!UICONTROL 삭제된 레코드]**&#x200B;에 대한 데이터에는 현재 프로필이나 조회 데이터가 아닌 이벤트 데이터만 포함됩니다. |
@@ -150,9 +151,9 @@ ht-degree: 77%
 * 데이터 세트를 새로 고칩니다.
 * 연결에서 데이터 세트를 제거합니다.
 
-## 다음에 대한 롤링 창 설정 [!UICONTROL 연결] 데이터 보존
+## [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정
 
 >[!IMPORTANT]
 >이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. 아직 CJA UI를 통해서는 사용할 수 없습니다.
 
-이 설정을 사용하여 CJA 데이터 보존 기간을 한 번에 월(3개월, 6개월 등)로 정의할 수 있습니다 [!UICONTROL 연결] 수준(아님) [!UICONTROL 데이터 세트] 수준). 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다. 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
+이 설정을 사용하면 CJA 데이터 보존을 [!UICONTROL 연결] 수준([!UICONTROL 데이터 세트] 수준이 아닌)에서 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다. 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.

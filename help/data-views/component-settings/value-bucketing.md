@@ -2,8 +2,9 @@
 title: 값 버킷팅 구성 요소 설정
 description: 차원에서 숫자 값을 조합합니다.
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 

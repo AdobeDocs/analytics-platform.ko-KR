@@ -4,10 +4,11 @@ title: Adobe Analytics 대시보드 경영진 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

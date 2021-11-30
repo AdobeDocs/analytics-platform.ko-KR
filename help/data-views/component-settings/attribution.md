@@ -2,8 +2,9 @@
 title: 속성 구성 요소 설정
 description: 지표에 대한 기본 속성을 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

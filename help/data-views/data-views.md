@@ -2,8 +2,9 @@
 title: 데이터 보기 개요
 description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 

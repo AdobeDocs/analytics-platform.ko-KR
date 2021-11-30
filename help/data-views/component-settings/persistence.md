@@ -2,10 +2,11 @@
 title: 지속성 구성 요소 설정
 description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤트로 지속되는지 여부를 결정합니다.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-source-git-commit: e8f372692e60158ce7f30837ee4da0f922e1d752
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 97%
 | 설정 | 설명 |
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 차원에 대한 지속성 설정을 활성화합니다. 지속성 설정이 활성화되지 않으면 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다. 이 설정은 기본적으로 비활성화되어 있습니다. |
-| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 2021년 10월 28일부터 최대 90일의 전환 확인 기간이 [!UICONTROL 할당] 설정 |
+| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 할당 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 2021년 10월 28일부터 최대 90일의 전환 확인 기간이 [!UICONTROL 할당] 설정에 추가됩니다. |
 | [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션] (기본값), [!UICONTROL 개인], [!UICONTROL 사용자 지정 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만을 사용할 수 있습니다. |
 
 ## [!UICONTROL 할당] 설정

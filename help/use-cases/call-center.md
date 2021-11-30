@@ -2,8 +2,9 @@
 title: 콜센터 및 웹 데이터 가져오기
 description: 콜센터와 웹 사이트 데이터를 연결하는 데이터 세트를 만드는 방법을 알아봅니다.
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 

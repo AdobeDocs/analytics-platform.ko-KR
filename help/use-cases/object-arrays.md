@@ -2,9 +2,9 @@
 title: 개체 배열 사용
 description: CJA가 데이터 계층에 관해 보고하는 방법을 이해합니다.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 

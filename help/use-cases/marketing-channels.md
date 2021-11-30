@@ -2,8 +2,9 @@
 title: Adobe Experience Platform에서의 마케팅 채널 차원 사용
 description: Analytics 데이터 커넥터를 사용하여 마케팅 채널 처리 규칙을 Adobe Experience Platform으로 가져옵니다.
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 ## 전제 조건
 
-* 보고서 세트 데이터는 미리 [분석 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
+* 보고서 세트 데이터는 미리 [분석 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
 * 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 기존 분석 구성 요소 안내서의 [마케팅 채널 처리 규칙](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=ko-KR)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
@@ -60,5 +61,5 @@ Adobe Experience Platform의 아키텍처는 기존의 Analytics 보고서 세�
 * 위에 나열된 아키텍처 차이점이 비교에 영향을 주지 않는지 확인합니다. 여기에는 마지막 터치 채널을 무시하지 않는 채널을 제거하고 방문의 첫 번째 히트(세션)인 규칙 기준을 제거하는 작업이 포함됩니다.
 * 연결에 기존 Analytics와 동일한 보고서 세트를 사용하는지 다시 확인하십시오. CJA 연결에 자체 마케팅 채널 처리 규칙이 있는 보고서 세트가 여러 개 있는 경우 기존 Analytics와 비교하는 쉬운 방법이 없습니다. 데이터를 비교하기 위해 각 보고서 세트에 대해 별도의 연결을 만들어야 합니다.
 * 동일한 날짜 범위를 비교하고 데이터 보기의 시간대 설정이 보고서 세트의 시간대와 같은지 확인합니다.
-* 보고서 세트 데이터를 볼 때 사용자 지정 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=ko-KR) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=ko-KR)이나 [마지막 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=ko-KR)을 비교하지 않도록 권장합니다. CJA는 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 CJA 보고서가 실행되면 계산됩니다.
+* 보고서 세트 데이터를 볼 때 사용자 지정 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=ko-KR)이나 [마지막 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=ko-KR)을 비교하지 않도록 권장합니다. CJA는 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 CJA 보고서가 실행되면 계산됩니다.
 * 일부 지표는 보고서 세트 데이터와 플랫폼 데이터 간의 아키텍처 차이로 인해 비교하기가 어렵습니다. 방문 횟수/세션 수, 방문자 수/사람 및 발생 횟수/이벤트 횟수 등을 예로 들 수 있습니다.

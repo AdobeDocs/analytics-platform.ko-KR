@@ -2,8 +2,9 @@
 title: 데이터 세트에 전역 조회 추가
 description: 전역 조회를 사용하여 Customer Journey Analytics의 유용한 차원으로 보고를 보완할 수 있습니다.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
-source-git-commit: 26ee2b61fb80b55a7982d90941ec121547423cfc
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 

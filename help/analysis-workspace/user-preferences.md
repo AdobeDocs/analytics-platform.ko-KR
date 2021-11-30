@@ -2,10 +2,11 @@
 title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 82%
 
 ## 프로젝트 환경 설정
 
-프로젝트 환경 설정은 Analysis Workspace에서 생성된 새 프로젝트와 새 패널에 적용됩니다. 환경 설정은 Workspace > 프로젝트 > 프로젝트 정보 및 설정에서도 관리할 수 있습니다.
+프로젝트 환경 설정은 Analysis Workspace에서 생성된 새 프로젝트와 새 패널에 적용됩니다. 환경 설정은 작업 영역 > 프로젝트 > 프로젝트 정보 및 설정에서도 관리할 수 있습니다.
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
@@ -41,11 +42,11 @@ ht-degree: 82%
 
 ## [!UICONTROL 어두운 테마]
 
-Customer Journey Analytics 사용자 인터페이스에 어두운 배경이 있으려면 다음과 같이 전환할 수 있습니다 [!UICONTROL 어두운 테마].
+Customer Journey Analytics 사용자 인터페이스에 어두운 배경을 사용하려는 경우 [!UICONTROL 어두운 테마]로 전환할 수 있습니다.
 
-1. 오른쪽 상단에 있는 Experience Cloud 사용자 아이콘을 클릭합니다.
+1. 오른쪽 상단에서 Experience Cloud 사용자 아이콘을 클릭합니다.
 
-   ![어두운 테마](assets/dark-theme.png)
+   ![dark-theme](assets/dark-theme.png)
 
-1. 이동 **[!UICONTROL 어두운 테마]** 오른쪽으로 전환합니다.
+1. **[!UICONTROL 어두운 테마]** 토글을 오른쪽으로 이동합니다.
 
