@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 92%
+source-wordcount: '556'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 92%
    + [연결 관리](connections/manage-connections.md)
    + [연결 크기 예상](connections/estimate-connection-size.md)
    + [결합된 이벤트 데이터 세트](connections/combined-dataset.md)
+   + [표준 조회](connections/standard-lookups.md)
    + 크로스 채널 분석 {#cca}
       + [크로스 채널 분석 개요](connections/cca/overview.md)
       + [재생 작동 방식](connections/cca/replay.md)
@@ -41,7 +42,7 @@ ht-degree: 92%
    + [데이터 보기 만들기 또는 편집](data-views/create-dataview.md)
    + 구성 요소 설정 {#component-settings}
       + [구성 요소 설정 개요](data-views/component-settings/overview.md)
-      + [속성](data-views/component-settings/attribution.md)
+      + [기여도 분석](data-views/component-settings/attribution.md)
       + [비헤이비어](data-views/component-settings/behavior.md)
       + [포맷](data-views/component-settings/format.md)
       + [포함/제외 값](data-views/component-settings/include-exclude-values.md)
@@ -51,7 +52,7 @@ ht-degree: 92%
       + [값 버킷팅](data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](data-views/component-reference.md)
    + [데이터 보기 활용 사례](data-views/data-views-usecases.md)
-+ Workspace 프로젝트 {#cja-workspace}
++ 작업 영역 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [기본 분석 수행](analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](analysis-workspace/perform-adv-analysis.md)
@@ -71,7 +72,7 @@ ht-degree: 92%
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [작업 영역 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -125,7 +126,7 @@ ht-degree: 92%
          + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
-   + Workspace FAQ {#workspace-faq}
+   + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
@@ -135,11 +136,11 @@ ht-degree: 92%
       + [Analysis Workspace의 롱테일](analysis-workspace/workspace-faq/long-tail.md)
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 개요](report-builder/report-buider-overview.md)
-   + [Report Builder 설정](report-builder/report-builder-setup.md)
+   + [Report Builder 설치](report-builder/report-builder-setup.md)
    + [데이터 블록 만들기](report-builder/create-a-data-block.md)
    + [Report Builder 허브](report-builder/report-builder-hub.md)
    + [날짜 범위 선택](report-builder/select-date-range.md)
-   + [필터를 사용한 작업](report-builder/work-with-filters.md)
+   + [필터 작업](report-builder/work-with-filters.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 구성 요소 {#cja-components}
@@ -159,8 +160,8 @@ ht-degree: 92%
       + [연산자](components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](components/calc-metrics/calc-metr-overview.md)
-      + 계산된 지표 워크플로우 {#cm-workflow}
-         + [계산된 지표 작업 과정](components/calc-metrics/cm-workflow/cm-workflow.md)
+      + 계산된 지표 워크플로 {#cm-workflow}
+         + [계산된 지표 워크플로](components/calc-metrics/cm-workflow/cm-workflow.md)
          + [지표 찾기](components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 작성](components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
@@ -191,14 +192,13 @@ ht-degree: 92%
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
-   + [데이터 세트에 전역 조회 추가](use-cases/global-lookups.md)
    + [Google Analytics 데이터를 Adobe Experience Platform으로 수집](use-cases/ga-to-cja.md)
    + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 작업](mobile-app/curator.md)
    + [스코어카드 만들기](mobile-app/create-scorecard.md)
-   + [대시보드를 사용하도록 경영진 설정](mobile-app/set-up-execs.md)
+   + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 개인정보 보호 {#cja-privacy}
    + [개인정보 보호 개요](privacy/privacy-overview.md)
