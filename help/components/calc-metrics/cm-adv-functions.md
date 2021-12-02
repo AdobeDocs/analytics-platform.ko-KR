@@ -3,9 +3,9 @@ title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2944'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
@@ -72,7 +72,7 @@ Approximate Count Distinct (dimension)
 
 ## 고유 수 초과됨
 
-Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
+Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=ko-KR)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교
 
@@ -82,7 +82,7 @@ Count () 및 RowCount ()가 정확한 수인 반면 이 함수는 HLL 메서드�
 
 ## 아크코사인(행)
 
-지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0 (영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI ( )를 곱하십시오.
+지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0 (영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI( )를 곱하십시오.
 
 ```
 ACOS(metric)
@@ -94,7 +94,7 @@ ACOS(metric)
 
 ## 아크사인(행)
 
-숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI ( )를 곱하십시오.
+숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI( )를 곱하십시오.
 
 ```
 ASIN(metric)
@@ -106,7 +106,7 @@ ASIN(metric)
 
 ## 아크탄젠트(행)
 
-숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI ( )를 곱하십시오.
+숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI( )를 곱하십시오.
 
 ```
 ATAN(metric)
@@ -167,7 +167,7 @@ CEILING(metric)
 
 ## 코사인(행)
 
-주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
+주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
 
 ```
 COS(metric)
@@ -635,7 +635,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 ## 사인(행)
 
-주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
+주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
 
 ```
 SIN(metric)
@@ -677,7 +677,7 @@ t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니�
 
 ## 탄젠트
 
-주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI ( )/180을 곱하십시오.
+주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI( )/180을 곱하십시오.
 
 ```
 TAN (metric)
