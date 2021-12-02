@@ -3,9 +3,9 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 [!UICONTROL 열 설정]을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 
-다음 위치에서 행 및 열 설정에서 비디오를 봅니다.
+행 및 열 설정에 대한 비디오 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
 
