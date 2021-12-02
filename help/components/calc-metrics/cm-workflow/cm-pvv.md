@@ -2,9 +2,9 @@
 description: 간단한 "방문당 페이지 보기 수" 지표를 만드는 방법을 표시합니다.
 title: 간단한 "방문자 수당 페이지 보기 수" 지표 작성
 source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,5 +27,5 @@ UI 구성 요소에 대한 자세한 설명은 [지표 작성](/help/components/
 1. 나누기 연산자를 선택합니다. (나누기는 기본 연산자입니다.)
 1. 이제 지표를 만들면 오른쪽 상단에서 해당 지표의 **[!UICONTROL 미리보기]**&#x200B;를 볼 수 있습니다.
 1. **[!UICONTROL 저장을 클릭합니다]**.
-1. **[!UICONTROL 요약]** 공식은 지표 정의를 변경할 때마다 업데이트됩니다.
-1. 이제 세그먼트 관리자와 유사한 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md): 필터 관리자와 비슷합니다. 지표를 공유, 승인, (재)태깅, 이름 변경 또는 삭제할 수 있도록 해 줍니다.
+1. **[!UICONTROL 요약]** 공식은 지표 정의를 변경할 때마다 업데이트된다는 점을 참고하십시오.
+1. 이제 필터 관리자와 유사한 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)가 자동으로 표시됩니다. 지표를 공유, 승인, (재)태깅, 이름 변경 또는 삭제할 수 있도록 해 줍니다.
