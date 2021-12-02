@@ -33,7 +33,7 @@ Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 
 
 >[!NOTE]
 >
->이 문서는 Customer Journey Analytics용 Report Builder에 대한 설명서입니다. Windows의 Analytics용 Report Builder에 대한 정보는 [Adobe Analytics용 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en)를 참조하십시오.
+>이 문서는 Customer Journey Analytics용 Report Builder에 대한 설명서입니다. Windows의 Analytics용 Report Builder에 대한 정보는 [Adobe Analytics용 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ko-KR)를 참조하십시오.
 
 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows)에서
 Customer Journey Analytics용 Report Builder를 다운로드할 수 있습니다.

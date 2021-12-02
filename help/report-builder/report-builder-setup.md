@@ -33,9 +33,9 @@ Customer Journey Analytics용 Report Builder는 다음 운영 체제 및 웹 브
 
    모든 Windows 데스크탑 Excel 사용자는 추가 기능을 사용하려면 Microsoft Edge Webview2를 설치해야 합니다. 컨트롤러를 설치하려면:
 
-   1. <https://aka.ms/webview2installer> 으로 이동합니다.
+   1. <https://aka.ms/webview2installer>로 이동합니다.
    1. Evergreen 독립 실행형 설치 관리자를 선택하고 다운로드합니다.
-   1. 설치 프롬프트를 따릅니다.
+   1. 설치 프롬프트의 안내를 따릅니다.
 
 ### 웹 Office
 

@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en)에서 새 사용자를 설정합니다.
+1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드의 기반이 되는 데이터 보기, 필터, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -29,19 +29,19 @@ ht-degree: 100%
 * 해당 디바이스의 최소 모바일 OS 요구 사항은 iOS 버전 10 이상 또는 Android 버전 4.4 (KitKat) 이상입니다.
 * 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다..
 * 모바일 스코어카드를 올바르게 생성했으며 이 스코어카드를 경영진 사용자와 공유했습니다.
-* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 포함된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
+* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
 
-## 경영진이 앱을 다운로드하여 설치하도록 지원합니다.
+## 경영진이 앱을 다운로드하여 설치하도록 지원
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ![앱 시작 화면](assets/welcome.png)
 
-## 경영진이 스코어카드에 액세스할 수 있도록 지원합니다.
+## 경영진이 스코어카드에 액세스할 수 있도록 지원
 
 1. 경영진 사용자가 앱에 로그인하도록 합니다.
 
