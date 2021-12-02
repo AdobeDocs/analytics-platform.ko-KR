@@ -1,8 +1,8 @@
 ---
-description: 필터 및 가중치가 적용된 지표의 예를 보여줍니다.
+description: 필터 및 가중치가 적용된 지표의 예를 보여 줍니다.
 title: 필터 및 가중치가 적용된 지표
 source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 # 필터 및 가중치가 적용된 지표
 
-필터 및 가중치가 적용된 지표의 예를 보여줍니다.
+필터 및 가중치가 적용된 지표의 예를 보여 줍니다.
 
 ## 필터링된 바운스 비율 {#section_D42F2452E4464948934063EB6F2DAAB4}
 
