@@ -2,9 +2,9 @@
 description: 지표를 찾는 두 가지 주요 방법, 즉 정렬과 필터링에 대해 설명합니다.
 title: 지표 찾기
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 97%
 | 보유한 지표만 표시합니다. | 기타 필터 > 내 소유 |
 | 다른 사람이 나와 공유한 지표를 표시합니다. | 소유자 또는 기타 필터 > 나와 공유 중 하나 |
 | 회사가 승인한 지표만 표시합니다. | 승인됨 |
-| 작업 중인 프로젝트의 지표를 필터링합니다. | 태그 중 하나. |
+| 작업 중인 프로젝트의 지표를 필터링합니다. | 태그 중 하나 |
