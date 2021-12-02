@@ -3,10 +3,10 @@ title: Customer Journey Analytics 안내서
 description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 69ded6c9d08981810f6d9edef273cad95cb2c367
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '340'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,10 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
-     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-detail"> 향상된 연결 관리 기능을 사용하는 방법 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 향상된 데이터 보기 기능을 사용하는 방법 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=ko-KR#cja-usecases"> Adobe Experience Platform에 Google Analytics 데이터 섭취 설명서 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=ko-KR#cja-usecases"> CJA에서의 Google Analytics 데이터 분석에 대한 설명서 </a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en#connection-detail"> 향상된 연결 관리 기능 사용 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 향상된 데이터 보기 기능 사용 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=ko-KR#cja-usecases"> Google Analytics 데이터를 Adobe Experience Platform으로 수집 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=ko-KR#cja-usecases"> CJA에서 Google Analytics 데이터 분석 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석(Customer Journey Analytics에서의 ID 결합) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR#admin-access-permissions"> 업데이트된 사용자 권한 요구 사항 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=ko-KR#cja-usecases"> 개체 배열 사용 </a> </li>
