@@ -4,7 +4,7 @@ description: 콜센터와 웹 사이트 데이터를 연결하는 데이터 세�
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
