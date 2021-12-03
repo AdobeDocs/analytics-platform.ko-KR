@@ -4,7 +4,7 @@ description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
 ht-degree: 100%
 
