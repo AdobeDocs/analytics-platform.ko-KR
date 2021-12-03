@@ -4,7 +4,7 @@ description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법�
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -75,4 +75,4 @@ ht-degree: 100%
 | --- | --- |
 | 노란색 | 6 |
 | 파란색 | 3 |
-| 빨간색 | 2개 |
+| 빨간색 | 2 |
