@@ -3,10 +3,10 @@ title: Customer Journey Analytics 개요
 description: Customer Journey Analytics를 통해 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법을 알아봅니다.
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
-source-git-commit: 69ded6c9d08981810f6d9edef273cad95cb2c367
+source-git-commit: 3389515bd18903eda14af1670ff7d1ab080c9db2
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -64,9 +64,8 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 * Customer Journey Analytics 내에서 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
    * 스키마 보기
    * 스키마 관리
+   * ID 네임스페이스 보기
    * 데이터 세트 보기
-   * 데이터 세트 관리
-   * 소스 관리
 
 Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)를 참조하십시오.
 

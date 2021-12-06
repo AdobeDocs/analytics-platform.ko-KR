@@ -3,14 +3,17 @@ title: 데이터 세트에 표준 조회 추가
 description: 표준 조회를 사용하여 Customer Journey Analytics의 유용한 차원으로 보고를 보완할 수 있습니다.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
+source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 31%
+source-wordcount: '357'
+ht-degree: 28%
 
 ---
 
 # 데이터 세트에 표준 조회 추가
+
+>[!IMPORTANT]
+>표준 조회는 CJA의 Analytics 데이터 커넥터 데이터 소스에만 사용할 수 있습니다. 이 변수는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 또는 Experience Platform 데이터 수집 API를 사용하여 데이터를 수집할 수 있습니다.
 
 표준 조회(Adobe 제공 조회라고도 함)는 Customer Journey Analytics 기능이 향상되어 자체로는 유용하지 않지만 다른 데이터와 참여할 때 유용하게 사용할 수 있는 일부 차원/속성에 대해 보고할 수 있습니다. 이러한 예로는 모바일 디바이스의 특성과 브라우저 버전 번호와 같은 OS 및 브라우저 차원의 특성이 있습니다. 표준 조회는 조회 데이터 세트와 유사합니다. 표준 조회는 Experience Cloud 조직 간에 적용할 수 있습니다. 전역 조회는 특정 XDM 스키마 필드를 포함하는 모든 이벤트 데이터 세트에 자동으로 적용됩니다(특정 필드는 아래 참조). Adobe이 분류하는 각 스키마 위치에 대한 표준 조회 데이터 세트가 있습니다.
 
