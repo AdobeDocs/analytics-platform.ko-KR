@@ -3,9 +3,9 @@ description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ## 패널 유형
 
-다음 패널 유형은 Analysis Workspace에서 사용할 수 있습니다 [!UICONTROL Customer Journey Analytics]:
+[!UICONTROL Customer Journey Analytics]을 위한 Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
