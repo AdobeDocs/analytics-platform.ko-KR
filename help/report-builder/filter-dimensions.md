@@ -7,7 +7,7 @@ type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
 ht-degree: 100%
 
@@ -70,8 +70,8 @@ ht-degree: 100%
 | 1 | 10 | 상위 10개 항목 |
 | 2 | 10 | 11~20번 항목 |
 | 1 | 100 | 상위 100개 항목 |
-| 2개 | 100년 | 101~200번 항목 |
-| 2개 | 50,000 | 50,001~100,000번 항목 |
+| 2 | 100 | 101~200번 항목 |
+| 2 | 50,000 | 50,001~100,000번 항목 |
 
 #### 최소값 및 최대값
 
