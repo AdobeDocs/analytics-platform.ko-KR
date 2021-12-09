@@ -1,12 +1,12 @@
 ---
-title: CJA 연결 크기를 예상하는 방법
+title: CJA 연결 크기 예상 방법
 description: 현재 Customer Journey Analytics 사용 현황 보고
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
