@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 source-git-commit: 3389515bd18903eda14af1670ff7d1ab080c9db2
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Experience Platform의 데이터에 사용할 수 있는 Analytics 기능입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며, 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합되어 있습니다. **XDM(Experience Data Model)**&#x200B;을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. **Experience Query Services**&#x200B;를 사용하면 SQL 호환 도구와 프레임워크를 사용하여 모든 데이터를 쿼리하고 조작할 수 있습니다.
 
-높은 수준의 CJA 아키텍처는 다음과 같습니다.
+다음은 고차원 CJA 아키텍처입니다.
 
 ![아키텍처](assets/cja-architecture.png)
 
@@ -55,9 +55,9 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
 
 ## 관리자 액세스 권한
 
-연결 만들기, 데이터 세트 추가 등을 수행하려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
+연결 만들기, 데이터 세트 추가 등을 수행하려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
 
-* Customer Journey Analytics에 액세스하거나 연결을 만들려면 [관리 콘솔](https://adminconsole.adobe.com/enterprise/)에서 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
+* Customer Journey Analytics에 액세스하거나 연결을 만들려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
    * 연결 또는 데이터 보기 만들기/업데이트/삭제
    * 다른 사용자가 만든 프로젝트, 필터, 계산 지표 또는 필터 업데이트/삭제
    * 모든 사용자에게 Workspace 프로젝트 공유
@@ -71,7 +71,7 @@ Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platf
 
 >[!NOTE]
 >
->Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 메트릭 또는 차원을 허용할 수 없습니다. 지표와 차원은 데이터 보기에서 변경할 수 있으므로 보고도 소급 변경하는 CJA의 변경으로부터 영향을 받습니다.
+>Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원을 허용할 수 없습니다. 지표와 차원은 데이터 보기에서 변경할 수 있으므로 보고도 소급 변경하는 CJA의 변경으로부터 영향을 받습니다.
 
 ### 사용자 액세스
 
@@ -100,4 +100,4 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 * [Query Service](https://www.adobe.io/apis/experienceplatform/home/query-service/sql-reference.html): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
 * [실시간 고객 프로필](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md):
 * [ID 서비스](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_services_architectural_overview/identity_services_architectural_overview.md):
-* 개발자 옵션의 [Data Science Workspace](https://www.adobe.io/apis/experienceplatform/home/data-science-workspace.html): Adobe Experience Platform에 재구성된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나, 번거로운 프로세스를 자동화할 수 있습니다.
+* 개발자 옵션의 [Data Science Workspace](https://www.adobe.io/apis/experienceplatform/home/data-science-workspace.html): Adobe Experience Platform에 사전 설치된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나, 번거로운 프로세스를 자동화할 수 있습니다.
