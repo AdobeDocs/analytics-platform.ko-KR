@@ -4,9 +4,9 @@ description: Customer Journey Analytics에서 기본 시각화를 사용하여 �
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 
 * 시간에 따라 두 데이터 소스를 비교하는 온라인 매출과 매장 내 매출에 대한 트렌드 보고서를 만듭니다.
 
-* 광고 노출 데이터, Customer Journey Analytics 데이터, 이메일 데이터, POS 데이터, 콜 센터 데이터 및 설문 조사 데이터와 같은 데이터 소스별 대상 크기를 나타냅니다.
+* 광고 노출 횟수 데이터, Customer Journey Analytics 데이터, 이메일 데이터, POS 데이터, 콜센터 데이터 그리고 설문 조사 데이터와 같은 데이터 소스로 고객의 규모를 나타냅니다.
 
 ![](assets/cja-basic-analysis.png)
 
