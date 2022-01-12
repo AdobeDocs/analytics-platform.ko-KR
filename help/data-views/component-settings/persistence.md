@@ -3,10 +3,10 @@ title: 지속성 구성 요소 설정
 description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤트로 지속되는지 여부를 결정합니다.
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 25557196c9841489e2732dece2c3402ebaf6224e
+source-git-commit: 8c82aad72beca8d206d30f8f0e842445fd18758b
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 74%
 
 * **[!UICONTROL 처음 알려진 날짜]** 및 **[!UICONTROL 마지막 알려진 날짜]**: (2022년 1월 19일 ) 이 두 할당 모델은 &quot;시작&quot; 및 &quot;종료&quot; 차원 사용 사례를 충족합니다. 지정된 지속성 범위(세션, 개인 또는 전환 확인 기간이 있는 사용자 지정 기간) 내에서 차원에 대해 처음 또는 마지막으로 관찰된 값을 가져와 지정된 범위 내의 모든 이벤트에 적용합니다. 예:
 
-| 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
-| --- | --- | --- | --- | --- | --- |
-| 타임스탬프(최소) | 1 | 2 | 3 | 6 | 7 |
-| 원래 값 |  | C | B |  | A |
-| 처음 알려짐 | C | C | C | C | C |
-| 마지막 알려짐 | A | A | A | A | A |
+   | 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
+   | --- | --- | --- | --- | --- | --- |
+   | 타임스탬프(최소) | 1 | 2 | 3 | 6 | 7 |
+   | 원래 값 |  | C | B |  | A |
+   | 처음 알려짐 | C | C | C | C | C |
+   | 마지막 알려짐 | A | A | A | A | A |
 
 ## [!UICONTROL 만료] 설정
 
