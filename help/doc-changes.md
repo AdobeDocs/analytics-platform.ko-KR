@@ -3,10 +3,10 @@ title: CJA 설명서 업데이트
 description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에 대한 콘텐츠 업데이트를 나열합니다.
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 226c2549ecd0ee694b9aea8072aa1c5e76226c4a
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 90%
 
 ---
 
@@ -16,15 +16,17 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 1월 | 에 새로운 기능 설명서가 추가되었습니다. [차원 및 지표 결합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) 및 [[!UICONTROL 처음 알려진 날짜] 및 [!UICONTROL 마지막 알려진 날짜] 할당 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#allocation-settings) |
+| 2022년 1월 | 에 대한 문서가 추가되었습니다. [cja의 Adobe Analytics 데이터와 Analytics 데이터 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html) |
 | 2021년 11월 | 연결 세부 정보 페이지의 [[!UICONTROL 생략된 레코드]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-details-settings)에 대한 업데이트된 설명서 |
 | 2021년 10월 | CJA의 [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#)에 대한 설명서. |
 | 2021년 10월 | Customer Journey Analytics [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 설명서 |
 | 2021년 10월 | 문서화된 [Analytics 대시보드의 시각화](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=ko-KR#apply-visualizations) |
 | 2021년 10월 | [!UICONTROL 연결] [데이터 보존](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention)을 위한 롤링 기간.<p>**참고: 이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. 아직 CJA UI를 통해서는 사용할 수 없습니다.** |
-| 2021년 9월 | [지표 중복 제거](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=ko-KR) 문서 |
+| 2021년 9월 | [지표 중복 제거](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=en) 문서 |
 | 2021년 9월 | [보고 시 일광 절약 시간 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#calendar) |
-| 2021년 9월 | [고객 캘린더](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#calendar) 설명서 |
-| 2021년 9월 | [부울 필드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=ko-KR) 설명서 |
+| 2021년 9월 | [고객 캘린더](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) 설명서 |
+| 2021년 9월 | [부울 필드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=en) 설명서 |
 | 2021년 9월 | 데이터 보기의 구성 요소 설정을 개별 파일로 나누었습니다.<ul><li>[[!UICONTROL 구성 요소] 설정 개요](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL 기여도 분석] 구성 요소 설정](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL 비헤이비어] 구성 요소 설정](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL 포맷] 구성 요소 설정](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL 포함/제외] 구성 요소 설정](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL 지표 중복 제거] 구성 요소 설정](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL 값 없음] 구성 요소 설정](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL 지속성] 구성 요소 설정](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL 값 버킷팅] 구성 요소 설정](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | 2021년 9월 | CJA에서 [보고서 세트 병합의 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#6.-considerations-when-merging-report-suites-in-cja)에 대한 새로운 섹션. |
 | 2021년 8월 | CJA의 향상된 [&quot; ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR) 경험에 대한 새로운 섹션. |
