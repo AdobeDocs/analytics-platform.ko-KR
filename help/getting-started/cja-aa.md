@@ -3,10 +3,10 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
+source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 97%
+source-wordcount: '1207'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,8 @@ ht-degree: 97%
 | 기본 Analysis Workspace 차원(예: 브라우저 유형, 레퍼러 유형, 운영 체제 등) | CJA는 기본 XDM 필드(예: 사용자 에이전트 또는 디바이스 ID)가 추가되면 기본적으로 이러한 차원을 제공합니다. ADC(Analytics Data Connector)를 사용하는 고객의 경우 이러한 차원 중 일부를 사용할 수 있지만 모두 사용할 수는 없습니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)를 참조하십시오. |
 | GDPR 삭제 | 전체 지원: 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용됩니다. CJA는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
 | 목록 변수/목록 속성 | 전체 지원: CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
-| 머천다이징 변수 지속성 | 전체 지원(2022년 1월) |
+| 머천다이징 변수 지속성 | 를 통한 전체 지원 [차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (2022년 1월) |
+| 머천다이징 eVar | 를 통한 전체 지원 [차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension) (2022년 1월) |
 | 지표 | 전체 지원: CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
 | 지표 중복 제거 | 전체 지원 |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. |
@@ -60,7 +61,7 @@ ht-degree: 97%
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
 | 지리 특성 - 차원 | Adobe Analytics에 수집된 모든 지리 특성/지역은 Analytics Data Connector를 통해 CJA로 전송됩니다. 디지털 데이터 수집을 위해 AEP 웹 SDK를 사용하는 구현과 같이 Analytics 데이터 커넥터를 사용하지 않는 구현에는 전체 지리적 조회가 자동으로 수행되지 않습니다(국가 및 주는 지원되며 도시 및 빈 주소는 지원되지 않음). |
 | 마케팅 채널 | 마케팅 채널 데이터가 Analytics Data Connector를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
-| 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
+| 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서와 같이 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 
@@ -68,9 +69,8 @@ ht-degree: 97%
 
 | 기능 | 참고 |
 | --- | --- |
-| 보트 필터링 | ADC(Analytics Data Connector) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
+| 보트 필터링 | Analytics 소스 커넥터 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
 | Media Analytics | 미디어 데이터는 Analytics Data Connector의 일부로 사용할 수 있습니다. |
-| 머천다이징 eVars | 머천다이징 eVar가 지속성을 사용하도록 설정되지 않은 경우 개체 배열 내의 차원을 사용하여 머천다이징 eVar의 동작을 달성할 수 있습니다. 현재 머천다이징 차원 지속성을 사용할 수 없습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
 | 처리 규칙 | Analytics 데이터 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
 
