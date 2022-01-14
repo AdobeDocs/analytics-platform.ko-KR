@@ -3,10 +3,10 @@ title: 데이터 보기 만들기 또는 편집
 description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있는 모든 설정입니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 99%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ![새로운 데이터 보기](assets/new-data-view.png)
 
-### 설정
+### 데이터 보기 설정
 
 데이터 보기에 중요한 설정을 제공합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 | --- | --- |
 | [!UICONTROL 연결] | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
 | [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운에 이 값이 표시됩니다. |
-| [!UICONTROL 설명] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
+| [!UICONTROL 설명] | 선택 사항. Adobe은 사용자가 데이터 보기가 존재하는 이유와 데이터 보기가 누가 디자인되었는지 이해할 수 있도록 자세한 설명을 권장합니다. |
 
 ### 컨테이너
 

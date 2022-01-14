@@ -2,15 +2,14 @@
 description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 title: 차원 시간 분할
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-translation-type: tm+mt
-source-git-commit: 2685d75dac9ad7e74f2010dda82cd1d4d65dbd7b
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 93%
 
 ---
 
-# 차원 시간 분할
+# 차원 시간 분할 Analysis Workspace의 
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 &quot;시간&quot; 또는 &quot;요일&quot;과 같은 더 의미 있는 차원으로 나눕니다.
 
@@ -20,8 +19,6 @@ ht-degree: 91%
 * 내 사이트 또는 앱에서 전환율이 더 높은 요일이나 시간대가 있습니까?
 * 평일 판매와 주말 판매를 비교하면 어떻습니까?
 * 아침 또는 오후에 특히 전환이 높게 생성되는 특정 마케팅 캠페인이 있습니까?
-
-## Analysis Workspace의 시간 분할 차원
 
 | 차원 | 예제 값 |
 |--- |--- |
