@@ -3,10 +3,10 @@ title: 크로스 채널 분석 개요
 description: 방문자 결합을 위해 여러 데이터 세트의 방문자 ID를 다시 입력합니다.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1127'
-ht-degree: 100%
+source-git-commit: 0f348f1d2119c902716a5e096a859521a4b316b0
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 93%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 100%
 
 ## 제한 사항
 
+>[!IMPORTANT]
+>
+>전역 이벤트 데이터 세트 스키마에 대한 모든 변경 내용은 결합된 새 데이터 세트 스키마에서도 적용해야 합니다. 그렇지 않으면 결합된 데이터 세트가 중단됩니다.
+
 크로스 채널 분석은 획기적이고 강력한 기능이지만 사용 방법에 대한 제한 사항이 있습니다.
 
 * 현재 재입력 기능은 한 단계로 제한됩니다(영구 ID를 임시 ID로). 여러 단계의 키 재입력(예: 영구 ID를 임시 ID로, 그 다음 다른 임시 ID로 변경)은 지원되지 않습니다.
@@ -58,13 +62,14 @@ ht-degree: 100%
 조직에서 모든 사전 요구 사항을 충족하고 제한 사항을 이해하면 다음 단계에 따라 CJA에서 사용할 수 있습니다.
 
 1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
-1. 다음 정보를 사용해서 Adobe 기술 계정 관리자에게 문의하십시오.
+1. Adobe 고객 지원에 다음 정보를 문의하십시오.
    * 크로스 채널 분석 활성화 요청
    * 다시 입력할 데이터 세트에 대한 데이터 세트 ID
    * 원하는 데이터 세트에 대한 영구 ID의 열 이름 (모든 행에 표시되는 식별자)
    * 원하는 데이터 세트에 대한 임시 ID의 열 이름 (데이터 세트 간 개인 식별자 링크)
-   * [재생](replay.md) 빈도 및 전환 길이에 대한 사용자 환경 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
-1. Adobe 기술 계정 관리자가 요청을 접수하면 Adobe 엔지니어링과 협조하여 크로스 채널 Analytics를 활성화하게 됩니다. 활성화된 후에는 새 개인 ID 열이 포함된 새로운 키 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 기술 계정 관리자는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
+   * [재생](replay.md) 빈도 및 전환 길이에 대한 사용자 환경 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다
+   * 샌드박스 이름.
+1. Adobe 고객 지원 팀은 Adobe 엔지니어링 팀과 협력하여 요청을 받으면 크로스 채널 분석을 활성화합니다. 활성화된 후에는 새 개인 ID 열이 포함된 새로운 키 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 고객 지원에서는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
 1. 처음 켜면 Adobe는 이전 달 초(최대 60일)까지 거슬러 올라가는 스티치 데이터의 백필을 제공합니다. 이 백필을 수행하려면 임시 ID가 그 이전 시점으로 되돌아가 있는 분해된 데이터에 존재해야 합니다.
 1. 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하여 CJA에서 [연결을 만듭니다](../create-connection.md). 각 데이터 세트에 올바른 개인 ID를 선택합니다.
 1. 연결을 기반으로 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
