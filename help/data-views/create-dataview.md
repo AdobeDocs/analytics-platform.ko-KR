@@ -3,10 +3,10 @@ title: 데이터 보기 만들기 또는 편집
 description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있는 모든 설정입니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,21 +84,23 @@ ht-degree: 100%
    * [[!UICONTROL 지속성]](component-settings/persistence.md)
    * [[!UICONTROL 값 버킷팅]](component-settings/value-bucketing.md)
 
-필요한 경우 다음 기능을 사용할 수 있습니다.
+## 지표 또는 차원이 중복됨
 
-* **[!UICONTROL 복제]**: 지표 또는 차원을 복제한 뒤 특정 설정을 변경하면 단일 스키마 필드에서 다수의 지표 또는 차원을 손쉽게 만들 수 있습니다. 오른쪽 상단에서 지표 또는 차원 이름 아래의 [!UICONTROL 복제] 설정을 선택합니다. 새 차원 또는 지표를 변경한 뒤 더 설명적인 이름으로 저장합니다.
+지표 또는 차원을 복제한 뒤 특정 설정을 변경하면 단일 스키마 필드에서 다수의 지표 또는 차원을 손쉽게 만들 수 있습니다. 오른쪽 상단에서 지표 또는 차원 이름 아래의 [!UICONTROL 복제] 설정을 선택합니다. 새 차원 또는 지표를 변경한 뒤 더 설명적인 이름으로 저장합니다.
 
-   ![복제](assets/duplicate.png)
+![복제](assets/duplicate.png)
 
-* **[!UICONTROL 필터]**: 다음 데이터 유형을 사용하여 왼쪽 레일의 스키마 필드를 필터링할 수 있습니다.
+## 스키마 필드 또는 데이터 세트 필터링
 
-   ![필드 필터링](assets/filter-fields.png)
+다음 데이터 유형을 사용하여 왼쪽 레일의 스키마 필드를 필터링할 수 있습니다.
 
-   또한 데이터 세트 및 스키마 필드에 데이터가 포함되어 있는지 또는 ID인지 여부를 기준으로 필터링할 수도 있습니다. 기본적으로 Adobe는 모든 데이터 보기에 **[!UICONTROL 데이터 포함]** 필터를 적용합니다.
+![필드 필터링](assets/filter-fields.png)
 
-   ![기타 필터링](assets/filter-other.png)
+또한 데이터 세트 및 스키마 필드에 데이터가 포함되어 있는지 또는 ID인지 여부를 기준으로 필터링할 수도 있습니다. 기본적으로 Adobe는 모든 데이터 보기에 **[!UICONTROL 데이터 포함]** 필터를 적용합니다.
 
-## 설정
+![기타 필터링](assets/filter-other.png)
+
+## 설정 탭
 
 1. [Customer Journey Analytics](https://analytics.adobe.com)에 로그인하고 **[!UICONTROL 데이터 보기]** 탭으로 이동합니다.
 1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 데이터 보기를 만들거나 기존 데이터 보기를 클릭하여 편집합니다.
