@@ -1,55 +1,55 @@
 ---
 title: AA 데이터를 CJA 데이터와 비교
-description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이터와 비교하는 방법을 알아봅니다
+description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이터와 비교하는 방법 알아보기
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics 데이터를 CJA 데이터와 비교
+# Adobe Analytics 데이터와 CJA 데이터 비교
 
-조직에서 CJA를 채택함에 따라 Adobe Analytics과 CJA 간의 데이터에 몇 가지 차이점이 있을 수 있습니다. 이는 정상적이며 몇 가지 이유로 발생할 수 있습니다. CJA는 AA의 데이터에 대한 제한 사항 중 일부를 준수하도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었으므로 사용자와 팀이 데이터 무결성에 대한 걱정 없이 CJA를 사용할 수 있습니다.
+조직에서 CJA를 채택함에 따라 Adobe Analytics와 CJA 간의 데이터 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. CJA는 AA에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 CJA를 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
-Analytics 소스 커넥터를 통해 Adobe Analytics 데이터를 AEP에 수집한 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정해 보겠습니다.
+Analytics 소스 커넥터를 통해 Adobe Analytics 데이터를 AEP로 가져온 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정합니다.
 
 ![데이터 흐름](assets/compare.png)
 
-그런 다음 데이터 보기를 만든 후 CJA에서 이 데이터를 보고하면서 Adobe Analytics의 보고 결과와 불일치를 발견했습니다.
+그런 다음 데이터 보기를 생성하고 CJA에서 이 데이터를 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견했습니다.
 
-원본 Adobe Analytics 데이터를 이제 Customer Journey Analytics에 있는 Adobe Analytics 데이터와 비교하는 몇 가지 단계는 다음과 같습니다.
+다음은 원래 Adobe Analytics 데이터와 현재 Customer Journey Analytics의 Adobe Analytics 데이터를 비교하기 위해 따라야 할 몇 가지 단계입니다.
 
 ## 사전 요구 사항
 
 * AEP의 Analytics 데이터 세트에 조사 중인 날짜 범위에 대한 데이터가 포함되어 있는지 확인합니다.
 
-* Analytics에서 선택한 보고서 세트가 Adobe Experience Platform에 수집된 보고서 세트와 일치하는지 확인합니다.
+* Analytics에서 선택한 보고서 세트가 Adobe Experience Platform에 포함된 보고서 세트와 일치하는지 확인합니다.
 
-## 1단계: Adobe Analytics에서 발생 횟수 지표를 실행합니다
+## 1단계: Adobe Analytics에서 발생 횟수 지표 실행
 
-다음 [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en) 지표는 주어진 차원이 설정되거나 지속된 히트의 수를 보여줍니다.
+[발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
 
-1. Analytics >에서 [!UICONTROL 작업 공간]을 눌러 보고하려는 날짜 범위를 차원으로 드래그합니다 [!UICONTROL 자유 형식] 테이블.
+1. Analytics > [!UICONTROL 작업 영역]에서 차원으로 보고할 날짜 범위를 [!UICONTROL 자유 형식] 테이블로 끌어옵니다.
 
-1. 다음 [!UICONTROL 발생 횟수] 지표는 해당 날짜 범위에 자동으로 적용됩니다.
+1. [!UICONTROL 발생 횟수] 지표는 해당 날짜 범위에 자동으로 적용됩니다.
 
-1. 비교에서 사용할 수 있도록 이 프로젝트를 저장하십시오.
+1. 비교에 사용할 수 있도록 이 프로젝트를 저장합니다.
 
-## 2단계: 결과를 다음으로 비교 [!UICONTROL 타임스탬프별 총 레코드] CJA에서
+## 2단계: 결과를 CJA의 [!UICONTROL 타임스탬프별 총 레코드]와 비교
 
-이제 을(를) 비교합니다 [!UICONTROL 발생 횟수] analytics에서 Customer Journey Analytics의 타임스탬프별 총 레코드 수
+이제 Analytics의 [!UICONTROL 발생 횟수]를 Customer Journey Analytics의 타임스탬프별 총 레코드와 비교합니다.
 
-Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임스탬프별 총 레코드 수가 발생 횟수와 일치해야 합니다. 아래 섹션을 참조하십시오.
+Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임스탬프별 총 레코드는 발생 횟수와 일치해야 합니다. 아래 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->이 작업은 결합된 데이터 세트( 를 통해)가 아니라 일반 mid 값 데이터 세트에만 작동합니다 [크로스 채널 분석](/help/connections/cca/overview.md)). CJA에서 사용되는 개인 ID를 회계는 비교를 수행하는 데 매우 중요합니다. 특히 크로스 채널 분석 기능이 설정된 경우 AA에서 복제하는 것이 항상 쉽지는 않을 수 있습니다.
+>이는 ([크로스 채널 분석](/help/connections/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. CJA에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 있어 매우 중요합니다. 특히 크로스 채널 분석이 켜져 있는 경우 AA에서 복제하기가 항상 쉽지는 않을 수 있습니다.
 
-1. Adobe Experience Platform에서 [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)를 실행하고, [!UICONTROL 타임스탬프별 총 레코드] 쿼리:
+1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -63,29 +63,29 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. in [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR)를 원시 데이터에서 일부 행이 Analytics 소스 커넥터에 의해 삭제되었을 수 있는지 확인합니다.
+1. [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR)에서 일부 행이 Analytics 소스 커넥터에 의해 삭제되었는지 여부를 원시 데이터에서 식별합니다.
 
-   다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR) XDM 스키마로 변환하는 동안 행이 삭제될 수 있습니다. 전체 행이 변환에 적합하지 않은 여러 이유가 있을 수 있습니다. 다음 Analytics 필드에 이러한 값이 있으면 전체 행이 삭제됩니다.
+   XDM 스키마로 변환하는 동안 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)가 행을 삭제할 수 있습니다. 전체 행이 변환에 적합하지 않은 이유는 여러 가지가 있을 수 있습니다. 다음 Analytics 필드 중 하나라도 이러한 값이 포함된 경우 전체 행이 삭제됩니다.
 
-   | Analytics 필드 | 삭제되는 원인이 되는 값 |
+   | Analytics 필드 | 값을 삭제하는 원인이 되는 값 |
    | --- | --- |
-   | 옵트아웃(_O) | `y, Y` |
-   | In_data_only | 0 아님 |
-   | Exclude_hit | 0 아님 |
-   | 보트_id | 0 아님 |
+   | Opt_out | `y, Y` |
+   | In_data_only | 0이 아님 |
+   | Exclude_hit | 0이 아님 |
+   | Bot_id | 0이 아님 |
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
-1. 커넥터에서 행을 삭제한 경우 [!UICONTROL 발생 횟수] 지표. 결과 숫자는 Adobe Experience Platform 데이터 세트에 있는 이벤트 수와 일치해야 합니다.
+1. 커넥터가 행을 삭제한 경우 [!UICONTROL 발생 횟수] 지표에서 해당 행을 뺍니다. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
 
 ## AEP에서 수집하는 동안 레코드가 삭제되거나 건너뛸 수 있는 이유
 
-CJA [연결](/help/connections/create-connection.md) 을(를) 사용하면 데이터 세트 간에 공통 개인 ID를 기반으로 여러 데이터 세트를 함께 가져와서 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 하는 이벤트 데이터 세트에서 전체 외부 조인 또는 결합을 수행한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 참여를 만듭니다.
+CJA [연결](/help/connections/create-connection.md)을 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
 
-AEP에서 데이터를 수집하는 동안 레코드를 건너뛸 수 있는 몇 가지 이유는 다음과 같습니다.
+다음은 AEP에서 데이터를 수집하는 동안 레코드를 건너뛸 수 있는 몇 가지 이유입니다.
 
-* **타임스탬프가 누락됨** - 이벤트 데이터 세트에서 타임스탬프가 누락된 경우 이러한 레코드는 수집 중에 완전히 무시되거나 건너뜁니다.
+* **타임스탬프 누락** – 이벤트 데이터 세트에서 타임스탬프가 누락된 경우 해당 레코드는 수집 중에 완전히 무시되거나 건너뜁니다.
 
-* **개인 ID가 없습니다.** - 이벤트 데이터 세트 및/또는 프로필/조회 데이터 세트에서 개인 ID가 누락되어 해당 레코드가 무시되거나 건너뜁니다. 그 이유는 레코드에 조인할 일반적인 ID 또는 일치하는 키가 없기 때문입니다.
+* **개인 ID 누락** – (이벤트 데이터세트 및/또는 프로필/조회 데이터세트에서) 누락된 개인 ID로 인해 해당 레코드가 무시되거나 건너뜁니다. 그 이유는 레코드를 연결할 공통 ID나 일치하는 키가 없기 때문입니다.
 
-* **유효하지 않거나 큰 개인 ID** - 잘못된 ID를 사용하는 경우 시스템에서 조인할 데이터 세트 간에 유효한 공통 ID를 찾을 수 없습니다. 경우에 따라 개인 ID 열에 &quot;정의되지 않음&quot; 또는 &quot;00000000&quot;과 같은 잘못된 개인 ID가 있습니다. 매월 100만 번 이상의 이벤트에 표시되는 개인 ID(숫자와 문자의 조합이 있음)는 특정 사용자 또는 개인에게 귀속될 수 없습니다. 잘못된 것으로 분류됩니다. 이러한 레코드를 시스템에 수집할 수 없으며 오류가 발생하기 쉬운 수집 및 보고가 발생합니다.
+* **유효하지 않거나 큰 개인 ID** – 잘못된 ID를 사용하면 시스템이 연결할 데이터 세트 중에서 유효한 공통 ID를 찾을 수 없습니다. 경우에 따라 개인 ID 열에 “정의되지 않음” 또는 “00000000”과 같은 잘못된 개인 ID가 있습니다. 한 달에 1백만 번 이상 이벤트에 나타나는 개인 ID(숫자와 문자의 조합 포함)는 특정 사용자 또는 개인에게 할당할 수 없습니다. 잘못된 것으로 분류됩니다. 이러한 레코드는 시스템으로 수집될 수 없으며 오류 유발 수집 및 보고를 초래할 수 있습니다.
