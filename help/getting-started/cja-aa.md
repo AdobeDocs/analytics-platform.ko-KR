@@ -3,9 +3,9 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
+source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1313'
 ht-degree: 94%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 94%
 | 기능 | 참고 |
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
+| 달력 이벤트 | Workspace에서 &quot;주석&quot;이라고 합니다. |
 | 분류 규칙 빌더 | 는 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작은 사용하여 CJA에서 약간 다르게 작동합니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
 | 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. Adobe Experience Platform [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
@@ -98,11 +99,11 @@ ht-degree: 94%
 | Activity Map | 지원이 아직 예정되지 않음 |
 | Advertising Cloud | 지원이 아직 예정되지 않음 |
 | 분류 규칙 빌더 | 지원이 아직 예정되지 않음 |
+| 통화 전환 | 지원이 아직 예정되지 않음 |
 | 데이터 피드 | 지원이 아직 예정되지 않음 |
+| 실시간 보고서 | 지원이 아직 예정되지 않음 |
 | 요약 데이터 소스 | 지원이 아직 예정되지 않음 |
 | 거래 ID 데이터 소스 | 지원이 아직 예정되지 않음 |
-| 통화 전환 | 지원이 아직 예정되지 않음 |
-| 실시간 보고서 | 지원이 아직 예정되지 않음 |
 
 ## 지원 예정 없음
 
@@ -110,5 +111,4 @@ ht-degree: 94%
 * Reports &amp; Analytics 대시보드
 * Reports &amp; Analytics 책갈피
 * Reports &amp; Analytics 대상
-* Reports &amp; Analytics 달력 이벤트
 * 모바일 서비스
