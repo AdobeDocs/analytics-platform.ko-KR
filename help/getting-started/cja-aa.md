@@ -3,10 +3,10 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
+source-git-commit: d46779a30fd841194f8ba0e80ab17ea5714569db
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 94%
+source-wordcount: '1309'
+ht-degree: 92%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 94%
 
 | 기능 | 참고 |
 | --- | --- |
-| 보트 필터링 | Analytics 소스 커넥터 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
-| Media Analytics | 미디어 데이터는 Analytics Data Connector의 일부로 사용할 수 있습니다. |
+| 보트 필터링 | 대상 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)기반 데이터 세트에서 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
+| Media Analytics | 미디어 데이터는 Analytics 소스 커넥터의 일부로 사용할 수 있습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
 | 처리 규칙 | Analytics 데이터 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
 
@@ -98,10 +98,8 @@ ht-degree: 94%
 | --- | --- |
 | Activity Map | 지원이 아직 예정되지 않음 |
 | Advertising Cloud | 지원이 아직 예정되지 않음 |
-| 분류 규칙 빌더 | 지원이 아직 예정되지 않음 |
 | 통화 전환 | 지원이 아직 예정되지 않음 |
 | 데이터 피드 | 지원이 아직 예정되지 않음 |
-| 실시간 보고서 | 지원이 아직 예정되지 않음 |
 | 요약 데이터 소스 | 지원이 아직 예정되지 않음 |
 | 거래 ID 데이터 소스 | 지원이 아직 예정되지 않음 |
 
