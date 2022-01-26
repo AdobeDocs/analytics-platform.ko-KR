@@ -3,10 +3,10 @@ title: Google Analytics 데이터를 Adobe Experience Platform으로 수집
 description: 'CJA(Customer Journey Analytics)를 사용하여 Google Analytics 데이터를 Adobe Experience Platform에 수집하는 방법을 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 445317efa636024dbaf0ac34b6a74b52b92b9000
+workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -124,7 +124,7 @@ Google Tag Manager에서 Adobe Experience Platform으로 바로 라이브 스트
 
 ### 1. 사용자 지정 변수 추가
 
-Google Tag Manager 계정에 로그인한 후에 Adobe와 관련된 일부 사용자 지정 상수 변수를 추가해야 합니다. 아마도 고객 이메일, 고객 이름, 언어, 고객 로그인 상태 등 Google Analytics로 전달되는 변수가 Google Tag Manager에 이미 있을 것입니다. 이외에 5개의 새로운 사용자 지정 변수를 정의해야 합니다.
+Google Tag Manager 계정에 로그인한 후에 Adobe와 관련된 일부 사용자 지정 상수 변수를 추가해야 합니다. Google Tag Manager에 고객 이메일, 고객 이름, 언어 및 고객 로그인 상태와 같이 Google Analytics에게 전송되는 변수가 이미 있을 수 있습니다. 이외에 5개의 새로운 사용자 지정 변수를 정의해야 합니다.
 
 * Adobe Experience Cloud org ID
 * DCS 스트리밍 끝점
