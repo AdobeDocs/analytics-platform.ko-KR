@@ -3,9 +3,9 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1309'
 ht-degree: 94%
 
 ---
@@ -79,19 +79,19 @@ ht-degree: 94%
 | 기능 | 참고 |
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
+| 분류 규칙 빌더 | 는 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작은 사용하여 CJA에서 약간 다르게 작동합니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
 | 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. Adobe Experience Platform [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
+| 상승도 및 신뢰도 보고 | 지원이 예정되어 있습니다. |
+| 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | 계획되었지만, 보다 유연하고 소급적이며 비파괴적인 데이터 조작을 위해 데이터 수집 기간이 아닌 쿼리 시간에 작동합니다. |
+| 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. 은 CJA에서 &quot;대상 게시&quot;라고 합니다. |
 | 세션 보고 및 반복 | 지원이 몇 가지 주의해야 합니다. |
-| 상승도 및 신뢰도 보고 | 지원이 예정되어 있습니다. |
-| 분류 규칙 빌더 | 는 조회 데이터 세트가 아니라 보고서 시간에 바로 사용할 수 있는 문자열 조작을 사용하여 CJA에서 약간 다르게 작동합니다. |
-| 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | 계획되었지만, 보다 유연하고 소급적이며 비파괴적인 데이터 조작을 위해 데이터 수집 기간이 아닌 쿼리 시간에 작동합니다. |
-| 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 
-## 지원이 아직 예정되지 않았습니다.
+## 지원이 아직 예정되지 않음
 
 | 기능 | 참고 |
 | --- | --- |
