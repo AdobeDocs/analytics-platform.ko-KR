@@ -3,10 +3,10 @@ title: Customer Journey Analytics 기능 지원
 description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트를 비교한 것입니다.
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
-workflow-type: ht
-source-wordcount: '1207'
-ht-degree: 100%
+source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 | GDPR 삭제 | 전체 지원: 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용됩니다. CJA는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
 | 목록 변수/목록 속성 | 전체 지원: CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)를 통한 전체 지원(2022년 1월) |
-| 머천다이징 eVar | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)를 통한 전체 지원(2022년 1월) |
+| 머천다이징 eVar | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension)를 통한 전체 지원(2022년 1월) |
 | 지표 | 전체 지원: CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 지정 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
 | 지표 중복 제거 | 전체 지원 |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. |
@@ -84,7 +84,12 @@ ht-degree: 100%
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
-| 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. |
+| 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. 은 CJA에서 &quot;대상 게시&quot;라고 합니다. |
+| 세션 보고 및 반복 | 지원이 몇 가지 주의해야 합니다. |
+| 상승도 및 신뢰도 보고 | 지원이 예정되어 있습니다. |
+| 분류 규칙 빌더 | 는 조회 데이터 세트가 아니라 보고서 시간에 바로 사용할 수 있는 문자열 조작을 사용하여 CJA에서 약간 다르게 작동합니다. |
+| 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | 계획되었지만, 보다 유연하고 소급적이며 비파괴적인 데이터 조작을 위해 데이터 수집 기간이 아닌 쿼리 시간에 작동합니다. |
+| 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 
 ## 지원이 아직 예정되지 않았습니다.
 
@@ -95,6 +100,9 @@ ht-degree: 100%
 | 분류 규칙 빌더 | 지원이 아직 예정되지 않음 |
 | 데이터 피드 | 지원이 아직 예정되지 않음 |
 | 요약 데이터 소스 | 지원이 아직 예정되지 않음 |
+| 거래 ID 데이터 소스 | 지원이 아직 예정되지 않음 |
+| 통화 전환 | 지원이 아직 예정되지 않음 |
+| 실시간 보고서 | 지원이 아직 예정되지 않음 |
 
 ## 지원 예정 없음
 
