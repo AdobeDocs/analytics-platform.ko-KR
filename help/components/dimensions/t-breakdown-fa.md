@@ -4,38 +4,38 @@ keywords: Analysis Workspace
 title: 차원 분류
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 source-git-commit: 0176f10ffed85786b0bfa77204ca7a19d9c39ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
-#  Workspace에서 차원 분류
+# 작업 영역에서 차원 분류
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
-특정 요구 사항에 맞게 데이터를 제한 없이 분류할 수 있습니다. 관련 지표, 차원, 필터, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성합니다.
+구체적인 필요 사항들을 위해 원하는 방법으로 데이터를 분류할 수 있습니다. 적절한 지표, 차원, 필터, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성해 보십시오.
 
 1. 데이터 테이블로 [프로젝트를 만듭니다](/help/analysis-workspace/home.md).
 1. 데이터 테이블에서 라인 항목을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 분류]** > *`<item>`*.
 
    ![단계 결과](assets/fa_data_table_actions.png)
 
-   선택한 기간에 대해 차원 항목 또는 대상 필터별로 지표를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
+   선택한 기간에 대해 차원 항목이나 대상 필터를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
    >[!NOTE]
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-**비디오: Analysis Workspace의 Dimension**
+**비디오: Analysis Workspace의 차원**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
-**비디오: Dimension 분류**
+**비디오: 차원 분류**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23969)
 
@@ -45,13 +45,13 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 ![분류 설정](assets/breakdown_settings.png)
 
-이것은 속성 모델을 분류에 적용하거나 편집할 때 예상되는 동작입니다.
+이는 분류에 속성 모델을 적용하거나 편집할 때 예상되는 비헤이비어입니다.
 
-* 다른 기여가 없을 때 속성을 적용하면 속성이 전체 열 트리에 적용됩니다.
+* 다른 속성이 존재하지 않을 때 속성을 적용하는 경우 해당 속성이 전체 항목 트리에 적용됩니다.
 
-* 속성이 적용된 후 분류를 추가하는 경우 추가된 주어진 분류에 대해 기본값이 사용됩니다(해당 차원에 기본값이 있는 경우). 그렇지 않으면 상위 열의 분류를 사용합니다. 일부 차원에는 기본 할당이 있습니다. 예를 들어 시간 차원과 레퍼러는 동일한 터치를 사용합니다. 제품 차원은 마지막 터치를 사용합니다. 다른 차원에는 기본값이 없으며, 상위 열 할당이 사용됩니다.
+* 속성이 적용된 후 분류를 추가하면 추가된 해당 분류에 대해 기본값이 사용됩니다(해당 차원에 기본값이 있는 경우). 그렇지 않은 경우 상위 열의 분류가 사용됩니다. 일부 차원에는 기본 할당이 있습니다. 예를 들어 시간 차원과 레퍼러는 동일한 터치를 사용합니다. 제품 차원은 마지막 터치를 사용합니다. 다른 차원에는 기본값이 없으며 상위 열 할당을 사용합니다.
 
-* 열 트리에 이미 기여가 있는 경우 속성을 변경하면 편집 중인 속성에만 영향을 줍니다.
+* 항목 트리에 속성이 이미 있는 경우 속성을 변경하면 편집 중인 속성만 변경됩니다.
 
 ## 비디오
 
@@ -63,6 +63,6 @@ Analysis Workspace에서 프로젝트에 치수 및 메트릭 추가하기
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179)
 
-위치별 Dimension 분류:
+위치별 차원 분류:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033)
