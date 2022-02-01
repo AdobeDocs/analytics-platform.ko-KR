@@ -3,10 +3,10 @@ title: 표준 구성 요소 참조
 description: 데이터 보기에 추가할 수 있는 모든 표준 구성 요소에 관한 세부 정보.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: b4d2c564f9fc477212306dc022b4afc5ab92db97
-workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 92%
+source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 CJA의 차원 및 지표 대부분은 Adobe Experience Platform 데이터 세트의 스키마 요소를 기반으로 합니다. 하지만 사용하는 연결에 관계없이 데이터 보기에 추가하도록 여러 구성 요소를 사용할 수 있습니다.
 
-[!UICONTROL 표준 구성 요소]는 데이터 세트 스키마 필드에서 생성되지 않고 대신 시스템에서 생성되는 구성 요소입니다. Analysis Workspace에서 보고 기능을 용이하게 하기 위해 일부 시스템 구성 요소가 필요한 반면, 다른 시스템 구성 요소는 선택 사항입니다.
+[!UICONTROL 표준 구성 요소]는 데이터 세트 스키마 필드에서 생성되지 않고 대신 시스템에서 생성되는 구성 요소입니다. Analysis Workspace에서 보고 기능을 용이하게 하기 위해 일부 시스템 구성 요소가 필요한 반면 다른 시스템 구성 요소는 선택 사항입니다.
 
 ![표준 구성 요소](assets/standard-components.png)
 
@@ -39,23 +39,23 @@ CJA의 차원 및 지표 대부분은 Adobe Experience Platform 데이터 세트
 
 선택 사항 표준 구성 요소는 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 표준 구성 요소]** 탭에서 사용할 수 있습니다.
 
-| 구성 요소 이름 | 차원 또는 지표 | 참고 및 값 |
+| 구성 요소 이름 | 차원 또는 지표 | 참고 값 |
 | --- | --- | --- |
-| [!UICONTROL 오전/오후] | 시간 분할 차원 | 오전 또는 오후 |
+| [!UICONTROL 오전/오후] | 차원 시간 분할 | 오전 또는 오후 |
 | [!UICONTROL 일괄 처리 ID] | 차원 | [!UICONTROL 이벤트]가 속한 Experience Platform 일괄 처리를 나타냅니다. |
 | [!UICONTROL 데이터 세트 ID] | 차원 | [!UICONTROL 이벤트]가 속한 Experience Platform 데이터 세트를 나타냅니다. |
-| [!UICONTROL 날짜] | 시간 분할 차원 | 1-31 |
-| [!UICONTROL 요일] | 시간 분할 차원 | 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일 |
-| [!UICONTROL 일(한 해 기준)] | 시간 분할 차원 | 1-366 |
-| [!UICONTROL 시간 (일 기준)] | 시간 분할 차원 | 0-23 |
-| [!UICONTROL 월 (연 기준)] | 시간 분할 차원 | 1월 - 12월 |
-| [!UICONTROL 개인 ID] | 차원 | Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이 중 원하는 ID를 개인 ID로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등이 있습니다. 다음 [!UICONTROL 개인 ID] 차원은 CJA에서 데이터 세트를 결합하고 고유 방문자를 식별하는 기반입니다. |
-| [!UICONTROL 개인 ID 네임스페이스] | 차원 | ID 유형 [!UICONTROL 개인 ID] 다음으로 구성됩니다. 예: `email address`, `cookie ID`, `Analytics ID`등 |
-| [!UICONTROL 사분기] | 시간 분할 차원 | Q1, Q2, Q3, Q4 |
+| [!UICONTROL 날짜] | 차원 시간 분할 | 1-31 |
+| [!UICONTROL 요일] | 차원 시간 분할 | 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일 |
+| [!UICONTROL 일(한 해 기준)] | 차원 시간 분할 | 1-366 |
+| [!UICONTROL 시간 (일 기준)] | 차원 시간 분할 | 0-23 |
+| [!UICONTROL  월 (연 기준)] | 차원 시간 분할 | 1월~12월 |
+| [!UICONTROL 개인 ID] | 차원 | Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이 중 원하는 ID를 개인 ID로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등이 있습니다. [!UICONTROL 개인 ID] 차원은 데이터 세트를 결합하고 CJA에서 고유한 방문자를 식별하는 기반입니다.<p>다음과 같이 사용할 수 있습니다.<ul><li>특정 개인 ID 값에 대한 필터를 생성하여 해당 사용자의 비헤이비어를 포함한 모든 사항을 필터링합니다.</li><li>디버깅: 특정 쿠키 ID(또는 특정 고객 ID)에 대한 데이터가 있는지 확인합니다.</li><li>콜센터를 이용한 사용자를 식별합니다.</li></ul> |
+| [!UICONTROL 개인 ID 네임스페이스] | 차원 | [!UICONTROL 개인 ID]로 구성된 ID 유형입니다. 예: `email address`, `cookie ID`, `Analytics ID` 등 |
+| [!UICONTROL 사분기] | 차원 시간 분할 | Q1, Q2, Q3, Q4 |
 | [!UICONTROL 세션 시작] | 지표 | 세션의 첫 번째 이벤트였던 이벤트 수입니다. 필터 정의(예: &#39;[!UICONTROL 세션 시작]이 존재합니다&#39;)에 사용될 경우, 이 필터는 모든 세션의 첫 번째 이벤트까지만 필터링합니다. |
 | [!UICONTROL 세션 종료] | 지표 | 세션의 마지막 이벤트였던 이벤트 수입니다. [!UICONTROL 세션 시작]과 마찬가지로 필터 정의에서도 모든 세션의 마지막 이벤트까지 필터링하는 데 사용할 수 있습니다. |
 | [!UICONTROL 소비한 시간(초)] | 지표 | 차원에 대한 두 개의 서로 다른 값 사이의 시간을 합산합니다. |
 | [!UICONTROL 이벤트당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 이벤트] 버킷에 버킷팅합니다. |
 | [!UICONTROL 세션당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 세션] 버킷에 버킷팅합니다. |
 | [!UICONTROL 사용자당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 개인] 버킷에 버킷팅합니다. |
-| [!UICONTROL 주말]/[!UICONTROL 요일] | 시간 분할 차원 | 주말 또는 평일 |
+| [!UICONTROL 주말]/[!UICONTROL 평일] | 차원 시간 분할 | 주말 또는 평일 |
