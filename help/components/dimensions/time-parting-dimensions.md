@@ -3,13 +3,13 @@ description: 시간 분할은 수집한 히트의 타임스탬프를 가져와�
 title: 차원 시간 분할
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 차원 시간 분할 Analysis Workspace의 
+# 차원 시간 분할 Analysis Workspace에서
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 &quot;시간&quot; 또는 &quot;요일&quot;과 같은 더 의미 있는 차원으로 나눕니다.
 
