@@ -3,8 +3,9 @@ title: 지표 중복 제거 구성 요소 설정
 description: 보고서에서 첫 번째 지표 발생 횟수만을 계산합니다.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 

@@ -3,8 +3,9 @@ title: 결합된 이벤트 데이터 세트
 description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Connections
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -75,4 +76,4 @@ ht-degree: 100%
 | --- | --- |
 | 노란색 | 6 |
 | 파란색 | 3 |
-| 빨간색 | 2 |
+| 빨간색 | 2개 |

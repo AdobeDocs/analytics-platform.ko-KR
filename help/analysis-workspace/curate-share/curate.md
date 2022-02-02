@@ -2,11 +2,12 @@
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
 keywords: Analysis Workspace 큐레이션
 title: 프로젝트 구성
+feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 43%
+ht-degree: 45%
 
 ---
 
@@ -15,16 +16,16 @@ ht-degree: 43%
 조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소(차원, 지표, 필터, 날짜 범위)를 제한할 수 있습니다. 수신자가 프로젝트를 열면 해당 프로젝트를 위해 선별한 제한된 구성 요소 세트가 표시됩니다. 조정 작업은 선택 사항이지만 프로젝트를 공유하기 전에 권장되는 단계입니다.
 
 >[!NOTE]
-> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, 이러한 수정 사항은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)을 통해 관리됩니다. 큐레이션은 보조 필터입니다.
+> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, 이러한 ID는 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR). 큐레이션은 보조 필터입니다.
 
 ## 프로젝트 조정 적용
 
 1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
-1.  (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정 ]필드로 드래그합니다.
+1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정 ]필드로 드래그합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
-[!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
+[!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해 줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
 
 ![](assets/curation-field.png)
 
@@ -38,14 +39,13 @@ ht-degree: 43%
 
 프로젝트 조정을 제거하고 왼쪽 레일에 있는 전체 구성 요소 세트를 복원하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
-
+1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 조정 제거]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
 ## 구성 요소 큐레이션 옵션
 
-조정된 프로젝트에서 수신자에게 왼쪽 레일에 **[!UICONTROL 모두 표시]** 구성 요소 옵션이 표시됩니다. [!UICONTROL 모두 표시]를 선택하면 다음 항목에 따라 다른 구성 요소 세트가 표시됩니다.
+조정된 프로젝트에서 수신자에게 다음과 같은 옵션이 제공됩니다 **[!UICONTROL 모두 표시]** 구성 요소를 생성하지 않습니다. [!UICONTROL 모두 표시]를 선택하면 다음 항목에 따라 다른 구성 요소 세트가 표시됩니다.
 
 * 사용자의 권한 수준 (관리자 또는 비관리자)
 * 프로젝트 역할 (소유자/편집자 아님)

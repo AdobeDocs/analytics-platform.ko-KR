@@ -1,11 +1,12 @@
 ---
 description: 폴아웃 시각화 는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다.
 title: 폴아웃 개요
+feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -28,8 +29,8 @@ ht-degree: 84%
 폴아웃 시각화는 다음 항목을 분석하는 데 유용합니다.
 
 * 사이트의 특정 프로세스를 통한 전환율 (예: 구매 또는 등록 프로세스)
-* 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
-* 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
+* 일반적이고 폭 넓은 범위의 트래픽 플로우: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
+* 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인정보 보호정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
 
-[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  (4:15)
+[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ko-KR)  (4:15)
 

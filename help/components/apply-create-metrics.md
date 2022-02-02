@@ -1,12 +1,12 @@
 ---
 description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
 title: 지표
-uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니�
 
 또는 **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 지표]**&#x200B;를 클릭할 수 있습니다. 이 경우 기존 지표에서 사용자 지정 지표를 작성할 수 있는 [계산된 지표 빌더](/help/components/calc-metrics/calc-metr-overview.md)로 이동합니다.
 
-계산된 지표를 더 빠르고 쉽게 생성할 수 있도록 **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;가 자유 형식 테이블의 열 마우스 오른쪽 단추 클릭 메뉴에 추가되었습니다. 이 선택 사항은 머리글 열 셀을 하나 이상 선택하면 표시됩니다.
+계산된 지표를 더 빠르고 쉽게 생성할 수 있도록 **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;가 자유 형식 테이블의 열 마우스 오른쪽 버튼 클릭 메뉴에 추가되었습니다. 이 선택 사항은 머리글 열 셀을 하나 이상 선택하면 표시됩니다.
 
 ![](assets/calc_metrics.png)
 
-[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
+[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR)  (3:42)
 
 ## 다양한 속성 모델과 지표 비교
 
@@ -36,4 +36,4 @@ Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니�
 
 ![속성 비교](assets/compare-attribution.png)
 
-이 바로 가기를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 신속하고 간편하게 비교할 수 있습니다.
+이 단축키를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 신속하고 간편하게 비교할 수 있습니다.

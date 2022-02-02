@@ -1,11 +1,11 @@
 ---
 description: Customer Journey Analytics용 Analysis Workspace에서 빠른 필터 사용
 title: 빠른 필터
-feature: Workspace Basics
+feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
-workflow-type: ht
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
 

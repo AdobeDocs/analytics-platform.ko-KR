@@ -1,14 +1,14 @@
 ---
-description: 영역 시각화는 선 그래프와 비슷하지만 선 아래에 색상 영역이 있습니다.
+description: 영역 시각화는 선 그래프 모양이며 선 아래에 색칠된 영역이 있습니다.
 title: 영역 및 스택 영역
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: d9662b29-fc41-4074-8cf6-031202994ece
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 83%
 
 ---
-
 
 # 영역 및 스택 영역
 
@@ -27,4 +27,3 @@ ht-degree: 83%
 스택 영역 시각화에 대한 새로운 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
 ![](assets/areastacked100.png)
-

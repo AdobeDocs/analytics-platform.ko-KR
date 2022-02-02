@@ -1,8 +1,9 @@
 ---
 description: 도넛 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다.
 title: 도넛
+feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 65%

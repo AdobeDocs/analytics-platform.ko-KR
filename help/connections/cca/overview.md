@@ -3,8 +3,9 @@ title: 크로스 채널 분석 개요
 description: 방문자 결합을 위해 여러 데이터 세트의 방문자 ID를 다시 입력합니다.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
-source-git-commit: 0f348f1d2119c902716a5e096a859521a4b316b0
-workflow-type: ht
+feature: Cross-Channel Analytics
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 

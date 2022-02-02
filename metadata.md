@@ -1,10 +1,9 @@
 ---
 cloud: Experience Cloud
-git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.ko-KR
-description: 이 파일에는 보고서에서 사용자 안내서 TOC.md 파일로 전달하는 보고서 수준 메타데이터가 포함되어 있습니다.
-feature-set: Analytics
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+git-repo: https://github.com/AdobeDocs/analytics-platform.ko-KR
+description: 이 파일에는 보고서의 사용 안내서 TOC.md 파일에 전달되는 보고서 수준 메타데이터가 포함되어 있습니다.
+feature-set: Customer Journey Analytics
+source-git-commit: a31b6a6624087b2863b4643397c4a824662551b5
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 84%

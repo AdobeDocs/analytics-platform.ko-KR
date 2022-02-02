@@ -3,8 +3,9 @@ title: 데이터 보기 만들기 또는 편집
 description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있는 모든 설정입니다.
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 

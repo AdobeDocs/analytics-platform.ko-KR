@@ -3,8 +3,9 @@ title: 연결 만들기
 description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
-source-git-commit: 83aa9b785a7b75046526d80c941a452396ea4d04
-workflow-type: ht
+feature: Connections
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 100%
 
@@ -141,7 +142,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 이 계산은 연결의 모든 데이터 세트에 대해 수행해야 합니다.
 
-1. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR)로 이동하여 새 쿼리를 만듭니다.
+1. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)로 이동하여 새 쿼리를 만듭니다.
 
 1. 이 쿼리의 형태는 다음과 같습니다.
 

@@ -1,13 +1,14 @@
 ---
 title: 속성 모범 사례
 description: 속성 모델 결정과 관련된 모범 사례에는 어떤 것들이 있습니까?
-source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
-workflow-type: ht
+feature: Attribution
+exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
-
 
 # 속성 모범 사례
 
@@ -38,11 +39,11 @@ ht-degree: 100%
 
 이 단계의 목적은 가설을 확인하는 것입니다.
 
-**예제 1**
+**예 1**
 
 “첫 번째 터치 채널이 마지막 터치 채널보다 전환에 더 많은 영향을 미친다.”라는 가설을 설정해 보도록 하겠습니다. 그런 다음 [“역 J자형” 속성 모델](/help/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트할 수 있습니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
 
-**예제 2**
+**예 2**
 
 “우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정할 수 있습니다. 그런 다음 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows)을 90일로 변경할 수 있습니다.
 

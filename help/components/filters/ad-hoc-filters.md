@@ -1,15 +1,15 @@
 ---
 description: Analysis Workspace에서 임시 필터를 사용합니다.
 title: 임시 프로젝트 필터
-feature: Workspace Basics
+feature: CJA Workspace Basics
 role: User, Admin
-source-git-commit: 275c552b14a4c2a47e00d0600ac3eae6811beae9
-workflow-type: ht
+exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
 ---
-
 
 # 임시 프로젝트 필터
 

@@ -2,8 +2,9 @@
 description: 터치포인트에서 필터를 만들고, 필터를 터치포인트로 추가하고, Analysis Workspace의 다양한 필터에서 주요 워크플로우를 비교할 수 있습니다.
 keywords: 폴아웃 및 필터;폴아웃 분석의 필터;폴아웃의 필터 비교
 title: 폴아웃 분석에서 필터 적용
+feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 15%
@@ -28,7 +29,7 @@ ht-degree: 15%
 
 ## 터치 포인트에서 필터 만들기 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트에서 필터를 만듭니다. 터치 포인트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 터치 포인트에서 필터 만들기]**&#x200B;를 선택하여 이 작업을 수행합니다.
+1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트에서 필터를 만듭니다. 터치포인트를 마우스 오른쪽 단추로 클릭하고 을 선택하여 이를 수행합니다 **[!UICONTROL 터치 포인트에서 필터 만들기]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -52,12 +53,12 @@ ht-degree: 15%
 
 폴아웃 시각화에서는 필터를 무제한으로 비교할 수 있습니다.
 
-1. 왼쪽의 [!UICONTROL 필터] 레일에서 비교할 필터를 선택합니다. 이 예제에서는 2개의 필터를 선택했습니다.미국 사용자 및 미국 이외의 사용자.
+1. 비교할 필터를 [!UICONTROL 필터] 왼쪽에 있는 레일입니다 이 예제에서는 2개의 필터를 선택했습니다. 미국 사용자 및 미국 이외의 사용자.
 1. 위쪽의 필터 드롭 영역으로 드래그합니다.
 
    ![](assets/segment-drop.png)
 
-1. 선택 사항: &quot;모든 방문 수&quot;를 기본 컨테이너로서 유지하거나 삭제할 수 있습니다. 
+1. 선택 사항: &quot;모든 방문 수&quot;를 기본 컨테이너로서 유지하거나 삭제할 수 있습니다.
 
    ![](assets/seg-compare.png)
 

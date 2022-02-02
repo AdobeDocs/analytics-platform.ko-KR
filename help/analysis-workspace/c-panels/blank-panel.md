@@ -1,8 +1,9 @@
 ---
 description: Analysis Workspace에서 빈 패널을 사용하는 방법
 title: 빈 패널
+feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 89%

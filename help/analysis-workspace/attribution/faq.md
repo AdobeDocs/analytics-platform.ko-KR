@@ -1,8 +1,9 @@
 ---
 title: 속성 FAQ
 description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
+feature: Attribution
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 88%

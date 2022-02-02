@@ -1,18 +1,19 @@
 ---
 title: 구성 요소 설정
-description: 구성 요소에 대한 핵심 설정 보기.
+description: 데이터 보기 구성 요소에 대한 핵심 설정을 봅니다.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 95%
 
 ---
 
 # 구성 요소 설정
 
-구성 요소를 사용하는 핵심 설정.
+데이터 보기 구성 요소에서 사용하는 코어 설정.
 
 ![구성 요소 설정](../assets/component-settings.png)
 

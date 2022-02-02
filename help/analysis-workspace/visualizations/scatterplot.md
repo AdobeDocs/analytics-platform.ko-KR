@@ -1,8 +1,9 @@
 ---
 title: 산포도
-description: 최대 3개의 지표 간 관계를 보여주는 시각화입니다.
+description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니다.
+feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%

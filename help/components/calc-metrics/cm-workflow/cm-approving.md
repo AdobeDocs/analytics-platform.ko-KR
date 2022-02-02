@@ -1,8 +1,10 @@
 ---
 description: 계산된 지표 관리자 내에서 다양한 애플리케이션 수준 및 특정 부서 또는 그룹에 대한 지표 승인이 포함된 워크플로를 설정할 수 있습니다.
 title: 계산된 지표 승인
-source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

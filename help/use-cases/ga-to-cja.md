@@ -3,7 +3,8 @@ title: Google Analytics 데이터를 Adobe Experience Platform으로 수집
 description: 'CJA(Customer Journey Analytics)를 사용하여 Google Analytics 데이터를 Adobe Experience Platform에 수집하는 방법을 설명합니다. '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
-source-git-commit: 445317efa636024dbaf0ac34b6a74b52b92b9000
+feature: Use Cases
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 97%

@@ -2,12 +2,11 @@
 description: Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
-feature: Reports & Analytics 기본 사항
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
+feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -24,9 +23,9 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 날짜 범위는 패널 수준에서 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **패널** > *`<select panel>`*&#x200B;을 클릭하고 새 날짜 범위를 지정하십시오.
 
-## &quot;2개월 전&quot;에 대한 날짜 범위 
+## &quot;2개월 전&quot;에 대한 날짜 범위
 
-다음 사용자 지정 날짜 범위는 방향 변경을 보여주는 요약 변경 사항 시각화가 있는, &quot;2개월 전&quot;에 대한 날짜 범위를 보여줍니다.
+다음 사용자 지정 날짜 범위는 방향 변경을 보여 주는 요약 변경 사항 시각화가 있는, &quot;2개월 전&quot;에 대한 날짜 범위를 보여 줍니다.
 
 ![](assets/date-range-two-months-ago.png)
 

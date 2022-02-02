@@ -1,11 +1,12 @@
 ---
 description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV 형식으로 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
+feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 92%
 >
 >Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
-도구 외부에서 분석하려는 데이터 집합이 무엇인지와 누가 정보를 받아야 하는지에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 여러 가지 방법이 있습니다. 내보낸 데이터는 복사한 데이터, CSV 또는 PDF 파일 형식일 수 있습니다. 파일에 시각화를 포함하려는 경우 일반적으로 PDF가 선호되고, 단순히 일반 텍스트 데이터를 원하는 경우 CSV (또는 복사한 데이터)가 선호됩니다.
+도구 외부에서 분석하려는 데이터 세트가 무엇인지와 누가 정보를 받아야 하는지에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 여러 가지 방법이 있습니다. 내보낸 데이터는 복사한 데이터, CSV 또는 PDF 파일 형식일 수 있습니다. 파일에 시각화를 포함하려는 경우 일반적으로 PDF가 선호되고, 단순히 일반 텍스트 데이터를 원하는 경우 CSV (또는 복사한 데이터)가 선호됩니다.
 
 ## 프로젝트를 CSV 또는 PDF로 다운로드 {#download-project}
 
@@ -25,10 +26,10 @@ ht-degree: 92%
 
 프로젝트 다운로드의 경우 유의해야 할 사항:
 
-* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)할 수 있습니다.
+* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=ko-KR)할 수 있습니다.
 * 브라우저에서 다운로드한 PDF는 PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되기 때문에 내보내는 데 몇 분 정도 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
-* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단 모서리의 단추)되도록 변경해야 합니다.
+* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단의 버튼)되도록 변경해야 합니다.
 
 ## 클립보드에 데이터 복사 (핫키: Ctrl + C) {#copy-data}
 
@@ -90,4 +91,4 @@ ht-degree: 92%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 Workspace는 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | “CSV로 항목 다운로드” 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 표의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
-| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR) |

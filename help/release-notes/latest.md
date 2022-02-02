@@ -2,7 +2,8 @@
 title: 현재 Customer Journey Analytics 릴리스 노트 보기
 description: 최신 CJA 릴리스 노트
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
-source-git-commit: 6585e3b3f5a48edcf4357f710630ebbd36175e7d
+feature: Release Notes
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 73%
@@ -11,9 +12,9 @@ ht-degree: 73%
 
 # 현재 Customer Journey Analytics 릴리스 노트
 
-## 주요 업데이트
+## Key updates
 
-|[!UICONTROL 지속성] 차원 바인딩 및 지표 바인딩 옵션| 데이터 보기를 만들거나 편집할 때 차원의 지속성을 다른 차원이나 지표에 바인딩할 수 있습니다. Reports &amp; Analytics에서는 이러한 개념을 _머천다이징_&#x200B;이라고 하며, 이는 현재 CJA에서 지원됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)| 2022년 1월 19일 |
+|[!UICONTROL 지속성] 차원 바인딩 및 지표 바인딩 옵션| 데이터 보기를 만들거나 편집할 때 차원의 지속성을 다른 차원이나 지표에 바인딩할 수 있습니다. Reports &amp; Analytics에서는 이러한 개념을 _머천다이징_&#x200B;이라고 하며, 이는 현재 CJA에서 지원됩니다. [Learn more](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)| January 19, 2022 |
 
 ## 기타 업데이트
 

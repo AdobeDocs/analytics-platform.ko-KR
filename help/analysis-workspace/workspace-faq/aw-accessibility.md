@@ -1,8 +1,9 @@
 ---
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
+feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 96%
@@ -11,7 +12,7 @@ ht-degree: 96%
 
 # Analysis Workspace 액세스 가능 여부
 
-Customer Journey Analytics을 위한 최고의 분석 도구인 [!UICONTROL Analysis Workspace]의 접근성 지원에 대해 알아보십시오.
+에서 액세스 가능성 지원에 대해 알아보십시오 [!UICONTROL Analysis Workspace]: Customer Journey Analytics을 위한 최고의 분석 도구입니다.
 
 접근성은 제품이 시각, 청각, 인지, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 접근성 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
 
@@ -83,13 +84,13 @@ Customer Journey Analytics을 위한 최고의 분석 도구인 [!UICONTROL Anal
 
 ## 화면 판독기 및 화면 돋보기 지원
 
-화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 단추 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
+화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 버튼 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
 
 ## 색상 팔레트 및 대비
 
 [!UICONTROL Analysis Workspace]는 색상 대비 요구 사항을 포함하여 WCAG 2.1 AA 적합성을 준수하기 위해 최선을 다합니다.
 
-또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다 .
+또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다.
 
 ## 구성 요소 빌더의 필수 필드 유효성 검사
 
@@ -101,4 +102,4 @@ Customer Journey Analytics을 위한 최고의 분석 도구인 [!UICONTROL Anal
 
 ## 운영 체제 접근성 기능 지원
 
-Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 내장된 MS Windows 및 macOS 접근성 기능을 지원합니다. 또한, 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.
+Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 내장된 MS Windows 및 macOS 접근성 기능을 지원합니다. 또한 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.

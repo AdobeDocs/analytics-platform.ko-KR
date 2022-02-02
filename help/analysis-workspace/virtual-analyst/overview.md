@@ -1,8 +1,9 @@
 ---
 title: Virtual Analyst
 description: Customer Journey Analytics의 어떤 기능이 Virtual Analyst로 구성되어 있는지 알아봅니다.
+feature: Anomaly Detection
 exl-id: 5fb6ac39-d09d-49f0-ae1f-13f223e20800
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 43%
@@ -19,6 +20,6 @@ Customer Journey Analytics의 일부인 기능들의 세트인 Virtual Analyst�
 
 ## 기능 {#features}
 
-고객 여정 분석의 가상 분석가는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공하는 [예외 항목 탐지:](c-anomaly-detection/anomaly-detection.md)로 구성됩니다.
+고객 여정 분석의 가상 분석가는 [예외 항목 탐지:](c-anomaly-detection/anomaly-detection.md)- 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
 기여도 분석 및 지능형 경고는 아직 고객 여정 분석에서 사용할 수 없습니다.

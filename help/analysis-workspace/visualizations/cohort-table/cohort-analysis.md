@@ -1,8 +1,9 @@
 ---
 title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
+feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 75%
@@ -11,7 +12,7 @@ ht-degree: 75%
 
 # [!UICONTROL 집단 분석]이란?
 
-*`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다.  ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://en.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
 집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 필터)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 
@@ -19,11 +20,11 @@ ht-degree: 75%
 
 * 원하는 작업에 박차를 가할 수 있도록 설계된 캠페인 시작.
 * 고객 라이프사이클에서 적시에 마케팅 예산 전환.
-* 평가판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
+* 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 * 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
-[!UICONTROL 집단 ] 분석은  [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객에 대해 사용할 수 있습니다.
+[!UICONTROL 집단 분석] 에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객에 대해 사용할 수 있습니다. [!UICONTROL Analysis Workspace].
 
 [코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR)  (4:36)
 
@@ -58,13 +59,13 @@ ht-degree: 75%
 
 ### [!UICONTROL 지연 테이블]
 
-포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이것은 이전/이후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
+포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이는 이전/이후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
 
 ![](assets/cohort-latency.png)
 
 ### [!UICONTROL 사용자 지정 차원 집단]
 
-기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅 채널], [!UICONTROL 캠페인], [!UICONTROL 제품], [!UICONTROL 페이지], [!UICONTROL 지역] 또는 Customer Journey Analytics의 다른 차원과 같은 차원을 사용하여 이러한 차원의 다른 값을 기반으로 보존이 어떻게 변경되는지를 보여 줍니다.
+기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. 다음과 같은 차원 사용 [!UICONTROL 마케팅 채널], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL 페이지], [!UICONTROL 지역]또는 Customer Journey Analytics의 다른 차원을 사용하여 이러한 차원의 다른 값에 따라 보존이 변경되는 방법을 보여줍니다.
 
 ![](assets/cohort-customizable-cohort-row.png)
 

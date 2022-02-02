@@ -1,9 +1,11 @@
 ---
 title: Customer Journey Analytics에서 카디널리티가 매우 높은 차원
 description: Customer Journey Analytics에서 카디널리티가 높은 차원을 다루는 모범 사례 설명
+feature: Dimensions
+solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
-workflow-type: ht
+source-git-commit: 0e9d612e1c0f6d64cd6f1e045c1049a1f8202b72
+workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 100%
 

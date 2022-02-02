@@ -3,8 +3,9 @@ title: 표준 구성 요소 참조
 description: 데이터 보기에 추가할 수 있는 모든 표준 구성 요소에 관한 세부 정보.
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 

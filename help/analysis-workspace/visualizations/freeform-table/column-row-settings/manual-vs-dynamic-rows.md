@@ -1,9 +1,10 @@
 ---
 title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
-description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다.
+description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다
+feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 100%
 

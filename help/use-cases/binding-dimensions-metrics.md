@@ -2,7 +2,8 @@
 title: CJA에서 결합 차원 및 지표 사용
 description: 복잡한 지속성 분석을 위해 속성 차원을 객체 배열에 추가합니다.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
-source-git-commit: 4381a01b072084701d065d7f41de539412c8d371
+feature: Use Cases
+source-git-commit: 38c10e395b816d812d30f0698dc821ee0ea5c9b1
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%

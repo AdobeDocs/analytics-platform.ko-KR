@@ -1,9 +1,10 @@
 ---
 description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 title: 차원 시간 분할
+feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -28,5 +29,5 @@ ht-degree: 100%
 | 주말/평일 | 주말, 평일 |
 | 날짜 | 1-31 |
 | 월 | 1월~12월 |
-| 일 | 1-366 |
+| 일(한 해 기준) | 1-366 |
 | 사분기 | Q1, Q2, Q3, Q4 |
