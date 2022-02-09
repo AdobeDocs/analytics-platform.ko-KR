@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 노트 보기
 description: 최신 CJA 릴리스 노트
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 04b9d5d1028cf0ec3ff169e7e63ac686792df241
+source-git-commit: b32822f8513e2c4fb2fbabc0315314a56aa903dd
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 39%
+source-wordcount: '56'
+ht-degree: 28%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 39%
 
 ## 문제 해결
 
-* 수정 번호 1
-* 수정 번호 2
+* 유형 필드에 대한 지원이 추가되었습니다 `string array[]`.
+* 이 [!UICONTROL 폴아웃] 보고서가 표시되지 않습니다.
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
