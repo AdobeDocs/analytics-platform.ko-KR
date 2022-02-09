@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 노트 보기
 description: 최신 CJA 릴리스 노트
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c09c381a6a0c258275dcc90fff3e7133d5c42d5a
+source-git-commit: 04b9d5d1028cf0ec3ff169e7e63ac686792df241
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 39%
@@ -14,7 +14,7 @@ ht-degree: 39%
 
 ## 주요 기능
 
-| 기능 | 설명 | 목표 날짜 |
+| 기능 | 설명 | [목표 날짜](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
 | 이번 달에는 새로운 기능 없음 | 해당 없음 | 해당 없음 |
 
