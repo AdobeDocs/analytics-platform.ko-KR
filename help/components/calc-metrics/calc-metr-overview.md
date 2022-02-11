@@ -3,18 +3,14 @@ title: 계산된 지표 개요
 description: 알아보기
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
 
 # 계산된 지표 개요
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다. Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다.
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c09c381a6a0c258275dcc90fff3e7133d5c42d5a
+source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 98%
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -20,10 +20,18 @@ ht-degree: 98%
 # Customer Journey Analytics 안내서 {#using}
 
 + [Customer Journey Analytics 안내서](getting-started/cja-landing.md)
++ 릴리스 노트 {#releases}
+   + [최신 릴리스](release-notes/latest.md)
+   + [2022년 릴리스](release-notes/2022.md)
+   + [2021년 릴리스](release-notes/2021.md)
+   + [2020년 릴리스](release-notes/2020.md)
+   + [CJA 릴리스](release-notes/releases.md)
+   + [CJA 설명서 업데이트](release-notes/doc-changes.md)
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
    + [자주 묻는 질문](getting-started/cja-faq.md)
+   + [Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비](getting-started/aa-to-cja.md)
    + [Customer Journey Analytics 기능 지원](getting-started/cja-aa.md)
    + [삭제 영향](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
@@ -205,11 +213,5 @@ ht-degree: 98%
    + [Adobe Analytics 데이터와 CJA 데이터 비교](troubleshooting/compare.md)
 + 개인정보 보호 {#cja-privacy}
    + [개인정보 보호 개요](privacy/privacy-overview.md)
-+ 릴리스 노트 {#releases}
-   + [최신 릴리스](release-notes/latest.md)
-   + [2022년 릴리스](release-notes/2022.md)
-   + [2021년 릴리스](release-notes/2021.md)
-   + [2020년 릴리스](release-notes/2020.md)
-   + [CJA 릴리스](release-notes/releases.md)
-   + [CJA 설명서 업데이트](release-notes/doc-changes.md)
+
 
