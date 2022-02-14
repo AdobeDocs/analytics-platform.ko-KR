@@ -3,13 +3,13 @@ title: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션
 description: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하는 단계
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 868cd819148b29436fbd92cf220c8bc4cb9e0725
+exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
+source-git-commit: 2a330a430b48eb753d269e1165e95b61cb5fb483
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1060'
 ht-degree: 5%
 
 ---
-
 
 # Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비
 
@@ -24,10 +24,10 @@ Adobe Analytics 데이터를 준비하여 Customer Journey Analytics으로 원�
 고객 여정을 이해하는 데 가장 중요한 구성 요소는 각 단계에서 고객이 누구인지를 파악하는 것입니다. Customer Journey Analytics의 경우, 모든 채널에 있는 식별자와 해당 데이터에 대한 식별자가 있으면 CJA 내에서 여러 소스를 함께 결합할 수 있습니다.
 ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있을 수 있습니다. ID(및 여러 ID가 있을 수 있음)가 무엇이든 각 ID에 대해 다음 사항을 고려해야 합니다.
 
-* 존재하거나 CJA로 가져올 모든 데이터 소스에 추가할 수 있습니다
-* 의 각 데이터 행에 채워집니다
-* PII를 포함하지 않습니다. 민감할 수 있는 모든 항목에 해시를 적용합니다.
-* 모든 소스(동일한 길이, 동일한 해싱 방법 등)에서 동일한 형식을 사용합니다.
+* ID가 존재하거나 CJA로 가져올 모든 데이터 소스에 추가할 수 있습니다
+* ID는 데이터의 각 행에 채워집니다
+* ID에 PII가 없습니다. 민감할 수 있는 모든 항목에 해시를 적용합니다.
+* ID는 모든 소스(동일한 길이, 동일한 해시 메서드 등)에서 동일한 형식을 사용합니다.
 
 Adobe Analytics과 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재할 수 있습니다. 이 경우 고객이 ECID로만 식별되고 ID가 수집될 때(예: 고객이 인증을 받을 때) 크로스 채널 분석(이전의 &quot;필드 기반 결합&quot;이라고 함)을 사용하여 행 간 간격을 연결할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)
 
@@ -51,9 +51,9 @@ Adobe Analytics 데이터를 Customer Journey Analytics으로 가장 간단한 �
 
 Adobe이 게시됨 [마케팅 채널 구현에 대한 모범 사례를 업데이트했습니다](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en). 이러한 업데이트된 권장 사항은 Attribution IQ에서 이미 사용 중인 기능을 최대한 활용할 수 있도록 도와줍니다. 또한 Customer Journey Analytics으로 전환할 때 성공을 설정하게 됩니다.
 
-### 4. Analytics Data Connector와 Experience Platform SDK의 사용에 대해 결정합니다
+### 4. Analytics 소스 커넥터와 Experience Platform SDK의 사용을 결정합니다
 
-로서의 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 데이터 수집이 발전하면 Adobe Experience Platform Edge 네트워크를 사용하여 Adobe Experience Platform Web SDK 또는 Adobe Experience Platform Mobile SDK로 마이그레이션할 수 있습니다. 일반적인 SDK 구현에서는 데이터를 Adobe Analytics으로 전송하지만 새로운 기회는 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 기회를 제공합니다. 그런 다음 Adobe Analytics에 전송된 데이터를 유지하는 동시에 Customer Journey Analytics에 수집할 수 있습니다.
+로서의 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 데이터 수집이 발전하면 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en) Adobe Experience Platform Edge Network와 함께 사용할 수 있습니다. 일반적인 SDK 구현에서는 데이터를 Adobe Analytics으로 전송하지만 새로운 기회는 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 기회를 제공합니다. 그런 다음 Adobe Analytics에 전송된 데이터를 유지하는 동시에 Customer Journey Analytics에 수집할 수 있습니다.
 
 이 메서드는 데이터 수집에 대한 가능성을 크게 확장합니다. 더 이상 필드 수에 제한이 없거나 데이터 요소를 Analytics와 같은 prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 무제한 스키마 요소를 사용하고 CJA를 사용하여 여러 가지 방법으로 나타낼 수 있습니다 [데이터 보기](/help/data-views/data-views.md). Adobe Analytics을 통한 데이터 처리 시간이 제거되어 Adobe Experience Platform으로 바로 전송될 때 데이터 가용성 속도가 증가합니다.
 
