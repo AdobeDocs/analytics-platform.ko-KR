@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b9b6c411552e8be98547e834ce81ba45d28dda60
+source-git-commit: 719b67049456be857431ee1a7ca97e9f0fd881ee
 workflow-type: tm+mt
 source-wordcount: '1646'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -79,8 +79,8 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 | 다음을 수행하는 경우 | 발생하는 결과 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform]에서 샌드박스를 삭제 | 샌드박스를 삭제하면 해당 샌드박스의 데이터 세트에 대한 [!UICONTROL Customer Journey Analytics] 연결로의 데이터 흐름이 정지됩니다. 현재는 삭제된 해당 샌드박스에 연결된 CJA의 연결이 자동으로 삭제되지 않습니다. |
-| [!UICONTROL Adobe Experience Platform]에서 스키마를 삭제하지만 이 스키마와 연결된 데이터 세트는 삭제하지 않음 | [!UICONTROL Adobe Experience Platform]에서는 연관된 데이터 세트가 하나 이상 있는 스키마를 삭제할 수 없습니다. 그러나 적절한 권한 세트가 있는 관리자는 먼저 데이터 세트를 삭제한 다음 스키마를 삭제할 수 있습니다. |
+| [!UICONTROL Adobe Experience Platform]에서 샌드박스를 삭제 | 샌드박스를 삭제하면 해당 샌드박스의 데이터 세트에 대한 [!UICONTROL Customer Journey Analytics] 연결로의 데이터 흐름이 정지됩니다. 현재, [!UICONTROL 연결] 에서 삭제된 샌드박스에 연결된 CJA는 자동으로 삭제되지 않습니다. |
+| [!UICONTROL Adobe Experience Platform]에서 스키마를 삭제하지만 이 스키마와 연결된 데이터 세트는 삭제하지 않음 | [!UICONTROL Adobe Experience Platform][!UICONTROL 에서는 연관된 데이터 세트가 하나 이상 있는 스키마를 삭제할 수 없습니다. ] 그러나 적절한 권한 세트가 있는 관리자는 먼저 데이터 세트를 삭제한 다음 스키마를 삭제할 수 있습니다. |
 | [!UICONTROL Adobe Experience Platform]에서 데이터 세트를 삭제 | AEP 데이터 레이크에서 데이터 세트를 삭제하면 해당 데이터 세트로부터 이 데이터 세트를 포함하는 모든 CJA 연결로의 데이터 흐름이 정지됩니다. 해당 데이터 세트의 데이터는 연관된 CJA 연결에서 자동으로 삭제되지 않습니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트를 삭제 | 현재 저장된 연결 내에서는 데이터 세트를 삭제할 수 없습니다. 전체 연결을 삭제하고 다시 시작해야 합니다. (그러나 CJA SKU를 구매한 고객은 [!UICONTROL Adobe Experience Platform] 사용자 인터페이스에서 데이터 세트를 삭제할 수 있습니다.) |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 CJA 연결에서 동일한 일괄 처리가 제거됩니다.  CJA는 [!UICONTROL Adobe Experience Platform]에서 일괄 삭제 알림을 수신합니다. |
