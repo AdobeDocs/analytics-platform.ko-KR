@@ -4,10 +4,10 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 마이그레
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
+source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 6%
+source-wordcount: '1234'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics과 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬
 
-Adobe Analytics 데이터를 Customer Journey Analytics으로 가장 간단한 마이그레이션은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR). 이 커넥터는 Adobe Analytics 변수를 AEP의 XDM 스키마 및 데이터 세트에 직접 매핑하며 CJA에 쉽게 연결할 수 있습니다.
+Adobe Analytics 데이터를 Customer Journey Analytics으로 가장 간단하게 마이그레이션하는 것은 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) 를 사용하여 Experience Platform으로 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR). 이 커넥터는 Adobe Analytics 변수를 AEP의 XDM 스키마 및 데이터 세트에 직접 매핑하며 CJA에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현에 적합하지 않을 수 있습니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우, 해당 보고서 세트에 변수를 일치시킬 계획을 세워야 합니다.
 
@@ -77,7 +77,7 @@ Adobe이 게시됨 [마케팅 채널 구현에 대한 모범 사례를 업데이
 
 ### 보고서 처리 시간 편이성
 
-Adobe Analytics의 보고는 상당한 양의 데이터 사전 처리를 사용하여 표시되는 지속성과 같은 결과를 생성합니다 [!UICONTROL eVar]. Customer Journey Analytics은 보고서 실행 시 이러한 계산을 실행합니다.
+Adobe Analytics의 보고는 상당한 양의 데이터 사전 처리를 사용하여 표시되는 지속성과 같은 결과를 생성합니다 [!UICONTROL eVar]. 반면에, Customer Journey Analytics은 보고서 실행 시 이러한 계산을 실행합니다.
 
 [!UICONTROL 보고서 처리 시간] 에서는 기본 데이터 수집 방법을 변경하지 않고도 소급 적용된 설정을 적용하고 여러 버전의 변수 지속성을 생성하는 기능을 제공합니다.
 
@@ -100,6 +100,14 @@ Adobe Analytics 세그먼트( [!UICONTROL 필터] CJA에서) 및 계산된 지�
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics으로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+### 기타 고려 사항
+
+* CJA 데이터 보기의 강력한 기능을 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 보다 유연하게 정의할 수 있습니다. 예를 들어 차원의 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md)
+
+* Adobe Analytics에서 사용자 지정 달력을 정의한 경우 CJA 내에 유사한 달력 기능이 있습니다. 달력이 제대로 정의되어 있는지 확인해야 합니다.
+
+* Customer Journey Analytics에서 사용자 지정 방문/세션 시간 제한을 정의하고 새 세션을 시작할 지표를 정의할 수 있습니다. 다른 세션 정의가 있는 데이터 보기를 만들어 Adobe Analytics에서 가능한 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 
 ## 다음 단계
 
