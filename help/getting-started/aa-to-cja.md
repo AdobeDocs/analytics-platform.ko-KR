@@ -4,10 +4,10 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 마이그레
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2a330a430b48eb753d269e1165e95b61cb5fb483
+source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 6%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe이 게시됨 [마케팅 채널 구현에 대한 모범 사례를 업데이
 
 **Experience Platform SDK 사용의 단점**
 
-다음 Adobe Analytics 구성 요소는 지원되지 않습니다.
+다음 Adobe Analytics 기능 또는 구성 요소는 지원되지 않습니다.
 
 * 마케팅 채널
 * 보트 필터링
@@ -77,15 +77,15 @@ Adobe이 게시됨 [마케팅 채널 구현에 대한 모범 사례를 업데이
 
 ### 보고서 처리 시간 편이성
 
-Adobe Analytics의 보고는 상당한 양의 데이터 사전 처리를 사용하여 eVar에 표시되는 지속성과 같은 결과를 생성합니다. Customer Journey Analytics은 보고서 실행 시 이러한 계산을 실행합니다.
+Adobe Analytics의 보고는 상당한 양의 데이터 사전 처리를 사용하여 표시되는 지속성과 같은 결과를 생성합니다 [!UICONTROL eVar]. Customer Journey Analytics은 보고서 실행 시 이러한 계산을 실행합니다.
 
-보고서 처리 시간을 사용하면 기본 데이터 수집 방법을 변경하지 않고도 소급 적용되는 설정을 적용하고 여러 버전의 변수 지속성을 만들 수 있습니다.
+[!UICONTROL 보고서 처리 시간] 에서는 기본 데이터 수집 방법을 변경하지 않고도 소급 적용된 설정을 적용하고 여러 버전의 변수 지속성을 생성하는 기능을 제공합니다.
 
 이 변경으로 인해 특히 긴 만료 기간이 있는 변수의 경우 데이터 보고 방식에 일부 차이가 발생합니다. 보고서 시간 처리가 보고서를 사용하여 보고에 미치는 영향을 평가하는 것으로 시작할 수 있습니다 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 ### 중요 세그먼트 및 계산된 지표 식별
 
-Adobe Analytics 세그먼트(CJA에서 필터라고 함) 및 계산된 지표는 Customer Journey Analytics과 호환되지 않습니다. 대부분의 경우 이러한 구성 요소를 사용 가능한 새로운 스키마 및 데이터를 사용하여 CJA에서 다시 빌드할 수 있습니다.
+Adobe Analytics 세그먼트( [!UICONTROL 필터] CJA에서) 및 계산된 지표는 Customer Journey Analytics과 호환되지 않습니다. 대부분의 경우 이러한 구성 요소를 사용 가능한 새로운 스키마 및 데이터를 사용하여 CJA에서 다시 빌드할 수 있습니다.
 
 사용자가 시스템 간을 전환할 때 최대한 원활한 전환을 수행하려면 다음을 계획하십시오
 
@@ -100,3 +100,7 @@ Adobe Analytics 세그먼트(CJA에서 필터라고 함) 및 계산된 지표는
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics으로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+## 다음 단계
+
+CJA로 이동한 후 데이터 불일치가 발견되면 원래 Adobe Analytics 데이터를 현재 Customer Journey Analytics에 있는 Adobe Analytics 데이터와 비교할 수 있습니다. [자세히 알아보기](/help/troubleshooting/compare.md)

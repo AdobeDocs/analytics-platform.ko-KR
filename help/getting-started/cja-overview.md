@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1263'
-ht-degree: 100%
+source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 94%
 
 ---
 
@@ -32,9 +32,9 @@ Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포�
 
 ## CJA와 크로스 디바이스 분석 비교
 
-[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 Adobe Experience Platform ID 서비스와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
+[교차 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 통합 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)에서는 Co-op 그래프 또는 Private 그래프를 활용하여 디지털 장치가 사람에게 매핑되는 방식을 식별합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
-반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
+반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있습니다. 이러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
 ## 주요 사용 사례
 

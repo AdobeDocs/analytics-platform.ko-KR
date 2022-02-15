@@ -4,10 +4,10 @@ description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
-workflow-type: ht
-source-wordcount: '777'
-ht-degree: 100%
+source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 조직에서 CJA를 채택함에 따라 Adobe Analytics와 CJA 간의 데이터 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. CJA는 AA에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 CJA를 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
-Analytics 소스 커넥터를 통해 Adobe Analytics 데이터를 AEP로 가져온 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정합니다.
+를 통해 Adobe Analytics 데이터를 AEP에 수집했다고 가정해 보겠습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR), 그런 다음 이 데이터 세트를 사용하여 CJA 연결을 만듭니다 .
 
 ![데이터 흐름](assets/compare.png)
 
