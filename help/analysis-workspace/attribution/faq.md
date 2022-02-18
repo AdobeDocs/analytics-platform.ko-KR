@@ -4,9 +4,9 @@ description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻
 feature: Attribution
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 **속성을 사용할 때 &quot;없음&quot; 라인 항목은 무엇입니까?**
 
@@ -22,11 +22,11 @@ ht-degree: 88%
 
 **기여도 분석 모델을 사용할 때때로 보고 기간 밖의 날짜가 표시되는 이유는 무엇입니까?**
 
-이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/kr/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
+이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 표시되는 데이터](https://helpx.adobe.com/kr/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
 
 **언제 방문과 방문자 기여도 분석 전환 확인을 사용해야 합니까?**
 
-기여도 분석 전환 확인의 선택은 사용 사례에 따라 다릅니다. 일반적으로 전환 시간이 단일 방문보다 오래 걸리는 경우 방문자 전환 확인을 권장합니다. 방문 정의가 더 긴 데이터 보기를 만드는 것도 잠재적 해결 방법입니다.
+기여도 분석 전환 확인의 선택은 사용 사례에 따라 다릅니다. 일반적으로 전환 시간이 단일 방문보다 오래 걸리는 경우 방문자 전환 확인을 권장합니다. 더 긴 방문 정의로 데이터 보기를 만드는 것도 잠재적인 솔루션입니다.
 
 **속성을 사용할 때 prop 및 eVar는 어떻게 비교합니까?**
 
@@ -53,4 +53,4 @@ ht-degree: 88%
 
 **속성은 필터에서 어떻게 작동합니까?**
 
-속성은 항상 필터 전에 실행되며 글로벌 필터는 다른 보고서 필터가 적용되기 전에 실행됩니다.
+속성은 항상 필터보다 먼저 실행되고 전역 필터는 다른 보고서 필터가 적용되기 전에 실행됩니다.
