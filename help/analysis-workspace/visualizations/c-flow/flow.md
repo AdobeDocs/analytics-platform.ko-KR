@@ -1,12 +1,12 @@
 ---
-description: 흐름 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
+description: 이 플로우 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
 title: 흐름 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 
 * 웹 사이트나 애플리케이션 내의 고객 이동 시각화
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석
-* 선택한 경로에 특정 점을 지정하여 필터 만들기
+* 선택한 경로에서 특정 지점을 지정하여 필터 생성
 
-[플로우 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=ko-KR) (4:56)
+[플로우 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
