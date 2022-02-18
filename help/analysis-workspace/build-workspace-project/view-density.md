@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace에서 보기 밀도를 조정하는 방법을 알아봅니다.
+description: Analysis Workspace에서 보기 밀도를 조정하는 방법에 대해 알아봅니다.
 title: 보기 밀도
 feature: CJA Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 - **[!UICONTROL 작게]**: 가장 압축된 보기 버전.
 - **[!UICONTROL 무난]**: 작은 버전보다 좀 더 큰 버전.
-- **[!UICONTROL 크게]** (기본값): 작업 공간에서 사용하는 보기.
+- **[!UICONTROL 크게]** (기본값): 작업 영역에서 사용하는 보기.
 
 ![](assets/view-density.png)
 
