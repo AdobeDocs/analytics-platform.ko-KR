@@ -1,21 +1,21 @@
 ---
-description: Analysis Workspace에서 데이터를 시각적으로 나타냅니다.
+description: Analysis Workspace에서 데이터를 시각적으로 표현합니다.
 keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 시각화 개요
 
-작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Customer Journey Analytics을 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
+작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Customer Journey Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-Workspace의 왼쪽 상단 아이콘, [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
+작업 영역의 왼쪽 상단 아이콘, [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
 
 ![시각화 레일](assets/viz-rail.png)
 
@@ -30,7 +30,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
 | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
-| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. Workspace에서의 데이터 분석을 위한 기초입니다. |
+| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [막대 그래프](/help/analysis-workspace/visualizations/histogram.md) | 막대 그래프는 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
@@ -39,7 +39,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀 사이의 변화를 1개의 큰 숫자/퍼센트로 표시합니다. |
 | [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
-| [벤](/help/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개의 필터와 겹치는 지표를 나타냅니다. |
+| [벤](/help/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
 
 ## 설정 {#settings}
 
@@ -78,9 +78,9 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
-시각화 헤더를 마우스 오른쪽 단추로 클릭하여 시각화를 위한 추가 기능을 사용할 수 있습니다. 설정은 시각화에 따라 다릅니다. 사용 가능한 일부 설정은 다음과 같습니다.
+시각화 헤더를 마우스 오른쪽 버튼으로 클릭하면 시각화를 위한 추가 기능을 사용할 수 있습니다. 설정은 시각화에 따라 다릅니다. 사용 가능한 일부 설정은 다음과 같습니다.
 
-![마우스 오른쪽 단추 클릭](assets/right-click.png)
+![마우스 오른쪽 버튼 클릭](assets/right-click.png)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -95,6 +95,6 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 ## 시각화 만들기 아이콘 {#quick-viz}
 
-어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다(마우스 오버 시 사용 가능). 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택한 경우 추세선 그래프가 생성됩니다. 3개의 필터 행이 선택되어 있다면 벤 다이어그램을 만듭니다.
+어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다(마우스 오버 시 사용 가능). 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택한 경우 추세선 그래프가 생성됩니다. 3개의 필터 행을 선택한 경우 벤 다이어그램이 생성됩니다.
 
 ![빠른 시각화](assets/quick-viz.png)
