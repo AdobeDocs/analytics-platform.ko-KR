@@ -4,15 +4,15 @@ title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Analysis Workspace 액세스 가능 여부
 
-에서 액세스 가능성 지원에 대해 알아보십시오 [!UICONTROL Analysis Workspace]: Customer Journey Analytics을 위한 최고의 분석 도구입니다.
+Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접근성 지원에 대해 알아보십시오.
 
 접근성은 제품이 시각, 청각, 인지, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 접근성 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 > 아래쪽, 왼쪽 > 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
-* 중요한 단축키를 사용하는 `Tab` 키, Workspace 내의 더 큰 섹션 사이를 이동합니다. 왼쪽 레일에서 `Tab`을 사용하면 끌기 가능한 한 옵션에서 다음 옵션으로 이동할 수도 있습니다
+* 중요한 단축키를 사용하는 `Tab` 키, 작업 영역 내의 더 큰 섹션 사이를 이동합니다. 왼쪽 레일에서 `Tab`을 사용하면 끌기 가능한 한 옵션에서 다음 옵션으로 이동할 수도 있습니다
 * `left/right arrows`는 `Tab`이 강조 표시한 후 개별 요소 사이를 이동합니다.
 * `F6`는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 선택한 요소 주위에 파란색 테두리가 표시됩니다.
@@ -69,7 +69,7 @@ ht-degree: 96%
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 필터 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키(패널 필터 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) 만들기 |
+| Shift 키 (패널 필터 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) 만들기 |
 
 #### 민주화
 
@@ -84,7 +84,7 @@ ht-degree: 96%
 
 ## 화면 판독기 및 화면 돋보기 지원
 
-화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 버튼 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
+화면 판독기는 컴퓨터 화면에 표시되는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 버튼 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
 
 ## 색상 팔레트 및 대비
 
@@ -94,7 +94,7 @@ ht-degree: 96%
 
 ## 구성 요소 빌더의 필수 필드 유효성 검사
 
-구성 요소를 작성할 때 저장 시 필수 필드의 유효성이 검사됩니다. 필수 필드가 유효성 검사를 통과하지 못하면 오류 아이콘과 함께 빨간색으로 표시됩니다. 수정해야 하는 문제에 대한 서면 설명이 나타납니다.
+구성 요소를 작성할 때 저장 시 필수 필드의 유효성이 검사됩니다. 필수 필드가 유효성 검사를 통과하지 못하면 오류 아이콘과 함께 빨간색으로 표시됩니다. 수정해야 하는 문제에 대한 서면 설명이 표시됩니다.
 
 구성 요소의 유효성이 완전히 확인되면 `Save`을 눌러 빌더를 닫습니다.
 
