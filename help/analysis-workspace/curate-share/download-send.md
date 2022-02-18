@@ -4,9 +4,9 @@ title: PDF 또는 CSV 파일 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 도구 외부에서 분석하려는 데이터 세트가 무엇인지와 누가 정보를 받아야 하는지에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 여러 가지 방법이 있습니다. 내보낸 데이터는 복사한 데이터, CSV 또는 PDF 파일 형식일 수 있습니다. 파일에 시각화를 포함하려는 경우 일반적으로 PDF가 선호되고, 단순히 일반 텍스트 데이터를 원하는 경우 CSV (또는 복사한 데이터)가 선호됩니다.
 
@@ -29,11 +29,11 @@ ht-degree: 93%
 * 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=ko-KR)할 수 있습니다.
 * 브라우저에서 다운로드한 PDF는 PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되기 때문에 내보내는 데 몇 분 정도 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
-* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단의 버튼)되도록 변경해야 합니다.
+* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단의 버튼)되도록 변경해야 합니다.
 
 ## 클립보드에 데이터 복사 (핫키: Ctrl + C) {#copy-data}
 
-마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]**&#x200B;를 사용하면 Workspace에서 데이터를 빠르게 복사하여 다른 곳에 붙여넣을 수 있습니다.
+마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]**&#x200B;를 사용하면 작업 영역에서 데이터를 빠르게 복사하여 다른 곳에 붙여넣을 수 있습니다.
 
 * 표시된 테이블을 복사하려면 테이블 헤더를 마우스 오른쪽 버튼으로 클릭하고 **클립보드에 데이터 복사**&#x200B;를 선택합니다.
 * 데이터의 일부를 복사하려면 테이블에서 선택한 다음 > **클립보드에 데이터 복사**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
@@ -53,7 +53,7 @@ ht-degree: 93%
 
 ## CSV로 항목 다운로드 {#download-items}
 
-테이블에 있는 400개 이상의 데이터 행을 분석하려면 테이블 헤더 또는 행을 마우스 오른쪽 버튼으로 클릭하고 **CSV로 항목 다운로드 (차원 이름)**&#x200B;를 선택합니다. 이 옵션은 필터 및 필터가 적용된 선택한 차원에 대해 최대 50,000개의 차원 항목(테이블 정렬을 기반으로 함)을 내보냅니다. 테이블의 상단에서 이 옵션을 선택한 경우 테이블의 첫 번째 차원이 내보내집니다. 자유 형식 테이블에는 제한이 적용되지 않지만 최적의 성능을 보장하려면 열이 20개 미만인 테이블에서 항목 다운로드 옵션을 사용하는 것이 좋습니다.
+테이블에 있는 400개 이상의 데이터 행을 분석하려면 테이블 헤더 또는 행을 마우스 오른쪽 버튼으로 클릭하고 **CSV로 항목 다운로드 (차원 이름)**&#x200B;를 선택합니다. 이 옵션은 필터와 필터가 적용된 상태에서 선택한 차원에 대해 최대 50,000개의 차원 항목 (테이블 정렬 기준)을 내보냅니다. 테이블의 상단에서 이 옵션을 선택한 경우 테이블의 첫 번째 차원이 내보내집니다. 자유 형식 테이블에는 제한이 적용되지 않지만 최적의 성능을 보장하려면 열이 20개 미만인 테이블에서 항목 다운로드 옵션을 사용하는 것이 좋습니다.
 
 >[!TIP]
 >
@@ -67,11 +67,11 @@ ht-degree: 93%
 
 다음과 같이 테이블의 기능이 다운로드된 파일에 적용됩니다.
 
-* 모든 패널 필터는 필터로 적용됩니다.
+* 모든 패널 필터가 필터로 적용됩니다.
 * 표에서 선택한 차원 **위** 분류는 각 열 위에 필터로 적용됩니다.
 * 표에서 선택한 차원 **아래** 분류는 제거됩니다.
 
-위의 예에서 페이지 항목은 필터로 적용된 패널 필터(새 방문자 고객) 및 위의 구성 요소(마케팅 채널 = 이메일)로 다운로드되고, 다운로드한 CSV에서 아래 구성 요소(모바일 장치 유형)가 제거됩니다.
+위의 예에서 페이지 항목은 패널 필터(신규 방문자 고객) 및 위의 구성 요소(마케팅 채널 = 이메일)가 필터로 적용된 상태로 다운로드되고 아래 구성 요소(모바일 디바이스 유형)는 다운로드된 CSV에서 제거됩니다.
 
 ![](assets/downloaded-file.png)
 
@@ -91,4 +91,4 @@ ht-degree: 93%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 Workspace는 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | “CSV로 항목 다운로드” 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 표의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
-| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR) |
+| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR) |
