@@ -1,12 +1,12 @@
 ---
-description: 폴아웃 시각화 는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다.
+description: 폴아웃 시각화는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다.
 title: 폴아웃 개요
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
-* 동일한 보고서에서 두 개의 서로 다른 필터를 나란히 비교할 수 있습니다.
+* 동일한 보고서에서 서로 다른 두 개의 필터를 나란히 놓고 비교
 * 단계 절차 (터치포인트) 드래그, 놓기 및 다시 정렬
 * 서로 다른 차원 및 지표의 값을 혼합 및 대응
 * 차원이 여러 개인 폴아웃 보고서 작성
@@ -32,5 +32,5 @@ ht-degree: 88%
 * 일반적이고 폭 넓은 범위의 트래픽 플로우: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인정보 보호정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
 
-[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ko-KR)  (4:15)
+[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
