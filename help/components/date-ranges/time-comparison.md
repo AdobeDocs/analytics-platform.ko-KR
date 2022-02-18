@@ -4,7 +4,7 @@ title: 날짜 비교
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
@@ -37,11 +37,11 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
    |---|---|
    | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등을 비교합니다. |
    | **[!UICONTROL 이번 주/달/분기/년과 작년]** | 1년 전의 같은 날짜 범위와 비교합니다. |
-   | **[!UICONTROL 범위 선택]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 범위 선택]** | 사용자 정의 날짜 범위를 선택할 수 있습니다. |
 
    >[!NOTE]
    >
-   >사용자 지정 일수를 선택한 경우 예를 들어 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
+   >사용자 정의 일수를 선택한 경우 예를 들어 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 결과 비교 모양은 다음과 같습니다.
 
@@ -67,11 +67,11 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
    |---|---|
    | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등의 열을 추가합니다. |
    | **[!UICONTROL 이번 주/달/분기/년과 작년]** | 1년 전의 같은 날짜 범위를 추가합니다. |
-   | **[!UICONTROL 범위 선택]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 범위 선택]** | 사용자 정의 날짜 범위를 선택할 수 있습니다. |
 
    >[!NOTE]
    >
-   >사용자 지정 일수를 선택한 경우 예를 들어 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
+   >사용자 정의 일수를 선택한 경우 예를 들어 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
