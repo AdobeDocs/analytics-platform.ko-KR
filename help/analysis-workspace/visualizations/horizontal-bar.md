@@ -4,7 +4,7 @@ title: 가로 막대 및 스택 가로 막대
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 스택 가로 막대 {#section_50C08E9E20A94024A6553BC352ADB597}
 
-이 시각화는 [!UICONTROL 가로 막대 차트]와 유사하지만 시리즈 막대가 스택되어 나타납니다.
+이 시각화는 [!UICONTROL 가로 막대 차트]와 유사하지만 시리즈 막대가 스택되어 표시됩니다.
 
 ![](assets/horizontal-bar-stacked.png)
 
