@@ -5,9 +5,9 @@ title: 보기 전용 프로젝트
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
-[프로젝트 공유 워크플로](/help/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Customer Journey Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
+[프로젝트 공유 워크플로](/help/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Customer Journey Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 인사이트를 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
 
 ![](assets/view-only-project.png)
 
