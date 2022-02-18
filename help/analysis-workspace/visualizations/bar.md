@@ -1,12 +1,12 @@
 ---
-description: 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
+description: 막대 시각화는 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
 title: 막대 및 스택 막대
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
