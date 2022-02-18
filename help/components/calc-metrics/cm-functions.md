@@ -4,7 +4,7 @@ description: 계산된 지표 빌더를 사용하면 고급 계산 지표에 통
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 [계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.
 
@@ -214,7 +214,7 @@ QUARTILE(metric,quart)
 
 ## 라운드
 
-주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 Round (*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
+주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 Round (*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
 
 ```
 ROUND(metric)
@@ -324,4 +324,4 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 변량은  (1 - 2)² +  (2 - 2)² +  (3 - 2)²/3 = 2/3입니다.
+이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다.
