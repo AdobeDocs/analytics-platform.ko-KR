@@ -4,9 +4,9 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 Feature: Attribution
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 속성을 사용하면 분석자는 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
 
@@ -29,13 +29,13 @@ ht-degree: 90%
 
 ![Attribution IQ 문제](assets/attribution_iq_problem.png)
 
-Customer Journey Analytics은 다음을 통해 속성을 강화합니다.
+Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 * 유료 미디어 이외의 속성 정의: 차원, 지표, 채널 또는 이벤트는 마케팅 캠페인뿐 아니라 모델 (예: 내부 검색)에 적용할 수 있습니다.
 * 무제한 속성 모델 비교를 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
 * 구현 변경 방지: 보고서 처리 시간 및 컨텍스트 인식 세션으로 고객 움직임 컨텍스트를 구축하고 런타임에 적용할 수 있습니다.
 * 사용자의 속성 시나리오와 일치하는 세션을 생성합니다.
-* 필터로 속성 분류: 중요한 모든 필터(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 수준 또는 CLV)에서 마케팅 채널의 성능을 쉽게 비교할 수 있습니다.
+* 필터별 속성 분류: 중요한 모든 필터(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 수준 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
 * 채널 교차 및 다중 터치 분석: 벤 다이어그램, 히스토그램 및 트렌드 속성 결과를 사용합니다.
 * 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 시각적으로 전환된 경로를 탐색합니다.
 * 계산된 지표 작성: 여러 속성 할당 방법을 사용합니다.
