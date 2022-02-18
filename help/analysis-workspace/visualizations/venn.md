@@ -1,22 +1,22 @@
 ---
-description: 벤 시각화를 사용하여 최대 3개의 필터(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
+description: 벤 시각화를 사용하여 최대 3개의 필터(구성 요소에서)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
 title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # 벤
 
-벤 시각화를 사용하여 최대 3개의 필터(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
+벤 시각화를 사용하여 최대 3개의 필터(구성 요소에서)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
 
 ![](assets/venn.png)
 
-그런 다음 필터 위로 마우스를 가져가면 백분율 등에 대한 자세한 정보를 볼 수 있습니다.
+그런 후 필터 위로 마우스를 가져가 백분율 등을 보다 자세히 확인할 수 있습니다.
 
 ![](assets/venn_hover.png)
 
