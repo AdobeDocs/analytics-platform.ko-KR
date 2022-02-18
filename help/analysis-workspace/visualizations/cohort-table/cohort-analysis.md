@@ -4,9 +4,9 @@ description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 75%
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 * 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
-[!UICONTROL 집단 분석] 에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객에 대해 사용할 수 있습니다. [!UICONTROL Analysis Workspace].
+[!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객이 사용할 수 있습니다.
 
-[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR)  (4:36)
+[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR) (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 집단 분석]
 >
->변수는 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 필터에서 사용할 수 있는 지표만
+>필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생 횟수를 지원하지 않습니다. 필터에서 사용할 수 있는 지표만
 >[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
@@ -63,9 +63,9 @@ ht-degree: 75%
 
 ![](assets/cohort-latency.png)
 
-### [!UICONTROL 사용자 지정 차원 집단]
+### [!UICONTROL 사용자 정의 차원 집단]
 
-기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. 다음과 같은 차원 사용 [!UICONTROL 마케팅 채널], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL 페이지], [!UICONTROL 지역]또는 Customer Journey Analytics의 다른 차원을 사용하여 이러한 차원의 다른 값에 따라 보존이 변경되는 방법을 보여줍니다.
+기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅 채널], [!UICONTROL 캠페인], [!UICONTROL 제품], [!UICONTROL 페이지], [!UICONTROL 영역] 또는 Customer Journey Analytics의 다른 차원과 같은 차원을 사용하여 이러한 차원의 다양한 값을 기준으로 유지 변경 방법을 보여 줍니다.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
