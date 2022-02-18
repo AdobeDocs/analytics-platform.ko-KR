@@ -1,10 +1,10 @@
 ---
 title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
-description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다
+description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
+>Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적 (시간에 따라 변경) 또는 정적 (시간에 따라 변경되지 않음)일 수 있습니다.
 
@@ -56,4 +56,4 @@ ht-degree: 100%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
 
 * 동적 행은 방문 횟수나 방문자 수와 같이 합계로서 계산된 서버측 및 중복 제거 지표입니다.
-* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [추가 정보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)
+* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)
