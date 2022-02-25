@@ -4,10 +4,10 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 98%
+source-wordcount: '806'
+ht-degree: 93%
 
 ---
 
@@ -76,10 +76,12 @@ ht-degree: 98%
 
 차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운입니다. 유효한 드롭다운 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
 
-이 설정은 일반적으로 오브젝트 배열에서 사용되며 제품 검색 방법, 내부 검색 결과, 내부 판촉 인상, 콘텐츠 또는 제품 추천과 같은 항목을 측정하는 데 가장 일반적으로 사용됩니다. 이전 버전의 Adobe Analytics에서 이 개념은 전환 구문 머천다이징과 유사합니다.
+자세한 내용은 [CJA에서 결합 차원 및 지표 사용](../../use-cases/binding-dimensions-metrics.md) 바인딩 차원을 효과적으로 사용하는 방법에 대한 예입니다.
 
 ## [!UICONTROL 바인딩 지표]
 
 바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운입니다. 유효한 드롭다운 옵션에는 데이터 보기에 포함된 지표가 포함됩니다.
 
-이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 메트릭이 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다. 이전 버전의 Adobe Analytics에서는 유사하지만 더 제한된 개념을 제품 구문 머천다이징이라고 합니다.
+이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 메트릭이 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
+
+아래의 두 번째 예를 참조하십시오 [CJA에서 결합 차원 및 지표 사용](../../use-cases/binding-dimensions-metrics.md) 를 참조하십시오.
