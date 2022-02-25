@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 719b67049456be857431ee1a7ca97e9f0fd881ee
+source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=en"> Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=en"> CJA에서 결합 차원 및 지표 사용 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=en"> CJA에서 바인딩 차원 및 지표 사용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en"> Adobe Experience Platform에서의 마케팅 채널 차원 사용
  </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 향상된 연결 관리 기능 사용 </a> </li>
@@ -41,7 +41,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
     </ul> <p class="head"> <b>Adobe Experience Platform 리소스</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/kr/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
-     <li> <a href="https://www.adobe.io/apis/experienceplatform/home/tutorials.html" format="https" scope="external">Adobe Experience Platform 튜토리얼</a> </li> 
+     <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html" format="https" scope="external">Adobe Experience Platform 튜토리얼</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API 참조</a> </li> 
      <li><a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> 설명서 및 개발자 리소스</a> </li> 
     </ul> </td> 
