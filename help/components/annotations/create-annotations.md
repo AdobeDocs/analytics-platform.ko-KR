@@ -4,10 +4,10 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 61%
+source-wordcount: '608'
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 | 생성 방법 | 세부 사항 |
 | --- | --- |
-| **이동 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 주석].** | 주석 관리자 페이지가 열립니다. [!UICONTROL 새 주석 생성]을 클릭하면 Annotation Builder가 열립니다. |
+| **이동 [!UICONTROL 구성 요소] > [!UICONTROL 주석].** | 주석 관리자 페이지가 열립니다. [!UICONTROL 새 주석 생성]을 클릭하면 Annotation Builder가 열립니다. |
 | **테이블에서 점을 마우스 오른쪽 단추로 클릭합니다.** | [!UICONTROL Annotation Builder가 열립니다. ] 기본적으로 이 방법으로 생성된 주석은 생성된 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜/초 및 지표 등이 이미 채워져 있음을 알 수 있습니다.<p>![](assets/annotate-table.png) |
 | **에서 점을 마우스 오른쪽 단추로 클릭 [!UICONTROL 라인] 그래프.** | 다음 [!UICONTROL 주석 빌더] 엽니다. 기본적으로 이 방법으로 생성된 주석은 생성된 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜/초 및 지표 등이 이미 채워져 있음을 알 수 있습니다.<p>![](assets/annotate-line.png) |
 | **Workspace에서 [!UICONTROL 구성 요소] > [!UICONTROL 주석 만들기].** | 다음 [!UICONTROL 주석 빌더] 엽니다. |
