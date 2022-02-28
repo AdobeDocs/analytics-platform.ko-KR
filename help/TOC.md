@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 안내서
-user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 도움말 지원을 제공합니다.
+user-guide-description: 이 안내서에서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics을 지원합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
+source-git-commit: 47c025bc8c84515cfb9ba3d357fe897bb018648a
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '597'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 # Customer Journey Analytics 안내서 {#using}
 
 + [Customer Journey Analytics 안내서](getting-started/cja-landing.md)
-+ 릴리스 노트 {#releases}
++ 릴리스 정보 {#releases}
    + [최신 릴리스](release-notes/latest.md)
    + [2022년 릴리스](release-notes/2022.md)
    + [2021년 릴리스](release-notes/2021.md)
@@ -153,6 +153,11 @@ ht-degree: 97%
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
+   + 주석 {#annotations}
+      + [주석 개요](components/annotations/overview.md)
+      + [주석 생성](components/annotations/create-annotations.md)
+      + [주석 관리](components/annotations/manage-annotations.md)
+      + [주석 보기](components/annotations/view-annotations.md)
    + 차원 {#dimensions}
       + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
@@ -190,12 +195,12 @@ ht-degree: 97%
       + [날짜 범위 만들기](components/date-ranges/create.md)
       + [날짜 범위 관리](components/date-ranges/manage.md)
       + [달력 개요](components/date-ranges/calendar.md)
-      + [사용자 지정 날짜 범위 만들기](components/date-ranges/custom-date-ranges.md)
+      + [사용자 정의 날짜 범위 만들기](components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](components/date-ranges/time-comparison.md)
 + 활용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + [개체 배열 사용](use-cases/object-arrays.md)
-   + [차원 및 지표 바인딩 사용](use-cases/binding-dimensions-metrics.md)
+   + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [채널 간 데이터 분석](use-cases/cross-channel.md)
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)

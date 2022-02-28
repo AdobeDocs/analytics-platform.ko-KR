@@ -4,10 +4,10 @@ description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 �
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 83a725ac746629874162827d30d5bdf8be0fa6dc
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 다음 구성 요소를 관리할 수 있습니다.
 
+* [**주석**](/help/components/annotations/overview.md): 조직에 컨텍스트 기반의 데이터 뉘앙스와 통찰력을 제공합니다. **[이 기능은 현재 제한적인 테스트가 실시되고 있습니다](/help/release-notes/releases.md).**
 * [**필터**](filters/filters-overview.md): 데이터의 일부를 제외하여 공통 차원 항목에 주력
 * [**계산된 지표**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [**날짜 범위**](date-ranges/overview.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 지정 및 세분화
