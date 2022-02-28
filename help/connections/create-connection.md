@@ -4,9 +4,9 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1980'
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+workflow-type: tm+mt
+source-wordcount: '1971'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 연결을 통해 [!DNL Adobe Experience Platform]의 데이터 세트를 [!UICONTROL 작업 영역]에 통합할 수 있습니다. [!DNL Experience Platform] 데이터 세트에 대해 보고하려면 먼저 [!DNL Experience Platform]과 [!UICONTROL 작업 영역]의 데이터 세트 간에 연결을 설정해야 합니다.
 
-비디오 개요를 보려면 [여기](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=ko-KR)를 클릭하십시오.
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32549/?quality=12)
 
 ## 필요 권한
 
@@ -142,7 +144,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 이 계산은 연결의 모든 데이터 세트에 대해 수행해야 합니다.
 
-1. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR)로 이동하여 새 쿼리를 만듭니다.
+1. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)로 이동하여 새 쿼리를 만듭니다.
 
 1. 이 쿼리의 형태는 다음과 같습니다.
 

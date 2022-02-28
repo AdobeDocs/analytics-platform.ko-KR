@@ -4,10 +4,10 @@ description: 데이터 보기 구성 요소에 대한 핵심 설정 보기.
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 97%
 
 ---
 
@@ -30,3 +30,7 @@ ht-degree: 100%
 | [!UICONTROL 구성 요소 ID] | 필수 여부. [CJA API](https://adobe.io/cja-apis/docs)는 이 필드를 사용하여 구성 요소를 참조합니다. 데이터 보기의 각 구성 요소는 고유해야 합니다. Adobe는 각 구성 요소의 ID를 자동으로 생성합니다. 그러나 편집 아이콘을 클릭하고 구성 요소 ID를 수정할 수 있습니다. 이 구성 요소 ID를 변경하면 이 구성 요소가 포함된 기존의 모든 Workspace 프로젝트가 중단됩니다. 각 구성 요소는 단일 데이터 보기에서 고유 ID가 필요하지만 다른 데이터 보기에서는 동일한 구성 요소 ID를 사용할 수 있습니다. 다른 데이터 보기에서 동일한 구성 요소 ID를 사용하는 경우 Workspace 프로젝트는 데이터 보기 간에 호환될 수 있습니다. |
 | [!UICONTROL 스키마 경로] | 필수 여부. 구성 요소의 원본 스키마 경로를 표시하는 편집 불가능한 필드입니다. |
 | [!UICONTROL 보고에서 구성 요소 숨기기] | 관리자가 아닌 경우 데이터 보기에서 구성 요소를 큐레이션할 수 있습니다. 관리자는 여전히 Analysis Workspace 프로젝트에서 [!UICONTROL 모든 구성 요소 표시]를 클릭하여 액세스할 수 있습니다. |
+
+다음은 데이터 보기의 구성 요소 설정에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/333112/?quality=12)

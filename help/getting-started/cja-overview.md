@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 91%
+source-wordcount: '1266'
+ht-degree: 87%
 
 ---
 
@@ -19,9 +19,11 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 ![아키텍처](assets/cja-architecture.png)
 
+비디오
+
 ## CJA와 기존 Adobe Analytics 비교하기
 
-Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
+Customer Journey Analytics은 사용하기 쉬운 교차 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Adobe Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
 
 * **제한 없는 변수 및 이벤트**: eVar, 속성 및 이벤트에 대한 개념이 더 이상 없습니다. 데이터는 주로 차원과 지표에 중점을 둡니다. 데이터 세트의 고유한 차원과 지표 크기는 제한이 없습니다.
 * **무제한 고유 값**: Adobe Experience Platform은 고유한 제한 사항으로 제한되지 않습니다.
@@ -68,11 +70,11 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음 전제 조건
    * ID 네임스페이스 보기
    * 데이터 세트 보기
 
-Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)를 참조하십시오.
+Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=kr)를 참조하십시오.
 
 >[!NOTE]
 >
->Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원을 허용할 수 없습니다. 지표와 차원은 데이터 보기에서 변경할 수 있으므로 보고도 소급 변경하는 CJA의 변경으로부터 영향을 받습니다.
+>Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원을 허용할 수 없습니다. 지표와 차원은 다음 위치에서 수정할 수 있습니다 [데이터 보기](/help/data-views/data-views.md) 따라서 CJA에서 변경될 수 있으며 보고 또한 소급하여 변경됩니다.
 
 ### 사용자 액세스
 
@@ -102,3 +104,14 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 * [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en):
 * [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
 * 개발자 옵션의 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en): Adobe Experience Platform에 사전 설치된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나, 번거로운 프로세스를 자동화할 수 있습니다.
+
+## 비디오
+
+* Customer Journey Analytics에서 데이터 작업:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
+
+* Customer Journey Analytics의 아키텍처 및 통합:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
+
