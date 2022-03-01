@@ -4,9 +4,9 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1271'
 ht-degree: 87%
 
 ---
@@ -19,7 +19,9 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 ![아키텍처](assets/cja-architecture.png)
 
-비디오
+다음은 Customer Journey Analytics에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
 ## CJA와 기존 Adobe Analytics 비교하기
 
