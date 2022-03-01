@@ -1,17 +1,17 @@
 ---
-title: CJA에서 바인딩 차원 및 지표 사용
+title: CJA에서 결합 차원 및 지표 사용
 description: 복잡한 지속성 분석을 위한 개체 배열의 속성 차원.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '1330'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
 
-# CJA에서 바인딩 차원 및 지표 사용
+# CJA에서 결합 차원 및 지표 사용
 
 Customer Journey Analytics는 설정된 히트 이후에 차원 값이 유지하는 몇 가지 방법을 제공합니다. Adobe가 제공하는 지속성 방법 중 하나는 바인딩이라고 합니다. 이전 버전의 Adobe Analytics에서는 이 개념을 머천다이징이라고 했습니다.
 
