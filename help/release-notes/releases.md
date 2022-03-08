@@ -1,10 +1,11 @@
 ---
-description: Customer Journey Analytics에 대한 연속 기능 릴리스 전략에 대해 설명합니다
+description: Customer Journey Analytics의 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Customer Journey Analytics 기능 릴리스
-source-git-commit: b740d3a18d1090b04cc50869d38600f016cf30d5
-workflow-type: tm+mt
+exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
+source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 [!UICONTROL Analysis Workspace]는 기능 플래그 (&quot;전환&quot;이라고도 함)를 사용하여 새로운 기능의 가시성을 제어하므로 전체 릴리스 전에 통제된 크기 테스트를 수행할 수 있습니다. 이 릴리스 전략에는 다음 단계가 포함됩니다.
 
-* **프로덕션에 릴리스 (RTP)**: Analysis Workspace에서 기능 가시성이 해제되어 있는 상태로 코드가 프로덕션에 릴리스됩니다. 이 기능은 때로 CJA API에서 사용할 수 있습니다.
+* **프로덕션에 릴리스 (RTP)**: Analysis Workspace에서 기능 가시성이 해제되어 있는 상태로 코드가 프로덕션에 릴리스됩니다. 이 기능은 때때로 CJA API에서 사용할 수 있습니다.
 
 * **제한된 테스트**: 단계적인 릴리스는 내부 Adobe 사용자에 의한 테스트부터 시작됩니다. 그런 다음 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 Experience Cloud 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
 
@@ -26,7 +27,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 ## 기능 플래그
 
-기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe는 릴리스 중 최적의 환경을 위해 `app.launchdarkly.com`을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
+기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe는 릴리스 중 최적의 환경을 위해 `app.launchdarkly.com`을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
 
 **도움말 > Workspace 정보 > 활성 기능 플래그**&#x200B;에서 언제든지 활성 기능 플래그를 볼 수 있습니다.
 
