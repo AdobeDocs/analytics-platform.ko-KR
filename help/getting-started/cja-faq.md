@@ -64,7 +64,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 | 질문 | 답변 |
 | --- | --- |
-| [!DNL Customer Journey Analytics]에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터]([!UICONTROL 세그먼트])를 공유/게시할 수 있습니까? | 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다. |
+| [!DNL Customer Journey Analytics]에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터] ([!UICONTROL 세그먼트])를 공유/게시할 수 있습니까? | 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다. |
 | 이전 [!UICONTROL eVar] 설정은 어떻게 됩니까? | 기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다. |
 | 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | [!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
 | 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
