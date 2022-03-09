@@ -5,16 +5,16 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
+source-git-commit: a47343628ace3063d23c6ba023f73dcbdc24dbcc
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
 # Adobe Analytics-Customer Journey Analytics 진화
 
-조직이 Adobe Analytics에서 Customer Journey Analytics으로 데이터를 이동하면서 이러한 단계를 통해 데이터를 준비하며 두 기술 간의 중요한 차이점을 파악합니다. 이 문서는 관리자 대상을 대상으로 합니다.
+조직이 Customer Journey Analytics을 사용하기 위해 진화할 때 이러한 단계를 통해 데이터를 준비하고 두 기술 간의 중요한 차이점을 파악하십시오. 이 문서는 관리자 대상을 대상으로 합니다.
 
 ## 데이터 준비
 
@@ -34,7 +34,7 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬
 
-Adobe Analytics 데이터를 Customer Journey Analytics로 마이그레이션하는 가장 간단한 방법은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 AEP의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 CJA에 쉽게 연결할 수 있습니다.
+Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 를 수집하는 것입니다 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko) 를 사용하여 Experience Platform으로 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko). 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 이를 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics로 가져올 계획이라면 해당 보고서 세트에서 변수를 정렬하도록 미리 계획해야 합니다.
 
