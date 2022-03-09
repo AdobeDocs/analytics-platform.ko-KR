@@ -1,19 +1,20 @@
 ---
-title: Adobe Analytics에서 Customer Journey Analytics로 마이그레이션
-description: Adobe Analytics에서 Customer Journey Analytics로 마이그레이션하는 단계
+title: Adobe Analytics-Customer Journey Analytics 진화
+description: 데이터를 Adobe Analytics에서 Customer Journey Analytics으로 이동하는 절차
+role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 93%
 
 ---
 
-# Adobe Analytics에서 Customer Journey Analytics로 마이그레이션 준비
+# Adobe Analytics-Customer Journey Analytics 진화
 
-데이터를 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션하기 전에 이러한 고려 사항을 살펴보고 데이터를 준비하여 두 기술 간의 중요한 차이점을 알아보십시오.
+조직이 Adobe Analytics에서 Customer Journey Analytics으로 데이터를 이동하면서 이러한 단계를 통해 데이터를 준비하며 두 기술 간의 중요한 차이점을 파악합니다. 이 문서는 관리자 대상을 대상으로 합니다.
 
 ## 데이터 준비
 
@@ -57,7 +58,7 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 CJA [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
 
-**Experience Platform SDK 사용의 이점**
+**Experience Platform SDK 사용의 이점:**
 
 * 필요한 모든 필드를 정의할 수 있는 유연한 스키마
 * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
@@ -105,7 +106,7 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 
 * 강력한 CJA 데이터 보기를 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 훨씬 유연하게 정의할 수 있습니다. 예를 들어 차원 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md)
 
-* Adobe Analytics에서 사용자 지정 달력을 정의한 경우 CJA 내에서 유사한 캘린더 기능을 사용할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
+* Adobe Analytics에서 사용자 지정 달력을 정의한 경우 다음과 비슷한 항목이 있습니다 [사용자 지정 달력 기능](/help/components/date-ranges/custom-date-ranges.md) CJA 내에서 액세스할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 

@@ -4,7 +4,7 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
+source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 100%
@@ -146,11 +146,12 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 1. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)로 이동하여 새 쿼리를 만듭니다.
 
-1. 이 쿼리의 형태는 다음과 같습니다.
+   이 쿼리의 형태는 다음과 같습니다.
 
    ```
    Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;
    ```
 
-* 이 예에서 &quot;analytics_demo_data&quot;는 데이터 세트의 이름입니다.
-* AEP에 있는 모든 데이터 세트를 표시하려면 `Show Tables` 쿼리를 수행하십시오.
+   이 예에서 &quot;analytics_demo_data&quot;는 데이터 세트의 이름입니다.
+
+1. AEP에 있는 모든 데이터 세트를 표시하려면 `Show Tables` 쿼리를 수행하십시오.
