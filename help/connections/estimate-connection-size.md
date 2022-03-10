@@ -4,10 +4,10 @@ description: 현재 Customer Journey Analytics 사용 현황 보고
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 74934c8684198104c808284310bcdfd633085574
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 51%
+source-wordcount: '535'
+ht-degree: 50%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 51%
 
 사용량 제한은 Adobe에 의해 매일 엄격하게 모니터링 및 적용됩니다. 데이터 행 은 Customer Journey Analytics 내에서 분석할 수 있는 일일 평균 데이터 행을 의미합니다.
 
-계약 자격이 행 수를 100만 개로 제한한다고 가정합니다. Customer Journey Analytics을 사용하는 1일에 200만 개의 데이터 행을 업로드한다고 가정해 보십시오. 2일에서는 100만 개의 행을 삭제하고 해당 커밋된 최대 사용 시간을 유지합니다. 1일에 대한 과사용료가 여전히 발생합니다.
+계약 자격이 행 수를 100만 개로 제한한다고 가정합니다. Customer Journey Analytics을 사용하는 1일에 200만 개의 데이터 행을 업로드한다고 가정해 보십시오. 2일에서는 1백만 개의 행을 삭제하고 남은 라이선스 기간 동안 최대한 사용량을 유지합니다. 계약 약관에 따라 1일에 대해 과소 요금이 발생할 수 있습니다.
 
 ## 불일치 진단
 
