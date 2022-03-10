@@ -4,46 +4,43 @@ description: 현재 Customer Journey Analytics 사용 현황 보고
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 51%
 
 ---
 
 # 연결 크기 예상
 
-현재 [!UICONTROL Customer Journey Analytics]에 있는 데이터의 행 수를 알고 있어야 합니다. 이 주제의 목적은 [!UICONTROL Customer Journey Analytics]의 현재 사용 현황을 보고하는 방법을 보여 주기 위한 것입니다.
+현재 [!UICONTROL Customer Journey Analytics]에 있는 데이터의 행 수를 알고 있어야 합니다. 조직의 이벤트 데이터 레코드(데이터 행) 사용을 정확하게 계산하려면 다음을 수행하십시오 **조직에서 만든 각 연결에 대해**.
 
 1. [!UICONTROL Customer Journey Analytics]에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
-1. [!UICONTROL 연결 편집] 화면에서 사용/연결 크기를 결정할 연결을 선택합니다.
 
-   ![연결 편집](assets/edit-connection.png)
+   이제 모든 현재 연결 목록을 볼 수 있습니다.
 
-1. 왼쪽 레일에서 연결의 일부인 데이터 세트를 선택합니다. 이 경우, &quot;B2B 노출 횟수&quot; 데이터 세트입니다.
+1. 각 연결 이름을 클릭하여 연결 관리자로 이동합니다.
 
-   ![데이터 세트](assets/dataset.png)
+1. 추가 **[!UICONTROL 사용 가능한 이벤트 데이터 레코드]** 생성된 모든 연결에 대해 사용할 수 있습니다. (연결 크기에 따라 숫자가 표시되는 데 시간이 좀 걸릴 수 있습니다.)
 
-1. 이름 옆에 있는 파란색(i) 아이콘(정보)을 클릭합니다. 데이터 세트에 3.8k 행/이벤트가 있음을 알 수 있습니다. 또한 정확한 개수의 행을 보려면 미리보기 테이블 아래 **[!UICONTROL Experience Platform에서 편집]**&#x200B;을 클릭합니다. 이렇게 하면 [!UICONTROL Adobe Experience Platform]의 데이터 세트로 리디렉션됩니다.
+   ![이벤트 데이터](assets/event-data.png)
 
-   ![AEP 데이터 세트 정보](assets/data-size.png)
+1. 모든 이벤트 데이터 행의 합계가 있는 경우 회사가 Adobe으로 서명한 Customer Journey Analytics 계약에서 &quot;데이터 행&quot; 자격 조건을 조회합니다.
 
-1. 이 데이터 세트에 대한 **[!UICONTROL 전체 레코드]**&#x200B;는 3.83k 레코드이며 데이터 크기는 388.59KB입니다.
+   이렇게 하면 판매 주문에서 승인된 데이터의 최대 행 수를 제공합니다. 3단계에서 발생한 데이터 행 수가 이 수보다 큰 경우 오버레이가 발생합니다.
 
-1. 연결의 다른 데이터 세트에 대해 1-5단계를 반복하여 레코드/행 수를 추가합니다. 마지막으로 집계한 숫자는 연결의 사용 지표가 됩니다. [!UICONTROL Adobe Experience Platform]에서 수집할 연결의 데이터 세트 수입니다.
+1. 이 상황을 해결하기 위해 다음과 같은 몇 가지 옵션을 사용할 수 있습니다.
 
-## 수집된 행 수 확인
+   * 변경 [데이터 보존 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention).
+   * [사용하지 않은 연결 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
+   * [AEP에서 데이터 세트 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * 추가 용량의 라이센스를 얻으려면 Adobe 계정 관리자에게 문의하십시오.
 
-[!UICONTROL Customer Journey Analytics]에서 실제로 수집되는 이벤트 수는 연결 구성 설정에 따라 달라집니다. 또한 잘못된 개인 ID를 선택했거나 데이터 세트의 일부 행에 이 ID를 사용할 수 없는 경우 [!UICONTROL Customer Journey Analytics]에서 해당 행을 무시합니다. 수집된 이벤트의 실제 행을 확인하려면 다음 단계를 수행하십시오.
+## 사용 초과 관련
 
-1. 연결을 저장하면 필터 없이 동일한 연결의 데이터 보기를 만듭니다.
-1. Analysis Workspace 프로젝트를 만들고 올바른 데이터 보기를 선택합니다. 자유 형식 테이블을 만들고 **[!UICONTROL 연도]** 차원으로 **[!UICONTROL 이벤트]** 지표를 드래그하여 놓습니다. 날짜 선택 달력에서 데이터 범위를 충분히 확장하여 연결에 있는 모든 데이터를 캡슐화합니다. 이렇게 하면 [!UICONTROL Customer Journey Analytics]에 수집되는 이벤트 수를 볼 수 있습니다.
+사용량 제한은 Adobe에 의해 매일 엄격하게 모니터링 및 적용됩니다. 데이터 행 은 Customer Journey Analytics 내에서 분석할 수 있는 일일 평균 데이터 행을 의미합니다.
 
-   ![작업 영역 프로젝트](assets/event-number.png)
-
-   >[!NOTE]
-   >
-   >이렇게 하면 이벤트 데이터 세트에서 수집되는 이벤트 수를 볼 수 있습니다. 여기에는 프로필 및 조회 유형 데이터 세트가 포함되지 않습니다. 프로필 및 조회 데이터 세트에 대한 &quot;연결 크기 예상&quot;에서 1-3단계를 수행하고 숫자를 추가하여 이 연결에 대한 총 행 수를 가져옵니다.
+계약 자격이 행 수를 100만 개로 제한한다고 가정합니다. Customer Journey Analytics을 사용하는 1일에 200만 개의 데이터 행을 업로드한다고 가정해 보십시오. 2일에서는 100만 개의 행을 삭제하고 해당 커밋된 최대 사용 시간을 유지합니다. 1일에 대한 과사용료가 여전히 발생합니다.
 
 ## 불일치 진단
 
@@ -53,6 +50,6 @@ ht-degree: 100%
 
    ![분류](assets/data-size2.png)
 
-1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없습니다. 나중에 [!UICONTROL Customer Journey Analytics]에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
+1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없습니다. 나중에 Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
 
-[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
+[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
