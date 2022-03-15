@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 97%
+source-wordcount: '2286'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다. 다음은 CJA와 관련하여 자주 묻는 질문에 대한 답변입니다. 자세한 내용은 [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md)을 검토하십시오.
 
-## 1. 사전 요구 사항
+## 1. 사전 요구 사항 {#prerequisites}
 
 | 질문 | 답변 |
 | --- | --- |
@@ -25,7 +25,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2. 데이터 결합(크로스 채널 분석)
+## 2. 데이터 결합(크로스 채널 분석) {#stitching}
 
 | 질문 | 답변 |
 | --- | --- |
@@ -36,7 +36,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 {style=&quot;table-layout:auto&quot;}
 
-## 3. [!UICONTROL Customer Journey Analytics]에 데이터 가져오기
+## 3. [!UICONTROL Customer Journey Analytics]에 데이터 가져오기 {#ingest}
 
 | 질문 | 답변 |
 | --- | --- |
@@ -50,7 +50,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. 지연 고려 사항
+## 4. 지연 고려 사항 {#latency}
 
 >[!NOTE]
 >CJA에는 고정된 데이터 크기가 없으므로 Adobe는 표준 수집 시간을 약속할 수 없습니다. 당사는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
@@ -59,21 +59,16 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | --- | --- |
 | [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>라이브 데이터 또는 이벤트: AEP에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 > 5천만 행: 90분 이상.)</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 24시간 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul> |
 
+## 5. 롤링 창을 설정합니다. [!UICONTROL 연결] 데이터 보존 {#data-retention}
 
-## 5. 기존 [!UICONTROL Adobe Analytics] 구성 요소
+>[!IMPORTANT]
+>이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. 아직 CJA UI를 통해서는 사용할 수 없습니다.
 
-| 질문 | 답변 |
-| --- | --- |
-| [!DNL Customer Journey Analytics]에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터] ([!UICONTROL 세그먼트])를 공유/게시할 수 있습니까? | 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다. |
-| 이전 [!UICONTROL eVar] 설정은 어떻게 됩니까? | 기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다. |
-| 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | [!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
-| 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
-| [!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까? | [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.] |
-| 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 활용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 활용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다. |
+이 설정을 사용하면 CJA 데이터 보존을 [!UICONTROL 연결] 수준([!UICONTROL 데이터 세트] 수준이 아닌)에서 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
 
-{style=&quot;table-layout:auto&quot;}
+주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
-## 6. 데이터 구성 요소 삭제의 영향
+## 6. 데이터 구성 요소 삭제의 영향 {#deletion}
 
 데이터 삭제는 여섯 가지 유형의 구성 요소인 샌드박스, 스키마, 데이터 세트, 연결, 데이터 보기, 작업 영역 프로젝트와 관련이 있습니다. 다음은 이러한 구성 요소 중 하나를 삭제하는 것과 관련된 몇 가지 가능한 시나리오입니다.
 
@@ -88,7 +83,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
 
-## 7. CJA에서 보고서 세트 병합 시 고려 사항
+## 7. CJA에서 보고서 세트 병합 시 고려 사항 {#merge-reportsuite}
 
 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
 
@@ -100,3 +95,60 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 통화 | 통화 전환은 CIA에서 지원되지 않습니다. 병합하려는 보고서 세트가 서로 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
 | [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 필터] [!UICONTROL 속성] 등에 영향을 미칩니다. 번호가 제대로 추가될 수 없습니다. |
 | [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하는 경우 문제가 발생할 수 있습니다. |
+
+
+## 8. 기존 [!UICONTROL Adobe Analytics] 구성 요소
+
+| 질문 | 답변 |
+| --- | --- |
+| [!DNL Customer Journey Analytics]에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터] ([!UICONTROL 세그먼트])를 공유/게시할 수 있습니까? | 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다. |
+| 이전 [!UICONTROL eVar] 설정은 어떻게 됩니까? | 기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다. |
+| 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | [!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
+| 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
+| [!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까? | [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.] |
+| 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 활용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 활용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 9. 연결 크기 예상 {#estimate-size}
+
+현재 [!UICONTROL Customer Journey Analytics]에 있는 데이터의 행 수를 알고 있어야 합니다. 조직의 이벤트 데이터 레코드(데이터 행) 사용을 정확하게 계산하려면 다음을 수행하십시오 **조직에서 만든 각 연결에 대해**.
+
+1. [!UICONTROL Customer Journey Analytics]에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
+
+   이제 모든 현재 연결 목록을 볼 수 있습니다.
+
+1. 각 연결 이름을 클릭하여 연결 관리자로 이동합니다.
+
+1. 추가 **[!UICONTROL 사용 가능한 이벤트 데이터 레코드]** 생성된 모든 연결에 대해 사용할 수 있습니다. (연결 크기에 따라 숫자가 표시되는 데 시간이 좀 걸릴 수 있습니다.)
+
+   ![이벤트 데이터](assets/event-data.png)
+
+1. 모든 이벤트 데이터 행의 합계가 있는 경우 회사가 Adobe으로 서명한 Customer Journey Analytics 계약에서 &quot;데이터 행&quot; 자격 조건을 조회합니다.
+
+   이렇게 하면 판매 주문에서 승인된 데이터의 최대 행 수를 제공합니다. 3단계에서 발생한 데이터 행 수가 이 수보다 큰 경우 오버레이가 발생합니다.
+
+1. 이 상황을 해결하기 위해 다음과 같은 몇 가지 옵션을 사용할 수 있습니다.
+
+   * 변경 [데이터 보존 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention).
+   * [사용하지 않은 연결 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
+   * [AEP에서 데이터 세트 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components).
+   * 추가 용량의 라이센스를 얻으려면 Adobe 계정 관리자에게 문의하십시오.
+
+## 10. 사용 초과에 관한 사항 {#overage}
+
+사용 제한은 Adobe에 의해 정기적으로 모니터링 및 적용됩니다. 데이터 행 은 Customer Journey Analytics 내에서 분석할 수 있는 일일 평균 데이터 행을 의미합니다.
+
+예를 들어 계약에 따라 100만 개의 데이터 행을 사용할 수 있는 권한이 있다고 가정해 보겠습니다. Customer Journey Analytics을 사용하는 1일에 200만 개의 데이터 행을 업로드한다고 가정해 보십시오. 2일, 100만 개의 행을 삭제하고 남은 라이센스 기간 동안 해당 커밋된 최대(즉, 100만 개의 데이터 행)에 사용량을 유지합니다. 계약 약관에 따라 &quot;데이터 행&quot; 라이선스 자격을 초과했으므로 1일에 대해 과금 요금이 발생할 수 있습니다.
+
+## 11. 데이터 불일치 진단 {#discrepancies}
+
+경우에 따라 연결에서 수집된 총 이벤트 수가 [!UICONTROL Adobe Experience Platform]의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 예에서 데이터 세트 &quot;B2B 노출 횟수&quot;에는 7650개의 행이 있지만 데이터 세트에 [!UICONTROL Adobe Experience Platform]의 3830개의 행이 포함됩니다. 불일치 발생에는 몇 가지 이유가 있으며 다음 단계를 수행하여 진단할 수 있습니다.
+
+1. 이 차원을 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;로 분류하면 크기가 같지만 다른 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;를 사용하는 데이터 세트가 2개 있음을 알 수 있습니다. 각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 개인 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]에서 5개의 레코드를 무시했습니다.
+
+   ![분류](assets/data-size2.png)
+
+1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없습니다. 나중에 Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
+
+[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
