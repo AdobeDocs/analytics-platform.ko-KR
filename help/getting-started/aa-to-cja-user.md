@@ -4,10 +4,10 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: eeb56599c81dd9cd20bf91c864aa57a783ef13fd
+source-git-commit: 555e6cc3a987a0bbd396eaf322a7edb3a9f66680
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 41%
+source-wordcount: '625'
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 41%
 
 ## 새로운 아키텍처
 
-아키텍처가 Customer Journey Analytics은 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 컨텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다.
+Customer Journey Analytics은 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 컨텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다.
 
 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko)를 참조하십시오.
 
@@ -34,10 +34,26 @@ CJA 관리자는 Platform에서 데이터에 대한 연결을 설정하고 해�
 
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름을 바꾸고 재설계되었습니다. 업데이트된 용어 중 일부는 세그먼트, 가상 보고서 세트, 분류, 고객 속성 및 컨테이너 이름을 포함합니다. eVar 및 prop과 같은 친숙한 개념이 제한 사항과 함께 더 이상 존재하지 않습니다.
 
+### eVar 및 prop
+
+기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다.
+
 ### 이제 세그먼트가 &#39;필터&#39;입니다
 
+[!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트가 [!UICONTROL Customer Journey Analytics]. 또한 &quot;세그먼트&quot;의 이름이 &quot;필터&quot;로 변경되었습니다.
+
+당분간 공유/게시할 수 없습니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서 ) [!DNL Customer Journey Analytics] 통합 Experience Platform 또는 기타 Experience Cloud 응용 프로그램 이 기능은 현재 개발 중입니다.
+
+### 계산된 지표
+
+[!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존의 계산된 지표가 [!UICONTROL Customer Journey Analytics].
+
+### 세션 및 변수 지속성 설정
+
+[!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
 
 ### 이제 가상 보고서 세트가 &#39;데이터 보기&#39;입니다
+
 
 
 ### 이제 분류는 &#39;조회 데이터 세트&#39;입니다
@@ -51,13 +67,6 @@ CJA 관리자는 Platform에서 데이터에 대한 연결을 설정하고 해�
 
 ### 이제 방문자 컨테이너가 &#39;개인&#39; 컨테이너입니다
 
-## Adobe Analytics 구성 요소에 대한 FAQ
+### `Uniques Exceeded` 제한 사항
 
-| 질문 | 답변 |
-| --- | --- |
-| [!DNL Customer Journey Analytics]에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터] ([!UICONTROL 세그먼트])를 공유/게시할 수 있습니까? | 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다. |
-| 이전 [!UICONTROL eVar] 설정은 어떻게 됩니까? | 기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다. |
-| 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | [!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
-| 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
-| [!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까? | [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.] |
-| 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 활용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 활용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다. |
+[!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.]
