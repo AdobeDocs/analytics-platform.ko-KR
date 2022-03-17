@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 621b40ffebe0c28376bcb36fabf84b53b54e4992
+source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 98%
@@ -17,7 +17,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
-| 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
+| 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | 2022년 2월 | [Adobe Analytics-Customer Journey Analytics 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko) |
 | 2022년 1월 | [CJA에서 바인딩 차원 및 지표 사용](/help/use-cases/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#allocation-settings) |
