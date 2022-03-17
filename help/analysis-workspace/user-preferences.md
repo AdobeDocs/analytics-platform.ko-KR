@@ -4,9 +4,9 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '230'
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 100%
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=ko) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 구분 기호 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
+|  | 자유 형식 테이블 | <ul><li>예외 항목 표시 </li><li>스파크라인 표시</li><li>주석 표시</li></ul> |
 
 ## [!UICONTROL 어두운 테마]
 
