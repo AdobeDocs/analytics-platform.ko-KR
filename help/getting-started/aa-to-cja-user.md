@@ -4,21 +4,27 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
+source-git-commit: 24a6319b1303eaef80ddf6142deae60e7f664ae4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 27%
+source-wordcount: '642'
+ht-degree: 26%
 
 ---
 
 
 # Adobe Analytics 사용자를 위한 CJA 사용 안내서
 
+>[!NOTE]
+>
+>이 페이지는 현재 개발 중입니다.
+
 축하합니다. 귀사는 Customer Journey Analytics을 시작합니다. Adobe Analytics의 사용자로서 이미 멋진 시작을 경험했습니다. Customer Journey Analytics을 사용할 때, 몇 가지 큰 차이점과 몇 가지 유사점을 볼 수 있습니다. 이 페이지는 변경되지 않은 부분과 몇 가지 주요 차이점을 설명하기 위한 것입니다. 또한 새로운 개념에 대한 자세한 정보를 얻는 방법과 고객 여정을 보다 쉽고 성공적으로 만드는 추가 단계를 알려드리겠습니다.
 
 ## 변경되지 않은 사항
 
-보고 측면에 익숙한 많은 것이 변경되지 않았습니다. Analysis Workspace의 강력한 기능을 사용하여 데이터를 분석하고 Adobe Analytics 대시보드와 새로운 Report Builder 버전을 분석할 수 있습니다. 작업 공간 및 대시보드는 기존 Adobe Analytics에서 했던 것과 기본적으로 동일합니다. Report Builder은 새로운 인터페이스를 갖추고 있으며 이제 PC, Mac 컴퓨터 및 웹 버전의 Excel에서 실행됩니다. 보고에 따라 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 작업 공간의 예입니다
+보고 측면에 익숙한 많은 것이 변경되지 않았습니다. Analysis Workspace의 강력한 기능을 사용하여 데이터를 분석할 수 있습니다. 또한 동일한 버전의 Adobe Analytics 대시보드를 원하는 대로 사용할 수 있습니다. 작업 공간 및 대시보드는 기존 Adobe Analytics에서 했던 것과 기본적으로 동일합니다. Report Builder은 새로운 인터페이스를 갖추고 있으며 이제 PC, Mac 컴퓨터 및 웹 버전의 Excel에서 실행됩니다. 보고에 따라 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 몇 가지 다중 채널 시각화의 예입니다.
+
+![다중 채널](assets/cross-channel.png)
 
 ## 새로운 아키텍처
 
@@ -26,7 +32,7 @@ Customer Journey Analytics은 Adobe Experience Platform에서 데이터를 가�
 
 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko)를 참조하십시오.
 
-CJA 관리자는 Platform에서 데이터에 대한 연결을 설정하고 해당 연결 내에서 데이터 보기를 만듭니다. 데이터 보기는 가상 보고서 세트와 유사하다고 생각하십시오. 데이터 보기는 Customer Journey Analytics에서 보고의 기반입니다.
+CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Platform에서 데이터 세트를 가져올 수 있습니다. 그런 다음 빌드되었습니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 내에서 사용할 수 있습니다. 데이터 보기는 가상 보고서 세트와 유사하다고 생각하십시오. 데이터 보기는 Customer Journey Analytics에서 보고의 기반입니다.
 
 ## 새로운 개념 및 용어
 
