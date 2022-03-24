@@ -3,18 +3,14 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4afb87d0160dff9cd3249889bab84dacfdc43e2a
+source-git-commit: 39869e6ab2da8b15cb5dde876fe5233fc7c35adf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 30%
 
 ---
 
 # 현재 Customer Journey Analytics 릴리스 정보 (2022년 3월)
-
->[!IMPORTANT]
->
->이 릴리스 정보에는 변경될 수 있는 프리릴리스 정보가 포함되어 있습니다.
 
 **마지막 업데이트**: 2022년 3월 23일
 
