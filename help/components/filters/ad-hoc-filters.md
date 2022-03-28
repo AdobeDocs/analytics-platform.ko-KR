@@ -4,16 +4,16 @@ title: 임시 프로젝트 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 54%
+source-wordcount: '295'
+ht-degree: 61%
 
 ---
 
 # 임시 프로젝트 필터
 
-임시 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 필터를 만들 수 있습니다. 필터가 [프로젝트 수준 필터](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?#what-are-project-only-segments) 로컬에서 현재 프로젝트에 액세스할 수 있습니다.
+임시 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 필터를 만들 수 있습니다. 필터가 [프로젝트 수준 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=ko-KR) 로컬에서 현재 프로젝트에 액세스할 수 있습니다.
 
 다음은 임시 프로젝트 필터 만들기에 대한 비디오입니다.
 
@@ -44,8 +44,8 @@ ht-degree: 54%
 
 1. 드롭 영역의 필터 위에 커서를 놓고 &quot;i&quot; 아이콘을 클릭합니다.
 1. 연필 편집을 클릭하여 필터 빌더로 이동합니다.
-1. 확인 **[!UICONTROL 모든 프로젝트를 사용할 수 있도록 설정하고 구성 요소 목록에 추가합니다]**.
-1. 클릭 **[!UICONTROL 저장]**.
+1. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정 및 구성 요소 목록 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 저장되면 왼쪽 레일 구성 요소 목록에서 필터를 사용할 수 있으며 필터 관리자의 다른 사용자와 공유할 수 있습니다.
 

@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 82%
+source-wordcount: '1028'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 프로젝트에서 빠른 필터를 만들어 복잡한 전체 [필터 빌더](/help/components/filters/create-filters.md)를 우회할 수 있습니다. 빠른 필터
 
-* 적용 대상 [프로젝트 전용 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?lang=en#what-are-project-only-filters).
+* [프로젝트 전용 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html)로 적용합니다.
 * 최대 3개의 규칙 허용
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
@@ -99,11 +99,11 @@ ht-degree: 82%
 1. 이제 필터가 모든 프로젝트의 필터 구성 요소에 표시됩니다.
 1. 조직의 다른 사용자와 [필터를 공유](/help/components/filters/manage-filters.md)할 수도 있습니다 .
 
-## 프로젝트 전용 필터는 무엇입니까?
+## 프로젝트 전용 필터는 무엇입니까? {#project-only}
 
 프로젝트 전용 필터는 에서 만든 현재 프로젝트에만 적용되는 필터입니다. 다른 프로젝트에서 사용할 수 없으며 다른 사용자에게 공유할 수 없습니다. 왼쪽 레일에서 필터를 만들고 저장하지 않고 데이터를 빠르게 탐색하기 위한 것입니다. 프로젝트 전용 필터는 빠른 필터 또는 [애드혹 필터](/help/components/filters/ad-hoc-filters.md).
 
-에서 프로젝트 전용 필터를 여는 경우 [!UICONTROL 필터 빌더]에 프로젝트 전용 알림이 표시됩니다. &quot;이 필터를 사용할 수 있도록 설정..&quot;을 선택하지 않으면 을(를) 클릭합니다. **[!UICONTROL 적용]**&#x200B;로 지정하는 경우 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다.
+에서 프로젝트 전용 필터를 여는 경우 [!UICONTROL 필터 빌더]에 프로젝트 전용 알림이 표시됩니다. &quot;이 필터를 사용할 수 있도록 설정..&quot;을 선택하지 않으면 **[!UICONTROL 적용]**&#x200B;을 클릭하면 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다.
 
 >[!NOTE]
 >
