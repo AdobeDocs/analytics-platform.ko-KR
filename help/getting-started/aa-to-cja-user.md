@@ -4,10 +4,10 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
+source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 26%
+source-wordcount: '897'
+ht-degree: 21%
 
 ---
 
@@ -44,9 +44,13 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름을 바꾸고 재설계되었습니다. 업데이트된 용어 중 일부는 세그먼트, 가상 보고서 세트, 분류, 고객 속성 및 컨테이너 이름을 포함합니다. eVar 및 prop과 같은 친숙한 개념이 제한 사항과 함께 더 이상 존재하지 않습니다.
 
-### eVar 및 prop
+### 더 이상 eVar 및 prop 없음
 
 기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다.
+
+**필요한 작업**:
+
+* 할 수 있는 여러 가지 방법에 대해 숙지하십시오
 
 ### 이제 세그먼트가 &#39;필터&#39;입니다
 
@@ -54,28 +58,44 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 당분간 공유/게시할 수 없습니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서 ) [!DNL Customer Journey Analytics] 통합 Experience Platform 또는 기타 Experience Cloud 응용 프로그램 이 기능은 현재 개발 중입니다.
 
+**필요한 작업**:
+
+* 기존 Adobe Analytics 세그먼트를 Customer Journey Analytics으로 이동하려면 다음을 봅니다. [이 비디오](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=ko).
+* 그렇지 않으면 Customer Journey Analytics에서 필터를 다시 만듭니다.
+
 ### 계산된 지표
 
 [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존의 계산된 지표가 [!UICONTROL Customer Journey Analytics].
 
+**필요한 작업**:
+
+* Adobe Analytics 계산된 지표를 Customer Journey Analytics으로 이동하려면 다음을 봅니다. [이 비디오](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=ko).
+* 그렇지 않으면 Customer Journey Analytics에서 계산된 지표를 다시 만듭니다.
+
 ### 세션 및 변수 지속성 설정
 
-[!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
+[!UICONTROL Customer Journey Analytics] 이러한 설정은 보고서 시간에 적용되며, 이제 [데이터 보기](help/data-views/component-settings/persistence.md). 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
 
 ### 이제 가상 보고서 세트가 &#39;데이터 보기&#39;입니다
 
+데이터 보기는 가상 보고서 세트의 개념을 가져와 다음과 같이 확장합니다 [데이터에 대한 추가 제어 사용](/help/data-views/create-dataview.md) 연결에서 사용할 수 있습니다. 이를 통해 시간대 및 세션 시간 초과 간격을 구성할 수 있습니다. 개별 차원에 대한 속성 및 만료 속성을 동적으로 적용할 수도 있습니다. 이러한 권한은 모든 데이터에 소급하여 적용됩니다.
 
+### 크로스 보고서 세트 데이터
+
+여러 데이터 세트의 기존 구현을 Experience Platform에 결합할 수 있습니다.
 
 ### 이제 분류는 &#39;조회 데이터 세트&#39;입니다
 
 ### 이제 고객 속성이 &#39;프로필 데이터 세트&#39;입니다
 
 
-### 이제 히트 컨테이너가 &#39;이벤트&#39; 컨테이너입니다.
+### 컨테이너의 이름이 변경되었습니다
 
-### 이제 방문 컨테이너가 &#39;세션&#39; 컨테이너입니다.
+컨테이너를 지정합니다 [만드는 모든 데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers). 조직의 요구 사항에 맞게 모든 컨테이너의 이름을 변경할 수 있습니다.
 
-### 이제 방문자 컨테이너가 &#39;개인&#39; 컨테이너입니다
+* **이제 히트 컨테이너가 &#39;이벤트&#39; 컨테이너입니다.**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
+* **이제 방문 컨테이너가 &#39;세션&#39; 컨테이너입니다.**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
+* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 
 ### `Uniques Exceeded` 제한 사항
 
