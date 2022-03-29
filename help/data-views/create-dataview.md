@@ -4,9 +4,9 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1217'
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
+workflow-type: tm+mt
+source-wordcount: '1224'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 100%
 # 데이터 보기 만들기 또는 편집
 
 데이터 보기 만들기에는 스키마 요소에서 지표와 차원을 생성하거나 표준 구성 요소를 활용하는 작업이 포함됩니다. 비즈니스 요구 사항에 따라 대부분의 스키마 요소는 차원이나 지표 중 하나가 될 수 있습니다. 스키마 요소를 데이터 보기로 드래그하면 CIA에서 차원 또는 지표가 작동하는 방법을 조정할 수 있는 옵션이 오른쪽에 나타납니다.
+
+다음은 해당 주제에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
 ## 데이터 보기 구성하기
 

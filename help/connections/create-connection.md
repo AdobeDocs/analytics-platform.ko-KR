@@ -4,7 +4,7 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
+source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 다음은 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/32549/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/331788/?quality=12&learn=on)
 
 ## 필요 권한
 
