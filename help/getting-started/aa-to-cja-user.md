@@ -4,9 +4,9 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d31f07d8b26ea4d60481c040a0ca1ba491d4ecf0
+source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '656'
 ht-degree: 26%
 
 ---
@@ -22,9 +22,15 @@ ht-degree: 26%
 
 ## 변경되지 않은 사항
 
-보고 측면에 익숙한 많은 것이 변경되지 않았습니다. Analysis Workspace의 강력한 기능을 사용하여 데이터를 분석할 수 있습니다. 또한 동일한 버전의 Adobe Analytics 대시보드를 원하는 대로 사용할 수 있습니다. 작업 공간 및 대시보드는 기존 Adobe Analytics에서 했던 것과 기본적으로 동일합니다. Report Builder은 새로운 인터페이스를 갖추고 있으며 이제 PC, Mac 컴퓨터 및 웹 버전의 Excel에서 실행됩니다. 보고에 따라 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 몇 가지 다중 채널 시각화의 예입니다.
+보고 측면에 익숙한 많은 것이 변경되지 않았습니다.
 
-![다중 채널](assets/cross-channel.png)
+* 여전히 의 기능을 사용할 수 있습니다. [Analysis Workspace](/help/analysis-workspace/home.md) 를 입력하여 데이터를 분석할 수 있습니다.
+* 또한 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 마음대로 하세요. 작업 공간 및 대시보드는 기존의 Adobe Analytics에서 사용하던 것과 동일하게 작동합니다.
+* [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 이제 PC, Mac 및 Excel 웹 버전에서 실행됩니다.
+
+보고에 있어서 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 많은 크로스 채널 데이터 소스를 포함하는 몇 가지 다중 채널 시각화의 예입니다.
+
+![다중 채널 시각화](assets/cross-channel.png)
 
 ## 새로운 아키텍처
 
