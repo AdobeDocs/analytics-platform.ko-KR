@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 84%
+source-wordcount: '1050'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 84%
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
 빠른 필터로 수행할 수 있는 작업과 완전한 구성 요소 목록의 필터로 수행할 수 있는 작업을 비교하려면 [여기](/help/components/filters/filters-overview.md)를 참조하십시오.
+
+다음은 빠른 필터에 대한 비디오입니다(대신 &quot;빠른 세그먼트&quot;라는 용어를 사용함). 그러나 기능은 동일합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 사전 요구 사항 {#prereqs}
 

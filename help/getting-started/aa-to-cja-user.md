@@ -4,9 +4,9 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '994'
 ht-degree: 19%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->이 페이지는 현재 개발 중입니다.
+>This page is under construction.
 
-축하합니다. 귀사에서 Customer Journey Analytics을 채용하기 시작했습니다. Adobe Analytics에 익숙한 사용자라면 이미 멋진 시작을 보입니다. Customer Journey Analytics을 사용할 때, 몇 가지 큰 차이점과 몇 가지 유사점을 볼 수 있습니다. 이 페이지는 변경되지 않은 부분과 몇 가지 주요 차이점을 설명하기 위한 것입니다. 또한 새로운 개념에 대한 자세한 정보를 얻는 방법과 고객 여정을 보다 쉽고 성공적으로 만드는 추가 단계를 알려드리겠습니다.
+Congratulations, your company is starting employ Customer Journey Analytics! Adobe Analytics에 익숙한 사용자라면 이미 멋진 시작을 보입니다. Customer Journey Analytics을 사용할 때, 몇 가지 큰 차이점과 몇 가지 유사점을 볼 수 있습니다. 이 페이지는 변경되지 않은 부분과 몇 가지 주요 차이점을 설명하기 위한 것입니다. 또한 새로운 개념에 대한 자세한 정보를 얻는 방법과 고객 여정을 보다 쉽고 성공적으로 만드는 추가 단계를 알려드리겠습니다.
 
 ## 변경되지 않은 사항
 
 보고 측면에 익숙한 많은 것이 변경되지 않았습니다.
 
-* 여전히 의 기능을 사용할 수 있습니다. [Analysis Workspace](/help/analysis-workspace/home.md) 를 입력하여 데이터를 분석할 수 있습니다.
-* 또한 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 마음대로 하세요. 작업 공간 및 대시보드는 기존의 Adobe Analytics에서 사용하던 것과 동일하게 작동합니다.
+* 여전히 의 기능을 사용할 수 있습니다. [Analysis Workspace](/help/analysis-workspace/home.md) 를 입력하여 데이터를 분석할 수 있습니다. 작업 공간은 기존 Adobe Analytics에서와 동일한 방식으로 작동합니다.
+* 또한 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 마음대로 하세요. 대시보드(Mobile 앱이라고도 함)는 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 이제 PC, Mac 및 Excel 웹 버전에서 실행됩니다.
 
 보고에 있어서 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 크로스 채널 데이터 소스를 포함하는 일부 시각화의 예입니다.
@@ -42,7 +42,7 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 ## 새로운 개념 및 용어
 
-기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름을 바꾸고 재설계되었습니다. 업데이트된 용어 중 일부는 세그먼트, 가상 보고서 세트, 분류, 고객 속성 및 컨테이너 이름을 포함합니다. eVar 및 prop과 같은 친숙한 개념이 제한 사항과 함께 더 이상 존재하지 않습니다.
+Several features in CJA have been renamed and re-architected, when compared to traditional Adobe Analytics, to align with industry standards. Some updated terminology includes segments, virtual report suites, classifications, customer attributes, and container names. eVar 및 prop과 같은 친숙한 개념이 제한 사항과 함께 더 이상 존재하지 않습니다.
 
 ### 더 이상 eVar 및 prop 없음
 
@@ -78,10 +78,11 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 **필요한 작업**:
 
-* 데이터 보기에 대한 많은 사용 사례를 숙지하십시오.
 * 이제 Workspace에서 사용하는 보고서 세트 선택기를 사용하여 관리자가 사용자와 공유한 데이터 보기 중에서 선택할 수 있습니다.
 
    ![data-view-selector](assets/data-views.png)
+
+* 많은 것들을 숙지하세요 [데이터 보기에 대한 사용 사례](/help/data-views/data-views-usecases.md).
 
 ### 크로스 보고서 세트 데이터
 
@@ -92,9 +93,9 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 ### 세션 및 변수 지속성 설정
 
-[!UICONTROL Customer Journey Analytics] 이러한 설정은 보고서 시간에 적용되며, 이제 [데이터 보기](help/data-views/component-settings/persistence.md). 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
+[!UICONTROL Customer Journey Analytics] 이러한 설정은 보고서 시간에 적용되며, 이제 [데이터 보기](help/data-views/component-settings/persistence.md). Changes to these settings are now retroactive, and you can have multiple versions by using multiple data views!
 
-**필요한 작업**:
+**What you need to do**:
 
 
 ### 이제 분류는 &#39;조회 데이터 세트&#39;입니다
@@ -105,9 +106,9 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 ### 컨테이너의 이름이 변경되었습니다
 
 컨테이너를 지정합니다 [만드는 모든 데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers).
-* **이제 히트 컨테이너가 &#39;이벤트&#39; 컨테이너입니다.**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
+* **Hit containers are now &#39;Event&#39; containers**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 * **이제 방문 컨테이너가 &#39;세션&#39; 컨테이너입니다.**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
-* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
+* **Visitor containers are now [!UICONTROL Person] containers**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 
 **필요한 작업**:
 
