@@ -4,7 +4,7 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 59d9fa8d4e4fa4aa3d297e70a619a7456527c5cd
+source-git-commit: 386feb602a276672f79ee8a612b5d288ce6ad981
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Customer Journey Analytics
 
    (선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 **[!UICONTROL 데이터 세트 검색]** 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.)
 
-## 2. 데이터 세트 구성
+## 데이터 세트 구성
 
 오른쪽에서는 추가한 데이터 세트를 구성할 수 있습니다.
 
