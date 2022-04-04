@@ -4,8 +4,8 @@ description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기반으로 합니다.
 
-## 데이터 보기의 기능
+## 데이터 보기의 기능 {#capabilities}
 
 데이터 보기를 사용하면 Adobe Experience Platform에서 스키마를 변경하거나 CJA 환경을 다시 구현할 필요 없이 스키마 요소 설정을 즉시 변경할 수 있습니다.
 
@@ -52,12 +52,12 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * 데이터 보기에서 **컨테이너의 이름을 바꾸고** 해당 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에서 이름이 변경된 컨테이너를 표면화하도록 할 수 있습니다.
 
-## 데이터 보기의 사전 요구 사항
+## 데이터 보기의 사전 요구 사항 {#prerequisites}
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다](/help/connections/create-connection.md).
 * 데이터 보기를 생성하거나 관리하려면 [Adobe Admin Console에서 권한 집합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR#admin-access-permissions)이 필요합니다.
 
-## Workspace에서 재정의할 수 있는 데이터 보기 설정
+## Workspace에서 재정의할 수 있는 데이터 보기 설정 {#settings-override}
 
 일부 데이터 보기 설정은 프로젝트 수준의 Analysis Workspace에서 재정의할 수 있으며, 다른 설정은 재정의할 수 없습니다.
 
@@ -65,14 +65,14 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 * 지표 속성
 * 사용자가 보고서에서 [!UICONTROL 값 없음] 라인 항목을 볼 수 있는지 여부
 
-## Workspace에서 재정의할 수 없는 데이터 보기 설정
+## Workspace에서 재정의할 수 없는 데이터 보기 설정 {#settings-no-override}
 
 * [!UICONTROL 구성 요소 유형]
 * 지표 서식
 * 데이터 보기 이름
 * 차원 할당
 
-## 데이터 보기 삭제
+## 데이터 보기 삭제 {#delete}
 
 [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우, 이 삭제된 데이터 보기에 의존하는 모든 [!UICONTROL Workspace] 프로젝트가 더 이상 작동하지 않는다는 오류 메시지가 표시됩니다.
 

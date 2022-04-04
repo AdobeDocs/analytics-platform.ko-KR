@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 100%
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,9 @@ ht-degree: 100%
 
 * 이를 통해 구성 오류로 인해 발생하는 **모든 데이터 불일치를 식별**&#x200B;할 수 있습니다. 혹시 누락된 행이 있습니까? 그렇다면 어떤 행이 누락되었고 이유는 무엇입니까? 연결을 잘못 구성하여 CJA에서 데이터 누락이 발생했습니까?
 
->[!NOTE]
-> 이 기능은 2021년 9월 20일부터 일반적으로 사용할 수 있습니다.
+다음은 새 연결 관리자에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
 ## 연결 관리자 {#connections-manager}
 
