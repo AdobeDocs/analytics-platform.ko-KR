@@ -4,7 +4,7 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: fcd178add387cc79dabecace3fa1f84bd64c904f
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 19%
@@ -93,7 +93,7 @@ CJA 관리자가 설정함 [연결](/help/connections/create-connection.md) Plat
 
 ## 세션 및 변수 지속성 설정
 
-[!UICONTROL Customer Journey Analytics] 이러한 설정은 보고서 시간에 적용되며, 이제 [데이터 보기](help/data-views/component-settings/persistence.md). 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
+[!UICONTROL Customer Journey Analytics] 이러한 설정은 보고서 시간에 적용되며, 이제 [데이터 보기](/help/data-views/component-settings/persistence.md). 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
 
 **필요한 작업**:
 
