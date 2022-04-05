@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 88%
+source-wordcount: '1316'
+ht-degree: 81%
 
 ---
 
@@ -36,9 +36,11 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 를 수집하는 것입니다 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko) 를 사용하여 Experience Platform으로 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko). 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 이를 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
-전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics로 가져올 계획이라면 해당 보고서 세트에서 변수를 정렬하도록 미리 계획해야 합니다.
+전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
-예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. CJA로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
+* 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. CJA로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
+
+* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 디자인을 사용하는 경우 보다 쉽게 만들 수 있지만 새 Experience Platform을 사용하는 경우에는 필요하지 않습니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#mapping) 기능. 이 옵션을 사용하면 데이터 스트림(또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
 
 [!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면, CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
 

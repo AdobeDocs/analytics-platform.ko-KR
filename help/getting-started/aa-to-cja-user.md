@@ -4,13 +4,13 @@ description: 회사가 데이터를 Adobe Analytics에서 Customer Journey Analy
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 13743c627ae0af608e63c39ca1f0b8c54f61bbe0
+exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 19%
 
 ---
-
 
 # Adobe Analytics 사용자를 위한 CJA 사용 안내서
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 * 또한 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 마음대로 하세요. 대시보드(Mobile 앱이라고도 함)는 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 이제 PC, Mac 및 Excel 웹 버전에서 실행됩니다.
 
-보고에 있어서 다른 점은 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 크로스 채널 데이터 소스를 포함하는 일부 시각화의 예입니다.
+보고와 관련하여 **다른 기능** 분석할 훨씬 더 많은 크로스 채널 데이터에 액세스할 수 있다는 것입니다. 다음은 크로스 채널 데이터 소스를 포함하는 일부 시각화의 예입니다.
 
 ![다중 채널 시각화](assets/cross-channel.png)
 
