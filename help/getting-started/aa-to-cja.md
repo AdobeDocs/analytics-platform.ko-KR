@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 81%
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 Customer Journey Analytics로의 원활한 이전을 위해 Adobe Analytics 데이터를 준비하는 것은 데이터 무결성 및 보고 일관성에 중요합니다.
 
-### 1. ID 수집
+### 1. ID 수집 {#identities}
 
 고객 여정을 이해하는 데 가장 중요한 요소는 각 단계에서 고객을 파악하는 것입니다. Customer Journey Analytics의 경우 모든 채널에 존재하는 식별자와 해당 데이터를 사용하면 CJA 내에서 여러 소스를 결합할 수 있습니다.
 ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 종류(하나 이상 보유할 수 있음)가 무엇이든 각 ID에 대해 다음을 고려해야 합니다.
@@ -32,7 +32,7 @@ ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 
 
 Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재합니다. 이 경우, 고객이 ECID를 통해서만 식별되고 ID가 수집되는 경우(예: 고객 인증 시) 크로스 채널 분석(이전의 “필드 기반 연결”)을 사용하여 행 간의 간격을 메울 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko)
 
-### 2. 변수 정렬
+### 2. 변수 정렬 {#variables}
 
 Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 를 수집하는 것입니다 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko) 를 사용하여 Experience Platform으로 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko). 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 이를 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
@@ -44,7 +44,7 @@ Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하�
 
 [!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면, CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
 
-### 3. 마케팅 채널 (재)구성
+### 3. 마케팅 채널 (재)구성 {#marketing-channels}
 
 기존 Adobe Analytics 마케팅 채널 설정은 CJA에서 동일하게 적용되지 않습니다. 이는 다음 두 가지 이유에 기인한 것입니다.
 
@@ -54,7 +54,7 @@ Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하�
 
 Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko)를 게시했습니다. 이러한 업데이트된 권장 사항을 사용하면 Attribution IQ를 통해 Adobe Analytics에 이미 있는 기능을 최대한 활용하는 데 도움이 됩니다. 또한 정상적으로 Customer Journey Analytics로 전환할 수 있도록 지원합니다.
 
-### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정
+### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
 
@@ -78,7 +78,7 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 ## 중요한 차이점에 대비
 
-### 보고 시간 처리에 익숙해지기
+### 보고 시간 처리에 익숙해지기 {#report-time}
 
 Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 의존하여 [!UICONTROL eVar]에서 볼 수 있는 지속성과 같은 결과를 초래합니다. 반대로 Customer Journey Analytics는 보고서 실행 시 이러한 계산을 처리합니다.
 
@@ -86,7 +86,7 @@ Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 �
 
 이러한 변화로 인해 특히 만료 기간이 긴 변수의 경우 데이터 보고 방식에 약간의 차이가 발생합니다. [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html)를 사용하여 보고서 처리 시간이 보고에 어떤 영향을 미칠 수 있는지 평가할 수 있습니다.
 
-### 중요한 세그먼트 및 계산된 지표 식별
+### 중요한 세그먼트 및 계산된 지표 식별 {#segments-calcmetrics}
 
 Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계산된 지표는 Customer Journey Analytics와 호환되지 않습니다. 대부분의 경우 이들 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 CJA에서 다시 빌드할 수 있습니다.
 
