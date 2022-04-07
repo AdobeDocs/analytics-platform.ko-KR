@@ -4,7 +4,7 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 89%
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 이 워크플로는 Adobe Analytics 데이터 커넥터를 사용하며, 태그 관리자로 DTM을 사용하는지 또는 Launch를 사용하는지에 따라 달라집니다.
 
-### Adobe Experience Platform(이전의 Launch)에서 태그를 통해
+### Adobe Experience Platform의 태그를 통해(이전에는 [!UICONTROL Launch])
 
 1. 아직 수행하지 않았다면 [데이터 레이어를 만듭니다](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html?lang=ko-KR). 데이터 계층은 구현에 사용된 모든 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크로서, 구현을 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
 1. 사용 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko-KR) 아직 수행하지 않았다면 데이터 수집을 위해 사이트에서 코드를 구현하도록 했습니다. 이 태그 관리 솔루션을 사용하여 다른 태깅 요구 사항과 함께 Analytics 코드를 배포할 수 있습니다. 태그는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 지정 코드를 배포할 수 있도록 해줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다..
