@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
+source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,6 +111,8 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 * Adobe Analytics에서 사용자 지정 달력을 정의한 경우 다음과 비슷한 항목이 있습니다 [사용자 지정 달력 기능](/help/components/date-ranges/custom-date-ranges.md) CJA 내에서 액세스할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
+
+* 사용자를 위한 데이터 사전을 제공하거나 스키마 요소의 Experience Platform 필드 이름을 포함하도록 SDR을 확장합니다.
 
 ## 다음 단계
 
