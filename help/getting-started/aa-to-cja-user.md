@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
+source-git-commit: 64ba233212fa6bfc1d63c122e1f8dcebe6735f39
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1398'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,8 @@ Adobe은 Adobe Analytics 소스 커넥터 또는 웹 SDK를 통해 보고서 세
 
 의 개념 [!UICONTROL eVar], [!UICONTROL prop], 및 [!UICONTROL events] 기존 Adobe Analytics은 더 이상 [!UICONTROL Customer Journey Analytics]. 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소를 사용할 수 있습니다. 이는 Experience Platform의 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소에 매핑됩니다. 이제 Adobe Analytics의 처리 규칙 이후에 적용된 모든 방문 및 속성 설정이 Customer Journey Analytics의 쿼리 시간에 적용됩니다.
 
+이러한 유연성으로 인해 단일 스키마 필드를 차원과 지표로 사용하여 다양한 추적 요구 사항을 지원할 수 있는 상황이 발생할 수 있습니다.
+
 ## 세그먼트 개념 변경
 
 Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot;필터&quot;로 이름을 변경했습니다. Adobe Experience Platform의 세그먼트를 더 잘 구분하고 제공합니다.
@@ -100,10 +102,10 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 ## Adobe이 방문자를 식별하는 방법 변경
 
-CJA는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [크로스 채널 분석](/help/connections/cca/overview.md) 은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. CJA에서 작업 공간 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
+CJA는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [크로스 채널 분석](/help/connections/cca/overview.md) 은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. CJA에서 작업 공간 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. CJA에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## 낮은 트래픽 차원 항목 개념 변경
 
-기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. CJA에는 높은 카디널리티 필드에 많은 제한이 있습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 자세한 내용은 [롱테일](../analysis-workspace/workspace-faq/long-tail.md) cja가 고유한 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
+기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. CJA에는 높은 카디널리티 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 자세한 내용은 [롱테일](../analysis-workspace/workspace-faq/long-tail.md) cja가 고유한 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
