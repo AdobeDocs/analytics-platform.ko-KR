@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d5bdbfd0ac2a62ea5a55fbd381bf5453910ce0d1
+source-git-commit: f1f6fa889bad331378218dc1cee3356828fd847f
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 98%
+source-wordcount: '734'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,9 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 4월 | 새로 만들기 [Adobe Analytics 사용자를 위한 CJA 사용 안내서](/help/getting-started/aa-to-cja-user.md). |
+| 2022년 3월 | 새로 만들기 [CJA 주석 API 설명서](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
+| 2022년 3월 | 에 대한 새 설명서 [Workspace의 주석](/help/components/annotations/overview.md). |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | 2022년 2월 | [Adobe Analytics-Customer Journey Analytics 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko) |
 | 2022년 1월 | [CJA에서 바인딩 차원 및 지표 사용](/help/use-cases/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
