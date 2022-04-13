@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 7%
+source-wordcount: '1456'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 컨텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다.
 
-Experience Platform의 고객 데이터는 데이터 세트로 저장되며 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko) 및 데이터 일괄 처리. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko)를 참조하십시오.
+Experience Platform의 고객 데이터는 데이터 세트로 저장되며 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) 및 데이터 일괄 처리. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)를 참조하십시오.
 
 CJA 관리자가 설정합니다 [연결](/help/connections/create-connection.md) Experience Platform에서 데이터 세트를 가져옵니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 CJA의 보고 기준입니다. Experience Platform은 보고를 위한 모든 데이터를 소스화하므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
 

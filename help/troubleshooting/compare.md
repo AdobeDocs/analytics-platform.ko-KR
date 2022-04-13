@@ -4,10 +4,10 @@ description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 조직에서 CJA를 채택함에 따라 Adobe Analytics와 CJA 간의 데이터 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. CJA는 AA에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 CJA를 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
-[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 통해 Adobe Analytics 데이터를 AEP로 가져온 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정합니다.
+[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 통해 Adobe Analytics 데이터를 AEP로 가져온 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정합니다.
 
 ![데이터 흐름](assets/compare.png)
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 1단계: Adobe Analytics에서 발생 횟수 지표 실행
 
-[발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
+[발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
 
 1. Analytics > [!UICONTROL 작업 영역]에서 차원으로 보고할 날짜 범위를 [!UICONTROL 자유 형식] 테이블로 끌어옵니다.
 
@@ -63,7 +63,7 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR)에서 일부 행이 Analytics 소스 커넥터에 의해 삭제되었는지 여부를 원시 데이터에서 식별합니다.
+1. [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)에서 일부 행이 Analytics 소스 커넥터에 의해 삭제되었는지 여부를 원시 데이터에서 식별합니다.
 
    XDM 스키마로 변환하는 동안 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)가 행을 삭제할 수 있습니다. 전체 행이 변환에 적합하지 않은 이유는 여러 가지가 있을 수 있습니다. 다음 Analytics 필드 중 하나라도 이러한 값이 포함된 경우 전체 행이 삭제됩니다.
 

@@ -4,10 +4,10 @@ description: 'CJA(Customer Journey Analytics)를 사용하여 Google Analytics �
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1178'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe의 데이터 모델이 갖는 가장 강력한 측면 중 하나는 모든
 
 * Adobe Experience Platform에 액세스
 * 범용 Google Analytics(Google Analytics 360 버전) 또는 Google Analytics 4(무료 버전 또는 Google Analytics 360 버전)에 액세스
-* Customer Journey Analytics에 액세스 및 그 [관리자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR#admin-access-permissions)
+* Customer Journey Analytics에 액세스 및 그 [관리자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)
 
 Google Analytics 데이터를 Adobe Experience Platform으로 가져오는 방법은 사용 중인 Google Analytics의 버전에 따라 다릅니다.
 
@@ -97,7 +97,7 @@ Experience Platform에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UI
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR#ui)에 자동으로 사전 매핑합니다.
+선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)에 자동으로 사전 매핑합니다.
 
 ![](assets/schema-map.png)
 
@@ -141,7 +141,7 @@ Google Tag Manager 계정에 로그인한 후에 Adobe와 관련된 일부 사�
 
 이 예에서는 &quot;계정 만들기&quot; 트리거(`pageUrl equals account-creation`)가 정의되었습니다. 이 트리거에 몇 가지 정보를 추가하면, 사용자의 인증이 성공적으로 이루어지고 및 계정 만들기 페이지가 로드될 때 Google Analytics 및 AEP 모두에 데이터가 전달되게 할 수 있습니다.
 
-[데이터 수집 및 Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=ko-KR#module9)의 내용도 참조하십시오.
+[데이터 수집 및 Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html#module9)의 내용도 참조하십시오.
 
 이 비디오의 지침을 참조하십시오.
 
@@ -153,6 +153,6 @@ Adobe Experience Platform이 라이브 Google Analytics 데이터를 수신하�
 
 ## 다음 단계
 
-* Google Analytics 데이터가 포함된 연결을 기반으로 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#cja-dataviews)를 만듭니다.
+* Google Analytics 데이터가 포함된 연결을 기반으로 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#cja-dataviews)를 만듭니다.
 
 * Workspace](/help/use-cases/ga-to-cja-reporting.md)에서 놀라운 [분석을 수행합니다.

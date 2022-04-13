@@ -4,9 +4,9 @@ description: Analytics 데이터 커넥터를 사용하여 마케팅 채널 처�
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '955'
 ht-degree: 97%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko)를 게시했습니다.
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko-KR)를 게시했습니다.
 
 마케팅 채널 설정은 플랫폼 데이터와 보고서 세트 데이터 간에 다르게 작동합니다. CJA용 마케팅 채널을 설정할 때 다음 차이점을 고려하십시오.
 

@@ -4,10 +4,10 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 74%
+source-wordcount: '1077'
+ht-degree: 77%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience Cloud 및 Customer Journey Analytics에 로그인한 후 [!UICO
 | **[!UICONTROL 새로 만들기]** 모달 | 작업 영역에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하면 다시 [!UICONTROL 빈 프로젝트]와 [!UICONTROL 빈 모바일 스코어카드] 중에서 선택할 수 있게 됩니다. 귀사에서 제작한 템플릿 중에서 선택할 수도 있습니다. |
 | [!UICONTROL 간단히/자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
 | [!UICONTROL 빈 프로젝트] | 사용자가 채울 빈 [작업 영역 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 제작합니다. |
-| [!UICONTROL 빈 모바일 스코어카드] | 사용자가 채울 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL 빈 모바일 스코어카드] | 사용자가 채울 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 방식으로 프로젝트를 빌드하도록 새 사용자를 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
 | [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보를 엽니다. |
 | 필터 아이콘 | 태그, 보고서 세트, 소유자, 유형 및 기타 필터(내 소유, 나와 공유, 즐겨찾기, 승인됨)를 필터링할 수 있습니다. |
@@ -52,7 +52,7 @@ Adobe Experience Cloud 및 Customer Journey Analytics에 로그인한 후 [!UICO
 | [!UICONTROL 즐겨찾기] | 프로젝트를 즐겨찾기에 추가하면 별표가 표시되고 필터링할 수 있는 즐겨찾기로 태그가 지정됩니다. |
 | [!UICONTROL 이름] | 프로젝트의 이름입니다 |
 | 정보(i) 아이콘 | 정보 아이콘을 클릭하면 이 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](/help/analysis-workspace/curate-share/share-projects.md)할 수 있는지도 나타냅니다. |
-| 줄임표(...) | 프로젝트 옆에 있는 줄임표를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
+| 생략 부호 (...) | 프로젝트 옆에 있는 생략 부호를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
 | [!UICONTROL 유형] | 이 유형이 작업 영역 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
 | [!UICONTROL 태그] | 보고서에 태그를 지정하여 보고서를 그룹으로 구성할 수 있습니다. |
 | [!UICONTROL 프로젝트 역할] | 프로젝트 역할은 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부를 나타냅니다. |
@@ -64,7 +64,7 @@ Adobe Experience Cloud 및 Customer Journey Analytics에 로그인한 후 [!UICO
 | [!UICONTROL 예약됨] | 을 로 설정합니다. [!UICONTROL 설정] 프로젝트를 예약한 시점 또는 **[!UICONTROL 해제]** 그렇지 않을 때. **[!UICONTROL 켜짐]**&#x200B;을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](/help/analysis-workspace/curate-share/t-schedule-report.md)할 수도 있습니다. |
 | [!UICONTROL 프로젝트 ID] | 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다. |
 | [!UICONTROL 가장 긴 날짜 범위] | 날짜 범위가 길어질수록 프로젝트 복잡성이 증가하며 처리 및 로드 시간이 늘어날 수 있습니다. |
-| [!UICONTROL 쿼리 개수] | 프로젝트가 로드될 때 Analytics에 대한 총 요청 수입니다. 프로젝트 쿼리 수가 많을수록 프로젝트 복잡성이 증가하고 처리 및 로드 시간이 늘어날 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. |
+| [!UICONTROL 쿼리 개수] | 프로젝트가 로드될 때 Analytics에 대한 총 요청 수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. |
 | 표 사용자 정의 아이콘 | (오른쪽 상단) 열을 선택 또는 선택 해제하여 프로젝트 목록에서 열을 추가하거나 제거할 수 있습니다. |
 | &lt;(뒤로 버튼) | Workspace 프로젝트의 이 단추를 클릭하면 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 랜딩 페이지를 떠났을 때의 페이지 구성이 다시 돌아올 때 유지됩니다. |
 

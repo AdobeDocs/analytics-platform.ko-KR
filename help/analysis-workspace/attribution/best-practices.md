@@ -3,10 +3,10 @@ title: 속성 모범 사례
 description: 속성 모델 결정과 관련된 모범 사례에는 어떤 것들이 있습니까?
 feature: Attribution
 exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **예 2**
 
-“우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정할 수 있습니다. 그런 다음 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows)을 90일로 변경할 수 있습니다.
+“우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정할 수 있습니다. 그런 다음 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#lookback-windows)을 90일로 변경할 수 있습니다.
 
 ## 3단계: 알고리즘 속성 사용
 

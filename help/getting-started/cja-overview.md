@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 97%
+source-wordcount: '1257'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포�
 
 ## CJA와 크로스 디바이스 분석 비교
 
-[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
+[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 디지털 디바이스가 사람에게 매핑되는 방법을 확인하기 위해 공동 작업 그래프 또는 개인 그래프를 활용하여 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)와 통합됩니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다.
 
 반면 CJA는 Adobe Experience Platform 데이터 세트와 통합되어 Analysis Workspace에서 크로스 채널 분석을 지원합니다. CJA는 아직 공동 작업 또는 개인 ID 그래프와 통합되지 않았지만 &quot;고유한 ID를 가져와서&quot; 데이터 세트를 함께 결합할 수 있으며 그러한 데이터 세트는 디지털 데이터를 넘어 온라인 및 오프라인 접점을 모두 포함할 수 있습니다. CJA 사전 요구 사항은 아래에 자세히 설명되어 있습니다.
 
@@ -98,14 +98,14 @@ Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는
 
 Customer Journey Analytics는 Adobe Experience Platform을 사용하는 많은 기능 중 하나입니다. Experience Platform에 구축된 다양한 기능을 통해 데이터를 최대한 활용할 수 있습니다.
 
-Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고, 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다. 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고, 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다. 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)를 참조하십시오.
 
 데이터 수집에서 직접 SQL 액세스를 위해 Experience Platform의 여러 구성 요소는 Customer Journey Analytics에 중요하며, 이와 함께 작동합니다.
 
-* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버 없는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
+* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버 없는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
 * [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko):
-* [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en):
-* 개발자 옵션의 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko): Adobe Experience Platform에 사전 설치된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나 번거로운 프로세스를 자동화할 수 있습니다.
+* [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html):
+* 개발자 옵션의 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html): Adobe Experience Platform에 사전 설치된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나 번거로운 프로세스를 자동화할 수 있습니다.
 
 ## 비디오
 

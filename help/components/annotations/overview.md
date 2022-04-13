@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 75f4921f6624b1b26a26b88f2ff15f44d29f4c01
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 80%
+source-wordcount: '303'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원/지표에 연결할 수 있습니다. 알려진 데이터 문제, 공휴일, 캠페인 시작 등으로 날짜 또는 날짜 범위에 주석을 달 수 있습니다. 그런 다음 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다.
 
-예를 들어 조직과 프로젝트를 공유하고 있다고 가정합니다. 마케팅 캠페인으로 인해 트래픽이 크게 증가한 경우 &quot;캠페인 시작 날짜&quot; 주석을 생성하고 전체 보고서 세트에 대해 범위를 지정할 수 있습니다. 사용자가 해당 날짜를 포함한 데이터 세트를 볼 때 해당 데이터와 함께 프로젝트 내에 주석이 표시됩니다.
+예를 들어 조직과 프로젝트를 공유한다고 가정해 보겠습니다. 마케팅 캠페인으로 인해 트래픽이 급증한 경우 “캠페인 시작일” 주석을 만들고 범위를 전체 보고서 세트로 지정할 수 있습니다. 사용자가 해당 날짜가 포함된 데이터 세트를 볼 때 데이터와 함께 프로젝트 내의 주석을 볼 수 있습니다.
 
 ![](assets/multi-day.png)
 
@@ -38,7 +38,7 @@ ht-degree: 80%
 
 기본적으로 관리자만 주석을 생성할 수 있습니다. 사용자는 다른 Analytics 구성 요소(예: 세그먼트, 계산된 지표 등)와 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
 
-그러나 관리자는 [Adobe Admin Console](.html?lang=kr)을 통해 사용자에게 [!UICONTROL 주석 생성] 권한(Analytics 도구)을 부여할 수 있습니다.
+그러나 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)을 통해 사용자에게 [!UICONTROL 주석 생성] 권한(Analytics 도구)을 부여할 수 있습니다.
 
 ## 주석 켜기 또는 끄기
 

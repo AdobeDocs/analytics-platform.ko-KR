@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a1bb56c5a7e6d3bb6b59e2cf3448409d85ec2efa
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 77%
+source-wordcount: '1047'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 프로젝트에서 빠른 필터를 만들어 복잡한 전체 [필터 빌더](/help/components/filters/create-filters.md)를 우회할 수 있습니다. 빠른 필터
 
-* 적용 대상 [프로젝트 전용 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en#project-only).
+* 적용 대상 [프로젝트 전용 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only).
 * 최대 3개의 규칙 허용
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 ## 사전 요구 사항 {#prereqs}
 
-누구나 빠른 필터를 만들 수 있습니다. 그러나 에서는 필터 만들기 권한이 필요합니다 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=ko-KR#analytics-tools) 빠른 필터를 저장하거나 필터 빌더에서 열 수 있습니다.
+누구나 빠른 필터를 만들 수 있습니다. 그러나 에서는 필터 만들기 권한이 필요합니다 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 빠른 필터를 저장하거나 필터 빌더에서 열 수 있습니다.
 
 ## 빠른 필터 만들기 {#create}
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 | --- | --- |
 | [!UICONTROL 이름] | 필터의 기본 이름은 필터에 있는 규칙 이름의 조합입니다. 필터 이름을 보다 친숙한 이름으로 바꿀 수 있습니다. |
 | [!UICONTROL 포함/제외] | 필터 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
-| [!UICONTROL 히트/방문/방문자 컨테이너] | 빠른 필터에는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers)만이 포함되어 필터에 차원/지표/날짜 범위를 포함하거나 필터에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
+| [!UICONTROL 히트/방문/방문자 컨테이너] | 빠른 필터에는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)만이 포함되어 필터에 차원/지표/날짜 범위를 포함하거나 필터에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
 | [!UICONTROL 구성 요소] (Dimension/지표/날짜 범위) | 구성 요소(차원, 지표, 날짜 범위 또는 차원 값)를 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
 | [!UICONTROL 연산자] | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [필터 연산자](operators.md)를 참조하십시오. |
 | 더하기(+) 기호 | 다른 규칙 추가 |

@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 Google Analytics 데이터에 대�
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 방법은 다음과 같습니다.
 
 * 계산된 지표를 사용하여, 콜센터 문의 전화를 유도한 세션만 볼 수 있도록 세부 필터링합니다.
-* CJA의 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=ko-KR#cja-workspace)에서 &quot;참여&quot; 모델을 사용합니다.
+* CJA의 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace)에서 &quot;참여&quot; 모델을 사용합니다.
 
 어떤 페이지가 전화 문의를 유도하는 세션에 가장 빈번하게 참여하는지를 쉽게 살펴볼 수 있습니다. &quot;쇼핑 카트&quot;와 &quot;결제 정보&quot;페이지가 문의 전화의 대부분을 유도한 것을 알 수 있습니다. 파이어베이스 모바일 앱 데이터도 포함시켰기 때문에 문의 전화를 유발하는 페이지 오류와 앱 충돌 문제도 볼 수 있습니다. 훌륭한 웹 및 모바일 앱 경험을 제공하고 싶다면 이는 굉장히 중요한 데이터 포인트입니다.
 

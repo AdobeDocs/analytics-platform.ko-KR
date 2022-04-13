@@ -4,9 +4,9 @@ description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 ## 데이터 보기의 사전 요구 사항 {#prerequisites}
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다](/help/connections/create-connection.md).
-* 데이터 보기를 생성하거나 관리하려면 [Adobe Admin Console에서 권한 집합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR#admin-access-permissions)이 필요합니다.
+* 데이터 보기를 생성하거나 관리하려면 [Adobe Admin Console에서 권한 집합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)이 필요합니다.
 
 ## Workspace에서 재정의할 수 있는 데이터 보기 설정 {#settings-override}
 
