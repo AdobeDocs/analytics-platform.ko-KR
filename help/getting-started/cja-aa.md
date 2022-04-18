@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 97%
 | 기여도 분석 IQ | 전체 지원 |
 | 계산된 지표 | 전체 지원: 기존 Analysis Workspace의 기존 계산된 지표는 CJA에 포팅되지 않습니다. |
 | 달력 이벤트 | 전체 지원. 달력 이벤트가 [주석](/help/components/annotations/overview.md) 작업 공간. |
+| 분류 규칙 빌더 | 완전 지원. 호출됨 [하위 문자열](/help/data-views/component-settings/substring.md) 참조하십시오. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조킹을 사용합니다. |
 | 크로스 디바이스/크로스 채널 결합 | 전체 지원: [크로스 채널 Analytics](/help/connections/cca/overview.md)를 참조하십시오. |
 | CSV 다운로드 | 전체 지원 |
 | 사용자 정의 달력 | 전체 지원 |
@@ -80,7 +81,6 @@ ht-degree: 97%
 | 기능 | 참고 |
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
-| 분류 규칙 빌더 | 조회 데이터 세트가 아닌 보고서 시간에 문자열 조작을 사용하여 CJA에서 약간 다르게 작동합니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
 | 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. Adobe Experience Platform [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
