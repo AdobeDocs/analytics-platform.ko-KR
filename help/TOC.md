@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0b4c3dd1e7eafbefc69c391d027462240be4f3dc
+source-git-commit: b63593aa96580c39490ab2ac5c1454773fc7bb68
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 95%
 
 ---
@@ -205,6 +205,7 @@ ht-degree: 95%
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)
+   + [CJA에 AEM 대상 수집](use-cases/ingest-aep-segments.md)
    + [채널 간 데이터 분석](use-cases/cross-channel.md)
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)

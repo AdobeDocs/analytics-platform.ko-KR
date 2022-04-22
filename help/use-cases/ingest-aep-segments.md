@@ -3,15 +3,19 @@ title: AEP 대상을 Customer Journey Analytics에 수집
 description: 추가적인 분석을 위해 AEP 대상을 Customer Journey Analytics에 수집하는 방법을 설명합니다.
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: cd1d639ad698c188c506881b2b17103b0a3559f2
+source-git-commit: ed01fd0899cac21fff156e0c31dc2b52ff7c8cca
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '600'
 ht-degree: 4%
 
 ---
 
 
 # AEP 대상을 Customer Journey Analytics(CJA)에 수집
+
+>[!NOTE]
+>
+>이 주제는 지금 한창 진행 중이다.
 
 (Brandon, fyi, &#39;Unified Profile&#39;은 &#39;Real-time Customer Profile&#39;의 오래된 용어입니다. AEP 문서 관리자에 따르면 AEP 문서 세트에서 UP에 대한 문서를 찾을 수 없습니다.)
 
@@ -61,7 +65,7 @@ CJA에 보낼 수 있는 프로필 데이터 세트 형식입니다.
 * `audienceMembershipIdList` 문자열 필드: 대상 ID
 * 대상자에 대한 친숙한 이름 추가(`audienceMembershipIdName`), 예
 
-   ![친숙한 대상 이름](assets/audience-name)
+   ![친숙한 대상 이름](assets/audience-name.png)
 
 ## 5단계: CJA에서 이 프로필 데이터 세트에 대한 연결 만들기
 
