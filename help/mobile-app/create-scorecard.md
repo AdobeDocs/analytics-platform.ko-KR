@@ -40,7 +40,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ### 새 프로젝트 만들기 {#create}
 
-1. Adobe Analytics를 열고 **[!UICONTROL 작업 공간]** 탭을 클릭합니다.
+1. Adobe Analytics를 열고 **[!UICONTROL 작업 영역]** 탭을 클릭합니다.
 1. **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
