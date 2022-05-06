@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: b63593aa96580c39490ab2ac5c1454773fc7bb68
+source-git-commit: 165a2f7cd33282a8aaf93aa074a370cec2cbd40e
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 95%
@@ -58,7 +58,7 @@ ht-degree: 95%
       + [지표 중복 제거](data-views/component-settings/metric-deduplication.md)
       + [값 옵션 없음](data-views/component-settings/no-value-options.md)
       + [지속성](data-views/component-settings/persistence.md)
-      + [하위 문자열](data-views/component-settings/substring.md)
+      + [Substring](data-views/component-settings/substring.md)
       + [값 버킷팅](data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](data-views/component-reference.md)
    + [데이터 보기 활용 사례](data-views/data-views-usecases.md)
@@ -205,7 +205,7 @@ ht-degree: 95%
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)
-   + [CJA에 AEM 대상 수집](use-cases/ingest-aep-segments.md)
+   + [AEP 대상을 CJA에 수집](use-cases/ingest-aep-segments.md)
    + [채널 간 데이터 분석](use-cases/cross-channel.md)
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
