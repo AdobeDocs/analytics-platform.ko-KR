@@ -4,40 +4,42 @@ description: 추가적인 분석을 위해 AEP 대상을 Customer Journey Analyt
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 535095dc82680882d1a53076ea0655b1333b576b
+source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1042'
 ht-degree: 2%
 
 ---
 
 # AEP 대상을 Customer Journey Analytics(CJA)에 수집
 
->[!NOTE]
->
->이 주제는 지금 한창 진행 중이다.
-
 이 사용 사례에서는 AEP(Adobe Experience Platform) 대상을 CJA로 가져오는 중간 수동 방법을 설명합니다. 이러한 대상은 AEP 세그먼트 빌더, Adobe Audience Manager 또는 기타 도구에서 생성되었으며 실시간 고객 프로필(RTCP)에 저장되었을 수 있습니다. 대상은 적용 가능한 속성/이벤트 등과 함께 프로필 ID 세트로 구성됩니다. 분석을 위해 CJA Workspace로 가져오려고 합니다.
 
 ## 전제 조건
 
-* Adobe Experience Platform에 액세스 (AEP), 특히 실시간 고객 프로필.  AEP 스키마 및 데이터 세트를 생성/관리하는 액세스 권한도 갖습니다.
-* AEP 쿼리 서비스(및 SQL 쓰기 기능)나 다른 도구에 액세스하여 일부 간단한 변환 수행
-* Customer Journey Analytics 액세스(CJA 연결 및 데이터 보기를 만들거나 수정하려면 CJA 제품 관리자여야 함)
+* Adobe Experience Platform에 액세스 (AEP), 특히 실시간 고객 프로필.
+* AEP 스키마 및 데이터 세트를 생성/관리하기 위한 액세스 권한.
+* AEP 쿼리 서비스(및 SQL 쓰기 기능)나 다른 도구에 액세스하여 일부 간단한 변환을 수행합니다.
+* Customer Journey Analytics에 액세스. CJA 연결 및 데이터 보기를 만들거나 수정하려면 CJA 제품 관리자여야 합니다.
 * Adobe API 사용 기능(세그먼테이션, 선택적으로 기타)
 
 ## 1단계: 실시간 고객 프로필에서 대상 선택 {#audience}
 
-Adobe Experience Platform [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko) (RTCP)를 사용하면 온라인, 오프라인, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다. RTCP에 다양한 소스에서 온 대상이 이미 있을 수 있습니다. CJA에 수집할 대상을 한 개 이상 선택합니다.
+Adobe Experience Platform [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko) (RTCP)를 사용하면 온라인, 오프라인, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다.
+
+RTCP에 다양한 소스에서 온 대상이 이미 있을 수 있습니다. CJA에 수집할 대상을 한 개 이상 선택합니다.
 
 ## 2단계: 내보낼 프로필 결합 데이터 세트 만들기
 
 CJA에서 연결에 최종 추가할 수 있는 데이터 세트로 대상을 내보내려면 스키마가 프로필인 데이터 세트를 만들어야 합니다 [결합 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas).
+
 결합 스키마는 동일한 클래스를 공유하고 프로필에 대해 활성화된 여러 스키마로 구성됩니다. 결합 스키마를 사용하면 동일한 클래스를 공유하는 스키마에 포함된 모든 필드를 통합할 수 있습니다. 실시간 고객 프로필은 결합 스키마를 사용하여 각 개별 고객에 대한 전체적인 보기를 만듭니다.
 
 ## 3단계: API 호출을 통해 프로필 조합 데이터 세트로 대상 내보내기 {#export}
 
-CJA로 대상자를 가져오려면 먼저 AEP 데이터 세트로 내보내야 합니다. 이 작업은 세그먼테이션 API, 특히 [내보내기 작업 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en). 원하는 대상 ID를 사용하여 내보내기 작업을 만들고, 그 결과를 2단계에서 만든 프로필 조합 AEP 데이터 세트에 넣을 수 있습니다.  대상에 대해 다양한 속성/이벤트를 내보낼 수 있지만, 활용할 CJA 연결에 사용된 개인 ID 필드와 일치하는 특정 프로필 ID 필드만 내보내면 됩니다(5단계의 아래 참조).
+CJA로 대상자를 가져오려면 먼저 AEP 데이터 세트로 내보내야 합니다. 이 작업은 세그먼테이션 API, 특히 [내보내기 작업 API 끝점](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en).
+
+원하는 대상 ID를 사용하여 내보내기 작업을 만들고, 그 결과를 2단계에서 만든 프로필 조합 AEP 데이터 세트에 넣을 수 있습니다. 대상에 대해 다양한 속성/이벤트를 내보낼 수 있지만, 활용할 CJA 연결에 사용된 개인 ID 필드와 일치하는 특정 프로필 ID 필드만 내보내면 됩니다(5단계의 아래 참조).
 
 ## 4단계: 내보내기 출력 편집
 
@@ -67,13 +69,15 @@ CJA에 보낼 수 있는 프로필 데이터 세트 형식입니다.
 
 * 원할 경우 다른 대상 메타데이터를 추가합니다.
 
-## 5단계: 이 프로필 데이터 세트를 CJA의 기존 연결에 추가합니다(BG: 새 데이터를 만들 수 있지만 99%의 고객이 이미 데이터가 있는 기존 연결에 추가하려고 합니다. 대상 id는 CJA의 기존 데이터를 &quot;보강&quot;합니다.)
+## 5단계: 이 프로필 데이터 세트를 CJA의 기존 연결에 추가합니다
+
+새 연결을 만들 수 있지만 대부분의 고객은 기존 연결에 연결을 추가하려고 합니다. 대상 ID는 CJA의 기존 데이터를 &quot;보강&quot;합니다.
 
 [연결 만들기](/help/connections/create-connection.md)
 
 ## 6단계: 기존 CJA 데이터 보기 수정(또는 새 만들기)
 
-추가 `audienceMembershipId`, `audienceMembershipIdName` 및 `personID` dataview로 이동합니다.
+추가 `audienceMembershipId`, `audienceMembershipIdName` 및 `personID` 를 클릭합니다.
 
 ## 7단계: Workspace의 보고서
 
