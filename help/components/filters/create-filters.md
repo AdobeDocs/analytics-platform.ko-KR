@@ -2,10 +2,10 @@
 title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: 38b68d2f61b2db9dbc2cdf4853a8c32a1f8639e9
+source-git-commit: b907e62bfabd8cb42dc89d551d7b5285cb61298e
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
 
 | 작업 | 설명 |
 |--- |--- |
-| 선택 내용에서 필터 생성 | 인라인 필터를 만듭니다. 행을 선택하고, 선택 항목을 마우스 오른쪽 버튼으로 클릭한 다음 인라인 필터를 만듭니다. 이 필터는 열려 있는 프로젝트에만 적용되며, CJA 필터로 저장되지는 않습니다. 1. 행을 선택합니다.  2. 선택 항목을 마우스 오른쪽 버튼으로 클릭합니다.  3. *선택 항목에서 필터 만들기*&#x200B;를 클릭합니다. |
+| 선택 내용에서 필터 생성 | 인라인 필터를 만듭니다. 이 필터는 열려 있는 프로젝트에만 적용되며, CJA 필터로 저장되지는 않습니다.<p> 1. 필터에 포함시킬 테이블 행을 선택합니다.  2. 선택 항목을 마우스 오른쪽 버튼으로 클릭합니다.  3. *선택 항목에서 필터 만들기*&#x200B;를 클릭합니다. |
 | 구성 요소 > 새 필터 | 필터 빌더를 표시합니다. 필터링에 대한 자세한 내용은 [필터 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR)를 참조하십시오. |
 | 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | [조정 및 공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR#concept_4A9726927E7C44AFA260E2BB2721AFC6)에서, 수신자를 위한 공유 분석에서 프로젝트에 적용하는 필터를 어떻게 사용할 수 있는지 알아봅니다. |
 | 필터를 차원으로 사용 | 비디오: Analysis Workspace에서 필터를 차원으로 사용 |
