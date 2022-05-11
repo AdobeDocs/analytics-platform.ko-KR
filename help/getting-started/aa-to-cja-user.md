@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 5%
 
 ## 데이터 아키텍처 변경 사항 {#architecture}
 
-CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 컨텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다.
+CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. 
 
-Experience Platform의 고객 데이터는 데이터 세트로 저장되며 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) 및 데이터 일괄 처리. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)를 참조하십시오.
+[](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)를 참조하십시오.
 
 CJA 관리자가 설정합니다 [연결](/help/connections/create-connection.md) Experience Platform에서 데이터 세트를 가져옵니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 CJA의 보고 기준입니다. Experience Platform은 보고를 위한 모든 데이터를 소스화하므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
 
@@ -58,7 +58,7 @@ Adobe은 Adobe Analytics 소스 커넥터 또는 웹 SDK를 통해 보고서 세
 
 ## eVar 및 prop의 개념 변경
 
-의 개념 [!UICONTROL eVar], [!UICONTROL prop], 및 [!UICONTROL events] 기존 Adobe Analytics은 더 이상 [!UICONTROL Customer Journey Analytics]. Adobe Analytics에서 eVar 및 prop은 컨텐츠, 고객, 캠페인 등에 대한 설명을 저장합니다. 및 이벤트는 생성된 매출, 구독 또는 리드와 같은 것을 카운트합니다. Customer Journey Analytics은 두 유형의 데이터를 모두 보존하며, Analysis Workspace의 왼쪽 레일에서 각각 Dimension 또는 지표 아래에 있는 동일한 방식으로 액세스할 수 있습니다.
+ Adobe Analytics에서 eVar 및 prop은 컨텐츠, 고객, 캠페인 등에 대한 설명을 저장합니다. 및 이벤트는 생성된 매출, 구독 또는 리드와 같은 것을 카운트합니다. Customer Journey Analytics은 두 유형의 데이터를 모두 보존하며, Analysis Workspace의 왼쪽 레일에서 각각 Dimension 또는 지표 아래에 있는 동일한 방식으로 액세스할 수 있습니다.
 
 CJA에서는 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소를 사용할 수 있습니다. 이는 Experience Platform의 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소에 매핑됩니다. 이제 Adobe Analytics의 처리 규칙 이후에 적용된 모든 방문 및 속성 설정이 Customer Journey Analytics의 쿼리 시간에 적용됩니다.
 
@@ -82,7 +82,7 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 ## 계산된 지표의 개념 변경
 
-계산된 지표는 기존의 Analytics와 CJA 간에 유사하게 이름이 지정됩니다. 하지만, [!UICONTROL Customer Journey Analytics] 더 이상 eVar, prop 또는 이벤트를 사용하지 않고 대신 Experience Platform 스키마 요소를 사용합니다. 이 기본 변경 사항은 기존의 계산된 지표 중 어떤 것도 와 호환되지 않음을 의미합니다 [!UICONTROL Customer Journey Analytics]. Adobe Analytics 계산된 지표를 Customer Journey Analytics으로 이동하려면 다음 비디오를 참조하십시오.
+계산된 지표는 기존의 Analytics와 CJA 간에 유사하게 이름이 지정됩니다.  이 기본 변경 사항은 기존의 계산된 지표 중 어떤 것도 와 호환되지 않음을 의미합니다 [!UICONTROL Customer Journey Analytics]. Adobe Analytics 계산된 지표를 Customer Journey Analytics으로 이동하려면 다음 비디오를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
 
@@ -96,11 +96,11 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 ## 분류 개념 변경
 
-이제 &quot;분류&quot;를 &quot;조회 데이터 세트&quot;라고 합니다. 조회 데이터 세트는 이벤트 또는 프로필 데이터에 있는 값 또는 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 자세한 내용은 [계정 수준 데이터를 조회 데이터 세트로 추가](/help/use-cases/b2b.md) 예 사용 사례입니다.
+  예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 자세한 내용은 [계정 수준 데이터를 조회 데이터 세트로 추가](/help/use-cases/b2b.md) 예 사용 사례입니다.
 
 ## 고객 속성 개념 변경
 
-이제 &quot;고객 속성&quot;을 &quot;프로필 데이터 세트&quot;라고 합니다. 프로필 데이터 세트에는 [!UICONTROL 이벤트] 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. 포함할 개인 ID를 선택할 수 있습니다. 에 정의된 각 데이터 세트 [!DNL Experience Platform] 에는 하나 이상의 개인 ID가 정의된 자체 세트가 있습니다.
+   포함할 개인 ID를 선택할 수 있습니다. 에 정의된 각 데이터 세트 [!DNL Experience Platform] 에는 하나 이상의 개인 ID가 정의된 자체 세트가 있습니다.
 
 ## Adobe이 방문자를 식별하는 방법 변경
 
