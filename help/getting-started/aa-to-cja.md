@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬 {#variables}
 
-Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 를 수집하는 것입니다 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html) 를 사용하여 Experience Platform으로 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html). 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 이를 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
+[](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)[](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) 
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
@@ -56,7 +56,7 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
-[Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
+[Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
 
 이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 CJA [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
 
@@ -108,7 +108,7 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 
 * 강력한 CJA 데이터 보기를 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 훨씬 유연하게 정의할 수 있습니다. 예를 들어 차원 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md)
 
-* Adobe Analytics에서 사용자 지정 달력을 정의한 경우 다음과 비슷한 항목이 있습니다 [사용자 지정 달력 기능](/help/components/date-ranges/custom-date-ranges.md) CJA 내에서 액세스할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
+* [](/help/components/date-ranges/custom-date-ranges.md) 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 
