@@ -3,7 +3,7 @@ title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: 38c64f99b5e4a0061ccf9afb1d5ff219a78aec94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
 ht-degree: 100%
 
