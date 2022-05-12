@@ -4,9 +4,9 @@ description: 문자열의 하위 집합을 차원 항목으로 사용합니다.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
+source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '911'
 ht-degree: 6%
 
 ---
@@ -114,6 +114,8 @@ CJA에서는 Perl regex 구문의 하위 집합을 사용합니다. 입력이 �
 | `$+` | 정규 표현식에서 마지막으로 표시된 하위 표현식과 일치하는 항목을 출력합니다. |
 | `$$` | 문자열 문자를 출력합니다. `"$"`. |
 
-다음은 바인딩 Dimension에 대한 비디오입니다.
+## 차원 바인딩에 대한 비디오
+
+다음은 바인딩 차원에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
