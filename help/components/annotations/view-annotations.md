@@ -5,9 +5,9 @@ role: User, Admin
 feature: Components
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 79%
 
 ![](assets/ann-pdf.png)
 
-## 트렌드가 없는 데이터를 사용하여 주석 보기
+## 추세가 없는 데이터가 포함된 주석 보기
 
-경우에 따라 주석이 트렌드가 없는 데이터와 함께 표시되지만 특정 차원에 연결되어 있습니다. 이 경우 오른쪽 하단에 있는 요약 주석에만 나타납니다. 다음은 한 예입니다.
+추세가 없는 데이터와 함께 특정 차원에 연결된 주석이 표시되는 경우도 있습니다. 이 경우 오른쪽 하단에 있는 요약 주석에만 나타납니다. 다음은 한 예입니다.
 
 ![](assets/non-date.png)
 
-요약 차트는 트렌드가 아닌 자유 형식 테이블 및 요약 번호뿐만 아니라 모서리의 모든 시각화 유형에 나타납니다. 이 시각화는 다음과 같은 시각화에도 표시됩니다 [!UICONTROL 도넛], [!UICONTROL 흐름],[!UICONTROL 폴아웃],[!UICONTROL 집단]등
+요약 차트는 추세가 없는 자유 형식 테이블 및 요약 번호뿐만 아니라 모서리의 모든 시각화 유형에 표시됩니다. [!UICONTROL 도넛], [!UICONTROL 플로우],[!UICONTROL 폴아웃],[!UICONTROL 집단] 등과 같은 시각화에도 표시됩니다.
 
 ![](assets/ann-summary.png)
