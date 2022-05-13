@@ -59,7 +59,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | --- | --- |
 | [!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까? | <ul><li>라이브 데이터 또는 이벤트: AEP에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 > 5천만 행: 90분 이상.)</li><li>Small backfills - For example, a lookup dataset of 10 million rows: within 7 days<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul> |
 
-##  {#data-retention}
+## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
 >[!IMPORTANT]
 >이 설정을 구현하려면 고객 지원 센터 또는 Adobe 계정 관리자에게 문의하십시오. 아직 CJA UI를 통해서는 사용할 수 없습니다.
