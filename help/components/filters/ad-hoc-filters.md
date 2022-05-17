@@ -1,19 +1,19 @@
 ---
-description: Analysis Workspace에서 임시 필터를 사용합니다.
-title: 임시 프로젝트 필터
+description: Analysis Workspace에서 Ad Hoc 필터를 사용합니다.
+title: 애드혹 프로젝트 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 61%
+source-wordcount: '302'
+ht-degree: 51%
 
 ---
 
-# 임시 프로젝트 필터
+# 애드혹 프로젝트 필터
 
-임시 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 필터를 만들 수 있습니다. 필터가 [프로젝트 수준 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=ko-KR) 로컬에서 현재 프로젝트에 액세스할 수 있습니다.
+Ad Hoc 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 필터를 만들 수 있습니다. 필터가 [프로젝트 수준 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=ko-KR) 로컬에서 현재 프로젝트에 액세스할 수 있습니다.
 
 다음은 임시 프로젝트 필터 만들기에 대한 비디오입니다.
 

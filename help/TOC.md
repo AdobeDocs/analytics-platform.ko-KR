@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 98%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 98%
       + [필터 만들기](components/filters/create-filters.md)
       + [필터 관리](components/filters/manage-filters.md)
       + [빠른 필터](components/filters/quick-filters.md)
-      + [임시 필터](components/filters/ad-hoc-filters.md)
+      + [애드혹 필터](components/filters/ad-hoc-filters.md)
       + [연산자](components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](components/calc-metrics/calc-metr-overview.md)
