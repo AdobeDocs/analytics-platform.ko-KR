@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 72486c527fa48775395bc5a31e6dd98eb30cbdc1
+source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 36%
+source-wordcount: '152'
+ht-degree: 32%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 36%
 | ----------- | ---------- | ----- |
 | 새 연결 편집 및 작성 UI | 이 간소화된 환경을 통해 데이터 세트 수준에서 데이터를 채우거나 롤링 데이터 보존 기간을 활성화하고 연결에 데이터 세트를 추가 및 제거할 수 있습니다. [자세히 알아보기](/help/connections/create-connection.md) | 2022년 5월 18일 |
 | CJA 업데이트 Report Builder | 예약 및 데이터 블록 관리자와 같은 기능이 포함되어 있습니다. [자세히 알아보기] | 2022년 5월 18일 |
-| 고객 AI 통합 | CJA Analysis Workspace에서 추가적인 분석을 위해 CJA에서 고객 AI 모델 점수를 수집할 수 있습니다. [자세히 알아보기] | 2022년 5월 25일 |
-| Attribution AI 통합 | CJA Analysis Workspace에서 추가적인 분석을 위해 CJA에서 Attribution AI 모델 점수를 수집할 수 있습니다. [자세히 알아보기] | 2022년 5월 25일 |
+| 고객 AI 통합 | CJA Analysis Workspace에서 추가적인 분석을 위해 CJA에서 고객 AI 모델 점수를 수집할 수 있습니다. [추가 정보 - 추가 정보] | 2022년 5월 25일 |
+| Attribution AI 통합 | CJA Analysis Workspace에서 추가적인 분석을 위해 CJA에서 Attribution AI 모델 점수를 수집할 수 있습니다. [추가 정보 - 추가 정보] | 2022년 5월 25일 |
 
 {style=&quot;table-layout:auto&quot;}
 
