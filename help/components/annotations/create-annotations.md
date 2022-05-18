@@ -4,29 +4,25 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 15faee32171a2beab7cf42b92b09358b5cb1acc3
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 92%
+source-wordcount: '643'
+ht-degree: 100%
 
 ---
 
 # 주석 생성
 
->[!NOTE]
->
->이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
-
 1. 여러 가지 방법으로 시작하여 주석을 만들 수 있습니다.
 
 | 만들기 방법 | 세부 사항 |
 | --- | --- |
-| **이동 [!UICONTROL 구성 요소] > [!UICONTROL 주석].** | 주석 관리자 페이지가 열립니다. [!UICONTROL 새 주석 만들기]를 클릭하면 [!UICONTROL 주석 빌더]가 열립니다. |
+| **[!UICONTROL 구성 요소] > [!UICONTROL 주석]으로 이동합니다.** | 주석 관리자 페이지가 열립니다. [!UICONTROL 새 주석 만들기]를 클릭하면 [!UICONTROL 주석 빌더]가 열립니다. |
 | **테이블의 한 지점을 마우스 오른쪽 버튼으로 클릭합니다.** | [!UICONTROL 주석 빌더]가 열립니다. 기본적으로 이 방법으로 생성된 주석은 생성된 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜 및 지표 등이 이미 채워져 있습니다.<p>![](assets/annotate-table.png) |
 | **[!UICONTROL 선] 그래프의 한 지점을 마우스 오른쪽 버튼으로 클릭합니다.** | [!UICONTROL 주석 빌더]가 열립니다. 기본적으로 이 방법으로 생성된 주석은 생성된 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜 및 지표 등이 이미 채워져 있습니다.<p>![](assets/annotate-line.png) |
 | **작업 영역에서 [!UICONTROL 구성 요소] > [!UICONTROL 주석 만들기]로 이동합니다.** | [!UICONTROL 주석 빌더]가 열립니다. |
 | **이 핫키를 사용하여** 주석 빌더를 엽니다. (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | 핫키를 사용하여 주석을 만들면 미리 선택된 범위(지표 또는 차원) 없이 현재 날짜에 대한 하루 주석을 만들 수 있습니다. |
-| **를 사용하십시오 [CJA 주석 API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | CJA 주석 API를 사용하면 Adobe Developer을 통해 프로그래밍 방식으로 주석을 생성, 업데이트 또는 검색할 수 있습니다. 이러한 API는 Adobe이 제품 UI 내에서 사용하는 것과 동일한 데이터 및 메서드를 사용합니다. |
+| **[CJA 주석 API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/) 사용** | CJA 주석 API를 사용하면 Adobe Developer를 통해 프로그래밍 방식으로 주석을 생성하고, 업데이트하고, 검색할 수 있습니다. 이러한 API는 Adobe가 제품 UI 내에서 사용하는 것과 동일한 데이터 및 방법을 사용합니다. |
 
 1. [!UICONTROL 주석 빌더] 요소를 입력합니다.
 

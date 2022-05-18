@@ -4,18 +4,14 @@ description: 작업 영역에서 주석을 보는 방법.
 role: User, Admin
 feature: Components
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
 
 # 주석 보기
-
->[!NOTE]
->
->이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
 
 주석은 하루 또는 날짜 범위에 따라 다소 다르게 나타납니다.
 
