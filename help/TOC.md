@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 565a247da0e66953d84b70dfb2fa50555e36b27d
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -200,25 +200,28 @@ ht-degree: 98%
       + [달력 개요](components/date-ranges/calendar.md)
       + [사용자 정의 날짜 범위 만들기](components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](components/date-ranges/time-comparison.md)
-+ 활용 사례 {#cja-usecases}
-   + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
-   + [개체 배열 사용](use-cases/object-arrays.md)
-   + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
-   + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
-   + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)
-   + [AEP 대상을 CJA에 수집](use-cases/ingest-aep-segments.md)
-   + [채널 간 데이터 분석](use-cases/cross-channel.md)
-   + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
-   + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
-   + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
-   + [Google Analytics 데이터를 Adobe Experience Platform으로 수집](use-cases/ga-to-cja.md)
-   + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 작업](mobile-app/curator.md)
    + [스코어카드 만들기](mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
++ 통합 {#integrations}
+   + [CJA와 Attribution AI 통합](integrations/attribution-ai.md)
+   + [CJA와 고객 AI 통합](integrations/customer-ai.md)
++ 활용 사례 {#cja-usecases}
+   + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
+   + [개체 배열 사용](use-cases/object-arrays.md)
+   + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
+   + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
+   + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)
+   + [AEP 대상을 CJA로 수집](use-cases/ingest-aep-segments.md)
+   + [채널 간 데이터 분석](use-cases/cross-channel.md)
+   + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
+   + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
+   + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
+   + [Google Analytics 데이터를 Adobe Experience Platform으로 수집](use-cases/ga-to-cja.md)
+   + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + 문제 해결 {#troubleshooting}
    + [Adobe Analytics 데이터와 CJA 데이터 비교](troubleshooting/compare.md)
 + 개인정보 보호 {#cja-privacy}
