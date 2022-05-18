@@ -6,20 +6,25 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: 8544de42c643c729558f27a7d64b0e4a8af608d0
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 88%
 
 ---
 
 # Report Builder 허브
 
-Report Builder 허브를 사용하여 데이터 블록을 만들거나 업데이트하거나 삭제합니다.
+Report Builder 허브를 사용하여 데이터 블록을 생성, 업데이트, 삭제 및 관리합니다.
 
-Report Builder 허브에는 명령 패널과 빠른 편집 패널이 있습니다.
+Report Builder 허브는 [만들기 및 관리] 단추, [명령] 목록 및 [빠른 편집] 패널을 포함합니다.
 
-![](./assets/image13.png)
+<img src="./assets/hub51.png" width="50%"/>
+
+
+## 만들기 및 관리 단추
+
+만들기 또는 관리 단추를 사용하여 새 데이터 블록을 만들거나 기존 데이터 블록을 관리합니다.
 
 ## 명령 패널
 
