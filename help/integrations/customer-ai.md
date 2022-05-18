@@ -3,9 +3,9 @@ description: AEP Customer AI가 CJA에서 Workspace와 통합되는 방법을 �
 title: CJA와 고객 AI 통합
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
+source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 �
 
 &quot;계정 업그레이드 가능성&quot;과 같은 각 예측은 하나의 데이터 세트와 같습니다.
 
-다음은 CJA가 기존 데이터 세트 또는 새 데이터 세트의 일부로 가져오는 XDM 스키마의 예입니다.
+다음은 CJA가 기존 또는 새 데이터 세트의 일부로 가져오는 XDM 스키마의 예입니다.
 
 ![CAI 스키마](assets/cai-schema.png)
 
@@ -58,4 +58,4 @@ CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 �
 
 ### 5단계: 이러한 연결을 기반으로 데이터 보기 만들기
 
-이제 CJA에서 로 가져온 차원으로 데이터 보기를 만들 수 있습니다
+이제 CJA에서 설정한 연결의 일부로 가져온 차원으로 데이터 보기를 만들 수 있습니다.
