@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 01a9ff4e03e002da723c10500de6dec4444f951e
+exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
-
 
 # Report Builder의 데이터 블록 관리
 
@@ -50,19 +50,17 @@ ht-degree: 2%
 
 예를 들어 기존 필터를 하나 이상의 데이터 블록에서 새 필터로 바꿀 수 있습니다.
 
-1. 업데이트할 데이터 블록을 선택합니다.
+1. 업데이트할 데이터 블록을 선택합니다. 최상위 확인란을 선택하여 모든 데이터 블록을 선택하거나 개별 데이터 블록을 선택할 수 있습니다.
 
-최상위 확인란을 선택하여 모든 데이터 블록을 선택하거나 개별 데이터 블록을 선택할 수 있습니다.
-
-![이미지](./assets/image56.png)
+   ![이미지](./assets/image56.png)
 
 1. 편집 아이콘을 클릭하여 빠른 편집 창을 표시합니다.
 
-![이미지](./assets/image58.png)
+   ![이미지](./assets/image58.png)
 
 1. 필터 링크를 선택하여 데이터 보기, 날짜 범위 또는 필터를 업데이트합니다.
 
-![이미지](./assets/image59.png)
+   ![이미지](./assets/image59.png)
 
 ## 데이터 블록 새로 고침
 
@@ -81,9 +79,9 @@ ht-degree: 2%
 
 ## 그룹 데이터 블록
 
-열 제목을 클릭하여 데이터 블록을 그룹화하거나 **그룹화 기준** *이름* 목록.
+를 사용하여 데이터 블록을 그룹화할 수 있습니다 **그룹화 기준** 드롭다운 메뉴 또는 열 제목을 클릭할 수 있습니다. 데이터 블록을 열별로 정렬하려면 열 제목을 클릭합니다. 데이터 블록을 그룹별로 그룹화하려면 **그룹화 기준** 드롭다운 메뉴 예를 들어 아래 스크린샷은 시트로 그룹화된 데이터 블록을 보여줍니다. Sheet1과 Sheet2로 그룹화된 데이터 블록을 표시합니다.  이 기능은 예를 들어 필터 대체 사용 사례에서 유용합니다. 각 데이터 블록에 여러 개의 필터가 적용된 경우, 바꾸려는 모든 데이터 블록이 들어 있는 그룹을 만드는 것이 도움이 됩니다. 그런 다음 한 번에 쉽게 선택하고 편집할 수 있습니다.
 
-![이미지](./assets/image514.png)
+![이미지](./assets/group-data-blocks.png)
 
 ## 데이터 블록 관리자 보기 수정
 
