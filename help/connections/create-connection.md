@@ -4,16 +4,16 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: beb9e94e0870f8957de59e643957f7422f902182
+source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 69%
+source-wordcount: '2094'
+ht-degree: 70%
 
 ---
 
 # 연결 만들기
 
-새 연결 워크플로우가 2022년 5월에 Customer Journey Analytics(CJA)에서 실행됩니다. 다음은 새로운 기능에 대한 개요입니다.
+새 연결 워크플로우가 최근 Customer Journey Analytics(CJA)에서 시작되었습니다. 다음은 새로운 기능에 대한 개요입니다.
 
 * 연결을 만들 때 롤링 데이터 보존 기간을 활성화할 수 있습니다.
 * 연결에 데이터 세트를 추가 및 제거할 수 있습니다. (데이터 세트를 제거하면 연결에서 데이터 세트가 제거되고 관련 데이터 보기 및 기본 Analysis Workspace 프로젝트에 영향을 줍니다.)
@@ -38,7 +38,7 @@ ht-degree: 69%
    | **[!UICONTROL 롤링 데이터 창 활성화]** | 이 설정을 사용하여 CJA 데이터 보존을 연결 수준에서 월(1개월, 3개월, 6개월 등)로 롤링 창으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없으므로 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 창 설정이 없습니다. 하지만 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외)가 있는 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다. |
    | **[!UICONTROL 데이터 세트 추가]** (아래 참조) | 데이터 세트 목록에 데이터 세트가 표시되지 않으면 데이터 세트를 추가합니다. |
    | **[!UICONTROL 데이터 세트 이름]** | Customer Journey Analytics로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.<p>(선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 데이터 세트 검색 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.) |
-   | **[!UICONTROL 마지막 업데이트 날짜]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. &quot;해당 없음&quot;은 이 데이터 세트에 데이터가 없음을 의미합니다. |
+   | **[!UICONTROL 마지막으로 업데이트됨]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. &quot;해당 없음&quot;은 이 데이터 세트에 데이터가 없음을 의미합니다. |
    | **[!UICONTROL 스키마]** | 이것은 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en) Adobe Experience Platform에서 데이터 세트를 만드는 기준. |
    | **[!UICONTROL 데이터 세트 유형]** | 이 연결에 추가한 각 데이터 세트에 대해 가져오는 데이터를 기반으로 데이터 세트 유형을 Customer Journey Analytics에서 자동으로 설정합니다. 이벤트 데이터, 프로필 데이터 및 조회 데이터의 세 가지 데이터 세트 유형이 있습니다. 데이터 세트 유형에 대한 자세한 내용은 아래 표를 참조하십시오. |
    | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>중요 사항: 선택할 개인 ID가 없는 경우, 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. [이 비디오](https://www.youtube.com/watch?v=G_ttmGl_LRU)를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
