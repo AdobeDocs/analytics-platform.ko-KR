@@ -4,9 +4,9 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '538'
 ht-degree: 3%
 
 ---
@@ -32,30 +32,21 @@ Attribution AI은 Attribution AI이 데이터에 대해 모델을 실행한 다�
 
 일부 단계는 CJA에서 출력을 사용하기 전에 Adobe Experience Platform에서 수행됩니다. 출력은 적용된 Attribution AI 모델이 있는 데이터 세트로 구성됩니다.
 
-### 1단계: Attribution AI 점수 다운로드
-
-설명된 대로 Adobe Experience Platform에서 Attribution AI 점수를 다운로드합니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores).
-
-### 2단계: Attribution AI 인스턴스 만들기
+### 1단계: Attribution AI 인스턴스 만들기
 
 설명된 대로 Experience Platform에서 데이터를 선택 및 매핑하고, 이벤트를 정의하고, 데이터를 교육하여 Attribution AI 인스턴스를 생성합니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
-### 3단계: Attribution AI 데이터 세트에 CJA 연결 설정
+### 2단계: Attribution AI 데이터 세트에 CJA 연결 설정
 
 CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 만들기](/help/connections/create-connection.md) Attribution AI에 대해 계측된 데이터 세트 Experience Platform. 이러한 데이터 세트에는 다음과 같이 &quot;Attribution AI 점수&quot; 접두사가 있습니다.
 
 ![AAI 점수](assets/aai-scores.png)
 
->[!IMPORTANT]
->
->연결에 프로필 및 조회 데이터 세트와 콜 센터 및 CRM 데이터를 추가할 수 있습니다. 그러나 Adobe은 동일한 연결에서 Attribution AI 점수가 있는 데이터 세트에 Adobe Analytics 데이터 세트를 추가하는 것을 권장하지 않습니다.
-
-
-### 4단계: 이러한 연결을 기반으로 데이터 보기 만들기
+### 3단계: 이러한 연결을 기반으로 데이터 보기 만들기
 
 CJA에서, [하나 이상의 데이터 보기 만들기](/help/data-views/create-dataview.md) 에는 Attribution AI XDM 필드가 포함되어 있습니다. 여기에 스크린샷을 찍으면 좋겠습니다.
 
-### 5단계: CJA 작업 공간의 AAI 데이터 보고서
+### 4단계: CJA 작업 공간의 AAI 데이터 보고서
 
 CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quot;AAI 캠페인 이름&quot; 또는 &quot;AAI 마케팅 채널&quot;과 같은 차원을 가져올 수 있습니다.
 
@@ -75,7 +66,7 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 | 기능 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
 | 분수 기여도 분석 | 예 | 아니요 |
-| 사용자가 모델을 조정할 수 있습니다 | 아니요 | 예 |
+| 사용자가 모델을 조정할 수 있습니다 | 예 | 예 |
 | 여러 채널에 기여도 분석이 수행됩니다(참고: AAI는 CJA와 동일한 결합된 데이터를 사용하지 않습니다.) | 예 | 예 |
 | 증분 및 영향을 받는 점수 포함 | 예 | 아니요 |
 | ML 모델링 | 예 | 예 |
