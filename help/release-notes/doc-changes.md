@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ed0a015e7198db8dd77ec73d9c9299d9a872370c
+source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '782'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,10 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 5월 | 에 대한 문서가 크게 업데이트되었습니다. [연결 만들기](/help/connections/create-connection.md) 참조하십시오. |
+| 2022년 5월 | 에 대한 새 문서 [CJA와 Attribution AI 통합](/help/integrations/attribution-ai.md) Adobe Experience Platform. |
+| 2022년 5월 | 에 대한 새 문서 [Adobe Experience Platform에서 CJA와 Customer AI 통합](/help/integrations/customer-ai.md). |
+| 2022년 5월 | 방법에 대한 새로운 문서 [cja Report Builder에서 데이터 블록 관리](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
 | 2022년 5월 | 에 대한 새 문서 [Adobe Experience Platform 대상을 CJA에 수집](/help/use-cases/ingest-aep-segments.md) |
 | 2022년 4월 | 에 대한 설명서 [차원 하위 문자열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
 | 2022년 4월 | 새로 만들기 [Adobe Analytics 사용자를 위한 CJA 사용 안내서](/help/getting-started/aa-to-cja-user.md). |
