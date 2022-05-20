@@ -5,9 +5,9 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## 웹 데이터와 앱 데이터를 통합된 데이터 세트로 시각화
 
-이 Venn 다이어그램은 웹 사이트의 사용자(Google Analytics 데이터 기반), 모바일 앱 사용자(Firebase 데이터 기반), 콜센터의 사용자를 중첩하여 보여 줍니다. 또한 성과가 가장 좋은 제품들을 웹뿐 아니라 모바일 앱에서도 볼 수 있습니다. 심지어 계산된 지표를 사용하여 두 플랫폼 모두로부터 총 매출을 산출할 수 있습니다. 통합된 매출을 살펴보면, 최우수 제품에 대해 미처 파악하지 못했던 정보를 파악할 수 있습니다. 통합된 데이터 세트가 없었다면 &quot;트윌 캡&quot;이 우수한 성과를 보이는 제품이었다는 사실을 절대 몰랐을 것입니다.
+이 Venn 다이어그램은 웹 사이트의 사용자(Google Analytics 데이터 기반), 모바일 앱 사용자(Firebase 데이터 기반), 콜센터의 사용자를 중첩하여 보여 줍니다. 또한 성과가 가장 좋은 제품들을 웹뿐 아니라 모바일 앱에서도 볼 수 있습니다. 심지어 계산된 지표를 사용하여 두 플랫폼 모두로부터 총 매출을 산출할 수 있습니다. 통합된 매출을 살펴보면 최우수 제품에 대해 미처 파악하지 못했던 정보를 파악할 수 있습니다. 통합된 데이터 세트가 없었다면 &quot;트윌 캡&quot;이 우수한 성과를 보이는 제품이었다는 사실을 절대 몰랐을 것입니다.
 
 ![](assets/combined-datasets.png)
 
