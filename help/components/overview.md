@@ -5,9 +5,9 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 source-git-commit: 83a725ac746629874162827d30d5bdf8be0fa6dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 97%
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [**주석**](/help/components/annotations/overview.md): 조직에 컨텍스트 기반의 데이터 뉘앙스와 통찰력을 제공합니다. **[이 기능은 현재 제한적인 테스트가 실시되고 있습니다](/help/release-notes/releases.md).**
+* [**주석**](/help/components/annotations/overview.md): 상황별 데이터 뉘앙스와 통찰력을 조직에 전달합니다. **이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.**
 * [**필터**](filters/filters-overview.md): 데이터의 일부를 제외하여 공통 차원 항목에 주력
 * [**계산된 지표**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
-* [**날짜 범위**](date-ranges/overview.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 지정 및 세분화
+* [**날짜 범위**](date-ranges/overview.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화
 * [**프로젝트**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트 구성 및 유지 관리
 
 ## Analysis Workspace 구성 요소
 
-Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 필터 및 시간 세부기간으로 구성됩니다. 사용자 지정 날짜 범위와 같은 만든 사용자 지정 구성 요소는 이러한 패널에 추가됩니다.
+Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 필터 및 시간 세부기간으로 구성됩니다. 사용자 정의 날짜 범위와 같은 만든 사용자 정의 구성 요소는 이러한 패널에 추가됩니다.
 
-구성 요소 패널에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. 왼쪽 레일 아이콘이나 [핫키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널(빈 패널, [자유 형식 패널](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md) 또는 [기여도 IQ](/help/analysis-workspace/c-panels/attribution.md) 패널), [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 구성 요소 간을 전환할 수 있습니다.
+구성 요소 패널에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. 왼쪽 레일 아이콘이나 [핫키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널(빈 패널, [자유 형식 패널](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md) 또는 [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) 패널), [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 구성 요소 간을 전환할 수 있습니다.
 
 ![](assets/components.png)
 
