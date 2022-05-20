@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 76%
 
 프로젝트에서 빠른 필터를 만들어 복잡한 전체 [필터 빌더](/help/components/filters/create-filters.md)를 우회할 수 있습니다. 빠른 필터
 
-* 적용 대상 [프로젝트 전용 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only).
+* [프로젝트 전용 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only)로 적용합니다.
 * 최대 3개의 규칙 허용
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
 빠른 필터로 수행할 수 있는 작업과 완전한 구성 요소 목록의 필터로 수행할 수 있는 작업을 비교하려면 [여기](/help/components/filters/filters-overview.md)를 참조하십시오.
 
-다음은 빠른 필터에 대한 비디오입니다(대신 &quot;빠른 세그먼트&quot;라는 용어를 사용함). 그러나 기능은 동일합니다.
+다음은 빠른 필터(대신 “빠른 세그먼트”라는 용어를 사용함)에 대한 비디오입니다. 그러나 기능은 동일합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 사전 요구 사항 {#prereqs}
 
-누구나 빠른 필터를 만들 수 있습니다. 그러나 에서는 필터 만들기 권한이 필요합니다 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 빠른 필터를 저장하거나 필터 빌더에서 열 수 있습니다.
+누구나 빠른 필터를 만들 수 있습니다. 그러나 빠른 필터를 저장하거나 필터 빌더에서 열려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools)에서의 필터 생성 권한이 필요합니다.
 
 ## 빠른 필터 만들기 {#create}
 
@@ -39,8 +39,8 @@ ht-degree: 76%
 | --- | --- |
 | [!UICONTROL 이름] | 필터의 기본 이름은 필터에 있는 규칙 이름의 조합입니다. 필터 이름을 보다 친숙한 이름으로 바꿀 수 있습니다. |
 | [!UICONTROL 포함/제외] | 필터 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
-| [!UICONTROL 히트/방문/방문자 컨테이너] | 빠른 필터에는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)만이 포함되어 필터에 차원/지표/날짜 범위를 포함하거나 필터에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
-| [!UICONTROL 구성 요소] (Dimension/지표/날짜 범위) | 구성 요소(차원, 지표, 날짜 범위 또는 차원 값)를 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
+| [!UICONTROL 히트/방문/방문자] 컨테이너 | 빠른 필터에는 하나의 [필터 컨테이너](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)만이 포함되어 필터에 차원/지표/날짜 범위를 포함하거나 필터에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
+| [!UICONTROL 구성 요소] (차원/지표/날짜 범위) | 구성 요소(차원, 지표, 날짜 범위 또는 차원 값)를 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 필터] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
 | [!UICONTROL 연산자] | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [필터 연산자](operators.md)를 참조하십시오. |
 | 더하기(+) 기호 | 다른 규칙 추가 |
 | AND/OR 한정자 | 규칙에 “AND” 또는 “OR” 한정자를 추가할 수 있지만 단일 필터 정의에서는 “AND”와 “OR”를 혼합할 수 없습니다. |
@@ -105,17 +105,17 @@ ht-degree: 76%
 
 ## 프로젝트 전용 필터는 무엇입니까? {#project-only}
 
-프로젝트 전용 필터는 에서 만든 현재 프로젝트에만 적용되는 필터입니다. 다른 프로젝트에서 사용할 수 없으며 다른 사용자에게 공유할 수 없습니다. 왼쪽 레일에서 필터를 만들고 저장하지 않고 데이터를 빠르게 탐색하기 위한 것입니다. 프로젝트 전용 필터는 빠른 필터 또는 [애드혹 필터](/help/components/filters/ad-hoc-filters.md).
+프로젝트 전용 필터는 해당 필터가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 필터는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. 프로젝트 전용 필터는 빠른 필터 또는 [애드혹 필터](/help/components/filters/ad-hoc-filters.md).
 
-에서 프로젝트 전용 필터를 여는 경우 [!UICONTROL 필터 빌더]에 프로젝트 전용 알림이 표시됩니다. &quot;이 필터를 사용할 수 있도록 설정..&quot;을 선택하지 않으면 을(를) 클릭합니다. **[!UICONTROL 적용]**&#x200B;로 지정하는 경우 세그먼트는 프로젝트 전용 필터로 유지됩니다.
+프로젝트 전용 필터가 [!UICONTROL 필터 빌더]에서 열려 있는 경우 프로젝트 전용 알림이 표시됩니다. “이 필터의 사용 허용..”을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 클릭하면 세그먼트는 프로젝트 전용 필터로 유지됩니다.
 
 >[!NOTE]
 >
->필터 빌더에서 빠른 필터를 적용하는 경우에는 더 이상 [!UICONTROL 빠른 필터 빌더].
+>필터 빌더에서 [빠른 필터]를 적용하면 [!UICONTROL 빠른 필터 빌더]에서 더 이상 열 수 없습니다.
 
 ![프로젝트 전용이 선택되지 않음](assets/project-only-unchecked.png)
 
-&quot;이 필터를 사용할 수 있도록 설정..&quot;을 선택하는 경우 을(를) 클릭합니다. **[!UICONTROL 저장]**&#x200B;를 입력하면 왼쪽 레일 구성 요소 목록에서 필터를 사용하여 다른 프로젝트에서 사용할 수 있습니다. 필터 관리자의 다른 사용자와 공유할 수도 있습니다.
+“이 필터의 사용 허용..”을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭하면 왼쪽 레일 구성 요소 목록에서 필터를 다른 프로젝트에 사용할 수 있게 됩니다. 필터 관리자의 다른 사용자와 공유할 수도 있습니다.
 
 ![프로젝트 전용이 선택됨](assets/project-only-checked.png)
 

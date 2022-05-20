@@ -11,8 +11,8 @@ user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으�
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 1ee57650c089fb6f30b78f2848e47314abc08956
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 97%
    + [CJA와 고객 AI 통합](integrations/customer-ai.md)
 + 활용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
-   + [개체 배열 사용](use-cases/object-arrays.md)
+   + [오브젝트 배열 사용](use-cases/object-arrays.md)
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)

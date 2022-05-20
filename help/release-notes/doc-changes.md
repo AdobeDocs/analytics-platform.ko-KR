@@ -6,8 +6,8 @@ solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: ed0a015e7198db8dd77ec73d9c9299d9a872370c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2020년 9월 2일 | [사용자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 섹션이 업데이트되었습니다. |
 | 2020년 8월 7일 | [B2B 사용 사례 - 조회 데이터 세트](/help/use-cases/b2b.md)에 대한 새 주제가 추가되었습니다. |
 | 7월 2020일 | [개인 ID를 위한 ID 맵 옵션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)에 대한 정보가 추가되었습니다. |
-| 7월 2020일 | [개체 배열](/help/use-cases/object-arrays.md) 또는 “데이터 계층”에 대한 새로운 주제가 추가되었습니다. |
+| 7월 2020일 | [오브젝트 배열](/help/use-cases/object-arrays.md) 또는 “데이터 계층”에 대한 새로운 주제가 추가되었습니다. |
 | 2020년 4월 14일 | [연결 만들기](/help/connections/create-connection.md) 주제의 최신 UI 업데이트. |
 | 2020년 2월 27일 | [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md) 페이지 업데이트. |
 | 2019년 12월 | CJA 설명서의 첫 번째 초안 |
