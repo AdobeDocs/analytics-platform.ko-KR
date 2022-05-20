@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1808'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 * 이를 통해 구성 오류로 인해 발생하는 **모든 데이터 불일치를 식별**&#x200B;할 수 있습니다. 혹시 누락된 행이 있습니까? 그렇다면 어떤 행이 누락되었고 이유는 무엇입니까? 연결을 잘못 구성하여 CJA에서 데이터 누락이 발생했습니까?
 
-다음은 새 연결 관리자에 대한 비디오입니다.
+다음은 새로운 Connections Manager에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 | 연결 삭제 | 연결 이름 옆의 생략 부호(...)를 클릭한 뒤 [!UICONTROL 삭제]를 클릭합니다. 자세한 정보는 아래의 &quot;연결 삭제&quot;를 참조하십시오. |
 | 데이터 보기 만들기 | 연결 이름 옆의 생략 부호(...)를 클릭한 뒤 [!UICONTROL 데이터 보기 만들기]를 클릭합니다. 이 작업을 수행하면 이 연결에 기반하여 새로운 데이터 보기가 만들어집니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | [!UICONTROL 데이터 세트] | 연결에 포함된 데이터 세트입니다. 하이퍼링크를 클릭하면 이 연결의 모든 데이터 세트를 볼 수 있습니다. 데이터 세트를 클릭하면 Adobe Experience Platform에서 새 탭으로 데이터 세트가 열립니다. |
-| [!UICONTROL 샌드박스] | 이 연결이 데이터 세트를 가져오는 출처가 되는 [Adobe Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 샌드박스는 처음에 이 연결을 만들었을 때 선택된 것이며 이는 변경할 수 없습니다. |
+| [!UICONTROL 샌드박스] | 이 연결이 데이터 세트를 가져오는 출처가 되는 [Adobe Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)입니다. 이 샌드박스는 처음에 이 연결을 만들었을 때 선택된 것이며 이는 변경할 수 없습니다. |
 | [!UICONTROL 소유자] | 연결을 만든 사람입니다. |
 | [!UICONTROL 데이터 세트 가져오기] | &quot;데이터 스트리밍&quot;으로 불렸던 기능을 활성화 또는 비활성화할 수 있습니다. |
 | [!UICONTROL 만든 날짜] | 연결을 처음 만든 날짜입니다. |
@@ -97,7 +97,7 @@ ht-degree: 98%
 | 위젯/설정 | 설명 |
 | --- | --- |
 | 데이터 세트 선택기 | 연결 안에 있는 한 개의 데이터 세트 또는 모든 데이터 세트를 선택할 수 있습니다. 다수의 데이터 세트를 선택할 수는 없습니다. 기본값은 [!UICONTROL 모든 데이터 세트]로 설정되어 있습니다. |
-| 달력/날짜 범위 | 데이터 범위는 연결에 데이터를 추가하는 시기를 나타냅니다. 모든 표준 달력 사전 설정이 포함됩니다. 데이터 범위는 사용자 지정할 수 있지만 사용자 지정 데이터 범위는 드롭다운에 표시되지 않습니다. |
+| 달력/날짜 범위 | 데이터 범위는 연결에 데이터를 추가하는 시기를 나타냅니다. 모든 표준 달력 사전 설정이 포함됩니다. 데이터 범위는 사용자 정의할 수 있지만 사용자 정의 데이터 범위는 드롭다운에 표시되지 않습니다. |
 | [!UICONTROL 사용 가능한 이벤트 데이터 기록] 위젯 | 전체 연결&#x200B;**에 대해 보고 가능한 총 이벤트 데이터 세트 행 수**&#x200B;를 나타냅니다. 이 수는 어떠한 달력 설정과도 관련이 없습니다. 이 수는 데이터 세트 선택기에서 또는 표에서 데이터 세트를 선택하면 변경됩니다. (참고로 데이터가 새로 추가되고 나면 보고에 표시되기까지 1~2시간의 지연 시간이 있습니다.) |
 | [!UICONTROL 지표] 위젯 | **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대한 추가/생략/삭제된 이벤트 기록 및 추가된 배치 수를 요약합니다. |
 | [!UICONTROL 추가된 기록] 위젯 | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 추가되었는지 나타냅니다. 10분마다 업데이트됩니다. **참고**: **[!UICONTROL 추가된 레코드]**&#x200B;에 대한 데이터에는 현재 프로필이나 조회 데이터가 아닌 이벤트 데이터만 포함됩니다. |
