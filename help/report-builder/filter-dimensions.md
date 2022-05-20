@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics에서 Dimension 필터링
-description: CJA용 Report Builder에서 필터 차원을 사용하는 방법을 설명합니다.
+title: Customer Journey Analytics의 차원 필터링
+description: CJA용 Report Builder에서 차원 필터링을 사용하는 방법을 설명합니다.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
 source-git-commit: 39a399f5267b37548d4e757140268d6f104370b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 98%
 | 1 | 10 | 상위 10개 항목 |
 | 2 | 10 | 11~20번 항목 |
 | 1 | 100 | 상위 100개 항목 |
-| 2개 | 100년 | 101~200번 항목 |
-| 2개 | 50,000 | 50,001~100,000번 항목 |
+| 2 | 100 | 101~200번 항목 |
+| 2 | 50,000 | 50,001~100,000번 항목 |
 
 #### 최소값 및 최대값
 
