@@ -5,9 +5,9 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1170'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Platform의 데이터 세트는 두 가지 요소인 스키마 그리
 
 Adobe의 데이터 모델이 갖는 가장 강력한 측면 중 하나는 모든 고객 상호 작용 데이터를 하나의 공통 스키마로 표준화할 수 있다는 것입니다. 이를 통해 데이터를 CJA에 결합하는 일은 훨씬 더 쉬워집니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 이러한 작업을 달성하려면 다음의 액세스 및 권한이 필요합니다.
 
@@ -139,7 +139,7 @@ Google Tag Manager 계정에 로그인한 후에 Adobe와 관련된 일부 사�
 
 ### 2. Google Tag Manager에서 트리거 설정
 
-이 예에서는 &quot;계정 만들기&quot; 트리거(`pageUrl equals account-creation`)가 정의되었습니다. 이 트리거에 몇 가지 정보를 추가하면, 사용자의 인증이 성공적으로 이루어지고 및 계정 만들기 페이지가 로드될 때 Google Analytics 및 AEP 모두에 데이터가 전달되게 할 수 있습니다.
+이 예에서는 &quot;계정 만들기&quot; 트리거(`pageUrl equals account-creation`)가 정의되었습니다. 이 트리거에 몇 가지 정보를 추가하면 사용자의 인증이 성공적으로 이루어지고 및 계정 만들기 페이지가 로드될 때 Google Analytics 및 AEP 모두에 데이터가 전달되게 할 수 있습니다.
 
 [데이터 수집 및 Google Tag Manager](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html#module9)의 내용도 참조하십시오.
 
