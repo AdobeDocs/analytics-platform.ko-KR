@@ -4,10 +4,10 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
+source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2094'
+ht-degree: 70%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 * 데이터 세트당 데이터 채우기 기능을 활성화하고 요청할 수 있습니다.
 * 예를 들어 다른 채우기 요청을 위해 데이터 세트를 편집할 수 있습니다.
 * 데이터 세트별로 기존 데이터를 가져올 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
 ## 연결 만들기 및 구성 {#create-connection}
 
