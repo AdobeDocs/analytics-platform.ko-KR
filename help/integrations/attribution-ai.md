@@ -4,10 +4,10 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
+source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 3%
 
 ---
 
@@ -52,19 +52,27 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 
 ![AAI 차원](assets/aai-dims.png)
 
+**영향을 받는 주문 및 증분 점수**
+
 영향을 받는 점수와 증분 점수가 포함된 주문을 표시하는 AAI 데이터가 포함된 작업 공간 프로젝트를 확인할 수 있습니다. 임의의 차원으로 드릴다운하여 다음 방법으로 속성을 이해합니다. 캠페인, 제품 그룹, 사용자 세그먼트, 지역 등.
 
 ![AAI 프로젝트](assets/aai-project.png)
 
 ![AAI 프로젝트](assets/aai-project2.png)
 
+**채널 상호 작용**
+
 채널 상호 작용을 이해하여 다른 채널과 가장 효과적으로 사용할 수 있는 채널을 확인합니다.
 
 ![마케팅 채널 겹치기](assets/mc-overlap.png)
 
+**전환으로 연결되는 상위 경로**
+
 이 표에서는 터치포인트를 디자인하고 최적화하는 데 도움이 되는 전환(중복 제거됨)에 대한 상위 경로를 보여줍니다.
 
 ![상위 채널](assets/top-channels.png)
+
+**리드 타임 전환**
 
 여기서는 터치 포인트가 혼합되어 있을 때 전환으로 가는 리드 타임이 표시됩니다. 리드 타임 최적화에 도움이 됩니다.
 
@@ -80,6 +88,8 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 | [!UICONTROL AAI 평균 주문까지의 일수] | 각 채널에 대해 주문 이후 평균 일 수입니다. |
 | [!UICONTROL 판매 프로세스의 AAI 평균 총 일수] | 각 채널에 대해 터치한 전환 경로의 평균 총 일 수입니다. |
 | [!UICONTROL 평균 주문에서 벗어난 터치] | 각 채널에 대해 평균은 순서에서 떨어져 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Attribution AI과 Attribution IQ 간의 차이점
 
