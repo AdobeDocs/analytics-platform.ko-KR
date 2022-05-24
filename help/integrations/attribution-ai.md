@@ -4,9 +4,9 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
+source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '875'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)Adobe Experience Platform Intelligent Services의 일부로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산하는 다중 채널 알고리즘 속성 서비스입니다. 마케터는 Attribution AI을 통해 고객 여정의 각 단계에서 개별 고객과의 상호 작용이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다.
 
-Attribution AI은 Attribution AI이 데이터에 대해 모델을 실행한 다음 CJA가 이러한 모델의 출력을 데이터 세트로 가져온 다음 나머지 CJA 데이터 세트와 통합할 수 있는 정도로 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 Attribution AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
+Attribution AI은 Attribution AI이 고객의 마케팅 터치포인트 및 전환 데이터 소스에 대해 모델을 실행할 정도로 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 CJA에서 이러한 모델의 출력을 데이터 세트로 가져오거나 나머지 CJA 데이터 세트와 통합할 수 있습니다. 그런 다음 Attribution AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
 
 Attribution AI은 3개의 Experience Platform 스키마를 지원합니다. 경험 이벤트, Adobe Analytics 및 소비자 경험 이벤트입니다.
 
@@ -52,7 +52,7 @@ Attribution AI은 두 가지 점수 카테고리를 지원합니다. 알고리�
 
 ### 2단계: Attribution AI 데이터 세트에 CJA 연결 설정
 
-CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 만들기](/help/connections/create-connection.md) Attribution AI에 대해 계측된 데이터 세트 Experience Platform. 이러한 데이터 세트에는 다음과 같이 &quot;Attribution AI 점수&quot; 접두사가 있습니다.
+CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 만들기](/help/connections/create-connection.md) Attribution AI에 대해 계측된 데이터 세트 Experience Platform. 이러한 데이터 세트는 다음과 같이 &quot;Attribution AI 점수&quot; 접두사와 함께 표시됩니다.
 
 ![AAI 점수](assets/aai-scores.png)
 
@@ -65,6 +65,11 @@ CJA에서, [하나 이상의 데이터 보기 만들기](/help/data-views/create
 CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quot;AAI 캠페인 이름&quot; 또는 &quot;AAI 마케팅 채널&quot;과 같은 차원을 가져올 수 있습니다.
 
 ![AAI 차원](assets/aai-dims.png)
+
+>[!IMPORTANT]
+>
+>이러한 차원 및 지표는 기본적으로 이러한 방식으로 이름이 지정되지 않습니다. &quot;친숙한 이름&quot;입니다. 다음 [Attribution AI 이름 지정 규칙](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 는 스키마 경로를 따릅니다. AAI에서 긴 스키마 경로 이름을 CJA에서 보다 짧고 사용자에게 친숙한 이름(차원/지표)으로 바꾸는 것이 좋습니다. 에서 그렇게 할 수 있습니다 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 스키마 필드]** -> 스키마 필드 클릭 -> **[!UICONTROL 구성 요소 이름]**.
+
 
 **영향을 받는 주문 및 증분 점수**
 
@@ -98,30 +103,18 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 
 ![리드 타임](assets/lead-time.png)
 
-## 새 CJA 지표
-
-| 지표 | 설명 |
-| --- | --- |
-| [!UICONTROL 획득 비율] | 각 채널에 대해 터치한 전환 경로 중 시작 채널의 백분율입니다. |
-| [!UICONTROL 플레이어 속도] | 각 채널에 대해 터치한 전환 경로 중 플레이어가 되는 채널의 백분율입니다. |
-| [!UICONTROL 가까운 비율] | 각 채널에 대해 터치한 전환 경로 중 클로저가 되는 채널의 백분율입니다. |
-| [!UICONTROL AAI 평균 주문까지의 일수] | 각 채널에 대해 주문 이후 평균 일 수입니다. |
-| [!UICONTROL 판매 프로세스의 AAI 평균 총 일수] | 각 채널에 대해 터치한 전환 경로의 평균 총 일 수입니다. |
-| [!UICONTROL 평균 주문에서 벗어난 터치] | 각 채널에 대해 평균은 순서에서 떨어져 있습니다. |
-
-{style=&quot;table-layout:auto&quot;}
-
 ## Attribution AI과 Attribution IQ 간의 차이점
 
 따라서 언제 Attribution AI 데이터와 [Attribution IQ](/help/analysis-workspace/attribution/overview.md): 기본 CJA 기능 이 표에서는 기능의 몇 가지 차이점을 보여 줍니다.
 
 | 기능 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| 분수 기여도 분석 | 예 | 아니요 |
+| 증분 기여도 분석 | 예 | 아니요 |
 | 사용자가 모델을 조정할 수 있습니다 | 예 | 예 |
 | 여러 채널에 기여도 분석이 수행됩니다(참고: AAI는 CJA와 동일한 결합된 데이터를 사용하지 않습니다.) | 예 | 예 |
-| 증분 및 영향을 받는 점수 포함 | 예 | 아니요 |
+| 영향을 받는 점수 포함 | 예 | 예 |
 | ML 모델링 | 예 | 예 |
-| 예측을 사용하여 ML 모델링 | 예 | 아니요 |
+| 지역 기반 속성 모델 | 예 | 예 |
+| 모델에 마케팅 터치포인트를 포함할 수 있습니다 | 예 | 아니요 |
 
 {style=&quot;table-layout:auto&quot;}
