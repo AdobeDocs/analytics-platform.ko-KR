@@ -4,18 +4,14 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # CJA와 Attribution AI 통합
-
->[!NOTE]
->
->이 기능은 2022년 5월 25일에 릴리스됩니다.
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)Adobe Experience Platform Intelligent Services의 일부로, 지정된 결과에 대한 고객 상호 작용의 영향과 점진적 효과를 계산하는 다중 채널 알고리즘 속성 서비스입니다. 마케터는 Attribution AI을 통해 고객 여정의 각 단계에서 개별 고객과의 상호 작용이 미치는 영향을 파악하여 마케팅 및 광고 비용을 측정하고 최적화할 수 있습니다.
 
@@ -115,6 +111,6 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 | 영향을 받는 점수 포함 | 예 | 예 |
 | ML 모델링 | 예 | 예 |
 | 지역 기반 속성 모델 | 예 | 예 |
-| 모델에 마케팅 터치포인트를 포함할 수 있습니다 | 예 | 아니요 |
+| 모델에서 마케팅 터치포인트를 구성할 수 있음 | 예 | 아니요 |
 
 {style=&quot;table-layout:auto&quot;}
