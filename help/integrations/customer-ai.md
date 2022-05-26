@@ -4,9 +4,9 @@ title: CJA와 고객 AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,31 @@ CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 �
 
 이제 CJA Workspace에서 새 프로젝트를 만들고 시각화를 가져올 수 있습니다.
 
+**트렌드 성향 점수**
+
 다음은 누적 막대 차트에서 시간에 따른 사용자 세그먼트에 대한 성향 점수를 트렌드화하는 CAI 데이터가 있는 작업 공간 프로젝트&#x200B;의 예입니다.
 
 ![점수 버킷](assets/workspace-scores.png)
+
+**이유 코드가 있는 테이블**
 
 다음은 세그먼트에 높은 성향 또는 낮은 성향 코드가 있는 이유 코드를 보여주는 &#x200B; 표입니다.
 
 ![이유 코드](assets/reason-codes.png)
 
+**고객 성향에 대한 시작 흐름**
+
 이 흐름 다이어그램은 다양한 점수 실행에서 고객 성향&#x200B;에 대한 입력 흐름을 보여줍니다.
 
 ![시작 흐름](assets/flow.png)
 
+**성향 점수의 분포**
+
 이 막대 차트는 성향 점수의 분포를 보여줍니다&#x200B;.
 
 ![배포](assets/distribution.png)
+
+**성향 겹침**
 
 이 벤 다이어그램은 다른 점수 실행에서 겹치는 성향을 보여줍니다.
 

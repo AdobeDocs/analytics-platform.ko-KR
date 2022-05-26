@@ -4,10 +4,10 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 10%
 
 ---
 
@@ -54,7 +54,7 @@ CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 �
 
 ### 3단계: 이러한 연결을 기반으로 데이터 보기 만들기
 
-CJA에서, [하나 이상의 데이터 보기 만들기](/help/data-views/create-dataview.md) 에는 Attribution AI XDM 필드가 포함되어 있습니다. 여기에 스크린샷을 찍으면 좋겠습니다.
+CJA에서, [하나 이상의 데이터 보기 만들기](/help/data-views/create-dataview.md) 에는 Attribution AI XDM 필드가 포함되어 있습니다.
 
 ### 4단계: CJA 작업 공간의 AAI 데이터 보고서
 
@@ -64,7 +64,7 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 
 >[!IMPORTANT]
 >
->이러한 차원 및 지표는 기본적으로 이러한 방식으로 이름이 지정되지 않습니다. &quot;친숙한 이름&quot;입니다. 다음 [Attribution AI 이름 지정 규칙](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 는 스키마 경로를 따릅니다. AAI에서 긴 스키마 경로 이름을 CJA에서 보다 짧고 사용자에게 친숙한 이름(차원/지표)으로 바꾸는 것이 좋습니다. 에서 그렇게 할 수 있습니다 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 스키마 필드]** -> 스키마 필드 클릭 -> **[!UICONTROL 구성 요소 이름]**.
+>이러한 차원 및 지표는 기본적으로 이러한 방식으로 이름이 지정되지 않습니다. &quot;친숙한 이름&quot;입니다. 다음 [Attribution AI 이름 지정 규칙](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 는 스키마 경로를 따릅니다. 긴 AAI 스키마 경로 이름을 CJA에서 보다 짧고 사용자에게 친숙한 이름(차원/지표)으로 바꾸는 것이 좋습니다. 에서 그렇게 할 수 있습니다 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 스키마 필드]** -> 스키마 필드 클릭 -> **[!UICONTROL 구성 요소 이름]**.
 
 
 **영향을 받는 주문 및 증분 점수**
