@@ -4,9 +4,9 @@ title: CJA와 Attribution AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
+source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 10%
 
 ---
@@ -46,15 +46,27 @@ Attribution AI은 두 가지 점수 카테고리를 지원합니다. 알고리�
 
 설명된 대로 Experience Platform에서 데이터를 선택 및 매핑하고, 이벤트를 정의하고, 데이터를 교육하여 Attribution AI 인스턴스를 생성합니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html).
 
+![AAI 인스턴스](assets/aai-instance.png)
+
 ### 2단계: Attribution AI 데이터 세트에 CJA 연결 설정
 
 CJA에서 이제 다음을 수행할 수 있습니다 [하나 이상의 연결 만들기](/help/connections/create-connection.md) Attribution AI에 대해 계측된 데이터 세트 Experience Platform. 이러한 데이터 세트는 다음과 같이 &quot;Attribution AI 점수&quot; 접두사와 함께 표시됩니다.
 
 ![AAI 점수](assets/aai-scores.png)
 
+![연결 생성](assets/aai-create-connection.png)
+
 ### 3단계: 이러한 연결을 기반으로 데이터 보기 만들기
 
 CJA에서, [하나 이상의 데이터 보기 만들기](/help/data-views/create-dataview.md) 에는 Attribution AI XDM 필드가 포함되어 있습니다.
+
+터치포인트에 대한 XDM 스키마 필드는 다음과 같습니다.
+
+![터치 포인트 XDM 필드](assets/touchpoint-fields.png)
+
+전환을 위한 XDM 스키마 필드는 다음과 같습니다.
+
+![변환 XDM 필드](assets/conversion-fields.png)
 
 ### 4단계: CJA 작업 공간의 AAI 데이터 보고서
 
@@ -66,6 +78,7 @@ CJA Workspace 프로젝트에서 &quot;AAI 주문&quot;과 같은 지표와 &quo
 >
 >이러한 차원 및 지표는 기본적으로 이러한 방식으로 이름이 지정되지 않습니다. &quot;친숙한 이름&quot;입니다. 다음 [Attribution AI 이름 지정 규칙](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 는 스키마 경로를 따릅니다. 긴 AAI 스키마 경로 이름을 CJA에서 보다 짧고 사용자에게 친숙한 이름(차원/지표)으로 바꾸는 것이 좋습니다. 에서 그렇게 할 수 있습니다 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 스키마 필드]** -> 스키마 필드 클릭 -> **[!UICONTROL 구성 요소 이름]**.
 
+![차원 이름 변경](assets/change-name.png)
 
 **영향을 받는 주문 및 증분 점수**
 
