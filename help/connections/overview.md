@@ -1,15 +1,15 @@
 ---
 title: CJA 연결 개요
-description: Customer Journey Analytics의 연결에 대해 알아봅니다.
+description: Customer Journey Analytics에서 연결에 대해 알아보십시오.
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
-workflow-type: tm+mt
+exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
+source-git-commit: d437e846e1242f2941b59fcdb712a8a31bedcbcd
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # 연결 개요
 
@@ -34,4 +34,3 @@ Customer Journey Analytics
 >[!IMPORTANT]
 >
 >여러 [!DNL Experience Platform] 데이터 세트를 하나의 연결로 결합할 수 있습니다.
-
