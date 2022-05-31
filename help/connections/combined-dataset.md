@@ -5,16 +5,16 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '337'
+ht-degree: 100%
 
 ---
 
 
 # 결합된 이벤트 데이터 세트
 
-연결을 만들면 Customer Journey Analytics(CJA)는 모든 스키마와 데이터 세트를 단일 데이터 세트에 결합합니다. 이 &#39;결합된 이벤트 데이터 세트&#39;는 CJA가 보고에 사용하는 것입니다. 연결에 여러 개의 스키마나 데이터 세트를 포함하는 경우:
+연결을 만들면 CJA(Customer Journey Analytics)는 모든 스키마와 데이터 세트를 단일 데이터 세트에 결합합니다. 이 &#39;결합된 이벤트 데이터 세트&#39;는 CJA가 보고에 사용하는 것입니다. 연결에 여러 개의 스키마나 데이터 세트를 포함하는 경우:
 
 * 스키마가 결합됩니다. 중복된 스키마 필드가 병합됩니다.
 * 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 CJA에서 고유한 방문자를 식별하는 기반입니다.
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 예
 
-다음 예를 생각해 보십시오. 각각 다른 필드에 다른 데이터가 들어 있는 이벤트 데이터 세트가 두 개 있습니다.
+다음과 같은 예를 살펴보십시오. 각각 다른 필드에 다른 데이터가 들어 있는 이벤트 데이터 세트가 두 개 있습니다.
 
 >[!NOTE]
 >
@@ -76,4 +76,4 @@ ht-degree: 0%
 | --- | --- |
 | 노란색 | 6 |
 | 파란색 | 3 |
-| 빨간색 | 2개 |
+| 빨간색 | 2 |
