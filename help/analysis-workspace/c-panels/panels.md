@@ -4,9 +4,9 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 93%
 
 ![](assets/segment-filter.png)
 
-### 애드혹 필터
+### 임시 필터
 
-필터가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 필터를 생성할 수도 있습니다. 이렇게 하면 필터 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 히트 수준 필터로 정의됩니다. 이 정의는 필터 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 수정할 수 있습니다.
+필터가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 필터를 만들 수도 있으므로 필터 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 히트 수준 필터로 정의됩니다. 이 정의는 필터 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 수정할 수 있습니다.
 
-애드혹 필터는 프로젝트의 로컬이며, 공개하지 않으면 왼쪽 레일에 표시되지 않습니다.
+임시 필터는 프로젝트의 로컬이며 공개로 설정하지 않는 한 왼쪽 레일에 표시되지 않습니다.
 
 ![](assets/adhoc-segment-filter.png)
 
@@ -67,7 +67,7 @@ ht-degree: 93%
 
 ![](assets/dropdown-filter-intro.png)
 
-드롭다운 필터를 만들려면 다음을 수행하십시오.
+드롭다운 필터를 만들려면 다음 작업을 수행하십시오.
 
 1. [!UICONTROL 마케팅 채널] 차원 내의 값과 같은 [!UICONTROL 차원 항목]을 사용하여 드롭다운 필터를 생성하려면 왼쪽 레일에서 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 그러면 사용 가능한 모든 항목이 표시됩니다. 왼쪽 레일에서 하나 이상의 구성 요소 항목을 선택하고 **Shift 키를 누른 상태에서** 패널 드롭 영역에 드롭합니다. 이렇게 하면 구성 요소가 단일 필터가 아닌 드롭다운 필터로 전환됩니다.
 1. 지표, 필터 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일에서 하나의 구성 요소 유형을 선택하고 **Shift 키를 누른 상태에서** 패널 드롭 영역에 드롭합니다.
@@ -75,7 +75,7 @@ ht-degree: 93%
 
 ![](assets/create-dropdown.png)
 
-프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko-KR).
+프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko).
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
