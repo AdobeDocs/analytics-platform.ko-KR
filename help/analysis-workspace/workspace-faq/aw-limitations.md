@@ -4,9 +4,9 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 ## 구성 요소 > 필터
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 필터링할 수 없습니다.
-* 에서 만든 애드혹 필터 [패널 드롭존](/help/analysis-workspace/c-panels/panels.md) 공개하지 않으면 작업 공간 또는 필터 구성 요소 관리자의 왼쪽 레일에 표시되지 않습니다. 해당 필터를 공개하려면 필터를 편집하고 **[!UICONTROL 이 필터 공개하기]**&#x200B;를 선택하면 됩니다.
+* [패널 드롭존](/help/analysis-workspace/c-panels/panels.md)에 만든 임시 필터는 공개하지 않으면 작업 영역 또는 필터 구성 요소 관리자의 왼쪽 레일에 표시되지 않습니다. 해당 필터를 공개하려면 필터를 편집하고 **[!UICONTROL 이 필터 공개하기]**&#x200B;를 선택하면 됩니다.
 
 ## 구성 요소 > 계산된 지표
 
