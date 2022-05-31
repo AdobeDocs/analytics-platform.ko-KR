@@ -1,19 +1,19 @@
 ---
-description: Analysis Workspace에서 Ad Hoc 필터를 사용합니다.
-title: 애드혹 프로젝트 필터
+description: Analysis Workspace에서 임시 필터를 사용합니다.
+title: 임시 프로젝트 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
 
-# 애드혹 프로젝트 필터
+# 임시 프로젝트 필터
 
-Ad Hoc 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 필터를 만들 수 있습니다. 작성된 필터는 현재 프로젝트에만 적용되는 [프로젝트 수준의 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html)가 됩니다.
+임시 프로젝트 필터를 사용하면 구성 요소를 드래그하여 패널 드롭 영역에 바로 놓아 필터를 작성할 수 있습니다. 작성된 필터는 현재 프로젝트에만 적용되는 [프로젝트 수준의 필터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html)가 됩니다.
 
 다음은 임시 프로젝트 필터 만들기에 대한 비디오입니다.
 
@@ -21,7 +21,7 @@ Ad Hoc 프로젝트 필터를 사용하면 구성 요소를 패널 드롭 영역
 
 
 1. 
-   1. 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 패널 상단의 필터 드롭 영역으로 드래그합니다. 구성 요소 유형은 자동으로 애드혹 필터로 변환되거나 [빠른 필터](/help/components/filters/quick-filters.md) 호환되는 경우
+   1. 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 패널 상단의 필터 드롭 영역으로 드래그합니다. 구성 요소 유형은 호환 가능한 경우 자동으로 임시 필터 또는 [빠른 필터](/help/components/filters/quick-filters.md)로 변환됩니다.
 
    다음은 Twitter 참조 도메인을 위한 필터를 만드는 방법의 예입니다.
 
