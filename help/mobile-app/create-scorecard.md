@@ -5,8 +5,8 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 929656128214ed0dc2fe2195ea691122edb6566e
-workflow-type: ht
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 대시보드를 구성 및 제공하는 방법에 대해 설명합니다. 시작을 위한 Adobe Analytics 대시보드 Scorecard Builder 비디오를 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
 >이 페이지의 스코어카드 스크린샷은 CJA가 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.

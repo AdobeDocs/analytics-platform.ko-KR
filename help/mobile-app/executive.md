@@ -5,16 +5,18 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1230'
-ht-degree: 100%
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+workflow-type: tm+mt
+source-wordcount: '1220'
+ht-degree: 99%
 
 ---
 
 # 경영진 빠른 시작 안내서
 
-다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 이 정보를 보여 주는 비디오를 보려면 [Adobe Analytics 대시보드 인앱 경험](https://youtu.be/QXqQ_PkArbA)을 참조하십시오.
+다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이러한 정보를 보여주는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
 이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
