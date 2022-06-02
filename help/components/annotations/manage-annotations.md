@@ -4,9 +4,9 @@ description: 작업 영역에서 주석을 관리하는 방법
 role: User, Admin
 feature: Components
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
-workflow-type: ht
-source-wordcount: '677'
+source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+workflow-type: tm+mt
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 100%
 | [!UICONTROL 적용 날짜 범위] | 이 주석이 적용되는 날짜 또는 날짜 범위입니다. |
 | [!UICONTROL 다음 사용자와 공유] | 주석을 공유한 개인 또는 그룹 수를 표시합니다. 자세한 내용을 보려면 클릭하십시오. |
 | [!UICONTROL 수정한 날짜] | 주석을 마지막으로 수정한 날짜와 시간을 표시합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 주석 편집
 
@@ -75,3 +77,5 @@ ht-degree: 100%
 | 복사 | 고유한 주석 ID로 고유한 복사본을 만들지만, 이름과 정의는 동일합니다. |
 | CSV로 내보내기 | 주석 정의를 .csv 파일로 내보냅니다. |
 | 필터 (왼쪽 레일) | 태그, 보고서 세트, 소유자 및 기타 필터(내 소유, 승인됨, 즐겨찾기, 나와 공유 및 모두 표시)별로 필터링합니다. |
+
+{style=&quot;table-layout:auto&quot;}
