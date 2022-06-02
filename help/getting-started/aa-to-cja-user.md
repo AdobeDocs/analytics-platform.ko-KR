@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1456'
-ht-degree: 100%
+source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+workflow-type: tm+mt
+source-wordcount: '1457'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 데이터 아키텍처 변경 사항 {#architecture}
 
-CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. 
+CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform lets you centralize and standardize customer data and content from any system or channel and applies data science and machine learning to improve the design and delivery of personalized experiences.
 
 [](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)를 참조하십시오.
 
@@ -76,9 +76,9 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
 
-* **이제 히트 컨테이너가 &#39;이벤트&#39; 컨테이너입니다.**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
-* **이제 방문 컨테이너가 &#39;세션&#39; 컨테이너입니다.**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
-* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
+* **이제 히트 컨테이너가 있습니다. [!UICONTROL 이벤트] 컨테이너**. 다음 [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 페이지 보기/히트에 따라 방문자 정보를 분류할 수 있습니다.
+* **이제 방문 컨테이너가 있습니다. [!UICONTROL Session] 컨테이너**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
+* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. 다음 [!UICONTROL 개인] 컨테이너에는 지정된 기간 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 
 ## 계산된 지표의 개념 변경
 
@@ -96,11 +96,11 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 ## 분류 개념 변경
 
-  예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 자세한 내용은 [계정 수준 데이터를 조회 데이터 세트로 추가](/help/use-cases/b2b.md) 예 사용 사례입니다.
+&quot;Classifications&quot; are now known as &quot;Lookup datasets&quot;. Lookup datasets are used to look up values or keys found in your Event or Profile data. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 자세한 내용은 [계정 수준 데이터를 조회 데이터 세트로 추가](/help/use-cases/b2b.md) 예 사용 사례입니다.
 
 ## 고객 속성 개념 변경
 
-   포함할 개인 ID를 선택할 수 있습니다. 에 정의된 각 데이터 세트 [!DNL Experience Platform] 에는 하나 이상의 개인 ID가 정의된 자체 세트가 있습니다.
+&quot;Customer attributes&quot; are now known as &quot;Profile datasets&quot;.  For example, it allows you to upload CRM data about your customers. 포함할 개인 ID를 선택할 수 있습니다. 에 정의된 각 데이터 세트 [!DNL Experience Platform] 에는 하나 이상의 개인 ID가 정의된 자체 세트가 있습니다.
 
 ## Adobe이 방문자를 식별하는 방법 변경
 
