@@ -1,9 +1,9 @@
 ---
 title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아봅니다
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 * 이 대상자에게 이메일을 보내는 중입니다.
 * 이 대상에게 푸시 메시지 보내기.
 * Adobe Journey Optimizer에서 여정에 대상 사용.
-* AEP 대상을 통해 타사로 대상 내보내기
+* Experience Platform 대상을 통해 타사에 대상 내보내기.
 
 ## 주요 용어
 
@@ -34,5 +34,7 @@ ht-degree: 3%
 
 ## 다음 단계
 
+* [대상자 만들기 및 게시](/help/components/audiences/publish.md)
+* [대상자 관리](/help/components/audiences/manage.md)
 
 
