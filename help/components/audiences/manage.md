@@ -1,15 +1,19 @@
 ---
 title: Customer Journey Analytics에서 만든 대상 관리
 description: Customer Journey Analytics에서 대상을 관리하는 방법 알아보기
-source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
+source-git-commit: 9d19e1ea55a6c2de701d38cb417d6d39e753c640
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 8%
 
 ---
 
 
 # Customer Journey Analytics에서 만든 대상 관리
+
+>[!NOTE]
+>
+>이 기능은 현재 [제한된 테스트](/help/release-notes/releases.md).
 
 이전에 만든 대상을 관리할 수 있습니다.
 
