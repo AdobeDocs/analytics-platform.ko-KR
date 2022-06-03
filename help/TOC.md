@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
-      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
@@ -93,11 +93,11 @@ ht-degree: 98%
          + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-      + 흐름 {#flow}
-         + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
+      + 플로우 {#flow}
+         + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
-         + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+         + [플로우 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
+         + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [벤](analysis-workspace/visualizations/venn.md)
       + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
@@ -173,7 +173,7 @@ ht-degree: 98%
       + [필터 만들기](components/filters/create-filters.md)
       + [필터 관리](components/filters/manage-filters.md)
       + [빠른 필터](components/filters/quick-filters.md)
-      + [애드혹 필터](components/filters/ad-hoc-filters.md)
+      + [임시 필터](components/filters/ad-hoc-filters.md)
       + [연산자](components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](components/calc-metrics/calc-metr-overview.md)

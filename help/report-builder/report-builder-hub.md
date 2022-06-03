@@ -9,22 +9,22 @@ solution: Customer Journey Analytics
 source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Report Builder 허브
 
-Report Builder 허브를 사용하여 데이터 블록을 생성, 업데이트, 삭제 및 관리합니다.
+Report Builder 허브를 사용하여 데이터 블록을 만들거나 업데이트하거나 삭제하거나 관리합니다.
 
-Report Builder 허브는 [만들기 및 관리] 단추, [명령] 목록 및 [빠른 편집] 패널을 포함합니다.
+Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 편집 패널이 있습니다.
 
 <img src="./assets/hub51.png" width="50%"/>
 
 
-## 만들기 및 관리 단추
+## 생성 및 관리 버튼
 
-만들기 또는 관리 단추를 사용하여 새 데이터 블록을 만들거나 기존 데이터 블록을 관리합니다.
+생성 또는 관리 버튼을 사용하여 새 데이터 블록을 만들거나 기존 데이터 블록을 관리합니다.
 
 ## 명령 패널
 

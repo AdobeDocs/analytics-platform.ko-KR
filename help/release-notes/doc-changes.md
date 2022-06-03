@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 17e89d7cfeddff831e34fc441ee17de8b1c3fe21
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 5월 | Adobe Experience Platform에서 CJA와 Attribution AI(후속 링크)의 통합에 대한 새로운 문서. |
 | 2022년 5월 | Adobe Experience Platform에서 CJA와 Customer AI를 통합하는 방법에 대한 새로운 문서(팔로우 링크)입니다. |
 | 2022년 5월 | 방법에 대한 새로운 문서 [cja Report Builder에서 데이터 블록 관리](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) |
-| 2022년 5월 | 에 대한 새 문서 [Adobe Experience Platform 대상을 CJA에 수집](/help/use-cases/ingest-aep-segments.md) |
+| 2022년 5월 | [Adobe Experience Platform 대상을 CJA로 수집](/help/use-cases/ingest-aep-segments.md)하는 것에 대한 새로운 문서 |
 | 2022년 4월 | 에 대한 설명서 [차원 하위 문자열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html). |
 | 2022년 4월 | 새로 만들기 [Adobe Analytics 사용자를 위한 CJA 사용 안내서](/help/getting-started/aa-to-cja-user.md). |
 | 2022년 3월 | 새로 만들기 [CJA 주석 API 설명서](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/). |
@@ -60,7 +60,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2020년 11월 13일 | [콜센터 및 웹 데이터 가져오기](/help/use-cases/call-center.md)에 대한 새로운 사용 사례가 추가되었습니다. |
 | 2020년 11월 10일 | [FAQ](/help/getting-started/cja-faq.md)에 데이터 구성 요소 삭제의 의미에 대한 섹션을 추가했습니다. |
 | 2020년 11월 2일 | [Customer Journey Analytics 기능 지원](/help/getting-started/cja-aa.md) 페이지 업데이트. |
-| 2020년 11월 | 연결을 위한 [채우기 제한 제거](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#backfill-historical-data1)에 대한 콘텐츠를 추가했습니다. |
+| 2020년 11월 | 연결을 위한 [채우기 제한 제거](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko#backfill-historical-data1)에 대한 콘텐츠를 추가했습니다. |
 | 2020년 10월 7일 | [결합된 이벤트 데이터 세트](/help/connections/combined-dataset.md)에 대한 주제를 추가했습니다. |
 | 2020년 9월 15일 | [데이터 수집](/help/use-cases/data-ingestion.md)에 대한 주제를 추가했습니다. |
 | 2020년 9월 2일 | [사용자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 섹션이 업데이트되었습니다. |
