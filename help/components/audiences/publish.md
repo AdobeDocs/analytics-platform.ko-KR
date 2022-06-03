@@ -1,9 +1,9 @@
 ---
 title: 실시간 고객 프로필에 대상 만들기 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법을 알아봅니다
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '827'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >
 >이 기능은 현재 [제한된 테스트](/help/release-notes/releases.md).
 
-이 항목에서는 Customer Journey Analytics(CJA)에서 검색된 대상을 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) Adobe Experience Platform에서 고객 타깃팅 및 개인화를 확인하십시오.
+이 항목에서는 Customer Journey Analytics(CJA)에서 발견된 대상을 만들고 게시하는 방법에 대해 설명합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) Adobe Experience Platform에서 고객 타깃팅 및 개인화를 확인하십시오.
 
 다음 내용 보기 [개요](/help/components/audiences/audiences-overview.md) cja 대상의 개념을 숙지합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 7%
    | 전환 확인 기간 새로 고침 | 이 대상을 만들 때 데이터 창으로 돌아갈 거리를 지정합니다. 최대. 는 90일입니다. |
    | [!UICONTROL 1회 날짜 범위] | 일회성 대상을 게시하려는 날짜 범위입니다. |
    | [!UICONTROL 필터] | 필터는 대상에 대한 기본 입력입니다. 최대 20개의 필터를 추가할 수 있습니다. 이러한 필터는 `And` 또는 `Or` 연산자를 사용할 수 있습니다. |
-   | [!UICONTROL 샘플 ID 보기] | 이 대상의 ID 샘플입니다. 검색 막대를 사용하여 샘플 ID를 검색합니다.<p>!![](assets/sample-ids.png) |
+   | [!UICONTROL 샘플 ID 보기] | 이 대상의 ID 샘플입니다. 검색 막대를 사용하여 샘플 ID를 검색합니다. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -72,7 +72,23 @@ ht-degree: 7%
 
 1. 모든 것이 좋아 보이는 경우 **[!UICONTROL 게시]**.
 
+   모든 것이 제대로 작동하면 대상자가 게시되었다는 확인 메시지가 표시됩니다.
+
+1. 클릭 **[!UICONTROL AEP에서 대상 보기]** ( 동일한 메시지 내에 있을 경우) Adobe Experience Platform의 세그먼트 UI로 이동합니다. 자세한 내용은 아래 내용을 참조하십시오.
+
+## Experience Platform에서 CJA 대상 사용
+
+다음 위치로 이동하여 Platform에서 CJA 대상을 볼 수 있습니다 **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**.
+
+CJA 대상을 AEP 세그먼트의 세그먼트 정의로 드래그할 수 있습니다.
+
+![](assets/audiences-aep.png)
+
+이 대상을 AEP Data Lake로 내보내도록 선택하는 경우, XDM 개별 프로필 스키마 클래스를 준수하는 데이터 세트로 표시됩니다.
+
+![](assets/aep-datalake.png)
+
+
 ## 다음 단계
 
 * 이 대상자를 관리하려면 [관리 UI](/help/components/audiences/manage.md).
-* Adobe Experience Platform에서 이 대상과 함께 작업하려면 여기 로 이동하십시오.
