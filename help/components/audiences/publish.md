@@ -1,13 +1,13 @@
 ---
 title: 실시간 고객 프로필에 대상 만들기 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법을 알아봅니다
-source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
+exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
+source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '929'
 ht-degree: 7%
 
 ---
-
 
 # 대상자 만들기 및 게시
 
@@ -65,18 +65,20 @@ ht-degree: 7%
    | [!UICONTROL 예상 대상 반환] | 이 설정은 사이트로 돌아온 이 대상의 고객을 재타겟팅하는 데 유용합니다. (다시 말해, 이 데이터 세트에 다시 표시됩니다.) <p>여기에서 돌아올 수 있는 예상 고객 수에 대한 기간(다음 7일, 다음 2주, 다음 달)을 선택할 수 있습니다. |
    | [!UICONTROL 예상 반환] | 이 숫자는 드롭다운 목록에서 선택한 기간 동안 예상 재방문 고객 수를 제공합니다. 이 숫자를 예측하기 위해 이 대상의 이전 이탈률을 살펴봅니다. |
    | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 특정 지표를 확인하여 이 대상이 이 지표에 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 사이트의 평균 시간]&#39; 지표의 합계 카운트와 지표가 나타내는 합계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
-   | 네임스페이스 포함됨 | 대상 내 사람과 연결된 특정 네임스페이스입니다. 예를 들면 ECID, CRM ID, 이메일 주소 등이 있습니다. |
-   | 샌드박스 | 이 대상이 상주하는 Experience Platform 샌드박스. 이 대상을 Platform에 게시하면 이 샌드박스의 제한 내에서만 사용할 수 있습니다. |
+   | [!UICONTROL 네임스페이스 포함됨] | 대상 내 사람과 연결된 특정 네임스페이스입니다. 예를 들면 ECID, CRM ID, 이메일 주소 등이 있습니다. |
+   | [!UICONTROL 샌드박스] | 다음 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko) 이 대상이 상주하는 객체입니다. 이 대상을 Platform에 게시하면 이 샌드박스의 제한 내에서만 사용할 수 있습니다. |
 
    {style=&quot;table-layout:auto&quot;}
 
-1. 모든 것이 좋아 보이는 경우 **[!UICONTROL 게시]**.
+1. 대상 구성을 두 번 확인하고 를 클릭합니다 **[!UICONTROL 게시]**.
 
    모든 것이 제대로 작동하면 대상자가 게시되었다는 확인 메시지가 표시됩니다.
 
-1. 클릭 **[!UICONTROL AEP에서 대상 보기]** ( 동일한 메시지 내에 있을 경우) Adobe Experience Platform의 세그먼트 UI로 이동합니다. 자세한 내용은 아래 내용을 참조하십시오.
+1. 클릭 **[!UICONTROL AEP에서 대상 보기]** 동일한 메시지 내에서 및 [세그먼트 UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) Adobe Experience Platform. 자세한 내용은 아래 내용을 참조하십시오.
 
 ## Experience Platform에서 CJA 대상 사용
+
+이제 CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 실시간 고객 프로필로 스트리밍합니다. 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 네임스페이스가 속할 수 있는 프로필을 찾습니다. 일치하는 ID를 찾으면 이 프로필의 다른 ID에 네임스페이스 및 ID를 세그먼트 멤버십 속성으로 추가합니다. 이제, 예를 들어 &quot;user@adobe.com&quot;은 모든 장치와 채널에서 타깃팅될 수 있습니다. 프로필이 없으면 새 프로필이 만들어집니다.
 
 다음 위치로 이동하여 Platform에서 CJA 대상을 볼 수 있습니다 **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**.
 
