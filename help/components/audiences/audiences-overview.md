@@ -1,13 +1,13 @@
 ---
 title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아봅니다
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '401'
 ht-degree: 3%
 
 ---
-
 
 # CJA Audience 게시 개요
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >
 >이 기능은 현재 [제한된 테스트](/help/release-notes/releases.md).
 
-이제 Customer Journey Analytics(CJA)에서 검색된 대상을 만들고 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) Adobe Experience Platform에서 고객 타깃팅 및 개인화를 확인하십시오. 실시간 고객 프로필을 사용하면 온라인, 오프라인, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다.
+이제 Customer Journey Analytics(CJA)에서 검색된 대상을 만들고 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) 고객 타깃팅 및 개인화를 위해 Adobe Experience Platform에서 (RTCP) 실시간 고객 프로필을 사용하면 온라인, 오프라인, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다.
 
 게시 대상을 사용하면 CJA 내에서 제공되는 인사이트에 대해 조치를 취할 수 있습니다. 이러한 작업에는 다음이 포함될 수 있습니다.
 
@@ -23,6 +23,7 @@ ht-degree: 3%
 * 이 대상에게 푸시 메시지 보내기.
 * Adobe Journey Optimizer에서 여정에 대상 사용.
 * Experience Platform 대상을 통해 타사에 대상 내보내기.
+* 모든 이벤트 데이터를 RTCP에 추가하지 않고도 CJA의 이벤트 기반 데이터에서 파생된 유용한 특성으로 실시간 고객 프로필을 보강할 수 있습니다.
 
 ## 주요 용어
 
@@ -40,5 +41,3 @@ ht-degree: 3%
 
 * [대상자 만들기 및 게시](/help/components/audiences/publish.md)
 * [대상자 관리](/help/components/audiences/manage.md)
-
-
