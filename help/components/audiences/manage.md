@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics에서 만든 대상 관리
 description: Customer Journey Analytics에서 대상을 관리하는 방법 알아보기
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
+source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 7%
 
 ---
-
 
 # Customer Journey Analytics에서 만든 대상 관리
 
@@ -25,8 +25,6 @@ ht-degree: 7%
 
 ## 관리 UI
 
-스크린샷
-
 | UI 설정 | 정의 |
 | --- | --- |
 | 필터 숨기기/표시 | 왼쪽 레일에서 다음 필터를 표시하거나 숨길 수 있습니다. <ul><li>데이터 보기</li><li>소유자</li><li>새로 고침 빈도</li><li>태그</li></ul> |
@@ -40,4 +38,3 @@ ht-degree: 7%
 | [!UICONTROL 마지막 수정일] | 대상을 마지막으로 편집하거나 수정한 경우 |
 
 {style=&quot;table-layout:auto&quot;}
-
