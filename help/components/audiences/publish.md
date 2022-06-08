@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상 만들기 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법을 알아봅니다
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: ffefe67eae2ff0dde80dbb09ed255486c3db3a61
+source-git-commit: 0108b07fd4fac33d026b8832931ffa3018b298e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '946'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >이 기능은 현재 [제한된 테스트](/help/release-notes/releases.md).
 
-이 항목에서는 Customer Journey Analytics(CJA)에서 발견된 대상을 만들고 게시하는 방법에 대해 설명합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) Adobe Experience Platform에서 고객 타깃팅 및 개인화를 확인하십시오.
+이 항목에서는 Customer Journey Analytics(CJA)에서 식별된 대상을 만들고 게시하는 방법에 대해 설명합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=kr) Adobe Experience Platform에서 고객 타깃팅 및 개인화를 확인하십시오.
 
 다음 내용 보기 [개요](/help/components/audiences/audiences-overview.md) cja 대상의 개념을 숙지합니다.
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    | [!UICONTROL 이름] | 대상자의 이름입니다. |
    | [!UICONTROL 태그] | 조직 목적을 위해 대상에 할당하려는 모든 태그. 기존 태그를 사용하거나 새 태그를 입력할 수 있습니다. |
    | [!UICONTROL 설명] | 대상을 다른 대상과 구분하기 위해 대상에 대한 적절한 설명을 추가합니다. |
-   | [!UICONTROL 새로 고침 빈도] | 대상자를 새로 고칠 빈도입니다.<ul><li>새로 고칠 필요가 없는 일회성 대상(기본값)을 만들도록 선택할 수 있습니다. 이는 예를 들어 특정 1회 캠페인에 유용합니다.</li><li>다른 새로 고침 간격을 선택할 수 있습니다. 4시간 빈도의 경우 이 새로 고침은 처리량이 매우 많기 때문에 대상은 150명으로 제한됩니다. 다른 간격의 경우 최대 대상자 수가 없습니다.</li></ul> |
+   | [!UICONTROL 새로 고침 빈도] | 대상자를 새로 고칠 빈도입니다.<ul><li>새로 고칠 필요가 없는 일회성 대상(기본값)을 만들도록 선택할 수 있습니다. 예를 들어 이 기능은 특정 1회 캠페인에 유용할 수 있습니다.</li><li>다른 새로 고침 간격을 선택할 수 있습니다. 4시간 빈도의 경우 CJA 권한에 따라 75 또는 150명의 대상이 제한됩니다. 다른 간격의 경우 최대 대상자 수가 없습니다.</li></ul> |
    | 만료 날짜 | 대상자가 새로 고침을 중지하는 시기. 기본값은 생성 날짜로부터 1년입니다. 만료 대상은 만료 예약된 보고서와 유사하게 처리됩니다. 관리자가 대상이 만료되기 한 달 전에 이메일을 받게 됩니다. |
-   | 전환 확인 기간 새로 고침 | 이 대상을 만들 때 데이터 창으로 돌아갈 거리를 지정합니다. 최대. 는 90일입니다. |
+   | 전환 확인 기간 새로 고침 | 이 대상을 만들 때 데이터 창으로 돌아갈 거리를 지정합니다. 최대값은 90일입니다 |
    | [!UICONTROL 1회 날짜 범위] | 일회성 대상을 게시하려는 날짜 범위입니다. |
    | [!UICONTROL 필터] | 필터는 대상에 대한 기본 입력입니다. 최대 20개의 필터를 추가할 수 있습니다. 이러한 필터는 `And` 또는 `Or` 연산자를 사용할 수 있습니다. |
    | [!UICONTROL 샘플 ID 보기] | 이 대상의 ID 샘플입니다. 검색 막대를 사용하여 샘플 ID를 검색합니다. |
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 데이터 미리 보기를 해석합니다.
 
-   대상 미리 보기가 오른쪽 레일에 나타납니다. 이렇게 하면 만든 대상에 대한 고급 분석을 수행할 수 있습니다.
+   대상 미리 보기가 오른쪽 레일에 나타납니다. 이렇게 하면 만든 대상에 대해 요약된 분석을 수행할 수 있습니다.
 
    ![](assets/data-preview.png)
 
@@ -78,18 +78,14 @@ ht-degree: 0%
 
 ## Experience Platform에서 CJA 대상 사용
 
-이제 CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 RTCP(실시간 고객 프로필)로 스트리밍합니다. 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 네임스페이스가 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 장치의 클러스터입니다. 프로필을 찾으면 이 프로필의 다른 ID에 네임스페이스 및 ID를 세그먼트 멤버십 속성으로 추가합니다. 이제, 예를 들어 &quot;user@adobe.com&quot;은 모든 장치와 채널에서 타깃팅될 수 있습니다. 프로필이 없으면 새 프로필이 만들어집니다.
+
+이제 CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 RTCP(실시간 고객 프로필)로 스트리밍합니다. 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 네임스페이스가 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 장치의 클러스터입니다. 프로필을 찾으면 이 프로필의 다른 ID에 네임스페이스 및 ID를 세그먼트 멤버십 속성으로 추가합니다. 이제, 예를 들어 &quot;user@adobe.com&quot;은 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필이 없으면 새 프로필이 만들어집니다.
 
 다음 위치로 이동하여 Platform에서 CJA 대상을 볼 수 있습니다 **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**.
 
 CJA 대상을 AEP 세그먼트의 세그먼트 정의로 드래그할 수 있습니다.
 
 ![](assets/audiences-aep.png)
-
-이 대상을 AEP Data Lake로 내보내도록 선택하는 경우, XDM 개별 프로필 스키마 클래스를 준수하는 데이터 세트로 표시됩니다.
-
-![](assets/aep-datalake.png)
-
 
 ## 다음 단계
 
