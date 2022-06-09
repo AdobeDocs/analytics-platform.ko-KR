@@ -3,18 +3,14 @@ description: 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용
 title: 차원 간 흐름
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '338'
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
+workflow-type: tm+mt
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
 
 # 차원 간 흐름
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
 

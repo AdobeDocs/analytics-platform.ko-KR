@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 99%
@@ -95,7 +95,7 @@ ht-degree: 99%
          + [폴아웃 분석에서 필터 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 플로우 {#flow}
          + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
-         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [플로우 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
