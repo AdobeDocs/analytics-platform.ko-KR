@@ -2,13 +2,13 @@
 title: Labs 사용 안내서
 description: Customer Journey Analytics에 대한 프로토타입 프로젝트 미리 보기
 role: Admin
-source-git-commit: 2e1a97b6ed2bfd1f8c03399b635a6135c26bce55
+exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
+source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 84%
+source-wordcount: '460'
+ht-degree: 78%
 
 ---
-
 
 # [!UICONTROL Labs 사용 안내서]
 
@@ -68,8 +68,12 @@ ht-degree: 84%
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 기본 미리 보기 포털로 돌아갑니다.
 
+## CJA Labs 프로토타입
+
+* 자연어 인사이트 생성기: 자유 형식 테이블에서 분석 중인 모든 데이터의 자연어 요약을 제공합니다.
+* 시각화 권장 사항: 데이터와 잘 연결되는 시각화를 권장합니다.
+
 ## 추가 정보
 
 * 내 일부 프로토타입 [!UICONTROL Labs] Customer Journey Analytics 기능이 되면 다른 기능에 영향을 주지 않을 수 있습니다. 사용자의 피드백이 이러한 결정에 영향을 주므로 프로토타입을 검토하여 해당 프로토타입의 가치를 Adobe에 알려주십시오.
 * Labs는 모든 SKU 자격에서 사용할 수 있습니다.
-
