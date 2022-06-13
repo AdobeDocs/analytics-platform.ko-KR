@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
+source-git-commit: ab44c58a4089a5a48ad845579fb536f668d9f9f6
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 93%
+source-wordcount: '1440'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 93%
 | --- | --- |
 | 예외 항목 탐지 | 전체 지원 |
 | 기여도 분석 IQ | 전체 지원 |
+| 대상자 게시 | 전체 지원. AA에서 세그먼트 게시(Workspace에서 Experience Cloud으로 세그먼트 전송)라고 합니다. [대상 게시](/help/components/audiences/audiences-overview.md) experience Platform에서 실시간 고객 프로필에 대상을 보냅니다. |
 | 계산된 지표 | 전체 지원: 기존 Analysis Workspace의 기존 계산된 지표는 CJA에 포팅되지 않습니다. |
 | 달력 이벤트 | 전체 지원. 달력 이벤트가 [주석](/help/components/annotations/overview.md) 작업 공간. |
 | 분류 규칙 빌더 | Full support. 호출됨 [하위 문자열](/help/data-views/component-settings/substring.md) 참조하십시오. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조킹을 사용합니다. |
@@ -30,12 +31,12 @@ ht-degree: 93%
 | 날짜 비교 | 전체 지원 |
 | 날짜 범위 | 모든 날짜 범위 기능이 지원됩니다. |
 | 일광 절약 시간제 | 전체 지원 |
-| 장치, 브라우저, 레퍼러, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko)를 참조하십시오.<p>Adobe 소스 커넥터를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않지만, 대신 Experience Platform Web SDK 데이터 수집을 사용하는 경우 장치 조회를 기반으로 하는 장치 및 차원은 현재 지원되지 않습니다. 가까운 시일 내에 지원을 받을 것입니다. |
+| 디바이스, 브라우저, 레퍼러, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko)를 참조하십시오.<p>Adobe Source Connector를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않고 대신 Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 그러나 조만간 지원될 예정입니다. |
 | 차원 | 전체 지원: CJA는 XDM을 활용하며 무제한 차원을 지원합니다. CJA는 기존 Adobe Analytics의 사용자 정의 eVar 또는 속성에 연결되지 않습니다. |
 | GDPR 삭제 | 전체 지원: 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용됩니다. CJA는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
 | 목록 변수/목록 속성 | 전체 지원: CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
-| 머천다이징 변수 지속성 | 를 통한 전체 지원 [차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
-| 머천다이징 eVar | 를 통한 전체 지원 [차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
+| 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
+| 머천다이징 eVar | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 지표 | 전체 지원: CJA는 XDM(Experience Data Model)을 활용하고 무제한 지표를 지원하며, 기존 Analytics의 사용자 정의 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 기존 Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
 | 지표 중복 제거 | 전체 지원 |
 | 모바일 스코어카드/대시보드 | 전체 지원 |
@@ -60,7 +61,7 @@ ht-degree: 93%
 | --- | --- |
 | A4T | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 지원이 제공됩니다. |
 | 분류 | 이제 &quot;조회 데이터 세트&quot;라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 데이터 커넥터를 사용하여 Experience Platform 및 CJA로 가져올 수 있습니다. 조회 데이터 세트를 AEP에 직접 업로드하여 CJA에서 사용할 수도 있습니다. |
-| 사용자 정의 세션 | 모바일 배경 히트를 제외한 모든 사용자 지정 세션 기능을 지원합니다. |
+| 사용자 정의 세션 | 모바일 배경 조회수를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
 | 고객 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
 | [!UICONTROL 디바이스], [!UICONTROL 브라우저], [!UICONTROL 레퍼러], [!UICONTROL 기술] 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. [Analytics 소스 커넥터를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)를 참조하십시오. 소스 커넥터를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않고 대신 AEP Web SDK 데이터 수집을 사용하는 CJA 고객의 경우, 디바이스 조회를 기반으로 하는 [!UICONTROL 디바이스] 및 차원이 현재 지원되지 않지만 조만간 지원될 예정입니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
@@ -80,7 +81,7 @@ ht-degree: 93%
 | 보트 필터링 | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교, Analytics for Target(A4T) 및 미디어 동시 뷰어 패널은 지원되지 않습니다. |
 | 처리 규칙 | Analytics 데이터 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
-| 스트리밍 미디어 분석 | 미디어 데이터는 페이지의 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). |
+| 스트리밍 미디어 분석 | 미디어 데이터는 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)의 일부로 사용할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -97,7 +98,6 @@ ht-degree: 93%
 | 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
-| 세그먼트 게시(Analysis Workspace에서 Experience Cloud로 세그먼트 전송) | 지원이 예정되어 있습니다. CJA에서는 “대상자 게시”라고 합니다. |
 | 새 세션 보고와 반복 세션 보고 비교 | 몇 가지 주의 사항과 함께 지원이 예정되어 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
