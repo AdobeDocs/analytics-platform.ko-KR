@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 * 여전히 의 기능을 사용할 수 있습니다. [Analysis Workspace](/help/analysis-workspace/home.md) 를 입력하여 데이터를 분석할 수 있습니다. 작업 공간은 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 는 사용할 수 있으며, CJA와 기존 Analytics 간에 유사하게 작동합니다.
-* [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 MS Windows, iOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 를 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
+* [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 를 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
 
 ## 보고 변경 사항
 
@@ -76,9 +76,9 @@ Adobe이 업계 표준에 맞게 &quot;세그먼트&quot; 구성 요소를 &quot
 
 세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
 
-* **이제 히트 컨테이너가 있습니다. [!UICONTROL 이벤트] 컨테이너**. 다음 [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 페이지 보기/히트에 따라 방문자 정보를 분류할 수 있습니다.
-* **이제 방문 컨테이너가 있습니다. [!UICONTROL Session] 컨테이너**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
-* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. 다음 [!UICONTROL 개인] 컨테이너에는 지정된 기간 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
+* **히트 컨테이너는 이제 [!UICONTROL 이벤트] 컨테이너**&#x200B;입니다. [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 페이지 보기/히트에 따라 방문자 정보를 분류할 수 있습니다.
+* **방문 컨테이너는 이제 [!UICONTROL 세션] 컨테이너입니다**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
+* **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 
 ## 계산된 지표의 개념 변경
 
