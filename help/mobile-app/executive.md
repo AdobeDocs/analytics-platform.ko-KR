@@ -6,15 +6,15 @@ role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
 source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 경영진 빠른 시작 안내서
 
-다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이러한 정보를 보여주는 비디오입니다.
+다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이 정보를 시연하는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 ## 대시보드 사용
 
-대시보드를 사용하려면 다음을 수행하십시오.
+대시보드를 사용하려면 다음 작업을 수행하십시오.
 
 1. 앱에 로그인합니다. 대시보드를 실행하면 로그인 화면이 나타납니다. 기존 Adobe Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
