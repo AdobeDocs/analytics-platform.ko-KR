@@ -1,19 +1,19 @@
 ---
 title: 보고서 세트와 다른 스키마 결합
 description: 데이터 준비를 사용하여 보고서 세트를 다른 스키마와 결합하는 방법을 알아봅니다
-source-git-commit: c602ee5567e7ba90d1d302f990cc1d8fc49e5adc
+source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
-# 보고서 세트와 다른 스키마 결합
+# 보고서 세트를 다른 스키마와 결합
 
-다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko) 은 Real-time Customer Data Platform 및 CJA(Customer Journey Analytics)과 같은 AEP 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 보고서 세트 데이터를 Adobe Experience Platform으로 가져오는 방법을 제공합니다. AEP로 가져온 각 보고서 세트는 개별 소스 연결 데이터 플로로 구성되고 각 데이터 플로우는 AEP 데이터 레이크 내에 데이터 세트로 이동합니다. Analytics 소스 커넥터는 보고서 세트당 하나의 데이터 세트를 만듭니다.
+다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko) Real-time Customer Data Platform 및 CJA(Customer Journey Analytics)과 같은 AEP 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 AEP(Adobe Experience Platform)으로 보고서 세트 데이터를 가져옵니다. AEP로 가져온 각 보고서 세트는 개별 소스 연결 데이터 플로로 구성되고 각 데이터 플로우는 AEP 데이터 레이크 내에 데이터 세트로 이동합니다. Analytics 소스 커넥터는 보고서 세트당 하나의 데이터 세트를 만듭니다.
 
-CJA 고객이 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko) aep 데이터 레이크의 데이터 세트를 CJA의 Analysis Workspace에 통합합니다. 하지만 연결 내에 보고서 세트를 결합할 때 AEP의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) prop 및 eVar와 같은 Adobe Analytics 변수가 CJA에서 일관된 의미를 갖도록 하기 위한 기능입니다.
+CJA 고객이 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko) aep 데이터 레이크의 데이터 세트를 CJA의 Analysis Workspace에 통합합니다. 하지만 연결 내에 보고서 세트를 결합할 때 AEP의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 기능을 사용할 수 있습니다. 목적은 prop 및 eVar와 같은 Adobe Analytics 변수가 CJA에서 일관된 의미를 갖도록 하는 것입니다.
 
 ## 보고서 세트 간의 스키마 차이점은 문제입니다
 
@@ -21,8 +21,8 @@ CJA 고객이 [연결](https://experienceleague.adobe.com/docs/analytics-platfor
 
 | 보고서 세트 A | 보고서 세트 B |
 | --- | --- |
-| eVar1 => 검색어 | eVar1 => 비즈니스 단위 |
-| eVar2 => 고객 카테고리 | eVar2 => 검색어 |
+| eVar1 = 검색어 | eVar1 = 비즈니스 단위 |
+| eVar2 = 고객 카테고리 | eVar2 = 검색어 |
 
 단순성을 위해 두 보고서 세트 모두에 대해 유일하게 정의된 eVar라고 가정해 보겠습니다.
 
@@ -30,8 +30,8 @@ CJA 고객이 [연결](https://experienceleague.adobe.com/docs/analytics-platfor
 
 - 수집하는 Analytics 소스 연결(데이터 준비 없이)을 만듭니다 **보고서 세트 A** 로서의 AEP Data Lake **데이터 세트 A**.
 - 수집하는 Analytics 소스 연결(데이터 준비 없이)을 만듭니다 **보고서 세트 B** 로서의 AEP Data Lake **데이터 세트 B**.
-- 라는 CJA 연결을 만듭니다 . **모든 보고서 세트** 데이터 세트 A와 데이터 세트 B를 결합합니다.
-- 라는 CJA 데이터 보기를 만듭니다. **전역 보기** 이것은 모든 보고서 세트 연결을 기반으로 합니다.
+- 만들기 [CJA 연결](/help/connections/create-connection.md) called **모든 보고서 세트** 데이터 세트 A와 데이터 세트 B를 결합합니다.
+- 만들기 [CJA 데이터 보기](/help/data-views/create-dataview.md) called **전역 보기** 이것은 모든 보고서 세트 연결을 기반으로 합니다.
 
 데이터 준비 를 사용하여 데이터 세트 A와 데이터 세트 B 간의 스키마 차이점을 해결하지 않으면 글로벌 보기 데이터 보기의 eVar에 값 혼합이 포함됩니다.
 
@@ -48,9 +48,9 @@ CJA 고객이 [연결](https://experienceleague.adobe.com/docs/analytics-platfor
 
 ## AEP 데이터 준비를 사용하여 보고서 세트 간의 스키마 차이를 해결합니다
 
-AEP의 데이터 준비 기능은 Analytics 소스 커넥터와 통합되며 위의 시나리오에 설명된 스키마 차이점을 해결하는 데 사용할 수 있습니다. 따라서 CJA 데이터 보기에서 일관된 의미가 있는 eVar가 만들어집니다. (아래 사용된 이름 지정 규칙을 필요에 맞게 사용자 지정할 수 있습니다.)
+Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통합되며 위의 시나리오에 설명된 스키마 차이점을 해결하는 데 사용할 수 있습니다. 따라서 CJA 데이터 보기에서 일관된 의미가 있는 eVar가 만들어집니다. (아래 사용된 이름 지정 규칙을 필요에 맞게 사용자 지정할 수 있습니다.)
 
-1. 보고서 세트 A 및 보고서 세트 B에 대한 소스 연결 데이터 흐름을 만들기 전에 AEP에서 사용자 지정 필드 그룹을 만듭니다(라고 함) **통합 필드** 예제에서는 다음 필드를 포함합니다.
+1. 보고서 세트 A 및 보고서 세트 B에 대한 소스 연결 데이터 흐름을 만들기 전에 [사용자 지정 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) AEP에서 (We&#39;ll call it) **통합 필드** 예제에서는 다음 필드를 포함합니다.
 
    | &quot;통합 필드&quot; 사용자 지정 필드 그룹  |
    | --- |
@@ -58,7 +58,7 @@ AEP의 데이터 준비 기능은 Analytics 소스 커넥터와 통합되며 위
    | 비즈니스 단위 |
    | 고객 카테고리 |
 
-1. AEP에서 새 스키마를 만듭니다(Adobe에서는 이를 라고 합니다 **통합 스키마** 이 예제에서는 입니다.) 다음 필드 그룹을 스키마에 추가합니다.
+1. [새 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) AEP에서 (We&#39;ll call it) **통합 스키마** 이 예제에서는 입니다.) 다음 필드 그룹을 스키마에 추가합니다.
 
    | &quot;통합 스키마&quot;에 대한 필드 그룹 |
    | --- |
@@ -106,9 +106,9 @@ AEP의 데이터 준비 기능은 Analytics 소스 커넥터와 통합되며 위
 
    이제 소스 보고서 세트의 eVar1 및 eVar2를 3개의 새 필드에 매핑했습니다. 데이터 준비 매핑을 사용하는 또 다른 이점은 대상 필드가 이제 덜 의미 있는 eVar 이름(eVar1, eVar2) 대신 의미상 이름(검색어, 비즈니스 단위, 고객 카테고리)을 기반으로 한다는 것입니다.
 
->[!NOTE]
->
->통합 필드 사용자 지정 필드 그룹 및 관련 필드 매핑을 기존 Analytics 소스 커넥터 데이터 흐름 및 데이터 세트에 언제든지 추가할 수 있습니다. 하지만 이는 앞으로 진행될 데이터만 영향을 줍니다.
+   >[!NOTE]
+   >
+   >통합 필드 사용자 지정 필드 그룹 및 관련 필드 매핑을 기존 Analytics 소스 커넥터 데이터 흐름 및 데이터 세트에 언제든지 추가할 수 있습니다. 하지만 이는 앞으로 진행될 데이터만 영향을 줍니다.
 
 ## 보고서 세트 이상
 
