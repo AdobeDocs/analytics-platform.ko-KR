@@ -1,26 +1,22 @@
 ---
 title: Labs 사용 안내서
-description: Customer Journey Analytics에 대한 프로토타입 프로젝트 미리 보기
+description: Customer Journey Analytics용 프로토타입 프로젝트 미리보기
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
-source-git-commit: 6a44f9fe73de2a6a9bf9397bd31a27607707061b
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 78%
+source-wordcount: '453'
+ht-degree: 93%
 
 ---
 
-# [!UICONTROL Labs 사용 안내서]
+# [!UICONTROL Labs] 사용 안내서
 
->[!NOTE]
->
->이 기능은 현재 [제한된 테스트](/help/release-notes/releases.md).
-
-[!UICONTROL Labs를 사용하면 초기 단계 아이디어를 더 빨리 시제품화할 수 있습니다. ] Labs는 도구와 프로세스의 결합으로서, 고객을 중심으로 하여 개발을 투명하게 가속화합니다. Labs를 통해 최신 기술을 이해하고 귀중한 통찰력을 얻을 수 있으며 향후 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. Labs를 사용하여 CJA(Customer Journey Analytics)의 혁신적인 기능을 일찍 액세스하고 비즈니스 사용 사례 및 데이터의 컨텍스트에서 곧 출시될 기능을 평가할 수 있습니다.
+[!UICONTROL Labs를 사용하면 초기 단계 아이디어를 더 빨리 시제품화할 수 있습니다. ] Labs는 도구와 프로세스의 결합으로서, 고객을 중심으로 하여 개발을 투명하게 가속화합니다. Labs를 통해 최신 기술을 이해하고 귀중한 통찰력을 얻을 수 있으며 향후 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. Lab을 사용하여 Customer Journey Analytics(CJA) 혁신에 조기에 액세스하고 비즈니스 사용 사례 및 데이터의 컨텍스트에서 예정된 기능을 평가할 수 있습니다.
 
 ## 요구 사항
 
-[!UICONTROL Labs는 모든 관리자에 대해 자동으로 활성화됩니다. ] 다른 팀원은 제품 관리자에게 연락하여 액세스 권한을 요청해야 합니다.
+[!UICONTROL Labs]는 모든 관리자에 대해 자동으로 활성화됩니다. 다른 팀원은 제품 관리자에게 연락하여 액세스 권한을 요청해야 합니다.
 
 아직 하지 않았다면 해당 기밀 유지 협약서와 이용 약관 양식을 읽고 서명하십시오.
 
@@ -28,9 +24,9 @@ ht-degree: 78%
 
 [!UICONTROL Labs]에 액세스하려면:
 
-1. [!UICONTROL 작업 공간 ] 및 [!UICONTROL Labs]에 대한 액세스 권한이 없는 경우 관리자에게 권한을 요청하십시오.
+1. [!UICONTROL 작업 영역 ] 및 [!UICONTROL Labs]에 대한 액세스 권한이 없는 경우 관리자에게 권한을 요청하십시오.
 
-1. CJA에서 **[!UICONTROL Labs]** 탭.
+1. CJA에서 **[!UICONTROL Labs]** 탭을 클릭합니다.
 
 ## 프로토타입 평가
 
@@ -48,7 +44,7 @@ ht-degree: 78%
 
 * 프로토타입 환경 내에서 만들어진 프로젝트는 저장하거나 공유할 수 없습니다.
 
-* 프로토타입에서는 작업 공간 내에서 액세스할 수 있는 차원, 지표, 세그먼트 및 시각화를 사용하여 데이터를 평가할 수 있습니다.
+* 프로토타입에서는 작업 영역 내에서 액세스할 수 있는 차원, 지표, 세그먼트 및 시각화를 사용하여 데이터를 평가할 수 있습니다.
 
 * 프로토타입 내에서 변경하는 내용은 데이터 수집 또는 처리에 영향을 주지 않습니다.
 
@@ -66,7 +62,7 @@ ht-degree: 78%
 
    ![새 피드백 상자](assets/short-survey.png)
 
-1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 기본 미리 보기 포털로 돌아갑니다.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 기본 미리보기 포털로 돌아갑니다.
 
 ## CJA Labs 프로토타입
 
@@ -75,5 +71,5 @@ ht-degree: 78%
 
 ## 추가 정보
 
-* 내 일부 프로토타입 [!UICONTROL Labs] Customer Journey Analytics 기능이 되면 다른 기능에 영향을 주지 않을 수 있습니다. 사용자의 피드백이 이러한 결정에 영향을 주므로 프로토타입을 검토하여 해당 프로토타입의 가치를 Adobe에 알려주십시오.
+* [!UICONTROL Labs] 내의 일부 프로토타입은 Customer Journey Analytics 기능이 되고 나머지는 그렇지 않을 수 있습니다. 사용자의 피드백이 이러한 결정에 영향을 주므로 프로토타입을 검토하여 해당 프로토타입의 가치를 Adobe에 알려 주십시오.
 * Labs는 모든 SKU 자격에서 사용할 수 있습니다.

@@ -4,18 +4,14 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 4ffe667793d5ba75d3fadcf713244afac0fe8183
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1378'
 ht-degree: 23%
 
 ---
 
 # 플로우 시각화 구성
-
->[!NOTE]
->
->이 새 버전의 [!UICONTROL 흐름] 시각화가 현재 제한된 테스트 중입니다.
 
 업데이트된 흐름 시각화를 사용하면 웹 사이트 또는 앱에서 특정 전환 이벤트로 연결되거나 연결되는 여정을 이해할 수 있습니다. 차원(및 차원 항목)이나 지표 사이의 경로를 추적합니다. 플로우에서는 관심이 있는 경로의 시작 또는 끝을 구성하거나 차원 또는 차원 항목을 통해 이동하는 모든 경로를 분석할 수 있습니다.
 

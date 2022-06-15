@@ -1,24 +1,16 @@
 ---
-description: 빠른 인사이트는 새로운 작업 영역 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
+description: 빠른 인사이트는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+workflow-type: tm+mt
+source-wordcount: '1049'
 ht-degree: 100%
 
 ---
 
 # 빠른 인사이트 패널
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
-
->[!IMPORTANT]
->
->**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한적인 테스트가 실시되고 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한, 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 

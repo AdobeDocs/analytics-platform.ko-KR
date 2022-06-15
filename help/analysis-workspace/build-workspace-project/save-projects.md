@@ -4,9 +4,9 @@ title: 프로젝트 저장
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '461'
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -55,10 +55,6 @@ Adobe에서는 페이지를 떠나기 전에 저장할 수 있는 옵션을 제�
 저장되지 않은 **새** 프로젝트의 경우 저장하지 않은 변경 사항은 복구할 수 없습니다.
 
 ## 이전 버전 열기 {#previous-version}
-
->[!NOTE]
->
->이전 버전의 프로젝트 릴리스는 현재 제한된 상태입니다.
 
 이전 버전의 프로젝트를 열려면
 

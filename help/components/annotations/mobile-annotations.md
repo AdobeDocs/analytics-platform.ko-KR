@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 �
 
 1. 주석을 만들어 모든 프로젝트에 공유했는지 확인합니다. 작업 공간에서 주석을 작성하려면 다음을 참조하십시오 [주석 만들기](create-annotations.md).
 
-1. 선택 **주석 표시** 모바일 스코어카드에 주석을 표시할 수 있습니다.
+1. 선택 **[!UICONTROL 주석 표시]** 모바일 스코어카드에 주석을 표시할 수 있습니다.
 
    ![](assets/show-annotations.png)
 
-1. 주석 표시를 선택했는지 확인하고 다음 위치로 이동하십시오. **프로젝트** > **프로젝트 정보 및 설정**.
+1. 주석 표시를 선택했는지 확인하고 다음 위치로 이동하십시오. **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**.
 
    ![](assets/project-info-settings.png)
 
@@ -49,6 +49,6 @@ Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 �
 
 | 날짜 | 모양 |
 | --- | --- |
-| **하루** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **날짜 범위** | ![](assets/date-range.png) |
-| **겹치는 주석** | ![](assets/overlapping-annotations.png)<br></br>Analytics 대시보드 앱에서 주석 세부 사항을 보려면 주석 아이콘을 탭합니다. <br></br>차트에서 주석을 볼 때 왼쪽과 오른쪽으로 밀어서 차트에 있는 모든 주석을 탐색할 수 있습니다. 테이블에서 주석을 볼 때는 왼쪽 및 오른쪽으로 밀어서 테이블에서 해당 행 항목과 연결된 모든 주석을 탐색합니다. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>시간 기반이 없는 차트에서 *x축*&#x200B;도넛 또는 가로 막대형 차트와 같이, 오른쪽 하단에 있는 아이콘을 탭하여 차트에 적용되는 주석을 볼 수 있습니다.<br></br> ![](assets/charts-without-timebase.png) |
+| **[!UICONTROL 단일 날짜]y** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **[!UICONTROL 날짜 범위]** | ![](assets/date-range.png) |
+| **[!UICONTROL 겹치는 주석]** | ![](assets/overlapping-annotations.png)<br></br>Analytics 대시보드 앱에서 주석 세부 사항을 보려면 주석 아이콘을 탭합니다. <br></br>차트에서 주석을 볼 때 왼쪽과 오른쪽으로 밀어서 차트에 있는 모든 주석을 탐색할 수 있습니다. 테이블에서 주석을 볼 때는 왼쪽 및 오른쪽으로 밀어서 테이블에서 해당 행 항목과 연결된 모든 주석을 탐색합니다. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>시간 기반이 없는 차트에서 *x축*&#x200B;도넛 또는 가로 막대형 차트와 같이, 오른쪽 하단에 있는 아이콘을 탭하여 차트에 적용되는 주석을 볼 수 있습니다.<br></br> ![](assets/charts-without-timebase.png) |
