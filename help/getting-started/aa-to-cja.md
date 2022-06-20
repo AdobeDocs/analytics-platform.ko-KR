@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1318'
-ht-degree: 100%
+source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+workflow-type: tm+mt
+source-wordcount: '1330'
+ht-degree: 99%
 
 ---
 
@@ -34,15 +34,17 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬 {#variables}
 
-[](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)[](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) 
+[](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)[](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) This connector maps your Adobe Analytics variables directly to an XDM schema and dataset in Experience Platform, which can in turn be easily connected to Customer Journey Analytics.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
 * 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. CJA로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
 
-* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 디자인을 사용하는 경우 보다 쉽게 만들 수 있지만 새 Experience Platform을 사용하는 경우에는 필요하지 않습니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능. 이 옵션을 사용하면 데이터 스트림(또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
+* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 디자인을 사용하는 경우 보다 쉽게 만들 수 있지만 새 Experience Platform을 사용하는 경우에는 필요하지 않습니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능. 이 옵션을 사용하면 데이터 스트림(또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
 
 [!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면, CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
+
+다음은 사용 사례입니다 [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md).
 
 ### 3. 마케팅 채널 (재)구성 {#marketing-channels}
 
