@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d6b557e90c6f05efed77a77cd5d189241473c7b5
+source-git-commit: cd6f78b2ce40a3368b1e643a60e9f3070dd80c55
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 90%
+source-wordcount: '819'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 6월 | 에 대한 새 문서 [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md) |
 | 2022년 6월 | 에 대한 새 문서 [모바일 스코어카드에서 주석 공유](/help/components/annotations/mobile-annotations.md) |
 | 2022년 6월 | 에 대한 새 문서 [CJA의 Analytics Labs](/help/labs/labs.md) |
 | 2022년 6월 | 의 새 섹션 [숫자 필드를 조회 키 및 조회 값으로 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) |
