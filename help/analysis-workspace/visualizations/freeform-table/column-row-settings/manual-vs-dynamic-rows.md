@@ -3,18 +3,14 @@ title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 �
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '515'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
 
 # 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적 (시간에 따라 변경) 또는 정적 (시간에 따라 변경되지 않음)일 수 있습니다.
 

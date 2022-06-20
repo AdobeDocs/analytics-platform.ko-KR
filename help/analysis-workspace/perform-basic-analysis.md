@@ -4,18 +4,14 @@ description: Customer Journey Analytics에서 기본 시각화를 사용하여 �
 feature: CJA Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '172'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
 # 기본 분석 수행
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 연결 및 데이터 보기를 만든 후 Analysis Workspace의 강력한 기능과 유연성을 사용하여 가져온 데이터를 분석합니다. 차원과 지표를 자유롭게 테스트하고 드래그하고, 차원과 지표 속성 설정, 친숙한 이름, 시간대, 세션 설정 등을 변경할 수 있습니다.
 

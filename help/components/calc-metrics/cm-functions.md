@@ -3,20 +3,16 @@ title: 참조 - 기본 함수
 description: 계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1077'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
 
 # 참조 - 기본 함수
 
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
-
-[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.
+계산된 지표 빌더를 사용하면 고급 계산 지표에 통계 및 수학 함수를 적용할 수 있습니다.
 
 다음은 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
@@ -210,7 +206,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-**quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수 (25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수 (50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수 (75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
+&#42;*quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수 (25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수 (50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수 (75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
 
 ## 라운드
 

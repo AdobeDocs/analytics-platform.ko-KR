@@ -3,18 +3,14 @@ title: 날짜 범위 만들기
 description: 보고에 사용할 날짜 범위를 만듭니다.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
 
 # 날짜 범위 만들기
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 다음 두 가지 방법 중 하나를 사용하여 사용자 정의 날짜 범위를 생성할 수 있습니다.
 

@@ -3,18 +3,14 @@ title: 알고리즘 속성
 description: 알고리즘 속성 모델에 대한 세부 사항입니다.
 feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '298'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
 # 알고리즘 속성
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 다음은 알고리즘 속성에 대한 비디오 개요입니다.
 

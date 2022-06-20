@@ -3,18 +3,14 @@ description: Analysis Workspace의 페이지 매김, 테이블 필터링 및 정
 title: 테이블 페이지 매김, 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '233'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
 
 # 테이블 페이지 매김, 필터링 및 정렬
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [추가 정보...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace의 테이블 페이지 매김, 필터링 및 정렬에 대한 개요는 이 비디오 튜토리얼을 참조하십시오.
 

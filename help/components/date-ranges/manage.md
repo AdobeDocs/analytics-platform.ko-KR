@@ -3,18 +3,14 @@ title: 날짜 범위 관리
 description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또는 삭제합니다.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # 날짜 범위 관리
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 날짜 범위 관리자를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제합니다. 날짜 관리자에 연결하려면:
 

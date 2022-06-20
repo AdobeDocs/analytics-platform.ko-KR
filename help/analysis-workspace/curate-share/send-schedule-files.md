@@ -3,18 +3,14 @@ description: 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 �
 title: 공유 메뉴
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '195'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
 
 # 공유 메뉴
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 Workspace **공유 메뉴** 내에서 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다.
 

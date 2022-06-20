@@ -3,18 +3,14 @@ title: 속성 모델 및 전환 확인 기간
 description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
 Feature: Attribution
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
-workflow-type: ht
-source-wordcount: '1516'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1483'
 ht-degree: 100%
 
 ---
 
 # 속성 모델 및 전환 확인 기간
-
->[!NOTE]
->
->Customer Journey Analytics의 Analysis Workspace 설명서를 보고 계십니다. 이 기능은 [기존 Adobe Analytics의 Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 약간 다릅니다. [자세히 알아보기...](/help/getting-started/cja-aa.md)
 
 Customer Journey Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니다.
 
