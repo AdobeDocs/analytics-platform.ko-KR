@@ -4,10 +4,10 @@ description: Customer Journey Analytics 또는 Adobe Experience Platform에서 �
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -22,4 +22,4 @@ Customer Journey Analytics 또는 Adobe Experience Platform에서 연결, 데이
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트를 삭제 | 현재 저장된 연결 내에서는 데이터 세트를 삭제할 수 없습니다. 전체 연결을 삭제하고 다시 시작해야 합니다. (그러나 [!UICONTROL Adobe Experience Platform]에서 데이터 세트를 삭제할 수 있습니다.) |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 [!UICONTROL Customer Journey Analytics] 연결에서 동일한 일괄 처리가 제거됩니다. [!UICONTROL Customer Journey Analytics]는 [!UICONTROL Adobe Experience Platform]에서 삭제된 일괄 처리에 대한 알림을 받습니다. |
 | 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 처리가 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
-| [!UICONTROL Adobe Experience Platform]에서 조회 데이터 세트를 삭제 | 다른 소스 커넥터에 대해 데이터 세트를 삭제하는 것은 가능하지만 현재 [Analytics 분류 데이터 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications.html)에 대해서는 이 기능이 지원되지 않습니다. 실수로 데이터 세트를 삭제하는 경우 Adobe 고객 지원 센터에 문의하십시오. |
+| [!UICONTROL Adobe Experience Platform]에서 조회 데이터 세트를 삭제 | 다른 소스 커넥터에서 데이터 세트를 삭제할 수 있지만 현재 지원되지 않습니다 [Analytics 분류 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications.html). 실수로 데이터 세트를 삭제하는 경우 Adobe 고객 지원 센터에 문의하십시오. |
