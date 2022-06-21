@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: be74260829c8e383829a3163e518104d1d0f11e0
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 85%
+source-wordcount: '861'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 6월 | 에 대한 새 문서 [Analytics 소스 커넥터에 대한 Adobe Analytics 처리 규칙, VISTA 및 분류와 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | 2022년 6월 | 에 대한 새 문서 [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
 | 2022년 6월 | 에 대한 새 문서 [Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
 | 2022년 6월 | 에 대한 새 문서 [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md) |
