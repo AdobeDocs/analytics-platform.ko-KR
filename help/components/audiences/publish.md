@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상 생성 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
+source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 36%
+source-wordcount: '993'
+ht-degree: 34%
 
 ---
 
@@ -74,14 +74,19 @@ ht-degree: 36%
 
 ## Experience Platform에서 CJA 대상 사용
 
+이제 CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 RTCP(실시간 고객 프로필)로 스트리밍합니다. CJA에서는 연결이 구성되었을 때 개인 ID로 선택된 것으로 기본 ID가 설정된 상태로 Experience Platform으로 대상을 보냅니다.
 
-이제 CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 RTCP(실시간 고객 프로필)로 스트리밍합니다. 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 네임스페이스가 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 장치의 클러스터입니다. 프로필을 찾으면 이 프로필의 다른 ID에 네임스페이스 및 ID를 세그먼트 멤버십 속성으로 추가합니다. 이제, 예를 들어 &quot;user@adobe.com&quot;은 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필이 없으면 새 프로필이 만들어집니다.
+그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 네임스페이스가 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 장치의 클러스터입니다. 프로필을 찾으면 이 프로필의 다른 ID에 네임스페이스 및 ID를 세그먼트 멤버십 속성으로 추가합니다. 이제, 예를 들어 &quot;user@adobe.com&quot;은 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필이 없으면 새 프로필이 만들어집니다.
 
 **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**&#x200B;으로 이동하여 플랫폼에서 CJA 대상을 볼 수 있습니다.
 
 CJA 대상을 AEP 세그먼트에 대한 세그먼트 정의로 드래그할 수 있습니다.
 
 ![](assets/audiences-aep.png)
+
+## 사용자가 CJA에서 더 이상 대상 구성원이 아닌 경우 어떻게 됩니까?
+
+이 경우 종료 이벤트가 CJA의 Experience Platform으로 전송됩니다.
 
 ## 다음 단계
 
