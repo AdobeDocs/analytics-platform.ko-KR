@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
+* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
 
 ### 기타 고려 사항
 
