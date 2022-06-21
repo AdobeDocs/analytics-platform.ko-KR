@@ -4,10 +4,10 @@ description: 크로스 채널 분석의 "재생" 개념 이해
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: a67350c60593385daaeb01fb8afb9c57b423935a
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 * **재생**: CCA는 학습한 고유 식별자를 기반으로 데이터를 &quot;재생&quot;합니다. 이 단계에서 연결에 대해 새로운 디바이스가 결합됩니다. Adobe에서는 두 개의 재생 간격을 제공합니다.
    * 일별: 데이터는 매일 24시간 전환 확인 기간을 사용하여 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 방문자는 사이트를 방문하는 당일 인증해야 합니다.
    * 주별: 데이터를 일주일에 한 번, 7일 전환 확인 기간으로 재생합니다. 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 그러나 1주일 미만의 데이터는 결합되지 않습니다.
+
+전환 확인 기간 이상의 데이터는 재생되지 않습니다. 인증되지 않은 방문과 인증된 방문을 함께 식별하려면 방문자가 주어진 전환 확인 기간 내에서 인증해야 합니다. 장치가 인식되면 해당 시점부터 라이브로 결합됩니다.
 
 ## 1단계: 라이브 결합
 
