@@ -4,10 +4,10 @@ description: 크로스 채널 분석 FAQ
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: f181584603d62b09ebc8538759d47fb1e03b007a
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 95%
+source-wordcount: '966'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ CJA의 특정 지표는 기존 Analytics의 지표와 유사하지만 비교하�
 
 | **CJA에 결합된 데이터** | **CJA에 결합되지 않은 데이터** | **기존 Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **인원**&#x200B;은 `Stitched ID`가 `Person ID`로 선택된 고유한 `Person ID`의 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **인원**&#x200B;은 `Person ID`로 선택된 열에 기반한 고유 `Person ID`의 수입니다. Adobe Analytics 커넥터 (ADC) 데이터 세트에 있는 **인원**&#x200B;은 CJA에서 `endUserIDs. _experience. aaid.id`가 `Person ID`로 선택된 경우 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;와 유사합니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
+| **인원**&#x200B;은 `Stitched ID`가 `Person ID`로 선택된 고유한 `Person ID`의 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **인원**&#x200B;은 `Person ID`로 선택된 열에 기반한 고유 `Person ID`의 수입니다. **사람** Adobe 소스 커넥터 데이터 세트는 **고유 방문자 수** 다음과 같은 경우 기존 Adobe Analytics `endUserIDs. _experience. aaid.id` 다음으로 선택됨 `Person ID` 참조하십시오. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
 | **세션**&#x200B;은 CJA 데이터 보기에 지정된 세션화 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**&#x200B;은 CJA 데이터 보기에 지정된 세션화 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko-KR)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=ko-KR)에 지정된 세션화 설정을 기반으로 정의됩니다. |
 | **이벤트**&#x200B;는 CJA에서 결합된 데이터의 행 수입니다. 일반적으로 이는 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 빈 `Persistent ID`가 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트**&#x200B;는 CJA에서 결합되지 않은 데이터의 행 수입니다. 일반적으로 이는 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 AEP 데이터 레이크의 연결되지 않은 데이터에 빈 `Person ID`가 포함된 이벤트가 있는 경우 이러한 이벤트는 CJA에서 삭제(미포함)됩니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html)를 참조하십시오. |
 
