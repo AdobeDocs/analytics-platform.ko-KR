@@ -5,7 +5,7 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
 ht-degree: 100%
 
@@ -59,14 +59,14 @@ ht-degree: 100%
 
 ## 수신자 그룹에 공유 {#Groups}
 
-모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Customer Journey Analytics에서 그룹은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 프로필로 정의됩니다.
+모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Customer Journey Analytics에서 그룹은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 제품 프로필로 정의됩니다.
 
 * 관리자는 &quot;모두&quot;를 비롯한 모든 그룹과 공유할 수 있습니다.
 * 관리자가 아닌 사용자는 &quot;모두&quot;를 제외하고 자신이 구성원으로 있는 그룹과 공유할 수 있습니다.
 
 ## 프로젝트 링크 공유 {#Links}
 
-**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html).
+**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ko-KR).
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 
