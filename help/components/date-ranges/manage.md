@@ -4,7 +4,7 @@ description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
 ht-degree: 100%
 
