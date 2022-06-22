@@ -5,7 +5,7 @@ title: 사용자 정의 날짜 범위 만들기
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
-Use *`rolling daily`*.
+ *`rolling daily`*.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
