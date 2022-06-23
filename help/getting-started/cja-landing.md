@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 11135c695610e8cb477419ed6794483bd201a0ee
+source-git-commit: 85b804d2bb67daf1f69433524d1cd8fab0e4c5d5
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,11 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR"> FAQ</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>릴리스 정보</b> </p> 
     <ul> 
-     <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external">Customer Journey Analytics 정보</a>를 참조하십시오. </li> 
+     <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external">Customer Journey Analytics 정보</a>를 참조하십시오. </li>
+    <td colname="col2" valign="top"> <p class="head"><b>CJA API</b> </p> 
+    <ul> 
+     <li>모두 보기 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external"> Customer Journey Analytics API</a>. </li>
+      <li>최신 항목 보기 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external"> Customer Journey Analytics 보고 API</a>. </li>
     </ul> <p class="head"> <b>Adobe Experience Platform 리소스</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/kr/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
