@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 85b804d2bb67daf1f69433524d1cd8fab0e4c5d5
+source-git-commit: 464961194405341b0bb8240a9e327d668d4cde64
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 86%
+source-wordcount: '404'
+ht-degree: 69%
 
 ---
 
@@ -26,19 +26,21 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=en"> 보고서 세트를 다른 스키마와 결합 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en"> CJA 대상 게시 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Adobe Analytics 및 CJA 보고 기능에서 데이터 처리 비교 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko-KR"> Adobe Analytics-Customer Journey Analytics 진화 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=ko-KR"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 강화된 데이터 보기 기능 사용 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=ko-KR#cja-usecases"> Google Analytics 데이터를 Adobe Experience Platform으로 수집 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=ko-KR#cja-usecases"> CJA에서 Google Analytics 데이터 분석 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석 (Customer Journey Analytics에서의 ID 결합) </a> </li>
+   <td colname="col2" valign="top"><p class="head"> <b>시작하기</b> </p> 
+      <ul> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=ko-KR"> Customer Journey Analytics 시작하기 </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR"> FAQ</a> </li> 
-   <td colname="col2" valign="top"> <p class="head"><b>릴리스 정보</b> </p> 
-    <ul> 
-     <li>새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external">Customer Journey Analytics 정보</a>를 참조하십시오. </li>
-    <td colname="col2" valign="top"> <p class="head"><b>CJA API</b> </p> 
+   </ul> <p class="head"><b>릴리스 정보</b> </p> 
+     <li>최신 항목 보기 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external"> Customer Journey Analytics 릴리스 노트</a> 새 기능 및 수정 사항에 대해 설명합니다. </li>
+    <td colname="col3" valign="top"> <p class="head"><b>CJA API</b> </p> 
     <ul> 
      <li>모두 보기 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external"> Customer Journey Analytics API</a>. </li>
       <li>최신 항목 보기 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external"> Customer Journey Analytics 보고 API</a>. </li>
