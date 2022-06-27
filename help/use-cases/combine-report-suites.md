@@ -2,9 +2,9 @@
 title: 보고서 세트와 다른 스키마 결합
 description: 데이터 준비를 사용하여 보고서 세트를 다른 스키마와 결합하는 방법을 알아봅니다
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
-source-git-commit: b7446d204eab2530d188600aed7e4cc0c603bf1d
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1335'
 ht-degree: 3%
 
 ---
@@ -156,6 +156,6 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 ## 데이터 준비와 구성 요소 ID 비교
 
-위에 설명된 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에 서로 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 CJA 연결로 결합하려는 경우 CJA에서 유용합니다. 그러나 보고서 세트를 별도의 CJA 연결에 보관하려고 하지만 그러한 연결 및 데이터 보기에서 한 세트의 보고서를 사용하려는 경우 CJA에서 기본 구성 요소 ID를 변경하면 스키마가 다른 경우에도 보고서가 호환될 수 있습니다. 자세한 내용은 [구성 요소 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) 추가 정보.
+위에 설명된 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에 서로 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 CJA 연결로 결합하려는 경우 CJA에서 유용합니다. 그러나 보고서 세트를 별도의 CJA 연결에 보관하려고 하지만 이러한 연결 및 데이터 보기에서 한 개의 보고서 세트를 사용하려는 경우 CJA에서 기본 구성 요소 ID를 변경하면 스키마가 다른 경우에도 보고서가 호환될 수 있습니다. 자세한 내용은 [구성 요소 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) 추가 정보.
 
 구성 요소 ID 변경은 CJA 전용 기능이며 실시간 고객 프로필 및 RTCDP로 전송되는 Analytics 소스 커넥터의 데이터에는 영향을 주지 않습니다.
