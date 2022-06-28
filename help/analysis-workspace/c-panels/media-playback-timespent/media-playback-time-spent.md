@@ -3,11 +3,10 @@ title: 미디어 재생 소요 시간 패널
 description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 사용하고 해석하는 방법.
 feature: Panels
 role: User, Admin
-exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
+source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 84%
 
 ---
 
