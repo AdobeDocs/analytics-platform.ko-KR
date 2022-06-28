@@ -3,10 +3,10 @@ description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 | [빠른 인사이트 패널](quickinsight.md) | 인사이트를 더 빨리 분석하고 발견할 수 있도록 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 구축하십시오. |
 | [속성 패널](attribution.md) | 파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
 | [자유 형식 패널](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
+| [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
+| [미디어 재생 소요 시간 패널](media-playback-timespent/media-playback-time-spent.md) | 재생 시간을 분석하여 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악합니다. |
 
 ![](assets/panel-overview.png)
 

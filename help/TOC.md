@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 348f4e8596146f7ff4234535fa76a54f7be33171
+source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 93%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 93%
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
+      + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + 미디어 재생 소요 시간 {#media-playback-timespent}
+         + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [입력 및 출력 설정](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [FAQ](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
