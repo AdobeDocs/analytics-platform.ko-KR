@@ -4,16 +4,16 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 96%
 
 ---
 
 # 미디어 동시 뷰어 패널
 
-Media Analytics 고객은 동시 시청자를 분석하여 최대 동시 시청 시간 발생 위치 또는 시청 감소 발생 위치를 파악하여 콘텐츠 품질 및 시청자 참여에 대한 귀중한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
+동시 시청자를 분석하여 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
 
 Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유 방문자 수입니다.
 

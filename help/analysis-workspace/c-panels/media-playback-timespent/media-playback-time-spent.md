@@ -4,16 +4,16 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 미디어 재생 소요 시간 패널
 
-Media Analytics 고객은 재생 시간을 분석하여 최대 동시 시청 시간 발생 위치 또는 시청 감소 발생 위치를 파악하여 콘텐츠 품질 및 시청자 참여에 대한 귀중한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
+재생 시간을 분석하여 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
 
 Analysis Workspace에서 재생 소요 시간은 특정 시점에서 미디어 스트림을 시청하는 데 소요된 시간이며 일시 중지, 버퍼 및 시작 시간을 포함합니다.
 
