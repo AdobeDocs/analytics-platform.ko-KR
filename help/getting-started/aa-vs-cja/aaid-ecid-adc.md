@@ -2,7 +2,7 @@
 title: AAID, ECID, AACUCUSTOMER 및 Analytics 소스 커넥터
 description: Analytics 소스 커넥터가 Adobe Analytics ID 필드를 어떻게 처리하는지 알아봅니다.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 20ebfb36e769f7d683ad44ec84b11aafb301a737
+source-git-commit: 89fb87653355ffe174d9ad7e19eb5979dd78eaaf
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 9%
@@ -17,7 +17,7 @@ Adobe Analytics 데이터에는 여러 ID 필드가 포함되어 있습니다. �
 
 AAID(Adobe Analytics ID)는 Adobe Analytics의 기본 장치 식별자이며, Analytics 소스 커넥터를 통해 전달된 모든 이벤트에 존재할 수 있습니다. AAID를 &quot;기존 Analytics ID&quot;라고도 하거나 `s_vi` 쿠키 id. 그러나 AAID는 `s_vi` 쿠키가 없습니다. AAID는 `post_visid_high/post_visid_low` 열 [Adobe Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR#columns%2C-descriptions%2C-and-data-types).
 
-Analytics 소스 커넥터에서 AAID가 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. 지정된 이벤트의 AAID 필드에는 에 설명된 대로 여러 유형 중 하나일 수 있는 단일 ID가 포함되어 있습니다 [Analytics ID 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (전체 보고서 세트 내에서 AAID에는 여러 이벤트 간에 유형이 혼합되어 있을 수 있습니다. 각 히트에 대한 유형은 `post _visid_type` analytics 데이터 피드의 열.) 다음을 참조하십시오. [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR).
+Analytics 소스 커넥터에서 AAID가 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. 지정된 이벤트의 AAID 필드에는 에 설명된 대로 여러 유형 중 하나일 수 있는 단일 ID가 포함되어 있습니다 [Analytics ID 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=en%5B%5D). (전체 보고서 세트 내에서 AAID에는 여러 이벤트 간에 유형이 혼합되어 있을 수 있습니다. 각 히트에 대한 유형은 `post_visid_type` analytics 데이터 피드의 열.) 다음을 참조하십시오. [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR).
 
 ## ECID
 
