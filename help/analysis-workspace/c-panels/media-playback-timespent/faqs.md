@@ -3,14 +3,19 @@ title: 미디어 재생 소요 시간 FAQ
 description: 미디어 재생 소요 시간 FAQ에는 무엇이 있습니까?
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: be5d5557-ef5f-4a13-8d4c-0a64a8163412
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
 
 # 미디어 재생 소요 시간 FAQ
+
+>[!NOTE]
+>
+>이 기능은 현재 [제한적 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 
 | 질문 | 답변 |

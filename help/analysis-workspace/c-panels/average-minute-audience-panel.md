@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 
 
 # 미디어 분당 평균 시청 시간 패널
+
+<!-- THIS FEATURE IS SCHEDULED FOR 2023 -->
 
 Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. 대상 평균 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 메트릭과 비교하거나 추가할 수 있습니다. 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상 평균을 보다 유연하게 측정할 수 있습니다. 현재 대상 평균 시간 메트릭은 처리 시간에 지속 시간을 사용할 수 있는 경우에만 작동합니다.
 
