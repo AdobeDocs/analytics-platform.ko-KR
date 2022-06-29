@@ -2,14 +2,18 @@
 title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1abc116892405772530e8c254299b40167613656
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 77%
+source-wordcount: '355'
+ht-degree: 78%
 
 ---
 
 # CJA 대상 게시 개요
+
+>[!NOTE]
+>
+>이 기능은 현재 [제한적 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 이제 Customer Journey Analytics(CJA)에서 검색된 대상을 만들고 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR?lang=en) 고객 타깃팅 및 개인화를 위해 Adobe Experience Platform에서 (RTCP)
 
