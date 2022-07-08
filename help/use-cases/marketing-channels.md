@@ -1,30 +1,30 @@
 ---
 title: Adobe Experience Platform에서의 마케팅 채널 차원 사용
-description: 분석 소스 커넥터를 사용하여 마케팅 채널 처리 규칙을 Adobe Experience Platform으로 가져옵니다.
+description: Analytics 소스 커넥터를 사용하여 마케팅 채널 처리 규칙을 Adobe Experience Platform으로 가져옵니다.
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Platform에서의 마케팅 채널 차원 사용
 
-조직에서 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 보고서 세트 데이터를 CJA로 가져오기 위해 CJA에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
+조직에서 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 보고서 세트 데이터를 CJA로 가져오는 경우 CJA에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
 
 ## 사전 요구 사항
 
-* 보고서 세트 데이터는 미리 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html). 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
+* 보고서 세트 데이터는 미리 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
 * 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 기존 분석 구성 요소 안내서의 [마케팅 채널 처리 규칙](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=ko-KR)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
 
 원하는 보고서 세트에 대한 Analytics 소스 커넥터를 설정하면 XDM 스키마가 만들어집니다. 이 스키마에는 모든 분석 차원 및 지표가 원시 데이터로 포함되어 있습니다. 이 원시 데이터에는 속성 또는 지속성을 포함하지 않습니다. 대신 각 이벤트는 마케팅 채널 처리 규칙을 통해 실행되고 일치하는 첫 번째 규칙을 기록합니다. CJA에서 데이터 보기를 만들 때 속성과 지속성을 지정합니다.
 
-1. [연결 만들기](/help/connections/create-connection.md) 여기에는 Analytics 소스 커넥터 기반의 데이터 세트가 포함됩니다.
+1. Analytics 소스 커넥터 기반의 데이터 세트를 포함하는 [연결을 만듭니다](/help/connections/create-connection.md).
 2. 다음 차원을 포함하는 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
    * **`channel.typeAtSource`**: [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=ko-KR) 차원에 해당합니다.
    * **`channel._id`**: [마케팅 채널 세부 사항](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=ko-KR)에 해당합니다.
@@ -66,5 +66,5 @@ Adobe Experience Platform의 아키텍처는 기존의 Analytics 보고서 세�
 * 위에 나열된 아키텍처 차이점이 비교에 영향을 주지 않는지 확인합니다. 여기에는 마지막 터치 채널을 무시하지 않는 채널을 제거하고 방문의 첫 번째 히트(세션)인 규칙 기준을 제거하는 작업이 포함됩니다.
 * 연결에 기존 Analytics와 동일한 보고서 세트를 사용하는지 다시 확인하십시오. CJA 연결에 자체 마케팅 채널 처리 규칙이 있는 보고서 세트가 여러 개 있는 경우 기존 Analytics와 비교하는 쉬운 방법이 없습니다. 데이터를 비교하기 위해 각 보고서 세트에 대해 별도의 연결을 만들어야 합니다.
 * 동일한 날짜 범위를 비교하고 데이터 보기의 시간대 설정이 보고서 세트의 시간대와 같은지 확인합니다.
-* 보고서 세트 데이터를 볼 때 사용자 정의 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=ko-KR)이나 [마지막 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=ko-KR)을 비교하지 않도록 권장합니다. CJA는 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 CJA 보고서가 실행되면 계산됩니다.
+* 보고서 세트 데이터를 볼 때 사용자 정의 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=ko-KR) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=ko-KR)이나 [마지막 터치 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=ko-KR)을 비교하지 않도록 권장합니다. CJA는 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 CJA 보고서가 실행되면 계산됩니다.
 * 일부 지표는 보고서 세트 데이터와 플랫폼 데이터 간의 아키텍처 차이로 인해 비교하기가 어렵습니다. 방문 횟수/세션 수, 방문자 수/사람 및 발생 횟수/이벤트 횟수 등을 예로 들 수 있습니다.
