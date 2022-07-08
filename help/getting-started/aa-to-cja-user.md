@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ CJA 관리자가 설정합니다 [연결](/help/connections/create-connection.md
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe은 Adobe Analytics 소스 커넥터 또는 웹 SDK를 통해 보고서 세트 데이터를 포함하여 Adobe Experience Platform으로 데이터를 가져오는 여러 가지 방법을 제공합니다. 여러 보고서 세트의 기존 구현을 Experience Platform에 결합할 수 있습니다. 이러한 데이터 세트를 기반으로 하는 연결 및 데이터 보기는 별도의 보고서 세트에 이전에 존재했던 데이터를 결합할 수 있습니다.
+Adobe는 Adobe Analytics 소스 커넥터 또는 웹 SDK를 통해 보고서 세트 데이터를 포함하여 Adobe Experience Platform으로 데이터를 가져오는 여러 가지 방법을 제공합니다. 여러 보고서 세트의 기존 구현을 Experience Platform에 결합할 수 있습니다. 이러한 데이터 세트를 기반으로 하는 연결 및 데이터 보기는 별도의 보고서 세트에 이전에 존재했던 데이터를 결합할 수 있습니다.
 
 ## 가상 보고서 세트의 개념 변경 {#data-views}
 
@@ -72,7 +72,7 @@ Adobe는 업계 표준에 맞게 “세그먼트” 구성 요소를 “필터�
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
-아직 공유하거나 게시할 수 없는 상태입니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서 ) [!DNL Customer Journey Analytics] 통합 프로필을 Experience Platform하려면 이 기능은 개발 중입니다.
+아직 공유하거나 게시할 수 없는 상태입니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서) [!DNL Customer Journey Analytics] 통합 프로필을 Experience Platform하려면 이 기능은 개발 중입니다.
 
 세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
 
