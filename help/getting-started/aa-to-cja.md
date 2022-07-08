@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1333'
+ht-degree: 100%
 
 ---
 
@@ -34,17 +34,17 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬 {#variables}
 
-[](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)[](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) This connector maps your Adobe Analytics variables directly to an XDM schema and dataset in Experience Platform, which can in turn be easily connected to Customer Journey Analytics.
+Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
 * 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. CJA로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
 
-* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 디자인을 사용하는 경우 보다 쉽게 만들 수 있지만 새 Experience Platform을 사용하는 경우에는 필요하지 않습니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능. 이 옵션을 사용하면 데이터 스트림(또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
+* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 디자인을 사용하는 경우 보다 쉽게 만들 수 있지만 새 Experience Platform을 사용하는 경우에는 필요하지 않습니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능. 이 옵션을 사용하면 데이터 스트림(또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
 
-[!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면, CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
+[!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면 CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
 
-다음은 사용 사례입니다 [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md).
+다음은 [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md)하는 사용 사례입니다.
 
 ### 3. 마케팅 채널 (재)구성 {#marketing-channels}
 
@@ -104,13 +104,13 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=ko-KR)
 
 ### 기타 고려 사항
 
 * 강력한 CJA 데이터 보기를 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 훨씬 유연하게 정의할 수 있습니다. 예를 들어 차원 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md)
 
-* [](/help/components/date-ranges/custom-date-ranges.md) 캘린더가 올바르게 정의되었는지 확인해야 합니다.
+* Adobe Analytics에서 [사용자 정의 캘린더](/help/components/date-ranges/custom-date-ranges.md)를 정의한 경우 CJA 내에서 유사한 캘린더 기능을 사용할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 
