@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 31d4faaf14adb7f11f975f77864074cd25a6e3bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2473'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -109,19 +109,19 @@ ht-degree: 92%
 
 ## 숫자 필드를 조회 키 및 조회 값으로 사용 {#numeric}
 
-이 기능은 비용 또는 여백과 같은 숫자 필드를 문자열 기반 키 필드에 추가하려는 경우 유용합니다. 숫자 값을 키 또는 값으로 사용하여 조회의 일부로 사용할 수 있습니다. 조회 스키마에서 제품 이름, COGS, 캠페인 마케팅 비용 또는 여백과 같은 숫자 값이 연결되어 있을 수 있습니다. 다음은 Adobe Experience Platform의 조회 스키마 예입니다.
+이 기능은 비용 또는 이윤과 같은 숫자 필드를 문자열 기반 키 필드에 추가할 때 유용합니다. 숫자 값을 키 또는 값으로 조회에 포함할 수 있습니다. 조회 스키마에서는 제품 이름, COGS, 캠페인 마케팅 비용 또는 이윤과 같은 숫자 값을 연결할 수 있습니다. 다음은 Adobe Experience Platform의 조회 스키마 예제입니다.
 
-![스키마 조회](assets/schema.png)
+![조회 스키마](assets/schema.png)
 
-이제 이러한 값을 지표 또는 차원으로 CJA 보고로 가져올 수 있습니다. 연결을 설정하고 조회 데이터 세트를 가져올 때 데이터 세트를 편집하여 [!UICONTROL 키] 및 [!UICONTROL 일치하는 키]:
+이제 이러한 값을 CJA 보고에 지표 또는 차원으로 가져오도록 지원합니다. 연결을 설정하고 조회 데이터 세트를 가져올 때 데이터 세트를 편집하여 [!UICONTROL 키] 및 [!UICONTROL 일치하는 키]를 선택할 수 있습니다.
 
-![데이터 집합 편집](assets/lookup-dataset.png)
+![데이터 세트 편집](assets/lookup-dataset.png)
 
-이 연결을 기반으로 데이터 보기를 설정하면 숫자 값을 데이터 보기에 구성 요소로 추가합니다. 그런 다음 이 데이터 보기를 기반으로 하는 모든 프로젝트는 이러한 숫자 값에 대해 보고할 수 있습니다.
+이 연결을 기준으로 데이터 보기를 설정할 때 숫자 값을 데이터 보기에 구성 요소로 추가합니다. 이 데이터 보기를 기반으로 하는 프로젝트는 이러한 숫자 값을 보고할 수 있습니다.
 
 ## ID 맵을 개인 ID로 사용 {#id-map}
 
-Customer Journey Analytics은 개인 ID에 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 키 -> 값 쌍을 업로드할 수 있는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
+Customer Journey Analytics에서는 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 -> 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
 
 ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
 
