@@ -4,7 +4,7 @@ title: 테이블 페이지 매김, 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
