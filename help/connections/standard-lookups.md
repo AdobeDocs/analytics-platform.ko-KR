@@ -5,9 +5,9 @@ exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 ## Adobe 소스 커넥터 데이터 세트에서 표준 조회 사용
 
-표준 조회 데이터 세트는 보고서 시간에 자동으로 적용됩니다. Analytics 소스 커넥터 를 사용하고 Adobe에서 표준 조회를 제공하는 차원을 가져오는 경우, 이 표준 조회를 자동으로 적용합니다. 이벤트 데이터 세트에 XDM 필드가 포함된 경우 표준 조회를 해당 이벤트에 적용할 수 있습니다.
+표준 조회 데이터 세트는 보고서 시간에 자동으로 적용됩니다. Analytics 소스 커넥터를 사용하고 Adobe에서 표준 조회를 제공하는 차원을 가져오는 경우, 이 표준 조회를 자동으로 적용합니다. 이벤트 데이터 세트에 XDM 필드가 포함된 경우 표준 조회를 해당 이벤트에 적용할 수 있습니다.
 
 <!--
 ### Specific IDs that need to be populated
