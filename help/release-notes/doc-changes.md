@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 159e24bb2a0dc40463679a6a672af773e8ce101f
+source-git-commit: 70df0ae886508b703d0b87d3608b75f21d7952a6
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '863'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,6 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 6월 | [CJA의 Analytics Labs](/help/labs/labs.md)에 대한 새 문서 |
 | 2022년 6월 | [숫자 필드를 조회 키 및 조회 값으로 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)에 대한 새 섹션 |
 | 2022년 6월 | [플로우 시각화 워크플로](/help/analysis-workspace/visualizations/c-flow/create-flow.md)에 대한 업데이트 |
-| 2022년 6월 | [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)에 대한 새 설명서 |
 | 2022년 5월 | CJA에서 [연결 생성](/help/connections/create-connection.md)에 대한 문서가 대폭 업데이트되었습니다. |
 | 2022년 5월 | [CJA Report Builder에서 데이터 블록을 관리](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=ko-KR)하는 방법에 대한 새로운 문서 |
 | 2022년 5월 | [Adobe Experience Platform 대상을 CJA로 수집](/help/use-cases/ingest-aep-segments.md)하는 것에 대한 새로운 문서 |
