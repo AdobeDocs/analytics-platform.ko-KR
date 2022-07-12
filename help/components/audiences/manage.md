@@ -5,7 +5,7 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 67%
+ht-degree: 95%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 67%
 | UI 설정 | 정의 |
 | --- | --- |
 | 필터 숨기기/표시 | 왼쪽 레일에서 다음 필터를 표시하거나 숨길 수 있습니다. <ul><li>[!UICONTROL 데이터 보기]</li><li>[!UICONTROL 소유자]</li><li>[!UICONTROL 새로 고침 빈도]</li><li>[!UICONTROL 태그]</li></ul> |
-| [!UICONTROL 제목 및 설명] | 대상자를 만들 때 대상자에게 제공된 제목 및 설명입니다. |
-| [!UICONTROL 데이터 보기] | 이 대상자를 만든 데이터 보기입니다. |
-| [!UICONTROL 대상 크기] | 이 대상의 총 사람 수입니다. |
-| [!UICONTROL 소유자] | 대상자의 소유자 - 대상자를 만든 사용자입니다. |
-| [!UICONTROL 새로 고침 빈도] | 대상자를 만들 때 구성된 새로 고침 간격입니다. |
-| [!UICONTROL 태그] | 이 대상자에 적용되는 모든 태그. |
-| [!UICONTROL 퍼블리싱 상태] | 표시 가능 [!UICONTROL 준비], [!UICONTROL 진행 중], 또는 [!UICONTROL 오류]. |
-| [!UICONTROL  마지막으로 새로 고침] | 대상을 마지막으로 새로 고침했을 때. |
-| [!UICONTROL 마지막 수정일] | 대상을 마지막으로 편집하거나 수정한 경우 |
+| [!UICONTROL 제목 및 설명] | 만들 때 대상에게 제공된 제목과 설명입니다. |
+| [!UICONTROL 데이터 보기] | 이 대상을 만든 데이터 보기입니다. |
+| [!UICONTROL 대상 크기] | 이 대상에 있는 총 인원수입니다. |
+| [!UICONTROL 소유자] | 대상의 소유자 - 대상을 만든 사람입니다. |
+| [!UICONTROL 새로 고침 빈도] | 대상을 만들 때 구성된 새로 고침 간격입니다. |
+| [!UICONTROL 태그] | 이 대상에 적용된 태그입니다. |
+| [!UICONTROL 퍼블리싱 상태] | [!UICONTROL 준비], [!UICONTROL 진행 중] 또는 [!UICONTROL 오류]를 표시할 수 있습니다. |
+| [!UICONTROL  마지막으로 새로 고침] | 대상을 마지막으로 새로 고친 때입니다. |
+| [!UICONTROL 마지막 수정일] | 대상을 마지막으로 편집 또는 수정한 때입니다. |
 
 {style=&quot;table-layout:auto&quot;}

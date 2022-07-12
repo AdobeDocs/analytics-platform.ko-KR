@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -172,7 +172,7 @@ ht-degree: 93%
       + [주석 관리](components/annotations/manage-annotations.md)
       + [주석 보기](components/annotations/view-annotations.md)
       + [모바일 주석](components/annotations/mobile-annotations.md)
-   + 대상 {#audiences}
+   + 대상자 {#audiences}
       + [대상 개요](components/audiences/audiences-overview.md)
       + [대상 생성 및 게시](components/audiences/publish.md)
       + [대상 관리](components/audiences/manage.md)
@@ -223,7 +223,7 @@ ht-degree: 93%
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 활용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
-   + [보고서 세트와 다른 스키마 결합](use-cases/combine-report-suites.md)
+   + [보고서 세트를 다른 스키마와 결합](use-cases/combine-report-suites.md)
    + [오브젝트 배열 사용](use-cases/object-arrays.md)
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
