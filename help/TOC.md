@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
+source-git-commit: f6ad28f8ed766bd25986da48bfd7bd7e86df0861
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '693'
 ht-degree: 98%
 
 ---
@@ -172,10 +172,6 @@ ht-degree: 98%
       + [주석 관리](components/annotations/manage-annotations.md)
       + [주석 보기](components/annotations/view-annotations.md)
       + [모바일 주석](components/annotations/mobile-annotations.md)
-   + 대상자 {#audiences}
-      + [대상 개요](components/audiences/audiences-overview.md)
-      + [대상 생성 및 게시](components/audiences/publish.md)
-      + [대상 관리](components/audiences/manage.md)
    + 차원 {#dimensions}
       + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
