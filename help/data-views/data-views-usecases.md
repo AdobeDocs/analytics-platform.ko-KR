@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 78%
+source-wordcount: '1085'
+ht-degree: 69%
 
 ---
 
@@ -87,7 +87,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
 
-## 세션 보고 및 반복 {#new-repeat}
+## 7. 신규 및 반복 세션 보고 {#new-repeat}
 
 이 데이터 보기에 대해 정의한 보고 기간과 13개월 전환 확인 기간을 기반으로, 세션이 실제로 사용자의 첫 번째 세션인지 여부를 결정할 수 있습니다. 이 보고를 통해 다음과 같은 사항을 결정할 수 있습니다.
 
@@ -97,9 +97,9 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 이 보고를 용이하게 하는 구성 요소는 다음과 같습니다.
 
-* 1 차원: 새 세션과 재방문 세션 비교
+* 1 차원: [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - 이 차원에는 두 개의 값이 있습니다. 1) [!UICONTROL 새로 만들기] 및 2) [!UICONTROL 재방문]. 다음 [!UICONTROL 새로 만들기] 라인 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 동작(즉, 이 차원에 대한 지표)이 포함됩니다. 기타 모든 항목이 [!UICONTROL 재방문] 라인 항목(모든 항목이 세션에 속한다고 가정). 지표는 세션의 일부가 아닌 경우 이 차원에 대한 &#39;적용할 수 없음&#39; 버킷에 속합니다.
 
-* 2 지표: 새 세션, 세션 반환
+* 2 지표: [새 세션, 세션 반환](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 새 세션은 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다. Return sessions는 사용자의 첫 번째 세션이 아닌 세션 수입니다.
 
 다음 구성 요소에 액세스하려면
 
@@ -109,7 +109,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 95%-99%의 신규 세션이 정확하게 보고됩니다. 유일한 예외는 다음과 같습니다.
 
-* 13개월 전환 확인 기간 전에 세션이 발생한 경우. 이 세션은 무시됩니다.
+* 13개월 전환 확인 기간 전에 첫 번째 세션이 발생한 경우. 이 세션은 무시됩니다.
 
 * 세션이 전환 확인 기간과 보고 기간에 걸쳐 있는 경우. 보고서를 2022년 6월 1일부터 6월 15일까지 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 전환 확인 기간에 포함되므로 2022년 5월 30일에 시작되고 2022년 6월 1일에 종료되는 경우, 보고 기간의 모든 세션이 반환 세션으로 계산됩니다.
 
