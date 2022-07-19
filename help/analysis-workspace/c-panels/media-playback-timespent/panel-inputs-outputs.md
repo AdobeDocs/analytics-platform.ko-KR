@@ -4,19 +4,14 @@ description: 미디어 재생 소요 시간 입력 및 출력 설정은 무엇�
 feature: Panels
 role: User, Admin
 exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
 
 # 미디어 재생 소요 시간 패널 입력 및 출력 {#Inputs-and-outputs}
-
->[!NOTE]
->
->이 기능은 현재 [제한적 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
-
 
 다음 입력 및 출력 설정을 사용하여 미디어 재생 소요 시간 패널을 맞춤 설정할 수 있습니다.
 
