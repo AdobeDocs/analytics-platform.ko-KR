@@ -4,9 +4,9 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 64cd3983f58f1f0de1d8639e5cb1e705dd72ef44
+source-git-commit: f2a10a34618d625157445bbb496cf3fc93d280af
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '917'
 ht-degree: 100%
 
 ---
@@ -51,30 +51,6 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 * 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 CJA 추가 기능이 있는지 확실하지 않은 경우 조직의 계정 관리자에게 문의하십시오.
 * 조직에 Adobe Experience Platform이 프로비저닝되었습니다.
-
-## 관리자 액세스 권한
-
-연결 만들기, 데이터 세트 추가 등을 수행하려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 다음 권한이 필요합니다.
-
-* Customer Journey Analytics에 액세스하거나 연결을 만들려면 [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **Customer Journey Analytics 제품**&#x200B;에 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
-   * 연결 또는 데이터 보기 만들기/업데이트/삭제
-   * 다른 사용자가 만든 프로젝트, 필터, 계산된 지표 또는 필터 업데이트/삭제
-   * 모든 사용자에게 작업 영역 프로젝트 공유
-* Customer Journey Analytics 내에서 제품 관리자가 되는 것만으로는 연결을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
-   * 스키마 보기
-   * 스키마 관리
-   * ID 네임스페이스 보기
-   * 데이터 세트 보기
-
-Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko)를 참조하십시오.
-
->[!NOTE]
->
->Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원을 거부하거나 허용할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 변경할 수 있으므로 보고도 소급 변경하는 CJA의 변경으로부터 영향을 받습니다.
-
-### 사용자 액세스
-
-Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
 
 ## 용어 업데이트
 
