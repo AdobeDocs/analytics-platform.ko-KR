@@ -4,9 +4,9 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1092'
 ht-degree: 69%
 
 ---
@@ -88,6 +88,10 @@ f. &quot;50&quot;을 값으로 지정합니다.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
 
 ## 7. 신규 및 반복 세션 보고 {#new-repeat}
+
+>[!NOTE]
+>
+>이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
 
 이 데이터 보기에 대해 정의한 보고 기간과 13개월 전환 확인 기간을 기반으로, 세션이 실제로 사용자의 첫 번째 세션인지 여부를 결정할 수 있습니다. 이 보고를 통해 다음과 같은 사항을 결정할 수 있습니다.
 

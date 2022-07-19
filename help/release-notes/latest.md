@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 44%
@@ -12,7 +12,7 @@ ht-degree: 44%
 
 # 현재 Customer Journey Analytics(CJA) 릴리스 노트(2022년 7월)
 
-**마지막 업데이트**: 2022년 7월 13일
+**마지막 업데이트**: 2022년 7월 19일
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ ht-degree: 44%
 
 | 기능 | 설명 | [목표 날짜](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| 첫 번째와 반복 세션 보고 | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 2022년 7월 20일 |
 | 숫자 필드를 조회 키 및 조회 값에 대해 지원 | 제품 SKU의 COGS 또는 여백과 같은 숫자 필드로 문자열 값을 분류하려는 경우에 유용합니다. 조회에서 지표를 허용하면 이러한 데이터 지점을 보고하는 데 도움이 됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 2022년 7월 20일 |
+| 첫 번째와 반복 세션 보고 | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 2022년 8월 17일 |
 
 ## 수정 사항
 
