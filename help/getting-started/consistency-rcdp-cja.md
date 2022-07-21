@@ -1,19 +1,20 @@
 ---
-description: Real-time Customer Data Platform(실시간 CDP)와 CJA 간의 지표 일관성에 영향을 주는 요소를 설명합니다.
-title: 실시간 CDP와 CJA 간의 지표 일관성
+description: Real-time Customer Data Platform(실시간 CDP)와 CJA 간의 지표 및 대상 멤버십 카운트의 일관성에 영향을 주는 요소를 설명합니다.
+title: 실시간 CDP와 CJA 간의 지표 및 대상 멤버십 카운트의 일관성
 role: Admin
 feature: CJA Basics
-source-git-commit: 2318b303c981ad556dc61a3419af4cce9fbbf92b
+exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
+source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
 
 
-# 실시간 CDP와 CJA 간의 지표 일관성
+# 실시간 CDP와 CJA 간의 지표 및 대상 멤버십 카운트의 일관성
 
-실제 시나리오에서는 Real-time Customer Data Platform(실시간 CDP) 및 Customer Journey Analytics(CJA) 전체에서 지표의 일관성을 보장할 수 없습니다. 이 문서에서는 그 이유를 설명합니다.
+실제 시나리오에서는 Real-time Customer Data Platform(실시간 CDP) 및 Customer Journey Analytics(CJA)에서 지표와 대상 멤버십 수의 일관성을 보장할 수 없습니다. 이 문서에서는 그 이유를 설명합니다.
 
 ## CJA는 아직 ID 그래프를 사용하지 않습니다
 
