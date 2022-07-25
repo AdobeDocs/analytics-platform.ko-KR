@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: ba7cdc625d034ebb3470b716b20c602417486571
+source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 98%
+source-wordcount: '708'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 98%
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
+   + [실시간 CDP와 CJA 간의 지표 및 대상 멤버십 카운트의 일관성](getting-started/consistency-rcdp-cja.md)
    + [CJA 액세스 제어](getting-started/cja-access-control.md)
    + [Customer Journey Analytics 랜딩 페이지](getting-started/landing.md)
    + [자주 묻는 질문](getting-started/cja-faq.md)
