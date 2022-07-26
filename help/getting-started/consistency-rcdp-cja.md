@@ -4,9 +4,9 @@ title: 실시간 CDP와 CJA 간의 지표 및 대상 멤버십 카운트의 일�
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
+source-git-commit: 769eef205df32865874753859ce79e573db40641
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 0%
 
 실제 시나리오에서는 Real-time Customer Data Platform(실시간 CDP) 및 Customer Journey Analytics(CJA)에서 지표와 대상 멤버십 수의 일관성을 보장할 수 없습니다. 이 문서에서는 그 이유를 설명합니다.
 
+실시간 CDP와 CJA 간에 대상 멤버십 수를 비교할 때는 이러한 두 도구의 다른 목적을 염두에 두어야 합니다. 실시간 CDP는 고객 프로필 데이터를 사용하여 개별 소비자에게 디지털 경험을 타깃팅하는 반면 CJA는 사용자가 주요 비즈니스 지표 및 세그먼트의 패턴을 이해할 수 있도록 설계되었습니다. CJA에서 실시간 CDP로 대상 게시를 사용하면 이러한 도구의 사용자가 CJA에서 얻은 지식을 활용하여 쉽고 기본적으로 통찰력을 &quot;활성화&quot;할 수 있지만 이러한 도구는 기본적으로 다른 용도로 사용됩니다.
+
 ## ID 구성의 차이점
 
 실시간 CDP와 CJA는 오늘날 한 사람에 대한 동일한 정의를 공유하지 않습니다. 실시간 CDP는 전적으로 [ID 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) 병합된 프로필을 빌드하려면 다음을 수행하십시오.
 
 CJA는 [크로스 채널 분석](/help/connections/cca/overview.md) 는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 논리를 적용하여 함께 연결합니다.
+
 나중에 CJA에서 ID 그래프를 사용할 수 있습니다.
 
 ## 데이터 집합 구성의 차이점
