@@ -5,15 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 미디어 동시 뷰어 패널
 
-동시 시청자를 분석하여 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
+동시 뷰어 분석을 통해 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 콘텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
 
 Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유 방문자 수입니다.
 
