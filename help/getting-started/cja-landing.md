@@ -5,9 +5,9 @@ exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 9874626b52fd4e87bd6337b20ac03d837d8ad888
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=ko-KR"> 보고서 세트를 다른 스키마와 결합 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en"> Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=ko-kr"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=ko-kr"> Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=ko-kr"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics Source Connector </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko-KR"> Adobe Analytics-Customer Journey Analytics 진화 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=ko-KR"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>
@@ -38,11 +38,11 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=ko-KR"> Customer Journey Analytics 시작하기 </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR"> FAQ</a> </li> 
    </ul> <p class="head"><b>릴리스 정보</b> </p> 
-     <li>최신 항목 보기 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external"> Customer Journey Analytics 릴리스 노트</a> 새 기능 및 수정 사항에 대해 설명합니다. </li>
+     <li>새로운 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR" format="https" scope="external"> Customer Journey Analytics 릴리스 정보</a>를 참조하십시오. </li>
     <td colname="col3" valign="top"> <p class="head"><b>CJA API</b> </p> 
     <ul> 
-     <li>모두 보기 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external"> Customer Journey Analytics API</a>. </li>
-      <li>최신 항목 보기 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external"> Customer Journey Analytics 보고 API</a>. </li>
+     <li>모든 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external">Customer Journey Analytics API</a>를 살펴보십시오. </li>
+      <li>최신 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external">Customer Journey Analytics Reporting API</a>를 살펴보십시오. </li>
     </ul> <p class="head"> <b>Adobe Experience Platform 리소스</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/kr/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
