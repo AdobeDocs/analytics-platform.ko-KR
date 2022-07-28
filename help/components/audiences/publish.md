@@ -3,7 +3,7 @@ title: 실시간 고객 프로필에 대상 생성 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1000'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 이 항목에서는 고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics(CJA)에서 식별된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)을 만들어 게시하는 방법에 대해 설명합니다.
 
-이 [개요](/help/components/audiences/audiences-overview.md)를 읽고 CJA 대상자의 개념을 숙지하십시오.
+이 [개요](/help/components/audiences/audiences-overview.md)를 읽고 CJA 대상의 개념을 숙지하십시오.
 
 ## 대상 만들기
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
    모든 것이 잘 진행되면 대상이 게시되었다는 확인 메시지를 받게 됩니다. 이 대상이 Experience Platform에 나타나는 데는 불과 1~2분밖에 걸리지 않습니다. (수백만 명의 회원을 보유한 대상도 5분 미만이 소요됩니다.)
 
-1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [세그먼트 UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래 내용을 참조하십시오.
+1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
 ## Experience Platform에서 CJA 대상 사용
 
