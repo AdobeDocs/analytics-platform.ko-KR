@@ -1,11 +1,11 @@
 ---
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '698'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-# 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터
+# 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics Source Connector
 
 Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)와 어떻게 관련되어 있는지 이해하는 것이 유용합니다.
 
@@ -21,11 +21,11 @@ VRS:
 
 * Adobe Analytics 세그먼트를 기반으로 할 수 있습니다.
 * 과거 데이터와 새 데이터 모두에 비파괴인 방식으로 적용할 수 있습니다.
-* 다른 비즈니스 팀에서 사용할 Adobe Analytics 보고서 세트 맨 위에 하나 이상의 가상 보기를 만들 수 있습니다.
+* 여러 비즈니스 팀에서 사용할 수 있도록 Adobe Analytics 보고서 세트 위에 가상 보기를 하나 이상 만들 수 있습니다.
 * Adobe Analytics에서 다양한 사용자에 대해 다양한 종류의 데이터 액세스를 제어하고 큐레이션하는 데 사용할 수 있습니다.
 * Adobe Analytics에 대해 선택적 [보고서 시간 처리](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR) 기능을 제공합니다. 이 경우 VRS를 사용하여 &quot;방문&quot;에 대한 맞춤형 정의 생성에 사용할 수 있습니다.
 * 세그먼트 평가와 유사하게 보고서 런타임에 적용됩니다. 이는 Adobe Analytics 내에서 데이터를 수집하고 저장한 _후_&#x200B;입니다.
-* Adobe Analytics에서 [크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR)에 필요합니다.
+* Adobe Analytics에서 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR)에 필요합니다.
 * 표준 Analytics 보고서 세트(250개 eVar, 250개 Prop, 1000개 이벤트)와 동일한 수의 변수를 사용할 수 있지만, VRS 큐레이션은 사용자에게 노출되는 변수를 제한할 수 있습니다.
 * 사용자 정의 캘린더 옵션을 지원합니다.
 
@@ -33,7 +33,7 @@ VRS:
 
 * 보고서 세트를 함께 결합하는 수단을 제공합니다.
 * Adobe Analytics Data Warehouse에서 사용할 수 있습니다.
-* Analytics 소스 커넥터를 통해 AEP로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics 소스 커넥터에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
+* Analytics Source Connector를 통해 AEP로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics Source Connector에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
 
 
 ## CJA 데이터 보기
@@ -75,4 +75,4 @@ AEP 샌드박스는 다음과 같지 않습니다.
 추가 사항:
 
 * 서로 다른 샌드박스의 데이터는 CJA 내에서 결합할 수 없습니다.
-* Analytics 소스 커넥터는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics 소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en)를 참조하십시오.
+* Analytics Source Connector는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics Source Connector 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 참조하십시오.
