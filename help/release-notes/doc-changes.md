@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: bd246314734e8bcebc351d42ebe28ad4912f7ba6
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,8 +20,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 7월 | [미디어 재생 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 설명서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 설명서. |
 | 2022년 7월 | [신규 세션과 반복 세션 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) 보고 설명서. |
-| 2022년 6월 | 에 대한 새 문서 [AAID, ECID, AACUCUSTOMER 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) |
-| 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서 |
+| 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) 관련 새로운 문서 |
+| 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics Source Connector에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서 |
 | 2022년 6월 | [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)에 대한 새 문서 |
 | 2022년 6월 | [Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)에 대한 새 문서 |
 | 2022년 6월 | [보고서 세트를 다른 스키마와 결합](/help/use-cases/combine-report-suites.md)에 대한 새 문서 |
@@ -75,8 +75,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2020년 9월 15일 | [데이터 수집](/help/use-cases/data-ingestion.md)에 대한 주제를 추가했습니다. |
 | 2020년 9월 2일 | [사용자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 섹션이 업데이트되었습니다. |
 | 2020년 8월 7일 | [B2B 사용 사례 - 조회 데이터 세트](/help/use-cases/b2b.md)에 대한 새 주제가 추가되었습니다. |
-| 7월 2020일 | [개인 ID를 위한 ID 맵 옵션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR)에 대한 정보가 추가되었습니다. |
-| 7월 2020일 | [오브젝트 배열](/help/use-cases/object-arrays.md) 또는 “데이터 계층”에 대한 새로운 주제가 추가되었습니다. |
+| 2020년 7월 | [개인 ID를 위한 ID 맵 옵션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR)에 대한 정보가 추가되었습니다. |
+| 2020년 7월 | [오브젝트 배열](/help/use-cases/object-arrays.md) 또는 “데이터 계층”에 대한 새로운 주제가 추가되었습니다. |
 | 2020년 4월 14일 | [연결 만들기](/help/connections/create-connection.md) 주제의 최신 UI 업데이트 |
 | 2020년 2월 27일 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)에 대한 업데이트 |
 | 2019년 12월 | CJA 설명서의 첫 번째 초안 |

@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
       + [Adobe Analytics 및 CJA에서 데이터 처리 비교](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [가상 보고 환경 및 샌드박스 환경](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID, ECID, AACUCUSTOMER 및 Analytics 소스 커넥터](getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [삭제 영향](getting-started/cja-deletion.md)
    + [CJA 용어](getting-started/cja-glossary.md)
 + 연결 {#cja-connections}
@@ -141,7 +141,7 @@ ht-degree: 96%
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [속성 모범 사례](analysis-workspace/attribution/best-practices.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
-   + 가상 분석가 {#virtual-analyst}
+   + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
          + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
