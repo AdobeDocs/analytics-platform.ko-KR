@@ -3,15 +3,15 @@ title: 보고서 세트를 다른 스키마와 결합
 description: 데이터 준비를 사용하여 보고서 세트를 다른 스키마와 결합하는 방법 알아보기
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1335'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 보고서 세트를 다른 스키마와 결합
 
-[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)는 Real-time Customer Data Platform 및 CJA(Customer Journey Analytics)와 같은 AEP 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 보고서 세트 데이터를 Adobe Experience Platform(AEP)으로 가져옵니다. AEP로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 AEP 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics 소스 커넥터는 보고서 제품군당 하나의 데이터 세트를 만듭니다.
+[Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)는 Real-time Customer Data Platform 및 CJA(Customer Journey Analytics)와 같은 AEP 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 보고서 세트 데이터를 Adobe Experience Platform(AEP)으로 가져옵니다. AEP로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 AEP 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics Source Connector는 보고서 제품군당 하나의 데이터 세트를 만듭니다.
 
 CJA 고객은 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR)을 사용하여 AEP 데이터 레이크의 데이터 세트를 CJA의 Analysis Workspace로 통합합니다. 그러나 연결 내에서 보고서 세트를 결합할 경우 보고서 세트 간의 스키마 차이는 AEP의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 기능을 사용하여 해결해야 합니다. 목적은 Prop 및 eVar과 같은 Adobe Analytics 변수가 CJA에서 일관된 의미를 갖도록 하는 것입니다.
 
@@ -48,7 +48,7 @@ CJA 고객은 [연결](https://experienceleague.adobe.com/docs/analytics-platfor
 
 ## 보고서 세트 간의 스키마 차이 해결을 위해 AEP 데이터 준비 사용
 
-Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통합되어 있으며 위의 시나리오에서 설명한 스키마 차이를 해결하는 데 사용할 수 있습니다. 따라서 CJA 데이터 보기에서 일관된 의미를 갖는 eVar가 생성됩니다. (아래에 사용된 명명 규칙은 사용자의 필요에 맞게 사용자 정의할 수 있습니다.)
+Experience Platform 데이터 준비 기능은 Analytics Source Connector와 통합되어 있으며 위의 시나리오에서 설명한 스키마 차이를 해결하는 데 사용할 수 있습니다. 따라서 CJA 데이터 보기에서 일관된 의미를 갖는 eVar가 생성됩니다. (아래에 사용된 명명 규칙은 사용자의 필요에 맞게 사용자 정의할 수 있습니다.)
 
 1. 보고서 세트 A 및 보고서 세트 B에 대한 소스 연결 데이터 흐름을 생성하기 전에 AEP에서 [새 스키마를 생성](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR)합니다(이 예에서는 **통합 스키마**&#x200B;라고 함). 다음을 스키마에 추가합니다.
 
@@ -57,7 +57,7 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
    | **XDM ExperienceEvent** 클래스 |
    | **Adobe Analytics ExperienceEvent 템플릿** 필드 그룹 |
 
-1. 스키마에 다른 필드 그룹을 추가하거나 [사용자 정의 필드 그룹을 생성](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)한 후 스키마에 추가합니다. 새 필드 그룹을 만들고 이를 **통합 필드**&#x200B;라고 부릅니다. 그런 후에 다음 필드를 새 필드 그룹에 추가합니다.
+1. 스키마에 다른 필드 그룹을 추가하거나 [사용자 정의 필드 그룹을 생성](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko-kr#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)한 후 스키마에 추가합니다. 새 필드 그룹을 만들고 이를 **통합 필드**&#x200B;라고 부릅니다. 그런 후에 다음 필드를 새 필드 그룹에 추가합니다.
 
    | &quot;통합 필드&quot; 사용자 정의 필드 그룹  |
    | --- |
@@ -101,13 +101,13 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 >[!NOTE]
 >
->통합 필드 사용자 정의 필드 그룹 및 관련 필드 매핑은 언제든지 기존 Analytics 소스 커넥터 데이터 흐름 및 데이터 세트에 추가할 수 있습니다. 그러나 이는 향후 데이터에만 영향을 미칩니다.
+>통합 필드 사용자 정의 필드 그룹 및 관련 필드 매핑은 언제든지 기존 Analytics Source Connector 데이터 흐름 및 데이터 세트에 추가할 수 있습니다. 그러나 이는 향후 데이터에만 영향을 미칩니다.
 
 ## 보고서 세트 그 이상
 
 데이터 세트를 다른 스키마와 결합하는 데이터 준비의 기능은 Analytics 보고서 세트를 능가합니다. 다음 데이터를 포함하는 데이터 세트가 두 개 있다고 가정합시다.
 
-| 데이터 세트 A = Analytics 소스 커넥터를 통한 Analytics 보고서 세트 |
+| 데이터 세트 A = Analytics Source Connector를 통한 Analytics 보고서 세트 |
 | --- |
 | `eVar1` => 고객 범주 |
 
@@ -156,6 +156,6 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 ## 데이터 준비 대 구성 요소 ID
 
-위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 CJA 연결로 결합하려는 경우 CJA에서 유용합니다. 그러나 보고서 세트를 별도의 CJA 연결에 보관하려고 하지만 이러한 연결 및 데이터 보기에서 한 개의 보고서 세트를 사용하려는 경우 CJA에서 기본 구성 요소 ID를 변경하면 스키마가 다른 경우에도 보고서가 호환될 수 있습니다. 자세한 내용은 [구성 요소 설정 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=ko-KR)을 참조하십시오.
+위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 CJA 연결로 결합하려는 경우 CJA에서 유용합니다. 그러나 보고서 세트를 별도의 CJA 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 CJA에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=ko-KR)을 참조하십시오.
 
-구성 요소 ID 변경은 CJA 전용 기능이며 실시간 고객 프로필 및 RTCDP로 전송되는 Analytics 소스 커넥터의 데이터에는 영향을 주지 않습니다.
+구성 요소 ID 변경은 CJA 전용 기능이며 실시간 고객 프로필 및 RTCDP로 전송되는 Analytics Source Connector의 데이터에는 영향을 주지 않습니다.
