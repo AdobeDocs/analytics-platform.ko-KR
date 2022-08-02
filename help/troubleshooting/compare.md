@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 ## 1단계: Adobe Analytics에서 발생 횟수 지표 실행
 
-[발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
+[발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
 
 1. Analytics > [!UICONTROL 작업 영역]에서 차원으로 보고할 날짜 범위를 [!UICONTROL 자유 형식] 테이블로 끌어옵니다.
 
@@ -74,9 +74,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | Exclude_hit | 0이 아님 |
    | Bot_id | 0이 아님 |
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
-   | Page_event | 53,63 |
+   | Page_event | 53, 63 |
 
-   hit\_source에 대한 자세한 내용은 다음을 참조하십시오. [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr). page\_event에 대한 자세한 내용은 다음을 참조하십시오. [페이지 이벤트 조회](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en).
+   hit\_source에 대한 자세한 내용은 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr)를 참조하십시오. page\_event에 대한 자세한 내용은 [페이지 이벤트 조회](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=ko-kr)를 참조하십시오.
 
 1. 커넥터가 행을 삭제한 경우 [!UICONTROL 발생 횟수] 지표에서 해당 행을 뺍니다. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
 
