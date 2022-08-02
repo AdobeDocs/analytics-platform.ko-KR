@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
 workflow-type: tm+mt
 source-wordcount: '1493'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 91%
 | 날짜 비교 | 전체 지원 |
 | 날짜 범위 | 모든 날짜 범위 기능이 지원됩니다. |
 | 일광 절약 시간제 | 전체 지원 |
-| 디바이스, 브라우저, 레퍼러, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko-KR?lang=en)를 참조하십시오.<p>Adobe Source Connector를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않고 대신 Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 그러나 조만간 지원될 예정입니다. |
+| 디바이스, 브라우저, 레퍼러, 기술 차원 | 이러한 차원은 AEP 데이터 세트에 특정 XDM 스키마 필드가 포함되고 XDM 경험 이벤트 클래스를 준수하는 경우에 자동으로 포함됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko-KR?lang=ko-kr)를 참조하십시오.<p>Adobe Source Connector를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않고 대신 Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 그러나 조만간 지원될 예정입니다. |
 | 차원 | 전체 지원: CJA는 XDM을 활용하며 무제한 차원을 지원합니다. CJA는 기존 Adobe Analytics의 사용자 정의 eVar 또는 속성에 연결되지 않습니다. |
 | GDPR 삭제 | 전체 지원: 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용됩니다. CJA는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
 | 목록 변수/목록 속성 | 전체 지원: CJA는 XDM을 활용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
@@ -48,7 +48,7 @@ ht-degree: 91%
 | 보고 API 액세스 | 전체 지원: [CJA API](https://www.adobe.io/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원: 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 CJA로 포팅되지 않습니다. |
-| 스트리밍 미디어 분석 | 미디어 데이터는 Workspace의 미디어 동시 뷰어 패널 및 미디어 재생 시간 패널의 일부로 2022년 7월 30일 사용할 수 있습니다. |
+| 스트리밍 Media Analytics | 미디어 데이터는 2022년 7월 30일에 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 | 사용자 권한/데이터 액세스 제어 | 전체 지원: CJA는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자와 사용자를 구별합니다. 제품 관리자만 다음과 같은 작업을 수행할 수 있습니다. <ul><li>연결 또는 데이터 보기 만들기/업데이트/삭제</li><li>다른 사용자가 만든 프로젝트, 필터 또는 계산 지표를 업데이트/삭제</li><li>모든 사용자에게 작업 영역 프로젝트 공유</li></ul> |
 | 가상 보고서 세트 | 전체 지원: 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | VRS 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
@@ -69,8 +69,8 @@ ht-degree: 91%
 | 지리 특성 - 차원 | Adobe Analytics에 수집된 모든 지리 특성/지역은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 통해 CJA로 전송됩니다. 디지털 데이터 수집을 위해 AEP 웹 SDK를 사용하는 구현과 같이 Analytics 소스 커넥터를 사용하지 않는 구현에는 전체 지리적 조회가 자동으로 수행되지 않습니다(국가와 주는 전 세계적으로 지원되며 도시와 우편번호는 지원되지 않음). |
 | IP 난독화 | Analytics 소스 커넥터를 사용하여 Adobe Analytics의 데이터를 CJA로 채우는 CJA 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정은 CJA 데이터로 이동합니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Adobe Experience Platform Web SDK를 사용하여 데이터를 Platform과 CJA에 직접 채우는 CJA 고객의 경우: 플랫폼의 데이터 수집을 위해 데이터 준비 를 사용하여 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
 | 마케팅 채널 | 마케팅 채널 데이터가 Analytics 소스 커넥터를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 합니다. 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. |
-| 새 세션 보고와 반복 세션 보고 비교 | 2022년 8월 17일에 지원됨 [13개월 전환 확인 기간 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat). |
-| 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 개체 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
+| 새 세션 보고와 반복 세션 보고 비교 | 2022년 8월 17일에 지원되며 [13개월의 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat)이 있습니다. |
+| 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 오브젝트 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. CJA 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 CJA 사용자 사이에서만 지원됩니다. CJA와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 
