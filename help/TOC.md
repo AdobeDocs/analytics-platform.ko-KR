@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
-workflow-type: ht
-source-wordcount: '708'
+source-git-commit: 141a41cfff54bf0ec3db031d567fa68d092fd7ee
+workflow-type: tm+mt
+source-wordcount: '711'
 ht-degree: 100%
 
 ---
@@ -104,18 +104,19 @@ ht-degree: 100%
          + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [히스토그램](analysis-workspace/visualizations/histogram.md)
-      + [벤](analysis-workspace/visualizations/venn.md)
       + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
       + [막대 및 스택 막대](analysis-workspace/visualizations/bar.md)
       + [글머리 기호 그래프](analysis-workspace/visualizations/bullet-graph.md)
       + [도넛](analysis-workspace/visualizations/donut.md)
+      + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [가로 막대 및 스택 가로 막대](analysis-workspace/visualizations/horizontal-bar.md)
+      + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
       + [라인](analysis-workspace/visualizations/line.md)
       + [산포도](analysis-workspace/visualizations/scatterplot.md)
       + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](analysis-workspace/visualizations/text.md)
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
+      + [벤](analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [속성 패널](analysis-workspace/c-panels/attribution.md)
