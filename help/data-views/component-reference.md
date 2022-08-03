@@ -4,9 +4,9 @@ description: 데이터 보기에 추가할 수 있는 모든 표준 구성 요�
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
+source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,8 @@ CJA의 차원 및 지표 대부분은 Adobe Experience Platform 데이터 세트
 | [!UICONTROL 분기] | 차원 | 특정 이벤트기 발생한 시간(분기)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 마지막 분기입니다. |
 | [!UICONTROL 년] | 차원 | 특정 이벤트기 발생한 시간(년)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 해이고 마지막 차원 항목은 날짜 범위에서 가장 최근 연도입니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 선택 사항 표준 구성 요소 {#optional}
 
 선택 사항 표준 구성 요소는 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 표준 구성 요소]** 탭에서 사용할 수 있습니다.
@@ -64,3 +66,4 @@ CJA의 차원 및 지표 대부분은 Adobe Experience Platform 데이터 세트
 | [!UICONTROL 사용자당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 개인] 버킷에 버킷팅합니다. |
 | [!UICONTROL 주말]/[!UICONTROL 평일] | 차원 시간 분할 | 주말 또는 평일 |
 
+{style=&quot;table-layout:auto&quot;}
