@@ -2,10 +2,10 @@
 title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,11 @@ ht-degree: 100%
 
 ## 권한
 
-관리자는 Adobe Admin Console에서 [!UICONTROL 대상 게시] 권한이 자동으로 부여됩니다. 관리자는 개인 사용자에게 이 권한을 부여할 수 있습니다.
+* 관리자는 Adobe Admin Console에서 **[!UICONTROL 대상 게시]** 권한이 자동으로 부여됩니다.
+
+* 관리자는 개별 사용자에게 이 권한을 부여할 수 있습니다.
+
+* 또한 관리자는 **[!UICONTROL 프로필 관리]** Adobe Experience Platform의 권한.
 
 ## 다음 단계
 

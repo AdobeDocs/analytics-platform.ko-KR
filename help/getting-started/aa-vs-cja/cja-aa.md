@@ -4,9 +4,9 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1521'
 ht-degree: 94%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 94%
 | --- | --- |
 | 예외 항목 탐지 | 전체 지원 |
 | 기여도 분석 IQ | 전체 지원 |
+| 대상자 게시 | 전체 지원. AA에서 호출된 세그먼트 게시 (Analysis Workspace에서 Experience Cloud로 세그먼트 전송). [대상 게시](/help/components/audiences/audiences-overview.md) Experience Platform에서 실시간 고객 프로필에 대상을 보냅니다. |
 | 계산된 지표 | 전체 지원: 기존 Analysis Workspace의 기존 계산된 지표는 CJA에 포팅되지 않습니다. |
 | 달력 이벤트 | 전체 지원. 달력 이벤트가 [주석](/help/components/annotations/overview.md) 작업 영역. |
 | 분류 규칙 빌더 | 전체 지원. 호출됨 [하위 문자열](/help/data-views/component-settings/substring.md) 참조하십시오. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조킹을 사용합니다. |
