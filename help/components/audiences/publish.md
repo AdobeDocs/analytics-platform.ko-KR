@@ -2,18 +2,14 @@
 title: 실시간 고객 프로필에 대상 생성 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: ht
-source-wordcount: '1000'
+source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
+workflow-type: tm+mt
+source-wordcount: '993'
 ht-degree: 100%
 
 ---
 
 # 대상 생성 및 게시
-
->[!NOTE]
->
->이 기능은 현재 [제한적 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 이 항목에서는 고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics(CJA)에서 식별된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)을 만들어 게시하는 방법에 대해 설명합니다.
 
