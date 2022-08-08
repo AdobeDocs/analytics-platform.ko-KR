@@ -1,11 +1,18 @@
 ---
-source-git-commit: c25e320268aeda85eb6709ca3458c60c6f24fea3
+title: Analytics 소스 커넥터를 통해 전달된 Analytics 데이터의 용어 비교
+description: 일부 용어 차이점
+solution: Customer Journey Analytics
+source-git-commit: 287c75fd2b519f3d1d86209e0b0ab4ed7f761814
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 27%
 
 ---
+
+
 # Analytics 소스 커넥터를 통해 전달된 Analytics 데이터의 용어 비교
+
+Adobe Analytics, 데이터 피드, Analytics 소스 커넥터/데이터 레이크 및 CJA 간에는 일부 용어 차이가 있습니다. 이 주제는 이러한 차이점을 강조 표시하고 명확하게 하는 것을 목표로 합니다.
 
 | 관련 용어 | Adobe Analytics | Adobe Analytics 데이터 피드 | Analytics 소스 커넥터/Data Lake | CJA | 참고 |
 |---|---|---|---|---|---|

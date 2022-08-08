@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
-workflow-type: ht
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -103,17 +103,16 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * 1 차원: [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
 
-* 2 지표: [신규 세션, 재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional). 신규 세션은 보고 기간 내에서 개인이 정의한 첫 번째 세션으로 정의됩니다. 재방문 세션은 개인의 첫 번째 세션이 아닌 세션의 수입니다.
+* 2 지표: [신규 세션, 재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 신규 세션은 보고 기간 내에서 개인이 정의한 첫 번째 세션으로 정의됩니다. 재방문 세션은 개인의 첫 번째 세션이 아닌 세션의 수입니다.
 
 이러한 구성 요소에 액세스하려면:
 
 1. 데이터 보기 편집기로 이동합니다.
 1. 왼쪽 레일에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 선택 사항 표준 구성 요소]** 탭을 클릭합니다.
-1. 데이터 보기로 드래그합니다.
+1. 이러한 구성 요소를 데이터 보기로 드래그합니다.
 
-95%~99%의 시간 동안 신규 세션이 정확하게 보고됩니다. 유일한 예외는 다음과 같습니다.
+95%-99%의 새로운 세션이 정확하게 보고됩니다. 유일한 예외는 다음과 같습니다.
 
 * 13개월 전환 확인 기간 전에 첫 번째 세션이 발생한 경우. 이 세션은 무시됩니다.
 
-* 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 2022년 6월 1일부터 6월 15일까지 보고서를 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 2022년 5월 30일에 시작하여 2022년 6월 1일에 끝나는 경우 세션이 전환 확인 기간에 포함되므로 보고 기간의 모든 세션이 재방문 세션으로 계산됩니다.
-
+* 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 2022년 6월 1일부터 6월 15일까지 보고서를 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 전환 확인 기간에 포함되므로 2022년 5월 30일에 시작되고 2022년 6월 1일에 종료되는 경우, 보고 기간의 모든 세션이 반환 세션으로 계산됩니다.
