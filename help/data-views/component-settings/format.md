@@ -4,9 +4,9 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '133'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '136'
 ht-degree: 100%
 
 ---
@@ -24,3 +24,5 @@ ht-degree: 100%
 | [!UICONTROL 통화] | 포맷이 통화인 경우 지표에 표시하려는 통화를 결정합니다. 이 옵션은 통화 전환에 적용되지 않습니다. UI 형식에만 적용됩니다. |
 | [!UICONTROL 증가 트렌드를 다음으로 표시] | 이 지표의 증가 트렌드를 양호(녹색) 또는 불량(빨간색)인지 여부를 지정할 수 있습니다. |
 | [!UICONTROL True 값] 및 [!UICONTROL False 값] | 부울 스키마 데이터 유형에만 표시됩니다. `true` 및 `false` 값에 대한 차원 항목 라벨을 사용자 지정할 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}

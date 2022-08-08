@@ -4,9 +4,9 @@ description: 값에 따라 차원 항목을 조건부로 포함하거나 제외�
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '300'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -25,3 +25,5 @@ ht-degree: 100%
 | [!UICONTROL 기준] | 특정 필터 규칙에 적용해야 하는 일치 논리를 지정할 수 있습니다.<ul><li>**문자열**: 구문 포함, 임의의 용어 포함, 모든 용어 포함, 임의의 용어 포함 안 함, 구문 포함 안 함, 같음, 같지 않음, 다음으로 시작, 다음으로 끝남</li><li>**실수/정수**: 같음, 같지 않음, 보다 큼, 보다 작음, 크거나 같음, 작거나 같음</li><li>**날짜**: 같음, 같지 않음, 보다 늦음, 이전, 다음 내에서 발생</li></ul> |
 | [!UICONTROL 일치 피연산자] | 일치 연산자를 적용해야 하는 일치 피연산자를 지정할 수 있습니다.<ul><li>**문자열**: 텍스트 필드</li><li>**실수/정수**: 숫자 값에 대한 위쪽/아래쪽 화살표가 있는 텍스트 필드</li><li>**날짜**: 일 세부 기간 선택기(달력)</li><li>**날짜 시간**: 날짜 및 시간 세부 기간 선택기</li></ul> |
 | [!UICONTROL 규칙 추가] | 추가 일치 연산자 및 피연산자를 지정할 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}

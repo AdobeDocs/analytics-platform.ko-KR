@@ -4,9 +4,9 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 48cc438032fb1df043b7caf085aadf3f2c2f1ecf
-workflow-type: ht
-source-wordcount: '1224'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '1233'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 100%
 | [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운에 이 값이 표시됩니다. |
 | [!UICONTROL 설명] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### 컨테이너 {#containers}
 
 데이터 보기의 컨테이너 이름을 지정합니다. 컨테이너 이름은 [필터](/help/components/filters/filters-overview.md#Filter-containers)에서 자주 사용됩니다.
@@ -45,6 +47,8 @@ ht-degree: 100%
 | [!UICONTROL 개인 컨테이너 이름] | [!UICONTROL 개인] (기본값). [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 | [!UICONTROL 세션 컨테이너 이름] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 ‘방문’ 또는 조직이 원하는 다른 용어로 바꿀 수 있습니다. |
 | [!UICONTROL 이벤트 컨테이너 이름] | [!UICONTROL 이벤트] (기본값). [!UICONTROL 이벤트] 컨테이너는 데이터 세트의 개별 이벤트를 정의합니다. 조직이 서로 다른 용어(예: “히트” 또는 “페이지 조회수”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 달력 {#calendar}
 
@@ -57,6 +61,8 @@ ht-degree: 100%
 | [!UICONTROL 한 해의 첫째 달] 및 [!UICONTROL 한 주의 첫째 날] | 그레고리역 유형의 경우 표시. 역년에서 시작할 월과 매주 시작할 요일을 지정합니다. |
 | [!UICONTROL 올해 첫째 날] | 사용자 정의 달력 유형의 경우 표시. 올해에 시작할 요일을 지정합니다. 이 값에 따라 달력은 매주 첫째 날을 자동으로 지정합니다. |
 | [!UICONTROL “추가 주”가 발생하는 연도] | 364일 달력(주 7일 52주)을 사용하면 매년 남은 날들이 추가 주가 될 때까지 누적됩니다. 이 추가 주가 해당 해의 마지막 달에 추가됩니다. 주를 별도로 추가하는 년도를 지정합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 데이터 보기의 구성 요소 설정 {#set-components}
 

@@ -4,9 +4,9 @@ description: 보고에서 차원 또는 지표가 어떻게 동작하는지 지�
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '307'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 100%
 | --- | --- |
 | [!UICONTROL 소문자] | 값은 동일하지만 대/소문자가 다른 행을 중복 제거합니다. 활성화된 경우 동일한 값을 가진 차원의 모든 인스턴스가 소문자로 보고됩니다. 예를 들어 데이터에는 문자열 차원의 값 `"liverpool"`, `"Liverpool"` 및 `"LIVERPOOL"`이 포함됩니다. [!UICONTROL 소문자]가 활성화되면 세 가지 값이 모두 `"liverpool"`로 결합됩니다. 비활성화되면 세 가지 값이 모두 고유 값으로 처리됩니다. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ![대/소문자 차원](../assets/case-sens-workspace.png)
 
 >[!NOTE]
@@ -36,5 +38,7 @@ ht-degree: 100%
 | [!UICONTROL 값 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 지정된 수량만큼 지표를 늘립니다. 예를 들어 열의 값이 `50`인 경우 지표를 50까지 늘립니다. |
 | [!UICONTROL 인스턴스 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 값에 관계없이 지표를 1까지 늘립니다. 값이 존재하면 지표가 증가합니다. 예를 들어 열의 값이 `50`인 경우 지표를 1까지 늘립니다. |
 | [!UICONTROL 계산할 값] | 부울 스키마 데이터 유형에 표시됩니다. `true`, `false` 또는 두 가지 모두를 계산하여 지표의 증가 여부를 결정할 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 비헤이비어가 다른 동일한 이벤트 데이터 세트 열을 사용하여 Analysis Workspace에서 ‘주문‘ 및 ‘매출’ 지표 모두를 생성할 수 있습니다. ‘매출’ 데이터 세트 열을 데이터 보기로 드래그한 다음 한 개의 열을 ‘값 계산’으로 설정하고 다른 열을 ‘인스턴스 계산’으로 설정합니다. ‘주문’ 지표는 인스턴스를 계산하지만 ‘매출’은 값을 계산합니다.

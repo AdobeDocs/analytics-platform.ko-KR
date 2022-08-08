@@ -4,9 +4,9 @@ description: 보고서에서 첫 번째 지표 발생 횟수만을 계산합니�
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '111'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 100%
 
 | 설정 | 설명 |
 | --- | --- |
-| 지표 중복 제거 | 지표 중복 제거를 활성화할 수 있는 확인란입니다. 기본적으로 비활성화되어 있습니다. |
-| 중복 제거 범위 | 각 확인이 뒤로 이동하는 거리를 결정할 수 있습니다.<br>**세션**: 첫 번째 지표 발생 횟수만을 계산합니다.<br>**개인**: 보고 기간의 첫 번째 지표 발생 횟수만을 계산합니다. |
-| 중복 제거 ID | 지표 자체의 중복 제거를 적용하는 대신 차원을 기반으로 지표 중복 제거를 적용할 수 있습니다. 중복 제거를 적용하는 구매 ID와 같은 차원에 유용합니다. |
+| [!UICONTROL 지표 중복 제거] | 지표 중복 제거를 활성화할 수 있는 확인란입니다. 기본적으로 비활성화되어 있습니다. |
+| [!UICONTROL 중복 제거 범위] | 각 확인이 뒤로 이동하는 거리를 결정할 수 있습니다.<br>**세션**: 첫 번째 지표 발생 횟수만을 계산합니다.<br>**개인**: 보고 기간의 첫 번째 지표 발생 횟수만을 계산합니다. |
+| [!UICONTROL 중복 제거 ID] | 지표 자체의 중복 제거를 적용하는 대신 차원을 기반으로 지표 중복 제거를 적용할 수 있습니다. 중복 제거를 적용하는 구매 ID와 같은 차원에 유용합니다. |
+
+{style=&quot;table-layout:auto&quot;}

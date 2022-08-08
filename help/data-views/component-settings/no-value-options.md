@@ -4,9 +4,9 @@ description: 비어 있는 경우 차원을 처리하는 방법을 결정합니�
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '224'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -23,3 +23,5 @@ ht-degree: 100%
 | [!UICONTROL 기본적으로 값 없음을 표시하지 않음] | 보고 시 이 값을 표시하지 않습니다. 이 차원에 귀속되지 않는 지표 발생 횟수는 보고서에 표시되지 않습니다. |
 | [!UICONTROL 기본적으로 값 없음을 표시] | 보고 시 이 값을 표시합니다. |
 | [!UICONTROL 값 없음을 값으로 처리] | 데이터의 빈 값을 [!UICONTROL 표시되면 “값 없음 호출”]에 지정한 텍스트로 대체합니다. 예를 들어 모바일 디바이스 유형이 차원으로 있는 경우 **[!UICONTROL 값 없음]** 항목의 이름을 “데스크탑”으로 바꿀 수 있습니다. 이 필드를 사용자 지정 값으로 변경하면 해당 사용자 지정 값은 적합한 문자열 값으로 처리됩니다. 따라서 이 필드에 값 “빨간색”을 입력하면 데이터 자체에 나타나는 문자열 “빨간색”의 인스턴스도 사용자가 지정한 동일한 라인 항목 아래로 롤링됩니다. |
+
+{style=&quot;table-layout:auto&quot;}

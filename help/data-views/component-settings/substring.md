@@ -4,9 +4,9 @@ description: 문자열의 하위 집합을 차원 항목으로 사용합니다.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
-workflow-type: ht
-source-wordcount: '911'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
@@ -113,6 +113,8 @@ CJA는 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 입력�
 | ``$` `` | 마지막으로 찾은 일치 항목의 끝(또는 이전 일치 항목이 없는 경우 텍스트의 시작)과 현재 일치 항목의 시작 사이의 텍스트를 출력합니다. |
 | `$+` | 정규 표현식에서 마지막으로 표시된 하위 표현식과 일치하는 것을 출력합니다. |
 | `$$` | 문자열 문자 `"$"`를 출력합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 바인딩 차원에 대한 비디오
 
