@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 및 데이터 거버넌스
 description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 ## 데이터 거버넌스
 
-CJA는 Adobe Experience Platform에 설정된 데이터 거버넌스 레이블 및 정책을 지원합니다. 자세한 내용은 Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원 을 참조하십시오.
+CJA는 Adobe Experience Platform에 설정된 데이터 거버넌스 레이블 및 정책을 지원합니다. 자세한 내용은 [Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원](/help/data-views/data-governance.md).
 
 ## GDPR
 

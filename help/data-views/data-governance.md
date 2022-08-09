@@ -2,9 +2,9 @@
 title: Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원
 description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 보고에 미치는 영향을 알아봅니다.
 mini-toc-levels: 3
-source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,12 @@ Experience Platform에서 데이터 세트를 만들 때 만들 수 있습니다
 
 * Analytics - 조직의 사이트 또는 앱에서 소비자 사용 측정, 분석 및 보고와 같이, 분석 목적으로 데이터를 사용합니다.
 
-* 데이터를 타사(즉, Adobe 환경 외부에서)로 내보냅니다.
+* Adobe 환경 외부에서 데이터 내보내기.
 
 레이블과 마케팅 작업을 정책과 함께 연결한 다음 정책을 설정합니다. 이 정책은 레이블과 마케팅 작업을 수행하며 다음과 같이 말합니다. 이 제한을 적용합니다. CJA에는 두 개의 Adobe 정의 정책이 표시되며 보고 및 다운로드/공유에 영향을 줍니다.
 
-* Analytics 정책 적용
-* 다운로드 정책 적용
-
+* [!UICONTROL Analytics 적용] 정책
+* [!UICONTROL 다운로드 적용] 정책
 
 ### CJA 데이터 보기에서 데이터 레이블 보기
 
@@ -93,7 +92,7 @@ Experience Platform에서 만든 데이터 레이블은 데이터 보기 사용�
 
 ### 방법 [!UICONTROL 다운로드 적용] 정책은 작업 공간 프로젝트에 영향을 줍니다.
 
-이 정책을 설정하면 Workspace 프로젝트의 모든 다운로드(예: 전자 메일 또는 pdf 공유)가 중요한 필드를 해시합니다. Workspace에서 이러한 필드에 대한 분석을 계속 수행할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 파일에 해시된 항목으로 표시됩니다.
+이 정책을 설정하면 Workspace 프로젝트의 모든 내보내기 또는 다운로드(예: 전자 메일 또는 pdf 공유)가 중요한 필드를 해시합니다. Workspace에서 이러한 필드에 대한 분석을 계속 수행할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 파일에 해시된 항목으로 표시됩니다.
 
 여기에 스크린샷을 추가합니다.
 
