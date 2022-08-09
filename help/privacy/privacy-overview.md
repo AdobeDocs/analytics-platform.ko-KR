@@ -1,18 +1,21 @@
 ---
-title: Customer Journey Analytics 개인정보 보호 개요
-description: Customer Journey Analytics에서 개인정보 보호 설정이 작동하는 방식을 설명합니다.
+title: Customer Journey Analytics 및 데이터 거버넌스
+description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 75%
 
 ---
 
-# Customer Journey Analytics 개인정보 보호 개요
+# Customer Journey Analytics 및 데이터 거버넌스
 
-일반적으로 Customer Journey Analytics의 개인정보 보호 관련 설정은 Adobe Experience Platform에서 상속됩니다.
+일반적으로 Customer Journey Analytics의 모든 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다.
+
+## 데이터 거버넌스
+
+CJA는 Adobe Experience Platform에 설정된 데이터 거버넌스 레이블 및 정책을 지원합니다. 자세한 내용은 Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원 을 참조하십시오.
 
 ## GDPR
 
