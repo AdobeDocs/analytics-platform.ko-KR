@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상 생성 및 게시
 description: Customer Journey Analytics에서 대상을 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+source-git-commit: 235f08b275fd2f5706024823005e732b61af1c07
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 이 [개요](/help/components/audiences/audiences-overview.md)를 읽고 CJA 대상의 개념을 숙지하십시오.
 
-## 대상 만들기
+## 대상 만들기 {#create}
 
 1. 대상을 만들려면 다음 세 가지 방법으로 시작할 수 있습니다.
 
@@ -56,8 +56,8 @@ ht-degree: 100%
    | 미리보기 설정 | 설명 |
    | --- | --- |
    | [!UICONTROL 데이터 미리보기] 창 | 대상의 기간입니다. |
-   | [!UICONTROL 총 인원] | 이 대상의 총 인원수에 대한 요약 번호입니다. 최대 2억 명까지 갈 수 있습니다. 대상이 2억 명을 초과할 경우 대상의 크기를 줄여야 게시할 수 있습니다. |
-   | [!UICONTROL 대상 크기 제한] | 이 대상이 2억 개 제한 중 얼마나 사용했는지 보여 줍니다. |
+   | [!UICONTROL 총 인원] | 이 대상의 총 인원수에 대한 요약 번호입니다. 이것은 2천만 명의 사람들에게 갈 수 있습니다. 대상자가 2천만 명을 초과하는 경우 게시하기 전에 대상 크기를 줄여야 합니다. |
+   | [!UICONTROL 대상 크기 제한] | 이 대상이 2천만 명 제한에서 얼마나 멀리 있는지를 보여줍니다. |
    | [!UICONTROL 예상 대상 반환] | 이 설정은 이 대상의 고객 중 사이트로 돌아오는 고객을 타겟팅하는 경우 유용합니다. (즉, 이 데이터 세트에서 다시 볼 수 있습니다.) <p>여기서 돌아올 수 있는 예상 고객 수에 대한 시간대(다음 7일, 다음 2주, 다음 달)를 선택할 수 있습니다. |
    | [!UICONTROL 예상 반환] | 이 숫자는 드롭다운 목록에서 선택한 시간대 동안 돌아오는 예상 고객 수를 알려 줍니다. 이 숫자를 예측하기 위해 이 대상의 과거 이탈률을 살펴봅니다. |
    | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 평균 사이트에서 보낸 시간]&#39;과 같이 특정 지표를 보고 이 지표에 불균형적인 양을 기여하는지 확인할 수 있습니다. 지표의 집계 카운트와 지표가 나타내는 총계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
-## Experience Platform에서 CJA 대상 사용
+## Experience Platform에서 CJA 대상 사용 {#audiences-aep}
 
 이제 CJA는 게시된 대상으로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. CJA는 연결이 구성될 때 개인 ID로 선택된 항목으로 기본 ID가 설정된 Experience Platform으로 대상을 보냅니다.
 
@@ -84,9 +84,13 @@ CJA 대상을 AEP 세그먼트에 대한 세그먼트 정의로 드래그할 수
 
 ![](assets/audiences-aep.png)
 
-## 사용자가 더 이상 CJA에서 대상의 멤버가 아닌 경우 어떻게 됩니까?
+## 사용자가 더 이상 CJA에서 대상의 멤버가 아닌 경우 어떻게 됩니까? {#no-member}
 
 이 경우 종료 이벤트가 CJA에서 Experience Platform으로 전송됩니다.
+
+## CJA에서 대상을 삭제하면 어떻게 됩니까? {#delete}
+
+CJA 대상이 삭제되면 해당 대상이 더 이상 Experience Platform UI에 표시되지 않습니다. 하지만 해당 대상자와 연결된 프로필은 실제로 Platform에서 삭제되지 않습니다.
 
 ## 다음 단계
 

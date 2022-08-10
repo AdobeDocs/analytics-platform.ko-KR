@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 및 데이터 거버넌스
 description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
+source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 75%
+source-wordcount: '373'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 75%
 
 ## 데이터 거버넌스
 
-CJA는 Adobe Experience Platform에 설정된 데이터 거버넌스 레이블 및 정책을 지원합니다. 자세한 내용은 [Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원](/help/data-views/data-governance.md).
+CJA와 의 통합 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=en) 에서는 중요한 CJA 데이터에 대한 레이블 지정 및 개인 정보 보호 정책을 적용할 수 있습니다.
+
+Experience Platform이 사용하는 데이터 세트에서 만들어진 개인 정보 레이블 및 정책은 CJA 데이터 보기 워크플로우에서 표시할 수 있습니다. 이러한 레이블은 중요 필드에서 지표 및/또는 차원을 생성하는 사용자에게 중지하거나 경고 합니다.
+
+또한 CJA에서 데이터를 내보낼 때(보고, 내보내기, API 등을 통해) 경고 또는 레이블이 추가되어 보고서에 특정 방식으로 처리되어야 하는 중요한 정보가 포함되어 있음을 사용자에게 알립니다.
+
+이러한 통합을 통해 규정 준수를 보다 손쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 그 결과 CJA 사용자는 데이터 관리자가 정의한 정책을 준수한다는 것을 알고 데이터를 보다 안전하게 사용할 수 있습니다.
 
 ## GDPR
 
