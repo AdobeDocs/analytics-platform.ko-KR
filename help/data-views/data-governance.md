@@ -1,12 +1,11 @@
 ---
-title: Adobe Experience Platform 데이터 거버넌스에 대한 CJA 지원
-description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 보고에 미치는 영향을 알아봅니다.
-mini-toc-levels: 3
+title: 레이블 및 정책
+description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 데이터 보기 및 보고에 미치는 영향을 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 2%
 
 ---
 
@@ -26,8 +25,8 @@ Experience Platform에서 데이터 세트를 만들 때 만들 수 있습니다
 
 CJA에는 두 개의 Adobe 정의 정책이 표시되며 보고 및 다운로드/공유에 영향을 줍니다.
 
-* [!UICONTROL Analytics 적용] 정책
-* [!UICONTROL 다운로드 적용] 정책
+* **[!UICONTROL Analytics 적용]** 정책
+* **[!UICONTROL 다운로드 적용]** 정책
 
 ## CJA 데이터 보기에서 데이터 레이블 보기
 
@@ -35,9 +34,11 @@ Experience Platform에서 만든 데이터 레이블은 데이터 보기 사용�
 
 | 위치 | 설명 |
 | --- | --- |
-| 스키마 필드의 정보 단추 | 이 단추를 클릭하면 현재 필드에 적용되는 데이터 사용 레이블 이 표시됩니다.<p>![](assets/data-label-left.png) |
-| 아래의 오른쪽 레일 [구성 요소 설정](/help/data-views/component-settings/overview.md) | 모든 데이터 사용 레이블은 다음과 같습니다.<p>![](assets/data-label-right.png) |
-| 데이터 레이블을 열로 추가 | 데이터 레이블 을 데이터 보기의 포함된 구성 요소 열에 열로 추가할 수 있습니다. 열 선택기 아이콘을 클릭하고 데이터 사용 레이블 을 선택하면 됩니다.<p>![](assets/data-label-column.png) |
+| 스키마 필드의 정보 단추 | 이 단추를 클릭하면 다음 내용이 표시됩니다 [!UICONTROL 데이터 사용 레이블] 현재 필드에 적용:<p>![](assets/data-label-left.png) |
+| 아래의 오른쪽 레일 [구성 요소 설정](/help/data-views/component-settings/overview.md) | 임의 [!UICONTROL 데이터 사용 레이블] 여기에 나열됩니다.<p>![](assets/data-label-right.png) |
+| 데이터 레이블을 열로 추가 | 추가할 수 있습니다 [!UICONTROL 데이터 레이블] 를 [!UICONTROL 포함된 구성 요소] 데이터 보기의 열. 열 선택기 아이콘을 클릭하고 를 선택하면 됩니다 **[!UICONTROL 데이터 사용 레이블]**:<p>![](assets/data-label-column.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 데이터 보기의 데이터 거버넌스 레이블 필터링
 
@@ -55,7 +56,7 @@ Experience Platform에서 만든 데이터 레이블은 데이터 보기 사용�
 
 ![](assets/filter-policies.png)
 
-클릭 **[!UICONTROL 적용]** 사용 가능한 정책을 확인합니다. _이 데이터 보기에 대해_
+클릭 **[!UICONTROL 적용]** 활성화되는 정책을 확인합니다.
 
 ## 방법 [!UICONTROL Analytics 적용] 정책은 작업 공간 프로젝트에 영향을 줍니다.
 
