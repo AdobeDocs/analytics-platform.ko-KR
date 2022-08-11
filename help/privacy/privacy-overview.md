@@ -2,9 +2,9 @@
 title: Customer Journey Analytics 및 데이터 거버넌스
 description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 0d48c1ed8d0bf50939f8eda1f5656c95370ac0b7
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 51%
 
 ---
@@ -22,6 +22,8 @@ Experience Platform이 사용하는 데이터 세트에서 만들어진 개인 �
 또한 CJA에서 데이터를 내보낼 때(보고, 내보내기, API 등을 통해) 경고 또는 레이블이 추가되어 보고서에 특정 방식으로 처리되어야 하는 중요한 정보가 포함되어 있음을 사용자에게 알립니다.
 
 이러한 통합을 통해 규정 준수를 보다 손쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 그 결과 CJA 사용자는 데이터 관리자가 정의한 정책을 준수한다는 것을 알고 데이터를 보다 안전하게 사용할 수 있습니다.
+
+[자세히 알아보기](/help/data-views/data-governance.md)
 
 ## GDPR
 

@@ -3,10 +3,10 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: PDF 또는 CSV 파일 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 93%
+source-wordcount: '1057'
+ht-degree: 92%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 93%
 
 ## 중요 데이터 다운로드 {#sensitive}
 
-데이터 거버넌스 적용 정책이 켜져 있으면 Workspace 프로젝트의 모든 다운로드(예: 이메일 또는 pdf 공유)가 중요로 레이블이 지정된 데이터 필드를 해시합니다. Workspace에서 이러한 필드에 대한 분석을 계속 수행할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 파일에 해시된 항목으로 표시됩니다.
+만약 **[!UICONTROL 다운로드 적용]** [데이터 거버넌스 정책](/help/data-views/data-governance.md) 보고 중인 데이터 보기에서 를 켜면 작업 공간 프로젝트의 모든 다운로드(예: 전자 메일 또는 pdf 공유)가 중요 데이터 필드를 해시합니다. Workspace에서 이러한 필드에 대한 분석을 계속 수행할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 또는 .csv 파일에서 비어 있는 것으로 표시됩니다.
 
 ## FAQ {#faq}
 
