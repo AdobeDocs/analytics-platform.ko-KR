@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
+source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 87%
+source-wordcount: '1284'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,13 @@ f. &quot;50&quot;을 값으로 지정합니다.
 >
 >이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
-예시 사용 사례:
+Adobe Experience Platform의 스키마에는 날짜 및 날짜-시간 필드가 포함되어 있습니다. 이제 CJA 데이터 보기가 이러한 필드를 지원합니다. 이러한 필드를 데이터 보기로 차원으로 드래그하면 해당 필드를 지정할 수 있습니다 [포맷](/help/data-views/component-settings/format.md). 이 형식 설정은 필드가 보고에 표시되는 방식을 결정합니다. 예:
+
+* 날짜 형식의 경우 **[!UICONTROL 일]** 형식으로 **[!UICONTROL 월, 일, 년]**&#x200B;의 보고 출력 예는 다음과 같습니다. 2022년 8월 23일.
+
+* 날짜-시간 형식의 경우 **[!UICONTROL 분(일 기준)]** 형식으로 **[!UICONTROL 시간:분]**&#x200B;의 출력은 다음과 같습니다. 20시 20분
+
+### 예시 사용 사례:
 
 * 날짜: 한 여행사가 그들의 자료에 근거하여 여행의 출발 날짜를 수집하고 있다. 보고서 세트에 대해 [!UICONTROL 요일] 어떤 것이 가장 인기 있는지 알기 위해 수집된 모든 출발 날짜들에 대하여. 그들은 같은 일을 하고 싶어한다 [!UICONTROL 월(연 기준)].
 
