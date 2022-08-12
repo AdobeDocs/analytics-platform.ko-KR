@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
+source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,13 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022월 8월 | 에 대한 새 문서 [데이터 거버넌스 레이블 및 정책에 대한 CJA 지원](/help/data-views/data-governance.md) |
+| 2022월 8월 | 의 새 섹션 [CJA의 날짜 필드 지원](/help/data-views/data-views-usecases.md#date) |
+| 2022월 8월 | 에 대한 새 문서 [Analytics 소스 커넥터를 통해 전달된 Analytics 데이터의 용어 비교](/help/getting-started/aa-vs-cja/terminology.md) |
 | 2022월 8월 | [실시간 고객 프로필에 게시하는 대상](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)에 대한 새 설명서 |
 | 2022년 7월 | [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 문서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 문서. |
-| 2022년 7월 | [새 세션 보고와 반복 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) 보고 비교 문서. |
+| 2022년 7월 | [첫 번째 세션과 반복 세션 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) 보고 설명서. |
 | 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics Source Connector에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서 |
 | 2022년 6월 | [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)에 대한 새 문서 |
