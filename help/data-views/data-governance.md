@@ -2,9 +2,9 @@
 title: 레이블 및 정책
 description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 데이터 보기 및 보고에 미치는 영향을 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: b135175e0276ab26514d1c785793feb817c09898
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -72,3 +72,7 @@ Experience Platform에서 만든 데이터 레이블은 데이터 보기 사용�
 
 >[!MORELIKETHIS]
 >[중요 데이터 다운로드](/help/analysis-workspace/curate-share/download-send.md)
+
+>[!MORELIKETHIS]
+>[Report Builder에서 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+
