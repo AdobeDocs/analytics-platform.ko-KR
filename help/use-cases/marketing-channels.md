@@ -4,7 +4,7 @@ description: Analytics 소스 커넥터를 사용하여 마케팅 채널 처리 
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 5819db4d7c597b5b7587c09a1433503ff7abb6a5
+source-git-commit: 8d333627d3fe4f4dd68ec0f9316838c88678bc0f
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 93%
@@ -31,11 +31,11 @@ ht-degree: 93%
 3. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 첫 번째 및 마지막 터치 차원을 모두 사용하려면 각 마케팅 채널 차원을 구성 요소 영역으로 여러 번 드래그합니다. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 또한 Adobe에서는 Analysis Workspace에서 쉽게 사용할 수 있도록 각 차원에 표시 이름을 지정하도록 권장합니다.
 4. 데이터 보기를 만듭니다.
 
+이제 마케팅 채널 차원을 Analysis Workspace에서 사용할 수 있습니다.
+
 >[!NOTE]
 >
 > Analytics 소스 커넥터에는 두 가지가 모두 필요합니다 `channel.typeAtSource` (마케팅 채널) 및 `channel._id` (마케팅 채널 세부 사항)를 채워야 하며, 그렇지 않으면 XDM ExperienceEvent로 전달되지 않습니다. 소스 보고서 세트에서 마케팅 채널 세부 사항이 비어 있으면 공백이 발생합니다 `channel._id` 분석 소스 커넥터 가 비어 있게 됩니다. `channel.typeAtSource` 또한. 이로 인해 Adobe Analytics과 Customer Journey Analytics 간에 보고 차이가 있을 수 있습니다.
-
-이제 마케팅 채널 차원을 Analysis Workspace에서 사용할 수 있습니다.
 
 ## 처리와 아키텍처 차이점
 
