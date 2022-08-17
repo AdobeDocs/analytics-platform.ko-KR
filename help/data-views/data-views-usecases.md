@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1277'
+ht-degree: 81%
 
 ---
 
@@ -114,10 +114,6 @@ f. &quot;50&quot;을 값으로 지정합니다.
 * 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 2022년 6월 1일부터 6월 15일까지 보고서를 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 전환 확인 기간에 포함되므로 2022년 5월 30일에 시작되고 2022년 6월 1일에 종료되는 경우, 보고 기간의 모든 세션이 반환 세션으로 계산됩니다.
 
 ## 날짜 및 날짜-시간 기능을 사용합니다 {#date}
-
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 Adobe Experience Platform의 스키마에는 다음이 포함되어 있습니다 [!UICONTROL 날짜] 및 [!UICONTROL 날짜-시간] 필드. 이제 CJA 데이터 보기가 이러한 필드를 지원합니다. 이러한 필드를 데이터 보기로 차원으로 드래그하면 해당 필드를 지정할 수 있습니다 [포맷](/help/data-views/component-settings/format.md). 이 형식 설정은 필드가 보고에 표시되는 방식을 결정합니다. 예:
 

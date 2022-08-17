@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 0e626b4072c68a69ae94dbfdfb53169aa34ca8ac
+exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
-
 
 # Report Builder의 제한된 레이블
 
@@ -26,10 +26,6 @@ Experience Platform이 사용하는 데이터 세트에서 만들어진 개인 �
 자세한 내용은 [Customer Journey Analytics 및 데이터 거버넌스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
 
 ## Report Builder에서 제한된 데이터 보기
-
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 보고, 다운로드 및 공유에 영향을 주는 두 개의 Adobe 정의 정책이 CJA에 표시됩니다.
 

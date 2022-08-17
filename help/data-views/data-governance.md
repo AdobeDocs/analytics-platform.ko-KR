@@ -2,18 +2,14 @@
 title: 레이블 및 정책
 description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 데이터 보기 및 보고에 미치는 영향을 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: b135175e0276ab26514d1c785793feb817c09898
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 2%
+source-wordcount: '468'
+ht-degree: 1%
 
 ---
 
 # 레이블 및 정책
-
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 Experience Platform에서 데이터 세트를 만들 때 만들 수 있습니다 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) 데이터 세트에 있는 일부 또는 모든 요소에 대해 를 사용할 수 있습니다. 지금까지 이러한 레이블은 CJA에서 노출되지 않았습니다. 이 릴리스를 사용하면 CJA에서 이러한 레이블 및 정책을 볼 수 있습니다.
 
