@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1d054974165e7ec6bcbd3e0eda6e76bd1a0c2108
+source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 97%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [가로 막대 및 스택 가로 막대](analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
-      + [라인](analysis-workspace/visualizations/line.md)
+      + [선](analysis-workspace/visualizations/line.md)
       + [산포도](analysis-workspace/visualizations/scatterplot.md)
       + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](analysis-workspace/visualizations/text.md)
@@ -123,6 +123,7 @@ ht-degree: 97%
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
+      + [실험 패널](analysis-workspace/c-panels/experimentation.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
