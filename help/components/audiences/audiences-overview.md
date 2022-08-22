@@ -3,9 +3,9 @@ title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 * Adobe Journey Optimizer에서 대상을 여정에 활용
 * Experience Platform 대상을 통해 서드파티에 대상 내보내기
 * CJA의 이벤트 기반 데이터에서 파생된 유용한 속성으로 실시간 고객 프로필 강화
-* 대상을 게시한 후 대기 시간을 최소화하면서 이 모든 작업 수행(몇 분 정도)
+* 대상을 게시한 후 대기 시간을 최소화하면서 이 모든 작업 수행 (몇 분 정도)
 * 일회성 대상 또는 반복 대상 게시
 
 ## 주요 용어
@@ -33,9 +33,9 @@ ht-degree: 94%
 
 * 관리자는 Adobe Admin Console에서 **[!UICONTROL 대상 게시]** 권한이 자동으로 부여됩니다.
 
-* 관리자는 개별 사용자에게 이 권한을 부여할 수 있습니다.
+* 관리자는 개인 사용자에게 이 권한을 부여할 수 있습니다.
 
-* 또한 관리자는 **[!UICONTROL 프로필 관리]** Adobe Experience Platform의 권한.
+* 관리자는 또한 Adobe Experience Platform에서 **[!UICONTROL 프로필 관리]** 권한이 필요합니다.
 
 ## 다음 단계
 
