@@ -5,7 +5,7 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 | 설정 | 설명 |
 | --- | --- |
 | [!UICONTROL 버킷 값] | 버킷팅을 활성화할 수 있는 확인란입니다. |
-| [!UICONTROL 미만] | 첫 번째 차원 버킷의 상단 경계. |
-| [!UICONTROL 포함] 및 [!UICONTROL 보다 작음] | 후속 버킷의 경계. |
-| [!UICONTROL 크거나 같음] | 마지막 차원 버킷의 하단 경계. |
+| [!UICONTROL 미만] | 첫 번째 차원 버킷의 상단 경계 |
+| [!UICONTROL 포함] 및 [!UICONTROL 보다 작음] | 후속 버킷의 경계 |
+| [!UICONTROL 크거나 같음] | 마지막 차원 버킷의 하단 경계 |
 | [!UICONTROL 버킷 추가] | 수치 차원 버킷에 다른 버킷을 추가할 수 있습니다. 단일 차원에서 최대 20개의 버킷을 추가할 수 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
