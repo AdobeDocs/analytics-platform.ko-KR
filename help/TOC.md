@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [새 Customer Journey Analytics 사용자를 위한 사용 안내서](getting-started/aa-to-cja-user.md)
    + Adobe Analytics 및 Customer Journey Analytics 비교 {#compare-aa-cja}
       + [Customer Journey Analytics 기능 지원](getting-started/aa-vs-cja/cja-aa.md)
-      + [Analytics 소스 커넥터를 통해 전달된 Analytics 데이터의 용어 비교](getting-started/aa-vs-cja/terminology.md)
+      + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](getting-started/aa-vs-cja/terminology.md)
       + [Adobe Analytics 및 CJA에서 데이터 처리 비교](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [가상 보고 환경 및 샌드박스 환경](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](getting-started/aa-vs-cja/pr-vista-dataprep.md)
@@ -169,7 +169,7 @@ ht-degree: 97%
    + [필터 작업](report-builder/work-with-filters.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
-   + [제한된 레이블](report-builder/restricted-labels.md)
+   + [제한된 라벨](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](components/overview.md)
