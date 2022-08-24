@@ -4,10 +4,10 @@ description: 연결 생성, 데이터 세트 추가, 데이터 보기 생성 등
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
-source-git-commit: c80c10e1e4887bfe7fdc3b59d0dfe415b1b0d5eb
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+source-git-commit: e5ae592c6765638e26ee5252f458e82af9d24e44
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +37,10 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 ## 사용자 액세스
 
 Customer Journey Analytics의 제품 관리자가 아닌 사용자(사용자)는 데이터 보기 또는 연결을 볼 수 없지만 필터, 프로젝트 및 계산된 지표를 만들 수 있습니다.
+
+## 작업 공간 프로젝트 큐레이션
+
+프로젝트 수준에서 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한하는 방법에 대한 자세한 내용은 [프로젝트 조정](/help/analysis-workspace/curate-share/curate.md).
+
+
 
