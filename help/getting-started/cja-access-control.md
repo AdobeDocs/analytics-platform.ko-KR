@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
+source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '945'
 ht-degree: 17%
 
 ---
@@ -97,3 +97,5 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 주석 작성]** | 사용자가 만들 수 있음 [주석](/help/components/annotations/overview.md). |
 | **[!UICONTROL 대상 생성]** | 사용자가 만들 수 있음 [대상자](/help/components/audiences/audiences-overview.md). |
 | **[!UICONTROL 대상 보기]** | 사용자가 볼 수 있음 [대상자](/help/components/audiences/audiences-overview.md). |
+
+{style=&quot;table-layout:auto&quot;}
