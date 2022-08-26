@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ccb13b9632433f2fcc9c765e9527f157dad632d4
+source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '913'
 ht-degree: 17%
 
 ---
@@ -37,7 +37,7 @@ Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platf
 
 제품 프로필은 권한 세트입니다. 제품 프로필 관리자는 다음을 수행할 수 있습니다
 
-* 새 사용자 추가 등 개별 제품 프로필을 만들고 관리합니다.
+* 새 사용자 추가 또는 사용자 그룹 및 관련 제품 프로필 관리 등 개별 제품 프로필을 만들고 관리합니다.
 
 * CJA에서 관리하는 제품 프로필에 포함된 데이터 보기를 편집합니다. 새 데이터 보기를 만들 수 없습니다.
 
