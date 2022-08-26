@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e7ff0bfae0f7d041a8131cecbf362cf71aca9740
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 99%
 
 ---
 
 # 현재 CJA(Customer Journey Analytics) 릴리스 정보 (2022년 8월)
 
-**최근 업데이트**: 2022년 8월 23일
+**최근 업데이트**: 2022년 8월 25일
 
 ## 주요 기능
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | **데이터 거버넌스 레이블 및 정책에 대한 CJA 지원** | CJA와 Adobe Experience Platform 개인정보 보호 레이블 및 정책 간의 통합을 자동화합니다. 플랫폼에서 사용하는 데이터 세트에서 생성된 데이터 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고하기 위해 CJA 데이터 보기에 표시됩니다. 또한 데이터를 CJA에서 내보낼 경우(Workspace 또는 Report Builder 보고, 내보내기, API 등을 통해) 보고서에 특정 방법으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다. [자세히 알아보기](/help/data-views/data-governance.md) | 2022년 8월 17일 |
 | **CJA의 날짜 필드 지원** | CJA에서 날짜 및 날짜-시간 필드를 보고할 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md#date) | 2022년 8월 17일 |
 | **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr) | 2022년 8월 24일 |
-| **첫 번째 세션 보고와 반복 세션 보고 비교** | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) | 2022년 8월 24일 |
+| **첫 번째 세션 보고** | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) | 2022년 8월 24일 |
 
 {style=&quot;table-layout:auto&quot;}
 

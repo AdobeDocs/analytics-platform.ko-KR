@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1254'
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## 3. 플로우 다이어그램에서 &quot;지표&quot;로서 수치 차원 사용 {#numeric}
 
-수치 차원을 사용하여 &quot;지표&quot;를 [!UICONTROL  플로우] 시각화에 나타낼 수 있습니다.
+숫자 차원을 사용하여 &quot;지표&quot;를 [!UICONTROL  흐름] 시각화.
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 2. Workspace 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
@@ -87,19 +87,19 @@ f. &quot;50&quot;을 값으로 지정합니다.
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.
 
-## 7. 새 세션 보고와 반복 세션 보고 비교 {#new-repeat}
+## 7. 새 세션 보고 {#new-repeat}
 
 해당 데이터 보기에 대해 정의한 보고 기간과 13개월 전환 확인 기간을 기반으로 세션이 실제로 사용자의 첫 번째 세션인지 여부를 판단할 수 있습니다. 이 보고를 통해 다음을 결정할 수 있습니다.
 
-* 새 세션과 반복 세션에 대한 주문 비율은 얼마입니까?
+* 신규 세션에서 주문량이 몇 퍼센트입니까?
 
-* 특정 마케팅 채널 또는 특정 캠페인의 경우 처음 사용자를 대상으로 하십니까, 아니면 재방문 사용자를 대상으로 하십니까? 이러한 선택이 전환율에 어떤 영향을 미쳤습니까?
+* 주어진 마케팅 채널 또는 특정 캠페인의 경우 최초 사용자를 타깃팅합니까? 이 선택은 전환율에 어떻게 영향을 줍니까?
 
-이 보고를 용이하게 하는 세 가지 구성 요소:
+두 가지 구성 요소를 통해 이 보고가 가능합니다.
 
-* 1 차원: [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
+* 1 차원: [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표는 세션의 일부가 아닌 경우 이 차원에 대한 &#39;적용할 수 없음&#39; 버킷에 속합니다.
 
-* 2 지표: [신규 세션, 재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 신규 세션은 보고 기간 내에서 개인이 정의한 첫 번째 세션으로 정의됩니다. 재방문 세션은 개인의 첫 번째 세션이 아닌 세션의 수입니다.
+* 1 지표: [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 새 세션은 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
 
 이러한 구성 요소에 액세스하려면:
 
@@ -111,7 +111,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * 13개월 전환 확인 기간 전에 첫 번째 세션이 발생한 경우. 이 세션은 무시됩니다.
 
-* 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 2022년 6월 1일부터 6월 15일까지 보고서를 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 2022년 5월 30일에 시작하여 2022년 6월 1일에 끝나는 경우 세션이 전환 확인 기간에 포함되므로 보고 기간의 모든 세션이 재방문 세션으로 계산됩니다.
+* 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 보고서를 2022년 6월 1일부터 6월 15일까지 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 2022년 5월 30일에 시작하여 2022년 6월 1일에 끝나는 경우 세션이 전환 확인 기간에 포함되므로 보고 기간의 모든 세션이 재방문 세션으로 계산됩니다.
 
 ## 날짜 및 날짜-시간 기능 사용 {#date}
 
