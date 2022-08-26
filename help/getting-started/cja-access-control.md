@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
+source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '942'
 ht-degree: 17%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 17%
 # CJA 액세스 제어
 
 CJA(Customer Journey Analytics)은 세 가지 액세스 수준 또는 세 가지 역할의 적용을 받습니다. 제품 관리자 역할, 제품 프로필 관리자 역할 및 사용자 수준 액세스. 이 항목에서는 이러한 역할에 대해 자세히 설명합니다.
+
+또한 작업 공간 큐레이션 및 행 수준, 값 수준 액세스 제어와 같이 액세스를 제한하는 보다 세부적인 방법에 대해서도 설명합니다.
 
 ## 제품 관리자 역할
 
@@ -76,7 +78,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 
 다음은 의료 관련 예입니다. 이 데이터를 포함하는 데이터 세트에서 데이터 보기에 &quot;고혈압&quot;이라는 지표를 만든다고 가정합니다. 지표가 된다는 사실은 이 지표의 총계를 볼 수 있게 하지만 그 아래에 있는 개별 환자는 볼 수 없습니다.
 
-## CJA 권한
+## Admin Console의 CJA 권한
 
 다음 **[!UICONTROL 권한]** 탭에서 [Admin Console](https://adminconsole.adobe.com/enterprise/). 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그런 다음 특정 데이터 보기에 권한을 지정하고 제품 프로필의 사용자에게 어떤 권한을 부여할지 지정합니다. 다음은 CJA별 권한입니다.
 
@@ -86,7 +88,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | --- | --- |
 | **[!UICONTROL 데이터 보기]** | 전환하면 **[!UICONTROL 자동 포함]** to **[!UICONTROL 설정]**, 이 제품 프로필에 포함된 사용자는 모든 기존 및 새로 만든 데이터 보기를 볼 수 있습니다. 이 설정이 **[!UICONTROL 해제]**, 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
 | **[!UICONTROL 보고 도구]**: |  |
-| **[!UICONTROL 감사 로그 액세스]** | 현재, [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 는 API를 통해서만 사용할 수 있습니다. 이 권한은 개발 중인 향후 UI에 대한 것입니다. |
+| **[!UICONTROL 감사 로그 액세스]** | 현재, [감사 로그](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 는 API를 통해서만 사용할 수 있습니다. 이 권한은 API 및 예정된 감사 로그 UI에 권한 검사를 적용합니다. |
 | **[!UICONTROL 보고 사용 관리자]** | 사용자가 회사에서 실행 중인 보고서를 보고 삭제할 수 있도록 해줍니다. (보고 사용 기능은 아직 출시되지 않았습니다.) |
 | **[!UICONTROL 보고 사용 보기]** | 사용자가 모든 동시 보고 요청을 볼 수 있도록 해줍니다. (보고 사용 기능은 아직 출시되지 않았습니다.) |
 | **[!UICONTROL 계산된 지표 생성]** | 사용자가 만들 수 있음 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md). |
