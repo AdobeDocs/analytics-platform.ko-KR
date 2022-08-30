@@ -3,7 +3,7 @@ title: 레이블 및 정책
 description: AEP에 정의된 데이터 레이블 및 정책이 CJA의 데이터 보기와 보고에 어떤 영향을 미치는지 알아보십시오.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 source-git-commit: 7962114aaab42a283f1cb35a312b0a707038c31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
 ht-degree: 100%
 
