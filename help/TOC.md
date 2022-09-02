@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 + Customer Journey Analytics 개요 {#cja-overview}
    + [Customer Journey Analytics 개요](getting-started/cja-overview.md)
    + [시작하기](getting-started/cja-getting-started.md)
-   + [Real-Time CDP와 CJA 간의 지표 및 대상 멤버십의 일관성](getting-started/consistency-rcdp-cja.md)
+   + [Real-Time CDP와 CJA 간의 지표 및 대상자 멤버십의 일관성](getting-started/consistency-rcdp-cja.md)
    + [CJA 액세스 제어](getting-started/cja-access-control.md)
    + [Customer Journey Analytics 랜딩 페이지](getting-started/landing.md)
    + [자주 묻는 질문](getting-started/cja-faq.md)
@@ -179,10 +179,10 @@ ht-degree: 99%
       + [주석 관리](components/annotations/manage-annotations.md)
       + [주석 보기](components/annotations/view-annotations.md)
       + [모바일 주석](components/annotations/mobile-annotations.md)
-   + 대상 {#audiences}
-      + [대상 개요](components/audiences/audiences-overview.md)
-      + [대상 생성 및 게시](components/audiences/publish.md)
-      + [대상 관리](components/audiences/manage.md)
+   + 대상자 {#audiences}
+      + [대상자 개요](components/audiences/audiences-overview.md)
+      + [대상자 생성 및 게시](components/audiences/publish.md)
+      + [대상자 관리](components/audiences/manage.md)
    + 차원 {#dimensions}
       + [차원 미리보기](components/dimensions/view-dimensions.md)
       + [차원 분류](components/dimensions/t-breakdown-fa.md)
@@ -235,7 +235,7 @@ ht-degree: 99%
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](use-cases/b2b.md)
    + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](use-cases/marketo.md)
-   + [AEP 대상을 CJA로 수집](use-cases/ingest-aep-segments.md)
+   + [AEP 대상자를 CJA로 수집](use-cases/ingest-aep-segments.md)
    + [채널 간 데이터 분석](use-cases/cross-channel.md)
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
