@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ CJA에서는 이제 설정한 연결의 일부로 가져온 차원(점수, 점�
 
 ### 4단계: 작업 영역에서 CAI 점수 보고
 
-CJA Workspace에서 새 프로젝트를 만들고 시각화를 가져옵니다.
+CJA Workspace에서 새 프로젝트를 만들고 시각화를 가져올 수 있습니다.
 
 **트렌드 성향 점수**
 
