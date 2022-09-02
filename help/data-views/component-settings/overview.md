@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: baee2ccf6eec040972726b9651ffe565d50307a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 | [!UICONTROL 구성 요소 이름] | 필수 여부. Analysis Workspace에 표시되는 이름을 지정할 수 있습니다. 구성 요소의 이름을 변경하여 데이터 보기에 특정된 이름을 지정할 수 있습니다. |
 | [!UICONTROL 설명] | 선택 사항이지만 권장됨. 다른 사용자에게 구성 요소에 대한 정보를 제공합니다. |
 | [!UICONTROL 태그] | 선택 사항. Analysis Workspace UI에서 보다 쉽게 검색/필터링할 수 있도록 사용자 정의 태그 또는 즉시 사용 가능한 태그로 구성 요소에 태그를 지정할 수 있습니다. |
-| [!UICONTROL 컨텍스트 레이블] | 선택 사항. 구성 요소에 적용할 수 있는 사용 가능한 시스템 정의 레이블의 드롭다운입니다. 이러한 레이블은 Analysis Workspace 프로젝트 또는 패널에서 보고에 사용되는 구성 요소 집합을 정의하는 데 필요할 수 있습니다. |
+| [!UICONTROL 컨텍스트 레이블] | 선택 사항. 구성 요소에 적용할 수 있는 시스템 정의 레이블의 드롭다운 이러한 레이블은 Analysis Workspace 프로젝트 또는 패널에서 보고에 사용되는 구성 요소 집합을 정의하는 데 필요할 수 있습니다. |
 | [!UICONTROL 스키마 필드 이름] | 스키마 필드의 이름. |
 | [!UICONTROL 데이터 세트 유형] | 필수 여부. 구성 요소의 원본 데이터 세트 유형(이벤트, 조회 또는 프로필)을 표시하는 편집 불가능한 필드입니다. |
 | [!UICONTROL 데이터 세트] | 구성 요소의 원본 데이터 세트를 표시하는 편집 불가능한 필드입니다. 이 필드에는 여러 개의 데이터 세트가 포함될 수 있습니다. |
