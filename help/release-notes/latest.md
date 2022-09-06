@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 96%
 
 ---
 
 # 현재 CJA(Customer Journey Analytics) 릴리스 정보 (2022년 8월)
 
-**최근 업데이트**: 2022년 8월 25일
+**마지막 업데이트**: 2022년 9월 6일
 
 ## 주요 기능
 
@@ -25,6 +25,7 @@ ht-degree: 100%
 | **CJA의 날짜 필드 지원** | CJA에서 날짜 및 날짜-시간 필드를 보고할 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md#date) | 2022년 8월 17일 |
 | **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr) | 2022년 8월 24일 |
 | **첫 번째 세션 보고** | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) | 2022년 8월 24일 |
+| **세션 보고 반복** | 특정 세션이 사용자의 반환 세션인지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 2022년 9월 8일 |
 
 {style=&quot;table-layout:auto&quot;}
 
