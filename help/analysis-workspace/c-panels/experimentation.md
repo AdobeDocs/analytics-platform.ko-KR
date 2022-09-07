@@ -3,10 +3,10 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
+source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 86%
+source-wordcount: '1326'
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 ![컨텍스트 레이블](assets/context-label.png)
 
-이 레이블이 없으면 함께 작동할 실험이 없어 실험 패널이 작동하지 않습니다.
+이러한 레이블이 없으면 사용할 실험이 없으므로 실험 패널이 작동하지 않습니다.
 
 ## 3단계: 실험 패널 구성
 
@@ -70,13 +70,9 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 또한 실험이 결정적인지 여부와 결과를 정리한 텍스트 요약을 얻을 수 있습니다. 결정성은 통계적 유의성을 기반으로 합니다. (아래 “통계 방법” 참조.) 상승도와 신뢰도가 가장 높은 최고의 성과 변형에 대한 요약 번호를 볼 수 있습니다.
 
->[!NOTE]
->
->또한, 상승도와 신뢰도는 CJA에서 [고급 계산된 지표 함수](/help/components/calc-metrics/cm-adv-functions.md)이므로, 고유한 상승도 및 신뢰도 지표를 작성할 수 있습니다.
+선택한 각 성공 지표에 대해 하나의 자유 형식 테이블 및 하나의 전환 비율 트렌드가 표시됩니다.
 
 ![실험 출력](assets/exp-output1.png)
-
-선택한 각 성공 지표에 대해 하나의 자유 형식 테이블 및 하나의 전환 비율 트렌드가 표시됩니다.
 
 [!UICONTROL 선] 차트를 통해 [!UICONTROL 제어]와 [!UICONTROL 제어 변형]의 성과를 비교할 수 있습니다.
 
@@ -85,6 +81,10 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 >[!NOTE]
 >
 >이 패널은 현재 A/A 테스트 분석을 지원하지 않습니다.
+
+>[!NOTE]
+>
+>또한, 상승도와 신뢰도는 CJA에서 [고급 계산된 지표 함수](/help/components/calc-metrics/cm-adv-functions.md)이므로, 고유한 상승도 및 신뢰도 지표를 작성할 수 있습니다.
 
 ## 5단계: 결과 해석
 
