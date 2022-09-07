@@ -3,9 +3,9 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 15ef6bfc1d6600b3795310c208ad46c6f6b52254
-workflow-type: ht
-source-wordcount: '1322'
+source-git-commit: 3c4e2ccd9a3a1d8daf4ace79103b35aead79e432
+workflow-type: tm+mt
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍스트 레이블](/help/data-views/component-settings/overview.md)을 추가할 수 있으며 이를 위해 [!UICONTROL 실험] 패널 같은 CJA 서비스로 이 레이블을 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
 
 * [!UICONTROL 실험]
-* [!UICONTROL 변형]
+* [!UICONTROL 실험 변형]
 
 실험 데이터가 포함된 데이터 보기에서 실험 데이터가 있는 차원 하나와 변형 데이터가 있는 차원 하나를 선택합니다. 그 다음 **[!UICONTROL 실험]** 및 **[!UICONTROL 변형]** 레이블이 있는 차원에 레이블을 지정합니다.
 
