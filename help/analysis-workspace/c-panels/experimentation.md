@@ -3,10 +3,10 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
+source-git-commit: 31f29e9453d252f119a4fa7c26f96e9f01ed2abf
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 85%
+source-wordcount: '1401'
+ht-degree: 80%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 실험 패널은 모든 Customer Journey Analytics(CJA) 사용자가 사용할 수 있습니다. 다른 관리자 권한이나 사용 권한이 필요하지 않습니다. 단 설정(아래 1, 2단계)에는 관리자만 수행할 수 있는 작업이 있습니다.
 
 ## 1단계: 실험 데이터 세트로의 연결 만들
+
+권장되는 데이터 스키마는 실험 데이터가 [개체 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) 여기에는 두 개의 분리된 차원으로 실험 및 변형 데이터가 포함됩니다. 실험 데이터를 단일 차원에 실험 데이터와 구분된 문자열의 변형 데이터를 사용한 경우 [substring](/help/data-views/component-settings/substring.md) 데이터 보기에서 를 두 개로 분할하여 패널에서 사용할 수 있도록 설정합니다.
 
 실험 데이터가 Adobe Experience Platform으로 [수집되면](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) 하나 이상의 실험 데이터 세트로 [CJA에서 연결을 생성합니다.](/help/connections/create-connection.md)
 
@@ -76,7 +78,7 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 [!UICONTROL 선] 차트를 통해 [!UICONTROL 제어]와 [!UICONTROL 제어 변형]의 성과를 비교할 수 있습니다.
 
-![실험 출력](assets/exp-output2.png)
+![라인 차트 출력](assets/exp-output2.png)
 
 >[!NOTE]
 >
