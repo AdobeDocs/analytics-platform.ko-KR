@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 81%
+source-wordcount: '328'
+ht-degree: 66%
 
 ---
 
@@ -32,10 +32,6 @@ ht-degree: 81%
 
 | 기능 | 설명 | [목표 날짜](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **미디어 동시 뷰어 패널** | 최대 동시성이 발생한 위치 또는 중단이 발생한 위치를 이해합니다. 콘텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 얻고 볼륨 및 규모에 대한 문제 해결 또는 계획을 수립하는 데 도움이 됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) | 2022년 8월 9일 |
-| **미디어 재생 소요 시간 패널** | 미디어 재생 소요 시간은 시청자 참여에 대한 가치 있는 통찰력을 제공하며 미디어 조직에서는 시간대 지정 기능이 있는 고급 소요 시간 분석을 통해 분 단위 사용자 참여에 대한 보다 심층적이고 세부적인 통찰력을 얻을 수 있습니다.<p>특정 시점에 미디어 스트림을 보는 데 소요된 시간을 관찰할 수 있습니다. 새로운 5분, 15분, 30분 단위를 포함하여 다양한 단위로 재생 시간을 분할할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) | 2022년 8월 9일 |
-| **실시간 고객 프로필에 게시하는 대상자** | 고객 타겟팅 및 개인화를 위해 CJA에서 검색된 대상자를 Adobe Experience Platform/실시간 고객 프로필에 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=ko-kr) | 2022년 8월 17일 |
-| **데이터 거버넌스 레이블 및 정책에 대한 CJA 지원** | CJA와 Adobe Experience Platform 개인정보 보호 레이블 및 정책 간의 통합을 자동화합니다. 플랫폼에서 사용하는 데이터 세트에서 생성된 데이터 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고하기 위해 CJA 데이터 보기에 표시됩니다. 또한 데이터를 CJA에서 내보낼 경우(Workspace 또는 Report Builder 보고, 내보내기, API 등을 통해) 보고서에 특정 방법으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다. [자세히 알아보기](/help/data-views/data-governance.md) | 2022년 8월 17일 |
 | **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr) | 2022년 8월 24일 |
 | **첫 번째 세션 보고** | 특정 세션이 사용자의 첫 번째 세션인지 알아봅니다. [자세히 알아보기](/help/data-views/data-views-usecases.md) | 2022년 8월 24일 |
 | **CJA용 실험 패널** | 이 새로운 작업 공간 패널을 사용하면 CJA 사용자가 온라인, 오프라인, Adobe 솔루션, Adobe Journey Optimizer 및 BYO(Bring-your-Own) 데이터에서 모든 소스 - 온라인, 오프라인에서 모든 A/B 실험의 향상도와 신뢰도를 평가할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/c-panels/experimentation.md) | [제한된 릴리스](/help/release-notes/releases.md) 2022년 9월 14일부터 |

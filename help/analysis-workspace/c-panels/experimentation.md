@@ -3,9 +3,9 @@ description: CJA 실험 패널에서 A/B 테스트 결과를 분석하는 방법
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1379'
 ht-degree: 79%
 
 ---
@@ -83,10 +83,6 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 >[!NOTE]
 >
 >이 패널은 현재 A/A 테스트 분석을 지원하지 않습니다.
-
->[!NOTE]
->
->또한, 상승도와 신뢰도는 CJA에서 [고급 계산된 지표 함수](/help/components/calc-metrics/cm-adv-functions.md)이므로, 고유한 상승도 및 신뢰도 지표를 작성할 수 있습니다.
 
 ## 5단계: 결과 해석
 
