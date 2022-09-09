@@ -3,16 +3,20 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
+source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 81%
 
 ---
 
-# 현재 CJA(Customer Journey Analytics) 릴리스 정보 (2022년 8월)
+# 현재 Customer Journey Analytics(CJA) 릴리스 노트(2022년 9월)
 
 **마지막 업데이트**: 2022년 9월 9일
+
+>[!NOTE]
+>
+>이 페이지에는 출시 전 콘텐츠가 포함되어 있으며 변경될 수 있습니다.
 
 ## 관련 리소스
 
@@ -33,19 +37,21 @@ ht-degree: 99%
 | **실시간 고객 프로필에 게시하는 대상자** | 고객 타겟팅 및 개인화를 위해 CJA에서 검색된 대상자를 Adobe Experience Platform/실시간 고객 프로필에 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=ko-kr) | 2022년 8월 17일 |
 | **데이터 거버넌스 레이블 및 정책에 대한 CJA 지원** | CJA와 Adobe Experience Platform 개인정보 보호 레이블 및 정책 간의 통합을 자동화합니다. 플랫폼에서 사용하는 데이터 세트에서 생성된 데이터 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고하기 위해 CJA 데이터 보기에 표시됩니다. 또한 데이터를 CJA에서 내보낼 경우(Workspace 또는 Report Builder 보고, 내보내기, API 등을 통해) 보고서에 특정 방법으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다. [자세히 알아보기](/help/data-views/data-governance.md) | 2022년 8월 17일 |
 | **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr) | 2022년 8월 24일 |
-| **첫 번째 세션 보고** | 이제 특정 세션이 사용자의 첫 번째 세션인지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-kr#new-repeat) | 2022년 8월 24일 |
+| **첫 번째 세션 보고** | 특정 세션이 사용자의 첫 번째 세션인지 알아봅니다. [자세히 알아보기](/help/data-views/data-views-usecases.md) | 2022년 8월 24일 |
+| **CJA용 실험 패널** | 이 새로운 작업 공간 패널을 사용하면 CJA 사용자가 온라인, 오프라인, Adobe 솔루션, Adobe Journey Optimizer 및 BYO(Bring-your-Own) 데이터에서 모든 소스 - 온라인, 오프라인에서 모든 A/B 실험의 향상도와 신뢰도를 평가할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/c-panels/experimentation.md) | [제한된 릴리스](/help/release-notes/releases.md) 2022년 9월 14일부터 |
+| **작업 공간의 콤보 차트 시각화** | 콤보 차트를 사용하면 Workspace 내에서 지표를 보다 쉽고 직관적으로 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts.html?lang=en) | 2022년 9월 14일 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 수정 사항
 
-AN-297141
+AN-298412
 
 ## CJA 관리자를 위한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| **개선된 IP-to-geolocation 매핑** | 2022년 7월 11일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics는 **2022년 10월**&#x200B;에 이 새로운 데이터 세트를 채택할 예정입니다. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> Analytics Source Connector를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
+| **개선된 IP-to-geolocation 매핑** | 2022년 9월 9일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics에서 이 새 데이터 세트를 채택합니다 **2022년 10월 5일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> Analytics Source Connector를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
