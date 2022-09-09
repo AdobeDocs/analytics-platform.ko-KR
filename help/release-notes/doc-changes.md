@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
+source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 98%
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| 2022년 9월 | 의 새로운 사용 사례 [CJA로 Google Analytics 데이터 마이그레이션](/help/use-cases/ga/overview.md). |
 | 2022년 9월 | 새 항목 [콤보 차트](/help/analysis-workspace/visualizations/combo-charts.md) 작업 공간. |
 | 2022년 9월 | 새 항목 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md) 작업 공간. |
 | 2022월 8월 | [Analytics 소스 커넥터에 대한 교차 영역 지원](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)에 대한 Adobe Experience Platform 문서. |
@@ -74,7 +75,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2021년 4월 | [지속성](/help/data-views/component-settings/persistence.md)에 대한 새로운 주제. |
 | 2021년 4월 | 작업 영역의 예약된 프로젝트 지원에 대한 새로운 설명서. |
 | 2021년 4월 | [향상된 데이터 보기 환경](/help/data-views/data-views.md)에 대한 새로운 주제. |
-| 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga-to-cja.md) 및 [해당 데이터 분석](/help/use-cases/ga-to-cja-reporting.md)에 대한 새로운 주제. |
+| 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga/overview.md) 및 [해당 데이터 분석](/help/use-cases/ga/report.md)에 대한 새로운 주제. |
 | 2021년 4월 | 작업 영역의 [예약된 보고서](/help/analysis-workspace/curate-share/t-schedule-report.md)에 대한 주제를 추가했습니다. |
 | 2021년 4월 | [CJA의 높은 카디널리티 차원](/help/components/dimensions/high-cardinality.md)에 대한 새로운 주제. |
 | 2021년 3월 | [Analytics 대시보드](/help/mobile-app/home.md) 지원에 대한 항목을 추가했습니다. |

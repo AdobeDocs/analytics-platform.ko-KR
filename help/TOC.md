@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 96%
 
 ---
 
@@ -230,6 +230,11 @@ ht-degree: 100%
    + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 활용 사례 {#cja-usecases}
+   + Google Analytics 데이터 {#ga}
+      + [Google Analytics에서 CJA로 데이터 마이그레이션 개요](use-cases/ga/overview.md)
+      + [Google Analytics 이전 데이터를 Platform에 수집](use-cases/ga/backfill.md)
+      + [플랫폼으로 스트리밍 Google Analytics 데이터 구성](use-cases/ga/streaming.md)
+      + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga/report.md)
    + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + [보고서 세트를 다른 스키마와 결합](use-cases/combine-report-suites.md)
    + [오브젝트 배열 사용](use-cases/object-arrays.md)
@@ -241,8 +246,6 @@ ht-degree: 100%
    + [콜센터 및 웹 데이터 가져오기](use-cases/call-center.md)
    + [데이터 수집 활용 사례](use-cases/data-ingestion.md)
    + [마케팅 채널 차원 사용](use-cases/marketing-channels.md)
-   + [Google Analytics 데이터를 Adobe Experience Platform으로 수집](use-cases/ga-to-cja.md)
-   + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Labs 사용 안내서](labs/labs.md)
 + 문제 해결 {#troubleshooting}
