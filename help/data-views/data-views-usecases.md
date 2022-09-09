@@ -4,9 +4,9 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '979'
 ht-degree: 98%
 
 ---
@@ -95,17 +95,15 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * 특정 마케팅 채널 또는 특정 캠페인의 경우 처음 사용자를 대상으로 합니까? 이 선택이 전환율에 어떤 영향을 미쳤습니까?
 
-이 보고를 용이하게 하는 세 가지 구성 요소:
+한 개의 지표를 통해 이 보고를 쉽게 수행할 수 있습니다.
 
-* 1 차원: [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
+<!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
 
-* 2 지표:
+* [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-kr#optional). 새 세션은 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
 
-   * [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 새 세션은 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
+   <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
 
-   * [세션 반환](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions는 사용자의 첫 번째 세션이 아닌 세션 수입니다.
-
-이러한 구성 요소에 액세스하려면:
+이 구성 요소에 액세스하려면
 
 1. 데이터 보기 편집기로 이동합니다.
 1. 왼쪽 레일에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 선택 사항 표준 구성 요소]** 탭을 클릭합니다.
@@ -117,20 +115,20 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * 세션이 전환 확인 기간과 보고 기간 모두에 걸쳐 있는 경우. 2022년 6월 1일부터 6월 15일까지 보고서를 실행한다고 가정해 보겠습니다. 전환 확인 기간은 2021년 5월 1일부터 2022년 5월 31일까지입니다. 세션이 2022년 5월 30일에 시작하여 2022년 6월 1일에 끝나는 경우 세션이 전환 확인 기간에 포함되므로 보고 기간의 모든 세션이 재방문 세션으로 계산됩니다.
 
-## 날짜 및 날짜-시간 기능 사용 {#date}
+<!--## Use the Date and Date-Time functionality {#date}
 
-Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL 날짜-시간] 필드가 있습니다. CJA 데이터 보기는 이제 이러한 필드를 지원합니다. 이러한 필드를 데이터 보기에 차원으로 드래그하면 해당 [형식](/help/data-views/component-settings/format.md)을 지정할 수 있습니다. 이 형식 설정에 따라 보고에서의 필드 표시 방법이 결정됩니다. 예:
+Schemas in Adobe Experience Platform contain [!UICONTROL Date] and [!UICONTROL Date-Time] fields. CJA data views now support these fields. When you drag these fields into a data view as a dimension, you can specify their [format](/help/data-views/component-settings/format.md). This format setting determines how the fields are displayed in reporting. For example:
 
-* 날짜 형식의 경우 **[!UICONTROL 월, 일, 년]** 형식으로 **[!UICONTROL 날짜]**&#x200B;를 선택하면 보고의 출력 예는 2022년 8월 23일과 같을 수 있습니다.
+* For the Date format, if you select **[!UICONTROL Day]** with the format **[!UICONTROL Month, Day, Year]**, an example output in reporting might look like: August 23, 2022.
 
-* 날짜-시간 형식의 경우 **[!UICONTROL 시간:분]** 형식으로 **[!UICONTROL 분]**&#x200B;을 선택하면 결과는 20:20과 같이 표시될 수 있습니다.
+* For the Date-Time format, if you select **[!UICONTROL Minute of Day]** with the format **[!UICONTROL Hour:Minute]**, your output might look like: 20:20.
 
-### 예시 사용 사례:
+### Example use cases:
 
-* 날짜: 여행사는 여행 출발 날짜를 데이터의 필드로 수집하고 있습니다. 여행사는 수집된 모든 출발 날짜의 [!UICONTROL 요일]을 비교하여 가장 인기 있는 날짜를 파악하는 보고서를 원합니다. 여행사는 [!UICONTROL 월(연 기준)]에도 동일한 작업을 수행하려고 합니다.
+* Date: A travel company is collecting the departure date for trips as a field in their data. They would like to have a report which compares the [!UICONTROL Day of Week] for all departure dates collected to understand which is most popular. They would like to do the same for [!UICONTROL Month of Year].
 
-* 날짜-시간: 소매업체는 매장에서 POS(판매 시점) 각 구매에 대한 시간을 수집하고 있습니다. 주어진 한 달 동안, 가장 바쁜 쇼핑 기간을 [!UICONTROL 시간(일 기준)]별로 이해하려고 합니다.
+* Date-Time: A retail company is collecting the time for each of their in-store point-of-sale (POS) purchases. Over a given month, they would like to understand the busiest shopping periods by [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[형식 구성 요소 설정의 날짜 및 날짜-시간](/help/data-views/component-settings/format.md)
+>[Date and Date-Time in the Format component setting](/help/data-views/component-settings/format.md)-->
 
