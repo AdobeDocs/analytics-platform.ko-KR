@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 66%
 
 ## 관련 리소스
 
-* [2022년 이전 CJA 릴리스 노트](/help/release-notes/2022.md)
+* [2022년 이전 CJA 릴리스 정보](/help/release-notes/2022.md)
 
-* [년 Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=kr)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
 
-* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=kr)
+* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
 
-* [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 ## 주요 기능
 
