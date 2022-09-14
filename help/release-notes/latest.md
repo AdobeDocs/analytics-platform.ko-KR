@@ -3,20 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f961bf0a615199de931a98f14d8b640890df7a2b
+source-git-commit: 8552e2e784cefc842f5105c41dcffc14192d5ceb
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 67%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
 # 현재 Customer Journey Analytics(CJA) 릴리스 노트(2022년 9월)
 
-**마지막 업데이트**: 2022년 9월 9일
-
->[!NOTE]
->
->이 페이지에는 출시 전 콘텐츠가 포함되어 있으며 변경될 수 있습니다.
+**마지막 업데이트**: 2022년 9월 14일
 
 ## 관련 리소스
 
@@ -24,7 +20,7 @@ ht-degree: 67%
 
 * [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
 
-* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
 
 * [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
@@ -32,10 +28,11 @@ ht-degree: 67%
 
 | 기능 | 설명 | [목표 날짜](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr) | 2022년 8월 24일 |
+| **Analytics 소스 커넥터에 대한 교차 영역 지원** | 이제 모든 지역(미국, 영국 또는 싱가포르)에서 보고서 세트를 수집할 수 있습니다. 단, 이러한 보고서 세트는 소스 연결이 생성되는 Experience Platform Sandbox 인스턴스와 동일한 조직에 매핑되어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) | 2022년 8월 24일 |
 | **첫 번째 세션 보고** | 특정 세션이 사용자의 첫 번째 세션인지 알아봅니다. [자세히 알아보기](/help/data-views/data-views-usecases.md) | 2022년 8월 24일 |
 | **CJA용 실험 패널** | 이 새로운 작업 공간 패널을 사용하면 CJA 사용자가 온라인, 오프라인, Adobe 솔루션, Adobe Journey Optimizer 및 BYO(Bring-your-Own) 데이터에서 모든 소스 - 온라인, 오프라인에서 모든 A/B 실험의 향상도와 신뢰도를 평가할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/c-panels/experimentation.md) | [제한된 릴리스](/help/release-notes/releases.md) 2022년 9월 14일부터 |
-| **작업 공간의 콤보 차트 시각화** | 콤보 차트를 사용하면 Workspace 내에서 지표를 보다 쉽고 직관적으로 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts.html?lang=en) | 2022년 9월 14일 |
+| **작업 공간의 콤보 차트 시각화** | 콤보 차트를 사용하면 Workspace 내에서 지표를 보다 쉽고 직관적으로 비교할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/combo-charts.md) | 2022년 9월 14일 |
+| **데이터 거버넌스 레이블 및 정책에 대한 CJA 지원** | CJA와 Adobe Experience Platform 개인정보 보호 레이블 및 정책 간의 통합을 자동화합니다. 플랫폼에서 사용하는 데이터 세트에서 생성된 데이터 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고하기 위해 CJA 데이터 보기에 표시됩니다. 또한 데이터를 CJA에서 내보낼 경우(Workspace 또는 Report Builder 보고, 내보내기, API 등을 통해) 보고서에 특정 방법으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다. [자세히 알아보기](/help/data-views/data-governance.md) | 2022년 9월 14일 |
 
 {style=&quot;table-layout:auto&quot;}
 
