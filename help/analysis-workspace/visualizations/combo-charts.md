@@ -4,30 +4,24 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 99%
 
 ---
 
 # 콤보 차트
 
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
-
 [!UICONTROL 콤보 차트]를 시각화하면 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
 
-[!UICONTROL 콤보 차트] 사용
+[!UICONTROL 콤보 차트] 사용:
 
 * 몇 번의 클릭만으로 이번 주 주문을 지난달과 지난해 같은 시기의 주문과 비교해 보십시오.
-
 * 동일한 차트에서 여러 지표(예: [!UICONTROL 고유 방문자] 및 [!UICONTROL 수익])를 빠르게 분석하고 비교합니다.
-
 * 시간대의 함수(예: [!UICONTROL 누적 평균])에 대해 지표를 분석합니다.
 
-수행할 수 있는 작업
+수행할 수 있는 작업:
 
 * 단일 [!UICONTROL 콤보 차트]에 여러 비교를 추가합니다.
 * 하나 이상의 비교를 추가하는 경우 [!UICONTROL 시간 비교]와 같이 동일한 유형이어야 합니다.
@@ -38,7 +32,7 @@ ht-degree: 100%
 
 1. 왼쪽 레일의 시각화 드롭다운 목록에서 [!UICONTROL 콤보 차트] 시각화를 빈 패널로 드래그합니다.
 
-   ![](assets/combo-chart-build.png)
+   ![빌드](assets/combo-chart-build.png)
 
 1. 드롭다운 목록에서 X축의 차원과 Y축의 지표를 선택합니다.
 
@@ -46,9 +40,9 @@ ht-degree: 100%
 
    | 선 비교 유형 | 정의 |
    | --- | --- |
-   | **[!UICONTROL 시간 비교]** | 예를 들어 가장 일반적인 비교 유형은 4주 전과 이 기간을 비교하는 것입니다. [!UICONTROL 시간 비교]를 선택한 경우 비교할 기간에 대해 2차 선택을 합니다.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![](assets/combo-functions.png) |
-   | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL 시간 비교]** | 예를 들어 가장 일반적인 비교 유형은 4주 전과 이 기간을 비교하는 것입니다. [!UICONTROL 시간 비교]를 선택한 경우 비교할 기간에 대해 2차 선택을 합니다.<p>![기간](assets/combo-time-period.png) |
+   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![함수](assets/combo-functions.png) |
+   | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![두 지표](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -56,7 +50,7 @@ ht-degree: 100%
 
    출력 값은 다음과 유사합니다.
 
-   ![](assets/combo-output.png)
+   ![출력](assets/combo-output.png)
 
    현재 기간은 막대 차트로 표시되고 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “바벨”이라고 합니다.
 
@@ -78,17 +72,17 @@ ht-degree: 100%
 
 다음은 수익 지표에 대한 누적 평균의 예입니다.
 
-![](assets/combo-cumul-avg.png)
+![누적 평균](assets/combo-cumul-avg.png)
 
 다음은 누적 평균 및 평균 함수가 모두 포함된 콤보 차트의 예입니다.
 
-![](assets/combo-two-functions.png)
+![두 가지 함수](assets/combo-two-functions.png)
 
 ## 콤보 차트 설정
 
 콤보 차트의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 설정을 변경합니다.
 
-![](assets/combo-settings.png)
+![설정](assets/combo-settings.png)
 
 | 설정 | 정의 |
 | --- | --- |
