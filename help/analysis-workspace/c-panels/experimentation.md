@@ -1,12 +1,12 @@
 ---
-description: CJA 실험 패널에서 A/B 테스트 결과를 분석하는 방법을 알아봅니다.
+description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 방법에 대해 알아봅니다.
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

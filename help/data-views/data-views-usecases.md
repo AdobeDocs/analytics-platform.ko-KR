@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * 특정 마케팅 채널 또는 특정 캠페인의 경우 처음 사용자를 대상으로 합니까? 이 선택이 전환율에 어떤 영향을 미쳤습니까?
 
-한 개의 지표를 통해 이 보고를 쉽게 수행할 수 있습니다.
+하나의 지표가 이 보고를 용이하게 합니다.
 
 <!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
 
@@ -103,7 +103,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
    <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
 
-이 구성 요소에 액세스하려면
+이러한 구성 요소에 액세스하려면 다음 작업을 수행하십시오.
 
 1. 데이터 보기 편집기로 이동합니다.
 1. 왼쪽 레일에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 선택 사항 표준 구성 요소]** 탭을 클릭합니다.
