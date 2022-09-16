@@ -12,15 +12,15 @@ ht-degree: 100%
 
 # 최신 CJA(Customer Journey Analytics) 릴리스 정보 (2022년 9월)
 
-**마지막 업데이트**: 2022년 14월 9일
+**마지막 업데이트**: 2022년 9월 14일
 
 ## 관련 리소스
 
 * [2022년 이전 CJA 릴리스 정보](/help/release-notes/2022.md)
 
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=kr)
 
-* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
+* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 
 * [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
