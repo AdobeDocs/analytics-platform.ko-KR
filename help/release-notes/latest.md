@@ -3,9 +3,9 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8552e2e784cefc842f5105c41dcffc14192d5ceb
-workflow-type: tm+mt
-source-wordcount: '397'
+source-git-commit: d2aec8976d7d81c28a6b9b76c58fec0fc2c3b360
+workflow-type: ht
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 100%
 
 **마지막 업데이트**: 2022년 9월 14일
 
+Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이러한 릴리스 정보를 정기적으로 확인하십시오.
+
 ## 관련 리소스
 
 * [2022년 이전 CJA 릴리스 정보](/help/release-notes/2022.md)
 
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=kr)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
 
 * [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 
