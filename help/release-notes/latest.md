@@ -4,9 +4,9 @@ description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: d2aec8976d7d81c28a6b9b76c58fec0fc2c3b360
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
