@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: 이 안내서는 Adobe Experience Platform을 기반으로 한 Adobe의 차세대 크로스 채널 분석 솔루션인 Customer Journey Analytics에 대한 지원을 제공합니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: 19551e8c8f3b114b1851ed80c2b13ae29696f79d
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 98%
 
 ---
 
@@ -229,13 +229,16 @@ ht-degree: 100%
    + [스코어카드 만들기](mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
-+ 사용 사례 {#cja-usecases}
++ Adobe 통합 {#integrations}
+   + [CJA와 Adobe 솔루션 통합 개요](/help/integrations/overview.md)
+   + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
++ 활용 사례 {#cja-usecases}
+   + [Customer Journey Analytics 활용 사례](use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
       + [Google Analytics에서 CJA로 데이터 마이그레이션 개요](use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터를 Platform으로 수집](use-cases/ga/backfill.md)
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](use-cases/ga/streaming.md)
       + [CJA에서 Google Analytics 데이터에 대한 보고](use-cases/ga/report.md)
-   + [Customer Journey Analytics 사용 사례](use-cases/cja-usecases.md)
    + [보고서 세트를 다른 스키마와 결합](use-cases/combine-report-suites.md)
    + [오브젝트 배열 사용](use-cases/object-arrays.md)
    + [바인딩 차원 및 지표 사용](use-cases/binding-dimensions-metrics.md)
