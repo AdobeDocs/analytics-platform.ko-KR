@@ -1,10 +1,10 @@
 ---
 title: Adobe Journey Optimizer과 Customer Journey Analytics 통합
 description: AJO에서 생성한 데이터를 가져와 CJA 내에서 Analysis Workspace을 사용하여 분석합니다.
-source-git-commit: 28bc99a7f5ec7b280fd26a7a45dc076e67f652dc
+source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 2%
+source-wordcount: '664'
+ht-degree: 3%
 
 ---
 
@@ -41,6 +41,8 @@ Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음을 
 | 메시지를 보냈습니다. | 성공적으로 보낸 메시지 수 | 스키마 문자열 요소 사용 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` 다음 설정으로 변경합니다.<br>구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `sent` |
 | 동기화 실패 | 동기화하지 못한 총 메시지 수 | 스키마 문자열 요소 사용 `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category` 다음 설정으로 변경합니다.<br>구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `sync` |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Journey Optimizer 지표를 사용하여 계산된 지표 구성
 
 Journey Optimizer 데이터 세트에 대해 원하는 차원 및 지표를 구성했으면 다음을 구성할 수도 있습니다 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md) 를 참조하십시오. 이러한 계산된 지표는 데이터 보기 관리자에서 만든 위의 지표를 기반으로 합니다.
@@ -48,6 +50,8 @@ Journey Optimizer 데이터 세트에 대해 원하는 차원 및 지표를 구�
 | 계산된 지표 | 설명 | 공식 |
 | --- | --- | --- |
 | 보낸 총 메시지 수 | 전송, 성공 또는 실패한 총 메시지 수 | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Journey Optimizer과 Customer Journey Analytics 간의 보고 차이점
 
