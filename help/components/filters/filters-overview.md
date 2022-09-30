@@ -2,12 +2,13 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '1100'
-ht-degree: 100%
+source-git-commit: 67489fc6e9c0733589bccdd136837db8caca14a2
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # 필터 개요 {#overview}
 
@@ -18,6 +19,8 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상 필터를 구
 필터 빌더에서 필터를 작성 및 저장하거나 폴아웃 시각화(Analysis Workspace의)에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
 필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/create-filters.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
+
+IMS 조직당 만들 수 있는 최대 필터 수는 50,000개입니다.
 
 ## 필터 유형 {#types}
 
