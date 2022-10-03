@@ -3,10 +3,10 @@ title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '2909'
-ht-degree: 100%
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+workflow-type: tm+mt
+source-wordcount: '3111'
+ht-degree: 96%
 
 ---
 
@@ -161,6 +161,23 @@ CEILING(metric)
 | 인수 | 설명 |
 |---|---|
 | *지표* | 반올림할 지표. |
+
+## 신뢰도
+
+[!UICONTROL 신뢰도] 는 주어진 변형이 통제 변형과 동일하다는 증거가 얼마나 많이 있는지에 대한 확률적 측정입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
+
+```
+fx Confidence (normalizing-container, success-metric, control, significance-threshold)
+```
+
+| 인수 | 설명 |
+| --- | --- |
+| 컨테이너 정규화 | 테스트가 실행될 기본(사람, 세션 또는 이벤트).  |
+| 성공 지표 | 사용자가 변형과 비교할 지표. |
+| 제어 | 실험의 다른 모든 변형이 비교되고 있는 변수입니다. 제어 변형 차원 항목의 이름을 입력합니다. |
+| 중요도-임계값 | 이 함수의 임계값은 기본값 95%로 설정됩니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 코사인 (행)
 
@@ -334,6 +351,22 @@ IF(logical_test, [value_if_true], [value_if_false])
 ## 작거나 같음
 
 숫자 값이 입력한 값보다 작거나 같은 항목을 반환합니다.
+
+## 상승도
+
+제어 변형에 대한 전환에서 특정 변형이 갖는 상승도를 반환합니다. 백분율로 표현되는 기준 요소 성능으로 나눈 주어진 변형과 기준 요소 간의 성능 차이입니다.
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| 인수 | 설명 |
+| --- | --- |
+| 컨테이너 정규화 | 테스트가 실행될 기본(사람, 세션 또는 이벤트).  |
+| 성공 지표 | 사용자가 변형과 비교할 지표. |
+| 제어 | 실험의 다른 모든 변형이 비교되고 있는 변수입니다. 제어 변형 차원 항목의 이름을 입력합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 선형 회귀_ 상관 계수
 
