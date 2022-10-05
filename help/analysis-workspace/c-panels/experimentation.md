@@ -3,18 +3,14 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '1400'
+source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
+workflow-type: tm+mt
+source-wordcount: '1393'
 ht-degree: 100%
 
 ---
 
 # 실험 패널
-
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 **[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Adobe 솔루션, Adobe Journey Optimizer 및 BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
 
