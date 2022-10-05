@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+source-git-commit: 3b89c88186b27148ba7d0cdee77cd60699b7161f
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | 2022년 10월 | 새 항목 [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) 시각화. |
 | 2022년 10월 | 의 새 섹션 [데이터 보기의 날짜 및 날짜 시간 기능](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#date) |
-| 2022년 10월 | 모바일 앱: 새 항목 [사용자 지정 세부 사항 보기](https://experienceleague.corp.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
+| 2022년 10월 | 모바일 앱: 새 항목 [사용자 지정 세부 사항 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides). |
 | 2022년 9월 | [CJA로의 Google Analytics 데이터 마이그레이션](/help/use-cases/ga/overview.md)에 대한 새로운 사용 사례. |
 | 2022년 9월 | 작업 영역의 [콤보 차트](/help/analysis-workspace/visualizations/combo-charts.md)에 대한 새로운 주제. |
 | 2022년 9월 | 작업 영역의 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)에 대한 새로운 주제. |
