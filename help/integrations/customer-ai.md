@@ -1,13 +1,13 @@
 ---
-description: AEP 고객 AI가 CJA의 Workspace와 어떻게 통합되는지 알아보십시오.
-title: 고객 AI와 CJA 통합
+description: AEP Customer AI 데이터가 CJA의 작업 공간과 통합하는 방법을 알아봅니다.
+title: CJA와 고객 AI 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: 81e80058ea5004d77ba1d15b9cd90a16283daa7c
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 90%
+source-wordcount: '901'
+ht-degree: 88%
 
 ---
 
@@ -31,15 +31,13 @@ Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://
 * **성향 분포를 살펴봅니다**. 사용 사례: 세그먼트에 대한 성향 점수의 분포를 이해하려고 합니다. &#x200B;예: 소매업체는 제품에 대해 $50 할인된 가격으로 특정 프로모션을 진행하려고 합니다. 이 업체는 예산 등의 이유로 인해 매우 제한적인 프로모션만 진행하기를 원할 수 있습니다. 업체는 데이터를 분석하여 상위 80% 이상의 고객만을 대상으로 하기로 결정합니다.
 * **시간의 흐름에 따라 특정 집단에 대한 작업을 수행하는 경향을 살펴봅니다**. 사용 사례: 시간이 지남에 따라 특정 집단을 추적하고 싶습니다. 이는 첫 번째 기능과 유사하지만, 시간이 지남에 따라 특정한 집단을 추적할 수 있습니다.&#x200B; 예: 마케터는 시간 경과에 따른 브론즈 등급과 실버 등급 또는 실버 등급과 골드 등급을 추적할 수 있습니다. 그런 다음 시간 경과에 따라 호텔을 예약하는 각 집단의 성향을 확인할 수 있습니다. &#x200B;
 
-## 워크플로
-
 일부 단계는 CJA에서 출력 작업을 수행하기 전에 Adobe Experience Platform에서 수행됩니다.
 
-### 1단계: 고객 AI 인스턴스 구성
+## 1단계: 고객 AI 인스턴스 구성
 
 데이터를 준비하고 모든 자격 증명 및 스키마를 준비한 후에는 Adobe Experience Platform의 [고객 AI 인스턴스 구성](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=ko-KR) 안내서를 따라 시작합니다.
 
-### 2단계: 고객 AI 데이터 세트에 대한 CJA 연결 설정
+## 2단계: 고객 AI 데이터 세트에 대한 CJA 연결 설정
 
 CJA에서는 이제 고객 AI용으로 계측된 Experience Platform 데이터 세트에 대한 [하나 이상의 연결을 생성](/help/connections/create-connection.md)할 수 있습니다. “계정 업그레이드 가능성”과 같은 각 예측은 하나의 데이터 세트와 동일합니다. 이러한 데이터 세트에는 “EE Format – name_of_application의 고객 AI 스코어” 접두어가 붙습니다.
 
@@ -57,13 +55,13 @@ CJA에서는 이제 고객 AI용으로 계측된 Experience Platform 데이터 �
 
 (예제는 프로필 데이터 세트이며 동일한 스키마 오브젝트 세트는 CJA가 가져올 경험 이벤트 데이터 세트의 일부입니다. 경험 이벤트 데이터 세트에는 점수 날짜로 타임스탬프가 포함됩니다.) 이 모델에서 득점한 모든 고객은 점수, 점수 날짜 등을 갖게 됩니다. 연관되어 있습니다.
 
-### 3단계: 연결을 기반으로 데이터 보기 만들기
+## 3단계: 연결을 기반으로 데이터 보기 만들기
 
 CJA에서는 이제 설정한 연결의 일부로 가져온 차원(점수, 점수 날짜, 확률 등) 및 지표를 사용하여 [데이터 보기를 생성](/help/data-views/create-dataview.md)할 수 있습니다.
 
 ![데이터 보기 만들기](assets/create-dataview.png)
 
-### 4단계: 작업 영역에서 CAI 점수 보고
+## 4단계: 작업 영역에서 CAI 점수 보고
 
 CJA Workspace에서 새 프로젝트를 만들고 시각화를 가져올 수 있습니다.
 
