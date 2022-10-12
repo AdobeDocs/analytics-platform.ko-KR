@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 99%
       + [지표 중복 제거](../data-views/component-settings/metric-deduplication.md)
       + [값 옵션 없음](../data-views/component-settings/no-value-options.md)
       + [지속성](../data-views/component-settings/persistence.md)
-      + [Substring](../data-views/component-settings/substring.md)
+      + [하위 문자열](../data-views/component-settings/substring.md)
       + [값 버킷팅](../data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](../data-views/component-reference.md)
    + [데이터 보기 활용 사례](../data-views/data-views-usecases.md)
@@ -204,7 +204,7 @@ ht-degree: 99%
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [간단한 &quot;방문자 수당 페이지 조회수&quot; 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [간단한 “방문자 수당 페이지 조회수” 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -232,7 +232,7 @@ ht-degree: 99%
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
-   + [CJA와 고객 AI 통합](/help/integrations/customer-ai.md)
+   + [CJA와 Customer AI 데이터 통합](/help/integrations/customer-ai.md)
 + 활용 사례 {#cja-usecases}
    + [Customer Journey Analytics 활용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
