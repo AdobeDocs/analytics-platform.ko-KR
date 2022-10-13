@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 45e4a60b6bbf38e33f307dbbbf68ab3124dd6a33
+source-git-commit: ed5b1a233dc0e4cbfe223fe71e6e1960efba0592
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 | **[!UICONTROL 주요 지표 요약] 시각화** | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. 자세히 알아보기 | 2022년 10월 5일부터 단계적으로 롤아웃 |
 | **CJA의 날짜 필드 지원** | CJA에서 날짜 및 날짜-시간 필드를 보고할 수 있습니다. [자세히 알아보기](/help/data-views/data-views-usecases.md#date) | 2022년 10월 5일 |
 | **모바일 앱: 사용자 정의 상세 보기** | 사용자 정의 상세 보기를 사용하면 대상자가 가장 중요한 것에 집중할 수 있도록 함으로써 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다. 각 스코어카드 타일과 관련된 상세 보기의 레이아웃을 변경하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=ko-KR) | 2022년 10월 5일 |
-| **대/소문자를 구분하지 않는 다중 값 변수** | 대/소문자를 구분하지 않는 다중 값 변수의 경우 mvvar1 - mvvar3에 저장된 값이 더 이상 자동으로 소문자로 지정되지 않습니다. 대신 Analytics 소스 커넥터를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터는 페이지에서 전달된 원래 사례를 반영합니다. | 2022년 10월 24일 |
+| **대/소문자를 구분하지 않는 다중 값 변수** | 대/소문자를 구분하지 않는 다중 값 변수의 경우 다음 변수에 저장된 값 `mvvar1` - `mvvar3` 은 더 이상 자동으로 소문자화되지 않습니다. 대신 Analytics 소스 커넥터를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터는 페이지에서 전달된 원래 사례를 반영합니다. | 2022년 10월 24일 |
 
 {style=&quot;table-layout:auto&quot;}
 
