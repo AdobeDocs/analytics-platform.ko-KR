@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+source-git-commit: 1ce51f7eb5a40584fec781727e82b448cd23cc7a
+workflow-type: tm+mt
+source-wordcount: '1296'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 예를 들어 데이터 보기에서 포함/제외 기능을 사용하여 50달러가 넘는 매출을 생성한 제품만 중점적으로 살펴볼 수 있습니다. 그러므로 50달러 제품 구매와 25달러 제품 구매를 포함하는 주문이 있는 경우, 전체 주문이 아니라 25달러 제품 구매만 제외시키는 것입니다.
 
-1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
 a. [!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
 나. [!UICONTROL 통화]에서 USD를 선택합니다.
@@ -99,9 +99,9 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
 
-* [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) 새 세션 지표는 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
+* [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 새 세션 지표는 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
 
-* [재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.-->
+* [재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.-->
 
 이러한 구성 요소에 액세스하려면:
 
@@ -123,7 +123,7 @@ Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL
 
 * 날짜-시간 형식의 경우 **[!UICONTROL 시간:분]** 형식으로 **[!UICONTROL 분]**&#x200B;을 선택하면 결과는 20:20과 같이 표시될 수 있습니다.
 
-### 예시 사용 사례:
+### 날짜 및 날짜-시간 사용 사례
 
 * 날짜: 여행사는 여행 출발 날짜를 데이터의 필드로 수집하고 있습니다. 여행사는 수집된 모든 출발 날짜의 [!UICONTROL 요일]을 비교하여 가장 인기 있는 날짜를 파악하는 보고서를 원합니다. 여행사는 [!UICONTROL 월(연 기준)]에도 동일한 작업을 수행하려고 합니다.
 
