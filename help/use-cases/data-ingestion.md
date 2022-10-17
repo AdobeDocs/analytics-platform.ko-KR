@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 5a6d2b14ba7ed1221921cfb253026850fc7b6d73
+workflow-type: tm+mt
+source-wordcount: '772'
+ht-degree: 98%
 
 ---
 
@@ -49,10 +49,10 @@ Adobe Experience Platform은 마케터가 고객의 행동을 더 잘 이해할 
 
 ## Customer Journey Analytics에서 분석할 Google Analytics 데이터 가져오기
 
-[Customer Journey Analytics를 이용하여 Google Analytics 데이터 분석](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module16/ex5.html#objectives)을 수행하는 방법에 대한 튜토리얼을 참조하여 자세한 단계를 검토하십시오.
+[Customer Journey Analytics를 이용하여 Google Analytics 데이터 분석](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=en)을 수행하는 방법에 대한 튜토리얼을 참조하여 자세한 단계를 검토하십시오.
 
 ## 대량 데이터 삽입 API를 사용하여 데이터를 Analytics로 가져온 다음 Experience Platform의 Adobe 소스 커넥터를 통해 수집하십시오.
 
 1. [대량 데이터 삽입 API를 사용](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)하여 서버측 컬렉션 데이터를 Adobe Analytics에 제출합니다. 이벤트 데이터를 포함하는 CSV 형식의 파일을 제출할 수 있습니다.
 1. [Adobe Analytics 소스 커넥터 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 통해 해당 소비자 데이터를 Adobe Experience Platform으로 가져옵니다.
-1. 채널 간 보고를 알리는 하나 이상의 [연결](/help/connections/create-connection.md) 및 [데이터 보기](/help/data-views/data-views.md)를 만들려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=ko-KR)를 사용합니다.
+1. 채널 간 보고를 알리는 하나 이상의 [연결](/help/connections/create-connection.md) 및 [데이터 보기](/help/data-views/data-views.md)를 만들려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
