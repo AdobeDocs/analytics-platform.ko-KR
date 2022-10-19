@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,12 @@ ht-degree: 100%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
+      + 작업 공간의 폴더 {#workspace-folders}
+         + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [프로젝트 제거](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [새 프로젝트 저장](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
