@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 및 데이터 거버넌스
 description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 5f69840fa19fbf7ba6ecac1cd198cfa4a7dd905d
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 89%
 
 ---
 
@@ -33,4 +33,4 @@ Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central S
 
 CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 위해 개인정보 보호 권한 및 소비자 보호를 개선합니다. 이 법은 2020년 1월 1일부터 시행되었습니다.
 CCPA는 개인 데이터의 판매 및 공개 여부(및 공개된 대상)를 인지하고, 개인 데이터 판매를 거부하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인정보 보호 권한을 캘리포니아주 거주자에게 제공합니다.
-CCPA에 따라 개인정보 보호 서비스는 개인 데이터 판매를 거부하는 요청을 지원합니다.
+CCPA에 따라 Privacy Service은 개인 데이터 판매 거부 요청을 지원합니다.
