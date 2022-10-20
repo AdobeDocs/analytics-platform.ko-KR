@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: f70dafa93ec22a0ef876052fbef4c9a67835d292
+source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 97%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 97%
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 공간의 폴더 {#workspace-folders}
          + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [새 프로젝트 저장](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -260,6 +260,7 @@ ht-degree: 97%
    + [Labs 사용 안내서](../labs/labs.md)
 + 문제 해결 {#troubleshooting}
    + [Adobe Analytics 데이터와 CJA 데이터 비교](../troubleshooting/compare.md)
-+ 개인정보 보호 {#cja-privacy}
++ 데이터 거버넌스 {#cja-privacy}
+   + [감사 로그](../privacy/audit-log.md)
    + [데이터 거버넌스](../privacy/privacy-overview.md)
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)
