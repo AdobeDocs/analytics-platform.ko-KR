@@ -201,7 +201,7 @@ ht-degree: 99%
       + [필터 만들기](../components/filters/create-filters.md)
       + [필터 관리](../components/filters/manage-filters.md)
       + [빠른 필터](../components/filters/quick-filters.md)
-      + [임시 필터](../components/filters/ad-hoc-filters.md)
+      + [애드 혹 필터](../components/filters/ad-hoc-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)
