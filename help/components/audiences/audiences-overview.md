@@ -2,16 +2,16 @@
 title: CJA 대상 게시 개요
 description: Customer Journey Analytics의 대상 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 18306a5a2fc8873850eb62b7407acb55db4007ea
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 83%
 
 ---
 
 # CJA 대상 게시 개요
 
-이제 고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics(CJA)에서 발견된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR?lang=en)(RTCP)을 만들어 게시할 수 있습니다.
+이제 고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics(CJA)에서 발견된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-kr)(RTCP)을 만들어 게시할 수 있습니다.
 
 대상 게시는 CJA 내에서 발견된 통찰력을 활성화하고 조치를 취하는 명확한 방법을 제공합니다. 이러한 조치에는 다음이 포함될 수 있습니다.
 
@@ -36,6 +36,10 @@ ht-degree: 100%
 * 관리자는 개인 사용자에게 이 권한을 부여할 수 있습니다.
 
 * 관리자는 또한 Adobe Experience Platform에서 **[!UICONTROL 프로필 관리]** 권한이 필요합니다.
+
+## 데이터 거버넌스 및 동의
+
+CJA에서 대상을 게시하면 대상자에 사용된 필드에 첨부된 데이터 거버넌스 레이블 및 정책이 기록됩니다.  대상이 Adobe Experience App에서 활성화되면 관련 데이터 거버넌스 레이블 및 정책을 해당 대상에 사용할 수 있으며 적절한 적용을 적용할 수 있습니다.  [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
 
 ## 다음 단계
 
