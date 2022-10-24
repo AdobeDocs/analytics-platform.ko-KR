@@ -2,10 +2,10 @@
 description: Customer Journey Analytics의 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Customer Journey Analytics 기능 릴리스
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 [!UICONTROL Analysis Workspace]는 기능 플래그 (&quot;전환&quot;이라고도 함)를 사용하여 새로운 기능의 가시성을 제어하므로 전체 릴리스 전에 통제된 크기 테스트를 수행할 수 있습니다. 이 릴리스 전략에는 다음 단계가 포함됩니다.
 
-* **프로덕션에 릴리스 (RTP)**: Analysis Workspace에서 기능 가시성이 해제되어 있는 상태로 코드가 프로덕션에 릴리스됩니다. 이 기능은 때때로 CJA API에서 사용할 수 있습니다.
-
-* **제한된 테스트**: 단계적인 릴리스는 내부 Adobe 사용자에 의한 테스트부터 시작됩니다. 그런 다음 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 Experience Cloud 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
+* **롤아웃 시작**: 단계별 릴리스의 롤아웃은 내부 Adobe 사용자에 의한 제한된 테스트부터 시작됩니다. 그런 다음 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 Experience Cloud 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
 
 * **GA (일반 배포)**: 권한이 있는 Experience Cloud 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
 
