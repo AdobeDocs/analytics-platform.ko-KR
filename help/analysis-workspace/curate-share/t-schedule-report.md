@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
+source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 61%
 
 ---
 
@@ -86,8 +86,8 @@ Adobe은 암호를 사용하여 예약된 프로젝트를 .pdf 또는 .csv 형�
 
 ### 새로 예약된 프로젝트
 
-1. 프로젝트를 저장한 후 공유 > 지금 파일 보내기 또는 공유 > 일정에 따라 파일 보내기 로 이동합니다.
-1. 파일 공유 또는 일정에 따라 파일 공유 아래의 위 지침을 따릅니다.
+1. 프로젝트를 저장한 다음, **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]**, 또는 [!UICONTROL 공유] > **[!UICONTROL 일정에 따라 파일 보내기]**.
+1. 아래의 위의 지침을 따르십시오 [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### 기존 예약된 프로젝트
 
