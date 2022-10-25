@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,6 +95,7 @@ Adobe은 암호를 사용하여 예약된 프로젝트를 .pdf 또는 .csv 형�
 
 ![이메일](assets/email-password.png)
 
+1. Customer Journey Analytics에 다시 로그인합니다.
 1. 클릭 **[!UICONTROL 예약된 프로젝트 보기]**.
 1. 에서 **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자에서 암호를 입력하고 다시 입력합니다.
 1. 예약된 프로젝트의 수신자에게만 이 암호를 알려줍니다.
