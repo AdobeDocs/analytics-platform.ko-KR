@@ -3,7 +3,9 @@ description: 폴더에서 프로젝트를 제거하는 방법 알아보기
 keywords: Analysis Workspace
 title: 폴더에서 프로젝트 제거
 feature: CJA Workspace Basics
-source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
+hide: true
+hidefromtoc: true
+source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
