@@ -6,9 +6,9 @@ feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Customer Journey Analytics에서 제품 관리자가 되는 것만으로는 [연
 * 데이터 수집: 소스 관리
 * ID 네임스페이스 보기
 
-Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko)를 참조하십시오.
+Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko-KR)를 참조하십시오.
 
 ## 제품 프로필 관리자 역할
 
@@ -53,7 +53,7 @@ Customer Journey Analytics의 사용자는 데이터 보기 또는 연결을 만
 
 ## 개별 지표 또는 차원에 대한 액세스 권한 부여
 
-기존 Adobe Analytics에서 할 수 있는 것처럼 Customer Journey Analytics의 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 변경할 수 있으므로 CJA의 변경으로 영향을 받습니다. 소급하여 변경하면 보고도 변경됩니다.
+Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 변경할 수 있으므로 CJA의 변경으로 영향을 받습니다. 소급하여 변경하면 보고도 변경됩니다.
 
 ## 사용 사례
 
@@ -88,7 +88,7 @@ Customer Journey Analytics의 사용자는 데이터 보기 또는 연결을 만
 | --- | --- |
 | **[!UICONTROL 데이터 보기]** | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
 | **[!UICONTROL 보고 도구]**: |  |
-| **[!UICONTROL 감사 로그 액세스]** | 이 권한에서는 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 및 예정된 감사 로그 UI를 참조하십시오. |
+| **[!UICONTROL 감사 로그 액세스]** | 이 권한은 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 및 향후 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | **[!UICONTROL 보고 사용 관리자]** | 사용자가 회사에서 실행 중인 보고서를 열람하고 삭제할 수 있습니다. (보고 사용 기능은 아직 릴리스되지 않았습니다.) |
 | **[!UICONTROL 보고 사용 보기]** | 사용자가 모든 동시 보고 요청을 볼 수 있습니다. (보고 사용 기능은 아직 릴리스되지 않았습니다.) |
 | **[!UICONTROL 계산된 지표 만들기]** | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만들 수 있습니다. |
