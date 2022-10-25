@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 필터를 개별 타일에 적용하려면 왼쪽 패널의 필터(세그먼트는 CJA의 필터임)를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
+스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)합니다.
 
 ![필터 빌드](assets/segment_ui.png)
 
