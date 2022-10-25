@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: dc75ed818b2760e9cd19fdcd427fe752f829aef0
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 99%
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace의 폴더 {#workspace-folders}
          + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 만들기 및 하위 폴더](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [새 프로젝트 저장](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -201,7 +201,7 @@ ht-degree: 99%
       + [필터 만들기](../components/filters/create-filters.md)
       + [필터 관리](../components/filters/manage-filters.md)
       + [빠른 필터](../components/filters/quick-filters.md)
-      + [애드 혹 필터](../components/filters/ad-hoc-filters.md)
+      + [애드혹 필터](../components/filters/ad-hoc-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)

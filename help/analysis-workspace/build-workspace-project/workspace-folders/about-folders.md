@@ -6,7 +6,7 @@ feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Workspace 프로젝트의 폴더는 Workspace 랜딩 페이지에 있는 폴더 
 
 >[!NOTE]
 >
->이 기능은 현재 베타에 있습니다. 일부 화면은 변경될 수 있습니다.
+>이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
 
 Workspace 프로젝트의 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류할 수 있게 돕습니다. 또한 공유 회사 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있게 합니다. 
 

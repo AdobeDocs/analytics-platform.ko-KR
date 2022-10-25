@@ -6,7 +6,7 @@ feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->이 기능은 현재 베타에 있습니다. 일부 화면은 변경될 수 있습니다.
+>이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
 
 1. Workspace에서 새 프로젝트를 만듭니다.
 

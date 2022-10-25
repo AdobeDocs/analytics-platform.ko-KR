@@ -6,7 +6,7 @@ feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->이 기능은 현재 베타에 있습니다. 일부 화면은 변경될 수 있습니다.
+>이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
 
 ## 테이블 보기에서
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 1. **다음으로 이동**&#x200B;을 선택합니다. 폴더 선택 대화 상자가 표시됩니다.
 
-1. 드롭다운 목록에서 폴더 이름을 선택합니다.
+1. 드롭다운 메뉴에서 폴더 이름을 선택합니다.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
