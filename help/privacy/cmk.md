@@ -3,9 +3,9 @@ title: 고객 관리 키
 description: CJA용 고객 관리 키를 설정하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ce386f30e344b3921689a8ecc0e6fba0a55137f9
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >이 기능은 2022년 11월에 제공될 예정입니다.
 
-CJA(Customer Journey Analytics)은 CJA 데이터에 적용할 CMK(Azure Customer Managed Key)를 활용할 수 있는 헬스케어 쉴드 및 개인 정보 보호 및 보안 실드 고객을 위한 옵션을 제공합니다.  이 프로세스는 Adobe Experience Platform CMK 설정(후속 링크)과 별개입니다.
+Customer Journey Analytics(CJA)는 [의료 보호](https://www.adobe.com/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객이 CJA 데이터에 적용할 CMK(Azure Customer Managed Key)를 활용하도록 합니다.  이 프로세스는 [Adobe Experience Platform CMK 설정](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html).
 
 >[!NOTE]
 >
