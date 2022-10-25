@@ -1,19 +1,17 @@
 ---
 title: 감사 로그
 description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시오.
-source-git-commit: a866dec61df93bf730529a2d7513b4d76bab6694
-workflow-type: ht
-source-wordcount: '855'
+hide: true
+hidefromtoc: true
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+workflow-type: tm+mt
+source-wordcount: '848'
 ht-degree: 100%
 
 ---
 
 
 # 감사 로그
-
->[!NOTE]
->
->이 기능은 현재 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있습니다.
 
 시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Customer Journey Analytics(CJA)를 사용하면 “감사 로그” 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다.
 
