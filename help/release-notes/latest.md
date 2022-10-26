@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a7636909c0570655ee6d3638e56828916044d2bd
+source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 77%
+source-wordcount: '590'
+ht-degree: 86%
 
 ---
 
-# Customer Journey Analytics(CJA) 릴리스 노트(2022년 10월/11월)
+# Customer Journey Analytics (CJA) 릴리스 정보 (2022년 10월/11월)
 
-**마지막 업데이트**: 2022년 10월 19일
+**마지막 업데이트**: 2022년 10월 25일
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -22,22 +22,23 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL 주요 지표 요약] 시각화** | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md) | 2022년 10월 5일 | 2022년 10월 19일 |
 | **대소문자를 구분하지 않는 다중 값 변수** | 대소문자를 구분하지 않는 다중 값 변수의 경우 `mvvar1` - `mvvar3`에 저장된 값은 더 이상 자동으로 소문자로 변환되지 않습니다. 대신 Analytics Source Connector를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터는 페이지에서 전달된 원래의 사례를 반영하게 됩니다. | 해당 사항 없음 | 2022년 10월 24일 |
-| **CJA 감사 로그** | CJA(Customer Journey Analytics)을 사용하면 &quot;감사 로그&quot; 형태로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제를 해결하는 데 도움이 되는 감사 추적을 형성하며 HIPAA(Health Insurance Portability and Accountability Act)와 같은 기업 데이터 관리 정책 및 규정 요구 사항을 효과적으로 준수할 수 있도록 도와줍니다. 이러한 로그는 이전에는 감사 로그 API를 통해서만 사용할 수 있었습니다. [참조할 설명서] | 해당 사항 없음 | 2022년 10월 26일 |
-| **HIPAA 준비** | 팔로우할 설명 | 해당 사항 없음 | 2022년 11월 7일 |
+| **CJA 감사 로그** | CJA(Customer Journey Analytics)를 사용하면 “감사 로그” 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다. 이들 로그는 이전에 감사 로그 API를 통해서만 사용할 수 있었습니다. [자세히 알아보기](/help/privacy/audit-log.md) | 해당 사항 없음 | 2022년 10월 26일 |
+| **HIPAA 준비** | 이제 Adobe은 Healthcare Shield 고객만을 위한 Customer Journey Analytics 및 기타 Experience Platform 기반 애플리케이션에서 보호된 상태 정보 수신, 사용, 유지 관리 또는 전송을 지원합니다. Healthcare Shield는 미국에서 Covered Entity 또는 Business Associate 중 하나인 의료 고객을 위한 것입니다. [자세히 알아보기](https://www.adobe.com/trust/compliance/hipaa-ready.html) | 해당 사항 없음 | 2022년 11월 7일 |
+| **예약된 프로젝트에 대한 암호 보호** | 이 기능은 HIPAA 준비 기능의 일부이며 Healthcare Shield 고객에게만 적용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | 해당 사항 없음/ | 2022년 11월 7일. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 수정 사항
 
-* 최신 MacOS 버전을 &quot;Macintosh&quot;로 잘못 지정한 문제가 해결되었습니다. 이 수정 사항을 사용하여 OS 차원은 MacOS 11부터 &quot;MacOS&quot; 버전 번호 지정을 사용하여 시작합니다. (AN-301834)
+* 최신 MacOS 버전의 이름이 “Macintosh”로 잘못 지정되던 문제가 해결되었습니다. 이번 수정 작업을 통해 OS 차원은 MacOS 11부터 “MacOS” 버전 번호를 사용하기 시작합니다. (AN-301834)
 
-### 기타  수정 사항
+### 기타 수정 사항
 
-AN-302367; AN-302562
+AN-302367; AN-302562; AN-304036
 
 ## CJA 관리자를 위한 중요 공지
 
-| 공지 | 추가 또는 업데이트된 알림 | 설명 |
+| 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
 | **기본 랜딩 페이지** | 2023년 9월 29일 | 올해 초에 도입된 [새 랜딩 페이지](/help/getting-started/landing.md)는 **2023년 1월**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 현재 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. |
 | **개선된 IP-to-geolocation 매핑** | 2022년 9월 29일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics는 이 새로운 데이터 세트의 채택을 **2023년 1월**&#x200B;로 연기했습니다. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> [!UICONTROL Analytics Source Connector]를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
