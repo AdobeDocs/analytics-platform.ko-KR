@@ -20,7 +20,7 @@ Customer Journey Analytics(CJA)는 [의료 보호](https://www.adobe.com/trust/c
 
 >[!NOTE]
 >
->고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
+>고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html?lang=ko-KR%3Flang%3Den) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 ## CJA용 CMK 설정
 

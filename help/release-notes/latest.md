@@ -51,7 +51,7 @@ AN-302367; AN-302562; AN-304036
 
 * [2022년 이전 CJA 릴리스 정보](/help/release-notes/2022.md)
 
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 
 * [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
 
