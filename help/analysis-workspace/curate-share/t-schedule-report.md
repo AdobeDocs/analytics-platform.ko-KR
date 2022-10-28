@@ -6,9 +6,9 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 61%
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
-1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 예약된 보고서의 암호 보호 섹션을 참조하십시오.
+1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 암호로 예약된 보고서 보호 섹션을 참조하십시오.
 1. **지금 보내기**&#x200B;를 클릭합니다.
 1. (선택 사항) 배달 일정을 지정하려면 **예약 옵션 표시**&#x200B;를 클릭합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 61%
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
-1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 예약된 보고서의 암호 보호 섹션을 참조하십시오.
+1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 암호로 예약된 보고서 보호 섹션을 참조하십시오.
 1. 입력 시 시작 및 종료를 수정하여 일정이 전달될 범위를 지정합니다. 종료 날짜는 일정을 만들거나 수정한 날로부터 1년 이내여야 합니다.
 1. 배달 빈도를 지정합니다. 각 빈도에서는 다양한 맞춤화를 사용할 수 있습니다.
 1. **일정에 따라 보내기**&#x200B;를 클릭합니다.
@@ -64,40 +64,40 @@ ht-degree: 61%
 
 예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
-## 예약된 프로젝트의 암호 보호 {#password}
+## 암호로 예약된 프로젝트 보호 {#password}
 
 >[!NOTE]
 >
->예약된 프로젝트를 암호로 보호하는 옵션은 CJA를 구입한 고객에게만 표시됩니다 [의료 보호](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) 추가 기능 제품.
+>예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) 추가 기능 제품을 구입한 CJA 고객에게만 표시됩니다.
 
-Adobe은 암호를 사용하여 예약된 프로젝트를 .pdf 또는 .csv 형식으로 전송하든 간에 암호화합니다.
+Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 암호를 사용하여 예약된 프로젝트를 암호화합니다.
 
-회사에서 Healthcare Shield SKU를 구입하여 사용할 수 있게 되면 다음 두 가지 상황에서 예약된 프로젝트에 대한 암호를 만들라는 메시지가 표시됩니다.
+귀사에서 Healthcare Shield SKU를 구매하고 활성화한 후 다음 두 가지 상황에서 예약된 프로젝트에 대한 암호를 생성하라는 메시지가 표시됩니다.
 
-* 새로운 예약된 프로젝트를 만들 때
+* 누군가 예약된 프로젝트를 새로 만드는 경우
 
-* 기존 예약된 프로젝트를 전송하려고 할 때. 암호 보호가 실행될 때까지 현재 예약된 프로젝트를 사용할 수 없습니다. 예약된 프로젝트의 소유자가 이 효과를 알리는 이메일을 받게 됩니다.
+* 기존의 예약된 프로젝트를 전송하려고 하는 경우 현재의 예약된 프로젝트는 암호 보호가 적용될 때까지 비활성화됩니다. 예약된 프로젝트의 소유자는 이에 대한 이메일 알림을 수신하게 됩니다.
 
 ![암호 보호](assets/password.png)
 
 ### 암호 요구 사항
 
-암호 요구 사항은 Adobe 표준을 준수하며, 최소 8자(하나 이상의 숫자와 하나의 특수 문자)가 필요합니다.
+암호 요구 사항은 Adobe 표준을 따르며 최소 하나의 숫자와 하나의 특수 문자를 포함하여 8자 이상이어야 합니다.
 
-### 새로 예약된 프로젝트
+### 새 예약된 프로젝트
 
-1. 프로젝트를 저장한 다음, **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]**, 또는 [!UICONTROL 공유] > **[!UICONTROL 일정에 따라 파일 보내기]**.
-1. 아래의 위의 지침을 따르십시오 [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
+1. 프로젝트를 저장하고 나면 **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]** 또는 [!UICONTROL 공유] > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;로 이동합니다.
+1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule)에 대해 위 지침을 따르십시오.
 
 ### 기존 예약된 프로젝트
 
-프로젝트 예약 시간 전에 프로젝트 소유자는 다음과 유사한 이메일을 받게 됩니다.
+프로젝트가 예약되기 전에 해당 프로젝트의 소유자는 다음과 유사한 내용의 이메일을 수신하게 됩니다.
 
 ![이메일](assets/email-password.png)
 
 1. Customer Journey Analytics에 다시 로그인합니다.
-1. 클릭 **[!UICONTROL 예약된 프로젝트 보기]**.
-1. 에서 **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자에서 암호를 입력하고 다시 입력합니다.
-1. 예약된 프로젝트의 수신자에게만 이 암호를 알려줍니다.
+1. **[!UICONTROL 예약된 프로젝트 보기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자에서 암호를 입력한 후 다시 입력합니다.
+1. 예약된 프로젝트의 수신자에게만 이 암호를 알려 주십시오.
 
 
