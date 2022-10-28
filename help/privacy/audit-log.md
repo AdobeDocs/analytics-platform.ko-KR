@@ -4,9 +4,9 @@ description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시�
 hide: true
 hidefromtoc: true
 source-git-commit: 6cf2d5ccbeeea7baeea8a675f2b7e96e6203fe24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
