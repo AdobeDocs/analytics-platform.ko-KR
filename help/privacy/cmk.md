@@ -1,9 +1,7 @@
 ---
 title: 고객 관리 키
 description: CJA용 고객 관리 키를 설정하는 방법을 알아봅니다.
-hide: true
-hidefromtoc: true
-source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
+source-git-commit: 903c1423c91b220524174fa900a9ec13cd2051c6
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 83%
