@@ -3,10 +3,10 @@ title: 고객 관리 키
 description: CJA용 고객 관리 키를 설정하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 90521aa7326486b9016321d35191a73ef891a0bc
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 83%
 
 ---
 
@@ -30,5 +30,10 @@ CJA(Customer Journey Analytics)는 [Healthcare Shield](https://www.adobe.com/tru
 1. Azure에서 애플리케이션 관리자, 클라우드 애플리케이션 관리자 또는 전역 관리자와 같은 권한이 부여된 역할을 가진 관리자인지 확인하십시오. [Microsoft에서 자세히 알아보기](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 1. CJA에서만 사용할 새 Azure 키 값을 만듭니다. [Microsoft에서 자세히 알아보기](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 1. Key Vault의 키에 대한 액세스 권한을 Adobe Azure 앱에 부여합니다. Adobe 애플리케이션 ID: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Microsoft에서 자세히 알아보기](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
-1. CMK 설정을 요청하는 Adobe 고객 지원 티켓을 생성합니다. 티켓에 Azure URI를 포함하십시오. URI는 Azure 키의 키 식별자 필드에서 찾을 수 있습니다.
+1. CMK 설정을 요청하는 Adobe 고객 지원 티켓을 생성합니다. 티켓에 Azure URI를 포함하십시오. URI는 **키 식별자** Azure 키의 필드입니다.
+
+   ![](assets/key-identifier.png)
+
 1. Adobe 고객 지원 센터에서 해당 CJA 데이터에 대한 CMK 신청이 완료되었음을 확인하게 됩니다.
+
+Platform에서 활용하는 모든 데이터는 전송 중에 암호화되어 있으며, CMK가 있든 없든 간에 데이터를 안전하게 유지할 수 있습니다. Adobe Experience Platform 암호화에 대한 자세한 내용은 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
