@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: b0a1fdcfb2d200d40c308c557c2ddff172c1e18f
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -84,12 +84,12 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 암호 요구 사항은 Adobe 표준을 따르며 최소 하나의 숫자와 하나의 특수 문자를 포함하여 8자 이상이어야 합니다.
 
-### 새 예약된 프로젝트
+### 새 예약된 프로젝트를 암호 보호
 
 1. 프로젝트를 저장하고 나면 **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]** 또는 [!UICONTROL 공유] > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;로 이동합니다.
 1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule)에 대해 위 지침을 따르십시오.
 
-### 기존 예약된 프로젝트
+### 기존 예약된 프로젝트의 암호 보호
 
 프로젝트가 예약되기 전에 해당 프로젝트의 소유자는 다음과 유사한 내용의 이메일을 수신하게 됩니다.
 
