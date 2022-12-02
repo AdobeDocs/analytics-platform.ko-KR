@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 87d0dd37c9fc9e32e46b7c6a104301f23a2ff652
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 7820f462617d21c9e3b23de26c9e9022d74bec0e
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하�
 
 * 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. CJA로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
 
-* 를 사용하십시오 [날짜 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 설계를 사용하는 경우 더 쉬워지지만 새로운 Experience Platform [Data Prep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능을 사용하는 경우에는 필요하지 않습니다. 이 옵션을 사용하면 데이터 스트림 (또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
+* 를 사용하십시오 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 변수를 매핑하는 기능입니다. 모든 보고서 세트가 동일한 공통 변수 설계를 사용하는 경우 더 쉬워지지만 새로운 Experience Platform [Data Prep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 기능을 사용하는 경우에는 필요하지 않습니다. 이 옵션을 사용하면 데이터 스트림 (또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
 
 [!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면 CJA에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유한 값을 표시하고 계산할 수 있습니다.
 
@@ -58,6 +58,8 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
+Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. Analytics 소스 커넥터 사용에 대한 자세한 내용은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR).
+
 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
 
 이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 CJA [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
@@ -67,7 +69,8 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 * 필요한 모든 필드를 정의할 수 있는 유연한 스키마
 * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
 * 글자 수 제한 없음 (Prop의 경우 100자)
-* Adobe Experience Platform에서 보다 빠른 데이터 가용성
+* Adobe Experience Platform에서 보다 빠른 데이터 가용성 권력을 잡다 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=en)
+* [자사 장치 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en) 방문자 식별의 정확도를 높입니다.
 
 **Experience Platform SDK 사용의 단점**
 

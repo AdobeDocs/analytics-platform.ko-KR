@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 6fee3b9e91aff8c49176d86ac99fd78a6d852c4c
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: 52593d05b10c872322236fb82c4ce5346ddcc9ac
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
    + [Adobe Analytics-Customer Journey Analytics 진화](../getting-started/aa-to-cja.md)
    + [새 Customer Journey Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
    + Adobe Analytics 및 Customer Journey Analytics 비교 {#compare-aa-cja}
+      + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
       + [Adobe Analytics 및 CJA에서 데이터 처리 비교](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -237,6 +238,7 @@ ht-degree: 100%
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
+   + [Adobe Analytics과 Customer Journey Analytics 통합](/help/integrations/aa.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
    + [CJA와 Customer AI 데이터 통합](/help/integrations/customer-ai.md)
 + 활용 사례 {#cja-usecases}

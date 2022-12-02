@@ -4,10 +4,10 @@ description: 방문자 결합을 위해 여러 데이터 세트의 방문자 ID�
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 조직에서 모든 사전 요구 사항을 충족하고 제한 사항을 이해하면 다음 단계에 따라 CJA에서 사용할 수 있습니다.
 
-1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
+1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Analytics 데이터의 경우 다음을 참조하십시오. [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). 다른 유형의 데이터에 대해서는 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR) ( Adobe Experience Platform 설명서)를 참조하십시오.
 1. 다음과 관련된 질문이 있는 경우 Adobe 고객 지원 센터에 문의하십시오.
    * 크로스 채널 분석 활성화 요청
    * 다시 입력할 데이터 세트에 대한 데이터 세트 ID

@@ -4,10 +4,10 @@ description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: ht
-source-wordcount: '825'
-ht-degree: 100%
+source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 90%
 
 ---
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)에서 일부 행이 Analytics 소스 커넥터에 의해 삭제되었는지 여부를 원시 데이터에서 식별합니다.
+1. in [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)를 원시 데이터에서 일부 행이 Analytics 소스 커넥터로 필터링되었는지 확인합니다.
 
-   XDM 스키마로 변환하는 동안 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)가 행을 삭제할 수 있습니다. 전체 행이 변환에 적합하지 않은 이유는 여러 가지가 있을 수 있습니다. 다음 Analytics 필드 중 하나라도 이러한 값이 포함된 경우 전체 행이 삭제됩니다.
+   다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) 는 XDM 스키마로 변환하는 동안 특정 행을 필터링할 수 있습니다. 전체 행이 변환에 적합하지 않은 이유는 여러 가지가 있을 수 있습니다. 다음 Analytics 필드에 이러한 값이 있으면 전체 행이 필터링됩니다.
 
    | Analytics 필드 | 행이 삭제되는 값 |
    | --- | --- |
@@ -78,9 +78,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    hit\_source에 대한 자세한 내용은 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr)를 참조하십시오. page\_event에 대한 자세한 내용은 [페이지 이벤트 조회](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=ko-kr)를 참조하십시오.
 
-1. 커넥터가 행을 삭제한 경우 [!UICONTROL 발생 횟수] 지표에서 해당 행을 뺍니다. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
+1. 커넥터가 필터링된 행을 제외하고 [!UICONTROL 발생 횟수] 지표. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
 
-## AEP에서 수집하는 동안 레코드가 삭제되거나 건너뛸 수 있는 이유
+## AEP에서 수집하는 동안 레코드를 필터링하거나 건너뛸 수 있는 이유
 
 CJA [연결](/help/connections/create-connection.md)을 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
 
