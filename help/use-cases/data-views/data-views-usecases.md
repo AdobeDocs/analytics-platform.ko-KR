@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 98%
 
 ---
 
@@ -122,6 +122,8 @@ Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL
 * 날짜 형식의 경우 **[!UICONTROL 월, 일, 년]** 형식으로 **[!UICONTROL 날짜]**&#x200B;를 선택하면 보고의 출력 예는 2022년 8월 23일과 같을 수 있습니다.
 
 * 날짜-시간 형식의 경우 **[!UICONTROL 시간:분]** 형식으로 **[!UICONTROL 분]**&#x200B;을 선택하면 결과는 20:20과 같이 표시될 수 있습니다.
+
+Adobe는 현재 1900년 1월 1일(1970년 1월 1일 제외) 이후의 날짜와 2000년 1월 1일 이후 날짜 값을 지원합니다:00:00.
 
 ### 날짜 및 날짜-시간 사용 사례
 
