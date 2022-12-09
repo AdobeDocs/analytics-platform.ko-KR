@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 52593d05b10c872322236fb82c4ce5346ddcc9ac
+source-git-commit: 879350c645cf4c6e12361184dddfb065224d758c
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,6 @@ ht-degree: 98%
       + [하위 문자열](../data-views/component-settings/substring.md)
       + [값 버킷팅](../data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](../data-views/component-reference.md)
-   + [데이터 보기 활용 사례](../data-views/data-views-usecases.md)
    + [레이블 및 정책](../data-views/data-governance.md)
 + 작업 영역 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](../analysis-workspace/home.md)
@@ -248,16 +247,22 @@ ht-degree: 98%
       + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [CJA에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
-   + [보고서 세트를 다른 스키마와 결합](../use-cases/combine-report-suites.md)
+   + 데이터 수집 {#data-ingestion}
+      + [데이터 수집 활용 사례](../use-cases/data-ingestion/data-ingestion.md)
+      + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다.](../use-cases/data-ingestion/marketo.md)
+      + [AEP 대상자를 CJA로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + 데이터 보기 {#data-views}
+      + [데이터 보기 활용 사례](../use-cases/data-views/data-views-usecases.md)
+      + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
+   + B2B {#b2b}
+   + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
+   + 크로스 채널 데이터 {#cross-channel}
+      + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
+      + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
+   + Adobe Analytics 데이터 {#aa-data}
+      + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
+      + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
    + [오브젝트 배열 사용](../use-cases/object-arrays.md)
-   + [바인딩 차원 및 지표 사용](../use-cases/binding-dimensions-metrics.md)
-   + [(B2B) 계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b.md)
-   + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다](../use-cases/marketo.md)
-   + [AEP 대상자를 CJA로 수집](../use-cases/ingest-aep-segments.md)
-   + [채널 간 데이터 분석](../use-cases/cross-channel.md)
-   + [콜센터 및 웹 데이터 가져오기](../use-cases/call-center.md)
-   + [데이터 수집 활용 사례](../use-cases/data-ingestion.md)
-   + [마케팅 채널 차원 사용](../use-cases/marketing-channels.md)
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
 + 문제 해결 {#troubleshooting}
