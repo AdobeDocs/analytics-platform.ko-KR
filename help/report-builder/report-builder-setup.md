@@ -7,7 +7,7 @@ type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Report Builder 추가 기능을 다운로드하고 설치하려면
 
 1. “Report Builder”를 검색하고 추가를 클릭합니다.
 
-1. 라이선스 약관 및 개인 정보 보호 정책 대화 상자에서 계속을 클릭합니다.
+1. 라이선스 약관 및 개인정보 처리방침 대화 상자에서 계속을 클릭합니다.
 
 **스토어 탭이 표시되지 않는 경우**
 
