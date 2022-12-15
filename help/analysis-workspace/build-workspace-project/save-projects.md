@@ -3,10 +3,10 @@ description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장, 
 title: 프로젝트 저장
 feature: CJA Workspace Basics
 role: User, Admin
-exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
