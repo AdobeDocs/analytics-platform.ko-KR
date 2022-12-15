@@ -5,13 +5,13 @@ title: Workspace에서 폴더 추가
 feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # 폴더에 프로젝트 추가
 
