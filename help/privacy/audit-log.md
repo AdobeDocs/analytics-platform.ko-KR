@@ -1,13 +1,13 @@
 ---
 title: 감사 로그
 description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시오.
-source-git-commit: 37a23a4669c08c8f7d9c6595286998ebd7e60ac4
+exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
-
 
 # 감사 로그
 
