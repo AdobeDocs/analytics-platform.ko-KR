@@ -3,9 +3,9 @@ description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
 feature: Analytics Dashboards
 role: User, Admin
-exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
 workflow-type: ht
 source-wordcount: '1220'
 ht-degree: 100%
@@ -149,4 +149,3 @@ ht-degree: 100%
 | 분류 | 스코어카드에서 타일을 탭하여 액세스할 수 있는 보조 보기. 이 보기는 타일에 표시되는 지표를 확장하고 선택적으로 추가 분류 차원에 대해 보고합니다. |
 | 날짜 범위 | 대시보드 보고에 대한 기본 날짜 범위 |
 | 비교 날짜 범위 | 기본 날짜 범위와 비교되는 날짜 범위 |
-
