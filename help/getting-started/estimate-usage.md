@@ -4,9 +4,9 @@ description: 사용량을 추정하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: e8f5982ae073d4e3dca85b3054fd325cc40ff40a
+source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,7 @@ CJA 사용을 이해하기 위해 다음 3가지 방법을 사용할 수 있습�
 
 CJA 사용을 관리하려면:
 
-* 롤링 데이터 창을 정의합니다. (아래 참조)
+* 롤링 데이터 창을 정의합니다. (자세한 내용은 **롤링 데이터 창 정의** 아래에 나열된 상태로 남아 있습니다.)
 
 ## 연결 크기 예상 {#estimate-size}
 
@@ -58,7 +58,7 @@ CJA 사용을 관리하려면:
 
 ## 모든 이벤트 데이터를 사용하여 작업 공간 프로젝트 만들기 {#workspace-event-data}
 
-1. Workspace에서 프로젝트를 만들기 전에 [데이터 보기 만들기](/help/data-views/create-dataview.md) 모든 연결에서 데이터를 가져오며 필터가 적용되지 않았습니다. 즉, 모든 데이터가 포함됩니다.
+1. Workspace에서 프로젝트를 만들기 전에 [데이터 보기 만들기](/help/data-views/create-dataview.md) 각 연결에 대해 사용할 수 있고 필터가 적용되지 않았습니다.
 
 1. Workspace에서 새 프로젝트를 만들고 모든 이벤트(에서)를 가져옵니다 **[!UICONTROL 지표]** 드롭다운) 현재 CJA 계약의 첫 날로 시작하여 그 달의 첫 번째 금요일까지 옵니다.
 
