@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 879350c645cf4c6e12361184dddfb065224d758c
+source-git-commit: 6cb91575d5d4c899057efb04e9a3f7c3fc2d2dec
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 97%
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -33,9 +33,10 @@ ht-degree: 97%
    + [Real-Time CDP와 CJA 간의 지표 및 대상자 멤버십의 일관성](../getting-started/consistency-rcdp-cja.md)
    + [CJA 액세스 제어](../getting-started/cja-access-control.md)
    + [Customer Journey Analytics 랜딩 페이지](../getting-started/landing.md)
-   + [자주 묻는 질문](../getting-started/cja-faq.md)
-   + [Adobe Analytics-Customer Journey Analytics 진화](../getting-started/aa-to-cja.md)
+   + [Adobe Analytics에서 Customer Journey Analytics로의 진화](../getting-started/aa-to-cja.md)
    + [새 Customer Journey Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
+   + [CJA 사용 예측 및 관리](../getting-started/estimate-usage.md)
+   + [FAQ](../getting-started/cja-faq.md)
    + Adobe Analytics 및 Customer Journey Analytics 비교 {#compare-aa-cja}
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
@@ -43,7 +44,7 @@ ht-degree: 97%
       + [Adobe Analytics 및 CJA에서 데이터 처리 비교](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [삭제 영향](../getting-started/cja-deletion.md)
    + [CJA 용어](../getting-started/cja-glossary.md)
 + 연결 {#cja-connections}
@@ -102,7 +103,7 @@ ht-degree: 97%
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [집단 분석 활용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [집단 분석 사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 폴아웃 {#fallout}
          + [폴아웃 개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [폴아웃 시각화 구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -237,22 +238,22 @@ ht-degree: 97%
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
-   + [Adobe Analytics과 Customer Journey Analytics 통합](/help/integrations/aa.md)
+   + [Customer Journey Analytics와 Adobe Analytics 통합](/help/integrations/aa.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
    + [CJA와 Customer AI 데이터 통합](/help/integrations/customer-ai.md)
-+ 활용 사례 {#cja-usecases}
-   + [Customer Journey Analytics 활용 사례](../use-cases/cja-usecases.md)
++ 사용 사례 {#cja-usecases}
+   + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
       + [Google Analytics에서 CJA로 데이터 마이그레이션 개요](../use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [CJA에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
-      + [데이터 수집 활용 사례](../use-cases/data-ingestion/data-ingestion.md)
+      + [데이터 수집 사용 사례](../use-cases/data-ingestion/data-ingestion.md)
       + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다.](../use-cases/data-ingestion/marketo.md)
       + [AEP 대상자를 CJA로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
-      + [데이터 보기 활용 사례](../use-cases/data-views/data-views-usecases.md)
+      + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
    + B2B {#b2b}
    + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
