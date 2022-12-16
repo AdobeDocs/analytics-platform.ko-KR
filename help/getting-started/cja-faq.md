@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 91d9e473d38e12a7ba9cafea92c864641cebd206
-workflow-type: ht
-source-wordcount: '2371'
-ht-degree: 100%
+source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+workflow-type: tm+mt
+source-wordcount: '2157'
+ht-degree: 99%
 
 ---
 
@@ -110,28 +110,7 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 
 ## 9. 연결 크기 예상 {#estimate-size}
 
-현재 [!UICONTROL Customer Journey Analytics]에 있는 데이터의 행 수를 알고 있어야 합니다. 조직의 이벤트 데이터 레코드(데이터 행) 사용에 대한 정확한 정보를 얻으려면 **조직에서 만든 각 연결**&#x200B;에 대해 다음 작업을 수행하십시오.
-
-1. [!UICONTROL Customer Journey Analytics]에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
-
-   이제 모든 현재 연결 목록을 볼 수 있습니다.
-
-1. 각 연결 이름을 클릭하여 연결 관리자로 이동합니다.
-
-1. 생성된 모든 연결에 **[!UICONTROL 사용 가능한 이벤트 데이터 기록]**&#x200B;을 추가합니다. (연결 크기에 따라 숫자가 표시되는 데 다소 시간이 걸릴 수 있습니다.)
-
-   ![이벤트 데이터](assets/event-data.png)
-
-1. 모든 이벤트 데이터 행의 합계가 있으면 회사가 Adobe와 체결한 Customer Journey Analytics 계약에서 “데이터 행” 자격을 조회하십시오.
-
-   이렇게 하면 판매 주문서에서 승인된 최대 데이터 행 수를 얻을 수 있습니다. 3단계로 인해 발생한 데이터 행 수가 이 숫자보다 크면 초과가 발생합니다.
-
-1. 이 상황을 해결하려면 다음과 같은 몇 가지 옵션이 있습니다.
-
-   * [데이터 보존 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention)을 변경합니다.
-   * [사용하지 않는 연결을 삭제합니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
-   * [AEP에서 데이터 세트를 삭제합니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
-   * 추가 용량 라이선스를 얻으려면 Adobe 계정 관리자에게 문의하십시오.
+을(를) 참조하십시오. [사용량 예측 및 관리](/help/getting-started/estimate-usage.md).
 
 ## 10. 사용 초과에 관한 사항 {#overage}
 

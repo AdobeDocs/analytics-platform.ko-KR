@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+workflow-type: tm+mt
+source-wordcount: '1181'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
+| **2022년 12월** |  |
+| 2022년 12월 16일 | 새 항목 [cja 데이터 사용 측정 및 관리](/help/getting-started/estimate-usage.md). |
 | **2022년 10월** |  |
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
