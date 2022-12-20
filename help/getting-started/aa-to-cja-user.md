@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 * 여전히 의 기능을 사용할 수 있습니다. [Analysis Workspace](/help/analysis-workspace/home.md) 를 입력하여 데이터를 분석할 수 있습니다. 작업 영역은 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md) 는 사용할 수 있으며, CJA와 기존 Analytics 간에 유사하게 작동합니다.
-* [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 를 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
+* [Report Builder](/help/report-builder/report-buider-overview.md) 에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
 
 ## 보고 변경 사항
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ## 데이터 아키텍처 변경 사항 {#architecture}
 
-CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 전달을 향상시킬 수 있습니다.
+CJA는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다.
 
 Experience Platform의 고객 데이터는 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR) 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
 
@@ -76,7 +76,7 @@ Adobe는 업계 표준에 맞게 “세그먼트” 구성 요소를 “필터�
 
 세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
 
-* **히트 컨테이너는 이제 [!UICONTROL 이벤트] 컨테이너**&#x200B;입니다. [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 페이지 보기/히트에 따라 방문자 정보를 분류할 수 있습니다.
+* **히트 컨테이너는 이제 [!UICONTROL 이벤트] 컨테이너**&#x200B;입니다. [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 페이지 조회수/히트에 따라 방문자 정보를 분류할 수 있습니다.
 * **방문 컨테이너는 이제 [!UICONTROL 세션] 컨테이너입니다**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
 * **이제 방문자 컨테이너가 있습니다. [!UICONTROL 개인] 컨테이너**. [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다.
 
@@ -110,4 +110,4 @@ CJA는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합�
 
 ## 낮은 트래픽 차원 항목 개념 변경
 
-기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. CJA에는 높은 카디널리티 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 자세한 내용은 [롱테일](../analysis-workspace/workspace-faq/long-tail.md) cja가 고유한 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
+기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. CJA에는 높은 카디널리티 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 자세한 내용은 [롱테일](../analysis-workspace/workspace-faq/long-tail.md) cja가 고유 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
