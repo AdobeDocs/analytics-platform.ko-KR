@@ -4,9 +4,9 @@ description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2b21d6e4e092c33947220b2d22a8a757407fabb
+source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '853'
 ht-degree: 93%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 계정 수준 정보를 [조회](/help/getting-started/cja-glossary.md) 데이터 세트로 가져와 이 모든 작업을 수행할 수 있습니다.
 
-먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 Customer Journey Analytics(사용자가 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 CJA0)에서 연결을 만듭니다. 그런 다음 데이터 보기를 만들고 최종적으로 Workspace에서 이 모든 데이터를 활용할 수 있습니다.
+먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 Customer Journey Analytics(CJA)에 연결을 만듭니다 . 그런 다음 데이터 보기를 만들고 최종적으로 Workspace에서 이 모든 데이터를 활용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -38,12 +38,6 @@ ht-degree: 93%
 ## 2. 조회 데이터 세트 만들기(Experience Platform)
 
 스키마가 만들어지면 Experience Platform의 해당 스키마에서 조회 데이터 세트를 만들어야 합니다. 이 조회 데이터 세트에는 다음과 같은 계정 수준 마케팅 정보가 포함됩니다. 회사 이름, 총 직원 수, 도메인 이름, 해당 기업이 속한 업계, 연간 매출, 해당 고객이 Experience Platform의 현재 고객인지 여부, 현재 영업 단계, 계정 내에서 CJA를 사용하고 있는 팀 등.
-
->[!IMPORTANT]
->
->CJA는 조회 데이터 세트의 정수를 지원하지 않습니다. 조회 데이터 세트에 대한 XDM 스키마의 정수 필드를 추가하는 경우 해당 정수를 지표 또는 계산된 지표로 사용할 수 없습니다. 예를 들어, annualRevenue 또는 totalEmployees가 정수로 정의된 경우 CJA의 보고에서는 &quot;0&quot;으로 표시됩니다. 하지만 문자열로 지정하면 조회 정보로 사용할 수 있습니다.
-
-예를 들어, annualRevenue 또는 totalEmployees는 다음 예에서 정수로 정의되는데 그 이유는 CJA에서 &quot;0&quot;을 표시하는 이유입니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 관리 > 데이터 세트]**&#x200B;로 이동합니다.
 1. **[!UICONTROL + 데이터 세트 만들기]**&#x200B;를 클릭합니다.
@@ -96,4 +90,4 @@ ht-degree: 93%
 * 몇 명의 직원이 특정 계정 ID에 매핑됩니까?
 * 계정 ID는 어떤 업계에 속합니까?
 
-![](../assets/project-lookup.png)
+![project-lookup2](https://git.corp.adobe.com/storage/user/5902/files/348183a8-343c-497e-b270-4fc02b32cb9e)
