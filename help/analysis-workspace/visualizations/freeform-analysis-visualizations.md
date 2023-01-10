@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
+workflow-type: tm+mt
+source-wordcount: '1136'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,24 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
+
+## 시각화 설정 사용자 지정
+
+개별 시각화 또는 사용자가 만드는 모든 시각화에 대한 시각화 설정을 사용자 지정할 수 있습니다.
+
+### 단일 시각화에 대한 시각화 설정 사용자 지정
+
+에 액세스하려면 [!UICONTROL 시각화 설정] 개별 시각화의 경우:
+
+1. Analysis Workspace에서 설정을 사용자 지정할 시각화 위로 마우스를 가져갑니다.
+
+1. 톱니바퀴 아이콘을 클릭합니다.
+
+   각 유형의 시각화에는 사용자 지정할 수 있는 고유한 설정이 있습니다. 사용 가능한 설정에 대한 자세한 내용은 [설정](#settings).
+
+### 사용자가 만드는 모든 시각화에 대한 시각화 설정 사용자 지정
+
+사용자가 만드는 모든 시각화에 대한 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md).
 
 ## 설정 {#settings}
 
