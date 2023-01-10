@@ -3,13 +3,11 @@ description: 폴더에서 프로젝트를 제거하는 방법 알아보기
 keywords: Analysis Workspace
 title: 폴더에서 프로젝트 제거
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 89%
 
 ---
 
@@ -19,13 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
-
->[!NOTE]
->
 >관리자가 프로젝트를 회사 폴더로 이동하면 원래 공유 권한이 제한된 경우에도 폴더가 모든 사람과 공유됩니다. 관리자가 회사 폴더 밖으로 프로젝트를 이동하면 원래 또는 이전 공유 권한이 유지됩니다.
 
-## 프로젝트 이동
+## 프로젝트 이동 {#move-project-in-folder}
+
+프로젝트를 한 폴더에서 만든 다른 폴더로 이동할 수 있습니다.
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
@@ -43,7 +39,7 @@ ht-degree: 100%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## 폴더에서 프로젝트 삭제
+## 폴더에서 프로젝트 삭제 {#delete-project-in-folder}
 
 폴더에서 프로젝트를 삭제하면 프로젝트가 완전히 삭제됩니다.
 

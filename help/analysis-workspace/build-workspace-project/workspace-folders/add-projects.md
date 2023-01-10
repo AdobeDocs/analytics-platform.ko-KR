@@ -3,12 +3,10 @@ description: Workspace에서 폴더를 추가하는 방법 알아보기
 keywords: Analysis Workspace
 title: Workspace에서 폴더 추가
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '225'
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 테이블 보기의 폴더 또는 폴더 내에서 프로젝트를 추가할 수 있습니다.
 
->[!NOTE]
->
->이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
-
-## 테이블 보기에서
+## 테이블 보기에서 {#table-view}
 
 홈 페이지의 테이블 보기에서 폴더에 프로젝트를 추가합니다.
 
@@ -47,7 +41,7 @@ ht-degree: 100%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## 폴더 내에서
+## 폴더 내에서 {#inside-folder}
 
 줄임표 링크를 사용하여 폴더 내에서 프로젝트를 추가할 수도 있습니다.
 
@@ -72,4 +66,8 @@ ht-degree: 100%
 1. **추가**&#x200B;를 클릭하여 폴더에 프로젝트를 추가합니다.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-관리자만 회사 폴더에 프로젝트를 추가하거나 새로운 프로젝트를 생성하고 회사 폴더에 저장할 수 있습니다.
+
+
+>[!NOTE]
+>
+>관리자만 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 생성하고 회사 폴더에 저장할 수 있습니다.
