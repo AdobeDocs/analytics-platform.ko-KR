@@ -4,9 +4,9 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 652ae043f504ff71e8ed469a33f2ef4ebf1c7d04
+source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2439'
 ht-degree: 50%
 
 ---
@@ -155,11 +155,6 @@ Analysis Workspace에서 만드는 모든 새 프로젝트에 대한 시각화 �
 | **[막대 그래프](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | 버킷 수 | 시각화에서 데이터 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md).</p> |
 |  | 계산 방법 | 다음 옵션 중에서 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어, 페이지 보기 수와 함께 사용하는 경우 방문자당 페이지 보기 수, 방문용 페이지 보기 수 또는 히트당 페이지 보기 수를 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다.</p> |
-| **맵** |  |  |
-|  | 플로팅 차원 | <ul><li>모바일 위도/경도</li><li>지리적 차원</li></ul> |
-|  | 맵 유형 | <ul><li>버블</li><li>히트맵</li></ul> |
-|  | 색상 테마 | Coral, Reds, Greens, Blues, Heatmap 및 Positive/Negative 중에서 선택할 수 있습니다. |
-|  | 맵 스타일 | Basic, Street, Bright, Light, Dark 및 Satellite 중에서 선택할 수 있습니다. |
 | **[요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
 |  | 백분율 | 요약 변경 사항 시각화에 대한 값을 백분율로 표시합니다. |
