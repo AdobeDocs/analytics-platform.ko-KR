@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fbfc7113aef8857e11ccfba5e5e557eed16c2465
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+source-git-commit: 9276b7ed4465c85703e942e02adde2d024cf43ca
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 43%
 
 ---
 
-# Customer Journey Analytics (CJA) 릴리스 정보 (2022년 10월/11월)
+# 현재 Customer Journey Analytics(CJA) 릴리스 노트(2023년 1월)
 
-**마지막 업데이트**: 2022년 10월 25일
+**마지막 업데이트**: 2023년 1월 5일
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,29 +20,23 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 
 | 기능 | 설명 | [롤아웃 시작](/help/release-notes/releases.md) | [일반 가용성](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **[!UICONTROL 주요 지표 요약] 시각화** | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md) | 2022년 10월 5일 | 2022년 10월 19일 |
-| **대소문자를 구분하지 않는 다중 값 변수** | 대소문자를 구분하지 않는 다중 값 변수의 경우 `mvvar1` - `mvvar3`에 저장된 값은 더 이상 자동으로 소문자로 변환되지 않습니다. 대신 Analytics Source Connector를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터는 페이지에서 전달된 원래의 사례를 반영하게 됩니다. ASC/CJA 열 `_experience.analytics.customDimensions.lists.list1.list[]` - `_experience.analytics.customDimensions.lists.list3.list[]`가 이 변경에 의해 영향을 받습니다. | 해당 사항 없음 | 2022년 10월 24일 |
-| **CJA 감사 로그** | CJA(Customer Journey Analytics)를 사용하면 “감사 로그” 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다. 이들 로그는 이전에 감사 로그 API를 통해서만 사용할 수 있었습니다. [자세히 알아보기](/help/privacy/audit-log.md) | 해당 사항 없음 | 2022년 10월 26일 |
-| **HIPAA 준비** | Adobe는 이제 Healthcare Shield 고객만을 위한 Customer Journey Analytics 및 기타 Experience Platform 기반 애플리케이션에서 보호 상태 정보의 수신, 사용, 유지 관리 또는 전송을 지원합니다. Healthcare Shield는 미국에서만 적용되며 해당 법인 또는 비즈니스 제휴자인 의료 고객을 위한 것입니다. [자세히 알아보기](https://www.adobe.com/trust/compliance/hipaa-ready.html) | 해당 사항 없음 | 2022년 11월 7일 |
-| **예약된 프로젝트에 대한 암호 보호** | 이 기능은 HIPAA 준비의 일부이며 Healthcare Shield 고객에게만 적용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | 해당 사항 없음 | 2022년 11월 7일. |
+| **Workspace의 폴더** | 폴더를 사용하면 보다 효과적으로 검색 및 액세스할 수 있도록 프로젝트를 구성하고 분류할 수 있습니다. 또한 공유 **[!UICONTROL 회사]** 폴더를 사용하면 관리자가 모든 Workspace 사용자와 컨텐츠를 쉽게 만들고 공유할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 해당 사항 없음 | 2023년 1월 11일 |
+| **기본 랜딩 페이지** | 다음 [새 랜딩 페이지](/help/getting-started/landing.md) 2022년 초에 도입된 새로운 기능은 **2023년 1월 11일**. 기존 랜딩 페이지는 더 이상 사용되지 않으며 모든 사용자가 새 경험을 사용해야 합니다. | 해당 사항 없음 | 2023년 1월 11일 |
+| **Report Builder의 통합 문서 예약** | Customer Journey Analytics에서 일정 간격으로 통합 문서를 전송하는 일정을 만들 수 있습니다. 이제 수신자는 정기적으로 통합 문서에 대한 최신 업데이트를 받을 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html) | 해당 사항 없음 | 2023년 1월 11일 |
+| **새 프로젝트 자동 저장** | 이제 Analysis Workspace에서 새로 만든 프로젝트를 자동으로 저장합니다. 어떤 이유로든 새로 만든 프로젝트에 수동으로 저장하기 전에 예기치 않게 액세스할 수 없는 경우 이제 프로젝트의 복구 버전을 사용할 수 있습니다. 이전에는 프로젝트를 수동으로 저장한 후에만 프로젝트가 자동으로 저장되었습니다. [자세히 알아보기](/help/analysis-workspace/build-workspace-project/save-projects.md) | 해당 사항 없음 | 2023년 1월 11일 |
+| **향상된 사용자 환경 설정** | 이제 사용자 수준( [!UICONTROL 구성 요소] > [!UICONTROL 기본 설정]). 사용자 환경 설정을 지정하면 선택 사항이 프로젝트, 테이블 및 시각화에 걸쳐 확장됩니다. 이제 환경 설정 페이지에는 다음과 같은 새 탭이 있습니다. 각 탭에는 다음과 같은 새 구성 옵션이 있습니다.<ul><li>자유 형식 테이블</li><li>시각화>/li></ul>. 또한 이제 더 많은 환경 설정을 **[!UICONTROL 일반]** 및 **[!UICONTROL 프로젝트]** 탭.<p>이전에는 이러한 환경 설정 중 다수는 개별 프로젝트, 표 및 시각화에 대해서만 구성할 수 있었습니다. [자세히 알아보기](/help/analysis-workspace/user-preferences.md) | 해당 사항 없음 | 2023년 1월 11일 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 수정 사항
 
-* 최신 MacOS 버전의 이름이 “Macintosh”로 잘못 지정되던 문제가 해결되었습니다. 이번 수정 작업을 통해 OS 차원은 MacOS 11부터 “MacOS” 버전 번호를 사용하기 시작합니다. (AN-301834)
-
-### 기타 수정 사항
-
-AN-302367; AN-302562; AN-304036
+AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
 
 ## CJA 관리자를 위한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| **기본 랜딩 페이지** | 2023년 9월 29일 | 올해 초에 도입된 [새 랜딩 페이지](/help/getting-started/landing.md)는 **2023년 1월**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 현재 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. |
-| **개선된 IP-to-geolocation 매핑** | 2022년 9월 29일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics는 이 새로운 데이터 세트의 채택을 **2023년 1월**&#x200B;로 연기했습니다. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> [!UICONTROL Analytics Source Connector]를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
-| **[!UICONTROL 예외 항목 탐지] 자동 실행 조건** | 2022년 9월 29일 | 오늘, [!UICONTROL 예외 항목 탐지]가 시계열 자유 형식 테이블의 모든 열에서 자동 실행됩니다. 데이터를 분석에 사용할 수 있고 프로젝트를 더 빠르게 로드할 수 있도록 Adobe는 [!UICONTROL 예외 항목 탐지] 자동 실행 방식을 변경할 것입니다. **2022년 10월 26일**&#x200B;부터 예외 항목 탐지는 테이블의 첫 번째 지표 열에서만 자동 실행됩니다. 필요한 경우 다른 열에서 [!UICONTROL 예외 항목 탐지]를 실행하도록 열 설정을 구성할 수 있습니다. |
+| **개선된 IP-to-geolocation 매핑** | 2022년 9월 29일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics은 이 새 데이터 집합의 채택을 연기했습니다. **2023년 1월 11일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> [!UICONTROL Analytics Source Connector]를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
