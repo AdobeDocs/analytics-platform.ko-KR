@@ -4,7 +4,7 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 50%
@@ -39,7 +39,7 @@ ht-degree: 50%
 | --- | --- |
 | 랜딩 페이지 | Adobe Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>특정 프로젝트 목록에서 선택</li></ul> |
 | 팁 표시 | Analysis Workspace의 오른쪽 아래 영역에 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
-| <span class="preview">왼쪽 레일 그룹에 표시되는 구성 요소</span> | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우, 구성 요소는 작업 공간의 왼쪽 레일에서 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md).</p> |
+| 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우, 구성 요소는 작업 공간의 왼쪽 레일에서 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md).</p> |
 
 ## 프로젝트 환경 설정
 
@@ -53,7 +53,7 @@ Analysis Workspace에서 만드는 모든 새 프로젝트에 대한 프로젝�
 | --- | --- | --- |
 | **표시** |  |  |
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시할 컨텐츠의 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용된 시각화 색상 팔레트를 선택합니다. <ul><li>Adobe 제공 팔레트 (기본값)</li><li><span class="preview">조건부 서식 팔레트 </span></li><li><span class="preview">위쪽/아래쪽 팔레트(분산)</span><li>사용자 정의 팔레트</li></ul> |
+|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용된 시각화 색상 팔레트를 선택합니다. <ul><li>Adobe 제공 팔레트 (기본값)</li><li>조건부 서식 팔레트 </li><li>위쪽/아래쪽 팔레트(분산)<li>사용자 정의 팔레트</li></ul> |
 | **데이터** |  |  |
 |  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 파생시키는 위치 중에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |

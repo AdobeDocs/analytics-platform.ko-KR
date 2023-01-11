@@ -4,10 +4,10 @@ title: 프로젝트 저장
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 42%
+source-wordcount: '726'
+ht-degree: 39%
 
 ---
 
@@ -32,17 +32,22 @@ Analysis Workspace에서 프로젝트를 수동으로 저장할 때 다양한 �
    | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
    | **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [사용자 지정 템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR)으로 저장합니다. |
 
-   ![](assets/save-project.png)
-
 ## 자동 저장 {#Autosave}
 
 Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자동으로 저장됩니다. 여기에는 아직 수동으로 저장되지 않은 새로 만든 프로젝트가 포함됩니다.
 
 * **새 프로젝트:** 새 프로젝트가 자동으로 저장되지만 처음 각 새 프로젝트를 수동으로 저장해야 합니다. Analysis Workspace에서 다른 프로젝트로 전환하고 브라우저 탭을 닫는 등의 작업을 수행할 때 새 프로젝트를 수동으로 저장하라는 메시지를 표시합니다.
 
-   어떤 이유로든 새로 만든 프로젝트에 수동으로 저장하기 전에 예기치 않게 액세스할 수 없는 경우 프로젝트의 복구 버전이 이라는 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다 `Recovered Projects (Last 7 Days)`.
+   어떤 이유로든 새로 만든 프로젝트에 수동으로 저장하기 전에 예기치 않게 액세스할 수 없는 경우 프로젝트의 복구 버전이 이라는 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다 `Recovered Projects (Last 7 Days)`. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장해야 합니다.
 
-   ![](assets/recovered-folder.png)
+   복구된 프로젝트를 복원하려면 다음을 수행하십시오.
+
+   1. 로 이동합니다. [!UICONTROL **복구된 프로젝트**] 폴더(Analysis Workspace 랜딩 페이지)를 포함합니다.
+
+      ![](assets/recovered-folder.png)
+
+   1. 프로젝트를 열고 원하는 위치에 저장합니다.
+
 
 * **기존 프로젝트:** 아직 자동 저장되지 않은 변경 내용이 있는 프로젝트를 나가는 경우 변경 내용을 저장하라는 메시지가 표시되거나 경고 메시지가 표시됩니다.
 
