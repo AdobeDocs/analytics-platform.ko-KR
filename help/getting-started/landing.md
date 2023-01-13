@@ -4,10 +4,10 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
+source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1424'
+ht-degree: 49%
 
 ---
 
@@ -67,6 +67,18 @@ Customer Journey Analytics 강조 표시를 위한 랜딩 페이지 [!DNL Analys
 | 표 사용자 정의 아이콘 | 테이블에서 볼 열을 선택합니다. 프로젝트 목록에서 열을 추가하거나 제거하려면 열 아이콘(![모두 랜딩](assets/select-column.png) )을 클릭하여 열 제목을 선택하거나 선택 취소합니다. |
 | 표시: 폴더 및 프로젝트 또는 모든 프로젝트 | 폴더 조직에 따라 폴더 및 프로젝트를 표시하도록 테이블의 보기 설정을 변경합니다 **또는** 구성되지 않은 목록에 모든 프로젝트를 표시합니다. |
 | &lt; (뒤로 버튼) | 작업 공간 프로젝트에서 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 랜딩 페이지를 나갈 때 사용한 페이지 구성은 돌아올 때 지속됩니다. |
+
+### 프로젝트 관리자 페이지의 사용 중단 {#deprecate-pm-page}
+
+새 랜딩 페이지가 릴리스되면 구성 요소 관리자 아래에 나열된 대로 프로젝트 관리자가 더 이상 사용되지 않습니다. 새 랜딩 페이지는 이전 프로젝트 관리자 페이지의 모든 기능 등을 처리합니다.
+
+프로젝트 관리자 페이지의 일반적인 사용 사례는 모든 프로젝트를 보는 것이었습니다. 필터 레일을 사용하여 새 랜딩 페이지에서 모든 프로젝트를 보려면 을 선택합니다 **기타 필터** 그런 다음 **모두 표시**.
+
+![기타 필터](assets/other-filters.png)
+
+&quot;폴더 및 프로젝트&quot; 보기에 있는 경우, 모달이 &quot;모든 프로젝트&quot; 보기로 전환할지 여부를 묻는 팝업되어, 폴더 외부에서 모든 프로젝트를 쉽게 볼 수 있게 됩니다.   선택 **&quot;모든 프로젝트&quot; 보기로 전환** 액세스 권한이 있는 모든 프로젝트를 보다 잘 보려면 .
+
+![모든 프로젝트로 전환](assets/switch-all-projects-view.png)
 
 ## 학습 탭 탐색 {#navigate-learning}
 
