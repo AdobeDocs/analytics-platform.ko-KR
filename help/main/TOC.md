@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
+source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '860'
 ht-degree: 96%
 
 ---
@@ -61,10 +61,7 @@ ht-degree: 96%
    + [연결 관리](../connections/manage-connections.md)
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
-   + 크로스 채널 분석 {#cca}
-      + [크로스 채널 분석 개요](../connections/cca/overview.md)
-      + [재생 작동 방식](../connections/cca/replay.md)
-      + [크로스 채널 분석 FAQ](../connections/cca/faq.md)
+   + [크로스 채널 분석](../connections/cca.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
    + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)
@@ -177,18 +174,6 @@ ht-degree: 96%
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 액세스 가능 여부](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace의 롱테일](../analysis-workspace/workspace-faq/long-tail.md)
-+ Report Builder {#cja-reportbuilder}
-   + [Report Builder 개요](../report-builder/report-buider-overview.md)
-   + [Report Builder 설치](../report-builder/report-builder-setup.md)
-   + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
-   + [Report Builder 허브](../report-builder/report-builder-hub.md)
-   + [날짜 범위 선택](../report-builder/select-date-range.md)
-   + [필터 작업](../report-builder/work-with-filters.md)
-   + [차원 필터링](../report-builder/filter-dimensions.md)
-   + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
-   + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
-   + [제한된 라벨](../report-builder/restricted-labels.md)
-   + [Report Builder 설정](../report-builder/report-builder-settings.md)
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
    + 주석 {#annotations}
@@ -246,11 +231,31 @@ ht-degree: 96%
    + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
++ Report Builder {#cja-reportbuilder}
+   + [Report Builder 개요](../report-builder/report-buider-overview.md)
+   + [Report Builder 설치](../report-builder/report-builder-setup.md)
+   + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
+   + [Report Builder 허브](../report-builder/report-builder-hub.md)
+   + [날짜 범위 선택](../report-builder/select-date-range.md)
+   + [필터 작업](../report-builder/work-with-filters.md)
+   + [차원 필터링](../report-builder/filter-dimensions.md)
+   + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
+   + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
+   + [제한된 라벨](../report-builder/restricted-labels.md)
+   + [Report Builder 설정](../report-builder/report-builder-settings.md)
++ 크로스 채널 분석 {#cca}
+   + [크로스 채널 분석 개요](../cca/overview.md)
+   + [재생 작동 방식](../cca/replay.md)
+   + [크로스 채널 분석 FAQ](../cca/faq.md)
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
    + [Customer Journey Analytics와 Adobe Analytics 통합](/help/integrations/aa.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
    + [CJA와 Customer AI 데이터 통합](/help/integrations/customer-ai.md)
++ 데이터 거버넌스 {#cja-privacy}
+   + [데이터 거버넌스](../privacy/privacy-overview.md)
+   + [감사 로그](../privacy/audit-log.md)
+   + [고객 관리 키](../privacy/cmk.md)
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
@@ -277,8 +282,4 @@ ht-degree: 96%
    + [Labs 사용 안내서](../labs/labs.md)
 + 문제 해결 {#troubleshooting}
    + [Adobe Analytics 데이터와 CJA 데이터 비교](../troubleshooting/compare.md)
-+ 데이터 거버넌스 {#cja-privacy}
-   + [데이터 거버넌스](../privacy/privacy-overview.md)
-   + [감사 로그](../privacy/audit-log.md)
-   + [고객 관리 키](../privacy/cmk.md)
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)

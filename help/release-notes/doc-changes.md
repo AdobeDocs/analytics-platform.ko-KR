@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 99%
@@ -118,7 +118,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
-| 2020년 11월 13일 | [크로스 채널 분석](/help/connections/cca/overview.md)에 대한 새로운 주제로 데이터 세트의 개인 ID를 다시 입력할 수 있고 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
+| 2020년 11월 13일 | [크로스 채널 분석](/help/cca/overview.md)에 대한 새로운 주제로 데이터 세트의 개인 ID를 다시 입력할 수 있고 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
 | 2020년 11월 13일 | [콜센터 및 웹 데이터 가져오기](/help/use-cases/cross-channel/call-center.md)에 대한 새로운 사용 사례가 추가되었습니다. |
 | 2020년 11월 10일 | [FAQ](/help/getting-started/cja-faq.md)에 데이터 구성 요소 삭제의 의미에 대한 섹션을 추가했습니다. |
 | 2020년 11월 2일 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) 페이지 업데이트 |

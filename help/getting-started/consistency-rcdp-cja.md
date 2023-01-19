@@ -4,8 +4,8 @@ title: Real-Time CDP와 CJA 간의 지표 및 대상 멤버십의 일관성
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 769eef205df32865874753859ce79e573db40641
-workflow-type: ht
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Real-Time CDP와 CJA 간의 대상 멤버십을 비교할 때는 두 도구의 �
 
 Real-Time CDP와 CJA는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [ID 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=ko-kr)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
 
-CJA는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 로직을 적용하여 서로 연결하는 [크로스 채널 분석](/help/connections/cca/overview.md)을 사용하도록 구성할 수 있습니다.
+CJA는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 로직을 적용하여 서로 연결하는 [크로스 채널 분석](/help/cca/overview.md)을 사용하도록 구성할 수 있습니다.
 
 앞으로 CJA는 ID 그래프를 사용할 수 있습니다.
 
