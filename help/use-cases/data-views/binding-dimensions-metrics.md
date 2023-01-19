@@ -4,7 +4,7 @@ description: 복잡한 지속성 분석을 위한 개체 배열의 속성 차원
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
 ht-degree: 100%
 
@@ -247,7 +247,7 @@ Adobe Analytics에서 가장 일반적인 머천다이징 방법 중 하나는 �
 
 | search_term | 매출 |
 | --- | --- |
-| 신발 | US$204.97 |
+| 신발 | $204.97 |
 
 이 사례에는 한 명의 방문자만 포함되어 있지만 다른 항목을 검색하는 많은 방문자는 검색어를 다른 제품에 잘못 지정할 수 있으므로 실제로 최상의 검색 결과가 무엇인지 판단하기 어렵습니다.
 
@@ -348,7 +348,7 @@ Analysis Workspace는 다른 프로필의 검색을 고려하지 않고 Orangey�
 
 | 검색어 | 비디오 시작 |
 | --- | --- |
-| 아동용 프로그램 | 2개 |
+| 아동용 프로그램 | 2 |
 | 성인용 영화 | 1 |
 
 ## 예제 4: 검색 평가 및 소매 환경에서 검색 행동을 비교
