@@ -4,9 +4,9 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 316f53c99053023fa54e0890fe9cf5f6c9cfcb4d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html#cja-connections"> 크로스 채널 분석 (Customer Journey Analytics에서의 ID 결합) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=ko">Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=ko-KR"> 보고서 세트를 다른 스키마와 결합 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=ko-kr"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
@@ -33,7 +34,6 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=ko-KR"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 강화된 데이터 보기 기능 사용 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석 (Customer Journey Analytics에서의 ID 결합) </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>시작하기</b> </p> 
       <ul> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=ko-KR"> Customer Journey Analytics 시작하기 </a> </li> 
