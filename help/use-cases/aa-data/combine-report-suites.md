@@ -3,7 +3,7 @@ title: 보고서 세트를 다른 스키마와 결합
 description: 데이터 준비를 사용하여 보고서 세트를 다른 스키마와 결합하는 방법 알아보기
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 source-git-commit: 69356510596d047d80af63338fccca71e8af53cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1335'
 ht-degree: 100%
 
