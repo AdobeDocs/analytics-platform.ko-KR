@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4488c87604db363ca4ddb0954216b195990c8bb1
+source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 96%
+source-wordcount: '1235'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
 | 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| 랜딩 페이지 | 새 랜딩 페이지 업데이트 [랜딩 페이지](/help/getting-started/landing.md). |
+| 통합 문서 예약 | 다음 방법을 설명하는 전용 페이지 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) Report Builder에서 확인하십시오. |
 
 ## 2022
 
