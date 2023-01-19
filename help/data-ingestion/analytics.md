@@ -4,7 +4,7 @@ description: 기존 Adobe Analytics에서 데이터를 수집하는 방법을 �
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 10%
@@ -125,7 +125,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
       - 설정 **[!UICONTROL 모든 새 데이터 가져오기]** 및 **[!UICONTROL 데이터 집합 기존 데이터 채우기]** 사용자의 기본 설정에 따라 다릅니다.
 
-      ![데이터 세트 구성](./assets/cja-connections-3.png)
+      ![데이터 세트 구성](./assets/cja-connections-3a.png)
 
    - 선택 **[!UICONTROL 데이터 세트 추가]**.
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
@@ -191,7 +191,7 @@ Analysis Workspace은 데이터를 기반으로 분석을 신속하게 구축하
 
    ![작업 공간 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 차원 및 지표 드래그 앤 드롭을 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
+5. 차원에서 차원 및 지표 드래그 앤 드롭을 시작합니다 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
 
    ![작업 공간 - 첫 번째 보고서](./assets/cja-projects-5.png)
 
