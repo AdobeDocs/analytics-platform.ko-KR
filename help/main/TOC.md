@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: aff7b978382446e705d6507dbaa07790bd1dd2ae
+source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '858'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,14 @@ ht-degree: 98%
       + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [삭제 영향](../getting-started/cja-deletion.md)
    + [CJA 용어](../getting-started/cja-glossary.md)
++ 데이터 수집 {#cja-data-ingestion}
+   + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
+   + 빠른 시작 가이드 수집 및 사용{#ingest-use-guides}
+      + [Adobe Analytics](../data-ingestion/analytics.md)
+      + [Adobe Experience Platform Web SDK 및 Edge 네트워크](../data-ingestion/aepwebsdk.md)
+      + [배치 데이터](../data-ingestion/batch.md)
+      + [스트리밍 데이터](../data-ingestion/streaming.md)
+      + [소스 커넥터](../data-ingestion/sources.md)
 + 연결 {#cja-connections}
    + [연결 개요](../connections/overview.md)
    + [연결 만들기](../connections/create-connection.md)
@@ -251,7 +259,6 @@ ht-degree: 98%
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [CJA에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
-      + [데이터 수집 사용 사례](../use-cases/data-ingestion/data-ingestion.md)
       + [AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다.](../use-cases/data-ingestion/marketo.md)
       + [AEP 대상자를 CJA로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
