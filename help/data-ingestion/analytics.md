@@ -3,13 +3,13 @@ title: 기존 Adobe Analytics의 데이터 수집 및 사용
 description: 기존 Adobe Analytics에서 데이터를 수집하는 방법을 설명합니다.
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1146'
 ht-degree: 10%
 
 ---
-
 
 # 기존 Adobe Analytics의 데이터 수집 및 사용
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 >
 >- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)
 >
->- [Javascript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
+>- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
 
 
 이를 위해서는 다음을 수행해야 합니다.
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Adobe Analytics 소스 커넥터를 사용하여 데이터를 수집하고 Customer Journey Analytics에서 해당 데이터를 사용하는 방법에 대한 간단한 안내서입니다.  참조할 때는 추가 정보를 학습하는 것이 좋습니다.
+>Adobe Analytics 소스 커넥터를 사용하여 데이터를 수집하고 Customer Journey Analytics에서 해당 데이터를 사용하는 방법에 대한 간단한 안내서입니다. 참조할 때는 추가 정보를 학습하는 것이 좋습니다.
 
 
 ## Adobe Analytics 소스 커넥터 설정
@@ -48,7 +48,7 @@ Adobe Analytics 소스 커넥터를 사용하면 Adobe Analytics 보고서 세�
 
 Adobe Analytics 소스 커넥터를 만들려면 다음을 수행하십시오.
 
-1. 플랫폼 UI에서 **[!UICONTROL 소스]** 왼쪽 레일에서
+1. 플랫폼 UI에서 **[!UICONTROL 소스]**: 왼쪽 레일에서
 
 2. 선택 **[!UICONTROL Adobe 애플리케이션]** 목록 [!UICONTROL 카테고리].
 
@@ -62,7 +62,7 @@ Adobe Analytics 소스 커넥터를 만들려면 다음을 수행하십시오.
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-5. 선택 **[!UICONTROL 기본 스키마]** 로서의 [!UICONTROL Target 스키마]. Adobe Experience Platform은 선택된 Adobe Analytics 보고서 세트의 모든 표준 필드를 매핑하기 위해 자동으로 스키마와 해당 데이터 세트를 만듭니다.
+5. 선택 **[!UICONTROL 기본 스키마]** 로서의 [!UICONTROL Target 스키마]. Adobe Experience Platform은 선택된 Adobe Analytics 보고서 세트에서 모든 표준 필드를 매핑하기 위해 자동으로 스키마와 해당 데이터 세트를 만듭니다.
 
    ![기본 스키마](./assets/default-schema.png)
 
@@ -121,7 +121,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
       - 선택 [!UICONTROL 개인 ID] Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 생성합니다.
 
-      - 에서 올바른 데이터 소스를 선택합니다 [!UICONTROL 데이터 소스 유형] 목록. 지정한 경우 **[!UICONTROL 기타]** 그런 다음 데이터 소스에 대한 설명을 추가합니다.
+      - 에서 올바른 데이터 소스를 선택합니다 [!UICONTROL 데이터 소스 유형] 목록. 지정한 경우 **[!UICONTROL 기타]**&#x200B;를 입력한 다음 데이터 소스에 대한 설명을 추가합니다.
 
       - 설정 **[!UICONTROL 모든 새 데이터 가져오기]** 및 **[!UICONTROL 데이터 집합 기존 데이터 채우기]** 사용자의 기본 설정에 따라 다릅니다.
 
@@ -191,7 +191,7 @@ Analysis Workspace은 데이터를 기반으로 분석을 신속하게 구축하
 
    ![작업 공간 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 차원에서 차원 및 지표 드래그 앤 드롭을 시작합니다 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
+5. 차원 및 지표 드래그 앤 드롭을 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
 
    ![작업 공간 - 첫 번째 보고서](./assets/cja-projects-5.png)
 
@@ -201,10 +201,4 @@ Analysis Workspace은 데이터를 기반으로 분석을 신속하게 구축하
 >[!SUCCESS]
 >
 >모든 단계를 완료했습니다. Adobe Analytics 데이터 소스 커넥터를 설정하고 보고서 세트에 대한 해당 커넥터를 구성하면 Adobe Analytics 데이터가 자동으로 Adobe Experience Platform에 업로드됩니다. 수집된 Adobe Analytics 데이터 및 기타 데이터를 사용하기 위해 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하여 사용할 차원 및 지표를 지정하고 최종적으로 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들 수 있습니다.
-
-
-
-
-
-
 
