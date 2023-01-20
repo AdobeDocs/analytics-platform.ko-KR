@@ -4,7 +4,7 @@ description: Adobe Experience Platform Web SDK 및 Edge 네트워크를 통해 �
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
+source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 7%
@@ -467,7 +467,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 
    에서 [!UICONTROL 웹 설치 지침] 대화 상자에서 다음과 같이 읽어야 하는 스크립트 코드 옆에 있는 복사 단추를 선택합니다.
 
    ```javascript
-   <script src="https://assets.adobedtm.com/2a518741ab24/806645a0b9bb/launch-716db315b4e2-development.min.js" async></script>
+   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>
    ```
 
    ![환경](./assets/environment.png)
@@ -589,7 +589,7 @@ Analysis Workspace은 데이터를 기반으로 분석을 신속하게 구축하
 
    ![작업 공간 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 차원에서 차원 및 지표 드래그 앤 드롭을 시작합니다 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
+5. 차원 및 지표 드래그 앤 드롭을 [!UICONTROL 자유 형식 테이블] 에서 [!UICONTROL 패널] 첫 번째 보고서를 만들려면 예를 들어 `Program Points Balance` 및 `Page View` 지표 및 `email` 충성도 포인트를 수집하는 충성도 프로그램의 일부이며 웹 사이트를 방문한 프로필에 대한 빠른 개요를 알 수 있는 차원입니다.
 
    ![작업 공간 - 첫 번째 보고서](./assets/cja-projects-5.png)
 
