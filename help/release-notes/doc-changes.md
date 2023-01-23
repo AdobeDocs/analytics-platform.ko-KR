@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
+source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 93%
+source-wordcount: '1280'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 1월** |  |
+| CJA 대상 설명서로 업데이트 | 에 대한 새 설명서 [새 대상이 만들어진 후 발생하는 작업](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | 데이터 수집 빠른 시작 안내서 | 방법에 대한 새 설명서 섹션 [데이터 수집 및 사용](/help/data-ingestion/data-ingestion.md) 참조하십시오. |
 | 작업 공간 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 작업 공간 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
