@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: f45485d7e26827a85abe47168b1a3dbdbe150e53
+source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1289'
+ht-degree: 75%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## Experience Platform에서 CJA 대상자 사용 {#audiences-aep}
 
-이제 CJA는 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. CJA는 연결이 구성될 때 개인 ID로 선택된 항목으로 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
+CJA는 게시된 대상에서 모든 네임스페이스 및 ID 조합을 가져와 RTCP(실시간 고객 프로필)로 스트리밍합니다. CJA에서는 로 선택된 내용에 따라 기본 ID가 설정된 Experience Platform으로 대상을 보냅니다. [!UICONTROL 개인 ID] 연결이 구성된 시기
 
 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 &quot;user@adobe.com&quot;은 모든 디바이스와 채널을 타겟으로 지정할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
@@ -98,33 +98,47 @@ CJA 대상자를 AEP 세그먼트에 대한 세그먼트 정의로 드래그할 
 
 대상 게시에 대한 FAQ.
 
-### 사용자가 더 이상 CJA에서 대상자의 멤버가 아닌 경우 어떻게 됩니까?
++++**사용자가 더 이상 CJA에서 대상자의 멤버가 아닌 경우 어떻게 됩니까?**
 
 이 경우 종료 이벤트가 CJA에서 Experience Platform으로 전송됩니다.
 
-### CJA에서 잠재고객을 삭제하면 어떻게 됩니까?
++++
+
++++**CJA에서 잠재고객을 삭제하면 어떻게 됩니까?**
 
 CJA 대상자가 삭제되면 해당 대상자는 더 이상 Experience Platform UI에 표시되지 않습니다. 단, 해당 대상자와 관련된 프로필은 실제로 플랫폼에서 삭제되지 않습니다.
 
-### RTCDP에 해당 프로필이 없으면 새 프로필을 만들 것입니까?
++++
+
++++**RTCDP에 해당 프로필이 없으면 새 프로필을 만들 것입니까?**
 
 네, 그럴 거예요.
 
-### CJA는 대상 데이터를 파이프라인 이벤트나 데이터 레이크로 이동하는 플랫 파일로 전송합니까?
++++
 
-파이프라인을 통해 데이터를 RTCP로 스트리밍하고 이 데이터도 데이터 레이크의 시스템 데이터 세트에 수집됩니다.
++++**CJA는 대상 데이터를 파이프라인 이벤트나 데이터 레이크로 이동하는 플랫 파일로 전송합니까?**
 
-### CJA는 어떤 ID를 전송합니까?
+CJA는 파이프라인을 통해 데이터를 RTCP로 스트리밍하고 이 데이터도 데이터 레이크의 시스템 데이터 세트에 수집합니다.
 
-연결 설정에서 사용된 ID/네임스페이스 쌍입니다. 특히 사용자가 &quot;개인 ID&quot;로 사용할 필드를 선택하는 단계입니다.
++++
 
-### 1차 신분으로 선택된 것은 무엇인가?
++++**CJA는 어떤 ID를 전송합니까?**
+
+에서 사용된 ID/네임스페이스 쌍 [연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#create-connection). 특히 사용자가 사용하려는 필드를 &quot;개인 ID&quot;로 선택하는 단계입니다.
+
++++
+
++++**기본 ID로 선택된 ID는 무엇입니까?**
 
 위를 참조하십시오. CJA당 하나의 ID만 &quot;개인&quot;으로 보냅니다.
 
-### RTCP가 CJA 메시지도 처리합니까? CJA는 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?
++++
+
++++**RTCP가 CJA 메시지도 처리합니까? CJA는 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?**
 
 아니요. &quot;개인&quot;당 하나의 ID만 전송하므로 RTCP가 사용할 그래프 모서리가 없습니다.
+
++++
 
 ## 다음 단계
 
