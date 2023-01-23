@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 94%
+source-wordcount: '1255'
+ht-degree: 93%
 
 ---
 
@@ -20,14 +20,14 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 1월** |  |
-| 빠른 시작 | 방법에 대한 새 설명서 섹션 [데이터 수집 및 사용](/help/data-ingestion/data-ingestion.md) 참조하십시오. |
-| 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
-| 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| 데이터 수집 빠른 시작 안내서 | 방법에 대한 새 설명서 섹션 [데이터 수집 및 사용](/help/data-ingestion/data-ingestion.md) 참조하십시오. |
+| 작업 공간 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| 작업 공간 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
+| 작업 공간 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | 랜딩 페이지 | 새 랜딩 페이지 업데이트 [랜딩 페이지](/help/getting-started/landing.md). |
 | 통합 문서 예약 | 다음 방법을 설명하는 전용 페이지 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) Report Builder에서 확인하십시오. |
 
-## 2022
+## 2022 {#22}
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
@@ -85,7 +85,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021
+## 2021 {#21}
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
@@ -126,7 +126,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2020
+## 2020 {#20}
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
