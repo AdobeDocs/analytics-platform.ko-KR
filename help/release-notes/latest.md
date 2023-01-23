@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a6ce6409eb7a4d853d5390cd62f4a9506ee6282a
+source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 39%
+source-wordcount: '537'
+ht-degree: 41%
 
 ---
 
 # 현재 Customer Journey Analytics(CJA) 릴리스 노트(2023년 1월)
 
-**마지막 업데이트**: 2023년 1월 23일
+**마지막 업데이트**: 2023년 1월 13일
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,7 +20,6 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 
 | 기능 | 설명 | [롤아웃 시작](/help/release-notes/releases.md) | [일반 가용성](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **CJA 대상으로 업데이트** | 대상자를 만든 후에는 [Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). | 해당 사항 없음 | 2023년 1월 23일 |
 | **Workspace의 폴더** | 폴더를 사용하면 보다 효과적으로 검색 및 액세스할 수 있도록 프로젝트를 구성하고 분류할 수 있습니다. 또한 공유 **[!UICONTROL 회사]** 폴더를 사용하면 관리자가 모든 Workspace 사용자와 컨텐츠를 쉽게 만들고 공유할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 해당 사항 없음 | 2023년 1월 11일 |
 | **기본 랜딩 페이지** | 다음 [새 랜딩 페이지](/help/getting-started/landing.md) 2022년 초에 도입된 새로운 기능은 **2023년 1월 11일**. 기존 랜딩 페이지는 더 이상 사용되지 않으며 모든 사용자가 새 경험을 사용해야 합니다. | 해당 사항 없음 | 2023년 1월 11일 |
 | **프로젝트 관리자 페이지가 더 이상 사용되지 않음** | 새 랜딩 페이지가 릴리스되면 더 이상 **[!UICONTROL 프로젝트 관리자]** 아래에 나열된 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]**. 새 랜딩 페이지에는 이전 프로젝트 관리자 페이지의 모든 기능 등이 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#deprecate-pm-page) | 해당 사항 없음 | 2023년 1월 11일 |

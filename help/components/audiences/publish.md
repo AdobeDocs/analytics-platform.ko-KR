@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
+source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 75%
+source-wordcount: '1192'
+ht-degree: 81%
 
 ---
 
@@ -71,16 +71,6 @@ ht-degree: 75%
    모든 것이 잘 진행되면 대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 걸리지 않습니다. (수백만 명의 멤버를 보유한 대상자도 5분 미만이 소요됩니다.)
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
-
-## 대상자를 만든 후에 발생하는 작업 {#after-audience-created}
-
-대상을 만들면, Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다.
-
-* AEP 세그먼트는 CJA 대상과 동일한 이름/설명을 공유하지만 고유한 CJA 대상 ID가 이름에 추가됩니다.
-
-* CJA 대상 이름/설명이 변경되면 AEP 세그먼트 이름/설명에 해당 변경 사항도 반영됩니다.
-
-* 사용자가 CJA 대상자를 삭제해도 AEP 세그먼트는 삭제되지 않습니다. 이유는 CJA 대상자가 나중에 삭제될 수 있기 때문입니다.
 
 ## Experience Platform에서 CJA 대상자 사용 {#audiences-aep}
 
