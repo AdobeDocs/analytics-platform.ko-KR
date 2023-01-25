@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 93%
+source-wordcount: '1282'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 작업 공간 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | 랜딩 페이지 | 새 랜딩 페이지 업데이트 [랜딩 페이지](/help/getting-started/landing.md). |
 | 통합 문서 예약 | 다음 방법을 설명하는 전용 페이지 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) Report Builder에서 확인하십시오. |
+| 프로필 및 조회 데이터 세트에 대한 개체 배열 지원 | 업데이트됨 [개체 배열 사용](/help/use-cases/object-arrays.md) 및 [AEP 대상자 처리](/help/use-cases/data-ingestion/ingest-aep-segments.md) 프로필 및 조회 데이터 세트에 대한 개체 배열 지원을 반영하도록 했습니다. |
 
 ## 2022 {#22}
 
