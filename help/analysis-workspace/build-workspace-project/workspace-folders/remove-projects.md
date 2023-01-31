@@ -5,9 +5,9 @@ title: 폴더에서 프로젝트 제거
 feature: CJA Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ## 프로젝트 이동 {#move-project-in-folder}
 
-프로젝트를 한 폴더에서 만든 다른 폴더로 이동할 수 있습니다.
+만든 프로젝트를 한 폴더에서 다른 폴더로 이동할 수 있습니다.
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
