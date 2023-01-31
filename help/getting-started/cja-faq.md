@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,13 +104,13 @@ CJA([!UICONTROL Customer Journey Analytics])는 차세대 분석 제품입니다
 | 모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까? | [!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다. |
 | 기존 세그먼트/계산된 지표는 어떻게 됩니까? | [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, prop, 이벤트를 사용하지 않으며 대신 AEP 스키마를 사용합니다. 즉, 기존 세그먼트나 계산 지표는 [!UICONTROL Customer Journey Analytics]와 호환되지 않습니다. |
 | [!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까? | [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.] |
-| 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 활용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 활용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다. |
+| 기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까? | 사용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 사용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 9. 연결 크기 예상 {#estimate-size}
 
-을(를) 참조하십시오. [사용량 예측 및 관리](/help/getting-started/estimate-usage.md).
+[사용량 예측 및 관리](/help/getting-started/estimate-usage.md)를 참조하십시오.
 
 ## 10. 사용 초과에 관한 사항 {#overage}
 
