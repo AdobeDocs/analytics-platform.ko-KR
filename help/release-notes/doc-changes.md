@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
+source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 92%
+source-wordcount: '1311'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 1월** |  |
+| 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
 | 데이터 수집 빠른 시작 안내서 | 방법에 대한 새 설명서 섹션 [데이터 수집 및 사용](/help/data-ingestion/data-ingestion.md) 참조하십시오. |
 | 작업 공간 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 작업 공간 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
