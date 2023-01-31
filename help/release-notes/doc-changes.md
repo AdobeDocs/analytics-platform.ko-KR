@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 날짜 | 설명 업데이트 |
 | --- | --- |
 | **2022년 12월** |  |
-| 2022년 12월 16일 | 새 항목 [cja 데이터 사용 측정 및 관리](/help/getting-started/estimate-usage.md). |
+| 2022년 12월 16일 | [CJA 데이터 사용량 측정 및 관리](/help/getting-started/estimate-usage.md)에 대한 새로운 주제. |
 | **2022년 10월** |  |
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
