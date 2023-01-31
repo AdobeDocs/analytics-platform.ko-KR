@@ -3,10 +3,10 @@ title: 자유 형식 테이블
 description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
+workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
    * 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
    * 페이지 매김이 발생하기 전에 각 차원 행에 최대 400개의 행을 표시할 수 있습니다. 행 옆의 숫자를 클릭하여 페이지에 더 많은 행을 표시합니다. 헤더의 페이지 화살표를 사용하여 다른 페이지로 이동합니다.
    * 행을 추가 구성 요소별로 분석할 수 있습니다. 한 번에 여러 행을 분석하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 끌어다 놓으면 됩니다. [분류](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=ko-KR)에 대해 자세히 알아보십시오.
-   * 행을 [필터링](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko-KR)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ko-KR)에서 사용할 수 있습니다.
+   * 행을 [필터링](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ko-KR)에서 사용할 수 있습니다.
 
 * **열**
    * 구성 요소를 열 내에 스택하여 필터가 적용된 지표, 탭 간 분석 등을 만들 수 있습니다.

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
+source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 96%
    + [Customer Journey Analytics 랜딩 페이지](../getting-started/landing.md)
    + [Adobe Analytics에서 Customer Journey Analytics로의 진화](../getting-started/aa-to-cja.md)
    + [새 Customer Journey Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
-   + [CJA 사용 보기 및 관리](../getting-started/estimate-usage.md)
-   + [FAQ](../getting-started/cja-faq.md)
+   + [CJA 사용량 보기 및 관리](../getting-started/estimate-usage.md)
+   + [자주 묻는 질문](../getting-started/cja-faq.md)
    + Adobe Analytics 및 Customer Journey Analytics 비교 {#compare-aa-cja}
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
@@ -49,9 +49,9 @@ ht-degree: 96%
    + [CJA 용어](../getting-started/cja-glossary.md)
 + 데이터 수집 {#cja-data-ingestion}
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
-   + 빠른 시작 가이드 수집 및 사용{#ingest-use-guides}
+   + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [Adobe Experience Platform Web SDK 및 Edge 네트워크](../data-ingestion/aepwebsdk.md)
+      + [Adobe Experience Platform Web SDK 및 Edge Network](../data-ingestion/aepwebsdk.md)
       + [배치 데이터](../data-ingestion/batch.md)
       + [스트리밍 데이터](../data-ingestion/streaming.md)
       + [소스 커넥터](../data-ingestion/sources.md)
@@ -85,8 +85,8 @@ ht-degree: 96%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Workspace의 폴더 {#workspace-folders}
-         + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + 작업 영역의 폴더 {#workspace-folders}
+         + [작업 영역의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 삭제](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -104,7 +104,7 @@ ht-degree: 96%
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [테이블 페이지 매김, 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [테이블 페이지 매김, 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -127,7 +127,7 @@ ht-degree: 96%
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
       + [가로 막대 및 스택 가로 막대](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
-      + [선](../analysis-workspace/visualizations/line.md)
+      + [라인](../analysis-workspace/visualizations/line.md)
       + [산포도](../analysis-workspace/visualizations/scatterplot.md)
       + [요약 번호 및 요약 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](../analysis-workspace/visualizations/text.md)
