@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1537'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 | 기능 | 참고 |
 | --- | --- |
 | 마케팅 채널 | 마케팅 채널 데이터가 Analytics 소스 커넥터를 통해 CJA로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성해야 하며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [CJA 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)를 참조하십시오. 또한 Web SDK 구현의 경우 플러그인을 사용하여 클라이언트측 마케팅 채널을 정의할 수 있습니다. 보고 시 마케팅 채널 처리 규칙에 대한 향후 지원이 계획되어 있습니다. |
-| 크로스 디바이스/크로스 채널 결합 | ID 정보가 직접 포함된 데이터 세트에 대해 지원됩니다(&quot;필드 기반&quot; 결합이라고도 함). 그래프 기반 결합은 아직 지원되지 않지만, 가능합니다. [크로스 채널 분석](/help/cca/overview.md)을 참조하십시오. |
+| 크로스 디바이스/크로스 채널 결합 | ID 정보를 직접 포함하는 데이터 세트에 대해 지원됩니다(“필드 기반” 스티칭이라고도 함). 그래프 기반 스티칭은 아직 지원되지 않지만 향후 지원될 예정입니다. [크로스 채널 분석](/help/cca/overview.md)을 참조하십시오. |
 | 보트 필터링 | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 CJA에서 사용할 수 없습니다. |
 | 디바이스, 브라우저, 레퍼러, 기술 차원 | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트에 대해 지원됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko)를 참조하십시오.<p>Adobe Source Connector를 사용하여 Adobe Analytics의 데이터를 CJA로 채우지 않고 대신 Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 향후 지원 계획이 있습니다. |
 | 지리 특성 - 차원 | Adobe Analytics에 수집된 모든 지리 특성/지역은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 CJA로 전송됩니다. 디지털 데이터 수집을 위해 AEP Web SDK를 사용하는 구현과 같이 Analytics 소스 커넥터를 사용하지 않는 구현에는 전체 지리적 조회가 자동으로 수행되지 않습니다(국가와 주는 전 세계적으로 지원되며 도시와 우편번호는 지원되지 않음). |
