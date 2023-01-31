@@ -5,15 +5,15 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 데이터 보기 활용 사례
+# 데이터 보기 사용 사례
 
-이러한 활용 사례는 Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 줍니다.
+이러한 사용 사례는 Customer Journey Analytics에서 데이터 보기의 유연성과 성능을 보여 줍니다.
 
 ## 1. 문자열 스키마 필드로부터 지표 만들기 {#string}
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
    ![](../assets/integers.png)
 
-1. 이제 [!UICONTROL 값 버킷팅]을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. (버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.)
+1. 이제 [!UICONTROL 값 버킷팅]을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. (버킷이 없으면 이 차원의 각 인스턴스가 작업 영역 보고에 라인 항목으로 나타납니다.)
 
    ![](../assets/bucketing.png)
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 수치 차원을 사용하여 “지표”를 [!UICONTROL  플로우] 시각화에 나타낼 수 있습니다.
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#configure-component-settings) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
-2. Workspace 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
+2. 작업 영역 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
 
 ![](../assets/flow.png)
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 예를 들어 데이터 보기에서 포함/제외 기능을 사용하여 50달러가 넘는 매출을 생성한 제품만 중점적으로 살펴볼 수 있습니다. 그러므로 50달러 제품 구매와 25달러 제품 구매를 포함하는 주문이 있는 경우, 전체 주문이 아니라 25달러 제품 구매만 제외시키는 것입니다.
 
-1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#configure-component-settings) 탭에서 [!UICONTROL 수입] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
 a. [!UICONTROL 형식]에서 [!UICONTROL 통화]를 선택합니다.
 나. [!UICONTROL 통화]에서 USD를 선택합니다.
@@ -99,9 +99,9 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 * [세션 유형](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) - 이 차원에는 1) [!UICONTROL 신규] 및 2) [!UICONTROL 재방문]의 두 가지 값이 있습니다. [!UICONTROL 신규] 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
 
-* [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 새 세션 지표는 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
+* [새 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) 새 세션 지표는 보고 기간 내에 개인이 정의한 첫 번째 세션으로 정의됩니다.
 
-* [재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.-->
+* [재방문 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=ko-KR#optional) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.-->
 
 이러한 구성 요소에 액세스하려면:
 
@@ -123,7 +123,7 @@ Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL
 
 * 날짜-시간 형식의 경우 **[!UICONTROL 시간:분]** 형식으로 **[!UICONTROL 분]**&#x200B;을 선택하면 결과는 20:20과 같이 표시될 수 있습니다.
 
-Adobe는 현재 1900년 1월 1일(1970년 1월 1일 제외) 이후의 날짜와 2000년 1월 1일 이후 날짜 값을 지원합니다:00:00.
+현재는 1900년 1월 1일 이후의 날짜(1970년 1월 1일만 예외)와 2000년 1월 1일 00:00:00 이후의 날짜-시간 값을 지원합니다.
 
 ### 날짜 및 날짜-시간 사용 사례
 
