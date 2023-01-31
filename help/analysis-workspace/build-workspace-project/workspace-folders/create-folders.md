@@ -1,19 +1,19 @@
 ---
-description: Workspace에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
+description: 작업 영역에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
 keywords: Analysis Workspace
 title: 폴더 만들기
 feature: CJA Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 폴더 만들기
 
-Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가할 수 있습니다.
+작업 영역 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가할 수 있습니다.
 
 ## 새 폴더 만들기 {#create-new-folder}
 
@@ -23,7 +23,7 @@ Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또�
 
 1. 새 폴더의 이름을 입력합니다.
 
-1. 드롭다운 메뉴에서 태그를 선택하거나 새 태그를 추가합니다.
+1. 드롭다운 메뉴에서 태그를 선택하거나 순전히 새로운 태그를 추가합니다.
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
