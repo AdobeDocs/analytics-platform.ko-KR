@@ -10,8 +10,8 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: tm+mt
-source-wordcount: '860'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -241,7 +241,7 @@ ht-degree: 100%
    + [차원 필터링](../report-builder/filter-dimensions.md)
    + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
    + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
-   + [제한된 라벨](../report-builder/restricted-labels.md)
+   + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
 + 크로스 채널 분석 {#cca}
    + [크로스 채널 분석 개요](../cca/overview.md)
