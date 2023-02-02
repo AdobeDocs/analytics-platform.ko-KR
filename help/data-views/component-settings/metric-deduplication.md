@@ -4,10 +4,10 @@ description: 보고서에서 첫 번째 지표 발생 횟수만을 계산합니�
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: e2ebda486eae7740351370f48bdf104c90494ae3
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 75%
 
 ---
 
@@ -22,3 +22,7 @@ ht-degree: 100%
 | [!UICONTROL 중복 제거 ID] | 지표 자체의 중복 제거를 적용하는 대신 차원을 기반으로 지표 중복 제거를 적용할 수 있습니다. 중복 제거를 적용하는 구매 ID와 같은 차원에 유용합니다. |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!CAUTION]
+>
+>   데이터 중복 제거 _개인_ 범위는 UTC 시간으로 전체 월별로 평가됩니다. 일부 인스턴스가 전체 달 내 및 보고 날짜 외부에서 발생한 경우 부분적인 달 보고 기간 내에 모든 첫 번째 또는 마지막 인스턴스를 표시하지 않을 수 있습니다.
