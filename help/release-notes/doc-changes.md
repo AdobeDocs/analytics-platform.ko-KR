@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
-| 데이터 수집 빠른 시작 안내서 | 방법에 대한 새 설명서 섹션 [데이터 수집 및 사용](/help/data-ingestion/data-ingestion.md) 참조하십시오. |
-| 작업 공간 폴더 | 전용 페이지 [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 작업 공간 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analysis-workspace/user-preferences.md). |
-| 작업 공간 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md). |
-| 랜딩 페이지 | 새 랜딩 페이지 업데이트 [랜딩 페이지](/help/getting-started/landing.md). |
-| 통합 문서 예약 | 다음 방법을 설명하는 전용 페이지 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) Report Builder에서 확인하십시오. |
-| 프로필 및 조회 데이터 세트에 대한 개체 배열 지원 | 업데이트됨 [개체 배열 사용](/help/use-cases/object-arrays.md) 및 [AEP 대상자 처리](/help/use-cases/data-ingestion/ingest-aep-segments.md) 프로필 및 조회 데이터 세트에 대한 개체 배열 지원을 반영하도록 했습니다. |
+| 데이터 수집 빠른 시작 안내서 | CJA에서 [데이터를 수집하고 사용](/help/data-ingestion/data-ingestion.md)하는 방법에 대한 새로운 설명서 섹션입니다. |
+| 작업 영역 폴더 | [폴더 관리](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) 전용 페이지입니다. |
+| 작업 영역 사용자 환경 설정 | 이제 다양한 추가 사용자 환경 설정을 [환경 설정](/help/analysis-workspace/user-preferences.md)에서 사용할 수 있습니다. |
+| Workspace 프로젝트용 자동 저장 | [프로젝트 저장](/help/analysis-workspace/build-workspace-project/save-projects.md)에 자동 저장 기능을 포함하도록 콘텐츠가 업데이트되었습니다. |
+| 랜딩 페이지 | 새로운 랜딩 페이지에서 [랜딩 페이지](/help/getting-started/landing.md)가 업데이트됩니다. |
+| 통합 문서 예약 | Report Builder에서 [통합 문서를 예약](/help/report-builder/schedule-reportbuilder.md)하는 방법에 대해 설명하는 전용 페이지입니다. |
+| 프로필 및 조회 데이터 세트에 대한 오브젝트 배열 지원 | [오브젝트 배열 사용](/help/use-cases/object-arrays.md) 및 [AEP 대상자 수집](/help/use-cases/data-ingestion/ingest-aep-segments.md) 기능 업데이트로 프로필 및 조회 데이터 세트에 오브젝트 배열 지원이 반영되었습니다. |
 
 ## 2022 {#22}
 
@@ -36,7 +36,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | **2022년 12월** |  |
 | 2022년 12월 16일 | [CJA 데이터 사용량 측정 및 관리](/help/getting-started/estimate-usage.md)에 대한 새로운 주제. |
 | **2022년 10월** |  |
-| 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
+| 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=ko-KR#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [CJA 감사 로그](/help/privacy/audit-log.md)에 대한 새로운 주제. |
 | 2022년 10월 | [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko-KR) 시각화에 대한 새로운 주제. |
