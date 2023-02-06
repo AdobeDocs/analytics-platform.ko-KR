@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ddba0cdee1956048ba1875b49e8f2b77085c46da
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 91%
 
 ---
 
 # 최신 CJA(Customer Journey Analytics) 릴리스 정보 (2023년 1월)
 
-**마지막 업데이트**: 2023년 1월 24일
+**마지막 업데이트 날짜**: 2023년 2월 6일
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,13 +20,14 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 
 | 기능 | 설명 | [롤아웃 시작](/help/release-notes/releases.md) | [일반 가용성](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **CJA 대상으로 업데이트** | 대상자를 만든 후에는 [Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). AEP 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다. | 해당 사항 없음 | 2023년 2월 3일 |
 | **프로필 및 조회 데이터 세트에 대한 오브젝트 배열 지원** | 이제 프로필 데이터 세트 및 조회 데이터 세트는 CJA에서 사용할 오브젝트 배열을 지원합니다. | 2023년 1월 11일 | 2023년 1월 19일 |
-| **작업 영역의 폴더** | 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 또한, 공유 **[!UICONTROL 회사]** 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 작업 영역 사용자와 공유할 수 있게 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=ko-KR) | 해당 없음 | 2023년 1월 11일 |
-| **기본 랜딩 페이지** | 2022년 초에 도입된 [새 랜딩 페이지](/help/getting-started/landing.md)는 **2023년 1월 11일**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 기존 랜딩 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. | 해당 없음 | 2023년 1월 11일 |
-| **프로젝트 관리자 페이지가 더 이상 사용되지 않음** | 새 랜딩 페이지 릴리스로 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;에 나열된 것처럼 **[!UICONTROL 프로젝트 관리자]**&#x200B;는 더 이상 사용되지 않습니다. 새 랜딩 페이지에는 이전 프로젝트 관리자 페이지의 모든 기능들이 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR#deprecate-pm-page) | 해당 없음 | 2023년 1월 11일 |
-| **Report Builder에서 통합 문서 예약** | Customer Journey Analytics에서 일정을 만들어 정기적으로 통합 문서를 전송할 수 있습니다. 이제 수신자는 정기적으로 통합 문서에 대한 최신 업데이트를 받을 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html?lang=ko-KR) | 해당 없음 | 2023년 1월 11일 |
-| **새 프로젝트 자동 저장** | 이제 Analysis Workspace는 새로 만들어진 프로젝트를 자동으로 저장합니다. 어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 이제 프로젝트의 복구 버전을 사용할 수 있습니다. 이전에는 처음에 수동으로 저장된 후에만 프로젝트가 자동으로 저장되었습니다. [자세히 알아보기](/help/analysis-workspace/build-workspace-project/save-projects.md) | 해당 없음 | 2023년 1월 11일 |
-| **향상된 사용자 환경 설정** | 이제 사용자 수준에서 추가 환경 설정을 구성할 수 있습니다([!UICONTROL 구성 요소] > [!UICONTROL 환경 설정]). 사용자 환경 설정을 설정할 때 선택 사항은 프로젝트, 테이블 및 시각화에서 그대로 유지됩니다. 이제 환경 설정 페이지에는 다음 새 탭이 포함되어 있으며, 각 탭에는 많은 새로운 구성 옵션이 있습니다.<ul><li>자유 형식 테이블</li><li>시각화>/li></ul>. 또한 이제 **[!UICONTROL 일반]** 및 **[!UICONTROL 프로젝트]** 탭에서 추가 환경 설정을 사용할 수 있습니다.<p>이전에는 이러한 많은 환경 설정은 개별 프로젝트, 테이블 및 시각화에만 구성할 수 있었습니다. [자세히 알아보기](/help/analysis-workspace/user-preferences.md) | 해당 없음 | 2023년 1월 11일 |
+| **Workspace의 폴더** | 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 또한, 공유 **[!UICONTROL 회사]** 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 작업 영역 사용자와 공유할 수 있게 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=ko-KR) | 해당 사항 없음 | 2023년 1월 11일 |
+| **기본 랜딩 페이지** | 2022년 초에 도입된 [새 랜딩 페이지](/help/getting-started/landing.md)는 **2023년 1월 11일**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 기존 랜딩 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. | 해당 사항 없음 | 2023년 1월 11일 |
+| **프로젝트 관리자 페이지가 더 이상 사용되지 않음** | 새 랜딩 페이지 릴리스로 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;에 나열된 것처럼 **[!UICONTROL 프로젝트 관리자]**&#x200B;는 더 이상 사용되지 않습니다. 새 랜딩 페이지에는 이전 프로젝트 관리자 페이지의 모든 기능들이 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR#deprecate-pm-page) | 해당 사항 없음 | 2023년 1월 11일 |
+| **Report Builder에서 통합 문서 예약** | Customer Journey Analytics에서 일정을 만들어 정기적으로 통합 문서를 전송할 수 있습니다. 이제 수신자는 정기적으로 통합 문서에 대한 최신 업데이트를 받을 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html?lang=ko-KR) | 해당 사항 없음 | 2023년 1월 11일 |
+| **새 프로젝트 자동 저장** | 이제 Analysis Workspace는 새로 만들어진 프로젝트를 자동으로 저장합니다. 어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 이제 프로젝트의 복구 버전을 사용할 수 있습니다. 이전에는 처음에 수동으로 저장된 후에만 프로젝트가 자동으로 저장되었습니다. [자세히 알아보기](/help/analysis-workspace/build-workspace-project/save-projects.md) | 해당 사항 없음 | 2023년 1월 11일 |
+| **향상된 사용자 환경 설정** | 이제 사용자 수준에서 추가 환경 설정을 구성할 수 있습니다([!UICONTROL 구성 요소] > [!UICONTROL 환경 설정]). 사용자 환경 설정을 설정할 때 선택 사항은 프로젝트, 테이블 및 시각화에서 그대로 유지됩니다. 이제 환경 설정 페이지에는 다음 새 탭이 포함되어 있으며, 각 탭에는 많은 새로운 구성 옵션이 있습니다.<ul><li>자유 형식 테이블</li><li>시각화>/li></ul>. 또한 이제 **[!UICONTROL 일반]** 및 **[!UICONTROL 프로젝트]** 탭에서 추가 환경 설정을 사용할 수 있습니다.<p>이전에는 이러한 많은 환경 설정은 개별 프로젝트, 테이블 및 시각화에만 구성할 수 있었습니다. [자세히 알아보기](/help/analysis-workspace/user-preferences.md) | 해당 사항 없음 | 2023년 1월 11일 |
 
 {style=&quot;table-layout:auto&quot;}
 
