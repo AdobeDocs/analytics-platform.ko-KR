@@ -2,7 +2,7 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e14881682f79633313258382c0baae951ef7f43b
+source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 91%
@@ -72,7 +72,7 @@ ht-degree: 91%
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
-## 대상자를 만든 후에 발생하는 작업 {#after-audience-created}
+## 대상자를 만든 후에는 어떻게 됩니까? {#after-audience-created}
 
 대상을 만들면, Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다. AEP 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다.
 

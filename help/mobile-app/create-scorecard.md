@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: bacf1568b0d39d20f948c087d616881b66d96ca2
+source-git-commit: 72f59b140b2a907f8c0a125825cd4df6d7c38dbc
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -106,13 +106,13 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 그러면 새 날짜 범위 구성 요소를 만들고 저장할 수 있는 날짜 범위 빌더로 이동합니다.
 
-### 비교 날짜 범위 표시 {#show-comparison-dates}
+### 비교 날짜 범위 표시/숨기기 {#showo-comparison-dates}
 
 비교 날짜 범위를 포함하려면 **비교 날짜 포함** 설정
 
 ![비교 날짜 포함](assets/include-comparison-dates.png)
 
-설정은 다음과 같습니다 *on* 기본적으로 제공됩니다. 비교 날짜를 보지 않으려면 옵션을 선택 취소합니다.
+설정은 다음과 같습니다 *on* 기본적으로 제공됩니다. 로 전환합니다. *해제* 비교 날짜를 보지 않으려면
 
 ![비교 날짜 설정이 선택 취소됨](assets/no-comparison-dates.png)
 

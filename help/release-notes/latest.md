@@ -3,14 +3,14 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
+source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 최신 CJA(Customer Journey Analytics) 릴리스 정보 (2023년 1월)
+# 현재 Customer Journey Analytics(CJA) 릴리스 노트(2023년 2월)
 
 **마지막 업데이트 날짜**: 2023년 2월 6일
 
@@ -20,38 +20,29 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 
 | 기능 | 설명 | [롤아웃 시작](/help/release-notes/releases.md) | [일반 가용성](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **CJA 대상으로 업데이트** | 대상자를 만든 후에는 [Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). AEP 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다. | 해당 사항 없음 | 2023년 2월 3일 |
-| **프로필 및 조회 데이터 세트에 대한 오브젝트 배열 지원** | 이제 프로필 데이터 세트 및 조회 데이터 세트는 CJA에서 사용할 오브젝트 배열을 지원합니다. | 2023년 1월 11일 | 2023년 1월 19일 |
-| **Workspace의 폴더** | 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 또한, 공유 **[!UICONTROL 회사]** 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 작업 영역 사용자와 공유할 수 있게 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=ko-KR) | 해당 사항 없음 | 2023년 1월 11일 |
-| **기본 랜딩 페이지** | 2022년 초에 도입된 [새 랜딩 페이지](/help/getting-started/landing.md)는 **2023년 1월 11일**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 기존 랜딩 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. | 해당 사항 없음 | 2023년 1월 11일 |
-| **프로젝트 관리자 페이지가 더 이상 사용되지 않음** | 새 랜딩 페이지 릴리스로 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;에 나열된 것처럼 **[!UICONTROL 프로젝트 관리자]**&#x200B;는 더 이상 사용되지 않습니다. 새 랜딩 페이지에는 이전 프로젝트 관리자 페이지의 모든 기능들이 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR#deprecate-pm-page) | 해당 사항 없음 | 2023년 1월 11일 |
-| **Report Builder에서 통합 문서 예약** | Customer Journey Analytics에서 일정을 만들어 정기적으로 통합 문서를 전송할 수 있습니다. 이제 수신자는 정기적으로 통합 문서에 대한 최신 업데이트를 받을 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html?lang=ko-KR) | 해당 사항 없음 | 2023년 1월 11일 |
-| **새 프로젝트 자동 저장** | 이제 Analysis Workspace는 새로 만들어진 프로젝트를 자동으로 저장합니다. 어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 이제 프로젝트의 복구 버전을 사용할 수 있습니다. 이전에는 처음에 수동으로 저장된 후에만 프로젝트가 자동으로 저장되었습니다. [자세히 알아보기](/help/analysis-workspace/build-workspace-project/save-projects.md) | 해당 사항 없음 | 2023년 1월 11일 |
-| **향상된 사용자 환경 설정** | 이제 사용자 수준에서 추가 환경 설정을 구성할 수 있습니다([!UICONTROL 구성 요소] > [!UICONTROL 환경 설정]). 사용자 환경 설정을 설정할 때 선택 사항은 프로젝트, 테이블 및 시각화에서 그대로 유지됩니다. 이제 환경 설정 페이지에는 다음 새 탭이 포함되어 있으며, 각 탭에는 많은 새로운 구성 옵션이 있습니다.<ul><li>자유 형식 테이블</li><li>시각화>/li></ul>. 또한 이제 **[!UICONTROL 일반]** 및 **[!UICONTROL 프로젝트]** 탭에서 추가 환경 설정을 사용할 수 있습니다.<p>이전에는 이러한 많은 환경 설정은 개별 프로젝트, 테이블 및 시각화에만 구성할 수 있었습니다. [자세히 알아보기](/help/analysis-workspace/user-preferences.md) | 해당 사항 없음 | 2023년 1월 11일 |
+| **CJA 대상으로 업데이트** | 대상을 만들면, Adobe에서 각 새로운 CJA 대상에 대한 Experience Platform 스트리밍 세그먼트를 만듭니다. 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | 해당 사항 없음 | 2023년 2월 3일 |
+| **모바일 스코어카드에서 비교 날짜 범위 숨기기** | 이제 모바일 스코어카드를 사용하여 비교 날짜 범위를 숨길 수 있습니다. | 해당 없음 | 2023년 2월 8일 |
+| **Workspace의 달력 업데이트** | <ul><li>앵커 패널 날짜: 패널 달력에 상대적인 날짜 범위 구성 요소를 만들 수 있습니다. [자세히 알아보기](/help/components/date-ranges/calendar.md)</li><li>달력 스타일 업데이트: UI의 달력 스타일이 업그레이드되어 보다 일관되고 사용하기 쉬운 워크플로우를 제시했습니다.</li><li>달력 공식 업데이트: 상대적 날짜를 사용하는 경우 모든 달력 공식은 패널 날짜 범위의 시작을 반영합니다. [자세히 알아보기](/help/components/date-ranges/calendar.md)</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
+| **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터에서 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko).<p>행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 풍부함을 줄이는 데 도움이 되므로 프로필 권한 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필로 전송된 데이터에만 적용됩니다. [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko).<p>**필터링은 Customer Journey Analytics과 같은 애플리케이션에서 사용하기 위해 Data Lake로 전송되는 데이터에 영향을 주지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 수정 사항
+## Customer Journey Analytics의 수정 사항
 
-AN-287349; AN-301684; AN-305491; AN-305769; AN-307912
+AN-309106
 
 ## CJA 관리자를 위한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| **개선된 IP-to-geolocation 매핑** | 2022년 9월 29일 | Adobe의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. Adobe Analytics는 이 새로운 데이터 세트의 채택을 **2023년 1월 11일**&#x200B;로 연기했습니다. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p> [!UICONTROL Analytics Source Connector]를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
+| 현재 알림 없음 | 해당 없음 | 해당 사항 없음 |
 
 {style=&quot;table-layout:auto&quot;}
 
-
 ## 관련 리소스
 
-* [2022년 이전 CJA 릴리스 정보](/help/release-notes/2022.md)
-
+* [2023년 이전 CJA 릴리스 정보](/help/release-notes/2023.md)
 * [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-
 * [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
-
 * [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)
-
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
