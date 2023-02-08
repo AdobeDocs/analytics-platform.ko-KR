@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
+source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 91%
+source-wordcount: '1389'
+ht-degree: 86%
 
 ---
 
@@ -79,6 +79,19 @@ ht-degree: 91%
 * AEP 세그먼트는 CJA 대상과 동일한 이름/설명을 공유하지만 고유한 CJA 대상 ID가 이름에 추가됩니다.
 * CJA 대상 이름/설명이 변경되면 AEP 세그먼트 이름/설명에 해당 변경 사항도 반영됩니다.
 * 사용자가 CJA 대상자를 삭제해도 AEP 세그먼트는 삭제되지 않습니다. 이유는 CJA 대상자가 나중에 삭제될 수 있기 때문입니다.
+
+## 지연 고려 사항 {#latency}
+
+대상 게시 전, 기간 및 후에 몇 가지 시점에서 지연이 발생할 수 있습니다. 다음은 가능한 지연에 대한 개요입니다.
+
+![](assets/latency-diagram.png)
+
+| 지연 지점 | 지연 기간 |
+| --- | --- |
+| Data Lake로 데이터 수집 | 최대 30분 |
+| Experience Platform에서 CJA로 데이터 수집 | 최대 60분 |
+| 실시간 고객 프로필에 게시하는 대상자 | 5분 미만(대상 크기에 따라 다름) |
+| 대상의 빈도 새로 고침 | <ul><li>1회 새로 고침(5분 미만의 지연)</li><li>4시간, 일별, 주별, 월별 새로 고침(지연은 새로 고침 비율에 따라 다름) |
 
 ## Experience Platform에서 CJA 대상자 사용 {#audiences-aep}
 

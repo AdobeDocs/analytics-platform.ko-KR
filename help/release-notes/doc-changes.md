@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
+source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 2월** |  |
+| 대상 설명서 업데이트 | 대상을 만들면 Adobe이 Experience Platform을 만듭니다 [새로운 각 CJA 대상에 대한 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 데이터 수집 빠른 시작 안내서 | CJA에서 [데이터를 수집하고 사용](/help/data-ingestion/data-ingestion.md)하는 방법에 대한 새로운 설명서 섹션입니다. |
