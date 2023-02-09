@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
+source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 97%
+source-wordcount: '1390'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | **2023년 2월** |  |
 | 대상 설명서 업데이트 | 대상을 만들면 Adobe이 Experience Platform을 만듭니다 [새로운 각 CJA 대상에 대한 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
+| 작업 공간 달력 및 날짜 범위 | 상대적 날짜 범위, 공식 계산 업데이트 및 달력 UI 변경 사항을 설명하는 컨텐츠가 업데이트되었습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새 설명서 섹션 . 자세한 내용은 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates) 참조하십시오. |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 데이터 수집 빠른 시작 안내서 | CJA에서 [데이터를 수집하고 사용](/help/data-ingestion/data-ingestion.md)하는 방법에 대한 새로운 설명서 섹션입니다. |
