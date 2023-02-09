@@ -5,7 +5,7 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
 workflow-type: tm+mt
 source-wordcount: '1389'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -72,13 +72,13 @@ ht-degree: 86%
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
-## 대상자를 만든 후에는 어떻게 됩니까? {#after-audience-created}
+## 대상자가 생성된 후 진행되는 상황? {#after-audience-created}
 
-대상을 만들면, Adobe은 새로운 각 CJA 대상에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다. AEP 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다.
+대상자가 생성된 후 Adobe는 각각의 새로운 CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트를 만듭니다. AEP 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션을 위해 설정된 경우에만 만들어집니다.
 
-* AEP 세그먼트는 CJA 대상과 동일한 이름/설명을 공유하지만 고유한 CJA 대상 ID가 이름에 추가됩니다.
-* CJA 대상 이름/설명이 변경되면 AEP 세그먼트 이름/설명에 해당 변경 사항도 반영됩니다.
-* 사용자가 CJA 대상자를 삭제해도 AEP 세그먼트는 삭제되지 않습니다. 이유는 CJA 대상자가 나중에 삭제될 수 있기 때문입니다.
+* AEP 세그먼트는 CJA 대상자와 동일한 이름/설명을 공유하지만 고유한 이름을 보유하도록 CJA 대상자 ID가 추가됩니다.
+* CJA 대상자 이름/설명이 변경되면 AEP 세그먼트 이름/설명도 해당 변경 사항을 반영합니다.
+* 사용자가 CJA 대상자를 삭제해도 AEP 세그먼트는 삭제되지 않습니다. CJA 대상자가 나중에 삭제 취소될 수 있기 때문입니다.
 
 ## 지연 고려 사항 {#latency}
 
