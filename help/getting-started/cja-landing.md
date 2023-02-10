@@ -4,7 +4,7 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
+source-git-commit: 6e90688d72ddf7791ad8c4c12d5293070d987e39
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 82%
@@ -31,7 +31,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=en"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html"> Adobe Analytics에서 Customer Journey Analytics로의 진화 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.htm"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 강화된 데이터 보기 기능 사용 </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>시작하기</b> </p> 
