@@ -4,9 +4,9 @@ description: Customer Journey Analytics를 구현하는 데 필요한 사전 요
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5d0f012505d254406e106939234d4e1d103168db
+source-git-commit: ab4b65a8948d650615cdf9b99718cbc50499e9f5
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '415'
 ht-degree: 85%
 
 ---
@@ -19,7 +19,6 @@ Customer Journey Analytics를 구현하려면 이 워크플로를 따라야 합�
 
 Customer Journey Analytics를 사용할 수 있는 고객은 다음과 같습니다.
 
-* Adobe Analytics [Select, Prime 또는 Ultimate](https://www.adobe.com/kr/analytics/compare-adobe-analytics-packages.html) 고객 및
 * [Adobe Experience Platform](https://www.adobe.com/kr/experience-platform.html)이 프로비저닝된 고객 및
 * Customer Journey Analytics SKU를 구입한 고객
 
