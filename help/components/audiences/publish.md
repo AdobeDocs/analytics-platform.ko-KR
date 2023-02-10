@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
+source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 90%
 
 ---
 
@@ -84,14 +84,13 @@ ht-degree: 93%
 
 대상 게시 전, 기간 및 후에 몇 가지 시점에서 지연이 발생할 수 있습니다. 다음은 가능한 지연에 대한 개요입니다.
 
-![](assets/latency-diagram.png)
-
 | 지연 지점 | 지연 기간 |
 | --- | --- |
 | Data Lake로 데이터 수집 | 최대 30분 |
 | Experience Platform에서 CJA로 데이터 수집 | 최대 60분 |
-| 실시간 고객 프로필에 게시하는 대상자 | 5분 미만(대상 크기에 따라 다름) |
+| 스트리밍 세그먼트의 자동 만들기를 포함하여 실시간 고객 프로필에 게시하고 세그먼트를 데이터를 받을 준비가 되도록 합니다. | 약 60분 |
 | 대상의 빈도 새로 고침 | <ul><li>1회 새로 고침(5분 미만의 지연)</li><li>4시간, 일별, 주별, 월별 새로 고침(지연은 새로 고침 비율에 따라 다름) |
+| AEP에서 대상 만들기: 새 세그먼트를 Adobe Target에 활성화 | 현재 대상 업데이트 간격 및 세그먼트 평가 유형에 따라 최대 24시간이 소요될 수 있습니다 |
 
 ## Experience Platform에서 CJA 대상자 사용 {#audiences-aep}
 
