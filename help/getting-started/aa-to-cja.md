@@ -1,18 +1,18 @@
 ---
-title: Adobe Analytics에서 Customer Journey Analytics로의 진화
+title: Adobe Analytics의 진화
 description: Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 단계
 role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '1420'
-ht-degree: 100%
+source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+workflow-type: tm+mt
+source-wordcount: '1414'
+ht-degree: 99%
 
 ---
 
-# Adobe Analytics에서 Customer Journey Analytics로의 진화
+# Adobe Analytics의 진화
 
 조직이 Customer Journey Analytics을 사용하기 위해 진화할 때 이러한 단계를 통해 데이터를 준비하고 두 기술 간의 중요한 차이점을 파악하십시오. 이 문서는 관리자 대상자를 대상으로 합니다.
 
@@ -99,9 +99,9 @@ Adobe Analytics 세그먼트(CJA에서는 [!UICONTROL 필터]라고 함) 및 계
 
 1. 이들 구성 요소 중 가장 중요한 요소를 식별합니다.
 
-1. 해당 요소의 정의를 문서화하고,
+2. 해당 요소의 정의를 문서화하고,
 
-1. CJA에서 [필터](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
+3. CJA에서 [필터](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
 
 다음은 몇 가지 가이드 비디오입니다.
 

@@ -5,8 +5,8 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 * 삭제된 연결을 기반으로 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.
 * 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.
 
-삭제 영향에 관해 [자세히 알아보십시오](/help/getting-started/cja-deletion.md).
+삭제 영향에 관해 [자세히 알아보십시오](/help/admin/cja-deletion.md).
 
 ### 연결 또는 데이터 세트 검색
 

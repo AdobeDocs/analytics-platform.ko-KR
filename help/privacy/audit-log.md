@@ -2,8 +2,8 @@
 title: 감사 로그
 description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시오.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
-workflow-type: ht
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 로그 수집을 수동으로 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. CJA 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 문서](/help/getting-started/cja-access-control.md)를 참조하십시오.
+감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. CJA 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 문서](../admin/cja-access-control.md)를 참조하십시오.
 
 ## UI에서 감사 로그 보기
 

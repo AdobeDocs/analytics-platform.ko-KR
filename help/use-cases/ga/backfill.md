@@ -4,8 +4,8 @@ description: CJA(Customer Journey Analytics)를 사용하여 Google Analytics �
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: f65f13d696ad2045f58ccb5c9ef7fed45eb9d68c
-workflow-type: ht
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * Adobe Experience Platform 액세스
 * Google Analytics 액세스(GA Standard 또는 GA 360))
-* Customer Journey Analytics에 대한 [관리자 액세스](/help/getting-started/cja-access-control.md)
+* Customer Journey Analytics에 대한 [관리자 액세스](/help/admin/cja-access-control.md)
 
 ## BigQuery 내보내기 설정
 

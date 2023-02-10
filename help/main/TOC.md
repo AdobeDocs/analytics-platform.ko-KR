@@ -9,17 +9,16 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 97e648de4363eefd4375effad66d6cb17e3f2c2c
+source-git-commit: 7ee35a3d1e5b4335d87ac3649585a9a4d079bdf5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '852'
+ht-degree: 98%
 
 ---
 
 
 # Customer Journey Analytics 안내서 {#using}
 
-+ [Customer Journey Analytics 안내서](../getting-started/cja-landing.md)
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
    + [2023년 릴리스](../release-notes/2023.md)
@@ -28,17 +27,18 @@ ht-degree: 0%
    + [2020년 릴리스](../release-notes/2020.md)
    + [CJA 릴리스](../release-notes/releases.md)
    + [CJA 설명서 업데이트](../release-notes/doc-changes.md)
-+ Customer Journey Analytics 개요 {#cja-overview}
-   + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
-   + [시작하기](../getting-started/cja-getting-started.md)
-   + [Real-Time CDP와 CJA 간의 지표 및 대상자 멤버십의 일관성](../getting-started/consistency-rcdp-cja.md)
-   + [CJA 액세스 제어](../getting-started/cja-access-control.md)
-   + [Customer Journey Analytics 랜딩 페이지](../getting-started/landing.md)
-   + [Adobe Analytics에서 Customer Journey Analytics로의 진화](../getting-started/aa-to-cja.md)
-   + [새 Customer Journey Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
-   + [CJA 사용량 보기 및 관리](../getting-started/estimate-usage.md)
+
++ [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
+
++ 시작하기 {#cja-getting-started}
+   + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
+   + [랜딩 페이지](../getting-started/landing.md)
    + [자주 묻는 질문](../getting-started/cja-faq.md)
-   + Adobe Analytics 및 Customer Journey Analytics 비교 {#compare-aa-cja}
+
++ Customer Journey Analytics 및 Adobe Analytics {#compare-aa-cja}
+   + [Adobe Analytics의 진화 ](../getting-started/aa-to-cja.md)
+   + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
+   + Adobe Analytics과 비교 {#cja-aa-comparison}
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
@@ -46,8 +46,7 @@ ht-degree: 0%
       + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
-   + [삭제 영향](../getting-started/cja-deletion.md)
-   + [CJA 용어](../getting-started/cja-glossary.md)
+
 + 데이터 수집 {#cja-data-ingestion}
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
@@ -56,6 +55,7 @@ ht-degree: 0%
       + [배치 데이터](../data-ingestion/batch.md)
       + [스트리밍 데이터](../data-ingestion/streaming.md)
       + [소스 커넥터](../data-ingestion/sources.md)
+
 + 연결 {#cja-connections}
    + [연결 개요](../connections/overview.md)
    + [연결 만들기](../connections/create-connection.md)
@@ -63,6 +63,7 @@ ht-degree: 0%
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
    + [크로스 채널 분석](../connections/cca.md)
+
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
    + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)
@@ -79,10 +80,13 @@ ht-degree: 0%
       + [값 버킷팅](../data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](../data-views/component-reference.md)
    + [레이블 및 정책](../data-views/data-governance.md)
+
+
 + 작업 영역 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](../analysis-workspace/home.md)
    + [기본 분석 수행](../analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](../analysis-workspace/perform-adv-analysis.md)
+
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -99,6 +103,7 @@ ht-degree: 0%
    + 시각화 {#visualizations}
       + [시각화 개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
+
       + 자유 형식 테이블 {#freeform-table}
          + [자유 형식 테이블](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + 열 및 행 설정 {#column-row-settings}
@@ -106,6 +111,7 @@ ht-degree: 0%
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 페이지 매김, 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -121,6 +127,7 @@ ht-degree: 0%
          + [플로우 시각화 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [영역 및 스택 영역](../analysis-workspace/visualizations/area.md)
+
       + [막대 및 스택 막대](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호 그래프](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보 차트](../analysis-workspace/visualizations/combo-charts.md)
@@ -167,6 +174,7 @@ ht-degree: 0%
          + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
+
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -175,6 +183,18 @@ ht-degree: 0%
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 액세스 가능 여부](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace의 롱테일](../analysis-workspace/workspace-faq/long-tail.md)
+
+
+
+
+
+
+
+
+
+
+
+
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
    + 주석 {#annotations}
@@ -226,12 +246,14 @@ ht-degree: 0%
       + [달력 개요](../components/date-ranges/calendar.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
+
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](../mobile-app/home.md)
    + [큐레이터 작업](../mobile-app/curator.md)
    + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
+
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 개요](../report-builder/report-buider-overview.md)
    + [Report Builder 설치](../report-builder/report-builder-setup.md)
@@ -244,19 +266,23 @@ ht-degree: 0%
    + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
+
 + 크로스 채널 분석 {#cca}
    + [크로스 채널 분석 개요](../cca/overview.md)
    + [재생 작동 방식](../cca/replay.md)
    + [크로스 채널 분석 FAQ](../cca/faq.md)
+
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
    + [Customer Journey Analytics와 Adobe Analytics 통합](/help/integrations/aa.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
    + [CJA와 Customer AI 데이터 통합](/help/integrations/customer-ai.md)
+
 + 데이터 거버넌스 {#cja-privacy}
    + [데이터 거버넌스](../privacy/privacy-overview.md)
    + [감사 로그](../privacy/audit-log.md)
    + [고객 관리 키](../privacy/cmk.md)
+
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
@@ -271,16 +297,28 @@ ht-degree: 0%
       + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
    + B2B {#b2b}
-   + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
+      + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
    + 크로스 채널 데이터 {#cross-channel}
       + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
       + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
    + Adobe Analytics 데이터 {#aa-data}
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
-   + [오브젝트 배열 사용](../use-cases/object-arrays.md)
+   + 복잡한 데이터 {#complex-data}
+      + [오브젝트 배열 사용](../use-cases/object-arrays.md)
+
++ 관리 {#cja-admin}
+   + [액세스 제어](../admin/cja-access-control.md)
+   + [ 사용량 보기 및 관리](../admin/estimate-usage.md)
+   + [삭제 영향](../admin/cja-deletion.md)
+
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
+
 + 문제 해결 {#troubleshooting}
    + [Adobe Analytics 데이터와 CJA 데이터 비교](../troubleshooting/compare.md)
+   + [Real-Time CDP와 CJA 간의 지표 및 대상자 멤버십의 일관성](../troubleshooting/consistency-rcdp-cja.md)
+
++ [CJA 용어](../getting-started/cja-glossary.md)
+
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)

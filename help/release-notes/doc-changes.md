@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 95%
@@ -38,7 +38,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 날짜 | 설명 업데이트 |
 | --- | --- |
 | **2022년 12월** |  |
-| 2022년 12월 16일 | [CJA 데이터 사용량 측정 및 관리](/help/getting-started/estimate-usage.md)에 대한 새로운 주제. |
+| 2022년 12월 16일 | [CJA 데이터 사용량 측정 및 관리](/help/admin/estimate-usage.md)에 대한 새로운 주제. |
 | **2022년 10월** |  |
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=ko-KR#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
@@ -53,7 +53,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 9월 | 작업 영역의 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)에 대한 새로운 주제. |
 | **2022월 8월** |  |
 | 2022월 8월 | [Analytics 소스 커넥터에 대한 교차 영역 지원](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)에 대한 Adobe Experience Platform 문서. |
-| 2022월 8월 | [CJA 액세스 제어](/help/getting-started/cja-access-control.md)에 대한 문서 업데이트. |
+| 2022월 8월 | [CJA 액세스 제어](/help/admin/cja-access-control.md)에 대한 문서 업데이트. |
 | 2022월 8월 | [데이터 거버넌스 레이블 및 정책에 대한 CJA 지원](/help/data-views/data-governance.md)에 관한 새 문서. |
 | 2022월 8월 | [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](/help/getting-started/aa-vs-cja/terminology.md)에 대한 새 문서. |
 | 2022월 8월 | [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=ko-KR)에 대한 새 설명서. |
