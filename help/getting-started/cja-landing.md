@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 316f53c99053023fa54e0890fe9cf5f6c9cfcb4d
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 82%
 
 ---
 
@@ -25,13 +25,13 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html?lang=ko-KR#cja-connections"> 크로스 채널 분석(Customer Journey Analytics에서의 ID 결합) </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=ko-KR">Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en">Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=ko-KR"> 보고서 세트를 다른 스키마와 결합 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=ko-KR"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=ko-KR"> Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=ko-KR"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko-KR"> Adobe Analytics에서 Customer Journey Analytics로의 진화 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html?lang=ko-KR"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=en"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=en"> Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=en"> 가상 보고서 세트, 데이터 보기, AEP 샌드박스 및 Analytics 소스 커넥터 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html"> Adobe Analytics에서 Customer Journey Analytics로의 진화 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.htm"> Adobe Analytics 사용자를 위한 CJA 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR#cja-dataviews"> 강화된 데이터 보기 기능 사용 </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>시작하기</b> </p> 
@@ -50,6 +50,7 @@ Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구�
      <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=ko-KR" format="https" scope="external">Adobe Experience Platform 튜토리얼</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API 참조</a> </li> 
      <li><a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> 설명서 및 개발자 리소스</a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html" format="https" scope="external"> 기존 Adobe Analytics에서 데이터를 수집 및 사용하는 방법에 대한 빠른 시작 안내서
      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR" format="https" scope="external"> 보고서 세트 데이터용 Adobe Analytics 소스 커넥터</a> </li>
     </ul> </td> 
   </tr> 

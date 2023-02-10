@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1436'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
-Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. Analytics 소스 커넥터 사용에 대한 자세한 내용은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.
+Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. Analytics 소스 커넥터 사용에 대한 자세한 내용은 방법에 대한 빠른 시작 안내서를 참조하십시오. [Adobe Analytics에서 데이터를 수집하여 CJA에서 사용](../data-ingestion/analytics.md). 참조: [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko) 추가 정보.
 
 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
 
@@ -76,10 +76,10 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 
 다음 Adobe Analytics 기능 또는 구성 요소는 지원되지 않습니다.
 
-* 마케팅 채널
 * 보트 필터링
 * 지역, 도메인, 디바이스 조회
-* Analytics for Target (A4T)
+* 스트리밍 미디어 측정
+* 실시간 스트리밍 또는 실시간 스트리밍 트리거
 
 ## 중요한 차이점에 대비
 
