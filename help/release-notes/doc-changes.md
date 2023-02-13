@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 95%
+source-wordcount: '1412'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=ko-KR) 문서. |
 | 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-KR#new-repeat) 보고 문서. |
 | **2022년 6월** |  |
-| 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html?lang=ko-KR) 관련 새로운 문서 |
+| 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics Source Connector에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서. |
 | 2022년 6월 | [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)에 대한 새 문서. |
 | 2022년 6월 | [Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)에 대한 새 문서. |
@@ -84,7 +84,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 3월 | [작업 영역의 주석](/help/components/annotations/overview.md)에 대한 새로운 설명서. |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | **2022년 2월** |  |
-| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=ko-KR) |
+| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
 | **2022년 1월** |  |
 | 2022년 1월 | [CJA에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#allocation-settings) |

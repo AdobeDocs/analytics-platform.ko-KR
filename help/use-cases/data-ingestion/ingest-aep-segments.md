@@ -4,10 +4,10 @@ description: 추가 분석을 위해 AEP 대상자를 Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 99%
 
 ---
 
@@ -88,6 +88,6 @@ CJA의 연결에 최종적으로 추가될 수 있는 데이터 세트로 대상
 * CJA 내에서 대상자 데이터가 지속적으로 새로 고쳐지도록 이 프로세스를 정기적으로 수행해야 합니다.
 * 단일 CJA 연결 내에서 여러 대상자를 가져올 수 있습니다. 이는 프로세스에 복잡성을 가중시키지만 실행 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
    1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
-   1. CJA는 프로필 데이터 세트의 배열/오브젝트 배열을 지원합니다. audienceMembershipId 또는 audienceMembershipIdName에 대한 [오브젝트 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=ko)을 사용하는 것이 가장 적합한 옵션이 될 것입니다.
+   1. CJA는 프로필 데이터 세트의 배열/오브젝트 배열을 지원합니다. audienceMembershipId 또는 audienceMembershipIdName에 대한 [오브젝트 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html)을 사용하는 것이 가장 적합한 옵션이 될 것입니다.
    1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
    1. 이제 CJA Workspace에서 이 새로운 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.
