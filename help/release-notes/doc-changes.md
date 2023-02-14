@@ -21,7 +21,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | **2023년 2월** |  |
 | Audiences 설명서로 업데이트 | 의 새 섹션 [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
-| Audiences 설명서로 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#after-audience-created)를 만듭니다. |
+| Audiences 설명서로 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)를 만듭니다. |
 | 작업 공간 달력 및 날짜 범위 | 상대적 날짜 범위, 공식 계산 업데이트 및 달력 UI 변경 사항을 설명하는 컨텐츠가 업데이트되었습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates). |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새 설명서 섹션 . 자세한 내용은 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates) 참조하십시오. |
 | **2023년 1월** |  |

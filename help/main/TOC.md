@@ -244,7 +244,7 @@ ht-degree: 98%
       + [날짜 범위 개요](../components/date-ranges/overview.md)
       + [날짜 범위 만들기](../components/date-ranges/create.md)
       + [날짜 범위 관리](../components/date-ranges/manage.md)
-      + [달력 개요](../components/date-ranges/calendar.md)
+      + [캘린더 개요](../components/date-ranges/calendar.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
 
