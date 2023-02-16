@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 45c6e6db751f5a73bb9d44d3a6641c7369d6252f
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 98%
    + [랜딩 페이지](../getting-started/landing.md)
    + [자주 묻는 질문](../getting-started/cja-faq.md)
 
-+ Customer Journey Analytics 및 Adobe Analytics {#compare-aa-cja}
-   + [Adobe Analytics의 진화 ](../getting-started/aa-to-cja.md)
++ Customer Journey Analytics 및 Adobe Analytics 비교 {#compare-aa-cja}
+   + [Adobe Analytics의 발전 ](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
-   + Adobe Analytics과 비교 {#cja-aa-comparison}
+   + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
@@ -63,7 +63,7 @@ ht-degree: 98%
    + [연결 관리](../connections/manage-connections.md)
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
-   + [크로스 채널 분석](../connections/cca.md)
+   + [교차 채널 분석](../connections/cca.md)
 
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
@@ -268,10 +268,10 @@ ht-degree: 98%
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
 
-+ 크로스 채널 분석 {#cca}
-   + [크로스 채널 분석 개요](../cca/overview.md)
++ 교차 채널 분석 {#cca}
+   + [교차 채널 분석 개요](../cca/overview.md)
    + [재생 작동 방식](../cca/replay.md)
-   + [크로스 채널 분석 FAQ](../cca/faq.md)
+   + [교차 채널 분석 FAQ](../cca/faq.md)
 
 + Adobe 통합 {#integrations}
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
@@ -310,7 +310,7 @@ ht-degree: 98%
 
 + 관리 {#cja-admin}
    + [액세스 제어](../admin/cja-access-control.md)
-   + [ 사용량 보기 및 관리](../admin/estimate-usage.md)
+   + [사용량 보기 및 관리](../admin/estimate-usage.md)
    + [삭제 영향](../admin/cja-deletion.md)
 
 + Labs {#labs}

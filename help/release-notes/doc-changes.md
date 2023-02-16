@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
 workflow-type: tm+mt
 source-wordcount: '1412'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 2월** |  |
-| Audiences 설명서로 업데이트 | 의 새 섹션 [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
-| Audiences 설명서로 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)를 만듭니다. |
-| 작업 공간 달력 및 날짜 범위 | 상대적 날짜 범위, 공식 계산 업데이트 및 달력 UI 변경 사항을 설명하는 컨텐츠가 업데이트되었습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates). |
-| 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새 설명서 섹션 . 자세한 내용은 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates) 참조하십시오. |
+| Audiences 설명서로 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#latency)에 대한 새로운 섹션. |
+| Audiences 설명서로 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#after-audience-created)를 만듭니다. |
+| Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates)를 참조하십시오. |
+| 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새로운 문서 섹션. CJA의 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates)를 참조하십시오. |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 데이터 수집 빠른 시작 안내서 | CJA에서 [데이터를 수집하고 사용](/help/data-ingestion/data-ingestion.md)하는 방법에 대한 새로운 설명서 섹션입니다. |
@@ -63,7 +63,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=ko-KR) 문서. |
 | 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko-KR#new-repeat) 보고 문서. |
 | **2022년 6월** |  |
-| 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) 관련 새로운 문서 |
+| 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=ko-KR) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics Source Connector에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서. |
 | 2022년 6월 | [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)에 대한 새 문서. |
 | 2022년 6월 | [Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)에 대한 새 문서. |
@@ -84,7 +84,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 3월 | [작업 영역의 주석](/help/components/annotations/overview.md)에 대한 새로운 설명서. |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | **2022년 2월** |  |
-| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
+| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko-KR) |
 | **2022년 1월** |  |
 | 2022년 1월 | [CJA에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#allocation-settings) |
@@ -137,7 +137,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 날짜 | 설명 업데이트 |
 | --- | --- |
-| 2020년 11월 13일 | [크로스 채널 분석](/help/cca/overview.md)에 대한 새로운 주제로 데이터 세트의 개인 ID를 다시 입력할 수 있고 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
+| 2020년 11월 13일 | [교차 채널 분석](/help/cca/overview.md)에 대한 새로운 주제로 데이터 세트의 개인 ID를 다시 입력할 수 있고 여러 데이터 세트를 매끄럽게 결합할 수 있습니다. |
 | 2020년 11월 13일 | [콜센터 및 웹 데이터 가져오기](/help/use-cases/cross-channel/call-center.md)에 대한 새로운 사용 사례가 추가되었습니다. |
 | 2020년 11월 10일 | [FAQ](/help/getting-started/cja-faq.md)에 데이터 구성 요소 삭제의 의미에 대한 섹션을 추가했습니다. |
 | 2020년 11월 2일 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) 페이지 업데이트 |
