@@ -5,7 +5,7 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2135'
 ht-degree: 100%
 
@@ -38,23 +38,23 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 +++
 
 
-## 2. 데이터 결합 (크로스 채널 분석) {#stitching}
+## 2. 데이터 결합 (교차 채널 분석) {#stitching}
 
-+++**[!UICONTROL Customer Journey Analytics]를 디바이스 또는 데이터 세트 간에 &quot;결합&quot;할 수 있습니까?**
++++**[!UICONTROL Customer Journey Analytics]를 디바이스 또는 데이터 세트 간에 “결합”할 수 있습니까?**
 
-예. [!UICONTROL Customer Journey Analytics]에는 CCA([크로스 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR))이라고 하는 결합 솔루션이 있습니다. 이 솔루션을 사용하여 데이터 세트의 개인 ID에 대해 다시 키를 입력할 수 있으므로 여러 데이터 세트를 매끄럽게 결합할 수 있습니다.
+예. [!UICONTROL Customer Journey Analytics]에는 CCA([교차 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR))이라고 하는 결합 솔루션이 있습니다. 이 솔루션을 사용하여 데이터 세트의 개인 ID에 대해 다시 키를 입력할 수 있으므로 여러 데이터 세트를 매끄럽게 결합할 수 있습니다.
 
 +++
 
 
 +++**익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까?**
 
-예. [크로스 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다.
+예. [교차 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다.
 
 +++
 
 
-+++**CCA에서 &#39;재생&#39;은 어떻게 작동합니까?**
++++**CCA에서 “재생”은 어떻게 작동합니까?**
 
 CCA는 학습한 고유 식별자를 기반으로 데이터를 “재생”합니다. 재생으로 인해 연결에 새 디바이스가 결합됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=ko-KR#step-1%3A-live-stitching)
 
@@ -174,7 +174,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 ## 8. 기존 [!UICONTROL Adobe Analytics] 구성 요소
 
 
-+++**[!UICONTROL 에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 ]필터[!UICONTROL  (]세그먼트[!DNL Customer Journey Analytics])를 공유/게시할 수 있습니까?**
++++**[!UICONTROL 에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 ]필터[!UICONTROL (]세그먼트[!DNL Customer Journey Analytics])를 공유/게시할 수 있습니까?**
 
 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다.
 
