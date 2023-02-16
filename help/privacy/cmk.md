@@ -3,19 +3,19 @@ title: 고객 관리 키
 description: CJA용 고객 관리 키를 설정하는 방법을 알아봅니다.
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 고객 관리 키
 
-CJA(Customer Journey Analytics)는 [Healthcare Shield](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객이 Azure CMK(Customer Managed Key)를 활용하여 CJA 데이터에 적용할 수 있는 옵션을 제공합니다. 이 프로세스는 [Adobe Experience Platform CMK 설정](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html)과 별개라는 점을 참고하십시오.
+CJA(Customer Journey Analytics)는 [Healthcare Shield](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객이 Azure CMK(Customer Managed Key)를 활용하여 CJA 데이터에 적용할 수 있는 옵션을 제공합니다. 이 프로세스는 [Adobe Experience Platform CMK 설정](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ko-KR)과 별개라는 점을 참고하십시오.
 
 >[!NOTE]
 >
->고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
+>고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=ko-KR) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 ## CJA용 CMK 설정
 
@@ -31,4 +31,4 @@ CJA(Customer Journey Analytics)는 [Healthcare Shield](https://www.adobe.com/kr/
 
 1. Adobe 고객 지원 센터에서 해당 CJA 데이터에 대한 CMK 신청이 완료되었음을 확인하게 됩니다.
 
-Platform에서 사용하는 모든 데이터는 CMK의 유무에 관계없이 데이터를 안전하게 유지하기 위해 전송 중이거나 사용하지 않을 때 암호화됩니다. Adobe Experience Platform 암호화에 대한 [자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko)을 살펴보십시오.
+Platform에서 사용하는 모든 데이터는 CMK의 유무에 관계없이 데이터를 안전하게 유지하기 위해 전송 중이거나 사용하지 않을 때 암호화됩니다. Adobe Experience Platform 암호화에 대한 [자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko-KR)을 살펴보십시오.
