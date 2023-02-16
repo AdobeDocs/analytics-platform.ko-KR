@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics 사용량 보기 및 관리
-description: 사용량을 예측하는 두 가지 메서드와 이를 관리하는 한 가지 메서드를 보여줍니다.
+description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 한 가지 방법이 표시됩니다.
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
 source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
