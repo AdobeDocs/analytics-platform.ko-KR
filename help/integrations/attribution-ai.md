@@ -4,9 +4,9 @@ title: 기여도 AI와 CJA 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
-workflow-type: ht
-source-wordcount: '889'
+source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+workflow-type: tm+mt
+source-wordcount: '812'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Adobe Experience Platform Intelligent Services의 일부인 [기여도 AI](https
 
 ### 1단계: 기여도 AI 인스턴스 생성
 
-Experience Platform에서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html?lang=ko-KR)에 설명된 대로 데이터를 선택 및 매핑하고, 이벤트를 정의하고, 데이터를 교육하여 기여도 AI 인스턴스를 생성합니다.
+Experience Platform에서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)에 설명된 대로 데이터를 선택 및 매핑하고, 이벤트를 정의하고, 데이터를 교육하여 기여도 AI 인스턴스를 생성합니다.
 
 ![AAI 인스턴스](assets/aai-instance.png)
 
@@ -74,11 +74,7 @@ CJA 작업 영역 프로젝트에서는 “AAI 주문”과 같은 지표와 “
 
 ![AAI 차원](assets/aai-dims.png)
 
->[!IMPORTANT]
->
->이러한 차원 및 지표는 기본적으로 이러한 방식으로 이름이 지정되지 않습니다. 이는 “친숙한 이름”입니다. [기여도 AI의 명명 규칙](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=ko-KR?lang=en#attribution-ai-output-data)은 스키마 경로를 따릅니다. CJA에서 긴 AAI 스키마 경로 이름을 짧고 사용자 친화적인 이름(차원/지표)으로 바꾸는 것이 좋습니다. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 스키마 필드]** -> 스키마 필드 클릭 -> **[!UICONTROL 구성 요소 이름]**&#x200B;에서 수행할 수 있습니다.
 
-![차원 이름 변경](assets/change-name.png)
 
 **영향을 주고 증분 점수가 있는 주문**
 
