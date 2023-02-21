@@ -2,10 +2,10 @@
 title: CJA 대상자 게시 개요
 description: Customer Journey Analytics의 대상자 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 * Adobe Journey Optimizer에서 대상자를 여정에 활용
 * Experience Platform 대상을 통해 서드파티에 대상자 내보내기
 * CJA의 이벤트 기반 데이터에서 파생된 유용한 속성으로 실시간 고객 프로필 강화
-* 대상자를 게시한 후 대기 시간을 최소화하면서 이 모든 작업 수행 (몇 분 정도)
+* 대상을 게시한 후 지연 시간을 최소화하면서 이 모든 작업을 수행합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#latency)
 * 일회성 대상자 또는 반복 대상자 게시
 
 ## 주요 용어
