@@ -4,10 +4,10 @@ title: 기여도 AI와 CJA 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,15 @@ CJA 작업 영역 프로젝트에서는 “AAI 주문”과 같은 지표와 “
 
 ![AAI 차원](assets/aai-dims.png)
 
+AAI의 원시 점수 출력에는 중첩된 스키마가 있습니다. 여기서 필드 경로는 테이블이나 시각화에 있는 대부분의 공백을 차지할 수 있습니다. 요점을 위해 [!UICONTROL 표시 이름] 는 아래 규칙에 따라 CJA에서 자동으로 생성 및 활용됩니다.
 
+* 모든 필드에는 &quot;AAI&quot; 접두사가 있습니다
+* 터치 포인트 필드의 경우:
+   * XDM 점수의 일부인 필드의 경우 CJA에 다음과 같이 표시됩니다. `AAI T {field name}`
+   * passThrough 열로 포함된 필드의 경우 다음과 같이 CJA에 표시됩니다. `AAI T PT {field name}`
+* 전환 필드의 경우:
+   * XDM 점수의 일부인 필드의 경우 CJA에 다음과 같이 표시됩니다. `AAI C {field name}`
+   * passThrough 열로 포함된 필드의 경우 다음과 같이 CJA에 표시됩니다. `AAI C PT {field name}`
 
 **영향을 주고 증분 점수가 있는 주문**
 
