@@ -4,10 +4,10 @@ title: 캘린더 및 날짜 범위 개요
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 969040538e12ef3c3d15881ae225af02bef1cba4
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 사용자는 날짜(및 시간 차원)를 작업 영역 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=ko-KR) (4:07)
+[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -44,8 +44,8 @@ Workspace에서 작업하는 경우 패널 캘린더를 기준으로 날짜 범�
 1. 왼쪽 레일에서 차원, 지표 및 세그먼트를 추가합니다.
 1. 패널 날짜 범위 필드를 클릭하여 상대 패널 날짜 범위 설정을 전환합니다.
 1. **패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기**&#x200B;를 선택합니다.
-   * 패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있는 옵션을 선택합니다.
-상대 날짜를 선택한 경우 순환 날짜는 오늘 날짜가 아닌 패널 캘린더의 시작 날짜를 기준으로 합니다.
+   * 패널 달력을 기준으로 날짜 범위 구성 요소를 만들 수 있는 옵션을 선택합니다.
+상대 날짜를 선택한 경우, 순환 날짜는 오늘 날짜가 아닌 패널 캘린더의 시작 날짜를 기준으로 합니다.
    * 이 옵션을 선택하지 않으면 순환 날짜는 오늘 날짜를 기준으로 합니다.
 
    ![상대 패널 날짜](assets/relative-date-selected.png){width="60%"}
@@ -61,7 +61,7 @@ Workspace에서 작업하는 경우 패널 캘린더를 기준으로 날짜 범�
 
 ### 수식 및 상대 날짜 범위 {#formula-relative-dates}
 
-상대 날짜를 선택한 경우 모든 날짜 수식은 패널의 시작 날짜를 시작 지점으로 사용합니다.
+상대 날짜를 선택한 경우, 모든 날짜 수식은 패널의 시작 날짜를 시작 지점으로 사용합니다.
 
 ### 사용자 정의 캘린더 및 상대 날짜 범위 {#custom-calendar-formulas}
 
@@ -70,3 +70,10 @@ Workspace에서 작업하는 경우 패널 캘린더를 기준으로 날짜 범�
 ### 순환 날짜 및 상대 패널 날짜 범위를 사용하는 세그먼트 정보 {#segments-relative-dates}
 
 예를 들어 지난 7일 또는 지난 2주와 같은 순환 날짜가 있는 세그먼트를 작성하거나 세그먼트를 사용하고, 세그먼트 미리보기를 클릭하면 패널 시작 날짜 대신 *오늘*&#x200B;부터 순환 날짜가 시작됩니다. 따라서 표에서 세그먼트를 실제로 사용할 때 세그먼트의 미리보기가 일치하지 않습니다. 세그먼트 자체가 아닌 미리보기가 영향을 받습니다.
+
+## 패널 날짜 범위 및 미리 보기에 대한 지침 {#guidelines-panel-dates}
+
+* 2월 릴리스부터 구성 요소 및 데이터 미리 보기는 최근 90일이 아니라 패널 날짜 범위를 기반으로 합니다.
+* 왼쪽 레일에 나열된 모든 구성 요소는 패널 날짜 범위를 기반으로 사용할 수 있습니다.
+* 세그먼트 및 계산된 지표 빌더의 모든 날짜 미리 보기는 패널 날짜 범위를 기반으로 합니다(연결된 패널이 없는 구성 요소 관리자에서 액세스하지 않으면 지난 90일을 기반으로 합니다).
+* 모든 데이터 미리 보기에는 패널 날짜 범위에 따라 데이터 또는 구성 요소가 표시됩니다.
