@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+workflow-type: tm+mt
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
-| 데이터 웨어하우스 보고 (100% 행 내보내기) | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. Adobe Experience Platform [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
+| Data Warehouse 보고 | Analysis Workspace 인터페이스에서 지원이 예정되어 있습니다. Adobe Experience Platform [[!UICONTROL 쿼리 서비스]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또한 CJA에서의 이러한 사용 사례에 대한 인터페이스를 제공합니다. |
 | 디바이스 그래프를 통한 ID 결합 | 지원이 예정되어 있습니다. |
 | 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |

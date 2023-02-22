@@ -4,10 +4,11 @@ title: 기여도 AI와 CJA 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
+mini-toc-levels: 3
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 87%
+source-wordcount: '929'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 87%
 
 Adobe Experience Platform Intelligent Services의 일부인 [기여도 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=ko-KR)는 지정된 결과에 대한 고객 상호 작용의 영향 및 점진적 영향을 계산하는 멀티채널 알고리즘 속성 서비스입니다. 기여도 AI를 통해 마케터는 고객 여정의 각 단계에서 모든 개별 고객 상호 작용의 영향을 이해함으로써 마케팅 및 광고 지출을 측정하고 최적화할 수 있습니다.
 
-기여도 AI는 고객의 마케팅 접점 및 전환 데이터 소스에 대해 모델을 실행하는 범위 내에서 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 CJA는 해당 모델의 출력을 데이터 세트로 가져오거나 나머지 CJA 데이터 세트와 통합할 수 있습니다. 그런 다음 기여도 AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
+기여도 AI는 고객의 마케팅 접점 및 전환 데이터 소스에 대해 모델을 실행하는 범위 내에서 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 CJA는 해당 모델의 출력을 데이터 세트로 가져오거나 나머지 CJA 데이터 세트와 통합할 수 있습니다. 그런 다음 Attribution AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
 
 기여도 AI는 경험 이벤트, Adobe Analytics 및 소비자 경험 이벤트의 3가지 Experience Platform 스키마를 지원합니다.
 
