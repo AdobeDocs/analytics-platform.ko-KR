@@ -2,7 +2,7 @@
 title: AJO(Adobe Journey Optimizer)을 Customer Journey Analytics(CJA)와 통합
 description: AJO에서 생성된 데이터를 가져오고 CJA 내에서 Analysis Workspace를 사용하여 가져온 데이터를 분석하십시오.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 3a4dbe9a87f8e195a4daf78423d29d73f2be0f83
+source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 53%
@@ -64,7 +64,7 @@ AJO와 CJA 간의 데이터 불일치는 일반적으로 1-2% 미만입니다. �
 | 이메일 열기 | 열린 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `open` |
 | 오류 | 오류가 발생한 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `error` |
 | 제외 | 제외된 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `exclude` |
-| 전송함 | 이메일 공급자가 수락한 메시지 수입니다. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `sent` |
+| 전송함 | 이메일 공급자가 수락한 메시지 수입니다. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `sent` |
 | 스팸 불만 | 접수된 스팸 불만 사항 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `spam_complaint` |
 | 구독 취소 | 구독 취소 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: 다음과 같음 `unsubscribe` |
 
