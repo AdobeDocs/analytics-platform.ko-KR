@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: ca161bd86b4f926991c1adec2ccf3918f2bc4347
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 99%
+source-wordcount: '1595'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 99%
 | 사용자 정의 세션 | 모바일 배경 조회수를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 고객 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
+| 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [AEP 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 및 [AEP 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 이러한 옵션은 AEP Data Lake로 수집하거나 수집된 모든 데이터의 히트/행 수준 내보내기를 제공합니다. 사후 열은 쿼리 시간에 계산되므로 사후 프로세스 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | 지표 중복 제거 | 이제 데이터 보기 내의 지표에 대해 구성됩니다. 지표 중복 제거는 데이터 세트, 데이터 보기 또는 연결 수준이 아닌 개인 또는 세션 수준에서 발생합니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
@@ -99,7 +100,6 @@ ht-degree: 99%
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 통화 전환 | 지원이 예정되어 있습니다. |
-| 데이터 피드 | AEP 대상을 통한 지원이 예정되어 있습니다. |
 | 거래 ID 데이터 소스 | 지원이 예정되어 있습니다. |
 | 프로젝트/필터/계산된 지표를 AA에서 CJA로 마이그레이션 | 지원이 예정되어 있습니다. |
 | 요약 수준 데이터 소스 | 지원이 예정되어 있습니다. |
