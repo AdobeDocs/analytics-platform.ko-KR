@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
 source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Adobe Experience Platform Intelligent Services의 일부인 [기여도 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=ko-KR)는 지정된 결과에 대한 고객 상호 작용의 영향 및 점진적 영향을 계산하는 멀티채널 알고리즘 속성 서비스입니다. 기여도 AI를 통해 마케터는 고객 여정의 각 단계에서 모든 개별 고객 상호 작용의 영향을 이해함으로써 마케팅 및 광고 지출을 측정하고 최적화할 수 있습니다.
 
-기여도 AI는 고객의 마케팅 접점 및 전환 데이터 소스에 대해 모델을 실행하는 범위 내에서 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 CJA는 해당 모델의 출력을 데이터 세트로 가져오거나 나머지 CJA 데이터 세트와 통합할 수 있습니다. 그런 다음 Attribution AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
+기여도 AI는 고객의 마케팅 접점 및 전환 데이터 소스에 대해 모델을 실행하는 범위 내에서 Customer Journey Analytics(CJA)와 통합됩니다. 그런 다음 CJA는 해당 모델의 출력을 데이터 세트로 가져오거나 나머지 CJA 데이터 세트와 통합할 수 있습니다. 그런 다음 기여도 AI 지원 데이터 세트를 CJA의 데이터 보기 및 보고에서 활용할 수 있습니다.
 
 기여도 AI는 경험 이벤트, Adobe Analytics 및 소비자 경험 이벤트의 3가지 Experience Platform 스키마를 지원합니다.
 
@@ -75,15 +75,15 @@ CJA 작업 영역 프로젝트에서는 “AAI 주문”과 같은 지표와 “
 
 ![AAI 차원](assets/aai-dims.png)
 
-AAI의 원시 점수 출력에는 중첩된 스키마가 있습니다. 여기서 필드 경로는 테이블이나 시각화에 있는 대부분의 공백을 차지할 수 있습니다. 요점을 위해 [!UICONTROL 표시 이름] 는 아래 규칙에 따라 CJA에서 자동으로 생성 및 활용됩니다.
+AAI의 원시 점수 출력에는 중첩 스키마가 있으며, 필드 경로가 테이블 또는 시각화 공간의 대부분을 차지할 정도로 길 수 있습니다. 간결성을 위해 [!UICONTROL 표시 이름]은 아래 규칙에 따라 CJA에서 자동으로 생성되어 활용됩니다.
 
-* 모든 필드에는 &quot;AAI&quot; 접두사가 있습니다
-* 터치 포인트 필드의 경우:
-   * XDM 점수의 일부인 필드의 경우 CJA에 다음과 같이 표시됩니다. `AAI T {field name}`
-   * passThrough 열로 포함된 필드의 경우 다음과 같이 CJA에 표시됩니다. `AAI T PT {field name}`
+* 모든 필드에 있는 “AAI” 접두어
+* 터치포인트 필드의 경우:
+   * 점수 XDM의 일부인 필드의 경우 CJA에 `AAI T {field name}`(으)로 표시됨
+   * passThrough 열로 포함된 필드의 경우 CJA에 `AAI T PT {field name}`(으)로 표시됨
 * 전환 필드의 경우:
-   * XDM 점수의 일부인 필드의 경우 CJA에 다음과 같이 표시됩니다. `AAI C {field name}`
-   * passThrough 열로 포함된 필드의 경우 다음과 같이 CJA에 표시됩니다. `AAI C PT {field name}`
+   * 점수 XDM의 일부인 필드의 경우 CJA에 `AAI C {field name}`(으)로 표시됨
+   * passThrough 열로 포함된 필드의 경우 CJA에 `AAI C PT {field name}`(으)로 표시됨
 
 **영향을 주고 증분 점수가 있는 주문**
 
