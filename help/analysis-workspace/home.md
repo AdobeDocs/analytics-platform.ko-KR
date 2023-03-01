@@ -5,10 +5,10 @@ description: Analysis Workspace 기능 개요
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: e104a7a36df3743028fd18b47b46e936841a586a
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 69%
 
 ---
 
@@ -20,23 +20,27 @@ Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## Customer Journey Analytics 로그인 {#login}
+## Customer Journey Analytics에 로그인 {#login}
 
-Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Customer Journey Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
+Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Customer Journey Analytics에 로그인합니다. 특정 프로젝트가 이전에 선택되지 않은 경우 프로젝트 페이지로 이동합니다.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
-## 교육 튜토리얼 사용 {#training-tutorial}
+## 교육 튜토리얼 템플릿 사용 {#training-tutorial}
 
-로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 튜토리얼을 방문해야 합니다. 튜토리얼을 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 튜토리얼**&#x200B;을 선택합니다.
+로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 튜토리얼 템플릿을 방문할 수 있습니다. 자습서를 시작하려면 다음을 수행하십시오.
+
+1. 다음을 클릭합니다. **[!UICONTROL 학습]** 왼쪽의 탭입니다.
+1. 클릭 **[!UICONTROL 튜토리얼 열기]**.
 
 ![](assets/training-tutorial.png)
 
 ## 새 프로젝트 만들기 {#new-project}
 
-튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Customer Journey Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](/help/mobile-app/curator.md)에서 시작하도록 선택할 수 있습니다.
+자습서를 완료하면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. 다음에서 [!UICONTROL 프로젝트] 탭에서 시작하도록 선택할 수 있습니다.
 
-![](assets/create-new-project.png)
+* [!UICONTROL 빈 프로젝트] 브라우저에서 분석을 공유할 계획인 경우 또는
+* [[!UICONTROL 빈 모바일 스코어카드]](/help/mobile-app/curator.md), Customer Journey Analytics 대시보드 모바일 앱에서 분석을 공유할 계획이라면 다음을 참조하십시오.
 
 ## 분석 빌드 {#analysis}
 
