@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
+workflow-type: tm+mt
+source-wordcount: '1454'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 3월** |  |
+| 기능 지원 | 업데이트됨 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) CJA에서는 사용할 수 있지만 AA에서는 사용하거나 지원할 수 없는 기능의 표입니다. |
 | **2023년 2월** |  |
 | CJA와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
 | 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#latency)에 대한 새로운 섹션. |
