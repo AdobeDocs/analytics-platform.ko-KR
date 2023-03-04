@@ -4,10 +4,10 @@ description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
-workflow-type: ht
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ CJA 사용량을 관리하는 경우:
    * [데이터 보존 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention)을 변경합니다.
    * [사용하지 않는 연결을 삭제합니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
    * [AEP에서 데이터 세트를 삭제합니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
-   * 추가 용량 라이선스를 얻으려면 Adobe 계정 관리자에게 문의하십시오.
+   * 추가 용량의 라이센스를 얻으려면 Adobe 계정 팀에 문의하십시오.
 
 ## 모든 이벤트 데이터를 사용하여 작업 영역 프로젝트 만들기 {#workspace-event-data}
 

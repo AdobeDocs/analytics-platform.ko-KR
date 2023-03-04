@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Customer Journey Analytics을 통해 다음과 같은 작업을 수행할 수 �
 
 Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사전 요구 사항을 충족해야 합니다.
 
-* 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 CJA 추가 기능이 있는지 확실하지 않은 경우 조직의 계정 관리자에게 문의하십시오.
+* 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 CJA 추가 기능이 있는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오.
 * 조직에 Adobe Experience Platform이 프로비저닝되었습니다.
 * Adobe Analytics 없이도 Customer Journey Analytics를 독립 실행형 제품으로 구입할 수 있습니다.
 

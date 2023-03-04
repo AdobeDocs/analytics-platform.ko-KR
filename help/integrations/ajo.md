@@ -2,10 +2,10 @@
 title: Customer Journey Analytics(CJA)와 Adobe Journey Optimizer(AJO) 통합
 description: AJO에서 생성된 데이터를 가져오고 CJA 내에서 Analysis Workspace를 사용하여 가져온 데이터를 분석하십시오.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 9aed4e724c564272071b96c037f4eb0e82572e6f
-workflow-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 89%
 
 ---
 
@@ -23,12 +23,20 @@ Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사
 
 Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음에는 Journey Optimizer 데이터 세트를 기반으로 [연결을 만들](/help/connections/create-connection.md) 수 있습니다. 플랫폼으로 전송한 데이터 세트를 선택합니다.
 
+| 데이터 세트 | 데이터 세트 유형 | 연결 설정 | 설명 |
+| --- | --- | --- | --- |
+| AJO 메시지 피드백 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 메시지 게재 이벤트를 포함합니다.[!UICONTROL 전송 횟수]&#39; 및 &#39;[!UICONTROL 바운스]&#39;. |
+| AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 이메일 추적 이벤트 포함[!UICONTROL 열림]&#39;, &#39;[!UICONTROL 클릭수]&#39;, &#39;[!UICONTROL 구독 취소]&#39;. |
+| AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 푸시 추적 이벤트 포함[!UICONTROL 앱 실행]&#39;. |
+| 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 표시하는 이벤트를 포함합니다. |
+| AJO 엔티티 데이터 세트 | 기록 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 여정 및 캠페인 메타데이터를 모든 AJO 이벤트 데이터에 연결하는 분류를 포함합니다. |
+
 ## Journey Optimizer 차원 및 지표를 포함하도록 데이터 보기 구성
 
 연결을 만든 다음에는 하나 이상의 [데이터 보기](/help/data-views/create-dataview.md)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
 
 >!![NOTE]
->AJO와 CJA 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
+AJO와 CJA 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
 
 ### 데이터 보기에서 차원 구성
 
@@ -50,7 +58,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | 이메일 게재 실패 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | 구성 요소 유형: 차원 |
 | 이메일 게재 제외 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | 구성 요소 유형: 차원 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 ### 데이터 보기에서 지표 구성
 
@@ -68,7 +76,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | 스팸 고객 불만 | 접수된 스팸 불만 사항 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `spam_complaint`와 같음 |
 | 구독 취소 | 구독 취소 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `unsubscribe`와 같음 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 ### Analysis Workspace에서 계산된 지표 구성
 
@@ -79,4 +87,4 @@ Journey Optimizer 데이터 세트에 대해 원하는 차원 및 지표를 구�
 | 메시지 전송 | 전송된 총 메시지 수. 성공 또는 실패한 메시지 포함. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
 | 게재된 메시지 | 고객에게 전달된 이메일 수. | `[Sends] - [Bounces After Delivery]` |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
