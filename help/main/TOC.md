@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
+source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '890'
+ht-degree: 99%
 
 ---
 
@@ -199,6 +199,7 @@ ht-degree: 100%
 
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
+   + [구성 요소 설명 추가](../components/add-component-descriptions.md)
    + 주석 {#annotations}
       + [주석 개요](../components/annotations/overview.md)
       + [주석 생성](../components/annotations/create-annotations.md)
@@ -239,6 +240,7 @@ ht-degree: 100%
          + [계산된 지표 승인](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [계산된 지표 공유](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [계산된 지표 관리자](../components/calc-metrics/cm-workflow/cm-manager.md)
+      + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
    + 날짜 범위 {#cja-date-ranges}
@@ -248,7 +250,11 @@ ht-degree: 100%
       + [캘린더 개요](../components/date-ranges/calendar.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
-
+   + 데이터 사전 {#data-dictionary}
+      + [데이터 사전 개요](../components/data-dictionary/data-dictionary-overview.md)
+      + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
+      + [데이터 사전의 구성 요소 항목 편집](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [데이터 사전 상태 모니터링](../components/data-dictionary/monitor-data-dictionary-health.md)
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](../mobile-app/home.md)
    + [큐레이터 작업](../mobile-app/curator.md)
