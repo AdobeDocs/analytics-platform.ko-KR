@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
-workflow-type: ht
-source-wordcount: '2439'
-ht-degree: 100%
+source-git-commit: 0c41c5a4c79105520f6f98e9e9ea60f19befd608
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 84%
 
 ---
 
@@ -173,7 +173,23 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 |  | 백분율 | 분산 시각화 값을 백분율로 표시합니다. |
 |  | 범례 표시 | 분산 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 |  | 최대 항목 수 제한 | 분산 시각화에서 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-|  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
+|  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐).  |
+
+## 회사 환경 설정
+
+>[!AVAILABILITY]
+>
+>이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
+조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
+
+| 섹션 | 환경 설정 | 옵션 |
+| --- | --- | --- |
+| **공개 액세스 링크** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | 모든 공개 액세스 링크 비활성화 | <p>기존의 모든 공개 액세스 링크를 비활성화하고 조직의 사용자가 새 링크를 만들 수 없도록 합니다. 즉, 사용자는 Analysis Workspace 계정이 없는 사용자와 Adobe Customer Journey Analytics 프로젝트를 공유할 수 없습니다. 사용자는 조직 내의 다른 Customer Journey Analytics 사용자와만 프로젝트를 공유할 수 있습니다.</p> <p>공개 링크가 비활성화된 경우:</p> <ul><li><p>사용자가 공개 액세스 링크를 만들 수 없음</p><p>공유 메뉴에서 &quot;공개 링크 공유&quot; 옵션이 제거됩니다. 즉, 사용자는에 설명된 대로 조직에 Analysis Workspace 계정이 없는 사람들과 프로젝트를 더 이상 공유할 수 없습니다 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>기존의 모든 공개 링크가 비활성화되었습니다.</p></li><p>공개 링크를 비활성화한 다음 다시 활성화하면 이전에 비활성화한 모든 링크가 자동으로 다시 활성화되지 않습니다. 이 경우 프로젝트 공유 대화 상자에서 각 프로젝트에 대해 수동으로 다시 활성화해야 합니다.</p> |
+|  | Experience Cloud 인증 필요 | <p>이 옵션이 활성화되면 Federated ID가 있고 Adobe Experience Cloud에 로그인할 수 있는 수신자만 공유 공개 링크에 액세스할 수 있습니다.</p> <p>이 옵션을 활성화하면 사용자가 Analysis Workspace 프로젝트에 대한 링크를 만들 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되고 링크를 공유하는 사용자는 이 옵션을 비활성화할 수 없습니다. (사용자가 조직 외부의 사용자와 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 Experience Cloud이 활성화되지 않은 현재 활성화된 모든 공개 링크가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화한 다음 나중에 비활성화하면 이전에 비활성화한 모든 링크가 자동으로 다시 활성화되지 않습니다. 이 경우 사용자는 프로젝트 공유 대화 상자에서 수동으로 다시 활성화해야 합니다.</p></li> <li><p>이 옵션은 조직에서 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화할 수 있는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성되어 있는 경우 콘솔에서 자동 계정 만들기 유형이 구현되는지 확인하십시오. 일반적으로 시스템 관리자는에 설명된 대로 이 설정을 수행합니다 [자동 계정 만들기 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직이 HIPAA 준수를 필요로 하는 산업에 속한 경우 이 옵션은 자동으로 활성화되고 비활성화될 수 없습니다.</p></li></ul> |
+
+{style="table-layout:auto"}
 
 ## 기본 환경 설정 복원
 
@@ -181,7 +197,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 
 이 작업은 실행 취소할 수 없습니다.
 
-1. Adobe Analytics에서 [!UICONTROL **구성 요소**] **>** [!UICONTROL **환경 설정**]&#x200B;을 선택합니다.
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] **>** [!UICONTROL **환경 설정**].
 
    ![사용자 환경 설정](assets/user-preferences.png)
 
