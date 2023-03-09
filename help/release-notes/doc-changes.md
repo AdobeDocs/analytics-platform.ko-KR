@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
+source-git-commit: 9e87d7b834873d33474d9f48f34ee41d10271419
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 98%
+source-wordcount: '1538'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,9 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | **2023년 3월** |  |
 | 기능 지원 | 업데이트됨 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) CJA에서는 사용할 수 있지만 AA에서는 사용하거나 지원할 수 없는 기능의 표입니다. |
+| 기본 계산된 지표 | 을(를) 설명하는 컨텐츠가 추가되었습니다. [Adobe에서 제공한 기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md). |
+| 데이터 사전 | <p>데이터 사전에 대한 새 설명서에 다음 내용을 추가했습니다. [개요](/help/components/data-dictionary/data-dictionary-overview.md), [보기](/help/components/data-dictionary/view-data-dictionary.md), [편집 중](/help/components/data-dictionary/edit-entries-data-dictionary.md), 및 [모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md) 데이터 사전.</p><p>의 정보 [구성 요소 설명 추가](/help/components/add-component-descriptions.md) 가 데이터 사전 기능을 고려하도록 업데이트되었습니다.</p> |
+| 프로젝트에 대한 링크 공유(로그인 필요 없음) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사용자와 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 다음이 포함됩니다 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>관리자를위한 옵션이에 추가되었습니다. [환경 설정](/help/analysis-workspace/user-preferences.md).</p> |
 | **2023년 2월** |  |
 | CJA와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
 | 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko-KR#latency)에 대한 새로운 섹션. |
@@ -93,7 +96,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=ko-KR#allocation-settings) |
 | 2022년 1월 | [Adobe Analytics 데이터를 CJA의 Analytics 데이터와 비교하는 방법](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=ko-KR)에 대한 새 문서 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 {#21}
 
@@ -134,7 +137,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | **2021년 1월** |  |
 | 2021년 1월 | [데이터 세트에 표준 조회 추가하기](/help/connections/standard-lookups.md)에 대한 새로운 주제입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 {#20}
 
@@ -155,4 +158,4 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2020년 2월 27일 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)에 대한 업데이트 |
 | 2019년 12월 | CJA 설명서의 첫 번째 초안 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
