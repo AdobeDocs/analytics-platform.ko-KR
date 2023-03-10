@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 538c0d2858983fb508393c92686f3e7cc52578fa
+source-git-commit: 116000f3dd0212896ca96d7e45e4d4cfc5cdd357
 workflow-type: tm+mt
-source-wordcount: '2024'
-ht-degree: 75%
+source-wordcount: '2004'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 다음 표에는 CJA(Adobe Analytics)에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 기능과 AA(Customer Journey Analytics)에서 지원되거나 사용할 수 없는 CJA의 기능이 나와 있습니다. 이들 목록은 CJA에 추가되므로 시간이 지남에 따라 변경됩니다.
 
-## 완전히 지원되는 기능/구성 요소
+## 완전히 지원되는 기능/구성 요소 {#full-support}
 
 | Adobe Analytics 기능 | 지원 관련 참고 사항 |
 | --- | --- |
@@ -46,9 +46,9 @@ ht-degree: 75%
 | VRS 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
 | 스트리밍 Media Analytics | 미디어 데이터는 Analytics Data Connector를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 새로운 방식으로 지원됨
+## 새로운 방식으로 지원됨 {#new-support}
 
 | 기능 | 참고 |
 | --- | --- |
@@ -71,9 +71,9 @@ ht-degree: 75%
 | 사용자 권한/데이터 액세스 제어 | CJA는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
 | 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | Web SDK 기반 데이터 세트와 Analytics Data Connector의 데이터 모두에 대해 Adobe Experience Platform Data Prep 기능을 사용하여 지원됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 부분 지원
+## 부분 지원 {#partial}
 
 | 기능 | 참고 |
 | --- | --- |
@@ -86,9 +86,9 @@ ht-degree: 75%
 | 처리 규칙 | Analytics 소스 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
 | A4T | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 부분적인 지원이 제공됩니다. 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 현재는 지원되지 않지만, 지원 예정
+## 현재는 지원되지 않지만, 지원 예정 {#planned}
 
 | 기능 | 참고 |
 | --- | --- |
@@ -104,26 +104,25 @@ ht-degree: 75%
 | 프로젝트/필터/계산된 지표를 AA에서 CJA로 마이그레이션 | 지원이 예정되어 있습니다. |
 | 요약 수준 데이터 소스 | 지원이 예정되어 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 지원이 아직 예정되지 않음
+## 지원이 아직 예정되지 않았습니다. {#not-planned}
 
 | 기능 | 참고 |
 | --- | --- |
 | Activity Map | 지원이 아직 예정되지 않음 |
 | Advertising Cloud | 지원이 아직 예정되지 않음 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 지원 예정 없음
+## 지원 예정 없음 {#never}
 
 * 크로스 디바이스 조합을 사용하는 사용자 지표
 * Reports &amp; Analytics 대시보드
 * Reports &amp; Analytics 책갈피
 * Reports &amp; Analytics 대상
-* 모바일 서비스
 
-## CJA 기능은 Adobe Analytics에서 사용할 수 없음
+## CJA 기능은 Adobe Analytics에서 사용할 수 없음 {#cja-not-aa}
 
 다음 표에는 CJA(Customer Journey Analytics)에서 사용할 수 있지만 Adobe Analytics(AA)에서는 지원되지 않는 기능이 나와 있습니다.
 
@@ -138,4 +137,4 @@ ht-degree: 75%
 | SQL 액세스 | CJA는 데이터 Distiller 옵션을 사용하여 Adobe의 백엔드 처리에 수집된 데이터의 제한을 제거할 수 있습니다. SQL을 사용하여 데이터를 수정하고, 비즈니스에 고유한 새 값과 데이터 세트를 만들고 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 어떤 종류의 SQL 액세스도 지원하지 않습니다. |
 | 향상된 보안 및 개인 정보 보호 옵션 - HIPAA 준비 | CJA는 HIPAA가 준비되었으며 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics은 HIPAA가 준비되지 않았습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
