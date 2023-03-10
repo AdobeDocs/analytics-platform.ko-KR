@@ -4,10 +4,10 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '2471'
-ht-degree: 100%
+source-git-commit: 5db5747637c014da00744802e81f8706c3901b5b
+workflow-type: tm+mt
+source-wordcount: '2472'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
    | **[!UICONTROL 채우기 데이터]** | 이벤트 타임스탬프를 기반으로 데이터 세트의 데이터 채우기를 요청할 수 있습니다. 예를 들어 지난 7일 동안의 데이터를 채우도록 요청하고, 올바른 개인 ID를 구성하고, 올바른 구성을 위해 연결을 테스트할 수 있습니다. 모두 정상적인 경우 나머지 모든 데이터를 간편하게 다시 채울 수 있습니다.<p>또한 데이터 세트별로 새 데이터 가져오기를 활성화할 수 있습니다. 예를 들어 조회 데이터에 대해서만 새 데이터 가져오기를 활성화할 수 있습니다. |
    | **[!UICONTROL 채우기 상태]** | 데이터 채우기가 처리 중인지 여부를 나타냅니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## 데이터 세트 추가 및 구성 {#add-dataset}
 
@@ -68,6 +68,7 @@ ht-degree: 100%
    | --- | --- |
    | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우, 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 이 비디오를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
    | **[!UICONTROL 타임스탬프]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
+   | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형에는 CRM 데이터, 콜 센터 데이터, 이메일 데이터 등이 포함됩니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 작업 영역으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. 켜기 또는 끄기로 설정할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 채우기]** | 내역 데이터를 채우려면 **[!UICONTROL 채우기 요청]**&#x200B;을 클릭합니다.<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 보유하고 있는 내역 데이터의 양에 따라 달라집니다.</li><li>Adobe Analytics 소스 커넥터는 크기에 상관없이 최대 13개월의 데이터를 가져옵니다.</li></ul> |
    | **[!UICONTROL 채우기 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
@@ -79,7 +80,7 @@ ht-degree: 100%
    | **[!UICONTROL 미리보기]**: `<dataset name>` | 날짜, 내 ID 및 식별자 열을 사용하여 데이터 세트를 미리 봅니다. |
    | **[!UICONTROL 제거]** | 전체 연결을 삭제하지 않고 데이터 세트를 삭제하거나 제거하고 개인 ID를 변경할 수 있습니다. 이렇게 하면 데이터 수집과 관련된 비용과 전체 연결 및 관련 데이터 보기를 다시 만드는 번거로운 프로세스를 줄일 수 있습니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## 연결 미리보기 {#preview}
 
@@ -105,7 +106,7 @@ ht-degree: 100%
 | **[!UICONTROL 조회]** | 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 예제는 [본 사용 사례](/help/use-cases/b2b/b2b.md)를 참고하십시오. | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 빌트인 스키마 또는 사용자 정의 스키마. | 해당 없음 |
 | **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 방문자, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | XDM 개인 프로필 클래스를 기반으로 하는 모든 빌트인 또는 사용자 정의 스키마. | 포함할 개인 ID를 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트에는 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등과 같은 개인 ID가 하나 이상 정의된 고유한 ID 세트가 있습니다.<br>![개인 ID ](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 동일한 개인 ID를 사용해야 합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 숫자 필드를 조회 키 및 조회 값으로 사용 {#numeric}
 
@@ -134,7 +135,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 | **[!UICONTROL 기본 ID 네임스페이스 사용]** | CJA가 ID 맵에서 행마다 primary=true 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용합니다. 즉, Experience Platform에서 파티셔닝에 사용할 기본 키입니다. 또한 CJA의 방문자 ID로 사용하기에 가장 적합한 후보입니다(CJA 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
 | **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR)의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 CJA에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 실제로 사용 중인 네임스페이스가 무엇인지 확인하기 위해서 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운에 나열됩니다. 데이터에 지정된 네임스페이스를 알아야 하지만 자동으로 검색되지 않습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ID 맵의 극단적 사례 {#id-map-edge}
 
@@ -145,7 +146,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 | **[!UICONTROL 기본 ID 네임스페이스 사용]이 선택됨** | 행이 CJA에서 삭제됩니다. | 기본 ID가 지정되지 않아서 행이 CJA에서 삭제됩니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 추출됩니다. 그런 다음 알파벳순으로 정렬됩니다. 이렇게 정렬되면 첫 번째 ID가 있는 첫 번째 네임스페이스가 개인 ID로 사용됩니다. | 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(AEP에 없음) CJA는 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
 | **[!UICONTROL 특정 ID 맵 네임스페이스]가 선택됨** | 행이 CJA에서 삭제됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. (연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 개인 ID로 사용할 수 없습니다.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 일일 평균 이벤트 수 계산
 
