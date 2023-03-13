@@ -4,10 +4,10 @@ description: Customer Journey Analytics 또는 Adobe Experience Platform에서 �
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f56d56d65491ab14c5d0e6d3005c0e5e13127c9b
+source-git-commit: 64c165e30926f2571bce5ea2f31560daf50acc46
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 92%
+source-wordcount: '373'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ Customer Journey Analytics 또는 Adobe Experience Platform에서 연결, 데이
 
 | 다음 작업을 수행하는 경우 | 발생하는 결과 |
 | --- | --- |
-| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
+| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul>권한이 없는 AEP 샌드박스에 연결된 CJA 연결은 삭제할 수 없습니다. 이러한 연결을 기반으로 구축된 데이터 보기에 대한 권한이 있어도 기본 AEP 샌드박스에 대한 권한이 부여될 때까지 연결을 삭제할 수 없습니다. |
 | AEP([!UICONTROL Adobe Experience Platform])에서 데이터 세트를 삭제 | AEP에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 모든 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 세트의 데이터는 연관된 CJA 연결에서 자동으로 삭제되지 않습니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트를 삭제 | CJA의 연결에서 데이터 세트를 삭제하면 해당 데이터 세트에 의존하는 모든 데이터 보기 및 프로젝트가 더 이상 작동하지 않습니다. |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 [!UICONTROL Customer Journey Analytics] 연결에서 동일한 일괄 처리가 제거됩니다. [!UICONTROL Customer Journey Analytics]는 [!UICONTROL Adobe Experience Platform]에서 삭제된 일괄 처리에 대한 알림을 받습니다. |
