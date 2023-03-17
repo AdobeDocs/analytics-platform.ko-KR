@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
-workflow-type: ht
-source-wordcount: '1419'
-ht-degree: 100%
+source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+workflow-type: tm+mt
+source-wordcount: '1435'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
    | 자유 형식 테이블 내에서 | 자유 형식 테이블에서 항목을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 선택 항목에서 대상자 만들기]**&#x200B;를 선택합니다. 이 방법을 사용하면 테이블에서 선택한 차원 또는 차원 항목으로 필터가 미리 채워집니다. |
    | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 대상자를 빌드합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    | [!UICONTROL 필터] | 필터는 대상자의 주요 입력입니다. 최대 20개의 필터를 추가할 수 있습니다. 이러한 필터는 `And` 또는 `Or` 연산자와 결합할 수 있습니다. |
    | [!UICONTROL 샘플 ID 보기] | 이 대상자의 샘플 ID입니다. 검색 창을 사용하여 샘플 ID를 검색합니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 데이터 미리보기를 해석합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 100%
    | [!UICONTROL 네임스페이스 포함됨] | 대상자의 인원과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
    | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 대상자 구성을 두 번 확인하고 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
@@ -82,19 +82,20 @@ ht-degree: 100%
 
 ## 지연 고려 사항 {#latency}
 
-대상자를 게시하기 전, 도중 및 이후에 여러 지점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
+대상 게시 전, 기간 및 후에 몇 가지 시점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
 
-![](assets/latency-diagram.png)
+![aep에서 CJA로의 지연](assets/latency-diagram.png)
 
 | # | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
-| 1 | 데이터 레이크로 데이터 수집 | 최대 30분 |
-| 2 | Experience Platform에서 CJA로 데이터 수집 | 최대 60분 |
+| 표시되지 않음 | Adobe Analytics-Analytics 소스 커넥터(A4T) | 최대 30분 |
+| 1 | Data Lake에 데이터 수집(Analytics 소스 커넥터 또는 기타 소스) | 최대 90분 |
+| 2 | Experience Platform Data Lake에서 CJA로 데이터 수집 | 최대 90분 |
 | 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | 약 60분 |
 | 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | AEP에서 대상 생성: 새 세그먼트 활성화 | 1~2시간 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Experience Platform에서 CJA 대상자 사용 {#audiences-aep}
 
@@ -130,7 +131,7 @@ CJA 대상자가 삭제되면 해당 대상자는 더 이상 Experience Platform
 
 +++
 
-+++**CJA는 파이프라인 이벤트 또는 데이터 레이크로 이동하는 플랫 파일로 대상자 데이터를 전송합니까?**
++++**CJA는 대상 데이터를 파이프라인 이벤트로 전송합니까? 아니면 데이터 레이크로도 이동하는 플랫 파일로 전송합니까?**
 
 CJA는 파이프라인을 통해 데이터를 RTCP로 스트리밍하고 이 데이터를 데이터 레이크의 시스템 데이터 세트에 수집합니다.
 
@@ -138,7 +139,7 @@ CJA는 파이프라인을 통해 데이터를 RTCP로 스트리밍하고 이 데
 
 +++**CJA가 전송하는 ID는 무엇입니까?**
 
-[연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#create-connection)에 사용된 모든 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
+에 지정된 ID/네임스페이스 쌍 [연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#create-connection). 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
 
 +++
 
