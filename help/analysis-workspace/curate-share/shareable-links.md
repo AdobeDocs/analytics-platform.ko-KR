@@ -3,16 +3,16 @@ description: 프로젝트 또는 시각화에 공유 가능한 링크를 만드�
 keywords: Analysis Workspace 공유
 title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 81%
+source-wordcount: '338'
+ht-degree: 80%
 
 ---
 
 # 공유 가능한 링크 만들기
 
-Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형은 수신자가 프로젝트에 액세스하기 전에 Adobe Analytics에 로그인해야 하지만, 다른 링크 유형은 로그인하지 않아도 됩니다.
+Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형에서는 수신자가 프로젝트에 액세스하기 전에 Adobe Analytics에 로그인해야 하지만, 다른 링크 유형은 그렇지 않습니다.
 
 ## 프로젝트 링크 가져오기 {#project-link}
 
@@ -20,13 +20,13 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 
 ![](assets/get-project-link.png)
 
-## 공개 링크 가져오기
+## 모든 사람과 공유할 읽기 전용 링크를 가져옵니다
 
 {{release-limited-testing-section}}
 
-Adobe Analytics에 대한 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트에 대한 보기 전용 링크를 공유할 수 있습니다.
+Customer Journey Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다.
 
-자세한 내용은 이 문서의 &quot;누구와도 공개 링크 공유(로그인 필요 없음)&quot;를 참조하십시오 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).
+자세한 내용은 문서에서 &quot;모든 사람과 프로젝트 공유(로그인 필요 없음)&quot;를 참조하십시오 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## 패널 또는 시각화 링크 가져오기 {#panel-link}
 
