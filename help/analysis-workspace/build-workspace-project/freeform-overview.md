@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+workflow-type: tm+mt
+source-wordcount: '1427'
+ht-degree: 81%
 
 ---
 
@@ -21,22 +21,40 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ![](assets/sample-project.png)
 
-작업 영역 프로젝트 목록 페이지에는 다음 정보가 포함되어 있습니다.
+프로젝트 페이지에는 다음 정보가 포함되어 있습니다.
+
+>[!NOTE]
+>
+>일부 열은 기본적으로 표시되지 않습니다. 표시되는 열을 사용자 지정하려면 **테이블 사용자 지정** 아이콘 ![테이블 사용자 지정](assets/projects-page-customize-columns-icon.png).
+
 
 | 요소 | 설명 |
 |---|---|
-| [새 프로젝트 만들기](/help/analysis-workspace/home.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
-| 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여 주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자 (**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
-| 랜딩 페이지로 설정 | 이 페이지를 Workspace 랜딩 페이지로 바꿉니다. |
-| [튜토리얼 보기](/help/analysis-workspace/home.md) | Analysis Workspace 비디오 튜토리얼로 이동합니다. |
+| [환경 설정 편집](/help/analysis-workspace/user-preferences.md) | 새로 만드는 모든 프로젝트 또는 패널에 대한 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
+| [폴더 만들기](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가합니다. |
+| [프로젝트 제작](/help/analysis-workspace/home.md) | 처음부터 또는 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| 프로젝트 관리 <!--I don't see this option--> | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여 주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자 (**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
+| 랜딩 페이지로 설정 <!--I don't see this option--> | 이 페이지를 Workspace 랜딩 페이지로 바꿉니다. |
+| 자세히 보기 | 빈 프로젝트 또는 모바일 스코어카드를 만들기 위한 옵션을 표시합니다. [교육 자습서 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ko-KR), 또는 [릴리스 노트 보기](/help/release-notes/latest.md). |
+| 폴더 및 프로젝트 표시 | 프로젝트의 폴더 구조를 표시할지 여부를 선택합니다. 자세한 내용은 [Analytics의 폴더 정보](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)를 참조하십시오. |
+| 테이블 사용자 지정(아이콘) | 프로젝트 페이지의 각 프로젝트에 대해 표시되는 정보를 사용자 지정할 수 있습니다. |
 | 이름 | 작업 영역 프로젝트의 이름. |
-| 소유자 | 이 프로젝트를 만든 사람 (귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| 유형 | Workspace 프로젝트인지 [모바일 스코어카드](/help/mobile-app/home.md)인지 여부를 나타냅니다. |
-| [프로젝트 역할](/help/analysis-workspace/curate-share/share-projects.md) | 프로젝트에 대한 역할(소유자, 편집, 복제, 보기)을 나타냅니다. |
+| 유형 | 작업 공간 프로젝트, 폴더 또는 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ko-KR). |
 | 태그 | 프로젝트에 적용된 태그. |
+| 예약됨 | 프로젝트를 일정에 따라 수신자에게 이메일로 전송하도록 예약할지 여부를 나타냅니다. 자세한 내용은 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| 공유 링크(모든 사용자) | Analysis Workspace에 액세스할 수 없는 사용자와 프로젝트를 공유할 수 있습니다. 이 열에는 프로젝트가 이러한 방식으로 공유되었는지 여부가 표시됩니다. 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 추가 정보. |
+| 보고서 세트 | 프로젝트가 연결된 보고서 세트입니다. |
+| [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 프로젝트에 대한 역할(소유자, 편집, 복제, 보기)을 나타냅니다. |
+| 소유자 | 이 프로젝트를 만든 사람 (귀하 또는 프로젝트를 귀하와 공유한 사용자) |
+| 다음 사용자와 공유 | 프로젝트가 공유된 사용자입니다. |
 | 마지막 수정일 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
-| 내가 즐겨 찾는 프로젝트 | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 이름 옆에 있는 별표를 클릭합니다. 다음에 Workspace를 열 때 이 목록에 표시됩니다. |
-| 자주 조회하는 프로젝트 | 쉽게 액세스할 수 있도록 자주 여는 모든 프로젝트를 나열합니다. |
+| 마지막 열림 | 프로젝트를 마지막으로 연 날짜 및 시간입니다. |
+| 프로젝트 ID | 프로젝트의 ID입니다. |
+| Longest Date Range | 프로젝트의 가장 긴 날짜 범위입니다. |
+| 쿼리 개수 | 프로젝트에 포함된 총 쿼리 수입니다. |
+| 위치 | 프로젝트가 있는 폴더입니다. |
+| 내가 즐겨 찾는 프로젝트 <!--I don't see this option--> | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 이름 옆에 있는 별표를 클릭합니다. 다음에 Workspace를 열 때 이 목록에 표시됩니다. |
+| 자주 조회하는 프로젝트 <!--I don't see this option--> | 쉽게 액세스할 수 있도록 자주 여는 모든 프로젝트를 나열합니다. |
 
 ## 메뉴 바 {#menu-bar}
 
@@ -106,7 +124,7 @@ Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 프로젝트**&
 | 작업 | 설명 |
 |---|---|
 | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 | 처음부터 새 프로젝트를 만듭니다. |
-| 태그 또는 승인 | “태그” 또는 “승인”을 선택하여 프로젝트를 구성하고 쉽게 검색할 수 있도록 만듭니다. |
+| 태그 또는 승인 | 프로젝트를 구성하고 검색하기 쉽게 하려면 &quot;태그&quot; 또는 &quot;승인&quot;을 선택하십시오. |
 | [공유](/help/analysis-workspace/curate-share/share-projects.md) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
 | 삭제 | 프로젝트를 삭제합니다. |
 | 이름 변경 | 프로젝트의 이름을 편집합니다. |

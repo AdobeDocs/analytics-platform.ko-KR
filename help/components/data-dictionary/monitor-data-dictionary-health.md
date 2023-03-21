@@ -3,7 +3,7 @@ description: 관리자는 데이터 사전 상태를 모니터링해야 합니�
 title: 데이터 사전 상태 모니터링
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 94%
@@ -11,8 +11,6 @@ ht-degree: 94%
 ---
 
 # 데이터 사전 상태 모니터링
-
-{{release-limited-testing}}
 
 Customer Journey Analytics 관리자는 건강한 데이터 사전을 유지 관리할 책임이 있습니다.
 

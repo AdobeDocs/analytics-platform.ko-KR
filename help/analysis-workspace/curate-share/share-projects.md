@@ -4,9 +4,9 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1574'
 ht-degree: 63%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 63%
 >* 14개가 넘는 확장된 시각화가 있는 프로젝트는 CJA에 액세스할 수 없는 사람과 공유할 수 없습니다.
 
 
-Analysis Workspace 프로젝트에 대한 공개 링크를 공유하려면:
+모든 사람과 Analysis Workspace 프로젝트를 공유하려면 다음을 수행하십시오.
 
 1. 공유할 Analysis Workspace 프로젝트를 엽니다.
 

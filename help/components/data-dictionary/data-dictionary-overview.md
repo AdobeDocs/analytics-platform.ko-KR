@@ -3,7 +3,7 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin
-source-git-commit: 5d6942af4ac3f999c5e7fd7d6ba74a5fe7a26a9d
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 90%
@@ -11,8 +11,6 @@ ht-degree: 90%
 ---
 
 # 데이터 사전 개요
-
-{{release-limited-testing}}
 
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다.
 
@@ -71,9 +69,9 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 ## 데이터 사전 업데이트 및 구성
 
-Customer Journey Analytics 관리자는에 설명된 대로, 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다. [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Customer Journey Analytics 관리자는 다음 설명에 따라 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-이 프로세스의 일부로 CJA 관리자는에 설명된 대로 데이터 사전에 있는 각 구성 요소에 대한 정보를 편집할 수 있습니다 [데이터 사전에서 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+이 프로세스의 일부로 CJA 관리자는 다음에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다 [데이터 사전에서 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 데이터 사전 이동, 최소화 또는 닫기
 
