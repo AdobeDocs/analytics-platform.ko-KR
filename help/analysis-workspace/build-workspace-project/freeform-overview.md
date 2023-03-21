@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,8 +33,6 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | [환경 설정 편집](/help/analysis-workspace/user-preferences.md) | 새로 만드는 모든 프로젝트 또는 패널에 대한 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
 | [폴더 만들기](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가합니다. |
 | [프로젝트 제작](/help/analysis-workspace/home.md) | 처음부터 또는 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
-| 프로젝트 관리 <!--I don't see this option--> | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여 주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자 (**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
-| 랜딩 페이지로 설정 <!--I don't see this option--> | 이 페이지를 Workspace 랜딩 페이지로 바꿉니다. |
 | 자세히 보기 | 빈 프로젝트 또는 모바일 스코어카드를 만들기 위한 옵션을 표시합니다. [교육 자습서 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ko-KR), 또는 [릴리스 노트 보기](/help/release-notes/latest.md). |
 | 폴더 및 프로젝트 표시 | 프로젝트의 폴더 구조를 표시할지 여부를 선택합니다. 자세한 내용은 [Analytics의 폴더 정보](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)를 참조하십시오. |
 | 테이블 사용자 지정(아이콘) | 프로젝트 페이지의 각 프로젝트에 대해 표시되는 정보를 사용자 지정할 수 있습니다. |
@@ -53,8 +51,6 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | Longest Date Range | 프로젝트의 가장 긴 날짜 범위입니다. |
 | 쿼리 개수 | 프로젝트에 포함된 총 쿼리 수입니다. |
 | 위치 | 프로젝트가 있는 폴더입니다. |
-| 내가 즐겨 찾는 프로젝트 <!--I don't see this option--> | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 이름 옆에 있는 별표를 클릭합니다. 다음에 Workspace를 열 때 이 목록에 표시됩니다. |
-| 자주 조회하는 프로젝트 <!--I don't see this option--> | 쉽게 액세스할 수 있도록 자주 여는 모든 프로젝트를 나열합니다. |
 
 ## 메뉴 바 {#menu-bar}
 
