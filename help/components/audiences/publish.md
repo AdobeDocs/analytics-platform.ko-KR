@@ -2,10 +2,10 @@
 title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 94%
+source-wordcount: '1502'
+ht-degree: 90%
 
 ---
 
@@ -154,6 +154,19 @@ CJA는 파이프라인을 통해 데이터를 RTCP로 스트리밍하고 이 데
 아니요. “개인”당 한 개의 ID만 전송하므로 RTCP가 사용할 그래프 에지가 없습니다.
 
 +++
+
++++**매일, 주별, 월별 새로 고침이 발생하는 시간은 언제입니까? 주간 새로 고침은 몇 주 중 언제 발생합니까?**
+
+새로 고침 시간은 원래 대상이 게시되고 해당 시간(및 요일 또는 월)으로 앵커가 게시되는 시기를 기준으로 합니다.
+
++++
+
++++**일별, 주별 및 월별 새로 고침 시간을 사용자가 구성할 수 있습니까?**
+
+아니요. 사용자가 구성할 수 없습니다.
+
++++
+
 
 ## 다음 단계
 
