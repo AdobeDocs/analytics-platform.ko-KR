@@ -4,9 +4,9 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '3015'
 ht-degree: 82%
 
 ---
@@ -185,8 +185,8 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
-| **공개 액세스 링크** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 작업 공간 사용자와만 공유 허용 | <p>이 옵션이 활성화되면:</p> <ul><li><p>공유 메뉴에서 &quot;다른 사람과 공유&quot; 옵션이 제거됩니다. 즉, 사용자가 다음에 설명된 대로 더 이상 조직에 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><p>**참고:** 이 옵션이 활성화되어 있으면(Workspace 사용자만 공유할 수 있도록 허용) 후에 비활성화되어 있으면(누구와도 공유할 수 있도록) 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 액세스할 수 있었던 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 모든 사람과 프로젝트를 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p> |
+| **프로젝트 공유** |  |  |
+|  | 작업 영역 사용자와의 공유만 허용 | <p>이 옵션이 활성화되면:</p> <ul><li><p>공유 메뉴에서 &quot;다른 사람과 공유&quot; 옵션이 제거됩니다. 즉, 사용자가 다음에 설명된 대로 더 이상 조직에 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><p>**참고:** 이 옵션이 활성화되어 있으면(Workspace 사용자만 공유할 수 있도록 허용) 후에 비활성화되어 있으면(누구와도 공유할 수 있도록) 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 액세스할 수 있었던 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 모든 사람과 프로젝트를 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p> |
 |  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;다른 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 받는 사람이 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;다른 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되며 프로젝트를 공유하는 사용자가 비활성화할 수 없습니다. (사용자가 모든 사람과 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md))</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;다른 사람과 공유&quot; 공유 옵션과 공유되었으며 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션이 활성화되어 있으면(Experience Cloud 인증이 필요함) 후에 비활성화되어 있으면(링크를 가진 모든 사람이 프로젝트에 액세스할 수 있도록 허용), 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 모든 사용자([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 SSO가 조직에서 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 단일 사인온 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성된 경우 콘솔에서 모든 종류의 자동 계정 만들기가 구현되었는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 생성 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직에서 HIPAA 규정을 준수해야 하는 업계에서는 이 옵션이 자동으로 활성화되므로 비활성화할 수 없습니다.</p></li></ul> |
 
 {style="table-layout:auto"}
