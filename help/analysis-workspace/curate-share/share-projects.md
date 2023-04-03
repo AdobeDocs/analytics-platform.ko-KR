@@ -4,10 +4,10 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 60%
+source-wordcount: '1673'
+ht-degree: 56%
 
 ---
 
@@ -91,16 +91,15 @@ ht-degree: 60%
 
 * 링크를 사용하는 수신자는 프로젝트에 액세스하기 전에 Customer Journey Analytics에 로그인해야 합니다.
 
-* 수신자가 역할이 할당되지 않은 상태에서 프로젝트에 대한 [링크](/help/analysis-workspace/curate-share/shareable-links.md)를 받은 경우(**[!UICONTROL 공유] > [!UICONTROL 프로젝트 링크 가져오기]**) 수신자는 기본적으로 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 역할을 받습니다.
+* 수신자가 역할이 할당되지 않은 상태에서 프로젝트에 대한 [링크](/help/analysis-workspace/curate-share/shareable-links.md)를 받은 경우(**[!UICONTROL 공유] > [!UICONTROL 프로젝트 링크 가져오기]**) 수신자는 기본적으로 역할을 받게 됩니다. 관리자가 수신 **[!UICONTROL 편집 가능]** 및 비관리자가 수신 **[!UICONTROL 복제 가능]**.
 
 조직의 사용자와 프로젝트 링크를 공유하려면 다음 작업을 수행합니다.
 
-1. 클릭 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**.
-저장하지 않은 변경 내용이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
+1. 프로젝트를 저장합니다. 저장하지 않은 변경 사항이 있으면 링크를 공유하기 전에 프로젝트를 저장하라는 메시지가 표시됩니다.
+
+1. 선택 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**&#x200B;를 선택하고 을 선택합니다. **[!UICONTROL 복사]** 다음 **[!UICONTROL 링크별 공유]** 필드.
 
    ![](assets/share-proj-modal.png)
-
-1. **[!UICONTROL URL 공유 필드]** 옆에 있는 **[!UICONTROL 링크 복사]**&#x200B;를 클릭합니다.
 
 1. 조직의 사용자와 링크를 공유합니다. 예를 들어 공유된 링크를 이메일, 내부 웹 사이트 등에 붙여넣을 수 있습니다.
 
@@ -190,4 +189,4 @@ ht-degree: 60%
 | 두 명의 편집자가 동시에 프로젝트를 저장하면 어떻게 됩니까? | 변경 사항은 병합되지 않고 마지막으로 저장한 프로젝트 버전이 유지됩니다. Analysis Workspace는 현재 실시간 공동 작업을 지원하지 않습니다. |
 | 관리자는 어떤 프로젝트 경험을 보게 됩니까? | **[!UICONTROL 복제 가능]** 또는 역할 **[!UICONTROL 볼 수 있음]**&#x200B;에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;를 통해 언제든지 자신의 역할을 **[!UICONTROL 편집 가능]**&#x200B;으로 확장할 수 있습니다. |
 | 수신자가 하나의 역할에서 개인 또는 그룹의 구성원으로서의 다른 역할에 배치되면 어떻게 됩니까? | 수신자가 여러 역할에 배치되면 항상 더 높은 경험을 받게 됩니다. 예를 들어 수신자에게 개인으로서 **[!UICONTROL 편집 가능]** 역할 및 그룹의 구성원으로 **[!UICONTROL 볼 수 있음]** 역할이 주어지면 해당 사용자에게는 프로젝트 **[!UICONTROL 편집 가능]** 환경이 제공됩니다. |
-| 프로젝트 링크를 열면 수신자는 어떤 경험을 얻을 수 있습니까? | 수신자는 공유 모달에서 지정한 역할을 받습니다. 수신자에게 역할이 할당되지 않고 프로젝트에 대한 링크를 받은 경우 (**[!UICONTROL 공유]> [!UICONTROL 프로젝트 링크 가져오기]**) 기본적으로 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 역할을 받습니다. |
+| 프로젝트 링크를 열면 수신자는 어떤 경험을 얻을 수 있습니까? | 수신자는 공유 모달에서 지정한 역할을 받습니다. 수신자에게 역할이 할당되지 않고 프로젝트에 대한 링크를 받은 경우(**[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**&#x200B;를 선택하고 을 선택합니다. **[!UICONTROL 복사]** 다음 **[!UICONTROL 링크별 공유]** 필드), 기본적으로 역할에 배치됩니다. 관리자는 **[!UICONTROL 편집 가능]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 역할을 받습니다. |

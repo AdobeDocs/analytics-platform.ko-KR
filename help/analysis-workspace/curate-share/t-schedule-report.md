@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 98%
+source-wordcount: '884'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 이메일을 통해 파일을 수신자에게 즉시 보내려면
 
-1. **[!UICONTROL 공유] > [!UICONTROL 지금 파일 보내기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**.
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 이메일을 통해 되풀이되는 일정으로 수신자에게 파일을 보내려면
 
-1. **[!UICONTROL 공유] > [!UICONTROL 일정에 따라 파일 보내기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**.
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
@@ -59,7 +59,7 @@ ht-degree: 98%
 | [!UICONTROL 소유자] | 프로젝트를 만들고 소유하고 있는 사람입니다. |
 | [!UICONTROL 태그] | (선택 사항) 태그 지정은 프로젝트를 구성하는 좋은 방법입니다. 모든 사용자는 태그를 만든 후 하나의 프로젝트에 하나 이상의 태그를 적용할 수 있습니다. 그렇지만 본인이 소유하거나 본인과 공유된 프로젝트에 대한 태그만 볼 수 있습니다. |
 | [!UICONTROL 제공 대상] | 이 예약된 프로젝트의 수신자 |
-| [!UICONTROL 만료 날짜] | 일정 빈도에 상관없이 만료일을 최대 1년으로 설정할 수 있습니다. |
+| [!UICONTROL 만료 날짜] | 예약 빈도에 관계없이 만료 날짜를 최대 1년으로 설정할 수 있습니다. |
 | [!UICONTROL 빈도] | 이 예약된 프로젝트를 수신자에게 보내고자 하는 빈도 |
 | [!UICONTROL 실행 시간] | 이 예약된 프로젝트를 보내고자 하는 하루 중의 시간 |
 | [!UICONTROL 쿼리 개수] | 이 프로젝트에 대한 쿼리 개수 |
