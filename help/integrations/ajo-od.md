@@ -1,7 +1,7 @@
 ---
 title: CJA(Adobe Journey Optimizer 의사 결정 관리)와 Customer Journey Analytics 통합
 description: Adobe Journey Optimizer 의사 결정 관리에서 생성한 데이터를 가져와 Customer Journey Analytics 내에서 Analysis Workspace을 사용하여 분석합니다.
-source-git-commit: f9ee0db464c49339bc36b144e18ef4aea4f4f033
+source-git-commit: 00a87f5f370310672ca37ab9df08350d14fc6a91
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 18%
@@ -78,4 +78,5 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 | 오퍼 구독 취소 | 프로필에서 요청한 오퍼 수가 향후에 표시되지 않습니다. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 구성 요소 유형: 지표 |
 
 {style="table-layout:auto"}
+
 [1] 사용 가능한 다양한 이벤트 유형에 대해 여러 지표를 정의할 수 있습니다. 자세한 내용은 [제외 값 구성 요소 설정 포함](/help/data-views/component-settings/include-exclude-values.md) 추가 정보.
