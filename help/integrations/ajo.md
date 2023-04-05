@@ -2,10 +2,10 @@
 title: Customer Journey Analytics(CJA)와 Adobe Journey Optimizer(AJO) 통합
 description: AJO에서 생성된 데이터를 가져오고 CJA 내에서 Analysis Workspace를 사용하여 가져온 데이터를 분석하십시오.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 89%
+source-wordcount: '744'
+ht-degree: 84%
 
 ---
 
@@ -21,15 +21,20 @@ Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사
 
 ## Customer Journey Analytics에 연결 만들기
 
-Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음에는 Journey Optimizer 데이터 세트를 기반으로 [연결을 만들](/help/connections/create-connection.md) 수 있습니다. 플랫폼으로 전송한 데이터 세트를 선택합니다.
+Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음을 수행할 수 있습니다 [연결 만들기](/help/connections/create-connection.md) Journey Optimizer 데이터 세트 기반. 또는 기존 연결에 Journey Optimizer 데이터 세트를 추가할 수 있습니다.
+
+다음 데이터 세트를 선택하고 구성합니다.
 
 | 데이터 세트 | 데이터 세트 유형 | 연결 설정 | 설명 |
 | --- | --- | --- | --- |
-| AJO 메시지 피드백 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 메시지 게재 이벤트를 포함합니다.[!UICONTROL 전송 횟수]&#39; 및 &#39;[!UICONTROL 바운스]&#39;. |
-| AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 이메일 추적 이벤트 포함[!UICONTROL 열림]&#39;, &#39;[!UICONTROL 클릭수]&#39;, &#39;[!UICONTROL 구독 취소]&#39;. |
-| AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 푸시 추적 이벤트 포함[!UICONTROL 앱 실행]&#39;. |
-| 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 표시하는 이벤트를 포함합니다. |
-| AJO 엔티티 데이터 세트 | 기록 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 여정 및 캠페인 메타데이터를 모든 AJO 이벤트 데이터에 연결하는 분류를 포함합니다. |
+| AJO 메시지 피드백 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 등의 메시지 게재 이벤트를 포함합니다.[!UICONTROL 전송]&#39; 및 &#39;[!UICONTROL 바운스 수]&#39; |
+| AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 과 같은 이메일 추적 이벤트를 포함합니다.[!UICONTROL 열기]`, `[!UICONTROL 클릭 수]&#39;, &#39;[!UICONTROL 가입 해지됨]&#39; |
+| AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 과 같은 푸시 추적 이벤트를 포함합니다.[!UICONTROL 앱 실행]&#39; |
+| 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 보여주는 이벤트를 포함합니다. |
+| AJO 엔티티 데이터 세트 | 조회 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 모든 AJO 이벤트 데이터에 여정 및 캠페인 메타데이터를 연결하는 분류를 포함합니다. |
+
+{style="table-layout:auto"}
+
 
 ## Journey Optimizer 차원 및 지표를 포함하도록 데이터 보기 구성
 

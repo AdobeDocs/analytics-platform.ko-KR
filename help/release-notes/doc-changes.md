@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4b84436315d4eb87e39085f4838b51797a1f9b7
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 93%
+source-wordcount: '1584'
+ht-degree: 92%
 
 ---
 
@@ -20,11 +20,12 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 3월** |  |
-| 모바일 스코어카드에서 데이터 스토리 만들기 | A [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories) 는 중앙 테마 또는 지표를 중심으로 구축된 지원 데이터 포인트, 비즈니스 컨텍스트 및 관련 지표의 컬렉션입니다. |
+| 의사 결정 관리 데이터 통합 | 방법을 설명하는 컨텐츠가 추가되었습니다. [cja에서 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md). |
+| 모바일 스코어카드에서 데이터 스토리 만들기 | A [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories) 는 중앙 테마 또는 지표를 기반으로 구축된 지원 데이터 포인트, 비즈니스 컨텍스트 및 관련 지표의 모음입니다. |
 | 기능 지원 | CJA에서 사용할 수 있지만 AA에서는 사용할 수 없거나 지원되지 않는 기능 표로 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 업데이트합니다. |
 | 기본 계산된 지표 | [Adobe에서 제공하는 기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 설명하는 내용을 추가했습니다. |
-| 데이터 사전 | <p>데이터 사전에 대한 새 설명서에 다음 내용을 추가했습니다. [개요](/help/components/data-dictionary/data-dictionary-overview.md), [보기](/help/components/data-dictionary/view-data-dictionary.md), [편집 중](/help/components/data-dictionary/edit-entries-data-dictionary.md), 및 [모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md) 데이터 사전.</p><p>의 정보 [구성 요소 설명 추가](/help/components/add-component-descriptions.md) 가 데이터 사전 기능을 고려하도록 업데이트되었습니다.</p> |
-| 프로젝트에 대한 링크 공유(로그인 필요 없음) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사용자와 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 다음이 포함됩니다 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>관리자를위한 옵션이에 추가되었습니다. [환경 설정](/help/analysis-workspace/user-preferences.md).</p> |
+| 데이터 사전 | <p>다음을 포함한 데이터 사전에 대한 새 설명서를 추가했습니다. [개요](/help/components/data-dictionary/data-dictionary-overview.md), [보기](/help/components/data-dictionary/view-data-dictionary.md), [편집](/help/components/data-dictionary/edit-entries-data-dictionary.md), 및 [모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md) 데이터 사전.</p><p>의 정보 [구성 요소 설명 추가](/help/components/add-component-descriptions.md) 데이터 사전 기능을 사용하도록 가 업데이트되었습니다.</p> |
+| 프로젝트에 대한 링크 공유(로그인 필요 없음) | <p>Analysis Workspace에 액세스할 수 없는 사용자와 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하는 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서는 다음과 같습니다. [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>관리자용 옵션이에 추가되었습니다. [기본 설정](/help/analysis-workspace/user-preferences.md).</p> |
 | **2023년 2월** |  |
 | CJA와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
 | 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)에 대한 새로운 섹션. |
