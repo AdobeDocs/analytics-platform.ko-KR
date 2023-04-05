@@ -3,10 +3,10 @@ description: 이 플로우 기능은 고객이 웹 사이트 및 앱을 통과�
 title: 흐름 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: 8a971c6b7e04f40a57d379f246c38815852ee0c2
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 [차원 간 플로우](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음, &#39;신발&#39; 부문으로 이동할 수 있습니다.
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 놓기 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
+
+## 플로우 시각화 구성
+
+흐름 시각화를 구성하는 방법에 대한 자세한 내용은 [흐름 시각화 구성](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

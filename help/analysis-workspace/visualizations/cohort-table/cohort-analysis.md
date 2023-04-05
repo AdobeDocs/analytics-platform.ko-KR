@@ -3,10 +3,10 @@ title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -30,10 +30,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석]
->
->필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생 횟수를 지원하지 않습니다. 필터에서 사용할 수 있는 지표만
->[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
+>[!UICONTROL 집단 분석] 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생 횟수를 지원하지 않습니다. 필터에서 사용할 수 있는 지표만 [!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
 
