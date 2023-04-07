@@ -3,9 +3,9 @@ description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제�
 title: Analysis Workspace의 알려진 제한 사항
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '361'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,3 @@ ht-degree: 100%
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
-## Attribution IQ
-
-* 지표의 하위 세트는 [!UICONTROL Attribution IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [Attribution IQ FAQ](../attribution/faq.md)를 참조하십시오.

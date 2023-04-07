@@ -3,9 +3,9 @@ description: 알아보기
 title: 지표 유형 및 기여도 분석
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '188'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '169'
 ht-degree: 100%
 
 ---
@@ -22,8 +22,3 @@ ht-degree: 100%
 |---|---|
 | 표준 | 이 지표들은 표준 [!DNL Analytics] 보고에서 사용된 것과 동일한 지표입니다. 공식이 하나의 표준 지표로 구성된 경우 계산되지 않은 지표에 해당하는 대응값과 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별로 계산된 지표를 만드는 데 유용합니다. 예를 들어 [주문] / [방문 횟수]는 특정 라인 항목에 대한 주문 수를 그 항목에 대한 방문 횟수로 나눕니다. |
 | 합계 | 각 라인 항목에 있는 보고 기간에 대한 합계를 사용하십시오. 공식이 하나의 합계 지표로 구성된 경우 각 라인 항목에서 동일한 합계 숫자가 표시됩니다. 합계 지표는 사이트 합계 데이터를 기준으로 비교하는 계산된 지표를 만드는 데 유용합니다. 예를 들어 [주문] / [총 방문 횟수]는 특정 라인 항목에 대한 방문 횟수뿐만 아니라 해당 사이트에 대한 모든 방문 횟수에 대한 주문 수의 비율을 표시합니다. |
-
-## 기여도 분석
-
->[!IMPORTANT]
->기본이 아닌 기여도 분석 모델 및 지원되는 전환 확인 기간의 전체 목록에 대해서는 [기여도 분석 모델 및 전환 확인 기간](/help/analysis-workspace/attribution/models.md)을 참조하십시오.

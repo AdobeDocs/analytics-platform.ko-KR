@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 Google Analytics 데이터에 대�
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 “통화 이유”의 차원 분류를 적용하여 이 예제는 “손상된 제품” 차원 항목을 보여 줍니다. 다음 단계는 품질 관리 부서에 문의하여 고객들이 왜 손상된 티셔츠를 받게 되었는지 알아보는 것입니다.
 
-이제 어떤 웹 사이트 페이지가 콜센터에 접수되는 문의 전화를 유도했는지 살펴볼 수 있습니다. 이 보고서를 통해 웹 사이트 내에서 성과가 부진한 경험이 어디에 위치해 있는지 알 수 있으며 제품 관리자가 이러한 어려움을 해결하는 데 도움을 줄 수 있습니다. 이 예제는 계산된 지표를 사용하여 콜센터 문의 전화를 유도한 세션만 볼 수 있도록 세부 필터링합니다. 또한 CJA의 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace)에서 “참여” 모델을 사용합니다.
+이제 어떤 웹 사이트 페이지가 콜센터에 접수되는 문의 전화를 유도했는지 살펴볼 수 있습니다. 이 보고서를 통해 웹 사이트 내에서 성과가 부진한 경험이 어디에 위치해 있는지 알 수 있으며 제품 관리자가 이러한 어려움을 해결하는 데 도움을 줄 수 있습니다. 다음 예에서는 기여도 속성 모델과 함께 계산된 지표를 사용하여 데이터를 콜 센터 호출로 끝나는 세션으로만 필터링합니다.
 
 다음 예제는 “장바구니”와 “체크아웃 정보” 페이지가 문의 전화의 대부분을 유도한 것을 알 수 있습니다.
 

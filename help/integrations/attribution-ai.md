@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 97%
 
 ---
 
@@ -117,11 +117,11 @@ AAI의 원시 점수 출력에는 중첩 스키마가 있으며, 필드 경로�
 
 ![리드 타임](assets/lead-time.png)
 
-## 기여도 AI와 Attribution IQ의 차이점
+## Attribution AI과 CJA의 속성 기능 간의 차이점
 
-그렇다면 기여도 AI 데이터와 기본 CJA 기능인 [Attribution IQ](/help/analysis-workspace/attribution/overview.md)를 사용해야 할 때는 언제입니까? 다음 표에는 기능의 몇 가지 차이점이 표시됩니다.
+다음 표에서는 기능의 몇 가지 차이점을 보여 줍니다.
 
-| 기능 | 기여도 AI | Attribution IQ |
+| 기능 | 기여도 AI | CJA 속성 |
 | --- | --- | --- |
 | 증분 속성 | 예 | 아니요 |
 | 사용자가 모델을 조정할 수 있도록 허용 | 예 | 예 |
@@ -129,6 +129,6 @@ AAI의 원시 점수 출력에는 중첩 스키마가 있으며, 필드 경로�
 | 영향을 주는 점수 포함 | 예 | 예 |
 | ML 모델링 | 예 | 예 |
 | 지역 기반 속성 모델 | 예 | 예 |
-| 모델에서 마케팅 접점 구성 가능 | 예 | 아니요 |
+| 모델에서 마케팅 접점 구성 가능 | 예 | 아니오 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

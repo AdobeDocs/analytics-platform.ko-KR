@@ -3,9 +3,9 @@ description: Adobe Analysis Workspace 및 관련 구성 요소의 오류 메시�
 title: Analysis Workspace의 일반 오류 메시지
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -20,5 +20,4 @@ Analysis Workspace와 상호 작용할 때 성능에도 영향을 주는 오류�
 | [!UICONTROL 오류 500: 페이지 로드 실패] | 회사 [방화벽 설정](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)과 같이 로컬 네트워크에 있는 문제가 이 오류의 발생 요소입니다. Adobe에서 해결해야 하는 문제가 발생할 수도 있습니다. | 몇 분 후에 다시 로그인해 보십시오. 문제가 계속 발생하면 EIM 인스턴스 ID 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 필터 중 하나 또는 이 시각화의 검색어 중에 너무 많은 검색 결과를 반환하는 텍스트가 포함되어 있습니다.] | 필터 기준이나 보고서 필터가 너무 광범위합니다. | 검색 텍스트 기준을 좁히고 요청을 다시 시도하십시오. |
 | [!UICONTROL 요청이 너무 복잡합니다.] | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 기여하는 요소는 요청의 크기로 인한 시간 초과, 필터 또는 검색 필터에 일치하는 항목이 너무 많음, 포함된 지표가 너무 많음, 호환되지 않는 차원과 지표 조합 등입니다. | 테이블에서 일부 열 또는 행을 제거하여 요청을 단순화하거나 테이블을 별도 요청으로 분할해 보십시오. |
-| [!UICONTROL 이 차원은 현재 기본이 아닌 속성 모델을 지원하지 않습니다.] | 기본 속성이 아니면 사용 중인 차원이 지원되지 않습니다. | 테이블의 차원을 [속성 IQ](/help/analysis-workspace/attribution/overview.md)와 호환되는 차원으로 바꿉니다. |
 | [!UICONTROL 너무 많은 열 또는 사전 구성된 행으로 인해 요청에 실패했습니다.] | 테이블에 자유 형식 셀 (행*열)이 너무 많습니다. | 테이블에서 일부 열 또는 행을 제거하거나 테이블을 별도 요청으로 분할해 보십시오. |

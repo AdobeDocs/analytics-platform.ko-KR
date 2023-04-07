@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 941a8c8b081b8212d0a57994d2480efbd9c12be7
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 100%
+source-wordcount: '1588'
+ht-degree: 98%
 
 ---
 
@@ -62,13 +62,11 @@ CJA는 수백 또는 수천 개의 서버에 분석을 배포하는 강력한 �
 
 * [예외 항목 탐지](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 등 **가상 분석가 기능**&#x200B;은 예측 알고리즘과 머신 러닝을 사용하여 데이터에서 비정상적인 행동을 유도하는 요인에 대한 인사이트를 제공합니다.
 
-* **고급 분석 기능**&#x200B;은 [흐름 다이어그램](/help/analysis-workspace/visualizations/c-flow/flow.md), [기여도 분석 IQ](/help/analysis-workspace/attribution/overview.md), [폴아웃 다이어그램](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)과 [차원 분류](/help/components/dimensions/t-breakdown-fa.md) 등 고객 여정 인사이트에 특별히 중점을 두고 있습니다. 기본 제공 시각화의 예는 다음과 같습니다.
+* **고급 분석 기능** 과 같은 고객 여정 인사이트에 주력합니다 [흐름 다이어그램](/help/analysis-workspace/visualizations/c-flow/flow.md), [속성 패널](/help/analysis-workspace/c-panels/attribution.md), [폴아웃 다이어그램](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), 및 [차원 분류](/help/components/dimensions/t-breakdown-fa.md). 기본 제공 시각화의 예는 다음과 같습니다.
 
    * [집단/지연 테이블을 통한 고객 유지 분석](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)에서 빌더의 지표/차원을 드래그 앤 드롭하여 30초 이내에 작업을 완료합니다.
 
    * [폴아웃](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)/[흐름](/help/analysis-workspace/visualizations/c-flow/create-flow.md) 시각화. 1분 이내에 설정.
-
-   * [속성 모델](/help/analysis-workspace/attribution/algorithmic.md)에는 첫 번째 터치, 마지막 터치, 참여, 시간 감소, 몇 번의 클릭만으로 설정하는 사용자 지정 항목 등이 있습니다.
 
 * **점진적으로 탐색하는 모든 단계에서의 세분화 기능**: 적합하다고 여겨질 때마다 대상자를 Experience Platform에 다시 게시한 다음 그 단계에서부터 지원되는 모든 대상에 게시할 수 있습니다.
 

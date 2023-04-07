@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '881'
 ht-degree: 99%
 
 ---
@@ -163,12 +163,6 @@ ht-degree: 99%
       + [보기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](../analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](../analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
-      + [속성 개요](../analysis-workspace/attribution/overview.md)
-      + [속성 모델 및 전환 확인 기간](../analysis-workspace/attribution/models.md)
-      + [알고리즘 속성](../analysis-workspace/attribution/algorithmic.md)
-      + [속성 모범 사례](../analysis-workspace/attribution/best-practices.md)
-      + [FAQ](../analysis-workspace/attribution/faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst 개요](../analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
@@ -185,7 +179,6 @@ ht-degree: 99%
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 액세스 가능 여부](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace의 롱테일](../analysis-workspace/workspace-faq/long-tail.md)
-
 
 
 

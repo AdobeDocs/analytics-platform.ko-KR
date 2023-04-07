@@ -4,8 +4,8 @@ description: 콜센터와 웹 사이트 데이터를 연결하는 데이터 세�
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
 1. 웹 페이지 이름을 포함하는 차원을 자유 형식 테이블 시각화로 드래그합니다.
 1. 지표를 측정하려는 원하는 콜센터 지표로 바꿉니다.
 1. 지표 헤더 근처에 있는 톱니바퀴 아이콘을 클릭합니다. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 클릭합니다.
-1. 원하는 [속성 모델](/help/analysis-workspace/attribution/models.md)을 설정합니다. 예: 반감기가 15분인 시간 감소 모델 및 세션의 전환 확인 기간. 이 속성 모델은 콜센터에 접수되는 호출을 유도하는 페이지에 크레딧을 제공합니다.
+1. 원하는 [속성 모델](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)을 설정합니다. 예: 반감기가 15분인 시간 감소 모델 및 세션의 전환 확인 기간. 이 속성 모델은 콜센터에 접수되는 호출을 유도하는 페이지에 크레딧을 제공합니다.
 
 결과 보고서는 콜센터에 접수되는 호출을 유도하는 상위 페이지를 보여 줍니다. <!-- use case behind what we use these pages for -->
 
