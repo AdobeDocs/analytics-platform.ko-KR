@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 5b4aac81ad2ef5829b1140334fa2e2286a529436
+source-git-commit: c8b2133a55b73757c7a74e9309ff8b74df818e34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 76%
 
 ---
 
-# 현재 CJA (Customer Journey Analytics) 릴리스 정보 (2023년 3월)
+# 현재 Customer Journey Analytics(CJA) 릴리스 노트(2023년 4월)
 
-**마지막 업데이트**: 2023년 3월 10일
+**마지막 업데이트**: 2023년 4월 12일
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,23 +20,22 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 
 | 기능 | 설명 | [롤아웃 시작](/help/release-notes/releases.md) | [일반 가용성](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
+| **Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 내용을 줄이는 데 도움이 되므로 프로필 자격 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko#filtering-for-profile) | 해당 사항 없음 | 2023년 3월 29일 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 CJA 환경의 구성 요소(차원, 지표)를 추적하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 8일 | 2023년 3월 29일 |
-| **Mobile Dashboards의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 여러 맞춤형 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 여러 단계에 대해 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표 뒤에 있는 전체 스토리를 이해할 수 있습니다. [자세히 알아보기](/help/mobile-app/create-scorecard.md#create-data-story) | 해당 사항 없음 | 2023년 3월 8일 |
-| **예약된 프로젝트의 만료 날짜** | 일정 빈도와 관계없이 예약된 프로젝트의 최대 만료 날짜를 1년까지 설정할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/curate-share/t-schedule-report.md) | 해당 사항 없음 | 2023년 3월 8일 |
-| **프로젝트 링크 공유(로그인 불필요) - Private Beta 액세스 전용** | 이제 CJA에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 CJA에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/curate-share/share-projects.md) | 2023년 4월 26일 | 2023년 6월 |
-| **패널 날짜 범위 업데이트** | Workspace에서 다음 개선 사항이 추가되었습니다.<ul><li>2월 릴리스부터 차원 항목 및 데이터 미리보기는 지난 90일이 아닌 패널 날짜 범위를 기반으로 합니다. </li><li>나열된 모든 차원 항목은 패널 날짜 범위 내의 데이터를 기반으로 합니다. 차원 항목에 날짜 범위를 벗어난 데이터가 있는 경우 목록 맨 아래에 날짜 범위를 벗어난 추가 데이터를 표시할 수 있습니다.</li><li>데이터가 없는 차원은 왼쪽 레일에 표시될 수 있습니다. 패널 날짜 범위를 벗어난 데이터가 있는 차원 항목을 보려면 더 많은 옵션 표시를 클릭하십시오.</li><li>세그먼트 및 계산된 지표 빌더의 데이터 미리보기는 패널 날짜 범위를 기반으로 하지만 구성 요소 관리자에서 액세스하는 경우엔 연결된 패널이 없기 때문에 여전히 지난 90일을 기반으로 합니다.</li><li>데이터 미리보기는 패널 날짜 범위를 기반으로 데이터 또는 구성 요소를 표시합니다.</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
+| **프로젝트 링크 공유(로그인 불필요) - Private Beta 액세스 전용** | 이제 CJA에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 CJA에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/curate-share/share-projects.md)<p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오. | 2023년 4월 26일 | 2023년 6월 |
+| **Adobe 제품 분석 - 비공개 베타 액세스만** | 2023년 3월 21일, Adobe은 Customer Journey Analytics에서 크로스 채널 데이터 및 인사이트와 상호 작용하는 새로운 방법인 Adobe 제품 분석 을 발표했습니다. 이러한 새로운 기능을 통해 제품 팀은 안내가 있는 분석 워크플로우를 통해 제품 경험에 대한 데이터와 통찰력을 제공할 수 &#x200B; 있습니다. 팀은 다음 작업을 수행할 수 있습니다.<ul><li>시간에 따른 사용자 참여의 패턴 &#x200B; 이해</li><li>사용자 기반의 증가 &#x200B; 분석</li><li>일련의 단계에서 마찰 영역 식별&#x200B;</li><li>기능 릴리스의 영향 측정&#x200B;</li><li>제품을 통해 평생에 걸친 여정 동안 참여하거나 육성할 수 있는 의미 있는 세그먼트를 &#x200B; 발견합니다</li><li>분석가와의 심층적인 분석 및 공동 작업 등을 위해 Analysis Workspace에서 참여해 보십시오&#x200B;!</li></ul>CJA 고객이고 비공개 베타에 참여하려는 경우 Adobe 계정 팀에 문의하십시오. [자세히 알아보기](https://business.adobe.com/products/product-analytics/adobe-product-analytics.html) | 해당 사항 없음 | 2023년 7월 17일 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-309729; AN-309975; AN-311779; AN-313095
+AN-313118; AN-313390; AN-314135; AN-316381; AN-316811
 
 ## CJA 관리자를 위한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| Analytics 소스 커넥터 가용성 | 2023년 2월 15일 | 2023년 2월 28일부터 캐나다에 있는 새로운 Adobe Experience Platform 데이터 센터에서 Analytics 소스 커넥터를 사용할 수 있습니다. |
+| 해당 사항 없음 | 해당 없음 | 해당 사항 없음 |
 
 {style="table-layout:auto"}
 
