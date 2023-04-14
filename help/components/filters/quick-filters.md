@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 45%
+source-wordcount: '1167'
+ht-degree: 44%
 
 ---
 
@@ -119,13 +119,17 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 
 1. 저장된 필터 위에 커서를 놓고 연필 모양의 아이콘을 선택합니다.
 
+1. 선택 [!UICONTROL **빌더 열기**].
+
 1. 필터 빌더 상단에 이 대화 상자가 표시됩니다.
 
-   ![필터 대화 상자](assets/project-only.png)
+   ![필터 대화 상자](assets/project-only-filter-dialog.png)
 
-1. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록 추가하기]** 옆의 확인란을 선택합니다.
-1. **[!UICONTROL 저장]**을 선택합니다.
-이제 필터가 모든 프로젝트의 필터 구성 요소에 표시됩니다.
+1. 옆에 있는 확인란을 선택합니다 **[!UICONTROL 이 필터를 모든 프로젝트에서 사용할 수 있도록 하고 구성 요소 목록에 추가합니다.]**
+
+1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+   이제 필터가 모든 프로젝트의 필터 구성 요소에 표시됩니다.
 조직의 다른 사용자와 [필터를 공유](/help/components/filters/manage-filters.md)할 수도 있습니다 .
 
 ## 빠른 필터 예
