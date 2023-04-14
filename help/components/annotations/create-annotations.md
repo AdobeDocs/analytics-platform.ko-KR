@@ -3,15 +3,19 @@ title: 주석 생성
 description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Components
-exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
+source-git-commit: 2569ee4e958f2d647b62cbce72ebb2b7b98096ab
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 주석 생성
+
+기본적으로 관리자만 주석을 생성할 수 있습니다. 사용자는 다른 Analytics 구성 요소(예: 세그먼트, 계산된 지표 등)와 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
+
+단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)을 통해 사용자에게 [!UICONTROL 주석 생성] 권한(Analytics 도구)을 부여할 수 있습니다.
 
 1. 여러 가지 방법으로 시작하여 주석을 만들 수 있습니다.
 
@@ -39,6 +43,6 @@ ht-degree: 100%
    | [!UICONTROL 모든 보고서 세트에 적용] | 기본적으로 주석은 기존 보고서 세트에 적용됩니다. 이 상자를 선택하면 회사의 모든 보고서 세트에 주석을 적용할 수 있습니다. |
    | [!UICONTROL 모든 프로젝트에 적용] | 기본적으로 주석은 현재 프로젝트에 적용됩니다. 이 상자를 선택하면 보유한 모든 프로젝트에 주석을 적용할 수 있습니다. 이 확인란은 Annotation Builder에서 Annotation Builder를 시작할 때만 표시됩니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
