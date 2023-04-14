@@ -2,10 +2,10 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 3c2361069e2a4934c7f6d616f8223bbba1b410ac
-workflow-type: ht
-source-wordcount: '1111'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
@@ -29,8 +29,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 | 필터 유형 | 생성되는 영역은? | 적용 가능한 영역은? | 사용 시기 |
 | --- | --- | --- | --- |
 | 구성 요소 목록 필터 | +를 클릭하면 [필터 빌더](/help/components/filters/create-filters.md)로 이동합니다. | 모든 작업 영역 프로젝트 | 복잡한 필터의 경우는 순차적 필터 |
-| 빠른 필터 | [빠른 필터 빌더](/help/components/filters/quick-filters.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 자유롭게 하나 이상의 규칙을 추가 또는 편집 |
-| 임시 프로젝트 필터 | [프로젝트의 세그먼트 드롭 영역으로 드래그 앤 드롭](/help/components/filters/ad-hoc-filters.md) | 프로젝트만 저장하고 필터 목록에 추가할 수 있습니다. | 단일 규칙 필터의 경우 |
+| 빠른 필터 | [빠른 필터 빌더](/help/components/filters/quick-filters.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 임시 단일 규칙 필터(드래그 앤 드롭 사용)나 여러 규칙 추가/편집(필터 아이콘을 클릭)에 사용할 수 있습니다 |
 | 폴아웃 분석에서의 필터 | Analysis Workspace에서의 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 개별 폴아웃 시각화에 | 터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, 다양한 필터 간에 주요 워크플로를 비교할 수 있습니다. |
 | 계산된 지표 기반 필터 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 계산된 개별 지표에 | 지표 정의 내 필터 적용 |
 
@@ -78,7 +77,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 * 세션 유형
 * 시작 페이지
 * 반환 주기
-* 기여도 지표
+* 참여도 지표
 * 선형 할당 지표
 
 ### 이벤트 컨테이너 {#event}

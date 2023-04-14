@@ -3,10 +3,10 @@ description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,9 @@ ht-degree: 100%
 
 필터가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 필터를 만들 수도 있으므로 필터 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 히트 수준 필터로 정의됩니다. 이 정의는 필터 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 수정할 수 있습니다.
 
-임시 필터는 프로젝트의 로컬이며 공개로 설정하지 않는 한 왼쪽 레일에 표시되지 않습니다.
+애드혹 필터는 빠른 필터 유형이며, 프로젝트에 로컬입니다. 공개하지 않으면 왼쪽 레일에 나타나지 않습니다
+
+자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md).
 
 ![](assets/adhoc-segment-filter.png)
 

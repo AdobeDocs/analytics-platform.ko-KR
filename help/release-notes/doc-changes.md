@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
+source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 97%
+source-wordcount: '1642'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | --- | --- |
 | **2023년 4월** |  |
 | 실험 패널 설명서 업데이트 | 에 섹션이 추가되었습니다. [임의 치수의 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| 프로젝트 필터(임시 및 빠른 필터) | 프로젝트 필터에 대한 간소화된 설명서와 중복된 정보가 제거되었습니다. 이제 애드혹 필터를 만드는 단계와 다음 절차가 결합됩니다 [빠른 필터 만들기](/help/components/filters/quick-filters.md). |
 | **2023년 3월** |  |
 | 의사 결정 관리 데이터 통합 | 방법을 설명하는 컨텐츠가 추가되었습니다. [cja에서 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md). |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
