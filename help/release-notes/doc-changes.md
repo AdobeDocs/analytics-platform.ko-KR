@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 95%
+source-wordcount: '1659'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 4월** |  |
+| 필터 설명서 | 사용 방법에 대한 문서가 추가되었습니다 [필터 빌더](/help/components/filters/filter-builder.md). <p>의 간소화된 설명서 [필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md).</p> |
 | 실험 패널 설명서 업데이트 | 에 섹션이 추가되었습니다. [임의 치수의 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | 프로젝트 필터(임시 및 빠른 필터) | 프로젝트 필터에 대한 간소화된 설명서와 중복된 정보가 제거되었습니다. 이제 애드혹 필터를 만드는 단계와 다음 절차가 결합됩니다 [빠른 필터 만들기](/help/components/filters/quick-filters.md). |
 | **2023년 3월** |  |

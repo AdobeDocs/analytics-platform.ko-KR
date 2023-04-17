@@ -2,9 +2,9 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '956'
 ht-degree: 98%
 
 ---
@@ -18,20 +18,13 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 필터를 
 
 필터 빌더에서 필터를 작성 및 저장하거나 (작업 영역의) 폴아웃 시각화에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
-필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/create-filters.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
+필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/filter-builder.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
 
 IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 
 ## 필터 유형 {#types}
 
-세그먼트의 복잡성과 해당 프로젝트의 적용 여부에 따라 작업 영역 및 Filter Builder에서 다양한 유형의 필터를 만들 수 있습니다. 필터 유형에 대한 요약은 다음과 같습니다.
-
-| 필터 유형 | 생성되는 영역은? | 적용 가능한 영역은? | 사용 시기 |
-| --- | --- | --- | --- |
-| 구성 요소 목록 필터 | +를 클릭하면 [필터 빌더](/help/components/filters/create-filters.md)로 이동합니다. | 모든 작업 영역 프로젝트 | 복잡한 필터의 경우는 순차적 필터 |
-| 빠른 필터 | [빠른 필터 빌더](/help/components/filters/quick-filters.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 임시 단일 규칙 필터(드래그 앤 드롭 사용)나 여러 규칙 추가/편집(필터 아이콘을 클릭)에 사용할 수 있습니다 |
-| 폴아웃 분석에서의 필터 | Analysis Workspace에서의 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 개별 폴아웃 시각화에 | 터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, 다양한 필터 간에 주요 워크플로를 비교할 수 있습니다. |
-| 계산된 지표 기반 필터 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 계산된 개별 지표에 | 지표 정의 내 필터 적용 |
+사용 가능한 필터 유형과 필터 만들기 방법에 대한 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md).
 
 ## 순차적 필터 {#sequential}
 

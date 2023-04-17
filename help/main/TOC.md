@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '879'
 ht-degree: 99%
 
 ---
@@ -212,8 +212,9 @@ ht-degree: 99%
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
-      + [필터 관리](../components/filters/manage-filters.md)
       + [빠른 필터](../components/filters/quick-filters.md)
+      + [필터 빌더](../components/filters/filter-builder.md)
+      + [필터 관리](../components/filters/manage-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)
