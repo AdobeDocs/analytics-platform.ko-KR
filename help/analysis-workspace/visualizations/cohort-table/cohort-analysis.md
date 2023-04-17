@@ -3,10 +3,10 @@ title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+source-git-commit: 76840d025d1ace28abce5557d66d104795818167
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '457'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 95%
 * 고객 라이프사이클에서 적시에 마케팅 예산 전환.
 * 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
-* 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객이 사용할 수 있습니다.
 
