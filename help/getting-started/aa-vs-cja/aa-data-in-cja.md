@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ AEP 및 CJA에서 Adobe Analytics 보고서 세트를 사용할 준비가 되면
 
 데이터가 준비되면 AEP 및 CJA에서 사용할 보고서 세트 구성을 시작할 수 있습니다.
 
-1. **AEP 및 CJA에서 사용하려는 각 보고서 세트에 대한 데이터 흐름을 만듭니다.** [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko)는 Adobe Analytics와 AEP 간에 [연결을 생성](/help/connections/create-connection.md)(데이터 흐름이라고도 함)할 수 있는 도구입니다. 소스 커넥터를 사용하여 AEP에서 사용하려는 각 보고서 세트에 대해 하나의 데이터 흐름을 만듭니다. 데이터 흐름은 CJA를 포함한 AEP 애플리케이션에서 사용할 수 있도록 스키마가 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko)으로 변환된 보고서 세트 데이터의 복사본을 만듭니다. 소스 커넥터를 통한 데이터 흐름으로 구성된 각 보고서 세트는 AEP 데이터 레이크에 별도의 데이터 세트로 저장됩니다. 각 데이터 흐름에는 13개월 분량의 기록 보고서 세트 데이터가 자동으로 포함되며, 새 데이터가 지속적으로 AEP로 유입됩니다. Analytics 소스 커넥터를 사용하면 스키마를 미리 생성할 필요가 없습니다. Adobe Analytics 전용 표준화된 스키마가 자동으로 생성됩니다. 그러나 데이터가 데이터 레이크에 저장되고 CJA에서 사용할 수 있게 되기 전에 AEP의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 도구를 사용하여 이 스키마를 향상시킬 수 있습니다. 일부 데이터 유형은 소스 커넥터에 의해 필터링되며 AEP 데이터 레이크의 데이터 세트에 표시되지 않습니다. 다른 행은 데이터 레이크와 CJA 간에 필터링될 수 있습니다. 자세한 내용은 [Adobe Analytics 데이터와 CJA 데이터 비교](/help/troubleshooting/compare.md)를 참조하십시오.
+1. **AEP 및 CJA에서 사용하려는 각 보고서 세트에 대한 데이터 흐름을 만듭니다.** [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko)는 Adobe Analytics와 AEP 간에 [연결을 생성](/help/connections/create-connection.md)(데이터 흐름이라고도 함)할 수 있는 도구입니다. 소스 커넥터를 사용하여 AEP에서 사용하려는 각 보고서 세트에 대해 하나의 데이터 흐름을 만듭니다. 데이터 흐름은 CJA를 포함한 AEP 애플리케이션에서 사용할 수 있도록 스키마가 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko)으로 변환된 보고서 세트 데이터의 복사본을 만듭니다.<p>소스 커넥터를 통한 데이터 흐름으로 구성된 각 보고서 세트는 AEP 데이터 레이크에 별도의 데이터 세트로 저장됩니다. 각 데이터 흐름에는 13개월 분량의 기록 보고서 세트 데이터가 자동으로 포함되며, 새 데이터가 지속적으로 AEP로 유입됩니다. (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.) Analytics 소스 커넥터를 사용하면 스키마를 미리 생성할 필요가 없습니다. Adobe Analytics 전용 표준화된 스키마가 자동으로 생성됩니다. 그러나 데이터가 데이터 레이크에 저장되고 CJA에서 사용할 수 있게 되기 전에 AEP의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 도구를 사용하여 이 스키마를 향상시킬 수 있습니다. 일부 데이터 유형은 소스 커넥터에 의해 필터링되며 AEP 데이터 레이크의 데이터 세트에 표시되지 않습니다. 다른 행은 데이터 레이크와 CJA 간에 필터링될 수 있습니다. 자세한 내용은 [Adobe Analytics 데이터와 CJA 데이터 비교](/help/troubleshooting/compare.md)를 참조하십시오.
 1. **데이터 준비를 사용하여 CJA에서 보고서 세트를 결합할 수 있습니다.** 데이터 준비는 다양한 유형의 데이터 변환에 사용할 수 있으며 Adobe Analytics 데이터의 일반적인 용도 중 하나는 CJA 내에서 보고서 세트를 쉽게 결합할 수 있도록 여러 보고서 세트에서 prop 및/또는 eVar 매핑의 차이를 해결하는 것입니다. 자세한 내용은 [보고서 세트를 다른 스키마와 결합](/help/use-cases/aa-data/combine-report-suites.md)을 참조하십시오.
 1. 필요에 따라 **크로스 채널 분석을 활성화**&#x200B;합니다. CJA에서 여러 데이터 세트를 결합할 때 크로스 채널 분석의 ID 결합 기능을 사용하면 서로 다른 ID 네임스페이스를 결합된 단일 ID로 변환하여 여러 디바이스 및 채널에서 고객을 한 눈에 볼 수 있습니다. 자세한 내용은 [크로스 채널 분석 개요](/help/cca/overview.md)를 참조하십시오.
 1. **하나 이상의 CJA 연결을 만듭니다.** AEP 데이터 레이크에서 보고서 세트의 데이터 세트를 사용할 수 있게 되면 하나 이상의 [CJA 연결](/help/connections/overview.md)을 만들어 해당 데이터 세트를 CJA로 가져올 수 있습니다. 연결 내에서 보고서 세트 데이터를 다른 유형의 데이터와 결합하여 고객 경험에 대한 진정한 크로스 채널 보기를 만들 수 있습니다.

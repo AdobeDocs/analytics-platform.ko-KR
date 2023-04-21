@@ -4,10 +4,10 @@ description: 기존 Adobe Analytics에서 데이터를 수집하는 방법 설�
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
    ![검토](./assets/review.png)
 
 
-연결이 만들어지면 데이터 흐름이 자동으로 생성되어 최대 13개월 동안의 내력 데이터 수집을 포함하여 보고서 세트의 Adobe Analytics 데이터로 데이터 세트를 채웁니다.
+연결이 만들어지면 데이터 흐름이 자동으로 만들어져서 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다(프로덕션 샌드박스에 대한 최대 13개월 동안의 내역 데이터 섭취 포함). (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.)
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
