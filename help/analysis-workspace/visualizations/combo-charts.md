@@ -3,11 +3,11 @@ description: Analysis Workspace에서 지난달, 지난해 등과 비교한 내�
 title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
-exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![함수](assets/combo-functions.png) |
    | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![두 개의 지표](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 | **[!UICONTROL 평균]** | 지표에 대한 산술 평균 또는 평균을 반환합니다. |
 | **[!UICONTROL 열 최소값]** | 지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 다음은 수익 지표에 대한 누적 평균의 예입니다.
 
@@ -88,11 +88,11 @@ ht-degree: 100%
 | 설정 | 정의 |
 | --- | --- |
 | **[!UICONTROL 시각화 유형]** | 다른 시각화 유형으로 전환할 수 있습니다. |
-| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 변경할 수 있습니다. |
+| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 선택하십시오. |
 | **[!UICONTROL 일반]** |  |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
 | **[!UICONTROL 범례 표시]** | 콤보 차트 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-| **[!UICONTROL 최대 항목 수 제한]** | X축의 항목 수를 줄입니다. 빅 데이터 세트가 있는 경우 처음 10개 항목(또는 선택한 값)만 표시할 수 있습니다. |
+| **[!UICONTROL 최대 항목 수 제한]** | X축의 항목 수를 줄입니다. 큰 데이터 세트가 있는 경우 처음 10개 항목(또는 선택한 모든 값)만 표시할 수 있습니다. |
 | **[!UICONTROL 오버레이]** | 선에 바벨을 표시하거나 숨깁니다. |
 | **[!UICONTROL 축]** |  |
 | **[!UICONTROL 이중 축 표시]** | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. 이중 축 색상은 다중 비교가 없는 한 표의 색상과 일치합니다. 이 경우 모든 비교에 대한 색상은 회색입니다. |
@@ -101,4 +101,4 @@ ht-degree: 100%
 | **[!UICONTROL Y축 표시]** | Y축을 표시하거나 숨깁니다. |
 | **[!UICONTROL Y축을 0에 고정]** | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

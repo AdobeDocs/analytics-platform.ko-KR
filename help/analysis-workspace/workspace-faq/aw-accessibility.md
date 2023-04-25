@@ -3,10 +3,10 @@ description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 99%
 
 ---
 
@@ -48,39 +48,39 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 ### 키보드 단축키 (핫키)
 
-[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ko-KR) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
 
 #### 탐색
 
 | 단축키 | 작업 |
-|---|---|
-| Alt + Shift + 1 / 2 / 3 | 다른 레일로 이동: [!UICONTROL 패널], [!UICONTROL 시각화] 또는 [!UICONTROL 구성 요소] |
-| Alt + 왼쪽/오른쪽 화살표 | 패널 간 탐색 |
-| Alt + M | 모든 패널 축소/확장 |
-| Alt+ Ctrl + M | 활성 패널 축소/확장 |
-| Ctrl + / | 왼쪽 레일 검색 |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | 다른 레일로 이동: [!UICONTROL 패널], [!UICONTROL 시각화] 또는 [!UICONTROL 구성 요소] |
+| `[Alt + Left / Right]` | 패널 간 탐색 |
+| `[Alt + M]` | 모든 패널 축소/확장 |
+| `[Alt + Ctrl + M]` | 활성 패널 축소/확장 |
+| `[Ctrl + /]` | 왼쪽 레일 검색 |
 
 #### 분석 생성
 
 | 단축키 | 작업 |
-|---|---|
-| Alt + 1 | 새 자유 형식 테이블 |
-| Ctrl + Shift + C | 새로 계산된 지표 |
-| Ctrl + Shift + D | 새 날짜 범위 |
-| Ctrl + Shift + E | 새 필터 |
-| Ctrl + Z | 실행 취소 |
-| Shift 키 (패널 필터 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) 만들기 |
+| --- | --- |
+| `[Alt + 1]` | 새 자유 형식 테이블 |
+| `[Ctrl + Shift + C]` | 새로 계산된 지표 |
+| `[Ctrl + Shift + D]` | 새 날짜 범위 |
+| `[Ctrl + Shift + E]` | 새 세그먼트 |
+| `[Ctrl + Z]` | 실행 취소 |
+| `[Component drag + Shift]` | 드롭다운 필터 만들기 |
 
 #### 민주화
 
 | 단축키 | 작업 |
-|---|---|
-| Ctrl + S | 저장 |
-| Ctrl + Shift + G | 조정 |
-| Ctrl + G | 공유 |
-| Alt + Shift + S | 예약 |
-| Alt + L | 프로젝트에 대한 링크 가져오기 |
-| Ctrl + Shift + B | PDF 다운로드 |
+| --- | --- |
+| `[Ctrl + S]` | 저장 |
+| `[Ctrl + Shift + G]` | 조정 |
+| `[Ctrl + G]` | 공유 |
+| `[Alt + Shift + S]` | 예약 |
+| `[Alt + L]` | 프로젝트에 대한 링크 가져오기 |
+| `[Ctrl + Shift + B]` | PDF 다운로드 |
 
 ## 화면 판독기 및 화면 돋보기 지원
 

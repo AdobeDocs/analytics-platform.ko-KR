@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 44%
+source-wordcount: '1166'
+ht-degree: 42%
 
 ---
 
@@ -65,7 +65,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
    | [!UICONTROL 빌더 열기] | 필터 빌더를 엽니다. 필터 빌더에서 필터를 저장하거나 적용하면 더 이상 &quot;빠른 필터&quot;로 간주되지 않습니다. 구성 요소 목록의 필터 라이브러리의 일부가 됩니다. <p>모든 프로젝트에서 구성 요소를 사용할 수 있도록 하고 왼쪽 레일에서 옵션을 선택합니다 [!UICONTROL **이 필터를 모든 프로젝트에서 사용할 수 있도록 하고 구성 요소 목록에 추가합니다**].</p><p>자세한 내용은 섹션을 참조하십시오 [빠른 필터를 구성 요소 목록 필터로 저장](#save-a-quick-filter-as-a-component-list-filter) 참조하십시오.</p><p>**참고:** 에서 필터 만들기 권한이 있는 사용자만 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 필터 빌더를 열 수 있습니다.</p> |
    | [!UICONTROL 취소] | 이 빠른 필터를 취소합니다(적용되지 않음). |
    | [!UICONTROL 날짜 범위] | 유효성 검사기는 패널 날짜 범위를 사용하여 데이터를 조회합니다. 하지만 빠른 필터에 적용되는 날짜 범위는 패널 상단의 패널 날짜 범위를 오버라이드합니다. |
-   | 이전(오른쪽 상단) | 유효한 필터가 있는지, 필터의 폭이 얼마나 넓은지 볼 수 있습니다. 이 필터를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 이 필터에 데이터가 없다는 것을 보여 주는 알림을 수신할 수 있습니다. 이 경우 계속 진행하거나 필터 정의를 변경할 수 있습니다. |
+   | 이전(오른쪽 상단) | 유효한 필터가 있는지, 필터의 폭이 얼마나 넓은지 볼 수 있습니다. 이 필터를 적용할 때 표시될 것으로 예상되는 데이터 집합의 분류를 나타냅니다. 이 필터에 데이터가 없다는 것을 보여 주는 알림을 수신할 수 있습니다. 이 경우 계속 진행하거나 필터 정의를 변경할 수 있습니다. |
 
 1. 선택 [!UICONTROL **적용**] 변경 사항을 저장하려면 을 클릭합니다.
 

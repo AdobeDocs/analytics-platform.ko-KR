@@ -4,10 +4,10 @@ description: 계정 기반 데이터를 조회 데이터 세트로 CJA에 추가
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 1a18ddbab09e272189a25041396570d127bb81c3
-workflow-type: ht
-source-wordcount: '841'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![](../assets/create-new-class.png)
 
-## 2. 조회 데이터 세트 만들기 (Experience Platform)
+## 2. 조회 데이터 세트 만들기(Experience Platform)
 
 스키마가 만들어지면 Experience Platform의 해당 스키마에서 조회 데이터 세트를 만들어야 합니다. 이 조회 데이터 세트에는 다음과 같은 계정 수준 마케팅 정보가 포함됩니다. 회사 이름, 총 직원 수, 도메인 이름, 해당 기업이 속한 업계, 연간 매출, 해당 고객이 Experience Platform의 현재 고객인지 여부, 현재 영업 단계, 계정 내에서 CJA를 사용하고 있는 팀 등.
 

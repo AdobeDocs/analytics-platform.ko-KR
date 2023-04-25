@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1221'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
    * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
+1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
    ![세그먼트 필터](assets/segment_filter.png)
 

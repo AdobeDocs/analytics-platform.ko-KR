@@ -4,10 +4,10 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 | 설정 | 설명 |
 | --- | --- |
 | [!UICONTROL 연결] | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
-| [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운에 이 값이 표시됩니다. |
+| [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. 이 값은 Analysis Workspace의 오른쪽 상단 드롭다운 목록에 표시됩니다. |
 | [!UICONTROL 설명] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
 
 {style="table-layout:auto"}

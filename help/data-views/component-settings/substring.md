@@ -4,10 +4,10 @@ description: 문자열의 하위 집합을 차원 항목으로 사용합니다.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 ## 왼쪽/오른쪽에서 시작
 
-문자열의 시작 또는 끝 위치에 따라 문자열의 일부를 가져옵니다. **[!UICONTROL 왼쪽에서 시작]** 및 **[!UICONTROL 오른쪽에서 시작]** 방법에는 **[!UICONTROL 시작]**(출력이 시작되는 곳)과 **[!UICONTROL 끝]**(출력이 끝나는 곳)의 두 가지 드롭다운이 있습니다.
+문자열의 시작 또는 끝 위치에 따라 문자열의 일부를 가져옵니다. **[!UICONTROL 왼쪽에서]** 및 **[!UICONTROL 오른쪽에서]** 메서드는 다음 두 가지 드롭다운 목록을 제공합니다. **[!UICONTROL From]** (출력이 시작되는 위치) 및 **[!UICONTROL 종료]** (출력이 끝나는 위치)
 
 * **[!UICONTROL 문자열 시작]**: 문자열의 시작입니다.
 * **[!UICONTROL 문자열 끝]**: 문자열의 끝입니다.
 * **[!UICONTROL 위치]**: 방법에 따라 왼쪽 또는 오른쪽에서 고정된 문자 수입니다.
-* **[!UICONTROL 문자열]**: 문자열의 시작 또는 끝을 나타내기 위해 문자 또는 문자 시퀀스를 일치시킵니다. 이 드롭다운에는 다음과 같은 추가 옵션도 표시됩니다.
+* **[!UICONTROL 문자열]**: 문자열의 시작 또는 끝을 나타내기 위해 문자 또는 문자 시퀀스를 일치시킵니다. 이 드롭다운 목록에는 추가 옵션도 표시됩니다.
    * **[!UICONTROL 일치]**: 일치시킬 문자열입니다. 입력이 이 필드와 일치하지 않으면 [값 옵션 없음](no-value-options.md)이 적용됩니다.
    * **[!UICONTROL 색인]**: **[!UICONTROL 일치]** 기준은 문자열에 여러 번 표시될 수 있습니다. 이 정수는 방법에 따라 출력을 시작하거나 종료할 일치 항목을 결정합니다. 예를 들어 `1`의 색인은 최초 일치를 나타냅니다. 색인이 사용 가능한 일치 항목 수보다 높으면 [값 옵션 없음](no-value-options.md)이 적용됩니다.
    * **[!UICONTROL 문자열 포함]**: 활성화된 경우 출력에 **[!UICONTROL 일치]** 문자열을 포함하도록 하는 확인란입니다.
-* **[!UICONTROL 길이]**: 출력의 시작 위치 뒤에 포함할 문자 수를 지정하는 정수입니다. **[!UICONTROL 시작]** 드롭다운에서만 사용할 수 있습니다.
+* **[!UICONTROL 길이]**: 출력의 시작 위치 뒤에 포함할 문자 수를 지정하는 정수입니다. 아래에서만 사용할 수 있습니다. **[!UICONTROL 종료]** 드롭다운 목록.
 
 ## 구분 기호
 
@@ -114,7 +114,7 @@ CJA는 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 입력�
 | `$+` | 정규 표현식에서 마지막으로 표시된 하위 표현식과 일치하는 것을 출력합니다. |
 | `$$` | 문자열 문자 `"$"`를 출력합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 바인딩 차원에 대한 비디오
 

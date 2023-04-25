@@ -4,10 +4,10 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 97%
+source-wordcount: '2500'
+ht-degree: 94%
 
 ---
 
@@ -133,7 +133,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 | 옵션 | 설명 |
 |---|---|
 | **[!UICONTROL 기본 ID 네임스페이스 사용]** | CJA가 ID 맵에서 행마다 primary=true 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용합니다. 즉, Experience Platform에서 파티셔닝에 사용할 기본 키입니다. 또한 CJA의 방문자 ID로 사용하기에 가장 적합한 후보입니다(CJA 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
-| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR)의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 CJA에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 실제로 사용 중인 네임스페이스가 무엇인지 확인하기 위해서 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운에 나열됩니다. 데이터에 지정된 네임스페이스를 알아야 하지만 자동으로 검색되지 않습니다. |
+| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR)의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 CJA에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 실제로 사용 중인 네임스페이스가 무엇인지 확인하기 위해 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 목록에 표시됩니다. 데이터에 지정된 네임스페이스를 알아야 하지만 자동으로 검색되지 않습니다. |
 
 {style="table-layout:auto"}
 

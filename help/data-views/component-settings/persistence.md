@@ -4,10 +4,10 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 | [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 배분 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 2021년 10월 28일부터 최대 90일의 전환 확인 기간이 [!UICONTROL 할당] 설정에 추가됩니다. |
 | [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션] (기본값), [!UICONTROL 개인], [!UICONTROL 사용자 지정 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만을 사용할 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL 할당] 설정
 
@@ -76,13 +76,13 @@ ht-degree: 100%
 
 ## [!UICONTROL 바인딩 차원]
 
-차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운입니다. 유효한 드롭다운 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
+차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
 
 바인딩 차원을 효율적으로 사용하는 방법에 대한 사례는 [CJA에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
 
 ## [!UICONTROL 바인딩 지표]
 
-바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운입니다. 유효한 드롭다운 옵션에는 데이터 보기에 포함된 지표가 포함됩니다.
+바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운 목록입니다. 유효한 옵션에는 데이터 보기에 포함된 지표가 포함됩니다.
 
 이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 지표가 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
 

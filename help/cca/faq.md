@@ -4,10 +4,10 @@ description: 크로스 채널 분석 FAQ
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 영구 ID 수는 임시 ID와 관련이 없습니다. 단일 사용자는 여러 디바이스를 연결하는 CCA의 기능에 영향을 주지 않고 원하는 개수의 디바이스에 액세스할 수 있습니다.
 
-## 원하는 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력된 데이터 세트를 사용할 수 있는 데 시간이 얼마나 걸립니까?
+## 원하는 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력되는 데이터 세트를 사용할 수 있게 되는 데 시간이 얼마나 걸립니까?
 
 라이브 결합은 Adobe에서 크로스 채널 분석을 활성화한 후 약 1주 후에 사용할 수 있습니다. 채우기 가용성은 기존 데이터의 양에 따라 다릅니다. 작은 데이터 세트(하루에 100만 개 미만의 이벤트)는 보통 2일이 걸리지만 대규모 데이터 세트(하루에 10억 개의 이벤트)는 1주일 이상 걸릴 수 있습니다.
 
