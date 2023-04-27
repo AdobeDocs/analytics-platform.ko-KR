@@ -3,10 +3,10 @@ description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 
 title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 4dd5e5248026c39489f3ac4598ea91ff15d95aa4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,10 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 ## 테이블 필터링 {#section_36E92E31442B4EBCB052073590C1F025}
 
 Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도움이 됩니다.
+
+>[!NOTE]
+>
+> 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 자유 형식 테이블에서 데이터를 필터링하려면 다음 작업을 수행하십시오.
 
