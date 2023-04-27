@@ -4,7 +4,7 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: df939712d3ee8d029dd42a9a769c022a4d0dbdf1
+source-git-commit: 749088c6e6c100797bd9a2dd1de64d18d45108e5
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 53%
@@ -119,7 +119,7 @@ ht-degree: 53%
 >
 >* CJA 관리자가 이러한 방식으로 프로젝트를 공유하는 기능을 [기본 설정](/help/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 CJA 관리자가 이 기능을 비활성화했습니다.
 >
->* 14개가 넘는 확장된 시각화가 있는 프로젝트는 CJA에 액세스할 수 없는 사람과 공유할 수 없습니다.
+>* 50개 이상의 확장된 시각화가 있는 프로젝트는 CJA에 액세스할 수 없는 사람과 공유할 수 없습니다.
 >
 >* 와 공유하는 사용자는 [큐레이션](curate.md).
 > 

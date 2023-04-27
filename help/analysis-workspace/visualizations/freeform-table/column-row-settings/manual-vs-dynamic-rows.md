@@ -3,10 +3,10 @@ title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 �
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+source-git-commit: 67435cdfcb23e3c6e9a04ecb4a0b0e854473387c
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,8 @@ ht-degree: 100%
 
 예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행에 반환됩니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
 
-동적 차원 항목에는 행 필터 옵션이 있고, 자물쇠와 X 아이콘이 **없습니다**.
+동적 차원 항목에는 행 필터 옵션이 있고, 자물쇠와 X 아이콘이 **없습니다.** 테이블에 필터를 적용하는 방법에 대한 자세한 내용은 [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+
 
 ![](assets/dynamic-items.png)
 
