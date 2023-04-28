@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: ee95dd14dce1186bbccabd359e6bc857d8e7036a
+source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3040'
+ht-degree: 9%
 
 ---
 
@@ -615,11 +615,11 @@ ht-degree: 0%
 |---|
 | 홈 페이지 |
 | 플라이트 검색 |
-| `http://www.expedia.ca/Hotel-Search` |
-| `https://www.expedia.com/Package-Search` |
+| `http://www.adobetravel.ca/Hotel-Search` |
+| `https://www.adobetravel.com/Package-Search` |
 | 거래 및 오퍼 |
-| `http://www.expedia.ca/user/reviews` |
-| `https://www.expedia.com.br/Generate-Quote/preview` |
+| `http://www.adobetravel.ca/user/reviews` |
+| `https://www.adobetravel.com.br/Generate-Quote/preview` |
 
 {style="table-layout:auto"}
 
