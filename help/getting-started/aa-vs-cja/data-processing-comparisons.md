@@ -4,8 +4,8 @@ description: 다양한 보고 기능에 대한 데이터 처리의 차이점 이
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 source-git-commit: 80d0b95f3bc3d785d9ca7e4b50aa1bd8440373c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 91%
 
 ---
 

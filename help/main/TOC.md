@@ -11,8 +11,8 @@ user-guide-description: Experience Platform의 데이터와 함께 Analysis Work
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 804521e518d811bd4ad458b00367d00facb29b35
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '875'
+ht-degree: 98%
 
 ---
 
