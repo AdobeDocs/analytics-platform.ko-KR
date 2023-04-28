@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
+source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
 workflow-type: tm+mt
-source-wordcount: '3057'
+source-wordcount: '3062'
 ht-degree: 9%
 
 ---
@@ -15,18 +15,19 @@ ht-degree: 9%
 
 # 파생 필드
 
+{{release-limited-testing}}
+
 파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생된(사용자 지정) 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해(종종 복잡함) 데이터 조작을 즉시 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 을 의 구성 요소로 추가로 정의할 수 있습니다 [데이터 보기](../data-views.md).
 
 파생된 필드는 CJA 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 예 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)또는 고유한 ETL(Extract Transform Load)/ELT(Extract Load Transform) 프로세스 내에서 사용할 수 있습니다.
 
-파생 필드는 내에서 사용자 정의 필드로 정의됩니다 [데이터 보기](../data-views.md)는 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
+파생 필드는 내에서 사용자 정의 필드로 정의됩니다 [데이터 보기](../data-views.md)는 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
 사용 사례는 다음과 같습니다.
 
 - 잘못된 수집된 페이지 이름 값을 수정하여 페이지 이름 값을 수정하는 사용자 지정 페이지 이름 필드를 정의합니다.
 
 - 하나 이상의 조건(예: URL 매개 변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 사용자 지정 마케팅 채널 필드를 정의합니다.
-
 
 ## 사용자 지정 필드 인터페이스
 
@@ -37,7 +38,7 @@ ht-degree: 9%
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
-| 1 | **선택기** | 선택기 영역을 사용하여 선택 및 끌어서 놓습니다 ![함수](assets/Smock_Function_18_N.svg) 함수,![함수 템플릿 아이콘](assets/Smock_FileTemplate_18_N.svg) 함수 템플릿,![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) 스키마 필드 또는![표준 필드 아이콘](assets/Smock_DragHandle_18_N.svg)규칙 빌더에 대한 표준 필드입니다. <br/>드롭다운을 사용하여 다음 중 하나를 선택합니다 [!UICONTROL 함수], [!UICONTROL 함수 템플릿], [!UICONTROL 스키마 필드], 및 [!UICONTROL 표준 필드].<br/>검색 상자를 사용하여 함수, 함수 템플릿, 스키마 및 표준 필드를 검색할 수 있습니다. <br/>선택한 객체 목록을 선택하여 필터링할 수 있습니다 ![필터 아이콘](assets/Smock_Filter_18_N.svg) 에서 필터 및 지정 [!UICONTROL 필드 필터링 기준] 대화 상자. 을 사용하여 필터를 쉽게 제거할 수 있습니다 ![닫기 아이콘](assets/CrossSize75.svg) 참조하십시오. |
+| 1 | **선택기** | 선택기 영역을 사용하여 선택 및 끌어서 놓습니다 ![함수](assets/Smock_Function_18_N.svg) 함수,![함수 템플릿 아이콘](assets/Smock_FileTemplate_18_N.svg) 함수 템플릿,![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) 스키마 필드 또는![표준 필드 아이콘](assets/Smock_DragHandle_18_N.svg)규칙 빌더에 대한 표준 필드입니다. <br/>드롭다운을 사용하여 다음 중 하나를 선택합니다 [!UICONTROL 함수], [!UICONTROL 함수 템플릿], [!UICONTROL 스키마 필드], 및 [!UICONTROL 표준 필드].<br/>를 사용하여 함수, 함수 템플릿, 스키마 및 표준 필드를 검색할 수 있습니다 ![검색 아이콘](assets/Smock_Search_18_N.svg) 검색 상자. <br/>선택한 객체 목록을 선택하여 필터링할 수 있습니다 ![필터 아이콘](assets/Smock_Filter_18_N.svg) 에서 필터 및 지정 [!UICONTROL 필드 필터링 기준] 대화 상자. 을 사용하여 필터를 쉽게 제거할 수 있습니다 ![닫기 아이콘](assets/CrossSize75.svg) 참조하십시오. |
 | 2 | **규칙 빌더** | 하나 이상의 규칙을 사용하여 사용자 지정 필드를 순차적으로 작성합니다. 규칙은 함수의 특정 구현이므로 항상 하나의 함수만 연관됩니다. 함수를 규칙 빌더에 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 결정합니다.<br/>자세한 내용은 [규칙 인터페이스](#rule-interface) 추가 정보. <br/>규칙 빌더에서 이미 사용할 수 있는 규칙 간, 시작, 종료 또는 사이에 함수를 삽입할 수 있습니다. 규칙 빌더의 마지막 규칙은 사용자 지정 필드의 최종 출력을 결정합니다. |
 | 3 | **[!UICONTROL **&#x200B;필드 설정&#x200B;**]** | 사용자 지정 필드의 이름을 지정하고 설명하며 필드 유형을 검사할 수 있습니다. |
 | 4 | **[!UICONTROL **&#x200B;최종 출력&#x200B;**]** | 이 영역에서는 지난 30일 동안의 데이터와 규칙 빌더의 사용자 지정 필드에 대한 변경 사항을 기반으로, 즉시 업데이트된 출력 값 미리 보기를 보여줍니다. |
