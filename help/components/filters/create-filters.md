@@ -2,10 +2,10 @@
 title: 필터 만들기
 description: 필터 만들기 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 60%
+source-wordcount: '309'
+ht-degree: 56%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 60%
 | 선택 내용에서 필터 생성 | 인라인 필터를 만듭니다. 이 필터는 열려 있는 프로젝트에만 적용되며, CJA 필터로 저장되지는 않습니다.<p> 1. 필터에 포함할 테이블 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 버튼으로 클릭합니다.  3. *선택 항목에서 필터 만들기*&#x200B;를 클릭합니다. |
 | 작업 영역 [!UICONTROL 구성 요소] > [!UICONTROL 새 필터] | 필터 빌더를 표시합니다. 필터링에 대한 자세한 내용은 [필터 빌더](/help/components/filters/filter-builder.md)를 참조하십시오. |
 | 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 또는 [프로젝트 조정](/help/analysis-workspace/curate-share/curate.md), 수신자를 위한 공유 분석에서 프로젝트에 적용하는 필터를 어떻게 사용할 수 있는지 알아봅니다. |
-| 필터를 차원으로 사용 | 다음 비디오에서는 필터를 차원으로 사용하는 방법을 보여 줍니다. (**참고:** 이 비디오에서는 &quot;필터&quot; 대신 &quot;세그먼트&quot;라는 용어를 사용합니다. 그러나 기능은 동일합니다.) <p>[Analysis Workspace에서 차원으로 세그먼트 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=ko-KR)</p> |
+| 필터를 차원으로 사용 | 다음 비디오에서는 필터를 차원으로 사용하는 방법을 보여 줍니다.  <p>[Analysis Workspace에서 필터를 차원으로 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |
