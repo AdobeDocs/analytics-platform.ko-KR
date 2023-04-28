@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
+source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3057'
 ht-degree: 9%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # 파생 필드
 
-파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생된(사용자 지정) 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해(종종 복잡함) 데이터 조작을 즉시 정의할 수 있습니다. 그런 다음 해당 파생 필드를 Workspace에서 구성 요소(지표 또는 차원)로 사용하거나 데이터 보기에서 구성 요소로 추가로 정의할 수 있습니다.
+파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생된(사용자 지정) 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해(종종 복잡함) 데이터 조작을 즉시 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 을 의 구성 요소로 추가로 정의할 수 있습니다 [데이터 보기](../data-views.md).
 
-파생된 필드는 CJA 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 데이터 준비, 데이터 Distiller 또는 ETL(Extract Transform Load) / ELT(Extract Load Transform) 프로세스 내에서 수행할 수 있습니다.
+파생된 필드는 CJA 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 예 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)또는 고유한 ETL(Extract Transform Load)/ELT(Extract Load Transform) 프로세스 내에서 사용할 수 있습니다.
 
-파생 필드는 내에서 사용자 정의 필드로 정의됩니다 [데이터 보기](../data-views.md)및 는 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
+파생 필드는 내에서 사용자 정의 필드로 정의됩니다 [데이터 보기](../data-views.md)는 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
 사용 사례는 다음과 같습니다.
 
