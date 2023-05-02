@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
+source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3221'
 ht-degree: 9%
 
 ---
@@ -461,11 +461,10 @@ ht-degree: 9%
 
 값을 선택하고 설정할 때에는 다음 종속성이 적용됩니다.
 
-
 |  | 데이터 집합 종속성 |
 |:---:|----|
 | <span style='color: red'>A</span> | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 데이터 세트에서 시작해야 합니다. |
-| <span style='color: red'>B</span> | 모든 값 _설정_ 구문 내 및 규칙 간에는 동일한 데이터 세트에서 시작해야 합니다. |
+| <span style='color: red'>B</span> | 모든 값 _설정_ 규칙 전체에서 동일한 데이터 세트에서 시작해야 합니다. |
 | <span style='color: blue'>C</span> | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 는 동일한 데이터 세트에서 와야 합니다. |
 
 {style="table-layout:auto"}
@@ -475,8 +474,8 @@ ht-degree: 9%
 
 |  | 형식 종속성 |
 |:---:|----|
-| <span style='color: red'>D</span> | 값 유형 _설정_ 규칙 간에 동일해야 합니다. |
-| <span style='color: blue'>E</span> | 값 유형 _선택_ 구문 내 또는 규칙의 전체 구문은 모든 유형(문자열, 숫자, 날짜)일 수 있습니다. |
+| <span style='color: red'>D</span> | 사용자가 사용할 값 유형 _설정_ 규칙 간에는 동일해야 합니다. |
+| <span style='color: blue'>E</span> | 사용자가 사용할 값 유형 _선택_ 구문 내 또는 규칙의 전체 구문은 모든 유형(문자열, 숫자, 날짜)일 수 있습니다. |
 
 {style="table-layout:auto"}
 
