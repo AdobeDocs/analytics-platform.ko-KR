@@ -5,13 +5,13 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
+exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
+source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3225'
 ht-degree: 9%
 
 ---
-
 
 # 파생 필드
 
@@ -155,12 +155,19 @@ ht-degree: 9%
 
 지원되는 각 함수에 대해 아래에서 세부 정보를 확인하십시오.
 
-- 입력, 연산자 및 출력
+- 사양:
+   - 입력 데이터 유형: 지원되는 데이터 유형,
+   - 입력: 입력할 수 있는 값
+   - 포함된 연산자: 이 함수에 대해 지원되는 연산자(있는 경우),
+   - 제한: 파생 필드에 사용할 수 있는 이 함수를 사용하는 최대 규칙 수
+   - 출력.
 
 - 사용 사례:
    - 사용자 지정 필드를 정의하기 전 데이터
    - 사용자 지정 필드를 정의하는 방법
    - 사용자 지정 필드를 정의한 후 데이터
+
+- 종속성(선택 사항)
 
 
 <!-- Concatenate -->
@@ -171,11 +178,11 @@ ht-degree: 9%
 
 +++ 세부 사항
 
-## 입력/연산자/출력 {#concatenate-io}
+## 사양 {#concatenate-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 출력 |
-|---|---|---|---|
-| <p>문자열</p> | <ul><li>결합할 둘 이상의 값<ul><li>필드</li><li>이전 규칙에서 파생된 값</li><li>사용자 입력 값</li></ul></li><li>구분 기호<ul><li>각 값에 대한 구분 기호 입력 또는 선택</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>새 사용자 지정 필드</p> |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|:--:|---|
+| <p>문자열</p> | <ul><li>결합할 둘 이상의 값<ul><li>필드</li><li>이전 규칙에서 파생된 값</li><li>사용자 입력 값</li></ul></li><li>구분 기호<ul><li>각 값에 대한 구분 기호 입력 또는 선택</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>2</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -200,7 +207,7 @@ ht-degree: 9%
 원하는 보고서는 다음과 같습니다.
 
 | 원본/대상 | 예약 |
-|---|---|
+|----|---:|
 | SLC-MCO | 2 |
 | SLC-LAX | 1 |
 | SLC-SEA | 1 |
@@ -212,7 +219,7 @@ ht-degree: 9%
 ### 이전 데이터 {#concatenate-uc-databefore}
 
 | Origin | 대상 |
-|----|----|
+|----|---:|
 | SLC | MCO |
 | SLC | LAX |
 | SLC | SEA |
@@ -249,11 +256,11 @@ ht-degree: 9%
 
 +++ 세부 사항
 
-## 입력/연산자/출력 {#casewhen-io}
+## 사양 {#casewhen-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 출력 |
-|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜/날짜-시간</li></ul> | <ul><li>입력 필드</li><li>기준</li></ul> | <p><u>문자열</u></p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>임의의 용어로 시작</li><li>다음으로 끝남</li><li>임의의 용어로 종료</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로도 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>숫자</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>날짜</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>보다 나중</li><li>다음보다 이후이거나 같음</li><li>다음 이전</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <p>새 사용자 지정 필드</p> |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|:---:|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜/날짜-시간</li></ul> | <ul><li>입력 필드</li><li>기준</li></ul> | <p><u>문자열</u></p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>임의의 용어로 시작</li><li>다음으로 끝남</li><li>임의의 용어로 종료</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로도 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>숫자</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>날짜</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>보다 나중</li><li>다음보다 이후이거나 같음</li><li>다음 이전</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <p>5</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -273,7 +280,7 @@ ht-degree: 9%
 레퍼러 및 페이지 URL이 포함된 다음 샘플 이벤트를 사이트가 수신하는 경우 이러한 이벤트를 다음과 같이 식별해야 합니다.
 
 | 이벤트 | 레퍼러 | 페이지 URL | 마케팅 채널 |
-|:----:|----|----|----|
+|:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | 자연어 소셜 |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | 표시 |
 | 3 |  | `https://site.com/?cid=em_12345678` | 이메일 |
@@ -425,8 +432,6 @@ ht-degree: 9%
 | 21 |
 | 8 |
 
-{style="table-layout:auto"}
-
 ### 사용자 지정 필드 {#casewhen-uc3-customfield}
 
 을(를) 정의합니다 `Trip Duration (bucketed)` 사용자 지정 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이 규칙은 이전 규칙을 버킷하는 논리를 적용합니다 **[!UICONTROL **&#x200B;이동 기간&#x200B;**]** 필드 값을 세 개의 값으로 설정합니다. `short trip`, `medium  trip`, 및 `long trip`.
@@ -451,6 +456,32 @@ ht-degree: 9%
 | 긴 여행 |
 | 긴 여행 |
 
+
+## 종속성
+
+값을 선택하고 설정할 때에는 다음 종속성이 적용됩니다.
+
+
+|  | 데이터 집합 종속성 |
+|:---:|----|
+| <span style='color: red'>A</span> | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 데이터 세트에서 시작해야 합니다. |
+| <span style='color: red'>B</span> | 모든 값 _설정_ 구문 내 및 규칙 간에는 동일한 데이터 세트에서 시작해야 합니다. |
+| <span style='color: blue'>C</span> | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 는 동일한 데이터 세트에서 와야 합니다. |
+
+{style="table-layout:auto"}
+
+![데이터 집합 종속성 시 사례](assets/case-when-datasets.png)
+
+
+|  | 형식 종속성 |
+|:---:|----|
+| <span style='color: red'>D</span> | 값 유형 _설정_ 규칙 간에 동일해야 합니다. |
+| <span style='color: blue'>E</span> | 값 유형 _선택_ 구문 내 또는 규칙의 전체 구문은 모든 유형(문자열, 숫자, 날짜)일 수 있습니다. |
+
+{style="table-layout:auto"}
+
+![유형 종속성 시 사례](assets/case-when-types.png)
+
 +++
 
 
@@ -462,11 +493,11 @@ ht-degree: 9%
 
 +++ 세부 사항
 
-## 입력/연산자/출력 {#findreplace-io}
+## 사양 {#findreplace-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 출력 |
-|---|---|---|---|
-| <p>문자열</p> | <ul><li><span>&#39;바꿀 시기&#39; 필드 기준</span></li><li><span>&#39;다음으로 바꾸기&#39; 필드 값</span><ul><li><span>사용자 입력</span></li><li><span>별도의 필드</span></li></ul></li></ul> | <p><u>문자열</u></p><ul><li>모두 찾기 및 모두 바꾸기</li></ul> | <p>새 사용자 지정 필드</p> |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|:---:|---|
+| <p>문자열</p> | <ul><li><span>&#39;바꿀 시기&#39; 필드 기준</span></li><li><span>&#39;다음으로 바꾸기&#39; 필드 값</span><ul><li><span>사용자 입력</span></li><li><span>별도의 필드</span></li></ul></li></ul> | <p><u>문자열</u></p><ul><li>모두 찾기 및 모두 바꾸기</li></ul> | <p>1</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -478,16 +509,16 @@ ht-degree: 9%
 **원래 보고서**
 
 | 외부 마케팅 채널 | 세션 |
-|---|---|
+|---|--:|
 | 이메일 마케팅 | 500 |
-| email%20marketing | 24 |
+| 이메일 %20마케팅 | 24 |
 
 {style="table-layout:auto"}
 
 **기본 보고서**
 
 | 외부 마케팅 채널 | 세션 |
-|---|---|
+|---|--:|
 | 이메일 마케팅 | 524 |
 
 
@@ -533,11 +564,11 @@ ht-degree: 9%
 +++ 세부 사항
 
 
-## 입력/연산자/출력 {#lookup-io}
+## 사양 {#lookup-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 출력 |
-|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>Sing 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>새 사용자 지정 필드</p> |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|:---:|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>Sing 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -652,11 +683,11 @@ ht-degree: 9%
 
 +++ 세부 사항
 
-## 입력/연산자/출력 {#urlparse-io}
+## 사양 {#urlparse-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 출력 |
-|---|---|---|---|
-| <ul><li>문자열</li></ul> | <ul><li>Sing 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>새 사용자 지정 필드</p> |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|:---:|---|
+| <ul><li>문자열</li></ul> | <ul><li>Sing 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
