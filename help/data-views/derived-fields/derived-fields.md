@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
+source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
 workflow-type: tm+mt
-source-wordcount: '3260'
+source-wordcount: '3281'
 ht-degree: 9%
 
 ---
@@ -459,7 +459,7 @@ ht-degree: 9%
 
 ## 제한
 
-CJA에서는 중첩된 컨테이너 모델을 해당 기능에 사용합니다. 이 중첩 컨테이너 모델은 규칙 빌더를 사용할 때 제한을 결정합니다. CJA에서 사용하는 기본 중첩 컨테이너 모델은 아래 그림과 같이 구성됩니다.
+CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델) 을 클릭하여 제품에서 사용할 수 있습니다. 이 컨테이너 모델은, 비록 자연에서 유연하지만 규칙 빌더를 사용할 때 일부 제한을 적용합니다. CJA에서 사용하는 기본 중첩 컨테이너 모델은 아래 그림과 같이 구성됩니다.
 
 <p align="center">
 <img src="./assets/containers.png" width="70%" valign="middle">
