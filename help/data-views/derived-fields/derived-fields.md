@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
+source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: '3260'
 ht-degree: 9%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 9%
    - 사용자 지정 필드를 정의하는 방법
    - 사용자 지정 필드를 정의한 후 데이터
 
-- 종속성(선택 사항)
+- 제한(선택 사항)
 
 
 <!-- Concatenate -->
@@ -457,29 +457,25 @@ ht-degree: 9%
 | 긴 여행 |
 
 
-## 종속성
+## 제한
 
-값을 선택하고 설정할 때에는 다음 종속성이 적용됩니다.
+CJA에서는 중첩된 컨테이너 모델을 해당 기능에 사용합니다. 이 중첩 컨테이너 모델은 규칙 빌더를 사용할 때 제한을 결정합니다. CJA에서 사용하는 기본 중첩 컨테이너 모델은 아래 그림과 같이 구성됩니다.
 
-|  | 데이터 집합 종속성 |
+<p align="center">
+<img src="./assets/containers.png" width="70%" valign="middle">
+</p>
+
+자세한 내용은 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 추가 정보.
+
+다음 컨테이너 제한이 적용되며 _선택_ 및 _설정_ 값.
+
+|  | 제한 |
 |:---:|----|
-| <span style='color: red'>A</span> | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 데이터 세트에서 시작해야 합니다. |
-| <span style='color: red'>B</span> | 모든 값 _설정_ 규칙 전체에서 동일한 데이터 세트에서 시작해야 합니다. |
-| <span style='color: blue'>C</span> | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 는 동일한 데이터 세트에서 와야 합니다. |
+| **<span style='color: red'>A</span>** | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 컨테이너에서 비롯되며 모든 유형(문자열)이 될 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등) <br/>![종속성 A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 모든 값 _설정_ 규칙 전체에서 동일한 컨테이너여야 하며 같은 유형이나 사용자 지정 값이 있어야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 동일한 컨테이너에서 온 후 _not_ 같은 유형이어야 합니다. <br/> ![종속성 C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
-
-![데이터 집합 종속성 시 사례](assets/case-when-datasets.png)
-
-
-|  | 형식 종속성 |
-|:---:|----|
-| <span style='color: red'>D</span> | 사용자가 사용할 값 유형 _설정_ 규칙 간에는 동일해야 합니다. |
-| <span style='color: blue'>E</span> | 사용자가 사용할 값 유형 _선택_ 구문 내 또는 규칙의 전체 구문은 모든 유형(문자열, 숫자, 날짜)일 수 있습니다. |
-
-{style="table-layout:auto"}
-
-![유형 종속성 시 사례](assets/case-when-types.png)
 
 +++
 
@@ -567,7 +563,7 @@ ht-degree: 9%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>Sing 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>단일 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -686,7 +682,7 @@ ht-degree: 9%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <ul><li>문자열</li></ul> | <ul><li>Sing 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>단일 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
 
 {style="table-layout:auto"}
 

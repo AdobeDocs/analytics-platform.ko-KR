@@ -2,32 +2,27 @@
 title: Adobe Analytics 및 CJA 보고 기능 간의 데이터 처리 비교
 description: 다양한 보고 기능에 대한 데이터 처리의 차이점 이해
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 80d0b95f3bc3d785d9ca7e4b50aa1bd8440373c2
+source-git-commit: d075f3d2b4436c668010e09c6d1ac3191edac241
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 91%
+source-wordcount: '1202'
+ht-degree: 75%
 
 ---
 
 # Adobe Analytics 및 Customer Journey Analytics에서 데이터 처리를 비교합니다.
 
-<!--
+보고에 유용하기 전에 데이터를 처리할 수 있는 기능이 필요한 경우가 많습니다. 데이터 수집에서 보고서 또는 시각화 생성에 이르는 여정의 여러 단계에서 해당 데이터를 처리할 수 있습니다.
 
-You often need the ability to process data before it is useful for reporting. You can process that data at several stages in the journey that spans from collecting data to generating your report or visualization.
+Adobe Analytics에서 이러한 데이터 처리 대부분은 데이터를 수집한 직후 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능을 사용하여 이를 지원할 수 있습니다 **수집 시간 처리**.
+그런 다음 데이터가 저장되고 보고서 시간에 추가 처리를 적용할 수 있습니다. 예를 들어, 차원을 분류하거나, 세그멘테이션을 적용하거나, 다른 속성 모델을 선택합니다. 이 **보고서 처리 시간** 즉시 발생합니다.
 
-In Adobe Analytics most of that processing of data occurs immediately after collecting the data. Functionalties like VISTA Rules, Processing Rules, Marketing Channels Processing Rules are available to support this **collection-time processing**. 
-The data is then stored and at report time you can apply additional processing. For example, break down dimensions, apply segmentation, or  select a different attribution model. This **report-time processing** happens on the fly. 
+Adobe Analytics에서 보고서 처리 시간은 일반적으로 수집 시 발생하는 것보다 더 적은 처리 시간을 나타냅니다.
 
-In Adobe Analytics, report-time processing commonly represents a smaller amount of processing  than what happens at collection-time.
+![Adobe Analytics 수집 시간 처리](../assets/aa-processing.png)
 
-![Adobe Analytics collection-time processing](../assets/aa-processing.png)
+반면 CJA(Customer Journey Analytics)은 데이터를 구성하고 저장하기 전에 최소 사전 수집 시간 처리가 필요하도록 설계되었습니다. CJA의 기본 아키텍처는 보고서 시간에 저장된 데이터로 작업하도록 더 설계되었으며 Workspace뿐만 아니라 훨씬 더 중요하게는 의 정의를 통해 강력한 보고서 처리 기능을 제공합니다 [구성 요소](/help/data-views/component-settings/overview.md) 및 [파생 필드](/help/data-views/derived-fields/derived-fields.md) 를 클릭합니다.
 
-In contrast, Customer Journey Analytics (CJA) is designed to require minimal upfront collection-time processing before data being is organized and stored. The underlying architecture of CJA is more designed to work with the stored data at report-time and offers its powerful report-time processing functionality not only in  Workspace but also, even more importantly, through the definition of components in your Data Views. 
-
-![CJA report-time processing](../assets/cja-processing.png)
-
--->
-
+![CJA 보고서 처리 시간](../assets/cja-processing.png)
 
 다양한 보고 기능에 대한 데이터 처리의 차이를 이해하면 사용 가능한 지표와 차이가 발생할 수 있는 이유를 파악할 수 있습니다.
 
@@ -69,6 +64,6 @@ Adobe 및 CJA에 대해 수행되는 데이터 처리 단계와 이러한 단계
 | 코어 AA [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko-KR) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>방문 정의 (메모 참조)</li><li>Cross-Device Analytics (메모 참조)</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙 (메모 참조)</li><li>방문 수준 마케팅 채널 규칙 (메모 참조) 기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li></ul> |  | <ul><li>CDA를 사용하려면 보고서 시간 처리 기능이 있는 가상 보고서 세트를 사용해야 합니다.</li><li>코어 Analytics의 Attribution IQ는 보고서 시간에 완전히 파생된 마케팅 채널(즉, 파생된 중간 값)을 사용합니다.</li><li>Attribution IQ는 보고서 시간 처리 VRS에 사용되는 경우를 제외하고 처리 시간 방문 정의를 사용합니다.</li></ul> |
 | [보고서 시간 처리](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR)(VRS RTP) 기능이 있는 코어 AA 가상 보고서 세트 | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR)</li></ul> | <ul><li>방문 정의</li><li>기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li><li>기타 VRS RTP 설정</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>VRS RTP [설명서](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR)를 참조하십시오.</li></ul> |
 | AEP 데이터 레이크의 [Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트 | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>히트 수준 마케팅 채널 규칙</li><li>필드 기반 결합 (메모 참조)</li></ul> |  | <ul><li>[방문 수준 마케팅 채널 규칙](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR)</li><li>방문 논리</li><li>기여도 논리</li><li>필터 논리</li></ul> | <ul><li>고유한 필터 논리 및 계산된 지표를 적용해야 합니다.</li><li>필드 기반 결합은 Analytics Source Connector에서 만든 데이터 세트 외에 별도의 결합된 데이터 세트를 만듭니다.</li></ul> |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR) 보고 | <ul><li>Adobe Experience Platform 데이터 수집의 일부로 구현됨</li></ul> | <ul><li>세션 정의</li><li>[데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR) 설정<li>기여도 논리</li><li>계산된 지표</li><li>필터 논리</li></ul> | <ul><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>필드 기반 결합을 사용하려면 결합된 데이터 세트를 사용해야 합니다.</li></ul> |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR) 보고 | <ul><li>Adobe Experience Platform 데이터 수집의 일부로 구현됨</li></ul> | <ul><li>세션 정의</li><li>[데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko-KR) 설정<li>기여도 논리</li><li>계산된 지표</li><li>필터 논리</li></ul> | <ul><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>크로스 채널 분석을 활용하려면 결합된 데이터 세트를 사용해야 합니다.</li></ul> |
 
 {style="table-layout:auto"}
