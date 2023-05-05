@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
+source-git-commit: b7338c66ba3f78bd082e6d8da43b91b5517f48ac
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3265'
 ht-degree: 9%
 
 ---
@@ -17,42 +17,42 @@ ht-degree: 9%
 
 {{release-limited-testing}}
 
-파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생된(사용자 지정) 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해(종종 복잡함) 데이터 조작을 즉시 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 을 의 구성 요소로 추가로 정의할 수 있습니다 [데이터 보기](../data-views.md).
+파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해 빠르게 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 을 의 구성 요소로 추가로 정의할 수 있습니다 [데이터 보기](../data-views.md).
 
 파생된 필드는 CJA 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 예 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)또는 고유한 ETL(Extract Transform Load)/ELT(Extract Load Transform) 프로세스 내에서 사용할 수 있습니다.
 
-파생 필드는 내에서 사용자 정의 필드로 정의됩니다 [데이터 보기](../data-views.md)는 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
+파생 필드는 내에서 정의됩니다 [데이터 보기](../data-views.md)는 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
 사용 사례는 다음과 같습니다.
 
-- 잘못된 수집된 페이지 이름 값을 수정하여 페이지 이름 값을 수정하는 사용자 지정 페이지 이름 필드를 정의합니다.
+- 페이지 이름 값을 수정하기 위해 잘못 수집된 페이지 이름 값을 수정하는 파생된 페이지 이름 필드를 정의합니다.
 
-- 하나 이상의 조건(예: URL 매개 변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 사용자 지정 마케팅 채널 필드를 정의합니다.
+- 하나 이상의 조건(예: URL 매개 변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 파생 마케팅 채널 필드를 정의합니다.
 
-## 사용자 지정 필드 인터페이스
+## 파생 필드 인터페이스
 
-사용자 지정 필드를 만들거나 편집할 때 사용자 지정 필드 인터페이스를 사용합니다.
+파생 필드를 만들거나 편집할 때 파생 필드 인터페이스를 사용합니다.
 
-![사용자 지정 필드 대화 상자](assets/custom-field-dialog.png)
+![파생 필드 대화 상자](assets/derived-field-dialog.png)
 
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
 | 1 | **선택기** | 선택기 영역을 사용하여 선택 및 끌어서 놓습니다 ![함수](assets/Smock_Function_18_N.svg) 함수,![함수 템플릿 아이콘](assets/Smock_FileTemplate_18_N.svg) 함수 템플릿,![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) 스키마 필드 또는![표준 필드 아이콘](assets/Smock_DragHandle_18_N.svg)규칙 빌더에 대한 표준 필드입니다. <br/>드롭다운을 사용하여 다음 중 하나를 선택합니다 [!UICONTROL 함수], [!UICONTROL 함수 템플릿], [!UICONTROL 스키마 필드], 및 [!UICONTROL 표준 필드].<br/>를 사용하여 함수, 함수 템플릿, 스키마 및 표준 필드를 검색할 수 있습니다 ![검색 아이콘](assets/Smock_Search_18_N.svg) 검색 상자. <br/>선택한 객체 목록을 선택하여 필터링할 수 있습니다 ![필터 아이콘](assets/Smock_Filter_18_N.svg) 에서 필터 및 지정 [!UICONTROL 필드 필터링 기준] 대화 상자. 을 사용하여 필터를 쉽게 제거할 수 있습니다 ![닫기 아이콘](assets/CrossSize75.svg) 참조하십시오. |
-| 2 | **규칙 빌더** | 하나 이상의 규칙을 사용하여 사용자 지정 필드를 순차적으로 작성합니다. 규칙은 함수의 특정 구현이므로 항상 하나의 함수만 연관됩니다. 함수를 규칙 빌더에 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 결정합니다.<br/>자세한 내용은 [규칙 인터페이스](#rule-interface) 추가 정보. <br/>규칙 빌더에서 이미 사용할 수 있는 규칙 간, 시작, 종료 또는 사이에 함수를 삽입할 수 있습니다. 규칙 빌더의 마지막 규칙은 사용자 지정 필드의 최종 출력을 결정합니다. |
-| 3 | **[!UICONTROL **&#x200B;필드 설정&#x200B;**]** | 사용자 지정 필드의 이름을 지정하고 설명하며 필드 유형을 검사할 수 있습니다. |
-| 4 | **[!UICONTROL **&#x200B;최종 출력&#x200B;**]** | 이 영역에서는 지난 30일 동안의 데이터와 규칙 빌더의 사용자 지정 필드에 대한 변경 사항을 기반으로, 즉시 업데이트된 출력 값 미리 보기를 보여줍니다. |
+| 2 | **규칙 빌더** | 하나 이상의 규칙을 사용하여 파생 필드를 순차적으로 빌드합니다. 규칙은 함수의 특정 구현이므로 항상 하나의 함수만 연관됩니다. 함수를 규칙 빌더에 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 결정합니다.<br/>자세한 내용은 [규칙 인터페이스](#rule-interface) 추가 정보. <br/>규칙 빌더에서 이미 사용할 수 있는 규칙 간, 시작, 종료 또는 사이에 함수를 삽입할 수 있습니다. 규칙 빌더의 마지막 규칙은 파생 필드의 최종 출력을 결정합니다. |
+| 3 | **[!UICONTROL **&#x200B;필드 설정&#x200B;**]** | 파생된 필드의 이름을 지정하고 설명하며 필드 유형을 검사할 수 있습니다. |
+| 4 | **[!UICONTROL **&#x200B;최종 출력&#x200B;**]** | 이 영역에서는 지난 30일 동안의 데이터와 규칙 빌더의 파생 필드에 대한 변경 사항을 기반으로 하여 즉시 업데이트된 출력 값 미리 보기를 보여줍니다. |
 
 {style="table-layout:auto"}
 
-사용자 지정 필드 인터페이스에 처음 액세스하면 [!UICONTROL 필드 템플릿으로 시작] 마법사가 표시됩니다.
+## 필드 템플릿 마법사
 
-![사용자 지정 필드 템플릿 마법사 대화 상자](assets/field-template-dialog.png)
+처음 파생 필드 인터페이스에 액세스하면 [!UICONTROL 필드 템플릿으로 시작] 마법사가 표시됩니다.
 
 1. 만들려는 필드 유형을 가장 잘 설명하는 템플릿을 선택합니다.
 2. 을(를) 선택합니다 **[!UICONTROL **&#x200B;선택&#x200B;**]** 계속하려면 클릭하십시오.
 
-사용자 지정 필드 대화 상자는 선택한 필드 유형에 필요한 규칙(및 함수)으로 채워지거나 유용합니다. 자세한 내용은 [함수 템플릿](#function-templates) 를 참조하십시오.
+파생 필드 대화 상자는 선택한 필드 유형에 필수적이거나 유용한 규칙(및 함수)으로 채워집니다. 자세한 내용은 [함수 템플릿](#function-templates) 를 참조하십시오.
 
 ## 규칙 인터페이스
 
@@ -69,22 +69,22 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-## 사용자 지정 필드 만들기
+## 파생 필드 만들기
 
 1. 기존 데이터 보기를 선택하거나 데이터 보기를 만듭니다. 자세한 내용은 [데이터 보기](../data-views.md) 추가 정보.
 
 2. 을(를) 선택합니다 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 클릭합니다.
 
-3. 선택 **[!UICONTROL **&#x200B;사용자 지정 필드 만들기&#x200B;**]** 왼쪽 레일에서
+3. 선택 **[!UICONTROL **&#x200B;파생 필드 만들기&#x200B;**]** 왼쪽 레일에서
 
-4. 사용자 지정 필드를 정의하려면 [!UICONTROL 사용자 지정 필드 만들기] 인터페이스. 자세한 내용은 [사용자 지정 필드 인터페이스](#custom-field-interface).
+4. 파생 필드를 정의하려면 [!UICONTROL 파생 필드 만들기] 인터페이스. 자세한 내용은 [파생 필드 인터페이스](#derived-field-interface).
 
-   새 사용자 지정 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**.
+   새 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**.
 
-5. 새 사용자 지정 필드가 **[!UICONTROL **&#x200B;사용자 지정 필드 >**]** 컨테이너, **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** ( 데이터 보기의 왼쪽 레일에 있습니다.)
+5. 새 파생 필드가 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너, **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** ( 데이터 보기의 왼쪽 레일에 있습니다.)
 
 
-## 사용자 지정 필드 편집
+## 파생 필드 편집
 
 1. 기존 데이터 보기를 선택합니다. 자세한 내용은 [데이터 보기](../data-views.md) 추가 정보.
 
@@ -92,19 +92,19 @@ ht-degree: 9%
 
 3. 선택 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 탭에서 다음을 수행합니다. [!UICONTROL 연결] 창의 왼쪽에 있습니다.
 
-4. 선택 **[!UICONTROL **&#x200B;사용자 지정 필드 >**]** 컨테이너.
+4. 선택 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너.
 
-5. 편집할 사용자 지정 필드 위로 마우스를 가져간 다음 선택합니다 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
+5. 편집할 파생 필드를 마우스로 가리킨 다음 선택합니다 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
 
-6. 사용자 지정 필드를 편집하려면 [!UICONTROL 사용자 지정 필드 편집] 인터페이스. 자세한 내용은 [사용자 지정 필드 인터페이스](#custom-field-interface).
+6. 파생 필드를 편집하려면 [!UICONTROL 파생 필드 편집] 인터페이스. 자세한 내용은 [파생 필드 인터페이스](#derived-field-interface).
 
-   - 선택 **[!UICONTROL **&#x200B;저장&#x200B;**]** 업데이트된 사용자 지정 필드를 저장하려면 을 클릭합니다.
+   - 선택 **[!UICONTROL **&#x200B;저장&#x200B;**]** 업데이트된 파생 필드를 저장하려면 다음을 수행합니다.
 
-   - 선택 **[!UICONTROL **&#x200B;취소&#x200B;**]** 사용자 지정 필드의 변경 사항을 취소하려면 다음을 수행하십시오.
+   - 선택 **[!UICONTROL **&#x200B;취소&#x200B;**]** 를 눌러 파생 필드에 대한 변경 사항을 취소합니다.
 
-   - 선택 **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]** 사용자 지정 필드를 새 사용자 지정 필드로 저장 새 사용자 지정 필드의 이름은 `(copy)` 가 추가되었습니다.
+   - 선택 **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]** 파생 필드를 새 파생 필드로 저장하려면 새 파생 필드의 이름은 `(copy)` 가 추가되었습니다.
 
-## 사용자 지정 필드 삭제
+## 파생 필드 삭제
 
 1. 기존 데이터 보기를 선택합니다. 자세한 내용은 [데이터 보기](../data-views.md) 추가 정보.
 
@@ -112,20 +112,20 @@ ht-degree: 9%
 
 3. 선택 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 탭 [!UICONTROL 연결] 창
 
-4. 선택 **[!UICONTROL **&#x200B;사용자 지정 필드 >**]** 컨테이너.
+4. 선택 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너.
 
-5. 삭제할 사용자 지정 필드를 마우스로 가리킨 다음 을 선택합니다 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
+5. 삭제할 파생 필드를 마우스로 가리킨 다음 선택합니다 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
 
-6. 사용 중 **[!UICONTROL **&#x200B;사용자 지정 필드 편집&#x200B;**]** 인터페이스에서 삭제를 선택합니다.
+6. 사용 중 **[!UICONTROL **&#x200B;파생 필드 편집&#x200B;**]** 인터페이스에서 삭제를 선택합니다.
 
-   A [!UICONTROL 구성 요소 삭제] 대화 상자에 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부에 사용자 지정 필드에 있을 수 있는 외부 참조를 고려하십시오.
+   A [!UICONTROL 구성 요소 삭제] 대화 상자에 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 외부 참조가 있을 수 있음을 고려하십시오.
 
-   - 선택 **[!UICONTROL **&#x200B;계속&#x200B;**]** 를 클릭하여 사용자 지정 필드를 삭제합니다.
+   - 선택 **[!UICONTROL **&#x200B;계속&#x200B;**]** 를 눌러 파생된 필드를 삭제합니다.
 
 
 ## 함수 템플릿
 
-특정 사용 사례에 대한 사용자 지정 필드를 빠르게 만들기 위해 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 사용자 지정 필드 인터페이스의 선택기 영역에서 액세스할 수 있거나, 처음 사용할 때 [!UICONTROL 필드 템플릿으로 시작] 마법사
+특정 사용 사례에 대해 파생 필드를 빠르게 만들기 위해 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 파생 필드 인터페이스의 선택기 영역에서 액세스할 수 있거나, 처음 사용할 때 [!UICONTROL 필드 템플릿으로 시작] 마법사
 
 
 ### 마케팅 채널
@@ -163,9 +163,9 @@ ht-degree: 9%
    - 출력.
 
 - 사용 사례:
-   - 사용자 지정 필드를 정의하기 전 데이터
-   - 사용자 지정 필드를 정의하는 방법
-   - 사용자 지정 필드를 정의한 후 데이터
+   - 파생 필드를 정의하기 전에 데이터
+   - 파생 필드를 정의하는 방법
+   - 파생 필드를 정의한 후 데이터
 
 - 제한(선택 사항)
 
@@ -174,7 +174,7 @@ ht-degree: 9%
 
 ### [!DNL Concatenate]
 
-두 개 이상의 필드, 사용자 지정 필드 또는 사용자 입력 값을 정의된 구분 기호가 있는 단일 필드에 결합합니다.
+두 개 이상의 필드, 파생 필드 또는 사용자 입력 값을 정의된 구분 기호가 있는 단일 필드에 결합합니다.
 
 +++ 세부 사항
 
@@ -182,7 +182,7 @@ ht-degree: 9%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:--:|---|
-| <p>문자열</p> | <ul><li>결합할 둘 이상의 값<ul><li>필드</li><li>이전 규칙에서 파생된 값</li><li>사용자 입력 값</li></ul></li><li>구분 기호<ul><li>각 값에 대한 구분 기호 입력 또는 선택</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>2</p> | <p>새 사용자 지정 필드</p> |
+| <p>문자열</p> | <ul><li>결합할 둘 이상의 값<ul><li>필드</li><li>이전 규칙에서 파생된 값</li><li>사용자 입력 값</li></ul></li><li>구분 기호<ul><li>각 값에 대한 구분 기호 입력 또는 선택</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>2</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -228,15 +228,15 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#concatenate-customfield}
+### 파생 필드 {#concatenate-derivedfield}
 
-새 **[!UICONTROL **&#x200B;원본 - 대상&#x200B;**]** 사용자 지정 필드. 를 사용합니다 **[!UICONTROL 연결]** 를 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 필드를 사용하여 `-` [!UICONTROL 구분 기호].
+새 **[!UICONTROL **&#x200B;원본 - 대상&#x200B;**]** 파생 필드. 를 사용합니다 **[!UICONTROL 연결]** 를 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 필드를 사용하여 `-` [!UICONTROL 구분 기호].
 
 ![[!DNL Concatenate] 규칙](assets/concatenate.png)
 
 ### 데이터 후 {#concatenate-dataafter}
 
-| 원본 - 대상<br/>(사용자 지정 필드) |
+| 원본 - 대상<br/>(파생 필드) |
 |---|
 | SLC-MCO |
 | SLC-LAX |
@@ -252,7 +252,7 @@ ht-degree: 9%
 
 ### [!DNL Case When]
 
-하나 이상의 필드에서 정의된 기준에 따라 조건을 적용합니다. 그런 다음 이러한 기준을 사용하여 조건의 시퀀스를 기반으로 새 사용자 지정 필드에 값을 정의합니다.
+하나 이상의 필드에서 정의된 기준에 따라 조건을 적용합니다. 그런 다음 이러한 기준을 사용하여 조건의 시퀀스를 기반으로 새 파생 필드에 값을 정의합니다.
 
 +++ 세부 사항
 
@@ -260,7 +260,7 @@ ht-degree: 9%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜/날짜-시간</li></ul> | <ul><li>입력 필드</li><li>기준</li></ul> | <p><u>문자열</u></p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>임의의 용어로 시작</li><li>다음으로 끝남</li><li>임의의 용어로 종료</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로도 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>숫자</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>날짜</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>보다 나중</li><li>다음보다 이후이거나 같음</li><li>다음 이전</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <p>5</p> | <p>새 사용자 지정 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜/날짜-시간</li></ul> | <ul><li>입력 필드</li><li>기준</li></ul> | <p><u>문자열</u></p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>임의의 용어로 시작</li><li>다음으로 끝남</li><li>임의의 용어로 종료</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로도 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>숫자</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p><u>날짜</u></p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>보다 나중</li><li>다음보다 이후이거나 같음</li><li>다음 이전</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <p>5</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -303,9 +303,9 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#casewhen-uc1-customfield}
+### 파생 필드 {#casewhen-uc1-derivedfield}
 
-새 `Marketing Channel` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL CASE WHEN]** 함수를 사용하여 두 페이지의 `Page URL` 및 `Referring URL` 필드.
+새 `Marketing Channel` 파생 필드. 를 사용합니다 **[!UICONTROL CASE WHEN]** 함수를 사용하여 두 페이지의 `Page URL` 및 `Referring URL` 필드.
 
 함수의 사용에 주목하십시오 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 값을 가져올 규칙을 정의하려면 `Page Url` 및 `Referring Url` 이전 **[!UICONTROL ** CASE WHEN **]** 규칙이 적용됩니다.
 
@@ -359,9 +359,9 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#casewhen-uc2-customfield}
+### 파생 필드 {#casewhen-uc2-derivedfield}
 
-을(를) 정의합니다 `Product Finding Methods (new)` 사용자 지정 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이러한 규칙은 이전 규칙의 가능한 모든 변형에 논리를 적용합니다 **[!UICONTROL **&#x200B;제품 검색 방법&#x200B;**]** 필드 값 `search` 및 `browse` 사용 **[!UICONTROL 구문을 포함합니다]** 기준.
+을(를) 정의합니다 `Product Finding Methods (new)` 파생 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이러한 규칙은 이전 규칙의 가능한 모든 변형에 논리를 적용합니다 **[!UICONTROL **&#x200B;제품 검색 방법&#x200B;**]** 필드 값 `search` 및 `browse` 사용 **[!UICONTROL 구문을 포함합니다]** 기준.
 
 ![[!DNL Case When] 규칙 2](assets/case-when-2.png)
 
@@ -432,9 +432,9 @@ ht-degree: 9%
 | 21 |
 | 8 |
 
-### 사용자 지정 필드 {#casewhen-uc3-customfield}
+### 파생 필드 {#casewhen-uc3-derivedfield}
 
-을(를) 정의합니다 `Trip Duration (bucketed)` 사용자 지정 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이 규칙은 이전 규칙을 버킷하는 논리를 적용합니다 **[!UICONTROL **&#x200B;이동 기간&#x200B;**]** 필드 값을 세 개의 값으로 설정합니다. `short trip`, `medium  trip`, 및 `long trip`.
+을(를) 정의합니다 `Trip Duration (bucketed)` 파생 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이 규칙은 이전 규칙을 버킷하는 논리를 적용합니다 **[!UICONTROL **&#x200B;이동 기간&#x200B;**]** 필드 값을 세 개의 값으로 설정합니다. `short trip`, `medium  trip`, 및 `long trip`.
 
 ![[!DNL Case When] 규칙 3](assets/case-when-3.png)
 
@@ -459,20 +459,22 @@ ht-degree: 9%
 
 ## 제한
 
-CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델) 을 클릭하여 제품에서 사용할 수 있습니다. 이 컨테이너 모델은, 비록 자연에서 유연하지만 규칙 빌더를 사용할 때 일부 제한을 적용합니다. CJA에서 사용하는 기본 중첩 컨테이너 모델은 아래 그림과 같이 구성됩니다.
+CJA에서는 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 자세한 내용은 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 추가 정보. 이 컨테이너 모델은, 비록 자연에서 유연하지만 규칙 빌더를 사용할 때 일부 제한을 적용합니다.
+
+CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 <p align="center">
-<img src="./assets/containers.png" width="70%" valign="middle">
+<img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-자세한 내용은 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 추가 정보.
 
-다음 컨테이너 제한이 적용되며 _선택_ 및 _설정_ 값.
+
+다음 제한 사항이 적용되며 _선택_ 및 _설정_ 값.
 
 |  | 제한 |
 |:---:|----|
 | **<span style='color: red'>A</span>** | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 컨테이너에서 비롯되며 모든 유형(문자열)이 될 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등) <br/>![종속성 A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 모든 값 _설정_ 규칙 전체에서 동일한 컨테이너여야 하며 같은 유형이나 사용자 지정 값이 있어야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
+| **<span style='color: red'>B</span>** | 모든 값 _설정_ 규칙 전체에서 동일한 컨테이너여야 하며 같은 유형이나 동일한 형식의 파생 값을 포함해야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
 | **<span style='color: blue'>C</span>** | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 동일한 컨테이너에서 온 후 _not_ 같은 유형이어야 합니다. <br/> ![종속성 C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
@@ -484,7 +486,7 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 ### [!DNL Find and Replace]
 
-선택한 필드에서 모든 값을 찾은 다음 새 사용자 지정 필드에서 다른 값으로 대체합니다.
+선택한 필드에서 모든 값을 찾은 다음 새 파생 필드에서 해당 값을 다른 값으로 바꿉니다.
 
 +++ 세부 사항
 
@@ -492,7 +494,7 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <p>문자열</p> | <ul><li><span>&#39;바꿀 시기&#39; 필드 기준</span></li><li><span>&#39;다음으로 바꾸기&#39; 필드 값</span><ul><li><span>사용자 입력</span></li><li><span>별도의 필드</span></li></ul></li></ul> | <p><u>문자열</u></p><ul><li>모두 찾기 및 모두 바꾸기</li></ul> | <p>1</p> | <p>새 사용자 지정 필드</p> |
+| <p>문자열</p> | <ul><li><span>&#39;바꿀 시기&#39; 필드 기준</span></li><li><span>&#39;다음으로 바꾸기&#39; 필드 값</span><ul><li><span>사용자 입력</span></li><li><span>별도의 필드</span></li></ul></li></ul> | <p><u>문자열</u></p><ul><li>모두 찾기 및 모두 바꾸기</li></ul> | <p>1</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -529,15 +531,15 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#findreplace-uc-customfield}
+### 파생 필드 {#findreplace-uc-derivedfield}
 
-을(를) 정의합니다 `Email Marketing (updated)` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL 찾기 및 바꾸기]** 규칙을 정의하여, `email%20marketing` with `email marketing`.
+을(를) 정의합니다 `Email Marketing (updated)` 파생 필드. 를 사용합니다 **[!UICONTROL 찾기 및 바꾸기]** 규칙을 정의하여, `email%20marketing` with `email marketing`.
 
 ![[!DNL Find and Replace] 규칙](assets/find-and-replace.png)
 
 ### 데이터 후 {#findreplace-uc-dataafter}
 
-| 외부 마케팅<br/>(사용자 지정 필드) |
+| 외부 마케팅<br/>(파생 필드) |
 |----|
 | 이메일 마케팅 |
 | 이메일 마케팅 |
@@ -563,7 +565,7 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>단일 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>단일 필드</li><li>조회 파일<ul><li>키 열</li><li>새 필드 열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -615,9 +617,9 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 {style="table-layout:auto"}
 
 
-### 사용자 지정 필드 {#lookup-uc1-customfield}
+### 파생 필드 {#lookup-uc1-derivedfield}
 
-을(를) 정의합니다 `Hotel Name` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 **[!UICONTROL **&#x200B;호텔 ID **]** 필드 및 를 새 값으로 바꿉니다.
+을(를) 정의합니다 `Hotel Name` 파생 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 **[!UICONTROL **&#x200B;호텔 ID **]** 필드 및 를 새 값으로 바꿉니다.
 
 ![[!DNL Lookup] 규칙 1](assets/lookup-1.png)
 
@@ -650,9 +652,9 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#lookup-uc2-customfield}
+### 파생 필드 {#lookup-uc2-derivedfield}
 
-을(를) 정의합니다 `Page Name (updated)` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. **[!UICONTROL **&#x200B;페이지 이름&#x200B;**]** 필드 및 를 업데이트된 올바른 값으로 바꿉니다.
+을(를) 정의합니다 `Page Name (updated)` 파생 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. **[!UICONTROL **&#x200B;페이지 이름&#x200B;**]** 필드 및 를 업데이트된 올바른 값으로 바꿉니다.
 
 ![[!DNL Lookup] 규칙 2](assets/lookup-2.png)
 
@@ -682,7 +684,7 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|:---:|---|
-| <ul><li>문자열</li></ul> | <ul><li>단일 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 사용자 지정 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>단일 필드</li><li>구문 분석 옵션<ul><li>프로토콜 가져오기</li><li>호스트 가져오기</li><li>경로 가져오기</li><li>쿼리 값 가져오기<ul><li>쿼리 매개변수</li></ul></li><li>해시 값 가져오기</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>5</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -702,9 +704,9 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#urlparse-uc1-customfield}
+### 파생 필드 {#urlparse-uc1-derivedfield}
 
-을(를) 정의합니다  `Referring Domain` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 함수에서 호스트를 가져올 규칙을 정의하는 함수입니다. **참조 URL** 새 사용자 지정 필드에 저장합니다.
+을(를) 정의합니다  `Referring Domain` 파생 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 함수에서 호스트를 가져올 규칙을 정의하는 함수입니다. **참조 URL** 새 파생 필드에 저장합니다.
 
 ![[!DNL Url Parse] 규칙 1](assets/url-parse-1.png)
 
@@ -734,9 +736,9 @@ CJA에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.c
 
 {style="table-layout:auto"}
 
-### 사용자 지정 필드 {#urlparse-uc2-customfield}
+### 파생 필드 {#urlparse-uc2-derivedfield}
 
-을(를) 정의합니다 `Query String CID` 사용자 지정 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 페이지 URL에서 쿼리 문자열 매개 변수의 값을 가져올 규칙을 정의하고 `cid` 을 쿼리 매개 변수로 사용합니다. 출력 값은 새 사용자 정의 필드에 저장됩니다.
+을(를) 정의합니다 `Query String CID` 파생 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 페이지 URL에서 쿼리 문자열 매개 변수의 값을 가져올 규칙을 정의하고 `cid` 을 쿼리 매개 변수로 사용합니다. 출력 값은 새 파생 필드에 저장됩니다.
 
 ![[!DNL Url Parse] 규칙 2](assets/url-parse-2.png)
 
