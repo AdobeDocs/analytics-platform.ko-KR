@@ -4,10 +4,10 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cc475afebba5bd1cfcaf3b1471ce6d1316126a9d
+source-git-commit: dab154ce10b0b4f7fb2873d92a1ce9ceb7478b26
 workflow-type: tm+mt
-source-wordcount: '1770'
-ht-degree: 53%
+source-wordcount: '1798'
+ht-degree: 52%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 53%
 > 
 >* 와 공유하는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 기본적으로 프로젝트에 대해 설정한 날짜 범위가 표시됩니다.
 >
->* 너무 많은 사용자가 동시에 액세스하려고 하면 프로젝트에 액세스할 수 없게 될 수 있습니다.
+>* 많은 사용자가 동시에 주어진 링크에 액세스하려고 하면 프로젝트에 액세스할 수 없게 될 수 있습니다. 기본적으로 5분마다 1개의 링크에 액세스할 수 있는 사용자는 190명 이상입니다. 조직이 이 제한에 도달하는 경우 5분을 기다린 다음 링크에 다시 액세스해 보십시오.
 
 
 모든 사람과 Analysis Workspace 프로젝트를 공유하려면 다음을 수행하십시오.
