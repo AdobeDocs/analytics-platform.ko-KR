@@ -3,14 +3,18 @@ description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터
 title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 87%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
 # 라인
+
+>[!NOTE]
+>
+>선 시각화 기능이 곧 제공됩니다 [지능형 캡션](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
 

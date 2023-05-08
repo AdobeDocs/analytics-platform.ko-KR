@@ -3,11 +3,11 @@ description: 주요 지표 요약 시각화를 사용하여 두 개의 타임라
 title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
-exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
+source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. 지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트(원하는 경우)를 선택하여 시각화를 구성합니다.
 
-   ![](assets/key-metric-config.png)
+   ![주요 지표 구성](assets/key-metric-config.png)
 
    | 구성 설정 | 정의 |
    | --- | --- |
@@ -46,7 +46,7 @@ ht-degree: 100%
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위를 비교하는 날짜 범위. |
    | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 특히 관심이 있는 세그먼트. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 * 여기에서 선 그래프 위로 마우스를 가져다 대면 개별 날짜에 대한 통계를 볼 수 있습니다.
 
-![](assets/key-metric-output2.png)
+![통계](assets/key-metric-output2.png)
 
 ## 시각화 설정
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 1. 시각화 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
 
-   ![](assets/edit-icon.png)
+   ![편집](assets/edit-icon.png)
 
    이제 원래 구성 보기로 돌아갑니다.
 
