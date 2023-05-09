@@ -1,8 +1,8 @@
 ---
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 75%
+source-wordcount: '950'
+ht-degree: 71%
 
 ---
 # 스니펫
@@ -56,3 +56,14 @@ ht-degree: 75%
 | [!UICONTROL **마지막 수정일**] | 구성 요소가 마지막으로 수정된 날짜를 표시합니다. 이 섹션은 필터, 지표, 계산된 지표 및 날짜 범위를 볼 때 표시됩니다. |
 
 {style="table-layout:auto"}
+
+## 구성 요소 정렬 옵션 {#components-sort-options}
+
+| 옵션 | 함수 |
+|---------|----------|
+| [!UICONTROL **권장**] | 목록의 맨 위에서 권장되는 구성 요소와 함께 구성 요소를 정렬합니다. 가장 자주 사용하는 구성 요소는 사용자 또는 조직의 다른 사용자가 가장 최근에 사용한 구성 요소보다 더 높게 표시됩니다. |
+| [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
+| [!UICONTROL **카테고리적**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
+
+{style="table-layout:auto"}
+

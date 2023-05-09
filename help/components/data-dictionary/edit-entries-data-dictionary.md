@@ -4,10 +4,10 @@ title: 데이터 사전의 항목 편집
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 58%
+source-wordcount: '315'
+ht-degree: 53%
 
 ---
 
@@ -32,6 +32,10 @@ Customer Journey Analytics 관리자는 주어진 데이터 보기에 대해 데
    구성 요소 유형은 색상과 아이콘을 모두 사용하여 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고, **세그먼트** ![세그먼트 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 보라색이고 **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 세그먼트 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](assets/calculated-metric-icon-created.png) 조직의 Analytics 관리자가 만든 계산된 지표를 표시합니다.
 
 {{dd-filter-criteria}}
+
+1. (선택 사항) **정렬** 아이콘 ![구성 요소 정렬 아이콘](assets/component-sort-icon.png)을 선택한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+
+   {{components-sort-options}}
 
 1. 구성 요소 목록에서 편집할 구성 요소를 선택합니다.
 
