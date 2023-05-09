@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 98%
+source-wordcount: '1267'
+ht-degree: 92%
 
 ---
 
@@ -59,11 +59,17 @@ ht-degree: 98%
 
    ![로그인 순서](assets/signseq.png)
 
-1. 회사 선택. 대시보드에 로그인하면 **[!UICONTROL 회사 선택]** 화면이 나타납니다. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드와 연결된 회사 이름을 탭합니다.
+1. 회사 선택. 대시보드에 로그인하면 **[!UICONTROL 회사 선택]** 화면이 나타납니다. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드에 연결된 회사 이름을 탭합니다.
 
-1. 그러면 스코어카드 목록에 사용자와 공유된 모든 스코어카드가 표시됩니다. 보려는 스코어카드를 탭합니다.
+   스코어카드 목록에는 사용자와 공유된 모든 스코어카드가 표시됩니다.
 
-   ![회사 선택](assets/nextseq.png)
+1. 보려는 스코어카드를 탭합니다.
+
+   한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 스코어카드 목록에서 사용할 수 있습니다.
+
+   스코어카드 제목, 조직 이름 또는 가장 최근에 본 항목에 따라 스코어카드 목록을 정렬할 수 있습니다. 특정 스코어카드를 검색할 수도 있습니다.
+
+   ![회사 선택](assets/mobile-home-screen.png)
 
    로그인했을 때 아무 것도 공유되지 않았다는 메시지가 표시되면 큐레이터와 다음 사항을 확인합니다.
 

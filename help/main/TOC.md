@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 4b28a3288f1659ca88353540ff8ce7cd7cd50aea
+source-git-commit: 4d21baa88c90ec24d04b802fdce1baf956eddfe3
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 98%
 
 ---
@@ -257,12 +257,12 @@ ht-degree: 98%
    + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
-
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 개요](../report-builder/report-buider-overview.md)
    + [Report Builder 설치](../report-builder/report-builder-setup.md)
    + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
    + [Report Builder 허브](../report-builder/report-builder-hub.md)
+   + [데이터 보기 선택](../report-builder/select-data-view.md)
    + [날짜 범위 선택](../report-builder/select-date-range.md)
    + [필터 작업](../report-builder/work-with-filters.md)
    + [차원 필터링](../report-builder/filter-dimensions.md)
