@@ -6,18 +6,25 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: b7338c66ba3f78bd082e6d8da43b91b5517f48ac
+badgeDerivedFields: label="New Feature" type="Positive"
+source-git-commit: 1aece0ac0873e2cf68bfe8b24725072ddf18ad30
 workflow-type: tm+mt
-source-wordcount: '3265'
-ht-degree: 9%
+source-wordcount: '3003'
+ht-degree: 8%
 
 ---
+
 
 # 파생 필드
 
 {{release-limited-testing}}
 
-파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해 빠르게 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 을 의 구성 요소로 추가로 정의할 수 있습니다 [데이터 보기](../data-views.md).
+>[!WARNING]
+>
+>최종 업데이트 보류 중 [!UICONTROL 사용자 지정 필드] 대신 [!UICONTROL 파생 필드] 를 클릭하십시오.
+
+
+파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해 빠르게 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 파생 필드를 의 구성 요소로 추가로 정의하거나 [데이터 보기](../data-views.md).
 
 파생된 필드는 CJA 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 예 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)또는 고유한 ETL(Extract Transform Load)/ELT(Extract Load Transform) 프로세스 내에서 사용할 수 있습니다.
 
@@ -47,7 +54,7 @@ ht-degree: 9%
 
 ## 필드 템플릿 마법사
 
-처음 파생 필드 인터페이스에 액세스하면 [!UICONTROL 필드 템플릿으로 시작] 마법사가 표시됩니다.
+처음 파생된 필드 인터페이스에 액세스하면 [!UICONTROL 필드 템플릿으로 시작] 마법사가 표시됩니다.
 
 1. 만들려는 필드 유형을 가장 잘 설명하는 템플릿을 선택합니다.
 2. 을(를) 선택합니다 **[!UICONTROL **&#x200B;선택&#x200B;**]** 계속하려면 클릭하십시오.
@@ -63,7 +70,7 @@ ht-degree: 9%
 |  |  이름  | 설명 |
 |---------|----------|--------|
 | A | **규칙 이름** | 기본적으로 규칙 이름은 다음과 같습니다 **규칙 X** (X는 시퀀스 번호를 참조합니다.) 규칙 이름을 편집하려면 규칙 이름과 새 이름을 선택합니다(예: ) `Query Parameter`. |
-| B | **함수 이름** | 규칙에 대해 선택한 함수 이름(예: ) [!DNL URL PARSE]. 함수가 함수 시퀀스의 마지막 부분이고 최종 출력 값을 결정하면 함수 이름 뒤에 이 함수가 옵니다 [!DNL FINAL OUTPUT], 예 [!DNL URL PARSE - FINAL OUTPUT]. <br/>함수에 대한 자세한 정보가 있는 팝업을 표시하려면 ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg). |
+| B | **함수 이름** | 규칙에 대해 선택한 함수 이름(예: ) [!DNL URL PARSE]. 함수가 함수 시퀀스의 마지막 부분이고 최종 출력 값을 결정하면 함수 이름 뒤에 이 함수가 옵니다 [!DNL - FINAL OUTPUT], 예 [!DNL URL PARSE - FINAL OUTPUT]. <br/>함수에 대한 자세한 정보가 있는 팝업을 표시하려면 ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg). |
 | C | **규칙 설명** | 선택적으로 규칙에 설명을 추가할 수 있습니다.<br/>선택 ![자세히 아이콘](assets/More.svg)를 선택하고 을 선택합니다. **[!UICONTROL **&#x200B;설명 추가&#x200B;**]** 설명을 추가하려면 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]** 기존 설명을 편집하려면 다음을 수행하십시오.<br/>편집기를 사용하여 설명을 입력합니다. 도구 모음을 사용하여 텍스트 서식을 지정(스타일 선택기, 굵게, 기울임체, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 숫자 목록, 글머리 기호 목록 사용)하고 외부 정보에 링크를 추가할 수 있습니다. <br/>설명 편집을 완료하려면 편집기 외부를 클릭합니다. |
 | D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수 유형에 따라 달라집니다. 자세한 내용은 [함수 참조](#function-reference) 지원되는 각 기능에 대한 자세한 정보를 제공합니다. |
 
@@ -81,7 +88,7 @@ ht-degree: 9%
 
    새 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**.
 
-5. 새 파생 필드가 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너, **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** ( 데이터 보기의 왼쪽 레일에 있습니다.)
+5. 새 파생 필드가 [!UICONTROL 파생 필드 >] 컨테이너, **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** ( 데이터 보기의 왼쪽 레일에 있습니다.)
 
 
 ## 파생 필드 편집
@@ -125,7 +132,7 @@ ht-degree: 9%
 
 ## 함수 템플릿
 
-특정 사용 사례에 대해 파생 필드를 빠르게 만들기 위해 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 파생 필드 인터페이스의 선택기 영역에서 액세스할 수 있거나, 처음 사용할 때 [!UICONTROL 필드 템플릿으로 시작] 마법사
+특정 사용 사례에 대해 파생 필드를 빠르게 만들기 위해 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 파생 필드 인터페이스의 선택기 영역에서 액세스할 수 있거나, [!UICONTROL 필드 템플릿으로 시작] 마법사
 
 
 ### 마케팅 채널
@@ -159,15 +166,15 @@ ht-degree: 9%
    - 입력 데이터 유형: 지원되는 데이터 유형,
    - 입력: 입력할 수 있는 값
    - 포함된 연산자: 이 함수에 대해 지원되는 연산자(있는 경우),
-   - 제한: 파생 필드에 사용할 수 있는 이 함수를 사용하는 최대 규칙 수
+   - 제한: 파생 필드에 사용할 수 있는 최대 규칙 수(이 함수 사용)
    - 출력.
 
 - 사용 사례:
-   - 파생 필드를 정의하기 전에 데이터
-   - 파생 필드를 정의하는 방법
-   - 파생 필드를 정의한 후 데이터
+   - 파생 필드를 정의하기 전에
+   - 파생 필드를 정의하는 방법,
+   - 파생 필드를 정의한 후의 데이터.
 
-- 제한(선택 사항)
+- 제한(해당되는 경우)
 
 
 <!-- Concatenate -->
@@ -230,7 +237,7 @@ ht-degree: 9%
 
 ### 파생 필드 {#concatenate-derivedfield}
 
-새 **[!UICONTROL **&#x200B;원본 - 대상&#x200B;**]** 파생 필드. 를 사용합니다 **[!UICONTROL 연결]** 를 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 필드를 사용하여 `-` [!UICONTROL 구분 기호].
+새 [!UICONTROL 원본 - 대상] 파생 필드. 를 사용합니다 [!UICONTROL 연결] 를 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 필드를 사용하여 `-` [!UICONTROL 구분 기호].
 
 ![[!DNL Concatenate] 규칙](assets/concatenate.png)
 
@@ -269,30 +276,30 @@ ht-degree: 9%
 
 마케팅 채널 필드를 적절한 값으로 설정하는 계단식 논리를 적용하여 다양한 마케팅 채널을 식별하는 규칙을 정의하려고 합니다.
 
-- 레퍼러가 검색 엔진에서 온 것이며 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ps_`, 마케팅 채널은 **유료 검색**.
-- 레퍼러가 검색 엔진에서 온 것이며 페이지에 쿼리 문자열이 없는 경우 `cid`, 마케팅 채널은 **자연어 검색**.
-- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `em_`, 마케팅 채널은 **이메일**.
-- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ds_`, 마케팅 채널은 **디스플레이 광고**.
-- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `so_`, 마케팅 채널은 **유료 소셜**.
-- 레퍼러가 twitter.com, facebook.com, linkedin.com 또는 tiktok.com의 참조 도메인에서 온 경우 마케팅 채널은 **자연어 소셜**.
-- 위의 규칙 중 어느 하나도 일치하지 않는 경우 마케팅 채널을 **기타 레퍼러**.
+- 레퍼러가 검색 엔진에서 온 것이며 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ps_`, 마케팅 채널은 [!DNL *유료 검색*].
+- 레퍼러가 검색 엔진에서 온 것이며 페이지에 쿼리 문자열이 없는 경우 `cid`, 마케팅 채널은 [!DNL *자연어 검색*].
+- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `em_`, 마케팅 채널은 [!DNL *이메일*].
+- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ds_`, 마케팅 채널은 [!DNL *디스플레이 광고*].
+- 페이지에 다음과 같은 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `so_`, 마케팅 채널은 [!DNL *유료 소셜*].
+- 레퍼러가 의 참조 도메인에서 온 경우 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com], 또는 [!DNL tiktok.com], 마케팅 채널은 [!DNL *자연어 소셜*].
+- 위의 규칙 중 어느 하나도 일치하지 않는 경우 마케팅 채널을 [!DNL *기타 레퍼러*].
 
-레퍼러 및 페이지 URL이 포함된 다음 샘플 이벤트를 사이트가 수신하는 경우 이러한 이벤트를 다음과 같이 식별해야 합니다.
+사이트가 다음을 포함하는 샘플 이벤트를 수신하는 경우 [!UICONTROL 레퍼러] 및 [!UICONTROL 페이지 URL], 이러한 이벤트는 다음과 같이 식별해야 합니다.
 
-| 이벤트 | 레퍼러 | 페이지 URL | 마케팅 채널 |
+| [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
-| 1 | `https://facebook.com` | `https://site.com/home` | 자연어 소셜 |
-| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | 표시 |
-| 3 |  | `https://site.com/?cid=em_12345678` | 이메일 |
-| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | 유료 검색 |
-| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | 이메일 |
-| 6 | `https://google.com` |  | 자연어 검색 |
+| 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
+| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
+| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
+| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
+| 6 | `https://google.com` |  | [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 ### 이전 데이터 {#casewhen-uc1-databefore}
 
-| 레퍼러 | 페이지 URL |
+| [!UICONTROL 레퍼러] | [!DNL Page URL] |
 |----|----|
 | `https://facebook.com` | `https://site.com/home` |
 | `https://abc.com` | `https://site.com/?cid=ds_12345678` |
@@ -305,79 +312,79 @@ ht-degree: 9%
 
 ### 파생 필드 {#casewhen-uc1-derivedfield}
 
-새 `Marketing Channel` 파생 필드. 를 사용합니다 **[!UICONTROL CASE WHEN]** 함수를 사용하여 두 페이지의 `Page URL` 및 `Referring URL` 필드.
+새 `Marketing Channel` 파생 필드. 를 사용합니다 [!UICONTROL CASE WHEN] 함수를 사용하여 두 페이지의 `Page URL` 및 `Referring URL` 필드.
 
-함수의 사용에 주목하십시오 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 값을 가져올 규칙을 정의하려면 `Page Url` 및 `Referring Url` 이전 **[!UICONTROL ** CASE WHEN **]** 규칙이 적용됩니다.
+함수의 사용에 주목하십시오 [!UICONTROL URL 구문 분석] 값을 가져올 규칙을 정의하려면 `Page Url` 및 `Referring Url` 이전 [!UICONTROL CASE WHEN] 규칙이 적용됩니다.
 
 ![[!DNL Case when] 규칙 1](assets/case-when-1.png)
 
 ### 데이터 후 {#casewhen-uc1-dataafter}
 
-| 마케팅 채널 |
+| [!DNL Marketing Channel] |
 |----|
-| 자연어 소셜 |
-| 표시 |
-| 이메일 |
-| 유료 검색 |
-| 이메일 |
-| 자연어 검색 |
+| [!DNL Natural Social] |
+| [!DNL Display] |
+| [!DNL Email] |
+| [!DNL Paid Search] |
+| [!DNL Email] |
+| [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 
 ## 사용 사례 2 {#casewhen-uc2}
 
-제품 검색 방법 차원 내에서 여러 가지 검색 변형을 수집했습니다. 검색과 찾아보기의 전반적인 성과를 이해하려면 결과를 수동으로 결합하는 데 많은 시간을 사용해야 합니다.
+내에서 여러 가지 다양한 검색 변형을 수집했습니다 [!DNL Product Finding Methods] 차원. 검색과 찾아보기의 전반적인 성과를 이해하려면 결과를 수동으로 결합하는 데 많은 시간을 사용해야 합니다.
 
-사이트에서는 제품 검색 방법 차원에 대해 다음 값을 수집합니다. 결국 이 모든 값은 검색을 나타냅니다.
+사이트는에 대해 다음 값을 수집합니다 [!DNL Product Finding Methods] 차원. 결국 이 모든 값은 검색을 나타냅니다.
 
 | 수집된 값 | 실제 값 |
 |---|---|
-| 검색 p13n_no | 검색 |
-| p13n_yes 검색 | 검색 |
-| 검색 세분화 p13n_no | 검색 |
-| 검색 세분화 p13n_yes | 검색 |
-| 검색 리디렉션 p13n_yes | 검색 |
-| search-redirect | 검색 |
+| [!DNL search p13n_no] | [!DNL search] |
+| [!DNL search p13n_yes] | [!DNL search] |
+| [!DNL search refine p13n_no] | [!DNL search] |
+| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search redirect p13n_yes] | [!DNL search] |
+| [!DNL search-redirect] | [!DNL search] |
 
 {style="table-layout:auto"}
 
 
 ### 이전 데이터 {#casewhen-uc2-databefore}
 
-| 제품 검색 방법 |
+| [!DNL Product Finding Methods] |
 |----|
-| 검색 p13_no |
-| p13_yes 검색 |
-| 검색 |
-| 검색 세분화 p13_no |
-| 검색 세분화 p13_yes |
-| 검색 |
-| 검색 리디렉션 p13_yes |
-| search-redirect |
-| 검색 |
+| [!DNL search p13_no] |
+| [!DNL search p13_yes] |
+| [!DNL browse] |
+| [!DNL search refine p13_no] |
+| [!DNL search refine p13_yes] |
+| [!DNL browse] |
+| [!DNL search redirect p13_yes] |
+| [!DNL search-redirect] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
 ### 파생 필드 {#casewhen-uc2-derivedfield}
 
-을(를) 정의합니다 `Product Finding Methods (new)` 파생 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이러한 규칙은 이전 규칙의 가능한 모든 변형에 논리를 적용합니다 **[!UICONTROL **&#x200B;제품 검색 방법&#x200B;**]** 필드 값 `search` 및 `browse` 사용 **[!UICONTROL 구문을 포함합니다]** 기준.
+을(를) 정의합니다 `Product Finding Methods (new)` 파생 필드. 다음을 만듭니다 [!UICONTROL CASE WHEN] 규칙 빌더의 규칙. 이러한 규칙은 이전 규칙의 가능한 모든 변형에 논리를 적용합니다 [!UICONTROL 제품 검색 방법] 필드 값 `search` 및 `browse` 사용 [!UICONTROL 구문을 포함합니다] 기준.
 
 ![[!DNL Case When] 규칙 2](assets/case-when-2.png)
 
 ### 데이터 후 {#casewhen-uc2-dataafter}
 
-| 제품 검색 방법(신규) |
+| [!DNL Product Finding Methods (new)] |
 |----|
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
-| 검색 |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
@@ -389,9 +396,9 @@ ht-degree: 9%
 가정:
 
 - 조직에서 이동 기간을 숫자 필드로 수집 중입니다.
-- 그들은 &#39;짧은 여행&#39;이라고 불리는 버킷에 1-3일 동안의 기간을 버킷하고 싶어한다
-- 그들은 &#39;중간 여행&#39;이라고 불리는 버킷에 4-7일 동안의 기간을 버킷하고 싶어한다
-- 그들은 &#39;긴 여행&#39;이라는 버킷에 8일 이상의 기간을 버킷하고 싶어한다
+- 그들은 &#39;라는 버킷에 1-3일 기간을 버킷하고 싶어한다[!DNL short trip]`
+- 그들은 4-7일 동안의 시간을 &#39;라는 버킷에 버킷하고 싶어한다[!DNL medium trip]`
+- 그들은 8일 이상의 기간을 &#39;라는 버킷에 버킷하고 싶어한다[!DNL long trip]`
 - 1일 동안 132번의 여행이 예약되었다
 - 110번의 여행이 2일 동안 예약되었다
 - 3일 동안 105번의 여행이 예약되었다
@@ -407,17 +414,17 @@ ht-degree: 9%
 
 원하는 보고서는 다음과 같습니다.
 
-| 이동 기간 유형 | 예약 |
+| [!DNL Trip Duration Type] | [!DNL Bookings] |
 |----|---:|
-| 중간 여행 | 358 |
-| 짧은 여행 | 347 |
-| 긴 여행 | 241 |
+| [!DNL medium trip] | 358 |
+| [!DNL short trip] | 347 |
+| [!DNL long trip] | 241 |
 
 {style="table-layout:auto"}
 
 ### 이전 데이터 {#casewhen-uc3-databefore}
 
-| 이동 기간 |
+| [!DNL Trip Duration] |
 |---:|
 | 1 |
 | 12 |
@@ -434,27 +441,27 @@ ht-degree: 9%
 
 ### 파생 필드 {#casewhen-uc3-derivedfield}
 
-을(를) 정의합니다 `Trip Duration (bucketed)` 파생 필드. 다음을 만듭니다 **[!UICONTROL ** CASE WHEN **]** 규칙 빌더의 규칙. 이 규칙은 이전 규칙을 버킷하는 논리를 적용합니다 **[!UICONTROL **&#x200B;이동 기간&#x200B;**]** 필드 값을 세 개의 값으로 설정합니다. `short trip`, `medium  trip`, 및 `long trip`.
+을(를) 정의합니다 `Trip Duration (bucketed)` 파생 필드. 다음을 만듭니다 [!UICONTROL CASE WHEN] 규칙 빌더의 규칙. 이 규칙은 이전 규칙을 버킷하는 논리를 적용합니다 [!UICONTROL 이동 기간] 필드 값을 세 개의 값으로 설정합니다. `short trip`, `medium  trip`, 및 `long trip`.
 
 ![[!DNL Case When] 규칙 3](assets/case-when-3.png)
 
 
 ### 데이터 후 {#casewhen-uc3-dataafter}
 
-| 이동 기간(그룹) |
+| [!DNL Trip Duration (bucketed)] |
 |---|
-| 짧은 여행 |
-| 긴 여행 |
-| 짧은 여행 |
-| 중간 여행 |
-| 중간 여행 |
-| 긴 여행 |
-| 중간 여행 |
-| 짧은 여행 |
-| 짧은 여행 |
-| 짧은 여행 |
-| 긴 여행 |
-| 긴 여행 |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL short trip] |
+| [!DNL medium trip] |
+| [!DNL medium trip] |
+| [!DNL long trip] |
+| [!DNL medium trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL long trip] |
 
 
 ## 제한
@@ -469,13 +476,13 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 
 
-다음 제한 사항이 적용되며 _선택_ 및 _설정_ 값.
+다음 제한 사항이 적용되며 *선택* 및 *설정* 값.
 
 |  | 제한 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 다음 값 _선택_ 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 컨테이너에서 비롯되며 모든 유형(문자열)이 될 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등) <br/>![종속성 A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 모든 값 _설정_ 규칙 전체에서 동일한 컨테이너여야 하며 같은 유형이나 동일한 형식의 파생 값을 포함해야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 다음 값 _선택_ 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 _not_ 동일한 컨테이너에서 온 후 _not_ 같은 유형이어야 합니다. <br/> ![종속성 C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | 다음 값 *선택* 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문(사용 [!UICONTROL 및] 또는 [!UICONTROL 또는])를 규칙에 추가하면 같은 컨테이너에서 비롯되며 모든 유형(문자열)이 될 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등) <br/>![종속성 A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 모든 값 *설정* 규칙 전체에서 동일한 컨테이너여야 하며 같은 유형이나 동일한 형식의 파생 값을 포함해야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 다음 값 *선택* 폭 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문 *not* 동일한 컨테이너에서 온 후 *not* 같은 유형이어야 합니다. <br/> ![종속성 C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -505,47 +512,47 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 **원래 보고서**
 
-| 외부 마케팅 채널 | 세션 |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| 이메일 마케팅 | 500 |
-| 이메일 %20마케팅 | 24 |
+| [!DNL email marketing] | 500 |
+| [!DNL email %20marketing] | 24 |
 
 {style="table-layout:auto"}
 
 **기본 보고서**
 
-| 외부 마케팅 채널 | 세션 |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| 이메일 마케팅 | 524 |
+| [!DNL email marketing] | 524 |
 
 
 ### 이전 데이터 {#findreplace-uc-databefore}
 
-| 외부 마케팅 |
+| [!DNL External Marketing] |
 |----|
-| 이메일 마케팅 |
-| email%20marketing |
-| 이메일 마케팅 |
-| 이메일 마케팅 |
-| email%20marketing |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
 
 {style="table-layout:auto"}
 
 ### 파생 필드 {#findreplace-uc-derivedfield}
 
-을(를) 정의합니다 `Email Marketing (updated)` 파생 필드. 를 사용합니다 **[!UICONTROL 찾기 및 바꾸기]** 규칙을 정의하여, `email%20marketing` with `email marketing`.
+을(를) 정의합니다 `Email Marketing (updated)` 파생 필드. 를 사용합니다 [!UICONTROL 찾기 및 바꾸기] 규칙을 정의하여, `email%20marketing` with `email marketing`.
 
 ![[!DNL Find and Replace] 규칙](assets/find-and-replace.png)
 
 ### 데이터 후 {#findreplace-uc-dataafter}
 
-| 외부 마케팅<br/>(파생 필드) |
+| [!DNL External Marketing (updated)] |
 |----|
-| 이메일 마케팅 |
-| 이메일 마케팅 |
-| 이메일 마케팅 |
-| 이메일 마케팅 |
-| 이메일 마케팅 |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
 
 {style="table-layout:auto"}
 
@@ -573,63 +580,63 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 ## 사용 사례 1 {#lookup-uc1}
 
 에 대한 키 열이 포함된 CSV 파일이 있습니다 `hotelID` 및 `hotelID`: `city`, `rooms`, `hotel name`.
-차원에서 호텔 ID를 수집하지만 `hotelID` 를 입력합니다.
+수집 중입니다. [!DNL Hotel ID] 차원에서 [!DNL Hotel Name] 다음에서 파생된 차원 `hotelID` 를 입력합니다.
 
 **CSV 파일 구조 및 컨텐츠**
 
-| hotelID | city | 객실 | 호텔 이름 |
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
 |---|---|---:|---|
-| SLC123 | 솔트레이크시티 | 40 | SLC 다운타운 |
-| LAX342 | 로스 엔젤스 | 60 | LA 공항 |
-| SFO456 | 샌프란시스코 | 75 | 마켓 스트리트 |
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
 **현재 보고서**
 
-| 호텔 ID | 제품 보기 |
+| [!DNL Hotel ID] | 제품 보기 |
 |---|---:|
-| SLC123 | 200 |
-| LX342 | 198 |
-| SFO456 | 190 |
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
 
 {style="table-layout:auto"}
 
 
 **원하는 보고서**
 
-| 호텔 이름 | 제품 보기 |
+| [!DNL Hotel Name] | 제품 보기 |
 |----|----:|
-| SLC 다운타운 | 200 |
-| LA 공항 | 198 |
-| 마켓 스트리트 | 190 |
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
 
 {style="table-layout:auto"}
 
 ### 이전 데이터 {#lookup-uc1-databefore}
 
-| 호텔 ID |
+| [!DNL Hotel ID] |
 |----|
-| SLC123 |
-| LAX342 |
-| SFO456 |
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
 
 {style="table-layout:auto"}
 
 
 ### 파생 필드 {#lookup-uc1-derivedfield}
 
-을(를) 정의합니다 `Hotel Name` 파생 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 **[!UICONTROL **&#x200B;호텔 ID **]** 필드 및 를 새 값으로 바꿉니다.
+을(를) 정의합니다 `Hotel Name` 파생 필드. 를 사용합니다 [!UICONTROL 조회] 함수를 사용하여 [!UICONTROL 호텔 ID] 필드 및 를 새 값으로 바꿉니다.
 
 ![[!DNL Lookup] 규칙 1](assets/lookup-1.png)
 
 ### 데이터 후 {#lookup-uc1-dataafter}
 
-| 호텔 이름 |
+| [!DNL Hotel Name] |
 |----|
-| SLC 다운타운 |
-| LA 공항 |
-| 마켓 스트리트 |
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
@@ -640,13 +647,13 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 ### 이전 데이터 {#lookup-uc2-databefore}
 
-| 페이지 이름 |
+| [!DNL Page Name] |
 |---|
-| 홈 페이지 |
-| 플라이트 검색 |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
 | `http://www.adobetravel.ca/Hotel-Search` |
 | `https://www.adobetravel.com/Package-Search` |
-| 거래 및 오퍼 |
+| [!DNL Deals & Offers] |
 | `http://www.adobetravel.ca/user/reviews` |
 | `https://www.adobetravel.com.br/Generate-Quote/preview` |
 
@@ -654,21 +661,21 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 ### 파생 필드 {#lookup-uc2-derivedfield}
 
-을(를) 정의합니다 `Page Name (updated)` 파생 필드. 를 사용합니다 **[!UICONTROL **&#x200B;조회&#x200B;**]** 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. **[!UICONTROL **&#x200B;페이지 이름&#x200B;**]** 필드 및 를 업데이트된 올바른 값으로 바꿉니다.
+을(를) 정의합니다 `Page Name (updated)` 파생 필드. 를 사용합니다 [!UICONTROL 조회] 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 를 업데이트된 올바른 값으로 바꿉니다.
 
 ![[!DNL Lookup] 규칙 2](assets/lookup-2.png)
 
 ### 데이터 후 {#lookup-uc2-dataafter}
 
-| 페이지 이름 (업데이트됨) |
+| [!DNL Page Name (updated)] |
 |---|
-| 홈 페이지 |
-| 플라이트 검색 |
-| 호텔 검색 |
-| 패키지 검색 |
-| 거래 및 오퍼 |
-| 검토 |
-| 견적 생성 |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
 
 +++
 
@@ -695,7 +702,7 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 ### 이전 데이터 {#urlparse-uc1-databefore}
 
-| 참조 URL |
+| [!DNL Referring URL] |
 |----|
 | `https://www.google.com/` |
 | `https://duckduckgo.com/` |
@@ -706,29 +713,29 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 ### 파생 필드 {#urlparse-uc1-derivedfield}
 
-을(를) 정의합니다  `Referring Domain` 파생 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 함수에서 호스트를 가져올 규칙을 정의하는 함수입니다. **참조 URL** 새 파생 필드에 저장합니다.
+을(를) 정의합니다  `Referring Domain` 파생 필드. 를 사용합니다 [!UICONTROL URL 구문 분석] 함수에서 호스트를 가져올 규칙을 정의하는 함수입니다. [!UICONTROL 참조 URL] 필드를 작성하고 새 파생 필드에 저장합니다.
 
 ![[!DNL Url Parse] 규칙 1](assets/url-parse-1.png)
 
 ### 데이터 후 {#urlparse-uc1-dataafter}
 
-| 레퍼러 도메인 |
+| [!DNL Referrer Domain] |
 |----|
-| www.google.com |
-| duckduckgo.com |
-| t.co |
-| l.facebook.com |
+| [!DNL www.google.com] |
+| [!DNL duckduckgo.com] |
+| [!DNL t.co] |
+| [!DNL l.facebook.com] |
 
 {style="table-layout:auto"}
 
 
 ## 사용 사례 2 {#urlparse-uc2}
 
-의 값을 사용하려는 경우 `cid` 파생 추적 코드 보고서 출력의 일부로서 페이지 URL에 있는 쿼리 문자열의 매개 변수.
+의 값을 사용하려는 경우 `cid` 쿼리 문자열의 매개 변수 [!DNL Page URL] 파생 추적 코드 보고서 출력의 일부로서.
 
 ### 이전 데이터 {#urlparse-uc2-databefore}
 
-| 페이지 URL |
+| [!DNL Page URL] |
 |----|
 | `https://www.adobe.com/?cid=abc123` |
 | `https://www.adobe.com/?em=email1234&cid=def123` |
@@ -738,17 +745,17 @@ CJA에서는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 ### 파생 필드 {#urlparse-uc2-derivedfield}
 
-을(를) 정의합니다 `Query String CID` 파생 필드. 를 사용합니다 **[!UICONTROL ** URL 구문 분석&#x200B;**]** 페이지 URL에서 쿼리 문자열 매개 변수의 값을 가져올 규칙을 정의하고 `cid` 을 쿼리 매개 변수로 사용합니다. 출력 값은 새 파생 필드에 저장됩니다.
+을(를) 정의합니다 `Query String CID` 파생 필드. 를 사용합니다 [!UICONTROL URL 구문 분석] 함수 를 사용하여 쿼리 문자열 매개 변수의 값을 가져올 규칙을 정의합니다 [!UICONTROL 페이지 URL] 필드, 지정 `cid` 을 쿼리 매개 변수로 사용합니다. 출력 값은 새 파생 필드에 저장됩니다.
 
 ![[!DNL Url Parse] 규칙 2](assets/url-parse-2.png)
 
 ### 데이터 후 {#urlparse-uc2-dataafter}
 
-| 쿼리 문자열 CID |
+| [!DNL Query String CID] |
 |----|
-| abc123 |
-| def123 |
-| xyz123 |
+| [!DNL abc123] |
+| [!DNL def123] |
+| [!DNL xyz123] |
 
 {style="table-layout:auto"}
 
