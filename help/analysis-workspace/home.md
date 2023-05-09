@@ -5,7 +5,7 @@ description: Analysis Workspace 기능 개요
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
+source-git-commit: e3c9db595b26b96c2079a770ede1bdd609f6de14
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 26%
@@ -31,7 +31,7 @@ Analysis Workspace을 사용하면 신속하게 분석을 빌드하여 인사이
 | A | **맨 왼쪽 레일:** Analysis Workspace에 패널, 시각화 및 구성 요소를 추가하기 위한 탭이 포함되어 있습니다. 데이터 사전을 여는 데 사용되는 데이터 사전 아이콘도 포함되어 있습니다. |
 | B | **왼쪽 레일:** 맨 왼쪽 레일에서 선택한 탭에 따라 이 영역에는 개별 패널, 시각화 또는 구성 요소가 포함됩니다. |
 | C | **캔버스:** 왼쪽 레일에서 컨텐츠를 드래그하여 프로젝트를 구축하는 기본 영역입니다. 패널, 시각화 및 구성 요소를 캔버스에 추가할 때 프로젝트가 동적으로 업데이트됩니다. |
-| D | **보고서 세트 드롭다운 메뉴:** Analysis Workspace의 각 패널에서 보고서 세트 드롭다운 메뉴를 사용하여 데이터 소스로 사용할 보고서 세트를 선택할 수 있습니다. |
+| D | **데이터 보기 드롭다운 메뉴:** Analysis Workspace의 각 패널에 대해 데이터 보기 드롭다운 메뉴를 사용하여 데이터 소스로 사용할 데이터 보기를 선택할 수 있습니다. |
 
 ## Analysis Workspace의 기능 {#analysis}
 
