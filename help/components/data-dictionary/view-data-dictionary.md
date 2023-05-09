@@ -3,10 +3,11 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전 보기
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 75%
+ht-degree: 63%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 75%
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 보려는 구성 요소가 포함된 보고서 세트가 드롭다운 메뉴에서 선택되어 있는지 확인합니다. 기본적으로 이미 있는 보고서 세트가 표시됩니다.
+1. 보려는 구성 요소가 포함된 데이터 보기가 드롭다운 메뉴에서 선택되었는지 확인합니다. 기본적으로 이미 있는 데이터 보기가 표시됩니다.
 
 1. (선택 사항) 검색 필드에서 확인하려는 구성 요소의 이름을 입력하기 시작합니다.
 

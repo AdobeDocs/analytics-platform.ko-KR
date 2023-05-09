@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1333'
+ht-degree: 80%
 
 ---
 
@@ -40,8 +40,8 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 유형 | 작업 공간 프로젝트, 폴더 또는 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ko-KR). |
 | 태그 | 프로젝트에 적용된 태그. |
 | 예약됨 | 프로젝트를 일정에 따라 수신자에게 이메일로 전송하도록 예약할지 여부를 나타냅니다. 자세한 내용은 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md). |
-| 공유 링크(모든 사용자) | Analysis Workspace에 액세스할 수 없는 사용자와 프로젝트를 공유할 수 있습니다. 이 열에는 프로젝트가 이러한 방식으로 공유되었는지 여부가 표시됩니다. 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 추가 정보. |
-| 보고서 세트 | 프로젝트가 연결된 보고서 세트입니다. |
+| 공유 링크 (누구나) | Analysis Workspace에 액세스할 수 없는 사용자와 프로젝트를 공유할 수 있습니다. 이 열에는 프로젝트가 이러한 방식으로 공유되었는지 여부가 표시됩니다. 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 추가 정보. |
+| 데이터 보기 | 프로젝트가 연결된 데이터 보기입니다. |
 | [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 프로젝트에 대한 역할(소유자, 편집, 복제, 보기)을 나타냅니다. |
 | 소유자 | 이 프로젝트를 만든 사람 (귀하 또는 프로젝트를 귀하와 공유한 사용자) |
 | 다음 사용자와 공유 | 프로젝트가 공유된 사용자입니다. |

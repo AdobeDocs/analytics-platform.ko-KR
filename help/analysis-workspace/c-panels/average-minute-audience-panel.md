@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠�
 Analysis Workspace에서 분당 평균 시청 시간은 미디어 스트림을 보는 데 소요된 시간을 콘텐츠 지속 시간 또는 기간의 총합 및 선택된 세부 기간으로 나눈 값입니다.
 
 미디어 분당 평균 시청 시간 패널은 콘텐츠 지속 시간이 분류를 통해 제공되는 경우 선택된 특정 콘텐츠별로 분당 평균 시청 시간 분석을 제공합니다.
-Average Minute Audience 패널은 또한 분류를 사용하여 기간을 사용할 수 있는지 여부에 관계없이 특정 콘텐츠로 필터링할 수 있는 선택된 기간에 대한 분석을 제공합니다. 미디어 분당 평균 시청 시간 패널에 액세스하려면 Media Analytics 구성 요소가 활성화된 보고서 세트로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 클릭하고 패널을 Analysis Workspace 프로젝트로 끌어옵니다.
+Average Minute Audience 패널은 또한 분류를 사용하여 기간을 사용할 수 있는지 여부에 관계없이 특정 콘텐츠로 필터링할 수 있는 선택된 기간에 대한 분석을 제공합니다. 미디어 평균 시간(분) 대상 패널에 액세스하려면 Media Analytics 구성 요소가 활성화된 데이터 보기로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 클릭하고 패널을 Analysis Workspace 프로젝트로 끌어옵니다.
 
 <!-- For more information, see the Media Average Minute Audience introduction video:
 << replace with AMA video when available >> -->

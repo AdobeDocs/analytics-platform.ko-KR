@@ -1,8 +1,8 @@
 ---
-source-git-commit: a492cbd7801b9523072937ab1d8e707f4b423c72
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 # 스니펫
@@ -34,7 +34,7 @@ ht-degree: 76%
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **중복 항목 표시**] | 선택한 보고서 세트의 다른 구성 요소와 동일한 이름 또는 설명이 있는 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 중복으로 표시하려면 이름 또는 설명이 정확히 일치해야 합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | [!UICONTROL **중복 항목 표시**] | 선택한 데이터 보기에서 다른 구성 요소의 이름 또는 설명이 동일한 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 중복으로 표시하려면 이름 또는 설명이 정확히 일치해야 합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **Adobe 제작**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 
@@ -48,7 +48,7 @@ ht-degree: 76%
 | [!UICONTROL **승인되지 않음**] | <p>관리자가 아직 구성 요소를 검토하고 승인하지 않았음을 나타냅니다.</p><p>관리자에게는 [!UICONTROL **승인**] 옵션이 표시됩니다. 이 옵션을 선택하면 구성 요소가 사용자에게 “승인됨”으로 표시됩니다.</p> |
 | [!UICONTROL **설명**] | 구성 요소의 의도된 기능을 설명합니다. (이 정보는 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)에 설명된 대로 Analytics 관리자가 추가함) |
 | [!UICONTROL **다음과 함께 자주 사용됨**] | <p>현재 보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형에 대해 최대 5개의 구성 요소가 표시됩니다. 지표, 계산된 지표, Dimension, 필터 및 날짜 범위.</p><p>이 목록은 지난 90일 동안의 데이터를 기반으로 합니다. 볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>관리자는 [!UICONTROL **항상 포함**] 및 [!UICONTROL **항상 제외**] 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 다른 관리자가 추가했을 수 있는 사용자와 공유되지 않은 구성 요소가 표시되도록 필터링 합니다.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-| [!UICONTROL **다음과 유사**] | <p>현재 보고 있는 구성 요소와 유사한 이름이 있는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형에 대해 최대 5개의 구성 요소가 표시됩니다. 지표, 계산된 지표, Dimension, 필터 및 날짜 범위.</p><p>볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>보고서 세트의 모든 중복 구성 요소가 여기에 표시됩니다. Analytics 관리자는 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 모든 중복 구성 요소를 식별하고 제거해야 합니다.</p><p>관리자는 [!UICONTROL **항상 포함**] 및 [!UICONTROL **항상 제외**] 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 다른 관리자가 추가했을 수 있는 사용자와 공유되지 않은 구성 요소가 표시되도록 필터링 합니다.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**참고:** 현재 **다음과 유사** 섹션에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소는 향후 릴리스에 추가될 예정입니다.</p> |
+| [!UICONTROL **다음과 유사**] | <p>현재 보고 있는 구성 요소와 유사한 이름이 있는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형에 대해 최대 5개의 구성 요소가 표시됩니다. 지표, 계산된 지표, Dimension, 필터 및 날짜 범위.</p><p>볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>데이터 보기에 있는 중복 구성 요소가 여기에 표시됩니다. Analytics 관리자는 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 모든 중복 구성 요소를 식별하고 제거해야 합니다.</p><p>관리자는 [!UICONTROL **항상 포함**] 및 [!UICONTROL **항상 제외**] 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 다른 관리자가 추가했을 수 있는 사용자와 공유되지 않은 구성 요소가 표시되도록 필터링 합니다.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**참고:** 현재 **다음과 유사** 섹션에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소는 향후 릴리스에 추가될 예정입니다.</p> |
 | [!UICONTROL **태그**] | 구성 요소에 적용된 모든 태그가 표시됩니다. 관리자 액세스 권한이 있는 사용자는 구성 요소를 편집할 때 태그를 추가할 수 있습니다. |
 | [!UICONTROL **구성 요소 유형**] | Dimension, 지표, 필터 또는 날짜 범위 등 구성 요소의 유형을 나열합니다. |
 | [!UICONTROL **작성자**] | 구성 요소를 생성한 사용자 이름을 표시합니다. |

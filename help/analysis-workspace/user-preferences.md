@@ -4,7 +4,7 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 7f657820e01696aa5d9b466ea2eaa6bc417ee6cf
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '3146'
 ht-degree: 77%
@@ -55,7 +55,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
 |  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li>Adobe 제공 팔레트 (기본값)</li><li>조건부 서식 팔레트 </li><li>위/아래 팔레트 (분기)<li>사용자 정의 팔레트</li></ul> |
 | **데이터** |  |  |
-|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
+|  | [데이터 보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 단일 페이지 방문)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
@@ -82,7 +82,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[열](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** |  |  |
 |  | 머리글 텍스트 줄바꿈 | 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 이 기능은 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. 기본적으로 사용됩니다. |
 |  | 합계 표시 | 이 합계는 일반적으로 [!UICONTROL 총 합계]와 같거나 그 하위 집합입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
-|  | 총계 표시 | 이 합계는 수집 된 모든 히트 수를 나타내며 “보고서 세트 합계”라고도 합니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
+|  | 총계 표시 | 이 합계는 수집된 모든 히트를 나타내며 경우에 따라 &#39;데이터 보기 합계&#39;라고도 합니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
 |  | 스파크라인 표시 | 차트 하단에 라인 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
 |  | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
 |  | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
