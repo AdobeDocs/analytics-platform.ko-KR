@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1245'
+ht-degree: 90%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 99%
 
 작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 라인 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Customer Journey Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-작업 영역의 왼쪽 상단 아이콘, [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
-
-![시각화 레일](assets/viz-rail.png)
+## 시각화 유형
 
 Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
@@ -40,6 +38,26 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
+
+## 패널에 시각화 추가
+
+1. 시각화를 추가할 Analysis Workspace 프로젝트를 엽니다.
+
+1. 다음 방법 중 하나를 사용하여 시각화를 추가합니다.
+
+   * 왼쪽 레일에서 를 선택합니다. **시각화** 아이콘 <!-- add icon -->을 클릭한 다음 시각화를 추가할 패널로 드래그합니다.
+
+      ![](assets/viz-rail.png)
+
+   * 시각화를 추가할 패널에서 **플러스** 아이콘을 클릭한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가면 해당 이름이 표시됩니다.
+
+      ![시각화 추가 단추](assets/visualization-add-to-panel.png)
+
+   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 선택하고 추가할 시각화를 선택합니다.
+
+      ![빈 패널](assets/blank_panel.png)
+
+   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 을 선택합니다 [!UICONTROL **중복 시각화**] 또는 [!UICONTROL **시각화 복사**].
 
 ## 시각화 설정 맞춤화
 
