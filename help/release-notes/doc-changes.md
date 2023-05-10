@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d738b63b9d5fdc6ed01d6c9711953ea3af76f7cc
+source-git-commit: 5e3c85daebd996eced70ff0aaba7f381783b7fe2
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 89%
+source-wordcount: '1741'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,6 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | **2023년 5월** |  |
 | Analysis Workspace 개요 | 업데이트됨 [Analysis Workspace 개요](/help/analysis-workspace/home.md) 더 일반적인 개요 정보 및 관련 컨텐츠에 대한 링크를 포함하도록 업데이트되고 수정되었습니다. |
 | 프로젝트 만들기 | 다음 방법을 자세히 설명하는 새 문서를 만들었습니다. [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace. |
-| 파생 필드 | 에 대한 설명서 [파생 필드](../data-views/derived-fields/derived-fields.md) 기능을 사용할 수 있습니다. |
 | **2023년 4월** |  |
 | 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 방법에 대한 비디오가 업데이트되었습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지.</p> <p>다음은 비디오에 대한 직접 링크입니다. [Analysis Workspace에서 필터를 차원으로 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | 필터 설명서 | 사용 방법에 대한 문서가 추가되었습니다 [필터 빌더](/help/components/filters/filter-builder.md). <p>의 간소화된 설명서 [필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md).</p> |
