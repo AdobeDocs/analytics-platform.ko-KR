@@ -3,10 +3,10 @@ description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 
 title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 4dd5e5248026c39489f3ac4598ea91ff15d95aa4
+source-git-commit: 54032271e8f12673cc6d4f2b209b4fa89f5c4406
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '848'
+ht-degree: 79%
 
 ---
 
@@ -26,17 +26,38 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 >
 > 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
+### 테이블에서 특정 행 빠르게 제외
+
+필터 대화 상자를 열지 않고도 테이블에서 특정 행을 빠르게 제외할 수 있습니다.
+
+>[!NOTE]
+>
+>이 섹션에 설명된 대로 행을 제외하려면 [!UICONTROL **같지 않음**] 규칙이 [**[!UICONTROL 고급 필터링]**](#apply-a-simple-or-advanced-filter) 대화 상자.
+
+자유 형식 테이블에서 특정 행을 빠르게 제외하려면 다음을 수행하십시오.
+
+1. 제외할 행을 마우스로 가리킨 다음, x 아이콘을 선택합니다.
+
+   Shift 키를 눌러 범위 행을 선택하거나 Command 키(Mac에서) 또는 Ctrl 키(Windows에서)를 눌러 여러 행을 선택합니다.
+
+### 표에 단순 또는 고급 필터 적용
+
 자유 형식 테이블에서 데이터를 필터링하려면 다음 작업을 수행하십시오.
 
-1. 자유 형식 테이블에서 필터링하려는 데이터가 포함된 열 위로 마우스를 가져갑니다. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. 필터링할 데이터가 포함된 열 위로 마우스를 가져갑니다. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. **필터** 아이콘이 나타나면 선택합니다.
 
    ![테이블의 필터 아이콘](assets/table-filter-icon.png)
 
-1. [!UICONTROL **단어 또는 구문 검색**] 필드에서 필터링 기준으로 삼을 단어 또는 구문을 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다.
+   다음 옵션을 사용할 수 있습니다.
 
-1. (선택 사항) 다른 기준 또는 여러 기준으로 필터링하려면 [!UICONTROL **고급 설정 표시**]&#x200B;를 선택합니다.
+   | 옵션 | 함수 |
+   |---------|----------|
+   | [!UICONTROL **검색어 또는 구**] | 필터링할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
+   | [!UICONTROL **지정하지 않은 항목 포함(없음)**] | 테이블 차원에 속하지 않는 데이터를 테이블에 표시하려면 이 옵션을 선택합니다. <!--what is this?--> |
+
+1. (선택 사항) 다른 기준이나 여러 기준에 따라 필터링하려면 을 선택합니다 [!UICONTROL **고급 필터링**].
 
    다음 옵션을 사용할 수 있습니다
 
