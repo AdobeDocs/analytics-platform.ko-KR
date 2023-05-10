@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5e3c85daebd996eced70ff0aaba7f381783b7fe2
+source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 90%
+source-wordcount: '1854'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,9 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | **2023년 5월** |  |
 | Analysis Workspace 개요 | 업데이트됨 [Analysis Workspace 개요](/help/analysis-workspace/home.md) 더 일반적인 개요 정보 및 관련 컨텐츠에 대한 링크를 포함하도록 업데이트되고 수정되었습니다. |
 | 프로젝트 만들기 | 다음 방법을 자세히 설명하는 새 문서를 만들었습니다. [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace. |
+| 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록을 정렬하는 방법에 대한 정보를 추가했습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오 [구성 요소 개요](/help/components/overview.md). |
+| 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보가 추가되었습니다. 의 &quot;테이블에서 특정 행 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 패널 내에 시각화를 추가하는 단추 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 의 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오 [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023년 4월** |  |
 | 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 방법에 대한 비디오가 업데이트되었습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지.</p> <p>다음은 비디오에 대한 직접 링크입니다. [Analysis Workspace에서 필터를 차원으로 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | 필터 설명서 | 사용 방법에 대한 문서가 추가되었습니다 [필터 빌더](/help/components/filters/filter-builder.md). <p>의 간소화된 설명서 [필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md).</p> |

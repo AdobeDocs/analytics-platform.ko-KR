@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 4d21baa88c90ec24d04b802fdce1baf956eddfe3
+source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 98%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 98%
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [테이블 페이지 매김, 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
 
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
