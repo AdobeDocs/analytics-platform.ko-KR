@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 80%
+source-wordcount: '1317'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,11 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 >
 >일부 열은 기본적으로 표시되지 않습니다. 표시되는 열을 사용자 지정하려면 **테이블 사용자 지정** 아이콘 ![테이블 사용자 지정](assets/projects-page-customize-columns-icon.png).
 
-
 | 요소 | 설명 |
 |---|---|
 | [환경 설정 편집](/help/analysis-workspace/user-preferences.md) | 새로 만드는 모든 프로젝트 또는 패널에 대한 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
 | [폴더 만들기](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가합니다. |
-| [프로젝트 제작](/help/analysis-workspace/home.md) | 처음부터 또는 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| [프로젝트 제작](/help/analysis-workspace/build-workspace-project/create-projects.md) | 처음부터 새로운 프로젝트를 시작합니다. |
 | 자세히 보기 | 빈 프로젝트 또는 모바일 스코어카드를 만들기 위한 옵션을 표시합니다. [교육 자습서 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ko-KR), 또는 [릴리스 노트 보기](/help/release-notes/latest.md). |
 | 폴더 및 프로젝트 표시 | 프로젝트의 폴더 구조를 표시할지 여부를 선택합니다. 자세한 내용은 [Analytics의 폴더 정보](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)를 참조하십시오. |
 | 테이블 사용자 지정(아이콘) | 프로젝트 페이지의 각 프로젝트에 대해 표시되는 정보를 사용자 지정할 수 있습니다. |
@@ -60,7 +59,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 메뉴 항목 | 설명 |
 |---|---|
-| 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, 템플릿으로 저장 등 프로젝트 관리를 위한 일반적인 작업이 포함됩니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](/help/analysis-workspace/curate-share/download-send.md) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. **프로젝트 정보 및 설정**(아래 참조)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
+| 프로젝트 | 새로 만들기, 열기, 저장 및 다른 이름으로 저장을 포함하여 프로젝트 관리를 위한 일반적인 작업을 포함합니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](/help/analysis-workspace/curate-share/download-send.md) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. **프로젝트 정보 및 설정**(아래 참조)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
 | 편집 | 마지막 작업을 실행 취소하거나 다시 실행합니다. 모두 지우기는 프로젝트를 빈 시작 지점으로 재설정합니다. |
 | 삽입 | 이 메뉴에서 새 패널 또는 시각화를 삽입합니다. 왼쪽 레일에서 새 패널과 시각화를 삽입할 수도 있습니다. |
 | [구성 요소](/help/components/overview.md) | 프로젝트에서 새 필터, 계산된 지표, 날짜 범위 또는 경고 구성 요소를 만듭니다. 왼쪽 레일에서 새 구성 요소를 만들 수도 있습니다. 구성 요소 정의가 최근에 변경된 경우 구성 요소 새로 고침이 최신 정의를 검색합니다. |

@@ -3,9 +3,9 @@ description: Analysis Workspace에서 프로젝트를 만드는 방법을 알아
 title: 프로젝트 만들기
 feature: CJA Workspace Basics
 role: User, Admin
-source-git-commit: 1c5f0a618e2e95df68ba5598948488b16c9532e6
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '578'
 ht-degree: 3%
 
 ---
@@ -22,30 +22,14 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용�
 
 1. Adobe Analytics에서 [!UICONTROL **작업 공간**].
 
-1. 빈 프로젝트를 만들지 아니면 템플릿에서 프로젝트를 생성할지 선택합니다.
+1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **프로젝트**] 페이지의 왼쪽에 있는 탭에서 을 선택합니다 [!UICONTROL **프로젝트 만들기**].
 
-   +++빈 프로젝트 만들기
+1. 빈 프로젝트를 만드는지 빈 모바일 스코어카드를 만드는지 선택합니다
 
-   1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **프로젝트**] 페이지의 왼쪽에 있는 탭에서 을 선택합니다 [!UICONTROL **프로젝트 만들기**].
+   * **빈 프로젝트** 브라우저에서 분석을 공유할 계획이라면
+   * [**빈 모바일 스코어카드**](/help/mobile-app/curator.md) Adobe Analytics 대시보드 모바일 앱에서 분석을 공유할 계획인 경우.
 
-   1. 빈 프로젝트를 만드는지 빈 모바일 스코어카드를 만드는지 선택합니다
-
-      * **빈 프로젝트** 브라우저에서 분석을 공유할 계획이라면
-      * [**빈 모바일 스코어카드**](/help/mobile-app/curator.md) Adobe Analytics 대시보드 모바일 앱에서 분석을 공유할 계획인 경우.
-   1. Select [!UICONTROL **Create**].
-
-+++
-
-   +++템플릿에서 프로젝트 만들기
-
-   1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **보고서**] 페이지의 왼쪽에 있는 탭입니다.
-
-   1. 사용할 템플릿을 검색하거나 해당 템플릿으로 이동한 다음 표시될 때 선택합니다.
-
-      표준 템플릿 세트는 기본적으로 사용할 수 있습니다. 또한, 조직에서 사용자가 선택할 수 있는 사용자 지정 템플릿을 만들 수도 있습니다.
-
-      <!-- (I don't know if you can create a project from a template in CJA... Might need to delete this section. Also update table in "Projects overview") For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md). -->
-+++
+1. Select [!UICONTROL **Create**].
 
 1. 그런 다음 패널, 시각화 및 구성 요소를 프로젝트에 추가해야 합니다. 먼저 다음에 설명된 대로 Analysis Workspace에서 프로젝트에 패널을 추가합니다 [프로젝트에 패널 추가](#add-panels-to-the-project). 그런 다음 패널에 시각화를 추가할 수 있습니다. 마지막으로, 패널 또는 시각화에 구성 요소를 추가할 수 있습니다.
 
