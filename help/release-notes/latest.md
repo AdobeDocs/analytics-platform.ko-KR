@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: 76130aeaee4447a83c2f8feea95371dc2e38bd67
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 33%
+source-wordcount: '850'
+ht-degree: 30%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 | **자유 형식 테이블에서 동적 차원이 포함된 행 삭제** | 이제 Analysis Workspace의 자유 형식 테이블에서 x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제할 수 있습니다. 이 경우 &quot;다음과 같지 않음&quot; 필터 규칙이 자동으로 적용됩니다.<p>이전에는 동적 차원이 포함된 행을 삭제하는 유일한 방법은 필터 대화 상자에서 규칙을 수동으로 만드는 것이었습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | 해당 사항 없음 | 2023년 5월 10일 |
 | **패널 내에 시각화를 추가하는 새 단추** | 이제 Analysis Workspace의 각 패널 하단에 새 단추를 사용할 수 있으므로 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 시각화를 패널에 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나 기존 시각화를 복제하거나 복사하거나 빈 패널을 만드는 것이었습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 해당 사항 없음 | 2023년 5월 17일 |
 | **딥 링크(모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 안내하는 스코어카드에 대한 링크를 전송할 수 있습니다. 따라서 프로젝트를 보다 쉽게 공유하고 기술적인 지식이 부족한 대상으로부터의 참여를 늘릴 수 있습니다. | 해당 사항 없음 | 2023년 5월 17일 |
-| **지능형 캡션** | 라인 시각화의 자연어 요약 정보를 사용하여 사용자에게 스토리텔링을 보강합니다. | 2023년 5월 17일 | 2023년 6월 1일 |
+| **지능형 캡션** | 다음의 자연어 요약으로 사용자에게 스토리텔링을 풍부하게 합니다. [!UICONTROL 라인] 시각화. | 2023년 5월 17일 | 2023년 6월 1일 |
 
 {style="table-layout:auto"}
 
@@ -42,6 +42,12 @@ AN-316412; AN-317105; AN-318122; AN-317353
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
 | 해당 사항 없음 | 해당 없음 | 해당 사항 없음 |
+
+## 서비스 종료(EOL) 알림 {#eol}
+
+| EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
+| --- | --- | --- |
+| **AdobeIO OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | AdobeIO JWT 자격 증명을 사용하는 Adobe Analytics API, CJA API 및 라이브 스트리밍 고객은 다음을 통해 AdobeIO OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다 **2025년 1월 1일**. AdobeIO에서는 2024년 5월 1일부터 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 새 OAuth 서버 간 자격 증명을 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하도록 클라이언트 응용 프로그램을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul>![](assets/jwt.png) |
 
 {style="table-layout:auto"}
 
