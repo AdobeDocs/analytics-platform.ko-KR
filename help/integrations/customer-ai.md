@@ -4,18 +4,18 @@ title: CJA와 Customer AI 데이터 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: fdd8d96eeca90ac13c035ace4a010c016681bac7
+hide: true
+hide-from-toc: true
+source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 73%
+source-wordcount: '954'
+ht-degree: 72%
 
 ---
 
 # CJA와 Customer AI 데이터 통합
 
->[!NOTE]
->
->현재 이 기능은 [제한적인 테스트](/help/release-notes/releases.md)가 실시되고 있으며 아직 사용 단계는 아닙니다.
+{{release-limited-testing}}
 
 Adobe Experience Platform Intelligent Services의 일부인 [Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ko-KR)는 마케터에게 개별 수준에서 고객 예측을 생성할 수 있는 권한을 제공합니다.
 
