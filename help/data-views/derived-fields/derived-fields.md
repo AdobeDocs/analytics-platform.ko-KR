@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: cb63cd52a1618f2e1048f2779c4e6c0317e94f64
+source-git-commit: daa2c69a61e80fb0e38f06ecca248658595b2c3a
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '2987'
 ht-degree: 8%
 
 ---
@@ -18,11 +18,6 @@ ht-degree: 8%
 # 파생 필드
 
 {{release-limited-testing}}
-
->[!NOTE]
->
->최종 업데이트 보류 중 [!UICONTROL 사용자 지정 필드] 대신 [!UICONTROL 파생 필드] 를 클릭하십시오.
-
 
 파생된 필드는 CJA(Customer Journey Analytics)의 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 지정 가능한 규칙 빌더를 통해 빠르게 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [작업 공간](../../analysis-workspace/home.md) 또는 파생 필드를 의 구성 요소로 추가로 정의하거나 [데이터 보기](../data-views.md).
 
