@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
+source-git-commit: 5b84c2c908f947b1abed621f68aa1a324faeecde
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2890'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,9 @@ Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/
    - CJA 작업 공간 프로젝트 및
    - 사용하려는 CJA 데이터 보기.
 
-- 만료되지 않은 자격 증명에서 만료되는 항목을 사용하여 BI 도구를 CJA SQL Connector에 연결합니다. 자세한 내용은 [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 만료 자격 증명 또는 비만료 자격 증명 설정에 대한 자세한 정보.
+- 만료되지 않은 자격 증명에서 만료되는 항목을 사용하여 BI 도구를 CJA SQL Connector에 연결합니다. Thr [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 만료 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
+
+자세한 내용은 [액세스 제어](../admin/cja-access-control.md) 자세한 내용은 CJA 관리 섹션에서 확인하십시오.
 
 
 ## 사용
@@ -383,9 +385,9 @@ ORDER BY -metric1 DESC
 | [분기(날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#quarter) | ``SELECT QUARTER(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. |
 | [시간(날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#hour) | ``SELECT HOUR(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 값 대신 항목 ID를 사용하십시오. |
 | [MINUTE(날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#minute) | ``SELECT MINUTE(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. |
-| [EXTRACT(부품 FROM 날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용하십시오.<br/>지원되는 부품은 다음과 같습니다.<br>- 키워드: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- 문자열:  `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
-| [DATE_PART(부품, 날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용하십시오.<br/>지원되는 문자열 부분은 다음과 같습니다. `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
-| [DATE_TRUNC(세부기간, 날짜 또는 날짜-시간)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다.<br/>지원되는 문자열 세부기간: `'YEAR'`, ``Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
+| [EXTRACT(부품 FROM 날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용하십시오.<br/>지원되는 부품은 다음과 같습니다.<br>- 키워드: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- 문자열:  `'YEAR'`, ``Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, ``DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
+| [DATE_PART(부품, 날짜 또는 날짜 시간)](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용하십시오.<br/>지원되는 문자열 부분은 다음과 같습니다. `'YEAR'`, ``Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, ``DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
+| [DATE_TRUNC(세부기간, 날짜 또는 날짜-시간)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다.<br/>지원되는 문자열 세부기간: `'YEAR'`, ``Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, ``DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
 
 {style="table-layout:auto"}
 
