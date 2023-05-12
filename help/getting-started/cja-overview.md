@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 20ea211fff816b8b5e99d3d6ef3cb4ba4d0fd6a9
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,7 @@ Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제
 >
 >Adobe Analytics를 사용하고 있으며 Customer Journey Analytics에서 Adobe Analytics 데이터를 사용하려는 경우 [데이터 수집](../data-ingestion/data-ingestion.md) 섹션의 일부로 [기존 Adobe Analytics 빠른 시작 안내서의 데이터 수집 및 사용](../data-ingestion/analytics.md)을 참조하십시오.
 
-
-Customer Journey Analytics의 초기 릴리스에는 Analysis Workspace에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
+Customer Journey Analytics 초기 릴리스에는 Adobe Analytics에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
 ## 주요 사용 사례
 
