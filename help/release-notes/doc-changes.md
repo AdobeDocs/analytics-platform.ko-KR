@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 84%
+source-wordcount: '1868'
+ht-degree: 93%
 
 ---
 
@@ -20,26 +20,27 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 5월** |  |
-| Analysis Workspace 개요 | 업데이트됨 [Analysis Workspace 개요](/help/analysis-workspace/home.md) 더 일반적인 개요 정보 및 관련 컨텐츠에 대한 링크를 포함하도록 업데이트되고 수정되었습니다. |
-| 프로젝트 만들기 | 다음 방법을 자세히 설명하는 새 문서를 만들었습니다. [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace. |
+| Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analysis-workspace/home.md)가 업데이트되었습니다. |
+| 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
 | 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록을 정렬하는 방법에 대한 정보를 추가했습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오 [구성 요소 개요](/help/components/overview.md). |
 | 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보가 추가되었습니다. 의 &quot;테이블에서 특정 행 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | 패널 내에 시각화를 추가하는 단추 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 의 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오 [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 지능형 캡션 설명서 | 을 사용하여 사용자를 위한 스토리텔링을 보강합니다. [자연어 요약](/help/analysis-workspace/visualizations/intelligent-captions.md) 라인 시각화 |
 | **2023년 4월** |  |
-| 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 방법에 대한 비디오가 업데이트되었습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지.</p> <p>다음은 비디오에 대한 직접 링크입니다. [Analysis Workspace에서 필터를 차원으로 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
-| 필터 설명서 | 사용 방법에 대한 문서가 추가되었습니다 [필터 빌더](/help/components/filters/filter-builder.md). <p>의 간소화된 설명서 [필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md).</p> |
-| 실험 패널 설명서 업데이트 | 에 섹션이 추가되었습니다. [임의 치수의 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
-| 프로젝트 필터(임시 및 빠른 필터) | 프로젝트 필터에 대한 간소화된 설명서와 중복된 정보가 제거되었습니다. 이제 애드혹 필터를 만드는 단계와 다음 절차가 결합됩니다 [빠른 필터 만들기](/help/components/filters/quick-filters.md). |
+| 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 것에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지에 연결되어 있습니다.</p> <p>다음은 [Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html) 비디오에 대한 직접 링크입니다.</p> |
+| 필터 설명서 | [필터 빌더](/help/components/filters/filter-builder.md)를 사용하는 방법에 대한 문서를 추가했습니다. <p>[필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md)의 설명서를 간소화했습니다.</p> |
+| 실험 패널 설명서 업데이트 | [비무작위로 지정되는 차원 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized)에 대한 섹션을 추가했습니다. |
+| 프로젝트 필터(애드 혹 및 빠른 필터) | 프로젝트 필터에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드 혹 필터를 만드는 단계는 이제 [빠른 필터를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
 | **2023년 3월** |  |
-| 의사 결정 관리 데이터 통합 | 방법을 설명하는 컨텐츠가 추가되었습니다. [cja에서 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md). |
+| 의사 결정 관리 데이터 통합 | [CJA에 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md) 방법을 설명하는 콘텐츠를 추가했습니다. |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
-| 기능 지원이 업데이트됨 | CJA에서 사용할 수 있지만 AA에서는 사용할 수 없거나 지원되지 않는 기능 표로 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 업데이트합니다. |
+| 업데이트된 기능 지원 | CJA에서 사용할 수 있지만 AA에서는 사용할 수 없거나 지원되지 않는 기능 표로 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 업데이트합니다. |
 | 기본 계산된 지표 | [Adobe에서 제공하는 기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 설명하는 내용을 추가했습니다. |
 | 데이터 사전 | <p>데이터 사전의 [개요](/help/components/data-dictionary/data-dictionary-overview.md), [보기](/help/components/data-dictionary/view-data-dictionary.md), [편집](/help/components/data-dictionary/edit-entries-data-dictionary.md), 그리고 [모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)을 포함하여 데이터 사전을 위해 새로운 문서를 추가했습니다.</p><p>데이터 사전 기능을 설명하기 위해서 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)의 정보가 업데이트되었습니다.</p> |
 | 프로젝트 링크 공유 (로그인 불필요) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사람들과 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md)가 포함되어 있습니다.</p> <p>관리자 옵션이 [환경 설정](/help/analysis-workspace/user-preferences.md)에 추가되었습니다.</p> |
 | **2023년 2월** |  |
 | CJA와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
-| 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)에 대한 새로운 섹션. |
+| 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)에 대한 새로운 섹션. |
 | 대상자 설명서에 대한 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [CJA 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)를 만듭니다. |
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates)를 참조하십시오. |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새로운 문서 섹션. CJA의 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates)를 참조하십시오. |
@@ -63,9 +64,9 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [CJA 감사 로그](/help/privacy/audit-log.md)에 대한 새로운 주제. |
-| 2022년 10월 | [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko) 시각화에 대한 새로운 주제. |
-| 2022년 10월 | [데이터 보기의 날짜 및 날짜-시간 기능](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko#date)에 대한 새로운 섹션 |
-| 2022년 10월 | 모바일 앱: [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko#view-detail-slides)에 대한 새로운 주제. |
+| 2022년 10월 | [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) 시각화에 대한 새로운 주제. |
+| 2022년 10월 | [데이터 보기의 날짜 및 날짜-시간 기능](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#date)에 대한 새로운 섹션 |
+| 2022년 10월 | 모바일 앱: [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#view-detail-slides)에 대한 새로운 주제. |
 | 2022년 10월 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) 주제에 대한 업데이트. |
 | **2022년 9월** |  |
 | 2022년 9월 | [CJA로의 Google Analytics 데이터 마이그레이션](/help/use-cases/ga/overview.md)에 대한 새로운 사용 사례. |
@@ -80,7 +81,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | **2022년 7월** |  |
 | 2022년 7월 | [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 문서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 문서. |
-| 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko#new-repeat) 보고 문서. |
+| 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) 보고 문서. |
 | **2022년 6월** |  |
 | 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics Source Connector](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics Source Connector에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서. |
@@ -103,7 +104,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 2022년 3월 | [작업 영역의 주석](/help/components/annotations/overview.md)에 대한 새로운 설명서. |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | **2022년 2월** |  |
-| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko) |
+| 2022년 2월 | Adobe Analytics에서 CJA로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=en) |
 | **2022년 1월** |  |
 | 2022년 1월 | [CJA에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) |
