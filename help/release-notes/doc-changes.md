@@ -30,7 +30,7 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 것에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지에 연결되어 있습니다.</p> <p>다음은 [Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html) 비디오에 대한 직접 링크입니다.</p> |
 | 필터 설명서 | [필터 빌더](/help/components/filters/filter-builder.md)를 사용하는 방법에 대한 문서를 추가했습니다. <p>[필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md)의 설명서를 간소화했습니다.</p> |
 | 실험 패널 설명서 업데이트 | [비무작위로 지정되는 차원 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized)에 대한 섹션을 추가했습니다. |
-| 프로젝트 필터(애드 혹 및 빠른 필터) | 프로젝트 필터에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드 혹 필터를 만드는 단계는 이제 [빠른 필터를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
+| 프로젝트 필터(애드혹 및 빠른 필터) | 프로젝트 필터에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 필터를 만드는 단계는 이제 [빠른 필터를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
 | **2023년 3월** |  |
 | 의사 결정 관리 데이터 통합 | [CJA에 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md) 방법을 설명하는 콘텐츠를 추가했습니다. |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
