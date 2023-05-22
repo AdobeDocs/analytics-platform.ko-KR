@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '3146'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -82,7 +82,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[열](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** |  |  |
 |  | 머리글 텍스트 줄바꿈 | 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 이 기능은 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. 기본적으로 사용됩니다. |
 |  | 합계 표시 | 이 합계는 일반적으로 [!UICONTROL 총 합계]와 같거나 그 하위 집합입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
-|  | 총계 표시 | 이 합계는 수집된 모든 히트를 나타내며 경우에 따라 &#39;데이터 보기 합계&#39;라고도 합니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
+|  | 총계 표시 | 이 합계는 수집된 모든 이벤트를 나타내며 &quot;데이터 보기 합계&quot;라고도 합니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다. [정적 행](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
 |  | 스파크라인 표시 | 차트 하단에 라인 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
 |  | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
 |  | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
@@ -107,7 +107,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **일반 기본값** |  |  |
 |  | 백분율 | 모든 시각화 값을 백분율로 표시합니다. |
 |  | 범례 표시 | 모든 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-|  | 최대 항목 수 제한 | 모든 시각화에 대한 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용합니다. |
+|  | 최대 항목 수 제한 | 모든 시각화에 대한 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용할 수 있습니다. |
 |  | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 |  | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 |  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
@@ -115,7 +115,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **[라인](/help/analysis-workspace/visualizations/line.md)** |  |  |
 |  | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
 |  | 범례 표시 | 라인 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-|  | 최대 항목 수 제한 | 라인 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용합니다. |
+|  | 최대 항목 수 제한 | 라인 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용할 수 있습니다. |
 |  | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 |  | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 |  | X축 표시 | 라인 차트에 X축을 표시합니다. |
@@ -154,7 +154,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 |  | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | 버킷 수 | 시각화에서 데이터 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
-|  | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 방문자당 페이지 조회수, 방문 페이지 조회수 또는 히트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
+|  | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어 페이지 보기 수와 함께 사용할 경우 방문자별 페이지 보기 수, 방문용 페이지 보기 수 또는 이벤트별 페이지 보기 수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
 |  | 백분율 | 요약 변경 시각화 값을 백분율로 표시합니다. |
@@ -166,28 +166,28 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 |  | 값 생략 | [!UICONTROL **요약 번호**] 섹션에서 |
 | **[트리맵](/help/analysis-workspace/visualizations/treemap.md)** |  |  |
 |  | 백분율 | 트리맵 시각화 값을 백분율로 표시합니다. |
-|  | 최대 항목 수 제한 | 트리맵 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용합니다. |
+|  | 최대 항목 수 제한 | 트리맵 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용할 수 있습니다. |
 | **[벤](/help/analysis-workspace/visualizations/venn.md)** |  |  |
 |  | 범례 표시 | 벤 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | **[분산](/help/analysis-workspace/visualizations/scatterplot.md)** |  |  |
 |  | 백분율 | 분산 시각화 값을 백분율로 표시합니다. |
 |  | 범례 표시 | 분산 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-|  | 최대 항목 수 제한 | 분산 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용합니다. |
+|  | 최대 항목 수 제한 | 분산 시각화에서 X축의 항목 수를 줄입니다. 이 기능은 큰 데이터 세트가 있는 경우 유용할 수 있습니다. |
 |  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐).  |
 
 ## 회사 환경 설정
 
 >[!AVAILABILITY]
 >
->이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용할 수 없습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+>이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **프로젝트 공유** |  |  |
-|  | 작업 영역 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;다른 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는 다음에 설명된 대로 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p><p>이 선택 사항은 보건의료 산업을 제외한 모든 조직(사용자가 조직 외부의 사용자와 프로젝트를 공유할 수 있음)에 대해 기본적으로 비활성화됩니다. </p><p>이 옵션을 활성화하거나 비활성화할 때는 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람이 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화되어 있으면(Workspace 사용자만 공유할 수 있도록 허용) 후에 비활성화되어 있으면(누구와도 공유할 수 있도록) 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 액세스할 수 있었던 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 모든 사람과 프로젝트를 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**의료 업계의 경우** 이 옵션은 기본적으로 활성화되어 있으며 흐리게 표시됩니다. 사용자가 &quot;다른 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 을(를) 추가해야 합니다 [!UICONTROL **모든 사람과 프로젝트 링크 공유**] 권한(다음 위치) [!UICONTROL **보고 도구**])을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 그에 따른 법적 고지 사항을 수락할 수 있습니다. Admin Console에서 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
-|  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;다른 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 받는 사람이 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;다른 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되며 프로젝트를 공유하는 사용자가 비활성화할 수 없습니다. (사용자가 모든 사람과 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md))</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;다른 사람과 공유&quot; 공유 옵션과 공유되었으며 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션이 활성화되어 있으면(Experience Cloud 인증이 필요함) 후에 비활성화되어 있으면(링크를 가진 모든 사람이 프로젝트에 액세스할 수 있도록 허용), 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 모든 사용자([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 SSO가 조직에서 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 단일 사인온 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성된 경우 콘솔에서 모든 종류의 자동 계정 만들기가 구현되었는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 생성 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직에서 HIPAA 규정을 준수해야 하는 업계에서는 이 옵션이 자동으로 활성화되므로 비활성화할 수 없습니다.</p></li></ul> |
+|  | 작업 영역 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;모든 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는에 설명된 대로 조직에 Analysis Workspace 계정이 없는 사람들과 프로젝트를 공유할 수 없습니다 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p><p>이 옵션은 의료 산업을 제외한 모든 조직(사용자가 조직 외부의 사람과 프로젝트를 공유할 수 있음을 의미)에 대해 기본적으로 비활성화되어 있습니다. </p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화(Workspace 사용자와의 공유만 허용)된 후 나중에 비활성화(모든 사람과 공유 허용)된 경우 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**의료 산업 조직의 경우:** 이 옵션은 기본적으로 활성화되고 흐리게 표시됩니다. 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 다음을 추가해야 합니다. [!UICONTROL **누구와도 프로젝트 링크 공유**] 권한(위치: [!UICONTROL **보고 도구**] Adobe Admin Console )을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 최종 법적 통지에 동의할 수 있습니다. Admin Console에 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
+|  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;모든 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되고 프로젝트를 공유하는 사용자는 이 옵션을 비활성화할 수 없습니다. (사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션과 공유되었지만 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 필요)한 다음 나중에 비활성화(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 &quot;모든 사용자와 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 &quot;링크가 활성화됨&quot; 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 조직에서 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화할 수 있는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성되어 있는 경우 콘솔에서 자동 계정 만들기 유형이 구현되는지 확인하십시오. 일반적으로 시스템 관리자는에 설명된 대로 이 설정을 수행합니다 [자동 계정 만들기 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직이 HIPAA 준수를 필요로 하는 산업에 속한 경우 이 옵션은 자동으로 활성화되고 비활성화될 수 없습니다.</p></li></ul> |
 
 {style="table-layout:auto"}
 
@@ -197,7 +197,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 
 이 작업은 실행 취소할 수 없습니다.
 
-1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] **>** [!UICONTROL **기본 설정**].
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] **>** [!UICONTROL **환경 설정**].
 
    ![사용자 환경 설정](assets/user-preferences.png)
 

@@ -4,10 +4,10 @@ description: CJA가 데이터 계층에 관해 보고하는 방법을 이해합�
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 이전 버전의 Adobe Analytics에서는 `products` 변수를 사용하여 이 기능을 제공했습니다. 제품의 패싯을 구분하기 위해 세미콜론(`;`)으로 구분된 연속 문자열이며, 제품 설명은 쉼표(`,`)로 구분했습니다. &quot;오브젝트 배열&quot;을 제한적으로 지원하는 유일한 변수였습니다. 목록 변수와 같은 다중 값 변수는 배열의 동등한 변수를 지원할 수 있지만, &quot;오브젝트 배열&quot;을 지원할 수는 없습니다. CJA에서는 단일 데이터 행에서 임의의 세부 계층을 지원하여 이 개념을 확장했습니다. 이는 이전 버전의 Adobe Analytics에서 사용할 수 없는 기능입니다.
 
-## 동일한 히트 예
+## 동일한 이벤트 예
 
-다음 히트는 고객이 구매한 세탁기 및 건조기 구성을 나타내는 JSON 오브젝트입니다.
+다음 이벤트는 고객이 구매한 세탁기 및 건조기 구성을 나타내는 JSON 개체입니다.
 
 ```json
 {
@@ -81,9 +81,9 @@ ht-degree: 100%
    * product : warranty
    * product : warranty : revenue
 
-### 동일한 히트 예 (보고 비헤이비어)
+### 동일한 이벤트 예(보고 동작)
 
-위의 히트만 사용한 다음 표에는 몇 가지 차원과 지표 조합이 있는 작업 영역 보고서가 나와 있습니다.
+위의 이벤트만 사용하면 다음 표에는 몇 가지 차원과 지표 조합이 있는 작업 영역 보고서가 나와 있습니다.
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ CJA에서는 이 표를 기준으로 오브젝트의 차원과 지표를 선택�
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA에서는 히트의 이러한 부분만 살펴보고 다음과 같이 보고서를 생성합니다.
+CJA는 다음과 같은 이벤트 부분을 보고 보고서를 생성합니다.
 
 ```diff
 {

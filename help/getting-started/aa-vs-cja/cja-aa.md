@@ -4,7 +4,7 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 74%
@@ -13,7 +13,7 @@ ht-degree: 74%
 
 # Customer Journey Analytics 기능 지원
 
-다음 표는 CJA(Adobe Analytics)에서 지원되거나, 부분적으로 지원되거나, CJA(Customer Journey Analytics)에서 지원되지 않는 기능 및 CJA의 기능이 AA에서 지원되지 않거나 지원되지 않는 기능을 보여줍니다. 이들 목록은 CJA에 추가되므로 시간이 지남에 따라 변경됩니다.
+다음 표에는 CJA(Adobe Analytics)에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 기능과 AA(Customer Journey Analytics)에서 지원되거나 사용할 수 없는 CJA의 기능이 나와 있습니다. 이들 목록은 CJA에 추가되므로 시간이 지남에 따라 변경됩니다.
 
 ## 완전히 지원되는 기능/구성 요소 {#full-support}
 
@@ -55,10 +55,10 @@ ht-degree: 74%
 | 대상자 게시 (세그먼트 퍼블리싱) | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 CJA로 가져올 수 있습니다. 조회 데이터 세트를 AEP에 직접 업로드하여 CJA에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | CJA에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
-| 사용자 정의 세션 | 모바일 배경 조회수를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
+| 사용자 정의 세션 | 모바일 배경 이벤트를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 고객 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. CJA에서 사용하려면 AEP로 업로드해야 합니다. |
-| 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [AEP 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 및 [AEP 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 이러한 옵션은 AEP Data Lake로 수집하거나 수집된 모든 데이터의 히트/행 수준 내보내기를 제공합니다. 사후 열은 쿼리 시간에 계산되므로 사후 프로세스 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
+| 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [AEP 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 및 [AEP 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 이러한 옵션은 AEP 데이터 레이크로 수집되거나 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 쿼리 시간에 사후 열이 계산되므로 사후 프로세스 데이터 열을 사용할 수 없습니다. 보고를 통해 이후 열의 내보내기를 사용할 수 있습니다. |
 | 지표 중복 제거 | 이제 데이터 보기 내의 지표에 대해 구성됩니다. 지표 중복 제거는 데이터 세트, 데이터 보기 또는 연결 수준이 아닌 개인 또는 세션 수준에서 발생합니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 CJA에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
@@ -122,19 +122,19 @@ ht-degree: 74%
 * Reports &amp; Analytics 책갈피
 * Reports &amp; Analytics 대상
 
-## Adobe Analytics에서 CJA 기능을 사용할 수 없음 {#cja-not-aa}
+## CJA 기능은 Adobe Analytics에서 사용할 수 없음 {#cja-not-aa}
 
 다음 표에는 CJA(Customer Journey Analytics)에서 사용할 수 있지만 Adobe Analytics(AA)에서는 지원되지 않는 기능이 나와 있습니다.
 
 | 기능 | 더 자세히 |
 | --- | --- |
-| 모든 종류의 데이터를 위한 숙박 | CJA는 모든 종류의 데이터 스키마 및 유형을 보유할 수 있는 Experience Platform의 기능과 결합됩니다. 사용 [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR), 데이터는 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics은 주로 웹 및 모바일 분석 데이터에 중점을 두고 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=ko-KR). |
-| 무제한 고객 Dimension 및 지표 | CJA 차원은 무제한이 있습니다. 값은 모두 숫자, 텍스트, 개체, 목록 또는 혼합물일 수 있습니다. Dimension은 중첩되거나 계층적일 수 있습니다. Analytics는 최대 75개의 prop 및 250개의 eVar를 지원합니다. 이렇게 하면 차원 및 이벤트를 사용하여 현재 측정 제한 사항이 제거됩니다. |
-| 무제한 카디널리티/고유 값 | CJA는 단일 차원 내에서 보고할 수 있는 무제한 고유 값 또는 차원 항목을 지원합니다. AA는 50만 개의 고유 값으로 제한됩니다. 따라서 현재 대규모 Analytics 구현을 통해 존재하는 보고 및 분석 제한 사항이 제거됩니다. |
-| 보고서 시간 변환 | CJA의 보고서 시간 변환(데이터 보기라고 함)을 사용하면 연결에서 데이터를 추가로 해석할 수 있습니다. 다시 구현하지 않고 데이터를 변경하거나 제거할 수 있습니다. 부분 문자열을 사용하여 차원을 조작합니다. 값에서 지표를 생성합니다. 하위 이벤트를 필터링합니다. 그리고 이것은 모두 파괴적이지 않게 할 수 있습니다. Adobe Analytics은 가상 보고서 세트 및 세션을 통해 제한된 기능을 제공합니다. |
-| 실험 분석 | CJA에서는 연결의 일부로 정의된 데이터 소스에서 실험의 향상도와 신뢰도를 평가할 수 있습니다. 이를 통해 모든 채널에 걸친 고객 상호 작용 간의 원인과 결과 관계를 파악할 수 있습니다. Analytics는 A4T(Analytics for Target) 통합을 통한 실험 분석으로 제한됩니다. |
-| Cross-Device Analytics | CJA에서는 인증되지 않은 세션과 인증된 세션에서 장치별 데이터 세트를 매끄럽게 결합할 수 있습니다. 이전 데이터를 알려진 장치에 채울 수도 있습니다. Analytics에서 이 기능은 단일 보고서 세트와 장치 그래프의 사용으로 제한됩니다. |
-| SQL 액세스 | CJA에서는 데이터 Distiller 옵션을 사용하여 Adobe의 백엔드 처리에서 수집된 데이터의 제한을 제거할 수 있습니다. SQL을 사용하여 데이터를 수정하고, 비즈니스에 고유한 새로운 값과 데이터 세트를 만들고, 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 어떠한 종류의 SQL 액세스도 지원하지 않습니다. |
-| 향상된 보안 및 개인 정보 보호 옵션 - HIPAA 준비 | CJA는 HIPAA에 준비되어 있으며 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics은 HIPAA를 사용할 수 없습니다. |
+| 모든 종류의 데이터 수용 | CJA에는 모든 종류의 데이터 스키마 및 유형을 보유할 수 있는 Experience Platform의 기능이 결합되어 있습니다. 사용 [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR), 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics은 주로 다음과 같은 몇 가지 기능을 갖춘 웹 및 모바일 분석 데이터에 주력하고 있습니다. [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=ko-KR). |
+| 무제한 고객 Dimension 및 지표 | CJA 차원은 제한이 없습니다. 값은 숫자, 텍스트, 객체, 목록 또는 모든 것의 조합일 수 있습니다. Dimension은 중첩되거나 계층화될 수 있습니다. Analytics는 최대 75개의 prop 및 250개의 eVar를 지원합니다. 이렇게 하면 차원 및 이벤트를 사용하여 현재 측정 제한이 제거됩니다. |
+| 무제한 카디널리티/고유 값 | CJA는 단일 차원 내에서 보고할 수 있는 고유 값 또는 차원 항목을 무제한으로 지원합니다. AA는 50만 개의 고유 값으로 제한됩니다. 이렇게 하면 현재 대규모 Analytics 구현에 존재하는 보고 및 분석 제한 사항이 제거됩니다. |
+| 보고서 시간 변환 | CJA의 보고서 시간 변환(데이터 보기)을 사용하면 연결에서 데이터를 추가로 해석할 수 있습니다. 다시 구현하지 않고 데이터를 변경하거나 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 그리고 이 모든 것은 비파괴적으로 이루어질 수 있습니다. Adobe Analytics은 가상 보고서 세트 및 세션화를 통해 제한된 기능을 제공합니다. |
+| 실험 분석 | CJA는 연결의 일부로 정의된 모든 데이터 소스에서 실험의 상승도와 신뢰도를 평가할 수 있습니다. 이를 통해 모든 채널에 걸친 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. Analytics는 A4T(Target 분석) 통합을 통한 실험 분석으로 제한됩니다. |
+| Cross-Device Analytics | CJA는 인증되지 않은 세션과 인증된 세션의 디바이스별 데이터 세트의 원활한 결합을 지원합니다. 내역 데이터를 알려진 디바이스에 다시 채울 수도 있습니다. Analytics에서 이 기능은 단일 보고서 세트 및 장치 그래프 사용으로 제한됩니다. |
+| SQL 액세스 | CJA는 데이터 Distiller 옵션을 사용하여 Adobe의 백엔드 처리에 수집된 데이터의 제한을 제거할 수 있습니다. SQL을 사용하여 데이터를 수정하고, 비즈니스에 고유한 새 값과 데이터 세트를 만들고 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 어떤 종류의 SQL 액세스도 지원하지 않습니다. |
+| 향상된 보안 및 개인 정보 보호 옵션 - HIPAA 준비 | CJA는 HIPAA가 준비되었으며 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics은 HIPAA가 준비되지 않았습니다. |
 
 {style="table-layout:auto"}

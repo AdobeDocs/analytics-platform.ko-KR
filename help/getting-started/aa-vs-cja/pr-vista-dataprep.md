@@ -2,10 +2,10 @@
 title: 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 데이터 준비
 description: 처리 규칙 및 VISTA를 사용한 데이터 변환과 데이터 준비를 사용한 데이터 변환에 대해 알아보기
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: 6b7b8e8f1c1e88644961dd5e1b3d2ff7ec07951e
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,6 @@ Adobe Analytics에 의해 수집되고 저장되는 데이터는 처리 규칙�
 
 데이터 준비는 일부 상황에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko-KR)와 크로스오버가 있습니다.
 
-예를 들어 구분된 필드에서 데이터 준비를 사용하여 분류를 사용하지 않고 해당 필드를 여러 개별 필드로 분할할 수 있습니다. 일반적으로 분류는 들어오는 Analytics 히트 수의 스트림 외부에 제공되는 조회 파일을 업로드하여 필드에 메타데이터를 추가하는 방법입니다.
+예를 들어 구분된 필드에서 데이터 준비를 사용하여 분류를 사용하지 않고 해당 필드를 여러 개별 필드로 분할할 수 있습니다. 일반적으로 분류는 들어오는 Analytics 이벤트 스트림 외부에 제공되는 조회 파일을 업로드하여 필드에 메타데이터를 추가하는 방법입니다.
 
 예를 들어 SKU를 &#39;크기&#39;, &#39;브랜드&#39;, &#39;색상&#39; 등으로 그룹화한 분류 파일을 업로드할 수 있습니다. 분류와 데이터 준비의 또 다른 차이점은 분류가 _과거 및 향후_ 데이터에 모두 적용된다는 것입니다. 반면 데이터 준비 매핑은 매핑이 생성된 시점부터 _향후_ 데이터에 적용됩니다.

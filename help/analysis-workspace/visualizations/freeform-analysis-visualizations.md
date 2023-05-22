@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
 | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
 | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
-| [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
+| [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
@@ -43,21 +43,21 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 1. 시각화를 추가할 Analysis Workspace 프로젝트를 엽니다.
 
-1. 다음 방법 중 하나를 사용하여 시각화를 추가합니다.
+1. 시각화를 추가하려면 다음 방법 중 하나를 사용하십시오.
 
-   * 왼쪽 레일에서 를 선택합니다. **시각화** 아이콘 <!-- add icon -->을 클릭한 다음 시각화를 추가할 패널로 드래그합니다.
+   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->를 클릭한 다음 시각화를 추가하려는 패널로 시각화를 드래그합니다.
 
       ![](assets/viz-rail.png)
 
-   * 시각화를 추가할 패널에서 **플러스** 아이콘을 클릭한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가면 해당 이름이 표시됩니다.
+   * 시각화를 추가하려는 패널에서 **플러스** 아이콘을 클릭한 다음 추가하려는 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
 
-      ![시각화 추가 단추](assets/visualization-add-to-panel.png)
+      ![시각화 추가 버튼](assets/visualization-add-to-panel.png)
 
-   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 선택하고 추가할 시각화를 선택합니다.
+   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을(를) 만든 다음 추가할 시각화를 선택합니다.
 
       ![빈 패널](assets/blank_panel.png)
 
-   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 을 선택합니다 [!UICONTROL **중복 시각화**] 또는 [!UICONTROL **시각화 복사**].
+   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 를 선택합니다 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**].
 
 ## 시각화 설정 맞춤화
 
@@ -86,7 +86,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | 설정 | 설명 |
 | --- | --- |
 | 시각화 유형 | 데이터를 묘사하는 데 사용되는 시각 자료 유형을 변경합니다. |
-| 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 선택하십시오. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
+| 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 다음을 수행합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | 백분율 | 값을 백분율로 표시합니다. |
 | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. 예: ![스택 100%](assets/stacked_100_percent.png) |
 | 범례 표시 | 요약 번호/요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
