@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
+source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '888'
 ht-degree: 98%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 98%
 
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace 성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
@@ -197,6 +196,7 @@ ht-degree: 98%
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
+
    + 주석 {#annotations}
       + [주석 개요](../components/annotations/overview.md)
       + [주석 생성](../components/annotations/create-annotations.md)
@@ -213,6 +213,7 @@ ht-degree: 98%
       + [차원 시간 분할](../components/dimensions/time-parting-dimensions.md)
       + [카디널리티가 매우 높은 차원](../components/dimensions/high-cardinality.md)
    + [지표](../components/apply-create-metrics.md)
+
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
@@ -252,12 +253,20 @@ ht-degree: 98%
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
       + [데이터 사전의 구성 요소 항목 편집](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [데이터 사전 상태 모니터링](../components/data-dictionary/monitor-data-dictionary-health.md)
+
+
+
+
+
+
+
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](../mobile-app/home.md)
    + [큐레이터 작업](../mobile-app/curator.md)
    + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
+
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 개요](../report-builder/report-buider-overview.md)
    + [Report Builder 설치](../report-builder/report-builder-setup.md)
@@ -291,6 +300,7 @@ ht-degree: 98%
 
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
+
    + Google Analytics 데이터 {#ga}
       + [Google Analytics에서 CJA로 데이터 마이그레이션 개요](../use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
@@ -313,11 +323,16 @@ ht-degree: 98%
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
 
+
+
+
+
+
 + 관리 {#cja-admin}
    + [액세스 제어](../admin/cja-access-control.md)
    + [사용량 보기 및 관리](../admin/estimate-usage.md)
    + [삭제 영향](../admin/cja-deletion.md)
-   + [CJA 성능 최적화](../admin/cja-performance.md)
+   + [CJA 성능 최적화](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
