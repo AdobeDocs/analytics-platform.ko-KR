@@ -4,7 +4,7 @@ description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 �
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
+source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 62%
@@ -58,17 +58,17 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 ## 구성 요소 관리 {#actions}
 
-왼쪽 레일에서 구성 요소를 직접 관리할 수 있습니다.
+왼쪽 레일에서 직접 구성 요소를 관리할 수 있습니다.
 
 1. 구성 요소를 마우스 오른쪽 단추로 클릭합니다.
 
    또는
 
-   구성 요소를 선택한 다음, **작업** (3-dot) 아이콘을 클릭합니다.
+   구성 요소를 선택한 다음, **작업** 구성 요소 목록 맨 위에 있는 (3점) 아이콘.
 
    >[!TIP]
    >
-   >   Shift 키를 누르거나 Command 키(Mac에서) 또는 Ctrl 키(Windows)를 눌러 여러 구성 요소를 선택할 수 있습니다.
+   >   Shift 키나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 채 여러 구성 요소를 선택할 수 있습니다.
 
 
    ![](assets/component-actions.png)
@@ -81,7 +81,7 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
    | [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 지정 구성 요소에만 사용할 수 있습니다. |
    | [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 지정 구성 요소에만 사용할 수 있습니다. |
 
-사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예: [필터 관리](/help/components/filters/manage-filters.md).
+사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [필터 관리](/help/components/filters/manage-filters.md).
 
 ## 구성 요소 목록 검색, 필터링 및 정렬
 
@@ -89,19 +89,19 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
 
 ### 구성 요소 목록 검색
 
-1. 을(를) 선택합니다 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에 있습니다.
+1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
 
 1. 검색 필드에서 프로젝트에 사용할 구성 요소의 이름을 입력합니다.
 
-   구성 요소 유형은 색상과 아이콘을 모두 사용하여 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고, **필터** ![필터 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 보라색이고 **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 필터 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](assets/calculated-metric-icon-created.png) 조직의 Analytics 관리자가 만든 계산된 지표를 표시합니다.
+   구성 요소의 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고 **필터** ![필터 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 은 자주색이고, **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 필터 템플릿과 계산기 아이콘을 나타냅니다. ![계산기 아이콘](assets/calculated-metric-icon-created.png) 는 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
-1. 구성 요소가 드롭다운 목록에 나타나면 해당 구성 요소를 선택합니다.
+1. 드롭다운 목록에 나타나면 구성 요소를 선택합니다.
 
 ### 구성 요소 목록 필터링
 
-1. 을(를) 선택합니다 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에 있습니다.
+1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
 
-1. 을(를) 선택합니다 **필터** 아이콘 ![데이터 사전 필터 아이콘](assets/components-filter-icon.png).
+1. 다음 항목 선택 **필터** 아이콘 ![데이터 사전 필터 아이콘](assets/components-filter-icon.png).
 
    또는
 
@@ -112,7 +112,7 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
    | 옵션 | 함수 |
    |---------|----------|
    | [!UICONTROL **승인됨**] | 관리자가 승인함으로 표시된 구성 요소만 표시합니다. |
-   | [!UICONTROL **즐겨찾기**] | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. 즐겨찾기 목록에 구성 요소를 추가하는 방법은 다음을 참조하십시오 [구성 요소 관리](#manage-components). |
+   | [!UICONTROL **즐겨찾기**] | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. 즐겨찾기 목록에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [구성 요소 관리](#manage-components). |
    | [!UICONTROL **차원**] | 차원인 구성 요소만 표시합니다. |
    | [!UICONTROL **지표**] | 지표인 구성 요소만 표시합니다. |
    | [!UICONTROL **필터**] | 필터인 구성 요소만 표시합니다. |
@@ -120,15 +120,17 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
 
-1. (선택 사항) 목록을 추가로 정렬하려면 [구성 요소 목록 정렬](#sort-the-component-list).
+1. (선택 사항) 목록을 추가로 보강하기 위해에서 설명한 대로 구성 요소 목록을 정렬할 수 있습니다 [구성 요소 목록 정렬](#sort-the-component-list).
 
 ### 구성 요소 목록 정렬
 
-1. (선택 사항) [구성 요소 목록 필터링](#filter-the-component-list).
+{{release-limited-testing-section}}
 
-1. 을(를) 선택합니다 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에 있습니다.
+1. (선택 사항) 의 설명에 따라 구성 요소 목록에 필터를 적용합니다 [구성 요소 목록 필터링](#filter-the-component-list).
 
-1. 을(를) 선택합니다 **정렬** 아이콘 ![구성 요소 정렬 아이콘](assets/component-sort-icon.png)을 선택한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
+
+1. 다음 항목 선택 **정렬** 아이콘 ![구성 요소 정렬 아이콘](assets/component-sort-icon.png)를 클릭한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
 
    {{components-sort-options}}
 
