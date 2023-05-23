@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
+source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 97%
 
 ---
 
@@ -192,6 +192,21 @@ ht-degree: 98%
 
 
 
++ Analytics 대시보드 {#cja-dashboards}
+   + [Analytics 대시보드 - 개요](../mobile-app/home.md)
+   + [큐레이터 작업](../mobile-app/curator.md)
+   + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
+   + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
+   + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
+
++ 안내식 분석 {#guided-analysis}
+   + [개요](../guided-analysis/overview.md)
+   + [인터페이스](../guided-analysis/interface.md)
+   + 분석 유형 {#analysis-types}
+      + [개요](../guided-analysis/analysis-types/overview.md)
+      + [단계](../guided-analysis/analysis-types/funnel.md)
+      + [트렌드](../guided-analysis/analysis-types/trends.md)
+      + [사용자 성장](../guided-analysis/analysis-types/user-growth.md)
 
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
@@ -259,13 +274,6 @@ ht-degree: 98%
 
 
 
-
-+ Analytics 대시보드 {#cja-dashboards}
-   + [Analytics 대시보드 - 개요](../mobile-app/home.md)
-   + [큐레이터 작업](../mobile-app/curator.md)
-   + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
-   + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
-   + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 개요](../report-builder/report-buider-overview.md)
