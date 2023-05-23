@@ -2,10 +2,10 @@
 title: 필터 관리
 description: Customer Journey Analytics에서 필터를 관리 방법 알아보기
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 1. 필터 관리 도구 모음에서 **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
-1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. 공유 아이콘이 필터 ![](assets/share_icon.png) 옆에 표시됩니다.
+1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. 공유 아이콘이 필터 ![ 옆에 표시됩니다.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. 필터 > 기타 필터 > 나와 공유로 이동하여 공유된 필터를 필터링할 수 있습니다.
 

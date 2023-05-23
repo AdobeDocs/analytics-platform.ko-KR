@@ -4,10 +4,10 @@ description: CJA가 제공하는 구성 요소와 보고 시 그러한 구성 �
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3b98047d7ac04b370dc9c03300f75b7313e79e5a
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 62%
+source-wordcount: '1035'
+ht-degree: 57%
 
 ---
 
@@ -89,25 +89,25 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
 
 ### 구성 요소 목록 검색
 
-1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
+1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
 
-1. 검색 필드에서 프로젝트에 사용할 구성 요소의 이름을 입력합니다.
+2. 검색 필드에서 프로젝트에 사용할 구성 요소의 이름을 입력합니다.
 
-   구성 요소의 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고 **필터** ![필터 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 은 자주색이고, **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 필터 템플릿과 계산기 아이콘을 나타냅니다. ![계산기 아이콘](assets/calculated-metric-icon-created.png) 는 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+   구성 요소의 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 주황색이고 **필터** ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 파란색, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 필터 템플릿과 계산기 아이콘을 나타냅니다. ![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 는 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
-1. 드롭다운 목록에 나타나면 구성 요소를 선택합니다.
+3. 드롭다운 목록에 나타나면 구성 요소를 선택합니다.
 
 ### 구성 요소 목록 필터링
 
-1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
+1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
 
-1. 다음 항목 선택 **필터** 아이콘 ![데이터 사전 필터 아이콘](assets/components-filter-icon.png).
+2. 다음 항목 선택 **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)).
 
    또는
 
    검색 필드에 파운드 기호(#)를 입력합니다.
 
-1. 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+3. 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -120,7 +120,7 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
 
-1. (선택 사항) 목록을 추가로 보강하기 위해에서 설명한 대로 구성 요소 목록을 정렬할 수 있습니다 [구성 요소 목록 정렬](#sort-the-component-list).
+4. (선택 사항) 목록을 추가로 보강하기 위해에서 설명한 대로 구성 요소 목록을 정렬할 수 있습니다 [구성 요소 목록 정렬](#sort-the-component-list).
 
 ### 구성 요소 목록 정렬
 
@@ -128,9 +128,9 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
 
 1. (선택 사항) 의 설명에 따라 구성 요소 목록에 필터를 적용합니다 [구성 요소 목록 필터링](#filter-the-component-list).
 
-1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](assets/components-icon.png) 왼쪽 레일에서.
+2. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
 
-1. 다음 항목 선택 **정렬** 아이콘 ![구성 요소 정렬 아이콘](assets/component-sort-icon.png)를 클릭한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+3. 다음 항목 선택 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)를 클릭한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
 
    {{components-sort-options}}
 

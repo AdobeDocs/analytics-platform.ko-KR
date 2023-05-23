@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '930'
-ht-degree: 100%
+source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/calc-metrics/cm-workflow/cm-manager.md)를 클릭하거나
 
-* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가를 클릭합니다]**.
 
 ![](assets/cm_builder_ui.png)
 
