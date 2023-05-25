@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
+source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 97%
@@ -201,12 +201,12 @@ ht-degree: 97%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + [인터페이스](../guided-analysis/interface.md)
    + 분석 유형 {#analysis-types}
       + [개요](../guided-analysis/analysis-types/overview.md)
       + [단계](../guided-analysis/analysis-types/funnel.md)
       + [트렌드](../guided-analysis/analysis-types/trends.md)
       + [사용자 성장](../guided-analysis/analysis-types/user-growth.md)
+   + [FAQ](../guided-analysis/faq.md)
 
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
