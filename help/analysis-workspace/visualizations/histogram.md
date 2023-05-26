@@ -3,10 +3,10 @@ description: 히스토그램은 막대 그래프와 유사하지만 숫자들을
 title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 >
 >히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다.
 
-여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째 (왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다.
+여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째 (왼쪽) 버킷은 고유한 사람당 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다.
 
 ![](assets/histogram2.png)
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 | 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨). |
 | 지표 버킷 | 데이터 범위 (버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다. |
-| 계산 방법 | [방문자](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) 또는 히트 유형 중에서 선택할 수 있습니다. 예를 들어 방문당 페이지 보기 수, 방문자당 페이지 보기 수 또는 이벤트당 페이지 보기 수가 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
+| 계산 방법 | [방문자](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html), [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) 또는 히트 유형 중에서 선택할 수 있습니다. 예를 들어 방문당 페이지 보기 수, 사람당 페이지 보기 수 또는 이벤트당 페이지 보기 수가 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

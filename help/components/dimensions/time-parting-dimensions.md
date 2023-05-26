@@ -3,10 +3,10 @@ description: 시간 분할은 수집한 이벤트의 타임스탬프를 가져�
 title: 차원 시간 분할
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 72%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 시간 분할 차원은 데이터 보기의 시간대를 기반으로 합니다. 이러한 차원은 Analysis Workspace에서 사용할 수 있으며, 다음 질문에 대한 답변을 제공하는 데 도움을 줄 수 있습니다.
 
-* 넓은 날짜 범위에서 방문자가 내 사이트나 앱에 가장 많이 오는 시간은 언제입니까?
+* 광범위한 날짜 범위에서 사용자가 내 사이트 또는 앱에 액세스하는 데 가장 인기 있는 시간은 무엇입니까?
 * 내 사이트 또는 앱에서 전환율이 더 높은 요일이나 시간대가 있습니까?
 * 평일 판매와 주말 판매를 비교하면 어떻습니까?
 * 아침 또는 오후에 특히 전환이 높게 생성되는 특정 마케팅 캠페인이 있습니까?

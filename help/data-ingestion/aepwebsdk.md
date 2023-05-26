@@ -4,10 +4,10 @@ description: Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3587'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![식별 오브젝트](./assets/identification-field.png)
 
-   이러면 식별 기능이 스키마에 추가됩니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트 방문 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
+   이러면 식별 기능이 스키마에 추가됩니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트 방문 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -265,7 +265,7 @@ Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
 자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html)을 참조하십시오.
 
-또한 Experience Cloud ID를 쉽게 사용할 수 있도록 Experience Cloud ID 서비스 확장을 설정하려고 합니다. Experience Cloud ID 서비스는 모든 Adobe Experience Cloud 솔루션에서 방문자를 식별합니다.
+또한 Experience Cloud ID를 쉽게 사용할 수 있도록 Experience Cloud ID 서비스 확장을 설정하려고 합니다. Experience Cloud ID 서비스는 모든 Adobe Experience Cloud 솔루션에서 개인을 식별합니다.
 
 Experience Cloud ID 서비스 확장을 만들고 구성하는 경우:
 
@@ -285,7 +285,7 @@ Experience Cloud ID 서비스 확장을 만들고 구성하는 경우:
 
 데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 데이터 레이어에서 읽고 데이터를 Adobe Experience Platform으로 전달하는 데 사용할 수 있는 데이터 요소를 태그에 설정합니다.
 
-데이터 요소에는 세 가지 유형이 있습니다. 먼저 데이터 요소를 설정하여 방문자가 사이트에서 조회 중인 페이지 이름을 캡처합니다.
+데이터 요소에는 세 가지 유형이 있습니다. 먼저 데이터 요소를 설정하여 사이트에서 사람들이 보고 있는 페이지 이름을 캡처합니다.
 
 페이지 이름 데이터 요소를 정의하는 경우:
 

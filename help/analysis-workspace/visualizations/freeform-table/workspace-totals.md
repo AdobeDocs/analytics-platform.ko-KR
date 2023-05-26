@@ -3,10 +3,10 @@ description: 작업 영역 합계를 계산하는 방법.
 title: 작업 영역 합계
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 91%
+ht-degree: 81%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 91%
 
 [정적 행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 합계는 별도로 동작하며 **[!UICONTROL 행 설정]**&#x200B;에서 제어합니다.
 
-* **[!UICONTROL 현재 행의 합계를 합계로 표시]** - 테이블에서 행의 클라이언트측 합계를 보여 주므로 이는 합계가 방문 또는 방문자와 같은 지표에 대한 중복 제거를 수행하지 **않음**&#x200B;을 의미합니다.
-* **[!UICONTROL 총계 표시]** - 서버측 합계를 보여 줍니다. 이는 합계가 방문 또는 방문자와 같은 지표에 대한 중복 제거를 수행함을 의미합니다.
+* **[!UICONTROL 현재 행의 합계를 합계로 표시]** - 이는 테이블 행에 대한 클라이언트측 합계를 보여 주며 이는 합계가 다음을 의미합니다. **아님** 방문 또는 개인과 같은 지표 중복 제거를 수행합니다.
+* **[!UICONTROL 총계 표시]** - 서버측 합계를 보여 줍니다. 이것은 합계가 방문 또는 개인과 같은 지표에 대한 중복 제거를 수행함을 의미합니다.
 
 ![](assets/static-rows.png)
 

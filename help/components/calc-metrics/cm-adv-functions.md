@@ -3,10 +3,10 @@ title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '3111'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3105'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
 | 용어 - 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 코사인 (행)
 
@@ -225,10 +225,10 @@ N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 
 
 >[!NOTE]
 >
->수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
+>수입/개인과 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 개인의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
 
 ```
-cumul(revenue)/cumul(visitor)
+cumul(revenue)/cumul(person)
 ```
 
 ## Equal
@@ -366,7 +366,7 @@ fx Lift (normalizing-container, success-metric, control)
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 선형 회귀_ 상관 계수
 

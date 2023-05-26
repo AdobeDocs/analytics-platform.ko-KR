@@ -3,10 +3,10 @@ title: 집단 분석이란?
 description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 76840d025d1ace28abce5557d66d104795818167
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 94%
+ht-degree: 82%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 94%
 
 ### [!UICONTROL 유지 테이블]
 
-[!UICONTROL 유지 ]집단 보고서는 방문자 수를 반환합니다. 각 데이터 셀에는 해당 기간 동안 작업을 수행한 집단에 있는 방문자들의 원시 수와 백분율 보여 줍니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
+A [!UICONTROL 유지] 집단 보고서는 사람을 반환합니다. 각 데이터 셀에는 해당 기간 동안 작업을 수행한 집단에 있는 사람의 원시 수와 백분율 보여줍니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL 이탈 테이블]
 
-[!UICONTROL 이탈 ]집단은 유지 테이블의 역버전이며 시간 경과에 따라 집단에 대한 반환 기준을 충족하지 않은 방문자를 표시합니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
+A [!UICONTROL 이탈] 집단은 유지 테이블의 역버전이며 시간 경과에 따라 집단에 대한 반환 기준을 충족하지 않은 사람을 표시합니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
 ![](assets/churn-report.png)
 

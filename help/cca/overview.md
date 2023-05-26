@@ -1,13 +1,13 @@
 ---
-title: 크로스 채널 분석 개요
-description: 방문자 결합을 위해 여러 데이터 세트의 주요 방문자 ID를 다시 입력합니다.
+title: 교차 채널 분석 개요
+description: 여러 데이터 세트의 개인 ID를 다시 입력하여 개인을 서로 연결합니다.
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 크로스 채널 분석을 사용하기 전에 조직에서 다음 사항을 준비했는지 확인하십시오.
 
-* Adobe Experience Platform의 데이터 세트 하나에 방문자를 식별하는 데 도움이 되는 2개의 열이 있어야 합니다.
-   * 모든 행에 표시되는 식별자인 **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID입니다.
-   * 일부 행에만 있는 식별자인 **일시적 ID**. 예를 들어 방문자가 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 해당 영구 ID와 동일한 이벤트에 최소 한 번 이상 존재하는 한 원하는 거의 모든 식별자를 사용할 수 있습니다.
+* Adobe Experience Platform의 데이터 세트 하나에 개인을 식별하는 데 도움이 되는 두 개의 열이 있어야 합니다.
+   * 모든 행에 표시되는 식별자인 **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 개인 ID입니다.
+   * 일부 행에만 있는 식별자인 **일시적 ID**. 예를 들어 개인이 인증되면 해시된 사용자 이름 또는 이메일 주소입니다. 해당 영구 ID와 동일한 이벤트에 최소 한 번 이상 존재하는 한 원하는 거의 모든 식별자를 사용할 수 있습니다.
 * 모든 행에 임시 ID를 포함하는 다른 데이터 세트(예: 콜 센터 데이터). 이 개인 ID는 다른 데이터 세트에 있는 임시 ID와 유사한 형식으로 지정해야 합니다.
 * 이 기능을 사용하면 인증된 사용자 데이터와 인증되지 않은 사용자 데이터의 병합을 포함하는 데이터 세트를 결합할 수 있습니다. 데이터 세트를 병합하기 전에 필요한 최종 사용자 권한을 획득하는 등 해당 법률 및 규정을 준수하도록 하십시오.
 

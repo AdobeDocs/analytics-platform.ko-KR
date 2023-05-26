@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -26,10 +26,10 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
 | [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
-| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
+| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
 | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
 | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
-| [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
+| [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 사용자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |

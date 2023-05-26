@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 89%
    | **[!UICONTROL 처음/마지막 발생으로 제한]** | 차원/항목/지표의 처음/마지막 발생으로 시작/종료하는 경로로 경로를 제한합니다. 자세한 내용은 아래의 &quot;&#39;처음/마지막 발생으로 제한&#39;을 위한 예제 시나리오&quot; 섹션을 참조하십시오. |
    | **[!UICONTROL 열의 수]** | 플로우 다이어그램에 사용할 열 수를 결정합니다. |
    | **[!UICONTROL 열당 항목 확장됨]** | 각 열에 원하는 항목 수입니다. |
-   | **[!UICONTROL 흐름 컨테이너]** | <ul><li>방문</li><li>방문자</li></ul> 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
+   | **[!UICONTROL 흐름 컨테이너]** | <ul><li>방문</li><li>방문자</li></ul> 방문과 방문자 간을 전환하여 개인 경로 지정을 분석할 수 있도록 합니다. 이러한 설정을 통해 방문 간 개인 수준에서 개인 참여를 이해하거나 분석을 단일 방문으로 제한할 수 있습니다. |
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 

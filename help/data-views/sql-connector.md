@@ -6,7 +6,7 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 829f7556c731ce55ccf1e03e2dea69b12e4501e4
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '2890'
 ht-degree: 2%
@@ -267,7 +267,7 @@ prod:all=> \dv
 
 #### 계산 차이점
 
-CJA 작동 방식의 기본 특성으로 인해 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 입니다. `adobe_personid` 차원. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 고유 사용자의 수인 기본 방문자 수 지표의 값을 반환합니다. 다른 차원의 경우 대략적인 고유 수가 반환됩니다.
+CJA 작동 방식의 기본 특성으로 인해 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 입니다. `adobe_personid` 차원. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우 대략적인 고유 수가 반환됩니다.
 
 #### 조건부 지표
 

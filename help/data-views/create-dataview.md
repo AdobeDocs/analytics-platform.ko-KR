@@ -4,10 +4,10 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL 개인 컨테이너 이름] | [!UICONTROL 개인] (기본값). [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 방문자에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| [!UICONTROL 개인 컨테이너 이름] | [!UICONTROL 개인] (기본값). 다음 [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 사용자에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 | [!UICONTROL 세션 컨테이너 이름] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 ‘방문’ 또는 조직이 원하는 다른 용어로 바꿀 수 있습니다. |
 | [!UICONTROL 이벤트 컨테이너 이름] | [!UICONTROL 이벤트] (기본값). [!UICONTROL 이벤트] 컨테이너는 데이터 세트의 개별 이벤트를 정의합니다. 조직이 서로 다른 용어(예: “히트” 또는 “페이지 조회수”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 

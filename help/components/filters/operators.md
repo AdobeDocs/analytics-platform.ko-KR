@@ -2,10 +2,10 @@
 title: 필터 연산자
 description: 구성 요소가 필터 내의 값과 상호 작용하는 방식을 결정합니다.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 고유 개수 연산자
 
-차원 내에서 항목의 고유 개수를 세그먼트화할 수 있습니다. 예를 들어, 5개 이상의 고유 제품을 본 방문자 또는 5개 이상의 고유 페이지를 본 방문 위치에 대한 필터를 만들 수 있습니다.
+차원 내에서 항목의 고유 개수를 세그먼트화할 수 있습니다. 예를 들어, 5개 이상의 고유 제품을 본 사용자 또는 5개 이상의 고유 페이지를 본 방문 위치에 대한 필터를 만들 수 있습니다.
 
 | 연산자 | 설명 |
 | --- | --- |
