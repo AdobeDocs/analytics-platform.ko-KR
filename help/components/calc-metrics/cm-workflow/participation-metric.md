@@ -3,30 +3,31 @@ description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표�
 title: 기여도 지표
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 42%
 
 ---
 
-# 기여도 지표
+# &quot;기여도&quot; 지표 작성
 
-다음은 간단한 사용 사례입니다. 콘텐츠 소유자는 주문이 포함된 방문에 기여한 (즉, 참여한) 페이지를 확인할 수 있습니다.  방법은 다음과 같습니다.
+다음 정보는 주문이 포함된 방문에 기여한(또는 참여한) 페이지를 보여 주는 지표를 만드는 방법을 설명합니다.
+
+이 유형의 정보는 모든 콘텐츠 소유자에게 유용할 수 있습니다.
 
 >[!NOTE]
 >
->관리자 도구를 통해 이 작업을 수행해야 했습니다. 관리자 도구에서 기여도 지표를 여전히 활성화할 수 있지만, 사용자 지정 이벤트 1 - 100에 대해서만 가능합니다.
+>관리 도구에서 기여도 지표를 활성화할 수 있지만, 사용자 지정 이벤트 1 - 100에 대해서만 가능합니다.
 
-다음은 간단한 사용 사례입니다. 콘텐츠 소유자는 이메일 로그인이 포함된 방문에 기여한 (참여한) 페이지를 확인할 수 있습니다. 방법은 다음과 같습니다.
-
-1. 계산된 지표 빌더에서 새 지표를 만듭니다.
+1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. 계산된 지표 빌더에서 지표의 이름을 &quot;기여도&quot; 또는 이와 유사하게 지정합니다
 1. 성공 이벤트 &quot;주문&quot;을 정의 캔버스로 드래그합니다.
 1. 해당 이벤트의 [기여도 분석 모델](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)을 **[!UICONTROL 설정]** 톱니바퀴 아래에 있는 **[!UICONTROL 기여도]**&#x200B;로 변경합니다. **[!UICONTROL 방문]** 전환 확인을 선택합니다. 정의 모양은 다음과 같아야 합니다.
 
    ![](assets/participation.png)
 
-1. 지표를 저장합니다.
+1. 선택 [!UICONTROL **저장**] 지표를 저장합니다.
 1. **[!UICONTROL 페이지]** 보고서에서 계산된 지표를 사용합니다.
 
    ![](assets/participation-pages.png)

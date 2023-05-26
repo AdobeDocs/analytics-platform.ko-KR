@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 97%
+source-wordcount: '900'
+ht-degree: 96%
 
 ---
 
@@ -243,12 +243,12 @@ ht-degree: 97%
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [간단한 “방문자 수당 페이지 조회수” 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [&quot;방문자 수당 페이지 보기 수&quot; 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [&quot;기여도&quot; 지표 작성](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [함수 사용](../components/calc-metrics/cm-workflow/cm-using-functions.md)
-         + [참여도 지표](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [계산된 지표에 태그 지정](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [계산된 지표 승인](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [계산된 지표 공유](../components/calc-metrics/cm-workflow/cm-sharing.md)
