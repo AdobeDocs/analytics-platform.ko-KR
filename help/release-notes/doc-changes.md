@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
+source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +20,16 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 5월** |  |
+| 딥링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. 이를 통해 프로젝트를 보다 쉽게 공유하고 기술 수준이 낮은 대상자의 참여를 높일 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Report Builder의 &quot;셀에서 데이터 보기 선택&quot;에 대한 문서 | 이 기능을 사용하면 사용자가 셀에서 데이터 블록에 대한 데이터 보기를 선택할 수 있습니다. 이는 통합 문서를 만들고 데이터 구성이 유사한 여러 데이터 보기가 있고 서로 다른 데이터 보기에서 통합 문서를 여러 번 재사용하려는 경우에 유용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Analytics 대시보드 앱(모바일 앱)의 업데이트된 홈 화면에 대한 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. 한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우, 조직의 모든 스코어카드를 단일 목록에서 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| 최적화 업데이트 | 에 대한 문서 업데이트됨 [CJA 성능 최적화](/help/admin/optimizing-performance.md) |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
-| 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록을 정렬하는 방법에 대한 정보를 추가했습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오 [구성 요소 개요](/help/components/overview.md). |
-| 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보가 추가되었습니다. 의 &quot;테이블에서 특정 행 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| 패널 내에 시각화를 추가하는 단추 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 의 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오 [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| 지능형 캡션 설명서 | 을 사용하여 사용자를 위한 스토리텔링을 보강합니다. [자연어 요약](/help/analysis-workspace/visualizations/intelligent-captions.md) 라인 시각화 |
+| 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록 정렬에 대한 정보가 추가되었습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오. [구성 요소 개요](/help/components/overview.md). |
+| 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보를 추가했습니다. 다음에서 &quot;특정 행을 테이블에서 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 패널 내에 시각화를 추가하는 버튼 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 다음에서 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오. [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 지능형 캡션 설명서 | 을 통해 사용자를 위한 스토리텔링 강화 [자연어 요약](/help/analysis-workspace/visualizations/intelligent-captions.md) 라인 시각화. |
 | **2023년 4월** |  |
 | 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 것에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지에 연결되어 있습니다.</p> <p>다음은 [Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html) 비디오에 대한 직접 링크입니다.</p> |
 | 필터 설명서 | [필터 빌더](/help/components/filters/filter-builder.md)를 사용하는 방법에 대한 문서를 추가했습니다. <p>[필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md)의 설명서를 간소화했습니다.</p> |
