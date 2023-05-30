@@ -4,7 +4,7 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 91%
@@ -16,12 +16,12 @@ ht-degree: 91%
 
 [!UICONTROL 지속성]은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 지속성은 할당과 만료의 조합입니다.
 
+![지속성](../assets/persistence.png)
+
 * 하나의 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당** 설정을 통해 보존되는 값을 결정할 수 있습니다.
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
 [!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 지속성은 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
-
-![지속성](../assets/persistence.png)
 
 | 설정 | 설명 |
 | --- | --- |

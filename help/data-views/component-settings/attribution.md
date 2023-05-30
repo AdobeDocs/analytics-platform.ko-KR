@@ -4,16 +4,20 @@ description: 지표에 대한 기본 속성을 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1781'
 ht-degree: 38%
 
 ---
 
 # 속성 구성 요소 설정
 
-속성을 사용하면 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
+속성을 사용하면 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다.
+
+![](../assets/attribution-settings.png)
+
+예:
 
 1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
 2. 다음날, 이 친구는 소셜 미디어 게시물을 보았다. 링크를 클릭한 다음 구매를 완료합니다.
@@ -22,7 +26,7 @@ ht-degree: 38%
 
 이 데이터 보기 구성 요소 설정을 사용하면 지표에 대한 기본 속성 모델을 설정할 수 있습니다. Analysis Workspace에서 작업하는 동안 특정 지표의 속성 모델을 재정의할 수 있습니다.
 
-![속성](../assets/attribution-settings.png)
+
 
 조직에 지표에 여러 속성 설정이 있어야 하는 경우 다음 중 하나를 수행할 수 있습니다.
 
