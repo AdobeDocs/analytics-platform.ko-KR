@@ -1,19 +1,19 @@
 ---
-description: 캘린더에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
+description: 날짜 및 날짜 범위를 지정하거나 사전 설정을 선택하는 방법입니다.
 title: 캘린더 및 날짜 범위 개요
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 81%
+source-wordcount: '869'
+ht-degree: 79%
 
 ---
 
 # 캘린더 및 날짜 범위 개요
 
-캘린더에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
+달력을 사용하여 날짜 및 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다. 날짜 범위는 Workspace 프로젝트에서 사용할 수 있는 구성 요소 유형입니다. 시간 경과에 따른 트렌드 데이터를 보거나 사건이 가장 많이 발생하는 시기를 확인할 수 있습니다. 날짜 범위는 자주색으로 구분됩니다. 사용자 정의 날짜 범위를 사용하면 Workspace 프로젝트에 표시되는 날짜를 사용자 정의할 수 있습니다.
 
 캘린더 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
 

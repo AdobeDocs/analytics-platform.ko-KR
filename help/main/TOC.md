@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '902'
 ht-degree: 95%
 
 ---
@@ -256,11 +256,10 @@ ht-degree: 95%
       + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
-   + 날짜 범위 {#cja-date-ranges}
-      + [날짜 범위 개요](../components/date-ranges/overview.md)
+   + 달력 및 날짜 범위 {#cja-date-ranges}
+      + [달력 및 날짜 범위 개요](../components/date-ranges/calendar.md)
       + [날짜 범위 만들기](../components/date-ranges/create.md)
       + [날짜 범위 관리](../components/date-ranges/manage.md)
-      + [캘린더 개요](../components/date-ranges/calendar.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
    + 데이터 사전 {#data-dictionary}
