@@ -6,9 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
+source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2900'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/
 
 이 기능을 사용하려면 다음을 수행해야 합니다
 
-- 활성화 [!UICONTROL CJA SQL 커넥터] Experience Platform 조직 내.
+<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
 
 - 관련 제품 프로필, 사용자 그룹 및/또는 개별 사용자에 대한 기능을 구성합니다.<br/>
 사용자는 다음에 대한 액세스 권한이 있어야 합니다.
@@ -88,7 +89,7 @@ Experience Platform UI에서
 
 ### BI 도구
 
-현재 CJA SQL Connector는 Power BI 및 Tableau에서 지원됩니다.
+현재 CJA SQL Connector는 Power BI 및 Tableau에 대해서만 지원 및 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구도 작동할 수 있지만 아직 공식적으로 지원되지 않습니다.
 
 +++ Power BI
 
@@ -219,9 +220,9 @@ prod:all=> \dv
 
 다음을 참조하십시오 [쿼리 서비스 SQL 참조](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) 지원되는 SQL 유형에 대한 전체 참조.
 
-패턴 및 예제에 대한 개요는 아래의 패턴 표 를 참조하십시오.
+사용할 수 있는 SQL의 예는 아래 표를 참조하십시오.
 
-+++패턴
++++ 예
 
 | 패턴 | 예 |
 |---|---|
@@ -390,4 +391,3 @@ ORDER BY -metric1 DESC
 | [DATE_TRUNC(세부기간, 날짜 또는 날짜-시간)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다.<br/>지원되는 문자열 세부기간은 다음과 같습니다. `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, 또는 `'MINUTE'`. |
 
 {style="table-layout:auto"}
-
