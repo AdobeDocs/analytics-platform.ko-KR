@@ -3,25 +3,29 @@ description: 계산된 지표 빌더 내에서 필터를 스택하고 바꾸는 
 title: 필터 스택 및 바꾸기
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '68'
-ht-degree: 100%
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 32%
 
 ---
 
 # 필터 스택 및 바꾸기
 
-계산된 지표 빌더 내에서 필터를 스택하고 바꾸는 방법을 보여 줍니다.
+계산된 지표 빌더 내에서 필터를 스택하고 바꿀 수 있습니다.
 
 ## 스택 필터 {#stack-filter}
 
-정의 캔버스에서 기존 필터 옆에 새 필터를 놓기만 하면 됩니다.
+1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. 정의 캔버스에서 기존 필터 옆에 새 필터를 놓습니다.
 
 ![](assets/cm_stack_seg.png)
 
 ## 한 필터를 다른 필터로 바꾸기 {#replace-filter}
 
-정의 캔버스에서 기존 필터 위에 새 필터를 놓기만 하면 됩니다.
+1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+
+1. 정의 캔버스에서 기존 필터 위에 새 필터를 놓습니다.
 
 ![](assets/cm_replace_seg.png)

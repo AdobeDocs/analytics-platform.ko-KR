@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 
 1. 왼쪽 레일에 있는 **[!UICONTROL 시각화]** 메뉴에서 **[!UICONTROL 주요 지표 요약]** 시각화를 패널로 드래그합니다.
 
-1. 지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트(원하는 경우)를 선택하여 시각화를 구성합니다.
+1. 지표, 기본 날짜 범위, 비교 날짜 범위 및 필터(원하는 경우)를 선택하여 시각화를 구성합니다.
 
    ![주요 지표 구성](assets/key-metric-config.png)
 
@@ -44,7 +44,7 @@ ht-degree: 99%
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
    | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다. |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위를 비교하는 날짜 범위. |
-   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 특히 관심이 있는 세그먼트. |
+   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 특히 관심이 있는 모든 필터. |
 
    {style="table-layout:auto"}
 
@@ -93,4 +93,4 @@ ht-degree: 99%
 
    이제 원래 구성 보기로 돌아갑니다.
 
-1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 세그먼트를 원하는 대로 변경합니다.
+1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 필터를 원하는 대로 변경합니다.

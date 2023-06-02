@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+workflow-type: tm+mt
+source-wordcount: '922'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Customer Journey Analytics의 사용자는 데이터 보기 또는 연결을 만
 
 ## 작업 영역 프로젝트 큐레이션
 
-작업 영역 보고 수준에서 다른 수준의 액세스 제어를 사용할 수 있습니다. 특정 구성 요소에 대한 특정 사용자의 액세스를 제한할 수 있습니다. 작업 영역 프로젝트 수준에서 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한하는 방법과 큐레이션이 데이터 보기에 연결되는 방법에 대한 자세한 내용은 [프로젝트 구성](/help/analysis-workspace/curate-share/curate.md)을 참조하십시오.
+작업 영역 보고 수준에서 다른 수준의 액세스 제어를 사용할 수 있습니다. 특정 구성 요소에 대한 특정 사용자의 액세스를 제한할 수 있습니다. 작업 영역 프로젝트 수준에서 구성 요소(차원, 지표, 필터, 날짜 범위)를 제한하는 방법과 큐레이션이 데이터 보기에 연결되는 방법에 대한 자세한 내용은 을 참조하십시오. [프로젝트 조정](/help/analysis-workspace/curate-share/curate.md).
 
 ## 개별 지표 또는 차원에 대한 액세스 권한 부여
 
@@ -98,4 +98,4 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 대상자 생성]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL 대상자 보기]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ description: 간단한 "방문당 페이지 보기 수" 지표를 만드는 방�
 title: 간단한 "방문자 수당 페이지 보기 수" 지표 작성
 feature: Calculated Metrics
 exl-id: 46c83a1f-cb2d-4d5d-af4f-e1d2e4566743
-source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 83%
+source-wordcount: '214'
+ht-degree: 85%
 
 ---
 
@@ -32,4 +32,4 @@ UI 구성 요소에 대한 자세한 설명은 [지표 작성](/help/components/
 
    **[!UICONTROL 요약]** 공식은 지표 정의를 변경할 때마다 업데이트된다는 점을 참고하십시오.
 
-1. (선택 사항) 지표를 공유, 승인, (재)태깅, 이름 변경 또는 삭제하려면 [계산된 지표 페이지](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+1. (선택 사항) 의 설명에 따라 조직의 다른 사용자와 지표를 공유합니다 [계산된 지표 공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

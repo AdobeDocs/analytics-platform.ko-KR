@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 |--- |--- |
 | [!UICONTROL 이 노드에 대한 포커스] | 포커스를 선택된 노드로 변경합니다. 흐름 다이어그램의 중앙에 포커스 노드가 표시됩니다. |
 | [!UICONTROL 시작] | 새 흐름 다이어그램을 빌드할 수 있는 자유 형식 다이어그램 빌더로 돌아갑니다. |
-| [!UICONTROL 흐름의 이 지점에서 세그먼트 만들기] | 세그먼트를 만듭니다. 새 세그먼트를 구성할 수 있는 세그먼트 빌더가 표시됩니다. |
+| [!UICONTROL 흐름의 이 지점에서 필터 만들기] | 필터를 생성합니다. 그러면 새 필터를 구성할 수 있는 필터 빌더로 이동합니다. |
 | [!UICONTROL 분류] | 사용할 수 있는 차원, 지표 또는 시간으로 노드를 분석합니다. |
 | [!UICONTROL 트렌드] | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | [!UICONTROL 전체 열 확장] | 모든 노드를 표시하도록 열을 확장합니다. 기본적으로 상위 5개의 노드만 표시됩니다. |

@@ -3,7 +3,7 @@ description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 99%
@@ -67,7 +67,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 | `[Alt + 1]` | 새 자유 형식 테이블 |
 | `[Ctrl + Shift + C]` | 새로 계산된 지표 |
 | `[Ctrl + Shift + D]` | 새 날짜 범위 |
-| `[Ctrl + Shift + E]` | 새 세그먼트 |
+| `[Ctrl + Shift + E]` | 새 필터 |
 | `[Ctrl + Z]` | 실행 취소 |
 | `[Component drag + Shift]` | 드롭다운 필터 만들기 |
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 # 스니펫
@@ -63,7 +63,7 @@ ht-degree: 70%
 |---------|----------|
 | [!UICONTROL **권장**] | 구성 요소를 목록 맨 위에 권장되는 구성 요소와 정렬합니다. 사용자나 조직의 다른 사용자가 가장 자주 그리고 가장 최근에 사용하는 구성 요소가 목록의 맨 위에 표시됩니다. |
 | [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
-| [!UICONTROL **단정적으로**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
+| [!UICONTROL **범주화**] | 구성 요소 유형(차원, 지표, 필터, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
 
 {style="table-layout:auto"}
 
