@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 97%
+source-wordcount: '910'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 97%
 이메일을 통해 파일을 수신자에게 즉시 보내려면
 
 1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**.
-1. 파일 유형(CSV 또는 PDF)을 지정합니다.
+1. 파일 형식 지정:
+   * [!UICONTROL **CSV**]: 일반 텍스트 데이터를 원하는 경우 이 옵션을 선택합니다.
+   * [!UICONTROL **PDF**]: 다운로드한 파일에 프로젝트에 표시된 (볼 수 있는) 모든 테이블 및 시각화를 포함하려면 이 옵션을 선택합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 암호로 예약된 보고서 보호 섹션을 참조하십시오.
@@ -59,7 +61,7 @@ ht-degree: 97%
 | [!UICONTROL 소유자] | 프로젝트를 만들고 소유하고 있는 사람입니다. |
 | [!UICONTROL 태그] | (선택 사항) 태그 지정은 프로젝트를 구성하는 좋은 방법입니다. 모든 사용자는 태그를 만든 후 하나의 프로젝트에 하나 이상의 태그를 적용할 수 있습니다. 그렇지만 본인이 소유하거나 본인과 공유된 프로젝트에 대한 태그만 볼 수 있습니다. |
 | [!UICONTROL 제공 대상] | 이 예약된 프로젝트의 수신자 |
-| [!UICONTROL 만료 날짜] | 예약 빈도에 관계없이 만료 날짜를 최대 1년으로 설정할 수 있습니다. |
+| [!UICONTROL 만료 날짜] | 일정 빈도에 상관없이 만료일을 최대 1년으로 설정할 수 있습니다. |
 | [!UICONTROL 빈도] | 이 예약된 프로젝트를 수신자에게 보내고자 하는 빈도 |
 | [!UICONTROL 실행 시간] | 이 예약된 프로젝트를 보내고자 하는 하루 중의 시간 |
 | [!UICONTROL 쿼리 개수] | 이 프로젝트에 대한 쿼리 개수 |
