@@ -3,10 +3,10 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 75%
+source-wordcount: '1861'
+ht-degree: 73%
 
 ---
 
@@ -125,3 +125,7 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 ![무작위 실험](assets/randomize.png)
 
 중재 X가 결과 Y에 미치는 영향을 측정하고자 할 때, 양자의 진짜 원인은 교란 요인 C일 가능성이 있다. 만약 X에 대한 사람을 무작위화함으로써 데이터가 달성되지 않는다면, 그 영향은 측정하기 더 어렵고, 분석은 C를 명시적으로 설명할 것이다. 무작위화는 C에 대한 X의 의존성을 깨뜨려서, 우리는 다른 변수에 대해 걱정할 필요 없이 Y에 대한 X의 영향을 측정할 수 있게 한다.
+
+## 실험 패널에서 계산된 지표 사용
+
+에 대한 자세한 내용은 이 블로그 게시물 을 참조하십시오. [실험 패널에서 파생 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).

@@ -3,10 +3,10 @@ description: 히스토그램은 막대 그래프와 유사하지만 숫자들을
 title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
@@ -61,3 +61,7 @@ ht-degree: 90%
 ![](assets/prebuilt_segments.png)
 
 데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)로 이동하십시오.
+
+## 블로그 게시물
+
+다음에 대한 정보를 보려면 이 블로그 게시물 을 참조하십시오 [히스토그램 을 사용하여 예기치 않은 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).
