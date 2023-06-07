@@ -4,7 +4,7 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: a64b380c337f2f359b4cffd23265a8fca8251957
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 48%
@@ -104,8 +104,6 @@ ht-degree: 48%
 1. 조직의 사용자와 링크를 공유합니다. 예를 들어 공유된 링크를 이메일, 내부 웹 사이트 등에 붙여넣을 수 있습니다.
 
 ## 누구와도 프로젝트 공유(로그인 필요 없음) {#share-public-link}
-
-{{release-limited-testing-section}}
 
 다음을 부여할 수 있습니다 [읽기 전용 액세스](/help/analysis-workspace/curate-share/view-only-projects.md) Customer Journey Analytics 액세스 권한이 없는 사람에게 Analysis Workspace 프로젝트를 제공할 수 있습니다. 여기에는 다음이 포함될 수 있습니다.
 

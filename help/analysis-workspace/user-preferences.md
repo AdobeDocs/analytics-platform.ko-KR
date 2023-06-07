@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3099'
+ht-degree: 75%
 
 ---
 
@@ -44,10 +44,6 @@ ht-degree: 0%
 | 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 작업 영역의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md)를 참조하십시오.</p> |
 
 ## IMS 조직 환경 설정
-
->[!AVAILABILITY]
->
->이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
