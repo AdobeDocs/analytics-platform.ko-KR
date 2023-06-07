@@ -3,10 +3,10 @@ description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 
 title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+source-git-commit: 5469585897e483d721326fd6859ad74087407825
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -74,11 +74,11 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 ## 테이블 정렬
 
-Analysis Workspace의 차원 또는 지표 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
+Analysis Workspace에서 차원 또는 지표인 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
 
 아래쪽 화살표 아이콘(![아래쪽 화살표 아이콘 정렬된 테이블 열](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg))은 데이터가 현재 정렬되는 열의 헤더에 표시됩니다.
 
-1. Analysis Workspace의 자유 형식 테이블에서 차원 또는 지표의 이름 옆에 있는 화살표를 클릭합니다.
+1. Analysis Workspace의 자유 형식 테이블에서 차원 또는 지표 이름 옆에 있는 화살표를 클릭합니다.
 
    정렬 사용 시 다음 사항을 고려하십시오.
 
