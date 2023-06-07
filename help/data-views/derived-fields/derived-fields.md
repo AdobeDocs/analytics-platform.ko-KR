@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: f9aafab436fa1f26be9ed2e433ded046bbb1135a
+source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
 workflow-type: tm+mt
-source-wordcount: '3218'
+source-wordcount: '3252'
 ht-degree: 9%
 
 ---
@@ -123,6 +123,11 @@ ht-degree: 9%
    A [!UICONTROL 구성 요소 삭제] 대화 상자에서 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 대한 외부 참조가 있을 수 있다고 가정합니다.
 
    - 선택 **[!UICONTROL **&#x200B;계속&#x200B;**]** 파생된 필드를 삭제합니다.
+
+>[!NOTE]
+>
+>파생 필드는 CJA의 연결 수준에서 관리됩니다. 해당 연결과 연결된 데이터 보기의 파생 필드에 대한 변경 사항은 이러한 연결된 데이터 보기 모두에 적용됩니다.
+
 
 
 ## 함수 템플릿
