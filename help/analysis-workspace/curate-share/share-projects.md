@@ -4,10 +4,10 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
+source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 48%
+source-wordcount: '1944'
+ht-degree: 47%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 48%
 
 * Adobe Customer Journey Analytics에 액세스할 수 있는 조직의 사용자 및 그룹
 
-   편집, 복제 또는 보기 액세스 권한을 공유할 수 있습니다.
+  편집, 복제 또는 보기 액세스 권한을 공유할 수 있습니다.
 
 * Customer Journey Analytics 액세스 권한이 없는 조직의 사용자 및 그룹
 
-   수신자는 읽기 전용 액세스 권한을 가집니다.
+  수신자는 읽기 전용 액세스 권한을 가집니다.
 
 * 조직 외부의 사용자
 
-   수신자는 읽기 전용 액세스 권한을 가집니다.
+  수신자는 읽기 전용 액세스 권한을 가집니다.
 
 임의 [큐레이션](curate.md) 수신자가 프로젝트를 열 때 공유하기 전에 적용합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 48%
 
 * 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 사용자가 개인과 그룹의 일부로 모두 추가되는 경우 여러 역할에 배치될 수 있습니다. 예를 들어 사용자에게 개인으로서 **[!UICONTROL 편집 가능]** 역할이 주어지고 및 그룹의 구성원으로 **[!UICONTROL 보기 가능]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 편집 가능]** 프로젝트 경험이 제공됩니다.
 
-* **[!UICONTROL 복제 가능]** 또는 **[!UICONTROL 보기 가능]** 역할에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;를 통해 언제든지 자신의 역할을 **[!UICONTROL 편집 가능]**&#x200B;으로 확장할 수 있습니다.
+* **[!UICONTROL 복제 가능]** 또는 **[!UICONTROL 보기 가능]** 역할에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 관리자는 자신의 역할을 다음으로 변경할 수 있습니다. **[!UICONTROL 편집 가능]** 다음 절차에 설명된 대로 프로젝트를 자신과 공유하고 편집 역할을 부여함으로써.
 
 조직의 사용자 또는 그룹과 특정 프로젝트 역할을 공유하려면 다음 작업을 수행합니다.
 
@@ -127,7 +127,6 @@ ht-degree: 48%
 >
 >* 조직에서 Healthcare Shield를 라이선스할 경우 SSO(Single Sign-On) 또는 Adobe ID으로 인증된 사용자만 프로젝트를 공유할 수 있으며 인증되지 않은 사용자와 프로젝트를 공유할 수는 없습니다. 회사의 내부 데이터 거버넌스 정책을 준수하여 이 기능을 사용하고 적절한 권한이 있는 사용자와 PHI(개인 건강 정보)가 포함된 프로젝트 링크만 공유하는 것은 사용자의 책임입니다.
 
-
 다음 비디오 데모 및 함께 제공되는 설명서에서는 모든 사용자와의 링크 공유와 관련된 옵션에 대해 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -152,9 +151,9 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-      이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 와 공유하는 사용자는 Adobe Analytics에 액세스할 필요가 없습니다.
+     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 와 공유하는 사용자는 Adobe Analytics에 액세스할 필요가 없습니다.
 
-      CJA 관리자는에 설명된 대로 회사에 대한 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
+     CJA 관리자는에 설명된 대로 회사에 대한 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
 
       * 이 옵션이 표시되지 않으면 CJA 관리자가 이 기능을 활성화하지 않은 것입니다.
 
