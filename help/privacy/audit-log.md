@@ -2,10 +2,10 @@
 title: 감사 로그
 description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시오.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 79%
 
 ---
 
@@ -41,19 +41,49 @@ CJA에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 로그]**&#x200B;로 �
 
 다음 항목이 표시됩니다.
 
-| 항목 | 설명 |
-| --- | --- |
-| 동작 이름 | 가능한 조치 목록은 다음과 같습니다. <ul><li>API 요청</li><li>승인</li><li>만들기</li><li>편집</li><li>내보내기</li><li>로그인 실패</li><li>로그인 성공</li><li>로그아웃</li><li>조직 변경</li><li>새로 고침</li><li>공유</li><li>전송</li><li>승인 취소</li><li>공유 안 함</li></ul> |
-| 설명 | 작업, 구성 요소 유형(ID 포함) 및 기타 값의 요약입니다. |
-| 사용자 이름 | 작업을 수행하는 사용자입니다. |
-| 구성 요소 유형 | 가능한 구성 요소 유형은 다음과 같습니다. <ul><li>주석</li><li>대상자</li><li>계산된 지표</li><li>연결</li><li>데이터 그룹</li><li>데이터 보기 (이 구성 요소 유형에는 차원 및 지표가 포함됨)</li><li>기능 액세스</li><li>필터</li><li>IMS 조직</li><li>모바일</li><li>프로젝트</li><li>보고서</li><li>예약된 프로젝트</li><li>사용자</li><li>사용자 그룹</li></ul> |
-| IMS 조직 ID | Adobe Experience Cloud에 처음 로그인할 때 인스턴스에 부여되는 고유 ID입니다. 형식은 xxx@AdobeOrg여야 합니다. |
-| 사용자 ID | 이 작업을 수행한 사용자를 식별하는 고유 ID입니다. |
-| 만든 날짜 | 이 조치가 취해진 때입니다. |
-| 이메일 | 작업을 수행하는 사용자의 이메일입니다. |
-| 구성 요소 ID | 작업 중인 구성 요소를 식별하는 고유 ID입니다. |
-| 로그인 ID | 이 로그 항목을 식별하는 고유 ID입니다. |
-| 사용자 유형 | 가능한 구성 요소 유형은 IMS, OKTA입니다. |
+* **[!UICONTROL 작업 이름]**: 수행한 작업 가능한 값은 다음과 같습니다.
+   * API 요청
+   * 승인
+   * 만들기
+   * DELETE
+   * 편집
+   * 내보내기
+   * ORG_CHANGE
+   * 새로 고침
+   * 공유
+   * 전송
+   * 승인 취소
+   * 공유 안 함
+* **[!UICONTROL 만든 날짜]**: 작업을 수행한 날짜 및 시간입니다.
+* **[!UICONTROL 설명]**: 작업 요약입니다.
+* **[!UICONTROL 사용자 이름]**: 작업을 수행한 사용자입니다.
+* **[!UICONTROL 이메일]**: 작업을 수행한 사용자의 이메일 주소입니다.
+* **[!UICONTROL 구성 요소 이름]**: 사용자가 조치를 취한 구성 요소입니다.
+* **[!UICONTROL 구성 요소 유형]**: 구성 요소의 유형입니다. 가능한 값은 다음과 같습니다.
+   * 주석
+   * 대상
+   * CALCULATED_METRIC
+   * 연결
+   * DATA_GROUP
+   * 데이터 보기
+   * 데이터 세트 결합
+   * DATE_RANGE
+   * FEATURE_ACCESS
+   * 필터
+   * IMS 조직
+   * 모바일
+   * 프로젝트
+   * 보고서
+   * SCHEDULED_PROJECT
+   * 사용자
+   * USER_GROUP
+* **[!UICONTROL 구성 요소 ID]**: 사용자가 작업을 수행한 구성 요소의 ID입니다.
+* **[!UICONTROL IMS 조직 ID]**: 다음 형식의 조직 IMS ID `ABC123@AdobeOrg`.
+* **[!UICONTROL 로그 ID]**: 이 로그 항목을 식별하는 고유 ID입니다.
+* **[!UICONTROL 사용자 ID]**: 작업을 수행한 사용자를 식별하는 고유 ID입니다.
+* **[!UICONTROL 사용자 유형]**: 사용된 인증 유형입니다. 유효 값 항목:
+   * IMS
+   * 옥타
 
 ### 감사 로그 필터링
 
@@ -66,13 +96,13 @@ UI의 감사 이벤트에 사용할 수 있는 필터는 다음과 같습니다.
 | 필터 | 설명 |
 | --- | --- |
 | [!UICONTROL 날짜 범위] | 다른 날짜를 선택하거나 여러 날짜에 걸쳐 커서를 끌어 날짜 범위를 선택하여 다른 날짜 범위를 필터링합니다. 기본적으로 오늘과 어제 날짜가 선택됩니다. |
-| [!UICONTROL 작업] | 다음 작업 중 하나 이상을 필터링합니다. <ul><li>API 요청</li><li>승인</li><li>만들기</li><li>편집</li><li>내보내기</li><li>로그인 실패</li><li>로그인 성공</li><li>로그아웃</li><li>조직 변경</li><li>새로 고침</li><li>공유</li><li>전송</li><li>승인 취소</li><li>공유 안 함</li></ul> |
+| [!UICONTROL 작업] | 위에 나열된 작업 이름을 필터링합니다. |
 | [!UICONTROL 사용자 ID] | 사용자 ID로 특정 사용자를 필터링합니다. 사용자 ID는 사용자 이름 옆에 있는 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
 | [!UICONTROL 이메일] | 특정 사용자의 이메일 주소를 필터링합니다. 이메일은 사용자 이름 옆에 있는 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
 | [!UICONTROL 구성 요소 ID] | 특정 구성 요소 ID를 필터링합니다. 사용자 ID는 원하는 구성 요소의 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
-| [!UICONTROL 구성 요소 유형] | 하나 이상의 구성 요소 유형을 필터링합니다. <ul><li>주석</li><li>대상자</li><li>계산된 지표</li><li>연결</li><li>데이터 그룹</li><li>데이터 보기</li><li>기능 액세스</li><li>필터</li><li>IMS 조직</li><li>모바일</li><li>프로젝트</li><li>보고서</li><li>예약된 프로젝트</li><li>사용자</li><li>사용자 그룹</li></ul> |
+| [!UICONTROL 구성 요소 유형] | 위에 나열된 구성 요소 유형을 필터링합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 감사 로그로 캡처된 이벤트 유형
 
@@ -94,7 +124,7 @@ UI의 감사 이벤트에 사용할 수 있는 필터는 다음과 같습니다.
 | [!UICONTROL 사용자] | <ul><li>API 요청</li><li>만들기</li><li>삭제</li><li>편집</li></ul> |
 | [!UICONTROL 사용자 그룹] | <ul><li>API 요청</li><li>만들기</li><li>삭제</li><li>편집</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 감사 로그 다운로드
 
