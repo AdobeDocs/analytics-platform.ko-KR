@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3426392854d60269f370228cbe7542e9789dae99
+source-git-commit: 62c2c74d1a5d0f92cbe8a641f392ccaba3b105ff
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2086'
 ht-degree: 99%
 
 ---
@@ -20,12 +20,14 @@ CJA 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 6월** | |
+| CJA 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics(CJA) SQL 커넥터를 통해 SQL은 CJA에서 정의한 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) |
+| Adobe Journey Optimizer 데이터 보기 | CJA 관리자는 CJA에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html) |
 | 통화 전환 | 에 대한 설명서 업데이트됨 [통화 전환](../data-views/component-settings/format.md#currency) 지원. |
 | 계산된 지표 업데이트 | 현재 CJA 기능에 맞추기 위해 계산된 지표 설명서가 다음과 같이 업데이트되었습니다. <ul><li>CJA에서 제공하는 [기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md) 목록이 업데이트됨</li><li>여러 계산된 지표 문서에서 업데이트된 스크린샷 및 절차 </li></ul> |
 | **2023년 5월** | |
-| 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. 이를 통해 프로젝트를 보다 쉽게 공유하고 기술 수준이 낮은 대상자의 참여를 높일 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
-| Report Builder의 “셀에서 데이터 보기 선택”에 관한 문서 | 이 기능을 사용하면 사용자가 셀에서 데이터 블록에 대한 데이터 보기를 선택할 수 있습니다. 이는 통합 문서를 만들고 데이터 구성이 유사한 여러 데이터 보기가 있고 서로 다른 데이터 보기에서 통합 문서를 여러 번 재사용하려는 경우에 유용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
-| Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다.  한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우, 조직의 모든 스코어카드를 단일 목록에서 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Report Builder의 “셀에서 데이터 보기 선택”에 관한 문서 | 이 기능을 사용하면 사용자가 셀에서 데이터 블록에 대한 데이터 보기를 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | 최적화 업데이트 | [CJA 성능 최적화](/help/admin/optimizing-performance.md)에 대한 문서 업데이트 |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
