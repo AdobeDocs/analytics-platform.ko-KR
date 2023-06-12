@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 CJA 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a676c5c71e13524ef56143fe0f5d4cf98c64c2f2
+source-git-commit: c3bea466c4960893ebe746046250608bacc9e340
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 | **CJA 데이터 보기에 대한 PowerBI 및 Tableau 액세스** | Customer Journey Analytics(CJA) SQL 커넥터를 통해 SQL은 CJA에서 정의한 데이터 보기에 액세스할 수 있습니다. Power BI, Tableau 또는 기타 비즈니스 인텔리전스와 시각화 도구에 익숙한 데이터 엔지니어 및 분석가는 이제 CJA 사용자가 Analysis Workspace 프로젝트에 사용하는 동일한 데이터 보기를 기반으로 보고서와 대시보드를 만들 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) |  | 2023년 6월 30일 |
 | **Experience Edge 지역 조회** | Experience Edge 지역 조회가 데이터 스트림에 대해 활성화되면 CJA의 지리적 위치 데이터를 사용하여 보고서를 작성할 수 있습니다. |  | 2023년 6월 30일 |
 | **프로필 및 조회 데이터에 대한 조회 지원이 확장됨** | 조회 데이터 세트를 이벤트 데이터 세트와 프로필 및 조회 데이터 세트에도 추가할 수 있습니다. | 2023년 6월 21일 | 2023년 7월 12일 |
-| **통화 전환 지원** | CJA는 데이터 보기에서 지표 구성 요소 서식을 지정하는 일부로 통화 전환을 지원합니다. | 2023년 6월 7일 | 2023년 6월 21일 |
+| **통화 전환 지원** | 통화 전환은 데이터 보기에서 지표 구성 요소 서식 지정의 일부로 지원됩니다. [자세히 알아보기](../data-views/component-settings/format.md#currency) | 2023년 6월 7일 | 2023년 6월 21일 |
 
 {style="table-layout:auto"}
 
@@ -42,6 +42,10 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 �
 | **CJA용 Report Builder - 셀에서 데이터 보기 선택** | 이 기능을 사용하면 사용자가 셀에서 데이터 블록에 대한 데이터 보기를 선택할 수 있습니다. 이는 통합 문서를 만들고 데이터 구성이 유사한 여러 데이터 보기가 있고 서로 다른 데이터 보기에서 통합 문서를 여러 번 재사용하려는 경우에 유용합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) | 해당 사항 없음 | 2023년 5월 24일 |
 | **CJA용 학습 페이지가 업데이트됨** | 이제 Customer Journey Analytics 랜딩 페이지의 학습 탭에 Adobe Analytics에서 CJA로 전환하는 데 초점을 맞춘 콘텐츠를 포함하여 CJA와 관련된 콘텐츠가 포함됩니다.<p>학습 탭에서도 다음과 같은 추가 개선 사항을 사용할 수 있습니다.</p><ul><li>탐색 기능이 개선된 단일 페이지에 더 많은 학습 콘텐츠를 표시하는 디자인 개선</li><li>경험 수준별 학습 콘텐츠 개인화 기능(초급, 중급 및 고급)</li></ul><p>이전에는 CJA의 학습 탭에 Adobe Analytics의 학습 탭과 동일한 정보가 포함되었습니다.</p> [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#navigate-learning) | 해당 사항 없음 | 2023년 6월 30일 |
 | **Analysis Workspace의 구성 요소 정렬** | <p>이제 왼쪽 레일 또는 Analysis Workspace의 데이터 사전에서 구성 요소를 볼 때 새로운 정렬 옵션을 사용할 수 있습니다. 권장(가장 일반적으로 사용되는 구성 요소), 알파벳순 또는 범주(유형)별로 구성 요소를 정렬할 수 있습니다.</p><p>이전에는 구성 요소만 검색하거나 필터링만 할 수 있었습니다. [자세히 알아보기](/help/components/overview.md)</p> | 해당 사항 없음 | TBD |
+| **자유 형식 테이블에서 동적 차원이 포함된 행 삭제** | 이제 Analysis Workspace의 자유 형식 테이블에서 x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 신속하게 삭제할 수 있습니다. 이렇게 하면 “항상 항목 제외” 필터 규칙이 자동으로 적용됩니다.<p>이전에는 동적 차원이 포함된 행을 삭제하는 유일한 방법은 필터 대화 상자에서 수동으로 규칙을 만드는 것이었습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | 해당 사항 없음 | 2023년 5월 17일 |
+| **패널 내에 시각화를 추가하는 새 버튼** | 이제 Analysis Workspace의 각 패널 하단에 새로운 버튼이 추가되어 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 패널에 시각화를 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나, 기존 시각화를 복제 또는 복사하거나, 빈 패널을 만드는 것이었습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 해당 사항 없음 | 2023년 5월 17일 |
+| **딥 링크 (모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. 이를 통해 프로젝트를 보다 쉽게 공유하고 기술 수준이 낮은 대상자의 참여를 높일 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) | 해당 사항 없음 | 2023년 5월 17일 |
+| **지능형 캡션** | [!UICONTROL 라인] 시각화의 자연어 요약으로 사용자를 위한 스토리텔링을 풍부하게 합니다. [자세히 알아보기](/help/analysis-workspace/visualizations/intelligent-captions.md) | 2023년 5월 17일 | 2023년 6월 1일 |
 
 {style="table-layout:auto"}
 
