@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법 및 Customer Journey Analytics(CJA)에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -243,8 +243,8 @@ ht-degree: 95%
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [&quot;방문자 수당 페이지 보기 수&quot; 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [&quot;기여도&quot; 지표 작성](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [“방문자 수당 페이지 조회수” 지표 작성](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [“참여도” 지표 작성](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [필터 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -297,8 +297,8 @@ ht-degree: 95%
    + [CJA 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)
    + [Customer Journey Analytics와 Adobe Analytics 통합](/help/integrations/aa.md)
    + [CJA와 Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
-   + [CJA와 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md)
-   + [Customer AI와 CJA 통합](/help/integrations/customer-ai.md)
+   + [의사 결정 관리 데이터와 CJA 통합](/help/integrations/ajo-od.md)
+   + [고객 AI와 CJA 통합](/help/integrations/customer-ai.md)
 
 + 데이터 거버넌스 {#cja-privacy}
    + [데이터 거버넌스](../privacy/privacy-overview.md)
