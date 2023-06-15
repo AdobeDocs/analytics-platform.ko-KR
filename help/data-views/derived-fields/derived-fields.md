@@ -3,11 +3,9 @@ title: 파생 필드
 description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집합을 통해 스키마 필드 및/또는 표준 구성 요소의 보고서 시간 조작을 지정합니다.
 solution: Customer Journey Analytics
 feature: Data Views
-hide: true
-hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
+source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
 workflow-type: tm+mt
 source-wordcount: '3252'
 ht-degree: 9%
@@ -16,8 +14,6 @@ ht-degree: 9%
 
 
 # 파생 필드
-
-{{release-limited-testing}}
 
 파생 필드는 Customer Journey Analytics(CJA)의 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음에서 파생된 필드를 구성 요소(지표 또는 차원)로 사용할 수 있습니다. [작업 영역](../../analysis-workspace/home.md) 또는 파생된 필드를 의 구성 요소로 추가로 정의합니다. [데이터 보기](../data-views.md).
 
@@ -289,7 +285,7 @@ ht-degree: 9%
 |:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
-| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 3 | | `https://site.com/?cid=em_12345678` | [!DNL Email] |
 | 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
 | 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
 | 6 | `https://google.com` |  | [!DNL Natural Search] |
@@ -342,7 +338,7 @@ ht-degree: 9%
 | [!DNL search p13n_no] | [!DNL search] |
 | [!DNL search p13n_yes] | [!DNL search] |
 | [!DNL search refine p13n_no] | [!DNL search] |
-| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search refine p13n_yes] | [!DNL search] |
 | [!DNL search redirect p13n_yes] | [!DNL search] |
 | [!DNL search-redirect] | [!DNL search] |
 
@@ -764,5 +760,5 @@ CJA는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
 일반적으로 파생된 필드 기능에는 다음 제한이 적용됩니다.
 
-- 파생 필드에 대한 규칙을 정의할 때 최대 100개의 서로 다른 스키마 필드(표준 필드는 포함하지 않음)를 사용할 수 있습니다.
+- 파생 필드에 대한 규칙을 정의할 때 최대 10개의 서로 다른 스키마 필드(표준 필드는 포함하지 않음)를 사용할 수 있습니다.
 - CJA 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
