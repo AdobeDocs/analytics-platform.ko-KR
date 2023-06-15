@@ -2,10 +2,10 @@
 title: Customer Journey Analytics(CJA)와 Adobe Journey Optimizer(AJO) 통합
 description: AJO에서 생성된 데이터를 가져오고 CJA 내에서 Analysis Workspace를 사용하여 가져온 데이터를 분석하십시오.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: 76f13b6c3b05d4a3fa4169ab0b4a1e9573efb9e0
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 84%
+source-wordcount: '864'
+ht-degree: 73%
 
 ---
 
@@ -21,17 +21,17 @@ Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사
 
 ## Customer Journey Analytics에 연결 만들기
 
-Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음을 수행할 수 있습니다 [연결 만들기](/help/connections/create-connection.md) Journey Optimizer 데이터 세트 기반. 또는 기존 연결에 Journey Optimizer 데이터 세트를 추가할 수 있습니다.
+Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음 작업을 수행할 수 있습니다 [연결 만들기](/help/connections/create-connection.md) Journey Optimizer 데이터 세트를 기반으로 합니다. 또는 기존 연결에 Journey Optimizer 데이터 세트를 추가할 수 있습니다.
 
 다음 데이터 세트를 선택하고 구성합니다.
 
 | 데이터 세트 | 데이터 세트 유형 | 연결 설정 | 설명 |
 | --- | --- | --- | --- |
-| AJO 메시지 피드백 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 등의 메시지 게재 이벤트를 포함합니다.[!UICONTROL 전송]&#39; 및 &#39;[!UICONTROL 바운스 수]&#39; |
-| AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 과 같은 이메일 추적 이벤트를 포함합니다.[!UICONTROL 열기]`, `[!UICONTROL 클릭 수]&#39;, &#39;[!UICONTROL 가입 해지됨]&#39; |
-| AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | &#39; 과 같은 푸시 추적 이벤트를 포함합니다.[!UICONTROL 앱 실행]&#39; |
-| 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 보여주는 이벤트를 포함합니다. |
-| AJO 엔티티 데이터 세트 | 조회 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 모든 AJO 이벤트 데이터에 여정 및 캠페인 메타데이터를 연결하는 분류를 포함합니다. |
+| AJO 메시지 피드백 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 메시지 게재 이벤트를 포함합니다.[!UICONTROL 전송 횟수]&#39; 및 &#39;[!UICONTROL 바운스]&#39;. |
+| AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 이메일 추적 이벤트 포함[!UICONTROL 열림]&#39;, &#39;[!UICONTROL 클릭수]&#39;, &#39;[!UICONTROL 구독 취소]&#39;. |
+| AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 푸시 추적 이벤트 포함[!UICONTROL 앱 실행]&#39;. |
+| 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 표시하는 이벤트를 포함합니다. |
+| AJO 엔티티 데이터 세트 | 조회 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 여정 및 캠페인 메타데이터를 모든 AJO 이벤트 데이터에 연결하는 분류를 포함합니다. |
 
 {style="table-layout:auto"}
 
@@ -64,6 +64,7 @@ Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음을 
 | 처리 이름 | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | 구성 요소 유형: 차원<br>컨텍스트 레이블: 실험 변형 |
 | 이메일 게재 실패 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | 구성 요소 유형: 차원 |
 | 이메일 게재 제외 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | 구성 요소 유형: 차원 |
+| 요소 레이블 | `_experience.decisioning.propositionAction.label` | 구성 요소 유형: 차원 |
 
 {style="table-layout:auto"}
 
@@ -82,6 +83,11 @@ Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음을 
 | 전송함 | 이메일 공급자가 수락한 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: `sent`와 같음 |
 | 스팸 고객 불만 | 접수된 스팸 불만 사항 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `spam_complaint`와 같음 |
 | 구독 취소 | 구독 취소 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `unsubscribe`와 같음 |
+| Edge 전송 횟수 | Edge 네트워크가 웹 또는 모바일 SDK에 메시지를 보내는 횟수 | 스키마 문자열 요소 사용 `_experience.decisioning.propositionEventType.send` |
+| 인바운드 디스플레이 | 사용자에게 웹 또는 인앱 메시지가 표시되는 횟수 | 스키마 문자열 요소 사용 `_experience.decisioning.propositionEventType.display` |
+| 인바운드 클릭수 | 웹 또는 인앱 메시지 클릭 수 | 스키마 문자열 요소 사용 `_experience.decisioning.propositionEventType.interact` |
+| InApp 트리거 | 의사 결정 엔진이 메시지를 표시해야 하는 횟수. Mobile SDK는 실제 디스플레이 수를 줄이는 결정을 무시할 수 있습니다. | 스키마 문자열 요소 사용 `_experience.decisioning.propositionEventType.trigger` |
+| InApp 취소 | SDK가 UI에서 인앱 메시지를 제거한 횟수 | 스키마 문자열 요소 사용 `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}
 
