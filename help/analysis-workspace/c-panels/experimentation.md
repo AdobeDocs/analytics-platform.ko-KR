@@ -3,10 +3,10 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
+source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->이 시점에서 [Target을 위한 Adobe Analytics|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
+>이 시점에서 [Target을 위한 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
 
 ## 액세스 제어 {#access}
 
