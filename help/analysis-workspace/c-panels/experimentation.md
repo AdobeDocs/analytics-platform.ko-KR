@@ -3,10 +3,10 @@ description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 �
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 73%
+source-wordcount: '1855'
+ht-degree: 66%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->이 때문에 Analytics 소스 커넥터를 통해 Adobe Experience Platform으로 가져온 [Target용 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)(A4T) 데이터는 [!UICONTROL 실험] 패널에서 분석할 수 **없습니다**. 이 문제에 대한 해결 방법은 2023년에 나올 것으로 기대하고 있습니다.
+>이 시점에서 [Target을 위한 Adobe Analytics|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
 
 ## 액세스 제어 {#access}
 
@@ -28,7 +28,7 @@ ht-degree: 73%
 
 ## 1단계: 실험 데이터 세트로의 연결 만들 {#connection}
 
-권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=ko)에 있는 것입니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 두 개로 분할할 수 있습니다.
+권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=ko)에 있는 것입니다. 두 차원 모두 **단일** 개체 배열입니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 두 개로 분할할 수 있습니다.
 
 실험 데이터가 Adobe Experience Platform으로 [수집되면](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) 하나 이상의 실험 데이터 세트로 [CJA에서 연결을 생성합니다.](/help/connections/create-connection.md)
 
@@ -86,9 +86,9 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 ## 5단계: 결과 해석 {#interpret}
 
-1. **실험이 결정적임**: 실험 보고서를 볼 때마다 Adobe는 이 시점까지 실험에 누적된 데이터를 분석하고 항시 유효한 신뢰도가 *적어도 하나*&#x200B;의 변형에 대해 임계값 95%를 넘으면 실험을 “결정적”이라고 선언합니다. (다중 가설 테스트를 수정하기 위해 두 개 이상의 팔이 있는 경우 Bonferonni 수정이 적용됨).
+1. **실험이 결정적임**: 실험 보고서를 볼 때마다 Adobe은 이 시점까지 실험에 누적된 데이터를 분석하고 항시 유효한 신뢰도가 임계값 95%를 넘으면 실험을 &quot;결정적&quot;이라고 선언합니다. *최소 하나* (다중 가설 테스트를 수정하기 위해 두 개 이상의 팔이 있는 경우 Benjamini-Hochberg 수정이 적용됨).
 
-2. **최고 성과의 변형**: 실험이 결정적이라고 선언되면 전환율이 가장 높은 변형을 “최고 성과의 변형”으로 레이블 지정합니다. 이 변형은 제어 또는 기준선 변형이거나, 항시 유효한 신뢰 임계값(Bonferonni 수정 적용 상태) 95%를 초과하는 변형 중 하나여야 합니다.
+2. **최고 성과의 변형**: 실험이 결정적이라고 선언되면 전환율이 가장 높은 변형을 “최고 성과의 변형”으로 레이블 지정합니다. 이 변형은 제어 또는 기준선 변형이거나, 항시 유효한 신뢰 임계값(Benjamini-Hochberg 수정 적용 시) 95%를 초과하는 변형 중 하나여야 합니다.
 
 3. **전환율**: 표시되는 전환율은 표준화 지표 값에 대한 성공 지표 값의 비율입니다. 지수가 이진수(실험의 각 단위당 1 또는 0)가 아닌 경우 이 값이 1보다 클 수 있습니다.
 
