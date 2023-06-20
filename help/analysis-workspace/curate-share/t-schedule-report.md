@@ -5,10 +5,10 @@ title: 프로젝트 예약
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 91%
+source-wordcount: '912'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 추가 기능 제품을 구입한 CJA 고객에게만 표시됩니다.
+>예약된 프로젝트를 암호로 보호하는 옵션은 프로젝트를 구입한 Customer Journey Analytics 고객에게만 표시됩니다. [헬스케어 실드](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 추가 기능 제품.
 
 Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 암호를 사용하여 예약된 프로젝트를 암호화합니다.
 

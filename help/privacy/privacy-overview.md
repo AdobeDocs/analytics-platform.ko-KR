@@ -2,26 +2,26 @@
 title: Customer Journey Analytics 및 데이터 거버넌스
 description: Customer Journey Analytics에서 데이터 거버넌스가 작동하는 방식을 설명합니다.
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 5f69840fa19fbf7ba6ecac1cd198cfa4a7dd905d
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 68%
 
 ---
 
-# Customer Journey Analytics 및 데이터 거버넌스
+# Adobe Customer Journey Analytics 및 데이터 거버넌스
 
 일반적으로 Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다.
 
 ## 데이터 거버넌스
 
-CJA와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko-KR) 간의 통합을 통해 민감한 CJA 데이터의 레이블 지정 및 개인정보 보호정책 시행이 가능합니다.
+Adobe Customer Journey Analytics과 의 통합 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko-KR) 민감한 Customer Journey Analytics 데이터의 레이블 지정 및 개인정보 처리방침 시행을 허용합니다.
 
-Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 CJA 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
+Experience Platform이 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로우에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
 
-또한 보고, 내보내기, API 등을 통해 CJA에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
+또한 보고, 내보내기, API 등을 통해 Customer Journey Analytics에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
 
-이 통합을 통해 규정 준수를 보다 쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 결과적으로 데이터 관리자에 의해 정의된 정책을 준수하고 있음을 알고 있으므로 CJA 사용자는 데이터를 보다 자신 있게 사용할 수 있습니다.
+이 통합을 통해 규정 준수를 보다 쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 Customer Journey Analytics 사용자는 데이터 관리자에 의해 정의된 정책을 준수함을 알고 보다 자신 있게 데이터를 사용할 수 있습니다.
 
 [자세히 알아보기](/help/data-views/data-governance.md)
 

@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 97%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 ## 2. 정수를 차원으로 사용 {#integers}
 
-이전에는 정수가 자동으로 CJA에서 지표로 처리되었습니다. 이제 숫자(Adobe Analytics의 사용자 정의 이벤트 포함)를 차원으로 처리할 수 있습니다. 다음은 한 예입니다.
+이전에는 정수가 자동으로 Customer Journey Analytics에서 지표로 처리되었습니다. 이제 숫자(Adobe Analytics의 사용자 정의 이벤트 포함)를 차원으로 처리할 수 있습니다. 다음은 한 예입니다.
 
 1. [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 차원] 섹션으로 [!UICONTROL call_length_min] 정수를 끌어옵니다.
 
@@ -117,7 +117,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 ## 8. 날짜 및 날짜-시간 기능 사용 {#date}
 
-Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL 날짜-시간] 필드가 있습니다. CJA 데이터 보기는 이제 이러한 필드를 지원합니다. 이러한 필드를 데이터 보기에 차원으로 드래그하면 해당 [형식](/help/data-views/component-settings/format.md)을 지정할 수 있습니다. 이 형식 설정에 따라 보고에서의 필드 표시 방법이 결정됩니다. 예:
+Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL 날짜-시간] 필드가 있습니다. 이제 Customer Journey Analytics 데이터 보기에서 이러한 필드를 지원합니다. 이러한 필드를 데이터 보기에 차원으로 드래그하면 해당 [형식](/help/data-views/component-settings/format.md)을 지정할 수 있습니다. 이 형식 설정에 따라 보고에서의 필드 표시 방법이 결정됩니다. 예:
 
 * 날짜 형식의 경우 **[!UICONTROL 월, 일, 년]** 형식으로 **[!UICONTROL 날짜]**&#x200B;를 선택하면 보고의 출력 예는 2022년 8월 23일과 같을 수 있습니다.
 

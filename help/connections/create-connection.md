@@ -4,16 +4,16 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 90ce711ddfdff9e3441e40aa968e62e34da6a122
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 66%
+source-wordcount: '2543'
+ht-degree: 62%
 
 ---
 
 # 연결 만들기
 
-새로운 연결 워크플로는 최근 CJA(Customer Journey Analytics)에서 시작되었습니다. 새로운 연결 생성 및 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보와 함께 자세한 데이터 세트 선택, 구성 및 검토 경험을 제공했습니다. 다음은 새로운 기능에 대한 개요입니다.
+새로운 연결 워크플로가 최근에 Customer Journey Analytics에서 시작되었습니다. 새로운 연결 생성 및 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보와 함께 자세한 데이터 세트 선택, 구성 및 검토 경험을 제공했습니다. 다음은 새로운 기능에 대한 개요입니다.
 
 * 연결을 생성할 때 롤링 데이터 보존 기간을 활성화할 수 있습니다.
 * 연결에서 데이터 세트를 추가하거나 제거할 수 있습니다. (데이터 세트를 제거하면 연결에서 데이터 세트가 제거되고 연결된 모든 데이터 보기 및 기본 Analysis Workspace 프로젝트에 영향을 미칩니다.)
@@ -25,7 +25,7 @@ ht-degree: 66%
 
 ## 연결 만들기 및 구성 {#create-connection}
 
-1. CJA에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
+1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 클릭합니다.
 
    ![연결 설정](assets/create-conn1.png)
@@ -37,7 +37,7 @@ ht-degree: 66%
    | **[!UICONTROL 연결 이름]** | 연결의 고유한 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)를 제공합니다. 샌드박스를 데이터 세트가 포함된 &quot;데이터 사일로&quot;로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란을 선택하면 CJA 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 제외)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p>기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 CJA는 채우기를 통해 25개월 분량의 데이터를 가져옵니다. 플랫폼에서 이러한 개월 중 10개월을 삭제하면 CJA는 나머지 15개월을 유지합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 제외)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p>기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics은 채우기를 통해 25개월 분량의 데이터를 받습니다. 플랫폼에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics은 나머지 15개월을 유지합니다. |
    | **[!UICONTROL 데이터 세트 추가]** (아래 참조) | 데이터 세트 목록에 데이터 세트가 표시되지 않으면 데이터 세트를 추가합니다. |
    | **[!UICONTROL 데이터 세트 이름]** | Customer Journey Analytics으로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**.<p>(선택할 데이터 세트가 많을 경우 데이터 세트 목록 위에 있는 데이터 세트 검색 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.) |
    | **[!UICONTROL 마지막으로 업데이트됨]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. “N/A”는 이 데이터 세트에 데이터가 없음을 의미합니다. |
@@ -114,7 +114,7 @@ ht-degree: 66%
 
 ![조회 스키마](assets/schema.png)
 
-이제 이러한 값을 CJA 보고에 지표 또는 차원으로 가져오도록 지원합니다. 연결을 설정하고 조회 데이터 세트를 가져올 때 데이터 세트를 편집하여 [!UICONTROL 키] 및 [!UICONTROL 일치하는 키]를 선택할 수 있습니다.
+이제 이러한 값을 Customer Journey Analytics 보고에 지표 또는 차원으로 가져오도록 지원합니다. 연결을 설정하고 조회 데이터 세트를 가져올 때 데이터 세트를 편집하여 [!UICONTROL 키] 및 [!UICONTROL 일치하는 키]를 선택할 수 있습니다.
 
 ![데이터 세트 편집](assets/lookup-dataset.png)
 
@@ -124,7 +124,7 @@ ht-degree: 66%
 
 Customer Journey Analytics에서는 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 -> 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
 
-ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. CJA 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
+ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. Customer Journey Analytics 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 있습니다.
 
 ![](assets/idmap1.png)
 
@@ -132,8 +132,8 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 | 옵션 | 설명 |
 |---|---|
-| **[!UICONTROL 기본 ID 네임스페이스 사용]** | 이 옵션은 CJA가 ID 맵에서 행별로 primary=true 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용하도록 지시합니다. 이 ID는 분할을 위해 Experience Platform에 사용되는 기본 키입니다. 또한 이 ID는 CJA의 개인 ID로 사용하기에 가장 적합한 후보입니다(CJA 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
-| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [ Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR)의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 CJA는 각 행의 ID 맵에서 이 네임스페이스 키를 검색하고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. CJA에서는 모든 행의 전체 데이터 세트를 스캔하여 존재하는 네임스페이스를 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 목록에 표시됩니다. 데이터에 지정된 네임스페이스를 알아야 합니다. 이러한 네임스페이스는 자동으로 검색되지 않습니다. |
+| **[!UICONTROL 기본 ID 네임스페이스 사용]** | 이 옵션은 Customer Journey Analytics에게 행별로 primary=true 속성으로 표시된 ID 맵에서 ID를 찾아 해당 행의 개인 ID로 사용하도록 지시합니다. 이 ID는 분할을 위해 Experience Platform에 사용되는 기본 키입니다. 또한 이 ID는 Customer Journey Analytics 개인 ID로 사용하기에 가장 적합한 후보입니다(Customer Journey Analytics 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
+| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [ Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR)의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics이 각 행의 ID 맵에서 이 네임스페이스 키를 검색하고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics은 모든 행의 전체 데이터 세트를 스캔하여 존재하는 네임스페이스를 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 목록에 표시됩니다. 데이터에 지정된 네임스페이스를 알아야 합니다. 이러한 네임스페이스는 자동으로 검색되지 않습니다. |
 
 {style="table-layout:auto"}
 
@@ -143,8 +143,8 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 | 옵션 | ID가 ID 맵에 없음 | 여러 ID가 기본 ID로 표시되지 않음 | 여러 ID가 기본 ID로 표시됨 | 단일 ID가 기본 ID로 표시되거나 표시되지 않음 | 기본 ID로 표시된 ID의 네임스페이스가 잘못됨 |
 |---|---|---|---|---|---|
-| **[!UICONTROL 기본 ID 네임스페이스 사용]이 선택됨** | 행이 CJA에서 삭제됩니다. | 기본 ID가 지정되지 않아서 행이 CJA에서 삭제됩니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 추출됩니다. 그런 다음 알파벳순으로 정렬됩니다. 새 정렬에서는 첫 번째 ID가 있는 첫 번째 네임스페이스가 개인 ID로 사용됩니다. | 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(AEP에 없음) CJA는 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
-| **[!UICONTROL 특정 ID 맵 네임스페이스]가 선택됨** | 행이 CJA에서 삭제됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. (연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 개인 ID로 사용할 수 없습니다.) |
+| **[!UICONTROL 기본 ID 네임스페이스 사용]이 선택됨** | 행이 Customer Journey Analytics에 의해 삭제됩니다. | 기본 ID가 지정되지 않아 행이 Customer Journey Analytics에 의해 삭제됩니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 추출됩니다. 그런 다음 알파벳순으로 정렬됩니다. 새 정렬에서는 첫 번째 ID가 있는 첫 번째 네임스페이스가 개인 ID로 사용됩니다. | 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(Adobe Experience Platform에 없음) Customer Journey Analytics은 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
+| **[!UICONTROL 특정 ID 맵 네임스페이스]가 선택됨** | 행이 Customer Journey Analytics에 의해 삭제됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. (연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 개인 ID로 사용할 수 없습니다.) |
 
 {style="table-layout:auto"}
 
@@ -162,4 +162,4 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
    이 예에서 &quot;analytics_demo_data&quot;는 데이터 세트의 이름입니다.
 
-2. AEP에 있는 모든 데이터 세트를 표시하려면 다음을 수행하십시오. `Show Tables` 쿼리 .
+2. Adobe Experience Platform에 있는 모든 데이터 세트를 표시하려면 다음을 수행합니다 `Show Tables` 쿼리 .

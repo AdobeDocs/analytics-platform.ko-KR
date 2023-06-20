@@ -4,10 +4,10 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 47%
+source-wordcount: '1960'
+ht-degree: 46%
 
 ---
 
@@ -113,11 +113,11 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->CJA에 액세스할 수 없는 사용자와 Analysis Workspace 프로젝트를 공유할 때는 다음 사항을 고려하십시오.
+>Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트를 공유할 때는 다음 사항을 고려하십시오.
 >
->* 이러한 방식으로 프로젝트를 공유하는 기능은에 설명된 대로 CJA 관리자가 비활성화할 수 있습니다 [환경 설정](/help/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 CJA 관리자가 이 기능을 비활성화했습니다.
+>* Customer Journey Analytics 관리자가에 설명된 대로 이러한 방식으로 프로젝트를 공유하는 기능은 비활성화할 수 있습니다 [환경 설정](/help/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 Customer Journey Analytics 관리자가 이 기능을 비활성화했습니다.
 >
->* 확장된 시각화가 50개를 초과하는 프로젝트는 CJA에 대한 액세스 권한이 없는 사용자와 공유할 수 없습니다.
+>* 확장된 시각화가 50개를 초과하는 프로젝트는 Customer Journey Analytics 액세스 권한이 없는 사용자와 공유할 수 없습니다.
 >
 >* 공유하는 사용자는 다음 기간 동안 프로젝트에 적용된 모든 필터를 볼 수 있습니다. [큐레이션](curate.md).
 > 
@@ -147,17 +147,17 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    프로젝트의 소유자도 이 링크의 소유자입니다. 에 설명된 대로 프로젝트 소유권이 이전되어야 링크 소유권을 다른 사용자에게 이전할 수 있습니다. [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) ( Analytics 관리 안내서).
 
-1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 CJA 관리자가 제어할 수 있음).
+1. 다음 보안 옵션을 사용할지 여부를 선택합니다(이 옵션은 Customer Journey Analytics 관리자가 제어할 수 있음).
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
      이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 와 공유하는 사용자는 Adobe Analytics에 액세스할 필요가 없습니다.
 
-     CJA 관리자는에 설명된 대로 회사에 대한 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
+     Customer Journey Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
 
-      * 이 옵션이 표시되지 않으면 CJA 관리자가 이 기능을 활성화하지 않은 것입니다.
+      * 이 옵션이 표시되지 않으면 Customer Journey Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
-      * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 이는 CJA 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 Experience Cloud 인증을 요구함을 의미합니다. 이는 Healthcare Shield를 허가한 조직의 경우 항상 해당됩니다.
+      * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 이는 Customer Journey Analytics 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 Experience Cloud 인증을 요구함을 의미합니다. 이는 Healthcare Shield를 허가한 조직의 경우 항상 해당됩니다.
 
 1. 다음 옆에 **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드를 클릭하고 **링크 복사** 아이콘 ![링크 복사 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg))를 클릭하여 링크를 시스템 클립보드에 복사합니다.
 

@@ -4,10 +4,10 @@ description: 여러 데이터 세트의 개인 ID를 다시 입력하여 개인�
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 95%
+source-wordcount: '1166'
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 
 ## 크로스 채널 분석 활성화
 
-조직에서 모든 사전 요구 사항을 충족하고 제한 사항을 이해하면 다음 단계에 따라 CJA에서 사용할 수 있습니다.
+조직이 모든 전제 조건을 충족하고 제한 사항을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 사용할 수 있습니다.
 
 1. 원하는 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Analytics 데이터는 [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)을 참조하십시오. 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
 1. 다음과 관련된 질문이 있는 경우 Adobe 고객 지원 센터에 문의하십시오.
@@ -74,9 +74,9 @@ ht-degree: 95%
    * 샌드박스 이름
 1. Adobe 고객 지원 센터에서 요청을 접수하면 Adobe 엔지니어링과 함께 작업하여 크로스 채널 Analytics를 활성화하게 됩니다. 활성화된 후에는 새 개인 ID 열이 포함된 새로운 키 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 고객 지원 센터는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
 1. 처음 켜면 Adobe는 이전 달 초(최대 60일)까지 거슬러 올라가는 스티치 데이터의 백필을 제공합니다. 이 백필을 수행하려면 임시 ID가 그 이전 시점으로 되돌아가 있는 분해된 데이터에 존재해야 합니다.
-1. 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하여 CJA에서 [연결을 만듭니다](/help/connections/create-connection.md). 각 데이터 세트에 올바른 개인 ID를 선택합니다.
+1. [연결 만들기](/help/connections/create-connection.md) 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하는 Customer Journey Analytics에서. 각 데이터 세트에 올바른 개인 ID를 선택합니다.
 1. 연결을 기반으로 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-데이터 보기가 설정되면 CJA의 분석은 CJA의 다른 분석과 동일하지만 이제는 데이터가 여러 채널과 디바이스에서 작동합니다.
+데이터 보기가 설정되면 Customer Journey Analytics의 분석은 Customer Journey Analytics의 다른 분석과 동일하지만 이제는 데이터가 여러 채널 및 디바이스에서 작동합니다.

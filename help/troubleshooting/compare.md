@@ -1,31 +1,31 @@
 ---
-title: AA 데이터를 CJA 데이터와 비교
+title: Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교
 description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이터와 비교하는 방법 알아보기
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 95f92d742dcc59098f51978a02c2989c42594807
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 94%
+source-wordcount: '906'
+ht-degree: 65%
 
 ---
 
-# Adobe Analytics 데이터와 CJA 데이터 비교
+# Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교
 
-조직에서 CJA를 채택함에 따라 Adobe Analytics와 CJA 간의 데이터 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. CJA는 AA에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 CJA를 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
+조직에서 Customer Journey Analytics을 채택함에 따라 Adobe Analytics과 Customer Journey Analytics 간의 데이터에 몇 가지 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics은 AA에서 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 Customer Journey Analytics을 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
-[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 통해 Adobe Analytics 데이터를 AEP로 가져온 다음 이 데이터 세트를 사용하여 CJA 연결을 만들었다고 가정합니다.
+다음을 통해 Adobe Analytics 데이터를 Adobe Experience Platform에 수집했다고 가정해 보겠습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)을(를) 만든 다음 이 데이터 세트를 사용하여 Customer Journey Analytics 연결을 만들었습니다.
 
 ![데이터 흐름](assets/compare.png)
 
-그런 다음 데이터 보기를 생성하고 CJA에서 이 데이터를 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견했습니다.
+그런 다음 데이터 보기를 만들고 Customer Journey Analytics 시 이 데이터에 대해 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견했습니다.
 
 다음은 원래 Adobe Analytics 데이터와 현재 Customer Journey Analytics의 Adobe Analytics 데이터를 비교하기 위해 따라야 할 몇 가지 단계입니다.
 
 ## 사전 요구 사항
 
-* AEP의 Analytics 데이터 세트에 조사 중인 날짜 범위에 대한 데이터가 포함되어 있는지 확인합니다.
+* Adobe Experience Platform의 Analytics 데이터 세트에 조사 중인 날짜 범위에 대한 데이터가 포함되어 있는지 확인합니다.
 
 * Analytics에서 선택한 보고서 세트가 Adobe Experience Platform에 포함된 보고서 세트와 일치하는지 확인합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 
 1. 비교에 사용할 수 있도록 이 프로젝트를 저장합니다.
 
-## 2단계: 결과를 CJA의 [!UICONTROL 타임스탬프별 총 레코드]와 비교
+## 2단계: 결과 비교 [!UICONTROL 타임스탬프별 총 레코드] Customer Journey Analytics
 
 이제 Analytics의 [!UICONTROL 발생 횟수]를 Customer Journey Analytics의 타임스탬프별 총 레코드와 비교합니다.
 
@@ -47,20 +47,20 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 >[!NOTE]
 >
->이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. CJA에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 있어 매우 중요합니다. 특히 크로스 채널 분석이 켜져 있는 경우 AA에서 복제하기가 항상 쉽지는 않을 수 있습니다.
+>이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 크로스 채널 분석이 켜져 있는 경우 Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
 
 1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 
        &quot;
-       SELECT Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10)을 Day, \
+       SELECT Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10)을 일, \
        Count(_id) AS 레코드
-       {dataset} \
+       출처:  {dataset} \
        WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;) \
-       및 타임스탬프&lt;from_utc_timestamp todate=&quot;&quot; utc=&quot;&quot; span=&quot;&quot; id=&quot;11&quot; translate=&quot;no&quot; />       및 타임스탬프가 NULL이 아닙니다. \
-       그리고 종단.
-_experience.aaid.id가 NULL이 아닙니다. \
-       일별 그룹 \
-       일별 주문
+       AND 타임스탬프&lt;from_utc_timestamp span=&quot;&quot; id=&quot;14&quot; translate=&quot;no&quot; />&#39;,&#39;UTC&#39;) \
+       및 타임스탬프가 NULL이 아님 \
+       및 ENDUSERID.{toDate}_experience.aaid.id가 NULL이 아님 \
+       일별 그룹화 \
+       일별 순서
        
        &quot;
    
@@ -81,11 +81,11 @@ _experience.aaid.id가 NULL이 아닙니다. \
 
 1. 커넥터가 행을 필터링한 경우 [!UICONTROL 발생 횟수] 지표에서 해당 행을 뺍니다. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
 
-## AEP에서 수집하는 동안 레코드가 필터링되거나 건너뛸 수 있는 이유
+## Adobe Experience Platform에서 수집하는 동안 레코드가 필터링되거나 건너뛸 수 있는 이유
 
-CJA [연결](/help/connections/create-connection.md)을 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
+Customer Journey Analytics [연결](/help/connections/create-connection.md) 을(를) 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
 
-다음은 AEP에서 데이터를 수집하는 동안 레코드를 건너뛸 수 있는 몇 가지 이유입니다.
+다음은 Adobe Experience Platform에서 데이터를 수집하는 동안 레코드를 건너뛸 수 있는 몇 가지 이유입니다.
 
 * **타임스탬프 누락** – 이벤트 데이터 세트에서 타임스탬프가 누락된 경우 해당 레코드는 수집 중에 완전히 무시되거나 건너뜁니다.
 

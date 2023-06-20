@@ -4,10 +4,10 @@ description: 콜센터와 웹 사이트 데이터를 연결하는 데이터 세�
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1154'
+ht-degree: 98%
 
 ---
 
@@ -41,14 +41,14 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 개인 ID 결합
 
-CJA에는 [결합된 데이터 세트](/help/connections/combined-dataset.md)를 생성하려면 공통 식별자가 필요합니다.
+Customer Journey Analytics을 생성하려면 공통 식별자가 필요합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md).
 
 * 이미 데이터 세트 모두에 모든 이벤트에 대한 공통 식별자가 있는 경우 이 단계를 건너뛰고 연결을 만들 수 있습니다.
 * 데이터 세트 중 하나에 일부 이벤트에만 적용되는 공통 식별자가 있으면 크로스 채널 분석을 사용하여 데이터를 결합할 수 있습니다. 이러한 두 데이터 세트에 CCA를 활성화하는 단계는 [크로스 채널 분석 개요](/help/cca/overview.md)를 참조하십시오.
 
-## CJA에서 연결 만들기
+## Customer Journey Analytics에 연결 만들기
 
-CJA에서 [연결을 만듭니다](/help/connections/create-connection.md).
+[Customer Journey Analytics에 연결 만들기.](/help/connections/create-connection.md)
 
 * CCA를 사용하는 경우 결합된 새 데이터 세트를 사용할 수 있습니다. 새로 만든 결합된 ID 필드를 개인 ID로 사용합니다.
 * 그렇지 않으면 연결에서 사용할 원본 웹 데이터 세트와 콜센터 데이터 세트를 모두 선택할 수 있습니다.

@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 Google Analytics 데이터에 대�
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '684'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 ## 고급 마케팅 속성 사용
 
-CJA에서는 채널 간 데이터에 대해 정교한 속성 모델을 사용할 수 있습니다. 다음의 예에서는 Google Analytics 채널 그룹화 차원에 매출의 마지막 터치, 첫 번째 터치, U자형, 그리고 알고리즘 속성을 적용한 경우를 비교해 볼 수 있습니다.
+Customer Journey Analytics을 사용하면 크로스 채널 데이터에 대해 정교한 속성 모델을 사용할 수 있습니다. 다음의 예에서는 Google Analytics 채널 그룹화 차원에 매출의 마지막 터치, 첫 번째 터치, U자형, 그리고 알고리즘 속성을 적용한 경우를 비교해 볼 수 있습니다.
 
 ![마케팅 속성](../assets/mktg-attribution.png)
 
@@ -63,6 +63,6 @@ Google Ad 콘텐츠에도 웹 및 앱 매출을 귀속시킬 수 있습니다. �
 
 ![Google Ad](../assets/google-ad.png)
 
-CJA의 데이터 세트를 결합하면 이 예제에서 온라인 광고가 모바일 앱에서 구매되는 제품에 영향을 미치고 있었다는 사실을 확인할 수 있습니다. 다음 시각화는 Google Ads로부터 발생한 모바일 앱 매출이 웹 자체에서만 발생한 매출에 비해 14,000~15,000달러 더 많다는 것을 보여 줍니다.
+Customer Journey Analytics에 데이터 세트를 결합하면 이 예제에서 온라인 광고가 모바일 앱에서 구매되는 제품에 영향을 미치고 있었다는 것을 알 수 있습니다. 다음 시각화는 Google Ads로부터 발생한 모바일 앱 매출이 웹 자체에서만 발생한 매출에 비해 14,000~15,000달러 더 많다는 것을 보여 줍니다.
 
 ![Google Ad 2](../assets/google-ad2.png)

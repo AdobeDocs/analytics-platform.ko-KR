@@ -4,10 +4,10 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 20ea211fff816b8b5e99d3d6ef3cb4ba4d0fd6a9
+source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 93%
+source-wordcount: '986'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Experience Platform의 데이터에 사용할 수 있는 Analytics 기능입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며, 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합되어 있습니다. **XDM(Experience Data Model)**&#x200B;을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. **Experience Query Services**&#x200B;를 사용하면 SQL 호환 도구와 프레임워크를 사용하여 모든 데이터를 쿼리하고 조작할 수 있습니다.
 
-다음은 고차원 CJA 아키텍처입니다.
+높은 수준의 Customer Journey Analytics 아키텍처는 다음과 같습니다.
 
 ![아키텍처](assets/cja-architecture.png)
 
@@ -23,11 +23,11 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 >[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
-## CJA와 기존 Adobe Analytics 비교하기
+## 기존 Adobe Analytics과 Customer Journey Analytics 비교
 
 Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제공하고 이전 버전의 Adobe Analytics에서 제한 사항을 제거하여 Adobe Analytics의 범위를 확장합니다. 몇 가지 주목할 만한 개선 사항은 다음과 같습니다.
 
-* **제한 없는 변수 및 이벤트**: eVar, 속성 및 이벤트에 대한 개념이 더 이상 없습니다. 데이터는 주로 차원과 지표에 중점을 둡니다. 데이터 세트에는 고유한 차원 및 지표를 무제한으로 사용할 수 있습니다.
+* **제한 없는 변수 및 이벤트**: eVar, 속성 및 이벤트에 대한 개념이 더 이상 없습니다. 데이터는 주로 차원과 지표에 중점을 둡니다. 데이터 세트에는 고유한 차원 및 지표의 수에 제한이 없습니다.
 * **무제한 고유 값**: Adobe Experience Platform은 고유한 제한 사항으로 제한되지 않습니다.
 * **이전 데이터 변경**: Adobe Experience Platform을 사용하여 데이터를 제거하거나 수정할 수 있습니다.
 * **크로스 보고서 세트 데이터**: 여러 데이터 세트의 기존 구현을 Platform에 결합할 수 있습니다.
@@ -36,7 +36,7 @@ Customer Journey Analytics는 사용하기 쉬운 크로스 채널 기능을 제
 >
 >Adobe Analytics를 사용하고 있으며 Customer Journey Analytics에서 Adobe Analytics 데이터를 사용하려는 경우 [데이터 수집](../data-ingestion/data-ingestion.md) 섹션의 일부로 [기존 Adobe Analytics 빠른 시작 안내서의 데이터 수집 및 사용](../data-ingestion/analytics.md)을 참조하십시오.
 
-Customer Journey Analytics 초기 릴리스에는 Adobe Analytics에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
+Customer Journey Analytics의 초기 릴리스에는 Adobe Analytics에 포함된 많은 기능이 포함되어 있습니다. 전체 목록에 대해서는 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
 ## 주요 사용 사례
 
@@ -53,7 +53,7 @@ Customer Journey Analytics을 통해 다음과 같은 작업을 수행할 수 �
 
 Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사전 요구 사항을 충족해야 합니다.
 
-* 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 CJA 추가 기능이 있는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오.
+* 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺고 있습니다. 어떤 유형의 계약을 맺고 있는지 모르거나 Customer Journey Analytics 추가 기능이 있는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오.
 * 조직에 Adobe Experience Platform이 프로비저닝되었습니다.
 * Adobe Analytics 없이도 Customer Journey Analytics를 독립 실행형 제품으로 구입할 수 있습니다.
 
@@ -63,7 +63,7 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 ## 용어 업데이트
 
-기존 Adobe Analytics과 비교하여 업계 표준에 맞게 CJA의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
+기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
 * 이제 세그먼트를 &#39;필터&#39;라고 합니다.
 * 이제 가상 보고서 세트를 &#39;데이터 보기&#39;라고 합니다
@@ -90,9 +90,9 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 * Customer Journey Analytics에서 데이터 작업:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
 
 * Customer Journey Analytics의 아키텍처 및 통합:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
 

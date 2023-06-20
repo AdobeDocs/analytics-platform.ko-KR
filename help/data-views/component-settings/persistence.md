@@ -4,10 +4,10 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 91%
+source-wordcount: '810'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 91%
 
 차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록입니다. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
 
-바인딩 차원을 효율적으로 사용하는 방법에 대한 사례는 [CJA에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
+다음을 참조하십시오 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md) 바인딩 차원을 효율적으로 사용하는 방법에 대한 예를 보려면 여기를 클릭하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -88,4 +88,4 @@ ht-degree: 91%
 
 이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 지표가 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
 
-바인딩 지표를 효율적으로 사용하는 방법에 대한 자세한 내용은 [CJA에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)의 두 번째 예를 참조하십시오.
+아래의 두 번째 예를 참조하십시오. [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md) 바인딩 지표를 효과적으로 사용하는 방법에 대한 자세한 내용을 보려면 를 클릭하십시오.

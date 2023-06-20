@@ -6,28 +6,28 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 60%
 
 ---
 
 # Report Builder의 제한된 레이블
 
-일반적으로 Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. CJA와 Adobe Experience Platform 데이터 거버넌스 간의 통합을 통해 민감한 CJA 데이터의 레이블 지정 및 개인정보 보호정책 시행이 가능합니다.
+일반적으로 Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. Customer Journey Analytics과 Adobe Experience Platform 데이터 거버넌스 간의 통합을 통해 민감한 Customer Journey Analytics 데이터의 레이블 지정 및 개인정보 처리방침 시행을 수행할 수 있습니다.
 
-Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 CJA 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다. 데이터 세트에 대한 자세한 내용은 [데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)를 참조하십시오.
+Experience Platform이 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로우에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다. 데이터 세트에 대한 자세한 내용은 [데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)를 참조하십시오.
 
-또한 보고, 내보내기, API 등을 통해 CJA에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
+또한 보고, 내보내기, API 등을 통해 Customer Journey Analytics에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
 
-이 통합을 통해 규정 준수를 보다 쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 결과적으로 데이터 관리자에 의해 정의된 정책을 준수하고 있음을 알고 있으므로 CJA 사용자는 데이터를 보다 자신 있게 사용할 수 있습니다.
+이 통합을 통해 규정 준수를 보다 쉽게 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 Customer Journey Analytics 사용자는 데이터 관리자에 의해 정의된 정책을 준수함을 알고 보다 자신 있게 데이터를 사용할 수 있습니다.
 
 자세한 내용은 [Customer Journey Analytics 및 데이터 거버넌스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)를 참조하십시오.
 
 ## Report Builder의 제한된 레이블 보기
 
-보고 및 다운로드, 공유에 영향을 미치는 CJA에는 Adobe에서 정의한 두 가지 정책이 있습니다.
+보고, 다운로드 및 공유에 영향을 주는 Customer Journey Analytics에 다음과 같은 두 가지 Adobe 정의 정책이 표시됩니다.
 
 * Analytics 시행 정책
 * 다운로드 시행 정책

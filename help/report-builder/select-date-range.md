@@ -1,15 +1,15 @@
 ---
-title: CJA의 Report Builder에서 데이터 범위를 선택하는 방법
-description: CJA용 Report Builder 에서 달력, 순환 날짜 및 사용자 정의 표현식을 사용하는 방법을 설명합니다.
+title: Customer Journey Analytics에서 Report Builder의 데이터 범위를 선택하는 방법
+description: Customer Journey Analytics Report Builder에서 달력, 순환 날짜 및 사용자 지정 표현식을 사용하는 방법을 설명합니다
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 96%
 
 ---
 

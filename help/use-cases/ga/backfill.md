@@ -1,13 +1,13 @@
 ---
 title: Google Analytics 내역 데이터를 Adobe Experience Platform으로 수집
-description: CJA(Customer Journey Analytics)를 사용하여 Google Analytics 데이터를 Adobe Experience Platform으로 수집하는 방법에 대해 설명합니다.
+description: Adobe Customer Journey Analytics을 사용하여 Google Analytics 데이터를 Adobe Experience Platform에 수집하는 방법에 대해 설명합니다.
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 91%
 
 ---
 
@@ -77,7 +77,7 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 
 >[!TIP]
 >
->내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터를 모두 내보내려면 각 데이터 세트에 동일한 스키마를 사용해야 합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md)를 사용하여 여러 데이터 세트를 하나의 CJA에 병합할 수 있습니다.
+>내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터를 모두 내보내려면 각 데이터 세트에 동일한 스키마를 사용해야 합니다. 다음을 사용하여 Customer Journey Analytics에 데이터 세트를 병합할 수 있습니다. [결합된 데이터 세트](/help/connections/combined-dataset.md).
 
 선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)에 자동으로 사전 매핑합니다.
 
@@ -91,15 +91,15 @@ XDM 스키마로의 필드 매핑을 완료한 뒤에는 이 가져오기를 반
 
 * **`timestamp`**: Experience Platform 스키마 UI에 특수한 계산된 필드를 생성합니다. **[!UICONTROL 계산된 필드 추가]**&#x200B;를 클릭하고 `date` 함수에서 `timestamp` 문자열을 래핑합니다.
 
-   `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+  `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 
-   계산된 필드를 스키마의 타임스탬프 데이터 구조에 저장합니다.
+  계산된 필드를 스키마의 타임스탬프 데이터 구조에 저장합니다.
 
-   ![타임스탬프](../assets/timestamp.png)
+  ![타임스탬프](../assets/timestamp.png)
 
-* **`_id`**: 이 필드는 그 안에 값을 포함해야 합니다. CJA는 그 값이 무엇이든 상관하지 않습니다. 이 필드에 “1”을 추가할 수 있습니다.
+* **`_id`**: 이 필드는 그 안에 값을 포함해야 합니다. Customer Journey Analytics은 그 값이 무엇이든 상관하지 않습니다. 이 필드에 “1”을 추가할 수 있습니다.
 
-   ![ID](../assets/_id.png)
+  ![ID](../assets/_id.png)
 
 ## 다음 단계
 

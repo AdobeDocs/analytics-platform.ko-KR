@@ -4,10 +4,10 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 9f1a96308fce7fb827cba43833df96098f05ef93
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 81%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -49,9 +49,9 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 * Analysis Workspace에서 직접 구성 요소 설명을 업데이트합니다. 데이터 사전의 구성 요소 설명에 대한 모든 업데이트는 데이터 보기에 반영됩니다.
 
-   마찬가지로, 데이터 보기의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
+  마찬가지로 데이터 보기의 구성 요소 설명에 대한 모든 업데이트가 Analysis Workspace에 반영됩니다.
 
-   Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [구성 요소 설명 추가](/help/components/add-component-descriptions.md).
+  Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md).
 
 ## 데이터 사전 액세스
 
@@ -59,12 +59,12 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 * 왼쪽 레일의 **데이터 사전** 아이콘에서.
 
-   ![왼쪽 레일의 데이터 사전 아이콘](assets/data-dictionary-access-icon.png)
+  ![왼쪽 레일의 데이터 사전 아이콘](assets/data-dictionary-access-icon.png)
 
 * 구성 요소의 정보 팝오버에 있는 **데이터 사전** 아이콘에서.
 
-   ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
@@ -72,9 +72,9 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 ## 데이터 사전 업데이트 및 구성
 
-Customer Journey Analytics 관리자는 다음 설명에 따라 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Customer Journey Analytics 관리자는에 설명된 대로, 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다. [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-이 프로세스의 일부로 CJA 관리자는 다음에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다 [데이터 사전에서 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+이 프로세스의 일부로 Customer Journey Analytics 관리자는에 설명된 대로 데이터 사전에 있는 각 구성 요소에 대한 정보를 편집할 수 있습니다 [데이터 사전에서 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 데이터 사전 이동, 최소화 또는 닫기
 
@@ -84,12 +84,12 @@ Customer Journey Analytics 관리자는 다음 설명에 따라 조직의 건강
 
 * Analysis Workspace 내의 아무 영역으로 끌어다 놓습니다.
 
-   Analysis Workspace를 닫았다가 다시 열면 데이터 사전 창은 마지막으로 이동한 위치에 남아 있습니다. <!--True?-->
+  Analysis Workspace를 닫았다가 다시 열면 데이터 사전 창은 마지막으로 이동한 위치에 남아 있습니다. <!--True?-->
 
 * 최소화
 
-   최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
+  최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
 
-   파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
+  파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
 
 * 닫기

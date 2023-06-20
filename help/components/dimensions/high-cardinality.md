@@ -4,20 +4,20 @@ description: Customer Journey Analytics에서 카디널리티가 높은 차원�
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 0e9d612e1c0f6d64cd6f1e045c1049a1f8202b72
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 88%
 
 ---
 
 # 카디널리티가 매우 높은 차원
 
-CJA(Customer Journey Analytics)는 보고될 수 있는 또는 단일 차원 내의 고유 값 또는 차원의 수에 대해 제한을 두지 않습니다. 그러나 일부의 경우, 고유 항목의 수가 지나치게 많은 차원(카디널리티가 높은 차원으로도 알려져 있음)은 어떤 것이 보고될 수 있는지에 대해 영향을 줄 수 있습니다.
+Customer Journey Analytics(Customer Journey Analytics)는 단일 차원 내에서 보고할 수 있는 고유 값 또는 차원 항목의 수에 제한을 두지 않습니다. 그러나 일부의 경우, 고유 항목의 수가 지나치게 많은 차원(카디널리티가 높은 차원으로도 알려져 있음)은 어떤 것이 보고될 수 있는지에 대해 영향을 줄 수 있습니다.
 
 ## 제한 사항
 
-특정 CJA 연결의 이벤트 수에 따라, 카디널리티가 높은 차원과 관련하여 다음과 같은 두 가지 제한 사항이 발생할 수 있습니다.
+특정 Customer Journey Analytics 연결의 이벤트 수에 따라, 카디널리티가 높은 차원과 관련하여 다음과 같은 두 가지 제한 사항이 발생할 수 있습니다.
 
 ### 1. 행 수가 정확하게 보고 가능하지 않을 수 있음
 

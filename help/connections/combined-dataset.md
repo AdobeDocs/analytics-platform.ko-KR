@@ -1,23 +1,23 @@
 ---
 title: 결합된 이벤트 데이터 세트
-description: CJA가 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
+description: Customer Journey Analytics이 데이터 세트를 결합하여 연결을 만드는 방법을 알아봅니다.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '344'
+ht-degree: 72%
 
 ---
 
 
 # 결합된 이벤트 데이터 세트
 
-연결을 만들면 CJA(Customer Journey Analytics)는 모든 스키마와 데이터 세트를 단일 데이터 세트에 결합합니다. 이 &#39;결합된 이벤트 데이터 세트&#39;는 CJA가 보고에 사용하는 것입니다. 연결에 여러 개의 스키마나 데이터 세트를 포함하는 경우:
+연결을 만들면 Customer Journey Analytics은 모든 스키마와 데이터 세트를 단일 데이터 세트에 결합합니다. 이 &#39;결합된 이벤트 데이터 세트&#39;는 Customer Journey Analytics이 보고에 사용하는 것입니다. 연결에 여러 개의 스키마나 데이터 세트를 포함하는 경우:
 
 * 스키마가 결합됩니다. 중복된 스키마 필드가 병합됩니다.
-* 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 CJA에서 고유한 사용자를 식별하는 기반입니다.
+* 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 Customer Journey Analytics에서 고유한 사용자를 식별하는 기반입니다.
 * 행은 타임스탬프를 기반으로 처리됩니다.
 * 이벤트는 밀리초 수준까지 해결됩니다.
 
@@ -31,34 +31,34 @@ ht-degree: 91%
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  | `3` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` |  |  | `2` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
+| `user_310` | `1 Jan 7:04 AM` | | | `2` |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
+| `user_847` | `2 Jan 12:44 PM` | | | `2` |
 
 | `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
 | --- | --- | --- | --- | --- |
 | `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
 이 두 이벤트 데이터 세트를 사용하여 연결을 만들 때 다음 표를 보고에 사용합니다.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |  |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  |  | `2` |  |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  |  | `3` |  |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` |  | `Circle` |  | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` |  | `4` |  |
-| `user_847` | `2 Jan 12:44 PM` |  |  |  | `2` |  |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |  |  |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
+| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
+| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
+| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
+| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-이 결합된 이벤트 데이터 세트는 보고에서 사용되는 것입니다. 행이 어느 데이터 세트에 포함되어 있든 상관없습니다. CJA는 모든 데이터를 동일한 데이터 세트에 있는 것처럼 처리합니다. 일치하는 개인 ID가 두 데이터 세트에 표시되면 동일한 고유 사용자로 간주됩니다. 30분 내에 타임스탬프가 있는 두 데이터 세트에 일치하는 개인 ID가 표시되면 동일한 세션의 일부로 간주됩니다.
+이 결합된 이벤트 데이터 세트는 보고에서 사용되는 것입니다. 행이 어느 데이터 세트에 포함되어 있든 상관없습니다. Customer Journey Analytics은 모든 데이터를 동일한 데이터 세트에 있는 것처럼 처리합니다. 일치하는 개인 ID가 두 데이터 세트에 표시되면 동일한 고유 사용자로 간주됩니다. 30분 내에 타임스탬프가 있는 두 데이터 세트에 일치하는 개인 ID가 표시되면 동일한 세션의 일부로 간주됩니다.
 
 이 개념은 속성에도 적용됩니다. 행이 어느 데이터 세트에 포함되어 있든 상관없습니다. 속성은 모든 이벤트가 단일 데이터 세트에 포함된 것처럼 정확하게 작동합니다. 위의 표를 예로 사용합니다.
 

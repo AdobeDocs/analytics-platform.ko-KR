@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 78%
+source-wordcount: '2529'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->이 페이지의 스코어카드 스크린샷은 CJA가 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.
+>이 페이지의 스코어카드 스크린샷은 Customer Journey Analytics이 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.
 
 Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
@@ -76,7 +76,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ## 필터 적용 {#filters}
 
-필터를 개별 타일에 적용하려면 왼쪽 패널의 필터(세그먼트는 CJA의 필터임)를 타일 위에 바로 드롭합니다.
+필터를 개별 타일에 적용하려면 왼쪽 패널의 필터(세그먼트는 Customer Journey Analytics의 필터임)를 타일 위에 바로 드롭합니다.
 
 스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. 본인 [스코어카드에 필터 구성 및 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) Adobe Analytics Workspace에서와 동일한 방식입니다.
 
@@ -163,7 +163,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ## 타일 속성 보기 및 구성 {#tiles}
 
-스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일 및 세부 슬라이드와 관련된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 대한 새 **제목**&#x200B;을 입력하고 필터를 적용하여 타일을 구성할 수 있습니다. 세그먼트는 CJA의 필터입니다.
+스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일 및 세부 슬라이드와 관련된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 대한 새 **제목**&#x200B;을 입력하고 필터를 적용하여 타일을 구성할 수 있습니다. 세그먼트는 Customer Journey Analytics의 필터입니다.
 
 ![속성 타일](assets/properties-tile-new.png)
 

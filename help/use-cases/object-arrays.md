@@ -1,21 +1,21 @@
 ---
 title: 오브젝트 배열 사용
-description: CJA가 데이터 계층에 관해 보고하는 방법을 이해합니다.
+description: Customer Journey Analytics이 데이터 계층에 대해 보고하는 방법을 이해합니다.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 86%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
 # 오브젝트 배열 사용
 
-일부 플랫폼 스키마에 오브젝트 배열이 있을 수 있습니다. CJA는 이벤트, 조회 및 프로필 데이터에서 오브젝트 배열에 대한 수집 및 보고를 지원합니다. 가장 일반적인 예 중 하나는 여러 제품이 포함된 장바구니입니다. 각 제품에는 이름, SKU, 범주, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 패싯에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
+일부 플랫폼 스키마에 오브젝트 배열이 있을 수 있습니다. Adobe Customer Journey Analytics은 이벤트, 조회 및 프로필 데이터 내에서 개체 배열의 수집 및 보고를 지원합니다. 가장 일반적인 예 중 하나는 여러 제품이 포함된 장바구니입니다. 각 제품에는 이름, SKU, 범주, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 패싯에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
 
-이전 버전의 Adobe Analytics에서는 `products` 변수를 사용하여 이 기능을 제공했습니다. 제품의 패싯을 구분하기 위해 세미콜론(`;`)으로 구분된 연속 문자열이며, 제품 설명은 쉼표(`,`)로 구분했습니다. &quot;오브젝트 배열&quot;을 제한적으로 지원하는 유일한 변수였습니다. 목록 변수와 같은 다중 값 변수는 배열의 동등한 변수를 지원할 수 있지만, &quot;오브젝트 배열&quot;을 지원할 수는 없습니다. CJA에서는 단일 데이터 행에서 임의의 세부 계층을 지원하여 이 개념을 확장했습니다. 이는 이전 버전의 Adobe Analytics에서 사용할 수 없는 기능입니다.
+이전 버전의 Adobe Analytics에서는 `products` 변수를 사용하여 이 기능을 제공했습니다. 제품의 패싯을 구분하기 위해 세미콜론(`;`)으로 구분된 연속 문자열이며, 제품 설명은 쉼표(`,`)로 구분했습니다. &quot;오브젝트 배열&quot;을 제한적으로 지원하는 유일한 변수였습니다. 목록 변수와 같은 다중 값 변수는 배열의 동등한 변수를 지원할 수 있지만, &quot;오브젝트 배열&quot;을 지원할 수는 없습니다. Customer Journey Analytics은 단일 데이터 행 내에서 임의의 세부 계층을 지원하여 이 개념을 확장하며, 이는 이전 버전의 Adobe Analytics에서 사용할 수 없는 기능입니다.
 
 ## 동일한 이벤트 예
 
@@ -91,7 +91,7 @@ ht-degree: 86%
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA에서는 이 표를 기준으로 오브젝트의 차원과 지표를 선택적으로 살펴봅니다.
+Customer Journey Analytics은 표를 기반으로 개체의 차원과 지표를 선택적으로 살펴봅니다.
 
 ```diff
 {
@@ -143,7 +143,7 @@ CJA에서는 이 표를 기준으로 오브젝트의 차원과 지표를 선택�
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA는 다음과 같은 이벤트 부분을 보고 보고서를 생성합니다.
+Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고서를 생성합니다.
 
 ```diff
 {
@@ -245,7 +245,7 @@ CJA는 다음과 같은 이벤트 부분을 보고 보고서를 생성합니다.
 
 ### 지표 결합
 
-CJA에서는 이름이 비슷한 지표가 다른 오브젝트 수준에 있는 경우 기본적으로 이러한 지표를 결합하지 않습니다.
+Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준에 있는 경우 기본적으로 이 지표를 결합하지 않습니다.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

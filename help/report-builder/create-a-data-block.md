@@ -1,15 +1,15 @@
 ---
-title: CJA에서 Report Builder를 사용하여 데이터 블록을 만드는 방법
+title: Customer Journey Analytics에서 Report Builder을 사용하여 데이터 블록을 만드는 방법
 description: 데이터 블록을 만드는 방법을 설명합니다.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 97%
 
 ---
 

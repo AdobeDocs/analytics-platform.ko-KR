@@ -4,10 +4,10 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a3fea05ac95407c7f3bee723a267ae0bc03d334a
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '493'
+ht-degree: 32%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 지표에 대한 통화 변환을 활성화하려면 다음을 수행합니다.
 
-- 통화 지표를 포함하는 모든 이벤트에 대해 통화 코드 차원을 포함하는 이벤트 데이터 세트를 하나 이상 포함하도록 CJA 연결을 설정합니다. 해당 통화 코드 차원은 다음을 준수하는 알파벳 통화 코드를 사용합니다. [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 통화를 나타내는 표준입니다. 예를 들어 USD는 $, EUR은 €, GBP는 파운드에 해당합니다.
+- 통화 지표를 포함하는 모든 이벤트에 대해 통화 코드 차원을 포함하는 이벤트 데이터 세트를 하나 이상 포함하도록 Customer Journey Analytics 연결을 설정합니다. 해당 통화 코드 차원은 다음을 준수하는 알파벳 통화 코드를 사용합니다. [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 통화를 나타내는 표준입니다. 예를 들어 USD는 $, EUR은 €, GBP는 파운드에 해당합니다.
 
 - 다음을 (선택 사항) 적용했습니다. [!UICONTROL 통화 코드] 컨텍스트 레이블을 데이터 세트에서 사용할 수 있는 통화 코드를 정의하는 하나 이상의 차원에 추가합니다.
 

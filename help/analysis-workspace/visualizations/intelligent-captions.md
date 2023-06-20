@@ -4,9 +4,9 @@ title: 지능형 캡션
 feature: Visualizations
 role: User, Admin
 exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 * 다른 사용자와 공유하기 위해 내러티브가 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공할 수 있도록 이러한 통찰력이 필요합니다.
 * 높은 수준의 테이크아웃을 빠르게 발견하고자 하는 비즈니스 사용자.
 
-캡션은 모든 CJA 사용자가 사용할 수 있으며 특별한 권한이 필요하지 않습니다.
+캡션은 모든 Customer Journey Analytics 사용자가 사용할 수 있으며 특별한 권한이 필요하지 않습니다.
 
 ## 지능형 캡션 실행 {#launch}
 

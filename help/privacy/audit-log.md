@@ -1,31 +1,31 @@
 ---
 title: 감사 로그
-description: CJA 감사 로그를 보고 관리하는 방법을 알아보십시오.
+description: Customer Journey Analytics 감사 로그를 보고 관리하는 방법을 알아봅니다.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 79%
+source-wordcount: '806'
+ht-degree: 67%
 
 ---
 
 # 감사 로그
 
-시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Customer Journey Analytics(CJA)를 사용하면 “감사 로그” 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다.
+시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Adobe Customer Journey Analytics을 사용하면 &quot;감사 로그&quot; 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다.
 
 기본적으로 감사 로그는 **어떤 사람**&#x200B;이 **어떤** 작업을 **언제** 수행했는지 알려 줍니다. 로그에 기록된 각 작업에는 작업 유형, 날짜 및 시간, 작업을 수행한 사용자의 이메일 ID 및 작업 유형과 관련된 추가 속성을 나타내는 메타데이터가 포함됩니다.
 
-이 주제에서는 UI에서 보고 관리하는 방법을 포함하여 CJA의 감사 로그를 다룹니다.
+이 항목에서는 UI에서 보고 관리하는 방법을 포함하여 Customer Journey Analytics의 감사 로그를 다룹니다.
 
 ## 감사 로그 액세스
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 로그 수집을 수동으로 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. CJA 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 문서](../admin/cja-access-control.md)를 참조하십시오.
+감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../admin/cja-access-control.md).
 
 ## UI에서 감사 로그 보기
 
-CJA에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 로그]**&#x200B;로 이동합니다.
+Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > **[!UICONTROL 감사 로그]**.
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
@@ -136,4 +136,4 @@ CSV 또는 JSON 형식의 감사 로그를 다운로드할 수 있습니다. 적
 
 ## API에서 감사 로그 관리
 
-UI에서 수행할 수 있는 모든 작업은 API 호출을 사용하여 수행할 수도 있습니다. 자세한 내용은 [CJA API 참조 문서](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs)를 참조하십시오.
+UI에서 수행할 수 있는 모든 작업은 API 호출을 사용하여 수행할 수도 있습니다. 다음을 참조하십시오. [Customer Journey Analytics API 참조 문서](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 추가 정보.

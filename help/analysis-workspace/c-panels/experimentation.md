@@ -1,12 +1,12 @@
 ---
-description: CJA 실험 패널의 A/B 테스트 결과를 분석할 수 있는 방법에 대해 알아봅니다.
+description: Customer Journey Analytics 실험 패널의 A/B 테스트 결과를 분석할 수 있는 방법에 대해 알아봅니다.
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 67%
+source-wordcount: '1870'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
 ## 액세스 제어 {#access}
 
-실험 패널은 모든 Customer Journey Analytics(CJA) 사용자가 사용할 수 있습니다. 다른 관리자 권한이나 사용 권한이 필요하지 않습니다. 단 설정(아래 1, 2단계)에는 관리자만 수행할 수 있는 작업이 있습니다.
+실험 패널은 모든 Customer Journey Analytics 사용자가 사용할 수 있습니다. 다른 관리자 권한이나 사용 권한이 필요하지 않습니다. 단 설정(아래 1, 2단계)에는 관리자만 수행할 수 있는 작업이 있습니다.
 
 ## 계산된 지표의 새로운 함수 {#functions}
 
@@ -30,11 +30,11 @@ ht-degree: 67%
 
 권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=ko)에 있는 것입니다. 두 차원 모두 **단일** 개체 배열입니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 두 개로 분할할 수 있습니다.
 
-실험 데이터가 Adobe Experience Platform으로 [수집되면](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) 하나 이상의 실험 데이터 세트로 [CJA에서 연결을 생성합니다.](/help/connections/create-connection.md)
+실험 데이터가 [수집됨](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) Adobe Experience Platform으로 [Customer Journey Analytics에서 연결 만들기](/help/connections/create-connection.md) 하나 이상의 실험 데이터 세트로
 
 ## 2단계: 데이터 보기에 컨텍스트 레이블 추가 {#contect-labels}
 
-CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍스트 레이블](/help/data-views/component-settings/overview.md)을 추가할 수 있으며 이를 위해 [!UICONTROL 실험] 패널 같은 CJA 서비스로 이 레이블을 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
+Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가할 수 있습니다. [컨텍스트 레이블](/help/data-views/component-settings/overview.md) 차원 또는 지표 및 다음과 같은 Customer Journey Analytics 서비스 [!UICONTROL 실험] 패널은 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
 
 * [!UICONTROL 실험]
 * [!UICONTROL 실험 변형]
@@ -47,12 +47,12 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 ## 3단계: 실험 패널 구성 {#configure}
 
-1. CJA 작업 영역에서 실험 패널을 프로젝트로 드래그합니다.
+1. Customer Journey Analytics 작업 영역에서 실험 패널을 프로젝트로 드래그합니다.
 
 ![실험 패널](assets/experiment.png)
 
 >[!IMPORTANT]
->CJA 데이터 보기에서 필요한 설정이 완료되지 않은 경우 진행하기 전에 “[!UICONTROL 데이터 보기에서 실험 및 변형 차원을 구성하십시오]”라는 메시지를 받게 됩니다.
+>Customer Journey Analytics 데이터 보기에서 필요한 설정이 완료되지 않은 경우 진행하기 전에 다음 메시지를 받게 됩니다.&quot;[!UICONTROL 데이터 보기에서 실험 및 변형 차원을 구성하십시오.]&quot;.
 
 1. 패널 입력 설정을 구성합니다.
 
@@ -62,7 +62,7 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
    | **[!UICONTROL 제어 변형]** | 최종 사용자 경험에서 두 가지 이상의 변경 중 하나로, 최선의 대안을 식별하기 위해 비교됩니다. 하나의 변형을 제어로 선택해야 하며, 하나의 변형만 제어 변형으로 간주될 수 있습니다. 이 설정은 데이터 보기에서 **[!UICONTROL 변형]** 레이블로 레이블 지정된 차원으로 미리 채워집니다. 이 설정은 이 실험과 관련된 변형 데이터를 가져옵니다. |
    | **[!UICONTROL 성공 지표]** | 사용자가 변형을 비교하는 지표입니다. 전환 지표에 대해 가장 바람직한 결과를 나타내는 변형(최고 또는 최저)이 실험의 “최고 성과의 변형”으로 사용됩니다. 최대 5개의 지표를 추가할 수 있습니다. |
    | **[!UICONTROL 표준화 지표]** | 테스트가 실행될 기본([!UICONTROL 사람], [!UICONTROL 세션] 또는 [!UICONTROL 이벤트]). 예를 들어 테스트를 통해 **[!UICONTROL 전환율]**&#x200B;이 **[!UICONTROL 세션당 전환]** 또는 **[!UICONTROL 사람당 전환]**&#x200B;으로 계산된 여러 변형의 전환율을 비교할 수 있습니다. |
-   | **[!UICONTROL 날짜 범위]** | 날짜 범위는 선택한 실험에 대해 CJA에서 받은 첫 번째 이벤트를 기반으로 자동으로 설정됩니다. 필요한 경우 더 구체적인 시간대로 날짜 범위를 제한하거나 확장할 수 있습니다. |
+   | **[!UICONTROL 날짜 범위]** | 날짜 범위는 선택한 실험에 대해 Customer Journey Analytics 시 수신한 첫 번째 이벤트를 기반으로 자동으로 설정됩니다. 필요한 경우 더 구체적인 시간대로 날짜 범위를 제한하거나 확장할 수 있습니다. |
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
@@ -110,7 +110,7 @@ CJA 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍�
 
 ## 비임의 차원 해석 {#non-randomized}
 
-CJA를 통해 분석가는 모든 차원을 &quot;실험&quot;으로 선택할 수 있습니다. 하지만 당신은 실험으로 선택된 차원이 무작위화된 사람이 아닌 분석을 어떻게 해석할 것인가?
+Customer Journey Analytics을 사용하면 분석가가 모든 차원을 &quot;실험&quot;으로 선택할 수 있습니다. 하지만 당신은 실험으로 선택된 차원이 무작위화된 사람이 아닌 분석을 어떻게 해석할 것인가?
 
 예를 들어, 한 사람이 보는 광고를 생각해 보십시오. &quot;광고 A&quot; 대신 &quot;광고 B&quot;를 표시하기로 결정한 경우 일부 지표(예: 평균 매출)의 변화를 측정하는 데 관심이 있을 수 있습니다. 광고 A 대신 광고 B를 보여주는 인과적 효과는 마케팅 의사 결정에 도달하는데 있어서 핵심적으로 중요하다. 광고 A의 상태 quo를 광고 B의 대체 전략으로 대체한 경우, 이러한 인과 효과는 전체 모집단에 대한 평균 수익으로 측정될 수 있다.
 

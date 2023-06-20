@@ -1,31 +1,31 @@
 ---
-title: AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다.
-description: CJA로 Marketo Engagement 데이터를 가져오는 방법에 대해 살펴보십시오.
+title: Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.
+description: Marketo Engage 데이터를 Customer Journey Analytics으로 가져오는 방법 알아보기
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 66%
 
 ---
 
-# AEP에 Marketo Engage 데이터를 수집하고 CJA에서 보고합니다.
+# Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.
 
-Adobe Experience Platform(AEP)에서 새롭게 제공되는 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Customer Journey Analytics(CJA)에서 이러한 데이터 세트에 대해 보고합니다.
+Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 있는 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Adobe Customer Journey Analytics에서 이러한 데이터 세트에 대해 보고합니다.
 
 ## 1단계: Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
 [사용자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=kr#persons) 및 [활동](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=kr#activities) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
-## 2단계: Marketo 데이터를 AEP로 수집
+## 2단계: Marketo 데이터를 Adobe Experience Platform에 수집
 
 [Marketo Engage 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=kr)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Platform 연결 애플리케이션을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
-## 3단계: CJA에서 이 데이터 세트에 대한 연결 설정
+## 3단계: Customer Journey Analytics에서 이 데이터 세트에 대한 연결 설정
 
-Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 CJA의 데이터 세트 간에 연결을 설정해야 합니다. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=kr)에 대해 자세히 알아보십시오.
+Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=kr)에 대해 자세히 알아보십시오.
 
 ## 4단계: 하나 이상의 데이터 보기 만들기
 
@@ -36,7 +36,7 @@ Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience
 탐색할 수 있는 한 가지 사용 사례는 다음과 같습니다. 2020년 4월~6월에 리드별 웹 페이지 방문 횟수는?
 
 1. [Analytics Workspace](/help/analysis-workspace/home.md)를 열고 새 프로젝트를 만듭니다.
-B2B/B2P CDP를 보유한 고객은 CJA에서 B2C 스타일의 분석을 수행할 수 있습니다. B2B 오브젝트는 아직 사용할 수 없습니다.
+B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타일의 분석을 수행할 수 있습니다. B2B 오브젝트는 아직 사용할 수 없습니다.
 
 1. 다음과 같이 웹 페이지 조회수에 대한 [필터](/help/components/filters/create-filters.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :
 

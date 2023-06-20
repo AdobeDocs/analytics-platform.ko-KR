@@ -2,9 +2,9 @@
 title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '967'
 ht-degree: 34%
 
 ---
@@ -112,7 +112,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 
 ## 기본 제공 필터 템플릿 {#template}
 
-기존 Analytics에는 다양한 기본 템플릿 필터(필터)와 계산된 지표가 함께 제공됩니다. 이들 중 대부분은 CJA에 적용되지 않거나 이름을 바꾸거나 다시 만들어야 합니다. 다른 것들은 CJA의 컨텍스트 인식 변수에 대한 솔루션에 의존합니다.
+기존 Analytics에는 다양한 기본 템플릿 필터(필터)와 계산된 지표가 함께 제공됩니다. 이들 중 대부분은 Customer Journey Analytics에 적용되지 않거나 이름을 바꾸거나 다시 만들어야 합니다. 다른 것들은 Customer Journey Analytics의 컨텍스트 인식 변수에 대한 솔루션에 의존합니다.
 
 | 필터 이름 | 설명 |
 | --- | --- |

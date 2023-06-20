@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics(CJA)와 Adobe Journey Optimizer(AJO) 통합
-description: AJO에서 생성된 데이터를 가져오고 CJA 내에서 Analysis Workspace를 사용하여 가져온 데이터를 분석하십시오.
+title: Customer Journey Analytics와 Adobe Journey Optimizer 통합
+description: Adobe Journey Optimizer에서 생성한 데이터를 가져와 Customer Journey Analytics 내에서 Analysis Workspace을 사용하여 분석합니다.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 76f13b6c3b05d4a3fa4169ab0b4a1e9573efb9e0
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 73%
+source-wordcount: '873'
+ht-degree: 68%
 
 ---
 
-# Customer Journey Analytics와 Adobe Journey Optimizer 통합
+# Adobe Journey Optimizer과 Adobe Customer Journey Analytics 통합
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)를 사용하여 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있습니다. 이를 사용하여 고객에게 고객 여정의 다음 단계를 안내할 수 있습니다.
 
@@ -31,7 +31,7 @@ Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음 작
 | AJO 이메일 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 이메일 추적 이벤트 포함[!UICONTROL 열림]&#39;, &#39;[!UICONTROL 클릭수]&#39;, &#39;[!UICONTROL 구독 취소]&#39;. |
 | AJO 푸시 추적 경험 이벤트 데이터 세트 | 이벤트 | 개인 ID: `IdentityMap` | 와 같은 푸시 추적 이벤트 포함[!UICONTROL 앱 실행]&#39;. |
 | 여정 단계 이벤트 | 이벤트 | 개인 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 여정의 각 노드에 참여한 프로필을 표시하는 이벤트를 포함합니다. |
-| AJO 엔티티 데이터 세트 | 조회 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 여정 및 캠페인 메타데이터를 모든 AJO 이벤트 데이터에 연결하는 분류를 포함합니다. |
+| AJO 엔티티 데이터 세트 | 조회 | 키: `_id`<br>일치하는 키: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 여정 및 캠페인 메타데이터를 모든 Adobe Journey Optimizer 이벤트 데이터에 연결하는 분류를 포함합니다. |
 
 {style="table-layout:auto"}
 
@@ -42,7 +42,7 @@ Journey Optimizer 데이터가 Adobe Experience Platform에 있으면 다음 작
 
 >[!NOTE]
 >
->AJO와 CJA 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
+>Adobe Journey Optimizer과 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
 
 
 ### 데이터 보기에서 차원 구성

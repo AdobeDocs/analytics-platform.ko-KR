@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2900'
-ht-degree: 2%
+source-wordcount: '2938'
+ht-degree: 1%
 
 ---
 
@@ -18,38 +18,38 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-다음 [!DNL Customer Journey Analytics (CJA) SQL Connector] 에 대한 SQL 액세스 활성화 [데이터 보기](./data-views.md) CJA에서 정의했습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 CJA 사용자가 Analysis Workspace 프로젝트를 만들 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
+다음 [!DNL Customer Journey Analytics SQL Connector] 에 대한 SQL 액세스 활성화 [데이터 보기](./data-views.md) Customer Journey Analytics에서 정의했습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 만들 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
-Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR?lang=kr) 는 Experience Platform의 데이터 레이크에서 사용할 수 있는 데이터에 대한 SQL 인터페이스입니다. 포함 [!DNL CJA SQL Connector] 활성화됨, 의 기능 [!DNL Query Service] 가 확장되어 CJA 데이터 보기를 의 테이블 또는 보기로 볼 수 있습니다. [!DNL Query Service] 세션. 따라서 다음을 사용하는 비즈니스 인텔리전스 도구 [!DNL Query Service] PostgresSQL 인터페이스가 이 확장된 기능을 원활하게 활용할 수 있습니다.
+Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR?lang=kr) 는 Experience Platform의 데이터 레이크에서 사용할 수 있는 데이터에 대한 SQL 인터페이스입니다. 포함 [!DNL Customer Journey Analytics SQL Connector] 활성화됨, 의 기능 [!DNL Query Service] 를 확장하여 Customer Journey Analytics 데이터 보기를 테이블 또는 뷰로 [!DNL Query Service] 세션. 따라서 다음을 사용하는 비즈니스 인텔리전스 도구 [!DNL Query Service] PostgresSQL 인터페이스가 이 확장된 기능을 원활하게 활용할 수 있습니다.
 
 주요 이점은 다음과 같습니다.
 
-- BI 도구 자체 내에서 CJA 데이터 보기의 동등한 표현을 다시 만들 필요가 없습니다. <br/>다음을 참조하십시오 [데이터 보기](data-views.md) 를 참조하십시오.<br/>
+- BI 도구 자체 내에서 Customer Journey Analytics 데이터 보기의 동등한 표현을 다시 만들 필요가 없습니다. <br/>다음을 참조하십시오 [데이터 보기](data-views.md) 를 참조하십시오.<br/>
 
-- BI 도구와 CJA 간의 보고 및 분석의 일관성 향상.
+- BI 도구와 Customer Journey Analytics 간 보고 및 분석의 일관성 향상.
 
-- CJA 데이터를 BI 도구에서 이미 사용 가능한 다른 데이터 소스와 결합합니다.
+- Customer Journey Analytics 데이터를 BI 도구에서 이미 사용 가능한 다른 데이터 소스와 결합합니다.
 
 ## 사전 요구 사항
 
 이 기능을 사용하려면 다음을 수행해야 합니다
 
-<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
+<!---   Enable the [!UICONTROL Customer Journey Analytics SQL Connector] in your Experience Platform organization. -->
 
 - 관련 제품 프로필, 사용자 그룹 및/또는 개별 사용자에 대한 기능을 구성합니다.<br/>
 사용자는 다음에 대한 액세스 권한이 있어야 합니다.
    - Experience Platform 쿼리 서비스,
-   - CJA 작업 공간 프로젝트 및
-   - CJA 데이터 보기를 사용할 수 있습니다.
+   - Customer Journey Analytics 작업 공간 프로젝트 및
+   - Customer Journey Analytics 데이터 보기를 사용할 수 있습니다.
 
-- 만료되지 않는 자격 증명의 만료일을 사용하여 BI 도구를 CJA SQL Connector에 연결합니다. Thr [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 만료 자격 증명 또는 만료되지 않는 자격 증명 설정에 대한 자세한 내용을 제공합니다.
+- 만료되지 않는 자격 증명의 만료일을 사용하여 BI 도구를 Customer Journey Analytics SQL 커넥터에 연결합니다. Thr [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 만료 자격 증명 또는 만료되지 않는 자격 증명 설정에 대한 자세한 내용을 제공합니다.
 
-다음을 참조하십시오 [액세스 제어](../admin/cja-access-control.md) 자세한 내용은 CJA 관리 섹션 을 참조하십시오.
+다음을 참조하십시오 [액세스 제어](../admin/cja-access-control.md) 자세한 내용은 Customer Journey Analytics 관리 섹션을 참조하십시오.
 
 
 ## 사용
 
-을(를) 사용하려면 [!DNL CJA SQL Connector] 기능을 사용하면 SQL을 직접 사용하거나 특정 BI 도구에서 사용할 수 있는 끌어서 놓기 환경을 사용할 수 있습니다.
+을(를) 사용하려면 [!DNL Customer Journey Analytics SQL Connector] 기능을 사용하면 SQL을 직접 사용하거나 특정 BI 도구에서 사용할 수 있는 끌어서 놓기 환경을 사용할 수 있습니다.
 
 ### SQL
 
@@ -89,7 +89,7 @@ Experience Platform UI에서
 
 ### BI 도구
 
-현재 CJA SQL Connector는 Power BI 및 Tableau에 대해서만 지원 및 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구도 작동할 수 있지만 아직 공식적으로 지원되지 않습니다.
+현재 Customer Journey Analytics SQL 커넥터는 Power BI 및 Tableau에 대해서만 지원 및 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구도 작동할 수 있지만 아직 공식적으로 지원되지 않습니다.
 
 +++ Power BI
 
@@ -120,7 +120,9 @@ Experience Platform UI에서
       3. 을 묻는 메시지가 표시되면 **[!UICONTROL **&#x200B;데이터 연결&#x200B;**]** 모드, 선택 **[!UICONTROL ** DirectQuery **]** 데이터 구조가 올바르게 병합되도록 합니다.
 
       4. 을 묻는 메시지가 표시됩니다. **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 및 **[!UICONTROL **&#x200B;암호&#x200B;**]**. Experience Platform 쿼리에서 동등한 매개 변수 사용 [!UICONTROL 자격 증명].
-   5. 로그인에 성공하면 CJA 데이터 보기 테이블이 Power BI의 **[!UICONTROL **&#x200B;네비게이터&#x200B;**]**. 데이터 보기 테이블은 다음을 사용하여 식별됩니다 `dv_` 그들의 이름으로.
+
+
+   5. 로그인에 성공하면 Customer Journey Analytics 데이터 보기 테이블이 Power BI의 **[!UICONTROL **&#x200B;네비게이터&#x200B;**]**. 데이터 보기 테이블은 다음을 사용하여 식별됩니다 `dv_` 그들의 이름으로.
 
 
    6. 사용할 데이터 보기 테이블을 선택하고 **[!UICONTROL **&#x200B;로드&#x200B;**]**.
@@ -164,7 +166,8 @@ Experience Platform UI에서
       6. 붙여넣기 **[!UICONTROL **&#x200B;암호&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상 **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드.
 
       7. 선택 **[!UICONTROL **&#x200B;로그인&#x200B;**]**.
-   4. CJA 데이터 보기는 **[!UICONTROL **&#x200B;표&#x200B;**]** 목록을 표시합니다. 데이터 보기 테이블 접두사가 있습니다. `dv_`.
+
+   4. Customer Journey Analytics 데이터 보기는 **[!UICONTROL **&#x200B;표&#x200B;**]** 목록을 표시합니다. 데이터 보기 테이블 접두사가 있습니다. `dv_`.
 
    5. 캔버스에서 사용할 테이블을 드래그합니다.
 
@@ -184,9 +187,9 @@ Experience Platform UI에서
 
 ### 데이터 거버넌스
 
-Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. CJA와 Adobe Experience Platform 데이터 거버넌스 간의 통합을 통해 민감한 CJA 데이터의 레이블 지정 및 개인정보 처리방침 시행이 가능합니다.
+Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. Customer Journey Analytics과 Adobe Experience Platform 데이터 거버넌스 간의 통합을 통해 민감한 Customer Journey Analytics 데이터의 레이블 지정 및 개인정보 처리방침 시행을 수행할 수 있습니다.
 
-Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 CJA 데이터 보기 워크플로에 표시될 수 있습니다. 따라서 CJA SQL Connector를 사용하여 쿼리한 데이터는 정의된 개인정보 보호 레이블 및 정책을 준수하지 않을 때 적절한 경고나 오류를 표시합니다.
+Experience Platform이 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로우에 표시될 수 있습니다. 따라서 Customer Journey Analytics SQL Connector를 사용하여 쿼리한 데이터는 정의된 개인 정보 레이블 및 정책을 준수하지 않을 때 적절한 경고 또는 오류를 표시합니다.
 
 ### 목록 데이터 보기
 
@@ -233,7 +236,7 @@ prod:all=> \dv
 | 지표 합계 | <pre>SUM(metric1) 을 M1 로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의</pre> |
 | 다차원<br/>분류<br/>및 상위 차이점 | <pre>dim1, dim2, SUM(metric1) 을 m1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>GROUP BY DIM1, dim2</pre><pre>dim1, dim2, SUM(metric1) 을 m1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>그룹화 기준 1, 2<br/>정렬 기준: 1, 2</pre><pre>고유 치수1, 치수2 선택<br/>DV1에서</pre> |
 | 하위 선택:<br/>추가 결과<br/>필터링 | <pre>dim1, m1 선택<br/>출처: (<br/>  dim1, SUM(metric1) 을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의</br>  DIM1로 그룹화<br/>)<br/>위치 dim1(&#39;A&#39;, &#39;B&#39;)</pre> |
-| 하위 선택:<br/>다음으로 가입<br/>데이터 세트가 다음에 없음<br/>CJA | <pre>b.key, a.dim1, a.m1 선택<br/>출처: (<br/>  dim1, SUM(metric1) 을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/>) a<br/>a.dim1 = b.key의 LEFT JOIN 조회 b</pre> |
+| 하위 선택:<br/>다음으로 가입<br/>데이터 세트가 다음에 없음<br/>Customer Journey Analytics | <pre>b.key, a.dim1, a.m1 선택<br/>출처: (<br/>  dim1, SUM(metric1) 을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/>) a<br/>a.dim1 = b.key의 LEFT JOIN 조회 b</pre> |
 | 하위 선택:<br/>쿼리 대상<br/>데이터 보기 | <pre>키, SUM(m1)을 합계로 선택<br/>출처: (<br/>  DIM1 AS KEY, SUM(metric1) AS m1 을 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/><br/>  결합<br/><br/>  DIM2를 키로, SUM(m1)을 m1로 선택<br/>  DV2에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM2로 그룹화<br/>키로 그룹화<br/>합계별 주문</pre> |
 | 하위 선택: <br/>계층화된 소스, <br/>필터링, <br/>및 집계 | 하위 선택을 사용하여 계층화:<br><pre>rows.dim1, SUM(rows.m1)을 합계로 선택합니다.<br/>출처: (<br/>  \_.dim1,\_.m1 선택<br/>  출처: (<br/>    DV1에서 \* 선택<br/>    여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  ) \_<br/>  여기서 \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) 행<br/>그룹화 기준 1<br/>합계별 주문</pre><br/>CTE를 사용하는 레이어:<br/><pre>((으)로 행 포함<br/>  \_ AS (<br/>    DATA_ARES에서 * 선택<br/>    여기서 \`timestamp\`는 &#39;2021-01-01&#39;과 &#39;2021-02-01&#39; 사이입니다.<br/>  )<br/>  _에서 _.item, _.units 선택<br/>  여기서 _.item 은 NULL 이 아닙니다.<br/>)<br/>rows.item, SUM(rows.units)을 단위로 선택<br/>(&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)의 rows.item이 있는 행에서<br/>행별 그룹화.항목</pre> |
 | 다음 위치를 선택합니다.<br/>다음 항목 앞에 지표 표시<br/> 또는 와 혼합되어 있습니다.<br/>차원 | <pre>SUM(metric1) 을 M1, dim1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>그룹화 기준 2</pre> |
@@ -268,7 +271,7 @@ prod:all=> \dv
 
 #### 계산 차이점
 
-CJA 작동 방식의 기본 특성으로 인해 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 입니다. `adobe_personid` 차원. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우 대략적인 고유 수가 반환됩니다.
+Customer Journey Analytics 작동 방식의 기본 특성으로 인해 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 입니다. `adobe_personid` 차원. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우 대략적인 고유 수가 반환됩니다.
 
 #### 조건부 지표
 

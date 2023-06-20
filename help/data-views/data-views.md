@@ -1,13 +1,13 @@
 ---
 title: 데이터 보기 개요
-description: 데이터 보기는 CJA 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
+description: 데이터 보기는 Customer Journey Analytics 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 ## 데이터 보기의 기능 {#capabilities}
 
-데이터 보기를 사용하면 Adobe Experience Platform에서 스키마를 변경하거나 CJA 환경을 다시 구현할 필요 없이 스키마 요소 설정을 즉시 변경할 수 있습니다.
+데이터 보기를 사용하면 Adobe Experience Platform에서 스키마를 변경하거나 Customer Journey Analytics 환경을 다시 구현할 필요 없이 스키마 요소 설정을 즉시 변경할 수 있습니다.
 
 * **구성 요소를 지표에서 차원으로 변경할 수 있으며 그 반대의 경우도 가능합니다**. 문자열 필드에서 지표를 생성하거나 숫자 필드에서 차원을 생성할 수 있습니다. 원하는 모든 지표에 대해 XDM 스키마에 숫자 필드를 만들 필요가 없기 때문에 작업이 더 쉬워집니다. 대신 데이터 보기 대화 상자에서 직접 생성할 수 있습니다. 여기 몇 가지 예가 있습니다.
    * **단일 스키마 필드에서 하나 이상의 차원을 만듭니다**. 이는 일대다 관계입니다. 예를 들어 단일 스키마 필드에서 하나 이상의 매출 지표 및/또는 하나 이상의 매출 차원을 생성할 수 있습니다.

@@ -4,10 +4,10 @@ description: 문자열의 하위 집합을 차원 항목으로 사용합니다.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 95%
+source-wordcount: '905'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ URL이 포함된 필드와 함께 사용합니다. 예제 URL `https://example.c
 * **[!UICONTROL 출력 형식]**: 텍스트를 추가하거나 정규 표현식 하위 그룹 출력을 재정렬할 수 있는 선택 필드입니다. 이 필드가 비어 있으면 문자열 출력은 평가된 정규 표현식입니다.
 * **[!UICONTROL 대소문자 구분]**: 활성화되면 정규 표현식이 대소문자를 구분하도록 하는 확인란입니다.
 
-CJA는 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 입력이 정규 표현식과 일치하지 않고 **[!UICONTROL 출력 형식]**&#x200B;이 비어 있으면 [값 옵션 없음](no-value-options.md)이 적용됩니다. 지원되는 표현식은 다음과 같습니다.
+Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 입력이 정규 표현식과 일치하지 않고 **[!UICONTROL 출력 형식]**&#x200B;이 비어 있으면 [값 옵션 없음](no-value-options.md)이 적용됩니다. 지원되는 표현식은 다음과 같습니다.
 
 | 표현식 | 설명 |
 | --- | --- |

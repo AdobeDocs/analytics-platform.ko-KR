@@ -2,10 +2,10 @@
 title: AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터
 description: Analytics 소스 커넥터가 Adobe Analytics ID 필드를 어떤 방식으로 처리하는지 알아봅니다.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '571'
+ht-degree: 91%
 
 ---
 
@@ -51,6 +51,6 @@ identityMap 내:
 그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
 * AACUSTOMID는 이벤트의 기본 ID로 표시되지 않습니다. 단, AACUSTOMID가 있으면 AAID는 위의 설명에 따라 AACUSTOMID를 기반으로 합니다.
 
-## CJA 및 기본 ID
+## Customer Journey Analytics 및 기본 ID
 
-CJA에 관한 한, 기본 ID의 정의는 기본 ID를 개인 ID로 사용하기로 결정한 경우에만 중요합니다. 단, 반드시 필요한 것은 아닙니다. 다른 ID 열을 개인 ID로 선택할 수 있습니다.
+Customer Journey Analytics에 관한 한, 기본 ID의 정의는 기본 ID를 개인 ID로 사용하기로 결정한 경우에만 중요합니다. 단, 반드시 필요한 것은 아닙니다. 다른 ID 열을 개인 ID로 선택할 수 있습니다.
