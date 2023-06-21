@@ -1,9 +1,10 @@
 ---
 title: 안내식 분석 개요
 description: 제품 팀이 보고서와 통찰력을 쉽게 생성할 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다.
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
+source-git-commit: e2020d9194f7885f80671214829f06245bbab328
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -17,10 +18,6 @@ ht-degree: 1%
 Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 분석 보고서는 [데이터 보기](../data-views/data-views.md): 를 통해 Adobe Experience Platform의 데이터를 참조합니다. [연결](../connections/overview.md). 가이드 분석에서 만든 모든 보고서는 추가 조사를 위해 Analysis Workspace으로 원활하게 전송할 수 있습니다.
 
 안내식 분석 보고서에는 현재 세 가지 분석 유형이 있습니다. [단계](analysis-types/funnel.md), [트렌드](analysis-types/trends.md), 및 [사용자 증가](analysis-types/user-growth.md). 이러한 각 분석 유형에는 이러한 각 보고서에 추가적인 통찰력을 제공하는 여러 보기 유형이 있습니다.
-
-## 프로비저닝
-
-가이드 분석은 Customer Journey Analytics에 대한 유료 추가 기능입니다. 조직에서 이 기능을 사용하려면 Adobe 계정 팀에 문의하십시오.
 
 ## 인터페이스
 
@@ -45,7 +42,9 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 
 {style="table-layout:auto"}
 
-## 권한
+## 프로비저닝
+
+안내식 분석은 Adobe Product Analytics에 대한 유료 추가 기능인 Customer Journey Analytics의 일부입니다. 조직에서 이 기능을 사용하려면 Adobe 계정 팀에 문의하십시오.
 
 Adobe은 향후 가이드 분석에 대한 권한을 제공할 계획입니다.
 
