@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 84%
+source-wordcount: '2161'
+ht-degree: 83%
 
 ---
 
@@ -130,7 +130,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 >[!NOTE]
 >Customer Journey Analytics에 고정 데이터 크기가 없으므로 Adobe은 표준 수집 시간을 약속할 수 없습니다. 당사는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
-+++**[!UICONTROL Adobe Experience Platform]에서 [!UICONTROL Customer Journey Analytics]의 예상 대기 시간은 어떻게 됩니까?**
++++**다음에 대한 예상 지연 시간은 얼마입니까? [!UICONTROL Customer Journey Analytics] 다음에 대한 데이터 [!UICONTROL Adobe Experience Platform]?**
 
 <ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 7일 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul>
 
@@ -171,7 +171,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 | [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 하나로 결합하는 경우 [!UICONTROL 조회] 데이터 세트에서 문제가 발생할 수 있습니다. |
 
 
-## 8. 기존 [!UICONTROL Adobe Analytics] 구성 요소
+## 8. [!UICONTROL Adobe Analytics] 구성 요소
 
 
 +++**[!UICONTROL 에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 ]필터[!UICONTROL (]세그먼트[!DNL Customer Journey Analytics])를 공유/게시할 수 있습니까?**
@@ -183,7 +183,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++**이전 [!UICONTROL eVar] 설정은 어떻게 됩니까?**
 
-기존 Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL prop], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다.
+[!UICONTROL eVar], [!UICONTROL prop], 및 [!UICONTROL events] Adobe Analytics 의미에서에 더 이상 존재하지 않음 [!UICONTROL Customer Journey Analytics]. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다.
 
 +++
 
