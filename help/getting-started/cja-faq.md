@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
+source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 83%
+source-wordcount: '2217'
+ht-degree: 72%
 
 ---
 
@@ -132,7 +132,13 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++**다음에 대한 예상 지연 시간은 얼마입니까? [!UICONTROL Customer Journey Analytics] 다음에 대한 데이터 [!UICONTROL Adobe Experience Platform]?**
 
+최근에 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
+
+**이전 방식:**
 <ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 7일 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul>
+
+**새로운 방법(2023년 6월 현재)**
+<ul><li>타임스탬프가 24시간 미만인 모든 이벤트 데이터가 스트리밍됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우에도)는 채우기로 간주되고 우선 순위가 낮은 상태로 수집됩니다.</li></ul>
 
 +++
 
@@ -153,9 +159,9 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 | [!UICONTROL Adobe Experience Platform] 데이터 레이크에서 데이터 세트 삭제 | Adobe Experience Platform 데이터 레이크에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 모든 Customer Journey Analytics 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 세트의 모든 데이터는 연관된 Customer Journey Analytics 연결에서 자동으로 삭제됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트 삭제 | 저장된 연결 내에서 데이터 세트를 삭제하는 프로세스를 진행하려면 Adobe 계정 팀에 문의하십시오. |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | 에서 일괄 처리가 삭제되는 경우 [!UICONTROL Adobe Experience Platform] 데이터 세트, 해당 특정 일괄 처리가 들어 있는 모든 Customer Journey Analytics 연결에서 동일한 일괄 처리가 제거됩니다.  Customer Journey Analytics은 의 일괄 삭제 알림을 받습니다. [!UICONTROL Adobe Experience Platform]. |
-| 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 처리가 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
-| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
-| [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
+| 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 처리가 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]. |
+| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지는 다음을 나타냅니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul> |
+| [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트가 작동하지 않는다는 오류 메시지가 표시됩니다. |
 
 ## 7. Customer Journey Analytics에서 보고서 세트 병합 시 고려 사항 {#merge-reportsuite}
 
@@ -170,16 +176,13 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 | [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 필터] [!UICONTROL 속성] 등에 영향을 미칩니다. 번호가 제대로 추가될 수 없습니다. |
 | [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 하나로 결합하는 경우 [!UICONTROL 조회] 데이터 세트에서 문제가 발생할 수 있습니다. |
 
-
 ## 8. [!UICONTROL Adobe Analytics] 구성 요소
 
-
-+++**[!UICONTROL 에서 Experience Platform 통합 프로필 또는 기타 Experience Cloud 애플리케이션으로 ]필터[!UICONTROL (]세그먼트[!DNL Customer Journey Analytics])를 공유/게시할 수 있습니까?**
++++**공유/게시 가능 [!UICONTROL 필터] 출처: [!DNL Customer Journey Analytics] Real-Time CDP 또는 기타 Experience Cloud 애플리케이션을 Experience Platform**
 
 아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다.
 
 +++
-
 
 +++**이전 [!UICONTROL eVar] 설정은 어떻게 됩니까?**
 
@@ -187,13 +190,11 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++
 
-
 +++**모든 세션 및 변수 지속성 설정은 현재 어디에 있습니까?**
 
-[!UICONTROL Customer Journey Analytics]의 경우 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이제 이러한 설정을 변경하면 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 보유할 수 있습니다.
+[!UICONTROL Customer Journey Analytics] 이러한 모든 설정은 보고서 시간에 적용되며 데이터 보기에 있습니다. 이러한 설정에 대한 변경 사항은 이제 소급 적용되며, 여러 데이터 보기를 사용하여 여러 버전을 가질 수 있습니다!
 
 +++
-
 
 +++**기존 세그먼트/계산된 지표는 어떻게 됩니까?**
 
@@ -201,13 +202,11 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++
 
-
 +++**[!UICONTROL Customer Journey Analytics]는 `Uniques Exceeded` 제한 사항을 어떻게 처리합니까?**
 
 [!UICONTROL Customer Journey Analytics에는 고유 값 제한이 없으므로 걱정할 필요가 없습니다.]
 
 +++
-
 
 +++**기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까?**
 
@@ -229,10 +228,10 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 경우에 따라 연결에서 수집된 총 이벤트 수가 [!UICONTROL Adobe Experience Platform]의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 예에서 데이터 세트 &quot;B2B 노출 횟수&quot;에는 7650개의 행이 있지만 데이터 세트에 [!UICONTROL Adobe Experience Platform]의 3830개의 행이 포함됩니다. 불일치 발생에는 몇 가지 이유가 있으며 다음 단계를 수행하여 진단할 수 있습니다.
 
-1. 이 차원을 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;로 분류하면 크기가 같지만 다른 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;를 사용하는 데이터 세트가 2개 있음을 알 수 있습니다. 각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 개인 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]에서 5개의 레코드를 무시했습니다.
+1. 이 차원 분류 기준 **[!UICONTROL 플랫폼 데이터 세트 ID]** 크기가 같지만 다른 데이터 세트가 두 개 있음을 알 수 있습니다 **[!UICONTROL 플랫폼 데이터 세트 ID]**. 각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 개인 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]에서 5개의 레코드를 무시했습니다.
 
    ![분류](assets/data-size2.png)
 
-2. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없습니다. 나중에 Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
+2. 그리고 체크인하면 [!UICONTROL Adobe Experience Platform], ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없으므로 누군가 이 특정 데이터 세트를 다음에서 삭제했습니다. [!UICONTROL Adobe Experience Platform] 초기 연결이 생성된 때입니다. 나중에 다시 Customer Journey Analytics에 추가되었지만 다른 기능이 추가되었습니다 [!UICONTROL 플랫폼 데이터 세트 ID] 다음에 의해 생성됨: [!UICONTROL Adobe Experience Platform].
 
 [!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.

@@ -4,16 +4,16 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2056'
 ht-degree: 41%
 
 ---
 
-# Customer Journey Analytics 기능 지원
+# Adobe Customer Journey Analytics 기능 지원
 
-다음 표에는 Customer Journey Analytics(Customer Journey Analytics)에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능과, Adobe Analytics에서 지원되거나 사용할 수 없는 Customer Journey Analytics의 기능이 나열되어 있습니다. 이러한 목록은 Customer Journey Analytics에 추가되므로 시간이 지남에 따라 변경됩니다.
+다음 표에는 Adobe Analytics에서 지원되거나, 부분적으로 지원되거나, Customer Journey Analytics에서 지원되지 않는 기능과, Adobe Analytics에서 지원되거나 사용할 수 없는 Customer Journey Analytics 기능이 나열되어 있습니다. 이러한 목록은 Customer Journey Analytics에 추가되므로 시간이 지남에 따라 변경됩니다.
 
 ## 완전히 지원되는 기능/구성 요소 {#full-support}
 
@@ -56,6 +56,7 @@ ht-degree: 41%
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics으로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | 다음을 사용하여 지원됨 [하위 문자열](/help/data-views/component-settings/substring.md) Customer Journey Analytics. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
 | 사용자 정의 세션 | 모바일 배경 이벤트를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
+| 통화 전환 | 의 일부로 지원됨 [지표 구성 요소 서식 지정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) 데이터 보기에서 다음을 수행합니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 고객 속성 | Experience Cloud 이제 &quot;프로필 데이터 세트&quot;라고 하며, 프로필에서 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 Experience Platform에 업로드해야 합니다. |
 | 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 및 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 이러한 옵션은 Experience Platform 데이터 레이크로 수집되거나 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 쿼리 시간에 사후 열이 계산되므로 사후 프로세스 데이터 열을 사용할 수 없습니다. 보고를 통해 이후 열의 내보내기를 사용할 수 있습니다. |
@@ -70,7 +71,7 @@ ht-degree: 41%
 | Report Builder (Excel 플러그인) | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics은 다음을 구별합니다. [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자, 제품 프로필 관리자 및 사용자. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
 | 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | Web SDK 기반 데이터 세트와 Analytics 데이터 커넥터의 데이터 모두에 대해 Adobe Experience Platform 데이터 준비 기능을 사용하여 지원됩니다. |
-| 마케팅 채널 | Analytics 소스 커넥터를 사용하면 마케팅 채널 데이터가 해당 커넥터를 통해 Customer Journey Analytics으로 전송됩니다. 마케팅 채널 규칙은 기존 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 다음을 참조하십시오. [Customer Journey Analytics 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html). <br/>Web SDK 구현의 경우 다음을 통해 보고서 시간 마케팅 채널 처리 규칙이 지원됩니다. [파생 필드](../../data-views/derived-fields/derived-fields.md). |
+| 마케팅 채널 | Analytics 소스 커넥터를 사용하면 마케팅 채널 데이터가 해당 커넥터를 통해 Customer Journey Analytics으로 전송됩니다. 마케팅 채널 규칙은 기존 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 다음을 참조하십시오. [Customer Journey Analytics 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html). <br/>WebSDK 구현의 경우 다음을 통해 보고서 시간 마케팅 채널 처리 규칙이 지원됩니다. [파생 필드](../../data-views/derived-fields/derived-fields.md). |
 
 {style="table-layout:auto"}
 
@@ -99,7 +100,6 @@ ht-degree: 41%
 | 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
-| 통화 전환 | 지원이 예정되어 있습니다. |
 | 거래 ID 데이터 소스 | 지원이 예정되어 있습니다. |
 | 프로젝트/필터/계산된 지표를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 | 지원이 예정되어 있습니다. |
 | 요약 수준 데이터 소스 | 지원이 예정되어 있습니다. |
@@ -115,7 +115,7 @@ ht-degree: 41%
 
 {style="table-layout:auto"}
 
-## 지원 안 함 {#never}
+## 지원되지 않음 {#never}
 
 * 크로스 디바이스 조합을 사용하는 사용자 지표
 * Reports &amp; Analytics 대시보드

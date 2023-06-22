@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
+source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 73%
+source-wordcount: '1426'
+ht-degree: 69%
 
 ---
 
 # 최신 Adobe Customer Journey Analytics 릴리스 정보 (2023년 6월)
 
-**마지막 업데이트**: 2023년 6월 21일
+**마지막 업데이트**: 2023년 6월 22일
 
 Adobe Customer Journey Analytics 릴리스는 [연속 게재 모델](releases.md) 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -56,7 +56,7 @@ AN-318343; AN-319453
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 |
+| Customer Journey Analytics의 데이터 처리 방법 변경 | 2023년 6월 22일 | 최근에 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.<p>**이전 방식:**<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 > 5천만 행: 90분 이상.)</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 7일 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul>**새로운 방법(2023년 6월 현재)**<ul><li>타임스탬프가 24시간 미만인 모든 이벤트 데이터가 스트리밍됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우에도)는 채우기로 간주되고 우선 순위가 낮은 상태로 수집됩니다.</li></ul> |
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
