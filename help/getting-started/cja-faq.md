@@ -4,9 +4,9 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: eb05f22fdef55147da3bb84ba038f52ee7769167
+source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2199'
 ht-degree: 72%
 
 ---
@@ -132,7 +132,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++**다음에 대한 예상 지연 시간은 얼마입니까? [!UICONTROL Customer Journey Analytics] 다음에 대한 데이터 [!UICONTROL Adobe Experience Platform]?**
 
-<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기 - 예: 천만 행의 조회 데이터 세트: 7일 이내<li>대규모 채우기 - 예: 5000억 행: 30일</li></ul>
+<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기: 7일 이내<li>대용량 다시 채우기: 30일 이내</li></ul>
 
 최근에 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
