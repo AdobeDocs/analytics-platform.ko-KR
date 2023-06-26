@@ -4,9 +4,9 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
+source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
 workflow-type: tm+mt
-source-wordcount: '2199'
+source-wordcount: '2185'
 ht-degree: 72%
 
 ---
@@ -130,15 +130,11 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 >[!NOTE]
 >Customer Journey Analytics에 고정 데이터 크기가 없으므로 Adobe은 표준 수집 시간을 약속할 수 없습니다. 당사는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
-+++**다음에 대한 예상 지연 시간은 얼마입니까? [!UICONTROL Customer Journey Analytics] 다음에 대한 데이터 [!UICONTROL Adobe Experience Platform]?**
-
 <ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기: 7일 이내<li>대용량 다시 채우기: 30일 이내</li></ul>
 
 최근에 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
 <ul><li>타임스탬프가 24시간 미만인 모든 이벤트 데이터가 스트리밍됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우에도)는 채우기로 간주되고 우선 순위가 낮은 상태로 수집됩니다.</li></ul>
-
-+++
 
 ## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
