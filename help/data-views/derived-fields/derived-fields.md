@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cc33257a04214ba786d7e5510a1b6bc618a84883
 workflow-type: tm+mt
-source-wordcount: '3262'
+source-wordcount: '3281'
 ht-degree: 8%
 
 ---
@@ -761,4 +761,5 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 일반적으로 파생된 필드 기능에는 다음 제한이 적용됩니다.
 
 - 파생 필드에 대한 규칙을 정의할 때 최대 10개의 서로 다른 스키마 필드(표준 필드는 포함하지 않음)를 사용할 수 있습니다.
+   - 최대 10개의 서로 다른 스키마 필드에서 최대 3개의 조회 스키마 또는 프로필 스키마 필드만 허용됩니다.
 - Customer Journey Analytics 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
