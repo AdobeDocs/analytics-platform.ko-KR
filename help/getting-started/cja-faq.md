@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 자주 묻는 질문
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 72%
+source-wordcount: '2197'
+ht-degree: 68%
 
 ---
 
@@ -38,39 +38,40 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 +++
 
 
-## 2. 데이터 결합 (교차 채널 분석) {#stitching}
+## 2. 데이터 결합 {#stitching}
 
 +++**[!UICONTROL Customer Journey Analytics]를 디바이스 또는 데이터 세트 간에 “결합”할 수 있습니까?**
 
-예. [!UICONTROL Customer Journey Analytics]에는 CCA([교차 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR))이라고 하는 결합 솔루션이 있습니다. 이 솔루션을 사용하여 데이터 세트의 개인 ID에 대해 다시 키를 입력할 수 있으므로 여러 데이터 세트를 매끄럽게 결합할 수 있습니다.
+예. [!UICONTROL Customer Journey Analytics] 이(가) [결합](../stitching/overview.md) 데이터 세트 내의 인증된 이벤트와 인증되지 않은 이벤트에서 작동하는 기능입니다. 이렇게 하면 개인 수준에서 교차 장치 분석을 위해 단일 결합 ID에 대한 개별 레코드 문제를 해결할 수 있습니다.
+또한 공통의 네임스페이스 ID(개인 ID)가 [연결](/help/connections/overview.md), 개인 수준에서 &quot;결합&quot;된 여러 데이터 세트의 매끄러운 결합에 대한 분석을 실행할 수 있습니다.
 
 +++
 
 
 +++**익명 동작에서 인증 동작으로 결합하는 작업이 지원됩니까?**
 
-예. [교차 채널 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다.
+예. [결합](../stitching/overview.md) 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 결합된 ID를 생성합니다.
 
 +++
 
 
-+++**CCA에서 “재생”은 어떻게 작동합니까?**
++++**&#39;재생&#39;은 결합에서 어떻게 작동합니까?**
 
-CCA는 학습한 고유 식별자를 기반으로 데이터를 “재생”합니다. 재생으로 인해 연결에 새 디바이스가 결합됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=ko-KR#step-1%3A-live-stitching)
+스티칭은 학습한 고유 식별자를 기반으로 데이터를 &quot;재생&quot;합니다. 재생 은 그동안 식별된 디바이스에서 처음에 인증되지 않은 이벤트를 결합하는 것을 목표로 합니다. [자세히 알아보기](../stitching/explained.md)
 
 +++
 
 
-+++**CCA에서 내역 데이터(채우기)의 결합은 어떻게 작동합니까?**
++++**내역 데이터(채우기)의 결합은 어떻게 작동합니까?**
 
-처음 켜질 때 Adobe에서 이전 달의 시작 시점(최대 60일)까지 포함하는 결합된 데이터 채우기를 제공합니다. 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR#enable-cross-channel-analytics)
+처음 켜질 때 Adobe에서 이전 달의 시작 시점(최대 60일)까지 포함하는 결합된 데이터 채우기를 제공합니다. 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](../stitching/explained.md)
 
 +++
 
 
 +++**연결되지 않은 프로필 데이터 세트 레코드에 대한 예상 동작은 무엇입니까?**
 
-**예시 상황**: 를 사용하여 Customer Journey Analytics 연결에서 2개의 데이터 세트를 결합합니다 `CRMid` 개인 ID로. 하나는 모든 레코드에서 `CRMid`를 가진 웹 이벤트 데이터 세트입니다. 다른 데이터 세트는 CRM 프로필 데이터 세트입니다. CRM 데이터 세트의 40% 가 `CRMid` 웹 이벤트 데이터 세트에 있습니다. 다른 60%는 웹 이벤트 데이터 세트에 없습니다. 이들 레코드가 Analysis Workspace의 보고에 표시됩니까?<p> **답변**: 연결된 이벤트가 없는 프로필 행은 Customer Journey Analytics에 저장됩니다. 단, 해당 ID에 연결된 이벤트가 나타날 때까지 Analysis Workspace에서 이를 조회할 수 없습니다.
+**예시 상황**: 를 사용하여 Customer Journey Analytics 연결에서 2개의 데이터 세트를 결합합니다 `CRMid` 개인 ID로. 하나는 모든 레코드에서 `CRMid`를 가진 웹 이벤트 데이터 세트입니다. 다른 하나는 CRM 프로필 데이터 세트입니다. CRM 데이터 세트의 40%가 웹 이벤트 데이터 세트에 있는 `CRMid`를 갖습니다. 다른 60%는 웹 이벤트 데이터 세트에 없습니다. 이들 레코드가 Analysis Workspace의 보고에 표시됩니까?<p> **답변**: 연결된 이벤트가 없는 프로필 행은 Customer Journey Analytics에 저장됩니다. 단, 해당 ID에 연결된 이벤트가 나타날 때까지 Analysis Workspace에서 이를 조회할 수 없습니다.
 
 +++
 
@@ -226,6 +227,6 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
    ![분류](assets/data-size2.png)
 
-2. 그리고 체크인하면 [!UICONTROL Adobe Experience Platform], ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없으므로 누군가 이 특정 데이터 세트를 다음에서 삭제했습니다. [!UICONTROL Adobe Experience Platform] 초기 연결이 생성된 때입니다. 나중에 다시 Customer Journey Analytics에 추가되었지만 다른 기능이 추가되었습니다 [!UICONTROL 플랫폼 데이터 세트 ID] 다음에 의해 생성됨: [!UICONTROL Adobe Experience Platform].
+1. 그리고 체크인하면 [!UICONTROL Adobe Experience Platform], ID가 &quot;5f21c12b732044194bffc1d0&quot;인 데이터 세트가 없으므로 누군가 이 특정 데이터 세트를 다음에서 삭제했습니다. [!UICONTROL Adobe Experience Platform] 초기 연결이 생성된 때입니다. 나중에 다시 Customer Journey Analytics에 추가되었지만 다른 기능이 추가되었습니다 [!UICONTROL 플랫폼 데이터 세트 ID] 다음에 의해 생성됨: [!UICONTROL Adobe Experience Platform].
 
 [!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.

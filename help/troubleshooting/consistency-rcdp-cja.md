@@ -4,9 +4,9 @@ title: Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상 멤�
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 25%
 
 ---
@@ -22,7 +22,7 @@ Real-Time CDP와 Customer Journey Analytics 간의 대상 멤버십을 비교할
 
 Real-Time CDP와 Customer Journey Analytics은 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [아이덴티티 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=ko-KR)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
 
-Customer Journey Analytics은 다음을 사용하도록 구성할 수 있습니다. [크로스 채널 분석](/help/cca/overview.md) 는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 로직을 적용하여 서로 연결합니다.
+Customer Journey Analytics은 다음을 사용하도록 구성할 수 있습니다. [결합](../stitching/overview.md) 는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 로직을 적용하여 서로 연결합니다.
 
 앞으로 Customer Journey Analytics은 ID 그래프를 사용할 수 있습니다.
 

@@ -4,9 +4,9 @@ description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '905'
 ht-degree: 65%
 
 ---
@@ -47,7 +47,7 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 >[!NOTE]
 >
->이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 크로스 채널 분석이 켜져 있는 경우 Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
+>이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 스티칭이 켜져 있는 경우, Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
 
 1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 
