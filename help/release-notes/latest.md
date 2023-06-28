@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d48ff9810ac7f2c194e959ab5deb492238362650
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 69%
+source-wordcount: '1435'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,7 @@ Adobe Customer Journey Analytics 릴리스는 [연속 게재 모델](releases.md
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **크로스 채널 분석 및 결합 설명서 업데이트** | 결합을 활성화하고 결합을 사용하여 크로스 채널 분석을 높이는 방법을 더 명확하게 하기 위해 예정된 변경 사항을 예상하여 크로스 채널 분석 기능 관련 설명서를 다음과 같이 편집합니다. [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) Customer Journey Analytics 기능 및 사용 사례로, [결합](../stitching/overview.md) 을(를) 수행하는 중요한 기능입니다. | 2023년 6월 28일 | 2023년 6월 28일 |
 | **지능형 캡션** | [!UICONTROL 라인] 시각화의 자연어 요약으로 사용자를 위한 스토리텔링을 풍부하게 합니다. [자세히 알아보기](/help/analysis-workspace/visualizations/intelligent-captions.md) | 2023년 5월 17일 | 2023년 6월 1일 |
 | **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사용자 또는 Adobe Analytics용으로 프로비저닝되지 않은 조직 내의 사용자와의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link) <p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 6일 |
 | **파생 필드** | 이는 파생 필드의 초기 릴리스를 나타냅니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 또한 데이터 보기에서 파생 필드를 구성 요소(지표 또는 차원)로 정의한 다음 Workspace에서 파생 필드를 구성 요소로 사용할 수 있습니다.<p>이 릴리스는 마케팅 채널 템플릿과 다음 기능을 지원합니다.</p><ul><li>연결</li><li>다음과 같은 경우</li><li>찾기 및 바꾸기</li><li>조회</li><li>URL 구문 분석</li></ul> <p>[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md)</p> | 2023년 5월 10일 | 2023년 6월 14일 |

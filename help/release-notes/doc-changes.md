@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2215'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ Customer Journey Analytics 설명서 시작 이후 다음과 같이 업데이트
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 6월** | |
-| 크로스 채널 분석 및 결합 | 결합을 활성화하고 결합을 사용하여 크로스 채널 분석을 높이는 방법을 더 명확하게 하기 위해 예정된 변경 사항을 예상하면서 크로스 채널 분석 기능과 관련된 모든 콘텐츠를 편집하여 크로스 채널 분석을 Customer Journey Analytics 기능으로 참조하고 결합을 중요한 기능으로 참조하십시오. |
+| 크로스 채널 분석 및 결합 | 결합을 활성화하고 결합을 사용하여 크로스 채널 분석을 높이는 방법을 더 명확하게 하기 위해 예정된 변경 사항을 예상하여 크로스 채널 분석 기능 관련 설명서를 다음과 같이 편집합니다. [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) Customer Journey Analytics 기능 및 사용 사례로, [결합](../stitching/overview.md) 을(를) 수행하는 중요한 기능입니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics SQL 커넥터를 사용하면 Customer Journey Analytics에서 정의한 데이터 보기에 SQL로 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) |
 | Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 &quot;AJO 데이터 보기(샌드박스 이름)&quot;라는 제목의 Customer Journey Analytics에서 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html) |
 | 통화 전환 | 에 대한 설명서 업데이트됨 [통화 전환](../data-views/component-settings/format.md#currency) 지원. |
