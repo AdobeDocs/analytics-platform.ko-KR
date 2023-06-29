@@ -4,9 +4,9 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
+source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2605'
 ht-degree: 60%
 
 ---
@@ -98,8 +98,6 @@ ht-degree: 60%
 >
 >연결의 일부로 하나 이상의 이벤트 데이터 세트를 추가해야 합니다.
 
-![데이터 세트 추가 대화 상자](assets/add-dataset.png)
-
 세 가지 데이터 세트 유형이 있습니다. [!UICONTROL 이벤트] 데이터, [!UICONTROL 프로필] 데이터 및 [!UICONTROL 조회] 데이터.
 
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
@@ -150,7 +148,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 {style="table-layout:auto"}
 
-## 일일 평균 이벤트 수 계산
+## 일일 평균 이벤트 수 계산 {#average-number}
 
 이 계산은 연결의 모든 데이터 세트에 대해 수행됩니다.
 
