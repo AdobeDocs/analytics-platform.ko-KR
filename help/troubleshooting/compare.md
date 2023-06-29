@@ -4,16 +4,16 @@ description: Adobe Analytics 데이터를 Customer Journey Analytics의 데이�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 65%
+source-wordcount: '906'
+ht-degree: 64%
 
 ---
 
 # Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교
 
-조직에서 Customer Journey Analytics을 채택함에 따라 Adobe Analytics과 Customer Journey Analytics 간의 데이터에 몇 가지 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics은 AA에서 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은/의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 Customer Journey Analytics을 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
+조직에서 Customer Journey Analytics을 채택함에 따라 Adobe Analytics과 Customer Journey Analytics 간의 데이터에 몇 가지 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics은 AA에서 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은 불일치와 의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 Customer Journey Analytics을 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
 다음을 통해 Adobe Analytics 데이터를 Adobe Experience Platform에 수집했다고 가정해 보겠습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)을(를) 만든 다음 이 데이터 세트를 사용하여 Customer Journey Analytics 연결을 만들었습니다.
 
@@ -47,7 +47,7 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 >[!NOTE]
 >
->이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 스티칭이 켜져 있는 경우, Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
+>이는 ([크로스 채널 분석](/help/cca/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 스티칭이 켜져 있는 경우 Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
 
 1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 

@@ -3,10 +3,10 @@ description: 표 또는 라인 차트에서 예외 항목을 볼 수 있습니�
 title: Analysis Workspace에서 예외 항목 보기
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: e62261d1d440c0a85e4cab95611c6e6272de6724
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 표 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
 
-## 표에서 예외 항목 보기 {#section_869A87B92B574A38B017A980ED8A29C5}
+## 표에서 예외 항목 보기 {#table}
 
 시계열 자유 형식 테이블에서 예외 항목을 볼 수 있습니다.
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 1. 예외 항목에 대한 세부 정보를 보려면 행의 오른쪽 상단에 있는 회색 삼각형을 선택합니다. 실제 값이 예상 값보다 위 또는 아래로 벗어나는 정도(백분율로)가 표시됩니다.
 
-## 라인 차트에서 예외 항목 보기 {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## 선 차트에서 예외 항목 보기 {#line-chart}
 
-라인 차트는 예외 항목을 볼 수 있는 유일한 시각화입니다.
+선 차트는 예외 항목을 볼 수 있는 유일한 시각화입니다.
 
 라인 차트에서 예외 항목을 보려는 경우:
 
