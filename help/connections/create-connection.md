@@ -4,10 +4,10 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 62%
+source-wordcount: '2608'
+ht-degree: 60%
 
 ---
 
@@ -98,12 +98,14 @@ ht-degree: 62%
 >
 >연결의 일부로 하나 이상의 이벤트 데이터 세트를 추가해야 합니다.
 
+![데이터 세트 추가 대화 상자](assets/add-dataset.png)
+
 세 가지 데이터 세트 유형이 있습니다. [!UICONTROL 이벤트] 데이터, [!UICONTROL 프로필] 데이터 및 [!UICONTROL 조회] 데이터.
 
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
 |---|---|---|---|---|
 | **[!UICONTROL 이벤트]** | 시간으로 이벤트를 나타내는 데이터(예: 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 데이터 등)입니다. 예를 들어, 이 데이터는 고객 ID 또는 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용할 ID를 유연하게 선택할 수 있습니다. | [!UICONTROL  Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. | 시간 일련 동작 있는 XDM 클래스를 기반으로 하는 모든 빌트인 또는 스키마 또는 사용자 정의 스키마. 예를 들면 &quot;XDM 경험 이벤트&quot; 또는 &quot;XDM 결정 이벤트&quot;가 해당됩니다. | 포함할 개인 ID를 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이러한 ID 중 하나를 개인 ID로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등이 있습니다. |
-| **[!UICONTROL 조회]** | 이 데이터는 이벤트 또는 프로필 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 다음을 참조하십시오 [B2B 사용 사례](/help/use-cases/b2b/b2b.md) 예를 들어, | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 빌트인 스키마 또는 사용자 정의 스키마. | 해당 없음 |
+| **[!UICONTROL 조회]** | 이제 프로필, 조회 및 이벤트 데이터 세트 등의 모든 데이터 세트 유형 내에서 데이터 세트를 필드 조회로 추가할 수 있습니다(후자는 항상 지원됨). 이 추가 기능은 B2B CDP를 비롯한 복잡한 데이터 모델을 지원하는 CJA의 기능을 확장합니다. 이 데이터는 이벤트, 프로필 또는 조회 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 최대 두 가지 수준의 조회를 추가할 수 있습니다. (참고: [파생 필드](/help/data-views/derived-fields/derived-fields.md) 연결 내에서 조회에 대해 일치하는 키로 사용할 수 없습니다.) 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 다음을 참조하십시오 [B2B 사용 사례](/help/use-cases/b2b/b2b.md) 예를 들어, | 해당 없음 | XDM 개별 프로필 클래스를 제외하고, &quot;기록&quot; 동작이 있는 XDM 클래스를 기반으로 한 모든 빌트인 스키마 또는 사용자 정의 스키마. | 해당 없음 |
 | **[!UICONTROL 프로필]** | 에서 개인, 사용자 또는 고객에게 적용되는 데이터 [!UICONTROL 이벤트] 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 없음 | XDM 개인 프로필 클래스를 기반으로 하는 모든 빌트인 또는 사용자 정의 스키마. | 포함할 개인 ID를 선택할 수 있습니다. 에 정의된 각 데이터 세트 [!DNL Experience Platform] 에는 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등과 같은 개인 ID가 하나 이상 정의된 고유한 ID 세트가 있습니다.<br>![개인 ID ](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 실제로 병합하려면 동일한 개인 ID를 사용해야 합니다. |
 
 {style="table-layout:auto"}
