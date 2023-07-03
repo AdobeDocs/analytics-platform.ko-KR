@@ -2,8 +2,8 @@
 title: 결합 FAQ
 description: 결합에 대해 자주 묻는 질문
 solution: Customer Journey Analytics
-feature: Stitching
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+feature: Stitching, Cross-Channel Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%

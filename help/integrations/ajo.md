@@ -2,7 +2,8 @@
 title: Customer Journey Analytics와 Adobe Journey Optimizer 통합
 description: Adobe Journey Optimizer에서 생성한 데이터를 가져와 Customer Journey Analytics 내에서 Analysis Workspace을 사용하여 분석합니다.
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Platform Integration
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 68%

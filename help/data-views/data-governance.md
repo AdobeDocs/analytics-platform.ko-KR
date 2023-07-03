@@ -2,7 +2,8 @@
 title: 레이블 및 정책
 description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 어떤 영향을 미치는지 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Data Views, Data Governance
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 60%

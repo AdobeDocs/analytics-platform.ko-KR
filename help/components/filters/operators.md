@@ -2,7 +2,8 @@
 title: 필터 연산자
 description: 구성 요소가 필터 내의 값과 상호 작용하는 방식을 결정합니다.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+feature: Filters
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 94%

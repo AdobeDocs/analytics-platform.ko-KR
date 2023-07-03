@@ -2,12 +2,12 @@
 title: SQL 커넥터
 description: 쿼리 서비스, Power BI 및/또는 타블로를 사용하여 SQL 커넥터를 사용하여 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
-feature: Data Views
+feature: SQL Connector
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 1%
@@ -237,7 +237,7 @@ prod:all=> \dv
 | 다차원<br/>분류<br/>및 상위 차이점 | <pre>dim1, dim2, SUM(metric1) 을 m1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>GROUP BY DIM1, dim2</pre><pre>dim1, dim2, SUM(metric1) 을 m1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>그룹화 기준 1, 2<br/>정렬 기준: 1, 2</pre><pre>고유 치수1, 치수2 선택<br/>DV1에서</pre> |
 | 하위 선택:<br/>추가 결과<br/>필터링 | <pre>dim1, m1 선택<br/>출처: (<br/>  dim1, SUM(metric1) 을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의</br>  DIM1로 그룹화<br/>)<br/>위치 dim1(&#39;A&#39;, &#39;B&#39;)</pre> |
 | 하위 선택:<br/>다음으로 가입<br/>데이터 세트가 다음에 없음<br/>Customer Journey Analytics | <pre>b.key, a.dim1, a.m1 선택<br/>출처: (<br/>  dim1, SUM(metric1) 을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/>) a<br/>a.dim1 = b.key의 LEFT JOIN 조회 b</pre> |
-| 하위 선택:<br/>쿼리 대상<br/>데이터 보기 | <pre>키, SUM(m1)을 합계로 선택<br/>출처: (<br/>  DIM1 AS KEY, SUM(metric1) AS m1 을 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/><br/>  결합<br/><br/>  DIM2를 키로, SUM(m1)을 m1로 선택<br/>  DV2에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM2로 그룹화<br/>키로 그룹화<br/>합계별 주문</pre> |
+| 하위 선택:<br/>쿼리 대상<br/>데이터 보기 | <pre>키, SUM(m1)을 합계로 선택<br/>출처: (<br/>  DIM1을 키로, SUM(metric1)을 M1로 선택합니다.<br/>  DV1에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM1로 그룹화<br/><br/>  결합<br/><br/>  DIM2를 키로, SUM(m1)을 m1로 선택<br/>  DV2에서<br/>  여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  DIM2로 그룹화<br/>키로 그룹화<br/>합계별 주문</pre> |
 | 하위 선택: <br/>계층화된 소스, <br/>필터링, <br/>및 집계 | 하위 선택을 사용하여 계층화:<br><pre>rows.dim1, SUM(rows.m1)을 합계로 선택합니다.<br/>출처: (<br/>  \_.dim1,\_.m1 선택<br/>  출처: (<br/>    DV1에서 \* 선택<br/>    여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  ) \_<br/>  여기서 \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) 행<br/>그룹화 기준 1<br/>합계별 주문</pre><br/>CTE를 사용하는 레이어:<br/><pre>((으)로 행 포함<br/>  \_ AS (<br/>    DATA_ARES에서 * 선택<br/>    여기서 \`timestamp\`는 &#39;2021-01-01&#39;과 &#39;2021-02-01&#39; 사이입니다.<br/>  )<br/>  _에서 _.item, _.units 선택<br/>  여기서 _.item 은 NULL 이 아닙니다.<br/>)<br/>rows.item, SUM(rows.units)을 단위로 선택<br/>(&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)의 rows.item이 있는 행에서<br/>행별 그룹화.항목</pre> |
 | 다음 위치를 선택합니다.<br/>다음 항목 앞에 지표 표시<br/> 또는 와 혼합되어 있습니다.<br/>차원 | <pre>SUM(metric1) 을 M1, dim1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>그룹화 기준 2</pre> |
 

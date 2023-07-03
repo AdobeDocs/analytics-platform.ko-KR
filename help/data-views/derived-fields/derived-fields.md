@@ -2,10 +2,10 @@
 title: 파생 필드
 description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집합을 통해 스키마 필드 및/또는 표준 구성 요소의 보고서 시간 조작을 지정합니다.
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: cc33257a04214ba786d7e5510a1b6bc618a84883
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '3281'
 ht-degree: 8%

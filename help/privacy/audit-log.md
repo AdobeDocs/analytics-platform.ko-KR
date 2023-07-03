@@ -2,7 +2,8 @@
 title: 감사 로그
 description: Customer Journey Analytics 감사 로그를 보고 관리하는 방법을 알아봅니다.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Privacy
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 67%

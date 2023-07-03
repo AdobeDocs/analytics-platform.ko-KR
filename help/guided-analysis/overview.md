@@ -2,7 +2,8 @@
 title: 안내식 분석 개요
 description: 제품 팀이 보고서와 통찰력을 쉽게 생성할 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
-source-git-commit: e2020d9194f7885f80671214829f06245bbab328
+feature: Guided Analysis
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 1%

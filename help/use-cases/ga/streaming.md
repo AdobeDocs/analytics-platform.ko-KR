@@ -1,8 +1,10 @@
 ---
 title: Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 구성
 description: Google 데이터 레이어를 Adobe Experience Platform으로 전송하는 구현을 설정하는 방법에 대해 알아봅니다.
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
-workflow-type: ht
+exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
+feature: Use Cases
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
