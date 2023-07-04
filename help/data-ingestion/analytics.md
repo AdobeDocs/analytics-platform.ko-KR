@@ -2,12 +2,12 @@
 title: 기존 Adobe Analytics에서 데이터 수집 및 사용
 description: 기존 Adobe Analytics에서 데이터를 수집하는 방법 설명
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1162'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 0%
 >- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)
 >
 >- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko)
-
 
 이를 구현하려면 다음 작업을 수행해야 합니다.
 
@@ -79,7 +78,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
    ![검토](./assets/review.png)
 
 
-연결이 만들어지면 데이터 흐름이 자동으로 만들어져서 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다(프로덕션 샌드박스에 대한 최대 13개월 동안의 내역 데이터 섭취 포함). (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.)
+연결이 만들어지면 데이터 흐름이 자동으로 만들어져 프로덕션 샌드박스에 대한 최대 13개월 동안의 내역 데이터 수집을 포함하여 보고서 세트의 Adobe Analytics 데이터로 데이터 세트를 채웁니다. (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.)
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
@@ -112,9 +111,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - Adobe Analytics 소스 커넥터에서 자동으로 생성된 데이터 세트와 연결에 포함할 다른 데이터 세트를 선택합니다.
 
-      ![데이터 세트 추가](./assets/cja-connections-2a.png)
+     ![데이터 세트 추가](./assets/cja-connections-2a.png)
 
    - **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
    [!UICONTROL 데이터 세트 추가]의 [!UICONTROL 데이터 세트 설정] 단계에서:
 
    - 각 데이터 세트의 경우:
@@ -125,9 +125,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
       - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
-      ![데이터 세트 구성](./assets/cja-connections-3a.png)
+     ![데이터 세트 구성](./assets/cja-connections-3a.png)
 
    - **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
+
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 연결을 만들고 관리하는 방법과 데이터 세트를 선택하고 결합하는 방법에 대한 자세한 내용은 [연결 개요](../connections/overview.md)를 참조하십시오.

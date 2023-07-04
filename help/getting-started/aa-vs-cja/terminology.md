@@ -3,8 +3,8 @@ title: Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 
 description: 일부 용어 차이
 solution: Customer Journey Analytics
 exl-id: f0f9aa1e-f9d2-4dcb-bbe9-7960412c094b
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 72%

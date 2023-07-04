@@ -2,10 +2,10 @@
 description: 작업 영역의 폴더 정보 알아보기
 keywords: Analysis Workspace
 title: 폴더 개요
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

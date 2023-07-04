@@ -3,8 +3,8 @@ title: 삭제 영향
 description: Customer Journey Analytics 또는 Adobe Experience Platform에서 연결, 데이터 세트 또는 배치를 삭제할 때 발생하는 일에 대한 내용입니다.
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
-feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 73%

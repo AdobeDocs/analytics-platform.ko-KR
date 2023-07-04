@@ -2,9 +2,9 @@
 title: 데이터 수집 개요
 description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다양한 방법 이해
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 96%

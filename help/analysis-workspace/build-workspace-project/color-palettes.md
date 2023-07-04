@@ -1,9 +1,9 @@
 ---
 description: 시각화 색상 팔레트를 변경하거나 사용자 정의 색상 팔레트를 지정하는 방법.
 title: 시각화 색상 팔레트
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 92%
@@ -28,7 +28,7 @@ ht-degree: 92%
 ## 색상 팔레트 변경:
 
 1. **[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
-1. 에서 **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운 목록에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
+1. 다음에서 **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운 목록에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
 
    ![](assets/custom_palette.png)
 

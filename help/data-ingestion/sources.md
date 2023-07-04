@@ -2,10 +2,10 @@
 title: 소스 커넥터를 사용하여 데이터 수집 및 사용
 description: Customer Journey Analytics에서 소스 커넥터를 사용하여 데이터 수집 및 사용 방법에 대한 설명
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 100%
 
@@ -187,10 +187,9 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
    - 커넥터 타일에서 [!UICONTROL 설정] 또는 [!UICONTROL 데이터 추가] 옆 **[!UICONTROL ...]**&#x200B;를 선택합니다.
 
-      ![설명서 보기](./assets/sourceconnector-documentation.png)
+     ![설명서 보기](./assets/sourceconnector-documentation.png)
 
    - **[!UICONTROL 설명서 보기]**&#x200B;를 선택합니다.
-
 
 Adobe Analytics 소스 커넥터를 사용하는 방법은 [기존 Adobe Analytics의 데이터 수집 및 사용](./analytics.md)을 참조하십시오.
 
@@ -225,9 +224,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - 이전에 만든 데이터 세트(`Example Loyalty Dataset`)와 연결에 포함할 다른 데이터 세트를 선택합니다.
 
-      ![데이터 세트 추가](./assets/cja-connections-2.png)
+     ![데이터 세트 추가](./assets/cja-connections-2.png)
 
    - **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
    [!UICONTROL 데이터 세트 추가]의 [!UICONTROL 데이터 세트 설정] 단계에서:
 
    - 각 데이터 세트의 경우:
@@ -238,9 +238,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
       - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
-      ![데이터 세트 구성](./assets/cja-connections-3.png)
+     ![데이터 세트 구성](./assets/cja-connections-3.png)
 
    - **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
+
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 연결을 만들고 관리하는 방법과 데이터 세트를 선택하고 결합하는 방법에 대한 자세한 내용은 [연결 개요](../connections/overview.md)를 참조하십시오.

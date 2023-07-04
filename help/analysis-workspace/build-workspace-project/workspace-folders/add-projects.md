@@ -2,10 +2,10 @@
 description: Workspace에서 폴더를 추가하는 방법 알아보기
 keywords: Analysis Workspace
 title: Workspace에서 폴더 추가
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

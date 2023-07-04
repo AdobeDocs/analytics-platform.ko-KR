@@ -2,10 +2,10 @@
 description: Workspace의 폴더에 프로젝트 저장에 대해 알아보기
 keywords: Analysis Workspace
 title: 폴더에 프로젝트 저장
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
-source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 100%
 

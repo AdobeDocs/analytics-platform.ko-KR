@@ -1,11 +1,11 @@
 ---
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장, 이전 버전 열기 등 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -38,9 +38,9 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 * **새 프로젝트:** 새 프로젝트가 자동으로 저장되더라도 처음에는 새 프로젝트를 각각 수동으로 저장해야 합니다. 다른 프로젝트로 전환하거나 브라우저 탭을 닫는 등의 경우 Analysis Workspace에 새 프로젝트를 수동으로 저장하라는 메시지가 표시됩니다.
 
-   어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 프로젝트의 복구 버전이 `Recovered Projects (Last 7 Days)` 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장해야 합니다.
+  어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 프로젝트의 복구 버전이 `Recovered Projects (Last 7 Days)` 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장해야 합니다.
 
-   복구된 프로젝트를 복원하는 경우:
+  복구된 프로젝트를 복원하는 경우:
 
    1. Analysis Workspace 랜딩의 [!UICONTROL **복구된 프로젝트**] 폴더로 이동합니다.
 
@@ -51,7 +51,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 * **기존 프로젝트:** 어떤 이유로든 아직 자동으로 저장되지 않은 변경 사항이 포함된 프로젝트를 종료할 경우 Analysis Workspace에 변경 사항을 저장하거나 경고 메시지를 입력하라는 메시지가 표시됩니다.
 
-   다음은 몇 가지 일반적인 시나리오입니다.
+  다음은 몇 가지 일반적인 시나리오입니다.
 
 ### 다른 Analysis 프로젝트 열기
 

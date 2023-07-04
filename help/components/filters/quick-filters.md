@@ -1,10 +1,10 @@
 ---
 description: Customer Journey Analytics용 Analysis Workspace에서 빠른 필터 사용
 title: 빠른 필터
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 38%
@@ -35,20 +35,19 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 
    * **애드혹(드래그 앤 드롭):** 왼쪽 레일에서 구성 요소를 옆에 있는 드롭 영역으로 드래그합니다. **필터** 패널 헤더에서 아이콘을 선택한 다음 **편집** 아이콘을 클릭하여 필터를 조정합니다.
 
-      ![임시 필터 편집](assets/filter-adhoc-edit.png)
+     ![임시 필터 편집](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > 빠른 필터를 임시로 만들 때(드래그 앤 드롭) 다음 사항을 고려하십시오.
-      > * 계산된 지표 및 차원과 필터를 빌드할 수 없는 지표에는 구성 요소 유형이 지원되지 않습니다.
-      > * 전체 차원 및 이벤트에 대해 Analysis Workspace은 &quot;존재함&quot; 이벤트 필터를 만듭니다. 예: `Hit where eVar1 exists` 또는 `Hit where event1 exists`.
-      > * 필터를 놓는 영역에 &quot;지정되지 않음&quot; 또는 &quot;없음&quot;을 놓으면 필터링 시 올바로 처리되도록 자동으로 &quot;존재하지 않음&quot; 필터로 변환됩니다.
-
+     >[!NOTE]
+     >
+     > 빠른 필터를 임시로 만들 때(드래그 앤 드롭) 다음 사항을 고려하십시오.
+     > * 계산된 지표 및 차원과 필터를 빌드할 수 없는 지표에는 구성 요소 유형이 지원되지 않습니다.
+     > * 전체 차원 및 이벤트에 대해 Analysis Workspace은 &quot;존재함&quot; 이벤트 필터를 만듭니다. 예: `Hit where eVar1 exists` 또는 `Hit where event1 exists`.
+     > * 필터를 놓는 영역에 &quot;지정되지 않음&quot; 또는 &quot;없음&quot;을 놓으면 필터링 시 올바로 처리되도록 자동으로 &quot;존재하지 않음&quot; 필터로 변환됩니다.
 
 
    * **필터 아이콘 사용:** 자유 형식 테이블에서 **필터** 패널 헤더의 아이콘입니다.
 
-      ![세그먼트 필터](assets/quick-seg1.png)
+     ![세그먼트 필터](assets/quick-seg1.png)
 
 1. 다음 설정을 조정합니다.
 
@@ -87,7 +86,6 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 > * 빠른 필터를 저장하려면 다음에서 필터 만들기 권한이 필요합니다. [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
 > 
 > * 필터를 저장하거나 적용하면 빠른 필터 빌더에서 더 이상 편집할 수 없습니다. 대신 일반 필터 빌더를 사용해야 합니다.
-
 
 빠른 필터를 구성 요소 목록 필터로 저장하도록 선택할 수 있습니다. 구성 요소 목록 필터의 장점은 다음과 같습니다.
 

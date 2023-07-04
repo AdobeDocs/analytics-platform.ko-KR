@@ -2,9 +2,9 @@
 description: Real-time Customer Data Platform(Real-Time CDP)와 Customer Journey Analytics 간의 지표 및 대상 멤버십의 일관성에 영향을 미치는 요인에 대해 설명합니다.
 title: Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상 멤버십의 일관성
 role: Admin
-feature: CJA Basics
+feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 25%

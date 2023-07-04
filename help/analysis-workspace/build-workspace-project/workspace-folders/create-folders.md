@@ -2,10 +2,10 @@
 description: 작업 영역에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
 keywords: Analysis Workspace
 title: 폴더 만들기
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 

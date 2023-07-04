@@ -2,8 +2,8 @@
 title: 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 데이터 준비
 description: 처리 규칙 및 VISTA를 사용한 데이터 변환과 데이터 준비를 사용한 데이터 변환에 대해 알아보기
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 80%

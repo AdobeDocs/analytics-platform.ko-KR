@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 액세스 제어
 description: Customer Journey Analytics에서 액세스 제어를 구현하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 83%

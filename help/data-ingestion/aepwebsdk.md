@@ -2,9 +2,9 @@
 title: Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이터 수집
 description: Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이터를 Customer Journey Analytics로 수집하는 방법 설명
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 98%
@@ -303,11 +303,11 @@ Experience Cloud ID 서비스 확장을 만들고 구성하는 경우:
 
    - [!UICONTROL 속성] 목록에서 **[!UICONTROL 제목]**&#x200B;을 선택합니다.
 
-      ![페이지 정보를 사용하여 날짜 요소 만들기](./assets/create-dataelement-1.png)
+     ![페이지 정보를 사용하여 날짜 요소 만들기](./assets/create-dataelement-1.png)
 
-      또는 데이터 레이어의 변수 값(예: `pageName` 및 [!UICONTROL JavaScript 변수] 데이터 요소 유형)을 사용하여 데이터 요소를 정의할 수 있습니다.
+     또는 데이터 레이어의 변수 값(예: `pageName` 및 [!UICONTROL JavaScript 변수] 데이터 요소 유형)을 사용하여 데이터 요소를 정의할 수 있습니다.
 
-      ![JavaScript 변수를 사용하여 데이터 요소 만들기](./assets/create-dataelement-2.png)
+     ![JavaScript 변수를 사용하여 데이터 요소 만들기](./assets/create-dataelement-2.png)
 
    - **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -327,7 +327,7 @@ ECID 데이터 요소를 정의하는 경우:
 
    - [!UICONTROL 데이터 요소 유형] 목록에서 **[!UICONTROL ECID]**&#x200B;를 선택합니다.
 
-      ![ECID 데이터 요소](./assets/ecid-dataelement.png)
+     ![ECID 데이터 요소](./assets/ecid-dataelement.png)
 
    - **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -353,14 +353,14 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
    - 스키마에 정의된 `identification > core > ecid` 속성을 ECID 데이터 요소에 매핑합니다. 원통 아이콘을 선택하여 데이터 요소 목록에서 ECID 데이터 요소를 쉽게 선택합니다.
 
-      ![ECID 데이터 요소 선택](./assets/pick-ecid-dataelement.png)
+     ![ECID 데이터 요소 선택](./assets/pick-ecid-dataelement.png)
 
-      ![ECID 데이터 요소 매핑](./assets/map-ecid.png)
+     ![ECID 데이터 요소 매핑](./assets/map-ecid.png)
 
 
    - 스키마에 정의된 `web > webPageDetails > name` 속성을 페이지 이름 데이터 요소에 매핑합니다.
 
-      ![페이지 이름 데이터 요소 매핑](./assets/map-pagename.png)
+     ![페이지 이름 데이터 요소 매핑](./assets/map-pagename.png)
 
    - **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -387,9 +387,12 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
       - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 로드된 창]**&#x200B;을 선택합니다.
 
-         ![규칙 - 이벤트 구성](./assets/event-windowloaded-pageview.png)
+        ![규칙 - 이벤트 구성](./assets/event-windowloaded-pageview.png)
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+
+
+
    - [!UICONTROL 액션] 아래의 **[!UICONTROL 더하기 추가]**&#x200B;를 선택합니다.
 
    - [!UICONTROL 액션 구성] 대화 상자에서:
@@ -402,18 +405,15 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
       - [!UICONTROL XDM 데이터] 옆의 원통 아이콘을 선택하고 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 조회수]**&#x200B;를 선택합니다.
 
-         ![규칙 - 액션 구성](./assets/action-pageview-xdm.png)
+        ![규칙 - 액션 구성](./assets/action-pageview-xdm.png)
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+
    - 규칙은 다음과 같습니다.
 
-      ![규칙 만들기](assets/rule-pageview.png)
+     ![규칙 만들기](assets/rule-pageview.png)
 
    - **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-
-
-
-
 
 이는 다른 데이터 요소의 값이 포함된 XDM 데이터를 Adobe Experience Platform에 전송하는 규칙을 정의하는 예시일 뿐입니다.
 
@@ -439,7 +439,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 변경된 모든 리소스 추가]**&#x200B;를 선택합니다.
 
-      ![게시 - 라이브러리 만들기](./assets/create-library-aep.png)
+     ![게시 - 라이브러리 만들기](./assets/create-library-aep.png)
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
@@ -510,9 +510,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - 이전에 만든 데이터 세트(`Example dataset`)와 연결에 포함할 다른 데이터 세트를 선택합니다.
 
-      ![데이터 세트 추가](./assets/cja-connections-2b.png)
+     ![데이터 세트 추가](./assets/cja-connections-2b.png)
 
    - **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
    [!UICONTROL 데이터 세트 추가]의 [!UICONTROL 데이터 세트 설정] 단계에서:
 
    - 각 데이터 세트의 경우:
@@ -523,9 +524,10 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
       - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
-      ![데이터 세트 구성](./assets/cja-connections-3b.png)
+     ![데이터 세트 구성](./assets/cja-connections-3b.png)
 
    - **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
+
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 연결을 만들고 관리하는 방법과 데이터 세트를 선택하고 결합하는 방법에 대한 자세한 내용은 [연결 개요](../connections/overview.md)를 참조하십시오.

@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작입니다.
 keywords: Analysis Workspace
-feature: CJA Workspace Basics
+feature: Workspace Basics
 title: 핫키(단축키)
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 

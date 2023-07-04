@@ -2,10 +2,10 @@
 description: 작업 영역에서 폴더를 삭제하는 방법에 대해 알아보기
 keywords: Analysis Workspace
 title: 작업 영역의 폴더 삭제
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 

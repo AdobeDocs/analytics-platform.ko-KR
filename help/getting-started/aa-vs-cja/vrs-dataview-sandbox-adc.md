@@ -2,8 +2,8 @@
 title: 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터
 description: 가상 보고 환경 및 샌드박스 환경에 대해 알아보십시오.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 62%
