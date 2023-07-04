@@ -4,10 +4,10 @@ description: 고객 여정 전반에 걸친 고객 상호 작용에서 통찰력
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '523'
+ht-degree: 63%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 68%
 * 채널 간 데이터를 분석하려면 모든 레코드에 동일한 ID 네임스페이스가 필요합니다.
 * 개별 데이터 세트를 통합하는 결합 프로세스에는 데이터 세트 간 공통의 기본 개인/엔티티 키가 필요합니다.
 * 보조 키 기반의 결합은 현재 지원되지 않습니다.
-* 결합 프로세스를 통해 인증 ID와 같은 후속 임시 ID 레코드를 기반으로 행으로 ID를 재입력할 수 있습니다. 그러면 디바이스나 쿠키 수준이 아니라 개인 수준에서 단일 ID에 대한 개별 레코드 문제를 해결하고 분석할 수 있습니다.
+* 결합 프로세스를 통해 동일한 영구 ID를 공유하는 레코드의 임시 ID(예: 인증 ID) 정보에 따라 행으로 ID를 재입력할 수 있습니다. 이를 통해 디바이스나 쿠키 수준이 아닌 개인 수준에서 분석할 단일 결합된 ID로 개별 레코드를 확인할 수 있습니다.
 * Customer Journey Analytics에서 동일한 XDM 필드의 오브젝트 및 속성을 한 개의 차원으로 병합합니다. 다양한 데이터 세트의 여러 속성을 동일한 Customer Journey Analytics 차원으로 병합하려면 데이터 세트는 동일한 XDM 필드 또는 스키마를 참조해야 합니다.
 
