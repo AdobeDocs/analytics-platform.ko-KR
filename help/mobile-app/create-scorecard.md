@@ -1,27 +1,28 @@
 ---
-description: Adobe Analytics 대시보드 스코어카드를 만들고 공유하는 방법
+description: Analytics 대시보드 스코어카드를 만들고 공유하는 방법
 title: 스코어카드 만들기 및 공유
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 76%
+source-wordcount: '2532'
+ht-degree: 74%
 
 ---
 
 # 모바일 스코어카드 만들기
 
-다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 대시보드를 구성 및 제공하는 방법에 대해 설명합니다. 시작하기 위해 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
+다음 정보는 Customer Journey Analytics 큐레이터에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 시작을 위한 Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->이 페이지의 스코어카드 스크린샷은 Customer Journey Analytics이 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.
+>
+>이 페이지에 대한 Analytics 스코어카드 스크린샷은 Customer Journey Analytics이 아닌 Adobe Analytics UI에서 가져왔습니다. UI는 거의 동일합니다.
 
-Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
+ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
 ![스코어카드의 예](assets/intro_scorecard.png)
 
@@ -40,7 +41,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ### 새 프로젝트 만들기 {#create}
 
-1. Adobe Analytics를 열고 **[!UICONTROL 작업 영역]** 탭을 클릭합니다.
+1. Customer Journey Analytics을 열고 **[!UICONTROL 작업 영역]** 탭.
 1. **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -78,7 +79,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 필터를 개별 타일에 적용하려면 왼쪽 패널의 필터(세그먼트는 Customer Journey Analytics의 필터임)를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. 본인 [스코어카드에 필터 구성 및 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) Adobe Analytics Workspace에서와 동일한 방식입니다.
+스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. 본인 [스코어카드에 필터 구성 및 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) Customer Journey Analytics 작업 영역에서와 동일한 방식입니다.
 
 ![필터 빌드](assets/segment_ui.png)
 
@@ -278,7 +279,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 ## 스코어카드 미리 보기 {#preview}
 
-Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이는지와 기능을 미리 볼 수 있습니다.
+Adobe Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 표시되고 작동하는지 미리 볼 수 있습니다.
 
 1. 화면 오른쪽 상단에 있는 **[!UICONTROL 미리보기]**&#x200B;를 클릭합니다.
 
@@ -337,7 +338,7 @@ Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이�
 
    수신자가 데스크탑 앱이나 브라우저를 사용하여 링크를 열면 모바일 스코어카드 프로젝트가 Workspace에서 열립니다.
 
-   수신자가 모바일 디바이스에서 링크를 열면 스코어카드가 Analytics 대시보드 앱에서 바로 열립니다.
+   수신자가 모바일 디바이스에서 링크를 열면 스코어카드가 Adobe Analytics 대시보드 앱에서 직접 열립니다.
 
    수신자가 모바일 앱을 다운로드하지 않은 경우 App Store 또는 Google Play 스토어의 앱 목록으로 이동하여 다운로드할 수 있습니다.
 

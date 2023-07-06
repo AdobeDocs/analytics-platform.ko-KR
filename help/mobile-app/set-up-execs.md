@@ -1,14 +1,14 @@
 ---
-description: Analytics 모바일 앱을 사용하도록 사용자를 설정하는 방법
+description: Adobe Analytics 대시보드 모바일 앱을 사용하도록 사용자를 설정하는 방법
 title: 경영진이 대시보드를 사용할 수 있도록 설정
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)에서 새 사용자를 설정합니다.
+1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드의 기반이 되는 데이터 보기, 필터, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -27,25 +27,29 @@ ht-degree: 100%
 경영진 사용자가 앱의 스코어카드에 액세스할 수 있도록 하려면 다음을 확인합니다.
 
 * 해당 디바이스의 최소 모바일 OS 요구 사항은 iOS 버전 10 이상 또는 Android 버전 4.4 (KitKat) 이상입니다.
-* 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다..
+* Customer Journey Analytics에 대한 유효한 로그인이 있습니다.
 * 모바일 스코어카드를 올바르게 생성했으며 이 스코어카드를 경영진 사용자와 공유했습니다.
 * 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
 
 ## 경영진이 앱을 다운로드하여 설치하도록 지원
 
+>[!NOTE]
+>
+>모바일 앱의 이름이 앱스토어에서 Adobe Analytics 대시보드이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
+
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
+경영진 사용자는 다운로드 및 설치 후 기존 Customer Journey Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe 및 Enterprise/Federated ID가 모두 지원됩니다.
 
 ![앱 시작 화면](assets/welcome.png)
 
@@ -108,7 +112,7 @@ ht-degree: 100%
 
 ![아무 것도 공유되지 않음](assets/nothing.png)
 
-* 경영진 사용자가 잘못된 Analytics 인스턴스를 선택했을 수 있음, 또는
+* 경영진 사용자가 잘못된 Customer Journey Analytics 샌드박스를 선택했을 수 있습니다. 또는
 * 스코어카드가 경영진 사용자와 공유되지 않았을 수 있음.
 
-경영진 사용자가 올바른 Adobe Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
+경영진 사용자가 올바른 Customer Journey Analytics 샌드박스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.

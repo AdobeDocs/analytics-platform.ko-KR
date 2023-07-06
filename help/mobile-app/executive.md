@@ -1,20 +1,20 @@
 ---
 description: 대시보드 스코어카드 사용 지침
-title: Adobe Analytics 대시보드 경영진 안내서
+title: Analytics 대시보드 경영진 사용 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 92%
+source-wordcount: '1304'
+ht-degree: 77%
 
 ---
 
 # 경영진 빠른 시작 안내서
 
-다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이 정보를 시연하는 비디오입니다.
+다음 정보는 경영진 사용자에게 Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이 정보를 시연하는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
@@ -28,26 +28,30 @@ ht-degree: 92%
 
 대시보드에서 스코어카드에 액세스하려면 다음을 확인합니다.
 
-* Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
+* Customer Journey Analytics에 대한 유효한 로그인 권한이 있습니다.
 * 큐레이터가 모바일 스코어카드를 올바르게 작성하고 공유했습니다.
 
 ### 대시보드 다운로드 및 설치
 
 앱을 다운로드하여 설치하려면 디바이스의 운영 체제에 따라 단계를 따릅니다.
 
+>[!NOTE]
+>
+>모바일 앱의 이름이 앱스토어에서 Adobe Analytics 대시보드이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
+
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
-경영진 사용자는 다운로드 및 설치 후 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.
+경영진 사용자는 다운로드 및 설치 후 기존 Customer Journey Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.
 
 ![앱 시작 화면](assets/welcome.png)
 
@@ -55,7 +59,7 @@ ht-degree: 92%
 
 대시보드를 사용하려면 다음 작업을 수행하십시오.
 
-1. 앱에 로그인합니다. 대시보드를 실행하면 로그인 화면이 나타납니다. 기존 Adobe Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
+1. 앱에 로그인합니다. 대시보드를 실행하면 로그인 화면이 나타납니다. 기존 Customer Journey Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
    ![로그인 순서](assets/signseq.png)
 
@@ -73,7 +77,7 @@ ht-degree: 92%
 
    로그인했을 때 아무 것도 공유되지 않았다는 메시지가 표시되면 큐레이터와 다음 사항을 확인합니다.
 
-   * 올바른 Analytics 인스턴스에 로그인할 수 있습니다.
+   * 올바른 Customer Journey Analytics 샌드박스에 로그인할 수 있습니다.
    * 스코어카드가 사용자와 공유되었습니다.
 
    ![아무 것도 공유되지 않음](assets/nothing.png)
@@ -111,11 +115,11 @@ ht-degree: 92%
 
    * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
+1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
    ![세그먼트 필터](assets/segment_filter.png)
 
-1. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Analytics 팀에 연락하여 스코어카드가 업데이트되도록 하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
+1. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Customer Journey Analytics 팀에 연락하여 스코어카드를 업데이트하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
 
 1. 이 앱에 대한 피드백을 남기려면:
 
@@ -148,8 +152,8 @@ ht-degree: 92%
 
 | 용어 | 정의 |
 |--- |--- |
-| 소비자 | 모바일 디바이스의 Analytics를 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
-| 큐레이터 | Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
+| 소비자 | 모바일 장치의 Customer Journey Analytics을 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
+| 큐레이터 | Customer Journey Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
 | 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 작업 |
 | 득점 카드 | 한 개 이상의 타일이 포함된 대시보드 보기 |
 | 타일 | 스코어카드 보기 내에 있는 지표에 대한 렌더링 |
