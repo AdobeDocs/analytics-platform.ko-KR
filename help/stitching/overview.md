@@ -3,7 +3,7 @@ title: 결합 개요
 description: 결합 개요.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 3fd4038c44b50490618f838d281684742920d152
+source-git-commit: 41dc46ed5e30d08708ebb97fa29312aafd99ff9d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 26%
@@ -63,7 +63,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이�
 
 2. Adobe 고객 지원 팀은 Adobe 엔지니어링과 함께 작동하여 요청을 접수할 때 결합을 활성화합니다. 활성화되면 새로운 결합된 ID 열이 포함된 재입력된 새 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 고객 지원 센터에서 새 데이터 세트의 ID를 제공할 수 있습니다.
 
-3. 처음 켜면 Adobe에서 30일 이전의 결합된 데이터 채우기를 제공합니다.
+3. 처음 켜면 Adobe에서 60일 이전의 결합된 데이터 채우기를 제공합니다.
 
 4. 크로스 채널 분석에서 결합된 새 데이터 세트를 사용하려면 를 로 추가해야 합니다 [연결](../connections/overview.md) 다른 필요한 데이터 세트와 함께 Customer Journey Analytics. 각 데이터 세트에 올바른 개인 ID를 선택합니다.
 
