@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 51bc0de7186b87fad4011c2ec77cfe841186a58e
+source-git-commit: db8f92941677ba37f41a62c7612f517d7b071b4a
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 86%
 
 ---
@@ -85,12 +85,10 @@ ht-degree: 86%
    + [파생 필드](../data-views/derived-fields/derived-fields.md)
    + [레이블 및 정책](../data-views/data-governance.md)
 
-
 + 작업 영역 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](../analysis-workspace/home.md)
    + [기본 분석 수행](../analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](../analysis-workspace/perform-adv-analysis.md)
-
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
@@ -105,40 +103,31 @@ ht-degree: 86%
       + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
-
    + 시각화 {#visualizations}
       + [시각화 개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
-
       + 자유 형식 테이블 {#freeform-table}
          + [자유 형식 테이블](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [집단 분석 사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-
       + 폴아웃 {#fallout}
          + [폴아웃 개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [폴아웃 시각화 구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-
-
       + 플로우 {#flow}
          + [플로우 개요](../analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [영역 및 스택 영역](../analysis-workspace/visualizations/area.md)
-
       + [막대 및 스택 막대](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호 그래프](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보 차트](../analysis-workspace/visualizations/combo-charts.md)
@@ -153,7 +142,6 @@ ht-degree: 86%
       + [텍스트](../analysis-workspace/visualizations/text.md)
       + [트리 맵](../analysis-workspace/visualizations/treemap.md)
       + [벤](../analysis-workspace/visualizations/venn.md)
-
    + 패널 {#panels}
       + [패널 개요](../analysis-workspace/c-panels/panels.md)
       + [속성 패널](../analysis-workspace/c-panels/attribution.md)
@@ -166,7 +154,6 @@ ht-degree: 86%
          + [개요](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [입력 및 출력 설정](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [FAQ](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
@@ -175,7 +162,6 @@ ht-degree: 86%
       + [보기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](../analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](../analysis-workspace/curate-share/t-schedule-report.md)
-
    + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst 개요](../analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
@@ -183,7 +169,6 @@ ht-degree: 86%
          + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
-
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
       + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
@@ -201,37 +186,38 @@ ht-degree: 86%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + 분석 유형 {#analysis-types}
-      + [개요](../guided-analysis/analysis-types/overview.md)
-      + [단계](../guided-analysis/analysis-types/funnel.md)
-      + [트렌드](../guided-analysis/analysis-types/trends.md)
-      + [사용자 성장](../guided-analysis/analysis-types/user-growth.md)
+   + 영향 {#impact}
+      + [릴리스](../guided-analysis/types/release.md)
+      + [최초 사용](../guided-analysis/types/first-use.md)
+   + 단계 {#funnel}
+      + [마찰](../guided-analysis/types/friction.md)
+      + [전환 추세](../guided-analysis/types/conversion-trends.md)
+   + 사용자 성장 {#user-growth}
+      + [활성](../guided-analysis/types/active.md)
+      + [순성장](../guided-analysis/types/net-growth.md)
+   + 트렌드 {#trends}
+      + [사용](../guided-analysis/types/usage.md)
    + [FAQ](../guided-analysis/faq.md)
 
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
-
    + 주석 {#annotations}
       + [주석 개요](../components/annotations/overview.md)
       + [주석 생성](../components/annotations/create-annotations.md)
       + [주석 관리](../components/annotations/manage-annotations.md)
       + [주석 보기](../components/annotations/view-annotations.md)
       + [모바일 주석](../components/annotations/mobile-annotations.md)
-
    + 대상자 {#audiences}
       + [대상자 개요](../components/audiences/audiences-overview.md)
       + [대상자 생성 및 게시](../components/audiences/publish.md)
       + [대상자 관리](../components/audiences/manage.md)
-
    + 차원 {#dimensions}
       + [차원 미리보기](../components/dimensions/view-dimensions.md)
       + [차원 분류](../components/dimensions/t-breakdown-fa.md)
       + [차원 시간 분할](../components/dimensions/time-parting-dimensions.md)
       + [카디널리티가 매우 높은 차원](../components/dimensions/high-cardinality.md)
-
    + [지표](../components/apply-create-metrics.md)
-
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
@@ -239,7 +225,6 @@ ht-degree: 86%
       + [필터 빌더](../components/filters/filter-builder.md)
       + [필터 관리](../components/filters/manage-filters.md)
       + [연산자](../components/filters/operators.md)
-
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)
       + 계산된 지표 워크플로 {#cm-workflow}
@@ -259,14 +244,12 @@ ht-degree: 86%
       + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
-
    + 달력 및 날짜 범위 {#cja-date-ranges}
       + [달력 및 날짜 범위 개요](../components/date-ranges/calendar.md)
       + [날짜 범위 만들기](../components/date-ranges/create.md)
       + [날짜 범위 관리](../components/date-ranges/manage.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
-
    + 데이터 사전 {#data-dictionary}
       + [데이터 사전 개요](../components/data-dictionary/data-dictionary-overview.md)
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
@@ -312,31 +295,25 @@ ht-degree: 86%
 
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
-
    + Google Analytics 데이터 {#ga}
       + [Google Analytics에서 Customer Journey Analytics 개요로 데이터 마이그레이션](../use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
-
    + 데이터 수집 {#data-ingestion}
       + [Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.](../use-cases/data-ingestion/marketo.md)
       + [Adobe Experience Platform 대상을 Customer Journey Analytics으로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
       + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
-
    + B2B {#b2b}
       + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
-
    + 크로스 채널 데이터 {#cross-channel}
       + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
       + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
-
    + Adobe Analytics 데이터 {#aa-data}
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
-
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
 
