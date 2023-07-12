@@ -2,10 +2,10 @@
 title: 순성장
 description: 사용자 이윤과 손실의 균형.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 * **성능 평가**: 새 사용자를 확보할 때 제품의 전체 성능을 평가할 수 있습니다. 증가 트렌드를 추적하면 제품이 원하는 속도로 사용자를 유치하고 유지하는지 더 잘 이해할 수 있습니다.
 * **이탈 분석**: 순 증가에는 공식(휴면 사용자)에 감소가 포함됩니다. 시간에 따른 사용자 기반의 전반적인 상태를 평가할 수 있습니다. 지속적으로 순 증가율이 아래에 있는 경우 `1`는 감소율이 높다는 것을 나타내며, 감소율의 원인을 조사하고 유지 전략을 수행하도록 요청합니다.
 
-[사용자 증가 스크린샷]
+![순성장](../assets/net-growth.png)
 
 ## 쿼리 레일
 

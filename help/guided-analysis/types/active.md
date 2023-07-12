@@ -3,7 +3,7 @@ title: 활성
 description: 사용자 기반의 성장 측정.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 * **캠페인 평가**: 특정 캠페인을 보면 생성된 트래픽의 양뿐만 아니라 캠페인이 사용자를 참여시키는 데 얼마나 도움이 되었는지 이해할 수 있습니다.
 * **사용자 라이프사이클 분석**: 사용자 라이프사이클 전반에 걸친 활발한 사용자 성장을 분석하면 사용자 참여가 감소하는 특정 단계를 식별하는 데 도움이 될 수 있습니다. 예를 들어 온보딩 단계에 있는 사용자에 대해 휴면 사용자 비율이 높은 경우 유용성 문제가 발생하거나 더 나은 제품 내 안내가 필요함을 나타낼 수 있습니다.
 
-[사용자 증가 스크린샷]
+![활성](../assets/active.png)
 
 ## 쿼리 레일
 
@@ -48,6 +48,8 @@ ht-degree: 2%
 ## 시간 비교 적용
 
 {{apply-time-comparison}}
+
+![활성 시간 비교](../assets/active-compare.png)
 
 ## 날짜 범위
 

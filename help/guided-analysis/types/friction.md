@@ -3,9 +3,9 @@ title: 마찰
 description: 단계 간 전환율 비교.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 * **기능 채택 및 참여**: 사용자가 제품의 특정 기능과 상호 작용하는 방법을 이해합니다. 기능 관련 단계를 통해 사용자의 진행 상태를 분석하면 기능 채택률을 평가하고 사용자가 특정 기능을 포기하거나 과소 사용할 수 있는 영역을 식별할 수 있습니다. 그런 다음 이 정보를 사용하여 기능 또는 UI 개선 사항에 중점을 두어 채택률을 높일 수 있습니다.
 * **캠페인 평가**: 마케팅 캠페인의 효과를 측정합니다. 지정된 캠페인을 터치한 사용자에 중점을 둔 세그먼트를 만들고, 전환 프로세스를 다른 캠페인 또는 제품 전반과 비교할 수 있습니다.
 
-[단계 스크린샷]
+![마찰](../assets/friction.png)
 
 ## 쿼리 레일
 
@@ -41,6 +41,8 @@ ht-degree: 3%
 ## 시간 비교 적용
 
 {{apply-time-comparison}}
+
+![마찰 시간 비교](../assets/friction-compare.png)
 
 ## 날짜 범위
 

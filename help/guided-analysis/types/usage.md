@@ -3,9 +3,9 @@ title: 사용
 description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 * **사용자 비헤이비어**: 트렌드는 시간 경과에 따른 사용자 행동에 대한 통찰력을 제공할 수 있습니다. 사용자가 수행하는 특정 작업을 검사하여 사용자가 중단될 수 있는 패턴을 식별할 수 있습니다. 이 보기 유형의 인사이트를 와 결합할 수 있습니다. [마찰](friction.md) 행동에 대한 더 많은 통찰력을 얻으십시오.
 * **A/B 테스트 및 실험**: 제품 내에서 A/B 테스트를 실행하는 경우 트렌드 를 사용하여 시간 경과에 따라 가장 성공적인 테스트를 측정할 수 있습니다.
 
-[트렌드 스크린샷]
+![사용](../assets/usage.png)
 
 ## 쿼리 레일
 
@@ -40,6 +40,8 @@ ht-degree: 2%
 ## 시간 비교 적용
 
 {{apply-time-comparison}}
+
+![사용 시간 비교](../assets/usage-compare.png)
 
 ## 날짜 범위
 

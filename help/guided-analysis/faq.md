@@ -3,10 +3,10 @@ title: 안내식 분석 FAQ
 description: 가이드 분석에 대한 FAQ.
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: d5208a28c9efd6c31ecbfc6ff6b4e44a52f396e8
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 2%
+source-wordcount: '323'
+ht-degree: 3%
 
 ---
 
@@ -47,13 +47,11 @@ ht-degree: 2%
 
 Analysis Workspace 및 Guided Analysis는 동일한 기본 데이터를 사용하지만 각 도구가 해당 데이터를 쿼리하는 방식은 다릅니다.
 
-**Analysis Workspace은 차원 중심 경험입니다.** 표는 일반적으로 차원 항목 행으로 구성되고, 열은 일반적으로 지표입니다. 다음 중 하나에 필터를 적용하여 원하는 데이터를 얻을 수 있습니다.
+* **Analysis Workspace은 차원 중심 경험입니다.** 표는 일반적으로 차원 항목 행으로 구성되고, 열은 일반적으로 지표입니다. 다음 중 하나에 필터를 적용하여 원하는 데이터를 얻을 수 있습니다.
 
-![작업 공간 구조](assets/workspace-structure.png)
+* **안내식 분석은 이벤트 중심의 경험입니다.** 시각화는 차원 및 필터를 사용하여 해당 데이터를 보완하는 이벤트에 중점을 둡니다.
 
-**안내식 분석은 이벤트 중심의 경험입니다.** 시각화는 차원 및 필터를 사용하여 해당 데이터를 보완하는 이벤트에 중점을 둡니다.
-
-![안내식 분석 구조](assets/guided-analysis-structure.png)
+![구조](assets/structure.png)
 
 웹 사이트의 홈 페이지 관련 데이터에 중점을 두는 다음 예를 생각해 보십시오. 팀은 유사한 질문을 하지만 분석 접근 방식이 다를 수 있습니다.
 

@@ -2,9 +2,9 @@
 title: 전환 추세
 description: 시간 경과에 따른 전환율 변화를 추적합니다.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 * **A/B 테스트 평가**: 단계 컨텍스트 내에서 수행된 A/B 테스트 또는 실험의 효과를 평가합니다. 서로 다른 변형 간의 전환율을 비교하여 어떤 테스트가 더 높은 전환율을 제공하는지 쉽게 판단할 수 있으므로 어떤 변형을 영구적으로 구현할지 데이터 중심의 결정을 내릴 수 있습니다.
 * **시간 경과에 따른 캠페인 평가**: 시간에 따른 마케팅 캠페인의 효과를 측정합니다. 지정된 캠페인을 터치한 사용자에 중점을 둔 세그먼트를 만들고 전환율을 다른 캠페인과 비교할 수 있습니다. 또한 현재 전환율을 과거에 실행된 유사한 캠페인과 비교할 수도 있습니다.
 
-[단계 스크린샷]
+![전환 추세](../assets/conversion-trends.png)
 
 ## 쿼리 레일
 
@@ -39,6 +39,8 @@ ht-degree: 2%
 ## 시간 비교 적용
 
 {{apply-time-comparison}}
+
+![전환 트렌드 시간 비교](../assets/conversion-trends-compare.png)
 
 ## 날짜 범위
 
