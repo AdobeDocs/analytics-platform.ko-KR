@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1481'
 ht-degree: 75%
 
 ---
@@ -110,4 +110,4 @@ Customer Journey Analytics은 ECID 이상의 ID의 개념을 확장하여 고객
 
 ## 낮은 트래픽 차원 항목 개념 변경
 
-기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. Customer Journey Analytics은 카디널리티가 높은 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 다음을 참조하십시오 [롱테일](../analysis-workspace/workspace-faq/long-tail.md) Customer Journey Analytics 이 고유 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
+기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. Customer Journey Analytics은 카디널리티가 높은 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. 다음을 참조하십시오 [결과가 잘린 차원 항목](../analysis-workspace/workspace-faq/results-truncated.md) Customer Journey Analytics 이 고유 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용을 확인하십시오.
