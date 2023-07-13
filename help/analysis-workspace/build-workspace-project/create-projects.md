@@ -4,9 +4,9 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
 exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반 정보는 다�
 
 패널, 시각화 및 구성 요소와 같은 Analysis Workspace 프로젝트에 대한 주요 구성 요소를 추가하고 프로젝트를 시작하는 방법에 대해 설명합니다.
 
-## 빈 프로젝트 또는 템플릿에서 프로젝트 만들기
+## 프로젝트 만들기 시작
 
 1. Adobe Analytics에서 [!UICONTROL **작업 영역**].
 
