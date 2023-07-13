@@ -3,10 +3,10 @@ title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 63%
+source-wordcount: '1576'
+ht-degree: 61%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 63%
 
    대상자를 게시하기 전에 이러한 설정을 구성합니다.
 
-   ![](assets/create-audience.png)
+   ![대상자를 만드는 방법의 스크린샷](assets/create-audience.png)
 
    | 설정 | 설명 |
    | --- | --- |
@@ -52,7 +52,7 @@ ht-degree: 63%
 
    대상자 미리보기가 오른쪽 레일에 표시됩니다. 이를 통해 사용자가 만든 대상자를 요약 분석할 수 있습니다.
 
-   ![](assets/data-preview.png)
+   ![데이터 미리보기 스크린샷](assets/data-preview.png)
 
    | 미리보기 설정 | 설명 |
    | --- | --- |
@@ -85,7 +85,7 @@ ht-degree: 63%
 
 대상자 게시 전, 게시 중 및 게시 후 여러 지점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
 
-![Adobe Experience Platform에서 Customer Journey Analytics 대기 시간](assets/latency-diagram.png)
+![에 설명된 대상 게시 지연 [지연 고려 사항](#latency-considerations)](assets/latency-diagram.png)
 
 | # | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ ht-degree: 63%
 
 Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 로 선택된 내용에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다. [!UICONTROL 개인 ID] 연결이 구성된 경우.
 
-그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 &quot;user@adobe.com&quot;은 모든 디바이스와 채널을 타겟으로 지정할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
+그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어, <user@adobe.com> 는 모든 디바이스와 채널에서 타겟팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
 로 이동하여 플랫폼에서 Customer Journey Analytics 대상을 볼 수 있습니다. **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**.
 

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 66%
+source-wordcount: '1649'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 고객 여정 분석에 대한 기존 접근 방식에서 자주 발생하는 문제점은 접근 방식이 고객 중심적이지 않다는 것입니다. 각 팀은 사일로에서 데이터를 수집하고, 액세스할 수 있는 데이터를 기반으로 경험을 분석하고 최적화합니다.
 
-![일반적인 BI 워크플로](./assets/biworkflow.png)
+![이 섹션에 설명된 대로 기존 BI 워크플로](./assets/biworkflow.png)
 
 특정 디지털 캠페인이 다른 데이터 사일로에 저장된 오프라인 작업에 어떻게 영향을 미치는지 알아보려면 BI 팀의 대기열에 요청을 발행합니다. BI 팀은 데이터를 확보하고 전환하는 데 필요한 쿼리를 기록합니다. 원시 데이터가 검색되면 BI 팀은 시각화를 생성합니다. 데이터를 공유한 다음 인사이트를 면밀히 살펴보고 다른 시스템에서 활성화할 데이터를 추출합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 66%
 
 Customer Journey Analytics은 고객 여정을 이해하기 위한 유일한 목적으로 중요한 고객 수준에서 온라인 및 오프라인 크로스 채널 데이터를 연결할 수 있는 환경을 제공합니다. 관련성이 있는 데이터에 대한 보기를 [연결](/help/connections/overview.md)하고 [정의](/help/data-views/data-views.md)하려면 초기 설정이 필요합니다. 그러나 완료되면 해당 데이터는 지속적인 분석 및 탐색에 쉽게 사용할 수 있습니다. 고객 여정에 대한 통찰력을 점진적으로 확보하고 이해할 수 있습니다. 결합된 온라인 및 오프라인 데이터를 공개하여 고객 여정 관련 질문에 즉시 답변할 수 있습니다.
 
-![Customer Journey Analytics 워크플로](./assets/cjaworkflow.png)
+![이 섹션에 설명된 대로 Customer Journey Analytics 워크플로](./assets/cjaworkflow.png)
 
 Customer Journey Analytics을 사용하여 시각적 Analysis Workspace 환경을 사용하여 질문하고 거의 즉시 통찰력을 얻을 수 있습니다. 크로스 채널 데이터와 보고서는 SQL 코드 없이도 즉시 사용할 수 있습니다. 데이터를 완전히 상호 관련시키면 UI에서 간단한 드래그 앤 드롭 기능으로 추가 쿼리와 분석을 수행할 수 있습니다. 계속 질문하면서 필요에 따라 추가 내용을 점진적으로 탐색할 수 있습니다. 그런 다음 발견된 인사이트에 대해 활성화하고 조율할 대상자 공유와 같은 즉각적인 조치를 취할 수 있습니다.
 
