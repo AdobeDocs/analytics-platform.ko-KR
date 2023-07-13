@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2b0d091484c3c80d97de2952f4200d166ab5cd8a
+source-git-commit: 9e6231e4dc9770fbb7c859b397ea8c57e7dff478
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 37%
@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # 최신 Adobe Customer Journey Analytics 릴리스 정보 (2023년 7월)
 
-**마지막 업데이트**: 2023년 7월 10일
+**마지막 업데이트**: 2023년 7월 13일
 
 Adobe Customer Journey Analytics 릴리스는 [연속 게재 모델](releases.md) 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -22,7 +22,7 @@ Adobe Customer Journey Analytics 릴리스는 [연속 게재 모델](releases.md
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Product Analytics** | Adobe Product Analytics은 Customer Journey Analytics에서 크로스 채널 데이터 및 통찰력과 상호 작용하는 새로운 방법입니다. 이러한 새로운 기능을 통해 제품 팀은 안내 분석 워크플로를 통해 제품 경험에 대한 데이터 및 인사이트를 자체 관리할 수 있습니다. 팀에서 수행할 수 있는 작업:<ul><li>시간 경과에 따른 사용자 참여 패턴 이해&#x200B;</li><li>제품 사용자 기반의 성장 및 유지 &#x200B; 추적</li><li>제품의 마찰 영역 식별</li><li>기능 릴리스 및 &#x200B; 첫 번째 사용의 영향 측정</li><li>사용자의 의미 있는 세그먼트를 찾아 제품과 함께 평생 여정에 참여하고 &#x200B; 육성하십시오</li><li>Analysis Workspace에 연결하여 분석가와의 긴밀한 분석 및 공동 작업</li></ul>Adobe Product Analytics은 Customer Journey Analytics에 대한 유료 추가 기능입니다. 조직에서 이 기능을 사용하도록 프로비저닝하려면 Adobe 계정 팀에 문의하십시오. [자세히 알아보기](/help/guided-analysis/overview.md) | 해당 사항 없음 | 2023년 7월 17일 |
 | **파생 필드** | 이는 파생 필드의 초기 릴리스를 나타냅니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 또한 데이터 보기에서 파생 필드를 구성 요소(지표 또는 차원)로 정의한 다음 Workspace에서 파생 필드를 구성 요소로 사용할 수 있습니다.<p>이 릴리스는 마케팅 채널 템플릿과 다음 기능을 지원합니다.</p><ul><li>연결</li><li>다음과 같은 경우</li><li>찾기 및 바꾸기</li><li>조회</li><li>URL 구문 분석</li></ul> <p>[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md)</p> | 2023년 5월 10일 | 2023년 8월 2일 |
-| **프로필 및 조회 데이터에 대한 확장된 조회 지원** | 데이터 세트를 프로필 또는 조회 데이터 세트 내의 필드 조회로 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기] | 2023년 6월 21일 | 2023년 7월 12일 |
+| **프로필 및 조회 데이터에 대한 확장된 조회 지원** | 데이터 세트를 프로필 또는 조회 데이터 세트 내의 필드 조회로 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) | 2023년 6월 21일 | 2023년 7월 12일 |
 | **Report Builder 개선 사항** | <ul><li>셀에서 여러 데이터 블록을 필터링합니다. 셀의 여러 데이터 블록에 대한 필터를 변경할 수 있습니다. 미리 정의된 셀을 사용하여 여러 데이터 블록에 할당하고 셀에 정의된 필터를 기반으로 데이터를 업데이트합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=en)</li><li>행 및 열 머리글을 표시하거나 숨깁니다. 데이터 블록 표 머리글이나 행 및 열 머리글을 표시하거나 숨겨 표의 서식을 다시 지정하고 보고서의 데이터 블록을 정렬할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=en#build-the-data-block)</li></ul> | 해당 사항 없음 | 2023년 7월 19일 |
 | **Experience Edge 지역 조회** | Adobe Experience Edge는 모든 Experience Edge 사용자(Adobe Analytics, Customer Journey Analytics, Adobe Target, Adobe Medium Analytics, Adobe Experience Platform 등)에게 통합 지리 데이터를 제공하는 지역 조회 서비스를 추가하고 있습니다. | 해당 사항 없음 | 2023년 7월 26일 |
 
