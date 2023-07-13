@@ -2,10 +2,10 @@
 title: 첫 번째 사용 보기
 description: 주요 지표에 대한 최초 기능 사용의 영향 측정.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: 9fa4b894e69a25b26632a93f00a655eec8e8aa86
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '417'
+ht-degree: 5%
 
 ---
 
@@ -24,25 +24,26 @@ ht-degree: 8%
 * **새로운 기능 분석**: 제품 내에서 새 기능을 시작하는 경우 사용자가 새 기능에 처음 노출되기 전과 후에 수행한 주요 지표를 비교할 수 있습니다.
 * **캠페인 효과**: 사용자가 주어진 캠페인을 볼 때 사용자가 해당 캠페인을 보거나 상호 작용하기 전후에 수행된 주요 지표를 비교할 수 있습니다.
 
-<!--
-## Query rail
+## 쿼리 레일
 
-The query rail allows you to configure the following components:
+쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
-* **Key indicators**: The events that you want to measure per user. Each selected key indicator is represented as a colored line. A row representing the event is added to the table. You can include up to three events.
-* **Factors**: The date that you want to compare before and after.
-* **People**: The segment that you want to measure. The selected segment filters your data to focus only on the individuals who match your segment criteria.
+* **주요 지표**: 사용자별로 측정할 이벤트입니다. 선택한 각 키 표시기는 색칠된 선으로 표시됩니다. 이벤트를 나타내는 행이 테이블에 추가됩니다. 최대 3개의 이벤트를 포함할 수 있습니다.
+* **요소**: 이 보기에는 두 가지 요소가 있습니다.
+   * **날짜**: 이벤트가 처음 터치된 시점으로부터 얼마나 오래 전을 찾고 싶습니까?
+   * **이벤트**: 터치하기 전과 후의 비교하려는 이벤트입니다.
+* **사람**: 측정할 세그먼트입니다. 선택한 세그먼트는 데이터를 필터링하여 세그먼트 기준과 일치하는 개인에게만 집중시킵니다.
 
-## Chart settings
+## 차트 설정
 
-The Release view offers the following chart settings, which can be adjusted in the menu above the chart:
+첫 번째 사용 보기는 차트 위의 메뉴에서 조정할 수 있는 다음과 같은 차트 설정을 제공합니다.
 
-* **Metric**: The metric that you want to measure. Options include [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], and [!UICONTROL Users].
-* **Chart type**: The type of visualization that you want to use. Options include Line.
+* **지표**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자당 이벤트 수], [!UICONTROL 이벤트], [!UICONTROL 세션], 및 [!UICONTROL 사용자].
+* **차트 유형**: 사용하려는 시각화 유형입니다. 옵션에는 Line이 포함됩니다.
 
-## Date range
+## 날짜 범위
 
-Date selection in impact reports operate differently than other analysis types, since the report revolves around the date specified in the query rail. The following options are available:
+영향 보고서의 날짜 선택은 다른 분석 유형과 다르게 작동합니다. 이 보고서는 (쿼리 레일에 지정된) 처음 터치되는 주어진 이벤트를 중심으로 회전하기 때문입니다. 다음 옵션을 사용할 수 있습니다.
 
-* **Interval**: The date granularity that you want to view trended data by. Valid options include [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], and [!UICONTROL Quarterly]. Changing the interval affects the options available for the Before and after period.
-* **Before and after period**: The amount of time to analyze before and after the date specified in the query rail. Available options depend on the [!UICONTROL Interval] selection. -->
+* **간격**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 유효한 옵션은 다음과 같습니다. [!UICONTROL 매일], [!UICONTROL 매주], [!UICONTROL 월별], 및 [!UICONTROL 분기별]. 간격을 변경하면 이전 및 이후 기간에 사용할 수 있는 옵션에 영향을 줍니다.
+* **기간 전후**: 쿼리 레일에 지정된 터치된 이벤트 전후의 분석 시간입니다. 사용 가능한 옵션은 [!UICONTROL 간격] 선택 항목.
