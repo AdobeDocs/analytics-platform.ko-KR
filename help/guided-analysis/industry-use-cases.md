@@ -1,9 +1,9 @@
 ---
 title: 업계 사용 사례
 description: 가이드 분석을 위한 업계 사용 사례
-source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
+source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 2%
 
 ![여행 및 접대 현황 보기](assets/th-trends-usage.png)
 
+![여행 및 접대에 대한 전환 트렌드](assets/th-funnel-conversio-trends.png)
+
 +++
 
 +++**미디어 및 엔터테인먼트**
@@ -81,6 +83,8 @@ ht-degree: 2%
 ![미디어 및 엔터테인먼트를 위한 마찰 보기](assets/me-funnel-friction.png)
 
 ![미디어 및 엔터테인먼트에 대한 활성 보기](assets/me-user-growth-active.png)
+
+![](assets/me-trends-usage.png)
 
 +++
 

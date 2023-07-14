@@ -3,7 +3,7 @@ title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bdde5e7798ee3c960006d47dc31947d2e1a74a5f
+source-git-commit: 75f946e65bfc0ccee4f173b699b14caced21bbaf
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 8%
@@ -40,11 +40,11 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 
 1. 클릭 **[!UICONTROL 안내식 분석]** 홈페이지에서 로 바로 이동 [사용 트렌드 보기](types/usage.md).
 
-   ![새 모달 만들기](assets/create-new-modal.png)
+   ![랜딩 페이지 타일](assets/landing-page-tile.png)
 
 1. 클릭 **[!UICONTROL 새로 만들기]** 을 클릭하여 다양한 보기 옵션을 확인하고 다른 분석 시작점을 선택합니다.
 
-   ![랜딩 페이지 타일](assets/landing-page-tile.png)
+   ![새 모달 만들기](assets/create-new-modal.png)
 
 ## 인터페이스
 
