@@ -3,10 +3,10 @@ title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: cc76b4c3b03647f6e90f0b57f4d8c819caa8823f
+source-git-commit: bdde5e7798ee3c960006d47dc31947d2e1a74a5f
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 9%
+source-wordcount: '1048'
+ht-degree: 8%
 
 ---
 
@@ -24,23 +24,27 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 
 | 분석 유형 | 보기 유형 | 설명 |
 | --- | --- | --- |
-| 영향 | [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능 비교. |
-| 영향 | [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향 측정. |
-| 단계 | [마찰](types/friction.md) | 단계 간 전환율 비교. |
-| 단계 | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화 추적. |
-| 사용자 성장 | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
-| 사용자 성장 | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
-| 트렌드 | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
+| [!UICONTROL 영향] | [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능 비교. |
+| [!UICONTROL 영향] | [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향 측정. |
+| [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율 비교. |
+| [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화 추적. |
+| [!UICONTROL 사용자 성장] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
+| [!UICONTROL 순성장] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
+| [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
 
 {style="table-layout:auto"}
 
 ## 액세스
 
-조직에 가이드 분석이 제공되는 경우 Customer Journey Analytics 홈페이지에서 액세스할 수 있습니다.
+조직에 안내가 있는 분석이 프로비저닝된 경우 Customer Journey Analytics 홈페이지에서 액세스할 수 있습니다.
 
-클릭 **안내식 분석** 홈페이지에서 로 바로 이동 [사용 트렌드 보기](types/usage.md).
+1. 클릭 **[!UICONTROL 안내식 분석]** 홈페이지에서 로 바로 이동 [사용 트렌드 보기](types/usage.md).
 
-클릭 **새로 만들기** 을 클릭하여 다양한 보기 옵션을 확인하고 다른 분석 시작점을 선택합니다.
+   ![새 모달 만들기](assets/create-new-modal.png)
+
+1. 클릭 **[!UICONTROL 새로 만들기]** 을 클릭하여 다양한 보기 옵션을 확인하고 다른 분석 시작점을 선택합니다.
+
+   ![랜딩 페이지 타일](assets/landing-page-tile.png)
 
 ## 인터페이스
 
