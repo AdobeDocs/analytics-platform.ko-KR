@@ -4,7 +4,7 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 585242be7ffff5b089d8452d34f7ee012a7d01f5
+source-git-commit: 3626a9f97048b68a57fca25fec396684c4f95449
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 30%
@@ -44,6 +44,8 @@ ht-degree: 30%
 
 
 ### 통화 변환 및 표시
+
+{{release-limited-testing-section}}
 
 하나 이상의 지표에 대해 통화 변환을 활성화하려면 다음을 수행합니다.
 
