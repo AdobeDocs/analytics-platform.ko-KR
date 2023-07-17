@@ -2,7 +2,7 @@
 title: 순 성장 전망
 description: 사용자가 증가하고 있습니까, 감소하고 있습니까?
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -10,8 +10,6 @@ ht-degree: 1%
 ---
 
 # 순 성장 전망
-
-{{release-limited-testing}}
 
 다음 **순성장** 보기 유형 은 특정 기간 동안 사용자를 얻거나 잃는 속도에 대한 통찰력을 제공합니다. 가로축은 시간간격인 반면 세로축은 생장의 측정치이다.
 

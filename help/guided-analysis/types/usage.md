@@ -3,7 +3,7 @@ title: 사용 보기
 description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 3%
@@ -11,8 +11,6 @@ ht-degree: 3%
 ---
 
 # 사용 보기
-
-{{release-limited-testing}}
 
 다음 **사용** 보기는 시간의 흐름에 따라 사용자의 제품 성능 또는 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
 

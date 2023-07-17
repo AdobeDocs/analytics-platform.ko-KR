@@ -2,7 +2,7 @@
 title: 전환 트렌드 보기
 description: 시간 경과에 따른 전환율 변화를 추적합니다.
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -10,8 +10,6 @@ ht-degree: 2%
 ---
 
 # 전환 트렌드 보기
-
-{{release-limited-testing}}
 
 다음 **전환 트렌드** view에서는 시간 경과에 따른 전환율에 대한 트렌드 시각화를 제공합니다. 가로축은 시간 간격인 반면, 세로축은 전환율을 나타냅니다.
 

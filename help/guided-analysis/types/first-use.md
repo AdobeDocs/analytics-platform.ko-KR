@@ -2,7 +2,7 @@
 title: 첫 번째 사용 보기
 description: 주요 지표에 대한 최초 기능 사용의 영향 측정.
 feature: Guided Analysis
-source-git-commit: 4d642c150f04ed4780820036cfd53fc343fc94c8
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -10,8 +10,6 @@ ht-degree: 3%
 ---
 
 # 첫 번째 사용 보기
-
-{{release-limited-testing}}
 
 다음 **첫 번째 사용** 보기는 사용자가 제품 기능을 처음 사용하기 전과 후에 수행되는 주요 지표의 비교를 보여 줍니다. 이 보고서의 가로 축은 이벤트 전후의 상대적인 시간 간격인 반면, 세로 축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 주어진 사용자가 기능을 처음 사용할 때의 0일을 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 롤아웃이 여러 날에 걸쳐 발생할 수 있으므로 0일은 각 개별 사용자마다 다른 의미입니다.
 

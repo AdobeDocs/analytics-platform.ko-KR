@@ -3,7 +3,7 @@ title: 활성 보기
 description: 신규, 유지, 복귀 또는 휴면 상태 식별.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 3%
@@ -11,8 +11,6 @@ ht-degree: 3%
 ---
 
 # 활성 보기
-
-{{release-limited-testing}}
 
 다음 **활성** view는 특정 기간 동안의 사용자 증가 및 확보에 대한 통찰력을 제공합니다. 가로 축은 시간 간격인 반면, 세로 축은 사용자를 측정합니다. 사용자는 4개의 카테고리로 나뉩니다.
 

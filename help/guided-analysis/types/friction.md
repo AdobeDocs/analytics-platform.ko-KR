@@ -3,7 +3,7 @@ title: 마찰 보기
 description: 단계 간 전환율 비교.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 3%
@@ -11,8 +11,6 @@ ht-degree: 3%
 ---
 
 # 마찰 보기
-
-{{release-limited-testing}}
 
 다음 **마찰** view는 제품의 중요한 사용자 여정을 시각적으로 보여 줍니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로 축은 각 단계에서 사용자 또는 세션의 백분율을 나타냅니다. 모든 단계는 최종 순서로 수행되어야 하지만 보고 기간 내에서 언제든지 발생할 수 있습니다.
 
