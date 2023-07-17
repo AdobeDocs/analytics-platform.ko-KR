@@ -1,8 +1,8 @@
 ---
-source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
+source-git-commit: 497334bdd0324e5b3955be79029079af88ca56e2
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 69%
+source-wordcount: '1092'
+ht-degree: 67%
 
 ---
 # 스니펫
@@ -18,6 +18,13 @@ ht-degree: 69%
 >[!AVAILABILITY]
 >
 >이 섹션에서 설명하는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md).
+
+## 패키지 선택 {#select-package}
+
+>[!NOTE]
+>
+>다음을 보유해야 합니다. **선택** 이 문서에 설명된 기능을 사용하려면 패키지를 제공합니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
 
