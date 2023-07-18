@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 97%
+source-wordcount: '750'
+ht-degree: 68%
 
 ---
 
@@ -90,3 +90,47 @@ ht-degree: 97%
 1. **적용**&#x200B;을 클릭합니다.
 
    Report Builder는 필터 목록을 업데이트하여 바꾸기 내용을 반영합니다.
+
+### 셀에서 데이터 블록 필터 정의
+
+데이터 블록은 셀의 필터를 참조할 수 있습니다. 여러 데이터 블록이 필터에 대해 동일한 셀을 참조할 수 있으므로 여러 데이터 블록에 대한 필터를 한 번에 쉽게 전환할 수 있습니다.
+
+셀에서 필터를 적용하려면
+
+1. 데이터 블록 만들기 또는 편집 프로세스의 2단계로 이동합니다. 다음을 참조하십시오 [데이터 블록 만들기](./create-a-data-block.md).
+1. 다음을 클릭합니다. **필터** 탭을 사용하여 필터를 정의합니다.
+1. 클릭 **셀에서 필터 만들기**.
+
+   ![](./assets/create-filter-from-cell.png)
+
+1. 데이터 블록이 필터를 참조할 셀을 선택합니다.
+
+1. 필터를 두 번 클릭하거나 필터를 포함된 필터 섹션으로 끌어다 놓아 셀에 추가하려는 필터 선택 사항을 추가합니다.
+
+   참고: 주어진 셀에 대해 한 번에 하나의 선택만 선택할 수 있습니다.
+
+   ![](./assets/select-filters.png)
+
+1. 클릭 **적용** 참조 셀을 생성합니다.
+
+1. 다음에서 **필터** 탭에서 새로 만든 참조 셀 필터를 데이터 블록에 추가합니다.
+
+   ![](./assets/reference-cell-filter.png)
+
+1. **마침**&#x200B;을 클릭합니다.
+
+   이제 이 셀은 필터의 다른 데이터 블록에서 참조할 수 있습니다. 참조 셀을 다른 데이터 블록에 필터로 적용하려면 필터 탭에서 해당 필터에 셀 참조를 추가하면 됩니다.
+
+#### 참조 셀을 사용하여 데이터 블록 필터 변경
+
+1. 스프레드시트에서 참조 셀을 선택합니다.
+
+1. 아래의 링크를 클릭합니다. **셀에서 필터** 를 클릭합니다.
+
+   ![](./assets/filters-from-cell-link.png)
+
+1. 드롭다운 메뉴에서 필터를 선택합니다.
+
+   ![](./assets/filter-drop-down.png)
+
+1. **적용**&#x200B;을 클릭합니다.

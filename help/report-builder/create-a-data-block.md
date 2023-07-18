@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 82%
 
 ---
 
@@ -70,6 +70,24 @@ ht-degree: 97%
    테이블에 구성 요소를 추가하면 워크시트의 데이터 블록 위치에 데이터 블록 미리보기가 표시됩니다. 테이블에서 항목을 추가, 이동 또는 제거하면 데이터 블록 미리보기의 레이아웃이 자동으로 업데이트됩니다.
 
    ![](./assets/image10.png)
+
+   **행 및 열 머리글 표시 또는 숨기기**
+
+1. Report Builder 허브에서 데이터 블록 편집 명령을 클릭합니다.
+
+1. 다음을 클릭합니다. **표** 설정 아이콘.
+
+   ![자리 표시자 이미지](./assets/table-settings.png){width="35%"}
+
+1. 행 및 열 머리글 표시 옵션을 선택하거나 선택 취소합니다. 기본적으로 헤더가 표시됩니다.
+
+   **차원 레이블 및 지표 헤더 숨기기 또는 표시**
+
+1. 차원 또는 열 헤더에서 줄임표 아이콘을 클릭하여 설정을 표시합니다.
+
+   ![자리 표시자 이미지](./assets/row-heading.png){width="35%"}
+
+1. 차원 레이블이나 열 머리글을 전환하려면 숨기기 또는 표시 를 클릭합니다. 기본적으로 모든 레이블이 표시됩니다.
 
 1. **마침**&#x200B;을 클릭합니다.
 
