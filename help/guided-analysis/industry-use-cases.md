@@ -1,9 +1,9 @@
 ---
 title: 업계 사용 사례
 description: 가이드 분석을 위한 업계 사용 사례
-source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
@@ -46,8 +46,6 @@ ht-degree: 2%
 
 ![금융 서비스에 대한 활성 보기](assets/fsi-user-growth-active.png)
 
-![금융 서비스에 대한 대체 활성 보기](assets/fsi-user-growth-active-2.png)
-
 +++
 
 +++**여행 및 접대**
@@ -65,7 +63,7 @@ ht-degree: 2%
 
 ![여행 및 접대 현황 보기](assets/th-trends-usage.png)
 
-![여행 및 접대에 대한 전환 트렌드](assets/th-funnel-conversio-trends.png)
+![여행 및 접대에 대한 전환 트렌드](assets/th-funnel-conversion-trends.png)
 
 +++
 
