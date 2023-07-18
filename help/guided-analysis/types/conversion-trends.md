@@ -2,10 +2,10 @@
 title: 전환 트렌드 보기
 description: 시간 경과에 따른 전환율 변화를 추적합니다.
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 2%
+source-wordcount: '453'
+ht-degree: 1%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 2%
 
 다음 **전환 트렌드** view에서는 시간 경과에 따른 전환율에 대한 트렌드 시각화를 제공합니다. 가로축은 시간 간격인 반면, 세로축은 전환율을 나타냅니다.
 
-![전환 추세](../assets/conversion-trends.png)
-
-## 사용 중인 전환 트렌드 보기 를 참조하십시오
+다음을 참조하십시오. [!UICONTROL 전환 트렌드] 작업 보기
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 

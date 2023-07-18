@@ -2,16 +2,16 @@
 title: 순 성장 전망
 description: 사용자가 증가하고 있습니까, 감소하고 있습니까?
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
-# 순 성장 전망
+# [!UICONTROL 순성장] 보기
 
-다음 **순성장** 보기 유형 은 특정 기간 동안 사용자를 얻거나 잃는 속도에 대한 통찰력을 제공합니다. 가로축은 시간간격인 반면 세로축은 생장의 측정치이다.
+다음 **[!UICONTROL 순성장]** 보기 유형 은 특정 기간 동안 사용자를 얻거나 잃는 속도에 대한 통찰력을 제공합니다. 가로축은 시간간격인 반면 세로축은 생장의 측정치이다.
 
 각 데이터 포인트는 다음 공식을 사용하여 계산된 순 증가율을 나타냅니다.
 
@@ -29,9 +29,7 @@ ht-degree: 1%
 >
 >반복 사용자는 사용자의 이익 또는 손실을 나타내지 않으므로 이 계산에 포함되지 않습니다.
 
-![순성장](../assets/net-growth.png)
-
-## Net growth view 활용 사례 보기
+다음을 참조하십시오. [!UICONTROL 순성장] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

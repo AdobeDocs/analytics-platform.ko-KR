@@ -3,7 +3,7 @@ title: 활성 보기
 description: 신규, 유지, 복귀 또는 휴면 상태 식별.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 2%
@@ -21,9 +21,7 @@ ht-degree: 2%
 
 모든 활성 사용자(신규 + 반복 + 반환)는 가로 축 위에 오리의 음영으로 표시되고, 모든 휴면 사용자는 가로 축 아래에 주황색으로 표시됩니다.
 
-![활성](../assets/active.png)
-
-## 작동 중인 활성 보기 참조
+다음을 참조하십시오. [!UICONTROL 활성] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 
