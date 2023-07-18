@@ -4,9 +4,9 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
+source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1487'
 ht-degree: 62%
 
 ---
@@ -21,13 +21,11 @@ ht-degree: 62%
 
 ## 플로우 시각화 만들기 {#configure}
 
-1. 프로젝트에 빈 패널을 추가하고 왼쪽 레일에서 시각화 아이콘을 클릭합니다.
-
-1. 드래그 [!UICONTROL **플로우**] 패널에 시각화하십시오.
+1. 프로젝트에 빈 패널을 추가하고 왼쪽 레일에서 시각화 아이콘을 선택한 다음 를 드래그합니다. [!UICONTROL **플로우**] 패널에 시각화하십시오.
 
    또는
 
-   드래그 [!UICONTROL **플로우**] 기존 프로젝트로 시각화.
+   의 &quot;패널에 시각화 추가&quot; 섹션에 설명된 방법으로 시각화를 추가합니다. [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. 다음 옵션 중 하나를 사용하여 플로우 시각화를 고정합니다.
 
@@ -45,7 +43,7 @@ ht-degree: 62%
    >
    >계산된 지표는에서 사용할 수 없습니다.  **[!UICONTROL 다음으로 시작]** 또는 **[!UICONTROL 다음으로 끝남]** 필드.
 
-1. 지표를 선택하는 경우 [!UICONTROL 경로 지정 Dimension] 을 사용하여 아래와 같이 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 수 있습니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
+1. 지표를 선택하는 경우 [!UICONTROL **경로 지정 Dimension**] 을 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
 
    ![경로 지정 차원](assets/pathing-dim.png)
 
