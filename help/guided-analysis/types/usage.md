@@ -3,9 +3,9 @@ title: 사용 보기
 description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 2%
 # [!UICONTROL 사용] 보기
 
 다음 **[!UICONTROL 사용]** 보기는 시간의 흐름에 따라 사용자의 제품 성능 또는 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
-
-다음을 참조하십시오. [!UICONTROL 사용] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 

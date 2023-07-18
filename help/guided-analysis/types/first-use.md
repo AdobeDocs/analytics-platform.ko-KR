@@ -2,9 +2,9 @@
 title: 첫 번째 사용 보기
 description: 주요 지표에 대한 최초 기능 사용의 영향 측정.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '613'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,6 @@ ht-degree: 3%
 # [!UICONTROL 첫 번째 사용] 보기
 
 다음 **[!UICONTROL 첫 번째 사용]** 보기는 사용자가 제품 기능을 처음 사용하기 전과 후에 수행되는 주요 지표의 비교를 보여 줍니다. 이 보고서의 가로 축은 이벤트 전후의 상대적인 시간 간격인 반면, 세로 축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 주어진 사용자가 기능을 처음 사용할 때의 0일을 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 롤아웃이 여러 날에 걸쳐 발생할 수 있으므로 0일은 각 개별 사용자마다 다른 의미입니다.
-
-다음을 참조하십시오. [!UICONTROL 첫 번째 사용] 작업 보기
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
 

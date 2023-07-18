@@ -2,9 +2,9 @@
 title: 순 성장 전망
 description: 사용자가 증가하고 있습니까, 감소하고 있습니까?
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >반복 사용자는 사용자의 이익 또는 손실을 나타내지 않으므로 이 계산에 포함되지 않습니다.
-
-다음을 참조하십시오. [!UICONTROL 순성장] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

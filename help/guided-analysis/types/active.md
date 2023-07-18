@@ -3,9 +3,9 @@ title: 활성 보기
 description: 신규, 유지, 복귀 또는 휴면 상태 식별.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '595'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 2%
 * **[!UICONTROL 휴면 상태]**: 사용자가 이전 기간에서는 활성화되었지만 현재 기간에서는 활성화되지 않았습니다. 휴면 사용자는 활성 사용자의 총 수에 포함되지 않습니다.
 
 모든 활성 사용자(신규 + 반복 + 반환)는 가로 축 위에 오리의 음영으로 표시되고, 모든 휴면 사용자는 가로 축 아래에 주황색으로 표시됩니다.
-
-다음을 참조하십시오. [!UICONTROL 활성] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 

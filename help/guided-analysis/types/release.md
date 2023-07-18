@@ -2,18 +2,16 @@
 title: 릴리스 보기
 description: 릴리스 전후 동일한 기간 동안의 성능 비교.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 3%
+source-wordcount: '474'
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL 릴리스] 보기
 
 다음 **[!UICONTROL 릴리스]** 보기는 지정된 날짜 이전 및 이후에 주요 지표가 수행되는 방식의 비교를 보여 줍니다. 이 보고서의 가로축은 시간 간격인 반면 세로축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 이전 날짜와 이후 날짜를 비교하려는 날짜를 나타냅니다. 이 날짜는 일반적으로 제품 업데이트 또는 캠페인 시작과 같이 측정하려는 제품에 대한 주목할 만한 변경 사항을 나타냅니다.
-
-다음을 참조하십시오. [!UICONTROL 릴리스] 작업 보기:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
 
