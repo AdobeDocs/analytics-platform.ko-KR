@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
+source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 82%
+source-wordcount: '541'
+ht-degree: 83%
 
 ---
 
@@ -72,8 +72,6 @@ ht-degree: 82%
    ![](./assets/image10.png)
 
    **행 및 열 머리글 표시 또는 숨기기**
-
-1. Report Builder 허브에서 데이터 블록 편집 명령을 클릭합니다.
 
 1. 다음을 클릭합니다. **표** 설정 아이콘.
 
