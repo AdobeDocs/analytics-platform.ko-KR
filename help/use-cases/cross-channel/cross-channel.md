@@ -4,10 +4,10 @@ description: 고객 여정 전반에 걸친 고객 상호 작용에서 통찰력
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 75f27ef2f5fcd0d2a2038dbe7bcf812e865a14fc
+source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 61%
+source-wordcount: '528'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 ## 구현 절차
 
-![에 설명된 구현 단계의 흐름에 대한 그림 [구현 단계](#implementation-steps)](../assets/cca-architecture.png)
+![이 섹션에 설명된 구현 단계의 흐름입니다.](../assets/cca-architecture.png)
 
 1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
 1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html).

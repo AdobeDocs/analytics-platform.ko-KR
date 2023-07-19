@@ -3,7 +3,7 @@ title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
+source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
 workflow-type: tm+mt
 source-wordcount: '1576'
 ht-degree: 61%
@@ -85,7 +85,7 @@ ht-degree: 61%
 
 대상자 게시 전, 게시 중 및 게시 후 여러 지점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
 
-![에 설명된 대상 게시 지연 [지연 고려 사항](#latency-considerations)](assets/latency-diagram.png)
+![이 섹션에 설명된 대로 대상 게시의 대기 시간입니다.](assets/latency-diagram.png)
 
 | # | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
