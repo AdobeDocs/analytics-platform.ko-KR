@@ -3,10 +3,10 @@ description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자�
 title: 필터 빌드
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 28%
+source-wordcount: '1396'
+ht-degree: 23%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 28%
 
 다음 방법 중 하나로 필터 빌더에 액세스할 수 있습니다.
 
-* **Analytics 위쪽 탐색**: 클릭 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 필터]**.
+* **위쪽 탐색**: 클릭 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 필터]**.
 * **[!UICONTROL Analysis Workspace]**: Analysis Workspace에서 프로젝트를 열어 놓고 다음을 선택합니다. **[!UICONTROL + 구성 요소]** > **[!UICONTROL 필터 만들기]**.
-* **[!UICONTROL Reports &amp; Analytics]**: 클릭 **[!UICONTROL 분석]** > **[!UICONTROL 보고서]**&#x200B;를 클릭하고 기존 보고서를 연 다음 **필터** 왼쪽 탐색 창에서 아이콘을 클릭한 다음 **[!UICONTROL 추가]**.
-* **[!UICONTROL Report Builder]**: [Report Builder에서 필터 추가 또는 편집](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=ko-KR).
+* **[!UICONTROL Report Builder]**: [Report Builder에서 필터 작업](/help/report-builder/work-with-filters.md).
 
 ## 빌더 기준 개요 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -153,91 +152,3 @@ ht-degree: 28%
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-## 템플릿 필터링 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
-
-필터 템플릿은 &quot;처음 방문&quot; 또는 &quot;모바일 장치에서 방문&quot;과 같은 일반적인 필터 사용 사례에 대해 제공됩니다. Workspace 프로젝트 및 필터 빌더에서 새 필터의 빌딩 블록으로 사용할 수 있습니다.
-
-템플릿은 Adobe &quot;A&quot; 로고로 표시됩니다. 템플릿 샘플은 아래에 나와 있습니다.
-
-<table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 템플릿 이름 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 장바구니 포기 </td> 
-   <td colname="col2">장바구니에 항목을 추가했지만 주문하지 않은 사용자의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 이 순차적 필터에 대한 규칙은 다음과 같습니다. <p> 장바구니 추가는 null입니다. </p> <p>Then </p> <p>주문은 0입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 최초 방문 </td> 
-   <td colname="col2">최대 [1]회 방문한 사용자에 대한 데이터를 봅니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>방문 번호가 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 비구매자 </td> 
-   <td colname="col2">주문 이벤트에 참여하지 않은 사용자에 대한 데이터를 봅니다. 필터 정의에서 이 컨테이너는 방문자입니다. 이 필터는 제외 논리를 사용합니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 단일 페이지 방문 아님 (바운스 아님) </td> 
-   <td colname="col2">두 번 이상 방문한 사용자에 대한 데이터를 봅니다. 필터 정의에서 이 컨테이너는 방문자입니다. 이 필터는 제외 논리를 사용합니다. 규칙: <p>단일 액세스가 null이 아닙니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 유료 검색 </td> 
-   <td colname="col2">유료 검색에서 시작한 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>유료 검색은 1입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 구매자 </td> 
-   <td colname="col2">주문 이벤트에 참가한 사용자에 대한 데이터를 봅니다. 필터 정의에서 이 컨테이너는 방문자입니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 재방문 </td> 
-   <td colname="col2">한 번 이상 방문한 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>방문 번호가 1보다 큼. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 단일 페이지 방문 횟수 </td> 
-   <td colname="col2"> 해당 방문 중에 여러 페이지 보기를 제출할 수 있더라도 단일 페이지 값을 열람한 방문의 데이터를 표시합니다. 종료 링크 이벤트가 있는 단일 페이지 방문이 필터에 포함됩니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>단일 페이지 방문 횟수는 1입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 열람되었지만 장바구니에 추가되지 않은 제품 </td> 
-   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 사용자의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 이 순차적 필터에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>Then </p> <p> 장바구니 추가는 0입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 캠페인에서 방문 </td> 
-   <td colname="col2">캠페인에서 참조한 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>추적 코드가 null이 아닙니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 기기로부터 찾아온 방문 </td> 
-   <td colname="col2">모바일 장치를 사용하는 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>모바일 디바이스가 Null이 아닙니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 자연어 검색으로 찾아온 방문 </td> 
-   <td colname="col2">유료 검색에서 시작하지 않은 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>유료 검색은 0입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 비모바일 디바이스에서 시작된 방문 </td> 
-   <td colname="col2">모바일 장치를 사용하지 않는 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 이 필터는 제외 논리를 사용합니다. 규칙: <p>모바일 디바이스 유형이 휴대 전화와 같음 </p> <p>또는 </p> <p>모바일 디바이스 유형이 태블릿과 같음. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 휴대폰에서 시작된 방문 </td> 
-   <td colname="col2">휴대폰을 사용하는 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>디바이스 유형이 휴대폰입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 검색 엔진에서 시작된 방문 </td> 
-   <td colname="col2">검색 엔진에서 참조한 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>레퍼러 유형이 검색 엔진입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 소셜 사이트에서 찾아온 방문 </td> 
-   <td colname="col2">소셜 사이트에서 참조한 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>레퍼러 유형이 소셜 네트워크. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 태블릿에서 시작된 방문 </td> 
-   <td colname="col2">태블릿을 사용하는 사람의 데이터를 표시합니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>디바이스 유형이 태블릿입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문자 ID를 갖는 방문 </td> 
-   <td colname="col2">영구적 쿠키가 필요한 경우 개인에서 사이트로 데이터를 봅니다. 필터 정의에서 이 컨테이너는 방문입니다. 규칙: <p>영구적 쿠키는 1입니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
