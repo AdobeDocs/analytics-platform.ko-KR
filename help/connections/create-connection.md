@@ -4,16 +4,16 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '2605'
-ht-degree: 60%
+source-wordcount: '2630'
+ht-degree: 58%
 
 ---
 
 # 연결 만들기
 
-새로운 연결 워크플로가 최근에 Customer Journey Analytics에서 시작되었습니다. 새로운 연결 생성 및 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보와 함께 자세한 데이터 세트 선택, 구성 및 검토 경험을 제공했습니다. 다음은 새로운 기능에 대한 개요입니다.
+연결 생성 및 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보와 함께 상세한 데이터 세트 선택, 구성 및 검토 경험을 제공하여 잘못된 연결 구성의 위험을 줄입니다. 다음은 기능에 대한 개요입니다.
 
 * 연결을 생성할 때 롤링 데이터 보존 기간을 활성화할 수 있습니다.
 * 연결에서 데이터 세트를 추가하거나 제거할 수 있습니다. (데이터 세트를 제거하면 연결에서 데이터 세트가 제거되고 연결된 모든 데이터 보기 및 기본 Analysis Workspace 프로젝트에 영향을 미칩니다.)
@@ -22,6 +22,10 @@ ht-degree: 60%
 * 각 데이터 세트에 대한 기존 데이터를 가져올 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
+>[!IMPORTANT]
+>
+>다음을 보유해야 합니다. **선택** 패키지에 포함하면 연결에 데이터 세트를 무제한으로 추가할 수 있습니다. 다음 **Foundation** 패키지는 하나의 데이터 세트로 제한됩니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오&#x200B;.
 
 ## 연결 만들기 및 구성 {#create-connection}
 

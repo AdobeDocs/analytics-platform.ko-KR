@@ -5,16 +5,20 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 29%
+source-wordcount: '878'
+ht-degree: 28%
 
 ---
 
 # Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용
 
 Adobe Analytics 고객은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko)를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. 다음은 이를 수행하는 방법에 대해 설명합니다.
+
+>[!IMPORTANT]
+>
+>다음을 보유해야 합니다. **선택** 둘 이상의 보고서 세트에서 데이터 분석을 수행하기 위한 패키지 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오&#x200B;.
 
 ## 준비
 

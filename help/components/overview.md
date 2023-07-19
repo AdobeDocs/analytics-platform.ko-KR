@@ -4,10 +4,10 @@ description: Customer Journey Analytics이 제공하는 구성 요소와 보고 
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 87%
+source-wordcount: '1127'
+ht-degree: 79%
 
 ---
 
@@ -21,10 +21,14 @@ ht-degree: 87%
 다음 구성 요소를 관리할 수 있습니다.
 
 * [**주석**](/help/components/annotations/overview.md): 상황별 데이터 뉘앙스와 통찰력을 조직에 전달합니다.
-* [**필터**](filters/filters-overview.md): 데이터의 일부를 제외하여 공통 차원 항목에 주력
+* [**대상**](/help/components/audiences/audiences-overview.md): Customer Journey Analytics에서 발견된 대상자를 만들고 게시합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-kr) 고객 타겟팅 및 개인화를 위한 Adobe Experience Platform의 RTCDP.
+* [**필터**](filters/filters-overview.md): 강력하고 집중된 대상 필터를 빌드하고, 관리하고, 공유하고, 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 개인 하위 집합을 식별할 수 있습니다.
 * [**계산된 지표**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
-* [**날짜 범위**](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화
-* [**프로젝트**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트 구성 및 유지 관리
+* [**데이터 사전**](/help/components/data-dictionary/data-dictionary-overview.md): 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 지원합니다.
+* [**날짜 범위**](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화.
+* [**Dimension**](/help/components/dimensions/view-dimensions.md): Dimension은 일반적으로 문자열 값을 포함하는 변수입니다. 일반적인 차원은 페이지 및 참조 도메인을 포함합니다.
+* [**지표**](/help/components/apply-create-metrics.md): Analysis Workspace에서 데이터 포인트를 수량화할 수 있습니다.
+* [**프로젝트**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트 구성 및 유지 관리.
 
 ## Analysis Workspace 구성 요소
 
