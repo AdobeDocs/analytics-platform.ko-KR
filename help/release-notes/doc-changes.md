@@ -88,7 +88,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 8월 | [Customer Journey Analytics 액세스 제어](/help/admin/cja-access-control.md)에 대한 문서가 대폭 업데이트되었습니다. |
 | 2022년 8월 | [데이터 거버넌스 레이블 및 정책에 대한 Customer Journey Analytics 지원](/help/data-views/data-governance.md)에 관한 새 문서. |
 | 2022월 8월 | [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](/help/getting-started/aa-vs-cja/terminology.md)에 대한 새 문서. |
-| 2022월 8월 | [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)에 대한 새 설명서. |
+| 2022년 8월 | [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)에 대한 새 설명서. |
 | **2022년 7월** | |
 | 2022년 7월 | [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 문서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 문서. |
