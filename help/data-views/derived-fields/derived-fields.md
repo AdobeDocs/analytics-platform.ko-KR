@@ -4,11 +4,11 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+badgeDerivedFields: label="새로운 기능" type="Positive"
+source-git-commit: 33ed28de1c410bcba04ab405ce8d779a501f4b3f
 workflow-type: tm+mt
-source-wordcount: '3281'
-ht-degree: 8%
+source-wordcount: '4350'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 파생 필드를 만들거나 편집할 때 파생 필드 인터페이스를 사용합니다.
 
-![파생 필드 대화 상자](assets/derived-field-dialog.png)
+![파생된 필드 대화 상자의 스크린샷](assets/derived-field-dialog.png)
 
 
 |  |  이름  | 설명 |
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 규칙 빌더에서 규칙을 정의할 때는 규칙 인터페이스를 사용합니다.
 
-![규칙 인터페이스](assets/rule-interface.png)
+![파생된 필드 규칙 인터페이스의 스크린샷](assets/rule-interface.png)
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
@@ -139,7 +139,7 @@ ht-degree: 8%
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
 
-![마케팅 채널 템플릿 규칙 빌더](assets/marketing-channel-template.png)
+![마케팅 채널 템플릿 규칙 빌더의 스크린샷](assets/marketing-channel-template.png)
 
 +++
 
@@ -177,7 +177,7 @@ ht-degree: 8%
 
 ### 연결
 
-두 개 이상의 필드, 파생된 필드 또는 사용자가 입력한 값을 정의된 구분 기호가 있는 단일 필드에 결합합니다.
+정의된 구분 기호를 사용하여 필드 값을 새로 파생된 단일 필드에 결합합니다.
 
 +++ 세부 사항
 
@@ -185,7 +185,7 @@ ht-degree: 8%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <p>문자열</p> | <ul><li>각 [!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>사용자 입력 입력</li></ul></li><li>각 [!UICONTROL 구분 기호]:<ul><li>사용자 입력 입력</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 구분 기호]:<ul><li>문자열</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -235,7 +235,7 @@ ht-degree: 8%
 
 새 항목을 정의합니다. [!UICONTROL 원본 - 대상] 파생 필드. 다음을 사용합니다. [!UICONTROL 연결] 을 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 를 사용하는 필드 `-` [!UICONTROL 구분 기호].
 
-![연결 규칙](assets/concatenate.png)
+![연결 규칙의 스크린샷](assets/concatenate.png)
 
 ### 다음 이후 데이터 {#concatenate-dataafter}
 
@@ -263,7 +263,7 @@ ht-degree: 8%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>각 [!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준] (선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>각 [!UICONTROL 그런 다음 값을 로 설정합니다.], [!UICONTROL 그렇지 않으면 값을 로 설정하십시오.]:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음 이전임</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개 연산자. 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준] (선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 그런 다음 값을 로 설정합니다.], [!UICONTROL 그렇지 않으면 값을 로 설정하십시오.]:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음 이전임</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개 연산자. 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -311,7 +311,7 @@ ht-degree: 8%
 
 함수의 사용에 주의하십시오 [!UICONTROL URL 구문 분석] 값을 가져올 규칙을 정의하려면 `Page Url` 및 `Referring Url` 다음 이전 [!UICONTROL 다음의 경우] 규칙이 적용됩니다.
 
-![규칙 1일 때 사례](assets/case-when-1.png)
+![규칙 1일 때의 서비스 케이스 스크린샷](assets/case-when-1.png)
 
 ### 다음 이후 데이터 {#casewhen-uc1-dataafter}
 
@@ -365,7 +365,7 @@ ht-degree: 8%
 
 다음을 정의합니다. `Product Finding Methods (new)` 파생 필드. 다음을 생성합니다 [!UICONTROL 다음의 경우] 규칙 빌더의 규칙. 이 규칙은 가능한 모든 구 변형에 논리를 적용합니다 [!UICONTROL 제품 검색 방법] 필드 값 `search` 및 `browse` 사용 [!UICONTROL 구문 포함] 기준.
 
-![사례 시기 규칙 2](assets/case-when-2.png)
+![Case When 규칙 2 스크린샷](assets/case-when-2.png)
 
 ### 다음 이후 데이터 {#casewhen-uc2-dataafter}
 
@@ -438,7 +438,7 @@ ht-degree: 8%
 
 다음을 정의합니다. `Trip Duration (bucketed)` 파생 필드. 다음을 생성합니다 [!UICONTROL 다음의 경우] 규칙 빌더의 규칙입니다. 이 규칙은 논리를 적용하여 이전 버전을 버킷합니다. [!UICONTROL 이동 기간] 필드 값을 다음 세 가지 값으로 변환: `short trip`, `medium  trip`, 및 `long trip`.
 
-![사례 시기 규칙 3](assets/case-when-3.png)
+![규칙 3일 때의 서비스 케이스 스크린샷](assets/case-when-3.png)
 
 
 ### 다음 이후 데이터 {#casewhen-uc3-dataafter}
@@ -459,7 +459,7 @@ ht-degree: 8%
 | [!DNL long trip] |
 
 
-## 제한
+## 추가 정보
 
 Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
@@ -469,15 +469,13 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-
-
-다음 제한은 적용되지 않으며 다음과 같은 경우에 적용됩니다. *선택* 및 *설정* 값.
+다음 제한 조건이 적용되며 다음의 경우 적용됩니다. *선택* 및 *설정* 값.
 
 |  | 제한 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 귀하 값 *선택* 같은 기간 이내 [!UICONTROL If], [!UICONTROL Else If] 구문(사용) [!UICONTROL 및] 또는 [!UICONTROL 또는])를 사용하는 규칙은 동일한 컨테이너에서 파생되어야 하며 모든 유형(문자열)일 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등). <br/>![종속성 A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 귀하가 지정한 모든 값 *set* 전체 규칙은 동일한 컨테이너의 값이어야 하며 동일한 유형 또는 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 값: *선택* 가로 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문은 다음과 같습니다. *아님* 동일한 컨테이너에서 가져와서 다음을 수행해야 합니다. *아님* 같은 유형이어야 합니다. <br/> ![종속성 C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | 귀하 값 *선택* 같은 기간 이내 [!UICONTROL If], [!UICONTROL Else If] 구문(사용) [!UICONTROL 및] 또는 [!UICONTROL 또는])를 사용하는 규칙은 동일한 컨테이너에서 파생되어야 하며 모든 유형(문자열)일 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등). <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 귀하가 지정한 모든 값 *set* 전체 규칙은 동일한 컨테이너의 값이어야 하며 동일한 유형 또는 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 값: *선택* 가로 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문은 다음과 같습니다. *아님* 동일한 컨테이너에서 가져와서 다음을 수행해야 합니다. *아님* 같은 유형이어야 합니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -496,7 +494,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <p>문자열</p> | <ul><li>기준의 경우:<ul><li>[!UICONTROL 값]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li></ul></li><li>각 [!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]:<ul><li>[!UICONTROL 값]</li><ul><li>사용자 입력 입력</li></ul></li></ul></ul> | <p>문자열</p><ul><li>[!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]</li></ul> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]:<ul><li>문자열</li></ul></li></ul></ul> | <p>문자열</p><ul><li>[!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]</li></ul> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -537,7 +535,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Email Marketing (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 찾기 및 바꾸기] 함수를 사용하여 모든 발생 항목을 찾아 바꿀 규칙을 정의합니다. `email%20marketing` 포함 `email marketing`.
 
-![찾기 및 바꾸기 규칙](assets/find-and-replace.png)
+![찾기 및 바꾸기 규칙의 스크린샷](assets/find-and-replace.png)
 
 ### 다음 이후 데이터 {#findreplace-uc-dataafter}
 
@@ -558,7 +556,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 조회
 
-해당 값으로 대체되는 조회 값 집합을 정의합니다.
+새 파생 필드의 해당 값으로 대체되는 조회 값 집합을 정의합니다.
 
 +++ 세부 사항
 
@@ -567,7 +565,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>대상 [!UICONTROL 조회를 적용할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>대상 [!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>사용자 입력 입력</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 조회를 적용할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -623,7 +621,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Hotel Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 조회] 함수 를 사용하여 규칙 값을 조회할 수 있습니다. [!UICONTROL 호텔 아이디] 필드 및 새 값으로 대체합니다.
 
-![조회 규칙 1](assets/lookup-1.png)
+![조회 규칙 1의 스크린샷](assets/lookup-1.png)
 
 ### 다음 이후 데이터 {#lookup-uc1-dataafter}
 
@@ -658,7 +656,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Page Name (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 조회] 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 바꾸기 를 업데이트된 올바른 값으로 바꿉니다.
 
-![조회 규칙 2](assets/lookup-2.png)
+![조회 규칙 2의 스크린샷](assets/lookup-2.png)
 
 ### 다음 이후 데이터 {#lookup-uc2-dataafter}
 
@@ -674,6 +672,262 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
+<!-- MERGE FIELDS -->
+
+### 필드 병합
+
+서로 다른 두 필드의 값을 새로운 파생 필드로 병합합니다.
+
++++ 세부 사항
+
+## 사양 {#merge-fields-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#merge-fields-uc}
+
+채널 간 여정을 분석하기 위해 페이지 이름 필드와 호출 사유 필드로 구성된 새 차원을 생성하려고 합니다.
+
+### 다음 이전 데이터 {#merge-fields-uc-databefore}
+
+| 페이지 이름 | 세션 | 방문자 수 |
+|---|--:|--:|
+| 도움말 페이지 | 250 | 200 |
+| 홈 페이지 | 500 | 250 |
+| 제품 세부 사항 페이지 | 300 | 200 |
+
+{style="table-layout:auto"}
+
+| 통화 이유 | 세션 | 방문자 수 |
+|---|--:|--:|
+| 내 주문에 대한 질문 | 275 | 250 |
+| 내 주문을 변경하다 | 150 | 145 |
+| 순서 지정 문제 | 100 | 95 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#merge-fields-uc-derivedfield}
+
+다음을 정의합니다. `Cross Channel Interactions` 파생 필드. 다음을 사용합니다. [!UICONTROL 필드 병합] 함수 를 사용하십시오. [!UICONTROL 페이지 이름] 필드 및 [!UICONTROL 통화 이유] 필드 및 새 파생 필드에 저장합니다.
+
+![필드 병합 규칙의 스크린샷](assets/merge-fields.png)
+
+### 다음 이후 데이터 {#merge-fields-uc-dataafter}
+
+| 크로스 채널 상호 작용 | 세션 | 방문자 수 |
+|---|--:|--:|
+| 홈 페이지 | 500 | 250 |
+| 제품 세부 사항 페이지 | 300 | 200 |
+| 내 주문에 대한 질문 | 275 | 250 |
+| 도움말 페이지 | 250 | 200 |
+| 내 주문을 변경하다 | 150 | 145 |
+| 순서 지정 문제 | 100 | 95 |
+
+{style="table-layout:auto"}
+
+## 추가 정보 {#merge-fields-moreinfo}
+
+필드 병합 규칙 내에서 동일한 유형의 필드를 선택해야 합니다. 예를 들어 날짜 필드를 선택하는 경우 병합할 다른 모든 필드는 날짜 필드여야 합니다.
+
+![병합 필드 제한 스크린샷](assets/merge-fields-constraint.png)
+
++++
+
+
+<!-- REGEX REPLACE -->
+
+### 정규 표현식 바꾸기
+
+정규 표현식을 사용하여 필드의 값을 새로운 파생된 필드로 바꿉니다.
+
++++ 세부 사항
+
+## 사양 {#regex-replace-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 정규 표현식]:</li><ul><li>문자열</li></ul></li><li>[!UICONTROL 출력 형식]:<ul><li>문자열</li></ul></ul><ul><li>대소문자 구분</li><ul><li>부울</li></ul></li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#regex-replace-uc}
+
+URL 옵션을 가져와서 트래픽을 분석하는 고유 페이지 식별자로 사용하려는 경우 다음을 사용합니다. `[^/]+(?=/$|$)` URL 및 의 끝을 캡처하는 정규 표현식의 경우 `$1` 을 출력 패턴으로 사용합니다.
+
+### 다음 이전 데이터 {#regex-replace-uc-databefore}
+
+| 페이지 URL |
+|---|
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#regex-replace-uc-derivedfield}
+
+다음을 생성함: `Page Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 정규 표현식 바꾸기] 함수 를 사용하십시오. [!UICONTROL 참조 URL] 를 사용하는 필드 [!UICONTROL 정규 표현식] / `[^/]+(?=/$|$)` 및 [!UICONTROL 출력 형식] / `$1`.
+
+![정규 표현식 대체 규칙의 스크린샷](assets/regex-replace.png)
+
+
+### 다음 이후 데이터 {#regex-replace-uc-dataafter}
+
+| 페이지 식별자 |
+|---|
+| adobe-analytics-benefits.html |
+| adobe-analytics.html |
+| customer-journey-analytics.html |
+| adobe-experience-platform.html |
+
+## 추가 정보
+
+Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 지원되는 표현식은 다음과 같습니다.
+
+| 표현식 | 설명 |
+| --- | --- |
+| `a` | 단일 문자 `a` |
+| `a\|b` | 단일 문자 `a` 또는 `b` |
+| `[abc]` | 단일 문자 `a`, `b` 또는 `c` |
+| `[^abc]` | `a`, `b` 또는 `c`를 제외한 모든 단일 문자 |
+| `[a-z]` | `a`-`z` 범위의 모든 단일 문자 |
+| `[a-zA-Z0-9]` | `a`-`z`, `A`-`Z`, `0`-`9` 범위의 모든 단일 문자 |
+| `^` | 선 시작과 일치 |
+| `$` | 선 끝과 일치 |
+| `\A` | 문자열 시작 |
+| `\z` | 문자열 끝 |
+| `.` | 모든 문자와 일치 |
+| `\s` | 모든 공백 문자 |
+| `\S` | 모든 비공백 문자 |
+| `\d` | 모든 숫자 |
+| `\D` | 모든 비숫자 |
+| `\w` | 모든 문자, 숫자 또는 밑줄 |
+| `\W` | 모든 비단어 문자 |
+| `\b` | 모든 단어 경계 |
+| `\B` | 단어 경계가 아닌 모든 문자 |
+| `\<` | 단어 시작 |
+| `\>` | 단어 끝 |
+| `(...)` | 둘러싸인 모든 항목 캡처 |
+| `(?:...)` | 구획 없는 캡처 일치 항목이 출력 문자열에서 참조되는 것을 방지합니다. |
+| `a?` | 0 또는 `a` 중 1개 |
+| `a*` | 0개 이상의 `a` |
+| `a+` | 1개 이상의 `a` |
+| `a{3}` | `a` 중 정확히 3개 |
+| `a{3,}` | 3개 이상의 `a` |
+| `a{3,6}` | 3과 6 사이의 `a` |
+
+원하는 문자열 출력을 얻기 위해 이러한 시퀀스를 [!UICONTROL 출력 형식]으로 얼마든지 사용할 수 있습니다.
+
+| 출력 자리표시자 시퀀스 | 설명 |
+| --- | --- |
+| `$&` | 전체 표현식과 일치하는 것을 출력합니다. |
+| `$n` | n번째 하위 표현식과 일치하는 것을 출력합니다. 예를 들어 `$1`은 첫 번째 하위 표현식을 출력합니다. |
+| ``$` `` | 마지막으로 찾은 일치 항목의 끝(또는 이전 일치 항목이 없는 경우 텍스트의 시작)과 현재 일치 항목의 시작 사이의 텍스트를 출력합니다. |
+| `$+` | 정규 표현식에서 마지막으로 표시된 하위 표현식과 일치하는 것을 출력합니다. |
+| `$$` | 문자열 문자 `"$"`를 출력합니다. |
+
+{style="table-layout:auto"}
+
++++
+
+<!-- SPLIT -->
+
+### 분할
+
+필드의 값을 새로 파생된 필드로 분할합니다.
+
++++ 세부 사항
+
+## 사양 {#split-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 메서드]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 1 {#split-uc1}
+
+단일 차원에서 구분된 목록으로 음성 앱 응답을 수집합니다. 목록의 각 값이 응답 보고서에서 고유한 값이 되도록 합니다.
+
+### 다음 이전 데이터 {#split-uc1-databefore}
+
+| 음성 앱 응답 | 이벤트 |
+|---|--:|
+| 그것은 훌륭했고, 완전히 이해되었으며, 다른 사람들에게 추천할 것입니다. | 1 |
+| 그것은 대단했고, 다소 혼란스러웠으며, 다른 사람들에게 추천할 것입니다 | 1 |
+| 그것은 대단하지 않았고, 매우 혼란스러웠고, 다른 사람들에게 추천되지 않을 것입니다 | 1 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#split-u1-derivedfield}
+
+다음을 생성함: `Responses` 파생 필드. 다음을 사용합니다. [!UICONTROL SPLIT] 함수를 사용하여 규칙을 정의할 수 있습니다  [!UICONTROL 배열로 변환] 메서드에서 값을 [!UICONTROL 음성 앱 응답] 필드를 사용하는 중 `,` (으)로 [!UICONTROL 구분 기호].
+
+![분할 규칙 1의 스크린샷](assets/split-1.png)
+
+### 다음 이후 데이터 {#split-uc1-dataafter}
+
+| 응답 | 이벤트 |
+|---|--:|
+| 정말 좋았어요 | 2 |
+| 이(가) 다른 사용자에게 추천합니다. | 2 |
+| 별로 좋지 않았어 | 1 |
+| 완전히 이해됨 | 1 |
+| 다소 혼란스러워 | 1 |
+| 매우 혼란스러워 | 1 |
+| 은(는) 다른 사람에게 추천하지 않습니다. | 1 |
+
+{style="table-layout:auto"}
+
+## 사용 사례 2 {#split-uc2}
+
+단일 차원에서 구분된 목록으로 음성 앱 응답을 수집합니다. 목록의 첫 번째 값에서 자체 차원으로 응답을 보내려고 합니다. 목록의 마지막 값을 자체 차원에 추가하려고 합니다.
+
+### 다음 이전 데이터 {#split-uc2-databefore}
+
+| 응답 | 이벤트 |
+|---|--:|
+| 그것은 훌륭했고, 완전히 이해되었으며, 다른 사람들에게 추천할 것입니다 | 1 |
+| 그것은 대단했고, 다소 혼란스러웠으며, 다른 사람들에게 추천할 것입니다 | 1 |
+| 그것은 대단하지 않았고, 매우 혼란스러웠고, 다른 사람들에게 추천되지 않을 것입니다 | 1 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#split-u2-derivedfield}
+
+다음을 생성함:  `First Response` 파생 필드. 다음을 사용합니다. [!UICONTROL SPLIT] 함수에서 첫 번째 값을 가져오는 규칙을 정의하는 함수 [!UICONTROL 응답] 응답 왼쪽의 필드 `,` 구분 기호로 사용됩니다.
+
+![분할 규칙의 스크린샷 - 첫 번째 값](assets/split-2.png)
+
+다음을 생성함: `Second Response` 에서 마지막 값을 가져올 파생 필드 [!UICONTROL 응답] 오른쪽에서 1을 구분 기호로 선택하고 1을 색인으로 선택하여 필드를 만듭니다.
+
+![분할 규칙의 스크린샷 - 마지막 값](assets/split-3.png)
+
+### 다음 이후 데이터 {#split-uc2-dataafter}
+
+| 첫 번째 응답 | 이벤트 |
+|---|--:|
+| 정말 좋았어요 | 2 |
+| 별로 좋지 않았어 | 1 |
+
+{style="table-layout:auto"}
+
+| 두 번째 응답 | 이벤트 |
+|---|--:|
+| 이(가) 다른 사용자에게 추천합니다. | 2 |
+| 은(는) 다른 사람에게 추천하지 않습니다. | 1 |
+
+{style="table-layout:auto"}
+
++++
+
+
 <!-- URL PARSE -->
 
 ### URL 구문 분석
@@ -686,7 +940,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li></ul> | <ul><li>대상 [!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>대상 [!UICONTROL 옵션]:<ul><li>[!UICONTROL 프로토콜 가져오기]</li><li>[!UICONTROL 호스트 가져오기]</li><li>[!UICONTROL 경로 가져오기]</li><li>[!UICONTROL 쿼리 문자열 값 가져오기]<ul><li>[!UICONTROL 쿼리 매개 변수]:<ul><li>사용자 입력 입력</li></ul></li></ul></li><li>[!UICONTROL 해시 값 가져오기]</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 옵션]:<ul><li>[!UICONTROL 프로토콜 가져오기]</li><li>[!UICONTROL 호스트 가져오기]</li><li>[!UICONTROL 경로 가져오기]</li><li>[!UICONTROL 쿼리 문자열 값 가져오기]<ul><li>[!UICONTROL 쿼리 매개 변수]:<ul><li>문자열</li></ul></li></ul></li><li>[!UICONTROL 해시 값 가져오기]</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -710,7 +964,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다.  `Referring Domain` 파생 필드. 다음을 사용합니다. [!UICONTROL URL 구문 분석] 함수에서 호스트를 가져오는 규칙을 정의합니다. [!UICONTROL 참조 URL] 필드 및 새 파생 필드에 저장합니다.
 
-![ Url 구문 분석 규칙 1](assets/url-parse-1.png)
+![Url 구문 분석 규칙 1의 스크린샷](assets/url-parse-1.png)
 
 ### 다음 이후 데이터 {#urlparse-uc1-dataafter}
 
@@ -742,7 +996,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Query String CID` 파생 필드. 다음을 사용합니다. [!UICONTROL URL 구문 분석] 함수에서 쿼리 문자열 매개 변수의 값을 가져오는 규칙을 정의하는 데 사용됩니다 [!UICONTROL 페이지 URL] 필드, 지정 `cid` 를 쿼리 매개 변수로 사용하십시오. 출력 값은 새로 파생된 필드에 저장됩니다.
 
-![Url 구문 분석 규칙 2](assets/url-parse-2.png)
+![Url 구문 분석 규칙 2의 스크린샷](assets/url-parse-2.png)
 
 ### 다음 이후 데이터 {#urlparse-uc2-dataafter}
 
@@ -763,3 +1017,10 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 - 파생 필드에 대한 규칙을 정의할 때 최대 10개의 서로 다른 스키마 필드(표준 필드는 포함하지 않음)를 사용할 수 있습니다.
    - 최대 10개의 서로 다른 스키마 필드에서 최대 3개의 조회 스키마 또는 프로필 스키마 필드만 허용됩니다.
 - Customer Journey Analytics 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
+
+## 추가 정보
+
+- [데이터 활용: Customer Journey Analytics에서 파생 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+
+- [파생된 필드 Customer Journey Analytics 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+

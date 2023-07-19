@@ -4,7 +4,7 @@ description: 문자열의 하위 집합을 차원 항목으로 사용합니다.
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 708dc7c69480534b118c8454d65a907946cfcce7
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 94%
@@ -75,7 +75,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 | 표현식 | 설명 |
 | --- | --- |
 | `a` | 단일 문자 `a` |
-| `a|b` | 단일 문자 `a` 또는 `b` |
+| `a\|b` | 단일 문자 `a` 또는 `b` |
 | `[abc]` | 단일 문자 `a`, `b` 또는 `c` |
 | `[^abc]` | `a`, `b` 또는 `c`를 제외한 모든 단일 문자 |
 | `[a-z]` | `a`-`z` 범위의 모든 단일 문자 |
