@@ -4,10 +4,10 @@ description: Customer Journey Analytics용 프로토타입 프로젝트 미리�
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 90%
+source-wordcount: '424'
+ht-degree: 91%
 
 ---
 
@@ -64,11 +64,6 @@ ht-degree: 90%
    ![새 피드백 상자](assets/short-survey.png)
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 기본 미리보기 포털로 돌아갑니다.
-
-## Customer Journey Analytics Labs 프로토타입
-
-* 자연어 인사이트 생성기: 분석 중인 데이터에 대한 자연어 요약을 자유 형식 테이블로 제공합니다.
-* 시각화 권장 사항: 데이터와 잘 맞는 시각화를 권장합니다.
 
 ## 추가 정보
 
