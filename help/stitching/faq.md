@@ -3,7 +3,7 @@ title: 결합 FAQ
 description: 결합에 대해 자주 묻는 질문
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -82,7 +82,7 @@ Customer Journey Analytics의 특정 지표는 기존 Analytics의 지표와 유
 
 | **Customer Journey Analytics 결합 데이터** | **연결되지 않은 데이터 Customer Journey Analytics** | **Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **사람** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **사람** = 개인 ID로 선택한 열에 따른 고유한 개인 ID 수입니다. **사람** Adobe 소스 커넥터 데이터 세트의 는 와 유사합니다. **고유 방문자 수** 기존 Adobe Analytics에서 `endUserIDs._experience.aaid.id` 는 Customer Journey Analytics에서 개인 ID로 사용됩니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
+| **사람** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **사람** = 개인 ID로 선택한 열에 따른 고유한 개인 ID 수입니다. **사람** analytics 소스 커넥터 데이터 세트의 는 와 유사합니다. **고유 방문자 수** 기존 Adobe Analytics에서 `endUserIDs._experience.aaid.id` 는 Customer Journey Analytics에서 개인 ID로 사용됩니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
 | **세션**: Customer Journey Analytics 데이터 보기의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**: Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko-KR)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=ko-KR)에 지정된 세션 설정을 기반으로 정의됩니다. |
 | **이벤트** = Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 영구 ID가 비어 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트** = Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. |
 

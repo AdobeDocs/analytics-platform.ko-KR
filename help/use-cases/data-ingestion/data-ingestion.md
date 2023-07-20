@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Platform은 마케터가 고객의 행동을 더 잘 이해할 
 
 [Customer Journey Analytics를 이용하여 Google Analytics 데이터 분석](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=ko)을 수행하는 방법에 대한 튜토리얼을 참조하여 자세한 단계를 검토하십시오.
 
-## 대량 데이터 삽입 API를 사용하여 데이터를 Analytics로 가져온 다음 Experience Platform의 Adobe 소스 커넥터를 통해 수집하십시오.
+## 대량 데이터 삽입 API를 사용하여 데이터를 Analytics로 가져온 다음 Experience Platform에서 Analytics 소스 커넥터를 통해 수집하십시오
 
 1. [대량 데이터 삽입 API를 사용](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)하여 서버측 컬렉션 데이터를 Adobe Analytics에 제출합니다. 이벤트 데이터를 포함하는 CSV 형식의 파일을 제출할 수 있습니다.
 1. [Adobe Analytics 소스 커넥터 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 통해 해당 소비자 데이터를 Adobe Experience Platform으로 가져옵니다.
