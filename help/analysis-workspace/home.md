@@ -5,10 +5,10 @@ description: Analysis Workspace 기능 개요
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 2647acd9dbf0732b02d69528fe1d07e381123aef
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 28%
 
 ---
 
@@ -78,6 +78,10 @@ Analysis Workspace의 구성 요소는 다음과 같이 구성됩니다.
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다.
 
 데이터 사전에 대한 자세한 내용은 다음을 참조하십시오. [데이터 사전 개요](/help/components/data-dictionary/data-dictionary-overview.md).
+
+## 데이터 소스
+
+시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다. 다음은 을(를) 수행하는 방법에 대한 자세한 정보입니다 [데이터 소스 관리](/help/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Analysis Workspace 사용 시작
 
