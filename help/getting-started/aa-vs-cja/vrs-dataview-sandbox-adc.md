@@ -3,16 +3,16 @@ title: 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌�
 description: 가상 보고 환경 및 샌드박스 환경에 대해 알아보십시오.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 
 # 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터
 
-Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)와 어떻게 관련되어 있는지 이해하는 것이 유용합니다.
+Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR):
 
 * Adobe Analytics 가상 보고서 세트
 * Customer Journey Analytics 데이터 보기
@@ -38,7 +38,7 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 
 * 보고서 세트를 결합하는 수단입니다.
 * Adobe Analytics Data Warehouse에서 사용할 수 있습니다.
-* Analytics 소스 커넥터를 통해 Adobe Experience Platform으로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics Source Connector에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
+* Analytics 소스 커넥터를 통해 Adobe Experience Platform으로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics 소스 커넥터에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
 
 
 ## Customer Journey Analytics 데이터 보기
@@ -80,4 +80,4 @@ Adobe Experience Platform 샌드박스는 다음과 같지 않습니다.
 참고:
 
 * 다른 샌드박스의 데이터는 Customer Journey Analytics 내에서 결합할 수 없습니다.
-* Analytics Source Connector는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics Source Connector 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 참조하십시오.
+* Analytics Source Connector는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 다음을 참조하십시오. [Analytics 소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR) 을 참조하십시오.

@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 40%
+source-wordcount: '2053'
+ht-degree: 37%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 40%
 | 세그먼트 | 전체 지원. 이제 &quot;필터&quot;라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics으로 포팅되지 않습니다. |
 | 가상 보고서 세트 | 전체 지원. 지금 호출됨 [데이터 보기](/help/data-views/create-dataview.md). |
 | 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원. 이제 데이터 보기의 일부입니다. |
-| 스트리밍 Media Analytics | 미디어 데이터는 Analytics Data Connector를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
+| 스트리밍 Media Analytics | 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -63,14 +63,14 @@ ht-degree: 40%
 | 지표 중복 제거 | 이제 데이터 보기 내의 지표에 대해 구성됩니다. 지표 중복 제거는 데이터 세트, 데이터 보기 또는 연결 수준이 아닌 개인 또는 세션 수준에서 발생합니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 Customer Journey Analytics의 일부가 아닙니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에 설정된 Dimension은 90일 최대 지속성으로 제한되며 무제한 지속성을 지원하지 않습니다. |
-| IP 난독화 | Analytics Source Connector를 사용하여 Adobe Analytics에서 Customer Journey Analytics으로 데이터를 가져오는 Customer Journey Analytics 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정이 Customer Journey Analytics 데이터로 흐릅니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Experience Platform Web SDK를 사용하여 데이터를 플랫폼에 채우고 Customer Journey Analytics을 직접 사용하는 Customer Journey Analytics 고객의 경우 플랫폼에서 데이터 수집을 위한 데이터 준비를 사용하여 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
+| IP 난독화 | Analytics 소스 커넥터를 사용하여 Adobe Analytics의 데이터를 Customer Journey Analytics으로 채우는 Customer Journey Analytics 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정이 Customer Journey Analytics 데이터로 흐릅니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Experience Platform Web SDK를 사용하여 데이터를 플랫폼에 채우고 Customer Journey Analytics을 직접 사용하는 Customer Journey Analytics 고객의 경우 플랫폼에서 데이터 수집을 위한 데이터 준비를 사용하여 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
 | 새 세션 보고와 반복 세션 보고 비교 | 이전에는 방문 수 차원을 사용하여 수행했습니다. 새 세션과 반복 세션은 [13개월 조회 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=ko)으로 지원됩니다. |
 | 제품 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 오브젝트 유형 필드 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. Customer Journey Analytics 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서와 같이 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 Customer Journey Analytics 사용자 사이에서만 지원됩니다. Customer Journey Analytics과 기존 Analysis Workspace 간에는 프로젝트 공유가 되지 않습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
 | Report Builder (Excel 플러그인) | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics은 다음을 구별합니다. [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자, 제품 프로필 관리자 및 사용자. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
-| 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | Web SDK 기반 데이터 세트와 Analytics 데이터 커넥터의 데이터 모두에 대해 Adobe Experience Platform 데이터 준비 기능을 사용하여 지원됩니다. |
+| 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | Web SDK 기반 데이터 세트와 Analytics 소스 커넥터의 데이터 모두에 대해 Adobe Experience Platform 데이터 준비 기능을 사용하여 지원됩니다. |
 | 마케팅 채널 | Analytics 소스 커넥터를 사용하면 마케팅 채널 데이터가 해당 커넥터를 통해 Customer Journey Analytics으로 전송됩니다. 마케팅 채널 규칙은 기존 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 다음을 참조하십시오. [Customer Journey Analytics 마케팅 채널 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html). <br/>WebSDK 구현의 경우 다음을 통해 보고서 시간 마케팅 채널 처리 규칙이 지원됩니다. [파생 필드](../../data-views/derived-fields/derived-fields.md). |
 
 {style="table-layout:auto"}
@@ -80,12 +80,12 @@ ht-degree: 40%
 | 기능 | 참고 |
 | --- | --- |
 | 크로스 디바이스/크로스 채널 결합 | ID 정보를 직접 포함하는 데이터 세트에 대해 지원됩니다(“필드 기반” 스티칭이라고도 함). 그래프 기반 스티칭은 아직 지원되지 않지만 향후 지원될 예정입니다. 다음을 참조하십시오 [결합](../../stitching/overview.md). |
-| 보트 필터링 | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리는 [!UICONTROL Experience Platform] 또는 Customer Journey Analytics. |
-| 디바이스, 브라우저, 레퍼러, 기술 차원 | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트에 대해 지원됩니다. 을(를) 참조하십시오 [adc를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko).<p>Experience Platform 웹 SDK 데이터 수집을 사용하는 경우 디바이스 조회를 기반으로 하는 디바이스 및 차원이 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. |
+| 보트 필터링 | 대상 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)데이터 세트 기반, 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 필터링 논리는 [!UICONTROL Experience Platform] 또는 Customer Journey Analytics. |
+| 디바이스, 브라우저, 레퍼러, 기술 차원 | 지원 대상: [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)기반 데이터 세트. 을(를) 참조하십시오 [adc를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko).<p>Experience Platform 웹 SDK 데이터 수집을 사용하는 경우 디바이스 조회를 기반으로 하는 디바이스 및 차원이 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. |
 | 지리 특성 - 차원 | Adobe Analytics에 수집된 모든 지리 특성/지역은 를 통해 Customer Journey Analytics으로 전송됩니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR). Analytics 소스 커넥터를 사용하지 않지만, 디지털 데이터 수집을 위해 Experience Platform Web SDK를 사용하는 구현에서는 [Experience Edge 지역 조회 서비스](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR). |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교 및 A4T(타겟 분석) 패널은 지원되지 않습니다. |
 | 처리 규칙 | Analytics 소스 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
-| A4T | [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 부분적인 지원이 제공됩니다. 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
+| A4T | 의 필드를 통해 부분 지원이 제공됩니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR). 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
 
 {style="table-layout:auto"}
 

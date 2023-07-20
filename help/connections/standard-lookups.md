@@ -4,10 +4,10 @@ description: 표준 조회를 사용하여 Customer Journey Analytics의 유용�
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 

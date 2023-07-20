@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 ## 기존 Adobe Analytics에서 데이터 수집
 
-이 워크플로는 Adobe Analytics 소스 커넥터를 사용하며, 태그 관리자로 DTM을 사용하는지 또는 Launch를 사용하는지에 따라 달라집니다.
+이 워크플로는 Analytics 소스 커넥터를 사용하며, 태그 관리자로 DTM을 사용하는지 또는 Launch를 사용하는지에 따라 달라집니다.
 
 ### Adobe Experience Platform(이전에는 [!UICONTROL Launch]라고 불렀음)의 태그를 통해
 

@@ -1,24 +1,24 @@
 ---
 title: AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터
-description: Analytics 소스 커넥터가 Adobe Analytics ID 필드를 어떤 방식으로 처리하는지 알아봅니다.
+description: Analytics 소스 커넥터가 Adobe Analytics ID 필드를 처리하는 방법을 알아봅니다.
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 73%
 
 ---
 
 # AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터
 
-Adobe Analytics 데이터에는 여러 ID 필드가 포함되어 있습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr)에 의해 AAID, ECID, AACUSTOMID 이상 세 가지 중요한 ID 필드가 특별히 처리됩니다.
+Adobe Analytics 데이터에는 여러 ID 필드가 포함되어 있습니다. 세 가지 중요한 ID 필드는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-kr): AAID, ECID, AACUSTOMID.
 
 ## AAID
 
-AAID(Adobe Analytics ID)는 Adobe Analytics의 기본 디바이스 식별자이며, Analytics 소스 커넥터를 통해 전달되는 모든 이벤트에 존재할 수 있습니다. AAID를 때로 “레거시 Analytics ID” 또는 `s_vi` 쿠키 ID라고도 합니다. 단, AAID는 `s_vi` 쿠키가 없는 경우에도 생성됩니다. AAID는 [Adobe Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr#columns%2C-descriptions%2C-and-data-types)의 `post_visid_high/post_visid_low` 열에 표시됩니다.
+AAID(Adobe Analytics ID)는 Adobe Analytics의 기본 장치 식별자이며, Analytics 소스 커넥터를 통해 전달되는 모든 이벤트에 존재할 수 있습니다. AAID를 때로 “레거시 Analytics ID” 또는 `s_vi` 쿠키 ID라고도 합니다. 단, AAID는 `s_vi` 쿠키가 없는 경우에도 생성됩니다. AAID는 [Adobe Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr#columns%2C-descriptions%2C-and-data-types)의 `post_visid_high/post_visid_low` 열에 표시됩니다.
 
-Analytics 소스 커넥터에서 AAID는 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`로 변환됩니다. 주어진 이벤트의 AAID 필드는 [Analytics ID에 대한 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=ko-kr%5B%5D)에서 설명한 바와 같이 여러 가지 다른 유형 중 하나일 수 있는 단일 ID를 포함합니다. (전체 보고서 세트 내에서 AAID에는 여러 이벤트에 걸쳐 혼합된 유형을 포함할 수 있습니다. 각 이벤트의 유형은 `post_visid_type` analytics 데이터 피드의 열입니다.) 또한 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr)도 살펴보십시오.
+Analytics 소스 커넥터에서 AAID는 로 변환됩니다. `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. 주어진 이벤트의 AAID 필드는 [Analytics ID에 대한 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=ko-kr%5B%5D)에서 설명한 바와 같이 여러 가지 다른 유형 중 하나일 수 있는 단일 ID를 포함합니다. (전체 보고서 세트 내에서 AAID에는 여러 이벤트에 걸쳐 혼합된 유형을 포함할 수 있습니다. 각 이벤트의 유형은 `post_visid_type` analytics 데이터 피드의 열입니다.) 또한 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr)도 살펴보십시오.
 
 ## ECID
 
@@ -30,9 +30,9 @@ ECID(Experience Cloud ID) 또는 MCID(Marketing Cloud ID)는 Adobe Analytics에�
 
 AACUSTOMID는 Analytics 구현에서의 `s.VisitorID` 변수 사용에 따라 Adobe Analytics에 채워지는 별도의 식별자 필드입니다. AACUSTOMID는 Adobe Analytics 데이터 피드의 `cust_visid` 열에 표시됩니다. AACUSTOMID가 있으면 AAID는 AACUSTOMID를 기반으로 합니다. (AACUSTOMID는 위에 언급된 작업 순서에 의해 정의된 다른 모든 식별자를 우선합니다.)
 
-## Analytics 소스 커넥터가 이들 ID를 처리하는 방법
+## Analytics 소스 커넥터가 이러한 ID를 처리하는 방법
 
-Analytics 소스 커넥터는 다음과 같이 XDM 형식으로 Adobe Experience Platform에 이들 ID를 전달합니다.
+Analytics 소스 커넥터는 다음과 같이 XDM 형식으로 Adobe Experience Platform에 이러한 ID를 전달합니다.
 
 * `endUserIDs._experience.aaid.id`
 * `endUserIDs._experience.mcid.id`

@@ -1,13 +1,13 @@
 ---
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 # 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터
 
-Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)와 어떻게 관련되어 있는지 이해하는 것이 유용합니다.
+Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR):
 
 * Adobe Analytics 가상 보고서 세트
 * Customer Journey Analytics 데이터 보기
@@ -33,7 +33,7 @@ VRS:
 
 * 보고서 세트를 함께 결합하는 수단을 제공합니다.
 * Adobe Analytics Data Warehouse에서 사용할 수 있습니다.
-* Analytics 소스 커넥터를 통해 Adobe Experience Platform으로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics Source Connector에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
+* Analytics 소스 커넥터를 통해 Adobe Experience Platform으로의 데이터 흐름을 위한 소스로 사용할 수 있습니다. Analytics 소스 커넥터에서는 전체(가상이 아닌) 보고서 세트만 사용할 수 있습니다.
 
 
 ## Customer Journey Analytics 데이터 보기
@@ -75,4 +75,4 @@ Adobe Experience Platform 샌드박스는 다음과 같지 않습니다.
 추가 사항:
 
 * 다른 샌드박스의 데이터는 Customer Journey Analytics 내에서 결합할 수 없습니다.
-* Analytics Source Connector는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics Source Connector 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 참조하십시오.
+* Analytics Source Connector는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 다음을 참조하십시오. [Analytics 소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR) 을 참조하십시오.

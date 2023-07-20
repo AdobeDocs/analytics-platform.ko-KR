@@ -3,16 +3,16 @@ title: 보고서 세트를 다른 스키마와 결합
 description: 데이터 준비를 사용하여 보고서 세트를 다른 스키마와 결합하는 방법 알아보기
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
 # 보고서 세트를 다른 스키마와 결합
 
-다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR) Adobe Analytics 및 Customer Journey Analytics(Customer Journey Analytics)과 같은 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 Real-time Customer Data Platform의 보고서 세트 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform으로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 Adobe Experience Platform 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics Source Connector는 보고서 제품군당 하나의 데이터 세트를 만듭니다.
+다음 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR) Adobe Analytics 및 Customer Journey Analytics(Customer Journey Analytics)과 같은 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 Real-time Customer Data Platform의 보고서 세트 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform으로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 Adobe Experience Platform 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics 소스 커넥터는 보고서 세트당 하나의 데이터 세트를 만듭니다.
 
 Customer Journey Analytics 고객이 사용 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR) Adobe Experience Platform 데이터 레이크의 데이터 세트를 Customer Journey Analytics Analysis Workspace에 통합. 하지만 연결 내에서 보고서 세트를 결합할 경우 보고서 세트 간의 스키마 차이는 Adobe Experience Platform을 사용하여 해결해야 합니다 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 기능. 목적은 prop 및 eVar와 같은 Adobe Analytics 변수가 Customer Journey Analytics에서 일관된 의미를 갖도록 하는 것입니다.
 
@@ -49,7 +49,7 @@ Customer Journey Analytics 고객이 사용 [연결](https://experienceleague.ad
 
 ## Adobe Experience Platform 데이터 준비를 사용하여 보고서 세트 간 스키마 차이 해결
 
-Experience Platform 데이터 준비 기능은 Analytics Source Connector와 통합되어 있으며 위의 시나리오에서 설명한 스키마 차이를 해결하는 데 사용할 수 있습니다. 이렇게 하면 Customer Journey Analytics 데이터 보기에서 일관된 의미를 갖는 eVar가 생성됩니다. (아래에 사용된 명명 규칙은 사용자의 필요에 맞게 사용자 정의할 수 있습니다.)
+Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통합되어 있으며 위의 시나리오에서 설명한 스키마 차이를 해결하는 데 사용할 수 있습니다. 이렇게 하면 Customer Journey Analytics 데이터 보기에서 일관된 의미를 갖는 eVar가 생성됩니다. (아래에 사용된 명명 규칙은 사용자의 필요에 맞게 사용자 정의할 수 있습니다.)
 
 1. 보고서 세트 A 및 보고서 세트 B에 대한 소스 연결 데이터 흐름을 생성하기 전에 [새 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR) Adobe Experience Platform에서(라고 함) **통합 스키마** 이 예제에서는 입니다.) 다음을 스키마에 추가합니다.
 
@@ -102,13 +102,13 @@ Experience Platform 데이터 준비 기능은 Analytics Source Connector와 통
 
 >[!NOTE]
 >
->통합 필드 사용자 정의 필드 그룹 및 관련 필드 매핑은 언제든지 기존 Analytics Source Connector 데이터 흐름 및 데이터 세트에 추가할 수 있습니다. 그러나 이는 향후 데이터에만 영향을 미칩니다.
+>통합 필드 사용자 정의 필드 그룹 및 관련 필드 매핑은 언제든지 기존 Analytics 소스 커넥터 데이터 흐름 및 데이터 세트에 추가할 수 있습니다. 그러나 이는 향후 데이터에만 영향을 미칩니다.
 
 ## 보고서 세트 그 이상
 
 데이터 세트를 다른 스키마와 결합하는 데이터 준비의 기능은 Analytics 보고서 세트를 능가합니다. 다음 데이터를 포함하는 데이터 세트가 두 개 있다고 가정합시다.
 
-| 데이터 세트 A = Analytics Source Connector를 통한 Analytics 보고서 세트 |
+| 데이터 세트 A = Analytics 소스 커넥터를 통한 Analytics 보고서 세트 |
 | --- |
 | `eVar1` => 고객 범주 |
 

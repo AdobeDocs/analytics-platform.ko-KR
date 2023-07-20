@@ -3,10 +3,10 @@ title: 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 
 description: 처리 규칙 및 VISTA를 사용한 데이터 변환과 데이터 준비를 사용한 데이터 변환에 대해 알아보기
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 80%
+ht-degree: 65%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 80%
 
 Adobe Analytics [처리 규칙 및 VISTA 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html?lang=ko-KR)은 Adobe Analytics [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)으로 전달되는 데이터를 변환하고 조작하는 수단을 제공합니다. 이러한 변환은 Adobe Analytics에 보고 및 분석 목적으로 데이터가 저장되기 전에 Adobe 데이터 처리의 일부로 발생합니다.
 
-[데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko-KR)에 수집된 데이터에 행 기반 매핑 및 변환을 적용할 수 있는 도구입니다. 그런 다음 이 데이터를 Customer Journey Analytics 및 기타 애플리케이션을 비롯한 Experience Platform 애플리케이션에서 사용할 수 있습니다. 데이터 준비는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)뿐만 아니라 많은 Platform [플랫폼 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)와 통합됩니다. 이 커넥터는 Adobe Analytics에서 플랫폼으로 보고서 세트 데이터를 수집하는 방법을 제공합니다.
+[데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko-KR)에 수집된 데이터에 행 기반 매핑 및 변환을 적용할 수 있는 도구입니다. 그런 다음 이 데이터를 Customer Journey Analytics 및 기타 애플리케이션을 비롯한 Experience Platform 애플리케이션에서 사용할 수 있습니다. 데이터 준비는 많은 Platform과 통합됩니다. [소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR), 및 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR). 이 커넥터는 Adobe Analytics에서 플랫폼으로 보고서 세트 데이터를 수집하는 방법을 제공합니다.
 
 ## 데이터 준비를 사용한 추가 변환 {#data-prep}
 
-Adobe Analytics에 의해 수집되고 저장되는 데이터는 처리 규칙이나 VISTA 규칙 또는 둘 다에 의해 변환될 수 있습니다. 그러나 Analytics 소스 커넥터를 통해 Platform으로 전달되는 보고서 세트는 다음에 데이터 준비를 사용하여 변환할 수 있습니다. 이는 다음과 같은 여러 가지 목적에 적합할 수 있습니다.
+Adobe Analytics에 의해 수집되고 저장되는 데이터는 처리 규칙이나 VISTA 규칙 또는 둘 다에 의해 변환될 수 있습니다. 하지만 Analytics 소스 커넥터를 통해 Platform으로 전달되는 보고서 세트는 다음에 데이터 준비를 사용하여 변환할 수 있습니다. 이는 다음과 같은 여러 가지 목적에 적합할 수 있습니다.
 
 * **Customer Journey Analytics 및/또는 RTCDP에서 사용할 보고서 세트 간의 스키마 차이 해결**. 예를 들어 보고서 세트 A가 `eVar1`을 &quot;검색어&quot;로 정의하고 보고서 세트 B가 `eVar2`를 &quot;검색어&quot;로 정의한다고 합시다. 데이터 준비를 사용하여 두 개의 서로 다른 eVar을 두 eVar의 데이터가 포함된 공통 필드로 매핑할 수 있습니다. 이를 통해 다음을 수행할 수 있습니다. [보고서 세트를 다른 스키마와 결합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=ko-KR) 다음 기간: [Customer Journey Analytics 연결](/help/connections/overview.md) 또는 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ko-KR).
-* **`eVars` 필드를 의미 있는 이름으로 매핑**. Analytics 소스 커넥터를 통해 들어오는 `eVars` 및 `props`는 _\_experience.analytics.customDimensions.eVars.eVar1_&#x200B;과 같은 필드에 매핑됩니다. 데이터 준비는 `eVar` 및 `prop` 필드를 사용자에게 더 의미 있는 이름을 가지거나 다른 데이터 소스에서 가져온 이름과 일치하는 새 필드에 매핑하는 데 사용할 수 있습니다. (이 작업은 의 필드 이름 변경과 같은 다른 방법을 통해서도 수행할 수 있습니다. [Customer Journey Analytics 데이터 보기](/help/data-views/create-dataview.md).)
+* **`eVars` 필드를 의미 있는 이름으로 매핑**. `eVars` 및 `props` analytics 소스 커넥터를 통해 들어오는 는 와 같은 필드에 매핑됩니다. _\_experience.analytics.customDimensions.eVars.eVar1_. 데이터 준비는 `eVar` 및 `prop` 필드를 사용자에게 더 의미 있는 이름을 가지거나 다른 데이터 소스에서 가져온 이름과 일치하는 새 필드에 매핑하는 데 사용할 수 있습니다. (이 작업은 의 필드 이름 변경과 같은 다른 방법을 통해서도 수행할 수 있습니다. [Customer Journey Analytics 데이터 보기](/help/data-views/create-dataview.md).)
 * **일반적으로 데이터 변환**. 데이터 준비에는 Analytics 소스 커넥터를 통해 들어오는 데이터를 기반으로 새 필드를 계산하는 데 사용할 수 있는 수백 개의 매핑 기능이 있습니다. 구분된 필드를 별도의 필드로 분할할 수 있습니다. 필드를 결합할 수 있습니다. 문자열을 조작할 수 있습니다. 정규 표현식 등을 기반으로 필드에서 정보를 추출할 수 있습니다.
 
 ## 데이터 준비 및 분류 {#classifications}
