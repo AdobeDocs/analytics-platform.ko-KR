@@ -1,25 +1,24 @@
 ---
 title: Customer Journey Analytics 대시보드 - 개요
-description: Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
+description: Analytics 대시보드 또는 모바일 스코어카드에 대한 제품 설명서 및 자체 도움말.
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 40e52441-e772-41a3-b2e3-51a3d00580d0
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 63%
+source-wordcount: '285'
+ht-degree: 50%
 
 ---
 
 # Analytics [!UICONTROL 대시보드] - 개요
 
-**Analytics [!UICONTROL 대시보드]**&#x200B;는 Customer Journey Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+**Analytics [!UICONTROL 대시보드]**&#x200B;는 Customer Journey Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 모바일 스코어카드는 더 자세한 분류 및 트렌드 보고서에 대해 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 >[!NOTE]
 >
->Customer Journey Analytics에서 제공하는 모바일 스코어카드 기능은 Adobe Analytics에서 제공하는 기능과 거의 동일합니다. 이러한 이유로 이 페이지에서 참조되는 스코어카드 비디오에는 Customer Journey Analytics이 아닌 Adobe Analytics UI가 표시됩니다. <br/><br/>또한 앱 스토어에서 모바일 앱의 이름이 Adobe Analytics이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
-
+>Customer Journey Analytics에서 제공하는 모바일 스코어카드 기능은 Adobe Analytics에서 제공하는 기능과 거의 동일합니다. 따라서 이 페이지에서 참조한 스코어카드 비디오에는 Customer Journey Analytics UI가 아닌 Adobe Analytics UI가 표시됩니다. <br/><br/>또한 앱 스토어에서 모바일 앱의 이름이 Adobe Analytics이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
 
 Customer Journey Analytics에 대해 자세히 알아보려면 [!UICONTROL 대시보드], 다음 리소스를 참조하십시오.
 
