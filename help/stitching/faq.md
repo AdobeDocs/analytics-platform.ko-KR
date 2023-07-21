@@ -3,7 +3,7 @@ title: 결합 FAQ
 description: 결합에 대해 자주 묻는 질문
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -60,6 +60,8 @@ ht-degree: 35%
 [크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 는 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
 
 크로스 채널 분석은 Customer Journey Analytics 고유의 사용 사례로서 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID를 결합하므로 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 교차 장치 분석 필드 기반 결합과 유사하게 디자인적으로 작동하지만 기존 Analytics와 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현이 달라집니다. 다음을 참조하십시오 [결합](overview.md) 및 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) 자세한 내용은 사용 사례 를 참조하십시오.
+
++++
 
 +++**결합은 GDPR 및 CCPA 요청을 어떻게 처리합니까?**
 

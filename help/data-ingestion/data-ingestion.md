@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 92%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 96%
 
 자세한 내용은 [기존 Adobe Analytics에서 데이터 수집 및 사용](./analytics.md)을 참조하십시오.
 
-## Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이터 수집 및 사용
+## Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용
 
 Adobe 기술을 사용하여 웹 사이트를 분석하거나 다른 솔루션에서 마이그레이션하거나 사용자의 행동을 추적할 수 있습니다. Adobe Experience Platform SDK 및 Edge Network를 사용하는 Adobe의 구현 모범 사례에 따라 데이터를 수집하려고 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이터 수집 및 사용](./aepwebsdk.md)을 참조하십시오.
+다음을 참조하십시오 [Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용](./aepwebsdk.md) 추가 정보.
 
 ## 배치 데이터 수집 및 사용
 
