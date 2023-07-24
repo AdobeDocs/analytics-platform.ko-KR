@@ -3,10 +3,10 @@ title: 레이블 및 정책
 description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 어떤 영향을 미치는지 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 60%
+source-wordcount: '501'
+ht-degree: 58%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 
 >
 >데이터 사용 레이블은 결합된 데이터 세트에 자동으로 전파되지 않습니다. 그러나 수동으로 추가할 수 있습니다.
 
-레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이것이 바로 정책이 사용되는 이유입니다. Experience Platform의 [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko-kr)를 통해 정책을 생성할 수 있습니다.
+레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이것이 바로 정책이 사용되는 이유입니다. 다음을 사용하여 정책을 만듭니다. [EXPERIENCE PLATFORM UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko-KR) 또는 를 통해 [정책 서비스 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko-kr) Experience Platform.
 
 Customer Journey Analytics에 표시되는 Adobe 정의 정책은 두 가지이며 보고 및 다운로드/공유에 영향을 줍니다.
 
