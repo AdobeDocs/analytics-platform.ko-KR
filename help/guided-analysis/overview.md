@@ -3,7 +3,7 @@ title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다. Product Analytics 이라고도 합니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 4ed5acc2c9bb1a530d16d9c3ce8f5e9243bfa1f2
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 8%
@@ -13,8 +13,6 @@ ht-degree: 8%
 # 안내식 분석 개요
 
 가이드 분석은 제품 팀이 데이터 요구 사항을 신속하게 자체 서비스할 수 있는 보고 형식으로, 고품질의 통찰력을 신속하게 얻고 더 많은 데이터 중심의 제품 결정을 내릴 수 있습니다. 다양한 분야의 사람들과 일하는 팀은 이러한 보고서를 사용하고 이해할 수 있도록 실시간으로 연결할 수 있습니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/3421621/)
 
 Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 분석 보고서는 [데이터 보기](../data-views/data-views.md): 를 통해 Adobe Experience Platform의 데이터를 참조합니다. [연결](../connections/overview.md). 가이드 분석에서 만든 모든 보고서는 추가 조사를 위해 Analysis Workspace으로 원활하게 전송할 수 있습니다.
 
@@ -28,7 +26,7 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 | [!UICONTROL 영향] | [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향 측정. |
 | [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율 비교. |
 | [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화 추적. |
-| [!UICONTROL 사용자 성장] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
+| [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
 | [!UICONTROL 순성장] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
 | [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
 
