@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 82%
+source-wordcount: '968'
+ht-degree: 84%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
-      + [Adobe Analytics 및 Customer Journey Analytics 간 데이터 처리 비교](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
@@ -69,6 +69,7 @@ ht-degree: 82%
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
    + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)
+   + [컨텍스트 인식 세션](../data-views/context-aware-sessions.md)
    + 구성 요소 설정 {#component-settings}
       + [구성 요소 설정 개요](../data-views/component-settings/overview.md)
       + [기여도 분석](../data-views/component-settings/attribution.md)
@@ -192,7 +193,7 @@ ht-degree: 82%
    + 단계 {#funnel}
       + [마찰 보기](../guided-analysis/types/friction.md)
       + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
-   + 사용자 성장 {#user-growth}
+   + 사용자 증가 {#user-growth}
       + [활성 보기](../guided-analysis/types/active.md)
       + [순 성장 전망](../guided-analysis/types/net-growth.md)
    + 트렌드 {#trends}
@@ -333,4 +334,4 @@ ht-degree: 82%
 
 + [Customer Journey Analytics 용어](../getting-started/cja-glossary.md)
 
-+ [CUSTOMER JOURNEY ANALYTICS API](https://developer.adobe.com/cja-apis/docs/)
++ [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
