@@ -3,16 +3,16 @@ title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다. Product Analytics 이라고도 합니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4ed5acc2c9bb1a530d16d9c3ce8f5e9243bfa1f2
+source-git-commit: bbf69470727dae531065972511bcc29eb3f47679
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1082'
 ht-degree: 8%
 
 ---
 
 # 안내식 분석 개요
 
-가이드 분석은 제품 팀이 데이터 요구 사항을 신속하게 자체 서비스할 수 있는 보고 형식으로, 고품질의 통찰력을 신속하게 얻고 더 많은 데이터 중심의 제품 결정을 내릴 수 있습니다. 다양한 분야의 사람들과 일하는 팀은 이러한 보고서를 사용하고 이해할 수 있도록 실시간으로 연결할 수 있습니다.
+Adobe Product Analytics을 사용하면 제품 팀이 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 구축된 가이드 분석 워크플로우를 통해 제품 경험에 대한 데이터와 통찰력을 자체 제공할 수 있습니다. 가이드 분석은 제품 팀이 데이터 요구 사항을 신속하게 자체 서비스할 수 있는 보고 형식으로, 고품질의 통찰력을 신속하게 얻고 더 많은 데이터 중심의 제품 결정을 내릴 수 있습니다. 다양한 분야의 사람들과 일하는 팀은 이러한 보고서를 사용하고 이해할 수 있도록 실시간으로 연결할 수 있습니다.
 
 Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 분석 보고서는 [데이터 보기](../data-views/data-views.md): 를 통해 Adobe Experience Platform의 데이터를 참조합니다. [연결](../connections/overview.md). 가이드 분석에서 만든 모든 보고서는 추가 조사를 위해 Analysis Workspace으로 원활하게 전송할 수 있습니다.
 
