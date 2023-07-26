@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 
 ## 필요 권한
 
-Customer Journey Analytics 연결을 만들려면 다음 권한이 필요합니다. [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html):
+Customer Journey Analytics 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
 
 Adobe Experience Platform:
 * 데이터 모델링: 스키마 보기, 스키마 관리
