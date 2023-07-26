@@ -3,7 +3,7 @@ title: 컨텍스트 인식 세션
 description: 데이터 보기에서 컨텍스트 인식 세션을 정의하는 데 사용할 수 있는 설정입니다.
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 6235fbb128098e2a624d5fd4fd72c2c583cfd277
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 데이터 보기의 컨텍스트 인식 세션은 Customer Journey Analytics이 연결의 데이터에서 세션을 계산하는 방식을 변경합니다.
 
-다음 범위 내 [!UICONTROL 설정] 데이터 보기 탭에서 개인이 디지털 경험과 상호 작용하는 방식과 일치하는 방식으로 세션을 정의할 수 있습니다. 컨텍스트 인식 세션 정의는 비파괴적이며 기본 데이터를 변경하지 않습니다. 작업 영역 프로젝트의 기반으로 특정 컨텍스트 인식 세션 정의를 사용하여 각각 여러 데이터 보기를 설정할 수 있습니다.
+다음 범위 내 [!UICONTROL 설정] 데이터 보기 탭에서 개인이 디지털 경험과 상호 작용하는 방식과 일치하는 방식으로 세션을 정의할 수 있습니다. 컨텍스트 인식 세션 정의는 비파괴적이며 기본 데이터를 변경하지 않습니다. 작업 영역 프로젝트의 기반으로 특정 컨텍스트 인식 세션 정의를 사용하여 여러 데이터 보기를 설정할 수 있습니다.
 
 데이터 보기에 대한 세션 컨텍스트를 정의하려면 다음을 수행합니다.
 
