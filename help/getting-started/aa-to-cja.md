@@ -8,7 +8,7 @@ exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 75%
+ht-degree: 93%
 
 ---
 
@@ -23,9 +23,9 @@ Customer Journey Analytics로의 원활한 이전을 위해 Adobe Analytics 데�
 ### 1. ID 수집 {#identities}
 
 고객 여정을 이해하는 데 가장 중요한 요소는 각 단계에서 고객을 파악하는 것입니다. Customer Journey Analytics의 경우 모든 채널에 존재하는 식별자와 해당 데이터를 사용하면 Customer Journey Analytics 내에서 여러 소스를 결합할 수 있습니다.
-ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 종류(하나 이상 보유할 수 있음)가 무엇이든 각 ID에 대해 다음을 고려해야 합니다.
+ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 종류(하나 이상 보유할 수 있음)가 무엇이든 각 ID에 대해 다음과 같은 사항을 고려해야 합니다.
 
-* ID가 존재하거나 Customer Journey Analytics 상태로 만들려는 모든 데이터 소스에 추가할 수 있습니다.
+* ID가 존재하거나 Customer Journey Analytics로 가져오려는 모든 데이터 소스에 추가할 수 있습니다.
 * 데이터의 각 행에 ID가 채워집니다.
 * 아이디에 PII(사용자 식별 정보)는 포함되지 않습니다. 민감할 수 있는 모든 항목에 해싱을 적용합니다.
 * ID는 모든 소스에서 동일한 형식(동일한 길이, 동일한 해시 방법 등)을 사용합니다.
@@ -38,17 +38,17 @@ Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하�
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
-* 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. Customer Journey Analytics으로 가져오면 이러한 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않고 혼동을 줄 수 있습니다.
+* 변수를 해당 보고서 세트 간에 정렬하도록 계획하십시오. 예를 들어 보고서 세트 1의 eVar1은 [!UICONTROL 페이지]를 지정할 수 있습니다. 보고서 세트 2의 eVar1은 [!UICONTROL 내부 캠페인]를 지정할 수 있습니다. Customer Journey Analytics로 가져오면 이들 변수가 단일 eVar1 차원으로 혼합되어 정확하지 않으며 혼동을 주는 보고를 초래할 수 있습니다.
 
 * [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR) 기능을 사용하여 변수를 매핑합니다. 모든 보고서 세트가 동일한 공통 변수 설계를 사용하는 경우 더 쉬워지지만 새로운 Experience Platform [Data Prep](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR#mapping) 기능을 사용하는 경우에는 필요하지 않습니다. 이 옵션을 사용하면 데이터 스트림 (또는 속성) 수준에 있는 매핑된 값별로 변수를 참조할 수 있습니다.
 
-다음 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면 [!UICONTROL 고유 수 초과됨] 또는 [!UICONTROL 낮은 트래픽]: Customer Journey Analytics에 가 없다는 것을 압니다. [차원의 카디널리티 제한](/help/components/dimensions/high-cardinality.md). 이를 통해 고유 값을 표시하고 계산할 수 있습니다.
+[!UICONTROL 고유 수 초과] 또는 [!UICONTROL 낮은 트래픽] 문제로 인해 글로벌 보고서 세트로 이동하는 데 불편을 겪었다면 Customer Journey Analytics에는 [차원에 대한 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없습니다. 이를 통해 고유 값을 표시하고 계산할 수 있습니다.
 
 다음은 [보고서 세트를 다른 스키마와 결합](/help/use-cases/aa-data/combine-report-suites.md)하는 사용 사례입니다.
 
 ### 3. 마케팅 채널 (재)구성 {#marketing-channels}
 
-기존 Adobe Analytics 마케팅 채널 설정은 Customer Journey Analytics에서 동일하게 수행되지 않습니다. 이는 다음 두 가지 이유에 기인한 것입니다.
+기존 Adobe Analytics 마케팅 채널 설정은 Customer Journey Analytics에서 동일하게 적용되지 않습니다. 이는 다음 두 가지 이유에 기인한 것입니다.
 
 * Adobe Experience Platform으로 수집된 Adobe Analytics 데이터의 처리 수준 및
 
@@ -62,7 +62,7 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 
 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko-KR) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
 
-이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 Customer Journey Analytics을 사용하여 여러 방식으로 나타낼 수 있습니다 [데이터 보기](/help/data-views/data-views.md). Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
+이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 Customer Journey Analytics [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
 
 **Experience Platform SDK 사용의 이점:**
 
@@ -93,7 +93,7 @@ Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 �
 
 ### 중요한 세그먼트 및 계산된 지표 식별 {#segments-calcmetrics}
 
-Adobe Analytics 세그먼트(호출) [!UICONTROL 필터] Customer Journey Analytics에서) 및 계산된 지표는 Customer Journey Analytics과 호환되지 않습니다. 대부분의 경우 이러한 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 Customer Journey Analytics에서 다시 빌드할 수 있습니다.
+Adobe Analytics 세그먼트(Customer Journey Analytics에서는 [!UICONTROL 필터]라고 함) 및 계산된 지표는 Customer Journey Analytics와 호환되지 않습니다. 대부분의 경우 이들 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 Customer Journey Analytics에서 다시 빌드할 수 있습니다.
 
 사용자가 시스템 간 전환할 때 최대한 원활하게 전환하도록 하려면 다음을 계획하십시오.
 
@@ -101,7 +101,7 @@ Adobe Analytics 세그먼트(호출) [!UICONTROL 필터] Customer Journey Analyt
 
 2. 해당 요소의 정의를 문서화하고,
 
-3. Customer Journey Analytics 시 복제하기 위해 데이터에 어떤 필드가 필요한지 식별 [필터](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md).
+3. Customer Journey Analytics에서 [필터](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
 
 다음은 몇 가지 가이드 비디오입니다.
 
@@ -113,7 +113,7 @@ Adobe Analytics 세그먼트(호출) [!UICONTROL 필터] Customer Journey Analyt
 
 * 강력한 Customer Journey Analytics 데이터 보기를 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 훨씬 유연하게 정의할 수 있습니다. 예를 들어 차원 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/use-cases/data-views/data-views-usecases.md)
 
-* Adobe Analytics에서 사용자 지정 달력을 정의한 경우 다음과 비슷합니다 [사용자 지정 달력 기능](/help/components/date-ranges/custom-date-ranges.md) Customer Journey Analytics 내. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
+* Adobe Analytics에서 [사용자 정의 캘린더](/help/components/date-ranges/custom-date-ranges.md)를 정의한 경우 Customer Journey Analytics 내에서 유사한 캘린더 기능을 사용할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 
@@ -121,4 +121,4 @@ Adobe Analytics 세그먼트(호출) [!UICONTROL 필터] Customer Journey Analyt
 
 ## 다음 단계
 
-Customer Journey Analytics으로 이동한 후 데이터 불일치가 발견되는 경우 원래 Adobe Analytics 데이터와 현재 Customer Journey Analytics 상태인 Adobe Analytics 데이터를 비교할 수 있습니다. [자세히 알아보기](/help/troubleshooting/compare.md)
+Customer Journey Analytics로 이동한 후 데이터 불일치가 발견되는 경우 원래 Adobe Analytics 데이터와 현재 Customer Journey Analytics의 Adobe Analytics 데이터를 비교할 수 있습니다. [자세히 알아보기](/help/troubleshooting/compare.md)
