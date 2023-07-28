@@ -3,7 +3,7 @@ title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다. Product Analytics 이라고도 합니다.
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
+source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 | [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율 비교. |
 | [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화 추적. |
 | [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
-| [!UICONTROL 순성장] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
+| [!UICONTROL 사용자 증가] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
 | [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
 
 {style="table-layout:auto"}
