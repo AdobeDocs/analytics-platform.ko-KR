@@ -2,10 +2,10 @@
 title: 전환 트렌드 보기
 description: 시간 경과에 따른 전환율 변화를 추적합니다.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+source-git-commit: 9c46c945bf98cff807773e1f1f795e30a28f203b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 2%
 * **[!UICONTROL 지표]**: 측정할 지표입니다. 옵션에는 세션 및 사용자가 포함됩니다.
 * **[!UICONTROL 차트 유형]**: 사용하려는 시각화 유형입니다. 옵션에는 Line이 포함됩니다.
 * **[!UICONTROL 변환 출처:]**: 단계별로 백분율 계산을 결정합니다. 옵션에는 첫 번째 단계 또는 이전 단계에서 전환 계산이 포함됩니다.
+
+>[!NOTE]
+>
+>다음 **평균** 전환 트렌드 보기 테이블의 열이 **합계** 열의 [마찰 보기](friction.md) 테이블. 전자는 간격 열의 평균(예: 일일 전환율 평균)이며 후자는 전체 날짜 범위에서 집계된 계산입니다.
 
 ## 시간 비교 적용
 
