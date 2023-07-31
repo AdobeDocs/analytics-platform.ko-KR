@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,6 +131,6 @@ ht-degree: 99%
 
 ### 세션 설정
 
-세션이 만료되기 전에 이벤트 간의 비활성 기간을 결정하면 새 세션이 시작됩니다. 기간은 필수 입력 항목입니다. 이벤트에 특정 지표가 포함되면 새 섹션이 강제로 시작될 수도 있습니다. 다음을 참조하십시오 [컨텍스트 인식 세션](context-aware-sessions.md) 을 참조하십시오.
+세션이 만료되기 전에 이벤트 간의 비활성 기간을 결정하면 새 세션이 시작됩니다. 기간은 필수 입력 항목입니다. 이벤트에 특정 지표가 포함되면 새 섹션이 강제로 시작될 수도 있습니다. 자세한 내용은 [컨텍스트 인식 세션](context-aware-sessions.md)을 참조하십시오.
 
 원하는 설정이 모두 지정되면 **[!UICONTROL 저장]**&#x200B;을 클릭하고 마칩니다.
