@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 90%
+source-wordcount: '866'
+ht-degree: 71%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 90%
 
 - 현재 Adobe Analytics 배포 데이터,
 
-- Adobe Experience Platform Web/Mobile SDK를 사용하는 웹 사이트/모바일 앱 추적 데이터 또는
+- Adobe Experience Platform 웹/모바일 SDK를 사용하여 웹 사이트/모바일 앱을 추적한 데이터,
+
+- Adobe Experience Platform Edge Network Server API를 사용하여 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 또는 IoT 디바이스를 추적한 데이터 또는
 
 - Adobe가 소스 커넥터를 제공하는 서드파티 데이터 제공업체의 데이터.
 
@@ -46,11 +48,26 @@ ht-degree: 90%
 
 자세한 내용은 [기존 Adobe Analytics에서 데이터 수집 및 사용](./analytics.md)을 참조하십시오.
 
-## Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용
+
+## Edge Network를 통해 데이터 수집 및 사용
+
+### Adobe Experience Platform Web SDK 사용
 
 Adobe 기술을 사용하여 웹 사이트를 분석하거나 다른 솔루션에서 마이그레이션하거나 사용자의 행동을 추적할 수 있습니다. Adobe Experience Platform SDK 및 Edge Network를 사용하는 Adobe의 구현 모범 사례에 따라 데이터를 수집하려고 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
 다음을 참조하십시오 [Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용](./aepwebsdk.md) 추가 정보.
+
+### Adobe Experience Platform Mobile SDK 사용
+
+Adobe 기술을 사용하여 모바일 앱을 분석하려 할 때, 다른 솔루션에서 마이그레이션하거나 앱에서 사용자의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform SDK 및 Edge Network를 사용하는 Adobe의 구현 모범 사례에 따라 데이터를 수집하려고 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
+
+다음을 참조하십시오 [Adobe Experience Platform Mobile SDK를 통해 데이터 수집 및 사용](./aepmobilesdk.md) 추가 정보.
+
+### Adobe Experience Platform Edge Network Server API 사용
+
+데스크탑 애플리케이션, 게임 콘솔에서 재생되는 게임, 셋톱 박스에서 비디오 스트리밍 애플리케이션의 사용 또는 Adobe 기술이 있는 IoT 장치를 분석하려는 경우. 다른 솔루션에서 마이그레이션하거나 이러한 장치에서 개인의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform Edge Network Server API 및 Edge Network를 사용하여 데이터를 수집하는 Adobe의 구현 우수 사례를 따르고자 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
+
+다음을 참조하십시오 [Adobe Experience Platform Edge Network Server API를 통해 데이터 수집 및 사용](./serverapi.md) 추가 정보.
 
 ## 배치 데이터 수집 및 사용
 

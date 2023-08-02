@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5e4bf2985a0ec75cc0120e2a9549d720077cd5cc
+source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 99%
+source-wordcount: '2430'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,10 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
-| **2023년 7월** |
-| 컨텍스트 인식 세션 | 이 데이터 보기 설정에 대한 주제를 추가했습니다. [자세히 알아보기](/help/data-views/context-aware-sessions.md) |
+| **2023년 8월** | |
+| 모바일 애플리케이션 및 기타 플랫폼에 대한 데이터 수집 빠른 시작 안내서 | 모바일 애플리케이션이나 Customer Journey Analytics의 다른 플랫폼(예: 데스크탑 애플리케이션, 콘솔의 게임, 셋톱 박스의 애플리케이션 및 IoT 디바이스)에서 데이터를 수집하고 사용하는 방법을 설명하는 추가 데이터 수집 빠른 시작 안내서를 추가했습니다. [자세히 알아보기](../data-ingestion/data-ingestion.md) |
+| **2023년 7월** | |
+| 컨텍스트 인식 세션 | 이 데이터 보기 설정에 대한 주제가 추가되었습니다. [자세히 알아보기](/help/data-views/context-aware-sessions.md) |
 | Adobe Product Analytics | Adobe Product Analytics는 Customer Journey Analytics에서 교차 채널 데이터 및 인사이트와 상호 작용하는 새로운 방법입니다. 이러한 새로운 기능을 통해 제품 팀은 [안내 분석](/help/guided-analysis/overview.md) 워크플로를 통해 제품 경험에 대한 데이터 및 인사이트를 자체 관리할 수 있습니다&#x200B;. |
 | 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (흔히 복잡한) 데이터 조작을 정의할 수 있습니다. |
 | 프로필 및 조회 데이터에 대한 조회 지원이 확장됨 | 프로필 또는 조회 데이터 세트 내의 필드 조회로 데이터 세트를 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) |
