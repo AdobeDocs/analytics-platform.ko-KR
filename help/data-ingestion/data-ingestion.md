@@ -4,16 +4,16 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 92%
+source-wordcount: '624'
+ht-degree: 90%
 
 ---
 
 # 데이터 수집 개요
 
-데이터를 Customer Journey Analytics로 수집하는 방법은 여러 가지가 있습니다. 일부 고객은 기존 Adobe Analytics 데이터를 이전하려는 것으로 간주하며 일부는 Adobe Experience Platform로 수집된 데이터를 사용한다고 가정합니다.
+데이터를 Customer Journey Analytics에 수집할 때에는 몇 가지 옵션이 있습니다. 일부 고객은 기존 Adobe Analytics 데이터를 이전하려는 것으로 간주하며 일부는 Adobe Experience Platform로 수집된 데이터를 사용한다고 가정합니다.
 
 >[!IMPORTANT]
 >

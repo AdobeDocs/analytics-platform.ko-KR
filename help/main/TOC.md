@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 84%
+source-wordcount: '971'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,10 @@ ht-degree: 84%
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [Adobe Experience Platform Web SDK 및 Edge Network](../data-ingestion/aepwebsdk.md)
+      + Adobe Experience Platform Edge Network {#edge-network}
+         + [Web SDK](../data-ingestion/aepwebsdk.md)
+         + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
+         + [서버 API](../data-ingestion/serverapi.md)
       + [배치 데이터](../data-ingestion/batch.md)
       + [스트리밍 데이터](../data-ingestion/streaming.md)
       + [소스 커넥터](../data-ingestion/sources.md)
