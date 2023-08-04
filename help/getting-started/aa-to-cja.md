@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
+workflow-type: tm+mt
+source-wordcount: '1492'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가�
 * Customer Journey Analytics의 보고서 시간 특성
 
 Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko-KR)를 게시했습니다. 이러한 업데이트된 권장 사항을 사용하면 Attribution IQ를 통해 Adobe Analytics에 이미 있는 기능을 최대한 활용하는 데 도움이 됩니다. 또한 정상적으로 Customer Journey Analytics로 전환할 수 있도록 지원합니다.
+
+의 도입으로 [파생 필드](../data-views/derived-fields/derived-fields.md) Customer Journey Analytics 데이터 보기의 일부로 마케팅 채널도 를 사용하여 비파괴적이고 소급적인 방식으로 지원됩니다. [마케팅 채널 기능 템플릿](../data-views/derived-fields/derived-fields.md#function-templates).
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 

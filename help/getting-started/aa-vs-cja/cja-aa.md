@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
-source-wordcount: '2053'
-ht-degree: 100%
+source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
+workflow-type: tm+mt
+source-wordcount: '2089'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | 대상자 게시 (세그먼트 퍼블리싱) | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
-| 사용자 정의 세션 | 모바일 배경 이벤트를 제외한 모든 사용자 정의 세션 기능을 지원합니다. |
+| 사용자 정의 세션 | 사용자 정의 세션은 [세션 설정](../../data-views/create-dataview.md#session-settings) 데이터 보기에서 다음을 수행합니다. 다음을 참조하십시오  [컨텍스트 인식 세션](../../data-views/context-aware-sessions.md) 추가 정보. <br/>모바일 백그라운드 이벤트 처리는 Adobe Experience Platform Mobile SDK를 통해 지원됩니다. 다음을 참조하십시오 [Edge Network의 라이프사이클](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) 추가 정보. |
 | 통화 전환 | 데이터 보기에서 [지표 구성 요소 서식을 지정하는](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=ko#currency) 일부로 지원됩니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 고객 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 Experience Platform으로 업로드해야 합니다. |
