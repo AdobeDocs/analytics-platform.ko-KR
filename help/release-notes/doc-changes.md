@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c1b92c9f30dc96a6058a320df9fd66cd316b212f
+source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 98%
+source-wordcount: '2485'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
+| Adobe Customer Journey Analytics 기능 지원 | 에 추가 정보가 추가되었습니다. *새로운 방식으로 지원됨* Adobe Analytics과 비교한 Customer Journey Analytics의 세션화 기능에 대한 표. [자세히 알아보기](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
+| Adobe Analytics의 발전 | 을(를) 업데이트함 *마케팅 채널 (재)구성* 파생된 필드 마케팅 채널 함수 템플릿에 대한 참조가 포함된 섹션입니다. [자세히 알아보기](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 모바일 애플리케이션 및 기타 플랫폼에 대한 데이터 수집 빠른 시작 안내서 | 모바일 애플리케이션이나 Customer Journey Analytics의 다른 플랫폼(예: 데스크탑 애플리케이션, 콘솔의 게임, 셋톱 박스의 애플리케이션 및 IoT 디바이스)에서 데이터를 수집하고 사용하는 방법을 설명하는 추가 데이터 수집 빠른 시작 안내서를 추가했습니다. [자세히 알아보기](../data-ingestion/data-ingestion.md) |
 | **2023년 7월** | |
 | 컨텍스트 인식 세션 | 이 데이터 보기 설정에 대한 주제가 추가되었습니다. [자세히 알아보기](/help/data-views/context-aware-sessions.md) |
