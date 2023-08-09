@@ -4,10 +4,10 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
-workflow-type: ht
-source-wordcount: '1391'
-ht-degree: 100%
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
+workflow-type: tm+mt
+source-wordcount: '1418'
+ht-degree: 98%
 
 ---
 
@@ -116,6 +116,11 @@ ht-degree: 100%
 [!UICONTROL 데이터 유형], [!UICONTROL 데이터 세트], [!UICONTROL 데이터 거버넌스]와 [!UICONTROL 기타] 기준([!UICONTROL 데이터 포함 여부], [!UICONTROL ID 여부] 및 [!UICONTROL 미사용 여부] 기준)을 사용하여 왼쪽 레일의 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 스키마 필드를 필터링할 수 있습니다.
 
 ![필드 필터링](assets/dataview-components-filter.png)
+
+>[!TIP]
+>
+>구성 요소가 데이터 보기에 제대로 로드되지 않고 대신 오류 메시지가 표시되는 경우 을 참조하십시오. [권한 부족](../troubleshooting/lack-of-permissions.md) 해결 방법을 참고하십시오.
+
 
 
 ## 설정
