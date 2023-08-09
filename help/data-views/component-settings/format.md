@@ -4,9 +4,9 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3626a9f97048b68a57fca25fec396684c4f95449
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 30%
 
 ---
@@ -23,12 +23,11 @@ ht-degree: 30%
 | **[!UICONTROL 소수점 이하 자리 수]** | Integer 스키마 데이터 유형에 표시되지 않습니다. 지표가 표시하는 소수점 이하 자리 수를 지정할 수 있습니다. |
 | **[!UICONTROL 날짜]** | 보고에서 차원으로 사용하는 경우 날짜-시간 필드가 표시되는 방법을 결정할 수 있습니다. [자세히 알아보기](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
 | **[!UICONTROL 날짜-시간]** | 보고에서 차원으로 사용하는 경우 날짜-시간 필드가 표시되는 방법을 결정할 수 있습니다. [자세히 알아보기](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-| **[!UICONTROL 통화]** | 지표에 표시하려는 통화를 결정할 수 있도록 해 줍니다. 다음을 참조하십시오 [통화](#currency) 추가 세부 정보. |
+| **[!UICONTROL 통화]** | 지표에 표시하려는 통화를 결정할 수 있도록 해 줍니다. 다음을 참조하십시오 [통화](#currency) 을 참조하십시오. |
 | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 이 지표의 증가 트렌드를 양호(녹색) 또는 불량(빨간색)인지 여부를 지정할 수 있습니다. |
 | **[!UICONTROL True 값]** 및 **[!UICONTROL False 값]** | 부울 스키마 데이터 유형에만 표시됩니다. `true` 및 `false` 값에 대한 차원 항목 라벨을 사용자 정의할 수 있습니다. |
 
 {style="table-layout:auto"}
-
 
 ## 통화
 

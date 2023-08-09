@@ -3,11 +3,10 @@ title: 교차 채널 분석 FAQ
 description: 교차 채널 분석에 대해 자주 묻는 질문
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
-feature: Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
-workflow-type: ht
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
+workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
 

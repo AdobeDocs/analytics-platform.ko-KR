@@ -3,15 +3,15 @@ title: 재생 작동 방식
 description: 교차 채널 분석의 “재생” 개념 이해
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
-feature: Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
+source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
 
 ---
+
 
 # 재생 작동 방식
 
