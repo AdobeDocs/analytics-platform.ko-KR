@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1492'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가�
 
 Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko-KR)를 게시했습니다. 이러한 업데이트된 권장 사항을 사용하면 Attribution IQ를 통해 Adobe Analytics에 이미 있는 기능을 최대한 활용하는 데 도움이 됩니다. 또한 정상적으로 Customer Journey Analytics로 전환할 수 있도록 지원합니다.
 
-의 도입으로 [파생 필드](../data-views/derived-fields/derived-fields.md) Customer Journey Analytics 데이터 보기의 일부로 마케팅 채널도 를 사용하여 비파괴적이고 소급적인 방식으로 지원됩니다. [마케팅 채널 기능 템플릿](../data-views/derived-fields/derived-fields.md#function-templates).
+Customer Journey Analytics 데이터 보기의 일부로 [파생 필드](../data-views/derived-fields/derived-fields.md)가 도입됨에 따라 [마케팅 채널 기능 템플릿](../data-views/derived-fields/derived-fields.md#function-templates)을 사용하여 마케팅 채널 또한 비파괴적이고 소급 적용되는 방식으로 지원됩니다.
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
@@ -97,7 +97,7 @@ Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 �
 
 Adobe Analytics 세그먼트(Customer Journey Analytics에서는 [!UICONTROL 필터]라고 함) 및 계산된 지표는 Customer Journey Analytics와 호환되지 않습니다. 대부분의 경우 이들 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 Customer Journey Analytics에서 다시 빌드할 수 있습니다.
 
-사용자가 시스템 간 전환할 때 최대한 원활하게 전환하도록 하려면 다음을 계획하십시오.
+사용자가 시스템 간 전환할 때 최대한 원활하게 전환하도록 하려면 다음과 같은 방법을 통해 계획을 수립하십시오.
 
 1. 이들 구성 요소 중 가장 중요한 요소를 식별합니다.
 
