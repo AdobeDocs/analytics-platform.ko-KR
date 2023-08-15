@@ -1,5 +1,5 @@
 ---
-source-git-commit: 497334bdd0324e5b3955be79029079af88ca56e2
+source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 67%
@@ -23,7 +23,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->다음을 보유해야 합니다. **선택** 이 문서에 설명된 기능을 사용하려면 패키지를 제공합니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+>다음을 보유해야 합니다. **선택** 패키지 : 이 섹션에 설명된 기능을 사용하기 위해 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
 
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
