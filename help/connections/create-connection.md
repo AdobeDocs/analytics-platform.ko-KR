@@ -4,9 +4,9 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2630'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
->[!IMPORTANT]
->
->데이터 세트를 무제한으로 연결에 추가하려면 **Select** 패키지가 있어야 합니다. **Foundation** 패키지에서는 데이터 세트 수가 하나로 제한됩니다. 보유하고 있는 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우 관리자에게 문의하십시오.&#x200B;
+## 사전 요구 사항
+
+데이터 세트를 무제한으로 연결에 추가하려면 **Select** 패키지가 있어야 합니다. **Foundation** 패키지에서는 데이터 세트 수가 하나로 제한됩니다. 보유하고 있는 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우 관리자에게 문의하십시오.&#x200B;
 
 ## 연결 만들기 및 구성 {#create-connection}
 
