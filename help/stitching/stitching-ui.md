@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # 결합된 데이터 세트 만들기 및 관리
+
+{{select-package}}
 
 결합을 통해 관리자는 Customer Journey Analytics에서 사용할 수 있는 데이터 세트에 ID를 결합할 수 있습니다. 데이터 세트를 결합하면 프로필 표현의 정확도가 향상되어 궁극적으로 분석 및 보고가 향상됩니다.
 

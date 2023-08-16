@@ -5,9 +5,8 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 hide: true
 hidefromtoc: true
-badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 1%
@@ -17,6 +16,8 @@ ht-degree: 1%
 # SQL 커넥터
 
 {{release-limited-testing}}
+
+{{select-package}}
 
 다음 [!DNL Customer Journey Analytics SQL Connector] 에 대한 SQL 액세스 활성화 [데이터 보기](./data-views.md) Customer Journey Analytics에서 정의했습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 만들 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
@@ -99,13 +100,13 @@ Experience Platform UI에서
 
    2. 선택 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]** 을 클릭합니다.
 
-   3. 사용 ![복사](assets/Smock_Copy_18_N.svg) 각 Postgres 자격 증명 매개 변수를 복사하려면([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름]Power BI 및 기타)를 사용할 수 있습니다.
+   3. Copy를 사용 ![ 하 여 POWER BI에서 필요한 경우 사후 Gres 자격 증명 매개 변수 ( [!UICONTROL  호스트 ] , [!UICONTROL  포트 ] , [!UICONTROL  데이터베이스 ] , [!UICONTROL  사용자 이름 ] 등)를 각각 복사 합니다. ](assets/Smock_Copy_18_N.svg)
 
-2. Power BI:
+2. Power BI에서:
 
-   1. 기본 창에서 을(를) 선택합니다. **[!UICONTROL **&#x200B;데이터 가져오기&#x200B;**]** 을 클릭하여 제품에서 사용할 수 있습니다.
+   1. 기본 창의 상단 도구 모음에서 데이터 **]** 가져오기를 선택 **[!UICONTROL ** 합니다.
 
-   2. 선택 **[!UICONTROL **&#x200B;자세히...**]** 왼쪽 레일에서.
+   2. 왼쪽 레일에서 [자세히 **]** ...]를 선택 **[!UICONTROL ** 합니다.
 
    3. 다음에서 **데이터 가져오기** 화면, 검색 `PostgresSQL` 및 선택 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]** 목록에서 삭제할 수 있습니다.
 
@@ -133,7 +134,7 @@ Experience Platform UI에서
 
 +++
 
-+++타블로
++++Tableau
 
 1. Experience Platform UI에서 PostgresSQL 자격 증명의 세부 정보를 조회합니다.
 
@@ -163,15 +164,15 @@ Experience Platform UI에서
 
       5. 붙여넣기 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 텍스트 필드.
 
-      6. 붙여넣기 **[!UICONTROL **&#x200B;암호&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상 **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드.
+      6. 암호 **]** 매개 변수를 Experience Platform 쿼리 [!UICONTROL  자격 증명 **[!UICONTROL ** ] 에서 암호 **]** 텍스트 필드로 붙여넣기 **[!UICONTROL ** 합니다.
 
-      7. 선택 **[!UICONTROL **&#x200B;로그인&#x200B;**]**.
+      7. 로그인 **]** 을 선택 **[!UICONTROL ** 합니다.
 
-   4. Customer Journey Analytics 데이터 보기는 **[!UICONTROL **&#x200B;표&#x200B;**]** 목록을 표시합니다. 데이터 보기 테이블 접두사가 있습니다. `dv_`.
+   4. Customer Journey Analytics 데이터 보기는 **[!UICONTROL ** 테이블 **]** 목록에 테이블로 표시 됩니다. 데이터 뷰 테이블에는 접두사가 사용 `dv_` 됩니다.
 
-   5. 캔버스에서 사용할 테이블을 드래그합니다.
+   5. 사용 하려는 테이블을 캔버스에서 드래그 합니다.
 
-   이제 데이터 보기 테이블의 데이터로 작업하여 보고서와 시각화를 작성할 수 있습니다.
+   이제 데이터 보기 테이블의 데이터로 작업 하 여 보고서 및 시각화를 빌드 수 있습니다.
 
    다음을 참조하십시오 [쿼리 서비스에 타블로 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) 추가 정보.
 
@@ -229,8 +230,8 @@ prod:all=> \dv
 
 | 패턴 | 예 |
 |---|---|
-| 스키마 검색 | <pre>DV1에서 * 을 선택합니다. 여기서 1=0</pre> |
-| 등급 / 분류 | <pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>DIM1로 그룹화</pre><pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  filterId = &#39;12345&#39;<br/>DIM1로 그룹화</pre><pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  AND (dim2 = &#39;A&#39; 또는 DIM3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>DIM1로 그룹화</pre> |
+| 스키마 검색 | <pre>SELECT * FROM dv1 (WHERE 1 = 0)</pre> |
+| 등급/분류 | <pre>Dim1, SUM (metric1)를 &#39; 2022-01-01 &#39; 및 &#39; 2022-01-02 &#39; <br/> 그룹 간 dim1에서 M1 <br/> 으로 dv1 <br/></pre><pre>Dim1, SUM (metric1) <br/> 를 &#39; 2022-01-01 &#39; 및 &#39; 2022-01-02 &#39; 및 <br/> filterid = &#39; 12345 &#39; <br/> GROUP BY dim1에서 dv1 <br/> .</pre><pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  AND (dim2 = &#39;A&#39; 또는 DIM3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>DIM1로 그룹화</pre> |
 | HAVING 절 | <pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>DIM1로 그룹화<br/>M1 > 100 사용</pre> |
 | 고유, 상단 <br/>차원 값 | <pre>DV1에서 개별 DIM1 선택</pre><pre>dim1 AS dv1 선택<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>DIM1로 그룹화</pre><pre>dim1 AS dv1 선택<br/>DV1에서<br/>여기서 \`timestamp\` >= &#39;2022-01-01&#39; 및 \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>DIM1로 그룹화<br/>합계별 정렬(metric1)<br/>제한 15</pre> |
 | 지표 합계 | <pre>SUM(metric1) 을 M1 로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의</pre> |
@@ -247,15 +248,15 @@ prod:all=> \dv
 
 ### 차원
 
-기본적으로 사용할 수 있거나 데이터 보기에서 정의된 차원을 선택할 수 있습니다. ID로 차원을 선택합니다.
+기본적으로 사용할 수 있거나 데이터 보기에서 정의된 차원을 선택할 수 있습니다. ID로 차원를 선택 합니다.
 
 ### 지표
 
 선택할 수 있는 지표는 다음과 같습니다.
 
-- 기본적으로 사용할 수 있는 지표 중 하나,
+- 기본적으로 사용 가능한 모든 지표
 
-- 데이터 보기에서 정의됨,
+- 데이터 보기에서 정의 된
 
 - 사용자가 액세스할 수 있는 데이터 보기와 호환되는 계산된 지표입니다.
 
@@ -296,7 +297,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN METRIC1 END) AS m1
 | `+`, `-`, `*`, `/`, 및 `%` | 더하기, 빼기, 곱하기, 나누기 및 모듈형/나머지 |
 | `-X` 또는 `+X` | X가 지표 표현식인 기호 또는 지표 변경 |
 | `PI()` | π 상수 |
-| `POSITIVE`, `NEGATIVE`, `ABS`, `FLOOR`, `CEIL`, `CEILING`, `EXP`, `LN`, `LOG10`, `LOG1P`, `SQRT`, `CBRT`, `DEGREES`, `RADIANS`, `SIN`, `COS`, `TAN`, `ACOS`, `ASIN`, `ATAN`, `COSH`, `SINH`, 및 `TANH` | 단항 수학 함수 |
+| `POSITIVE`, `NEGATIVE` , `ABS` `FLOOR` `CEIL` ,,,, `CEILING` , `EXP` ,, `LOG1P` `COSH` `TAN` `COS` `ACOS` `SIN` `ASIN` `ATAN` `LN` `SQRT` `SINH` `LOG10` `CBRT` `DEGREES` `RADIANS` ,,,,,,,,,,,,,,,,,,,,,,,, 및`TANH` | 단항 수학 함수 |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | 이진 수학 함수 |
 
 {style="table-layout:auto"}
@@ -356,7 +357,7 @@ ORDER BY -metric1 DESC
 
 | 함수 | 예 | 세부 사항 |
 |---|---|---|
-| [CAST(열 AS 유형)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 또는 <br/> `` `timestamp`::string `` | 유형 캐스팅은 현재 지원되지 않지만 오류가 발생하지 않습니다. 다음 `CAST` 함수는 무시됩니다. |
+| [캐스트 (열 유형)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 또는 <br/> `` `timestamp`::string `` | 유형 캐스팅은 현재 지원 되지 않지만, 오류는 발생 하지 않습니다. 함수는 `CAST` 무시 됩니다. |
 | [TIMESTAMP(timeString)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | 시간 문자열을 내에서 사용할 타임스탬프로 구문 분석 `WHERE` 절. |
 | [TO_TIMESTAMP(timeString, formatString)](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | 시간 문자열을 내에서 사용할 타임스탬프로 구문 분석 `WHERE` 원할 경우 해당 시간 문자열에 대한 형식을 제공합니다. |
 | [DATE(dateString)](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | 내에서 사용할 타임스탬프로 날짜 문자열 구문 분석 `WHERE` 절. |

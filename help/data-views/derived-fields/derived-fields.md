@@ -4,7 +4,7 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: bd017810cb0f7813bdada5e3e951b0f6d5b768e4
+source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
 workflow-type: tm+mt
 source-wordcount: '4348'
 ht-degree: 15%
@@ -154,6 +154,8 @@ ht-degree: 15%
 -->
 
 ## 함수 참조
+
+{{select-package}}
 
 지원되는 각 함수에 대해 아래에서 세부 정보를 확인하십시오.
 
