@@ -4,13 +4,13 @@ description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 2dab438b956513eaff3f05d2ff8de2fff43d9977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2023년 8월)
+# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 8월)
 
 **최근 업데이트**: 2023년 8월 9일
 
@@ -20,10 +20,10 @@ ht-degree: 75%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 개선 사항** | <ul><li>예약된 작업의 내역을 볼 수 있는 내역 탭에서 예약된 작업을 다운로드합니다. 해당 작업에서 통합 문서를 다운로드합니다. </li><li>시작 날짜를 차원으로 표시: 사용자가 데이터 블록의 시작 날짜를 데이터 블록 출력에 차원으로 표시할 수 있습니다. </li></ul> | 해당 사항 없음 | 2023년 8월 17일 |
-| **통화 전환** | 고객 여정에서 여러 통화를 지원하는 기능을 추가하고 있습니다. 데이터 보기 설정에서 통화를 다른 통화로 변환할 수 있습니다. [자세히 알아보기](/help/data-views/component-settings/format.md) | 해당 사항 없음 | 2023년 8월 31일 |
-| **Analytics 소스 커넥터에서 A4T 분류 지원** | Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합할 수 있도록 상관 관계 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 8월 31일 |
-| **보고 활동 관리자** | 관리자는 각 연결에 대한 보고 사용량에 대해 상세한 가시성을 제공하여 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있습니다. | 해당 사항 없음 | 2023년 9월 6일 |
+| **Report Builder 개선 사항** | <ul><li>예약된 작업의 기록을 볼 수 있는 내역 탭에서 예약된 작업을 다운로드합니다. 해당 작업에서 통합 문서를 다운로드합니다. </li><li>차원으로 시작 일자: 사용자는 데이터 블록 출력의 차원으로 데이터 블록의 시작 일자를 표시할 수 있습니다. </li></ul> | 해당 사항 없음 | 2023년 8월 17일 |
+| **통화 전환** | 고객 여정에서 여러 통화를 지원하는 기능이 추가되고 있습니다. 데이터 보기 설정에서 통화를 다른 통화로 변환할 수 있습니다. [자세히 알아보기](/help/data-views/component-settings/format.md) | 해당 사항 없음 | 2023년 8월 31일 |
+| **Analytics 소스 커넥터에서 A4T 분류 지원** | Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합하기 위해 상관 관계 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 8월 31일 |
+| **보고 활동 관리자** | 각 연결에 대한 보고 사용량에 대해 세부적인 가시성을 제공하여 관리자가 최대 보고 시간 동안 용량 문제를 쉽게 진단한 후 해결할 수 있도록 지원합니다. | 해당 사항 없음 | 2023년 9월 6일 |
 | **Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스** | Adobe Customer Journey Analytics SQL 커넥터를 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. Power BI, Tableau 또는 기타 비즈니스 인텔리전스와 시각화 도구에 익숙한 데이터 엔지니어 및 분석가는 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에 사용하는 동일한 데이터 보기를 기반으로 보고서와 대시보드를 만들 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) | 해당 사항 없음 | 2023년 9월 13일 |
 
 {style="table-layout:auto"}
