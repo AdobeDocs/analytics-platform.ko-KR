@@ -3,10 +3,10 @@ title: 결합 FAQ
 description: 결합에 대해 자주 묻는 질문
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 35%
+source-wordcount: '1299'
+ht-degree: 42%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 35%
 
 +++
 
-+++**원하는 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력된 데이터 세트를 사용할 수 있는 데 시간이 얼마나 걸립니까?**
++++**필요한 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력되는 데이터 세트를 사용할 수 있는 데 시간이 얼마나 걸립니까?**
 
 라이브 결합은 Adobe에서 결합을 활성화한 후 약 1주 후에 사용할 수 있습니다. 채우기 가용성은 기존 데이터의 양에 따라 다릅니다. 작은 데이터 세트(하루에 100만 개 미만의 이벤트)는 보통 2일이 걸리지만 대규모 데이터 세트(하루에 10억 개의 이벤트)는 1주일 이상 걸릴 수 있습니다.
 
@@ -78,15 +78,36 @@ Adobe은 현지 및 국제 법에 따라 GDPR 및 CCPA 요청을 처리합니다
 
 +++
 
+
++++**하나 이상의 이벤트에 &#39;정의되지 않음&#39;과 같은 자리 표시자 값이 있는 경우 어떻게 됩니까?**
+
+임시 ID에 대한 자리 표시자 값을 사용하는 데이터에 스티칭이 적용될 때 발생하는 &#39;사람 축소&#39;에 주의하십시오. 아래 예제 표에서 CRM 시스템에서 가져온 데이터 세트에서 가져온 정의되지 않은 개인 ID가 &#39;Undefined&#39; 값으로 채워져 잘못된 개인 표시가 발생합니다.
+
+| 이벤트 | 타임스탬프 | 영구 ID (쿠키 ID) | 임시 ID (로그인 ID) | 결합된 ID(재생 후) |
+|---|---|---|---|---|
+| 1 | 2023-05-12 12:01 | 123 | - | **코리** |
+| 2 | 2023-05-12 12:02 | 123 | 코리 | **코리** |
+| 3 | 2023-05-12 12:03 | 456 | 정의되지 않음 | **정의되지 않음** |
+| 4 | 2023-05-12 12:04 | 456 | - | **정의되지 않음** |
+| 5 | 2023-05-12 12:05 | 789 | 정의되지 않음 | **정의되지 않음** |
+| 6 | 2023-05-12 12:06 | 012 | 정의되지 않음 | **정의되지 않음** |
+| 7 | 2023-05-12 12:07 | 012 | - | **정의되지 않음** |
+| 8 | 2023-05-12 12:03 | 789 | 정의되지 않음 | **정의되지 않음** |
+| 9 | 2023-05-12 12:09 | 456 | - | **정의되지 않음** |
+| 10 | 2023-05-12 12:02 | 123 | - | **코리** |
+| | | **장치 4개** | **2명**:<br/>이벤트 1, 4, 7, 9, 10 삭제 | **2명**:<br/>Cory, 인증되지 않음(한 사람으로 축소) |
+
++++
+
 +++**Customer Journey Analytics에 결합된 데이터 세트의 지표를 Customer Journey Analytics에 결합되지 않은 데이터 세트의 유사한 지표 및 Adobe Analytics과 어떻게 비교합니까?**
 
 Customer Journey Analytics의 특정 지표는 기존 Analytics의 지표와 유사하지만 비교하는 대상에 따라 다른 지표도 있습니다. 아래 표에는 몇 가지 일반적인 지표가 비교되어 있습니다.
 
-| **Customer Journey Analytics 결합 데이터** | **연결되지 않은 데이터 Customer Journey Analytics** | **Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
+| **Customer Journey Analytics에 결합된 데이터** | **Customer Journey Analytics에 결합되지 않은 데이터** | **Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
 | **사람** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **사람** = 개인 ID로 선택한 열에 따른 고유한 개인 ID 수입니다. **사람** analytics 소스 커넥터 데이터 세트의 는 와 유사합니다. **고유 방문자 수** 기존 Adobe Analytics에서 `endUserIDs._experience.aaid.id` 는 Customer Journey Analytics에서 개인 ID로 사용됩니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
-| **세션**: Customer Journey Analytics 데이터 보기의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**: Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko-KR)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=ko-KR)에 지정된 세션 설정을 기반으로 정의됩니다. |
-| **이벤트** = Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 영구 ID가 비어 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트** = Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. |
+| **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에서의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko-KR)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=ko-KR)에 지정된 세션 설정을 기반으로 정의됩니다. |
+| **이벤트**&#x200B;는 Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 영구 ID가 비어 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트**&#x200B;는 Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. |
 
 다른 지표는 Customer Journey Analytics 및 Adobe Analytics과 유사할 수 있습니다. 예를 들어 Adobe Analytics의 총 횟수입니다 [사용자 지정 이벤트](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=ko-KR) 1-100은 기존 Adobe Analytics과 Customer Journey Analytics(결합 여부에 상관없이)에 필적합니다. [기능의 차이점](/help/getting-started/aa-vs-cja/cja-aa.md)) Customer Journey Analytics과 Adobe Analytics 간의 이벤트 중복 제거와 같은 기능은 두 제품 간에 불일치를 일으킬 수 있습니다.
 
