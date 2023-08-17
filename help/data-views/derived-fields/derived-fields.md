@@ -4,9 +4,9 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
+source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
 workflow-type: tm+mt
-source-wordcount: '4378'
+source-wordcount: '4433'
 ht-degree: 15%
 
 ---
@@ -426,7 +426,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -443,6 +443,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 | [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
 | [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
 | [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+| [!DNL AMS789] | [!DNL Amsterdam] | 50 | [!DNL Okura] |
 
 {style="table-layout:auto"}
 
@@ -453,6 +454,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 | [!DNL SLC123] | 200 |
 | [!DNL LX342] | 198 |
 | [!DNL SFO456] | 190 |
+| [!DNL AMS789] | 150 |
 
 {style="table-layout:auto"}
 
@@ -474,6 +476,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 | [!DNL SLC123] |
 | [!DNL LAX342] |
 | [!DNL SFO456] |
+| [!DNL AMS789] |
 
 {style="table-layout:auto"}
 
@@ -482,7 +485,9 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Hotel Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 규칙 정의 [!UICONTROL 호텔 아이디] 필드 및 새 값으로 대체합니다.
 
-![분류 규칙 1의 스크린샷](assets/lookup-1.png)
+분류할 값의 일부로 정의하지 않은 원래 값을 포함하려면(예: 호텔 ID AMS789) 다음을 선택하십시오 **[!UICONTROL 원래 값 표시]**. 이렇게 하면 해당 값이 분류되지 않지만 AMS789가 파생 필드에 대한 출력의 일부가 됩니다.
+
+![분류 규칙 1의 스크린샷](assets/classify-1.png)
 
 ### 다음 이후 데이터 {#classify-uc1-dataafter}
 
@@ -517,7 +522,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 다음을 정의합니다. `Page Name (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 기존 값을 분류할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 바꾸기 를 업데이트된 올바른 값으로 바꿉니다.
 
-![분류 규칙 2의 스크린샷](assets/lookup-2.png)
+![분류 규칙 2의 스크린샷](assets/classify-2.png)
 
 ### 다음 이후 데이터 {#classify-uc2-dataafter}
 
