@@ -4,9 +4,9 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4378'
 ht-degree: 15%
 
 ---
@@ -173,84 +173,9 @@ ht-degree: 15%
 
 - 제한(해당되는 경우).
 
-
-<!-- Concatenate -->
-
-### 연결
-
-정의된 구분 기호를 사용하여 필드 값을 새로 파생된 단일 필드에 결합합니다.
-
-+++ 세부 사항
-
-## 사양 {#concatenate-io}
-
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
-|---|---|---|---|---|
-| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 구분 기호]:<ul><li>문자열</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
-
-{style="table-layout:auto"}
-
-
-## 사용 사례 {#concatenate-uc}
-
-현재 원본 및 대상 공항 코드를 별도의 필드로 수집하고 있습니다. 두 필드를 하이픈(-)으로 구분된 단일 차원으로 결합하려고 합니다. 따라서 출발지와 목적지의 조합을 분석하여 예약된 상위 경로를 식별할 수 있습니다.
-
-가정:
-
-- 원본 및 대상 값은 동일한 테이블의 별도 필드에 수집됩니다.
-- 사용자는 값 사이에 구분 기호 &#39;-&#39;를 사용하기로 결정합니다.
-
-다음과 같은 예약이 발생한다고 가정해 보십시오.
-
-- 고객 ABC123은 Salt Lake City(SLC)와 Orlando(MCO) 간 항공권 예약
-- 고객 ABC456, SLC(Salt Lake City)와 LAX(Los Angeles) 간 항공권 예약
-- 고객 ABC789는 Salt Lake City(SLC)와 Seattle(SEA) 간의 항공편을 예약합니다.
-- 고객 ABC987은 Salt Lake City(SLC)와 San Jose(SJO) 간 항공권 예약
-- 고객 ABC654는 Salt Lake City(SLC)와 Orlando(MCO) 간 항공권 예약
-
-원하는 보고서는 다음과 같아야 합니다.
-
-| 원본 / 대상 | 예약 |
-|----|---:|
-| SLC-MCO | 2 |
-| SLC-LAX | 1 |
-| SLC-SEA | 1 |
-| SLC-JO | 1 |
-
-{style="table-layout:auto"}
-
-
-### 다음 이전 데이터 {#concatenate-uc-databefore}
-
-| Origin | 대상 |
-|----|---:|
-| SLC | MCO |
-| SLC | LAX |
-| SLC | SEA |
-| SLC | SJO |
-| SLC | MCO |
-
-{style="table-layout:auto"}
-
-### 파생 필드 {#concatenate-derivedfield}
-
-새 항목을 정의합니다. [!UICONTROL 원본 - 대상] 파생 필드. 다음을 사용합니다. [!UICONTROL 연결] 을 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 를 사용하는 필드 `-` [!UICONTROL 구분 기호].
-
-![연결 규칙의 스크린샷](assets/concatenate.png)
-
-### 다음 이후 데이터 {#concatenate-dataafter}
-
-| 원본 - 대상<br/>(파생 필드) |
-|---|
-| SLC-MCO |
-| SLC-LAX |
-| SLC-SEA |
-| SLC-JO |
-| SLC-MCO |
-
-{style="table-layout:auto"}
-
-+++
+>[!NOTE]
+>
+>조회 함수 이름이 (으)로 변경되었습니다. [분류](#classify). 다음을 참조하십시오. [분류](#classify) 함수 를 참조하십시오.
 
 <!-- CASE WHEN -->
 
@@ -482,6 +407,209 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
+<!-- CLASSIFY -->
+
+### 분류
+
+새 파생 필드의 해당 값으로 대체되는 값 집합을 정의합니다.
+
+
+
+
++++ 세부 사항
+
+>[!NOTE]
+>
+>이 함수의 이름은 원래 Lookup이지만 다른 기능을 가진 향후 조회 함수를 수용하기 위해 Classify로 이름이 변경되었습니다.
+
+## 사양 {#classify-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+
+## 사용 사례 1 {#classify-uc1}
+
+에 대한 키 열이 포함된 CSV 파일이 있습니다. `hotelID` 및 와 연결된 하나 이상의 추가 열 `hotelID`: `city`, `rooms`, `hotel name`.
+수집하는 중입니다. [!DNL Hotel ID] 차원에서 다음을 생성하려고 함 [!DNL Hotel Name] 에서 파생된 차원 `hotelID` CSV 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다.
+
+**CSV 파일 구조 및 콘텐츠**
+
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
+|---|---|---:|---|
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+**현재 보고서**
+
+| [!DNL Hotel ID] | 제품 보기 |
+|---|---:|
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
+
+{style="table-layout:auto"}
+
+
+**원하는 보고서**
+
+| [!DNL Hotel Name] | 제품 보기 |
+|----|----:|
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
+
+{style="table-layout:auto"}
+
+### 다음 이전 데이터 {#classify-uc1-databefore}
+
+| [!DNL Hotel ID] |
+|----|
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
+
+{style="table-layout:auto"}
+
+
+### 파생 필드 {#classify-uc1-derivedfield}
+
+다음을 정의합니다. `Hotel Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 규칙 정의 [!UICONTROL 호텔 아이디] 필드 및 새 값으로 대체합니다.
+
+![분류 규칙 1의 스크린샷](assets/lookup-1.png)
+
+### 다음 이후 데이터 {#classify-uc1-dataafter}
+
+| [!DNL Hotel Name] |
+|----|
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+
+## 사용 사례 2 {#classify-uc2}
+
+여러 페이지에 대해 친숙한 페이지 이름 대신 URL을 수집했습니다. 이렇게 혼합된 값 컬렉션은 보고를 중단합니다.
+
+### 다음 이전 데이터 {#classify-uc2-databefore}
+
+| [!DNL Page Name] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| `http://www.adobetravel.ca/Hotel-Search` |
+| `https://www.adobetravel.com/Package-Search` |
+| [!DNL Deals & Offers] |
+| `http://www.adobetravel.ca/user/reviews` |
+| `https://www.adobetravel.com.br/Generate-Quote/preview` |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#classify-uc2-derivedfield}
+
+다음을 정의합니다. `Page Name (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 기존 값을 분류할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 바꾸기 를 업데이트된 올바른 값으로 바꿉니다.
+
+![분류 규칙 2의 스크린샷](assets/lookup-2.png)
+
+### 다음 이후 데이터 {#classify-uc2-dataafter}
+
+| [!DNL Page Name (updated)] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
+
++++
+
+<!-- CONCATENATE -->
+
+### 연결
+
+정의된 구분 기호를 사용하여 필드 값을 새로 파생된 단일 필드에 결합합니다.
+
++++ 세부 사항
+
+## 사양 {#concatenate-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 구분 기호]:<ul><li>문자열</li></ul></li> </ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+
+## 사용 사례 {#concatenate-uc}
+
+현재 원본 및 대상 공항 코드를 별도의 필드로 수집하고 있습니다. 두 필드를 하이픈(-)으로 구분된 단일 차원으로 결합하려고 합니다. 따라서 출발지와 목적지의 조합을 분석하여 예약된 상위 경로를 식별할 수 있습니다.
+
+가정:
+
+- 원본 및 대상 값은 동일한 테이블의 별도 필드에 수집됩니다.
+- 사용자는 값 사이에 구분 기호 &#39;-&#39;를 사용하기로 결정합니다.
+
+다음과 같은 예약이 발생한다고 가정해 보십시오.
+
+- 고객 ABC123은 Salt Lake City(SLC)와 Orlando(MCO) 간 항공권 예약
+- 고객 ABC456, SLC(Salt Lake City)와 LAX(Los Angeles) 간 항공권 예약
+- 고객 ABC789는 Salt Lake City(SLC)와 Seattle(SEA) 간의 항공편을 예약합니다.
+- 고객 ABC987은 Salt Lake City(SLC)와 San Jose(SJO) 간 항공권 예약
+- 고객 ABC654는 Salt Lake City(SLC)와 Orlando(MCO) 간 항공권 예약
+
+원하는 보고서는 다음과 같아야 합니다.
+
+| 원본 / 대상 | 예약 |
+|----|---:|
+| SLC-MCO | 2 |
+| SLC-LAX | 1 |
+| SLC-SEA | 1 |
+| SLC-JO | 1 |
+
+{style="table-layout:auto"}
+
+
+### 다음 이전 데이터 {#concatenate-uc-databefore}
+
+| Origin | 대상 |
+|----|---:|
+| SLC | MCO |
+| SLC | LAX |
+| SLC | SEA |
+| SLC | SJO |
+| SLC | MCO |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#concatenate-derivedfield}
+
+새 항목을 정의합니다. [!UICONTROL 원본 - 대상] 파생 필드. 다음을 사용합니다. [!UICONTROL 연결] 을 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 를 사용하는 필드 `-` [!UICONTROL 구분 기호].
+
+![연결 규칙의 스크린샷](assets/concatenate.png)
+
+### 다음 이후 데이터 {#concatenate-dataafter}
+
+| 원본 - 대상<br/>(파생 필드) |
+|---|
+| SLC-MCO |
+| SLC-LAX |
+| SLC-SEA |
+| SLC-JO |
+| SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
 
 <!-- FIND AND REPLACE -->
 
@@ -552,127 +680,6 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
-
-<!-- LOOKUP -->
-
-### 조회
-
-새 파생 필드의 해당 값으로 대체되는 조회 값 집합을 정의합니다.
-
-+++ 세부 사항
-
-
-## 사양 {#lookup-io}
-
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
-|---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 조회를 적용할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
-
-{style="table-layout:auto"}
-
-
-## 사용 사례 1 {#lookup-uc1}
-
-에 대한 키 열이 포함된 CSV 파일이 있습니다. `hotelID` 및 와 연결된 하나 이상의 추가 열 `hotelID`: `city`, `rooms`, `hotel name`.
-수집하는 중입니다. [!DNL Hotel ID] 차원에서 다음을 생성하려고 함 [!DNL Hotel Name] 에서 파생된 차원 `hotelID` CSV 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다.
-
-**CSV 파일 구조 및 콘텐츠**
-
-| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
-|---|---|---:|---|
-| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
-| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
-| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-**현재 보고서**
-
-| [!DNL Hotel ID] | 제품 보기 |
-|---|---:|
-| [!DNL SLC123] | 200 |
-| [!DNL LX342] | 198 |
-| [!DNL SFO456] | 190 |
-
-{style="table-layout:auto"}
-
-
-**원하는 보고서**
-
-| [!DNL Hotel Name] | 제품 보기 |
-|----|----:|
-| [!DNL SLC Downtown] | 200 |
-| [!DNL LA Airport] | 198 |
-| [!DNL Market Street] | 190 |
-
-{style="table-layout:auto"}
-
-### 다음 이전 데이터 {#lookup-uc1-databefore}
-
-| [!DNL Hotel ID] |
-|----|
-| [!DNL SLC123] |
-| [!DNL LAX342] |
-| [!DNL SFO456] |
-
-{style="table-layout:auto"}
-
-
-### 파생 필드 {#lookup-uc1-derivedfield}
-
-다음을 정의합니다. `Hotel Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 조회] 함수 를 사용하여 규칙 값을 조회할 수 있습니다. [!UICONTROL 호텔 아이디] 필드 및 새 값으로 대체합니다.
-
-![조회 규칙 1의 스크린샷](assets/lookup-1.png)
-
-### 다음 이후 데이터 {#lookup-uc1-dataafter}
-
-| [!DNL Hotel Name] |
-|----|
-| [!DNL SLC Downtown] |
-| [!DNL LA Airport] |
-| [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-
-## 사용 사례 2 {#lookup-uc2}
-
-여러 페이지에 대해 친숙한 페이지 이름 대신 URL을 수집했습니다. 이렇게 혼합된 값 컬렉션은 보고를 중단합니다.
-
-### 다음 이전 데이터 {#lookup-uc2-databefore}
-
-| [!DNL Page Name] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| `http://www.adobetravel.ca/Hotel-Search` |
-| `https://www.adobetravel.com/Package-Search` |
-| [!DNL Deals & Offers] |
-| `http://www.adobetravel.ca/user/reviews` |
-| `https://www.adobetravel.com.br/Generate-Quote/preview` |
-
-{style="table-layout:auto"}
-
-### 파생 필드 {#lookup-uc2-derivedfield}
-
-다음을 정의합니다. `Page Name (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 조회] 함수를 사용하여 기존 값을 조회할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 바꾸기 를 업데이트된 올바른 값으로 바꿉니다.
-
-![조회 규칙 2의 스크린샷](assets/lookup-2.png)
-
-### 다음 이후 데이터 {#lookup-uc2-dataafter}
-
-| [!DNL Page Name (updated)] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| [!DNL Hotel Search] |
-| [!DNL Package Search] |
-| [!DNL Deals & Offers] |
-| [!DNL Reviews] |
-| [!DNL Generate Quote] |
-
-+++
-
 <!-- MERGE FIELDS -->
 
 ### 필드 병합
@@ -691,7 +698,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ## 사용 사례 {#merge-fields-uc}
 
-채널 간 여정을 분석하기 위해 페이지 이름 필드와 호출 사유 필드로 구성된 새 차원을 생성하려고 합니다.
+채널 간 여정을 분석하기 위해 페이지 이름 필드 및 호출 사유 필드로 구성된 차원을 생성하려고 합니다.
 
 ### 다음 이전 데이터 {#merge-fields-uc-databefore}
 
