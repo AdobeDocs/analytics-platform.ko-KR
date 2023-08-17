@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 100%
+source-wordcount: '2518'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
+| 예약된 프로젝트 관리에 대한 콘텐츠 이동됨 | Analytics Components 안내서에서 라는 새 문서를 만들었습니다. [예약된 프로젝트](/help/components/scheduled-projects-manager.md). 이 콘텐츠는 이전에 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md) Analytics 도구 안내서의 문서입니다. |
 | Adobe Customer Journey Analytics 기능 지원 | Adobe Analytics와 비교하여 Customer Journey Analytics의 세션화 기능에 대한 *새로운 방식으로 지원됨* 테이블에 정보가 추가되었습니다. [자세히 알아보기](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Adobe Analytics의 발전 | 파생 필드 마케팅 채널 기능 템플릿을 참조하여 *마케팅 채널 (재)구성* 섹션이 업데이트되었습니다. [자세히 알아보기](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 모바일 애플리케이션 및 기타 플랫폼용 데이터 수집 빠른 시작 안내서 | Customer Journey Analytics에서 모바일 애플리케이션 또는 기타 플랫폼(예: 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 및 IoT 디바이스의 애플리케이션)에서 데이터를 수집하고 사용하는 방법을 설명하는 데이터 수집 빠른 시작 안내서가 추가되었습니다. [자세히 알아보기](../data-ingestion/data-ingestion.md) |
