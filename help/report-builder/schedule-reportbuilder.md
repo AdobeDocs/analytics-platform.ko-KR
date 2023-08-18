@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics에서 Report Builder를 사용하여 통합 문서를 예약하는 방법
-description: Report Builder에서 예약 기능을 사용하는 방법에 대해 설명
+description: Report Builder에서 예약 기능을 사용하는 방법 알아보기
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: cd3ed8873619c7fb5281d42b1f74c32b245400d0
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: d40638272263a389421adfe224649e2b905c652b
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -91,17 +91,21 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 1. Report Builder 허브의 예약 섹션에서 통합 문서 탭을 클릭합니다. 이 보기를 사용하여 예약된 모든 통합 문서 목록을 확인합니다.
 
-1. 통합 문서를 선택합니다. 통합 문서를 편집하고, 일정을 변경하고, 일정을 일시 중지 및 다시 시작하거나 일정을 삭제할 수 있는 몇 가지 도구가 표시됩니다.
+1. 통합 문서를 선택합니다. 통합 문서를 편집하거나, 예약 작업을 편집하거나, 예약 작업을 일시 중지 및 다시 시작하거나, 예약된 작업 보고서를 다운로드하거나, 예약 작업을 삭제할 수 있는 몇 가지 도구가 표시됩니다.
 
-   ![대체 설명](./assets/edit-icons.png){width="55%"}
+   ![통합 문서 일정 아이콘을 보여 주는 스크린샷입니다.](./assets/schedule-icons.png){width="15%"}
 
-* (선택 사항) 연필 아이콘을 클릭하여 통합 문서 일정을 편집합니다.
+* (선택 사항) 연필 아이콘을 클릭하여 통합 문서 예약 작업을 편집합니다.
 
 * (선택 사항) 시계 아이콘을 클릭하여 예약된 각 작업의 내역을 확인합니다.
 
-* (선택 사항) 일시 중지 아이콘을 클릭하여 배포 일정을 일시 중지하고 다시 시작합니다. 통합 문서를 보내기 전에 통합 문서를 수정해야 하는 경우 유용합니다. 배포를 다시 시작하려면 일시 중지 아이콘을 다시 클릭합니다.
+* (선택 사항) 일시 중지 아이콘을 클릭하여 분배 예약 작업을 일시 중지하고 다시 시작합니다. 통합 문서를 보내기 전에 통합 문서를 수정해야 하는 경우 유용합니다. 배포를 다시 시작하려면 일시 중지 아이콘을 다시 클릭합니다.
 
-* (선택사항) 휴지통을 클릭하여 일정을 삭제합니다.
+* (선택 사항) 다운로드 아이콘을 클릭하여 통합 문서 예약 작업의 사본을 다운로드합니다.
+
+* (선택 사항) 일정 작업을 삭제하려면 휴지통을 클릭합니다.
+
+  ![일정 작업 목록을 보여 주는 스크린샷입니다.](./assets/selected-workbook.png){width="20%"}
 
 ## 예약된 작업 상태 검토
 

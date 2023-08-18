@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
+source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 83%
+source-wordcount: '607'
+ht-degree: 74%
 
 ---
 
@@ -62,6 +62,12 @@ ht-degree: 83%
    - 이미 열에 차원이 있는 경우 차원 구성 요소는 행 섹션에 추가되거나 열 섹션에 추가됩니다.
    - 날짜 구성 요소가 열 섹션에 추가됩니다.
    - 필터 구성 요소가 필터 섹션에 추가됩니다.
+
+   **Dimension으로 시작일**
+
+   시작 날짜를 차원으로 설정하여 데이터 블록의 시작 날짜를 명확하게 식별합니다. 이 기능은 롤링 날짜 범위가 있는 정기적으로 예약된 보고서가 있거나 파격적인 날짜 범위가 있고 시작 날짜를 명확히 해야 하는 경우 유용합니다.
+
+   ![차원 목록에 시작 날짜를 표시하는 스크린샷.](./assets/start-date-dimension.png){width="15%"}
 
 1. 테이블 창에서 항목을 정렬하여 데이터 블록의 레이아웃을 사용자 지정합니다.
 
