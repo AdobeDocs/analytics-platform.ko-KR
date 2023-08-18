@@ -3,7 +3,7 @@ title: 세션 설정
 description: 데이터 보기에서 세션 길이를 정의하고 트리거를 사용하여 새 세션을 시작할 수 있는 설정입니다
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 25ff6feda28f0447927a52f44aed800cdd89e0cb
+source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 38%
