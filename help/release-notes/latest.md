@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2dab438b956513eaff3f05d2ff8de2fff43d9977
-workflow-type: ht
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 개선 사항** | <ul><li>예약된 작업의 기록을 볼 수 있는 내역 탭에서 예약된 작업을 다운로드합니다. 해당 작업에서 통합 문서를 다운로드합니다. </li><li>차원으로 시작 일자: 사용자는 데이터 블록 출력의 차원으로 데이터 블록의 시작 일자를 표시할 수 있습니다. </li></ul> | 해당 사항 없음 | 2023년 8월 17일 |
+| **Report Builder 개선 사항** | <ul><li>통합 문서 탭에서 예약된 작업을 다운로드한 다음 제목을 지정하고 저장하고 공유할 수 있습니다. [자세히 알아보기](/help/report-builder/schedule-reportbuilder.md)</li><li>차원으로 시작 날짜를 사용하면 데이터 블록의 시작 날짜를 데이터 블록 출력에 차원으로 표시할 수 있습니다. [자세히 알아보기](/help/report-builder/create-a-data-block.md) </li></ul> | 해당 사항 없음 | 2023년 8월 17일 |
 | **통화 전환** | 고객 여정에서 여러 통화를 지원하는 기능이 추가되고 있습니다. 데이터 보기 설정에서 통화를 다른 통화로 변환할 수 있습니다. [자세히 알아보기](/help/data-views/component-settings/format.md) | 해당 사항 없음 | 2023년 8월 31일 |
 | **Analytics 소스 커넥터에서 A4T 분류 지원** | Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합하기 위해 상관 관계 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 8월 31일 |
 | **보고 활동 관리자** | 각 연결에 대한 보고 사용량에 대해 세부적인 가시성을 제공하여 관리자가 최대 보고 시간 동안 용량 문제를 쉽게 진단한 후 해결할 수 있도록 지원합니다. | 해당 사항 없음 | 2023년 9월 6일 |

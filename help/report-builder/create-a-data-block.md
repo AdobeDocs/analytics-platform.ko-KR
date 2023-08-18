@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 74%
@@ -67,7 +67,7 @@ ht-degree: 74%
 
    시작 날짜를 차원으로 설정하여 데이터 블록의 시작 날짜를 명확하게 식별합니다. 이 기능은 롤링 날짜 범위가 있는 정기적으로 예약된 보고서가 있거나 파격적인 날짜 범위가 있고 시작 날짜를 명확히 해야 하는 경우 유용합니다.
 
-   ![차원 목록에 시작 날짜를 표시하는 스크린샷.](./assets/start-date-dimension.png){width="15%"}
+   ![차원 목록에 시작 날짜를 표시하는 스크린샷.](./assets/start-date-dimension.png){width="30%"}
 
 1. 테이블 창에서 항목을 정렬하여 데이터 블록의 레이아웃을 사용자 지정합니다.
 

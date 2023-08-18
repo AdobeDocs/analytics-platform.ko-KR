@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: d40638272263a389421adfe224649e2b905c652b
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 90%
@@ -93,7 +93,7 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 1. 통합 문서를 선택합니다. 통합 문서를 편집하거나, 예약 작업을 편집하거나, 예약 작업을 일시 중지 및 다시 시작하거나, 예약된 작업 보고서를 다운로드하거나, 예약 작업을 삭제할 수 있는 몇 가지 도구가 표시됩니다.
 
-   ![통합 문서 일정 아이콘을 보여 주는 스크린샷입니다.](./assets/schedule-icons.png){width="15%"}
+   ![통합 문서 일정 아이콘을 보여 주는 스크린샷입니다.](./assets/schedule-icons.png){width="20%"}
 
 * (선택 사항) 연필 아이콘을 클릭하여 통합 문서 예약 작업을 편집합니다.
 
@@ -105,7 +105,7 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 * (선택 사항) 일정 작업을 삭제하려면 휴지통을 클릭합니다.
 
-  ![일정 작업 목록을 보여 주는 스크린샷입니다.](./assets/selected-workbook.png){width="20%"}
+  ![일정 작업 목록을 보여 주는 스크린샷입니다.](./assets/selected-workbook.png){width="40%"}
 
 ## 예약된 작업 상태 검토
 
