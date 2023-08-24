@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 콘텐츠 업데이트됨  [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 가독성을 향상시키십시오. |
-| Report Builder 개선 사항 | 콘텐츠 업데이트됨 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 예약된 작업 다운로드에 대한 정보를 제공합니다. 콘텐츠 업데이트됨  [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 시작 날짜를 차원으로 사용하는 데 필요한 정보를 제공합니다. |
+| Report Builder 개선 사항 | 예약된 작업 다운로드에 대한 정보를 제공하기 위해 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 콘텐츠가 업데이트되었습니다. 시작 일자를 차원으로 사용하기 위한 정보를 제공하기 위해 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 콘텐츠가 업데이트되었습니다. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | Adobe Customer Journey Analytics 기능 지원 | Adobe Analytics와 비교하여 Customer Journey Analytics의 세션화 기능에 대한 *새로운 방식으로 지원됨* 테이블에 정보가 추가되었습니다. [자세히 알아보기](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Adobe Analytics의 발전 | 파생 필드 마케팅 채널 기능 템플릿을 참조하여 *마케팅 채널 (재)구성* 섹션이 업데이트되었습니다. [자세히 알아보기](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
