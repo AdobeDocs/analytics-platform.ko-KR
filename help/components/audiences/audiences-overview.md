@@ -3,16 +3,16 @@ title: Customer Journey Analytics 대상 게시 개요
 description: Customer Journey Analytics의 대상자 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 3a3122934e0fb3d89ac94cc8be8799d43dd1c987
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 54%
 
 ---
 
 # Customer Journey Analytics 대상 게시 개요
 
-이제 Customer Journey Analytics에서 검색된 대상자를 만들어 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) 고객 타겟팅 및 개인화를 위한 Adobe Experience Platform의 RTCDP.
+이제 Customer Journey Analytics에서 검색된 대상자를 만들어 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) 고객 타겟팅 및 개인화를 위한 Adobe Experience Platform에서.
 
 대상자 게시는 Customer Journey Analytics 내에서 발견된 통찰력을 활성화하고 조치를 취하는 명확한 방법을 제공합니다. 이러한 조치에는 다음이 포함될 수 있습니다.
 
@@ -22,7 +22,7 @@ ht-degree: 54%
 * 대상자를 게시한 후 대기 시간을 최소화하면서 이 모든 작업을 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
 * 일회성 대상자 또는 반복 대상자 게시.
 
-프로필에서 만드는 대상은 Customer Journey Analytics에 대해 활성화된 데이터 세트를 기반으로 할 필요가 없습니다. 프로필에 연결된 데이터 세트 및 스키마를 활성화하지 않고 내역 데이터를 Experience Platform으로 수집할 수 있습니다. 그런 다음 이러한 데이터 세트를 사용하여 Customer Journey Analytics에서 관련 대상을 검색하고 활성화 목적을 위해 Experience Platform의 RTCDP에 이러한 대상을 게시합니다.
+프로필에서 만드는 대상은 Customer Journey Analytics에 대해 활성화된 데이터 세트를 기반으로 할 필요가 없습니다. 프로필에 연결된 데이터 세트 및 스키마를 활성화하지 않고 내역 데이터를 Experience Platform으로 수집할 수 있습니다. 그런 다음 이러한 데이터 세트를 사용하여 Customer Journey Analytics에서 관련 대상을 검색하고 활성화 목적을 위해 Experience Platform에서 실시간 고객 프로필에 게시할 수 있습니다.
 
 ## 주요 용어
 
