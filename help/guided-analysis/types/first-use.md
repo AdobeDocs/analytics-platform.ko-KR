@@ -2,9 +2,10 @@
 title: 첫 번째 사용 보기
 description: 주요 지표에 대한 최초 기능 사용의 영향 측정.
 feature: Guided Analysis
-source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
+keywords: 제품 분석
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---

@@ -1,11 +1,12 @@
 ---
 title: 안내식 분석 개요
 description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도록 하는 Customer Journey Analytics의 데이터 분석 방법입니다. Product Analytics 이라고도 합니다.
+keywords: 제품 분석
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 8%
 
 ---

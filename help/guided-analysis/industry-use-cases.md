@@ -2,9 +2,10 @@
 title: 업계 사용 사례
 description: 가이드 분석을 위한 업계 사용 사례
 feature: Guided Analysis
-source-git-commit: 795a5713cdfaec7ab54966d02da7dba47d0e362c
+keywords: 제품 분석
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
