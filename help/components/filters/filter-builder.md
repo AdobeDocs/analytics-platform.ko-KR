@@ -3,9 +3,9 @@ description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자�
 title: 필터 빌드
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 35c57e883794c74553ab14d6e99e55824d41d4be
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1252'
 ht-degree: 23%
 
 ---
@@ -30,51 +30,29 @@ ht-degree: 23%
 
 ![](assets/segment_builder_ui_2.png)
 
-1. **[!UICONTROL 제목]**: 필터 이름을 지정합니다.
-1. **[!UICONTROL 설명]**: 필터에 대한 설명을 제공합니다.
-1. **[!UICONTROL 태그]**: [필터에 태그 지정](/help/components/filters/manage-filters.md) 기존 태그 목록에서 선택하거나 새 태그를 만들어 만듭니다.
-1. **[!UICONTROL 정의]**: 여기에서 [필터 빌드 및 구성](/help/components/filters/filters-overview.md), 규칙 추가, 컨테이너 중첩 및 시퀀스 지정.
-1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 수준을 선택할 수 있습니다. [컨테이너](/help/components/filters/filters-overview.md) ( [!UICONTROL 개인], [!UICONTROL 세션], [!UICONTROL 이벤트]). 기본 최상위 수준 컨테이너는 이벤트 컨테이너입니다.
-1. **[!UICONTROL 옵션]**: (톱니바퀴) 아이콘
-
-   * **[!UICONTROL + 컨테이너 추가]**: 필터 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
-   * **[!UICONTROL 제외]**: 하나 이상의 차원, 필터 또는 지표를 제외하는 식으로 필터를 정의합니다.
-
-1. **[!UICONTROL 차원]**: 구성 요소는 차원 목록 (주황색 사이드바)에서 드래그하여 놓습니다.
-1. **[!UICONTROL 연산자]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
-1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 필터 또는 지표 값입니다.
-1. **[!UICONTROL 속성 모델]**: 차원에만 사용할 수 있으며, 이 모델은 차원에서 필터링할 값을 결정합니다. Dimension 모델은 순차적 필터에서 특히 유용합니다.
-
-   * **[!UICONTROL 반복]**  (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
-   * **[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.
-   * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
-
-   ![](assets/attribution-models.jpg)
-
-   **예: 이벤트 필터. 여기서 eVar1 = A**
-
-   | 예 | A | A | A (지속됨) | B | A | C |
-   |---|---|---|---|---|---|---|
-   | 반복 | X | X | X | - | X | - |
-   | 인스턴스 | X | X | - | - | X | - |
-   | 비반복 인스턴스 | X | - | - | - | X | - |
-1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 다음을 수행할 수 있습니다. [순차적 필터 정의](/help/components/filters/filters-overview.md).
-1. **[!UICONTROL 지표]**: (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
-1. **[!UICONTROL 비교]** 연산자: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
-1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 필터 또는 지표 값입니다.
-1. **[!UICONTROL X]**: (삭제) 이 필터 정의 부분을 삭제할 수 있습니다.
-1. **[!UICONTROL Experience Cloud 게시]**: Experience Cloud에 Adobe Analytics 필터를 게시하면 의 마케팅 활동에 필터를 사용할 수 있습니다 [!DNL Audience Manager] 및 기타 활성화 채널에서 확인할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 개인 데이터를 대상 필터로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 필터를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 필터를 공유하는 기능이 추가되었다고 생각하면 됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-1. **[!UICONTROL 검색]**: 차원, 필터 또는 지표 목록을 검색합니다.
-1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
-1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.
-1. **[!UICONTROL 필터]**: 확장할 헤더를 클릭합니다.
-1. **[!UICONTROL 데이터 보기 선택기]**: 이 필터가 저장될 보고서 세트를 선택할 수 있습니다. 모든 데이터 보기에서 필터를 계속 활용할 수 있습니다.
-1. **[!UICONTROL 필터 미리보기]**: 주요 지표를 미리 보기하여 유효한 필터가 있는지 여부와 필터의 폭이 얼마나 넓은지 확인할 수 있습니다. 이 필터를 적용할 경우 표시될 것으로 예상되는 데이터 세트 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 일치 항목 수 및 비율을 표시합니다. [!UICONTROL 이벤트], [!UICONTROL 개인], 및 [!UICONTROL 세션] 데이터 세트에 대해 실행되는 필터입니다. 이 차트는 필터 정의를 만들거나 변경한 직후에 업데이트됩니다.
-1. **[!UICONTROL 제품 호환성]** Adobe Analytics : 제품 목록을 제공합니다(Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) 을 사용하여 만든 필터가 호환됩니다. 대부분의 필터는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품 (특히 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html). 이 차트는 필터 정의를 변경한 직후에 업데이트됩니다.
-1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 필터를 저장하거나 취소합니다. 클릭 후 **[!UICONTROL 저장]**&#x200B;를 클릭하면 필터를 관리할 수 있는 필터 관리자로 이동됩니다.
-
-포함된 날짜 범위가 있는 필터는 Analysis Workspace에서 와 [!UICONTROL Reports &amp; Analytics]: Workspace에서 포함된 날짜 범위가 있는 필터가 패널 날짜 범위를 무시합니다. 대조적으로, [!UICONTROL Reports &amp; Analytics] 보고서 날짜 범위와 필터의 포함된 날짜 범위의 교차 날짜를 제공합니다.
+| UI 요소 | 설명 |
+| --- | --- |
+| **[!UICONTROL 제목]** | 필터 이름 지정 |
+| **[!UICONTROL 설명]** | 필터에 대한 자세한 설명을 입력합니다. |
+| **[!UICONTROL 태그]** | [필터에 태그 지정](/help/components/filters/manage-filters.md) 기존 태그 목록에서 선택하거나 새 태그를 만들어 만듭니다. |
+| **[!UICONTROL 정의]** | 여기가 바로 [필터 빌드 및 구성](/help/components/filters/filters-overview.md), 규칙 추가, 컨테이너 중첩 및 시퀀스 지정. |
+| **[!UICONTROL 포함]** | (최상위 컨테이너 선택기.) 최상위 수준을 선택할 수 있습니다. [컨테이너](/help/components/filters/filters-overview.md) ( [!UICONTROL 개인], [!UICONTROL 세션], [!UICONTROL 이벤트]). 기본 최상위 수준 컨테이너는 이벤트 컨테이너입니다. |
+| **[!UICONTROL 옵션]** | (톱니바퀴) 아이콘 | <ul><li>**[!UICONTROL + 컨테이너 추가]**: 필터 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.</li><li>**[!UICONTROL 제외]**: 하나 이상의 차원, 필터 또는 지표를 제외하는 식으로 필터를 정의합니다.</li></ul> |
+| **[!UICONTROL 차원]** | 구성 요소는 Dimension 목록(주황색 사이드바)에서 드래그하여 놓습니다. |
+| **[!UICONTROL 연산자]** | 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다. (같음, 같지 않음, 포함, 모두 포함 등) |
+| **[!UICONTROL 값]** | 입력했거나 선택한 차원, 필터 또는 지표 값입니다. |
+| **[!UICONTROL 속성 모델]** | 차원에만 사용할 수 있는 이 모델은 차원에서 필터링할 값을 결정합니다. Dimension 모델은 순차적 필터에서 특히 유용합니다.<ul><li>**[!UICONTROL 반복]**  (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.</li><li>**[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.</li><li>**[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.</li></ul>예를 들어 아래의 &quot;기여도 분석 모델&quot; 섹션을 참조하십시오. |
+| **[!UICONTROL And/Or/Then]** | 컨테이너 또는 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 할당합니다. THEN 연산자를 사용하면 [순차적 필터 정의](/help/components/filters/filters-overview.md). |
+| **[!UICONTROL 지표]** | (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다. |
+| **[!UICONTROL X]** | (삭제) 이 필터 정의 부분을 삭제할 수 있습니다. |
+| **[!UICONTROL 필터에서 대상 만들기]** | 필터에서 대상자를 만들면 Adobe Experience Platform과 필터를 공유하여 활성화할 수 있습니다. [자세히 알아보기...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL 구성 요소 검색]** | 차원, 필터 또는 지표 목록을 검색합니다. |
+| **[!UICONTROL 차원]** | (목록) 필터에 포함할 수 있는 차원 목록입니다. 확장할 헤더를 클릭합니다. |
+| **[!UICONTROL 지표]** | 필터에 포함할 수 있는 지표 목록입니다. 확장할 헤더를 클릭합니다. |
+| **[!UICONTROL 필터]** | 필터에 포함할 수 있는 기존 필터 목록. 확장할 헤더를 클릭합니다. |
+| **[!UICONTROL 데이터 보기 선택기]** | 이 필터가 저장될 보고서 세트를 선택할 수 있습니다. 모든 데이터 보기에서 필터를 계속 활용할 수 있습니다. |
+| **[!UICONTROL 필터 미리보기]** | 주요 지표를 미리 보기하여 유효한 필터가 있는지 여부와 필터의 폭이 얼마나 넓은지 확인할 수 있습니다. 이 필터를 적용할 경우 표시될 것으로 예상되는 데이터 세트 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 일치 항목 수 및 비율을 표시합니다. [!UICONTROL 사람], [!UICONTROL 세션], 및 [!UICONTROL 보고서 실행] 데이터 세트에 대해 실행되는 필터입니다.<p>이 차트는 필터 정의를 만들거나 변경한 직후에 업데이트됩니다. |
+| **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]** | 필터를 저장하거나 취소합니다. 클릭 후 **[!UICONTROL 저장]**&#x200B;를 클릭하면 필터를 관리할 수 있는 필터 관리자로 이동됩니다. |
 
 ## 필터 구축 {#build-filters}
 
@@ -91,7 +69,7 @@ ht-degree: 23%
 
    다음으로 이동되었습니다. [필터 관리자](/help/components/filters/manage-filters.md)를 사용하여 다양한 방식으로 필터에 태그를 지정하고, 공유하고, 관리할 수 있습니다.
 
-## 컨테이너 추가 {#section_1C38F15703B44474B0718CEF06639EFD}
+## 컨테이너 추가 {#containers}
 
 [컨테이너 프레임워크를 작성한 다음](/help/components/filters/filters-overview.md) 사이에 논리 규칙 및 연산자를 배치할 수 있습니다.
 
@@ -109,7 +87,7 @@ ht-degree: 23%
 
    하나 이상의 규칙을 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭합니다. 이렇게 하면 선택 영역이 별도의 컨테이너로 바뀝니다.
 
-## 날짜 범위 사용 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## 날짜 범위 사용 {#date-ranges}
 
 진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 필터를 빌드할 수 있습니다.
 
@@ -121,7 +99,7 @@ ht-degree: 23%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
-## 스택 필터 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
+## 스택 필터 {#stack}
 
 스택 필터는 &#39;and&#39; 연산자를 사용하여 각 필터에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 작동합니다. Workspace 프로젝트에서 직접 또는 필터 빌더에서 수행할 수 있습니다.
 
@@ -152,3 +130,14 @@ ht-degree: 23%
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
+## 속성 모델 {#attribution}
+
+![](assets/attribution-models.jpg)
+
+**예: 이벤트 필터. 여기서 eVar1 = A**
+
+| 예 | A | A | A (지속됨) | B | A | C |
+|---|---|---|---|---|---|---|
+| 반복 | X | X | X | - | X | - |
+| 인스턴스 | X | X | - | - | X | - |
+| 비반복 인스턴스 | X | - | - | - | X | - |
