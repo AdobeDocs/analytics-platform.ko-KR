@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
+source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '974'
 ht-degree: 86%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 86%
       + [순 성장 전망](../guided-analysis/types/net-growth.md)
    + 트렌드 {#trends}
       + [사용 보기](../guided-analysis/types/usage.md)
+      + [빈도 보기](../guided-analysis/types/frequency.md)
    + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
    + [FAQ](../guided-analysis/faq.md)
 
@@ -249,8 +250,8 @@ ht-degree: 86%
       + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
-   + 달력 및 날짜 범위 {#cja-date-ranges}
-      + [달력 및 날짜 범위 개요](../components/date-ranges/calendar.md)
+   + 캘린더 및 날짜 범위 {#cja-date-ranges}
+      + [캘린더 및 날짜 범위 개요](../components/date-ranges/calendar.md)
       + [날짜 범위 만들기](../components/date-ranges/create.md)
       + [날짜 범위 관리](../components/date-ranges/manage.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
