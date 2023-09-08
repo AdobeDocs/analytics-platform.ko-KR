@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
+source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 100%
+source-wordcount: '2583'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 9월** | |
+| 지역 데이터 수집 | 업데이트됨 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection) Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보 포함. |
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | Report Builder 개선 사항 | 예약된 작업 다운로드에 대한 정보를 제공하기 위해 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 콘텐츠가 업데이트되었습니다. 시작 일자를 차원으로 사용하기 위한 정보를 제공하기 위해 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 콘텐츠가 업데이트되었습니다. |

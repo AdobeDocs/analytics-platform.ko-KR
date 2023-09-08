@@ -6,7 +6,7 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 1%
@@ -100,13 +100,13 @@ Experience Platform UI에서
 
    2. 선택 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]** 을 클릭합니다.
 
-   3. Copy를 사용 ![ 하 여 POWER BI에서 필요한 경우 사후 Gres 자격 증명 매개 변수 ( [!UICONTROL  호스트 ] , [!UICONTROL  포트 ] , [!UICONTROL  데이터베이스 ] , [!UICONTROL  사용자 이름 ] 등)를 각각 복사 합니다. ](assets/Smock_Copy_18_N.svg)
+   3. Power BI에서 필요한 경우 Copy를 사용하여 ![각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], 포트], 데이터베이스], [!UICONTROL [!UICONTROL [!UICONTROL 사용자 이름] 등)를 복사합니다.](assets/Smock_Copy_18_N.svg)
 
 2. Power BI에서:
 
-   1. 기본 창의 상단 도구 모음에서 데이터 **]** 가져오기를 선택 **[!UICONTROL ** 합니다.
+   1. 기본 창의 위쪽 도구 모음에서 데이터&#x200B;**]** 가져오기를 선택합니다&#x200B;**[!UICONTROL **.
 
-   2. 왼쪽 레일에서 [자세히 **]** ...]를 선택 **[!UICONTROL ** 합니다.
+   2. 왼쪽 레일에서 자세히...**]**&#x200B;를 선택합니다&#x200B;**[!UICONTROL **.
 
    3. 다음에서 **데이터 가져오기** 화면, 검색 `PostgresSQL` 및 선택 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]** 목록에서 삭제할 수 있습니다.
 
@@ -116,7 +116,7 @@ Experience Platform UI에서
 
       2. 붙여넣기 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 위치: **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드.
 
-         추가 `?FLATTEN` (으)로 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개 변수이므로 다음과 같이 읽음 `prod:all?FLATTEN` 예. 다음을 참조하십시오 [타사 BI 도구와 함께 사용할 중첩된 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 추가 정보.
+         추가 `?FLATTEN` (으)로 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개 변수이므로 다음과 같이 읽음 `prod:cja?FLATTEN` 예. 다음을 참조하십시오 [타사 BI 도구와 함께 사용할 중첩된 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 추가 정보.
 
       3. 을 묻는 메시지가 표시되면 **[!UICONTROL **&#x200B;데이터 연결&#x200B;**]** 모드, 선택 **[!UICONTROL ** DirectQuery **]** 데이터 구조가 올바르게 병합되도록 합니다.
 
@@ -158,21 +158,21 @@ Experience Platform UI에서
 
       3. 붙여넣기 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드.
 
-         추가 `%3FFLATTEN` (으)로 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개 변수이므로 다음과 같이 읽음 `prod:all%3FFLATTEN` 예. 다음을 참조하십시오 [타사 BI 도구와 함께 사용할 중첩된 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 추가 정보.
+         추가 `%3FFLATTEN` (으)로 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개 변수이므로 다음과 같이 읽음 `prod:cja%3FFLATTEN` 예. 다음을 참조하십시오 [타사 BI 도구와 함께 사용할 중첩된 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 추가 정보.
 
       4. 선택 **[!UICONTROL **&#x200B;사용자 이름 및 암호&#x200B;**]** 출처: **[!UICONTROL **&#x200B;인증&#x200B;**]** 목록을 표시합니다.
 
       5. 붙여넣기 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 텍스트 필드.
 
-      6. 암호 **]** 매개 변수를 Experience Platform 쿼리 [!UICONTROL  자격 증명 **[!UICONTROL ** ] 에서 암호 **]** 텍스트 필드로 붙여넣기 **[!UICONTROL ** 합니다.
+      6. Experience Platform 쿼리 자격 증명]의 암호 매개 변수를 암호&#x200B;**]****]** 텍스트 필드에 붙여넣습니다&#x200B;**[!UICONTROL ****[!UICONTROL **.[!UICONTROL 
 
-      7. 로그인 **]** 을 선택 **[!UICONTROL ** 합니다.
+      7. 로그인을&#x200B;**]** 선택합니다&#x200B;**[!UICONTROL **.
 
-   4. Customer Journey Analytics 데이터 보기는 **[!UICONTROL ** 테이블 **]** 목록에 테이블로 표시 됩니다. 데이터 뷰 테이블에는 접두사가 사용 `dv_` 됩니다.
+   4. Customer Journey Analytics 데이터 보기는 테이블 목록에 테이블 **[!UICONTROL ****]** 로 표시됩니다. 데이터 뷰 테이블에는 접두사가 붙 `dv_`습니다.
 
-   5. 사용 하려는 테이블을 캔버스에서 드래그 합니다.
+   5. 캔버스에서 사용할 테이블을 끕니다.
 
-   이제 데이터 보기 테이블의 데이터로 작업 하 여 보고서 및 시각화를 빌드 수 있습니다.
+   이제 데이터 뷰 테이블의 데이터로 작업하여 보고서 및 시각화를 작성할 수 있습니다.
 
    다음을 참조하십시오 [쿼리 서비스에 타블로 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) 추가 정보.
 
@@ -230,8 +230,8 @@ prod:all=> \dv
 
 | 패턴 | 예 |
 |---|---|
-| 스키마 검색 | <pre>SELECT * FROM dv1 (WHERE 1 = 0)</pre> |
-| 등급/분류 | <pre>Dim1, SUM (metric1)를 &#39; 2022-01-01 &#39; 및 &#39; 2022-01-02 &#39; <br/> 그룹 간 dim1에서 M1 <br/> 으로 dv1 <br/></pre><pre>Dim1, SUM (metric1) <br/> 를 &#39; 2022-01-01 &#39; 및 &#39; 2022-01-02 &#39; 및 <br/> filterid = &#39; 12345 &#39; <br/> GROUP BY dim1에서 dv1 <br/> .</pre><pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  AND (dim2 = &#39;A&#39; 또는 DIM3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>DIM1로 그룹화</pre> |
+| 스키마 검색 | <pre>SELECT * FROM DV1 WHERE 1=0</pre> |
+| 순위 / 분석 | <pre>&#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의 \&#39;타임스탬프\&#39; WHERE \&#39;타임스탬프\&#39; BY dim1 AS dim1, SUM(metric1) AS m1 AS SELECT dim1, SUM(metric1) AS dv1 WHERE \&#39;timestamp\&#39; BETWEEN &#39;2022-01-01<br/>&#39; AND &#39;2022-01-02&#39;GROUP<br/> BY dim1<br/></pre><pre>&#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의 \&#39;타임스탬프\&#39; 및 filterId = &#39;12345&#39;GROUP BY dim1 WHERE &#39;timestamp\&#39; BETWEEN &#39;2022-01-01&#39; AND<br/><br/>filterId = &#39;12345&#39;GROUP<br/><br/> BY dim1</pre><pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>  AND (dim2 = &#39;A&#39; 또는 DIM3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>DIM1로 그룹화</pre> |
 | HAVING 절 | <pre>dim1, SUM(metric1) 을 M1로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>DIM1로 그룹화<br/>M1 > 100 사용</pre> |
 | 고유, 상단 <br/>차원 값 | <pre>DV1에서 개별 DIM1 선택</pre><pre>dim1 AS dv1 선택<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의<br/>DIM1로 그룹화</pre><pre>dim1 AS dv1 선택<br/>DV1에서<br/>여기서 \`timestamp\` >= &#39;2022-01-01&#39; 및 \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>DIM1로 그룹화<br/>합계별 정렬(metric1)<br/>제한 15</pre> |
 | 지표 합계 | <pre>SUM(metric1) 을 M1 로 선택합니다.<br/>DV1에서<br/>여기서 \`timestamp\`는 &#39;2022-01-01&#39;과 &#39;2022-01-02&#39; 사이의</pre> |
@@ -248,15 +248,15 @@ prod:all=> \dv
 
 ### 차원
 
-기본적으로 사용할 수 있거나 데이터 보기에서 정의된 차원을 선택할 수 있습니다. ID로 차원를 선택 합니다.
+기본적으로 사용할 수 있거나 데이터 보기에서 정의된 차원을 선택할 수 있습니다. ID로 차원을 선택합니다.
 
 ### 지표
 
-선택할 수 있는 지표는 다음과 같습니다.
+선택할 수 있는 메트릭은 다음과 같습니다.
 
-- 기본적으로 사용 가능한 모든 지표
+- 기본적으로 사용할 수 있는 모든 메트릭
 
-- 데이터 보기에서 정의 된
+- 데이터 뷰에 정의되어 있습니다.
 
 - 사용자가 액세스할 수 있는 데이터 보기와 호환되는 계산된 지표입니다.
 
@@ -297,12 +297,12 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN METRIC1 END) AS m1
 | `+`, `-`, `*`, `/`, 및 `%` | 더하기, 빼기, 곱하기, 나누기 및 모듈형/나머지 |
 | `-X` 또는 `+X` | X가 지표 표현식인 기호 또는 지표 변경 |
 | `PI()` | π 상수 |
-| `POSITIVE`, `NEGATIVE` , `ABS` `FLOOR` `CEIL` ,,,, `CEILING` , `EXP` ,, `LOG1P` `COSH` `TAN` `COS` `ACOS` `SIN` `ASIN` `ATAN` `LN` `SQRT` `SINH` `LOG10` `CBRT` `DEGREES` `RADIANS` ,,,,,,,,,,,,,,,,,,,,,,,, 및`TANH` | 단항 수학 함수 |
+| `POSITIVE`, , , `NEGATIVE``ABS``FLOOR``CEIL``CEILING``EXP``LN``LOG10``LOG1P``SQRT``CBRT``DEGREES``RADIANS``SIN``COS``TAN``ACOS``ASIN``ATAN``COSH``SINH``TANH` | 단항 수학 함수 |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | 이진 수학 함수 |
 
 {style="table-layout:auto"}
 
-### 특수 열
+### 특별 칼럼
 
 **타임스탬프**
 
@@ -357,7 +357,7 @@ ORDER BY -metric1 DESC
 
 | 함수 | 예 | 세부 사항 |
 |---|---|---|
-| [캐스트 (열 유형)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 또는 <br/> `` `timestamp`::string `` | 유형 캐스팅은 현재 지원 되지 않지만, 오류는 발생 하지 않습니다. 함수는 `CAST` 무시 됩니다. |
+| [CAST(칼럼 AS 타입)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 또는 <br/> `` `timestamp`::string `` | 형식 캐스팅은 현재 지원되지 않지만 오류가 throw되지 않습니다. `CAST` 함수는 무시됩니다. |
 | [TIMESTAMP(timeString)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | 시간 문자열을 내에서 사용할 타임스탬프로 구문 분석 `WHERE` 절. |
 | [TO_TIMESTAMP(timeString, formatString)](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | 시간 문자열을 내에서 사용할 타임스탬프로 구문 분석 `WHERE` 원할 경우 해당 시간 문자열에 대한 형식을 제공합니다. |
 | [DATE(dateString)](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | 내에서 사용할 타임스탬프로 날짜 문자열 구문 분석 `WHERE` 절. |
