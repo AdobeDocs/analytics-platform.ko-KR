@@ -3,10 +3,10 @@ title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 15853fe7f37b1f0a3088f8dc108d7c65f1ef470a
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 61%
+source-wordcount: '1608'
+ht-degree: 60%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 61%
 | 표시되지 않음 | Adobe Analytics-Analytics 소스 커넥터 (A4T) | 최대 30분 |
 | 1 | Analytics 소스 커넥터 또는 기타 소스에서 데이터 레이크로 데이터 수집 | 최대 90분 |
 | 2 | Experience Platform 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 최대 90분 |
-| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | 약 60분 |
+| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다.<p>**참고**: 대상자는 1~2분 내에 Experience Platform에서 생성/정의됩니다. 하지만 일치하는 기준을 기반으로 하여 대상자가 ID를 받기 시작하고 활성화할 준비가 되기까지 약 60분이 소요됩니다. | 약 60분 |
 | 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | Adobe Experience Platform에서 대상 만들기: 새 세그먼트 활성화 | 1~2시간 |
 
