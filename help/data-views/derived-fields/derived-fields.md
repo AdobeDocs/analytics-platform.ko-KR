@@ -4,10 +4,10 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
+source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
 workflow-type: tm+mt
-source-wordcount: '4433'
-ht-degree: 15%
+source-wordcount: '5056'
+ht-degree: 16%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 15%
 | A | **규칙 이름** | 기본적으로 규칙 이름은 입니다. **규칙 X** (X 는 시퀀스 번호를 나타냅니다.) 규칙 이름을 편집하려면 규칙 이름을 선택하고 새 이름을 입력합니다(예: ) `Query Parameter`. |
 | B | **함수 이름** | 규칙에 대해 선택한 함수 이름(예: ) [!UICONTROL URL 구문 분석]. 함수가 함수 시퀀스의 마지막 함수이고 최종 출력 값을 결정하는 경우 함수 이름 뒤에 가 옵니다. [!UICONTROL - 최종 출력], 예 [!UICONTROL URL 구문 분석 - 최종 출력]. <br/>기능에 대한 추가 정보가 있는 팝업을 표시하려면 을 선택합니다. ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg). |
 | C | **규칙 설명** | 원할 경우 규칙에 설명을 추가할 수 있습니다.<br/>선택 ![기타 아이콘](assets/More.svg)을 선택한 다음 을 선택합니다. **[!UICONTROL **&#x200B;설명 추가&#x200B;**]** 설명 또는 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]** 기존 설명을 편집합니다.<br/>편집기를 사용하여 설명을 입력합니다. 도구 모음을 사용하여 텍스트 서식을 지정하고(스타일 선택기, 굵게, 기울임꼴, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 번호 목록, 글머리 기호 목록 사용) 외부 정보에 링크를 추가할 수 있습니다. <br/>설명 편집을 완료하려면 편집기 외부를 클릭합니다. |
-| D | **기능 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수 유형에 따라 다릅니다. 다음에 대한 드롭다운 [!UICONTROL 필드] 또는 [!UICONTROL 값] 함수에서 예상하는 입력 유형에 따라 사용 가능한 모든 필드 범주(규칙, 표준 필드, 필드)를 표시합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 지원되는 각 기능에 대한 자세한 정보를 제공합니다. |
+| D | **기능 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수 유형에 따라 다릅니다. 다음에 대한 드롭다운 [!UICONTROL 필드] 또는 [!UICONTROL 값] 함수에서 예상하는 입력 유형에 따라 사용 가능한 모든 필드 범주(규칙, 표준 필드, 필드)를 표시합니다. <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
 
 {style="table-layout:auto"}
 
@@ -413,9 +413,6 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 새 파생 필드의 해당 값으로 대체되는 값 집합을 정의합니다.
 
-
-
-
 +++ 세부 사항
 
 >[!NOTE]
@@ -426,7 +423,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수<br/>함수당 100개 행</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -535,6 +532,17 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 | [!DNL Deals & Offers] |
 | [!DNL Reviews] |
 | [!DNL Generate Quote] |
+
+
+## 추가 정보 {#classify-moreinfo}
+
+분류 규칙 인터페이스에서 다음 추가 기능을 사용할 수 있습니다.
+
+- 모든 테이블 값을 빠르게 지우려면 ![지우기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 모든 테이블 값 지우기]**.
+- 값의 원래 값이 동일하고 값의 새 값이 로 대체되는 경우 의 원래 값이 포함된 CSV 파일을 업로드하려면 다음을 선택합니다. ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV 업로드]**.
+- 업로드할 원래 값 및 새 값이 있는 CSV 파일 작성용 템플릿을 다운로드하려면 을(를) 선택합니다. ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 템플릿 다운로드]**.
+- 모든 원래 값과 새 값이 규칙 인터페이스에 채워진 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 값 다운로드]**.
+
 
 +++
 
@@ -680,6 +688,108 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 | [!DNL email marketing] |
 | [!DNL email marketing] |
 | [!DNL email marketing] |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- LOOKUP
+
+### Lookup
+
+Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+
++++ Details
+
+## Specification {#lookup-io}
+
+| Input Data Type | Input | Included Operators | Limit | Output |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+
+{style="table-layout:auto"}
+
+## Use case {#lookup-uc}
+
+You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+
+### A4T lookup dataset {#lookup-uc-lookup}
+
+| Activity Id | Activity Name |
+|---|---|
+| 415851 | MVT Test Category Pages |
+| 415852 | Luma - Campaign Max 2022 |
+| 402922 | Home Page Banners |
+
+{style="table-layout:auto"}
+
+### Derived field {#lookup-uc-derivedfield}
+
+You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+
+![Screenshot of the Lowercase rule](assets/lookup.png)
+
+## More info
+
+You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+
+  1. Select **[!UICONTROL Schema fields]** from selector.
+  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+  1. Select your lookup dataset and find the field you want to use for lookup.
+  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
+     ![Lookup drag](assets/lookup-drag.png) 
+
++++
+
+-->
+
+<!-- LOWERCASE -->
+
+### 소문자
+
+필드의 값을 소문자로 변환하여 새로운 파생된 필드에 저장합니다.
+
++++ 세부 사항
+
+## 사양 {#lowercase-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#lowercase-uc}
+
+적절한 보고를 위해 수집된 모든 제품 이름을 소문자로 변환하려고 합니다.
+
+### 다음 이전 데이터 {#lowercase-uc-databefore}
+
+| 수집된 제품 이름 | 제품 보기 |
+|---|---:|
+| 테니스 라켓 | 35 |
+| 테니스 라켓 | 33 |
+| 테니스 라켓 | 21 |
+| 야구 방망이 | 15 |
+| 야구 방망이 | 12 |
+| 야구 방망이 | 10 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#lowercase-uc-derivedfield}
+
+다음을 정의합니다. `Product Names` 파생 필드. 다음을 사용합니다. [!UICONTROL 소문자] 함수 를 사용하십시오. [!UICONTROL 수집된 제품 이름] 필드를 소문자로 바꾸고 새 파생 필드에 저장합니다.
+
+![소문자 규칙의 스크린샷](assets/lowercase.png)
+
+
+### 다음 이후 데이터 {#lowercase-uc-dataafter}
+
+| 제품 이름 | 제품 보기 |
+|---|---|
+| 테니스 라켓 | 89 |
+| 야구 방망이 | 37 |
 
 {style="table-layout:auto"}
 
@@ -938,6 +1048,119 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 {style="table-layout:auto"}
 
++++
+
+
+<!-- TRIM -->
+
+### 트리밍
+
+필드 값의 시작 또는 끝에서 새 파생 필드로 공백, 특수 문자 또는 문자 수를 트리밍합니다.
+
++++ 세부 사항
+
+## 사양 {#trim-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>공백 트리밍</li><li>특수 문자 트리밍<ul><li>특수 문자 입력</li></ul></li><li>왼쪽에서 트리밍<ul><li>From <ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li><li>오른쪽에서 트리밍<ul><li>From <ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 1 {#trim-uc1}
+
+제품 데이터를 수집하지만, 해당 데이터에는 보고를 조각화하는 숨겨진 공백 문자가 포함되어 있습니다. 과도한 공백을 쉽게 자르려고 합니다.
+
+### 다음 이전 데이터 {#trim-uc1-databefore}
+
+| 제품 ID | 이벤트 |
+|---|--:|
+| `"prod12356 "` | 1 |
+| `"prod12356"` | 1 |
+| `" prod12356"` | 1 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#trim-u1-derivedfield}
+
+다음을 생성함: `Product Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 **[!UICONTROL 공백 트리밍]** 다음에서 **[!UICONTROL 제품 ID]** 필드.
+
+![분할 규칙 1의 스크린샷](assets/trim-1.png)
+
+### 다음 이후 데이터 {#trim-uc1-dataafter}
+
+| 제품 식별자 | 이벤트 |
+|---|--:|
+| `"prod12356 "` | 3 |
+
+{style="table-layout:auto"}
+
+## 사용 사례 2 {#trim-uc2}
+
+수집된 페이지 이름에 대한 데이터에 페이지 이름 끝에 제거해야 하는 잘못된 특수 문자가 포함되어 있습니다.
+
+### 다음 이전 데이터 {#trim-uc2-databefore}
+
+| 이름 | 이벤트 |
+|---|--:|
+| 홈 페이지# | 1 |
+| 홈 페이지? | 1 |
+| 홈 페이지% | 1 |
+| 홈 페이지&amp; | 1 |
+| 홈 페이지/ | 1 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#trim-u2-derivedfield}
+
+다음을 생성함:  `Page Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 [!UICONTROL 특수 문자 트리밍] 다음에서 [!UICONTROL 이름] 를 사용하는 필드 [!UICONTROL 특수 문자] `#?%&/`.
+
+![분할 규칙의 스크린샷 - 첫 번째 값](assets/trim-2.png)
+
+### 다음 이후 데이터 {#trim-uc2-dataafter}
+
+| 페이지 이름 | 이벤트 |
+|---|--:|
+| 홈 페이지 | 5 |
+
+{style="table-layout:auto"}
+
+
+## 사용 사례 3 {#trim-uc3}
+
+storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 주 코드가 처음 두 문자로 포함되어 있습니다. 보고에서 해당 상태 코드만 사용하려고 합니다.
+
+### 다음 이전 데이터 {#trim-uc3-databefore}
+
+| storeID | 이벤트 |
+|---|--:|
+| CA293842 | 1 |
+| CA423402 | 1 |
+| UT123418 | 1 |
+| UT189021 | 1 |
+| ID028930 | 1 |
+| OR234223 | 1 |
+| NV22342 | 1 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#trim-u3-derivedfield}
+
+다음을 생성함:  `Store Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 [!UICONTROL 오른쪽에서 자르기] 다음 [!UICONTROL storeID] 문자열 끝부터 위치까지의 필드 `3`.
+
+![분할 규칙의 스크린샷 - 첫 번째 값](assets/trim-3.png)
+
+### 다음 이후 데이터 {#trim-uc3-dataafter}
+
+| 식별자 저장 | 이벤트 |
+|---|--:|
+| CA | 2 |
+| UT | 2 |
+| ID | 1 |
+| 또는 | 1 |
+| NV | 1 |
+
+{style="table-layout:auto"}
 +++
 
 
