@@ -3,9 +3,9 @@ title: 빈도 보기
 description: 사용 빈도로 참여도 측정.
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 1e095720301f3e59e88674d086f5e0de9df88872
+source-git-commit: 77192426a58e1560abe91b904452b9cd46c862e9
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 3%
 # [!UICONTROL 빈도] 보기
 
 다음 **[!UICONTROL 빈도]** 보기 는 이벤트가 표시되는 빈도별로 이벤트 데이터를 그룹화합니다. 이 보고서의 세로 축에는 본 이벤트의 빈도를 나타내는 버킷이 포함되어 있습니다. 가로축은 각 버킷에 대한 사용자 또는 세션 수를 측정합니다.
+
+![빈도 스크린샷](../assets/frequency-stacked.png)
 
 ## 사용 사례
 
