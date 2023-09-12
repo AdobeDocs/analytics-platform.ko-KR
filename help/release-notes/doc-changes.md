@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
+source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 99%
+source-wordcount: '2604'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 9월** | |
+| 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 및 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 함수 및 를 참조하십시오. [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 함수. |
 | 지역 데이터 수집 | 업데이트됨 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection) Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보 포함. |
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
