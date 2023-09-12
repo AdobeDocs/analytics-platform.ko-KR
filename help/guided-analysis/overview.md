@@ -4,10 +4,10 @@ description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도
 keywords: 제품 분석
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 8%
+source-wordcount: '1138'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,7 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 | [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
 | [!UICONTROL 사용자 증가] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
 | [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
+| [!UICONTROL 트렌드] | [빈도](types/frequency.md) | 사용 빈도로 참여도 측정. |
 
 {style="table-layout:auto"}
 
