@@ -4,9 +4,9 @@ description: Customer Journey Analytics 랜딩 페이지.
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
-source-wordcount: '453'
+source-git-commit: 4754be1df196836bd44feb963c22749a3124c377
+workflow-type: tm+mt
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 100%
 이 기술 설명서 가이드는 Customer Journey Analytics에 대한 자가 진단 지원을 제공합니다. Customer Journey Analytics를 사용하면 온라인과 오프라인을 막론하고 선택한 모든 채널에서 고객 데이터를 Adobe Experience Platform으로 가져온 다음 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다.
 
 Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일반 고객 ID의 온라인과 오프라인 데이터를 연결하는 방법을 제어할 수 있으며, 이를 통해 최종적으로 Customer Journey Analytics의 전체 고객 데이터 세트 전반에서 속성, 필터, 흐름, 폴아웃 등을 수행할 수 있습니다.
-
-Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구매할 수 있습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 <table frame="none"> 
  <tbody> 
