@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 98bba7c7bc56cfc2a2436f13d833dbf6504d7d6e
+source-git-commit: 6e94dcf003c26af5ce32544655477b1074b504b5
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 59%
+source-wordcount: '522'
+ht-degree: 58%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 59%
 | ----------- | ---------- | ------- | ---- |
 | **Analytics 소스 커넥터에서 A4T 분류 지원** | 신규 지원 `correlationID` Adobe Analytics용 필드 | 다음 `_experience.decisioning.propositions.scopeDetails.correlationID` 이제 Adobe Analytics 소스 커넥터 스키마에서 필드를 사용할 수 있습니다. 이 필드는 A4T 분류 지원에 사용되며 2023년 9월부터 채워집니다. | | 해당 사항 없음 | 2023년 9월 12일 |
 | **파생 필드에 대한 업데이트** | 파생 필드 기능에 대한 업데이트는 다음과 같습니다.<ul><li>다음 [!UICONTROL 조회] 함수 이름이 (으)로 변경되었습니다. [!UICONTROL 분류]CSV 데이터를 로드하는 추가 옵션이 있는 . **(2023년 9월 27일 릴리스)**</li><li>파생 필드를 정의할 때 추가 함수를 사용할 수 있습니다. [!UICONTROL 트림], [!UICONTROL 소문자] 및 [!UICONTROL 조회].</li><li>파생 필드 정의는 이제 의 필드도 지원합니다. [!UICONTROL 조회] 및 [!UICONTROL 프로필] 데이터 세트.</li></ul>[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md) | 해당 사항 없음 | 2023년 9월 13일 |
-| **Adobe Product Analytics의 새로운 기능** | <ul><li>**예외 항목 탐지**: 이벤트를 기록 트렌드에서 파생된 예상 값과 비교합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li><li>**사용 빈도 보기 트렌드**: 사용 빈도별로 기능 채택을 측정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**사용자 환경 설정**: 색상 팔레트, 데이터 보기, 달력, 인스턴스 계산, 숫자 형식 및 쉼표 구분 기호와 같은 사용자 환경 설정을 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li></ul> | 해당 사항 없음 | 2023년 9월 18일 |
+| **Adobe Product Analytics의 새로운 기능** | <ul><li>**예외 항목 탐지**: 이벤트를 기록 트렌드에서 파생된 예상 값과 비교합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**사용 빈도 보기 트렌드**: 사용 빈도별로 기능 채택을 측정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**사용자 환경 설정**: 색상 팔레트 및 숫자 포맷과 같은 다양한 사용자 환경 설정을 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | 해당 사항 없음 | 2023년 9월 18일 |
 | **Experience Edge 장치 조회** | Experience Platform 에지 네트워크를 통해 자동 장치 유형 데이터 수집을 활성화합니다. 이 Experience Edge 서비스는 다른 Experience Platform 앱과 함께 Customer Journey Analytics에 이점을 제공합니다. (참조할 설명서 링크) | 해당 사항 없음 | 2023년 9월 27일 |
 
 {style="table-layout:auto"}
