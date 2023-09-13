@@ -4,16 +4,16 @@ description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL 사용] 보기
 
-다음 **[!UICONTROL 사용]** 보기는 시간의 흐름에 따라 사용자의 제품 성능 또는 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
+다음 **[!UICONTROL 사용]** 보기는 제품의 성능이나 시간 경과에 따른 사용자의 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 
@@ -39,6 +39,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 지표]**: 측정할 지표입니다. 옵션에는 이벤트, 세션, 사용자, 세션당 이벤트 및 사용자당 이벤트가 포함됩니다.
 * **[!UICONTROL 차트 유형]**: 사용하려는 시각화 유형입니다. 옵션에는 선, 막대, 스택 막대 및 스택 영역이 있습니다.
+
+## 오버레이
+
+차트에 데이터를 추가합니다.
+
+* **[!UICONTROL 예외 항목 표시]**: 분석에서 예외 항목 탐지를 실행합니다. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
 
 ## 시간 비교 적용
 
