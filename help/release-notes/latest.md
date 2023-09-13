@@ -3,40 +3,40 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
+source-git-commit: 98bba7c7bc56cfc2a2436f13d833dbf6504d7d6e
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 59%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 8월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2023년 9월)
 
-**마지막 업데이트**: 2023년 8월 24일
+**마지막 업데이트**: 2023년 9월 7일
 
-이 릴리스 정보는 2023년 8월 9일부터 9월 13일까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2023년 9월 13일부터 2023년 10월 3일까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 개선 사항** | <ul><li>통합 문서 탭에서 예약된 작업을 다운로드한 다음 제목을 지정하고, 저장하고, 공유할 수 있습니다. [자세히 알아보기](/help/report-builder/schedule-reportbuilder.md)</li><li>차원으로 시작 일자 옵션을 통해 데이터 블록 출력의 차원으로 데이터 블록의 시작 일자를 표시할 수 있습니다. [자세히 알아보기](/help/report-builder/create-a-data-block.md) </li></ul> | 해당 사항 없음 | 2023년 8월 17일 |
-| **통화 전환** | 고객 여정에서 여러 통화를 지원하는 기능이 추가되고 있습니다. 데이터 보기 설정에서 통화를 다른 통화로 변환할 수 있습니다. [자세히 알아보기](/help/data-views/component-settings/format.md) | 해당 사항 없음 | 2023년 8월 30일 |
-| **Analytics 소스 커넥터에서 A4T 분류 지원** | Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합하기 위해 상관 관계 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 9월 11일 |
-| **보고 활동 관리자** | 각 연결에 대한 보고 사용량에 대해 세부적인 가시성을 제공하여 관리자가 최대 보고 시간 동안 용량 문제를 쉽게 진단한 후 해결할 수 있도록 지원합니다. | 해당 사항 없음 | 2023년 9월 12일 |
-| **Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스** | Adobe Customer Journey Analytics SQL 커넥터를 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. Power BI, Tableau 또는 기타 비즈니스 인텔리전스와 시각화 도구에 익숙한 데이터 엔지니어 및 분석가는 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에 사용하는 동일한 데이터 보기를 기반으로 보고서와 대시보드를 만들 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) | 해당 사항 없음 | 2023년 9월 12일 |
+| **Analytics 소스 커넥터에서 A4T 분류 지원** | 신규 지원 `correlationID` Adobe Analytics용 필드 | 다음 `_experience.decisioning.propositions.scopeDetails.correlationID` 이제 Adobe Analytics 소스 커넥터 스키마에서 필드를 사용할 수 있습니다. 이 필드는 A4T 분류 지원에 사용되며 2023년 9월부터 채워집니다. | | 해당 사항 없음 | 2023년 9월 12일 |
+| **파생 필드에 대한 업데이트** | 파생 필드 기능에 대한 업데이트는 다음과 같습니다.<ul><li>다음 [!UICONTROL 조회] 함수 이름이 (으)로 변경되었습니다. [!UICONTROL 분류]CSV 데이터를 로드하는 추가 옵션이 있는 . **(2023년 9월 27일 릴리스)**</li><li>파생 필드를 정의할 때 추가 함수를 사용할 수 있습니다. [!UICONTROL 트림], [!UICONTROL 소문자] 및 [!UICONTROL 조회].</li><li>파생 필드 정의는 이제 의 필드도 지원합니다. [!UICONTROL 조회] 및 [!UICONTROL 프로필] 데이터 세트.</li></ul>[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md) | 해당 사항 없음 | 2023년 9월 13일 |
+| **Adobe Product Analytics의 새로운 기능** | <ul><li>**예외 항목 탐지**: 이벤트를 기록 트렌드에서 파생된 예상 값과 비교합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li><li>**사용 빈도 보기 트렌드**: 사용 빈도별로 기능 채택을 측정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**사용자 환경 설정**: 색상 팔레트, 데이터 보기, 달력, 인스턴스 계산, 숫자 형식 및 쉼표 구분 기호와 같은 사용자 환경 설정을 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li></ul> | 해당 사항 없음 | 2023년 9월 18일 |
+| **Experience Edge 장치 조회** | Experience Platform 에지 네트워크를 통해 자동 장치 유형 데이터 수집을 활성화합니다. 이 Experience Edge 서비스는 다른 Experience Platform 앱과 함께 Customer Journey Analytics에 이점을 제공합니다. (참조할 설명서 링크) | 해당 사항 없음 | 2023년 9월 27일 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-309141; AN-319198; AN-324576; AN-324939; AN-325138; AN-325554
+AN-310972; AN-319509; AN-322245; AN-323411; AN-323719; AN-326101; AN-326125; AN-326888
+
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| **Customer Journey Analytics에서 데이터를 처리하는 방법 변경** | 2023년 6월 22일 | 최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.<ul><li>타임스탬프가 24시간 미만인 모든 이벤트 데이터가 스트리밍됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.</li></ul> |
+| 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 |
 
 {style="table-layout:auto"}
 
