@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
 source-wordcount: '2604'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2023년 9월** | |
 | 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 및 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 함수 및 를 참조하십시오. [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 함수. |
-| 지역 데이터 수집 | 업데이트됨 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection) Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보 포함. |
+| 지역 데이터 수집 | Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보로 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection)가 업데이트되었습니다. |
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | Report Builder 개선 사항 | 예약된 작업 다운로드에 대한 정보를 제공하기 위해 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 콘텐츠가 업데이트되었습니다. 시작 일자를 차원으로 사용하기 위한 정보를 제공하기 위해 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 콘텐츠가 업데이트되었습니다. |
