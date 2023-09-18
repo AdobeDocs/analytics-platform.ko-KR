@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
-source-wordcount: '2604'
-ht-degree: 99%
+source-wordcount: '2651'
+ht-degree: 97%
 
 ---
 
@@ -20,10 +20,11 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 9월** | |
+| 미디어 재생 소요 시간 패널에 대한 문서 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 폴더 콘텐츠를 단일 문서로 결합했습니다. [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>이 변경 사항은 다른 패널에 대한 설명서와 더 일치합니다.</p> |
 | 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 및 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 함수 및 를 참조하십시오. [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 함수. |
 | 지역 데이터 수집 | Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보로 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection)가 업데이트되었습니다. |
 | **2023년 8월** | |
-| 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
+| 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | Report Builder 개선 사항 | 예약된 작업 다운로드에 대한 정보를 제공하기 위해 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 콘텐츠가 업데이트되었습니다. 시작 일자를 차원으로 사용하기 위한 정보를 제공하기 위해 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 콘텐츠가 업데이트되었습니다. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | Adobe Customer Journey Analytics 기능 지원 | Adobe Analytics와 비교하여 Customer Journey Analytics의 세션화 기능에 대한 *새로운 방식으로 지원됨* 테이블에 정보가 추가되었습니다. [자세히 알아보기](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
+source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '969'
 ht-degree: 86%
 
 ---
@@ -154,10 +154,7 @@ ht-degree: 86%
       + [자유 형식 패널](../analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](../analysis-workspace/c-panels/quickinsight.md)
       + [미디어 동시 뷰어 패널](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + 미디어 재생 소요 시간 {#media-playback-timespent}
-         + [개요](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [입력 및 출력 설정](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [FAQ](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [미디어 재생 소요 시간 패널](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)

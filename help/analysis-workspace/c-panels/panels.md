@@ -3,7 +3,7 @@ description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c18ed01f899b7a521c67ed6a0008210099b858bf
+source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 51%
@@ -25,7 +25,7 @@ ht-degree: 51%
 | [속성 패널](attribution.md) | 파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
 | [자유 형식 패널](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
 | [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
-| [미디어 재생 소요 시간 패널](media-playback-timespent/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생한 위치 또는 시청 감소가 발생한 위치를 파악할 수 있습니다. |
+| [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생한 위치 또는 시청 감소가 발생한 위치를 파악할 수 있습니다. |
 
 ![](assets/panel-overview.png)
 
