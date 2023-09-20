@@ -4,8 +4,8 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
-workflow-type: tm+mt
+source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+workflow-type: ht
 source-wordcount: '2651'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | Report Builder 개선 사항 | 예약된 작업 다운로드에 대한 정보를 제공하기 위해 [통합 문서 예약](/help/report-builder/schedule-reportbuilder.md) 콘텐츠가 업데이트되었습니다. 시작 일자를 차원으로 사용하기 위한 정보를 제공하기 위해 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md) 콘텐츠가 업데이트되었습니다. |
-| 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
+| 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analysis-workspace/export/t-schedule-report.md) 문서에 있었습니다. |
 | Adobe Customer Journey Analytics 기능 지원 | Adobe Analytics와 비교하여 Customer Journey Analytics의 세션화 기능에 대한 *새로운 방식으로 지원됨* 테이블에 정보가 추가되었습니다. [자세히 알아보기](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Adobe Analytics의 발전 | 파생 필드 마케팅 채널 기능 템플릿을 참조하여 *마케팅 채널 (재)구성* 섹션이 업데이트되었습니다. [자세히 알아보기](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 모바일 애플리케이션 및 기타 플랫폼용 데이터 수집 빠른 시작 안내서 | Customer Journey Analytics에서 모바일 애플리케이션 또는 기타 플랫폼(예: 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 및 IoT 디바이스의 애플리케이션)에서 데이터를 수집하고 사용하는 방법을 설명하는 데이터 수집 빠른 시작 안내서가 추가되었습니다. [자세히 알아보기](../data-ingestion/data-ingestion.md) |
@@ -169,7 +169,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2021년 4월 | 작업 영역의 예약된 프로젝트 지원에 대한 새로운 설명서. |
 | 2021년 4월 | [향상된 데이터 보기 환경](/help/data-views/data-views.md)에 대한 새로운 주제. |
 | 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga/overview.md) 및 [해당 데이터 분석](/help/use-cases/ga/report.md)에 대한 새로운 주제. |
-| 2021년 4월 | 작업 영역의 [예약된 보고서](/help/analysis-workspace/curate-share/t-schedule-report.md)에 대한 주제를 추가했습니다. |
+| 2021년 4월 | 작업 영역의 [예약된 보고서](/help/analysis-workspace/export/t-schedule-report.md)에 대한 주제를 추가했습니다. |
 | 2021년 4월 | [Customer Journey Analytics에서 카디널리티가 높은 차원](/help/components/dimensions/high-cardinality.md)에 대한 새로운 주제. |
 | **2021년 3월** | |
 | 2021년 3월 | [Analytics 대시보드](/help/mobile-app/home.md) 지원에 대한 항목을 추가했습니다. |

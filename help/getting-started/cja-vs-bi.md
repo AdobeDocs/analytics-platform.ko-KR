@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
+source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
 workflow-type: ht
 source-wordcount: '1649'
 ht-degree: 100%
@@ -76,7 +76,7 @@ Customer Journey Analytics는 수백 또는 수천 개의 서버에 분석을 �
 
    * 지속적으로 탐색을 위해 조직의 다른 개인으로 [조정됨](/help/analysis-workspace/curate-share/curate.md),
    * [Report Builder](/help/report-builder/report-buider-overview.md)(전용 플러그인)를 사용하여 Excel로 내보냄,
-   * [PDF](/help/analysis-workspace/curate-share/download-send.md), [CSV](/help/analysis-workspace/curate-share/download-send.md) 등 다양한 포맷으로 [전용 모바일 앱](/help/mobile-app/home.md)을 통해 최종 보고서 및/또는 시각화에 관심이 있는 개인에게 [공유됨](/help/analysis-workspace/curate-share/share-projects.md).
+   * [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) 등 다양한 포맷으로 [전용 모바일 앱](/help/mobile-app/home.md)을 통해 최종 보고서 및/또는 시각화에 관심이 있는 개인에게 [공유됨](/help/analysis-workspace/curate-share/share-projects.md).
 
 사용 가능한 다양한 시각화로 인해 Customer Journey Analytics 시각화 기능과 BI 도구가 제공하는 기능을 비교하는 것은 어렵습니다. 일부 BI 도구에는 고급 시각화 기능이 있지만, Customer Journey Analytics는 모든 추가 쿼리에 “비용을 청구”하지 않고 바로 데이터를 분석할 수 있는 상호 운용성 있는 대화형 고객 여정 시각화에 중점을 두고 있습니다.
 

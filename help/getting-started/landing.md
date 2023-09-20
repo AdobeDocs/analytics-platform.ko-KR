@@ -4,7 +4,7 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
 workflow-type: ht
 source-wordcount: '1514'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 | [!UICONTROL 프로젝트] 표를 전체 화면으로 확장 | 표를 확장하려면 햄버거 메뉴 아이콘을 클릭합니다. 이 작업을 수행하면 왼쪽 레일 탭이 축소됩니다. | ![표 확장](assets/landing-collapse2.png) |
 | 열 너비 사용자 정의 | 이전에는 열 너비가 고정되어 있었습니다. 이제 열 구분 기호를 드래그하여 열 너비를 조정할 수 있습니다. | ![열 폭](assets/column-width.png) |
 | 고정 항목 순서 바꾸기 | 고정 항목을 위아래로 이동하려면 고정 항목 옆에 있는 생략 부호를 클릭한 다음 **[!UICONTROL 위로 이동]** 또는 **[!UICONTROL 아래로 이동]**&#x200B;을 선택합니다. | ![고정 항목 이동](assets/move-up-down.png) |
-| 새 테이블 열 | 표 오른쪽 상단의 [!UICONTROL 표 사용자 정의] 아이콘을 클릭합니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 프로젝트가 예약되어 있을 때에는 [!UICONTROL 켜짐]으로, 그렇지 않을 때에는 [!UICONTROL 꺼짐]으로 설정되어 있습니다. [!UICONTROL 켜짐]을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](../analysis-workspace/curate-share/t-schedule-report.md)할 수도 있습니다.</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. </li><li>**[!UICONTROL 쿼리 개수]**: 프로젝트가 로드될 때 Analytics에 대해 수행된 총 요청 개수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. </li></ul> | ![새 열](assets/new-columns.png) |
+| 새 테이블 열 | 표 오른쪽 상단의 [!UICONTROL 표 사용자 정의] 아이콘을 클릭합니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 프로젝트가 예약되어 있을 때에는 [!UICONTROL 켜짐]으로, 그렇지 않을 때에는 [!UICONTROL 꺼짐]으로 설정되어 있습니다. [!UICONTROL 켜짐]을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](/help/analysis-workspace/export/t-schedule-report.md)할 수도 있습니다.</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. </li><li>**[!UICONTROL 쿼리 개수]**: 프로젝트가 로드될 때 Analytics에 대해 수행된 총 요청 개수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. </li></ul> | ![새 열](assets/new-columns.png) |
 | **[!UICONTROL 프로젝트 만들기]** 모달 | 작업 영역에서 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하면 다시 [!UICONTROL 빈 프로젝트]와 [!UICONTROL 빈 모바일 스코어카드] 중에서 선택할 수 있게 됩니다. 귀사에서 제작한 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
 
 {style="table-layout:auto"}
@@ -44,9 +44,9 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 | UI 요소 | 정의 |
 | --- | --- |
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
-| [!UICONTROL 새로 만들기] | 작업 영역 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
+| [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
 | [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
-| [!UICONTROL 작업 영역 프로젝트] | 사용자가 설계하고 빌드할 빈 [작업 영역 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
 | [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
@@ -58,7 +58,7 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 | 고정 아이콘 | 항목을 고정하면 항상 목록의 맨 위에 나타나지만 순서대로 위 또는 아래로 이동하여 순서를 다시 조정할 수 있습니다. 줄임표 옵션 메뉴를 사용한 다음 목록에서 **위로 이동** 또는 **아래로 이동**&#x200B;을 선택합니다. |
 | 정보(i) 아이콘 | 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)할 수 있는지도 나타냅니다. |
 | 생략 부호 (...) | 수행할 수 있는 프로젝트 관리 액션(**삭제**, **공유**, **이름 바꾸기**, **복사**, **고정 해제**, **위로 이동**, **아래로 이동**, **태그**, **승인**, **CSV로 내보내기** 및 **다음으로 이동**)이 표시됩니다. 나열된 모든 액션을 수행할 권한이 없을 수도 있습니다. |
-| [!UICONTROL 유형] | 이 유형이 작업 영역 프로젝트인지, 모바일 스코어카드인지 또는 폴더인지를 나타냅니다. |
+| [!UICONTROL 유형] | 이 유형이 Workspace 프로젝트인지, 모바일 스코어카드인지 또는 폴더인지를 나타냅니다. |
 | [!UICONTROL 태그] | 프로젝트에 태그를 지정하여 그룹으로 구성합니다. |
 | [!UICONTROL 프로젝트 역할] | 프로젝트 역할 식별: 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부. |
 | [!UICONTROL 데이터 보기] | 프로젝트와 연계된 데이터 보기를 식별합니다.<br>패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 데이터 보기에서 데이터를 가져옵니다. 데이터 보기는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 여러 데이터 보기를 사용할 수 있습니다. 데이터 보기 목록은 관련성을 기준으로 정렬됩니다. Adobe는 현재 사용자가 보고서 세트를 얼마나 최근에 얼마나 자주 사용했는지, 그리고 조직 내에서 보고서 세트를 얼마나 자주 사용했는지에 따라 관련성을 정의합니다. |
