@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 9월** | |
-| 미디어 재생 소요 시간 패널에 대한 문서 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 폴더 콘텐츠를 단일 문서로 결합했습니다. [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>이 변경 사항은 다른 패널에 대한 설명서와 더 일치합니다.</p> |
-| 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 및 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 함수 및 를 참조하십시오. [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 함수. |
+| 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
+| 추가 파생 필드 기능 | 새로운 [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 및 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 기능과 함께 [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 기능에 추가된 CSV 기능에 대한 설명서를 업데이트했습니다. |
 | 지역 데이터 수집 | Customer Journey Analytics 사용 시 지역 데이터 수집에 대한 정보로 [FAQ](../getting-started/cja-faq.md#12-regional-data-collection)가 업데이트되었습니다. |
 | **2023년 8월** | |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
