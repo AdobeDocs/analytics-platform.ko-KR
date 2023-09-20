@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: aa7f4361b1353a86b87c36c3d08e99ddb8ffd049
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 86%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 | **파생 필드에 대한 업데이트 사항** | 파생 필드 기능이 다음과 같이 업데이트되었습니다.<ul><li>[!UICONTROL 조회] 기능이 [!UICONTROL 분류]로 이름이 변경되었으며 CSV 데이터를 로드할 수 있는 옵션이 추가되었습니다. **(2023년 9월 27일 릴리스)**</li><li>파생 필드를 정의할 때 사용할 수 있는 추가 기능으로는 [!UICONTROL 트리밍], [!UICONTROL 소문자] 및 [!UICONTROL 조회]가 있습니다.</li><li>이제 파생 필드 정의가 [!UICONTROL 조회] 및 [!UICONTROL 프로필] 데이터 세트의 필드도 지원합니다.</li></ul>[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md) | 해당 사항 없음 | 2023년 9월 13일 |
 | **Adobe Product Analytics의 새로운 기능** | <ul><li>**예외 항목 탐지**: 이벤트를 과거 추세에서 파생된 예상 값과 비교합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**사용 동향 빈도 보기**: 사용 빈도에 따라 기능 채택을 측정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**사용자 환경설정**: 색상 팔레트와 숫자 형식 등 다양한 사용자 환경설정을 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | 해당 사항 없음 | 2023년 9월 18일 |
 | **Experience Edge 디바이스 조회** | Experience Platform Edge 네트워크를 통해 자동 디바이스 유형 데이터 수집을 활성화합니다. 이 Experience Edge 서비스는 다른 Experience Platform 앱과 함께 Customer Journey Analytics에 유용합니다. (참조할 설명서 링크) | 해당 사항 없음 | 2023년 9월 27일 |
+| **구성 요소 관리 시 사용할 수 있는 새 열** | 이제 다음에서 새 열을 사용할 수 있습니다 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 구성 요소 관리 시:<ul><li>다음에서 사용됨</li><li>마지막 사용</li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 구성 요소가 조직에서 사용되는 방식을 추적하고 더 잘 이해할 수 있습니다.</p> | 2023년 9월 20일 | 2023년 10월 4일 |
 
 {style="table-layout:auto"}
 

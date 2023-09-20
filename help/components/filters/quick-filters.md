@@ -4,7 +4,7 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 38%
@@ -128,7 +128,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
    이제 필터가 모든 프로젝트의 필터 구성 요소에 표시됩니다.
-조직의 다른 사용자와 [필터를 공유](/help/components/filters/manage-filters.md)할 수도 있습니다 .
+조직의 다른 사용자와 [필터를 공유](/help/components/filters/filters-share.md)할 수도 있습니다 .
 
 ## 빠른 필터 예
 

@@ -3,7 +3,7 @@ description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자�
 title: 필터 빌드
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 23%
@@ -64,7 +64,7 @@ ht-degree: 23%
 1. 선택한 항목에 대한 값을 입력하거나 선택합니다.
 1. 필요한 경우 **[!UICONTROL And]**, **[!UICONTROL Or]** 또는 **[!UICONTROL Then]** 규칙을 사용하여 컨테이너를 더 추가합니다.
 1. 컨테이너를 배치하고 규칙을 설정한 후에는 오른쪽 상단의 유효성 검사 차트에서 필터 결과를 확인합니다. 유효성 검사기는 사용자가 만든 필터와 일치하는 페이지 보기, 방문 및 고유 사용자의 비율 및 절대 수를 나타냅니다.
-1. 아래 **[!UICONTROL 태그]**, [태그](/help/components/filters/manage-filters.md) 기존 태그를 선택하거나 새 태그를 만들어 컨테이너에 추가합니다.
+1. 아래 **[!UICONTROL 태그]**, [태그](/help/components/filters/filters-tag.md) 기존 태그를 선택하거나 새 태그를 만들어 컨테이너에 추가합니다.
 1. 클릭 **[!UICONTROL 저장]** 필터를 저장합니다.
 
    다음으로 이동되었습니다. [필터 관리자](/help/components/filters/manage-filters.md)를 사용하여 다양한 방식으로 필터에 태그를 지정하고, 공유하고, 관리할 수 있습니다.

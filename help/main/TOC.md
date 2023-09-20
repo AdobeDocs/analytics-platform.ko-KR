@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
+source-git-commit: dab672e07ddf834701279e108ad2daab1ad94efa
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 83%
+source-wordcount: '1023'
+ht-degree: 82%
 
 ---
 
@@ -227,6 +227,12 @@ ht-degree: 83%
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
+      + [공유 필터](../components/filters/filters-share.md)
+      + [태그 필터](../components/filters/filters-tag.md)
+      + [필터 목록 필터링](../components/filters/filters-filter.md)
+      + [필터를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
+      + [승인 필터](../components/filters/filters-approve.md)
+      + [필터 복사](../components/filters/filters-copy.md)
       + [빠른 필터](../components/filters/quick-filters.md)
       + [필터 빌더](../components/filters/filter-builder.md)
       + [필터 관리](../components/filters/manage-filters.md)
@@ -242,6 +248,9 @@ ht-degree: 83%
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [필터 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [계산된 지표 필터링](../components/calc-metrics/cm-workflow/cm-filter.md)
+         + [계산된 지표를 즐겨찾기로 표시](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [계산된 지표 복사](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [함수 사용](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [계산된 지표에 태그 지정](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [계산된 지표 승인](../components/calc-metrics/cm-workflow/cm-approving.md)

@@ -3,10 +3,10 @@ title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 8d681a956cc826642e8fc22081acd2c579543b2e
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 필터를 
 
 필터 빌더에서 필터를 작성 및 저장하거나 (작업 영역의) 폴아웃 시각화에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
-필터링은 세그먼트를 만들고, 사전 테스트를 실행하기 위한 [세그먼트 빌더](/help/components/filters/filter-builder.md)와, 조직에 있는 필터들을 모으고, 태깅하고, 승인하고, 보안을 설정하고, 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함하고 있습니다.
+필터링에는 다음이 포함됩니다. [필터 빌더](/help/components/filters/filter-builder.md) 필터를 구성하고 사전 테스트를 실행하려면 [필터 관리자](/help/components/filters/manage-filters.md) 를 사용하여 조직 전체에서 필터를 수집, 태그 지정, 승인, 보안 설정 및 공유할 수 있습니다.
 
 IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 

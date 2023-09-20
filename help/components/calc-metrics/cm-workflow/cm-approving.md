@@ -3,10 +3,10 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 18%
+source-wordcount: '238'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 계산된 지표를 승인된 것으로 표시하려면 다음을 수행합니다.
 
-1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**] 계산된 지표 관리자로 이동합니다.
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**].
 
 1. 계산된 지표 관리자에서 승인됨으로 표시할 지표 왼쪽에 있는 확인란을 선택합니다.
 

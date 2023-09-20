@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 집단 분석 보고서 구성
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 91%
@@ -47,7 +47,7 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
    셀(연속 또는 비연속)을 선택한 다음 > **[!UICONTROL 선택 내용에서 필터 생성]**&#x200B;을 마우스 오른쪽 버튼으로 클릭합니다.
 
-1. [필터 빌더](/help/components/filters/manage-filters.md)에서 필터를 추가로 편집한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. [필터 빌더](/help/components/filters/filter-builder.md)에서 필터를 추가로 편집한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    저장된 필터는 [!UICONTROL Analysis Workspace]의 [!UICONTROL 필터] 패널에서 사용할 수 있습니다.
 1. 집단 프로젝트에 이름을 지정하고 저장합니다.

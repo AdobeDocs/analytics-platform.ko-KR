@@ -3,9 +3,9 @@ description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세�
 title: 계산된 지표에 태그 지정
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 19%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 19%
 >* **카테고리**&#x200B;여성 또는 지역 등.
 >* **워크플로**(특정 비즈니스 단위)에 대해 승인 또는 조정되는 대상 과 같은 형식으로 프로필 스크립트에서 참조할 수 있습니다.
 
-
 ## 계산된 지표에 태그 적용
 
-1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**] 계산된 지표 관리자로 이동합니다.
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**].
 
 1. 계산된 지표 관리자에서 태깅할 지표 옆의 확인란을 선택합니다.
 
