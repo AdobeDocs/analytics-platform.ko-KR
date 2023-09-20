@@ -3,10 +3,10 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 98%
+source-wordcount: '686'
+ht-degree: 94%
 
 ---
 
@@ -54,9 +54,27 @@ ht-degree: 98%
 
 ## 비기본 속성 모델 사용 {#attribution}
 
-에 설정된 기본 속성 모델을 재정의할 수 있습니다 [데이터 보기](/help/data-views/component-settings/attribution.md).
+에서 설정된 기본 속성 모델을 재정의할 수 있습니다. [데이터 보기](/help/data-views/component-settings/attribution.md).
 
-1. 자유 형식 테이블 열 옆의 설정(기어) 아이콘을 클릭합니다.
+<!--
+
+>[!NOTE]
+>
+>Consider the following when updating a component's attribution to a non-default attribution model:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
+
+-->
+
+Analysis Workspace에서 지표에 대해 기본값이 아닌 속성 모델을 사용하려면 다음 작업을 수행하십시오.
+
+1. 자유 형식 테이블 열의 지표에 있는 설정 (톱니바퀴) 아이콘을 클릭합니다.
 
    ![속성 확인란](assets/attribution-checkbox.png)
 
@@ -67,4 +85,3 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >* [데이터 소스 관리](/help/analysis-workspace/visualizations/t-sync-visualization.md)
-

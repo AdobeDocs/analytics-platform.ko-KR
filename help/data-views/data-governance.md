@@ -3,7 +3,7 @@ title: 레이블 및 정책
 description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 어떤 영향을 미치는지 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
+source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 58%
@@ -72,7 +72,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 또한 차단된 필드가 있는 데이터 보기는 저장할 수 없습니다.
 
 >[!MORELIKETHIS]
->[중요한 데이터 다운로드](/help/analysis-workspace/curate-share/download-send.md)
+>[중요한 데이터 다운로드](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
 >[Report Builder의 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=ko-kr)

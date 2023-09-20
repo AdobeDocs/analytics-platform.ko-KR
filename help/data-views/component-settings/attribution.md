@@ -4,34 +4,67 @@ description: 지표에 대한 기본 속성을 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 38%
+source-wordcount: '1859'
+ht-degree: 37%
 
 ---
 
 # 속성 구성 요소 설정
 
-속성을 사용하면 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다.
+기여도는 차원 항목이 성공 이벤트에 대한 크레딧을 얻는 방식을 맞춤화할 수 있는 기능을 제공합니다.
 
 ![](../assets/attribution-settings.png)
 
 예:
 
-1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
-2. 다음날, 이 친구는 소셜 미디어 게시물을 보았다. 링크를 클릭한 다음 구매를 완료합니다.
+1. 사이트의 사용자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
+2. 다음날, 그들은 그들의 친구 중 한 명으로부터 온 소셜 미디어 게시물을 본다. 링크를 클릭한 다음 구매를 완료합니다.
 
 일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다.
 
-이 데이터 보기 구성 요소 설정을 사용하면 지표에 대한 기본 속성 모델을 설정할 수 있습니다. Analysis Workspace에서 작업하는 동안 특정 지표의 속성 모델을 재정의할 수 있습니다.
+## 구성 요소의 기본 속성 모델 설정
 
+데이터 보기에서 지표 설정을 업데이트하여 주어진 지표에 대한 기본 속성 모델을 설정할 수 있습니다. 이렇게 하면 Analysis Workspace에서 지표를 사용할 때마다 지표의 속성 모델이 무시됩니다.
 
+<!-- 
 
-조직에 지표에 여러 속성 설정이 있어야 하는 경우 다음 중 하나를 수행할 수 있습니다.
+>[!NOTE]
+>
+>Consider the following when enabling attribution on a metric:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
 
-* 원하는 각 속성 설정을 사용하여 데이터 보기에서 지표를 복사합니다. 데이터 보기에서 동일한 지표를 여러 번 포함하여 각 지표에 서로 다른 설정을 지정할 수 있습니다. 보고서를 생성할 때 분석가가 이러한 지표 간의 차이점을 이해할 수 있도록 각 지표에 레이블을 적절하게 지정해야 합니다.
-* Analysis Workspace에서 지표를 재정의합니다. 지표에 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), 선택 **[!UICONTROL 기본이 아닌 속성 모델 사용]** 특정 보고서에 대한 지표의 속성 모델 및 전환 확인 기간을 변경하려면 다음을 수행합니다.
+-->
+
+구성 요소의 기본 속성 모델을 업데이트하려면:
+
+1. 기본 속성 모델을 업데이트하려는 구성 요소가 포함된 데이터 보기로 이동합니다.
+
+1. 구성 요소를 선택한 다음, 화면 오른쪽의 속성 섹션을 확장합니다.
+
+   ![](../assets/attribution-settings.png)
+
+1. 선택 [!UICONTROL **속성 설정**]&#x200B;에서 속성 모델을 선택합니다 [!UICONTROL **속성 모델**] 드롭다운 메뉴.
+
+   다음을 참조하십시오 [속성 모델](#attribution-models) 각 속성 모델에 대해 알아봅니다.
+
+1. [!UICONTROL **저장 후 계속**]&#x200B;을 선택합니다.
+
+>[!TIP]
+>
+>조직에 지표에 여러 속성 설정이 있어야 하는 경우 다음 중 하나를 수행할 수 있습니다.
+>
+> * 원하는 각 속성 설정을 사용하여 데이터 보기에서 지표를 복사합니다. 데이터 보기에서 동일한 지표를 여러 번 포함하여 각 지표에 서로 다른 설정을 지정할 수 있습니다. 보고서를 생성할 때 분석가가 이러한 지표 간의 차이점을 이해할 수 있도록 각 지표에 레이블을 적절하게 지정해야 합니다.
+>
+> * Analysis Workspace에서 지표를 재정의합니다. 지표에 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), 선택 **[!UICONTROL 기본이 아닌 속성 모델 사용]** 특정 보고서에 대한 지표의 속성 모델 및 전환 확인 기간을 변경하려면 다음을 수행합니다.
 
 ## 속성 모델
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 86%
+source-wordcount: '995'
+ht-degree: 83%
 
 ---
 
@@ -161,8 +161,11 @@ ht-degree: 86%
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
       + [보기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF 또는 CSV 파일 다운로드](../analysis-workspace/curate-share/download-send.md)
-      + [프로젝트 예약](../analysis-workspace/curate-share/t-schedule-report.md)
+   + 내보내기 {#export}
+      + [내보내기 개요](../analysis-workspace/export/export-project-overview.md)
+      + [다운로드](../analysis-workspace/export/download-send.md)
+      + [다른 사용자에게 보내기](../analysis-workspace/export/t-schedule-report.md)
+      + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst 개요](../analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
@@ -253,6 +256,13 @@ ht-degree: 86%
       + [날짜 범위 관리](../components/date-ranges/manage.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
+   + 내보내기 {#exports}
+      + [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md)
+      + [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md)
+      + [클라우드 내보내기 위치 관리](/help/components/exports/manage-export-locations.md)
+      + [내보내기 관리](/help/components/exports/manage-exports.md)
+      + [내보내기 로그 관리](/help/components/exports/manage-export-logs.md)
+      + [내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)
    + 데이터 사전 {#data-dictionary}
       + [데이터 사전 개요](../components/data-dictionary/data-dictionary-overview.md)
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
@@ -325,6 +335,7 @@ ht-degree: 86%
    + [사용량 보기 및 관리](../admin/estimate-usage.md)
    + [삭제 영향](../admin/cja-deletion.md)
    + [Customer Journey Analytics 성능 최적화](../admin/optimizing-performance.md)
+   + [IP 주소](../admin/ip-addresses.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)

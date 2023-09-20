@@ -4,7 +4,7 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 86%
@@ -19,6 +19,17 @@ ht-degree: 86%
 ![지속성](../assets/persistence.png)
 
 * 하나의 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당** 설정을 통해 보존되는 값을 결정할 수 있습니다.
+
+<!--
+
+  >[!NOTE]
+  >
+  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >
+  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
+
+-->
+
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
 [!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 지속성은 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.

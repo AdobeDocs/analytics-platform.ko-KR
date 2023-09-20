@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 집단 분석 보고서 구성
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '982'
 ht-degree: 91%
 
 ---
@@ -59,4 +59,4 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 ## 집단 시각화 다운로드
 
-Analysis Workspace의 다른 시각화와 마찬가지로 집단 시각화를 CSV 또는 PDF 파일로 다운로드할 수 있습니다. 자세한 내용은 [PDF 또는 CSV 파일 다운로드](/help/analysis-workspace/curate-share/download-send.md).
+Analysis Workspace의 다른 시각화와 마찬가지로 집단 시각화를 CSV 또는 PDF 파일로 다운로드할 수 있습니다. 자세한 내용은 [프로젝트 데이터 다운로드](/help/analysis-workspace/export/download-send.md).

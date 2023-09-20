@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 87%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -47,15 +47,15 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
    * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->를 클릭한 다음 시각화를 추가하려는 패널로 시각화를 드래그합니다.
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * 시각화를 추가하려는 패널에서 **플러스** 아이콘을 클릭한 다음 추가하려는 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
 
-      ![시각화 추가 버튼](assets/visualization-add-to-panel.png)
+     ![시각화 추가 버튼](assets/visualization-add-to-panel.png)
 
    * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을(를) 만든 다음 추가할 시각화를 선택합니다.
 
-      ![빈 패널](assets/blank_panel.png)
+     ![빈 패널](assets/blank_panel.png)
 
    * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 를 선택합니다 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**].
 
@@ -122,8 +122,8 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | --- | --- |
 | 복사한 패널/시각화 삽입 | 복사한 패널 또는 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣을 (“삽입”) 수 있습니다. |
 | 시각화 복사 | 시각화를 마우스 오른쪽 버튼으로 클릭하고 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
-| [CSV로 항목 다운로드](/help/analysis-workspace/curate-share/download-send.md) | 선택한 차원에 대해 최대 50,000개의 차원 항목을 CSV로 다운로드합니다. |
-| [데이터를 CSV로 다운로드](/help/analysis-workspace/curate-share/download-send.md) | 시각화 데이터 소스를 CSV로 다운로드합니다. |
+| [프로젝트 데이터 다운로드](/help/analysis-workspace/export/download-send.md) | 선택한 차원에 대해 최대 50,000개의 차원 항목을 CSV로 다운로드합니다. |
+| [프로젝트 데이터 다운로드](/help/analysis-workspace/export/download-send.md) | 시각화 데이터 소스를 CSV로 다운로드합니다. |
 | 중복 시각화 | 현재 시각화의 수정할 수 있는 정확한 중복을 만듭니다. |
 | 설명 편집 | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. |
 | 시각화 링크 가져오기 | 프로젝트 내의 특정 시각화로 사용자를 안내할 수 있습니다. 링크를 클릭하면 연결된 정확한 시각화로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
