@@ -5,7 +5,7 @@ title: 이메일로 다른 사람에게 Customer Journey Analytics 데이터 보
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 8eda6e9ed27ab458951cd4bd08f511987bc61eb0
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 63%
@@ -14,7 +14,7 @@ ht-degree: 63%
 
 # 이메일을 통해 다른 사용자에게 Customer Journey Analytics 데이터 보내기
 
-이메일을 통해 선택한 수신자에게 Customer Journey Analytics 데이터를 전송하여 내보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 보낼 파일을 구성할 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+이메일을 통해 선택한 수신자에게 보내어 Customer Journey Analytics 보고서를 내보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 보낼 파일을 구성할 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
 프로젝트에 적용된 모든 태그는 내보내기에 자동으로 적용됩니다.
 

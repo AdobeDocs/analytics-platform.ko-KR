@@ -5,18 +5,16 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 6%
+source-wordcount: '972'
+ht-degree: 5%
 
 ---
 
 # 클라우드 내보내기 위치 구성
 
-{{select-package}}
-
-에 설명된 대로 Customer Journey Analytics 데이터를 클라우드 대상으로 내보내기 전에 [클라우드로 Customer Journey Analytics 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md)데이터를 전송할 위치를 추가하고 구성해야 합니다.
+에 설명된 대로 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기 전에 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)데이터를 전송할 위치를 추가하고 구성해야 합니다.
 
 이 프로세스는에 설명된 대로 계정을 추가 및 구성(Amazon S3, Google Cloud Platform 등)하는 과정으로 구성됩니다 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md)이 문서에 설명된 대로 해당 계정(계정 내 폴더 등) 내에 위치를 추가하고 구성합니다.
 
@@ -26,18 +24,36 @@ ht-degree: 6%
 
 1. 위치를 추가하려면 먼저 계정을 추가해야 합니다. 아직 계정이 없다면 의 설명에 따라 계정을 추가합니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md).
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
-1. 다음에서 [!UICONTROL 내보내기] 페이지에서 [!UICONTROL **위치**] 탭.
-1. 선택 [!UICONTROL **위치 추가**].
+1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **위치 추가**].
 
    ![위치 추가 단추](assets/location-add.png)
 
+   또는
+
+   다음 항목 선택 [!UICONTROL **위치 계정**] 탭에서 위치를 추가하려는 기존 계정에서 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **위치 추가**].
+
+   ![기존 계정에 위치 추가](assets/add-location-existing-account.png)
+
    위치 대화 상자가 표시됩니다.
 
-1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 같은 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **위치 계정**] | 만든 위치 계정 선택 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
+1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 같은 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
 
 1. 다음에서 [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
    구성 지침을 보려면 아래에서 선택한 계정 유형에 해당하는 아래 섹션을 확장합니다. [!UICONTROL **위치 계정**] 필드.
+
+   +++Adobe Experience Platform 데이터 랜딩 영역
+
+   Adobe Experience Platform 데이터 랜딩 영역 위치를 구성하려면 다음 정보를 지정하십시오.
+
+   <!-- still need to update; can't create AEP account -->
+
+   | 필드 | 함수 |
+   |---------|----------|
+   | [!UICONTROL **IMS 조직 ID**] | IMS 조직 ID는 Adobe에서 제공합니다. 다음 옆에 있는 복사 아이콘을 클릭합니다. [!UICONTROL **IMS 조직 ID**] 필드를 사용하여 필드의 내용을 복사한 다음, Adobe Experience Platform 계정의 ID를 사용하십시오. |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+
++++
 
    +++Amazon S3 Role ARN
 
@@ -108,19 +124,6 @@ ht-degree: 6%
    | [!UICONTROL **단계 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
-
-   +++Adobe Experience Platform
-
-   Adobe Experience Platform 위치를 구성하려면 다음 정보를 지정하십시오.
-
-   <!-- still need to update; can't create AEP account -->
-
-   | 필드 | 함수 |
-   |---------|----------|
-   | [!UICONTROL **IMS 조직 ID**] | IMS 조직 ID는 Adobe에서 제공합니다. 다음 옆에 있는 복사 아이콘을 클릭합니다. [!UICONTROL **IMS 조직 ID**] 필드를 사용하여 필드의 내용을 복사한 다음, Adobe Experience Platform 계정의 ID를 사용하십시오. |
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
 
 +++
 

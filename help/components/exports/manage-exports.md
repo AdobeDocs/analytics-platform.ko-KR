@@ -5,18 +5,16 @@ title: 내보내기 관리
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 6%
 
 ---
 
 # 내보내기 관리
 
-{{select-package}}
-
-에 설명된 대로 전체 테이블을 내보낸 후 [클라우드로 Customer Journey Analytics 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 내보내기를 사용할 수 있습니다. [!UICONTROL 내보내기] 의 탭 [!UICONTROL 내보내기] 페이지를 가리키도록 업데이트하는 중입니다.
+에 설명된 대로 전체 테이블을 내보낸 후 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 내보내기를 사용할 수 있습니다. [!UICONTROL 내보내기] 의 탭 [!UICONTROL 내보내기] 페이지를 가리키도록 업데이트하는 중입니다.
 
 사용자가 만든 내보내기만 볼 수 있습니다.
 
@@ -38,7 +36,7 @@ ht-degree: 6%
 
    | 필터 | 설명 |
    |---------|----------|
-   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul>. |
+   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager 랜딩 영역**]</li></ul>. |
    | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료됨**]: 내보내기가 성공적으로 내보내기되었음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
    | [!UICONTROL **빈도**] | 내보내기가 발생하는 빈도. 다음 빈도를 사용할 수 있습니다. <ul><li>[!UICONTROL **1회**]</li><li>[!UICONTROL **일별**]</li><li>[!UICONTROL **주별**]</li><li>[!UICONTROL **월별**]</li><li>[!UICONTROL **연간**]</li></ul> |
 
@@ -128,10 +126,10 @@ ht-degree: 6%
 
    | 사용 가능한 열 | 설명 |
    |---------|----------|
-   | 이름 | 내보내기의 이름입니다. 사용자는에 설명된 대로 내보내기를 만들 때 이름을 지정합니다 [클라우드로 Customer Journey Analytics 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md). |
+   | 이름 | 내보내기의 이름입니다. 사용자는에 설명된 대로 내보내기를 만들 때 이름을 지정합니다 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md). |
    | ID | 내보낼 때 자동으로 할당되는 ID입니다. <!-- True? --> |
    | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 다음과 같습니다 [!UICONTROL 활성], [!UICONTROL 일시 중지됨], [!UICONTROL 완료됨], 및 [!UICONTROL 실패].<p> **참고:** 내보내기 실패 문제 해결에 대한 자세한 내용은 다음을 참조하십시오. [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md).</p> |
-   | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 내보내기를 만들 때 다음에 설명된 대로 데이터 보기를 선택할 수 있습니다. [클라우드로 Customer Journey Analytics 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md). |
+   | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 내보내기를 만들 때 다음에 설명된 대로 데이터 보기를 선택할 수 있습니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md). |
    | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 다음과 같습니다 [!UICONTROL 보류 중], [!UICONTROL 전달됨], 및 [!UICONTROL 실패]. |
    | 표 크기 (마지막 전송) | 마지막으로 전송된 내보내기 크기입니다. |
    | 작성자 | 내보내기를 만든 사용자입니다. |
