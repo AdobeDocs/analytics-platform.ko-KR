@@ -5,9 +5,9 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1551'
 ht-degree: 6%
 
 ---
@@ -189,8 +189,8 @@ ht-degree: 6%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **계정 식별자**] | 조직 내뿐만 아니라 Snowflake이 지원하는 클라우드 플랫폼 및 클라우드 지역의 글로벌 네트워크 전체에서 Snowflake 계정을 고유하게 식별합니다. <p>Snowflake 계정에서 계정 식별자를 가져온 다음 여기에 정보를 붙여넣어야 합니다.</p><p>이 정보를 얻을 수 있는 위치를 알아보려면 [Snowflake 설명서의 계정 식별자 페이지](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **사용자**] | 연결에 사용할 사용자의 로그인 이름입니다. 이는 특히 Adobe에 사용될 사용자입니다. 여기에 이름을 지정한 다음 같은 이름의 Snowflake 사용자를 만드십시오. <p>자세한 내용은 [Snowflake 설명서의 JDBC 드라이버 연결 매개 변수 참조 페이지](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **역할**] | 드라이버에서 시작한 Snowflake 세션에서 사용할 기본 액세스 제어 역할입니다. 이는 특히 Adobe 시 사용되는 역할입니다. 여기에 역할을 지정한 다음 Snowflake에서 동일한 이름의 역할을 만들고 읽기 및 쓰기 액세스 권한을 부여합니다.<p>자세한 내용은 [Snowflake 설명서의 JDBC 드라이버 연결 매개 변수 참조 페이지](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
+   | [!UICONTROL **사용자**] | 연결에 사용할 사용자의 로그인 이름입니다. 이는 특히 Adobe에 사용될 사용자입니다. 여기에 이름을 지정한 다음 같은 이름의 Snowflake 사용자를 만드십시오. <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **역할**] | 이는 특히 Adobe 시 사용되는 역할입니다. 여기에서 역할을 지정한 다음 Snowflake에서 동일한 이름의 역할을 만들고 사용자에게 역할을 부여합니다. <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
