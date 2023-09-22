@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1612'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합
 
 Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작업을 수행할 수 있습니다.
 
-* Google Cloud Platform, Microsoft Azure, Amazon S3, Snowflake 또는 Adobe Experience Platform과 같은 공유 위치로 내보냅니다.
+* Adobe Experience Platform 데이터 랜딩 영역, Google Cloud Platform, Microsoft Azure, Amazon S3 또는 Snowflake과 같은 공유 위치로 내보냅니다.
 
 * 대량의 내역 데이터를 저장합니다.
 

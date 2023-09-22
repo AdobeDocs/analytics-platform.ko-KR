@@ -1,13 +1,13 @@
 ---
 description: Customer Journey Analytics 데이터를 전송할 수 있는 클라우드 내보내기 위치 관리
 keywords: Analysis Workspace
-title: 클라우드 내보내기 위치 구성
+title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 5%
 
 ---
