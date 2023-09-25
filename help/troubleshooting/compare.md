@@ -5,10 +5,11 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+keywords: 쿼리 서비스;쿼리 서비스;sql 구문
+source-git-commit: 5caae6c8dd38eb5c6ef9cf02cdff965add75b312
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 64%
+source-wordcount: '866'
+ht-degree: 69%
 
 ---
 
@@ -52,19 +53,19 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 
-       &quot;
-       SELECT Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10)을 일, \
-       Count(_id) AS 레코드
-       출처:  {dataset} \
-       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;) \
-       AND 타임스탬프&lt;from_utc_timestamp span=&quot;&quot; id=&quot;14&quot; translate=&quot;no&quot; />&#39;,&#39;UTC&#39;) \
-       및 타임스탬프가 NULL이 아님 \
-       및 ENDUSERID.{toDate}_experience.aaid.id가 NULL이 아님 \
-       일별 그룹화 \
-       일별 순서
-       
-       &quot;
-   
+   ```sql
+   SELECT
+       Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) AS Day,
+       Count(_id) AS Records 
+   FROM  {dataset}
+   WHERE   timestamp >= from_utc_timestamp('{fromDate}','UTC')
+       AND timestamp < from_utc_timestamp('{toDate}','UTC')
+       AND timestamp IS NOT NULL
+       AND enduserids._experience.aaid.id IS NOT NULL
+   GROUP BY Day
+   ORDER BY Day; 
+   ```
+
 1. [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)에서 일부 행이 Analytics 소스 커넥터에 의해 필터링되었는지 여부를 원시 데이터에서 식별합니다.
 
    XDM 스키마로 변환하는 동안 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)가 특정 행을 필터링할 수 있습니다. 전체 행이 변환에 적합하지 않은 이유는 여러 가지가 있을 수 있습니다. 다음 Analytics 필드 중 하나라도 이러한 값이 포함된 경우 전체 행이 필터링됩니다.
