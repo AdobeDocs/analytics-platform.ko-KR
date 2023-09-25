@@ -4,9 +4,9 @@ description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
+source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 차트에 데이터를 추가합니다.
 
-* **[!UICONTROL 예외 항목 표시]**: 분석에서 예외 항목 탐지를 실행합니다. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
+* **[!UICONTROL 예외 항목 표시]**: 실행 [예외 항목 탐지](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 트렌드 분석. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
 
 ## 시간 비교 적용
 
