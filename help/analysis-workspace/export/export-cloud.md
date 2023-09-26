@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
@@ -69,7 +69,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
   이러한 유형의 데이터는 비즈니스 인텔리전스를 얻고 궁극적으로 더 나은 비즈니스 의사 결정을 이끌어내기 위해 장기적인 추세를 감지하는 데 사용할 수 있습니다.
 
-* 수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다. 다른 내보내기 방법을 사용하면 최대 50,000개의 행을 사용할 수 있습니다.
+* 수천 또는 수백만 개의 행(라이선스 유형에 따라 300만, 3000만 또는 1억 5000만 행)이 포함된 전체 테이블을 내보냅니다. 다른 내보내기 방법을 사용하면 최대 50,000개의 행을 사용할 수 있습니다.
 
 * 내보낸 Customer Journey Analytics 데이터에 계산된 지표를 포함합니다.
 
@@ -108,7 +108,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 다음 구성 요소는 지원되지 않으며, Analysis Workspace은 전체 테이블 내보내기를 수행할 때 테이블에서 해당 구성 요소를 제거하라는 메시지를 표시합니다.
 
-* 지표 정의에서 고급 함수를 사용하는 계산된 지표( 참조) [고급 함수](/help/components/calc-metrics/cm-adv-functions.md) 추가 정보)
+* 지표 정의에서 기본 또는 고급 함수를 사용하는 계산된 지표( 참조) [기본 함수](/help/components/calc-metrics/cm-functions.md) 및 [고급 함수](/help/components/calc-metrics/cm-adv-functions.md) 추가 정보)
 * 관리자가 제한한 구성 요소의 내보내기 제한( *데이터 보기에서 데이터 거버넌스 정책 필터링* 의 섹션 [레이블 및 정책](/help/data-views/data-governance.md) 추가 정보)
 * 보고서당 5개 이상의 차원과 5개의 지표(최대 5개의 차원과 5개의 지표가 지원됨)
 * 테이블 열:

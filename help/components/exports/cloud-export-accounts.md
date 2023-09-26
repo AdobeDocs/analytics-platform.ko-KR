@@ -5,10 +5,10 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -72,9 +72,9 @@ ht-degree: 6%
 
    <!-- add screen shot -->
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS 토큰을 사용하여 AEP 랜딩 영역에서 Analysis Workspace으로 내보낸 데이터에 액세스합니다. 데이터에 액세스하는 방법에 대해 알아보기&quot; |
+1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS 토큰을 사용하여 AEP 랜딩 영역에서 Analysis Workspace으로 내보낸 데이터에 액세스합니다. 데이터 액세스에 대해 알아보기&quot; |
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
@@ -98,7 +98,7 @@ ht-degree: 6%
 
 1. 의 내용을 복사합니다. [!UICONTROL **사용자 ARN**] 필드를 클립보드에 추가합니다. Adobe ARN(Amazon 리소스 이름)은 사용자가 제공합니다. Amazon S3 역할 ARN에서 생성한 정책에 이 사용자를 연결해야 합니다.
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 1. 의 내용을 복사합니다. [!UICONTROL **사용자**] 필드를 클립보드에 넣은 다음 사용자에게 Google Cloud Platform의 이 버킷에 파일을 업로드할 수 있는 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
@@ -150,7 +150,7 @@ ht-degree: 6%
 
 1. 아직 권한이 없는 경우 Azure SAS의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
@@ -176,7 +176,7 @@ ht-degree: 6%
 
 1. 아직 권한이 없는 경우 Azure RBAC의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 1. 의 내용을 복사합니다. [!UICONTROL **공개 키**] 필드를 클립보드에 추가합니다. 공개 키는 Adobe에서 제공합니다. Snowflake의 공개 키를 사용하여 Snowflake 계정에 연결합니다. 자세한 내용은 [Snowflake 설명서의 키 쌍 인증 및 키 쌍 회전 페이지](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
 
-1. [!UICONTROL **닫기**]&#x200B;를 선택합니다.
+1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
