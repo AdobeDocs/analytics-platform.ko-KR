@@ -4,16 +4,16 @@ description: Customer Journey Analytics를 통해 Experience Platform의 데이�
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 635527f32e69aa079c33735da674deb3f47c31ff
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 63bfed665e8f60c28442015367083e1529e5a2ea
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 91%
 
 ---
 
 # Customer Journey Analytics 개요
 
-Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Experience Platform의 데이터에 사용할 수 있는 Adobe의 차세대 Analytics 솔루션입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며, 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합되어 있습니다. **XDM(Experience Data Model)**&#x200B;을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. **Experience Query Services**&#x200B;를 사용하면 SQL 호환 도구와 프레임워크를 사용하여 모든 데이터를 쿼리하고 조작할 수 있습니다.
+Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Experience Platform의 데이터에 사용할 수 있는 Adobe의 차세대 Analytics 솔루션입니다. 데이터 분류, 필터링, 쿼리 및 시각화 작업을 할 수 있으며, 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 플랫폼의 기능과 결합되어 있습니다. **XDM(Experience Data Model)**&#x200B;을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. **Adobe Experience Platform 쿼리 서비스** SQL 호환 도구와 프레임워크를 사용하여 모든 데이터를 쿼리하고 조작할 수 있습니다.
 
 다음은 높은 수준의 Customer Journey Analytics 아키텍처입니다.
 
@@ -47,7 +47,7 @@ Customer Journey Analytics을 통해 다음과 같은 작업을 수행할 수 �
 * **분석가를 위한 데이터 과학의 강점 활용**: Customer Journey Analytics에서 일반 사용자는 데이터 과학을 사용하여 심도 있는 인사이트와 분석을 수행할 수 있습니다.
 * **온디맨드 보고를 사용하여 데이터 세트 시각화 및 상호 작용**: Analysis Workspace에서 몇 가지 기본 규칙을 준수하는 Adobe Experience Platform의 모든 데이터 세트를 사용할 수 있습니다.
 * **웹이 아닌 데이터 보기**: Analysis Workspace는 더 이상 &#39;히트&#39; 또는 &#39;이벤트&#39;에 대한 엄격한 정의로 제한되지 않습니다. 사용자 정의 스키마를 사용하여 데이터 및 정의를 완벽하게 제어할 수 있습니다.
-* **데이터 조작을 통해 정확하게 제어**: 업로드한 데이터를 변경하고, 데이터 세트를 만들고, 이를 Analysis Workspace로 가져옵니다. Adobe Experience Platform은 Experience Cloud Query Service를 통해 쿼리, 추출, 변환 및 로드 도구를 제공합니다.
+* **데이터 조작을 통해 정확하게 제어**: 업로드한 데이터를 변경하고, 데이터 세트를 만들고, 이를 Analysis Workspace로 가져옵니다. Adobe Experience Platform은 Experience Platform 쿼리 서비스를 통해 쿼리, 추출, 변환 및 로드 도구를 제공합니다.
 
 ## 사전 요구 사항
 
@@ -81,7 +81,7 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 데이터 수집에서 직접 SQL 액세스를 위해 Experience Platform의 여러 구성 요소는 Customer Journey Analytics에 중요하며, 이를 보완합니다.
 
-* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Query Service를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
+* [Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고 또는 Data Science Workspace에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Experience Platform 쿼리 서비스를 사용하여 데이터 분석 에코시스템을 구축하고 다양한 상호 작용 채널에서 소비자의 그림을 그릴 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
 * [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR):
 * [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR):
 * 개발자 옵션의 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ko-KR): Adobe Experience Platform에 사전 설치된 AI(인공 지능) 및 시스템 학습 모델을 사용하여 고객 여정의 다양한 부분에 영향을 줄 수 있습니다. 숨겨진 인사이트를 도출하여 고객 여정 전반에서 더 나은 예측을 하고, 가장 권장되는 다음 단계를 제안하거나 번거로운 프로세스를 자동화할 수 있습니다.
