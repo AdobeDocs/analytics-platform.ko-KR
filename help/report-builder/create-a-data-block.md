@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 1. **데이터 블록 만들기**&#x200B;를 클릭합니다.
 
-   ![](./assets/create_db.png)
+   ![데이터 블록 만들기 옵션을 보여 주는 스크린샷입니다.](./assets/create_db.png)
 
 1. **데이터 블록 위치**&#x200B;를 설정합니다.
 
@@ -41,13 +41,9 @@ ht-degree: 74%
 
 1. **다음**&#x200B;을 클릭합니다.
 
-   ![](./assets/choose_date_data_view3.png)
+   ![날짜 범위 옵션과 활성 다음 단추를 보여 주는 스크린샷입니다.](./assets/choose_date_data_view3.png)
 
    데이터 블록을 구성한 후 차원, 지표 및 필터를 선택하여 데이터 블록을 빌드할 수 있습니다. 차원, 지표 및 필터 탭은 테이블 빌더 창 위에 표시됩니다.
-<!--
-    ![](./assets/image9.png)
-  -->
-
 
 ## 데이터 블록 빌드
 
@@ -75,13 +71,13 @@ ht-degree: 74%
 
    테이블에 구성 요소를 추가하면 워크시트의 데이터 블록 위치에 데이터 블록 미리보기가 표시됩니다. 테이블에서 항목을 추가, 이동 또는 제거하면 데이터 블록 미리보기의 레이아웃이 자동으로 업데이트됩니다.
 
-   ![](./assets/image10.png)
+   ![추가된 구성 요소와 업데이트된 워크시트를 보여 주는 스크린샷입니다.](./assets/image10.png)
 
    **행 및 열 머리글 표시 또는 숨기기**
 
 1. 다음을 클릭합니다. **표** 설정 아이콘.
 
-   ![자리 표시자 이미지](./assets/table-settings.png){width="35%"}
+   ![테이블 설정 옵션을 보여 주는 스크린샷입니다.](./assets/table-settings.png){width="35%"}
 
 1. 행 및 열 머리글 표시 옵션을 선택하거나 선택 취소합니다. 기본적으로 헤더가 표시됩니다.
 
@@ -89,7 +85,7 @@ ht-degree: 74%
 
 1. 차원 또는 열 헤더에서 줄임표 아이콘을 클릭하여 설정을 표시합니다.
 
-   ![자리 표시자 이미지](./assets/row-heading.png){width="35%"}
+   ![행 섹션의 줄임표 아이콘.](./assets/row-heading.png){width="35%"}
 
 1. 차원 레이블이나 열 머리글을 전환하려면 숨기기 또는 표시 를 클릭합니다. 기본적으로 모든 레이블이 표시됩니다.
 
@@ -97,8 +93,8 @@ ht-degree: 74%
 
    분석 데이터를 검색하는 동안 처리 메시지가 표시됩니다.
 
-   ![](./assets/image11.png)
+   ![처리 메시지.](./assets/image11.png)
 
    Report Builder는 데이터를 검색하고 워크시트에 완료된 데이터 블록을 표시합니다.
 
-   ![](./assets/image12.png)
+   ![완료된 데이터 블록입니다.](./assets/image12.png)

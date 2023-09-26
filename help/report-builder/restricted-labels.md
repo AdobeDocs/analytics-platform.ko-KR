@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 60%
+source-wordcount: '341'
+ht-degree: 57%
 
 ---
 
@@ -34,10 +34,10 @@ Experience Platform이 사용하는 데이터 세트에 생성된 개인정보 �
 
 이 정책에 영향을 받는 구성 요소는 회색으로 표시됩니다. 정책이 적용되는 구성 요소에 마우스를 가져다 대면, 다음이 표시됩니다. **이 데이터 사용을 금지하는 정책이 이 필드에 적용됩니다.**&#x200B;자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html)을 참조하십시오.
 
-![](assets/rb-restricted-label.png)
+![금지된 데이터 사용을 보여 주는 정책 노트입니다.](assets/rb-restricted-label.png)
 
 ## 제한된 데이터가 포함된 보고서 업데이트
 
 사용자가 나중에 제한되는 데이터 요소로 Report Builder 보고서를 생성하면 보고서를 새로 고침할 때 오류 메시지가 표시됩니다.
 
-![](assets/error-restricted-data.png)
+![데이터 요소가 나중에 제한된 후에 표시되는 오류 메시지입니다.](assets/error-restricted-data.png)

@@ -1,15 +1,15 @@
 ---
-title: Report Builder에서 Dimension 필터링
+title: Report Builder에서 차원을 필터링하는 방법
 description: Customer Journey Analytics Report Builder에서 필터 차원을 사용하는 방법을 설명합니다.
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 98%
 
 1. 표에서 구성 요소 이름 옆에 있는&#x200B;**...** 아이콘을 클릭합니다.
 
-   ![](./assets/image27.png)
+   ![줄임표 아이콘 옵션](./assets/image27.png)
 
 1. 팝업 메뉴에서 **필터 차원**&#x200B;을 선택하여 **필터 차원** 창을 표시합니다.
 
 1. **최고 인기 항목** 또는 **특정**&#x200B;을 선택합니다.
 
-   ![](./assets/image28.png)
+   ![필터 차원 창에서 선택한 특정 옵션입니다.](./assets/image28.png)
 
 1. 선택한 필터 유형에 따라 적절한 옵션을 선택합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 
 최고 인기 항목 옵션을 사용하면 지표 값을 기반으로 차원 항목을 동적으로 필터링할 수 있습니다. 최고 인기 항목 필터링은 지표 값을 기반으로 순위가 가장 높은 차원 항목을 반환합니다. 기본적으로 처음 10개의 차원 항목이 나열되며 데이터 블록에 추가된 첫 번째 지표를 기준으로 정렬됩니다.
 
-![이미지 파일](./assets/image29.png)
+![가장 방문 빈도가 높은 옵션입니다.](./assets/image29.png)
 
 
 ### 페이지 및 행 옵션
@@ -92,7 +92,7 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 1. 드롭다운 목록에서 연산자를 선택합니다.
 
-   ![](./assets/image31.png)
+   ![연산자 목록입니다.](./assets/image31.png)
 
 1. 검색 필드에 값을 입력합니다.
 
@@ -114,14 +114,14 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 2. 기본 지표에서 화살표를 클릭합니다. 
 
-   ![](./assets/image30.png)
+   ![테이블 빌더 및 지표.](./assets/image30.png)
 
 
 ## 특정 필터링
 
 특정 옵션을 사용하면 각 차원에 대해 고정된 차원 항목 목록을 생성할 수 있습니다. **특정** 필터링 유형을 사용하여 필터에 포함할 정확한 차원 항목을 지정합니다. 목록이나 셀 범위에서 항목을 선택할 수 있습니다.
 
-![](./assets/image32.png)
+![특정 옵션 및 선택한 항목.](./assets/image32.png)
 
 ### 목록에서
 
@@ -129,7 +129,7 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
    **목록에서** 옵션을 선택하면 목록이 이벤트가 가장 많은 차원 항목으로 먼저 채워집니다.
 
-   ![](./assets/image33.png)
+   ![목록에서 옵션 및 사용 가능한 항목.](./assets/image33.png)
 
    **사용 가능한 항목** 목록은 이벤트가 가장 많은 차원 항목에서 가장 적은 이벤트 순으로 정렬됩니다.
 
@@ -137,9 +137,9 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 1. 지난 90일 간의 데이터에 포함되지 않은 항목을 검색하려면 **지난 6개월 동안의 항목 표시**&#x200B;를 클릭하여 검색을 확장합니다.
 
-   ![](./assets/image34.png)
+   ![최근 6개월 목록의 항목 표시.](./assets/image34.png)
 
-   지난 6개월 동안의 데이터가 로드된 후 Report Builder가 링크를&#x200B;**지난 18개월 동안의 항목 표시**&#x200B;로 업데이트합니다.
+   지난 6개월 동안의 데이터가 로드된 후 Report Builder이 링크를 로 업데이트합니다 **지난 18개월 동안의 항목 표시**.
 
 1. 차원 항목을 선택합니다.
 
@@ -151,7 +151,7 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
    목록에서 항목을 이동하려면 항목을 드래그 앤 드롭하거나 ...를 클릭하여 이동 메뉴를 표시합니다.
 
-   ![](./assets/image36.png)
+   ![차원 항목 목록입니다.](./assets/image36.png)
 
 1. **적용**&#x200B;을 클릭합니다
 
@@ -161,7 +161,7 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 **셀 범위에서** 옵션을 선택하여 일치시킬 차원 항목 목록이 포함된 셀 범위를 선택합니다.
 
-![](./assets/image37.png)
+![셀 범위에서 옵션과 필드를 사용하여 셀 범위를 선택합니다.](./assets/image37.png)
 
 셀 범위를 선택할 때 다음 제한 사항을 고려하십시오.
 
@@ -175,6 +175,6 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 **차원** 탭에서 차원 항목 목록을 보려면 차원 이름 옆에 있는 V자형 아이콘을 클릭합니다.
 
-![](./assets/dimensions_chevron.png)
+![Dimension 탭과 차원 목록.](./assets/dimensions_chevron.png)
 
 **테이블**&#x200B;에 항목을 드래그 앤 드롭하거나 항목 이름을 더블 클릭하여 **테이블** 빌더에 추가할 수 있습니다.

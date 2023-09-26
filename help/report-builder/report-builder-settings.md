@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 95%
+source-wordcount: '265'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Report Builder 설정을 변경하려면
 
 1. **적용**&#x200B;을 클릭합니다.
 
-   ![](./assets/image38.png)
+   ![적용 단추를 누릅니다.](./assets/image38.png)
 
 ## 오프라인 모드
 
@@ -51,7 +51,7 @@ Report Builder UI에서 사용되는 언어를 선택하려면
 
 1. **언어** 드롭다운 메뉴에서 언어를 선택합니다.
 
-   ![](./assets/image39.png)
+   ![언어 목록을 선택합니다.](./assets/image39.png)
 
 1. **적용을 클릭합니다.**
 

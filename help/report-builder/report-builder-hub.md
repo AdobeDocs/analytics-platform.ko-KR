@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Report Builder 허브를 사용하여 데이터 블록을 만들거나 업데이
 
 Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 편집 패널이 있습니다.
 
-<img src="./assets/hub51.png" width="50%"/>
+<img src="./assets/hub51.png" width="50%" alt="Report Builder 허브"/>
 
 
 ## 생성 및 관리 버튼
@@ -30,7 +30,7 @@ Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 �
 
 명령 패널을 사용하여 선택한 셀 또는 이전 작업과 호환되는 명령에 액세스합니다.
 
-![](./assets/hub1.png)
+![Report Builder 허브의 명령 패널](./assets/hub1.png)
 
 ### 명령
 
@@ -47,7 +47,7 @@ Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 �
 
 스프레드시트에서 하나 이상의 데이터 블록을 선택하면 Report Builder가 빠른 편집 패널을 표시합니다. 빠른 편집 패널을 사용하여 단일 데이터 블록의 매개변수를 변경하거나 동시에 여러 데이터 블록의 매개변수를 변경할 수 있습니다.
 
-![](./assets/hub2.png)
+![Report Builder의 빠른 편집 패널](./assets/hub2.png)
 
 빠른 편집 섹션을 사용하여 변경한 사항은 선택한 모든 데이터 블록에 적용됩니다.
 
@@ -59,7 +59,7 @@ Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 �
 
 데이터 보기를 변경하려면 드롭다운 메뉴에서 새 데이터 보기를 선택합니다.
 
-![](./assets/image16.png)
+![데이터 보기 드롭다운 메뉴를 표시하는 Report Builder 허브입니다.](./assets/image16.png)
 
 ### 날짜 범위
 

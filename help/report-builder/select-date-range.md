@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 선택한 날짜 범위에서 오늘을 제외할 수 있습니다.
 
-![](./assets/image17.png)
+![오늘 제외를 선택합니다.](./assets/image17.png)
 
 ## 달력 사용
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 
 날짜 범위를 반대로 설정하려면 먼저 종료 날짜를 클릭한 다음 시작 날짜를 클릭합니다.
 
-![](./assets/image18.png)
+![종료 날짜를 클릭한 다음 시작 날짜를 클릭합니다.](./assets/image18.png)
 
 ### 사전 설정 드롭다운 메뉴
 
@@ -76,7 +76,7 @@ ht-degree: 96%
 
 1. 시작 및/또는 종료 날짜에 대한 순환 표현식을 선택합니다.
 
-   ![](./assets/image19.png)
+   ![순환 날짜 사용 을 선택한 다음 순환 표현식을 선택합니다.](./assets/image19.png)
 
    **시작 날짜** — 일, 주, 월, 분기 또는 연도의 시작을 선택할 수 있습니다.
 
@@ -86,11 +86,11 @@ ht-degree: 96%
 
 1. 순환 기간으로 일, 주, 월, 분기 또는 연도를 선택합니다.
 
-   ![](./assets/image20.png)
+   ![현재 날짜를 선택합니다.](./assets/image20.png)
 
 1. 순환 날짜에서 일, 주, 월, 분기 또는 연도를 더하거나 뺍니다.
 
-   ![](./assets/image21.png)
+   ![현재 일에 14일을 더한 날짜를 선택합니다.](./assets/image21.png)
 
 1. 다음을 클릭하여 데이터 범위를 정의합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
    **사용자 정의 표현식 사용** 옵션을 선택하면 표준 순환 날짜 범위 컨트롤이 비활성화됩니다.
 
-   ![](./assets/custom_expression.png)
+   ![Use custom expression showing tm-1m to td-1d 를 선택합니다.](./assets/custom_expression.png)
 
 1. 사용자 정의 표현식을 입력합니다.
 
@@ -163,7 +163,7 @@ ht-degree: 96%
 
 날짜 범위는 워크시트 셀에 지정할 수 있습니다. **셀의 날짜 범위** 옵션을 사용하여 선택한 셀에서 데이터 블록 시작 및 종료 날짜를 선택합니다. **셀에서** 옵션을 선택하면 패널에 셀 위치를 입력할 수 있는 **From** 및 **To** 필드가 표시됩니다.
 
-![](./assets/image23.png)
+![셀 Sheet1!H4에서 Sheet1!I4까지 선택](./assets/image23.png)
 
 ## 오늘 제외
 

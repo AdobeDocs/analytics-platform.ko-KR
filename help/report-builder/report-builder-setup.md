@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -72,11 +72,11 @@ Report Builder 추가 기능을 다운로드하고 설치하려면
 
 Report Builder 추가 기능에 대한 승인을 요청하려면 IT 또는 보안 팀에 연락하십시오. 승인을 받은 후 Office 추가 기능 대화 상자에서 관리자 관리 탭을 선택합니다.
 
-![](./assets/image1.png)
+![Office 추가 기능 대화 상자의 관리 관리 탭](./assets/image1.png)
 
 Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭 아래의 Excel 리본에 표시됩니다.
 
-![](./assets/rb_app_icon.png)
+![Excel의 Report Builder 아이콘](./assets/rb_app_icon.png)
 
 ## Report Builder에 로그인
 
@@ -88,11 +88,11 @@ Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭
 
 1. Adobe Report Builder 도구 모음에서 **로그인**&#x200B;을 클릭합니다.
 
-   ![](./assets/rb_login.png)
+   ![Report Builder 로그인 단추를 클릭합니다.](./assets/rb_login.png)
 
 1. Adobe Experience ID 계정 정보를 입력합니다. 계정 정보는 Customer Journey Analytics 자격 증명과 일치해야 합니다.
 
-   ![](./assets/image4.png)
+   ![로그인 아이콘 및 조직](./assets/image4.png)
 
 로그인하면 로그인 아이콘과 조직이 패널 상단에 나타납니다.
 
@@ -104,7 +104,7 @@ Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭
 
 1. 사용 가능한 조직 목록에서 조직을 선택합니다. 액세스 권한이 있는 조직만 표시됩니다.
 
-   ![](./assets/image5.png)
+   ![액세스할 수 있는 조직 목록입니다.](./assets/image5.png)
 
 ## 로그아웃
 
@@ -114,6 +114,6 @@ Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭
 
 1. 아바타 아이콘을 클릭하면 사용자 프로필이 표시됩니다.
 
-   ![](./assets/image6.png)
+   ![사용자 프로필 아바타 및 로그아웃 버튼](./assets/image6.png)
 
 1. **로그아웃**&#x200B;을 클릭합니다.

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 90%
+source-wordcount: '1166'
+ht-degree: 84%
 
 ---
 
@@ -29,15 +29,15 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 1. Report Builder 허브의 예약 버튼을 클릭합니다.
 
-   ![](./assets/schedule-button.png){width="55%"}
+   ![[예약] 단추를 클릭하여 일정을 만듭니다.](./assets/schedule-button.png){width="55%"}
 
 1. 왼쪽 상단의 예약 통합 문서 또는 더하기 버튼을 클릭하여 새로운 예약된 통합 문서를 만듭니다.
 
-   ![대체 설명](./assets/schedule-workbook.png){width="55%"}
+   ![통합 문서 스케줄 창.](./assets/schedule-workbook.png){width="55%"}
 
    예약 창에는 통합 문서 이름과 통합 문서를 마지막으로 수정한 날짜 등 통합 문서에 대한 사전 정의된 일부 정보가 표시됩니다.
 
-   ![대체 설명](./assets/schedule-pane.png){width="55%"}
+   ![예약 창.](./assets/schedule-pane.png){width="55%"}
 
 1. (선택 사항) 파일 이름을 입력합니다.
 
@@ -51,13 +51,13 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
    이 항목을 선택하면 파일을 여는 암호를 입력하라는 메시지가 표시됩니다. 데이터 보안에 대한 우려가 있고 통합 문서를 암호로 보호하려는 경우 유용합니다. 암호로 파일을 보호하려면 **.zip 압축**&#x200B;을 선택해야 합니다. 암호는 문자 길이가 8자 이상이고 숫자와 특수 문자를 포함해야 합니다.
 
-   ![대체 설명](./assets/zip-compression.png){width="55%"}
+   ![암호 보호 통합 문서 필드에 암호를 입력합니다.](./assets/zip-compression.png){width="55%"}
 
 1. **수신자**&#x200B;를 입력합니다. 조직에서 인정받는 개인의 이름을 입력하거나 조직 내부 또는 외부 개인의 이메일 주소를 입력할 수 있습니다.
 
 1. 이메일의 **제목** 및 수신자에 대한 설명을 입력합니다. 제목에 통합 문서 파일 이름이 기본적으로 표시되지만 필요한 경우 제목을 수정할 수 있습니다. 설명 섹션의 세부 정보를 추가할 수 있습니다.
 
-   ![대체 설명](./assets/recipients-subject.png){width="55%"}
+   ![제목 필드에 제목을 입력합니다.](./assets/recipients-subject.png){width="55%"}
 
 1. 예약 옵션을 설정하여 통합 문서를 수신자에게 이메일로 보낼 날짜 및 시간을 설정합니다.
 
@@ -65,15 +65,15 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
    드롭다운 메뉴에서 **빈도**&#x200B;를 선택합니다. 특정 날짜의 빈도를 시간대별, 일일, 주간, 월간 또는 연간으로 설정할 수 있습니다. 예를 들어 일정을 설정하여 월요일 아침 수신자가 받은 편지함에서 가장 먼저 이메일을 수신할 수 있도록 매월 첫 번째 일요일 밤에 통합 문서를 전송할 수 있습니다.
 
-   ![대체 설명](./assets/frequency.png){width="55%"}
+   ![보고서를 예약할 빈도를 선택하십시오.](./assets/frequency.png){width="55%"}
 
 1. 일정이 설정되면 **일정에 따라 보내기**&#x200B;를 클릭합니다.
 
-   ![대체 설명](./assets/send-on-schedule.png){width="55%"}
+   ![일정에 따라 보내기 를 클릭합니다.](./assets/send-on-schedule.png){width="55%"}
 
    확인 알림은 Report Builder 허브 하단에 표시되고 예약된 통합 문서는 통합 문서 탭 아래에 표시됩니다.
 
-   ![대체 설명](./assets/confirmation-toast.png){width="55%"}
+   ![확인 알림](./assets/confirmation-toast.png){width="55%"}
 
 ## 한 번만 통합 문서 보내기
 
@@ -81,7 +81,7 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 1. **예약 옵션 표시**&#x200B;를 선택 취소합니다.
 
-   ![대체 설명](./assets/send-now.png){width="40%"}
+   ![통합 문서를 한 번 보내려면 예약 옵션 표시 선택 취소 를 클릭하십시오.](./assets/send-now.png){width="40%"}
 
 1. **지금 보내기**&#x200B;를 클릭합니다.
 
@@ -115,14 +115,14 @@ Report Builder 허브의 예약 작업 버튼을 사용하여 통합 문서 Exce
 
 검색 창 오른쪽에 있는 열 설정 아이콘을 클릭하여 내역 탭에 표시할 열을 선택할 수 있습니다.
 
-![대체 설명](./assets/history.png){width="55%"}
+![열 아이콘을 클릭하여 특정 열을 표시하거나 숨깁니다.](./assets/history.png){width="55%"}
 
 통합 문서 탭으로 이동하고, 통합 문서를 선택하고, 내역 아이콘을 클릭하여 예약된 단일 통합 문서의 내역만 조회하도록 내역을 필터링할 수 있습니다.
 
 통합 문서 탭에서 특정 통합 문서의 내역을 조회할 수도 있습니다. 통합 문서 탭에서 통합 문서를 선택한 다음 내역 아이콘을 클릭합니다.
 
-![대체 설명](./assets/history2.png){width="55%"}
+![통합 문서 내역 아이콘](./assets/history2.png){width="55%"}
 
 그러면 내역 상단에 통합 문서 필터가 표시됩니다. 예약된 모든 작업의 내역을 다시 조회하려면 필터 옆 x를 클릭합니다.
 
-![대체 설명](./assets/history3.png){width="55%"}
+![통합 문서 필터.](./assets/history3.png){width="55%"}
