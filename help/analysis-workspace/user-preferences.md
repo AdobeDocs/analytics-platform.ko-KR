@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 322f5a10b928a9bf679954aa1fe6415340ec675b
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 74%
+source-wordcount: '3192'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 74%
 
    * [IMS 조직 환경 설정](#ims-organization-preferences)
 
-   * [프로젝트 환경 설정](#project-preferences)
+   * [프로젝트 및 분석 환경 설정](#project-preferences)
 
    * [자유 형식 테이블 환경 설정](#freeform-table-preferences)
 
@@ -54,16 +54,16 @@ ht-degree: 74%
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **프로젝트 공유** | | |
-| | 작업 공간 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;모든 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는에 설명된 대로 조직에 Analysis Workspace 계정이 없는 사람들과 프로젝트를 공유할 수 없습니다 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p><p>이 옵션은 Healthcare Shield 라이선스가 부여된 고객을 제외한 모든 조직(사용자가 조직 외부의 사용자와 프로젝트를 공유할 수 있음을 의미)에 대해 기본적으로 비활성화되어 있습니다. </p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화(Workspace 사용자와의 공유만 허용)된 후 나중에 비활성화(모든 사람과 공유 허용)된 경우 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**Healthcare Shield를 라이선스하는 고객의 경우:** 이 옵션은 기본적으로 활성화되어 있으며 비활성화할 수 없습니다. 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 다음을 추가해야 합니다. [!UICONTROL **누구와도 프로젝트 링크 공유**] 권한(위치: [!UICONTROL **보고 도구**] Adobe Admin Console )을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 최종 법적 통지에 동의할 수 있습니다. Admin Console에 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
-| | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;모든 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되고 프로젝트를 공유하는 사용자는 이 옵션을 비활성화할 수 없습니다. (사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션과 공유되었지만 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 필요)한 다음 나중에 비활성화(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 &quot;모든 사용자와 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 &quot;링크가 활성화됨&quot; 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 조직에서 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화할 수 있는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성되어 있는 경우 콘솔에서 자동 계정 만들기 유형이 구현되는지 확인하십시오. 일반적으로 시스템 관리자는에 설명된 대로 이 설정을 수행합니다 [자동 계정 만들기 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직에서 Healthcare Shield를 라이선스할 경우 이 옵션은 기본적으로 활성화되어 있으며 비활성화할 수 없습니다.</p></li></ul> |
+| | 작업 영역 사용자와의 공유만 허용 | <p>이 옵션이 활성화되면 공유 메뉴에서 조직의 사용자에게 “모두와 공유” 옵션이 표시되지 않습니다. 즉, [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 사용자는 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다.</p><p>이 옵션은 Healthcare Shield 라이선스가 부여된 고객을 제외한 모든 조직(사용자가 조직 외부의 사용자와 프로젝트를 공유할 수 있음을 의미)에 대해 기본적으로 비활성화되어 있습니다. </p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 “모두와 공유” 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션을 활성화(Workspace 사용자와만 공유 허용)한 다음 나중에 비활성화(모두와 공유 허용)하더라도 이전에 “모두와 공유” 공유 옵션을 통해 프로젝트 액세스 권한을 부여받았던 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유([!UICONTROL **공유**] > [!UICONTROL **모두와 공유**])할 때 사용할 수 있는 [!UICONTROL **링크 활성화됨**] 옵션을 활성화해야 합니다.</p></li><li><p>**Healthcare Shield를 라이선스하는 고객의 경우:** 이 옵션은 기본적으로 활성화되어 있으며 비활성화할 수 없습니다. 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 다음을 추가해야 합니다. [!UICONTROL **누구와도 프로젝트 링크 공유**] 권한(위치: [!UICONTROL **보고 도구**] Adobe Admin Console )을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 최종 법적 통지에 동의할 수 있습니다. Admin Console에 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
+| | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 “모두와 공유” 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 “모두와 공유” 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 “Experience Cloud 인증 필요” 옵션이 활성화되며, 프로젝트를 공유하는 사용자가 이를 비활성화할 수 없습니다. (사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오.)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 “모두와 공유” 공유 옵션으로 공유되었고 “Experience Cloud 인증 필요” 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 요구)한 다음 나중에 비활성화(링크가 있는 모두가 프로젝트에 액세스할 수 있도록 허용)하더라도 이전에 “모두와 공유” 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 “링크 활성화됨” 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **모두와 공유**] > [!UICONTROL **링크 활성화됨**]).</p></li> <li><p>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html){target=_blank}에 설명된 대로 이를 설정합니다.</p></li><li><p>조직에서 Healthcare Shield를 라이선스할 경우 이 옵션은 기본적으로 활성화되어 있으며 비활성화할 수 없습니다.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## 프로젝트 환경 설정
+## 프로젝트 및 분석 환경 설정
 
-Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
+모든 새 Analysis Workspace 프로젝트, 새 Analysis Workspace 패널 및 새로운 안내식 분석에 대해 이러한 환경 설정을 사용자 지정할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
-[프로젝트 개요](/help/analysis-workspace/build-workspace-project/freeform-overview.md)의 설명에 따라 개별 프로젝트에 맞게 동일한 환경 설정 중 일부를 사용자 정의할 수도 있습니다.
+이러한 동일한 환경 설정 중 일부는에 설명된 대로 Analysis Workspace의 개별 프로젝트에 대해 사용자 지정할 수도 있습니다. [프로젝트 개요](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 각 환경 설정에 대한 자세한 내용과 컨텍스트를 보려면 링크된 환경 설정 제목을 클릭합니다.
 
@@ -71,7 +71,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 | --- | --- | --- |
 | **표시** | | |
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li>Adobe 제공 팔레트 (기본값)</li><li>조건부 서식 팔레트 </li><li>위/아래 팔레트 (분기)<li>사용자 정의 팔레트</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace 및 안내식 분석에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주 팔레트: Analysis Workspace 및 안내식 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주별 값을 나타냅니다. Adobe 제공 옵션 중에서 선택하거나, 쉼표로 구분된 16진수 값으로 정의된 사용자 지정 팔레트를 입력하십시오.</li><li> Divergent 팔레트: Analysis Workspace 및 사용자 성장 가이드를 통한 분석의 집단 테이블에 적용됩니다. 이 팔레트에는 두 가지 극단의 숫자 의미와 중간에 기준선이 있습니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 안내가 있는 분석에 적용됩니다. 이 팔레트는 밝은 색에서 어두운 색에 대한 숫자 의미를 포함합니다.</li></ul> |
 | **데이터** | | |
 |  | [데이터 보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
@@ -147,8 +147,6 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
 | | 백분율 반올림 | 백분율 값을 소수 값으로 표시하지 않고 가장 가까운 정수로 반올림합니다. |
 | | 평균 백분율 행 표시 | 테이블의 맨 위에 새 행을 삽입한 다음 각 열 내의 값에 대한 평균을 추가합니다. |
-| | 집단 미리보기 | 색상 팔레트가 집단 시각화에 어떻게 표시되는지 미리보기. |
-| | 코호트 팔레트 | 집단 시각화에 사용되는 색상 팔레트. |
 | **[콤보 차트](/help/analysis-workspace/visualizations/combo-charts.md)** | | |
 | | X축 표시 | 콤보 차트에 X축을 표시합니다. |
 | | Y축 표시 | 콤보 차트에 Y축을 표시합니다. |
