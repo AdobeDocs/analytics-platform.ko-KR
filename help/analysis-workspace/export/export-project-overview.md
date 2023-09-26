@@ -5,7 +5,7 @@ title: 프로젝트 데이터 내보내기 개요
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,4 +39,5 @@ Analysis Workspace에서 내보낼 때 사용할 수 있는 메서드는 다양�
 | [클라우드 애플리케이션으로 보내기](/help/analysis-workspace/export/export-cloud.md) | 다음 작업을 수행하려면 이 메서드를 사용하십시오. <ul><li>Adobe Experience Platform 데이터 랜딩 영역, Google Cloud Platform, Microsoft Azure, Amazon S3 또는 Snowflake과 같은 공유 위치로 내보냅니다.</li><li>애드혹 또는 일정에 포함될 수 있습니다.</li><li>더 많은 양의 Customer Journey Analytics 데이터를 저장합니다.</li><li>수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
+
 

@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1716'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Customer Journey Analytics에서 작업 영역 전체 테이블을 내보내고 
 
 >[!NOTE]
 >
->이 섹션에 설명된 대로 데이터를 내보내려면 먼저 테이블이 [내보내기 요구 사항](#export-requirements).
+>이 섹션에 설명된 대로 데이터를 내보내려면 먼저 [내보내기 요구 사항](#export-requirements) 충족됩니다.
 
 Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합니다.
 
@@ -85,9 +85,13 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 ### 최소 요구 사항
 
-전체 테이블 내보내기를 지원하려면 테이블에 행에 하나 이상의 차원이 포함되어야 하며 각 열에 하나의 지표가 있어야 합니다.
+테이블, 환경 및 권한이 다음 요구 사항을 충족하는지 확인하십시오.
 
-관리자는에 나열된 IP 주소를 확인해야 합니다. [Customer Journey Analytics에서 사용하는 IP 주소](/help/admin/ip-addresses.md) 방화벽 허용 목록에 포함됩니다.
+* **표:** 전체 테이블 내보내기로 지원하려면 모든 테이블에 행에 하나 이상의 차원이 포함되어야 하며 각 열에 하나의 지표가 있어야 합니다.
+
+* **환경:** 관리자는에 나열된 IP 주소를 확인해야 합니다. [Customer Journey Analytics에서 사용하는 IP 주소](/help/admin/ip-addresses.md) 방화벽 허용 목록에 포함됩니다.
+
+* **권한:** Adobe Admin Console에서 사용자에게 가 있는 제품 프로필을 할당해야 합니다. [!UICONTROL **전체 테이블 내보내기**] 전체 테이블을 내보내기 위해 할당된 권한. Admin Console의 제품 프로필에 권한을 할당하는 방법에 대한 자세한 내용은 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 위치: [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
 ### 지원되지 않는 기능
 

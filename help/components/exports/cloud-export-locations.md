@@ -5,9 +5,9 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1082'
 ht-degree: 5%
 
 ---
@@ -118,9 +118,9 @@ ht-degree: 5%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **DB**] | 지정한 데이터베이스는 지정한 기본 역할에 권한이 있는 기존 데이터베이스여야 합니다.<p>스테이지 이름과 연관된 데이터베이스입니다.</p> <p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **스키마**] | 지정된 스키마는 지정된 기본 역할에 권한이 있는 기존 스키마여야 합니다.<p>단계 이름과 연결된 스키마입니다.</p><p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **단계 이름**] | 데이터 파일이 Snowflake에 저장되는 단계의 이름입니다. <p>계정에서 지정한 역할에 이 단계 이름에 대한 읽기 및 쓰기 권한이 있는지 확인하십시오. (읽기 및 쓰기 액세스 권한을 부여하므로 Adobe 시에만 사용되는 단계를 사용하는 것이 좋습니다.) <p>롤에 권한을 부여하는 방법에 대한 자세한 내용은 [Snowflake 설명서에서 권한 부여](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>스테이지 이름에 대한 자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | 지정한 데이터베이스는 기존 데이터베이스여야 합니다. 생성한 롤은 이 데이터베이스에 액세스할 수 있는 권한이 있어야 합니다.<p>스테이지 이름과 연관된 데이터베이스입니다.</p><p>다음 명령을 사용하여 Snowflake의 데이터베이스에 이 롤 권한을 부여할 수 있습니다. `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **스키마**] | 지정된 스키마는 기존 스키마여야 합니다. 이 스키마에 액세스하려면 만든 역할에 권한이 있어야 합니다.<p>단계 이름과 연결된 스키마입니다.<p>다음 명령을 사용하여 Snowflake의 스키마에 대한 권한을 생성한 롤에 부여할 수 있습니다. `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **단계 이름**] | 데이터 파일이 Snowflake에 저장되는 내부 단계의 이름입니다.<p>계정에서 지정한 역할에 이 단계 이름에 대한 읽기 및 쓰기 권한이 있는지 확인하십시오. (읽기 및 쓰기 액세스 권한을 부여하므로 Adobe 시에만 사용되는 단계를 사용하는 것이 좋습니다.)<p>다음 명령을 사용하여 Snowflake의 단계 이름에 읽기 및 쓰기 액세스 권한을 부여할 수 있습니다. `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>롤에 권한을 부여하는 방법에 대한 자세한 내용은 [Snowflake 설명서에서 권한 부여](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>스테이지 이름에 대한 자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **단계 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
