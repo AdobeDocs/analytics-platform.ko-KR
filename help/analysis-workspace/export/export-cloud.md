@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1853'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,35 @@ Customer Journey Analytics에서 작업 영역 전체 테이블을 내보내고 
 
 에 설명된 대로 Customer Journey Analytics 보고서를 내보내는 다른 방법도 사용할 수 있습니다 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md).
 
+## 전체 테이블 내보내기 이해
+
+Analysis Workspace에서 Google, Azure, Amazon 및 Adobe과 같은 클라우드 공급자로 전체 테이블을 내보낼 수 있습니다.
+
+[전체 테이블을 클라우드로 내보내는 이점](#advantages-of-exporting-to-the-cloud) 수백만 개의 행을 내보내고, 계산된 지표를 포함하고, 연결된 값으로 데이터 출력을 구조화하는 등의 기능이 포함됩니다.
+
+전체 테이블을 내보낼 때 다음 사항을 고려하십시오.
+
+* 클라우드로 내보내기 전에 테이블, 환경 및 권한이 [내보내기 요구 사항](#export-requirements).
+
+* 일부 [기능](#unsupported-features) 및 [구성 요소](#unsupported-components) 는 전체 테이블을 클라우드로 내보낼 때 지원되지 않습니다.
+
+전체 테이블을 클라우드로 내보낼 때 다음 프로세스를 사용하십시오.
+
+1. [클라우드 계정 구성](/help/components/exports/cloud-export-accounts.md)
+
+1. [계정에서 위치 구성](/help/components/exports/cloud-export-locations.md)
+
+1. [작업 영역에서 전체 표 내보내기](#export-full-tables-from-analysis-workspace)
+
+1. [클라우드에서 데이터 액세스](#view-exported-data-and-manifest-file) 및 [Adobe에서 내보내기 관리](/help/components/exports/manage-exports.md)
+
+![전체 테이블 내보내기 프로세스](assets/export-full-table-process.png)
+
 ## Analysis Workspace에서 전체 테이블 내보내기
 
 >[!NOTE]
 >
->이 섹션에 설명된 대로 데이터를 내보내려면 먼저 [내보내기 요구 사항](#export-requirements) 충족됩니다.
+>이 섹션에 설명된 대로 데이터를 내보내기 전에 [전체 테이블 내보내기 이해](#understand-full-table-export) 위의 섹션.
 
 Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합니다.
 
@@ -58,6 +82,38 @@ Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합
    데이터는 지정한 빈도로 지정한 클라우드 계정으로 전송됩니다.
 
 1. (선택 사항) 내보내기를 만든 후에 지금 보내도록 선택했는지 정의된 일정에 따라 보내도록 선택했는지에 관계없이 [내보내기 페이지](/help/components/exports/manage-exports.md) 및 다음에서 보기: [로그 내보내기](/help/components/exports/manage-export-logs.md).</p>
+
+## 내보내기 관리
+
+Analysis Workspace에서 데이터를 내보낸 후에 설명된 대로 기존 내보내기를 편집, 재내보내기, 복제, 태그 지정 또는 삭제할 수 있습니다. [내보내기 관리](/help/components/exports/manage-exports.md).
+
+## 내보낸 데이터 및 매니페스트 파일 보기
+
+### 내보낸 데이터
+
+내보낸 데이터는에 설명된 대로 구성한 클라우드 대상에서 압축 파일로 사용할 수 있습니다 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
+
+압축 파일의 파일 이름은 파일 형식으로 CSV 또는 JSON을 선택했는지 여부에 따라 다음과 같습니다.
+
+* `cja-export-{reportInstanceId}-{idx}.csv.gz`
+
+* `cja-export-{reportInstanceId}-{idx}.json.gz`
+
+>[!NOTE]
+>
+>파일 형식은 [!UICONTROL **파일 형식**] 에 설명된 대로 테이블을 내보낼 때 필드 [Analysis Workspace에서 전체 테이블 내보내기](#export-full-tables-from-analysis-workspace).
+
+### 매니페스트 파일
+
+파일 이름이 인 매니페스트 파일 `cja-export-{reportInstanceId}-{idx}.json.gz` 하나 이상의 파일이 포함된 성공적인 내보내기 게재에 포함됩니다. 매니페스트 파일을 사용하면 모든 파일이 성공적으로 배달되었는지 확인할 수 있습니다. 여기에는 다음 정보가 포함됩니다.
+
+* 게재된 모든 파일 목록
+
+* 각 파일의 크기
+
+* 각 파일의 타임스탬프
+
+<!-- add in  what the file name, structure, and file format will be -->
 
 ## 클라우드로 내보내기의 장점
 
@@ -141,38 +197,6 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
   >[!NOTE]
   >
   >다차원 보고서는 이 문서에 설명된 대로 데이터를 클라우드로 내보낼 때만 지원됩니다.
-
-## 내보내기 관리
-
-Analysis Workspace에서 데이터를 내보낸 후에 설명된 대로 기존 내보내기를 편집, 재내보내기, 복제, 태그 지정 또는 삭제할 수 있습니다. [내보내기 관리](/help/components/exports/manage-exports.md).
-
-## 내보낸 데이터 및 매니페스트 파일 보기
-
-### 내보낸 데이터
-
-내보낸 데이터는에 설명된 대로 구성한 클라우드 대상에서 압축 파일로 사용할 수 있습니다 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
-
-압축 파일의 파일 이름은 파일 형식으로 CSV 또는 JSON을 선택했는지 여부에 따라 다음과 같습니다.
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->파일 형식은 [!UICONTROL **파일 형식**] 에 설명된 대로 테이블을 내보낼 때 필드 [Analysis Workspace에서 전체 테이블 내보내기](#export-full-tables-from-analysis-workspace).
-
-### 매니페스트 파일
-
-파일 이름이 인 매니페스트 파일 `cja-export-{reportInstanceId}-{idx}.json.gz` 하나 이상의 파일이 포함된 성공적인 내보내기 게재에 포함됩니다. 매니페스트 파일을 사용하면 모든 파일이 성공적으로 배달되었는지 확인할 수 있습니다. 여기에는 다음 정보가 포함됩니다.
-
-* 게재된 모든 파일 목록
-
-* 각 파일의 크기
-
-* 각 파일의 타임스탬프
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## 전체 테이블 내보내기(Customer Journey Analytics) 대 Data Warehouse(Adobe Analytics) 비교
 
