@@ -5,9 +5,9 @@ title: 내보내기 관리
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: a95be4cf8e11b7b62f6777abe8884779cfebf482
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
 
    | 필터 | 설명 |
    |---------|----------|
-   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **Adobe Experience Manager 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **Adobe Experience Platform 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료됨**]: 내보내기가 성공적으로 내보내기되었음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
    | [!UICONTROL **빈도**] | 내보내기가 발생하는 빈도. 다음 빈도를 사용할 수 있습니다. <ul><li>[!UICONTROL **1회**]</li><li>[!UICONTROL **일별**]</li><li>[!UICONTROL **주별**]</li><li>[!UICONTROL **월별**]</li><li>[!UICONTROL **연간**]</li></ul> |
 
