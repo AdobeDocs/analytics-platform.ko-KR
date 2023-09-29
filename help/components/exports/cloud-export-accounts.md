@@ -5,9 +5,9 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1600'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 1. 다음에서 [!UICONTROL **위치 계정 설명**] 필드에서는 동일한 계정 유형의 다른 계정과 구별할 수 있도록 계정에 대한 간단한 설명을 제공합니다.
 
-1. 다음에서 [!UICONTROL **계정 유형**] 필드에서 내보내려는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 역할 ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake 및 Adobe Experience Platform 데이터 랜딩 영역입니다.
+1. 다음에서 [!UICONTROL **계정 유형**] 필드에서 내보내려는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 역할 ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake 및 AEP 데이터 랜딩 영역입니다.
 
 1. 에 해당하는 아래 섹션을 계속합니다. [!UICONTROL **계정 유형**] 을(를) 선택했습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
    * [Snowflake](#snowflake)
 
-### Adobe Experience Platform 데이터 랜딩 영역
+### AEP 데이터 랜딩 영역
 
 >[!IMPORTANT]
 >

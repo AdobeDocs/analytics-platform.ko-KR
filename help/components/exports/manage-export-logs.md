@@ -5,9 +5,9 @@ title: 내보내기 로그 관리
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '708'
 ht-degree: 6%
 
 ---
@@ -69,11 +69,15 @@ This option is not available when selecting multiple logs. -->
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 
-1. 다음 항목 선택 [!UICONTROL **로그**] 탭을 선택한 다음 로그를 선택합니다.
+1. 다음 항목 선택 [!UICONTROL **로그**] 탭.
 
-   <!-- add screenshot? -->
+1. 편집할 내보내기와 관련된 로그를 찾습니다.
 
-1. 선택 [!UICONTROL **편집**].
+1. 다음 항목 선택 **내보내기 편집** 아이콘 ![로그 내보내기 아이콘](assets/export-icon.png) 로그 옆에 있습니다.
+
+   또는
+
+   로그를 선택한 다음 를 선택합니다. [!UICONTROL **내보내기 편집**].
 
 ## 열 구성
 
