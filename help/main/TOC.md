@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: dab672e07ddf834701279e108ad2daab1ad94efa
 workflow-type: tm+mt
 source-wordcount: '1023'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 82%
          + [계산된 지표를 즐겨찾기로 표시](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [계산된 지표 복사](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [함수 사용](../components/calc-metrics/cm-workflow/cm-using-functions.md)
-         + [계산된 지표에 태그 지정](../components/calc-metrics/cm-workflow/cm-tagging.md)
+         + [계산된 지표 태그 지정](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [계산된 지표 승인](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [계산된 지표 공유](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [계산된 지표 관리자](../components/calc-metrics/cm-workflow/cm-manager.md)
