@@ -5,9 +5,10 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -58,21 +59,13 @@ ht-degree: 5%
 
 1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
 
-1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에는 다음 정보가 표시됩니다.
-
-   | 필드 | 함수 |
-   |---------|----------|
-   | [!UICONTROL **IMS 조직 ID**] | IMS 조직 ID는 Adobe에서 제공합니다. 이 정보는 일반적으로 필요하지 않습니다. 계정에 문제가 발생하여 고객 지원 센터에 문의해야 하는 경우 유용할 수 있습니다. |
-
-   {style="table-layout:auto"}
-
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
    <!-- add screen shot -->
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS 토큰을 사용하여 AEP 랜딩 영역에서 Analysis Workspace으로 내보낸 데이터에 액세스합니다. 데이터 액세스에 대해 알아보기&quot; |
+1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS 토큰을 사용하여 AEP 랜딩 영역에서 Analysis Workspace으로 내보낸 데이터에 액세스합니다.
 
 1. 선택 [!UICONTROL **확인**].
 
@@ -215,6 +208,3 @@ ht-degree: 5%
 1. 선택 [!UICONTROL **확인**].
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
-
-
-

@@ -5,10 +5,11 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 3%
+source-wordcount: '1924'
+ht-degree: 4%
 
 ---
 
@@ -110,9 +111,7 @@ Analysis Workspace에서 데이터를 내보낸 후에 설명된 대로 기존 �
 
 * 게재된 모든 파일 목록
 
-* 각 파일의 크기
-
-* 각 파일의 타임스탬프
+* 각 파일의 MD5 체크섬
 
 <!-- add in  what the file name, structure, and file format will be -->
 
@@ -126,7 +125,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
   이러한 유형의 데이터는 비즈니스 인텔리전스를 얻고 궁극적으로 더 나은 비즈니스 의사 결정을 이끌어내기 위해 장기적인 추세를 감지하는 데 사용할 수 있습니다.
 
-* 수천 또는 수백만 개의 행(라이선스 유형에 따라 300만, 3000만 또는 1억 5000만 행)이 포함된 전체 테이블을 내보냅니다. 다른 내보내기 방법을 사용하면 최대 50,000개의 행을 사용할 수 있습니다.
+* 수천 또는 수백만 개의 행(라이선스 유형에 따라 300만, 3000만, 1억 5000만 또는 3억 개의 행)이 포함된 전체 테이블을 내보냅니다. 다른 내보내기 방법을 사용하면 최대 50,000개의 행을 사용할 수 있습니다.
 
 * 내보낸 Customer Journey Analytics 데이터에 계산된 지표를 포함합니다.
 
