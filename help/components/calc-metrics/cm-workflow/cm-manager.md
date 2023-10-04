@@ -3,10 +3,10 @@ description: 계산된 지표 관리자는 공유, 필터링, 태깅, 승인, �
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: ba8aa82454e51218f667d0358c7e88934fa7aad9
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 14%
+source-wordcount: '634'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 
 * [계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 
-* [계산된 지표에 태그 지정](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
+* [계산된 지표 태그 지정](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
 
 * [계산된 지표 공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md)
 
@@ -63,7 +63,7 @@ ht-degree: 14%
    | 태그 | 사용자 또는 사용자와 계산된 지표를 공유한 사람이 지표에 적용한 태그를 표시합니다. |
    | 다음 사용자와 공유 | 계산된 지표를 공유한 개인 또는 그룹 (관리자만) 또는 모두 (관리자만)를 표시합니다. <p>계산된 지표가 공유되면 계산된 지표 이름 옆에 공유 아이콘이 표시됩니다.</p> |
    | 수정한 날짜 | 사용자 지정 지표를 마지막으로 수정한 날짜를 나타냅니다. |
-   | 다음에서 사용됨 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md).<p>계산된 지표가에서 현재 사용 중인 구성 요소의 수를 표시합니다. <p>예를 들어 계산된 지표가 40개의 프로젝트 및 2개의 경고에서 사용 중인 경우 이 열의 값은 로 표시됩니다. [!UICONTROL **42개 구성 요소**].</p> <p>이 열의 값을 선택하여 계산된 지표가 사용되는 곳의 분류를 확인합니다(예: [!UICONTROL **프로젝트 (40)**], [!UICONTROL **경고 (2)**]).</p><p>계산된 지표는 다음 구성 요소 유형 중 하나에서 사용할 수 있습니다.</p> <ul><li>프로젝트</li><li>예약된 프로젝트</li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</p><p>다음을 사용할 수 있습니다. [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md) 이 정보와 함께 구성 요소가 조직에서 어떻게 사용되는지 추적하고 더 잘 이해하는 데 도움이 됩니다.</p><p>다음 [!UICONTROL **다음에서 사용됨**] 열은 기본적으로 표시되지 않습니다. [열 구성](#configure-columns) 표시합니다.</p> |
-   | 마지막 사용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md).<p>다음 구성 요소 유형에서 계산된 지표가 마지막으로 사용된 날짜를 표시합니다.</p> <ul><li>계산된 지표</li><li>프로젝트</li><li>예약된 프로젝트</li></ul> <p>이 정보는 구성 요소가 조직의 사용자에게 중요한지 또는 삭제해야 하는지 여부를 결정하는 데 도움이 될 수 있습니다.</p><p>이 정보에는 API 또는 Report Builder의 사용이 포함되지 않습니다.</p><p>다음을 사용할 수 있습니다. [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md) 이 정보와 함께 구성 요소가 조직에서 어떻게 사용되는지 추적하고 더 잘 이해하는 데 도움이 됩니다. |
+   | 다음에서 사용 | 계산된 지표가에서 현재 사용 중인 구성 요소의 수를 표시합니다. <p>예를 들어 계산된 지표가 40개의 프로젝트 및 2개의 경고에서 사용 중인 경우 이 열의 값은 로 표시됩니다. [!UICONTROL **42개 구성 요소**].</p> <p>이 열의 값을 선택하여 계산된 지표가 사용되는 곳의 분류를 확인합니다(예: [!UICONTROL **프로젝트 (40)**], [!UICONTROL **경고 (2)**]).</p><p>계산된 지표는 다음 구성 요소 유형 중 하나에서 사용할 수 있습니다.</p> <ul><li>프로젝트</li><li>예약된 프로젝트</li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</p><p>다음을 사용할 수 있습니다. [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md) 이 정보와 함께 구성 요소가 조직에서 어떻게 사용되는지 추적하고 더 잘 이해하는 데 도움이 됩니다.</p><p>다음 [!UICONTROL **다음에서 사용됨**] 열은 기본적으로 표시되지 않습니다. [열 구성](#configure-columns) 표시합니다.</p> |
+   | 마지막 사용 | 다음 구성 요소 유형에서 계산된 지표가 마지막으로 사용된 날짜를 표시합니다. <ul><li>계산된 지표</li><li>프로젝트</li><li>예약된 프로젝트</li></ul> <p>이 정보는 구성 요소가 조직의 사용자에게 중요한지 또는 삭제해야 하는지 여부를 결정하는 데 도움이 될 수 있습니다.</p><p>이 정보에는 API 또는 Report Builder의 사용이 포함되지 않습니다.</p><p>다음을 사용할 수 있습니다. [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md) 이 정보와 함께 구성 요소가 조직에서 어떻게 사용되는지 추적하고 더 잘 이해하는 데 도움이 됩니다. |
 
    {style="table-layout:auto"}

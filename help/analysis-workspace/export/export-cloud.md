@@ -3,10 +3,8 @@ description: Analysis Workspace 프로젝트를 클라우드 위치로 내보냅
 keywords: Analysis Workspace
 title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
-hide: true
-hidefromtoc: true
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -14,6 +12,8 @@ ht-degree: 4%
 ---
 
 # 클라우드로 Customer Journey Analytics 보고서 내보내기
+
+{{release-limited-testing}}
 
 Customer Journey Analytics에서 작업 영역 전체 테이블을 내보내고 내보내기를 지정된 클라우드 대상으로 보낼 수 있습니다.
 

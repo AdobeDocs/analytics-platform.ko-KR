@@ -3,9 +3,8 @@ description: Customer Journey Analytics 데이터를 전송할 수 있는 클라
 keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 5%
@@ -13,6 +12,8 @@ ht-degree: 5%
 ---
 
 # 클라우드 내보내기 위치 및 계정 관리
+
+{{release-limited-testing}}
 
 클라우드 내보내기 위치를 보고, 편집하고, 삭제할 수 있습니다.
 

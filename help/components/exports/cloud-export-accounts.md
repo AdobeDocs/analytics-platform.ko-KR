@@ -3,10 +3,8 @@ description: Customer Journey Analytics 데이터를 전송할 수 있는 클라
 keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -14,6 +12,8 @@ ht-degree: 5%
 ---
 
 # 클라우드 내보내기 계정 구성
+
+{{release-limited-testing}}
 
 에 설명된 대로 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기 전에 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)데이터를 전송할 대상을 추가하고 구성해야 합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
    <!-- add screen shot -->
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS 토큰을 사용하여 AEP 랜딩 영역에서 Analysis Workspace으로 내보낸 데이터에 액세스합니다.
+1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS URI를 사용하여 AEP 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
 
 1. 선택 [!UICONTROL **확인**].
 

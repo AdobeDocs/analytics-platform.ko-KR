@@ -3,10 +3,8 @@ description: Customer Journey Analytics 데이터를 전송할 수 있는 클라
 keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 구성
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 4%
@@ -14,6 +12,8 @@ ht-degree: 4%
 ---
 
 # 클라우드 내보내기 위치 구성
+
+{{release-limited-testing}}
 
 에 설명된 대로 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기 전에 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)데이터를 전송할 위치를 추가하고 구성해야 합니다.
 

@@ -3,9 +3,8 @@ description: 기존 내보내기에 대한 로그 관리
 keywords: Analysis Workspace
 title: 내보내기 로그 관리
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 6%
@@ -13,6 +12,8 @@ ht-degree: 6%
 ---
 
 # 내보내기 로그 관리
+
+{{release-limited-testing}}
 
 내보내기 로그는 각 내보내기에 대한 세부 정보를 제공하며 Analysis Workspace 데이터를 클라우드로 내보낼 때마다 생성됩니다. (데이터를 클라우드로 내보내는 방법에 대한 자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md).)
 
