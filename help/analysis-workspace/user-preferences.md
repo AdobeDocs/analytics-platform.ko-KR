@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 322f5a10b928a9bf679954aa1fe6415340ec675b
+source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 85%
+source-wordcount: '3218'
+ht-degree: 84%
 
 ---
 
@@ -111,6 +111,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 위치별 분류 | 분류를 항목 자체가 아닌 항목 위치로 유지하려면 이 옵션을 선택합니다. 분류에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오. |
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
+| | 열 합계 (정적 행만) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행 합계를 표시합니다.</li></ul> |
 
 ## 시각화 환경 설정
 
