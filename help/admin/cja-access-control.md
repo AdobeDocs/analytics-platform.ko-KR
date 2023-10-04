@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: d5a46c4ffbacb0e05a637ee9e19875572a2aebf4
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 83%
+source-wordcount: '948'
+ht-degree: 82%
 
 ---
 
@@ -91,6 +91,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 감사 로그 액세스]** | 이 권한은 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | **[!UICONTROL 보고 사용 관리자]** | 사용자가 회사에서 실행 중인 보고서를 열람하고 삭제할 수 있습니다. |
 | **[!UICONTROL 보고 사용 보기]** | 사용자가 모든 동시 보고 요청을 볼 수 있습니다. |
+| [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
 | **[!UICONTROL 계산된 지표 만들기]** | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL 필터 만들기]** | 사용자가 [필터](/help/components/filters/filters-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL Labs 액세스]** | 사용자가 다음 항목에 액세스할 수 있습니다. [Lab](/help/labs/labs.md) Customer Journey Analytics의 탭 |
@@ -99,5 +100,3 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 대상자 보기]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있습니다. |
 
 {style="table-layout:auto"}
-
-<!-- Add this to the table above when FTE goes to Beta: | [!UICONTROL **Full Table Export**] | Lets users [export full tables to the cloud](/help/analysis-workspace/export/export-cloud.md). | -->
