@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 내보내기 관리
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1029'
 ht-degree: 5%
 
 ---
@@ -62,6 +62,10 @@ ht-degree: 5%
    여러 내보내기를 선택할 때는 이 옵션을 사용할 수 없습니다.
 
 1. 선택 [!UICONTROL **편집**].
+
+   다음 [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다.
+
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) 위치: [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md).
 
 ## 내보내기 복제
 

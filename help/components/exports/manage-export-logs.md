@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 내보내기 로그 관리
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 708367159d00935bb77043e551dc915f79dd2584
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '728'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 6%
    |---------|----------|
    | [!UICONTROL **내보내기 ID**] | 보려는 내보내기 로그의 내보내기 ID를 지정합니다. |
    | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
+   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다양한 상황으로 인해 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다.<p>실패의 가능한 원인에 대한 자세한 내용은 [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 
