@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 내보내기 로그 관리
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '725'
 ht-degree: 6%
 
 ---
@@ -37,8 +37,9 @@ ht-degree: 6%
 
    | 필터 | 설명 |
    |---------|----------|
-   | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **Adobe Experience Platform 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료됨**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
+   | [!UICONTROL **내보내기 ID**] | 보려는 내보내기 로그의 내보내기 ID를 지정합니다. |
+   | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -48,7 +49,7 @@ ht-degree: 6%
 
 1. 다음 항목 선택 [!UICONTROL **로그**] 탭.
 
-1. 검색 탭에서 검색 중인 로그와 관련된 정보를 입력하십시오. 테이블에서 사용할 수 있는 열에서 데이터를 검색할 수 있습니다.
+1. 검색 필드에 검색 중인 로그와 관련된 정보를 입력합니다. 테이블에서 사용할 수 있는 열에서 데이터를 검색할 수 있습니다.
 
 <!-- removed for MVP: Retry an export You can re-run the export associated with the selected log, using the data as it was on the day the log was originally exported. This is useful when selecting a log that show a failed export or when selecting a log that was accidentally deleted. 
 
@@ -74,11 +75,11 @@ This option is not available when selecting multiple logs. -->
 
 1. 편집할 내보내기와 관련된 로그를 찾습니다.
 
-1. 다음 항목 선택 **내보내기 편집** 아이콘 ![로그 내보내기 아이콘](assets/export-icon.png) 로그 옆에 있습니다.
+1. 다음 항목 선택 **내보내기 편집** 아이콘 ![로그 내보내기 아이콘](assets/export-icon.png) 로그 이름 옆에 있습니다.
 
    또는
 
-   로그를 선택한 다음 를 선택합니다. [!UICONTROL **내보내기 편집**].
+   로그 옆에 있는 확인란을 선택한 다음 을 선택합니다. [!UICONTROL **내보내기 편집**].
 
 ## 열 구성
 

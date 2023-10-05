@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1573'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 1. 에 해당하는 아래 섹션을 계속합니다. [!UICONTROL **계정 유형**] 을(를) 선택했습니다.
 
-   * [Adobe Experience Platform 데이터 랜딩 영역](#adobe-experience-platform)
+   * [AEP 데이터 랜딩 영역](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -63,9 +63,9 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![계정 내보내기 대화 상자 AEP 데이터 랜딩 영역](assets/export-account-aep.png)
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS**] 필드를 클립보드에 추가합니다. 이 SAS URI를 사용하여 AEP 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
+1. 의 내용을 복사합니다. [!UICONTROL **SAS URI**] 필드를 클립보드에 추가합니다. 이 SAS URI를 사용하여 AEP 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
 
 1. 선택 [!UICONTROL **확인**].
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![만들어진 계정 내보내기 대화 상자 Amazon S3 역할 ARN](assets/export-account-amazons3.png)
 
 1. 의 내용을 복사합니다. [!UICONTROL **사용자 ARN**] 필드를 클립보드에 추가합니다. Adobe ARN(Amazon 리소스 이름)은 사용자가 제공합니다. Amazon S3 역할 ARN에서 생성한 정책에 이 사용자를 연결해야 합니다.
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![계정 내보내기 생성 대화 상자](assets/export-account-gcp.png)
 
 1. 의 내용을 복사합니다. [!UICONTROL **사용자**] 필드를 클립보드에 넣은 다음 사용자에게 Google Cloud Platform의 이 버킷에 파일을 업로드할 수 있는 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -139,7 +139,7 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![계정 내보내기 생성 대화 상자](assets/export-account-azure.png)
 
 1. 아직 권한이 없는 경우 Azure SAS의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -165,7 +165,7 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![계정 내보내기 생성 대화 상자](assets/export-account-azure.png)
 
 1. 아직 권한이 없는 경우 Azure RBAC의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
 
@@ -191,7 +191,7 @@ ht-degree: 5%
 
    다음 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자가 표시됩니다.
 
-   <!-- add screen shot -->
+   ![계정 내보내기 생성 대화 상자](assets/export-account-snowflake.png)
 
 1. 의 내용을 복사합니다. [!UICONTROL **공개 키**] 필드를 클립보드에 추가합니다. 공개 키는 Adobe에서 제공합니다.
 
