@@ -1,32 +1,32 @@
 ---
 title: 레이블 및 정책
-description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 어떤 영향을 미치는지 알아봅니다.
+description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 미치는 영향에 대해 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # 레이블 및 정책
 
-Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 일부 또는 모든 요소에 대한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko-kr)을 생성할 수 있습니다. Customer Journey Analytics에서 이러한 레이블과 정책을 볼 수 있습니다.
+Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 일부 또는 모든 요소에 대한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko)을 생성할 수 있습니다. Customer Journey Analytics에서 이러한 레이블과 정책을 볼 수 있습니다.
 
-다음 레이블은 Customer Journey Analytics 시 특히 유용합니다.
+다음 레이블은 Customer Journey Analytics에서 특히 중요합니다.
 
-* `C8`레이블 - **[!UICONTROL 측정 값이 없음]**. 이 레이블은 데이터를 조직의 웹 사이트 또는 앱에서 분석에 사용할 수 없음을 의미합니다.
+* `C8`레이블 - **[!UICONTROL 측정 값이 없음]**. 이 레이블은 데이터를 조직의 웹 사이트나 앱에서 분석에 사용할 수 없음을 의미합니다.
 
-* `C12`레이블 - **[!UICONTROL 일반 데이터 내보내기 없음]**. 이 방식으로 레이블이 지정된 스키마 필드는 Customer Journey Analytics(보고, 내보내기, API 등을 통해)에서 내보내거나 다운로드할 수 없습니다.
+* `C12`레이블 - **[!UICONTROL 일반 데이터 내보내기 없음]**. 이 방식으로 레이블이 지정된 스키마 필드는 보고, 내보내기, API 등을 통해 Customer Journey Analytics에서 내보내거나 다운로드할 수 없습니다.
 
 >[!NOTE]
 >
->데이터 사용 레이블은 결합된 데이터 세트에 자동으로 전파되지 않습니다. 그러나 수동으로 추가할 수 있습니다.
+>데이터 사용 레이블은 결합된 데이터 세트에 자동으로 전파되지 않습니다. 그러나 수동으로 추가할 수는 있습니다.
 
-레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이것이 바로 정책이 사용되는 이유입니다. 다음을 사용하여 정책을 만듭니다. [EXPERIENCE PLATFORM UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko-KR) 또는 를 통해 [정책 서비스 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko-kr) Experience Platform.
+레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이를 위해 정책이 사용됩니다. [Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko)를 사용하거나 Experience Platform의 [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko)를 통해 정책을 만듭니다.
 
-Customer Journey Analytics에 표시되는 Adobe 정의 정책은 두 가지이며 보고 및 다운로드/공유에 영향을 줍니다.
+Customer Journey Analytics에는 보고 및 다운로드/공유에 영향을 미치는 Adobe에서 정의한 두 가지 정책이 있습니다.
 
 * **[!UICONTROL 분석 시행]** 정책
 * **[!UICONTROL 다운로드 시행]** 정책
@@ -45,7 +45,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 ## 데이터 보기에서 데이터 거버넌스 레이블 필터링
 
-데이터 보기 편집기에서 [!UICONTROL 필터] 왼쪽 레일에 있는 아이콘을 클릭하여 데이터 보기 구성 요소 필터링 기준 **[!UICONTROL 데이터 거버넌스]** 및 유형 **[!UICONTROL 레이블]**:
+데이터 보기 편집기에서 왼쪽 레일에 있는 [!UICONTROL 필터] 아이콘을 클릭하여 **[!UICONTROL 데이터 거버넌스]** 및 **[!UICONTROL 레이블]** 유형별로 데이터 보기 구성 요소를 필터링합니다.
 
 ![](assets/filter-labels.png)
 
@@ -55,7 +55,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 분석 또는 내보내기 목적으로 특정 Customer Journey Analytics 데이터 보기 요소의 사용을 차단하는 정책이 활성화되어 있는지 확인할 수 있습니다.
 
-다시 다음을 클릭합니다. [!UICONTROL 필터] 아이콘(왼쪽 레일 및 아래) **[!UICONTROL 데이터 거버넌스]**, 클릭 **[!UICONTROL 정책]**:
+다시 왼쪽 레일에 있는 [!UICONTROL 필터] 아이콘을 클릭한 다음 **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 **[!UICONTROL 정책]**&#x200B;을 클릭합니다.
 
 ![](assets/filter-policies.png)
 
@@ -75,6 +75,6 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 >[중요한 데이터 다운로드](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[Report Builder의 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=ko-kr)
+>[Report Builder의 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=ko)
 
 
