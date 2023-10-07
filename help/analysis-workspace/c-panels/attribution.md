@@ -3,10 +3,10 @@ title: 속성 패널
 description: Analysis Workspace에서 속성 패널을 사용하고 해석하는 방법
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 82%
+source-wordcount: '534'
+ht-degree: 77%
 
 ---
 
@@ -30,17 +30,17 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 1. 왼쪽의 패널 아이콘을 클릭합니다.
 1. [!UICONTROL 속성] 패널을 Analysis Workspace 프로젝트로 드래그합니다.
 
-   ![새 속성 패널](assets/Attribution_Panel_1.png)
+   ![속성 패널을 강조 표시하는 새 프로젝트 창.](assets/Attribution_Panel_1.png)
 
 1. 속성을 지정할 지표를 추가하고 속성에 대한 차원을 추가합니다. 마케팅 채널 또는 내부 판촉 행사 등의 사용자 정의 차원을 예로 들 수 있습니다.
 
-   ![차원 및 지표 선택](assets/attribution_panel2.png)
+   ![선택한 여러 차원 및 지표를 보여 주는 속성 패널 창입니다.](assets/attribution_panel2.png)
 
 1. 비교할 속성 모델 및 전환 확인 기간을 선택합니다.
 
 1. 속성 패널은 선택한 차원 및 지표에 대한 속성을 비교하는 풍부한 데이터 및 시각화를 반환합니다.
 
-   ![속성 시각화](assets/attr_panel_vizs.png)
+   ![선택한 지표와 차원을 비교하는 속성 패널 시각화.](assets/attr_panel_vizs.png)
 
 ## 속성 시각화
 

@@ -1,12 +1,12 @@
 ---
-description: 표 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
-title: Analysis Workspace에서 예외 항목 보기
+description: 표 또는 선 차트에서 예외 항목을 보는 방법에 대해 알아봅니다.
+title: Analysis Workspace에서 예외 항목을 보는 방법
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 1. 업데이트된 테이블을 보려면 설정 메뉴 밖을 클릭합니다.
 
-   ![](assets/anomaly_detected.png)
+   ![15% 미만임을 나타내는 예외 항목 탐지 알림.](assets/anomaly_detected.png)
 
 1. 예외 항목은 다음과 같이 테이블에 표시됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 1. 업데이트된 라인 차트를 보려면 설정 메뉴 밖을 클릭합니다.
 
-   ![](assets/anomaly_linechart.png)
+   ![예상치 못한 15%를 나타내는 예외 항목 탐지 메시지가 포함된 라인 차트.](assets/anomaly_linechart.png)
 
    예외 항목은 다음과 같이 라인 차트에 표시됩니다.
 

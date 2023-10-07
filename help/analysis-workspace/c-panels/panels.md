@@ -3,10 +3,10 @@ description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 51%
+source-wordcount: '1313'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 51%
 | [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
 | [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생한 위치 또는 시청 감소가 발생한 위치를 파악할 수 있습니다. |
 
-![](assets/panel-overview.png)
+![사용 가능한 패널 유형이 나열된 Customer Journey Analytics 패널..](assets/panel-overview.png)
 
 [!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Attribution IQ]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 51%
 
 참고: (보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
 
-![](assets/panel-calendar.png)
+![선택한 날짜 범위를 보여 주는 달력 창입니다.](assets/panel-calendar.png)
 
 패널 캘린더의 고급 설정에서 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 51%
 
 패널 필터링을 시작하려면 왼쪽 레일에서 패널 드롭 영역으로 필터를 드래그 앤 드롭합니다.
 
-![](assets/segment-filter.png)
+![왼쪽 레일에는 사용 가능한 지표와 모바일 고객 지표가 패널 드롭 영역으로 드래그되었습니다.](assets/segment-filter.png)
 
 ### 임시 필터
 
@@ -61,7 +61,7 @@ ht-degree: 51%
 
 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md).
 
-![](assets/adhoc-segment-filter.png)
+![공개되어 드롭 영역으로 드롭되는 임시 필터.](assets/adhoc-segment-filter.png)
 
 ### 정적 드롭다운 필터
 
@@ -69,7 +69,7 @@ ht-degree: 51%
 
 드롭다운 필터를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 필터가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 필터를 추가할 수 있습니다.
 
-![](assets/dropdown-filter-intro.png)
+![시장 채널 &quot;직접&quot; 필터를 강조 표시하는 정적 드롭다운 필터. ](assets/dropdown-filter-intro.png)
 
 정적 드롭다운 필터를 만들려면 다음 작업을 수행하십시오.
 
@@ -79,7 +79,7 @@ ht-degree: 51%
 
 드롭다운 목록에서 옵션 중 하나를 선택하여 패널의 데이터를 변경합니다. 을 선택하여 패널 데이터의 를 필터링하지 않도록 선택할 수도 있습니다. **[!UICONTROL 필터 없음]**.
 
-![](assets/create-dropdown.png)
+![모바일 고객 세그먼트 필드가 있는 패널 창에서 정적 드롭다운 필터를 삭제할 수 있습니다. ](assets/create-dropdown.png)
 
 드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 다음 옵션이 제공됩니다.
 
@@ -109,7 +109,7 @@ ht-degree: 51%
 
 패널 헤더를 마우스 오른쪽 버튼으로 클릭하면 패널을 위한 추가 기능을 사용할 수 있습니다.
 
-![](assets/right-click-menu.png)
+![패널 헤더에 대한 마우스 오른쪽 버튼 클릭 옵션](assets/right-click-menu.png)
 
 다음 설정을 사용할 수 있습니다.
 

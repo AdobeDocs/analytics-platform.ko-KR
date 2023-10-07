@@ -1,10 +1,10 @@
 ---
-description: Analysis Workspace에서 내보내기에 사용할 수 있는 다양한 방법을 이해합니다.
+description: Analysis Workspace에서 내보내기에 사용할 수 있는 방법을 이해합니다.
 keywords: Analysis Workspace
-title: 프로젝트 데이터 내보내기 개요
+title: 프로젝트 데이터를 내보내는 방법
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

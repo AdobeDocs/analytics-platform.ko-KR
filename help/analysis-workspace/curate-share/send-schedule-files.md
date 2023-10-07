@@ -1,18 +1,18 @@
 ---
-description: 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다.
+description: Workspace 공유 메뉴 옵션에 대해 알아봅니다.
 title: 공유 메뉴
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: b36ba438a14f9fd257f2b6a38be7eb39baaa7d92
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 75%
+source-wordcount: '146'
+ht-degree: 56%
 
 ---
 
 # 공유 메뉴
 
-Workspace **공유 메뉴** 내에서 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다.
+작업 영역 내에서 조직의 수신자에게 PDF 및 CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다 **공유 메뉴**.
 
 | 메뉴 옵션 | 설명 |
 |---|---|

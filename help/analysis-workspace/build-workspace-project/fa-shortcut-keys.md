@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작입니다.
+description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작에 대해 알아봅니다.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: 핫키(단축키)
+title: Workspace 핫키 사용 방법
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 378098861bde949a2224a9b8c6376aa7b5e8ec27
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 93%
 
 ---
 

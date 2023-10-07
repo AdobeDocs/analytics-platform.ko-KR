@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 75%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시
 
 ## 기본 보기
 
-![기본 보기](assets/mpts_default_view.png)
+![미디어 플레이북 체류 시간 기본 보기.](assets/mpts_default_view.png)
 
 ## 패널 출력 {#Output}
 
@@ -65,7 +65,7 @@ Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시
 
 시리즈 분류를 선택한 경우 꺾은선형 차트에 선과 요약 번호가 각각 표시됩니다.
 
-![미디어 재생 소요 시간 출력](assets/mpts_outputs1.png)
+![라인 차트와 요약을 표시하는 미디어 재생 소요 시간 출력입니다.](assets/mpts_outputs1.png)
 
 ### 데이터 소스
 

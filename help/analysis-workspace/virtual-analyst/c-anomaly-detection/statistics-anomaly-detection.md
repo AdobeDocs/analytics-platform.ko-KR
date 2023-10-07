@@ -3,10 +3,10 @@ description: Analysis Workspace의 예외 항목 탐지에서는 일련의 고�
 title: 예외 항목 탐지에서 사용된 통계 기법
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 
 다음 예의 크리스마스와 설날에 대한 극적 성능 개선에 주목하십시오.
 
-![](assets/anomaly_statistics.png)
+![휴일 성능과 함께 및 휴일 성능 없이 성능 변화를 보여 주는 두 개의 선 차트.](assets/anomaly_statistics.png)
 
 ## 시간별 세부 기간에 대한 예외 항목 탐지
 

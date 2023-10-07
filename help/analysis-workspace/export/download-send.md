@@ -3,10 +3,10 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: Customer Journey Analytics 데이터 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 58%
+source-wordcount: '1133'
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 58%
 
      다운로드한 파일을 일반 텍스트로 설정하려면 이 옵션을 선택합니다.
 
-   ![](assets/download-project.png)
+   ![CSV 다운로드 및 PDF 다운로드 옵션이 강조 표시된 프로젝트 드롭다운 메뉴.](assets/download-project.png)
 
 1. (조건부) PDF을 다운로드하도록 선택하면 프로젝트를 다운로드할 준비가 된 후에 메시지가 표시됩니다. 선택 [!UICONTROL **다운로드**].
 
@@ -51,7 +51,7 @@ ht-degree: 58%
 >단축키를 사용할 수 있습니다. `Ctrl+C` 선택 항목을 클립보드에 복사하려면 다음을 사용합니다. `Ctrl+V` 을 사용하여 타사 도구에 붙여넣습니다.
 
 
-![](assets/copy-selection.png)
+![선택 항목을 클립보드에 복사 옵션입니다. ](assets/copy-selection.png)
 
 ## CSV로 다운로드 {#download-data}
 
@@ -66,7 +66,7 @@ ht-degree: 58%
 
 * 표 내에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 선택 항목을 CSV로 다운로드]**. 전체 표시된 테이블과는 대조적으로 이 옵션을 사용하면 선택 항목만 다운로드됩니다.
 
-![](assets/download-data-viz.png)
+![데이터를 CSV로 다운로드 옵션.](assets/download-data-viz.png)
 
 ## CSV로 항목 다운로드 {#download-items}
 
@@ -78,7 +78,7 @@ ht-degree: 58%
 
 프로젝트 내에서 멀티태스킹을 할 수 있으며 다운로드가 진행되는 동안 동일한 탭에서 새 Workspace 프로젝트로 이동할 수도 있습니다. 새 브라우저 탭을 여는 경우 다운로드가 일시 중지됩니다. Workspace를 완전히 종료하거나 브라우저 탭을 닫으면 다운로드가 취소됩니다.
 
-![](assets/download-items.png)
+![CSV로 항목 다운로드(페이지) 옵션.](assets/download-items.png)
 
 ### 다운로드한 항목 파일 {#items-file}
 
@@ -90,7 +90,7 @@ ht-degree: 58%
 
 위의 예에서 페이지 항목은 패널 필터(신규 방문자 고객) 및 위의 구성 요소(마케팅 채널 = 이메일)가 필터로 적용된 상태로 다운로드되고 아래 구성 요소(모바일 디바이스 유형)는 다운로드된 CSV에서 제거됩니다.
 
-![](assets/downloaded-file.png)
+![다운로드한 .csv 파일이 Excel에서 열렸습니다.](assets/downloaded-file.png)
 
 ### 다운로드 알림 {#notifications}
 
@@ -100,7 +100,7 @@ ht-degree: 58%
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 
-![](assets/toast.png)
+![완료율을 보여 주는 다운로드 상태 알림 및 다운로드 취소 링크.](assets/toast.png)
 
 ## 중요한 데이터 다운로드 {#sensitive}
 

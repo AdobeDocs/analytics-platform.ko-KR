@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace 프로젝트를 클라우드 위치로 내보냅니다.
+description: Analysis Workspace 프로젝트를 클라우드 위치로 내보내는 방법을 알아봅니다.
 keywords: Analysis Workspace
 title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Analysis Workspace에서 Google, Azure, Amazon 및 Adobe과 같은 클라우드 
 
 1. [클라우드에서 데이터 액세스](#view-exported-data-and-manifest-file) 및 [Adobe에서 내보내기 관리](/help/components/exports/manage-exports.md)
 
-![전체 테이블 내보내기 프로세스](assets/export-full-table-process.png)
+![1~4단계에 설명된 전체 테이블 내보내기 프로세스](assets/export-full-table-process.png)
 
 ## Analysis Workspace에서 전체 테이블 내보내기
 
@@ -57,7 +57,7 @@ Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합
 
 1. 선택 [!UICONTROL **전체 테이블 내보내기**].
 
-   ![전체 테이블 내보내기](assets/export-full-table.png)
+   ![전체 테이블 내보내기 가 강조 표시된 자유 형식 테이블 드롭다운 메뉴.](assets/export-full-table.png)
 
 1. 다음에서 [!UICONTROL **새 전체 테이블 내보내기**] 대화 상자에서 다음 정보를 지정합니다.
 

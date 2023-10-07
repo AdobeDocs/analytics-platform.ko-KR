@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 폴더에서 프로젝트 제거
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![줄임표 옵션.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. **다음으로 이동**&#x200B;을 선택한 후 프로젝트를 이동할 폴더를 선택합니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![위치 선택 창.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. **이동**&#x200B;을 클릭합니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![이동을 누릅니다.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    프로젝트가 이동되었다는 확인 알림이 표시됩니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![이동 확인 알림입니다. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## 폴더에서 프로젝트 삭제 {#delete-project-in-folder}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![줄임표 옵션.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. **삭제**&#x200B;를 선택합니다.
 

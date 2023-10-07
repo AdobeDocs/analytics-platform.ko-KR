@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 작업 영역의 폴더 삭제
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
-source-git-commit: 981dd31ef669251fd00b834afeafb5e396aa32da
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 90%
+source-wordcount: '122'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,11 @@ Workspace에서 폴더를 삭제하려면
 
 1. 오른쪽 상단의 줄임표 아이콘(**...**)을 클릭합니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
+   ![줄임표 아이콘 드롭다운 옵션](/help/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
 
 2. **폴더 삭제**&#x200B;를 선택합니다.
 
    확인 알림은 폴더가 삭제되었음을 나타냅니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
+   ![폴더 삭제 확인 알림입니다.](/help/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
 

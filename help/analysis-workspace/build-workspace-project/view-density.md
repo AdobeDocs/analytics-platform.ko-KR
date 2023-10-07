@@ -3,10 +3,10 @@ description: Analysis Workspace에서 보기 밀도를 조정하는 방법에 �
 title: 보기 밀도
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 - **[!UICONTROL 무난]**: 작은 버전보다 좀 더 큰 버전.
 - **[!UICONTROL 크게]** (기본값): 작업 영역에서 사용하는 보기.
 
-![](assets/view-density.png)
+![컴팩트하고 편안하며 확장된 보기 밀도.](assets/view-density.png)
 
 보기 밀도를 설정하려면 다음을 수행하십시오.
 

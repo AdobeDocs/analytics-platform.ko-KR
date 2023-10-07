@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
-title: 예외 항목 탐지 개요
+description: Analysis Workspace의 데이터 예외 항목 탐지에 대해 알아봅니다.
+title: 예외 항목 탐지 작동 방식
 feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 93%
 
 ---
 

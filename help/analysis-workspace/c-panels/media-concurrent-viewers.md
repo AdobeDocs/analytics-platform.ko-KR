@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 79%
+source-wordcount: '1035'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 동시 뷰어 분석을 통해 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 콘텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획에 도움을 줄 수 있습니다.
 
-Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 시청하는 고유 사용자의 수입니다.
+Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유 사용자의 수입니다.
 
 미디어 동시 뷰어 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.  미디어 동시 뷰어 패널에 액세스하려면 Media Analytics 구성 요소가 활성화된 데이터 보기로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 클릭하고 패널을 Analysis Workspace 프로젝트로 끌어옵니다.
 
@@ -36,12 +36,12 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 
 ### 기본 보기
 
-![기본 보기](assets/concurrent-viewers-default.png)
+![미디어 동시 뷰어 기본 보기입니다.](assets/concurrent-viewers-default.png)
 
 
 ### 시리즈 분류 보기
 
-![시리즈 분류 보기](assets/concurrent-viewers-series-breakdown.png)
+![10개 차원, 세그먼트 또는 날짜 범위 중 7개를 표시하는 미디어 동시 뷰어 시리즈 분류 보기.](assets/concurrent-viewers-series-breakdown.png)
 
 ## 패널 출력 {#Output}
 
@@ -51,7 +51,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 
 시리즈 분류를 선택한 경우 꺾은선형 차트에 선과 요약 번호가 각각 표시됩니다.
 
-![동시 뷰어 출력](assets/concurrent-viewers-output.png)
+![미디어 Concurrent Viewer 출력](assets/concurrent-viewers-output.png)
 
 ### 데이터 소스
 
@@ -64,7 +64,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 이 보기에서는 자유 형식 테이블을 사용할 수 없습니다.  데이터 소스를 보려면 꺾은선형 차트를 마우스 오른쪽 버튼으로 클릭하고 .csv 파일로 다운로드할 수 있습니다.  시리즈 분류가 포함됩니다.
 
 
-![동시 뷰어 출력](assets/concurrent-viewers-download-csv.png)
+![&quot;데이터를 CSV로 다운로드&quot;가 강조 표시된 동시 뷰어 출력 옵션입니다.](assets/concurrent-viewers-download-csv.png)
 
 ## FAQ {#FAQ}
 

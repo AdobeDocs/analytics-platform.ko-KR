@@ -3,9 +3,9 @@ description: Customer Journey Analytics 및 작업 공간 성능 및 적용할 �
 title: Customer Journey Analytics 및 Analysis Workspace 성능 최적화
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 75%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 75%
 >
 >변경 내용이 요소에 적용되므로 모달을 열 때마다 성능 페이지의 정보가 달라집니다. 또한 Adobe에서는 더 많은 데이터를 사용할 수 있는 대로 제공하는 지침을 계속 세분화할 예정입니다.
 
-![](assets/performance-modal.png)
+![네트워크 요소, 현재 프로젝트 및 지침을 보여주는 Analysis Workspace 성능.](assets/performance-modal.png)
 
 ### 네트워크 요소
 

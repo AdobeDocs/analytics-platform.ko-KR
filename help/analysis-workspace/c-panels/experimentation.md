@@ -3,10 +3,10 @@ description: Customer Journey Analytics 실험 패널의 A/B 테스트 결과를
 title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 60%
+source-wordcount: '1905'
+ht-degree: 58%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 >[!IMPORTANT]
 >
->이 시점에서 [Target을 위한 Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
+>이 시점에서 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
 
 ## 액세스 제어 {#access}
 
@@ -41,7 +41,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 실험 데이터가 포함된 데이터 보기에서 실험 데이터가 있는 차원 하나와 변형 데이터가 있는 차원 하나를 선택합니다. 그 다음 **[!UICONTROL 실험]** 및 **[!UICONTROL 변형]** 레이블이 있는 차원에 레이블을 지정합니다.
 
-![컨텍스트 레이블](assets/context-label.png)
+![실험 및 실험 변형에 대한 컨텍스트 레이블 옵션.](assets/context-label.png)
 
 이 레이블이 없으면 함께 작동할 실험이 없어 실험 패널이 작동하지 않습니다.
 
@@ -49,7 +49,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 1. Customer Journey Analytics 작업 영역에서 실험 패널을 프로젝트로 드래그합니다.
 
-![실험 패널](assets/experiment.png)
+![실험 패널이 프로젝트로 드래그되었습니다.](assets/experiment.png)
 
 >[!IMPORTANT]
 >Customer Journey Analytics 데이터 보기에서 필요한 설정이 완료되지 않은 경우 진행하기 전에 다음 메시지를 받게 됩니다.&quot;[!UICONTROL 데이터 보기에서 실험 및 변형 차원을 구성하십시오.]&quot;.
@@ -74,11 +74,11 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 선택한 각 성공 지표에 대해 하나의 자유 형식 테이블 및 하나의 전환율 트렌드가 표시됩니다.
 
-![실험 출력](assets/exp-output1.png)
+![하나의 자유 형식 테이블 및 하나의 전환율 트렌드를 보여 주는 실험 출력입니다.](assets/exp-output1.png)
 
 [!UICONTROL 선] 차트를 통해 [!UICONTROL 제어]와 [!UICONTROL 제어 변형]의 성과를 비교할 수 있습니다.
 
-![선 차트 출력](assets/exp-output2.png)
+![제어 및 제어 변형 성과를 보여 주는 라인 차트 출력.](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 
 다음 그림은 이러한 상황을 대비합니다.
 
-![무작위 실험](assets/randomize.png)
+![관측 자료와 임의 실험을 보여주는 도표.](assets/randomize.png)
 
 중재 X가 결과 Y에 미치는 영향을 측정하고자 할 때, 양자의 진짜 원인은 교란 요인 C일 가능성이 있다. 만약 X에 대한 사람을 무작위화함으로써 데이터가 달성되지 않는다면, 그 영향은 측정하기 더 어렵고, 분석은 C를 명시적으로 설명할 것이다. 무작위화는 C에 대한 X의 의존성을 깨뜨려서, 우리는 다른 변수에 대해 걱정할 필요 없이 Y에 대한 X의 영향을 측정할 수 있게 한다.
 

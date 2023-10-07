@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 89%
+source-wordcount: '1331'
+ht-degree: 88%
 
 ---
 
@@ -82,7 +82,7 @@ Average Minute Audience 패널은 또한 분류를 사용하여 기간을 사용
 
 언제든지 오른쪽 상단의 편집 연필을 클릭하여 패널을 편집하고 다시 작성할 수 있습니다.
 
-![기본 보기](assets/specific-content-panel-output.png)
+![분당 평균 시청 시간 패널의 기본 보기입니다.](assets/specific-content-panel-output.png)
 
 
 ### 특정 콘텐츠 데이터 소스
@@ -99,7 +99,7 @@ Average Minute Audience 패널은 또한 분류를 사용하여 기간을 사용
 
 언제든지 오른쪽 상단의 편집 연필을 클릭하여 패널을 편집하고 다시 작성할 수 있습니다.
 
-![동시 뷰어 출력](assets/custom-time-period-panel-output.png)
+![전체 선택 항목에 대한 데이터를 보여 주는 분당 평균 시청 시간 패널입니다.](assets/custom-time-period-panel-output.png)
 
 ### 사용자 정의 기간 데이터 소스
 

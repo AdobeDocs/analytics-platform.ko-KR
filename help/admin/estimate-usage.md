@@ -4,10 +4,10 @@ description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 72%
+source-wordcount: '901'
+ht-degree: 73%
 
 ---
 
@@ -41,7 +41,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
 1. 조직에서 생성한 모든 연결에 **[!UICONTROL 사용 가능한 이벤트 데이터 기록]**&#x200B;을 추가합니다. (연결 크기에 따라 숫자가 표시되는 데 다소 시간이 걸릴 수 있습니다.)
 
-   ![이벤트 데이터](./assets/event-data.png)
+   ![이벤트 데이터 기록 사용 가능.](./assets/event-data.png)
 
    >[!CAUTION]
    >
@@ -70,7 +70,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
 1. 작업 영역에서 각 데이터 보기에 따라 새 프로젝트를 만들고 (에서) 모든 이벤트를 가져옵니다. **[!UICONTROL 지표]** 드롭다운 목록)을 클릭하면 현재 Customer Journey Analytics 계약의 첫째 날부터 월의 첫째 금요일까지 표시됩니다.
 
-   ![이벤트](./assets/events-usage.png)
+   ![이벤트를 표시하는 자유 형식 테이블입니다.](./assets/events-usage.png)
 
    이로써 월별 사용량의 추세를 알 수 있습니다.
 
@@ -97,7 +97,7 @@ Report Builder에서 각 데이터 보기에 대해 [하나의 데이터 블록�
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
-기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics은 채우기를 통해 25개월 분량의 데이터를 받습니다. 플랫폼에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics은 나머지 15개월을 유지합니다.
+기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics은 채우기를 통해 25개월 분량의 데이터를 받습니다. 플랫폼에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.
 
 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 연결에 프로필 또는 조회 데이터 세트가 포함된 경우 이벤트 데이터 세트와 연결되므로 데이터는 이벤트 데이터 세트 타임스탬프의 데이터 보존 설정에 따라 Customer Journey Analytics에 유지됩니다.
 

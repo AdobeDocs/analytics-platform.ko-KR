@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 폴더에 프로젝트 저장
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 1. Workspace에서 새 프로젝트를 만듭니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+   ![새 프로젝트를 만들 수 있는 자유 형식 테이블 창입니다.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
 1. **프로젝트** > **저장** 대화 상자의 폴더 드롭다운 메뉴에서 폴더 이름을 선택합니다.
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+   ![새 프로젝트를 폴더에 저장하는 저장 창입니다.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

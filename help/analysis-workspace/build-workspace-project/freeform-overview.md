@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 80%
+source-wordcount: '1371'
+ht-degree: 72%
 
 ---
 
@@ -17,9 +17,9 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 프로젝트 목록 {#project-list}
 
-처음 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;로 이동하면 페이지에 사용자가 보유하거나 사용자와 공유된 모든 프로젝트가 나열됩니다. 이전에 맞춤형 랜딩 페이지를 설정한 경우가 아니면 이 페이지가 Adobe Analytics의 랜딩 페이지이기도 합니다.
+처음 다음 위치로 이동할 때 **[!UICONTROL 분석]** > **[!UICONTROL 작업 영역]**: 페이지는 소유한 모든 프로젝트 또는 사용자와 공유된 프로젝트를 나열합니다. 이전에 맞춤형 랜딩 페이지를 설정한 경우가 아니면 이 페이지가 Adobe Analytics의 랜딩 페이지이기도 합니다.
 
-![](assets/sample-project.png)
+![프로젝트 목록을 표시하는 프로젝트 랜딩 페이지.](assets/sample-project.png)
 
 프로젝트 페이지에는 다음 정보가 포함되어 있습니다.
 
@@ -55,7 +55,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 프로젝트 내에서 메뉴는 프로젝트 관리, 구성 요소 추가, 도움말 찾기 등의 옵션을 제공합니다. 각 메뉴 옵션은 키보드 [단축키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)로도 액세스할 수 있습니다.
 
-![](assets/menu.png)
+![프로젝트, 편집, 삽입, 구성 요소, 공유 및 도움말 옵션을 포함한 새 프로젝트 옵션입니다.](assets/menu.png)
 
 | 메뉴 항목 | 설명 |
 |---|---|
@@ -71,7 +71,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 **[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 은 현재 활성화된 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
 
-![](assets/projectinfo.png)
+![프로젝트 정보 및 설정 창.](assets/projectinfo.png)
 
 설정에는 다음이 포함됩니다.
 
@@ -94,7 +94,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 왼쪽 레일의 구성 요소 (차원, 지표, 필터, 날짜 범위)는 활성 패널 데이터 보기와 관련되어 있습니다. 활성 패널 주위에 파란색 테두리가 있고 활성 데이터 보기가 구성 요소 레일의 맨 위에 나열됩니다.
 
-![](assets/left-rail.png)
+![산업 간 데모 데이터 보기를 위한 활성 패널 데이터 보기와 관련된 구성 요소입니다.](assets/left-rail.png)
 
 ## 프로젝트 캔버스 {#canvas}
 
@@ -104,15 +104,15 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유형 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)이 표시됩니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. 테이블 작성하기 위한 다양한 옵션에 대해 [자세히 알아보거나](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) [교육 튜토리얼](/help/analysis-workspace/home.md)을 활용하여 첫 번째 프로젝트 작성에 대한 자세한 지침을 확인하십시오.
 
-![](assets/canvas.png)
+![프로젝트에 대한 자유 형식 테이블.](assets/canvas.png)
 
 ## 프로젝트 관리자 {#manager}
 
-Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 프로젝트**&#x200B;에서 관리할 수 있습니다. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 관리자 > Analytics 사용자 및 에셋 > 에셋 전송에서 프로젝트 소유권을 새 사용자에게 이전할 수 있습니다.
+Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 프로젝트**&#x200B;에서 관리할 수 있습니다. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 관리 > Analytics 사용자 및 에셋 > 에셋 전송에서 프로젝트 소유권을 새 사용자에게 이전할 수 있습니다.
 
 프로젝트 관리자에서 추가, 태그, 공유, 복제/복사 등을 할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 프로젝트를 검색합니다. 태그, 소유자, 프로젝트 유형 등을 기준으로 필터링할 수 있습니다.
 
-![](assets/project-manager.png)
+![프로젝트 관리자 태그 검색 필드 및 제목 검색 필드.](assets/project-manager.png)
 
 다음은 프로젝트 관리자의 일반적인 작업이며 한 번에 하나 이상의 프로젝트에서 수행할 수 있습니다.
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace 큐레이션
 title: 프로젝트 구성
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 [!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해 줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
 
-![](assets/curation-field.png)
+![프로젝트에서 사용 중인 구성 요소를 보여 주는 구성 요소 조정 창.](assets/curation-field.png)
 
 ## 조정된 프로젝트 보기
 
 받는 사람이 조정된 프로젝트를 열면 사용자가 정의한 조정된 구성 요소 집합만 표시됩니다.
 
-![](assets/curate-project.png)
+![정의한 구성 요소를 보여 주는 조정된 공유 프로젝트입니다.](assets/curate-project.png)
 
 ## 프로젝트 조정 제거
 

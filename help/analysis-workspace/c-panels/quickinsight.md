@@ -3,10 +3,10 @@ description: 빠른 인사이트는 새로운 Workspace 사용자가 데이터 �
 title: 빠른 인사이트 패널
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '1135'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 이를 위해 그리고 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 [!UICONTROL 빠른 인사이트]는 귀사에서 가장 많이 사용되는 차원, 지표, 필터 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 드롭다운 목록에서 [!UICONTROL 인기]로 태그가 지정된 차원, 지표 및 필터가 표시됩니다.
 
-![](assets/popular-tag.png)
+![빠른 인사이트 패널.](assets/popular-tag.png)
 
 [!UICONTROL 빠른 인사이트]는 다음과 같은 지원을 제공합니다.
 
@@ -45,14 +45,14 @@ ht-degree: 100%
 1. 제공된 자격 증명을 사용하여 Customer Journey Analytics에 로그인합니다.
 1. [!UICONTROL Workspace]로 이동하고 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 **[!UICONTROL 빠른 인사이트]**&#x200B;를 클릭합니다. (왼쪽 레일의 **[!UICONTROL 패널]** 메뉴에서 이 패널에 액세스할 수도 있습니다.)
 
-   ![](assets/qibuilder.png)
+   ![빠른 인사이트 옵션이 강조 표시된 모든 템플릿 보기.](assets/qibuilder.png)
 
-   ![](assets/qi-panel.png)
+   ![빠른 인사이트 옵션이 강조 표시된 패널 목록입니다.](assets/qi-panel.png)
 
 1. 처음 시작할 때 [!UICONTROL 빠른 인사이트 패널]의 기본 사항을 설명하는 간단한 튜토리얼을 살펴보십시오. 또는 **[!UICONTROL 튜토리얼 건너뛰기]**&#x200B;를 클릭합니다.
 1. 기본 요소(구성 요소라고도 함): 차원(주황색), 지표(녹색), 필터(파란색) 또는 날짜 범위(보라색)를 선택합니다. 표를 자동으로 작성하려면 하나 이상의 차원과 지표를 선택해야 합니다.
 
-   ![](assets/qibuilder2.png)
+   ![차원, 지표, 필터, 세그먼트 및 날짜 범위를 포함한 구성 요소.](assets/qibuilder2.png)
 
    다음 세 가지 방법으로 구성 요소를 선택할 수 있습니다.
    * 왼쪽 레일에서 끌어서 놓습니다.
@@ -63,7 +63,7 @@ ht-degree: 100%
 
    * 세로 차원 (미국 주)과 맨 위에 가로로 지표 (방문)가 있는 자유 형식 테이블입니다. 다음 표를 확인하십시오.
 
-   ![](assets/qibuilder3.png)
+   ![차원을 세로로 표시하고 지표를 가로로 표시하는 자유 형식 테이블입니다.](assets/qibuilder3.png)
 
    * 함께 제공되는 시각화 (이 경우 [막대 차트](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터 (예: 일/개월당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터 (예: [!UICONTROL 디바이스]당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
@@ -79,28 +79,28 @@ ht-degree: 100%
 
 * 먼저 **[!UICONTROL 추가 팁]** 튜토리얼을 완료합니다. 도움말 (?) ([!UICONTROL 빠른 인사이트] 타일 옆) 아이콘을 통해 액세스합니다. 이 튜토리얼은 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여 줍니다.
 
-  ![](assets/qibuilder4.png)
+  ![도움말 아이콘을 클릭하면 빠른 인사이트 패널 알림이 표시됩니다.](assets/qibuilder4.png)
 
 * **분류 기준**: 차원에서 최대 3개의 분류 수준을 사용하여 필요한 데이터로 드릴다운할 수 있습니다.
 
-  ![](assets/qibuilder5.png)
+  ![분류의 하위 수준입니다.](assets/qibuilder5.png)
 
 * **지표 추가**: AND 연산자를 사용하여 표에 지표를 추가하여 최대 2개의 지표를 추가할 수 있습니다.
 
-  ![](assets/qibuilder6.png)
+  ![방문 횟수 및 장치 를 포함한 여러 지표.](assets/qibuilder6.png)
 
 * **필터 추가**: AND 또는 OR 연산자를 사용하여 표를 추가하면 최대 2개의 필터를 추가할 수 있습니다. 모바일 사용자 또는 단골 방문자를 추가할 때 표에 표시되는 상황을 살펴봅니다. 이러한 정보는 지표 위에 서로 나란히 표시됩니다. 모바일 사용자 및 단골 고객을 추가하면 두 필터의 결과가 함께 표시되고 표에서 서로 겹쳐집니다.
 
-  ![](assets/qibuilder7.png)
+  ![추가된 모바일 사용자 및 단골 방문자를 보여 주는 다이어그램입니다.](assets/qibuilder7.png)
 
 ## 알려진 제한 사항
 
 표 내에서 바로 편집하는 경우 이로 인해 [!UICONTROL 빠른 인사이트] 패널이 동기화되지 않게 됩니다. 패널 오른쪽 상단에 있는 [!UICONTROL 빌더 재동기화]를 클릭하여 이전 **[!UICONTROL 빠른 인사이트]** 설정으로 복원할 수 있습니다.
 
-![](assets/qibuilder9.png)
+![빌더 재동기화 옵션이 있는 빠른 인사이트 패널.](assets/qibuilder9.png)
 
 테이블에 직접 추가하기 전에 경고가 표시됩니다.
 
-![](assets/qibuilder8.png)
+![빌더 재동기화 옵션 경고.](assets/qibuilder8.png)
 
 그렇지 않으면, 직접 작성하면 새 사용자에게 유용한 기능을 제공하지 않고도 테이블이 이제 기존의 자유 형식 테이블로 동작하게 됩니다.

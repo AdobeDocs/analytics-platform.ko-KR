@@ -3,11 +3,11 @@ description: Analysis Workspace에서 프로젝트를 만드는 방법 알아보
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
-exl-id: f5ea0a1f-5dd6-4c73-b316-33c15ca5443c
-source-git-commit: c52dd6d8a22d2092f5f70aeb79d24ecf897e012e
+exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 4%
+source-wordcount: '602'
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 1. 다음 항목 선택 [!UICONTROL **패널**] 왼쪽 레일의 아이콘
 
-   ![](assets/build-panels.png)
+   ![패널 선택 아이콘과 사용 가능한 패널 목록입니다.](assets/build-panels.png)
 
 1. 추가할 패널을 검색합니다. 왼쪽 레일에 표시되면 프로젝트로 드래그합니다.
 
@@ -64,7 +64,7 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 1. 다음 항목 선택 **[!UICONTROL 시각화]** 왼쪽 레일의 아이콘
 
-   ![](assets/build-visualizations.png)
+   ![선택한 시각화 아이콘 및 사용 가능한 시각화 목록입니다.](assets/build-visualizations.png)
 
 1. 추가할 시각화를 검색합니다. 왼쪽 레일에 표시되면 프로젝트 내의 패널로 드래그합니다.
 
@@ -82,7 +82,7 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 1. 다음 항목 선택 **[!UICONTROL 구성 요소]** 왼쪽 레일의 아이콘
 
-   ![](assets/build-components.png)
+   ![선택한 구성 요소 아이콘 및 사용 가능한 차원 목록.](assets/build-components.png)
 
 1. 추가할 구성 요소를 검색합니다. 왼쪽 레일에 표시되면 패널 또는 프로젝트 내의 시각화로 드래그합니다.
 
@@ -90,6 +90,6 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 ## 프로젝트 저장 및 공유
 
-Analysis Workspace에서 분석을 만들 때 작업은 다음과 같습니다. [자동으로 저장됨](/help/analysis-workspace/build-workspace-project/save-projects.md).
+Analysis Workspace에서 분석을 만들면 작업이 [자동으로 저장됩니다](/help/analysis-workspace/build-workspace-project/save-projects.md).
 
-프로젝트 빌드를 완료하고 실행 가능한 통찰력을 수집하는 경우 프로젝트를 다른 사용자가 사용할 준비가 되었습니다. 조직의 사용자 및 그룹 또는 조직 외부의 사용자와 프로젝트를 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).
+프로젝트 빌드를 완료하고 프로젝트에서 실행 가능한 인사이트를 수집하면 다른 사람이 프로젝트를 사용할 준비가 된 것입니다. 조직의 사용자 및 그룹은 물론 조직 외부의 사람들과도 프로젝트를 공유할 수 있습니다. 프로젝트 공유에 대한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)를 참조하십시오.

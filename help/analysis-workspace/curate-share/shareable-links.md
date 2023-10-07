@@ -4,10 +4,10 @@ keywords: Analysis Workspace 공유
 title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 62%
+source-wordcount: '395'
+ht-degree: 57%
 
 ---
 
@@ -36,7 +36,7 @@ Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Work
 
 [비디오 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
 
-![](assets/get-viz-link.png)
+![시각화 가져오기 링크가 강조 표시된 헤더를 마우스 오른쪽 단추로 클릭한 후 드롭다운 메뉴입니다.](assets/get-viz-link.png)
 
 ## 목차에 링크 사용 {#TOC}
 
@@ -44,4 +44,4 @@ Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Work
 
 [비디오 시청](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ko-KR)에서 링크 및 Workspace의 리치 텍스트 편집기를 사용하여 목차를 구성하는 방법에 대해 알아보십시오.
 
-![](assets/toc.png)
+![프로젝트 목차.](assets/toc.png)

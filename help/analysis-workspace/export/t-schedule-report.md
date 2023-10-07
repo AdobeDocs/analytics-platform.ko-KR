@@ -5,10 +5,10 @@ title: 이메일로 다른 사람에게 Customer Journey Analytics 데이터 보
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 63%
+source-wordcount: '1036'
+ht-degree: 59%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 63%
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 암호로 예약된 보고서 보호 섹션을 참조하십시오.
-1. **[!UICONTROL 지금 보내기]**&#x200B;를 클릭합니다.
 1. (선택 사항) 게재 일정을 지정하려면 **[!UICONTROL 예약 옵션 표시]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 지금 보내기]**&#x200B;를 클릭합니다.
 
-![지금 파일 보내기](assets/send-file-no-scheduling-options.JPG)
+![[파일 보내기] 창 및 [지금 보내기] 단추](assets/send-file-no-scheduling-options.JPG)
 
 ## 일정에 따라 파일 보내기 {#schedule}
 
@@ -49,7 +49,7 @@ ht-degree: 63%
 1. 게재 빈도를 지정합니다. 각 빈도에서는 다양한 맞춤화를 사용할 수 있습니다.
 1. **[!UICONTROL 일정에 따라 보내기]**&#x200B;를 클릭합니다.
 
-![](assets/send-file.JPG)
+![[파일 보내기] 창 및 [예약] 옵션을 표시하여 [시작 날짜], [종료 날짜] 및 [일별 빈도] 설정을 표시합니다.](assets/send-file.JPG)
 
 ## 예약된 프로젝트 관리자 {#manager}
 
@@ -98,7 +98,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 * 기존의 예약된 프로젝트를 전송하려고 하는 경우 암호 보호가 적용될 때까지 현재 예약된 프로젝트를 사용할 수 없습니다. 예약된 프로젝트의 소유자는 이 요구 사항을 알리는 이메일을 수신합니다.
 
-![암호 보호](assets/password.png)
+![예약된 프로젝트 편집 창 및 암호 암호화 알림은 조직에 암호 암호화가 필요함을 나타냅니다.](assets/password.png)
 
 ### 암호 요구 사항
 
@@ -113,7 +113,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 프로젝트가 예약되기 전에 프로젝트 소유자는 다음과 유사한 이메일을 수신합니다.
 
-![이메일](assets/email-password.png)
+![조직에 암호 암호화가 필요함을 나타내는 Customer Journey Analytics 이메일 알림입니다.](assets/email-password.png)
 
 1. Customer Journey Analytics에 로그인합니다.
 1. 선택 **[!UICONTROL 예약된 프로젝트 보기]**.

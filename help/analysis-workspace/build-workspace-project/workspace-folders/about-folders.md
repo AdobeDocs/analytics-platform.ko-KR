@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 폴더 개요
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **작업 영역** 
 
 작업 영역에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 생성한 모든 개인 폴더와 함께 프로젝트 목록이 표시됩니다.
 
-![](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![프로젝트 및 회사 폴더를 나열하는 프로젝트 홈 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## 회사 폴더 정보 {#company-folder}
 
@@ -38,11 +38,11 @@ Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **작업 영역** 
 
 관리자에게는 회사 폴더에 할당된 특별한 권한이 있습니다. 예를 들어 관리자만 회사 폴더에 폴더 또는 프로젝트를 추가하거나 제거할 수 있습니다. 관리자 액세스 권한이 없는 사용자는 회사 폴더의 콘텐츠를 볼 수 있습니다.
 
-![](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![관리자 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 관리자가 아닌 사용자는 이 기능을 제한적으로 사용할 수 있습니다.
 
-![](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![폴더에 대한 비관리 옵션이 표시되는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### 회사 폴더 지침 {#company-folder-guidelines}
 

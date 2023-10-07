@@ -4,9 +4,9 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf700355597760b36441864de36f460b5996a1fe
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1980'
 ht-degree: 36%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 36%
 1. 공유할 프로젝트로 이동한 다음 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**.
 저장하지 않은 변경 내용이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
-   ![](assets/share-proj-modal.png)
+   ![프로젝트 공유 창.](assets/share-proj-modal.png)
 
    여러 프로젝트를 동시에 공유하는 방법에 대한 자세한 내용은 [프로젝트 관리자에서 프로젝트 공유](#share-projects-in-the-project-manager)를 참조하십시오.
 
@@ -99,7 +99,7 @@ ht-degree: 36%
 
 1. 선택 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 복사]** 다음 옆에 **[!UICONTROL 링크로 공유]** 필드.
 
-   ![](assets/share-proj-modal.png)
+   ![공유 프로젝트 는 링크로 공유 필드를 강조 표시합니다.](assets/share-proj-modal.png)
 
 1. 조직의 사용자와 링크를 공유합니다. 예를 들어 공유된 링크를 이메일, 내부 웹 사이트 등에 붙여넣을 수 있습니다.
 
@@ -145,7 +145,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    이 옵션을 선택하면 누구와도 공유할 수 있는 프로젝트 링크가 만들어집니다. 이 옵션을 비활성화하면 언제든지 프로젝트에 대한 액세스를 비활성화할 수 있습니다.
 
-   프로젝트의 소유자도 이 링크의 소유자입니다. 에 설명된 대로 프로젝트 소유권이 이전되어야 링크 소유권을 다른 사용자에게 이전할 수 있습니다. [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) ( Analytics 관리 안내서).
+   프로젝트의 소유자도 이 링크의 소유자입니다. 에 설명된 대로 프로젝트 소유권이 이전되어야 링크 소유권을 다른 사용자에게 이전할 수 있습니다. [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=ko) ( Analytics 관리 안내서).
 
 1. 다음 보안 옵션을 사용할지 여부를 선택합니다(이 옵션은 Customer Journey Analytics 관리자가 제어할 수 있음).
 
@@ -183,7 +183,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 * 프로젝트 A: 1, 2, 3, 4, 7
 * 프로젝트 B: 4, 5, 6, 7
 
-![](assets/mult-proj-sharing.png)
+![여러 프로젝트에 수신자 추가 창.](assets/mult-proj-sharing.png)
 
 ## 임베드된 구성 요소 공유
 

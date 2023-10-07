@@ -4,10 +4,10 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
    1. Analysis Workspace 랜딩의 [!UICONTROL **복구된 프로젝트**] 폴더로 이동합니다.
 
-      ![](assets/recovered-folder.png)
+      ![복구된 프로젝트 폴더를 강조 표시하는 폴더 목록입니다.](assets/recovered-folder.png)
 
    1. 프로젝트를 열고 원하는 위치에 저장합니다.
 
@@ -63,13 +63,13 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 * **다른 이름으로 저장:** 최신 변경 사항을 새 프로젝트로 저장합니다. 원본 프로젝트는 가장 최근 자동으로 저장된 변경 사항으로만 저장됩니다.
 * **변경 사항 삭제:** 최신 변경 사항을 삭제합니다. 프로젝트는 가장 최근 자동으로 저장된 변경 사항을 유지합니다.
 
-![](assets/existing-save.png)
+![프로젝트에 대한 변경 사항을 저장하려면 저장 을 클릭합니다.](assets/existing-save.png)
 
 ### 탭 이동 또는 닫기
 
 아직 자동으로 저장되지 않은 변경 사항이 포함된 프로젝트를 확인하는 도중 페이지에서 빠져나오거나 브라우저 탭을 닫을 경우 저장하지 않은 변경 사항이 유실된다는 경고가 브라우저에 표시됩니다. 떠나거나 취소할 수 있습니다.
 
-![](assets/browser-image.png)
+![사이트를 떠나려면 나가기를, 변경 사항을 저장하지 않고 이동하려면 취소를 클릭합니다. ](assets/browser-image.png)
 
 ### 브라우저 충돌 또는 세션 시간 초과
 
@@ -81,7 +81,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 **아니요**&#x200B;를 선택하면 자동으로 저장된 로컬 복사본이 삭제되고 사용자가 저장한 프로젝트의 마지막 버전이 열립니다.
 
-![](assets/project-recovery.png)
+![프로젝트 복구 대화 상자](assets/project-recovery.png)
 
 저장되지 않은 **새** 프로젝트의 경우 저장하지 않은 변경 사항은 복구할 수 없습니다.
 
@@ -91,7 +91,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 1. **[!UICONTROL 프로젝트]** > **[!UICONTROL 이전 버전 열기]**&#x200B;로 이동합니다.
 
-   ![](assets/previous-versions.png)
+   ![메모가 있는 모든 버전 또는 버전만 표시하는 이전에 저장한 프로젝트 버전 목록 및 옵션입니다.](assets/previous-versions.png)
 
 1. 사용 가능한 이전 버전 목록을 검토합니다.
    [!UICONTROL 편집기] 저장 시 [!UICONTROL 메모] 외에 [!UICONTROL 타임스탬프] 및 [!UICONTROL 편집기]가 추가되었다면 표시됩니다. 메모가 없는 버전은 90일간 저장되고, 메모가 포함된 버전은 1년간 저장됩니다.
