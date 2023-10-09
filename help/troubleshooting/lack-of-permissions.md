@@ -4,13 +4,13 @@ description: 권한 부족으로 인한 문제를 해결하는 방법 알아보�
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
+exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
+source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
-
 
 # 권한 부족
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-*[!UICONTROL 문제가 발생하여 스키마 필드를 로드할 수 없습니다. 다시 시도하십시오.]*
+*[!UICONTROL DULE 정책을 검색하는 도중 문제가 발생했습니다. 계정 권한, 정책 또는 레이블을 확인하십시오. 메시지: 사용할 수 없음.]*
 
 >[!ENDSHADEBOX]
 
@@ -41,5 +41,3 @@ ht-degree: 4%
 1. 확인 **[!UICONTROL 데이터 사용 정책 관리]** 및 **[!UICONTROL 데이터 사용 정책 보기]** 에 추가됩니다. **[!UICONTROL 데이터 거버넌스]** 컨테이너.
 
 1. 선택 **[!UICONTROL 저장]** 변경 내용을 저장합니다.
-
-
