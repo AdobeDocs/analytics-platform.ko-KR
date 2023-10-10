@@ -3,14 +3,14 @@ description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표�
 title: 기여도 지표
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: d55df4ea2086278a243af51b698a9822a9a04e04
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '182'
 ht-degree: 32%
 
 ---
 
-# &quot;기여도&quot; 지표 작성
+# “참여도” 지표 작성
 
 다음 정보는 주문이 포함된 세션에 기여한(또는 참여한) 페이지를 표시하는 지표를 만드는 방법을 설명합니다.
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->관리 도구에서 기여도 지표를 활성화할 수 있지만, 사용자 지정 이벤트 1 - 100에 대해서만 가능합니다.
+>기여도와 같은 다른 속성 모델을 사용하는 지표는 관리자가 의 일부로 만들 수도 있습니다. [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). 아래 예제는 작업 영역에서 계산된 지표 빌더에 액세스할 수 있는 모든 사용자가 이러한 지표를 만드는 방법을 보여 줍니다.
 
 1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 1. 계산된 지표 빌더에서 지표의 이름을 &quot;기여도&quot; 또는 이와 유사하게 지정합니다
