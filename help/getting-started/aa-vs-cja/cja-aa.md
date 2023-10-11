@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2140'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 97%
 | Cross-Device Analytics | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
 | SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
-| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics을 사용하면 Adobe Analytics의 단일 보고서 세트인 것처럼 여러 보고서 세트의 데이터를 결합할 수 있습니다. |
-| 파생 필드 | 파생 필드를 사용하면 데이터에 대한 보고서 시간 변환을 수행할 수 있습니다. 데이터를 즉석으로 결합, 수정 또는 생성하고 모든 보고에 소급하여 적용할 수 있습니다. |
+| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 결합할 수 있습니다. |
+| 파생 필드 | 파생 필드를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
 
 {style="table-layout:auto"}
