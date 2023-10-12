@@ -3,7 +3,7 @@ title: Adobe Analytics와의 비교
 description: Customer Journey Analytics과 Adobe Analytics의 비교 개요.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 8%
@@ -47,7 +47,7 @@ Customer Journey Analytics은 기본 XDM(Experience Data Model) 기반 스키마
 
 ## 가상 보고 환경 및 샌드박스
 
-Adobe Analytics에는 수집된 데이터를 세그먼트화하고 세그먼트화된 데이터에 대한 액세스를 제어할 수 있는 가상 보고서 세트 라는 개념이 있습니다.
+Adobe Analytics에는 수집된 데이터를 세그먼트화하고 세그먼트화된 데이터에 대한 액세스를 제어할 수 있는 가상 보고서 세트라는 개념이 있습니다.
 
 Customer Journey Analytics은 데이터 보기 라는 유사한 개념을 가지고 있습니다. 데이터 보기는 연결에서 데이터를 해석하는 방법을 결정할 수 있는 컨테이너입니다. 보고 및 분석에 대비하여 차원 및 지표를 지정하고 구성할 수 있는 최고의 유연성을 제공합니다.
 

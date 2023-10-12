@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bf1e14fc0ecfdab3ff7032133d05ab0f40f123d6
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 99%
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 10월** | |
-| Adobe Analytics와의 비교 | Customer Journey Analytics과 Adobe Analytics 간의 차이점 비교 및 이해에 대한 소개로 개요 페이지를 추가했습니다. |
+| Adobe Analytics와의 비교 | 을(를) 추가함 [개요 페이지](../getting-started/aa-vs-cja/overview.md) Customer Journey Analytics과 Adobe Analytics의 차이점을 비교하고 이해하는 데 대한 소개입니다. |
 | 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 함수. |
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |

@@ -3,7 +3,7 @@ title: 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌�
 description: 가상 보고 환경 및 샌드박스 환경에 대해 알아보십시오.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: cb81422ed08420fe9a16c32ddd748c9569197b17
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 90%
