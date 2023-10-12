@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+source-git-commit: 82e0fbb714852750963e08597b6b1606127e0ac6
 workflow-type: tm+mt
 source-wordcount: '2139'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 | 보고 API 액세스 | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원. 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics로 포팅되지 않습니다. |
-| 가상 보고서 세트 | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
+| 가상 보고서 세트 | 전체 지원. 지금 호출됨 [데이터 보기](/help/data-views/create-dataview.md). |
 | 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원. 이제 데이터 보기의 일부입니다. |
 | 스트리밍 미디어 Analytics | 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
