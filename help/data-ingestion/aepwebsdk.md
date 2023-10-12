@@ -4,7 +4,7 @@ description: Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '3607'
 ht-degree: 86%
@@ -54,15 +54,17 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
 1. 선택 **[!UICONTROL 스키마 만들기]**. .
-1. 스키마 만들기 마법사의 클래스 선택 단계에서 **[!UICONTROL 경험 이벤트]**.
+1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
+   1. 선택 **[!UICONTROL 경험 이벤트]**.
 
-   >[!INFO]
-   >
-   >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
-   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+      >[!INFO]
+      >
+      >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+
+   1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
 1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:

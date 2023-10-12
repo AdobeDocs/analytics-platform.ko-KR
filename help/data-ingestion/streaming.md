@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 스트리밍 데이터를 수집 �
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '2026'
 ht-degree: 85%
@@ -50,15 +50,17 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
 1. 선택 **[!UICONTROL 스키마 만들기]**. .
-1. 스키마 만들기 마법사의 클래스 선택 단계에서 **[!UICONTROL 개인 프로필]**.
+1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   ![스키마 만들기](./assets/create-pr-schema-wizard-step-1.png)
+   1. 선택 **[!UICONTROL 개인 프로필]**.
 
-   >[!INFO]
-   >
-   >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      ![스키마 만들기](./assets/create-pr-schema-wizard-step-1.png)
 
-   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+      >[!INFO]
+      >
+      >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+
+   1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
 1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
