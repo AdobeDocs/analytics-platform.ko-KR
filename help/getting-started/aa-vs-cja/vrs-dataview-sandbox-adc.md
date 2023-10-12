@@ -3,10 +3,10 @@ title: 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌�
 description: 가상 보고 환경 및 샌드박스 환경에 대해 알아보십시오.
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 * Customer Journey Analytics 데이터 보기
 * Adobe Experience Platform 샌드박스
 
-## Adobe Analytics 가상 보고서 세트(VRS)
+## Adobe Analytics 가상 보고서 세트
 
 자세한 내용은 [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko-KR)를 참조하십시오.
 
@@ -28,10 +28,10 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 * 과거 데이터와 새 데이터 모두에 비파괴적인 방식으로 적용할 수 있습니다.
 * 여러 비즈니스 팀에서 사용할 수 있도록 Adobe Analytics 보고서 세트 위에 가상 보기를 하나 이상 만들 수 있습니다.
 * Adobe Analytics에서 다양한 사용자에 대해 다양한 종류의 데이터 액세스를 제어하고 큐레이션하는 데 사용할 수 있습니다.
-* Adobe Analytics에 대해 선택적 [보고서 시간 처리](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR) 기능을 제공합니다. 이 경우 VRS를 사용하여 “방문”에 대한 맞춤형 정의 생성에 사용할 수 있습니다.
+* Adobe Analytics에 대해 선택적 [보고서 시간 처리](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR) 기능을 제공합니다. 이 경우 가상 보고서 세트를 사용하여 &quot;방문&quot;에 대한 사용자 정의 정의를 생성할 수 있습니다.
 * 세그먼트 평가와 유사하게 보고서 런타임에 적용됩니다. 이는 Adobe Analytics 내에서 데이터를 수집하고 저장한 _후_&#x200B;입니다.
 * Adobe Analytics에서 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR)에 필요합니다.
-* 표준 Analytics 보고서 세트(250개 eVar, 250개 Prop, 1000개 이벤트)와 동일한 수의 변수를 사용할 수 있지만, VRS 큐레이션은 사용자에게 노출되는 변수를 제한할 수 있습니다.
+* 는 표준 Analytics 보고서 세트(250개의 eVar, 250개의 prop, 1000개의 이벤트)와 동일한 수의 변수를 사용할 수 있지만, 가상 보고서 세트 큐레이션은 사용자에게 노출되는 변수를 제한할 수 있습니다.
 * 사용자 정의 캘린더 옵션을 지원합니다.
 
 가상 보고서 세트는 다음과 같지 않습니다.

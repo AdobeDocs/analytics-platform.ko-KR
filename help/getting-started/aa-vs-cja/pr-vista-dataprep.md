@@ -3,10 +3,10 @@ title: 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 
 description: 처리 규칙 및 VISTA를 사용한 데이터 변환과 데이터 준비를 사용한 데이터 변환에 대해 알아보기
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

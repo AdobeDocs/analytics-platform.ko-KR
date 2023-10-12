@@ -4,14 +4,14 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
-workflow-type: ht
-source-wordcount: '2140'
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
+source-wordcount: '2139'
 ht-degree: 100%
 
 ---
 
-# Adobe Customer Journey Analytics 기능 지원
+# Customer Journey Analytics 기능 지원
 
 다음 표는 Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능을 보여 줍니다. 그리고 Customer Journey Analytics의 기능은 Adobe Analytics에서 지원 또는 사용할 수 없습니다. 이러한 기능은 Customer Journey Analytics에 추가되므로 시간이 지남에 따라 위의 표가 변경됩니다.
 

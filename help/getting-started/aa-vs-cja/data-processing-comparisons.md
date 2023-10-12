@@ -3,14 +3,14 @@ title: Adobe Analytics 및 Customer Journey Analytics 보고 기능 간의 데�
 description: 다양한 보고 기능에 대한 데이터 처리의 차이점 이해
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
-workflow-type: ht
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
 ---
 
-# Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다.
+# Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다
 
 보고에 도움이 되기 전에 데이터를 처리해야 하는 경우가 있습니다. 데이터 수집과 보고서 또는 시각화 생성에 걸쳐 여정의 여러 단계에서 해당 데이터를 처리할 수 있습니다.
 
