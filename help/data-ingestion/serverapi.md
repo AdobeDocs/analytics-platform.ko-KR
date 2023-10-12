@@ -3,10 +3,11 @@ title: Adobe Experience Platform Edge Network Server API를 통해 데이터 수
 description: Adobe Experience Platform Edge Network Server API 및 Edge Network를 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 62%
+source-wordcount: '2353'
+ht-degree: 60%
 
 ---
 
@@ -52,28 +53,35 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-2. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다. 옵션 목록에서 **[!UICONTROL XDM ExperienceEvent]**&#x200B;를 선택합니다.
+1. 선택 **[!UICONTROL 스키마 만들기]**. .
+1. 스키마 만들기 마법사의 클래스 선택 단계에서 **[!UICONTROL 경험 이벤트]**.
 
-   ![스키마 만들기](./assets/create-ee-schema.png)
+   ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필(예: 게임의 레벨에 도달). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+   >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-3. [!UICONTROL 제목 없는 스키마] 화면에서:
+1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
 
-   1. 스키마의 디스플레이 이름과 설명(선택 사항)을 입력합니다.
+   1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
 
-      ![스키마 이름 지정](./assets/name-schema.png)
+      ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
 
-   2. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
+
+1. 예제 스키마의 구조 탭에서:
+
+   1. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
       ![필드 그룹 추가](./assets/add-field-group-button.png)
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
-   3. 다음에서 [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL 눈부신 불빛]** 목록의 필드 그룹입니다. 이 필드 그룹은 콘솔에서 Blinding Light라는 가상 게임을 플레이하는 사용자 진행률을 추적하기 위해 만들어집니다.
+   1. 다음에서 [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL 눈부신 불빛]** 목록의 필드 그룹입니다. 이 필드 그룹은 콘솔에서 Blinding Light라는 가상 게임을 플레이하는 사용자 진행률을 추적하기 위해 만들어집니다.
 
       ![블라인드 라이트 필드 그룹](assets/schema-fieldgroup-blindinglight.png)
 
@@ -83,13 +91,13 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
       **[!UICONTROL 뒤로]**&#x200B;를 선택하여 미리보기를 닫습니다.
 
-   4. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
-4. 선택 **[!UICONTROL +]** 스키마 이름 옆에 있습니다.
+1. 선택 **[!UICONTROL +]** 스키마 이름 옆에 있습니다.
 
    ![예제 스키마 필드 추가 버튼](./assets/example-gamingschema-plus.png)
 
-5. 다음에서 [!UICONTROL 필드 속성] 패널, 입력 `identification` (으)로 [!UICONTROL 필드 이름], **[!UICONTROL 식별]** (으)로 [!UICONTROL 표시 이름], 선택 **[!UICONTROL 오브젝트]** (으)로 [!UICONTROL 유형] 및 선택 **[!UICONTROL ExperienceEvent 코어 v2.1]** (으)로 [!UICONTROL 필드 그룹].
+1. 다음에서 [!UICONTROL 필드 속성] 패널, 입력 `identification` (으)로 [!UICONTROL 필드 이름], **[!UICONTROL 식별]** (으)로 [!UICONTROL 표시 이름], 선택 **[!UICONTROL 오브젝트]** (으)로 [!UICONTROL 유형] 및 선택 **[!UICONTROL ExperienceEvent 코어 v2.1]** (으)로 [!UICONTROL 필드 그룹].
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
@@ -97,7 +105,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
-6. 방금 추가한 식별 오브젝트에서 **[!UICONTROL ECID]** 필드를 선택한 다음 오른쪽 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]** 및 **[!UICONTROL ECID]**&#x200B;를 선택합니다.
+1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL ECID]** 필드를 선택한 다음 오른쪽 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]** 및 **[!UICONTROL ECID]**&#x200B;를 선택합니다.
 
    ![ECID를 ID로 지정](./assets/specify-identity-gaming.png)
 
@@ -105,7 +113,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    **[!UICONTROL 적용]**&#x200B;을 선택합니다. ECID 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
-7. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
+1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
    ![이메일을 ID로 지정](./assets/specify-email-identity-gaming.png)
 
@@ -115,7 +123,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-8. 스키마 이름을 표시하는 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
+1. 스키마 이름을 표시하는 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
@@ -127,7 +135,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![프로필용으로 스키마 활성화](./assets/enable-for-profile.png)
 
-9. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 게임에서 캡처할 수 있는 데이터를 모델링하는 최소 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필에 대한 스키마를 활성화하면 콘솔 게임에서 캡처한 데이터가 실시간 고객 프로필에 추가됩니다.
 

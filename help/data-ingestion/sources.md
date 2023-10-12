@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 소스 커넥터를 사용하여 �
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 90%
+source-wordcount: '1980'
+ht-degree: 87%
 
 ---
 
@@ -51,28 +51,35 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-2. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다. 옵션 목록에서 **[!UICONTROL XDM 개별 프로필]**&#x200B;을 선택합니다.
+1. 선택 **[!UICONTROL 스키마 만들기]**. .
+1. 스키마 만들기 마법사의 클래스 선택 단계에서 **[!UICONTROL 개인 프로필]**.
 
-   ![스키마 만들기](./assets/create-schema.png)
+   ![스키마 만들기](./assets/create-pr-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다. Experience Event 스키마는 프로필의 _비헤이비어_(예: 페이지 조회수, 장바구니에 추가)를 모델링하는 데 사용됩니다.
+   >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-3. [!UICONTROL 제목 없는 스키마] 화면에서:
+1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
 
-   1. 스키마의 디스플레이 이름과 설명(선택 사항)을 입력합니다.
+   1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
 
-      ![스키마 이름 지정](./assets/name-loyalty-schema.png)
+      ![스키마 이름 지정](./assets/create-pr-schema-wizard-step-2.png)
 
-   2. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
+
+1. 예제 스키마의 구조 탭에서:
+
+   1. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
       ![필드 그룹 추가](./assets/add-field-group-button.png)
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
-   3. [!UICONTROL 필드 그룹 추가] 대화 상자의 목록에서 **[!UICONTROL 로열티 세부 사항]** 필드 그룹을 선택합니다.
+   1. [!UICONTROL 필드 그룹 추가] 대화 상자의 목록에서 **[!UICONTROL 로열티 세부 사항]** 필드 그룹을 선택합니다.
 
       ![AEP Web SDK ExperienceEvent 필드 그룹](./assets/loyalty-fieldgroup.png)
 
@@ -82,13 +89,13 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
       **[!UICONTROL 뒤로]**&#x200B;를 선택하여 미리보기를 닫습니다.
 
-   4. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
-4. [!UICONTROL 구조] 패널의 스키마 이름 옆에 있는 **[!UICONTROL +]**&#x200B;를 선택합니다.
+1. [!UICONTROL 구조] 패널의 스키마 이름 옆에 있는 **[!UICONTROL +]**&#x200B;를 선택합니다.
 
    ![예제 스키마 필드 추가 버튼](./assets/example-loalty-schema-plus.png)
 
-5. [!UICONTROL 필드 속성] 패널에서 `Identification`을 이름으로, **[!UICONTROL 식별]**&#x200B;을 [!UICONTROL 디스플레이 이름]으로 입력하고 **[!UICONTROL 오브젝트]**&#x200B;를 [!UICONTROL 유형]으로 **[!UICONTROL 프로필 코어 v2]**&#x200B;를 [!UICONTROL 필드 그룹]으로 선택합니다.
+1. [!UICONTROL 필드 속성] 패널에서 `Identification`을 이름으로, **[!UICONTROL 식별]**&#x200B;을 [!UICONTROL 디스플레이 이름]으로 입력하고 **[!UICONTROL 오브젝트]**&#x200B;를 [!UICONTROL 유형]으로 **[!UICONTROL 프로필 코어 v2]**&#x200B;를 [!UICONTROL 필드 그룹]으로 선택합니다.
 
    ![식별 오브젝트](./assets/identifcation-loyalty-field.png)
 
@@ -96,7 +103,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
-6. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널에서 [!UICONTROL ID] 네임스페이스의 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
+1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널에서 [!UICONTROL ID] 네임스페이스의 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
    ![이메일을 ID로 지정](./assets/specify-email-loyalty-id.png)
 
@@ -104,7 +111,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    **[!UICONTROL 적용]**&#x200B;을 선택합니다. 이메일 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
-7. 스키마(스키마 이름 포함)의 루트 수준을 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
+1. 스키마(스키마 이름 포함)의 루트 수준을 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
@@ -116,7 +123,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![프로필용으로 스키마 활성화](./assets/enable-for-profile.png)
 
-8. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하여 스트리밍 소스의 데이터가 실시간 고객 프로필에 추가되었는지 확인합니다.
 
