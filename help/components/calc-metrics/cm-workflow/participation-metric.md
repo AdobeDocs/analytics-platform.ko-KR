@@ -3,9 +3,9 @@ description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표�
 title: 기여도 지표
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 6a9cae93011447fff0f74ca4ae15178e0a1f36aa
+source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->기여도와 같은 다른 속성 모델을 사용하는 지표는 관리자가 의 일부로 만들 수도 있습니다. [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). 아래 예제는 작업 영역에서 계산된 지표 빌더에 액세스할 수 있는 모든 사용자가 이러한 지표를 만드는 방법을 보여 줍니다.
+>기여도와 같은 다른 속성 모델을 사용하는 지표는 관리자가 의 일부로 만들 수도 있습니다. [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html). 다음을 참조하십시오 [속성 구성 요소 설정](../../../data-views/component-settings/attribution.md) 을 참조하십시오.<br/>아래 예는 작업 영역에서 계산된 지표 빌더에 액세스할 수 있는 모든 사용자가 기여도 지표를 만드는 방법을 보여 줍니다.
 
 
 1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
-1. 계산된 지표 빌더에서 지표의 이름을 &quot;기여도&quot; 또는 이와 유사하게 지정합니다.
-1. 성공 이벤트(예: &quot;주문&quot;)가 포함된 지표를 정의 캔버스로 드래그합니다.
+1. 계산된 지표 빌더에서 지표 이름을 지정합니다 `Participation` 또는 비슷한 기능.
+1. 예를 들어 성공 이벤트가 포함된 지표를 드래그합니다 [!DNL Orders], 다음으로 [!UICONTROL 정의] 캔버스.
 1. 선택 ![톱니바퀴](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 지표에 사용됩니다.
 1. 표시되는 팝업에서 을 선택합니다. **[!UICONTROL 기본이 아닌 속성 모델 사용]** 을(를) 정의하려면 [속성 모델](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) 에 대한 해당 이벤트 **[!UICONTROL 기여도]** 및 선택 **[!UICONTROL 세션]** 대상: [!UICONTROL 전환 확인 기간]. 선택 **[!UICONTROL 적용]** 확인할 수 있습니다.
 
