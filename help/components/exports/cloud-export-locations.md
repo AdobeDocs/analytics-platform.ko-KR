@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 3c1e256bb2197ed844d699e4a28076b014566b99
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1497'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 4%
 
    에서 선택한 계정 유형에 해당하는 아래 섹션을 계속 진행합니다. [!UICONTROL **위치 계정**] 필드.
 
-### AEP 데이터 랜딩 영역
+### AEP 데이터 랜딩 구역
 
 >[!IMPORTANT]
 >
@@ -66,6 +66,21 @@ ht-degree: 4%
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
 1. 이제 Analysis Workspace에서 구성한 계정 및 위치로 데이터를 내보낼 수 있습니다. 데이터를 클라우드로 내보내는 방법에 대한 자세한 내용은 [클라우드로 프로젝트 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md).
+
+1. AEP 데이터 랜딩 구역에서 데이터에 액세스하는 가장 쉬운 방법은 Microsoft Azure Storage Explorer를 사용하는 것입니다. 이는 을 구성하는 지침에 사용되는 것과 동일한 도구입니다. [AEP 데이터 랜딩 영역 계정](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
+
+   1. 를 엽니다. [Microsoft Azure 스토리지 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. 다음으로 이동 [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_숫자_]**>*** your_container_name ***.
+
+      >[!NOTE]
+      >
+      >폴더 이름 **[!UICONTROL cjaexport-_숫자_]**은 Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은 다음과 같습니다.**[!UICONTROL cjaexport-1]**.
+
+
+      ![Azure 스토리지 탐색기에서 파일 액세스](assets/azure-storage-explorer-access.png)
+
+   1. 다운로드할 내보내기를 선택한 다음 을 선택합니다 [!UICONTROL **다운로드**] 다운로드.
 
 ### Amazon S3 Role ARN
 

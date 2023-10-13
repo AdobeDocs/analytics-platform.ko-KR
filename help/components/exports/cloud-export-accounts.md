@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 5%
+source-wordcount: '1783'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 1. 에 해당하는 아래 섹션을 계속합니다. [!UICONTROL **계정 유형**] 을(를) 선택했습니다.
 
-   * [AEP 데이터 랜딩 영역](#adobe-experience-platform)
+   * [AEP 데이터 랜딩 구역](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 
    * [Snowflake](#snowflake)
 
-### AEP 데이터 랜딩 영역
+### AEP 데이터 랜딩 구역
 
 >[!IMPORTANT]
 >
@@ -65,9 +65,31 @@ ht-degree: 5%
 
    ![계정 내보내기 대화 상자 AEP 데이터 랜딩 영역](assets/export-account-aep.png)
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS URI**] 필드를 클립보드에 추가합니다. 이 SAS URI를 사용하여 AEP 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
+1. 의 내용을 복사합니다. [!UICONTROL **SAS URI**] 필드를 클립보드에 추가합니다.
 
-1. 선택 [!UICONTROL **확인**].
+   이 SAS URI를 사용하여 AEP 데이터 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
+
+1. Adobe Experience Platform에서 복사한 SAS URI를 사용하도록 데이터 랜딩 영역 컨테이너를 구성합니다.
+
+   >[!NOTE]
+   >
+   >AEP 데이터 랜딩 영역 계정은 Azure를 기반으로 하므로 AEP 데이터 랜딩 영역으로 내보내는 보고서에 액세스하는 가장 쉬운 방법은 Azure Storage Explorer를 사용하는 것입니다. 다음 단계에서는 이 메서드를 사용합니다.
+
+   1. 아직 다운로드하지 않은 경우 [Microsoft Azure 스토리지 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. Adobe Experience Platform 설명서에서 설명된 단계를 수행합니다 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+
+      섹션에 설명된 작업을 건너뛸 수 있습니다 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials): 복사한 URI에 이러한 자격 증명이 포함되어 있기 때문입니다.
+
+   1. Adobe Experience Platform 설명서를 따라가면 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드에 3단계에서 복사한 SAS URI를 붙여넣습니다.
+
+      ![SAS URL 필드](assets/blob-container-sas-uri.png)
+
+   1. 선택 [!UICONTROL **다음**] > [!UICONTROL **연결**].
+
+1. Customer Journey Analytics에서 [!UICONTROL **내보내기 계정 생성됨**] 대화 상자, 선택 [!UICONTROL **확인**].
+
+   ![계정 내보내기 대화 상자 AEP 데이터 랜딩 영역](assets/export-account-aep.png)
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
