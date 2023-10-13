@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1826'
 ht-degree: 4%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 4%
 
    ![계정 내보내기 대화 상자 AEP 데이터 랜딩 영역](assets/export-account-aep.png)
 
-1. 의 내용을 복사합니다. [!UICONTROL **SAS URI**] 필드를 클립보드에 추가합니다.
+1. 의 내용을 복사합니다. [!UICONTROL **SAS URI**] 필드를 클립보드에 추가합니다. 이 SAS URI를 사용하여 AEP 데이터 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
 
-   이 SAS URI를 사용하여 AEP 데이터 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
+   이 필드가 비어 있는 경우 Adobe Experience Platform에 액세스할 수 있는 권한이 부여되어야 합니다.
 
 1. Adobe Experience Platform에서 복사한 SAS URI를 사용하도록 데이터 랜딩 영역 컨테이너를 구성합니다.
 
@@ -82,6 +82,11 @@ ht-degree: 4%
       섹션에 설명된 작업을 건너뛸 수 있습니다 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials): 복사한 URI에 이러한 자격 증명이 포함되어 있기 때문입니다.
 
    1. Adobe Experience Platform 설명서를 따라가면 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드에 3단계에서 복사한 SAS URI를 붙여넣습니다.
+
+      >[!NOTE]
+      >
+      >SAS URI가 생성된 후 7일 후에 만료되므로 이 작업은 7일마다 수행해야 합니다. 이 프로세스를 자동화하는 스크립트를 만들 수 있습니다.
+
 
       ![SAS URL 필드](assets/blob-container-sas-uri.png)
 
