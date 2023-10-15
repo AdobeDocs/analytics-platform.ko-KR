@@ -3,7 +3,7 @@ title: 보고 활동 관리자에서 보고 요청 취소
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 7%
@@ -132,6 +132,8 @@ ht-degree: 7%
    요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 표시되는 방법에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report).
 
 ## 사용자가 취소된 보고서에 액세스할 때의 경험
+
+<!-- Update for CJA and AA -->
 
 Analysis Workspace에서 사용자가 관리자가 취소한 보고서에 액세스하려고 하면 다음과 같은 메시지가 표시됩니다.
 

@@ -3,10 +3,10 @@ title: 보고 활동 관리자에서 보고 활동 보기
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: dba42bedd14c4c6d958feab9a1ebdc137d489f32
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 17%
+source-wordcount: '1731'
+ht-degree: 16%
 
 ---
 
@@ -43,25 +43,25 @@ ht-degree: 17%
    | UI 요소 | 설명 |
    | --- | --- |
    | **[!UICONTROL 연결]** | 모니터링 중인 보고 활동의 연결입니다. |
-   | **[!UICONTROL 가상 보고서 세트]** | 이 기본 보고서 세트에 공급되는 모든 가상 보고서 세트를 표시합니다. 가상 보고서 세트는 적용된 필터링 및 세분화의 추가적인 수준으로 인해 보고 요청을 더욱 복잡하게 합니다. 가상 보고서 세트에서 오는 모든 요청은 기본 보고서 세트에 결합됩니다.<p>예를 들어 5개의 가상 보고서 세트에서 10개의 요청이 들어오는 경우 기본 수준 보고서 세트의 요청 수는 50개입니다. 이러한 방식으로 매우 빠르게 용량에 도달할 수 있습니다. |
-   | **[!UICONTROL 용량 활용성]** | 실시간으로 사용 중인 보고서 세트의 보고 용량의 비율입니다. <p>**참고** 사용 용량이 100%라고 해서 보고 요청 취소를 바로 시작해야 하는 것은 아닙니다. 평균 대기 시간이 적절하다면 100% 사용 용량은 적절할 수 있습니다. 반면에 100% 사용 용량은 큐에 있는 요청 수가 증가하는 경우에도 문제를 시사할 수 있습니다.</p> |
+   | **[!UICONTROL 데이터 보기]** | 연결에 공급되는 모든 데이터 보기를 표시합니다. 데이터 보기는 적용된 필터링 및 세분화의 추가적인 수준으로 인해 보고 요청에 복잡성을 가중시킵니다. 데이터 보기에서 오는 모든 요청은 연결에 결합됩니다.<p>예를 들어 5개의 데이터 보기에서 10개의 요청이 들어오는 경우 연결에서의 요청은 50개입니다. 이러한 방식으로 매우 빠르게 용량에 도달할 수 있습니다. |
+   | **[!UICONTROL 용량 활용성]** | 실시간으로 사용 중인 연결의 보고 용량 백분율입니다. <p>**참고** 사용 용량이 100%라고 해서 보고 요청 취소를 바로 시작해야 하는 것은 아닙니다. 평균 대기 시간이 적절하다면 100% 사용 용량은 적절할 수 있습니다. 반면에 100% 사용 용량은 큐에 있는 요청 수가 증가하는 경우에도 문제를 시사할 수 있습니다.</p> |
    | **[!UICONTROL 대기 중인 요청]** | 처리 대기 중인 요청 수입니다. <!-- ??? --> |
    | **[!UICONTROL 대기열 대기 시간]** | 요청 처리를 시작하기 전 평균 대기 시간입니다. <!-- ???? --> |
-   | **[!UICONTROL 상태]** | 가능한 상태는 다음과 같습니다. <ul><li>[!UICONTROL **활성**] (파란색): 보고서가 보고서 세트에서 실행되었으며 활동에 대해 모니터링 중입니다.</li><li>[!UICONTROL **비활성**] (회색): 보고서 세트에서 실행된 보고서가 없습니다. 이 상태는 보고서 세트를 처음 만들 때만 표시됩니다.</li></ul> |
+   | **[!UICONTROL 상태]** | 가능한 상태는 다음과 같습니다. <ul><li>[!UICONTROL **활성**] (파란색): 연결에서 보고서가 실행되었으며 활동이 모니터링되고 있습니다.</li><li>[!UICONTROL **비활성**] (회색): 연결에서 보고서가 실행된 적이 없습니다. 이 상태는 연결을 처음 만들 때만 표시됩니다.</li></ul> |
 
    {style="table-layout:auto"}
 
-## 단일 보고서 세트에 대한 보고 활동 보기
+## 단일 연결에 대한 보고 활동 보기
 
 1. Customer Journey Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **활동 관리자 보고**].
 
-1. 세부 정보를 보려는 보고서 세트의 연결된 제목을 선택합니다.
+1. 세부 정보를 보려는 연결의 연결된 제목을 선택합니다.
 
-   선택한 보고서 세트에 대한 보고 활동 데이터가 표시됩니다.
+   선택한 연결에 대한 보고 활동 데이터가 표시됩니다.
 
-   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+   <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
-1. 사용 가능한 그래프 및 표를 사용하여 보고서 세트의 보고 활동을 이해합니다.
+1. 사용 가능한 그래프 및 표를 사용하여 연결의 보고 활동을 이해합니다.
 
    * [그래프 보기](#view-graphs)
 
@@ -69,13 +69,13 @@ ht-degree: 17%
 
 ### 그래프 보기
 
-다음 그래프를 사용하여 보고서 세트에서 발생하는 활동을 더 잘 이해할 수 있습니다.
+다음 그래프는 연결에서 발생하는 활동을 더 잘 이해하는 데 도움이 됩니다.
 
 그래프가 표시되지 않으면 [!UICONTROL **그래프 표시**] 단추를 클릭합니다.
 
 #### 활용률 그래프 {#utilization}
 
-활용률 그래프는 선택한 보고서 세트에 대한 지난 2시간 동안의 보고 활용률을 보여 줍니다.
+사용률 그래프는 지난 2시간 동안 선택한 연결에 대한 보고 사용률을 보여 줍니다.
 
 차트 위로 마우스를 가져가면 해당 분 동안 사용 용량 비율이 가장 높았던 시점을 확인할 수 있습니다.
 
@@ -86,7 +86,7 @@ ht-degree: 17%
 
 #### 고유 사용자 그래프
 
-[고유 사용자] 그래프는 선택한 보고서 세트에 대한 지난 2시간 동안의 보고 활동을 보여 줍니다.
+고유 사용자 그래프는 지난 2시간 동안 선택한 연결에 대한 보고 활동을 보여줍니다.
 
 차트 위로 마우스를 가져가면 해당 분 동안 최대 사용자 수가 가장 많았던 시점을 볼 수 있습니다.
 
@@ -97,7 +97,7 @@ ht-degree: 17%
 
 #### 요청 그래프
 
-요청 그래프는 지난 2시간 동안 선택한 보고서 세트에 대해 처리 및 완료된 요청 수를 보여 줍니다.
+요청 그래프는 지난 2시간 동안 선택한 연결에 대해 처리 및 완료된 요청 수를 보여 줍니다.
 
 차트 위로 마우스를 가져가면 해당 분 동안 최대 요청 수가 가장 많았던 시점을 볼 수 있습니다.
 
@@ -108,7 +108,7 @@ ht-degree: 17%
 
 #### 큐 그래프
 
-큐 그래프는 지난 2시간 동안 선택한 보고서 세트에 대한 요청 보고에 대한 평균 큐 대기 시간(초)을 보여 줍니다.
+큐 그래프는 지난 2시간 동안 선택한 연결에 대한 요청 보고에 대한 평균 큐 대기 시간(초)을 보여 줍니다.
 
 차트 위로 마우스를 가져가면 해당 분에 대한 최대 평균 대기 시간이 가장 긴 시점을 볼 수 있습니다.
 
@@ -215,11 +215,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
 | [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL **Queries**] | The number of queries currently running. |
 | [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
 
 {style="table-layout:auto"}
 

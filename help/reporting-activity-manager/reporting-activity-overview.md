@@ -3,7 +3,7 @@ title: 보고 활동 관리자 개요
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 34%
@@ -29,6 +29,8 @@ ht-degree: 34%
 * 지정된 기간 동안 향후 요청을 제한할 수 있습니다. 특정 요청을 제한하거나 특정 사용자의 모든 요청 또는 특정 프로젝트와 연관된 요청을 제한할 수 있습니다.
 
 ## 권한
+
+<!-- update for CJA -->
 
 보고 활동을 관리하려면 Adobe Admin Console에서 Analytics 제품 관리자 권한이 있어야 합니다.
 

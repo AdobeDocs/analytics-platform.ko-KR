@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 10월)
 
-**마지막 업데이트**: 2023년 10월 4일
+**마지막 업데이트**: 2023년 10월 13일
 
 이번 릴리스 정보에는 2023년 10월 4일부터 2023년 10월 24일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
