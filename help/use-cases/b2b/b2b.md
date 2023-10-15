@@ -1,17 +1,17 @@
 ---
-title: (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
+title: 계정 수준 데이터를 조회 데이터 세트로 추가
 description: Customer Journey Analytics에 조회 데이터 세트로 계정 기반 데이터를 추가하는 방법 알아보기
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '817'
 ht-degree: 74%
 
 ---
 
-# (B2B) 계정 수준 데이터를 조회 데이터 세트로 추가
+# 계정 수준 데이터를 조회 데이터 세트로 추가
 
 이 B2B 사용 사례는 분석을 위한 개인 수준이 아닌 계정 수준에서 데이터를 지정하는 방법을 보여 줍니다. 계정 수준 분석은 다음과 같은 질문에 답변할 수 있습니다.
 
