@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1822'
 ht-degree: 15%
 
 ---
@@ -68,7 +68,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 
 Workspace 프로젝트를 작성할 때 관련 B2B 차원 및 지표에 액세스하려면 그에 따라 데이터 보기를 정의해야 합니다.
 
-이 섹션에서는 을(를) 정의할 때 포함할 차원 및 지표에 대한 권장 사항과 제안 사항을 제공합니다. [구성 요소](../../data-views/create-dataview.md#components) 을 참조하십시오.
+이 섹션에서는 을(를) 정의할 때 포함할 차원 및 지표에 대한 권장 사항과 제안 사항을 제공합니다. [구성 요소](../../data-views/create-dataview.md#components) 데이터 보기의 B2B 데이터 세트용.
 
 각 구성 요소에 대해 이름, 스키마 유형, 스키마 경로 및 (해당되는 경우) 구성에 대한 세부 정보가 제공됩니다.
 
