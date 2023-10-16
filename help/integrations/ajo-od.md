@@ -2,8 +2,8 @@
 title: Adobe Journey Optimizer 의사 결정 관리를 Adobe Customer Journey Analytics과 통합
 description: Adobe Journey Optimizer 의사 결정 관리에서 생성한 데이터를 가져와 Customer Journey Analytics 내에서 Analysis Workspace을 사용하여 분석합니다.
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 20%
