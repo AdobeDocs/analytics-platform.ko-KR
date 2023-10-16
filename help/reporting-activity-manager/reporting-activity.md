@@ -3,7 +3,7 @@ title: 보고 활동 관리자에서 보고 활동 보기
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 16%
@@ -171,7 +171,7 @@ ht-degree: 16%
 
 | 열 | 설명 |
 | --- | --- |
-| [!UICONTROL **프로젝트**] | 쿼리가 시작된 프로젝트입니다. |
+| [!UICONTROL **프로젝트**] | 요청이 시작된 프로젝트입니다. |
 | [!UICONTROL **요청 수**] | 프로젝트와 연계된 요청 수입니다. |
 | [!UICONTROL **사용자 수**] | 프로젝트와 연계된 사용자 수입니다. <!-- ??? --> |
 | [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등</li><li>1.4 또는 2.0 API의 API 호출</li><li>지능형 경고</li></ul> |
@@ -188,7 +188,7 @@ ht-degree: 16%
 
 | 열 | 설명 |
 | --- | --- |
-| [!UICONTROL **애플리케이션**] | 쿼리가 시작된 애플리케이션입니다. |
+| [!UICONTROL **애플리케이션**] | 요청이 시작된 애플리케이션. |
 | [!UICONTROL **요청 수**] | 응용 프로그램과 연결된 요청 수입니다. |
 | [!UICONTROL **사용자 수**] | 응용 프로그램과 연결된 사용자 수입니다. <!--???--> |
 | [!UICONTROL **프로젝트 수**] | 응용 프로그램과 연결된 프로젝트 수입니다. <!--???--> |
@@ -198,29 +198,3 @@ ht-degree: 16%
 | [!UICONTROL **평균 세그먼트**] | 포함된 요청에 적용된 평균 세그먼트 수입니다. 세그먼트가 많으면 요청의 복잡성이 증가합니다. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
-
-{style="table-layout:auto"}
-
--->
