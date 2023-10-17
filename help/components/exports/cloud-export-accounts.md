@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '1826'
 ht-degree: 4%
@@ -12,8 +12,6 @@ ht-degree: 4%
 ---
 
 # 클라우드 내보내기 계정 구성
-
-{{release-limited-testing}}
 
 에 설명된 대로 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기 전에 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)데이터를 전송할 대상을 추가하고 구성해야 합니다.
 

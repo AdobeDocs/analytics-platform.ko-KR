@@ -4,10 +4,10 @@ description: 이 조합은 차원 값이 하나의 이벤트에서 다음 이벤
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 86%
+source-wordcount: '859'
+ht-degree: 81%
 
 ---
 
@@ -20,15 +20,11 @@ ht-degree: 86%
 
 * 하나의 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당** 설정을 통해 보존되는 값을 결정할 수 있습니다.
 
-<!--
-
   >[!NOTE]
   >
-  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >다음 항목이 있는 경우: [비기본 속성 모델](/help/data-views/component-settings/attribution.md) 보고서의 지표에 설정된 속성 모델은 동일한 보고서에 대해 차원에 설정된 할당을 무시합니다.
   >
-  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
-
--->
+  >그러나 을 수행할 때 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 여러 차원이 포함된 경우 속성은 각 차원에 적용된 할당 모델을 유지합니다.
 
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 

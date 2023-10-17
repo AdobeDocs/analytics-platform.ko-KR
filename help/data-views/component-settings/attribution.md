@@ -4,10 +4,10 @@ description: 지표에 대한 기본 속성을 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 37%
+source-wordcount: '1937'
+ht-degree: 35%
 
 ---
 
@@ -28,21 +28,17 @@ ht-degree: 37%
 
 데이터 보기에서 지표 설정을 업데이트하여 주어진 지표에 대한 기본 속성 모델을 설정할 수 있습니다. 이렇게 하면 Analysis Workspace에서 지표를 사용할 때마다 지표의 속성 모델이 무시됩니다.
 
-<!-- 
-
 >[!NOTE]
 >
->Consider the following when enabling attribution on a metric:
+>지표에 대한 속성을 활성화할 때 다음 사항을 고려하십시오.
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **보고서에서 구성 요소를 사용할 때 *단일 차원*:** 기본이 아닌 속성 모델이 사용되는 경우 구성 요소의 속성은 할당 모델을 무시합니다.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **보고서에서 구성 요소를 사용할 때 *여러 차원*:** 기본이 아닌 속성 모델을 사용할 때 구성 요소의 속성은 할당 모델을 유지합니다.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   여러 차원은 다음과 같은 경우에만 사용할 수 있습니다. [클라우드로 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> 할당에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md).
 
 구성 요소의 기본 속성 모델을 업데이트하려면:
 

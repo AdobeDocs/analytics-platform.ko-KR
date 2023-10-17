@@ -3,10 +3,10 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 94%
+source-wordcount: '768'
+ht-degree: 84%
 
 ---
 
@@ -56,21 +56,17 @@ ht-degree: 94%
 
 에서 설정된 기본 속성 모델을 재정의할 수 있습니다. [데이터 보기](/help/data-views/component-settings/attribution.md).
 
-<!--
-
 >[!NOTE]
 >
->Consider the following when updating a component's attribution to a non-default attribution model:
+>구성 요소의 속성을 기본값이 아닌 속성 모델로 업데이트할 때에는 다음 사항을 고려하십시오.
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **보고서에서 구성 요소를 사용할 때 *단일 차원*:** 기본이 아닌 속성 모델이 사용되는 경우 구성 요소의 속성은 할당 모델을 무시합니다.
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **보고서에서 구성 요소를 사용할 때 *여러 차원*:** 기본이 아닌 속성 모델을 사용할 때 구성 요소의 속성은 할당 모델을 유지합니다.
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   여러 차원은 다음과 같은 경우에만 사용할 수 있습니다. [클라우드로 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> 할당에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md).
 
 Analysis Workspace에서 지표에 대해 기본값이 아닌 속성 모델을 사용하려면 다음 작업을 수행하십시오.
 
