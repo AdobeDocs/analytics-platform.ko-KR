@@ -3,10 +3,10 @@ title: 보고 활동 관리자 개요
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 29%
+source-wordcount: '276'
+ht-degree: 23%
 
 ---
 
@@ -32,9 +32,7 @@ ht-degree: 29%
 
 <!-- update for CJA -->
 
-보고 활동을 관리하려면 Adobe Admin Console에서 Analytics 제품 관리자 권한이 있어야 합니다.
-
-![사용 권한](assets/rep-mgr-permission.png)
+보고 활동을 관리하려면 제품 관리자 역할이 있어야 합니다. 자세한 내용은 [제품 관리자 역할](/help/admin/cja-access-control.md#product-admin-role) 위치: [Customer Journey Analytics 액세스 제어](/help/admin/cja-access-control.md).
 
 ## 보고 활동 보기
 
@@ -43,11 +41,3 @@ ht-degree: 29%
 ## 보고 요청 취소
 
 보고 활동 관리자에서 보고 요청을 취소하는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
-
-## FAQ {#faq}
-
-| 질문 | 답변 |
-| --- | --- |
-| 보고 용량을 추가로 구매할 수 있습니까? | 이 기능은 가까운 시일 내에 사용할 수 있습니다. |
-
-{style="table-layout:auto"}

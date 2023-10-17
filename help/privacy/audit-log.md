@@ -3,9 +3,9 @@ title: 감사 로그
 description: Customer Journey Analytics 감사 로그를 보고 관리하는 방법을 알아봅니다.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 67%
 
 ---
@@ -48,6 +48,7 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
    * 만들기
    * DELETE
    * 편집
+   * 엠바고
    * 내보내기
    * ORG_CHANGE
    * 새로 고침

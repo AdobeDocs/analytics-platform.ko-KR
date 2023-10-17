@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: d5a46c4ffbacb0e05a637ee9e19875572a2aebf4
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 82%
 
 ---
@@ -25,6 +25,7 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 * 연결 또는 데이터 보기 만들기/업데이트/삭제
 * 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트/삭제
 * 모든 사용자에게 작업 영역 프로젝트 공유
+* 에서 보고 활동 관리 [활동 관리자 보고](/help/reporting-activity-manager/reporting-activity-overview.md)
 
 Customer Journey Analytics에서 제품 관리자가 되는 것만으로는 [연결](/help/connections/overview.md)을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
 
