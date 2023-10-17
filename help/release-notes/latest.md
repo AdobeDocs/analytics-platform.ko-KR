@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: 1482cc7b9da01b60e15d2e48b1156b603e20c6e3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 10월)
 
-**마지막 업데이트**: 2023년 10월 13일
+**마지막 업데이트**: 2023년 10월 17일
 
 이번 릴리스 정보에는 2023년 10월 4일부터 2023년 10월 24일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **조회 및 프로필 데이터 세트에 대한 행 수 지표** | 이러한 지표는 이전에는 이벤트 데이터 세트에만 사용할 수 있었습니다. | 2023년 10월 16일 |
 | **클라우드로 전체 테이블 내보내기** | Customer Journey Analytics 전체 테이블 내보내기를 사용하면 수백만 개의 Workspace 행을 클라우드 대상으로 내보낼 수 있습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p> 클라우드 내보내기 옵션에는 다음과 같은 사항이 포함됩니다.</p><ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. | 2023년 10월 4일 | 2023년 10월 19일 |
 | **구성 요소 관리 시 새로운 열 사용 가능** | 이제 구성 요소 관리 시 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 및 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html) 에서 새로운 열을 사용할 수 있습니다.<ul><li>다음에서 사용</li><li>마지막 사용</li></ul>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다. | 2023년 9월 23일 | 2023년 10월 4일 |
 | **Adobe Analytics 프로젝트 및 포함된 모든 구성 요소를 Customer Journey Analytics로 마이그레이션** | 이제 Adobe Analytics 프로젝트를 Customer Journey Analytics로 마이그레이션할 수 있습니다. 이 프로세스는 Adobe Analytics에서 Customer Journey Analytics로의 전환을 간소화합니다. <p>프로젝트를 Customer Journey Analytics로 마이그레이션하면 자산이 Adobe Analytics 보고서 세트에서 Customer Journey Analytics 데이터 보기로 매핑됩니다.</p> <p>Adobe Analytics 인터페이스에서 Customer Journey Analytics로 프로젝트를 마이그레이션합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 해당 사항 없음 | 2023년 10월 9일 |
