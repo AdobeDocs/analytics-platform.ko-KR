@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 53cf026531ac5690a3e5a31acaa5654a52747b69
+source-git-commit: 69317871bae9ad2a0fecad6b1df1cc357094b05c
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 ## 목표 사용
 
-Workspace 프로젝트의 목표를 사용하려면 계산된 지표 기능을 사용하여 파생 필드를 원래 정적 값으로 다시 &#39;정규화&#39;합니다.
+Workspace 프로젝트의 목표를 사용하려면 계산된 지표 기능을 사용하여 파생 필드를 원래 정적 값으로 다시 &#39;정규화&#39;합니다. 목표를 정의하는 파생 필드에 설정한 정적 값이 모든 이벤트에 따라 증가하므로 이 표준화가 필요합니다.
 
 ### 월별 상품권 주문 목표
 
