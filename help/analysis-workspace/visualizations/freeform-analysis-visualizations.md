@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1285'
+ht-degree: 84%
 
 ---
 
@@ -20,24 +20,24 @@ ht-degree: 86%
 Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 | 시각화 이름 | 설명 |
-| --- | --- |
-| [영역](/help/analysis-workspace/visualizations/area.md) | 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
-| [막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
-| [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
-| [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
-| [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
-| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
-| [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
-| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
-| [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 사용자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
-| [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
-| [라인](/help/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
-| [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
-| [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀을 1개의 큰 숫자로 표시합니다. |
-| [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀 사이의 변화를 1개의 큰 숫자/퍼센트로 표시합니다. |
-| [텍스트](/help/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
-| [트리맵](/help/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
-| [벤](/help/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
+| --- | --- | 
+| [영역](/help/analysis-workspace/visualizations/area.md)<p>![영역 아이콘](assets/Smock_GraphArea_18_N.svg)</p> | 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. | 다음과 같은 질문에 대한 답변: <ul><li> |
+| [막대](/help/analysis-workspace/visualizations/bar.md) <p>![막대 아이콘](assets/Smock_GraphBarVertical_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
+| [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![글머리 기호 아이콘](assets/Smock_GraphBullet_18_N.svg)</p> | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
+| [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![집단 테이블 아이콘](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
+| [도넛](/help/analysis-workspace/visualizations/donut.md) <p>![도넛 아이콘](assets/Smock_GraphDonut_18_N.svg)</p> | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
+| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![폴아웃 아이콘](assets/Smock_ConversionFunnel_18_N.svg)</p> | 폴아웃 보고서는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
+| [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![플로우 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
+| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![자유 형식 테이블 아이콘](assets/Smock_ViewTable_18_N.svg)</p> | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
+| [히스토그램](/help/analysis-workspace/visualizations/histogram.md)<p>![막대 그래프 아이콘](assets/Smock_GraphHistogram_18_N.svg)</p> | 히스토그램은 지표 볼륨을 기반으로 사용자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
+| [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![가로 막대 아이콘](assets//Smock_GraphBarHorizontal_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
+| [라인](/help/analysis-workspace/visualizations/line.md)<p>![라인 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
+| [산포도](/help/analysis-workspace/visualizations/scatterplot.md) <p>![산포도 아이콘](assets/Smock_GraphScatter_18_N.svg)</p> | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
+| [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 번호 아이콘](assets/summary-number-icon.png)</p> | 선택한 셀을 1개의 큰 숫자로 표시합니다. |
+| [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 변경 아이콘](assets/summary-change-icon.png)</p> | 선택한 셀 사이의 변화를 1개의 큰 숫자/퍼센트로 표시합니다. |
+| [텍스트](/help/analysis-workspace/visualizations/text.md)<p>![산포도 아이콘](assets/Smock_Text_18_N.svg)</p> | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
+| [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p>![트리맵 아이콘](assets/Smock_GraphTree_18_N.svg)</p> | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
+| [벤](/help/analysis-workspace/visualizations/venn.md)<p>![벤 아이콘](assets/venn-icon.png)</p> | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
 
 ## 패널에 시각화 추가
 
