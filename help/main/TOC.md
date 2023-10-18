@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
+source-git-commit: f6c874a96278cf593174f5ee79557b3a711a23e3
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 82%
 
 ---
@@ -190,18 +190,20 @@ ht-degree: 82%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + 영향 {#impact}
-      + [릴리스 보기](../guided-analysis/types/release.md)
-      + [첫 번째 사용 보기](../guided-analysis/types/first-use.md)
-   + 단계 {#funnel}
-      + [마찰 보기](../guided-analysis/types/friction.md)
-      + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
    + 사용자 증가 {#user-growth}
       + [활성 보기](../guided-analysis/types/active.md)
       + [순 성장 전망](../guided-analysis/types/net-growth.md)
    + 트렌드 {#trends}
       + [사용 보기](../guided-analysis/types/usage.md)
       + [빈도 보기](../guided-analysis/types/frequency.md)
+   + 단계 {#funnel}
+      + [마찰 보기](../guided-analysis/types/friction.md)
+      + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
+   + 영향 {#impact}
+      + [릴리스 보기](../guided-analysis/types/release.md)
+      + [첫 번째 사용 보기](../guided-analysis/types/first-use.md)
+   + 유지 {#retention}
+      + [유지율](../guided-analysis/types/retention-rates.md)
    + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
    + [FAQ](../guided-analysis/faq.md)
 
