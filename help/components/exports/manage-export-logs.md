@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 내보내기 로그 관리
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '825'
 ht-degree: 7%
 
 ---
@@ -16,6 +16,26 @@ ht-degree: 7%
 내보내기 로그는 각 내보내기에 대한 세부 정보를 제공하며 Analysis Workspace 데이터를 클라우드로 내보낼 때마다 생성됩니다. (데이터를 클라우드로 내보내는 방법에 대한 자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md).)
 
 예약된 내보내기의 경우 로그는 로그를 전송할 때의 내보내기 설정을 그대로 반영합니다. 로그를 삭제할 수 없습니다.
+
+## 내보내기 보기 로그
+
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
+
+1. 다음 항목 선택 [!UICONTROL **로그**] 탭.
+
+   ![로그 내보내기 탭](assets/export-logs-tab.png)
+
+   각 로그에 대한 세부 정보가 사용 가능한 열에 표시됩니다.
+
+1. 다음 중 하나를 수행합니다.
+
+   * [열 사용자 지정](#configure-columns) 표시됩니다.
+
+   * 다음 항목 선택 **정보 아이콘** ![정보 아이콘](assets/information-icon.png) 로그와 연관된 내보내기를 보려면 로그 이름 옆에 있어야 합니다.
+
+   * 다음 항목 선택 **내보내기 아이콘 편집** ![정보 아이콘](assets/edit-export-icon.png) 로그 이름 옆에 있는 을(를) 사용하여 로그와 연관된 내보내기를 편집합니다.
+
+     내보내기 편집에 대한 자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md).
 
 ## 로그 필터링 및 검색
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '482'
 ht-degree: 5%
 
 ---
@@ -63,11 +63,7 @@ ht-degree: 5%
 
 ## 위치 삭제
 
-위치를 삭제하면 해당 위치를 사용하는 내보내기도 모두 삭제됩니다.
-
-위치를 삭제하기 전에 먼저 위치 이름 옆에 있는 정보 아이콘을 선택하여 내보내기에서 해당 위치를 사용 중인지 확인하십시오.
-
-![연결된 내보내기](assets/location-connected-exports.png)
+위치를 삭제하면 해당 위치를 사용하는 내보내기도 모두 삭제됩니다. 삭제할 때 확인 대화 상자를 선택하여 위치와 연결된 내보내기가 없는지 확인합니다.
 
 위치를 삭제하려면:
 
@@ -77,7 +73,15 @@ ht-degree: 5%
 
    ![위치 편집](assets/locations-edit.png)
 
-1. 선택 [!UICONTROL **삭제**]&#x200B;을 선택한 다음 을 선택합니다. [!UICONTROL **삭제**] 확인 대화 상자에서 다시 확인합니다.
+1. [!UICONTROL **삭제**]&#x200B;를 선택합니다.
+
+   위치 삭제 대화 상자가 표시됩니다.
+
+1. 위치 삭제 대화 상자에서 삭제를 확인하기 전에 위치가 내보내기와 연결되어 있지 않은지 확인합니다.
+
+   ![위치 삭제 확인 대화 상자](assets/delete-location-confirmation-dialog.png)
+
+1. 선택 [!UICONTROL **삭제**] 다시 한 번 확인해 보십시오.
 
 ## 계정 편집
 
@@ -85,7 +89,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-page.png)
+   ![계정 페이지](assets/account-add.png)
 
 1. 선택 [!UICONTROL **세부 정보 보기**] 편집할 계정에 대해 설명합니다.
 
@@ -101,7 +105,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-page.png)
+   ![계정 페이지](assets/account-add.png)
 
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 키**].
 
@@ -111,7 +115,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-page.png)
+   ![계정 페이지](assets/account-add.png)
 
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 삭제**].
 
