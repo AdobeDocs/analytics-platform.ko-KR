@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1482cc7b9da01b60e15d2e48b1156b603e20c6e3
+source-git-commit: 328b95efb7ed9ff597b95979ecdeceaa8db92bb4
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 10월)
 
-**마지막 업데이트**: 2023년 10월 17일
+**마지막 업데이트**: 2023년 10월 19일
 
 이번 릴리스 정보에는 2023년 10월 4일부터 2023년 10월 24일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 | **Adobe Analytics 프로젝트 및 포함된 모든 구성 요소를 Customer Journey Analytics로 마이그레이션** | 이제 Adobe Analytics 프로젝트를 Customer Journey Analytics로 마이그레이션할 수 있습니다. 이 프로세스는 Adobe Analytics에서 Customer Journey Analytics로의 전환을 간소화합니다. <p>프로젝트를 Customer Journey Analytics로 마이그레이션하면 자산이 Adobe Analytics 보고서 세트에서 Customer Journey Analytics 데이터 보기로 매핑됩니다.</p> <p>Adobe Analytics 인터페이스에서 Customer Journey Analytics로 프로젝트를 마이그레이션합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 해당 사항 없음 | 2023년 10월 9일 |
 | **Adobe Product Analytics: 시리즈 표시/숨기기** | 시각화에서 시리즈의 가시성을 제어하려면 차트 범례 또는 테이블 행을 클릭하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=ko) | 해당 사항 없음 | 2023년 10월 4일 |
 | **Adobe Product Analytics의 주석** | 이제 안내식 분석이 Customer Journey Analytics에서 생성된 주석을 조회하는 기능을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=ko) | 해당 사항 없음 | 2023년 10월 4일 |
-| **보고 활동 관리자** | 보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. 보고 활동 관리자의 주요 기능은 다음과 같습니다.<ul><li>현재 보고 요청 취소 (안내식 분석 및 전체 테이블 내보내기 요청 포함)</li><li>정의된 기간 동안 후속 요청 제한</li></ul>현재 요청을 취소하는 것 외에도 관리자는 이제 정의된 기간 동안 요청을 제한할 수 있습니다. 관리자는 요청, 프로젝트 또는 사용자별로 요청을 제한할 수 있습니다. [자세히 알아보기](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023년 10월 17일 | 2023년 10월 23일 |
+| **보고 활동 관리자** | 보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. 보고 활동 관리자의 주요 기능은 다음과 같습니다.<ul><li>현재 보고 요청 취소 (안내식 분석 및 전체 테이블 내보내기 요청 포함)</li><li>정의된 기간 동안 후속 요청 제한</li></ul>현재 요청을 취소하는 것 외에도 관리자는 이제 정의된 기간 동안 요청을 제한할 수 있습니다. 관리자는 요청, 프로젝트 또는 사용자별로 요청을 제한할 수 있습니다. [자세히 알아보기](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023년 10월 17일 | 2023년 10월 24일 |
 
 {style="table-layout:auto"}
 
