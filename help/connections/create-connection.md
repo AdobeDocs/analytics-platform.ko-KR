@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2797'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 93%
 
 새 워크플로를 사용하면 연결을 만들 때 Experience Platform 데이터 세트를 추가할 수 있습니다.
 
-1. 연결 설정 대화 상자에서 다음을 선택합니다 **[!UICONTROL 데이터 세트 추가]**.
+1. 연결 설정 대화 상자에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
 
-2. 다음에서 [!UICONTROL 데이터 세트 선택] 단계에서 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**. 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
-   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) 및 열 선택 [!UICONTROL 표 맞춤화] 대화 상자.
-   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드.
-   * 선택한 데이터 세트를 표시하거나 숨기려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**.
-   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). 선택한 데이터 세트를 모두 제거하려면 다음을 선택합니다. **[!UICONTROL 모두 지우기]**.
+2. [!UICONTROL 데이터 세트 선택] 단계에서 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
+   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
 
    ![데이터 세트 선택](assets/select-datasets.png)
 
@@ -79,7 +79,7 @@ ht-degree: 93%
    | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우, 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 이 비디오를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
    | **[!UICONTROL 타임스탬프]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 조회 데이터 세트에 사용할 키입니다. |
-   | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 이벤트 데이터 세트 중 하나에서 연결할 일치하는 키입니다. 이 목록이 비어 있으면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 수 있습니다. |
+   | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 이벤트 데이터 세트 중 하나에 연결할 일치하는 키입니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. <br/>데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 작업 영역으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. [!UICONTROL 켜기] 또는 [!UICONTROL 끄기]로 설정할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 채우기]** | 내역 데이터를 채우려면 **[!UICONTROL 채우기 요청]**&#x200B;을 선택합니다.<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 보유하고 있는 내역 데이터의 양에 따라 달라집니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다.</li></ul> |
@@ -89,7 +89,7 @@ ht-degree: 93%
    | **[!UICONTROL 데이터 세트 크기]** | 데이터 세트 크기입니다. |
    | **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 스키마입니다. |
    | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. |
-   | **[!UICONTROL 미리 보기: *데이터 세트 이름&#x200B;*]** | 날짜, 내 ID 및 식별자 열을 사용하여 데이터 세트를 미리 봅니다. |
+   | **[!UICONTROL 미리보기: *데이터 세트 이름&#x200B;*]** | 날짜, 내 ID 및 식별자 열을 사용하여 데이터 세트를 미리 봅니다. |
    | **[!UICONTROL 제거]** | 전체 연결을 삭제하지 않고 데이터 세트를 삭제하거나 제거하고 개인 ID를 변경할 수 있습니다. 삭제 또는 제거하게 되면 데이터 수집과 관련된 비용과 전체 연결 및 관련 데이터 보기를 다시 만드는 번거로운 프로세스를 줄일 수 있습니다. |
 
    {style="table-layout:auto"}
