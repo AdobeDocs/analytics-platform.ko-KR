@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 hide: true
 hidefromtoc: true
-source-git-commit: ec0d57d0573b21767ed1703c9ddb1172e442e10a
+source-git-commit: 1cadf9d863c18f590a99e22d7b0e79b1074bf29f
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 1%
 * 사용자가 원하는 날짜 범위(초기 참여) 동안 이벤트를 한 번만 참여하는 경우 &quot;0일&quot; 기간 버킷에만 표시됩니다.
 * 사용자가 분석에 포함할 자격을 처음 얻은 후 여러 날 후에 이벤트에 참여하는 경우 최신 자격을 갖춘 기간 버킷과 해당 기간으로 이어지는 모든 기간 버킷에 표시됩니다. 이러한 유형의 계산을 &quot;무제한 보존&quot;이라고도 합니다.
 * 사용자가 구성된 날짜 범위 동안 이벤트를 여러 번 사용하는 경우 첫 번째 이벤트와 마지막 이벤트만 분석에 포함됩니다.
+
+![유지율 스크린샷](../assets/retention-rates.png)
 
 ## 사용 사례
 
