@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 95%
 | 보고 API 액세스 | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원. 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics로 포팅되지 않습니다. |
-| 가상 보고서 세트 | 전체 지원. 지금 호출됨 [데이터 보기](/help/data-views/create-dataview.md). |
-| 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원. 이제 데이터 보기의 일부입니다. |
+| 가상 보고서 세트 | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
+| 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
 | 스트리밍 미디어 Analytics | 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -84,7 +84,7 @@ ht-degree: 95%
 | 크로스 디바이스/크로스 채널 결합 | ID 정보를 직접 포함하는 데이터 세트에 대해 지원됩니다(“필드 기반” 스티칭이라고도 함). 그래프 기반 스티칭은 아직 지원되지 않지만 향후 지원될 예정입니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 | 봇 필터링 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트의 경우 봇 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 봇 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 Customer Journey Analytics에서 사용할 수 없습니다. |
 | 디바이스, 브라우저, 레퍼러, 기술 차원 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트에 대해 지원됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko)를 참조하십시오.<p>Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 향후 지원 계획이 있습니다. |
-| 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교 및 A4T(타겟 분석) 패널은 지원되지 않습니다. |
+| 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교 및 A4T(Analytics for Target) 패널은 지원되지 않습니다. |
 | 처리 규칙 | Analytics 소스 커넥터 기반 데이터 세트의 경우 처리 규칙이 여전히 적용됩니다. [Adobe Experience Platform의 데이터 준비 기능](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR)을 플랫폼으로 직접 이동되는 데이터에 대한 처리 규칙 대용으로 사용할 수도 있습니다. |
 | Analytics for Target (A4T) | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 부분적인 지원이 제공됩니다. 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
 
