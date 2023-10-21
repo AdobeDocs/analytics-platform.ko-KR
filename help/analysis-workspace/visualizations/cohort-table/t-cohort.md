@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 집단 분석 보고서 구성
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 91%
+source-wordcount: '1003'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 1. Analysis Workspace에서 왼쪽 레일의 **[!UICONTROL 시각화]** 아이콘을 클릭하고 **[!UICONTROL 집단 테이블]**&#x200B;을 캔버스로 드래그합니다.
 
-   ![](assets/cohort-table.png)
+   ![포함 기준 및 반환 기준을 보여 주는 예제 집단 테이블.](assets/cohort-table.png)
 
 1. 아래 표에 정의된 대로 **[!UICONTROL 포함 기준]**, **[!UICONTROL 반환 기준]**, **[!UICONTROL 집단 유형]** 및 **[!UICONTROL 설정]**&#x200B;을 정의합니다.
 
@@ -38,9 +38,9 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 ## [!UICONTROL 집단 분석] 보고서 작성
 
-1. **[!UICONTROL 작성을 클릭합니다]**.
+1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
-   ![단계 결과](assets/cohort-report.png)
+   ![선택한 포함 기준 및 반환 기준을 표시하는 집단 테이블 보기. 작성을 클릭합니다.](assets/cohort-report.png)
 
    이 보고서는 주문 사용자( *`Included`* 열), 이후 방문 시 사이트로 돌아온 사용자 시간이 지나면서 방문 횟수가 감소하면 문제를 발견하고 조치를 취할 수 있습니다.
 1. (선택 사항) 선택 내용에서 필터를 생성합니다.

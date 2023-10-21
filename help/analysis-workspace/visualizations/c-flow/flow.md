@@ -1,12 +1,12 @@
 ---
-description: 이 플로우 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
+description: 웹 사이트 및 앱을 통과하는 고객 경로를 보여 주는 플로우 기능에 대해 알아봅니다.
 title: 흐름 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 

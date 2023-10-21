@@ -3,10 +3,10 @@ description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다
 title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 항목 내에서 차원, 필터, 지표, 기간 또는 분류 옆에 있는 [!UICONTROL 설정] 아이콘을 클릭합니다.
 
-![](assets/row-settings.png)
+![지표에 대한 설정 아이콘을 강조 표시하는 자유 형식 테이블](assets/row-settings.png)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -33,6 +33,6 @@ ht-degree: 93%
 
 1. 표 상단의 [!UICONTROL 행] 옆에 있는 숫자를 클릭합니다.
 
-   ![](assets/row-number.png)
+   ![표시된 행 수에 대한 의 드롭다운 목록을 표시하는 자유 형식 테이블입니다. 400개의 행이 선택되어 있습니다.](assets/row-number.png)
 
 1. 드롭다운 목록에서 테이블에 표시할 행 수를 선택합니다.

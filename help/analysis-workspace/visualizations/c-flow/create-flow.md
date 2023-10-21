@@ -1,13 +1,13 @@
 ---
-description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
-title: 플로우 시각화 구성
+description: Workspace 프로젝트에서 플로우 시각화를 사용하는 방법에 대해 알아봅니다.
+title: 플로우 시각화 구성 방법
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 60%
+source-wordcount: '1581'
+ht-degree: 57%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 플로우 시각화를 사용하면 관심 있는 경로의 시작 또는 끝을 구성하거나 차원 또는 차원 항목을 통과하는 모든 경로를 분석할 수 있습니다.
 
-![새로운 플로우 UI](assets/new-flow.png)
+![다음으로 시작, 포함 및 다음으로 끝남 필드를 표시하는 흐름 구성 화면입니다.](assets/new-flow.png)
 
 ## 플로우 시각화 만들기 {#configure}
 
@@ -45,11 +45,11 @@ ht-degree: 60%
 
 1. 지표를 선택하는 경우 [!UICONTROL **경로 지정 Dimension**] 을 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
 
-   ![경로 지정 차원](assets/pathing-dim.png)
+   ![경로 지정 차원.](assets/pathing-dim.png)
 
 1. (선택 사항) 선택 **[!UICONTROL 고급 설정 표시]** 다음 옵션 중 하나를 구성하려면:
 
-   ![고급 설정](assets/adv-settings.png)
+   ![표시 옵션, 열 수 및 흐름 컨테이너를 사용한 고급 설정입니다.](assets/adv-settings.png)
 
    | 설정 | 설명 |
    | --- | --- |
@@ -80,7 +80,7 @@ ht-degree: 60%
 
 ## 흐름 출력 보기 및 변경 {#output}
 
-![흐름 출력](assets/flow-output.png)
+![방문으로 끝남, 경로 지정 차원: 페이지, 흐름 컨테이너: 방문자를 보여 주는 흐름 출력 예입니다.](assets/flow-output.png)
 
 플로우 구성의 요약이 다이어그램의 맨 위에 나타납니다. 다이어그램의 경로들은 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다.
 
@@ -90,7 +90,7 @@ ht-degree: 60%
 
 * 다이어그램에 있는 노드를 클릭하면 해당 노드에 대한 세부 사항이 표시됩니다. 축소하려면 노드를 다시 클릭하십시오.
 
-  ![노드-세부 정보](assets/node-details.png)
+  ![노드 세부 정보를 보여 주는 대화형 흐름 다이어그램의 예입니다.](assets/node-details.png)
 
 * 포함 및 제외, 기준 지정 등과 같은 특정 결과만 표시하도록 열을 필터링할 수 있습니다.
 

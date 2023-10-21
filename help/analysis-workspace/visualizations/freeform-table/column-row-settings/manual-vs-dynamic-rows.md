@@ -3,10 +3,10 @@ title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 �
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 88%
+source-wordcount: '555'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 88%
 동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있으며 **아님** 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![](assets/dynamic-items.png)
+![필터 아이콘을 강조 표시하는 자유 형식 테이블.](assets/dynamic-items.png)
 
 ## 정적 차원 항목
 
@@ -40,13 +40,13 @@ ht-degree: 88%
 
 정적 차원 항목에는 행 필터 옵션이 **없습니다**. 대신 각 항목에 자물쇠와 X 아이콘이 표시됩니다. 테이블에서 해당 차원 항목을 제거하려면 X 아이콘을 클릭하십시오.
 
-![](assets/static-items.png)
+![브라우저 유형과 잠금 아이콘이 있는 Microsoft 행을 보여 주는 자유 형식 테이블 참고: 이 차원 항목은 정적이며 시간에 따라 변경되지 않습니다.](assets/static-items.png)
 
 ## 혼합 차원 항목
 
 다른 차원의 차원 항목을 동일한 테이블에 추가할 수 있습니다. 이러한 경우 행 헤더에 &quot;혼합 차원&quot;이 표시됩니다. 이러한 차원 항목은 정적입니다. 예를 들어 브라우저 유형 차원의 특정 차원 항목과 브라우저 차원의 기타 차원 항목을 추가하는 경우가 있습니다.
 
-![](assets/mixed-dimensions.png)
+![혼합 Dimension 열을 강조 표시하는 자유 형식 테이블입니다.](assets/mixed-dimensions.png)
 
 ## 자유 형식 합계 행
 
