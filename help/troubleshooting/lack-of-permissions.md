@@ -5,10 +5,10 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
+source-git-commit: 788d1d32548ef510cf12376b244fcc0e090e189d
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '212'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ ht-degree: 4%
 >[!ENDSHADEBOX]
 
 
-이 오류를 수정하려면 Experience Platform 제품이 있는 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 다음을 참조하십시오 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 추가 정보.
+1. 올바른 액세스 제어 권한이 있는지 확인합니다.
+
+   * Experience Platform 제품이 있는 조직에 대해 시스템 또는 제품 관리자 권한이 있어야 합니다. 다음을 참조하십시오 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 추가 정보.
+
+   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 수 있는 권한이 없는 경우 관리자에게 문의하십시오. 다음을 참조하십시오 [액세스 제어 계층 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#access-control-hierarchy-and-workflow) 추가 정보.
+
 
 1. Adobe Experience Platform UI로 이동합니다.
 
