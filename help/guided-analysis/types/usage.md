@@ -1,12 +1,12 @@
 ---
 title: 사용 보기
 description: 시간 경과에 따른 사용자 참여 측정.
-exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
+source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 선택한 각 이벤트는 차트 유형에 따라 색상이 지정된 선 또는 막대 세트로 표시됩니다. 트렌드 이벤트를 나타내는 행이 표에 추가됩니다. 최대 5개의 이벤트를 포함할 수 있습니다.
 * **[!UICONTROL 사람]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트의 라인 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
+* **[!UICONTROL 분류]**: 차원 항목마다 별도의 꺾은 선형을 만듭니다. 단일 분류 차원이 지원됩니다.
 
 ## 차트 설정
 
