@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
-workflow-type: ht
-source-wordcount: '1492'
+source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
+workflow-type: tm+mt
+source-wordcount: '1488'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,6 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 다음 Adobe Analytics 기능 또는 구성 요소는 지원되지 않습니다.
 
 * 봇 필터링
-* 지역, 도메인, 디바이스 조회
 * 스트리밍 미디어 측정
 * 라이브스트림 또는 라이브스트림 트리거
 
