@@ -3,10 +3,10 @@ title: 보고 활동 관리자에서 보고 활동 보기
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
