@@ -4,9 +4,9 @@ description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
+source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,10 @@ ht-degree: 2%
 차트에 데이터를 추가합니다.
 
 * **[!UICONTROL 예외 항목 표시]**: 실행 [예외 항목 탐지](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 트렌드 분석. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
+* **[!UICONTROL 트렌드 오버레이]**: 차트에 추세선을 추가하여 지정된 기간 내에 데이터가 취하는 전체 방향을 볼 수 있습니다.
+   * [!UICONTROL 선형]: 선형 회귀 모델 일정한 속도로 증가 또는 감소하는 데이터에 권장됩니다.
+   * [!UICONTROL 로그]: 곡선 회귀 모델. 시간이 지남에 따라 레벨이 감소하는 데이터에 권장됩니다.
+   * [!UICONTROL 이동 평균]: 각 점으로부터 이전 기간의 평균을 내는 다듬은 선입니다. 주기가 정기적인 데이터에 권장됩니다. 사용 가능한 이동 평균 기간은 선택한 날짜 범위에 따라 다릅니다.
 
 ## 시간 비교 적용
 
