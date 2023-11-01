@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 데이터 수집에서 직접 SQL 액세스를 위해 Experience Platform의 여러 구성 요소는 Customer Journey Analytics에 중요하며, 이를 보완합니다.
 
-* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 데이터 세트에 참여하고 쿼리 결과를 보고에 사용하거나 프로필 서비스에 수집하기 위한 새 데이터 세트로 캡처할 수 있는 서버를 사용하지 않는 도구입니다. Experience Platform Query Service를 사용하여 데이터 분석 에코시스템을 빌드하고 다양한 상호 작용 채널을 통해 소비자의 이미지를 만들 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
+* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 이는 모든 데이터 세트에 참여하고 쿼리 결과를 새로운 데이터 세트로 캡처하여 보고에 사용하거나 프로필 서비스로 수집하기 위한 서버를 사용하지 않는 도구입니다. Experience Platform Query Service를 사용하여 데이터 분석 에코시스템을 빌드하고 다양한 상호 작용 채널을 통해 소비자의 이미지를 만들 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
 * [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR):
 * [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)
 
