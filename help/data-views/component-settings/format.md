@@ -4,7 +4,7 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6945026bd452e1dabe90812f8d056f19aac71490
+source-git-commit: 387c787dba4caa9db82d46071e23a2131043c8c6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 30%
@@ -80,7 +80,7 @@ ht-degree: 30%
 
 +++ 일별 전환율은 얼마나 오래 전까지 유지됩니까?
 
-지난 4년 동안 일별 전환율이 유지되었습니까?
+일별 전환율은 지난 4년 동안 유지됩니다.
 
 +++
 
