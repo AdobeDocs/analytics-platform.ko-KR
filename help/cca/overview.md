@@ -5,8 +5,8 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: ht
+source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
+workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 100%
 
@@ -60,7 +60,6 @@ ht-degree: 100%
 * 임시 ID 필드는 단일 유형의 ID(예: 단일 네임스페이스의 ID)를 포함해야 합니다. 예를 들어 임시 ID 필드는 로그인 ID와 이메일 ID의 조합을 포함해서는 안 됩니다.
 * 동일한 영구 ID에 대해 동일한 타임스탬프에서 여러 이벤트가 발생하지만 임시 ID 필드의 값이 다른 경우, 필드 기반 결합은 알파벳 순서를 기반으로 선택하게 됩니다. 따라서 영구 ID A에 동일한 타임스탬프를 가진 두 개의 이벤트가 있고 이벤트 중 하나가 “Bob”을 지정하고 다른 하나는 “Ann”을 지정한다면 필드 기반 결합은 “Ann”을 선택합니다.
 * 디바이스를 여러 사용자가 공유하고 사용자 간의 총 전환 수가 50.000을 초과하는 경우 CCA는 해당 디바이스에 대한 데이터 결합을 중지합니다.
-
 
 ## 교차 채널 분석 활성화
 
