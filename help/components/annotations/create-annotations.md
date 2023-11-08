@@ -4,7 +4,7 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 76%
@@ -27,6 +27,8 @@ ht-degree: 76%
 | **작업 영역에서 [!UICONTROL 구성 요소] > [!UICONTROL 주석 만들기]로 이동합니다.** | [!UICONTROL 주석 빌더]가 열립니다. |
 | **이 핫키를 사용하여** 주석 빌더를 엽니다. (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | 핫키를 사용하여 주석을 만들면 미리 선택된 범위(지표 또는 차원) 없이 현재 날짜에 대한 하루 주석을 만들 수 있습니다. |
 | **사용 [Customer Journey Analytics 주석 API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Customer Journey Analytics 주석 API를 사용하면 Adobe Developer을 통해 프로그래밍 방식으로 주석을 작성, 업데이트 또는 검색할 수 있습니다. 이러한 API는 Adobe가 제품 UI 내에서 사용하는 것과 동일한 데이터 및 방법을 사용합니다. |
+
+{style="table-layout:auto"}
 
 1. [!UICONTROL 주석 빌더] 요소를 입력합니다.
 

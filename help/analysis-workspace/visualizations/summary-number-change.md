@@ -3,9 +3,9 @@ description: 요약 번호 및 변경 시각화를 사용하여 프로젝트의 
 title: 요약 번호 및 요약 변경 사항
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '458'
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -30,16 +30,7 @@ ht-degree: 100%
 | 값 생략 | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
 | 다음을 기준으로 값 요약 | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
 
-
-오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 번호 설정을 구성합니다.
-
-| 설정 | 정의 |
-|--- |--- |
-| 백분율 | 숫자 대신 백분율을 표시합니다. |
-| 범례 표시 | 표시된 지표에 대한 정보를 표시합니다. |
-| 값 생략 | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
-| 다음을 기준으로 값 요약 | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
-
+{style="table-layout:auto"}
 
 ## 요약 변경 시각화 {#summary-change}
 
