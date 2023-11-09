@@ -4,10 +4,10 @@ description: 데이터 보기는 Customer Journey Analytics 연결에서 지표,
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 매우 다른 구성 요소 세트(차원/지표)를 사용하여 동일한 연결에 대해 서로 다른 데이터 보기를 생성할 수 있습니다. 또는 방문 시간 초과, 속성 등에 대해 서로 다른 설정으로 데이터 보기를 만들 수 있습니다. 예를 들어 모든 차원이 [!UICONTROL 마지막 터치]로 설정되는 데이터 보기가 한 개 있고 동시에 모든 차원이 [!UICONTROL 첫 번째 터치]로 설정된 다른 데이터 보기(동일한 데이터 세트에 기반)가 있을 수 있습니다.
 
 Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기반으로 합니다.
+
+>[!IMPORTANT]
+>
+>최대 5,000개의 지표와 5,000개의 차원을 단일 데이터 보기에 추가할 수 있습니다.
 
 ## 데이터 보기의 기능 {#capabilities}
 

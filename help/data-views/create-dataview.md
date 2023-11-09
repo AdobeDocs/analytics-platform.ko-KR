@@ -4,10 +4,10 @@ description: 데이터 보기를 만들거나 편집하는 데 조정할 수 있
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 100%
+source-wordcount: '1431'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 100%
 ## 구성 요소
 
 다음으로 데이터 보기의 구성 요소를 설정하면 스키마 요소에서 지표와 차원을 생성할 수 있습니다. 표준 구성 요소를 사용할 수도 있습니다.
+
+>[!IMPORTANT]
+>
+>최대 5,000개의 지표와 5,000개의 차원을 단일 데이터 보기에 추가할 수 있습니다.
 
 1. **[!UICONTROL 구성 요소]** 탭을 선택합니다.
 
