@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+source-git-commit: 93969ea090960f676d33fc97063440f9b1265367
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 61%
 
 ---
 
@@ -28,6 +28,20 @@ Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 
 - macOS
 - Windows
 - 웹 브라우저
+
+## 일반적인 사용 사례
+
+- **데이터 추출**: Adobe Report Builder을 사용하면 Customer Journey Analytics에서 Excel로 데이터를 추출할 수 있습니다. 사용자 지정 보고서 및 쿼리를 만들어 분석과 관련된 특정 데이터 포인트를 검색할 수 있습니다.
+
+- **사용자 정의 보고**: 특정 보고 요구에 맞게 Excel에서 사용자 지정 보고서를 디자인하고 서식을 지정할 수 있습니다. 이 기능은 보고서를 다른 관련자에게 맞춤화하는 데 특히 유용합니다.
+
+- **애드혹 분석**: 사용자는 긴 보고서 작성 프로세스를 거치지 않고도 특정 질문에 답변하거나 데이터 트렌드를 탐색하기 위한 임시 보고서를 빠르게 생성할 수 있습니다.
+
+- **대시보드**: CJA에서 추출한 데이터를 사용하여 Excel 기반 대시보드 및 시각화를 만들어 KPI(주요 성과 지표)에 대한 높은 수준의 개요를 볼 수 있습니다.
+
+- **인사이트 공유**: CJA에 직접 액세스할 수 없는 팀 구성원 또는 관련자와 Excel 보고서 및 통찰력을 공유할 수 있습니다.
+
+## 개요 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
