@@ -5,9 +5,9 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 >[!IMPORTANT]
 >
->최대 5,000개의 지표와 5,000개의 차원을 단일 데이터 보기에 추가할 수 있습니다.
+>단일 데이터 보기에 최대 5,000개의 지표와 5,000개의 차원을 추가할 수 있습니다.
 
-## 데이터 보기의 기능 {#capabilities}
+## 데이터 보기 기능 {#capabilities}
 
 데이터 보기를 통해 Adobe Experience Platform에서 스키마를 변경하거나 Customer Journey Analytics 환경을 다시 구현할 필요 없이 데이터 보기에서 스키마 요소 설정을 즉시 변경할 수 있습니다.
 
