@@ -3,14 +3,15 @@ description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 
 title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 5469585897e483d721326fd6859ad74087407825
+source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 73%
+source-wordcount: '958'
+ht-degree: 67%
 
 ---
 
-# 테이블 필터링 및 정렬
+
+# 자유 형식 테이블 필터링 및 정렬
 
 Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. 그에 따라 자유 형식 테이블은 수천 개의 정보 행을 포함할 수 있습니다. 데이터를 필터링하고 정렬하는 것은 가장 중요한 정보를 효율적으로 표시하는 데 필수적인 부분이 될 수 있습니다.
 
@@ -18,13 +19,24 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
-## 테이블 필터링 {#section_36E92E31442B4EBCB052073590C1F025}
+## 테이블 필터링
 
 Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도움이 됩니다.
 
 >[!NOTE]
 >
 > 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## 자유 형식 테이블 행 필터링
+
+여러 메서드를 사용하여 자유 형식 테이블에서 행을 필터링할 수 있습니다. 
+
+- 행에서 &#39;X&#39;를 클릭합니다
+- 마우스 오른쪽 단추 클릭 > 선택한 삭제된 행
+- 표 필터
+- 세그먼테이션
+
+각 메서드가 어떻게 영향을 주는지 반드시 읽어 보십시오 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### 테이블에서 특정 행을 빠르게 제외
 
@@ -38,7 +50,14 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. 제외할 행을 마우스로 가리킨 다음 x 아이콘을 선택합니다.
 
-   범위 행을 선택하려면 Shift 키를 누른 채 선택하거나 여러 행을 선택하려면 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 채 선택합니다.
+   Shift 키를 누른 상태로 행 범위를 선택하거나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 상태로 여러 행을 선택합니다.
+
+### 마우스 오른쪽 단추 클릭 > 선택한 행 삭제
+
+1. 1개 이상의 행을 선택합니다.
+1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL 선택한 행 삭제]**.
+
+   이 작업을 수행하면 테이블에서 행이 제거되고 테이블 필터가 적용됩니다.
 
 ### 표에 단순 또는 고급 필터 적용
 
@@ -59,7 +78,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. (선택 사항) 다른 기준 또는 여러 기준으로 필터링하려면 [!UICONTROL **고급 설정 표시**]&#x200B;를 선택합니다.
 
-   다음 옵션을 사용할 수 있습니다
+   다음 고급 필터 옵션을 사용할 수 있습니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -72,6 +91,10 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
    테이블에 필터가 적용되면 **필터** 아이콘(![파란색 필터 아이콘 필터링된 테이블](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))이 파란색으로 바뀝니다.
 
+### 필터
+
+다음 참조: [필터링 설명서](/help/components/filters/filters-overview.md) 을 참조하십시오.
+
 ## 테이블 정렬
 
 Analysis Workspace에서 차원 또는 지표인 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
@@ -82,8 +105,8 @@ Analysis Workspace에서 차원 또는 지표인 열을 기준으로 자유 형�
 
    정렬 사용 시 다음 사항을 고려하십시오.
 
-   * 아래쪽 화살표는 내림차순으로 정렬하고 위쪽 화살표(기본값)는 오름차순으로 정렬합니다.
-   * 차원을 알파벳순 또는 숫자순으로 정렬할 수 있습니다. 예를 들어 워크플로에서 단계 번호가 매겨져 있으며, 단계 번호순으로 정렬할 수 있습니다. 날짜 관련 차원을 날짜순으로 정렬할 수 있습니다. 또는 아래 이미지와 같이 알파벳순으로 데이터 소스를 정렬할 수 있습니다.
+   - 아래쪽 화살표는 내림차순으로 정렬하고 위쪽 화살표(기본값)는 오름차순으로 정렬합니다.
+   - 차원을 알파벳순 또는 숫자순으로 정렬할 수 있습니다. 예를 들어 워크플로에서 단계 번호가 매겨져 있으며, 단계 번호순으로 정렬할 수 있습니다. 날짜 관련 차원을 날짜순으로 정렬할 수 있습니다. 또는 아래 이미지와 같이 알파벳순으로 데이터 소스를 정렬할 수 있습니다.
 
    ![](assets/sort-dimensions.png)
 
