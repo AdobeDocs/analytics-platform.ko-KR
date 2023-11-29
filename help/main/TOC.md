@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 648acd49d6cc38531f50df0a7d78ec6dce533d01
+source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1046'
 ht-degree: 82%
 
 ---
@@ -167,12 +167,10 @@ ht-degree: 82%
       + [다운로드](../analysis-workspace/export/download-send.md)
       + [다른 사용자에게 보내기](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
-   + Virtual Analyst {#virtual-analyst}
-      + [Virtual Analyst 개요](../analysis-workspace/virtual-analyst/overview.md)
-      + 예외 항목 탐지 {#anomaly-detection}
-         + [예외 항목 탐지 개요](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + 예외 항목 탐지 {#anomaly-detection}
+      + [예외 항목 탐지 개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)

@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Customer Journey Analytics는 수백 또는 수천 개의 서버에 분석을 �
 
 해당 시각화 구성 요소에는 다음과 같은 스마트 기능이 내장되어 있습니다.
 
-* [예외 항목 탐지](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 등 **가상 분석가 기능**&#x200B;은 예측 알고리즘과 머신 러닝을 사용하여 데이터에서 비정상적인 행동을 유도하는 요인에 대한 인사이트를 제공합니다.
+* [예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 등 **가상 분석가 기능**&#x200B;은 예측 알고리즘과 머신 러닝을 사용하여 데이터에서 비정상적인 행동을 유도하는 요인에 대한 인사이트를 제공합니다.
 
 * **고급 분석 기능**&#x200B;은 [흐름 다이어그램](/help/analysis-workspace/visualizations/c-flow/flow.md), [속성 패널](/help/analysis-workspace/c-panels/attribution.md), [폴아웃 다이어그램](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)과 [차원 분류](/help/components/dimensions/t-breakdown-fa.md) 등 고객 여정 인사이트에 특별히 중점을 두고 있습니다. 기본 제공 시각화의 예는 다음과 같습니다.
 

@@ -4,7 +4,7 @@ description: 시간 경과에 따른 사용자 참여 측정.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 차트에 데이터를 추가합니다. 차트에 둘 이상의 시리즈가 표시되면 마우스로 가리키기만 오버레이가 표시됩니다.
 
-* **[!UICONTROL 예외 항목 탐지]**: 실행 [예외 항목 탐지](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 트렌드 분석. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
+* **[!UICONTROL 예외 항목 탐지]**: 실행 [예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 트렌드 분석. 이상치는 마우스로 가리키면 점으로 표시되어 자세한 정보를 제공합니다.
 * **[!UICONTROL 트렌드 오버레이]**: 차트에 추세선을 추가하면 데이터에 더 명확한 패턴을 표시할 수 있습니다.
    * [!UICONTROL 선형]: 직선 회귀선을 생성합니다. 일정한 속도로 증가 또는 감소하는 간단한 선형 데이터에 가장 적합합니다. 수식: `y = a + b * x`
    * [!UICONTROL 로그]: 곡선 회귀선을 만듭니다. 빠르게 증가 또는 감소하다가 더 수준이 되는 데이터에 가장 적합합니다. 수식: `y = a + b * log(x)`

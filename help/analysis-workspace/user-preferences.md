@@ -4,7 +4,7 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '3228'
 ht-degree: 87%
@@ -130,7 +130,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
-| | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있을 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 옵션을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
+| | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있을 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 옵션을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
 | **[라인](/help/analysis-workspace/visualizations/line.md)** | | |
 | | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 라인 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
