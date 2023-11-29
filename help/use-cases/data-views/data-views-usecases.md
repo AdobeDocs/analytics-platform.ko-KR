@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 보기의 유연성과 �
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 95%
+source-wordcount: '1382'
+ht-degree: 91%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 95%
 예를 들어 데이터 보기를 생성할 때 문자열인 [!UICONTROL pageTitle] 스키마 필드에서 [!UICONTROL 주문] 지표를 생성할 수 있습니다. 단계는 다음과 같습니다.
 
 1. 구성 요소 탭의 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 섹션으로 [!UICONTROL pageTitle]을 끌어옵니다.
-   ![](../assets/use-case1a.png)
+   ![구성 요소 이름 목록에서 pageTitle을 가리키는 화살표가 있는 스키마 필드.](../assets/use-case1a.png)
 1. 이제 방금 끌어온 지표를 강조 표시하고 오른쪽의 [!UICONTROL 구성 요소 설정]에서 이름을 바꿉니다.
-   ![](../assets/orders.png)
+   ![구성 요소 설정 아래의 주문을 강조 표시하는 스키마 필드.](../assets/orders.png)
 1. 오른쪽의 [!UICONTROL 포함/제외 값] 대화 상자를 열고 다음을 지정합니다.
-   ![](../assets/orders2.png)
+   ![포함/제외 값을 선택하고 포함/제외 값 설정 및 대/소문자 구분 을 선택합니다.](../assets/orders2.png)
 
    &quot;확인&quot; 구문은 이것이 주문임을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 &quot;1&quot;이 계산됩니다. 결과는 새 지표입니다(계산된 지표가 아님). 포함/제외된 값이 포함된 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. Attribution IQ, 필터 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
 1. [!UICONTROL 세션]의 [!UICONTROL 전환 확인 기간]을 사용하여 [!UICONTROL 마지막 터치]와 같은 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다.
@@ -38,11 +38,11 @@ ht-degree: 95%
 
 1. [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 차원] 섹션으로 [!UICONTROL call_length_min] 정수를 끌어옵니다.
 
-   ![](../assets/integers.png)
+   ![Dimension 목록에서 call_length_mins를 가리키는 화살표입니다.](../assets/integers.png)
 
 1. 이제 [!UICONTROL 값 버킷팅]을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. (버킷이 없으면 이 차원의 각 인스턴스가 작업 영역 보고에 라인 항목으로 나타납니다.)
 
-   ![](../assets/bucketing.png)
+   ![버킷 값이 선택된 값 버킷팅.](../assets/bucketing.png)
 
 ## 3. 플로우 다이어그램에서 &quot;지표&quot;로서 수치 차원 사용 {#numeric}
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko-KR#configure-component-settings) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 2. 작업 영역 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
 
-![](../assets/flow.png)
+![이메일에서 종료/주문으로의 마케팅 채널 흐름.](../assets/flow.png)
 
 ## 4. 하위 이벤트 필터링 수행 {#sub-event}
 
@@ -82,7 +82,7 @@ f. &quot;50&quot;을 값으로 지정합니다.
 
 이때 각 지표의 이름을 &quot;알고리즘 매출&quot;과 같이 그 차이가 반영되도록 변경해야 합니다.
 
-![](../assets/algo-revenue.png)
+![동작 목록에서 카운트 값이 선택된 알고리즘 매출.](../assets/algo-revenue.png)
 
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.

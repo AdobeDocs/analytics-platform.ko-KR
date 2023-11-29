@@ -4,10 +4,10 @@ description: 작업 영역에서 주석을 관리하는 방법
 role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 85%
+source-wordcount: '692'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 ## 주석 관리자 사용자 인터페이스
 
-![](assets/annotation-mgr.png)
+![공유, 태그 지정 또는 복사와 같은 주석 옵션은 다음 섹션에 설명되어 있습니다.](assets/annotation-mgr.png)
 
 | UI 요소 | 설명 |
 | --- | --- | 

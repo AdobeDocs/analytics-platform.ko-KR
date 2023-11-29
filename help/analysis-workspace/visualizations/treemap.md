@@ -3,10 +3,10 @@ description: 계층형 (트리 구조) 데이터를 중첩된 직사각형 세�
 title: 트리맵
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 91%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 100%
 
 각 트리 분기에 직사각형이 제공된 다음 하위 분기를 나타내는 좀 더 작은 직사각형으로 바둑판식으로 정렬됩니다.
 
-![](assets/treemap.png)
+![하위 분기를 나타내는 더 작은 정사각형의 타일을 보여주는 트리맵 예입니다.](assets/treemap.png)
 
 색상 및 크기 차원이 트리 구조와 어떤 방식으로 상호 연관되어 있는 경우 특정 색상이 특별히 관련이 있는 경우처럼 다른 방식으로는 구분하기 어려울 수 있는 패턴을 쉽게 볼 수도 있습니다. 트리맵의 또 다른 이점은 구조적으로 공간을 효율적으로 사용할 수 있다는 것입니다.

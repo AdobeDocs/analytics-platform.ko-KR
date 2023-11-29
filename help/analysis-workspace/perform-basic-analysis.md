@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 기본 시각화를 사용하여 �
 feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 100%
 
 * 광고 노출 횟수 데이터, Customer Journey Analytics 데이터, 이메일 데이터, POS 데이터, 콜센터 데이터 그리고 설문 조사 데이터와 같은 데이터 소스로 고객의 규모를 나타냅니다.
 
-![](assets/cja-basic-analysis.png)
+![기본 분석 차트의 예제 시각화. ](assets/cja-basic-analysis.png)
 
-![](assets/cja-basic-analysis2.png)
+![기본 분석 차트 시각화의 추가 예](assets/cja-basic-analysis2.png)

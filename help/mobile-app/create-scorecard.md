@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 74%
+source-wordcount: '2672'
+ht-degree: 69%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 74%
 
  Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
-![스코어카드의 예](assets/intro_scorecard.png)
+![모바일 스코어카드 데모를 보여주는 Analytics 스코어카드의 예](assets/intro_scorecard.png)
 
 이 스코어카드의 큐레이터로서 스코어카드 빌더를 사용하여 경영진 소비자를 위해 스코어카드에 표시할 타일을 구성할 수 있습니다. 또한 타일을 탭하여 세부 보기 또는 분류를 조정하는 방법을 구성할 수 있습니다. 스코어카드 빌더 인터페이스가 아래에 표시되어 있습니다.
 
-![스코어카드 빌더](assets/scorecard_builder.png)
+![새 모바일 스코어카드 창을 표시하는 스코어카드 빌더입니다. ](assets/scorecard_builder.png)
 
 스코어카드를 만들려면 다음을 수행해야 합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 74%
 1. **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-![스코어카드 템플릿](assets/new_template.png)
+![빈 MObile 스코어카드가 선택된 모든 템플릿 창](assets/new_template.png)
 
 ### 도구 메뉴
 
@@ -58,11 +58,11 @@ ht-degree: 74%
 
 1. **[!UICONTROL 속성]**(오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 데이터 보기]**&#x200B;를 지정합니다.
 
-   ![데이터 보기 선택](assets/properties_save.png)
+   ![데이터 보기 선택을 강조 표시하는 새 모바일 스코어카드 창](assets/properties_save.png)
 
 1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 드래그하여 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
-   ![타일 추가](assets/build_list.png)
+   ![스코어카드에 드롭된 지표(새 KPI)를 가리키는 화살표가 있는 새 모바일 스코어카드 창. ](assets/build_list.png)
 
 
 1. 각 타일에서 관련 차원 목록에 대한 최상위 항목 등, 지표에 대한 추가 정보를 표시하는 상세 보기에 액세스할 수 있습니다.
@@ -73,7 +73,7 @@ ht-degree: 74%
 
 예를 들어 타일에 드래그 앤 드롭하여 적절한 차원(이 예에서는 **[!DNL Marketing Channel]**)을 **[!UICONTROL 고유 방문자]** 지표에 추가할 수 있습니다. 차원 분류는 타일별 **[!UICONTROL 속성]**&#x200B;의 [!UICONTROL 드릴인] (분류) 섹션에 표시됩니다. 각 타일에 여러 차원을 추가할 수 있습니다.
 
-![차원 추가](assets/layer_dimensions.png)
+![차원 목록에서 스코어카드 창을 가리키는 화살표가 있는 새 모바일 스코어카드 창.](assets/layer_dimensions.png)
 
 ## 필터 적용 {#filters}
 
@@ -81,29 +81,29 @@ ht-degree: 74%
 
 스코어카드의 모든 타일에 필터를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 필터를 선택하여 필터를 적용할 수도 있습니다. 본인 [스코어카드에 필터 구성 및 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) Customer Journey Analytics 작업 영역에서와 동일한 방식입니다.
 
-![필터 빌드](assets/segment_ui.png)
+![빌드 필터를 강조 표시하는 필터 드롭다운 선택기](assets/segment_ui.png)
 
 ## 날짜 범위 추가 {#dates}
 
 날짜 범위 드롭다운을 선택하여 스코어카드에서 선택할 수 있는 날짜 범위 조합을 추가 및 제거합니다.
 
-![새 스코어카드](assets/new_score_card.png)
+![어제와 지난 주 같은 날을 강조 표시하는 새 모바일 스코어카드](assets/new_score_card.png)
 
 각 새 스코어카드는 오늘과 어제의 데이터를 중심으로 6개의 날짜 범위 조합으로 시작합니다. x를 클릭하여 불필요한 날짜 범위를 제거할 수도 있고 연필을 클릭하여 각 날짜 범위 조합을 편집할 수도 있습니다.
 
-![새 스코어카드2](assets/new_score_card2.png)
+![연필 아이콘을 강조 표시하는 새 모바일 스코어카드](assets/new_score_card2.png)
 
 기본 날짜를 만들거나 변경하려면 드롭다운을 사용하여 사용 가능한 날짜 범위에서 선택하거나 날짜 구성 요소를 오른쪽 레일에서 드롭 영역으로 끌어다 놓습니다.
 
-![새 스코어카드3](assets/new_score_card3.png)
+![기본 날짜/어제가 선택된 날짜 범위를 강조 표시하는 새 모바일 스코어카드](assets/new_score_card3.png)
 
 비교 날짜를 만들려면 드롭다운 메뉴에서 일반 시간 비교를 위해 편리한 사전 설정에서 선택할 수 있습니다. 오른쪽 레일에서 날짜 구성 요소를 드래그 앤 드롭할 수도 있습니다.
 
-![새 스코어카드4](assets/new_score_card4.png)
+![비교 날짜가 지난 주와 같은 날로 설정된 날짜 범위를 강조 표시하는 새 모바일 스코어카드](assets/new_score_card4.png)
 
 원하는 날짜 범위를 아직 만들지 않은 경우 달력 아이콘을 클릭하여 새 날짜 범위를 만들 수 있습니다.
 
-![새 스코어카드5](assets/new_score_card5.png)
+![달력 아이콘](assets/new_score_card5.png)
 
 그러면 새 날짜 범위 구성 요소를 만들고 저장할 수 있는 날짜 범위 빌더로 이동합니다.
 
@@ -111,11 +111,11 @@ ht-degree: 74%
 
 비교 날짜 범위를 포함하려면 **비교 날짜 포함** 설정을 전환합니다.
 
-![비교 날짜 포함](assets/include-comparison-dates.png)
+![어제와 전날이 강조 표시되고 비교 날짜가 포함된 새로운 모바일 스코어카드](assets/include-comparison-dates.png)
 
 이 설정은 기본적으로 *켜져 있습니다*. 비교 날짜를 보지 않으려면 *끄기*&#x200B;로 전환하십시오.
 
-![선택 해제된 비교 날짜 설정](assets/no-comparison-dates.png)
+![어제를 강조 표시하고 비교 날짜를 포함하는 새 모바일 스코어카드](assets/no-comparison-dates.png)
 
 ## 시각화 적용 {#viz}
 
@@ -131,25 +131,25 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 요약 번호 시각화를 사용하십시오.
 
-![요약 번호](assets/summary-number.png)
+![13.3K 방문을 강조 표시하는 요약 번호 시각화가 포함된 새로운 모바일 스코어카드](assets/summary-number.png)
 
 ### [!UICONTROL 도넛]
 
 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부로 표시합니다. 합계의 백분율을 비교할 때 도넛 그래프를 사용하십시오. 예를 들어 총 고유 사용자 수에 기여한 광고 플랫폼을 확인하려고 한다고 가정해 보겠습니다.
 
-![도넛 시각화](assets/donut-viz.png)
+![도넛 시각화를 보여 주는 새 모바일 스코어카드](assets/donut-viz.png)
 
 ### [!UICONTROL 라인]
 
 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간 경과에 따른 차원을 표시하지만 모든 시각화에서 작동합니다. 이 예에서는 제품 범주 차원을 시각화하고 있습니다.
 
-![라인 시각화](assets/line.png)
+![선 시각화를 보여주는 새 이동 스코어카드](assets/line.png)
 
 ### [!UICONTROL 가로 막대]
 
 이 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다. 예를 들어 상위 제품이 무엇인지 쉽게 확인하려면 원하는 시각화에 [!UICONTROL 가로 막대]를 사용하십시오.
 
-![가로 막대](assets/horizontal.png)
+![가로 막대를 표시하는 새 모바일 스코어카드](assets/horizontal.png)
 
 ### [!UICONTROL 지정되지 않음] 차원 항목 제거
 
@@ -158,7 +158,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 1. 올바른 타일을 선택합니다.
 1. 오른쪽 레일의 **[!UICONTROL 드릴인]** 아래에서 제거하려는 **[!UICONTROL 지정되지 않음]** 항목이 있는 차원 항목 옆의 오른쪽 화살표를 선택합니다.
 
-   ![지정되지 않음](assets/unspecified.png)
+   ![차원 이름 옆의 오른쪽 화살표를 가리키는 화살표가 있는 속성입니다.](assets/unspecified.png)
 
 1. 보고에서 지정되지 않은 데이터를 제거하려면 **[!UICONTROL 지정되지 않음]** 옆에 있는 아이콘을 클릭합니다. (다른 차원 항목을 제거할 수도 있습니다.)
 

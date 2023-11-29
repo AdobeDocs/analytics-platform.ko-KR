@@ -2,10 +2,11 @@
 description: 태그, 데이터 보기, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 title: 계산된 지표 필터링
 feature: Calculated Metrics
-source-git-commit: 59b120022fcb149e6bfcab0039efc5a802995b92
+exl-id: 902da464-14de-45b9-bd92-d2db064cb095
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 29%
+source-wordcount: '216'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 29%
 
 1. 계산된 지표 관리자에서 **[!UICONTROL 필터]** 아이콘:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![필터 아이콘과 사용 가능한 필터(태그, 보고서 세트 및 소유자)를 표시하는 계산된 지표 관리자.](assets/filtering.png)
 
 1. 다음 필터를 사용할 수 있습니다.
 

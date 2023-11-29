@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 76%
+source-wordcount: '717'
+ht-degree: 74%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 76%
 
 경영진 사용자는 다운로드 및 설치 후 기존 Customer Journey Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe 및 Enterprise/Federated ID가 모두 지원됩니다.
 
-![앱 시작 화면](assets/welcome.png)
+![Adobe Analytics 대시보드 시작 화면](assets/welcome.png)
 
 ## 경영진이 스코어카드에 액세스할 수 있도록 지원
 
@@ -74,7 +74,7 @@ ht-degree: 76%
 
 공유하는 스코어카드에 타일이 어떻게 표시되는지 경영진 사용자에게 설명합니다.
 
-![타일 설명](assets/newexplain.png)
+![날짜 범위, 세그먼트 필터, 선택한 지표 및 차원을 포함한 타일 설명](assets/newexplain.png)
 
 ![스코어카드의 예](assets/intro_scorecard.png)
 

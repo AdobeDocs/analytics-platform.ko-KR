@@ -4,9 +4,9 @@ description: 파생 필드를 사용하여 Workspace 프로젝트의 목표(타�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 1. CASE WHEN RULE을 사용하여 각 달에 대해 정적 값을 설정합니다. **[!UICONTROL 사용자 지정 숫자 값]**. 아래의 월별 제품 목표 규칙을 참조하십시오.
 
-   ![제품 목표](assets/goals-derived-field-product-goals-1.png)
+   ![월별 제품 목표](assets/goals-derived-field-product-goals-1.png)
 
 
 ### 마케팅 채널 매출 목표

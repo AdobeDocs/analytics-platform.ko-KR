@@ -4,10 +4,10 @@ description: 데이터를 Customer Journey Analytics로 수집할 수 있는 다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 71%
+source-wordcount: '871'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 71%
 
 앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
 
-![Customer Journey Analytics](./assets/cja-architecture.png)
+![이 섹션에 설명된 Customer Journey Analytics 아키텍처](./assets/cja-architecture.png)
 
 위 아키텍처의 데이터 세트는 다음의 다양한 소스에서 가져올 수 있습니다.
 

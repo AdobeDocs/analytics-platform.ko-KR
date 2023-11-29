@@ -4,10 +4,10 @@ description: 값에 따라 차원 항목을 조건부로 포함하거나 제외�
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '303'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 포함/제외를 사용하여 차원 항목의 값에 의존하는 규칙을 만들 수 있습니다. 설정된 기준을 충족하지 않는 값은 Analysis Workspace에서는 존재하지 않은 것처럼 처리되지만 데이터는 여전히 기본 데이터 세트에 존재합니다.
 
-![포함/제외](../assets/include-exclude.png)
+![포함/제외 값을 강조 표시하는 데이터 보기 창](../assets/include-exclude.png)
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
@@ -26,4 +26,4 @@ ht-degree: 100%
 | [!UICONTROL 일치 피연산자] | 일치 연산자를 적용해야 하는 일치 피연산자를 지정할 수 있습니다.<ul><li>**문자열**: 텍스트 필드</li><li>**실수/정수**: 숫자 값에 대한 위쪽/아래쪽 화살표가 있는 텍스트 필드</li><li>**날짜**: 일 세부 기간 선택기 (달력)</li><li>**날짜 시간**: 날짜 및 시간 세부 기간 선택기</li></ul> |
 | [!UICONTROL 규칙 추가] | 추가 일치 연산자 및 피연산자를 지정할 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

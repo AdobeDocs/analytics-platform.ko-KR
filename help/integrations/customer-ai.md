@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 51%
 
 ---
@@ -73,7 +73,7 @@ Customer AI 데이터를 실제로 Customer Journey Analytics과 통합하려면
 
 이제 Customer Journey Analytics에서 다음 작업을 수행할 수 있습니다. [데이터 보기 만들기](/help/data-views/create-dataview.md) 설정한 연결의 일부로 가져온 차원 (점수, 점수 날짜, 확률 등) 및 지표.
 
-![데이터 보기 만들기](assets/create-dataview.png)
+![데이터 뷰 생성 창](assets/create-dataview.png)
 
 ## 4단계: 작업 영역에서 CAI 점수 보고
 

@@ -3,9 +3,9 @@ title: 참조 - 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3123'
 ht-degree: 98%
 
 ---
@@ -61,11 +61,11 @@ Approximate Count Distinct (dimension)
 
 새로운 &#39;예상 고객&#39; 계산된 지표에 대한 정의:
 
-![](assets/approx-count-distinct.png)
+![고객 ID(eVar1)를 보여주는 대략적인 카운티 고유 새 차원 정의](assets/approx-count-distinct.png)
 
 다음과 같은 방식으로 &quot;예상 고객&quot; 지표 측정 항목을 보고에 사용할 수 있습니다.
 
-![](assets/approx-customers.png)
+![고유 방문자 및 근사 고객을 보여주는 자유 형식 테이블 ](assets/approx-customers.png)
 
 ## 고유 수 초과됨
 

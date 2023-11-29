@@ -3,10 +3,10 @@ description: 알아보기
 title: 지표 유형 및 기여도 분석
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 37%
+source-wordcount: '225'
+ht-degree: 36%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 1. 유형을 선택하려는 지표 옆에 있는 톱니바퀴 아이콘을 선택합니다.
 
-   ![](assets/cm_type_alloc.png)
+   ![표준 과 동일한 지표 유형을 표시하는 팝업이 있는 톱니바퀴 아이콘.](assets/cm_type_alloc.png)
 
 1. 다음 선택 사항 중 하나를 선택합니다.
 

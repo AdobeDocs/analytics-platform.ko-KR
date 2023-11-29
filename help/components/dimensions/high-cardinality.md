@@ -4,9 +4,9 @@ description: Customer Journey Analytics이 고유한 값이 많은 차원을 처
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '526'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 고유 값이 너무 많은 보고서를 요청하면 Analysis Workspace에는 일부 차원 항목이 포함되지 않았다는 표시기가 차원 헤더에 표시됩니다. 예를 들어 &quot;행: 22,343,156개 이상의 1-50&quot; &quot;보다 큼&quot; 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
 
-![작업 영역 미리 보기](assets/high-cardinality.png)
+![22,343,156개 이상 중 1~50개를 표시하는 &quot;이상&quot; 키워드를 표시하는 Workspace의 자유 형식 테이블](assets/high-cardinality.png)
 
 ## 표시할 차원 항목 결정
 

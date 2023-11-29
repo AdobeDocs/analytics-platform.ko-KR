@@ -3,9 +3,9 @@ description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표�
 title: 기여도 지표
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '297'
 ht-degree: 6%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 6%
 
    정의 상자에서 선택한 지표를 추가하여 업데이트합니다  **(파티션|세션)** 이름을 바꾸십시오.
 
-   ![](assets/participation-setup.png)
+   ![전환 확인 기간 동안 선택된 모델 및 세션으로 선택된 기여도를 표시하는 열 속성 모델 팝업입니다.](assets/participation-setup.png)
 
 
 
 1. 선택 [!UICONTROL **저장**] 지표를 저장합니다.
 1. 보고서에서 계산된 지표를 사용합니다. 예를 들어, 계산된 [!DNL Orders (Session Participation)] 주문이 포함된 세션에 기여한(또는 참여한) 고객 계층을 표시하는 보고서의 지표(5단계에서 정의됨).
 
-   ![](assets/participation-pages-customer-tier.png)
+   ![고객 계층 및 주문을 보여 주는 자유 형식 테이블.](assets/participation-pages-customer-tier.png)
 
 1. (선택 사항) 의 설명에 따라 조직의 다른 사용자와 지표를 공유합니다 [계산된 지표 공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

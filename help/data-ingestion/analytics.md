@@ -4,10 +4,10 @@ description: 기존 Adobe Analytics에서 데이터를 수집하는 방법 설�
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 86%
+source-wordcount: '1207'
+ht-degree: 82%
 
 ---
 
@@ -53,29 +53,29 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 3. Adobe Analytics 타일에서 **[!UICONTROL 설정]** 또는 **[!UICONTROL 데이터 추가]**&#x200B;를 선택합니다.
 
-   ![소스](./assets/sources-overview.png)
+   ![Adobe 애플리케이션 및 데이터 추가 와 함께 소스가 선택된 Adobe Experience Platform 창.](./assets/sources-overview.png)
 
 4. **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다. 보고서 세트 목록에서 사용할 세트를 선택합니다.
 
-   ![보고서 세트](./assets/report-suites.png)
+   ![보고서 세트 목록을 표시하는 Adobe Experience Platform 창](./assets/report-suites.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 5. **[!UICONTROL 기본 스키마]**&#x200B;를 [!UICONTROL 대상 스키마]로 선택합니다. Adobe Experience Platform은 선택한 Adobe Analytics 보고서 세트의 모든 표준 필드를 매핑하는 스키마와 해당 데이터 세트를 자동으로 만듭니다.
 
-   ![기본 스키마](./assets/default-schema.png)
+   ![기본 스키마가 선택된 Adobe Experience Platform 창](./assets/default-schema.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 6. 데이터 흐름의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
 
-   ![데이터 흐름 세부 정보](./assets/dataflow-detail.png)
+   ![데이터 흐름 세부 사항 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/dataflow-detail.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 7. 연결을 검토하고 **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-   ![검토](./assets/review.png)
+   ![검토를 위해 연결 및 데이터 유형 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/review.png)
 
 
 연결이 만들어지면 데이터 흐름이 자동으로 만들어져 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다. 데이터 흐름은 프로덕션 샌드박스에 대해 최대 13개월의 내역 데이터를 수집합니다. 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.
@@ -111,7 +111,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - Adobe Analytics 소스 커넥터에서 자동으로 생성된 데이터 세트와 연결에 포함할 다른 데이터 세트를 선택합니다.
 
-     ![데이터 세트 추가](./assets/cja-connections-2a.png)
+     ![데이터 세트 추가 창](./assets/cja-connections-2a.png)
 
    - **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 

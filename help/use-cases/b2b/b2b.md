@@ -4,9 +4,9 @@ description: Customer Journey Analytics에 조회 데이터 세트로 계정 기
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '821'
 ht-degree: 74%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 에 대한 자체 스키마 만들기 [조회](/help/getting-started/cja-glossary.md) 표는 사용된 데이터 세트를 올바른 설정(레코드 유형)을 사용하여 Customer Journey Analytics에서 사용할 수 있도록 합니다. 모범 사례는 “조회”라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
 
-![](../assets/create-new-class.png)
+![새 클래스 만들기 대화 상자](../assets/create-new-class.png)
 
 ## 2. 조회 데이터 세트 만들기(Experience Platform)
 

@@ -4,9 +4,9 @@ description: Customer Journey Analytics이 제공하는 구성 요소와 보고 
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1132'
 ht-degree: 79%
 
 ---
@@ -36,7 +36,7 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
 
 구성 요소 패널에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. 왼쪽 레일 아이콘이나 [핫키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널(빈 패널, [자유 형식 패널](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md) 또는 [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) 패널), [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 구성 요소 간을 전환할 수 있습니다.
 
-![](assets/components.png)
+![구성 요소 아이콘](assets/components.png)
 
 프로젝트에서의 구성 요소 사용에 대한 자세한 내용은 [프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 
@@ -75,7 +75,7 @@ Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 �
    >   Shift 키를 누르거나 Command(Mac) 또는 Ctrl(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
 
 
-   ![](assets/component-actions.png)
+   ![구성 요소 작업 목록](assets/component-actions.png)
 
    | 구성 요소 작업 | 설명 |
    |--- |--- |

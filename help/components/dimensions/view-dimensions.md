@@ -3,10 +3,10 @@ description: 시간이 아닌 차원에 대한 상위 5개 값(시간 차원의 
 title: Customer Journey Analytics 작업 영역에서 차원을 미리 보는 방법
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 95%
+source-wordcount: '212'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 차원 옆에 있는 정보 (i) 아이콘 위에 커서를 놓습니다. 비시간 차원에 대한 상위 5개 값 (시간 차원의 경우 15개 값)을 표시합니다. 이러한 값은 정적으로 유지합니다 (즉, 선택된 5개 값은 변경되지 않음).
 
-![](assets/dimension-preview.png)
+![시간이 아닌 차원에 대한 상위 5개 값.](assets/dimension-preview.png)
 
 이제 기본적으로 정적인 값 대신 동적인 값을 표시하며, 이때 정적인 값으로 변환하는 옵션을 함께 제공합니다. 기타 참고 사항:
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 * 복사되거나 이동되는 동적 차원 열은 정적이 됩니다.
 * 정적 차원 열 위로 마우스를 이동하면 정적 차원을 나타내는 잠금 아이콘이 표시됩니다.
 
-![](assets/dimension_static.png)
+![잠금 아이콘을 강조 표시하는 Dimension 열 팝업](assets/dimension_static.png)
 
 ## 차원 항목 표시
 

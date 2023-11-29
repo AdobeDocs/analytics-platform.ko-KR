@@ -5,10 +5,10 @@ title: 차원 분류
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 1. 데이터 테이블로 [프로젝트를 만듭니다](/help/analysis-workspace/home.md).
 1. 데이터 테이블에서 라인 항목을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 분류]** > *`<item>`*.
 
-   ![단계 결과](assets/fa_data_table_actions.png)
+   ![선택한 항목으로 경고 만들기를 보여 주는 단계 결과.](assets/fa_data_table_actions.png)
 
    선택한 기간에 대해 차원 항목이나 대상 필터를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
@@ -41,7 +41,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 테이블 내의 모든 분류에는 모든 속성 모델이 적용될 수 있습니다. 이 속성 모델은 상위 열과 동일하거나 다를 수 있습니다. 예를 들어 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용되는 속성 모델을 편집하려면 다음과 같이 분류 모델 위로 마우스를 이동하고&#x200B;**[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-![분류 설정](assets/breakdown_settings.png)
+![분류 설정을 보여 주는 주문 속성 비교](assets/breakdown_settings.png)
 
 이는 분류에 속성 모델을 적용하거나 편집할 때 예상되는 비헤이비어입니다.
 

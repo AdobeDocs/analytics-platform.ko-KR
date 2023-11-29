@@ -1,11 +1,12 @@
 ---
 title: 결합
-description: 결합된 데이터 세트를 만들고 관리하는 방법 이해
+description: 결합된 데이터 세트를 만들고 관리하는 방법 알아보기
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+exl-id: 8820a093-e573-45f9-bcd2-0933e21c231b
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%

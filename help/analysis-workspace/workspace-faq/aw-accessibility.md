@@ -3,10 +3,10 @@ description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 99%
+source-wordcount: '618'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 * `F6`는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 선택한 요소 주위에 파란색 테두리가 표시됩니다.
 
-   ![포커스 표시기](assets/focus-indicator.png)
+  ![자유 형식 테이블 주위에 있는 파란색 테두리의 포커스 표시기를 보여 주는 자유 형식 테이블입니다.](assets/focus-indicator.png)
 
 ### 메뉴 모음의 키보드 탐색
 
@@ -98,7 +98,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 구성 요소의 유효성이 완전히 확인되면 `Save`을 눌러 빌더를 닫습니다.
 
-![오류 유효성 검사](assets/error-validation.png)
+![세그먼트 빌더 및 오류 유효성 검사 표시기.](assets/error-validation.png)
 
 ## 운영 체제 접근성 기능 지원
 

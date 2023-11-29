@@ -4,10 +4,10 @@ description: 표준 조회를 사용하여 Customer Journey Analytics의 유용�
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 76%
+source-wordcount: '376'
+ht-degree: 73%
 
 ---
 
@@ -74,8 +74,8 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 표준 조회 차원을 보고하려면 Customer Journey Analytics에서 데이터 보기를 만들 때 차원을 추가해야 합니다.
 
-![](assets/global-lookup.png)
+![구성 요소 추가 목록을 표시하는 데이터 보기 만들기](assets/global-lookup.png)
 
 그러면 작업 영역에서 조회 데이터를 볼 수 있습니다.
 
-![](assets/gl-reporting.png)
+![데이터를 보여 주는 자유 형식 테이블](assets/gl-reporting.png)

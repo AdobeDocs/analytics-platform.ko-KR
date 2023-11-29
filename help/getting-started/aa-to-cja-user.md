@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
-workflow-type: ht
-source-wordcount: '1479'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 분석할 훨씬 많은 크로스 채널 데이터에 액세스할 수 있습니다. 예를 들어 조직에서 이러한 데이터 세트를 수집하고 Customer Journey Analytics에서 사용하는 데이터 보기에 포함하는 경우 여러 채널의 성능을 분석하는 작업 영역 프로젝트를 만들 수 있습니다(아래의 “데이터 아키텍처에 대한 변경” 참조).
 
-![다중 채널 시각화](assets/cross-channel.png)
+![다중 채널 시각화를 보여 주는 데이터 소스 보기](assets/cross-channel.png)
 
 ## 데이터 아키텍처 변경 사항 {#architecture}
 

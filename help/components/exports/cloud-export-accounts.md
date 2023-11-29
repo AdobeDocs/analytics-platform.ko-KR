@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1836'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 1. 다음에서 [!UICONTROL 내보내기] 페이지에서 [!UICONTROL **위치 계정**] 탭.
 1. 선택 [!UICONTROL **계정 추가**].
 
-   ![계정 추가](assets/account-add.png)
+   ![다른 계정 추가를 보여 주는 페이지 옵션을 내보냅니다.](assets/account-add.png)
 
    계정 추가 대화 상자가 표시됩니다.
 
@@ -86,7 +86,7 @@ ht-degree: 4%
       >SAS URI가 생성된 후 7일 후에 만료되므로 이 작업은 7일마다 수행해야 합니다. 이 프로세스를 자동화하는 스크립트를 만들 수 있습니다.
 
 
-      ![SAS URL 필드](assets/blob-container-sas-uri.png)
+      ![SAS URL 필드를 표시하는 연결 정보 입력 창](assets/blob-container-sas-uri.png)
 
    1. 선택 [!UICONTROL **다음**] > [!UICONTROL **연결**].
 

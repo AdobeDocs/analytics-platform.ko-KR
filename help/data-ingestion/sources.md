@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 소스 커넥터를 사용하여 �
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 87%
+source-wordcount: '1997'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. 선택 **[!UICONTROL 개인 프로필]**.
 
-      ![스키마 만들기](./assets/create-pr-schema-wizard-step-1.png)
+      ![개별 프로필이 선택된 스키마 창 만들기](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -69,7 +69,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
 
-      ![스키마 이름 지정](./assets/create-pr-schema-wizard-step-2.png)
+      ![스키마 이름을 지정할 필드를 표시하는 스키마 만들기 창 ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
@@ -77,7 +77,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
-      ![필드 그룹 추가](./assets/add-field-group-button.png)
+      ![필드 추가 그룹을 표시하는 스키마 창 만들기](./assets/add-field-group-button.png)
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 

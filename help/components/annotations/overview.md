@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 57%
+source-wordcount: '314'
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 
 예를 들어 조직과 프로젝트를 공유한다고 가정해 보겠습니다. 마케팅 캠페인으로 인해 트래픽이 급증한 경우 &quot;캠페인 시작일&quot; 주석을 만들고 범위를 전체 데이터 보기로 지정할 수 있습니다. 사용자가 해당 날짜가 포함된 데이터 세트를 볼 때 데이터와 함께 프로젝트 내의 주석을 볼 수 있습니다.
 
-![](assets/multi-day.png)
+![주석이 강조 표시된 선 차트.](assets/multi-day.png)
 
 다음 사항에 주의하십시오.
 
@@ -46,6 +46,6 @@ ht-degree: 57%
 
 * 사용자 수준에서: [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] > [!UICONTROL 데이터] > [!UICONTROL 주석 표시]
 
-![](assets/show-ann.png)
+![강조 표시된 주석 표시가 있는 시각화 설정 대화 상자](assets/show-ann.png)
 
-![](assets/show-ann2.png)
+![주석 표시를 강조 표시하는 사용자 환경 설정.](assets/show-ann2.png)

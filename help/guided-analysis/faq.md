@@ -1,12 +1,12 @@
 ---
 title: 안내식 분석 FAQ
 description: 가이드 분석에 대한 FAQ.
-exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ While [Analysis Workspace](../analysis-workspace/home.md) 및 안내식 분석�
 
 * **안내식 분석은 이벤트 중심의 경험입니다.** 각 분석은 이벤트를 선택하여 시작한 다음 차원과 필터를 추가하여 해당 이벤트 데이터를 구체화할 수 있습니다.
 
-![구조](assets/structure.png)
+![Analysis Workspace 및 안내식 분석 보기](assets/structure.png)
 
 웹 사이트의 홈 페이지 관련 데이터에 중점을 두는 다음 예를 생각해 보십시오. 팀은 유사한 질문을 하지만 분석 접근 방식이 다를 수 있습니다.
 

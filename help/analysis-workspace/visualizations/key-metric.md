@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: 22cb88aa98576b70b8b089eda4a46f1e8963767a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 91%
+source-wordcount: '641'
+ht-degree: 85%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 
 1. 지표, 기본 날짜 범위, 비교 날짜 범위 및 필터(원하는 경우)를 선택하여 시각화를 구성합니다.
 
-   ![주요 지표 구성](assets/key-metric-config.png)
+   ![지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트 옵션을 보여 주는 주요 지표 구성입니다.](assets/key-metric-config.png)
 
    | 구성 설정 | 정의 |
    | --- | --- |
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## 출력 보기
 
-![](assets/key-metric-output.png)
+![지표, 요약 변경 사항, 요약 번호 및 선 그래프를 표시하는 주요 지표 출력입니다.](assets/key-metric-output.png)
 
 참고:
 
@@ -89,13 +89,13 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 * 여기에서 선 그래프 위로 마우스를 가져다 대면 개별 날짜에 대한 통계를 볼 수 있습니다.
 
-![통계](assets/key-metric-output2.png)
+![방문 통계](assets/key-metric-output2.png)
 
 ## 시각화 설정
 
 주요 지표 요약은 중요한 지표의 보고 및 공유를 개선하기 위해 여러 유연한 설정을 제공합니다. 시각화 오른쪽 상단에 있는 톱니바퀴 아이콘을 사용하여 설정에 액세스할 수 있습니다.
 
-![](assets/key-metric-settings.png)
+![요약 표시 유형, 일반 및 표시 옵션을 표시하는 주요 지표 요약 설정입니다.](assets/key-metric-settings.png)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -116,7 +116,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 1. 시각화 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
 
-   ![편집](assets/edit-icon.png)
+   ![시각화 편집 아이콘](assets/edit-icon.png)
 
    이제 원래 구성 보기로 돌아갑니다.
 

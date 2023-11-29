@@ -3,10 +3,10 @@ description: 히스토그램은 막대 그래프와 유사하지만 숫자들을
 title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 85%
+source-wordcount: '443'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 1. **[!UICONTROL 히스토그램]**&#x200B;을 패널로 드래그합니다.
 1. 히스토그램 시각화로 드래그할 지표를 선택하고 **[!UICONTROL 작성]**&#x200B;을 클릭합니다.
 
-![](assets/histogram.png)
+![아래 지표 드롭을 보여 주는 빈 히스토그램 패널.](assets/histogram.png)
 
 >[!NOTE]
 >
@@ -54,11 +54,11 @@ ht-degree: 85%
 
 히스토그램 차트에 대한 데이터 소스를 보거나 변경하려면, 히스토그램 헤더의 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스 설정]** > **[!UICONTROL 데이터 소스 표시]**&#x200B;로 이동합니다.
 
-![](assets/manage-data-source.png)
+![[데이터 소스 표시] 및 [선택 잠금]이 선택된 데이터 소스 설정 옵션](assets/manage-data-source.png)
 
 표에 표시되는 사전에 작성된 필터는 내부 필터이며, 필터 선택기에 표시되지 않습니다. 필터 이름의 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음, **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 필터를 공개로 만듭니다.
 
-![](assets/prebuilt_segments.png)
+![편집 창과 공개하기 링크를 표시하는 세그먼트.](assets/prebuilt_segments.png)
 
 데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)로 이동하십시오.
 

@@ -3,9 +3,10 @@ title: 보고 활동 관리자에서 보고 요청 취소
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1473'
 ht-degree: 14%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 14%
 
    1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**].
 
-      ![후속 요청 제한](assets/restrict-subsequent-requests.png)
+      ![선택한 후속 요청 제한 및 취소 메시지를 표시하는 1개 요청 취소.](assets/restrict-subsequent-requests.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -91,7 +92,7 @@ ht-degree: 14%
 
    1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**]
 
-      ![사용자별 후속 요청 제한](assets/restrict-subsequent-requests-user.png)
+      ![선택한 사용자별 후속 요청 제한을 보여 주는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests-user.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -132,7 +133,7 @@ ht-degree: 14%
 
    1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**].
 
-      ![프로젝트별로 후속 요청 제한](assets/restrict-subsequent-requests-project.png)
+      ![프로젝트별로 후속 요청 제한을 표시하는 1개 요청 취소](assets/restrict-subsequent-requests-project.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -188,7 +189,7 @@ ht-degree: 14%
 
    1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**]
 
-      ![애플리케이션별로 후속 요청 제한](assets/restrict-subsequent-requests-application.png)
+      ![선택한 애플리케이션별로 후속 요청 제한을 보여 주는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests-application.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 92%
+source-wordcount: '1087'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 
 선택한 날짜 범위에서 오늘을 제외할 수 있습니다.
 
-![오늘 제외를 선택합니다.](./assets/image17.png)
+![Report Builder을 선택하고 오늘 제외 를 선택한 빠른 편집 창.](./assets/image17.png)
 
 ## 달력 사용
 
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 날짜 범위를 반대로 설정하려면 먼저 종료 날짜를 클릭한 다음 시작 날짜를 클릭합니다.
 
-![종료 날짜를 클릭한 다음 시작 날짜를 클릭합니다.](./assets/image18.png)
+![달력과 종료 날짜 및 선택한 시작 날짜를 표시하는 Report Builder 날짜 범위 창.](./assets/image18.png)
 
 ### 사전 설정 드롭다운 메뉴
 
@@ -76,7 +76,7 @@ ht-degree: 92%
 
 1. 시작 및/또는 종료 날짜에 대한 순환 표현식을 선택합니다.
 
-   ![순환 날짜 사용 을 선택한 다음 순환 표현식을 선택합니다.](./assets/image19.png)
+   ![선택한 순환 날짜 및 순환 표현식을 표시하는 Report Builder 날짜 범위 창.](./assets/image19.png)
 
    **시작 날짜** — 일, 주, 월, 분기 또는 연도의 시작을 선택할 수 있습니다.
 
@@ -86,11 +86,11 @@ ht-degree: 92%
 
 1. 순환 기간으로 일, 주, 월, 분기 또는 연도를 선택합니다.
 
-   ![현재 날짜를 선택합니다.](./assets/image20.png)
+   ![선택한 현재 날짜를 보여 주는 Report Builder 날짜 범위 창입니다.](./assets/image20.png)
 
 1. 순환 날짜에서 일, 주, 월, 분기 또는 연도를 더하거나 뺍니다.
 
-   ![현재 일에 14일을 더한 날짜를 선택합니다.](./assets/image21.png)
+   ![현재 일에 14일을 더한 날짜를 표시하는 Report Builder 날짜 범위 창입니다.](./assets/image21.png)
 
 1. 다음을 클릭하여 데이터 범위를 정의합니다.
 

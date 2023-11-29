@@ -3,10 +3,10 @@ title: 레이블 및 정책
 description: Adobe Experience Platform에 정의된 데이터 레이블 및 정책이 Customer Journey Analytics의 데이터 보기 및 보고에 미치는 영향에 대해 알아봅니다.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: 72f4305558d1dfa7a7142ee7b6ff65972564b6bf
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 다시 왼쪽 레일에 있는 [!UICONTROL 필터] 아이콘을 클릭한 다음 **[!UICONTROL 데이터 거버넌스]**&#x200B;에서 **[!UICONTROL 정책]**&#x200B;을 클릭합니다.
 
-![](assets/filter-policies.png)
+![선택한 분석 시행 을 보여주는 목록별로 포함된 구성 요소 필터링](assets/filter-policies.png)
 
 **[!UICONTROL 적용]**&#x200B;을 클릭하여 활성화된 정책을 확인합니다.
 
@@ -67,7 +67,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 이러한 구성 요소는 왼쪽 레일 [!UICONTROL 스키마 필드] 목록에서 회색으로 표시됩니다.
 
-![](assets/component-greyed.png)
+![구성 요소가 회색으로 표시되고 정책을 나타내는 정책 메시지가 데이터 사용을 제한하는 이 필드에 적용되었습니다](assets/component-greyed.png)
 
 또한 차단된 필드가 있는 데이터 보기는 저장할 수 없습니다.
 

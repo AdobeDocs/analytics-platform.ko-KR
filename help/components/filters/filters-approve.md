@@ -2,10 +2,11 @@
 description: 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 필터 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
 title: 승인 필터
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 79%
+source-wordcount: '131'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +26,6 @@ ht-degree: 79%
 
    목록의 필터 옆에 승인 아이콘이 표시됩니다.
 
-   ![](assets/seg_approved.png)
+   ![필터 관리자가 100보다 큰 주문이 공유에 대해 승인되었음을 보여 줍니다.](assets/seg_approved.png)
 
 1. **[!UICONTROL 비승인]**&#x200B;을 클릭하여 승인된 필터의 승인을 취소할 수도 있습니다.

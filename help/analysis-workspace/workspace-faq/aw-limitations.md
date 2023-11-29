@@ -1,12 +1,12 @@
 ---
-description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
+description: Analysis Workspace Adobe 및 관련 구성 요소의 알려진 제한 사항에 대해 알아봅니다
 title: Analysis Workspace의 알려진 제한 사항
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 ## 구성 요소 > 필터
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 필터링할 수 없습니다.
-* 에서 만든 애드혹 필터 [패널 드롭존](/help/analysis-workspace/c-panels/panels.md) 는 빠른 필터 유형입니다. Workspace나 필터 구성 요소 관리자의 왼쪽 레일에는 공개하지 않습니다. 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md).
+* 에서 생성된 임시 필터 [패널 드롭 영역](/help/analysis-workspace/c-panels/panels.md) 는 빠른 필터의 유형입니다. 이러한 구성 요소는 공개하지 않으면 작업 영역 또는 필터 구성 요소 관리자의 왼쪽 레일에 표시되지 않습니다. 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md).
 
 ## 구성 요소 > 계산된 지표
 

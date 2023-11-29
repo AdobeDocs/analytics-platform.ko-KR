@@ -3,10 +3,10 @@ description: 지능형 캡션을 사용하여 자연어 인사이트를 생성�
 title: 지능형 캡션
 feature: Visualizations
 role: User, Admin
-exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 선 시각화를 위해 자동 생성된 캡션을 시작하려면 **[!UICONTROL 지능형 캡션]** 시각화 오른쪽 상단의 아이콘.
 
-![인텔리전트 캡션 실행](assets/intell-caps-1.png)
+![제품 보기에 대한 지능형 캡션 트렌드를 표시하는 Analysis Launch 창입니다. ](assets/intell-caps-1.png)
 
 이제 자연어 인사이트가 생성됩니다.
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 다음은 캡션의 모양입니다.
 
-![캡션](assets/captions.png)
+![시즌, 최소, 최대, 스파이크 및 쇠퇴를 포함하여 선 시각화를 위한 지능형 캡션입니다.](assets/captions.png)
 
 ## 클립보드에 복사 {#copy}
 
@@ -66,4 +66,4 @@ ht-degree: 1%
 
 지능형 캡션이 생성되지 않는 경우 시각화 환경 설정으로 이동하고 선택을 취소하여 이 기능을 끌 수 있습니다 **[!UICONTROL 지능형 캡션 표시]**.
 
-![캡션 설정](assets/toggle-captions.png)
+![지능형 캡션 표시 선택 취소 옵션을 보여 주는 선 시각화 옵션입니다.](assets/toggle-captions.png)

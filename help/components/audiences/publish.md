@@ -3,10 +3,10 @@ title: 실시간 고객 프로필에 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 58%
+source-wordcount: '1641'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 58%
 
    대상자를 게시하기 전에 이러한 설정을 구성합니다.
 
-   ![대상자를 만드는 방법의 스크린샷](assets/create-audience.png)
+   ![다음 섹션에 설명된 대상자 표시 설정을 만드는 스크린샷입니다.](assets/create-audience.png)
 
    | 설정 | 설명 |
    | --- | --- |
@@ -52,7 +52,7 @@ ht-degree: 58%
 
    대상자 미리보기가 오른쪽 레일에 표시됩니다. 이를 통해 사용자가 만든 대상자를 요약 분석할 수 있습니다.
 
-   ![데이터 미리보기 스크린샷](assets/data-preview.png)
+   ![대상자에 대한 요약 분석을 보여주는 데이터 미리보기 스크린샷입니다.](assets/data-preview.png)
 
    | 미리보기 설정 | 설명 |
    | --- | --- |
@@ -108,7 +108,7 @@ Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와
 
 Customer Journey Analytics 대상을 Adobe Experience Platform 세그먼트에 대한 세그먼트 정의로 드래그할 수 있습니다.
 
-![](assets/audiences-aep.png)
+![왼쪽 창의 세그먼트와 기본 패널의 CJA 대상을 강조 표시하는 Adobe Expericen Platform UI.](assets/audiences-aep.png)
 
 ## FAQ {#faq}
 

@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 95%
+source-wordcount: '843'
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 1. 왼쪽 레일의 시각화 드롭다운 목록에서 [!UICONTROL 콤보 차트] 시각화를 빈 패널로 드래그합니다.
 
-   ![빌드](assets/combo-chart-build.png)
+   ![X축 및 Y축과 옵션 필드를 보여주는 콤보 차트](assets/combo-chart-build.png)
 
 1. 드롭다운 목록에서 X축의 차원과 Y축의 지표를 선택합니다.
 
@@ -41,9 +41,9 @@ ht-degree: 95%
 
    | 선 비교 유형 | 정의 |
    | --- | --- |
-   | **[!UICONTROL 시간 비교]** | 예를 들어 가장 일반적인 비교 유형은 4주 전과 이 기간을 비교하는 것입니다. [!UICONTROL 시간 비교]를 선택한 경우 비교할 기간에 대해 2차 선택을 합니다.<p>![기간](assets/combo-time-period.png) |
-   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![함수](assets/combo-functions.png) |
-   | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![두 개의 지표](assets/combo-2metrics.png) |
+   | **[!UICONTROL 시간 비교]** | 예를 들어 가장 일반적인 비교 유형은 4주 전과 이 기간을 비교하는 것입니다. [!UICONTROL 시간 비교]를 선택한 경우 비교할 기간에 대해 2차 선택을 합니다.<p>![선택한 기간 및 기간에 대한 보조 선택 필드와 비교할 수 있습니다.](assets/combo-time-period.png) |
+   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![선택한 함수 및 사용 가능한 지원 함수 목록을 표시하는 새 비교 드롭다운 메뉴](assets/combo-functions.png) |
+   | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![두 지표를 비교하는 콤보 차트.](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
    출력 값은 다음과 유사합니다.
 
-   ![출력](assets/combo-output.png)
+   ![현재 기간을 막대 차트로 표시하고 비교 기간을 선 차트로 표시하는 콤보 차트 ](assets/combo-output.png)
 
    현재 기간은 막대 차트로 표시되고 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “바벨”이라고 합니다.
 
@@ -73,17 +73,17 @@ ht-degree: 95%
 
 다음은 수익 지표에 대한 누적 평균의 예입니다.
 
-![누적 평균](assets/combo-cumul-avg.png)
+![누적 평균을 보여주는 콤보 차트](assets/combo-cumul-avg.png)
 
 다음은 누적 평균 및 평균 함수가 모두 포함된 콤보 차트의 예입니다.
 
-![두 개의 함수](assets/combo-two-functions.png)
+![누적 평균 및 평균 함수를 모두 보여 주는 콤보 차트.](assets/combo-two-functions.png)
 
 ## 콤보 차트 설정
 
 콤보 차트의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 설정을 변경합니다.
 
-![설정](assets/combo-settings.png)
+![아래 설명된 옵션을 보여 주는 콤보 차트 설정 보기.](assets/combo-settings.png)
 
 | 설정 | 정의 |
 | --- | --- |
@@ -94,7 +94,7 @@ ht-degree: 95%
 | **[!UICONTROL 범례 표시]** | 콤보 차트 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | **[!UICONTROL 최대 항목 수 제한]** | X축의 항목 수를 줄입니다. 큰 데이터 세트가 있는 경우 처음 10개 항목(또는 선택한 값)만 표시할 수 있습니다. |
 | **[!UICONTROL 오버레이]** | 선에 바벨을 표시하거나 숨깁니다. |
-| **[!UICONTROL 축]** |  |
+| **[!UICONTROL 축]** | |
 | **[!UICONTROL 이중 축 표시]** | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. 이중 축 색상은 다중 비교가 없는 한 표의 색상과 일치합니다. 이 경우 모든 비교에 대한 색상은 회색입니다. |
 | **[!UICONTROL 표준화]** | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | **[!UICONTROL X축 표시]** | X축을 표시하거나 숨깁니다. |

@@ -4,10 +4,10 @@ description: Marketo Engage 데이터를 Customer Journey Analytics으로 가져
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 66%
+source-wordcount: '430'
+ht-degree: 63%
 
 ---
 
@@ -40,12 +40,12 @@ B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타�
 
 1. 다음과 같이 웹 페이지 조회수에 대한 [필터](/help/components/filters/create-filters.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :
 
-   ![](../assets/marketo-filter.png)
+   ![이벤트 및 이벤트 유형을 표시하는 정의 창](../assets/marketo-filter.png)
 
 1. 자유 형식 테이블에서 생성한 필터(웹 페이지 조회수)를 가져온 다음 월 날짜 범위를 가져옵니다. 이렇게 하면 매월 리드별 웹 페이지 방문 횟수를 확인할 수 있습니다.
 
-   ![](../assets/marketo-freeform.png)
+   ![월별 이벤트를 보여 주는 자유 형식 테이블.](../assets/marketo-freeform.png)
 
 1. 또는 개인 키 또는 직장 이메일 주소 차원을 가져옵니다. 이렇게 하면 각 리드의 웹 페이지 방문 횟수를 확인할 수 있습니다.
 
-   ![](../assets/marketo-freeform2.png)
+   ![이벤트 및 workEmail.Address와 웹 페이지 조회수를 보여 주는 자유 형식 테이블입니다.](../assets/marketo-freeform2.png)

@@ -4,10 +4,10 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 76%
+source-wordcount: '711'
+ht-degree: 75%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 76%
 
 1. [!UICONTROL 주석 빌더] 요소를 입력합니다.
 
-   ![](assets/ann-builder.png)
+   ![다음 섹션에서 설명하는 필드 및 옵션을 보여 주는 주석 세부 정보 창.](assets/ann-builder.png)
 
    | 요소 | 설명 |
    | --- | --- |

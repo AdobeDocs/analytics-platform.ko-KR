@@ -3,10 +3,10 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 19%
+source-wordcount: '245'
+ht-degree: 18%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 19%
 
 1. (선택 사항) 의 설명에 따라 조직의 다른 사용자와 지표를 공유합니다 [계산된 지표 공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
 
-1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 확인을 클릭합니다]**.
 
-   목록의 계산된 지표 옆에 승인 아이콘이 표시됩니다:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+   목록의 계산된 지표 옆에 승인 아이콘이 표시됩니다:  ![승인 아이콘 확인 표시가 원으로 표시됩니다.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. (선택 사항) 계산된 지표 관리자에서 계산된 지표 목록을 필터링하여 승인된 지표만 표시하려면 다음을 선택합니다. **필터** 아이콘, 확장 **[!UICONTROL 기타 필터]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 승인됨]**.

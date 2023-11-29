@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 쿼리 서비스;쿼리 서비스;sql 구문
-source-git-commit: 5caae6c8dd38eb5c6ef9cf02cdff965add75b312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 69%
+source-wordcount: '886'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 69%
 
 다음을 통해 Adobe Analytics 데이터를 Adobe Experience Platform에 수집했다고 가정해 보겠습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)을(를) 만든 다음 이 데이터 세트를 사용하여 Customer Journey Analytics 연결을 만들었습니다.
 
-![데이터 흐름](assets/compare.png)
+![Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform 및 CJA 연결을 사용하여 고객 여정 분석으로 전송되는 데이터 흐름입니다.](assets/compare.png)
 
 그런 다음 데이터 보기를 만들고 Customer Journey Analytics 시 이 데이터에 대해 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견했습니다.
 

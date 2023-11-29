@@ -4,10 +4,10 @@ description: Adobe Customer Journey Analytics을 사용하여 Google Analytics �
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 91%
+source-wordcount: '634'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,7 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 
 선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)에 자동으로 사전 매핑합니다.
 
-![스키마 맵](../assets/schema-map.png)
+![GA 데이터 필드 및 대상 스키마 매핑을 강조 표시하는 스키마 맵](../assets/schema-map.png)
 
 XDM 스키마로의 필드 매핑을 완료한 뒤에는 이 가져오기를 반복해서 예약하고 수집 프로세스 중 오류 유효성 검사를 적용할 수도 있습니다. 이 유효성 검사는 가져온 데이터에 아무 문제도 없음을 보장해 줍니다.
 

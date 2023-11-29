@@ -3,10 +3,10 @@ description: 필터 및 가중치가 적용된 지표의 예를 보여 줍니다
 title: 필터 및 가중치가 적용된 지표
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 이 간단한 필터링된 지표는 방문이 100개가 넘는 페이지에 대해서만 바운스 비율을 표시합니다.
 
-![](assets/cm_fbr.png)
+![바운스 비율과 함께 열 1(방문) 및 열 2(100)에 적용된 지표를 보여 주는 요약 창. ](assets/cm_fbr.png)
 
 이 공식은 일관된 시간 범위에 따라 달라진다는 것을 잊지 마십시오. 하루에 대해 보고서를 실행하는 경우 방문이 20개가 넘는 모든 페이지는 확인할 가치가 있습니다. 한 달에 대해 실행하는 경우에는 더 많은 방문을 포함하도록 필터링해야 할 수도 있습니다.
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 이 필터를 사용하면 방문 수로 정렬할 때 상위 30퍼센트의 페이지에 대한 바운스 비율이 표시됩니다.
 
-![](assets/cm_wbr_2.png)
+![방문 횟수별로 정렬된 페이지의 상위 30%에 대한 바운스 비율을 표시하는 if and filter .](assets/cm_wbr_2.png)
 
 ## 가중 지표 {#section_F2D16B14569948289CF1310F9E6E3FC2}
 
 일반적으로 바운스 비율로 정렬하려 하지만 방문 수가 많은 페이지가 목록의 상단에 있어야 합니다. 다음과 같은 모습의 가중치가 적용된 바운스 비율을 만들 수 있습니다.
 
-![](assets/cm_wbr.png)
+![바운스 비율 시간 방문 횟수를 정의하는 요약입니다.](assets/cm_wbr.png)

@@ -3,10 +3,10 @@ title: 감사 로그
 description: Customer Journey Analytics 감사 로그를 보고 관리하는 방법을 알아봅니다.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 67%
+source-wordcount: '825'
+ht-degree: 64%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![감사 로그](assets/audit_ui.png)
+![오늘(2022년 10월 14일) 및 어제(2022년 10월 13일)가 강조 표시된 감사 로그. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 
@@ -38,7 +38,7 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
 
 설명 옆에 있는 정보(i) 버튼을 더블 클릭합니다.
 
-![감사 로그](assets/info-button-audit.png)
+![정보 버튼을 강조 표시하는 감사 로그. ](assets/info-button-audit.png)
 
 다음 항목이 표시됩니다.
 
@@ -91,7 +91,7 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
 
 깔때기 아이콘(![필터](assets/filter-icon.png))를 선택하면 결과를 좁히는 데 도움이 되는 필터 컨트롤 목록이 표시됩니다. 선택한 다양한 필터에 관계없이 마지막 1,000개의 레코드만 표시됩니다.
 
-![필터](assets/filters.png)
+![데이터 범위에 대해 표시된 필터를 보여 주는 감사 로그.](assets/filters.png)
 
 UI의 감사 이벤트에 사용할 수 있는 필터는 다음과 같습니다.
 

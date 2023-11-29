@@ -4,10 +4,10 @@ description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journ
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
-workflow-type: ht
-source-wordcount: '2797'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '2798'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 클릭합니다.
 
-   ![연결 설정](assets/create-conn1.png)
+   ![제목 없는 연결 설정](assets/create-conn1.png)
 
 1. 연결 설정을 구성합니다.
 

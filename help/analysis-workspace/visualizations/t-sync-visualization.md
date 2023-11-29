@@ -4,10 +4,10 @@ keywords: Analysis Workspace;시각화를 데이터 소스와 동기화
 title: 데이터 소스 관리
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
 1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스]** 대화 상자를 표시합니다. **[!UICONTROL 데이터 소스 표시]** 또는 **[!UICONTROL 선택 잠금]**&#x200B;을 선택하십시오.
 
-   ![](assets/manage-data-source.png)
+   ![데이터 소스 옵션 대화 상자에 다음 섹션에서 설명하는 옵션이 표시됩니다.](assets/manage-data-source.png)
 
    시각화를 테이블 셀에 동기화하면, 새로운 (숨겨진) 테이블이 만들어지고 해당 테이블과 동기화된 시각화가 컬러 코딩됩니다.
 
@@ -39,10 +39,10 @@ ht-degree: 100%
 
 * 요약 시각화를 작성하고 이를 작성한 기반이 된 테이블의 셀에 잠글 수 있습니다. &quot;데이터 소스 표시&quot;를 활성화하면 이 정보가 테이블의 어디에서 오는지 정확하게 보여 줍니다. 소스 데이터가 회색으로 표시됩니다.
 
-   ![](assets/data-source2.png)>
+  ![워크시트의 데이터 소스 위치입니다.](assets/data-source2.png)>
 * 여기에 표시된 것처럼 많은 시각화를 추가하고 동일한 테이블의 다른 셀에서 소스를 가져올 수 있습니다. 테이블은 위 예의 경우와 동일하지만 소스 셀 (및 지표)은 다릅니다.
 
-   ![](assets/data-source3.png)>
+  ![여러 셀에서 가져온 시각화가 추가된 데이터 소스 위치](assets/data-source3.png)>
 * 왼쪽 상단의 점(데이터 소스 설정)을 클릭하여 자유 형식 또는 집단 테이블에 연결된 시각화가 있는지 여부를 확인할 수 있습니다. 마우스를 이동하면 연결된 시각화가 강조 표시되고, 클릭하면 해당 시각화로 이동합니다.
 
-   ![](assets/linked-visualizations.png)>
+  ![상위 페이지 보기에 대해 연결된 시각화를 강조 표시하는 데이터 소스 설정입니다.](assets/linked-visualizations.png)>

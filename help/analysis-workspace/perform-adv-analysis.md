@@ -4,10 +4,10 @@ description: Workspace에서 Customer Journey Analytics의 고급 분석을 수�
 feature: Workspace Basics
 exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 100%
+source-wordcount: '52'
+ht-degree: 65%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 100%
 
 고급 분석은 [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) 다이어그램, [속성 ](/help/analysis-workspace/c-panels/attribution.md), [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 다이어그램, 그리고 [차원 분류](/help/components/dimensions/t-breakdown-fa.md) 같은 기능을 활용합니다.
 
-![Workspace screenshot 1](assets/cja-adv-analysis1.png)
+![흐름 다이어그램에 표시되는 고급 분석.](assets/cja-adv-analysis1.png)
 
-![Workspace screenshot 2](assets/cja-adv-analysis2.png)
+![도넛, 벤 및 누적 막대 차트와 같은 여러 시각화 예.](assets/cja-adv-analysis2.png)

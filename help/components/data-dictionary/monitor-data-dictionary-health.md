@@ -4,10 +4,10 @@ title: 데이터 사전 상태 모니터링
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -37,9 +37,9 @@ Customer Journey Analytics 관리자는 건강한 데이터 사전을 유지 관
 
    데이터 사전 창이 표시됩니다.
 
-   ![데이터 사전 관리자 보기](assets/data-dictionary-admin.png)
+   ![사전 상태를 보여 주는 데이터 사전 관리자의 보기](assets/data-dictionary-admin.png)
 
-1. 드롭다운 메뉴에서 올바른 데이터 보기를 선택해야 합니다.
+1. 드롭다운 메뉴에서 올바른 데이터 보기가 선택되어 있는지 확인합니다.
 
 1. [!UICONTROL **사전 상태**] 탭에서 다음 옵션 옆에 있는 [!UICONTROL **보기**]&#x200B;를 선택합니다.
 

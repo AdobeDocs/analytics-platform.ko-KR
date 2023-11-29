@@ -3,10 +3,10 @@ description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위�
 title: 날짜 비교
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 1. 기간을 비교할 차원 및 지표를 사용하여 자유 형식 테이블을 만듭니다.
 1. 테이블 행을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 비교를 선택합니다]**.
 
-   ![](assets/compare-time.png)
+   ![기간 비교가 선택된 테이블 행](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 1. 결과 비교 모양은 다음과 같습니다.
 
-   ![](assets/compare-time-result.png)
+   ![날짜 범위 및 변경 비율의 비교를 보여 주는 자유 형식 테이블.](assets/compare-time-result.png)
 
    [퍼센트 변경] 열의 행은 음수 값인 경우 빨간색으로 표시되고 양수 값인 경우 녹색으로 표시됩니다.
 
 1. (선택 사항) 다른 작업 영역 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어 다음은 막대 그래프입니다.
 
-   ![](assets/compare-time-barchart.png)
+   ![작업 영역 프로젝트 막대 그래프.](assets/compare-time-barchart.png)
 
    막대 차트에 백분율 변경을 표시하려면 [!UICONTROL 시각화 설정]에서 [!UICONTROL 백분율] 설정을 선택해야 합니다.
 
@@ -55,7 +55,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
 
-1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가를 선택합니다.]**![](assets/add-time-period-column.png)
+1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가를 선택합니다.]**![[기간 추가] 열이 강조 표시된 테이블 열 목록 ](assets/add-time-period-column.png)
 
 1. 테이블의 날짜 범위를 설정한 방법에 따라 비교에 대한 다음 옵션이 제공됩니다.
 
@@ -71,11 +71,11 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
-   ![](assets/add-time-period-column2.png)
+   ![현재 달력 기간 및 이전 달력 월의 발생 상황을 보여 주는 자유 형식 테이블.](assets/add-time-period-column2.png)
 
 1. 원하는 만큼 여러 번 열을 추가하고 다른 날짜 범위를 조합할 수 있습니다.
 
-   ![](assets/add-time-period-column4.png)
+   ![1년 전 이번 달, 이전 달, 이전 달 및 1년 전 이전 달의 1주 발생 횟수를 보여 주는 자유 형식 테이블.](assets/add-time-period-column4.png)
 
 1. 또한 각 열을 정렬하여 정렬하는 열에 따라 일 순서를 변경할 수 있습니다.
 
@@ -83,7 +83,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 모든 테이블에 새 설정을 사용하여 **[!UICONTROL 날짜를 각 열에서 동일한 행의 시작으로 정렬합니다(전체 테이블에 적용)]**. 예를 들어 &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
 
-![](assets/date-comparison-setting.png)
+![선택한 동일한 행에서 날짜를 각 열에서 모두 시작으로 정렬하는 것을 표시하는 테이블 설정 팝업이 있는 자유 형식 테이블.](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 예: 날짜를 맞추도록 선택한 경우 예를 들어 2016년 10월과 9월 간에 월별 비교를 수행하는 경우 왼쪽 열이 10월 1일로 시작되고 오른쪽 열이 9월 1일로 시작됩니다.
 
-![](assets/add-time-period-column3.png)
+![월간 백분율을 보여 주는 비교입니다.](assets/add-time-period-column3.png)
 
 <!-- 
 

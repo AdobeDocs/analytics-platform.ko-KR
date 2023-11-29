@@ -5,11 +5,11 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-exl-id: 802a8f0b-10c2-4adc-a4ec-25f3d28f3002
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 4%
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 1. 다음을 클릭합니다. *셀 아이콘* 다음에서 *데이터 보기* 섹션.
 
-   ![셀 아이콘을 클릭합니다.](/help/report-builder/assets/cell-icon.png)
+   ![셀 아이콘이 강조 표시된 새 데이터 블록 창을 만듭니다.](/help/report-builder/assets/cell-icon.png)
 
 1. 선택한 셀에 데이터 보기를 추가할 셀 위치를 선택합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 1. 셀에 지정할 데이터 보기를 선택합니다.
 
-   ![데이터 보기 선택.](/help/report-builder/assets/select-data-view.png)
+   ![데이터 보기 선택을 보여 주는 Report Builder 빠른 편집 창.](/help/report-builder/assets/select-data-view.png)
 
 1. **적용**&#x200B;을 클릭합니다.
 

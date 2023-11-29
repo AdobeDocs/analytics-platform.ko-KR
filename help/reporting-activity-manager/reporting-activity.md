@@ -4,9 +4,9 @@ description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 11%
 
    활성화된 기본 연결 목록이 표시됩니다.
 
-   ![보고서 대기열](assets/reporting-activity1.png)
+   ![보고서 큐를 보여주는 보고 활동](assets/reporting-activity1.png)
 
 1. (선택 사항) 연결 목록을 검색하거나 필터링할 수 있습니다.
 

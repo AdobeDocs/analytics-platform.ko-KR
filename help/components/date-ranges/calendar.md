@@ -4,10 +4,10 @@ title: 캘린더 및 날짜 범위 개요
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 79%
+source-wordcount: '892'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 캘린더 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
 
-![캘린더](assets/aw_calendar2.png){width="60%"}
+![2022년 10월 및 2022년 11월을 보여 주는 캘린더(11월 1일부터 30일까지)가 선택되었습니다.](assets/aw_calendar2.png){width="60%"}
 
 캘린더에서 처음 클릭하면 날짜 범위 선택이 시작됩니다. 두 번째 클릭을 수행하면 날짜 범위 선택이 완료되고 강조 표시됩니다. `Shift` 키를 누르고 있거나 마우스 오른쪽 버튼 클릭을 사용하면 현재 선택한 범위에 추가됩니다.
 
@@ -48,12 +48,12 @@ Workspace에서 작업하는 경우 패널 캘린더를 기준으로 날짜 범�
 상대 날짜를 선택한 경우, 순환 날짜는 오늘 날짜가 아닌 패널 캘린더의 시작 날짜를 기준으로 합니다.
    * 이 옵션을 선택하지 않으면 순환 날짜는 오늘 날짜를 기준으로 합니다.
 
-   ![상대 패널 날짜](assets/relative-date-selected.png){width="60%"}
+   ![패널 달력을 기준으로 날짜 범위 구성 요소 만들기 를 선택한 달력](assets/relative-date-selected.png){width="60%"}
 
 1. **적용**을 클릭합니다.
 상대 날짜는 오른쪽 상단에 표시됩니다.
 
-   ![자유 형식의 상대 날짜 ](assets/relative-date-range1.png)
+   ![상대적 날짜가 강조 표시되고 마지막 달이 강조 표시된 자유 형식 테이블입니다. ](assets/relative-date-range1.png)
 
 ## 상대 패널 날짜 범위 지침 {#guidelines}
 

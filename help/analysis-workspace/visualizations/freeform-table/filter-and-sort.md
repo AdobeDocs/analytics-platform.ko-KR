@@ -3,9 +3,9 @@ description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 
 title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '966'
 ht-degree: 67%
 
 ---
@@ -67,7 +67,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. **필터** 아이콘이 나타나면 선택합니다.
 
-   ![테이블의 필터 아이콘](assets/table-filter-icon.png)
+   ![필터 아이콘을 강조 표시하는 자유 형식 테이블입니다.](assets/table-filter-icon.png)
 
    다음 옵션을 사용할 수 있습니다.
 
@@ -108,6 +108,6 @@ Analysis Workspace에서 차원 또는 지표인 열을 기준으로 자유 형�
    - 아래쪽 화살표는 내림차순으로 정렬하고 위쪽 화살표(기본값)는 오름차순으로 정렬합니다.
    - 차원을 알파벳순 또는 숫자순으로 정렬할 수 있습니다. 예를 들어 워크플로에서 단계 번호가 매겨져 있으며, 단계 번호순으로 정렬할 수 있습니다. 날짜 관련 차원을 날짜순으로 정렬할 수 있습니다. 또는 아래 이미지와 같이 알파벳순으로 데이터 소스를 정렬할 수 있습니다.
 
-   ![](assets/sort-dimensions.png)
+   ![정렬 아이콘을 강조 표시하는 데이터 소스 보기.](assets/sort-dimensions.png)
 
 

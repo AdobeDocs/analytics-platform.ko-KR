@@ -4,10 +4,10 @@ description: Adobe Experience Platform Web SDK 및 Edge Network를 통해 데이
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3607'
-ht-degree: 86%
+source-wordcount: '3616'
+ht-degree: 85%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. 선택 **[!UICONTROL 경험 이벤트]**.
 
-      ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
+      ![경험 이벤트를 강조 표시하는 스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -71,7 +71,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
 
-      ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
+      ![스키마 필드 이름을 보여 주는 스키마 만들기 창](./assets/create-ee-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 

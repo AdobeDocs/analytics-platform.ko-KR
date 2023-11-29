@@ -3,9 +3,9 @@ description: 계산된 지표 관리자는 공유, 필터링, 태깅, 승인, �
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '705'
 ht-degree: 17%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 계산된 지표 관리자는 사용자가 소유하고 있고 사용자와 공유된 모든 필터를 표시합니다. 관리자 수준의 사용자는 조직의 모든 사용자 정의 지표를 볼 수 있습니다. 이 개요에서는 계산된 지표 관리자의 사용자 인터페이스와 기능을 설명합니다.
 
-![](assets/calc-metric-manager.png)
+![사용 가능한 필터를 표시하는 계산된 지표 창.](assets/calc-metric-manager.png)
 
 ## 계산된 지표 관리자에 액세스
 

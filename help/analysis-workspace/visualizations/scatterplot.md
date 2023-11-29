@@ -3,10 +3,10 @@ title: 산포도
 description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니다.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
-![산포도](assets/scatter.png)
+![여러 차원 항목을 보여 주는 산포도 예 ](assets/scatter.png)

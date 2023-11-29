@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 사용자 정의 날짜 범위 만들기
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 85%
 
 ---
 
@@ -23,15 +23,15 @@ Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구
 
 다음 사용자 정의 날짜 범위는 방향 변경을 보여 주는 요약 변경 사항 시각화가 있는, &quot;2개월 전&quot;에 대한 날짜 범위를 보여 줍니다.
 
-![](assets/date-range-two-months-ago.png)
+![2개월 전의 롤링 날짜 사용을 보여 주는 날짜 범위 빌더](assets/date-range-two-months-ago.png)
 
 사용자 정의 날짜 범위는 프로젝트의 [!UICONTROL 날짜 범위] 구성 요소 패널의 맨 위에 표시됩니다.
 
-![](assets/date-range-panel-two-months-ago.png)
+![화살표가 2개월 전을 가리키는 날짜 범위 구성 요소 패널.](assets/date-range-panel-two-months-ago.png)
 
 비교를 위해 [지난 달] 사전 설정을 사용하는 사용자 정의 월별 롤링 날짜 범위와 함께 이 사용자 정의 날짜 범위를 열로 드래그할 수 있습니다. 요약 변경 사항 시각화를 추가하고, 각 열에서 합계를 선택하여 방향 변경 사항을 표시합니다.
 
-![](assets/date-range-two-months-table.png)
+![요약 변경 사항 표시 및 14.45% 증가.](assets/date-range-two-months-table.png)
 
 ## 7일 순환 날짜 범위 사용
 
@@ -41,9 +41,9 @@ Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구
 
 예를 들어 1주일 전에 끝나는 7일 순환 기간을 지정하는 날짜 범위를 만들 수 있습니다.
 
-![](assets/create_date_range.png)
+![7일 순환 기간을 지정하는 날짜 범위를 표시하는 날짜 범위 빌더입니다.](assets/create_date_range.png)
 
- *`rolling daily`*.
+*`rolling daily`* 사용.
 
 * 시작 설정은 *`current day minus 14 days`*.
 

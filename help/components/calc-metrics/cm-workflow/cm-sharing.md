@@ -3,10 +3,10 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 계산된 지표 공유
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 28%
+source-wordcount: '352'
+ht-degree: 25%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 28%
 
 1. 계산된 지표 관리자에서 공유할 지표 옆의 확인란을 선택합니다.
 
-   ![](assets/cm_task_bar.png)
+   ![필터 숨기기, 태그, 공유, 삭제 및 복사를 포함하여 창 맨 위에 사용 가능한 아이콘을 표시하는 계산된 지표 관리자.](assets/cm_task_bar.png)
 
 1. 다음 항목 선택 **[!UICONTROL 공유]** 아이콘. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    계산된 지표 공유 대화 상자가 표시됩니다.
 
-   ![](assets/cm_share.png)
+   ![조직에 대해 모두 선택으로 계산된 지표 창을 공유합니다.](assets/cm_share.png)
 
 1. **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 
@@ -37,15 +37,15 @@ ht-degree: 28%
 
    * **[!UICONTROL 모두]** (관리자만): 조직의 모든 사용자와 공유합니다.
 
-      회사 전체에 유용하고 모든 사람이 편리하게 사용할 수 있는 경우에만 모든 사람과 공유하는 것을 고려하십시오. 이 경우 다음을 수행하는 것도 고려해야 합니다. [승인된 지표](/help/components/calc-metrics/cm-workflow/cm-approving.md).
+     회사 전체에 유용하고 모든 사람이 편리하게 사용할 수 있는 경우에만 모든 사람과 공유하는 것을 고려하십시오. 이 경우 다음을 수행하는 것도 고려해야 합니다. [승인된 지표](/help/components/calc-metrics/cm-workflow/cm-approving.md).
 
    * **[!UICONTROL 그룹]** (관리자만): 공유할 그룹을 선택합니다.
 
-      지표가 팀에게 유용한 비즈니스 가치를 제공하는 경우 그룹과 공유하는 것이 좋습니다.
+     지표가 팀에게 유용한 비즈니스 가치를 제공하는 경우 그룹과 공유하는 것이 좋습니다.
 
    * **[!UICONTROL 개별 사용자]**: 공유할 개별 사용자를 검색하고 선택합니다.
 
-      모든 사용자가 사용할 수 있는 유일한 공유 옵션입니다. 관리자는 이 옵션을 사용하여 그룹 또는 모든 사람이 사용할 수 있도록 하기 전에 지표를 수정하고 유효성을 검사할 수 있습니다. 지표가 유용하지 않으면 삭제할 수 있습니다. 관리자는 이 유형의 지표를 공식적으로 승인해서는 안 됩니다.
+     모든 사용자가 사용할 수 있는 유일한 공유 옵션입니다. 관리자는 이 옵션을 사용하여 그룹 또는 모든 사람이 사용할 수 있도록 하기 전에 지표를 수정하고 유효성을 검사할 수 있습니다. 지표가 유용하지 않으면 삭제할 수 있습니다. 관리자는 이 유형의 지표를 공식적으로 승인해서는 안 됩니다.
 
 1. **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 

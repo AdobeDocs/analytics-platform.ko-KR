@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 내보내기 로그 관리
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '835'
 ht-degree: 7%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 예약된 내보내기의 경우 로그는 로그를 전송할 때의 내보내기 설정을 그대로 반영합니다. 로그를 삭제할 수 없습니다.
 
-## 내보내기 보기 로그
+## 내보내기 로그 보기
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 
 1. 다음 항목 선택 [!UICONTROL **로그**] 탭.
 
-   ![로그 내보내기 탭](assets/export-logs-tab.png)
+   ![로그 탭을 표시하는 내보내기 창](assets/export-logs-tab.png)
 
    각 로그에 대한 세부 정보가 사용 가능한 열에 표시됩니다.
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 1. 다음 항목 선택 **필터** 아이콘.
 
-   ![필터 정보](assets/export-log-filters.png)
+   ![계정 유형별 필터 목록을 표시하는 내보내기 창](assets/export-log-filters.png)
 
    다음 기준으로 필터링할 수 있습니다.
 

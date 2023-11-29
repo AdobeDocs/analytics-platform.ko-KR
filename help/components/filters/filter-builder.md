@@ -3,10 +3,10 @@ description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자�
 title: 필터 빌드
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 23%
+source-wordcount: '1261'
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 규칙 정의 및 컨테이너를 추가하여 필터를 정의할 수 있습니다. 필터 빌더 액세스에 대한 자세한 내용은 [필터 빌더 액세스](#access-the-filter-builder).)
 
-![](assets/segment_builder_ui_2.png)
+![이 섹션에 설명된 새 필터 옵션을 보여 주는 필터 빌더입니다.](assets/segment_builder_ui_2.png)
 
 | UI 요소 | 설명 |
 | --- | --- |

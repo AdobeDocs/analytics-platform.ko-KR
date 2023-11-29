@@ -4,10 +4,10 @@ description: Customer Journey Analytics용 프로토타입 프로젝트 미리�
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 91%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 91%
 
 1. 프로토타입 작업 시 언제든지 메시지 상자에 피드백을 입력하려면 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하십시오.
 
-   ![feedback_box](assets/give_feedback.png)
+   ![피드백 창](assets/give_feedback.png)
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 피드백을 보냅니다.
 
 1. 다른 프로토타입을 시도하거나 프로토타입 환경을 종료하려면 화면 오른쪽 상단에 있는 **[!UICONTROL 프로토타입 남기기]**&#x200B;를 클릭하고 프로토타입에 대한 간단한 설문 조사를 완료합니다. 프로토타입 프로젝트의 모든 변경 사항은 프로토타입 환경을 종료하면 없어집니다.
 
-   ![새 피드백 상자](assets/short-survey.png)
+   ![지능형 경로 지정 피드백 창](assets/short-survey.png)
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 기본 미리보기 포털로 돌아갑니다.
 

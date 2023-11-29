@@ -4,9 +4,9 @@ description: 지표에 대한 기본 속성을 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1953'
 ht-degree: 35%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 기여도는 차원 항목이 성공 이벤트에 대한 크레딧을 얻는 방식을 맞춤화할 수 있는 기능을 제공합니다.
 
-![](../assets/attribution-settings.png)
+![속성 설정 옵션을 강조 표시하는 데이터 보기 창](../assets/attribution-settings.png)
 
 예:
 
@@ -46,7 +46,7 @@ ht-degree: 35%
 
 1. 구성 요소를 선택한 다음, 화면 오른쪽의 속성 섹션을 확장합니다.
 
-   ![](../assets/attribution-settings.png)
+   ![속성 설정 옵션을 강조 표시하는 데이터 보기 창](../assets/attribution-settings.png)
 
 1. 선택 [!UICONTROL **속성 설정**]&#x200B;에서 속성 모델을 선택합니다 [!UICONTROL **속성 모델**] 드롭다운 메뉴.
 

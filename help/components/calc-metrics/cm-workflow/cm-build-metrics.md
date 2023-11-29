@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 61%
+source-wordcount: '1069'
+ht-degree: 60%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics은 차원, 지표, 필터 및 함수를 드래그하�
 
 다음 이미지와 함께 제공되는 표에서는 계산된 지표 빌더의 몇 가지 주요 영역 및 기능에 대해 설명합니다.
 
-![](assets/cm_builder_ui.png)
+![이 섹션에서 설명하는 기본 영역 및 기능을 보여 주는 새 계산된 지표 창.](assets/cm_builder_ui.png)
 
 | 필드 | 설명 |
 | --- | --- |

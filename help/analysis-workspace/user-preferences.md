@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3218'
-ht-degree: 84%
+source-wordcount: '3228'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 1. Customer Journey Analytics에서 [!UICONTROL **프로젝트**] 랜딩 페이지를 선택한 다음 [!UICONTROL **환경 설정 편집**].
 
-   ![사용자 환경 설정](assets/user-preferences.png)
+   ![이 페이지에 설명된 편집 환경 설정 옵션이 강조 표시된 작업 영역 프로젝트 보기](assets/user-preferences.png)
 
    또는
 
@@ -71,7 +71,7 @@ ht-degree: 84%
 | --- | --- | --- |
 | **표시** | | |
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace 및 안내식 분석에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주 팔레트: Analysis Workspace 및 안내식 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주별 값을 나타냅니다. Adobe 제공 옵션 중에서 선택하거나, 쉼표로 구분된 16진수 값으로 정의된 사용자 지정 팔레트를 입력하십시오.</li><li> Divergent 팔레트: Analysis Workspace 및 사용자 성장 가이드를 통한 분석의 집단 테이블에 적용됩니다. 이 팔레트에는 두 가지 극단의 숫자 의미와 중간에 기준선이 있습니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 안내가 있는 분석에 적용됩니다. 이 팔레트는 밝은 색에서 어두운 색에 대한 숫자 의미를 포함합니다.</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace 및 안내식 분석에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주 팔레트: Analysis Workspace 및 안내식 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> Divergent 팔레트: Analysis Workspace 및 사용자 성장 가이드를 통한 분석의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
 |  | [데이터 보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
@@ -111,7 +111,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 위치별 분류 | 분류를 항목 자체가 아닌 항목 위치로 유지하려면 이 옵션을 선택합니다. 분류에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오. |
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
-| | 열 합계 (정적 행만) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행 합계를 표시합니다.</li></ul> |
+| | 열 합계(정적 행만 해당) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행의 합계를 표시합니다.</li></ul> |
 
 ## 시각화 환경 설정
 

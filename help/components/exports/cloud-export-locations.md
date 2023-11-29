@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
    다음 항목 선택 [!UICONTROL **위치 계정**] 탭에서 위치를 추가하려는 기존 계정에서 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **위치 추가**].
 
-   ![기존 계정에 위치 추가](assets/add-location-existing-account.png)
+   ![위치 추가 가 선택되었음을 보여 주는 GCP 계정 및 생략 드롭다운 메뉴](assets/add-location-existing-account.png)
 
    위치 대화 상자가 표시됩니다.
 

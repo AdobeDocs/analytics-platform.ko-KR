@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에 대한 시스템 요구 사항입니다.
+description: Analysis Workspace의 시스템 요구 사항에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 관리 요구 사항
 feature: FAQ
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 81%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 
@@ -19,5 +19,5 @@ Analysis Workspace에 대한 시스템 요구 사항입니다.
 |--- |--- |
 | 제품 SKU | 조직은 Customer Journey Analytics 추가 기능이 포함된 Adobe Analytics for Select, Prime 또는 Ultimate와 계약을 맺어야 합니다. 어떤 유형의 계약을 맺고 있는지 모르거나 Customer Journey Analytics 추가 기능이 있는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오. 또한 조직에서 Adobe Experience Platform을 프로비저닝해야 합니다. |
 | 관리자 | Analysis Workspace에 대한 전체 액세스 권한을 갖습니다. |
-| 사용자 참조 | Analytics의 작업 영역 탭에 대한 액세스를 활성화하려면 관리자는 Analysis Workspace 액세스 권한이 있는 제품 프로필을 만들고 [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)에서 사용자를 추가해야 합니다. |
+| 사용자 참조 | Analytics의 작업 영역 탭에 대한 액세스를 활성화하려면 관리자는 Analysis Workspace 액세스 권한이 있는 제품 프로필을 만들고 [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에서 사용자를 추가해야 합니다. |
 | 브라우저 | <ul><li>권장: 최신 버전의 Firefox, Chrome, Safari 또는 Edge.</li><li>쿠키와 JavaScript가 활성화되어 있어야 합니다.</li><li>16비트 색상 깊이 (이상)의 1024x768 모니터 해상도</li></ul> |

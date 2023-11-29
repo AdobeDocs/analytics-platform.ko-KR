@@ -3,10 +3,10 @@ title: 자유 형식 테이블
 description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: ht
-source-wordcount: '517'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 91%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
 
-![](assets/opening-section.png)
+![여러 웹 페이지에 대한 방문 및 온라인 주문을 포함하여 행과 열로 구성 요소를 표시하는 자유 형식 테이블.](assets/opening-section.png)
 
 ## 자동화된 테이블
 
 테이블을 만드는 가장 빠른 방법은 구성 요소를 빈 프로젝트, 패널 또는 자유 형식 테이블에 직접 놓는 것입니다. 자유 형식 테이블은 권장 형식으로 자동으로 만들어집니다. [튜토리얼을 확인하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=ko-KR).
 
-![](assets/automated-table.png)
+![방문 횟수 구성 요소가 있는 새 패널이 작업 공간으로 드롭되었습니다.](assets/automated-table.png)
 
 ## 자유 형식 테이블 빌더
 
 먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 자유 형식 테이블 빌더를 활성화할 수 있습니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 필터를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않고 **[!UICONTROL 빌드]**&#x200B;를 클릭하면 업데이트됩니다.
 
-![](assets/table-builder.png)
+![다음을 보여주는 자유 형식 테이블 빌더 ](assets/table-builder.png)
 
 ## 테이블 상호 작용
 
@@ -53,4 +53,4 @@ Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experiencel
 
 Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR)에 대해 자세히 알아보십시오.
 
-![](assets/export-options.png)
+![내보내기 옵션 및 클립보드에 데이터 복사 가 선택된 것을 보여 주는 자유 형식 테이블.](assets/export-options.png)

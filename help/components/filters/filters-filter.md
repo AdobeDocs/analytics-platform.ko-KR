@@ -2,10 +2,11 @@
 description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 title: 필터 목록 필터링
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 31%
+source-wordcount: '194'
+ht-degree: 30%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 31%
 
 1. 필터 관리자에서 **[!UICONTROL 필터]** 아이콘:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![필터 아이콘 및 사용 가능한 필터를 표시하는 필터 관리자.](assets/filtering.png)
 
 2. 다음 필터를 사용할 수 있습니다.
 

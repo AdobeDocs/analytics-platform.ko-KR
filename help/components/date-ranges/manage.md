@@ -3,10 +3,10 @@ title: 날짜 범위 관리
 description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또는 삭제합니다.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 인터페이스
 
-![UI](../assets/date-range-ui.png)
+![예제 범위가 강조 표시된 날짜 범위.](../assets/date-range-ui.png)
 
 날짜 범위 관리자에는 다음과 같은 옵션이 포함됩니다.
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '508'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 누른 다음 편집할 위치를 선택합니다.
 
-   ![위치 편집](assets/locations-edit.png)
+   ![위치 탭과 위치 목록을 표시하는 창을 내보냅니다.](assets/locations-edit.png)
 
 1. 선택 [!UICONTROL **편집**].
 
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 누른 다음 삭제할 위치를 하나 이상 선택합니다.
 
-   ![위치 편집](assets/locations-edit.png)
+   ![위치 탭과 위치 목록을 표시하는 내보내기 창](assets/locations-edit.png)
 
 1. [!UICONTROL **삭제**]&#x200B;를 선택합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-add.png)
+   ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
 
 1. 선택 [!UICONTROL **세부 정보 보기**] 편집할 계정에 대해 설명합니다.
 
@@ -105,7 +105,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-add.png)
+   ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
 
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 키**].
 
@@ -115,7 +115,7 @@ ht-degree: 5%
 
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
-   ![계정 페이지](assets/account-add.png)
+   ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
 
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 삭제**].
 

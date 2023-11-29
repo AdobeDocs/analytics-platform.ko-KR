@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 77%
+source-wordcount: '1307'
+ht-degree: 76%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 경영진 사용자는 다운로드 및 설치 후 기존 Customer Journey Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.
 
-![앱 시작 화면](assets/welcome.png)
+![Customer Journey Analytics 앱 시작 화면](assets/welcome.png)
 
 ## 대시보드 사용 {#use-dashboards}
 
