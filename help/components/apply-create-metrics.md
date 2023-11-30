@@ -3,10 +3,10 @@ description: Analysis Workspace에서 지표를 사용하는 두 가지 방법�
 title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 51%
+source-wordcount: '397'
+ht-degree: 49%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 * **계산된 지표 템플릿**  <img src="./assets/adobe-logo.svg" width="18"> : 계산된 지표와 유사하게 동작하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 그대로 사용하거나 복사본을 저장하여 논리를 사용자 정의할 수 있습니다.
 
 
-![UI의 지표](assets/cja-metrics.png)
+![왼쪽 창에서 지표를 강조 표시하는 작업 영역 패널.](assets/cja-metrics.png)
 
 지표가 승인되었는지 여부를 확인할 수 있습니다 ![승인됨 아이콘](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  아님 말거나 지표에 대한 자세한 내용을 보려면 지표 위로 마우스를 가져간 다음 을 선택합니다 ![정보 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
@@ -40,7 +40,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 계산된 지표를 더 빠르고 쉽게 생성할 수 있도록 **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;가 자유 형식 테이블의 열 마우스 오른쪽 버튼 클릭 메뉴에 추가되었습니다. 이 선택 사항은 머리글 열 셀을 하나 이상 선택하면 표시됩니다.
 
-![선택 항목에서 만들기](assets/create-metric-from-selection.png)
+![선택 항목에서 만들기 를 강조 표시하는 작업 영역 패널](assets/create-metric-from-selection.png)
 
 [계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR) (3:42)
 
@@ -48,6 +48,6 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 한 가지 기여도 분석 모델을 다른 모델과 신속하고 간편하게 비교하려면 지표를 마우스 오른쪽 단추로 클릭하고 를 선택하십시오 **[!UICONTROL 속성 모델 비교]**:
 
-![속성 비교](assets/compare-attribution.png)
+![속성 모델 비교를 강조 표시하는 작업 영역 패널](assets/compare-attribution.png)
 
 이 단축키를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 신속하고 간편하게 비교할 수 있습니다.

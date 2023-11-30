@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1510'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **위치 추가**].
 
-   ![위치 추가 단추](assets/location-add.png)
+   ![위치 추가 버튼이 강조 표시된 위치 탭이 선택된 창 내보내기](assets/location-add.png)
 
    또는
 
