@@ -4,10 +4,10 @@ description: Customer Journey Analytics 기능과 Adobe Analytics 기능 세트�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 15fbbf26b58b474f65e6585ac72bdf247fb1678d
-workflow-type: ht
-source-wordcount: '2135'
-ht-degree: 100%
+source-git-commit: 3482083fd5f99f133db79f682d3231cc75c969ff
+workflow-type: tm+mt
+source-wordcount: '2044'
+ht-degree: 96%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 100%
 | 보고 API 액세스 | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원. 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics로 포팅되지 않습니다. |
-| 가상 보고서 세트 | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
+| 가상 보고서 세트 | 전체 지원. 지금 호출됨 [데이터 보기](/help/data-views/create-dataview.md). |
 | 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
-| 디바이스, 브라우저, 레퍼러, 기술 차원 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반의 데이터 세트와 Web SDK에서 생성된 데이터 세트 모두에 대해 지원됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko)를 참조하십시오.Experience Platform Web SDK 데이터 수집을 사용하는 경우 현재 디바이스 조회를 기반으로 하는 디바이스 및 차원이 지원되지 않습니다. 향후 지원 계획이 있습니다. Web SDK 데이터 스트림에 디바이스 및 브라우저 조회를 추가하려면 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 참조하십시오. |
+| 디바이스, 브라우저, 레퍼러, 기술 차원 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반의 데이터 세트와 Web SDK에서 생성된 데이터 세트 모두에 대해 지원됩니다. 을(를) 참조하십시오 [adc를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko).Device Web SDK 데이터 수집을 사용하는 경우 Experience Platform 조회를 기반으로 하는 장치 및 차원은 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. Web SDK 데이터 스트림에 디바이스 및 브라우저 조회를 추가하려면 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 참조하십시오. |
 | 스트리밍 미디어 Analytics | 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -137,5 +137,6 @@ ht-degree: 100%
 | 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
 | 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 결합할 수 있습니다. |
 | 파생 필드 | 파생 필드를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
+| 가이드 분석 | 가이드 분석은 사용자가 데이터 요구 사항을 신속하게 자체 처리할 수 있는 보고 형식으로, 고품질의 인사이트를 신속하게 얻고 데이터 중심의 의사 결정을 내릴 수 있습니다. 안내식 분석은 Customer Journey Analytics에 대한 추가 기능인 Adobe Product Analytics의 일부입니다. |
 
 {style="table-layout:auto"}
