@@ -4,16 +4,16 @@ description: 보고에서 차원 또는 지표가 어떻게 동작하는지 지�
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
 # 비헤이비어 구성 요소 설정
 
-차원과 지표 모두에서 비헤이비어 설정을 시용할 수 있습니다. 사용 가능한 설정은 구성 요소 유형과 스키마 데이터 유형에 따라 다릅니다.
+차원과 지표 모두에서 비헤이비어 설정을 시용할 수 있습니다. 구성 요소 유형과 스키마 데이터 유형에 따라 설정 사용 가능 여부가 달라집니다.
 
 ![비헤이비어 설정](../assets/behavior-settings.png)
 
@@ -25,11 +25,11 @@ ht-degree: 94%
 
 {style="table-layout:auto"}
 
-![대/소문자 차원](../assets/case-sens-workspace.png)
-
 >[!NOTE]
 >
 >조회 데이터 세트 차원에서 [!UICONTROL 소문자가 활성]화되면 동일한 식별자에 대해 여러 조회 값이 존재할 수 있습니다. 충돌이 발생하면 Customer Journey Analytics은 첫 번째 ASCII 조회 값을 사용합니다(대문자 값은 소문자 값 앞에 놓임). [!UICONTROL 소문자]가 활성화되면 Adobe에서는 조회 데이터 세트 사용을 권장하지 않습니다.
+
+![대/소문자 차원](../assets/case-sens-workspace.png)
 
 ## 지표 비헤이비어 설정
 

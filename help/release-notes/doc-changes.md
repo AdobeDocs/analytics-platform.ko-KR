@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
+source-git-commit: 9b51a28ca2d387aabd3ffde651eed6c37d28baa0
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 94%
+source-wordcount: '2737'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +20,12 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 12월** | |
+| 통화 전환 업데이트 | 방법에 대한 설명서를 명확하게 정리했습니다. [통화 전환 구성](/help/data-views/component-settings/format.md). |
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음과 같이 변경되었습니다. <ul><li>설명서에서 Virtual Analyst라는 용어를 제거했습니다.</li><li>다음에 대한 섹션: [예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
 | 목표/목표 설정에 파생 필드 사용 | 추가됨 [사용 사례](../use-cases/goals-using-derived-fields.md) 목표/타겟 설정 및 보고를 위해 파생 필드를 사용하는 방법을 설명하는 문서입니다. |
 | 클라우드로 전체 테이블 내보내기 | 수백만 개의 작업 영역 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. | 2023년 10월 4일 |
-| 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
+| 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 관리자는 보고 사용량에 대해 자세히 파악할 수 있으므로 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있습니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 관리 페이지의 새 열 | 에서 사용할 수 있는 새로운 열 문서화 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 및 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Adobe Analytics와의 비교 | 을(를) 추가함 [개요 페이지](../getting-started/aa-vs-cja/overview.md) Customer Journey Analytics과 Adobe Analytics의 차이점을 비교하고 이해하는 데 대한 소개입니다. |
 | 추가 파생 필드 기능 | 새 설명서가 업데이트되었습니다. [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 함수. |
@@ -115,7 +116,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 8월 | [Customer Journey Analytics 액세스 제어](/help/admin/cja-access-control.md)에 대한 문서가 대폭 업데이트되었습니다. |
 | 2022년 8월 | [데이터 거버넌스 레이블 및 정책에 대한 Customer Journey Analytics 지원](/help/data-views/data-governance.md)에 관한 새 문서. |
 | 2022년 8월 | [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](/help/getting-started/aa-vs-cja/terminology.md)에 대한 새 문서. |
-| 2022월 8월 | [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)에 대한 새 설명서. |
+| 2022년 8월 | 에 대한 새로운 설명서 [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html). |
 | **2022년 7월** | |
 | 2022년 7월 | [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 문서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 문서. |
@@ -123,13 +124,13 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2022년 6월** | |
 | 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서. |
-| 2022년 6월 | [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)에 대한 새 문서. |
+| 2022년 6월 | 에 대한 새 문서 [가상 보고 환경 및 샌드박스 환경](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md). |
 | 2022년 6월 | [Adobe Analytics 및 Customer Journey Analytics 보고 기능 간의 데이터 처리 비교](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)에 대한 새 문서. |
-| 2022년 6월 | [보고서 세트를 다른 스키마와 결합](/help/use-cases/aa-data/combine-report-suites.md)에 대한 새 문서. |
-| 2022년 6월 | [모바일 스코어카드에서 주석 공유](/help/components/annotations/mobile-annotations.md)에 대한 새 문서. |
+| 2022년 6월 | 에 대한 새 문서 [보고서 세트를 다른 스키마와 결합](/help/use-cases/aa-data/combine-report-suites.md). |
+| 2022년 6월 | 에 대한 새 문서 [모바일 스코어카드에서 주석 공유](/help/components/annotations/mobile-annotations.md). |
 | 2022년 6월 | [Customer Journey Analytics의 Analytics Labs](/help/labs/labs.md)에 대한 새 문서. |
-| 2022년 6월 | [숫자 필드를 조회 키 및 조회 값으로 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)에 대한 새 섹션. |
-| 2022년 6월 | [플로우 시각화 워크플로](/help/analysis-workspace/visualizations/c-flow/create-flow.md)에 대한 업데이트. |
+| 2022년 6월 | 의 새 섹션 [숫자 필드를 조회 키 및 조회 값으로 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric). |
+| 2022년 6월 | 업데이트: [플로우 시각화 워크플로](/help/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | **2022년 5월** | |
 | 2022년 5월 | Customer Journey Analytics에서 [연결 생성](/help/connections/create-connection.md)에 대한 문서가 대폭 업데이트되었습니다. |
 | 2022년 5월 | [Customer Journey Analytics Report Builder에서 데이터 블록을 관리](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html)하는 방법에 대한 새 문서. |
