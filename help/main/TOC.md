@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+source-git-commit: 3d53fbcfea341f0cf9c1cf7da5296565eafff0f9
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 82%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 82%
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform Edge Network {#edge-network}
+      + Adobe Experience Platform 에지 네트워크 {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [서버 API](../data-ingestion/serverapi.md)
@@ -100,7 +100,7 @@ ht-degree: 82%
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 영역의 폴더 {#workspace-folders}
          + [작업 영역의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 만들기 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 삭제](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
@@ -293,7 +293,7 @@ ht-degree: 82%
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
 
-+ 보고 활동 관리자 {#reporting-activity-manager}
++ 활동 관리자 보고 {#reporting-activity-manager}
    + [개요](../reporting-activity-manager/reporting-activity-overview.md)
    + [보고 활동 보기](../reporting-activity-manager/reporting-activity.md)
    + [보고 요청 취소](../reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -343,6 +343,7 @@ ht-degree: 82%
    + Adobe Analytics 데이터 {#aa-data}
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
+      + [데이터 피드 에뮬레이션](../use-cases/emulating-data-feeds.md)
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
    + 파생 필드 {#derived-fields}

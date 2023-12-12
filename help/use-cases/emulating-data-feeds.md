@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d6e10a00bf9afb2788f99800e09a7e80fd31e489
+source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%
@@ -396,9 +396,4 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 >[!IMPORTANT]
 >
 >이 사용 사례에는 두 개의 스케줄러가 포함됩니다. 에뮬레이트된 데이터 피드 기능이 적절히 작동하도록 하려면 쿼리 서비스 및 데이터 내보내기에 구성된 일정이 간섭되지 않도록 하십시오.
-
-
-
-
-
 
