@@ -5,258 +5,127 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d5719dddfb4cefda761370951973d55b3904032f
+source-git-commit: e49ea37f36d105e428bc6d04a6ed42a47e2d75fc
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 1%
+source-wordcount: '2555'
+ht-degree: 5%
 
 ---
 
 # 데이터 피드 기능 에뮬레이션
 
-Adobe Analytics 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이 사용 사례에서는 Experience Platform에서 유사한 유형의 원시 데이터를 가져와 Adobe 외부의 다른 플랫폼에서 사용하고 조직의 재량으로 사용하는 방법에 대해 설명합니다.
-
-## 사전 요구 사항
-
-이 사용 사례에서 설명하는 기능을 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
-
-* Experience Platform의 데이터 레이크로 온라인 및 오프라인 데이터를 전송하는 작업 구현입니다.
-* 플랫폼 기반 응용 프로그램 또는 Data Distiller 추가 기능의 일부로 패키지된 Query Service에 액세스합니다. 다음을 참조하십시오 [쿼리 서비스 패키징](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 추가 정보.
-* Real-Time CDP Prime 또는 Ultimate 패키지, Adobe Journey Optimizer 또는 Customer Journey Analytics을 구매한 고객이 사용할 수 있는 데이터 세트 내보내기 기능에 액세스합니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko) 추가 정보.
-* 데이터 피드의 원시 데이터를 내보낼 수 있는 위치에 구성된 하나 이상의 대상(예: Amazon S3, Google 클라우드 스토리지).
+Adobe Analytics 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이 사용 사례에서는 Experience Platform에서 유사한 유형의 원시 데이터를 가져오는 방법에 대해 설명하므로, Adobe 외부의 다른 플랫폼, 도구 및 조직의 판단에 따라 데이터를 사용할 수 있습니다.
 
 ## 소개
 
 Adobe Analytics 데이터 피드 에뮬레이션에는 다음이 포함됩니다.
 
-* 정의 **예약된 쿼리** 를 사용하여 데이터 피드에 대한 데이터를 출력 데이터 세트로 생성합니다. **쿼리 서비스**.
+* 정의 **예약된 쿼리** 데이터 피드에 대한 데이터를 출력 데이터 세트로 생성합니다 ![출력 데이터 세트](assets/output-dataset.svg), 사용 **쿼리 서비스**.
 * 정의 **예약된 데이터 세트 내보내기** 를 사용하여 출력 데이터 세트를 클라우드 스토리지 대상으로 내보냅니다. **데이터 세트 내보내기**.
 
-
 ![데이터 피드](assets/data-feed.svg)
+
+
+## 사전 요구 사항
+
+이 사용 사례에서 설명하는 기능을 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
+
+* Experience Platform의 데이터 레이크에 데이터를 수집하는 작업 구현입니다.
+* 데이터 Distiller 추가 기능에 액세스하여 일괄 쿼리를 실행할 권한이 있습니다. 다음을 참조하십시오 [쿼리 서비스 패키징](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 추가 정보.
+* Real-Time CDP Prime 또는 Ultimate 패키지, Adobe Journey Optimizer 또는 Customer Journey Analytics을 구입한 경우 사용할 수 있는 데이터 세트 내보내기 기능에 액세스합니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko) 추가 정보.
+* 데이터 피드의 원시 데이터를 내보낼 수 있는 위치에 구성된 하나 이상의 대상(예: Amazon S3, Google 클라우드 스토리지).
 
 
 ## 쿼리 서비스
 
 Experience Platform 쿼리 서비스를 사용하면 Experience Platform 데이터 레이크의 데이터 세트를 데이터베이스 테이블처럼 쿼리하고 조인할 수 있습니다. 그런 다음 보고 또는 내보내기에 추가로 사용하기 위해 결과를 새 데이터 세트로 캡처할 수 있습니다.
 
-쿼리 서비스를 사용합니다. [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en), a [PostgresSQL 프로토콜을 통해 연결된 클라이언트](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ko), 또는 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 데이터 피드에 대한 데이터를 수집하는 쿼리를 만들고 예약합니다.
+쿼리 서비스를 사용합니다. [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en), a [PostgresQL 프로토콜을 통해 연결된 클라이언트](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ko), 또는 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 데이터 피드에 대한 데이터를 수집하는 쿼리를 만들고 예약합니다.
 
 ### 쿼리 만들기
 
 SELECT 문용 표준 ANSI SQL의 모든 기능과 기타 제한된 명령을 사용하여 데이터 피드에 대한 데이터를 생성하는 쿼리를 만들고 실행할 수 있습니다. 다음을 참조하십시오 [SQL 구문](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) 추가 정보. 이 SQL 구문 이상의 Adobe은
 
-* 사전 빌드됨 [Adobe 정의 함수 (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) Experience Platform 데이터 레이크에 저장된 이벤트 데이터에 대해 일반적인 비즈니스 관련 작업을 수행하는 데 도움이 됩니다. [세션화](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=ko) 및 [속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko),
+* 사전 빌드됨 [Adobe 정의 함수 (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) Experience Platform 데이터 레이크에 저장된 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 데 도움이 됩니다. [세션화](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=ko) 및 [속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko),
 * 여러 기본 제공 [Spark SQL 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en),
 * [metadata PostgreSQL 명령](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en),
 * [준비된 진술](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
 
 
-#### 예
-
-데이터 피드에 대한 데이터를 수집하는 쿼리의 몇 가지 예가 아래에 나와 있습니다. 이러한 예제는 `demo_system_event_dataset_for_website_global_v1_1` 는 웹 사이트와 상호 작용하는 고객으로부터 수집된 데이터를 포함하는 샘플 경험 이벤트 데이터 세트입니다.
-
-+++상위 5개 제품
-
-*웹사이트에서 본 상위 5개 제품은 무엇입니까?*
-
-```sql
-select productListItems.name, count(*)
-from   demo_system_event_dataset_for_website_global_v1_1
-where  eventType = 'commerce.productViews'
-group  by productListItems.name
-order  by 2 desc
-limit 5;
-```
-
-+++
-
-+++제품 상호 작용 단계
-
-*웹 사이트에서 다양한 제품 상호 작용은 무엇입니까?*
-
-```sql
-select eventType, count(*)
-from   demo_system_event_dataset_for_website_global_v1_1
-where  eventType is not null
-and    eventType <> ''
-group  by eventType;
-```
-
-+++
-
-+++사람들이 하는 일
-
-*사람들이 한 세션에서 세 번째 페이지로 &quot;서비스 취소&quot; 페이지에 도달하기 전에 사이트에서 수행하는 작업은 무엇입니까?*
-
-이 쿼리는 Adobe 정의 함수를 사용합니다. `SESS_TIMEOUT` 및 `NEXT`.
-
-* 다음 `SESS_TIMEOUT()` Adobe Analytics에 있는 방문 그룹화를 재현합니다. 이는 유사한 시간 기반 그룹화를 수행하지만 사용자 정의 가능한 매개 변수를 사용합니다.
-* `NEXT()` 및 `PREVIOUS()` 고객이 사이트를 탐색하는 방법을 이해할 수 있도록 지원합니다.
-
-```sql
-SELECT
-  webPage,
-  webPage_2,
-  webPage_3,
-  webPage_4,
-  count(*) journeys
-FROM
-  (
-      SELECT
-        webPage,
-        NEXT(webPage, 1, true)
-          OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_2,
-        NEXT(webPage, 2, true)
-          OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_3,
-        NEXT(webPage, 3, true)
-           OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_4,
-        session.depth AS SessionPageDepth
-      FROM (
-            select a._sampleorg.identification.core.ecid as ecid,
-                   a.timestamp,
-                   web.webPageDetails.name as webPage,
-                    SESS_TIMEOUT(timestamp, 60 * 30)
-                       OVER (PARTITION BY a._sampleorg.identification.core.ecid
-                             ORDER BY timestamp
-                             ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
-                  AS session
-            from   demo_system_event_dataset_for_website_global_v1_1 a
-            where  a._sampleorg.identification.core.ecid in (
-                select b._sampleorg.identification.core.ecid
-                from   demo_system_event_dataset_for_website_global_v1_1 b
-                where  b.web.webPageDetails.name = 'Cancel Service'
-            )
-        )
-)
-WHERE SessionPageDepth=1
-and   webpage_3 = 'Cancel Service'
-GROUP BY webPage, webPage_2, webPage_3, webPage_4
-ORDER BY journeys DESC
-LIMIT 10;
-```
-
-+++
-
-+++시간
-
-*방문자가 &quot;서비스 취소&quot; 페이지를 방문한 후 콜센터에 문의 전화를 하기까지 시간이 얼마나 됩니까?*
-
-이러한 종류의 쿼리에 응답하려면 `TIME_BETWEEN_NEXT_MATCH()` Adobe 정의 함수입니다. 이전 또는 다음 일치 함수 사이의 시간 기능은 특정 인시던트 이후 경과된 시간을 측정하는 새 차원을 제공합니다.
-
-```sql
-select * from (
-       select _sampleorg.identification.core.ecid as ecid,
-              web.webPageDetails.name as webPage,
-              TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='Call Start', 'seconds')
-              OVER(PARTITION BY _sampleorg.identification.core.ecid
-                  ORDER BY timestamp
-                  ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
-       from   demo_system_event_dataset_for_website_global_v1_1
-       where  web.webPageDetails.name in ('Cancel Service', 'Call Start')
-) r
-where r.webPage = 'Cancel Service'
-limit 15;
-```
-
-+++
-
-+++결과는 무엇입니까?
-
-*고객이 콜센터에 전화하면 어떤 결과가 나오나요?*
-
-이 쿼리의 경우 `demo_system_event_dataset_for_website_global_v1_1` 데이터 세트가 예제로 결합됨 `demo_system_event_dataset_for_call_center_global_v1_1` 콜센터 상호 작용이 포함된 데이터 세트입니다.
-
-```sql
-select distinct r.*,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callFeeling,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callTopic,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callContractCancelled
-from (
-       select _sampleorg.identification.core.ecid ecid,
-              web.webPageDetails.name as webPage,
-              TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='Call Start', 'seconds')
-              OVER(PARTITION BY _sampleorg.identification.core.ecid
-                  ORDER BY timestamp
-                  ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
-       from   demo_system_event_dataset_for_website_global_v1_1
-       where  web.webPageDetails.name in ('Cancel Service', 'Call Start')
-) r
-, demo_system_event_dataset_for_call_center_global_v1_1 c
-where r.ecid = c._sampleorg.identification.core.ecid
-and r.webPage = 'Cancel Service'
-and c._sampleorg.interactionDetails.core.callCenterAgent.callContractCancelled IN (true,false)
-and c._sampleorg.interactionDetails.core.callCenterAgent.callTopic IN ('contract', 'invoice','complaint','wifi')
-limit 15;
-```
-
-+++
-
-+++마케팅 채널 참여(Adobe Analytics 데이터)
-
-*이탈리아어 중심의 웹 트래픽을 위한 마케팅 채널 전반의 참여는 무엇입니까?*
-
-이 예에서는 Adobe Analytics 소스 커넥터에서 자동으로 만든 데이터 세트(예: )를 사용합니다 `demo_data_sample_org_midvalues`.
-
-```sql
-select 
-    channel.typeAtSource, count(*) 
-from 
-    demo_data_sample_org_midvalues 
-where 
-    (channel.typeAtSource IS NOT NULL
-and
-    web.webPageDetails.URL LIKE '%/it/it/%')
-group by 
-    channel.typeAtSource
-order by 2 desc;
-```
-
-+++
-
-더 많은 (고급) 샘플 쿼리는 다음을 참조하십시오. [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en), [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en), [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)및 쿼리 서비스 안내서의 기타 예제를 참조하십시오.
-
-
 #### ID
 
-Experience Platform에서 다양한 ID를 사용할 수 있습니다. ID를 올바르게 쿼리하고 있는지 확인합니다. 위의 예에서 ECID는 식별 개체의 일부인 핵심 개체의 일부로 정의되며, 둘 다 경험 이벤트 핵심 필드 그룹을 사용하여 스키마에 추가됩니다(예: `_sampleorg.identification.core.ecid`). ECID는 스키마에서 다르게 구성될 수 있습니다.
+Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 만들 때 ID를 올바르게 쿼리하고 있는지 확인하십시오.
+
+종종 별도의 필드 그룹에서 ID를 찾습니다. 구현 ECID에서 (`ecid`)은 를 사용하여 필드 그룹의 일부로 정의할 수 있습니다. `core` 객체, 그 자체가 `identification` 개체. (예: `_sampleorg.identification.core.ecid`). ECID는 스키마에서 다르게 구성될 수 있습니다.
 
 또는 다음을 사용할 수 있습니다 `identityMap` ID를 쿼리합니다. 이 개체는 유형입니다. `Map` 및 를 사용합니다. [중첩된 데이터 구조](#nested-data-structure).
 
-Adobe Analytics 소스 커넥터를 사용하여 수집된 데이터의 경우 여러 ID를 사용할 수 있습니다. 기본 식별자는 ECID 또는 AAID의 존재 여부에 따라 다릅니다. 다음을 참조하십시오 [Adobe Analytics 데이터의 기본 식별자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#how-the-analytics-source-treats-identities) 및 [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=ko) 추가 정보
 
 #### 데이터 피드 열
 
-쿼리에 사용할 수 있는 필드(열)는 데이터 세트의 기반이 되는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다.
+쿼리에서 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 하는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다.
 
-예를 들어, 일부 [예제 쿼리](#examples) 을(를) 쿼리했습니다. *페이지 이름*.
+데이터 피드 열과 XDM 필드 간의 매핑을 간소화하려면 다음을 포함하는 것을 고려해야 합니다. [Adobe Analytics ExperienceEvent 템플릿](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 경험 이벤트 스키마의 필드 그룹. 다음을 참조하십시오 [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 보다 구체적으로 [Adobe 응용 프로그램 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+
+예를 들어 를 사용하려는 경우 *페이지 이름* 데이터 피드의 일부로:
 
 * Adobe Analytics 데이터 피드의 UI에서 **[!UICONTROL pagename]** 를 데이터 피드 정의에 추가할 열로 지정합니다.
-* 쿼리 서비스에서 다음을 포함합니다. `web.webPageDetails.name` 다음에서 `demo_system_event_dataset_for_website_global_v1_1` 데이터 세트 (기반) **데모 시스템 - 웹 사이트에 대한 이벤트 스키마(전역 v1.1)** 경험 이벤트 스키마)를 포함할 수 있습니다. 다음을 참조하십시오. [웹 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 추가 정보.
+* 쿼리 서비스에서 다음을 포함합니다. `web.webPageDetails.name` 다음에서 `sample_event_dataset_for_website_global_v1_1` 데이터 세트 (기반) **웹 사이트에 대한 샘플 이벤트 스키마(전역 v1.1)** 경험 이벤트 스키마)를 포함할 수 있습니다. 다음을 참조하십시오. [웹 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 추가 정보.
 
-경험 이벤트 데이터 세트와 기본 스키마의 이전 Adobe Analytics 데이터 열과 XDM 필드 간의 매핑을 이해하려면 다음을 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko) 및 [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 추가 정보.
+경험 이벤트 데이터 세트와 기본 스키마의 이전 Adobe Analytics 데이터 피드 열과 XDM 필드 간의 매핑을 이해하려면 다음을 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko) 및 [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 추가 정보.
 
-또한, Experience Platform Web SDK에서 자동으로 수집된 정보는 쿼리의 열을 식별하는 것과 관련이 있을 수 있습니다. 다음을 참조하십시오 [자동으로 수집된 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 추가 정보.
+또한 [Experience Platform 웹 SDK를 통해 자동으로 수집된 정보(기본 제공)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 쿼리의 열을 식별하는 데 관련이 있을 수 있습니다.
 
+#### 히트 수준 데이터 및 식별
+
+구현에 따라, 전통적으로 Adobe Analytics에서 수집된 히트 수준 데이터는 이제 Experience Platform에서 타임스탬프가 지정된 이벤트 데이터로 저장됩니다. 다음 표는에서 추출됩니다. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) 및 에서는 히트 수준별 Adobe Analytics 데이터 피드 열을 쿼리의 해당 XDM 필드와 매핑하는 방법에 대한 예를 보여 줍니다. 이 표에서는 XDM 필드를 사용하여 히트, 방문 및 방문자를 식별하는 방법의 예도 보여줍니다.
+
+| 데이터 피드 열 | XDM 필드 | 유형 | 설명 |
+|---|---|---|---|
+| hitid_high + hitid_low | _ID | 문자열 | 히트를 식별하는 고유 식별자입니다. |
+| hitid_low | _ID | 문자열 | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. |
+| hitid_high | _ID | 문자열 | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. |
+| hit_time_gmt | receivedTimestamp | 문자열 | Unix 시간을 기반으로 한 히트의 타임스탬프입니다. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 문자열 | Unix 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
+| cust_hit_time_gmt | timestamp | 문자열 | 타임스탬프가 활성화된 데이터 세트에서만 사용됩니다. 이는 Unix 시간을 기준으로 와 함께 전송되는 타임스탬프입니다. |
+| visid_high + visid_low | identityMap | 오브젝트 | 방문에 대한 고유 식별자. |
+| visid_high + visid_low | endUserID._experience.aaid.id | 문자열 | 방문에 대한 고유 식별자. |
+| visid_high | endUserID._experience.aaid.primary | 부울 | 방문을 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
+| visid_high | endUserID._experience.aaid.namespace.code | 문자열 | 방문을 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
+| visid_low | identityMap | 오브젝트 | 방문을 고유하게 식별하기 위해 visid_high와 함께 사용됩니다. |
+| cust_visid | identityMap | 오브젝트 | 고객 방문자 Id |
+| cust_visid | endUserID._experience.aacustomid.id | 오브젝트 | 고객 방문자 ID입니다. |
+| cust_visid | endUserID._experience.aacustomid.primary | 부울 | 고객 방문자 ID 네임스페이스 코드. |
+| cust_visid | endUserID._experience.aacustomid.namespace.code | 고객 방문자 ID를 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
+| 지역\_* | placeContext.geo.* | 문자열, 숫자 | 국가, 지역, 도시 등과 같은 지리적 위치 데이터 |
+| visit_page_num | _experience.analytics.session.depth | 숫자 | 히트 깊이 차원에 사용되는 변수입니다. 이 값은 사용자가 생성할 각 히트에 대해 1씩 증가하며 각 방문 후에 재설정됩니다. |
+| event_list | commerce.purchases, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | 문자열 | 히트에서 트리거된 표준 상거래 및 사용자 지정 이벤트. |
+| page_event | web.webInteraction.type | 문자열 | 이미지 요청(표준 히트, 다운로드 링크, 종료 링크 또는 클릭한 사용자 지정 링크)에서 전송된 히트 유형입니다. |
+| page_event | web.webInteraction.linkClicks.value | 숫자 | 이미지 요청(표준 히트, 다운로드 링크, 종료 링크 또는 클릭한 사용자 지정 링크)에서 전송된 히트 유형입니다. |
+| page_event_var_1 | web.webInteraction.URL | 문자열 | 링크 추적 이미지 요청에만 사용되는 변수입니다. 이 변수에는 클릭한 다운로드 링크, 종료 링크 또는 사용자 지정 링크의 URL이 포함됩니다. |
+| page_event_var_2 | web.webInteraction.name | 문자열 | 링크 추적 이미지 요청에만 사용되는 변수입니다. 지정된 경우 링크의 사용자 지정 이름이 나열됩니다. |
+| first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | 문자열 | 방문자의 첫 번째 레퍼러 유형을 나타내는 숫자 ID입니다. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 정수 | Unix 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
+| paid_search | search.isPaid | 부울 | 히트가 유료 검색 감지와 일치하는 경우 설정되는 플래그입니다. |
+| ref_type | web.webReferrertype | 문자열 | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다. |
+
+#### 게시물 열
+
+Adobe Analytics 데이터 피드는 `post_` 접두사 : 처리 후 데이터가 포함된 열입니다. 자세한 내용은 [데이터 피드 FAQ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)를 참조하십시오.
+
+Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통해 데이터 세트에 수집된 데이터에는 `post_` 필드, 그 이유 설명 `post_` 접두사 및 *비* `post_` analytics 필드 매핑의 데이터 피드 열이 동일한 XDM 필드에 매핑됩니다. 예를 들어, 둘 다 `page_url` 및 `post_page_url` 데이터 피드 열이 동일한 열에 매핑 `web.webPageDetails.URL` XDM 필드.
+
+다음을 참조하십시오 [Adobe Analytics 및 Customer Journey Analytics 간 데이터 처리 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=ko-KR) 데이터 처리의 차이점에 대한 개요입니다.
+
+다음 `post_` 그러나 Experience Platform 데이터 레이크에 수집되는 데이터의 접두사 열 유형은 데이터 피드 사용 사례에서 성공적으로 사용되기 전에 고급 변형이 필요하지 않습니다. 쿼리에서 이러한 고급 변환을 수행하려면 다음을 사용해야 합니다. [Adobe 정의 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 세션, 속성 및 중복 제거용. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 #### 조회
 
-다른 데이터 세트에서 데이터를 조회하려면 표준 SQL 기능(WHERE 절, INNER JOIN, OUTER JOIN 등)을 사용합니다. 다음을 참조하십시오. [결과는 무엇입니까?](#examples) 예제에서 를 쿼리합니다.
+다른 데이터 세트에서 데이터를 조회하려면 표준 SQL 기능(`WHERE` 절, `INNER JOIN`, `OUTER JOIN`및 기타)를 참조하십시오.
 
 #### 계산
 
-필드(열)에서 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)` 다음에서 [제품 상호 작용 단계](#examples) 예제에서 쿼리) 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) spark SQL의 일부입니다.
+필드(열)에 대한 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)` 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) spark SQL의 일부입니다. 또한, [창 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 집계를 업데이트하고 순서가 지정된 하위 집합의 각 행에 대해 단일 항목을 반환할 수 있도록 지원을 제공합니다. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 #### 중첩된 데이터 구조
 
@@ -281,9 +150,7 @@ Adobe Analytics 소스 커넥터를 사용하여 수집된 데이터의 경우 �
 }
 ```
 
-다음을 사용할 수 있습니다. [`explode()` 또는 기타 배열 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) Spark SQL에서 중첩된 데이터 구조 내의 데이터로 이동합니다.
-
-예:
+다음을 사용할 수 있습니다. [`explode()` 또는 기타 배열 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) Spark SQL에서 중첩된 데이터 구조 내의 데이터로 이동합니다. 예를 들면 다음과 같습니다.
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
@@ -297,18 +164,29 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en)을 참조하십시오.
 
+
+#### 예
+
+예를 들어 Experience Platform 데이터 레이크의 데이터 세트의 데이터를 사용하고 Adobe 정의 함수 및/또는 Spark SQL의 추가 기능을 탭하며 동등한 Adobe Analytics 데이터 피드와 유사한 결과를 제공하는 쿼리는 다음을 참조하십시오.
+
+* [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en),
+* [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en),
+* [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en),
+* 및 쿼리 서비스 안내서의 기타 사용 사례도 참조하십시오.
+
+
 ### 쿼리 예약
 
-쿼리를 예약하여 쿼리가 실행되고 결과가 원하는 간격으로 생성되도록 합니다. 쿼리를 예약할 때 출력 데이터 세트를 정의합니다.
+쿼리를 예약하여 쿼리가 실행되고 결과가 원하는 간격으로 생성되도록 합니다.
 
 #### 쿼리 편집기 사용
 
-쿼리 편집기를 사용하여 쿼리를 예약할 수 있습니다. 쿼리에 대한 일정을 정의할 때 출력 데이터 세트를 정의할 수 있습니다. 다음을 참조하십시오 [쿼리 일정](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 추가 정보.
+쿼리 편집기를 사용하여 쿼리를 예약할 수 있습니다. 쿼리를 예약할 때 출력 데이터 세트를 정의합니다. 다음을 참조하십시오 [쿼리 일정](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 추가 정보.
 
 
 #### 쿼리 서비스 API 사용
 
-또는 RESTful API를 사용하여 쿼리와 쿼리에 대한 일정을 정의할 수 있습니다. 다음을 참조하십시오 [쿼리 서비스 API 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en_) 추가 정보.
+또는 RESTful API를 사용하여 쿼리와 쿼리에 대한 일정을 정의할 수 있습니다. 다음을 참조하십시오 [쿼리 서비스 API 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 추가 정보.
 출력 데이터 세트를 선택 사항의 일부로 정의해야 합니다. `ctasParameters` 쿼리를 만들 때 속성([쿼리 만들기](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)) 또는 쿼리에 대한 일정을 만들 때([예약된 쿼리 만들기](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)).
 
 
