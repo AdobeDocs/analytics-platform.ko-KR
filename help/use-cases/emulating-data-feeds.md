@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: e49ea37f36d105e428bc6d04a6ed42a47e2d75fc
+source-git-commit: b41adb3f3fa4abbfa7be491e5a1fbf81e1623598
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2556'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 | cust_visid | identityMap | 오브젝트 | 고객 방문자 Id |
 | cust_visid | endUserID._experience.aacustomid.id | 오브젝트 | 고객 방문자 ID입니다. |
 | cust_visid | endUserID._experience.aacustomid.primary | 부울 | 고객 방문자 ID 네임스페이스 코드. |
-| cust_visid | endUserID._experience.aacustomid.namespace.code | 고객 방문자 ID를 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
+| cust_visid | endUserID._experience.aacustomid.namespace.code | 문자열 | 고객 방문자 ID를 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
 | 지역\_* | placeContext.geo.* | 문자열, 숫자 | 국가, 지역, 도시 등과 같은 지리적 위치 데이터 |
 | visit_page_num | _experience.analytics.session.depth | 숫자 | 히트 깊이 차원에 사용되는 변수입니다. 이 값은 사용자가 생성할 각 히트에 대해 1씩 증가하며 각 방문 후에 재설정됩니다. |
 | event_list | commerce.purchases, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | 문자열 | 히트에서 트리거된 표준 상거래 및 사용자 지정 이벤트. |
