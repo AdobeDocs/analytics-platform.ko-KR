@@ -3,10 +3,11 @@ title: 결합 FAQ
 description: 결합에 대해 자주 묻는 질문
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
+source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 34%
 
 ---
 
@@ -49,7 +50,7 @@ ht-degree: 42%
 
 +++
 
-+++**필요한 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력되는 데이터 세트를 사용할 수 있는 데 시간이 얼마나 걸립니까?**
++++**원하는 정보를 사용하여 Adobe 계정 팀에 연락하면 다시 입력된 데이터 세트를 사용할 수 있는 데 시간이 얼마나 걸립니까?**
 
 라이브 결합은 Adobe에서 결합을 활성화한 후 약 1주 후에 사용할 수 있습니다. 채우기 가용성은 기존 데이터의 양에 따라 다릅니다. 작은 데이터 세트(하루에 100만 개 미만의 이벤트)는 보통 2일이 걸리지만 대규모 데이터 세트(하루에 10억 개의 이벤트)는 1주일 이상 걸릴 수 있습니다.
 
@@ -63,9 +64,9 @@ ht-degree: 42%
 
 +++
 
-+++**결합은 GDPR 및 CCPA 요청을 어떻게 처리합니까?**
++++**결합은 개인 정보 요청을 어떻게 처리합니까?**
 
-Adobe은 현지 및 국제 법에 따라 GDPR 및 CCPA 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
 
 +++
 

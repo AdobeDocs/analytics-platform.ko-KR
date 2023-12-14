@@ -4,10 +4,10 @@ description: 파생 필드는 사용 가능한 함수 및 함수 템플릿 집�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
+source-git-commit: db61abfda71a26e4fae7134dfbb2f637b77e1e8c
 workflow-type: tm+mt
-source-wordcount: '5641'
-ht-degree: 14%
+source-wordcount: '5783'
+ht-degree: 12%
 
 ---
 
@@ -621,7 +621,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 다음 이전 데이터 {#concatenate-uc-databefore}
 
-| Origin | 대상 |
+| 원본 | 대상 |
 |----|---:|
 | SLC | MCO |
 | SLC | LAX |
@@ -996,7 +996,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 메서드]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 방법]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1089,7 +1089,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>공백 트리밍</li><li>특수 문자 트리밍<ul><li>특수 문자 입력</li></ul></li><li>왼쪽에서 트리밍<ul><li>From <ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li><li>오른쪽에서 트리밍<ul><li>From <ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>공백 트리밍</li><li>특수 문자 트리밍<ul><li>특수 문자 입력</li></ul></li><li>왼쪽에서 트리밍<ul><li>출처: <ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li><li>오른쪽에서 트리밍<ul><li>출처: <ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1129,10 +1129,10 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 이름 | 이벤트 |
 |---|--:|
-| 홈 페이지# | 1 |
+| 홈 페이지 번호 | 1 |
 | 홈 페이지? | 1 |
-| 홈 페이지% | 1 |
-| 홈 페이지&amp; | 1 |
+| home page% | 1 |
+| 홈 페이지 및 | 1 |
 | 홈 페이지/ | 1 |
 
 {style="table-layout:auto"}
@@ -1165,7 +1165,7 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 | UT123418 | 1 |
 | UT189021 | 1 |
 | ID028930 | 1 |
-| OR234223 | 1 |
+| 또는234223 | 1 |
 | NV22342 | 1 |
 
 {style="table-layout:auto"}
@@ -1281,6 +1281,12 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 - Customer Journey Analytics 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
 
 ## 추가 정보
+
+[`Trim`](#trim) 및 [`Lowercase`](#lowercase) 의 구성 요소 설정에서 이미 사용할 수 있는 기능입니다. [데이터 보기](../component-settings/overview.md). 파생 필드를 사용하면 이러한 함수를 결합하여 Customer Journey Analytics에서 직접 더 복잡한 데이터 변환을 수행할 수 있습니다. 예를 들어 다음을 사용할 수 있습니다. `Lowercase` 이벤트 필드에서 대소문자 구분을 제거한 다음 [`Lookup`](#lookup) 새 소문자 필드를 소문자에만 조회 키가 있는 조회 데이터 세트에 일치시키려면 를 사용하십시오. 또는 `Trim` 설정하기 전에 문자를 제거하려면 `Lookup` 새 필드에서.
+
+파생 필드의 조회 및 프로필 필드 지원을 통해 이벤트 조회 및 프로필 속성에 따라 데이터를 변환할 수 있습니다. 이 기능은 조회 또는 프로필 데이터 세트에 있는 계정 수준 데이터가 있는 B2B 시나리오에서 특히 유용합니다. 또한 이 지원은 조회 데이터(예: 캠페인 정보 및 오퍼 유형)나 프로필 데이터(예: 멤버 계층 및 계정 유형)의 공통 필드에서 데이터를 조작하는 데 유용합니다.
+
+파생 필드에 대한 배경 정보는 다음을 참조하십시오.
 
 - [데이터 활용: Customer Journey Analytics에서 파생 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
