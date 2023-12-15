@@ -4,10 +4,10 @@ description: 결합 개념 이해
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 506838a0-0fe3-4b5b-bb9e-2ff20feea8bc
-source-git-commit: 8ca11b37ebda952d95ae38473a9c0d62be007e79
+source-git-commit: 2c650cf688112be1e6bf16c0863e743d61f9c35c
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 21%
+source-wordcount: '1109'
+ht-degree: 20%
 
 ---
 
@@ -51,29 +51,7 @@ ht-degree: 21%
 
 속성은 식별 사용자 지정 변수가 디바이스에 연결되어 있을 때 작동합니다. 위의 예에서 이벤트 1, 8, 9 및 10을 제외한 모든 이벤트는 라이브로 결합됩니다(모두 `Bob` 식별자). 라이브 결합은 이벤트 4, 6 및 12에 대해 결합된 ID를 &quot;확인&quot;합니다.
 
-
-<!--
-
-### Delayed data
-
-When incoming data for 'Live' stitching is delayed and over 24 hours old, and when no identities in that delayed data can be matched against identities already considered for 'Live' stitching, that delayed data is not added to the data considered for 'Live' stitching.
-
-In the example below, the data in event 2 is delayed but will be part of 'Live' stitching.
-
-| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
-|---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
-| 2 | 2023-05-14 12:02 | 246 | Bob ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | Bob |
-
-In the example below, the data in event 2 is delayed and will NOT become part of 'Live' stitching.
-
-| Event | Timestamp | Persistent ID (Cookie ID) | Transient ID (Login ID) | Stitched ID (after live stitch) | 
-|---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | 246 ![Arrow Right](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg)| - | **246** |
-| ~~2~~ | ~~2023-05-14 12:02~~ | ~~891~~ |  | (not considered for 'Live' stitching) |
-
--->
-
+지연된 데이터(타임스탬프가 24시간 이상 된 데이터)는 가장 높은 품질을 위해 현재 데이터 결합의 우선 순위를 지정하면서 &#39;최상&#39;으로 처리됩니다.
 
 ## 2단계: 재생 결합
 

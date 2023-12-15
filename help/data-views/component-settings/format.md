@@ -4,10 +4,10 @@ description: 지표의 형식이 지정되는 방식을 구성합니다.
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 045037867063f6bb5a6be60132f8d7b1bb54917e
+source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 20%
+source-wordcount: '709'
+ht-degree: 19%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 20%
 1. 형식 설정을 구성할 구성 요소가 포함된 데이터 보기를 선택합니다.
 
 1. [!UICONTROL **구성 요소**] 탭을 선택합니다.
-
-   ![구성 요소 탭](../assets/format-settings-component-tab.png)
 
 1. 구성할 구성 요소를 선택한 다음 [!UICONTROL **형식**] 페이지 오른쪽에 있는 섹션.
 
