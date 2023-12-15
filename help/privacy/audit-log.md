@@ -3,10 +3,10 @@ title: 감사 로그
 description: Customer Journey Analytics 감사 로그를 보고 관리하는 방법을 알아봅니다.
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 64%
+source-wordcount: '795'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![오늘(2022년 10월 14일) 및 어제(2022년 10월 13일)가 강조 표시된 감사 로그. ](assets/audit_ui.png)
+![오늘과 어제가 강조 표시된 감사 로그. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 

@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
+source-git-commit: 9f48c2870cff0aac392de9b50c6acea9763553d7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2756'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 12월** | |
+| 데이터 센터 | Customer Journey Analytics에 대한 문서 추가됨 [호스팅 위치](../technotes/cja-datacenters.md). |
 | 가드레일 | 문서 목록 Customer Journey Analytics 추가됨 [보호 기능](../admin/guardrails.md). |
 | 통화 전환 업데이트 | 방법에 대한 설명서를 명확하게 정리했습니다. [통화 전환 구성](/help/data-views/component-settings/format.md). |
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
