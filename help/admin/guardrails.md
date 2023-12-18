@@ -4,7 +4,7 @@ description: Customer Journey Analytics 보호 기능에 대해 알아보기
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
+source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 10%
@@ -191,7 +191,7 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
-| 보고서당 행 수 | 300만 - 1억 5천만 | 시스템 강제 보호 | 보고서당 최대 보고 행 수, 라이선스가 부여된 패키지를 기반으로 하는 값. |
+| 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수, 라이선스가 부여된 패키지를 기반으로 하는 값. |
 | 테이블당 분류 | 5 | 시스템 강제 보호 | 테이블당 최대 분류 수. |
 | 테이블당 지표 | 5 | 시스템 강제 보호 | 테이블당 최대 지표 수. |
 | 일정 빈도 | 1 | 시스템 강제 보호 | 내보내기는 하루에 한 번 또는 더 긴 일정으로 예약할 수 있습니다(예: 2일에 한 번 또는 매주). |
