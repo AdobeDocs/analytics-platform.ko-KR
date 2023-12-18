@@ -3,10 +3,10 @@ title: Customer Journey Analytics에서 바인딩 차원 및 지표 사용
 description: 복잡한 지속성 분석을 위한 개체 배열의 속성 차원.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 15660e1560ef8b1be510c0103e0f4818f1019c3e
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 84%
+source-wordcount: '1342'
+ht-degree: 83%
 
 ---
 
@@ -78,7 +78,7 @@ Customer Journey Analytics는 설정된 히트 이후에 차원 값이 유지하
 | --- | --- |
 | 네온 오렌지 | 2099 |
 
-데이터 보기 관리자로 이동하여 제품 색상을 제품 이름에 바인딩할 수 있습니다.
+로 이동 **[!UICONTROL 데이터 보기]** 및 바인딩 [!DNL Product Color] 차원 대상 [!DNL Product Name]:
 
 ![바인딩 차원](../assets/binding-dimension.png)
 
@@ -251,7 +251,7 @@ Adobe Analytics에서 가장 일반적인 머천다이징 방법 중 하나는 �
 
 이 예는 한 사람만 포함되지만, 다른 항목을 검색하는 많은 사람은 검색어를 다른 제품에 잘못 지정할 수 있으므로 실제로 최상의 검색 결과가 무엇인지 판단하기 어렵습니다.
 
-검색 지표가 있을 때마다 검색어를 제품 이름에 바인딩하여 검색어를 매출에 올바르게 연결할 수 있습니다.
+이제 바인딩할 수 있습니다. [!DNL Search Term] 끝 [!DNL Product Name] 다음 시간 마다 [!DNL Searches] 검색어를 매출에 올바로 연결할 수 있는 지표가 있습니다.
 
 ![바인딩 지표](../assets/binding-metric.png)
 
@@ -342,7 +342,7 @@ Customer Journey Analytics은 선택한 차원과 바인딩 차원 간의 관계
 
 그러나 `search_term`을(를) `ProfileID`에 바인딩하면 각 프로필의 검색은 찾고 있는 프로그램에 기인하여 자체 프로필로 분리됩니다.
 
-![방문자 바인딩](../assets/binding-visitor.png)
+![방문자 바인딩](../assets/binding-profileid.png)
 
 Analysis Workspace는 다른 프로필의 검색을 고려하지 않고 Orangey의 두 번째 에피소드를 검색어 `"kids show"`로 올바르게 지정합니다.
 
@@ -435,3 +435,8 @@ Analysis Workspace는 다른 프로필의 검색을 고려하지 않고 Orangey�
 | --- | --- |
 | 검색 | 399.99 |
 | 검색 | 19.99 |
+
+
+>[!MORELIKETHIS]
+>
+>[데이터 보기의 바인딩 Dimension](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=ko) 튜토리얼.
