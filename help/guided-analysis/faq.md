@@ -4,9 +4,9 @@ description: 가이드 분석에 대한 FAQ.
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 2fe26bb906600a1987d9f4a07c5863030d52173a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 +++**내 조직에 가이드 분석을 위한 프로비저닝은 어떻게 수행할 수 있습니까?**
 
-가이드 분석은 Customer Journey Analytics에 대한 유료 추가 기능입니다. 이 추가 기능을 사용하려면 Adobe 계정 팀에 문의하십시오.
+안내식 분석은 Customer Journey Analytics에 대한 유료 추가 기능인 Adobe Product Analytics의 일부입니다. 이 추가 기능을 사용하려면 Adobe 계정 팀에 문의하십시오.
 
 +++
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 | 이벤트 | 지표 |
 | 사용자 | 사용자 |
 | 속성 | 차원 |
-| 값 | 차원 항목 |
+| 값 | Dimension 항목 |
 | 세그먼트 | 필터 |
 
 {style="table-layout:auto"}
@@ -59,7 +59,7 @@ While [Analysis Workspace](../analysis-workspace/home.md) 및 안내식 분석�
 
 * **Analysis Workspace은 차원 중심 경험입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표입니다. 필터를 행과 열 모두에 적용하여 원하는 데이터를 얻을 수 있습니다.
 
-* **안내식 분석은 이벤트 중심의 경험입니다.** 각 분석은 이벤트를 선택하여 시작한 다음 차원과 필터를 추가하여 해당 이벤트 데이터를 구체화할 수 있습니다.
+* **안내식 분석은 이벤트 및 사용자 중심의 경험입니다.** 각 분석은 이벤트를 선택하여 시작한 다음 차원과 필터를 추가하여 해당 이벤트 데이터를 구체화할 수 있습니다.
 
 ![Analysis Workspace 및 안내식 분석 보기](assets/structure.png)
 
@@ -69,7 +69,7 @@ While [Analysis Workspace](../analysis-workspace/home.md) 및 안내식 분석�
 
   ![Dimension 중심](assets/dimension-centered.png)
 
-* 일반적인 이벤트 중심 분석 접근 방식은 &quot;홈 페이지를 본 사용자가 몇 명입니까?&quot;입니다.
+* 일반적인 이벤트 및 사용자 중심의 안내식 분석 접근 방식은 &quot;몇 명의 사용자가 우리 홈 페이지를 방문했습니까?&quot;일 수 있습니다.
 
   ![이벤트 중심](assets/event-centered.png)
 
