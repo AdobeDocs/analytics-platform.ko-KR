@@ -1,12 +1,12 @@
 ---
 title: Customer Journey Analytics에서 Report Builder에 대한 설정을 구성하는 방법
 description: 오프라인 모드, 언어, 기준 날짜 및 문제 해결 설정을 지정하는 방법을 설명합니다.
-role: Data Engineer, Data Architect, Admin, User
+role: Admin
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 87%

@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics에서 Report Builder를 사용하여 통합 문서를 예약하는 방법
 description: Report Builder에서 예약 기능을 사용하는 방법 알아보기
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1170'
 ht-degree: 84%
 
 ---

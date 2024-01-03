@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics에서 Report Builder의 데이터 범위를 선택하는 방법
 description: Customer Journey Analytics Report Builder에서 달력, 순환 날짜 및 사용자 지정 표현식을 사용하는 방법을 설명합니다
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1091'
 ht-degree: 89%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 89%
 | tm-1d | 지난달의 마지막 날 |
 | td-52w | 52주 전 같은 날 |
 | tm-11m-1d | 작년 같은 달의 마지막 날 |
-| “2020-09-06” | 2020년 9월 9일 |
+| &quot;2020-09-06&quot; | 2020년 9월 9일 |
 
 ## 셀의 날짜 범위
 

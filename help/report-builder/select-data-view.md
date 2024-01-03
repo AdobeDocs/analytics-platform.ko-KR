@@ -1,15 +1,15 @@
 ---
 title: Report Builder에서 데이터 보기를 선택하는 방법
 description: Adobe Report Builder에서 데이터 보기를 선택하는 방법을 설명합니다.
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 드롭다운 목록에서 데이터 보기를 선택하거나 셀에서 데이터 보기를 선택하여 데이터 블록을 새 데이터 보기로 자동으로 업데이트할 수 있습니다.
 
-**셀의 데이터 보기 선택**
+**셀에서 데이터 보기 선택**
 
 셀에서 데이터 보기를 선택하면 다른 데이터 보기를 사용하여 데이터 블록을 쉽게 새로 고칠 수 있습니다. 조직에 구조가 유사하거나 동일한 데이터 보기가 여러 개 있는 경우, 별도의 데이터 블록을 사용하여 완전히 새로운 보고서를 만드는 대신 셀에서 선택한 데이터 보기로 데이터 블록을 새로 고칠 수 있습니다. 이 기능은 사용자 지정된 구성 요소 및 레이아웃을 포함하는 복잡한 데이터 블록 형식이 있는 경우에도 유용합니다.
 

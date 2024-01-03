@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics에서 Report Builder를 사용하여 데이터 블록을 관리하는 방법
 description: Report Builder에서 관리 기능을 사용하는 방법을 설명합니다.
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 75%
 
 성공적으로 새로 고침된 데이터 블록이 녹색 원에 확인 표시를 표시합니다. <img src="./assets/refresh-success.png" width="5%" alt="확인 표시 아이콘이 있는 녹색 원"/>를 참조하십시오.
 
-새로 고침에 실패한 데이터 블록에는 경고 아이콘이 표시됩니다. <img src="./assets/refresh-failure.png" width="5%" alt="느낌표 아이콘이 있는 빨간색 삼각형"/>.이를 통해 데이터 블록에 오류가 있는지 쉽게 식별할 수 있습니다.
+새로 고침에 실패한 데이터 블록에는 경고 아이콘이 표시됩니다. <img src="./assets/refresh-failure.png" width="5%" alt="느낌표 아이콘이 있는 빨간색 삼각형"/>.이렇게 하면 데이터 블록에 오류가 있는지 쉽게 식별할 수 있습니다.
 
 
 ![나열된 각 데이터 블록에 대한 새로 고침 상태를 표시하는 데이터 블록 관리자.](./assets/image512.png)

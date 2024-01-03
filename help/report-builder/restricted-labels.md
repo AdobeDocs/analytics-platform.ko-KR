@@ -1,23 +1,23 @@
 ---
 title: Report Builder의 제한된 레이블은 무엇입니까
 description: Report Builder의 제한된 레이블을 설명합니다.
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 57%
+source-wordcount: '323'
+ht-degree: 70%
 
 ---
 
 # Report Builder의 제한된 레이블
 
-일반적으로 Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. Customer Journey Analytics과 Adobe Experience Platform 데이터 거버넌스 간의 통합을 통해 민감한 Customer Journey Analytics 데이터의 레이블 지정 및 개인정보 처리방침 시행을 수행할 수 있습니다.
+일반적으로 Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Experience Platform에서 상속됩니다. Customer Journey Analytics와 Adobe Experience Platform 데이터 거버넌스의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
 
-Experience Platform이 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로우에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다. 데이터 세트에 대한 자세한 내용은 [데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)를 참조하십시오.
+Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다. 데이터 세트에 대한 자세한 내용은 [데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)를 참조하십시오.
 
 또한 보고, 내보내기, API 등을 통해 Customer Journey Analytics에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
 
