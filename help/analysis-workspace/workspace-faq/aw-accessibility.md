@@ -3,10 +3,11 @@ description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 96%
+source-wordcount: '605'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +23,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 > 아래쪽, 왼쪽 > 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
-* 중요한 단축키를 사용하는 `Tab` 키, 작업 영역 내의 더 큰 섹션 사이를 이동합니다. 왼쪽 레일에서 `Tab`을 사용하면 끌기 가능한 한 옵션에서 다음 옵션으로 이동할 수도 있습니다
+* 다음 `Tab` key는 Workspace 내의 더 큰 섹션 사이를 이동하는 획기적인 단축키를 활성화합니다. 왼쪽 레일에서 `Tab`을 사용하면 끌기 가능한 한 옵션에서 다음 옵션으로 이동할 수도 있습니다
 * `left/right arrows`는 `Tab`이 강조 표시한 후 개별 요소 사이를 이동합니다.
 * `F6`는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 선택한 요소 주위에 파란색 테두리가 표시됩니다.

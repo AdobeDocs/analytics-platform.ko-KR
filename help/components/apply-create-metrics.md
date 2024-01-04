@@ -3,10 +3,11 @@ description: Analysis Workspace에서 지표를 사용하는 두 가지 방법�
 title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 49%
+source-wordcount: '371'
+ht-degree: 40%
 
 ---
 
@@ -22,7 +23,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 * **계산된 지표** ![계산된 지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표입니다.
 
-* **계산된 지표 템플릿**  <img src="./assets/adobe-logo.svg" width="18"> : 계산된 지표와 유사하게 동작하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 그대로 사용하거나 복사본을 저장하여 논리를 사용자 정의할 수 있습니다.
+* **계산된 지표 템플릿**  <img src="./assets/adobe-logo.svg" width="18"> : 계산된 지표와 유사하게 동작하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 있는 그대로 사용하거나 사본을 저장하여 해당 논리를 사용자 정의할 수 있습니다.
 
 
 ![왼쪽 창에서 지표를 강조 표시하는 작업 영역 패널.](assets/cja-metrics.png)
@@ -30,7 +31,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 지표가 승인되었는지 여부를 확인할 수 있습니다 ![승인됨 아이콘](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  아님 말거나 지표에 대한 자세한 내용을 보려면 지표 위로 마우스를 가져간 다음 을 선택합니다 ![정보 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
 
-지표는 Analysis Workspace 내에서 유연하게 사용할 수 있습니다. 지표를 빈 자유 형식 테이블로 드래그하면 해당 지표가 프로젝트의 날짜 기간 동안 추세를 보여 줍니다. 차원이 있을 때 지표를 드래그하여 각 차원 항목과 비교한 지표를 볼 수도 있습니다. 기존 지표 헤더 위로 지표를 드래그하면 지표가 대체되고 헤더 옆으로 지표를 드래그하면 두 지표를 나란히 볼 수 있습니다.
+지표는 Analysis Workspace 내에서 유연하게 사용할 수 있습니다. 프로젝트의 날짜 기간 동안 지표가 트렌드를 표시되게 하려면 지표를 빈 자유 형식 테이블로 끌어서 놓습니다. 차원이 있을 때 지표를 드래그하여 각 차원 항목과 비교한 지표를 볼 수도 있습니다. 기존 지표 헤더 위로 지표를 드래그하면 지표가 대체되고 헤더 옆으로 지표를 드래그하면 두 지표를 나란히 볼 수 있습니다.
 
 ## 계산된 지표
 

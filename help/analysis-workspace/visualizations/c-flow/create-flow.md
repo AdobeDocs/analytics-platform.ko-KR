@@ -2,12 +2,12 @@
 description: Workspace 프로젝트에서 플로우 시각화를 사용하는 방법에 대해 알아봅니다.
 title: 플로우 시각화 구성 방법
 feature: Visualizations
-role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 57%
+source-wordcount: '1595'
+ht-degree: 56%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 57%
 | [!UICONTROL 시작] | 새 흐름 다이어그램을 빌드할 수 있는 자유 형식 다이어그램 빌더로 돌아갑니다. |
 | [!UICONTROL 이 경로에 대한 필터 만들기] | 필터를 생성합니다. 새 필터를 구성할 수 있는 필터 빌더로 이동합니다. |
 | [!UICONTROL 분류] | 사용할 수 있는 차원, 지표 또는 시간으로 노드를 분석합니다. |
-| [!UICONTROL 필터 열] | 자유 형식 테이블에서 사용할 수 있는 것과 동일한 필터 옵션이 나타납니다. 사용 가능한 옵션에 대한 자세한 내용은 의 &quot;테이블에 단순 또는 고급 필터 적용&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| [!UICONTROL 열 필터링] | 자유 형식 테이블에서 사용할 수 있는 것과 동일한 필터 옵션이 나타납니다. 사용 가능한 옵션에 대한 자세한 내용은 의 &quot;테이블에 단순 또는 고급 필터 적용&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | [!UICONTROL 항목 제외]/[!UICONTROL 제외된 항목 복원] | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 다시 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | [!UICONTROL 트렌드] | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | 다음 열 표시 / 이전 열 표시 | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |

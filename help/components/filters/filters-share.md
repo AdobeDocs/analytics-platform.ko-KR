@@ -2,10 +2,12 @@
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 필터를 공유할 수 있습니다.
 title: 공유 필터
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +33,6 @@ ht-degree: 97%
 
 1. 필터 관리 도구 모음에서 **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
-1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. 공유 아이콘이 필터 ![ 옆에 표시됩니다.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. 관리자는 모두를 선택하거나 조직의 그룹 및 사용자를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. 검색 필드를 사용하여 그룹 또는 사용자를 검색합니다. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. 공유 아이콘이 필터 옆에 표시됩니다. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. 필터 > 기타 필터 > 나와 공유로 이동하여 공유된 필터를 필터링할 수 있습니다.

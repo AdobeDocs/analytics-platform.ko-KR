@@ -3,7 +3,8 @@ title: Google Analytics에서 Customer Journey Analytics로 데이터 마이그�
 description: Google Analytics에서 Adobe Experience Platform으로 데이터를 이동하는 방법과 Customer Journey Analytics에서 보고서를 보는 방법에 대한 중요한 워크플로에 대해 알아봅니다.
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 87%

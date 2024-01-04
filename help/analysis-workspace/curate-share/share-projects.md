@@ -4,10 +4,11 @@ keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 36%
+source-wordcount: '1966'
+ht-degree: 34%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 36%
 
 * 프로젝트 역할 (**[!UICONTROL 원본 편집]**, **[!UICONTROL 사본 편집]**, 및 **[!UICONTROL 읽기 전용]**)는 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 관리하는 사용자 권한과 다릅니다.
 
-* Customer Journey Analytics에서 그룹은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 제품 프로필로 정의됩니다. 관리자는 “모두”를 비롯한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 “모두”를 제외하고 자신이 구성원으로 있는 그룹과 공유할 수 있습니다.
+* Customer Journey Analytics에서 그룹은 의 제품 프로필로 정의됩니다. [Adobe Experience Cloud 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR). 관리자는 “모두”를 비롯한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 “모두”를 제외하고 자신이 구성원으로 있는 그룹과 공유할 수 있습니다.
 
 * 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 사용자가 개인과 그룹의 일부로 모두 추가되는 경우 여러 역할에 배치될 수 있습니다. 예를 들어 사용자에게 **[!UICONTROL 원본 편집]** 개인으로서의 역할 및 **[!UICONTROL 읽기 전용]** 그룹의 구성원으로서의 역할은 **[!UICONTROL 원본 편집]** 프로젝트 경험.
 
@@ -59,7 +60,7 @@ ht-degree: 36%
 조직의 사용자 또는 그룹과 특정 프로젝트 역할을 공유하려면 다음 작업을 수행합니다.
 
 1. 공유할 프로젝트로 이동한 다음 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**.
-저장하지 않은 변경 내용이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
+저장하지 않은 변경 사항이 있으면 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    ![프로젝트 공유 창.](assets/share-proj-modal.png)
 

@@ -2,11 +2,11 @@
 title: 미디어 동시 뷰어 패널
 description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법.
 feature: Panels
-role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1048'
 ht-degree: 76%
 
 ---

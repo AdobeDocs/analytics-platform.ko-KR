@@ -3,9 +3,10 @@ title: 날짜 범위 만들기
 description: 보고에 사용할 날짜 범위를 만듭니다.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 91%
 
 ---

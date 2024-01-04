@@ -4,10 +4,11 @@ description: 제품 팀이 고품질 통찰력을 신속하게 얻을 수 있도
 keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
-source-git-commit: f99d1ce1881cd1ed3262fa3d2b2a9e16f84aa288
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 8%
+ht-degree: 2%
 
 ---
 
@@ -23,14 +24,14 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 
 | 분석 유형 | 보기 유형 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL 영향] | [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능 비교. |
-| [!UICONTROL 영향] | [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향 측정. |
+| [!UICONTROL 영향] | [릴리스](types/release.md) | 동일한 기간 프리릴리스 및 포스트릴리스에서 성능을 비교할 수 있습니다. |
+| [!UICONTROL 영향] | [첫 번째 사용](types/first-use.md) | 처음 기능 사용이 주요 지표에 미치는 영향을 측정합니다. |
 | [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율 비교. |
-| [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화 추적. |
-| [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태 식별. |
+| [!UICONTROL 단계] | [전환 트렌드](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
+| [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 보존, 재방문 또는 휴면 상태의 사용자를 식별합니다. |
 | [!UICONTROL 사용자 증가] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
-| [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여 측정. |
-| [!UICONTROL 트렌드] | [빈도](types/frequency.md) | 사용 빈도로 참여도 측정. |
+| [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
+| [!UICONTROL 트렌드] | [빈도](types/frequency.md) | 사용 빈도별로 참여를 측정합니다. |
 
 {style="table-layout:auto"}
 

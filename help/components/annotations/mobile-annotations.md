@@ -1,14 +1,14 @@
 ---
 title: 모바일 스코어카드 주석
 description: 모바일 스코어카드에서 주석을 표시하는 방법을 알아보십시오.
-role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 91%
+ht-degree: 84%
 
 ---
 

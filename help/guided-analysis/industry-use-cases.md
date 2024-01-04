@@ -3,10 +3,12 @@ title: 업계 사용 사례
 description: 가이드 분석을 위한 업계 사용 사례
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 2%
+source-wordcount: '1481'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +16,7 @@ ht-degree: 2%
 
 안내식 분석의 사용 사례는 업종에 따라 다릅니다. 이 페이지에서는 제품 팀이 안내가 있는 분석 및 Adobe Product Analytics 기능을 통해 달성할 수 있는 몇 가지 예시적인 예제를 제공합니다.
 
-+++**리테일**
++++**소매**
 
 | 사용 사례 | 예 | 영향 | Analysis |
 | --- | --- | --- | --- |

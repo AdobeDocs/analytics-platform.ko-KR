@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User, Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 4%
+source-wordcount: '1477'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 4%
 
    위치 대화 상자가 표시됩니다.
 
-1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 같은 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
+1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
 
 1. 다음에서 [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
@@ -57,7 +58,7 @@ ht-degree: 4%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -127,7 +128,7 @@ ht-degree: 4%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **컨테이너 이름**] | Customer Journey Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. |
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -144,7 +145,7 @@ ht-degree: 4%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. 이전에 만든 Azure 애플리케이션에 파일을 업로드할 수 있는 권한을 부여했는지 확인하십시오. |
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
    | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
 
    {style="table-layout:auto"}
@@ -164,7 +165,7 @@ ht-degree: 4%
    | [!UICONTROL **DB**] | 지정한 데이터베이스는 기존 데이터베이스여야 합니다. 생성한 롤은 이 데이터베이스에 액세스할 수 있는 권한이 있어야 합니다.<p>스테이지 이름과 연관된 데이터베이스입니다.</p><p>다음 명령을 사용하여 Snowflake의 데이터베이스에 이 롤 권한을 부여할 수 있습니다. `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
    | [!UICONTROL **스키마**] | 지정된 스키마는 기존 스키마여야 합니다. 이 스키마에 액세스하려면 만든 역할에 권한이 있어야 합니다.<p>단계 이름과 연결된 스키마입니다.<p>다음 명령을 사용하여 Snowflake의 스키마에 대한 권한을 생성한 롤에 부여할 수 있습니다. `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>자세한 내용은 [Snowflake 설명서의 데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
    | [!UICONTROL **단계 이름**] | 데이터 파일이 Snowflake에 저장되는 내부 단계의 이름입니다.<p>계정에서 지정한 역할에 이 단계 이름에 대한 읽기 및 쓰기 권한이 있는지 확인하십시오. (읽기 및 쓰기 액세스 권한을 부여하므로 Adobe 시에만 사용되는 단계를 사용하는 것이 좋습니다.)<p>다음 명령을 사용하여 Snowflake의 단계 이름에 읽기 및 쓰기 액세스 권한을 부여할 수 있습니다. `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>롤에 권한을 부여하는 방법에 대한 자세한 내용은 [Snowflake 설명서에서 권한 부여](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>스테이지 이름에 대한 자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
-   | [!UICONTROL **단계 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **스테이지 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
 

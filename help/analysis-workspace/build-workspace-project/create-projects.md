@@ -2,12 +2,12 @@
 description: Analysis Workspace에서 프로젝트를 만드는 방법 알아보기
 title: 프로젝트 만들기
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반 정보는 다�
    * **빈 프로젝트** 브라우저에서 분석을 공유할 계획인 경우
    * [**빈 모바일 스코어카드**](/help/mobile-app/curator.md) Adobe Analytics 대시보드 모바일 앱에서 분석을 공유할 계획이라면
 
-1. Select [!UICONTROL **Create**].
+1. [!UICONTROL **만들기**]&#x200B;를 선택합니다.
 
 1. 그런 다음 프로젝트에 패널, 시각화 및 구성 요소를 추가해야 합니다. 먼저,에 설명된 대로 Analysis Workspace에서 프로젝트에 패널을 추가합니다. [프로젝트에 패널 추가](#add-panels-to-the-project). 그런 다음 모든 패널에 시각화를 추가할 수 있습니다. 마지막으로, 모든 패널이나 시각화에 구성 요소를 추가할 수 있습니다.
 
@@ -38,7 +38,7 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반 정보는 다�
 
 [패널](/help/analysis-workspace/c-panels/panels.md) 는 Analysis Workspace의 모든 프로젝트에 대한 기반입니다. 패널은 프로젝트의 콘텐츠(시각화 및 구성 요소)를 구성하는 데 사용됩니다.
 
-Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다.
+Analysis Workspace에 제공된 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 세트를 생성합니다.
 
 패널을 추가하려면 다음 작업을 수행하십시오.
 

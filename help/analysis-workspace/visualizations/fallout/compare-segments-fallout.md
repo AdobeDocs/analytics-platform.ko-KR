@@ -4,9 +4,10 @@ keywords: 폴아웃 및 필터;폴아웃 분석의 필터;폴아웃의 필터 �
 title: 폴아웃 분석에서 필터 적용
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '469'
 ht-degree: 76%
 
 ---

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 프로젝트 개요
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 72%
+source-wordcount: '1336'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +30,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 요소 | 설명 |
 |---|---|
-| [환경 설정 편집](/help/analysis-workspace/user-preferences.md) | 생성한 모든 새 프로젝트 또는 패널에 대해 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
+| [환경 설정 편집](/help/analysis-workspace/user-preferences.md) | 사용자가 만드는 모든 새 프로젝트 또는 패널에 대한 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
 | [폴더 만들기](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가합니다. |
 | [프로젝트 제작](/help/analysis-workspace/build-workspace-project/create-projects.md) | 새 프로젝트를 처음부터 시작합니다. |
 | 자세히 보기 | 빈 프로젝트 또는 모바일 스코어카드를 만들기 위한 옵션을 표시합니다. [교육 튜토리얼 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ko-KR), 또는 [릴리스 정보 보기](/help/release-notes/latest.md). |
@@ -47,7 +48,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 마지막 수정일 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 | 마지막으로 연 날짜 | 프로젝트를 마지막으로 연 날짜 및 시간입니다. |
 | 프로젝트 ID | 프로젝트의 ID입니다. |
-| Longest Date Range | 프로젝트의 가장 긴 날짜 범위입니다. |
+| 가장 긴 날짜 범위 | 프로젝트의 가장 긴 날짜 범위입니다. |
 | 쿼리 개수 | 프로젝트에 포함된 총 쿼리 수입니다. |
 | 위치 | 프로젝트가 있는 폴더입니다. |
 
@@ -69,7 +70,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ### 프로젝트 정보 및 설정 {#info-settings}
 
-**[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 은 현재 활성화된 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
+**[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 는 현재 활성화된 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
 
 ![프로젝트 정보 및 설정 창.](assets/projectinfo.png)
 
@@ -78,7 +79,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 설정 | 설명 |
 |---|---|
 | 프로젝트 이름 | 프로젝트에 지정된 이름. 이름을 더블 클릭하여 편집할 수 있습니다. |
-| 제작자 | 프로젝트 소유자 이름 |
+| 작성자 | 프로젝트 소유자 이름 |
 | 마지막 수정일 | 프로젝트의 마지막 수정 날짜. |
 | 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
 | 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |

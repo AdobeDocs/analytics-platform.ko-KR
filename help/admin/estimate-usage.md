@@ -4,10 +4,10 @@ description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 73%
+source-wordcount: '881'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 73%
 
 Customer Journey Analytics 사용량을 보려면 다음과 같은 몇 가지 방법을 사용할 수 있습니다.
 
-* 각 연결의 이벤트 데이터 행을 추가합니다. 아래의 [연결 크기 예측](#estimate size)을 참조하십시오. 이는 연결당 특정 타임스탬프의 이벤트 행 데이터를 쉽게 확인하는 방법입니다.
+* 각 연결의 이벤트 데이터 행을 추가합니다. 다음을 참조하십시오 [연결 크기 예상](#estimate-connection-size) 아래요. 이는 연결당 특정 타임스탬프의 이벤트 행 데이터를 쉽게 확인하는 방법입니다.
+
 * 세 가지 방법으로 사용량을 확인합니다. 각 방법은 아래에 자세히 설명합니다.
    * Analysis Workspace를 사용하여 지난달 이벤트를 보고합니다.
    * Report Builder를 사용하여 지난달 이벤트를 보고합니다.
@@ -41,7 +42,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
 1. 조직에서 생성한 모든 연결에 **[!UICONTROL 사용 가능한 이벤트 데이터 기록]**&#x200B;을 추가합니다. (연결 크기에 따라 숫자가 표시되는 데 다소 시간이 걸릴 수 있습니다.)
 
-   ![이벤트 데이터 기록 사용 가능.](./assets/event-data.png)
+   ![사용 가능한 이벤트 데이터 레코드.](./assets/event-data.png)
 
    >[!CAUTION]
    >

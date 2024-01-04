@@ -3,16 +3,17 @@ title: Customer Journey Analytics에서 만든 대상자를 관리하는 방법 
 description: Customer Journey Analytics에서 대상자를 관리하는 방법 알아보기
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 70%
+source-wordcount: '285'
+ht-degree: 68%
 
 ---
 
 # Customer Journey Analytics에서 생성된 대상자 관리
 
-이전에 생성된 대상자를 관리하면 다음과 같은 작업을 수행할 수 있습니다.:
+이전에 생성된 대상을 관리하면 다음 작업을 수행할 수 있습니다.
 
 * 자동 대상자 새로 고침/업데이트를 **예약하거나 예약을 취소**&#x200B;합니다. 일정의 최대 만료 기간은 1년입니다.
 * 곧 만료될 예정인 **대상자의 새로 고침 일정을 갱신**&#x200B;합니다. 만료 예정인 대상자는 만료될 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 일정이 만료되기 한 달 전에 이메일을 수신합니다.

@@ -3,13 +3,14 @@ title: 세션 설정
 description: 세션의 길이와 새 세션을 시작하는 트리거를 정의하는 데 사용할 수 있는 데이터 보기의 설정
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
+exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
-
 
 # 세션 설정
 
@@ -45,4 +46,3 @@ ht-degree: 100%
 
 
 4. **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 후 마침]**&#x200B;을 선택하여 세션 설정 정의를 저장합니다.
-

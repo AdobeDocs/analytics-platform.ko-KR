@@ -4,10 +4,11 @@ description: Customer Journey Analytics이 제공하는 구성 요소와 보고 
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 78%
+source-wordcount: '1068'
+ht-degree: 75%
 
 ---
 
@@ -25,10 +26,10 @@ ht-degree: 78%
 * [**필터**](filters/filters-overview.md): 강력하고 집중된 대상 필터를 빌드하고, 관리하고, 공유하고, 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 개인 하위 집합을 식별할 수 있습니다.
 * [**계산된 지표**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [**데이터 사전**](/help/components/data-dictionary/data-dictionary-overview.md): 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 지원합니다.
-* [**날짜 범위**](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화.
+* [**날짜 범위**](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위를 사용자 정의하고 세분화합니다.
 * [**Dimension**](/help/components/dimensions/view-dimensions.md): Dimension은 일반적으로 문자열 값을 포함하는 변수입니다. 일반적인 차원은 페이지 및 참조 도메인을 포함합니다.
 * [**지표**](/help/components/apply-create-metrics.md): Analysis Workspace에서 데이터 포인트를 수량화할 수 있습니다.
-* [**프로젝트**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트 구성 및 유지 관리.
+* [**프로젝트**](/help/analysis-workspace/home.md): Analysis Workspace에서 프로젝트를 구성하고 유지 관리합니다.
 
 ## Analysis Workspace 구성 요소
 

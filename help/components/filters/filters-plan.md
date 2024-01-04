@@ -2,7 +2,8 @@
 description: 필터를 계획할 때 따라야 하는 단계 및 모범 사례에 대해 설명합니다.
 title: 플랜 필터
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 93%

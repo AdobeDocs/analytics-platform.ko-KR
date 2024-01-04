@@ -3,10 +3,11 @@ description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위�
 title: 날짜 비교
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 87%
+source-wordcount: '740'
+ht-degree: 86%
 
 ---
 
@@ -53,9 +54,9 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 비교할 기간 열 추가
 
-이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
+이제 테이블의 각 열에 기간을 추가하여 캘린더에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
 
-1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가를 선택합니다.]**![[기간 추가] 열이 강조 표시된 테이블 열 목록 ](assets/add-time-period-column.png)
+1. 테이블에서 열을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 기간 열 추가]** ![[기간 추가] 열이 강조 표시된 테이블 열 목록 ](assets/add-time-period-column.png)
 
 1. 테이블의 날짜 범위를 설정한 방법에 따라 비교에 대한 다음 옵션이 제공됩니다.
 

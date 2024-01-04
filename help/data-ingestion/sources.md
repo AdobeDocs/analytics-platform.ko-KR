@@ -4,9 +4,10 @@ description: Customer Journey Analytics에서 소스 커넥터를 사용하여 �
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1967'
 ht-degree: 86%
 
 ---

@@ -3,7 +3,8 @@ title: Customer Journey Analytics에서 바인딩 차원 및 지표 사용
 description: 복잡한 지속성 분석을 위한 개체 배열의 속성 차원.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 15660e1560ef8b1be510c0103e0f4818f1019c3e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 83%

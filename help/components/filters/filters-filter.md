@@ -3,10 +3,11 @@ description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 �
 title: 필터 목록 필터링
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 30%
+source-wordcount: '187'
+ht-degree: 25%
 
 ---
 
@@ -31,5 +32,5 @@ ht-degree: 30%
    | 기타 필터 > 내 소유 | 사용자가 소유한 모든 필터를 표시합니다. |
    | 기타 필터 > 나와 공유 | 다른 사용자가 선택한 모든 필터 표시 [공유됨](/help/components/filters/filters-share.md) 당신과 함께. |
    | 기타 필터 > 즐겨찾기 | (으)로 표시한 모든 필터 표시 [즐겨찾기](/help/components/filters/filters-favorite.md). |
-   | 기타 필터 > 승인됨 | 공식적으로 [승인된](/help/components/filters/filters-approve.md) 모든 세그먼트를 표시합니다. |
+   | 기타 필터 > 승인됨 | 모든 항목을 공식적으로 표시 [승인됨](/help/components/filters/filters-approve.md) 세그먼트. |
    | 세그먼트 검색 | 이름별로 세그먼트를 검색할 수 있습니다. |

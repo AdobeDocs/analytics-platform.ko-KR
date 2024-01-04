@@ -2,11 +2,11 @@
 description: 주요 지표 요약 시각화를 사용하여 두 개의 타임라인에서 지표 성능을 비교할 수 있습니다.
 title: 주요 지표 요약
 feature: Visualizations
-role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 85%
 
 ---

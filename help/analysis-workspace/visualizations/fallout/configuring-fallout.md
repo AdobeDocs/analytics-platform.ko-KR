@@ -3,10 +3,11 @@ description: 다차원 폴아웃 시퀀스를 만들기 위해 터치포인트�
 title: 폴아웃 시각화 구성
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 68%
+source-wordcount: '709'
+ht-degree: 67%
 
 ---
 

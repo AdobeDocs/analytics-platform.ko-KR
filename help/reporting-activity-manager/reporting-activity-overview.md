@@ -3,18 +3,20 @@ title: 보고 활동 관리자 개요
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
-# 활동 관리자 보고 개요
+# 보고 활동 관리자 개요
 
 다음 [!UICONTROL 활동 관리자 보고] 는 관리자가 사용할 수 있습니다.
 
-조직에서 최대 보고 시간 동안 보고 성능이 저하되는 경우 보고 활동 관리자를 사용하면 Adobe 고객 지원 센터의 개입 없이 용량 문제를 자체 진단하고 해결할 수 있습니다. 하나의 인터페이스 내에서 보고 대기열을 손쉽게 관리하고 즉각적인 조치를 취해 사용자 경험을 개선할 수 있습니다.
+조직에서 최대 보고 시간 동안 보고 성능이 저하되는 경우 보고 활동 관리자를 사용하면 Adobe 고객 지원 센터의 개입 없이 용량 문제를 자체 진단하고 해결할 수 있습니다. 단일 인터페이스 내에서 보고 대기열을 쉽게 관리하고 즉시 &#x200B; 사용자 경험을 개선할 &#x200B; 수 있습니다.
 
 ## 이점
 

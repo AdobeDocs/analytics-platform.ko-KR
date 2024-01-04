@@ -4,10 +4,11 @@ description: 데이터 보기에 추가할 수 있는 모든 표준 구성 요�
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 77647ddbd2deee402629104312db1620de4449e9
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +43,7 @@ Customer Journey Analytics의 차원 및 지표 대부분은 Adobe Experience Pl
 
 선택 사항 표준 구성 요소는 **[!UICONTROL 데이터 보기]** > **[!UICONTROL 데이터 보기 편집]** > **[!UICONTROL 구성 요소]** 탭 > **[!UICONTROL 표준 구성 요소]** 탭에서 사용할 수 있습니다.
 
-| 구성 요소 이름 | 차원 또는 지표 | 참고 값 |
+| 구성 요소 이름 | 차원 또는 지표 | 메모 및 값 |
 | --- | --- | --- |
 | [!UICONTROL 오전/오후] | 차원 시간 분할 | 오전 또는 오후 |
 | [!UICONTROL 일괄 처리 ID] | 차원 | [!UICONTROL 이벤트]가 속한 Experience Platform 일괄 처리를 나타냅니다. |

@@ -3,14 +3,15 @@ description: 작업 영역 FAQ 및 문제 해결 팁에 대해 알아봅니다.
 title: FAQ
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 94%
 
 ---
 
-# FAQ
+# 자주 묻는 질문
 
 | 질문 | 답변 |
 |--- |--- |

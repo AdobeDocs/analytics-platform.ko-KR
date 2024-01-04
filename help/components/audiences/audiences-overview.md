@@ -3,10 +3,11 @@ title: Customer Journey Analytics 대상 게시 개요에 대해 알아보기
 description: Customer Journey Analytics의 대상자 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '493'
+ht-degree: 50%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 54%
 * Experience Platform 대상을 통해 서드파티에 대상자 내보내기
 * Customer Journey Analytics의 이벤트 기반 데이터에서 파생된 유용한 속성으로 실시간 고객 프로필 강화
 * 대상자를 게시한 후 대기 시간을 최소화하면서 이 모든 작업을 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
-* 일회성 대상자 또는 반복 대상자 게시.
+* 일회성 대상자 또는 반복 대상자 게시
 
 프로필에서 만드는 대상은 Customer Journey Analytics에 대해 활성화된 데이터 세트를 기반으로 할 필요가 없습니다. 프로필에 연결된 데이터 세트 및 스키마를 활성화하지 않고 내역 데이터를 Experience Platform으로 수집할 수 있습니다. 그런 다음 이러한 데이터 세트를 사용하여 Customer Journey Analytics에서 관련 대상을 검색하고 활성화 목적을 위해 Experience Platform에서 실시간 고객 프로필에 게시할 수 있습니다.
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
+source-git-commit: fbd801dbbdd8240eef4c60d0877bbb01f06dd768
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1040'
 ht-degree: 79%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 79%
    + [연결 관리](../connections/manage-connections.md)
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
-   + [교차 채널 분석](../connections/cca.md)
 
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
@@ -303,11 +302,6 @@ ht-degree: 79%
    + [결합 작동 방식](../stitching/explained.md)
    + [결합된 데이터 세트 만들기 및 관리](../stitching/stitching-ui.md)
    + [FAQ](../stitching/faq.md)
-
-+ 교차 채널 분석 {#cca}
-   + [교차 채널 분석 개요](../cca/overview.md)
-   + [재생 작동 방식](../cca/replay.md)
-   + [교차 채널 분석 FAQ](../cca/faq.md)
 
 + Adobe 통합 {#integrations}
    + [Customer Journey Analytics 개요와 Adobe 솔루션 통합](/help/integrations/overview.md)

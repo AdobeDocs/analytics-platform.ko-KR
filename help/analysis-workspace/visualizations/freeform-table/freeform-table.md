@@ -3,10 +3,11 @@ title: 자유 형식 테이블
 description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 91%
+source-wordcount: '490'
+ht-degree: 90%
 
 ---
 

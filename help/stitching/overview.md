@@ -4,10 +4,11 @@ description: 결합 개요.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 21%
+source-wordcount: '1428'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +35,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이�
 
 결합을 사용하기 전에 조직에서 다음 사항을 준비했는지 확인하십시오.
 
-* 원하는 데이터를 Adobe Experience Platform으로 가져옵니다:
+* 원하는 데이터를 Adobe Experience Platform에 가져옵니다.
 
    * Adobe Analytics 데이터의 경우 [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
    * 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
@@ -58,7 +59,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이�
 1. 다음과 관련된 질문이 있는 경우 Adobe 고객 지원 센터에 문의하십시오.
 
    * 결합 활성화 요청.
-   * 다시 입력할 데이터 세트에 대한 데이터 세트 ID.
+   * 다시 입력할 데이터 세트에 대한 데이터 세트 ID입니다.
    * 원하는 데이터 세트에 대한 영구 ID의 열 이름 (모든 행에 표시되는 식별자).
    * 원하는 데이터 세트에 대한 임시 ID의 열 이름(연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자).
    * [재생](explained.md) 빈도 및 전환 길이에 대한 사용자 환경 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
@@ -108,7 +109,7 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 >
 >* 소스 데이터 세트를 제거하면 연결된 데이터 세트가 처리를 중지하고 시스템에서 제거됩니다.
 >
->* 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 다음을 참조하십시오 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko-KR) 추가 정보.
+>* 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 다음을 참조하십시오 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko) 추가 정보.
 
 결합은 획기적이고 강력한 기능이지만 사용 방법에 대한 제한이 있습니다.
 

@@ -1,13 +1,14 @@
 ---
 title: 릴리스 보기
-description: 릴리스 전후 동일한 기간 동안의 성능 비교.
+description: 동일한 기간 프리릴리스 및 포스트릴리스에서 성능을 비교할 수 있습니다.
 feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
-source-git-commit: 02044961612a3d0f4f40bdc71c3f00585d702c92
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 

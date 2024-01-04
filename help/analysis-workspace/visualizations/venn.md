@@ -3,10 +3,11 @@ description: 벤 시각화를 사용하여 최대 3개의 필터(구성 요소�
 title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 80%
+source-wordcount: '133'
+ht-degree: 79%
 
 ---
 

@@ -2,11 +2,11 @@
 description: Analysis Workspace에서 지난달, 지난해 등과 비교한 내용과 같은 비교 데이터를 쉽게 시각화할 수 있습니다.
 title: 콤보 차트 시각화
 feature: Visualizations
-role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '847'
 ht-degree: 85%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 [!UICONTROL 콤보 차트]를 시각화하면 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
 
-[!UICONTROL 콤보 차트] 사용:
+사용 [!UICONTROL 콤보 차트] 끝:
 
 * 몇 번의 클릭만으로 이번 주 주문을 지난달과 지난해 같은 시기의 주문과 비교해 보십시오.
 * 동일한 차트에서 여러 지표(예: [!UICONTROL 고유 방문자] 및 [!UICONTROL 수익])를 빠르게 분석하고 비교합니다.

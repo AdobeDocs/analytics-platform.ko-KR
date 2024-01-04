@@ -4,10 +4,11 @@ description: 고객 여정 전반에 걸친 고객 상호 작용에서 통찰력
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 62%
+source-wordcount: '482'
+ht-degree: 61%
 
 ---
 
@@ -30,9 +31,9 @@ ht-degree: 62%
 1. 사용자 지정 데이터 준비를 수행하여 시계열 데이터 세트에서 Customer Journey Analytics에 수집할 공통 키를 확보할 수 있습니다.
 1. 조회 데이터에는 이벤트 데이트의 필드에 연결할 수 있는 기본 ID를 제공합니다. 라이선스 할당 시 행으로 간주됩니다.
 1. 프로필 데이터에 대한 동일한 기본 ID를 이벤트 데이터의 기본 ID로 설정합니다.
-1. [연결 만들기](../../connections/overview.md) Experience Platform에서 Customer Journey Analytics으로 관련 데이터 세트를 수집합니다.
+1. [연결 만들기](../../connections/overview.md) 을 사용하여 Experience Platform에서 Customer Journey Analytics으로 관련 데이터 세트를 수집할 수 있습니다.
 1. 연결을 기반으로 [데이터 보기를 만들어](/help/data-views/create-dataview.md) 보기에 포함되는 특정 차원 및 지표를 선택할 수 있습니다. 데이터 보기에 속성 및 할당 설정을 구성하기도 합니다. 보고서 시간에 이러한 설정을 계산합니다.
-1. [프로젝트를 만들어 Analysis Workspace 내에 대시보드 및 보고서를 구성합니다.](/help/analysis-workspace/home.md)
+1. [프로젝트 만들기](/help/analysis-workspace/home.md) Analysis Workspace 내에서 대시보드 및 보고서를 구성합니다.
 
 ## 고려 사항
 

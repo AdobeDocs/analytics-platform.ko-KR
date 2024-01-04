@@ -2,7 +2,9 @@
 description: 필터에 태그를 지정하여 구성할 수 있습니다.
 title: 태그 필터
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 96%
@@ -15,7 +17,7 @@ ht-degree: 96%
 
 어떤 종류의 태그를 만들어야 합니까? 다음은 제안되는 유용한 태그입니다.
 
-* 팀 이름을 기반으로 하는 태그 (예: 소셜 마케팅, 모바일 마케팅).
+* 팀 이름을 기반으로 하는 태그(예: 소셜 마케팅, 모바일 마케팅)
 
 * 프로젝트 태그 (분석 태그) (예: 시작 페이지 분석)
 

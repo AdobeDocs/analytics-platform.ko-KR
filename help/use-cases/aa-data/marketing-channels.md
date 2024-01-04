@@ -4,10 +4,11 @@ description: Analytics 소스 커넥터를 사용하여 마케팅 채널 처리 
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 63%
+source-wordcount: '985'
+ht-degree: 61%
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: 주석 관리
 description: 작업 영역에서 주석을 관리하는 방법
-role: User, Admin
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 83%

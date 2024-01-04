@@ -5,10 +5,11 @@ title: 이메일로 다른 사람에게 Customer Journey Analytics 데이터 보
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 59%
+source-wordcount: '1018'
+ht-degree: 57%
 
 ---
 
@@ -81,7 +82,7 @@ ht-degree: 59%
 | **[!UICONTROL 만료된 일정 보기]** | 만료된 예약을 보려면 왼쪽 레일 > 기타 필터 > 만료됨으로 이동합니다. 예약의 제목을 클릭하여 새 게재 예약을 설정합니다. |
 | **[!UICONTROL 예약 ID 보기]** | 오른쪽 상단의 열 옵션으로 이동하고 예약 ID 열을 테이블에 추가합니다. 예약된 ID는 종종 디버깅에 유용합니다. |
 
-예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 게재가 중지됩니다.
+예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md).
 
 ## 암호로 예약된 프로젝트 보호 {#password}

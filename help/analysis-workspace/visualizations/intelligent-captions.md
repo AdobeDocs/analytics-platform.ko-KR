@@ -1,17 +1,17 @@
 ---
 description: 지능형 캡션을 사용하여 자연어 인사이트를 생성하여 시각화 내의 트렌드를 빠르게 표시할 수 있습니다.
-title: 지능형 캡션
+title: 인텔리전트 캡션
 feature: Visualizations
-role: User, Admin
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
-# 지능형 캡션
+# 인텔리전트 캡션
 
 지능형 캡션은 고급 머신 러닝 및 생성 AI를 사용하여 작업 영역 시각화에 중요한 자연어 통찰력을 제공합니다. 초기 릴리스는에 대해 자동 생성된 통찰력을 제공합니다. [라인](line.md) 시각화. (다른 시각화 요소들이 따라옵니다.)
 

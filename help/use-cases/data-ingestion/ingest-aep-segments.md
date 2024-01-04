@@ -4,10 +4,11 @@ description: 추가 분석을 위해 Adobe Experience Platform 대상을 Custome
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 52%
+source-wordcount: '968'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 52%
 
 ## 사전 요구 사항
 
-* Adobe Experience Platform에 액세스 (Adobe Experience Platform), 특히 실시간 고객 프로필
+* Adobe Experience Platform(Adobe Experience Platform), 특히 실시간 고객 프로필에 액세스합니다.
 * Adobe Experience Platform 스키마 및 데이터 세트를 만들고 관리할 수 있는 액세스 권한.
 * Adobe Experience Platform 쿼리 서비스(및 SQL 작성 기능) 또는 일부 가벼운 변환을 수행하기 위한 다른 도구에 액세스합니다.
 * Customer Journey Analytics에 액세스 Customer Journey Analytics 연결 및 데이터 보기를 생성/수정하려면 Customer Journey Analytics 제품 관리자여야 합니다.

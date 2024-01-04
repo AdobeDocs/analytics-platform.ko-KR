@@ -4,9 +4,10 @@ description: Customer Journey Analytics에서 배치 데이터를 수집 및 사
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1948'
 ht-degree: 87%
 
 ---
@@ -222,7 +223,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 - 들어오는 데이터가 XDM 스키마와 호환되지 않을 때 데이터를 매핑하는 방법입니다.
 - 매핑 템플릿 사용,
 - 계산된 필드를 사용하여 배치 데이터가 스키마에서 예상한 조건에 부합하는지 확인합니다.
-- 이 외에도 다양한 내용이 있습니다.
+- 등.
 
 
 ## 연결 설정

@@ -3,10 +3,11 @@ description: 막대 시각화는 하나 이상 지표에서 다양한 값을 나
 title: 막대 및 스택 막대
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 80%
+source-wordcount: '119'
+ht-degree: 79%
 
 ---
 

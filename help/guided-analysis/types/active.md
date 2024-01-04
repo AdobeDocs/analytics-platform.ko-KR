@@ -1,13 +1,14 @@
 ---
 title: 활성 보기
-description: 신규, 유지, 복귀 또는 휴면 상태 식별.
-exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+description: 신규, 보존, 재방문 또는 휴면 상태의 사용자를 식별합니다.
+exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: 제품 분석
-source-git-commit: 35e009ca6c21754fe7127fe63eea41f8ed00943d
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 2%
+source-wordcount: '597'
+ht-degree: 1%
 
 ---
 

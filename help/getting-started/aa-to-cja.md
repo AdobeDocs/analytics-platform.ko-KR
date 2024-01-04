@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
-workflow-type: ht
-source-wordcount: '1488'
-ht-degree: 100%
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '1394'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 
 * 아이디에 PII(사용자 식별 정보)는 포함되지 않습니다. 민감할 수 있는 모든 항목에 해싱을 적용합니다.
 * ID는 모든 소스에서 동일한 형식(동일한 길이, 동일한 해시 방법 등)을 사용합니다.
 
-Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재합니다. 이 경우, 고객이 ECID를 통해서만 식별되고 ID가 수집되는 경우(예: 고객 인증 시) 교차 채널 분석(이전의 “필드 기반 연결”)을 사용하여 행 간의 간격을 메울 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ko-KR)
+Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재합니다. 이 경우, 고객이 ECID를 통해서만 식별되고 ID가 수집되는 경우(예: 고객이 인증되는 경우) 크로스 채널 분석(&quot;결합&quot;이라고도 함)을 사용하여 행 간의 간격을 메울 수 있습니다. [자세히 알아보기](../stitching/overview.md)
 
 ### 2. 변수 정렬 {#variables}
 
@@ -71,7 +71,7 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 * 필요한 모든 필드를 정의할 수 있는 유연한 스키마
 * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
 * 글자 수 제한 없음 (Prop의 경우 100자)
-* Adobe Experience Platform에서 보다 빠른 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko-KR) 강화
+* Adobe Experience Platform의 데이터 가용성 향상 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko-KR)
 * 방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko-KR)
 
 **Experience Platform SDK 사용의 단점**

@@ -3,7 +3,8 @@ title: Customer Journey Analytics와 Adobe 솔루션 통합
 description: 다른 Adobe 솔루션 및 서비스의 데이터를 통합하는 방법에 대해 알아봅니다.
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: User, Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%

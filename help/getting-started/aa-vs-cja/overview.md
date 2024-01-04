@@ -3,9 +3,11 @@ title: Adobe Analytics와의 비교
 description: Customer Journey Analytics와 Adobe Analytics의 비교 개요입니다.
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 4cbf01d397e7f89e67ae20702790129478d45cce
-workflow-type: ht
-source-wordcount: '863'
+exl-id: bde36283-86af-4b1a-9cbe-e251676b2951
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -66,8 +68,3 @@ Adobe Analytics는 Adobe Analytics ID(AAID)와 같은 보다 명확한 ID 필드
 ## 지원되는 기능
 
 Adobe Analytics 기능 및 Customer Journey Analytics에서 이러한 기능이 지원되는 방식에 대한 개요는 [Customer Journey Analytics 기능 지원](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/cja-aa.html?lang=ko)에서 확인할 수 있습니다.
-
-
-
-
-

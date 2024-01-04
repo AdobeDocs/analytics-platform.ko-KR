@@ -6,10 +6,11 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 exl-id: 8820a093-e573-45f9-bcd2-0933e21c231b
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 2%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +110,7 @@ ht-degree: 2%
   | 값 | 설명 |
   |-----|-----|
   | **[!UICONTROL **&#x200B;대기열에 추가됨&#x200B;**]** | 요청이 접수되고 곧 처리됩니다. |
-  | **[!UICONTROL **&#x200B;생성 진행 중&#x200B;**]** | 리소스 및 새로 결합된 데이터 세트가 생성 중입니다. |
+  | **[!UICONTROL **&#x200B;생성&#x200B;**]** 진행 중 | 리소스 및 새로 결합된 데이터 세트가 생성 중입니다. |
   | **[!UICONTROL **&#x200B;결합 진행 중&#x200B;**]** | 리소스 및 결합된 데이터 세트가 존재하며 결합이 진행 중입니다 |
   | **[!UICONTROL **&#x200B;오류&#x200B;**]** | 연결하는 데 문제가 있습니다. 소스 데이터 세트와 결합된 데이터 세트 간에 스키마가 변경되었을 수 있습니다. 일별 볼륨이 너무 크거나,_**추가 정보 필요...**_) |
 

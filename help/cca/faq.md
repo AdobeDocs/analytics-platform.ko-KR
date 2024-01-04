@@ -5,10 +5,10 @@ exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: ht
-source-wordcount: '1101'
-ht-degree: 100%
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '1057'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 [크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
 
-[교차 채널 분석](/help/cca/overview.md)은 Customer Journey Analytics 고유의 기능으로, 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID에 대해 키를 다시 입력하여 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 설계상 CDA의 필드 기반 결합과 유사하게 작동하지만 Adobe Analytics와 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현은 다르게 수행됩니다.
+[크로스 채널 분석](/help/stitching/overview.md) 는 Customer Journey Analytics 고유의 기능으로, 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID에 대해 키를 다시 입력하여 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 설계상 CDA의 필드 기반 결합과 유사하게 작동하지만 Adobe Analytics와 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현은 다르게 수행됩니다.
 
 ## 교차 채널 분석은 GDPR 및 CCPA 요청을 어떻게 처리합니까?
 

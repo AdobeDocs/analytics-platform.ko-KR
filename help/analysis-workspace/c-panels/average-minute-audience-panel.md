@@ -2,11 +2,11 @@
 title: 미디어 분당 평균 시청 시간 패널
 description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패널을 사용하고 해석하는 방법.
 feature: Panels
-role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1333'
 ht-degree: 88%
 
 ---

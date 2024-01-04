@@ -3,10 +3,11 @@ title: 필터 개요
 description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 25%
+source-wordcount: '1172'
+ht-degree: 23%
 
 ---
 
@@ -39,7 +40,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 
 >[!IMPORTANT]
 >
->다음을 보유해야 합니다. **선택** 채널 간 순차적 필터를 만드는 패키지입니다. 보유하고 있는 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우 관리자에게 문의하십시오.
+>다음을 보유해야 합니다. **선택** 채널 간 순차적 필터를 만드는 패키지입니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
 
 다음은 한 예입니다.
 
@@ -101,7 +102,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 - 참여도 지표
 - 선형 할당 지표
 
-Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 기간뿐만 아니라 새 세션을 만들어야 하는 시기를 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 자세한 내용은 [세션 설정](/help/data-views/session-settings.md)을 참조하시기 바랍니다.
+Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 기간뿐만 아니라 새 세션을 만들어야 하는 시기를 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 다음을 참조하십시오 [세션 설정](/help/data-views/session-settings.md) 추가 정보.
 
 ### 이벤트 컨테이너 {#event}
 
