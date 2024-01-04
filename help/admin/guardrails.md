@@ -4,9 +4,9 @@ description: Customer Journey Analytics 보호 기능에 대해 알아보기
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
+source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1478'
 ht-degree: 10%
 
 ---
@@ -210,8 +210,9 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 | 실시간 고객 프로필에 대한 Adobe Analytics 소스 커넥터(A4T가 활성화되지 않음) | 2분 미만 |
 | 실시간 고객 프로필에 대한 Adobe Analytics 소스 커넥터(A4T 활성화됨) | 30분 미만 |
 | Edge Network 또는 스트리밍 수집에서 데이터 레이크로 데이터 수집 | 60분 미만 |
-| Adobe Analytics 소스 커넥터에서 데이터 레이크로 데이터 수집 | 90분 미만 |
+| Adobe Analytics 소스 커넥터에서 데이터 레이크로 데이터 수집 | &lt; 2.25시간 |
 | 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 90분 미만 |
+| 결합(옵션 기능, 참조 [결합 개요](../stitching/overview.md) 추가 정보) | &lt; 3.25시간 |
 | 100억 개 미만의 이벤트(최대 13개월의 내역 데이터)에 대한 Adobe Analytics 소스 커넥터 채우기 | &lt; 4주 |
 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | ≈분 |
 | 대상자에 대한 새로 고침 빈도 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. (지연 시간은 새로 고침 빈도와 병행됩니다.) |
