@@ -4,10 +4,11 @@ description: Adobe Experience Platform Mobile SDK 및 Edge Network를 통해 데
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 61%
+source-wordcount: '3385'
+ht-degree: 60%
 
 ---
 
@@ -100,6 +101,10 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
    ![예제 스키마 필드 추가 버튼](./assets/example-mobileschema-plus.png)
 
 1. 다음에서 [!UICONTROL 필드 속성] 패널, 입력 `identification` (으)로 [!UICONTROL 필드 이름], **[!UICONTROL 식별]** (으)로 [!UICONTROL 표시 이름], 선택 **[!UICONTROL 오브젝트]** (으)로 [!UICONTROL 유형] 및 선택 **[!UICONTROL ExperienceEvent 코어 v2.1]** (으)로 [!UICONTROL 필드 그룹].
+
+   >[!NOTE]
+   >
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-mobile.png)
 
@@ -258,7 +263,7 @@ Adobe 플랫폼 Edge Network 확장을 태그에 추가하여 데이터스트림
 
 Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
-1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다. Mobile Core 및 프로필 확장을 이미 사용할 수 있습니다.
+1. 선택 **[!UICONTROL 확장]** 왼쪽 레일에서. Mobile Core 및 프로필 확장을 이미 사용할 수 있습니다.
 
 1. 상단 막대에서 **[!UICONTROL 카탈로그]**&#x200B;를 선택합니다.
 
@@ -276,9 +281,9 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
 또한 카탈로그에서 다음과 같은 추가 확장을 설정합니다.
 
-- 신원.
+- 신원
 - AEP 보증.
-- 동의.
+- 동의합니다.
 
 다음을 참조하십시오 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=en) 확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 튜토리얼을 참조하십시오.
 
