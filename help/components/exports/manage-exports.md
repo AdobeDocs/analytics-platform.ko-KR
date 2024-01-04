@@ -5,7 +5,7 @@ title: 내보내기 관리
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
    | 필터 | 설명 |
    |---------|----------|
    | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 역할 ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google 클라우드 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았거나 일회성 내보내기가 아직 완료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료**]: 내보내기가 성공적으로 내보내기되었음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 마우스로 가리키기 [!UICONTROL **실패**] 장애에 대한 세부 정보를 볼 수 있는 상태. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
+   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았거나 일회성 내보내기가 아직 완료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료됨**]: 내보내기가 성공적으로 내보내기되었음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 마우스로 가리키기 [!UICONTROL **실패**] 장애에 대한 세부 정보를 볼 수 있는 상태. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
    | [!UICONTROL **빈도**] | 내보내기가 발생하는 빈도. 다음 빈도를 사용할 수 있습니다. <ul><li>[!UICONTROL **1회**]</li><li>[!UICONTROL **매일**]</li><li>[!UICONTROL **매주**]</li><li>[!UICONTROL **월별**]</li><li>[!UICONTROL **연간**]</li></ul> |
 
    {style="table-layout:auto"}
