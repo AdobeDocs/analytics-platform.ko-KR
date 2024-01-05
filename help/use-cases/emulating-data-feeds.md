@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2558'
 ht-degree: 5%
 
 ---
@@ -66,7 +66,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 
 쿼리에서 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 하는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다.
 
-데이터 피드 열과 XDM 필드 간의 매핑을 간소화하려면 다음을 포함하는 것을 고려해야 합니다. [Adobe Analytics ExperienceEvent 템플릿](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 경험 이벤트 스키마의 필드 그룹. 다음을 참조하십시오 [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 보다 구체적으로 [Adobe 응용 프로그램 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+데이터 피드 열과 XDM 필드 간의 매핑을 정의하려면 의 몇 가지 측면을 검사하고 잠재적으로 (재)사용해야 합니다 [Adobe Analytics ExperienceEvent 템플릿](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 필드 그룹입니다. 다음을 참조하십시오 [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 보다 구체적으로 [Adobe 응용 프로그램 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 예를 들어 를 사용하려는 경우 *페이지 이름* 데이터 피드의 일부로:
 
