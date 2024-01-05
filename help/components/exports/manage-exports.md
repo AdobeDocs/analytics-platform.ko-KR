@@ -5,7 +5,7 @@ title: 내보내기 관리
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 3%
@@ -137,7 +137,7 @@ ht-degree: 3%
    | 이름 | 내보내기의 이름입니다. 사용자는에 설명된 대로 내보내기를 만들 때 이름을 지정합니다 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md). |
    | ID | 내보낼 때 자동으로 할당되는 ID입니다. <!-- True? --> |
    | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 내보내기를 만들 때 다음에 설명된 대로 데이터 보기를 선택할 수 있습니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md). |
-   | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 다음과 같습니다 [!UICONTROL 활성], [!UICONTROL 완료], 및 [!UICONTROL 실패].<p> **참고:** 내보내기 실패 문제 해결에 대한 자세한 내용은 다음을 참조하십시오. [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md).</p> |
+   | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 다음과 같습니다 [!UICONTROL 활성], [!UICONTROL 완료됨], 및 [!UICONTROL 실패].<p> **참고:** 내보내기 실패 문제 해결에 대한 자세한 내용은 다음을 참조하십시오. [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md).</p> |
    | 태그 | 내보내기에 적용되는 모든 태그를 표시합니다. 내보내기에 태그를 적용하는 방법에 대한 자세한 내용은 [내보내기에 태그 지정](#tag-an-export). |
    | 표 크기 (마지막 전송) | 마지막으로 전송된 내보내기 크기입니다. |
    | 작성자 | 내보내기를 만든 사용자입니다. |
