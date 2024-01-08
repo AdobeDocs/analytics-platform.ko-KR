@@ -6,10 +6,10 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
+source-git-commit: a402c4b03c9d30235f2697e1b6ad5b1b22024c66
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 5%
+source-wordcount: '2537'
+ht-degree: 4%
 
 ---
 
@@ -57,14 +57,14 @@ SELECT 문용 표준 ANSI SQL의 모든 기능과 기타 제한된 명령을 사
 
 Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 만들 때 ID를 올바르게 쿼리하고 있는지 확인하십시오.
 
-종종 별도의 필드 그룹에서 ID를 찾습니다. 구현 ECID에서 (`ecid`)은 를 사용하여 필드 그룹의 일부로 정의할 수 있습니다. `core` 객체, 그 자체가 `identification` 개체. (예: `_sampleorg.identification.core.ecid`). ECID는 스키마에서 다르게 구성될 수 있습니다.
+종종 별도의 필드 그룹에서 ID를 찾습니다. 구현 ECID에서 (`ecid`)은 를 사용하여 필드 그룹의 일부로 정의할 수 있습니다. `core` 객체, 그 자체가 `identification` 객체(예: `_sampleorg.identification.core.ecid`). ECID는 스키마에서 다르게 구성될 수 있습니다.
 
 또는 다음을 사용할 수 있습니다 `identityMap` ID를 쿼리합니다. 이 개체는 유형입니다. `Map` 및 를 사용합니다. [중첩된 데이터 구조](#nested-data-structure).
 
 
 #### 데이터 피드 열
 
-쿼리에서 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 하는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다.
+쿼리에 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 삼는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다.
 
 데이터 피드 열과 XDM 필드 간의 매핑을 정의하려면 의 몇 가지 측면을 검사하고 잠재적으로 (재)사용해야 합니다 [Adobe Analytics ExperienceEvent 템플릿](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 필드 그룹입니다. 다음을 참조하십시오 [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 보다 구체적으로 [Adobe 응용 프로그램 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
@@ -73,7 +73,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 * Adobe Analytics 데이터 피드의 UI에서 **[!UICONTROL pagename]** 를 데이터 피드 정의에 추가할 열로 지정합니다.
 * 쿼리 서비스에서 다음을 포함합니다. `web.webPageDetails.name` 다음에서 `sample_event_dataset_for_website_global_v1_1` 데이터 세트 (기반) **웹 사이트에 대한 샘플 이벤트 스키마(전역 v1.1)** 경험 이벤트 스키마)를 포함할 수 있습니다. 다음을 참조하십시오. [웹 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 추가 정보.
 
-경험 이벤트 데이터 세트와 기본 스키마의 이전 Adobe Analytics 데이터 피드 열과 XDM 필드 간의 매핑을 이해하려면 다음을 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko) 및 [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 추가 정보.
+경험 이벤트 데이터 세트와 기본 스키마의 Adobe Analytics 데이터 피드 열과 XDM 필드 간의 매핑을 이해하려면 다음을 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko) 및 [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 추가 정보.
 
 또한 [Experience Platform 웹 SDK를 통해 자동으로 수집된 정보(기본 제공)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 쿼리의 열을 식별하는 데 관련이 있을 수 있습니다.
 
@@ -86,9 +86,9 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 | hitid_high + hitid_low | _ID | 문자열 | 히트를 식별하는 고유 식별자입니다. |
 | hitid_low | _ID | 문자열 | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. |
 | hitid_high | _ID | 문자열 | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. |
-| hit_time_gmt | receivedTimestamp | 문자열 | Unix 시간을 기반으로 한 히트의 타임스탬프입니다. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 문자열 | Unix 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
-| cust_hit_time_gmt | timestamp | 문자열 | 타임스탬프가 활성화된 데이터 세트에서만 사용됩니다. 이는 Unix 시간을 기준으로 와 함께 전송되는 타임스탬프입니다. |
+| hit_time_gmt | receivedTimestamp | 문자열 | UNIX® 시간을 기반으로 한 히트의 타임스탬프입니다. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 문자열 | UNIX® 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
+| cust_hit_time_gmt | timestamp | 문자열 | 타임스탬프가 활성화된 데이터 세트에서만 사용됩니다. UNIX® 시간을 기준으로 히트와 함께 전송된 타임스탬프입니다. |
 | visid_high + visid_low | identityMap | 오브젝트 | 방문에 대한 고유 식별자. |
 | visid_high + visid_low | endUserID._experience.aaid.id | 문자열 | 방문에 대한 고유 식별자. |
 | visid_high | endUserID._experience.aaid.primary | 부울 | 방문을 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
@@ -98,7 +98,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 | cust_visid | endUserID._experience.aacustomid.id | 오브젝트 | 고객 방문자 ID입니다. |
 | cust_visid | endUserID._experience.aacustomid.primary | 부울 | 고객 방문자 ID 네임스페이스 코드. |
 | cust_visid | endUserID._experience.aacustomid.namespace.code | 문자열 | 고객 방문자 ID를 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. |
-| 지역\_* | placeContext.geo.* | 문자열, 숫자 | 국가, 지역, 도시 등과 같은 지리적 위치 데이터 |
+| 지역\_* | placeContext.geo.* | 문자열, 숫자 | 국가, 지역, 도시 등 지리적 위치 데이터 |
 | visit_page_num | _experience.analytics.session.depth | 숫자 | 히트 깊이 차원에 사용되는 변수입니다. 이 값은 사용자가 생성할 각 히트에 대해 1씩 증가하며 각 방문 후에 재설정됩니다. |
 | event_list | commerce.purchases, commerce.productViews, commerce.productListOpens, commerce.checkouts, commerce.productListAdds, commerce.productListRemovals, commerce.productListViews, \_experience.analytics.event101to200.*, ..., \_experience.analytics.event901_1000.\* | 문자열 | 히트에서 트리거된 표준 상거래 및 사용자 지정 이벤트. |
 | page_event | web.webInteraction.type | 문자열 | 이미지 요청(표준 히트, 다운로드 링크, 종료 링크 또는 클릭한 사용자 지정 링크)에서 전송된 히트 유형입니다. |
@@ -106,7 +106,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 | page_event_var_1 | web.webInteraction.URL | 문자열 | 링크 추적 이미지 요청에만 사용되는 변수입니다. 이 변수에는 클릭한 다운로드 링크, 종료 링크 또는 사용자 지정 링크의 URL이 포함됩니다. |
 | page_event_var_2 | web.webInteraction.name | 문자열 | 링크 추적 이미지 요청에만 사용되는 변수입니다. 지정된 경우 링크의 사용자 지정 이름이 나열됩니다. |
 | first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | 문자열 | 방문자의 첫 번째 레퍼러 유형을 나타내는 숫자 ID입니다. |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 정수 | Unix 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 정수 | UNIX® 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. |
 | paid_search | search.isPaid | 부울 | 히트가 유료 검색 감지와 일치하는 경우 설정되는 플래그입니다. |
 | ref_type | web.webReferrertype | 문자열 | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다. |
 
@@ -114,7 +114,7 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 
 Adobe Analytics 데이터 피드는 `post_` 접두사 : 처리 후 데이터가 포함된 열입니다. 자세한 내용은 [데이터 피드 FAQ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)를 참조하십시오.
 
-Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통해 데이터 세트에 수집된 데이터에는 `post_` 필드, 그 이유 설명 `post_` 접두사 및 *비* `post_` analytics 필드 매핑의 데이터 피드 열이 동일한 XDM 필드에 매핑됩니다. 예를 들어, 둘 다 `page_url` 및 `post_page_url` 데이터 피드 열이 동일한 열에 매핑 `web.webPageDetails.URL` XDM 필드.
+Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통해 데이터 세트에 수집된 데이터에는 `post_` 필드. 그 결과, `post_` 접두사 및 *비*-`post_` 접두사가 있는 데이터 피드 열은 동일한 XDM 필드에 매핑됩니다. 예를 들어, 둘 다 `page_url` 및 `post_page_url` 데이터 피드 열이 동일한 열에 매핑 `web.webPageDetails.URL` XDM 필드.
 
 다음을 참조하십시오 [Adobe Analytics 및 Customer Journey Analytics 간 데이터 처리 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=ko-KR) 데이터 처리의 차이점에 대한 개요입니다.
 
@@ -168,11 +168,11 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 예
 
-예를 들어 Experience Platform 데이터 레이크의 데이터 세트의 데이터를 사용하고 Adobe 정의 함수 및/또는 Spark SQL의 추가 기능을 탭하며 동등한 Adobe Analytics 데이터 피드와 유사한 결과를 제공하는 쿼리는 다음을 참조하십시오.
+Experience Platform 데이터 레이크의 데이터 세트의 데이터를 사용하고 Adobe 정의 함수 및/또는 Spark SQL의 추가 기능을 탭하며 동등한 Adobe Analytics 데이터 피드와 유사한 결과를 제공하는 쿼리의 경우 다음을 참조하십시오.
 
-* [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en),
-* [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en),
-* [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en),
+* [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
+* [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
+* [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
 * 및 쿼리 서비스 안내서의 기타 사용 사례도 참조하십시오.
 
 
@@ -238,7 +238,7 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 
 #### 시작
 
-다음을 확인합니다. [필수 권한](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions) 데이터 세트를 내보내고 출력 데이터 세트를 보낼 대상에 가 데이터 세트 내보내기를 지원하는지 확인하십시오. 그러면 다음을 수행해야 합니다. [필수 및 선택적 헤더에 대한 값을 수집합니다.](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) API 호출에서뿐만 아니라 [대상의 연결 사양 및 흐름 사양 ID 식별](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) 데이터 세트를으로 내보내려고 합니다.
+데이터 세트를 내보내려면 [필수 권한](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions). 또한 출력 데이터 세트를 전송할 대상 이 데이터 세트 내보내기를 지원하는지 확인하십시오. 그러면 다음을 수행해야 합니다. [필수 및 선택적 헤더에 대한 값을 수집합니다.](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) API 호출에서 사용하는 쿠키입니다. 또한 다음을 수행해야 합니다 [대상의 연결 사양 및 흐름 사양 ID 식별](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) 데이터 세트를으로 내보내려고 합니다.
 
 #### 적격 데이터 세트 검색
 
