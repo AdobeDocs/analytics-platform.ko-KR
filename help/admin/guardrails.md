@@ -4,9 +4,9 @@ description: Customer Journey Analytics 보호 기능에 대해 알아보기
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
+source-git-commit: 85aea47146d4079606ccdeb1bcc29d41bbf49837
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1480'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 10%
 | 대상 새로 고침 빈도 | 4 | 시스템 강제 보호 | 최대 빈도(시간) 및 [대상자](../components/audiences/audiences-overview.md) 를 새로 고칠 수 있습니다. | |
 | 대상자 새로 고침 전환 확인 기간 | 90 | 시스템 강제 보호 | 전환 확인 기간 새로 고침의 최대 일 수. |
 | 대상자 만료 날짜를 새로 고치는 중 | 13 | 시스템 강제 보호 | 대상자가 생성된 날짜부터 새로 고침이 중단되는 최대 기간(월)입니다. 고객은 이 기간을 13개월 더 연장할 수 있습니다. |
-| 새로 고치는 대상 수 | 75,100,150 | 시스템 강제 보호 | 새로 고치는 최대 대상 수, 값은 패키지에 따라 다릅니다. |
+| 새로 고치는 대상 수 | 75,100 | 시스템 강제 보호 | 새로 고치는 최대 대상 수, 값은 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
