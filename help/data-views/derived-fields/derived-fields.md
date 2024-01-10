@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
 workflow-type: tm+mt
-source-wordcount: '5783'
+source-wordcount: '5933'
 ht-degree: 12%
 
 ---
@@ -1280,6 +1280,34 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 - 파생 필드에 대한 규칙을 정의할 때 최대 10개의 서로 다른 스키마 필드(표준 필드는 포함하지 않음)를 사용할 수 있습니다.
    - 최대 10개의 서로 다른 스키마 필드에서 최대 3개의 조회 스키마 또는 프로필 스키마 필드만 허용됩니다.
 - Customer Journey Analytics 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
+
+
+### 기능 제한 요약
+
+| 함수 | 제한 |
+|---|---|
+| <p>다음과 같은 경우</p> | <ul><li>파생 필드당 함수 수가 5개인 경우</li><li>파생 필드당 200개 연산자</li></ul> |
+| <p>분류</p> | <ul><li>5 파생 필드당 함수 분류</li><li>함수당 100개 행</li></ul> |
+| <p>연결</p> | <ul><li>2 파생 필드당 함수 연결</li></ul> |
+| <p>찾기 및 바꾸기</p> | <ul><li>2 파생 필드당 함수 찾기 및 바꾸기</li></ul> |
+| <p>조회</p> | <ul><li>파생 필드당 5개의 조회 함수</li></ul> |
+| <p>소문자</p> | <ul><li>파생 필드당 소문자 함수 2개</li></ul> |
+| <p>필드 병합</p> | <ul><li>파생 필드당 2개의 필드 병합 기능</li></ul> |
+| <p>정규 표현식 바꾸기</p> | <ul><li>파생 필드당 1개의 정규 표현식 바꾸기 함수</li></ul> |
+| <p>분할</p> | <ul><li>파생 필드당 5개의 분할 함수</li></ul> |
+| <p>트리밍</p> | <ul><li>파생 필드당 1개의 Trim 함수</li></ul> |
+| <p>URL 구문 분석</p> | <ul><li>파생 필드당 5개의 URL 구문 분석 함수</li></ul> |
+
+{style="table-layout:auto"}
+
+### 연산자
+
+Case When 함수 내에 있는 If 또는 Else If 구문의 연산자는 와 기준의 대 조합입니다. **1** 값. 기준에 대한 모든 추가 값은 연산자 수에 추가됩니다.
+
+예를 들어 아래 조건은 13개의 연산자를 사용합니다.
+
+![샘플 연산자](assets/operators-sample.png)
+
 
 ## 추가 정보
 
