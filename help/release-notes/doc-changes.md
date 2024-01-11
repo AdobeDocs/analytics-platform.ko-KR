@@ -4,16 +4,26 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 90%
+source-wordcount: '2781'
+ht-degree: 89%
 
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
 
 Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데이트되었습니다.
+
+## 2024
+
+| 기능 | 설명 |
+| --- | --- |
+| **2024년 1월** | |
+| 파생 필드 | 함수 요약이 추가되었습니다. [제한 사항](/help/data-views/derived-fields/derived-fields.md#limitations) 및 숫자를 결정하는 방법에 대한 설명 [연산자](/help/data-views/derived-fields/derived-fields.md#operators) 함수에 사용됩니다. |
+
+{style="table-layout:auto"}
+
 
 ## 2023
 
@@ -94,6 +104,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 랜딩 페이지 | 새로운 랜딩 페이지에서 [랜딩 페이지](/help/getting-started/landing.md)가 업데이트됩니다. |
 | 통합 문서 예약 | Report Builder에서 [통합 문서를 예약](/help/report-builder/schedule-reportbuilder.md)하는 방법에 대해 설명하는 전용 페이지입니다. |
 | 프로필 및 조회 데이터 세트에 대한 오브젝트 배열 지원 | [오브젝트 배열 사용](/help/use-cases/object-arrays.md) 및 [Adobe Experience Platform 대상자 수집](/help/use-cases/data-ingestion/ingest-aep-segments.md) 기능 업데이트로 프로필 및 조회 데이터 세트에 오브젝트 배열 지원이 반영되었습니다. |
+
+{style="table-layout:auto"}
 
 ## 2022
 
