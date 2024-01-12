@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 05bd88ea215d0b41c58221b42581a8fd09a019b3
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 81%
+source-wordcount: '969'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 
 ## 제품 관리자 역할
 
-제품 관리자는 Customer Journey Analytics 내에서 필요한 모든 작업을 완료할 수 있는 권한이 있습니다. [!UICONTROL Customer Journey Analytics] > [!UICONTROL 관리자] 탭 > [!UICONTROL 관리자 추가]의 [Admin Console](https://adminconsole.adobe.com/enterprise/)에서 **Customer Journey Analytics 제품 프로필**&#x200B;에 제품 관리자로 추가되어 있어야 합니다. 제품 관리자에게는 다음 권한이 부여됩니다.
+제품 관리자는 Customer Journey Analytics 내에서 필요한 모든 작업을 완료할 수 있는 권한이 있습니다. 에 제품 관리자로 추가되어 있어야 합니다. **Customer Journey Analytics 제품 프로필** 다음에서 [Admin Console](https://adminconsole.adobe.com/enterprise/) 아래에 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 관리자] 탭 > [!UICONTROL 관리자 추가]. 제품 관리자에게는 다음 권한이 부여됩니다.
 
 * 연결 또는 데이터 보기 만들기/업데이트/삭제
 * 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트/삭제
@@ -93,7 +93,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 감사 로그 액세스]** | 이 권한은 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | **[!UICONTROL 보고 사용 관리자]** | 사용자가 회사에서 실행 중인 보고서를 열람하고 삭제할 수 있습니다. |
 | **[!UICONTROL 보고 사용 보기]** | 사용자가 모든 동시 보고 요청을 볼 수 있습니다. |
-| [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). <p>Adobe Experience Platform에서 Customer Journey Analytics 사용자를 위한 대상 액세스 권한을 추가하는 방법에 대한 자세한 내용은 [대상 및 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls) 위치: [대상 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)</p> |
 | **[!UICONTROL 계산된 지표 만들기]** | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL 필터 만들기]** | 사용자가 [필터](/help/components/filters/filters-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL Labs 액세스]** | 사용자가 다음 항목에 액세스할 수 있습니다. [Lab](/help/labs/labs.md) Customer Journey Analytics의 탭 |
