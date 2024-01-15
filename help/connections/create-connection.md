@@ -1,18 +1,18 @@
 ---
-title: 연결 만들기
-description: 플랫폼 데이터 세트에 연결하는 방법이 Customer Journey Analytics에 설명되어 있습니다.
+title: 연결 만들기 또는 편집
+description: Customer Journey Analytics에서 Experience Platform 데이터 세트에 대한 연결을 만들거나 편집하는 방법을 설명합니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '2741'
-ht-degree: 100%
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+workflow-type: tm+mt
+source-wordcount: '2748'
+ht-degree: 99%
 
 ---
 
-# 연결 만들기
+# 연결 만들기 또는 편집
 
 연결 생성 및 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보와 함께 상세한 데이터 세트 선택, 구성 및 검토 경험을 제공합니다. 다음은 기능에 대한 개요입니다.
 

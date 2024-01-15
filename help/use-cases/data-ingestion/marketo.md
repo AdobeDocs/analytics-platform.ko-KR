@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 60%
+source-wordcount: '393'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 
 
 ## 3단계: Customer Journey Analytics에서 이 데이터 세트에 대한 연결 설정
 
-Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=kr)에 대해 자세히 알아보십시오.
+Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. 자세한 내용은 을 참조하십시오 [연결 만들기 또는 편집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=kr).
 
 ## 4단계: 하나 이상의 데이터 보기 만들기
 

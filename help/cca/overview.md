@@ -5,10 +5,10 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
    * 샌드박스 이름
 1. Adobe 고객 지원 센터에서 요청을 접수하면 Adobe 엔지니어링과 함께 작업하여 크로스 채널 Analytics를 활성화하게 됩니다. 활성화된 후에는 새 개인 ID 열이 포함된 새로운 키 데이터 세트가 Adobe Experience Platform에 나타납니다. Adobe 고객 지원 센터는 새로운 데이터 세트 ID와 개인 ID 열 이름을 제공할 수 있습니다.
 1. 처음 켜면 Adobe는 이전 달 초(최대 60일)까지 거슬러 올라가는 스티치 데이터의 백필을 제공합니다. 이 백필을 수행하려면 임시 ID가 그 이전 시점으로 되돌아가 있는 분해된 데이터에 존재해야 합니다.
-1. 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하여 Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/create-connection.md). 각 데이터 세트에 올바른 개인 ID를 선택합니다.
+1. [연결 만들기 또는 편집](/help/connections/create-connection.md) 새로 생성된 데이터 세트 및 포함하려는 기타 데이터 세트를 사용하는 Customer Journey Analytics에서. 각 데이터 세트에 올바른 개인 ID를 선택합니다.
 1. 연결을 기반으로 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
