@@ -4,10 +4,10 @@ description: Adobe Experience Platform에 정의된 데이터 레이블 및 정�
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '498'
-ht-degree: 100%
+source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 ## 활성화된 정책이 데이터 보기에 미치는 영향
 
-**[!UICONTROL 분석 시행]** 또는 **[!UICONTROL 다운로드 시행]** 정책이 활성화되면 특정 데이터 레이블(예: C8 또는 C12)이 관련된 스키마 구성 요소를 데이터 보기에 추가할 수 없습니다.
+다음과 같은 경우 **[!UICONTROL 분석 시행]** 정책이 켜지면 특정 데이터 레이블(예: C8)이 연결된 스키마 구성 요소를 데이터 보기에 추가할 수 없습니다.
 
 이러한 구성 요소는 왼쪽 레일 [!UICONTROL 스키마 필드] 목록에서 회색으로 표시됩니다.
 
