@@ -3,8 +3,8 @@ title: Customer Journey Analytics 대상 게시 개요에 대해 알아보기
 description: Customer Journey Analytics의 대상자 게시 개념에 대해 알아보기
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+role: User, Admin
+source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 50%
