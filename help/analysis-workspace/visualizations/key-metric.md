@@ -4,7 +4,7 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 24c2ab4a49b87b11046317a40882dde72a2a49c1
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 85%
@@ -37,7 +37,7 @@ ht-degree: 85%
 
 1. 지표, 기본 날짜 범위, 비교 날짜 범위 및 필터(원하는 경우)를 선택하여 시각화를 구성합니다.
 
-   ![지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트 옵션을 보여 주는 주요 지표 구성입니다.](assets/key-metric-config.png)
+   ![지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트에 대한 옵션을 보여 주는 주요 지표 구성입니다.](assets/key-metric-config.png)
 
    | 구성 설정 | 정의 |
    | --- | --- |

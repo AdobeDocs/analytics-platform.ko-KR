@@ -3,40 +3,43 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a5710e2d978661837016db5ed1bab5a53fb2d63e
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 3ed1c411781295d7137b52dea60cd2bf74a9824f
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 29%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2023년 10월/11월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 1월)
 
+**마지막 업데이트**: 2024년 1월 12일 토요일
 
-**마지막 업데이트**: 2023년 10월 26일
-
-이번 릴리스 정보에는 2023년 10월 16일부터 2023년 11월 말일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 노트는 2023년 10월 말부터 2024년 1월까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Product Analytics의 [!UICONTROL 사용량] 보기에 새로 추가된 기능** | [사용량 보기](/help/guided-analysis/types/usage.md)에 다음과 같은 기능이 추가되었습니다.<ul><li>**추세선**: 이제 추세선이 지원됩니다. 차트 위의 [!UICONTROL 오버레이]를 클릭하여 이를 활성화할 수 있습니다.</li><li>**쿼리 분류**: 이제 이 보기 유형에 분류를 적용할 수 있습니다. 쿼리 레일에서 옵션으로 사용할 수 있습니다.</li></ul> | 해당 사항 없음 | 2023년 10월 25일 |
-| **CJA 데이터 보기 API에 대한 설명서** | 프로그래밍 방식으로 데이터 보기를 생성, 수정 또는 삭제하는 방법을 알아보려면 [데이터 보기 API](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/)를 참조하십시오. | 해당 사항 없음 | 2023년 10월 16일 |
-| **클라우드로 전체 테이블 내보내기** | Customer Journey Analytics 전체 테이블 내보내기를 사용하면 수백만 개의 Workspace 행을 클라우드 대상으로 내보낼 수 있습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p> 클라우드 내보내기 옵션에는 다음과 같은 사항이 포함됩니다.</p><ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. | 2023년 10월 4일 | 2023년 10월 19일 |
-| **보고 활동 관리자** | 보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. 보고 활동 관리자의 주요 기능은 다음과 같습니다.<ul><li>현재 보고 요청 취소 (안내식 분석 및 전체 테이블 내보내기 요청 포함)</li><li>정의된 기간 동안 후속 요청 제한</li></ul>현재 요청을 취소하는 것 외에도 관리자는 이제 정의된 기간 동안 요청을 제한할 수 있습니다. 관리자는 요청, 프로젝트 또는 사용자별로 요청을 제한할 수 있습니다. [자세히 알아보기](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023년 10월 17일 | 2023년 10월 24일 |
+| **가이드 분석 - 유지율** | 원하는 날짜 범위 내에서 초기 참여 후 돌아오는 사용자의 비율을 표시하는 새 보기 유형입니다. [자세히 알아보기](../guided-analysis/types/retention-rates.md) | 해당 사항 없음 | 2024년 1월 8일 화요일 |
+| **시계열 예측** | 예측 은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 해당 사항 없음 | 2024년 1월 17일 목요일 |
+| **안내식 분석 - 추세선** | 이제 트렌드 오버레이를 다음에서 사용할 수 있습니다 [사용](/help/guided-analysis/types/usage.md) 보기 - 데이터에서 더 명확한 패턴을 묘사하는 데 도움이 됩니다. | 해당 사항 없음 | 2024년 1월 17일 목요일 |
+| **조회 및 프로필 데이터 세트에 대한 행 수 지표** | 이 릴리스까지는 이벤트 데이터 세트에 대해서만 행 수 지표를 사용할 수 있었습니다. 이제 조회 및 프로필 데이터 세트에도 행 수 지표를 사용할 수 있습니다. | 해당 사항 없음 | 2024년 1월 17일 목요일 |
+| **연결 세부 정보 페이지 - 생략된 레코드** | 이제 연결 정의의 일부로 레코드가 생략되는 이유를 검사할 수 있습니다. [자세히 알아보기](../connections/manage-connections.md) | 해당 사항 없음 | 2024년 1월 17일 목요일 |
+| **주요 지표 요약 시각화 업데이트** | 주요 지표 요약 시각화를 사용할 때 이제 선택한 비교 날짜 범위 옵션이 기본 날짜 범위에 상대적인지 아니면 고정적인지에 따라 비교 날짜 범위를 자동으로 업데이트할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md) | 해당 사항 없음 | 2024년 1월 17일 목요일 |
+| **안내식 분석 - 스트림** | 개별 사용자 이벤트 스트림을 탐색할 수 있는 새 보기 유형입니다. 이 분석을 통해 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. | 해당 사항 없음 | 2024년 1월 31일 목요일 |
+| **안내식 분석 - 쿼리 레일 개선 사항** | 이제 일부 구성 요소 설정이 쿼리 레일에 포함되어 유용성이 개선되었습니다. | 해당 사항 없음 | 2024년 1월 31일 목요일 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-327661, AN-329282, AN-329383, AN-329808, AN-331030, AN-331087, AN-331105
+AN-310972; AN-332774; AN-332793; AN-332796; AN-333157; AN-334067; AN-334134; AN-334968; AN-335315; AN-335518; AN-335533; AN-335736;
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 |
+| Adobe API 개체 멤버 추가 | 2024년 1월 17일 목요일 | Adobe은 버전 관리를 예고하거나 변경하지 않고 선택적 요청 및 응답 멤버(이름/값 쌍)를 기존 API 객체에 추가할 수 있습니다. 이러한 추가 사항은 구현에 대한 끊김 없는 변경 사항이어야 합니다. Adobe은 API와 통합하는 모든 서드파티 도구의 API 설명서를 참조하여 이해할 수 없는 경우 처리 시 이러한 추가 사항이 무시되도록 할 것을 권장합니다. Adobe은 먼저 릴리스 정보를 통해 표준 알림을 제공하지 않으면 매개 변수를 제거하거나 필수 매개 변수를 추가하지 않습니다. |
 
 {style="table-layout:auto"}
 
