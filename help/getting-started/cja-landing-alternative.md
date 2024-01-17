@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 214616922aa157c390265f76138f8836c80b72d5
+source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '446'
 ht-degree: 13%
 
 ---
@@ -23,13 +23,13 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 >[!TAB 작업 영역: 시계열 예측]
 
-예측 은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다.
+예측 은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
 
 >[!TAB 연결: 생략된 레코드]
 
-이제 연결 정의의 일부로 레코드가 생략되는 이유를 검사할 수 있습니다. 자세한 내용은 연결 관리 를 참조하십시오.
+이제 연결을 정의할 때 이벤트 데이터 세트의 레코드를 건너뛰는 이유를 검사할 수 있습니다. 빈 방문자 ID, 데이터 보존 등 레코드를 건너뛴 이유에 대한 세부 정보를 가져올 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
 
