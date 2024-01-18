@@ -1,14 +1,14 @@
 ---
 title: 연결 만들기 또는 편집
-description: Customer Journey Analytics에서 Experience Platform 데이터 세트에 대한 연결을 만들거나 편집하는 방법을 설명합니다.
+description: Customer Journey Analytics에서 Experience Platform 데이터 세트로의 연결을 만들거나 편집하는 방법을 설명합니다.
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2748'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
