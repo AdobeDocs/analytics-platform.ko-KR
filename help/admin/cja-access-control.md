@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
+source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 61%
+source-wordcount: '1167'
+ht-degree: 58%
 
 ---
 
@@ -122,6 +122,9 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 데이터 보기]** | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
 | **[!UICONTROL 보고 도구]**: |   |
 | **[!UICONTROL 감사 로그 액세스]** | 이 권한은 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
+| **[!UICONTROL Analysis Workspace 액세스]** | 사용자가 Customer Journey Analytics에서 Analysis Workspace에 액세스할 수 있습니다. |
+| [!UICONTROL **분석 액세스 가이드**] | 사용자가 만들 수 있음 [안내식 분석 프로젝트](/help/guided-analysis/overview.md). |
+| [!UICONTROL **예측**] | 사용자가 Analysis Workspace의 예측 기능에 액세스할 수 있습니다. |
 | **[!UICONTROL 보고 사용 관리자]** | 사용자가 회사에서 실행 중인 보고서를 열람하고 삭제할 수 있습니다. |
 | **[!UICONTROL 보고 사용 보기]** | 사용자가 모든 동시 보고 요청을 볼 수 있습니다. |
 | [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
@@ -131,5 +134,9 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 주석 작성]** | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있습니다. |
 | **[!UICONTROL 대상자 생성]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL 대상자 보기]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있습니다. |
+| [!UICONTROL **모든 사람과 프로젝트 링크 공유**] | 사용자 허용 [모든 사람과 프로젝트를 공유합니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=ko#share-public-link) |
+| **[!UICONTROL 데이터 보기 도구]**: |   |
+| [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **SQL 쿼리 서비스 액세스**] | 사용자가 액세스할 수 있도록 허용 [AEP의 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html). |
 
 {style="table-layout:auto"}
