@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b41cc80310c49bd1b0c73f1323f86c8b280e15f
+source-git-commit: 852dbce716e151d5feee52e813c9db9d76d9ccea
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2485'
 ht-degree: 27%
 
 ---
@@ -118,17 +118,11 @@ ht-degree: 27%
 
 ![위젯 및 설정을 표시하는 모든 데이터 세트 창](assets/conn-details.png)
 
-연결 세부 정보 화면에서는 연결 상태를 자세히 볼 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+연결 세부 정보 인터페이스는 연결 상태에 대한 세부 보기를 제공합니다. 다음과 같은 작업을 수행할 수 있습니다.
 
 * 이를 통해 연결의 데이터 세트 상태 및 수집 프로세스 상태를 점검할 수 있습니다.
 * 레코드를 건너뛰거나 삭제할 수 있는 구성 문제를 식별합니다.
 * 데이터를 보고에 사용할 수 있게 되는 시기를 알 수 있습니다.
-
->[!IMPORTANT]
->
->2021년 8월 13일 이전에 수집된 데이터는 여기에 반영되지 않습니다 [!UICONTROL 연결] 대화 상자.
-
-### 연결 세부 정보
 
 | 사용자 인터페이스 | 설명 |
 | --- | --- |
@@ -154,6 +148,10 @@ ht-degree: 27%
 | 스키마 | 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
 | [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**데이터 세트가 새 데이터를 가져오도록 구성된 경우<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 데이터 세트가 새 데이터 가져오기를 가져오지 않도록 구성된 경우. |
 | [!UICONTROL 채우기 데이터] | 데이터 집합에 대한 데이터 채우기 상태를 표시합니다.<p><span style="color:red">●</span>   **[!UICONTROL _x _다시 채우기 실패]**실패한 다시 채우기 횟수의 경우<p><span style="color:orange">●</span>   **[!UICONTROL _x _다시 채우기 처리 중]**다시 채우기 처리 횟수의 경우<p><span style="color:green">●</span>   **[!UICONTROL _x _다시 채우기 완료됨]**완료된 다시 채우기 횟수<p><span style="color:grey">●</span>   **[!UICONTROL _끔_]** 백필이 구성되지 않은 경우 |
+
+>[!IMPORTANT]
+>
+>2021년 8월 13일 이전에 수집된 데이터는 [!UICONTROL 연결] 인터페이스.
 
 ### 연결 패널
 
