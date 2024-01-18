@@ -5,9 +5,9 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1733'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 3%
 
 ## 클라우드 내보내기 계정 만들기 시작
 
+1. 다음을 충족하는지 확인합니다. [최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) 클라우드로 보고서 내보내기.
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 1. 다음에서 [!UICONTROL 내보내기] 페이지에서 [!UICONTROL **위치 계정**] 탭.
 1. 선택 [!UICONTROL **계정 추가**].
