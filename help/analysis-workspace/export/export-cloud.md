@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합
    | 전환 확인 기간 | 각 내보내기 파일에 포함할 보고 기간을 선택합니다. 옵션은 다음과 같습니다 [!UICONTROL **오늘**], [!UICONTROL **어제**], [!UICONTROL **지난 7일**], [!UICONTROL **지난 30일**], [!UICONTROL **이번 주**], 및 [!UICONTROL **이번 달**]. <p>이 옵션은 다음과 같은 경우에는 표시되지 않습니다. [!UICONTROL **내보내기 빈도**] 이(가) (으)로 설정됨 [!UICONTROL **지금 보내기(1회)**]. |
    | 데이터 테이블 | 내보내는 자유 형식 테이블을 표시합니다. 왼쪽 레일에서 테이블로 구성 요소를 끌어 데이터 테이블을 수정할 수 있습니다. 캔버스에 구성 요소를 추가하면 테이블이 동적으로 업데이트됩니다.  <p>프로젝트의 전체 테이블에 적용된 모든 세그먼트는 테이블의 각 개별 열 맨 위에 나타납니다.</p> |
    | 지우기 | 데이터 테이블의 내용을 지웁니다. 이렇게 하면 새 전체 테이블 내보내기 대화 상자 내에서 직접 새 테이블 빌드를 시작할 수 있습니다. |
-   | 내보내기 빈도 | 내보내기가 발생하는 빈도에 대한 일정을 설정합니다. <p>다음을 선택할 수 있습니다. [!UICONTROL **지금 보내기(한 번)**] 내보내기를 한 번만 보냅니다. 이 옵션을 선택하면 내보내기가 즉시 시작됩니다.<p>또는 정의된 일정에 따라 내보내기를 전송하도록 선택할 수 있습니다. 일정에 따라 보낼 때 옵션은 다음과 같습니다 [!UICONTROL **매일**], [!UICONTROL **매주**], [!UICONTROL **요일별 월간**], [!UICONTROL **매월(날짜 기준)**], [!UICONTROL **연간 날짜(월 기준)**], 및 [!UICONTROL **특정 날짜별 연간**]. </p><p>내보내기 빈도를 선택할 때는 다음 사항을 고려하십시오.</p><ul><li>의 옵션 [!UICONTROL **전환 확인 기간**] 여기서 선택한 항목에 따라 필드가 변경됩니다.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>선택한 옵션에 따라 추가 구성 필드가 표시됩니다.</li></ul> |
+   | 내보내기 빈도 | 내보내기가 발생하는 빈도에 대한 일정을 설정합니다. <p>다음을 선택할 수 있습니다. [!UICONTROL **지금 보내기(1회)**] 내보내기를 한 번만 보냅니다. 이 옵션을 선택하면 내보내기가 즉시 시작됩니다.<p>또는 정의된 일정에 따라 내보내기를 전송하도록 선택할 수 있습니다. 일정에 따라 보낼 때 옵션은 다음과 같습니다 [!UICONTROL **매일**], [!UICONTROL **매주**], [!UICONTROL **요일별 월간**], [!UICONTROL **매월(날짜 기준)**], [!UICONTROL **연간 날짜(월 기준)**], 및 [!UICONTROL **특정 날짜별 연간**]. </p><p>내보내기 빈도를 선택할 때는 다음 사항을 고려하십시오.</p><ul><li>의 옵션 [!UICONTROL **전환 확인 기간**] 여기서 선택한 항목에 따라 필드가 변경됩니다.<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>선택한 옵션에 따라 추가 구성 필드가 표시됩니다.</li></ul> |
    | 시작 날짜 | 예약된 내보내기가 시작되는 날짜 및 시간입니다. <p>이 옵션은 예약된 내보내기 빈도를 선택하는 경우에만 사용할 수 있습니다.</p> |
    | 종료 일자 | 예약된 내보내기가 만료되는 날짜 및 시간입니다. 예약된 내보내기는 설정한 날짜 및 시간 이후에 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택하는 경우에만 사용할 수 있습니다.</p> |
    | 파일 형식 | 내보낸 데이터가 .csv 형식이어야 하는지 .json 형식이어야 하는지 선택합니다. |
@@ -130,7 +130,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 * 연결된 값으로 데이터 출력을 구조화합니다.
 
-* 애드혹 또는 일정에 따라 내보냅니다. (또한 [기타 내보내기 옵션](/help/analysis-workspace/export/export-project-overview.md).)
+* 한 번 또는 일정에 따라 내보냅니다. (또한 [기타 내보내기 옵션](/help/analysis-workspace/export/export-project-overview.md).)
 
 * CSV 또는 JSON 형식으로 파일을 내보냅니다. (또한 [기타 내보내기 옵션](/help/analysis-workspace/export/export-project-overview.md).)
 
@@ -215,7 +215,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 | 지표 | 5 제한 | 제한 없음 |
 | 행 보고 | 계층에 따라 300만, 3000만, 1억 5000만 또는 3억 제한 | 제한 없음 |
 | 보고서 수 | 제한 없음 | 제한 없음 |
-| 애드혹 게재 | 예 | 예 |
+| 애드혹(일회성) 게재 | 예 | 예 |
 | 반복 게재 예약 | 예 | 예 |
 | 이메일 게재 | 아니요 | 예 |
 | FTP / SFTP | 아니요 | 레거시 지원 |

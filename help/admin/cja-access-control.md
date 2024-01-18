@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
+source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 78%
+source-wordcount: '1047'
+ht-degree: 63%
 
 ---
 
@@ -21,21 +21,48 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 
 ## 제품 관리자 역할
 
-제품 관리자는 Customer Journey Analytics 내에서 필요한 모든 작업을 완료할 수 있는 권한이 있습니다. 에 제품 관리자로 추가되어 있어야 합니다. **Customer Journey Analytics 제품 프로필** 다음에서 [Admin Console](https://adminconsole.adobe.com/enterprise/) 아래에 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 관리자] 탭 > [!UICONTROL 관리자 추가]. 제품 관리자에게는 다음 권한이 부여됩니다.
+제품 관리자 역할이 할당된 사용자에게는 기본적으로 Customer Journey Analytics 내에서 대부분의 작업을 수행하는 데 필요한 권한이 제공됩니다. 그러나 일부 작업에는 추가 권한이 필요합니다.
 
-* 연결 또는 데이터 보기 만들기/업데이트/삭제
-* 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트/삭제
+사용자를 제품 관리자로 추가하려면:
+
+1. 로 이동 [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+1. 선택 [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **관리자**] 탭 > [!UICONTROL **관리자 추가**].
+
+   추가한 사용자에게는 [제품 관리자 기본 권한](#product-admin-default-permissions). 부여도 가능합니다 [추가 권한](#product-admin-additional-permissions) 필요한 경우.
+
+### 제품 관리자 기본 권한
+
+제품 관리자는 Customer Journey Analytics 내에서 대부분의 작업을 완료할 수 있는 권한이 있습니다.
+
+제품 관리자에게는 기본적으로 다음 작업을 수행하는 데 필요한 권한이 부여됩니다.
+
+* 데이터 보기 만들기, 업데이트 및 삭제
+* 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트 및 삭제
 * 모든 사용자에게 작업 영역 프로젝트 공유
 * 에서 보고 활동 관리 [활동 관리자 보고](/help/reporting-activity-manager/reporting-activity-overview.md)
 
-Customer Journey Analytics에서 제품 관리자가 되는 것만으로는 [연결](/help/connections/overview.md)을 생성, 업데이트 또는 삭제할 수 없습니다. Experience Platform 데이터 세트에 대한 연결을 만들려면 Experience Platform 권한도 필요합니다. 특히 다음 권한을 부여하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
+### 제품 관리자 추가 권한
 
-* 데이터 모델링: 스키마 보기, 스키마 관리
-* 데이터 관리: 데이터 세트 보기, 데이터 세트 관리
-* 데이터 수집: 소스 관리
-* ID 네임스페이스 보기
+에서 제품 관리자로 추가되는 것 외에도 **Customer Journey Analytics 제품 프로필** 다음에서 [Admin Console](https://adminconsole.adobe.com/enterprise/), Customer Journey Analytics 내에서 다음 작업을 완료하려면 추가 권한이 필요합니다.
 
-Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko-KR)를 참조하십시오.
+* 데이터 만들기, 업데이트 및 삭제 [연결](/help/connections/overview.md)
+
+  이 작업을 수행하려면 사용자가 **Experience Platform 제품 프로필** 는 다음 권한을 제공합니다.
+   * 데이터 모델링: 스키마 보기, 스키마 관리
+   * 데이터 관리: 데이터 세트 보기, 데이터 세트 관리
+   * 데이터 수집: 소스 관리
+   * ID 네임스페이스 보기
+
+     Experience Platform 권한에 대한 자세한 내용은 [Adobe Experience Platform의 액세스 제어](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko-KR)를 참조하십시오.
+
+* AEP 대상에서 데이터 세트 내보내기
+
+  이 작업을 수행하려면 사용자에게 다음 Experience Platform 권한도 필요합니다.
+   * 대상 관리
+   * 대상 활성화
+
+     Experience Platform 대상 권한에 대한 자세한 내용은 [대상 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko).
 
 ## 제품 프로필 관리자 역할
 
