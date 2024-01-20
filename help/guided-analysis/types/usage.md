@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
    * [!UICONTROL 로그]: 곡선 회귀선을 만듭니다. 빠르게 증가 또는 감소하다가 더 수준이 되는 데이터에 가장 적합합니다. 수식: `y = a + b * log(x)`
    * [!UICONTROL 이동 평균]: 평균 세트를 기반으로 부드러운 추세선을 만듭니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 이전 데이터 포인트 (선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. 예를 들어 7일 이동 평균 또는 4주 이동 평균이 있습니다. 사용 가능한 이동 평균 옵션은 선택한 간격 및 날짜 범위에 따라 다릅니다.
 
-## 시간 비교 적용
+## 시간 비교
 
 {{apply-time-comparison}}
 

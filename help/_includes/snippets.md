@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 # 스니펫
@@ -43,7 +43,7 @@ ht-degree: 67%
    | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **중복 항목 표시**] | 선택한 데이터 보기에서 다른 구성 요소와 이름 또는 설명이 동일한 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 중복 항목으로 표시하려면 이름이나 설명이 정확히 일치해야 합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **Adobe 제작**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
+   | [!UICONTROL **제작자: Adobe**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 
    {style="table-layout:auto"}
 
@@ -74,7 +74,7 @@ ht-degree: 67%
 
 {style="table-layout:auto"}
 
-## 시간 비교 적용 {#apply-time-comparison}
+## 시간 비교 {#apply-time-comparison}
 
 현재 기간을 이전 기간과 비교할 수 있습니다. 이 메뉴에서 옵션을 선택하면 모든 데이터 포인트에 유사한 색상의 점선 상대가 표시됩니다. 이 대응 항목은 선택한 이전 날짜 범위에서 동일한 지표를 나타냅니다. 이 옵션을 설정하면 차트와 테이블의 행 수가 두 배가 됩니다.
 

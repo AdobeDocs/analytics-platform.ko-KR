@@ -5,10 +5,10 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 2%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,15 @@ ht-degree: 2%
 
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
+* **[!UICONTROL 보기]**: 이 보기 유형과 [사용](usage.md).
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 선택한 각 이벤트는 별도의 그래프로 표시됩니다. 트렌드 이벤트를 나타내는 행이 표에 추가됩니다. 최대 5개의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 사람]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트의 막대 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
+* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자],  [!UICONTROL 세션],  [!UICONTROL 사용자 비율] 및  [!UICONTROL 세션의 백분율]. 이 보기의 백분율 기반 지표에 대한 분모는 제품의 모든 활성 사용자가 아니라 선택한 이벤트를 수행한 사용자 또는 세션입니다.
+* **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트의 막대 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정
 
 다음 [!UICONTROL 빈도] 보기 는 차트 위의 메뉴에서 조정할 수 있는 다음 차트 설정을 제공합니다.
 
-* **[!UICONTROL 지표]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자],  [!UICONTROL 세션],  [!UICONTROL 사용자 비율] 및  [!UICONTROL 세션의 백분율]. 이 보기의 백분율 기반 지표에 대한 분모는 제품의 모든 활성 사용자가 아니라 선택한 이벤트를 수행한 사용자 또는 세션입니다.
 * **[!UICONTROL 차트 유형]**: 사용하려는 시각화 유형입니다. 옵션은 다음과 같습니다 [!UICONTROL 가로 막대] 및 [!UICONTROL 누적 막대].
 
 ## 버킷 설정
@@ -51,7 +52,7 @@ ht-degree: 2%
    * [!UICONTROL 종료]: 이 값보다 큰 빈도는 마지막 버킷으로 그룹화됩니다.
    * [!UICONTROL 크기]: 버킷 간격.
 
-## 시간 비교 적용
+## 시간 비교
 
 {{apply-time-comparison}}
 
