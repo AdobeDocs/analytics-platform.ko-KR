@@ -5,15 +5,15 @@ exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
 source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 레이블 및 정책
 
-Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 일부 또는 모든 요소에 대한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko)을 생성할 수 있습니다. Customer Journey Analytics에서 이러한 레이블과 정책을 볼 수 있습니다.
+Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 일부 또는 모든 요소에 대한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko-KR)을 생성할 수 있습니다. Customer Journey Analytics에서 이러한 레이블과 정책을 볼 수 있습니다.
 
 다음 레이블은 Customer Journey Analytics에서 특히 중요합니다.
 
@@ -25,7 +25,7 @@ Experience Platform에서 데이터 세트를 생성할 때 데이터 세트의 
 >
 >데이터 사용 레이블은 결합된 데이터 세트에 자동으로 전파되지 않습니다. 그러나 수동으로 추가할 수는 있습니다.
 
-레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이를 위해 정책이 사용됩니다. [Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko)를 사용하거나 Experience Platform의 [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko)를 통해 정책을 만듭니다.
+레이블 지정 자체가 이러한 데이터 사용 레이블이 시행됨을 의미하지는 않습니다. 이를 위해 정책이 사용됩니다. [Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko-KR)를 사용하거나 Experience Platform의 [Policy Service API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=ko-KR)를 통해 정책을 만듭니다.
 
 Customer Journey Analytics에는 보고 및 다운로드/공유에 영향을 미치는 Adobe에서 정의한 두 가지 정책이 있습니다.
 
@@ -64,7 +64,7 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 
 ## 활성화된 정책이 데이터 보기에 미치는 영향
 
-다음과 같은 경우 **[!UICONTROL 분석 시행]** 정책이 켜지면 특정 데이터 레이블(예: C8)이 연결된 스키마 구성 요소를 데이터 보기에 추가할 수 없습니다.
+**[!UICONTROL 분석 시행]** 정책을 실행하면 특정 데이터 레이블(예: C8)이 연결된 스키마 구성 요소를 데이터 보기에 추가할 수 없습니다.
 
 이러한 구성 요소는 왼쪽 레일 [!UICONTROL 스키마 필드] 목록에서 회색으로 표시됩니다.
 
@@ -76,6 +76,6 @@ Experience Platform에서 생성된 데이터 레이블은 데이터 보기 사�
 >[중요한 데이터 다운로드](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[Report Builder의 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=ko)
+>[Report Builder의 제한된 레이블은 무엇입니까?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=ko-KR)
 
 
