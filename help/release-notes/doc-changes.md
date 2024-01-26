@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
+source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
 workflow-type: tm+mt
-source-wordcount: '2809'
-ht-degree: 88%
+source-wordcount: '2879'
+ht-degree: 86%
 
 ---
 
@@ -20,6 +20,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
+| Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
+| 특정 정보는 관리자만 사용할 수 있음을 명확히 했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/admin/cja-access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |
 | 연결 관리 | 을(를) 업데이트함 [연결 관리](../connections/manage-connections.md) 고객 피드백을 기반으로 한 문서입니다. |
 | 파생 필드 | 함수 요약이 추가되었습니다. [제한 사항](/help/data-views/derived-fields/derived-fields.md#limitations) 및 숫자를 결정하는 방법에 대한 설명 [연산자](/help/data-views/derived-fields/derived-fields.md#operators) 함수에 사용됩니다. |

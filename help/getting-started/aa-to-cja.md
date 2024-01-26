@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '1394'
-ht-degree: 100%
+source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+workflow-type: tm+mt
+source-wordcount: '1462'
+ht-degree: 95%
 
 ---
 
@@ -81,6 +81,12 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 * 봇 필터링
 * 스트리밍 미디어 측정
 * 라이브스트림 또는 라이브스트림 트리거
+
+### 5. Adobe Analytics의 프로젝트 및 구성 요소를 Customer Journey Analytics에 매핑
+
+프로젝트 및 관련 구성 요소를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션합니다.
+
+조직의 누군가가 프로젝트 마이그레이션을 시작하기 전에에 설명된 대로 마이그레이션 프로젝트를 시작합니다. [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html), 첫 번째 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)
 
 ## 중요한 차이점에 대비
 
