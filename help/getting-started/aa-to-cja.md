@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 95%
+source-wordcount: '1495'
+ht-degree: 93%
 
 ---
 
@@ -84,9 +84,17 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 
 ### 5. Adobe Analytics의 프로젝트 및 구성 요소를 Customer Journey Analytics에 매핑
 
-프로젝트 및 관련 구성 요소를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션합니다.
+Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
 
-조직의 누군가가 프로젝트 마이그레이션을 시작하기 전에에 설명된 대로 마이그레이션 프로젝트를 시작합니다. [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html), 첫 번째 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)
+마이그레이션 프로세스에는 다음이 포함됩니다.
+
+* Customer Journey Analytics에서 Adobe Analytics 프로젝트 다시 만들기
+
+* Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.
+
+마이그레이션을 시작하기 전에 먼저 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
+
+필요한 모든 준비를 마치면 다음을 수행할 수 있습니다. [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html).
 
 ## 중요한 차이점에 대비
 
