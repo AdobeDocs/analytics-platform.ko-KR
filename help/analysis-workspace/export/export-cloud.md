@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2182'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,8 @@ Analysis Workspace에서 전체 테이블을 내보내려면 다음을 수행합
    | 시작 날짜 | 예약된 내보내기가 시작되는 날짜 및 시간입니다. <p>이 옵션은 예약된 내보내기 빈도를 선택하는 경우에만 사용할 수 있습니다.</p> |
    | 종료 일자 | 예약된 내보내기가 만료되는 날짜 및 시간입니다. 예약된 내보내기는 설정한 날짜 및 시간 이후에 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택하는 경우에만 사용할 수 있습니다.</p> |
    | 파일 형식 | 내보낸 데이터가 .csv 형식이어야 하는지 .json 형식이어야 하는지 선택합니다. |
-   | 계정 | 데이터를 전송할 클라우드 내보내기 계정을 선택합니다. <p>자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md).</p> |
-   | 위치 이름 | 계정에서 내보내기 데이터를 보낼 위치를 선택합니다. <p>자세한 내용은 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).</p><p>다음을 선택할 수 있습니다. [!UICONTROL **새 위치 추가**] 단추를 클릭하여 기존 내보내기 계정에 대한 새 위치를 만듭니다. |
+   | 계정 | 데이터를 전송할 클라우드 내보내기 계정을 선택합니다. <p>또는 사용할 클라우드 계정을 아직 구성하지 않은 경우 새 계정을 구성할 수 있습니다.<ol><li>선택 [!UICONTROL **계정 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.<ul><li>[!UICONTROL **위치 계정 이름**]: 위치 계정의 이름을 지정합니다. 이 이름은 위치를 만들 때 나타납니다 </li><li>[!UICONTROL **위치 계정 설명**]: 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 제공합니다.</li><li>[!UICONTROL **계정 유형**]: 내보내는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 역할 ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake 및 AEP 데이터 랜딩 영역입니다.</li></ul><li>계정 구성을 완료하려면 다음에 해당하는 아래 링크를 사용하여 계속하십시오. [!UICONTROL **계정 유형**] 다음을 선택했습니다.<ul><li>[AEP 데이터 랜딩 영역](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 역할 ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google 클라우드 플랫폼](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 위치 이름 | 계정에서 내보내기 데이터를 보낼 위치를 선택합니다.<p>또는 선택한 계정에서 사용할 위치를 아직 구성하지 않은 경우 새 위치를 구성할 수 있습니다.<ol><li>선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다. <ul><li>[!UICONTROL **이름**]: 위치의 이름입니다.</li><li>[!UICONTROL **설명**]: 계정의 다른 위치와 구분하는 데 도움이 되도록 위치에 대한 간단한 설명을 제공합니다.</li><li>[!UICONTROL **위치 계정**]: 위치를 만들 계정을 선택합니다.</li></ul><li>위치 구성을 완료하려면 다음에서 선택한 계정 유형에 해당하는 아래 링크를 사용하여 계속하십시오. [!UICONTROL **위치 계정**] 필드:<ul><li>[AEP 데이터 랜딩 영역](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 역할 ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google 클라우드 플랫폼](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 

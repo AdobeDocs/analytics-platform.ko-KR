@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c13dfaa5367210f48e419a3516d30f2c1fd5c24f
+source-git-commit: 1587f98d0650d07a2f496c239d7b6bf69611535e
 workflow-type: tm+mt
-source-wordcount: '2879'
-ht-degree: 86%
+source-wordcount: '2951'
+ht-degree: 84%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
+| 전체 표를 내보낼 때 계정 및 위치를 추가하는 방법에 대한 설명서를 업데이트했습니다 | 다음과 같은 경우 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다. [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>새 항목 [!UICONTROL **계정 추가**] 이제 옵션이에서 사용할 수 있습니다. [!UICONTROL **계정**] 드롭다운 메뉴. 다음 [!UICONTROL **위치 추가**] 이전에는 버튼 로 사용할 수 있었던 옵션 [!UICONTROL **위치 이름**] 이제 메뉴 자체에서 드롭다운 메뉴를 사용할 수 있습니다. |
 | Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
 | 특정 정보는 관리자만 사용할 수 있음을 명확히 했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/admin/cja-access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |

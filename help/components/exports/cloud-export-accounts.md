@@ -5,9 +5,9 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1877'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,11 @@ ht-degree: 3%
 >
 >Customer Journey Analytics 보고서를 Adobe Experience Platform 데이터 랜딩 구역으로 내보낼 때 7일 이내에 데이터를 다운로드한 다음 AEP 데이터 랜딩 구역에서 삭제해야 합니다. 7일 후 데이터는 AEP 데이터 랜딩 구역에서 자동으로 삭제됩니다.
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
@@ -100,7 +104,11 @@ ht-degree: 3%
 
 ### Amazon S3 Role ARN
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에서 다음 정보를 지정합니다.
 
@@ -124,7 +132,11 @@ ht-degree: 3%
 
 ### Google Cloud 플랫폼
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에서 다음 정보를 지정합니다.
 
@@ -148,7 +160,11 @@ ht-degree: 3%
 
 ### Azure SAS
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에서 다음 정보를 지정합니다.
 
@@ -176,7 +192,11 @@ ht-degree: 3%
 
 ### Azure RBAC
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에서 다음 정보를 지정합니다.
 
@@ -202,7 +222,11 @@ ht-degree: 3%
 
 ### Snowflake
 
-1. [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기 시작](#begin-creating-a-cloud-export-account)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **계정 속성**] 의 섹션 [!UICONTROL **계정 추가**] 대화 상자에서 다음 정보를 지정합니다.
 

@@ -5,10 +5,10 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 3%
+source-wordcount: '1635'
+ht-degree: 4%
 
 ---
 
@@ -38,11 +38,18 @@ ht-degree: 3%
 
    위치 대화 상자가 표시됩니다.
 
-1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
+1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 계정의 다른 위치와 구분하는 데 도움이 되도록 위치에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
 
 1. 다음에서 [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
    에서 선택한 계정 유형에 해당하는 아래 섹션을 계속 진행합니다. [!UICONTROL **위치 계정**] 필드.
+
+   * [AEP 데이터 랜딩 구역](#aep-data-landing-zone)
+   * [Amazon S3 Role ARN](#amazon-s3-role-arn)
+   * [Google Cloud 플랫폼](#google-cloud-platform)
+   * [Azure SAS](#azure-sas)
+   * [Azure RBAC](#azure-rbac)
+   * [Snowflake](#snowflake)
 
 ### AEP 데이터 랜딩 구역
 
@@ -50,7 +57,11 @@ ht-degree: 3%
 >
 >Customer Journey Analytics 보고서를 Adobe Experience Platform 데이터 랜딩 구역으로 내보낼 때 7일 이내에 데이터를 다운로드한 다음 AEP 데이터 랜딩 구역에서 삭제해야 합니다. 7일 후 데이터는 AEP 데이터 랜딩 구역에서 자동으로 삭제됩니다.
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Adobe Experience Platform 데이터 랜딩 영역 위치를 구성합니다.
 
@@ -83,7 +94,11 @@ ht-degree: 3%
 
 ### Amazon S3 Role ARN
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Amazon S3 역할 ARN 위치를 구성합니다.
 
@@ -102,7 +117,11 @@ ht-degree: 3%
 
 ### Google Cloud 플랫폼
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Google Cloud Platform 위치를 구성합니다.
 
@@ -121,7 +140,11 @@ ht-degree: 3%
 
 ### Azure SAS
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Azure SAS 위치를 구성하십시오.
 
@@ -138,7 +161,11 @@ ht-degree: 3%
 
 ### Azure RBAC
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Azure RBAC 위치를 구성하십시오.
 
@@ -156,7 +183,11 @@ ht-degree: 3%
 
 ### Snowflake
 
-1. [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location), 위에서 설명한 대로
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
+
+   * 위에 설명된 대로 내보내기 페이지에서 [클라우드 내보내기 위치 만들기 시작](#begin-creating-a-cloud-export-location)
+
+   * 날짜 [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 다음에서 [!UICONTROL **위치 속성**] 의 섹션 [!UICONTROL **위치 추가**] 대화 상자에서 다음 정보를 지정하여 Snowflake 위치를 구성합니다.
 
