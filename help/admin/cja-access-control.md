@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
+source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 58%
@@ -134,7 +134,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | **[!UICONTROL 주석 작성]** | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있습니다. |
 | **[!UICONTROL 대상자 생성]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 만들 수 있습니다. |
 | **[!UICONTROL 대상자 보기]** | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있습니다. |
-| [!UICONTROL **모든 사람과 프로젝트 링크 공유**] | 사용자 허용 [모든 사람과 프로젝트를 공유합니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=ko#share-public-link) |
+| [!UICONTROL **모든 사람과 프로젝트 링크 공유**] | 사용자 허용 [모든 사람과 프로젝트를 공유합니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=ko-KR#share-public-link) |
 | **[!UICONTROL 데이터 보기 도구]**: |   |
 | [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
 | [!UICONTROL **SQL 쿼리 서비스 액세스**] | 사용자가 액세스할 수 있도록 허용 [AEP의 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html). |

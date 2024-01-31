@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 83%
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
-| 예측 | 에 설명서가 추가되었습니다. [예측](../analysis-workspace/c-forecast/forecasting.md), 자유 형식 테이블 및 선형 차트에 대해 지원되는 시간 세부기간 (시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. |
+| 예측 | 에 설명서가 추가되었습니다. [예측](../analysis-workspace/c-forecast/forecasting.md), 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간 (시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능. |
 | 전체 표를 내보낼 때 계정 및 위치를 추가하는 방법에 대한 설명서를 업데이트했습니다 | 다음과 같은 경우 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다. [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>새 항목 [!UICONTROL **계정 추가**] 이제 옵션이에서 사용할 수 있습니다. [!UICONTROL **계정**] 드롭다운 메뉴. 다음 [!UICONTROL **위치 추가**] 이전에는 버튼 로 사용할 수 있었던 옵션 [!UICONTROL **위치 이름**] 이제 메뉴 자체에서 드롭다운 메뉴를 사용할 수 있습니다. |
 | Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |

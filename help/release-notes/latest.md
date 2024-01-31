@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 66%
+source-wordcount: '445'
+ht-degree: 65%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 66%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md) 는 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
+| **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md) 는 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
 | **주요 지표 요약 시각화 업데이트** | 이제 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
 | **Adobe Product Analytics - 유지율 분석** | 유지율은 사용자의 지속적인 반환 습관을 측정할 수 있도록 해 주는 새로운 가이드 분석입니다. [자세히 알아보기](../guided-analysis/types/retention-rates.md) | 해당 사항 없음 | 2024년 1월 8일 |
 | **Adobe Product Analytics - 트렌드 오버레이** | 추세선은에서 사용할 수 있는 새로운 오버레이 설정입니다. [사용 트렌드](/help/guided-analysis/types/usage.md) 데이터에 더 명확한 패턴을 표시하는 데 도움이 됩니다. | 해당 사항 없음 | 2024년 1월 17일 |
