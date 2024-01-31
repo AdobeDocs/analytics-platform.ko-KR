@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 90d91f07296f8c961d1b60ddbdc3d6b086958141
+source-git-commit: 1e024f7f84f96be446a2a922bd026bc70a6edf7e
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 75%
+source-wordcount: '439'
+ht-degree: 71%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 75%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Product Analytics - 유지율** | 유지율은 원하는 날짜 범위 내에서 초기 참여 후 돌아오는 사용자의 비율을 보여 주는 새로운 가이드 분석입니다. [자세히 알아보기](../guided-analysis/types/retention-rates.md) | 해당 사항 없음 | 2024년 1월 8일 |
-| **Adobe Product Analytics - 추세선** | 추세선은 의 안내식 분석에서 사용할 수 있습니다. [사용](/help/guided-analysis/types/usage.md) 보기 - 데이터에서 더 명확한 패턴을 묘사하는 데 도움이 됩니다. | 해당 사항 없음 | 2024년 1월 17일 |
-| **주요 지표 요약 시각화 업데이트** | 이제 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
-| **Adobe Product Analytics - 사용자 스트림** | 사용자 스트림 은 개별 사용자 이벤트 스트림을 탐색할 수 있는 새로운 안내식 분석입니다. 이 분석을 통해 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. | 해당 사항 없음 | 2024년 2월 7일 목요일 |
-| **Adobe Product Analytics - 쿼리 레일 개선 사항** | 안내식 분석에서 일부 구성 요소 설정이 이제 쿼리 레일에 포함되어 유용성이 개선됩니다. | 해당 사항 없음 | 2024년 1월 31일 |
 | **시계열 예측** | 예측은 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
+| **주요 지표 요약 시각화 업데이트** | 이제 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
+| **Adobe Product Analytics - 유지율 분석** | 유지율은 사용자의 지속적인 반환 습관을 측정할 수 있도록 해 주는 새로운 가이드 분석입니다. [자세히 알아보기](../guided-analysis/types/retention-rates.md) | 해당 사항 없음 | 2024년 1월 8일 |
+| **Adobe Product Analytics - 트렌드 오버레이** | 추세선은에서 사용할 수 있는 새로운 오버레이 설정입니다. [사용 트렌드](/help/guided-analysis/types/usage.md) 데이터에 더 명확한 패턴을 표시하는 데 도움이 됩니다. | 해당 사항 없음 | 2024년 1월 17일 |
+| **Adobe Product Analytics - 쿼리 레일 개선 사항** | 안내식 분석에서 왼쪽 쿼리 레일에는 이전에 시각화 설정에서 사용할 수 있었던 보기 유형 및 설정으로 계산됨 이 포함됩니다. | 해당 사항 없음 | 2024년 1월 31일 |
+| **Adobe Product Analytics - 사용자 스트림 분석** | 사용자 스트림 은 경험 패턴을 찾고 더 나은 사용자 스토리를 전달하는 데 도움이 되는 개별 사용자 이벤트 스트림을 탐색할 수 있는 새로운 가이드 분석입니다. | 해당 사항 없음 | 2024년 2월 7일 목요일 |
 
 {style="table-layout:auto"}
 
