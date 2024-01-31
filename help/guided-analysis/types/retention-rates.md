@@ -5,18 +5,16 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: c5cc2a696ac1a5619b174163b2b6b87116e4f778
+source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 # 유지율
 
-{{release-limited-testing}}
-
-다음 **[!UICONTROL 유지율]** 보기는 원하는 날짜 범위 내에서 초기 참여 후 돌아오는 사용자의 백분율을 보여 줍니다. 가로축은 사용자의 최초 참여 이후 일 수를 나타냅니다. 세로 축은 다시 참여하는 사용자의 백분율을 나타냅니다.
+다음 **[!UICONTROL 유지율]** 보기는 원하는 날짜 범위 내에서 초기 참여 후 돌아오는 사용자의 백분율을 보여 줍니다. 가로축은 사용자가 처음 참여한 이후의 일 수를 나타냅니다. 세로축은 다시 참여하는 사용자의 비율을 나타냅니다.
 
 이 분석은 다음 두 가지 중요한 이벤트를 기반으로 사용자를 계산합니다.
 
