@@ -4,10 +4,10 @@ title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 84%
+source-wordcount: '524'
+ht-degree: 81%
 
 ---
 
@@ -21,13 +21,14 @@ ht-degree: 84%
 
 ![라인 시각화](assets/line-viz.png)
 
-사용 가능한 [**시각화 설정에**](freeform-analysis-visualizations.md) 액세스하려면 라인 시각화의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하십시오. 설정은 다음과 같이 분류됩니다.
+설정 아이콘 선택 ![설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 을 클릭하여 액세스할 수 있도록 선 시각화의 상단 막대 [시각화 설정](freeform-analysis-visualizations.md) 사용 가능. 설정은 다음과 같이 분류됩니다.
+
+<img src="./assets/viz-settings-line.png" alt="시각화 설정" width="50%" />
 
 * **일반**: 시각화 유형 간에 공통적인 설정
 * **축**: 라인 시각화의 x축 또는 y축에 영향을 주는 설정
 * **오버레이**: 라인 시각화에 표시된 시리즈에 추가적인 컨텍스트를 추가하기 위한 옵션
 
-![시각화 설정](assets/viz-settings-modal.png)
 
 ## 세부기간 변경
 

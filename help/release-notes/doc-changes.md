@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1587f98d0650d07a2f496c239d7b6bf69611535e
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '2951'
-ht-degree: 84%
+source-wordcount: '2984'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +20,10 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
+| 예측 | 에 설명서가 추가되었습니다. [예측](../analysis-workspace/c-forecast/forecasting.md), 자유 형식 테이블 및 선형 차트에 대해 지원되는 시간 세부기간 (시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. |
 | 전체 표를 내보낼 때 계정 및 위치를 추가하는 방법에 대한 설명서를 업데이트했습니다 | 다음과 같은 경우 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다. [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>새 항목 [!UICONTROL **계정 추가**] 이제 옵션이에서 사용할 수 있습니다. [!UICONTROL **계정**] 드롭다운 메뉴. 다음 [!UICONTROL **위치 추가**] 이전에는 버튼 로 사용할 수 있었던 옵션 [!UICONTROL **위치 이름**] 이제 메뉴 자체에서 드롭다운 메뉴를 사용할 수 있습니다. |
 | Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
-| 특정 정보는 관리자만 사용할 수 있음을 명확히 했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
+| 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/admin/cja-access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |
 | 연결 관리 | 을(를) 업데이트함 [연결 관리](../connections/manage-connections.md) 고객 피드백을 기반으로 한 문서입니다. |
 | 파생 필드 | 함수 요약이 추가되었습니다. [제한 사항](/help/data-views/derived-fields/derived-fields.md#limitations) 및 숫자를 결정하는 방법에 대한 설명 [연산자](/help/data-views/derived-fields/derived-fields.md#operators) 함수에 사용됩니다. |
@@ -41,7 +42,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
 | 목표/목표 설정에 파생 필드 사용 | 추가됨 [사용 사례](../use-cases/goals-using-derived-fields.md) 목표/타겟 설정 및 보고를 위해 파생 필드를 사용하는 방법을 설명하는 문서입니다. |
-| 클라우드로 전체 테이블 내보내기 | 수백만 개의 작업 영역 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. | 2023년 10월 4일 |
+| 클라우드로 전체 테이블 내보내기 | 수백만 개의 작업 영역 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
 | 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 관리자는 보고 사용량에 대해 자세히 파악할 수 있으므로 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있습니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 관리 페이지의 새 열 | 에서 사용할 수 있는 새로운 열 문서화 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 및 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Adobe Analytics와의 비교 | 을(를) 추가함 [개요 페이지](../getting-started/aa-vs-cja/overview.md) Customer Journey Analytics과 Adobe Analytics의 차이점을 비교하고 이해하는 데 대한 소개입니다. |

@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 81%
+source-wordcount: '1326'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 | 시각화 이름 | 설명 |
 | --- | --- | 
-| [영역](/help/analysis-workspace/visualizations/area.md)<p>![영역 아이콘](assets/Smock_GraphArea_18_N.svg)</p> | 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. | 다음과 같은 질문에 대한 답변: <ul><li> |
+| [영역](/help/analysis-workspace/visualizations/area.md)<p>![영역 아이콘](assets/Smock_GraphArea_18_N.svg)</p> | 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
 | [막대](/help/analysis-workspace/visualizations/bar.md) <p>![막대 아이콘](assets/Smock_GraphBarVertical_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다. |
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![글머리 기호 아이콘](assets/Smock_GraphBullet_18_N.svg)</p> | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![집단 테이블 아이콘](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
@@ -80,9 +80,9 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 ## 설정 {#settings}
 
-각 시각화에는 관리할 수 있는 자체 설정이 있습니다. [!UICONTROL 시각화 설정]에 액세스하려면 [!UICONTROL 시각화 설정] 톱니 바퀴 아이콘을 클릭합니다.
+각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 시각화 설정에 액세스하려면 설정 아이콘을 선택합니다 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg).
 
-![다음 섹션에서 설명하는 설정 옵션을 보여 주는 시각화 설정.](assets/settings.png)
+<img src="./assets/viz-settings-line.png" alt="시각화 설정" width="50%" />
 
 | 설정 | 설명 |
 | --- | --- |
@@ -96,6 +96,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | 표준화 | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | 이중 축 표시 | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | 예외 항목 표시 | 예외 항목 탐지를 표시하여 선 그래프 및 자유 형식 테이블을 향상시킵니다. 선 시각화의 예외 항목 탐지에는 예상 값(파선)과 예상 범위(음영 처리된 띠)가 포함됩니다. |
+| 예측 표시 | 예측 값을 표시하여 선 그래프 및 자유 형식 테이블을 개선합니다. |
 
 ## 범례 {#legend}
 
