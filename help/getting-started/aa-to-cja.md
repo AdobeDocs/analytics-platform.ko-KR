@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1495'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 2. 변수 정렬 {#variables}
 
-Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko-KR)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
+Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko-KR)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
@@ -82,19 +82,19 @@ Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Exper
 * 스트리밍 미디어 측정
 * 라이브스트림 또는 라이브스트림 트리거
 
-### 5. Adobe Analytics의 프로젝트 및 구성 요소를 Customer Journey Analytics에 매핑
+### 5. 프로젝트 및 구성 요소를 Adobe Analytics에서 Customer Journey Analytics로 매핑
 
-Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
+Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics로 마이그레이션할 수 있습니다.
 
-마이그레이션 프로세스에는 다음이 포함됩니다.
+마이그레이션 프로세스에 포함된 사항:
 
-* Customer Journey Analytics에서 Adobe Analytics 프로젝트 다시 만들기
+* Customer Journey Analytics에서 Adobe Analytics 프로젝트를 다시 생성합니다.
 
 * Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.
 
-마이그레이션을 시작하기 전에 먼저 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
+마이그레이션을 시작하기 전에 먼저 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소와 프로젝트 마이그레이션을 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)하십시오.
 
-필요한 모든 준비를 마치면 다음을 수행할 수 있습니다. [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html).
+필요한 준비를 모두 마치고 나면 [Adobe Analytics의 구성 요소와 프로젝트를 Customer Journey Analytics로 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html)할 수 있습니다.
 
 ## 중요한 차이점에 대비
 
@@ -118,7 +118,7 @@ Adobe Analytics 세그먼트(Customer Journey Analytics에서는 [!UICONTROL 필
 
 3. Customer Journey Analytics에서 [필터](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
 
-다음은 몇 가지 가이드 비디오입니다.
+다음은 몇 가지 안내 비디오입니다.
 
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=ko-KR)
 
