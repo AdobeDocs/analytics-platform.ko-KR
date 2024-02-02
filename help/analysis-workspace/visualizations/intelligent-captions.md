@@ -4,10 +4,10 @@ title: 인텔리전트 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '442'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 1%
 ![제품 보기에 대한 지능형 캡션 트렌드를 표시하는 Analysis Launch 창입니다. ](assets/intell-caps-1.png)
 
 이제 자연어 인사이트가 생성됩니다.
+
+주의 사항
+
+* 캡션을 성공적으로 생성하려면 최소 3개의 데이터 포인트가 필요합니다. 그렇지 않으면 &quot;분석할 데이터가 충분하지 않음&quot;이라는 오류가 표시될 수 있습니다.
 
 * 시각화를 구동하는 테이블에서 기본 선택 데이터가 변경될 때마다 캡션이 생성됩니다.
 
