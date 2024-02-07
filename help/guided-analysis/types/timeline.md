@@ -4,16 +4,16 @@ description: 세션 활동의 패턴을 살펴봅니다.
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 5cd54973b08285badbedce273ac28371158f194c
+source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL 타임라인] 보기
 
-다음 **[!UICONTROL 타임라인]** 보기를 사용하면 개별 세션을 분석하여 동작의 패턴을 결정할 수 있습니다. 오른쪽 레일을 사용하면 분석할 개인 ID를 선택할 수 있습니다. 가운데 영역에는 해당 사용자에 대한 시간, 속성 값 및 기간이 표시됩니다.
+다음 **[!UICONTROL 타임라인]** 보기를 사용하면 개별 세션을 분석하여 동작의 패턴을 결정할 수 있습니다. 오른쪽 레일을 사용하면 분석할 개인 ID를 선택할 수 있습니다. 가운데 영역에는 해당 사용자의 각 이벤트에 대한 시간, 선택한 속성 값 및 기간이 표시됩니다.
 
 이 분석을 수행하려면 다음을 추가해야 합니다. **[!UICONTROL 개인 ID]** 표준 구성 요소를 [데이터 보기](/help/data-views/component-reference.md#optional). 이 없는 경우 [!UICONTROL 개인 ID] 데이터 보기에 구성 요소가 추가되면 다음 메시지가 표시됩니다.
 
@@ -47,5 +47,5 @@ ht-degree: 2%
 
 분석에 필요한 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
-* **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 이 설정은 빈도 등의 추세가 없는 보기에는 영향을 주지 않습니다.
+* **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 이 설정은 타임라인과 같이 트렌드가 없는 보기에는 영향을 주지 않습니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
