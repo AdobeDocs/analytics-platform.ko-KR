@@ -5,9 +5,9 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a5c2003a593917bce67346279a033a6041aff959
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ Analysis Workspace 및 모바일 스코어카드와 마찬가지로, 안내식 �
 | [!UICONTROL 트렌드] | [빈도](types/frequency.md) | 사용 빈도별로 참여를 측정합니다. |
 | [!UICONTROL 사용자 증가] | [활성](types/active.md) | 신규, 보존, 재방문 또는 휴면 상태의 사용자를 식별합니다. |
 | [!UICONTROL 사용자 증가] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
+| [!UICONTROL 사용자 스트림] | [타임라인](types/timeline.md) | 세션 활동의 패턴을 살펴봅니다. |
 
 {style="table-layout:auto"}
 

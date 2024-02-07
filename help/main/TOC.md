@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1056'
 ht-degree: 78%
 
 ---
@@ -191,12 +191,6 @@ ht-degree: 78%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + 사용자 증가 {#user-growth}
-      + [활성 보기](../guided-analysis/types/active.md)
-      + [순 성장 전망](../guided-analysis/types/net-growth.md)
-   + 트렌드 {#trends}
-      + [사용 보기](../guided-analysis/types/usage.md)
-      + [빈도 보기](../guided-analysis/types/frequency.md)
    + 단계 {#funnel}
       + [마찰 보기](../guided-analysis/types/friction.md)
       + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
@@ -205,6 +199,14 @@ ht-degree: 78%
       + [첫 번째 사용 보기](../guided-analysis/types/first-use.md)
    + 유지 {#retention}
       + [유지율](../guided-analysis/types/retention-rates.md)
+   + 트렌드 {#trends}
+      + [사용 보기](../guided-analysis/types/usage.md)
+      + [빈도 보기](../guided-analysis/types/frequency.md)
+   + 사용자 증가 {#user-growth}
+      + [활성 보기](../guided-analysis/types/active.md)
+      + [순 성장 전망](../guided-analysis/types/net-growth.md)
+   + 사용자 스트림 {#streams}
+      + [타임라인](../guided-analysis/types/timeline.md)
    + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
    + [FAQ](../guided-analysis/faq.md)
 
