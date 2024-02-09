@@ -4,9 +4,9 @@ description: 경험 패턴을 살펴보고 더 나은 사용자 스토리를 전
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
+source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->타임라인 보기를 사용하려면 **[!UICONTROL 개인 ID]** 에서 사용할 수 있는 표준 구성 요소 [데이터 보기](/help/data-views/component-reference.md#optional). 데이터 보기에 개인 ID를 포함하는 것은 Adobe Analytics 데이터 관리자가 관리하므로 조직에서 이 데이터에 액세스할 수 있는 사용자를 완벽하게 개인 정보에 제어할 수 있습니다. 데이터 보기에 [!UICONTROL 개인 ID] 구성 요소를 추가했습니다. 다음 메시지가 표시됩니다.
+>타임라인 보기를 사용하려면 **[!UICONTROL 개인 ID]** 에서 사용할 수 있는 표준 구성 요소 [데이터 보기](/help/data-views/component-reference.md#optional). 데이터 보기에 개인 ID를 포함하는 것은 Adobe Analytics 데이터 관리자가 관리하므로 조직에서 이 데이터에 액세스할 수 있는 사용자를 완벽하게 개인 정보에 제어할 수 있습니다.
 
-* **관리자**: 이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 PersonID를 추가하십시오.
-* **관리자가 아닌 사용자**: 이 분석에는 PersonID 속성이 필요합니다. Adobe Analytics 관리자에게 문의하십시오.
+데이터 보기에 [!UICONTROL 개인 ID] 구성 요소를 추가했습니다. 다음 메시지가 표시됩니다.
+* **관리자**: 이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하십시오.
+* **관리자가 아닌 사용자**: 이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하려면 Customer Journey Analytics 관리자와 협력하십시오.
 
 ## 사용 사례
 
