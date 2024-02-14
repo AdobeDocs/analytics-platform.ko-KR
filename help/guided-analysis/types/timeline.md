@@ -1,23 +1,23 @@
 ---
 title: 타임라인 보기
-description: 경험 패턴을 살펴보고 더 나은 사용자 스토리를 전달하십시오.
+description: 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰하여 경험 패턴을 찾습니다.
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
+source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 타임라인] 보기
 
-다음 **[!UICONTROL 타임라인]** &quot;보기&quot;를 사용하면 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰하여 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. 왼쪽 레일을 사용하면 스트리밍할 속성 값으로 필터링할 수 있습니다. 오른쪽 레일을 사용하면 분석할 개인 ID를 선택할 수 있습니다. 중앙 영역에는 타임스탬프, 속성 값 및 기간으로 구성된 세션별 스트림이 표시됩니다. 특정 세션의 마지막 이벤트에는 기간을 사용할 수 없습니다.
+다음 **[!UICONTROL 타임라인]** &quot;보기&quot;를 사용하면 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰하여 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. 왼쪽 레일을 사용하면 속성 값 및 세그먼트별로 스트림을 필터링할 수 있습니다. 오른쪽 레일을 사용하면 필터 조건과 일치하는 무작위 사용자 목록에서 선택할 수 있습니다. 가운데 영역에는 선택한 사용자의 세션별 스트림이 표시되며, 타임스탬프, 속성 값 및 기간으로 구성됩니다. 특정 세션의 마지막 이벤트에는 기간을 사용할 수 없습니다.
 
 >[!NOTE]
 >
->타임라인 보기를 사용하려면 **[!UICONTROL 개인 ID]** 에서 사용할 수 있는 표준 구성 요소 [데이터 보기](/help/data-views/component-reference.md#optional). 데이터 보기에 개인 ID를 포함하는 것은 Adobe Analytics 데이터 관리자가 관리하므로 조직에서 이 데이터에 액세스할 수 있는 사용자를 완벽하게 개인 정보에 제어할 수 있습니다.
+>타임라인 보기를 사용하려면 **[!UICONTROL 개인 ID]** 에서 사용할 수 있는 표준 구성 요소 [데이터 보기](/help/data-views/component-reference.md#optional). 데이터 보기에 개인 ID를 포함하는 것은 Customer Journey Analytics 관리자가 관리하므로 조직에서 이 데이터에 액세스할 수 있는 사용자를 완벽하게 개인 정보에 제어할 수 있습니다.
 
 데이터 보기에 [!UICONTROL 개인 ID] 구성 요소를 추가했습니다. 다음 메시지가 표시됩니다.
 
