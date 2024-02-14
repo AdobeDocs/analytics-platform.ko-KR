@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 2월** | |
-| 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions). <p>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</p> |
+| 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | 생략된 레코드 세부 정보 | 연결의 생략된 레코드 세부 정보에 대한 설명서를 추가했습니다. 자세한 내용은 [연결 세부 정보](../connections/manage-connections.md#connection-details)를 참조하십시오. |
 | **2024년 1월** | |
 | 예측 | 에 설명서가 추가되었습니다. [예측](../analysis-workspace/c-forecast/forecasting.md), 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간 (시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능. |
