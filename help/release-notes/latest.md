@@ -3,36 +3,36 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9f60d83673591aebeffeb6442bf9f8b897ab2f20
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+source-git-commit: 29c124da55842bcb9085059a9008f7a7d6baf44e
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 47%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2024년 1월)
+# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2024년 2월)
 
-**마지막 업데이트**: 2024년 1월 30일
+**마지막 업데이트 날짜**: 2024년 2월 14일 목요일
 
-이번 릴리스 정보에는 2024년 1월 8일부터 2024년 2월 13일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 2월 14일 목요일부터 2024년 3월 11일 화요일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **생략된 레코드 세부 정보** | 연결을 설정할 때 레코드를 건너뛰는 이유에 대한 세부 정보를 검색할 수 있습니다. 자세한 내용은 [연결 세부 정보](../connections/manage-connections.md#connection-details)를 참조하십시오. | 2024년 2월 5일 | 2024년 2월 5일 |
-| **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md)은 자유 형식 테이블 및 선 차트용으로 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
-| **주요 지표 요약 시각화 업데이트** | 이제 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
-| **Adobe Product Analytics - 유지율 분석** | 유지율은 사용자의 지속적인 반품 습관을 측정할 수 있는 새로운 안내식 분석입니다. [자세히 알아보기](../guided-analysis/types/retention-rates.md) | 해당 사항 없음 | 2024년 1월 8일 |
-| **Adobe Product Analytics - 추세선 오버레이** | 추세선은 [사용 트렌드](/help/guided-analysis/types/usage.md) 보기에서 사용할 수 있는 새로운 오버레이 설정으로, 데이터의 보다 명확한 패턴을 묘사하는 데 도움이 됩니다. | 해당 사항 없음 | 2024년 1월 17일 |
-| **Adobe Product Analytics - 쿼리 레일 개선** | 이제 안내식 분석에서 왼쪽 쿼리 레일에 이전에 시각화 설정에서 사용할 수 있었던 보기 유형 및 “다음으로 계산됨” 설정이 포함됩니다. | 해당 사항 없음 | 2024년 1월 31일 |
-| **Adobe Product Analytics - 사용자 스트림 분석** | 사용자 스트림은 경험 패턴을 찾고 더 나은 사용자 스토리를 전달하는 데 도움이 될 수 있는 개별 사용자 이벤트 스트림을 탐색할 수 있는 새로운 안내식 분석입니다. | 해당 사항 없음 | 2024년 2월 7일 |
+| **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md) 는 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 데 사용되는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
+| **Media Analytics 보고 - 분당 평균 시청 시간(AMA)** | 이제 CJA에서 대상 평균 시간 패널을 사용할 수 있습니다. Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. 분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다. 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 지정 기간의 대상 평균을 보다 유연하게 측정할 수 있습니다. |  | 2024년 2월 16일 토요일 |
+| **조회 및 프로필 데이터에 대한 행 수 지표** | 이제 연결의 일부로 구성된 데이터 세트에 대한 행 수 지표에는 프로필 및 조회 데이터 세트에서 추가되거나, 생략되거나, 삭제된 레코드가 포함됩니다. |  | 2024년 2월 14일 목요일 |
+| **Experience Edge 보트 감지** | [보트 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) Web SDK, Mobile SDK 및 Server API에 의해 생성된 이벤트가 알려진 스파이더 및 보트에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 2월 21일 |
+| **사용 지표** | 사용 지표 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용이 계약상 합의된 사항을 준수하는지 여부를 결정할 수 있습니다. | 2024년 2월 20일 수요일 | 2024년 3월 초 |
+| **Adobe Product Analytics: 모든 사람과 공유** | Product Analytics 액세스 권한이 없는 사용자와 Adobe Product Analytics 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. |  | 2024년 2월 21일 |
+| **Adobe Product Analytics: 계산된 지표 적용** | 이제 트렌드: 사용량 보기의 Analysis Workspace 또는 계산된 지표 빌더에서 생성된 계산된 지표에 액세스하여 시간에 따른 지표의 트렌드를 분석하고 비교할 수 있습니다. |  | 2024년 2월 16일 토요일 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-310972; AN-332774; AN-332793; AN-332796; AN-333157; AN-334067; AN-334134; AN-334968; AN-335315; AN-335518; AN-335533; AN-335736;
+AN-333172; AN-336887; AN-337402; AN-337593; AN-338482; AN-338684; AN-339883; AN-340200
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
