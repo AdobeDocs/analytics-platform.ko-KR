@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 58%
+source-wordcount: '1173'
+ht-degree: 57%
 
 ---
 
@@ -41,6 +41,7 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 * 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트 및 삭제
 * 모든 사용자에게 작업 영역 프로젝트 공유
 * 에서 보고 활동 관리 [활동 관리자 보고](/help/reporting-activity-manager/reporting-activity-overview.md)
+* [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 출처: Analysis Workspace
 
 ### 제품 관리자 추가 권한
 
