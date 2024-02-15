@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
+source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 4%
 
 ---
@@ -44,13 +44,13 @@ ht-degree: 4%
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
 * **[!UICONTROL 이벤트 시작 및 반환]**: 사용자가 분석에 포함할 자격을 얻기 위해 참여해야 하는 이벤트 기준입니다. 하나의 이벤트가 지원되지만 속성 필터를 포함할 수 있습니다.
-* **[!UICONTROL 사람]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 집단 테이블에 행을 추가합니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
+* **[!UICONTROL 다음으로 계산됨]**: 유지된 사용자를 측정하는 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 유지] 및 [!UICONTROL 보존된 사용자 비율].
+* **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 집단 테이블에 행을 추가합니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정
 
 다음 [!UICONTROL 유지율] 보기 는 차트 위의 메뉴에서 조정할 수 있는 다음 차트 설정을 제공합니다.
 
-* **[!UICONTROL 지표]**: 유지된 사용자를 측정하는 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 유지] 및 [!UICONTROL 보존된 사용자 비율].
 * **[!UICONTROL 차트 유형]**: 사용하려는 시각화 유형입니다. 옵션은 다음과 같습니다 [!UICONTROL 막대] 및 [!UICONTROL 라인].
 
 ## 기간 설정
