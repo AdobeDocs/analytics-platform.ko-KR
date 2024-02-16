@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
+source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
 workflow-type: tm+mt
-source-wordcount: '3065'
-ht-degree: 81%
+source-wordcount: '3106'
+ht-degree: 80%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 2월** | |
+| 클라우드 내보내기 위치를 구성할 때 Amazon S3 역할 ARN 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Amazon S3 역할 ARN 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | 생략된 레코드 세부 정보 | 연결의 생략된 레코드 세부 정보에 대한 설명서를 추가했습니다. 자세한 내용은 [연결 세부 정보](../connections/manage-connections.md#connection-details)를 참조하십시오. |
 | **2024년 1월** | |

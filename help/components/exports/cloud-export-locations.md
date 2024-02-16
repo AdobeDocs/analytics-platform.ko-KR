@@ -5,9 +5,9 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
+source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1632'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 4%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. Adobe이 제공한 사용자 ARN이 이 버킷에 파일을 업로드할 수 있는 액세스 권한이 있는지 확인하십시오. |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p> |
    | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예: folder_name/ |
 
    {style="table-layout:auto"}
@@ -129,7 +129,7 @@ ht-degree: 4%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe이 제공한 사용자에 대한 권한을 부여했는지 확인하십시오. (다음과 같은 경우 원금이 제공됩니다. [Google Cloud Platform 계정 구성](/help/components/exports/cloud-export-accounts.md).) 권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 확인할 수 있습니다. |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>다음을 부여했는지 확인합니다. `roles/storage.objectCreator` Adobe이 제공한 사용자에 대한 권한. (다음과 같은 경우 원금이 제공됩니다. [Google Cloud Platform 계정 구성](/help/components/exports/cloud-export-accounts.md).) <p>권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 확인할 수 있습니다.</p> |
    | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예: folder_name/ |
 
    {style="table-layout:auto"}
