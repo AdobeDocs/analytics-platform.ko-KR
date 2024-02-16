@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 보기]**: 이 보기 유형과 [마찰](friction.md).
 * **[!UICONTROL 단계]**: 추적할 이벤트 터치포인트입니다. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자] 및 [!UICONTROL 세션].
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자] 및 [!UICONTROL 세션].
 * **[!UICONTROL 세그먼트]**: 단계를 비교할 세그먼트입니다. 선택한 각 세그먼트는 각 단계를 여러 개의 막대로 분할합니다. 각 색상은 다른 세그먼트를 나타냅니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정

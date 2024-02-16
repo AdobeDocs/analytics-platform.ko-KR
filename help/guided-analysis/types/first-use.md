@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: de78569389f5a9d74603870e72b4f3871ef4aa92
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 보기]**: 이 보기 유형과 [릴리스](release.md).
 * **[!UICONTROL 주요 지표]**: 사용자별로 측정할 이벤트입니다. 선택한 각 키 표시기는 색칠된 선으로 표시됩니다. 이벤트를 나타내는 행이 테이블에 추가됩니다. 최대 3개의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자당 이벤트 수], [!UICONTROL 이벤트], [!UICONTROL 세션], 및 [!UICONTROL 사용자].
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자당 이벤트 수], [!UICONTROL 이벤트], [!UICONTROL 세션], 및 [!UICONTROL 사용자].
 * **[!UICONTROL 요소]**: 이 보기에는 두 가지 요소가 있습니다.
    * **[!UICONTROL 날짜]**: 처음 사용 이벤트가 발생하기 전까지 찾기를 시작할 시점입니다.
    * **[!UICONTROL 이벤트]**: 분석의 중심을 잡기 위해 를 먼저 찾을 이벤트입니다.

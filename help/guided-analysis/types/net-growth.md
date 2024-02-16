@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 보기]**: 이 보기 유형과 [활성](active.md).
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 이 보기 유형은 사용자를 기반으로 하므로 기간 내에 한 번 이벤트와 상호 작용하는 사용자는 활성 사용자로 계산됩니다. 쿼리에 이벤트를 하나 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율].
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율].
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 쿼리에 하나의 세그먼트를 포함할 수 있습니다.
 
 ## 시간 비교

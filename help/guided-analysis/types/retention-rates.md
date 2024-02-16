@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '894'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
 * **[!UICONTROL 이벤트 시작 및 반환]**: 사용자가 분석에 포함할 자격을 얻기 위해 참여해야 하는 이벤트 기준입니다. 하나의 이벤트가 지원되지만 속성 필터를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 유지된 사용자를 측정하는 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 유지] 및 [!UICONTROL 보존된 사용자 비율].
+* **[!UICONTROL 다음으로 계산됨]**: 유지된 사용자에게 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자 유지] 및 [!UICONTROL 보존된 사용자 비율].
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 집단 테이블에 행을 추가합니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정

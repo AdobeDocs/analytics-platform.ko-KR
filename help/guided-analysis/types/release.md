@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
 * **[!UICONTROL 주요 지표]**: 사용자별로 측정할 이벤트입니다. 선택한 각 키 표시기는 색칠된 선으로 표시됩니다. 이벤트를 나타내는 행이 테이블에 추가됩니다. 최대 3개의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자당 이벤트 수], [!UICONTROL 사용자 비율], [!UICONTROL 이벤트], [!UICONTROL 세션], 및 [!UICONTROL 사용자].
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자당 이벤트 수], [!UICONTROL 사용자 비율], [!UICONTROL 이벤트], [!UICONTROL 세션], 및 [!UICONTROL 사용자].
 * **[!UICONTROL 요소]**: 비교하려는 이전 날짜와 이후 날짜입니다.
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 세그먼트는 데이터를 필터링하여 세그먼트 기준과 일치하는 개인에게만 집중시킵니다.
 

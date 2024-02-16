@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 보기]**: 이 보기 유형과 [사용](usage.md).
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 선택한 각 이벤트는 별도의 그래프로 표시됩니다. 트렌드 이벤트를 나타내는 행이 표에 추가됩니다. 최대 5개의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 측정할 지표입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자],  [!UICONTROL 세션],  [!UICONTROL 사용자 비율] 및  [!UICONTROL 세션의 백분율]. 이 보기의 백분율 기반 지표에 대한 분모는 제품의 모든 활성 사용자가 아니라 선택한 이벤트를 수행한 사용자 또는 세션입니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자],  [!UICONTROL 세션],  [!UICONTROL 사용자 비율] 및  [!UICONTROL 세션의 백분율]. 이 보기의 백분율 기반 지표에 대한 분모는 제품의 모든 활성 사용자가 아니라 선택한 이벤트를 수행한 사용자 또는 세션입니다.
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트의 막대 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정
