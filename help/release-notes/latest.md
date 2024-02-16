@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 29c124da55842bcb9085059a9008f7a7d6baf44e
+source-git-commit: 22b87a6f64c296e3eb05ec3b7076bf6dfa2935f9
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 47%
+source-wordcount: '526'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md) 는 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 데 사용되는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
-| **Media Analytics 보고 - 분당 평균 시청 시간(AMA)** | 이제 CJA에서 대상 평균 시간 패널을 사용할 수 있습니다. Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. 분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다. 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 지정 기간의 대상 평균을 보다 유연하게 측정할 수 있습니다. |  | 2024년 2월 16일 토요일 |
+| **Media Analytics 보고 - 분당 평균 시청 시간(AMA)** | 이제 CJA에서 대상 평균 시간 패널을 사용할 수 있습니다. Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. 분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다. 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 지정 기간의 대상 평균을 보다 유연하게 측정할 수 있습니다. |  | 2024년 2월 |
 | **조회 및 프로필 데이터에 대한 행 수 지표** | 이제 연결의 일부로 구성된 데이터 세트에 대한 행 수 지표에는 프로필 및 조회 데이터 세트에서 추가되거나, 생략되거나, 삭제된 레코드가 포함됩니다. |  | 2024년 2월 14일 목요일 |
 | **Experience Edge 보트 감지** | [보트 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) Web SDK, Mobile SDK 및 Server API에 의해 생성된 이벤트가 알려진 스파이더 및 보트에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 2월 21일 |
 | **사용 지표** | 사용 지표 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용이 계약상 합의된 사항을 준수하는지 여부를 결정할 수 있습니다. | 2024년 2월 20일 수요일 | 2024년 3월 초 |
