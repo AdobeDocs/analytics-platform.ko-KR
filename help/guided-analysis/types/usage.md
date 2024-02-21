@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 1%
 
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
+* **[!UICONTROL 보기]**: 이 보기 유형과 [빈도](frequency.md).
 * **[!UICONTROL 이벤트 및 지표]**: 측정할 이벤트 또는 지표입니다. 각 선택 항목은 차트 계열 및 테이블 행으로 표시됩니다. 이벤트 및 지표는 쿼리에서 결합할 수 없습니다. 첫 번째 선택을 한 후 나머지 쿼리 선택 항목은 같은 유형이어야 합니다. 최대 5개의 선택 항목을 포함할 수 있습니다.
 * **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 이벤트, 세션, 사용자, 사용자 비율, 세션당 이벤트 및 사용자당 이벤트가 포함됩니다. 옵션으로 카운트되면 이벤트 쿼리에만 적용할 수 있고 지표 쿼리에는 제거됩니다.
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트 계열 및 테이블 행의 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
