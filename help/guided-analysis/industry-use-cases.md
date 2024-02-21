@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![소매용 마찰 보기](assets/retail-funnel-friction.png)
+![소매용 마찰 보기](assets/retail-funnel-friction.png){style="border:1px solid gray"}
 
-![소매용 사용 보기](assets/retail-trends-usage.png)
+![소매용 사용 보기](assets/retail-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -44,11 +44,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![금융 서비스에 대한 마찰 보기](assets/fsi-funnel-friction.png)
+![금융 서비스에 대한 마찰 보기](assets/fsi-funnel-friction.png){style="border:1px solid gray"}
 
-![금융 서비스 사용량 보기](assets/fsi-trends-usage.png)
+![금융 서비스 사용량 보기](assets/fsi-trends-usage.png){style="border:1px solid gray"}
 
-![금융 서비스에 대한 활성 보기](assets/fsi-user-growth-active.png)
+![금융 서비스에 대한 활성 보기](assets/fsi-user-growth-active.png){style="border:1px solid gray"}
 
 +++
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![여행 및 접대를 위한 마찰 보기](assets/th-funnel-friction.png)
+![여행 및 접대를 위한 마찰 보기](assets/th-funnel-friction.png){style="border:1px solid gray"}
 
-![여행 및 접대 현황 보기](assets/th-trends-usage.png)
+![여행 및 접대 현황 보기](assets/th-trends-usage.png){style="border:1px solid gray"}
 
-![여행 및 접대에 대한 전환 트렌드](assets/th-funnel-conversion-trends.png)
+![여행 및 접대에 대한 전환 트렌드](assets/th-funnel-conversion-trends.png){style="border:1px solid gray"}
 
 +++
 
@@ -79,15 +79,15 @@ ht-degree: 1%
 | **이탈 위험 식별** | 조직은 계절별 이벤트를 보기 위해 플랫폼에 가입한 고객이 이벤트가 끝난 후 바로 취소하는 이직률이 높다고 본다. 이러한 사용자를 신속하게 식별하면 고객이 플랫폼에 계속 참여할 수 있도록 유도하는 권장 사항을 표시할 수 있습니다. | **행복한 구독자를 유지합니다.** 권장 사항에 개입할 성장 세그먼트를 유도하는 콘텐츠를 찾습니다. | [활성 사용자 증가 보기](types/active.md)<br>[순 성장 전망](types/net-growth.md) |
 | **업셀 기회 찾기** | 조직의 매출 증대에 중요한 부분은 경기장에서 팬들에게 가장 매력적인 인앱 오퍼를 파악하는 것입니다. 가이드 분석을 통해 가장 효과적인 오퍼를 정확하게 확인할 수 있습니다. | **부수적 수익 증대** 인앱 오퍼가 구매 행동을 촉진하는 데 미치는 영향을 이해합니다. | [첫 번째 사용 보기](types/first-use.md)<br>[마찰 보기](types/friction.md) |
 | **교차 장치 경험 최적화** | 조직은 구독자가 여러 디바이스/앱과 상호 작용하는 방법을 분석하려고 합니다. 이러한 지식을 통해 콘텐츠 소비 패턴을 이해하고 이를 대상으로 재타겟팅하는 것이 가장 좋은 위치를 결정할 수 있습니다. | **경험을 개인화합니다.** 각 장치의 구독자에게 가장 잘 어울리는 콘텐츠를 이해합니다. | [사용 트렌드 보기](types/usage.md) |
-| **콜센터 통화 전환** | 조직에서 안내식 분석을 사용하여 자동 결제가 작동하지 않는 문제를 식별하므로 고객은 좌절감을 느끼고 지원 센터에 문의하여 플랜을 취소해야 합니다. | **지원 요청 감소.** 더 나은 고객 경험을 만들고 고객 서비스에 대한 호출을 줄입니다. | [마찰 보기](types/friction.md)<br>[전환 트렌드 보기](types/conversion-trends.md) |
+| **콜센터 통화 전환** | 조직에서 가이드 분석을 사용하여 자동 결제가 작동하지 않는 문제를 식별하므로 고객은 좌절감을 느끼고 지원 센터에 문의하여 플랜을 취소해야 합니다. | **지원 요청 감소.** 더 나은 고객 경험을 만들고 고객 서비스에 대한 호출을 줄입니다. | [마찰 보기](types/friction.md)<br>[전환 트렌드 보기](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
-![미디어 및 엔터테인먼트를 위한 마찰 보기](assets/me-funnel-friction.png)
+![미디어 및 엔터테인먼트를 위한 마찰 보기](assets/me-funnel-friction.png){style="border:1px solid gray"}
 
-![미디어 및 엔터테인먼트에 대한 활성 보기](assets/me-user-growth-active.png)
+![미디어 및 엔터테인먼트에 대한 활성 보기](assets/me-user-growth-active.png){style="border:1px solid gray"}
 
-![](assets/me-trends-usage.png)
+![미디어 및 엔터테인먼트에 대한 사용량 보기](assets/me-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -95,14 +95,14 @@ ht-degree: 1%
 
 | 사용 사례 | 예 | 영향 | Analysis |
 | --- | --- | --- | --- |
-| **환자 건강 결과 개선** | 조직은 성장에 노력을 집중하기 위한 데이터를 보유하고 있습니다. 가이드 분석을 사용하기 전에, 그들은 얼마나 많은 웰니스 플랜 구성원이 단지 그것을 모두 사용하는 것을 중단했는지에 대해 명확히 이해하지 못했다. | **의사 방문 감소.** 재참여를 위해 휴면 중인 사용자를 신속하게 식별합니다. | [활성 사용자 증가 보기](types/active.md) |
+| **환자 건강 결과 개선** | 조직은 성장에 노력을 집중하기 위한 데이터를 보유하고 있습니다. 가이드 분석을 사용하기 전에, 그들은 얼마나 많은 웰니스 플랜 회원들이 단지 그것을 모두 사용하는 것을 중단했는지에 대해 명확히 이해하지 못했다. | **의사 방문 감소.** 재참여를 위해 휴면 중인 사용자를 신속하게 식별합니다. | [활성 사용자 증가 보기](types/active.md) |
 | **환자 경험 향상** | 간단한 암호 재설정을 위해 콜센터에 연락하는 환자가 얼마나 되는지에 대한 가시성은 환자 경험 강화에 레이저 초점을 맞추는 분석가의 열정을 갱신했습니다. | **전체 서비스 비용 절감** 더 나은 환자 경험을 만들고 환자 서비스에 대한 호출을 줄입니다. | [사용 트렌드 보기](types/usage.md)<br>[마찰 보기](types/friction.md) |
 | **세그먼트별 반복 크로스 채널 작업 식별** | 조직에서는 메디케어 자격이 있는 구성원이 디지털 제품에서 특정 메시지를 제공하는 플랜 사용에 얼마나 적극적인지 이해하려고 합니다. 안내식 분석을 통해 얻은 통찰력은 마케팅을 보다 효과적으로 만드는 데 도움이 됩니다. | **메디케어 등록 선택 사항을 개인화합니다.** 가장 활동적인 계획 구성원별로 일반적인 순차적 조치를 비교합니다. | [마찰 보기](types/friction.md)<br>[활성 사용자 증가 보기](types/active.md) |
 | **업계 최고의 인재 유지** | 조직의 Analytics 리소스는 시간이 오래 걸렸습니다. 가이드 분석을 통해 조직은 리더십 업데이트 호출에 필요한 제품 사용 데이터를 빠르게 가져올 수 있습니다. | **분석가 워크로드 감소.** 보다 신속하게 답변을 얻을 수 있습니다. 가장 중요한 시기에 대한 접근 가능한 보고. | [안내식 분석](overview.md) |
 
 {style="table-layout:auto"}
 
-![헬스케어를 위한 마찰 보기](assets/healthcare-funnel-friction.png)
+![헬스케어를 위한 마찰 보기](assets/healthcare-funnel-friction.png){style="border:1px solid gray"}
 
 +++
 
@@ -117,6 +117,6 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![B2B 사용 보기](assets/b2b-trends-usage.png)
+![B2B 사용 보기](assets/b2b-trends-usage.png){style="border:1px solid gray"}
 
 +++

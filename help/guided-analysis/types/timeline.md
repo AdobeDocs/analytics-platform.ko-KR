@@ -4,7 +4,7 @@ description: 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 다음 **[!UICONTROL 타임라인]** &quot;보기&quot;를 사용하면 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰하여 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. 왼쪽 레일을 사용하면 속성 값 및 세그먼트별로 스트림을 필터링할 수 있습니다. 오른쪽 레일을 사용하면 필터 조건과 일치하는 무작위 사용자 목록에서 선택할 수 있습니다. 가운데 영역에는 선택한 사용자의 세션별 스트림이 표시되며, 타임스탬프, 속성 값 및 기간으로 구성됩니다. 특정 세션의 마지막 이벤트에는 기간을 사용할 수 없습니다.
 
-![타임라인 스크린샷](../assets/timeline.png)
+![타임라인 스크린샷](../assets/timeline.png){style="border:1px solid gray"}
 
 >[!NOTE]
 >

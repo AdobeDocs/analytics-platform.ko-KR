@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 다음 **[!UICONTROL 빈도]** 제품에서 이벤트가 발생하는 빈도별로 이벤트 데이터를 그룹화합니다. 이 보기의 세로 축에는 이벤트의 빈도를 나타내는 버킷이 포함되어 있습니다. 가로축은 각 버킷에 대한 사용자 또는 세션 수를 측정합니다.
 
-![빈도 스크린샷](../assets/frequency-stacked.png)
+![빈도 스크린샷](../assets/frequency-stacked.png){style="border:1px solid gray"}
 
 ## 사용 사례
 
