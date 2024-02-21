@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 57%
+source-wordcount: '1247'
+ht-degree: 52%
 
 ---
 
@@ -79,7 +79,18 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 
 ## 사용자 수준 액세스
 
-Customer Journey Analytics의 사용자는 데이터 보기 또는 연결을 만들거나 편집 또는 볼 수 없습니다. 사용자는 Admin Console에 특별한 권한이 있는 경우 필터, 프로젝트, 대상자 및 계산된 지표를 만들 수 있습니다.
+아래 매트릭스에서는 제품 관리자가 아닌 사용자와 CJA 제품 관리자를 위한 다양한 Customer Journey Analytics 기능에 대한 기본 액세스 권한을 간략하게 설명합니다. 이러한 권한을 이해하면 사용자가 조직 내에서 자신의 역할과 책임에 따라 CJA를 효과적으로 탐색하고 활용할 수 있습니다.
+
+| CJA 제품 기능 | 제품 관리자가 아닌 사용자(사용자) | 제품 관리자 |
+| --- | --- | --- |
+| **데이터 보기** | 보기/업데이트/만들기/삭제할 수 없음 | 생성/업데이트/삭제 가능 |
+| **연결** | 보기/업데이트/만들기/삭제할 수 없음 | 생성/업데이트/삭제 가능 |
+| **필터** | 만들 수 있음 | 만들 수 있음 |
+| **프로젝트** | 만들 수 있음 | 생성/업데이트/삭제 가능 |
+| **대상자** | Admin Console에서 특별한 권한으로 만들 수 있음 | 만들 수 있음 |
+| **계산된 지표** | Admin Console에서 특별한 권한으로 만들 수 있음 | 만들 수 있음 |
+
+{style="table-layout:auto"}
 
 ## 작업 영역 프로젝트 큐레이션
 
