@@ -3,20 +3,20 @@ description: Analysis Workspace의 예측에 대해 알아봅니다.
 title: 예측 개요
 feature: Visualizations
 role: User
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # 예측 개요
 
-{{release-limited-testing}}
+
 
 {{select-package}}
 
-예측 은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
+예측은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
 
 다음에 대한 예측을 활용할 수 있습니다.
 

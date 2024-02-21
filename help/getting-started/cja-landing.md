@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 94%
 
 ---
 
@@ -23,15 +23,20 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 >[!BEGINTABS]
 
+>[!TAB 예측]
+
+예측은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
+
+
 >[!TAB 안내식 분석* - 유지율]
 
 원하는 날짜 범위 내에 초기 참여 후 재방문한 사용자의 비율을 표시하는 새로운 보기 유형입니다. 가로축은 사용자가 처음 참여한 이후의 일 수를 나타냅니다. 세로축은 다시 참여하는 사용자의 비율을 나타냅니다.
 
-[![이미지](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
+[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_안내식 분석은 Customer Journey Analytics의 유료 추가 기능인 Adobe Product Analytics의 일부입니다._</span>
-
-
 
 
 >[!TAB 안내식 분석* - 추세선]
