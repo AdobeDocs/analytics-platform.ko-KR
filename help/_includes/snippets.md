@@ -1,8 +1,8 @@
 ---
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 66%
+source-wordcount: '1158'
+ht-degree: 62%
 
 ---
 # 스니펫
@@ -23,7 +23,19 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->다음을 보유해야 합니다. **선택** 패키지 : 이 섹션에 설명된 기능을 사용하기 위해 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+>다음을 보유해야 합니다. **선택** 이 섹션에 설명된 기능을 사용하려면 패키지 이상을 따르십시오. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+
+## 프라임 패키지 {#prime-package}
+
+>[!NOTE]
+>
+>다음을 보유해야 합니다. **Prime** 이 섹션에 설명된 기능을 사용하려면 패키지 이상을 따르십시오. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+
+## Ultimate 패키지 {#ultimate-package}
+
+>[!NOTE]
+>
+>다음을 보유해야 합니다. **최적** 패키지 : 이 섹션에 설명된 기능을 사용하기 위해 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
 
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
