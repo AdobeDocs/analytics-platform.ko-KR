@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '2044'
-ht-degree: 100%
+source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
+workflow-type: tm+mt
+source-wordcount: '2032'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 100%
 | --- | --- |
 | 예외 항목 탐지 | 전체 지원 |
 | Attribution IQ | 전체 지원 |
+| 보트 탐지 | *곧 출시 예정!* 대상 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)데이터 세트 기반, 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 보트 탐지 논리는 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
 | 계산된 지표 | 전체 지원. 기존 Analysis Workspace의 기존 계산된 지표는 Customer Journey Analytics에 포팅되지 않습니다. |
 | 캘린더 이벤트 | 전체 지원. 캘린더 이벤트가 Workspace의 [주석](/help/components/annotations/overview.md)으로 구현되었습니다. |
 | CSV 다운로드 | 전체 지원 |
@@ -29,11 +30,12 @@ ht-degree: 100%
 | 날짜 비교 | 전체 지원 |
 | 날짜 범위 | 모든 날짜 범위 기능이 지원됩니다. |
 | 차원 | 전체 지원. Customer Journey Analytics는 XDM을 사용하며 무제한 차원을 지원합니다. Customer Journey Analytics는 기존 Adobe Analytics의 사용자 정의 eVar 또는 속성에 연결되지 않습니다. |
-| GDPR 삭제 | 전체 지원: 이제 [!UICONTROL Adobe Experience Platform]에 GDPR이 적용됩니다. Customer Journey Analytics는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
-| 상승도 및 신뢰도 보고 | [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)을 통한 전체 지원 |
+| GDPR 삭제 | 전체 지원: 이제 GDPR이 과 함께 처리됩니다. [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics는 [!UICONTROL Experience Platform]의 기본 데이터 세트에 적용되는 모든 데이터 변경 사항을 상속합니다. |
+| 상승도 및 신뢰도 보고 | 다음을 통한 전체 지원: [실험 패널](/help/analysis-workspace/c-panels/experimentation.md) |
 | 목록 변수/목록 속성 | 전체 지원. Customer Journey Analytics는 XDM을 사용하며 listVar와 유사하게 사용할 수 있는 무제한 문자열 배열을 지원합니다. |
-| 머천다이징 eVar | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
-| 지표 | 전체 지원: Customer Journey Analytics는 XDM(Experience Data Model)을 사용하고 무제한 지표를 지원하며, Adobe Analytics의 사용자 정의 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 Adobe Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
+| 머천다이징 eVar | 다음을 통한 전체 지원: [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
+| 지표 | 전체 지원: Customer Journey Analytics은 XDM(Experience Data Model)을 사용하며, 무제한 지표를 지원하며, Adobe Analytics의 사용자 지정 성공 이벤트에 연결되지 않습니다. 일부 표준 지표의 이름은 Adobe Analytics에서 다음과 같이 변경되었습니다. 방문자 = 사람, 방문 횟수 = 세션, 히트 수 = 이벤트 |
+| 프로젝트, 필터, 계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션 | 전체 지원. |
 | 모바일 스코어카드/대시보드 | 전체 지원 |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. |
 | PDF 내보내기 | 전체 지원 |
@@ -75,7 +77,7 @@ ht-degree: 100%
 | 프로젝트 공유 | 프로젝트 공유는 Customer Journey Analytics 사용자 사이에서만 지원됩니다. Customer Journey Analytics와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | Report Builder | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
-| 시각화 | 맵 시각화를 제외한 모든 시각화가 지원됩니다. |
+| 시각화 | 맵 시각화를 제외한 모든 작업 영역 시각화가 지원됩니다. |
 | 크로스 디바이스/크로스 채널 결합 | ID 정보를 직접 포함하는 데이터 세트에 대해 지원됩니다(“필드 기반” 스티칭이라고도 함). 그래프 기반 스티칭은 아직 지원되지 않지만 향후 지원될 예정입니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 
 {style="table-layout:auto"}
@@ -84,7 +86,6 @@ ht-degree: 100%
 
 | 기능 | 참고 |
 | --- | --- |
-| 봇 필터링 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 기반 데이터 세트의 경우 봇 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 봇 필터링 논리 기능은 [!UICONTROL Experience Platform] 또는 Customer Journey Analytics에서 사용할 수 없습니다. |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교 및 A4T(Analytics for Target) 패널은 지원되지 않습니다. |
 | Analytics for Target (A4T) | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 부분적인 지원이 제공됩니다. 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
 
@@ -101,7 +102,6 @@ ht-degree: 100%
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 거래 ID 데이터 소스 | 지원이 예정되어 있습니다. |
-| 프로젝트, 필터, 계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션 | 지원이 예정되어 있습니다. |
 | 요약 수준 데이터 소스 | 지원이 예정되어 있습니다. |
 
 {style="table-layout:auto"}
@@ -118,9 +118,6 @@ ht-degree: 100%
 ## 지원 예정 없음 {#never}
 
 * 크로스 디바이스 조합을 사용하는 사용자 지표
-* Reports &amp; Analytics 대시보드
-* Reports &amp; Analytics 책갈피
-* Reports &amp; Analytics 대상
 
 ## Adobe Analytics에서 사용할 수 없는 Adobe Customer Journey Analytics 기능 {#cja-not-aa}
 
