@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d9a54eca27b41a7d52e61a75e18850608fc97e5e
+source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3214'
 ht-degree: 78%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 2월** | |
+| 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>또한 다음에 대한 간소화된 정보 [개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 클라우드 내보내기 위치를 구성할 때 Amazon S3 역할 ARN 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Amazon S3 역할 ARN 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
