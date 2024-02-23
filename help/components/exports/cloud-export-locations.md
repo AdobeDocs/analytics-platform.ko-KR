@@ -5,10 +5,10 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
+source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 4%
+source-wordcount: '1738'
+ht-degree: 3%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 4%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **컨테이너 이름**] | Customer Journey Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. |
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/`<p>Azure SAS 계정을 구성할 때 Key Vault 암호 이름 필드에 지정한 SAS 토큰 저장소에 `Write` 권한. 이렇게 하면 SAS 토큰이 Azure 컨테이너에 파일을 만들 수 있습니다. <p>SAS 토큰이 파일도 덮어쓰도록 하려면 SAS 토큰 저장소에 `Delete` 권한.</p><p>자세한 내용은 [Blob 저장소 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) Azure Blob 스토리지 설명서에서 참조할 수 있습니다.</p> |
 
    {style="table-layout:auto"}
 
@@ -172,7 +172,7 @@ ht-degree: 4%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. 이전에 만든 Azure 애플리케이션에 파일을 업로드할 수 있는 권한을 부여했는지 확인하십시오. |
-   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/`<p>Azure RBAC 계정을 구성할 때 지정한 응용 프로그램 ID가 `Storage Blob Data Contributor` 컨테이너(폴더)에 액세스하기 위한 역할입니다.</p> <p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
 
    {style="table-layout:auto"}

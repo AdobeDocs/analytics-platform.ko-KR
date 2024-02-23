@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: ht
-source-wordcount: '1483'
-ht-degree: 100%
+source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
+workflow-type: tm+mt
+source-wordcount: '1455'
+ht-degree: 95%
 
 ---
 
@@ -66,11 +66,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## 세그먼트 개념 변경
 
-Adobe는 업계 표준에 맞게 “세그먼트” 구성 요소를 “필터”로 이름을 변경했습니다. Adobe Experience Platform의 세그먼트를 더 잘 구분하고 제공합니다.
-
-[!UICONTROL Customer Journey Analytics] 더 이상 eVar, prop 또는 이벤트를 사용하지 않고, 대신 매핑되어 있는 Experience Platform 스키마 필드 이름을 사용합니다. 이 변경 사항은 Adobe Analytics의 기존 세그먼트 중 어느 하나도 와 호환되지 않음을 의미합니다 [!UICONTROL Customer Journey Analytics]. 기존 Adobe Analytics 세그먼트를 Customer Journey Analytics으로 이동하려면 다음 비디오를 참조하십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
+세그먼트가 기술적으로 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 세그먼트는 매핑된 차원 및 지표를 기반으로 Customer Journey Analytics에서 다시 생성됩니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
 
 아직 공유하거나 게시할 수 없는 상태입니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서) [!DNL Customer Journey Analytics] 통합 프로필을 Experience Platform하려면 이 기능은 개발 중입니다.
 
