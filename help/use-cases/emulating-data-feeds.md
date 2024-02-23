@@ -6,7 +6,8 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
+exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
+source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 2%
@@ -128,7 +129,7 @@ Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통�
 
 #### 계산
 
-필드(열)에 대한 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)` 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) spark SQL의 일부입니다. 또한, [창 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 집계를 업데이트하고 순서가 지정된 하위 집합의 각 행에 대해 단일 항목을 반환할 수 있도록 지원을 제공합니다. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
+필드(열)에 대한 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)`) 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) spark SQL의 일부입니다. 또한, [창 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 집계를 업데이트하고 순서가 지정된 하위 집합의 각 행에 대해 단일 항목을 반환할 수 있도록 지원을 제공합니다. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 #### 중첩된 데이터 구조
 
@@ -277,4 +278,3 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 >[!IMPORTANT]
 >
 >이 사용 사례에는 두 개의 스케줄러가 포함됩니다. 에뮬레이트된 데이터 피드 기능이 적절히 작동하도록 하려면 쿼리 서비스 및 데이터 내보내기에 구성된 일정이 간섭되지 않도록 하십시오.
-
