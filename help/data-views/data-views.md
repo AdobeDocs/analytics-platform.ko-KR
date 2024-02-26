@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+source-git-commit: c1e6279d8e2f0b31a82c2588fce8b3c2e614e440
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,7 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다](/help/connections/create-connection.md).
 * 데이터 보기를 생성하거나 관리하려면 [Adobe Admin Console에서 권한 집합](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)이 필요합니다.
+* 를 사용하는 경우 [Adobe Analytics 소스 커넥터](/help/data-ingestion/analytics.md) 또는 Adobe Analytics 배경 지식이 있으면 연결의 일부인 스키마 및 데이터 세트의 필드가 Adobe Analytics의 해당 필드와 어떻게 관련되는지 이해할 수 있습니다. 다음을 참조하십시오 [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko) 추가 정보.
 
 ## Workspace에서 재정의할 수 있는 데이터 보기 설정 {#settings-override}
 
