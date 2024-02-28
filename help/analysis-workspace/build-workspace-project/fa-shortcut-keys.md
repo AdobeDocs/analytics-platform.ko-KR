@@ -2,13 +2,13 @@
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작에 대해 알아봅니다.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Workspace 핫키 사용 방법
+title: Workspace 단축키를 사용하는 방법
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 ## 탐색 작업
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 |---|---|
 | 새 프로젝트 만들기 | ctrl(또는 cmd) + shift + p |
 | 기존 프로젝트 열기 | ctrl(또는 cmd) + o |
@@ -34,7 +34,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 ## 분석 작업
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 |---|---|
 | 왼쪽 레일 검색 | Ctrl+/ |
 | 경고 만들기 | ctrl(또는 cmd) + shift + a |
@@ -51,7 +51,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 ## 패널 및 시각화 동작 추가
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 |---|---|
 | 새 기여도 분석 패널 | Alt+E |
 | 새 빈 패널 | Alt+B |
@@ -63,7 +63,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 ## 민주화 동작
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 |---|---|
 | 프로젝트 저장 | ctrl(또는 cmd) + s |
 | 다른 이름으로 프로젝트 저장 | ctrl(또는 cmd) + shift + s |

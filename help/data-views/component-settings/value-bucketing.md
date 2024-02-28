@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 값 버킷팅은 별도의 차원 항목으로 모든 고유 번호를 처리하는 대신 범위를 함께 그룹화하는 경우에 유용합니다. 예를 들어 ‘5에서 최대 10 사이’ 버킷이 Analysis Workspace에 ‘5에서 10까지’ 라인 항목으로 나타납니다.
 
-버킷 차원과 버킷이 아닌 차원 모두에서 유연한 보고를 실시하려는 경우 구성 요소 복사본 2개를 사용 가능한 차원 목록으로 드래그합니다. 한 차원에서 버킷팅을 활성화하고 다른 차원에서 비활성화합니다.
+버킷 차원과 버킷이 아닌 차원 모두에서 유연한 보고를 실시하려는 경우 구성 요소 복사본 2개를 사용 가능한 차원 목록으로 끌어옵니다. 한 차원에서 버킷팅을 활성화하고 다른 차원에서 비활성화합니다.
 
 | 설정 | 설명 |
 | --- | --- |

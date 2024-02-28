@@ -1,30 +1,30 @@
 ---
-description: 작업 영역의 폴더 정보 알아보기
+description: Workspace의 폴더 정보 알아보기
 keywords: Analysis Workspace
 title: 폴더 개요
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Analytics의 폴더 정보
 
-Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **작업 영역** > **프로젝트**&#x200B;를 선택하는 경우 표시되는 폴더 관리 시스템입니다.
+Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **Workspace** > **프로젝트**&#x200B;를 선택하는 경우 표시되는 폴더 관리 시스템입니다.
 
-작업 영역의 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 또한, 공유 회사 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 작업 영역 사용자와 공유할 수 있게 합니다.
+Workspace의 폴더는 사용자가 더 나은 검색 및 액세스를 위해 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 또한 공유 회사 폴더를 통해 관리자가 쉽게 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있게 합니다.
 
 프로젝트 목록이 길면 특정 프로젝트로 이동하기 어렵습니다. 폴더 기능을 사용하면 폴더와 하위 폴더를 만들어 프로젝트를 관리할 수 있으므로 필요할 때 프로젝트를 더 쉽게 찾을 수 있습니다.
 
-작업 영역에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다.
+Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다.
 
-작업 영역에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 생성한 모든 개인 폴더와 함께 프로젝트 목록이 표시됩니다.
+Workspace에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 만든 모든 개인 폴더와 함께 프로젝트 목록이 표시됩니다.
 
-![프로젝트 및 회사 폴더를 나열하는 프로젝트 홈 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![프로젝트와 회사 폴더가 나열된 프로젝트 홈 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## 회사 폴더 정보 {#company-folder}
 
@@ -32,22 +32,22 @@ Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **작업 영역** 
 
 관리자는 모든 사용자와 프로젝트를 빠르게 공유하고 사용자 그룹의 하위 폴더에 프로젝트를 그룹화할 수 있습니다. 예를 들어 마케터가 조사를 시작하는 데 사용할 프로젝트 세트가 있는 경우 회사 폴더 내에 마케팅 폴더를 만든 다음 선택한 프로젝트를 마케팅 폴더에 배치할 수 있습니다. 이를 통해 공유 프로젝트에 신속하게 직접 액세스할 수 있으며 마케팅 팀이 어디서부터 일반적인 파일을 검색해야 하는지 쉽게 알 수 있습니다.
 
-사용자가 작업 영역에 로그인하면 회사 폴더가 프로젝트 및 폴더 목록에 자동으로 추가됩니다. 회사 폴더에 포함된 프로젝트에 대해 특정 권한은 없습니다.
+사용자가 Workspace에 로그인하면 회사 폴더가 프로젝트 및 폴더 목록에 자동으로 추가됩니다. 회사 폴더에 포함된 프로젝트에 대해 특정 권한은 없습니다.
 
 
 ### 관리자 옵션 {#admin-options}
 
 관리자에게는 회사 폴더에 할당된 특별한 권한이 있습니다. 예를 들어 관리자만 회사 폴더에 폴더 또는 프로젝트를 추가하거나 제거할 수 있습니다. 관리자 액세스 권한이 없는 사용자는 회사 폴더의 콘텐츠를 볼 수 있습니다.
 
-![관리자 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![관리 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 관리자가 아닌 사용자는 이 기능을 제한적으로 사용할 수 있습니다.
 
-![폴더에 대한 비관리 옵션이 표시되는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![폴더에 대한 비관리자 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### 회사 폴더 지침 {#company-folder-guidelines}
 
-- 관리자는 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 생성하고 회사 폴더에 저장할 수 있습니다. 관리자가 아닌 사용자는 회사 폴더의 콘텐츠를 볼 수 있습니다.
+- 관리자는 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 만들고 회사 폴더에 저장할 수 있습니다. 관리자가 아닌 사용자는 회사 폴더의 콘텐츠를 볼 수 있습니다.
 
 - 관리자는 회사 폴더 내에 하위 폴더를 만들 수 있습니다.
 

@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 91%
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
-   ![줄임표 옵션.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![줄임표 옵션입니다.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. **다음으로 이동**&#x200B;을 선택한 후 프로젝트를 이동할 폴더를 선택합니다.
 
-   ![위치 선택 창.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![위치 선택 창입니다.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. **이동**&#x200B;을 클릭합니다.
 
-   ![이동을 누릅니다.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![이동](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)을 클릭합니다.
 
    프로젝트가 이동되었다는 확인 알림이 표시됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
-   ![줄임표 옵션.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![줄임표 옵션입니다.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. **삭제**&#x200B;를 선택합니다.
 

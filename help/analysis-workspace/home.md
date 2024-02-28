@@ -7,15 +7,15 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Analysis Workspace 개요
 
-Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그하여 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
+Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 끌어다 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
 
 다음 비디오는 가능한 예와 함께 간략한 개요를 제공합니다.
 
@@ -25,14 +25,14 @@ Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이
 
 다음 이미지와 함께 제공되는 표는 Analysis Workspace의 일부 주요 영역을 설명합니다.
 
-![맨 왼쪽 레일과 왼쪽 레일, 캔버스 및 데이터 보기 드롭다운 메뉴가 강조 표시된 Analysis Workspace 창.](assets/analysis-workspace-overvew.png)
+![맨 왼쪽 및 왼쪽 레일, 캔버스 및 데이터 보기 드롭다운 메뉴가 강조 표시된 Analysis Workspace 창입니다.](assets/analysis-workspace-overvew.png)
 
 | 이미지의 위치 | 이름 및 기능 |
 |---------|----------|
 | A | **맨 왼쪽 레일:** Analysis Workspace에 패널, 시각화 및 구성 요소를 추가하기 위한 탭이 포함되어 있습니다. 데이터 사전을 여는 데 사용되는 데이터 사전 아이콘도 포함되어 있습니다. |
 | B | **왼쪽 레일:** 맨 왼쪽 레일에서 선택한 탭에 따라 이 영역에는 개별 패널, 시각화 또는 구성 요소가 포함됩니다. |
-| C | **캔버스:** 왼쪽 레일에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널, 시각화 및 구성 요소를 캔버스에 추가하면 프로젝트가 동적으로 업데이트됩니다. |
-| D | **데이터 보기 드롭다운 메뉴:** Analysis Workspace의 각 패널에 대해 데이터 보기 드롭다운 메뉴를 사용하여 데이터 소스로 사용할 데이터 보기를 선택할 수 있습니다. |
+| C | **캔버스:** 왼쪽 레일에서 콘텐츠를 끌어와 프로젝트를 빌드하는 기본 영역입니다. 패널, 시각화 및 구성 요소를 캔버스에 추가하면 프로젝트가 동적으로 업데이트됩니다. |
+| D | **데이터 보기 드롭다운 메뉴:** Analysis Workspace의 각 패널에 대해 데이터 보기 드롭다운 메뉴를 사용하면 데이터 소스로 사용할 데이터 보기를 선택할 수 있습니다. |
 
 ## Analysis Workspace의 기능 {#analysis}
 
@@ -70,7 +70,7 @@ Analysis Workspace의 구성 요소는 다음으로 구성됩니다.
 
 이러한 각 구성 요소 유형을 시각화(예: Freeform 테이블)에 추가하여 비즈니스 질문에 대한 답변을 시작할 수 있습니다.
 
-구성 요소 용어를 이해한 후 구성 요소를 시각화(자유 형식 테이블 포함)로 드래그하여[분석을 빌드](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)할 수 있습니다.
+구성 요소 용어를 이해한 후 구성 요소를 시각화(자유 형식 테이블 포함)로 끌어와 [분석을 빌드](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)할 수 있습니다.
 
 ![](assets/build-components.png)
 
@@ -109,6 +109,6 @@ Analysis Workspace에서 분석을 만들면 작업이 [자동으로 저장됩�
 * Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
 * 새 기능을 위한 업데이트에 대해서는 [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)를 참조하십시오.
 * Analysis Workspace에 익숙해지는 가장 좋은 방법은 Analysis Workspace 교육 튜토리얼 템플릿을 사용하는 것입니다. 이 템플릿은 Workspace에 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내합니다. 튜토리얼을 시작하려면 다음 작업을 수행하십시오.
-   1. Adobe Analytics의 [!UICONTROL **작업 영역**]&#x200B;에서 왼쪽의 **[!UICONTROL 학습]**&#x200B;을 선택합니다.
+   1. Adobe Analytics의 [!UICONTROL **Workspace**]&#x200B;에서 왼쪽의 **[!UICONTROL 학습]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 튜토리얼 열기]**를 선택합니다.
       ![](assets/training-tutorial.png)
