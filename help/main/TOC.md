@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
+source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 78%
+source-wordcount: '1058'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
 
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
+   + [2024 릴리스](../release-notes/2024.md)
    + [2023년 릴리스](../release-notes/2023.md)
    + [2022년 릴리스](../release-notes/2022.md)
    + [2021년 릴리스](../release-notes/2021.md)
@@ -298,7 +299,7 @@ ht-degree: 78%
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
 
-+ 활동 관리자 보고 {#reporting-activity-manager}
++ 보고 활동 관리자 {#reporting-activity-manager}
    + [개요](../reporting-activity-manager/reporting-activity-overview.md)
    + [보고 활동 보기](../reporting-activity-manager/reporting-activity.md)
    + [보고 요청 취소](../reporting-activity-manager/reporting-activity-cancel-requests.md)
