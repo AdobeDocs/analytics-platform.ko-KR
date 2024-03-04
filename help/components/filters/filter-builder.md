@@ -2,9 +2,8 @@
 description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 Dimension, 필터 및 이벤트를 필터 개인으로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이 통합 개발 도구를 사용하여 방문과 이벤트 전반에 걸쳐 개인 속성 및 작업을 식별하는 간단하거나 복잡한 필터를 작성하고 저장할 수 있습니다.
 title: 필터 빌드
 feature: Filters
-exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c19309488e0a541b522ca6925c7ca2bdb90f2390
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 20%
