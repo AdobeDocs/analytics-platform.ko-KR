@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
+source-git-commit: 449aa54d1a1dd1ff2ce9e7408926f61533fc3c02
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 98%
+source-wordcount: '2765'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,16 @@ ht-degree: 98%
 
 ## 사전 요구 사항
 
-다음을 보유해야 합니다. **선택** 패키지 : 연결에 이벤트 데이터 세트를 무제한으로 추가합니다. 다음 **Foundation** 패키지는 하나의 이벤트 데이터 세트로 제한됩니다. 연결에 프로필 또는 조회 데이터 세트를 무제한으로 추가할 수 있습니다. 보유하고 있는 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우 관리자에게 문의하십시오.&#x200B;
+연결에 추가할 수 있는 데이터 세트 수는 100개로 제한됩니다. 혼합은 회사에서 구매한 Customer Journey Analytics 패키지에 따라 다릅니다.
+
+| **선택** 패키지 | **Foundation** 패키지 |
+| --- | --- |
+| 이벤트/프로필/조회 데이터 세트의 모든 조합, 최대 100개 추가 | 연결당 하나의 이벤트 데이터 세트 |
+|  | 연결당 최대 99개의 프로필 또는 조회 데이터 세트 |
+
+{style="table-layout:auto"}
+
+어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오&#x200B;.
 
 ## 연결 만들기 및 구성 {#create-connection}
 
