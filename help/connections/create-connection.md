@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 449aa54d1a1dd1ff2ce9e7408926f61533fc3c02
+source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2766'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 ## 사전 요구 사항
 
-연결에 추가할 수 있는 데이터 세트 수는 100개로 제한됩니다. 혼합은 회사에서 구매한 Customer Journey Analytics 패키지에 따라 다릅니다.
+연결에 추가할 수 있는 최대 데이터 세트 수가 100개로 제한됩니다. 혼합은 회사에서 구매한 Customer Journey Analytics 패키지에 따라 다릅니다.
 
 | **선택** 패키지 | **Foundation** 패키지 |
 | --- | --- |
