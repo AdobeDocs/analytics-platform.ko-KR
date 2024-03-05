@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 949f0870c8607879d4f685f4fbeb838ddb68f80a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics의 차원 및 지표 대부분은 Adobe Experience Pl
 | [!UICONTROL 사람] | 지표 | [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
 | [!UICONTROL 세션] | 지표 | 데이터 보기의 세션 설정을 기반으로 합니다. |
 | [!UICONTROL 이벤트] | 지표 | [!UICONTROL 연결]의 모든 이벤트 데이터 세트의 행 수입니다. |
-| [!UICONTROL 초] | 차원 | 특정 이벤트기 발생한 시간(초)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 초이고 마지막 차원 항목은 날짜 범위에서 마지막 초입니다. |
+| [!UICONTROL 초] | 차원 | 특정 이벤트기 발생한 시간(초)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시산(초)이고 마지막 차원 항목은 날짜 범위에서 마지막 시간(초)입니다. |
 | [!UICONTROL 분] | 차원 | 특정 이벤트기 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 마지막 분입니다. |
 | [!UICONTROL 시간] | 차원 | 특정 이벤트기 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. |
 | [!UICONTROL 일] | 차원 | 특정 이벤트기 발생한 시간(일)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
