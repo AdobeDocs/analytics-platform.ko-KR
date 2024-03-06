@@ -1,14 +1,14 @@
 ---
 title: 빈도 보기
-description: 사용 빈도별로 참여를 측정합니다.
-feature: Guided Analysis
+description: 사용 빈도로 참여도를 측정합니다.
+feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 1%
 쿼리 레일을 사용하면 다음 구성 요소를 구성할 수 있습니다.
 
 * **[!UICONTROL 보기]**: 이 보기 유형과 [사용](usage.md).
-* **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 선택한 각 이벤트는 별도의 그래프로 표시됩니다. 트렌드 이벤트를 나타내는 행이 표에 추가됩니다. 최대 5개의 이벤트를 포함할 수 있습니다.
+* **[!UICONTROL 이벤트]**: 측정하려는 이벤트입니다. 선택한 각 이벤트는 별도의 그래프로 표시됩니다. 트렌드 이벤트를 나타내는 행이 표에 추가됩니다. 최대 5개의 이벤트를 포함할 수 있습니다.
 * **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션은 다음과 같습니다 [!UICONTROL 사용자],  [!UICONTROL 세션],  [!UICONTROL 사용자 비율] 및  [!UICONTROL 세션의 백분율]. 이 보기의 백분율 기반 지표에 대한 분모는 제품의 모든 활성 사용자가 아니라 선택한 이벤트를 수행한 사용자 또는 세션입니다.
-* **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 선택한 각 세그먼트는 차트의 막대 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
+* **[!UICONTROL 세그먼트]**: 측정하려는 세그먼트입니다. 선택한 각 세그먼트는 차트의 막대 수와 테이블의 행 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
 
 ## 차트 설정
 

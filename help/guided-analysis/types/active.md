@@ -1,14 +1,14 @@
 ---
 title: 활성 보기
-description: 신규, 보존, 재방문 또는 휴면 상태의 사용자를 식별합니다.
+description: 신규, 유지, 복귀 또는 휴면 상태를 식별합니다.
 exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
-feature: Guided Analysis
+feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 

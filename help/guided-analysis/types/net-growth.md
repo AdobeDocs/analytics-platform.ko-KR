@@ -1,14 +1,14 @@
 ---
 title: 순 성장 전망
 description: 사용자가 증가하고 있습니까, 감소하고 있습니까?
-feature: Guided Analysis
+feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
