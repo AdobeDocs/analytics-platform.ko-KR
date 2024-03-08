@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
 workflow-type: tm+mt
 source-wordcount: '2766'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 97%
 
 ## 사전 요구 사항
 
-연결에 추가할 수 있는 최대 데이터 세트 수가 100개로 제한됩니다. 혼합은 회사에서 구매한 Customer Journey Analytics 패키지에 따라 다릅니다.
+연결에 추가할 수 있는 최대 데이터 세트 수가 100개로 제한됩니다. 혼합은 귀사에서 구매한 Customer Journey Analytics 패키지의 종류에 따라 다릅니다.
 
-| **선택** 패키지 | **Foundation** 패키지 |
+| **셀렉트** 패키지 | **파운데이션** 패키지 |
 | --- | --- |
-| 이벤트/프로필/조회 데이터 세트의 모든 조합, 최대 100개 추가 | 연결당 하나의 이벤트 데이터 세트 |
+| 이벤트/프로필/조회 데이터 세트의 모든 조합, 최대 100개까지 추가 | 연결당 하나의 이벤트 데이터 세트 |
 |  | 연결당 최대 99개의 프로필 또는 조회 데이터 세트 |
 
 {style="table-layout:auto"}
 
-어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오&#x200B;.
+보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.&#x200B;
 
 ## 연결 만들기 및 구성 {#create-connection}
 
