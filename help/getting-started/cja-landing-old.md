@@ -7,10 +7,10 @@ feature: Basics
 role: User, Admin, Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일�
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>새 항목 또는 중요 항목</b> </p> <p> 
      <ul>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/stitching/overview.html"> 교차 채널 분석(Customer Journey Analytics에서의 ID 결합) </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko-KR">Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=ko-KR"> 보고서 세트를 다른 스키마와 결합 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=ko-KR"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=ko-KR"> Adobe Analytics 및 Customer Journey Analytics 보고 기능 간의 데이터 처리 비교 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=ko"> 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html">Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html"> 보고서 세트를 다른 스키마와 결합 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html"> 처리 규칙, VISTA 및 분류 대 데이터 준비 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html"> Adobe Analytics 및 Customer Journey Analytics 보고 기능 간의 데이터 처리 비교 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html"> 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko-KR"> Adobe Analytics에서 Customer Journey Analytics로의 진화 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html?lang=ko-KR"> Adobe Analytics 사용자를 위한 Customer Journey Analytics 사용 안내서 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#connection-detail"> 강화된 연결 관리 기능 사용 </a> </li>

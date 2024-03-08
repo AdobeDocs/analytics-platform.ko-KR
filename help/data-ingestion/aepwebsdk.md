@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 84%
@@ -104,7 +104,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field.png)
 
@@ -134,7 +134,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -232,7 +232,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 이제 데이터스트림을 구성하여 웹 사이트에서 수집한 데이터를 Adobe Experience Platform의 데이터 세트로 전달합니다.
 
-데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en)를 참조하십시오.
+데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)를 참조하십시오.
 
 
 

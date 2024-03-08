@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '3214'
-ht-degree: 78%
+source-wordcount: '3208'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 2월** | |
-| 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>또한 다음에 대한 간소화된 정보 [개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
+| 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>[개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 클라우드 내보내기 위치를 구성할 때 Amazon S3 역할 ARN 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Amazon S3 역할 ARN 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
@@ -70,8 +70,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Product Analytics | Adobe Product Analytics는 Customer Journey Analytics에서 교차 채널 데이터 및 인사이트와 상호 작용하는 새로운 방법입니다. 이러한 새로운 기능을 통해 제품 팀은 [안내 분석](/help/guided-analysis/overview.md) 워크플로를 통해 제품 경험에 대한 데이터 및 인사이트를 자체 관리할 수 있습니다&#x200B;. |
 | 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (흔히 복잡한) 데이터 조작을 정의할 수 있습니다. |
 | 프로필 및 조회 데이터에 대한 조회 지원이 확장됨 | 프로필 또는 조회 데이터 세트 내의 필드 조회로 데이터 세트를 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) |
-| Report Builder 개선 사항 | <ul><li>[여러 데이터 블록에 대해 셀에서 필터링합니다](/help/report-builder/select-data-view.md)</li><li>[행 및 열 헤더를 표시하거나 숨깁니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=ko#build-the-data-block)</li></ul> |
-| Experience Edge 지역 조회 | [Adobe Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko)는 모든 Experience Edge 사용자에게 통합된 지리적 데이터를 제공하는 지리적 조회 서비스를 추가할 예정입니다. |
+| Report Builder 개선 사항 | <ul><li>[여러 데이터 블록에 대해 셀에서 필터링합니다](/help/report-builder/select-data-view.md)</li><li>[행 및 열 헤더를 표시하거나 숨깁니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
+| 에지 네트워크 지역 조회 | [데이터 스트림 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 은 통합 지역 데이터를 제공하는 지역 조회 서비스를 어떻게 사용합니까? |
 | **2023년 6월** | |
 | 교차 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 교차 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 교차 채널 분석 기능과 관련된 문서가 [교차 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics SQL 커넥터를 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/sql-connector.md) |
@@ -93,7 +93,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2023년 4월** |  |
 | 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 것에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지에 연결되어 있습니다.</p> <p>다음은 [Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html) 비디오에 대한 직접 링크입니다.</p> |
 | 필터 설명서 | [필터 빌더](/help/components/filters/filter-builder.md)를 사용하는 방법에 대한 문서를 추가했습니다. <p>[필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md)의 설명서를 간소화했습니다.</p> |
-| 실험 패널 설명서 업데이트 | [비무작위로 지정되는 차원 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=ko#non-randomized)에 대한 섹션을 추가했습니다. |
+| 실험 패널 설명서 업데이트 | [비무작위로 지정되는 차원 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html#non-randomized)에 대한 섹션을 추가했습니다. |
 | 프로젝트 필터(애드혹 및 빠른 필터) | 프로젝트 필터에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 필터를 만드는 단계는 이제 [빠른 필터를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
 | **2023년 3월** | |
 | 의사 결정 관리 데이터 통합 | [Customer Journey Analytics에 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md) 방법을 설명하는 콘텐츠를 추가했습니다. |
@@ -104,7 +104,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 프로젝트 링크 공유 (로그인 불필요) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사람들과 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md)가 포함되어 있습니다.</p> <p>관리자 옵션이 [환경 설정](/help/analysis-workspace/user-preferences.md)에 추가되었습니다.</p> |
 | **2023년 2월** | |
 | Customer Journey Analytics와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
-| 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#latency)에 대한 새로운 섹션. |
+| 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)에 대한 새로운 섹션. |
 | 대상자 설명서에 대한 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [Customer Journey Analytics 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)를 만듭니다. |
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates)를 참조하십시오. |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새로운 문서 섹션. Customer Journey Analytics의 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates)를 참조하십시오. |
@@ -130,9 +130,9 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [Customer Journey Analytics 감사 로그](/help/privacy/audit-log.md)에 대한 새로운 주제. |
-| 2022년 10월 | [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko) 시각화에 대한 새로운 주제. |
-| 2022년 10월 | [데이터 보기의 날짜 및 날짜-시간 기능](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko#date)에 대한 새로운 섹션 |
-| 2022년 10월 | 모바일 앱: [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko#view-detail-slides)에 대한 새로운 주제. |
+| 2022년 10월 | [주요 지표 요약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) 시각화에 대한 새로운 주제. |
+| 2022년 10월 | [데이터 보기의 날짜 및 날짜-시간 기능](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#date)에 대한 새로운 섹션 |
+| 2022년 10월 | 모바일 앱: [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides)에 대한 새로운 주제. |
 | 2022년 10월 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) 주제에 대한 업데이트. |
 | **2022년 9월** | |
 | 2022년 9월 | [Customer Journey Analytics로의 Google Analytics 데이터 마이그레이션](/help/use-cases/ga/overview.md)에 대한 새로운 사용 사례. |
@@ -147,7 +147,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2022년 7월** | |
 | 2022년 7월 | [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html) 문서. |
 | 2022년 7월 | [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html) 문서. |
-| 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=ko#new-repeat) 보고 문서. |
+| 2022년 7월 | [첫 번째 세션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) 보고 문서. |
 | **2022년 6월** | |
 | 2022년 6월 | [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html) 관련 새로운 문서 |
 | 2022년 6월 | [Adobe Analytics 처리 규칙, VISTA 및 분류 대 Analytics 소스 커넥터에 대한 데이터 준비](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)에 대한 새 문서. |
@@ -170,7 +170,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 3월 | [작업 영역의 주석](/help/components/annotations/overview.md)에 대한 새로운 설명서. |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | **2022년 2월** | |
-| 2022년 2월 | Adobe Analytics에서 Customer Journey Analytics로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko) |
+| 2022년 2월 | Adobe Analytics에서 Customer Journey Analytics로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko-KR) |
 | **2022년 1월** | |
 | 2022년 1월 | [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](/help/data-views/component-settings/persistence.md#allocation-settings) |

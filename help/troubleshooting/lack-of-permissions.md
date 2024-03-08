@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 올바른 액세스 제어 권한이 있는지 확인합니다.
 
-   * Experience Platform 제품이 있는 조직에 대해 시스템 또는 제품 관리자 권한이 있어야 합니다. 다음을 참조하십시오 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 추가 정보.
+   * Experience Platform 제품이 있는 조직에 대해 시스템 또는 제품 관리자 권한이 있어야 합니다. 다음을 참조하십시오 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions) 추가 정보.
 
-   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 수 있는 권한이 없는 경우 관리자에게 문의하십시오. 다음을 참조하십시오 [액세스 제어 계층 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#access-control-hierarchy-and-workflow) 추가 정보.
+   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 수 있는 권한이 없는 경우 관리자에게 문의하십시오. 다음을 참조하십시오 [액세스 제어 계층 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow) 추가 정보.
 
 
 1. Adobe Experience Platform UI로 이동합니다.

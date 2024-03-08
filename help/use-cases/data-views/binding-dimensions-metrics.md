@@ -4,7 +4,7 @@ description: 복잡한 지속성 분석을 위한 개체 배열의 속성 차원
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 83%
@@ -440,4 +440,4 @@ Analysis Workspace는 다른 프로필의 검색을 고려하지 않고 Orangey�
 
 >[!MORELIKETHIS]
 >
->[데이터 보기의 바인딩 Dimension](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=ko) 튜토리얼.
+>[데이터 보기의 바인딩 Dimension](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) 튜토리얼.

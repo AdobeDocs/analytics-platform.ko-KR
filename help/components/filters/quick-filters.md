@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 33%
 
 * 빠른 필터는 해당 필터가 만들어진 프로젝트에만 적용됩니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다.
 * 최대 3개의 규칙이 허용됩니다.
-* 중첩된 컨테이너 또는 순차적 규칙은 지원되지 않습니다.
+* 중첩 컨테이너 또는 순차적 규칙은 지원되지 않습니다.
 
 다음 비디오에서는 빠른 필터를 사용하는 방법을 보여 줍니다. (참고: 이 비디오에서는 &quot;빠른 필터&quot; 대신 &quot;빠른 세그먼트&quot;라는 용어를 사용합니다. 그러나 기능은 동일합니다.)
 
@@ -49,7 +49,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 
      ![세그먼트 필터](assets/quick-seg1.png)
 
-1. 다음 설정을 조정합니다.
+1. 다음 설정 중 하나를 조정합니다.
 
    | 설정 | 설명 |
    | --- | --- |
@@ -61,12 +61,12 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
    | 플러스(+) 기호 | 다른 규칙 추가 |
    | AND/OR 한정자 | 규칙에 “AND” 또는 “OR” 한정자를 추가할 수 있지만 단일 필터 정의에서는 “AND”와 “OR”를 혼합할 수 없습니다. |
    | [!UICONTROL 적용] | 이 필터를 패널에 적용합니다. 필터에 데이터가 포함되지 않은 경우 계속 진행하라는 메시지가 표시됩니다. |
-   | [!UICONTROL 빌더 열기] | 필터 빌더를 엽니다. 필터 빌더에 필터를 저장하거나 적용하면 더 이상 &quot;빠른 필터&quot;로 간주되지 않습니다. 구성 요소 목록의 필터 라이브러리의 일부가 됩니다. <p>모든 프로젝트와 왼쪽 레일에서 구성 요소를 사용할 수 있도록 하려면 옵션을 선택합니다 [!UICONTROL **이 필터를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가합니다.**].</p><p>자세한 내용은 섹션을 참조하십시오 [빠른 필터를 구성 요소 목록 필터로 저장](#save-a-quick-filter-as-a-component-list-filter) 이 문서에서.</p><p>**참고:** 에서 세그먼트 만들기 권한이 있는 사용자만 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko) 필터 빌더를 열 수 있습니다.</p> |
+   | [!UICONTROL 빌더 열기] | 필터 빌더를 엽니다. 필터 빌더에 필터를 저장하거나 적용하면 더 이상 &quot;빠른 필터&quot;로 간주되지 않습니다. 구성 요소 목록의 필터 라이브러리의 일부가 됩니다. <p>모든 프로젝트와 왼쪽 레일에서 구성 요소를 사용할 수 있도록 하려면 옵션을 선택합니다 [!UICONTROL **이 필터를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가합니다.**].</p><p>자세한 내용은 섹션을 참조하십시오 [빠른 필터를 구성 요소 목록 필터로 저장](#save-a-quick-filter-as-a-component-list-filter) 이 문서에서.</p><p>**참고:** 에서 세그먼트 만들기 권한이 있는 사용자만 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR) 필터 빌더를 열 수 있습니다.</p> |
    | [!UICONTROL 취소] | 이 빠른 필터를 취소합니다(적용하지 않음). |
    | [!UICONTROL 날짜 범위] | 유효성 검사기는 패널 날짜 범위를 사용하여 데이터를 조회합니다. 하지만 빠른 필터에 적용되는 날짜 범위는 패널 상단의 패널 날짜 범위를 오버라이드합니다. |
    | 이전(오른쪽 상단) | 유효한 필터가 있는지, 필터의 폭이 얼마나 넓은지 볼 수 있습니다. 이 필터를 적용할 경우 표시될 것으로 예상되는 데이터 세트 분류를 표시합니다. 이 필터에 데이터가 없다는 것을 보여 주는 알림을 수신할 수 있습니다. 이 경우 계속 진행하거나 필터 정의를 변경할 수 있습니다. |
 
-1. 선택 [!UICONTROL **적용**] 변경 사항을 저장합니다.
+1. [!UICONTROL **적용**]&#x200B;을 선택하여 변경 내용을 저장합니다.
 
 ## 빠른 필터 편집 {#edit}
 
@@ -75,7 +75,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
    ![임시 필터 편집](assets/filter-adhoc-edit.png)
 
 1. 필터 정의 또는 필터 이름을 편집합니다.
-1. 선택 [!UICONTROL **적용**] 변경 사항을 저장합니다.
+1. [!UICONTROL **적용**]&#x200B;을 선택하여 변경 내용을 저장합니다.
 
 ## 빠른 필터를 구성 요소 목록 필터로 저장 {#save}
 
@@ -83,13 +83,13 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 >
 > 빠른 필터를 저장할 때 다음 사항을 고려하십시오.
 > 
-> * 빠른 필터를 저장하려면 다음에서 세그먼트 만들기 권한이 필요합니다. [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko).
+> * 빠른 필터를 저장하려면 다음에서 세그먼트 만들기 권한이 필요합니다. [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR).
 > 
 > * 필터를 저장하거나 적용하면 빠른 필터 빌더에서 더 이상 편집할 수 없습니다. 대신 일반 필터 빌더를 사용해야 합니다.
 
 빠른 필터를 구성 요소 목록 필터로 저장하도록 선택할 수 있습니다. 구성 요소 목록 필터의 장점은 다음과 같습니다.
 
-* 모든 Workspace 프로젝트에서 사용 가능
+* 모든 Workspace 프로젝트에서의 가용성
 * 순차적 필터뿐만 아니라 보다 복잡한 필터 지원
 
 빠른 필터 빌더 또는 [!UICONTROL 필터 빌더].
@@ -97,7 +97,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 ### 빠른 필터 빌더에 저장 {#save2}
 
 1. 빠른 필터를 적용하고 나서 커서를 올려놓은 다음 정보 아이콘(&quot;i&quot;)을 선택합니다.
-1. 선택 **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록 추가하기]**.
+1. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 선택합니다.
 1. (선택 사항) 필터 이름을 변경합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -117,7 +117,7 @@ Analysis Workspace의 모든 사용자는 빠른 필터를 만들 수 있습니�
 
 1. 저장된 필터 위에 커서를 놓고 연필 모양의 아이콘을 선택합니다.
 
-1. 선택 [!UICONTROL **빌더 열기**].
+1. [!UICONTROL **빌더 열기**]&#x200B;를 선택합니다.
 
 1. 필터 빌더 상단에 이 대화 상자가 표시됩니다.
 

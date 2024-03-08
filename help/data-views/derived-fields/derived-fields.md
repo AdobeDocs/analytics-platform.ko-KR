@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: cdc82ee0b6562879afa2b955aa05f330e5cd225c
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '5932'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음에서 파생된 필드를 구성 요소(지표 또는 차원)로 사용할 수 있습니다. [작업 영역](../../analysis-workspace/home.md) 또는 파생된 필드를 의 구성 요소로 추가로 정의합니다. [데이터 보기](../data-views.md).
 
-파생 필드는 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 과 같은 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)또는 고유한 ETL(추출 변환 로드) / ELT(추출 로드 변환) 프로세스 내에서 사용할 수 있습니다.
+파생 필드는 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 과 같은 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)또는 고유한 ETL(추출 변환 로드) / ELT(추출 로드 변환) 프로세스 내에서 사용할 수 있습니다.
 
 파생 필드는 다음 내에서 정의됩니다. [데이터 보기](../data-views.md)는 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
@@ -217,7 +217,7 @@ ht-degree: 12%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준] (선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 그런 다음 값을 로 설정합니다.], [!UICONTROL 그렇지 않으면 값을 로 설정하십시오.]:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>이전</li><li>다음 이전이거나 다음과 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>20 [연산자](#operators) 파생 필드별로. 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준] (선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 그런 다음 값을 로 설정합니다.], [!UICONTROL 그렇지 않으면 값을 로 설정하십시오.]:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음보다 이전</li><li>다음보다 이전이거나 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>20 [연산자](#operators) 파생 필드별로. 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -415,7 +415,7 @@ ht-degree: 12%
 
 ## 추가 정보
 
-Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
+Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
 Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사용합니다.
 

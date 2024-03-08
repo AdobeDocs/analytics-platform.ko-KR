@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 이 사용 사례에서는 파생 필드의 기능을 사용하여 특정 차원에 대한 목표를 설정한 다음 작업 영역 프로젝트에서 이러한 목표를 사용하는 방법을 설명합니다.
 
-파생 필드에 익숙하지 않은 경우 [튜토리얼](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=en) 및 [설명서](../data-views/derived-fields/derived-fields.md) 소개.
+파생 필드에 익숙하지 않은 경우 [튜토리얼](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) 및 [설명서](../data-views/derived-fields/derived-fields.md) 소개.
 
 
 ## 목표 정의

@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2091'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
@@ -59,22 +59,22 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 * 여러 프로젝트를 공유하도록 선택하면 수신자가 각 프로젝트에 대한 기존 수신자 목록에 추가됩니다.
 
-  예를 들어 프로젝트 A는 수신자 1, 2 및 3과 이미 공유되고, 프로젝트 B는 수신자 4, 5 및 6과 이미 공유됩니다.
+  예를 들어 프로젝트 A는 수신자 1, 2 및 3에게 공유되고, 프로젝트 B는 수신자 4, 5 및 6에게 공유됩니다.
 
-  그런 다음 프로젝트 A와 B는 수신자 4 및 7과 공유됩니다. 프로젝트 A의 새 공유 목록은 이제 1, 2, 3, 4 및 7이며 프로젝트 B의 새 공유 목록은 4, 5, 6 및 7입니다.
+  그러면 프로젝트 A와 B는 수신자 4와 7에게 공유됩니다. 이제 프로젝트 A에 대한 새 공유 목록은 1, 2, 3, 4 및 7이고 프로젝트 B에 대한 새 공유 목록은 4, 5, 6 및 7입니다.
 
 조직의 사용자 또는 그룹과 특정 프로젝트 역할을 공유하려면 다음 작업을 수행합니다.
 
 1. Customer Journey Analytics에서 [!UICONTROL **작업 영역**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **프로젝트**] 왼쪽 레일에서.
 
-1. 공유할 하나 이상의 프로젝트 옆에 있는 확인란을 선택한 다음 을 선택합니다 [!UICONTROL **공유**].
+1. 공유하려는 한 개 이상의 프로젝트 옆에 있는 확인란을 선택한 다음 [!UICONTROL **공유**]&#x200B;를 선택합니다.
 
    또는
 
-   개별 프로젝트만 공유하려면 공유할 프로젝트를 연 다음 을 선택합니다 **[!UICONTROL 공유]** > **[!UICONTROL 작업 공간 사용자와 공유]**.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
 저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
-   프로젝트 공유 대화 상자가 표시됩니다. 다음 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 대화 상자의 섹션은 단일 프로젝트를 공유할 때만 표시됩니다.
+   프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
 
    ![프로젝트 공유 창.](assets/share-proj-modal.png)
 
@@ -92,11 +92,11 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    * **수신자의 랜딩 페이지로 설정:** 이 페이지를 수신자의 랜딩 페이지로 설정합니다. 이 설정은 공유 시점에만 수행되는 일회성 작업으로, 유지되지 않습니다.
 
-1. 선택 **[!UICONTROL 공유]**. (프로젝트가 이미 공유된 경우 [!UICONTROL **업데이트**].)
+1. **[!UICONTROL 공유]**&#x200B;를 선택합니다. (프로젝트가 이미 공유된 경우 [!UICONTROL **업데이트**]&#x200B;를 선택합니다.)
 
    또는
 
-   선택 **[!UICONTROL 선별 및 공유]** 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**.) [프로젝트 조정](curate.md)에 대한 자세한 내용을 살펴보십시오.
+   **[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**&#x200B;를 선택합니다.) [프로젝트 조정](curate.md)에 대한 자세한 내용을 살펴보십시오.
 
 ## 프로젝트에 대한 링크 공유
 
@@ -158,7 +158,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    이 옵션을 선택하면 모두와 공유할 수 있는 프로젝트 링크가 만들어집니다. 이 옵션을 비활성화하면 언제든지 프로젝트에 대한 액세스를 비활성화할 수 있습니다.
 
-   프로젝트 소유자가 이 링크의 소유자에 해당합니다. Analytics 관리 안내서의 [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=ko-KR)에 설명된 대로 프로젝트 소유권이 이전된 경우에만 링크 소유권을 다른 사용자에게 이전할 수 있습니다.
+   프로젝트 소유자가 이 링크의 소유자에 해당합니다. Analytics 관리 안내서의 [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html)에 설명된 대로 프로젝트 소유권이 이전된 경우에만 링크 소유권을 다른 사용자에게 이전할 수 있습니다.
 
 1. 다음 보안 옵션을 사용할지 여부를 선택합니다(이 옵션은 Customer Journey Analytics 관리자가 제어할 수 있음).
 
@@ -182,11 +182,11 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하여 공유 대화 상자를 닫습니다. 변경 내용은 자동으로 저장됩니다.
 
-## 나와 공유된 프로젝트 보기
+## 사용자와 공유한 프로젝트 보기
 
-다음 방법으로 누군가가 나와 프로젝트를 공유하는 경우 [특정 프로젝트 역할 공유](#share-a-specific-project-role)에서 공유 프로젝트에 액세스할 수 있습니다. [Analytics 랜딩 페이지의 프로젝트 탭](/help/getting-started/landing.md#navigate-the-projects-tab).
+누군가가 [특정 프로젝트 역할을 공유](#share-a-specific-project-role)하여 사용자와 프로젝트를 공유하는 경우 [Analytics 랜딩 페이지의 프로젝트 탭](/help/getting-started/landing.md#navigate-the-projects-tab)에서 공유 프로젝트에 액세스할 수 있습니다.
 
-다른 사용자가 링크를 공유하여 프로젝트를 귀하와 공유하는 경우(다음 중 하나에서) [프로젝트 탭 공유](#share-a-link-to-a-project) 또는 를 사용하여 [모든 사람과 공유 링크](#share-a-project-with-anyone-no-login-required))을 클릭하여 프로젝트에 액세스하려는 경우 공유된 링크를 사용해야 합니다. 예를 들어 링크가 이메일, 내부 웹 사이트 등에 공유되었을 수 있습니다.
+다른 사용자가 링크를 공유하여 프로젝트를 귀하와 공유하는 경우(다음 중 하나에서) [프로젝트 탭 공유](#share-a-link-to-a-project) 또는 를 사용하여 [모든 사람과 공유 링크](#share-a-project-with-anyone-no-login-required))을 클릭하여 프로젝트에 액세스하려는 경우 공유된 링크를 사용해야 합니다. 예를 들어 링크가 이메일, 내부 웹 사이트 등을 통해 공유되었을 수 있습니다.
 
 ## 임베드된 구성 요소 공유
 

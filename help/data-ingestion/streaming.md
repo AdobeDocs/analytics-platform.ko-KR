@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 85%
@@ -116,7 +116,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -237,7 +237,7 @@ HTTP API 소스 커넥터를 만드는 경우:
 
 스트리밍 엔드포인트 URL을 복사하여 사용하면 데이터를 Adobe Experience Platform 로열티 데이터 세트로 스트리밍하는 로열티 애플리케이션을 구성할 수 있습니다.
 
-다음을 참조하십시오 [UI를 사용하여 HTTP API 스트리밍 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ko) 을 설명하는 훨씬 더 포괄적인 튜토리얼을 보려면 다음을 수행하십시오.
+다음을 참조하십시오 [UI를 사용하여 HTTP API 스트리밍 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) 을 설명하는 훨씬 더 포괄적인 튜토리얼을 보려면 다음을 수행하십시오.
 
 - 인증 사용 방법,
 - 들어오는 데이터가 XDM 스키마와 호환되지 않을 때 데이터를 매핑하는 방법 및

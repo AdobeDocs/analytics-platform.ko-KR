@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 56%
@@ -64,7 +64,7 @@ ht-degree: 56%
    | [!UICONTROL 예상 반환] | 이 숫자는 드롭다운 목록에서 선택한 시간대 동안 돌아오는 예상 고객 수를 알려 줍니다. 이 숫자를 예측하기 위해 이 대상자의 과거 이탈률을 살펴봅니다. |
    | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 평균 사이트에서 보낸 시간]&#39;과 같이 특정 지표를 보고 이 지표에 불균형적인 양을 기여하는지 확인할 수 있습니다. 지표의 집계 카운트와 지표가 나타내는 총계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
    | [!UICONTROL 네임스페이스 포함됨] | 대상자의 인원과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
-   | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
+   | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
 
    {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ ht-degree: 56%
 
    모든 것이 잘 진행되면 대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 걸리지 않습니다. (수백만 명의 멤버를 보유한 대상자도 5분 미만이 소요됩니다.)
 
-1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko-KR)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
+1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
 ## 대상자가 생성된 후 진행되는 상황? {#after-audience-created}
 
@@ -141,7 +141,7 @@ Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스
 
 +++**Customer Journey Analytics은 어떤 ID를 전송합니까?**
 
-에 지정된 ID/네임스페이스 쌍 [연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#create-connection). 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
+에 지정된 ID/네임스페이스 쌍 [연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
 
 +++
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 70%
@@ -21,7 +21,7 @@ ht-degree: 70%
 >모든 시나리오에서, Customer Journey Analytics에 _사용_&#x200B;하려는 데이터는 실제로 Adobe Experience Platform에서 _수집_&#x200B;됩니다.
 
 
-앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
+앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
 
 ![이 섹션에 설명된 Customer Journey Analytics 아키텍처](./assets/cja-architecture.png)
 

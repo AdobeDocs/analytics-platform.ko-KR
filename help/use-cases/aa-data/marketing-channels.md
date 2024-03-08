@@ -5,7 +5,7 @@ exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 61%
@@ -19,7 +19,7 @@ ht-degree: 61%
 ## 사전 요구 사항
 
 * 보고서 세트 데이터는 를 사용하여 Adobe Experience Platform으로 이미 가져와야 합니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR). 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
-* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 다음을 참조하십시오 [마케팅 채널의 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=ko-KR) Adobe Analytics 구성 요소 안내서에서 참조할 수 있습니다.
+* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 다음을 참조하십시오 [마케팅 채널의 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html) Adobe Analytics 구성 요소 안내서에서 참조할 수 있습니다.
 
 ## 마케팅 채널 스키마 요소
 

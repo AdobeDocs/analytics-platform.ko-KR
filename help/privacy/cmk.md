@@ -4,7 +4,7 @@ description: Customer Journey Analytics을 위해 고객 관리 키를 설정하
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 57%
@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics은 다음 옵션을 제공합니다. [헬스케
 
 >[!NOTE]
 >
->고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=ko-KR) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
+>고객 관리 키는 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 ## Customer Journey Analytics을 위한 CMK 설정
 
@@ -33,4 +33,4 @@ Customer Journey Analytics을 위해 CMK를 설정하려면 다음 단계를 따
 
 1. Adobe 고객 지원 센터에서 해당 Customer Journey Analytics 데이터에 대한 CMK 신청이 완료되었음을 확인합니다.
 
-Platform에서 사용하는 모든 데이터는 CMK의 유무에 관계없이 데이터를 안전하게 유지하기 위해 전송 중이거나 사용하지 않을 때 암호화됩니다. Adobe Experience Platform 암호화에 대한 [자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko-KR)을 살펴보십시오.
+Platform에서 사용하는 모든 데이터는 CMK의 유무에 관계없이 데이터를 안전하게 유지하기 위해 전송 중이거나 사용하지 않을 때 암호화됩니다. Adobe Experience Platform 암호화에 대한 [자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko)을 살펴보십시오.

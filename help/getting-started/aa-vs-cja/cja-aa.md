@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
-workflow-type: ht
-source-wordcount: '2032'
-ht-degree: 100%
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
+source-wordcount: '1964'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | --- | --- |
 | 예외 항목 탐지 | 전체 지원 |
 | Attribution IQ | 전체 지원 |
-| 봇 탐지 | *곧 제공 예정!* [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반 데이터 세트의 경우 보트 필터링이 적용됩니다. 다른 데이터 세트에 대한 일반 봇 탐지 논리는 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ko-KR)에서 수행됩니다. |
+| 봇 탐지 | [전체 지원](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) |
 | 계산된 지표 | 전체 지원. 기존 Analysis Workspace의 기존 계산된 지표는 Customer Journey Analytics에 포팅되지 않습니다. |
 | 캘린더 이벤트 | 전체 지원. 캘린더 이벤트가 Workspace의 [주석](/help/components/annotations/overview.md)으로 구현되었습니다. |
 | CSV 다운로드 | 전체 지원 |
@@ -60,18 +60,18 @@ ht-degree: 100%
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
 | 사용자 정의 세션 길이 | 세션 길이는 데이터 보기의 [세션 설정](../../data-views/create-dataview.md#session-settings)을 통해 구성할 수 있습니다. 자세한 내용은 [세션 설정](../../data-views/session-settings.md)을 참조하시기 바랍니다. <br/>모바일 배경 이벤트 처리는 Adobe Experience Platform Mobile SDK를 통해 지원됩니다. 자세한 내용은 [Edge Network의 라이프사이클](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)을 참조하십시오. |
-| 통화 전환 | 데이터 보기에서 [지표 구성 요소 서식을 지정하는](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=ko-KR#currency) 일부로 지원됩니다. |
+| 통화 전환 | 데이터 보기에서 [지표 구성 요소 서식을 지정하는](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html#currency) 일부로 지원됩니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
 | 사용자 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 Experience Platform으로 업로드해야 합니다. |
-| 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko-KR)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko-KR)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
+| 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | Data Warehouse 보고 | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 Customer Journey Analytics에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
-| 지리 특성 차원 | Adobe Analytics에 수집된 모든 지리 특성/지역은 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 통해 Customer Journey Analytics로 전송됩니다. 디지털 데이터 수집에 Analytics 소스 커넥터가 아닌 Experience Platform Web SDK를 사용하는 구현의 경우 [Experience Edge 지역 조회 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR)를 사용할 수 있습니다. |
+| 지리 특성 차원 | [전체 지원](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR) |
 | IP 난독화 | Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 Customer Journey Analytics로 데이터를 가져오는 Customer Journey Analytics 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정이 Customer Journey Analytics 데이터로 흐릅니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Experience Platform Web SDK를 사용하여 Platform 및 Customer Journey Analytics로 데이터를 직접 가져오는 Customer Journey Analytics 고객의 경우. 데이터 수집을 위한 데이터 준비를 사용하면 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
 | 마케팅 채널 | Analytics 소스 커넥터를 사용하는 경우 마케팅 채널 데이터는 해당 커넥터를 통해 Customer Journey Analytics로 흐릅니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [Customer Journey Analytics 마케팅 채널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)를 참조하십시오. <br/>Web SDK 구현의 경우 보고 시 마케팅 채널 처리 규칙은 [파생 필드](../../data-views/derived-fields/derived-fields.md)를 통해 지원됩니다. |
 | 지표 중복 제거 | 이제 데이터 보기 내의 지표에 대해 구성됩니다. 지표 중복 제거는 데이터 세트, 데이터 보기 또는 연결 수준이 아닌 개인 또는 세션 수준에서 발생합니다. |
-| 새 세션 보고와 반복 세션 보고 비교 | 이전에는 방문 수 차원을 사용하여 수행했습니다. 새 세션과 반복 세션은 [13개월 조회 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=ko-KR)으로 지원됩니다. |
+| 새 세션 보고와 반복 세션 보고 비교 | 이전에는 방문 수 차원을 사용하여 수행했습니다. 새 세션과 반복 세션은 [13개월 조회 기간](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html)으로 지원됩니다. |
 | 처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙 | Web SDK 기반 데이터 세트와 Analytics 소스 커넥터의 데이터 모두에 대해 Adobe Experience Platform Data Prep 기능과 [파생 필드](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html)를 사용하여 지원됩니다. |
 | Products 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 오브젝트 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. Customer Journey Analytics 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 Customer Journey Analytics 사용자 사이에서만 지원됩니다. Customer Journey Analytics와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |

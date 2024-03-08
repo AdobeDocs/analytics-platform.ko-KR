@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '2789'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Customer Journey Analytics SQL Connector]를 통해 SQL은 Customer Journey Analytics에서 정의한 [데이터 보기](./data-views.md)에 액세스할 수 있습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 생성할 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics SQL Connector]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics SQL Connector]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
 
 주요 이점은 다음과 같습니다.
 
@@ -44,7 +44,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
    - Customer Journey Analytics Workspace 프로젝트 및
    - 사용하려는 Customer Journey Analytics 데이터 보기.
 
-- 만료되지 않는 자격 증명에 대한 만료를 사용하여 BI 도구를 Customer Journey Analytics SQL 커넥터에 연결합니다. [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=ko)에서는 만료될 예정인 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
+- 만료되지 않는 자격 증명에 대한 만료를 사용하여 BI 도구를 Customer Journey Analytics SQL 커넥터에 연결합니다. [자격 증명 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html)에서는 만료될 예정인 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
 
 자세한 내용은 Customer Journey Analytics 관리 섹션의 [액세스 제어](../admin/cja-access-control.md)를 참조하십시오.
 
@@ -117,7 +117,7 @@ Experience Platform UI에서 다음을 수행합니다.
 
       2. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드의 Experience Platform 쿼리 [!UICONTROL 자격 증명]에서 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
 
-         예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=ko)를 참조하십시오.
+         예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)를 참조하십시오.
 
       3. **[!UICONTROL **&#x200B;데이터 연결&#x200B;**]** 모드를 묻는 메시지가 나타나면 **[!UICONTROL ** DirectQuery **]**&#x200B;를 선택하여 데이터 구조가 제대로 평면화되었는지 확인합니다.
 
@@ -131,7 +131,7 @@ Experience Platform UI에서 다음을 수행합니다.
 
    하나 이상의 선택한 테이블과 연결된 모든 차원 및 지표가 오른쪽 창에 표시되어 시각화에 사용할 수 있습니다.
 
-   자세한 내용은 [Power BI를 Query Service에 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html?lang=ko)을 참조하십시오.
+   자세한 내용은 [Power BI를 Query Service에 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html)을 참조하십시오.
 
 +++
 
@@ -159,7 +159,7 @@ Experience Platform UI에서 다음을 수행합니다.
 
       3. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
 
-         예를 들어 `prod:cja%3FFLATTEN`처럼 읽히도록 `%3FFLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=ko)를 참조하십시오.
+         예를 들어 `prod:cja%3FFLATTEN`처럼 읽히도록 `%3FFLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)를 참조하십시오.
 
       4. **[!UICONTROL **&#x200B;인증&#x200B;**]** 목록에서 **[!UICONTROL **&#x200B;사용자 이름 및 암호&#x200B;**]**&#x200B;를 선택합니다.
 
@@ -175,11 +175,11 @@ Experience Platform UI에서 다음을 수행합니다.
 
    이제 데이터 보기 테이블의 데이터를 사용하여 보고서 및 시각화를 빌드할 수 있습니다.
 
-   자세한 내용은 [Query Service에 Tableau 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=ko)을 참조하십시오.
+   자세한 내용은 [Query Service에 Tableau 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html)을 참조하십시오.
 
 +++
 
-사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ko)을 참조하십시오.
+사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html)을 참조하십시오.
 
 ## 기능
 
@@ -219,11 +219,11 @@ prod:all=> \dv
 
 ### 중첩 및 평면화
 
-기본적으로 데이터 보기의 스키마는 원래 XDM 스키마와 마찬가지로 중첩 구조를 사용합니다. 또한 통합은 `FLATTEN` 옵션을 지원합니다. 이 옵션을 사용하면 데이터 보기(및 세션의 다른 테이블)에 대한 스키마를 강제로 평면화할 수 있습니다. 평면화를 사용하면 구조화된 스키마를 지원하지 않는 BI 도구를 더 쉽게 사용할 수 있습니다. 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=ko)을 참조하십시오.
+기본적으로 데이터 보기의 스키마는 원래 XDM 스키마와 마찬가지로 중첩 구조를 사용합니다. 또한 통합은 `FLATTEN` 옵션을 지원합니다. 이 옵션을 사용하면 데이터 보기(및 세션의 다른 테이블)에 대한 스키마를 강제로 평면화할 수 있습니다. 평면화를 사용하면 구조화된 스키마를 지원하지 않는 BI 도구를 더 쉽게 사용할 수 있습니다. 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)을 참조하십시오.
 
 ### 지원되는 SQL
 
-지원되는 SQL 유형에 대한 전체 참조는 [Query Service SQL 참조](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=ko)를 확인하십시오.
+지원되는 SQL 유형에 대한 전체 참조는 [Query Service SQL 참조](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html)를 확인하십시오.
 
 사용할 수 있는 SQL의 예는 아래 테이블을 참조하십시오.
 

@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 15%
@@ -37,7 +37,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 | B2B 마케팅 목록 데이터 세트 | B2B 마케팅 목록 스키마 | 조회 | XDM 마케팅 목록 | XDM 비즈니스 마케팅 목록은 마케팅 목록의 최소 필요 속성을 캡처하는 표준 경험 데이터 모델(XDM) 클래스입니다. 마케팅 목록을 사용하면 제품을 구매할 가능성이 가장 높은 잠재 고객을 우선 지정할 수 있습니다. |
 | B2B 마케팅 목록 구성원 데이터 세트 | B2B 마케팅 목록 구성원 스키마 | 조회 | XDM 마케팅 목록 멤버 | XDM 비즈니스 마케팅 목록 멤버는 마케팅 목록과 연계된 멤버, 사용자 또는 연락처를 설명하는 표준 경험 데이터 모델(XDM) 클래스입니다. |
 
-조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. 에서 스키마 보기 [Real-time Customer Data Platform 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html?lang=en) 및 [Real-time Customer Data Platform B2B 에디션에서 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html?lang=en) 을 참조하십시오.
+조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. 에서 스키마 보기 [Real-time Customer Data Platform 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) 및 [Real-time Customer Data Platform B2B 에디션에서 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) 을 참조하십시오.
 
 ![B2B 스키마 간의 관계](assets/classes.png)
 

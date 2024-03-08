@@ -5,8 +5,8 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 다음 구성 요소를 관리할 수 있습니다.
 
 * [**주석**](/help/components/annotations/overview.md): 상황별 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
-* [**대상자**](/help/components/audiences/audiences-overview.md): 타겟팅 및 맞춤화를 위해 Customer Journey Analytics에서 발견된 대상자를 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-kr)(RTCDP)을 만들어 게시할 수 있습니다.
+* [**대상자**](/help/components/audiences/audiences-overview.md): 타겟팅 및 맞춤화를 위해 Customer Journey Analytics에서 발견된 대상자를 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)(RTCDP)을 만들어 게시할 수 있습니다.
 * [**필터**](filters/filters-overview.md): 강력하고 집중적인 대상자 필터를 작성, 관리, 공유하고 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
 * [**계산된 지표**](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [**데이터 사전**](/help/components/data-dictionary/data-dictionary-overview.md): 사용자와 관리자 모두 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다.

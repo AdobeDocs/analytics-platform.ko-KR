@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 81%
@@ -20,11 +20,11 @@ ht-degree: 81%
 >
 >문서화된 구현 메서드를 사용하여 한 개 이상의 웹 사이트에 Adobe Analytics 라이선스를 부여하고 배포합니다.
 >
->- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=ko)
+>- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)
+>- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
->- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko)
+>- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
 이를 구현하려면 다음 작업을 수행해야 합니다.
 
@@ -83,7 +83,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
-보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.
+보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
 
 
 ## 연결 설정

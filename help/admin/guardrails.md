@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -81,7 +81,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
+Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko).
 
 
 ## 자동화된 데이터 세트 만료
@@ -101,7 +101,7 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 | 프로젝트 | 2,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
 | 데이터 보기 | 2,000 | 시스템 강제 보호 | 최대 수 [데이터 보기](../data-views/data-views.md) 조직의 경우. |
 | 데이터 보기 | 50 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수 |
-| 데이터 세트 | 100 | 시스템 강제 보호 | 최대 수 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=en) 연결당. |
+| 데이터 세트 | 100 | 시스템 강제 보호 | 최대 수 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) 연결당. |
 | 연결 | 1000 | 시스템 강제 보호 | 최대 수 [연결](../connections/overview.md) 조직의 경우. |
 | 연결 제목 | 500 | 시스템 강제 보호 | 연결 제목의 최대 문자 수입니다. |
 | 지표 | 5,000 | 시스템 강제 보호 | 데이터 보기의 최대 지표 수입니다. |
@@ -126,7 +126,7 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 
 {style="table-layout:auto"}
 
-Experience Platform 참조 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
+Experience Platform 참조 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## 데이터 랜딩 영역
@@ -181,7 +181,7 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 통합 문서 파일 크기 | 5 | 시스템 강제 보호 | 예약된 통합 문서의 최대 파일 크기(MB)입니다. |
-| 데이터 블록 | 1000 | 시스템 강제 보호 | 최대 수 [데이터 블록](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=en) 통합 문서당. |
+| 데이터 블록 | 1000 | 시스템 강제 보호 | 최대 수 [데이터 블록](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) 통합 문서당. |
 | 지표 | 20 | 시스템 강제 보호 | 데이터 블록당 최대 지표 수. |
 | 날짜 범위 범위 | 13 | 시스템 강제 보호 | 데이터 블록당 날짜 범위가 적용될 수 있는 최대 개월 수입니다. |
 | 다른 결과를 표시했던 | 50,000 | 시스템 강제 보호 | 데이터 블록당 최대 행 수. |
@@ -204,7 +204,7 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 
 >[!NOTE]
 >
->아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. Experience Platform 보기 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en) 추가 정보.
+>아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. Experience Platform 보기 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) 추가 정보.
 
 | 데이터 흐름 | 예상 지연 시간 |
 |---|---|

@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 | ----------- | ---------- | ------- | ---- |
 | **시계열 예측** | [예측](../analysis-workspace/c-forecast/forecasting.md)은 자유 형식 테이블 및 선 차트용으로 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능입니다. | 2024년 1월 31일 | 2024년 2월 21일 |
 | **조회 및 프로필 데이터에 대한 행 수 지표** | 연결의 일부로 구성된 데이터 세트의 행 수 지표에 이제 프로필 및 조회 데이터 세트에서 추가되거나, 생략되거나, 삭제된 레코드가 포함됩니다. |  | 2024년 2월 14일 |
-| **Experience Edge 봇 탐지** | [봇 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 기능을 사용하면 Web SDK, Mobile SDK 및 Server API에서 생성된 이벤트가 알려진 스파이더 및 봇에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 4월 29일 |
+| **에지 네트워크 보트 탐지** | [보트 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 웹 SDK, 모바일 SDK 및 서버 API에서 생성된 이벤트가 알려진 스파이더 및 보트에서 생성된 것으로 식별할 수 있습니다. | | 2024년 4월 29일 |
 | **사용량 지표** | 사용량 지표 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. | 2024년 2월 20일 | 2024년 3월 13일 목요일 |
 | **Adobe Product Analytics: 모두와 공유** | Product Analytics에 액세스할 수 없는 사용자에게 Adobe Product Analytics 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. |  | 2024년 3월 말 |
 | **Adobe Product Analytics: 계산된 지표 적용** | 이제 Analysis Workspace에서 만든 계산된 지표에 액세스하거나 추세: 사용량 보기의 계산된 지표 빌더에 액세스하여 시간 경과에 따른 지표의 추세를 파악하고 비교할 수 있습니다. |  | 2024년 2월 16일 |

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 58%
+ht-degree: 57%
 
 ---
 
@@ -18,15 +18,15 @@ Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 
 
 ## 1단계: Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=kr#persons) 및 [활동](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=kr#activities) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#persons) 및 [활동](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#activities) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 ## 2단계: Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=kr)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Platform 연결 애플리케이션을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Platform 연결 애플리케이션을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 ## 3단계: Customer Journey Analytics에서 이 데이터 세트에 대한 연결 설정
 
-Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. 자세한 내용은 을 참조하십시오 [연결 만들기 또는 편집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=kr).
+Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. 자세한 내용은 을 참조하십시오 [연결 만들기 또는 편집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
 
 ## 4단계: 하나 이상의 데이터 보기 만들기
 

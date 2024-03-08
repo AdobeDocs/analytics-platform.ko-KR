@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 18%
@@ -45,9 +45,9 @@ Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이�
    * 모든 행에 표시되는 식별자인 **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Cloud ID 서비스에서 생성된 ECID입니다.
    * 일부 행에만 있는 식별자인 **일시적 ID**. 예를 들어 방문자가 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 거의 모든 식별자를 사용할 수 있습니다. 결합하면 실제 개인 ID 정보를 보유하기 위해 이 필드가 고려됩니다. 최상의 결합 결과를 위해 임시 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 적어도 한 번 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
-  두 열(영구 ID 및 임시 ID)은 결합하려는 데이터 세트의 기본 설정된 스키마에 ID 네임스페이스가 있는 ID 필드로 정의해야 합니다. Real-time Customer Data Platform에서 ID 결합을 사용할 때 [identityMap 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity)에서 설명한 Customer Journey Analytics 결합은 identityMap 필드 그룹을 지원하지 않으므로 id 네임스페이스가 있는 id 필드를 추가해야 합니다. identityMap 필드 그룹을 사용하는 동안 스키마에 ID 필드를 추가할 때 추가 ID 필드를 기본 ID로 설정하지 마십시오. 이렇게 하면 Real-time Customer Data Platform에 사용되는 identityMap 필드 그룹이 방해받게 됩니다.
+  두 열(영구 ID 및 임시 ID)은 결합하려는 데이터 세트의 기본 설정된 스키마에 ID 네임스페이스가 있는 ID 필드로 정의해야 합니다. Real-time Customer Data Platform에서 ID 결합을 사용할 때 [identityMap 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#identity)에서 설명한 Customer Journey Analytics 결합은 identityMap 필드 그룹을 지원하지 않으므로 id 네임스페이스가 있는 id 필드를 추가해야 합니다. identityMap 필드 그룹을 사용하는 동안 스키마에 ID 필드를 추가할 때 추가 ID 필드를 기본 ID로 설정하지 마십시오. 이렇게 하면 Real-time Customer Data Platform에 사용되는 identityMap 필드 그룹이 방해받게 됩니다.
 
-* 결합에는 인증된 사용자 데이터와 인증되지 않은 사용자 데이터의 병합이 포함됩니다. 이벤트 데이터 세트에 대한 결합을 활성화하기 전에 필요한 최종 사용자 권한을 얻는 등 관련 법률 및 규정을 준수하는지 확인하십시오. 다음을 참조하십시오 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) 추가 정보.
+* 결합에는 인증된 사용자 데이터와 인증되지 않은 사용자 데이터의 병합이 포함됩니다. 이벤트 데이터 세트에 대한 결합을 활성화하기 전에 필요한 최종 사용자 권한을 얻는 등 관련 법률 및 규정을 준수하는지 확인하십시오. 다음을 참조하십시오 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#) 추가 정보.
 
 
 ## 결합 사용
@@ -109,7 +109,7 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 >
 >* 소스 데이터 세트를 제거하면 연결된 데이터 세트가 처리를 중지하고 시스템에서 제거됩니다.
 >
->* 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 다음을 참조하십시오 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko) 추가 정보.
+>* 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 다음을 참조하십시오 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko-KR?lang=ko) 추가 정보.
 
 결합은 획기적이고 강력한 기능이지만 사용 방법에 대한 제한이 있습니다.
 

@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
-workflow-type: ht
-source-wordcount: '1495'
-ht-degree: 100%
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 95%
 
 ---
 
@@ -60,19 +60,17 @@ Customer Journey Analytics 데이터 보기의 일부로 [파생 필드](../data
 
 ### 4. Analytics 소스 커넥터와 Experience Platform SDK 비교 및 사용 결정 {#connector-vs-sdk}
 
-Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. Analytics 소스 커넥터 사용에 대한 자세한 내용은 [Adobe Analytics에서 데이터를 수집하고 Customer Journey Analytics에서 사용하는 방법](../data-ingestion/analytics.md)에 대한 빠른 시작 안내서를 참조하십시오. 또한 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 참조하십시오.
+Adobe Analytics 고객은 Analytics 소스 커넥터를 사용하여 Adobe Experience Platform 및 Customer Journey Analytics에서 보고서 세트를 쉽게 활용할 수 있습니다. Analytics 소스 커넥터 사용에 대한 자세한 내용은 [Adobe Analytics에서 데이터를 수집하고 Customer Journey Analytics에서 사용하는 방법](../data-ingestion/analytics.md)에 대한 빠른 시작 안내서를 참조하십시오. 또한 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
 
-[Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR) 데이터 수집이 발전함에 따라 Adobe Experience Platform Edge Network가 포함된 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko-KR) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)로 마이그레이션하고자 할 수 있습니다. SDK의 일반적인 구현은 데이터를 Adobe Analytics로 전송하지만 Adobe Experience Platform으로 직접 데이터를 전송할 수 있는 새로운 옵션이 생깁니다. 그런 다음 Adobe Analytics로 전송된 데이터를 유지하면서 Customer Journey Analytics로 수집할 수 있습니다.
-
-이 방법은 데이터 수집 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 Prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 Customer Journey Analytics [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
+Adobe은 또한 를 사용하여 데이터 수집을 구현하는 기능을 제공합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ko-KR) 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR). 이러한 방법은 데이터 수집의 가능성을 크게 확장합니다. 더 이상 필드 수에 대한 제한이나 데이터 요소를 Analytics와 같은 prop, eVar 및 이벤트에 매핑할 필요가 없습니다. 다양한 유형의 스키마 요소를 무제한으로 사용하고 Customer Journey Analytics [데이터 보기](/help/data-views/data-views.md)를 사용하여 여러 방식으로 나타낼 수 있습니다. Adobe Experience Platform으로 직접 전송하면 Adobe Analytics를 통한 데이터 처리 시간이 생략되므로 데이터 가용성 속도가 빨라집니다.
 
 **Experience Platform SDK 사용의 이점:**
 
 * 필요한 모든 필드를 정의할 수 있는 유연한 스키마
 * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
 * 글자 수 제한 없음 (Prop의 경우 100자)
-* Adobe Experience Platform에서 보다 빠른 데이터 가용성을 통해 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko-KR) 개선
-* 방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko-KR)
+* Adobe Experience Platform에서 보다 빠른 데이터 가용성을 통해 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html) 개선
+* 방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)
 
 **Experience Platform SDK 사용의 단점**
 
@@ -122,7 +120,7 @@ Adobe Analytics 세그먼트(Customer Journey Analytics에서는 [!UICONTROL 필
 
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=ko-KR)
 
-* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=ko-KR)
+* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
 
 ### 기타 고려 사항
 

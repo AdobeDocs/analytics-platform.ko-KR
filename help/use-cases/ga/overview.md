@@ -4,10 +4,10 @@ description: Google Analytics에서 Adobe Experience Platform으로 데이터를
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 87%
+source-wordcount: '311'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ Customer Journey Analytics를 처음 사용하는 경우 귀사는 Google Analyt
 
 ## Adobe Experience Platform용 기존 Google Analytics 구현 구성 {#configure}
 
-현재(스트리밍) 데이터 수집에는 데이터를 Adobe Experience Edge에 전송한 다음 해당 데이터를 Adobe Experience Platform에 전달하는 작업이 포함됩니다. [Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 설정](streaming.md)을 참조하십시오.
+현재(스트리밍) 데이터 수집에는 Adobe Experience Platform Edge Network로 데이터를 보낸 다음 해당 데이터를 Adobe Experience Platform으로 전달하는 작업이 포함됩니다. [Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 설정](streaming.md)을 참조하십시오.
 
 ## Customer Journey Analytics에서 연결 및 데이터 보기 구성
 

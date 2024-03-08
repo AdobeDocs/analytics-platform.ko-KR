@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
-source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 2%
@@ -33,8 +33,8 @@ Adobe Analytics 데이터 피드 에뮬레이션에는 다음이 포함됩니다
 이 사용 사례에서 설명하는 기능을 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
 
 * Experience Platform의 데이터 레이크에 데이터를 수집하는 작업 구현입니다.
-* 데이터 Distiller 추가 기능에 액세스하여 일괄 쿼리를 실행할 권한이 있습니다. 다음을 참조하십시오 [쿼리 서비스 패키징](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 추가 정보.
-* Real-Time CDP Prime 또는 Ultimate 패키지, Adobe Journey Optimizer 또는 Customer Journey Analytics을 구입한 경우 사용할 수 있는 데이터 세트 내보내기 기능에 액세스합니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko) 추가 정보.
+* 데이터 Distiller 추가 기능에 액세스하여 일괄 쿼리를 실행할 권한이 있습니다. 다음을 참조하십시오 [쿼리 서비스 패키징](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html) 추가 정보.
+* Real-Time CDP Prime 또는 Ultimate 패키지, Adobe Journey Optimizer 또는 Customer Journey Analytics을 구입한 경우 사용할 수 있는 데이터 세트 내보내기 기능에 액세스합니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 추가 정보.
 * 데이터 피드의 원시 데이터를 내보낼 수 있는 위치에 구성된 하나 이상의 대상(예: Amazon S3, Google 클라우드 스토리지).
 
 
@@ -42,32 +42,32 @@ Adobe Analytics 데이터 피드 에뮬레이션에는 다음이 포함됩니다
 
 Experience Platform 쿼리 서비스를 사용하면 Experience Platform 데이터 레이크의 데이터 세트를 데이터베이스 테이블처럼 쿼리하고 조인할 수 있습니다. 그런 다음 보고 또는 내보내기에 추가로 사용하기 위해 결과를 새 데이터 세트로 캡처할 수 있습니다.
 
-쿼리 서비스를 사용합니다. [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en), a [PostgresQL 프로토콜을 통해 연결된 클라이언트](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ko), 또는 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 데이터 피드에 대한 데이터를 수집하는 쿼리를 만들고 예약합니다.
+쿼리 서비스를 사용합니다. [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ko), a [PostgresQL 프로토콜을 통해 연결된 클라이언트](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html), 또는 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) 데이터 피드에 대한 데이터를 수집하는 쿼리를 만들고 예약합니다.
 
 ### 쿼리 만들기
 
-SELECT 문용 표준 ANSI SQL의 모든 기능과 기타 제한된 명령을 사용하여 데이터 피드에 대한 데이터를 생성하는 쿼리를 만들고 실행할 수 있습니다. 다음을 참조하십시오 [SQL 구문](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) 추가 정보. 이 SQL 구문 이상의 Adobe은
+SELECT 문용 표준 ANSI SQL의 모든 기능과 기타 제한된 명령을 사용하여 데이터 피드에 대한 데이터를 생성하는 쿼리를 만들고 실행할 수 있습니다. 다음을 참조하십시오 [SQL 구문](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html) 추가 정보. 이 SQL 구문 이상의 Adobe은
 
-* 사전 빌드됨 [Adobe 정의 함수 (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) Experience Platform 데이터 레이크에 저장된 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 데 도움이 됩니다. [세션화](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=ko) 및 [속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko),
-* 여러 기본 제공 [Spark SQL 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en),
-* [metadata PostgreSQL 명령](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en),
-* [준비된 진술](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
+* 사전 빌드됨 [Adobe 정의 함수 (ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html) Experience Platform 데이터 레이크에 저장된 이벤트 데이터에 대한 일반적인 비즈니스 관련 작업을 수행하는 데 도움이 됩니다. [세션화](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html) 및 [속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html),
+* 여러 기본 제공 [Spark SQL 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html),
+* [metadata PostgreSQL 명령](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html),
+* [준비된 진술](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html).
 
 #### 데이터 피드 열
 
-쿼리에 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 삼는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다. 다음을 참조하십시오. [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko-KR) 추가 정보.
+쿼리에 사용할 수 있는 XDM 필드는 데이터 세트가 기반으로 삼는 스키마 정의에 따라 다릅니다. 데이터 세트의 기본 스키마를 이해해야 합니다. 다음을 참조하십시오. [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html) 추가 정보.
 
-데이터 피드 열과 XDM 필드 간의 매핑을 정의하는 데 도움이 필요하면 를 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko). 다음 항목도 참조하십시오. [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en#defining-xdm-fields) 스키마, 클래스, 필드 그룹 및 데이터 형식을 포함하여 XDM 리소스를 관리하는 방법에 대한 자세한 내용을 알아봅니다.
+데이터 피드 열과 XDM 필드 간의 매핑을 정의하는 데 도움이 필요하면 를 참조하십시오. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko-KR). 다음 항목도 참조하십시오. [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html#defining-xdm-fields) 스키마, 클래스, 필드 그룹 및 데이터 형식을 포함하여 XDM 리소스를 관리하는 방법에 대한 자세한 내용을 알아봅니다.
 
 예를 들어 를 사용하려는 경우 *페이지 이름* 데이터 피드의 일부로:
 
 * Adobe Analytics 데이터 피드의 UI에서 **[!UICONTROL pagename]** 를 데이터 피드 정의에 추가할 열로 지정합니다.
-* 쿼리 서비스에서 다음을 포함합니다. `web.webPageDetails.name` 다음에서 `sample_event_dataset_for_website_global_v1_1` 데이터 세트 (기반) **웹 사이트에 대한 샘플 이벤트 스키마(전역 v1.1)** 경험 이벤트 스키마)를 포함할 수 있습니다. 다음을 참조하십시오. [웹 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 추가 정보.
+* 쿼리 서비스에서 다음을 포함합니다. `web.webPageDetails.name` 다음에서 `sample_event_dataset_for_website_global_v1_1` 데이터 세트 (기반) **웹 사이트에 대한 샘플 이벤트 스키마(전역 v1.1)** 경험 이벤트 스키마)를 포함할 수 있습니다. 다음을 참조하십시오. [웹 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html) 추가 정보.
 
 <!--
-To understand the mapping between Adobe Analytics data feed columns and XDM fields in your experience event dataset and underlying schema, see [Analytics fields mapping](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) and [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) for more information.
+To understand the mapping between Adobe Analytics data feed columns and XDM fields in your experience event dataset and underlying schema, see [Analytics fields mapping](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html) and [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) for more information.
 
-Furthermore, the [automatically collected information by the Experience Platform Web SDK (out of the box)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) might be relevant to identify columns for your query.
+Furthermore, the [automatically collected information by the Experience Platform Web SDK (out of the box)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) might be relevant to identify columns for your query.
 -->
 
 #### ID
@@ -79,14 +79,14 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 
 또는 다음을 사용할 수 있습니다 `identityMap` ID를 쿼리합니다. 이 개체는 유형입니다. `Map` 및 를 사용합니다. [중첩된 데이터 구조](#nested-data-structure).
 
-다음을 참조하십시오 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en) Experience Platform에서 id 필드를 정의하는 방법에 대한 자세한 정보.
+다음을 참조하십시오 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html) Experience Platform에서 id 필드를 정의하는 방법에 대한 자세한 정보.
 
-을(를) 참조하십시오 [Analytics 데이터의 기본 식별자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#primary-identifiers-in-analytics-data) Analytics 소스 커넥터를 사용할 때 Adobe Analytics ID가 Experience Platform ID에 매핑되는 방식을 이해합니다. 이는 Analytics 소스 커넥터를 사용하지 않는 경우에도 ID를 설정하는 데 지침으로 사용될 수 있습니다.
+을(를) 참조하십시오 [Analytics 데이터의 기본 식별자](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#primary-identifiers-in-analytics-data) Analytics 소스 커넥터를 사용할 때 Adobe Analytics ID가 Experience Platform ID에 매핑되는 방식을 이해합니다. 이는 Analytics 소스 커넥터를 사용하지 않는 경우에도 ID를 설정하는 데 지침으로 사용될 수 있습니다.
 
 
 #### 히트 수준 데이터 및 식별
 
-구현에 따라, 전통적으로 Adobe Analytics에서 수집된 히트 수준 데이터는 이제 Experience Platform에서 타임스탬프가 지정된 이벤트 데이터로 저장됩니다. 다음 표는에서 추출됩니다. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) 및 에서는 히트 수준별 Adobe Analytics 데이터 피드 열을 쿼리의 해당 XDM 필드와 매핑하는 방법에 대한 예를 보여 줍니다. 이 표에서는 XDM 필드를 사용하여 히트, 방문 및 방문자를 식별하는 방법의 예도 보여줍니다.
+구현에 따라, 전통적으로 Adobe Analytics에서 수집된 히트 수준 데이터는 이제 Experience Platform에서 타임스탬프가 지정된 이벤트 데이터로 저장됩니다. 다음 표는에서 추출됩니다. [Analytics 필드 매핑](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html#generated-mapping-fields) 및 에서는 히트 수준별 Adobe Analytics 데이터 피드 열을 쿼리의 해당 XDM 필드와 매핑하는 방법에 대한 예를 보여 줍니다. 이 표에서는 XDM 필드를 사용하여 히트, 방문 및 방문자를 식별하는 방법의 예도 보여줍니다.
 
 | 데이터 피드 열 | XDM 필드 | 유형 | 설명 |
 |---|---|---|---|
@@ -115,13 +115,13 @@ Experience Platform에서 다양한 ID를 사용할 수 있습니다. 쿼리를 
 
 #### 게시물 열
 
-Adobe Analytics 데이터 피드는 `post_` 접두사 : 처리 후 데이터가 포함된 열입니다. 자세한 내용은 [데이터 피드 FAQ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)를 참조하십시오.
+Adobe Analytics 데이터 피드는 `post_` 접두사 : 처리 후 데이터가 포함된 열입니다. 자세한 내용은 [데이터 피드 FAQ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#post)를 참조하십시오.
 
 Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통해 데이터 세트에 수집된 데이터에는 `post_` 필드. 그 결과, `post_` 접두사 및 *비*-`post_` 접두사가 있는 데이터 피드 열은 동일한 XDM 필드에 매핑됩니다. 예를 들어, 둘 다 `page_url` 및 `post_page_url` 데이터 피드 열이 동일한 열에 매핑 `web.webPageDetails.URL` XDM 필드.
 
-다음을 참조하십시오 [Adobe Analytics 및 Customer Journey Analytics 간 데이터 처리 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=ko-KR) 데이터 처리의 차이점에 대한 개요입니다.
+다음을 참조하십시오 [Adobe Analytics 및 Customer Journey Analytics 간 데이터 처리 비교](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html) 데이터 처리의 차이점에 대한 개요입니다.
 
-다음 `post_` 그러나 Experience Platform 데이터 레이크에 수집되는 데이터의 접두사 열 유형은 데이터 피드 사용 사례에서 성공적으로 사용되기 전에 고급 변형이 필요하지 않습니다. 쿼리에서 이러한 고급 변환을 수행하려면 다음을 사용해야 합니다. [Adobe 정의 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 세션, 속성 및 중복 제거용. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
+다음 `post_` 그러나 Experience Platform 데이터 레이크에 수집되는 데이터의 접두사 열 유형은 데이터 피드 사용 사례에서 성공적으로 사용되기 전에 고급 변형이 필요하지 않습니다. 쿼리에서 이러한 고급 변환을 수행하려면 다음을 사용해야 합니다. [Adobe 정의 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html) 세션, 속성 및 중복 제거용. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 #### 조회
 
@@ -129,7 +129,7 @@ Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통�
 
 #### 계산
 
-필드(열)에 대한 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)`) 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) spark SQL의 일부입니다. 또한, [창 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 집계를 업데이트하고 순서가 지정된 하위 집합의 각 행에 대해 단일 항목을 반환할 수 있도록 지원을 제공합니다. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
+필드(열)에 대한 계산을 수행하려면 표준 SQL 함수를 사용합니다(예: `COUNT(*)`) 또는 [수학 및 통계 연산자 및 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html#math) spark SQL의 일부입니다. 또한, [창 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html#window-functions) 집계를 업데이트하고 순서가 지정된 하위 집합의 각 행에 대해 단일 항목을 반환할 수 있도록 지원을 제공합니다. 다음을 참조하십시오 [예](#examples) 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 #### 중첩된 데이터 구조
 
@@ -154,7 +154,7 @@ Experience Platform 에지 네트워크(Web SDK, Mobile SDK, 서버 API)를 통�
 }
 ```
 
-다음을 사용할 수 있습니다. [`explode()` 또는 기타 배열 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) Spark SQL에서 중첩된 데이터 구조 내의 데이터로 이동합니다. 예를 들면 다음과 같습니다.
+다음을 사용할 수 있습니다. [`explode()` 또는 기타 배열 함수](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html#arrays) Spark SQL에서 중첩된 데이터 구조 내의 데이터로 이동합니다. 예를 들면 다음과 같습니다.
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
@@ -166,16 +166,16 @@ select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 ```
 
-자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en)을 참조하십시오.
+자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html)을 참조하십시오.
 
 
 #### 예
 
 Experience Platform 데이터 레이크의 데이터 세트의 데이터를 사용하고 Adobe 정의 함수 및/또는 Spark SQL의 추가 기능을 탭하며 동등한 Adobe Analytics 데이터 피드와 유사한 결과를 제공하는 쿼리의 경우 다음을 참조하십시오.
 
-* [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
-* [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
-* [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
+* [포기한 찾아보기](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+* [속성 분석](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html)
+* [보트 필터링](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html)
 * 및 쿼리 서비스 안내서의 기타 사용 사례도 참조하십시오.
 
 
@@ -185,28 +185,28 @@ Experience Platform 데이터 레이크의 데이터 세트의 데이터를 사�
 
 #### 쿼리 편집기 사용
 
-쿼리 편집기를 사용하여 쿼리를 예약할 수 있습니다. 쿼리를 예약할 때 출력 데이터 세트를 정의합니다. 다음을 참조하십시오 [쿼리 일정](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 추가 정보.
+쿼리 편집기를 사용하여 쿼리를 예약할 수 있습니다. 쿼리를 예약할 때 출력 데이터 세트를 정의합니다. 다음을 참조하십시오 [쿼리 일정](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html) 추가 정보.
 
 
 #### 쿼리 서비스 API 사용
 
-또는 RESTful API를 사용하여 쿼리와 쿼리에 대한 일정을 정의할 수 있습니다. 다음을 참조하십시오 [쿼리 서비스 API 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 추가 정보.
+또는 RESTful API를 사용하여 쿼리와 쿼리에 대한 일정을 정의할 수 있습니다. 다음을 참조하십시오 [쿼리 서비스 API 안내서](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) 추가 정보.
 출력 데이터 세트를 선택 사항의 일부로 정의해야 합니다. `ctasParameters` 쿼리를 만들 때 속성([쿼리 만들기](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)) 또는 쿼리에 대한 일정을 만들 때([예약된 쿼리 만들기](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)).
 
 
 
 ## 데이터 세트 내보내기
 
-쿼리를 만들고 예약했으며 출력 데이터 세트의 결과가 요구 사항과 일치하는지 확인하면 원시 데이터 세트를 클라우드 스토리지 대상으로 내보낼 수 있습니다. 이 내보내기는 데이터 세트 내보내기 대상이라고 하는 Experience Platform 대상 용어에 있습니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko) 개요를 참조하십시오.
+쿼리를 만들고 예약했으며 출력 데이터 세트의 결과가 요구 사항과 일치하는지 확인하면 원시 데이터 세트를 클라우드 스토리지 대상으로 내보낼 수 있습니다. 이 내보내기는 데이터 세트 내보내기 대상이라고 하는 Experience Platform 대상 용어에 있습니다. 다음을 참조하십시오 [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 개요를 참조하십시오.
 
 지원되는 클라우드 스토리지 대상은 다음과 같습니다.
 
-* [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=en)
-* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en)
-* [Google 클라우드 스토리지](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=en)
-* [Amazon](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=en#changelog)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=en#changelog)
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=en#changelog)
+* [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
+* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
+* [Google 클라우드 스토리지](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
+* [Amazon](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html#changelog)
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html#changelog)
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html#changelog)
 
 
 ### EXPERIENCE PLATFORM UI
@@ -215,25 +215,25 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 
 #### 대상 선택
 
-출력 데이터 세트를 내보낼 클라우드 스토리지 대상을 결정한 경우 [대상 선택](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#select-destination). 기본 클라우드 스토리지에 대한 대상을 아직 구성하지 않은 경우 다음을 수행해야 합니다 [새 대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en).
+출력 데이터 세트를 내보낼 클라우드 스토리지 대상을 결정한 경우 [대상 선택](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#select-destination). 기본 클라우드 스토리지에 대한 대상을 아직 구성하지 않은 경우 다음을 수행해야 합니다 [새 대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html).
 
 대상 구성의 일부로 파일 유형(JSON 또는 Parquet), 결과 파일의 압축 여부 및 매니페스트 파일의 포함 여부를 정의할 수 있습니다.
 
 
 #### 데이터세트 선택
 
-대상을 선택한 경우 다음에서 **[!UICONTROL 데이터 세트 선택]** 단계 데이터 세트 목록에서 출력 데이터 세트를 선택해야 합니다. 예약된 쿼리를 여러 개 만들었고 출력 데이터 세트를 동일한 클라우드 스토리지 대상으로 보내려는 경우 해당 출력 데이터 세트를 선택할 수 있습니다. 다음을 참조하십시오 [데이터 세트 선택](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#select-datasets) 추가 정보.
+대상을 선택한 경우 다음에서 **[!UICONTROL 데이터 세트 선택]** 단계 데이터 세트 목록에서 출력 데이터 세트를 선택해야 합니다. 예약된 쿼리를 여러 개 만들었고 출력 데이터 세트를 동일한 클라우드 스토리지 대상으로 보내려는 경우 해당 출력 데이터 세트를 선택할 수 있습니다. 다음을 참조하십시오 [데이터 세트 선택](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#select-datasets) 추가 정보.
 
 #### 데이터 세트 내보내기 예약
 
-마지막으로, 데이터 세트 내보내기를 **[!UICONTROL 예약]** 단계. 이 단계에서는 일정 및 출력 데이터 세트 내보내기가 증분적이어야 하는지 여부를 정의할 수 있습니다. 다음을 참조하십시오 [데이터 세트 내보내기 예약](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#scheduling) 추가 정보.
+마지막으로, 데이터 세트 내보내기를 **[!UICONTROL 예약]** 단계. 이 단계에서는 일정 및 출력 데이터 세트 내보내기가 증분적이어야 하는지 여부를 정의할 수 있습니다. 다음을 참조하십시오 [데이터 세트 내보내기 예약](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#scheduling) 추가 정보.
 
 
 #### 최종 단계
 
-[리뷰](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#review) 선택 사항 및 올바른 경우 출력 데이터 세트를 클라우드 스토리지 대상으로 내보냅니다.
+[리뷰](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#review) 선택 사항 및 올바른 경우 출력 데이터 세트를 클라우드 스토리지 대상으로 내보냅니다.
 
-다음을 수행해야 합니다. [확인](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#verify) 성공적인 데이터 내보내기. 데이터 세트를 내보낼 때 Experience Platform이 하나 또는 여러 개의 데이터 세트를 만듭니다 `.json` 또는 `.parquet` 대상에 정의된 저장소 위치의 파일입니다. 설정한 내보내기 일정에 따라 새 파일이 저장소 위치에 저장됩니다. Experience Platform은 선택한 대상의 일부로 지정한 저장소 위치에 내보낸 파일을 저장하는 폴더 구조를 만듭니다. 내보내기 시간마다 패턴을 따라 새 폴더가 만들어집니다. `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 기본 파일 이름은 임의로 생성되며 내보낸 파일 이름이 고유한지 확인합니다.
+다음을 수행해야 합니다. [확인](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify) 성공적인 데이터 내보내기. 데이터 세트를 내보낼 때 Experience Platform이 하나 또는 여러 개의 데이터 세트를 만듭니다 `.json` 또는 `.parquet` 대상에 정의된 저장소 위치의 파일입니다. 설정한 내보내기 일정에 따라 새 파일이 저장소 위치에 저장됩니다. Experience Platform은 선택한 대상의 일부로 지정한 저장소 위치에 내보낸 파일을 저장하는 폴더 구조를 만듭니다. 내보내기 시간마다 패턴을 따라 새 폴더가 만들어집니다. `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 기본 파일 이름은 임의로 생성되며 내보낸 파일 이름이 고유한지 확인합니다.
 
 ### 플로우 서비스 API
 
@@ -269,7 +269,7 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 
 종료 [데이터 흐름의 성공적인 실행 확인](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#get-dataflow-runs), 사용 [`GET /runs`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflow-runs/operation/getFlowRuns) 데이터 흐름 ID를 쿼리 매개 변수로 지정하는 API입니다. 이 데이터 흐름 ID는 데이터 흐름을 설정할 때 반환되는 식별자입니다.
 
-[확인](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#verify) 성공적인 데이터 내보내기. 데이터 세트를 내보낼 때 Experience Platform이 하나 또는 여러 개의 데이터 세트를 만듭니다 `.json` 또는 `.parquet` 대상에 정의된 저장소 위치의 파일입니다. 설정한 내보내기 일정에 따라 새 파일이 저장소 위치에 저장됩니다. Experience Platform은 선택한 대상의 일부로 지정한 저장소 위치에 내보낸 파일을 저장하는 폴더 구조를 만듭니다. 내보내기 시간마다 패턴을 따라 새 폴더가 만들어집니다. `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 기본 파일 이름은 임의로 생성되며 내보낸 파일 이름이 고유한지 확인합니다.
+[확인](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify) 성공적인 데이터 내보내기. 데이터 세트를 내보낼 때 Experience Platform이 하나 또는 여러 개의 데이터 세트를 만듭니다 `.json` 또는 `.parquet` 대상에 정의된 저장소 위치의 파일입니다. 설정한 내보내기 일정에 따라 새 파일이 저장소 위치에 저장됩니다. Experience Platform은 선택한 대상의 일부로 지정한 저장소 위치에 내보낸 파일을 저장하는 폴더 구조를 만듭니다. 내보내기 시간마다 패턴을 따라 새 폴더가 만들어집니다. `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 기본 파일 이름은 임의로 생성되며 내보낸 파일 이름이 고유한지 확인합니다.
 
 ## 결론
 

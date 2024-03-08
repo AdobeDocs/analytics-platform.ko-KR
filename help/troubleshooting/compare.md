@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 쿼리 서비스;쿼리 서비스;sql 구문
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 64%
@@ -79,7 +79,7 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   hit\_source에 대한 자세한 내용은 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-kr)를 참조하십시오. page\_event에 대한 자세한 내용은 [페이지 이벤트 조회](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=ko-kr)를 참조하십시오.
+   hit\_source에 대한 자세한 내용은 [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)를 참조하십시오. page\_event에 대한 자세한 내용은 [페이지 이벤트 조회](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html)를 참조하십시오.
 
 1. 커넥터가 행을 필터링한 경우 [!UICONTROL 발생 횟수] 지표에서 해당 행을 뺍니다. 결과 숫자는 Adobe Experience Platform 데이터 세트의 이벤트 수와 일치해야 합니다.
 

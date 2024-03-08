@@ -4,7 +4,7 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 58%
@@ -17,7 +17,7 @@ ht-degree: 58%
 
 >[!IMPORTANT]
 >
->이 시점에서 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
+>이 시점에서 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
 
 ## 액세스 제어 {#access}
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 1단계: 실험 데이터 세트로의 연결 만들 {#connection}
 
-권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=ko)에 있는 것입니다. 두 차원 모두 **단일** 개체 배열입니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 두 개로 분할할 수 있습니다.
+권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html)에 있는 것입니다. 두 차원 모두 **단일** 개체 배열입니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 두 개로 분할할 수 있습니다.
 
 실험 데이터가 [수집됨](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) Adobe Experience Platform으로 [Customer Journey Analytics에서 연결 만들기](/help/connections/create-connection.md) 하나 이상의 실험 데이터 세트로
 

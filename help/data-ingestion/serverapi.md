@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 59%
@@ -104,7 +104,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
@@ -134,7 +134,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -232,7 +232,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 이제 게임에서 수집된 데이터를 Adobe Experience Platform의 데이터 세트로 전달하도록 데이터 스트림이 구성되었습니다.
 
-데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en)를 참조하십시오.
+데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)를 참조하십시오.
 
 ## Edge Network Server API 사용
 
@@ -271,7 +271,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 예제 POST 요청에서 `{DATASTREAM_ID}` 는 이전에 구성한 예제 데이터 스트림의 식별자를 가리킵니다. `{sandbox}` 는 사용자 정의 블라인드 라이트 필드 그룹에 대한 경로를 식별하는 샌드박스의 고유 이름입니다.
 
-다음을 참조하십시오 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en) edge Network Server API를 사용하는 방법에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
+다음을 참조하십시오 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) edge Network Server API를 사용하는 방법에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
 
 ## 연결 설정
 
