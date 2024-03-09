@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -98,7 +98,7 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
-| 프로젝트 | 2,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
+| 프로젝트 | 50,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
 | 데이터 보기 | 2,000 | 시스템 강제 보호 | 최대 수 [데이터 보기](../data-views/data-views.md) 조직의 경우. |
 | 데이터 보기 | 50 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수 |
 | 데이터 세트 | 100 | 시스템 강제 보호 | 최대 수 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) 연결당. |
