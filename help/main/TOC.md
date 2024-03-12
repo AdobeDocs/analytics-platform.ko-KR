@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
+source-git-commit: a6dd3495b51edcb823431ccb87b283665ccd765d
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 79%
 
 ---
@@ -154,6 +154,7 @@ ht-degree: 79%
       + [빈 패널](../analysis-workspace/c-panels/blank-panel.md)
       + [실험 패널](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식 패널](../analysis-workspace/c-panels/freeform-panel.md)
+      + [미디어 대상자 평균 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [빠른 인사이트 패널](../analysis-workspace/c-panels/quickinsight.md)
       + [미디어 동시 뷰어 패널](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [미디어 재생 소요 시간 패널](../analysis-workspace/c-panels/media-playback-time-spent.md)
