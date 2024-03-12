@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
+source-git-commit: 56b909a542915cd64251fb8849e55df920668025
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -204,7 +204,7 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 
 >[!NOTE]
 >
->아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. Experience Platform 보기 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) 추가 정보.
+>아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. Experience Platform 보기 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) 추가 정보.
 
 | 데이터 흐름 | 예상 지연 시간 |
 |---|---|
