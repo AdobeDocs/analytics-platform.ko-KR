@@ -4,10 +4,10 @@ title: 차원 시간 분할
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 62%
 | 시간 | 0-23 |
 | 오전/오후 | 오전, 오후 |
 | 요일 | 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일 |
-| 주말/평일 | 주말, 평일 |
+| 평일/주말 | 평일, 주말 |
 | 날짜(월 기준) | 1-31 |
 | 월 | 1월~12월 |
 | 일(한 해 기준) | 1-366 |

@@ -3,7 +3,8 @@ description: 테이블 또는 라인 차트에서 예측을 보는 방법에 대
 title: Analysis Workspace에서 예측을 조회하는 방법
 feature: Visualizations
 role: User
-source-git-commit: e52cee369be75785a99798d5acfa9cfc5aba2986
+exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ## 테이블에서 예측 보기
 
-시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. 에서 자유 형식 테이블에 대해 예측 표시가 활성화된 경우 [사용자 환경 설정](../user-preferences.md), 예측은 테이블에 추가된 첫 번째 지표 열에 대해 자동으로 표시됩니다. 추가 열의 경우:
+시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. 날짜 [!UICONTROL 예측 표시] 의 자유 형식 테이블에 대해 활성화되었습니다. [사용자 환경 설정](../user-preferences.md), 예측은 테이블에 추가된 첫 번째 지표 열에 대해 자동으로 표시됩니다. 추가 열의 경우:
 
 1. 열 설정 아이콘 선택 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 열 헤더에서 다음을 확인합니다. **[!UICONTROL 예측 표시]** 은 옵션 목록에서 선택됩니다. 자세한 내용은 [열 설정](../visualizations/freeform-table/column-row-settings/column-settings.md)을 참조하십시오.
 
@@ -50,5 +51,4 @@ ht-degree: 1%
    * 지표에 대한 예측 값
    * 지표에 대한 예측 값의 상한
    * 지표에 대한 예측 값의 하한
-* 음영 처리된 영역은 예측의 신뢰 대역을 보여 줍니다.
-
+* 음영처리된 영역은 예측의 신뢰 대역을 보여 줍니다.

@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1b39449fa58157fb61d619de82235cba326ffe2c
+source-git-commit: 7f0a348738d2f3a53ec57558d321a3501afe8d00
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 54%
+source-wordcount: '841'
+ht-degree: 48%
 
 ---
 
 # 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 3월)
 
-**마지막 업데이트**: 2024년 3월 8일 토요일
+**마지막 업데이트**: 2024년 3월 13일 목요일
 
 이 릴리스 노트는 2024년 3월 13일부터 2024년 4월까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,9 +20,9 @@ ht-degree: 54%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **프로젝트 랜딩 페이지에서 사용할 수 있는 새 열** | 다음 **[!UICONTROL 마지막으로 사용한 날짜]** 이제 의 프로젝트 탭을 볼 때 열을 사용할 수 있습니다. [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). 이 정보는 프로젝트를 마지막으로 연 날짜와 시간을 표시하여 프로젝트가 조직의 사용자에게 중요한지 여부를 확인하는 데 도움이 될 수 있습니다. 이전에는 **[!UICONTROL 마지막으로 사용한 날짜]** 열은 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자에서만 사용할 수 있습니다. |  | 2024년 3월 13일 |
-| **사용량 지표** | 사용량 지표 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
-| **Media Analytics 보고 - 대상자 분당 평균 시청 시간(AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상자 분당 평균 시청 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. 분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다. 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다. |  | 2024년 3월 12일 |
+| **프로젝트 랜딩 페이지에서 사용할 수 있는 새 열** | 다음 **[!UICONTROL 마지막으로 사용한 날짜]** 이제 의 프로젝트 탭을 볼 때 열을 사용할 수 있습니다. [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>이 정보는 프로젝트를 마지막으로 연 날짜와 시간을 표시하여 프로젝트가 조직의 사용자에게 중요한지 여부를 확인하는 데 도움이 될 수 있습니다. 이전에는 **[!UICONTROL 마지막으로 사용한 날짜]** 열은 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자에서만 사용할 수 있습니다.</p> |  | 2024년 3월 13일 |
+| **사용량 지표** | 다음 [사용 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html) 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
+| **Media Analytics 보고 - 대상자 분당 평균 시청 시간(AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. <p>분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다.</p><p> 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다.</p><p>자세한 내용은 [미디어 대상 평균 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | 2024년 3월 12일 |
 | **개인 대 계정에 대한 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 잘 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마의 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 3월 26일 수요일 |
 | **Adobe Product Analytics: 단일 단계 내에서 이벤트 비교** | 단계: 마찰 보기에서 이제 단일 단계 단계 내의 이벤트를 비교할 수 있습니다. 이 기능은 여정에 단계 선택 사항이나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 3월 29일 토요일 | 2024년 4월 12일 토요일 |
 | **관리자는 조직의 모든 위치를 관리할 수 있습니다.** | 위치 페이지의 새 옵션을 사용하여 관리자는 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 생성한 위치만 보고 관리할 수 있었습니다. | | 2024년 4월 |

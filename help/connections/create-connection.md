@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
-source-wordcount: '2766'
-ht-degree: 100%
+source-wordcount: '2888'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.&#x200B;
+어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
 
 ## 연결 만들기 및 구성 {#create-connection}
 
@@ -185,3 +185,12 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
    이 예에서 “analytics_demo_data”는 데이터 세트의 이름입니다.
 
 2. Adobe Experience Platform에 있는 모든 데이터 세트를 표시하려면 `Show Tables` 쿼리를 수행하십시오.
+
+
+## 대규모 조회 데이터 세트의 알고리즘 정리
+
+연결을 만들 때 조회 목적으로 큰 데이터 세트를 추가할 수 있습니다. 예를 들어 보고서 및 시각화를 작성할 때 설명 제품 정보를 조회할 수 있도록 제품 카탈로그를 나타내는 데이터 세트입니다. 이러한 큰 조회 데이터 세트는 가드레일로 현재 구현된 최대 1,000만 개의 고유 조회를 초과할 수 있으므로 추가 데이터를 건너뛸 수 있습니다.
+
+이러한 큰 조회 데이터 세트의 알고리즘 정리를 요청할 수 있습니다. 이 정리는 연결의 이벤트 데이터 세트 부분에서 사용할 수 있는 키에 대한 조회 데이터 세트의 데이터만 로드합니다. 알고리즘에 사용된 참조 카운트는 90일로 거슬러 올라가며 매주 한 번 새로 고쳐집니다.
+
+자세한 내용은 Adobe 담당자에게 문의하십시오.
