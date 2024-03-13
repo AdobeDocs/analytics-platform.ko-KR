@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17956f66d0bed46b876ba83aba8782c664fe2530
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 26%
+source-wordcount: '2764'
+ht-degree: 23%
 
 ---
 
@@ -24,9 +24,16 @@ ht-degree: 26%
 * 모든 데이터 세트를 연결하여 볼 수 있습니다.
 * 연결의 데이터 세트 상태 및 수집 프로세스 상태를 확인합니다. 예를 들어, Analysis Workspace에서 보고 및 분석을 시작할 수 있도록 가 데이터를 사용하는 경우입니다.
 * 구성 오류로 인해 발생하는 모든 데이터 불일치를 식별합니다. 혹시 누락된 행이 있습니까? 그렇다면 어떤 행이 누락되었고 이유는 무엇입니까? 연결을 잘못 구성하여 Customer Journey Analytics에서 데이터가 누락되었습니까?
+* 모든 연결에서 수집되고 보고 가능한 행의 사용에 대한 통찰력을 얻으십시오.
+
+[!UICONTROL 연결] 에는 두 개의 인터페이스가 있습니다. [[!UICONTROL 목록]](#list) 및 [[!UICONTROL 사용]](#usage).
 
 
-표는 사용 가능한 모든 연결을 보여 줍니다. 검색을 사용하여 연결을 빠르게 검색할 수 있습니다 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 상자.
+## 목록
+
+다음 [!UICONTROL 목록] 인터페이스는 연결의 기본 인터페이스입니다. 선택하지 않은 경우 **[!UICONTROL 목록]** 인터페이스에 액세스하려면 탭으로 이동하십시오.
+
+다음 [!UICONTROL 목록] 인터페이스는 사용 가능한 모든 연결의 테이블을 표시합니다. 검색을 사용하여 연결을 빠르게 검색할 수 있습니다 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 상자.
 
 표에서 다음 열/아이콘을 사용할 수 있습니다.
 
@@ -46,7 +53,7 @@ ht-degree: 26%
 
 을 사용하여 표시할 열을 구성할 수 있습니다. ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). 다음을 표시합니다. **표 맞춤화** 테이블에서 열을 설정/해제할 수 있는 대화 상자입니다.
 
-## 연결 편집
+### 연결 편집
 
 관리자가 연결을 편집할 수 있습니다.
 
@@ -69,7 +76,7 @@ ht-degree: 26%
 다음을 참조하십시오 [연결 만들기 또는 편집](create-connection.md) 추가 정보.
 
 
-## 연결 삭제 {#connections-delete}
+### 연결 삭제 {#connections-delete}
 
 관리자가 연결을 삭제할 수 있도록 허용합니다.
 
@@ -91,7 +98,7 @@ ht-degree: 26%
 다음을 참조하십시오 [의미 삭제](/help/admin/cja-deletion.md) 연결 삭제의 의미에 대한 자세한 정보.
 
 
-## 데이터 보기 만들기
+### 데이터 보기 만들기
 
 관리자가 연결에 대한 데이터 보기를 만들 수 있습니다.
 
@@ -112,7 +119,7 @@ ht-degree: 26%
 
 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)을 참조하십시오.
 
-## 연결 세부 정보 {#connection-detail}
+### 연결 세부 정보 {#connection-detail}
 
 연결에 대한 세부 정보로 이동하려면 연결 테이블에서 연결 이름을 선택합니다.
 
@@ -153,7 +160,7 @@ ht-degree: 26%
 >
 >2021년 8월 13일 이전에 수집된 데이터는 [!UICONTROL 연결] 인터페이스.
 
-### 연결 패널
+#### 연결 패널
 
 데이터 세트 테이블에서 데이터 세트를 선택하지 않으면 연결 인터페이스 오른쪽의 패널에 연결 옵션 및 세부 정보가 표시됩니다.
 
@@ -173,7 +180,7 @@ ht-degree: 26%
 | [!UICONTROL 마지막 수정일] | 연결에 대한 마지막 변경 사항의 타임스탬프를 표시합니다. |
 | [!UICONTROL 마지막 수정자] | 연결을 마지막으로 수정한 사람을 표시합니다. |
 
-### 데이터 세트 패널
+#### 데이터 세트 패널
 
 데이터 세트 테이블에서 데이터 세트를 선택하면 연결 인터페이스 오른쪽의 패널에 선택한 데이터 세트에 대한 세부 정보가 표시됩니다.
 
@@ -195,6 +202,31 @@ ht-degree: 26%
 | [!UICONTROL 데이터 세트 유형] | [!UICONTROL 이벤트], [!UICONTROL 조회] 또는 [!UICONTROL 프로필]입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL 스키마] | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마를 표시합니다. |
 | [!UICONTROL 데이터 세트 ID] | 이 데이터 세트 ID는 Experience Platform에서 생성됩니다. |
+
+
+## 사용
+
+다음 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여줍니다. 이 인터페이스는 Customer Journey Analytics 사용이 계약상 합의된 사항을 준수하는지 여부를 확인할 수 있도록 지원합니다.
+
+다음 항목 선택 **[!UICONTROL 사용]** 인터페이스에 액세스하려면 탭으로 이동하십시오.
+
+사용량을 보고하려면:
+
+1. 선택 **[!UICONTROL 시간 범위]**. 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL 지난 6개월]**, **[!UICONTROL 현재까지]**, 또는 **[!UICONTROL 지난 2년]**.
+1. 선택 **[!UICONTROL 간격]**. 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL 월별]** 또는 **[!UICONTROL 분기별]**.
+
+대상 [!UICONTROL 수집된 행]:
+
+* 상자에 [!UICONTROL 합계] 수집된 행 수.
+* 상자에 대해 수집된 행 수가 표시됩니다. [!UICONTROL 지난 달] 및 % 변경( 로 표시됨) <span style="color:green">▲</span> 또는 <span style="color:c64545">▼</span>)을 전달했습니다.
+* 선 그래프에는  <span style="color:53b2ad">◼︎</span> 누적 수집된 행 및 <span style="color:4046c3">◼︎</span> 월별로 수집된 행.<br/>선 그래프의 각 선에 대한 데이터 포인트 위로 마우스를 가져가면 선택한 데이터 포인트에 대한 날짜 및 행 수를 표시하는 팝업을 볼 수 있습니다.
+
+
+대상 [!UICONTROL 보고 가능한 행]:
+
+* 상자가 표시됩니다. [!UICONTROL 합계] 보고 가능한 행 수.
+* 상자에는 [!UICONTROL 지난 달] 및 % 변경( 로 표시됨) <span style="color:green">▲</span> 또는 <span style="color:c64545">▼</span>)을 전달했습니다.
+* 선 그래프에는  <span style="color:53b2ad">◼︎</span> 누적 보고 가능한 행 및 <span style="color:4046c3">◼︎</span> 월별 보고 가능 행.<br/>선 그래프의 각 선에 대한 데이터 포인트 위로 마우스를 가져가면 선택한 데이터 포인트에 대한 날짜 및 행 수를 표시하는 팝업을 볼 수 있습니다.
 
 
 >[!MORELIKETHIS]
