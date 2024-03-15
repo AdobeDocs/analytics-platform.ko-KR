@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 ## 7. Customer Journey Analytics에서 보고서 세트 병합 시 고려 사항 {#merge-reportsuite}
 
-[Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
+[Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
 
 | 문제 | 고려 사항 |
 | --- | --- |
@@ -267,4 +267,4 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-다음을 참조하십시오 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) Adobe Experience Platform Edge Network 및 해당 지역 데이터 센터 이외의 데이터 수집 프로세스에 대한 자세한 내용
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)를 참조하십시오.

@@ -8,9 +8,9 @@ hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2789'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
 ## 사전 요구 사항
 
-이 기능을 사용하려면 다음을 수행해야 합니다.
+이 기능을 사용하려면 다음 작업을 수행해야 합니다.
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics SQL Connector] in your Experience Platform organization. -->
 
@@ -59,7 +59,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
 +++ 쿼리 편집기
 
-Experience Platform UI에서 다음을 수행합니다.
+Experience Platform UI에서 다음 작업을 수행합니다.
 
 1. 왼쪽 레일의 **[!UICONTROL **&#x200B;데이터 관리&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다.
 
@@ -103,7 +103,7 @@ Experience Platform UI에서 다음을 수행합니다.
 
    3. Power BI에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-2. Power BI에서 다음을 수행합니다.
+2. Power BI에서 다음 작업을 수행합니다.
 
    1. 기본 창의 상단 도구 모음에서 **[!UICONTROL **&#x200B;데이터 내보내기&#x200B;**]**&#x200B;를 선택합니다.
 
@@ -111,7 +111,7 @@ Experience Platform UI에서 다음을 수행합니다.
 
    3. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   4. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음을 수행합니다.
+   4. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행합니다.
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -145,13 +145,13 @@ Experience Platform UI에서 다음을 수행합니다.
 
    3. Tableau에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-2. Tableau에서 다음을 수행합니다.
+2. Tableau에서 다음 작업을 수행합니다.
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
    2. 목록에서 **[!UICONTROL ** PostgresSQL **]**&#x200B;을 선택합니다.
 
-   3. [!UICONTROL PostgresSQL] 대화 상자에서 다음을 수행합니다.
+   3. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행합니다.
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -263,7 +263,7 @@ prod:all=> \dv
 
 다른 SQL 소스에서와 마찬가지로 `SUM(metric)` 표현식으로 래핑된 ID를 기준으로 지표를 선택합니다.
 
-다음을 수행할 수 있습니다.
+다음과 같은 작업을 수행할 수 있습니다.
 
 - `SELECT COUNT(*)` 또는 `COUNT(1)`는 발생 횟수 지표를 얻습니다.
 
