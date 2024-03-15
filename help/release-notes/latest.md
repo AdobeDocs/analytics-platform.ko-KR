@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7f0a348738d2f3a53ec57558d321a3501afe8d00
+source-git-commit: f2c6c0624db091c49e3b3c3a3453e7a3e5b92f95
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 48%
+source-wordcount: '923'
+ht-degree: 43%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 48%
 | **사용량 지표** | 다음 [사용 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html) 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
 | **Media Analytics 보고 - 대상자 분당 평균 시청 시간(AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상 평균 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. <p>분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다.</p><p> 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다.</p><p>자세한 내용은 [미디어 대상 평균 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | 2024년 3월 12일 |
 | **개인 대 계정에 대한 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 잘 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마의 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 3월 26일 수요일 |
+| **계산된 지표 관리자 및 필터 관리자의 &quot;사용 위치&quot; 열에 포함된 Report Builder 사용량** | 를 볼 때 **다음에서 사용됨** 계산된 지표 관리자 또는 필터 관리자의 열에서는 이제 Report Builder에 사용 데이터를 사용할 수 있습니다.<p>이전에는 필터 관리자의 사용량 데이터는 경고, 프로젝트, 예약된 프로젝트 및 계산된 지표에만 사용할 수 있었지만, 계산된 지표 관리자의 사용량 데이터는 경고, 프로젝트 및 예약된 프로젝트에만 사용할 수 있었습니다.</p> |  | 3월 말 또는 4월 초 |
 | **Adobe Product Analytics: 단일 단계 내에서 이벤트 비교** | 단계: 마찰 보기에서 이제 단일 단계 단계 내의 이벤트를 비교할 수 있습니다. 이 기능은 여정에 단계 선택 사항이나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 3월 29일 토요일 | 2024년 4월 12일 토요일 |
 | **관리자는 조직의 모든 위치를 관리할 수 있습니다.** | 위치 페이지의 새 옵션을 사용하여 관리자는 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 생성한 위치만 보고 관리할 수 있었습니다. | | 2024년 4월 |
 | **대상은 Experience Platform의 새 &quot;대상&quot; 섹션에 게시됩니다.** | Customer Journey Analytics에서 게시한 대상은 이제 Experience Platform의 새 &quot;대상&quot; 섹션에서 사용할 수 있습니다. 이전에는 Customer Journey Analytics에서 게시한 대상자를 플랫폼에서 &quot;세그먼트&quot; 섹션 아래서 사용할 수 있었습니다. 이 개선 사항은 다음과 같은 이점을 제공합니다.<ul><li>대상은 더 이상 플랫폼에 표시되기 전에 1시간 지연이 없습니다. 게시된 후 몇 초 후에 사용할 수 있습니다.</li><li>대상이 원래 게시된 애플리케이션을 표시하는 &quot;원본&quot; 열을 사용하여 플랫폼에서 대상을 정렬할 수 있습니다.</li><li>플랫폼의 필터 및 정렬 옵션을 사용하면 관련 대상자를 더 빨리 찾을 수 있습니다.</li></ul>자세한 내용은 섹션을 참조하십시오 [Experience Platform에서 Customer Journey Analytics 대상 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#audiences-aep). |  | 2024년 4월 |

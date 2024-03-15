@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3246'
 ht-degree: 77%
 
 ---
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 3월** | |
+| &quot;다음에서 사용됨&quot; 열에 대한 사용 정보는 2023년 9월부터 사용할 수 있습니다. | 에 대한 사용 정보를 명확히 설명했습니다. **다음에서 사용됨** 의 열 [프로젝트 랜딩 페이지](/help/getting-started/landing.md) 2023년 9월까지만 적용됩니다. |
 | **2024년 2월** | |
 | 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>[개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
