@@ -4,10 +4,10 @@ title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 67%
+source-wordcount: '924'
+ht-degree: 69%
 
 ---
 
@@ -53,12 +53,15 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
    Shift 키를 누른 상태로 행 범위를 선택하거나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 상태로 여러 행을 선택합니다.
 
-### 마우스 오른쪽 단추 클릭 > 선택한 행 삭제
+<!--### Right-click > Delete selected rows
 
-1. 1개 이상의 행을 선택합니다.
-1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL 선택한 행 삭제]**.
+Note: this option does not seem to work. AN-338422
 
-   이 작업을 수행하면 테이블에서 행이 제거되고 테이블 필터가 적용됩니다.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
+
 
 ### 표에 단순 또는 고급 필터 적용
 
