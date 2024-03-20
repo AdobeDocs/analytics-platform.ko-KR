@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: adb62f1a4c48955f890909d4f4b090786c3968d3
+source-git-commit: 20e99275a42312ed974ac4c1af28ede73180e748
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 91%
+source-wordcount: '957'
+ht-degree: 84%
 
 ---
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2024년 3월)
 
-**마지막 업데이트**: 2024년 3월 13일
+**마지막 업데이트**: 2024년 3월 20일 목요일
 
 이번 릴리스 정보에는 2024년 3월 13일부터 2024년 4월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 | **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 3월 26일 |
 | **계산된 지표 관리자 및 필터 관리자의 &quot;사용 위치&quot; 열에 포함된 Report Builder 사용량** | 를 볼 때 **다음에서 사용됨** 계산된 지표 관리자 또는 필터 관리자의 열에서는 이제 Report Builder에 사용 데이터를 사용할 수 있습니다.<p>이전에는 필터 관리자의 사용량 데이터는 경고, 프로젝트, 예약된 프로젝트 및 계산된 지표에만 사용할 수 있었지만, 계산된 지표 관리자의 사용량 데이터는 경고, 프로젝트 및 예약된 프로젝트에만 사용할 수 있었습니다.</p> |  | 3월 말 또는 4월 초 |
 | **Adobe Product Analytics: 단일 이동 단계 내에서 이벤트 비교** | ‘이동: 마찰’ 보기에서 이제 단일 이동 단계 내의 이벤트를 비교할 수 있습니다. 이는 여정에 단계 옵션이 있거나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 3월 29일 | 2024년 4월 12일 |
-| **관리자가 조직의 모든 위치 관리 가능** | ‘위치’ 페이지의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 자신이 만든 위치만 보고 관리할 수 있었습니다. | | 2024년 4월 |
+| **관리자는 조직의 모든 위치와 계정을 관리할 수 있습니다** | 위치 탭(구성 요소 > 내보내기 페이지)의 새 옵션을 사용하여 관리자는 조직의 모든 위치를 보고 관리할 수 있습니다. <p>구성 요소 > 내보내기 페이지의 위치 계정 탭에 있는 새 옵션을 사용하여 관리자는 조직의 모든 계정을 보고 관리할 수 있습니다.</p><p>이전에는 관리자가 생성한 위치와 계정만 보고 관리할 수 있었습니다.</p> | | 2024년 4월 |
 | **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다. 이전에는 Customer Journey Analytics에서 게시된 대상자를 Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다. 이 개선 사항은 다음과 같은 이점이 있습니다.<ul><li>대상자가 더 이상 1시간의 지연 없이 Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul>자세한 내용은 [Experience Platform에서 Customer Journey Analytics 대상자 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ko#audiences-aep) 섹션을 참조하십시오. |  | 2024년 4월 |
 | **Experience Edge 봇 탐지** | [봇 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 기능을 사용하면 Web SDK, Mobile SDK 및 Server API에서 생성된 이벤트가 알려진 스파이더 및 봇에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 4월 29일 |
 
