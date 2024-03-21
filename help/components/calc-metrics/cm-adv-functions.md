@@ -4,9 +4,9 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3024'
 ht-degree: 98%
 
 ---
@@ -67,10 +67,6 @@ Approximate Count Distinct (dimension)
 다음과 같은 방식으로 &quot;예상 고객&quot; 지표 측정 항목을 보고에 사용할 수 있습니다.
 
 ![고유 방문자 및 근사 고객을 보여주는 자유 형식 테이블 ](assets/approx-customers.png)
-
-## 고유 수 초과됨
-
-Count () 및 RowCount ()와 마찬가지로 근사 고유 개수 ()는 [&quot;고유 수 초과&quot; 한도](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교
 
