@@ -4,9 +4,9 @@ title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
+source-git-commit: 4c96089088560da635e2499e7ec770c19c3de0ab
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '920'
 ht-degree: 69%
 
 ---
@@ -33,7 +33,6 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 여러 메서드를 사용하여 자유 형식 테이블에서 행을 필터링할 수 있습니다. 
 
 - 행에서 &#39;X&#39;를 클릭합니다
-- 마우스 오른쪽 단추 클릭 > 선택한 삭제된 행
 - 표 필터
 - 세그먼테이션
 
