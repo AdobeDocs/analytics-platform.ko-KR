@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 9489868fdf8de416c061239de1c0719f263288d1
+source-git-commit: a932d0d364761d949831ee261907b923a79a1f56
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 77%
+source-wordcount: '2730'
+ht-degree: 75%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Experience Platform:
 
 1. ![쿼리 만들기](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B;쿼리 만들기&#x200B;**]**&#x200B;를 선택합니다.
 
-1. 다음 항목 선택 `"cja"` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
+1. 다음 항목 선택 `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
 
 1. 쿼리를 실행하려면 SQL 문을 입력하고 ![재생](assets/Smock_Play_18_N.svg) 단추(또는 누르기) `[SHIFT]` + `[ENTER]`).
 
@@ -78,7 +78,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. 다음 항목 선택 `"cja"` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
+   1. 다음 항목 선택 `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
 
    1. 명령 문자열을 복사하려면 ![복사](assets/Smock_Copy_18_N.svg) 다음에서 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션.
 
@@ -103,7 +103,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. 다음 항목 선택 `"cja"` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
+   1. 다음 항목 선택 `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
 
    1. Power BI에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -146,7 +146,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. &quot;cja&quot; 선택 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
+   1. 다음 항목 선택 ` cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**.
 
    1. Tableau에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -233,7 +233,7 @@ prod:all=> \dv
 | 다차원<br/>분류<br/>및 상단 고유 항목 | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 1, 2<br/>ORDER BY 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>FROM dv1</pre> |
 | 하위 선택:<br/>추가 필터링<br/>결과 | <pre>SELECT dim1, m1<br/>FROM (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</br>  GROUP BY dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
 | 하위 선택:<br/>쿼리 대상<br/>데이터 보기 | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/>  SELECT dim1 AS key, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim1<br/><br/>  UNION<br/><br/>  SELECT dim2 AS key, SUM(m1) AS m1<br/>  FROM dv2<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim2<br/>GROUP BY key<br/>ORDER BY total</pre> |
-| 하위 선택: <br/>계층화된 소스, <br/>필터링, <br/>및 집계 | 하위 선택을 사용하여 계층화됨:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>CTE WITH를 사용한 계층:<br/><pre>WITH rows AS (<br/>  WITH \_ AS (<br/>    SELECT * FROM data_ares<br/>    WHERE \`timestamp\` BETWEEN &#39;2021-01-01&#39; AND &#39;2021-02-01&#39;<br/>  )<br/>  SELECT _.item, _.units FROM _<br/>  WHERE _.item IS NOT NULL<br/>)<br/>SELECT rows.item, SUM(rows.units) AS units<br/>FROM rows WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
+| 하위 선택: <br/>계층화된 소스, <br/>필터링, <br/>및 집계 | 하위 선택을 사용하여 계층화됨:<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>CTE WITH를 사용한 계층:<br/><pre>((으)로 행 포함<br/>  \_ AS (<br/>    DATA_ARES에서 * 선택<br/>    여기서 \`timestamp\`는 &#39;2021-01-01&#39;과 &#39;2021-02-01&#39; 사이입니다.<br/>  )<br/>  \_.item, \_.units에서 을 선택합니다.<br/>  여기서 \_.item은 NULL이 아닙니다.<br/>)<br/>rows.item, SUM(rows.units)을 단위로 선택<br/>(&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)의 rows.item이 있는 행에서<br/>행별 그룹화.항목</pre> |
 | 지표가 차원 <br/>앞에 있거나<br/> 혼합되는<br/>위치 선택 | <pre>SELECT SUM(metric1) AS m1, dim1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 2</pre> |
 
 {style="table-layout:auto"}
