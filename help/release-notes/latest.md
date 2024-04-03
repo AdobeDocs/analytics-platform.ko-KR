@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: e27e2ad81ed997c5aa19a270a9d682ac6a03ce2a
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 94%
@@ -24,7 +24,7 @@ ht-degree: 94%
 | **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다. 이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
 | **사용량 지표** | [사용량 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR)는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
 | **Media Analytics 보고 - 대상자 분당 평균 시청 시간 (AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상자 분당 평균 시청 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. <p>분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다.</p><p> 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다.</p><p>자세한 내용은 [미디어 대상자 분당 평균 시청 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)을 참조하십시오.</p> |  | 2024년 3월 12일 |
-| **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 3월 26일 |
+| **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 4월 17일 목요일 |
 | **계산된 지표 관리자 및 필터 관리자의 “다음에서 사용” 열에 포함된 Report Builder 사용량** | 이제 Report Builder에 대해 계산된 지표 관리자 또는 필터 관리자의 **다음에서 사용** 열을 조회할 때 사용량 데이터를 확인할 수 있습니다.<p>이전에는 필터 관리자의 사용량 데이터는 경고, 프로젝트, 예약된 프로젝트 및 계산된 지표에 대해서만 사용할 수 있었으며, 계산된 지표 관리자의 사용량 데이터는 경고, 프로젝트 및 예약된 프로젝트에 대해서만 사용할 수 있었습니다.</p> |  | 7월 |
 | **Adobe Product Analytics: 단일 이동 단계 내에서 이벤트 비교** | ‘이동: 마찰’ 보기에서 이제 단일 이동 단계 내의 이벤트를 비교할 수 있습니다. 이는 여정에 단계 옵션이 있거나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 3월 29일 | 2024년 4월 12일 |
 | **관리자가 조직의 모든 위치 및 계정 관리 가능** | 위치 탭(구성 요소 > 내보내기 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다. <p>위치 계정 탭(구성 요소 > 내보내기 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 계정을 보고 관리할 수 있습니다.</p><p>이전에는 관리자가 자신이 만든 위치 및 계정만 보고 관리할 수 있었습니다.</p> | | 2024년 4월 |
