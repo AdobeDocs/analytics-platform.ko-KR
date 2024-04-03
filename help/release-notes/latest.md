@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e6696dc9639e3309695a7a20427753fa629d1816
+source-git-commit: 880bec05dbc14093f711ef54ee06ad2c8b178a7d
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 94%
 
 ---
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2024년 3월)
 
-**마지막 업데이트**: 2024년 3월 20일
+**마지막 업데이트**: 2024년 4월 3일 목요일
 
 이번 릴리스 정보에는 2024년 3월 13일부터 2024년 4월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **작업 영역 프로젝트에 대한 삭제 프로토콜로 변경** | 이전에는 삭제된 프로젝트가 시스템에서 삭제되지 않았습니다. 이제 180일 후 삭제된 프로젝트를 삭제합니다. 삭제 후 180일 동안에도 직접 프로젝트에 대한 URL이 있는 경우 사용자는 웹 인터페이스를 통해 프로젝트에 액세스할 수 있습니다. | | 2024년 3월 14일 |
 | **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다. 이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
 | **사용량 지표** | [사용량 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR)는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
 | **Media Analytics 보고 - 대상자 분당 평균 시청 시간 (AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상자 분당 평균 시청 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. <p>분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다.</p><p> 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다.</p><p>자세한 내용은 [미디어 대상자 분당 평균 시청 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)을 참조하십시오.</p> |  | 2024년 3월 12일 |
