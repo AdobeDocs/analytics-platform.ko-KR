@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 56b909a542915cd64251fb8849e55df920668025
+source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1523'
 ht-degree: 8%
 
 ---
@@ -121,7 +121,7 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 |---|--:|---|---|
 | 필드 | 10,000 | 시스템 강제 보호 | 데이터 세트의 행당 최대 속성 또는 필드 수. |
 | 고유 문자열 | 1,000만 | 시스템 강제 보호 | 조회 데이터 세트당 최대 고유 키 수. |
-| 다른 결과를 표시했던 | 100만 | 시스템 강제 보호 | 연결 내 고유 사용자 ID당 최대 행 수. |
+| 다른 결과를 표시했던 | 100만 | 시스템 강제 보호 | 연결 내 지정된 달에 고유 개인 ID당 최대 행 수. |
 | 행 크기 | 2 | 성능 보호/시스템 적용 보호 | Customer Journey Analytics에 수집된 데이터 행당 평균 크기(KB)(소프트 제한). 행 크기에 대한 정적 제한은 Experience Platform에서 데이터 수집을 위한 가드레일에 의해 결정됩니다. |
 
 {style="table-layout:auto"}
