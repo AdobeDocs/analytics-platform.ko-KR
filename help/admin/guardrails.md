@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
+source-git-commit: 8af2c48c4895e6015c16e3973b6cd213aff38441
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1606'
 ht-degree: 8%
 
 ---
@@ -127,6 +127,18 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 {style="table-layout:auto"}
 
 Experience Platform 참조 [데이터 수집 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+
+
+## 대상 데이터 내보내기
+
+| 이름 | 값 | 제한 유형 | 설명 |
+|---|--:|---|---|
+| 데이터 내보내기 | 인증된 총 데이터 레이크 스토리지 | 성능 보호 | 고객은 대상 데이터 세트 내보내기 를 사용하여 데이터 레이크에서 인증된 총 데이터 레이크 저장소까지 고객 데이터를 내보낼 수 있습니다. |
+| 사용 가능한 데이터 세트 | 프로필 및 이벤트 | 시스템 강제 보호 | 소스, Web SDK, Mobile SDK, Analytics Data Connector 및 Audience Manager을 통해 데이터를 수집하거나 수집한 후 Experience Platform UI에서 생성된 프로필 및 경험 이벤트 데이터 세트입니다. |
+
+{style="table-layout:auto"}
+
+Experience Platform 참조 [데이터 세트 내보내기 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 데이터 랜딩 영역
