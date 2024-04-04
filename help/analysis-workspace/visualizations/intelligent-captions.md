@@ -4,9 +4,9 @@ title: 인텔리전트 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -71,3 +71,7 @@ ht-degree: 2%
 지능형 캡션이 생성되지 않는 경우 시각화 환경 설정으로 이동하고 선택을 취소하여 이 기능을 끌 수 있습니다 **[!UICONTROL 지능형 캡션 표시]**.
 
 ![지능형 캡션 표시 선택 취소 옵션을 보여 주는 선 시각화 옵션입니다.](assets/toggle-captions.png)
+
+## 모바일 스코어카드의 지능형 캡션
+
+자세한 내용은 [스코어카드 관리](/help/mobile-app/manage-scorecard.md)
