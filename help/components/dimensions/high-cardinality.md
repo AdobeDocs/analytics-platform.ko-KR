@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 6%
 
 ---
@@ -39,3 +39,4 @@ Customer Journey Analytics은 보고서가 실행될 때 보고서를 처리하�
 * 조회 데이터 세트 차원을 사용합니다. 조회 데이터 세트 차원은 이벤트 데이터 세트 차원 항목을 결합하여 반환되는 고유 값의 수를 제한합니다.
 * 사용 [포함/제외](/help/data-views/component-settings/include-exclude-values.md) 데이터 보기 관리자의 구성 요소 설정.
 * 요청의 날짜 범위를 줄입니다. 시간이 지남에 따라 많은 고유 값이 누적되는 경우 작업 영역 보고서의 날짜 범위를 단축하면 처리할 서버의 고유 값 수가 제한될 수 있습니다.
+* 사용 고려 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 를 눌러 테이블의 모든 행을 반환합니다.

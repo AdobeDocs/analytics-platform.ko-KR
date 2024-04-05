@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 12007130027d152038b1210070f6ebd5de15c762
+source-git-commit: dd4a2e4770e0ead4c7b4c578acd2ceacdfaa856c
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 77%
+source-wordcount: '3277'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 4월** | |
+| 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 권장하는 정보가 추가되었습니다. | 에 글머리 기호 추가됨 [높은 카디널리티 차원에 대한 우수 사례](/help/components/dimensions/high-cardinality.md) 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 사용하는 것이 좋습니다. |
 | **2024년 3월** | |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/getting-started/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
