@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5078d10fe55123e45c1b890cded36965bb5e039f
+source-git-commit: 1d2a6258554712aa244aede182d12627fdd61857
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 23%
+source-wordcount: '2939'
+ht-degree: 22%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 23%
 | [!UICONTROL 지표] | **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대한 추가/생략/삭제된 이벤트 기록 및 추가된 배치 수를 요약합니다.<p>선택 **[!UICONTROL 세부 사항 확인]** 표시 방법 **[!UICONTROL 건너뛴 세부 정보 확인]** 팝업, 모든 이벤트 데이터 세트 또는 선택한 데이터 세트에 대해 생략된 레코드 수 및 이유를 나열합니다.<p><img src="./assets/skipped-records.png" width="500"/><p>선택 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 팝업에 추가 정보를 추가합니다. 다음과 같은 생략된 이유로 [!UICONTROL 빈 방문자 ID]에서 사용할 수 있는 EQS(Query Service에 대한 Experience Platform)에 대한 샘플 PSQL이 팝업에 표시됩니다. [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko) 를 입력하여 데이터 세트에서 건너뛴 레코드를 쿼리합니다. 선택 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL EQS에 대한 샘플 PSQL 복사]** SQL을 복사합니다. |
 | [!UICONTROL 추가된 레코드] | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 추가되었는지 나타냅니다. 10분마다 업데이트됩니다. |
 | [!UICONTROL 생략된 레코드] | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 생략되었는지 나타냅니다. 기록 생략의 이유에는 타임스탬프 누락, 누락된 또는 잘못된 개인 ID 등이 포함됩니다. 10분마다 업데이트됩니다. <p>잘못된 개인 ID(예를 들면 [!UICONTROL 개인 ID]에 &quot;정의되지 않은&quot; 또는 &quot;00000000&quot; 또는 1달 동안 1백만 번 이상 하나의 이벤트에 나타나는 숫자 및 문자의 조합이 사용되는 경우)는 특정 사용자 또는 개인의 속성으로 할당될 수 없습니다. 이러한 ID는 시스템에서 수집될 수 없으며 오류 유발 수집 및 보고를 초래할 수 있습니다. 잘못된 개인 ID를 수정할 수 있는 세 가지 방법이 있습니다.<ul><li>사용 [결합](/help/stitching/overview.md) 정의되지 않은 또는 모두 영으로 된 사용자 ID를 유효한 사용자 ID로 채우기.</li><li>사용자 ID를 지우면 해당 ID는 수집 중에 건너뜁니다(잘못된 또는 모두 영으로 된 사용자 ID보다 선호됨).</li><li>데이터를 수집하기 전에 사용자의 시스템 내에서 모든 잘못된 사용자 ID를 수정합니다.</li></ul> |
-| [!UICONTROL 레코드] 삭제됨 | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 삭제되었는지 나타냅니다. 예를 들어 누군가가 Experience Platform에서 데이터 세트를 삭제했을 수도 있습니다. 10분마다 업데이트됩니다. |
+| [!UICONTROL 레코드] 삭제됨 | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 삭제되었는지 나타냅니다. 예를 들어 누군가가 Experience Platform에서 데이터 세트를 삭제했을 수도 있습니다. 10분마다 업데이트됩니다.<p>일부 시나리오에서 이 값에는 결합 또는 일부 조회 데이터 세트 업데이트와 같이 대체된 레코드도 포함될 수 있습니다. 다음 예를 생각해 보십시오.</p><ul><li>하나의 레코드를 XDM 개별 프로필 데이터 세트에 업로드합니다. 이 데이터 세트는 CJA가 프로필 조회 데이터로 수집하도록 구성됩니다. 연결 세부 정보에서 이 데이터 세트에는 추가된 레코드 1개가 표시됩니다.</li><li>원본 레코드의 중복을 동일한 AEP 데이터 세트에 업로드하면 이제 두 개의 레코드가 포함됩니다. CJA는 프로필 조회 데이터 세트에서 추가 레코드를 수집합니다. 해당 개인 ID에 대한 연결에서 프로필 레코드를 이미 수집했음을 확인하고, CJA에서 이전 버전을 삭제하고 새 프로필 데이터를 추가합니다. CJA는 수집된 개인 ID에 대한 최신 프로필 조회 데이터만 유지하므로 연결 세부 정보에서 이는 추가된 1개 레코드 및 삭제된 1개 레코드를 나타냅니다.</li><li>전체적으로 AEP 데이터 세트에는 동일한 두 개의 레코드가 포함됩니다. 별도로 CJA 연결 세부 정보에 수집된 데이터의 상태가 표시됩니다. 이 프로필 데이터 세트에 대해 추가된 레코드 2개와 삭제된 레코드 1개가 있습니다. </li></ul> |
 | ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _데이터 세트 이름 또는 ID 검색_ | 데이터 세트 검색 필드. 데이터 세트 이름이나 [!UICONTROL 데이터 세트 ID]. |
 | [!UICONTROL 데이터 세트 테이블] | 연결에 포함된 데이터 세트를 표시합니다. |
 | [!UICONTROL 데이터 세트] | 연결에 포함된 데이터 세트의 이름을 표시합니다. 하이퍼링크를 선택하여 Experience Platform UI의 데이터 세트를 새 탭에서 열 수 있습니다. 행 또는 확인란을 선택하여 선택한 데이터 세트에 대한 세부 사항만 표시할 수 있습니다. |
