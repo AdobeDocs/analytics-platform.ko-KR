@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 80%
 
 ## 폴더에서 프로젝트 삭제 {#delete-project-in-folder}
 
-폴더에서 프로젝트를 삭제하면 180일 후 시스템에서 제거됩니다. 삭제 후 180일 동안에도 프로젝트에 대한 직접 URL이 있는 경우 사용자는 웹 인터페이스를 통해 삭제된 프로젝트에 액세스할 수 있습니다.
+폴더에서 프로젝트를 삭제하면 180일 후 시스템에서 삭제됩니다. 사용자는 프로젝트로 직접 연결되는 URL이 있는 경우 삭제 후 180일 동안 웹 인터페이스를 통해 삭제된 프로젝트에 계속 액세스할 수 있습니다.
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
