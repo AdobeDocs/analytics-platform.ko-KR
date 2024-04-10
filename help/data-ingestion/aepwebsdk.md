@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 84%
@@ -108,7 +108,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![식별 오브젝트](./assets/identification-field.png)
 
-   ID 개체는 스키마에 ID 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트 방문 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
+   ID 개체는 스키마에 ID 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트를 방문하는 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
