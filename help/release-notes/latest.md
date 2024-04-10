@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
+source-git-commit: dea4a862f2e40e31bf96d0898418adfd7ca3a2f7
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 는 분석가의 도움 없이 비분석가가 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 10일 목요일 |
+| **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 는 분석가의 도움 없이 비분석가가 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 17일 |
 | **Workspace 프로젝트 삭제 프로토콜 변경** | 기존에는 삭제된 Workspace 프로젝트가 시스템에서 제거되지 않았습니다. 이제 180일이 지나면 삭제된 프로젝트의 제거가 시작됩니다. 사용자는 해당 프로젝트로의 URL이 있는 경우 삭제 후 180일 동안 웹 인터페이스를 통해 삭제된 프로젝트에 계속 액세스할 수 있습니다. | | 2024년 3월 14일 |
 | **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다. 이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
 | **사용량 지표** | [사용량 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR)는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
