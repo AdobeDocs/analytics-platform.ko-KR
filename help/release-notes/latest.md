@@ -3,26 +3,27 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: dea4a862f2e40e31bf96d0898418adfd7ca3a2f7
+source-git-commit: 6057084f26c85929d307f2b7d750358dce590ca6
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 97%
+source-wordcount: '1095'
+ht-degree: 94%
 
 ---
 
 # 현재 Adobe Customer Journey Analytics 릴리스 정보 (2024년 3월)
 
-**마지막 업데이트**: 2024년 4월 10일 목요일
+**마지막 업데이트**: 2024년 4월 10일
 
-이번 릴리스 정보에는 2024년 3월 13일 목요일부터 2024년 4월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 3월 13일부터 2024년 4월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 는 분석가의 도움 없이 비분석가가 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 17일 |
+| **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)은 비분석가가 분석가의 도움 없이도 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 17일 |
 | **Workspace 프로젝트 삭제 프로토콜 변경** | 기존에는 삭제된 Workspace 프로젝트가 시스템에서 제거되지 않았습니다. 이제 180일이 지나면 삭제된 프로젝트의 제거가 시작됩니다. 사용자는 해당 프로젝트로의 URL이 있는 경우 삭제 후 180일 동안 웹 인터페이스를 통해 삭제된 프로젝트에 계속 액세스할 수 있습니다. | | 2024년 3월 14일 |
 | **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Customer Journey Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=ko-KR)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다. 이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
+| **Media Edge API에 대한 사용 사례 설명서** | Media Edge API를 사용하는 데 두 가지 새로운 사용 사례를 사용할 수 있습니다. 첫 번째 사용 사례는 다음을 포함하는 미디어 세션을 추적하는 방법을 설명합니다. [광고 브레이크가 있는 두 챕터](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/chapters-with-ad-timeline/). 두 번째 사용 사례에서는 다음을 포함하는 미디어 세션을 추적하는 방법을 설명합니다. [버퍼 상태 및 일시 중지](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/buffer-and-pause-timeline/). |  | 2024년 3월 13일 |
 | **사용량 지표** | [사용량 지표 인터페이스](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR)는 모든 연결에서 수집되고 보고 가능한 행의 사용량을 보여 줍니다. 이 인터페이스를 사용하면 Customer Journey Analytics 사용량이 계약상 합의된 내용을 준수하는지 여부를 확인할 수 있습니다. |  | 2024년 3월 13일 |
 | **Media Analytics 보고 - 대상자 분당 평균 시청 시간 (AMA)** | 이제 대상자 분당 평균 시청 시간 패널을 CJA에서 사용할 수 있습니다. Media Analytics 고객은 대상자 분당 평균 시청 시간 패널을 사용하여 콘텐츠의 평균 소비에 대해 더 잘 이해할 수 있습니다. <p>분당 평균 시청 시간을 통해 모든 길이 또는 모든 장르의 프로그램을 비교할 수 있습니다. 또한 고객은 이 디지털 분당 평균 시청 시간을 유선 TV 평균 시청 시간 지표와 비교하거나 추가할 수 있습니다.</p><p> 이 패널을 통해 기간 분류가 이후에 업데이트된 경우에도 사용자 정의 기간의 대상자 평균을 보다 유연하게 측정할 수 있습니다.</p><p>자세한 내용은 [미디어 대상자 분당 평균 시청 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)을 참조하십시오.</p> |  | 2024년 3월 12일 |
 | **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 4월 17일 |
