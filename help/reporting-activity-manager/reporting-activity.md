@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: d6f2d7129b472b32edc30dadfeb2303a92d790de
+source-git-commit: 4cb3c61a518b93119d8ffd503fc8653076ad56a1
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2007'
 ht-degree: 7%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 7%
 1. 조직의 모든 연결에 대한 총 보고서 요청 수를 보려면 을 확장합니다. [!UICONTROL **더 보기**] 을(를) 보려면 [!UICONTROL **월별 보고서 요청**] 그래프.
 
    조직 내에서 이번 달과 이전 달에 대한 보고서 요청 수를 볼 수 있습니다.
+
+   ![보고서 큐를 보여주는 보고 활동](assets/reporting-activity-monthly.png)
 
 1. (선택 사항) 연결 목록을 검색하거나 필터링할 수 있습니다.
 
