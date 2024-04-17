@@ -5,9 +5,9 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cdf99e31790f089950de8063445b6264158131dd
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -48,13 +48,19 @@ ht-degree: 1%
 
 1. 다음 항목 선택 [!UICONTROL **위치**] 탭.
 
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 위치 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+
 1. 검색 필드에 검색 중인 위치와 관련된 정보를 입력합니다. 테이블에서 사용할 수 있는 열에서 데이터를 검색할 수 있습니다.
 
 ## 위치 편집
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 
-1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 누른 다음 편집할 위치를 선택합니다.
+1. 다음 항목 선택 [!UICONTROL **위치**] 탭.
+
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 위치 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+
+1. 편집할 위치를 선택합니다.
 
    ![위치 탭과 위치 목록을 표시하는 창을 내보냅니다.](assets/locations-edit.png)
 
@@ -70,7 +76,11 @@ ht-degree: 1%
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 
-1. 다음 항목 선택 [!UICONTROL **위치**] 탭을 누른 다음 삭제할 위치를 하나 이상 선택합니다.
+1. 다음 항목 선택 [!UICONTROL **위치**] 탭.
+
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 위치 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+
+1. 삭제할 위치를 하나 이상 선택합니다.
 
    ![위치 탭과 위치 목록을 표시하는 내보내기 창](assets/locations-edit.png)
 
@@ -92,6 +102,8 @@ ht-degree: 1%
 
    ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
 
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 계정 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+
 1. 선택 [!UICONTROL **세부 정보 보기**] 편집할 계정에 대해 설명합니다.
 
 1. 원하는 대로 변경한 다음, [!UICONTROL **저장**].
@@ -108,6 +120,8 @@ ht-degree: 1%
 
    ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
 
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 계정 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 키**].
 
 ## 계정 삭제
@@ -117,6 +131,8 @@ ht-degree: 1%
 1. 다음 항목 선택 [!UICONTROL **위치 계정**] 탭.
 
    ![위치 계정 탭을 표시하는 내보내기 창](assets/account-add.png)
+
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 계정 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
 
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 삭제**].
 
