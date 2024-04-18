@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9c89f05c85ce7232bece6de08efbab222d51a644
+source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 47%
@@ -27,8 +27,8 @@ ht-degree: 47%
 | **관리자가 조직의 모든 위치 관리 가능** | 에 대한 새 옵션 [위치 페이지](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 을 통해 관리자는 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 자신이 만든 위치만 보고 관리할 수 있었습니다. |  | 2024년 4월 17일 |
 | **Adobe Product Analytics: 기능 매트릭스** | 핵심, 동력, 일회성, 의문스러운 특징이 무엇인지 이해하여 투자 결정을 유도합니다. [!UICONTROL 기능 매트릭스] 사용 빈도와 활성 사용자(%)별로 이벤트를 측정하고 평균 사용량과 비교합니다. | 2024년 4월 17일 | 2024년 4월 30일 |
 | **Adobe Product Analytics: 단계의 Enhanced Insights** | 다음에서 [마찰](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기, 작성된 인사이트가 카테고리, 델타 및 설명을 포함하도록 개선되어 차트 및 표를 더 잘 이해할 수 있습니다. | 2024년 4월 17일 | 2024년 4월 26일 토요일 |
-| **Adobe Product Analytics: 향상된 보존 보기** | 몇 가지 기능이 [유지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates) 보다 심층적이고 맞춤화가 가능한 유지 통찰력을 도출하기 위한 속도 보기:<ul><li>시작 및 반환 이벤트 연결 해제</li><li>단일 보기에서 여러 반환 이벤트 비교</li><li>각(경계) 및 괄호 설정에 대해 설정 또는 후(경계 없음)에 적용된 보존 모델 사용자 정의</li><li>차트에서 개별 집단 행 표시 및 숨기기</li></ul> | 2024년 4월 10일 | 2024년 4월 26일 토요일 |
-| **Adobe Product Analytics: 단일 이동 단계 내에서 이벤트 비교** | 이제 의 단일 단계 단계에서 이벤트를 비교할 수 있습니다. [마찰](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기. 이는 여정에 단계 옵션이 있거나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 4월 12일 | 2024년 4월 26일 토요일 |
+| **Adobe Product Analytics: 향상된 보존 보기** | 몇 가지 기능이 [유지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates) 보다 심층적이고 맞춤화가 가능한 유지 통찰력을 도출하기 위한 속도 보기:<ul><li>시작 및 반환 이벤트 연결 해제</li><li>단일 보기에서 여러 반환 이벤트 비교</li><li>각(경계) 및 괄호 설정에 대해 설정 또는 후(경계 없음)에 적용된 보존 모델 사용자 정의</li><li>차트에서 개별 집단 행 표시 및 숨기기</li></ul> | 2024년 4월 24일 목요일 | 2024년 5월 8일 목요일 |
+| **Adobe Product Analytics: 단일 이동 단계 내에서 이벤트 비교** | 이제 의 단일 단계 단계에서 이벤트를 비교할 수 있습니다. [마찰](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기. 이는 여정에 단계 옵션이 있거나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 4월 23일 수요일 | 2024년 5월 3일 토요일 |
 | **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 5월 1일 목요일 |
 | **Experience Edge 봇 탐지** | [봇 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ko-KR) 기능을 사용하면 Web SDK, Mobile SDK 및 Server API에서 생성된 이벤트가 알려진 스파이더 및 봇에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 5월 1일 목요일 |
 | **파생 필드: 다음 또는 이전 함수** | 이러한 새로운 기능을 사용하면 필드를 입력으로 가져온 다음 n-이전 또는 n-다음 값을 식별하여 사용자 여정을 더 잘 볼 수 있습니다. 이 기능은 의 다른 함수와 결합할 수도 있습니다 [!UICONTROL 파생 필드], 예: [!UICONTROL 연결]을 눌러 새 차원을 생성합니다. |  | 2024년 5월 1일 목요일 |
