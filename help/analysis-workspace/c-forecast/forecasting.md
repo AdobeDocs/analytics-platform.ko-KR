@@ -4,9 +4,9 @@ title: 예측 개요
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 {{select-package}}
 
-예측은 지원되는 시간 세부기간(시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 데 도움이 되는 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
+예측에는 Customer Journey Analytics에 이미 존재하는 과거 데이터를 기반으로 시계열 관련 데이터에 대한 통계적 예측이 포함된다. 예측은 자유 형식 테이블 및 선 그래프 시각화에 나타날 수 있습니다. 사용자는 Customer Journey Analytics UI에서 사용자 환경 설정을 통해 예측이 자동으로 포함되는지 여부를 제어할 수 있습니다. 열 설정 내에서 열별로 이러한 기능을 켜거나 끌 수도 있습니다. 테이블에 추가된 첫 번째 열에서만 이미 예측이 설정되어 있습니다.
+
+예측은 &quot;선택&quot; 이상의 Customer Journey Analytics 라이선스 계층에서 사용할 수 있습니다.
 
 다음에 대한 예측을 활용할 수 있습니다.
 
