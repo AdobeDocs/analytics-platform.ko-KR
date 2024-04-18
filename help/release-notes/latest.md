@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
+source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 47%
+source-wordcount: '945'
+ht-degree: 43%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 47%
 | **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 5월 1일 목요일 |
 | **Experience Edge 봇 탐지** | [봇 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ko-KR) 기능을 사용하면 Web SDK, Mobile SDK 및 Server API에서 생성된 이벤트가 알려진 스파이더 및 봇에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 5월 1일 목요일 |
 | **파생 필드: 다음 또는 이전 함수** | 이러한 새로운 기능을 사용하면 필드를 입력으로 가져온 다음 n-이전 또는 n-다음 값을 식별하여 사용자 여정을 더 잘 볼 수 있습니다. 이 기능은 의 다른 함수와 결합할 수도 있습니다 [!UICONTROL 파생 필드], 예: [!UICONTROL 연결]을 눌러 새 차원을 생성합니다. |  | 2024년 5월 1일 목요일 |
+| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | Customer Journey Analytics에서 게시한 대상은 이제 Adobe Experience Platform의 새 &quot;대상&quot; 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시한 대상자를 &quot;세그먼트&quot; 섹션 아래의 Experience Platform에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상은 더 이상 Experience Platform에 표시되기 전에 1시간 지연되지 않습니다. 대상은 게시된 후 몇 초 후에 사용할 수 있습니다.</li><li>원래 대상이 게시된 애플리케이션을 표시하는 &quot;원본&quot; 열을 사용하여 Experience Platform에서 대상을 정렬할 수 있습니다.</li><li>Experience Platform의 필터 및 정렬 옵션을 사용하면 관련 대상자를 더 빨리 찾을 수 있습니다.</li></ul> |  | 2024년 5월 |
 
 {style="table-layout:auto"}
 
