@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
-workflow-type: ht
-source-wordcount: '1969'
-ht-degree: 100%
+source-git-commit: 5c5e526c6442c6ad1c749b6472a342590db2eff5
+workflow-type: tm+mt
+source-wordcount: '2035'
+ht-degree: 96%
 
 ---
 
@@ -125,16 +125,18 @@ ht-degree: 100%
 
 | 기능 | 자세한 내용 |
 | --- | --- |
+| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 결합할 수 있습니다. |
 | 모든 유형의 데이터 수용 | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
+| Cross-Device Analytics | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
+| 파생 필드 | 파생 필드를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
+| 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
+| 실험 분석 | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 실험의 상승도 및 신뢰도를 평가할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
+| 예측 | 예측은 Customer Journey Analytics에 이미 존재하는 이전 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측이 포함된 AI/ML 기능입니다. 예측은 자유 형식 테이블 및 선 그래프 시각화에 나타날 수 있습니다. |
+| 안내식 분석 | 안내식 분석은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
+| 인텔리전트 캡션 | 지능형 캡션은 고급 머신 러닝 및 생성 AI를 사용하여 작업 영역 시각화에 중요한 자연어 통찰력을 제공합니다. 초기 릴리스는에 대해 자동 생성된 통찰력을 제공합니다. [라인](/help/analysis-workspace/visualizations/line.md) 시각화. |
+| 보고 시간 변환 | Customer Journey Analytics의 데이터 보기를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
+| SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다. |
 | 무제한 고유 값 | Customer Journey Analytics는 보고될 수 있는 단일 차원 내의 무제한 고유 값 또는 차원 항목을 지원합니다. Adobe Analytics는 50만 개의 고유 값으로 제한됩니다. 무제한 고유 값 또는 차원은 대규모 Analytics 구현에 존재하는 보고 및 분석 제한 사항을 제거합니다. |
-| 보고 시간 변환 | Customer Journey Analytics의 데이터 보기를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
-| 실험 분석 | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 실험의 상승도 및 신뢰도를 평가할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
-| Cross-Device Analytics | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
-| SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
-| 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 추가 보안 옵션을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
-| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 결합할 수 있습니다. |
-| 파생 필드 | 파생 필드를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
-| 안내식 분석 | 안내식 분석은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
 
 {style="table-layout:auto"}

@@ -4,9 +4,9 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 68289e274c8ea985b6d07bca228f5e6654e05aa4
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1889'
 ht-degree: 58%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 58%
 
 **[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Adobe 솔루션, Adobe Journey Optimizer 및 BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
 
->[!IMPORTANT]
->
->이 시점에서 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) 데이터 *할 수 없음* 실험 패널에서 분석할 예정입니다.
+자세한 내용 [Adobe Customer Journey Analytics과 Adobe Target 간의 통합](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja4t/cja4t).
 
 ## 액세스 제어 {#access}
 
@@ -33,7 +31,7 @@ ht-degree: 58%
 
 실험 데이터가 [수집됨](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) Adobe Experience Platform으로 [Customer Journey Analytics에서 연결 만들기](/help/connections/create-connection.md) 하나 이상의 실험 데이터 세트로
 
-## 2단계: 데이터 보기에 컨텍스트 레이블 추가 {#contect-labels}
+## 2단계: 데이터 보기에 컨텍스트 레이블 추가 {#context-labels}
 
 Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가할 수 있습니다. [컨텍스트 레이블](/help/data-views/component-settings/overview.md) 차원 또는 지표 및 다음과 같은 Customer Journey Analytics 서비스 [!UICONTROL 실험] 패널은 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
 
