@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 135d1832a1c22248e3c52e3f7cb9f05293626522
+source-git-commit: 9450ecdce53088b008f3a5a5413d3e824fbd9b13
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 78%
+source-wordcount: '1111'
+ht-degree: 76%
 
 ---
 
@@ -42,6 +42,16 @@ ht-degree: 78%
 + Customer Journey Analytics 및 Adobe Analytics 비교 {#compare-aa-cja}
    + [Adobe Analytics의 발전](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
+   + Customer Journey Analytics으로 마이그레이션 {#migrate-to-cja}
+      + [시작](/help/getting-started/cja-migration/cja-migration-getstarted.md)
+      + [마이그레이션 방법 선택](/help/getting-started/cja-migration/cja-migration-method.md)
+      + [플랫폼으로 데이터 보내기](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
+      + [XDM에 데이터 매핑](/help/getting-started/cja-migration/cja-migration-xdm.md)
+      + [이전 데이터 유지](/help/getting-started/cja-migration/cja-migration-historical-data.md)
+      + [플랜 사용자 온보딩](/help/getting-started/cja-migration/cja-migration-onboarding.md)
+      + [포트 API 사용](/help/getting-started/cja-migration/cja-migration-api.md)
+      + [데이터 피드 및 Data Warehouse 바꾸기](/help/getting-started/cja-migration/cja-migration-export-options.md)
+      + [프로젝트 및 구성 요소 마이그레이션](/help/getting-started/cja-migration/cja-migration-projects.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
