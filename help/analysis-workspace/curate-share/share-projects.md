@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
 workflow-type: tm+mt
-source-wordcount: '2091'
-ht-degree: 68%
+source-wordcount: '2040'
+ht-degree: 69%
 
 ---
 
@@ -138,7 +138,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 >
 >* 많은 사용자가 동시에 특정 링크에 액세스하려고 하면 프로젝트에 액세스하는 것이 불가능할 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 단일 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 동안 기다린 후 링크에 다시 액세스해 보십시오.
 >
->* 조직에서 Healthcare Shield를 라이선스할 경우 SSO(Single Sign-On) 또는 Adobe ID으로 인증된 사용자만 프로젝트를 공유할 수 있으며 인증되지 않은 사용자와 프로젝트를 공유할 수는 없습니다. 회사의 내부 데이터 거버넌스 정책을 준수하여 이 기능을 사용하고 적절한 권한이 있는 사용자와 PHI(개인 건강 정보)가 포함된 프로젝트 링크만 공유하는 것은 사용자의 책임입니다.
+>* 다음 [!UICONTROL 누구와도 공유] 이 기능은 Healthcare Shield 및 Privacy &amp; Security Shield 라이선스 모두에서 차단됩니다.
 
 다음 비디오 데모 및 관련 문서에서는 모두와 링크를 공유하는 것과 관련된 옵션을 설명합니다.
 
