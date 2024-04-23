@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 86ce60cf-b3c7-43b5-aa18-9e16fa942e54
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++
 
-다음 표는 구현 방법을 보여 줍니다. 데이터를 XDM 스키마에 매핑해야 합니다.
+일부 마이그레이션 메서드에서는 Adobe Analytics 데이터를 XDM 스키마에 매핑할 필요가 없습니다. 다음 표는 XDM 스키마 매핑이 필요한 구현 방법을 보여 줍니다.
 
 
 | 마이그레이션 메서드 | XDM 매핑이 필요하십니까? | 추가 정보 |

@@ -6,9 +6,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 21d77f06595993172460b724dc7991cb9a5a02a8
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 | 마이그레이션 메서드 | 데이터를 플랫폼으로 전송하는 프로세스 |
 |---------|----------|
-| 웹 SDK의 새로운 구현 | [Adobe Experience Platform Web SDK를 통해 데이터 수집](/help/data-ingestion/aepwebsdk.md) |
-| 웹 SDK를 사용하도록 Adobe Analytics 구현 마이그레이션 | Analytics 태그 확장을 사용하는 경우: [Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)<p>또는</p><p>AppMeasurement을 사용하는 경우: [AppMeasurement에서 웹 SDK로 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
-| 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Customer Journey Analytics으로 전송 | [데이터 스트림 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream) 위치: [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) |
+| 웹 SDK의 새로운 구현 | 웹 SDK의 새로운 구현이므로 다음에 설명된 모든 단계를 수행해야 합니다 [Adobe Experience Platform Web SDK를 통해 데이터 수집](/help/data-ingestion/aepwebsdk.md). |
+| 웹 SDK를 사용하도록 Adobe Analytics 구현 마이그레이션 | Adobe Analytics Web SDK로 마이그레이션하는 단계는 현재 구현이 Analytics 확장인지 아니면 AppMeasurement인지에 따라 다릅니다. <p>Analytics 태그 확장을 사용하는 경우: [Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)</p><p>또는</p><p>AppMeasurement을 사용하는 경우: [AppMeasurement에서 웹 SDK로 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
+| 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Customer Journey Analytics으로 전송 | Adobe Analytics 구현에서 이미 웹 SDK를 사용하고 있으므로, [데이터 스트림 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream). 에서 다른 섹션은 무시할 수 있습니다. [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk). |
 | Analytics 소스 커넥터 | [기존 Adobe Analytics에서 데이터 수집 및 사용](/help/data-ingestion/analytics.md) |
 
 ## 그런 다음 데이터를 XDM 스키마에 매핑합니다

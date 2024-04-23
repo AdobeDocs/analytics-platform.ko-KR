@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 4%
+source-wordcount: '2026'
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,15 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 * 미래를 위한 여러분의 목표
 
-다음 섹션을 사용하여 조직의 현재 구현 및 향후 목표에 가장 적합한 Customer Journey Analytics 마이그레이션 방법을 결정합니다.
+이 페이지의 정보를 사용하여 조직의 현재 구현 및 향후 목표에 가장 적합한 Customer Journey Analytics 마이그레이션 방법을 결정합니다.
+
+조직에 대한 최적의 마이그레이션 방법을 결정하려면 다음 섹션을 순차적으로 읽어야 합니다.
+
+1. 첫 번째, [사용 가능한 마이그레이션 방법 이해](#understand-migration-methods).
+
+1. 그런 다음, [사용 가능한 마이그레이션 방법 평가](#assess-the-migration-methods-available-to-you-based-on-your-current-adobe-analytics-implementation).
+
+1. 그리고 마지막으로 [각 마이그레이션 방법의 장단점을 따져보십시오.](#weigh-the-advantages-and-disadvantages-of-the-migration-methods-available-to-you).
 
 ## 마이그레이션 방법 이해
 
@@ -58,14 +66,14 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 | 마이그레이션 메서드 | 작업량 | 장기적 생존 가능성 |
 |---------|----------|---------|
-| **웹 SDK의 새로운 구현**</br>&#x200B;새로운 Adobe Experience Platform Web SDK 구현을 수행하여 Adobe Experience Platform Edge Network에 데이터를 전송할 수 있습니다 <!-- what is the correct branding -->. <p>아직 Web SDK에 없는 조직의 경우, 이 마이그레이션 방법은 데이터를 Edge Network으로 가져올 때 가장 간단할 수 있지만(단계 수가 가장 적음), XDM 스키마를 만드는 등 모든 작업이 미리 수행됩니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>조직에 대한 XDM 스키마 만들기</li><li>웹 SDK 구현</li><li>플랫폼으로 데이터 보내기</li></ol> | 높음 | 높음 |
-| **웹 SDK를 사용하도록 Adobe Analytics 구현 마이그레이션**</br> Adobe Analytics 구현이 AppMeasurement 또는 Analytics 확장 기능인 경우 Customer Journey Analytics으로 전송하기 전에 Adobe Experience Platform Web SDK를 사용하여 데이터를 Edge Network으로 전송하기 시작하도록 마이그레이션할 수 있습니다. <!-- what else? --><p>이는 데이터를 Edge Network으로 가져오는 가장 쉽고 원활한 방법입니다. 더 많은 단계가 필요하지만 보다 가시적인 이정표를 통해 보다 방법적인 전환을 제공합니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>기존 Adobe Analytics 구현을 웹 SDK로 이동하고 모든 것이 제대로 작동하는지 확인하십시오.</li><li>시간이 지남에 따라 조직에 대한 XDM 스키마를 만듭니다.</li><li>데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li><li>플랫폼으로 데이터 보내기</li></ol> | 중재 | 높음 |
-| **기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Customer Journey Analytics으로 전송**</br> Adobe Analytics 구현에서 이미 웹 SDK를 사용 중인 경우 데이터를 Customer Journey Analytics으로 전송할 수 있습니다.<p>데이터를 Customer Journey Analytics으로 보내기 전에 조직 및 사용할 다른 Platform 애플리케이션의 특정 요구 사항에 맞게 Adobe Analytics 스키마를 업데이트하는 것이 좋습니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>Customer Journey Analytics으로 데이터 전송을 시작합니다.<!-- What's involved here? Just point it at CJA? --></li><li>(선택 사항) 시간이 있을 때 조직에 대한 XDM 스키마를 만듭니다.</li><li>데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li></ol> | 낮음 | 높음 |
+| **웹 SDK의 새로운 구현**</br>&#x200B;새로운 Adobe Experience Platform Web SDK 구현을 수행하여 Adobe Experience Platform Edge Network에 데이터를 전송할 수 있습니다 <!-- what is the correct branding -->. <p>아직 Web SDK에 없는 조직의 경우 이 마이그레이션 방법은 데이터를 Edge Network으로 가져올 때 가장 간단할 수 있습니다(단계 수가 가장 적음). 하지만 모든 작업이 바로 수행되기 때문에(XDM 스키마 만들기 등) 더 큰 초기 작업이 필요합니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>조직에 대한 XDM 스키마를 만듭니다.</li><li>웹 SDK를 구현합니다.</li><li>데이터를 플랫폼으로 전송합니다.</li></ol> | 높음 | 높음 |
+| **웹 SDK를 사용하도록 Adobe Analytics 구현 마이그레이션**</br> Adobe Analytics 구현이 AppMeasurement 또는 Analytics 확장 기능인 경우 Customer Journey Analytics으로 전송하기 전에 Adobe Experience Platform Web SDK를 사용하여 데이터를 Edge Network으로 전송하기 시작하도록 마이그레이션할 수 있습니다. <!-- what else? --><p>이는 데이터를 Edge Network으로 가져오는 가장 쉽고 원활한 방법입니다. 더 많은 단계가 필요하지만 보다 가시적인 이정표를 통해 보다 방법적인 전환을 제공합니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>기존 Adobe Analytics 구현을 웹 SDK로 이동하고 모든 것이 제대로 작동하는지 확인하십시오.</li><li>시간이 지남에 따라 조직에 대한 XDM 스키마를 만듭니다.</li><li>데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li><li>데이터를 플랫폼으로 전송합니다.</li></ol> | 중재 | 높음 |
+| **기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Customer Journey Analytics으로 전송**</br> Adobe Analytics 구현에서 이미 웹 SDK를 사용 중인 경우 최소한의 노력으로 Customer Journey Analytics에 데이터 전송을 시작할 수 있습니다.<p>데이터를 Customer Journey Analytics으로 보내기 전에 조직 및 사용할 다른 Platform 애플리케이션의 특정 요구 사항에 맞게 Adobe Analytics 스키마를 업데이트하는 것이 좋습니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>Customer Journey Analytics으로 데이터 전송을 시작합니다.<!-- What's involved here? Just point it at CJA? --></li><li>(선택 사항) 시간이 있을 때 조직에 대한 XDM 스키마를 만듭니다.</li><li>(조건부) XDM 스키마를 만든 경우, 데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li></ol> | 낮음 | 높음 |
 | **Analytics 소스 커넥터**</br> Adobe Analytics 구현이 AppMeasurement 또는 Analytics 확장 기능인 경우 Customer Journey Analytics의 데이터 보기로 데이터 전송을 시작할 수 있습니다.<p>이는 데이터를 Customer Journey Analytics에 가져오는 가장 쉬운 방법이지만 장기적으로 가장 실행 가능성이 낮은 방법입니다.</p> | 낮음 | 낮음 |
 
 {style="table-layout:auto"}
 
-다음 다이어그램을 사용하여 각 마이그레이션 방법이 노력 수준과 각 방법이 달성하는 장기 생존력 측면에서 스펙트럼에 미치는 위치를 시각화할 수 있습니다.
+다음 다이어그램을 사용하여 각 마이그레이션 방법이 노력 수준과 장기 생존력 측면에서 스펙트럼에 미치는 위치를 시각화할 수 있습니다.
 
 ![cja 마이그레이션 메서드](assets/cja-migration-methods.png)
 
@@ -73,7 +81,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 각 유형의 Adobe Analytics 구현에 일부 마이그레이션 방법을 사용할 수 있는 것은 아닙니다.
 
-아래 정보를 일반적인 지침으로 사용하여 조직에 가장 적합한 마이그레이션 방법을 이해하십시오.
+아래 정보를 사용하여 조직에 가장 적합한 마이그레이션 방법을 이해하십시오.
 
 보다 구체적인 조언, 안내 또는 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
@@ -91,19 +99,19 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 아래 정보를 사용하여 자신에게 적합한 마이그레이션 방법을 결정하기 전에 다음 정보를 검토하십시오. [마이그레이션 방법 이해](#understand-migration-methods) 아직 안왔으면
 
-### AppMeasurement 및 Adobe Analytics 확장
+### 를 사용하는 Adobe Analytics 구현의 경우: AppMeasurement 및 Adobe Analytics 확장
 
 다음 표는 AppMeasurement 또는 Adobe Analytics 확장을 사용하여 Adobe Analytics을 구현한 조직에서 사용할 수 있는 마이그레이션 방법을 보여 줍니다.
 
 | 마이그레이션 메서드 | 장점 | 단점 |
 |---------|----------|---------|
-| **웹 SDK의 새로운 구현** | <ul><li>유연한 스키마인 XDM 스키마를 사용하여 필요한 필드를 정의합니다</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>가장 많은 시간이 소요되고 까다로운 마이그레이션 방법<p>웹 SDK 구현을 시작하기 전에 XDM에서 전체 스키마를 다시 만들어야 합니다.</p></li></ul> |
-| **웹 SDK로 Adobe Analytics 마이그레이션** | <ul><li>Adobe Analytics 구현에 이미 구성된 규칙 및 데이터 요소를 유지합니다.</li><li>기존 Adobe Analytics 보고에 영향을 주지 않고 웹 SDK로 이동할 수 있습니다.</li><li>조직의 XDM 스키마를 나중에 생성할 수 있는 유연성을 제공합니다.</br>Customer Journey Analytics에는 Adobe Analytics 경험 이벤트 필드 그룹이 필요하지 않습니다. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>데이터 스트림 매핑을 사용하여 나중에 XDM 스키마를 준수해야 합니다.</li><li>기술적 부채가 발생해요. 예를 들어 이전 AppMeasurement 또는 Analytics 확장 코드가 남아 있을 수 있습니다. </li></ul> |
+| **웹 SDK의 새로운 구현** | <ul><li>XDM 스키마, 유연한 스키마를 사용하여 필요한 모든 필드를 정의하고 적절한 필드만 정의합니다(Adobe Analytics 경험 이벤트 필드 그룹에서 벗어날 수 있음).</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>가장 많은 시간이 소요되고 까다로운 마이그레이션 방법<p>웹 SDK 구현을 시작하기 전에 XDM에서 전체 스키마를 다시 만들어야 합니다.</p></li></ul> |
+| **웹 SDK로 Adobe Analytics 마이그레이션** | <ul><li>Adobe Analytics 구현에 이미 구성된 규칙 및 데이터 요소를 유지합니다.</li><li>기존 Adobe Analytics 보고에 영향을 주지 않고 웹 SDK로 이동할 수 있습니다.</li><li>나중에 조직을 위해 XDM 스키마를 생성할 수 있는 유연성을 제공합니다. 즉, 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마를 제공합니다.</br>Customer Journey Analytics에는 Adobe Analytics 경험 이벤트 필드 그룹이 필요하지 않습니다. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>데이터 스트림 매핑을 사용하여 나중에 XDM 스키마를 준수해야 합니다.</li><li>기술적 부채가 발생해요. 예를 들어 이전 AppMeasurement 또는 Analytics 확장 코드가 남아 있을 수 있습니다. </li></ul> |
 | **Analytics 소스 커넥터** | <ul><li>시간이 가장 많이 소요되고 까다로운 마이그레이션 방법 <p>최소한의 투자로 신속하게 Customer Journey Analytics으로 데이터 마이그레이션</p></li></ul> | <ul><li>데이터는 Edge Network으로 전송되지 않으며 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없습니다. Customer Journey Analytics 전용으로만 제한됩니다<li>향후 웹 SDK로 이동하기 어려움</li><li>스키마에서 Analytics 경험 이벤트 필드 그룹을 사용합니다.</br>이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 많은 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 복잡한 스키마가 발생할 수 있습니다.</li><li>최고 수준 [지연](/help/admin/guardrails.md#latencies) 모든 구현 방법 간</li></ul> |
 
 {style="table-layout:auto"}
 
-### Web SDK
+### 를 사용하는 Adobe Analytics 구현의 경우: Web SDK
 
 다음 표는 웹 SDK를 사용하여 Adobe Analytics을 구현한 조직에서 사용할 수 있는 마이그레이션 방법을 보여 줍니다.
 
