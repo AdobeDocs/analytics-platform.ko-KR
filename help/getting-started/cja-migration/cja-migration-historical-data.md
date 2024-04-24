@@ -4,35 +4,29 @@ description: Customer Journey Analytics으로 마이그레이션할 때 이전 �
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: 1d17151b-3a12-468e-9a4f-9e5994599570
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
-# 5단계: Customer Journey Analytics으로 마이그레이션할 때 이전 데이터 유지
+# 5단계: 마이그레이션 시 내역 데이터 유지
 
 +++이 섹션을 확장하여 이 페이지의 정보가 대규모 마이그레이션 프로세스에 맞는 위치를 확인합니다. 이전 마이그레이션 단계가 모두 완료되었는지 확인합니다.
 
 이 섹션을 계속하기 전에 먼저 이전 마이그레이션 작업을 모두 완료했는지 확인하십시오.
 
-이 페이지의 정보에는 아래 표에 강조 표시된 5단계가 포함됩니다.
+이 페이지의 정보는 다음 중 4단계를 다룹니다. **마이그레이션**&#x200B;아래 표에 강조 표시된 대로
 
 | 마이그레이션 작업 | 세부 사항 |
 |---------|----------|
 | **1단계: [마이그레이션 시작](/help/getting-started/cja-migration/cja-migration-getstarted.md)** | Adobe Analytics으로 마이그레이션하는 것의 이점 및 기본 마이그레이션 프로세스에 대해 알아봅니다. |
-| **2단계: [마이그레이션 방법 선택](/help/getting-started/cja-migration/cja-migration-method.md)** | Customer Journey Analytics으로 마이그레이션하는 데 다양한 방법을 사용할 수 있습니다. 조직의 현재 Adobe Analytics 환경 및 장기 목표에 따라 조직에 가장 적합한 방법을 선택합니다. |
-| **3단계: [Adobe Experience Platform으로 데이터 보내기](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | Adobe Experience Platform으로 데이터를 보내는 프로세스는 1단계에서 선택한 마이그레이션 방법에 따라 다릅니다. |
-| **4단계: [XDM 스키마에 데이터 매핑](/help/getting-started/cja-migration/cja-migration-xdm.md)** | [XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 는 Adobe Experience Platform에서 데이터의 구조를 일관되고 재사용 가능한 방식으로 설명하는 데 사용됩니다. 여러 시스템에서 데이터를 일관되게 정의하면 의미를 쉽게 유지할 수 있으므로 데이터의 가치를 얻을 수 있습니다.<p>대부분의 마이그레이션 방법을 사용하려면 새 XDM 스키마를 만들거나 데이터 스트림 매핑을 사용하여 기존 Adobe Analytics 스키마를 XDM에 매핑해야 합니다.</p> |
-| <span class="preview">**5단계: [이전 데이터 유지](/help/getting-started/cja-migration/cja-migration-historical-data.md)**</span> | <span class="preview">대부분의 조직은 특정 시간 동안 이전 Adobe Analytics 데이터를 유지해야 합니다. 이를 수행하기 위한 다양한 옵션을 사용할 수 있습니다.</span> |
-| **6단계: [플랜 사용자 온보딩](/help/getting-started/cja-migration/cja-migration-onboarding.md)** | 사용자에게 Customer Journey Analytics에서 Analysis Workspace의 주요 차이점에 익숙해질 수 있는 충분한 시간(3~6개월)을 제공해야 합니다. |
-| **7단계: [보고 API 사용 포트](/help/getting-started/cja-migration/cja-migration-api.md)** | Customer Journey Analytics 보고 API의 형식은 동일하지만 다른 끝점을 사용합니다. Adobe Analytics 보고 API의 보고 API 사용을 Customer Journey Analytics 보고 API로 포팅합니다. |
-| **8단계: [데이터 피드 및 Data Warehouse 바꾸기](/help/getting-started/cja-migration/cja-migration-export-options.md)** | Adobe Analytics에서 사용 중이던 데이터 피드 및 Data Warehouse 기능을 대체하기 위해 Customer Journey Analytics에서 사용할 수 있는 내보내기 옵션을 사용하는 방법을 결정합니다. |
-| **9단계: [프로젝트 및 구성 요소 마이그레이션](/help/getting-started/cja-migration/cja-migration-projects.md)** | Adobe Analytics의 구성 요소 마이그레이션 영역에서 프로젝트 및 관련 구성 요소를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 수 있습니다. |
+| **2단계: [마이그레이션 경로 선택](/help/getting-started/cja-migration/cja-migration-path.md)** | Customer Journey Analytics으로 마이그레이션하는 데 다양한 방법을 사용할 수 있습니다. 조직의 현재 Adobe Analytics 환경 및 장기 목표에 따라 조직에 가장 적합한 방법을 선택합니다. |
+| **4단계: [Adobe Experience Platform으로 데이터 보내기](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | Adobe Experience Platform으로 데이터를 보내는 프로세스는 2단계에서 선택한 마이그레이션 경로에 따라 다릅니다. |
+| <span class="preview">**4단계: 내역 데이터 유지**</span> | <span class="preview">대부분의 조직은 특정 시간 동안 이전 Adobe Analytics 데이터를 유지해야 합니다. 이를 수행하기 위한 다양한 옵션을 사용할 수 있습니다.</span> |
+| **5단계: [추가 구현 작업 수행](/help/getting-started/cja-getting-started.md)** | 마이그레이션 프로세스의 이 시점에서 Customer Journey Analytics 환경을 사용하기 전에 다양한 작업을 수행해야 합니다.<p>이러한 추가 작업은 Adobe Analytics에서의 마이그레이션뿐만 아니라 새로운 Customer Journey Analytics 구현에 적용됩니다.</p><p>이러한 작업에는 다음이 포함됩니다.</p><ul><li>다른 데이터를 Experience Platform 상태로 가져오기</li><li>플랫폼 데이터 세트와 Customer Journey Analytics 간 연결 만들기</li><li>데이터 보기 만들기</li><li>보고 API 사용 포팅</li><li>데이터 피드 및 Data Warehouse 계정</li><li>프로젝트 및 구성 요소 마이그레이션</li><li>Planning 사용자 온보딩</li></ul> <p>자세한 내용은 [Customer Journey Analytics 시작](/help/getting-started/cja-getting-started.md). |
 
 {style="table-layout:auto"}
 
@@ -40,22 +34,48 @@ ht-degree: 0%
 
 Adobe Analytics에서 Customer Journey Analytics으로 이동할 때 내역 데이터를 유지하려면 다음 옵션 중 하나를 선택하십시오.
 
-## Analytics 소스 커넥터 활용
+>[!IMPORTANT]
+>
+>내역 데이터를 유지하는 방법을 선택할 때는 Adobe 계정 담당자에게 문의하여 가격을 결정하십시오.
 
-다음을 활용할 수 있습니다. [Analytics 소스 커넥터](/help/data-ingestion/analytics.md) 기록 데이터를 유지합니다. 선택한 마이그레이션 방법에 관계없이(Web SDK를 사용하여 마이그레이션한 경우에도) Analytics 소스 커넥터를 사용하여 Adobe Analytics 환경의 내역 데이터를 유지할 수 있습니다.
+## Analytics 소스 커넥터 사용
 
-Analytics 소스 커넥터를 사용하여 다음과 같은 방법으로 이전 데이터를 유지할 수 있습니다.
+다음을 사용할 수 있습니다. [Analytics 소스 커넥터](/help/data-ingestion/analytics.md) 기록 데이터를 유지합니다. 선택한 마이그레이션 경로에 관계없이(Web SDK를 사용하여 마이그레이션하는 경우에도) Analytics 소스 커넥터를 사용하여 Adobe Analytics 환경의 내역 데이터를 유지할 수 있습니다.
 
-* 이전 데이터를 현재 데이터와 별도로 고유한 전용 위치로 가져옵니다.
+Analytics 소스 커넥터를 사용하면 이전 데이터를 현재 데이터와 별도로 고유한 전용 위치로 가져와서 이전 데이터를 유지할 수 있습니다.
 
-* 새 데이터에 연결할 수 있는 방식으로 내역 데이터를 매핑합니다. <!-- Possible? Explain -->
+내역 데이터에 액세스해야 하는 한 Analytics 소스 커넥터가 작동하고 있어야 합니다.
+
+<!-- Another possibility in the future: Map historical data in a way that allows you to tie it to your new data.  Possible? Explain -->
 
 ## 기존 Adobe Analytics 구현 유지
 
-특정 기간(예: 1년) 동안 새 Customer Journey Analytics 구현과 함께 기존 Adobe Analytics 구현을 유지할 수 있습니다. 이 옵션을 선택할 때는 Customer Journey Analytics에 데이터가 충분한 후 Adobe Analytics 구현을 서비스 해제할 계획을 세워야 합니다.
+특정 기간(예: 1년) 동안 새 Customer Journey Analytics 구현과 함께 기존 Adobe Analytics 구현을 유지할 수 있습니다. 이 옵션을 선택할 때는 다음 사항을 고려하십시오.
 
-이 옵션의 가격을 결정하려면 Adobe 계정 담당자에게 문의하십시오.
+* Experience Platform에서 데이터를 사용할 수 없습니다.
 
-## 다음으로, 사용자 온보딩 계획
+* Customer Journey Analytics에 충분한 데이터가 있는 경우 Adobe Analytics 구현을 서비스 해제할 계획이어야 합니다.
 
-[Customer Journey Analytics에 대한 사용자 온보딩 계획](/help/getting-started/cja-migration/cja-migration-onboarding.md). 사용자에게 Customer Journey Analytics에서 Analysis Workspace의 주요 차이점에 익숙해질 수 있는 충분한 시간(3~6개월)을 제공해야 합니다.
+## 그런 다음 추가 구현 작업을 수행합니다
+
+마이그레이션 프로세스의 이 시점에서 Customer Journey Analytics 환경을 사용하기 전에 다양한 구현 작업을 수행해야 합니다.
+
+이러한 추가 작업은 Adobe Analytics에서의 마이그레이션뿐만 아니라 새로운 Customer Journey Analytics 구현에 적용됩니다.
+
+이러한 작업에는 다음이 포함됩니다.
+
+* 다른 데이터를 Experience Platform 상태로 가져오기
+
+* 플랫폼 데이터 세트와 Customer Journey Analytics 간 연결 만들기
+
+* 데이터 보기 만들기
+
+* 보고 API 사용 포팅
+
+* 데이터 피드 및 Data Warehouse 사용 사례 계정
+
+* 프로젝트 및 구성 요소 마이그레이션
+
+* Planning 사용자 온보딩
+
+자세한 내용은 의 2단계로 시작하십시오. [Customer Journey Analytics 시작](/help/getting-started/cja-getting-started.md).
