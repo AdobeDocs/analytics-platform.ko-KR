@@ -5,10 +5,10 @@ exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
+source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 49%
+source-wordcount: '742'
+ht-degree: 57%
 
 ---
 
@@ -33,7 +33,7 @@ Customer Journey Analytics를 사용할 수 있는 고객은 다음과 같습니
 | **4단계: 데이터 보기 만들기** | 데이터 보기는 데이터의 “필터링된” 보기입니다. 방문 제한 시간, 속성 등에 대한 서로 다른 설정을 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 단일 데이터 세트에 대해 여러 데이터 보기를 만들 수 있습니다.<br>[데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오. |
 | **5단계: 보고 API 사용 포트 지정**</br> Adobe Analytics에서 마이그레이션할 때만 적용됩니다. | Customer Journey Analytics 보고 API의 형식은 동일하지만 다른 끝점을 사용합니다. Adobe Analytics 보고 API의 보고 API 사용을 Customer Journey Analytics 보고 API로 포팅합니다. |
 | **6단계: 데이터 피드 및 Data Warehouse 사용 사례 계정**</br> Adobe Analytics에서 마이그레이션할 때만 적용됩니다. | Adobe Analytics에서 사용 중이던 데이터 피드 및 Data Warehouse 기능을 최대한 복제하기 위해 Customer Journey Analytics에서 사용할 수 있는 내보내기 옵션을 사용하는 방법을 결정합니다. <!-- link to docs Rob is creating --> |
-| **7단계: 프로젝트 및 구성 요소 마이그레이션**</br> Adobe Analytics에서 마이그레이션할 때만 적용됩니다. | Adobe Analytics의 구성 요소 마이그레이션 영역에서 프로젝트 및 관련 구성 요소를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 수 있습니다.<p>Customer Journey Analytics에서 Adobe Analytics 프로젝트를 복제하고 Adobe Analytics 보고서 세트의 프로젝트 구성 요소를 Customer Journey Analytics 데이터 보기에 매핑하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html).</p> |
+| **7단계: 프로젝트 및 구성 요소 마이그레이션**</br> Adobe Analytics에서 마이그레이션할 때만 적용됩니다. | Adobe Analytics의 구성 요소 마이그레이션 영역에서 프로젝트 및 관련 구성 요소를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 수 있습니다.<p>마이그레이션 프로세스에 포함된 사항:</p><ul><li>Customer Journey Analytics에서 Adobe Analytics 프로젝트를 다시 생성합니다.</li><li>Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.</li></ul><p>마이그레이션을 시작하기 전에 먼저 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소와 프로젝트 마이그레이션을 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)하십시오.</p><p>필요한 준비를 모두 마치고 나면 [Adobe Analytics의 구성 요소와 프로젝트를 Customer Journey Analytics로 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html)할 수 있습니다.</p> |
 | **8단계: 사용자 온보딩 계획** | Adobe Analytics에서와 마찬가지로 Analysis Workspace은 Customer Journey Analytics에서 사용자를 대면하는 주요 도구입니다. 그러나 Customer Journey Analytics에서 Analysis Workspace을 사용할 때 사용자가 알아야 하는 몇 가지 주요 차이점이 있습니다.<p>사용자에게 Customer Journey Analytics에서 Analysis Workspace의 주요 차이점에 익숙해질 수 있는 충분한 시간(3~6개월)을 제공해야 합니다.</p><p>Adobe Analytics과 Customer Journey Analytics 간의 몇 가지 주요 차이점에 대한 자세한 내용은 [Adobe Analytics 사용자를 위한 사용 안내서](/help/getting-started/aa-to-cja-user.md).</p> |
 | **9단계: Workspace에서 교차 채널 데이터 보고하기** | 연결 및 데이터 보기를 만든 후 Analysis Workspace의 강력한 기능과 유연성을 사용하여 가져온 데이터를 분석합니다.<br>[기본 분석 수행](/help/analysis-workspace/perform-basic-analysis.md) 및 [고급 분석 수행](/help/analysis-workspace/perform-adv-analysis.md)을 참조하십시오. |
 

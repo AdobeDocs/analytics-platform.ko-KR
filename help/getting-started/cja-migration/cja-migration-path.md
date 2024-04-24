@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
+source-git-commit: 6d4fdb464775967074547f8401de679f181d29d7
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '1965'
 ht-degree: 2%
 
 ---
@@ -137,16 +137,6 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 +++
 
-## 그런 다음 데이터를 XDM 스키마에 매핑합니다
+## 그런 다음 Adobe Experience Platform으로 데이터 보내기
 
-위 표의 링크를 따라 데이터를 Experience Platform으로 보낸 후 다음을 수행해야 할 수 있습니다. [데이터를 XDM 스키마에 매핑](/help/getting-started/cja-migration/cja-migration-xdm.md)선택한 구현 방법에 따라 다릅니다.
-
-다음 구현 방법을 사용하려면 데이터를 XDM 스키마에 매핑해야 합니다.
-
-* Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션
-
-* 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Customer Journey Analytics으로 전송
-
-또는 Experience Platform 웹 SDK의 새 구현을 수행하기로 선택한 경우 이미 존재하기 때문에 매핑이 필요하지 않습니다 [새 XDM 스키마 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema) 를 새 구현의 일부로 사용합니다.
-
-마이그레이션에 Analytics 소스 커넥터를 사용하도록 선택한 경우 Analytics 소스 커넥터가 XDM 스키마가 아닌 기존 Adobe Analytics 스키마를 사용하므로 매핑이 필요하지 않습니다.
+위의 정보를 사용하여 마이그레이션 경로를 선택한 후 방법 알아보기 [Adobe Experience Platform에 데이터 보내기](/help/getting-started/cja-migration/cja-migration-send-to-platform.md) 선택한 마이그레이션 경로에 따라 다릅니다.

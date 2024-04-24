@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
+source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 76%
+source-wordcount: '1091'
+ht-degree: 77%
 
 ---
 
@@ -46,12 +46,7 @@ ht-degree: 76%
       + [시작](/help/getting-started/cja-migration/cja-migration-getstarted.md)
       + [마이그레이션 경로 선택](/help/getting-started/cja-migration/cja-migration-path.md)
       + [플랫폼으로 데이터 보내기](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
-      + [XDM에 데이터 매핑](/help/getting-started/cja-migration/cja-migration-xdm.md)
       + [이전 데이터 유지](/help/getting-started/cja-migration/cja-migration-historical-data.md)
-      + [플랜 사용자 온보딩](/help/getting-started/cja-migration/cja-migration-onboarding.md)
-      + [포트 API 사용](/help/getting-started/cja-migration/cja-migration-api.md)
-      + [데이터 피드 및 Data Warehouse 바꾸기](/help/getting-started/cja-migration/cja-migration-export-options.md)
-      + [프로젝트 및 구성 요소 마이그레이션](/help/getting-started/cja-migration/cja-migration-projects.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
