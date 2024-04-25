@@ -4,10 +4,10 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 40%
+source-wordcount: '1170'
+ht-degree: 39%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 40%
 * 빠른 필터는 해당 필터가 만들어진 프로젝트에만 적용됩니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다.
 * 최대 3개의 규칙이 허용됩니다.
 * 중첩 컨테이너 또는 순차적 규칙은 지원되지 않습니다.
+* 프로젝트를 다른 사용자와 공유하는 경우, 해당 사용자는 공유 프로젝트에 포함된 빠른 필터 및 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다.
 
 다음 비디오에서는 빠른 필터를 사용하는 방법을 보여 줍니다. (참고: 이 비디오에서는 &quot;빠른 필터&quot; 대신 &quot;빠른 세그먼트&quot;라는 용어를 사용합니다. 그러나 기능은 동일합니다.)
 
