@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 2d35e49ca9afe37ed53d7c5da5aafd31dd2da632
+source-git-commit: 7d17ef31053bbf0d480bfa923fc961aeba4fc15e
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 2%
@@ -109,13 +109,21 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 +++
 
-+++Adobe Analytics을 웹 SDK로 마이그레이션 | 장점 | 단점 | ------------------- | <ul><li>기존 Adobe Analytics 보고에 영향을 주지 않고 웹 SDK로 이동할 수 있습니다.</li><li>Analytics 확장을 사용하는 조직의 경우 Adobe Analytics 구현에 이미 구성된 규칙 및 데이터 요소를 유지합니다.</li><li>나중에 조직을 위해 XDM 스키마를 생성할 수 있는 유연성을 제공합니다. 즉, 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마를 제공합니다.</br>Adobe Experience Platform에서는 Adobe Analytics 경험 이벤트 필드 그룹이 필요하지 않습니다. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>데이터 스트림 매핑을 사용하여 나중에 XDM 스키마를 준수해야 합니다.</li><li>기술적 부채가 발생해요. 예를 들어 이전 AppMeasurement 또는 Analytics 확장 코드가 남아 있을 수 있습니다. </li></ul> |
++++Adobe Analytics을 웹 SDK로 마이그레이션
+
+| 장점 | 단점 |
+|----------|---------|
+| <ul><li>기존 Adobe Analytics 보고에 영향을 주지 않고 웹 SDK로 이동할 수 있습니다.</li><li>Analytics 확장을 사용하는 조직의 경우 Adobe Analytics 구현에 이미 구성된 규칙 및 데이터 요소를 유지합니다.</li><li>나중에 조직을 위해 XDM 스키마를 생성할 수 있는 유연성을 제공합니다. 즉, 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마를 제공합니다.</br>Adobe Experience Platform에서는 Adobe Analytics 경험 이벤트 필드 그룹이 필요하지 않습니다. <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li><li>글자 수 제한 없음 (Prop의 경우 100자)</li><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>미래 지향적 기능(모든 최신 기능 수신)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>방문자 식별 정확도 향상을 위한 [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)</li></ul> | <ul><li>데이터 스트림 매핑을 사용하여 나중에 XDM 스키마를 준수해야 합니다.</li><li>기술적 부채가 발생해요. 예를 들어 이전 AppMeasurement 또는 Analytics 확장 코드가 남아 있을 수 있습니다. </li></ul> |
 
 {style="table-layout:auto"}
 
 +++
 
-+++Analytics 소스 커넥터 사용 | 장점 | 단점 | ------------------- | <ul><li>시간이 가장 많이 소요되고 까다로운 마이그레이션 경로 <p>최소한의 투자로 신속하게 Customer Journey Analytics으로 데이터 마이그레이션</p></li></ul> | <ul><li>데이터는 Edge Network으로 전송되지 않으며 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없습니다. Customer Journey Analytics 전용으로만 제한됩니다<li>향후 웹 SDK로 이동하기 어려움</li><li>스키마에서 Analytics 경험 이벤트 필드 그룹을 사용합니다.</br>이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 많은 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 복잡한 스키마가 발생할 수 있습니다.</li><li>최고 수준 [지연](/help/admin/guardrails.md#latencies) 모든 구현 방법 간</li></ul> |
++++Analytics 소스 커넥터 사용
+
+| 장점 | 단점 |
+|----------|---------|
+| <ul><li>시간이 가장 많이 소요되고 까다로운 마이그레이션 경로 <p>최소한의 투자로 신속하게 Customer Journey Analytics으로 데이터 마이그레이션</p></li></ul> | <ul><li>데이터는 Edge Network으로 전송되지 않으며 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없습니다. Customer Journey Analytics 전용으로만 제한됩니다<li>향후 웹 SDK로 이동하기 어려움</li><li>스키마에서 Analytics 경험 이벤트 필드 그룹을 사용합니다.</br>이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 많은 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 복잡한 스키마가 발생할 수 있습니다.</li><li>최고 수준 [지연](/help/admin/guardrails.md#latencies) 모든 구현 방법 간</li></ul> |
 
 {style="table-layout:auto"}
 
