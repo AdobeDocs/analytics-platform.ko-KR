@@ -6,17 +6,17 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # 연결 개요
 
-Customer Journey Analytics 제품 관리자는 연결 을 사용하여 서로 다른 연결을 설정할 수 있습니다 [!DNL Adobe Experience Platform] 이벤트, 조회 및 프로필 데이터 세트와 같은 데이터 소스. 이러한 연결로 데이터를 연결에서 파생 데이터 보기로 통합할 수 있습니다. 연결은 CJA의 기반이며 다음에서 생성됩니다. [!DNL Experience Platform] 소스 데이터 세트. 또한 연결에 대한 액세스를 통해 연결 관리자를 볼 수 있습니다. 이 관리자에서 연결을 구성하는 기본 데이터 세트를 보고 중요한 편집 및 구성을 선택할 수 있습니다.
+연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회 및 프로필 데이터 세트 등 다양한 [!DNL Adobe Experience Platform] 데이터 소스 간의 연결을 설정할 수 있습니다. 이러한 연결로 데이터를 연결에서 파생 데이터 보기로 통합할 수 있습니다. 연결은 CJA의 기반이며 [!DNL Experience Platform] 소스 데이터 세트에서 만들어집니다. 연결에 대한 액세스 권한을 사용하면 연결을 구성하는 기본 데이터 세트를 보고 중요한 편집 및 구성을 선택할 수 있는 연결 관리자를 볼 수 있습니다.
 
-연결 관리에 대한 액세스 권한을 핵심 관리 그룹으로 제한하는 것이 좋습니다. 연결 수준의 구성은 Customer Journey Analytics으로 가져온 데이터에 대한 볼륨 할당과 관련된 계약상의 의미를 갖습니다.
+연결 관리에 대한 액세스 권한을 핵심 관리 그룹으로 제한하는 것이 좋습니다. 연결 수준의 구성에는 Customer Journey Analytics로 가져온 데이터의 볼륨 할당과 관련하여 계약상 의미가 포함됩니다.
 
 다음은 비디오 개요입니다.
 
