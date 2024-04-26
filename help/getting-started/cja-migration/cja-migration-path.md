@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 5a0c383104fa4df79bc3c24d4af3677d255612f6
+source-git-commit: 1c789264a9867279f58a3ad139207fec8db29c1b
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -97,13 +97,13 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 다음은 AppMeasurement 또는 Adobe Analytics 확장으로 Adobe Analytics을 구현한 조직에서 사용할 수 있는 마이그레이션 경로입니다. 각 섹션을 확장하여 각 마이그레이션 경로의 장단점을 확인합니다.
 
-**마이그레이션 경로:**
+#### 마이그레이션 경로
 
 +++Experience Platform Web SDK의 새로운 구현
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul></li><li>**XDM 스키마 사용**: [XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 는 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마입니다. XDM 스키마를 사용하면 Adobe Analytics 경험 이벤트 필드 그룹에서 이동할 수 있습니다.</li><li>**문자 제한 없음**: XDM 스키마에 문자 제한이 없습니다.</li><li>**미래 지향적**: Experience Platform 웹 SDK가 모든 최신 기능과 기능을 수신합니다.</li><li>**방문자 식별 정확도 향상**: Web SDK에서 사용하는 Experience Platform [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 방문자 식별의 정확도를 높이십시오.</li></ul> | <ul><li>**처음부터 새로운 구현 필요**: 새로운 구현을 처음부터 수행해야 한다는 것은 다음과 같은 단점을 의미합니다. </li><ul><li>**시간 소요**: 새로운 구현으로 다시 시작해야 하므로 가장 시간이 많이 들고 까다로운 마이그레이션 경로입니다.</li><li>**XDM에서 전체 스키마를 다시 만들어야 함**: 웹 SDK 구현을 시작하려면 먼저 XDM에서 전체 스키마를 다시 만들어야 합니다.</li><li>**규칙 및 데이터 요소를 다시 만들어야 합니다.**: Web SDK 구현을 시작하려면 먼저 Adobe Analytics 구현에서 규칙 조건과 데이터 요소를 다시 만들어야 합니다.</li></ul></ul> |
+| <ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul></li><li>**미래 지향적**: 향후 구현 업데이트가 더 쉬워집니다.</li></ul> | <ul><li>**처음부터 새로운 구현 필요**: 새로운 구현을 처음부터 수행해야 한다는 것은 다음과 같은 단점을 의미합니다. </li><ul><li>**시간 소요**: 새로운 구현으로 다시 시작해야 하므로 가장 시간이 많이 들고 까다로운 마이그레이션 경로입니다.</li><li>**XDM에서 전체 스키마를 다시 만들어야 함**: 웹 SDK 구현을 시작하려면 먼저 XDM에서 전체 스키마를 다시 만들어야 합니다.</li><li>**규칙 및 데이터 요소를 다시 만들어야 합니다.**: Web SDK 구현을 시작하려면 먼저 Adobe Analytics 구현에서 규칙 조건과 데이터 요소를 다시 만들어야 합니다.</li></ul></ul> |
 
 {style="table-layout:auto"}
 
@@ -113,7 +113,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식에서는 몇 가지 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요한 것은 아닙니다. 기존 Adobe Analytics 보고에 영향을 주지 않고 구현 논리를 최소한으로 변경하여 기존 데이터 레이어 및 코드를 사용할 수 있습니다.</li><li>**나중에 조직을 위한 XDM 스키마를 생성할 수 있는 유연성을 제공합니다**: 기존 Adobe Analytics 구현을 마이그레이션하여 Web SDK를 사용하고 모든 것이 Adobe Analytics에서 작동하는지 확인한 다음, XDM 스키마를 만들 수 있습니다. 이러한 유연성으로 인해 보다 체계적이고 사려 깊은 마이그레이션이 가능합니다.</li><li>**XDM 스키마 사용**: [XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 는 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마입니다. XDM 스키마를 사용하면 Adobe Analytics 경험 이벤트 필드 그룹에서 이동할 수 있습니다.</li><li>(Adobe Analytics 태그 확장에서 마이그레이션할 때) **규칙 및 데이터 요소 유지**: 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**문자 제한 없음**: XDM 스키마에 문자 제한이 없습니다.</li><li>**미래 지향적**: Experience Platform 웹 SDK가 모든 최신 기능과 기능을 수신합니다.</li><li>**방문자 식별 정확도 향상**: Web SDK에서 사용하는 Experience Platform [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 방문자 식별의 정확도를 높이십시오.</li></ul> | <ul><li>**데이터를 플랫폼으로 전송하기 위한 매핑 필요**: 조직에서 Customer Journey Analytics을 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 작업을 수행하려면 데이터 개체의 모든 필드가 XDM 스키마 필드에 할당하는 데이터 스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로우에 대해 한 번만 수행하면 되며 구현 변경을 수반하지 않습니다. 그러나 XDM 개체에서 데이터를 전송할 때는 필요하지 않은 추가 단계입니다.</li><li>**기술적 부채**: 이 접근 방법에서는 기존 구현의 수정된 형식을 사용하므로 구현 논리를 추적하고 필요한 경우 나중에 변경 사항을 수행하는 것이 더 어려울 수 있습니다. </li><li>(AppMeasurement에서 마이그레이션할 때에만) **구현을 변경하려면 개발자의 개입이 필요합니다**: 웹 SDK 구현을 변경하려면 개발 팀과 함께 사이트에서 코드를 편집해야 합니다. Analytics 태그 확장에서 Web SDK로 마이그레이션할 때에는 적용되지 않습니다.</li></ul> |
+| <ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식에서는 몇 가지 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요한 것은 아닙니다. 기존 Adobe Analytics 보고에 영향을 주지 않고 구현 논리를 최소한으로 변경하여 기존 데이터 레이어 및 코드를 사용할 수 있습니다.</li><li>**나중에 조직을 위한 XDM 스키마를 생성할 수 있는 유연성을 제공합니다**: 기존 Adobe Analytics 구현을 마이그레이션하여 Web SDK를 사용하고 모든 것이 Adobe Analytics에서 작동하는지 확인한 다음, XDM 스키마를 만들 수 있습니다. 이러한 유연성으로 인해 보다 체계적이고 사려 깊은 마이그레이션이 가능합니다.</li></ul> | <ul><li>**데이터를 플랫폼으로 전송하기 위한 매핑 필요**: 조직에서 Customer Journey Analytics을 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 작업을 수행하려면 데이터 개체의 모든 필드가 XDM 스키마 필드에 할당하는 데이터 스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로우에 대해 한 번만 수행하면 되며 구현 변경을 수반하지 않습니다. 그러나 XDM 개체에서 데이터를 전송할 때는 필요하지 않은 추가 단계입니다.</li><li>**기술적 부채**: 이 접근 방법에서는 기존 구현의 수정된 형식을 사용하므로 구현 논리를 추적하고 필요한 경우 나중에 변경 사항을 수행하는 것이 더 어려울 수 있습니다. </li></ul> |
 
 {style="table-layout:auto"}
 
@@ -133,15 +133,39 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 다음 마이그레이션 경로는 Experience Platform Web SDK를 사용하여 Adobe Analytics을 구현한 조직에서 사용할 수 있습니다.
 
-**마이그레이션 경로:**
+이 마이그레이션 경로를 선택할 때는 스키마도 선택해야 합니다.
+
+#### 마이그레이션 경로
 
 +++Adobe Analytics Web SDK 구현을 구성하여 Customer Journey Analytics에 데이터 보내기
 
 | 장점 | 단점 |
 |----------|---------|
-| Adobe Analytics 구현에서 이미 웹 SDK를 사용 중인 경우 기본 마이그레이션 경로입니다.<ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 태그를 통합합니다.</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식에서는 몇 가지 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요한 것은 아닙니다. 기존 Adobe Analytics 보고에 영향을 주지 않고 구현 논리를 최소한으로 변경하여 기존 데이터 레이어 및 코드를 사용할 수 있습니다.</li><li>**XDM 스키마 사용 옵션을 제공합니다.**: 기존 Adobe Analytics 스키마를 사용하거나 XDM 스키마를 만들고 데이터 개체의 필드를 XDM 스키마에 매핑하도록 선택할 수 있습니다. [XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 는 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마입니다. <p>XDM 스키마 사용의 장점에 대한 자세한 내용은 아래의 &quot;XDM 스키마 사용&quot;을 참조하십시오.</p></li><li>**규칙 및 데이터 요소 유지**: 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**문자 제한 없음**: XDM 스키마를 만들고 사용하도록 선택하는 경우 문자 제한이 없습니다.</li><li>**미래 지향적**: Experience Platform 웹 SDK가 모든 최신 기능과 기능을 수신합니다.</li><li>**방문자 식별 정확도 향상**: Web SDK에서 사용하는 Experience Platform [자사 디바이스 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 방문자 식별의 정확도를 높이십시오.</li></ul><p>**스키마 선택**</p><p>이 마이그레이션 경로를 사용할 때 기존 Adobe Analytics 스키마를 사용할지 여부를 선택하거나, 다른 Platform 애플리케이션을 사용하기 시작할 때 조직의 요구 사항에 보다 잘 부합하도록 XDM 스키마로 업데이트할 수 있습니다.</p><p>**Adobe Analytics 스키마 사용**</p><p>Adobe Analytics 스키마를 사용할 때의 장점은 다음과 같습니다.</p><ul><li>간편한 마이그레이션<p>Adobe Experience Platform Web SDK를 사용하여 이미 Adobe Analytics으로 데이터를 전송 중인 경우 데이터 스트림에 서비스를 추가하여 데이터를 Adobe Experience Platform으로 전송할 수 있습니다(그런 다음 Customer Journey Analytics 구성에서 사용할 수 있음).</p></li></ul><p>Adobe Analytics 스키마를 사용할 때의 단점은 다음과 같습니다.</p><ul><li>Adobe Analytics 스키마를 사용해도 다른 Platform 애플리케이션과 함께 사용할 수 있는 방법에는 제한이 없지만 보다 복잡한 스키마가 생성됩니다. 이는 Adobe Analytics 스키마에 조직에서 사용할 가능성이 낮은 Adobe Analytics과 관련된 많은 개체가 포함되어 있기 때문입니다.<p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾으려면 사용되지 않은 수천 개의 필드를 살펴봐야 합니다.</p></li></ul><p>**XDM 스키마 사용**</p><p>XDM 스키마 업데이트의 이점은 다음과 같습니다.</p><ul><li>조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마.</li><p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.</p></ul><p>XDM 스키마 업데이트의 단점은 다음과 같습니다.</p><ul><li>스키마를 업데이트하는 것은 Customer Journey Analytics으로 데이터를 보내기 전에 필요한 시간이 많이 걸리는 프로세스입니다.</li></ul> | 없음 |
+| Adobe Analytics 구현에서 이미 웹 SDK를 사용 중인 경우 기본 마이그레이션 경로입니다.<ul><li>**Experience Cloud에서 데이터 호스팅의 모든 이점 제공 Edge Network**: <p>다음과 같은 이점이 있습니다.</p><ul><li>Adobe Experience Platform은 강력한 성능을 제공하도록 구축되었으므로 뛰어난 성능 보고 및 데이터 가용성 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간에 Adobe Experience Cloud 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식에서는 몇 가지 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요한 것은 아닙니다. 기존 Adobe Analytics 보고에 영향을 주지 않고 구현 논리를 최소한으로 변경하여 기존 데이터 레이어 및 코드를 사용할 수 있습니다.</li><li>**XDM 스키마 사용 옵션을 제공합니다.**: 기존 Adobe Analytics 스키마를 사용하거나 XDM 스키마를 만들고 데이터 개체의 필드를 XDM 스키마에 매핑하도록 선택할 수 있습니다. [XDM 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 는 필요한 모든 필드를 정의하고 관련성이 있는 필드만 정의할 수 있는 유연한 스키마입니다. <p>고유한 XDM 스키마를 사용할 때의 장점에 대한 자세한 내용은 아래의 &quot;고유한 XDM 스키마 사용&quot;을 참조하십시오.</p></li><li>**규칙 및 데이터 요소 유지**: 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**미래 지향적**: 자체 XDM 스키마를 사용하도록 선택하는 경우 향후 구현 업데이트가 더 쉬워집니다.</li></ul> | 없음 |
 
 {style="table-layout:auto"}
+
++++
+
+#### 스키마 선택
+
+데이터를 Customer Journey Analytics으로 보내도록 Adobe Analytics Web SDK 구현을 구성할 수 있는 마이그레이션 경로를 선택한 경우 사용할 스키마를 선택할 수 있습니다.
+
+기존 Adobe Analytics 스키마를 사용할지 또는 자체 XDM 스키마로 업데이트하여 다른 Platform 서비스를 사용하기 시작할 때 조직의 요구 사항에 보다 잘 부합하도록 선택할 수 있습니다.
+
++++Adobe Analytics Web SDK 구현에서 Adobe Analytics 스키마 사용
+
+| 장점 | 단점 |
+|----------|---------|
+| <p>Adobe Analytics 스키마를 사용할 때의 장점은 다음과 같습니다.</p><ul><li>간편한 마이그레이션<p>Adobe Experience Platform Web SDK를 사용하여 이미 Adobe Analytics으로 데이터를 전송 중인 경우 데이터 스트림에 서비스를 추가하여 데이터를 Adobe Experience Platform으로 전송할 수 있습니다(그런 다음 Customer Journey Analytics 구성에서 사용할 수 있음).</p></li></ul> | <p>Adobe Analytics 스키마를 사용할 때의 단점은 다음과 같습니다.</p><ul><li>Adobe Analytics 스키마를 사용해도 다른 Platform 애플리케이션과 함께 사용할 수 있는 방법에는 제한이 없지만 보다 복잡한 스키마가 생성됩니다. 이는 Adobe Analytics 스키마에 조직에서 사용할 가능성이 낮은 Adobe Analytics과 관련된 많은 개체가 포함되어 있기 때문입니다.<p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾으려면 사용되지 않은 수천 개의 필드를 살펴봐야 합니다.</p></li></ul> |
+
++++
+
++++Adobe Analytics 웹 SDK 구현에서 고유한 XDM 스키마 사용
+
+| 장점 | 단점 |
+|----------|---------|
+| <ul><p>고유한 XDM 스키마로 업데이트하는 장점에는 다음이 포함됩니다.</p><ul><li>조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마.</li><p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.</p></ul> | <p>자체 XDM 스키마로 업데이트할 때의 단점은 다음과 같습니다.</p><ul><li>스키마를 업데이트하는 것은 Customer Journey Analytics으로 데이터를 보내기 전에 필요한 시간이 많이 걸리는 프로세스입니다.</li></ul> |
 
 +++
 
