@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 366fc232fad278f6a6448d68cda6d0e1f05718f3
+source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 77%
@@ -40,8 +40,6 @@ ht-degree: 77%
    + [Customer Journey Analytics와 BI 솔루션 비교](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics 및 Adobe Analytics 비교 {#compare-aa-cja}
-   + [Adobe Analytics의 발전](../getting-started/aa-to-cja.md)
-   + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
    + Customer Journey Analytics으로 마이그레이션 {#migrate-to-cja}
       + [시작](/help/getting-started/cja-migration/cja-migration-getstarted.md)
       + [마이그레이션 경로 선택](/help/getting-started/cja-migration/cja-migration-path.md)
@@ -56,6 +54,8 @@ ht-degree: 77%
       + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+   + [Adobe Analytics의 발전](../getting-started/aa-to-cja.md)
+   + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
 
 + 데이터 수집 {#cja-data-ingestion}
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
