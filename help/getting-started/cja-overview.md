@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 ## 액세스 제어
 
-[액세스 제어](/help/admin/cja-access-control.md) 주제를 참조하십시오.
+다음을 참조하십시오 [액세스 제어](/help/technotes/access-control.md).
 
 ## 용어 업데이트
 

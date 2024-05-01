@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 1c789264a9867279f58a3ad139207fec8db29c1b
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하기 
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>시간이 가장 많이 소요되고 까다로운 마이그레이션 경로 <p>최소한의 투자로 신속하게 Customer Journey Analytics으로 데이터 마이그레이션</p></li></ul> | <ul><li>**데이터가 Edge Network으로 전송되지 않음**: <p>이로 인해 다음과 같은 단점이 발생합니다.</p><ul><li>최고 수준 [지연](/help/admin/guardrails.md#latencies) 실시간 개인화 사용 사례에 최적화되지 않은 모든 마이그레이션 경로에 대해 보고할 수 있습니다.</li><li>데이터는 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없습니다. Customer Journey Analytics 전용으로만 제한됩니다</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존</li></ul><li>**향후 웹 SDK로 이동하기 어려움**: </li><li>**스키마에서 Analytics Experience Event 필드 그룹 사용**: 이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 많은 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 복잡한 스키마가 발생할 수 있습니다.</li></ul> |
+| <ul><li>시간이 가장 많이 소요되고 까다로운 마이그레이션 경로 <p>최소한의 투자로 신속하게 Customer Journey Analytics으로 데이터 마이그레이션</p></li></ul> | <ul><li>**데이터가 Edge Network으로 전송되지 않음**: <p>이로 인해 다음과 같은 단점이 발생합니다.</p><ul><li>최고 수준 [지연](/help/technotes/guardrails.md#latencies) 실시간 개인화 사용 사례에 최적화되지 않은 모든 마이그레이션 경로에 대해 보고할 수 있습니다.</li><li>데이터는 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없습니다. Customer Journey Analytics 전용으로만 제한됩니다</li><li>Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존</li></ul><li>**향후 웹 SDK로 이동하기 어려움**: </li><li>**스키마에서 Analytics Experience Event 필드 그룹 사용**: 이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 많은 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 복잡한 스키마가 발생할 수 있습니다.</li></ul> |
 
 {style="table-layout:auto"}
 

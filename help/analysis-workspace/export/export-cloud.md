@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2205'
 ht-degree: 3%
 
 ---
@@ -144,13 +144,13 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 * **표:** 전체 테이블 내보내기로 지원하려면 모든 테이블에 행에 하나 이상의 차원이 포함되어야 하며 각 열에 하나의 지표가 있어야 합니다.
 
-* **환경:** 관리자는에 나열된 IP 주소를 확인해야 합니다. [Customer Journey Analytics에서 사용하는 IP 주소](/help/admin/ip-addresses.md) 방화벽 허용 목록에 포함됩니다.
+* **환경:** 다음을 확인합니다. [IP 주소](/help/technotes/ip-addresses.md) 및 [도메인](/help/technotes/domains.md) Customer Journey Analytics이 사용하는 것은 해당 조직의 방화벽을 통해 허용됩니다.
 
-* **권한:** Adobe Admin Console에서 사용자에게 가 있는 제품 프로필을 할당해야 합니다. [!UICONTROL **전체 테이블 내보내기**] 전체 테이블을 내보내기 위해 할당된 권한. Admin Console의 제품 프로필에 권한을 할당하는 방법에 대한 자세한 내용은 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) 위치: [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+* **권한:** Adobe Admin Console에서 사용자에게 가 있는 제품 프로필을 할당해야 합니다. [!UICONTROL **전체 테이블 내보내기**] 전체 테이블을 내보내기 위해 할당된 권한. Admin Console의 제품 프로필에 권한을 할당하는 방법에 대한 자세한 내용은 [Admin Console의 Customer Journey Analytics 권한](/help/technotes/access-control.md).
 
   >[!NOTE]
   >
-  >  에 할당된 사용자 [제품 관리자 역할](/help/admin/cja-access-control.md#product-admin-role) 항상 전체 테이블 내보내기에 액세스할 수 있습니다. 이러한 사용자에게는 [!UICONTROL **전체 테이블 내보내기**] 권한.
+  >  에 할당된 사용자 [제품 관리자 역할](/help/technotes/access-control.md#product-admin-role) 항상 전체 테이블 내보내기에 액세스할 수 있습니다. 이러한 사용자에게는 [!UICONTROL **전체 테이블 내보내기**] 권한.
 
 
 ### 지원되지 않는 기능
@@ -226,6 +226,6 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 | FTP / SFTP | 아니요 | 레거시 지원 |
 | Azure | 예 | 예 |
 | Amazon S3 | 예 | 예 |
-| Google Cloud 플랫폼 | 예 | 예 |
+| Google Cloud Platform | 예 | 예 |
 | Snowflake | 예 | 아니요 |
 | 게재 빈도 | 일별 | 시간별 |

@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 데이터 거버넌스가 작동�
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 74%
+source-wordcount: '375'
+ht-degree: 56%
 
 ---
 
@@ -29,7 +29,7 @@ Experience Platform에서 사용하는 데이터 세트에 생성된 개인정�
 
 ## GDPR
 
-Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central Service에 직접 가입되어 있지 않으며 대신 Experience Platform에서 수행한 데이터 세트 변경 사항을 모두 상속합니다. Adobe는 Platform Data Lake를 통해 GDPR 삭제 요청을 시행하고 파이프라인에서 삭제 요청이 완료되면 Adobe에 통보합니다. Adobe는 파이프라인의 의견을 경청하여 이벤트 데이터 세트에 대한 Customer Journey Analytics에서 영향받는 배치의 변경 사항을 모두 동기화합니다. GDPR 삭제 요청의 영향을 받는 프로필 및 조회 데이터 세트는 각 삭제 요청 이후에 완전히 다시 수집됩니다. Adobe는 Data Lake에서 삭제 이벤트가 발생한 후 7일 이내에 삭제 요청이 실행되도록 보장할 수 있습니다.
+Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central Service에 직접 가입되어 있지 않으며 대신 Experience Platform에서 수행한 데이터 세트 변경 사항을 모두 상속합니다. Customer Journey Analytics은 Platform Data Lake에 따라 GDPR 삭제 요청을 적용하고 요청이 완료되면 Customer Journey Analytics에게 알립니다. 이벤트 데이터 세트에 대한 Customer Journey Analytics의 영향을 받는 배치에 대한 모든 변경 사항은 플랫폼 데이터와 동기화됩니다. GDPR 삭제 요청의 영향을 받는 프로필 및 조회 데이터 세트는 각 삭제 요청 후에 완전히 다시 수집됩니다. 삭제 요청은 일반적으로 데이터 레이크에서 삭제 이벤트가 발생한 후 7일 이내에 완료됩니다.
 
 ## CCPA
 

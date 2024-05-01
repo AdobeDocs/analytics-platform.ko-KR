@@ -1,16 +1,16 @@
 ---
 description: Customer Journey Analytics의 연속 기능 릴리스 전략에 대해 설명합니다.
-title: Customer Journey Analytics 기능 릴리스
+title: Customer Journey Analytics 기능 릴리스 전략
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 88%
 
 ---
 
-# Customer Journey Analytics 기능 릴리스
+# Customer Journey Analytics 기능 릴리스 전략
 
 Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다.
 
@@ -28,7 +28,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 ## 기능 플래그
 
-기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe는 릴리스 중 최적의 경험을 위해 `app.launchdarkly.com`을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
+기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 허용을 권장합니다. `app.launchdarkly.com` 조직의 방화벽을 통해 릴리스 중 최적의 환경을 제공합니다. 이러한 플래그는 기능이 모든 사람에게 릴리스된 후 제거됩니다. 다음을 참조하십시오 [Customer Journey Analytics에서 사용하는 도메인](../technotes/domains.md) 추가 정보.
 
 **도움말 > Workspace 정보 > 활성 기능 플래그**&#x200B;에서 언제든지 활성 기능 플래그를 볼 수 있습니다.
 

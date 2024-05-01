@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b4c77c3ef4d57aac6e914a2373b6a9169f4872df
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 73%
@@ -22,7 +22,7 @@ ht-degree: 73%
 * 다른 계정과 비교하여 특정 마케팅 캠페인과 관련하여 이 계정이 전체적으로 어떻게 수행됩니까?
 * 한 계정에서 특정 역할(예: IT 관리자)이 다른 계정에서 동일한 역할과 다르게 동작합니까?
 
-계정 수준 정보를 [조회](/help/getting-started/cja-glossary.md) 데이터 세트로 가져와 이 모든 작업을 수행할 수 있습니다.
+계정 수준 정보를 [조회](/help/technotes/glossary.md) 데이터 세트로 가져와 이 모든 작업을 수행할 수 있습니다.
 
 먼저 Adobe Experience Platform에서 조회 스키마를 만든 다음 .csv 기반 계정 수준 데이터를 수집하여 조회 테이블 데이터 세트를 만듭니다. 그런 다음 생성한 조회를 포함하여 서로 다른 데이터 세트를 결합하는 Customer Journey Analytics(Customer Journey Analytics)에서 연결을 만듭니다. 그런 다음 데이터 보기를 만들고 최종적으로 작업 영역에서 이 모든 데이터를 활용할 수 있습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ## 1. 조회 스키마 만들기 (Experience Platform)
 
-에 대한 자체 스키마 만들기 [조회](/help/getting-started/cja-glossary.md) 표는 사용된 데이터 세트를 올바른 설정(레코드 유형)을 사용하여 Customer Journey Analytics에서 사용할 수 있도록 합니다. 모범 사례는 “조회”라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
+에 대한 자체 스키마 만들기 [조회](/help/technotes/glossary.md) 표는 사용된 데이터 세트를 올바른 설정(레코드 유형)을 사용하여 Customer Journey Analytics에서 사용할 수 있도록 합니다. 모범 사례는 “조회”라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
 
 ![새 클래스 만들기 대화 상자](../assets/create-new-class.png)
 

@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c55daff7e2d96c96b985b0ec9609eb4db0370a45
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '3375'
 ht-degree: 74%
@@ -23,7 +23,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 통계 기법 예측 | 을(를) 설명하는 문서가 추가되었습니다. [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 권장하는 정보가 추가되었습니다. | 에 글머리 기호 추가됨 [높은 카디널리티 차원에 대한 우수 사례](/help/components/dimensions/high-cardinality.md) 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 사용하는 것이 좋습니다. |
 | 모바일 스코어카드의 지능형 캡션에 대한 설명서를 추가했습니다 | [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 는 분석가의 도움 없이 비분석가가 데이터를 더 잘 이해할 수 있도록 도와줍니다. |
-| 새로운 Adobe Product Analytics 기능에 대한 설명서 | <ul><li>[기능 매트릭스](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>고급 [유지율](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[단계의 Enhanced Insights](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>단일 단계 내 이벤트 비교</li></ul> |
+| 새로운 Adobe Product Analytics 기능에 대한 설명서 | <ul><li>[기능 매트릭스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>고급 [유지율](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[단계의 Enhanced Insights](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>단일 단계 내 이벤트 비교</li></ul> |
 | **2024년 3월** | |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/getting-started/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
 | 프로젝트 전용 Workspace 구성 요소의 권한 향상에 대한 설명서가 추가되었습니다 | 프로젝트를 다른 사용자와 공유하는 경우 해당 사용자가 편집할 수 있습니다 [빠른 필터](/help/components/filters/quick-filters.md) 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |
@@ -31,7 +31,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>[개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
 | 클라우드 내보내기 위치를 구성할 때 Amazon S3 역할 ARN 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Amazon S3 역할 ARN 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
-| 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
+| 제품 관리자가 항상 전체 테이블 내보내기에 액세스할 수 있음을 명확히 했습니다. | 제품 관리자 역할이 할당된 사용자가 기본적으로 Analysis Workspace에서 전체 테이블을 내보낼 수 있는 액세스 권한이 있음을 명확히 하기 위해 다음과 같이 변경되었습니다. <ul><li>에 새 글머리 기호를 추가했습니다. [제품 관리자 기본 권한](/help/technotes/access-control.md#product-admin-default-permissions).</li><li>아래에 메모 추가됨 [전체 테이블을 클라우드로 내보내기 위한 최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | Adobe Analytics에서 구성 요소 마이그레이션 중에 세그먼트가 다시 생성됨을 명확히 했습니다 | 다음에서 [Adobe Analytics 사용자를 위한 사용 안내서](/help/getting-started/aa-to-cja-user.md)는 세그먼트가 구성 요소 마이그레이션 프로세스의 일부로 Adobe Analytics에서 자동으로 다시 만들어지므로 수동으로 다시 만들 필요가 없다는 것을 명확히 했습니다. |
 | 생략된 레코드 세부 정보 | 연결의 생략된 레코드 세부 정보에 대한 설명서를 추가했습니다. 자세한 내용은 [연결 세부 정보](../connections/manage-connections.md#connection-details)를 참조하십시오. |
 | **2024년 1월** | |
@@ -39,7 +39,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 전체 표를 내보낼 때 계정 및 위치를 추가하는 방법에 대한 설명서를 업데이트했습니다 | 다음과 같은 경우 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다. [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>새 항목 [!UICONTROL **계정 추가**] 이제 옵션이에서 사용할 수 있습니다. [!UICONTROL **계정**] 드롭다운 메뉴. 다음 [!UICONTROL **위치 추가**] 이전에는 버튼 로 사용할 수 있었던 옵션 [!UICONTROL **위치 이름**] 이제 메뉴 자체에서 드롭다운 메뉴를 사용할 수 있습니다. |
 | Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
-| 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/admin/cja-access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |
+| 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/technotes/access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |
 | 연결 관리 | 을(를) 업데이트함 [연결 관리](../connections/manage-connections.md) 고객 피드백을 기반으로 한 문서입니다. |
 | 파생 필드 | 함수 요약이 추가되었습니다. [제한 사항](/help/data-views/derived-fields/derived-fields.md#limitations) 및 숫자를 결정하는 방법에 대한 설명 [연산자](/help/data-views/derived-fields/derived-fields.md#operators) 함수에 사용됩니다. |
 
@@ -51,8 +51,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 12월** | |
-| 데이터 센터 | Customer Journey Analytics에 대한 문서 추가됨 [호스팅 위치](../technotes/cja-datacenters.md). |
-| 가드레일 | 문서 목록 Customer Journey Analytics 추가됨 [보호 기능](../admin/guardrails.md). |
+| 데이터 센터 | Customer Journey Analytics에 대한 문서 추가됨 [호스팅 위치](../technotes/data-centers.md). |
+| 가드레일 | 문서 목록 Customer Journey Analytics 추가됨 [보호 기능](../technotes/guardrails.md). |
 | 통화 전환 업데이트 | 방법에 대한 설명서를 명확하게 정리했습니다. [통화 전환 구성](/help/data-views/component-settings/format.md). |
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
@@ -90,7 +90,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Report Builder의 “셀에서 데이터 보기 선택”에 관한 문서 | 이 기능을 사용하면 사용자가 셀에서 데이터 블록에 대한 데이터 보기를 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
 | Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
-| 최적화 업데이트 | [Customer Journey Analytics 성능 최적화](/help/admin/optimizing-performance.md)에 대한 문서가 업데이트됨 |
+| 최적화 업데이트 | [Customer Journey Analytics 성능 최적화](/help/technotes/optimizing-performance.md)에 대한 문서가 업데이트됨 |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
 | 왼쪽 레일의 구성 요소 정렬 | 왼쪽 레일의 구성 요소 목록 정렬에 대한 정보가 추가되었습니다. [구성 요소 개요](/help/components/overview.md)의 “필터 검색 및 구성 요소 목록 정렬” 섹션을 참조하십시오. |
@@ -133,7 +133,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 날짜 | 설명 업데이트 |
 | --- | --- |
 | **2022년 12월** |  |
-| 2022년 12월 16일 | [Customer Journey Analytics 데이터 사용량 측정 및 관리](/help/admin/estimate-usage.md)에 대한 새로운 주제. |
+| 2022년 12월 16일 | [Customer Journey Analytics 데이터 사용량 측정 및 관리](/help/technotes/estimate-usage.md)에 대한 새로운 주제. |
 | **2022년 10월** | |
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
@@ -148,7 +148,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 9월 | 작업 영역의 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)에 대한 새로운 주제. |
 | **2022월 8월** | |
 | 2022년 8월 | [Analytics 소스 커넥터에 대한 교차 영역 지원](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)에 대한 Adobe Experience Platform 문서. |
-| 2022년 8월 | [Customer Journey Analytics 액세스 제어](/help/admin/cja-access-control.md)에 대한 문서가 대폭 업데이트되었습니다. |
+| 2022년 8월 | [Customer Journey Analytics 액세스 제어](/help/technotes/access-control.md)에 대한 문서가 대폭 업데이트되었습니다. |
 | 2022년 8월 | [데이터 거버넌스 레이블 및 정책에 대한 Customer Journey Analytics 지원](/help/data-views/data-governance.md)에 관한 새 문서. |
 | 2022년 8월 | [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](/help/getting-started/aa-vs-cja/terminology.md)에 대한 새 문서. |
 | 2022년 8월 | 에 대한 새로운 설명서 [실시간 고객 프로필에 게시하는 대상자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html). |

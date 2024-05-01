@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1081'
 ht-degree: 77%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 77%
    + [2022년 릴리스](../release-notes/2022.md)
    + [2021년 릴리스](../release-notes/2021.md)
    + [2020년 릴리스](../release-notes/2020.md)
-   + [Customer Journey Analytics 릴리스](../release-notes/releases.md)
-   + [Customer Journey Analytics 설명서 업데이트](../release-notes/doc-changes.md)
+   + [기능 릴리스 전략](../release-notes/releases.md)
+   + [설명서 업데이트](../release-notes/doc-changes.md)
 
 + 시작하기 {#cja-overview}
    + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
@@ -358,15 +358,6 @@ ht-degree: 77%
    + 파생 필드 {#derived-fields}
       + [파생 필드를 사용하여 목표 보고](../use-cases/goals-using-derived-fields.md)
 
-
-+ 관리 {#cja-admin}
-   + [가드레일](../admin/guardrails.md)
-   + [액세스 제어](../admin/cja-access-control.md)
-   + [사용량 보기 및 관리](../admin/estimate-usage.md)
-   + [삭제 영향](../admin/cja-deletion.md)
-   + [Customer Journey Analytics 성능 최적화](../admin/optimizing-performance.md)
-   + [IP 주소](../admin/ip-addresses.md)
-
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
 
@@ -376,8 +367,14 @@ ht-degree: 77%
    + [권한 부족](../troubleshooting/lack-of-permissions.md)
 
 + 기술 노트 {#technotes}
-   + [Customer Journey Analytics 데이터 센터](../technotes/cja-datacenters.md)
-
-+ [Customer Journey Analytics 용어](../getting-started/cja-glossary.md)
+   + [액세스 제어](../technotes/access-control.md)
+   + [데이터 센터](../technotes/data-centers.md)
+   + [삭제 영향](../technotes/deletion.md)
+   + [도메인](../technotes/domains.md)
+   + [용어 설명](../technotes/glossary.md)
+   + [가드레일](../technotes/guardrails.md)
+   + [IP 주소](../technotes/ip-addresses.md)
+   + [Customer Journey Analytics 성능 최적화](../technotes/optimizing-performance.md)
+   + [사용량 보기 및 관리](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)

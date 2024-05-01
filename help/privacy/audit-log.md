@@ -4,7 +4,7 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 65%
@@ -23,7 +23,7 @@ ht-degree: 65%
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 로그 수집을 수동으로 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../admin/cja-access-control.md).
+감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../technotes/access-control.md).
 
 ## UI에서 감사 로그 보기
 

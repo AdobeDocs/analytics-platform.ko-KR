@@ -6,7 +6,8 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 98d99dd3a25b8e6f9d9366dd2f4ff44ca132ee9e
+exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 98%
@@ -31,7 +32,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 사전 요구 사항
 
-이 기능을 사용하려면 다음을 수행해야 합니다.
+이 기능을 사용하려면 다음 작업을 수행해야 합니다.
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
@@ -43,7 +44,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 * 만료되지 않는 자격 증명에 만료를 사용하여 BI 도구를 [!DNL Customer Journey Analytics BI extension]에 연결합니다. [자격 증명 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)에서는 만료될 예정인 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
 
-자세한 내용은 Customer Journey Analytics 관리 섹션의 [액세스 제어](../admin/cja-access-control.md)를 참조하십시오.
+자세한 내용은 Customer Journey Analytics 관리 섹션의 [액세스 제어](../technotes/access-control.md)를 참조하십시오.
 
 
 ## 사용
@@ -322,7 +323,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 `WHERE` 절은 세 단계로 처리됩니다.
 
-1. `timestamp`, `daterange`, 또는 `daterangeName` 특수 필드에서 날짜 범위를 찾습니다.
+1. `timestamp`, `daterange` 또는 `daterangeName` 특수 필드에서 날짜 범위를 찾습니다.
 
 1. 필터링에 포함할 외부에서 정의된 `filterId` 또는 `filterName`을(를) 찾습니다.
 
