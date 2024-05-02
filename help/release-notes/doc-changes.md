@@ -4,7 +4,7 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 355052289c5e613212030b7748b6116a12455953
 workflow-type: tm+mt
 source-wordcount: '3375'
 ht-degree: 74%
@@ -23,7 +23,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 통계 기법 예측 | 을(를) 설명하는 문서가 추가되었습니다. [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 권장하는 정보가 추가되었습니다. | 에 글머리 기호 추가됨 [높은 카디널리티 차원에 대한 우수 사례](/help/components/dimensions/high-cardinality.md) 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 사용하는 것이 좋습니다. |
 | 모바일 스코어카드의 지능형 캡션에 대한 설명서를 추가했습니다 | [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 는 분석가의 도움 없이 비분석가가 데이터를 더 잘 이해할 수 있도록 도와줍니다. |
-| 새로운 Adobe Product Analytics 기능에 대한 설명서 | <ul><li>[기능 매트릭스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>고급 [유지율](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[단계의 Enhanced Insights](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>단일 단계 내 이벤트 비교</li></ul> |
+| Adobe Product Analytics 기능에 대한 새로운 설명서 | <ul><li>[기능 매트릭스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>고급 [유지율](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[단계의 Enhanced Insights](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>단일 단계 내 이벤트 비교</li></ul> |
 | **2024년 3월** | |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/getting-started/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
 | 프로젝트 전용 Workspace 구성 요소의 권한 향상에 대한 설명서가 추가되었습니다 | 프로젝트를 다른 사용자와 공유하는 경우 해당 사용자가 편집할 수 있습니다 [빠른 필터](/help/components/filters/quick-filters.md) 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |
