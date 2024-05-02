@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ID의 예로는 고객 ID, 계정 ID 또는 이메일 ID가 있습니다. ID의 
 * 아이디에 PII(사용자 식별 정보)는 포함되지 않습니다. 민감할 수 있는 모든 항목에 해싱을 적용합니다.
 * ID는 모든 소스에서 동일한 형식(동일한 길이, 동일한 해시 방법 등)을 사용합니다.
 
-Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재합니다. 이 경우, [크로스 채널 분석(&quot;결합&quot;이라고도 함)](/help/stitching/overview.md) 는 고객이 ECID로만 식별되는 경우와 id가 수집되는 경우(예: 고객이 인증되는 경우) 행 간의 간격을 메우는 데 사용할 수 있습니다.
+Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 존재하지 않을 수 있지만 보조 ID는 존재합니다. 이 경우, 고객이 ECID를 통해서만 식별되고 ID가 수집되는 경우(예: 고객 인증 시) [크로스 채널 분석(“결합”이라고도 함)](/help/stitching/overview.md)을 사용하여 행 간의 간격을 메울 수 있습니다.
 
 ### 변수 정렬
 
-Adobe Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko-KR) 를 사용하여 Experience Platform에 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR). 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
+Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko-KR)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
@@ -56,7 +56,7 @@ Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https
 
 Customer Journey Analytics 데이터 보기의 일부로 [파생 필드](../data-views/derived-fields/derived-fields.md)가 도입됨에 따라 [마케팅 채널 기능 템플릿](../data-views/derived-fields/derived-fields.md#function-templates)을 사용하여 마케팅 채널 또한 비파괴적이고 소급 적용되는 방식으로 지원됩니다.
 
-## Customer Journey Analytics으로 마이그레이션할 때의 심각한 차이점에 대비하십시오.
+## Customer Journey Analytics로 마이그레이션할 때 중요한 차이점에 대비
 
 조직이 Customer Journey Analytics을 사용하기 위해 진화할 때 이러한 단계를 통해 데이터를 준비하고 두 기술 간의 중요한 차이점을 파악하십시오. 이 문서는 관리자 대상자를 대상으로 합니다.
 

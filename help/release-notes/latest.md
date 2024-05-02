@@ -4,9 +4,9 @@ description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 | **스트리밍 미디어: Roku 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 [Experience Platform Edge를 사용하여 Media Analytics를 설치](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)할 때 Adobe Experience Platform Roku SDK를 사용하여 스트리밍 미디어 데이터를 Adobe Experience Platform으로 보낼 수 있습니다. |  | 2024년 4월 12일 |
 | **보고 활동 관리자에 월별 보고서가 노출됨** | 보고 활동 관리자에서 모든 연결에 대한 보고 활동을 볼 때 이제 IMS 조직 수준에서 실행된 [월별 보고서/요청](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites)을 보여 주는 그래프(이번 달 및 이전 달)를 사용할 수 있습니다.<p>**참고:** 데이터는 2024년 3월 중순부터 제공됩니다. | | 2024년 4월 15일 |
 | **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)은 비분석가가 분석가의 도움 없이도 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 17일 |
-| **프로젝트 전용 [!UICONTROL Workspace] 구성 요소의 권한 강화** | 이전에는 한 사용자(사용자 A)가 다른 사용자(사용자 B)와 프로젝트를 공유하는데 사용자 B에게 프로젝트에 대한 편집 액세스 권한을 부여한 경우, 사용자 B가 프로젝트를 편집할 수 있었습니다. 그러나 사용자 B는 편집할 수 없습니다 [!UICONTROL 빠른 필터] 프로젝트에 포함됨. 이제 해당 제한이 제거됨 - 사용자 B가 편집할 수 있음 [빠른 필터](/help/components/filters/quick-filters.md) 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |  | 2024년 4월 17일 |
+| **프로젝트 전용 [!UICONTROL Workspace] 구성 요소의 권한 강화** | 이전에는 한 사용자(사용자 A)가 다른 사용자(사용자 B)와 프로젝트를 공유하는데 사용자 B에게 프로젝트에 대한 편집 액세스 권한을 부여한 경우, 사용자 B가 프로젝트를 편집할 수 있었습니다. 그러나 사용자 B는 프로젝트에 임베드된 [!UICONTROL 빠른 필터]를 편집할 수 없었습니다. 이제 이러한 제한이 제거되었습니다. 사용자 B는 [빠른 필터](/help/components/filters/quick-filters.md) 및 공유 프로젝트에 임베드된 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다. |  | 2024년 4월 17일 |
 | **관리자가 조직의 모든 위치 관리 가능** | [위치](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 페이지의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 자신이 만든 위치만 보고 관리할 수 있었습니다. |  | 2024년 4월 |
 | **Adobe Product Analytics: 기능 매트릭스** | 핵심, 성능, 일회성 및 의심스러운 기능에 대해 알아보고 투자 결정을 촉진합니다. [!UICONTROL 기능 매트릭스]는 사용 빈도와 활성 사용자 비율(%)을 기준으로 이벤트를 측정하고 평균 사용량과 비교합니다. | 2024년 4월 17일 | 2024년 4월 30일 |
 | **Adobe Product Analytics: 단계 Insights 향상** | [마찰](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기에서는 차트와 표에 대한 이해를 돕기 위해 카테고리, 델타, 설명이 포함되도록 서면 인사이트가 향상되었습니다. | 2024년 4월 17일 | 2024년 4월 26일 |
