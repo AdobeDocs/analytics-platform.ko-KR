@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 99%
+source-wordcount: '2536'
+ht-degree: 98%
 
 ---
 
@@ -174,9 +174,9 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 ## 8. [!UICONTROL Adobe Analytics] 구성 요소
 
-+++**[!DNL Customer Journey Analytics]에서 Experience Platform Real-Time CDP 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 필터]를 공유/게시할 수 있습니까?**
++++**공유/게시 가능 [!UICONTROL 대상] 출처: [!DNL Customer Journey Analytics] Real-Time CDP 또는 기타 Experience Cloud 애플리케이션을 Experience Platform**
 
-아직은 지원되지 않지만, 해당 기능을 제공하기 위해 적극적으로 노력하고 있습니다.
+다음을 수행할 수 있습니다. [대상자 만들기 및 게시](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) 고객 타기팅 및 맞춤화를 위한 Adobe Experience Platform의 실시간 고객 프로필 Customer Journey Analytics에서 식별됩니다.
 
 +++
 
