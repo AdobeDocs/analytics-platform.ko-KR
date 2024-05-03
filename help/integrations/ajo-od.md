@@ -4,8 +4,8 @@ description: Adobe Journey Optimizer 의사 결정 관리에서 생성된 데이
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
+source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 
@@ -73,12 +73,12 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 | 이벤트 유형(특정 이벤트를 참조하도록 이름 바꾸기, 예: `message.feedback`의 경우 `Feedback`) [1] | 특정 유형의 이벤트 양 | `eventType` | 구성 요소 유형: 지표<br/>**[!UICONTROL 포함 제외 값 설정&#x200B;]**: 켜짐<br/>**[!UICONTROL 일치]**: [!UICONTROL 모든 기준을 충족하는 경우]<br/>**[!UICONTROL 기준&#x200B;]**:**[!UICONTROL &#x200B;같음&#x200B;]**`message.feedback` |
 | 결정 옵션 점수 | 단일 범위의 맥락에서 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 구성 요소 유형: 지표 |
 | 대체 결정 옵션 점수 | 단일 범위의 맥락에서 대체 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 구성 요소 유형: 지표 |
-| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 닫거나 거부한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.display` | 구성 요소 유형: 지표 |
+| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 닫거나 거부한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
 | 오퍼 표시 | 프로필에 표시된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.display` | 구성 요소 유형: 지표 |
 | 오퍼 상호 작용 | 프로필에 표시된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.interact` | 구성 요소 유형: 지표 |
 | 오퍼 전송 | 프로필에 전송된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.send` | 구성 요소 유형: 지표 |
 | 오퍼 트리거 | 클라이언트 SDK에서 표시하도록 선택한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 구성 요소 유형: 지표 |
-| 오퍼 구독 취소 | 앞으로 표시되지 않도록 프로필에서 요청한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 구성 요소 유형: 지표 |
+| 오퍼 구독 취소 | 앞으로 표시되지 않도록 프로필에서 요청한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 구성 요소 유형: 지표 |
 
 {style="table-layout:auto"}
 
