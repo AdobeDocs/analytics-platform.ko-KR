@@ -34,7 +34,7 @@ Adobe Customer Journey Analytics는 차세대 분석 제품입니다. 이 문서
 
 +++**[!UICONTROL Customer Journey Analytics] 전에 데이터를 ETL(추출, 변환, 로드)해야 하는 경우엔 어떻게 해야 합니까?**
 
-Customer Journey Analytics에는 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=ko-KR) 기능이 포함되어 있으므로 데이터를 Adobe Experience Platform 데이터 레이크에 삽입하기 전에 데이터를 변환할 수 있습니다. 이미 데이터를 수집한 후 ETL이 필요한 경우 [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR#queries)에서 일부 제한된 옵션을 제공합니다. 단, 이 경우 추가 비용이 발생할 수 있습니다.
+Customer Journey Analytics에는 [데이터 준비](https://experienceleague.adobe.com/kr/docs/experience-platform/data-prep/api/overview.html?lang=ko-KR) 기능이 포함되어 있으므로 데이터를 Adobe Experience Platform 데이터 레이크에 삽입하기 전에 데이터를 변환할 수 있습니다. 이미 데이터를 수집한 후 ETL이 필요한 경우 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/kr/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR#queries)에서 일부 제한된 옵션을 제공합니다. 단, 이 경우 추가 비용이 발생할 수 있습니다.
 
 +++
 
@@ -80,7 +80,7 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 
 +++**하나의 [!UICONTROL Customer Journey Analytics] 연결에 다른 [!UICONTROL Adobe Experience Platform] 샌드박스의 데이터를 결합할 수 있습니까?**
 
-아니요. 샌드박스에서 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#select-sandbox-and-datasets)
+아니요. 샌드박스에서 데이터에 액세스할 수 없습니다. 동일한 샌드박스 내에 있는 데이터 세트만 결합할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR#select-sandbox-and-datasets)
 
 +++
 
@@ -101,7 +101,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++**[!UICONTROL Adobe Analytics] 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까?**
 
-[!UICONTROL Adobe Analytics] 데이터는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다.
+[!UICONTROL Adobe Analytics] 데이터는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/kr/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Experience Platform에 연결할 수 있습니다. [!UICONTROL Adobe Analytics] 필드는 대부분 XDM 형식으로 가져오지만 다른 필드는 아직 사용할 수 없습니다.
 
 +++
 
@@ -140,7 +140,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 ## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
-[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
+[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**설정](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
@@ -161,7 +161,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 ## 7. Customer Journey Analytics에서 보고서 세트 병합 시 고려 사항 {#merge-reportsuite}
 
-[Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
+[Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/kr/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 통해 Adobe Analytics 데이터를 수집하여 2개 이상의 Adobe Analytics 보고서 세트를 병합할 경우 해당 결과를 고려하십시오.
 
 | 문제 | 고려 사항 |
 | --- | --- |
@@ -210,9 +210,9 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 +++
 
-## 9. 연결 크기 예상 {#estimate-size}
+## 9. 연결 크기 예측 {#estimate-size}
 
-다음을 참조하십시오 [사용량 예측 및 관리](/help/technotes/estimate-usage.md).
+[사용량 예측 및 관리](/help/technotes/estimate-usage.md)를 참조하십시오.
 
 ## 10. 사용 초과에 관한 사항 {#overage}
 
@@ -230,14 +230,14 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 “5f21c12b732044194bffc1d0”인 데이터 세트가 없습니다. 나중에, Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
 
-[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
+[!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
 
 
 ## 12. 지역 데이터 수집
 
 Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 Adobe 이외의 솔루션 간의 상호 작용이 방문자에게 가까운 위치에서 발생할 수 있습니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
 
-![Edge Network를 사용한 데이터 흐름](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+![Edge Network를 사용한 데이터 흐름](https://experienceleague.adobe.com/kr/docs/experience-platform/assets/collection.png)
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
@@ -267,4 +267,4 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)를 참조하십시오.
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/kr/docs/experience-platform/collection/home.html)를 참조하십시오.
