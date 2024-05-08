@@ -5,20 +5,20 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 90%
 
 ---
 
 # 세션 설정
 
-데이터 보기의 세션 설정은 Customer Journey Analytics가 연결의 데이터에서 세션을 계산하는 방식을 변경합니다.
+Customer Journey Analytics에서 개인이 디지털 경험과 상호 작용하는 방식에 맞게 세션을 정의할 수 있습니다. 데이터 보기 내에서 세션 설정을 구성합니다.
 
-데이터 보기의 **[!UICONTROL 설정]** 탭에서 사람들이 디지털 경험과 상호 작용하는 방식과 일치하는 방식으로 세션을 정의할 수 있습니다. 세션 설정 정의는 비파괴적이며 기본 데이터를 변경하지 않습니다. Workspace 프로젝트의 기반으로 특정 세션 설정 정의를 사용하여 각각 여러 데이터 보기를 설정할 수 있습니다.
+세션 설정 정의는 비파괴적이며 기본 데이터를 변경하지 않습니다. Workspace 프로젝트의 기반으로 특정 세션 설정 정의를 사용하여 각각 여러 데이터 보기를 설정할 수 있습니다.
 
-데이터 보기에 대한 세션 컨텍스트를 정의하려면 다음 작업을 수행하십시오.
+데이터 보기 내에서 세션 컨텍스트를 정의하려면 다음을 수행합니다.
 
 1. Customer Journey Analytics UI에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
 

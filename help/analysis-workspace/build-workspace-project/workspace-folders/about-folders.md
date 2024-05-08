@@ -5,10 +5,10 @@ title: 폴더 개요
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 �
 
 Workspace에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 만든 모든 개인 폴더와 함께 프로젝트 목록이 표시됩니다.
 
-![프로젝트와 회사 폴더가 나열된 프로젝트 홈 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![프로젝트 홈페이지](../assets/landing-page2.png)
 
 ## 회사 폴더 정보 {#company-folder}
 
@@ -34,7 +34,6 @@ Workspace에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 만
 
 사용자가 Workspace에 로그인하면 회사 폴더가 프로젝트 및 폴더 목록에 자동으로 추가됩니다. 회사 폴더에 포함된 프로젝트에 대해 특정 권한은 없습니다.
 
-
 ### 관리자 옵션 {#admin-options}
 
 관리자에게는 회사 폴더에 할당된 특별한 권한이 있습니다. 예를 들어 관리자만 회사 폴더에 폴더 또는 프로젝트를 추가하거나 제거할 수 있습니다. 관리자 액세스 권한이 없는 사용자는 회사 폴더의 콘텐츠를 볼 수 있습니다.
@@ -43,7 +42,7 @@ Workspace에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 만
 
 관리자가 아닌 사용자는 이 기능을 제한적으로 사용할 수 있습니다.
 
-![폴더에 대한 비관리자 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![폴더에 대한 비관리자 옵션을 보여 주는 프로젝트 페이지입니다.](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### 회사 폴더 지침 {#company-folder-guidelines}
 
@@ -53,6 +52,6 @@ Workspace에 로그인하면 프로젝트 홈 페이지에 회사 폴더 및 만
 
 - 관리자는 다른 관리자가 만든 회사 폴더 내 폴더를 삭제할 수 있습니다. 관리자는 일관된 폴더 및 프로젝트 액세스 유지를 위해 다른 관리자와 협력해야 할 수 있습니다.
 
-- 관리자가 프로젝트를 회사 폴더로 이동하면 원래 공유 권한이 제한된 경우에도 프로젝트가 모든 사용자와 공유됩니다.
+- 관리자가 프로젝트를 회사 폴더로 이동하면 프로젝트가 를 사용하는 모든 사용자와 공유됩니다. **사본 편집** 원래 공유 권한이 제한된 경우에도 역할을 수행합니다.
 
 - 관리자가 회사 폴더 밖으로 프로젝트를 이동하면 원래 또는 이전 공유 권한이 유지됩니다.
