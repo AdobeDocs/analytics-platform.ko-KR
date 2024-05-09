@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
+source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
-source-wordcount: '3481'
-ht-degree: 72%
+source-wordcount: '3515'
+ht-degree: 71%
 
 ---
 
@@ -21,6 +21,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2024년 5월** | |
 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
+| 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/components/date-ranges/custom-date-ranges.md) 를 사용하십시오. |
+| Dimension에 대한 개요 정보 | 에 대한 정보가 추가되었습니다. [치수](/help/components/dimensions/overview.md). |
 | **2024년 4월** | |
 | 통계 기법 예측 | 을(를) 설명하는 문서가 추가되었습니다. [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 권장하는 정보가 추가되었습니다. | 에 글머리 기호 추가됨 [높은 카디널리티 차원에 대한 우수 사례](/help/components/dimensions/high-cardinality.md) 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 사용하는 것이 좋습니다. |
@@ -39,7 +41,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2024년 1월** | |
 | 예측 | 에 설명서가 추가되었습니다. [예측](../analysis-workspace/c-forecast/forecasting.md), 자유 형식 테이블 및 라인 차트에 대해 지원되는 시간 세부기간 (시간별, 일별, 주별, 월별 및 연간)을 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능. |
 | 전체 표를 내보낼 때 계정 및 위치를 추가하는 방법에 대한 설명서를 업데이트했습니다 | 다음과 같은 경우 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다. [Analysis Workspace에서 전체 표 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>새 항목 [!UICONTROL **계정 추가**] 이제 옵션이에서 사용할 수 있습니다. [!UICONTROL **계정**] 드롭다운 메뉴. 다음 [!UICONTROL **위치 추가**] 이전에는 버튼 로 사용할 수 있었던 옵션 [!UICONTROL **위치 이름**] 이제 메뉴 자체에서 드롭다운 메뉴를 사용할 수 있습니다. |
-| Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
+| Adobe Analytics에서 마이그레이션할 때의 새로운 구성 요소 마이그레이션 정보 | 에 정보가 추가됨 [Adobe Analytics의 진화](/help/getting-started/aa-to-cja.md) 를 참조하십시오 [구성 요소 마이그레이션](https://experienceleague.adobe.com/kr/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics 관리 안내서에 설명된 기능. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md) 시스템 관리자만 사용할 수 있습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 다음을 설명하는 정보가 추가되었습니다. [권한 필요](/help/technotes/access-control.md) 을 클릭하여 데이터 세트를 클라우드 대상으로 내보냅니다. |
 | 연결 관리 | 을(를) 업데이트함 [연결 관리](../connections/manage-connections.md) 고객 피드백을 기반으로 한 문서입니다. |
