@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: d1497c20c0e986ae27fd7c64a14fd92630081650
+source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 77%
+source-wordcount: '1102'
+ht-degree: 76%
 
 ---
 
@@ -344,6 +344,12 @@ ht-degree: 77%
    + 데이터 보기 {#data-views}
       + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
+   + 데이터 내보내기 {#data-export}
+      + [개요](../use-cases/data-export/overview.md)
+      + [BI 확장](../use-cases/data-export/bi-extension.md)
+      + [데이터 세트 내보내기](../use-cases/data-export/export-datasets.md)
+      + [전체 테이블 내보내기](../use-cases/data-export/export-full-table.md)
+      + [쿼리 서비스 및 데이터 세트 내보내기](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
       + [예제 B2B 프로젝트](../use-cases/b2b/example.md)
       + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
@@ -353,7 +359,6 @@ ht-degree: 77%
    + Adobe Analytics 데이터 {#aa-data}
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
-      + [데이터 피드 에뮬레이션](../use-cases/emulating-data-feeds.md)
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
    + 파생 필드 {#derived-fields}

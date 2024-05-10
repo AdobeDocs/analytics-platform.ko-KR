@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
+source-git-commit: ea3ea6ad387300e2efcafb8e49efcafdfc011ba9
 workflow-type: tm+mt
-source-wordcount: '3515'
+source-wordcount: '3544'
 ht-degree: 71%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 5월** | |
+| 데이터 내보내기 사용 사례 | 을 설명하는 새 문서 세트 [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md) Experience Platform 및 Customer Journey Analytics 기능을 사용하여 이러한 사용 사례를 구현하는 방법 |
 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/components/date-ranges/custom-date-ranges.md) 를 사용하십시오. |
 | Dimension에 대한 개요 정보 | 에 대한 정보가 추가되었습니다. [치수](/help/components/dimensions/overview.md). |
