@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
+source-git-commit: 300868a88cf8ea3c345c5a211076f632dd9d0bbc
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1105'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 76%
       + [이전 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
-      + [Customer Journey Analytics에서 Adobe Analytics 데이터 활용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [Customer Journey Analytics에서 Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
       + [Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -200,6 +200,8 @@ ht-degree: 76%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
+   + 기능 매트릭스 {#feature-matrix}
+      + [참여](../guided-analysis/types/engagement.md)
    + 단계 {#funnel}
       + [마찰 보기](../guided-analysis/types/friction.md)
       + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
