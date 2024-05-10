@@ -1,16 +1,16 @@
 ---
-title: 데이터 피드 사용 사례
+title: 데이터 내보내기 사용 사례
 description: Customer Journey Analytics을 위한 다양한 데이터 내보내기 사용 사례 이해
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 19018e31bb2a46e88a27643fe10c388b40de243e
+exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
+source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
 
 ---
-
 
 # 데이터 내보내기 사용 사례
 
@@ -77,4 +77,3 @@ Customer Journey Analytics에서 Customer Journey Analytics은 순서대로 수�
 | **데이터 유효성 검사**<br/>&#x200B;클릭스트림 데이터를 평가하여 데이터 수집 정확도를 확인합니다. | **Experience Platform**: [**쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> 대화형 PostgreSQL 인터페이스를 통해 즐겨 사용하는 SQL 도구를 사용하여 임시 SQL 쿼리를 실행하여 데이터 세트의 데이터를 확인합니다.<br/><br/>**Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/>&#x200B;속성 및 세션화가 적용된 CJA에서 처리된 데이터의 유효성을 검사합니다. |
 | **Data Lake, Data Warehouse 또는 BI 도구**<br/>&#x200B;추가 데이터 세트와 함께 사용할 수 있도록 디지털 데이터를 고유한 BI 도구 또는 Data Lake로 가져옵니다. | **Customer Journey Analytics**: [**BI 확장**](bi-extension.md)<br/> Customer Journey Analytics 처리된 지표를 Power BI과 같은 데이터 시각화 도구에 추가하고 사용자 정의 보고서를 위한 추가 데이터와 결합합니다&#x200B;<br/><br/>**Experience Platform**: [**쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br> SQL을 사용하여 클라우드 대상으로 전달할 사용자 지정된 클릭스트림 데이터를 생성합니다. |
 | **AI/ML 준비 완료**<br/> Customer Journey Analytics 데이터를 통해 인공 지능/머신 러닝 모델 및 작업을 개선합니다. | **Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/>&#x200B;계산된 지표 및 세분화를 포함하여 Customer Journey Analytics 처리된 차원 및 지표를 클라우드 대상으로 한 번 또는 반복적으로 내보냅니다.<br/><br/>**Experience Platform**: [**쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> SQL을 사용하여 사용자 지정된 클릭스트림 데이터를 생성하여 AI/ML 모델을 보강합니다. |
-
