@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
+source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # 데이터 내보내기 사용 사례
 
-이 섹션에서는 데이터 내보내기 사용 사례를 제공합니다. 각 사용 사례는 해당 문서에 설명되어 있습니다. 일부 사용 사례의 경우 두 개 이상의 솔루션이 제공됩니다.
+이 섹션에서는 데이터 내보내기 사용 사례와 하나 이상의 Customer Journey Analytics 또는 Experience Platform 기능을 사용하여 이러한 사용 사례를 구현하는 방법을 제공합니다. 각 기능은 별도의 문서에 자세히 설명되어 있습니다.
 
 ## 소개
 
@@ -67,7 +67,7 @@ Customer Journey Analytics에서 Customer Journey Analytics은 순서대로 수�
    * 배달 문제에 대한 경고 및 예약된 배달 기간에 대한 제한을 설정합니다.
 
 
-## 사용 사례 및 솔루션
+## 사용 사례 및 기능
 
 일반적으로 데이터 내보내기는 여러 사용 사례를 지원합니다. 각 사용 사례는 필요한 데이터와 해당 데이터에 액세스하고 내보내는 방법에 따라 다릅니다. Experience Platform 및 Customer Journey Analytics은 독립적으로 또는 결합하여 다양한 사용 사례를 해결할 수 있는 다양한 기능을 제공합니다. 아래 표는 식별된 데이터 내보내기 사용 사례와 이러한 사용 사례를 구현하기 위한 Experience Platform 및 Customer Journey Analytics 기능에 대한 개요를 제공합니다.
 
