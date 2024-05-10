@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 98%
+source-wordcount: '2748'
+ht-degree: 97%
 
 ---
 
@@ -312,6 +312,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 `daterange` 필드를 사용하여 날짜/시간 함수에서 이벤트 날짜를 구문 분석하고 자를 수 있습니다.
 
 `daterangeName` 특수 열을 사용하면 `Last Quarter`와 같이 이름이 지정된 날짜 범위를 사용하여 쿼리를 필터링할 수 있습니다.
+
+>[!NOTE]
+>
+>PowerBI가 다음을 지원하지 않습니다. `daterange` 하루 미만의 지표(시간, 30분, 5분 등).
+
 
 #### 필터 ID
 
