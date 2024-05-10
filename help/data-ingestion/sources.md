@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 84%
+source-wordcount: '2041'
+ht-degree: 78%
 
 ---
 
@@ -173,37 +173,45 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
 로열티 데이터를 수신하는 위치에 따라 Adobe Experience Platform에서 사용 가능한 관련 소스 커넥터를 선택합니다.
 
+다양한 소스에서 데이터를 수집할 수 있습니다. 다음은 사용 가능한 여러 소스 중 일부에 불과합니다.
+
+- Adobe 애플리케이션(소스 커넥터: [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)등)
+
+- 클라우드 스토리지(소스 커넥터에는 다음이 포함됩니다. [Amazon](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)등)
+
+- 데이터베이스(소스 커넥터 포함) [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)등)
+
 소스 커넥터를 설정하는 경우:
 
-1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 연결] 의 **[!UICONTROL 소스]**&#x200B;를 선택합니다.
+1. Adobe Experience Platform에서 **[!UICONTROL 소스]** 출처: [!UICONTROL 연결] 왼쪽 레일에서.
 
-2. 사용 가능한 소스 커넥터 목록에서 소스 커넥터를 선택합니다. 각 커넥터는 유사한 워크플로를 따릅니다.
+1. 사용 가능한 소스 커넥터 목록에서 소스 커넥터를 선택합니다.
 
-   - **[!UICONTROL 인증]**. 데이터 소스에 액세스할 수 있는 인증 세부 사항을 제공합니다.
+   각 커넥터는 유사한 워크플로를 따릅니다.
 
-   - **[!UICONTROL 데이터 선택]**: 수집할 소스 데이터를 선택합니다.
+   1. **[!UICONTROL 인증]**. 데이터 소스에 액세스할 수 있는 인증 세부 사항을 제공합니다.
 
-   - **[!UICONTROL 데이터 흐름 세부 정보]**: 데이터 흐름에 대한 추가 세부 정보(예: 이름 및 사용할 데이터 세트)를 제공합니다.
+   1. **[!UICONTROL 데이터 선택]**: 수집할 소스 데이터를 선택합니다.
 
-   - **[!UICONTROL 매핑]**: 수신 소스 데이터 필드를 선택한 데이터 세트와 연결된 스키마의 속성에 매핑합니다.
+   1. **[!UICONTROL 데이터 흐름 세부 정보]**: 데이터 흐름에 대한 추가 세부 정보(예: 이름 및 사용할 데이터 세트)를 제공합니다.
 
-   - **[!UICONTROL 예약]**: 가능한 경우 데이터 수집을 예약할 수 있습니다.
+   1. **[!UICONTROL 매핑]**: 수신 소스 데이터 필드를 선택한 데이터 세트와 연결된 스키마의 속성에 매핑합니다.
 
-   - **[!UICONTROL 검토]**: 소스 커넥터 정의에 대한 검토가 표시됩니다.
+   1. **[!UICONTROL 예약]**: 가능한 경우 데이터 수집을 예약할 수 있습니다.
 
-   각 커넥터는 세부 설명서를 제공합니다.
+   1. **[!UICONTROL 검토]**: 소스 커넥터 정의에 대한 검토가 표시됩니다.
 
-   이 설명서에 액세스하려면 경우:
+1. 각 커넥터는 자세한 문서를 제공합니다. 이 설명서에 액세스하려면 경우:
 
-   - 커넥터 타일에서 [!UICONTROL 설정] 또는 [!UICONTROL 데이터 추가] 옆 **[!UICONTROL ...]**&#x200B;를 선택합니다.
+   1. 커넥터 타일에서 [!UICONTROL 설정] 또는 [!UICONTROL 데이터 추가] 옆 **[!UICONTROL ...]**&#x200B;를 선택합니다.
 
-     ![설명서 보기](./assets/sourceconnector-documentation.png)
+      ![설명서 보기](./assets/sourceconnector-documentation.png)
 
-   - **[!UICONTROL 설명서 보기]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 설명서 보기]**&#x200B;를 선택합니다.
 
-Adobe Analytics 소스 커넥터를 사용하는 방법은 [기존 Adobe Analytics의 데이터 수집 및 사용](./analytics.md)을 참조하십시오.
+다음을 참조하십시오 [기존 Adobe Analytics의 데이터 수집 및 사용](./analytics.md) Adobe Analytics 소스 커넥터 사용 방법에 대한 정보를 제공합니다.
 
-HTTP API 소스 커넥터를 사용하는 방법은 [스트리밍 데이터 수집 및 사용](./streaming.md)을 참조하십시오.
+다음을 참조하십시오 [스트리밍 데이터 수집 및 사용](./streaming.md) http API 소스 커넥터를 사용하는 방법에 대한 정보입니다.
 
 각 커넥터에 대한 추가 정보 링크를 포함하여 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)를 참조하십시오.
 

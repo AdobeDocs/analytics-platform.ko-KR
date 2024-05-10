@@ -2,9 +2,10 @@
 title: 차원 개요
 description: 차원의 의미와 Customer Journey Analytics에서 차원을 사용하는 방법을 알아봅니다
 feature: Dimensions
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 37%
 
 ---
@@ -29,7 +30,7 @@ Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫
 
 ## 차원 만들기
 
-Customer Journey Analytics 관리자는 [데이터 보기 내에서 숫자 기반 차원 만들기](/help/data-views/create-dataview.md#components).
+Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원 만들기](/help/data-views/create-dataview.md#components).
 
 ## 차원 설명 추가
 

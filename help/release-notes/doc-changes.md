@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ea3ea6ad387300e2efcafb8e49efcafdfc011ba9
+source-git-commit: 0014515b29885bf3eb44e8e49fc605fc76e4b439
 workflow-type: tm+mt
-source-wordcount: '3544'
-ht-degree: 71%
+source-wordcount: '3567'
+ht-degree: 70%
 
 ---
 
@@ -24,6 +24,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/components/date-ranges/custom-date-ranges.md) 를 사용하십시오. |
 | Dimension에 대한 개요 정보 | 에 대한 정보가 추가되었습니다. [치수](/help/components/dimensions/overview.md). |
+| 소스 커넥터의 예 | 방법을 설명할 때 사용할 수 있는 소스 커넥터의 예를 추가했습니다. [소스 커넥터 사용](/help/data-ingestion/sources.md#use-a-source-connector) 데이터 수집용. |
 | **2024년 4월** | |
 | 통계 기법 예측 | 을(를) 설명하는 문서가 추가되었습니다. [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 권장하는 정보가 추가되었습니다. | 에 글머리 기호 추가됨 [높은 카디널리티 차원에 대한 우수 사례](/help/components/dimensions/high-cardinality.md) 높은 카디널리티 차원에 대해 전체 테이블 내보내기를 사용하는 것이 좋습니다. |

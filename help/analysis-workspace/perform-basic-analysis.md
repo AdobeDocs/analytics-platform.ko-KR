@@ -5,16 +5,22 @@ feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 70%
 
 ---
 
 # 기본 분석 수행
 
-연결 및 데이터 보기를 만든 후 Analysis Workspace의 강력한 기능과 유연성을 사용하여 가져온 데이터를 분석합니다. 차원과 지표를 자유롭게 테스트하고 끌어오고, 차원과 지표 속성 설정, 친숙한 이름, 시간대, 세션 설정 등을 변경할 수 있습니다.
+Customer Journey Analytics을 사용하면 Analysis Workspace의 강력한 기능과 유연성을 사용하여 데이터를 분석할 수 있습니다.
+
+>[!TIP]
+>
+>Analysis Workspace에서 사용할 수 있는 데이터가 없는 경우 [데이터 수집 프로세스](/help/data-ingestion/data-ingestion.md): 다음 내용이 포함됩니다.<ul><li>[연결 만들기](/help/connections/create-connection.md#create-and-configure-the-connection) </br>새 데이터를 가져오거나, 데이터를 채우거나, 두 가지 모두를 가져오도록 연결을 구성해야 합니다.</li><li>[데이터 세트 추가](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[데이터 보기 만들기](/help/data-views/create-dataview.md)</li></ul>
+
+차원과 지표를 자유롭게 테스트하고 끌어오고, 차원과 지표 속성 설정, 친숙한 이름, 시간대, 세션 설정 등을 변경할 수 있습니다.
 
 다음은 Workspace의 기본 시각화 샘플입니다. 예를 들어 다음 작업을 수행할 수 있습니다.
 
