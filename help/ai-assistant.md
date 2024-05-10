@@ -3,13 +3,13 @@ description: Customer Journey Analytics 설명서에 대한 질문을 하는 방
 title: Adobe Customer Journey Analytics용 AI Assistant
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 4ffdb6f963386079ce2f09a8538d2bdf5c394588
+exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
+source-git-commit: 02a0ad53d8c3ef0c10e2b9c2b11bb75a6a962cf0
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Customer Journey Analytics용 AI Assistant
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Customer Journey Analytics AI Assistant for Beta는 현재 제공되고 있습니다. 기능 및 해당 설명서는 변경될 수 있습니다.
 
-AI Assistant는 Adobe Customer Journey Analytics 개념 및 용어를 탐색하고 이해하는 데 사용할 수 있는 UI 기능입니다. AI Assistant는 데이터베이스에 질의한 다음 데이터베이스의 데이터를 사람이 읽을 수 있는 답변으로 변환하여 제출된 질문에 응답합니다.
+AI Assistant는 Adobe Customer Journey Analytics 개념 및 용어를 탐색하고 이해하는 데 사용할 수 있는 UI 기능입니다. Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서에 대해 교육되었습니다. 질문을 받으면 빠른 학습이 가능한 유익한 답변으로 AI 비서가 응답한다.
 
 초보 사용자는 AI Assistant를 사용하여 Customer Journey Analytics 개념을 학습하고 익숙하지 않은 제품 및 기능을 온보딩할 수 있습니다. 숙련된 사용자는 AI Assistant를 사용하여 보다 고급 사용 사례나 팁 및 요령을 제시할 수 있습니다.
 
@@ -27,15 +27,13 @@ AI Assistant는 Adobe Customer Journey Analytics 개념 및 용어를 탐색하�
 * Customer Journey Analytics의 가장 좋은 용도는 무엇입니까?
 * 데이터 보기를 설정하려면 어떻게 합니까?
 
-현재 설명서 색인은 Customer Journey Analytics에 대한 Adobe Experience League 설명서를 다룹니다. 색인은 정기적으로 업데이트됩니다.
-
 설명서 검색 모델은 Customer Journey Analytics에 대해 교육합니다. Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
 
 Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->이때 Customer Journey Analytics의 AI Assistant는 조직 내 데이터 객체에 대한 사용 질문에 응답하지 않습니다.
+>Customer Journey Analytics 이때 AI Assistant for Analysis는 조직 내 데이터 객체에 대한 사용 질문에 답하지 않습니다.
 
 ## Customer Journey Analytics UI에서 AI 지원에 액세스
 
