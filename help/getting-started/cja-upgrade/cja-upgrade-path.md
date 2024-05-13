@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 6cceeaa3b57808a82012b124435aa1b7dbf1b3f2
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 
 조직의 최적 업그레이드 경로를 결정하려면 다음 섹션을 순차적으로 읽어야 합니다.
 
-1. 첫 번째, [사용 가능한 업그레이드 경로 이해](#understand-migration-methods).
+1. 첫 번째, [사용 가능한 업그레이드 경로 이해](#understand-upgrade-paths).
 
-1. 그런 다음, [사용 가능한 업그레이드 경로 평가](#assess-the-migration-methods-available-to-you-based-on-your-current-adobe-analytics-implementation).
+1. 그런 다음, [사용 가능한 업그레이드 경로 평가](#assess-the-upgrade-paths-available-to-you-based-on-your-current-adobe-analytics-implementation).
 
-1. 그리고 마지막으로 [각 업그레이드 경로의 장단점을 따져보십시오.](#weigh-the-advantages-and-disadvantages-of-the-migration-methods-available-to-you).
+1. 그리고 마지막으로 [각 업그레이드 경로의 장단점을 따져보십시오.](#weigh-the-advantages-and-disadvantages-of-the-upgrade-paths-available-to-you).
 
 ## 업그레이드 경로 이해
 
@@ -62,7 +62,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 |---------|----------|---------|
 | **Experience Platform 웹 SDK의 새로운 구현**</br> Experience Platform Web SDK의 새로운 구현을 통해 Customer Journey Analytics 사용을 시작할 수 있습니다. 이렇게 하면 Adobe Experience Platform Edge Network 및 Customer Journey Analytics으로 데이터 전송을 시작할 수 있습니다. <p>아직 Web SDK에 없는 조직의 경우, 이 업그레이드 경로는 가장 적은 수의 단계가 필요하므로 데이터를 Edge Network으로 가져오는 데 가장 간단할 수 있지만, 모든 작업(예: XDM 스키마 만들기)이 미리 수행되기 때문에 더 큰 초기 노력이 필요합니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>조직에 대한 XDM 스키마를 만듭니다.</li><li>웹 SDK를 구현합니다.</li><li>데이터를 플랫폼으로 전송합니다.</li></ol> | 높음 | 높음 |
 | **웹 SDK를 사용하도록 Adobe Analytics 구현 마이그레이션**</br> Adobe Analytics 구현이 AppMeasurement 또는 Analytics 확장 기능인 경우 Customer Journey Analytics으로 전송하기 전에 Adobe Experience Platform Web SDK를 사용하여 데이터를 Edge Network 및 Adobe Analytics으로 전송하기 시작하도록 마이그레이션할 수 있습니다.<p>아직 웹 SDK를 사용하지 않는 조직의 경우, 이렇게 하는 것이 데이터를 Edge Network으로 가져오는 가장 쉽고 원활한 방법입니다. 더 많은 단계가 필요하지만 보다 가시적인 이정표를 통해 Adobe Analytics에서 Customer Journey Analytics으로 보다 조직적으로 이전할 수 있습니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>기존 Adobe Analytics 구현을 Web SDK로 이동하고 모든 것이 Adobe Analytics에서 작동하는지 확인하십시오.</li><li>시간이 지남에 따라 조직에 대한 XDM 스키마를 만듭니다.</li><li>데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li><li>데이터를 플랫폼으로 전송합니다.</li></ol> | 중재 | 높음 |
-| **기존 Adobe Analytics 웹 SDK 구현 구성**</br> Adobe Analytics 구현에서 이미 Adobe Experience Platform Web SDK를 사용 중인 경우, 최소한의 노력으로 Customer Journey Analytics에 데이터 전송을 시작할 수 있습니다.<p>데이터를 Customer Journey Analytics으로 보내기 전에 조직 및 사용 중인 다른 Platform 애플리케이션의 특정 요구 사항에 맞게 Adobe Analytics 스키마를 업데이트하는 것이 좋습니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>Customer Journey Analytics으로 데이터 전송을 시작합니다.<!-- What's involved here? Just point it at CJA? --></li><li>(선택 사항) 시간이 있을 때 조직에 대한 XDM 스키마를 만듭니다.</li><li>(조건부) XDM 스키마를 생성한 경우, 데이터스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li></ol> | 낮음 | 높음 |
+| **기존 Adobe Analytics 웹 SDK 구현 구성**</br> Adobe Analytics 구현에서 이미 Adobe Experience Platform Web SDK를 사용하고 있는 경우 데이터 스트림을 설정하여 데이터를 플랫폼으로 전송할 수 있습니다. 또는 이미 데이터를 Platform으로 전송하는 경우 Platform 데이터 세트와 Customer Journey Analytics 간에 연결을 만들면 됩니다.<p>Customer Journey Analytics에서 사용하기 위해 데이터를 플랫폼으로 보내기 전에 조직 및 사용하는 다른 Platform 애플리케이션의 특정 요구 사항에 맞게 Adobe Analytics 스키마를 업데이트하는 것이 좋습니다.</p><p>기본 단계는 다음과 같습니다.</p><ol><li>Platform으로 데이터 전송을 시작합니다.<p>Adobe Analytics 구현으로 이미 데이터를 Platform에 전송하는 경우 이 단계는 필요하지 않습니다. 이 프로세스의 뒷부분에서 설명한 대로 플랫폼 데이터 세트와 Customer Journey Analytics 간에 연결을 만들면 됩니다.</p></li><li>(선택 사항) 시간이 있을 때 조직에 대한 XDM 스키마를 만듭니다.</li><li>(조건부) XDM 스키마를 생성한 경우, 데이터스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.</li></ol> | 낮음 | 높음 |
 | **Analytics 소스 커넥터 사용**</br> Adobe Analytics 구현이 AppMeasurement 또는 Analytics 확장 기능인 경우 Customer Journey Analytics의 데이터 보기로 데이터 전송을 시작할 수 있습니다.<p>이는 데이터를 Customer Journey Analytics에 가져오는 가장 쉬운 방법이지만 장기적으로 가장 실행 가능성이 낮은 방법입니다.</p> | 낮음 | 낮음 |
 
 {style="table-layout:auto"}
