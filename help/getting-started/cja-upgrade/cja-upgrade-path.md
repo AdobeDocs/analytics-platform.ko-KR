@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 6cceeaa3b57808a82012b124435aa1b7dbf1b3f2
+source-git-commit: f1e1fdd5ca8aa51a28de13cdb028bf585a0324e7
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2475'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 |---------|----------|
 | AppMeasurement | <ul><li>Experience Platform 웹 SDK의 새로운 구현</li><li>웹 SDK로 Adobe Analytics 마이그레이션</li><li>Analytics 소스 커넥터</li></ul> |
 | Adobe Analytics 확장 | <ul><li>Experience Platform 웹 SDK의 새로운 구현</li><li>웹 SDK로 Adobe Analytics 마이그레이션</li><li>Analytics 소스 커넥터</li></ul> |
-| Web SDK | <ul><li>Adobe Analytics Web SDK 구현을 구성하여 Customer Journey Analytics에 데이터 보내기</li></ul> |
+| Web SDK | <ul><li>Platform으로 데이터를 전송하도록 Adobe Analytics Web SDK 구현 구성</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -137,7 +137,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 
 #### 업그레이드 경로
 
-+++Adobe Analytics Web SDK 구현을 구성하여 Customer Journey Analytics에 데이터 보내기
++++Platform으로 데이터를 전송하도록 Adobe Analytics Web SDK 구현 구성
 
 | 장점 | 단점 |
 |----------|---------|
@@ -149,7 +149,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 
 #### 스키마 선택
 
-데이터를 Customer Journey Analytics으로 보내도록 Adobe Analytics Web SDK 구현을 구성할 수 있는 업그레이드 경로를 선택한 경우 사용할 스키마를 선택할 수 있습니다.
+데이터를 플랫폼으로 전송하도록 Adobe Analytics Web SDK 구현을 구성할 수 있는 업그레이드 경로를 선택한 경우 사용할 스키마를 선택할 수 있습니다.
 
 기존 Adobe Analytics 스키마를 사용할지 또는 자체 XDM 스키마로 업데이트하여 다른 Platform 서비스를 사용하기 시작할 때 조직의 요구 사항에 보다 잘 부합하도록 선택할 수 있습니다.
 
@@ -165,7 +165,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><p>고유한 XDM 스키마로 업데이트하는 장점에는 다음이 포함됩니다.</p><ul><li>조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마.</li><p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.</p></ul> | <p>자체 XDM 스키마로 업데이트할 때의 단점은 다음과 같습니다.</p><ul><li>스키마를 업데이트하는 것은 Customer Journey Analytics으로 데이터를 보내기 전에 필요한 시간이 많이 걸리는 프로세스입니다.</li></ul> |
+| <ul><p>고유한 XDM 스키마로 업데이트하는 장점에는 다음이 포함됩니다.</p><ul><li>조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마.</li><p>스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.</p></ul> | <p>자체 XDM 스키마로 업데이트할 때의 단점은 다음과 같습니다.</p><ul><li>스키마를 업데이트하는 것은 플랫폼으로 데이터를 보내기 전에 필요한 시간이 오래 걸리는 프로세스입니다.</li></ul> |
 
 +++
 
