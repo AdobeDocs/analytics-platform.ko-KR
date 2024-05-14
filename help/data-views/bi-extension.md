@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 77a2975d5f23516acb925c5cf90a2fbde7fbf3e2
+source-git-commit: 87661e0000d050652d9510bb4830ca6f30bfeae9
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2747'
 ht-degree: 97%
 
 ---
@@ -311,7 +311,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 >[!NOTE]
 >
->PowerBI가 다음을 지원하지 않습니다. `daterange` 하루 미만의 지표(시간, 30분, 5분 등).
+>PowerBI가 지원되지 않음 `daterange` 하루 미만의 지표(시간, 30분, 5분 등).
 
 
 #### 필터 ID
