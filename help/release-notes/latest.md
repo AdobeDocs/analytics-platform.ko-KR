@@ -3,48 +3,43 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 36badebf0710131b2f831feb645f20d8dd888b9b
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 44%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보(2024년 4월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 5월)
 
-**마지막 업데이트**: 2024년 4월 17일
+**마지막 업데이트**: 2024년 5월 9일 금요일
 
-이번 릴리스 정보에는 2024년 4월 10일부터 2024년 5월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2024년 5월 15일부터 2024년 6월의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **스트리밍 미디어: Roku 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 [Experience Platform Edge를 사용하여 Media Analytics를 설치](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)할 때 Adobe Experience Platform Roku SDK를 사용하여 스트리밍 미디어 데이터를 Adobe Experience Platform으로 보낼 수 있습니다. |  | 2024년 4월 12일 |
-| **보고 활동 관리자에 월별 보고서가 노출됨** | 보고 활동 관리자에서 모든 연결에 대한 보고 활동을 볼 때 이제 IMS 조직 수준에서 실행된 [월별 보고서/요청](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites)을 보여 주는 그래프(이번 달 및 이전 달)를 사용할 수 있습니다.<p>**참고:** 데이터는 2024년 3월 중순부터 제공됩니다. | | 2024년 4월 15일 |
-| **모바일 스코어카드의 지능형 캡션** | [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)은 비분석가가 분석가의 도움 없이도 데이터를 더 잘 이해할 수 있도록 도와줍니다. 이제 Customer Journey Analytics 스코어카드에서 사용할 수 있습니다. |  | 2024년 4월 17일 |
-| **프로젝트 전용 [!UICONTROL Workspace] 구성 요소의 권한 강화** | 이전에는 한 사용자(사용자 A)가 다른 사용자(사용자 B)와 프로젝트를 공유하는데 사용자 B에게 프로젝트에 대한 편집 액세스 권한을 부여한 경우, 사용자 B가 프로젝트를 편집할 수 있었습니다. 그러나 사용자 B는 프로젝트에 임베드된 [!UICONTROL 빠른 필터]를 편집할 수 없었습니다. 이제 이러한 제한이 제거되었습니다. 사용자 B는 [빠른 필터](/help/components/filters/quick-filters.md) 및 공유 프로젝트에 임베드된 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다. |  | 2024년 4월 17일 |
-| **관리자가 조직의 모든 위치 관리 가능** | [위치](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 페이지의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다. 이전에는 관리자가 자신이 만든 위치만 보고 관리할 수 있었습니다. |  | 2024년 4월 |
-| **Adobe Product Analytics: 기능 매트릭스** | 핵심, 성능, 일회성 및 의심스러운 기능에 대해 알아보고 투자 결정을 촉진합니다. [!UICONTROL 기능 매트릭스]는 사용 빈도와 활성 사용자 비율(%)을 기준으로 이벤트를 측정하고 평균 사용량과 비교합니다. | 2024년 4월 17일 | 2024년 4월 30일 |
-| **Adobe Product Analytics: 단계 Insights 향상** | [마찰](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기에서는 차트와 표에 대한 이해를 돕기 위해 카테고리, 델타, 설명이 포함되도록 서면 인사이트가 향상되었습니다. | 2024년 4월 17일 | 2024년 4월 26일 |
-| **Adobe Product Analytics: 보존 보기 향상** | 보다 자세한 맞춤형 유지 인사이트를 위해 몇 가지 기능이 [보존](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)율 보기에 추가됨:<ul><li>시작 및 반환 이벤트 연결 해제</li><li>단일 보기에서 여러 반환 이벤트 비교</li><li>이후(제한 없음), 각각(제한 있음) 및 대괄호로 구분된 설정을 사용하여 적용된 보존 모델을 사용자 정의</li><li>차트에서 개별 집단 행 표시 및 숨기기</li></ul> | 2024년 4월 24일 | 2024년 5월 8일 |
-| **Adobe Product Analytics: 단일 이동 단계 내에서 이벤트 비교** | 이제 [마찰](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction) 보기의 단일 단계에서 이벤트를 비교할 수 있습니다. 이는 여정에 단계 옵션이 있거나 A/B 실험이 실행되는 단계가 있는 경우 특히 유용합니다. | 2024년 4월 23일 | 2024년 5월 3일 |
-| **개인에서 계정으로의 B2B 스키마 변환** | Customer Journey Analytics B2B 보고 시나리오에서 개인 기반 조회를 더 효과적으로 지원하도록 데이터 세트를 변환할 수 있습니다. 이 기능은 다음 클래스를 기반으로 하는 B2B 스키마용 데이터 세트에 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul> | | 2024년 5월 1일 |
-| **Experience Edge 봇 탐지** | [봇 탐지](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ko-KR) 기능을 사용하면 Web SDK, Mobile SDK 및 Server API에서 생성된 이벤트가 알려진 스파이더 및 봇에 의해 생성된 것으로 식별할 수 있습니다. | | 2024년 5월 1일 |
-| **파생 필드: 다음 또는 이전 기능** | 이러한 새 기능을 통해 필드를 입력으로 사용하고 n-이전 또는 n-다음 값을 식별하여 사용자 여정을 제대로 확인할 수 있습니다. 이 기능은 [!UICONTROL 연결]과 같은 [!UICONTROL 파생 필드]의 다른 기능과 결합되어 새로운 차원을 생성할 수도 있습니다. |  | 2024년 5월 1일 |
-| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> |  | 2024년 5월 |
+| **BI 확장** | BI 확장을 사용하면 Customer Journey Analytics에서 정의한 데이터 보기에 SQL로 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension) | | 2024년 5월 15일 목요일 |
+| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish) |  | 2024년 5월 15일 목요일 |
+| **Customer Journey Analytics을 위한 AI 지원** | Customer Journey Analytics UI에서 자연어 질문을 하고 Customer Journey Analytics 설명서에 따라 답변을 얻을 수 있습니다. (참조할 설명서 링크) | | 2024년 5월 30일 금요일 |
+| **Streaming Media: 웹 SDK를 사용하여 Adobe Experience Platform Edge Network으로 웹 데이터 전송** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network으로 전송할 수 있으므로 보다 개인화된 캠페인을 작성하고 보다 개인화된 콘텐츠를 제공하여 보고할 더 많은 추적 데이터를 얻을 수 있습니다.<p>이러한 향상된 기능은 Customer Journey Analytics, RT-CDP, AJO 및 이벤트 전달과 같은 모든 플랫폼 솔루션에서 웹 구현을 위한 통합 수집 방법을 제공합니다. 이전에는 스트리밍 미디어 웹 데이터를 Edge Network으로 전송하는 유일한 방법이 Media Edge API를 사용하는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024년 5월 31일 |
+| **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 수행하여 사용자에 대한 질문에 답변할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. (참조할 설명서 링크) | | 2024년 6월 5일 목요일 |
+| **파생 필드 - 다음 또는 이전 함수** | 다음 또는 이전 값이 무엇인지 살펴볼 수 있습니다. 예를 들어 선택한 마케팅 채널 전에 어떤 이전 마케팅 채널과 상호 작용했습니까? 또는 페이지 사용자가 선택한 페이지의 이전 또는 이후에 상호 작용한 것은 무엇입니까? 매장 가기 전에 가장 인기 있는 채널 사용자는 누구와 상호 작용합니까?  (참조할 설명서 링크) | | 2024년 6월 12일 목요일 |
+| **Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서** | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다. 이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.<ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li></ul>[Customer Journey Analytics으로 업그레이드 시작](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 현재 사용 가능 |
+| **에 대한 새로운 설명서 [데이터 내보내기 사용 사례](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/overview)** | 이 새로운 섹션에서는 다음과 같은 데이터 내보내기 사용 사례를 간략하게 설명합니다.<ul><li>데이터 백업</li><li>데이터 유효성 검사</li><li>Data Lake, Data Warehouse 또는 BI 도구</li><li>AI/ML 준비</li></ul> Experience Platform 및 Customer Journey Analytics 기능을 사용하여 구현하는 방법도 알아봅니다. | | 현재 사용 가능 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-319662, AN-337894, AN-338469, AN-340147, AN-340200, AN-340443, AN-341594, AN-342442, AN-342976, AN-343020, AN-343469, AN-343703, AN-343938, AN-344614, AN-344677
+AN-342309; AN-342312; AN-345267; AN-345909; AN-346016; AN-346049; AN-346052; AN-346287; AN-346624; AN-347919
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
 | 공지 | 공지 추가 또는 업데이트됨 | 설명 |
 | --- | --- | --- |
-| **데이터 보기 및 연결 UI의 링크 업데이트됨** | 2월 15일 | 3월 초에 Adobe는 Customer Journey Analytics 제품 사용자 인터페이스에서 다음 링크를 업데이트할 계획입니다. 이에 따라 책갈피를 업데이트하십시오.<ul><li>**데이터 보기 페이지, 데이터 보기 관리자**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/manager) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/data-views)</li><li>**새 데이터 보기 만들기**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/new) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/data-views/new)</li><li>**데이터 보기 편집**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/edit/dv_65b9f6eba2c6554743236e88) > [새 링크](https://experience.adobe.com/#/@aresemeavalidationco/platform/analytics/#/apps/data-management/data-views/dv_62fde2e158324f2803c9e5d6/edit)</li><li>**연결 관리자**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/manager) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections)</li><li>**연결 정보**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/view/dg_66749c92-784b-45bb-b114-e9e8377a2fc1) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/dg_a2b297a6-9220-440d-a403-ee8fbf627cd8)</li><li>**연결 편집**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/edit/dg_66749c92-784b-45bb-b114-e9e8377a2fc1) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/dg_a2b297a6-9220-440d-a403-ee8fbf627cd8/edit)</li><li>**새 연결 만들기**: [기존 링크](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/new) > [새 링크](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/new/edit)</li></ul> |
+| 해당 사항 없음 | | |
 
 {style="table-layout:auto"}
 
