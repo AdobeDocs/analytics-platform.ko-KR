@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: c3293e2ce93113dd22157bb6470a780b20813d80
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 8%
+source-wordcount: '1632'
+ht-degree: 7%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 8%
 | 대상 새로 고침 빈도 | 4 | 시스템 강제 보호 | 최대 빈도(시간) 및 [대상자](../components/audiences/audiences-overview.md) 를 새로 고칠 수 있습니다. |
 | 대상자 새로 고침 전환 확인 기간 | 90 | 시스템 강제 보호 | 전환 확인 기간 새로 고침의 최대 일 수. |
 | 대상자 만료일 새로 고침 | 13 | 시스템 강제 보호 | 대상자가 생성된 날짜부터 새로 고침이 중단되는 최대 기간(월)입니다. 고객은 이 기간을 13개월 더 연장할 수 있습니다. |
-| 새로 고치는 대상 수 | 75,100 | 시스템 강제 보호 | 새로 고치는 최대 대상 수, 값은 패키지에 따라 다릅니다(제품 설명 참조). |
+| 새로 고치는 대상 수 | 75,150 | 시스템 강제 보호 | 새로 고치는 최대 대상 수, 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ Experience Platform 참조 [Real-time Customer Data Platform 가드 레일](http
 | 주석 설명 | 250 | 시스템 강제 보호 | 주석 설명의 최대 문자 수. |
 | 스키마 필드 | 10 | 시스템 강제 보호 | 에 대한 규칙을 정의할 때 사용할 수 있는 최대 스키마 필드 수(표준 필드 제외) [파생 필드](../data-views/derived-fields/derived-fields.md). |
 | 조회/프로필 필드 | 3 | 시스템 강제 보호 | 파생된 필드에 대한 규칙을 정의할 때 최대 스키마 필드 수 내의 최대 조회 또는 프로필 스키마 필드 수(표준 필드 제외). |
-| 파생 필드 | 100 | 시스템 강제 보호 | 연결당 최대 파생 필드 수. |
+| 파생 필드 | 100 - 500 | 시스템 강제 보호 | 연결당 파생된 최대 필드 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Experience Platform 참조 [데이터 수집 보호](https://experienceleague.ad
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 데이터 내보내기 | 인증된 총 데이터 레이크 스토리지 | 성능 보호 | 고객은 대상 데이터 세트 내보내기 를 사용하여 데이터 레이크에서 인증된 총 데이터 레이크 저장소까지 고객 데이터를 내보낼 수 있습니다. |
-| 사용 가능한 데이터 세트 | 프로필 및 이벤트 | 시스템 강제 보호 | 소스, Web SDK, Mobile SDK, Analytics Data Connector 및 Audience Manager을 통해 데이터를 수집하거나 수집한 후 Experience Platform UI에서 생성된 프로필 및 경험 이벤트 데이터 세트입니다. |
+| 사용 가능한 데이터 세트 | 프로필 및 이벤트 | 시스템 강제 보호 | 소스, Web SDK, Mobile SDK, Analytics Data Connector 및 Audience Manager을 통해 데이터를 수집하거나 수집한 후 Experience Platform UI에서 생성된 이벤트, 프로필 또는 조회 데이터 세트입니다. |
 
 {style="table-layout:auto"}
 
@@ -155,8 +155,8 @@ Experience Platform 참조 [데이터 세트 내보내기 보호](https://experi
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
-| 결합된 데이터 세트 | 10 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수, 값은 해당 Customer Journey Analytics 패키지에 따라 다릅니다(해당 제품 설명 참조). |
-| 데이터 채우기 | 60 | 시스템 강제 보호 | 데이터 채우기의 최대 일 수. |
+| 결합된 데이터 세트 | 5 - 50 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 데이터 채우기 | 60 - 395 | 시스템 강제 보호 | 최대 데이터 채우기 일수. 값은 Customer Journey Analytics 패키지에 따라 달라집니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Experience Platform 참조 [데이터 세트 내보내기 보호](https://experi
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
-| 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수. 값은 해당 Customer Journey Analytics 패키지에 따라 달라집니다(해당 제품 설명 참조). |
+| 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수. 값은 Customer Journey Analytics 패키지에 따라 달라집니다(제품 설명 참조). |
 | 테이블당 분류 | 5 | 시스템 강제 보호 | 테이블당 최대 분류 수. |
 | 테이블당 지표 | 5 | 시스템 강제 보호 | 테이블당 최대 지표 수. |
 | 일정 빈도 | 1 | 시스템 강제 보호 | 내보내기는 하루에 한 번 또는 더 긴 일정으로 예약할 수 있습니다(예: 2일에 한 번 또는 매주). |
@@ -229,6 +229,6 @@ Experience Platform 참조 [데이터 세트 내보내기 보호](https://experi
 | 결합(옵션 기능, 참조 [결합 개요](../stitching/overview.md) 추가 정보) | &lt; 3.25시간 |
 | 100억 개 미만의 이벤트(최대 13개월의 내역 데이터) Adobe Analytics 소스 커넥터 채우기 | &lt; 4주 |
 | 실시간 고객 프로필에 게시하는 대상(스트리밍 세그먼트의 자동 생성 및 세그먼트의 데이터 수신 준비 허용 포함). | ≈분 |
-| 대상의 빈도 새로 고침 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. (지연 시간은 새로 고침 빈도와 병행됩니다.) |
+| 대상의 새로 고침 빈도 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. (지연 시간은 새로 고침 빈도와 병행됩니다.) |
 
 {style="table-layout:auto"}
