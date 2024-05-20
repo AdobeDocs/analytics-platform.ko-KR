@@ -4,12 +4,15 @@ title: Adobe Customer Journey Analytics용 AI Assistant
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 49f2c393bbd0bff28dd8bc166b3c60bc49d4df37
+hide: true
+hidefromtoc: true
+source-git-commit: d993f46821e6236f4536fea953585219ec8096b5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Customer Journey Analytics용 AI Assistant
 
@@ -41,7 +44,7 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 
 * **솔루션 액세스**: AI Assistant는 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서는 사용할 수 없습니다. Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP 및 추가 Experience Platform 앱에서도 사용할 수 있습니다.
 
-* **계약 액세스**: Adobe 판매 계약에는 Adobe이 AI/ML 모델 개발에 데이터를 사용할 수 있는 조항(조항 6.2)이 포함되어야 합니다.
+* **계약 액세스**: Adobe 판매 계약에는 Adobe이 AI/ML 모델 개발에 데이터를 사용할 수 있는 조항 6.2가 포함되어야 합니다.
 
 * **권한**: [!UICONTROL Adobe Admin Console] [!UICONTROL 보고 도구] &quot;AI Assistant Documentation&quot; 권한은 이 도구에 대한 액세스를 결정합니다. 이 권한은 5월 중순에 보고 도구 섹션에 추가됩니다. 다음을 생성했는지 확인해야 합니다 [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 이 권한이 부여된 Admin Console에서 사용자를 수동으로 이 프로필에 추가합니다.
 
