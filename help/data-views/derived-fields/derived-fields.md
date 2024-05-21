@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
 workflow-type: tm+mt
-source-wordcount: '5932'
-ht-degree: 13%
+source-wordcount: '5986'
+ht-degree: 12%
 
 ---
 
@@ -255,7 +255,7 @@ ht-degree: 13%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -415,7 +415,7 @@ ht-degree: 13%
 
 ## 추가 정보
 
-Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
+Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
 Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -445,13 +445,13 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 >[!NOTE]
 >
->이 함수의 이름은 원래 Lookup이지만 다른 기능을 가진 향후 조회 함수를 수용하기 위해 Classify로 이름이 변경되었습니다.
+>이 함수의 이름은 원래 Lookup이지만 다른 기능을 사용하는 Lookup 함수를 수용하도록 이름이 Classify로 변경되었습니다.
 
 ## 사양 {#classify-io}
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수<br/>함수당 100개 행</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <ul><li>파생 필드당 5개 함수</li><li>20 [연산자](#operators) 파생 필드별로. 의 모든 항목 [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기] 은 작업으로 간주됩니다.</li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1307,6 +1307,12 @@ Case When 함수 내에 있는 If 또는 Else If 구문의 연산자는 **1** �
 예를 들어 아래 조건은 13개의 연산자를 사용합니다.
 
 ![샘플 연산자](assets/operators-sample.png)
+
+Classify 함수의 연산자는 [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기].
+
+예를 들어 아래의 분류 규칙은 3개의 연산자를 사용합니다.
+
+![분류 규칙 1의 스크린샷](assets/classify-1.png)
 
 
 ## 추가 정보
