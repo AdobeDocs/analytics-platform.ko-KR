@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
+source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
 workflow-type: tm+mt
-source-wordcount: '5986'
+source-wordcount: '5987'
 ht-degree: 12%
 
 ---
@@ -1287,7 +1287,7 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 | 함수 | 제한 사항 |
 |---|---|
 | <p>다음과 같은 경우</p> | <ul><li>파생 필드당 함수 수가 5개인 경우</li><li>20 [연산자](#operators) 파생 필드당</li></ul> |
-| <p>분류</p> | <ul><li>5 파생 필드당 함수 분류</li><li>함수당 100개 행</li></ul> |
+| <p>분류</p> | <ul><li>5 파생 필드당 함수 분류</li><li>20 [연산자](#operators) 파생 필드당</li></ul> |
 | <p>연결</p> | <ul><li>2 파생 필드당 함수 연결</li></ul> |
 | <p>찾기 및 바꾸기</p> | <ul><li>2 파생 필드당 함수 찾기 및 바꾸기</li></ul> |
 | <p>조회</p> | <ul><li>파생 필드당 5개의 조회 함수</li></ul> |
