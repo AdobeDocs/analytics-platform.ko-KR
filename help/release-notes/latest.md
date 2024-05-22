@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7619818cafec3891379099c31fe46dd803b378c7
+source-git-commit: cb3fa165901f9df658709e5118d2cc2d7367d9de
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 89%
+source-wordcount: '714'
+ht-degree: 78%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 89%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **BI 확장 기능** | BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/bi-extension) | | 2024년 5월 15일 |
-| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> [자세히 알아보기(따라가기)] |  | 2024년 5월 말~6월 초 |
-| **Customer Journey Analytics용 AI 어시스턴트** | Customer Journey Analytics UI에서 자연어 질문을 하고 Customer Journey Analytics 문서를 기반으로 답변을 얻을 수 있습니다. (참조할 설명서 링크) | | 2024년 5월 30일 |
-| **스트리밍 미디어: Web SDK를 통해 웹 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network로 보낼 수 있으며, 이에 따라 더욱 개인화된 캠페인을 구축하고 더욱 개인화된 콘텐츠를 제공할 수 있어 보고할 추적 데이터가 더 많아집니다.<p>이 개선 사항으로 Customer Journey Analytics, RT-CDP, AJO, 이벤트 전달 등 모든 플랫폼 솔루션 전반에 걸쳐 웹 구현을 위한 통합 수집 방법이 확보됩니다. 이전까지 스트리밍 미디어 웹 데이터를 Edge Network로 보내는 유일한 방법은 Media Edge API를 사용하는 것이었습니다. [자세히 알아보기(따라가기)] | | 2024년 5월 31일 |
-| **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 사용하여 사용자에 대한 질문에 답할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. (참조할 설명서 링크) | | 2024년 6월 5일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 사용할 수 있습니다 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). </p> | 2024년 6월 | 2024년 6월 |
+| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> <p>(참조할 설명서 링크가 업데이트되었습니다.)</p> |  | 2024년 5월 말~6월 초 |
+| **Customer Journey Analytics용 AI 어시스턴트** | Customer Journey Analytics UI에서 자연어 질문을 하고 Customer Journey Analytics 설명서에 따라 답변을 얻을 수 있습니다. <p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | | 2024년 5월 30일 |
+| **스트리밍 미디어: Web SDK를 통해 웹 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network로 보낼 수 있으며, 이에 따라 더욱 개인화된 캠페인을 구축하고 더욱 개인화된 콘텐츠를 제공할 수 있어 보고할 추적 데이터가 더 많아집니다.<p>이 개선 사항으로 Customer Journey Analytics, RT-CDP, AJO, 이벤트 전달 등 모든 플랫폼 솔루션 전반에 걸쳐 웹 구현을 위한 통합 수집 방법이 확보됩니다. 이전에는 스트리밍 미디어 웹 데이터를 Edge Network으로 전송하는 유일한 방법이 Media Edge API를 사용하는 것이었습니다. <p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | | 2024년 5월 31일 |
+| **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 사용하여 사용자에 대한 질문에 답할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. <p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | | 2024년 6월 5일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 클라우드 내보내기 계정을 구성하고 클라우드 내보내기 위치를 구성할 때 사용할 수 있습니다.</p> <p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | 2024년 6월 | 2024년 6월 |
 | **Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다. 이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.<ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li></ul>[Customer Journey Analytics로 업그레이드 시작하기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 지금 사용 가능 |
 | **[데이터 내보내기 사용 사례](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/overview)에 대한 새 설명서** | 이 새로운 섹션에서는 다음과 같은 데이터 내보내기 사용 사례를 간략하게 설명합니다.<ul><li>데이터 백업</li><li>데이터 유효성 검사</li><li>데이터 레이크, 데이터 웨어하우스 또는 BI 도구</li><li>AI/ML에 대한 준비</li></ul> Experience Platform 및 Customer Journey Analytics 기능을 사용하여 이를 구현하는 방법 | | 지금 사용 가능 |
 
