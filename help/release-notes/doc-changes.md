@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
 workflow-type: tm+mt
-source-wordcount: '3590'
-ht-degree: 74%
+source-wordcount: '3650'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 5월** | |
+| 조직 정책 제한을 사용하는 동안 Google Cloud Platform으로 Customer Journey Analytics 보고서를 내보낼 때 필요한 정보입니다 | Adobe 소유의 Google Cloud Platform 조직 ID를에 추가했습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md) Google Cloud Platform으로 Customer Journey Analytics 보고서를 내보내기 위한 설명서. <p>이 정보는 을 사용하는 조직에만 필요합니다. [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) Google Cloud Platform.</p> |
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | 다음 방법에 대한 일반 정보가 추가되었습니다. [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소 추가](/help/components/use-components-in-workspace.md). |
 | 데이터 내보내기 사용 사례 | 을 설명하는 새 문서 세트 [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md) Experience Platform 및 Customer Journey Analytics 기능을 사용하여 이러한 사용 사례를 구현하는 방법 |
 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)하십시오.</p> |
