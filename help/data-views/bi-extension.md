@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 87661e0000d050652d9510bb4830ca6f30bfeae9
+source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 97%
+source-wordcount: '2770'
+ht-degree: 96%
 
 ---
 
@@ -184,7 +184,7 @@ Adobe Experience Platform:
 
 ## 기능
 
-기본적으로 데이터 보기에는 친숙한 이름에서 생성된 테이블 보안 이름이 있습니다. 예를 들어 [!UICONTROL 내 웹 데이터 보기]라는 데이터 보기의 보기 이름은 `my_web_data_view`입니다.
+기본적으로 데이터 보기에는 친숙한 이름에서 생성된 테이블 보안 이름이 있습니다. (예: 이름이 인 데이터 보기) [!UICONTROL 내 웹 데이터 보기] 보기 이름 있음 `my_web_data_view`. 데이터 보기를 위해 BI 도구에서 사용할 기본 이름을 정의할 수 있습니다. 다음을 참조하십시오 [데이터 보기 설정](create-dataview.md#settings) 추가 정보.
 
 데이터 보기 ID를 테이블 이름으로 사용하려면 연결할 때 데이터베이스 이름에 옵션인 `CJA_USE_IDS` 설정을 추가할 수 있습니다. 예를 들어 `prod:cja?CJA_USE_IDS`에는 `dv_ABC123`과 같은 데이터 보기가 표시됩니다.
 
