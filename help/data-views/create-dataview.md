@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
+source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 97%
@@ -45,7 +45,7 @@ ht-degree: 97%
 | --- | --- |
 | [!UICONTROL 연결] | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
 | [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운 목록에 이 값이 표시됩니다. |
-| 외부 ID | 필수 여부. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 입니다 `unspecified`. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백을 밑줄로 바꿉니다. |
+| [!UICONTROL 외부 ID] | 필수 여부. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 입니다 `unspecified`. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백을 밑줄로 바꿉니다. |
 | [!UICONTROL 설명] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
 
 {style="table-layout:auto"}
