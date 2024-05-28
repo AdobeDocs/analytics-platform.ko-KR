@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
+source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
 workflow-type: tm+mt
-source-wordcount: '2996'
+source-wordcount: '2995'
 ht-degree: 14%
 
 ---
@@ -208,7 +208,7 @@ ht-degree: 14%
 
 다음 항목 선택 **[!UICONTROL 사용]** 인터페이스에 액세스하려면 탭으로 이동하십시오.
 
-사용량을 보고하려면:
+### 사용 보고서
 
 1. 선택 **[!UICONTROL 시간 범위]**. 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL 지난 6개월]**, **[!UICONTROL 현재까지]**, 또는 **[!UICONTROL 지난 2년]**.
 1. 선택 **[!UICONTROL 간격]**. 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL 월별]** 또는 **[!UICONTROL 분기별]**.
