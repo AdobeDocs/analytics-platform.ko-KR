@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 | --- | --- |
 | [!UICONTROL 연결] | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
 | [!UICONTROL 이름] | 필수 여부. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운 목록에 이 값이 표시됩니다. |
-| [!UICONTROL 외부 ID] | 필수 여부. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 입니다 `unspecified`. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백을 밑줄로 바꿉니다. |
+| [!UICONTROL 외부 ID] | 필수 여부. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 `unspecified`입니다. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백은 밑줄로 대체됩니다. |
 | [!UICONTROL 설명] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
 
 {style="table-layout:auto"}
@@ -93,7 +93,7 @@ ht-degree: 97%
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 검색 스키마 필드]**&#x200B;를 사용하여 스키마 필드를 검색하거나 ![폴더 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
 1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**과 같은 해당 필드를 드래그합니다.
-동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 끌어오고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 서로 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 “제품 페이지”라는 차원과 “오류 페이지”라는 차원을 생성할 수 있습니다.
+동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 서로 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 “제품 페이지”라는 차원과 “오류 페이지”라는 차원을 생성할 수 있습니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 일반 섹션으로 자동으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 위치에 모든 스키마 필드가 추가됩니다.
 
 1. 한 가지 구성 요소를 선택하면 오른쪽에 설정이 나타납니다.
@@ -138,7 +138,7 @@ ht-degree: 97%
 
 ### 설정(필터)
 
-전체 데이터 보기에 적용되는 필터를 추가할 수 있습니다. 이 필터는 작업 영역에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 [!UICONTROL 필터 추가] 필드로 필터를 끌어옵니다.
+전체 데이터 보기에 적용되는 필터를 추가할 수 있습니다. 이 필터는 작업 영역에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 [!UICONTROL 필터 추가] 필드로 필터를 드래그합니다.
 
 ### 세션 설정
 
