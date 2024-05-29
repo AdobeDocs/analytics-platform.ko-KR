@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
-workflow-type: ht
-source-wordcount: '2141'
-ht-degree: 100%
+source-git-commit: e767639d1e6276e4f9a52ce3f1bdb53b7c42ac04
+workflow-type: tm+mt
+source-wordcount: '2135'
+ht-degree: 99%
 
 ---
 
@@ -56,6 +56,7 @@ ht-degree: 100%
 
 | 기능 | 참고 |
 | --- | --- |
+| Analytics for Target (A4T) | 다음 [Adobe Customer Journey Analytics과 Target 간의 통합](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) 은 최적화 프로그램에 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | 대상자 게시 | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
@@ -76,7 +77,7 @@ ht-degree: 100%
 | Products 변수 | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 오브젝트 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. Customer Journey Analytics 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
 | 프로젝트 공유 | 프로젝트 공유는 Customer Journey Analytics 사용자 사이에서만 지원됩니다. Customer Journey Analytics와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
 | Report Builder | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
-| 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
+| 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 Workspace 시각화가 지원됩니다. |
 | 크로스 디바이스/크로스 채널 결합 | ID 정보를 직접 포함하는 데이터 세트에 대해 지원됩니다(“필드 기반” 스티칭이라고도 함). 그래프 기반 스티칭은 아직 지원되지 않지만 향후 지원될 예정입니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 
@@ -87,7 +88,6 @@ ht-degree: 100%
 | 기능 | 참고 |
 | --- | --- |
 | 패널 | 빈 패널, 기여도 분석 패널, 자유 형식 패널 및 빠른 인사이트가 완벽하게 지원됩니다. 세그먼트 비교 및 A4T(Analytics for Target) 패널은 지원되지 않습니다. |
-| Analytics for Target (A4T) | 현재 Beta 버전입니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)의 필드를 통해 부분적인 지원이 제공됩니다. 대상 활동 및 경험에 대한 A4T에 친숙한 이름 지원이 계획되어 있습니다. |
 
 {style="table-layout:auto"}
 
