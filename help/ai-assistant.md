@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: b21dba5b7bef0d9add116f1e9bca0403e9a8c1d5
+source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 0%
 >
 >Customer Journey Analytics AI Assistant for Beta는 현재 제공되고 있습니다. 기능 및 해당 설명서는 변경될 수 있습니다.
 
-AI Assistant는 Adobe Customer Journey Analytics 개념 및 용어를 탐색하고 이해하는 데 사용할 수 있는 UI 기능입니다. Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서에 대해 교육되었습니다. 질문을 받으면 빠른 학습이 가능한 유익한 답변으로 AI 비서가 응답한다.
+AI Assistant는 개념의 이해, 문제 해결 또는 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있는 대화식 경험입니다. 또한 비전문가가 전문가 업무를 수행할 수 있도록 하고 전반적인 업무 품질을 높인다.
+
+Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서에 대해 교육되었습니다. 질문을 받으면 빠른 학습이 가능한 유익한 답변으로 AI 비서가 응답한다.
 
 초보 사용자는 AI Assistant를 사용하여 Customer Journey Analytics 개념을 학습하고 익숙하지 않은 제품 및 기능을 온보딩할 수 있습니다. 숙련된 사용자는 AI Assistant를 사용하여 보다 고급 사용 사례나 팁 및 요령을 제시할 수 있습니다.
 
@@ -58,6 +60,6 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 
    ![질문 상자](assets/ai-asst2.png)
 
-1. (선택 사항) 소스를 표시하려면 **[!UICONTROL 소스 표시]**&#x200B;및 답변을 알려 준 설명서 소스가 표시됩니다.
+1. (선택 사항) 소스를 표시하려면 **[!UICONTROL 소스 표시]**, 그리고 대답을 알려 준 설명서 소스가 표시됩니다.
 
 1. (선택 사항) 주어진 답변의 유용성에 대해 엄지손가락을 치켜거나 아래로 향하게 하여 투표할 수도 있습니다.
