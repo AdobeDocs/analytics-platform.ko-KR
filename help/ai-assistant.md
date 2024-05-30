@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: 9659ebfc267be769c7a87c01b129245c97b82a95
+source-git-commit: b21dba5b7bef0d9add116f1e9bca0403e9a8c1d5
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,11 @@ AI Assistant는 Adobe Customer Journey Analytics 개념 및 용어를 탐색하�
 * Customer Journey Analytics의 가장 좋은 용도는 무엇입니까?
 * 데이터 보기를 설정하려면 어떻게 합니까?
 
-설명서 검색 모델은 Customer Journey Analytics에 대해 교육합니다. Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
+제품 지식 검색 모델은 Customer Journey Analytics 교육을 받습니다. 데이터 분석과 같은 다른 기능은 나중에 롤아웃됩니다.
+
+Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
 
 Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 사용할 수 있습니다.
-
->[!IMPORTANT]
->
->Customer Journey Analytics 이때 AI Assistant for Analysis는 조직 내 데이터 객체에 대한 사용 질문에 답하지 않습니다.
 
 ## 기능 액세스
 
@@ -46,7 +44,7 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 
 * **계약 액세스**: AI Assistant를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 AI Assistant를 사용하려면 먼저 귀사가 특정 GenAI 관련 법률 조항에 동의해야 합니다.
 
-* **권한**: [!UICONTROL Adobe Admin Console] [!UICONTROL 보고 도구] &quot;AI Assistant Documentation&quot; 권한은 이 도구에 대한 액세스를 결정합니다. 이 권한은 5월 중순에 보고 도구 섹션에 추가됩니다. 다음을 생성했는지 확인해야 합니다 [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 이 권한이 부여된 Admin Console에서 사용자를 수동으로 이 프로필에 추가합니다.
+* **권한**: [!UICONTROL Adobe Admin Console] [!UICONTROL 보고 도구] &quot;AI Assistant: 제품 기술 자료&quot; 권한은 이 도구에 대한 액세스를 결정합니다. 이 권한은 5월 중순에 보고 도구 섹션에 추가됩니다. 제품 프로필 관리자가 다음을 만들어야 합니다. [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 이 권한이 부여된 Admin Console에서 사용자를 수동으로 이 프로필에 추가합니다.
 
 ## Customer Journey Analytics UI에서 AI 지원에 액세스
 
