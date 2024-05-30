@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 6b1761baec8cb1b102943ef7145403ccd2dbf840
+source-git-commit: f3ac14fd144f7b038c0d0f7983bb99353ce250b5
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 77%
+source-wordcount: '1091'
+ht-degree: 76%
 
 ---
 
@@ -246,6 +246,7 @@ ht-degree: 77%
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
+      + [순차적 필터 만들기](../components/filters/seg-sequential-build.md)
       + [공유 필터](../components/filters/filters-share.md)
       + [태그 필터](../components/filters/filters-tag.md)
       + [필터 목록 필터링](../components/filters/filters-filter.md)
