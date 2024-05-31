@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8e6f16acc475fb89c9b9ba50ccef174d3c7b10ea
+source-git-commit: 5db0a92a94d9683a414813ac302b49f908c3e324
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2201'
 ht-degree: 96%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 96%
 | 안내식 분석 | 안내식 분석은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
 | 지능형 캡션 | 지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스에서는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화에 대한 자동 생성된 인사이트를 제공합니다. |
 | 보고 시간 변환 | Customer Journey Analytics의 데이터 보기를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
-| BI 확장 | BI 확장을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 인기 있는 BI 시각화 도구에 직접 연결할 수 있으므로 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 항목과 정확하게 일치하도록 할 수 있습니다. 이 방법은 원시 데이터에서 보고서/지표를 다시 생성하지 않고도 CJA용 BI 보고를 더 쉽게 얻을 수 있는 방법입니다. |
+| BI 확장 | 다음 [BI 확장](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) cja를 PowerBI 또는 Tableau와 같이 자주 사용하는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장을 사용하면 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 항목과 정확하게 일치하도록 할 수 있습니다. 이 방법은 원시 데이터에서 보고서/지표를 다시 생성하지 않고도 CJA용 BI 보고를 더 쉽게 얻을 수 있는 방법입니다. |
 | SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <p>반대로 Adobe Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다.</p> |
 | 무제한 고유 값 | Customer Journey Analytics는 보고될 수 있는 단일 차원 내의 무제한 고유 값 또는 차원 항목을 지원합니다.<p>[차원에는 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없으므로 고유한 값을 표시하고 계산할 수 있습니다.</p><p>이 접근 방식 덕분에 대규모 Adobe Analytics 구현에 존재할 수 있는 보고 및 분석 제한 사항이 사라지므로 [!UICONTROL 낮은 트래픽] 레이블이 가능합니다.</p><p>Customer Journey Analytics에서는 [!UICONTROL 고유 수 초과됨] 레이블을 볼 수 있지만, 이러한 현상은 발생 빈도가 훨씬 낮으며 데이터에 필터나 세그먼트를 적용하여 완화할 수 있습니다.</p> |
