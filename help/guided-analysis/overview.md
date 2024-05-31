@@ -5,10 +5,10 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
-workflow-type: ht
+source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
+workflow-type: tm+mt
 source-wordcount: '1397'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분�
 
 | 분석 유형 | 보기 유형 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL 기능 매트릭스] | [참여](types/engagement.md) | 기능 참여의 범위와 폭을 이해합니다. |
+| [!UICONTROL 기능 매트릭스] | [참여](types/engagement.md) | 기능 참여의 폭과 깊이를 이해합니다. |
 | [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율을 비교합니다. |
 | [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
 | [!UICONTROL 영향] | [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능을 비교합니다. |
