@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
+source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -32,6 +32,10 @@ Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서�
 * Customer Journey Analytics의 가장 좋은 용도는 무엇입니까?
 * 데이터 보기를 설정하려면 어떻게 합니까?
 
+Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
+
+Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 사용할 수 있습니다.
+
 ## 제품 지식 {#knowledge}
 
 제품 지식 검색 모델은 Customer Journey Analytics 교육을 받습니다. 데이터 분석과 같은 다른 기능은 나중에 롤아웃됩니다.
@@ -41,10 +45,6 @@ Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서�
 | 뾰족한 학습 | <ul><li>Adobe Analytics과 Customer Journey Analytics의 차이점은 무엇입니까?</li><li>계산된 지표를 만들려면 어떻게 합니까?</li></ul> |
 | 검색 열기 | <ul><li>작업 영역 프로젝트를 내보내려면 어떻게 해야 합니까?</li><li>중복 작업 영역 구성 요소를 찾으려면 어떻게 해야 합니까?</li></ul> |
 | 문제 해결 | <ul><li>데이터가 CJA로 전송되려면 얼마나 걸립니까?</li><li>Customer Journey Analytics 연결에서 파생된 필드는 몇 개까지 사용할 수 있습니까?</li></ul> |
-
-Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
-
-Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 사용할 수 있습니다.
 
 ## 기능 액세스
 
