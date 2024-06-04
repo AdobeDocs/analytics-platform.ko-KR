@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
+source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,15 @@ Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서�
 * Customer Journey Analytics의 가장 좋은 용도는 무엇입니까?
 * 데이터 보기를 설정하려면 어떻게 합니까?
 
+## 제품 지식 {#knowledge}
+
 제품 지식 검색 모델은 Customer Journey Analytics 교육을 받습니다. 데이터 분석과 같은 다른 기능은 나중에 롤아웃됩니다.
+
+| 제품 지식 | 예 |
+| --- | --- |
+| 뾰족한 학습 | <ul><li>Adobe Analytics과 Customer Journey Analytics의 차이점은 무엇입니까?</li><li>계산된 지표를 만들려면 어떻게 합니까?</li></ul> |
+| 검색 열기 | <ul><li>작업 영역 프로젝트를 내보내려면 어떻게 해야 합니까?</li><li>중복 작업 영역 구성 요소를 찾으려면 어떻게 해야 합니까?</li></ul> |
+| 문제 해결 | <ul><li>데이터가 CJA로 전송되려면 얼마나 걸립니까?</li><li>Customer Journey Analytics 연결에서 파생된 필드는 몇 개까지 사용할 수 있습니까?</li></ul> |
 
 Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문과 같이 Customer Journey Analytics 범위를 벗어나는 질문은 대답할 수 없습니다.
 
@@ -46,7 +54,10 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 
 * **계약 액세스**: AI Assistant를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 AI Assistant를 사용하려면 먼저 귀사가 특정 GenAI 관련 법률 조항에 동의해야 합니다.
 
-* **권한**: [!UICONTROL Adobe Admin Console] [!UICONTROL 보고 도구] &quot;AI Assistant: 제품 기술 자료&quot; 권한은 이 도구에 대한 액세스를 결정합니다. 이 권한은 5월 중순에 보고 도구 섹션에 추가됩니다. 제품 프로필 관리자가 다음을 만들어야 합니다. [제품 프로필](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 이 권한이 부여된 Admin Console에서 사용자를 수동으로 이 프로필에 추가합니다.
+* **권한**: 위치 [!UICONTROL Adobe Admin Console], [!UICONTROL 보고 도구] &quot;AI Assistant: 제품 기술 자료&quot; 권한은 이 도구에 대한 액세스를 결정합니다.
+A [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 은(는) Admin Console에서 다음 단계를 수행해야 합니다.
+   1. 다음으로 이동 [!UICONTROL Admin Console] > [!UICONTROL 제품 및 서비스] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL 제품 프로필] > [!UICONTROL 권한] > [!UICONTROL 보고 도구 편집].
+   1. &quot;AI Assistant: 제품 지식&quot;을 추가합니다.
 
 ## Customer Journey Analytics UI에서 AI 지원에 액세스
 
