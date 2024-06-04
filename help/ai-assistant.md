@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
+source-git-commit: f73e7e9be8593c3bbcad02925ab8b525694a4a15
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 A [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 은(는) Admin Console에서 다음 단계를 수행해야 합니다.
    1. 다음으로 이동 [!UICONTROL Admin Console] > [!UICONTROL 제품 및 서비스] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL 제품 프로필] > [!UICONTROL 권한] > [!UICONTROL 보고 도구 편집].
    1. &quot;AI Assistant: 제품 지식&quot;을 추가합니다.
+      ![권한 추가](assets/image.png)
 
 ## Customer Journey Analytics UI에서 AI 지원에 액세스
 
