@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 24b2cdcc2ab2c56775191950af0603f7bedf102b
-workflow-type: ht
-source-wordcount: '2913'
-ht-degree: 100%
+source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
+workflow-type: tm+mt
+source-wordcount: '3027'
+ht-degree: 96%
 
 ---
 
@@ -91,8 +91,9 @@ ht-degree: 100%
    | **[!UICONTROL 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 조회 데이터 세트에 사용할 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 이벤트 데이터 세트 중 하나에 연결할 일치하는 키입니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. <br/>데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 [!UICONTROL 켭니다]. 선택하면 이 연결의 데이터 세트에 추가되는 새 데이터 배치가 Workspace로 자동 전달됩니다. |
-   | **[!UICONTROL 데이터 세트 채우기]** | 내역 데이터를 채우려면 **[!UICONTROL 채우기 요청]**&#x200B;을 선택합니다.<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우, (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다.</li></ul> |
+   | **[!UICONTROL 새 데이터 가져오기]** | 이 연결의 데이터 세트에 추가되는 모든 새 데이터 배치가 자동으로 작업 영역으로 연결되도록 지속적인 연결을 설정하려면 이 옵션을 선택합니다. [!UICONTROL 켜기] 또는 [!UICONTROL 끄기]로 설정할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트 채우기]** | 사용 **[!UICONTROL 기존 데이터 모두 채우기]** 기존의 모든 데이터가 다시 채워지도록 합니다.<br/><br/>선택 **[!UICONTROL 다시 채우기 요청]** 특정 기간 동안의 내역 데이터를 채우려면 다음을 수행합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 다음을 사용하여 날짜를 선택하여 기간을 정의합니다. ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>선택 **[!UICONTROL 대기열 다시 채우기]** 목록에 채우기 추가 **[!UICONTROL 취소]** 취소합니다.</li></ol>각 항목에 대해 다음을 선택합니다. ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 기간을 편집하려면 다음을 수행하십시오 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) 을 눌러 항목을 삭제합니다.<br/><br/>다시 채우기:<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 지연은 보유하고 있는 내역 데이터의 양에 따라 달라집니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다.</li></ul> |
+   | **[!UICONTROL 데이터 세트 변형]** | 특정 B2B 조회 데이터 세트의 경우 적절한 B2B 개인 기반 보고 시나리오에 대해 데이터 세트를 변환할 수 있습니다. 다음을 참조하십시오 [B2B 조회를 위한 데이터 세트 변환](transform-datasets-b2b-lookups.md) 추가 정보. |
    | **[!UICONTROL 채우기 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
    | **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
    | **[!UICONTROL 설명]** | 이 데이터 세트가 생성될 때 제공된 설명입니다. |

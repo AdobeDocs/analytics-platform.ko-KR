@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
+source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '3155'
 ht-degree: 14%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 14%
 | [!UICONTROL 데이터 세트] | 연결에 포함된 데이터 세트에 대한 하나 이상의 링크를 표시합니다. 데이터 세트 하이퍼링크를 선택하여 연결에서 데이터 세트를 볼 수 있습니다. 선택한 연결에 포함된 데이터 세트가 더 있을 경우 **[!UICONTROL +*x* 기타]** 을 표시하려면 **[!UICONTROL 데이터 세트 포함됨]** 패널. 이 패널에는 모든 데이터 세트에 대한 링크와 연결에 포함된 특정 데이터 세트를 검색하는 옵션이 표시됩니다.<p><img src="./assets/datasets-included.png" alt="포함된 데이터 자산" width="400"/><p>데이터 세트 이름을 선택하면 Experience Platform UI의 데이터 세트가 새 탭에서 열립니다. |
 | [!UICONTROL 샌드박스] | 다음을 표시합니다. [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR) 이 연결이 데이터 세트를 가져오는 출처. 이 샌드박스는 처음에 이 연결을 만들었을 때 선택된 것이며 이는 변경할 수 없습니다. |
 | [!UICONTROL 소유자] | 연결을 만든 사람입니다. |
-| [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**새 데이터를 가져오도록 구성된 데이터 세트 수에 대해 및&lt;/<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 새 데이터 가져오기 기능을 해제한 데이터 세트 수에 대해 설명합니다. |
+| [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트용. |
 | [!UICONTROL 만든 날짜] | 연결이 생성된 시점의 타임스탬프입니다. |
 | [!UICONTROL 마지막 수정일] | 연결을 마지막으로 업데이트할 때의 타임스탬프입니다. |
 | [!UICONTROL 채우기 데이터] | 데이터 세트 간 데이터 채우기의 상태를 표시합니다.<p><span style="color:red">●</span>   **[!UICONTROL _x _다시 채우기 실패]**데이터 세트 간 실패한 다시 채우기 횟수<p><span style="color:orange">●</span>   **[!UICONTROL _x _다시 채우기 처리 중]**데이터 세트 간 처리 다시 채우기 횟수<p><span style="color:green">●</span>   **[!UICONTROL _x _다시 채우기 완료됨]**데이터 세트에 대해 완료된 채우기 횟수<p><span style="color:grey">●</span>   **[!UICONTROL _끔_]** 연결의 데이터 세트에 대해 백필이 정의되지 않은 경우. |
@@ -149,6 +149,9 @@ ht-degree: 14%
 | [!UICONTROL 데이터 소스 유형] | 데이터 세트의 소스 유형입니다. 연결을 만들 때 소스 유형을 정의합니다. |
 | [!UICONTROL 데이터 세트 유형] | 이 데이터 세트의 데이터 세트 유형입니다. 유형은 다음과 같을 수 있습니다 [!UICONTROL 이벤트], [!UICONTROL 조회], 또는 [!UICONTROL 프로필]. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | 스키마 | 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
+| [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**데이터 세트가 새 데이터를 가져오도록 구성된 경우<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 데이터 세트가 새 데이터 가져오기를 가져오지 않도록 구성된 경우. |
+| [!UICONTROL 데이터 변환] | 적용 가능한 B2B 조회 데이터 세트의 변환 상태를 표시합니다. 다음을 참조하십시오 [B2B 조회를 위한 데이터 세트 변환](transform-datasets-b2b-lookups.md) 추가 정보.<p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**변형을 위해 활성화된 적용 가능한 데이터 세트의 경우 <p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 변환에 활성화되지 않은 적용 가능한 데이터 세트의 경우 및<p>**[!UICONTROL 해당 사항 없음]** 다른 모든 데이터 세트의 경우 변환에 적용할 수 없습니다. |
+| [!UICONTROL 채우기 데이터] | 데이터 집합에 대한 데이터 채우기 상태를 표시합니다.<p><span style="color:red">●</span>   **[!UICONTROL _x _다시 채우기 실패]**실패한 다시 채우기 횟수의 경우<p><span style="color:orange">●</span>   **[!UICONTROL _x _다시 채우기 처리 중]**다시 채우기 처리 횟수의 경우<p><span style="color:green">●</span>   **[!UICONTROL _x _다시 채우기 완료됨]**완료된 다시 채우기 횟수<p><span style="color:grey">●</span>   **[!UICONTROL _끔_]** 백필이 구성되지 않은 경우 |
 | [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**데이터 세트가 새 데이터를 가져오도록 구성된 경우<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 데이터 세트가 새 데이터를 가져오지 않도록 구성된 경우. |
 | [!UICONTROL 채우기 데이터] | 데이터 집합에 대한 데이터 채우기 상태를 표시합니다.<p><span style="color:red">●</span>   **[!UICONTROL _x _다시 채우기 실패]**실패한 다시 채우기 횟수의 경우<p><span style="color:orange">●</span>   **[!UICONTROL _x _다시 채우기 처리 중]**다시 채우기 처리 횟수의 경우<p><span style="color:green">●</span>   **[!UICONTROL _x _다시 채우기 완료됨]**완료된 다시 채우기 횟수<p><span style="color:grey">●</span>   **[!UICONTROL _끔_]** 백필이 구성되지 않은 경우 |
 
@@ -172,6 +175,7 @@ ht-degree: 14%
 | [!UICONTROL 연결을 이용한 데이터 보기] | 이 연결을 사용하는 데이터 보기를 모두 나열합니다. |
 | [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**새 데이터를 가져오도록 구성된 데이터 세트 수에 대해<p><span style="color:gray">●</span>   **[!UICONTROL _x 끄기_]** 새 데이터 가져오기 기능을 해제한 데이터 세트 수에 대해 설명합니다. |
 | [!UICONTROL 채우기 데이터] | 데이터 세트의 데이터 채우기 상태를 표시합니다.<p><span style="color:red">●</span>   **[!UICONTROL _x _다시 채우기 실패]**데이터 세트 간 실패한 다시 채우기 횟수<p><span style="color:orange">●</span>   **[!UICONTROL _x _다시 채우기 처리 중]**데이터 세트 간 처리 다시 채우기 횟수<p><span style="color:green">●</span>   **[!UICONTROL _x _다시 채우기 완료됨]**데이터 세트에 대해 완료된 채우기 횟수<p><span style="color:grey">●</span>   **[!UICONTROL _끔_]** 연결의 데이터 세트에 대해 백필이 정의되지 않은 경우. |
+| 데이터 변환 | 적용 가능한 B2B 조회 데이터 세트의 변환 상태를 표시합니다. 다음을 참조하십시오 [B2B 조회를 위한 데이터 세트 변환](transform-datasets-b2b-lookups.md) 추가 정보.<p><span style="color:green">●</span>   **[!UICONTROL _x _날짜]**변형을 위해 활성화된 데이터 세트 수에 대해. |
 | [!UICONTROL 작성자] | 연결을 만든 사람의 이름을 표시합니다. |
 | [!UICONTROL 마지막 수정일] | 연결에 대한 마지막 변경 사항의 타임스탬프를 표시합니다. |
 | [!UICONTROL 마지막 수정자] | 연결을 마지막으로 수정한 사람을 표시합니다. |
