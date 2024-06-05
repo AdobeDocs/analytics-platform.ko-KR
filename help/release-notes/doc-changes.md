@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dcce03959018a34362d8f6cc1d3f44d4ffde916b
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '3667'
-ht-degree: 73%
+source-wordcount: '3711'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,9 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 6월** | |
+| B2B 조회를 위한 데이터 세트 변환 | 지원 방법에 대한 설명서 [B2B 데이터에 대한 사용자 기반 조회](/help/connections//transform-datasets-b2b-lookups.md) (계정, 기회, 마케팅 목록 및 캠페인 포함), B2B 조회 데이터 세트의 변환이 필요합니다. |
+| 파생 필드 함수 템플릿 | 에 대한 설명서 [파생 필드에 대한 추가 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **2024년 5월** | |
 | Target 통합 | 추가됨 [문서 - Adobe 통합 섹션](/help/integrations/cja4t.md) target을 Customer Journey Analytics과 통합하는 방법에 대해 설명합니다. |
 | 조직 정책 제한을 사용하는 동안 Google Cloud Platform으로 Customer Journey Analytics 보고서를 내보낼 때 필요한 정보입니다 | Adobe 소유의 Google Cloud Platform 조직 ID를에 추가했습니다. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md) Google Cloud Platform으로 Customer Journey Analytics 보고서를 내보내기 위한 설명서. <p>이 정보는 Google Cloud Platform에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하는 조직에만 필요합니다.</p> |

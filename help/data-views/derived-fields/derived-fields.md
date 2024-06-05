@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '5987'
-ht-degree: 13%
+source-wordcount: '6717'
+ht-degree: 12%
 
 ---
 
@@ -160,13 +160,193 @@ ht-degree: 13%
 
 ### 마케팅 채널
 
-이 템플릿은 [Url 구문 분석](#dnl-url-parse) 및 [사례 시기](#dnl-case-when) 는 URL에서 적절한 값을 가져오기 위해 여러 번 작동합니다. 그런 다음 이러한 값에 논리를 적용하여 URL을 특정 마케팅 채널에 연결합니다.
+이 함수 템플릿은 규칙 컬렉션을 사용하여 마케팅 채널을 만듭니다.
 
 +++ 세부 사항
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
 
-![마케팅 채널 템플릿 규칙 빌더의 스크린샷](assets/marketing-channel-template.png)
+![마케팅 채널 템플릿 규칙 빌더의 스크린샷](assets/function-template-marketing-channel-template.png)
+
++++
+
+### 바운스
+
+이 함수 템플릿은 규칙 컬렉션을 사용하여 사이트 바운스를 식별합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![바운스 규칙 빌더의 스크린샷](assets/function-template-bounces.png)
+
++++
+
+### 다차원 결합
+
+이 함수 템플릿은 두 값을 하나로 결합합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![다중 Dimension 결합 규칙 빌더의 스크린샷](assets/function-template-multi-dimension-combine.png)
+
++++
+
+### 알기 쉬운 데이터 세트 이름
+
+이 함수 템플릿은 읽을 수 있는 데이터 세트 이름을 제공합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![친숙한 데이터 세트 이름 규칙 빌더의 스크린샷](assets/function-template-friendly-dataset-name.png)
+
++++
+
+### URL의 페이지 이름
+
+이 함수 템플릿은 간단한 페이지 이름을 만듭니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![URL 규칙 빌더의 페이지 이름 스크린샷](assets/function-template-page-name-from-url.png)
+
++++
+
+### 휴가 시즌
+
+이 함수 템플릿은 연간 주요 시간을 분류합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![Holiday Season 규칙 빌더 스크린샷](assets/function-template-holiday-season.png)
+
++++
+
+### 월간 목표
+
+이 함수 템플릿은 사용자 지정 월별 목표를 설정합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![월별 목표 규칙 빌더의 스크린샷](assets/function-template-monthly-goals.png)
+
++++
+
+### 구분된 목록의 모든 값 가져오기
+
+이 함수 템플릿은 제한된 목록을 배열로 변환합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![구분된 목록 규칙 빌더의 모든 값 가져오기 스크린샷](assets/function-template-get-all-values-in-delimited-list.png)
+
++++
+
+### 구분된 목록의 첫 번째 값 가져오기
+
+이 함수 템플릿은 구분된 목록의 첫 번째 값을 가져옵니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![구분된 목록 규칙 빌더의 첫 번째 값 가져오기 스크린샷](assets/function-template-get-first-value-in-delimited-list.png)
+
++++
+
+### 구분된 목록의 마지막 값 가져오기
+
+이 함수 템플릿은 구분된 목록의 마지막 값을 가져옵니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![구분된 목록 규칙 빌더의 마지막 값 가져오기 스크린샷](assets/function-template-get-last-value-in-delimited-list.png)
+
++++
+
+### 도메인 이름
+
+이 함수 템플릿은 정규 표현식을 사용하여 도메인 이름을 추출합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![도메인 이름 규칙 빌더의 스크린샷](assets/function-template-domain-name.png)
+
++++
+
+### 쿼리 문자열 매개변수 가져오기
+
+이 함수 템플릿은 쿼리 문자열 값을 추출합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![쿼리 문자열 매개 변수 가져오기 규칙 빌더의 스크린샷](assets/function-template-get-query-string-parameter.png)
+
++++
+
+### 전환 필드
+
+이 함수 템플릿은 한 필드에서 다른 필드로 보고를 전환합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![전환 필드 규칙 빌더의 스크린샷](assets/function-template-transition-field.png)
+
++++
+
+### 간단한 봇 감지
+
+이 함수 템플릿은 라이트 봇 식별을 구현합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![Simple Bot Detection 규칙 빌더의 스크린샷](assets/function-template-simple-bot-detection.png)
+
++++
+
+### 종료 링크
+
+이 함수 템플릿은 세션에서 마지막으로 클릭한 링크를 식별합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![종료 링크 규칙 빌더의 스크린샷](assets/function-template-exit-link.png)
+
++++
+
+### 다운로드 링크
+
+이 함수 템플릿은 일반적인 다운로드 링크에 플래그를 지정합니다.
+
++++ 세부 사항
+
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+
+![다운로드 링크 규칙 빌더의 스크린샷](assets/function-template-download-link.png)
 
 +++
 
