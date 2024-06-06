@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 344dfb2e4e5191fb30ff4dd4ed35e45fb7b6cfd1
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
 
@@ -22,6 +22,24 @@ Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일�
 Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../release-notes/latest.md)에서 자세히 확인할 수 있습니다. 최신 변경 사항을 확인하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 방문하십시오.
 
 >[!BEGINTABS]
+
+>[!TAB AI Assistant]
+
+AI Assistant는 개념의 이해, 문제 해결 또는 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있는 대화식 경험입니다. 또한 비전문가가 전문가 업무를 수행할 수 있도록 하고 전반적인 업무 품질을 높인다.
+
+[![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB B2B 조회]
+
+연결 구성의 일부로, B2B 데이터에 대한 사용자 기반 조회를 더 잘 지원하기 위해 특정 B2B 조회 스키마에 대한 데이터 세트를 변환할 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
+
+>[!TAB 파생 필드]
+
+새로운 파생 필드 함수(수학, 다음 또는 이전)와 추가 함수 템플릿(예: 바운스, 월별 목표, 단순 보트 탐지 등)을 사용할 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB BI 확장 기능*]
 
@@ -41,35 +59,17 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 -->
 
-
->[!TAB 새 설명서]
-
-이제 다음에 대한 새 설명서가 제공됩니다.<ul><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
-
-[![이미지](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
-
 >[!TAB 예측]
 
 예측은 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
 
->[!TAB 안내식 분석* - 유지율]
+>[!TAB 새 설명서]
 
-원하는 날짜 범위 내에 초기 참여 후 재방문한 사용자의 비율을 표시하는 새로운 보기 유형입니다. 가로축은 사용자가 처음 참여한 이후의 일 수를 나타냅니다. 세로축은 다시 참여하는 사용자의 비율을 나타냅니다.
+이제 다음에 대한 새 설명서가 제공됩니다.<ul><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
 
-[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
-
-<span style="color:gray">*_안내식 분석은 Customer Journey Analytics의 유료 추가 기능인 Adobe Product Analytics의 일부입니다._</span>
-
-
->[!TAB 안내식 분석* - 추세선]
-
-이제 사용량 보기에서 추세선 오버레이를 사용할 수 있어 데이터의 패턴을 더 명확하게 나타내는 데 도움이 됩니다. 사용 가능한 추세선 유형은 선형, 로그 및 이동 평균입니다.
-
-[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
-
-<span style="color:gray">*_안내식 분석은 Customer Journey Analytics의 유료 추가 기능인 Adobe Product Analytics의 일부입니다._</span>
+[![이미지](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!ENDTABS]
 
