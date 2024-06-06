@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
 workflow-type: tm+mt
-source-wordcount: '6717'
+source-wordcount: '7147'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 12%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` | |
+| `https://google.com` |  |
 
 {style="table-layout:auto"}
 
@@ -1067,6 +1067,78 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
+
+<!-- NEXT OR PREVIOUS -->
+
+### 다음 또는 이전
+
+필드를 입력으로 취하여 세션 또는 사용 범위 내에서 해당 필드의 다음 또는 이전 값을 확인합니다. 방문 및 이벤트 테이블 필드에만 적용됩니다.
+
++++ 세부 사항
+
+## 사양 {#prevornext-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 방법]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 색인]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li><li>[!UICONTROL &#39;값 없음&#39; 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#prevornext-uc1}
+
+이(가) 무엇을 의미하는지 알고 싶습니다. **다음** 또는 **이전** 값은 반복 값을 고려하여 수신하는 데이터의 값입니다.
+
+### 데이터 {#prevornext-uc1-databefore}
+
+**예제 1 - 처리 포함 반복**
+
+| 데이터 수신됨 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 |
+|---|---|---|---|---|
+| 홈 | 홈 | 검색 | *값 없음* | *값 없음* |
+| 홈 | 검색 | 검색 | 홈 | *값 없음* |
+| 검색 | 검색 | 제품 세부 사항 | 홈 | 홈 |
+| 검색 | 제품 세부 사항 | 제품 세부 사항 | 검색 | 홈 |
+| 제품 세부 사항 | 검색 | 검색 | 검색 | 검색 |
+| 검색 | 제품 세부 사항 | 제품 세부 사항 | 제품 세부 사항 | 제품 세부 사항 |
+| 제품 세부 사항 | 검색 | 검색 | 검색 | 검색 |
+| 검색 | 검색 | *값 없음* | 제품 세부 사항 | 제품 세부 사항 |
+| 검색 | *값 없음* | *값 없음* | 검색 | 제품 세부 사항 |
+
+{style="table-layout:auto"}
+
+**예제 2 - 처리된 데이터에 빈 값이 있는 반복이 포함됩니다.**
+
+| 데이터 수신됨 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 |
+|---|---|---|---|---|
+| 홈 | 홈 | 검색 | *값 없음* | *값 없음* |
+| 홈 | 홈 | 검색 | 홈 | *값 없음* |
+| 홈 | 검색 | 검색 | 홈 | *값 없음* |
+| 검색 | 검색 | 제품 세부 사항 | 홈 | 홈 |
+|   |   |   |   |   |
+| 검색 | 검색 | 제품 세부 사항 | 검색 | 홈 |
+| 검색 | 제품 세부 사항 | 제품 세부 사항 | 검색 | 홈 |
+| 제품 세부 사항 | *값 없음* | *값 없음* | 검색 | 검색 |
+|   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#prevnext-uc1-derivedfield}
+
+다음을 정의합니다. `Next Value` 또는 `Previous value` 파생 필드. 다음을 사용합니다. [!UICONTROL 다음 또는 이전] 을(를) 선택하는 규칙을 정의하는 함수 [!UICONTROL 데이터 수신됨] 필드, 선택 [!UICONTROL 다음 값] 또는 [!UICONTROL 이전 값] 다음으로: [!UICONTROL 방법], [!UICONTROL 세션] 을(를) 범위로 설정하고 값을 [!UICONTROL 색인] 끝 `1`.
+
+![필드 병합 규칙의 스크린샷](assets/prevnext-next.png)
+
+## 추가 정보 {#prevnext-moreinfo}
+
+방문 또는 이벤트 테이블에 속하는 필드만 선택할 수 있습니다.
+
+[!UICONTROL 반복 포함] 에 대한 반복 값을 처리하는 방법을 결정합니다. [!UICONTROL 다음 또는 이전] 함수.
+
+- 반복 모양과 다음 또는 이전 값을 포함합니다. If [!UICONTROL 반복 포함] 을 선택하면 현재 히트에서 다음 또는 이전 값의 순차적 반복이 무시됩니다.
+
+- 선택한 필드에 대한 값이 없는(빈) 행에는 다음 또는 이전 값이 의 일부로 반환되지 않습니다. [!UICONTROL 다음 또는 이전] 함수 출력입니다.
+
++++
 
 <!-- REGEX REPLACE -->
 
