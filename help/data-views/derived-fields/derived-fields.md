@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
+source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
 workflow-type: tm+mt
-source-wordcount: '7147'
+source-wordcount: '7542'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 12%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |  |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -1002,6 +1002,85 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
+<!-- MATH -->
+
+### 수학
+
+숫자 필드에 기본 수학 연산자(더하기, 빼기, 곱하기, 나누기 및 거듭제곱하기)를 사용합니다.
+
++++ 세부 사항
+
+## 사양 {#math-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>숫자</li></ul> | <ul><li>하나 또는 여러 숫자 필드</li><li>하나 이상의 연산자(더하기, 빼기, 곱하기, 나누기, 거듭제곱하기)</li><li>사용자 입력 값</li></ul> | <ul><li>`+` (추가)</li><li>`-` (빼기)</li><li>`*` (곱하기)</li><li>`/` (나누기)</li><li>`^` (상승 전원)</li></ul> | <ul><li>파생 필드당 25개 작업</li><li>파생 필드당 5개의 수학 함수</li></ul> | <p>새 파생 필드</p> |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#math-uc}
+
+인플레이션으로 인해 5% 인플레이션으로 수집된 CRM 데이터의 매출 수치를 수정하려고 합니다.
+
+### 다음 이전 데이터 {#math-uc-databefore}
+
+| CRM ID | 연간 수익 |
+|---|---:|
+| 1234 | 35,070,000 |
+| 4133 | 7,500,000 |
+| 8110 | 10,980 |
+| 2201 | 42,620 |
+
+{style="table-layout:auto"}
+
+### 파생 필드 {#math-uc-derivedfield}
+
+다음을 정의합니다. `Corrected Annual Revenue` 파생 필드. 다음을 사용합니다. [!UICONTROL 연산] 함수를 사용하여 원래 연간 수입액을 1.05와 곱하는 규칙을 정의할 수 있습니다.
+
+![수학 규칙의 스크린샷](assets/math.png)
+
+
+### 다음 이후 데이터 {#math-uc-dataafter}
+
+| CRM ID | 수정된 연간 수익 |
+|---|---:|
+| 1234 | 36,823,500 |
+| 4133 | 7,875,000 |
+| 8110 | 11,529,00 |
+| 2201 | 44,751 |
+
+{style="table-layout:auto"}
+
+## 추가 정보 {#math-more-info}
+
+배합표를 생성하려면
+
+1. 수식 필드에 입력을 시작하면 입력한 내용과 일치하는 숫자 필드가 팝업 메뉴에 나타납니다. 또는 왼쪽 창의 사용 가능한 필드에서 숫자 필드를 끌어다 놓을 수 있습니다.
+   ![수학 추가 정보 1](assets/math-more-info-1.png)
+
+1. 피연산자 추가(예: `*` 곱하기) 뒤에 다른 필드 또는 정적 값이 옵니다. 괄호를 사용하여 보다 복잡한 수식을 정의할 수 있습니다.
+
+1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 를 선택합니다. **[!UICONTROL 추가 *x* 정적 값으로]** 또는 **[!UICONTROL 추가 -*x* 음수 정적 값으로]** 을 클릭합니다.
+   ![수학 추가 정보 2](assets/math-more-info-2.png)
+
+1. 녹색 확인 표시 ![확인 표시](./assets/checkmark.svg)</span> 수학 공식이 유효한지 여부를 나타냅니다. 그렇지 않으면 경고가 표시됩니다. <span style="color:red">![경고](./assets/alert.svg)</span> 및 메시지 <span style="color:#ea3829">[!UICONTROL 잘못된 공식 표현식].</span>
+   ![수학 추가 정보 3](assets/math-more-info-3.png)
+
+에서 정적 수를 사용하여 작업할 때 몇 가지 중요한 고려 사항이 있습니다. [!UICONTROL 연산] 함수:
+
+- 정적 값은 필드와 연결해야 합니다. 예를 들어 [!UICONTROL 연산] 정적 필드만 있는 함수는 지원되지 않습니다.
+- rise to power 연산자 ( 를 사용할 수 없습니다.`ˆ`)을 클릭하여 제품에서 사용할 수 있습니다.
+- 수식에서 여러 정적 값을 사용하는 경우 이러한 정적 값은 수식이 유효하려면 괄호로 묶어야 합니다. 예:
+
+   - 이 수식은 오류를 반환합니다.
+     ![수학 추가 정보 4](assets/math-more-info-4.png)
+
+   - 이 공식은 유효합니다.
+     ![수학 추가 정보 5](assets/math-more-info-5.png)
+
++++
+
+
 <!-- MERGE FIELDS -->
 
 ### 필드 병합
@@ -1544,7 +1623,9 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 | <p>찾기 및 바꾸기</p> | <ul><li>2 파생 필드당 함수 찾기 및 바꾸기</li></ul> |
 | <p>조회</p> | <ul><li>파생 필드당 5개의 조회 함수</li></ul> |
 | <p>소문자</p> | <ul><li>파생 필드당 소문자 함수 2개</li></ul> |
+| <p>수학</p> | <ul><li>파생 필드당 25개 작업</li><li>파생 필드당 5개의 수학 함수</li></ul> |
 | <p>필드 병합</p> | <ul><li>파생 필드당 2개의 필드 병합 기능</li></ul> |
+| <p>다음 또는 이전</p> | <ul><li>3 파생 필드당 다음 또는 이전 함수</li></ul> |
 | <p>정규 표현식 바꾸기</p> | <ul><li>파생 필드당 1개의 정규 표현식 바꾸기 함수</li></ul> |
 | <p>분할</p> | <ul><li>파생 필드당 5개의 분할 함수</li></ul> |
 | <p>트리밍</p> | <ul><li>파생 필드당 1개의 Trim 함수</li></ul> |
