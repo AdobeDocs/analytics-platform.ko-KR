@@ -4,9 +4,9 @@ title: Adobe Customer Journey Analytics용 AI Assistant
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
+source-git-commit: 3ed6eabae8607a10920c8917a818f0497b337893
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 1. (선택 사항) 소스를 표시하려면 **[!UICONTROL 소스 표시]**, 그리고 대답을 알려 준 설명서 소스가 표시됩니다.
 
 1. (선택 사항) 주어진 답변의 유용성에 대해 엄지손가락을 치켜거나 아래로 향하게 하여 투표할 수도 있습니다.
+
+1. (선택 사항) 적절하지 않거나 해로운 콘텐츠에 대해 답변을 표시할 수 있습니다.
