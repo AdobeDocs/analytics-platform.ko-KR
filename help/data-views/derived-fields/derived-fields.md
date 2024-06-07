@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
+source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
 workflow-type: tm+mt
 source-wordcount: '7542'
 ht-degree: 12%
@@ -1035,7 +1035,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#math-uc-derivedfield}
 
-다음을 정의합니다. `Corrected Annual Revenue` 파생 필드. 다음을 사용합니다. [!UICONTROL 연산] 함수를 사용하여 원래 연간 수입액을 1.05와 곱하는 규칙을 정의할 수 있습니다.
+다음을 정의합니다. `Corrected Annual Revenue` 파생 필드. 다음을 사용합니다. [!UICONTROL 연산] 함수를 사용하여 원래 연간 매출액을 1.05와 곱하는 규칙을 정의할 수 있습니다.
 
 ![수학 규칙의 스크린샷](assets/math.png)
 
