@@ -8,7 +8,7 @@ role: User
 source-git-commit: 3acf29b703d52145d8679d60ed664cf794b5ee30
 workflow-type: tm+mt
 source-wordcount: '2255'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 86%
 
 | 기능 | 참고 |
 | --- | --- |
-| Analytics for Target (A4T) | 다음 [Adobe Customer Journey Analytics과 Target 간의 통합](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) 은 최적화 프로그램에 강력한 분석 및 시간 절약 도구를 제공합니다. |
+| Analytics for Target (A4T) | [Adobe Customer Journey Analytics 와 Target 간 통합](https://experienceleague.adobe.com/kr/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | 대상자 게시 | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
