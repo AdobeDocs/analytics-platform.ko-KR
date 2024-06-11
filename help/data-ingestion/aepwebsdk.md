@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
 workflow-type: tm+mt
-source-wordcount: '3603'
-ht-degree: 84%
+source-wordcount: '3546'
+ht-degree: 83%
 
 ---
 
@@ -279,21 +279,7 @@ Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
 자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)을 참조하십시오.
 
-또한 Experience Cloud ID를 쉽게 사용할 수 있도록 Experience Cloud ID 서비스 확장을 설정하려고 합니다. Experience Cloud ID 서비스는 모든 Adobe Experience Cloud 솔루션에서 개인을 식별합니다.
-
-Experience Cloud ID 서비스 확장을 만들고 구성하는 경우:
-
-1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다.
-
-2. 상단 막대에서 **[!UICONTROL 카탈로그]**&#x200B;를 선택합니다.
-
-3. Experience Cloud ID 서비스 확장을 검색하거나 스크롤하고 **[!UICONTROL 설치]**&#x200B;를 선택하여 설치합니다.
-
-   <img src="./assets/ecid-extension.png" width="35%"/>
-
-4. 모든 구성을 기본값으로 유지합니다.
-
-5. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+Web SDK에는 [!UICONTROL Adobe Experience Cloud ID 서비스] 기본적으로 태그에 ID 서비스 확장을 추가할 필요가 없습니다.
 
 #### **데이터 요소**
 
@@ -613,4 +599,4 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 >[!SUCCESS]
 >
->모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 그런 다음 데이터가 해당 데이터 세트로 전달될 수 있도록 에지 네트워크에서 데이터 스트림을 구성했습니다. 그런 다음 확장(Adobe Experience Platform Web SDK, Experience Cloud ID 서비스), 데이터 요소 및 규칙이 포함된 태그를 정의하고 배포하여 웹 사이트에서 데이터를 캡처하고 해당 데이터를 데이터스트림으로 보냈습니다. Customer Journey Analytics에서 연결을 정의하여 웹 사이트 추적 데이터 및 기타 데이터를 사용했습니다. 데이터 보기 정의를 통해 사용할 차원 및 지표를 지정했고 최종적으로 데이터를 시각화 및 분석하는 첫 번째 프로젝트를 제작했습니다.
+>모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 그런 다음 Edge Network에서 데이터 스트림을 구성하여 해당 데이터 세트로 데이터를 전달할 수 있도록 했습니다. 그런 다음 확장(Adobe Experience Platform Web SDK, Experience Cloud ID 서비스), 데이터 요소 및 규칙이 포함된 태그를 정의하고 배포하여 웹 사이트에서 데이터를 캡처하고 해당 데이터를 데이터스트림으로 보냈습니다. Customer Journey Analytics에서 연결을 정의하여 웹 사이트 추적 데이터 및 기타 데이터를 사용했습니다. 데이터 보기 정의를 통해 사용할 차원 및 지표를 지정했고 최종적으로 데이터를 시각화 및 분석하는 첫 번째 프로젝트를 제작했습니다.
