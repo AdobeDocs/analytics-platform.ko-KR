@@ -2,10 +2,10 @@
 title: Customer Journey Analytics BI 확장 기능
 description: Query Service, Power BI, Tableau 또는 기타 BI 및 SQL 도구를 사용하여 Customer Journey Analytics BI 확장 기능을 통해 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
-feature: SQL Connector
+feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
+source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 96%
