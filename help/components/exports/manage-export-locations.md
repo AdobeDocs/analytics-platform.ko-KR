@@ -5,9 +5,9 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: cdf99e31790f089950de8063445b6264158131dd
+source-git-commit: 6e36885cfba60c808b9f069159670db6834fe41f
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 1%
 
 ## 위치 편집
 
+위치를 만든 사용자나 시스템 관리자만 위치를 편집할 수 있습니다.
+
+위치를 편집하려면:
+
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 
 1. 다음 항목 선택 [!UICONTROL **위치**] 탭.
@@ -95,6 +99,10 @@ ht-degree: 1%
 1. 선택 [!UICONTROL **삭제**] 다시 한 번 확인해 보십시오.
 
 ## 계정 편집
+
+계정은 계정을 만든 사용자 또는 시스템 관리자만 편집할 수 있습니다.
+
+계정을 편집하려면:
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 

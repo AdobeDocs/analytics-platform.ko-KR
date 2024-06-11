@@ -5,10 +5,10 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 9a0e6ed66a20eac1fa5f94efd378842a579826c0
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 28%
+source-wordcount: '2009'
+ht-degree: 30%
 
 ---
 
@@ -25,15 +25,28 @@ ht-degree: 28%
 1. 다음을 충족하는지 확인합니다. [최소 요구 사항](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) 클라우드로 보고서 내보내기.
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**].
 1. 다음에서 [!UICONTROL 내보내기] 페이지에서 [!UICONTROL **위치 계정**] 탭.
-1. 선택 [!UICONTROL **계정 추가**].
 
    ![다른 계정 추가를 보여 주는 페이지 옵션을 내보냅니다.](assets/account-add.png)
+
+1. 선택 [!UICONTROL **계정 추가**].
 
    계정 추가 대화 상자가 표시됩니다.
 
 1. 다음에서 [!UICONTROL **위치 계정 이름**] 필드에서 위치 계정의 이름을 지정합니다. 이 이름은 위치를 만들 때 나타납니다.
 
 1. 다음에서 [!UICONTROL **위치 계정 설명**] 필드에서는 동일한 계정 유형의 다른 계정과 구별할 수 있도록 계정에 대한 간단한 설명을 제공합니다.
+
+1. 옵션을 활성화한 대상 [!UICONTROL **조직의 모든 사용자가 계정을 사용할 수 있도록 설정**] 조직의 다른 사용자가 계정을 사용할 수 있도록 허용하려는 경우.
+
+   계정을 공유할 때는 다음 사항을 고려하십시오.
+
+   * 공유하는 계정은 공유 해제할 수 없습니다.
+
+   * 공유 계정은 계정 소유자만 편집할 수 있습니다.
+
+   * 누구나 공유 계정의 위치를 만들 수 있습니다.
+
+   **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
 1. 다음에서 [!UICONTROL **계정 유형**] 필드에서 내보내려는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 역할 ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake 및 AEP 데이터 랜딩 영역입니다.
 
@@ -130,7 +143,7 @@ ht-degree: 28%
 
 1. 계속 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md).
 
-### Google Cloud 플랫폼
+### Google Cloud Platform
 
 1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
 
@@ -172,7 +185,7 @@ ht-degree: 28%
    |---------|----------|
    | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
    | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
+   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
    | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. 이 정보는 Microsoft Azure의 **Key Vault** 설정 페이지에서 만든 Key Vault에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
    | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
 

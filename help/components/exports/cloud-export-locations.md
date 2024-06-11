@@ -5,10 +5,10 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
+source-git-commit: 1bf36f60b0b3aec04bb1452e5f63f97051d9bb50
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 18%
+source-wordcount: '1932'
+ht-degree: 21%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 18%
 
    위치 대화 상자가 표시됩니다.
 
-1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 계정의 다른 위치와 구분하는 데 도움이 되도록 위치에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
+1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 계정의 다른 위치와 구분하는 데 도움이 되도록 위치에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **조직의 모든 사용자가 위치를 사용할 수 있도록 설정**] | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 활성화합니다.</p> <p>위치를 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 해당 위치의 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul> | | [!UICONTROL **위치 계정**] | 위치를 만들 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md). |
 
 1. [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 18%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>다음을 부여했는지 확인합니다. `roles/storage.objectCreator` Adobe이 제공한 사용자에 대한 권한. (다음과 같은 경우 원금이 제공됩니다. [Google Cloud Platform 계정 구성](/help/components/exports/cloud-export-accounts.md).) <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>조직에서 를 사용하는 경우 [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) 허용 목록에서 Google Cloud Platform 계정만 허용하려면 다음 Adobe 소유 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+   | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>다음을 부여했는지 확인합니다. `roles/storage.objectCreator` Adobe이 제공한 사용자에 대한 권한. (다음과 같은 경우 원금이 제공됩니다. [Google Cloud Platform 계정 구성](/help/components/exports/cloud-export-accounts.md).) <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
