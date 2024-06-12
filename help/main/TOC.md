@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: cf399df3a8043f5ec9fe723a531bf2f8af68799a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 76%
 # Adobe Customer Journey Analytics 안내서 {#using}
 
 + [Adobe Customer Journey Analytics 안내서](../getting-started/cja-landing.md)
-+ [Adobe Customer Journey Analytics용 AI Assistant](../ai-assistant.md)
++ [Adobe Customer Journey Analytics용 AI 어시스턴트](../ai-assistant.md)
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
-   + [2024 릴리스](../release-notes/2024.md)
+   + [2024년 릴리스](../release-notes/2024.md)
    + [2023년 릴리스](../release-notes/2023.md)
    + [2022년 릴리스](../release-notes/2022.md)
    + [2021년 릴리스](../release-notes/2021.md)
@@ -35,22 +35,22 @@ ht-degree: 76%
    + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
    + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
    + [랜딩 페이지](../getting-started/landing.md)
-   + [랜딩 페이지(이전)](../getting-started/cja-landing-old.md)
+   + [랜딩 페이지 (이전)](../getting-started/cja-landing-old.md)
    + [자주 묻는 질문](../getting-started/cja-faq.md)
    + [Customer Journey Analytics와 BI 솔루션 비교](../getting-started/cja-vs-bi.md)
 
-+ Customer Journey Analytics 및 Adobe Analytics 비교 {#compare-aa-cja}
-   + Customer Journey Analytics으로 업그레이드 {#upgrade-to-cja}
++ Customer Journey Analytics와 Adobe Analytics 비교 {#compare-aa-cja}
+   + Customer Journey Analytics로 업그레이드 {#upgrade-to-cja}
       + [시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
-      + [플랫폼으로 데이터 보내기](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
-      + [이전 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
+      + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Customer Journey Analytics에서 Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
       + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
-      + [Adobe Analytics 및 Customer Journey Analytics 간의 데이터 처리를 비교합니다](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [Adobe Analytics와 Customer Journey Analytics 간의 데이터 처리를 비교합니다](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
@@ -61,7 +61,7 @@ ht-degree: 76%
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform 에지 네트워크 {#edge-network}
+      + Adobe Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [서버 API](../data-ingestion/serverapi.md)
@@ -93,7 +93,7 @@ ht-degree: 76%
       + [하위 문자열](../data-views/component-settings/substring.md)
       + [값 버킷팅](../data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](../data-views/component-reference.md)
-   + [BI 확장](../data-views/bi-extension.md)
+   + [BI 확장 기능](../data-views/bi-extension.md)
    + [파생 필드](../data-views/derived-fields/derived-fields.md)
    + [레이블 및 정책](../data-views/data-governance.md)
 
@@ -173,7 +173,7 @@ ht-degree: 76%
    + 내보내기 {#export}
       + [내보내기 개요](../analysis-workspace/export/export-project-overview.md)
       + [다운로드](../analysis-workspace/export/download-send.md)
-      + [다른 사용자에게 보내기](../analysis-workspace/export/t-schedule-report.md)
+      + [다른 사람에게 보내기](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [예외 항목 탐지 개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
@@ -181,7 +181,7 @@ ht-degree: 76%
       + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 예측 {#forecasting}
       + [예측 개요](../analysis-workspace/c-forecast/forecasting.md)
-      + [Analysis Workspace에서 예측 보기](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
       + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
@@ -201,22 +201,22 @@ ht-degree: 76%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + 기능 매트릭스 {#feature-matrix}
+   + 기능 지표 {#feature-matrix}
       + [참여](../guided-analysis/types/engagement.md)
    + 단계 {#funnel}
       + [마찰 보기](../guided-analysis/types/friction.md)
-      + [전환 트렌드 보기](../guided-analysis/types/conversion-trends.md)
+      + [전환 추세 보기](../guided-analysis/types/conversion-trends.md)
    + 영향 {#impact}
       + [릴리스 보기](../guided-analysis/types/release.md)
-      + [첫 번째 사용 보기](../guided-analysis/types/first-use.md)
+      + [첫 사용 보기](../guided-analysis/types/first-use.md)
    + 유지 {#retention}
       + [유지율](../guided-analysis/types/retention-rates.md)
    + 트렌드 {#trends}
-      + [사용 보기](../guided-analysis/types/usage.md)
+      + [사용량 보기](../guided-analysis/types/usage.md)
       + [빈도 보기](../guided-analysis/types/frequency.md)
    + 사용자 증가 {#user-growth}
       + [활성 보기](../guided-analysis/types/active.md)
-      + [순 성장 전망](../guided-analysis/types/net-growth.md)
+      + [순성장 보기](../guided-analysis/types/net-growth.md)
    + 사용자 스트림 {#streams}
       + [타임라인](../guided-analysis/types/timeline.md)
    + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
@@ -224,7 +224,7 @@ ht-degree: 76%
 
 + 구성 요소 {#cja-components}
    + [구성 요소 개요](../components/overview.md)
-   + [Analysis Workspace에서 구성 요소 사용](../components/use-components-in-workspace.md)
+   + [Analysis Workspace의 구성 요소 사용](../components/use-components-in-workspace.md)
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
    + 주석 {#annotations}
       + [주석 개요](../components/annotations/overview.md)
@@ -248,11 +248,11 @@ ht-degree: 76%
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
       + [순차적 필터 만들기](../components/filters/seg-sequential-build.md)
-      + [공유 필터](../components/filters/filters-share.md)
-      + [태그 필터](../components/filters/filters-tag.md)
+      + [필터 공유](../components/filters/filters-share.md)
+      + [필터 태그 지정](../components/filters/filters-tag.md)
       + [필터 목록 필터링](../components/filters/filters-filter.md)
       + [필터를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
-      + [승인 필터](../components/filters/filters-approve.md)
+      + [필터 승인](../components/filters/filters-approve.md)
       + [필터 복사](../components/filters/filters-copy.md)
       + [빠른 필터](../components/filters/quick-filters.md)
       + [필터 빌더](../components/filters/filter-builder.md)
@@ -265,7 +265,7 @@ ht-degree: 76%
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [기여도 지표 작성](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [참여도 지표 빌드](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [필터 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -321,8 +321,8 @@ ht-degree: 76%
 + 결합 {#stitching}
    + [개요](../stitching/overview.md)
    + [결합 작동 방식](../stitching/explained.md)
-   + [결합된 데이터 세트 만들기 및 관리](../stitching/stitching-ui.md)
-   + [FAQ](../stitching/faq.md)
+   + [결합된 데이터 세트 생성 및 관리](../stitching/stitching-ui.md)
+   + [자주 묻는 질문](../stitching/faq.md)
 
 + Adobe 통합 {#integrations}
    + [개요](/help/integrations/overview.md)
@@ -340,24 +340,24 @@ ht-degree: 76%
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
-      + [Google Analytics에서 Customer Journey Analytics 개요로 데이터 마이그레이션](../use-cases/ga/overview.md)
+      + [Google Analytics에서 Customer Journey Analytics로 데이터 마이그레이션 개요](../use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
-      + [Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.](../use-cases/data-ingestion/marketo.md)
-      + [Adobe Experience Platform 대상을 Customer Journey Analytics으로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에 보고](../use-cases/data-ingestion/marketo.md)
+      + [Adobe Experience Platform 대상자를 Customer Journey Analytics로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
       + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
    + 데이터 내보내기 {#data-export}
       + [개요](../use-cases/data-export/overview.md)
-      + [BI 확장](../use-cases/data-export/bi-extension.md)
+      + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
       + [데이터 세트 내보내기](../use-cases/data-export/export-datasets.md)
       + [전체 테이블 내보내기](../use-cases/data-export/export-full-table.md)
       + [쿼리 서비스 및 데이터 세트 내보내기](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
-      + [예제 B2B 프로젝트](../use-cases/b2b/example.md)
+      + [B2B 프로젝트 예시](../use-cases/b2b/example.md)
       + [계정 수준 데이터를 조회 데이터 세트로 추가](../use-cases/b2b/b2b.md)
    + 크로스 채널 데이터 {#cross-channel}
       + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
@@ -375,7 +375,7 @@ ht-degree: 76%
 
 + 문제 해결 {#troubleshooting}
    + [Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교](../troubleshooting/compare.md)
-   + [Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상 멤버십의 일관성](../troubleshooting/consistency-rcdp-cja.md)
+   + [Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성](../troubleshooting/consistency-rcdp-cja.md)
    + [권한 부족](../troubleshooting/lack-of-permissions.md)
 
 + 기술 노트 {#technotes}
@@ -387,6 +387,6 @@ ht-degree: 76%
    + [가드레일](../technotes/guardrails.md)
    + [IP 주소](../technotes/ip-addresses.md)
    + [Customer Journey Analytics 성능 최적화](../technotes/optimizing-performance.md)
-   + [사용량 보기 및 관리](../technotes/estimate-usage.md)
+   + [사용량 조회 및 관리](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)

@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 3acf29b703d52145d8679d60ed664cf794b5ee30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2255'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -125,20 +125,20 @@ ht-degree: 87%
 
 | 기능 | 자세한 내용 |
 | --- | --- |
-| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics을 사용하면 다음 작업을 수행할 수 있습니다. [데이터 결합](/help/connections/combined-dataset.md) Adobe Analytics의 단일 보고서 세트인 것처럼 여러 보고서 세트에서. |
+| 데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능 | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | 모든 유형의 데이터 수용 | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
-| Cross-Device Analytics | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트 및 장치 그래프 사용으로 제한됩니다. |
+| Cross-Device Analytics | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
 | 차원 개선 사항 | Customer Journey Analytics는 차원을 사용할 때 더 큰 유연성을 자랑합니다. <ul><li>**사용자 정의 숫자 기반 차원**: [데이터 보기 내에서 숫자 기반 차원을 직접 만듭니다](/help/data-views/create-dataview.md#components).</li><li>**문자열 기반 차원 정렬**: [자유 형식 테이블에서 문자열 기반 차원을 알파벳순으로 정렬합니다.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>Adobe Analytics에서는 소수의 기본 제공 숫자 차원만 사용할 수 있었으며 문자열 기반 차원별로 정렬하는 것은 불가능했습니다.</p> |
-| 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md) 데이터에 대한 보고서 시간 변환을 허용합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
-| 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics은 HIPAA 준비 및 오퍼 [추가 보안 옵션](/help/privacy/cmk.md) 규정 준수. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
-| 실험 분석 | Customer Journey Analytics 가능 [모든 실험의 상승도 및 신뢰도 평가](/help/analysis-workspace/c-panels/experimentation.md) 연결의 일부로 정의된 모든 데이터 소스. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
-| 예측 | [예측](/help/analysis-workspace/c-forecast/forecasting.md) 는 Customer Journey Analytics에 이미 존재하는 이전 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함하는 AI/ML 기능입니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. |
-| 안내식 분석 | [안내식 분석](/help/guided-analysis/overview.md) 는 사용자가 데이터 요구 사항을 신속하게 자체 서비스하여 고품질의 인사이트를 신속하게 얻고 데이터 중심의 의사 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
+| 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다. |
+| 향상된 보안 및 개인정보 보호 옵션 - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 [추가 보안 옵션](/help/privacy/cmk.md)을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
+| 실험 분석 | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 [실험의 상승도 및 신뢰도를 평가](/help/analysis-workspace/c-panels/experimentation.md)할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
+| 예측 | [예측](/help/analysis-workspace/c-forecast/forecasting.md)은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함하는 AI/ML 기능입니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. |
+| 안내식 분석 | [안내식 분석](/help/guided-analysis/overview.md)은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
 | 지능형 캡션 | 지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스에서는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화에 대한 자동 생성된 인사이트를 제공합니다. |
-| 보고 시간 변환 | [데이터 보기](/help/data-views/data-views.md) Customer Journey Analytics에서 연결의 데이터를 추가로 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
-| BI 확장 | 다음 [BI 확장](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) cja를 PowerBI 또는 Tableau와 같이 자주 사용하는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장을 사용하면 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 항목과 정확하게 일치하도록 할 수 있습니다. 이 방법은 원시 데이터에서 보고서/지표를 다시 생성하지 않고도 CJA용 BI 보고를 더 쉽게 얻을 수 있는 방법입니다. |
+| 보고 시간 변환 | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
+| BI 확장 기능 | [BI 확장 기능](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
 | SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
-| 결합 | [ID 결합](/help/stitching/overview.md) (또는 간단히 말해 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics이 처리할 수 있는 주요 사용 사례이며, 이를 통해 공통 식별자(개인 ID)를 기반으로 다른 채널의 여러 데이터 세트에 보고서를 원활하게 결합하고 실행할 수 있습니다. |
+| 결합 | [ID 결합](/help/stitching/overview.md)(또는 간단히 결합)은 교차 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 교차 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
 | 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <p>반대로 Adobe Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다.</p> |
 | 무제한 고유 값 | Customer Journey Analytics는 보고될 수 있는 단일 차원 내의 무제한 고유 값 또는 차원 항목을 지원합니다.<p>[차원에는 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없으므로 고유한 값을 표시하고 계산할 수 있습니다.</p><p>이 접근 방식 덕분에 대규모 Adobe Analytics 구현에 존재할 수 있는 보고 및 분석 제한 사항이 사라지므로 [!UICONTROL 낮은 트래픽] 레이블이 가능합니다.</p><p>Customer Journey Analytics에서는 [!UICONTROL 고유 수 초과됨] 레이블을 볼 수 있지만, 이러한 현상은 발생 빈도가 훨씬 낮으며 데이터에 필터나 세그먼트를 적용하여 완화할 수 있습니다.</p> |
 

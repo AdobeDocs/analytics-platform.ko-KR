@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,21 +23,21 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant]
+>[!TAB AI 어시스턴트]
 
-AI Assistant는 개념의 이해, 문제 해결 또는 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있는 대화식 경험입니다. 또한 비전문가가 전문가 업무를 수행할 수 있도록 하고 전반적인 업무 품질을 높인다.
+AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해주고 전반적인 업무의 질을 높여주기도 합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 >[!TAB B2B 조회]
 
-연결 구성의 일부로, B2B 데이터에 대한 사용자 기반 조회를 더 잘 지원하기 위해 특정 B2B 조회 스키마에 대한 데이터 세트를 변환할 수 있습니다.
+연결 구성의 일부로 특정 B2B 조회 스키마에 대한 데이터 세트를 변환하여 B2B 데이터에 대한 개인 기반 조회를 더 효과적으로 지원할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
 
 >[!TAB 파생 필드]
 
-이제 새로운 파생 필드 함수(수학, 다음 또는 이전) 및 추가 함수 템플릿(예: 바운스, 친숙한 데이터 세트 이름, 휴일 시즌, 월별 목표, 단순 보트 탐지 등)을 사용할 수 있습니다.
+이제 새로운 파생 필드 기능(수학, 다음 또는 이전)과 추가 기능 템플릿(예: 바운스, 알기 쉬운 데이터 세트 이름, 휴가 시즌, 월간 목표, 간단한 봇 감지 등)을 사용할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -67,7 +67,7 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 >[!TAB 새 설명서]
 
-이제 다음 위치에서 새 설명서 섹션을 사용할 수 있습니다.<ul><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
+이제 다음에서 새로운 설명서 섹션을 사용할 수 있습니다.<ul><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
 
 [![이미지](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -146,7 +146,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">CUSTOMER JOURNEY ANALYTICS API</a> - <a href="/help/ai-assistant.md">AI Assistant</a>
+<a href="https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 어시스턴트</a>
 </td>
 <td><strong>데이터 수집</strong><br/><a href="/help/data-ingestion/data-ingestion.md">개요</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">배치</a> - <a href="/help/data-ingestion/streaming.md">스트리밍</a> - <a href="/help/data-ingestion/sources.md">소스</a> - <a href="/help/data-ingestion/serverapi.md">서버 API</a>
 </td>

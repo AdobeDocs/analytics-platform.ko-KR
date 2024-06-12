@@ -5,23 +5,23 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: 쿼리 서비스;쿼리 서비스;sql 구문
+keywords: 쿼리 서비스;쿼리 서비스;SQL 구문
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교
 
-조직에서 Customer Journey Analytics을 채택함에 따라 Adobe Analytics과 Customer Journey Analytics 간의 데이터에 몇 가지 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics은 AA에서 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않은 불일치와 의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 Customer Journey Analytics을 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
+조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 AA에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 그러나 예기치 않거나 의도하지 않은 불일치가 발생할 수 있습니다. 이 문서는 귀하와 귀하의 팀이 데이터 무결성에 대한 우려로 방해받지 않고 Customer Journey Analytics를 사용할 수 있도록 이러한 차이점을 진단하고 해결하는 데 도움이 되도록 설계되었습니다.
 
-다음을 통해 Adobe Analytics 데이터를 Adobe Experience Platform에 수집했다고 가정해 보겠습니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)을(를) 만든 다음 이 데이터 세트를 사용하여 Customer Journey Analytics 연결을 만들었습니다.
+[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 통해 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 이 데이터 세트를 사용하여 Customer Journey Analytics 연결을 생성했다고 가정해 보겠습니다.
 
-![Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform 및 CJA 연결을 사용하여 고객 여정 분석으로 전송되는 데이터 흐름입니다.](assets/compare.png)
+![데이터는 Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform으로 흐른 다음 CJA 연결을 사용하여 Custoer Journey Analytics로 흐릅니다.](assets/compare.png)
 
-그런 다음 데이터 보기를 만들고 Customer Journey Analytics 시 이 데이터에 대해 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견했습니다.
+그런 다음 데이터 보기를 생성하고 Customer Journey Analytics에서 이 데이터를 보고하는 동안 Adobe Analytics의 보고 결과와 불일치하는 것을 발견합니다.
 
 다음은 원래 Adobe Analytics 데이터와 현재 Customer Journey Analytics의 Adobe Analytics 데이터를 비교하기 위해 따라야 할 몇 가지 단계입니다.
 
@@ -35,13 +35,13 @@ ht-degree: 64%
 
 [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) 지표는 지정된 차원이 설정되거나 지속된 히트 수를 보여 줍니다.
 
-1. Analytics > [!UICONTROL 작업 영역]에서 차원으로 보고할 날짜 범위를 [!UICONTROL 자유 형식] 테이블로 끌어옵니다.
+1. Analytics > [!UICONTROL 작업 영역]에서 차원으로 보고할 날짜 범위를 [!UICONTROL 자유 형식] 테이블로 드래그합니다.
 
 1. [!UICONTROL 발생 횟수] 지표는 해당 날짜 범위에 자동으로 적용됩니다.
 
 1. 비교에 사용할 수 있도록 이 프로젝트를 저장합니다.
 
-## 2단계: 결과 비교 [!UICONTROL 타임스탬프별 총 레코드] Customer Journey Analytics
+## 2단계: 결과를 Customer Journey Analytics의 [!UICONTROL 타임스탬프별 총 레코드]와 비교
 
 이제 Analytics의 [!UICONTROL 발생 횟수]를 Customer Journey Analytics의 타임스탬프별 총 레코드와 비교합니다.
 
@@ -49,7 +49,7 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 >[!NOTE]
 >
->이는 ( 를 통해) 결합된 데이터 세트가 아닌 일반 mid 값 데이터 세트에만 적용됩니다. [결합](/help/stitching/overview.md)). Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 매우 중요합니다. 특히 스티칭이 켜져 있는 경우, Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
+>이는 ([결합](/help/stitching/overview.md)을 통해) 결합된 데이터 세트가 아닌 일반 평균 값 데이터 세트에만 적용됩니다. Customer Journey Analytics에서 사용 중인 개인 ID에 대한 처리는 비교 작업을 수행하는 데 있어 매우 중요합니다. 특히 결합이 켜져 있는 경우 Adobe Analytics에서 복제하기가 항상 쉽지는 않을 수 있습니다.
 
 1. Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)에서 다음 [!UICONTROL 타임스탬프별 총 레코드] 쿼리를 실행합니다.
 
@@ -85,7 +85,7 @@ Analytics 소스 커넥터에 의해 삭제된 레코드가 없는 경우 타임
 
 ## Adobe Experience Platform에서 수집하는 동안 레코드가 필터링되거나 건너뛸 수 있는 이유
 
-Customer Journey Analytics [연결](/help/connections/create-connection.md) 을(를) 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
+Customer Journey Analytics [연결](/help/connections/create-connection.md)을 사용하면 데이터 세트 간 공통 개인 ID를 기반으로 여러 데이터 세트를 가져오고 결합할 수 있습니다. 백엔드에서 중복 제거를 적용합니다. 타임스탬프를 기반으로 이벤트 데이터 세트에 대한 전체 외부 연결 또는 합을 적용한 다음 개인 ID를 기반으로 프로필 및 조회 데이터 세트에 대한 내부 연결을 적용합니다.
 
 다음은 Adobe Experience Platform에서 데이터를 수집하는 동안 레코드를 건너뛸 수 있는 몇 가지 이유입니다.
 
