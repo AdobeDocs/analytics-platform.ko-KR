@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 933046a371407491b6e68749b63d48057fdf0e48
+source-git-commit: 484ec8c32a8da4c33bb3236b9c7a8e1de83ead76
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 39%
+source-wordcount: '975'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 | **파생 필드 - 중복 제거 기능** | 값의 반복적인 계산을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 또는 차원의 고유한 값을 기준으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 6월 26일 목요일 |
 | **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간, 48시간 또는 7일되었는지 여부에 관계없이 이벤트 데이터를 90분(SLT) 내에 Customer Journey Analytics으로 수집할 수 있습니다. 이 기능은 귀사가 구매한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 Basic: 90분 이내의 24시간 된 데이터 SLT 처리(CJA Foundation 및 CJA Select에서 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 이내의 72시간 된 데이터 SLT 처리(CJA Prime에서 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 SLT 처리 내 1주 된 데이터(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 6월 18일 수요일 |
-| **자유 형식 테이블의 드롭다운 메뉴에서 사용할 수 있는 경우 여러 필터를 선택합니다** | 여러 필터가 자유 형식 테이블에 드롭다운 메뉴로 추가된 경우 자유 형식 테이블 사용자는 이제 한 번에 두 개 이상의 필터를 선택할 수 있습니다. 자유 형식 테이블은 선택한 필터를 포함하도록 필터링됩니다. <p>이전에는 필터 드롭다운 메뉴에서 한 번에 하나의 필터만 선택할 수 있었습니다.</p><p>(참조할 설명서 링크)<!--For more information, see "Add filters to a project" in "Use components in Analysis Workspace."--> |  | 2024년 6월 19일 목요일 |
+| **드롭다운 필터에서 여러 필드 선택** | 드롭다운 필터에 여러 필드를 추가한 경우 이제 사용자는 한 번에 두 개 이상의 필드를 선택할 수 있습니다. 패널은 선택한 필드를 포함하도록 필터링됩니다. <p>이전에는 드롭다운 필터에서 한 번에 하나의 필드만 선택할 수 있었습니다.</p><p>(참조할 설명서 링크)</p> |  | 2024년 6월 19일 목요일 |
 | **작업 영역 프로젝트의 목차** | 이제 프로젝트에 새 목차를 사용할 수 있습니다. 목차에서는 사용자가 프로젝트 내의 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. <p>목차는 주어진 사용자의 개별 프로젝트 또는 모든 프로젝트에 대해 활성화할 수 있습니다.</p><p>(참조할 설명서 링크)<!--For more information, see "Display the project table of contents" in "Create projects".--> |  | 2024년 6월 19일 목요일 |
 | **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 하나 이상의 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대한 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대한 사용자 지정 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 지정 URL을 생성할 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>(참조할 설명서 링크)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024년 6월 19일 목요일 |
 | **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> <p>(참조할 설명서 링크)</p> |  | 2024년 7월 14일 월요일 |
