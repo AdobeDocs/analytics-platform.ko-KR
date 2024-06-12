@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: cfdbbacc1c6f280e8959513d8073cd17c8699962
 workflow-type: tm+mt
-source-wordcount: '3732'
+source-wordcount: '3731'
 ht-degree: 72%
 
 ---
@@ -21,7 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2024년 6월** | |
 | AI 어시스턴트 | 추가됨 [설명서](../ai-assistant.md) Customer Journey Analytics을 위한 AI 지원 |
-| B2B 조회를 위한 데이터 세트 변환 | 지원 방법에 대한 설명서를 추가했습니다. [B2B 데이터에 대한 사용자 기반 조회](/help/connections//transform-datasets-b2b-lookups.md) (계정, 기회, 마케팅 목록 및 캠페인 포함), B2B 조회 데이터 세트의 변환이 필요합니다. |
+| B2B 조회를 위한 데이터 세트 변환 | 지원 방법에 대한 설명서를 추가했습니다. [B2B 데이터에 대한 사용자 기반 조회](/help/connections//transform-datasets-b2b-lookups.md) (계정, 기회, 마케팅 목록 및 캠페인 포함) B2B 조회 데이터 세트의 변형을 사용합니다. |
 | 파생 필드 함수 및 함수 템플릿 | 파생된 추가 필드 함수에 대한 설명서를 추가했습니다. ([수학](/help/data-views/derived-fields/derived-fields.md#math), [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous)) 및 [함수 템플릿](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **2024년 5월** | |
 | Target 통합 | 추가됨 [문서 - Adobe 통합 섹션](/help/integrations/cja4t.md) target을 Customer Journey Analytics과 통합하는 방법에 대해 설명합니다. |
