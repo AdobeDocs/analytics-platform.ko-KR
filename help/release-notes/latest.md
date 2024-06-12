@@ -3,9 +3,9 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 61209c4f86052059ab2f1ef3a3d68e9c16f8e621
+source-git-commit: 933046a371407491b6e68749b63d48057fdf0e48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '993'
 ht-degree: 39%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 39%
 | **그래프 기반 결합: UIS 그래프 내보내기를 사용하여 결합** | 그래프 기반 결합을 통해 ID 그래프를 사용하여 다음과 같이 함으로써 고객 여정을 더 잘 볼 수 있습니다.<ul><li>단일 식별자를 반영하기 위해 추가 데이터를 추출, 변환 및 로드할 필요 없이 여러 식별자를 사용하여 데이터 세트를 결합합니다.</li><li>데이터 세트 간에 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 범위를 개선합니다.</li><li>Real-time Customer Data Platform 및 Journey Optimizer에서 만든 프로필을 Customer Journey Analytics의 사람들과 정렬</li></ul>(참조할 설명서 링크) |  | 2024년 6월 28일 토요일 |
 | **개인에서 계정으로의 B2B 스키마 변환** | B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 개인 기반 조회를 지원하기 위해 B2B 조회 데이터 세트를 변환할 수 있습니다. 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024년 6월 5일 |
 | **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 사용하여 사용자에 대한 질문에 답할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. <p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#math)</p> | | 2024년 6월 5일 |
-| **파생 필드 - 파생 필드 - 다음 또는 이전 함수** | 다음 또는 이전 값이 무엇인지 살펴볼 수 있습니다. 예를 들어 선택한 마케팅 채널 전에 어떤 이전 마케팅 채널과 상호 작용했습니까? 또는 페이지 사용자가 선택한 페이지의 이전 또는 이후에 상호 작용한 것은 무엇입니까? 매장 가기 전에 가장 인기 있는 채널 사용자는 누구와 상호 작용합니까? <p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#next-or-previous)</p> | | 2024년 6월 12일 |
+| **파생 필드 - 다음 또는 이전 함수** | 다음 또는 이전 값이 무엇인지 살펴볼 수 있습니다. 예를 들어 선택한 마케팅 채널 전에 어떤 이전 마케팅 채널과 상호 작용했습니까? 또는 페이지 사용자가 선택한 페이지의 이전 또는 이후에 상호 작용한 것은 무엇입니까? 매장 가기 전에 가장 인기 있는 채널 사용자는 누구와 상호 작용합니까? <p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#next-or-previous)</p> | | 2024년 6월 12일 |
 | **파생 필드 - 요약 함수** | 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용하는 기능을 제공합니다. (참조할 설명서 링크) | | 2024년 6월 26일 목요일 |
 | **파생 필드 - 중복 제거 기능** | 값의 반복적인 계산을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 또는 차원의 고유한 값을 기준으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 6월 26일 목요일 |
 | **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간, 48시간 또는 7일되었는지 여부에 관계없이 이벤트 데이터를 90분(SLT) 내에 Customer Journey Analytics으로 수집할 수 있습니다. 이 기능은 귀사가 구매한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 Basic: 90분 이내의 24시간 된 데이터 SLT 처리(CJA Foundation 및 CJA Select에서 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 이내의 72시간 된 데이터 SLT 처리(CJA Prime에서 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 SLT 처리 내 1주 된 데이터(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
