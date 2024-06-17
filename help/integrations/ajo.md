@@ -4,8 +4,8 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | --- | --- | --- |
 | 여정 이름 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 구성 요소 유형: 차원 |
 | 여정 이름 및 버전 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | 구성 요소 유형: 차원 |
-| 여정 노드 이름 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 구성 요소 유형: 차원 |
+| 여정 노드 이름 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | 구성 요소 유형: 차원 |
 | 여정 노드 유형 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | 구성 요소 유형: 차원 |
 | 캠페인 이름 | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | 구성 요소 유형: 차원 |
 | 채널 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | 구성 요소 유형: 차원 |
@@ -85,11 +85,11 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | 전송함 | 이메일 공급자가 수락한 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: `sent`와 같음 |
 | 스팸 고객 불만 | 접수된 스팸 불만 사항 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `spam_complaint`와 같음 |
 | 구독 취소 | 구독 취소 수입니다. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `unsubscribe`와 같음 |
-| 에지 전송 | 에지 네트워크에서 Web 또는 Mobile SDK에 메시지를 전송한 횟수입니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.send` 사용 |
-| 인바운드 표시 | 웹 또는 인앱 메시지가 사용자에게 표시된 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.display` 사용 |
-| 인바운드 클릭 | 웹 또는 인앱 메시지 클릭수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.interact` 사용 |
-| 인앱 트리거 | 의사 결정 엔진에서 메시지를 표시해야 한다고 제안한 횟수입니다. Mobile SDK는 결정을 무시할 수 있으며 이에 따라 실제 표시 수가 줄어들 수 있습니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.trigger` 사용 |
-| 인앱 취소 | SDK에서 UI에서 인앱 메시지를 제거한 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.dismiss` 사용 |
+| 에지 전송 | 에지 네트워크에서 Web 또는 Mobile SDK에 메시지를 전송한 횟수입니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.send` 사용 | |
+| 인바운드 표시 | 웹 또는 인앱 메시지가 사용자에게 표시된 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.display` 사용 | |
+| 인바운드 클릭 | 웹 또는 인앱 메시지 클릭수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.interact` 사용 | |
+| 인앱 트리거 | 의사 결정 엔진에서 메시지를 표시해야 한다고 제안한 횟수입니다. Mobile SDK는 결정을 무시할 수 있으며 이에 따라 실제 표시 수가 줄어들 수 있습니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.trigger` 사용 | |
+| 인앱 취소 | SDK에서 UI에서 인앱 메시지를 제거한 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.dismiss` 사용 | |
 
 {style="table-layout:auto"}
 
