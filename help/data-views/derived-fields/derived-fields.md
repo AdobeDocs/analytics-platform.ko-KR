@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
+source-git-commit: 6f99a732688f59e3950fc9b4336ad5b0434f24a7
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8377'
 ht-degree: 12%
 
 ---
@@ -593,7 +593,7 @@ ht-degree: 12%
 | [!DNL long trip] |
 
 
-## 추가 정보
+## 추가 정보 {#casewhen-more-info}
 
 Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
@@ -841,6 +841,8 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 +++ 세부 사항
 
+{{release-limited-testing}}
+
 ## 사양 {#deduplicate-io}
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
@@ -1022,7 +1024,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ![소문자 규칙의 스크린샷](assets/lookup.png)
 
-## 추가 정보
+## 추가 정보 {#lookup-more-info}
 
 를 신속하게 삽입할 수 있습니다. [!UICONTROL 조회] 하나 이상의 다른 함수를 이미 포함하고 있는 규칙 빌더의 함수입니다.
 
@@ -1161,6 +1163,8 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
    - 이 공식은 유효합니다.
      ![수학 추가 정보 5](assets/math-more-info-5.png)
+
+히트 수준 기반 계산에 수학 함수를 사용합니다. 사용 [요약](#summarize) 이벤트, 세션 또는 사용자 범위 기반 계산을 위한 함수입니다.
 
 +++
 
@@ -1350,7 +1354,7 @@ URL 옵션을 가져와서 트래픽을 분석하는 고유 페이지 식별자�
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## 추가 정보
+## 추가 정보 {#regex-replace-more-info}
 
 Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 사용합니다. 지원되는 표현식은 다음과 같습니다.
 
@@ -1492,6 +1496,75 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 +++
 
+<!-- SUMMARIZE -->
+
+### 요약
+
+이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용합니다.
+
++++ 세부 사항
+
+{{release-limited-testing}}
+
+## 사양 {#summarize-io}
+
+| 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
+|---|---|---|---|---|
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>값<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>메서드 요약</li><li>범위<ul><li>이벤트</li><li>세션</li><li>사람</li></ul></li></ul> | <ul><li>숫자<ul><li>MAX - 값 집합에서 가장 큰 값 반환</li><li>MIN - 값 집합에서 가장 작은 값을 반환합니다.</li><li>MEDIAN - 값 집합에 대한 중간값을 반환합니다.</li><li>평균 - 값 집합에 대한 평균을 반환합니다.</li><li>SUM - 값 집합에 대한 합계를 반환합니다.</li><li>COUNT - 받은 값 수를 반환합니다.</li><li>DISTINCT - 개별 값 집합을 반환합니다.</li></ul></li><li>문자열<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li><li>날짜<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li><li>가장 이른 - 수신된 가장 이른 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li><li>최신 - 수신된 최신 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li></ul> | 파생 필드당 3개 함수 | 새 파생 필드 |
+
+{style="table-layout:auto"}
+
+## 사용 사례 {#summarize-uc}
+
+장바구니에 추가 매출을 소형, 중간, 대형 세 가지 카테고리로 분류하려고 합니다. 이를 통해 고부가가치 고객의 특성을 분석하고 파악할 수 있다.
+
+### 다음 이전 데이터 {#summarize-uc-databefore}
+
+가정:
+
+- 장바구니에 추가 매출은 숫자 필드로 수집됩니다.
+
+시나리오:
+
+- CustomerABC123은(는) ProductABC에 대해 장바구니에 35달러를 추가한 다음 장바구니에 ProductDEF를 별도로 $75에 추가합니다.
+- CustomerDEF456은(는) ProductGHI에 대해 장바구니에 $50를 추가한 다음, 별도로 장바구니에 ProductJKL을 $275에 추가합니다.
+- CustomerGHI789는 ProductMNO에 대해 장바구니에 500달러를 추가합니다.
+
+논리:
+
+- 방문자의 장바구니에 추가 총 수입이 $150 미만인 경우, 작음으로 설정합니다.
+- 방문자의 장바구니에 추가 총 매출액이 $150보다 크지만 $500보다 작은 경우, 중간으로 설정합니다.
+- 방문자의 장바구니에 추가 총 매출액이 $500보다 크거나 같은 경우, 크게 설정합니다.
+
+결과:
+
+- CustomerABC123의 총 장바구니 추가 수익 $110.
+- CustomerDEF456의 총 장바구니 추가 매출액 $325.
+- CustomerGHI789의 총 장바구니 추가 매출액 $500.
+
+### 파생 필드 {#summarize-uc-derivedfield}
+
+다음을 생성함: `Add To Cart Revenue Size` 파생 필드. 다음을 사용합니다. [!UICONTROL 요약] 함수 및 [!UICONTROL 합계] [!UICONTROL Summarize 메서드] 포함 [!UICONTROL 범위] 을 로 설정 [!UICONTROL 개인] 의 값을 합하려면 [!UICONTROL cart_add] 필드. 그런 다음 시간을 사용합니다. [!UICONTROL 다음의 경우] 결과를 트리 범주 크기로 분할하는 규칙
+
+![Summarize rule 1의 스크린샷](assets/summarize.png)
+
+
+
+### 다음 이후 데이터 {#summarize-uc-dataafter}
+
+| 장바구니 매출 크기에 추가 | 방문자 수 |
+|---|--:|
+| 작음 | 1 |
+| 보통 | 1 |
+| 큼 | 1 |
+
+{style="table-layout:auto"}
+
+## 추가 정보 {#summarize-more-info}
+
+이벤트, 세션 또는 사용자 범위 기반 계산에 대해 Summarize 함수를 사용합니다. 사용 [수학](#math) 히트 수준 기반 계산을 위한 함수입니다.
+
++++
 
 <!-- TRIM -->
 
@@ -1507,7 +1580,6 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 |---|---|---|---|---|
 | <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>공백 트리밍</li><li>특수 문자 트리밍<ul><li>특수 문자 입력</li></ul></li><li>왼쪽에서 트리밍<ul><li>출처: <ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li><li>오른쪽에서 트리밍<ul><li>출처: <ul><li>문자열 끝</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li></ul></li><li>종료<ul><li>문자열 시작</li><li>위치<ul><li>위치 #</li></ul></li><li>문자열<ul><li>문자열 값</li><li>색인</li><li>문자열을 포함할 플래그</li></ul></li><li>길이</li></ul></li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
 
-{style="table-layout:auto"}
 
 ## 사용 사례 1 {#trim-uc1}
 
@@ -1713,6 +1785,7 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 | <p>다음 또는 이전</p> | <ul><li>3 파생 필드당 다음 또는 이전 함수</li></ul> |
 | <p>정규 표현식 바꾸기</p> | <ul><li>파생 필드당 1개의 정규 표현식 바꾸기 함수</li></ul> |
 | <p>분할</p> | <ul><li>파생 필드당 5개의 분할 함수</li></ul> |
+| <p>요약</p> | <ul><li>3 파생 필드당 함수 요약</li></ul> |
 | <p>트리밍</p> | <ul><li>파생 필드당 1개의 Trim 함수</li></ul> |
 | <p>URL 구문 분석</p> | <ul><li>파생 필드당 5개의 URL 구문 분석 함수</li></ul> |
 
@@ -1733,7 +1806,7 @@ Classify 함수의 연산자는 [!UICONTROL 값이 원래 값과 같은 경우] 
 ![분류 규칙 1의 스크린샷](assets/classify-1.png)
 
 
-## 추가 정보
+## 추가 정보 {#trim-more-info}
 
 [`Trim`](#trim) 및 [`Lowercase`](#lowercase) 의 구성 요소 설정에서 이미 사용할 수 있는 기능입니다. [데이터 보기](../component-settings/overview.md). 파생 필드를 사용하면 이러한 함수를 결합하여 Customer Journey Analytics에서 직접 더 복잡한 데이터 변환을 수행할 수 있습니다. 예를 들어 다음을 사용할 수 있습니다. `Lowercase` 이벤트 필드에서 대소문자 구분을 제거한 다음 [`Lookup`](#lookup) 새 소문자 필드를 소문자에만 조회 키가 있는 조회 데이터 세트에 일치시키려면 를 사용하십시오. 또는 `Trim` 설정하기 전에 문자를 제거하려면 `Lookup` 새 필드에서.
 
