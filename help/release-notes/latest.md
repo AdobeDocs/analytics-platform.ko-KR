@@ -3,9 +3,9 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f01e6c1f4abe57b8af42fc3939c312ff79785a06
+source-git-commit: 4c6578d500ccd86c9e64256aebb65e27de7896be
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1108'
 ht-degree: 49%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 49%
 | **파생 필드 - 요약 함수** | 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용하는 기능을 제공합니다. (참조할 설명서 링크) | | 2024년 6월 26일 목요일 |
 | **파생 필드 - 중복 제거 기능** | 값의 반복적인 계산을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 또는 차원의 고유한 값을 기준으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 6월 26일 목요일 |
 | **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간, 48시간 또는 7일되었는지 여부에 관계없이 이벤트 데이터를 90분(SLT) 내에 Customer Journey Analytics으로 수집할 수 있습니다. 이 기능은 귀사가 구매한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 Basic: 90분 이내의 24시간 된 데이터 SLT 처리(CJA Foundation 및 CJA Select에서 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 이내의 72시간 된 데이터 SLT 처리(CJA Prime에서 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 SLT 처리 내 1주 된 데이터(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 6월 18일 수요일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 7월 중순 |
 | **드롭다운 필터에서 여러 필드 선택** | 드롭다운 필터에 여러 필드를 추가한 경우 이제 사용자가 한 번에 여러 개의 필드를 선택할 수 있습니다. 선택된 필드를 포함하도록 패널이 필터링됩니다. <p>이전에는 사용자가 드롭다운 필터에서 한 번에 하나의 필드만 선택할 수 있었습니다.</p><p>드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 드롭다운 필터에서 선택해야 하는 옵션이 메뉴로 이동되었습니다.</p><p>이전에는 드롭다운 메뉴에서 필터 없음 옵션 옆에 있는 (x)를 클릭할 수 있었습니다.</p><p>자세한 내용은 [정적 드롭다운 필터](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters) 위치: [패널 개요](/help/analysis-workspace/c-panels/panels.md).</p> |  | 2024년 6월 19일 목요일 |
 | **Workspace 프로젝트 목차** | 이제 프로젝트에 새로운 목차를 사용할 수 있습니다. 목차에서는 사용자가 프로젝트 내의 패널과 시각화 사이를 빠르게 이동할 수 있는 링크를 제공합니다. <p>목차는 모든 프로젝트의 왼쪽 레일에서 사용할 수 있습니다.</p><p>자세한 내용은 [프로젝트 목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md). |  | 2024년 6월 19일 목요일 |
 | **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 여러 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 해당 항목을 클릭하도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대해 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대해 사용자 정의 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 정의 URL을 만들 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>자세한 내용은 [자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024년 6월 19일 목요일 |
