@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 7280bd21882e2baa31e76dbb6f983ccaf1af8633
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 52%
+source-wordcount: '1195'
+ht-degree: 53%
 
 ---
 
@@ -59,11 +59,7 @@ Customer Journey Analytics은 세 가지 액세스 수준 또는 세 가지 역�
 
 * 클라우드로 데이터 세트 내보내기 [대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
-  >[!AVAILABILITY]
-  >
-  >데이터 세트를 클라우드로 내보내는 기능은 릴리스의 제한된 테스트 단계에 있으며 아직 사용자 환경에서 사용할 수 없습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md).
-
-  이 작업을 수행하려면 사용자에게 다음 Experience Platform 권한도 필요합니다.
+  이 작업을 수행하려면 사용자에게 다음 Experience Platform 권한이 필요합니다.
    * 대상 관리
    * 대상 활성화
 
@@ -149,6 +145,6 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 | [!UICONTROL **모든 사람과 프로젝트 링크 공유**] | 사용자 허용 [모든 사람과 프로젝트를 공유합니다.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html#share-public-link) |
 | **[!UICONTROL 데이터 보기 도구]**: |   |
 | [!UICONTROL **전체 테이블 내보내기**] | 사용자 허용 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md). |
-| [!UICONTROL **SQL 쿼리 서비스 액세스**] | 사용자가 액세스할 수 있도록 허용 [AEP의 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko). |
+| [!UICONTROL **SQL 쿼리 서비스 액세스**] | 사용자가 액세스할 수 있도록 허용 [AEP의 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR). |
 
 {style="table-layout:auto"}

@@ -4,10 +4,10 @@ title: Customer Journey Analytics 데이터 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: a3fc89ed08102d57ce3cfaadde96ade843cd8f8b
+source-git-commit: cd4722cc2eb95d7d5e4000361c8f96a30a3589e9
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 72%
+source-wordcount: '1194'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 72%
 에 설명된 대로 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md).
 
 ## CSV 또는 PDF으로 다운로드 {#download-project}
+
+프로젝트를 다운로드할 때는 다음 사항을 고려하십시오.
+
+* 프로젝트를 CSV 또는 PDF으로 다운로드할 때 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](/help/analysis-workspace/export/t-schedule-report.md)할 수 있습니다.
+
+* 프로젝트를 PDF으로 다운로드할 때:
+   * PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되므로 다운로드를 내보내는 데 몇 분이 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
+   * 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
+   * PDF 렌더링에는 Workspace의 페이지에 있는 내용이 포함됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단의 버튼)되도록 변경해야 합니다.
+   * 임의 [하이퍼링크](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 자유 형식 테이블 내에 있는 은 다운로드한 PDF에서 작동하지 않습니다.
+
+프로젝트를 CSV 또는 PDF 파일로 다운로드하려면 다음 작업을 수행하십시오.
 
 1. 다운로드를 지정할 형식에 따라 다음 중 하나를 수행하십시오.
 
@@ -32,13 +44,6 @@ ht-degree: 72%
    ![CSV 다운로드 및 PDF 다운로드 옵션이 강조 표시된 프로젝트 드롭다운 메뉴.](assets/download-project.png)
 
 1. (조건부) PDF 다운로드를 선택한 경우 프로젝트를 다운로드할 준비가 되면 메시지가 표시됩니다. 선택 [!UICONTROL **다운로드**].
-
-프로젝트 다운로드의 경우 유의해야 할 사항:
-
-* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](/help/analysis-workspace/export/t-schedule-report.md)할 수 있습니다.
-* 브라우저에서 다운로드한 PDF는 PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되기 때문에 내보내는 데 몇 분 정도 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
-* PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
-* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단의 버튼)되도록 변경해야 합니다.
 
 ## 클립보드에 복사 (핫키: Ctrl + C) {#copy-data}
 
