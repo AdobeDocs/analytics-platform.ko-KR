@@ -4,9 +4,9 @@ title: Analysis Workspace의 일반 오류 메시지
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 51a20b0a1f003d2e6ce8baf4d7cec16bfa2fe5b3
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: caf53fe1727c77b4dcb5a9f7b67c368fade2f86c
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Analysis Workspace와 상호 작용할 때 성능에도 영향을 주는 오류�
 
 | 오류 메시지 | 왜 이 오류가 발생하는가? | 최적화 |
 | --- | --- | --- |
-| [!UICONTROL 현재 데이터 보기가 보고 용량을 초과하고 있습니다. 요청을 단순화하거나 나중에 다시 시도하십시오.] | 보고 요청이 너무 복잡하여 단순화해야 합니다. | 보고 기준을 좁히고 요청을 다시 시도하십시오. |
+| [!UICONTROL 현재 데이터 보기가 보고 용량을 초과하고 있습니다. 요청을 단순화하거나 나중에 다시 시도하십시오.] |   |   |
 | [!UICONTROL 시스템 오류가 발생했습니다. **[!UICONTROL 도움말 > 지원 티켓 제출]**&#x200B;에서 고객 지원 요청을 로그하여 오류 코드를 포함하십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 오류 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 오류 500: 페이지 로드 실패] | 회사 [방화벽 설정](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)과 같이 로컬 네트워크에 있는 문제가 이 오류의 발생 요소입니다. Adobe에서 해결해야 하는 문제가 발생할 수도 있습니다. | 몇 분 후에 다시 로그인해 보십시오. 문제가 계속 발생하면 EIM 인스턴스 ID 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 필터 중 하나 또는 이 시각화의 검색어 중에 너무 많은 검색 결과를 반환하는 텍스트가 포함되어 있습니다.] | 필터 조건이나 보고서 필터가 너무 광범위합니다. | 검색 텍스트 기준을 좁히고 요청을 다시 시도하십시오. |
