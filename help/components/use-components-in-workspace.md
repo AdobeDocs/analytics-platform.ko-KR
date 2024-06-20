@@ -1,16 +1,17 @@
 ---
 description: Analysis Workspace에서 프로젝트에 구성 요소를 추가하는 방법을 알아봅니다
-title: Analysis Workspace에서 구성 요소 사용
+title: Analysis Workspace의 구성 요소 사용
 feature: Components
 role: User
-source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
+exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
+source-git-commit: 697503bba56f44159df7a2f6a0e60a0a4178266d
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 23%
+source-wordcount: '849'
+ht-degree: 16%
 
 ---
 
-# Analysis Workspace에서 구성 요소 사용
+# Analysis Workspace의 구성 요소 사용
 
 구성 요소는 Analysis Workspace에서 프로젝트의 실제 데이터를 구성합니다. 구성 요소는 차원, 지표, 필터 및 날짜 범위로 구성됩니다. 구성 요소를 시각화 또는 패널로 드래그하여 프로젝트에 추가할 수 있습니다.
 
@@ -32,11 +33,15 @@ ht-degree: 23%
 
    ![](assets/build-components.png)
 
-1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음, 프로젝트 내의 패널이나 시각화로 끌어서 놓습니다.
+1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음, 프로젝트 내의 패널이나 시각화로 드래그합니다.
 
-   예를 들어 필터를 패널 헤더의 필터 끌어 놓기 영역으로 끌어서 놓을 수 있습니다.
+1. (선택 사항) 구성 요소를 패널 헤더의 필터 드롭 영역으로 드래그합니다.
 
-   ![끌어 놓기 영역에 필터를 끌어서 놓습니다.](assets/filter-dropzone.png)
+   필터는 패널 내의 모든 콘텐츠에 적용됩니다.
+
+   패널의 필터 드롭 영역을 사용하여 패널을 필터링하는 방법에 대한 자세한 내용은 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone) 위치: [패널 개요](/help/analysis-workspace/c-panels/panels.md).
+
+   ![드롭 영역에 필터를 드래그합니다.](assets/filter-dropzone.png)
 
 1. 자세한 내용을 보려면 추가하는 구성 요소 유형에 따라 다음 섹션 중 하나를 계속 진행하십시오.
 
@@ -61,6 +66,10 @@ ht-degree: 23%
      ![프로젝트에 차원 추가](assets/add-dimensions.png)
 
    * 에 설명된 대로 임시 필터를 생성하려면 왼쪽 레일에서 필터 드롭 영역으로 차원을 하나 이상 드래그합니다 [프로젝트에 필터 추가](#add-filters-to-a-project).
+
+1. (선택 사항) 다른 구성 요소와 함께 Analysis Workspace에서 차원 및 차원 항목을 분류할 수 있습니다.
+
+   자세한 내용은 [작업 영역에서 차원 분류](/help/components/dimensions/t-breakdown-fa.md).
 
 Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내용은 [차원 미리 보기](/help/components/dimensions/view-dimensions.md), [차원 분류](/help/components/dimensions/t-breakdown-fa.md), 및 [차원 시간 분할](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -90,31 +99,23 @@ Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음을 수
 
 [필터](/help/components/filters/filters-overview.md) 특성 또는 특정 상호 작용에 따라 방문자 하위 집합을 식별할 수 있습니다.
 
-Analysis Workspace에서 프로젝트에 필터를 추가하려면 다음을 수행하십시오.
+다음 방법 중 하나로 Analysis Workspace에서 필터를 사용할 수 있습니다.
 
-1. 에 설명된 대로 Analysis Workspace에서 프로젝트에 필터 추가를 시작합니다. [프로젝트에 구성 요소 추가 시작](#begin-adding-components-to-a-project).
+### 패널에 필터 추가
 
-1. 다음 방법 중 하나를 선택하여 패널 필터링을 시작합니다.
-
-   * 개별 필터를 왼쪽 레일에서 필터 드롭 영역으로 드래그합니다.
-
-     ![끌어 놓기 영역에 필터를 끌어서 놓습니다.](assets/filter-dropzone.png)
-
-   * Shift 또는 Ctrl 키를 누른 상태로 왼쪽 레일에서 여러 필터를 선택한 다음 Shift 키를 누른 상태로 필터를 필터 드롭 영역에 드롭합니다.
-
-     ![드롭 영역에 여러 필터 드롭](assets/filter-dropzone-multiple.png)
-
-     이렇게 하면 패널 사용자가 적용할 필터를 선택할 수 있는 드롭다운 메뉴가 만들어집니다. 드롭다운 메뉴에는 [!UICONTROL **필터 없음**] 사용자가 선택할 수 있는 옵션이며, 이로 인해 패널이 필터링되지 않습니다.
-
-     (x)를 선택하여 드롭다운 메뉴에서 모든 옵션을 제거할 수 있습니다. 를 제거하면 [!UICONTROL **필터 없음**] 옵션을 설정한 경우 필터가 필요합니다.
-
-   * 필터가 아닌 구성 요소를 드롭 영역으로 드래그하여 임시 필터를 만듭니다. 이렇게 하면 필터 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 히트 수준 필터로 정의됩니다. 이 정의는 필터 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 수정할 수 있습니다.
-
-     애드혹 필터는 빠른 필터의 한 유형이며, 프로젝트에 대해 로컬입니다. 공개로 설정하지 않으면 왼쪽 레일에 표시되지 않습니다.
-
-     자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md)를 참조하십시오.
+패널에 필터를 추가하면 필터가 패널 내의 모든 컨텐츠에 적용됩니다.
 
 패널의 필터 드롭 영역을 사용하여 패널을 필터링하는 방법에 대한 자세한 내용은 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone) 위치: [패널 개요](/help/analysis-workspace/c-panels/panels.md).
+
+### 자유 형식 테이블의 열에 필터 추가
+
+자유 형식 테이블의 열에 필터를 추가하면 해당 필터가 테이블 열 내의 모든 컨텐츠에 적용됩니다.
+
+### 계산된 지표를 만들 때 필터 사용
+
+계산된 지표 빌더에서는 지표 정의 내에서 필터를 적용할 수 있습니다.
+
+자세한 내용은 [필터링된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
 
 ## 프로젝트에 날짜 범위 추가
 

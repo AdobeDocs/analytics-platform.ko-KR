@@ -5,10 +5,10 @@ title: 프로젝트 개요
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 10751991e3c40cfefac7d32cea0b5cc557133232
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 69%
+source-wordcount: '1342'
+ht-degree: 64%
 
 ---
 
@@ -89,11 +89,19 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 왼쪽 레일 {#left-rail}
 
-프로젝트 내에서 [패널](/help/analysis-workspace/c-panels/panels.md), 테이블, [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), [구성 요소]는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
+프로젝트 내에서 왼쪽 레일에서 다양한 아이콘을 사용할 수 있으며, 각 아이콘은 프로젝트의 중요한 부분을 나타냅니다.
 
-[빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)에서도 시각화 및 패널에 액세스할 수 있습니다.
+* [패널](/help/analysis-workspace/c-panels/panels.md) ![패널 아이콘](assets/panels-icon.png)
 
-왼쪽 레일의 구성 요소 (차원, 지표, 필터, 날짜 범위)는 활성 패널 데이터 보기와 관련되어 있습니다. 활성 패널 주위에 파란색 테두리가 있고 활성 데이터 보기가 구성 요소 레일의 맨 위에 나열됩니다.
+* [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![시각화 아이콘](assets/visualizations-icon.png)
+
+* [구성 요소](/help/components/overview.md)![구성 요소 아이콘](assets/components-icon.png)
+
+* [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)![데이터 사전 아이콘](assets/data-dictionary-icon.png)
+
+* [목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![목차 아이콘](assets/toc-icon.png)
+
+왼쪽 레일의 구성 요소 (차원, 지표, 필터, 날짜 범위)는 활성 패널 데이터 보기와 관련되어 있습니다. 활성 패널은 그 주변을 둘러싸는 파란색 테두리로 식별되며 활성 데이터 보기는 구성 요소 레일의 맨 위에 나열됩니다.
 
 ![산업 간 데모 데이터 보기를 위한 활성 패널 데이터 보기와 관련된 구성 요소입니다.](assets/left-rail.png)
 

@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+source-git-commit: 6e1db2351aa9fcc4682b892334430c1896cee914
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 83%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 100%
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)를 사용하여 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있습니다. 이를 사용하여 고객에게 고객 여정의 다음 단계를 안내할 수 있습니다.
 
-다음 단계를 수행하여 Journey Optimizer에서 생성된 데이터를 가져와 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다.
+Journey Optimizer에서 생성된 데이터를 가져와서 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다. 이 작업은 자동으로 수행할 수 있습니다. 필요한 경우 Adobe Journey Optimizer과 Customer Journey Analytics 모두에 사용하는 데이터 보기에서 사용할 수 있는 데이터 세트, 차원 또는 지표를 추가로 수동으로 사용자 지정할 수 있습니다.
 
-## Journey Optimizer의 데이터를 Adobe Experience Platform에 전송
+## Journey Optimizer에서 사용할 Customer Journey Analytics 데이터 보기 자동 구성
+
+Customer Journey Analytics의 구성 옵션을 사용하면 수동으로 구성할 필요 없이 Journey Optimizer에서 사용할 Customer Journey Analytics 데이터 보기를 지정할 수 있습니다. <p>이 구성 옵션을 활성화하는 방법에 대한 자세한 내용은 [호환성](/help/data-views/create-dataview.md#compatibility) 의 섹션 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md).
+
+## Journey Optimizer에서 사용할 Customer Journey Analytics 데이터 보기 수동 구성
+
+다음 섹션에서는 Journey Optimizer에서 생성된 데이터를 수동으로 가져와서 Customer Journey Analytics에서 고급 분석을 수행하는 방법에 대해 설명합니다. 이 작업은 [자동 구성 옵션](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) 은(는) 귀하의 요구 사항에 충분하지 않습니다.
+
+### Journey Optimizer의 데이터를 Adobe Experience Platform에 전송
 
 Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. Journey Optimizer 데이터를 플랫폼에 데이터 세트로 전송하는 방법에 대한 절차는 Journey Optimizer 사용 안내서의 [데이터 세트 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/data-management/datasets/get-started-datasets.html)를 참조하십시오.
 
-## Customer Journey Analytics에 연결 만들기
+### Customer Journey Analytics에 연결 만들기
 
 Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음에는 Journey Optimizer 데이터 세트를 기반으로 [연결을 만들](/help/connections/create-connection.md) 수 있습니다. 또는 기존 연결에 Journey Optimizer 데이터 세트를 추가할 수 있습니다.
 
@@ -38,7 +46,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 {style="table-layout:auto"}
 
 
-## Journey Optimizer 차원 및 지표를 포함하도록 데이터 보기 구성
+### Journey Optimizer 차원 및 지표를 포함하도록 데이터 보기 구성
 
 연결을 만든 다음에는 하나 이상의 [데이터 보기](/help/data-views/create-dataview.md)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
 
@@ -47,7 +55,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 >Adobe Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
 
 
-### 데이터 보기에서 차원 구성
+#### 데이터 보기에서 차원 구성
 
 데이터 보기에서 다음 차원을 만들어 Journey Optimizer에 있는 유사한 차원과 거의 정확한 동등성을 달성할 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
@@ -70,7 +78,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 
 {style="table-layout:auto"}
 
-### 데이터 보기에서 지표 구성
+#### 데이터 보기에서 지표 구성
 
 데이터 보기에서 다음 지표를 만들어 Journey Optimizer에 있는 유사한 지표와 거의 정확한 동등성을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
@@ -93,7 +101,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 
 {style="table-layout:auto"}
 
-### Analysis Workspace에서 계산된 지표 구성
+#### Analysis Workspace에서 계산된 지표 구성
 
 Journey Optimizer 데이터 세트에 대해 원하는 차원 및 지표를 구성했으면 해당 데이터에 대한 추가적인 인사이트를 위해 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 구성할 수도 있습니다. 이러한 계산된 지표는 데이터 보기 관리자에서 만들어진 위 지표를 기반으로 합니다.
 
