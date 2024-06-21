@@ -4,10 +4,10 @@ description: Analytics 소스 커넥터가 Adobe Analytics ID 필드를 어떤 �
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 0dc99750126ed5b88b1d1f2d4afc28acad0fe84e
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,12 @@ identityMap 내:
 * ECID가 있으면 이벤트의 기본 ID로 표시됩니다. 이 경우 AAID는 위의 설명에 따라 ECID를 기반으로 할 수 있습니다.
 그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
 * AACUSTOMID는 이벤트의 기본 ID로 표시되지 않습니다. 단, AACUSTOMID가 있으면 AAID는 위의 설명에 따라 AACUSTOMID를 기반으로 합니다.
+
+ID나 ID가 `identityMap`, `endUserIDs._experience.mcid.namespace.code` 또한 가 동일한 이벤트에 대해 설정됩니다.
+
+* AAID가 있는 경우, `endUserIDs._experience.aaid.namespace.code` 가 &quot;AAID&quot;로 설정되어 있습니다.
+* ECID가 있으면, `endUserIDs._experience.mcid.namespace.code` 가 &quot;ECID&quot;로 설정되어 있습니다.
+* AACUSTOMID가 있으면, `endUserIDs._experience.aacustomid.namespace.code` 는 &quot;AACUSTOMID&quot;로 설정됩니다.
 
 ## Customer Journey Analytics 및 기본 ID
 
