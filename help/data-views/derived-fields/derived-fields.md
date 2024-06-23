@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: ca7e8db5f439d5447725473cb5c3a47c4d801ffa
+source-git-commit: a0515c68407b01dd39bed9f0bf9121b575d02dea
 workflow-type: tm+mt
-source-wordcount: '8377'
+source-wordcount: '8373'
 ht-degree: 12%
 
 ---
@@ -1247,7 +1247,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 방법]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 색인]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li><li>[!UICONTROL &#39;값 없음&#39; 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 방법]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 색인]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
