@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
+source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 * [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
 * [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+
+>[!NOTE]
+>
+>각 ID에는 최대 10,000개의 항목으로 제한됩니다. 이 제한은 주어진 개인 ID에 대해 계정 10,000개, 기회 10,000개, 마케팅 목록 10,000개 또는 캠페인 10,000개만 가질 수 있음을 의미합니다.
+
 
 이러한 데이터 세트에 대한 변환을 활성화하려면 다음을 수행하십시오.
 
