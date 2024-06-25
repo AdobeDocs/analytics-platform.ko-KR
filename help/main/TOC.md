@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: cef43e45a647674c6f2472e9402224b5cbc617da
+source-git-commit: 9691e60e0ecb4cb6b48355c653fa66d824560f80
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
       + 자유 형식 테이블 {#freeform-table}
          + [자유 형식 테이블](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -329,7 +329,7 @@ ht-degree: 98%
 + Adobe 통합 {#integrations}
    + [개요](/help/integrations/overview.md)
    + [Adobe Analytics 통합](/help/integrations/aa.md)
-   + [Target 통합](/help/integrations/cja4t.md)
+   + [Target 통합](/help/integrations/at.md)
    + [Journey Optimizer 데이터 통합](/help/integrations/ajo.md)
    + [의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md)
    + [고객 AI 통합](/help/integrations/customer-ai.md)
