@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 확장 기능
-description: Query Service, Power BI, Tableau 또는 기타 BI 및 SQL 도구를 사용하여 Customer Journey Analytics BI 확장 기능을 통해 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
+description: Power BI 또는 타블로를 사용하여 Customer Journey Analytics BI 확장을 사용하여 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
+source-git-commit: 483f74408cfb81f2cbbbb25df9402aa829be09b1
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 96%
+source-wordcount: '2797'
+ht-degree: 86%
 
 ---
 
@@ -28,19 +28,17 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 사전 요구 사항
 
-이 기능을 사용하려면 다음 작업을 수행해야 합니다.
+이 기능을 사용하려면 다음을 수행해야 합니다.
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
-* 관련 제품 프로필, 사용자 그룹 및/또는 개별 사용자의 기능을 구성합니다. 액세스 요구 사항은 다음과 같습니다.
-   * Adobe Experience Platform 쿼리 서비스
-   * Customer Journey Analytics의 Workspace 프로젝트
-   * 사용하려는 CJA 데이터 보기
-   * 데이터 보기 도구에서 BI 확장 기능에 액세스
-
+* Experience Platform 및 Customer Journey Analytics에 대한 액세스 권한을 부여했습니다.
+* 연결 및 데이터 보기를 보고, 편집하고, 업데이트하거나, 삭제할 수 있도록 Customer Journey Analytics에 대한 제품 관리자 액세스 권한을 부여했습니다.
+* 액세스하려는 데이터 보기에 대한 액세스 권한을 부여했습니다.
+* CJA BI 확장 기능에 대한 액세스 권한을 부여했습니다.
 * 만료되지 않는 자격 증명에 만료를 사용하여 BI 도구를 [!DNL Customer Journey Analytics BI extension]에 연결합니다. [자격 증명 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)에서는 만료될 예정인 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
 
-자세한 내용은 Customer Journey Analytics 관리 섹션의 [액세스 제어](../technotes/access-control.md)를 참조하십시오.
+다음을 참조하십시오 [고객 여정 액세스 제어](../technotes/access-control.md) 자세한 내용은 다음을 참조하십시오. [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions) 및 [Admin Console에서 권한 Customer Journey Analytics](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## 사용
@@ -84,7 +82,7 @@ Adobe Experience Platform:
 
 +++
 
-자세한 내용은 [Query Editor UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)를 참조하십시오.
+다음을 참조하십시오. [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) 추가 정보.
 
 
 ### BI 도구
@@ -113,9 +111,9 @@ Adobe Experience Platform:
 
    1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행합니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;호스트&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 다음에서  **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드.
 
-      1. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드의 Experience Platform 쿼리 [!UICONTROL 자격 증명]에서 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 다음에서 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드.
 
          예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
@@ -124,7 +122,7 @@ Adobe Experience Platform:
       1. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 묻는 메시지가 표시됩니다. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 동등한 매개변수 사용
 
 
-   1. 로그인에 성공하면 Power BI의 **[!UICONTROL **&#x200B;탐색기&#x200B;**]**&#x200B;에 Customer Journey Analytics 데이터 보기 테이블이 표시됩니다.
+   1. 로그인에 성공하면 Customer Journey Analytics 데이터 보기 테이블이 Power BI에 나타납니다 **[!UICONTROL **&#x200B;네비게이터&#x200B;**]**.
 
    1. 사용할 데이터 보기 테이블을 선택하고 **[!UICONTROL **&#x200B;로드&#x200B;**]**&#x200B;를 선택합니다
 
@@ -154,11 +152,11 @@ Adobe Experience Platform:
 
    1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행합니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;호스트&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상: **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;포트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;포트&#x200B;**]** 텍스트 필드에 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;포트&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상: **[!UICONTROL **&#x200B;포트&#x200B;**]** 텍스트 필드.
 
-      1. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상: **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드.
 
          예를 들어 `prod:cja%3FFLATTEN`처럼 읽히도록 `%3FFLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
@@ -166,9 +164,9 @@ Adobe Experience Platform:
 
       1. **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 매개변수를 붙여넣습니다.
 
-      1. **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;암호&#x200B;**]** 매개변수를 붙여넣습니다.
+      1. 붙여넣기 **[!UICONTROL **&#x200B;암호&#x200B;**]** Experience Platform 쿼리의 매개 변수 [!UICONTROL 자격 증명] 대상: **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드.
 
-      1. **[!UICONTROL **&#x200B;로그인&#x200B;**]**&#x200B;을 선택합니다.
+      1. 다음 항목 선택 **[!UICONTROL **&#x200B;로그인&#x200B;**]**.
 
    1. Customer Journey Analytics 데이터 보기가 **[!UICONTROL **&#x200B;테이블&#x200B;**]** 목록에 테이블로 표시됩니다.
 
@@ -215,14 +213,14 @@ prod:all=> \dv
 
 지원되는 SQL 유형에 대한 전체 참조는 [Query Service SQL 참조](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)를 확인하십시오.
 
-사용할 수 있는 SQL의 예는 아래 테이블을 참조하십시오.
+사용할 수 있는 SQL의 예는 아래 표를 참조하십시오.
 
 +++ 예
 
 | 패턴 | 예 |
 |---|---|
 | 스키마 검색 | <pre>SELECT * FROM dv1 WHERE 1=0</pre> |
-| 등급 / 분류 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  AND (dim2 = &#39;A&#39; OR dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>GROUP BY dim1</pre> |
+| 등급 또는 분류 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  AND (dim2 = &#39;A&#39; OR dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>GROUP BY dim1</pre> |
 | `HAVING` 절 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>HAVING m1 > 100</pre> |
 | 고유, 상단 <br/>차원 값 | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` >= &#39;2022-01-01&#39; AND \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>ORDER BY SUM(metric1)<br/>LIMIT 15</pre> |
 | 지표 합계 | <pre>SELECT SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</pre> |
@@ -258,7 +256,7 @@ prod:all=> \dv
 
 #### 고유 값 계산
 
-Customer Journey Analytics 작동 방식의 근본적인 특성 때문에 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 `adobe_personid` 차원입니다. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)`는 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우, 대략적인 고유 카운트가 반환됩니다.
+Customer Journey Analytics 작동 방식의 근본적인 특성 때문에 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 `adobe_personid` 차원입니다. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우, 대략적인 고유 카운트가 반환됩니다.
 
 #### 조건부 지표
 
@@ -276,7 +274,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 인라인 계산
 
-계산된 지표에 수학을 정의하는 대신 `SELECT`에 있는 지표 표현식에 수학을 추가로 적용할 수 있습니다. 다음 테이블에는 지원되는 표현식 유형이 나열되어 있습니다.
+의 지표 표현식에 추가 계산을 적용할 수 있습니다. `SELECT`. 이 수학은 계산된 지표에서 수학을 정의하는 대신 사용할 수 있습니다. 다음 테이블에는 지원되는 표현식 유형이 나열되어 있습니다.
 
 | 연산자 또는 함수 | 세부 사항 |
 |---|---|
@@ -304,19 +302,19 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 날짜 범위
 
-`daterange` 특수 열은 `timestamp`와 유사하게 작동하나, 필터링은 하루 종일로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
+다음 `daterange` 특수 열은 다음과 유사하게 작동합니다. `timestamp`; 하지만 필터링은 전일로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
 `daterange` 필드를 사용하여 날짜/시간 함수에서 이벤트 날짜를 구문 분석하고 자를 수 있습니다.
 
 `daterangeName` 특수 열을 사용하면 `Last Quarter`와 같이 이름이 지정된 날짜 범위를 사용하여 쿼리를 필터링할 수 있습니다.
 
 >[!NOTE]
 >
->PowerBI가 지원되지 않음 `daterange` 하루 미만의 지표(시간, 30분, 5분 등).
+>Power BI이 지원되지 않음 `daterange` 하루 미만의 지표(시간, 30분, 5분 등).
 
 
 #### 필터 ID
 
-`filterId` 특수 열은 옵션이며 외부에서 정의된 필터를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의된 필터를 쿼리에 적용하는 것은 Workspace의 패널에서 필터를 드래그하는 것과 비슷합니다. 여러 필터 ID는 `AND`-ing로 제공할 수 있습니다.
+`filterId` 특수 열은 옵션이며 외부에서 정의된 필터를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의된 필터를 쿼리에 적용하는 것은 Workspace의 패널에서 필터를 드래그하는 것과 비슷합니다. 여러 필터 ID는에서 사용할 수 있습니다. `AND`-그들을..
 
 `filterId`과 함께 `filterName` ID 대신 필터 이름을 사용할 수 있습니다.
 
