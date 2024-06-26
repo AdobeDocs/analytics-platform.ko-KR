@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
 workflow-type: tm+mt
 source-wordcount: '3188'
 ht-degree: 14%
@@ -51,7 +51,7 @@ ht-degree: 14%
 | [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태를 표시합니다. <p>![상태 녹색](assets/status-green.svg))    **[!UICONTROL _x _날짜]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 끄기_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트용. |
 | [!UICONTROL 만든 날짜] | 연결이 생성된 시점의 타임스탬프입니다. |
 | [!UICONTROL 마지막 수정일] | 연결을 마지막으로 업데이트할 때의 타임스탬프입니다. |
-| [!UICONTROL 채우기 데이터] | 데이터 세트 간 데이터 채우기의 상태를 표시합니다.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _다시 채우기 실패]**데이터 세트 간 실패한 다시 채우기 횟수<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _다시 채우기 처리 중]**데이터 세트 간 처리 다시 채우기 횟수<p>![상태 녹색](assets/status-green.svg))   **[!UICONTROL _x _다시 채우기 완료됨]**데이터 세트에 대해 완료된 채우기 횟수<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _끔_]** 연결의 데이터 세트에 대해 백필이 정의되지 않은 경우. |
+| [!UICONTROL 채우기 데이터] | 데이터 세트 간 데이터 채우기의 상태를 표시합니다.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _다시 채우기 실패]**데이터 세트 간 실패한 다시 채우기 횟수<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _다시 채우기 처리 중]**데이터 세트 간 처리 다시 채우기 횟수<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _다시 채우기 완료됨]**데이터 세트에 대해 완료된 채우기 횟수<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _끔_]** 연결의 데이터 세트에 대해 백필이 정의되지 않은 경우. |
 
 표시할 열을 구성하려면 다음을 선택합니다. ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), 다음을 표시합니다. **표 맞춤화** 테이블에서 열을 켜거나 끌 수 있는 대화 상자
 
@@ -89,7 +89,7 @@ ht-degree: 14%
 
 연결을 삭제할 때 **[!UICONTROL 연결 삭제]** 패널은 삭제되는 데이터 보기와 영향을 받는 작업 영역 프로젝트를 나타냅니다.
 
-<img src="./assets/delete-connection.png" alt="연결 삭제" width="400"/>
+![연결 삭제](assets/delete-connection.png)
 
 선택 **[!UICONTROL 계속]** 연결을 삭제합니다.
 
