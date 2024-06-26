@@ -3,7 +3,7 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 8315bf705b576d597e346d17ff3998c336174361
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 50%
@@ -25,7 +25,7 @@ ht-degree: 50%
 | **개인에서 계정으로의 B2B 스키마 변환** | B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 개인 기반 조회를 지원하기 위해 B2B 조회 데이터 세트를 변환할 수 있습니다. 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024년 6월 5일 |
 | **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 사용하여 사용자에 대한 질문에 답할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#math)</p> | | 2024년 6월 5일 |
 | **파생 필드 - 다음 또는 이전 함수** | 다음 또는 이전 값이 무엇인지 살펴볼 수 있습니다. 예를 들어 선택한 마케팅 채널 전에 어떤 이전 마케팅 채널과 상호 작용했습니까? 또는 페이지 사용자가 선택한 페이지의 이전 또는 이후에 상호 작용한 것은 무엇입니까? 매장 가기 전에 가장 인기 있는 채널 사용자는 누구와 상호 작용합니까? [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#next-or-previous)</p> | | 2024년 6월 12일 |
-| **파생 필드 - 함수 요약** | 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용하는 기능을 제공합니다.[자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#summarize) | | 2024년 6월 26일 목요일 |
+| **파생 필드 - 함수 요약** | 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용하는 기능을 제공합니다. [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#summarize) | | 2024년 6월 26일 목요일 |
 | **파생 필드 - 중복 제거 기능** | 값의 반복적인 계산을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 또는 차원의 고유한 값을 기준으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 7월 10일 목요일 |
 | **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간, 48시간 또는 7일되었는지 여부에 관계없이 이벤트 데이터를 90분(SLT) 내에 Customer Journey Analytics으로 수집할 수 있습니다. 이 기능은 귀사가 구매한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 Basic: 90분 이내의 24시간 된 데이터 SLT 처리(CJA Foundation 및 CJA Select에서 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 이내의 72시간 된 데이터 SLT 처리(CJA Prime에서 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 SLT 처리 내 1주 된 데이터(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정 및 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정 및 위치를 만든 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 7월 중순 |
