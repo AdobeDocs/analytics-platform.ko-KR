@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: a0515c68407b01dd39bed9f0bf9121b575d02dea
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
 workflow-type: tm+mt
-source-wordcount: '8373'
+source-wordcount: '8075'
 ht-degree: 12%
 
 ---
@@ -833,32 +833,32 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 +++
 
 
-<!-- DEDUPLICATE -->
+<!-- DEDUPLICATE
 
-### 중복 제거
+### Deduplicate
 
-값을 여러 번 카운트하지 않도록 합니다.
+Prevents counting a value multiple times.
 
-+++ 세부 사항
++++ Details
 
 {{release-limited-testing-section}}
 
-## 사양 {#deduplicate-io}
+## Specifications {#deduplicate-io}
 
-| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
+| Input Data Type | Input | Included Operators | Limitations | Output |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 중복 제거 ID]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul><li>[!UICONTROL 유지할 값]:<ul><li>첫 번째 인스턴스 유지</li><li>마지막 인스턴스 유지</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>String</li><li>Numeric</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Person</li><li>Session</li></ul></li><li>[!UICONTROL Deduplication ID]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul><li>[!UICONTROL Value to keep]:<ul><li>Keep first instance</li><li>Keep last instance</li></ul></li></ul> | <p>N/A</p>| <p>5 functions per derived field</p> | <p>New derived field</p> |
 
 {style="table-layout:auto"}
 
 
-## 사용 사례 1 {#deduplicate-uc1}
+## Use case 1 {#deduplicate-uc1}
 
-사용자가 예약 확인 페이지를 다시 로드할 때 중복 매출을 카운트하지 않도록 하려는 경우 같은 이벤트에서 수신되었을 때 식별자의 예약 확인 ID를 사용하여 수익을 다시 계산하지 않습니다.
+You want to prevent counting duplicate revenue when a user reloads the booking confirmation page. You use the booking confirmation ID at the identifier to not count the revenue again, when received on the same event.
 
-### 다음 이전 데이터 {#deduplicate-uc1-databefore}
+### Data before {#deduplicate-uc1-databefore}
 
-| 예약 확인 ID | 매출 |
+| Booking Confirmation ID | Revenue |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 359 |
@@ -866,15 +866,15 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 {style="table-layout:auto"}
 
-### 파생 필드 {#deduplicate-uc1-derivedfield}
+### Derived field {#deduplicate-uc1-derivedfield}
 
-다음을 정의합니다. `Booking Confirmation` 파생 필드. 다음을 사용합니다. [!UICONTROL 중복 제거] 함수 를 사용하여 중복 제거할 규칙을 정의합니다. [!UICONTROL 값] [!DNL Booking] 대상 [!UICONTROL 범위] [!DNL Person] 사용 [!UICONTROL 중복 제거 ID] [!UICONTROL 예약 확인 ID]. 다음을 선택: [!UICONTROL 첫 번째 인스턴스 유지] 다음으로: [!UICONTROL 유지할 값].
+You define a `Booking Confirmation` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Value] [!DNL Booking] for [!UICONTROL Scope] [!DNL Person] using [!UICONTROL Deduplication ID] [!UICONTROL Booking Confirmation ID]. You select [!UICONTROL Keep first instance] as [!UICONTROL Value to keep].
 
-![연결 규칙의 스크린샷](assets/deduplicate-1.png)
+![Screenshot of the Concatenate rule](assets/deduplicate-1.png)
 
-### 다음 이후 데이터 {#deduplicate-uc1-dataafter}
+### Data after {#deduplicate-uc1-dataafter}
 
-| 예약 확인 ID | 매출 |
+| Booking Confirmation ID | Revenue |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 0 |
@@ -882,41 +882,43 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 {style="table-layout:auto"}
 
-## 사용 사례 2 {#deduplicate-uc2}
+## Use case 2 {#deduplicate-uc2}
 
-외부 마케팅 캠페인이 있는 캠페인 클릭스루에 이벤트를 프록시로 사용합니다. 다시 로드 및 리디렉션으로 인해 이벤트 지표가 부풀려집니다. 첫 번째 차원만 수집되도록 추적 코드 차원을 중복 제거하고 이벤트 오버카운트를 최소화하려고 합니다.
+You use events as a proxy for campaign click-throughs with external marketing campaigns. Reloads & redirects are causing the event metric to be inflated. You would like to deduplicate the tracking code dimension so only the first is collected and minimize the event overcounting.
 
-### 다음 이전 데이터 {#deduplicate-uc2-databefore}
+### Data before {#deduplicate-uc2-databefore}
 
-| 방문자 ID | 마케팅 채널 | 이벤트 |
+| Visitor ID | Marketing Channel | Events |
 |----|---|---:|
-| ABC123 | 유료 검색 | 1 |
-| ABC123 | 유료 검색 | 1 |
-| ABC123 | 유료 검색 | 1 |
-| DEF123 | 이메일 | 1 |
-| DEF123 | 이메일 | 1 |
-| JKL123 | 자연어 검색 | 1 |
-| JKL123 | 자연어 검색 | 1 |
+| ABC123 | paid search | 1 |
+| ABC123 | paid search | 1 |
+| ABC123 | paid search | 1 |
+| DEF123 | email | 1 |
+| DEF123 | email | 1 |
+| JKL123 | natural search | 1 |
+| JKL123 | natural search | 1 |
 
 {style="table-layout:auto"}
 
-### 파생 필드 {#deduplicate-uc2-derivedfield}
+### Derived field {#deduplicate-uc2-derivedfield}
 
-새 항목을 정의합니다. `Tracking Code (deduplicated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 중복 제거] 함수 를 사용하여 중복 제거할 규칙을 정의합니다. [!UICONTROL 추적 코드] 포함 [!UICONTROL 중복 제거 범위] / [!UICONTROL 세션] 및 [!UICONTROL 첫 번째 인스턴스 유지] (으)로 [!UICONTROL 유지할 값].
+You define a new `Tracking Code (deduplicated)` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Tracking Code] with a [!UICONTROL Deduplication scope] of [!UICONTROL Session] and [!UICONTROL Keep first instance] as the [!UICONTROL Value to keep].
 
-![연결 규칙의 스크린샷](assets/deduplicate-2.png)
+![Screenshot of the Concatenate rule](assets/deduplicate-2.png)
 
-### 다음 이후 데이터 {#deduplicate-uc2-dataafter}
+### Data after {#deduplicate-uc2-dataafter}
 
-| 방문자 ID | 마케팅 채널 | 이벤트 |
+| Visitor ID | Marketing Channel | Events |
 |----|---|---:|
-| ABC123 | 유료 검색 | 1 |
-| DEF123 | 이메일 | 1 |
-| JKL123 | 자연어 검색 | 1 |
+| ABC123 | paid search | 1 |
+| DEF123 | email | 1 |
+| JKL123 | natural search | 1 |
 
 {style="table-layout:auto"}
 
 +++
+
+-->
 
 <!-- FIND AND REPLACE -->
 
@@ -1503,8 +1505,6 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용합니다.
 
 +++ 세부 사항
-
-{{release-limited-testing-section}}
 
 ## 사양 {#summarize-io}
 
