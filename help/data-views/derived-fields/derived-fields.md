@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '8075'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # 파생 필드
 
-파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음에서 파생된 필드를 구성 요소(지표 또는 차원)로 사용할 수 있습니다. [작업 영역](../../analysis-workspace/home.md) 또는 파생된 필드를 의 구성 요소로 추가로 정의합니다. [데이터 보기](../data-views.md).
+파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음에서 파생된 필드를 구성 요소(지표 또는 차원)로 사용할 수 있습니다. [Workspace](../../analysis-workspace/home.md) 또는 파생된 필드를 의 구성 요소로 추가로 정의합니다. [데이터 보기](../data-views.md).
 
 파생 필드는 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 과 같은 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)또는 고유한 ETL(추출 변환 로드) / ELT(추출 로드 변환) 프로세스 내에서 사용할 수 있습니다.
 
@@ -607,9 +607,9 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 |  | 제한 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 귀하 값 *선택* 같은 기간 이내 [!UICONTROL If], [!UICONTROL Else If] 구문(사용) [!UICONTROL 및] 또는 [!UICONTROL 또는])를 사용하는 규칙은 동일한 컨테이너에서 파생되어야 하며 모든 유형(문자열)일 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등). <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 귀하가 지정한 모든 값 *set* 전체 규칙은 동일한 컨테이너의 값이어야 하며 동일한 유형 또는 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 값: *선택* 가로 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문은 다음과 같습니다. *아님* 동일한 컨테이너에서 가져와서 다음을 수행해야 합니다. *아님* 같은 유형이어야 합니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
+| **A** | 귀하 값 *선택* 같은 기간 이내 [!UICONTROL If], [!UICONTROL Else If] 구문(사용) [!UICONTROL 및] 또는 [!UICONTROL 또는])를 사용하는 규칙은 동일한 컨테이너에서 파생되어야 하며 모든 유형(문자열)일 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등). <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
+| **B** | 귀하가 지정한 모든 값 *set* 전체 규칙은 동일한 컨테이너의 값이어야 하며 동일한 유형 또는 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
+| **C** | 값: *선택* 가로 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문은 다음과 같습니다. *아님* 동일한 컨테이너에서 가져와서 다음을 수행해야 합니다. *아님* 같은 유형이어야 합니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -1151,7 +1151,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 를 선택합니다. **[!UICONTROL 추가 *x* 정적 값으로]** 또는 **[!UICONTROL 추가 -*x* 음수 정적 값으로]** 을 클릭합니다.
    ![수학 추가 정보 2](assets/math-more-info-2.png)
 
-1. 녹색 확인 표시 ![확인 표시](./assets/checkmark.svg)</span> 수학 공식이 유효한지 여부를 나타냅니다. 그렇지 않으면 경고가 표시됩니다. <span style="color:red">![경고](./assets/alert.svg)</span> 및 메시지 <span style="color:#ea3829">[!UICONTROL 잘못된 공식 표현식].</span>
+1. 녹색 확인 표시 ![확인 표시](./assets/checkmark.svg)</span> 수학 공식이 유효한지 여부를 나타냅니다. 그렇지 않으면 경고가 표시됩니다. ![경고](./assets/alert.svg) 및 메시지 [!UICONTROL 잘못된 공식 표현식].
    ![수학 추가 정보 3](assets/math-more-info-3.png)
 
 에서 정적 수를 사용하여 작업할 때 몇 가지 중요한 고려 사항이 있습니다. [!UICONTROL 연산] 함수:
@@ -1516,7 +1516,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ## 사용 사례 {#summarize-uc}
 
-장바구니에 추가 매출을 소형, 중간, 대형 세 가지 카테고리로 분류하려고 합니다. 이를 통해 고부가가치 고객의 특성을 분석하고 파악할 수 있다.
+장바구니에 추가 매출을 Small, Medium 및 Large 세 가지 카테고리로 분류하려고 합니다. 이를 통해 고부가가치 고객의 특성을 분석하고 파악할 수 있다.
 
 ### 다음 이전 데이터 {#summarize-uc-databefore}
 
@@ -1533,7 +1533,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 논리:
 
 - 방문자의 장바구니에 추가 총 수입이 $150 미만인 경우, 작음으로 설정합니다.
-- 방문자의 장바구니에 추가 총 매출액이 $150보다 크지만 $500보다 작은 경우, 중간으로 설정합니다.
+- 방문자의 장바구니에 추가 총 수입이 $150보다 크지만 $500보다 작은 경우, Medium으로 설정합니다.
 - 방문자의 장바구니에 추가 총 매출액이 $500보다 크거나 같은 경우, 크게 설정합니다.
 
 결과:

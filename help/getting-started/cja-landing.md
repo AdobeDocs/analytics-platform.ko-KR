@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 >[!TAB 그래프 기반 결합]
 
-그래프 기반 결합을 통해 Experience Platform ID 서비스의 ID 그래프를 사용하여 다음과 같이 함으로써 고객 여정을 더 잘 볼 수 있습니다. <ul><li>단일 식별자를 반영하기 위해 추가 데이터를 추출, 변환 및 로드할 필요 없이 여러 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 간 ID를 공유하여 단일 데이터 세트에 대한 선호 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-time Customer Data Platform 및 Journey Optimizer에서 만든 프로필을 Customer Journey Analytics의 사람들과 정렬</li></ul>
+그래프 기반 결합을 통해 Experience Platform ID 서비스의 ID 그래프를 사용하여 다음과 같이 함으로써 고객 여정을 더 잘 볼 수 있습니다. <ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 간 ID를 공유하여 단일 데이터 세트에 대한 선호 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>
 
 [![이미지](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -53,7 +53,7 @@ BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-<span style="color:gray">*_BI 확장 기능을 사용하려면 Select 패키지 이상이 필요합니다._</span>
+*_BI 확장을 사용하려면 Select 패키지 이상이 있어야 합니다._*
 
 
 <!--
