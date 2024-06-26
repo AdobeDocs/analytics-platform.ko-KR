@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: dca1cc33058ba57815c3534ab21da86d5247531a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 70%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 70%
 >
 >모든 시나리오에서, Customer Journey Analytics에 _사용_&#x200B;하려는 데이터는 실제로 Adobe Experience Platform에서 _수집_&#x200B;됩니다.
 
-
-앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
+앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
 
 ![이 섹션에 설명된 Customer Journey Analytics 아키텍처](./assets/cja-architecture.png)
 
@@ -35,13 +34,25 @@ ht-degree: 70%
 
 - Adobe Experience Platform 웹/모바일 SDK를 사용하여 웹 사이트/모바일 앱을 추적한 데이터,
 
-- Adobe Experience Platform Edge Network Server API를 사용하여 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 또는 IoT 디바이스를 추적한 데이터 또는
+- Adobe Experience Platform Edge Network 서버 API를 사용하여 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 또는 IoT 디바이스를 추적한 데이터 또는
 
 - Adobe가 소스 커넥터를 제공하는 서드파티 데이터 제공업체의 데이터.
 
 이러한 데이터 세트가 많을 수 있습니다.
 
 설명서의 이 섹션에서는 다양한 시나리오에 대한 빠른 시작 안내서를 제공합니다.
+
+## 수집 우선 순위 지정 및 지연
+
+데이터가 24시간, 48시간 또는 7일 경과되었는지 여부에 관계없이 이벤트 데이터를 90분(SLT) 내에 Customer Journey Analytics으로 수집할 수 있습니다.
+
+이 기능은 회사에서 구입한 SKU 패키지에 따라 다릅니다.
+
+- Priority Ingestion Basic: 90분 이내의 24시간 된 데이터 (다음 경우에 사용 가능) **CJA 기반** 및 **CJA 선택**)
+
+- 우선 순위 수집 중간: 90분 이내 SLT 처리 시 72시간 경과된 데이터(다음 경우에 사용 가능) **CJA 프라임**)
+
+- 우선 순위 수집 고급: 90분 SLT 처리 내 1주일 된 데이터(다음 경우에 사용 가능) **CJA Ultimate**)
 
 ## 기존 Adobe Analytics에서 데이터 수집 및 사용
 
@@ -50,7 +61,7 @@ ht-degree: 70%
 자세한 내용은 [기존 Adobe Analytics에서 데이터 수집 및 사용](./analytics.md)을 참조하십시오.
 
 
-## Edge Network를 통해 데이터 수집 및 사용
+## Edge Network을 통해 데이터 수집 및 사용
 
 ### Adobe Experience Platform Web SDK 사용
 
@@ -64,11 +75,11 @@ Adobe 기술을 사용하여 모바일 앱을 분석하려 할 때, 다른 솔�
 
 다음을 참조하십시오 [Adobe Experience Platform Mobile SDK를 통해 데이터 수집 및 사용](./aepmobilesdk.md) 추가 정보.
 
-### Adobe Experience Platform Edge Network Server API 사용
+### Adobe Experience Platform Edge Network 서버 API 사용
 
-데스크탑 애플리케이션, 게임 콘솔에서 재생되는 게임, 셋톱 박스에서 비디오 스트리밍 애플리케이션의 사용 또는 Adobe 기술이 있는 IoT 장치를 분석하려는 경우. 다른 솔루션에서 마이그레이션하거나 이러한 장치에서 개인의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform Edge Network Server API 및 Edge Network를 사용하여 데이터를 수집하는 Adobe의 구현 우수 사례를 따르고자 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
+데스크탑 애플리케이션, 게임 콘솔에서 재생되는 게임, 셋톱 박스에서 비디오 스트리밍 애플리케이션의 사용 또는 Adobe 기술이 있는 IoT 장치를 분석하려는 경우. 다른 솔루션에서 마이그레이션하거나 이러한 장치에서 개인의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 데이터를 수집하는 Adobe의 구현 모범 사례를 따르고자 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Experience Platform Edge Network Server API를 통해 데이터 수집 및 사용](./serverapi.md) 추가 정보.
+다음을 참조하십시오 [Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집 및 사용](./serverapi.md) 추가 정보.
 
 ## 배치 데이터 수집 및 사용
 
