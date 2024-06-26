@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 76%
+source-wordcount: '1052'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 76%
 
 Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유 사용자의 수입니다.
 
-미디어 동시 뷰어 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.  미디어 동시 뷰어 패널에 액세스하려면 Media Analytics 구성 요소가 활성화된 데이터 보기로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 클릭하고 패널을 Analysis Workspace 프로젝트로 끌어옵니다.
+미디어 동시 뷰어 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.  미디어 동시 뷰어 패널에 액세스하려면 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 활성화된 데이터 보기로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 클릭하고 패널을 Analysis Workspace 프로젝트로 끌어옵니다.
 
 다음은 이 패널에 대한 비디오 개요입니다.
 

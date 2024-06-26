@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 1c9f3d1de499eda5aeeb4e6763871c8a2e7d075d
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 67%
+source-wordcount: '942'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace에서 재생 소요 시간은 특정 시점에 미디어 스�
 
 미디어 재생 소요 시간 패널을 통해 최대 동시 시청과 분류 및 비교 기능에 대한 세부 정보와 함께 시간 경과에 따른 재생을 분석할 수 있습니다.
 
-Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시청자 참여에 대한 귀중한 통찰력을 얻고 볼륨 또는 규모에 대한 문제 해결 또는 계획 시 도움이 될 수 있습니다.
+스트리밍 미디어 컬렉션 추가 기능을 구입한 고객은 재생 시간을 분석하여 콘텐츠 품질 및 뷰어 참여에 대한 중요한 통찰력을 얻고 볼륨 또는 규모에 대한 문제 해결 또는 계획 시 도움이 될 수 있습니다.
 
 재생 소요 시간 은 다음 사항을 이해하는 데 도움이 됩니다.
 
@@ -31,7 +31,7 @@ Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시
 
 ## 미디어 재생 소요 시간 패널 사용
 
-1. Media Analytics 구성 요소가 활성화된 보고서 세트로 이동합니다.
+1. 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 활성화된 보고서 세트로 이동합니다.
 
 1. 맨 왼쪽에서 패널 아이콘을 선택한 다음 패널을 Analysis Workspace 프로젝트로 드래그합니다.
 

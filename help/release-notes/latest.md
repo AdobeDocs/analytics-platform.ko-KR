@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8315bf705b576d597e346d17ff3998c336174361
+source-git-commit: 1534b628841a5b4588379b944822073f3288d710
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 95%
+source-wordcount: '1129'
+ht-degree: 93%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 95%
 | **파생 필드 - 중복 제거 함수** | 값이 반복적으로 계산되는 것을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 적용하거나 차원의 고유 값을 기반으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 7월 10일 목요일 |
 | **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간인지, 48시간인지 또는 7일인지 여부에 관계없이 90분(SLT) 이내에 Customer Journey Analytics에서 이벤트 데이터를 수집할 수 있습니다. 이 기능은 회사에서 구입한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 기본: 90분 내 24시간 이전 데이터 SLT 처리(CJA Foundation 및 CJA Select에 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 내 72시간 이전 데이터 SLT 처리(CJA Prime에 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 내 1주 전 데이터 SLT 처리(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 7월 중순 |
-| **드롭다운 필터에서 여러 필드 선택** | 드롭다운 필터에 여러 필드를 추가한 경우 이제 사용자가 한 번에 여러 개의 필드를 선택할 수 있습니다. 선택된 필드를 포함하도록 패널이 필터링됩니다. <p>이전에는 사용자가 드롭다운 필터에서 한 번에 하나의 필드만 선택할 수 있었습니다.</p><p>드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 드롭다운 필터에서 선택을 요구하는 옵션이 메뉴로 이동되었습니다.</p><p>이전에는 사용자가 드롭다운 메뉴에서 [필터 없음] 옵션 옆에 있는 (x)를 클릭할 수 있었습니다.</p><p>자세한 내용은 [패널 개요](/help/analysis-workspace/c-panels/panels.md)의 [정적 드롭다운 필터](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters)를 참조하십시오.</p> |  | 2024년 6월 19일 |
-| **Workspace 프로젝트 목차** | 이제 프로젝트에 새로운 목차를 사용할 수 있습니다. 목차는 사용자가 프로젝트 내 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. <p>목차는 모든 프로젝트의 왼쪽 레일에서 사용할 수 있습니다.</p><p>자세한 내용은 [프로젝트 목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 참조하십시오. |  | 2024년 6월 19일 |
-| **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 여러 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 해당 항목을 클릭하도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대해 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대해 사용자 정의 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 정의 URL을 만들 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>자세한 내용은 [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.</p> |  | 2024년 6월 19일 |
+| **드롭다운 필터에서 여러 필드 선택** | 드롭다운 필터에 여러 필드를 추가한 경우 이제 사용자가 한 번에 여러 개의 필드를 선택할 수 있습니다. 선택된 필드를 포함하도록 패널이 필터링됩니다. <p>이전에는 사용자가 드롭다운 필터에서 한 번에 하나의 필드만 선택할 수 있었습니다.</p><p>드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 드롭다운 필터에서 선택을 요구하는 옵션이 메뉴로 이동되었습니다.</p><p>이전에는 사용자가 드롭다운 메뉴에서 [필터 없음] 옵션 옆에 있는 (x)를 클릭할 수 있었습니다.</p><p>자세한 내용은 [패널 개요](/help/analysis-workspace/c-panels/panels.md)의 [정적 드롭다운 필터](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters)를 참조하십시오.</p><p>[이 기능에 대한 비디오 데모 보기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters).</p> |  | 2024년 6월 19일 |
+| **Workspace 프로젝트 목차** | 이제 프로젝트에 새로운 목차를 사용할 수 있습니다. 목차는 사용자가 프로젝트 내 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. <p>목차는 모든 프로젝트의 왼쪽 레일에서 사용할 수 있습니다.</p><p>자세한 내용은 [프로젝트 목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 참조하십시오.</p><p>[이 기능에 대한 비디오 데모 보기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace).</p> |  | 2024년 6월 19일 |
+| **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 여러 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 해당 항목을 클릭하도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대해 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대해 사용자 정의 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 정의 URL을 만들 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>자세한 내용은 [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.</p><p>[이 기능에 대한 비디오 데모 보기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables).</p> |  | 2024년 6월 19일 |
 | **Adobe Journey Optimizer와 함께 Customer Journey Analytics 데이터 보기 사용** | Customer Journey Analytics의 새 구성 옵션을 사용하면 수동 구성 없이 Adobe Journey Optimizer와 함께 사용할 Customer Journey Analytics 데이터 보기를 지정할 수 있습니다. <p>이 구성 옵션을 활성화하는 방법에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)의 [호환성](/help/data-views/create-dataview.md#compatibility) 섹션을 참조하십시오.</p><p>이전에는 Customer Journey Analytics에서 Journey Optimizer 데이터를 볼 때 연결 및 데이터 보기를 수동으로 구성해야 했습니다.</p> |  | 2024년 6월 19일 |
 | **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> <p>(참조할 설명서 링크)</p> |  | 2024년 7월 14일 |
 
@@ -53,6 +53,6 @@ AN-345454; AN-349816; AN-349905; AN-350617
 
 * [2024년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2024.md)
 * [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
+* [스트리밍 미디어 컬렉션 추가 기능 릴리스 노트](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
 * [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)

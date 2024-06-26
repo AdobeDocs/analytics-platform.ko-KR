@@ -3,9 +3,10 @@ title: 미디어 분당 평균 시청 시간 패널
 description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패널을 사용하고 해석하는 방법.
 feature: Panels
 role: User, Admin
-source-git-commit: 907a627720910794d77f016d797f1b95d2d3ce13
+exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1664'
 ht-degree: 31%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->Customer Journey Analytics 미디어 분당 평균 시청 시간 패널은 미디어용 Media Analytics 추가 기능을 구입한 고객에게만 제공됩니다.
+>Customer Journey Analytics 미디어 분당 평균 시청 시간 패널은 스트리밍 미디어용 스트리밍 미디어 컬렉션 추가 기능을 구입한 고객만 사용할 수 있습니다.
 >
->Media Analytics를 구매하려면 Adobe 영업 담당자 또는 Adobe 계정 팀에 문의하십시오.
+>스트리밍 미디어 컬렉션 추가 기능을 구매하려면 Adobe 영업 담당자 또는 Adobe 계정 팀에 문의하십시오.
 
 Analysis Workspace에서 분당 평균 시청 시간은 미디어 스트림을 보는 데 소요된 시간을 콘텐츠 지속 시간 또는 기간의 총합 및 선택된 세부 기간으로 나눈 값입니다.
 
@@ -34,7 +35,7 @@ Analysis Workspace에서 분당 평균 시청 시간은 미디어 스트림을 �
 
 ## 미디어 분당 평균 시청 시간 패널에 액세스
 
-1. Analysis Workspace에서 Media Analytics 구성 요소가 활성화된 보고서 세트로 이동합니다.
+1. Analysis Workspace에서 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 활성화된 보고서 세트로 이동합니다.
 
 1. 왼쪽 탐색에서 **패널** 아이콘.
 

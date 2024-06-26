@@ -4,14 +4,14 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 0c83d64a2ab3d23f92bc804092fc507479418052
+source-git-commit: 1534b628841a5b4588379b944822073f3288d710
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 1%
 
 ---
 
-# 자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기
+# 자유 형식 테이블의 차원에 대한 하이퍼링크 만들기
 
 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다.
 
@@ -22,6 +22,10 @@ ht-degree: 0%
 * 연결할 URL 값이 있는 분류가 포함된 Dimension 항목(예: 페이지 URL 차원의 분류가 있는 페이지 이름 차원)
 
 * 연결할 URL의 일부인 값이 있는 Dimension 항목 또는 분류(예: URL의 일부인 페이지 이름 차원)
+
+다음은 이 기능에 대한 비디오 데모입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 ## 하나 이상의 차원 항목에 대한 하이퍼링크 만들기
 

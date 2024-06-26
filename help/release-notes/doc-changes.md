@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '3746'
-ht-degree: 72%
+source-wordcount: '3810'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 6월** | |
+| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 Analysis Workspace에 표시하는 스트리밍 미디어 기능 집합을 참조할 때 &quot;Media Analytics&quot; 및 &quot;Streaming Media&quot;의 인스턴스를 &quot;스트리밍 미디어 컬렉션 추가 기능&quot;이라는 이름으로 대체했습니다. <p>이러한 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview).</p> |
 | 그래프 기반 결합 | 업데이트 및 재구성 [결합 설명서](/help/stitching/overview.md) 그래프 기반 결합을 도입했습니다. |
 | AI 어시스턴트 | 추가됨 [설명서](../ai-assistant.md) Customer Journey Analytics을 위한 AI 지원 |
 | B2B 조회를 위한 데이터 세트 변환 | 지원 방법에 대한 설명서를 추가했습니다. [B2B 데이터에 대한 사용자 기반 조회](/help/connections//transform-datasets-b2b-lookups.md) (계정, 기회, 마케팅 목록 및 캠페인 포함) B2B 조회 데이터 세트의 변형을 사용합니다. |
@@ -40,7 +41,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Product Analytics 기능에 대한 새로운 설명서 | <ul><li>[기능 매트릭스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>고급 [유지율](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[단계의 Enhanced Insights](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>단일 단계 내 이벤트 비교</li></ul> |
 | **2024년 3월** | |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/getting-started/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
-| 프로젝트 전용 Workspace 구성 요소의 권한 향상에 대한 설명서가 추가되었습니다 | 프로젝트를 다른 사용자와 공유하는 경우 해당 사용자가 편집할 수 있습니다 [빠른 필터](/help/components/filters/quick-filters.md) 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |
+| 프로젝트 전용 Workspace 구성 요소의 권한 개선에 대한 설명서를 추가했습니다 | 프로젝트를 다른 사용자와 공유하는 경우 해당 사용자가 편집할 수 있습니다 [빠른 필터](/help/components/filters/quick-filters.md) 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |
 | **2024년 2월** | |
 | 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [나와 공유된 프로젝트 보기](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>[개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md). |
@@ -71,7 +72,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
 | 목표/목표 설정에 파생 필드 사용 | 추가됨 [사용 사례](../use-cases/goals-using-derived-fields.md) 목표/타겟 설정 및 보고를 위해 파생 필드를 사용하는 방법을 설명하는 문서입니다. |
-| 클라우드로 전체 테이블 내보내기 | 수백만 개의 작업 영역 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
+| 클라우드로 전체 테이블 내보내기 | 수백만 개의 Workspace 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
 | 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 관리자는 보고 사용량에 대해 자세히 파악할 수 있으므로 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있습니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 관리 페이지의 새 열 | 에서 사용할 수 있는 새로운 열 문서화 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 및 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | Adobe Analytics와의 비교 | 을(를) 추가함 [개요 페이지](../getting-started/aa-vs-cja/overview.md) Customer Journey Analytics과 Adobe Analytics의 차이점을 비교하고 이해하는 데 대한 소개입니다. |
@@ -93,7 +94,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (흔히 복잡한) 데이터 조작을 정의할 수 있습니다. |
 | 프로필 및 조회 데이터에 대한 조회 지원이 확장됨 | 프로필 또는 조회 데이터 세트 내의 필드 조회로 데이터 세트를 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) |
 | Report Builder 개선 사항 | <ul><li>[여러 데이터 블록에 대해 셀에서 필터링합니다](/help/report-builder/select-data-view.md)</li><li>[행 및 열 헤더를 표시하거나 숨깁니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
-| 에지 네트워크 지역 조회 | [데이터 스트림 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 은 통합 지역 데이터를 제공하는 지역 조회 서비스를 어떻게 사용합니까? |
+| 지역 조회 Edge Network | [데이터 스트림 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 은 통합 지역 데이터를 제공하는 지역 조회 서비스를 어떻게 사용합니까? |
 | **2023년 6월** | |
 | 교차 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 교차 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 교차 채널 분석 기능과 관련된 문서가 [교차 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics BI 확장을 사용하면 Customer Journey Analytics에서 정의한 데이터 보기에 SQL로 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/bi-extension.md) |
