@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
+source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 54%
@@ -90,7 +90,7 @@ Journey Optimizer에 대해 Customer Journey Analytics 보고를 활성화한 �
    - 가 있는 모든 지표 및 차원 [!UICONTROL (AJO)] 이름에 추가된 이 자동 구성의 일부로 자동으로 추가됩니다.
    - 자동으로 추가된 일부 지표 또는 차원은 파생 필드를 기반으로 합니다. 이러한 파생된 필드는 이 통합을 위해 특별히 만들어집니다. (예: 지표) [!UICONTROL 랜딩 페이지 클릭수(AJO)] 를 기반으로 함 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드.
    - 일부 지표 또는 차원에는 추가 구성이 있습니다. 예를 들어, [!UICONTROL 스팸 고객 불만(AJO)] 다음을 포함 [!UICONTROL 형식] 및 [!UICONTROL 포함/제외 값] 설정이 적용되었습니다.
-   - 자동으로 추가된 모든 지표 및 차원에는 라는 컨텍스트 레이블이 있습니다. `:`*`name_of_metric_or_dimension`*. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에 컨텍스트 레이블이 있음 `: Landing page clicks (AJO)`.
+   - 자동으로 추가된 모든 지표 및 차원에는 라는 컨텍스트 레이블이 있습니다. `:`*`name_of_metric_or_dimension`*. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에 컨텍스트 레이블이 있음 `:Landing page clicks (AJO)`.
 
 - 다음에서 **[!UICONTROL 설정]** 탭, 특정 구성 값이 적용되지 않음
 
