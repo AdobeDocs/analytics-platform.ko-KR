@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 529dd2ed2af60f8b417a5bf7d728a201dad70218
+source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1541'
 ht-degree: 54%
 
 ---
@@ -45,7 +45,7 @@ Journey Optimizer에 대해 Customer Journey Analytics 보고를 활성화한 �
 
 | 데이터 세트 이름 | 스키마 | 데이터 세트 유형 | 데이터 소스 유형 | 개인 Id | 키 | 일치하는 키 | 새 데이터 가져오기 | 데이터 채우기 |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience.decisioning.`<br/>`propositions.scopeDetails.`<br/>`correlationID` | ![상태 녹색](assets/../../connections/assets/status-green.svg) 날짜 | ![상태 회색](assets/../../connections/assets/status-gray.svg) 끔 |
+| [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![상태 녹색](assets/../../connections/assets/status-green.svg) 날짜 | ![상태 회색](assets/../../connections/assets/status-gray.svg) 끔 |
 | [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration에 대한 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL  IdentityMap(\&lt;primary>)] | - | - | ![상태 녹색](assets/../../connections/assets/status-green.svg) 날짜 | ![상태 회색](assets/../../connections/assets/status-gray.svg) 끔 |
 | [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary>)] | - | - | ![상태 녹색](assets/../../connections/assets/status-green.svg) 날짜 | ![상태 회색](assets/../../connections/assets/status-gray.svg) 끔 |
 | [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary>)] | - | - | ![상태 녹색](assets/../../connections/assets/status-green.svg) 날짜 | ![상태 회색](assets/../../connections/assets/status-gray.svg) 끔 |
@@ -87,10 +87,10 @@ Journey Optimizer에 대해 Customer Journey Analytics 보고를 활성화한 �
 
 
 - 다음에서 **구성 요소** 탭:
-   - 가 있는 모든 지표 및 차원 **[!UICONTROL (AJO)]** 이름에 추가된 이 자동 구성의 일부로 자동으로 추가됩니다.
-   - 자동으로 추가된 지표 또는 차원 중 일부는 파생 필드를 기반으로 합니다. 이러한 파생된 필드는 이 통합을 위해 특별히 만들어집니다. 예를 들어 지표 랜딩 페이지 클릭 수(AJO)는 랜딩 페이지 클릭 수 파생 필드를 기반으로 합니다.
-   - 일부 지표 또는 차원에는 추가 구성이 있습니다. 예를 들어 스팸 컴플레인(AJO)에는 형식 및 포함/제외 값 설정이 적용되어 있습니다.
-   - 자동으로 추가된 모든 지표 및 차원에는 라는 컨텍스트 레이블이 있습니다. **[!UICONTROL :*name_of_metric_or_dimension *]**. 예를 들어[!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에 컨텍스트 레이블이 있음 [!UICONTROL :랜딩 페이지 클릭수(AJO)].
+   - 가 있는 모든 지표 및 차원 [!UICONTROL (AJO)] 이름에 추가된 이 자동 구성의 일부로 자동으로 추가됩니다.
+   - 자동으로 추가된 일부 지표 또는 차원은 파생 필드를 기반으로 합니다. 이러한 파생된 필드는 이 통합을 위해 특별히 만들어집니다. (예: 지표) [!UICONTROL 랜딩 페이지 클릭수(AJO)] 를 기반으로 함 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드.
+   - 일부 지표 또는 차원에는 추가 구성이 있습니다. 예를 들어, [!UICONTROL 스팸 고객 불만(AJO)] 다음을 포함 [!UICONTROL 형식] 및 [!UICONTROL 포함/제외 값] 설정이 적용되었습니다.
+   - 자동으로 추가된 모든 지표 및 차원에는 라는 컨텍스트 레이블이 있습니다. `:`*`name_of_metric_or_dimension`*. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에 컨텍스트 레이블이 있음 `: Landing page clicks (AJO)`.
 
 - 다음에서 **[!UICONTROL 설정]** 탭, 특정 구성 값이 적용되지 않음
 
