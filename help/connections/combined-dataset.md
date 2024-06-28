@@ -5,20 +5,20 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 61%
+source-wordcount: '676'
+ht-degree: 41%
 
 ---
 
 
 # 결합된 이벤트 데이터 세트
 
-연결을 만들면 Customer Journey Analytics은 모든 스키마와 데이터 세트를 단일 데이터 세트에 결합합니다. 이 &#39;결합된 이벤트 데이터 세트&#39;는 Customer Journey Analytics이 보고에 사용하는 것입니다. 연결에 여러 개의 스키마나 데이터 세트를 포함하는 경우:
+연결을 만들면 Customer Journey Analytics은 모든 이벤트 데이터 세트를 단일 데이터 세트로 결합합니다. 이 결합된 이벤트 데이터 세트는 Customer Journey Analytics이 보고에 사용하는 것입니다(프로필 및 조회 데이터 세트와 함께). 연결에 여러 이벤트 데이터 세트를 포함하는 경우:
 
-* 스키마가 결합됩니다. 중복된 스키마 필드가 병합됩니다.
-* 각 데이터 세트의 &#39;개인 ID&#39; 열은 이름과 관계없이 하나의 열에 병합됩니다. 이 열은 Customer Journey Analytics에서 고유한 사용자를 식별하는 기반입니다.
+* 를 기반으로 하는 데이터 세트의 필드에 대한 데이터 **동일한 스키마 경로** 결합된 데이터 세트에 있는 단일 열로 병합됩니다.
+* 각 데이터 세트에 대해 지정된 개인 ID 열은 결합된 데이터 세트의 단일 열에 병합됩니다. **이름에 상관없이**. 이 열은 Customer Journey Analytics에서 고유한 사용자를 식별하는 기반입니다.
 * 행은 타임스탬프를 기반으로 처리됩니다.
 * 이벤트는 밀리초 수준까지 해결됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->Adobe Experience Platform은 일반적으로 타임스탬프를 Unix 밀리초 단위로 저장합니다. 이 예에서 가독성을 위해 날짜 및 시간이 사용됩니다.
+>Adobe Experience Platform은 일반적으로 타임스탬프를 UNIX® 밀리초로 저장합니다. 이 예에서 가독성을 위해 날짜 및 시간이 사용됩니다.
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
@@ -45,7 +45,12 @@ ht-degree: 61%
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
-이 두 이벤트 데이터 세트를 사용하여 연결을 만들 때 다음 표를 보고에 사용합니다.
+이 두 이벤트 데이터 세트를 사용하여 연결을 만들고 다음을 식별한 경우
+
+* `example_id` 를 첫 번째 데이터 세트의 개인 ID로,
+* `different_id` 두 번째 데이터 세트에 대한 개인 ID로,
+
+보고에는 다음과 같은 결합된 데이터 세트가 사용됩니다.
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -58,6 +63,8 @@ ht-degree: 61%
 | `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
+
+스키마 경로의 중요성을 설명하려면 이 시나리오를 고려하십시오. 첫 번째 데이터 세트에서 `string_color` 스키마 경로를 기반으로 함 `_experience.whatever.string_color` 스키마 경로의 두 번째 데이터 세트에서  `_experience.somethingelse.string_color`. 이 시나리오에서 데이터는 **아님** 결합된 결과 데이터 세트의 한 열로 병합됩니다. 대신 결과는 2입니다 `string_color` 결합된 데이터 세트에 있는 열입니다.
 
 이 결합된 이벤트 데이터 세트는 보고에서 사용되는 것입니다. 행이 어느 데이터 세트에 포함되어 있든 상관없습니다. Customer Journey Analytics은 모든 데이터를 동일한 데이터 세트에 있는 것처럼 처리합니다. 일치하는 개인 ID가 두 데이터 세트에 표시되면 동일한 고유 사용자로 간주됩니다. 30분 내에 타임스탬프가 있는 두 데이터 세트에 일치하는 개인 ID가 표시되면 동일한 세션의 일부로 간주됩니다.
 
@@ -97,7 +104,7 @@ ht-degree: 61%
 
 * [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md)
 
-보다 심층적인 토론 결합 기능을 보려면 다음 위치로 이동하십시오.
+결합 기능에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 
 * [결합 개요](/help/stitching/overview.md)
 * [자주 묻는 질문](/help/stitching/faq.md)
