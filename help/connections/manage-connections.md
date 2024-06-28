@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
+source-git-commit: c0599526e6a6a9ac9788a4ce29bcf44256b6c4df
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3277'
 ht-degree: 14%
 
 ---
@@ -206,7 +206,12 @@ ht-degree: 14%
 
 ## 사용
 
-다음 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여줍니다. 이 인터페이스는 Customer Journey Analytics 사용이 계약에 합의된 내용을 준수하는지 여부를 확인할 수 있도록 지원합니다.
+다음 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여줍니다. 이 인터페이스는 Customer Journey Analytics 사용이 계약에 합의된 내용을 준수하는지 여부를 확인할 수 있도록 지원합니다. 모니터링 목적 외에 사용 UI를 사용하여 Customer Journey Analytics 라이선스 갱신을 더 잘 계획할 수 있습니다.
+
+시간 범위(최근 6개월, 연간 누계 또는 최근 2년 사이)와 간격(월별 또는 분기별)을 선택하여 Customer Journey Analytics 사용을 모니터링할 수 있습니다. 인터페이스는 두 개의 섹션으로 나뉩니다.
+
+* 수집된 행: 수집 중 건너뛴 레코드를 포함하여 모든 CJA 연결의 이벤트 데이터 세트에서 수집/전송된 총 행
+* 보고 가능한 행: 모든 CJA 연결의 모든 이벤트 데이터를 포함하는 총 보고 가능한 행
 
 ![usage-view](assets/usage-view.png)
 
