@@ -5,10 +5,10 @@ title: 프로젝트 목차
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
+source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '142'
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 6%
 
 Analysis Workspace의 각 프로젝트 내에서 목차를 볼 수 있으므로 프로젝트에 있는 모든 패널과 시각화 사이를 빠르게 이동할 수 있습니다. 이 기능은 많은 패널과 시각화가 포함된 더 큰 프로젝트를 볼 때 특히 유용합니다.
 
-다음은 이 기능에 대한 비디오 데모입니다.
++++이 기능에 대한 비디오 데모 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+
++++
 
 프로젝트에 대한 목차를 보려면 다음과 같이 하십시오.
 

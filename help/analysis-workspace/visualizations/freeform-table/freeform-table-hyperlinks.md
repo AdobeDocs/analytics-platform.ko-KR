@@ -4,9 +4,9 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: afa6a3cf8763a2d6419ec859385abc4cf095f214
+source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 1%
 
 * 연결할 URL의 일부인 값이 있는 Dimension 항목 또는 분류(예: URL의 일부인 페이지 이름 차원)
 
-다음은 이 기능에 대한 비디오 데모입니다.
++++이 기능에 대한 비디오 데모 보기
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## 하나 이상의 차원 항목에 대한 하이퍼링크 만들기
 
