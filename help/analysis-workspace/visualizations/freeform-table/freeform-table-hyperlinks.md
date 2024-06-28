@@ -4,9 +4,9 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
+source-git-commit: afa6a3cf8763a2d6419ec859385abc4cf095f214
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 다음은 이 기능에 대한 비디오 데모입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
 
 ## 하나 이상의 차원 항목에 대한 하이퍼링크 만들기
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
      | 필드 | 설명 |
      |---------|----------|
-     | [!UICONTROL **사용자 정의 URL**] | 하이퍼링크에 사용할 사용자 지정 URL을 지정합니다. URL은 정규화된 URL로 입력해야 합니다. 예: https://www.example.com<p>생성하는 사용자 지정 URL은 정적 또는 동적 URL일 수 있습니다.</p> <ul><li>**정적 URL:** 개별 차원 항목에 대한 하이퍼링크를 만드는 경우 정적 URL이면 충분할 수 있습니다. <p>다음 예를 생각해 보십시오.예를 들어 페이지 이름 차원 항목이 있는 경우 페이지 이름과 연결할 특정 웹 페이지에 사용자를 연결하는 정적 URL을 만들 수 있습니다.</p><p>내부 wiki 페이지 내의 설명서에서 각 정의에 연결된 차원 항목 목록에 대한 하이퍼링크를 만들려고 한다고 가정합니다.</p><p>각 차원 항목에 대한 정적 URL을 생성하여 이를 수행할 수 있습니다. 예:</p><p>https://wiki.internal.company_name/page_name#item_definition</p></li><li>**동적 URL:** 차원 열의 여러 차원 항목 또는 모든 차원 항목에 대한 하이퍼링크를 만드는 경우 동적 URL이 더 실용적일 수 있습니다. <p>사용자 지정 URL을 동적으로 만들려면 차원 자체의 값 또는 분류 차원의 값에 따라 URL이 동적으로 변경될 수 있는 변수를 URL 내에 포함합니다.</p><p>변수를 사용할 때 URL에서 유효하지 않은 문자(예: 공백)가 포함된 모든 차원 항목은 URL로 인코딩됩니다.</p><p>다음 변수를 사용할 수 있습니다. (**참고**: 동일한 URL에서 이러한 변수를 사용할 수 있지만, 별도로 사용하는 것이 더 일반적일 수 있습니다.)</p> <ul><li>**`$value`:** 지정한 URL에 차원 항목의 값을 삽입할 수 있습니다. <p>예를 들어 다음 시나리오를 생각해 보십시오.</p><p>자유 형식 테이블의 모든 페이지 이름 차원 항목에 대한 하이퍼링크를 만들려고 한다고 가정합니다. 여기서 각 차원 항목의 값은 웹 페이지의 URL의 일부입니다. 이 경우 각 차원 항목에 대해 동적으로 조정되는 단일 사용자 지정 URL을 구성할 수 있습니다. </p><p>다음을 추가하여 이를 수행할 수 있습니다. `$value` 변수를 지정한 사용자 지정 URL의 끝에 추가합니다. 예:</p> <p>https://company-name.com/browse/product#$value</p><p>이 사용자 지정 URL을 값이 &quot;ProductY&quot; 및 &quot;ProductZ&quot;인 페이지 이름 차원 항목에 적용하면 생성된 하이퍼링크는 다음과 같이 표시됩니다. </p><p>https://company-name.com/browse/product#ProductY</p><p>및</p><p> https://company-name.com/browse/product#ProductZ </p><p>![하이퍼링크의 값 사용](assets/table-hyperlinks-vaule.png)</p><p>**팁**: 를 추가하려는 경우 `$value` 변수를 사용자 지정 URL 필드에 매핑하는 것은 [!UICONTROL **차원 항목의 값 사용**] 옵션을 사용하여 URL을 만들 수 있습니다.</p></li><li>**`$breakdown`:** 분류 차원 항목의 값을 지정한 URL에 삽입할 수 있습니다. 이를 통해 제품 ID 또는 페이지 URL 차원과 같이 사용자에게 친숙한 차원을 사용하지 않을 수 있는 분류 차원을 기반으로 하이퍼링크를 생성하는 동안 보고서에 사용자에게 친숙한 이름의 차원(예: 제품 이름 차원)을 사용할 수 있습니다.<p>분류 차원을 참조할 때 주어진 차원 항목에 대해 하나의 분류 항목만 있는 것이 가장 일반적입니다. 주어진 차원 항목에 대해 여러 분류 항목이 있는 경우 URL에서 첫 번째 분류 항목의 값이 사용됩니다. 분류 항목이 나열되지 않으면 URL이 유효하지 않게 됩니다. 테이블에 적용되는 것과 동일한 정렬 순서가 분류 항목에 적용됩니다.</p><p>다음에서 분류 차원을 지정합니다. [!UICONTROL **분류 차원**] 아래 필드.</p> <p>다음에 대해 설명된 예제 시나리오를 고려하십시오. [!UICONTROL **분류 차원**] 아래 필드.</p></li></ul> |
+     | [!UICONTROL **사용자 정의 URL**] | 하이퍼링크에 사용할 사용자 지정 URL을 지정합니다. URL은 정규화된 URL로 입력해야 합니다. 예: <https://www.example.com><p>생성하는 사용자 지정 URL은 정적 또는 동적 URL일 수 있습니다.</p> <ul><li>**정적 URL:** 개별 차원 항목에 대한 하이퍼링크를 만드는 경우 정적 URL이면 충분할 수 있습니다. <p>다음 예를 생각해 보십시오.예를 들어 페이지 이름 차원 항목이 있는 경우 페이지 이름과 연결할 특정 웹 페이지에 사용자를 연결하는 정적 URL을 만들 수 있습니다.</p><p>내부 wiki 페이지 내의 설명서에서 각 정의에 연결된 차원 항목 목록에 대한 하이퍼링크를 만들려고 한다고 가정합니다.</p><p>각 차원 항목에 대한 정적 URL을 생성하여 이를 수행할 수 있습니다. 예:</p><p>https://wiki.internal.company_name/page_name#item_definition</p></li><li>**동적 URL:** 차원 열의 여러 차원 항목 또는 모든 차원 항목에 대한 하이퍼링크를 만드는 경우 동적 URL이 더 실용적일 수 있습니다. <p>사용자 지정 URL을 동적으로 만들려면 차원 자체의 값 또는 분류 차원의 값에 따라 URL이 동적으로 변경될 수 있는 변수를 URL 내에 포함합니다.</p><p>변수를 사용할 때 URL에서 유효하지 않은 문자(예: 공백)가 포함된 모든 차원 항목은 URL로 인코딩됩니다.</p><p>다음 변수를 사용할 수 있습니다. (**참고**: 동일한 URL에서 이러한 변수를 사용할 수 있지만, 별도로 사용하는 것이 더 일반적일 수 있습니다.)</p> <ul><li>**`$value`:** 지정한 URL에 차원 항목의 값을 삽입할 수 있습니다. <p>예를 들어 다음 시나리오를 생각해 보십시오.</p><p>자유 형식 테이블의 모든 페이지 이름 차원 항목에 대한 하이퍼링크를 만들려고 한다고 가정합니다. 여기서 각 차원 항목의 값은 웹 페이지의 URL의 일부입니다. 이 경우 각 차원 항목에 대해 동적으로 조정되는 단일 사용자 지정 URL을 구성할 수 있습니다. </p><p>다음을 추가하여 이를 수행할 수 있습니다. `$value` 변수를 지정한 사용자 지정 URL의 끝에 추가합니다. 예:</p> <p>https://company-name.com/browse/product#\$value</p><p>이 사용자 지정 URL을 값이 &quot;ProductY&quot; 및 &quot;ProductZ&quot;인 페이지 이름 차원 항목에 적용하면 생성된 하이퍼링크는 다음과 같이 표시됩니다. </p><p>https://company-name.com/browse/product#ProductY</p><p>및</p><p> https://company-name.com/browse/product#ProductZ </p><p>![하이퍼링크의 값 사용](assets/table-hyperlinks-vaule.png)</p><p>**팁**: 를 추가하려는 경우 `$value` 변수를 사용자 지정 URL 필드에 매핑하는 것은 [!UICONTROL **차원 항목의 값 사용**] 옵션을 사용하여 URL을 만들 수 있습니다.</p></li><li>**`$breakdown`:** 분류 차원 항목의 값을 지정한 URL에 삽입할 수 있습니다. 이를 통해 제품 ID 또는 페이지 URL 차원과 같이 사용자에게 친숙한 차원을 사용하지 않을 수 있는 분류 차원을 기반으로 하이퍼링크를 생성하는 동안 보고서에 사용자에게 친숙한 이름의 차원(예: 제품 이름 차원)을 사용할 수 있습니다.<p>분류 차원을 참조할 때 주어진 차원 항목에 대해 하나의 분류 항목만 있는 것이 가장 일반적입니다. 주어진 차원 항목에 대해 여러 분류 항목이 있는 경우 URL에서 첫 번째 분류 항목의 값이 사용됩니다. 분류 항목이 나열되지 않으면 URL이 유효하지 않게 됩니다. 테이블에 적용되는 것과 동일한 정렬 순서가 분류 항목에 적용됩니다.</p><p>다음에서 분류 차원을 지정합니다. [!UICONTROL **분류 차원**] 아래 필드.</p> <p>다음에 대해 설명된 예제 시나리오를 고려하십시오. [!UICONTROL **분류 차원**] 아래 필드.</p></li></ul> |
      | [!UICONTROL **분류 차원 (선택 사항)**] | 사용할 분류 차원의 이름을 입력한 다음 드롭다운 목록에서 선택합니다. <p>이 필드에서 분류 차원을 선택하는 경우 다음을 사용하여 참조해야 합니다. `$breakdown` 변수를에 지정하는 URL의 [!UICONTROL **사용자 정의 URL**] 필드.</p><p>예를 들어 다음 시나리오를 생각해 보십시오.</p><p>자유 형식 테이블의 모든 제품 이름 차원 항목에 대한 하이퍼링크를 만들려고 한다고 가정합니다. 각 제품 이름 차원 항목에는 제품 ID 차원에 대한 분류가 포함됩니다.</p></p>이 경우 제품 ID 분류 차원의 값을 사용하여 사용자를 제품 페이지로 안내하는 각 제품 이름 차원에 대한 하이퍼링크를 만들 수 있습니다. </p><p>다음을 추가하여 이를 수행할 수 있습니다. `$breakdown` 변수를에서 지정하는 사용자 지정 URL의 끝으로 [!UICONTROL **사용자 정의 URL**] 필드. 예:</p><p>https://company-name.com/browse/product/$breakdown</p><p>이 사용자 지정 URL을 값이 &quot;ProductY&quot; 및 &quot;ProductZ&quot;인 분류 차원 항목을 포함하는 제품 이름 차원 항목에 적용할 경우 생성된 하이퍼링크는 다음과 같이 표시됩니다.</p><p>https://company-name.com/browse/product/ProductY</p><p>및</p><p>https://company-name.com/browse/product/ProductZ</p><p>그런 다음, [!UICONTROL **분류 차원**] 필드 </p><p>![하이퍼링크에서 분류 사용](assets/table-hyperlinks-breakdown.png)</p> |
 
 1. [!UICONTROL **만들기**]&#x200B;를 선택합니다.
