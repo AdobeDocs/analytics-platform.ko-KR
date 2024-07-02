@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 >[!TAB AI 어시스턴트]
 
-AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해주고 전반적인 업무의 질을 높여주기도 합니다.
+AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB 그래프 기반 결합]
+>[!TAB 그래프 기반 스티칭]
 
-그래프 기반 결합을 통해 Experience Platform ID 서비스의 ID 그래프를 사용하여 다음과 같이 함으로써 고객 여정을 더 잘 볼 수 있습니다. <ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 간 ID를 공유하여 단일 데이터 세트에 대한 선호 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>
+그래프 기반 결합을 통해 Experience Platform ID 서비스의 아이덴티티 그래프를 사용하면 다음 작업을 수행하여 고객 여정을 더 효과적으로 확인할 수 있습니다. <ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 전체에서 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>
 
 [![이미지](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -43,7 +43,7 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 >[!TAB 파생 필드]
 
-새로운 파생 필드 함수(수학, 다음 또는 이전, 요약) 및 추가 함수 템플릿(예: 바운스, 친숙한 데이터 세트 이름, 휴일 시즌, 월별 목표, 간단한 보트 탐지 등)을 사용할 수 있습니다.
+이제 새로운 파생 필드 기능(수학, 다음 또는 이전, 요약)과 추가 기능 템플릿(예: 바운스, 알기 쉬운 데이터 세트 이름, 휴가 시즌, 월간 목표, 간단한 봇 감지 등)을 사용할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -53,7 +53,7 @@ BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-*_BI 확장을 사용하려면 Select 패키지 이상이 있어야 합니다._*
+*_BI 확장 기능을 사용하려면 Select 패키지 이상이 필요합니다._*
 
 
 <!--
@@ -152,7 +152,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 어시스턴트</a>
+<a href="https://experienceleague.adobe.com/kr/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 어시스턴트</a>
 </td>
 <td><strong>데이터 수집</strong><br/><a href="/help/data-ingestion/data-ingestion.md">개요</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">배치</a> - <a href="/help/data-ingestion/streaming.md">스트리밍</a> - <a href="/help/data-ingestion/sources.md">소스</a> - <a href="/help/data-ingestion/serverapi.md">서버 API</a>
 </td>
