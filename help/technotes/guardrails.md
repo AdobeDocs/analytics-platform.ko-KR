@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: ffa7899b8ece8c39079ed64401ec6cad111e9a84
+source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1747'
 ht-degree: 7%
 
 ---
@@ -58,8 +58,6 @@ ht-degree: 7%
 
 <!--
 ## Attribution AI
-
-
 
 | Name |  Value | Description | PD? |
 |---|--:|---|:---:|
@@ -158,9 +156,19 @@ Experience Platform 참조 [데이터 세트 내보내기 보호](https://experi
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 결합된 데이터 세트 | 5 - 50 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 데이터 채우기 | 60 - 395 | 시스템 강제 보호 | 최대 데이터 채우기 일수. 값은 Customer Journey Analytics 패키지에 따라 달라집니다(제품 설명 참조). |
+| 채우기 길이 | 6 - 25 | 시스템 강제 보호 | 최대 채우기 데이터 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일 수/재생 빈도). 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
+
+
+## 그래프 기반 결합
+
+| 이름 | 값 | 제한 유형 | 설명 |
+|---|--:|---|---|
+| 결합된 데이터 세트 | 10 - 50 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 채우기 길이 | 13 - 25 | 시스템 강제 보호 | 최대 채우기 데이터 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일 수/재생 빈도). 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 
 ## 필터 및 계산된 지표
@@ -222,14 +230,14 @@ Experience Platform 참조 [데이터 세트 내보내기 보호](https://experi
 
 | 데이터 흐름 | 예상 지연 시간 |
 |---|---|
-| Adobe Analytics-Adobe Analytics 소스 커넥터(A4T 활성화됨) | 30분 미만 |
-| Adobe Analytics 소스 커넥터와 실시간 고객 프로필(A4T가 활성화되지 않음) | 2분 미만 |
-| Adobe Analytics 소스 커넥터와 실시간 고객 프로필(A4T 활성화됨) | 30분 미만 |
+| Adobe Analytics to Adobe Analytics Source 커넥터(A4T 활성화됨) | 30분 미만 |
+| Adobe Analytics Source Connector-to-Real-time Customer Profile(A4T가 활성화되지 않음) | 2분 미만 |
+| Adobe Analytics Source Connector-to-Real-time Customer Profile(A4T 활성화됨) | 30분 미만 |
 | Edge Network 또는 스트리밍 수집에서 데이터 레이크로 데이터 수집 | 60분 미만 |
-| Adobe Analytics 소스 커넥터에서 데이터 레이크로 데이터 수집 | &lt; 2.25시간 |
+| Adobe Analytics Source 커넥터에서 데이터 레이크로 데이터 수집 | &lt; 2.25시간 |
 | 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 90분 미만 |
 | 결합(옵션 기능, 참조 [결합 개요](../stitching/overview.md) 추가 정보) | &lt; 3.25시간 |
-| 100억 개 미만의 이벤트(최대 13개월의 내역 데이터) Adobe Analytics 소스 커넥터 채우기 | &lt; 4주 |
+| 100억 개 미만의 이벤트(최대 13개월의 내역 데이터) Adobe Analytics Source 커넥터 채우기 | &lt; 4주 |
 | 실시간 고객 프로필에 게시하는 대상(스트리밍 세그먼트의 자동 생성 및 세그먼트의 데이터 수신 준비 허용 포함). | ≈분 |
 | 대상의 새로 고침 빈도 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. (지연 시간은 새로 고침 빈도와 병행됩니다.) |
 

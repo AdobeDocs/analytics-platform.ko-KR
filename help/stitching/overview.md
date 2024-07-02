@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
+source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3723'
 ht-degree: 11%
 
 ---
@@ -345,13 +345,13 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 ### 옵션
 
-결합 옵션을 선택합니다. Customer Journey Analytics 패키지는 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대해 사용 가능한 옵션을 결정합니다.
+결합 옵션을 선택합니다. Customer Journey Analytics 패키지는 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대해 사용 가능한 옵션을 결정합니다. 다음을 참조하십시오. [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 을 참조하십시오.
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>최적 |
 |---|---|---|---|
 | 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
 | 전환 확인 기간 및 재생 빈도 | <li>1일, 매일</li><li>최대 7일, 매주</li> | <li>1일, 매일</li><li>최대 14일, 매주</li> | <li>1일, 매일</li><li>최대 30일, 매주</li> |
-| 결합에 허용되는 최대 데이터 세트 수 | 5 | 10 | 15 |
+| 결합에 허용되는 최대 데이터 세트 수 | 5 | 10 | 50 |
 
 ### 지원 요청
 
