@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5c5f276711f39abb1b3f3b955ad99e17cb0ac09c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -53,11 +53,11 @@ identityMap 내:
 그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
 * AACUSTOMID는 이벤트의 기본 ID로 표시되지 않습니다. 단, AACUSTOMID가 있으면 AAID는 위의 설명에 따라 AACUSTOMID를 기반으로 합니다.
 
-ID나 ID가 `identityMap`, `endUserIDs._experience.mcid.namespace.code` 또한 가 동일한 이벤트에 대해 설정됩니다.
+하나 또는 여러 개의 ID가 `identityMap`에 복사되면 `endUserIDs._experience.mcid.namespace.code`도 동일한 이벤트에 대해 다음과 같이 설정됩니다.
 
-* AAID가 있는 경우, `endUserIDs._experience.aaid.namespace.code` 가 &quot;AAID&quot;로 설정되어 있습니다.
-* ECID가 있으면, `endUserIDs._experience.mcid.namespace.code` 가 &quot;ECID&quot;로 설정되어 있습니다.
-* AACUSTOMID가 있으면, `endUserIDs._experience.aacustomid.namespace.code` 는 &quot;AACUSTOMID&quot;로 설정됩니다.
+* AAID가 있는 경우 `endUserIDs._experience.aaid.namespace.code`은(는) &#39;AAID&#39;로 설정됩니다.
+* ECID가 있는 경우 `endUserIDs._experience.mcid.namespace.code`은(는) &#39;ECID&#39;로 설정됩니다.
+* AACUSTOMID가 있는 경우 `endUserIDs._experience.aacustomid.namespace.code`은(는) &#39;AACUSTOMID&#39;로 설정됩니다.
 
 ## Customer Journey Analytics 및 기본 ID
 
