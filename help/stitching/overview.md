@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 805eb9dc9ab287934dd15eb56d3ac35187c979d7
+source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
 workflow-type: tm+mt
 source-wordcount: '3752'
 ht-degree: 11%
@@ -322,11 +322,11 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 다음 사전 요구 사항은 그래프 기반 결합에 특히 적용됩니다.
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 열이 한 개 있어야 합니다. **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Cloud ID 서비스에서 생성된 ECID입니다.
-- Experience Cloud ID 서비스의 ID 그래프에는 네임스페이스가 있어야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 추가 정보.
+- Experience Cloud ID 서비스의 ID 그래프는 네임스페이스를 가져야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 추가 정보.
 
 >[!NOTE]
 >
->다음을 수행함 **아님** 그래프 기반 결합을 위해서는 Real-time Customer Data Platform 라이센스가 필요합니다. 다음 **선택** 또는 그 이상의 Customer Journey Analytics 패키지에는 필요한 사용자 ID 서비스 권한이 포함됩니다.
+>다음을 수행함 **아님** 그래프 기반 결합을 위해서는 Real-time Customer Data Platform 라이센스가 필요합니다. 다음 **선택** 이상의 Customer Journey Analytics 패키지에는 필요한 사용자 ID 서비스 권한이 포함되어 있습니다.
 
 
 
