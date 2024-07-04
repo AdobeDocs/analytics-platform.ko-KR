@@ -5,16 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
+source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
 workflow-type: tm+mt
-source-wordcount: '3752'
+source-wordcount: '3793'
 ht-degree: 11%
 
 ---
 
 # 결합
 
-{{select-package}}
+>[!NOTE]
+>
+>다음을 보유해야 합니다. **선택** 패키지 이상(필드 기반 결합용) 또는 **Prime** 이 섹션에 설명된 기능을 사용할 수 있는 패키지 이상(그래프 기반 결합) 보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.
+
 
 ID 결합 (또는 간단히 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics이 처리할 수 있는 주요 사용 사례이며, 이를 통해 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에서 보고서를 원활하게 결합하고 실행할 수 있습니다.
 
@@ -189,7 +192,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 방문자를 식별하는 데 도움이 되는 두 개의 열이 있어야 합니다.
 
-   - A **영구 ID**: 모든 행에서 사용할 수 있는 식별자입니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Cloud ID 서비스에서 생성된 ECID입니다.
+   - A **영구 ID**: 모든 행에서 사용할 수 있는 식별자입니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
    - A **임시 ID**: 일부 행에서만 사용할 수 있는 식별자입니다. 예를 들어 방문자가 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 거의 모든 식별자를 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 임시 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 적어도 한 번 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 - 두 열(영구 ID 및 임시 ID)은 연결하려는 데이터 세트의 스키마에 ID 네임스페이스가 있는 ID 필드로 정의해야 합니다. Real-time Customer Data Platform에서 ID 결합을 사용할 때 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), id 네임스페이스가 있는 id 필드를 추가해야 합니다. Customer Journey Analytics 결합이 을 지원하지 않으므로 이러한 ID 필드 식별이 필요합니다. `identityMap` 필드 그룹입니다. 스키마에 ID 필드를 추가할 때 `identityMap` 필드 그룹, 추가 id 필드를 기본 id로 설정하지 마십시오. 추가 ID 필드를 기본 ID로 설정하면 `identityMap` Real-time Customer Data Platform에 사용되는 필드 그룹입니다.
@@ -321,13 +324,12 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 다음 사전 요구 사항은 그래프 기반 결합에 특히 적용됩니다.
 
-- 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 열이 한 개 있어야 합니다. **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Cloud ID 서비스에서 생성된 ECID입니다.
-- Experience Cloud ID 서비스의 ID 그래프는 네임스페이스를 가져야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 추가 정보.
+- 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 열이 한 개 있어야 합니다. **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
+- Experience Platform ID 서비스의 ID 그래프는 네임스페이스를 가져야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 추가 정보.
 
 >[!NOTE]
 >
->다음을 수행함 **아님** 그래프 기반 결합을 위해서는 Real-time Customer Data Platform 라이센스가 필요합니다. 다음 **선택** 이상의 Customer Journey Analytics 패키지에는 필요한 사용자 ID 서비스 권한이 포함되어 있습니다.
-
+>다음을 수행함 **아님** 그래프 기반 결합을 위해서는 Real-time Customer Data Platform 라이센스가 필요합니다. 다음 **Prime** 패키지 이상의 Customer Journey Analytics에 필요한 Experience Platform ID 서비스 권한이 포함되어 있습니다.
 
 
 ### 제한 사항
