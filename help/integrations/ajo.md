@@ -5,15 +5,15 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics와 Journey Optimizer 통합
 
-[Adobe Journey Optimizer](https://experienceleague.adobe.com/kr/docs//journey-optimizer/using/get-started/get-started)를 사용하여 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있습니다. 이를 사용하여 고객에게 고객 여정의 다음 단계를 안내할 수 있습니다.
+[Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/get-started)를 사용하여 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있습니다. 이를 사용하여 고객에게 고객 여정의 다음 단계를 안내할 수 있습니다.
 
 Journey Optimizer에서 생성된 데이터를 구성해 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다. 이 통합은 자동 구성할 수 있습니다. 필요한 경우 연결 또는 데이터 보기에서 사용 가능한 데이터 세트, 차원 또는 지표를 추가로 수동 사용자 정의할 수 있습니다.
 
@@ -21,7 +21,7 @@ Journey Optimizer에서 생성된 데이터를 구성해 Customer Journey Analyt
 
 {{release-limited-testing-section}}
 
-Journey Optimizer는 보고 엔진으로 Customer Journey Analytics 사용을 지원합니다. Journey Optimizer 설명서에서 [새 보고 인터페이스 시작](https://experienceleague.adobe.com/kr/docs//journey-optimizer/using/channel-report/report-gs-cja)을 참조하시기 바랍니다.
+Journey Optimizer는 보고 엔진으로 Customer Journey Analytics 사용을 지원합니다. Journey Optimizer 설명서에서 [새 보고 인터페이스 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/report-gs-cja)을 참조하시기 바랍니다.
 
 Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동으로 특성 샌드박스에 대한 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)가 생성됩니다.
 
@@ -88,9 +88,9 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 - **구성 요소** 탭에서:
    - 이름에 [!UICONTROL (AJO)]가 붙은 모든 지표와 차원은 이 자동 구성의 일부로 자동 추가됩니다.
-   - 자동으로 추가된 일부 지표 또는 차원은 파생 필드를 기반으로 합니다. 이러한 파생 필드는 이 통합을 위해서 특별히 생성된 것입니다. (예: 지표) [!UICONTROL 랜딩 페이지 클릭수(AJO)] 를 기반으로 함 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드.
-   - 일부 지표 또는 차원에는 추가 구성이 있습니다. 예를 들어, [!UICONTROL 스팸 고객 불만(AJO)] 다음을 포함 [!UICONTROL 형식] 및 [!UICONTROL 포함/제외 값] 설정이 적용되었습니다.
-   - 자동으로 추가된 모든 지표 및 차원에는 라는 컨텍스트 레이블이 있습니다. `:`*`name_of_metric_or_dimension`*. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에 컨텍스트 레이블이 있음 `:Landing page clicks (AJO)`.
+   - 자동으로 추가된 일부 지표 또는 차원은 파생 필드 기반입니다. 이들 파생 필드는 이 통합 기능을 위해 특별히 생성된 것입니다. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표는 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드 기반입니다.
+   - 일부 지표 또는 차원은 추가적인 구성을 갖고 있습니다. 예를 들어 [!UICONTROL 스팸 불만 사항(AJO)]에는 [!UICONTROL 포맷] 및 [!UICONTROL 제외 값 포함] 설정이 적용되어 있습니다.
+   - 자동으로 추가된 모든 지표와 차원에는 `:`*`name_of_metric_or_dimension`*이라고 지정된 컨텍스트 레이블이 있습니다. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에는 `:Landing page clicks (AJO)`라는 이름의 컨텍스트 레이블이 있습니다.
 
 - **[!UICONTROL 설정]** 탭에는 특정한 구성 값이 적용되어 있지 않습니다
 
@@ -105,7 +105,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 ### Journey Optimizer의 데이터를 Experience Platform에 전송
 
-Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. Journey Optimizer 데이터를 Experience Platform에 데이터 세트로 전송하는 방법에 대한 절차는 Journey Optimizer 사용 안내서의 [데이터 세트 시작](https://experienceleague.adobe.com/kr/docs//journey-optimizer/using/data-management/datasets/get-started-datasets)을 참조하십시오.
+Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. Journey Optimizer 데이터를 Experience Platform에 데이터 세트로 전송하는 방법에 대한 절차는 Journey Optimizer 사용 안내서의 [데이터 세트 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/data-management/datasets/get-started-datasets)을 참조하십시오.
 
 ### Customer Journey Analytics에 연결 만들기
 

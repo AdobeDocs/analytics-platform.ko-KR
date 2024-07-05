@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 | 가상 보고서 세트 | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
 | 디바이스, 브라우저, 레퍼러, 기술 차원 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반의 데이터 세트와 Web SDK에서 생성된 데이터 세트 모두에 대해 지원됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko-KR)를 참조하십시오. Experience Platform Web SDK 데이터 컬렉션을 사용하는 경우 디바이스 조회에 기반한 디바이스 및 차원은 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. Web SDK 데이터스트림에 디바이스 및 브라우저 조회를 추가하려면 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 참조하십시오. |
-| 스트리밍 미디어 컬렉션 추가 기능 | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 Workspace의 미디어 동시 뷰어 패널 및 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
+| 스트리밍 미디어 컬렉션 추가 기능 | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -56,19 +56,19 @@ ht-degree: 97%
 
 | 기능 | 참고 |
 | --- | --- |
-| Analytics for Target (A4T) | [Adobe Customer Journey Analytics 와 Target 간 통합](https://experienceleague.adobe.com/kr/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
+| Analytics for Target (A4T) | [Adobe Customer Journey Analytics와 Target 간 통합](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | 대상자 게시 | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | 분류 | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
 | 분류 규칙 빌더 | Customer Journey Analytics에서 [하위 문자열](/help/data-views/component-settings/substring.md)을 사용하여 지원됩니다. 조회 데이터 세트가 아니라 보고서 시간에 문자열 조작을 사용합니다. |
 | 사용자 정의 세션 길이 | 세션 길이는 데이터 보기의 [세션 설정](../../data-views/create-dataview.md#session-settings)을 통해 구성할 수 있습니다. 자세한 내용은 [세션 설정](../../data-views/session-settings.md)을 참조하시기 바랍니다. <br/>모바일 배경 이벤트 처리는 Adobe Experience Platform Mobile SDK를 통해 지원됩니다. 자세한 내용은 [Edge Network의 라이프사이클](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)을 참조하십시오. |
-| 통화 전환 | 데이터 보기에서 [지표 구성 요소 서식을 지정하는](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html#currency) 일부로 지원됩니다. |
+| 통화 전환 | 데이터 보기에서 [지표 구성 요소 서식 지정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html#currency)의 일부로 지원됩니다. |
 | 사용자 속성 | 이제 “프로필 데이터 세트”라고 하며, Experience Cloud에서 자동으로 가져오지 않습니다. Customer Journey Analytics에서 사용하려면 Experience Platform으로 업로드해야 합니다. |
 | 데이터 피드 | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | Data Warehouse 보고 | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | 시작, 종료, 사용 시간 차원 및 지표 | 지원되며(시작 및 종료는 이제 세션 시작 및 세션 종료라고 함), 약간 다른 방식으로 계산됩니다. |
 | eVar 지속성 설정 | eVar는 더 이상 Customer Journey Analytics에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
 | 지리 특성 차원 | [전체 지원](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
-| 그래프 기반 결합 | 까지 [그래프 기반 결합](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview#graph-based-stitching)에서 id 그래프의 기능을 활용할 수 있습니다 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 을 클릭하여 데이터 세트를 선호하는 id로 승격시킵니다. |
+| 그래프 기반 스티칭 | [그래프 기반 스티칭](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview#graph-based-stitching)을 통해 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)에서 ID 그래프의 기능을 활용하여 데이터 세트를 선호하는 ID로 승격할 수 있습니다. |
 | IP 난독화 | Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 Customer Journey Analytics로 데이터를 가져오는 Customer Journey Analytics 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정이 Customer Journey Analytics 데이터로 흐릅니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Experience Platform Web SDK를 사용하여 Platform 및 Customer Journey Analytics로 데이터를 직접 가져오는 Customer Journey Analytics 고객의 경우. 데이터 수집을 위한 데이터 준비를 사용하면 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
 | 마케팅 채널 | Analytics 소스 커넥터를 사용하는 경우 마케팅 채널 데이터는 해당 커넥터를 통해 Customer Journey Analytics로 흐릅니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [Customer Journey Analytics 마케팅 채널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)를 참조하십시오. <br/>Web SDK 구현의 경우 보고 시 마케팅 채널 처리 규칙은 [파생 필드](../../data-views/derived-fields/derived-fields.md)를 통해 지원됩니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
@@ -137,7 +137,7 @@ ht-degree: 97%
 | 안내식 분석 | [안내식 분석](/help/guided-analysis/overview.md)은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Customer Journey Analytics의 추가 기능인 Adobe Product Analytics의 일부입니다. |
 | 지능형 캡션 | 지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스에서는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화에 대한 자동 생성된 인사이트를 제공합니다. |
 | 보고 시간 변환 | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
-| BI 확장 기능 | [BI 확장 기능](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
+| BI 확장 기능 | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
 | SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | 결합 | [ID 결합](/help/stitching/overview.md)(또는 간단히 결합)은 교차 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 교차 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
 | 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <p>반대로 Adobe Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다.</p> |
