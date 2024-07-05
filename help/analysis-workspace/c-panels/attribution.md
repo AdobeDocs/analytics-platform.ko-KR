@@ -4,19 +4,25 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 4ed05334a3866ec784901d273fcb13bd24b2d449
+source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 75%
+source-wordcount: '620'
+ht-degree: 70%
 
 ---
 
 # 속성 패널 {#attribution-panel}
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution"
+>id="cja_workspace_attribution_button"
 >title="속성"
 >abstract="차원 및 전환 지표를 사용하여 여러 속성 모델을 신속하게 비교하고 시각화합니다"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_attribution_panel"
+>title="속성 패널"
+>abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개 변수&#x200B;**<br/>**채널**<br/>&#x200B;속성을 지정할 차원입니다. 마케팅 채널, 캠페인 또는 기타 모든 차원이 될 수 있습니다.<br/>**모델**<br/>&#x200B;이 모델은 크레딧이 접점에 할당되는 방법을 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 전환에에 적용되는 데이터 속성의 창을 결정합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 
