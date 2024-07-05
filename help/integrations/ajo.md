@@ -39,7 +39,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 | **데이터 설정** | 값 |
 |---|---| 
 | [!UICONTROL 롤링 데이터 기간 활성화] | 활성화됨. [!UICONTROL 선택된 개월 수] `13`. |
-| [!UICONTROL 샌드박스] | [!UICONTROL *샌드박스 이름*](비활성화됨, 이 설정은 수정할 수 없음). |
+| [!UICONTROL 샌드박스] | [!UICONTROL *샌드박스 이름*] (비활성화됨, 이 설정은 수정할 수 없음). |
 | [!UICONTROL 일일 평균 이벤트 수] | 백만 개 미만(비활성화됨, 이 설정은 수정할 수 없음). |
 
 
