@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
+source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
 workflow-type: tm+mt
-source-wordcount: '3174'
+source-wordcount: '3172'
 ht-degree: 95%
 
 ---
@@ -72,24 +72,24 @@ ht-degree: 95%
 
 1. 연결 설정 대화 상자에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
 
-1. 다음에서 [!UICONTROL 데이터 세트 선택] 단계에서 Experience Platform 데이터 세트 목록이 표시됩니다.
+1. [!UICONTROL 데이터 세트] 선택 단계에서 Experience Platform 데이터 세트 목록이 표시됩니다.
 
    ![데이터 세트 선택](assets/select-datasets.png)
 
-   각 데이터 세트에 대해 목록이 표시됩니다.
+   각 데이터 세트 목록에는 다음이 표시됩니다.
 
    | 열 | 설명 |
    |---|---|
-   | 데이터 세트 | 데이터 세트 이름. Experience Platform의 데이터 세트로 안내할 이름을 선택합니다. 선택 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 데이터 세트에 대한 세부 정보가 포함된 팝업을 표시합니다. 팝업에서 다음을 선택할 수 있습니다. **[!UICONTROL 플랫폼에서 편집]** Experience Platform에서 직접 데이터 세트를 편집합니다. |
+   | 데이터 세트 | 데이터 세트 이름입니다. Experience Platform의 데이터 세트로 안내하는 이름을 선택합니다. 정보를](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 선택하여 ![데이터 세트 세부 정보가 포함된 팝업을 표시합니다. 팝업에서 Platform ]**에서 편집 을 선택하여**[!UICONTROL  Experience Platform에서 직접 데이터 세트를 편집할 수 있습니다. |
    | 데이터 세트 유형 | 데이터 세트 유형: 이벤트, 프로필 또는 조회. |
-   | 레코드 수 | Experience Platform 데이터 세트의 마지막 배치에서 사용할 수 있는 레코드 수입니다. |
-   | 스키마 | 데이터 세트의 기반이 되는 스키마. Experience Platform의 스키마로 이동할 이름을 선택합니다. |
-   | 마지막 배치 | Experience Platform에서 수집된 마지막 배치의 상태입니다. 다음을 참조하십시오 [일괄 처리 상태](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) 추가 정보. |
-   | 데이터 세트 ID | 데이터 세트의 ID입니다. |
-   | 마지막으로 업데이트됨 | 데이터 세트의 마지막으로 업데이트된 타임스탬프. |
+   | 레코드 수 | Experience Platform의 데이터 세트에 대한 이전 달의 총 레코드 수입니다. |
+   | 스키마 | 데이터 세트 기반이 되는 스키마입니다. 이름을 선택하여 Experience Platform의 스키마로 이동합니다. |
+   | 마지막 배치 | Experience Platform 에서 수집된 마지막 배치의 상태입니다. 자세한 내용은 일괄 처리 상태를](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) 참조하세요[. |
+   | 데이터 세트 ID | 데이터 세트 ID입니다. |
+   | 마지막으로 업데이트됨 | 데이터 세트 중 마지막으로 업데이트된 타임스탬프입니다. |
 
 
-1. 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**. 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
+1. 하나 이상의 데이터 세트를 선택하고 다음&#x200B;]**을 선택합니다**[!UICONTROL . 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
    * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
    * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
    * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
