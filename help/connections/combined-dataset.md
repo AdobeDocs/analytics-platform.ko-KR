@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3389c141105ff71ed26abe4384fe3bb930448d43
+source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 35%
@@ -88,7 +88,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->병합된 필드가 연결의 한 이벤트 데이터 세트에 대한 조회 키인 경우 연결된 조회 데이터 세트가 보강됩니다 *모두* 해당 필드의 값. 조회 관계는 공유 스키마 경로와 연관되므로 행이 어느 이벤트 데이터 세트에 포함되어 있든 상관없습니다.
+>병합된 필드가 연결의 한 이벤트 데이터 세트에 대한 조회 키인 경우 연결된 조회 데이터 세트가 보강됩니다 **모두** 해당 필드의 값. 조회 관계는 공유 스키마 경로와 연관되므로 행이 어느 이벤트 데이터 세트에 포함되어 있든 상관없습니다.
 
 ## 크로스 채널 분석
 
