@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
+source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 11%
+source-wordcount: '3809'
+ht-degree: 12%
 
 ---
 
@@ -211,7 +211,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 - 예를 들어 임시 ID에 자리 표시자 값이 포함된 시나리오에 주의하십시오 `Undefined`. 다음을 참조하십시오. [FAQ](faq.md) 추가 정보.
 
 
-## 그래프 기반 결합
+## 그래프 기반 스티칭
 
 해당 데이터 세트에 대한 영구 ID(쿠키)와 임시 ID(개인 ID)의 네임스페이스와 이벤트 데이터 세트를 지정합니다. 그래프 기반 결합은 결합된 새 데이터 세트에 결합된 ID의 새 열을 만듭니다. 그런 다음 영구 ID를 사용하여 지정된 네임스페이스를 사용하여 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 결합된 ID를 업데이트합니다.
 
@@ -325,7 +325,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 다음 사전 요구 사항은 그래프 기반 결합에 특히 적용됩니다.
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 열이 한 개 있어야 합니다. **영구 ID**. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
-- Experience Platform ID 서비스의 ID 그래프는 네임스페이스를 가져야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 추가 정보.
+- Experience Platform ID 서비스의 ID 그래프는 네임스페이스를 가져야 합니다(예: `Email`, 또는 `Phone`) 결합 중에 를 사용하여 문제를 해결하려는 경우 **임시 ID**. 다음을 참조하십시오 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) 추가 정보.
 
 >[!NOTE]
 >
@@ -352,10 +352,11 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 ### 옵션
 
-결합 옵션을 선택합니다. Customer Journey Analytics 패키지는 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대해 사용 가능한 옵션을 결정합니다. 다음을 참조하십시오. [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 을 참조하십시오.
+결합 옵션을 선택합니다. Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대한 옵션을 결정합니다. 다음을 참조하십시오. [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 을 참조하십시오.
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>최적 |
 |---|---|---|---|
+| 사용 가능한 결합 방법 | <li>필드 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 스티칭</li> | <li>필드 기반 결합</li><li>그래프 기반 스티칭</li> |
 | 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
 | 전환 확인 기간 및 재생 빈도 | <li>1일, 매일</li><li>최대 7일, 매주</li> | <li>1일, 매일</li><li>최대 14일, 매주</li> | <li>1일, 매일</li><li>최대 30일, 매주</li> |
 | 결합에 허용되는 최대 데이터 세트 수 | 5 | 10 | 50 |
