@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
+source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
 workflow-type: tm+mt
-source-wordcount: '3809'
+source-wordcount: '3817'
 ht-degree: 12%
 
 ---
@@ -350,9 +350,9 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 조직이 모든 항목을 충족하면 [전제 조건](#prerequisites) 및 공통 이해 [제한 사항](#limitations) 및 결합 방법 관련([필드 기반](#limitations-1) 및 [그래프 기반](#limitations-2)제한 사항 - 다음 단계에 따라 Customer Journey Analytics에서 결합을 사용할 수 있습니다.
 
-### 옵션
+### 옵션 선택
 
-결합 옵션을 선택합니다. Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대한 옵션을 결정합니다. 다음을 참조하십시오. [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 을 참조하십시오.
+권한이 부여된 Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대한 옵션을 결정합니다. 다음을 참조하십시오. [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 을 참조하십시오. 지원을 요청하기 전에 사용 가능한 옵션을 결정하십시오.
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>최적 |
 |---|---|---|---|
