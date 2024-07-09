@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
 workflow-type: tm+mt
-source-wordcount: '8075'
+source-wordcount: '8068'
 ht-degree: 12%
 
 ---
@@ -381,9 +381,6 @@ ht-degree: 12%
 
 - 제한(해당되는 경우).
 
->[!NOTE]
->
->조회 함수 이름이 (으)로 변경되었습니다. [분류](#classify). 다음을 참조하십시오. [분류](#classify) 함수 를 참조하십시오.
 
 <!-- CASE WHEN -->
 
@@ -622,10 +619,6 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 새 파생 필드의 해당 값으로 대체되는 값 집합을 정의합니다.
 
 +++ 세부 사항
-
->[!NOTE]
->
->이 함수의 이름은 원래 Lookup이지만 다른 기능을 사용하는 Lookup 함수를 수용하도록 이름이 Classify로 변경되었습니다.
 
 ## 사양 {#classify-io}
 
@@ -1027,6 +1020,8 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 ![소문자 규칙의 스크린샷](assets/lookup.png)
 
 ## 추가 정보 {#lookup-more-info}
+
+조회 함수는 보고서 시간에 연결의 일부로 구성한 조회 데이터 세트에서 Customer Journey Analytics이 검색한 데이터에 적용됩니다.
 
 를 신속하게 삽입할 수 있습니다. [!UICONTROL 조회] 하나 이상의 다른 함수를 이미 포함하고 있는 규칙 빌더의 함수입니다.
 
