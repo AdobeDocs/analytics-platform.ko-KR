@@ -7,9 +7,9 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: e766858a93f8dcfadda2e7518b0d74468ff1ae4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_fundamentals"
 >title="Analysis Workspace 기본 사항"
->abstract="테이블 작성, 시각화 추가, 날짜 범위 변경 등 Analysis Workspace의 기본 사항에 대해 알아보려면 아래 투어를 따르십시오."
+>abstract="아래의 둘러보기를 통해 테이블 만들기, 시각화 추가, 데이터 범위 변경 등 Analysis Workspace의 일부 기본적인 사항에 대해 알아보십시오."
 >additional-url="https://images-tv.adobe.com/mpcv3/7381/7a0633f8-972f-4367-a2ed-b169981efa7b_1681135724.854x480at800_h264.mp4" text="Analysis Workspace 개요"
 
 Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 끌어다 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
