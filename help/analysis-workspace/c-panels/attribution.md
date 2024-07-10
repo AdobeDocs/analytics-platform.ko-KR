@@ -7,7 +7,7 @@ role: User
 source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 70%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="속성"
->abstract="차원 및 전환 지표를 사용하여 여러 속성 모델을 신속하게 비교하고 시각화합니다"
+>abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 >[!CONTEXTUALHELP]
