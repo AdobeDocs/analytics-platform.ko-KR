@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 466bcd2d790dae9eccb5d9114a375c5b9666c435
+source-git-commit: f0ff4abcfdb7361aed62bd35b50c4b014b223ec9
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 70%
+source-wordcount: '3824'
+ht-degree: 71%
 
 ---
 
@@ -19,9 +19,11 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 7월** | |
+| 업데이트된 일반 오류 메시지 | 에 대한 일부 업데이트 [일반적인 오류 메시지](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **2024년 6월** | |
-| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 Analysis Workspace에 표시하는 스트리밍 미디어 기능 집합을 참조할 때 &quot;Media Analytics&quot; 및 &quot;Streaming Media&quot;의 인스턴스를 &quot;스트리밍 미디어 컬렉션 추가 기능&quot;이라는 이름으로 대체했습니다. <p>이러한 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview).</p> |
-| 그래프 기반 결합 | 업데이트 및 재구성 [결합 설명서](/help/stitching/overview.md) 그래프 기반 결합을 도입했습니다. |
+| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이러한 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview).</p> |
+| 그래프 기반 스티칭 | 업데이트 및 재구성 [결합 설명서](/help/stitching/overview.md) 그래프 기반 결합을 도입했습니다. |
 | AI 어시스턴트 | 추가됨 [설명서](../ai-assistant.md) Customer Journey Analytics을 위한 AI 지원 |
 | B2B 조회를 위한 데이터 세트 변환 | 지원 방법에 대한 설명서를 추가했습니다. [B2B 데이터에 대한 사용자 기반 조회](/help/connections//transform-datasets-b2b-lookups.md) (계정, 기회, 마케팅 목록 및 캠페인 포함) B2B 조회 데이터 세트의 변형을 사용합니다. |
 | 파생 필드 함수 및 함수 템플릿 | 파생된 추가 필드 함수에 대한 설명서를 추가했습니다. ([수학](/help/data-views/derived-fields/derived-fields.md#math), [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous), 및 [요약](/help/data-views/derived-fields/derived-fields.md#summarize)) 및 [함수 템플릿](/help/data-views/derived-fields/derived-fields.md#function-templates). |
@@ -98,7 +100,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2023년 6월** | |
 | 교차 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 교차 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 교차 채널 분석 기능과 관련된 문서가 [교차 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics BI 확장을 사용하면 Customer Journey Analytics에서 정의한 데이터 보기에 SQL로 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 Customer Journey Analytics에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration) |
+| Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 Customer Journey Analytics에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration) |
 | 통화 전환 | [통화 전환](../data-views/component-settings/format.md#currency) 지원에 대한 설명서가 업데이트되었습니다. |
 | 계산된 지표 업데이트 | 현재 Customer Journey Analytics 기능에 맞추기 위해 계산된 지표 설명서가 다음과 같이 업데이트되었습니다. <ul><li>Customer Journey Analytics에서 제공하는 [기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md) 목록이 업데이트됨</li><li>여러 계산된 지표 문서에서 업데이트된 스크린샷 및 절차 </li></ul> |
 | **2023년 5월** | |
