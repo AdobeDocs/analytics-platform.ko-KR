@@ -3,16 +3,16 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 2ea7c9ec4d02685164a10da3e3f3a38526fc9730
+workflow-type: tm+mt
+source-wordcount: '1232'
+ht-degree: 93%
 
 ---
 
 # 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 6월)
 
-**마지막 업데이트**: 2024년 6월 18일
+**마지막 업데이트**: 2024년 7월 12일 토요일
 
 이번 릴리스 정보에는 2024년 6월 6일부터 7월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **보고서를 클라우드로 내보낼 때 사용되는 계정 및 위치를 제어하는 관리자 설정** | 위치 관리자](/help/components/exports/manage-export-locations.md#configure-company-wide-settings-administrators-only)의 새 [&quot;관리자 설정&quot; 탭에서는 관리자가 사용자가 계정 및 위치를 만들고 편집할 수 있는지 여부를 제어할 수 있습니다.<p>이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치를 구성](/help/components/exports/cloud-export-locations.md)할 때 적용됩니다.</p><p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형을 제한할 수도 있습니다. 계정 유형에는 Google Cloud Platform, Azure RBAC, Amazon S3, AEP 데이터 랜딩 영역, Snowflake 등이 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 7월 11일 금요일 | 2024년 7월 19일 토요일 |
 | **Customer Journey Analytics용 AI 어시스턴트** | Customer Journey Analytics UI에서 자연어 질문을 하고 Customer Journey Analytics 문서를 기반으로 답변을 얻을 수 있습니다. [자세히 알아보기](/help/ai-assistant.md) | | 2024년 6월 6일 |
 | **그래프 기반 스티칭** | 그래프 기반 결합을 통해 Experience Platform ID 서비스의 아이덴티티 그래프를 사용하면 다음 작업을 수행하여 고객 여정을 더 효과적으로 확인할 수 있습니다.<ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li><li>데이터 세트 전체에서 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>[자세히 알아보기](/help/stitching/overview.md) |  | 2024년 6월 28일 |
 | **개인에서 계정으로의 B2B 스키마 변환** | B2B 조회 데이터 세트를 변환하여 B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 개인 기반 조회를 지원할 수 있습니다. 이러한 변환은 다음 클래스를 기반으로 하는 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024년 6월 5일 |
