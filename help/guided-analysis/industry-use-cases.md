@@ -5,16 +5,16 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 2b503ba784762d60efe8581c9ee06587aed416eb
+source-git-commit: 5752d3952987f8447cd12f953a57921044fa3c65
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 98%
 
 ---
 
 # 업계 사용 사례
 
-이 페이지에서는 다양한 업계의 제품 팀이 안내가 있는 분석을 통해 달성할 수 있는 몇 가지 예제를 제공합니다.
+이 페이지에서는 분석가부터 제품 팀, 마케터에 이르기까지 고객 경험 팀이 안내식 분석을 통해 달성할 수 있는 몇 가지 실례가 되는 업계 사례를 제공합니다.
 
 +++**소매**
 
