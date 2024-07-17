@@ -3,44 +3,36 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2ea7c9ec4d02685164a10da3e3f3a38526fc9730
+source-git-commit: a2673763fce0766b732ac7ab557d3a0a193173fd
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 93%
+source-wordcount: '781'
+ht-degree: 41%
 
 ---
 
-# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 6월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 7월)
 
-**마지막 업데이트**: 2024년 7월 12일 토요일
+**마지막 업데이트**: 2024년 7월 17일 목요일
 
-이번 릴리스 정보에는 2024년 6월 6일부터 7월까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2024년 7월 17일부터 2024년 8월의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **지능형 알림** | 이제 Customer Journey Analytics에서 지능형 경고를 사용할 수 있으므로 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.<p>예외 항목 임계값, 변경된 백분율 또는 특정 데이터 포인트를 기반으로 트리거되도록 경고를 설정할 수 있습니다. 경고는 예외 항목 탐지와 통합되는 세분화된 제어를 제공하여 가장 필요할 때 트리거합니다.</p><p>Customer Journey Analytics에서 지능형 경고를 사용하는 프로세스는 Adobe Analytics에서 지능형 경고를 사용하는 프로세스와 거의 동일합니다. 한 가지 주요 차이점은 Customer Journey Analytics에서 시간별 경고를 사용할 수 없다는 것입니다. 이러한 차이는 수집할 수 있는 다양한 종류의 이벤트 데이터에 대한 데이터 수집은 지연 후에만 완료되며 일반적으로 데이터 이벤트 시간이 3~9시간 경과하기 때문입니다.</p><p>(참조할 설명서 링크가 업데이트되었습니다.)</p><!--<p>[Learn more](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)</p> --> |  | 2024년 7월 26일 토요일 |
 | **보고서를 클라우드로 내보낼 때 사용되는 계정 및 위치를 제어하는 관리자 설정** | 위치 관리자](/help/components/exports/manage-export-locations.md#configure-company-wide-settings-administrators-only)의 새 [&quot;관리자 설정&quot; 탭에서는 관리자가 사용자가 계정 및 위치를 만들고 편집할 수 있는지 여부를 제어할 수 있습니다.<p>이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치를 구성](/help/components/exports/cloud-export-locations.md)할 때 적용됩니다.</p><p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형을 제한할 수도 있습니다. 계정 유형에는 Google Cloud Platform, Azure RBAC, Amazon S3, AEP 데이터 랜딩 영역, Snowflake 등이 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 7월 11일 금요일 | 2024년 7월 19일 토요일 |
-| **Customer Journey Analytics용 AI 어시스턴트** | Customer Journey Analytics UI에서 자연어 질문을 하고 Customer Journey Analytics 문서를 기반으로 답변을 얻을 수 있습니다. [자세히 알아보기](/help/ai-assistant.md) | | 2024년 6월 6일 |
-| **그래프 기반 스티칭** | 그래프 기반 결합을 통해 Experience Platform ID 서비스의 아이덴티티 그래프를 사용하면 다음 작업을 수행하여 고객 여정을 더 효과적으로 확인할 수 있습니다.<ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li><li>데이터 세트 전체에서 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>[자세히 알아보기](/help/stitching/overview.md) |  | 2024년 6월 28일 |
-| **개인에서 계정으로의 B2B 스키마 변환** | B2B 조회 데이터 세트를 변환하여 B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 개인 기반 조회를 지원할 수 있습니다. 이러한 변환은 다음 클래스를 기반으로 하는 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.<ul><li>XDM 비즈니스 계정 사용자 관계</li><li>XDM 비즈니스 영업 기회 사용자 관계</li><li>XDM 비즈니스 마케팅 목록 멤버</li><li>XDM 비즈니스 캠페인 멤버</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024년 6월 5일 |
-| **파생 필드 - 수학 함수** | 데이터 보기 내에서 간단한 수학 연산자를 사용하여 사용자에 대한 질문에 답할 수 있습니다. 예를 들어 제품, 보증 및 배송 수익을 결합할 수 있습니다. [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#math)</p> | | 2024년 6월 5일 |
-| **파생 필드 - 다음 또는 이전 함수** | 다음 또는 이전 값이 무엇인지 확인할 수 있습니다. 예를 들어 선택한 마케팅 채널 이전에 누군가가 상호 작용했던 이전 마케팅 채널은 무엇이었는지, 또는 선택한 페이지 이전 또는 이후에 사용자가 상호 작용한 페이지는 무엇이었는지, 매장에 방문하기 전 사용자가 가장 많이 상호 작용하는 채널은 무엇인지 확인할 수 있습니다. [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#next-or-previous)</p> | | 2024년 6월 12일 |
-| **파생 필드 - 요약 함수** | 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용할 수 있습니다. [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md#summarize) | | 2024년 6월 26일 |
-| **파생 필드 - 중복 제거 함수** | 값이 반복적으로 계산되는 것을 방지하는 데 도움이 됩니다. 사용자 또는 세션 수준에서 적용하거나 차원의 고유 값을 기반으로 적용할 수 있습니다. (참조할 설명서 링크) |  | 2024년 7월 10일 |
-| **수집 우선 순위 지정 및 지연** | 이제 데이터가 24시간인지, 48시간인지 또는 7일인지 여부에 관계없이 90분(SLT) 이내에 Customer Journey Analytics에서 이벤트 데이터를 수집할 수 있습니다. 이 기능은 회사에서 구입한 SKU 패키지에 따라 다릅니다.<ul><li>CJA 우선 순위 수집 기본: 90분 내 24시간 이전 데이터 SLT 처리(CJA Foundation 및 CJA Select에 사용 가능)</li><li>CJA 우선 순위 수집 중간: 90분 내 72시간 이전 데이터 SLT 처리(CJA Prime에 사용 가능)</li><li>CJA 우선 순위 수집 고급: 90분 내 1주 전 데이터 SLT 처리(CJA Ultimate에서 사용 가능)</li></ul> |  | 2024년 6월 12일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 7월 중순 |
-| **드롭다운 필터에서 여러 필드 선택** | 드롭다운 필터에 여러 필드를 추가한 경우 이제 사용자가 한 번에 여러 개의 필드를 선택할 수 있습니다. 선택된 필드를 포함하도록 패널이 필터링됩니다. <p>이전에는 사용자가 드롭다운 필터에서 한 번에 하나의 필드만 선택할 수 있었습니다.</p><p>드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 드롭다운 필터에서 선택을 요구하는 옵션이 메뉴로 이동되었습니다.</p><p>이전에는 사용자가 드롭다운 메뉴에서 [필터 없음] 옵션 옆에 있는 (x)를 클릭할 수 있었습니다.</p><p>자세한 내용은 [패널 개요](/help/analysis-workspace/c-panels/panels.md)의 [정적 드롭다운 필터](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters)를 참조하십시오.</p><p>[이 기능에 대한 데모 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters)를 시청하십시오.</p> |  | 2024년 6월 19일 |
-| **Workspace 프로젝트 목차** | 이제 프로젝트에 새로운 목차를 사용할 수 있습니다. 목차는 사용자가 프로젝트 내 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. <p>목차는 모든 프로젝트의 왼쪽 레일에서 사용할 수 있습니다.</p><p>자세한 내용은 [프로젝트 목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 참조하십시오.</p><p>[이 기능에 대한 데모 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace)를 시청하십시오.</p> |  | 2024년 6월 19일 |
-| **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 여러 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 해당 항목을 클릭하도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대해 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대해 사용자 정의 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 정의 URL을 만들 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>자세한 내용은 [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.</p><p>[이 기능에 대한 데모 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables)를 시청하십시오.</p> |  | 2024년 6월 19일 |
-| **Adobe Journey Optimizer와 함께 Customer Journey Analytics 데이터 보기 사용** | Customer Journey Analytics의 새 구성 옵션을 사용하면 수동 구성 없이 Adobe Journey Optimizer와 함께 사용할 Customer Journey Analytics 데이터 보기를 지정할 수 있습니다. <p>이 구성 옵션을 활성화하는 방법에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)의 [호환성](/help/data-views/create-dataview.md#compatibility) 섹션을 참조하십시오.</p><p>이전에는 Customer Journey Analytics에서 Journey Optimizer 데이터를 볼 때 연결 및 데이터 보기를 수동으로 구성해야 했습니다.</p> |  | 2024년 6월 19일 |
-| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 더 빨리 찾을 수 있습니다.</li></ul> <p>(참조할 설명서 링크)</p> |  | 2024년 7월 14일 |
+| **요약 수준 데이터 원본** | 개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터는 다음과 같은 다양한 사용 사례를 지원하는 데 사용할 수 있습니다.<ul><li>이벤트 수준 데이터의 일부 또는 다음으로 높은 수준의 성과 지표 표시. 여기에는 날짜 및 단일 지표 값과 같은 간단한 항목을 포함하거나 광고 노출 횟수, 이메일 열기, 광고 지출, 매출 원가 등과 같은 여러 차원 및 지표를 포함할 수 있습니다.</li><li>일별, 주별, 월별 또는 분기별로 타겟 또는 목표를 업로드하고 이벤트 수준 지표에 대해 이러한 타겟 또는 목표를 포지셔닝하여 조직 타겟 또는 목표에 대한 지표의 추세를 시각화하는 데 도움이 됩니다.</li></ul><p>(참조할 설명서 링크가 업데이트되었습니다.)</p> |  | 2024년 7월 31일 목요일 |
+| **파생 필드 - 중복 제거 함수** | 파생 필드의 중복 제거 기능을 사용하면 값을 여러 번 카운트하지 않도록 할 수 있습니다.<p>(참조할 설명서 링크)</p> |  | 2024년 7월 16일 수요일 |
+| **CJA 고객을 위한 가이드 분석 프로비저닝** | 안내식 분석을 통해 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 구축된 안내식 워크플로우를 통해 고품질 데이터와 고객 여정에 대한 통찰력을 자체 제공할 수 있습니다. <p>마케팅부터 제품까지 다양한 부서의 팀이 실시간으로 교류하여 이러한 보고서를 사용하고 이해할 수 있습니다.</p><p>이제 CJA 패키지 내에서 최대 11개의 가이드 분석 보기를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)</p> |  | 2024년 7월 17일 목요일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다. 이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다. 이러한 설정은 사용자가 [클라우드 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)하고 [클라우드 내보내기 위치를 구성](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)할 때 사용할 수 있습니다. | 2024년 6월 12일 | 2024년 7월 중순 |
+| **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터 및 정렬 옵션을 사용하면 관련 대상자를 더 빨리 찾을 수 있습니다.</li></ul> <p>(참조할 설명서 링크)</p> |  | TBD |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-345454; AN-349816; AN-349905; AN-350617
+AN-306000; AN-288748; AN-351547; AN-351110
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
