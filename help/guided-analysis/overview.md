@@ -5,20 +5,16 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
-workflow-type: ht
-source-wordcount: '1397'
-ht-degree: 100%
+source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 92%
 
 ---
 
 # 안내식 분석 개요
 
 안내식 분석을 이용하면 사용자는 Customer Journey Analytics의 교차 채널 데이터를 기반으로 구축된 안내식 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. 마케팅부터 제품까지 다양한 부서의 팀이 실시간으로 교류하여 이러한 보고서를 사용하고 이해할 수 있습니다.
-
->[!NOTE]
->
-> 안내식 분석은 현재 Customer Journey Analytics의 유료 추가 기능인 Adobe Product Analytics의 일부로만 사용할 수 있습니다. 조직에서 이 기능 세트를 사용하고자 하는 경우 Adobe 계정 팀에 문의하십시오.
 
 Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분석은 [데이터 보기](../data-views/data-views.md)의 데이터를 사용하며, 데이터 보기에서는 [연결](../connections/overview.md)을 통해 Adobe Experience Platform의 데이터를 참조합니다. 안내식 분석에서 만든 대다수의 보고서는 추가 연구를 위해 Analysis Workspace로 원활하게 전송할 수 있습니다.
 
@@ -72,9 +68,19 @@ Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분�
 
 ## 프로비저닝
 
-안내식 분석은 Customer Journey Analytics의 유료 추가 기능인 Adobe Product Analytics의 일부입니다. 조직에서 이 기능 세트를 사용하고자 하는 경우 Adobe 계정 팀에 문의하십시오.
+안내식 분석 보기는 다음과 같은 방식으로 Customer Journey Analytics 패키지에 포함됩니다.
 
-조직이 안내식 분석을 사용하도록 프로비저닝되면 제품 프로필 관리자는 Adobe Admin Console에서 해당 프로필에 대한 액세스를 추가하거나 제거할 수 있습니다.
+| 패키지 | 사용 가능한 보기 |
+| --- | --- |
+| [!UICONTROL CJA 추가 기능] | 트렌드: 사용, 트렌드: 빈도, 단계: 마찰, 단계: 전환 트렌드, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순 증가 |
+| [!UICONTROL CJA Foundation] | 트렌드: 사용 |
+| [!UICONTROL CJA 선택] | 기초 보기 + 트렌드: 빈도, 단계: 마찰, 단계: 전환 트렌드, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순 증가 |
+| [!UICONTROL CJA Prime] | 보기 + 사용자 스트림: 타임라인, 기능 매트릭스: 참여, 영향: 릴리스, 영향: 첫 번째 사용 |
+| [!UICONTROL CJA 최종] | 주요 조회수 |
+
+{style="table-layout:auto"}
+
+제품 프로필 관리자는 Adobe Admin Console에서 안내가 있는 분석에 대한 액세스 권한을 추가하거나 제거할 수 있습니다.
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)에 로그인합니다.
 1. 제품 목록에서 **[!UICONTROL Customer Journey Analytics]**&#x200B;를 선택합니다.
