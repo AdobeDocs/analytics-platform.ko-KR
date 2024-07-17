@@ -5,20 +5,20 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
+source-git-commit: 0a046a89e1742d3470a78ebad4f93cb3b4ea7f4c
 workflow-type: tm+mt
-source-wordcount: '8068'
+source-wordcount: '8366'
 ht-degree: 12%
 
 ---
 
 # 파생 필드
 
-파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음에서 파생된 필드를 구성 요소(지표 또는 차원)로 사용할 수 있습니다. [Workspace](../../analysis-workspace/home.md) 또는 파생된 필드를 의 구성 요소로 추가로 정의합니다. [데이터 보기](../data-views.md).
+파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [Workspace](../../analysis-workspace/home.md)에서 구성 요소(지표 또는 차원)로 사용하거나 [데이터 보기](../data-views.md)에서 파생 필드를 구성 요소로 정의할 수 있습니다.
 
-파생 필드는 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. 과 같은 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)또는 고유한 ETL(추출 변환 로드) / ELT(추출 로드 변환) 프로세스 내에서 사용할 수 있습니다.
+파생 필드는 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것과 비교하여 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko-KR), [데이터 Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 고유한 ETL(추출 변환 로드)/ELT(추출 로드 변환) 프로세스 내에서 사용할 수 있습니다.
 
-파생 필드는 다음 내에서 정의됩니다. [데이터 보기](../data-views.md)는 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
+파생 필드는 [데이터 보기](../data-views.md) 내에서 정의되며 규칙으로 정의된 함수 집합을 기반으로 하며 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
 사용 사례의 예는 다음과 같습니다.
 
@@ -30,13 +30,13 @@ ht-degree: 12%
 
 파생 필드를 만들거나 편집할 때 파생 필드 인터페이스를 사용합니다.
 
-![파생된 필드 대화 상자의 스크린샷](assets/derived-field-dialog.png)
+![파생 필드 대화 상자의 스크린샷](assets/derived-field-dialog.png)
 
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
-| 1 | **선택기** | 선택기 영역을 사용하여 함수, 함수 템플릿, 스키마 필드 또는 표준 필드를 선택하여 규칙 빌더로 끌어다 놓습니다. <br/>드롭다운을 사용하여 다음 중 하나를 선택합니다. <br/>![함수](assets/Smock_Function_18_N.svg) [!UICONTROL 함수] - 사용 가능한 목록 [함수](#function-reference), </br>![함수 템플릿 아이콘](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 함수 템플릿] - 사용 가능한 목록 [함수 템플릿](#function-templates), <br/>![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg)  [!UICONTROL 스키마 필드] - 데이터 세트 카테고리(이벤트, 프로필, 조회) 및 이전에 정의된 파생 필드에서 사용할 수 있는 필드를 나열합니다. <br/>![표준 필드 아이콘](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 표준 필드] - 표준 사용 가능한 필드 (예: 플랫폼 데이터 세트 ID). 문자열 및 숫자 표준 필드만 선택기에 표시됩니다. 함수가 다른 데이터 형식을 지원하는 경우 규칙 인터페이스 내의 값 또는 필드에 대해 이러한 다른 데이터 형식을 사용하는 표준 필드를 선택할 수 있습니다.<br/>다음을 사용하여 함수, 함수 템플릿, 스키마 및 표준 필드를 검색할 수 있습니다. ![검색 아이콘](assets/Smock_Search_18_N.svg) 검색 상자. <br/>다음을 선택하여 선택한 객체 목록을 필터링할 수 있습니다. ![필터 아이콘](assets/Smock_Filter_18_N.svg) 필터 및 필터 지정 [!UICONTROL 필드 필터링 기준] 대화 상자. 다음을 사용하여 필터를 쉽게 제거할 수 있습니다. ![닫기 아이콘](assets/CrossSize75.svg) 각 필터에 대해 |
-| 2 | **규칙 빌더** | 하나 이상의 규칙을 사용하여 파생 필드를 순차적으로 작성합니다. 규칙은 특정 함수 구현이므로 항상 하나의 함수에만 연결됩니다. 함수를 규칙 빌더로 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 결정합니다.<br/>다음을 참조하십시오. [규칙 인터페이스](#rule-interface) 추가 정보. <br/>규칙 빌더에서 이미 사용 가능한 규칙의 시작, 끝 또는 중간에 함수를 삽입할 수 있습니다. 규칙 빌더의 마지막 규칙이 파생된 필드의 최종 출력을 결정합니다. |
+| 1 | **선택기** | 선택기 영역을 사용하여 함수, 함수 템플릿, 스키마 필드 또는 표준 필드를 선택하여 규칙 빌더로 끌어다 놓습니다. <br/>드롭다운을 사용하여 다음 중 하나를 선택합니다. <br/>![함수](assets/Smock_Function_18_N.svg) [!UICONTROL 함수] - 사용 가능한 [함수](#function-reference), </br>![함수 템플릿 아이콘](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 함수 템플릿] - 사용 가능한 [함수 템플릿](#function-templates), <br/>![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) [!UICONTROL 스키마 필드] - 데이터 세트 범주(이벤트, 프로필, 조회) 및 이전에 정의한 파생 필드에서 사용 가능한 필드 목록, <br/>![표준 필드 아이콘](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 표준 필드] - 사용 가능한 표준 필드(예: 플랫폼 데이터 세트 ID). 문자열 및 숫자 표준 필드만 선택기에 표시됩니다. 함수가 다른 데이터 형식을 지원하는 경우 규칙 인터페이스 내의 값 또는 필드에 대해 이러한 다른 데이터 형식을 사용하는 표준 필드를 선택할 수 있습니다.<br/>![검색 아이콘](assets/Smock_Search_18_N.svg) 검색 상자를 사용하여 함수, 함수 템플릿, 스키마 및 표준 필드를 검색할 수 있습니다. <br/>선택한 개체 목록을 필터링하려면 ![필터 아이콘](assets/Smock_Filter_18_N.svg) 필터를 선택하고 [!UICONTROL 필드 필터링 기준] 대화 상자에서 필터를 지정합니다. 각 필터에 대해 ![닫기 아이콘](assets/CrossSize75.svg)을 사용하여 필터를 쉽게 제거할 수 있습니다. |
+| 2 | **규칙 빌더** | 하나 이상의 규칙을 사용하여 파생 필드를 순차적으로 작성합니다. 규칙은 특정 함수 구현이므로 항상 하나의 함수에만 연결됩니다. 함수를 규칙 빌더로 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 결정합니다.<br/>자세한 내용은 [규칙 인터페이스](#rule-interface)를 참조하세요. <br/>함수를 시작, 끝 또는 규칙 빌더에서 이미 사용 가능한 규칙 사이에 삽입할 수 있습니다. 규칙 빌더의 마지막 규칙이 파생된 필드의 최종 출력을 결정합니다. |
 | 3 | **[!UICONTROL **&#x200B;필드 설정&#x200B;**]** | 파생 필드의 이름과 설명을 지정하고 필드 유형을 검사할 수 있습니다. |
 | 4 | **[!UICONTROL **&#x200B;최종 출력&#x200B;**]** | 이 영역에는 지난 30일 동안의 데이터 및 규칙 빌더의 파생 필드에 대한 변경 사항을 기반으로 즉석으로 업데이트된 출력 값 미리보기가 표시됩니다. |
 
@@ -47,105 +47,105 @@ ht-degree: 12%
 파생 필드 인터페이스에 처음 액세스하면 [!UICONTROL 필드 템플릿으로 시작] 마법사가 표시됩니다.
 
 1. 만들려는 필드 유형을 가장 잘 설명하는 템플릿을 선택합니다.
-2. 다음 항목 선택 **[!UICONTROL **&#x200B;선택&#x200B;**]** 단추를 클릭하여 계속합니다.
+2. 계속하려면 **[!UICONTROL **&#x200B;선택&#x200B;**]** 단추를 선택하십시오.
 
-파생 필드 대화 상자는 선택한 필드 유형에 필요하거나 유용한 규칙(및 함수)으로 채워집니다. 다음을 참조하십시오 [함수 템플릿](#function-templates) 사용 가능한 템플릿에 대한 자세한 내용을 보려면.
+파생 필드 대화 상자는 선택한 필드 유형에 필요하거나 유용한 규칙(및 함수)으로 채워집니다. 사용 가능한 템플릿에 대한 자세한 내용은 [함수 템플릿](#function-templates)을 참조하세요.
 
 ## 규칙 인터페이스
 
 규칙 빌더에서 규칙을 정의할 때는 규칙 인터페이스를 사용합니다.
 
-![파생된 필드 규칙 인터페이스의 스크린샷](assets/rule-interface.png)
+![파생 필드 규칙 인터페이스의 스크린샷](assets/rule-interface.png)
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
-| A | **규칙 이름** | 기본적으로 규칙 이름은 입니다. **규칙 X** (X 는 시퀀스 번호를 나타냅니다.) 규칙 이름을 편집하려면 규칙 이름을 선택하고 새 이름을 입력합니다(예: ) `Query Parameter`. |
-| B | **함수 이름** | 규칙에 대해 선택한 함수 이름(예: ) [!UICONTROL URL 구문 분석]. 함수가 함수 시퀀스의 마지막 함수이고 최종 출력 값을 결정하는 경우 함수 이름 뒤에 가 옵니다. [!UICONTROL - 최종 출력], 예 [!UICONTROL URL 구문 분석 - 최종 출력]. <br/>기능에 대한 추가 정보가 있는 팝업을 표시하려면 을 선택합니다. ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg). |
-| C | **규칙 설명** | 원할 경우 규칙에 설명을 추가할 수 있습니다.<br/>선택 ![기타 아이콘](assets/More.svg)을 선택한 다음 을 선택합니다. **[!UICONTROL **&#x200B;설명 추가&#x200B;**]** 설명 또는 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]** 기존 설명을 편집합니다.<br/>편집기를 사용하여 설명을 입력합니다. 도구 모음을 사용하여 텍스트 서식을 지정하고(스타일 선택기, 굵게, 기울임꼴, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 번호 목록, 글머리 기호 목록 사용) 외부 정보에 링크를 추가할 수 있습니다. <br/>설명 편집을 완료하려면 편집기 외부를 클릭합니다. |
-| D | **기능 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수 유형에 따라 다릅니다. 다음에 대한 드롭다운 [!UICONTROL 필드] 또는 [!UICONTROL 값] 함수에서 예상하는 입력 유형에 따라 사용 가능한 모든 필드 범주(규칙, 표준 필드, 필드)를 표시합니다. 또는 스키마 및 표준 필드 선택기의 필드를 필드 또는 값으로 드래그하여 놓을 수 있습니다. 드래그한 필드가 조회 데이터 세트에서 비롯되면 사용자가 정의하는 함수 앞에 조회 함수가 자동으로 삽입됩니다. <br/>다음을 참조하십시오 [함수 참조](#function-reference) 지원되는 각 기능에 대한 자세한 정보를 제공합니다. |
+| A | **규칙 이름** | 기본적으로 규칙 이름은 **규칙 X**(X는 시퀀스 번호를 나타냄)입니다. 규칙 이름을 편집하려면 규칙 이름을 선택하고 새 이름을 입력합니다(예: `Query Parameter`). |
+| B | **함수 이름** | 규칙에 대해 선택한 함수 이름(예: [!UICONTROL URL PARSE]). 함수가 함수 시퀀스의 마지막 함수이고 최종 출력 값을 결정하는 경우 함수 이름 뒤에 [!UICONTROL - FINAL OUTPUT]이(가) 옵니다. 예: [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>기능에 대한 자세한 정보가 있는 팝업을 표시하려면 ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg)을 선택하세요. |
+| C | **규칙 설명** | 원할 경우 규칙에 설명을 추가할 수 있습니다.<br/>추가 아이콘](assets/More.svg)을 선택한 다음 **[!UICONTROL **&#x200B;설명 추가&#x200B;**]**&#x200B;를 선택하여 설명을 추가하거나 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]**&#x200B;을 선택하여 기존 설명을 편집합니다.![<br/>편집기를 사용하여 설명을 입력하십시오. 도구 모음을 사용하여 텍스트 서식을 지정하고(스타일 선택기, 굵게, 기울임꼴, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 번호 목록, 글머리 기호 목록 사용) 외부 정보에 링크를 추가할 수 있습니다. <br/>설명 편집을 마치려면 편집기 바깥쪽을 클릭합니다. |
+| D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수 유형에 따라 다릅니다. [!UICONTROL 필드] 또는 [!UICONTROL 값]에 대한 드롭다운에 함수에서 예상하는 입력 유형에 따라 사용할 수 있는 모든 필드 범주(규칙, 표준 필드, 필드)가 표시됩니다. 또는 스키마 및 표준 필드 선택기의 필드를 필드 또는 값으로 드래그하여 놓을 수 있습니다. 드래그한 필드가 조회 데이터 세트에서 비롯되면 사용자가 정의하는 함수 앞에 조회 함수가 자동으로 삽입됩니다. 지원되는 각 함수에 대한 자세한 내용은 <br/>[함수 참조](#function-reference)를 참조하세요. |
 
 {style="table-layout:auto"}
 
 ## 파생 필드 만들기
 
-1. 기존 데이터 보기를 선택하거나 데이터 보기를 만듭니다. 다음을 참조하십시오 [데이터 보기](../data-views.md) 추가 정보.
+1. 기존 데이터 보기를 선택하거나 데이터 보기를 만듭니다. 자세한 내용은 [데이터 보기](../data-views.md)를 참조하세요.
 
-2. 다음 항목 선택 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 데이터 보기 탭
+2. 데이터 보기에서 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 선택합니다.
 
-3. 선택 **[!UICONTROL **&#x200B;파생 필드 만들기&#x200B;**]** 왼쪽 레일에서.
+3. 왼쪽 레일에서 **[!UICONTROL **&#x200B;파생 필드 만들기&#x200B;**]**&#x200B;를 선택합니다.
 
-4. 파생 필드를 정의하려면 [!UICONTROL 파생 필드 만들기] 인터페이스. 다음을 참조하십시오 [파생 필드 인터페이스](#derived-field-interface).
+4. 파생 필드를 정의하려면 [!UICONTROL 파생 필드 만들기] 인터페이스를 사용하십시오. [파생 필드 인터페이스](#derived-field-interface)를 참조하십시오.
 
-   새 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**.
+   새 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**&#x200B;을 선택하세요.
 
-5. 새 파생 필드가 [!UICONTROL 파생 필드 >] 컨테이너, 의 일부 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 데이터 보기의 왼쪽 레일에서 을 클릭합니다.
+5. 새 파생 필드가 데이터 보기의 왼쪽 레일에 있는 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]**&#x200B;의 일부로 [!UICONTROL 파생 필드 >] 컨테이너에 추가됩니다.
 
 
 ## 파생 필드 편집
 
-1. 기존 데이터 보기를 선택합니다. 다음을 참조하십시오 [데이터 보기](../data-views.md) 추가 정보.
+1. 기존 데이터 보기를 선택합니다. 자세한 내용은 [데이터 보기](../data-views.md)를 참조하세요.
 
-2. 다음 항목 선택 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 데이터 보기 탭
+2. 데이터 보기에서 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 선택합니다.
 
-3. 선택 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 의 탭 [!UICONTROL 연결] 왼쪽 창입니다.
+3. 왼쪽의 [!UICONTROL 연결] 창에서 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 탭을 선택합니다.
 
-4. 선택 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너.
+4. **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너를 선택합니다.
 
-5. 편집할 파생 필드 위로 마우스를 가져간 다음 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
+5. 편집할 파생 필드 위로 마우스를 가져간 다음 ![편집 아이콘](assets/Smock_Edit_18_N.svg)을 선택합니다.
 
-6. 파생 필드를 편집하려면 다음을 사용하십시오. [!UICONTROL 파생 필드 편집] 인터페이스. 다음을 참조하십시오 [파생 필드 인터페이스](#derived-field-interface).
+6. 파생 필드를 편집하려면 [!UICONTROL 파생 필드 편집] 인터페이스를 사용하십시오. [파생 필드 인터페이스](#derived-field-interface)를 참조하십시오.
 
-   - 선택 **[!UICONTROL **&#x200B;저장&#x200B;**]** 업데이트된 파생 필드를 저장합니다.
+   - 업데이트된 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**&#x200B;을 선택하세요.
 
-   - 선택 **[!UICONTROL **&#x200B;취소&#x200B;**]** 파생 필드의 변경 사항을 취소합니다.
+   - 파생 필드에 대한 변경 내용을 취소하려면 **[!UICONTROL **&#x200B;취소&#x200B;**]**&#x200B;를 선택하십시오.
 
-   - 선택 **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]** 파생된 필드를 새 파생된 필드로 저장합니다. 새 파생 필드의 이름이 을 사용하여 편집한 원래 파생 필드와 동일합니다. `(copy)` 이(가) 추가되었습니다.
+   - **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]**&#x200B;을(를) 선택하여 파생 필드를 새 파생 필드로 저장합니다. 새 파생 필드의 이름이 `(copy)`이(가) 추가된 원래 편집된 파생 필드와 같습니다.
 
 또는 데이터 보기에서 파생된 필드를 차원 또는 지표의 구성 요소로 사용한 경우 다음을 수행하십시오.
 
 1. 구성 요소를 선택합니다. 구성 요소의 이름이 파생 필드와 다를 수 있습니다.
 
-1. 구성 요소 패널에서 ![편집 아이콘](assets/Smock_Edit_18_N.svg) 파생된 필드 옆의 스키마 필드 이름 아래에 있습니다.
+1. 구성 요소 패널에서 스키마 필드 이름 아래의 파생 필드 옆에 있는 ![편집 아이콘](assets/Smock_Edit_18_N.svg)을 선택합니다.
 
-1. 파생 필드를 편집하려면 다음을 사용하십시오. [!UICONTROL 파생 필드 편집] 인터페이스. 다음을 참조하십시오 [파생 필드 인터페이스](#derived-field-interface).
+1. 파생 필드를 편집하려면 [!UICONTROL 파생 필드 편집] 인터페이스를 사용하십시오. [파생 필드 인터페이스](#derived-field-interface)를 참조하십시오.
 
-   - 선택 **[!UICONTROL **&#x200B;저장&#x200B;**]** 업데이트된 파생 필드를 저장합니다.
+   - 업데이트된 파생 필드를 저장하려면 **[!UICONTROL **&#x200B;저장&#x200B;**]**&#x200B;을 선택하세요.
 
-   - 선택 **[!UICONTROL **&#x200B;취소&#x200B;**]** 파생 필드의 변경 사항을 취소합니다.
+   - 파생 필드에 대한 변경 내용을 취소하려면 **[!UICONTROL **&#x200B;취소&#x200B;**]**&#x200B;를 선택하십시오.
 
-   - 선택 **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]** 파생된 필드를 새 파생된 필드로 저장합니다. 새 파생 필드의 이름이 을 사용하여 편집한 원래 파생 필드와 동일합니다. `(copy)` 이(가) 추가되었습니다.
+   - **[!UICONTROL **&#x200B;다른 이름으로 저장&#x200B;**]**&#x200B;을(를) 선택하여 파생 필드를 새 파생 필드로 저장합니다. 새 파생 필드의 이름이 `(copy)`이(가) 추가된 원래 편집된 파생 필드와 같습니다.
 
 
 
 ## 파생 필드 삭제
 
-1. 기존 데이터 보기를 선택합니다. 다음을 참조하십시오 [데이터 보기](../data-views.md) 추가 정보.
+1. 기존 데이터 보기를 선택합니다. 자세한 내용은 [데이터 보기](../data-views.md)를 참조하세요.
 
-2. 다음 항목 선택 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 데이터 보기 탭
+2. 데이터 보기에서 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 선택합니다.
 
-3. 선택 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 의 탭 [!UICONTROL 연결] 창.
+3. [!UICONTROL 연결] 창에서 **[!UICONTROL **&#x200B;스키마 필드&#x200B;**]** 탭을 선택하십시오.
 
-4. 선택 **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너.
+4. **[!UICONTROL **&#x200B;파생 필드 >**]** 컨테이너를 선택합니다.
 
-5. 삭제할 파생 필드 위로 마우스를 가져간 다음 을 선택합니다 ![편집 아이콘](assets/Smock_Edit_18_N.svg).
+5. 삭제할 파생 필드 위로 마우스를 가져간 다음 ![편집 아이콘](assets/Smock_Edit_18_N.svg)을 선택합니다.
 
-6. 다음에서 [!UICONTROL 파생 필드 편집] 인터페이스, 선택 **[!UICONTROL 삭제]**.
+6. [!UICONTROL 파생 필드 편집] 인터페이스에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
-   A [!UICONTROL 구성 요소 삭제] 대화 상자에서 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 대한 외부 참조가 있을 수 있다고 가정합니다.
+   [!UICONTROL 구성 요소 삭제] 대화 상자에서 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 대한 외부 참조가 있을 수 있다고 가정합니다.
 
-   - 선택 **[!UICONTROL **&#x200B;계속&#x200B;**]** 파생된 필드를 삭제합니다.
+   - 파생 필드를 삭제하려면 **[!UICONTROL **&#x200B;계속&#x200B;**]**&#x200B;을(를) 선택하십시오.
 
 또는 데이터 보기에서 파생된 필드를 차원 또는 지표의 구성 요소로 사용한 경우 다음을 수행하십시오.
 
 1. 구성 요소를 선택합니다. 구성 요소의 이름이 파생 필드와 다를 수 있습니다.
 
-1. 구성 요소 패널에서 ![편집 아이콘](assets/Smock_Edit_18_N.svg) 파생된 필드 옆의 스키마 필드 이름 아래에 있습니다.
+1. 구성 요소 패널에서 스키마 필드 이름 아래의 파생 필드 옆에 있는 ![편집 아이콘](assets/Smock_Edit_18_N.svg)을 선택합니다.
 
-1. 다음에서 [!UICONTROL 파생 필드 편집] 인터페이스, 선택 **[!UICONTROL 삭제]**.
+1. [!UICONTROL 파생 필드 편집] 인터페이스에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
-   A [!UICONTROL 구성 요소 삭제] 대화 상자에서 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 대한 외부 참조가 있을 수 있다고 가정합니다.
+   [!UICONTROL 구성 요소 삭제] 대화 상자에서 삭제를 확인하는 메시지가 표시됩니다. 데이터 보기 외부의 파생된 필드에 대한 외부 참조가 있을 수 있다고 가정합니다.
 
-   - 선택 **[!UICONTROL **&#x200B;계속&#x200B;**]** 파생된 필드를 삭제합니다.
+   - 파생 필드를 삭제하려면 **[!UICONTROL **&#x200B;계속&#x200B;**]**&#x200B;을(를) 선택하십시오.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ ht-degree: 12%
 
 ## 함수 템플릿
 
-특정 사용 사례에 대한 파생 필드를 신속하게 만들려면 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 파생 필드 인터페이스의 선택기 영역에서 액세스하거나 [!UICONTROL 필드 템플릿으로 시작] 마법사.
+특정 사용 사례에 대한 파생 필드를 신속하게 만들려면 함수 템플릿을 사용할 수 있습니다. 이러한 함수 템플릿은 파생 필드 인터페이스의 선택기 영역에서 액세스하거나 [!UICONTROL 필드 템플릿으로 시작] 마법사에서 처음 사용할 때 표시됩니다.
 
 
 ### 마케팅 채널
@@ -164,9 +164,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![마케팅 채널 템플릿 규칙 빌더의 스크린샷](assets/function-template-marketing-channel-template.png)
+마케팅 채널 템플릿 규칙 빌더의 ![스크린샷](assets/function-template-marketing-channel-template.png)
 
 +++
 
@@ -176,7 +176,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![바운스 규칙 빌더의 스크린샷](assets/function-template-bounces.png)
 
@@ -188,9 +188,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![다중 Dimension 결합 규칙 빌더의 스크린샷](assets/function-template-multi-dimension-combine.png)
+다중 Dimension 조합 규칙 빌더의 ![스크린샷](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -200,9 +200,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![친숙한 데이터 세트 이름 규칙 빌더의 스크린샷](assets/function-template-friendly-dataset-name.png)
+친숙한 데이터 세트 이름 규칙 빌더의 ![스크린샷](assets/function-template-friendly-dataset-name.png)
 
 +++
 
@@ -212,7 +212,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![URL 규칙 빌더의 페이지 이름 스크린샷](assets/function-template-page-name-from-url.png)
 
@@ -224,9 +224,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![Holiday Season 규칙 빌더 스크린샷](assets/function-template-holiday-season.png)
+휴일 시즌 규칙 빌더의 ![스크린샷](assets/function-template-holiday-season.png)
 
 +++
 
@@ -236,7 +236,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![월별 목표 규칙 빌더의 스크린샷](assets/function-template-monthly-goals.png)
 
@@ -248,7 +248,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![구분된 목록 규칙 빌더의 모든 값 가져오기 스크린샷](assets/function-template-get-all-values-in-delimited-list.png)
 
@@ -260,9 +260,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![구분된 목록 규칙 빌더의 첫 번째 값 가져오기 스크린샷](assets/function-template-get-first-value-in-delimited-list.png)
+구분 목록 규칙 빌더에서 첫 번째 값 가져오기의 ![스크린샷](assets/function-template-get-first-value-in-delimited-list.png)
 
 +++
 
@@ -272,9 +272,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![구분된 목록 규칙 빌더의 마지막 값 가져오기 스크린샷](assets/function-template-get-last-value-in-delimited-list.png)
+구분 목록 규칙 빌더에서 마지막 값 가져오기의 ![스크린샷](assets/function-template-get-last-value-in-delimited-list.png)
 
 +++
 
@@ -284,7 +284,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![도메인 이름 규칙 빌더의 스크린샷](assets/function-template-domain-name.png)
 
@@ -296,7 +296,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![쿼리 문자열 매개 변수 가져오기 규칙 빌더의 스크린샷](assets/function-template-get-query-string-parameter.png)
 
@@ -308,7 +308,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![전환 필드 규칙 빌더의 스크린샷](assets/function-template-transition-field.png)
 
@@ -320,7 +320,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![Simple Bot Detection 규칙 빌더의 스크린샷](assets/function-template-simple-bot-detection.png)
 
@@ -332,7 +332,7 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![종료 링크 규칙 빌더의 스크린샷](assets/function-template-exit-link.png)
 
@@ -344,9 +344,9 @@ ht-degree: 12%
 
 +++ 세부 사항
 
-템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 다음을 참조하십시오 [함수 참조](#function-reference) 추가 정보.
+템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![다운로드 링크 규칙 빌더의 스크린샷](assets/function-template-download-link.png)
+다운로드 링크 규칙 빌더의 ![스크린샷](assets/function-template-download-link.png)
 
 +++
 
@@ -394,7 +394,7 @@ ht-degree: 12%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준] (선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 그런 다음 값을 로 설정합니다.], [!UICONTROL 그렇지 않으면 값을 로 설정하십시오.]:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음보다 이전</li><li>다음보다 이전이거나 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>20 [연산자](#operators) 파생 필드별로. 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준](선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 값을 ](으)로 설정하고 [!UICONTROL 값을 ](으)로 설정합니다.</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음보다 이전</li><li>다음보다 이전이거나 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개의 [연산자](#operators). 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -402,15 +402,15 @@ ht-degree: 12%
 
 계단식 로직을 적용하여 마케팅 채널 필드를 적절한 값으로 설정하여 다양한 마케팅 채널을 식별하는 규칙을 정의하려는 경우:
 
-- 레퍼러가 검색 엔진에서 왔고 페이지에 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ps_`, 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *유료 검색*].
-- 레퍼러가 검색 엔진에서 왔으며 페이지에 쿼리 문자열이 없는 경우 `cid`, 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *자연어 검색*].
-- 페이지에 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `em_`, 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *이메일*].
-- 페이지에 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `ds_`, 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *광고 표시*].
-- 페이지에 쿼리 문자열 값이 있는 경우 `cid` 다음 포함 `so_`, 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *유료 소셜*].
-- 레퍼러가 의 참조 도메인에서 온 경우 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com], 또는 [!DNL tiktok.com], 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *자연적인 사회*].
-- 위의 규칙 중 일치하는 규칙이 없으면 마케팅 채널은 (으)로 식별되어야 합니다. [!DNL *기타 레퍼러*].
+- 레퍼러가 검색 엔진에서 왔고 페이지에 `cid`에 `ps_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 검색*](으)로 식별되어야 합니다.
+- 레퍼러가 검색 엔진에서 왔고 페이지에 쿼리 문자열 `cid`이(가) 없는 경우 마케팅 채널은 [!DNL *자연어 검색*](으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `em_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *이메일*](으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `ds_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *디스플레이 광고*](으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `so_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 소셜*](으)로 식별되어야 합니다.
+- 레퍼러가 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com] 또는 [!DNL tiktok.com]의 참조 도메인에서 온 경우 마케팅 채널은 [!DNL *자연어 소셜*](으)로 식별해야 합니다.
+- 위의 규칙 중 일치하는 규칙이 없으면 마케팅 채널은 [!DNL *기타 레퍼러*](으)로 식별되어야 합니다.
 
-사이트에서 다음 샘플 이벤트를 수신하는 경우 다음을 포함: [!UICONTROL 레퍼러] 및 [!UICONTROL 페이지 URL], 이러한 이벤트는 다음과 같이 식별해야 합니다.
+사이트에서 [!UICONTROL 레퍼러] 및 [!UICONTROL 페이지 URL]을 포함하는 샘플 이벤트를 받는 경우 이러한 이벤트는 다음과 같이 식별해야 합니다.
 
 | [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
@@ -438,11 +438,11 @@ ht-degree: 12%
 
 ### 파생 필드 {#casewhen-uc1-derivedfield}
 
-다음을 정의합니다. `Marketing Channel` 파생 필드. 다음을 사용합니다. [!UICONTROL 다음의 경우] 함수 를 사용하여 두 요소의 기존 값을 기반으로 의 값을 생성하는 `Page URL` 및 `Referring URL` 필드.
+`Marketing Channel` 파생 필드를 정의합니다. [!UICONTROL CASE WHEN] 함수를 사용하여 `Page URL` 및 `Referring URL` 필드 모두에 대한 기존 값을 기반으로 값을 만드는 규칙을 정의합니다.
 
-함수의 사용에 주의하십시오 [!UICONTROL URL 구문 분석] 값을 가져올 규칙을 정의하려면 `Page Url` 및 `Referring Url` 다음 이전 [!UICONTROL 다음의 경우] 규칙이 적용됩니다.
+[!UICONTROL CASE WHEN] 규칙이 적용되기 전에 `Page Url` 및 `Referring Url`에 대한 값을 가져오는 규칙을 정의하기 위해 [!UICONTROL URL PARSE] 함수를 사용합니다.
 
-![규칙 1일 때의 서비스 케이스 스크린샷](assets/case-when-1.png)
+![규칙 1](assets/case-when-1.png)인 경우의 스크린샷
 
 ### 다음 이후 데이터 {#casewhen-uc1-dataafter}
 
@@ -460,9 +460,9 @@ ht-degree: 12%
 
 ## 사용 사례 2 {#casewhen-uc2}
 
-내에서 여러 가지 다양한 검색 변형을 수집했습니다. [!DNL Product Finding Methods] 차원. 검색과 탐색의 전체 성능을 이해하려면 결과를 수동으로 결합하는 데 많은 시간을 소비해야 합니다.
+[!DNL Product Finding Methods] 차원 내에서 여러 다양한 검색 변형을 수집했습니다. 검색과 탐색의 전체 성능을 이해하려면 결과를 수동으로 결합하는 데 많은 시간을 소비해야 합니다.
 
-귀하의 사이트에서 귀하의 다음 값을 수집합니다. [!DNL Product Finding Methods] 차원. 결국 이 모든 값은 검색을 나타냅니다.
+사이트에서 [!DNL Product Finding Methods] 차원에 대한 다음 값을 수집합니다. 결국 이 모든 값은 검색을 나타냅니다.
 
 | 수집된 값 | 실제 값 |
 |---|---|
@@ -494,9 +494,9 @@ ht-degree: 12%
 
 ### 파생 필드 {#casewhen-uc2-derivedfield}
 
-다음을 정의합니다. `Product Finding Methods (new)` 파생 필드. 다음을 생성합니다 [!UICONTROL 다음의 경우] 규칙 빌더의 규칙. 이 규칙은 가능한 모든 구 변형에 논리를 적용합니다 [!UICONTROL 제품 검색 방법] 필드 값 `search` 및 `browse` 사용 [!UICONTROL 구문 포함] 기준.
+`Product Finding Methods (new)` 파생 필드를 정의합니다. 규칙 빌더에서 다음 [!UICONTROL CASE WHEN] 규칙을 만듭니다. 이 규칙은 [!UICONTROL 구문 포함] 기준을 사용하여 `search` 및 `browse`에 대한 이전 [!UICONTROL 제품 검색 방법] 필드 값의 가능한 모든 변형에 논리를 적용합니다.
 
-![Case When 규칙 2 스크린샷](assets/case-when-2.png)
+![규칙 2](assets/case-when-2.png)인 경우의 스크린샷
 
 ### 다음 이후 데이터 {#casewhen-uc2-dataafter}
 
@@ -522,9 +522,9 @@ ht-degree: 12%
 가정:
 
 - 조직이 이동 기간을 숫자 필드로 수집하고 있습니다.
-- 1~3일 기간을 &#39;&#39; 버킷에 버킷팅하려고 합니다.[!DNL short trip]&#39;
-- 4~7일 기간을 &#39;&#39; 버킷에 버킷팅하려고 합니다.[!DNL medium trip]&#39;
-- 8일 이상의 기간을 &#39;&#39; 버킷에 버킷팅하려고 합니다.[!DNL long trip]&#39;
+- 1~3일 기간을 &#39;[!DNL short trip]&#39; 버킷에 버킷하려고 합니다.
+- 4~7일 기간을 &#39;[!DNL medium trip]&#39; 버킷에 버킷하려고 합니다.
+- 8일 이상의 기간을 &#39;[!DNL long trip]&#39; 버킷에 버킷하려고 합니다.
 - 1일 동안 132회의 여행이 예약되었습니다
 - 110번의 여행이 2일 동안 예약되었습니다
 - 105번의 여행이 3일 동안 예약되었습니다
@@ -567,9 +567,9 @@ ht-degree: 12%
 
 ### 파생 필드 {#casewhen-uc3-derivedfield}
 
-다음을 정의합니다. `Trip Duration (bucketed)` 파생 필드. 다음을 생성합니다 [!UICONTROL 다음의 경우] 규칙 빌더의 규칙입니다. 이 규칙은 논리를 적용하여 이전 버전을 버킷합니다. [!UICONTROL 이동 기간] 필드 값을 다음 세 가지 값으로 변환: `short trip`, `medium  trip`, 및 `long trip`.
+`Trip Duration (bucketed)` 파생 필드를 정의합니다. 규칙 빌더에 다음 [!UICONTROL CASE WHEN] 규칙을 만듭니다. 이 규칙은 이전 [!UICONTROL 이동 기간] 필드 값을 `short trip`, `medium  trip`, `long trip` 값으로 버킷하는 논리를 적용합니다.
 
-![규칙 3일 때의 서비스 케이스 스크린샷](assets/case-when-3.png)
+규칙 3](assets/case-when-3.png)인 경우의 ![스크린샷
 
 
 ### 다음 이후 데이터 {#casewhen-uc3-dataafter}
@@ -592,7 +592,7 @@ ht-degree: 12%
 
 ## 추가 정보 {#casewhen-more-info}
 
-Customer Journey Analytics은 Adobe Experience Platform의 모델을 따라 중첩된 컨테이너 구조를 사용합니다. [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) (경험 데이터 모델). 다음을 참조하십시오 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers) 을 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
+Customer Journey Analytics은 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)(경험 데이터 모델)을 모델로 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers)를 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
 Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -600,13 +600,13 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-다음 제한 조건이 적용되며 다음의 경우 적용됩니다. *선택* 및 *설정* 값.
+다음 제약 조건은 *선택* 및 *설정* 값을 사용할 때 적용되고 적용됩니다.
 
 |  | 제한 |
 |:---:|----|
-| **A** | 귀하 값 *선택* 같은 기간 이내 [!UICONTROL If], [!UICONTROL Else If] 구문(사용) [!UICONTROL 및] 또는 [!UICONTROL 또는])를 사용하는 규칙은 동일한 컨테이너에서 파생되어야 하며 모든 유형(문자열)일 수 있습니다 ![문자열](assets/Smock_ABC_18_N.svg), 숫자 ![숫자](assets/Smock_123_18_N.svg)등). <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
-| **B** | 귀하가 지정한 모든 값 *set* 전체 규칙은 동일한 컨테이너의 값이어야 하며 동일한 유형 또는 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
-| **C** | 값: *선택* 가로 [!UICONTROL If], [!UICONTROL Else If] 규칙의 구문은 다음과 같습니다. *아님* 동일한 컨테이너에서 가져와서 다음을 수행해야 합니다. *아님* 같은 유형이어야 합니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
+| **A** | 규칙에서 동일한 [!UICONTROL If], [!UICONTROL Else If] 구문([!UICONTROL And] 또는 [!UICONTROL Or] 사용) 내에서 *select*&#x200B;하는 값은 동일한 컨테이너에서 가져와야 하며 모든 유형(문자열 ![String](assets/Smock_ABC_18_N.svg), 숫자 ![Numeric](assets/Smock_123_18_N.svg) 등)일 수 있습니다. <br/>![종속성 A](assets/dependency-a.png)의 스크린샷 |
+| **B** | 규칙에서 *설정*&#x200B;하는 모든 값은 같은 컨테이너의 값이어야 하며 같은 형식이거나 같은 형식의 파생된 값이어야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
+| **C** | [!UICONTROL If], [!UICONTROL Else If] 규칙에 있는 *select* 구문의 값은 동일한 컨테이너에서 *not*&#x200B;해야 하며 *not*&#x200B;해야 합니다. <br/> ![종속성 C](assets/dependency-c.png)의 스크린샷 |
 
 {style="table-layout:auto"}
 
@@ -624,15 +624,15 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 다음과 같은 경우] 및 [!UICONTROL 값 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <ul><li>파생 필드당 5개 함수</li><li>20 [연산자](#operators) 파생 필드별로. 의 모든 항목 [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기] 은 작업으로 간주됩니다.</li></ul> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 분류할 필드]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 값이 ]인 경우 및 [!UICONTROL 값을 다음으로 바꾸기]:</p><ul><li>문자열</li></ul><li>원래 값 표시<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개의 [연산자](#operators). [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기]의 모든 항목은 작업으로 간주됩니다.</li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 
 ## 사용 사례 1 {#classify-uc1}
 
-에 대한 키 열이 포함된 CSV 파일이 있습니다. `hotelID` 및 와 연결된 하나 이상의 추가 열 `hotelID`: `city`, `rooms`, `hotel name`.
-수집하는 중입니다. [!DNL Hotel ID] 차원에서 다음을 생성하려고 함 [!DNL Hotel Name] 에서 파생된 차원 `hotelID` CSV 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다.
+`hotelID`에 대한 키 열과 `hotelID`과(와) 연결된 하나 이상의 추가 열을 포함하는 CSV 파일이 있습니다. `city`, `rooms`, `hotel name`.
+차원에서 [!DNL Hotel ID]을(를) 수집하지만 CSV 파일의 `hotelID`에서 파생된 [!DNL Hotel Name] 차원을 만들려고 합니다.
 
 **CSV 파일 구조 및 콘텐츠**
 
@@ -681,11 +681,11 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#classify-uc1-derivedfield}
 
-다음을 정의합니다. `Hotel Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 규칙 정의 [!UICONTROL 호텔 아이디] 필드 및 새 값으로 대체합니다.
+`Hotel Name` 파생 필드를 정의합니다. [!UICONTROL CLASSIFY] 함수를 사용하여 [!UICONTROL 호텔 ID] 필드의 값을 분류하고 새 값으로 바꿀 수 있는 규칙을 정의합니다.
 
-분류할 값의 일부로 정의하지 않은 원래 값을 포함하려면(예: 호텔 ID AMS789) 다음을 선택하십시오 **[!UICONTROL 원래 값 표시]**. 이렇게 하면 해당 값이 분류되지 않지만 AMS789가 파생 필드에 대한 출력의 일부가 됩니다.
+분류할 값의 일부로 정의하지 않은 원래 값을 포함하려면(예: 호텔 ID AMS789) **[!UICONTROL 원래 값 표시]**&#x200B;를 선택하십시오. 이렇게 하면 해당 값이 분류되지 않지만 AMS789가 파생 필드에 대한 출력의 일부가 됩니다.
 
-![분류 규칙 1의 스크린샷](assets/classify-1.png)
+![분류 규칙 1](assets/classify-1.png)의 스크린샷
 
 ### 다음 이후 데이터 {#classify-uc1-dataafter}
 
@@ -718,7 +718,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#classify-uc2-derivedfield}
 
-다음을 정의합니다. `Page Name (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 분류] 함수를 사용하여 기존 값을 분류할 수 있는 규칙을 정의합니다. [!UICONTROL 페이지 이름] 필드 및 바꾸기 를 업데이트된 올바른 값으로 바꿉니다.
+`Page Name (updated)` 파생 필드를 정의합니다. [!UICONTROL CLASSIFY] 함수를 사용하여 기존 [!UICONTROL 페이지 이름] 필드의 값을 분류하고 업데이트된 올바른 값으로 바꿀 수 있는 규칙을 정의합니다.
 
 ![분류 규칙 2의 스크린샷](assets/classify-2.png)
 
@@ -739,10 +739,10 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 분류 규칙 인터페이스에서 다음 추가 기능을 사용할 수 있습니다.
 
-- 모든 테이블 값을 빠르게 지우려면 ![지우기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 모든 테이블 값 지우기]**.
-- 값의 원래 값이 동일하고 값의 새 값이 로 대체되는 경우 의 원래 값이 포함된 CSV 파일을 업로드하려면 다음을 선택합니다. ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV 업로드]**.
-- 업로드할 원래 값 및 새 값이 있는 CSV 파일 작성용 템플릿을 다운로드하려면 을(를) 선택합니다. ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 템플릿 다운로드]**.
-- 모든 원래 값과 새 값이 규칙 인터페이스에 채워진 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 값 다운로드]**.
+- 모든 테이블 값을 빠르게 지우려면 ![지우기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 모든 테이블 값 지우기]**&#x200B;를 선택하십시오.
+- When values에 대한 원래 값과 Replace에 대한 새 값이 동일한 경우 CSV 파일을 업로드하려면 ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV 업로드]**&#x200B;를 선택합니다.
+- 업로드할 원본 및 새 값이 있는 CSV 파일 만들기용 템플릿을 다운로드하려면 ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 선택하십시오.
+- 규칙 인터페이스에 원래 값과 새 값이 모두 채워진 CSV 파일을 다운로드하려면 ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 값 다운로드]**&#x200B;를 선택하십시오.
 
 
 +++
@@ -807,7 +807,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#concatenate-derivedfield}
 
-다음을 정의합니다. `Origin - Destination` 파생 필드. 다음을 사용합니다. [!UICONTROL 연결] 을 연결하는 규칙을 정의하는 함수 [!UICONTROL 원본] 및 [!UICONTROL 대상] 를 사용하는 필드 `-` [!UICONTROL 구분 기호].
+`Origin - Destination` 파생 필드를 정의합니다. [!UICONTROL CONCATENATE] 함수를 사용하여 `-` [!UICONTROL 구분 기호]를 사용하여 [!UICONTROL Original]과(와) [!UICONTROL Destination] 필드를 연결하는 규칙을 정의합니다.
 
 ![연결 규칙의 스크린샷](assets/concatenate.png)
 
@@ -826,32 +826,29 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 +++
 
 
-<!-- DEDUPLICATE
+### 중복 제거
 
-### Deduplicate
+값을 여러 번 카운트하지 않도록 합니다.
 
-Prevents counting a value multiple times.
++++ 세부 사항
 
-+++ Details
 
-{{release-limited-testing-section}}
+## 사양 {#deduplicate-io}
 
-## Specifications {#deduplicate-io}
-
-| Input Data Type | Input | Included Operators | Limitations | Output |
+| 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeric</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Person</li><li>Session</li></ul></li><li>[!UICONTROL Deduplication ID]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul><li>[!UICONTROL Value to keep]:<ul><li>Keep first instance</li><li>Keep last instance</li></ul></li></ul> | <p>N/A</p>| <p>5 functions per derived field</p> | <p>New derived field</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 중복 제거 ID]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul><li>[!UICONTROL 유지할 값]:<ul><li>첫 번째 인스턴스 유지</li><li>마지막 인스턴스 유지</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 
-## Use case 1 {#deduplicate-uc1}
+## 사용 사례 1 {#deduplicate-uc1}
 
-You want to prevent counting duplicate revenue when a user reloads the booking confirmation page. You use the booking confirmation ID at the identifier to not count the revenue again, when received on the same event.
+사용자가 예약 확인 페이지를 다시 로드할 때 중복 매출을 카운트하지 않도록 하려는 경우 같은 이벤트에서 수신되었을 때 식별자의 예약 확인 ID를 사용하여 수익을 다시 계산하지 않습니다.
 
-### Data before {#deduplicate-uc1-databefore}
+### 다음 이전 데이터 {#deduplicate-uc1-databefore}
 
-| Booking Confirmation ID | Revenue |
+| 예약 확인 ID | 매출 |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 359 |
@@ -859,15 +856,15 @@ You want to prevent counting duplicate revenue when a user reloads the booking c
 
 {style="table-layout:auto"}
 
-### Derived field {#deduplicate-uc1-derivedfield}
+### 파생 필드 {#deduplicate-uc1-derivedfield}
 
-You define a `Booking Confirmation` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Value] [!DNL Booking] for [!UICONTROL Scope] [!DNL Person] using [!UICONTROL Deduplication ID] [!UICONTROL Booking Confirmation ID]. You select [!UICONTROL Keep first instance] as [!UICONTROL Value to keep].
+`Booking Confirmation` 파생 필드를 정의합니다. [!UICONTROL DEDUPLICATE] 함수를 사용하여 [!UICONTROL 중복 제거 ID] [!UICONTROL 예약 확인 ID]를 사용하여 [!UICONTROL 범위] [!DNL Person]에 대한 [!UICONTROL 값] [!DNL Booking]을(를) 중복 제거하는 규칙을 정의합니다. [!UICONTROL 첫 번째 인스턴스 유지]를 [!UICONTROL 유지할 값](으)로 선택합니다.
 
-![Screenshot of the Concatenate rule](assets/deduplicate-1.png)
+![연결 규칙의 스크린샷](assets/deduplicate-1.png)
 
-### Data after {#deduplicate-uc1-dataafter}
+### 다음 이후 데이터 {#deduplicate-uc1-dataafter}
 
-| Booking Confirmation ID | Revenue |
+| 예약 확인 ID | 매출 |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 0 |
@@ -875,43 +872,42 @@ You define a `Booking Confirmation` derived field. You use the [!UICONTROL DEDUP
 
 {style="table-layout:auto"}
 
-## Use case 2 {#deduplicate-uc2}
+## 사용 사례 2 {#deduplicate-uc2}
 
-You use events as a proxy for campaign click-throughs with external marketing campaigns. Reloads & redirects are causing the event metric to be inflated. You would like to deduplicate the tracking code dimension so only the first is collected and minimize the event overcounting.
+외부 마케팅 캠페인이 있는 캠페인 클릭스루에 이벤트를 프록시로 사용합니다. 다시 로드 및 리디렉션으로 인해 이벤트 지표가 부풀려집니다. 첫 번째 차원만 수집되도록 추적 코드 차원을 중복 제거하고 이벤트 오버카운트를 최소화하려고 합니다.
 
-### Data before {#deduplicate-uc2-databefore}
+### 다음 이전 데이터 {#deduplicate-uc2-databefore}
 
-| Visitor ID | Marketing Channel | Events |
+| 방문자 ID | 마케팅 채널 | 이벤트 |
 |----|---|---:|
-| ABC123 | paid search | 1 |
-| ABC123 | paid search | 1 |
-| ABC123 | paid search | 1 |
-| DEF123 | email | 1 |
-| DEF123 | email | 1 |
-| JKL123 | natural search | 1 |
-| JKL123 | natural search | 1 |
+| ABC123 | 유료 검색 | 1 |
+| ABC123 | 유료 검색 | 1 |
+| ABC123 | 유료 검색 | 1 |
+| DEF123 | 이메일 | 1 |
+| DEF123 | 이메일 | 1 |
+| JKL123 | 자연어 검색 | 1 |
+| JKL123 | 자연어 검색 | 1 |
 
 {style="table-layout:auto"}
 
-### Derived field {#deduplicate-uc2-derivedfield}
+### 파생 필드 {#deduplicate-uc2-derivedfield}
 
-You define a new `Tracking Code (deduplicated)` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Tracking Code] with a [!UICONTROL Deduplication scope] of [!UICONTROL Session] and [!UICONTROL Keep first instance] as the [!UICONTROL Value to keep].
+새 `Tracking Code (deduplicated)` 파생 필드를 정의합니다. [!UICONTROL DEDUPLICATE] 함수를 사용하여 [!UICONTROL 세션]의 [!UICONTROL 중복 제거 범위] 및 [!UICONTROL 첫 번째 인스턴스 유지]를 [!UICONTROL 유지할 값으로 사용하여 [!UICONTROL 추적 코드]을(를) 중복 제거하는 규칙을 정의합니다.]
 
-![Screenshot of the Concatenate rule](assets/deduplicate-2.png)
+![연결 규칙의 스크린샷](assets/deduplicate-2.png)
 
-### Data after {#deduplicate-uc2-dataafter}
+### 다음 이후 데이터 {#deduplicate-uc2-dataafter}
 
-| Visitor ID | Marketing Channel | Events |
+| 방문자 ID | 마케팅 채널 | 이벤트 |
 |----|---|---:|
-| ABC123 | paid search | 1 |
-| DEF123 | email | 1 |
-| JKL123 | natural search | 1 |
+| ABC123 | 유료 검색 | 1 |
+| DEF123 | 이메일 | 1 |
+| JKL123 | 자연어 검색 | 1 |
 
 {style="table-layout:auto"}
 
 +++
 
--->
 
 <!-- FIND AND REPLACE -->
 
@@ -925,14 +921,14 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]:<ul><li>문자열</li></ul></li></ul></ul> | <p>문자열</p><ul><li>[!UICONTROL 모두 찾기], [!UICONTROL 모두 다음으로 바꾸기]</li></ul> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li></ul> | <ul><li>[!UICONTROL 값]<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>[!UICONTROL 모두 찾기], [!UICONTROL 및 모두 바꾸기]:<ul><li>문자열</li></ul></li></ul></ul> | <p>문자열</p><ul><li>[!UICONTROL 모두 찾기], [!UICONTROL 및 모두 바꾸기]</li></ul> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 
 ## 사용 사례 {#findreplace-uc}
 
-예를 들어 외부 마케팅 채널 보고서에 대한 일부 잘못된 형식의 값을 받았습니다. `email%20 marketing` 대신 `email marketing`. 이러한 잘못된 값은 보고를 분할하고 이메일이 어떻게 작동하는지 확인하는 것을 더 어렵게 합니다. 을(를) 바꾸려는 경우 `email%20marketing` 포함 `email marketing`.
+외부 마케팅 채널 보고서에 대한 일부 잘못된 값(예: `email marketing` 대신 `email%20 marketing`)을 받았습니다. 이러한 잘못된 값은 보고를 분할하고 이메일이 어떻게 작동하는지 확인하는 것을 더 어렵게 합니다. `email%20marketing`을(를) `email marketing`(으)로 바꾸려고 합니다.
 
 **원본 보고서**
 
@@ -964,7 +960,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#findreplace-uc-derivedfield}
 
-다음을 정의합니다. `Email Marketing (updated)` 파생 필드. 다음을 사용합니다. [!UICONTROL 찾기 및 바꾸기] 함수를 사용하여 모든 발생 항목을 찾아 바꿀 규칙을 정의합니다. `email%20marketing` 포함 `email marketing`.
+`Email Marketing (updated)` 파생 필드를 정의합니다. [!UICONTROL FIND AND REPLACE] 함수를 사용하여 `email%20marketing`의 모든 항목을 찾아 `email marketing`(으)로 바꾸는 규칙을 정의합니다.
 
 ![찾기 및 바꾸기 규칙의 스크린샷](assets/find-and-replace.png)
 
@@ -1015,7 +1011,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#lookup-uc-derivedfield}
 
-다음을 정의합니다. `Activity Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 조회] 함수를 사용하여 수집된 데이터에서 값을 조회하는 규칙을 정의할 수 있습니다. [!UICONTROL 조회를 적용할 필드] 필드(예 **[!DNL ActivityIdentifier]**). 다음에서 조회 데이터 세트를 선택합니다. [!UICONTROL 조회 데이터 세트] 목록(예 **[!DNL New CJA4T Activities]**). 그런 다음 식별자 필드를 선택합니다(예: **[!DNL ActivityIdentifier]**&#x200B;의 ) [!UICONTROL 일치하는 키] 목록에서 반환할 필드 [!UICONTROL 반환할 값] 목록(예 **[!DNL ActivityName]**).
+`Activity Name` 파생 필드를 정의합니다. [!UICONTROL LOOKUP] 함수를 사용하여 수집된 데이터에서 값을 조회하는 규칙을 정의합니다. [!UICONTROL 조회를 적용할 필드] 필드(예: **[!DNL ActivityIdentifier]**)에 지정합니다. [!UICONTROL 조회 데이터 세트] 목록에서 조회 데이터 세트를 선택합니다(예: **[!DNL New CJA4T Activities]**). 그런 다음 [!UICONTROL 일치하는 키] 목록에서 식별자 필드(예: **[!DNL ActivityIdentifier]**)를 선택하고 [!UICONTROL 반환할 값] 목록(예: **[!DNL ActivityName]**)에서 반환할 필드를 선택합니다.
 
 ![소문자 규칙의 스크린샷](assets/lookup.png)
 
@@ -1023,13 +1019,13 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 조회 함수는 보고서 시간에 연결의 일부로 구성한 조회 데이터 세트에서 Customer Journey Analytics이 검색한 데이터에 적용됩니다.
 
-를 신속하게 삽입할 수 있습니다. [!UICONTROL 조회] 하나 이상의 다른 함수를 이미 포함하고 있는 규칙 빌더의 함수입니다.
+하나 이상의 다른 함수가 이미 들어 있는 [!UICONTROL Lookup] 함수를 규칙 빌더에 빠르게 삽입할 수 있습니다.
 
-1. 선택 **[!UICONTROL 스키마 필드]** 선택기에서.
-1. 선택 ![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) **[!UICONTROL 조회 데이터 세트]**.
+1. 선택기에서 **[!UICONTROL 스키마 필드]**&#x200B;을(를) 선택합니다.
+1. ![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) **[!UICONTROL 조회 데이터 세트]**&#x200B;을 선택합니다.
 1. 조회 데이터 세트를 선택하고 조회에 사용할 필드를 찾습니다.
-1. 함수에 사용할 수 있는 입력 필드(예: Case When)에 조회 필드를 끌어다 놓습니다. 유효한 경우 파란색 상자로 레이블 지정됨 **[!UICONTROL + 추가]**를 사용하면 필드를 삭제하고 조회 필드를 놓은 함수 앞에 조회 함수를 자동으로 삽입할 수 있습니다. 삽입된 조회 함수는 모든 필드에 대한 관련 값으로 자동으로 채워집니다.
-   ![조회 드래그](assets/lookup-drag.png)
+1. 함수에 사용할 수 있는 입력 필드(예: Case When)에 조회 필드를 끌어다 놓습니다. 유효하면 **[!UICONTROL + 추가]** 레이블이 지정된 파란색 상자를 사용하여 필드를 삭제하고 조회 필드를 놓은 함수 앞에 조회 함수를 자동으로 삽입할 수 있습니다. 삽입된 조회 함수는 모든 필드에 대한 관련 값으로 자동으로 채워집니다.
+   ![끌기 조회](assets/lookup-drag.png)
 
 +++
 
@@ -1069,7 +1065,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#lowercase-uc-derivedfield}
 
-다음을 정의합니다. `Product Names` 파생 필드. 다음을 사용합니다. [!UICONTROL 소문자] 함수 를 사용하십시오. [!UICONTROL 수집된 제품 이름] 필드를 소문자로 바꾸고 새 파생 필드에 저장합니다.
+`Product Names` 파생 필드를 정의합니다. [!UICONTROL LOWERCASE] 함수를 사용하여 [!UICONTROL 수집된 제품 이름] 필드의 값을 소문자로 변환하는 규칙을 정의하고 새 파생된 필드에 저장합니다.
 
 ![소문자 규칙의 스크린샷](assets/lowercase.png)
 
@@ -1097,7 +1093,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>숫자</li></ul> | <ul><li>하나 또는 여러 숫자 필드</li><li>하나 이상의 연산자(더하기, 빼기, 곱하기, 나누기, 거듭제곱하기)</li><li>사용자 입력 값</li></ul> | <ul><li>`+` (추가)</li><li>`-` (빼기)</li><li>`*` (곱하기)</li><li>`/` (나누기)</li><li>`^` (상승 전원)</li></ul> | <ul><li>파생 필드당 25개 작업</li><li>파생 필드당 5개의 수학 함수</li></ul> | <p>새 파생 필드</p> |
+| <ul><li>숫자</li></ul> | <ul><li>하나 또는 여러 숫자 필드</li><li>하나 이상의 연산자(더하기, 빼기, 곱하기, 나누기, 거듭제곱하기)</li><li>사용자 입력 값</li></ul> | <ul><li>`+`(추가)</li><li>`-`(빼기)</li><li>`*`(곱하기)</li><li>`/`(나누기)</li><li>`^`(최대 절전 모드로 올림)</li></ul> | <ul><li>파생 필드당 25개 작업</li><li>파생 필드당 5개의 수학 함수</li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1118,9 +1114,9 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#math-uc-derivedfield}
 
-다음을 정의합니다. `Corrected Annual Revenue` 파생 필드. 다음을 사용합니다. [!UICONTROL 연산] 함수를 사용하여 원래 연간 매출액을 1.05와 곱하는 규칙을 정의할 수 있습니다.
+`Corrected Annual Revenue` 파생 필드를 정의합니다. [!UICONTROL MATH] 함수를 사용하여 원래 연간 매출액을 1.05로 곱하는 규칙을 정의합니다.
 
-![수학 규칙의 스크린샷](assets/math.png)
+![계산 규칙의 스크린샷](assets/math.png)
 
 
 ### 다음 이후 데이터 {#math-uc-dataafter}
@@ -1139,29 +1135,29 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 배합표를 생성하려면
 
 1. 수식 필드에 입력을 시작하면 입력한 내용과 일치하는 숫자 필드가 팝업 메뉴에 나타납니다. 또는 왼쪽 창의 사용 가능한 필드에서 숫자 필드를 끌어다 놓을 수 있습니다.
-   ![수학 추가 정보 1](assets/math-more-info-1.png)
+   ![연산 추가 정보 1](assets/math-more-info-1.png)
 
-1. 피연산자 추가(예: `*` 곱하기) 뒤에 다른 필드 또는 정적 값이 옵니다. 괄호를 사용하여 보다 복잡한 수식을 정의할 수 있습니다.
+1. 피연산자(예: `*` to multiply) 다음에 다른 필드 또는 정적 값을 추가합니다. 괄호를 사용하여 보다 복잡한 수식을 정의할 수 있습니다.
 
-1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 를 선택합니다. **[!UICONTROL 추가 *x* 정적 값으로]** 또는 **[!UICONTROL 추가 -*x* 음수 정적 값으로]** 을 클릭합니다.
-   ![수학 추가 정보 2](assets/math-more-info-2.png)
+1. 정적 값(예: `1.05`)을 삽입하려면 값을 입력하고 팝업 메뉴에서 **[!UICONTROL 정적 값으로 *x*을(를) 추가]** 또는 **[!UICONTROL 음수 정적 값으로 -*x*을(를) 추가]**를 선택하십시오.
+   ![연산 추가 정보 2](assets/math-more-info-2.png)
 
-1. 녹색 확인 표시 ![확인 표시](./assets/checkmark.svg)</span> 수학 공식이 유효한지 여부를 나타냅니다. 그렇지 않으면 경고가 표시됩니다. ![경고](./assets/alert.svg) 및 메시지 [!UICONTROL 잘못된 공식 표현식].
-   ![수학 추가 정보 3](assets/math-more-info-3.png)
+1. 녹색 확인 표시 ![확인 표시](./assets/checkmark.svg)</span>은(는) 수식 수식이 유효한지 여부를 나타냅니다. 그렇지 않으면 경고 ![경고](./assets/alert.svg)와 메시지 [!UICONTROL 잘못된 수식 식]이 표시됩니다.
+   ![연산 추가 정보 3](assets/math-more-info-3.png)
 
-에서 정적 수를 사용하여 작업할 때 몇 가지 중요한 고려 사항이 있습니다. [!UICONTROL 연산] 함수:
+[!UICONTROL MATH] 함수에서 정적 숫자로 작업할 때 몇 가지 중요한 고려 사항이 있습니다.
 
-- 정적 값은 필드와 연결해야 합니다. 예를 들어 [!UICONTROL 연산] 정적 필드만 있는 함수는 지원되지 않습니다.
-- rise to power 연산자 ( 를 사용할 수 없습니다.`ˆ`)을 클릭하여 제품에서 사용할 수 있습니다.
+- 정적 값은 필드와 연결해야 합니다. 예를들어, 정적 필드에서만 [!UICONTROL MATH] 함수를 사용할 수 없습니다.
+- 정적 값에는 RAISE to power 연산자(`ˆ`)를 사용할 수 없습니다.
 - 수식에서 여러 정적 값을 사용하는 경우 이러한 정적 값은 수식이 유효하려면 괄호로 묶어야 합니다. 예:
 
    - 이 수식은 오류를 반환합니다.
-     ![수학 추가 정보 4](assets/math-more-info-4.png)
+     ![연산 추가 정보 4](assets/math-more-info-4.png)
 
    - 이 공식은 유효합니다.
-     ![수학 추가 정보 5](assets/math-more-info-5.png)
+     ![연산 추가 정보 5](assets/math-more-info-5.png)
 
-히트 수준 기반 계산에 수학 함수를 사용합니다. 사용 [요약](#summarize) 이벤트, 세션 또는 사용자 범위 기반 계산을 위한 함수입니다.
+히트 수준 기반 계산에 수학 함수를 사용합니다. 이벤트, 세션 또는 사용자 범위 기반 계산에는 [Summarize](#summarize) 함수를 사용하십시오.
 
 +++
 
@@ -1206,7 +1202,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#merge-fields-uc-derivedfield}
 
-다음을 정의합니다. `Cross Channel Interactions` 파생 필드. 다음을 사용합니다. [!UICONTROL 필드 병합] 함수 를 사용하십시오. [!UICONTROL 페이지 이름] 필드 및 [!UICONTROL 통화 이유] 필드 및 새 파생 필드에 저장합니다.
+`Cross Channel Interactions` 파생 필드를 정의합니다. [!UICONTROL MERGE FIELDS] 함수를 사용하여 [!UICONTROL 페이지 이름] 필드 및 [!UICONTROL 호출 이유] 필드의 값을 병합하고 새 파생 필드에 저장하는 규칙을 정의합니다.
 
 ![필드 병합 규칙의 스크린샷](assets/merge-fields.png)
 
@@ -1227,7 +1223,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 필드 병합 규칙 내에서 동일한 유형의 필드를 선택해야 합니다. 예를 들어 날짜 필드를 선택하는 경우 병합할 다른 모든 필드는 날짜 필드여야 합니다.
 
-![병합 필드 제한 스크린샷](assets/merge-fields-constraint.png)
+![병합 필드에 대한 제한 스크린샷](assets/merge-fields-constraint.png)
 
 +++
 
@@ -1244,19 +1240,19 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 방법]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 색인]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 메서드]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 인덱스]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 ## 사용 사례 {#prevornext-uc1}
 
-이(가) 무엇을 의미하는지 알고 싶습니다. **다음** 또는 **이전** 값은 반복 값을 고려하여 수신하는 데이터의 값입니다.
+반복 값을 고려하여 받은 데이터의 **next** 또는 **previous** 값을 이해하려 합니다.
 
 ### 데이터 {#prevornext-uc1-databefore}
 
-**예제 1 - 처리 포함 반복**
+**예 1 - 처리는 반복을 포함합니다**
 
-| 데이터 수신됨 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 |
+| 데이터 수신됨 | 다음 값<br/>세션<br/>인덱스 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>인덱스 = 1<br/>반복을 포함하지 않음 | 이전 값<br/>세션<br/>인덱스 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>인덱스 = 1<br/>반복을 포함하지 않음 |
 |---|---|---|---|---|
 | 홈 | 홈 | 검색 | *값 없음* | *값 없음* |
 | 홈 | 검색 | 검색 | 홈 | *값 없음* |
@@ -1270,9 +1266,9 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 {style="table-layout:auto"}
 
-**예제 2 - 처리된 데이터에 빈 값이 있는 반복이 포함됩니다.**
+**예 2 - 처리된 데이터에 빈 값이 있는 반복이 포함됨**
 
-| 데이터 수신됨 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>색인 = 1<br/>반복 포함 안 함 |
+| 데이터 수신됨 | 다음 값<br/>세션<br/>인덱스 = 1<br/>반복 포함 | 다음 값<br/>세션<br/>인덱스 = 1<br/>반복을 포함하지 않음 | 이전 값<br/>세션<br/>인덱스 = 1<br/>반복 포함 | 이전 값<br/>세션<br/>인덱스 = 1<br/>반복을 포함하지 않음 |
 |---|---|---|---|---|
 | 홈 | 홈 | 검색 | *값 없음* | *값 없음* |
 | 홈 | 홈 | 검색 | 홈 | *값 없음* |
@@ -1288,7 +1284,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 파생 필드 {#prevnext-uc1-derivedfield}
 
-다음을 정의합니다. `Next Value` 또는 `Previous value` 파생 필드. 다음을 사용합니다. [!UICONTROL 다음 또는 이전] 을(를) 선택하는 규칙을 정의하는 함수 [!UICONTROL 데이터 수신됨] 필드, 선택 [!UICONTROL 다음 값] 또는 [!UICONTROL 이전 값] 다음으로: [!UICONTROL 방법], [!UICONTROL 세션] 을(를) 범위로 설정하고 값을 [!UICONTROL 색인] 끝 `1`.
+`Next Value` 또는 `Previous value` 파생 필드를 정의합니다. [!UICONTROL NEXT 또는 PREVIOUS] 함수를 사용하여 [!UICONTROL 받은 데이터] 필드를 선택하는 규칙을 정의하고 [!UICONTROL 다음 값] 또는 [!UICONTROL 이전 값]을(를) [!UICONTROL 메서드], [!UICONTROL 세션] 범위로 선택하고 [!UICONTROL 인덱스] 값을 `1`(으)로 설정합니다.
 
 ![필드 병합 규칙의 스크린샷](assets/prevnext-next.png)
 
@@ -1296,11 +1292,11 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 방문 또는 이벤트 테이블에 속하는 필드만 선택할 수 있습니다.
 
-[!UICONTROL 반복 포함] 에 대한 반복 값을 처리하는 방법을 결정합니다. [!UICONTROL 다음 또는 이전] 함수.
+[!UICONTROL 반복 포함]은(는) [!UICONTROL NEXT 또는 PREVIOUS] 함수에 대한 반복 값을 처리하는 방법을 결정합니다.
 
-- 반복 모양과 다음 또는 이전 값을 포함합니다. If [!UICONTROL 반복 포함] 을 선택하면 현재 히트에서 다음 또는 이전 값의 순차적 반복이 무시됩니다.
+- 반복 모양과 다음 또는 이전 값을 포함합니다. [!UICONTROL 반복 포함]을 선택하면 현재 히트에서 다음 또는 이전 값의 순차적 반복이 무시됩니다.
 
-- 선택한 필드에 대한 값이 없는(빈) 행에는 다음 또는 이전 값이 의 일부로 반환되지 않습니다. [!UICONTROL 다음 또는 이전] 함수 출력입니다.
+- 선택한 필드에 값이 없는(빈) 행에는 [!UICONTROL NEXT 또는 PREVIOUS] 함수 출력의 일부로 반환된 다음 또는 이전 값이 없습니다.
 
 +++
 
@@ -1316,13 +1312,13 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 정규 표현식]:</li><ul><li>문자열</li></ul></li><li>[!UICONTROL 출력 형식]:<ul><li>문자열</li></ul></ul><ul><li>대소문자 구분</li><ul><li>부울</li></ul></li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 정규식]:</li><ul><li>문자열</li></ul></li><li>[!UICONTROL 출력 형식]:<ul><li>문자열</li></ul></ul><ul><li>대소문자 구분</li><ul><li>부울</li></ul></li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 1개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 ## 사용 사례 {#regex-replace-uc}
 
-URL 옵션을 가져와서 트래픽을 분석하는 고유 페이지 식별자로 사용하려는 경우 다음을 사용합니다. `[^/]+(?=/$|$)` URL 및 의 끝을 캡처하는 정규 표현식의 경우 `$1` 을 출력 패턴으로 사용합니다.
+URL 옵션을 가져와서 트래픽을 분석하는 고유 페이지 식별자로 사용하려는 경우 정규식에 `[^/]+(?=/$|$)`을(를) 사용하여 URL의 끝을 캡처하고 `$1`을(를) 출력 패턴으로 캡처합니다.
 
 ### 다음 이전 데이터 {#regex-replace-uc-databefore}
 
@@ -1337,9 +1333,9 @@ URL 옵션을 가져와서 트래픽을 분석하는 고유 페이지 식별자�
 
 ### 파생 필드 {#regex-replace-uc-derivedfield}
 
-다음을 생성함: `Page Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 정규 표현식 바꾸기] 함수 를 사용하십시오. [!UICONTROL 참조 URL] 를 사용하는 필드 [!UICONTROL 정규 표현식] / `[^/]+(?=/$|$)` 및 [!UICONTROL 출력 형식] / `$1`.
+`Page Identifier` 파생 필드를 만듭니다. [!UICONTROL REGEX REPLACE] 함수를 사용하여 `[^/]+(?=/$|$)`의 [!UICONTROL Regex] 및 `$1`의 [!UICONTROL 출력 형식]을(를) 사용하여 [!UICONTROL 참조 URL] 필드의 값을 바꾸는 규칙을 정의합니다.
 
-![정규 표현식 대체 규칙의 스크린샷](assets/regex-replace.png)
+![정규식 대체 규칙의 스크린샷](assets/regex-replace.png)
 
 
 ### 다음 이후 데이터 {#regex-replace-uc-dataafter}
@@ -1392,7 +1388,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 | 출력 자리표시자 시퀀스 | 설명 |
 | --- | --- |
 | `$&` | 전체 표현식과 일치하는 것을 출력합니다. |
-| `$n` | n번째 하위 표현식과 일치하는 것을 출력합니다. 예를 들어, `$1` 첫 번째 하위 표현식을 출력합니다. |
+| `$n` | n번째 하위 표현식과 일치하는 것을 출력합니다. 예를 들어 `$1`은 첫 번째 하위 식을 출력합니다. |
 | ``$` `` | 마지막으로 찾은 일치 항목의 끝(또는 이전 일치 항목이 없는 경우 텍스트의 시작)과 현재 일치 항목의 시작 사이의 텍스트를 출력합니다. |
 | `$+` | 정규 표현식에서 마지막으로 표시된 하위 표현식과 일치하는 것을 출력합니다. |
 | `$$` | 문자열 문자 `"$"`를 출력합니다. |
@@ -1413,7 +1409,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 방법]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 메서드]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1433,9 +1429,9 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#split-u1-derivedfield}
 
-다음을 생성함: `Responses` 파생 필드. 다음을 사용합니다. [!UICONTROL SPLIT] 함수를 사용하여 규칙을 정의할 수 있습니다  [!UICONTROL 배열로 변환] 메서드에서 값을 [!UICONTROL 음성 앱 응답] 필드를 사용하는 중 `,` (으)로 [!UICONTROL 구분 기호].
+`Responses` 파생 필드를 만듭니다. [!UICONTROL SPLIT] 함수를 사용하여 [!UICONTROL 배열로 변환] 메서드를 사용하여 `,`을(를) [!UICONTROL 구분 기호](으)로 사용하여 [!UICONTROL 음성 앱 응답] 필드의 값을 변환하는 규칙을 정의합니다.
 
-![분할 규칙 1의 스크린샷](assets/split-1.png)
+![분할 규칙의 스크린샷](assets/split-1.png)
 
 ### 다음 이후 데이터 {#split-uc1-dataafter}
 
@@ -1467,11 +1463,11 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#split-u2-derivedfield}
 
-다음을 생성함:  `First Response` 파생 필드. 다음을 사용합니다. [!UICONTROL SPLIT] 함수에서 첫 번째 값을 가져오는 규칙을 정의하는 함수 [!UICONTROL 응답] 응답 왼쪽의 필드 `,` 구분 기호로 사용됩니다.
+`First Response` 파생 필드를 만듭니다. [!UICONTROL SPLIT] 함수를 사용하여 `,` 응답 왼쪽의 [!UICONTROL 응답] 필드에서 첫 번째 값을 구분 기호로 가져오는 규칙을 정의합니다.
 
-![분할 규칙의 스크린샷 - 첫 번째 값](assets/split-2.png)
+분할 규칙의 ![스크린샷 - 첫 번째 값](assets/split-2.png)
 
-다음을 생성함: `Second Response` 에서 마지막 값을 가져올 파생 필드 [!UICONTROL 응답] 오른쪽에서 1을 구분 기호로 선택하고 1을 색인으로 선택하여 필드를 만듭니다.
+오른쪽에서 시작, 구분 기호로 1, 색인으로 1을 선택하여 [!UICONTROL 응답] 필드의 마지막 값을 가져올 `Second Response` 파생 필드를 만듭니다.
 
 ![분할 규칙의 스크린샷 - 마지막 값](assets/split-3.png)
 
@@ -1539,9 +1535,9 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#summarize-uc-derivedfield}
 
-다음을 생성함: `Add To Cart Revenue Size` 파생 필드. 다음을 사용합니다. [!UICONTROL 요약] 함수 및 [!UICONTROL 합계] [!UICONTROL Summarize 메서드] 포함 [!UICONTROL 범위] 을 로 설정 [!UICONTROL 개인] 의 값을 합하려면 [!UICONTROL cart_add] 필드. 그런 다음 시간을 사용합니다. [!UICONTROL 다음의 경우] 결과를 트리 범주 크기로 분할하는 규칙
+`Add To Cart Revenue Size` 파생 필드를 만듭니다. [!UICONTROL SUMMARIZE] 함수와 [!UICONTROL Sum] [!UICONTROL Summarize 메서드]를 사용합니다. [!UICONTROL Scope]을(를) [!UICONTROL Person](으)로 설정하여 [!UICONTROL cart_add] 필드의 값을 합합니다. 그런 다음 두 번째 [!UICONTROL CASE WHEN] 규칙을 사용하여 결과를 트리 범주 크기로 분할합니다.
 
-![Summarize rule 1의 스크린샷](assets/summarize.png)
+![Summarize 규칙의 스크린샷](assets/summarize.png)
 
 
 
@@ -1557,7 +1553,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ## 추가 정보 {#summarize-more-info}
 
-이벤트, 세션 또는 사용자 범위 기반 계산에 대해 Summarize 함수를 사용합니다. 사용 [수학](#math) 히트 수준 기반 계산을 위한 함수입니다.
+이벤트, 세션 또는 사용자 범위 기반 계산에 대해 Summarize 함수를 사용합니다. 히트 수준 기반 계산에는 [Math](#math) 함수를 사용하십시오.
 
 +++
 
@@ -1592,9 +1588,9 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#trim-u1-derivedfield}
 
-다음을 생성함: `Product Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 **[!UICONTROL 공백 트리밍]** 다음에서 **[!UICONTROL 제품 ID]** 필드.
+`Product Identifier` 파생 필드를 만듭니다. [!UICONTROL TRIM] 함수를 사용하여 **[!UICONTROL 제품 ID]** 필드에서 **[!UICONTROL 공백 트리밍]**&#x200B;에 대한 규칙을 정의합니다.
 
-![분할 규칙 1의 스크린샷](assets/trim-1.png)
+![분할 규칙의 스크린샷](assets/trim-1.png)
 
 ### 다음 이후 데이터 {#trim-uc1-dataafter}
 
@@ -1622,9 +1618,9 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#trim-u2-derivedfield}
 
-다음을 생성함:  `Page Name` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 [!UICONTROL 특수 문자 트리밍] 다음에서 [!UICONTROL 이름] 를 사용하는 필드 [!UICONTROL 특수 문자] `#?%&/`.
+`Page Name` 파생 필드를 만듭니다. [!UICONTROL TRIM] 함수를 사용하여 [!UICONTROL 특수 문자] `#?%&/`을(를) 사용하여 [!UICONTROL 이름] 필드에서 [!UICONTROL 특수 문자 트리밍]에 대한 규칙을 정의합니다.
 
-![분할 규칙의 스크린샷 - 첫 번째 값](assets/trim-2.png)
+분할 규칙의 ![스크린샷 - 첫 번째 값](assets/trim-2.png)
 
 ### 다음 이후 데이터 {#trim-uc2-dataafter}
 
@@ -1655,9 +1651,9 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 ### 파생 필드 {#trim-u3-derivedfield}
 
-다음을 생성함:  `Store Identifier` 파생 필드. 다음을 사용합니다. [!UICONTROL 트림] 규칙을 정의하는 함수 [!UICONTROL 오른쪽에서 자르기] 다음 [!UICONTROL storeID] 문자열 끝부터 위치까지의 필드 `3`.
+`Store Identifier` 파생 필드를 만듭니다. [!UICONTROL TRIM] 함수를 사용하여 [!UICONTROL 오른쪽에서 자르기], [!UICONTROL storeID] 필드를 문자열 끝에서 위치 `3`까지 자르기 규칙을 정의합니다.
 
-![분할 규칙의 스크린샷 - 첫 번째 값](assets/trim-3.png)
+분할 규칙의 ![스크린샷 - 첫 번째 값](assets/trim-3.png)
 
 ### 다음 이후 데이터 {#trim-uc3-dataafter}
 
@@ -1707,9 +1703,9 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 ### 파생 필드 {#urlparse-uc1-derivedfield}
 
-다음을 정의합니다.  `Referring Domain` 파생 필드. 다음을 사용합니다. [!UICONTROL URL 구문 분석] 함수에서 호스트를 가져오는 규칙을 정의합니다. [!UICONTROL 참조 URL] 필드 및 새 파생 필드에 저장합니다.
+`Referring Domain` 파생 필드를 정의합니다. [!UICONTROL URL PARSE] 함수를 사용하여 [!UICONTROL 참조 URL] 필드에서 호스트를 가져오고 새 파생 필드에 저장하는 규칙을 정의합니다.
 
-![Url 구문 분석 규칙 1의 스크린샷](assets/url-parse-1.png)
+Url 구문 분석 규칙 1의 ![스크린샷](assets/url-parse-1.png)
 
 ### 다음 이후 데이터 {#urlparse-uc1-dataafter}
 
@@ -1725,7 +1721,7 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 ## 사용 사례 2 {#urlparse-uc2}
 
-의 값을 사용하려고 합니다. `cid` 쿼리 문자열의 매개 변수 [!DNL Page URL] 파생된 추적 코드 보고서 출력의 일부로 사용됩니다.
+[!DNL Page URL]에서 쿼리 문자열의 `cid` 매개 변수의 값을 파생 추적 코드 보고서의 출력의 일부로 사용하려고 합니다.
 
 ### 다음 이전 데이터 {#urlparse-uc2-databefore}
 
@@ -1739,9 +1735,9 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 ### 파생 필드 {#urlparse-uc2-derivedfield}
 
-다음을 정의합니다. `Query String CID` 파생 필드. 다음을 사용합니다. [!UICONTROL URL 구문 분석] 함수에서 쿼리 문자열 매개 변수의 값을 가져오는 규칙을 정의하는 데 사용됩니다 [!UICONTROL 페이지 URL] 필드, 지정 `cid` 를 쿼리 매개 변수로 사용하십시오. 출력 값은 새로 파생된 필드에 저장됩니다.
+`Query String CID` 파생 필드를 정의합니다. [!UICONTROL URL PARSE] 함수를 사용하여 [!UICONTROL 페이지 URL] 필드에서 쿼리 문자열 매개 변수의 값을 가져오는 규칙을 정의하고 `cid`을(를) 쿼리 매개 변수로 지정합니다. 출력 값은 새로 파생된 필드에 저장됩니다.
 
-![Url 구문 분석 규칙 2의 스크린샷](assets/url-parse-2.png)
+Url 구문 분석 규칙 2의 ![스크린샷](assets/url-parse-2.png)
 
 ### 다음 이후 데이터 {#urlparse-uc2-dataafter}
 
@@ -1768,8 +1764,8 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 | 함수 | 제한 사항 |
 |---|---|
-| <p>다음과 같은 경우</p> | <ul><li>파생 필드당 함수 수가 5개인 경우</li><li>20 [연산자](#operators) 파생 필드당</li></ul> |
-| <p>분류</p> | <ul><li>5 파생 필드당 함수 분류</li><li>20 [연산자](#operators) 파생 필드당</li></ul> |
+| <p>다음과 같은 경우</p> | <ul><li>파생 필드당 함수 수가 5개인 경우</li><li>파생 필드당 200개의 [연산자](#operators)</li></ul> |
+| <p>분류</p> | <ul><li>5 파생 필드당 함수 분류</li><li>파생 필드당 200개의 [연산자](#operators)</li></ul> |
 | <p>연결</p> | <ul><li>2 파생 필드당 함수 연결</li></ul> |
 | <p>중복 제거</p> | <ul><li>파생 필드당 5 중복 제거 함수</li></ul> |
 | <p>찾기 및 바꾸기</p> | <ul><li>2 파생 필드당 함수 찾기 및 바꾸기</li></ul> |
@@ -1788,27 +1784,27 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 ### 연산자
 
-Case When 함수 내에 있는 If 또는 Else If 구문의 연산자는 **1** 값. 기준에 대한 모든 추가 값은 연산자 수에 추가됩니다.
+Case When 함수 내에 있는 If 또는 Else If 구문의 연산자는 **one** 값이 있는 기준의 조합입니다. 기준에 대한 모든 추가 값은 연산자 수에 추가됩니다.
 
 예를 들어 아래 조건은 13개의 연산자를 사용합니다.
 
 ![샘플 연산자](assets/operators-sample.png)
 
-Classify 함수의 연산자는 [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기].
+Classify 함수의 연산자는 [!UICONTROL 값이 원래 값과 같은 경우] [!UICONTROL 값을 새 값으로 바꾸기]에 대한 단일 항목입니다.
 
 예를 들어 아래의 분류 규칙은 3개의 연산자를 사용합니다.
 
-![분류 규칙 1의 스크린샷](assets/classify-1.png)
+![분류 규칙 1](assets/classify-1.png)의 스크린샷
 
 
 ## 추가 정보 {#trim-more-info}
 
-[`Trim`](#trim) 및 [`Lowercase`](#lowercase) 의 구성 요소 설정에서 이미 사용할 수 있는 기능입니다. [데이터 보기](../component-settings/overview.md). 파생 필드를 사용하면 이러한 함수를 결합하여 Customer Journey Analytics에서 직접 더 복잡한 데이터 변환을 수행할 수 있습니다. 예를 들어 다음을 사용할 수 있습니다. `Lowercase` 이벤트 필드에서 대소문자 구분을 제거한 다음 [`Lookup`](#lookup) 새 소문자 필드를 소문자에만 조회 키가 있는 조회 데이터 세트에 일치시키려면 를 사용하십시오. 또는 `Trim` 설정하기 전에 문자를 제거하려면 `Lookup` 새 필드에서.
+[`Trim`](#trim) 및 [`Lowercase`](#lowercase)은(는) [데이터 보기](../component-settings/overview.md)의 구성 요소 설정에서 이미 사용 가능한 기능입니다. 파생 필드를 사용하면 이러한 함수를 결합하여 Customer Journey Analytics에서 직접 더 복잡한 데이터 변환을 수행할 수 있습니다. 예를 들어 `Lowercase`을(를) 사용하여 이벤트 필드에서 대소문자 구분을 제거한 다음 [`Lookup`](#lookup)을(를) 사용하여 새 소문자 필드를 소문자에만 조회 키가 있는 조회 데이터 세트와 일치시킬 수 있습니다. 또는 새 필드에 `Lookup`을(를) 설정하기 전에 `Trim`을(를) 사용하여 문자를 제거할 수 있습니다.
 
 파생 필드의 조회 및 프로필 필드 지원을 통해 이벤트 조회 및 프로필 속성에 따라 데이터를 변환할 수 있습니다. 이 기능은 조회 또는 프로필 데이터 세트에 있는 계정 수준 데이터가 있는 B2B 시나리오에서 특히 유용합니다. 또한 이 지원은 조회 데이터(예: 캠페인 정보 및 오퍼 유형)나 프로필 데이터(예: 멤버 계층 및 계정 유형)의 공통 필드에서 데이터를 조작하는 데 유용합니다.
 
 파생 필드에 대한 배경 정보는 다음을 참조하십시오.
 
-- [데이터 활용: Customer Journey Analytics에서 파생 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+- [데이터를 최대한 활용하기: Customer Journey Analytics에서 파생된 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
-- [파생된 필드 Customer Journey Analytics 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+- [Customer Journey Analytics에 대한 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
