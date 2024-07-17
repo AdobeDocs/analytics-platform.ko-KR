@@ -5,16 +5,16 @@ feature: Guided Analysis
 keywords: 제품 분석
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
-workflow-type: ht
-source-wordcount: '1487'
-ht-degree: 100%
+source-git-commit: 2b503ba784762d60efe8581c9ee06587aed416eb
+workflow-type: tm+mt
+source-wordcount: '1477'
+ht-degree: 98%
 
 ---
 
 # 업계 사용 사례
 
-안내식 분석의 사용 사례는 업계에 따라 다릅니다. 이 페이지에서는 제품 팀이 안내식 분석 및 Adobe Product Analytics 기능을 통해 달성할 수 있는 작업에 대한 몇 가지 예시를 제공합니다.
+이 페이지에서는 다양한 업계의 제품 팀이 안내가 있는 분석을 통해 달성할 수 있는 몇 가지 예제를 제공합니다.
 
 +++**소매**
 
