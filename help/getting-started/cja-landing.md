@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 >[!TAB 파생 필드]
 
-이제 새로운 파생 필드 기능(수학, 다음 또는 이전, 요약)과 추가 기능 템플릿(예: 바운스, 알기 쉬운 데이터 세트 이름, 휴가 시즌, 월간 목표, 간단한 봇 감지 등)을 사용할 수 있습니다.
+이제 새로운 파생 필드 함수(수학, 다음 또는 이전, 요약, 중복 제거) 및 추가 함수 템플릿(예: 바운스, 친숙한 데이터 세트 이름, 휴일 시즌, 월별 목표, 단순 보트 탐지 등)을 사용할 수 있습니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
