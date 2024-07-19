@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1498'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # 보고 활동 관리자에서 보고 요청 취소
 
-다음 [!UICONTROL 활동 관리자 보고] 관리자가 보고 요청을 신속하게 진단 및 취소하여 최대 보고 시간 동안의 보고 용량 문제를 해결할 수 있습니다.
+[!UICONTROL 보고 활동 관리자]를 사용하면 관리자가 보고 요청을 빠르게 진단하고 취소하여 최대 보고 시간 동안 보고 용량 문제를 해결할 수 있습니다.
 
 보고 요청을 취소할 때는 다음 사항을 고려하십시오.
 
@@ -22,37 +22,37 @@ ht-degree: 12%
 
 * 요청을 취소할 때 주어진 기간 동안 후속 요청을 제한하도록 선택할 수도 있습니다.
 
-  후속 요청을 제한하면 작업이 다음에 기록됩니다. [감사 로그](/help/privacy/audit-log.md) EMBARGO의 작업 이름으로.
+  후속 요청을 제한하면 작업이 [감사 로그](/help/privacy/audit-log.md)에 EMBARGO라는 작업 이름으로 기록됩니다.
 
-* 다음과 같은 경우에는 요청을 취소할 수 없습니다. [!UICONTROL **사용자**] 요청의 열이 다음으로 표시됨 [!UICONTROL **인식되지 않음**]. 이 경우 사용자가 관리 권한이 없는 로그인 회사에 속해 있음을 의미합니다.
+* 요청의 [!UICONTROL **User**] 열이 [!UICONTROL **인식되지 않음**](으)로 표시되는 경우 요청을 취소할 수 없습니다. 이 경우 사용자가 관리 권한이 없는 로그인 회사에 속해 있음을 의미합니다.
 
-주요 이점 및 권한 요구 사항을 포함하여 보고 활동 관리자에 대한 자세한 내용은 다음을 참조하십시오. [보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md).
+주요 이점 및 권한 요구 사항을 포함하여 보고 활동 관리자에 대한 자세한 내용은 [보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오.
 
 ## 특정 요청 취소
 
 보고 용량이 큰 개별 요청을 취소할 수 있습니다. 요청을 취소할 때 주어진 기간 동안 추가로 제한하도록 선택할 수 있습니다.
 
-1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 활동 관리자 보고]**.
+1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 
 1. 보고 요청을 취소할 연결을 선택합니다. <!--double-check this step-->
 
-   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md).
+   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)를 참조하십시오.
 
-1. 다음 항목 선택 [!UICONTROL **요청**] 탭을 선택한 다음 하나 이상의 요청을 선택합니다.
+1. [!UICONTROL **요청**] 탭을 선택한 다음 하나 이상의 요청을 선택합니다.
 
    <!-- add screenshot -->
 
-1. 선택 [!UICONTROL **요청 취소**].
+1. [!UICONTROL **요청 취소**]&#x200B;를 선택하십시오.
 
-   다음 [!UICONTROL **취소 _x_ 보고서 요청**] 대화 상자가 표시됩니다.
+   [!UICONTROL **_x_ 보고서 요청 취소**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
 1. (선택사항) 지정된 기간 동안 미래 요청을 제한하려면
 
-   1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**].
+   1. [!UICONTROL **후속 요청을 제한**]&#x200B;하는 옵션을 사용하도록 설정하십시오.
 
-      ![선택한 후속 요청 제한 및 취소 메시지를 표시하는 1개 요청 취소.](assets/restrict-subsequent-requests.png)
+      ![선택한 후속 요청 제한 및 취소 메시지를 표시하는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -65,33 +65,33 @@ ht-degree: 12%
 
       {style="table-layout:auto"}
 
-1. 선택 [!UICONTROL **취소 상태로 계속 진행**].
+1. [!UICONTROL **취소 계속**]&#x200B;을 선택합니다.
 
-   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 표시되는 방법에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report).
+   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 이러한 현상이 나타나는 방식에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report)을 참조하십시오.
 
 ## 사용자별 요청 취소
 
 한 명 이상의 사용자와 연결된 모든 요청을 취소할 수 있습니다. 사용자와 연결된 요청을 취소할 때 지정된 기간 동안 해당 사용자의 요청을 추가로 제한할 수 있습니다.
 
-1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 활동 관리자 보고]**.
+1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 
 1. 보고 요청을 취소할 연결을 선택합니다. <!--double-check this step-->
 
-   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md).
+   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)를 참조하십시오.
 
-1. 다음 항목 선택 [!UICONTROL **사용자**] 탭을 누른 다음 사용자를 한 명 이상 선택합니다.
+1. [!UICONTROL **사용자**] 탭을 선택한 다음 사용자를 한 명 이상 선택합니다.
 
    <!-- add screenshot -->
 
-1. 선택 [!UICONTROL **요청 취소**].
+1. [!UICONTROL **요청 취소**]&#x200B;를 선택하십시오.
 
-   다음 [!UICONTROL **취소 _x_ x 사용자의 보고서 요청**] 대화 상자가 표시됩니다.
+   x명의 사용자가 [!UICONTROL **_x_ 보고서 요청을 취소**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
 1. (선택사항) 지정된 기간 동안 미래 요청을 제한하려면
 
-   1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**]
+   1. [!UICONTROL **후속 요청을 제한**]&#x200B;하는 옵션을 사용하도록 설정하십시오.
 
       ![선택한 사용자별 후속 요청 제한을 보여 주는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests-user.png)
 
@@ -106,35 +106,35 @@ ht-degree: 12%
 
       {style="table-layout:auto"}
 
-1. 선택 [!UICONTROL **취소 상태로 계속 진행**].
+1. [!UICONTROL **취소 계속**]&#x200B;을 선택합니다.
 
-   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 표시되는 방법에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report).
+   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 이러한 현상이 나타나는 방식에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report)을 참조하십시오.
 
 ## 프로젝트별 요청 취소
 
 하나 이상의 프로젝트와 연결된 모든 요청을 취소할 수 있습니다. 프로젝트와 연결된 요청을 취소할 때 지정된 기간 동안 해당 프로젝트와 연결된 요청을 추가로 제한할 수 있습니다.
 
-1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 활동 관리자 보고]**.
+1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 
 1. 보고 요청을 취소할 연결을 선택합니다. <!--double-check this step-->
 
-   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md).
+   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)를 참조하십시오.
 
-1. 다음 항목 선택 [!UICONTROL **프로젝트**] 탭을 누른 다음 하나 이상의 프로젝트를 선택합니다.
+1. [!UICONTROL **프로젝트**] 탭을 선택한 다음 하나 이상의 프로젝트를 선택하십시오.
 
    <!-- add screenshot -->
 
-1. 선택 [!UICONTROL **요청 취소**].
+1. [!UICONTROL **요청 취소**]&#x200B;를 선택하십시오.
 
-   다음 [!UICONTROL **취소 _x_ x 프로젝트의 보고서 요청**] 대화 상자가 표시됩니다.
+   x개 프로젝트의 [!UICONTROL **_x_ 보고서 요청 취소**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
 1. (선택사항) 지정된 기간 동안 미래 요청을 제한하려면
 
-   1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**].
+   1. [!UICONTROL **후속 요청을 제한**]&#x200B;하는 옵션을 사용하도록 설정하십시오.
 
-      ![프로젝트별로 후속 요청 제한을 표시하는 1개 요청 취소](assets/restrict-subsequent-requests-project.png)
+      ![프로젝트별 후속 요청 제한을 표시하는 1개의 요청을 취소합니다](assets/restrict-subsequent-requests-project.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -147,9 +147,9 @@ ht-degree: 12%
 
       {style="table-layout:auto"}
 
-1. 선택 [!UICONTROL **취소 상태로 계속 진행**].
+1. [!UICONTROL **취소 계속**]&#x200B;을 선택합니다.
 
-   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 표시되는 방법에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report).
+   요청이 취소되었음을 사용자에게 알리는 알림이 Analysis Workspace에 표시됩니다. Analysis Workspace에서 이러한 현상이 나타나는 방식에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report)을 참조하십시오.
 
 ## 애플리케이션별 요청 취소
 
@@ -170,27 +170,27 @@ ht-degree: 12%
 
 응용 프로그램별 요청을 취소하려면 다음을 수행합니다.
 
-1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 활동 관리자 보고]**.
+1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 
 1. 보고 요청을 취소할 연결을 선택합니다. <!--double-check this step-->
 
-   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md).
+   이 페이지에서 사용할 수 있는 데이터에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)를 참조하십시오.
 
-1. 다음 항목 선택 [!UICONTROL **애플리케이션**] 탭을 누른 다음 하나 이상의 응용 프로그램을 선택합니다.
+1. [!UICONTROL **응용 프로그램**] 탭을 선택한 다음 하나 이상의 응용 프로그램을 선택하십시오.
 
    <!-- add screenshot -->
 
-1. 선택 [!UICONTROL **요청 취소**].
+1. [!UICONTROL **요청 취소**]&#x200B;를 선택하십시오.
 
-   다음 [!UICONTROL **취소 _x_ x 프로젝트의 보고서 요청**] 대화 상자가 표시됩니다.
+   x개 프로젝트의 [!UICONTROL **_x_ 보고서 요청 취소**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
 1. (선택사항) 지정된 기간 동안 미래 요청을 제한하려면
 
-   1. 옵션을 활성화한 대상 [!UICONTROL **후속 요청 제한**]
+   1. [!UICONTROL **후속 요청을 제한**]&#x200B;하는 옵션을 사용하도록 설정하십시오.
 
-      ![선택한 애플리케이션별로 후속 요청 제한을 보여 주는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests-application.png)
+      ![선택한 응용 프로그램별 후속 요청 제한을 표시하는 1개의 요청을 취소합니다.](assets/restrict-subsequent-requests-application.png)
 
    1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -203,9 +203,9 @@ ht-degree: 12%
 
       {style="table-layout:auto"}
 
-1. 선택 [!UICONTROL **취소 상태로 계속 진행**].
+1. [!UICONTROL **취소 계속**]&#x200B;을 선택합니다.
 
-   요청이 취소되었음을 사용자에게 알리는 알림이 애플리케이션에 표시됩니다(예: Analysis Workspace). Analysis Workspace에서 표시되는 방법에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report).
+   요청이 취소되었음을 사용자에게 알리는 알림이 애플리케이션에 표시됩니다(예: Analysis Workspace). Analysis Workspace에서 이러한 현상이 나타나는 방식에 대한 자세한 내용은 [사용자가 취소된 보고서에 액세스할 때의 경험](#experience-when-users-access-a-cancelled-report)을 참조하십시오.
 
 ## 사용자가 취소된 보고서에 액세스할 때의 경험
 

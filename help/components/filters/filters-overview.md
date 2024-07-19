@@ -26,13 +26,13 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 필터를 
 
 필터 빌더에서 필터를 작성 및 저장하거나 (작업 영역의) 폴아웃 시각화에서 필터를 생성할 수 있습니다. 또한 필터를 스택 필터로 함께 사용할 수 있습니다.
 
-필터링에는 다음이 포함됩니다. [필터 빌더](/help/components/filters/filter-builder.md) 필터를 구성하고 사전 테스트를 실행하려면 [필터 관리자](/help/components/filters/manage-filters.md) 를 사용하여 조직 전체에서 필터를 수집, 태그 지정, 승인, 보안 설정 및 공유할 수 있습니다.
+필터링은 필터를 구성하고 사전 테스트를 실행하기 위한 [필터 빌더](/help/components/filters/filter-builder.md)와 조직에 있는 필터를 수집, 태그 지정, 승인, 설정 및 공유하기 위한 [필터 관리자](/help/components/filters/manage-filters.md)를 포함합니다.
 
 IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 
 ## 필터 유형 {#types}
 
-사용 가능한 필터 유형과 필터 생성 방법에 대한 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md).
+사용 가능한 필터 유형 및 만드는 방법에 대한 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오.
 
 ## 순차적 필터 {#sequential}
 
@@ -40,7 +40,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 
 >[!IMPORTANT]
 >
->다음을 보유해야 합니다. **선택** 채널 간 순차적 필터를 만드는 패키지입니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
+>채널 간 순차적 필터를 만들려면 **Select** 패키지가 있어야 합니다. 어떤 Customer Journey Analytics 패키지가 있는지 확실하지 않은 경우 관리자에게 문의하십시오.
 
 다음은 한 예입니다.
 
@@ -102,7 +102,7 @@ IMS 조직당 생성할 수 있는 필터의 최대 수는 50,000개입니다.
 - 참여도 지표
 - 선형 할당 지표
 
-Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 기간뿐만 아니라 새 세션을 만들어야 하는 시기를 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 다음을 참조하십시오 [세션 설정](/help/data-views/session-settings.md) 추가 정보.
+Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 기간뿐만 아니라 새 세션을 만들어야 하는 시기를 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 자세한 내용은 [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
 
 ### 이벤트 컨테이너 {#event}
 

@@ -48,11 +48,11 @@ ht-degree: 65%
 
 이 기능은 회사에서 구입한 SKU 패키지에 따라 다릅니다.
 
-- Priority Ingestion Basic: 90분 이내의 24시간 된 데이터 (다음 경우에 사용 가능) **CJA 기반** 및 **CJA 선택**)
+- 우선 순위 수집 기본: 90분 이내의 SLT 처리(**CJA Foundation** 및 **CJA Select**&#x200B;에서 사용 가능)된 24시간 된 데이터
 
-- 우선 순위 수집 중간: 90분 이내 SLT 처리 시 72시간 경과된 데이터(다음 경우에 사용 가능) **CJA 프라임**)
+- 우선 순위 수집 중간: 90분 이내의 SLT 처리 시간(72시간)(**CJA Prime**&#x200B;에서 사용 가능)
 
-- 우선 순위 수집 고급: 90분 SLT 처리 내 1주일 된 데이터(다음 경우에 사용 가능) **CJA Ultimate**)
+- 우선 순위 수집 고급: 90분 이내의 SLT 처리 1주 전 데이터(**CJA Ultimate**&#x200B;에서 사용 가능)
 
 ## 기존 Adobe Analytics에서 데이터 수집 및 사용
 
@@ -67,19 +67,19 @@ ht-degree: 65%
 
 Adobe 기술을 사용하여 웹 사이트를 분석하거나 다른 솔루션에서 마이그레이션하거나 사용자의 행동을 추적할 수 있습니다. Adobe Experience Platform SDK 및 Edge Network를 사용하는 Adobe의 구현 모범 사례에 따라 데이터를 수집하려고 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용](./aepwebsdk.md) 추가 정보.
+자세한 내용은 [Adobe Experience Platform Web SDK를 통해 데이터 수집 및 사용](./aepwebsdk.md)을 참조하십시오.
 
 ### Adobe Experience Platform Mobile SDK 사용
 
 Adobe 기술을 사용하여 모바일 앱을 분석하려 할 때, 다른 솔루션에서 마이그레이션하거나 앱에서 사용자의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform SDK 및 Edge Network를 사용하는 Adobe의 구현 모범 사례에 따라 데이터를 수집하려고 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Experience Platform Mobile SDK를 통해 데이터 수집 및 사용](./aepmobilesdk.md) 추가 정보.
+자세한 내용은 [Adobe Experience Platform Mobile SDK를 통해 데이터 수집 및 사용](./aepmobilesdk.md)을 참조하십시오.
 
 ### Adobe Experience Platform Edge Network 서버 API 사용
 
 데스크탑 애플리케이션, 게임 콘솔에서 재생되는 게임, 셋톱 박스에서 비디오 스트리밍 애플리케이션의 사용 또는 Adobe 기술이 있는 IoT 장치를 분석하려는 경우. 다른 솔루션에서 마이그레이션하거나 이러한 장치에서 개인의 동작을 처음부터 추적하기 시작할 수 있습니다. Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 데이터를 수집하는 Adobe의 구현 모범 사례를 따르고자 합니다. 그런 다음 수집된 데이터를 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집 및 사용](./serverapi.md) 추가 정보.
+자세한 내용은 [Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집 및 사용](./serverapi.md)을 참조하십시오.
 
 ## 배치 데이터 수집 및 사용
 

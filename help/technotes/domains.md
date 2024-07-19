@@ -2,7 +2,8 @@
 title: Customer Journey Analytics에서 사용하는 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 role: Admin
-source-git-commit: 43bda939a5464c5f65b0a050ccfdb5ba17f7d34b
+exl-id: 0c3e7b2e-cb48-4e14-ae18-65258ebce1b4
+source-git-commit: 8ffbca5dd83987a90d7b744d236e0556314000dd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 20%
@@ -27,7 +28,7 @@ ht-degree: 20%
 
 ## Adobe Experience Cloud 도메인
 
-위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 다음을 참조하십시오 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) 이 도메인 목록에 대해 설명합니다.
+위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

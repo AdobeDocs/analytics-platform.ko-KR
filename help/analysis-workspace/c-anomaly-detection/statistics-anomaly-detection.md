@@ -56,7 +56,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 
 다음 예의 크리스마스와 설날에 대한 극적 성능 개선에 주목하십시오.
 
-![휴일 성능과 함께 및 휴일 성능 없이 성능 변화를 보여 주는 두 개의 선 차트.](assets/anomaly_statistics.png)
+![휴일 성능과 관계없이 성능 변화를 보여주는 두 개의 꺾은선형 차트입니다.](assets/anomaly_statistics.png)
 
 ## 시간별 세부 기간에 대한 예외 항목 탐지
 

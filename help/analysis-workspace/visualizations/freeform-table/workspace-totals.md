@@ -15,7 +15,7 @@ ht-degree: 75%
 
 자유 형식 테이블에서, 합계 행은 각 분류 수준에 나타나고 두 개의 합계를 표시할 수 있습니다.
 
-* **[!UICONTROL 총계]** (회색의 &#39;흐린&#39; 숫자) - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(회색의 &#39;흐린&#39; 숫자) - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 * **[!UICONTROL 테이블 합계]** (검정 숫자) - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 세트입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다.
 
 ![총계 및 테이블 합계를 강조 표시하는 자유 형식 테이블.](assets/total-row.png)
@@ -24,13 +24,13 @@ ht-degree: 75%
 
 **[!UICONTROL 열 설정]** 아래에는 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총계 표시]** 선택 사항이 있습니다. 이러한 설정을 선택 취소하면 표에서 합계가 제거됩니다. 예를 들어 특정 [계산된 지표 시나리오](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ko-KR)에서 합계가 적절하지 않은 경우 이 선택 사항이 필요할 수 있습니다.
 
-![합계 표시 및 부여 합계 표시에 대한 확인 표시를 표시하는 열 설정 옵션입니다.](assets/column-settings-total.png)
+![총계 표시 및 부여 총계 표시에 대한 확인 표시를 표시하는 열 설정 옵션](assets/column-settings-total.png)
 
 ## 정적 행 합계 설정
 
 [정적 행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 합계는 별도로 동작하며 **[!UICONTROL 행 설정]**&#x200B;에서 제어합니다.
 
-* **[!UICONTROL 현재 행의 합계를 합계로 표시]** - 이는 테이블 행에 대한 클라이언트측 합계를 보여 주며 이는 합계가 다음을 의미합니다. **아님** 방문 또는 개인과 같은 지표 중복 제거를 수행합니다.
+* **[!UICONTROL 현재 행의 합계를 합계로 표시]** - 테이블에서 행의 클라이언트측 합계를 보여 주므로 이것은 합계가 방문 또는 개인과 같은 지표에 대한 중복 제거를 **하지 않음**&#x200B;함을 의미합니다.
 * **[!UICONTROL 총계 표시]** - 서버측 합계를 보여 줍니다. 이것은 합계가 방문 또는 개인과 같은 지표에 대한 중복 제거를 수행함을 의미합니다.
 
 ![총계 표시를 표시하는 행 설정이 선택되었습니다.](assets/static-rows.png)

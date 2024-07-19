@@ -19,13 +19,13 @@ ht-degree: 67%
 
 추가할 수 있는 단계의 수나 사용된 차원의 수에 대한 제한은 없습니다.
 
-머천다이징 eVar 및 를 포함하여 eVar에 대해 경로를 지정할 수 있습니다. [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 이벤트당 여러 개의 값이 있을 수 있는 변수). 예를 들어 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
+머천다이징 eVar 및 [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 이벤트당 여러 개의 값이 있을 수 있는 변수)을 포함하여 eVar에 대해 경로를 지정할 수 있습니다. 예를 들어 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
 1. 시각화 드롭다운의 [!UICONTROL 폴아웃] 시각화를 [!UICONTROL 자유 형식 테이블]로 드래그합니다.
 
 1. 페이지 차원을 자유 형식 테이블로 드래그하고, 거기에서 페이지 (이 경우, 홈 - JJEsquire)를 **[!UICONTROL 터치포인트 추가]** 필드에 첫 번째 터치포인트로서 드래그합니다.
 
-   ![JJEsquire가 터치포인트 추가 필드로 드래그한 것을 보여주는 모든 방문 수 드롭다운입니다.](assets/fallout1.png)
+   ![JJEsquire가 터치포인트 추가 필드로 드래그한 것을 보여 주는 모든 방문 드롭다운입니다.](assets/fallout1.png)
 
    마우스를 터치 포인트 위에 놓아 폴아웃과, 터치 포인트의 이름, 해당 포인트에서의 개인 카운트와 같은 해당 수준에 대한 기타 정보를 확인하고, 해당 터치 포인트에 대한 성공률을 확인합니다(또한 성공률을 다른 터치 포인트에 대해 비교합니다.).
 
@@ -41,11 +41,11 @@ ht-degree: 67%
    >
    >여러 필터는 AND로 결합되지만 차원 항목 및 지표와 같은 여러 항목은 OR로 결합됩니다.
 
-   ![페이지:CamerRoll 또는 페이지: 카메라 터치포인트를 강조 표시합니다.](assets/multiple_obj_touchpoint.png)
+   ![페이지:CamerRoll 또는 페이지: 카메라 터치포인트를 강조 표시했습니다.](assets/multiple_obj_touchpoint.png)
 
-1. 다음을 수행할 수도 있습니다. **개별 터치포인트를 다음 이벤트로 제한** (&quot;결과적으로&quot; 실행되는 것과 대조적으로) 경로 내에서 사용할 수 있습니다. 각 터치포인트 아래에는 다음과 같이 &quot;최종 경로&quot;와 &quot;다음 히트&quot;라는 옵션이 있는 선택기가 있습니다.
+1. 또한 **개별 터치포인트를 경로 내의 다음 이벤트로 제한**&#x200B;할 수 있습니다(&quot;결과적으로&quot; 실행되는 것과 대조적으로). 각 터치포인트 아래에는 다음과 같이 &quot;최종 경로&quot;와 &quot;다음 히트&quot;라는 옵션이 있는 선택기가 있습니다.
 
-   ![최종 경로 옵션을 강조 표시하는 모든 방문 보기. ](assets/next-hit-eventually.png)
+   ![최종 경로 옵션을 강조 표시한 모든 방문 보기. ](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

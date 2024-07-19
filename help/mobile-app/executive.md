@@ -41,13 +41,13 @@ ht-degree: 75%
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Customer Journey Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Customer Journey Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
@@ -115,7 +115,7 @@ ht-degree: 75%
 
    * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) in the app앱 functions작동 방법: Workspace에서 작동
+1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)은(는) Workspace에서 작동하는 것과 같은 방식으로 작동합니다.
 
    ![세그먼트 필터](assets/segment_filter.png)
 

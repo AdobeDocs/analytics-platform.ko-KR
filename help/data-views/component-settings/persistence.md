@@ -23,9 +23,9 @@ ht-degree: 80%
 
   >[!NOTE]
   >
-  >다음 항목이 있는 경우: [비기본 속성 모델](/help/data-views/component-settings/attribution.md) 보고서의 지표에 설정된 속성 모델은 동일한 보고서에 대해 차원에 설정된 할당을 무시합니다.
+  >보고서의 지표에 [기본값이 아닌 속성 모델](/help/data-views/component-settings/attribution.md)이 설정되어 있는 경우 속성 모델은 동일한 보고서에 대해 차원에 설정한 할당을 무시합니다.
   >
-  >그러나 을 수행할 때 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 여러 차원이 포함된 경우 속성은 각 차원에 적용된 할당 모델을 유지합니다.
+  >그러나 여러 차원을 포함하는 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 수행할 때 속성은 각 차원에 적용된 할당 모델을 유지합니다.
 
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
@@ -86,7 +86,7 @@ ht-degree: 80%
 
 차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록입니다. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
 
-다음을 참조하십시오 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md) 바인딩 차원을 효율적으로 사용하는 방법에 대한 예를 보려면 여기를 클릭하십시오.
+바인딩 차원을 효율적으로 사용하는 방법에 대한 예는 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -96,4 +96,4 @@ ht-degree: 80%
 
 이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 지표가 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
 
-아래의 두 번째 예를 참조하십시오. [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md) 바인딩 지표를 효과적으로 사용하는 방법에 대한 자세한 내용을 보려면 를 클릭하십시오.
+바인딩 지표를 효율적으로 사용하는 방법에 대한 자세한 내용은 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)의 두 번째 예를 참조하십시오.

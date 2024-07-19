@@ -1,5 +1,5 @@
 ---
-title: Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.
+title: Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에 보고
 description: Marketo Engage 데이터를 Customer Journey Analytics으로 가져오는 방법 알아보기
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,11 +8,11 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 57%
+ht-degree: 64%
 
 ---
 
-# Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 보고합니다.
+# Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에 보고
 
 Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 있는 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Adobe Customer Journey Analytics에서 이러한 데이터 세트에 대해 보고합니다.
 
@@ -26,7 +26,7 @@ Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 
 
 ## 3단계: Customer Journey Analytics에서 이 데이터 세트에 대한 연결 설정
 
-Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. 자세한 내용은 을 참조하십시오 [연결 만들기 또는 편집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
+Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 Customer Journey Analytics의 데이터 세트 간에 연결을 설정해야 합니다. 자세한 내용은 [연결 만들기 또는 편집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)을 참조하세요.
 
 ## 4단계: 하나 이상의 데이터 보기 만들기
 
@@ -49,4 +49,4 @@ B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타�
 
 1. 또는 개인 키 또는 직장 이메일 주소 차원을 가져옵니다. 이렇게 하면 각 리드의 웹 페이지 방문 횟수를 확인할 수 있습니다.
 
-   ![이벤트 및 workEmail.Address와 웹 페이지 조회수를 보여 주는 자유 형식 테이블입니다.](../assets/marketo-freeform2.png)
+   ![이벤트 및 workEmail.Address 및 웹 페이지 보기를 표시하는 자유 형식 테이블.](../assets/marketo-freeform2.png)

@@ -42,14 +42,14 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 개인 ID 결합
 
-Customer Journey Analytics을 생성하려면 공통 식별자가 필요합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md).
+Customer Journey Analytics에서 [결합된 데이터 집합](/help/connections/combined-dataset.md)을(를) 생성하려면 공통 식별자가 필요합니다.
 
 * 이미 데이터 세트 모두에 모든 이벤트에 대한 공통 식별자가 있는 경우 이 단계를 건너뛰고 연결을 만들 수 있습니다.
-* 데이터 세트 중 하나에 일부 이벤트에만 적용되는 공통 식별자가 있으면 다음을 사용하여 데이터를 결합할 수 있습니다. [결합](/help/stitching/overview.md) 이러한 두 데이터 세트에 대한 크로스 채널 분석을 활성화하는 단계입니다.
+* 데이터 세트 중 하나에 일부 이벤트에만 적용되는 공통 식별자가 있으면 이 두 데이터 세트에 대해 크로스 채널 분석을 활성화하는 단계에 대해 [결합](/help/stitching/overview.md)을 사용하여 데이터를 결합할 수 있습니다.
 
 ## Customer Journey Analytics에 연결 만들기
 
-[연결 만들기](/help/connections/create-connection.md) Customer Journey Analytics.
+Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/create-connection.md).
 
 * CCA를 사용하는 경우 결합된 새 데이터 세트를 사용할 수 있습니다. 새로 만든 결합된 ID 필드를 개인 ID로 사용합니다.
 * 그렇지 않으면 연결에서 사용할 원본 웹 데이터 세트와 콜센터 데이터 세트를 모두 선택할 수 있습니다.

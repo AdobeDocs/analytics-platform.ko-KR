@@ -33,6 +33,6 @@ Target 분류 이벤트 데이터 세트가 CJA 연결에 추가되면 이들 �
 
 ## 더 자세한 정보
 
-자세한 내용은 Target 설명서의 [Adobe Customer Journey Analytics에서 Target 보고](https://experienceleague.adobe.com/kr/docs/target/using/integrate/cja/target-reporting-in-cja)를 참조하십시오.
+자세한 내용은 Target 설명서의 [Adobe Customer Journey Analytics에서 Target 보고](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)를 참조하십시오.
 
 분석가가 다양한 사용자 경험, 마케팅 또는 메시지의 변형을 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단하는 방법에 대한 자세한 내용은 [실험 패널](../analysis-workspace/c-panels/experimentation.md)을 참조하십시오. 온라인, 오프라인, Target 또는 Journey Optimizer와 같은 Adobe 솔루션 및 BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.

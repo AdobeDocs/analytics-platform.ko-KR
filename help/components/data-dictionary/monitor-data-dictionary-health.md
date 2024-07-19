@@ -37,7 +37,7 @@ Customer Journey Analytics 관리자는 건강한 데이터 사전을 유지 관
 
    데이터 사전 창이 표시됩니다.
 
-   ![사전 상태를 보여 주는 데이터 사전 관리자의 보기](assets/data-dictionary-admin.png)
+   ![사전 상태를 표시하는 데이터 사전 관리자의 보기](assets/data-dictionary-admin.png)
 
 1. 드롭다운 메뉴에서 올바른 데이터 보기가 선택되어 있는지 확인합니다.
 

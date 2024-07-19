@@ -30,7 +30,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석] 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 필터에서 사용할 수 있는 지표만 [!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
+>[!UICONTROL 집단 분석]에서는 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생 횟수를 지원하지 않습니다. 필터에 사용할 수 있는 지표만 [!UICONTROL 집단 분석]에서 사용할 수 있으며 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
 
@@ -38,32 +38,32 @@ ht-degree: 67%
 
 ### [!UICONTROL 유지 테이블]
 
-A [!UICONTROL 유지] 집단 보고서는 사람을 반환합니다. 각 데이터 셀에는 해당 기간 동안 작업을 수행한 집단에 있는 사람의 원시 수와 백분율 보여줍니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
+[!UICONTROL 유지] 집단 보고서는 개인을 반환합니다. 각 데이터 셀에는 해당 기간 동안 작업을 수행한 집단에 있는 사람들의 원시 수와 백분율 보여줍니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
-![집단에 있는 사람의 수 및 비율을 보여 주는 임대 집단 보고서.](assets/retention-report.png)
+![집단에 있는 사람의 수 및 비율을 보여 주는 Rention 집단 보고서.](assets/retention-report.png)
 
 ### [!UICONTROL 이탈 테이블]
 
-A [!UICONTROL 이탈] 집단은 유지 테이블의 역버전이며 시간 경과에 따라 집단에 대한 반환 기준을 충족하지 않은 사람을 표시합니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
+[!UICONTROL Churn] 집단은 유지 테이블의 역버전이며 시간 경과에 따라 집단에 대한 반환 기준을 충족하지 않은 사람을 표시합니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
-![집단에 대한 반환 기준을 충족하지 않은 사람의 수와 비율을 보여 주는 이탈 표입니다.](assets/churn-report.png)
+![집단에 대한 반환 기준을 충족하지 못한 사람의 수와 비율을 보여 주는 이탈 테이블입니다.](assets/churn-report.png)
 
 ### [!UICONTROL 순환 계산]
 
 포함된 열이 아니라 이전 열에 따라 유지 또는 이탈을 계산할 수 있습니다.
 
-![이전 데이터 열을 기반으로 한 계산을 보여 주는 집단 유지 보고서.](assets/cohort-rolling-calculation.png)
+![이전 데이터 열을 기반으로 한 계산을 보여 주는 집단 유지 보고서](assets/cohort-rolling-calculation.png)
 
 ### [!UICONTROL 지연 테이블]
 
 포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이는 이전/이후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
 
-![이벤트 전후 경과 시간을 보여 주는 집단 보고서.](assets/cohort-latency.png)
+![이벤트 전후의 경과 시간을 표시하는 집단 보고서입니다.](assets/cohort-latency.png)
 
 ### [!UICONTROL 사용자 정의 차원 집단]
 
 기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅 채널], [!UICONTROL 캠페인], [!UICONTROL 제품], [!UICONTROL 페이지], [!UICONTROL 영역] 또는 Customer Journey Analytics의 다른 차원과 같은 차원을 사용하여 이러한 차원의 다양한 값을 기준으로 유지 변경 방법을 보여 줍니다.
 
-![기본 시간 기반 집단이 아닌 선택한 차원을 사용하여 사용자 지정된 보고서를 표시하는 집단 보고서.](assets/cohort-customizable-cohort-row.png)
+![선택한 차원이 기본 시간 기반 집단이 아닌 사용자 지정된 보고서를 표시하는 집단 보고서.](assets/cohort-customizable-cohort-row.png)
 
 집단 보고서를 설정하고 실행하는 방법에 대한 지침은 [집단 분석 보고서 구성](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)에서 확인할 수 있습니다.

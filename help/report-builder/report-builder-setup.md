@@ -72,7 +72,7 @@ Report Builder 추가 기능을 다운로드하고 설치하려면
 
 Report Builder 추가 기능에 대한 승인을 요청하려면 IT 또는 보안 팀에 연락하십시오. 승인을 받은 후 Office 추가 기능 대화 상자에서 관리자 관리 탭을 선택합니다.
 
-![Office 추가 기능 대화 상자의 관리 관리 탭](./assets/image1.png)
+![Office 추가 기능 대화 상자의 관리자 관리 탭](./assets/image1.png)
 
 Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭 아래의 Excel 리본에 표시됩니다.
 
@@ -114,6 +114,6 @@ Report Builder 추가 기능을 설치하면 Report Builder 아이콘이 홈 탭
 
 1. 아바타 아이콘을 클릭하면 사용자 프로필이 표시됩니다.
 
-   ![사용자 프로필 아바타 및 로그아웃 버튼](./assets/image6.png)
+   ![사용자 프로필 아바타와 로그아웃 단추](./assets/image6.png)
 
 1. **로그아웃**&#x200B;을 클릭합니다.

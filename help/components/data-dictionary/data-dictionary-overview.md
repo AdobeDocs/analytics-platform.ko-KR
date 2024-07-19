@@ -51,7 +51,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
   마찬가지로 데이터 보기의 구성 요소 설명에 대한 모든 업데이트가 Analysis Workspace에 반영됩니다.
 
-  Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md).
+  Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)를 참조하십시오.
 
 ## 데이터 사전 액세스
 
@@ -72,9 +72,9 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 ## 데이터 사전 업데이트 및 구성
 
-Customer Journey Analytics 관리자는에 설명된 대로, 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다. [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+[데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 Customer Journey Analytics 관리자는 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다.
 
-이 프로세스의 일부로 Customer Journey Analytics 관리자는에 설명된 대로 데이터 사전에 있는 각 구성 요소에 대한 정보를 편집할 수 있습니다 [데이터 사전에서 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+이 프로세스의 일부로 Customer Journey Analytics 관리자는 [데이터 사전의 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md)에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다.
 
 ## 데이터 사전 이동, 최소화 또는 닫기
 

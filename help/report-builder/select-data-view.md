@@ -24,9 +24,9 @@ ht-degree: 2%
 셀에서 데이터 보기를 선택하려면 먼저 데이터 블록을 빌드하고 데이터 블록 외부의 셀에 여러 데이터 보기를 할당합니다. 그런 다음 셀 패널의 데이터 보기를 사용하여 다른 데이터 보기에서 데이터 블록을 새로 고칩니다.
 
 1. 데이터 블록을 만듭니다.
-데이터 블록 만들기에 대한 내용은 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md).
+데이터 블록 만들기에 대한 자세한 내용은 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md)를 참조하십시오.
 
-1. 다음을 클릭합니다. *셀 아이콘* 다음에서 *데이터 보기* 섹션.
+1. *데이터 보기* 섹션에서 *셀 아이콘*&#x200B;을 클릭합니다.
 
    ![셀 아이콘이 강조 표시된 새 데이터 블록 창을 만듭니다.](/help/report-builder/assets/cell-icon.png)
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 1. 셀에 지정할 데이터 보기를 선택합니다.
 
-   ![데이터 보기 선택을 보여 주는 Report Builder 빠른 편집 창.](/help/report-builder/assets/select-data-view.png)
+   ![Report Builder 빠른 편집 창에 데이터 보기 선택이 표시됩니다.](/help/report-builder/assets/select-data-view.png)
 
 1. **적용**&#x200B;을 클릭합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 1. 드롭다운 목록에서 다른 데이터 보기를 선택합니다.
 
-1. (선택 사항) **데이터 블록 새로 고침을 선택합니다.** 변경 시.
+1. (선택 사항) 변경 시 **데이터 블록 새로 고침을 선택**&#x200B;합니다.
 
 1. **적용**&#x200B;을 클릭합니다.
 

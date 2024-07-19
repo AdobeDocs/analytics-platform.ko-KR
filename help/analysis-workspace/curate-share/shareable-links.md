@@ -8,25 +8,25 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 55%
+ht-degree: 79%
 
 ---
 
 # 공유 가능한 링크 만들기
 
-Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형은 수신자가 프로젝트에 액세스하기 전에 Adobe Analytics에 로그인해야 하지만, 다른 링크 유형은 로그인하지 않아도 됩니다.
+Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형에서는 수신자가 Adobe Analytics에 로그인해야 프로젝트에 액세스할 수 있지만 다른 링크 유형에서는 그렇지 않습니다.
 
-## 다른 작업 공간 사용자와 공유할 프로젝트 링크 가져오기 {#project-link}
+## 다른 Workspace 사용자와 공유할 프로젝트 링크 받기 {#project-link}
 
-프로젝트에 대한 링크를 공유하려면 공유할 프로젝트로 이동한 다음 이동을 선택합니다 [!UICONTROL **공유**] > [!UICONTROL **프로젝트 링크 가져오기**] (또는 **공유**] > [!UICONTROL **작업 공간 사용자와 공유**] > [!UICONTROL **링크로 공유**). 링크를 공유하는 사용자는 로그인해야 합니다.
+프로젝트에 대한 링크를 공유하려면 공유할 프로젝트로 이동한 다음 [!UICONTROL **공유**] > [!UICONTROL **프로젝트 링크 가져오기**](또는 **공유**] > [!UICONTROL **Workspace 사용자와 공유**] > [!UICONTROL **링크로 공유**)로 이동을 선택합니다. 링크를 공유받는 사용자는 로그인해야 합니다.
 
-링크의 수신자에게 이 할당되지 않은 경우 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR), 관리자 받기 **[!UICONTROL 원본 편집]** 및 관리자가 아닌 사용자가 수신 **[!UICONTROL 사본 편집]** 경험 을 참조하십시오.
+링크의 수신자에게 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)이 할당되지 않은 경우 관리자는 **[!UICONTROL 원본 편집]** 기능을 받으며 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 경험을 받습니다.
 
-## 누구와도 공유할 수 있는 읽기 전용 링크 받기
+## 모두와 공유할 수 있는 읽기 전용 링크 받기
 
 Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다.
 
-자세한 내용은 문서의 &quot;누구와도 프로젝트 공유(로그인 필요 없음)&quot;를 참조하십시오 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md).
+자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 문서의 “모두와 프로젝트 공유(로그인 필요 없음)”를 참조하십시오.
 
 ## 패널 또는 시각화 링크 가져오기 {#panel-link}
 
@@ -45,4 +45,4 @@ Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Work
 
 [비디오 시청](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ko-KR)에서 링크 및 Workspace의 리치 텍스트 편집기를 사용하여 목차를 구성하는 방법에 대해 알아보십시오.
 
-![프로젝트 목차.](assets/toc.png)
+![프로젝트 목차입니다.](assets/toc.png)

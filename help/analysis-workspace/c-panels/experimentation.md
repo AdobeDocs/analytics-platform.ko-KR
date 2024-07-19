@@ -7,15 +7,15 @@ role: User
 source-git-commit: e0cf556a094726edbee35b21bf71d5d1f227fcc7
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
 # 실험 패널
 
-**[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Target 또는 Journey Optimizer과 같은 Adobe 솔루션, BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
+**[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Target 또는 Journey Optimizer와 같은 Adobe 솔루션 및 BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
 
-자세한 내용 [Adobe Customer Journey Analytics과 Adobe Target 간의 통합](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
+Adobe Customer Journey Analytics과 Adobe Target 간의 [통합에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja).
 
 ## 액세스 제어 {#access}
 
@@ -27,32 +27,32 @@ ht-degree: 34%
 
 ## 1단계: 실험 데이터 세트로의 연결 만들 {#connection}
 
-권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)에 있는 것입니다. 두 차원 모두 **단일** 개체 배열입니다. 실험 데이터가 단일 차원에 있는 경우(구분된 문자열에 실험 및 변형 데이터가 있는 경우) [하위 문자열](/help/data-views/component-settings/substring.md) 데이터 보기에서 를 설정하여 패널에서 사용할 차원을 두 개로 분할합니다.
+권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)에 있는 것입니다. 두 차원은 **single** 개체 배열에 있어야 합니다. 실험 데이터가 단일 차원에 있는 경우(구분된 문자열에 실험 및 변형 데이터가 있는 경우) 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 차원을 두 개로 분할할 수 있습니다.
 
-실험 데이터가 [수집됨](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) Adobe Experience Platform으로 [Customer Journey Analytics에서 연결 만들기](/help/connections/create-connection.md) 하나 이상의 실험 데이터 세트로
+실험 데이터가 Adobe Experience Platform에 [수집됨](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)되면 하나 이상의 실험 데이터 세트에 대해 [Customer Journey Analytics에서 연결을 만듭니다](/help/connections/create-connection.md).
 
 ## 2단계: 데이터 보기에 컨텍스트 레이블 추가 {#context-labels}
 
-Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가할 수 있습니다. [컨텍스트 레이블](/help/data-views/component-settings/overview.md) 차원 또는 지표 및 다음과 같은 Customer Journey Analytics 서비스 [!UICONTROL 실험] 패널은 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
+Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍스트 레이블](/help/data-views/component-settings/overview.md)을(를) 추가할 수 있으며, [!UICONTROL 실험] 패널과 같은 Customer Journey Analytics 서비스에서는 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
 
 * [!UICONTROL 실험]
 * [!UICONTROL 실험 변형]
 
 실험 데이터가 포함된 데이터 보기에서 실험 데이터가 있는 차원 하나와 변형 데이터가 있는 차원 하나를 선택합니다. 그 다음 **[!UICONTROL 실험]** 및 **[!UICONTROL 변형]** 레이블이 있는 차원에 레이블을 지정합니다.
 
-![실험 및 실험 변형에 대한 컨텍스트 레이블 옵션.](assets/context-label.png)
+![실험 및 실험 변형에 대한 컨텍스트 레이블 옵션](assets/context-label.png)
 
 이 레이블이 없으면 함께 작동할 실험이 없어 실험 패널이 작동하지 않습니다.
 
 ## 3단계: 실험 패널 구성 {#configure}
 
-1. Customer Journey Analytics 작업 영역에서 실험 패널을 프로젝트로 드래그합니다.
+1. Workspace Customer Journey Analytics에서 실험 패널을 프로젝트로 드래그합니다.
 
 ![실험 패널이 프로젝트로 드래그되었습니다.](assets/experiment.png)
 
 >[!IMPORTANT]
 >
->Customer Journey Analytics 데이터 보기에서 필요한 설정이 완료되지 않은 경우 진행하기 전에 다음 메시지를 받게 됩니다.&quot;[!UICONTROL 데이터 보기에서 실험 및 변형 차원을 구성하십시오.]&quot;.
+>Customer Journey Analytics 데이터 보기에서 필요한 설정이 완료되지 않은 경우 진행하기 전에 &quot;[!UICONTROL 데이터 보기에서 실험 및 변형 차원을 구성하십시오]&quot;라는 메시지를 받게 됩니다.
 >
 
 1. 패널 입력 설정을 구성합니다.
@@ -62,7 +62,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
    | **[!UICONTROL 실험]** | 어떤 것을 영구적으로 유지하는 것이 최선인지 판단하기 위해 최종 사용자에게 공개된 경험의 변형 세트. 실험은 두 개 이상의 변형으로 구성되며, 그 중 하나는 제어 변형으로 간주됩니다. 이 설정은 데이터 보기에서 **[!UICONTROL 실험]** 레이블로 레이블 지정된 차원과 최근 3개월의 실험 데이터로 미리 채워집니다. |
    | **[!UICONTROL 제어 변형]** | 최종 사용자 경험에서 두 가지 이상의 변경 중 하나로, 최선의 대안을 식별하기 위해 비교됩니다. 하나의 변형을 제어로 선택해야 하며, 하나의 변형만 제어 변형으로 간주될 수 있습니다. 이 설정은 데이터 보기에서 **[!UICONTROL 변형]** 레이블로 레이블 지정된 차원으로 미리 채워집니다. 이 설정은 이 실험과 관련된 변형 데이터를 가져옵니다. |
    | **[!UICONTROL 성공 지표]** | 사용자가 변형을 비교하는 지표입니다. 전환 지표에 대해 가장 바람직한 결과를 나타내는 변형(최고 또는 최저)이 실험의 “최고 성과의 변형”으로 사용됩니다. 최대 5개의 지표를 추가할 수 있습니다. |
-   | **[!UICONTROL 표준화 지표]** | 기준([!UICONTROL 사람], [!UICONTROL 세션], 또는 [!UICONTROL 이벤트]) 테스트를 실행합니다. 예를 들어 테스트를 통해 **[!UICONTROL 전환율]**&#x200B;이 **[!UICONTROL 세션당 전환]** 또는 **[!UICONTROL 사람당 전환]**&#x200B;으로 계산된 여러 변형의 전환율을 비교할 수 있습니다. |
+   | **[!UICONTROL 표준화 지표]** | 테스트가 실행되는 기준([!UICONTROL 사람], [!UICONTROL 세션] 또는 [!UICONTROL 이벤트])입니다. 예를 들어 테스트를 통해 **[!UICONTROL 전환율]**&#x200B;이 **[!UICONTROL 세션당 전환]** 또는 **[!UICONTROL 사람당 전환]**&#x200B;으로 계산된 여러 변형의 전환율을 비교할 수 있습니다. |
    | **[!UICONTROL 날짜 범위]** | 날짜 범위는 선택한 실험에 대해 Customer Journey Analytics 시 수신한 첫 번째 이벤트를 기반으로 자동으로 설정됩니다. 필요한 경우 더 구체적인 시간대로 날짜 범위를 제한하거나 확장할 수 있습니다. |
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
@@ -75,11 +75,11 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 선택한 각 성공 지표에 대해 하나의 자유 형식 테이블 및 하나의 전환율 트렌드가 표시됩니다.
 
-![하나의 자유 형식 테이블 및 하나의 전환율 트렌드를 보여 주는 실험 출력입니다.](assets/exp-output1.png)
+![자유 형식 테이블 하나와 전환율 트렌드를 보여 주는 실험 출력입니다.](assets/exp-output1.png)
 
 [!UICONTROL 선] 차트를 통해 [!UICONTROL 제어]와 [!UICONTROL 제어 변형]의 성과를 비교할 수 있습니다.
 
-![제어 및 제어 변형 성과를 보여 주는 라인 차트 출력.](assets/exp-output2.png)
+![제어 및 제어 변형 성능을 보여 주는 꺾은선형 차트 출력입니다.](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 ## 5단계: 결과 해석 {#interpret}
 
-1. **실험이 결정적임**: 실험 보고서를 볼 때마다 이 시점까지 실험에 누적된 데이터가 분석됩니다. 및 은 항시 유효한 신뢰도가 의 임계값 95%를 넘으면 실험을 &quot;결정적&quot;이라고 선언합니다. *최소 하나* (다중 가설 테스트를 수정하기 위해 두 개 이상의 팔이 있는 경우 Benjamini-Hochberg 수정이 적용됨).
+1. **실험이 결정적임**: 실험 보고서를 볼 때마다 이 시점까지 실험에 누적된 데이터가 분석됩니다. 그리고 항시 유효한 신뢰도가 *적어도 하나*&#x200B;의 변형에 대해 임계값 95%를 넘으면 실험을 &quot;결정적&quot;이라고 선언합니다(다중 가설 테스트를 수정하기 위해 두 개 이상의 팔이 있는 경우 Benjamini-Hochberg 수정이 적용됨).
 
 2. **최고 성과의 변형**: 실험이 결정적이라고 선언되면 전환율이 가장 높은 변형을 “최고 성과의 변형”으로 레이블 지정합니다. 이 변형은 제어 또는 기준선 변형이거나, 항시 유효한 신뢰 임계값(Benjamini-Hochberg 수정 적용 시) 95%를 초과하는 변형 중 하나여야 합니다.
 
@@ -105,7 +105,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 을 추가
 
 쉽게 해석이 가능하고 안전한 통계 추측을 제공하기 위해 Adobe는 [항시 유효한 신뢰 시퀀스](https://arxiv.org/abs/2103.06476) 기반의 통계 방법을 채택합니다.
 
-신뢰 시퀀스는 입니다. *순차* 신뢰 구간의 아날로그입니다. 신뢰 시퀀스가 무엇인지 이해하기 위해 실험을 백 번 반복하고 의 평균 비즈니스 지표(예: 이메일 열람율) 및 관련 95%-신뢰 시퀀스의 추정치를 계산한다고 가정해 보십시오 *모든 신규 사용자* 실험에 들어갑니다.
+신뢰 시퀀스가 신뢰 구간의 *순차적* 아날로그입니다. 신뢰 시퀀스가 무엇인지 이해하기 위해 실험을 백 번 반복하고 실험에 참여하는 *모든 신규 사용자*&#x200B;에 대해 평균 비즈니스 지표(예: 이메일 열람율) 및 관련 95%-신뢰 시퀀스의 추정치를 계산한다고 가정해 보십시오.
 
 95% 신뢰 시퀀스에는 100개의 실험 중 95개의 비즈니스 지표의 &quot;참&quot; 값이 포함됩니다. (95% 신뢰 구간은 모든 신규 사용자가 아닌 동일한 95% 적용 범위를 보장하기 위해 실험당 한 번만 계산할 수 있습니다.) 따라서 신뢰 시퀀스를 사용하면 거짓 양성 오류율을 증가시키지 않고 실험을 지속적으로 모니터링할 수 있습니다. 즉, 결과를 &quot;엿볼&quot; 수 있습니다.
 
@@ -123,10 +123,10 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 
 다음 그림은 이러한 상황을 대비합니다.
 
-![관측 자료와 임의 실험을 보여주는 도표.](assets/randomize.png)
+![관찰 데이터와 임의 실험을 보여 주는 다이어그램입니다.](assets/randomize.png)
 
 중재 X가 결과 Y에 미치는 영향을 측정하고자 할 때, 양자의 진짜 원인은 교란 요인 C일 가능성이 있다. 만약 X에 대한 사람을 무작위화함으로써 데이터가 달성되지 않는다면, 그 영향은 측정하기 더 어렵고, 분석은 C에 대한 X의 의존성을 명백하게 설명한다. 무작위화는 C에 대한 X의 의존성을 깨뜨려서, 우리가 다른 변수에 대해 걱정할 필요 없이 Y에 대한 X의 영향을 측정할 수 있게 한다.
 
 ## 실험 패널에서 계산된 지표 사용
 
-에 대한 자세한 내용은 이 블로그 게시물 을 참조하십시오. [실험 패널에서 파생 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+[실험 패널에서 파생 지표를 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)하는 방법에 대한 자세한 내용은 이 블로그 게시물을 참조하세요.

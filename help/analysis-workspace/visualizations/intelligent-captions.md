@@ -1,19 +1,19 @@
 ---
 description: 지능형 캡션을 사용하여 자연어 인사이트를 생성하여 시각화 내의 트렌드를 빠르게 표시할 수 있습니다.
-title: 인텔리전트 캡션
+title: 지능형 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
 source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# 인텔리전트 캡션
+# 지능형 캡션
 
-지능형 캡션은 고급 머신 러닝 및 생성 AI를 사용하여 작업 영역 시각화에 중요한 자연어 통찰력을 제공합니다. 초기 릴리스는에 대해 자동 생성된 통찰력을 제공합니다. [라인](line.md) 시각화. (다른 시각화 요소들이 따라옵니다.)
+지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스는 [Line](line.md) 시각화에 대해 자동 생성된 인사이트를 제공합니다. (다른 시각화 요소들이 따라옵니다.)
 
 지능형 캡션은 다음 항목에 맞춰져 있습니다.
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 
 ## 지능형 캡션 실행 {#launch}
 
-선 시각화를 위해 자동 생성된 캡션을 시작하려면 **[!UICONTROL 지능형 캡션]** 시각화 오른쪽 상단의 아이콘.
+선 시각화에 대해 자동 생성된 캡션을 시작하려면 시각화의 오른쪽 상단에 있는 **[!UICONTROL 지능형 캡션]** 아이콘을 클릭합니다.
 
-![제품 보기에 대한 지능형 캡션 트렌드를 표시하는 Analysis Launch 창입니다. ](assets/intell-caps-1.png)
+![제품 보기에 대한 지능형 캡션 트렌드를 표시하는 분석 시작 창. ](assets/intell-caps-1.png)
 
 이제 자연어 인사이트가 생성됩니다.
 
@@ -48,13 +48,13 @@ ht-degree: 2%
 
 ## 클립보드에 복사 {#copy}
 
-캡션을 클립보드에 복사하고 Powerpoint 또는 다른 도구에 붙여 넣을 수 있습니다. 다음 찾기 **[!UICONTROL 클립보드에 캡션 복사]** 아이콘을 클릭합니다(캡션 대화 상자 오른쪽 상단).
+캡션을 클립보드에 복사하고 Powerpoint 또는 다른 도구에 붙여 넣을 수 있습니다. 캡션 대화 상자의 오른쪽 맨 위에 있는 **[!UICONTROL 클립보드에 캡션 복사]** 아이콘을 찾습니다.
 
 ## 캡션 편집 {#edit}
 
 특정 범주의 인사이트를 숨기거나 숨기는 것과 같은 캡션을 편집할 수 있습니다. 예를 들어 최소 순서에 대한 통찰력을 원하지 않는 경우 숨기고 적용을 클릭하기만 하면 다시 표시되지 않습니다.
 
-1. 클릭 **[!UICONTROL 지능형 캡션 표시 편집]** (클립보드 아이콘 옆에 있는 아이콘)
+1. 클립보드 아이콘 옆에 있는 **[!UICONTROL 지능형 캡션 표시 편집]** 아이콘을 클릭합니다.
 
 1. 편집 대화 상자에서 숨기려는 인사이트 옆에 있는 눈 아이콘을 클릭합니다.
 
@@ -64,14 +64,14 @@ ht-degree: 2%
 
 ## 캡션 내보내기 {#export}
 
-다음을 수행할 수 있습니다. **PDF을 통해 캡션 내보내기**&#x200B;를 조정할 수 있습니다. 단, 프로젝트가 캡션이 생성된 상태로 저장되는 경우에 한합니다.
+프로젝트가 생성된 캡션과 함께 저장되는 한 **PDF을 통해 캡션을 내보내기**&#x200B;할 수 있습니다.
 
 ## 캡션 켜기/끄기 {#toggle}
 
-지능형 캡션이 생성되지 않는 경우 시각화 환경 설정으로 이동하고 선택을 취소하여 이 기능을 끌 수 있습니다 **[!UICONTROL 지능형 캡션 표시]**.
+지능형 캡션이 생성되지 않게 하려면 시각화 환경 설정으로 이동하여 **[!UICONTROL 지능형 캡션 표시]**&#x200B;를 선택 취소하여 이 기능을 끄면 됩니다.
 
-![지능형 캡션 표시 선택 취소 옵션을 보여 주는 선 시각화 옵션입니다.](assets/toggle-captions.png)
+![지능형 캡션 표시 선택 취소 옵션을 표시하는 선 시각화 옵션입니다.](assets/toggle-captions.png)
 
 ## 모바일 스코어카드의 지능형 캡션
 
-지능형 캡션은 Customer Journey Analytics에서도 사용할 수 있습니다 [모바일 스코어카드](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+지능형 캡션은 Customer Journey Analytics [모바일 스코어카드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)에서도 사용할 수 있습니다.

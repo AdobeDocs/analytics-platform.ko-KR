@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 53%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 53%
 
 계산된 지표 빌더에서는 지표 정의 내에서 필터를 적용할 수 있습니다. 분석에 사용할 새 지표를 도출하려는 경우 유용합니다. 필터 정의는 필터 빌더를 통해 업데이트할 수 있습니다. 변경된 경우 필터는 계산된 지표 정의의 일부인 경우를 포함하여 적용되는 모든 위치에서 자동으로 업데이트됩니다.
 
-![국가에 대한 필터 요약 및 정의 = 독일 및 고유 방문자](assets/german-visitors.png)
+![국가 = 독일 및 고유 방문자에 대한 필터의 요약 및 정의](assets/german-visitors.png)
 
 ## 필터링된 지표 만들기 {#create}
 
@@ -26,31 +26,31 @@ ht-degree: 53%
 
 &quot;독일 방문자&quot;라는 지표와 &quot;해외 방문자&quot;라는 지표를 작성하고 저장합니다.
 
-1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;인 &quot;독일 방문자&quot;라는 임시 필터를 만듭니다. 국가 차원을 정의 캔버스로 드래그하고 선택합니다. [!UICONTROL **독일**] 을 값으로 사용:
+1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;인 &quot;독일 방문자&quot;라는 임시 필터를 만듭니다. 국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을(를) 선택합니다.
 
    ![국가가 독일과 같음을 보여 주는 임시 필터](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >또한 다음 작업을 수행할 수 있습니다. [필터 빌더](/help/components/filters/create-filters.md)그러나 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로를 간소화했습니다. &quot;임시&quot;는 필터가 **[!UICONTROL 필터]** 왼쪽 레일에 나열합니다. 그러나 그 옆에 있는 “i” 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
+   >[필터 빌더](/help/components/filters/create-filters.md)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로를 간소화했습니다. &quot;임시&quot;는 필터가 왼쪽 레일의 **[!UICONTROL 필터]** 목록에 표시되지 않음을 의미합니다. 그러나 그 옆에 있는 “i” 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
 
 1. 독일 필터를 정의 캔버스로 드래그하고 고유 방문자 수 지표를 그 안으로 드래그합니다.
 
    ![독일 및 고유 방문자와 동일한 국가의 요약 및 정의](assets/german-visitors.png)
 
-1. 선택 [!UICONTROL **저장**] 계산된 지표를 저장합니다.
+1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
 
 1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;과 같지 않은 &quot;해외 방문자&quot;라는 임시 필터를 만듭니다.
 
-   국가 차원을 정의 캔버스로 드래그하고 다음을 선택합니다. [!UICONTROL **독일**] 을 값으로 설정한 다음 을 선택합니다. [!UICONTROL **다음과 같지 않음**] 를 연산자로 사용하십시오.
+   국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을 선택한 다음 연산자로 [!UICONTROL **같지 않음**]&#x200B;을 선택합니다.
 
 1. 그 안에 있는 고유 방문자 수 지표를 드래그합니다.
 
-1. 선택 [!UICONTROL **저장**] 계산된 지표를 저장합니다.
+1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
 
 1. Analysis Workspace에서 **[!UICONTROL Page]** 차원을 자유 형식 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.
 
-   ![독일 방문자 및 해외 방문자에 대한 페이지 차원을 보여주는 자유 형식 테이블](assets/workspace-pages.png)
+   ![독일 방문자 및 해외 방문자에 대한 페이지 차원을 보여 주는 자유 형식 테이블](assets/workspace-pages.png)
 
 다음은 비디오 개요입니다.
 
@@ -63,8 +63,8 @@ ht-degree: 53%
 1. 독일 (또는 해외) 방문자 필터를 캔버스에 드롭합니다.
 1. 아래에 다른 독일 (또는 해외) 방문자 필터를 드롭합니다. 하지만, 이때, 그 구성 (톱니바퀴) 아이콘을 클릭하여 지표 유형 &quot;합계&quot;를 선택합니다. 형식은 &quot;퍼센트&quot;여야 합니다. 연산자는 &quot;나누기&quot;여야 합니다. 다음 지표 정의로 종료합니다.
 
-   ![국가 는 독일 및 총 고유 방문자 수 입니다.](assets/cm_metric_total.png)
+   ![국가가 독일 및 총 고유 방문자 수](assets/cm_metric_total.png)
 
 1. 이 지표를 프로젝트에 적용합니다.
 
-   ![페이지 및 총 독일 방문자의 % 가 포함된 자유 형식 테이블](assets/cm_percent_total.png)
+   ![페이지 및 총 독일인 방문자 비율(%)이 포함된 자유 형식 테이블](assets/cm_percent_total.png)

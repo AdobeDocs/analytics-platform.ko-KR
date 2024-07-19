@@ -6,8 +6,8 @@ role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 69%
+source-wordcount: '324'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 관리자는 주어진 데이터 보기에 대한 데
 
 1. (선택 사항) 검색 필드에서 편집하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 주황색이고 **필터** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 파란색, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 필터 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 는 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)은 주황색이고, **필터** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)은 파란색이고, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)은 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 필터 템플릿을 나타내며, 계산기 아이콘 ![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)은(는) 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
 {{dd-filter-criteria}}
 

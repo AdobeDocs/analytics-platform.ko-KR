@@ -14,18 +14,18 @@ ht-degree: 61%
 
 # Adobe Experience Platform에서의 마케팅 채널 차원 사용
 
-조직에서 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 보고서 세트 데이터를 마케팅 채널로 가져오려면 Customer Journey Analytics에서 연결을 구성하여 Customer Journey Analytics 차원에 대해 보고할 수 있습니다.
+조직에서 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 보고서 세트 데이터를 Customer Journey Analytics으로 가져오는 경우 Customer Journey Analytics에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
 
 ## 사전 요구 사항
 
-* 보고서 세트 데이터는 를 사용하여 Adobe Experience Platform으로 이미 가져와야 합니다. [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR). 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
-* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. 다음을 참조하십시오 [마케팅 채널의 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html) Adobe Analytics 구성 요소 안내서에서 참조할 수 있습니다.
+* 보고서 세트 데이터는 이미 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
+* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. Adobe Analytics 구성 요소 안내서에서 [마케팅 채널에 대한 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
 
 원하는 보고서 세트에 대한 Analytics 소스 커넥터를 설정하면 XDM 스키마가 만들어집니다. 이 스키마에는 모든 분석 차원 및 지표가 원시 데이터로 포함되어 있습니다. 이 원시 데이터에는 속성 또는 지속성을 포함하지 않습니다. 대신 각 이벤트는 마케팅 채널 처리 규칙을 통해 실행되고 일치하는 첫 번째 규칙을 기록합니다. Customer Journey Analytics에서 데이터 보기를 만들 때 속성 및 지속성을 지정합니다.
 
-1. [연결 만들기](/help/connections/create-connection.md) analytics 소스 커넥터 기반의 데이터 세트를 포함합니다.
+1. Analytics 원본 커넥터를 기반으로 데이터 집합을 포함하는 [연결을 만듭니다](/help/connections/create-connection.md).
 2. 다음 차원을 포함하는 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
    * **`channel.typeAtSource`**: [마케팅 채널](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=ko-KR) 차원에 해당합니다.
    * **`channel._id`**: [마케팅 채널 세부 사항](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=ko-KR)에 해당합니다.
@@ -36,7 +36,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
-> Analytics 소스 커넥터는 두 커넥터 모두 `channel.typeAtSource` (마케팅 채널) 및 `channel._id` (마케팅 채널 세부 사항)이 채워집니다. 그렇지 않으면 모두 XDM ExperienceEvent로 이월되지 않습니다. 소스 보고서 세트의 마케팅 채널 세부 정보가 비어 있으면 빈칸으로 표시됩니다 `channel._id` 및 Analytics 소스 커넥터가 지워집니다. `channel.typeAtSource` 또한. 이로 인해 Adobe Analytics와 Customer Journey Analytics 사이에 보고 차이가 생길 수 있습니다.
+> Analytics 소스 커넥터는 `channel.typeAtSource`(마케팅 채널)과 `channel._id`(마케팅 채널 세부 정보)을 모두 채워야 합니다. 그렇지 않으면 모두 XDM ExperienceEvent로 이월되지 않습니다. 소스 보고서 세트의 마케팅 채널 세부 정보가 비어 있으면 빈 `channel._id`이(가) 발생하고 Analytics 소스 커넥터도 `channel.typeAtSource`이(가) 지워집니다. 이로 인해 Adobe Analytics와 Customer Journey Analytics 사이에 보고 차이가 생길 수 있습니다.
 
 ## 처리와 아키텍처 차이점
 

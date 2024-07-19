@@ -16,16 +16,16 @@ ht-degree: 24%
 
 ## 스택 필터 {#stack-filter}
 
-1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)에 설명된 대로 지표 작성을 시작합니다.
 
 1. 정의 캔버스에서 기존 필터 옆에 새 필터를 놓습니다.
 
-![기존 해외 방문자 수 옆에 미국 방문자 지표를 보여주는 정의 캔버스.](assets/cm_stack_seg.png)
+![미국 방문자 지표를 보여주는 정의 캔버스가 기존 해외 방문자 옆에 놓였습니다.](assets/cm_stack_seg.png)
 
 ## 한 필터를 다른 필터로 바꾸기 {#replace-filter}
 
-1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)에 설명된 대로 지표 작성을 시작합니다.
 
 1. 정의 캔버스에서 기존 필터 위에 새 필터를 놓습니다.
 
-![미국 방문자가 국제 방문자 지표 상단에 드롭된 것을 보여주는 정의 캔버스.](assets/cm_replace_seg.png)
+![미국 방문자가 해외 방문자 지표 위에 드롭된 것을 보여 주는 정의 캔버스입니다.](assets/cm_replace_seg.png)

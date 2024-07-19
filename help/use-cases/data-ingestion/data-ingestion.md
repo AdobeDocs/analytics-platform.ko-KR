@@ -31,7 +31,7 @@ ht-degree: 89%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge Network를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
 
-1. [태그에서 Adobe Experience Platform 웹 SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 웹 속성에서 Adobe Experience Platform Edge Network를 통해 Adobe Experience Cloud으로 데이터를 전송합니다.
+1. [태그에서 Adobe Experience Platform Web SDK 확장을 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html)하여 Adobe Experience Platform Edge Network을 통해 웹 속성에서 Adobe Experience Cloud으로 데이터를 전송합니다.
 1. 채널 간 보고를 알리는 하나 이상의 [연결](/help/connections/create-connection.md) 및 [데이터 보기](/help/data-views/data-views.md)를 만들려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html)를 사용합니다.
 
 ## 일괄 처리 수집 및 스트리밍 수집을 통한 데이터 수집

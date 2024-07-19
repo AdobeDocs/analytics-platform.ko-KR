@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform Mobile SDK를 통해 데이터 수집
-description: Adobe Experience Platform Mobile SDK 및 Edge Network를 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
+description: Adobe Experience Platform Mobile SDK 및 Edge Network을 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # Adobe Experience Platform Mobile SDK를 통해 데이터 수집
 
-이 빠른 시작 안내서에서는 Adobe Experience Platform Mobile SDK 및 Edge Network를 사용하여 모바일 앱 추적 데이터를 Adobe Experience Platform으로 직접 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
+이 빠른 시작 안내서에서는 Adobe Experience Platform Mobile SDK 및 Edge Network을 사용하여 모바일 앱 추적 데이터를 Adobe Experience Platform으로 직접 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
 이를 구현하려면 다음 작업을 수행해야 합니다.
 
@@ -22,7 +22,7 @@ ht-degree: 60%
 
 - **데이터스트림을 설정**&#x200B;하여 수집된 데이터를 Adobe Experience Platform에서 구성한 데이터 세트로 라우팅하는 Adobe Experience Platform Edge Network를 구성합니다.
 
-- **태그 사용** 모바일 애플리케이션의 데이터에 대해 규칙 및 데이터 요소를 쉽게 구성할 수 있습니다. 그런 다음 데이터가 Adobe Experience Platform Edge Network에 구성된 데이터스트림으로 전송되는지 확인합니다.
+- **태그를 사용**&#x200B;하여 모바일 응용 프로그램의 데이터에 대한 규칙과 데이터 요소를 쉽게 구성할 수 있습니다. 그런 다음 데이터가 Adobe Experience Platform Edge Network에 구성된 데이터스트림으로 전송되는지 확인합니다.
 
 - **배포 및 검증**. 태그 개발을 반복적으로 수행할 수 있는 환경을 마련하고, 모든 것이 검증되면 프로덕션 환경에 라이브로 게시합니다.
 
@@ -54,23 +54,24 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. 선택 **[!UICONTROL 스키마 만들기]**. .
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
+.
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. 선택 **[!UICONTROL 경험 이벤트]**.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
 
       ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
 
-   1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
+   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
 
       ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -84,7 +85,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
-   1. 다음에서 [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL AEP 모바일 SDK ExperienceEvent]** 목록의 필드 그룹입니다.
+   1. [!UICONTROL 필드 그룹 추가] 대화 상자의 목록에서 **[!UICONTROL AEP Mobile SDK ExperienceEvent]** 필드 그룹을 선택합니다.
 
       ![AEP 모바일 라이프사이클 세부 정보 필드 그룹](./assets/select-aepmobilesdk-experienceevent.png)
 
@@ -100,11 +101,11 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![예제 스키마 필드 추가 버튼](./assets/example-mobileschema-plus.png)
 
-1. 다음에서 [!UICONTROL 필드 속성] 패널, 입력 `identification` (으)로 [!UICONTROL 필드 이름], **[!UICONTROL 식별]** (으)로 [!UICONTROL 표시 이름], 선택 **[!UICONTROL 오브젝트]** (으)로 [!UICONTROL 유형] 및 선택 **[!UICONTROL ExperienceEvent 코어 v2.1]** (으)로 [!UICONTROL 필드 그룹].
+1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름](으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름](으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형](으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹](으)로 선택합니다.
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
 
    ![식별 오브젝트](./assets/identification-field-mobile.png)
 
@@ -246,7 +247,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 2. **[!UICONTROL 새 속성]**&#x200B;을 선택합니다.
 
-   태그 이름을 지정하고 다음을 선택합니다. **[!UICONTROL 모바일]**. 계속하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+   태그 이름을 지정하고 **[!UICONTROL 모바일]**&#x200B;을 선택합니다. 계속하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
    ![속성 만들기](./assets/create-mobile-property.png)
 
@@ -254,30 +255,30 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 태그를 만든 후 올바른 확장으로 태그를 구성하고, 사이트를 추적하고 Adobe Experience Platform으로 데이터를 전송하는 방법에 따라 데이터 요소 및 규칙을 구성해야 합니다.
 
-구성하려면 목록에서 새로 만든 태그를 선택합니다 [!UICONTROL 태그 속성].
+구성하려면 [!UICONTROL 태그 속성] 목록에서 새로 만든 태그를 선택합니다.
 
 
 #### **확장**
 
-Adobe 플랫폼 Edge Network 확장을 태그에 추가하여 데이터스트림을 통해 Adobe Experience Platform으로 데이터를 전송할 수 있습니다.
+Adobe 플랫폼 Edge Network 확장을 태그에 추가하여 (데이터스트림을 통해) 데이터를 Adobe Experience Platform으로 보낼 수 있습니다.
 
 Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
-1. 선택 **[!UICONTROL 확장]** 왼쪽 레일에서. Mobile Core 및 프로필 확장을 이미 사용할 수 있습니다.
+1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다. Mobile Core 및 프로필 확장을 이미 사용할 수 있습니다.
 
 1. 상단 막대에서 **[!UICONTROL 카탈로그]**&#x200B;를 선택합니다.
 
-1. 을(를) 검색하거나 다음으로 스크롤 **[!UICONTROL Adobe Experience Platform 에지 네트워크]** 확장 및 선택 **[!UICONTROL 설치]** 오른쪽 창에서 설치하십시오.
+1. **[!UICONTROL Adobe Experience Platform Edge Network]** 확장을 검색하거나 스크롤한 다음 오른쪽 창에서 **[!UICONTROL 설치]**&#x200B;를 선택하여 설치합니다.
 
 1. [!UICONTROL 프로덕션 환경], (선택 사항) [!UICONTROL 스테이징 환경] 및 [!UICONTROL 개발 환경]에 대해 샌드박스와 이전에 만든 데이터스트림을 선택합니다.
 
    ![AEP Mobile SDK 확장 구성](./assets/aepmobilesdk-extension-datastream.png)
 
-1. 다음을 입력하십시오. **[!UICONTROL 에지 네트워크 도메인]** 아래 [!UICONTROL 도메인 구성]. 일반적으로 `<organizationName>.data.adobedc.net`.
+1. [!UICONTROL Edge Network 구성] 아래에 **[!UICONTROL 도메인 도메인]**&#x200B;을(를) 입력하십시오. 일반적으로 `<organizationName>.data.adobedc.net`을(를) 사용합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-다음을 참조하십시오 [Adobe Experience Platform Edge Network 확장 구성](https://developer.adobe.com/client-sdks/documentation/edge-network) 추가 정보.
+자세한 내용은 [Adobe Experience Platform Edge Network 확장 구성](https://developer.adobe.com/client-sdks/documentation/edge-network)을 참조하십시오.
 
 또한 카탈로그에서 다음과 같은 추가 확장을 설정합니다.
 
@@ -285,7 +286,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 - AEP 보증.
 - 동의합니다.
 
-다음을 참조하십시오 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html) 확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 튜토리얼을 참조하십시오.
+확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 자습서에서 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)을 참조하십시오.
 
 #### **데이터 요소**
 
@@ -303,9 +304,9 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
    - 데이터 요소의 이름을 지정합니다(예: `Carrier Name`).
 
-   - 선택 **[!UICONTROL 모바일 코어]** 다음에서 [!UICONTROL 확장] 목록을 표시합니다.
+   - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-   - 선택 **[!UICONTROL 통신사 이름]** 다음에서 [!UICONTROL 데이터 요소 유형] 목록을 표시합니다.
+   - [!UICONTROL 데이터 요소 형식] 목록에서 **[!UICONTROL 통신사 이름]**&#x200B;을(를) 선택하십시오.
 
 
      ![페이지 정보를 사용하여 날짜 요소 만들기](./assets/create-dataelement-mobile.png)
@@ -335,25 +336,25 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 이벤트 구성] 대화 상자에서:
 
-      - 선택 **[!UICONTROL 모바일 코어]** 다음에서 [!UICONTROL 확장] 목록을 표시합니다.
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - 선택 **[!UICONTROL 전경]** 다음에서 [!UICONTROL 이벤트 유형] 목록을 표시합니다.
-
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
-
-   - 클릭 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 다음에 [!UICONTROL 모바일 코어 - 전경].
-
-      - 선택 **[!UICONTROL 모바일 코어]** 다음에서 [!UICONTROL 확장] 목록을 표시합니다.
-
-      - 선택 **[!UICONTROL 배경]** 다음에서 [!UICONTROL 이벤트 유형] 목록을 표시합니다.
+      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 전경]**&#x200B;을 선택합니다.
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
-   - 클릭 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 아래에 추가 [!UICONTROL 작업]. [!UICONTROL 액션 구성] 대화 상자에서:
+   - [!UICONTROL 모바일 코어 - 전경] 옆에 있는 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)를 클릭합니다.
 
-      - 선택 **[!UICONTROL Adobe Experience Platform 에지 네트워크]** 다음에서 [!UICONTROL 확장] 목록을 표시합니다.
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - 선택 **[!UICONTROL Edge Network로 이벤트 전달]** 다음에서 [!UICONTROL 작업 유형] 목록을 표시합니다.
+      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 배경]**&#x200B;을(를) 선택하십시오.
+
+      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+
+   - [!UICONTROL 작업] 아래에 ![더하기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
+
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택하십시오.
+
+      - [!UICONTROL 작업 유형] 목록에서 **[!UICONTROL Edge Network에 이벤트 전달]**&#x200B;을 선택합니다.
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
@@ -408,9 +409,9 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 1. 왼쪽 레일에서 **[!UICONTROL 환경]**&#x200B;을 선택합니다.
 
-2. 환경 목록에서 올바른 설치를 선택합니다 ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) 단추를 클릭합니다.
+2. 환경 목록에서 올바른 설치 ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) 단추를 선택합니다.
 
-   다음에서 [!UICONTROL 모바일 설치 지침] 대화 상자에서 적절한 플랫폼( )을 선택합니다.[!UICONTROL iOS], [!UICONTROL Android]). 그런 다음 복사본을 사용합니다. ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 모바일 앱을 설정하고 초기화하는 데 사용할 각 관련 코드 조각 옆에 있는 단추:
+   [!UICONTROL 모바일 설치 지침] 대화 상자에서 적절한 플랫폼([!UICONTROL iOS], [!UICONTROL Android])을 선택합니다. 그런 다음 모바일 앱을 설정하고 초기화하는 데 사용할 각 관련 코드 조각 옆에 있는 복사 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 단추를 사용합니다.
 
    ![환경](./assets/environment-mobile.png)
 
@@ -426,13 +427,13 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 구현의 유효성을 검사하고 필요한 경우 수정합니다. 수정되면 태그의 게시 워크플로 기능을 사용하여 스테이징 및 프로덕션 환경에 배포합니다.
 
-다음을 참조하십시오 [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR) 를 참조하십시오.
+자세한 내용은 [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)를 참조하십시오.
 
 ## 연결 설정
 
 Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용하려면 스키마, 데이터 세트 및 워크플로 설정에서 도출된 데이터를 포함하는 연결을 만듭니다.
 
-연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다.
+연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 Workspace의 데이터 세트 간에 연결을 설정해야 합니다.
 
 연결을 만드는 경우:
 
@@ -535,7 +536,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
    ![작업 영역 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 첫 번째 보고서를 만들려면 [!UICONTROL 자유 형식 테이블] 다음에서 [!UICONTROL 패널] . 예를 들어 을 드래그합니다. `Events` 지표로 및 `Push Title` 차원으로, 분류 `Event Type` 모바일 앱에 대한 푸시 알림과 푸시 알림에 발생한 사항에 대한 개요를 살펴봅니다.
+5. 첫 번째 보고서를 만들려면 [!UICONTROL 패널]의 [!UICONTROL 자유 형식 테이블]에서 차원 및 지표를 끌어서 놓습니다. 예를 들어 `Events`을(를) 지표로, `Push Title`을(를) 차원으로 `Event Type`(으)로 드래그하여 모바일 앱에 대한 푸시 알림과 푸시 알림에 발생한 문제에 대한 개요를 확인합니다.
 
    ![작업 영역 - 첫 번째 보고서](./assets/cja-projects-5-mobile.png)
 

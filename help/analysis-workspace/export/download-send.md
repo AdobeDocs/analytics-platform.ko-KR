@@ -15,7 +15,7 @@ ht-degree: 64%
 
 개인 워크스테이션에 Customer Journey Analytics 데이터를 다운로드할 수 있습니다. 복사한 데이터, CSV 또는 PDF 형식일 수 있습니다. 다운로드한 파일에 시각화를 포함하려는 경우 일반적으로 PDF이 선호됩니다. 단순히 일반 텍스트 데이터를 원하는 경우 CSV 및 복사한 데이터가 선호됩니다.
 
-에 설명된 대로 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md).
+[내보내기 개요](/help/analysis-workspace/export/export-project-overview.md)에 설명된 대로 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다.
 
 ## CSV 또는 PDF으로 다운로드 {#download-project}
 
@@ -27,7 +27,7 @@ ht-degree: 64%
    * PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되므로 다운로드를 내보내는 데 몇 분이 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
    * 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
    * PDF 렌더링에는 Workspace의 페이지에 있는 내용이 포함됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단의 버튼)되도록 변경해야 합니다.
-   * 임의 [하이퍼링크](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 자유 형식 테이블 내에 있는 은 다운로드한 PDF에서 작동하지 않습니다.
+   * 자유 형식 테이블 내에 있는 [하이퍼링크](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)는 다운로드한 PDF에서 작동하지 않습니다.
 
 프로젝트를 CSV 또는 PDF 파일로 다운로드하려면 다음 작업을 수행하십시오.
 
@@ -43,11 +43,11 @@ ht-degree: 64%
 
    ![CSV 다운로드 및 PDF 다운로드 옵션이 강조 표시된 프로젝트 드롭다운 메뉴.](assets/download-project.png)
 
-1. (조건부) PDF 다운로드를 선택한 경우 프로젝트를 다운로드할 준비가 되면 메시지가 표시됩니다. 선택 [!UICONTROL **다운로드**].
+1. (조건부) PDF 다운로드를 선택한 경우 프로젝트를 다운로드할 준비가 되면 메시지가 표시됩니다. [!UICONTROL **다운로드**]&#x200B;를 선택합니다.
 
 ## 클립보드에 복사 (핫키: Ctrl + C) {#copy-data}
 
-마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]** 작업 영역에서 Customer Journey Analytics 데이터를 빠르게 복사하여 서드파티 도구에 붙여넣을 수 있습니다.
+마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]**&#x200B;를 사용하면 Workspace에서 Customer Journey Analytics 데이터를 빠르게 복사하여 타사 도구에 붙여넣을 수 있습니다.
 
 * 표시된 테이블을 복사하려면 테이블 헤더를 마우스 오른쪽 버튼으로 클릭하고 **클립보드에 데이터 복사**&#x200B;를 선택합니다.
 * 데이터의 일부를 복사하려면 테이블에서 선택한 다음 > **클립보드에 데이터 복사**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
@@ -61,7 +61,7 @@ ht-degree: 64%
 
 ## CSV로 다운로드 {#download-data}
 
-마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 데이터를 CSV로 다운로드]** Customer Journey Analytics 데이터 테이블 또는 시각화의 데이터 소스를 CSV로 다운로드할 수 있습니다.
+마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 데이터를 CSV로 다운로드]**&#x200B;를 사용하면 Customer Journey Analytics 데이터 테이블 또는 시각화의 데이터 소스를 CSV로 다운로드할 수 있습니다.
 
 * 테이블 또는 시각화의 헤더에서 마우스 오른쪽 버튼을 클릭하고 **[!UICONTROL CSV로 데이터 다운로드]**&#x200B;를 선택합니다. 이렇게 하면 테이블에 표시된 Customer Journey Analytics 데이터 또는 시각화를 위한 기본 데이터 소스가 CSV로 다운로드됩니다.
 
@@ -72,7 +72,7 @@ ht-degree: 64%
 
 * 테이블 내에서 마우스 오른쪽 버튼을 클릭하고 **[!UICONTROL 선택 항목을 CSV로 다운로드]**&#x200B;를 선택합니다. 전체 표시된 테이블과는 대조적으로 이 옵션을 사용하면 선택 항목만 다운로드됩니다.
 
-![데이터를 CSV로 다운로드 옵션.](assets/download-data-viz.png)
+![데이터를 CSV로 다운로드 옵션](assets/download-data-viz.png)
 
 ## CSV로 항목 다운로드 {#download-items}
 
@@ -84,7 +84,7 @@ ht-degree: 64%
 
 프로젝트 내에서 멀티태스킹을 할 수 있으며 다운로드가 진행되는 동안 동일한 탭에서 새 Workspace 프로젝트로 이동할 수도 있습니다. 새 브라우저 탭을 열면 다운로드가 일시 중지됩니다. Workspace를 완전히 종료하거나 브라우저 탭을 닫으면 다운로드가 취소됩니다.
 
-![CSV로 항목 다운로드(페이지) 옵션.](assets/download-items.png)
+![CSV로 항목 다운로드(페이지) 옵션](assets/download-items.png)
 
 ### 다운로드한 항목 파일 {#items-file}
 
@@ -106,13 +106,13 @@ ht-degree: 64%
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 
-![완료율을 보여 주는 다운로드 상태 알림 및 다운로드 취소 링크.](assets/toast.png)
+![다운로드 완료 비율을 보여 주는 다운로드 상태 알림과 다운로드 취소 링크입니다.](assets/toast.png)
 
 ## 중요한 데이터 다운로드 {#sensitive}
 
-다음과 같은 경우 **[!UICONTROL 다운로드 시행]** [데이터 거버넌스 정책](/help/data-views/data-governance.md) 보고하는 데이터 보기에서 이 켜져 있으면 작업 영역 프로젝트의 다운로드(예: 이메일 전송 또는 PDF 파일 공유)가 중요한 레이블이 지정된 데이터 필드를 해시합니다. 작업 영역에서 이러한 필드를 분석할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 또는 .csv 파일에서 비어 있는 것으로 표시됩니다.
+보고하는 데이터 보기에서 **[!UICONTROL 다운로드 시행]** [데이터 거버넌스 정책](/help/data-views/data-governance.md)이 켜져 있으면 Workspace 프로젝트의 다운로드(예: 이메일 전송 또는 PDF 파일 공유)가 중요한 레이블이 지정된 데이터 필드를 해시합니다. 작업 영역에서 이러한 필드를 분석할 수 있지만, 이메일을 보내거나 프로젝트를 공유하려고 하면 차단된 필드가 .pdf 또는 .csv 파일에서 비어 있는 것으로 표시됩니다.
 
-중요한 레이블이 지정된 데이터 필드가 [!UICONTROL 데이터 보기]를 클릭하고 화면에서 데이터를 복사하는 옵션은 의 모든 데이터에 대해 제한됩니다. [!UICONTROL 데이터 보기].
+중요한 레이블이 지정된 데이터 필드가 [!UICONTROL 데이터 보기]에 포함된 경우 [!UICONTROL 데이터 보기]의 모든 데이터에 대해 화면에서 데이터를 선택하고 복사하는 옵션이 제한됩니다.
 
 ## FAQ {#faq}
 

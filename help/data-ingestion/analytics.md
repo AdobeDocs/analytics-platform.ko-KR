@@ -22,7 +22,7 @@ ht-degree: 81%
 >
 >- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
+>- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/launch/overview.html)
 >
 >- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
@@ -54,7 +54,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 3. Adobe Analytics 타일에서 **[!UICONTROL 설정]** 또는 **[!UICONTROL 데이터 추가]**&#x200B;를 선택합니다.
 
-   ![Adobe 애플리케이션 및 데이터 추가 와 함께 소스가 선택된 Adobe Experience Platform 창.](./assets/sources-overview.png)
+   ![Adobe 응용 프로그램과 함께 소스가 선택된 Adobe Experience Platform 창 및 강조 표시된 데이터 추가](./assets/sources-overview.png)
 
 4. **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다. 보고서 세트 목록에서 사용할 세트를 선택합니다.
 
@@ -70,13 +70,13 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 6. 데이터 흐름의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
 
-   ![데이터 흐름 세부 사항 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/dataflow-detail.png)
+   ![데이터 흐름 세부 정보 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/dataflow-detail.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 7. 연결을 검토하고 **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-   ![검토를 위해 연결 및 데이터 유형 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/review.png)
+   ![검토를 위해 연결 및 데이터 형식 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/review.png)
 
 
 연결이 만들어지면 데이터 흐름이 자동으로 만들어져 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다. 데이터 흐름은 프로덕션 샌드박스에 대해 최대 13개월의 내역 데이터를 수집합니다. 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.
@@ -90,7 +90,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용하려면 스키마, 데이터 세트 및 워크플로 설정에서 도출된 데이터를 포함하는 연결을 만듭니다.
 
-연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다.
+연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 Workspace의 데이터 세트 간에 연결을 설정해야 합니다.
 
 연결을 만드는 경우:
 
@@ -193,7 +193,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
    ![작업 영역 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 첫 번째 보고서를 만들려면 [!UICONTROL 자유 형식 테이블] 다음에서 [!UICONTROL 패널] . 예를 들어 `Program Points Balance` 및 `Page View`를 지표로 `email`을 차원으로 드래그하여 웹 사이트를 방문한 적이 있고, 로열티 포인트를 수집하는 로열티 프로그램의 일부인 프로필에 대한 간단한 개요를 살펴봅니다.
+5. 첫 번째 보고서를 만들려면 [!UICONTROL 패널]의 [!UICONTROL 자유 형식 테이블]에서 차원 및 지표를 끌어서 놓습니다. 예를 들어 `Program Points Balance` 및 `Page View`를 지표로 `email`을 차원으로 드래그하여 웹 사이트를 방문한 적이 있고, 로열티 포인트를 수집하는 로열티 프로그램의 일부인 프로필에 대한 간단한 개요를 살펴봅니다.
 
    ![작업 영역 - 첫 번째 보고서](./assets/cja-projects-5.png)
 

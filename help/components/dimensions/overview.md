@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # 차원 개요
 
-Dimension은 데이터를 분석하는 데 사용되는 Customer Journey Analytics의 구성 요소 유형입니다. 예를 들어에서 보고서를 작성할 때 차원을 사용합니다 [Analysis Workspace](/help/analysis-workspace/home.md) 또는 [Report Builder](/help/report-builder/report-buider-overview.md).
+Dimension은 데이터를 분석하는 데 사용되는 Customer Journey Analytics의 구성 요소 유형입니다. 예를 들어 [Analysis Workspace](/help/analysis-workspace/home.md) 또는 [Report Builder](/help/report-builder/report-buider-overview.md)에서 보고서를 작성할 때 차원을 사용합니다.
 
 Customer Journey Analytics 차원은 제한이 없습니다. 값은 숫자, 텍스트, 개체, 목록 또는 이들의 조합일 수 있습니다.
 
@@ -30,7 +30,7 @@ Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫
 
 ## 차원 만들기
 
-Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원 만들기](/help/data-views/create-dataview.md#components).
+Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원을 만들 수 있습니다](/help/data-views/create-dataview.md#components).
 
 ## 차원 설명 추가
 

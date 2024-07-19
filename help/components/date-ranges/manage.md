@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 인터페이스
 
-![예제 범위가 강조 표시된 날짜 범위.](../assets/date-range-ui.png)
+예제 범위가 강조 표시된 ![날짜 범위입니다.](../assets/date-range-ui.png)
 
 날짜 범위 관리자에는 다음과 같은 옵션이 포함됩니다.
 

@@ -28,11 +28,11 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![집단 테이블 아이콘](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
 | [도넛](/help/analysis-workspace/visualizations/donut.md) <p>![도넛 아이콘](assets/Smock_GraphDonut_18_N.svg)</p> | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
 | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![폴아웃 아이콘](assets/Smock_ConversionFunnel_18_N.svg)</p> | 폴아웃 보고서는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
-| [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![플로우 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
+| [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![흐름 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
 | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![자유 형식 테이블 아이콘](assets/Smock_ViewTable_18_N.svg)</p> | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [히스토그램](/help/analysis-workspace/visualizations/histogram.md)<p>![막대 그래프 아이콘](assets/Smock_GraphHistogram_18_N.svg)</p> | 히스토그램은 지표 볼륨을 기반으로 사용자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
 | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![가로 막대 아이콘](assets//Smock_GraphBarHorizontal_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
-| [라인](/help/analysis-workspace/visualizations/line.md)<p>![라인 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
+| [라인](/help/analysis-workspace/visualizations/line.md)<p>![줄 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) <p>![산포도 아이콘](assets/Smock_GraphScatter_18_N.svg)</p> | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 번호 아이콘](assets/summary-number-icon.png)</p> | 선택한 셀을 1개의 큰 숫자로 표시합니다. |
 | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 변경 아이콘](assets/summary-change-icon.png)</p> | 선택한 셀 사이의 변화를 1개의 큰 숫자/퍼센트로 표시합니다. |
@@ -46,19 +46,19 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 1. 시각화를 추가하려면 다음 방법 중 하나를 사용하십시오.
 
-   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->를 클릭한 다음 시각화를 추가하려는 패널로 시각화를 드래그합니다.
+   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->을(를) 선택한 다음 시각화를 추가할 패널로 드래그합니다.
 
      ![시각화 패널](assets/viz-rail.png)
 
-   * 시각화를 추가하려는 패널에서 **플러스** 아이콘을 클릭한 다음 추가하려는 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
+   * 시각화를 추가할 패널에서 **더하기** 아이콘을 선택한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
 
-     ![시각화 추가 버튼](assets/visualization-add-to-panel.png)
+     ![시각화 추가 단추](assets/visualization-add-to-panel.png)
 
-   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을(를) 만든 다음 추가할 시각화를 선택합니다.
+   * [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 추가한 다음 추가할 시각화를 선택하십시오.
 
      ![빈 패널](assets/blank_panel.png)
 
-   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 를 선택합니다 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**].
+   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**]&#x200B;를 선택합니다.
 
 ## 시각화 설정 맞춤화
 
@@ -80,7 +80,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 ## 설정 {#settings}
 
-각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 시각화 설정에 액세스하려면 설정 아이콘을 선택합니다 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg).
+각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 시각화 설정에 액세스하려면 설정 아이콘 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택하세요.
 
 <img src="./assets/viz-settings-line.png" alt="시각화 설정" width="50%" />
 
@@ -89,7 +89,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | 시각화 유형 | 데이터를 묘사하는 데 사용되는 시각 자료 유형을 변경합니다. |
 | 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 다음을 수행합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | 백분율 | 값을 백분율로 표시합니다. |
-| 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. 예: ![누적 100% 옵션 보기를 보여 주는 막대 차트입니다.](assets/stacked_100_percent.png) |
+| 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. 예: ![누적 100% 옵션 보기를 표시하는 막대 차트](assets/stacked_100_percent.png) |
 | 범례 표시 | 요약 번호/요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | 최대 항목 수 제한 | 시각화에 표시되는 항목 수를 제한할 수 있습니다. |
 | Y축 0에 연결 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
@@ -118,7 +118,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 시각화 헤더를 마우스 오른쪽 버튼으로 클릭하면 시각화를 위한 추가 기능을 사용할 수 있습니다. 설정은 시각화에 따라 다릅니다. 사용 가능한 일부 설정은 다음과 같습니다.
 
-![마우스 오른쪽 버튼 클릭 옵션이 표시된 추가 시각화 설정. 옵션은 다음 섹션에 설명되어 있습니다.](assets/right-click.png)
+![마우스 오른쪽 단추 클릭 옵션이 표시된 추가 시각화 설정입니다. 옵션은 다음 섹션에 설명되어 있습니다.](assets/right-click.png)
 
 | 설정 | 설명 |
 | --- | --- |

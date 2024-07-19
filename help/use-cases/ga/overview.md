@@ -21,11 +21,11 @@ Customer Journey Analytics를 처음 사용하는 경우 귀사는 Google Analyt
 
 내역(채우기) 데이터 수집에는 Google 데이터를 내보내고 해당 데이터를 Adobe Experience Platform으로 가져오는 작업이 포함됩니다. [Google Analytics 데이터를 Adobe Experience Platform으로 수집](backfill.md)을 참조하십시오.
 
-내역 데이터를 Platform으로 성공적으로 가져온 다음에는 다음 중 하나를 수행할 수 있습니다. [현재 데이터 스트리밍 구성](streaming.md)또는 다음 방법으로 Customer Journey Analytics의 채워진 데이터에 대한 보고를 즉시 시작합니다. [연결 만들기](/help/connections/create-connection.md).
+내역 데이터를 플랫폼으로 가져온 후에는 [현재 데이터 스트리밍을 구성](streaming.md)하거나 [연결을 만드는 중](/help/connections/create-connection.md)을 통해 Customer Journey Analytics에서 채워진 데이터에 대한 보고를 바로 시작할 수 있습니다.
 
 ## Adobe Experience Platform용 기존 Google Analytics 구현 구성 {#configure}
 
-현재(스트리밍) 데이터 수집에는 Adobe Experience Platform Edge Network로 데이터를 보낸 다음 해당 데이터를 Adobe Experience Platform으로 전달하는 작업이 포함됩니다. [Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 설정](streaming.md)을 참조하십시오.
+현재(스트리밍) 데이터 수집에는 Adobe Experience Platform Edge Network으로 데이터를 보낸 다음 해당 데이터를 Adobe Experience Platform으로 전달하는 작업이 포함됩니다. [Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 설정](streaming.md)을 참조하십시오.
 
 ## Customer Journey Analytics에서 연결 및 데이터 보기 구성
 

@@ -15,13 +15,13 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->곧 라인 시각화가 작동합니다. [지능형 캡션](/help/analysis-workspace/visualizations/intelligent-captions.md).
+>곧 선 시각화에 [지능형 캡션](/help/analysis-workspace/visualizations/intelligent-captions.md)이 포함됩니다.
 
 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
 
 ![라인 시각화](assets/line-viz.png)
 
-설정 아이콘 선택 ![설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 을 클릭하여 액세스할 수 있도록 선 시각화의 상단 막대 [시각화 설정](freeform-analysis-visualizations.md) 사용 가능. 설정은 다음과 같이 분류됩니다.
+사용 가능한 [시각화 설정](freeform-analysis-visualizations.md)에 액세스하려면 선 시각화의 상단 표시줄에서 설정 아이콘 ![설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택하십시오. 설정은 다음과 같이 분류됩니다.
 
 <img src="./assets/viz-settings-line.png" alt="시각화 설정" width="50%" />
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 
 **[!UICONTROL 시각화 설정]** > **[!UICONTROL 오버레이]** > **[!UICONTROL 최소/최대 표시]** 아래에서 최소값과 최대값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다. 참고: 최소/최대 값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다.
 
-![최소 및 최대 값 레이블이 있는 오버레이입니다.](assets/min-max-labels.png)
+![최소값 및 최대값 레이블이 있는 오버레이입니다.](assets/min-max-labels.png)
 
 ## 트렌드 오버레이 표시
 

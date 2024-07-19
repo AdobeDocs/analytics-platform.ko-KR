@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 [프로젝트 공유 워크플로](/help/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Customer Journey Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
 
-![보기 전용 공유 프로젝트.](assets/view-only-project.png)
+![보기 전용 공유 프로젝트입니다.](assets/view-only-project.png)
 
 ## 비활성화된 상호 작용
 

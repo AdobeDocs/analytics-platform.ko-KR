@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Customer Journey Analytics 사용량을 보려면 다음과 같은 몇 가지 방법을 사용할 수 있습니다.
 
-* 각 연결의 이벤트 데이터 행을 추가합니다. 다음을 참조하십시오 [연결 크기 예상](#estimate-connection-size) 아래요. 이는 연결당 특정 타임스탬프의 이벤트 행 데이터를 쉽게 확인하는 방법입니다.
+* 각 연결의 이벤트 데이터 행을 추가합니다. 아래의 [연결 크기 예상](#estimate-connection-size)을 참조하세요. 이는 연결당 특정 타임스탬프의 이벤트 행 데이터를 쉽게 확인하는 방법입니다.
 
 * 세 가지 방법으로 사용량을 확인합니다. 각 방법은 아래에 자세히 설명합니다.
    * Analysis Workspace를 사용하여 지난달 이벤트를 보고합니다.
@@ -42,7 +42,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
 1. 조직에서 생성한 모든 연결에 **[!UICONTROL 사용 가능한 이벤트 데이터 기록]**&#x200B;을 추가합니다. (연결 크기에 따라 숫자가 표시되는 데 다소 시간이 걸릴 수 있습니다.)
 
-   ![사용 가능한 이벤트 데이터 레코드.](./assets/event-data.png)
+   ![사용 가능한 이벤트 데이터 레코드](./assets/event-data.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
    * [데이터 보존 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=ko-KR#set-rolling-window-for-connection-data-retention)을 변경합니다.
    * [사용하지 않는 연결을 삭제합니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
-   * [Adobe Experience Platform에서 데이터 세트 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
+   * [Adobe Experience Platform에서 데이터 세트를 삭제](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components).
    * 추가 용량의 라이센스를 얻으려면 Adobe 계정 팀에 문의하십시오.
 
 ## 모든 이벤트 데이터를 사용하여 작업 영역 프로젝트 만들기 {#workspace-event-data}
@@ -69,7 +69,7 @@ Customer Journey Analytics 사용을 관리하려면:
 >
 >    사용량이 두 배가 될 수 있으므로 사용량을 측정하는 모든 데이터를 포함하는 새 연결은 만들지 않습니다.
 
-1. 작업 영역에서 각 데이터 보기에 따라 새 프로젝트를 만들고 (에서) 모든 이벤트를 가져옵니다. **[!UICONTROL 지표]** 드롭다운 목록)을 클릭하면 현재 Customer Journey Analytics 계약의 첫째 날부터 월의 첫째 금요일까지 표시됩니다.
+1. Workspace에서 각 데이터 보기를 기반으로 새 프로젝트를 만들고(**[!UICONTROL 지표]** 드롭다운 목록에서) 현재 Customer Journey Analytics 계약의 첫 날부터 시작하여 해당 월의 첫 금요일까지 이어지는 모든 이벤트를 가져옵니다.
 
    ![이벤트를 표시하는 자유 형식 테이블입니다.](./assets/events-usage.png)
 
@@ -83,7 +83,7 @@ Report Builder에서 각 데이터 보기에 대해 [하나의 데이터 블록�
 
 ## Customer Journey Analytics API에서 자동화된 보고서 만들기 {#api-report}
 
-1. 사용 [Customer Journey Analytics 보고 API](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) 모든 이벤트 데이터에 대해 보고서를 실행하려면 **모든 연결에 대해**. 이를 설정하면 보고서가 실행됨
+1. [Customer Journey Analytics 보고 API](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API)를 사용하여 모든 이벤트 데이터에 대해 보고서를 실행합니다. **모든 연결에 대해**. 이를 설정하면 보고서가 실행됨
 
    * 매월 첫째 주 금요일마다.
    * 현재 Customer Journey Analytics 계약의 첫 날로 돌아갑니다.
@@ -94,7 +94,7 @@ Report Builder에서 각 데이터 보기에 대해 [하나의 데이터 블록�
 
 ## 롤링 데이터 창을 정의하여 사용량 관리 {#rolling}
 
-사용을 관리하려면 [연결 UI](/help/connections/create-connection.md) Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
+사용을 관리하기 위해 [연결 UI](/help/connections/create-connection.md)를 통해 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 

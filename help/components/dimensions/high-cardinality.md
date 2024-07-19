@@ -18,7 +18,7 @@ ht-degree: 6%
 
 고유 값이 너무 많은 보고서를 요청하면 Analysis Workspace에는 일부 차원 항목이 포함되지 않았다는 표시기가 차원 헤더에 표시됩니다. 예를 들어 &quot;행: 22,343,156개 이상의 1-50&quot; &quot;보다 큼&quot; 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
 
-![22,343,156개 이상 중 1~50개를 표시하는 &quot;이상&quot; 키워드를 표시하는 Workspace의 자유 형식 테이블](assets/high-cardinality.png)
+![22,343,156 이상 중 1~50개를 표시하는 &quot;초과&quot; 키워드를 표시하는 Workspace의 자유 형식 테이블](assets/high-cardinality.png)
 
 ## 표시할 차원 항목 결정
 
@@ -34,9 +34,9 @@ Customer Journey Analytics은 보고서가 실행될 때 보고서를 처리하�
 
 높은 카디널리티 차원을 수용하는 가장 좋은 방법은 보고서가 처리하는 차원 항목의 수를 제한하는 것입니다. 모든 보고서는 요청된 시간에 처리되므로 즉각적인 결과를 위해 보고서 매개 변수를 조정할 수 있습니다. Adobe은 높은 카디널리티 차원에 대해 다음 최적화 중 하나를 권장합니다.
 
-* 사용 [필터](/help/components/filters/create-filters.md). 필터는 각 서버가 데이터의 하위 집합을 처리할 때 적용됩니다.
+* [필터](/help/components/filters/create-filters.md)를 사용합니다. 필터는 각 서버가 데이터의 하위 집합을 처리할 때 적용됩니다.
 * 검색을 사용합니다. 검색어에서 제외된 Dimension 항목은 보고서 결과에서 제거되므로 원하는 차원 항목을 볼 가능성이 높아집니다.
 * 조회 데이터 세트 차원을 사용합니다. 조회 데이터 세트 차원은 이벤트 데이터 세트 차원 항목을 결합하여 반환되는 고유 값의 수를 제한합니다.
-* 사용 [포함/제외](/help/data-views/component-settings/include-exclude-values.md) 데이터 보기 관리자의 구성 요소 설정.
-* 요청의 날짜 범위를 줄입니다. 시간이 지남에 따라 많은 고유 값이 누적되는 경우 작업 영역 보고서의 날짜 범위를 단축하면 처리할 서버의 고유 값 수가 제한될 수 있습니다.
-* 사용 고려 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 를 눌러 테이블의 모든 행을 반환합니다.
+* 데이터 보기 관리자의 [포함/제외](/help/data-views/component-settings/include-exclude-values.md) 구성 요소 설정을 사용하십시오.
+* 요청의 날짜 범위를 줄입니다. 시간이 지남에 따라 많은 고유 값이 누적되는 경우 Workspace 보고서의 날짜 범위를 줄이면 처리할 서버의 고유 값 수를 제한할 수 있습니다.
+* 테이블의 모든 행을 반환하려면 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 사용하는 것이 좋습니다.

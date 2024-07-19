@@ -25,7 +25,7 @@ Report Builder 설정을 변경하려면
 
 1. **적용**&#x200B;을 클릭합니다.
 
-   ![취소 및 적용 단추를 보여 주는 Report Builder 날짜 범위 창입니다.](./assets/image38.png)
+   ![Report Builder 날짜 범위 창에 취소 및 적용 단추가 표시됩니다.](./assets/image38.png)
 
 ## 오프라인 모드
 
@@ -51,7 +51,7 @@ Report Builder UI에서 사용되는 언어를 선택하려면
 
 1. **언어** 드롭다운 메뉴에서 언어를 선택합니다.
 
-   ![영어가 선택된 언어 목록을 표시하는 Report Builder 날짜 범위 창.](./assets/image39.png)
+   ![Report Builder 날짜 범위 창에 영어가 선택된 언어 목록이 표시됩니다.](./assets/image39.png)
 
 1. **적용을 클릭합니다.**
 

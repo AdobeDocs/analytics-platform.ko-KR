@@ -18,22 +18,22 @@ ht-degree: 61%
 
 ## 구현 절차
 
-![이 섹션에 설명된 구현 단계의 흐름입니다.](../assets/cca-architecture.png)
+![이 섹션에 설명된 대로 구현 단계의 흐름](../assets/cca-architecture.png)
 
 1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
 1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html).
 1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
-   1. 이벤트 기반 데이터 ![이벤트](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) Edge Network 또는 Analytics 소스 커넥터를 통해 웹 사이트 또는 모바일 앱에서
-   2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (예: CRM 시스템, 콜 센터 애플리케이션, 충성도 애플리케이션).
-   3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (예: 제품 이름, 제품 정보 시스템의 카테고리).
+   1. Edge Network 또는 Analytics 소스 커넥터를 통해 웹 사이트 또는 모바일 앱의 이벤트 기반 데이터 ![event](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg).
+   2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg)(예: CRM 시스템, 콜 센터 애플리케이션, 로열티 애플리케이션).
+   3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)(예: 제품 이름, 제품 정보 시스템의 범주).
 
-1. 데이터 세트 간에 공통 네임스페이스 ID를 사용합니다. 사용 [결합](../../stitching/overview.md) 이벤트 기반 데이터 세트를 향상시키려면 ![데이터 새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 각 행에 공통 ID 제공과 관련하여. Customer Journey Analytics에서 현재 Experience Platform Profile 또는 결합용 ID 서비스를 사용하지 않습니다.
+1. 데이터 세트 간에 공통 네임스페이스 ID를 사용합니다. [결합](../../stitching/overview.md)을 사용하여 각 행에 공통 ID를 제공하는 것과 관련하여 모든 이벤트 기반 데이터 세트 ![데이터 새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)을 높이십시오. Customer Journey Analytics에서 현재 Experience Platform Profile 또는 결합용 ID 서비스를 사용하지 않습니다.
 1. 사용자 지정 데이터 준비를 수행하여 시계열 데이터 세트에서 Customer Journey Analytics에 수집할 공통 키를 확보할 수 있습니다.
 1. 조회 데이터에는 이벤트 데이트의 필드에 연결할 수 있는 기본 ID를 제공합니다. 라이선스 할당 시 행으로 간주됩니다.
 1. 프로필 데이터에 대한 동일한 기본 ID를 이벤트 데이터의 기본 ID로 설정합니다.
-1. [연결 만들기](../../connections/overview.md) 을 사용하여 Experience Platform에서 Customer Journey Analytics으로 관련 데이터 세트를 수집할 수 있습니다.
+1. Experience Platform에서 Customer Journey Analytics으로 관련 데이터 세트를 수집하려면 [연결을 만듭니다](../../connections/overview.md).
 1. 연결을 기반으로 [데이터 보기를 만들어](/help/data-views/create-dataview.md) 보기에 포함되는 특정 차원 및 지표를 선택할 수 있습니다. 데이터 보기에 속성 및 할당 설정을 구성하기도 합니다. 보고서 시간에 이러한 설정을 계산합니다.
-1. [프로젝트 만들기](/help/analysis-workspace/home.md) Analysis Workspace 내에서 대시보드 및 보고서를 구성합니다.
+1. Analysis Workspace 내에서 대시보드 및 보고서를 구성하려면 [프로젝트를 만듭니다](/help/analysis-workspace/home.md).
 
 ## 고려 사항
 

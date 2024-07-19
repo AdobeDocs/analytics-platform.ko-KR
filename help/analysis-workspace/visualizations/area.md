@@ -27,4 +27,4 @@ ht-degree: 75%
 
 스택 영역 시각화에 대한 새로운 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
-![100% 스택 시각화를 보여주는 스택 영역.](assets/areastacked100.png)
+![100% 누적 시각화를 보여 주는 스택 영역입니다.](assets/areastacked100.png)

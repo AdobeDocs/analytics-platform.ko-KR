@@ -14,4 +14,4 @@ ht-degree: 29%
 
 다른 유형의 구성 요소를 찾는 것과 같은 방식으로 Analysis Workspace에서 지표를 찾을 수 있습니다.
 
-구성 요소를 빠르게 찾는 방법에 대한 자세한 내용은 [구성 요소 목록 검색, 필터링 및 정렬](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/overview.html#search%2C-filter%2C-and-sort-the-component-list) 위치: [구성 요소 개요](/help/components/overview.md).
+구성 요소를 빠르게 찾는 방법에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md)에서 [구성 요소 목록 검색, 필터링 및 정렬](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/overview.html#search%2C-filter%2C-and-sort-the-component-list)을 참조하세요.

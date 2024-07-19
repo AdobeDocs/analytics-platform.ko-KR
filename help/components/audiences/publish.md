@@ -13,9 +13,9 @@ ht-degree: 56%
 
 # 대상자 생성 및 게시
 
-이 항목에서는 Customer Journey Analytics에서 식별된 대상자를 만들고 게시하는 방법을 설명합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR) 고객 타겟팅 및 개인화를 위한 Adobe Experience Platform에서.
+이 항목에서는 고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 식별된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)을(를) 만들어 게시하는 방법에 대해 설명합니다.
 
-이 항목 읽기 [개요](/help/components/audiences/audiences-overview.md) Customer Journey Analytics 대상의 개념을 숙지하십시오.
+이 [개요](/help/components/audiences/audiences-overview.md)를 읽고 Customer Journey Analytics 대상의 개념을 숙지하십시오.
 
 ## 대상자 만들기 {#create}
 
@@ -53,7 +53,7 @@ ht-degree: 56%
 
    대상자 미리보기가 오른쪽 레일에 표시됩니다. 이를 통해 사용자가 만든 대상자를 요약 분석할 수 있습니다.
 
-   ![대상자에 대한 요약 분석을 보여주는 데이터 미리보기 스크린샷입니다.](assets/data-preview.png)
+   대상자에 대한 요약 분석을 보여 주는 데이터 미리 보기의 ![스크린샷입니다.](assets/data-preview.png)
 
    | 미리보기 설정 | 설명 |
    | --- | --- |
@@ -64,7 +64,7 @@ ht-degree: 56%
    | [!UICONTROL 예상 반환] | 이 숫자는 드롭다운 목록에서 선택한 시간대 동안 돌아오는 예상 고객 수를 알려 줍니다. 이 숫자를 예측하기 위해 이 대상자의 과거 이탈률을 살펴봅니다. |
    | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 평균 사이트에서 보낸 시간]&#39;과 같이 특정 지표를 보고 이 지표에 불균형적인 양을 기여하는지 확인할 수 있습니다. 지표의 집계 카운트와 지표가 나타내는 총계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
    | [!UICONTROL 네임스페이스 포함됨] | 대상자의 인원과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
-   | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
+   | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
 
    {style="table-layout:auto"}
 
@@ -86,14 +86,14 @@ ht-degree: 56%
 
 대상자 게시 전, 게시 중 및 게시 후 여러 지점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
 
-![이 섹션에 설명된 대로 대상 게시의 대기 시간입니다.](/help/components/audiences/assets/latency-diagram.png)
+![이 섹션에 설명된 대로 대상자 게시의 대기 시간입니다.](/help/components/audiences/assets/latency-diagram.png)
 
 | # | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
 | 표시되지 않음 | Adobe Analytics-Analytics 소스 커넥터 (A4T) | 최대 30분 |
 | 1 | Analytics 소스 커넥터 또는 기타 소스에서 데이터 레이크로 데이터 수집 | 최대 90분 |
 | 2 | Experience Platform 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 최대 90분 |
-| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다.<p>**참고**: 대상자는 1~2분 내에 Experience Platform에서 생성/정의됩니다. 하지만 일치하는 기준을 기반으로 하여 대상자가 ID를 받기 시작하고 활성화할 준비가 되기까지 약 60분이 소요됩니다. | 약 60분 |
+| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다.<p>**참고**: 대상자가 1~2분 내에 Experience Platform에서 생성/정의됩니다. 하지만 일치하는 기준을 기반으로 하여 대상자가 ID를 받기 시작하고 활성화할 준비가 되기까지 약 60분이 소요됩니다. | 약 60분 |
 | 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | Adobe Experience Platform에서 대상 만들기: 새 세그먼트 활성화 | 1~2시간 |
 
@@ -101,11 +101,11 @@ ht-degree: 56%
 
 ## Experience Platform에서 Customer Journey Analytics 대상 사용 {#audiences-aep}
 
-Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 로 선택된 내용에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다. [!UICONTROL 개인 ID] 연결이 구성된 경우.
+Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 연결이 구성될 때 [!UICONTROL 개인 ID](으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
 
-그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어, <user@adobe.com> 는 모든 디바이스와 채널에서 타겟팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
+그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
-로 이동하여 플랫폼에서 Customer Journey Analytics 대상을 볼 수 있습니다. **[!UICONTROL 세그먼트]** > **[!UICONTROL 세그먼트 만들기]** > **[!UICONTROL 대상]** 탭 > **[!UICONTROL CJA 대상]**.
+**[!UICONTROL 세그먼트]** > **[!UICONTROL Customer Journey Analytics 만들기]** > **[!UICONTROL 대상자]** 탭 > **[!UICONTROL CJA 대상자]**&#x200B;로 이동하여 플랫폼에서 세그먼트 대상자를 볼 수 있습니다.
 
 Customer Journey Analytics 대상을 Adobe Experience Platform 세그먼트에 대한 세그먼트 정의로 드래그할 수 있습니다.
 
@@ -115,13 +115,13 @@ Customer Journey Analytics 대상을 Adobe Experience Platform 세그먼트에 �
 
 대상자 게시에 대해 자주 묻는 질문.
 
-+++**사용자가 더 이상 Customer Journey Analytics 대상의 멤버가 아닌 경우 어떻게 됩니까?**
++++**사용자가 더 이상 Customer Journey Analytics 대상의 구성원이 아니면 어떻게 됩니까?**
 
 이 경우 종료 이벤트가 Customer Journey Analytics의 Experience Platform으로 전송됩니다.
 
 +++
 
-+++**Customer Journey Analytics에서 대상을 삭제하면 어떻게 됩니까?**
++++**Customer Journey Analytics에서 대상자를 삭제하면 어떻게 됩니까?**
 
 Customer Journey Analytics 대상자가 삭제되면 해당 대상자는 더 이상 Experience Platform UI에 표시되지 않습니다. 단, 해당 대상자와 관련된 프로필은 실제로 플랫폼에서 삭제되지 않습니다.
 
@@ -133,15 +133,15 @@ Customer Journey Analytics 대상자가 삭제되면 해당 대상자는 더 이
 
 +++
 
-+++**Customer Journey Analytics은 대상 데이터를 파이프라인 이벤트로 전송합니까? 또는 데이터 레이크로도 이동하는 플랫 파일로 전송합니까?**
++++**Customer Journey Analytics이 대상 데이터를 파이프라인 이벤트나 데이터 레이크로 이동하는 플랫 파일로 전송합니까?**
 
 Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스트리밍하고, 이 데이터는 데이터 레이크의 시스템 데이터 세트에도 수집됩니다.
 
 +++
 
-+++**Customer Journey Analytics은 어떤 ID를 전송합니까?**
++++**Customer Journey Analytics이 어떤 ID를 전송합니까?**
 
-에 지정된 ID/네임스페이스 쌍 [연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
+[연결 설정](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)에 지정된 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
 
 +++
 
@@ -151,13 +151,13 @@ Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스
 
 +++
 
-+++**RTCP는 Customer Journey Analytics 메시지도 처리합니까? Customer Journey Analytics이 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?**
++++**RTCP가 Customer Journey Analytics 메시지도 처리합니까? Customer Journey Analytics이 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?**
 
 아니요. “개인”당 한 개의 ID만 전송하므로 RTCP가 사용할 그래프 에지가 없습니다.
 
 +++
 
-+++**일별, 주별 및 월별 새로 고침은 언제 발생합니까? 주별 새로 고침은 어떤 요일에 발생합니까?**
++++**일별, 주별, 월별 새로 고침은 언제 수행됩니까? 주별 새로 고침은 어떤 요일에 수행됩니까?**
 
 새로 고침 시점은 원래 대상이 게시된 시점을 기준으로 하며 해당 시간(및 요일 또는 월)에 앵커합니다.
 

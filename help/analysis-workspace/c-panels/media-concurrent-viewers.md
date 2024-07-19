@@ -41,7 +41,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 
 ### 시리즈 분류 보기
 
-![10개 차원, 세그먼트 또는 날짜 범위 중 7개를 표시하는 미디어 동시 뷰어 시리즈 분류 보기.](assets/concurrent-viewers-series-breakdown.png)
+![10개 차원, 세그먼트 또는 날짜 범위 중 7개를 표시하는 미디어 동시 뷰어 시리즈 분류 보기입니다.](assets/concurrent-viewers-series-breakdown.png)
 
 ## 패널 출력 {#Output}
 
@@ -51,7 +51,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 
 시리즈 분류를 선택한 경우 꺾은선형 차트에 선과 요약 번호가 각각 표시됩니다.
 
-![미디어 Concurrent Viewer 출력](assets/concurrent-viewers-output.png)
+![미디어 동시 뷰어 출력입니다.](assets/concurrent-viewers-output.png)
 
 ### 데이터 소스
 
@@ -64,7 +64,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 이 보기에서는 자유 형식 테이블을 사용할 수 없습니다.  데이터 소스를 보려면 꺾은선형 차트를 마우스 오른쪽 버튼으로 클릭하고 .csv 파일로 다운로드할 수 있습니다.  시리즈 분류가 포함됩니다.
 
 
-![&quot;데이터를 CSV로 다운로드&quot;가 강조 표시된 동시 뷰어 출력 옵션입니다.](assets/concurrent-viewers-download-csv.png)
+![&quot;CSV로 데이터 다운로드&quot;가 강조 표시된 Concurrent Viewer 출력 옵션입니다.](assets/concurrent-viewers-download-csv.png)
 
 ## FAQ {#FAQ}
 

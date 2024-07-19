@@ -31,7 +31,7 @@ ht-degree: 81%
 
 1. [!UICONTROL 작업 영역 ] 및 [!UICONTROL Labs]에 대한 액세스 권한이 없는 경우 관리자에게 권한을 요청하십시오.
 
-1. Customer Journey Analytics에서 **[!UICONTROL Lab]** 탭.
+1. Customer Journey Analytics에서 **[!UICONTROL Labs]** 탭을 클릭합니다.
 
 ## 프로토타입 평가
 

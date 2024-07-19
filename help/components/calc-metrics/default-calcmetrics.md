@@ -7,7 +7,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -17,10 +17,10 @@ Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위
 
 | 계산된 지표 이름 | 설명 | 공식 |
 |---------|----------|---------|
-| 세션 시작 비율 | 세션의 첫 번째 이벤트에서 차원 항목이 발생한 비율입니다.<p>이 계산된 지표는 를 포함할 때 작업 영역에 자동으로 추가됩니다. `[Session Starts]` [표준 구성 요소](/help/data-views/component-reference.md) (으)로 [데이터 보기](/help/data-views/create-dataview.md).</p> | `[Session Starts] / [Sessions]` |
-| 사용자당 소비한 시간 | 주어진 차원 항목에서 한 사용자가 소비한 평균 시간입니다.<p>이 계산된 지표는 를 포함할 때 작업 영역에 자동으로 추가됩니다. `[Time Spent (seconds)]` [표준 구성 요소](/help/data-views/component-reference.md) (으)로 [데이터 보기](/help/data-views/create-dataview.md).</p> | `[Time Spent (seconds)] / [Users]` |
+| 세션 시작 비율 | 세션의 첫 번째 이벤트에서 차원 항목이 발생한 비율입니다.<p>이 계산된 지표는 [데이터 보기](/help/data-views/create-dataview.md)에 `[Session Starts]` [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 Workspace에 자동으로 추가됩니다.</p> | `[Session Starts] / [Sessions]` |
+| 사용자당 소비한 시간 | 주어진 차원 항목에서 한 사용자가 소비한 평균 시간입니다.<p>이 계산된 지표는 [데이터 보기](/help/data-views/create-dataview.md)에 `[Time Spent (seconds)]` [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 Workspace에 자동으로 추가됩니다.</p> | `[Time Spent (seconds)] / [Users]` |
 | 사용자당 세션 수 | 사용자당 평균 세션 수입니다. | `[Sessions] / [Users]` |
-| 세션당 소비한 시간 | 주어진 차원 항목에서 세션당 한 사용자가 소비한 평균 시간입니다.<p>이 계산된 지표는 를 포함할 때 작업 영역에 자동으로 추가됩니다. `[Time Spent (seconds)]` [표준 구성 요소](/help/data-views/component-reference.md) (으)로 [데이터 보기](/help/data-views/create-dataview.md).</p> | `[Time Spent (seconds)] / [Sessions]` |
-| 세션 종료 비율 | 세션의 마지막 이벤트에서 차원 항목이 발생한 비율입니다. <p>이 계산된 지표는 를 포함할 때 작업 영역에 자동으로 추가됩니다. `[Session Ends]` [표준 구성 요소](/help/data-views/component-reference.md) (으)로 [데이터 보기](/help/data-views/create-dataview.md).</p> | `[Session Ends] / [Sessions]` |
+| 세션당 소비한 시간 | 주어진 차원 항목에서 세션당 한 사용자가 소비한 평균 시간입니다.<p>이 계산된 지표는 [데이터 보기](/help/data-views/create-dataview.md)에 `[Time Spent (seconds)]` [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 Workspace에 자동으로 추가됩니다.</p> | `[Time Spent (seconds)] / [Sessions]` |
+| 세션 종료 비율 | 세션의 마지막 이벤트에서 차원 항목이 발생한 비율입니다. <p>이 계산된 지표는 [데이터 보기](/help/data-views/create-dataview.md)에 `[Session Ends]` [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 Workspace에 자동으로 추가됩니다.</p> | `[Session Ends] / [Sessions]` |
 
 {style="table-layout:auto"}

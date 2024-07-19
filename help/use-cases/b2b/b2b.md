@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ## 1. 조회 스키마 만들기 (Experience Platform)
 
-에 대한 자체 스키마 만들기 [조회](/help/technotes/glossary.md) 표는 사용된 데이터 세트를 올바른 설정(레코드 유형)을 사용하여 Customer Journey Analytics에서 사용할 수 있도록 합니다. 모범 사례는 “조회”라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
+[조회](/help/technotes/glossary.md) 테이블에 대한 자체 스키마를 만들면 사용되는 데이터 세트를 올바른 설정(레코드 유형)을 사용하여 Customer Journey Analytics에서 사용할 수 있도록 합니다. 모범 사례는 “조회”라고 하는 [사용자 정의 스키마 클래스 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR#create-new-class)이며 모든 조회 테이블에 다시 사용할 수 있는 요소가 비어 있습니다.
 
 ![새 클래스 만들기 대화 상자](../assets/create-new-class.png)
 
@@ -63,8 +63,8 @@ ht-degree: 73%
 | 데이터 세트 이름 | 설명 | Adobe Experience Platform 스키마 클래스 | 데이터 세트 세부 정보 |
 | --- | --- | --- | --- |
 | B2B 노출 | 계정 수준에서 클릭스트림, 이벤트 수준 데이터를 포함합니다. 예를 들어 마케팅 광고를 실행하기 위한 이메일 ID 및 해당 계정 ID와 마케팅 이름이 포함되어 있습니다. 또한 사용자당 해당 광고에 대한 노출 횟수도 포함됩니다. | XDM ExperienceEvent 스키마 클래스 기반 | `emailID`는 기본 ID로 사용되고 `Customer ID` 네임스페이스가 할당됩니다. 그 결과 Customer Journey Analytics에서 기본값 **[!UICONTROL 개인 ID]**&#x200B;로 표시됩니다. ![노출 횟수](../assets/impressions-mixins.png) |
-| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려 줍니다. | XDM 개별 프로필 스키마 클래스 기반 | 선택 `emailID` 를 이 스키마의 기본 ID로 사용하십시오. |
-| B2B 정보 | 위의 &quot;조회 데이터 세트 만들기&quot;를 참조하십시오. | B2BAccount (사용자 정의 조회 스키마 클래스) | 다음 사이의 관계 `accountID` 및 B2B 노출 데이터 세트는 아래 단계에 설명된 대로 Customer Journey Analytics의 B2B 노출 데이터 세트와 B2B 정보 데이터 세트를 연결하여 자동으로 생성됩니다. ![조회](../assets/lookup-mixins.png) |
+| B2B 프로필 | 이 프로필 데이터 세트는 자신의 직책, 해당 계정이 속한 계정, LinkedIn 프로필 등과 같은 계정의 사용자에 대해 자세히 알려 줍니다. | XDM 개별 프로필 스키마 클래스 기반 | `emailID`을(를) 이 스키마의 기본 ID로 선택합니다. |
+| B2B 정보 | 위의 &quot;조회 데이터 세트 만들기&quot;를 참조하십시오. | B2BAccount (사용자 정의 조회 스키마 클래스) | 아래 단계에 설명된 대로 B2B 정보 데이터 세트와 Customer Journey Analytics의 B2B 노출 데이터 세트를 연결하여 `accountID`과(와) B2B 노출 데이터 세트 간의 관계를 자동으로 만들었습니다. ![조회](../assets/lookup-mixins.png) |
 
 데이터 세트를 결합하는 방법은 다음과 같습니다.
 

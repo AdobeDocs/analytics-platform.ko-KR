@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # 고객 관리 키
 
-Adobe Customer Journey Analytics은 다음 옵션을 제공합니다. [헬스케어 실드](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객은 Azure CMK(Customer Managed Key)를 활용하여 Customer Journey Analytics 데이터에 적용할 수 있습니다.  이 프로세스는 [Adobe Experience Platform CMK 설정](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ko-KR)과 별개라는 점을 참고하십시오.
+Adobe Customer Journey Analytics은 [Healthcare Shield](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객이 Azure CMK(Customer Managed Key)를 활용하여 Customer Journey Analytics 데이터에 적용할 수 있는 옵션을 제공합니다.  이 프로세스는 [Adobe Experience Platform CMK 설정](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ko-KR)과 별개라는 점을 참고하십시오.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Customer Journey Analytics을 위해 CMK를 설정하려면 다음 단계를 따
 1. Key Vault의 키에 대한 액세스 권한을 Adobe Azure 앱에 부여합니다. Adobe 애플리케이션 ID: 251e3919-1940-4296-bb8b-6b9a5e8a4805. [Microsoft에서 자세히 알아보기](https://learn.microsoft.com/ko-kr/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
 1. CMK 설정을 요청하는 Adobe 고객 지원 티켓을 생성합니다. 티켓에 Azure URI를 포함하십시오. URI는 Azure 키의 **키 식별자** 필드에서 찾을 수 있습니다.
 
-   ![https://cmkoberontest.vault.azure.net에 대한 URI를 보여주는 키 식별자 필드](assets/key-identifier.png)
+   ![https://cmkoberontest.vault.azure.net에 대한 URI를 표시하는 키 식별자 필드](assets/key-identifier.png)
 
 1. Adobe 고객 지원 센터에서 해당 Customer Journey Analytics 데이터에 대한 CMK 신청이 완료되었음을 확인합니다.
 

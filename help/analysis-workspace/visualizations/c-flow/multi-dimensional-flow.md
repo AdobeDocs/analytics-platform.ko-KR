@@ -17,7 +17,7 @@ ht-degree: 73%
 
 각 흐름 열의 맨 위에 있는 차원 레이블은 흐름 시각화에서 여러 차원을 더 직관적으로 사용합니다.
 
-![제품, 페이지, OS 버전 및 체류 시간을 포함하여 여러 차원을 강조 표시하는 차원 간 흐름.](assets/flow.png)
+![제품, 페이지, OS 버전 및 체류 시간을 포함하여 여러 차원을 강조 표시하는 차원 간 흐름입니다.](assets/flow.png)
 
 앱 사용 사례와 웹 사용 사례, 이렇게 두 가지 사용 사례를 살펴보겠습니다.
 
@@ -25,29 +25,29 @@ ht-degree: 73%
 
 맨 위의 반환되는 항목이 [!UICONTROL ItemAdded]인 [!UICONTROL 동작 이름] 차원이 흐름에 추가되었습니다.
 
-![추가된 항목을 보여 주는 흐름.](assets/multi-dimensional-flow.png)
+![항목을 표시하는 흐름이 추가되었습니다.](assets/multi-dimensional-flow.png)
 
 이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다.
 
-* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
+* 드롭 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
 
-  ![여러 영역으로 드래그한 페이지 차원을 표시하는 플로우.](assets/multi-dimensional-flow2.png) ![드래그한 항목을 보여 주는 흐름 다이어그램입니다.](assets/multi-dimensional-flow3.png)
+  ![여러 영역으로 끌어서 놓은 페이지 차원을 표시하는 흐름.](assets/multi-dimensional-flow2.png) ![끌어온 항목을 보여 주는 흐름 다이어그램입니다.](assets/multi-dimensional-flow3.png)
 
 * 끝에 있는 공백 (검은색 대괄호 참조)으로 드래그하여 시각화에 **추가**&#x200B;합니다.
 
-  ![끝에 있는 공백으로 드래그한 페이지 차원을 보여 주는 흐름입니다.](assets/multi-dimensional-flow4.png)
+  ![끝에 공백으로 끌어서 놓은 페이지 차원을 표시하는 흐름입니다.](assets/multi-dimensional-flow4.png)
 
 다음은 오른쪽 열의 ItemScaled 항목을 페이지 차원으로 바꾸도록 선택하는 경우의 결과입니다. 이제 맨 위의 결과가 페이지 차원에 대한 맨 위 결과로 변경됩니다.
 
-![목록 상단의 페이지 차원 결과를 표시하는 낮음.](assets/multi-dimensional-flow5.png)
+![목록의 맨 위에 페이지 차원 결과를 표시하는 낮음](assets/multi-dimensional-flow5.png)
 
 이제 고객이 동작과 페이지 간을 어떻게 이동하는지 볼 수 있습니다. 다른 노드를 클릭하여 흐름을 더 탐색할 수 있습니다.
 
-![추가된 항목, 드래그한 항목 및 기본 보기를 표시하는 플로우.](assets/multi-dimensional-flow6.png)
+![추가된 항목, 끌어서 놓은 항목 및 기본 보기를 표시하는 흐름입니다.](assets/multi-dimensional-flow6.png)
 
 다른 동작 이름 차원을 시각화의 끝에 추가하는 경우 다음의 결과가 나옵니다.
 
-![작업 이름을 보여주는 흐름이 추가되었습니다.](assets/multi-dimensional-flow7.png)
+![작업 이름을 표시하는 흐름이 추가되었습니다.](assets/multi-dimensional-flow7.png)
 
 이렇게 되면 분석 중인 앱에 대해 깊이 있게 이해하고 변경이 가능해집니다.
 
@@ -57,8 +57,8 @@ ht-degree: 73%
 
 캠페인 이름 차원을 새 흐름에 드래그합니다.
 
-![새 플로우로 드래그한 캠페인 이름 차원을 표시하는 플로우.](assets/multi-dimensional-flow8.png)
+![새 흐름으로 끌어온 캠페인 이름 차원을 보여 주는 흐름입니다.](assets/multi-dimensional-flow8.png)
 
 이제 해당 캠페인이 트래픽을 유도하는 페이지를 확인하려 하므로, 페이지 차원을 시각화에 추가할 흐름 결과의 오른쪽으로 드래그합니다.
 
-![흐름 결과의 오른쪽으로 드래그된 페이지 차원을 표시하는 흐름.](assets/multi-dimensional-flow9.png)
+![흐름 결과의 오른쪽으로 끌어서 놓은 페이지 차원을 표시하는 흐름.](assets/multi-dimensional-flow9.png)

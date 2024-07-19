@@ -9,7 +9,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -19,29 +19,29 @@ ht-degree: 57%
 
 프로젝트에 적용된 모든 태그는 내보내기에 자동으로 적용됩니다.
 
-에 설명된 대로 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md).
+[내보내기 개요](/help/analysis-workspace/export/export-project-overview.md)에 설명된 대로 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다.
 
 ## 지금 파일 보내기 {#now}
 
 전자 메일로 수신자에게 파일을 즉시 보내려면 다음과 같이 하십시오.
 
-1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**.
-1. 파일 형식 지정:
+1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**&#x200B;를 클릭합니다.
+1. 파일 유형을 지정합니다.
    * [!UICONTROL **CSV**]: 일반 텍스트 데이터를 원하는 경우 이 옵션을 선택합니다.
-   * [!UICONTROL **PDF**]: 다운로드한 파일에 프로젝트에 표시된 (볼 수 있는) 모든 테이블 및 시각화를 포함하려면 이 옵션을 선택합니다.
+   * [!UICONTROL **PDF**]: 다운로드한 파일에 프로젝트에 표시된(표시되는) 테이블과 시각화가 모두 포함되도록 하려면 이 옵션을 선택합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. (Healthcare Shield 고객만 해당) 암호를 입력합니다. 암호로 예약된 보고서 보호 섹션을 참조하십시오.
 1. (선택 사항) 게재 일정을 지정하려면 **[!UICONTROL 예약 옵션 표시]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 지금 보내기]**&#x200B;를 클릭합니다.
 
-![[파일 보내기] 창 및 [지금 보내기] 단추](assets/send-file-no-scheduling-options.JPG)
+![파일 보내기 창 및 지금 보내기 단추입니다.](assets/send-file-no-scheduling-options.JPG)
 
 ## 일정에 따라 파일 보내기 {#schedule}
 
 되풀이하는 일정으로 수신자에게 파일을 이메일로 보내려면:
 
-1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**.
+1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**&#x200B;을 클릭합니다.
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
@@ -50,7 +50,7 @@ ht-degree: 57%
 1. 게재 빈도를 지정합니다. 각 빈도에서는 다양한 맞춤화를 사용할 수 있습니다.
 1. **[!UICONTROL 일정에 따라 보내기]**&#x200B;를 클릭합니다.
 
-![[파일 보내기] 창 및 [예약] 옵션을 표시하여 [시작 날짜], [종료 날짜] 및 [일별 빈도] 설정을 표시합니다.](assets/send-file.JPG)
+![파일 보내기 창 및 예약 옵션을 표시하여 시작 날짜, 종료 날짜 및 일별 빈도 설정을 표시합니다.](assets/send-file.JPG)
 
 ## 예약된 프로젝트 관리자 {#manager}
 
@@ -73,7 +73,7 @@ ht-degree: 57%
 
 다음은 예약된 프로젝트 관리자의 일반적인 작업입니다.
 
-| 작업 | 설명 |
+| 액션 | 설명 |
 |---|---|
 | **[!UICONTROL 예약 편집]** | 예약 제목을 클릭하여 게재 설정을 업데이트합니다. |
 | **[!UICONTROL 예약 삭제]** | 목록에서 예약된 프로젝트를 선택한 다음, 메뉴에서 삭제를 클릭합니다. 선택한 프로젝트 예약이 삭제됩니다. 프로젝트 자체는 삭제되지 않습니다. |
@@ -83,13 +83,13 @@ ht-degree: 57%
 | **[!UICONTROL 예약 ID 보기]** | 오른쪽 상단의 열 옵션으로 이동하고 예약 ID 열을 테이블에 추가합니다. 예약된 ID는 종종 디버깅에 유용합니다. |
 
 예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
-자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md).
+자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)를 참조하십시오.
 
 ## 암호로 예약된 프로젝트 보호 {#password}
 
 >[!NOTE]
 >
->예약된 프로젝트를 암호로 보호하는 옵션은 프로젝트를 구입한 Customer Journey Analytics 고객에게만 표시됩니다. [헬스케어 실드](https://business.adobe.com/solutions/industries/healthcare.html) 추가 기능 제품.
+>예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 추가 기능 제품을 구입한 Customer Journey Analytics 고객에게만 표시됩니다.
 
 Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 암호를 사용하여 예약된 프로젝트를 암호화합니다.
 
@@ -107,16 +107,16 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 ### 암호로 예약된 새 프로젝트 보호
 
-1. 프로젝트를 저장한 다음 로 이동합니다. **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]**, 또는 **[!UICONTROL 공유]** > **[!UICONTROL 일정에 따라 파일 보내기]**.
+1. 프로젝트를 저장한 후 **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]** 또는 **[!UICONTROL 공유]** > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;로 이동합니다.
 1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=ko-KR#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=ko-KR#schedule)에 대해 위 지침을 따르십시오.
 
 ### 암호로 예약된 기존 프로젝트 보호
 
 프로젝트가 예약되기 전에 프로젝트 소유자는 다음과 유사한 이메일을 수신합니다.
 
-![조직에 암호 암호화가 필요함을 나타내는 Customer Journey Analytics 이메일 알림입니다.](assets/email-password.png)
+![조직에 암호 암호화가 필요함을 나타내는 Customer Journey Analytics 전자 메일 알림입니다.](assets/email-password.png)
 
 1. Customer Journey Analytics에 로그인합니다.
-1. 선택 **[!UICONTROL 예약된 프로젝트 보기]**.
+1. **[!UICONTROL 예약된 프로젝트 보기]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자에서 암호를 입력한 후 다시 입력합니다.
 1. 예약된 프로젝트의 수신자에게 이 암호를 알려 주십시오. 예약된 프로젝트의 수신자가 아닌 사람에게 암호를 배포하지 마십시오.

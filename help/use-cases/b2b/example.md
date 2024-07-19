@@ -1,5 +1,5 @@
 ---
-title: 예제 B2B 프로젝트
+title: B2B 프로젝트 예시
 description: B2B 데이터를 설정, 구성 및 보고하는 방법을 알아봅니다
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -10,17 +10,17 @@ role: User
 source-git-commit: 9c60c00818e82a6ca891ab9d90260922437c6cca
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# 예제 B2B 프로젝트
+# B2B 프로젝트 예시
 
 이 문서에서는 Customer Journey Analytics의 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 설명합니다.
 
 ## 연결
 
-Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연결을 정의합니다. 일반적인 B2B 개인 기반 보고 시나리오에 필요한 모든 관련 조회 데이터 세트를 포함하고 변환해야 합니다. 다음을 참조하십시오 [B2B 조회 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md) 추가 정보.
+Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연결을 정의합니다. 일반적인 B2B 개인 기반 보고 시나리오에 필요한 모든 관련 조회 데이터 세트를 포함하고 변환해야 합니다. 자세한 내용은 [B2B 조회 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md)을 참조하십시오.
 
 연결에 추가할 수 있는 데이터 세트:
 
@@ -40,11 +40,11 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 -->
 
 
-조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. 에서 스키마 보기 [Real-time Customer Data Platform 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) 및 [Real-time Customer Data Platform B2B 에디션에서 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) 을 참조하십시오.
+조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. 자세한 내용은 [Real-time Customer Data Platform B2B 에디션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html)의 스키마 및 [Real-time Customer Data Platform B2B 에디션의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html)를 참조하십시오.
 
 ![B2B 스키마 간의 관계](assets/classes.png)
 
-연결에 추가하는 각 조회 데이터 세트에 대해 다음을 사용하여 이벤트 데이터 세트에 대한 관계를 명시적으로 정의해야 합니다. **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]** 다음에서 **[!UICONTROL 데이터 세트 편집]** 대화 상자. 예:
+연결에 추가하는 각 조회 데이터 세트에 대해 **[!UICONTROL 데이터 세트 편집]** 대화 상자에서 **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]**&#x200B;을(를) 사용하여 이벤트 데이터 세트에 대한 관계를 명시적으로 정의해야 합니다. 예:
 
 ![키 - 일치하는 키](assets/key-matchingkey.png)
 
@@ -55,9 +55,9 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 * XDM 비즈니스 마케팅 목록 멤버
 * XDM 비즈니스 캠페인 멤버
 
-각 조회 데이터 세트에 대해, 이러한 스키마 클래스를 기반으로 하는 스키마에 대해서도 **[!UICONTROL 데이터 세트 변형]** 사용자 기반 조회에 대한 데이터가 변환되도록 합니다. 다음을 참조하십시오 [B2B 조회를 위한 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md) 추가 정보.
+각 조회 데이터 세트에 대해 이러한 스키마 클래스를 기반으로 하는 스키마에 대해 **[!UICONTROL 데이터 세트 변환]**&#x200B;을 활성화하여 개인 기반 조회에 대한 데이터가 변환되도록 할 수도 있습니다. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md)을 참조하십시오.
 
-아래 표는 의 예제 개요를 제공합니다. [!UICONTROL 개인 ID], [!UICONTROL 키], 및 [!UICONTROL 일치하는 키] 각 데이터 세트에 대한 값입니다.
+아래 표는 각 데이터 세트에 대한 [!UICONTROL 개인 ID], [!UICONTROL 키] 및 [!UICONTROL 일치하는 키] 값의 예제 개요를 제공합니다.
 
 
 | 데이터 세트 | 개인 ID | 키 | 일치하는 키(이벤트 데이터 세트 내) |
@@ -71,7 +71,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 
 {style="table-layout:auto"}
 
-다음을 참조하십시오 [데이터 세트 추가 및 구성](../../connections/create-connection.md) 데이터 세트에 대한 설정을 구성하는 방법에 대한 자세한 내용을 참조하십시오.
+데이터 집합에 대한 설정을 구성하는 방법에 대한 자세한 내용은 [데이터 집합 추가 및 구성](../../connections/create-connection.md)을 참조하십시오.
 
 
 ## 데이터 보기
@@ -298,7 +298,7 @@ No metric components are defined as part of this dataset.
 
 ## 작업 영역
 
-데이터 보기에서 구성 요소를 제대로 정의하면 이제 작업 공간 프로젝트에서 특정 B2B 보고서 및 시각화를 작성할 수 있습니다.
+이제 데이터 보기에서 구성 요소를 제대로 정의하면 Workspace 프로젝트에서 특정 B2B 보고서와 시각화를 작성할 수 있습니다.
 
 다음은 위에서 설명한 연결 및 데이터 보기에 의존하는 예제 프로젝트입니다.
 

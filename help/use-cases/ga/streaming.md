@@ -21,4 +21,4 @@ ht-degree: 89%
 1. [Google 데이터 레이어 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html) 설치 이 확장은 특히 Google 데이터 레이어에 맞게 설계된 Web SDK 확장 설치의 대안 역할을 합니다.
 1. Adobe Experience Platform 데이터 수집에서 [데이터스트림 만들기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) Adobe Experience Platform으로 데이터를 전송하는 데이터스트림 구성 현재 각 Google 데이터 레이어 오브젝트를 여기에 있는 해당 XDM 필드에 매핑해야 합니다. Adobe는 향후 이 매핑 워크플로를 단순화할 예정입니다.
 
-원하는 태그를 사이트에 구현하고 게시하면 다음으로 진행할 수 있습니다. [연결 만들기](/help/connections/create-connection.md), 그런 다음 [데이터 보기 만들기](/help/data-views/create-dataview.md).
+원하는 태그를 사이트에 구현하고 게시하면 [연결 만들기](/help/connections/create-connection.md), [데이터 보기 만들기](/help/data-views/create-dataview.md)로 진행할 수 있습니다.

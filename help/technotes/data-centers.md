@@ -19,4 +19,4 @@ Adobe Customer Journey Analytics은 북미(버지니아 온타리오, 캐나다)
 
 ![CJA 데이터 센터](assets/data-centers.png)
 
-다음을 참조하십시오 [지역 데이터 수집](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) 자세한 내용은 Adobe Experience Cloud 설명서 를 참조하십시오.
+자세한 내용은 Adobe Experience Cloud 설명서의 [지역 데이터 수집](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc)을 참조하십시오.

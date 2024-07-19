@@ -66,7 +66,7 @@ Approximate Count Distinct (dimension)
 
 다음과 같은 방식으로 &quot;예상 고객&quot; 지표 측정 항목을 보고에 사용할 수 있습니다.
 
-![고유 방문자 및 근사 고객을 보여주는 자유 형식 테이블 ](assets/approx-customers.png)
+고유 방문자 수 및 근사 고객을 보여주는 ![자유 형식 테이블 ](assets/approx-customers.png)
 
 ## 계수 함수 비교
 

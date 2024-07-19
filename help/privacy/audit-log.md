@@ -23,15 +23,15 @@ ht-degree: 65%
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 로그 수집을 수동으로 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../technotes/access-control.md).
+감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../technotes/access-control.md)를 참조하세요.
 
 ## UI에서 감사 로그 보기
 
-Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > **[!UICONTROL 감사 로그]**.
+Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 로그]**&#x200B;로 이동합니다.
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![오늘과 어제가 강조 표시된 감사 로그. ](assets/audit_ui.png)
+![감사 로그가 오늘과 어제 강조 표시됩니다. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 
@@ -39,11 +39,11 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
 
 설명 옆에 있는 정보(i) 버튼을 더블 클릭합니다.
 
-![정보 버튼을 강조 표시하는 감사 로그. ](assets/info-button-audit.png)
+![정보 단추를 강조 표시하는 감사 로그. ](assets/info-button-audit.png)
 
 다음 항목이 표시됩니다.
 
-* **[!UICONTROL 작업 이름]**: 수행한 작업 가능한 값은 다음과 같습니다.
+* **[!UICONTROL 작업 이름]**: 수행한 작업입니다. 가능한 값은 다음과 같습니다.
    * API 요청
    * 승인
    * 만들기
@@ -57,12 +57,12 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
    * 전송
    * 승인 취소
    * 공유 안 함
-* **[!UICONTROL 만든 날짜]**: 작업을 수행한 날짜 및 시간입니다.
-* **[!UICONTROL 설명]**: 작업 요약입니다.
+* **[!UICONTROL 만든 날짜]**: 작업을 수행한 날짜와 시간입니다.
+* **[!UICONTROL 설명]**: 작업의 요약입니다.
 * **[!UICONTROL 사용자 이름]**: 작업을 수행한 사용자입니다.
 * **[!UICONTROL 이메일]**: 작업을 수행한 사용자의 이메일 주소입니다.
-* **[!UICONTROL 구성 요소 이름]**: 사용자가 조치를 취한 구성 요소입니다.
-* **[!UICONTROL 구성 요소 유형]**: 구성 요소의 유형입니다. 가능한 값은 다음과 같습니다.
+* **[!UICONTROL 구성 요소 이름]**: 사용자가 작업한 구성 요소입니다.
+* **[!UICONTROL 구성 요소 형식]**: 구성 요소의 형식입니다. 가능한 값은 다음과 같습니다.
    * 주석
    * 대상
    * CALCULATED_METRIC
@@ -80,8 +80,8 @@ Customer Journey Analytics에서 다음으로 이동 **[!UICONTROL 도구]** > *
    * SCHEDULED_PROJECT
    * 사용자
    * USER_GROUP
-* **[!UICONTROL 구성 요소 ID]**: 사용자가 작업을 수행한 구성 요소의 ID입니다.
-* **[!UICONTROL IMS 조직 ID]**: 다음 형식의 조직 IMS ID `ABC123@AdobeOrg`.
+* **[!UICONTROL 구성 요소 ID]**: 사용자가 작업한 구성 요소의 ID입니다.
+* **[!UICONTROL IMS 조직 ID]**: `ABC123@AdobeOrg` 형식의 조직의 IMS ID.
 * **[!UICONTROL 로그 ID]**: 이 로그 항목을 식별하는 고유 ID입니다.
 * **[!UICONTROL 사용자 ID]**: 작업을 수행한 사용자를 식별하는 고유 ID입니다.
 * **[!UICONTROL 사용자 유형]**: 사용된 인증 유형입니다. 유효 값 항목:
@@ -139,4 +139,4 @@ CSV 또는 JSON 형식의 감사 로그를 다운로드할 수 있습니다. 적
 
 ## API에서 감사 로그 관리
 
-UI에서 수행할 수 있는 모든 작업은 API 호출을 사용하여 수행할 수도 있습니다. 다음을 참조하십시오. [Customer Journey Analytics API 참조 문서](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 추가 정보.
+UI에서 수행할 수 있는 모든 작업은 API 호출을 사용하여 수행할 수도 있습니다. 자세한 내용은 [Customer Journey Analytics API 참조 문서](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs)를 참조하십시오.

@@ -18,7 +18,7 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 1. Analysis Workspace에서 왼쪽 레일의 **[!UICONTROL 시각화]** 아이콘을 클릭하고 **[!UICONTROL 집단 테이블]**&#x200B;을 캔버스로 드래그합니다.
 
-   ![포함 기준 및 반환 기준을 보여 주는 예제 집단 테이블.](assets/cohort-table.png)
+   ![포함 기준 및 반환 기준을 보여 주는 예제 집단 테이블](assets/cohort-table.png)
 
 1. 아래 표에 정의된 대로 **[!UICONTROL 포함 기준]**, **[!UICONTROL 반환 기준]**, **[!UICONTROL 집단 유형]** 및 **[!UICONTROL 설정]**&#x200B;을 정의합니다.
 
@@ -41,9 +41,9 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
-   ![선택한 포함 기준 및 반환 기준을 표시하는 집단 테이블 보기. 작성을 클릭합니다.](assets/cohort-report.png)
+   선택한 포함 기준과 반환 기준을 표시하는 ![집단 테이블 보기. 작성을 클릭합니다.](assets/cohort-report.png)
 
-   이 보고서는 주문 사용자( *`Included`* 열), 이후 방문 시 사이트로 돌아온 사용자 시간이 지나면서 방문 횟수가 감소하면 문제를 발견하고 조치를 취할 수 있습니다.
+   이 보고서는 주문(*`Included`* 열)을 수행한 사람과 이후 방문 시 사이트로 돌아온 사람을 보여줍니다. 시간이 지나면서 방문 횟수가 감소하면 문제를 발견하고 조치를 취할 수 있습니다.
 1. (선택 사항) 선택 내용에서 필터를 생성합니다.
 
    셀(연속 또는 비연속)을 선택한 다음 > **[!UICONTROL 선택 내용에서 필터 생성]**&#x200B;을 마우스 오른쪽 버튼으로 클릭합니다.
@@ -60,4 +60,4 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
 ## 집단 시각화 다운로드
 
-Analysis Workspace의 다른 시각화와 마찬가지로 집단 시각화를 CSV 또는 PDF 파일로 다운로드할 수 있습니다. 자세한 내용은 [프로젝트 데이터 다운로드](/help/analysis-workspace/export/download-send.md).
+Analysis Workspace의 다른 시각화와 마찬가지로 집단 시각화를 CSV 또는 PDF 파일로 다운로드할 수 있습니다. 자세한 내용은 [프로젝트 데이터 다운로드](/help/analysis-workspace/export/download-send.md)를 참조하십시오.

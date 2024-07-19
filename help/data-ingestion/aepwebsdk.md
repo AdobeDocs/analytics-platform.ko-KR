@@ -54,25 +54,26 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. 선택 **[!UICONTROL 스키마 만들기]**. .
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
+.
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. 선택 **[!UICONTROL 경험 이벤트]**.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
 
       ![경험 이벤트를 강조 표시하는 스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
 
-   1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
+   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
 
-      ![스키마 필드 이름을 보여 주는 스키마 만들기 창](./assets/create-ee-schema-wizard-step-2.png)
+      ![스키마 필드 이름을 표시하는 스키마 만들기 창](./assets/create-ee-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
@@ -104,7 +105,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
 
    ![식별 오브젝트](./assets/identification-field.png)
 
@@ -279,7 +280,7 @@ Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
 자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)을 참조하십시오.
 
-Web SDK에는 [!UICONTROL Adobe Experience Cloud ID 서비스] 기본적으로 태그에 ID 서비스 확장을 추가할 필요가 없습니다.
+Web SDK에는 기본적으로 [!UICONTROL Adobe Experience Cloud ID 서비스]가 포함되어 있으므로 ID 서비스 확장을 태그에 추가할 필요가 없습니다.
 
 #### **데이터 요소**
 
@@ -488,7 +489,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 
 
 Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용하려면 스키마, 데이터 세트 및 워크플로 설정에서 도출된 데이터를 포함하는 연결을 만듭니다.
 
-연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다.
+연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 Workspace의 데이터 세트 간에 연결을 설정해야 합니다.
 
 연결을 만드는 경우:
 
@@ -591,7 +592,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
    ![작업 영역 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 첫 번째 보고서를 만들려면 [!UICONTROL 자유 형식 테이블] 다음에서 [!UICONTROL 패널]. 예를 들어 `Program Points Balance` 및 `Page View`를 지표로 `email`을 차원으로 드래그하여 웹 사이트를 방문한 적이 있고, 로열티 포인트를 수집하는 로열티 프로그램의 일부인 프로필에 대한 간단한 개요를 살펴봅니다.
+5. 첫 번째 보고서를 만들려면 [!UICONTROL 패널]의 [!UICONTROL 자유 형식 테이블]에서 차원 및 지표를 끌어서 놓습니다. 예를 들어 `Program Points Balance` 및 `Page View`를 지표로 `email`을 차원으로 드래그하여 웹 사이트를 방문한 적이 있고, 로열티 포인트를 수집하는 로열티 프로그램의 일부인 프로필에 대한 간단한 개요를 살펴봅니다.
 
    ![작업 영역 - 첫 번째 보고서](./assets/cja-projects-5.png)
 

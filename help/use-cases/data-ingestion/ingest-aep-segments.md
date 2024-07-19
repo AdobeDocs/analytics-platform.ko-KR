@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform 대상을 Customer Journey Analytics으로 수집
+title: Adobe Experience Platform 대상자를 Customer Journey Analytics로 수집
 description: 추가 분석을 위해 Adobe Experience Platform 대상을 Customer Journey Analytics으로 수집하는 방법에 대해 설명합니다.
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # Adobe Experience Platform 대상을 Adobe Customer Journey Analytics에 수집
 
-이 사용 사례에서는 Adobe Experience Platform(Adobe Experience Platform) 대상을 Customer Journey Analytics으로 가져오는 임시적이고 수동적인 방법에 대해 알아봅니다. 이러한 대상은 Adobe Experience Platform 세그먼트 빌더, Adobe Audience Manager 또는 기타 도구에서 생성되었을 수 있으며 실시간 고객 프로필(RTCP)에 저장됩니다. 대상자는 적용 가능한 속성/이벤트 등과 함께 프로필 ID 세트로 구성됩니다. Customer Journey Analytics 분석을 위해 Analysis Workspace로 가져오려고 합니다.
+이 사용 사례에서는 Adobe Experience Platform(Adobe Experience Platform) 대상을 Customer Journey Analytics으로 가져오는 임시적이고 수동적인 방법에 대해 알아봅니다. 이러한 대상은 Adobe Experience Platform 세그먼트 빌더, Adobe Audience Manager 또는 기타 도구에서 생성되었을 수 있으며 실시간 고객 프로필(RTCP)에 저장됩니다. 대상자는 적용 가능한 속성/이벤트 등과 함께 프로필 ID 세트로 구성됩니다. 그리고 분석을 위해 Customer Journey Analytics Workspace으로 가져오고자 합니다.
 
 ## 사전 요구 사항
 
@@ -32,7 +32,7 @@ Adobe Experience Platform [실시간 고객 프로필](https://experienceleague.
 
 ## 2단계: 내보내기를 위해 Profile Union 데이터 세트 생성
 
-Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데이터 세트로 대상을 내보내려면 스키마가 프로필인 데이터 세트를 생성해야 합니다 [유니온 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데이터 세트로 대상을 내보내려면 스키마가 프로필 [결합 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas)인 데이터 세트를 만들어야 합니다.
 
 결합 스키마는 동일한 클래스를 공유하고 프로필에 대해 활성화된 여러 스키마로 구성됩니다. 통합 스키마를 사용하면 동일한 클래스를 공유하는 스키마 내에 포함된 모든 필드의 통합을 표시할 수 있습니다. 실시간 고객 프로필은 통합 스키마를 사용하여 각 개별 고객에 대한 거시적인 보기를 생성합니다.
 
@@ -44,7 +44,7 @@ Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데
 
 ## 4단계: 내보내기 출력 편집
 
-내보내기 작업의 결과를 Customer Journey Analytics으로 수집하려면 별도의 프로필 데이터 세트로 변환해야 합니다.  이 변환은 다음을 사용하여 수행할 수 있습니다. [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)또는 선택한 다른 변형 도구입니다. Customer Journey Analytics 보고를 수행하려면 Customer Journey Analytics ID(프로필의 개인 ID와 일치)와 하나 이상의 대상 ID만 있으면 됩니다.
+내보내기 작업의 결과를 Customer Journey Analytics으로 수집하려면 별도의 프로필 데이터 세트로 변환해야 합니다.  이 변환은 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR) 또는 선택한 다른 변환 도구를 사용하여 수행할 수 있습니다. Customer Journey Analytics 보고를 수행하려면 Customer Journey Analytics ID(프로필의 개인 ID와 일치)와 하나 이상의 대상 ID만 있으면 됩니다.
 
 단, 표준 내보내기 작업에는 더 많은 데이터가 포함되어 있으므로 이 출력을 편집하여 관련 없는 데이터를 제거하고 일부 항목을 이동해야 합니다. 또한 변환된 데이터를 추가하기 전에 먼저 스키마/데이터 세트를 생성해야 합니다.
 
@@ -91,4 +91,4 @@ Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데
    1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
    1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. audienceMembershipId 또는 audienceMembershipIdName에 대한 [오브젝트 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko-KR)을 사용하는 것이 가장 적합한 옵션이 될 것입니다.
    1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
-   1. 이제 이 새 차원에 대해 보고할 수 있습니다 `audienceMembershipIds` Customer Journey Analytics 작업 영역 내.
+   1. 이제 Customer Journey Analytics Workspace 내에서 이 새 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.

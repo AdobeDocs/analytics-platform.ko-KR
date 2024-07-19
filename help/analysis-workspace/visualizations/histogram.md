@@ -23,7 +23,7 @@ ht-degree: 80%
 1. **[!UICONTROL 히스토그램]**&#x200B;을 패널로 드래그합니다.
 1. 히스토그램 시각화로 드래그할 지표를 선택하고 **[!UICONTROL 작성]**&#x200B;을 클릭합니다.
 
-![아래 지표 드롭을 보여 주는 빈 히스토그램 패널.](assets/histogram.png)
+![필드 아래에 지표 표시를 보여 주는 빈 막대 그래프 패널](assets/histogram.png)
 
 >[!NOTE]
 >
@@ -55,14 +55,14 @@ ht-degree: 80%
 
 히스토그램 차트에 대한 데이터 소스를 보거나 변경하려면, 히스토그램 헤더의 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스 설정]** > **[!UICONTROL 데이터 소스 표시]**&#x200B;로 이동합니다.
 
-![[데이터 소스 표시] 및 [선택 잠금]이 선택된 데이터 소스 설정 옵션](assets/manage-data-source.png)
+![데이터 Source 표시 및 선택 잠금 옵션이 선택된 데이터 Source 설정 옵션](assets/manage-data-source.png)
 
 표에 표시되는 사전에 작성된 필터는 내부 필터이며, 필터 선택기에 표시되지 않습니다. 필터 이름의 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음, **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 필터를 공개로 만듭니다.
 
-![편집 창과 공개하기 링크를 표시하는 세그먼트.](assets/prebuilt_segments.png)
+![편집 창과 공개 링크를 표시하는 세그먼트](assets/prebuilt_segments.png)
 
 데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)로 이동하십시오.
 
 ## 블로그 게시물
 
-다음에 대한 정보를 보려면 이 블로그 게시물 을 참조하십시오 [히스토그램 을 사용하여 예기치 않은 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).
+[예기치 않은 데이터 값을 식별하기 위해 히스토그램을 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)하는 방법에 대한 정보는 이 블로그 게시물을 참조하세요.

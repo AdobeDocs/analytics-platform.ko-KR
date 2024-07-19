@@ -20,7 +20,7 @@ ht-degree: 93%
 - **[!UICONTROL 무난]**: 작은 버전보다 좀 더 큰 버전.
 - **[!UICONTROL 크게]** (기본값): 작업 영역에서 사용하는 보기.
 
-![컴팩트하고 편안하며 확장된 보기 밀도.](assets/view-density.png)
+![작고 편안하며 확장된 보기 밀도입니다.](assets/view-density.png)
 
 보기 밀도를 설정하려면 다음을 수행하십시오.
 

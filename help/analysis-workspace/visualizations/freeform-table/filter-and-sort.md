@@ -25,7 +25,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 >[!NOTE]
 >
-> 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 참조하십시오.
 
 ## 자유 형식 테이블 행 필터링
 
@@ -35,7 +35,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 - 표 필터
 - 세그먼테이션
 
-각 메서드가 어떻게 영향을 주는지 반드시 읽어 보십시오 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+각 메서드가 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)에 미치는 영향을 읽어 보십시오.
 
 ### 테이블에서 특정 행을 빠르게 제외
 
@@ -43,7 +43,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 >[!NOTE]
 >
->이 섹션에 설명된 대로 행을 제외하는 경우 [!UICONTROL **항상 항목 제외**] 고급 필터 대화 상자에서 규칙이 자동으로 적용됩니다. ( 필터 아이콘을 선택한 다음, [**[!UICONTROL 고급 표시]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>이 섹션에 설명된 대로 행을 제외하면 고급 필터 대화 상자에서 [!UICONTROL **항상 항목 제외**] 규칙이 자동으로 적용됩니다. (필터 아이콘을 선택한 다음 [**[!UICONTROL 고급 표시]**](#apply-a-simple-or-advanced-filter-to-a-table)를 선택하여 적용된 규칙을 볼 수 있습니다.)
 
 자유 형식 테이블에서 특정 행을 빠르게 제외하려면 다음을 수행합니다.
 
@@ -69,13 +69,13 @@ Note: this option does not seem to work. AN-338422
 
 1. **필터** 아이콘이 나타나면 선택합니다.
 
-   ![필터 아이콘을 강조 표시하는 자유 형식 테이블입니다.](assets/table-filter-icon.png)
+   ![필터 아이콘을 강조 표시하는 자유 형식 테이블.](assets/table-filter-icon.png)
 
    다음 옵션을 사용할 수 있습니다.
 
    | 옵션 | 함수 |
    |---------|----------|
-   | [!UICONTROL **단어 또는 구 검색**] | 필터링 기준으로 사용할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
+   | [!UICONTROL **검색어 또는 구**] | 필터링 기준으로 사용할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
    | [!UICONTROL **지정하지 않은 항목 포함(없음)**] | 테이블 차원에 속하지 않는 데이터를 테이블에 표시하려면 이 옵션을 선택합니다. <!--what is this?--> |
 
 1. (선택 사항) 다른 기준 또는 여러 기준으로 필터링하려면 [!UICONTROL **고급 설정 표시**]&#x200B;를 선택합니다.
@@ -95,7 +95,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 필터
 
-다음 참조: [필터링 설명서](/help/components/filters/filters-overview.md) 을 참조하십시오.
+자세한 내용은 [필터링 설명서](/help/components/filters/filters-overview.md)를 참조하세요.
 
 ## 테이블 정렬
 
@@ -110,6 +110,6 @@ Analysis Workspace에서 차원 또는 지표인 열을 기준으로 자유 형�
    - 아래쪽 화살표는 내림차순으로 정렬하고 위쪽 화살표(기본값)는 오름차순으로 정렬합니다.
    - 차원을 알파벳순 또는 숫자순으로 정렬할 수 있습니다. 예를 들어 워크플로에서 단계 번호가 매겨져 있으며, 단계 번호순으로 정렬할 수 있습니다. 날짜 관련 차원을 날짜순으로 정렬할 수 있습니다. 또는 아래 이미지와 같이 알파벳순으로 데이터 소스를 정렬할 수 있습니다.
 
-   ![정렬 아이콘을 강조 표시하는 데이터 소스 보기.](assets/sort-dimensions.png)
+   ![정렬 아이콘을 강조 표시하는 데이터 원본 보기](assets/sort-dimensions.png)
 
 

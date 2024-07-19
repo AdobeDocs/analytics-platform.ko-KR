@@ -7,7 +7,7 @@ exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 74%
 
 ---
@@ -39,13 +39,13 @@ ht-degree: 74%
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Customer Journey Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크(아래의 Customer Journey Analytics 에서도 사용 가능)를 클릭합니다. **[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]**)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Customer Journey Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[Android link](https://bit.ly/2LM38Oo)`
 

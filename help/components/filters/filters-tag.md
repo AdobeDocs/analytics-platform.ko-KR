@@ -1,6 +1,6 @@
 ---
 description: 필터에 태그를 지정하여 구성할 수 있습니다.
-title: 태그 필터
+title: 필터 태그 지정
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User

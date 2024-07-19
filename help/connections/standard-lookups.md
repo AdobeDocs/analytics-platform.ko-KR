@@ -77,8 +77,8 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 표준 조회 차원을 보고하려면 Customer Journey Analytics에서 데이터 보기를 만들 때 차원을 추가해야 합니다.
 
-![구성 요소 추가 목록을 표시하는 데이터 보기 만들기](assets/global-lookup.png)
+![구성 요소 추가 목록을 표시하는 데이터 보기를 만듭니다](assets/global-lookup.png)
 
 그러면 작업 영역에서 조회 데이터를 볼 수 있습니다.
 
-![데이터를 보여 주는 자유 형식 테이블](assets/gl-reporting.png)
+데이터를 표시하는 ![자유 형식 테이블](assets/gl-reporting.png)

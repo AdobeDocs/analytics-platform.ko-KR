@@ -20,7 +20,7 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 
 * [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
 * [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 비즈니스 마케팅 목록 구성원](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
@@ -30,13 +30,13 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 
 이러한 데이터 세트에 대한 변환을 활성화하려면 다음을 수행하십시오.
 
-![변형 데이터 세트 활성화](assets/transform-dataset.gif)
+![변환 데이터 세트 사용](assets/transform-dataset.gif)
 
-* 다음에 대한 적절한 식별자를 선택하십시오. **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]**, 예 `personKey.sourceKey`.
+* **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]**&#x200B;에 대한 올바른 식별자를 선택하십시오(예: `personKey.sourceKey`).
 
 * 새 데이터 및 데이터 세트 채우기를 가져오는 옵션을 선택합니다.
 
-* 선택 **[!UICONTROL B2B 조회를 위한 데이터 세트 변환]**.
+* **[!UICONTROL B2B 조회에 대한 데이터 집합 변형]**&#x200B;을 선택하십시오.
 
   이 옵션은 B2B 시나리오에서 사용자 기반 조회에 사용할 수 있도록 데이터 세트를 변환합니다.
 

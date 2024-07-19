@@ -31,4 +31,4 @@ ht-degree: 92%
 
 ## 블로그 게시물
 
-다음에 대한 관련 블로그 게시물 [Customer Journey Analytics에서 &quot;값 없음&quot; 처리](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+[Customer Journey Analytics에서 &quot;값 없음&quot; 처리](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339)에 대한 관련 블로그 게시물입니다.

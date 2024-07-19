@@ -23,10 +23,10 @@ ht-degree: 81%
 
 예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행에 반환됩니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
 
-동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있으며 **아님** 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있으며 **아님**&#x200B;에 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [표 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하세요.
 
 
-![필터 아이콘을 강조 표시하는 자유 형식 테이블.](assets/dynamic-items.png)
+![필터 아이콘을 강조 표시하는 자유 형식 테이블입니다.](assets/dynamic-items.png)
 
 ## 정적 차원 항목
 
@@ -41,7 +41,7 @@ ht-degree: 81%
 
 정적 차원 항목에는 행 필터 옵션이 **없습니다**. 대신 각 항목에 자물쇠와 X 아이콘이 표시됩니다. 테이블에서 해당 차원 항목을 제거하려면 X 아이콘을 클릭하십시오.
 
-![브라우저 유형과 잠금 아이콘이 있는 Microsoft 행을 보여 주는 자유 형식 테이블 참고: 이 차원 항목은 정적이며 시간에 따라 변경되지 않습니다.](assets/static-items.png)
+![브라우저 유형과 잠금 아이콘이 있는 Microsoft 행을 보여 주는 자유 형식 테이블입니다. 참고: 이 차원 항목은 정적이며 시간이 지나도 변경되지 않습니다.](assets/static-items.png)
 
 ## 혼합 차원 항목
 

@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Customer Journey Analytics 대상 게시 개요
 
-이제 Customer Journey Analytics에서 검색된 대상자를 만들어 게시할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR) 고객 타겟팅 및 개인화를 위한 Adobe Experience Platform에서.
+이제 Customer Journey Analytics에서 검색된 대상을 만들어 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)에 게시하여 고객 타기팅 및 개인화할 수 있습니다.
 
 대상자 게시는 Customer Journey Analytics 내에서 발견된 통찰력을 활성화하고 조치를 취하는 명확한 방법을 제공합니다. 이러한 조치에는 다음이 포함될 수 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 50%
 
 **필터**: 일정 기간 동안 데이터의 집합을 평가할 때 데이터 하위 집합을 생성하는 규칙 집합입니다. 필터는 다른 지원 서비스와 결합할 때 대상자를 만드는 과정에서 사용할 수 있습니다. 필터는 Customer Journey Analytics에서 정의되고 유지됩니다.
 
-**필터** 및 **세그먼트**: Customer Journey Analytics은 &quot;세그먼트&quot; 개념을 사용하지 않고 대신 &quot;필터&quot;를 사용합니다. 둘 다 유사한 논리를 포함할 수 있는 규칙 세트이지만 서로 다른 출력을 생성합니다. 필터는 분석 목적으로 데이터 세트의 범위를 좁히는 데 사용됩니다. 세그먼트는 활성화에 사용할 수 있는 ID 목록을 생성하는 데 사용됩니다. 세그먼트는 실시간 고객 프로필에 대상자를 생성하지만 필터(단독으로)는 생성하지 않습니다. Customer Journey Analytics 대상 게시는 Customer Journey Analytics 필터를 사용하여 실시간 고객 프로필에서 사용할 수 있는 대상을 만드는 프로세스입니다.
+**필터** 대 **세그먼트**: Customer Journey Analytics은 &quot;세그먼트&quot; 개념을 사용하지 않고 대신 &quot;필터&quot;를 사용합니다. 둘 다 유사한 논리를 포함할 수 있는 규칙 세트이지만 서로 다른 출력을 생성합니다. 필터는 분석 목적으로 데이터 세트의 범위를 좁히는 데 사용됩니다. 세그먼트는 활성화에 사용할 수 있는 ID 목록을 생성하는 데 사용됩니다. 세그먼트는 실시간 고객 프로필에 대상자를 생성하지만 필터(단독으로)는 생성하지 않습니다. Customer Journey Analytics 대상 게시는 Customer Journey Analytics 필터를 사용하여 실시간 고객 프로필에서 사용할 수 있는 대상을 만드는 프로세스입니다.
 
 ## 권한
 

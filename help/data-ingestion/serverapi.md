@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform Edge Network Server API를 통해 데이터 수집
-description: Adobe Experience Platform Edge Network Server API 및 Edge Network를 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
+title: Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집
+description: Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
@@ -12,9 +12,9 @@ ht-degree: 59%
 
 ---
 
-# Adobe Experience Platform Edge Network Server API를 통해 데이터 수집
+# Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집
 
-이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network Server API 및 Edge Network를 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔, 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
+이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔, 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
 이를 수행하려면 다음을 수행해야 합니다.
 
@@ -22,7 +22,7 @@ ht-degree: 59%
 
 - **데이터스트림을 설정**&#x200B;하여 수집된 데이터를 Adobe Experience Platform에서 구성한 데이터 세트로 라우팅하는 Adobe Experience Platform Edge Network를 구성합니다.
 
-- **서버 API 사용** 데스크탑, 게임 콘솔, IoT 장치 또는 셋톱 박스에서 실행되는 애플리케이션 또는 게임에서 직접 데이터스트림으로 데이터를 전송합니다.
+- **서버 API를 사용**&#x200B;하여 데스크톱, 게임 콘솔, IoT 장치 또는 셋톱 박스에서 실행 중인 응용 프로그램 또는 게임에서 데이터스트림으로 직접 데이터를 전송합니다.
 
 - **배포 및 검증**. 개발을 반복하고 모든 것이 검증되면 프로덕션 환경에 라이브로 게시하는 환경을 갖습니다.
 
@@ -54,23 +54,24 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. 선택 **[!UICONTROL 스키마 만들기]**. .
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
+.
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. 선택 **[!UICONTROL 경험 이벤트]**.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
 
       ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 _비헤이비어_ 프로필 (예: 장면 이름, 장바구니에 추가하기 위한 푸시 버튼) 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. 다음에서 [!UICONTROL 이름 및 검토 단계] / [!UICONTROL 스키마 만들기] 마법사:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
 
-   1. 입력 **[!UICONTROL 스키마 표시 이름]** 스키마 및 (선택 사항) **[!UICONTROL 설명]**.
+   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
 
       ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -84,27 +85,27 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
-   1. 다음에서 [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL 눈부신 불빛]** 목록의 필드 그룹입니다. 이 필드 그룹은 콘솔에서 Blinding Light라는 가상 게임을 플레이하는 사용자 진행률을 추적하기 위해 만들어집니다.
+   1. [!UICONTROL 필드 그룹 추가] 대화 상자의 목록에서 **[!UICONTROL 눈부심 조명]** 필드 그룹을 선택합니다. 이 필드 그룹은 콘솔에서 Blinding Light라는 가상 게임을 플레이하는 사용자 진행률을 추적하기 위해 만들어집니다.
 
-      ![블라인드 라이트 필드 그룹](assets/schema-fieldgroup-blindinglight.png)
+      ![조명 필드 그룹 차단](assets/schema-fieldgroup-blindinglight.png)
 
       미리보기 버튼을 선택하여 이 필드 그룹(예: `scores > afterMatch`)에 포함된 필드의 미리보기를 볼 수 있습니다.
 
-      ![블라인드 라이트 필드 그룹 미리 보기](assets/schema-fieldgroup-blindinglight-preview.png)
+      ![조명 필드 그룹 미리 보기](assets/schema-fieldgroup-blindinglight-preview.png)
 
       **[!UICONTROL 뒤로]**&#x200B;를 선택하여 미리보기를 닫습니다.
 
    1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
-1. 선택 **[!UICONTROL +]** 스키마 이름 옆에 있습니다.
+1. 스키마 이름 옆에 있는 **[!UICONTROL +]**&#x200B;을(를) 선택합니다.
 
    ![예제 스키마 필드 추가 버튼](./assets/example-gamingschema-plus.png)
 
-1. 다음에서 [!UICONTROL 필드 속성] 패널, 입력 `identification` (으)로 [!UICONTROL 필드 이름], **[!UICONTROL 식별]** (으)로 [!UICONTROL 표시 이름], 선택 **[!UICONTROL 오브젝트]** (으)로 [!UICONTROL 유형] 및 선택 **[!UICONTROL ExperienceEvent 코어 v2.1]** (으)로 [!UICONTROL 필드 그룹].
+1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름](으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름](으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형](으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹](으)로 선택합니다.
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새 필드 그룹 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 및 [새 id 필드 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (와(과) 유사한 `ecid`, `crmId`및 필요한 기타)를 필드 그룹에 추가하고 해당 새 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
@@ -200,7 +201,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 ## 데이터스트림 설정
 
-데이터 스트림은 Adobe Experience Platform 웹 및 모바일 SDK와 Adobe Experience Platform Edge Network Server API를 구현할 때 서버측 구성을 나타냅니다. Adobe Experience Platform SDK 및 Edge Network Server API를 사용하여 데이터를 수집하면 데이터가 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
+데이터 스트림은 Adobe Experience Platform 웹 및 모바일 SDK와 Adobe Experience Platform Edge Network 서버 API를 구현할 때의 서버측 구성을 나타냅니다. Adobe Experience Platform SDK 및 Edge Network 서버 API를 사용하여 데이터를 수집하면 데이터가 Adobe Experience Platform Edge Network으로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
 
 설정에서는 게임에서 수집한 데이터를 Adobe Experience Platform의 데이터 세트로 전송하려고 합니다.
 
@@ -234,9 +235,9 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)를 참조하십시오.
 
-## Edge Network Server API 사용
+## Edge Network 서버 API 사용
 
-게임 개발에서 적절한 경우 Adobe Experience Platform Edge Network Server API에 관련 호출을 추가할 수 있습니다.
+게임 개발에서 적절한 경우 Adobe Experience Platform Edge Network 서버 API에 관련 호출을 추가할 수 있습니다.
 
 예를 들어 플레이어의 점수를 업데이트하려면 다음을 사용합니다.
 
@@ -269,15 +270,15 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 }'
 ```
 
-예제 POST 요청에서 `{DATASTREAM_ID}` 는 이전에 구성한 예제 데이터 스트림의 식별자를 가리킵니다. `{sandbox}` 는 사용자 정의 블라인드 라이트 필드 그룹에 대한 경로를 식별하는 샌드박스의 고유 이름입니다.
+예제 POST 요청에서 `{DATASTREAM_ID}`은(는) 이전에 구성한 예제 데이터 스트림의 식별자를 가리킵니다. `{sandbox}`은(는) 사용자 정의 블라인드 라이트 필드 그룹의 경로를 식별하는 샌드박스의 고유 이름입니다.
 
-다음을 참조하십시오 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) edge Network Server API를 사용하는 방법에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
+Edge Network 서버 API 사용 방법에 대한 자세한 내용은 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html)을 참조하십시오.
 
 ## 연결 설정
 
 Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용하려면 스키마, 데이터 세트 및 워크플로 설정에서 도출된 데이터를 포함하는 연결을 만듭니다.
 
-연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다.
+연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. 이러한 데이터 세트에 대해 보고하려면 먼저 Adobe Experience Platform과 Workspace의 데이터 세트 간에 연결을 설정해야 합니다.
 
 연결을 만드는 경우:
 
@@ -374,10 +375,10 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
    ![작업 영역 데이터 보기 선택](./assets/cja-projects-3.png).
 
-5. 첫 번째 보고서를 만들려면 [!UICONTROL 자유 형식 테이블] 다음에서 [!UICONTROL 패널].
+5. 첫 번째 보고서를 만들려면 [!UICONTROL 패널]의 [!UICONTROL 자유 형식 테이블]에서 차원 및 지표를 끌어서 놓습니다.
 
 구성 요소, 시각화 및 패널을 사용하여 프로젝트를 만들고 분석을 빌드하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](../analysis-workspace/home.md)를 참조하십시오.
 
 >[!SUCCESS]
 >
->모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 데이터가 해당 데이터 세트로 전달될 수 있도록 에지 네트워크에서 데이터 스트림을 구성했습니다. 그런 다음 Edge Network Server API를 사용하여 해당 데이터를 데이터스트림으로 전송했습니다. 게임 데이터 및 기타 데이터를 사용할 수 있도록 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원과 지표를 지정할 수 있으며, 마지막으로 게임 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.
+>모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 데이터를 해당 데이터 세트로 전달할 수 있도록 Edge Network에 데이터 스트림을 구성했습니다. 그런 다음 Edge Network 서버 API를 사용하여 해당 데이터를 데이터 스트림으로 전송했습니다. 게임 데이터 및 기타 데이터를 사용할 수 있도록 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원과 지표를 지정할 수 있으며, 마지막으로 게임 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.
