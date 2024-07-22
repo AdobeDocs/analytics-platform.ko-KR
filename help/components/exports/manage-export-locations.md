@@ -5,7 +5,7 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 9f3182ed33fc5ad537b05e9effbdd25caf4e87d7
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -147,8 +147,6 @@ ht-degree: 1%
 1. 확인 대화 상자에서 [!UICONTROL **삭제**]&#x200B;를 다시 선택합니다.
 
 ## 회사 전체 설정 구성(관리자만)
-
-{{release-limited-testing-section}}
 
 시스템 관리자는 사용자가 계정 및 위치를 만들지 못하도록 제한하거나 사용자가 만들고 사용할 수 있는 계정 유형을 제한할 수 있습니다.
 
