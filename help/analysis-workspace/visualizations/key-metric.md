@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 24c2ab4a49b87b11046317a40882dde72a2a49c1
+source-git-commit: b196b8c05ba05a3f46d71c10fdcaa2ad8ef0dcd6
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 85%
+source-wordcount: '649'
+ht-degree: 84%
 
 ---
 
@@ -78,6 +78,8 @@ Comparison date range is set to a non-relative date range, such as 'Feb 2nd, 202
 When you change the panel's date range to '4 days ago', the comparison date range remains at the previous selection. -->
 
 ## 출력 보기
+
+출력은 다음과 같아야 합니다.
 
 ![지표, 요약 변경, 요약 번호 및 선 그래프를 표시하는 주요 지표 출력입니다.](assets/key-metric-output.png)
 

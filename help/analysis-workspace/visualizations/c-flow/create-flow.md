@@ -4,10 +4,10 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b196b8c05ba05a3f46d71c10fdcaa2ad8ef0dcd6
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 80%
+source-wordcount: '1594'
+ht-degree: 78%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 80%
 >
 >1. 위에서 설명한 대로 플로우 시각화 만들기를 시작합니다.
 >1. [!UICONTROL **페이지**] 차원을 **[!UICONTROL 포함]** 필드로 끌어온 다음 [!UICONTROL **빌드**]&#x200B;를 선택합니다.
->1. 플로우 시각화는 시각화 중앙의 포커스 노드에 표시되는 가장 많이 본 페이지로 빌드됩니다. 또한 해당 페이지로 연결되는 상위 페이지(포커스 노드 왼쪽)와 해당 포커스 페이지에서 시작되는 상위 페이지(포커스 노드 오른쪽)를 확인할 수 있습니다.
+>1. 플로우 시각화는 시각화 중앙의 포커스 노드에 표시되는 가장 많이 본 페이지로 빌드됩니다. 또한 해당 페이지(포커스 노드 왼쪽)로 이어지는 상위 페이지와 해당 페이지(포커스 노드 오른쪽)에서 이어지는 상위 페이지도 표시됩니다.
 >1. [흐름 출력 보기 및 변경](#view-and-change-the-flow-output)에 설명된 대로 플로우에서 데이터를 분석합니다.
 
 ## 흐름 출력 보기 및 변경 {#output}
