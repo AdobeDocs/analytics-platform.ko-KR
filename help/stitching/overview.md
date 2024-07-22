@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
+source-git-commit: f390789287721a777947093123f672e0a854540a
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3830'
 ht-degree: 12%
 
 ---
@@ -324,7 +324,8 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 다음 사전 요구 사항은 그래프 기반 결합에 특히 적용됩니다.
 
-- 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 하나의 열(**영구 ID**)이 있어야 합니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
+- 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 하나의 열(**영구 ID**)이 있어야 합니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Experience Platform ID 서비스에서 생성된 ECID입니다.
+- 영구 ID는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)되어야 합니다.
 - Experience Platform ID 서비스의 ID 그래프에는 **임시 ID**&#x200B;을(를) 확인하기 위해 결합하는 동안 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다. 자세한 내용은 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 참조하십시오.
 
 >[!NOTE]
