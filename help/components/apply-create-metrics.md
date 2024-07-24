@@ -4,10 +4,10 @@ title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 40%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -37,15 +37,41 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 지표는 Analysis Workspace 내에서 다양한 방식으로 사용될 수 있습니다. Analysis Workspace에 지표 및 기타 유형의 구성 요소를 추가하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)을 참조하십시오.
 
-## 계산된 지표
+## 계산된 지표 만들기
 
-계산된 지표를 사용하면 간단한 연산자 또는 통계 함수를 사용하여 지표가 서로 관련되는 방식에 대해 쉽게 살펴볼 수 있습니다. 다음 몇 가지 방법으로 계산된 지표를 만들 수 있습니다.
+계산된 지표를 사용하면 간단한 연산자나 통계 함수를 사용하여 지표가 서로 관련되는 방식을 쉽게 확인할 수 있습니다.
 
-**[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;를 선택할 수 있습니다. 이렇게 하면 기존 지표에서 사용자 지정 지표를 작성할 수 있는 [계산된 지표 빌더](/help/components/calc-metrics/calc-metr-overview.md)로 이동합니다.
+계산된 지표를 만드는 방법에는 몇 가지가 있습니다. 선택하는 방법은 계산된 지표를 모든 프로젝트의 구성 요소 목록에서 사용할 수 있는지 또는 지표를 만든 프로젝트에서만 사용할 수 있는지 여부를 결정합니다.
 
-계산된 지표를 더 빠르고 쉽게 생성할 수 있도록 **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;가 자유 형식 테이블의 열 마우스 오른쪽 버튼 클릭 메뉴에 추가되었습니다. 이 선택 사항은 머리글 열 셀을 하나 이상 선택하면 표시됩니다.
+### 모든 프로젝트에 대해 계산된 지표 만들기
 
-![선택 항목에서 만들기 강조 표시된 Workspace 패널](assets/create-metric-from-selection.png)
+계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다.
+
+계산된 지표 빌더에 액세스하는 방법에 대한 자세한 내용은 [지표 빌드](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)를 참조하십시오.
+
+### 단일 프로젝트에 대해 계산된 지표 만들기
+
+지표를 만든 프로젝트에서만 사용할 수 있는 빠르게 계산된 지표를 만들 수 있습니다.
+
+단일 프로젝트에 대해 계산된 지표를 만들려면 다음 작업을 수행하십시오.
+
+1. Analysis Workspace에서 계산된 지표를 만들 프로젝트를 엽니다.
+
+1. 자유 형식 테이블에서 하나 이상의 머리글 열 셀을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 선택합니다.
+
+   ![선택 항목에서 만들기 강조 표시된 Workspace 패널](assets/create-metric-from-selection.png)
+
+1. 이 프로젝트에 대해서만 계산된 지표를 만들려면 다음 옵션 중에서 선택하십시오.
+
+   * [!UICONTROL **나누기**]
+
+   * [!UICONTROL **빼기**]
+
+   * [!UICONTROL **추가**]
+
+   * [!UICONTROL **곱하기**]
+
+   또는 계산된 지표 빌더를 열고 모든 프로젝트에 대한 계산된 지표를 만들려면 [!UICONTROL **계산된 지표 빌더에서 열기**]&#x200B;를 선택한 다음 [지표 빌드](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)를 계속합니다.
 
 [계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR) (3:42)
 
