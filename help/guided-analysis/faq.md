@@ -1,24 +1,24 @@
 ---
 title: 안내식 분석 FAQ
-description: 가이드 분석에 대한 FAQ.
+description: 안내식 분석에 대해 자주 묻는 질문입니다.
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: df00d954de5db89f0ccc40f7eb2474523d9e774e
+source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 71%
+source-wordcount: '439'
+ht-degree: 94%
 
 ---
 
 # 안내식 분석 FAQ
 
-가이드 분석에 대한 FAQ.
+안내식 분석에 대해 자주 묻는 질문입니다.
 
-+++**내 조직에서 안내가 있는 분석에 액세스할 수 있습니까?**
++++**조직은 안내식 분석에 액세스할 수 있습니까?**
 
-안내식 분석 보기는 모든 Customer Journey Analytics 패키지에 포함됩니다. CJA 패키지 잠금 해제 보기에 대한 자세한 내용은 개요 페이지의 [프로비저닝](overview.md#provisioning) 섹션을 참조하십시오.
+안내식 분석 보기는 모든 Customer Journey Analytics 패키지에 포함됩니다. CJA 패키지가 활용하는 보기에 대한 자세한 내용은 개요 페이지의 [프로비저닝](overview.md#provisioning) 섹션을 참조하십시오.
 
 +++
 
@@ -26,7 +26,7 @@ ht-degree: 71%
 
 현재 이미 Customer Journey Analytics를 사용하고 있다면 추가적인 구현 변경이 필요하지 않습니다. 안내식 분석은 [Analysis Workspace](../analysis-workspace/home.md) 등 다른 CJA 인터페이스와 동일한 [데이터 보기](../data-views/data-views.md) 및 [연결](../connections/overview.md)을 사용합니다.
 
-안내식 분석을 통해 최종 사용자가 가장 성공할 수 있도록 Adobe Experience Platform 및 [데이터 보기](../data-views/data-views.md)에서 강력한 이벤트 스키마와 관리 전략을 사용하는 것이 좋습니다.
+최종 사용자가 안내식 분석을 통해 가장 성공적인 결과를 얻을 수 있도록 하려면 Adobe Experience Platform 및 [데이터 보기](../data-views/data-views.md)에 강력한 이벤트 스키마와 관리 전략을 마련하는 것이 좋습니다.
 
 +++
 
@@ -38,23 +38,25 @@ ht-degree: 71%
 
 +++
 
-+++**안내식 분석과 Analysis Workspace 간의 용어 비교는 어떻게 됩니까?**
++++**안내식 분석과 Analysis Workspace 간의 용어를 비교하면 어떻습니까?**
 
-안내식 분석은 제품 팀에서 더 자주 사용되는 용어를 사용합니다. 안내식 분석과 [Analysis Workspace](../analysis-workspace/home.md) 간에 전환할 때 다음 표를 참조할 수 있습니다.
+안내식 분석과 [Analysis Workspace](../analysis-workspace/home.md)은(는) 몇 가지 사소한 차이점을 가지고 대부분의 주요 용어에 맞게 조정됩니다.
 
 | 안내식 분석 용어 | Analysis Workspace 용어 |
 | --- | --- |
-| 이벤트 | 지표 |
+| 이벤트 (1/0의 이진 지표) | 지표 |
 | 사용자 | 사용자 |
-| 속성 | 차원 |
-| 값 | 차원 항목 |
+| 차원 | 차원 |
+| 차원 항목 | 차원 항목 |
 | 세그먼트 | 필터 |
+| 필터링 | 보고서 필터 |
+| 계산된 지표, 지표 | 계산된 지표 |
 
 {style="table-layout:auto"}
 
 +++
 
-+++**분석 및 Analysis Workspace 접근 방식 보고 방식의 차이점은 무엇입니까?**
++++**안내식 분석과 Analysis Workspace 보고 접근 방식에는 어떤 차이점이 있습니까?**
 
 [Analysis Workspace](../analysis-workspace/home.md)와 안내식 분석은 동일한 기본 데이터를 사용하지만, 각 도구를 사용하여 해당 데이터에 대한 쿼리를 구성하는 방식은 다릅니다.
 
@@ -70,7 +72,7 @@ ht-degree: 71%
 
   ![차원 중심](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* 일반적인 이벤트 및 사용자 중심의 안내식 분석 접근 방식은 &quot;홈 페이지를 방문한 사용자가 몇 명입니까?&quot;일 것입니다.
+* 대표적인 이벤트 및 사용자 중심 안내식 분석 접근 방식은 “홈 페이지를 방문한 사용자 수에 대한 질문”입니다.
 
   ![이벤트 중심](assets/event-centered.png){style="border:1px solid gray"}
 
