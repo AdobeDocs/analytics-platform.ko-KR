@@ -6,9 +6,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 role: User
 source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 94%
 
 +++**안내식 분석과 Analysis Workspace 간의 용어를 비교하면 어떻습니까?**
 
-안내식 분석과 [Analysis Workspace](../analysis-workspace/home.md)은(는) 몇 가지 사소한 차이점을 가지고 대부분의 주요 용어에 맞게 조정됩니다.
+안내식 분석 및 [Analysis Workspace](../analysis-workspace/home.md)는 몇 가지 작은 차이점을 제외하고는 대부분의 주요 용어가 일치합니다.
 
 | 안내식 분석 용어 | Analysis Workspace 용어 |
 | --- | --- |
-| 이벤트 (1/0의 이진 지표) | 지표 |
+| 이벤트(바이너리 1/0 지표) | 지표 |
 | 사용자 | 사용자 |
 | 차원 | 차원 |
 | 차원 항목 | 차원 항목 |

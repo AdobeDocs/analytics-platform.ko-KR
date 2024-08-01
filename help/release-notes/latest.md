@@ -4,7 +4,7 @@ description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 4f228dbe58a9efbe988f274c071c61ec5e36d321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
 ht-degree: 100%
 

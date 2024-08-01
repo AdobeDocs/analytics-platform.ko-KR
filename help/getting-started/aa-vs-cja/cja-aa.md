@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2273'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 99%
 | Report Builder | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | 사용자 권한/데이터 액세스 제어 | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 생성과 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
 | 시각화 | 맵 시각화를 제외한 모든 Workspace 시각화가 지원됩니다. |
-| 크로스 디바이스/크로스 채널 결합 | ID 정보가 포함된 이벤트 데이터 세트에 대해 지원됩니다. [결합](../../stitching/overview.md)을 참조하십시오. |
+| 크로스 디바이스/크로스 채널 결합 | 신원 정보가 포함된 이벤트 데이터 세트에 대해 지원됩니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 
 {style="table-layout:auto"}
 
