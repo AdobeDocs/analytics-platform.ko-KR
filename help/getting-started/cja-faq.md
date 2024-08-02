@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 100%
+source-wordcount: '2547'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 
 +++**내역 데이터(채우기)의 결합은 어떻게 작동합니까?**
 
-처음 켜질 때 Adobe에서 이전 달의 시작 시점(최대 60일)까지 포함하는 결합된 데이터 채우기를 제공합니다. 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](../stitching/overview.md)
+처음 켜면 Adobe은 사용자가 선택한 시간까지 거슬러 올라가는 결합된 데이터의 채우기를 제공합니다(권한이 부여된 Customer Journey Analytics 패키지에 따라 최대 25개월). 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](../stitching/overview.md)
 
 +++
 
