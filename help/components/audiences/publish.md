@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 91ab1d3160db83979e1550f8f1b5135065cc6707
+source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 56%
+source-wordcount: '1697'
+ht-degree: 52%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 56%
 
 이 [개요](/help/components/audiences/audiences-overview.md)를 읽고 Customer Journey Analytics 대상의 개념을 숙지하십시오.
 
-## 대상자 만들기 {#create}
+## 대상자 만들기 및 게시 {#create}
 
-1. 대상자를 만들려면 다음 세 가지 방법으로 시작할 수 있습니다.
+1. 대상을 만들고 게시하려면 다음 중 하나를 수행하십시오.
 
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
@@ -74,26 +74,26 @@ ht-degree: 56%
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 클릭하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
-## 대상자가 생성된 후 진행되는 상황? {#after-audience-created}
+## 대상을 만들고 게시하면 어떻게 됩니까? {#after-audience-created}
 
-대상자를 만들면, Adobe은 새로운 각 Customer Journey Analytics 대상자에 대한 Experience Platform 스트리밍 세그먼트를 만듭니다. Adobe Experience Platform 스트리밍 세그먼트는 조직이 스트리밍 세분화를 위해 설정된 경우에만 만들어집니다.
+Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Platform에서 해당 대상을 사용할 수 있습니다. Adobe Experience Platform 스트리밍 세그먼트는 조직이 스트리밍 세분화를 위해 설정된 경우에만 만들어집니다.
 
-* Adobe Experience Platform 세그먼트는 Customer Journey Analytics 대상과 동일한 이름/설명을 공유하지만 이 이름은 고유하도록 Customer Journey Analytics 대상 ID에 추가됩니다.
-* Customer Journey Analytics 대상 이름/설명이 변경되면 Adobe Experience Platform 세그먼트 이름/설명도 해당 변경 사항을 반영합니다.
-* 사용자가 Customer Journey Analytics 대상자를 삭제해도 Adobe Experience Platform 세그먼트는 삭제되지 않습니다. 그 이유는 Customer Journey Analytics 대상이 나중에 삭제 취소될 수 있기 때문입니다.
+* Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름/설명을 공유하지만, 이 이름은 고유하도록 Customer Journey Analytics 대상자 ID에 추가됩니다.
+* Customer Journey Analytics에서 대상자의 이름이나 설명에 대한 모든 변경 사항은 플랫폼에 반영됩니다.
+* Customer Journey Analytics에서 대상이 삭제되면 플랫폼에서 해당 대상을 계속 사용할 수 있습니다.
 
 ## 지연 고려 사항 {#latency}
 
 대상자 게시 전, 게시 중 및 게시 후 여러 지점에서 지연이 발생할 수 있습니다. 가능한 지연에 대한 개요는 다음과 같습니다.
 
-![이 섹션에 설명된 대로 대상자 게시의 대기 시간입니다.](/help/components/audiences/assets/latency-diagram.png)
+![이 섹션에 설명된 대로 대상자 게시의 대기 시간입니다.](assets/latency-diagram.svg)
 
 | # | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
 | 표시되지 않음 | Adobe Analytics-Analytics 소스 커넥터 (A4T) | 최대 30분 |
 | 1 | Analytics 소스 커넥터 또는 기타 소스에서 데이터 레이크로 데이터 수집 | 최대 90분 |
 | 2 | Experience Platform 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 최대 90분 |
-| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다.<p>**참고**: 대상자가 1~2분 내에 Experience Platform에서 생성/정의됩니다. 하지만 일치하는 기준을 기반으로 하여 대상자가 ID를 받기 시작하고 활성화할 준비가 되기까지 약 60분이 소요됩니다. | 약 60분 |
+| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | 몇 초 |
 | 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | Adobe Experience Platform에서 대상 만들기: 새 세그먼트 활성화 | 1~2시간 |
 
@@ -101,15 +101,34 @@ ht-degree: 56%
 
 ## Experience Platform에서 Customer Journey Analytics 대상 사용 {#audiences-aep}
 
-Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 연결이 구성될 때 [!UICONTROL 개인 ID](으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
+Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 연결이 구성되었을 때 [!UICONTROL 개인 ID](으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
 
 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
-**[!UICONTROL 세그먼트]** > **[!UICONTROL Customer Journey Analytics 만들기]** > **[!UICONTROL 대상자]** 탭 > **[!UICONTROL CJA 대상자]**&#x200B;로 이동하여 플랫폼에서 세그먼트 대상자를 볼 수 있습니다.
+Platform에서 Customer Journey Analytics 대상을 보려면 다음 작업을 수행하십시오.
 
-Customer Journey Analytics 대상을 Adobe Experience Platform 세그먼트에 대한 세그먼트 정의로 드래그할 수 있습니다.
+>[!AVAILABILITY]
+>
+>다음 단계에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 단계가 환경에 표시되는 내용과 일치하지 않으면 대신 다음 단계를 사용하십시오. [!UICONTROL **세그먼트**] > [!UICONTROL **세그먼트 만들기**] > [!UICONTROL **대상**] 탭 > [!UICONTROL **CJA 대상**].
+>
+>기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
-![왼쪽 창의 세그먼트와 기본 패널의 CJA 대상을 강조 표시하는 Adobe Expericen Platform UI.](assets/audiences-aep.png)
+1. 왼쪽 레일에서 [!UICONTROL **고객**]&#x200B;을 확장한 다음 [!UICONTROL **대상**]&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
+
+1. [!UICONTROL **찾아보기**] 탭을 선택합니다.
+
+   왼쪽 패널의 ![대상 옵션](assets/audiences-aep.png)
+
+1. Customer Journey Analytics에서 게시한 대상자를 찾으려면 다음 중 하나를 수행하십시오.
+
+   * [!UICONTROL **Customer Journey Analytics**]&#x200B;을 원본으로 표시하는 대상을 보려면 테이블을 [!UICONTROL **원본**] 열을 기준으로 정렬하세요.
+
+   * 필터 아이콘을 선택합니다.
+
+   * 검색 필드를 사용합니다.
+
+플랫폼에서 대상을 사용하는 방법에 대한 자세한 내용은 Experience Platform 설명서의 [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)에서 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#audiences) 섹션을 참조하십시오.
+
 
 ## FAQ {#faq}
 
@@ -141,7 +160,7 @@ Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스
 
 +++**Customer Journey Analytics이 어떤 ID를 전송합니까?**
 
-[연결 설정](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)에 지정된 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
+[연결 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)에 지정된 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
 
 +++
 
