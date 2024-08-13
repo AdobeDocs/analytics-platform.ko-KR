@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 6d4dd1cd0e2c9b89ed37ca713ecc6d5db7d9e745
+source-git-commit: 9c022dba63fd837aee28393aceb4eac851a993ec
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,12 @@ ht-degree: 100%
       + [값 옵션 없음](../data-views/component-settings/no-value-options.md)
       + [지속성](../data-views/component-settings/persistence.md)
       + [하위 문자열](../data-views/component-settings/substring.md)
+      + [요약 데이터 그룹](../data-views/component-settings/summary-data-group.md)
       + [값 버킷팅](../data-views/component-settings/value-bucketing.md)
    + [표준 구성 요소 참조](../data-views/component-reference.md)
    + [BI 확장 기능](../data-views/bi-extension.md)
    + [파생 필드](../data-views/derived-fields/derived-fields.md)
+   + [요약 데이터](../data-views/summary-data.md)
    + [레이블 및 정책](../data-views/data-governance.md)
 
 + 작업 영역 프로젝트 {#cja-workspace}
@@ -346,11 +348,12 @@ ht-degree: 100%
       + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
       + [Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
-      + [Marketo Engage 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에 보고](../use-cases/data-ingestion/marketo.md)
-      + [Adobe Experience Platform 대상자를 Customer Journey Analytics로 수집](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
+      + [Experience Platform 대상자 수집 및 사용](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
       + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
+      + [요약 데이터 사용](../use-cases/data-views/summary-data.md)
    + 데이터 내보내기 {#data-export}
       + [개요](../use-cases/data-export/overview.md)
       + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
