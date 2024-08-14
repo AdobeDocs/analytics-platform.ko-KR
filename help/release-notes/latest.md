@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+source-git-commit: 1be029f373ea5c161631a432bc275e5afd8dc761
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '538'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **요약 수준 데이터 소스** | 개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터를 사용하여 다음과 같은 다양한 사용 사례를 지원할 수 있습니다.<ul><li>이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다. 여기에는 날짜 및 단일 지표 값 등 간단한 항목이 포함되거나 광고 노출 횟수, 이메일 열기, 광고 비용, 매출 원가 등 여러 차원 항목 및 지표가 포함될 수 있습니다.</li><li>시간별 또는 일별로 타겟 또는 목표를 업로드한 다음 이벤트 수준 지표에 대해 이러한 타겟 또는 목표를 지정합니다. 이를 통해 조직 타겟 또는 목표에 대한 지표의 추세를 시각화할 수 있습니다.</li></ul><p>자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하세요.</p> |  | 2024년 8월 13일 수요일 |
+| **요약 수준 데이터 소스** | 개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터를 사용하여 다음과 같은 다양한 사용 사례를 지원할 수 있습니다.<ul><li>이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다. 여기에는 날짜 및 단일 지표 값 등 간단한 항목이 포함되거나 광고 노출 횟수, 이메일 열기, 광고 비용, 매출 원가 등 여러 차원 항목 및 지표가 포함될 수 있습니다.</li><li>시간별 또는 일별로 타겟 또는 목표를 업로드한 다음 이벤트 수준 지표에 대해 이러한 타겟 또는 목표를 지정합니다. 이를 통해 조직 타겟 또는 목표에 대한 지표의 추세를 시각화할 수 있습니다.</li></ul><p>자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하세요.</p> | 2024년 8월 13일 수요일 | 2024년 8월 21일 목요일 |
 | **대상자가 Experience Platform의 새로운 “대상자” 섹션에 게시됨** | 이제 Customer Journey Analytics에서 게시된 대상자를 Adobe Experience Platform의 새로운 “대상자” 섹션에서 사용할 수 있습니다.<p>이전에는 Customer Journey Analytics에서 게시된 대상자를 Experience Platform의 “세그먼트” 섹션에서 사용할 수 있었습니다.</p><p>이 개선 사항은 다음과 같은 이점이 있습니다.</p><ul><li>대상자가 더 이상 1시간의 지연 없이 Experience Platform에 표시됩니다. 게시된 지 몇 초면 사용할 수 있습니다.</li><li>Experience Platform에서 대상자가 원래 게시된 애플리케이션을 표시하는 “원본” 열을 사용하여 대상자를 정렬할 수 있습니다.</li><li>Experience Platform의 필터링 및 정렬 옵션을 사용하여 해당 대상자를 보다 빨리 찾을 수 있습니다.</li></ul> <p>자세한 내용은 문서 [대상 만들기 및 게시](/help/components/audiences/publish.md)에서 [Experience Platform에서 Customer Journey Analytics 대상 사용](/help/components/audiences/publish.md#use-customer-journey-analytics-audiences-in-experience-platform)을 참조하십시오.</p> | 2024년 8월 14일 | 2024년 8월 22일 |
 | **지능형 경고** | Customer Journey Analytics의 지능형 경고를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.<p>예외 항목 임계값, 백분율 변경 또는 특정 데이터 포인트를 기준으로 지능형 경고가 트리거되도록 설정할 수 있습니다. 경고는 예외 항목 탐지 기능과 통합하여 필요 시 트리거되는 세부적인 제어를 제공합니다.</p><p>Customer Journey Analytics에서 지능형 경고의 사용 프로세스는 Adobe Analytics에서 지능형 경고의 사용 프로세스와 거의 동일합니다. 한 가지 주요 차이점은 시간별 경고는 Customer Journey Analytics에서 사용할 수 없다는 것입니다. 이러한 차이는 가져올 수 있는 다양한 이벤트 데이터에 대한 데이터 수집이 일반적으로 데이터 이벤트 시간보다 3~9시간 정도 지연된 이후에 완료되기 때문입니다.</p><p>(업데이트된 설명서 링크)</p><!--<p>[Learn more](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)</p> --> |  | TBD |
 
