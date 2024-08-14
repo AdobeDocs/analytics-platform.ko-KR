@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: ht
-source-wordcount: '2273'
-ht-degree: 100%
+source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 100%
 | 보고 API 액세스 | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | 예약된 보고서/프로젝트 | 전체 지원 |
 | 세그먼트 | 전체 지원. 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics로 포팅되지 않습니다. |
+| 요약 수준 데이터 소스 | 전체 지원 |
 | 가상 보고서 세트 | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | 가상 보고서 세트 구성 요소 큐레이션 | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
 | 디바이스, 브라우저, 레퍼러, 기술 차원 | [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 기반의 데이터 세트와 Web SDK에서 생성된 데이터 세트 모두에 대해 지원됩니다. [ADC를 통해 지원되는 Analytics 변수에 대한 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=ko-KR)를 참조하십시오. Experience Platform Web SDK 데이터 컬렉션을 사용하는 경우 디바이스 조회에 기반한 디바이스 및 차원은 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. Web SDK 데이터스트림에 디바이스 및 브라우저 조회를 추가하려면 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 참조하십시오. |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
 | 거래 ID 데이터 소스 | 지원이 예정되어 있습니다. |
-| 요약 수준 데이터 소스 | 지원이 예정되어 있습니다. |
 
 {style="table-layout:auto"}
 
