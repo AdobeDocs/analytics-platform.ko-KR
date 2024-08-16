@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
+source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '4026'
 ht-degree: 71%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | 2024년 8월 | |
+| B2B 프로젝트 예시 | 새로운 [B 조회를 위한 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md) 기능을 사용하여 Customer Journey Analytics에서 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 문서화한 [사용 사례](/help/use-cases/b2b/example.md)를 추가했습니다. |
 | 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 보여 주기 위해 [쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예제를 추가했습니다. |
 | 요약 데이터 | [요약 데이터](/help/data-views/summary-data.md), [요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md) 및 [요약 데이터 사용 사례](/help/use-cases/data-views/summary-data.md)에 대한 설명서를 추가했습니다. |
 | **2024년 7월** | |
