@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: 3f83b4c141324a7b255ac5af039fa1d7607f3b15
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1223'
 ht-degree: 7%
 
 ---
@@ -58,16 +58,16 @@ B2B 데이터의 개인 기반 조회를 지원하는 연결을 적절하게 설
 
    | 데이터 세트 | 개인 ID | 키 | 일치하는 키 <br/>(이벤트 데이터 세트) |
    |---|---|---|---| 
-   | B2B 활동 데이터 세트 | `personKey.sourceKey` | | |
-   | B2B 개인 데이터 세트 | `b2b.personKey.sourceKey` | | |
-   | B2B 계정 데이터 세트 | | `accountKey.sourceKey`❶<br/>Source 키 | `b2b.accountKey.sourceKey`❶<br/>(B2B 개인 데이터 세트) |
-   | B2B 영업 기회 데이터 세트 | | `opportunityKey.sourceKey`❷<br/>Source 키 | `opportunityKey.sourceKey`❷<br/>(B2B 영업 기회 관계 데이터 세트) |
-   | B2B 캠페인 데이터 세트 | | `campaignKey.sourceKey`❸<br/>Source 키 | `campaignKey.sourceKey`❸<br/>(B2B 캠페인 멤버 데이터 세트) |
-   | B2B 마케팅 목록 데이터 세트 | | `marketingListKey.sourceKey`❹<br/>Source 키 | `marketingListKey.sourceKey`❹<br/>(B2B 마케팅 목록 구성원 데이터 세트) |
-   | B2B 계정 사용자 관계 데이터 세트 | | `personKey.sourceKey`❺<br/>Source 키 | `personKey.sourceKey`❺<br/>Source 키(이벤트 데이터 세트) |
-   | B2B 영업 기회 사용자 관계 데이터 세트 | | `personKey.sourceKey`❻<br/>Source 키 | `personKey.sourceKey`❻<br/>Source 키(이벤트 데이터 세트) |
-   | B2B 캠페인 멤버 데이터 세트 | | `personKey.sourceKey`❼<br/>Source 키 | `personKey.sourceKey`❼<br/>Source 키(이벤트 데이터 세트) |
-   | B2B 마케팅 목록 구성원 데이터 세트 | | `personKey.sourceKey`❽<br/>Source 키 | `personKey.sourceKey`❽<br/>Source 키(이벤트 데이터 세트) |
+   | B2B 활동 데이터 세트 | SourceKey <br/>**personKey.sourceKey** | | |
+   | B2B 개인 데이터 세트 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
+   | B2B 계정 데이터 세트 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>(B2B 개인 데이터 세트)<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B 영업 기회 데이터 세트 | | Source 키&#x200B;<br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>(B2B 영업 기회 관계 데이터 세트)<br/>**opportunityKey.sourceKey**❷ |
+   | B2B 캠페인 데이터 세트 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(B2B 캠페인 멤버 데이터 세트)<br/>c **campaignKey.sourceKey**❸<br/> |
+   | B2B 마케팅 목록 데이터 세트 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(B2B 마케팅 목록 구성원 데이터 세트)<br/>**marketingListKey.sourceKey**❹ |
+   | B2B 계정 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❺ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❺ |
+   | B2B 영업 기회 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❻ |
+   | B2B 캠페인 멤버 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❼ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❼ |
+   | B2B 마케팅 목록 구성원 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❽ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
