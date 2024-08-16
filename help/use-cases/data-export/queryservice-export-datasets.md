@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 14a90758-91eb-4610-8802-1edfdb8b9689
-source-git-commit: 9fef1fddbb4b51efb9282e3ef13501bd498a4546
+source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2642'
 ht-degree: 3%
 
 ---
@@ -183,6 +183,160 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 - [속성 분석](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/attribution-analysis)
 - [보트 필터링](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/bot-filtering)
 - 및 쿼리 서비스 안내서에서 [지원되는 사용 사례](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/overview)를 참조하십시오.
+
+다음은 세션 간에 속성을 올바르게 적용하는 예제이며, 이는 다음 방법을 보여줍니다.
+
+- 지난 90일을 전환 확인으로 사용,
+- 세션 및/또는 기여도 분석과 같은 창 함수 적용
+- `ingest_time`을(를) 기준으로 출력을 제한합니다.
+
++++
+세부 사항
+
+  이렇게 하려면 다음을 수행해야 합니다.
+
+   - 처리 상태 테이블 `checkpoint_log`을(를) 사용하여 현재 시간과 마지막 수집 시간을 추적합니다. 자세한 내용은 [이 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/incremental-load)를 참조하십시오.
+   - `_acp_system_metadata.ingestTime`을(를) 사용할 수 있도록 시스템 열을 삭제하지 않도록 설정하십시오.
+   - 가장 안쪽의 `SELECT`을(를) 사용하여 사용할 필드를 선택하고 세션 및/또는 속성 계산을 위해 이벤트를 전환 기간으로 제한합니다. 예를 들어 90일입니다.
+   - 다음 수준 `SELECT`을(를) 사용하여 세션 및/또는 속성 창 함수와 기타 계산을 적용합니다.
+   - 출력 테이블에서 `INSERT INTO`을(를) 사용하여 마지막 처리 시간 이후 도착한 이벤트로만 전환 확인을 제한합니다. `_acp_system_metadata.ingestTime `을(를) 처리 상태 테이블에 마지막으로 저장한 시간과 비교하여 필터링하여 이 작업을 수행합니다.
+
+  **세션화 창 함수 예제**
+
+  ```sql
+  $$ BEGIN
+     -- Disable dropping system columns
+     set drop_system_columns=false; 
+  
+     -- Initialize variables
+     SET @last_updated_timestamp = SELECT CURRENT_TIMESTAMP;
+  
+     -- Get the last processed batch ingestion time
+     SET @from_batch_ingestion_time = SELECT coalesce(last_batch_ingestion_time, 'HEAD') 
+        FROM checkpoint_log a 
+        JOIN (
+              SELECT MAX(process_timestamp) AS process_timestamp 
+              FROM checkpoint_log
+              WHERE process_name = 'data_feed' 
+              AND process_status = 'SUCCESSFUL'
+        ) b
+        ON a.process_timestamp = b.process_timestamp;
+  
+     -- Get the last batch ingestion time
+     SET @to_batch_ingestion_time = SELECT MAX(_acp_system_metadata.ingestTime) 
+        FROM events_dataset;
+  
+     -- Sessionize the data and insert into data_feed.
+     INSERT INTO data_feed
+     SELECT *
+     FROM (
+        SELECT
+              userIdentity,
+              timestamp,
+              SESS_TIMEOUT(timestamp, 60 * 30) OVER (
+                 PARTITION BY userIdentity
+                 ORDER BY timestamp
+                 ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+              ) AS session_data,
+              page_name,
+              ingest_time
+        FROM (
+              SELECT
+                 userIdentity,
+                 timestamp,
+                 web.webPageDetails.name AS page_name,
+                 _acp_system_metadata.ingestTime AS ingest_time
+              FROM events_dataset
+              WHERE timestamp >= current_date - 90
+        ) AS a
+        ORDER BY userIdentity, timestamp ASC
+     ) AS b
+     WHERE b.ingest_time >= @from_batch_ingestion_time;
+  
+     -- Update the checkpoint_log table
+     INSERT INTO checkpoint_log
+     SELECT
+        'data_feed' process_name,
+        'SUCCESSFUL' process_status,
+        cast(@to_batch_ingestion_time AS string) last_batch_ingestion_time,
+        cast(@last_updated_timestamp AS TIMESTAMP) process_timestamp
+  END
+  $$;
+  ```
+
+  **속성 창 함수 예제**
+
+  ```sql
+  $$ BEGIN
+   SET drop_system_columns=false;
+  
+  -- Initialize variables
+   SET @last_updated_timestamp = SELECT CURRENT_TIMESTAMP;
+  
+  -- Get the last processed batch ingestion time 1718755872325
+   SET @from_batch_ingestion_time =
+       SELECT coalesce(last_snapshot_id, 'HEAD')
+       FROM checkpoint_log a
+       JOIN (
+           SELECT MAX(process_timestamp) AS process_timestamp
+           FROM checkpoint_log
+           WHERE process_name = 'data_feed'
+           AND process_status = 'SUCCESSFUL'
+       ) b
+       ON a.process_timestamp = b.process_timestamp;
+  
+   -- Get the last batch ingestion time 1718758687865
+   SET @to_batch_ingestion_time =
+       SELECT MAX(_acp_system_metadata.ingestTime)
+       FROM demo_data_trey_mcintyre_midvalues;
+  
+   -- Sessionize the data and insert into new_sessionized_data
+   INSERT INTO new_sessionized_data
+   SELECT *
+   FROM (
+       SELECT
+           _id,
+           timestamp,
+           struct(User_Identity,
+           cast(SESS_TIMEOUT(timestamp, 60 * 30) OVER (
+               PARTITION BY User_Identity
+               ORDER BY timestamp
+               ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+           ) as string) AS SessionData,
+           to_timestamp(from_unixtime(ingest_time/1000, 'yyyy-MM-dd HH:mm:ss')) AS IngestTime,      
+           PageName,
+           first_url,
+           first_channel_type
+             ) as _demosystem5
+       FROM (
+           SELECT
+               _id,
+               ENDUSERIDS._EXPERIENCE.MCID.ID as User_Identity,
+               timestamp,
+               web.webPageDetails.name AS PageName,
+              attribution_first_touch(timestamp, '', web.webReferrer.url) OVER (PARTITION BY ENDUSERIDS._EXPERIENCE.MCID.ID ORDER BY timestamp ASC ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING).value AS first_url,
+              attribution_first_touch(timestamp, '',channel.typeAtSource) OVER (PARTITION BY ENDUSERIDS._EXPERIENCE.MCID.ID ORDER BY timestamp ASC ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING).value AS first_channel_type,
+               _acp_system_metadata.ingestTime AS ingest_time
+           FROM demo_data_trey_mcintyre_midvalues
+           WHERE timestamp >= current_date - 90
+       )
+       ORDER BY User_Identity, timestamp ASC    
+   )
+   WHERE _demosystem5.IngestTime >= to_timestamp(from_unixtime(@from_batch_ingestion_time/1000, 'yyyy-MM-dd HH:mm:ss'));
+  
+  -- Update the checkpoint_log table
+  INSERT INTO checkpoint_log
+  SELECT
+     'data_feed' as process_name,
+     'SUCCESSFUL' as process_status,
+     cast(@to_batch_ingestion_time AS string) as last_snapshot_id,
+     cast(@last_updated_timestamp AS timestamp) as process_timestamp;
+  
+  END
+  $$;
+  ```
+
++++
 
 
 ### 쿼리 예약

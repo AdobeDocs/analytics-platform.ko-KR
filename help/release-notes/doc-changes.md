@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
 workflow-type: tm+mt
-source-wordcount: '3940'
-ht-degree: 70%
+source-wordcount: '3990'
+ht-degree: 71%
 
 ---
 
@@ -19,8 +19,11 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| 2024년 8월 | |
+| 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 보여 주기 위해 [쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예제를 추가했습니다. |
+| 요약 데이터 | [요약 데이터](/help/data-views/summary-data.md), [요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md) 및 [요약 데이터 사용 사례](/help/use-cases/data-views/summary-data.md)에 대한 설명서를 추가했습니다. |
 | **2024년 7월** | |
-| 빠른 계산된 지표에 대한 정보가 추가되었습니다 | [지표](/help/components/apply-create-metrics.md)의 정보를 업데이트하여 [계산된 지표 빌더에서 만들어진 계산된 지표](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)과(와) [단일 프로젝트 내에서 빠른 계산된 지표로 만들어진 계산된 지표](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 간의 차이점을 명확히 했습니다. 또한 빠른 계산된 지표를 만들기 위해 여기에 대한 자세한 내용을 추가했습니다.<p>계산된 지표 빌더에서 생성된 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에 적용할 수 있지만 빠른 계산된 지표로 생성된 계산된 지표는 해당 지표가 생성된 프로젝트 내에서만 사용할 수 있습니다.</p><p>또한 유사한 설명을 위해 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)의 정보를 업데이트했습니다.</p> |
+| 빠른 계산된 지표에 대해 추가된 정보 | [계산된 지표 빌더에서 생성된 계산된 지표](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)와 [단일 프로젝트 내에서 빠른 계산된 지표로 생성된 지표](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 간의 차이점을 명확히 설명하기 위해 [지표](/help/components/apply-create-metrics.md)에 대한 정보가 업데이트되었습니다. 또한 빠른 계산된 지표를 생성하기 위해 이에 대한 자세한 내용이 추가되었습니다.<p>계산된 지표 빌더에서 생성된 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에 적용할 수 있는 반면, 빠른 계산된 지표로 생성된 계산된 지표는 생성된 프로젝트 내에서만 사용할 수 있습니다.</p><p>또한 유사한 내용을 명확하게 하기 위해 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)에 대한 정보가 업데이트되었습니다.</p> |
 | 파생 필드 중복 제거 함수 | 파생 필드 [중복 제거](/help/data-views/derived-fields/derived-fields.md#deduplicate) 함수에 대한 설명서를 추가했습니다. |
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
