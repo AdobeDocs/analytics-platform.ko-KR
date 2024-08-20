@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 056c23c584823c7b3633d04585d15197692a2ee2
+source-git-commit: 190e8ad584cdb933b570467fc757b392627fc282
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 99%
+source-wordcount: '1099'
+ht-degree: 100%
 
 ---
 
@@ -366,8 +366,6 @@ ht-degree: 99%
    + 크로스 채널 데이터 {#cross-channel}
       + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
       + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
-   + 결합 {#stitching}
-      + [공유 장치](/help/use-cases/stitching/shared-devices.md)
    + Adobe Analytics 데이터 {#aa-data}
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
