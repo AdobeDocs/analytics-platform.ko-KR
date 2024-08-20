@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: 97fcb5f16962b85aa4f95bfbe2f16295d8bb3452
+source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 6%
 
 #### 마지막 인증 속성
 
-Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Last-auth는 Audience Manager에서 사용되며 실시간 고객 데이터 프로필 사용 사례에 선호되는 방법입니다. Experience Platform ID 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다.
+Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Last-auth는 Audience Manager에서 사용되며 실시간 고객 데이터 프로필 사용 사례에 선호되는 방법입니다. Experience Platform ID 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다. 자세한 내용은 [ID 그래프 연결 규칙 개요](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)를 참조하십시오.
 
 결합에 마지막 인증 속성을 사용할 때 결합된 ID는 아래 표와 같이 해결됩니다.
 
@@ -65,7 +65,7 @@ Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 �
 
 #### Device-split
 
-장치 분할은 익명 활동과 가장 가까운 거리에 있는 사용자에게 공유 장치의 익명 활동을 특성화합니다. Device-split은 가장 가까운 사람에게 인증되지 않은 활동과 인증된 활동 모두에 대한 크레딧을 제공하기 때문에 Device-split은 분석 사용 사례에 선호되는 접근법입니다. 장치 분할은 현재 필드 기반 결합에 사용됩니다.
+장치 분할은 익명 활동과 가장 가까운 거리에 있는 사용자에게 공유 장치의 익명 활동을 특성화합니다. 장치 분할은 현재 필드 기반 결합에 사용됩니다. Device-split은 가장 가까운 사람에게 인증되지 않은 활동과 인증된 활동 모두에 대한 크레딧을 제공하기 때문에 Device-split은 분석 사용 사례에 선호되는 접근법입니다. 장치 분할은 현재 필드 기반 결합에 사용됩니다.
 
 결합에 디바이스 분할 속성을 사용할 때 결합된 ID는 아래 표와 같이 확인됩니다.
 
