@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
+source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
 
 # Customer Journey Analytics 보호
 
-이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics에 대한 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능에 대한 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
+이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics에 대한 제품 설명](https://helpx.adobe.com/ko/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능에 대한 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/ko/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
 
 ## 제한 유형
 
@@ -68,7 +68,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 -->
 
-## 대상
+## 대상자
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
@@ -77,7 +77,7 @@ ht-degree: 7%
 | 대상 새로 고침 빈도 | 4 | 시스템 강제 보호 | [대상](../components/audiences/audiences-overview.md)의 최대 빈도를 시간 단위로 새로 고칠 수 있습니다. |
 | 대상자 새로 고침 전환 확인 기간 | 90 | 시스템 강제 보호 | 전환 확인 기간 새로 고침의 최대 일 수. |
 | 대상자 만료일 새로 고침 | 13 | 시스템 강제 보호 | 대상자가 생성된 날짜부터 새로 고침이 중단되는 최대 기간(월)입니다. 고객은 이 기간을 13개월 더 연장할 수 있습니다. |
-| 새로 고치는 대상 수 | 75,150 | 시스템 강제 보호 | 새로 고치는 최대 대상 수, 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 새로 고치는 대상 수 | 75,150 | 시스템 강제 보호 | 새로 고치는 최대 대상자 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ Experience Platform [Real-time Customer Data Platform 보호](https://experience
 |---|--:|---|---|
 | 프로젝트 | 50,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
 | 데이터 보기 | 2,000 | 시스템 강제 보호 | 조직의 최대 [데이터 보기](../data-views/data-views.md) 수입니다. |
-| 데이터 보기 | 50 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수 |
+| 데이터 보기 | 500-1000 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 | 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html). |
 | 연결 | 1000 | 시스템 강제 보호 | 조직의 최대 [연결](../connections/overview.md) 수입니다. |
 | 연결 제목 | 500 | 시스템 강제 보호 | 연결 제목의 최대 문자 수입니다. |
@@ -110,7 +110,7 @@ Experience Platform [Real-time Customer Data Platform 보호](https://experience
 | 주석 설명 | 250 | 시스템 강제 보호 | 주석 설명의 최대 문자 수. |
 | 스키마 필드 | 10 | 시스템 강제 보호 | [파생 필드](../data-views/derived-fields/derived-fields.md)에 대한 규칙을 정의할 때 표준 필드를 포함하지 않는 최대 스키마 필드 수입니다. |
 | 조회/프로필 필드 | 3 | 시스템 강제 보호 | 파생된 필드에 대한 규칙을 정의할 때 최대 스키마 필드 수 내의 최대 조회 또는 프로필 스키마 필드 수(표준 필드 제외). |
-| 파생 필드 | 100 - 500 | 시스템 강제 보호 | 연결당 파생된 최대 필드 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 파생 필드 | 100 - 500 | 시스템 강제 보호 | 연결당 최대 파생 필드 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -156,8 +156,8 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 결합된 데이터 세트 | 5 - 50 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 채우기 길이 | 6 - 25 | 시스템 강제 보호 | 최대 채우기 데이터 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일 수/재생 빈도). 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 채우기 길이 | 6 - 25 | 시스템 강제 보호 | 데이터 채우기의 최대 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일) / 재생 빈도. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -167,8 +167,8 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 결합된 데이터 세트 | 10 - 50 | 시스템 강제 보호 | 고객당 결합된 최대 데이터 세트 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 채우기 길이 | 13 - 25 | 시스템 강제 보호 | 최대 채우기 데이터 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일 수/재생 빈도). 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 채우기 길이 | 13 - 25 | 시스템 강제 보호 | 데이터 채우기의 최대 개월 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 전환 확인 기간/재생 빈도 | 1/1 - 30/7 | 시스템 강제 보호 | 최대 전환 확인 기간(일) / 재생 빈도. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 
 ## 필터 및 계산된 지표
@@ -215,7 +215,7 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
-| 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수. 값은 Customer Journey Analytics 패키지에 따라 달라집니다(제품 설명 참조). |
+| 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 | 테이블당 분류 | 5 | 시스템 강제 보호 | 테이블당 최대 분류 수. |
 | 테이블당 지표 | 5 | 시스템 강제 보호 | 테이블당 최대 지표 수. |
 | 일정 빈도 | 1 | 시스템 강제 보호 | 내보내기는 하루에 한 번 또는 더 긴 일정으로 예약할 수 있습니다(예: 2일에 한 번 또는 매주). |
