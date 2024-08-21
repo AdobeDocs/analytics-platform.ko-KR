@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
+source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 6%
+source-wordcount: '950'
+ht-degree: 7%
 
 ---
 
@@ -102,7 +102,9 @@ ECID 재설정을 사용할 때 결합된 ID는 아래 표에 표시된 대로 �
 
 공유된 디바이스 노출을 이해하기 위해 다음 쿼리를 수행하는 것에 대해 생각해 볼 수 있습니다.
 
-1. 공유된 디바이스의 수를 파악합니다. 장치 ID와 연결된 개인 ID가 두 개 이상 있는 장치 ID를 계산하는 쿼리를 사용할 수 있습니다. 샘플 쿼리는 다음과 같이 표시될 수 있습니다.
+1. **공유 장치 식별**
+
+   공유된 디바이스의 수를 이해하려면, 연결된 개인 ID가 2개 이상인 디바이스 ID를 계산하는 쿼리를 수행하십시오. 이는 여러 개인이 사용하는 디바이스를 식별하는 데 도움이 됩니다.
 
    ```sql
    SELECT COUNT(*)
@@ -116,7 +118,9 @@ ECID 재설정을 사용할 때 결합된 ID는 아래 표에 표시된 대로 �
    ```
 
 
-2. 공유 장치의 경우, 첫 번째 쿼리에서 비롯되므로 이러한 공유 장치에 귀속될 수 있는 총 이벤트 수를 이해해야 합니다. 이 속성을 사용하면 공유 장치가 데이터에 미치는 영향과 분석을 수행할 때의 영향을 더 잘 파악할 수 있습니다. 샘플 쿼리는 다음과 같이 표시될 수 있습니다.
+2. **공유 장치에 대한 이벤트 속성**
+
+   식별된 공유 장치의 경우, 총 이벤트 수 중 해당 장치가 원인이 될 수 있는 이벤트를 결정합니다. 이는 공유 디바이스가 데이터에 미치는 영향과 분석에 대한 영향을 통찰력을 제공합니다.
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -141,7 +145,9 @@ ECID 재설정을 사용할 때 결합된 ID는 아래 표에 표시된 대로 �
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-3. 공유 장치로 인한 이벤트(두 번째 쿼리 결과)의 경우, 개인 ID가 없는 이러한 이벤트의 수를 이해해야 합니다. 달리 말하면, 공유된 디바이스 이벤트 중 몇 개가 익명 이벤트입니까? 궁극적으로 데이터 품질을 개선하기 위해 선택하는 알고리즘(last-auth, device-split, ECID-reset)은 이러한 익명 공유 장치 이벤트에 영향을 줍니다. 샘플 쿼리는 다음과 같이 표시될 수 있습니다.
+3. **공유 장치에서 익명 이벤트 식별**
+
+   공유 디바이스로 인한 이벤트 중에서 익명 이벤트를 나타내는 개인 ID가 없는 이벤트 수를 식별합니다. 데이터 품질을 개선하기 위해 선택한 알고리즘(예: last-auth, device-split 또는 ECID-reset)은 이러한 익명 이벤트에 영향을 줍니다.
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -166,7 +172,9 @@ ECID 재설정을 사용할 때 결합된 ID는 아래 표에 표시된 대로 �
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-4. 마지막으로, 이벤트 분류가 잘못되어 각 고객이 겪게 되는 노출을 이해하려고 합니다. 이 노출을 가져오려면 각 공유 장치에 대해 총 이벤트 수와 관련된 익명 이벤트의 비율을 계산해야 합니다. 샘플 쿼리는 다음과 같이 표시될 수 있습니다.
+4. **잘못된 이벤트로 노출 계산**
+
+   마지막으로, 이벤트 분류 오류로 인해 각 고객이 직면할 수 있는 노출을 평가합니다. 각 공유 장치에 대한 총 이벤트에 대한 익명 이벤트의 비율을 계산합니다. 이를 통해 고객 데이터 정확도에 미칠 수 있는 영향을 이해할 수 있습니다.
 
    ```sql
    SELECT COUNT(*) AS total_events,
