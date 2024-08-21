@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
+source-git-commit: 5434b8432608ba5ee49f7062070fa1624af1b46a
 workflow-type: tm+mt
-source-wordcount: '3036'
+source-wordcount: '3028'
 ht-degree: 70%
 
 ---
@@ -106,7 +106,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 Adobe Experience Platform은 Journey Optimizer와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. Journey Optimizer 데이터를 Experience Platform에 데이터 세트로 전송하는 방법에 대한 절차는 Journey Optimizer 사용 안내서의 [데이터 세트 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/data-management/datasets/get-started-datasets)을 참조하십시오.
 
-### Customer Journey Analytics에 연결 만들기
+### 연결 만들기
 
 Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음에는 Journey Optimizer 데이터 세트를 기반으로 [연결을 만들](/help/connections/create-connection.md) 수 있습니다. 또는 기존 연결에 Journey Optimizer 데이터 세트를 추가할 수 있습니다.
 
@@ -174,7 +174,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 
 {style="table-layout:auto"}
 
-#### 데이터 보기에서 지표 구성
+#### 지표 구성
 
 데이터 보기에서 다음 지표를 만들어 Journey Optimizer에 있는 유사한 지표와 거의 정확한 동등성을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
