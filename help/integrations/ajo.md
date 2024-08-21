@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
+source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 100%
+source-wordcount: '3036'
+ht-degree: 70%
 
 ---
 
@@ -48,7 +48,6 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 | [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration용 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 메시지 피드백 이벤트 데이터 세트] | [!UICONTROL AJO 메시지 피드백 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 푸시 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 푸시 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 
@@ -88,7 +87,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 - **구성 요소** 탭에서:
    - 이름에 [!UICONTROL (AJO)]가 붙은 모든 지표와 차원은 이 자동 구성의 일부로 자동 추가됩니다.
-   - 자동으로 추가된 일부 지표 또는 차원은 파생 필드 기반입니다. 이들 파생 필드는 이 통합 기능을 위해 특별히 생성된 것입니다. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표는 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드 기반입니다.
+   - 자동 추가된 일부 지표 또는 차원은 파생 필드 기반입니다. 이들 파생 필드는 이 통합 기능을 위해 특별히 생성된 것입니다. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표는 [!UICONTROL 랜딩 페이지 클릭수] 파생 필드 기반입니다.
    - 일부 지표 또는 차원은 추가적인 구성을 갖고 있습니다. 예를 들어 [!UICONTROL 스팸 불만 사항(AJO)]에는 [!UICONTROL 포맷] 및 [!UICONTROL 제외 값 포함] 설정이 적용되어 있습니다.
    - 자동으로 추가된 모든 지표와 차원에는 `:`*`name_of_metric_or_dimension`*이라고 지정된 컨텍스트 레이블이 있습니다. 예를 들어 [!UICONTROL 랜딩 페이지 클릭수(AJO)] 지표에는 `:Landing page clicks (AJO)`라는 이름의 컨텍스트 레이블이 있습니다.
 
@@ -101,7 +100,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 ## Journey Optimizer와 함께 사용할 데이터 보기 수동 구성
 
-다음 섹션에서는 Journey Optimizer에서 생성된 데이터를 수동으로 사용하여 Customer Journey Analytics에서 고급 분석을 수행하는 방법을 설명합니다. [자동 구성 옵션](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer)이 요구 사항을 충족하는 경우에는 이 작업이 필요하지 않습니다.
+다음 섹션에서는 Journey Optimizer에서 생성된 데이터를 수동으로 사용하여 Customer Journey Analytics에서 고급 분석을 수행하는 방법을 설명합니다. 이 수동 구성은 [자동 구성 옵션](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer)이(가) 사용자의 요구 사항에 맞지 않는 경우에만 필요합니다.
 
 ### Journey Optimizer의 데이터를 Experience Platform에 전송
 
@@ -124,7 +123,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 {style="table-layout:auto"}
 
 
-### Journey Optimizer 차원 및 지표를 포함하도록 데이터 보기 구성
+### 데이터 보기 구성
 
 연결을 만든 다음에는 하나 이상의 [데이터 보기](/help/data-views/create-dataview.md)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
 
@@ -133,26 +132,45 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 >Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
 
 
-#### 데이터 보기에서 차원 구성
+#### 차원 구성
 
 데이터 보기에서 다음 차원을 만들어 Journey Optimizer에 있는 유사한 차원과 거의 정확한 동등성을 달성할 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
-| 차원 | 스키마 요소 | 구성 요소 설정 |
-| --- | --- | --- |
-| 여정 이름 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 구성 요소 유형: 차원 |
-| 여정 이름 및 버전 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | 구성 요소 유형: 차원 |
-| 여정 노드 이름 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | 구성 요소 유형: 차원 |
-| 여정 노드 유형 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | 구성 요소 유형: 차원 |
-| 캠페인 이름 | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | 구성 요소 유형: 차원 |
-| 채널 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | 구성 요소 유형: 차원 |
-| 푸시 제목 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.push.title` | 구성 요소 유형: 차원 |
-| 이메일 제목 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.email.subject` | 구성 요소 유형: 차원 |
-| 링크 레이블 | `_experience.customerJourneyManagement.`<br>`messageInteraction.label` | 구성 요소 유형: 차원 |
-| 실험 이름 | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | 구성 요소 유형: 차원<br>컨텍스트 레이블: 실험 |
-| 처리 이름 | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | 구성 요소 유형: 차원<br>컨텍스트 레이블: 실험 변형 |
-| 이메일 게재 실패 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | 구성 요소 유형: 차원 |
-| 이메일 게재 제외 이유 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | 구성 요소 유형: 차원 |
-| 요소 레이블 | `_experience.decisioning.propositionAction.label` | 구성 요소 유형: 차원 |
+| 차원 | 설명 | 데이터 세트 | 스키마 요소 | 구성 요소 설정 |
+| --- | --- | --- | --- | --- |
+| 액션 실행 오류(AJO) | 여정 런타임이 액션을 실행하지 못하게 하는 오류 조건입니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.actionExecutionError ` | 구성 요소 유형: 차원 |
+| 액션 레이블(AJO) | 최종 사용자가 상호 작용한 요소의 고객 생성 표시 이름입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionAction.label` | 구성 요소 유형: 차원 |
+| 배치 ID(AJO) | 예약된 여정 또는 캠페인 작업에 대한 각 새 일괄 처리 인스턴스의 호출 시 생성된 GUID입니다. 예를 들어 예약된 여정 또는 캠페인 작업이 오전 8.00과 오전 10.00에 실행되는 경우 두 개의 서로 다른 batchInstanceID가 있습니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | ` _experience.customerJourneyManagement.`<br/>`messageExecution.batchInstanceID` | 구성 요소 유형: 차원 |
+| 배치 인스턴스 타임스탬프(AJO) | 배치 인스턴스의 타임스탬프입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: Dimension(파생 필드) |
+| 캠페인 ID(AJO) | 캠페인의 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.entities.`<br/>`campaign.campaignID` | 구성 요소 유형: 차원 |
+| 캠페인 이름(AJO) | 캠페인 이름입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.entities.`<br/>`campaign.name` | 구성 요소 유형: 차원 |
+| 캠페인 버전 ID(AJO) | 캠페인의 버전 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.campaign.campaignVersionID` | 구성 요소 유형: 차원 |
+| 채널(AJO) | 이 데이터를 연관시켜야 하는 채널입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.channel._id` | 구성 요소 유형: 차원 |
+| 상관관계 ID (AJO) | 상관관계 ID입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.propositions.`<br/>`scopeDetails.correlationID` | 구성 요소 유형: 차원 |
+| 결정 정책 ID(AJO) | 이 제안에 포함할 항목을 결정할 때 사용되는 결정 정책의 ID입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: Dimension(파생 필드) |
+| 이메일 수신자 도메인(AJO) | 이메일 주소의 도메인 | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`emailChannelContext.address` | 구성 요소 유형: 차원 |
+| 이메일 제목 (AJO) | 이메일 제목, 개인화되지 않음 | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.entities.`<br/>`channelDetails.email.subject` | 구성 요소 유형: 차원 |
+| Event ID(AJO) | 시계열 이벤트에 대한 고유 식별자입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_id` | 구성 요소 유형: Dimension(파생 필드) |
+| 종료 기준 ID(AJO) | 여정을 종료해야 하는지 결정하는 데 사용되는 종료 기준의 ID입니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaID` | 구성 요소 유형: 차원 |
+| 종료 기준 이름(AJO) | 종료 기준의 이름입니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaName` | 구성 요소 유형: 차원 |
+| 실험 ID(AJO) | 실험의 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | 구성 요소 유형: 차원 |
+| 실험 이름(AJO) | 실험 이름입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.entities.`<br/>`experiment.experimentName` | 구성 요소 유형: Dimension 컨텍스트 레이블: 실험 |
+| 가져오기 오류(AJO) | 여정 런타임이 가져오기를 실행하지 못하게 하는 오류 조건입니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.fetchError` | 구성 요소 유형: 차원 |
+| 전송 시간이 최적화되어 있음(AJO) | 메시지 실행 SendTimeOptimized가 있음 | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isSendTimeOptimized` | 구성 요소 유형: 차원 |
+| 테스트 여정임(AJO) | 테스트 여정 실행의 이벤트 부분임 | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.inTest` | 구성 요소 유형: 차원 |
+| 테스트 메시지임(AJO) | 테스트 실행으로 메시지가 전송됨 | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isTestExecution` | 구성 요소 유형: 차원 |
+| 항목 ID(AJO) | 항목의 ID입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositions.items.id` | 구성 요소 유형: 차원 |
+| 항목 이름(AJO) | 항목 이름입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositions.items.name` | 구성 요소 유형: 차원 |
+| 여정 작업 ID | MessageExecution이 트리거되는 여정 작업 ID. | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageExecution.journeyActionID` | 구성 요소 유형: 차원 |
+| 여정 액션 노드 이름 (AJO) | 여정의 액션 노드 이름입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 엔티티 데이터 세트 | 파생 필드 | 구성 요소 유형: Dimension(파생 필드) |
+| 여정 이벤트 노드 이름 (AJO) | 이 값은 여정에서 세그먼트 또는 외부 이벤트가 발생할 때마다 설정됩니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 엔티티 데이터 세트 | 파생 필드 | 구성 요소 유형: Dimension(파생 필드) |
+| 여정 ID(AJO) | 여정의 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyID` | 구성 요소 유형: 차원 |
+| 여정 이름(AJO) | 여정의 이름입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyName` | 구성 요소 유형: 차원 |
+| 여정 이름 및 버전(AJO) | 여정의 이름 및 버전입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNameAndVersion` | 구성 요소 유형: 차원 |
+| 여정 버전 ID(AJO) | 여정의 버전 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.entities.`<br/>`journey.journeyVersionID` | 구성 요소 유형: 차원 |
+| 랜딩 페이지 ID(AJO) | 랜딩 페이지의 고유 식별자입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | 구성 요소 유형: 차원 |
+| 랜딩 페이지 소스(AJO) | 랜딩 페이지의 소스입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: Dimension(파생 필드) |
+| 링크 URL(AJO) | 사용자가 클릭한 URL입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | 구성 요소 유형: 차원 |
 
 {style="table-layout:auto"}
 
@@ -160,32 +178,44 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 
 데이터 보기에서 다음 지표를 만들어 Journey Optimizer에 있는 유사한 지표와 거의 정확한 동등성을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
-| 지표 | 설명 | 스키마 요소 | 구성 요소 설정 |
-| --- | --- | --- | --- |
-| 바운스 | 즉시 바운스 및 게재 후 바운스를 모두 포함하는 바운스된 메시지 수입니다. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: 기준이 충족되는 경우<br>다음과 같음: `bounce`, 다음과 같음: `denylist` |
-| 게재 후 바운스 | 일부 이메일 서비스는 게재된 이메일을 보고한 다음 나중에 바운스합니다. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | 구성 요소 유형: 지표<br>제외 값 포함: `async`와 같음 |
-| 이메일 클릭 | 메시지 내 클릭 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `click`와 같음 |
-| 이메일 열림 | 열린 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `open`와 같음 |
-| 오류 | 오류가 발생한 메시지 수입니다. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: `error`와 같음 |
-| 제외 | 제외된 메시지 수입니다. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: `exclude`와 같음 |
-| 전송함 | 이메일 공급자가 수락한 메시지 수. | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표<br>제외 값 포함: `sent`와 같음 |
-| 스팸 고객 불만 | 접수된 스팸 불만 사항 수. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `spam_complaint`와 같음 |
-| 구독 취소 | 구독 취소 수입니다. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 구성 요소 유형: 지표<br>제외 값 포함: `unsubscribe`와 같음 |
-| 에지 전송 | 에지 네트워크에서 Web 또는 Mobile SDK에 메시지를 전송한 횟수입니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.send` 사용 | |
-| 인바운드 표시 | 웹 또는 인앱 메시지가 사용자에게 표시된 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.display` 사용 | |
-| 인바운드 클릭 | 웹 또는 인앱 메시지 클릭수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.interact` 사용 | |
-| 인앱 트리거 | 의사 결정 엔진에서 메시지를 표시해야 한다고 제안한 횟수입니다. Mobile SDK는 결정을 무시할 수 있으며 이에 따라 실제 표시 수가 줄어들 수 있습니다. | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.trigger` 사용 | |
-| 인앱 취소 | SDK에서 UI에서 인앱 메시지를 제거한 횟수 | 스키마 문자열 요소 `_experience.decisioning.propositionEventType.dismiss` 사용 | |
-
-{style="table-layout:auto"}
-
-#### Analysis Workspace에서 계산된 지표 구성
-
-Journey Optimizer 데이터 세트에 대해 원하는 차원 및 지표를 구성했으면 해당 데이터에 대한 추가적인 인사이트를 위해 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 구성할 수도 있습니다. 이러한 계산된 지표는 데이터 보기 관리자에서 만들어진 위 지표를 기반으로 합니다.
-
-| 계산된 지표 | 설명 | 공식 |
-| --- | --- | --- |
-| 메시지 전송 | 전송된 총 메시지 수. 성공 또는 실패한 메시지 포함. | `[Sends] + [Bounces] - [Bounces After Delivery]` |
-| 게재된 메시지 | 고객에게 전달된 이메일 수. | `[Sends] - [Bounces After Delivery]` |
+| 지표 | 설명 | 데이터 세트 | 스키마 요소 | 구성 요소 설정 |
+| --- | --- | --- | --- | --- |
+| 앱 설치(AJO) | 앱 설치 수 | AJO 푸시 추적 경험 이벤트 데이터 세트 | `application.installs.value` | 구성 요소 유형: 지표 |
+| 앱 실행 (AJO) | 모바일 애플리케이션 실행 횟수 | AJO 푸시 추적 경험 이벤트 데이터 세트 | `application.launches.value` | 구성 요소 유형: 지표 |
+| 아웃바운드 채널에 대한 바운스(AJO) | 아웃바운드 채널을 통해 반송된 총 메시지 개수 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표 |
+| 클릭 수(AJO) | 모든 채널의 총 클릭 수 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 대체 제안의 수 (AJO) | 대체 제안의 수. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.propositions.items.`<br/>`itemSelection.selectionDetail.selectionType` | 구성 요소 유형: 지표 |
+| 오퍼의 수 (AJO) | 오퍼의 수. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | ` _experience.decisioning.`<br/>`propositions.items.id` | 구성 요소 유형: 지표 |
+| 중복 제거 지표(AJO) | 중복 제거 지표 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_id` | 구성 요소 유형: 지표 |
+| 게재됨(AJO) | 게재된 총 메시지 개수입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 취소됨(AJO) | 최종 사용자가 메시지를 닫기 위해 선택한 작업에 관계없이 Adobe SDK에서 인앱 메시지를 닫을 때마다 계산됩니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
+| 디스플레이 (AJO) | 이 카운트는 AJO 메시지를 표시합니다. 여기에는 이메일 열기, 웹 디스플레이 및 인앱 디스플레이가 포함됩니다. 모바일 플랫폼은 SMS 및 푸시 메시지 표시를 보고하지 않으므로 카운트되지 않습니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 이메일 열림(AJO) | 총 이메일 열람 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
+| 인바운드 클릭수(AJO) | 인바운드 채널의 총 클릭 수 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 구성 요소 유형: 지표 |
+| 인바운드 취소(AJO) | 인바운드 채널의 총 취소 수 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
+| 인바운드 노출 횟수(AJO) | 인바운드 채널의 총 노출 횟수 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.display` | 구성 요소 유형: 지표 |
+| 여정 종료 (AJO) | 현재 단계로 인해 여정 인스턴스가 종료되면 True입니다. 지정된 프로필에 대한 여정의 마지막 단계가 성공적으로 실행되었음을 나타냅니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 구성 요소 유형: 지표 |
+| 여정 진입 (AJO) | 단계 이벤트가 프로필에 대한 여정 진입 이벤트인 경우 참입니다. | 여정 단계 이벤트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 여정 종료 (AJO) | 현재 단계로 인해 여정 인스턴스가 종료되면 True입니다. 지정된 프로필에 대한 여정의 마지막 단계가 성공적으로 실행되었습니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 구성 요소 유형: 지표 |
+| 여정 실패 (AJO) | 실행이 완료된 단계의 현재 상태를 제공합니다. 가능한 값: `Transitions`(이벤트 전환 시 다음 단계가 발생함), `EndStep`(이 여정 인스턴스의 마지막 단계가 실행됨), `Error`(이 단계에서 오류 조건이 발생하여 현재 여정 인스턴스가 종료됨), `TimedOut`(가져오기 또는 작업에 대한 시간 제한으로 인해 현재 단계가 종료됨). | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.stepStatus` | 구성 요소 유형: 지표 |
+| 랜딩 페이지 클릭 수 (AJO) | 랜딩 페이지의 총 클릭 수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 랜딩 페이지 전환(AJO) | 랜딩 페이지의 총 전환 수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
+| 랜딩 페이지 조회수(AJO) | 랜딩 페이지의 총 조회수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
+| 노드 진입 (AJO) | 단계 이벤트가 프로필에 대한 노드 진입 이벤트인 경우 참입니다. | 여정 단계 이벤트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 아웃바운드 클릭수(AJO) | 아웃바운드 채널의 총 클릭 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
+| 아웃바운드 오류(AJO) | 아웃바운드 채널의 총 오류 메시지 수 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표 |
+| 아웃바운드 제외(AJO) | 아웃바운드 채널의 총 제외 이벤트 수 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표 |
+| 아웃바운드 전송 횟수(AJO) | 아웃바운드 채널을 통해 전송된 총 메시지 개수 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 구성 요소 유형: 지표 |
+| 푸시 사용자 정의 작업(AJO) | 푸시 인터랙션의 총 사용자 정의 작업 수입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `eventType` | 구성 요소 유형: 지표 |
+| 푸시 인터랙션(AJO) | 직접 푸시 메시지 상호 작용으로 인해 모바일 애플리케이션이 실행된 횟수 | AJO 푸시 추적 경험 이벤트 데이터 세트 | `application.launches.value` | 구성 요소 유형: 지표 |
+| 전송(AJO) | 모든 채널의 전송된 총 메시지 수 | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| SMS 인바운드 메시지(AJO) | SMS 인바운드 회신. 예를 들어, 중지, 시작, 구독 등이 있습니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 구성 요소 유형: 지표 |
+| 스팸 고객 불만(AJO) | 총 스팸 고객 불만 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
+| 구독 목록 추가(AJO) | 구독 목록에 추가된 총 횟수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 구독 목록 제거(AJO) | 구독 목록에서 제거된 총 횟수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 타기팅됨 (AJO) | 제안이 개인에게 타기팅된 횟수입니다. 이는 제안이 개인에게 표시되도록 고려된 횟수입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표 (파생 필드) |
+| 트리거됨 (AJO) | Adobe SDK에서 표시하도록 제안이 선택되었습니다. 다른 요인으로 인해 실제로 표시되지 않을 수도 있습니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 구성 요소 유형: 지표 |
+| 실험의 고유 방문자 (AJO) | 실험의 고유 방문자 수 | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | 구성 요소 유형: 지표 |
+| 구독 취소(AJO) | 총 구독 취소 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
 
 {style="table-layout:auto"}
