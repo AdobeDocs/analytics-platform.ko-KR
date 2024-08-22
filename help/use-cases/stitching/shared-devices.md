@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
+source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 5%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ## 사용자 중심 분석 개선
 
-공유 장치의 개인 중심 분석을 개선하기 위해 두 가지 옵션이 있습니다. 스티칭을 사용하거나 ECID 재설정 기능을 구현할 수 있습니다. 두 접근 방식 모두 아래 섹션에서 보다 자세히 설명합니다.
+예제 데이터는 동일한 디바이스에 대한 인증된 활동과 인증되지 않은 활동이 모두 혼합된 데이터입니다. 과제는 인증되지 않은 트래픽에 사용자를 할당하여 사용자 중심 분석을 수행하고 고객 여정 분석을 방지하여 개인 ID 값이 없는 활동을 중단시키는 것입니다. 이 문제를 해결하려면 결합을 사용하거나 ECID 재설정 기능을 구현할 수 있는 두 가지 옵션이 있습니다. 두 옵션 모두 아래 섹션에서 자세히 설명합니다.
 
 ### 결합
 
