@@ -4,19 +4,17 @@ description: 데이터 보기에서 요약 데이터를 사용하고 구성하�
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9517d698acf41a25fa972ced32faa75de540a080
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
 # 요약 데이터
 
-{{release-limited-testing}}
-
-요약 데이터는 개별 개인 ID에 연결되지 않은 시계열 데이터입니다. 요약 데이터는 캠페인 등의 다양한 집계 수준에서 집계된 데이터를 나타냅니다. Customer Journey Analytics에서 이 데이터를 사용하여 다양한 사용 사례를 지원할 수 있습니다. 예를 들어, 날짜 및 단일 지표 값이 포함된 데이터나 여러 차원 및 지표가 포함된 데이터가 있을 수 있습니다.
+요약 데이터는 개별 개인 ID에 연결되지 않은 시계열 데이터입니다. 요약 데이터는 캠페인과 같이 여러 집계 수준에서 집계된 데이터를 나타냅니다. 이 데이터를 Customer Journey Analytics에 활용해 다양한 사용 사례를 지원할 수 있습니다. 예를 들어, 날짜 및 단일 지표 값이 포함된 데이터나 여러 차원 및 지표가 포함된 데이터가 있을 수 있습니다.
 
 그런 다음 이 요약 데이터를 사용하여 높은 수준의 성과 지표를 제시하거나 분석을 수행할 수 있습니다. 요약 데이터의 예로는 광고 노출 횟수, 이메일 열기, 광고 지출, 매출 원가, S&amp;P 지수 등이 있습니다. 요약 데이터를 사용하여 시간별 또는 일별로 대상이나 목표를 업로드할 수도 있습니다.
 
