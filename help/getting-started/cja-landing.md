@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,10 +31,10 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 >[!TAB 요약 데이터]
 
-개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터는 다음과 같은 다양한 사용 사례를 지원하는 데 사용할 수 있습니다.
+개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터를 사용하여 다음과 같은 다양한 사용 사례를 지원할 수 있습니다.
 
-- 이벤트 수준 데이터의 일부 또는 다음으로 높은 수준의 성과 지표 표시.
-- 시간별 또는 일별로 타겟 또는 목표를 업로드한 다음 이벤트 수준 지표에 대해 이러한 타겟 또는 목표를 지정합니다.
+- 이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다.
+- 매시간 또는 매일 대상이나 목표를 업로드한 다음 이벤트 수준 지표에 대해 이들 대상 또는 목표를 배치합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
@@ -84,7 +84,7 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 >[!TAB 새 설명서]
 
-이제 다음에서 새로운 설명서 섹션을 사용할 수 있습니다.<ul><li>요약 데이터 사용 사례 및 B2B 예제 사용 사례입니다.</li><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
+이제 다음에서 새로운 설명서 섹션을 사용할 수 있습니다.<ul><li>요약 데이터 사용 사례 및 B2B 예시 사용 사례.</li><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
 
 [![이미지](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -154,7 +154,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong>공유, 내보내기, 통합</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">프로젝트</a> - <a href="/help/mobile-app/home.md">Analytics 대시보드</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">클라우드 내보내기</a> - <a href="/help/integrations/overview.md">통합</a>
+      <strong>공유, 내보내기, 통합</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">프로젝트</a> - <a href="/help/mobile-app/home.md">Analytics 대시보드</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">클라우드 내보내기</a> - <a href="/help/integrations/overview.md">통합</a>
     </td>
   </tr>
 </table>
@@ -163,7 +163,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/ko/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/ko/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 어시스턴트</a>
+<a href="https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 제품 설명</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics(Customer Journey Analytics 추가 기능) 제품 설명</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 어시스턴트</a>
 </td>
 <td><strong>데이터 수집</strong><br/><a href="/help/data-ingestion/data-ingestion.md">개요</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">배치</a> - <a href="/help/data-ingestion/streaming.md">스트리밍</a> - <a href="/help/data-ingestion/sources.md">소스</a> - <a href="/help/data-ingestion/serverapi.md">서버 API</a>
 </td>

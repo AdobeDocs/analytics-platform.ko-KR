@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1398'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이지와 학습 섹션을 강조 표시하여[!DNL Analysis Workspace] 고객 여정 데이터를 보다 효과적으로 관리할 수 있습니다.
 
-+++ Customer Journey Analytics 소개 비디오를 참조하십시오.
++++ Customer Journey Analytics 소개 비디오 시청
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -41,7 +41,7 @@ Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습�
 
 ### 테이블 열 사용자 정의
 
-열 폭을 사용자 정의하려면 각 열을 구분하는 세로 막대를 끌어서 이동합니다.
+열 폭을 사용자 정의하려면 각 열을 구분하는 세로 막대를 드래그하여 이동합니다.
 
 프로젝트 목록에서 열을 추가하거나 제거하려면 오른쪽 상단의 열 아이콘(![모두 랜딩](assets/select-column.png))을 클릭한 다음 열 제목을 선택하거나 선택 취소합니다.
 
@@ -71,7 +71,7 @@ Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습�
 | --- | --- |
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
 | [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
-| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
+| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 토글: ![상단 배너](assets/top-banner.png) |
 | [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](/help/analysis-workspace/home.md)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |

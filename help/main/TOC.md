@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -372,7 +372,7 @@ ht-degree: 99%
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
    + 결합 {#stitching}
-      + [공유 장치](/help/use-cases/stitching/shared-devices.md)
+      + [공유 디바이스](/help/use-cases/stitching/shared-devices.md)
    + 파생 필드 {#derived-fields}
       + [파생 필드를 사용하여 목표 보고](../use-cases/goals-using-derived-fields.md)
 
