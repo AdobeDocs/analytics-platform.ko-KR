@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 52%
+source-wordcount: '1696'
+ht-degree: 51%
 
 ---
 
@@ -24,10 +24,12 @@ ht-degree: 52%
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
    | 메인 **[!UICONTROL 구성 요소] > [!UICONTROL 대상자]** 메뉴에서 | Audiences Manager 페이지가 열립니다. **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭하면 [!UICONTROL 대상자 빌더]가 열립니다. |
-   | 자유 형식 테이블 내에서 | 자유 형식 테이블에서 항목을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 선택 항목에서 대상자 만들기]**&#x200B;를 선택합니다. 이 방법을 사용하면 테이블에서 선택한 차원 또는 차원 항목으로 필터가 미리 채워집니다. |
+   | 자유 형식 테이블 내에서 | 자유 형식 테이블에서 항목을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 선택 항목에서 대상 만들기]**&#x200B;를 선택합니다. 이 방법을 사용하면 테이블에서 선택한 차원 또는 차원 항목으로 필터가 미리 채워집니다. |
    | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. |
 
    {style="table-layout:auto"}
+
+   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. 대상자를 빌드합니다.
 
@@ -62,7 +64,7 @@ ht-degree: 52%
    | [!UICONTROL 대상자 크기 제한] | 이 대상자가 2천만 개 제한 중 얼마나 사용했는지 보여 줍니다. |
    | [!UICONTROL 예상 대상자 반환] | 이 설정은 이 대상의 고객 중 사이트, 모바일 앱 또는 기타 채널(즉, 이 데이터 세트에 다시 표시되는 고객)으로 돌아오는 고객을 타겟팅하는 경우 유용합니다. <p>여기서 돌아올 수 있는 예상 고객 수에 대한 시간대(다음 7일, 다음 2주, 다음 달)를 선택할 수 있습니다. |
    | [!UICONTROL 예상 반환] | 이 숫자는 드롭다운 목록에서 선택한 시간대 동안 돌아오는 예상 고객 수를 알려 줍니다. 이 숫자를 예측하기 위해 이 대상자의 과거 이탈률을 살펴봅니다. |
-   | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 평균 사이트에서 보낸 시간]&#39;과 같이 특정 지표를 보고 이 지표에 불균형적인 양을 기여하는지 확인할 수 있습니다. 지표의 집계 카운트와 지표가 나타내는 총계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
+   | [!UICONTROL 지표 미리보기] | 이 설정을 사용하면 &#39;[!UICONTROL 매출]&#39; 또는 &#39;[!UICONTROL 평균 사이트에서 보낸 시간]&#39;과 같이 특정 지표를 보고 이 대상자가 해당 지표에 불균형한 양의 기여하는지 확인할 수 있습니다. 지표의 집계 카운트와 지표가 나타내는 총계의 백분율을 제공합니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
    | [!UICONTROL 네임스페이스 포함됨] | 대상자의 인원과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
    | [!UICONTROL 샌드박스] | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 99%
 
 ---
 
@@ -143,6 +143,9 @@ ht-degree: 100%
          + [플로우 개요](../analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + 여정 캔버스 {#journey-canvas}
+         + [여정 캔버스 개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [여정 캔버스 시각화 구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
       + [영역 및 스택 영역](../analysis-workspace/visualizations/area.md)
       + [막대 및 스택 막대](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호 그래프](../analysis-workspace/visualizations/bullet-graph.md)

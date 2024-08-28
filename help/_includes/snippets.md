@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 65%
+source-wordcount: '1253'
+ht-degree: 61%
 
 ---
 # 스니펫
@@ -68,6 +68,7 @@ ht-degree: 65%
 | [!UICONTROL **설명**] | 구성 요소의 의도된 기능을 설명합니다. (이 정보는 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)에 설명된 대로 Analytics 관리자가 추가함) |
 | [!UICONTROL **다음과 함께 자주 사용됨**] | <p>현재 보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형인 지표, 계산된 지표, Dimension, 필터 및 날짜 범위에 최대 5개의 구성 요소가 표시됩니다.</p><p>이 목록은 지난 90일 동안의 데이터를 기반으로 합니다. 볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>관리자는 [!UICONTROL **항상 포함**] 및 [!UICONTROL **항상 제외**] 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 필터를 적용하여 다른 관리자가 추가했을 수 있는 사용자와 공유되지 않은 구성 요소를 보고 있는지 확인하십시오.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
 | [!UICONTROL **다음과 유사**] | <p>현재 보고 있는 구성 요소와 유사한 이름이 있는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형인 지표, 계산된 지표, Dimension, 필터 및 날짜 범위에 최대 5개의 구성 요소가 표시됩니다.</p><p>볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>데이터 보기에 있는 모든 중복 구성 요소가 여기에 표시됩니다. Analytics 관리자는 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 모든 중복 구성 요소를 식별하고 제거해야 합니다.</p><p>관리자는 [!UICONTROL **항상 포함**] 및 [!UICONTROL **항상 제외**] 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 필터를 적용하여 다른 관리자가 추가했을 수 있는 사용자와 공유되지 않은 구성 요소를 보고 있는지 확인하십시오.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**참고:** 현재 **다음과 유사** 섹션에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소는 향후 릴리스에 추가될 예정입니다.</p> |
+| [!UICONTROL **제품 호환성**] | Customer Journey Analytics에서 이 계산된 지표를 사용할 수 있는 위치를 나타냅니다. <p>가능한 값은 다음과 같습니다.</p><ul><li>[!UICONTROL **Customer Journey Analytics의 모든 곳**]: 계산된 지표는 Analysis Workspace, Report Builder 등을 포함하여 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li><li>[!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**]: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li> <p>계산된 지표를 실험에 사용할 수 있는지 여부를 결정하는 기준에 대한 자세한 내용은 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)의 [실험 패널에서 계산된 지표 사용](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel)을 참조하십시오.</p></ul> |
 | [!UICONTROL **태그**] | 구성 요소에 적용된 모든 태그가 표시됩니다. 관리자 액세스 권한이 있는 사용자는 구성 요소를 편집할 때 태그를 추가할 수 있습니다. |
 | [!UICONTROL **구성 요소 유형**] | 구성 요소의 유형(Dimension, 지표, 필터 또는 날짜 범위)을 나열합니다. |
 | [!UICONTROL **작성자**] | 구성 요소를 생성한 사용자 이름을 표시합니다. |

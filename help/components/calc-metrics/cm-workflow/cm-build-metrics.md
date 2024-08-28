@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 7cdd81c9e38219d2d17decd5b9c3e987b814fc53
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 50%
+source-wordcount: '1214'
+ht-degree: 48%
 
 ---
 
@@ -30,6 +30,18 @@ Customer Journey Analytics은 차원, 지표, 필터 및 함수를 드래그하�
 
 ## 계산된 지표 빌더의 영역
 
+<!-- 
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_viz_product_compatibility"
+>title="Product compatibility"
+>abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth."  
+>"Some calculated metrics cannot be used with experimentation. Calculated metrics that are not compatible with experimentation have the following value: "Everywhere in Customer Journey Analytics (excluding experimentation)" "
+>"Various factors affect whether a calculated metric is compatible with experimentation. Learn more (https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation) ."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation"
+
+-->
+
 다음 이미지와 함께 제공되는 표에서는 계산된 지표 빌더의 몇 가지 주요 영역 및 기능에 대해 설명합니다.
 
 ![이 섹션에서 설명한 기본 영역 및 기능을 표시하는 새 계산된 지표 창입니다.](assets/cm_builder_ui.png)
@@ -47,7 +59,7 @@ Customer Journey Analytics은 차원, 지표, 필터 및 함수를 드래그하�
 | 정의 | 여기서 지표/계산된 지표, 필터 및/또는 함수를 드래그하여 계산된 지표를 작성합니다. <ul><li>계산된 지표에서 드래그하면 그 지표 정의를 자동으로 확장합니다. </li> <li>정의를 컨테이너와 중첩시킬 수 있습니다. 하지만 필터 컨테이너와 달리 이 컨테이너는 수학 표현식처럼 작동하고 작동 순서를 결정합니다. </li> </ul> |
 | 연산자 | 나누기( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )은 기본 연산자이며 이외에도 +, -, x 연산자가 있습니다. |
 | 미리보기 | 모든 가능한 오류 시 빨리 읽을 수 있도록 해 줍니다. 이 미리보기는 마지막 90일에 적용됩니다. 해당 지표에 대해 올바른 구성 요소를 선택했는지를 초기에 판단하는 방법입니다. 예상치 않은 결과는 지표 정의 시 두 번 확인해야 함을 의미합니다. |
-| 제품 호환성 | Customer Journey Analytics에서 만드는 모든 계산된 지표의 경우 이 값은 항상 [!UICONTROL **완전히 처리된 데이터**](으)로 나열됩니다. 계산된 지표는 이벤트 데이터 세트의 데이터만 포함할 수 있습니다. |
+| 제품 호환성 | Customer Journey Analytics에서 이 계산된 지표를 사용할 수 있는 위치를 나타냅니다. <p>가능한 값은 다음과 같습니다.</p><ul><li>[!UICONTROL **Customer Journey Analytics의 모든 곳**]: 계산된 지표는 Analysis Workspace, Report Builder 등을 포함하여 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li><li>[!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**]: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li> <p>계산된 지표를 실험에 사용할 수 있는지 여부를 결정하는 기준에 대한 자세한 내용은 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)의 [실험 패널에서 계산된 지표 사용](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel)을 참조하십시오.</p></ul> |
 | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 | 모든 유형의 계산된 지표의 경우, 컨테이너 및 정적 수를 정의에 추가할 수 있습니다. 고급 계산된 지표의 경우 필터 및 함수를 추가할 수도 있습니다.<ul><li>컨테이너는 수학 표현식처럼 작동하고 작업 순서를 결정합니다. 그러므로 컨테이너에 있는 모든 것은 다음 작업 전에 처리됩니다.</li><li>필터를 컨테이너로 드래그하면 해당 컨테이너의 모든 항목이 필터링됩니다. (고급 계산된 지표만)</li><li>한 컨테이너에서 여러 필터를 스택할 수 있습니다.</li></ul> |
 | 톱니바퀴 아이콘(지표 유형, 기여도 분석) | 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 유형 및 기여도 분석 모델을 지정할 수 있습니다. <p>**참고:** 구성 요소의 속성을 기본이 아닌 속성 모델로 업데이트할 때는 다음 사항을 고려하십시오.</p><ul><li>**보고서에서 *단일 차원과 함께 구성 요소를 사용하는 경우*:** 구성 요소의 속성은 기본이 아닌 속성 모델을 사용하는 경우 할당 모델을 무시합니다.</li><li>**보고서에서 구성 요소를 *여러 차원과 함께 사용하는 경우*:** 구성 요소의 속성은 기본이 아닌 속성 모델을 사용하는 경우 할당 모델을 유지합니다.</li><li>여러 차원은 [클라우드로 데이터를 내보내는](/help/analysis-workspace/export/export-cloud.md)경우에만 사용할 수 있습니다.</li></ul> <p>할당에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오.</p> |
 | 더하기(+) 아이콘 | 필터 빌더로 이동하는 새로운 필터와 같은 새 구성 요소를 만들 수 있습니다. |

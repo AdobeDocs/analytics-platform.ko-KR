@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 80%
+source-wordcount: '1344'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![글머리 기호 아이콘](assets/Smock_GraphBullet_18_N.svg)</p> | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 표시합니다. |
 | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![집단 테이블 아이콘](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
 | [도넛](/help/analysis-workspace/visualizations/donut.md) <p>![도넛 아이콘](assets/Smock_GraphDonut_18_N.svg)</p> | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
-| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![폴아웃 아이콘](assets/Smock_ConversionFunnel_18_N.svg)</p> | 폴아웃 보고서는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
+| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![폴아웃 아이콘](assets/Smock_ConversionFunnel_18_N.svg)</p> | <!-- Similar to Journey canvas, -->폴아웃 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 폴아웃 시각화는 최종 또는 정확한 시퀀스로 설정할 수 있습니다. <p><!-- Unlike Journey canvas, -->폴아웃 시각화는 시작과 끝이 한 개만 알려진 선형 여정에 대해서만 분석을 제공합니다.</p> |
 | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![흐름 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
 | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![자유 형식 테이블 아이콘](assets/Smock_ViewTable_18_N.svg)</p> | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [히스토그램](/help/analysis-workspace/visualizations/histogram.md)<p>![막대 그래프 아이콘](assets/Smock_GraphHistogram_18_N.svg)</p> | 히스토그램은 지표 볼륨을 기반으로 사용자, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
@@ -39,6 +39,8 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [텍스트](/help/analysis-workspace/visualizations/text.md)<p>![산포도 아이콘](assets/Smock_Text_18_N.svg)</p> | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p>![트리맵 아이콘](assets/Smock_GraphTree_18_N.svg)</p> | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analysis-workspace/visualizations/venn.md)<p>![벤 아이콘](assets/venn-icon.png)</p> | 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
+
+<!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
 ## 패널에 시각화 추가
 
