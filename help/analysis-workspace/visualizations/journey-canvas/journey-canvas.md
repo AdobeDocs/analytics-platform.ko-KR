@@ -5,10 +5,10 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: fb2a24d6f7a93e941a76db0d10c515381c476c31
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 3%
+source-wordcount: '1193'
+ht-degree: 2%
 
 ---
 
@@ -94,16 +94,25 @@ ht-degree: 3%
 
 여정 캔버스를 사용하여 Journey Optimizer에서 생성된 여정을 분석하면 다양한 이점이 있습니다.
 
-| 기능 | 이점 |
-|---------|----------|
-| **이벤트 만들기** | Customer Journey Analytics 차원, 지표 또는 필터를 사용하여 이벤트를 쉽게 만들 수 있습니다. <p>Journey Optimizer에서 기술 사용자는 이벤트를 만든 후에 여정에 추가해야 합니다.</p> |
-| **사용자 지정 노드에서 대상 만들기** | 여정 캔버스 시각화 내의 여정에서 만든 사용자 지정 노드를 기반으로 대상을 만듭니다. (Customer Journey Analytics 대상자 빌더를 실행합니다.) <p>Journey Optimizer에서는 사전 정의된 활동에 대해서만 대상을 만들 수 있습니다.</p> |
-| **폴스루 및 폴아웃** | B3 |
-| **이벤트 분류** | B3 |
-| **이벤트 이름 바꾸기** | B3 |
-| **이벤트 삭제** | B3 |
-| **이벤트 결합** | B3 |
-| **이벤트 연결** | B3 |
+* Customer Journey Analytics 차원, 지표, 필터 또는 날짜 범위를 사용하여 이벤트를 만듭니다.
+
+  Journey Optimizer에서 기술 사용자는 이벤트를 만든 후에 여정에 추가해야 합니다.
+
+* 생성하는 사용자 지정 노드를 기반으로 대상을 만듭니다(Customer Journey Analytics 대상 빌더 시작).
+
+  Journey Optimizer에서는 사전 정의된 활동에 대해서만 대상을 만들 수 있습니다.
+
+* 폴스루 및 폴아웃 분석
+
+* 모든 차원으로 이벤트 분류
+
+* 이벤트 결합
+
+* 이벤트 연결
+
+* 이벤트 이름 변경 및 삭제
+
+* 훨씬 더
 
 ### Journey Optimizer과 여정 캔버스 간 동기화
 
@@ -144,8 +153,6 @@ Journey Optimizer에서 한 가지를 의미하는 특정 용어는 Customer Jou
 | 용어 | 여정 캔버스 | Journey Optimizer |
 |---------|----------|---------|
 | **이벤트** | Customer Journey Analytics에서 사용할 수 있는 여러 표준 지표 중 하나입니다. 이 지표는 생성된 매출, 구독 또는 리드와 같은 것을 계산합니다. | 온라인 구매와 같이 개인화된 여정을 트리거하는 활동의 카테고리입니다. |
-| A2 | B2 | C2 |
-| A3 | B3 | C3 |
 
 ### 여정 캔버스에서 Journey Optimizer 여정 분석
 

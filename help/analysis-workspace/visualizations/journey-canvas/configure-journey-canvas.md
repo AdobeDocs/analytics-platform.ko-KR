@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: e06793a0ce73fa8d6aa9b798209bfc044e696931
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4138'
 ht-degree: 1%
 
 ---
@@ -220,6 +220,12 @@ ht-degree: 1%
 ### 노드 연결
 
 이미 캔버스에 있는 노드를 연결하거나 캔버스에 추가할 때 노드를 연결할 수 있습니다.
+
+#### 노드 연결 시 논리
+
+여정 캔버스에서 노드를 연결하면 THEN 연산자를 사용하여 연결됩니다. 이를 [순차적 필터링](/help/components/filters/seg-sequential-build.md)이라고도 합니다.
+
+노드를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **노드에서 필터 만들기**]&#x200B;를 선택하여 연결된 노드의 논리를 볼 수 있습니다. 논리는 [!UICONTROL **정의**] 섹션에 표시됩니다.
 
 #### 기존 노드 연결
 
