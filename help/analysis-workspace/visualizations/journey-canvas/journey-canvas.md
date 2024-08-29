@@ -5,7 +5,8 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -14,9 +15,11 @@ ht-degree: 2%
 
 # 여정 캔버스 개요
 
+{{release-limited-testing}}
+
 여정 캔버스 시각화를 사용하면 사용자와 고객에게 제공하는 여정을 분석하고 심도 있는 통찰력을 얻을 수 있습니다. 이를 통해 여정을 처음부터 정의하거나 Journey Optimizer에서 하나를 본 다음, 사람들이 여정을 어떻게 떠나고(빠짐) 계속 지나가는지를 확인할 수 있습니다.
 
-여정, 여정 항목, 필터 및 날짜 범위의 조합을 사용하여 사용자 노드를 생성하여 사용자 차원 분석을 빌드할 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 의사 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열합니다. 데이터를 변경할 때 실시간으로 업데이트됩니다.
+이벤트, 차원 항목, 필터 및 날짜 범위의 조합을 사용하여 [사용자 여정 분석을 빌드](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)하여 여정 노드를 만들 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 의사 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열합니다. 데이터를 변경할 때 실시간으로 업데이트됩니다.
 
 ## 주요 기능
 
@@ -161,5 +164,3 @@ Journey Optimizer에서 한 가지를 의미하는 특정 용어는 Customer Jou
 ## 여정 캔버스에서 분석 빌드
 
 Analysis Workspace에서 사용할 수 있는 차원 또는 지표를 기반으로 하는 여정 캔버스에서 분석을 빌드할 수 있습니다. 또는 Journey Optimizer에서 생성된 여정을 분석할 수 있습니다. 자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
-
-

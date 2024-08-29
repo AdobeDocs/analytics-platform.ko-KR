@@ -5,14 +5,17 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: 53984934-6fba-4f15-aeeb-d91039260553
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4276'
 ht-degree: 1%
 
 ---
 
 # 여정 캔버스 시각화 구성
+
+{{release-limited-testing}}
 
 여정 캔버스 시각화를 사용하면 사용자와 고객에게 제공하는 여정을 분석하고 심도 있는 통찰력을 얻을 수 있습니다.
 
@@ -78,9 +81,9 @@ ht-degree: 1%
    | 설정 | 함수 |
    |---------|----------|
    | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다. 시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. <p>시각화의 내용에 따라 가능한 노드 유형은 다음과 같습니다.</p><ul><li>[!UICONTROL **세그먼트 읽기**]</li><li>[!UICONTROL **종료**]</li><li>[!UICONTROL **차원**]</li><li>[!UICONTROL **지표**]</li></ul><p>**참고**: 이 필드를 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 감지될 때만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</li><li>여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 이 옵션을 더 이상 사용할 수 없습니다. 자세한 내용은 [여정 캔버스에서 여정을 수정한 후의 시각적 차이점](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)을 참조하세요.</li></ul></p> |
-   | [!UICONTROL **백분율 값**] | 다음 선택 사항 중 하나를 선택합니다. <ul><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 데이터 보기에 포함된 모든 사람의 비율입니다.</li><li>[!UICONTROL **시작 노드의 비율**]: 시작 노드에 포함된 모든 사람의 비율입니다.<p>이 옵션은 단일 시작 노드가 있는 경우에만 사용할 수 있습니다. 시작 노드가 여러 개 있으면 숨겨집니다.</p></li></ul> |
+   | [!UICONTROL **백분율 값**] | 다음 선택 사항 중 하나를 선택합니다. <ul><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 데이터 보기에 포함된 모든 사람의 비율입니다.</li><li>[!UICONTROL **시작 노드의 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사람 중 여정의 시작 노드의 기준도 충족하는 사람의 비율입니다. (이 옵션은 시작 노드가 하나인 여정에서만 사용할 수 있으며, 시작 노드가 여러 개인 여정에서는 비활성화됩니다. 시작 노드는 연결이 없는 노드로 정의됩니다.)</li></ul> |
    | [!UICONTROL **화살표 설정**] | 다음 선택 사항 중 하나를 선택합니다.<ul><li>[!UICONTROL **없음**]: </li><li>[!UICONTROL **조건**]: </li><li>[!UICONTROL **모든 레이블**]: </li></ul><p>**참고**: 이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
-   | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시하여 주어진 노드에서 여정을 떠난 사람의 수와 비율을 표시합니다. |
+   | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시합니다. 이는 주어진 노드에서 여정을 떠난 사람의 수와 백분율을 보여 줍니다. <p>여정에서 떨어진 사람은 사이트에서 다른 작업을 수행했을 수 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.</p> |
 
 1. [노드 추가](#add-a-node)를 계속합니다.
 
@@ -92,7 +95,7 @@ ht-degree: 1%
 
 1. Analysis Workspace에서 기존 여정 캔버스 시각화를 열거나 [새 시각화 작성을 시작합니다](#begin-building-a-journey-canvas-visualization).
 
-1. 지표, 차원, 차원 항목, 필터 또는 날짜 범위를 왼쪽 레일에서 캔버스로 드래그합니다. 계산된 지표는 지원되지 않습니다. 또한 [요약 데이터 세트](/help/data-views/summary-data.md)를 기반으로 하는 모든 지표 또는 차원은 지원되지 않습니다.
+1. 지표, 차원, 차원 항목, 필터 또는 날짜 범위를 왼쪽 레일에서 캔버스로 드래그합니다. [파생 필드](/help/data-views/derived-fields/derived-fields.md)을(를) 기반으로 하는 지표가 지원됩니다. 그러나 [요약 데이터 세트](/help/data-views/summary-data.md)를 기반으로 하는 모든 지표 또는 차원과 계산된 지표는 지원되지 않습니다.
 
    Shift 키 또는 Command 키(Mac) 또는 Ctrl 키(Windows)를 눌러 왼쪽 레일에서 여러 구성 요소를 선택할 수 있습니다.
 
@@ -221,15 +224,25 @@ ht-degree: 1%
 
 이미 캔버스에 있는 노드를 연결하거나 캔버스에 추가할 때 노드를 연결할 수 있습니다.
 
+#### 노드 간 화살표
+
+노드는 화살표로 연결됩니다. 화살표 방향과 너비는 모두 유의성을 갖습니다.
+
+* **방향**: 여정 이벤트의 순서를 나타냅니다.
+
+* **너비**: 한 노드에서 다른 노드로의 볼륨 비율을 나타냅니다.
+
 #### 노드 연결 시 논리
 
 여정 캔버스에서 노드를 연결하면 THEN 연산자를 사용하여 연결됩니다. 이를 [순차적 필터링](/help/components/filters/seg-sequential-build.md)이라고도 합니다.
+
+노드는 &quot;최종 경로&quot;로 연결됩니다. 즉, 방문자는 두 노드 간에 발생하는 모든 이벤트에 관계없이 결국 한 노드에서 다른 노드로 이동하는 한 카운트됩니다.
 
 노드를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **노드에서 필터 만들기**]&#x200B;를 선택하여 연결된 노드의 논리를 볼 수 있습니다. 논리는 [!UICONTROL **정의**] 섹션에 표시됩니다.
 
 #### 기존 노드 연결
 
-여정 캔버스의 노드 간 화살표에 따라 여정 내 이벤트의 순서가 결정됩니다.
+여정은 순환일 수 없으며 이전에 연결된 노드로 다시 반복됩니다.
 
 여정 캔버스에서 노드를 연결하는 방법:
 
@@ -239,7 +252,7 @@ ht-degree: 1%
 
 1. 4개의 파란색 점을 연결할 노드의 4개 면 중 하나로 드래그합니다.
 
-   화살표가 나타나고 두 노드를 연결합니다. 화살표는 사람들이 여정을 통해 이동하는 방향을 나타냅니다.
+   화살표가 나타나고 두 노드를 연결합니다. 자세한 내용은 [노드 간 화살표](#arrows-between-nodes)를 참조하십시오.
 
 #### 노드 추가 시 노드 연결
 
@@ -249,7 +262,7 @@ ht-degree: 1%
 
 ### 노드 또는 화살표 색상 변경
 
-캔버스에서 노드 또는 화살표의 색상을 변경할 수 있습니다.
+캔버스에서 노드 또는 화살표의 색상을 변경하여 여정을 시각적으로 사용자 지정할 수 있습니다. 예를 들어 색상을 조정하여 바람직하거나 바람직하지 않은 이벤트를 나타낼 수 있습니다.
 
 캔버스에서 다음 객체에 대해 색상을 변경하는 옵션을 사용할 수 있습니다.
 
@@ -339,7 +352,7 @@ ht-degree: 1%
 
 ### 트렌드 데이터 보기
 
-여정 캔버스에서 객체에 대한 선 그래프로 추세 데이터를 볼 수 있습니다. &lt;!—, 사전 구축된 예외 항목 탐지 데이터 사용(폴아웃의 정의)>
+여정 캔버스에서 객체에 대한 선 그래프로 추세 데이터를 볼 수 있습니다. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 트렌드 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
 
@@ -474,4 +487,3 @@ from Travis: You can set time to be within X amount of time or after X amount of
 Journey Optimizer에서 여정 캔버스에서 분석할 여정을 엽니다.
 
 1. [!UICONTROL **CJA에서 분석**]&#x200B;을 선택합니다. <!-- ?? -->
-
