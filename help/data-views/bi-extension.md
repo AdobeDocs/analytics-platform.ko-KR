@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
+source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
 workflow-type: tm+mt
 source-wordcount: '2928'
 ht-degree: 82%
@@ -192,19 +192,6 @@ Customer Journey Analytics의 데이터 거버넌스 관련 설정은 Adobe Expe
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 따라서 [!DNL Customer Journey Analytics BI extension]을 사용하여 쿼리한 데이터는 정의된 개인정보 보호 레이블 및 정책을 준수하지 않을 경우 적절한 경고 또는 오류를 표시합니다.
 
-#### 기본값 및 제한 사항
-
-데이터 거버넌스의 이유로 다음과 같은 추가 기본값 및 제한이 적용됩니다.
-
-* BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 `LIMIT n`을(를) 사용하여 SQL에서 재정의할 수 있습니다. 여기서 `n`은(는) 1 - 50000입니다.
-* BI 확장 기능을 사용하려면 계산에 사용되는 행을 제한하는 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 SQL `WHERE` 절에서 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 이 값을 재정의할 수 있습니다.
-* BI 확장을 사용하려면 집계 쿼리가 필요합니다. `SELECT * FROM ...`과(와) 같은 SQL을 사용하여 원시 기본 행을 가져올 수 없습니다. 높은 수준에서 집계 쿼리는 다음을 사용해야 합니다.
-   * `SUM` 및/또는 `COUNT`을(를) 사용하여 합계를 선택하십시오.<br/> 예: `SELECT SUM(metric1), COUNT(*) FROM ...`
-   * 차원별로 분류된 지표를 선택합니다. <br/>예: `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * 고유한 지표 값을 선택합니다.<br/>예: `SELECT DISTINCT dimension1 FROM ...`
-
-     자세한 내용은 [지원되는 SQL](#supported-sql)을(를) 참조하십시오.
-
 ### 데이터 보기 나열
 
 표준 PostgreSQL CLI에서 `\dv`를 사용하여 보기를 나열할 수 있음
@@ -221,6 +208,21 @@ prod:all=> \dv
 ### 중첩 및 평면화
 
 기본적으로 데이터 보기의 스키마는 원래 XDM 스키마와 마찬가지로 중첩 구조를 사용합니다. 또한 통합은 `FLATTEN` 옵션을 지원합니다. 이 옵션을 사용하면 데이터 보기(및 세션의 다른 테이블)에 대한 스키마를 강제로 평면화할 수 있습니다. 평면화를 사용하면 구조화된 스키마를 지원하지 않는 BI 도구를 더 쉽게 사용할 수 있습니다. 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)을 참조하십시오.
+
+
+### 기본값 및 제한 사항
+
+BI 확장을 사용할 때 다음과 같은 추가 기본값과 제한이 적용됩니다.
+
+* BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 `LIMIT n`을(를) 사용하여 SQL에서 재정의할 수 있습니다. 여기서 `n`은(는) 1 - 50000입니다.
+* BI 확장을 사용하려면 계산에 사용되는 행을 제한하는 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 SQL `WHERE` 절에서 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 이 값을 재정의할 수 있습니다.
+* BI 확장을 사용하려면 집계 쿼리가 필요합니다. `SELECT * FROM ...`과(와) 같은 SQL을 사용하여 원시 기본 행을 가져올 수 없습니다. 높은 수준에서 집계 쿼리는 다음을 사용해야 합니다.
+   * `SUM` 및/또는 `COUNT`을(를) 사용하여 합계를 선택하십시오.<br/> 예: `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * 차원별로 분류된 지표를 선택합니다. <br/>예: `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * 고유한 지표 값을 선택합니다.<br/>예: `SELECT DISTINCT dimension1 FROM ...`
+
+     자세한 내용은 [지원되는 SQL](#supported-sql)을(를) 참조하십시오.
+
 
 ### 지원되는 SQL
 
