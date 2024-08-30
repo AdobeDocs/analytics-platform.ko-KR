@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
+source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4484'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
    |---------|----------|
    | [!UICONTROL **기본 지표**] | 기본 지표는 여정 캔버스 시각화의 다음 측면에 영향을 줍니다.  <ul><li>사람들이 여정을 이동하는 방법을 정의합니다.</li><li>각 노드에 표시된 총 수입니다.<p>예를 들어, 사람이 기본 지표인 경우, 각 노드는 여정에서 해당 노드에 도달한 사람 수를 표시합니다.</p></li><li>각 노드에 표시된 백분율. (시각화가 빌드된 후에 합계 또는 시작 노드의 백분율을 표시하도록 선택할 수 있습니다.)</li><p>예를 들어, 사람이 기본 지표인 경우, 각 노드는 여정에서 해당 노드에 도달한 사람의 백분율(합계 또는 시작 노드의 백분율)을 표시합니다.</p></li><li>시각화에 차원이 추가되면 기본 지표를 기반으로 시각화의 상위 3개 노드가 추가됩니다.</li></ul> |
    | [!UICONTROL **보조 지표**] | 보조 지표는 선택 사항입니다. 하나를 선택하면 다음 정보가 기본 지표 아래의 각 노드에 표시됩니다. <ul><li>총 수<p>예를 들어, 세션이 보조 지표인 경우 각 노드는 여정의 해당 노드에 도달한 세션 수를 표시합니다.</p></li><li>백분율(시각화가 빌드된 후 합계 또는 시작 노드의 백분율을 표시하도록 선택할 수 있습니다.)</li><p>예를 들어, 세션이 보조 지표인 경우 각 노드는 여정에서 해당 노드에 도달한 세션의 백분율(합계 또는 시작 노드의 백분율)을 표시합니다.</p></li></ul> |
-   | [!UICONTROL **Journey Optimizer 여정**]<!-- name? --> | 여정 캔버스에서 분석의 기준으로 사용할 Journey Optimizer 여정을 선택합니다. (또는 Analysis Workspace 내에서 분석을 빌드할 빈 캔버스를 원하는 경우 이 옵션을 비워 둘 수 있습니다.)</p> <p>여정 캔버스에서 Journey Optimizer 여정을 분석할 때 여정은 Journey Optimizer에서와 동일한 순서, 시퀀스 및 구조로 표시됩니다. 자세한 내용은 [여정 개요](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)에서 [Journey Optimizer 여정 분석](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)을 참조하십시오.</p><p>**참고**: 이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
+   | [!UICONTROL **Journey Optimizer 여정**]<!-- name? --> | 여정 캔버스에서 분석의 기준으로 사용할 Journey Optimizer 여정을 선택합니다. (또는 Analysis Workspace 내에서 분석을 빌드할 빈 캔버스를 원하는 경우 이 옵션을 비워 둘 수 있습니다.)</p> <p>여정 캔버스에서 Journey Optimizer 여정을 분석할 때 여정은 Journey Optimizer에서와 동일한 순서, 시퀀스 및 구조로 표시됩니다. 자세한 내용은 [여정 개요](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)에서 [Journey Optimizer 여정 분석](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)을 참조하십시오.</p><p>**참고**: 이 옵션은 시각화를 추가하고 있는 Analysis Workspace 패널에서 선택한 동일한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
 
 1. (선택 사항) [!UICONTROL **고급 설정 표시**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
 
@@ -84,10 +84,11 @@ ht-degree: 1%
 
    | 설정 | 함수 |
    |---------|----------|
-   | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다. 시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. <p>시각화의 내용에 따라 가능한 노드 유형은 다음과 같습니다.</p><ul><li>[!UICONTROL **세그먼트 읽기**]</li><li>[!UICONTROL **종료**]</li><li>[!UICONTROL **차원**]</li><li>[!UICONTROL **지표**]</li></ul><p>**참고**: 이 필드를 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 감지될 때만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</li><li>여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 이 옵션을 더 이상 사용할 수 없습니다. 자세한 내용은 [여정 캔버스에서 여정을 수정한 후의 시각적 차이점](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)을 참조하세요.</li></ul></p> |
+   | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다. 시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. <p>시각화의 내용에 따라 가능한 노드 유형은 다음과 같습니다.</p><ul><li>[!UICONTROL **세그먼트 읽기**]</li><li>[!UICONTROL **종료**]</li><li>[!UICONTROL **차원**]</li><li>[!UICONTROL **지표**]</li></ul><p>**참고**: 이 필드를 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 시각화를 추가하고 있는 Analysis Workspace 패널에서 선택한 것과 동일한 데이터 보기에서 Journey Optimizer 데이터가 감지될 때만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</li><li>여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 이 옵션을 더 이상 사용할 수 없습니다. 자세한 내용은 [여정 캔버스에서 여정을 수정한 후의 시각적 차이점](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)을 참조하세요.</li></ul></p> |
    | [!UICONTROL **백분율 값**] | 다음 선택 사항 중 하나를 선택합니다. <ul><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 데이터 보기에 포함된 모든 사람의 비율입니다.</li><li>[!UICONTROL **시작 노드의 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사람 중 여정의 시작 노드의 기준도 충족하는 사람의 비율입니다. (이 옵션은 시작 노드가 하나인 여정에서만 사용할 수 있으며, 시작 노드가 여러 개인 여정에서는 비활성화됩니다. 시작 노드는 연결이 없는 노드로 정의됩니다.)</li></ul> |
-   | [!UICONTROL **화살표 설정**] | 다음 선택 사항 중 하나를 선택합니다.<ul><li>[!UICONTROL **없음**]: </li><li>[!UICONTROL **조건**]: </li><li>[!UICONTROL **모든 레이블**]: </li></ul><p>**참고**: 이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
+   | [!UICONTROL **화살표 설정**] | 다음 선택 사항 중 하나를 선택합니다.<ul><li>[!UICONTROL **없음**]: </li><li>[!UICONTROL **조건**]: </li><li>[!UICONTROL **모든 레이블**]: </li></ul><p>**참고**: 이 옵션은 시각화를 추가하고 있는 Analysis Workspace 패널에서 선택한 동일한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
    | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시합니다. 주어진 노드 뒤에 여정을 떠난 사람의 수와 백분율을 보여 줍니다. <p>여정에서 떨어진 사람은 사이트에서 다른 작업을 수행했을 수 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.</p> |
+   | **확대/축소 컨트롤** | 캔버스의 오른쪽 위 모서리에서 다음 확대/축소 컨트롤을 사용할 수 있습니다.<ul><li>**확대** ![확대 아이콘](assets/zoom-in-icon.png): 시각화의 특정 영역을 확대합니다.<p>트랙패드 핀치와 같은 마우스 컨트롤을 사용할 수도 있습니다.</p></li><li>**축소** ![축소 아이콘](assets/zoom-out-icon.png): 캔버스에 더 많은 공간을 허용하도록 시각화를 축소합니다.<p>트랙패드 핀치와 같은 마우스 컨트롤을 사용할 수도 있습니다.</p></li><li>**화면 맞춤** ![화면 맞춤 아이콘](assets/fill-screen-icon.png): 전체 시각화로 화면을 채우도록 현재 확대/축소 및 패닝 설정을 조정합니다.</li></ul><p>확대/축소 후 캔버스를 패닝하려면 마우스를 클릭하고 원하는 위치로 드래그합니다.</p> |
 
 1. [노드 추가](#add-nodes)를 계속합니다.
 
@@ -208,7 +209,9 @@ ht-degree: 1%
 
 여정 캔버스의 여정은 이벤트, 차원 항목 및 필터의 조합을 나타내는 노드와 화살표의 유연한 그래프로 구성됩니다.
 
-캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열할 수 있습니다. 그렇게 하면 그에 따라 데이터가 업데이트됩니다.
+캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열할 수 있습니다. Command(Mac) 또는 Ctrl(Windows)을 눌러 여러 노드를 선택할 수 있습니다.
+
+여정에서 노드 순서를 재배열하면 데이터가 그에 따라 업데이트됩니다.
 
 ### 노드 결합
 
@@ -282,7 +285,7 @@ ht-degree: 1%
 
 캔버스에 노드를 추가할 때 연결된 두 노드 사이에 배치할 수 있습니다. 노드는 기존 노드 2개 사이에서 여정의 흐름에 추가됩니다.
 
-자세한 내용은 [노드 추가](#add-a-node)를 참조하십시오.
+자세한 내용은 [노드 추가](#add-nodes)를 참조하십시오.
 
 ### 노드 사이에 시간 제한 추가
 
@@ -369,7 +372,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 왼쪽 레일에서 분류를 적용하려는 캔버스의 노드로 차원을 드래그할 수 있습니다.
 
-자세한 내용은 [노드 추가](#add-a-node)를 참조하십시오.
+자세한 내용은 [노드 추가](#add-nodes)를 참조하십시오.
 
 ### 대상자 만들기
 
