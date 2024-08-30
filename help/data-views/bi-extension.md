@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79efab0baf9c44603a7aad7383f42a9d9c0b63cb
+source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2928'
 ht-degree: 82%
 
 ---
@@ -197,7 +197,7 @@ Experience Platform에서 사용하는 데이터 세트에 생성된 개인정�
 데이터 거버넌스의 이유로 다음과 같은 추가 기본값 및 제한이 적용됩니다.
 
 * BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 `LIMIT n`을(를) 사용하여 SQL에서 재정의할 수 있습니다. 여기서 `n`은(는) 1 - 50000입니다.
-* BI 확장 기능을 사용하려면 계산에 사용되는 행을 제한하는 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 SQL `WHERE` 절에서 이 값을 재정의할 수 있습니다(추가 설명서 참조).
+* BI 확장 기능을 사용하려면 계산에 사용되는 행을 제한하는 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 SQL `WHERE` 절에서 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 이 값을 재정의할 수 있습니다.
 * BI 확장을 사용하려면 집계 쿼리가 필요합니다. `SELECT * FROM ...`과(와) 같은 SQL을 사용하여 원시 기본 행을 가져올 수 없습니다. 높은 수준에서 집계 쿼리는 다음을 사용해야 합니다.
    * `SUM` 및/또는 `COUNT`을(를) 사용하여 합계를 선택하십시오.<br/> 예: `SELECT SUM(metric1), COUNT(*) FROM ...`
    * 차원별로 분류된 지표를 선택합니다. <br/>예: `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
