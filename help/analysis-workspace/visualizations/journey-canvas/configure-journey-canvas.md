@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4359'
 ht-degree: 1%
 
 ---
@@ -65,16 +65,20 @@ ht-degree: 1%
 
    <!-- add screen shot -->
 
-1. 빈 캔버스에서 새 분석을 만들거나 Journey Optimizer 여정을 분석하든 [여정 캔버스 시각화 구성](#begin-building-a-journey-canvas-visualization)에 설명된 대로 여정을 구성할 수 있습니다.
+1. 빈 캔버스에서 새 분석을 만들거나 Journey Optimizer 여정을 분석하든 [시각화 설정 구성](#configure-visualization-settings)에 설명된 대로 여정을 구성할 수 있습니다.
 
 
-## 여정 캔버스 시각화 구성
+## 시각화 설정 구성
 
-다음 섹션에 설명된 대로 구성하려면 먼저 [여정 캔버스 시각화 작성을 시작](#begin-building-a-journey-canvas-visualization)해야 합니다.
+여정 캔버스 헤더에서 다양한 구성 옵션을 사용할 수 있습니다.
 
-### 설정 구성
+여정 캔버스 시각화에 대한 설정을 구성하려면 다음 작업을 수행하십시오.
 
 1. Analysis Workspace에서 기존 여정 캔버스 시각화를 열거나 [새 시각화 작성을 시작합니다](#begin-building-a-journey-canvas-visualization).
+
+   여정 캔버스 시각화를 구성할 수 있는 옵션은 헤더에서 사용할 수 있습니다.
+
+   ![여정 캔버스 헤더 옵션](assets/journey-canvas-header.png)
 
 1. 시각화 상단에 표시되는 다음 설정 중 하나를 구성합니다.
 
@@ -83,15 +87,17 @@ ht-degree: 1%
    | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다. 시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. <p>시각화의 내용에 따라 가능한 노드 유형은 다음과 같습니다.</p><ul><li>[!UICONTROL **세그먼트 읽기**]</li><li>[!UICONTROL **종료**]</li><li>[!UICONTROL **차원**]</li><li>[!UICONTROL **지표**]</li></ul><p>**참고**: 이 필드를 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 감지될 때만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</li><li>여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 이 옵션을 더 이상 사용할 수 없습니다. 자세한 내용은 [여정 캔버스에서 여정을 수정한 후의 시각적 차이점](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)을 참조하세요.</li></ul></p> |
    | [!UICONTROL **백분율 값**] | 다음 선택 사항 중 하나를 선택합니다. <ul><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 데이터 보기에 포함된 모든 사람의 비율입니다.</li><li>[!UICONTROL **시작 노드의 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사람 중 여정의 시작 노드의 기준도 충족하는 사람의 비율입니다. (이 옵션은 시작 노드가 하나인 여정에서만 사용할 수 있으며, 시작 노드가 여러 개인 여정에서는 비활성화됩니다. 시작 노드는 연결이 없는 노드로 정의됩니다.)</li></ul> |
    | [!UICONTROL **화살표 설정**] | 다음 선택 사항 중 하나를 선택합니다.<ul><li>[!UICONTROL **없음**]: </li><li>[!UICONTROL **조건**]: </li><li>[!UICONTROL **모든 레이블**]: </li></ul><p>**참고**: 이 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
-   | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시합니다. 이는 주어진 노드에서 여정을 떠난 사람의 수와 백분율을 보여 줍니다. <p>여정에서 떨어진 사람은 사이트에서 다른 작업을 수행했을 수 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.</p> |
+   | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시합니다. 주어진 노드 뒤에 여정을 떠난 사람의 수와 백분율을 보여 줍니다. <p>여정에서 떨어진 사람은 사이트에서 다른 작업을 수행했을 수 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.</p> |
 
-1. [노드 추가](#add-a-node)를 계속합니다.
+1. [노드 추가](#add-nodes)를 계속합니다.
 
-### 노드 추가
+## 노드 추가
 
-여정 캔버스 시각화의 노드는 사용자 여정의 이벤트 또는 작업을 나타냅니다. 왼쪽 레일에서 캔버스로 Workspace 구성 요소를 끌어 놓아 노드를 만듭니다.
+여정 캔버스 시각화의 노드는 사용자 여정의 이벤트 또는 작업을 나타냅니다.
 
-여정 캔버스 시각화에 노드를 추가하려면 다음 작업을 수행하십시오.
+왼쪽 레일에서 캔버스로 Workspace 구성 요소를 드래그하거나, 여정 캔버스에서 기존 노드를 기준으로 다음 또는 이전 노드의 맨 위를 선택하도록 하거나, 기존 노드를 복제하여 노드를 만듭니다.
+
+### 왼쪽 레일에서 구성 요소 드래그
 
 1. Analysis Workspace에서 기존 여정 캔버스 시각화를 열거나 [새 시각화 작성을 시작합니다](#begin-building-a-journey-canvas-visualization).
 
@@ -180,6 +186,24 @@ ht-degree: 1%
 
    기존 2개의 노드 사이에 상위 3개의 노드가 추가되며, 각각 별도의 분기로 연결됩니다.
 
+### 노드 복제
+
+복제 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
+
+* 여러 노드
+
+노드를 복제하려면 다음을 수행하십시오.
+
+1. 복제할 여러 노드를 선택합니다.
+
+1. 선택한 노드 중 하나를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **복제**]&#x200B;를 선택합니다.
+
+## 여정 디자인
+
+노드 순서 및 노드 간 연결은 여정 캔버스 데이터에 영향을 줍니다. 여정은 보고할 이벤트의 순서를 시각적으로 정확하게 반영해야 합니다.
+
+노드가 캔버스에 추가되면 노드를 재배열하고 결합하여 연결하고 시간 제한을 추가할 수 있습니다.
+
 ### 노드 재배열
 
 여정 캔버스의 여정은 이벤트, 차원 항목 및 필터의 조합을 나타내는 노드와 화살표의 유연한 그래프로 구성됩니다.
@@ -260,6 +284,27 @@ ht-degree: 1%
 
 자세한 내용은 [노드 추가](#add-a-node)를 참조하십시오.
 
+### 노드 사이에 시간 제한 추가
+
+노드 간에 시간 제한을 설정할 수 있습니다. 시간 제한이 있는 경우 개인이 정의된 여정을 따르지만 노드 간에 이동하는 데 할당된 기간보다 오래 걸리는 경우 여정에서 떨어진 것으로 간주됩니다.
+
+캔버스의 다음 객체에 시간 제한을 추가하는 옵션을 사용할 수 있습니다.
+
+* 노드 사이의 화살표
+
+시간 제한을 추가하려면 다음을 수행합니다.
+
+1. 두 노드 사이의 화살표를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시간 제한 추가**]&#x200B;를 선택합니다.
+
+<!-- 
+
+from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
+1. Choose from the following options: 
+
+-->
+
+## 노드 또는 화살표 관리
+
 ### 노드 또는 화살표 색상 변경
 
 캔버스에서 노드 또는 화살표의 색상을 변경하여 여정을 시각적으로 사용자 지정할 수 있습니다. 예를 들어 색상을 조정하여 바람직하거나 바람직하지 않은 이벤트를 나타낼 수 있습니다.
@@ -310,7 +355,7 @@ ht-degree: 1%
 
 * 노드 간 다중 화살표
 
-### 하나 이상의 노드 또는 화살표에 분류 적용
+#### 하나 이상의 노드 또는 화살표에 분류 적용
 
 1. 분류를 적용할 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
@@ -320,7 +365,7 @@ ht-degree: 1%
 
 1. [!UICONTROL **분류**]&#x200B;를 선택하십시오.
 
-### 개별 노드에 분류 적용
+#### 개별 노드에 분류 적용
 
 왼쪽 레일에서 분류를 적용하려는 캔버스의 노드로 차원을 드래그할 수 있습니다.
 
@@ -374,37 +419,6 @@ ht-degree: 1%
 
 1. [!UICONTROL **트렌드**]&#x200B;을(를) 선택하십시오.
 
-### 노드 복제
-
-복제 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
-
-* 여러 노드
-
-노드를 복제하려면 다음을 수행하십시오.
-
-1. 복제할 여러 노드를 선택합니다.
-
-1. 선택한 노드 중 하나를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **복제**]&#x200B;를 선택합니다.
-
-
-### 노드 사이에 시간 제한 추가
-
-노드 간에 시간 제한을 설정할 수 있습니다. 시간 제한이 있는 경우 개인이 정의된 여정을 따르지만 노드 간에 이동하는 데 할당된 기간보다 오래 걸리는 경우 여정에서 떨어진 것으로 간주됩니다.
-
-캔버스의 다음 객체에 시간 제한을 추가하는 옵션을 사용할 수 있습니다.
-
-* 노드 사이의 화살표
-
-시간 제한을 추가하려면 다음을 수행합니다.
-
-1. 두 노드 사이의 화살표를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시간 제한 추가**]&#x200B;를 선택합니다.
-
-<!-- 
-
-from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
-1. Choose from the following options: 
-
--->
 
 ### 노드 또는 화살표를 기반으로 필터 만들기
 
