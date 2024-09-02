@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
+source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 14%
@@ -92,7 +92,7 @@ ht-degree: 14%
       * 관련 데이터 보기에 대한 액세스 권한. [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기]를 참조하십시오.
       * Customer Journey Analytics BI 확장 액세스 권한. [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기 도구]를 참조하십시오.
 
-## 제품 프로필 관리자 역할
+### 제품 프로필 관리자 역할
 
 제품 프로필은 권한 그룹입니다. 제품 관리자는 제품 프로필을 만들고 제품 프로필 관리자에게 하나 이상의 제품 프로필을 관리하도록 할당할 수 있습니다. 그런 다음 제품 프로필 관리자는 다음 작업을 수행할 수 있습니다.
 
@@ -100,7 +100,7 @@ ht-degree: 14%
 
 * Customer Journey Analytics에서 지정된 제품 프로필의 일부인 데이터 보기를 편집합니다. 제품 프로필 관리자는 새 데이터 보기를 만들 수 없습니다.
 
-## 사용자 수준 액세스
+### 사용자 수준 액세스
 
 아래 표는 관련 사용자에 대해 구성할 수 있는 다양한 Customer Journey Analytics 기능에 대한 기본 액세스 권한을 간략하게 설명합니다. 제품 프로필을 통해 다양한 수준의 사용자 액세스를 관리할 수 있습니다. 제품 프로필은 여러 권한을 결합하여 개별 사용자 또는 사용자 그룹에 할당할 수 있습니다.
 
