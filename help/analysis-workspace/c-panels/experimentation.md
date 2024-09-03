@@ -4,7 +4,7 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 36718581c9a070bb5f5547f18be643ca91838bae
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 29%
@@ -148,6 +148,6 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 
 실험 패널과 호환되지 않는 계산된 지표는 계산된 지표를 만들 때 [!UICONTROL **제품 호환성**] 필드에 [!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**] 값이 있습니다. 계산된 지표를 만드는 방법에 대한 자세한 내용은 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)을 참조하십시오.
 
-## 실험 패널에서 파생 지표 사용
+## 실험 패널에서 계산된 지표 사용
 
-[실험 패널에서 파생 지표를 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)하는 방법에 대한 자세한 내용은 이 블로그 게시물을 참조하세요.
+[실험 패널에서 계산된 지표를 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)하는 방법에 대한 자세한 내용은 이 블로그 게시물을 참조하세요.
