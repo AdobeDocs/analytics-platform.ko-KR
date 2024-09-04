@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
-source-wordcount: '4484'
+source-wordcount: '4526'
 ht-degree: 1%
 
 ---
@@ -145,6 +145,10 @@ ht-degree: 1%
 
 ### 기존 노드를 기반으로 최상위 노드 추가
 
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
+
 캔버스에 이미 있는 노드를 기반으로 최상위 노드를 자동으로 추가할 수 있습니다.
 
 이 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
@@ -188,6 +192,10 @@ ht-degree: 1%
    기존 2개의 노드 사이에 상위 3개의 노드가 추가되며, 각각 별도의 분기로 연결됩니다.
 
 ### 노드 복제
+
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
 
 복제 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
 
@@ -289,6 +297,10 @@ ht-degree: 1%
 
 ### 노드 사이에 시간 제한 추가
 
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
+
 노드 간에 시간 제한을 설정할 수 있습니다. 시간 제한이 있는 경우 개인이 정의된 여정을 따르지만 노드 간에 이동하는 데 할당된 기간보다 오래 걸리는 경우 여정에서 떨어진 것으로 간주됩니다.
 
 캔버스의 다음 객체에 시간 제한을 추가하는 옵션을 사용할 수 있습니다.
@@ -310,6 +322,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### 노드 또는 화살표 색상 변경
 
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
+
 캔버스에서 노드 또는 화살표의 색상을 변경하여 여정을 시각적으로 사용자 지정할 수 있습니다. 예를 들어 색상을 조정하여 바람직하거나 바람직하지 않은 이벤트를 나타낼 수 있습니다.
 
 캔버스에서 다음 객체에 대해 색상을 변경하는 옵션을 사용할 수 있습니다.
@@ -329,6 +345,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
    다음 색상을 사용할 수 있습니다. <!--look into this interaction and color list-->
 
 ### 노드 또는 화살표 이름 바꾸기
+
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
 
 구성 요소를 여정 캔버스 시각화로 드래그하면 구성 요소 이름과 동일한 이름의 노드가 만들어집니다. 노드가 나타내는 여정의 단계와 더 잘 일치하도록 노드의 이름을 변경할 수 있습니다.
 
@@ -359,6 +379,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 * 노드 간 다중 화살표
 
 #### 하나 이상의 노드 또는 화살표에 분류 적용
+
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
 
 1. 분류를 적용할 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
@@ -400,6 +424,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### 트렌드 데이터 보기
 
+>[!AVAILABILITY]
+>
+>이 기능은 아직 사용할 수 없습니다.
+
 여정 캔버스에서 객체에 대한 선 그래프로 추세 데이터를 볼 수 있습니다. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 트렌드 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
@@ -421,7 +449,6 @@ from Travis: You can set time to be within X amount of time or after X amount of
    추세 데이터를 보려는 두 노드 사이에 하나 이상의 화살표를 선택한 다음 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
 1. [!UICONTROL **트렌드**]&#x200B;을(를) 선택하십시오.
-
 
 ### 노드 또는 화살표를 기반으로 필터 만들기
 
