@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
-workflow-type: ht
-source-wordcount: '2272'
-ht-degree: 100%
+source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
+workflow-type: tm+mt
+source-wordcount: '2260'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,6 @@ ht-degree: 100%
 | --- | --- |
 | 경고 | 지원이 예정되어 있습니다. |
 | 기여도 분석 | 지원이 예정되어 있습니다. |
-| 디바이스 그래프를 사용하여 ID 결합 | 지원이 예정되어 있습니다. |
 | 프로젝트 템플릿 | 지원이 예정되어 있습니다. |
 | 실시간 보고 | 지원이 예정되어 있습니다. |
 | 세그먼트 IQ | 지원이 예정되어 있습니다. |
@@ -139,8 +138,8 @@ ht-degree: 100%
 | 보고 시간 변환 | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
 | BI 확장 기능 | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
 | SQL 액세스 | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
-| 결합 | [ID 결합](/help/stitching/overview.md)(또는 간단히 결합)은 교차 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 교차 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
-| 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <p>반대로 Adobe Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다.</p> |
+| 결합 | [결합](/help/stitching/overview.md)은(는) 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 교차 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
+| 무제한 고객 차원 및 지표 | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <br/>반대로 Adobe Analytics은 최대 75개의 prop과 250개의 eVar를 지원합니다. |
 | 무제한 고유 값 | Customer Journey Analytics는 보고될 수 있는 단일 차원 내의 무제한 고유 값 또는 차원 항목을 지원합니다.<p>[차원에는 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없으므로 고유한 값을 표시하고 계산할 수 있습니다.</p><p>이 접근 방식 덕분에 대규모 Adobe Analytics 구현에 존재할 수 있는 보고 및 분석 제한 사항이 사라지므로 [!UICONTROL 낮은 트래픽] 레이블이 가능합니다.</p><p>Customer Journey Analytics에서는 [!UICONTROL 고유 수 초과됨] 레이블을 볼 수 있지만, 이러한 현상은 발생 빈도가 훨씬 낮으며 데이터에 필터나 세그먼트를 적용하여 완화할 수 있습니다.</p> |
 
 {style="table-layout:auto"}
