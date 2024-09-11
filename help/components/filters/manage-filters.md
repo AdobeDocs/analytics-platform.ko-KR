@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 필터를 관리 방법 알아보�
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+source-git-commit: a1e94f3a35abbfea8b3eeed52f0db576c98c8bed
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 22%
+source-wordcount: '810'
+ht-degree: 20%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 22%
    | 태그 (열 선택기에서 선택되지 않았으므로 열이 나타나지 않음) | 사용자 또는 사용자와 세그먼트를 공유한 다른 사람이 필터에 적용한 태그입니다. |
    | 다음 사용자와 공유 | 필터를 공유한 개인 또는 그룹(관리자만) 또는 모든 사용자(관리자만)를 표시합니다. <p>필터를 공유하거나 공유할 때 필터 이름 옆에 공유 아이콘이 표시됩니다.</p> |
    | 수정한 날짜 | 필터를 마지막으로 수정한 날짜를 표시합니다. |
-   | 다음에서 사용 | 현재 필터가 사용 중인 구성 요소의 수를 표시합니다. <p>예를 들어 필터가 40개의 프로젝트와 2개의 경고에서 사용되고 있는 경우 이 열의 값은 [!UICONTROL **42개의 구성 요소**]&#x200B;로 표시됩니다.</p> <p>필터가 사용되는 위치의 분류를 보려면 이 열의 값을 선택하십시오(예: [!UICONTROL **프로젝트(40)**], [!UICONTROL **경고(2)**]).</p><p>필터는 다음 구성 요소 유형 중 하나에서 사용할 수 있습니다.</p> <ul><li>계산된 지표</li><li>프로젝트</li><li>예약된 프로젝트</li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>[!UICONTROL **Used in**] 열은 기본적으로 표시되지 않습니다. 표시할 열을 [구성](#configure-columns)합니다.</li><li>지정된 구성 요소에 대해 이 열에 데이터가 없지만 [!UICONTROL **마지막으로 사용됨**] 날짜가 있는 경우 구성 요소가 저장되지 않고 분석에 사용되었을 수 있습니다.</li><li>이 정보는 시스템 관리자만 사용할 수 있습니다.</li></ul><p>이 정보와 함께 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 구성 요소가 조직에서 사용되는 방식을 추적하고 더 잘 이해할 수 있습니다.</p> |
+   | 다음에서 사용 | 현재 필터가 사용되는 위치와 각 영역에서 필터가 사용되는 횟수를 보여줍니다. <p>예를 들어 필터가 40개의 프로젝트와 2개의 경고에서 사용되고 있는 경우 이 열의 값은 [!UICONTROL **42개의 구성 요소**]&#x200B;로 표시됩니다.</p> <p>이 열의 값을 선택하여 필터가 사용되는 위치 분류를 확인합니다(예: [!UICONTROL **프로젝트(40)**], [!UICONTROL **모바일 스코어카드(2)**]). 또한 필터가 사용되는 항목 목록을 볼 수 있습니다. 예를 들어 사용 중인 프로젝트 목록을 보려면 [!UICONTROL **프로젝트(40)**] 링크를 선택하십시오.</p><p>다음 각 영역은 해당 영역에서 사용 중인 필터 인스턴스 수를 보여줍니다.</p>  <ul><li>[!UICONTROL **프로젝트**]<p>[필터 빌더에서 만든 ](/help/components/filters/filter-builder.md#) 필터를 포함하며 모든 프로젝트에 사용할 수 있습니다.</p></li><li>[!UICONTROL **Ad Hoc 구성 요소**]<p>[빠른 필터로 만든](/help/components/filters/quick-filters.md) 필터를 포함하며, 단일 프로젝트 내에서만 사용할 수 있습니다.</p></li><li>[!UICONTROL **예약된 프로젝트**]</li><li>[!UICONTROL **모바일 스코어카드**]</li><li>[!UICONTROL **주석**]</li><li>[!UICONTROL **계산된 지표**]</li><li>[!UICONTROL **Report Builder**]<p>이 옵션을 선택하면 다음 데이터 열이 포함된 CSV 파일이 다운로드됩니다.</p><ul><li>Report Builder 이름</li><li>마지막으로 액세스한 날짜</li><li>마지막으로 액세스한 IMS 사용자 ID</li><li>마지막으로 액세스한 사용자 이름</li></ul></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보는 시스템 관리자만 사용할 수 있습니다.</li><li>[!UICONTROL **Used in**] 열은 기본적으로 표시되지 않습니다. 표시할 열을 [구성](#configure-columns)합니다.</li><li>이 정보에는 API 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>지정된 구성 요소에 대해 이 열에 데이터가 없지만 [!UICONTROL **마지막으로 사용됨**] 날짜가 있는 경우 구성 요소가 저장되지 않고 분석에 사용되었을 수 있습니다.</li><li>사용량 정보는 2023년 9월부터의 자료만 제공됩니다.</li></ul><p>이 정보와 함께 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 구성 요소가 조직에서 사용되는 방식을 추적하고 더 잘 이해할 수 있습니다.</p> |
    | 마지막 사용 | 다음 구성 요소 유형에서 마지막으로 필터를 사용한 날짜를 표시합니다. <ul><li>계산된 지표</li><li>프로젝트</li><li>예약된 프로젝트</li><li>필터</li></ul> <p>이 정보는 구성 요소가 조직의 사용자에게 중요한지 또는 삭제해야 하는지 여부를 결정하는 데 도움이 될 수 있습니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>일부 구성 요소의 경우 구성 요소가 2023년 9월 이전에 마지막으로 사용된 경우 이 열에 데이터가 포함되지 않을 수 있습니다.</li><li>이 정보는 시스템 관리자만 사용할 수 있습니다.</li></ul><p>이 정보와 함께 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 구성 요소가 조직에서 사용되는 방식을 추적하고 더 잘 이해할 수 있습니다. |
 
    {style="table-layout:auto"}
