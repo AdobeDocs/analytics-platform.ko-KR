@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 99%
 
 ---
 
@@ -190,6 +190,12 @@ ht-degree: 100%
       + [예측 개요](../analysis-workspace/c-forecast/forecasting.md)
       + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
       + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + 지능형 경고 {#alerts}
+      + [지능형 경고 개요](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+      + [Customer Journey Analytics의 차이점](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [경고 만들기](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [경고 관리](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [사용 사례](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
