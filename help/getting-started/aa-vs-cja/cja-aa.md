@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 789e461bf45f272e4c93ea5aa77e5bcaf4ee6a29
+source-git-commit: a1f037ff907efd20d31c5567e09bb3ac0eb3130e
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 97%
+source-wordcount: '2336'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 97%
 | eVar 지속성 설정 | eVar는 더 이상 Customer Journey Analytics에 포함되지 않습니다. 하지만 지속성 설정은 이제 데이터 보기에 속하고, 모든 차원에서 사용할 수 있습니다. 지속성은 데이터 수집 처리 시간이 아니라 보고서 처리 시간을 기반으로 한다는 점을 명심하십시오. 데이터 보기 내에서 설정된 차원은 최대 90일로 지속성이 제한되며 무제한 지속성을 지원하지 않습니다. |
 | 지리 특성 차원 | [전체 지원](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | 그래프 기반 스티칭 | [그래프 기반 스티칭](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview#graph-based-stitching)을 통해 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)에서 ID 그래프의 기능을 활용하여 데이터 세트를 선호하는 ID로 승격할 수 있습니다. |
+| 지능형 경고 | Customer Journey Analytics에서 [지능형 경고](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/intellligent-alerts)를 사용하는 프로세스는 Adobe Analytics에서 지능형 경고를 사용하는 프로세스와 거의 동일합니다. 그러나 [중요한 차이점](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison)이 있습니다. |
 | IP 난독화 | Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 Customer Journey Analytics로 데이터를 가져오는 Customer Journey Analytics 고객의 경우: Adobe Analytics에 적용된 IP 난독화 설정이 Customer Journey Analytics 데이터로 흐릅니다. 필요에 따라 Adobe Analytics에서 이러한 설정을 제어할 수 있습니다.<p>Experience Platform Web SDK를 사용하여 Platform 및 Customer Journey Analytics로 데이터를 직접 가져오는 Customer Journey Analytics 고객의 경우. 데이터 수집을 위한 데이터 준비를 사용하면 회사의 요구 사항에 따라 IP 주소를 난독화하는 규칙을 구성할 수 있습니다. |
 | 마케팅 채널 | Analytics 소스 커넥터를 사용하는 경우 마케팅 채널 데이터는 해당 커넥터를 통해 Customer Journey Analytics로 흐릅니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [Customer Journey Analytics 마케팅 채널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)를 참조하십시오. <br/>Web SDK 구현의 경우 보고 시 마케팅 채널 처리 규칙은 [파생 필드](../../data-views/derived-fields/derived-fields.md)를 통해 지원됩니다. |
 | 머천다이징 변수 지속성 | [바인딩 차원 및 바인딩 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)를 통한 전체 지원 |
