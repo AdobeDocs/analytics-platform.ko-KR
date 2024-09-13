@@ -3,10 +3,10 @@ description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경�
 title: 경고 만들기(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: 8f866d47ef0caccb91bd0e9cb9043bb1e16e0d89
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 22%
+source-wordcount: '1001'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->지능형 경고는 Adobe Analytics Prime 및 Adobe Analytics Ultimate 고객만 사용할 수 있습니다.
+>지능형 경고는 모든 고객이 사용할 수 있습니다. 그러나 지능형 경고 내에서 예외 항목 탐지를 사용하려면 Select, Prime 또는 Ultimate Customer Journey Analytics이 있어야 합니다.
 
 Customer Journey Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.
 
