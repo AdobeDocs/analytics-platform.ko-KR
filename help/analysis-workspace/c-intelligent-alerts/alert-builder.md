@@ -3,7 +3,7 @@ description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경�
 title: 경고 만들기(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 74ad39f6ccc6436f7c8540b7d8b69b20b93d2b5c
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 22%
@@ -11,8 +11,6 @@ ht-degree: 22%
 ---
 
 # 경고 만들기
-
-{{release-limited-testing}}
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세�
 title: 지능형 경고 개요
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 74ad39f6ccc6436f7c8540b7d8b69b20b93d2b5c
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 56%
@@ -11,8 +11,6 @@ ht-degree: 56%
 ---
 
 # 지능형 경고 개요
-
-{{release-limited-testing}}
 
 Customer Journey Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상적인 이벤트가 발생하는 경우 알림을 받을 수 있습니다.
 

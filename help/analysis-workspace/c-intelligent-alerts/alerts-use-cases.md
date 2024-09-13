@@ -3,7 +3,7 @@ description: 지능형 경고에 대한 활용 사례.
 title: 지능형 경고 - 활용 사례
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 2dbd2dd614decb6b72c667297bba24f949197aa9
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 55%
@@ -11,8 +11,6 @@ ht-degree: 55%
 ---
 
 # 지능형 경고 - 활용 사례
-
-{{release-limited-testing}}
 
 [경고 만들기](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)에 설명된 대로 지능형 경고를 만들 수 있습니다.
 
