@@ -3,9 +3,9 @@ description: 지능형 경고가 Adobe Analytics과 어떻게 Customer Journey A
 title: 지능형 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: d6f800a6e3e79556026291387e984a35949b3c46
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Customer Journey Analytics에서 보고되기 전에 Adobe Experience Platform�
 
 9시간의 기본 지연을 0에서 24시간 사이의 어느 곳으로든 조정할 수 있습니다. 그러나 지연 시간을 9시간 미만으로 줄이면 불완전한 데이터에 대해 보고하고 있으며, 이로 인해 경고 정보가 부정확해질 수 있습니다.
 
-지연 조정 방법 및 이를 수행할 때 고려해야 하는 요소에 대한 자세한 내용은 <!--add link -->을(를) 참조하십시오.
+지연 조정 방법 및 조정 시 고려해야 할 요소에 대한 자세한 내용은 [경고 만들기](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)를 참조하십시오.
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
