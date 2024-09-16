@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
-workflow-type: ht
-source-wordcount: '2547'
-ht-degree: 100%
+source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+workflow-type: tm+mt
+source-wordcount: '2566'
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
-<ul><li>타임스탬프가 24시간 미만인 모든 이벤트 데이터가 스트리밍됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.</li></ul>
+<ul><li>'현재'일의 이벤트 데이터는 라이브 데이터로 스트리밍됩니다. 이벤트 시간이 전날의 11:59:59(23:59:59) 이전인 모든 데이터는 채우기 상태로 처리됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.</li></ul>
 
 ## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
