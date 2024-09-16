@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 99%
 
 ---
@@ -190,12 +190,6 @@ ht-degree: 99%
       + [예측 개요](../analysis-workspace/c-forecast/forecasting.md)
       + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
       + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + 지능형 경고 {#alerts}
-      + [지능형 경고 개요](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-      + [Customer Journey Analytics의 차이점](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [경고 만들기](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
-      + [경고 관리](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
-      + [사용 사례](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
@@ -299,6 +293,12 @@ ht-degree: 99%
       + [날짜 범위 관리](../components/date-ranges/manage.md)
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
+   + 지능형 경고 {#alerts}
+      + [개요](/help/components/c-intelligent-alerts/intellligent-alerts.md)
+      + [Customer Journey Analytics의 차이점](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [만들기](/help/components/c-intelligent-alerts/alert-builder.md)
+      + [관리](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [사용 사례](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 내보내기 {#exports}
       + [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md)
       + [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md)

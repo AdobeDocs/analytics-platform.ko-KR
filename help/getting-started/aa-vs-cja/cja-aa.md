@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 33602a2c82d14463ebe4317704dbfa47b7b8ae35
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
 source-wordcount: '2321'
 ht-degree: 85%
@@ -78,7 +78,7 @@ ht-degree: 85%
 
 | 기능 | 참고 |
 | --- | --- |
-| **경고** | [Customer Journey Analytics에서 지능형 경고를 사용](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)하는 프로세스는 Adobe Analytics에서 지능형 경고를 사용하는 프로세스와 거의 동일합니다. <p>그러나 Customer Journey Analytics의 데이터 수집 타이밍으로 인해 시간별 경고를 사용할 수 없습니다. Customer Journey Analytics에서 일별, 주별 또는 월별 경고를 구성할 수 있습니다.</p> |
+| **경고** | [Customer Journey Analytics에서 지능형 경고를 사용](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)하는 프로세스는 Adobe Analytics에서 지능형 경고를 사용하는 프로세스와 거의 동일합니다. <p>그러나 Customer Journey Analytics의 데이터 수집 타이밍으로 인해 시간별 경고를 사용할 수 없습니다. Customer Journey Analytics에서 일별, 주별 또는 월별 경고를 구성할 수 있습니다.</p> |
 | **Analytics for Target(A4T)** | [Adobe Customer Journey Analytics와 Target 간 통합](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | **대상자 게시** | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
 | **분류** | 이제 “조회 데이터 세트”라고 합니다. Analytics에서 사용되는 분류는 Analytics 분류 소스 커넥터를 사용하여 Experience Platform 및 Customer Journey Analytics로 가져올 수 있습니다. 조회 데이터 세트를 Experience Platform에 직접 업로드하여 Customer Journey Analytics에서 사용할 수도 있습니다. |
