@@ -3,7 +3,7 @@ description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경�
 title: 경고 만들기(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 4155f486c8398b75c2bed41d93562483d35c1477
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 22%
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 Customer Journey Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.
 
-지능형 경고에 대한 자세한 개요 정보는 [지능형 경고 개요](/help/components/c-intelligent-alerts/intellligent-alerts.md)를 참조하십시오.
+지능형 경고에 대한 자세한 개요 정보는 [지능형 경고 개요](/help/components/c-intelligent-alerts/intelligent-alerts.md)를 참조하십시오.
 
 경고를 만들려면 다음 작업을 수행하십시오.
 

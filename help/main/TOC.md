@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 99%
@@ -294,7 +294,7 @@ ht-degree: 99%
       + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
    + 지능형 경고 {#alerts}
-      + [개요](/help/components/c-intelligent-alerts/intellligent-alerts.md)
+      + [개요](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [Customer Journey Analytics의 차이점](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [만들기](/help/components/c-intelligent-alerts/alert-builder.md)
       + [관리](/help/components/c-intelligent-alerts/alert-manager.md)
