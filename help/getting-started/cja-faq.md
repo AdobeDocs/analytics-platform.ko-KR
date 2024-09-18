@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
-<ul><li>'현재'일의 이벤트 데이터는 라이브 데이터로 스트리밍됩니다. 이벤트 시간이 전날의 11:59:59(23:59:59) 이전인 모든 데이터는 채우기 상태로 처리됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.</li></ul>
+<ul><li>'현재'일의 이벤트 데이터는 라이브 데이터로 스트리밍됩니다. 이벤트 시간이 전날 오후 11:59:59시(23:59:59) 이전인 모든 데이터는 채우기 상태로 처리됩니다.</li><li>타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.</li></ul>
 
 ## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
@@ -150,7 +150,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 | 다음 작업을 수행하는 경우 | 발생하는 결과 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform]에서 샌드박스 삭제 | 샌드박스를 삭제하면 해당 샌드박스의 데이터 세트에 대한 [!UICONTROL Customer Journey Analytics] 연결로의 데이터 흐름이 정지됩니다. 현재는 삭제된 해당 샌드박스에 연결된 Customer Journey Analytics의 [!UICONTROL 연결]이 자동으로 삭제되지 않습니다. |
+| [!UICONTROL Adobe Experience Platform]에서 샌드박스 삭제 | 샌드박스를 삭제하면 해당 샌드박스의 데이터 세트에 대한 [!UICONTROL Customer Journey Analytics] 연결로의 데이터 흐름이 정지됩니다. 이 삭제된 샌드박스와 관련된 연결, 데이터 보기, 지표 및 차원도 삭제됩니다. | |
 | [!UICONTROL Adobe Experience Platform]에서 스키마를 삭제하지만 이 스키마와 연결된 데이터 세트는 삭제하지 않음 | [!UICONTROL Adobe Experience Platform]에서는 연관된 [!UICONTROL 데이터 세트]가 하나 이상 있는 [!UICONTROL 스키마]를 삭제할 수 없습니다. 그러나 적절한 권한 세트가 있는 관리자는 먼저 데이터 세트를 삭제한 다음 스키마를 삭제할 수 있습니다. |
 | [!UICONTROL Adobe Experience Platform] 데이터 레이크에서 데이터 세트 삭제 | Adobe Experience Platform 데이터 레이크에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 Customer Journey Analytics 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 세트의 데이터는 연관된 Customer Journey Analytics 연결에서 자동으로 삭제됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트 삭제 | 저장된 연결 내에서 데이터 세트를 삭제하는 프로세스를 진행하려면 Adobe 계정 팀에 문의하십시오. |
