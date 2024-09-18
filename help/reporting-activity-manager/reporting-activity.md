@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: cbff0bc58150373df041f9e1594feee0b5bcc2ce
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2004'
 ht-degree: 7%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 7%
 | [!UICONTROL **시간 실행**] | 요청이 실행된 시간입니다. |
 | [!UICONTROL **시작 시간**] | 요청의 처리가 시작된 시기(관리자의 현지 시간 기준). |
 | [!UICONTROL **대기 시간**] | 요청이 처리되기 전에 대기한 시간입니다. 이 값은 일반적으로 용량이 충분할 때 &quot;0&quot;입니다. |
-| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>지능형 경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul><p>**참고:** 이 열의 값이 [!UICONTROL **알 수 없음**]&#x200B;인 경우 사용자에게 요청 메타데이터를 사용할 수 없습니다.</p> |
+| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul><p>**참고:** 이 열의 값이 [!UICONTROL **알 수 없음**]&#x200B;인 경우 사용자에게 요청 메타데이터를 사용할 수 없습니다.</p> |
 | [!UICONTROL **사용자**] | 요청을 시작한 사용자입니다. <p>**참고:** 이 열의 값이 [!UICONTROL **알 수 없음**]&#x200B;인 경우 사용자에게 요청 메타데이터를 사용할 수 없습니다.</p> |
 | [!UICONTROL **프로젝트**] | 저장된 Workspace 프로젝트 이름, API 보고서 ID 등입니다. (메타데이터는 다양한 애플리케이션에 따라 다를 수 있습니다.)<p>**참고:** 이 열의 값이 [!UICONTROL **알 수 없음**]&#x200B;인 경우 프로젝트가 저장되지 않았거나 사용자에게 요청 메타데이터를 사용할 수 없음을 의미합니다.</p> |
 | [!UICONTROL **상태**] | 상태 표시기: <ul><li>**실행 중**: 현재 요청을 처리 중입니다.</li><li>**보류 중**: 요청이 처리되기를 대기하고 있습니다.</li></ul> |
@@ -171,7 +171,7 @@ ht-degree: 7%
 | [!UICONTROL **사용자**] | 요청을 시작한 사용자입니다. 이 열의 값이 [!UICONTROL **인식할 수 없음**]&#x200B;인 경우 사용자가 관리 권한이 없는 로그인 회사에 있음을 의미합니다. |
 | [!UICONTROL **요청 수**] | 사용자가 시작한 요청 수입니다. |
 | [!UICONTROL **프로젝트 수**] | 사용자와 연결된 프로젝트 수입니다. <!-- ??? --> |
-| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>지능형 경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul> |
+| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul> |
 | [!UICONTROL **평균 복잡성**] | 사용자가 시작한 요청의 평균 복잡성입니다. <p>모든 요청을 처리하는 데 동일한 시간이 필요한 것은 아닙니다. 요청 복잡성은 요청을 처리하는 데 필요한 시간에 대한 일반적인 아이디어를 제공하는 데 도움이 될 수 있습니다.</p><p>이 열의 값은 다음 열의 값에 의해 결정되는 점수를 기반으로 합니다.</p><ul><li>[!UICONTROL **평균 월 경계**]</li><li>[!UICONTROL **평균 열**]</li><li>[!UICONTROL **평균 세그먼트**]</li></ul> |
 | [!UICONTROL **평균 월 경계**] | 요청에 포함된 평균 개월 수입니다. 월 경계가 많으면 요청의 복잡성이 증가합니다. |
 | [!UICONTROL **평균 열**] | 포함된 요청의 평균 지표 및 분류 수입니다. 열이 많으면 요청의 복잡성이 증가합니다. |
@@ -188,7 +188,7 @@ ht-degree: 7%
 | [!UICONTROL **프로젝트**] | 요청이 시작된 프로젝트입니다. |
 | [!UICONTROL **요청 수**] | 프로젝트와 연계된 요청 수입니다. |
 | [!UICONTROL **사용자 수**] | 프로젝트와 연계된 사용자 수입니다. <!-- ??? --> |
-| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>지능형 경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul> |
+| [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등.</li><li>2.0 API의 API 호출</li><li>경고<li>전체 테이블 내보내기</li><li>모든 사람과 공유 링크</li><li>안내식 분석</li><li>Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션</li></li></ul> |
 | [!UICONTROL **평균 복잡성**] | 프로젝트에 포함된 요청의 평균 복잡성입니다. <p>모든 요청을 처리하는 데 동일한 시간이 필요한 것은 아닙니다. 요청 복잡성은 요청을 처리하는 데 필요한 시간에 대한 일반적인 아이디어를 제공하는 데 도움이 될 수 있습니다.</p><p>이 열의 값은 다음 열의 값에 의해 결정되는 점수를 기반으로 합니다.</p><ul><li>[!UICONTROL **평균 월 경계**]</li><li>[!UICONTROL **평균 열**]</li><li>[!UICONTROL **평균 세그먼트**]</li></ul> |
 | [!UICONTROL **평균 월 경계**] | 요청에 포함된 평균 개월 수입니다. 월 경계가 많으면 요청의 복잡성이 증가합니다. |
 | [!UICONTROL **평균 열**] | 포함된 요청의 평균 지표 및 분류 수입니다. 열이 많으면 요청의 복잡성이 증가합니다. |

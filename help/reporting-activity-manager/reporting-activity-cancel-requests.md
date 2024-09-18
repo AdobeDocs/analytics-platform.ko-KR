@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1497'
 ht-degree: 13%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 13%
 * Report Builder
 * 빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등
 * 2.0 API의 API 호출
-* 지능형 경고
+* 경고
 * 전체 테이블 내보내기
 * 모든 사람과 공유 링크
 * 안내식 분석

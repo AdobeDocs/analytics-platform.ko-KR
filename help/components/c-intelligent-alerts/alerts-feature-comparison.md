@@ -1,18 +1,18 @@
 ---
-description: 지능형 경고가 Adobe Analytics과 어떻게 Customer Journey Analytics이 다른지 알아봅니다.
-title: 지능형 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
+description: 경고의 Customer Journey Analytics이 Adobe Analytics과 어떻게 다른지 알아봅니다.
+title: 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '566'
+ht-degree: 0%
 
 ---
 
-# 지능형 경고 기능 비교: Customer Journey Analytics 및 Adobe Analytics
+# 경고 기능 비교: Customer Journey Analytics 및 Adobe Analytics
 
-Customer Journey Analytics에서 지능형 경고의 사용 프로세스는 Adobe Analytics에서 지능형 경고의 사용 프로세스와 거의 동일합니다. 그러나 중요한 차이점이 있습니다.
+Customer Journey Analytics에서 경고를 사용하는 프로세스는 Adobe Analytics에서 경고를 사용하는 프로세스와 거의 동일합니다. 그러나 중요한 차이점이 있습니다.
 
 다음 섹션에서는 주요 차이점에 대해 설명합니다.
 
