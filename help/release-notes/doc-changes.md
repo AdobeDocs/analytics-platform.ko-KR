@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '4026'
+source-wordcount: '4016'
 ht-degree: 71%
 
 ---
@@ -262,7 +262,6 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2020년 10월 7일 | [결합된 이벤트 데이터 세트](/help/connections/combined-dataset.md)에 대한 주제를 추가했습니다. |
 | 2020년 9월 15일 | [데이터 수집](/help/data-ingestion/data-ingestion.md)에 대한 주제를 추가했습니다. |
 | 2020년 9월 2일 | [사용자 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) 섹션이 업데이트되었습니다. |
-| 2020년 8월 7일 | [B2B 사용 사례 - 조회 데이터 세트](/help/use-cases/b2b/b2b.md)에 대한 새 주제가 추가되었습니다. |
 | 2020년 7월 | [개인 ID를 위한 ID 맵 옵션](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)에 대한 정보가 추가되었습니다. |
 | 2020년 7월 | [오브젝트 배열](/help/use-cases/object-arrays.md) 또는 “데이터 계층”에 대한 새로운 주제가 추가되었습니다. |
 | 2020년 4월 14일 | [연결 만들기](/help/connections/create-connection.md) 주제의 최신 UI 업데이트 |
