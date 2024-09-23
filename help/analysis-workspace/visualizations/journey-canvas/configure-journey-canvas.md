@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c94544baf4c934b16b2fc9ce837dd41e07a3dcac
+source-git-commit: 90180e1231ab8b50f1f6b8552e00d1c251d10a2f
 workflow-type: tm+mt
-source-wordcount: '5141'
+source-wordcount: '5408'
 ht-degree: 1%
 
 ---
@@ -84,9 +84,9 @@ ht-degree: 1%
 
    | 설정 | 함수 |
    |---------|----------|
-   | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다. 시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. <p>시각화의 내용에 따라 가능한 노드 유형은 다음과 같습니다.</p><ul><li>[!UICONTROL **세그먼트 읽기**]</li><li>[!UICONTROL **종료**]</li><li>[!UICONTROL **차원**]</li><li>[!UICONTROL **지표**]</li></ul><p>**참고**: 이 필드를 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 시각화를 추가하고 있는 Analysis Workspace 패널에서 선택한 것과 동일한 데이터 보기에서 Journey Optimizer 데이터가 감지될 때만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</li><li>여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 이 옵션을 더 이상 사용할 수 없습니다. 자세한 내용은 [여정 캔버스에서 여정을 수정한 후의 시각적 차이점](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)을 참조하세요.</li><li>노드를 숨길 때 여정에서 노드가 삭제되지 않습니다. 노드 삭제 방법에 대한 자세한 내용은 [노드 삭제](#delete-nodes)를 참조하십시오.</li></ul></p> |
-   | [!UICONTROL **백분율 값**] | 다음 선택 사항 중 하나를 선택합니다. <ul><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사용자의 비율입니다.</li><li>[!UICONTROL **시작 노드의 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사람 중 여정의 시작 노드의 기준도 충족하는 사람의 비율입니다. (이 옵션은 시작 노드가 하나인 여정에서만 사용할 수 있으며, 시작 노드가 여러 개인 여정에서는 비활성화됩니다. 시작 노드는 연결이 없는 노드로 정의됩니다.)</li></ul> |
-   | [!UICONTROL **화살표 설정**] | 여정 캔버스에서 노드 사이에 나타나는 화살표에는 사용자 지정 이름, Journey Optimizer 레이블 및 Journey Optimizer 조건이 포함될 수 있습니다. 다음 옵션 중에서 선택하여 표시할 항목을 결정합니다.<ul><li>[!UICONTROL **없음**]: 사용자 지정 이름, Journey Optimizer 레이블 또는 Journey Optimizer 조건이 여정 캔버스의 화살표에 표시되지 않습니다. </li><li>[!UICONTROL **조건**]: Journey Optimizer에 구성된 모든 조건 레이블이 여정 캔버스의 화살표에 표시됩니다. 사용자 지정 이름 또는 기타 Journey Optimizer 레이블은 표시되지 않습니다.</li><li>[!UICONTROL **모든 레이블**]: 화살표에 사용자 지정 이름, 레이블 또는 조건이 포함되어 있으면 여정 캔버스의 화살표에 표시됩니다. 화살표당 하나의 이름, 레이블 또는 조건만 다음 기본 설정 순서로 표시됩니다. <ol><li>[노드 또는 화살표 이름 바꾸기](#rename-a-node-or-arrow)에 설명된 대로 여정 캔버스에서 사용자 지정 이름이 추가되었습니다.</li><li>Journey Optimizer 레이블</li><li>Journey Optimizer 조건</li></ol></li></ul><p>**참고**: 이 옵션은 시각화를 추가하고 있는 Analysis Workspace 패널에서 선택한 동일한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p> |
+   | [!UICONTROL **노드 유형**] | 시각화에 표시되는 노드 유형을 구성할 수 있습니다.<p>시각화에서 노드 유형을 숨기려면 노드 유형 옆의 (x)를 선택하거나 드롭다운 메뉴에서 선택을 취소합니다. 숨겨진 노드 유형을 표시하려면 드롭다운 메뉴에서 해당 유형을 선택합니다. (노드를 숨길 때 여정에서 노드가 삭제되지 않습니다. 노드 삭제 방법에 대한 자세한 내용은 [노드 삭제](#delete-nodes)를 참조하십시오.</p><p>이 필드에는 다음과 같이 Journey Optimizer 노드 유형([!UICONTROL **세그먼트 읽기**], [!UICONTROL **끝**] 등)과 구성 요소 노드 유형([!UICONTROL **Dimension**], [!UICONTROL **지표**], [!UICONTROL **필터**], [!UICONTROL **날짜 범위**])이 포함될 수 있습니다. </p><ul><li>**Journey Optimizer 여정 유형만 표시됩니다** 여정이 다음 수정 사항으로 여정 캔버스에서 수정되지 않은 Journey Optimizer 노드인 경우:<ul><li>추가되거나 제거된 노드</li><li>화살표가 추가되거나 제거되었습니다.</li><li>노드의 구성 요소를 변경했습니다.</li></ul></li><li>**Journey Optimizer 여정 유형과 구성 요소 노드 유형이 모두 표시됩니다.** 여정이 다음 수정 사항으로 여정 캔버스에서 수정된 Journey Optimizer 노드인 경우:<ul><li>추가되거나 제거된 노드</li><li>화살표가 추가되거나 제거되었습니다.</li><li>노드의 구성 요소를 변경했습니다.</li></ul></li><li>여정이 Journey Optimizer 여정 노드가 아닌 경우 **구성 요소 노드 유형만 표시됩니다**.</li></ul></p> |
+   | [!UICONTROL **백분율 값**] | 여정의 각 노드에 표시되는 백분율 값입니다. 이 비율에는 패널의 날짜 범위 내에 데이터 보기에 포함된 사람만 포함됩니다. <p>다음 선택 사항 중 하나를 선택합니다.</p> <ul><li>[!UICONTROL **시작 노드의 비율**]: 여정에서 시작 노드의 기준을 충족하는 모든 사용자의 비율입니다. <p>_시작 노드_&#x200B;은(는) 앞에 연결된 노드가 없는 노드입니다.</p><p>한 여정에 여러 시작 노드가 포함될 수 있습니다. 그러나 여정에 공통 노드로 이어지는 시작 노드가 2개 이상 포함된 경우 총 [!UICONTROL **백분율**]&#x200B;이 사용됩니다. [!UICONTROL **시작 노드의 비율**]&#x200B;을 사용하려면 여정의 각 노드를 단일 시작 노드로 다시 추적할 수 있도록 여정을 업데이트하십시오.</p></li><li>[!UICONTROL **이전 노드의 비율**]: 이전 노드의 모든 사용자의 비율입니다.</li><li>[!UICONTROL **총 비율**]: 패널의 날짜 범위 내에 있는 데이터 보기에 포함된 모든 사용자의 비율입니다.</li></ul> |
+   | [!UICONTROL **화살표 설정**] | 여정 캔버스에서 노드 사이에 나타나는 화살표는 사용자 지정 레이블 및 값을 표시하도록 구성할 수 있습니다. <p>_레이블_&#x200B;은(는) 화살표에 표시되는 사용자 지정 이름입니다. 주어진 화살표에는 단일 레이블만 표시됩니다. 레이블은 다음 중 하나일 수 있으며, 이 환경 설정 순서로 표시됩니다.</p><ol><li>[노드 또는 화살표 이름 바꾸기](#rename-a-node-or-arrow)에 설명된 대로 여정 캔버스에서 사용자 지정 이름이 추가되었습니다.</li><li>Journey Optimizer 레이블</li><li>Journey Optimizer 조건</li></ol><p>_값_&#x200B;은(는) 화살표에 표시되는 숫자와 백분율이며 여정의 한 노드에서 다음 노드로 이동한 사람 또는 세션을 나타냅니다. (즉, 주어진 단계에서 여정에서 빠지지 않은 사람들입니다.) </p><p>Journey Optimizer에서 시작하지 않은 여정 및 여정 캔버스에서 크게 수정되지 않은 Journey Optimizer 여정에 대해 다음 옵션을 사용할 수 있습니다(크게 수정하면 노드 추가 또는 제거, 화살표 추가 또는 제거 또는 노드 구성 요소 변경이 포함됩니다.)</p><ul><li>[!UICONTROL **레이블 없음**]: 여정의 화살표에 레이블이 표시되지 않습니다. </br> 이 옵션은 여정이 수정된 경우에만 사용할 수 있습니다. </li><li>[!UICONTROL **레이블만**]: 레이블은 여정의 화살표에 표시됩니다.</li></ul><p>여정 캔버스에서 크게 수정된 Journey Optimizer 여정에 대해 다음 옵션을 사용할 수 있습니다. (많이 수정되는 옵션에는 노드 추가 또는 제거, 화살표 추가 또는 제거 또는 노드 구성 요소 변경이 포함됩니다.)(**참고**: 이러한 옵션은 시각화를 추가하는 Analysis Workspace 패널에서 선택한 동일한 데이터 보기에서 Journey Optimizer 데이터가 검색되는 경우에만 표시됩니다. Analysis Workspace의 패널에서 데이터 보기를 변경하는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analysis-workspace/home.md)를 참조하십시오.</p><ul><li>[!UICONTROL **레이블이나 값이 없음**]: 레이블이나 값이 여정의 화살표에 표시되지 않습니다.</li><li>[!UICONTROL **레이블만**]: 레이블만 여정의 화살표에 표시됩니다. 값이 표시되지 않습니다.</li><li>[!UICONTROL **값만**]: 값만 여정의 화살표에 표시됩니다. 레이블이 표시되지 않습니다.</li><li>[!UICONTROL **값 및 레이블**]: 레이블과 값이 모두 여정의 화살표에 표시됩니다.</li></ul> |
    | [!UICONTROL **폴아웃 표시**] | 각 노드에 대한 폴아웃 데이터를 표시합니다. 주어진 노드 뒤에 여정을 떠난 사람의 수와 백분율을 보여 줍니다. <p>여정에서 떨어진 사람은 사이트에서 다른 작업을 수행했을 수 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.</p> |
    | **확대/축소 컨트롤** | 캔버스의 오른쪽 위 모서리에서 다음 확대/축소 컨트롤을 사용할 수 있습니다.<ul><li>**확대** ![확대 아이콘](assets/zoom-in-icon.png): 시각화의 특정 영역을 확대합니다.<p>트랙패드 핀치와 같은 마우스 컨트롤을 사용할 수도 있습니다.</p></li><li>**축소** ![축소 아이콘](assets/zoom-out-icon.png): 캔버스에 더 많은 공간을 허용하도록 시각화를 축소합니다.<p>트랙패드 핀치와 같은 마우스 컨트롤을 사용할 수도 있습니다.</p></li><li>**화면 맞춤** ![화면 맞춤 아이콘](assets/fill-screen-icon.png): 전체 시각화로 화면을 채우도록 현재 확대/축소 및 패닝 설정을 조정합니다.</li></ul><p>확대/축소 후 캔버스를 패닝하려면 마우스를 클릭하고 원하는 위치로 드래그합니다.</p> |
 
@@ -273,7 +273,8 @@ ht-degree: 1%
 | 결합할 구성 요소 유형 | 사용된 논리(연산자) |
 |---------|----------|
 | 지표 + 지표 | OR로 연결됨 |
-| DIMENSION + DIMENSION | OR로 연결됨 |
+| Dimension 항목 + Dimension 항목(동일한 상위 차원의) | OR로 연결됨 |
+| Dimension 항목 + Dimension 항목(다른 상위 차원의) | AND로 결합됨 |
 | 필터 + 필터 | AND로 결합됨 |
 | Dimension + 지표, 날짜 범위 또는 필터 | AND로 결합됨 |
 | 날짜 범위 + 지표, 필터 또는 Dimension | AND로 결합됨 |

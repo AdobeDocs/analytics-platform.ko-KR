@@ -6,10 +6,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 3%
+source-wordcount: '1300'
+ht-degree: 2%
 
 ---
 
@@ -127,6 +127,16 @@ ht-degree: 3%
 
 여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 데이터 처리, 사용 가능한 기능 및 동기화 동작이 변경될 수 있습니다.
 
+여정 캔버스에서 Journey Optimizer 여정을 크게 수정하는 경우 데이터 처리, 사용 가능한 기능 및 동기화 비헤이비어가 변경될 수 있습니다. 중요한 수정에는 다음 중 하나가 포함됩니다.
+
+* 노드 추가 또는 제거
+
+* 노드 사이에 화살표 추가 또는 제거
+
+* 노드의 구성 요소 변경
+
+노드 드래그 또는 분류 추가와 같이, 여정 캔버스에서 Journey Optimizer 여정을 변경하는 경우 다음 섹션에서 설명하는 차이가 적용되지 않습니다.
+
 >[!NOTE]
 >
 >여정을 원래 상태로 되돌리려면 여정 캔버스에서 첫 번째 변경 작업을 수행한 후 Ctrl+z를 누를 수 있습니다. 또는 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
@@ -139,9 +149,13 @@ ht-degree: 3%
 
 #### 기능 차이점
 
-여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 [!UICONTROL **노드 유형**] 드롭다운 필드를 더 이상 사용할 수 없습니다.
+여정 캔버스에서 Journey Optimizer 여정을 수정한 후 수정 사항에 따라 다음 기능에 대한 기능이 변경될 수 있습니다.
 
-이 필드에 대한 자세한 내용은 [설정 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
+* [!UICONTROL **노드 형식**] 필드에 표시된 값이 변경되었습니다.
+
+* [!UICONTROL **화살표 설정**] 드롭다운 필드에서 사용할 수 있는 옵션이 변경됩니다.
+
+이러한 필드에 대한 자세한 내용은 [설정 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
 
 #### 동기화 차이점
 
