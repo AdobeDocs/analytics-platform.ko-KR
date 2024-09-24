@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
 workflow-type: tm+mt
-source-wordcount: '4016'
-ht-degree: 71%
+source-wordcount: '4065'
+ht-degree: 70%
 
 ---
 
@@ -19,6 +19,10 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 9월** | |
+| 요약 데이터 업데이트 | 요약 데이터에 대해 보고할 때 [조회 데이터](/help/data-views/summary-data.md#lookup-data)를 올바르게 사용하는 방법에 대한 정보로 요약 데이터 문서를 업데이트했습니다. |
+| BI 확장 업데이트 | BI 확장 설명서에 [기본값 및 제한](/help/data-views/bi-extension.md#defaults-and-limitations) 섹션을 추가했습니다. |
+| 경고 | 이제 Customer Journey Analytics에서 사용할 수 있는 [경고](/help/components/c-intelligent-alerts/intelligent-alerts.md) 기능에 대한 설명서를 추가했습니다. |
 | **2024년 8월** | |
 | B2B 프로젝트 예시 | 새로운 [B 조회를 위한 데이터 세트 변환](/help/connections/transform-datasets-b2b-lookups.md) 기능을 사용하여 Customer Journey Analytics에서 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 문서화한 [사용 사례](/help/use-cases/b2b/example.md)를 추가했습니다. |
 | 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 보여 주기 위해 [쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예제를 추가했습니다. |

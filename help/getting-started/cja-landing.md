@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
-workflow-type: ht
-source-wordcount: '842'
-ht-degree: 100%
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,12 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB 경고]
+
+경고를 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다. 경고가 트리거되는 빈도를 미리 보고, 이메일 또는 SMS로 경고를 보내고, 누적된 경고를 만드는 등의 작업을 수행할 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB 요약 데이터]
 
