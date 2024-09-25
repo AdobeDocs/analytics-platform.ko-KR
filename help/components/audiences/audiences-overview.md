@@ -4,7 +4,7 @@ description: Customer Journey Analytics의 대상자 게시 개념에 대해 알
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 4d71aaaaa0ac0162588dd6767e6c6209676dfc18
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 50%
@@ -43,7 +43,7 @@ ht-degree: 50%
 
 ## 데이터 거버넌스 및 동의
 
-Customer Journey Analytics에서 대상자를 게시하면 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다.  Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko-KR#consent-policy).
+Customer Journey Analytics에서 대상자를 게시하면 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다.  Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
 ## 다음 단계
 

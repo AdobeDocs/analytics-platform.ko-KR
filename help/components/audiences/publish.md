@@ -1,13 +1,13 @@
 ---
-title: 실시간 고객 프로필에 대상자 생성 및 게시
+title: 실시간 고객 프로필에 대상자 만들기 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
+source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 
@@ -95,7 +95,7 @@ Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Pla
 | 표시되지 않음 | Adobe Analytics-Analytics 소스 커넥터 (A4T) | 최대 30분 |
 | 1 | Analytics 소스 커넥터 또는 기타 소스에서 데이터 레이크로 데이터 수집 | 최대 90분 |
 | 2 | Experience Platform 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 최대 90분 |
-| 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | 몇 초 |
+| 3 | 실시간 고객 프로필에 게시하는 대상(스트리밍 세그먼트의 자동 생성 및 세그먼트의 데이터 수신 준비 허용 포함). | 몇 초 |
 | 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | Adobe Experience Platform에서 대상 만들기: 새 세그먼트 활성화 | 1~2시간 |
 
@@ -162,7 +162,7 @@ Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스
 
 +++**Customer Journey Analytics이 어떤 ID를 전송합니까?**
 
-[연결 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)에 지정된 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
+[연결 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)에 지정된 ID/네임스페이스 쌍입니다. 이는 특히 사용자가 “개인 ID”로 사용할 필드를 선택하는 단계입니다.
 
 +++
 
