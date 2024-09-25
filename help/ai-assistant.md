@@ -4,17 +4,17 @@ title: Adobe Customer Journey Analytics용 AI 어시스턴트
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 3ed6eabae8607a10920c8917a818f0497b337893
+source-git-commit: dae2282717d5d84862259d5b056fbfeb2d068cce
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 2%
 
 ---
 
 
 # Adobe Customer Journey Analytics용 AI 어시스턴트
 
-AI Assistant는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있는 대화식 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
+AI 비서는 실무자가 빠른 속도로 작업을 수행할 수 있는 대화식 경험이다. 개념을 이해하거나 문제를 해결하거나 정보를 검색하는 것이 과제인지 여부. AI 비서도 전문가가 아닌 일반인이 전문가 업무를 수행할 수 있도록 해 전반적인 업무 품질을 높인다.
 
 Customer Journey Analytics의 AI 도우미는 Adobe Experience League 설명서에 대해 교육되었습니다. 질문을 받으면 빠른 학습이 가능한 유익한 답변으로 AI 비서가 응답한다.
 
@@ -42,16 +42,24 @@ Customer Journey Analytics을 위한 AI Assistant는 모든 제품 계층에서 
 
 ## 기능 액세스
 
-이 첫 번째 릴리스에서 AI Assistant 기능에 대한 액세스는 다음 매개 변수에 의해 제어됩니다.
+다음 매개 변수는 AI Assistant 기능에 대한 액세스를 제어합니다.
 
 * **솔루션 액세스**: AI 도우미는 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서는 사용할 수 없습니다. Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP 및 추가 Experience Platform 앱에서도 사용할 수 있습니다.
 
-* **계약 액세스**: AI Assistant를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 AI Assistant를 사용하려면 먼저 귀사가 특정 GenAI 관련 법률 조항에 동의해야 합니다.
+* **계약 액세스**: AI Assistant를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 AI Assistant를 사용하려면 먼저 특정 GenAI 관련 법률 조항에 동의해야 합니다.
 
-* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] &quot;AI 도우미: 제품 기술 자료&quot; 권한이 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)는 Admin Console에서 다음 단계를 따라야 합니다.
-   1. [!UICONTROL Admin Console] > [!UICONTROL 제품 및 서비스] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL 제품 프로필] > [!UICONTROL 권한] > [!UICONTROL 보고 도구 편집](으)로 이동합니다.
-   1. &quot;AI Assistant: 제품 지식&quot;을 추가합니다.
-      ![권한 추가](assets/image.png)
+* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI Assistant: 제품 기술 자료]** 권한이 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]에서 다음 단계를 따라야 합니다.
+   1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**(으)로 이동
+   1. [!UICONTROL AI 길잡이: 제품 기술 자료]에 액세스할 수 있는 제품 프로필의 제목을 선택합니다.
+   1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 보고 도구]**&#x200B;를 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요.
+   1. ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택하여 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **AI 길잡이: 제품 지식**&#x200B;을(를) 추가합니다.
+
+      ![권한 추가](assets/ai-assistant-permissions.png).
+
+   1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
+
+자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
 ## Customer Journey Analytics UI에서 AI 지원에 액세스
 
