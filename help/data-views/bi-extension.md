@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
+source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 82%
+source-wordcount: '3044'
+ht-degree: 79%
 
 ---
 
@@ -399,5 +399,15 @@ ORDER BY -metric1 DESC
 | [추출](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용합니다.<br/>지원되는 항목:<br>- 키워드: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- 문자열:  `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
 | [날짜(일부)](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용합니다.<br/>지원되는 문자열 항목: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
 | [날짜(잘림)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다.<br/>지원되는 문자열 세부 기간: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
+
+{style="table-layout:auto"}
+
+### 부분 지원
+
+일부 SQL 기능은 BI 확장 기능에서만 부분적으로 지원되며 다른 데이터베이스에서 볼 수 있는 것과 동일한 결과를 반환하지 않습니다.  이 특정 기능은 다양한 BI 도구로 생성된 SQL에서 사용되며 BI 확장에 정확한 일치가 없습니다. 따라서 BI 확장은 오류를 발생시키지 않고 최소 BI 도구 사용을 다루는 제한된 구현에 중점을 둡니다. 자세한 내용은 아래 표를 참조하십시오.
+
+| 함수 | 예 | 세부 사항 |
+|---|---|---|
+| MIN() 및 MAX() | ``MIN(daterange)`` 또는 <br/> ``MAX(daterange)`` | `timestamp`, `daterange`의 `MIN()` 또는 `daterangeday`과(와) 같은 `daterangeX`이(가) 2년 전에 반환됩니다.<br/><br/> `timestamp`, `daterange`의 `MAX()` 또는 `daterangeday`과(와) 같은 `daterangeX`의 이(가) 현재 날짜/시간을 반환합니다.다른 차원, 지표 또는 식의 <br/><br/>`MIN()` 또는 `MAX()`은(는) 0을 반환합니다. |
 
 {style="table-layout:auto"}
