@@ -4,9 +4,9 @@ title: 지능형 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
+source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '632'
 ht-degree: 5%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 5%
 
 * 다른 사용자와 공유하기 위해 내러티브가 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공할 수 있도록 이러한 통찰력이 필요합니다.
 * 높은 수준의 테이크아웃을 빠르게 발견하고자 하는 비즈니스 사용자.
-
-캡션은 모든 Customer Journey Analytics 사용자가 사용할 수 있으며 특별한 권한이 필요하지 않습니다.
 
 ## 지능형 캡션 실행 {#launch}
 
@@ -101,7 +99,7 @@ ht-degree: 5%
 
 * **솔루션 액세스**: 지능형 캡션 기능은 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서는 사용할 수 없습니다.
 
-* **계약 액세스**: 지능형 캡션을 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 인텔리전트를 사용하려면 먼저 특정 GenAI 관련 법률 약관에 동의해야 합니다.
+* **계약 액세스**: 지능형 캡션을 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 지능형 캡션을 사용하려면 먼저 특정 GenAI 관련 법률 용어에 동의해야 합니다.
 
 * **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL 지능형 캡션]** 권한이 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]에서 다음 단계를 따라야 합니다.
    1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
