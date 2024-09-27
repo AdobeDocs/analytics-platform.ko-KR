@@ -4,7 +4,7 @@ title: 지능형 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
+source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 5%
@@ -17,8 +17,8 @@ ht-degree: 5%
 
 지능형 캡션은 다음 항목에 맞춰져 있습니다.
 
-* 다른 사용자와 공유하기 위해 내러티브가 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공할 수 있도록 이러한 통찰력이 필요합니다.
-* 높은 수준의 테이크아웃을 빠르게 발견하고자 하는 비즈니스 사용자.
+* 다른 사용자와 공유하기 위해 서술이 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공할 수 있도록 이러한 통찰력이 필요합니다.
+* 높은 수준의 테이크아웃을 빠르게 찾고 싶은 비즈니스 사용자.
 
 ## 지능형 캡션 실행 {#launch}
 
