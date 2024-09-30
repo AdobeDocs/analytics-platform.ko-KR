@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: ht
-source-wordcount: '2315'
-ht-degree: 100%
+source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
+workflow-type: tm+mt
+source-wordcount: '2306'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 | **향상된 보안 및 개인정보 보호 옵션** - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 [추가 보안 옵션](/help/privacy/cmk.md)을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
 | **실험 분석** | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 [실험의 상승도 및 신뢰도를 평가](/help/analysis-workspace/c-panels/experimentation.md)할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
 | **예측** | [예측](/help/analysis-workspace/c-forecast/forecasting.md)은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함하는 AI/ML 기능입니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. |
-| **안내식 분석** | [안내식 분석](/help/guided-analysis/overview.md)은 사용자가 데이터 요구 사항을 빠르게 셀프서비스하여 고품질의 인사이트를 빠르게 얻고 더 많은 데이터 기반 결정을 내릴 수 있도록 하는 보고 형식입니다. 안내식 분석은 Adobe Product Analytics의 일부입니다. |
+| **안내식 분석** | [안내가 있는 분석](/help/guided-analysis/overview.md)을 통해 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 구축된 안내가 있는 워크플로우를 통해 고품질 데이터와 고객 여정에 대한 통찰력을 자체 제공할 수 있습니다. |
 | **지능형 캡션** | 지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스에서는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화에 대한 자동 생성된 인사이트를 제공합니다. |
 | **보고 시간 변환** | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
 | **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
