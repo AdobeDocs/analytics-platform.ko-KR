@@ -3,7 +3,7 @@ title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 60c53b29f8e4105f96bf312462610024517605b8
+source-git-commit: 18686285efbdbc9e8fdac93e215adc4061bb0022
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 11%
