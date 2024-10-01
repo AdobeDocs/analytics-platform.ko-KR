@@ -5,14 +5,24 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2659'
-ht-degree: 68%
+source-wordcount: '2672'
+ht-degree: 67%
 
 ---
 
-# 모바일 스코어카드 만들기
+# 모바일 스코어카드 만들기 {#create-a-mobile-scorecard}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_mobilescorecard_annotations"
+>title="주석"
+>abstract="작업 영역 프로젝트 내의 구성 요소 관리자에서 주석을 만들 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 다음 정보는 Customer Journey Analytics 큐레이터에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 시작을 위한 Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
@@ -60,7 +70,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
    ![데이터 보기 선택을 강조 표시하는 새 모바일 스코어카드 창](assets/properties_save.png)
 
-1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역으로 끌어다 놓습니다. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
+1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역으로 끌어다 놓습니다. 비슷한 워크플로를 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
    ![스코어카드에 드롭된 지표(새 KPI)를 가리키는 화살표가 있는 새 모바일 스코어카드 창입니다. ](assets/build_list.png)
 
@@ -135,7 +145,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ### [!UICONTROL 도넛]
 
-파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부로 표시합니다. 합계의 백분율을 비교할 때 도넛 그래프를 사용하십시오. 예를 들어 총 고유 사용자 수에 기여한 광고 플랫폼을 확인하려고 한다고 가정해 보겠습니다.
+파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부로 표시합니다. 합계의 백분율을 비교할 때 도넛 그래프를 사용하십시오. 예를 들어 총 고유 사용자 수에 기여한 광고 플랫폼을 확인하려고 합니다.
 
 ![도넛 시각화를 표시하는 새 모바일 스코어카드](assets/donut-viz.png)
 

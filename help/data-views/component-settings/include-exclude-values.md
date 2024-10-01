@@ -5,14 +5,34 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 97%
+source-wordcount: '353'
+ht-degree: 94%
 
 ---
 
-# 포함/제외 값 구성 요소 설정
+# 포함/제외 값 구성 요소 설정 {#include-exclude-values-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_includeexcludevalues"
+>title="포함/제외 값"
+>abstract="특정 기준과 일치하는 값만 계산하도록 지표를 필터링하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_includeexcludevalues"
+>title="포함/제외 값"
+>abstract="특정 기준과 일치하는 값만 포함하도록 차원 범위를 좁히십시오. 보고서에서 할당 및 필터 전에 포함 및 제외가 발생합니다.<br/><br/>**매개 변수&#x200B;**<br/>**대/소문자 구분**: 아래의 필터 논리가 대/소문자를 구분하는지 확인하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 포함/제외를 사용하여 차원 항목의 값에 의존하는 규칙을 만들 수 있습니다. 설정된 기준을 충족하지 않는 값은 Analysis Workspace에서는 존재하지 않은 것처럼 처리되지만 데이터는 여전히 기본 데이터 세트에 존재합니다.
 

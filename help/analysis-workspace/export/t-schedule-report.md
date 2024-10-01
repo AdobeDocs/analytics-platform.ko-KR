@@ -1,21 +1,21 @@
 ---
 description: 이메일로 Analysis Workspace 프로젝트를 보내거나 게재할 일정을 예약합니다.
 keywords: Analysis Workspace
-title: 이메일로 다른 사람에게 Customer Journey Analytics 데이터 보내기
+title: 이메일로 다른 사람에게 보고서 보내기
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 63%
+source-wordcount: '1034'
+ht-degree: 60%
 
 ---
 
-# 이메일을 통해 다른 사용자에게 Customer Journey Analytics 데이터 보내기
+# 다른 사용자에게 파일 보내기
 
-이메일을 통해 선택한 수신자에게 보내어 Customer Journey Analytics 보고서를 내보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 보낼 파일을 구성할 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+Customer Journey Analytics 보고서를 선택한 사용자에게 이메일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 보낼 파일을 구성할 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
 프로젝트에 적용된 모든 태그는 내보내기에 자동으로 적용됩니다.
 
@@ -56,7 +56,7 @@ ht-degree: 63%
 
 예약된 Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 예약된 프로젝트]**&#x200B;에서 관리할 수 있습니다.
 
-예약된 프로젝트 관리자에서 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색하십시오. 태그, 승인된 일정, 소유자 등으로 필터링할 수 있습니다.
+예약된 프로젝트 관리자에서 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다. 검색 창에서 또는 왼쪽 패널의 필터 옵션을 사용하여 예약을 검색합니다. 태그, 승인된 일정, 소유자 등으로 필터링할 수 있습니다.
 
 | 필드 | 설명 |
 | --- | --- |
@@ -78,14 +78,24 @@ ht-degree: 63%
 | **[!UICONTROL 예약 편집]** | 예약 제목을 클릭하여 게재 설정을 업데이트합니다. |
 | **[!UICONTROL 예약 삭제]** | 목록에서 예약된 프로젝트를 선택한 다음, 메뉴에서 삭제를 클릭합니다. 선택한 프로젝트 예약이 삭제됩니다. 프로젝트 자체는 삭제되지 않습니다. |
 | **[!UICONTROL 태그 추가]** | 일정을 구성하고 검색하기 더 쉽게 하려면 목록에서 예약된 프로젝트를 선택한 다음 “태그” 또는 “승인”을 선택합니다. |
-| **[!UICONTROL 실패한 일정 보기]** | 실패한 예약을 보려면 왼쪽 레일 > 기타 필터 > 실패로 이동합니다. |
-| **[!UICONTROL 만료된 일정 보기]** | 만료된 예약을 보려면 왼쪽 레일 > 기타 필터 > 만료됨으로 이동합니다. 예약의 제목을 클릭하여 새 게재 예약을 설정합니다. |
+| **[!UICONTROL 실패한 일정 보기]** | 실패한 예약을 보려면 왼쪽 패널 > 기타 필터 > 실패로 이동합니다. |
+| **[!UICONTROL 만료된 일정 보기]** | 만료된 예약을 보려면 왼쪽 패널 > 기타 필터 > 만료됨으로 이동합니다. 예약의 제목을 클릭하여 새 게재 예약을 설정합니다. |
 | **[!UICONTROL 예약 ID 보기]** | 오른쪽 상단의 열 옵션으로 이동하고 예약 ID 열을 테이블에 추가합니다. 예약된 ID는 종종 디버깅에 유용합니다. |
 
 예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)를 참조하십시오.
 
 ## 암호로 예약된 프로젝트 보호 {#password}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_sendfile_password"
+>title="암호 암호화"
+>abstract="제공된 암호는 예약 프로젝트의 파일을 암호화하는 데 사용됩니다. 조직의 보안 요구 사항에 따라 암호를 암호화해야 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >

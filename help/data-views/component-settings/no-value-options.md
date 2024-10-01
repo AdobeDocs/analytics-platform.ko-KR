@@ -5,14 +5,24 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 92%
+source-wordcount: '258'
+ht-degree: 93%
 
 ---
 
-# 값 옵션 없음 구성 요소 설정
+# 값 옵션 없음 구성 요소 설정 {#no-value-options-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_novalueoptions"
+>title="값 옵션 없음"
+>abstract="차원에 값이 없는 경우 기본 비헤이비어를 구성하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
 
 값 옵션 없음을 통해 Analysis Workspace에서 데이터 세트의 이벤트에는 지표가 포함되지만 차원에는 값이 포함되지 않은 상황을 처리하는 방법을 결정할 수 있습니다. 이 차원 항목의 이름을 선택하고 완전히 숨기거나 실제 값으로 처리할 수도 있습니다.
 

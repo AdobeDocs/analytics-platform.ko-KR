@@ -5,14 +5,24 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 69%
+source-wordcount: '2047'
+ht-degree: 65%
 
 ---
 
-# 프로젝트 공유
+# 프로젝트 공유 {#share-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_shareprojects"
+>title="프로젝트 공유"
+>abstract="이러한 프로젝트 역할을 조직의 다른 사용자와 공유할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있습니다.
 
@@ -30,10 +40,13 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 공유 전 적용한 모든 [조정](curate.md) 기능은 수신자가 프로젝트를 열 때 반영됩니다.
 
-다음은 프로젝트 공유에 대한 비디오 개요입니다.
++++ 프로젝트 공유 사용 방법을 보여 주는 비디오를 봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
+{{videoaa}}
+
++++
 
 ## 조직의 Customer Journey Analytics 사용자 및 그룹과 공유 {#Add}
 
@@ -65,7 +78,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 조직의 사용자 또는 그룹과 특정 프로젝트 역할을 공유하려면 다음 작업을 수행합니다.
 
-1. Customer Journey Analytics에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일에서 [!UICONTROL **프로젝트**]&#x200B;를 선택합니다.
+1. Customer Journey Analytics에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 패널에서 [!UICONTROL **프로젝트**]&#x200B;를 선택합니다.
 
 1. 공유하려는 한 개 이상의 프로젝트 옆에 있는 확인란을 선택한 다음 [!UICONTROL **공유**]&#x200B;를 선택합니다.
 
@@ -82,9 +95,9 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    **원본 편집:** 수신자는 프로젝트 및 기능에 대한 변경 내용을 공동 소유자로서 **[!UICONTROL 저장]**&#x200B;할 수 있습니다. 이 역할은 프로젝트를 다른 동료와 공동 관리하려는 경우 유용합니다. 여기에는 공유 프로젝트에 대한 수신자 목록 편집, 삭제 및 수정 등이 포함됩니다. <br>참고: Analysis Workspace는 현재 라이브 공동 작업을 지원하지 않으므로 주어진 시간에 한 명의 사용자만 프로젝트를 편집하는 것이 좋습니다. 프로젝트를 동시에 저장하는 경우 마지막 버전이 유지됩니다.
 
-   **사본 편집:** 수신자는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하고 왼쪽 레일에 액세스할 수 있습니다. 이 역할에서는 프로젝트 상호 작용이 제한되지 않습니다. 이 역할은 조직의 데이터를 이해하고 Analysis Workspace 사용 방법을 알고 있지만 프로젝트를 변경하지 않으려는 사용자에게 프로젝트를 공유하려는 경우에 유용합니다.
+   **복사본 편집:** 받는 사람은 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하고 왼쪽 패널에 액세스할 수 있습니다. 이 역할에서는 프로젝트 상호 작용이 제한되지 않습니다. 이 역할은 조직의 데이터를 이해하고 Analysis Workspace 사용 방법을 알고 있지만 프로젝트를 변경하지 않으려는 사용자에게 프로젝트를 공유하려는 경우에 유용합니다.
 
-   **읽기 전용:** 수신자는 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;할 수 없으며 왼쪽 레일에 액세스할 수 없습니다. 상호 작용이 제한됩니다. 이 역할은 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Customer Journey Analytics에 익숙하지 않은 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. 그럼에도 불구하고, 안전한 환경에서 데이터와 인사이트를 소비해야 합니다. [읽기 전용 프로젝트 경험](/help/analysis-workspace/curate-share/view-only-projects.md)에 대해 자세히 알아보십시오.
+   **읽기 전용:** 받는 사람은 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;할 수 없으며 왼쪽 패널에 액세스할 수 없습니다. 상호 작용이 제한됩니다. 이 역할은 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Customer Journey Analytics에 익숙하지 않은 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. 그럼에도 불구하고, 안전한 환경에서 데이터와 인사이트를 소비해야 합니다. [읽기 전용 프로젝트 경험](/help/analysis-workspace/curate-share/view-only-projects.md)에 대해 자세히 알아보십시오.
 
 1. (조건부) 단일 프로젝트를 공유하는 경우 프로젝트를 공유할 때 다음 옵션을 활성화할지 여부를 선택합니다.
 
@@ -148,7 +161,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
 1. 공유하려는 Analysis Workspace 프로젝트를 엽니다.
 
-1. **[!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 공유]** > **[!UICONTROL 모든 사람과 공유]**&#x200B;를 선택합니다.
 
    저장되지 않은 변경 사항이 있는 경우 프로젝트를 저장하라는 메시지가 표시됩니다.
 
@@ -164,7 +177,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 공유받는 사용자가 Adobe Analytics에 액세스할 필요는 없습니다.
+     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 와 공유하는 사용자는 Customer Journey Analytics에 액세스할 필요가 없습니다.
 
      Customer Journey Analytics 관리자는 [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. 관리자가 이 옵션을 구성한 방식에 따라 다음 시나리오가 발생할 수 있습니다.
 
@@ -172,13 +185,13 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
       * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 이는 Customer Journey Analytics 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 Experience Cloud 인증을 요구함을 의미합니다. 이는 Healthcare Shield를 허가한 조직의 경우 항상 해당됩니다.
 
-1. **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드 옆에 있는 **링크 복사** 아이콘 ![링크 복사 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg))을 클릭하여 링크를 시스템 클립보드에 복사합니다.
+1. **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드 옆에 있는 ![링크](/help/assets/icons/Link.svg)를 선택하여 링크를 시스템 클립보드에 복사합니다.
 
 1. 프로젝트에 액세스하도록 할 사람에게 링크를 공유합니다. 예를 들어 이메일에 링크를 붙여넣을 수 있습니다.
 
    링크를 공유하는 사람은 누구나 Analysis Workspace 프로젝트를 볼 수 있습니다.
 
-1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
+1. (선택 사항) ![새 링크 생성 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 선택하여 이전에 프로젝트에 대한 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
 
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하여 공유 대화 상자를 닫습니다. 변경 내용은 자동으로 저장됩니다.
 

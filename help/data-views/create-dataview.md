@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 100%
+source-wordcount: '1832'
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 100%
 
 데이터 보기 만들기에는 스키마 요소에서 지표와 차원을 생성하거나 표준 구성 요소를 사용하는 작업이 포함됩니다. 비즈니스 요구 사항에 따라 대부분의 스키마 요소는 차원이나 지표 중 하나가 될 수 있습니다. 스키마 요소를 데이터 보기로 드래그하면 Customer Journey Analytics에서 차원 또는 지표가 작동하는 방법을 조정할 수 있는 옵션이 오른쪽에 나타납니다.
 
-다음은 해당 주제에 대한 비디오입니다.
++++ Customer Journey Analytics의 데이터 보기를 보여주는 비디오 보기
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+
++++
 
 데이터 보기를 만들거나 편집하는 경우:
 
@@ -26,7 +28,17 @@ ht-degree: 100%
 1. 데이터 보기를 만들려면 **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다. 또는 데이터 보기 목록에서 기존 데이터 보기를 선택하여 편집할 수 있습니다.
 
 
-## 구성
+## 구성 {#configure}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="외부 ID"
+>abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 데이터 보기 이름이 표시되는 방식에 영향을 미칠 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 신규 또는 기존 데이터 보기를 구성하는 경우:
 
@@ -50,9 +62,20 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-### 호환성
+### 호환성 {#compatibility}
 
 {{release-limited-testing-section}}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>title="Journey Optimizer의 데이터 보기"
+>abstract="Journey Optimizer에서는 Customer Journey Analytics으로 구성된 데이터 보기를 사용해야 합니다.<br/>이 옵션을 사용하면 Adobe Journey Optimizer 보고에 사용되는 기본 데이터 보기가 됩니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="추가 구성 요소 및 데이터 세트"
+
+<!-- markdownlint-enable MD034 -->
+
 
 Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적용할 수 있는 설정을 제공합니다.
 

@@ -4,14 +4,33 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 65%
+source-wordcount: '837'
+ht-degree: 66%
 
 ---
 
-# 감사 로그
+# 감사 로그 {#audit-logs}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_userid"
+>title="사용자 ID"
+>abstract="사용자 ID는 원하는 사용자가 포함된 로그 항목의 정보 버튼을 눌러 찾을 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_componentid"
+>title="구성 요소 ID"
+>abstract="구성 요소 ID는 원하는 구성 요소가 포함된 로그 항목의 정보 버튼을 눌러 찾을 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Adobe Customer Journey Analytics을 사용하면 &quot;감사 로그&quot; 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다.
 

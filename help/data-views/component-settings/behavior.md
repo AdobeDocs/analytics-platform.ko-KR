@@ -5,14 +5,24 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 90%
+source-wordcount: '340'
+ht-degree: 82%
 
 ---
 
-# 비헤이비어 구성 요소 설정
+# 비헤이비어 구성 요소 설정 {#behavior-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_behavior"
+>title="비헤이비어"
+>abstract="이 차원의 라인 항목을 집계하는 방법을 결정합니다.<br/><br/>**매개 변수&#x200B;**<br/>**소문자**: 필드의 문자열 값이 소문자인지 여부를 지정할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 차원과 지표 모두에서 비헤이비어 설정을 시용할 수 있습니다. 구성 요소 유형과 스키마 데이터 유형에 따라 설정 사용 가능 여부가 달라집니다.
 

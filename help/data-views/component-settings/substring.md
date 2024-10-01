@@ -5,14 +5,24 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '921'
 ht-degree: 94%
 
 ---
 
-# [!UICONTROL 하위 문자열] 구성 요소 설정
+# 하위 문자열 구성 요소 설정 {#substring-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_substring"
+>title="하위 문자열"
+>abstract="규칙 또는 정규 표현식을 사용하여 문자열의 일부를 추출하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
 
 [!UICONTROL 하위 문자열] 구성 요소 설정을 사용하면 여러 문자열 조작 방법을 수행하여 보고서에서 원하는 차원 항목을 얻을 수 있습니다.
 

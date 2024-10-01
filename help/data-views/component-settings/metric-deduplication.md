@@ -5,14 +5,24 @@ exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
 
-# 지표 중복 제거 구성 요소 설정
+# 지표 중복 제거 구성 요소 설정 {#metric-deduplication-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_deduplication"
+>title="지표 중복 제거"
+>abstract="반복되지 않는 값만 계산하도록 지표를 구성하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
 
 지표 중복 제거를 통해 지표가 값만을 비반복적으로 계산하도록 구성할 수 있습니다.
 

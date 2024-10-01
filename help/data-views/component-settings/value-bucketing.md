@@ -5,14 +5,24 @@ exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
-# [!UICONTROL 값 버킷팅] 구성 요소 설정
+# [!UICONTROL 값 버킷팅] 구성 요소 설정 {#value-bucketing-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_valuebucketing"
+>title="값 버킷팅"
+>abstract="버킷 값을 특정 범위로 지정합니다. 이들 범위는 보고서에서 차원 항목으로 표시됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 데이터 보기를 만들거나 편집할 때 값 버킷팅을 통해 범위를 기준으로 숫자 값을 조합할 수 있습니다. Integer 또는 Double 스키마 데이터 유형을 사용하여 차원에서만 사용할 수 있습니다.
 

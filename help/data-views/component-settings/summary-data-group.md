@@ -4,14 +4,25 @@ description: 요약 데이터에 대해 제대로 보고할 수 있도록 데이
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 9%
+source-wordcount: '343'
+ht-degree: 17%
 
 ---
 
-# [!UICONTROL 요약 데이터 그룹] 구성 요소 설정
+# [!UICONTROL 요약 데이터 그룹] 구성 요소 설정 {#summary-data-group-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup"
+>title="요약 데이터 그룹"
+>abstract="요약 데이터 그룹은 그룹의 모든 차원을 연결하며 보고를 위해 요약 데이터 세트의 차원을 다른 차원과 결합하는 데 사용됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 요약 데이터 그룹은 그룹의 모든 차원을 연결하며 보고를 위해 요약 데이터 세트의 차원을 다른 차원과 결합하는 데 사용됩니다.
 
@@ -40,5 +51,3 @@ ht-degree: 9%
 >
 >한 차원에서만 차원 그룹화를 수행하고 여러 차원에서는 그룹화를 적용하지 마십시오. 예를 들어 `campaign_name` 차원을 `tracking_code` 차원에 추가하여 그룹화를 만드는 경우 `campaign_name` 차원에 대한 그룹화도 만들지 마십시오.
 >
-
-

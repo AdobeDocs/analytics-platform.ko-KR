@@ -5,20 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 7%
+source-wordcount: '2016'
+ht-degree: 8%
 
 ---
 
-# 보고 활동 관리자에서 보고 활동 보기
+# 보고 활동 보기 {#view-reporting-activity}
 
 [!UICONTROL 보고 활동 관리자]를 사용하면 관리자가 최대 보고 시간 동안 보고 용량 문제를 빠르게 진단하고 해결할 수 있습니다.
 
 주요 이점 및 권한 요구 사항을 포함하여 보고 활동 관리자에 대한 자세한 내용은 [보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오.
 
-## 모든 연결에 대한 보고 활동 보기 {#view-all-report-suites}
+## 모든 연결의 경우 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="연결"
+>abstract="이 테이블에는 보고 활동을 관리할 수 있는 권한이 있는 연결이 표시됩니다. 각 연결에 대한 정보는 테이블의 각 열에서 확인할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 1. Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 
@@ -36,7 +46,7 @@ ht-degree: 7%
 
    * 검색 필드를 사용하여 특정 연결을 검색합니다. 입력할 때 연결 이름 또는 ID와 연결 업데이트 목록을 입력하십시오.
 
-   * 필터 옵션 목록을 확장하려면 [!UICONTROL **필터**] 아이콘 ![필터 아이콘](assets/filter-icon.png)을 선택하세요. [!UICONTROL **즐겨찾기**] 또는 [!UICONTROL **상태**]&#x200B;별로 필터링할 수 있습니다.
+   * 필터 옵션 목록을 확장하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오. [!UICONTROL **즐겨찾기**] 또는 [!UICONTROL **상태**]&#x200B;별로 필터링할 수 있습니다.
 
      연결을 즐겨찾기로 표시하려면 연결 이름 왼쪽에 있는 별 아이콘을 선택합니다.
 
@@ -57,7 +67,7 @@ ht-degree: 7%
 
    {style="table-layout:auto"}
 
-## 단일 연결에 대한 보고 활동 보기
+## 단일 연결의 경우
 
 1. Customer Journey Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **보고 활동 관리자**]&#x200B;를 선택합니다.
 

@@ -4,20 +4,37 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 80%
+source-wordcount: '564'
+ht-degree: 69%
 
 ---
 
-# 데이터 사전 개요
+# 데이터 사전 개요 {#data-dictionary-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_datadictionary"
+>title="데이터 사전"
+>abstract="데이터 사전은 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Analytics 관리자는 사용자에게 데이터 사전의 각 구성 요소에 대한 정보를 조정할 책임이 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다.
 
 Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를 구성하고 사용자가 사용할 수 있도록 해야 합니다.
 
+
++++ 데이터 사전을 보여 주는 비디오 보기
+
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+
+{{videoaa}}
+
++++
 
 ## 사용자를 위한 이점
 
@@ -57,16 +74,14 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액세스할 수 있습니다.
 
-* 왼쪽 레일의 **데이터 사전** 아이콘에서.
+왼쪽 패널의 ![데이터 사전 아이콘](assets/data-dictionary-access.png)
 
-  ![왼쪽 레일의 데이터 사전 아이콘](assets/data-dictionary-access-icon.png)
+* 단추 패널의 ![책갈피](/help/assets/icons/Bookmark.svg)부터
 
-* 구성 요소의 정보 팝오버에 있는 **데이터 사전** 아이콘에서.
 
-  ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
-  <!--update screenshot; this was taken from a mock-->
 
-* 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
+* 구성 요소 정보 팝오버 내의 ![책갈피](/help/assets/icons/Bookmark.svg)에서.
+
 
 데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](/help/components/data-dictionary/view-data-dictionary.md)를 참조하십시오.
 

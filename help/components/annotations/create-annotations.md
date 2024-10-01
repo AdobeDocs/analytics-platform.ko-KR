@@ -1,50 +1,93 @@
 ---
-title: 주석 만들기
+title: 주석 생성
 description: Workspace에서 주석을 만드는 방법
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 17%
 
 ---
 
 # 주석 만들기
 
-기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 Analytics 구성 요소(예: 필터, 계산된 지표 등)와 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
+기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 구성 요소(예: 필터, 계산된 지표 등)를 보는 것과 유사한 방식으로 주석을 볼 수 있는 권한이 있습니다.
 
-단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
+그러나 관리자는 Admin Console을 통해 사용자에게 **[!UICONTROL CJA Workspace 액세스에 대한 권한 편집]**&#x200B;에서 **[!UICONTROL 보고 도구]**&#x200B;에 대한 **[!UICONTROL 주석 만들기]** 권한을 부여할 수 있습니다. 자세한 내용은 [사용자 수준 액세스 제어](/help/technotes/access-control.md#user-level-access)를 참조하십시오.
 
-1. 여러 가지 방법으로 시작하여 주석을 만들 수 있습니다.
+다음과 같은 방법으로 주석을 생성할 수 있습니다.
 
-| 만들기 방법 | 세부 사항 |
-| --- | --- |
-| **[!UICONTROL 구성 요소] > [!UICONTROL 주석]으로 이동합니다.** | 주석 관리자 페이지가 열립니다. [!UICONTROL 새 주석 만들기]를 클릭하면 [!UICONTROL 주석 빌더]가 열립니다. |
-| **테이블의 한 지점을 마우스 오른쪽 버튼으로 클릭합니다.** | [!UICONTROL 주석 빌더]가 열립니다. 기본적으로 이 방법으로 만든 주석은 해당 주석을 만든 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜 및 지표 등이 이미 채워져 있습니다.<p>![](assets/annotate-table.png) |
-| **[!UICONTROL 선] 그래프의 한 지점을 마우스 오른쪽 버튼으로 클릭합니다.** | [!UICONTROL 주석 빌더]가 열립니다. 기본적으로 이 방법으로 만든 주석은 해당 주석을 만든 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜 및 지표 등이 이미 채워져 있습니다.<p>![](assets/annotate-line.png) |
-| **Workspace에서 [!UICONTROL 구성 요소] > [!UICONTROL 주석 만들기]로 이동합니다.** | [!UICONTROL 주석 빌더]가 열립니다. |
-| **이 핫키를 사용하여** 주석 빌더를 엽니다.(PC) `ctrl` `shift` + o,(Mac) `shift` + `command` + o | 핫키를 사용하여 주석을 만들면 미리 선택된 범위(지표 또는 차원) 없이 현재 날짜에 대한 하루 주석을 만들 수 있습니다. |
-| **[Customer Journey Analytics 주석 API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/) 사용** | Customer Journey Analytics 주석 API를 사용하면 Adobe Developer를 통해 프로그래밍 방식으로 주석을 만들고, 업데이트하고, 검색할 수 있습니다. 이러한 API는 Adobe가 제품 UI 내에서 사용하는 것과 동일한 데이터 및 방법을 사용합니다. |
+![주석 만들기](assets/create-annotation.png)
 
-{style="table-layout:auto"}
+* ?? 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석]**&#x200B;을 선택합니다. [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* ?? Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 주석 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트의 선 그래프의 컨텍스트 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
+* ??Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+o]**(Windows) 또는 **[!UICONTROL shift+command+o]**(macOS)을 사용합니다.
 
-1. [!UICONTROL 주석 빌더] 요소를 입력합니다.
+주석을 정의하려면 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
 
-   ![다음 섹션에 설명된 필드와 옵션을 보여 주는 주석 세부 정보 창입니다.](assets/ann-builder.png)
+<!-- Should we really mention API here. If so, we can do it all over the place in the docs...
+| **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
+-->
+
+
+## 주석 빌더 {#annotation-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_annotations_details"
+>title="주석 세부 정보"
+>abstract="주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 조직에 효과적으로 전달할 수 있습니다. 이를 통해 달력 이벤트를 특정 차원/지표에 연결할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_annotations_scope"
+>title="범위"
+>abstract="범위를 사용하면 주석을 추가할 데이터를 사용자 지정할 수 있습니다. 계산된 지표 및 세그먼트는 해당 정의에 사용된 구성 요소에 적용된 주석을 자동으로 상속하지 않습니다. 기존 주석의 범위 섹션에 새 계산된 지표를 추가할 수 있습니다. 새 세그먼트에는 새 주석이 필요합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+**[!UICONTROL 주석 빌더]** 대화 상자를 사용하여 새 주석을 만들거나 기존 주석을 편집합니다. 대화 상자의 제목이 **[!UICONTROL 새 주석]** 또는 [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 만들거나 관리하는 주석을 **[!UICONTROL 주석 편집]**&#x200B;입니다.
+
+
+>[!BEGINTABS]
+
+>[!TAB 주석 빌더]
+
+![다음 섹션에 설명된 필드와 옵션을 보여 주는 주석 세부 정보 창입니다.](assets/annotation-builder.png)
+
+>[!TAB 주석 만들기/편집]
+
+![다음 섹션에 설명된 필드와 옵션을 보여 주는 주석 세부 정보 창입니다.](assets/create-edit-annotation.png)
+
+>[!ENDTABS]
+
+1. 다음 세부 정보를 지정하십시오(![필수](/help/assets/icons/Required.svg) 필요).
 
    | 요소 | 설명 |
    | --- | --- |
-   | [!UICONTROL 제목] | 주석의 이름을 지정합니다(예: “기념일”). |
-   | [!UICONTROL 설명] | (선택 사항) 주석에 대한 설명을 제공합니다(예: “미국 공휴일”). |
-   | [!UICONTROL 태그] | (선택 사항) 태그를 만들거나 적용하여 주석을 구성합니다. |
-   | [!UICONTROL 적용된 날짜] | 주석을 표시하기 위해 표시해야 하는 날짜 또는 날짜 범위를 선택합니다. |
-   | [!UICONTROL 색상] | 주석에 색상을 적용합니다. 주석은 선택한 색상으로 프로젝트에 표시됩니다. 색상을 사용하여 공휴일, 외부 이벤트, 추적 문제 등과 같은 주석을 분류할 수 있습니다. |
-   | [!UICONTROL 범위] | (선택 사항) 주석을 트리거하는 지표를 끌어다 놓습니다. 그런 다음 필터 역할을 하는(즉, 주석을 볼 수 있는) 차원 또는 필터를 끌어다 놓습니다. 범위를 지정하지 않으면 주석이 모든 데이터에 적용됩니다.<ul><li>**[!UICONTROL 다음 지표 중 하나가 있습니다.]** 주석을 표시하도록 트리거할 지표를 최대 10개까지 끌어다 놓습니다.</li><li>**[!UICONTROL 이 모든 필터 사용]**: 주석이 표시될 때 필터링할 차원 또는 필터를 최대 10개까지 끌어다 놓습니다.</li></ul><p>사용 사례: eVar가 특정 날짜 범위에 대한 데이터 수집을 중지했습니다. eVar를 **[!UICONTROL 다음 지표 중 하나가 있습니다]** 대화 상자로 끌어옵니다. 또는 [!UICONTROL 방문] 지표가 데이터를 보고하지 않는 경우 동일한 프로세스를 따르십시오.<p>**참고:** 계산된 지표 또는 필터 정의의 일부로 사용되는 구성 요소에 적용된 주석은 자동으로 주석을 상속하지 않습니다. 주석을 표시하려면 원하는 계산된 지표도 범위 섹션에 추가해야 합니다. 그러나 동일한 정보로 주석을 추가하려는 모든 필터에 대해 새 주석을 만들어야 합니다.<p>예: 특정 날짜의 [!UICONTROL 주문]에 주석을 적용합니다. 그런 다음 동일한 날짜 범위에 대해 계산된 지표에서 [!UICONTROL 주문]을 사용합니다. 새로 계산된 지표는 주문에 대한 주석을 자동으로 표시하지 않습니다. 주석을 표시하려면 계산된 지표도 범위 섹션에 추가해야 합니다. |
-   | [!UICONTROL 모든 데이터 보기에 적용] | 기본적으로 주석은 기존 데이터 보기에 적용됩니다. 이 상자를 선택하면 회사의 모든 데이터 보기에 주석을 적용할 수 있습니다. |
-   | [!UICONTROL 모든 프로젝트에 적용] | 기본적으로 주석은 현재 프로젝트에 적용됩니다. 이 상자를 선택하면 보유한 모든 프로젝트에 주석을 적용할 수 있습니다. 이 확인란은 Annotation Builder에서 Annotation Builder를 시작할 때만 표시됩니다. |
+   | **[!UICONTROL 데이터 보기]** | 주석에 대한 데이터 보기를 선택할 수 있습니다. 정의한 주석은 선택한 데이터 보기에 따라 Workspace 프로젝트에서 주석으로 사용할 수 있습니다. [!UICONTROL 모든 데이터 보기에 적용]을 사용하도록 설정하면 이 선택이 무시됩니다. |
+   | **[!UICONTROL 프로젝트 전용 주석]** | 작성한 주석은 작업 중인 Workspace 프로젝트에만 표시된다는 것을 설명하는 정보 상자입니다. **[!UICONTROL 이 주석을 모든 프로젝트에 사용할 수 있도록 설정]**&#x200B;을 사용하여 모든 프로젝트에 주석을 표시할 수 있습니다. 이 정보 상자는 Workspace 프로젝트 내에서 주석을 만들 때만 표시됩니다. |
+   | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 주석의 이름을 지정합니다(예: `Needs further investigation`). |
+   | **[!UICONTROL 설명]** | 주석에 대한 설명을 입력하십시오(예: `We never expected such a fluctuation in numbers.`). |
+   | **[!UICONTROL 태그]** | 태그를 하나 이상 만들거나 적용하여 주석을 구성합니다. 입력할 수 있는 기존 태그를 찾으려면 입력을 시작합니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. 태그를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. |
+   | **[!UICONTROL 적용 날짜]** ![필수](/help/assets/icons/Required.svg) | 주석을 표시하기 위해 표시해야 하는 날짜 또는 날짜 범위를 선택합니다. 바로 가기를 사용하여 주석을 작성하면 주석은 하루 동안의 데이터 범위로 기본 설정됩니다. 시각화에서 선택 항목을 사용하여 주석을 생성할 때 주석은 시각화가 속한 패널의 날짜 범위를 기반으로 하는 데이터 범위로 기본 설정됩니다. |
+   | **[!UICONTROL 색상]** | 주석에 색상을 적용합니다. 주석은 선택한 색상으로 프로젝트에 표시됩니다. 색상을 사용하여 공휴일, 외부 이벤트, 추적 문제 등과 같은 주석을 분류할 수 있습니다. |
+   | **[!UICONTROL 범위]** | 주석을 트리거하는 구성 요소 패널에서 지표를 드래그하여 놓습니다. (예: 사람, 세션 및 이벤트) 그런 다음 필터 역할을 하는 구성 요소 패널에서 차원 또는 필터를 드래그하여 놓아 주석을 표시할지 여부를 결정합니다. 범위를 지정하지 않으면 주석이 모든 데이터에 적용됩니다. <br/>다음 두 가지 옵션이 있습니다.<ul><li>**[!UICONTROL 다음 지표 중 하나가 있습니다]**: 주석을 표시하도록 트리거하는 지표를 최대 10개까지 드래그 앤 드롭합니다.<br/>예를 들어 매출 지표가 특정 날짜 범위에 대한 데이터 수집을 중지했습니다. 매출 지표를 이 상자로 드래그합니다.</li><li>**[!UICONTROL 이러한 필터를 모두 사용]**: 주석이 표시되는지 여부를 필터링하는 차원 또는 필터를 최대 10개까지 드래그 앤 드롭합니다.</li></ul><p><p>**참고:** 이후에 계산된 지표 또는 필터 정의의 일부로 사용되는 구성 요소에 적용된 주석은 자동으로 주석을 상속하지 않습니다. 주석을 표시하려면 원하는 계산된 지표도 범위 섹션에 추가해야 합니다. 그러나 동일한 정보로 주석을 추가하려는 모든 필터에 대해 새 주석을 만들어야 합니다. 예를 들어 특정 날짜의 [!UICONTROL 주문]에 주석을 적용합니다. 그런 다음 동일한 날짜 범위에 대해 계산된 지표에서 [!UICONTROL 주문]을 사용합니다. 새 계산된 지표는 주문에 대한 주석을 자동으로 표시하지 않습니다. 또한 주석을 표시할 범위 섹션에 계산된 지표를 추가합니다. |
+   | **[!UICONTROL 모든 데이터 보기에 적용]** | 기본적으로 주석은 기존 데이터 보기에 적용됩니다. 이 상자를 선택하면 회사의 모든 데이터 보기에 주석을 적용할 수 있습니다. |
 
    {style="table-layout:auto"}
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 선택
+   * 주석을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
+   * 주석의 복사본을 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하세요.
+   * 주석을 삭제하려면 **[!UICONTROL 삭제]**&#x200B;하십시오.
+   * **[!UICONTROL 취소]**: 주석의 변경 내용을 취소하거나 새 주석의 만들기를 취소합니다.

@@ -5,14 +5,60 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
-workflow-type: ht
-source-wordcount: '3300'
-ht-degree: 100%
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+workflow-type: tm+mt
+source-wordcount: '3507'
+ht-degree: 97%
 
 ---
 
-# 연결 만들기 또는 편집
+# 연결 만들기 또는 편집 {#create-or-edit-a-connection}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsadded"
+>title="추가된 레코드"
+>abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에 추가된 레코드(행) 수입니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsskipped"
+>title="건너뛴 레코드"
+>abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에 대한 데이터 전송 중에 건너뛴 레코드(행)의 수입니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsdeleted"
+>title="삭제된 레코드"
+>abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에서 제거된 레코드(행)의 수입니다"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_lastadded"
+>title="마지막으로 추가됨"
+>abstract="연결로 전송된 데이터 세트의 최신 배치 타임스탬프입니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_enablerollingdatawindow"
+>title="롤링 데이터 창 활성화"
+>abstract="데이터 보존을 연결 수준에서 몇 개월 단위의 롤링 창으로 정의합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 연결 생성과 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 상세한 데이터 세트 선택, 구성 및 검토 경험을 제공합니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보를 제공할 수 있습니다. 다음은 기능에 대한 개요입니다.
 
@@ -22,7 +68,11 @@ ht-degree: 100%
 * 예를 들어 데이터 세트를 편집하여 다른 채우기를 요청할 수 있습니다.
 * 각 데이터 세트에 대한 기존 데이터를 가져올 수 있습니다.
 
++++ 연결 경험 만들기 및 편집 방법을 설명하는 비디오
+
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
++++
 
 ## 사전 요구 사항
 
@@ -70,6 +120,42 @@ ht-degree: 100%
    {style="table-layout:auto"}
 
 ## 데이터 세트 추가 및 구성 {#add-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="일치하는 키"
+>abstract="이벤트 데이터 세트 중 하나에서 연결할 필드를 선택합니다. 이 목록이 비어 있다면 사용자가 이벤트 데이터 세트를 추가하거나 구성하지 않았을 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_importnewdata"
+>title="새 데이터 가져오기"
+>abstract="Experience Platform 데이터 세트에 추가되는 모든 새 배치는 이 연결에 자동으로 추가되고 분석에 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_datasetbackfill"
+>title="데이터 세트 다시 채우기"
+>abstract="이 옵션은 연결에서 이 데이터 세트에 대한 Experience Platform의 기존(내역) 데이터를 다시 채웁니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_transformdataset"
+>title="데이터 세트 변환"
+>abstract="이 옵션은 B2B 시나리오에서 개인 기반의 조회에 사용할 수 있도록 데이터 세트를 변환합니다. 활성화되고 나면 데이터 세트의 변환은 되돌릴 수 없습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 새 워크플로를 사용하면 연결을 만들 때 Experience Platform 데이터 세트를 추가할 수 있습니다.
 

@@ -5,14 +5,24 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 1fddf0e8421b35021a1f1641a684cacbc0ec1f0d
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '8366'
-ht-degree: 12%
+source-wordcount: '8842'
+ht-degree: 16%
 
 ---
 
-# 파생 필드
+# 파생 필드 {#derived-fields}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields"
+>title="파생 필드"
+>abstract="파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 Workspace에서 구성 요소(지표 또는 차원)로 사용하거나 데이터 보기에서 구성 요소로 추가로 정의할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 파생 필드는 Adobe Customer Journey Analytics 실시간 보고 기능의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 [Workspace](../../analysis-workspace/home.md)에서 구성 요소(지표 또는 차원)로 사용하거나 [데이터 보기](../data-views.md)에서 파생 필드를 구성 요소로 정의할 수 있습니다.
 
@@ -32,6 +42,8 @@ ht-degree: 12%
 
 ![파생 필드 대화 상자의 스크린샷](assets/derived-field-dialog.png)
 
+
+![프로그램 개요](/help/assets/icons/ProgramOverview.svg)
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
@@ -386,6 +398,16 @@ ht-degree: 12%
 
 ### 다음과 같은 경우 {#casewhen}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_casewhen"
+>title="다음과 같은 경우"
+>abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 이러한 기준을 사용하여 조건 순서에 따라 새 파생 필드의 값을 정의합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용합니다. 그런 다음 이러한 기준을 사용하여 조건의 시퀀스를 기반으로 새 파생 필드의 값을 정의합니다.
 
 +++ 세부 사항
@@ -616,6 +638,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 분류 {#classify}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_classify"
+>title="분류"
+>abstract="이 함수는 텍스트가 입력되면 해당 값으로 대체되는 값 세트를 정의하는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 새 파생 필드의 해당 값으로 대체되는 값 집합을 정의합니다.
 
 +++ 세부 사항
@@ -751,6 +783,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 연결 {#concatenate}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_concatenate"
+>title="연결"
+>abstract="이 함수를 사용하면 두 개 이상의 필드, 파생 필드 또는 사용자가 입력한 문자열 값을 정의된 구분 기호로 구분되는 단일 필드로 결합할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 정의된 구분 기호를 사용하여 필드 값을 새로 파생된 단일 필드에 결합합니다.
 
 +++ 세부 사항
@@ -827,6 +869,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 
 ### 중복 제거 {#dedup}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_deduplicate"
+>title="중복 제거"
+>abstract="이 함수는 세션 또는 개인 수준에서 비반복적으로 값만 계산하도록 필드를 구성하는 기능을 제공합니다. 또한 중복 제거 ID를 사용하면 특정 ID(예: 구매 ID)를 기반으로 하나의 값(첫 번째 인스턴스 또는 마지막 인스턴스)만 사용되도록 할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 값을 여러 번 카운트하지 않도록 합니다.
 
@@ -911,7 +963,17 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 <!-- FIND AND REPLACE -->
 
-### 찾기 및 바꾸기 {#find-replace}
+### 찾기 및 바꾸기 {#find-and-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_findandreplace"
+>title="찾기 및 바꾸기"
+>abstract="이 함수는 선택한 필드의 모든 값을 찾아서 해당 값을 파생된 새 필드에서 다른 값으로 바꾸는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 선택한 필드에서 모든 값을 찾아 새 파생 필드에서 다른 값으로 바꿉니다.
 
@@ -983,6 +1045,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 조회 {#lookup}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lookup"
+>title="조회"
+>abstract="이 기능은 데이터 세트 간에 일치하는 키를 사용하여 조회 데이터 세트의 필드를 사용하는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 조회 데이터 세트의 필드를 사용하여 값을 조회하고 새로운 파생 필드 또는 추가 규칙 처리를 위해 값을 반환합니다.
 
 +++ 세부 사항
@@ -1034,6 +1106,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 소문자 {#lowercase}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lowercase"
+>title="소문자"
+>abstract="이 함수는 전체 문자열 텍스트를 소문자 값으로 변환합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 필드의 값을 소문자로 변환하여 새로운 파생된 필드에 저장합니다.
 
 +++ 세부 사항
@@ -1084,6 +1166,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 <!-- MATH -->
 
 ### 수학 {#math}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_math"
+>title="수학"
+>abstract="이 기능은 필드에서 수학 연산을 수행하는 기능을 제공합니다. 해당 함수는 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본적인 산술 연산을 수행하는 데 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 숫자 필드에 기본 수학 연산자(더하기, 빼기, 곱하기, 나누기 및 거듭제곱하기)를 사용합니다.
 
@@ -1166,6 +1258,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 필드 병합 {#merge}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_mergefields"
+>title="필드 병합"
+>abstract="이 함수는 두 개의 서로 다른 필드에서 값을 가져오고 각각의 값을 단일 차원에 포함하는 기능을 제공합니다. 규칙은 먼저 첫 번째 값이 설정되어 있는지 확인합니다. 그렇지 않은 경우 두 번째 값을 사용하며 이 과정을 반복합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 서로 다른 두 필드의 값을 새로운 파생 필드로 병합합니다.
 
 +++ 세부 사항
@@ -1231,6 +1333,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 <!-- NEXT OR PREVIOUS -->
 
 ### 다음 또는 이전 {#next-previous}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_nextprevious"
+>title="다음 또는 이전"
+>abstract="이 함수는 특정 필드에 대해 수집된 다음 또는 이전 값을 보는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 필드를 입력으로 취하여 세션 또는 사용 범위 내에서 해당 필드의 다음 또는 이전 값을 확인합니다. 방문 및 이벤트 테이블 필드에만 적용됩니다.
 
@@ -1303,6 +1415,16 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 <!-- REGEX REPLACE -->
 
 ### 정규 표현식 바꾸기 {#regex-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_regexreplace"
+>title="정규 표현식 바꾸기"
+>abstract="이 함수는 정규 표현식을 사용하여 문자열의 일부를 추출하는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 정규 표현식을 사용하여 필드의 값을 새로운 파생된 필드로 바꿉니다.
 
@@ -1401,6 +1523,16 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 분할 {#split}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_split"
+>title="분할"
+>abstract="이 함수는 구분 기호를 기반으로 하나의 필드를 여러 필드로 분할하는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 필드의 값을 새로 파생된 필드로 분할합니다.
 
 +++ 세부 사항
@@ -1493,6 +1625,16 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 요약 {#summarize}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_summarize"
+>title="요약"
+>abstract="이 함수는 이벤트, 세션 또는 개인 수준에서 값을 집계하는 기능을 제공합니다. 선택 필드의 필드 유형에 따라 다양한 옵션을 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용합니다.
 
 +++ 세부 사항
@@ -1560,6 +1702,16 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 <!-- TRIM -->
 
 ### 트리밍
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_trim"
+>title="트리밍"
+>abstract="이 함수는 문자열의 처음 또는 끝에서 공백이나 특수 문자를 자르는 기능을 제공합니다. 또한 반환 값에 사용할 문자 수를 문자열의 앞이나 끝에서 지정하는 기능도 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 필드 값의 시작 또는 끝에서 새 파생 필드로 공백, 특수 문자 또는 문자 수를 트리밍합니다.
 
@@ -1672,6 +1824,16 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 <!-- URL PARSE -->
 
 ### URL 구문 분석
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_urlparse"
+>title="URL 구문 분석"
+>abstract="이 함수는 호스트, 경로 또는 쿼리 매개변수를 포함하여 URL의 다양한 부분을 구문 분석하는 기능을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 프로토콜, 호스트, 경로 또는 쿼리 매개 변수 등 URL의 다양한 부분을 구문 분석합니다.
 

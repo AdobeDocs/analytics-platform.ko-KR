@@ -4,15 +4,41 @@ title: 도넛
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 79%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
-# 도넛
+# 도넛 {#donut}
 
-파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. 일반적으로 적은 수의 항목에 대한 합계의 백분율을 비교할 때, 도넛 그래프를 사용하십시오.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_donut_button"
+>title="도넛"
+>abstract="도넛 시각화를 만들어 일반적으로 적은 수의 항목에 대한 합계의 백분율을 비교합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+파이 차트와 유사하게 ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. 일반적으로 적은 수의 항목에 대한 합계의 백분율을 비교할 때, 도넛 시각화를 사용하십시오.
 
 ![데이터를 전체의 일부 또는 필터로 표시하는 도넛 차트.](assets/donut.png)
+
++++ 이 기능에 대한 비디오 데모를 봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+
+{{videoaa}}
+
++++
+
+>[!MORELIKETHIS]
+>
+>[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

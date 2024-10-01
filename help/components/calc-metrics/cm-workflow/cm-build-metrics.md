@@ -1,71 +1,206 @@
 ---
 description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
-title: 지표 작성
+title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 7cdd81c9e38219d2d17decd5b9c3e987b814fc53
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 49%
+source-wordcount: '1526'
+ht-degree: 6%
 
 ---
 
-# 지표 작성
+# 계산된 지표 작성 {#build-metrics}
 
-Customer Journey Analytics은 차원, 지표, 필터 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
-
-## 계산된 지표 작성 시작
-
-계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/components/apply-create-metrics.md)의 [단일 프로젝트에 대한 계산된 지표 만들기](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 빠른 계산된 지표를 만들 수 있습니다.
-
-계산된 지표 빌더에 액세스하여 구성 요소 목록에서 사용할 수 있는 계산된 지표 생성을 시작합니다.
-
-1. 다음 방법 중 하나로 계산된 지표 빌더에 액세스합니다.
-
-   * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.
-   * Analysis Workspace에서 프로젝트를 연 다음 왼쪽 레일에서 [!UICONTROL **지표**] 섹션 옆에 있는 **더하기** 아이콘을 선택합니다.
-   * [!DNL Customer Journey Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
-
-1. 계산된 지표 빌더의 [영역](#areas-of-the-calculated-metrics-builder)을 계속 사용합니다.
-
-## 계산된 지표 빌더의 영역
-
-<!-- 
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_viz_product_compatibility"
->title="Product compatibility"
->abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth."  
->"Some calculated metrics cannot be used with experimentation. Calculated metrics that are not compatible with experimentation have the following value: "Everywhere in Customer Journey Analytics (excluding experimentation)" "
->"Various factors affect whether a calculated metric is compatible with experimentation. Learn more (https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation) ."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation"
+>id="cja_components_calculatedmetrics_productcompatibility"
+>title="제품 호환성"
+>abstract="Analysis Workspace, Report Builder 등에서 이 계산된 지표를 Customer Journey Analytics에서 사용할 수 있는 위치를 나타냅니다. 일부 계산된 지표는 실험과 함께 사용할 수 없습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="실험에서 계산된 지표 사용"
 
--->
+<!-- markdownlint-enable MD034 -->
 
-다음 이미지와 함께 제공되는 표에서는 계산된 지표 빌더의 몇 가지 주요 영역 및 기능에 대해 설명합니다.
+<!-- markdownlint-disable MD034 -->
 
-![이 섹션에서 설명한 기본 영역 및 기능을 표시하는 새 계산된 지표 창입니다.](assets/cm_builder_ui.png)
+>[!CONTEXTUALHELP]
+>id="cja_components_calculatedmetrics_externalid"
+>title="외부 ID"
+>abstract="외부 ID를 변경하면 계산된 지표가 비즈니스 인텔리전스 도구와 같은 외부 소스에 표시되는 방식에 영향을 줄 수 있습니다"
 
-| 필드 | 설명 |
-| --- | --- |
-| 제목 | 지표에 이름을 지정하는 것은 필수입니다. 이름을 지정하지 않으면 지표를 저장할 수 없습니다. |
-| 설명 | 사용자에게 친근한 설명을 지정하여 용도를 알고 유사한 지표들과 구별할 수 있도록 하십시오. <p>이 설명은 보고서 내에도 나타납니다. 설명에 공식을 넣지 않는 것이 좋습니다. 대신 이 지표를 어디에 사용하고 어디에 사용하지 말아야 하는지 설명하십시오. (공식은 지표를 만들면 요약 머리글 아래에 생성됩니다. 따라서 공식을 설명에 추가할 필요가 없습니다.) </p> |
-| 포맷 | 선택 사항에는 소수, 시간, 비율 및 통화가 포함됩니다. |
-| 소수점 이하 자리 수 | 보고서에 소수점 이하 몇 자리가 표시될 것인지 보여 줍니다. 지정할 수 있는 소수점 이하 최대 자리수는 10자리입니다. |
-| 증가 트렌드를 다음으로 표시... | 이 지표 극성 설정은 Analytics가 지표에서 증가 트렌드를 양호 (녹색)으로 간주할지 또는 불량 (빨간색)으로 간주할지를 보여 줍니다. 그 결과, 보고서의 그래프는 증가할 때 녹색 또는 빨간색으로 표시됩니다. |
-| 통화 | 이 데이터 보기의 기본 통화입니다. |
-| 태그 | 태깅은 지표를 구성하는 좋은 방법입니다. 모든 사용자는 태그를 만든 후 지표에 하나 이상의 태그를 적용할 수 있습니다. 하지만 본인이 소유하거나 본인과 공유된 필터에 대한 태그만 볼 수 있습니다. 어떤 종류의 태그를 만들어야 합니까? 다음은 제안되는 유용한 태그입니다.<ul><li>소셜 마케팅, 모바일 마케팅과 같은 **팀 이름**.</li><li>시작 페이지 분석과 같은 **프로젝트**(분석 태그).</li><li>**범주**(예: 여성, 지역).</li><li>**워크플로**(예: 승인용, 처리됨(특정 비즈니스 단위)</li></ul> |
-| 요약 | <p>요약 공식은 지표 정의를 변경할 때마다 업데이트됩니다. 이 공식은 마우스로 지표를 가리키고 를 클릭하면 왼쪽의 지표 레일에 표시됩니다. <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 아이콘. </p> |
-| 정의 | 여기서 지표/계산된 지표, 필터 및/또는 함수를 드래그하여 계산된 지표를 작성합니다. <ul><li>계산된 지표에서 드래그하면 그 지표 정의를 자동으로 확장합니다. </li> <li>정의를 컨테이너와 중첩시킬 수 있습니다. 하지만 필터 컨테이너와 달리 이 컨테이너는 수학 표현식처럼 작동하고 작동 순서를 결정합니다. </li> </ul> |
-| 연산자 | 나누기( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )은 기본 연산자이며 이외에도 +, -, x 연산자가 있습니다. |
-| 미리보기 | 모든 가능한 오류 시 빨리 읽을 수 있도록 해 줍니다. 이 미리보기는 마지막 90일에 적용됩니다. 해당 지표에 대해 올바른 구성 요소를 선택했는지를 초기에 판단하는 방법입니다. 예상치 않은 결과는 지표 정의 시 두 번 확인해야 함을 의미합니다. |
-| 제품 호환성 | Customer Journey Analytics에서 이 계산된 지표를 사용할 수 있는 위치를 나타냅니다. <p>가능한 값은 다음과 같습니다.</p><ul><li>[!UICONTROL **Customer Journey Analytics의 모든 곳**]: 계산된 지표는 Analysis Workspace, Report Builder 등을 포함하여 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li><li>[!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**]: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.</li> <p>계산된 지표를 실험에 사용할 수 있는지 여부를 결정하는 기준에 대한 자세한 내용은 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)의 [실험 패널에서 계산된 지표 사용](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel)을 참조하십시오.</p></ul> |
-| 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 | 모든 유형의 계산된 지표의 경우, 컨테이너 및 정적 수를 정의에 추가할 수 있습니다. 고급 계산된 지표의 경우 필터 및 함수를 추가할 수도 있습니다.<ul><li>컨테이너는 수학 표현식처럼 작동하고 작업 순서를 결정합니다. 그러므로 컨테이너에 있는 모든 것은 다음 작업 전에 처리됩니다.</li><li>필터를 컨테이너로 드래그하면 해당 컨테이너의 모든 항목이 필터링됩니다. (고급 계산된 지표만)</li><li>한 컨테이너에서 여러 필터를 스택할 수 있습니다.</li></ul> |
-| 톱니바퀴 아이콘(지표 유형, 기여도 분석) | 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 유형 및 기여도 분석 모델을 지정할 수 있습니다. <p>**참고:** 구성 요소의 속성을 기본이 아닌 속성 모델로 업데이트할 때는 다음 사항을 고려하십시오.</p><ul><li>**보고서에서 *단일 차원과 함께 구성 요소를 사용하는 경우*:** 구성 요소의 속성은 기본이 아닌 속성 모델을 사용하는 경우 할당 모델을 무시합니다.</li><li>**보고서에서 구성 요소를 *여러 차원과 함께 사용하는 경우*:** 구성 요소의 속성은 기본이 아닌 속성 모델을 사용하는 경우 할당 모델을 유지합니다.</li><li>여러 차원은 [클라우드로 데이터를 내보내는](/help/analysis-workspace/export/export-cloud.md)경우에만 사용할 수 있습니다.</li></ul> <p>할당에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오.</p> |
-| 더하기(+) 아이콘 | 필터 빌더로 이동하는 새로운 필터와 같은 새 구성 요소를 만들 수 있습니다. |
-| 구성 요소 검색 | 이 검색 창을 사용하면 차원, 지표, 필터(고급 계산된 지표만) 및 함수(고급 계산된 지표만)를 검색할 수 있습니다. |
-| 차원 목록 | 필터 빌더에서 &quot;Page = Homepage&quot;와 같은 간단한 필터를 작성하기 위해 계산된 지표 빌더를 종료하지 않고, 페이지에서 드래그하여 계산된 지표 빌더에서 직접 홈 페이지를 선택할 수 있습니다. 그 결과 필터링된 계산된 지표를 생성할 훨씬 능률적인 워크플로가 만들어집니다. |
-| 지표 목록 | 지표는 3가지 범주로 분류됩니다.<ul><li>표준 지표</li><li>계산된 지표</li><li>지표 템플릿 - 목록의 맨 아래.</li></ul>마우스로 지표를 가리키면 그 오른쪽에 정보 아이콘이 표시됩니다. 이 아이콘을 클릭하면 다음 정보가 표시됩니다.<ul><li>계산되는 방식에 대한 공식.</li><li>지표의 미리보기 트렌드.</li><li>이 계산된 지표를 편집할 수 있는 계산된 지표 빌더로 이동하는 오른쪽 상단의 편집(연필) 아이콘.</li></ul> |
-| 필터 목록 | (고급 계산된 지표만 해당) 관리자인 경우 이 목록에는 로그인 회사에서 만든 모든 필터가 표시됩니다. 관리자가 아닌 사용자인 경우 이 목록에는 사용자가 소유한 필터와 사용자와 공유된 필터가 표시됩니다. |
-| 함수 목록 | (고급 계산된 지표만 해당) 함수는 기본 (가장 자주 사용됨) 및 고급 의 두 목록으로 나뉩니다. |
-| 데이터 뷰 선택기 | 이 선택기(오른쪽 상단)를 사용하면 다른 데이터 보기로 전환할 수 있습니다. |
+<!-- markdownlint-enable MD034 -->
+
+
+**[!UICONTROL 계산된 지표 빌더]** 대화 상자를 사용하여 새 계산된 지표를 만들거나 기존 계산된 지표를 편집합니다. 대화 상자의 제목은 [[!UICONTROL 계산된 지표] 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)에서 만들거나 관리하는 지표에 대해 **[!UICONTROL 새 계산된 지표]** 또는 **[!UICONTROL 계산된 지표 편집]**&#x200B;입니다.
+
+>[!BEGINTABS]
+
+>[!TAB 계산된 지표 빌더]
+
+![다음 섹션에 설명된 필드와 옵션을 표시하는 계산된 지표 세부 정보 창](assets/calculated-metric-builder.png)
+
+>[!TAB 계산된 지표 만들기 또는 편집]
+
+![다음 섹션에 설명된 필드와 옵션을 표시하는 계산된 지표 세부 정보 창](assets/create-edit-calculated-metric.png)
+
+>[!ENDTABS]
+
+1. 다음 세부 정보를 지정하십시오(![필수](/help/assets/icons/Required.svg) 필요).
+
+   | 요소 | 설명 |
+   | --- | --- |
+   | **[!UICONTROL 데이터 보기]** | 계산된 지표에 대한 데이터 보기를 선택할 수 있습니다.  정의한 계산된 지표는 선택한 데이터 보기에 따라 Workspace 프로젝트에서 사용할 수 있습니다. |
+   | **[!UICONTROL 프로젝트 전용 지표]** | 지표를 만든 프로젝트에서만 볼 수 있고 지표가 구성 요소 목록에 추가되지 않는다는 것을 설명하는 정보 상자입니다. **[!UICONTROL 이 지표를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하여 해당 설정을 변경합니다. 이 정보 상자는 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 사용하여 Workspace에서 지표를 만들고 함수(예: **[!UICONTROL 평균]** 또는 **[!UICONTROL 중간값]**)를 선택한 경우에만 표시됩니다. 나중에 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info)를 사용하여 만들어진 지표를 편집합니다. |
+   | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 계산된 지표의 이름을 지정합니다(예: `Conversion Rate`). |
+   | **[!UICONTROL 외부 ID]** ![필수](/help/assets/icons/Required.svg) | 외부 BI 도구 및 BI 확장 기능을 사용할 때 계산된 지표의 이름입니다. 값을 재정의하지 않으면 값이 `undefined_xxx`(으)로 자동 정의됩니다. |
+   | **[!UICONTROL 설명]** | 필터에 대한 설명을 입력하십시오(예: `Calculated metric to define the conversion rate.`). [!UICONTROL 요약]에서 공식을 이미 자동으로 사용할 수 있으므로 계산된 지표에 대한 수식을 설명할 필요가 없습니다. |
+   | **[!UICONTROL 포맷]** | 계산된 지표의 형식을 선택하십시오. **[!UICONTROL 십진수]**, **[!UICONTROL 시간]**, **[!UICONTROL 백분율]** 및 **[!UICONTROL 통화]** 중에서 선택할 수 있습니다. |
+   | **[!UICONTROL 소수점 이하 자리 수]** | 선택한 형식에 대한 소수점 이하 자리 수를 지정합니다. 선택한 형식이 십진수, 통화 및 백분율인 경우에만 활성화됩니다. |
+   | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 계산된 지표의 증가 트렌드를 ▲ **[!UICONTROL 양호(녹색)]** 또는 ▼ **[!UICONTROL 불량(빨간색)]**&#x200B;으로 표시할지 여부를 지정합니다. |
+   | **[!UICONTROL 통화]** | 계산된 지표의 통화를 지정합니다. 선택한 포맷이 통화인 경우에만 활성화됩니다. |
+   | **[!UICONTROL 태그]** | 하나 이상의 태그를 생성하거나 적용하여 계산된 지표를 구성합니다. 입력할 수 있는 기존 태그를 찾으려면 입력을 시작합니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. 태그를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. |
+   | **[!UICONTROL 미리보기]** | 미리보기는 지난 90일을 포함하며 지표를 올바르게 정의했는지 여부를 측정하는 방법입니다. |
+   | **[!UICONTROL 요약]** | 계산된 지표 정의의 요약을 표시합니다. <br/>예: ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 주문 수]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션]**. |
+   | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 필터를 정의합니다. |
+
+1. 계산된 지표 정의가 올바른지 확인하려면 계산된 지표 결과의 지속적으로 업데이트된 **[!UICONTROL 미리 보기]**&#x200B;를 사용하십시오. **[!UICONTROL 미리 보기]**&#x200B;은(는) 지난 90일을 처리하고 계산된 지표의 정의를 계속 평가합니다.
+
+   **[!UICONTROL 제품 호환성]**&#x200B;은(는) 계산된 지표를 실험에 사용할 수 있는지 여부를 나타냅니다. 가능한 값:
+   * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+   * **[!UICONTROL Customer Journey Analytics의 모든 곳(실험 제외)]**: 계산된 지표는 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+
+1. 선택:
+   * 계산된 지표를 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
+   * 계산된 지표의 복사본을 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하세요.
+   * 계산된 지표에 대한 변경 내용을 취소하거나 새 계산된 지표 만들기를 취소하려면 **[!UICONTROL 취소]**&#x200B;하십시오.
+
+
+## 정의 빌더
+
+정의 빌더를 사용하여 차원, 지표, 필터 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 정의 지표를 만들 수 있습니다. 해당 구성에서는 표준 지표, Adobe 정의 지표, 계산된 지표, 필터, 차원 및 함수를 사용할 수 있습니다. 이러한 모든 구성 요소는 계산된 지표 빌더의 구성 요소 패널에서 사용할 수 있습니다. 또한 정의에서 연산자와 컨테이너를 사용할 수 있습니다.
+
+![계산된 지표 만들기](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
+
+지표만 **[!UICONTROL 정의]** 영역에서 단일 구성 요소로 정의됩니다. 다른 모든 구성 요소는 컨테이너, 래핑 지표 또는 기타 컨테이너로 정의됩니다. 자세한 내용은 [컨테이너](#containers)를 참조하십시오.
+
+### 지표
+
+지표를 추가하려면:
+
+* 구성 요소 패널의 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 끌어다 놓기]**&#x200B;합니다. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
+
+계산된 지표를 정의의 일부로 사용하면 계산된 지표가 확장됩니다.
+
+지표를 수정하려면 다음을 수행합니다.
+
+1. **[!UICONTROL 정의]** 영역의 지표 구성 요소에서 ![설정](/help/assets/icons/Setting.svg)을 선택합니다.
+1. 팝업 대화 상자에서 지표 유형 및 속성 모델을 정의할 수 있습니다. [지표 유형 및 속성](m-metric-type-alloc.md)을 참조하세요.
+
+지표를 삭제하려면 다음을 수행하십시오.
+
+* 지표에서 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
+
+### 연산자
+
+연산자를 사용하면 구성 요소나 컨테이너 간에 연산자를 지정할 수 있습니다. 다음 사이에 연산자가 자동으로 표시됩니다.
+
+* 컨테이너에 있는 두 개 이상의 지표
+* 컨테이너에 있는 둘 이상의 컨테이너,
+* 컨테이너 내에 하나 이상의 지표 및 하나 이상의 컨테이너가 있습니다.
+
+다음 항목을 선택할 수 있습니다.
+
+| 기호 | 연산자 |
+|:---:|---|
+| ![나누기](/help/assets/icons/Divide.svg) | 나누기(기본값) |
+| ![닫기](/help/assets/icons/Close.svg) | 곱하기 |
+| ![제거](/help/assets/icons/Remove.svg) | 빼기 |
+| ![추가](/help/assets/icons/Add.svg) | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 |
+
+### 정적 수
+
+계산된 지표 정의에 정수를 추가할 수 있습니다. 정적 수를 추가하려면 다음을 수행합니다.
+
+* 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;을(를) 선택합니다.
+* **[!UICONTROL 정적 숫자]**&#x200B;을(를) 선택하십시오. 정적 숫자 컨테이너가 나타납니다.
+* 값을 추가하려면 [!UICONTROL *클릭*]&#x200B;을 선택하고 값을 입력하십시오.
+
+
+### 컨테이너
+
+차원, 필터 및 함수를 계산된 지표 정의에 컨테이너로 추가합니다. 일반 컨테이너를 추가할 수도 있습니다. 컨테이너는 수학 표현식처럼 작동하고 작업 순서를 결정합니다. 컨테이너 내의 모든 항목은 다음 구성 요소 또는 컨테이너 전에 처리됩니다.
+
+
+#### 필터 컨테이너
+
+필터 컨테이너의 개념을 사용하여 [필터링된 지표](metrics-with-segments.md)을(를) 만듭니다. 필터를 사용하거나 차원에서 만든 필터를 사용하여 필터 컨테이너를 구성할 수 있습니다.
+
+* 차원에서 필터 컨테이너를 추가하려면 다음을 수행합니다.
+
+   1. 구성 요소 패널에서 ![Dimension](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimension]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 드래그하여 놓으십시오]**. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
+   1. **[!UICONTROL Dimension에서 필터 만들기]** 팝업에서 필터 조건을 정의합니다. 연산자 목록에서 를 선택하고 값을 선택하거나 값을 입력합니다. 예를 들어 **[!UICONTROL Month]** **[!UICONTROL equals]** ![V자형 화살표](/help/assets/icons/ChevronDown.svg) `Sep 2024`입니다.
+   1. **[!UICONTROL 완료]**&#x200B;를 선택합니다. 필터 컨테이너가 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
+
+
+* 필터에서 필터 컨테이너를 추가하려면 다음을 사용할 수 있습니다.
+
+   * 구성 요소 패널의 ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 끌어다 놓기]**&#x200B;합니다. 구성 요소 막대에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 필터를 검색할 수 있습니다.
+필터 이름을 사용하여 필터 컨테이너를 **[!UICONTROL 정의]**&#x200B;에 자동으로 추가합니다.
+
+   * 구성 요소 패널의 ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 구성 요소를 일반 컨테이너로 끌어서 놓습니다. 컨테이너가 필터 컨테이너로 수정됩니다.
+
+   * 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;을(를) 선택합니다.
+
+      1. **[!UICONTROL 필터]**&#x200B;를 선택하십시오. 필터 컨테이너가 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
+      1. 새 필터 컨테이너의 [!UICONTROL *선택..*] 드롭다운 메뉴에서 필터를 선택합니다.
+
+  >[!TIP]
+  >
+  >한 컨테이너에 필터를 두 개 이상 추가할 수 있습니다.
+
+  컨테이너의 필터 이름은 필터 구성 요소의 이름을 따서 지정합니다. 예: ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 웹 세션]**. 필터에 대한 세부 정보가 포함된 팝업을 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오. 팝업에서 ![편집](/help/assets/icons/Edit.svg)을 선택하여 필터 정의를 편집합니다.
+
+컨테이너에서 필터를 제거하려면 다음 작업을 수행하십시오.
+
+* 필터 이름 옆에 있는 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
+
+자세한 내용과 예제는 [필터링된 지표](metrics-with-segments.md)를 참조하세요.
+
+#### 함수 컨테이너
+
+함수 컨테이너를 추가하려면 다음을 사용할 수 있습니다.
+
+* 드래그 앤 드롭:
+
+   1. 구성 요소 패널에서 ![함수](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 드래그하여 놓으십시오]**. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 함수를 검색할 수 있습니다.
+   1. 함수 이름을 사용하여 함수 컨테이너를 **[!UICONTROL 정의]**&#x200B;에 자동으로 추가합니다.
+
+* 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;을(를) 선택합니다.
+
+   1. **[!UICONTROL 함수]**&#x200B;을(를) 선택하십시오.
+   1. 컨테이너의 [!UICONTROL *선택...*] 드롭다운 메뉴에서 함수를 선택합니다.
+
+함수 컨테이너의 이름은 함수 구성 요소의 이름을 따서 지정합니다. 예를 들어 ![함수](/help/assets/icons/Effect.svg) **[!UICONTROL 제곱근(지표)]**&#x200B;입니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하여 기능에 대한 세부 정보가 포함된 팝업을 표시합니다. 함수에 대한 자세한 내용을 보려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
+
+함수 사용 방법과 계산된 지표를 만드는 데 사용할 수 있는 함수에 대한 자세한 내용은 [함수 사용](cm-using-functions.md)을 참조하세요.
+
+
+#### 일반 컨테이너
+
+일반 컨테이너를 추가하려면 다음 작업을 수행하십시오.
+
+* 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** 선택
+* **[!UICONTROL 컨테이너]**&#x200B;를 선택합니다. 새 빈 제네릭 컨테이너가 **[!UICONTROL 정의]**&#x200B;에 추가됩니다. 일반 컨테이너를 사용하여 계산된 지표 정의에 계층을 중첩하거나 생성할 수 있습니다.
+
+
+#### 컨테이너 삭제
+
+컨테이너를 삭제하려면 컨테이너 수준에서 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
+
+>[!MORELIKETHIS]
+>
+>[함수 사용](cm-using-functions.md)
+>[필터](/help/components/filters/filters-overview.md)
+>
+

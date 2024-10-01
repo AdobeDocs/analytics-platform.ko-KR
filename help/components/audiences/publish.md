@@ -4,14 +4,32 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1726'
 ht-degree: 49%
 
 ---
 
-# 대상자 생성 및 게시
+# 대상자 생성 및 게시 {#create-and-publish-audiences}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_refreshfrequency"
+>title="새로 고침 빈도"
+>abstract="대상자의 멤버십이 재평가되는 빈도를 확인합니다.<br/>일회성 대상은 한 번만 평가됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_audiencelimit"
+>title="대상자 제한"
+>abstract="새로 고치는 대상자는 새로 고침 빈도에 따라 제한됩니다."
+
+<!-- markdownlint-enable MD034 -->
 
 이 항목에서는 고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 식별된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)을(를) 만들어 게시하는 방법에 대해 설명합니다.
 
@@ -53,7 +71,7 @@ ht-degree: 49%
 
 1. 데이터 미리보기를 해석합니다.
 
-   대상자 미리보기가 오른쪽 레일에 표시됩니다. 이를 통해 사용자가 만든 대상자를 요약 분석할 수 있습니다.
+   대상 미리 보기가 오른쪽 패널에 표시됩니다. 이를 통해 사용자가 만든 대상자를 요약 분석할 수 있습니다.
 
    대상자에 대한 요약 분석을 보여 주는 데이터 미리 보기의 ![스크린샷입니다.](assets/data-preview.png)
 
@@ -115,7 +133,7 @@ Platform에서 Customer Journey Analytics 대상을 보려면 다음 작업을 �
 >
 >기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
-1. 왼쪽 레일에서 [!UICONTROL **고객**]&#x200B;을 확장한 다음 [!UICONTROL **대상**]&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
+1. 왼쪽 패널에서 [!UICONTROL **고객**]&#x200B;을 확장한 다음 [!UICONTROL **대상**]&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
 
 1. [!UICONTROL **찾아보기**] 탭을 선택합니다.
 

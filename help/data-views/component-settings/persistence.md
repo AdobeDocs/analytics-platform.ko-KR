@@ -5,15 +5,26 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 80%
+source-wordcount: '900'
+ht-degree: 81%
 
 ---
 
 
-# [!UICONTROL 지속성] 구성 요소 설정
+# [!UICONTROL 지속성] 구성 요소 설정 {#persistence-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_persistence"
+>title="지속성"
+>abstract="차원에 적용되는 기본 배분 모델을 구성하십시오. 할당은 보고에서의 필터 전에 적용됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 [!UICONTROL 지속성]은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 지속성은 할당과 만료의 조합입니다.
 
