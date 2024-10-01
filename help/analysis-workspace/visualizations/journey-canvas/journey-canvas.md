@@ -3,12 +3,10 @@ description: 여정 캔버스 개요
 title: 여정 캔버스
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -35,7 +33,7 @@ ht-degree: 2%
 
 ## 잠재적 인사이트
 
-다음은 여정 캔버스에서 제공하는 데 도움이 되는 통찰력 유형의 몇 가지 예입니다. 이러한 인사이트가 데이터 보기의 모든 사람을 기반으로 하는지 또는 여정을 시작한 모든 사람을 기반으로 하는지 선택할 수 있습니다.
+다음은 여정 캔버스에서 제공하는 데 도움이 되는 통찰력 유형의 몇 가지 예입니다. 이러한 인사이트가 데이터 보기의 모든 사람, 여정을 시작한 모든 사람 또는 여정의 이전 노드에서 온 모든 사람을 기반으로 하는지 여부를 선택할 수 있습니다.
 
 **폴스루**
 
@@ -47,7 +45,7 @@ ht-degree: 2%
 
 **폴아웃**
 
-* 사람들이 가장 일반적으로 여정에서 떨어진 여정 지점(노드)
+* 사람들이 여정에서 가장 일반적으로 이탈하는 여정의 지점(노드)(바로 다음 노드에 도달하지 않음)
 
 **기타**
 
