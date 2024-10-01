@@ -3,7 +3,7 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 계산된 지표 공유
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 10%
@@ -20,7 +20,7 @@ ht-degree: 10%
 하나 이상의 계산된 지표를 공유하려면 다음을 수행하십시오.
 
 1. [계산된 지표 관리자](cm-manager.md)에서 공유할 계산된 지표 중 하나 이상을 선택합니다.
-1. 작업 표시줄에서 ![공유](/help/assets/icons/Share.svg) **[!UICONTROL 공유]**&#x200B;를 선택합니다.
+1. 작업 표시줄에서 ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 계산된 지표 공유]** 대화 상자에서:
 
    ![계산된 지표 공유 대화 상자](assets/share-calculated-metrics-dialog.png)

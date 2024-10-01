@@ -5,7 +5,7 @@ title: 프로젝트 개요
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 6%
@@ -52,7 +52,7 @@ Customer Journey Analytics에서 프로젝트에 액세스하려면 **[!UICONTRO
 | --- | --- | 
 | ![SelectBox](/help/assets/icons/SelectBox.svg) | 하나 이상의 프로젝트를 선택하면 프로젝트 인터페이스 하단에 파란색 작업 표시줄이 나타납니다. 자세한 내용은 [작업](#actions)을 참조하세요. |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | ![Star](/help/assets/icons/Star.svg)을(를) 선호하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)을(를) 선호하지 않도록 선택하십시오. |
-| **[!UICONTROL 제목 및 설명]** | 프로젝트를 편집하려면 제목 링크를 선택하여 [Workspace 프로젝트](/help/analysis-workspace/home.md)를 엽니다. 나와 공유된 프로젝트가 ![공유](/help/assets/icons/Share.svg)(으)로 표시됩니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하여 프로젝트에 대한 세부 정보가 포함된 팝업 메뉴를 표시합니다. 동작이 있는 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택하십시오. 자세한 내용은 [작업](#actions)을 참조하세요. |
+| **[!UICONTROL 제목 및 설명]** | 프로젝트를 편집하려면 제목 링크를 선택하여 [Workspace 프로젝트](/help/analysis-workspace/home.md)를 엽니다. 나와 공유된 프로젝트가 ![공유](/help/assets/icons/ShareLight.svg)(으)로 표시됩니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하여 프로젝트에 대한 세부 정보가 포함된 팝업 메뉴를 표시합니다. 동작이 있는 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택하십시오. 자세한 내용은 [작업](#actions)을 참조하세요. |
 | **[!UICONTROL 유형]** | Workspace 프로젝트, ![FolderUser](/help/assets/icons/FolderUser.svg) 폴더 또는 [모바일 스코어카드](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home)입니다. |
 | **[!UICONTROL 태그]** | 프로젝트에 적용된 태그. |
 | 예약됨 | 프로젝트가 수신자에게 이메일로 전송되도록 예약되었는지 여부. 옵션은 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** 또는 ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**&#x200B;입니다. [다른 사용자에게 프로젝트 데이터 보내기](/help/analysis-workspace/export/t-schedule-report.md)를 참조하십시오. |
@@ -82,7 +82,7 @@ Customer Journey Analytics에서 프로젝트에 액세스하려면 **[!UICONTRO
 |---|---|
 | ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *선택됨]** | 선택한 프로젝트 및 폴더를 선택 취소하고 파란색 작업 표시줄을 제거합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 하나 이상의 프로젝트 또는 폴더를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
-| ![공유](/help/assets/icons/Share.svg) **[!UICONTROL 공유]** | 프로젝트 공유 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
+| ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]** | 프로젝트 공유 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
 | ![편집](/help/assets/icons/Edit.svg) 이름 바꾸기 | 프로젝트 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**를 엽니다. 새 이름을 입력하고**[!UICONTROL 저장&#x200B;]**을 선택하세요. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 하나 이상의 프로젝트를 복사합니다. 프로젝트 이름 및 접미사 `(Copy)`이(가) 동일합니다. |
 | ![고정](/help/assets/icons/PinOff.svg) **[!UICONTROL 고정]** 또는 **[!UICONTROL 고정 해제]** | 하나 이상의 프로젝트 또는 폴더를 고정하거나 고정 해제합니다. 고정된 프로젝트 및 폴더는 목록 맨 위에 표시되며 지정한 정렬 순서는 무시됩니다. |

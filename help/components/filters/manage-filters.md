@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 필터를 관리하는 방법 알�
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
 | 열 | 설명 |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 필터를 ![별](/help/assets/icons/Star.svg)로 선호하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)로 선호하지 않도록 선택하십시오. [즐겨찾기로 필터 표시](/help/components/filters/filters-favorite.md) 참조 |
-| **[!UICONTROL 제목 및 설명]** | 필터를 편집하려면 제목 링크를 선택하여 [필터 빌더](filter-builder.md)를 엽니다. 공유 필터가 ![공유](/help/assets/icons/Share.svg)(으)로 표시됩니다. |
+| **[!UICONTROL 제목 및 설명]** | 필터를 편집하려면 제목 링크를 선택하여 [필터 빌더](filter-builder.md)를 엽니다. 공유 필터가 ![공유](/help/assets/icons/ShareLight.svg)(으)로 표시됩니다. |
 | **[!UICONTROL 데이터 보기]** | 이 필터가 적용되는 데이터 보기. |
 | **[!UICONTROL 소유자]** | 필터의 소유자입니다. 사용자는 소유한 필터 또는 사용자와 공유된 주석만 볼 수 있습니다. |
 | **[!UICONTROL 태그]** | 이 필터의 태그입니다. |
@@ -59,7 +59,7 @@ ht-degree: 4%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [필터 빌더](filter-builder.md)를 사용하여 다른 필터를 추가하십시오. |
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 필터를 선택하지 않은 경우 이 검색 필드를 사용하여 필터를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 필터에 태깅합니다. **[!UICONTROL 태그 필터]** 대화 상자에서 선택한 필터의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 필터에 대한 태그를 저장합니다. 자세한 내용은 [태그 필터](/help/components/filters/filters-tag.md)를 참조하세요. |
-| ![공유](/help/assets/icons/Share.svg) **[!UICONTROL 공유]** | 선택한 필터를 공유합니다. **[!UICONTROL 필터 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 필터에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [필터 공유](filters-share.md)를 참조하십시오. |
+| ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]** | 선택한 필터를 공유합니다. **[!UICONTROL 필터 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 필터에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [필터 공유](filters-share.md)를 참조하십시오. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 필터를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 필터 이름을 변경합니다. 선택하면 인라인 필터 이름을 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 필터 승인 자세한 내용은 [필터 승인](filters-approve.md)을 참조하세요. |

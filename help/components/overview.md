@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 33%
@@ -75,7 +75,7 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
    | ![별](/help/assets/icons/Star.svg) [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 패널에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 즐겨찾기에서 제거]** | 즐겨찾기 목록에서 구성 요소를 제거합니다. |
    | ![확인 표시](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 필터링할 수 있습니다. ![확인 표시](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |
-   | ![공유](/help/assets/icons/Share.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+   | ![공유](/help/assets/icons/ShareLight.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
    | ![삭제](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
 
 사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [필터 관리](/help/components/filters/manage-filters.md)를 참조하십시오.
