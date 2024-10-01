@@ -4,14 +4,24 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 18%
+source-wordcount: '851'
+ht-degree: 17%
 
 ---
 
-# 프로젝트 저장
+# 프로젝트 저장 {#save-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_addnotes"
+>title="메모 추가"
+>abstract="저장 중인 프로젝트 버전에 대한 메모를 추가합니다. 이 메모는 버전과 함께 저장되고 **[!UICONTROL 프로젝트]** > **[!UICONTROL 이전 버전 열기]** 메뉴에서 액세스할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. 프로젝트를 직접 저장하거나, 프로젝트를 복제본으로 저장하거나, 버전 정보로 프로젝트를 저장할 수도 있습니다.
 

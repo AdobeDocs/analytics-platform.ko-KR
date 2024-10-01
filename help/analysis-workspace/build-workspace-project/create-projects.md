@@ -4,14 +4,24 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '412'
 ht-degree: 40%
 
 ---
 
-# 프로젝트 만들기
+# 프로젝트 만들기 {#create-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_countrepeatinstances"
+>title="반복 인스턴스 계산"
+>abstract="보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다.<br/><br/>참고: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)을(를) 사용하면 비즈니스 크리티컬 분석을 만들고 볼 수 있습니다.  이러한 분석은 조직 내부 또는 외부의 이해 당사자와 공유할 수 있습니다.
 

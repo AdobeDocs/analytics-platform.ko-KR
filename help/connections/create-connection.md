@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3526'
 ht-degree: 97%
 
 ---
@@ -58,6 +58,16 @@ ht-degree: 97%
 >abstract="데이터 보존을 연결 수준에서 몇 개월 단위의 롤링 창으로 정의합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_averagenumberofdailyuses"
+>title="일일 평균 사용 횟수"
+>abstract="전체 연결에 대해 예상되는 일일 이벤트 수 범위를 선택하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 연결 생성과 편집 워크플로 환경은 모든 데이터 세트 및 연결 구성 설정을 보조 워크플로와 함께 화면 중앙으로 가져옵니다. 상세한 데이터 세트 선택, 구성 및 검토 경험을 제공합니다. 잘못된 연결 구성의 위험을 줄이기 위해 데이터 세트 유형, 크기, 스키마, 데이터 세트 ID, 배치 상태, 채우기 상태, 개인 ID 등과 같은 중요한 정보를 제공할 수 있습니다. 다음은 기능에 대한 개요입니다.

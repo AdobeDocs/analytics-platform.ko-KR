@@ -3,9 +3,9 @@ description: 지표 유형 및 속성에 대해 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '947'
 ht-degree: 28%
 
 ---
@@ -148,8 +148,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_custom"
->title="시간 하강"
->abstract="전환에 가장 가까운 시간에 Dimension 값이 가장 많은 크레딧을 받습니다."
+>title="사용자 정의"
+>abstract="고유한 위치 기반 속성 가중치를 정의합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -161,7 +161,6 @@ ht-degree: 28%
 >abstract="크레딧은 통계 알고리즘에 따라 동적으로 결정됩니다."
 
 <!-- markdownlint-enable MD034 -->
-
 
 
 {{attribution-models-details}}

@@ -4,14 +4,24 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 21%
 
 ---
 
-# 자유 형식 테이블 개요
+# 자유 형식 테이블 개요 {#freeform-table-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_button"
+>title="자유 형식 테이블"
+>abstract="차원, 세그먼트, 지표 및 날짜 범위를 사용하여 빌드할 수 있는 빈 자유 형식 테이블 시각화를 만듭니다. 자유 형식 테이블을 다른 시각화의 기반으로 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTROL 자유 형식 테이블]** 시각화는 대화형 데이터 분석의 기반입니다. [구성 요소](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
 
