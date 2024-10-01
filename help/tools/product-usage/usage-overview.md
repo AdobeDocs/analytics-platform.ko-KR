@@ -3,7 +3,7 @@ title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: dcd3ee5f3db5af434b87bfded0e360c66643793e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 7%
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->이 기능은 Adobe Experience Platform의 계약 데이터 제한에 포함됩니다. 활성화하기 전에 조직에서 이 기능으로 생성된 데이터를 수용할 수 있는지 확인하십시오.
+>이 기능은 Adobe Experience Platform의 계약 행 제한에 포함됩니다. 활성화하기 전에 조직에서 이 기능으로 생성된 데이터를 수용할 수 있는지 확인하십시오.
 
 ## 사용 가능한 차원
 
