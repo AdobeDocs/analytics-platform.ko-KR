@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 16%
+source-wordcount: '1592'
+ht-degree: 15%
 
 ---
 
@@ -20,26 +20,30 @@ Workspace에서는 데이터를 시각적으로 나타낼 수 있도록 해주�
 
 Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
-| 시각화 이름<br/>시각화 아이콘 | 설명 |
-| --- | --- | 
-| [영역](/help/analysis-workspace/visualizations/area.md)<p>![GraphArea](/help/assets/icons/GraphArea.svg)</p> | 영역 그래프 시각화. 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
-| [막대](/help/analysis-workspace/visualizations/bar.md) <p>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)</p> | 하나 이상의 지표에서 다양한 값을 나타내는 세로 막대가 있는 막대 그래프 시각화입니다. |
-| [글머리 기호 그래프](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 보여 주는 글머리 기호 그래프 시각화입니다. |
-| [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![텍스트 번호 매기기](/help/assets/icons/TextNumbered.svg)</p> | 집단 시각화는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 테이블은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
-| [도넛](/help/analysis-workspace/visualizations/donut.md) <p>![그래프 도넛](/help/assets/icons/GraphDonut.svg)</p> | 파이 차트와 유사하게 도넛 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
-| [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![전환 단계](/help/assets/icons/ConversionFunnel.svg)</p> | 폴아웃 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. |
-| [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![GraphPathing](/help/assets/icons/GraphPathing.svg)</p> | 플로우 시각화는 웹 사이트 및 앱을 통과하는 정확한 고객 경로를 보여 줍니다. |
-| [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![테이블 보기](/help/assets/icons/ViewTable.svg)</p> | 자유 형식 테이블 시각화는 대화형 시각화입니다. 자유 형식 테이블 시각화는 Workspace에서 데이터 분석을 위한 기반입니다. |
-| [히스토그램](/help/analysis-workspace/visualizations/histogram.md)<p>![그래프 히스토그램](/help/assets/icons/GraphHistogram.svg)</p> | 히스토그램 시각화는 지표 볼륨을 기반으로 개인, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
-| [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md)<p>![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg)</p> | 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
-| [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md)<p>![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | 주요 지표 요약 시각화는 선, 요약 변경 및 요약 번호 시각화를 결합합니다. |
-| [라인](/help/analysis-workspace/visualizations/line.md)<p>![그래프 트렌드](/help/assets/icons/GraphTrend.svg)</p> | 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
-| [산포도](/help/analysis-workspace/visualizations/scatterplot.md) <p>![그래프 분산](/help/assets/icons/GraphScatter.svg)</p> | 산포도 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. |
-| [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![123](/help/assets/icons/123.svg)</p> | 요약 번호 시각화는 선택한 셀을 하나의 큰 숫자로 표시합니다. |
-| [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)<p>![MoveUpDown](/help/assets/icons/MoveUpDown.svg)</p> | 요약 변경 시각화는 선택한 셀 간의 변화를 하나의 큰 숫자 또는 백분율로 표시합니다. |
-| [텍스트](/help/analysis-workspace/visualizations/text.md)<p>![텍스트](/help/assets/icons/Text.svg)</p> | 텍스트 시각화를 사용하면 Workspace에 사용자 정의 텍스트를 추가할 수 있습니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
-| [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p>![ModernGridView](/help/assets/icons/ModernGridView.svg)</p> | 트리맵 시각화는 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
-| [벤](/help/analysis-workspace/visualizations/venn.md)<p>![유형](/help/assets/icons/TwoDots.svg)</p> | 벤 시각화는 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
+| 아이콘 |  이름  | 설명 |
+| :---: | --- | ---| 
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [영역](/help/analysis-workspace/visualizations/area.md) | 영역 그래프 시각화. 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 개의 지표가 있고 두 개 이상 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 사용하십시오. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상의 지표에서 다양한 값을 나타내는 세로 막대가 있는 막대 그래프 시각화입니다. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [스택 막대](/help/analysis-workspace/visualizations/bar.md) | 하나 이상의 지표에서 다양한 값을 나타내는 세로 막대가 있는 스택 막대 그래프 시각화입니다. |
+| ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [글머리 기호](/help/analysis-workspace/visualizations/bullet-graph.md) | 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 보여 주는 글머리 기호 그래프 시각화입니다. |
+| ![텍스트 번호 매기기](/help/assets/icons/TextNumbered.svg) | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 시각화는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 테이블은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
+| ![콤보](/help/assets/icons/ComboChart.svg) | [콤보](combo-charts.md) | 콤보 차트를 사용하면 표를 먼저 빌드하지 않고도 비교 시각화를 빠르게 빌드할 수 있습니다. |
+| ![그래프 도넛](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 도넛 시각화는 데이터를 전체의 일부 또는 필터로 표시합니다. |
+| ![전환 단계](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 플로우 시각화는 웹 사이트 및 앱을 통과하는 정확한 고객 경로를 보여 줍니다. |
+| ![테이블 보기](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블 시각화는 대화형 시각화입니다. 자유 형식 테이블 시각화는 Workspace에서 데이터 분석을 위한 기반입니다. |
+| ![그래프 히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램 시각화는 지표 볼륨을 기반으로 개인, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
+| ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
+| ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | 스택 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md) | 주요 지표 요약 시각화는 선, 요약 변경 및 요약 번호 시각화를 결합합니다. |
+| ![그래프 트렌드](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) | 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
+| ![그래프 분산](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) | 산포도 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 머리글](section-header.md) | 패널 내의 섹션을 식별하고 아티큘레이션합니다. |
+| ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 요약 변경 시각화는 선택한 셀 간의 변화를 하나의 큰 숫자 또는 백분율로 표시합니다. |
+| ![123](/help/assets/icons/123.svg)</p> | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | 요약 번호 시각화는 선택한 셀을 하나의 큰 숫자로 표시합니다. |
+| ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | 텍스트 시각화를 사용하면 Workspace에 사용자 정의 텍스트를 추가할 수 있습니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
+| ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p> | 트리맵 시각화는 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
+| ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | 벤 시각화는 원을 사용하여 최대 3개 필터의 지표 겹침을 나타냅니다. |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -141,7 +145,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 장치에 다운로드합니다. 선택한 차원에 대한 최대 50,000개의 차원 항목. |
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 시각화를 삽입할 수 있습니다. |
 | **[!UICONTROL 데이터 CSV 다운로드]** | 로컬 장치에 표시된 시각화 데이터를 다운로드합니다. |
-| **[!UICONTROL 전체 테이블 내보내기...]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](../export/export-cloud.md)를 참조하세요. |
+| **[!UICONTROL 전체 테이블 내보내기]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](../export/export-cloud.md)를 참조하세요. |
 | **[!UICONTROL 시각화 복제]** | 시각화의 정확한 복제본을 만듭니다. |
 | **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가(또는 편집)합니다. [텍스트](text.md)를 참조하세요. |
 | **[!UICONTROL 시각화 링크 가져오기]** | 시각화에 직접 링크를 복사하여 공유합니다. 링크 공유 대화 상자에 링크가 표시됩니다. 복사 를 선택하여 클립보드에 링크를 복사합니다. |
