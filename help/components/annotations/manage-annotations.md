@@ -4,9 +4,9 @@ description: Workspace에서 주석을 관리하는 방법
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
 | 열 | 설명 |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 주석을 ![Star](/help/assets/icons/Star.svg)하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)을(를) 해제하려면 선택하십시오. |
-| **[!UICONTROL 제목 및 설명]** | Annotation Builder에 제공됩니다. 제목과 설명을 편집하려면 제목 링크를 선택합니다. [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 엽니다. 공유 주석이 ![공유](/help/assets/icons/Share.svg)(으)로 표시되어 있습니다. |
+| **[!UICONTROL 제목 및 설명]** | Annotation Builder에 제공됩니다. 제목과 설명을 편집하려면 제목 링크를 선택합니다. [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 엽니다. 공유 주석이 ![공유](/help/assets/icons/ShareLight.svg)(으)로 표시되어 있습니다. |
 | **[!UICONTROL 데이터 보기]** | 이 주석이 적용되는 데이터 보기입니다. |
 | **[!UICONTROL 소유자]** | 주석의 소유자입니다. 사용자는 소유한 주석 또는 사용자와 공유된 주석만 볼 수 있습니다. |
 | **[!UICONTROL 적용 날짜 범위]** | 이 주석이 적용되는 날짜 또는 날짜 범위입니다. |
@@ -57,7 +57,7 @@ ht-degree: 6%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [주석 빌더](create-annotations.md#annotation-builder)를 사용하여 다른 주석을 추가하십시오. |
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 주석을 선택하지 않은 경우 이 검색 필드를 사용하여 주석을 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 주석에 태그를 지정합니다. **[!UICONTROL 태그 구성 요소]** 대화 상자에서 선택한 주석에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석에 대한 태그를 저장합니다. |
-| ![공유](/help/assets/icons/Share.svg) **[!UICONTROL 공유]** | 선택한 주석을 공유합니다. **[!UICONTROL 구성 요소 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [주석 공유](#share-annotations)를 참조하십시오. |
+| ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]** | 선택한 주석을 공유합니다. **[!UICONTROL 구성 요소 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [주석 공유](#share-annotations)를 참조하십시오. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 주석을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 주석의 이름을 변경합니다. 선택하면 인라인 주석의 이름을 변경할 수 있습니다. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 주석을 복사합니다. 새 주석은 동일한 이름과 접미사를 사용하여 만들어집니다(복사). |
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ### 필터 패널
 
-![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 주석을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 필터를 적용하는 주석 수가 표시됩니다. 필터 패널의 표시를 전환하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
+**[!UICONTROL 필터]** 왼쪽 패널을 사용하여 주석을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 필터를 적용하는 주석 수가 표시됩니다. 필터 패널의 표시를 전환하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
 
 필터 목록을 필터링하려면 다음을 수행합니다.
 
