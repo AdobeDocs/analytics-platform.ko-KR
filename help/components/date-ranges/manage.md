@@ -4,7 +4,7 @@ description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 9%
@@ -51,7 +51,7 @@ ht-degree: 9%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [날짜 범위 빌더](create.md#date-range-builder)를 사용하여 다른 날짜 범위를 추가하십시오. |
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 선택한 날짜 범위가 없는 경우 이 검색 필드를 사용하여 날짜 범위를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 날짜 범위에 태그를 지정합니다. **[!UICONTROL 날짜 범위 태그]** 대화 상자에서 선택한 날짜 범위의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 날짜 범위에 대한 태그를 저장합니다. |
-| ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]** | 선택한 날짜 범위를 공유합니다. **[!UICONTROL 날짜 범위 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 날짜 범위에 대한 공유 세부 정보를 저장합니다. |
+| ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 선택한 날짜 범위를 공유합니다. **[!UICONTROL 날짜 범위 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 날짜 범위에 대한 공유 세부 정보를 저장합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 날짜 범위를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 날짜 범위의 이름을 변경합니다. 선택하면 날짜 범위 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 날짜 범위를 승인합니다. |

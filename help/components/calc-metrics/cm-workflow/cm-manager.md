@@ -3,7 +3,7 @@ description: 계산된 지표 관리자를 사용하여 공유, 필터링, 태�
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
@@ -34,7 +34,7 @@ ht-degree: 5%
 | 열 | 설명 |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 계산된 지표를 ![Star](/help/assets/icons/Star.svg)에 선호하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)에 선호하지 않도록 선택하십시오. [계산된 지표를 즐겨찾기로 표시](/help/components/filters/filters-favorite.md)을 참조하십시오. |
-| **[!UICONTROL 제목 및 설명]** | 계산된 지표를 편집하려면 제목 링크를 선택하여 [계산된 지표 빌더](cm-build-metrics.md)를 엽니다. 공유 계산된 지표가 ![공유](/help/assets/icons/ShareLight.svg)(으)로 표시되어 있습니다. |
+| **[!UICONTROL 제목 및 설명]** | 계산된 지표를 편집하려면 제목 링크를 선택하여 [계산된 지표 빌더](cm-build-metrics.md)를 엽니다. 공유 계산된 지표가 ![공유](/help/assets/icons/ShareAlt.svg)(으)로 표시되어 있습니다. |
 | **[!UICONTROL 데이터 보기]** | 이 계산된 지표가 적용되는 데이터 보기. |
 | **[!UICONTROL 소유자]** | 계산된 지표의 소유자입니다. 사용자는 소유한 주석 또는 사용자와 공유된 주석만 볼 수 있습니다. |
 | **[!UICONTROL 태그]** | 이 계산된 지표에 대한 태그를 나열합니다. |
@@ -56,7 +56,7 @@ ht-degree: 5%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [계산된 지표 빌더](cm-build-metrics.md)를 사용하여 다른 계산된 지표를 추가합니다. |
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 계산된 지표를 선택하지 않으면 이 검색 필드를 사용하여 필터를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 계산된 지표에 태그를 지정합니다. **[!UICONTROL 계산된 지표 태그 지정]** 대화 상자에서 선택한 계산된 지표에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 태그를 저장합니다. 자세한 내용은 [계산된 지표에 태그 지정](cm-tagging.md)을 참조하십시오. |
-| ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]** | 선택한 계산된 지표를 공유합니다. **[!UICONTROL 계산된 지표 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [계산된 지표 공유](cm-sharing.md)를 참조하십시오. |
+| ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 선택한 계산된 지표를 공유합니다. **[!UICONTROL 계산된 지표 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [계산된 지표 공유](cm-sharing.md)를 참조하십시오. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 계산된 지표를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 계산된 지표의 이름을 변경합니다. 선택하면 계산된 지표의 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 계산된 지표를 승인합니다. [계산된 지표 승인](cm-approving.md)을 참조하세요. |

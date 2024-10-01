@@ -4,7 +4,7 @@ title: 필터 공유
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 하나 이상의 필터를 공유하려면 다음 작업을 수행하십시오.
 
 1. [필터 관리자](manage-filters.md)에서 공유할 필터를 하나 이상 선택합니다.
-1. 작업 표시줄에서 ![공유](/help/assets/icons/ShareLight.svg) **[!UICONTROL 공유]**&#x200B;를 선택합니다.
+1. 작업 표시줄에서 ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 필터 공유]** 대화 상자에서:
 
    ![필터 공유 대화 상자](assets/share-filter-dialog.png)
