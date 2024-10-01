@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 관리하는 방법 �
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 | UI 설정 | 정의 |
 | --- | --- |
-| 필터 숨기기/표시 | 왼쪽 레일에서 다음 필터를 표시하거나 숨길 수 있습니다. <ul><li>[!UICONTROL 데이터 보기]</li><li>[!UICONTROL 소유자]</li><li>[!UICONTROL 새로 고침 빈도]</li><li>[!UICONTROL 태그]</li></ul> |
+| 필터 숨기기/표시 | 왼쪽 패널에서 다음 필터를 표시하거나 숨길 수 있습니다. <ul><li>[!UICONTROL 데이터 보기]</li><li>[!UICONTROL 소유자]</li><li>[!UICONTROL 새로 고침 빈도]</li><li>[!UICONTROL 태그]</li></ul> |
 | [!UICONTROL 제목 및 설명] | 생성 시 대상자에게 제공된 제목과 설명입니다. |
 | [!UICONTROL 데이터 보기] | 이 대상자가 생성된 데이터 보기입니다. |
 | [!UICONTROL 대상자 크기] | 이 대상자에 있는 총 인원수입니다. |

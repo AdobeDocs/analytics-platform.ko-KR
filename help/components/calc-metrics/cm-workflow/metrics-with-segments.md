@@ -3,68 +3,94 @@ description: 개별 지표에 대한 필터링을 사용하면 동일한 보고�
 title: 필터링된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 53%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
 # 필터링된 지표
 
-계산된 지표 빌더에서는 지표 정의 내에서 필터를 적용할 수 있습니다. 분석에 사용할 새 지표를 도출하려는 경우 유용합니다. 필터 정의는 필터 빌더를 통해 업데이트할 수 있습니다. 변경된 경우 필터는 계산된 지표 정의의 일부인 경우를 포함하여 적용되는 모든 위치에서 자동으로 업데이트됩니다.
+[계산된 지표 빌더](cm-build-metrics.md#definition-builder)에서 지표 정의 내에서 필터를 적용할 수 있습니다. 필터를 적용하는 것은 분석에서 데이터 하위 집합에 대한 지표를 사용하려는 경우 유용합니다.
 
-![국가 = 독일 및 고유 방문자에 대한 필터의 요약 및 정의](assets/german-visitors.png)
+>[!NOTE]
+>
+>필터 정의는 [필터 빌더](/help/components/filters/filter-builder.md)를 통해 업데이트됩니다. 필터를 변경하면 필터가 계산된 지표 정의의 일부인 경우를 포함하여 필터가 사용되는 모든 위치에서 필터가 자동으로 업데이트됩니다.
+>
 
-## 필터링된 지표 만들기 {#create}
+내 브랜드와 상호 작용하는 독일인 사용자와 독일 외부 사용자에 대한 지표를 비교하려고 합니다. 따라서 다음과 같은 질문에 답변할 수 있습니다.
 
-“독일 방문자” 필터의 다양한 측면을 “해외 방문자” 필터의 다양한 측면과 비교하려고 한다고 가정해 보겠습니다. 다음과 같이 통찰력을 제공하는 지표를 만들 수 있습니다.
+1. 가장 [인기 있는 페이지](#popular-pages)를 방문하는 독일인과 외국인의 수를 표시합니다.
+1. 이번 달에 총 [총](#totals)명의 독일 사용자와 해외 사용자의 브랜드와 온라인으로 상호 작용한 사용자 수입니다.
+1. 인기 있는 페이지를 방문한 독일인과 해외 사용자의 [백분율](#percentages)은 무엇입니까?
 
-* 두 그룹 간 콘텐츠 탐색 행동은 어떻게 비교합니까? (다른 예: 두 필터 간 전환율은 어떻게 비교합니까?)
-* 특정 페이지를 열람하는 독일인은 국제인에 비해 전체 사용자 중 몇 명입니까?
-* 이렇게 다른 필터에서 액세스한 콘텐츠의 측면에서 볼 때 차가 가장 큰 곳은 어디입니까?
+필터링된 지표가 이러한 질문에 답변하는 데 어떻게 도움이 될 수 있는지 알려면 아래 섹션을 참조하십시오. 필요한 경우 보다 자세한 설명서를 참조합니다.
 
-&quot;독일 방문자&quot;라는 지표와 &quot;해외 방문자&quot;라는 지표를 작성하고 저장합니다.
+## 방문 빈도가 높은 페이지
 
-1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;인 &quot;독일 방문자&quot;라는 임시 필터를 만듭니다. 국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을(를) 선택합니다.
+1. `German people`(이)라는 Workspace 프로젝트에서 [계산된 지표를 만듭니다](cm-workflow.md).
+1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 `Germany`이라는 이름의 필터를 만듭니다](/help/components/filters/filter-builder.md).
 
-   ![국가가 독일과 같음을 보여 주는 임시 필터](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >[필터 빌더](/help/components/filters/create-filters.md)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로를 간소화했습니다. &quot;임시&quot;는 필터가 왼쪽 레일의 **[!UICONTROL 필터]** 목록에 표시되지 않음을 의미합니다. 그러나 그 옆에 있는 “i” 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
+   >계산된 지표 빌더에서는 구성 요소 패널을 사용하여 직접 필터를 만들 수 있습니다.
+   >   
 
-1. 독일 필터를 정의 캔버스로 드래그하고 고유 방문자 수 지표를 그 안으로 드래그합니다.
+   필터가 다음과 같을 수 있습니다.
 
-   ![독일 및 고유 방문자와 동일한 국가의 요약 및 정의](assets/german-visitors.png)
+   ![독일 필터링](assets/filter-germany.png)
 
-1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
+1. 계산된 지표 빌더로 돌아가 필터를 사용하여 계산된 지표를 업데이트합니다.
 
-1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;과 같지 않은 &quot;해외 방문자&quot;라는 임시 필터를 만듭니다.
+   ![계산된 지표 독일](assets/calculated-metric-germany.png)
 
-   국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을 선택한 다음 연산자로 [!UICONTROL **같지 않음**]&#x200B;을 선택합니다.
+계산된 지표의 국제 버전에 대해 위의 단계를 반복합니다.
 
-1. 그 안에 있는 고유 방문자 수 지표를 드래그합니다.
+1. 제목이 `International people`인 Workspace 프로젝트에서 계산된 지표를 만듭니다.
+1. 계산된 지표 빌더 내에서 CRM 데이터의 CRM 국가 필드를 사용하는 `Not Germany`이라는 필터를 만들어 개인의 출처를 결정합니다.
 
-1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
+   필터는 다음과 같아야 합니다.
 
-1. Analysis Workspace에서 **[!UICONTROL Page]** 차원을 자유 형식 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.
+   ![독일 필터링](assets/filter-not-germany.png)
 
-   ![독일 방문자 및 해외 방문자에 대한 페이지 차원을 보여 주는 자유 형식 테이블](assets/workspace-pages.png)
+1. 계산된 지표 빌더로 돌아가 필터를 사용하여 계산된 지표를 업데이트합니다.
 
-다음은 비디오 개요입니다.
+   ![계산된 지표 독일](assets/calculated-metric-notgermany.png)
+
+
+1. Analysis Workspace에서 독일 및 해외 사용자가 방문한 페이지를 보는 프로젝트를 만듭니다.
+
+   ![독일 사용자와 해외 사용자를 보여주는 Workspace 자유 형식 테이블 시각화](assets/workspace-german-vs-international.png)
+
+
+## 총계
+
+1. 총계를 기반으로 두 개의 새 필터를 만듭니다. 이전에 만든 각 필터를 열고 필터 이름을 바꾸고 **[!UICONTROL 사람]**&#x200B;에 대한 **[!UICONTROL 지표 유형]**&#x200B;을(를) **[!UICONTROL 총계]**(으)로 설정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을(를) 사용하여 새 이름으로 필터를 저장합니다. 예:
+
+   ![독일의 총 지표](assets/calculated-metric-germany-total.png)
+
+1. Workspace 프로젝트에 새 자유 형식 테이블 시각화를 추가하여 이번 달 총 페이지를 표시합니다.
+
+   ![독일인과 해외 총 직원을 보여주는 Workspace 자유 형식 테이블 시각화](assets/workspace-german-vs-international-totals.png)
+
+
+## 백분율
+
+1. 이전에 만든 계산된 지표에서 비율을 계산하는 계산된 지표 두 개를 새로 만듭니다.
+
+   ![독일어 및 해외 총 사용자 비율을 보여 주는 Workspace 자유 형식 테이블 시각화](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. Workspace 프로젝트를 업데이트합니다.
+
+   ![독일인과 해외 총 직원을 보여주는 Workspace 자유 형식 테이블 시각화](assets/workspace-german-vs-international-totals-percentage.png)
+
+
++++ 다음은 필터링된 계산된 지표를 구현 불가 지표로 사용하는 방법을 설명하는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
-## 총 지표의 백분율 {#percent-total}
+{{videoaa}}
 
-필터를 전체 모집단과 비교하여 위의 예를 한 단계 더 발전시킬 수 있습니다. 그러기 위해 두 가지 새 지표 “총 독일 방문자의 %”와 “총 해외 방문자의 %”를 만드십시오.
-
-1. 독일 (또는 해외) 방문자 필터를 캔버스에 드롭합니다.
-1. 아래에 다른 독일 (또는 해외) 방문자 필터를 드롭합니다. 하지만, 이때, 그 구성 (톱니바퀴) 아이콘을 클릭하여 지표 유형 &quot;합계&quot;를 선택합니다. 형식은 &quot;퍼센트&quot;여야 합니다. 연산자는 &quot;나누기&quot;여야 합니다. 다음 지표 정의로 종료합니다.
-
-   ![국가가 독일 및 총 고유 방문자 수](assets/cm_metric_total.png)
-
-1. 이 지표를 프로젝트에 적용합니다.
-
-   ![페이지 및 총 독일인 방문자 비율(%)이 포함된 자유 형식 테이블](assets/cm_percent_total.png)
++++

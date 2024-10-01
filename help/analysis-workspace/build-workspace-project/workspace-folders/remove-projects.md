@@ -1,24 +1,21 @@
 ---
-description: 폴더에서 프로젝트를 제거하는 방법 알아보기
+description: 폴더에서 프로젝트 이름을 변경하는 방법 알아보기
 keywords: Analysis Workspace
 title: 폴더에서 프로젝트 제거
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
-# 폴더에서 프로젝트 제거
+# 프로젝트 삭제
 
-폴더에서 프로젝트를 제거하려면 프로젝트를 다른 위치로 이동하거나 프로젝트를 삭제할 수 있습니다.
+<!-- Is this article still needed -->
 
->[!NOTE]
->
->관리자가 프로젝트를 회사 폴더로 이동하면 원래 공유 권한이 제한된 경우에도 폴더가 모든 사람과 공유됩니다. 관리자가 회사 폴더 밖으로 프로젝트를 이동하면 원래 또는 이전 공유 권한이 유지됩니다.
 
 ## 프로젝트 이동 {#move-project-in-folder}
 

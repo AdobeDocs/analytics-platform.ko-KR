@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 고유 값이 많은 차원을 사용하는 경우 결과 보고서에 표시하거나 계산할 고유 차원 항목이 너무 많이 포함될 수 있습니다. 가장 중요하지 않은 것으로 간주되는 차원 항목을 제거하여 결과가 잘립니다. 이러한 최적화는 프로젝트 및 제품 성능을 유지하기 위해 수행됩니다.
 
-고유 값이 너무 많은 보고서를 요청하면 Analysis Workspace에는 일부 차원 항목이 포함되지 않았다는 표시기가 차원 헤더에 표시됩니다. 예를 들어 &quot;행: 22,343,156개 이상의 1-50&quot; &quot;보다 큼&quot; 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
+고유 값이 너무 많은 보고서를 요청하면 Analysis Workspace에는 일부 차원 항목이 포함되지 않았다는 표시기가 차원 헤더에 표시됩니다. 예를 들어 **[!UICONTROL 행: 22,343,156]**&#x200B;을 초과하는 1~50개 **[!UICONTROL more]** 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
 
 ![22,343,156 이상 중 1~50개를 표시하는 &quot;초과&quot; 키워드를 표시하는 Workspace의 자유 형식 테이블](assets/high-cardinality.png)
 

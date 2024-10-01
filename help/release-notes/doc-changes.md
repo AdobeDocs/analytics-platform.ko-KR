@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+source-git-commit: d0dbdcb6fa1402bce73584d1dd9165c1b3f00b33
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 70%
 
 ---
@@ -43,7 +43,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소를 추가](/help/components/use-components-in-workspace.md)하는 방법에 대한 일반 정보가 추가되었습니다. |
 | 데이터 내보내기 사용 사례 | [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md)와 이러한 사용 사례를 구현하기 위해 Experience Platform 및 Customer Journey Analytics 기능을 사용하는 방법을 설명하는 새로운 문서 집합 |
 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)하십시오.</p> |
-| 사용자 정의 날짜 범위에 대한 설명서를 업데이트했습니다. | 현재 제품 기능 및 디자인과 일치하도록 [사용자 정의 날짜 범위 만들기](/help/components/date-ranges/custom-date-ranges.md)와 관련된 스크린샷 및 절차를 업데이트했습니다. |
+| 사용자 정의 날짜 범위에 대한 설명서를 업데이트했습니다. | 현재 제품 기능 및 디자인과 일치하도록 [예제 날짜 범위](/help/components/date-ranges/custom-date-ranges.md)와(과) 관련된 스크린샷과 절차를 업데이트했습니다. |
 | Dimension에 대한 개요 정보 | [차원](/help/components/dimensions/overview.md)에 대한 정보가 추가되었습니다. |
 | 소스 커넥터의 예 | 데이터 수집을 위해 [소스 커넥터를 사용](/help/data-ingestion/sources.md#use-a-source-connector)하는 방법을 설명할 때 사용할 수 있는 소스 커넥터의 예를 추가했습니다. |
 | **2024년 4월** | |
@@ -141,7 +141,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Customer Journey Analytics와 BI 솔루션 비교 | Customer Journey Analytics를 일반적인 BI 솔루션과 [비교](../getting-started/cja-vs-bi.md)한 새 문서. |
 | 대상자 설명서에 대한 업데이트 | [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)에 대한 새로운 섹션. |
 | 대상자 설명서에 대한 업데이트 | 대상자가 생성된 후 Adobe는 각각의 새로운 [Customer Journey Analytics 대상자에 대해 Experience Platform 스트리밍 세그먼트](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)를 만듭니다. |
-| Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/components/date-ranges/calendar.md#relative-panel-dates)를 참조하십시오. |
+| Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/components/date-ranges/overview.md#custom-date-ranges)를 참조하십시오. |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새로운 문서 섹션. Customer Journey Analytics의 [비교 날짜 범위 표시](/help/mobile-app/create-scorecard.md#show-comparison-dates)를 참조하십시오. |
 | **2023년 1월** | |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |

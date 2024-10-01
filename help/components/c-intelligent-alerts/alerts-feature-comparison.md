@@ -3,22 +3,20 @@ description: 경고의 Customer Journey Analytics이 Adobe Analytics과 어떻�
 title: 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 5%
 
 ---
 
-# 경고 기능 비교: Customer Journey Analytics 및 Adobe Analytics
+# 경고 기능 비교
 
-Customer Journey Analytics에서 경고를 사용하는 프로세스는 Adobe Analytics에서 경고를 사용하는 프로세스와 거의 동일합니다. 그러나 중요한 차이점이 있습니다.
-
-다음 섹션에서는 주요 차이점에 대해 설명합니다.
+Customer Journey Analytics에서의 경고 사용 프로세스는 Adobe Analytics에서의 경고 사용 프로세스와 거의 동일합니다. 그러나 중요한 차이점이 있습니다. 다음 섹션에서는 주요 차이점에 대해 설명합니다.
 
 ## 시간별 경고는 Customer Journey Analytics에서 사용할 수 없습니다.
 
-시간별 경고는 Adobe Analytics에서와 같이 Customer Journey Analytics에서 사용할 수 없습니다. Customer Journey Analytics에서 일별, 주별 또는 월별 경고를 구성할 수 있습니다.
+시간별 경고는 Adobe Analytics에서와 같이 Customer Journey Analytics에서 사용할 수 없습니다. Customer Journey Analytics에서는 알림을 매일, 매주 또는 매월로 구성할 수 있습니다.
 
 Customer Journey Analytics에서 보고되기 전에 Adobe Experience Platform에 데이터를 수집할 수 있는 다양한 방법 때문입니다. 한 시간 이내에 데이터 완전성과 가용성을 안정적으로 달성할 수 없으므로 불완전한 데이터의 가능성이 높기 때문에 시간별 경고를 비현실적으로 만듭니다. 자세한 내용은 [데이터 수집 시간이 다릅니다](#data-ingestion-times-vary-in-customer-journey-analytics)를 참조하세요.
 

@@ -1,73 +1,57 @@
 ---
-description: Workspace에서 폴더를 추가하는 방법 알아보기
+description: Workspace에서 폴더를 추가하거나 이동하는 방법에 대해 알아봅니다
 keywords: Analysis Workspace
-title: Workspace에서 폴더 추가
+title: 폴더 추가 또는 이동
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 22%
 
 ---
 
-# 폴더에 프로젝트 추가
+# 프로젝트를 폴더로 추가 또는 이동
 
-테이블 보기의 폴더 또는 폴더 내에서 프로젝트를 추가할 수 있습니다.
+[프로젝트 목록](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 바로 폴더로 프로젝트를 추가하거나 이동할 수 있습니다.
 
-## 테이블 보기에서 {#table-view}
+## 폴더로 프로젝트 이동
 
-홈 페이지의 테이블 보기에서 폴더에 프로젝트를 추가합니다.
+>[!NOTE]
+>
+>관리자가 프로젝트를 회사 폴더로 이동하면 기존 공유 권한이 제한된 경우에도 폴더가 모든 사람과 공유됩니다. 관리자가 프로젝트를 회사 폴더 밖으로 이동하면 기존 공유 권한이 다시 적용됩니다.
+>
 
-1. 폴더에 추가할 프로젝트를 하나 이상 선택합니다.
+[프로젝트 목록](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 폴더로 프로젝트를 이동하려면 다음을 수행하십시오.
 
-   ![선택된 3개의 프로젝트를 보여 주는 프로젝트 테이블 보기입니다.](/help/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. 폴더로 이동할 하나 이상의 프로젝트를 ![SelectBox](/help/assets/icons/SelectBox.svg)선택하십시오.
 
-1. **다음으로 이동**&#x200B;을 선택합니다. 폴더 선택 대화 상자가 표시됩니다.
+1. 가능한 [작업](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) 목록에서 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **이동**&#x200B;을(를) 선택하십시오. **[!UICONTROL 폴더 선택]** 대화 상자가 표시됩니다.
 
-1. 드롭다운 메뉴에서 폴더 이름을 선택합니다.
+1. **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더 이름을 선택합니다. 드롭다운을 사용하면 폴더 계층 구조를 이동하여 원하는 수준에서 하위 폴더를 선택할 수 있습니다.
 
-   ![드롭다운 메뉴와 사용 가능한 하위 폴더가 표시된 폴더 선택 보기입니다.](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+   ![드롭다운 메뉴와 사용 가능한 하위 폴더가 표시된 폴더 선택 보기입니다.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 
-1. **추가**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 이동]**&#x200B;을 선택합니다.
 
-   ![추가를 클릭합니다.](/help/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    선택한 프로젝트가 폴더에 추가됩니다.
 
-   ![이동된 3개의 프로젝트를 표시하는 선택된 하위 폴더입니다.](/help/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   이제 Workspace 랜딩 페이지에 폴더에 3개의 프로젝트가 있다고 표시됩니다.
+## 폴더에 프로젝트 추가
 
-   ![업데이트된 프로젝트 홈 페이지 목록에 3개의 프로젝트가 있는 하위 폴더가 표시됩니다.](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+[프로젝트 목록](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 폴더에 프로젝트를 추가하려면:
 
-## 폴더 내에서 {#inside-folder}
+1. 프로젝트를 추가할 폴더를 ![SelectBox](/help/assets/icons/SelectBox.svg)합니다.
 
-줄임표 링크를 사용하여 폴더 내에서 프로젝트를 추가할 수도 있습니다.
+1. 가능한 [작업](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) 목록에서 ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **프로젝트 추가**&#x200B;를 선택하십시오. **[!UICONTROL 폴더 선택]** 대화 상자가 표시됩니다.
 
-1. 테이블 보기에서 폴더를 선택하여 엽니다.
+1. [!UICONTROL *폴더에 추가할 프로젝트 선택*]&#x200B;에서 하나 이상의 프로젝트를 선택하십시오.
 
-   ![프로젝트가 포함되지 않은 하위 폴더](/help/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![드롭다운 메뉴와 사용 가능한 하위 폴더가 표시된 폴더 선택 보기입니다.](/help/analysis-workspace/build-workspace-project/assets/add-projects-folder.png)
 
-1. 오른쪽 상단의 줄임표 아이콘(**...**)을 클릭합니다.
-
-   ![줄임표 드롭다운 메뉴 옵션입니다.](/help/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   드롭다운 메뉴에 프로젝트를 폴더에 추가하는 옵션이 표시됩니다. 추가 옵션을 사용하면 폴더 이름을 바꾸거나, 폴더를 이동 또는 삭제하고 폴더 권한을 관리할 수 있습니다.
-
-1. **프로젝트 추가**&#x200B;를 선택하고 드롭다운 목록에서 추가할 프로젝트를 선택합니다.
-
-   ![프로젝트 추가 목록입니다.](/help/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
-
-   폴더에 여러 개의 프로젝트를 추가할 수 있습니다.
-
-   ![3개의 프로젝트가 추가된 것을 보여 주는 프로젝트 추가 창](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
-
-1. **추가**&#x200B;를 클릭하여 폴더에 프로젝트를 추가합니다.
-
-   ![추가를 클릭합니다.](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
+1. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
 >[!NOTE]
 >

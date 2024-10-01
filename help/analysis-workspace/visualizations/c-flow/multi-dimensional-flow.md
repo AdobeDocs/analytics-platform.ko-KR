@@ -4,61 +4,53 @@ title: 차원 간 흐름
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 80522177d5258e4b5046b3872483ce2b482ae77d
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 73%
+source-wordcount: '332'
+ht-degree: 7%
 
 ---
 
 # 차원 간 흐름
 
-차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
+차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. 이 문서에서는 모바일 앱 상호 작용 및 이벤트와 같은 두 가지 사용 사례에 대해 이 플로우를 사용하는 방법과 캠페인으로 웹 방문을 추진하는 방법을 보여 줍니다
 
-각 흐름 열의 맨 위에 있는 차원 레이블은 흐름 시각화에서 여러 차원을 더 직관적으로 사용합니다.
+<!--
+A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
 
-![제품, 페이지, OS 버전 및 체류 시간을 포함하여 여러 차원을 강조 표시하는 차원 간 흐름입니다.](assets/flow.png)
+![An intero-dimensional flow highlighting multiple dimensions including Product, Page, OS version, and Time Spent.](assets/flow.png)
+-->
 
-앱 사용 사례와 웹 사용 사례, 이렇게 두 가지 사용 사례를 살펴보겠습니다.
+## 모바일 앱 상호 작용 및 이벤트
 
-## 사용 사례 1: 앱
+[!UICONTROL 화면 이름] 차원은 사용자가 앱의 다양한 화면(장면)을 사용하는 방법을 확인하기 위해 이 예제 흐름에서 사용됩니다. 반환된 상단 화면은 앱의 홈 페이지인 **[!UICONTROL luma: content: ios: en: home]**&#x200B;입니다.
 
-맨 위의 반환되는 항목이 [!UICONTROL ItemAdded]인 [!UICONTROL 동작 이름] 차원이 흐름에 추가되었습니다.
+![항목을 표시하는 흐름이 추가되었습니다.](assets/flowapp.png)
 
-![항목을 표시하는 흐름이 추가되었습니다.](assets/multi-dimensional-flow.png)
+이 앱에서 화면과 이벤트 유형(장바구니에 추가, 구매 등) 간의 상호 작용을 탐색하려면 **[!UICONTROL 이벤트 유형]** 차원을 끌어서 놓습니다.
 
-이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다.
+* 플로우에서 사용 가능한 단계 위에 해당 차원을 바꾸려면 다음을 수행합니다.
 
-* 드롭 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
+  ![여러 영역으로 끌어온 페이지 차원을 표시하는 흐름](assets/flowapp-replace.png)
 
-  ![여러 영역으로 끌어서 놓은 페이지 차원을 표시하는 흐름.](assets/multi-dimensional-flow2.png) ![끌어온 항목을 보여 주는 흐름 다이어그램입니다.](assets/multi-dimensional-flow3.png)
+* 현재 플로우 시각화 외부에서 차원을 추가하려면:
 
-* 끝에 있는 공백 (검은색 대괄호 참조)으로 드래그하여 시각화에 **추가**&#x200B;합니다.
+  ![끝에 공백으로 끌어서 놓은 페이지 차원을 표시하는 흐름입니다.](assets/flowapp-add.png)
 
-  ![끝에 공백으로 끌어서 놓은 페이지 차원을 표시하는 흐름입니다.](assets/multi-dimensional-flow4.png)
+아래 흐름 시각화는 **[!UICONTROL 이벤트 유형]** 차원을 추가한 결과를 보여 줍니다. 시각화는 장바구니에 제품을 추가하거나, 애플리케이션을 닫거나, 오퍼를 표시하기 전에 모바일 앱 사용자가 앱의 다양한 화면을 통해 이동하는 방법에 대한 통찰력을 제공합니다.
 
-다음은 오른쪽 열의 ItemScaled 항목을 페이지 차원으로 바꾸도록 선택하는 경우의 결과입니다. 이제 맨 위의 결과가 페이지 차원에 대한 맨 위 결과로 변경됩니다.
+![목록의 맨 위에 페이지 차원 결과를 표시하는 낮음](assets/flowapp-result.png)
 
-![목록의 맨 위에 페이지 차원 결과를 표시하는 낮음](assets/multi-dimensional-flow5.png)
+## 캠페인이 웹 방문을 유도하는 방법
 
-이제 고객이 동작과 페이지 간을 어떻게 이동하는지 볼 수 있습니다. 다른 노드를 클릭하여 흐름을 더 탐색할 수 있습니다.
+웹 사이트 방문을 유도하는 캠페인을 분석하려고 합니다. **[!UICONTROL 캠페인 이름]**&#x200B;을(를) 차원으로 하는 플로우 시각화를 만듭니다.
 
-![추가된 항목, 끌어서 놓은 항목 및 기본 보기를 표시하는 흐름입니다.](assets/multi-dimensional-flow6.png)
+![흐름 웹 캠페인 이름 차원](assets/flowweb.png)
 
-다른 동작 이름 차원을 시각화의 끝에 추가하는 경우 다음의 결과가 나옵니다.
+마지막 **[!UICONTROL 캠페인 이름]** 차원을 **[!UICONTROL 서식이 지정된 페이지 이름]** 차원으로 바꾸고 흐름 시각화 끝에 다른 **[!UICONTROL 서식이 지정된 페이지 이름]** 차원을 추가합니다.
 
-![작업 이름을 표시하는 흐름이 추가되었습니다.](assets/multi-dimensional-flow7.png)
+![흐름 웹 캠페인 이름 및 웹 페이지 차원](assets/flowweb-replace.png)
 
-이렇게 되면 분석 중인 앱에 대해 깊이 있게 이해하고 변경이 가능해집니다.
+플로우 위로 마우스를 가져가면 자세한 내용을 볼 수 있습니다. 예를 들어 어떤 캠페인으로 인해 장바구니 체크아웃이 발생했는지 등을 확인할 수 있습니다.
 
-## 사용 사례 2: 웹
-
-이 사용 사례에서는 대부분의 항목을 웹 사이트로 연결하는 캠페인을 분석할 수 있는 방법을 보여 줍니다.
-
-캠페인 이름 차원을 새 흐름에 드래그합니다.
-
-![새 흐름으로 끌어온 캠페인 이름 차원을 보여 주는 흐름입니다.](assets/multi-dimensional-flow8.png)
-
-이제 해당 캠페인이 트래픽을 유도하는 페이지를 확인하려 하므로, 페이지 차원을 시각화에 추가할 흐름 결과의 오른쪽으로 드래그합니다.
-
-![흐름 결과의 오른쪽으로 끌어서 놓은 페이지 차원을 표시하는 흐름.](assets/multi-dimensional-flow9.png)
+![흐름 웹 캠페인 이름 및 웹 페이지 차원 가리키기](assets/flowweb-hover.png)

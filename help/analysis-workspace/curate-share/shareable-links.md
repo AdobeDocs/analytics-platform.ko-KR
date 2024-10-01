@@ -5,16 +5,16 @@ title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 79%
+source-wordcount: '381'
+ht-degree: 67%
 
 ---
 
 # 공유 가능한 링크 만들기
 
-Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형에서는 수신자가 Adobe Analytics에 로그인해야 프로젝트에 액세스할 수 있지만 다른 링크 유형에서는 그렇지 않습니다.
+Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형은 수신자가 프로젝트에 액세스하기 전에 Customer Journey Analytics에 로그인해야 하지만, 다른 링크 유형은 로그인하지 않아도 됩니다.
 
 ## 다른 Workspace 사용자와 공유할 프로젝트 링크 받기 {#project-link}
 
@@ -32,8 +32,8 @@ Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Work
 
 패널 또는 개별 시각화 등 프로젝트의 특정 부분에 대한 링크를 공유할 수도 있습니다. 이를 내부 연결이라고도 합니다. 이 기능은 프로젝트 내의 주요 인사이트에 사용자의 주의를 기울이는 데 유용할 수 있습니다.
 
-* 패널 헤더에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
-* 테이블 또는 시각화 헤더에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
+* 패널 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 선택합니다.
+* 시각화 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택합니다.
 
 [비디오 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
 

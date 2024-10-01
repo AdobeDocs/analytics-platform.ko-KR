@@ -4,51 +4,38 @@ description: 보고서 실행 시 파생된 필터링된 지표에 대해 자세
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 12%
 
 ---
 
 # 계산된 지표 개요
 
-계산된 지표 및 고급 계산된 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다. Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다.
+계산된 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다. 계산된 지표는 구현을 변경하지 않고도 데이터를 분석할 수 있도록 사용자 지정 지표를 구축, 관리 및 조정하는 유연한 방법을 제공합니다.
 
-다음과 같은 작업을 수행할 수 있습니다.
++++ 계산된 지표를 사용하는 방법에 대한 소개는 이 비디오 를 참조하십시오.
 
-* 구현을 변경하지 않고도 보고서 실행 시 파생된 필터링된 지표를 만들 수 있습니다. 이러한 지표는 필터를 기반으로 하므로 기록에서 볼 수 있습니다.
-* (고급 계산된 지표만 해당) 지표의 필터. 예를 들어 첫 번째 세션에 참여한 사람의 수로, “새 사용자 수”에 대한 지표를 만들 수 있습니다.
-* (고급 계산된 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
+>[!VIDEO](https://video.tv.adobe.com/v/31787/?learn=on)
 
-## 계산된 지표와 고급 계산된 지표
++++
 
-다음은 계산된 지표와 고급 계산된 지표 기능을 비교한 것입니다.
+계산된 지표에 대한 일반적인 워크플로는 다음 작업으로 구성됩니다
 
-| Builder 옵션 | 계산된 지표 | 고급 계산된 지표 |
-|---|---|---|
-| 형식 유형(십진수, 시간, 퍼센트, 통화) | 예 | 예 |
-| 속성 변경(기본값, 선형, 기여도 등) | 예 | 예 |
-| 지표 유형(표준, 전체) | 예 | 예 |
-| 기본 연산자(더하기, 빼기, 곱하기, 나누기) | 예 | 예 |
-| 필터 적용 | 아니요 | 예 |
-| [기본 함수(수, 절대값, 평균 등)](/help/components/calc-metrics/cm-functions.md) | 아니요 | 예 |
-| [고급 함수(회귀, if/then, T 스코어 등)](/help/components/calc-metrics/cm-adv-functions.md) | 아니요 | 예 |
-
-## 도구
-
-| 도구 | 기능 |
-|--- |--- |
-| 계산된 지표 빌더 | <ul><li>고급 배분 모델을 사용하여 계산된 지표 및 고급 계산된 지표를 만듭니다.</li><li>인라인 필터를 지표 공식에 추가할 수 있습니다.</li><li>동일한 보고서에서 필터를 비교할 수 있습니다. 예를 들어 로컬 사용자와 해외 사용자를 비교할 수 있습니다.</li><li>통계 함수를 사용할 수 있습니다.</li><li> 상세한 지표 설명을 제공할 수 있습니다(수행하는 작업, 사용할 곳, 사용하지 말아야 곳을 보여줌).</li><li>정의를 새 지표에 복사할 수 있습니다.</li><li>인라인 지표 미리보기를 제공할 수 있습니다.</li><li>주어진 사용자 정의 이벤트(지표)가 상승한다면 이것이 좋은 것인지 나쁜 것인지를 가리키는 지표 극성을 설정할 수 있습니다.</li><li>지표에 태그를 지정할 수 있습니다.</li></ul> |
-| 계산된 지표 관리자 | <ul><li>지표를 다른 사람과 공유할 수 있습니다.</li><li>지표를 승인 및 조정할 수 있습니다.</li><li>사람들이 찾을 수 있도록 지표를 정리(태그 지정)할 수 있습니다.</li><li>지표를 삭제할 수 있습니다.</li><li>지표의 이름을 변경할 수 있습니다.</li></ul> |
-| 계산된 지표에 대한 API | Customer Journey Analytics API 세트의 일부입니다. |
-
-## Customer Journey Analytics의 계산된 지표 템플릿
-
-| 계산된 지표 이름 | 계산된 지표 설명 |
+| 작업 | 설명 |
 | --- | --- |
-| 사용자당 세션 수 | 사용자당 평균 세션 수 |
-| 세션 시작 비율 | 세션의 첫 번째 이벤트에서 차원 항목이 발생한 시간의 백분율입니다. |
-| 세션 종료 비율 | 세션의 마지막 이벤트에서 차원 항목이 발생한 시간의 백분율입니다. |
-| 사용자당 소비한 시간 | 주어진 차원 항목에서 한 사용자가 소비한 평균 시간입니다. |
-| 세션당 소비한 시간 | 주어진 차원 항목에서 세션당 한 사용자가 소비한 평균 시간입니다. |
+| 계획 | 특히 공식적으로 ![확인 표시](/help/assets/icons/Checkmark.svg)를 승인할 지표의 경우 자주 사용할 것으로 예상되는 계산된 지표를 신중하게 계획하고 구성하십시오. |
+| [빌드](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 계산된 지표 작성, 수정 및 저장 |
+| [적용](/help/components/use-components-in-workspace.md) | 계산된 지표를 Workspace 프로젝트 내에서 직접 적용합니다. |
+| [관리](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 계산된 지표를 관리합니다. 하나 이상의 계산된 지표를 [태그](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [승인](/help/components/calc-metrics/cm-workflow/cm-approving.md), [비승인](/help/components/calc-metrics/cm-workflow/cm-approving.md), [필터](/help/components/calc-metrics/cm-workflow/cm-filter.md), [찬성](/help/components/calc-metrics/cm-workflow/cm-favorite.md) 또는 [찬성](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md) 또는 [복사](/help/components/calc-metrics/cm-workflow/cm-copy.md)할 수 있습니다. |
+
+계산된 지표를 만드는 데 사용할 수 있는 다양한 옵션은 [계산된 지표 만들기](/help/components/calc-metrics/cm-workflow/cm-workflow.md)를 참조하십시오. [계산된 지표 빌더](cm-workflow/cm-build-metrics.md)에서 계산된 지표의 정의를 빌드, 수정 및 저장합니다.
+
+Analysis Workspace에서 직접 계산된 지표를 사용합니다. [Analysis Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)을 참조하세요.
+
+[계산된 지표 관리자](cm-workflow/cm-manager.md)에서 계산된 지표를 관리합니다.
+
+## 기본 계산된 지표
+
+Adobe은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)로 식별된 많은 기본 계산된 지표를 제공합니다. 자세한 내용은 [기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 참조하십시오.

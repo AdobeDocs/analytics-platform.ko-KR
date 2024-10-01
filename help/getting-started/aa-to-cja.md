@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
+source-git-commit: e93f4875bbb5940d9182aadcefcc7166644434c4
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
@@ -90,7 +90,7 @@ Adobe Analytics 세그먼트(Customer Journey Analytics에서는 [!UICONTROL 필
 
 * 강력한 Customer Journey Analytics 데이터 보기를 사용하면 Customer Journey Analytics 내에서 지표 및 차원을 훨씬 유연하게 정의할 수 있습니다. 예를 들어 차원 값을 사용하여 지표의 정의가 될 수 있습니다. [자세히 알아보기](/help/use-cases/data-views/data-views-usecases.md)
 
-* Adobe Analytics에서 [사용자 정의 캘린더](/help/components/date-ranges/custom-date-ranges.md)를 정의한 경우 Customer Journey Analytics 내에서 유사한 캘린더 기능을 사용할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
+* Adobe Analytics에서 [사용자 정의 캘린더](/help/components/date-ranges/overview.md)를 정의한 경우 Customer Journey Analytics 내에서 유사한 캘린더 기능을 사용할 수 있습니다. 캘린더가 올바르게 정의되었는지 확인해야 합니다.
 
 * Customer Journey Analytics에서 사용자 정의 방문/세션 시간 초과를 정의하고 새 세션을 시작하는 지표를 정의할 수 있습니다. 다양한 세션 정의를 사용하여 데이터 보기를 만들고 Adobe Analytics에서 가능했던 것 이상의 통찰력을 얻을 수 있습니다. 이 기능은 특히 모바일 데이터 세트에 유용할 수 있습니다.
 

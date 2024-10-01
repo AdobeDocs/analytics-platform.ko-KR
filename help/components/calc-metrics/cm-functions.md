@@ -4,16 +4,17 @@ description: 계산된 지표 빌더를 사용하면 고급 계산된 지표에 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 97%
 
 ---
 
 # 참조 - 기본 함수
 
-계산된 지표 빌더를 사용하면 고급 계산된 지표에 통계 및 수학 함수를 적용할 수 있습니다.
+
+[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다.
 
 다음은 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
@@ -21,9 +22,12 @@ ht-degree: 100%
 >
 >[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
 
+
 ## 테이블 함수 대 행 함수
 
 테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
+
+
 
 ## 절대값(행)
 
@@ -101,9 +105,9 @@ EXP(metric)
 
 거듭제곱 연산자
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*…(y회)
-</pre>
+
+pow(x,y) = x<sup>y</sup> = x *x* x*... (y회)
+
 
 ## 평균(테이블)
 
@@ -313,7 +317,7 @@ VARIANCE(metric)
 
 전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
 
-예를 들어 3개 항목으로 된 열이 있습니다.
+3개 항목 열의 경우:
 
 1
 

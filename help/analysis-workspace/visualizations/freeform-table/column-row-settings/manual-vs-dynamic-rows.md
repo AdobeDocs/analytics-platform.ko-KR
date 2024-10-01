@@ -4,14 +4,14 @@ description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상�
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-# 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
+# 자유 형식 테이블의 동적 및 정적 차원 항목
 
 자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적 (시간에 따라 변경) 또는 정적 (시간에 따라 변경되지 않음)일 수 있습니다.
 

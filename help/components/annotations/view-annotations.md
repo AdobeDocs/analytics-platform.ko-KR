@@ -4,10 +4,10 @@ description: Workspace에서 주석을 보는 방법.
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 21%
 
 ---
 
@@ -17,26 +17,16 @@ ht-degree: 100%
 
 ## 선 차트 또는 표에서 주석 보기
 
-| 날짜 | 모양 |
+| 시각화<br/>유형 | 설명 |
 | --- | --- |
-| **하루** | ![강조 표시된 주석이 있는 선 차트 시각화](assets/single-day.png)<p>각주에 마우스를 가져다 대면 해당 각주의 세부 정보를 확인하거나, 편집하거나(펜 아이콘 선택), 삭제할 수 있습니다.<p> ![주석을 편집하거나 삭제할 수 있는 옵션이 포함된 주석 세부 정보입니다.](assets/hover.png) |
-| **날짜 범위** | 아이콘이 바뀌고 그 위로 마우스를 가져다 대면 날짜 범위가 나타납니다.<p>![날짜 범위 주석 아이콘](assets/multi-day.png)<p>선 차트에서 날짜 범위를 선택하면 각주 메타데이터가 나타나며 이를 편집하거나 삭제할 수 있습니다.![](assets/multi-hover.png)<p>표에서 날짜 범위의 모든 날짜에 아이콘이 나타납니다.<p>![](assets/multi-day-table.png) |
-| **겹치는 주석** | 두 개 이상의 주석이 연결된 날에는 아이콘이 회색으로 표시됩니다.<p>![겹치는 주석에 대한 세부 정보 ](assets/grey.png)<p>회색 아이콘에 마우스를 가져다 대면 모든 겹치는 주석이 나타납니다.<p>![](assets/overlap.png) |
+| **줄&#x200B;**<br/>**하루** | 선 시각화에서 ![주석](/help/assets/icons/Annotate.svg)을 선택하면 주석 세부 정보가 포함된 팝업이 표시됩니다.<br/>![주석 하루](assets/annotation-single-day.png)<br/>[주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요. 주석을 삭제하려면 ![삭제](/help/assets/icons/Delete.svg)를 선택합니다. |
+| **줄&#x200B;**<br/>**날짜 범위** | ![AnnotateRange](/help/assets/icons/AnnotateRange.svg)을(를) 선택하면 날짜 범위를 나타내는 맨 아래에 주석 세부 정보와 줄이 있는 팝업이 표시됩니다.<br/>![주석 범위](assets/annotation-range.png)[주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요. 주석을 삭제하려면 ![삭제](/help/assets/icons/Delete.svg)를 선택합니다. |
+| **자유 형식 테이블** | 자유 형식 테이블에서 시각화의 오른쪽 상단에 있는 주석 버튼의 모든 주석에 액세스할 수 있습니다. ![주석](/help/assets/icons/Annotate.svg)을 선택하여 모든 주석(스크롤 목록)을 확인합니다.<br/>![주석 테이블](assets/annotations-table.png)<br/>각 주석에 대해 ![편집](/help/assets/icons/Edit.svg)을 선택하여 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하고 ![삭제](/help/assets/icons/Delete.svg)를 선택하여 주석을 삭제할 수 있습니다. |
 
 {style="table-layout:auto"}
 
-## .pdf 파일에서 주석 보기
+## PDF에서 주석 보기
 
-.pdf 파일의 아이콘 위에 마우스를 놓을 수 없으므로 이 파일(내보낸 후)은 패널 하단에 설명 참고 사항을 제공합니다. 다음은 한 예입니다.
+프로젝트를 PDF으로 다운로드하거나 프로젝트를 PDF으로 보내면 주석 요약 섹션의 PDF에 주석이 요약됩니다.
 
-![주석에 대한 설명을 보여 주는 .pdf 파일의 강조 표시된 보기입니다.](assets/ann-pdf.png)
-
-## 추세가 없는 데이터가 포함된 주석 보기
-
-추세가 없는 데이터와 함께 특정 차원에 연결된 주석이 표시되는 경우도 있습니다. 이 경우 오른쪽 하단에 있는 요약 주석에만 나타납니다. 다음은 한 예입니다.
-
-![](assets/non-date.png)
-
-요약 차트는 추세가 없는 자유 형식 테이블 및 요약 번호뿐만 아니라 모서리의 모든 시각화 유형에 표시됩니다. [!UICONTROL 도넛], [!UICONTROL 플로우],[!UICONTROL 폴아웃],[!UICONTROL 집단] 등과 같은 시각화에도 표시됩니다.
-
-![시각화의 요약 차트](assets/ann-summary.png)
+![주석에 대한 설명을 보여 주는 .pdf 파일의 강조 표시된 보기입니다.](assets/annotations-pdf.png)

@@ -1,12 +1,12 @@
 ---
-description: 지능형 캡션을 사용하여 시각화 내에서 트렌드를 빠르게 표시하기 위한 자연어 통찰력을 생성합니다.
+description: 지능형 캡션을 사용하여 시각화 내의 트렌드를 표시하는 자연어 인사이트를 생성합니다.
 title: 지능형 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
+source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 5%
 
 ## 지능형 캡션 실행 {#launch}
 
-선 시각화에 대해 자동 생성된 캡션을 시작하려면 시각화의 오른쪽 상단에 있는 **[!UICONTROL 지능형 캡션]** 아이콘을 클릭합니다.
+선 시각화에 대해 자동 생성된 캡션을 시작하려면 시각화의 오른쪽 상단에서 ![AEMcreen](/help/assets/icons/AI.svg) **[!UICONTROL 지능형 캡션]**&#x200B;을 선택합니다.
 
 ![제품 보기에 대한 지능형 캡션 트렌드를 표시하는 분석 시작 창. ](assets/intell-caps-1.png)
 
 이제 자연어 인사이트가 생성됩니다.
 
-주의 사항
+주의 사항:
 
 * 캡션을 성공적으로 생성하려면 최소 3개의 데이터 포인트가 필요합니다. 그렇지 않으면 **[!UICONTROL 분석할 데이터가 충분하지 않음]**&#x200B;과 같은 오류가 발생할 수 있습니다.
 

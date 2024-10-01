@@ -1,110 +1,121 @@
 ---
 description: 경고를 생성, 편집 또는 삭제합니다.
-title: 경고 관리자 (Analysis Workspace)
+title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 # 경고 관리
 
-경고 관리자에서 기존 경고를 관리할 수 있습니다. 태그 지정, 이름 변경, 삭제 등과 같은 경고에 대한 다양한 관리 작업을 수행할 수 있습니다.
+
+중앙 [!UICONTROL 경고] 관리 인터페이스에서 경고를 필터링, 태그 지정, 삭제, 이름 변경, 복사, 활성화, 갱신 비활성화 및 내보낼 수 있습니다. 경고를 관리하려면 다음을 수행하십시오.
+
+* 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 경고]**&#x200B;를 선택하십시오.
 
 경고 관리자는 구조가 [필터 관리자](/help/components/filters/manage-filters.md) 및 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)와 매우 유사합니다.
 
-## 경고 만들기
 
-경고 관리자에서 경고를 생성하려면 다음을 수행합니다.
+## 경고 관리자
 
-1. Customer Journey Analytics의 경고 관리자에 액세스하려면 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;를 선택하십시오.
+경고 관리자에는 다음과 같은 인터페이스 요소가 있습니다.
 
-   ![](assets/alert-manager.png)
+![필터 인터페이스](assets/alerts-manager.png)
 
-1. [!UICONTROL **추가**](또는 기존 경고가 없는 경우 [!UICONTROL **새 경고 만들기**])를 선택합니다.
+### 경고 목록
 
-1. 경고 만들기에 대한 자세한 내용을 보려면 [경고 만들기](/help/components/c-intelligent-alerts/alert-builder.md)를 계속하십시오.
+경고 목록에는 사용자가 소유한 모든 경고➊, 모든 프로젝트에 범위가 지정된 경고, 사용자와 공유된 경고가 표시됩니다. 목록에는 다음 열이 있습니다.
 
-## 기존 경고 관리
+| 열 | 설명 |
+|---|---|
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | ![Star](/help/assets/icons/Star.svg)을(를) 선호하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)을(를) 선호하지 않도록 선택하십시오. |
+| **[!UICONTROL 제목 및 설명]** | 경고를 편집하려면 제목 링크를 선택하여 [경고 빌더](alert-builder.md#alert-builder)를 엽니다. |
+| **[!UICONTROL 유형]** | 경고가 Customer Journey Analytics 데이터 경고인지 서버 호출 사용량 경고인지 여부를 표시합니다. |
+| **[!UICONTROL 활성화됨]** | 경고의 활성화 여부를 나타냅니다. |
+| **[!UICONTROL 데이터 보기]** | 이 경고가 적용되는 데이터 보기입니다. |
+| **[!UICONTROL 소유자]** | 경고 소유자. 관리자가 아닌 경우 사용자가 소유하거나 사용자와 공유된 경고만 표시됩니다. |
+| **[!UICONTROL 태그]** | 이 경고에 대한 태그입니다. |
+| **[!UICONTROL 만료 날짜]** | 경고가 만료되도록 설정된 날짜 및 시간입니다. |
+| **[!UICONTROL 수정한 날짜]** | 경고를 마지막으로 수정한 날짜 및 시간입니다. |
 
-경고 관리자에서 기존 경고를 관리하려면 다음 작업을 수행하십시오.
+<!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
 
-1. Customer Journey Analytics의 경고 관리자에 액세스하려면 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;를 선택하십시오.
+표시할 열을 지정하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용합니다.
 
-   ![](assets/alert-manager.png)
+### 작업 표시줄
 
-1. 관리할 경고를 하나 이상 선택합니다.
+작업 표시줄을 사용하여 경고에 대한 작업을 수행할 수 있습니다➋. 작업 모음 에는 다음 작업이 포함되어 있습니다.
 
-   ![](assets/alert-manager-tasks.png)
+| 액션 | 설명 |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [경고 빌더](alert-builder.md#alert-builder)를 사용하여 다른 경고를 추가하십시오. |
+| ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 경고를 선택하지 않은 경우 이 검색 필드를 사용하여 경고를 검색합니다. |
+| ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 경고에 태그를 지정합니다. **[!UICONTROL 태그 경고]** 대화 상자에서 선택한 경고에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 경고에 대한 태그를 저장합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 경고를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
+| ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 경고의 이름을 변경합니다. 선택하면 경고 이름을 인라인으로 바꿀 수 있습니다. |
+| ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 경고를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 경고를 만듭니다. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 활성화]** 또는 **[!UICONTROL 비활성화]** | 선택한 경고를 활성화하거나 비활성화합니다. |
+| ![새로 고침](/help/assets/icons/Refresh.svg) **[!UICONTROL 갱신]** | 경고 만료일을 갱신합니다. 원래 만료 날짜와 상관없이 이 옵션을 선택한 날부터 1년이 만료됩니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 경고를 `Alerts List.csv` 파일로 내보냅니다. |
 
-1. 작업 표시줄에서 다음 옵션 중 하나를 선택합니다.
 
-   | 액션 | 함수 |
-   |---------|----------|
-   | [!UICONTROL **태그**] | 경고에 태그를 적용합니다. 이렇게 하면 쉽게 사용할 수 있도록 경고를 구성하는 데 도움이 됩니다. |
-   | [!UICONTROL **삭제**] | 경고를 삭제합니다. |
-   | [!UICONTROL **이름 변경**] | 경고 이름을 변경합니다. |
-   | [!UICONTROL **승인**] | 경고를 승인됨으로 표시합니다. |
-   | [!UICONTROL **복사**] | 경고의 사본(복제)을 만듭니다. |
-   | [!UICONTROL **사용 안 함**] | 현재 활성화되어 있는 경고를 비활성화합니다. |
-   | [!UICONTROL **활성화**] | 현재 비활성화된 경고를 활성화합니다. |
-   | [!UICONTROL **갱신**] | 경고 만료일을 갱신합니다. 이렇게 하면 원래 만료 날짜와 상관없이 이 옵션을 선택한 날로부터 1년으로 만료 날짜가 연장됩니다. |
-   | [!UICONTROL **CSV로 내보내기**] | 경고를 .CSV 파일로 내보냅니다. |
+### 활성 필터 막대
+
+필터 모음은 ➌ 필터 패널에서 경고 목록(있는 경우)에 적용된 활성 필터를 표시합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 필터를 두 개 이상 지정한 경우 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
+
+
+### 필터 패널
+
+![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 경고 목록을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 특정 필터를 적용하는 경고 수가 표시됩니다.
+
+{{filterspanel}}
+
+
+#### 태그 필터 섹션
+
+{{tagfiltersection}}
+
+
+#### 데이터 보기 필터 섹션
+
+{{dataviewfiltersection}}
+
+
+#### 소유자 필터 섹션
+
+{{ownerfiltersection}}
+
+
+#### 활성화된 상태 필터 섹션
+
+{{enabledstatusfiltersection}}
+
+
+#### 유형 필터 섹션
+
+{{typefiltersection}}
+
+
+#### 기타 필터 필터 섹션
+
+{{otherfiltersfiltersection}}
+
+
 
 ## 경고 편집
 
-기존 경고를 편집하려면:
+경고를 편집할 수 있습니다
 
-1. Adobe Analytics의 경고 관리자에 액세스하려면 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;를 선택하십시오.
+* [[!UICONTROL 경고] 목록](#alerts-list)에서 경고의 제목을 선택합니다.
 
-   ![](assets/alert-manager.png)
-
-1. [!UICONTROL **제목 및 설명**] 열에서 경고 이름을 선택하십시오.
-
-1. 원하는 대로 경고를 편집합니다.
-
-   다음은 경고를 편집할 때 수행할 수 있는 몇 가지 작업입니다.
-
-   * 다른 보고서 세트에 경고 추가
-   * 소유자 변경
-   * 필터 업데이트
-   * 만료 날짜 업데이트
-
-1. 경고를 편집한 다음 [!UICONTROL **저장**]&#x200B;을 선택합니다.
-
-## 열 구성
-
-표시되는 열을 구성하여 경고 관리자에서 각 경고에 대해 표시되는 정보를 구성할 수 있습니다.
-
-경고 관리자에서 표시되는 열을 구성하려면 다음을 수행합니다.
-
-1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** 탭을 선택한 다음 **[!UICONTROL 경고]**&#x200B;를 선택합니다.
-
-1. 경고 관리자에서 **열 사용자 지정** 아이콘 ![열 사용자 지정](assets/customize-columns-icon.png)을 선택한 다음 경고 관리자에 표시할 열을 선택합니다.
-
-   다음 열을 사용할 수 있습니다.
-
-   | 열 제목 | 설명 |
-   |---|---|
-   | 제목 및 설명 | 이러한 값은 경고 빌더에 제공됩니다. 제목 및 설명을 편집하려면 제목 링크를 선택하여 경고 빌더를 엽니다. |
-   | 즐겨찾기 | 각 경고 옆에 별 아이콘을 표시하여 경고를 즐겨찾기로 표시할 수 있습니다. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | 유형 | 경고가 Analytics 데이터 경고인지 서버 호출 사용량 경고인지 여부를 표시합니다. |
-   | 활성화됨 | 경고가 현재 활성화되었는지 또는 비활성화되었는지 여부를 표시합니다. |
-   | 보고서 세트 | 경고가 마지막으로 저장된 보고서 세트를 나타냅니다. |
-   | 소유자 | 경고를 소유하는 사람을 나타냅니다. 관리자가 아닌 경우 사용자가 소유하거나 사용자와 공유된 경고만 볼 수 있습니다. |
-   | 태그 | 사용자 또는 사용자와 경고를 공유한 사람이 경고에 적용한 태그를 표시합니다. |
-   | 만료 날짜 | 경고가 만료되도록 설정된 날짜와 시간을 표시합니다. |
-   | 수정한 날짜 | 경고가 마지막으로 수정된 날짜를 나타냅니다. |
-
-   {style="table-layout:auto"}
-
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+[경고 빌더](alert-builder.md#alert-builder)를 사용하여 경고를 편집합니다.
 
 ## 경고 문제 해결
 
-경고와 관련된 문제를 해결할 때 Adobe 지원에 JID(작업 인스턴스 ID) 번호를 입력합니다. JID 번호는 받은 경고 이메일 알림 하단에 있습니다.
+경고와 관련된 문제를 해결할 때 Adobe 지원에 JID(작업 인스턴스 ID) 번호를 입력합니다. JID 번호는 수신하는 경고 이메일 알림 하단에 있습니다.
 
 ![경고 전자 메일](assets/alerts-email.PNG)

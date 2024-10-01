@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 8310e67ea42c44e9cc6d9cfcbd27642b068ef1ed
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 99%
+source-wordcount: '1041'
+ht-degree: 91%
 
 ---
 
@@ -47,13 +47,13 @@ ht-degree: 99%
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
-      + [Customer Journey Analytics에서 Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [Customer Journey Analytics 기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
-      + [Analytics 소스 커넥터를 통해 전달되는 Analytics 데이터의 용어 비교](../getting-started/aa-vs-cja/terminology.md)
-      + [Adobe Analytics와 Customer Journey Analytics 간의 데이터 처리를 비교합니다](../getting-started/aa-vs-cja/data-processing-comparisons.md)
-      + [가상 보고 환경 및 샌드박스 환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [처리 규칙, VISTA 및 분류 대 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
+      + [용어 비교](../getting-started/aa-vs-cja/terminology.md)
+      + [데이터 처리 비교](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
+      + [Analytics 처리와 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [Analytics ID](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Adobe Analytics의 발전](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
 
@@ -112,24 +112,23 @@ ht-degree: 99%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
+      + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
-      + [프로젝트 목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + 작업 영역의 폴더 {#workspace-folders}
-         + [작업 영역의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [폴더 삭제](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [프로젝트 추가](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [프로젝트 제거](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [새 프로젝트 저장](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [프로젝트를 폴더로 추가 또는 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
       + [시각화 개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
+      + [지능형 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
       + 자유 형식 테이블 {#freeform-table}
-         + [자유 형식 테이블](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [자유 형식 테이블 개요](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -137,46 +136,44 @@ ht-degree: 99%
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
-         + [집단 분석이란?](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [집단 분석 보고서 구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [집단 테이블 개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [집단 테이블 구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [집단 분석 사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 폴아웃 {#fallout}
          + [폴아웃 개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [폴아웃 시각화 구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [폴아웃 구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 플로우 {#flow}
          + [플로우 개요](../analysis-workspace/visualizations/c-flow/flow.md)
-         + [플로우 시각화 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [플로우 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + 여정 캔버스 {#journey-canvas}
-         + [여정 캔버스 개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + [여정 캔버스 시각화 구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-      + [영역 및 스택 영역](../analysis-workspace/visualizations/area.md)
-      + [막대 및 스택 막대](../analysis-workspace/visualizations/bar.md)
-      + [글머리 기호 그래프](../analysis-workspace/visualizations/bullet-graph.md)
-      + [콤보 차트](../analysis-workspace/visualizations/combo-charts.md)
+      + [영역(스택)](../analysis-workspace/visualizations/area.md)
+      + [막대(스택)](../analysis-workspace/visualizations/bar.md)
+      + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
+      + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [가로 막대 및 스택 가로 막대](../analysis-workspace/visualizations/horizontal-bar.md)
-      + [지능형 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
+      + [가로 막대(스택)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
-      + [산포도](../analysis-workspace/visualizations/scatterplot.md)
-      + [요약 번호 및 요약 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
+      + [분산](../analysis-workspace/visualizations/scatterplot.md)
+      + [요약 번호 및 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
+      + [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md)
       + [텍스트](../analysis-workspace/visualizations/text.md)
       + [트리 맵](../analysis-workspace/visualizations/treemap.md)
       + [벤](../analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [패널 개요](../analysis-workspace/c-panels/panels.md)
-      + [속성 패널](../analysis-workspace/c-panels/attribution.md)
       + [빈 패널](../analysis-workspace/c-panels/blank-panel.md)
-      + [실험 패널](../analysis-workspace/c-panels/experimentation.md)
-      + [자유 형식 패널](../analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 대상자 평균 시간 패널](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [빠른 인사이트 패널](../analysis-workspace/c-panels/quickinsight.md)
-      + [미디어 동시 뷰어 패널](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 소요 시간 패널](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [속성](../analysis-workspace/c-panels/attribution.md)
+      + [실험](../analysis-workspace/c-panels/experimentation.md)
+      + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
+      + [미디어 평균 분당 시청자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 동시 뷰어](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [미디어 재생 소요 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
+      + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
@@ -196,6 +193,7 @@ ht-degree: 99%
       + [예측 개요](../analysis-workspace/c-forecast/forecasting.md)
       + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
       + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
+      + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
@@ -260,28 +258,27 @@ ht-degree: 99%
    + 필터 {#cja-filters}
       + [필터 개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
-      + [순차적 필터 만들기](../components/filters/seg-sequential-build.md)
+      + [필터 빌드](../components/filters/filter-builder.md)
+      + [빠른 필터](../components/filters/quick-filters.md)
+      + [순차적 필터](../components/filters/seg-sequential-build.md)
       + [필터 공유](../components/filters/filters-share.md)
       + [필터 태그 지정](../components/filters/filters-tag.md)
       + [필터 목록 필터링](../components/filters/filters-filter.md)
       + [필터를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
       + [필터 승인](../components/filters/filters-approve.md)
       + [필터 복사](../components/filters/filters-copy.md)
-      + [빠른 필터](../components/filters/quick-filters.md)
-      + [필터 빌더](../components/filters/filter-builder.md)
       + [필터 관리](../components/filters/manage-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)
       + 계산된 지표 워크플로 {#cm-workflow}
-         + [계산된 지표 워크플로](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [계산된 지표 만들기](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [참여도 지표 빌드](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [필터 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
-         + [필터 및 가중치가 적용된 지표](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [계산된 지표 필터링](../components/calc-metrics/cm-workflow/cm-filter.md)
          + [계산된 지표를 즐겨찾기로 표시](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [계산된 지표 복사](../components/calc-metrics/cm-workflow/cm-copy.md)
@@ -289,21 +286,22 @@ ht-degree: 99%
          + [계산된 지표 태그 지정](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [계산된 지표 승인](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [계산된 지표 공유](../components/calc-metrics/cm-workflow/cm-sharing.md)
-         + [계산된 지표 관리자](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [계산된 지표 관리](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [예](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
       + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
-   + 캘린더 및 날짜 범위 {#cja-date-ranges}
-      + [캘린더 및 날짜 범위 개요](../components/date-ranges/calendar.md)
+   + 날짜 범위 {#cja-date-ranges}
+      + [개요](../components/date-ranges/overview.md)
       + [날짜 범위 만들기](../components/date-ranges/create.md)
       + [날짜 범위 관리](../components/date-ranges/manage.md)
-      + [사용자 정의 날짜 범위 만들기](../components/date-ranges/custom-date-ranges.md)
       + [날짜 비교](../components/date-ranges/time-comparison.md)
+      + [예](../components/date-ranges/custom-date-ranges.md)
    + 경고 {#alerts}
       + [개요](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-      + [Customer Journey Analytics의 차이점](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [만들기](/help/components/c-intelligent-alerts/alert-builder.md)
-      + [관리](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [경고 만들기](/help/components/c-intelligent-alerts/alert-builder.md)
+      + [경고 관리](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [기능 비교](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [사용 사례](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 내보내기 {#exports}
       + [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md)

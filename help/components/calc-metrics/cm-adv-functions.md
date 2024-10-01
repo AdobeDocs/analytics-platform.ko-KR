@@ -4,16 +4,16 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '3024'
-ht-degree: 98%
+source-wordcount: '3036'
+ht-degree: 97%
 
 ---
 
 # 참조 - 고급 함수
 
-**[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
+[구성 요소] 패널에서 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 목록 아래의 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오. 아래로 스크롤하여 고급 함수 목록을 확인합니다.
 
 ## 테이블 함수 대 행 함수
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 예를 들어 매출 지표가 있고, 그다음에 페이지 보기 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이 경우 매출 열에 대해 수행하는 MEAN, MIN, QUARTILE 등의 계산에 영향을 주지 않으려면 include-zeros 매개변수를 확인해야 합니다.
 
 반면에 필요한 지표가 2개인 경우, 일부 행이 0이므로 반드시 더 높은 평균이나 최소값이 있다고 볼 수 있는 것은 아니며, 따라서 0을 포함하는 매개변수를 확인하지 않게 됩니다.
+
 
 ## 및
 
@@ -56,7 +57,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *차원* | 근사 고유 항목 개수를 위한 차원입니다. |
 
-## 사용 사례 예제
+### 사용 사례 예제
 
 근사 고유 개수 (고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
@@ -68,7 +69,7 @@ Approximate Count Distinct (dimension)
 
 고유 방문자 수 및 근사 고객을 보여주는 ![자유 형식 테이블 ](assets/approx-customers.png)
 
-## 계수 함수 비교
+### 계수 함수 비교
 
 근사 고유 개수 ()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count () 및 RowCount () 함수보다 향상되었습니다. 예를 들어 모바일 디바이스 유형 보고서에 사용된 고객 ID의 수입니다.
 
@@ -722,7 +723,7 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 ![](assets/z_score.png)
 
-여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
+여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 집단의 평균이고 [!DNL σ]는 집단의 표준 편차입니다.
 
 >[!NOTE]
 >

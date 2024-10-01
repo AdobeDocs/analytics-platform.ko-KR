@@ -5,7 +5,7 @@ title: 폴더에 프로젝트 저장
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
@@ -13,6 +13,9 @@ ht-degree: 100%
 ---
 
 # 폴더에 새 프로젝트 저장
+
+<!-- Is this article still needed -->
+
 
 새 프로젝트를 특정 폴더에 저장하려면 프로젝트 저장 대화 상자에서 폴더 이름을 선택합니다.
 

@@ -4,10 +4,10 @@ description: 데이터 준비를 사용하여 보고서 세트를 다른 스키�
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 57%
+source-wordcount: '1321'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 고객은 [연결](https://experienceleague.adobe.com
 | eVar1 = 검색어 | eVar1 = 비즈니스 단위 |
 | eVar2 = 고객 범주 | eVar2 = 검색어 |
 
-단순성을 위해 두 보고서 세트에 대해 정의된 eVar는 이것이 유일하다고 가정합시다.
+단순성을 위해 두 보고서 세트에 대해 정의된 eVar는 이것이 유일하다고 가정하십시오.
 
 또한 다음 작업을 수행한다고 가정합니다.
 

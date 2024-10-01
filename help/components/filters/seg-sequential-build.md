@@ -1,433 +1,313 @@
 ---
-description: 순차적 필터는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 한 필터 기준이 발생하고 그 뒤에 다른 필터 기준이 있음을 의미합니다. 기본적으로 순차적 필터는 일치하는 모든 데이터를 식별하고 "모든 사용자 포함" 필터를 표시합니다. 순차적 필터는 "시퀀스 이전에만" 및 "시퀀스 이후에만" 옵션을 사용하여 일치하는 히트의 하위 집합으로 추가로 필터링할 수 있습니다.
-title: 순차적 필터 작성
+description: 순차적 필터는 THEN 연산자를 사용하여 필터 조건 시퀀스를 정의하는 필터입니다.
+title: 순차적 필터
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 85abe07d29ad74578aa5bf6a23ae4016b0e9d82f
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 65%
+source-wordcount: '2491'
+ht-degree: 2%
 
 ---
 
-# 순차적 필터 작성
+# 순차적 필터
 
-순차적 필터는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 한 필터 기준이 발생하고 그 뒤에 다른 필터 기준이 있음을 의미합니다. 기본적으로 순차적 필터는 일치하는 모든 데이터를 식별하고 &quot;모든 사용자 포함&quot; 필터를 표시합니다. 순차적 필터는 &quot;시퀀스 이전에만&quot; 및 &quot;시퀀스 이후에만&quot; 옵션을 사용하여 일치하는 히트의 하위 집합으로 추가로 필터링할 수 있습니다.
+구성 요소, 컨테이너 및 구성 요소 또는 컨테이너 간에 And 또는 Or 논리 연산자 대신 Then 논리 연산자를 사용하여 순차적 필터를 만듭니다. Then 논리 연산자는 한 필터 조건 뒤에 다른 필터 조건이 발생함을 의미합니다.
 
-![](assets/before-after-sequence.png)
-
-다음은 순차적 세그먼테이션에 대한 비디오입니다.
++++ 다음은 순차적 세그먼테이션을 보여 주는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
-## 모든 사용자 포함 {#include_everyone}
+{{videoaa}}
 
-&quot;모든 사용자 포함&quot;이 설정된 필터를 만들 때 필터는 전체적으로 주어진 패턴과 일치하는 경로를 식별합니다. 이것은 동일한 방문자가 방문하면 다른 히트(페이지 B)가 뒤따르는 하나의 히트(페이지 A)를 찾는 기본 시퀀스 필터의 예입니다. 필터가 모든 사용자 포함으로 설정되어 있습니다.
++++
 
-![](assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
-| 결과... | 시퀀스 |
-|--- | --- |
-| 일치 | A 다음 B<br>A 다음 (다른 방문에서) BA 다음 D 다음 B |
-| 일치하지 않음 | B 다음에 A |
+순차적 필터에는 다음과 같은 몇 가지 [기본 기능](#basics)과 순차적 필터에 더 복잡성을 추가하도록 구성할 수 있는 추가 옵션이 있습니다.
 
-## 시퀀스 이전에만 및 시퀀스 이후에만 {#only_before_after}
+![순차적 필터](assets/sequential-filter.gif)
 
-**[!UICONTROL 시퀀스 이전에만]** 및 **[!UICONTROL 시퀀스 이후에만]** 옵션은 지정된 시퀀스의 전 또는 후에 필터를 데이터 하위 집합으로 필터링합니다.
+* 시퀀스 필터 정의에서 Then 논리에 대한 [After 및 within](#after-and-within) 제약 조건:
 
-* **시퀀스 이전에만**: 시퀀스 전의 모든 히트 수 + 시퀀스 자체의 첫 번째 히트를 포함합니다 (예 1, 3 참조). 시퀀스가 경로에 여러 번 나타나면 &quot;시퀀스 이전에만&quot;은 시퀀스가 마지막으로 발생했을 때의 첫 번째 히트와 그 전에 오는 모든 히트를 포함합니다 (예 2 참조).
-* **시퀀스 이후에만**: 시퀀스 후의 모든 히트 수 + 시퀀스 자체의 마지막 히트를 포함합니다 (예 1, 3 참조). 시퀀스가 경로에 여러 번 나타나면 &quot;시퀀스 이후에만&quot;은 시퀀스가 처음 발생했을 때의 마지막 히트와 그 다음에 오는 모든 히트를 포함합니다 (예 2 참조).
+* 필터 정의에 대한 전체 시퀀스의 일부로 [include](#include)할 데이터입니다. 또는 컨테이너의 일부로 정의된 시퀀스의 경우. 기본적으로 일치하는 모든 데이터는 고려되며, ![사용자 그룹](/help/assets/icons/UserGroup.svg) [!UICONTROL 모든 사용자 포함]에 의해 식별됩니다.
 
-예를 들어 B -> D의 시퀀스를 생각해 보십시오. 세 개의 필터는 다음과 같이 히트를 식별합니다.
+   * ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**&#x200B;를 선택하여 시퀀스 전의 데이터만 고려합니다.
+   * ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**&#x200B;를 선택하여 시퀀스 이후의 데이터만 고려합니다.
 
-**예 1: B -> D가 한 번 나타남**
+* 순차적 필터 정의의 일부로 [exclude](#exclude)할 데이터입니다.
 
-| 예 | A | B | C | D | E | F |
-|---|---|---|---|---|---|---|
-| 모든 사용자 포함 | A | B | C | D | E | F |
-| 시퀀스 이전에만 | A | B |  |  |  |  |
-| 시퀀스 이후에만 |  |  |  | D | E | F |
+* 순차적 필터 정의에서 [논리적으로 그룹](#logic-group) 조건을 만드는 방법입니다.
 
-**예 2: B -> D가 여러 번 나타남**
+## 기본 사항
 
-| 예 | A | B | C | D | B | C | D | E |
-|---|---|---|---|---|---|---|---|---|
-| 모든 사용자 포함 | A | B | C | D | B | C | D | E |
-| 시퀀스 이전에만 | A | B | C | D | B |  |  |  |
-| 시퀀스 이후에만 |  |  |  | D | B | C | D | E |
 
-또한 이 개념을 히트 깊이 차원으로 표현해 보겠습니다.
 
-**예제 3: 히트 깊이 3 -> 5**
+순차적 필터를 만드는 기본 사항은 [필터 빌더](filter-builder.md)를 사용하여 일반 필터를 만드는 것과 다를 바 없습니다. [정의 빌더](filter-builder.md#definition-builder)를 사용하여 필터 정의를 구성합니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 [정의 빌더](filter-builder.md#definition-builder)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하면 일반 필터가 자동으로 순차적 필터가 됩니다.
 
-![](assets/hit-depth.png)
+### 예
 
-## 차원 제한 {#constraints}
+아래 예는 다양한 사용 사례에서 순차적 필터를 사용하는 방법을 보여줍니다.
 
-&quot;within&quot; 절, THEN 문 사이에 &quot;1개 이내의 검색 키워드 인스턴스&quot;, &quot;1개 이내의 eVar 47 인스턴스&quot; 등을 추가할 수 있습니다. 이렇게 하면 필터가 차원의 한 인스턴스 이내로 제한됩니다.
+#### 단순 시퀀스
 
-규칙 간 &#39;Dimension 내&#39; 절을 설정하면 필터에서 데이터를 해당 절을 충족하는 시퀀스로 제한할 수 있습니다. 제한이 &quot;1페이지 내&quot;로 설정되어 있을 경우 아래 예를 참조하십시오.
+페이지를 본 다음 다른 페이지를 본 사람을 식별합니다. 이벤트 수준 데이터는 이 시퀀스를 이전, 과거 또는 중간 개인 세션이나 세션 간에 발생하는 페이지 보기 시간 또는 수에 관계없이 필터링합니다.
 
-![](assets/sequence-filter4.png)
+![순차적 필터에 모든 사용자 포함](assets/sequence-include-everyone.png)
 
-| 결과... | 시퀀스 |
-|--- |--- |
-| 일치 | A 다음에 B |
-| 일치하지 않음 | A 다음 C 다음 B (B는 A의 1페이지 내에 없었으므로)<br>**참고:** 차원 제한을 제거하는 경우, &quot;A 다음 B&quot;와 &quot;A 다음 C 다음 B&quot;가 모두 일치합니다. |
+#### 세션 간 시퀀스
 
-## 단순 페이지 보기 시퀀스 {#simple_sequence}
+한 세션에서 페이지를 본 다음 다른 세션에서 다른 페이지를 본 사람을 식별합니다. 세션을 구분하려면 컨테이너를 사용하여 시퀀스를 만들고 각 컨테이너에 대해 ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]** 수준을 정의하십시오.
 
-하나의 페이지를 본 다음 다른 페이지를 본 방문자를 식별합니다. 히트 수준 데이터는 이 시퀀스를 이전, 과거 또는 중간 방문 세션이나 시간 또는 그 사이에 일어나는 페이지 보기 수에 관계없이 필터링합니다.
+![세션 간 시퀀스 필터](assets/sequence-filter-session.png)
 
-**예**: 방문자는 페이지 A를 열람한 다음 동일하거나 다른 방문에서 페이지 B를 열람했습니다.
+#### 혼합 수준 시퀀스
 
-**사용 사례**
+확인되지 않은 세션 수에 걸쳐 두 페이지를 본 다음 별도의 세션에서 세 번째 페이지를 본 사람을 식별합니다. 다시 컨테이너를 사용하여 시퀀스를 빌드하고 별도의 세션을 정의하는 컨테이너에 ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]** 수준을 정의합니다.
 
-다음은 필터를 사용하는 방법의 예입니다.
+![별도의 최종 세션을 사용하는 시퀀스 필터](assets/sequence-filter-final-session.png)
 
-1. 스포츠 사이트 방문자는 같은 방문일 필요는 없지만 축구 랜딩 페이지를 열람한 다음 농구 랜딩 페이지를 순차적으로 열람합니다. 이러한 사실 때문에 축구 세션 중에 농구 콘텐츠를 축구 시청자로 푸시하는 캠페인이 촉진됩니다.
-1. 자동차 판매업체는 고객 충성도 페이지를 방문했다가 해당 방문이나 다른 방문 중에 비디오 페이지로 이동한 방문자 간 관계를 파악합니다.
+#### 집계 시퀀스
 
-**이 필터 만들기**
+첫 번째 세션에서 특정 페이지를 방문한 다음 나중에 다른 페이지를 방문한 사람을 식별합니다. 이벤트의 시퀀스를 구분하려면 컨테이너를 사용하여 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Session]** 컨테이너 수준에서 논리를 구분하십시오.
 
-최상위 [!UICONTROL 방문자] 컨테이너 내에 2개의 페이지 규칙을 중첩하고 [!UICONTROL THEN] 연산자를 사용하여 페이지 히트의 순서를 지정합니다.
+![세션 집계 컨테이너](assets/session-aggregate-containers.png)
 
-![](assets/segment_sequential_1.png)
 
-## 방문 간 방문자 시퀀스 {#sequence_across}
+#### 시퀀스 중첩
 
-캠페인에서 벗어났으나 다른 세션에서 페이지 보기 시퀀스로 복귀한 방문자를 식별합니다.
+한 사용자가 다른 페이지보다 먼저 한 페이지를 방문한 다음 두 개의 다른 페이지를 포함하는 후속 세션을 갖는 모든 세션을 식별합니다. 예를 들어, 사용자가 홈 페이지를 처음 방문한 다음 범주 1 페이지를 방문한 다음 각 세션에서 범주 2 및 범주 3 페이지를 방문한 다른 세션을 갖는 모든 세션을 식별합니다.
 
-**예**: 방문자는 한 번의 방문으로 페이지 A를 보고 다음 방문 시 페이지 B를 보았습니다.
+![중첩된 시퀀스](assets/sequence-nested.png)
 
-**사용 사례**
+## 다음 이후 및 다음 범위 내
 
-다음은 이러한 유형의 필터를 사용하는 방법의 예입니다.
+**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 이벤트, 세션 또는 Dimension에 대한 [시간 제약 조건](#time-constraints) 또는 [제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
 
-* 방문자가 뉴스 사이트의 스포츠 페이지를 방문한 다음 다른 세션에서 스포츠 페이지를 재방문했습니다.
-* 의류 판매업체는 한 세션에서 랜딩 페이지를 방문한 다음 다른 세션에서 체크아웃 페이지로 직접 이동하는 방문자 간 관계를 확인합니다.
+### 시간 제한
 
-**이 필터 만들기**
+**[!UICONTROL Then]** 연산자에 시간 제약 조건을 적용하려면 다음을 수행합니다.
 
-이 예제에서는 2개의 **[!UICONTROL Visit]** 컨테이너를 최상위 **[!UICONTROL Visitor]** 컨테이너에 중첩한 다음 [!UICONTROL THEN] 연산자를 사용하여 필터 시퀀스를 지정합니다.
+1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
+1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
+1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**을(를) 선택하십시오.
 
-![](assets/visitor_seq_across_visits.png)
+시간 제한을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
-## 혼합 수준 시퀀스 {#mixed_level}
-
-확인되지 않은 방문 횟수에서 2개의 페이지를 열람했으나 별도의 방문에서 또 다른 페이지를 열람한 방문자를 식별합니다.
-
-**예**: 방문자는 하나 이상의 방문에서 페이지 A를 방문한 다음 페이지를 B를 방문하고 별도의 방문에서 페이지 C를 방문했습니다.
-
-**사용 사례**
-
-다음은 이러한 유형의 필터를 사용하는 방법의 예입니다.
-
-* 방문자는 처음에 새 사이트를 방문한 다음 같은 방문에서 스포츠 페이지를 열람합니다. 또 다른 방문에서 방문자는 날씨 페이지를 방문합니다.
-* 판매업체는 메인 페이지로 간 다음 내 계정 페이지로 이동하는 방문자를 정의합니다. 또 다른 방문에서 이러한 방문자는 장바구니 보기 페이지를 방문합니다.
-
-**이 필터 만들기**
-
-1. 왼쪽 창에서 2개의 페이지 차원을 최상위 [!UICONTROL 방문자] 컨테이너 내에 놓습니다.
-1. 사이에 THEN 연산자를 추가합니다.
-1. **[!UICONTROL 옵션]** > **[!UICONTROL 컨테이너 추가]**&#x200B;를 클릭하고 [!UICONTROL 방문] 컨테이너를 [!UICONTROL 방문자] 수준 아래에 추가한 다음 [!UICONTROL THEN] 연산자를 사용하여 시퀀스를 적용합니다.
-
-![](assets/mixed_level_checkpoints.png)
-
-## 컨테이너 합계 {#aggregate_containers}
-
-[!UICONTROL 방문자] 컨테이너 내에 여러 개의 [!UICONTROL 히트] 컨테이너를 추가하면 같은 유형의 컨테이너 사이에 적절한 연산자를 적용하고, 페이지 및 방문 횟수와 같은 규칙과 차원을 이용하여 페이지 보기를 정의하며, [!UICONTROL 히트] 컨테이너 내에 시퀀스 차원을 제공할 수 있습니다. 히트 수준에서 논리를 적용하면 [!UICONTROL 방문자] 컨테이너 내에 있는 동일 수준의 히트에서 일치 항목을 조합하여 다양한 필터 유형을 만들 수 있습니다.
-
-**예**: 방문자는 페이지 보기 시퀀스 (예제의 페이지 D)에서 첫 번째 히트 후에 페이지 A를 방문한 다음, 방문 수에 관계없이 페이지 B나 페이지 C를 방문했습니다.
-
-**사용 사례**
-
-다음은 이러한 유형의 필터를 사용하는 방법의 예입니다.
-
-* 한 방문에서 기본 랜딩 페이지로 이동한 다음 다른 방문에서 남성복 페이지를 열람하고, 다른 방문에서 여성 또는 아동 랜딩 페이지를 열람하는 방문자를 식별합니다.
-* 한 인터넷 잡지는 한 방문에서 홈 페이지로 이동하고, 다른 방문에서 스포츠 페이지로 이동하고, 또 다른 방문에서 의견 페이지로 이동하는 방문자를 캡처합니다.
-
-**이 필터 만들기**
-
-1. 최상위 컨테이너로 [!UICONTROL 방문자] 컨테이너를 선택합니다.
-1. 다음 2개의 [!UICONTROL 히트] 수준 컨테이너(같은 [!UICONTROL 히트] 수준에서 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자로 적절한 수치 차원과 연결된 차원)를 추가합니다.
-1. [!UICONTROL 방문] 컨테이너 내에 다른 [!UICONTROL 히트] 컨테이너를 추가하고 [!UICONTROL OR] 또는 [!UICONTROL AND] 연산자로 연결된 2개의 추가 [!UICONTROL 히트] 컨테이너를 중첩합니다.
-
-   [!UICONTROL THEN] 연산자로 이러한 중첩 [!UICONTROL 히트] 컨테이너의 시퀀스를 지정합니다.
-
-![](assets/aggregate_checkpoints2.png)
-
-## 순차적 필터의 &quot;중첩&quot; {#nesting}
-
-[!UICONTROL 방문]과(와) [!UICONTROL 히트] 수준 모두에 체크포인트를 배치함으로써 필터가 특정 방문 및 특정 히트 내에 요구 사항을 충족하도록 제한할 수 있습니다.
-
-**예**: 방문자는 같은 방문에서 페이지 A를 방문하고 페이지 B를 방문했습니다. 새로운 방문에서는 방문자가 페이지 C로 이동했습니다.
-
-**이 필터 만들기**
-
-1. 최상위 [!UICONTROL 방문] 컨테이너 아래로 2개의 페이지 차원을 드래그합니다.
-1. 두 규칙을 한꺼번에 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭한 다음 [!UICONTROL 방문] 컨테이너로 변경합니다.
-1. [!UICONTROL THEN] 연산자로 두 차원을 연결합니다.
-1. [!UICONTROL 방문] 컨테이너의 피어로 히트 컨테이너를 만들고 페이지 차원으로 드래그합니다.
-1. 또 하나의 [!UICONTROL THEN] 연산자를 사용하여 [!UICONTROL 방문] 컨테이너의 중첩된 시퀀스를 [!UICONTROL 히트] 컨테이너와 연결합니다.
-
-![](assets/nesting_sequential_seg.png)
-
-## 히트 제외 {#exclude}
-
-[!UICONTROL Exclude] 규칙을 사용하여 [!UICONTROL 방문자], [!UICONTROL 방문] 또는 [!UICONTROL 히트] 데이터를 구체적으로 제외하지 않는 한 세그먼트 규칙은 모든 데이터를 포함합니다. 이를 통해 일반 데이터를 무시하고 더욱 집중적인 필터를 만들 수 있습니다. 또는 검색된 그룹을 제외하는 필터를 생성하여 나머지 데이터 세트를 식별할 수 있습니다(예: 주문을 한 성공적인 방문자를 포함하는 규칙을 생성한 다음 제외하여 &quot;비구매자&quot;를 식별할 수 있는 항목). 하지만 대부분의 경우 Exclude 규칙을 사용해서 특정한 포함 값을 목표로 하는 것보다 광범위한 값을 [!UICONTROL 제외]시키는 규칙을 만드는 것이 더 좋습니다.
-
-예:
-
-* **페이지 제외**. 필터 규칙을 사용하여 보고서에서 특정 페이지(예: *`Home Page`*)를 제거하고, 페이지가 &quot;홈 페이지&quot;와 같은 히트 규칙을 만든 다음 제외하십시오. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
-* **참조 도메인 제외**. Google.com의 참조 도메인만 포함하고 나머지는 모두 제외하는 규칙을 사용합니다.
-* **비구매자 파악**. 주문이 0보다 큰 경우를 파악하고 해당 [!UICONTROL 방문자]를 제외합니다.
-
-[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 체크포인트 제외]도 논리 그룹에 포함될 수 있습니다(아래 참조).
-
-### 체크포인트 간 제외 {#exclude_between}
-
-체크포인트가 다른 두 체크포인트 간에 명시적으로 발생하지 않은 방문자를 필터링하는 논리를 적용합니다.
-
-**예**: 페이지 A를 방문한 다음 페이지 B는 방문하지 않고 페이지 C를 방문한 방문자.
-
-**사용 사례**
-
-다음은 이러한 유형의 필터를 사용하는 방법의 예입니다.
-
-* 라이프스타일 페이지를 방문한 다음 아트 페이지로 가지 않고 극장 섹션으로 이동한 방문자
-* 자동차 판매업체는 기본 랜딩 페이지를 방문한 다음 차량 페이지로 가지 않고 무이익No Interest 캠페인으로 직접 이동하는 방문자 간 관계를 확인합니다.
-
-**이 필터 만들기**
-
-단순, 혼합 수준 또는 중첩된 순차적 필터에 대해 만드는 것처럼 필터를 만든 다음 컨테이너 요소에 대해 [!UICONTROL EXCLUDE] 연산자를 설정하십시오. 아래 예는 집계 필터입니다. 여기에서는 3개의 [!UICONTROL Hit] 컨테이너를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 지정하여 컨테이너 논리를 연결한 다음 중간 페이지 보기 컨테이너를 제외하여 시퀀스에서 페이지 A에서 페이지 C로 이동한 방문자만 포함합니다.
-
-![](assets/exclude_between_checkpoints.png)
-
-### 시퀀스를 시작할 때 제외 {#exclude_beginning}
-
-제외 체크포인트가 순차적 필터의 시작 부분에 있는 경우, 제외된 페이지 보기가 제외되지 않은 첫 번째 히트보다 먼저 발생하지 않았음을 알 수 있습니다.
-
-예를 들어 한 식당에서 기본 랜딩 페이지를 피하고 주문 페이지로 직접 이동하는 사용자를 확인하려고 합니다. 랜딩 페이지에 대한 히트를 제외하고 순차적 필터에 주문 페이지에 대한 히트를 포함하여 이 데이터를 볼 수 있습니다.
-
-**이 필터 만들기**
-
-최상위 방문자 컨테이너 내에 별도의 히트 컨테이너를 2개 만듭니다. 그런 다음 첫 번째 컨테이너에 대해 [!UICONTROL EXCLUDE] 연산자를 설정합니다.
-
-![](assets/exclude_beginning_sequence.png)
-
-### 시퀀스를 종료할 때 제외 {#exclude_end}
-
-제외 체크포인트가 시퀀스 끝에 있으면 체크포인트가, 제외되지 않은 마지막 체크포인트와 방문자 시퀀스의 끝 사이에서 발생하지 않았음을 알 수 있습니다.
-
-예를 들어 한 의류 스토어에서 제품 페이지를 보았지만 이후에 장바구니를 방문하지 않은 모든 방문자를 확인하려고 합니다. 이 예는 방문자가 현재 또는 후속 방문에서 페이지 A로 이동한 다음 페이지 B로 이동하지 않도록 단순화할 수 있습니다.
-
-**이 필터 만들기**
-
-[!UICONTROL Hit] 컨테이너 두 개를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 사용하여 연결하여 간단한 시퀀스 필터를 만듭니다. 그런 다음 [!UICONTROL EXCLUDE] 연산자를 시퀀스의 두 번째 [!UICONTROL 히트] 컨테이너에 할당합니다.
-
-![](assets/exclude_end_sequence.png)
-
-## 논리 그룹 컨테이너 {#logic_group}
-
-논리 그룹 컨테이너는 조건을 하나의 순차적 필터 체크포인트로 그룹화하는 데 필요합니다. 이 특별한 논리 그룹 컨테이너는 이전의 순차적 체크포인트 후와 다음에 오는 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서로 충족될 수 있습니다. 그와 대조적으로, 비순차적 컨테이너 (히트, 방문, 방문자)는 전체 시퀀스 내에서 조건을 충족할 필요가 없으므로 THEN 연산자와 함께 사용할 경우 직관적이지 않은 결과가 나옵니다.
-[!UICONTROL 논리 그룹] 컨테이너는 그룹화된 체크포인트 간에 *순서 없이* *몇 개의 체크포인트를 그룹으로* 처리하도록 디자인되었습니다. 다시 말해, 해당 그룹 내의 체크포인트 순서에 대해서는 신경 쓸 필요가 없습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. 대신 [!UICONTROL 논리 그룹] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 특정 [!UICONTROL 방문] 수준 및 [!UICONTROL 히트] 수준 체크포인트와 함께 중첩할 수 있습니다.
-
->[!NOTE]
->
->[!UICONTROL 논리 그룹]은(는) 순차적 필터에서만 정의할 수 있습니다. 즉, [!UICONTROL THEN] 연산자가 식에서 사용됩니다.
-
-| 컨테이너 계층 | 그림 | 정의 |
-|---|---|---|
-| 표준 컨테이너 계층 | ![](assets/nesting_container.png) | [!UICONTROL 방문자] 컨테이너 내에서 [!UICONTROL 방문] 및 [!UICONTROL 히트] 컨테이너는 히트, 방문 횟수 및 방문자를 기준으로 필터를 추출하도록 시퀀스에 중첩됩니다. |
-| 논리 컨테이너 계층 | ![](assets/logic_group_hierarchy.png) | [!UICONTROL 논리 그룹] 컨테이너 외부에서 표준 컨테이너 계층도 필요합니다. 하지만 [!UICONTROL 논리 그룹] 컨테이너 안에서는 체크포인트에 순서 또는 계층 설정이 필요 없습니다. 이러한 체크포인트는 방문자가 순서에 관계없이 충족하면 됩니다. |
-
-논리 그룹은 어렵게 보일 수 있습니다. 다음은 이러한 그룹을 사용하는 방법에 대한 좋은 예입니다.
-
-**논리 그룹 또는 히트/방문 컨테이너?**
-순차적 체크포인트를 그룹화하려 한다면 &quot;컨테이너&quot;는 논리 그룹입니다. 그러나 이러한 순차적 체크포인트가 단일 히트 또는 방문 범위 내에서 발생해야 한다면 &#39;히트&#39; 또는 &#39;방문&#39; 컨테이너가 필요합니다. 물론, 하나의 히트가 둘 이상의 체크포인트를 크레딧할 수 있으면 순차적 체크포인트 그룹에 대해 &#39;히트&#39;는 적절하지 않습니다.
-
-**논리 그룹이 순차적 필터 작성을 단순화합니까?**
-예, 가능합니다. 이 방문자 필터를 식별하려고 한다고 가정해 보겠습니다. **페이지 A를 본 다음 B, C, D를 각각 본 방문자**
-
-이 필터는 논리 그룹 컨테이너 없이 만들 수 있지만 그렇게 하는 것은 복잡하고 힘든 일입니다. 방문자가 볼 수 있는 모든 페이지 시퀀스를 지정해야 합니다.
-* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
-* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
-* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
-* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
-* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
-* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
-
-논리 그룹 컨테이너는 다음과 같이 이 필터를 빌드하는 것을 크게 간소화합니다.
-
-![](assets/logic-grp-example.png)
-
-
-### 논리 그룹 필터 작성 {#logic_group_filter}
-
-다른 컨테이너와 마찬가지로 [!UICONTROL 논리 그룹] 컨테이너도 [!UICONTROL 세그먼트 빌더] 내에서 여러 방법으로 작성할 수 있습니다. 다음은 [!UICONTROL 논리 그룹] 컨테이너 중첩에 선호되는 방법입니다.
-
-1. 왼쪽 창에서 차원, 이벤트 또는 필터를 드래그합니다.
-1. 상단 컨테이너를 [!UICONTROL 방문자] 컨테이너로 변경합니다.
-1. 기본으로 삽입된 [!UICONTROL AND] 또는 [!UICONTROL OR] 연산자를 THEN 연산자로 바꿉니다.
-1. [!UICONTROL 히트] 컨테이너(차원, 이벤트 또는 항목)를 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭합니다.
-1. 컨테이너 아이콘을 클릭하고 **[!UICONTROL 논리 그룹을 선택합니다]**.  ![](assets/logic_group_checkpoints.png)
-1. 이제 [!UICONTROL 계층]에 상관 없이 [!UICONTROL 히트]를 논리 그룹 컨테이너 내에 설정할 수 있습니다.
-
-### 모든 순서의 논리 그룹 체크포인트 {#any_order}
-
-[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. 이를 통해 [!UICONTROL 방문] 또는 [!UICONTROL 히트] 컨테이너가 일반적인 계층에 관계없이 발생하는 필터를 빌드할 수 있습니다.
-
-**예**: 방문자는 페이지 A를 방문한 다음 순서에 관계없이 페이지 B와 페이지 C를 방문했습니다.
-
-**이 필터 만들기**
-
-페이지 B와 C는 바깥쪽 [!UICONTROL 방문자] 컨테이너 내의 [!UICONTROL 논리 그룹] 컨테이너에 중첩되어 있습니다. 그런 다음 A에 대한 [!UICONTROL 히트] 컨테이너 뒤에 [!UICONTROL AND] 연산자로 식별된 B와 C를 포함한 [!UICONTROL 논리 그룹] 컨테이너가 옵니다. [!UICONTROL 논리 그룹] 내에 있기 때문에 시퀀스가 정의되지 않고 페이지 B와 C를 임의 순서로 모두 히트하면 인수가 참이 됩니다.
-
-![](assets/logic_group_any_order2.png)
-
-**다른 예**: 페이지 B 또는 페이지 C를 방문한 다음 페이지 A를 방문한 방문자:
-
-![](assets/logic_group_any_order3.png)
-
-필터는 논리 그룹의 체크포인트 (B 또는 C) 중 적어도 하나와 일치해야 합니다. 또한 논리 그룹 조건은 동일한 히트에서 또는 여러 히트에서 충족될 수 있습니다.&#x200B;
-
-### 논리 그룹 최초 일치 {#first_match}
-
-[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. 이처럼 순서가 없는 최초 일치 필터에서는 [!UICONTROL 논리 그룹] 규칙이 먼저 페이지 B 또는 페이지 C의 페이지 보기가 된 다음 필요한 페이지 A 보기가 되도록 식별됩니다.
-
-**예**: 방문자는 페이지 B 또는 페이지 C를 방문한 다음 페이지 A를 방문했습니다.
-
-**이 필터 만들기**
-
-페이지 B와 페이지 C 차원은 [!UICONTROL 논리 그룹] 컨테이너 내에 [!UICONTROL OR] 연산자가 선택된 상태로 그룹화된 다음, 페이지 A의 페이지 보기를 값으로 식별하는 [!UICONTROL 히트] 컨테이너에 그룹화됩니다.
-
-![](assets/logic_group_1st_match.png)
-
-### 논리 그룹 제외 AND {#lg_exclude_and}
-
-여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 필터를 빌드합니다. ****
-
-**예**: 문자는 페이지 A를 방문한 후 페이지 B와 페이지 C를 확실히 방문하지 않았으나 페이지 D를 히트했습니다.
-
-**이 필터 만들기**
-
-왼쪽 창에서 Dimension, 이벤트 및 사전 빌드된 필터를 드래그하여 이 필터를 빌드합니다. 논리 그룹 필터 빌드에 대한 섹션을 참조하십시오.
-
-[!UICONTROL 논리 그룹] 내에 값을 중첩한 다음 **[!UICONTROL 논리 그룹]** 컨테이너에 있는 [!UICONTROL 제외] 버튼을 클릭합니다.
-
-![](assets/logic_exclude_and.png)
-
-### 논리 그룹 제외 OR {#lg_exclude_or}
-
-여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 필터를 빌드합니다.
-
-**예**: 방문자는 페이지 A를 방문했지만 그에 앞서 페이지 B나 페이지 C를 방문하지 않았습니다.
-
-**이 필터 만들기**
-
-처음의 B와 C 페이지가 제외되는 [!UICONTROL 논리 그룹] 컨테이너에서 식별된 후 방문자에 의한 페이지 A 히트가 이어집니다.
-
-왼쪽 창에서 Dimension, 이벤트 및 사전 작성된 세그먼트를 드래그하여 이 필터를 빌드합니다.
-
-[!UICONTROL 논리 그룹] 내에 값을 중첩한 다음 **[!UICONTROL 논리 그룹]** 컨테이너에 있는 [!UICONTROL 제외] 버튼을 클릭합니다.
-
-![](assets/logic_exclude_or.png)
-
-## 다음 시간 이내 및 이후 시간 필터 구축 {#time_within_after}
-
-각 컨테이너의 헤더에 포함된 [!UICONTROL Within] 및 [!UICONTROL After] 연산자를 사용하여 시간, 이벤트 및 카운트를 정의합니다.
-
-![](assets/then_within_operators.png)
-
-[!UICONTROL Within] 및 [!UICONTROL After] 컨테이너를 사용하고 세부기간 및 카운트를 지정함으로써 지정된 길이의 시간으로 일치를 제한할 수 있습니다. [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. [!UICONTROL After] 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다.
-
->[!NOTE]
->
->**일** 또는 **일**&#x200B;과 같이 이름이 비슷한 요소 간에 평가 차이가 있습니다. Within 및 After에 대한 시간 기반 정의의 경우 팝업 창에서 먼저 나열된 옵션을 사용합니다.
->
->![이미지](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
->
->Within 및 After에 대한 차원 기반 정의의 경우 하위 메뉴 *기타 Dimension* 아래의 옵션을 사용합니다.
->
->![이미지](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
-
-### After 및 Within 연산자 {#after_within}
-
-세부기간을 나타내는 하나의 대문자와 세부기간의 반복 횟수를 나타내는 숫자를 차례로 지정하여 기간을 지정합니다.
-
-**[!UICONTROL Within]**&#x200B;에는 종점이 포함됩니다 (같거나 작음).
-
-**[!UICONTROL After]**&#x200B;에는 종점이 포함되지 않습니다 (보다 큼).
+아래 표에서는 시간 제한 연산자에 대해 자세히 설명합니다.
 
 | 연산자 | 설명 |
 |--- |--- |
-| AFTER | After 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값을 설정하면 필터가 적용될 때 시간 제한이 시작됩니다. 예를 들어 페이지 A를 방문하지만 하루가 지날 때까지 페이지 B를 방문하러 돌아오지 않는 방문자를 파악하기 위해 After 연산자를 컨테이너에 설정한 경우, 그 하루는 방문자가 페이지 A를 나갈 때 시작됩니다.  방문자가 필터에 포함되려면 페이지 A에서 나간 후 페이지 B를 볼 때까지 최소 1440분 (하루)이 지나야 합니다. |
-| WITHIN | Within 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. 예를 들어 페이지 A를 방문하고 하루 안에 돌아와서 페이지 B를 방문하는 방문자를 파악하기 위해 Within 연산자를 컨테이너에 설정한 경우, 그 하루는 방문자가 페이지 A를 나갈 때 시작됩니다. 필터에 포함되기 위해 방문자는 페이지 B를 열기 전에 최대 하루 시간을 갖게 됩니다.   방문자가 필터에 포함되려면 페이지 A에서 나간 후 페이지 B를 볼 때까지 최대 1440분(하루) 이내에 페이지 B를 방문해야 합니다. |
-| AFTER/WITHIN | After 및 Within 연산자를 모두 사용할 때는 두 연산자가 모두 순차적이 아니라 나란히 시작하고 끝난다는 사실을 이해하는 것이 중요합니다.   예를 들어 컨테이너를 <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>(으)로 설정한 필터를 만드는 경우 필터에서 방문자를 식별하는 조건은 1주와 2주 사이에만 충족됩니다. 두 조건 모두 첫 번째 페이지 히트에서만 적용됩니다. |
+| **[!UICONTROL 이후]** | [!UICONTROL After] 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값을 설정하면 필터가 적용될 때 시간 제한이 시작됩니다. 예를 들어 페이지 A를 방문하지만 하루가 지날 때까지 페이지 B를 방문하러 돌아오지 않는 사람을 파악하기 위해 After 연산자를 컨테이너에 설정한 경우, 방문자가 페이지 A를 나갈 때 그 날이 시작됩니다.  방문자가 필터에 포함되려면 페이지 A에서 나간 후 최소 1440분 (하루)이 지나야 페이지 B를 볼 수 있습니다. |
+| **[!UICONTROL 내부]** | [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 제한을 지정하는 데 사용됩니다. 예를 들어, 페이지 A를 방문한 다음 하루 안에 페이지 B를 다시 방문하는 사람을 식별하기 위해 [!UICONTROL Within] 연산자를 컨테이너에 설정한 경우 해당 날짜가 페이지 A를 나갈 때 시작됩니다. 필터에 포함되기 위해 페이지 B를 열기 전에 최대 하루 시간을 갖습니다. 사람이 필터에 포함되려면 페이지 B를 보려면 페이지 A에서 나간 후 최대 1440분(하루) 이내에 페이지 B를 열어야 페이지 B를 볼 수 있습니다. |
+| **[!UICONTROL 다음 이후지만]** 이내 | [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 모두 사용하는 경우 두 연산자 모두 순차적이 아니라 나란히 시작하고 끝납니다. <br/>예를 들어 컨테이너를 `After = 1 Week(s) and Within = 2 Week(s)`(으)로 설정하여 필터를 만듭니다.<br/>이 필터에서 방문자를 식별하는 조건은 1주와 2주 사이에만 충족됩니다. 두 조건 모두 첫 번째 페이지 보기 시부터 적용됩니다. |
 
-### After 연산자 사용 {#after}
 
-* Time After를 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치시킬 수 있습니다.
-* Time After는 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
+#### 예
 
-**예**: 방문자는 페이지 A를 방문하고 2주 후에야 페이지 B를 방문했습니다.****
+시간 제한 사용의 몇 가지 예.
 
-![](assets/time_between_after_operator.png)
+##### After 연산자
 
-**세그먼트 만들기**: 이 필터는 두 개의 [!UICONTROL 히트] 컨테이너와 함께 [!UICONTROL 방문자] 컨테이너를 추가하여 만듭니다. 그런 다음 [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열어서 주 수를 설정할 수 있습니다.
+2주 후에만 한 페이지를 방문한 사람과 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 있지만 여성은 | 2주 후에야 구두 페이지를 엽니다.
 
-![](assets/after_operator.png)
+![다음 순서](assets/sequence-after.png)
 
-**일치**
+홈의 페이지 보기가 2024년 6월 1일 00:01에 있는 경우, 페이지 보기는 여성을 표시합니다 | 신발은 해당 페이지 보기가 2024년 6월 15일 00:01 이후에 발생하는 한 일치합니다.
 
-After 2 weeks로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:01에 발생하면 페이지 B에 대한 다음 히트가 2019년 6월 15일 00:01 (14일 후) 전에 발생하는 한 일치합니다.
+##### Within 연산자
 
-| 히트 A | 히트 B | 일치 |
-|--- |--- |--- |
-| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트: 2019년 6월 15일 00:01 | **일치**: 이 시간 제한은 년 6월 1일보다 후 (2주)이기 때문에 일치합니다. |
-| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트: 2019년 6월 8일 00:01 B 히트: 2019년 6월 15일 00:01 | **일치하지 않음:** 페이지 B에 대한 첫 번째 히트가 2주 후를 요구하는 제한과 상충하기 때문에 일치하지 않습니다. |
+5분 내에 한 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람과 여성 | 5분 이내에 구두 페이지를 방문하세요.
 
-### Within 연산자 사용 {#within}
+![다음 범위 내의 시퀀스](assets/sequence-within.png)
 
-* [!UICONTROL Within]을 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치할 수 있습니다.
-* [!UICONTROL Within]은 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
+홈의 페이지 보기가 2024년 6월 1일 12:01에 있는 경우, 페이지 보기는 여성을 표시합니다 | 신발은 해당 페이지 보기가 2024년 6월 15일 12:16 전에 발생하는 한 일치합니다.
 
->[!TIP]
+##### After 와 Within 연산자
+
+한 페이지를 방문한 후 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 다음 2주 후 1개월 내에 여성 을 방문한 사람 | 신발 페이지.
+
+![다음 이후지만 ](assets/sequence-afterbutwithin.png) 이내에 시퀀스
+
+2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 게시된 신발 페이지는 세그먼트에 해당됩니다.
+
+
+### 이벤트, 세션 및 Dimension 제한
+
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 이벤트, 세션 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+
+#### 예
+
+다음은 한 제품 카테고리 페이지를 방문한 사람을 찾는 순차적 필터의 예입니다 (여자) | 신발), 체크아웃 페이지(체크아웃) | Thank You) 를 참조하십시오.
+
+![다음 범위 내의 시퀀스 필터](assets/sequence-filter-within.png)
+
+다음 예제 시퀀스가 일치하거나 일치하지 않습니다.
+
+| 시퀀스 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|--- | :---: |
+| `Women \| Shoes` 페이지 뒤에 `Checkout \| Thank You` 페이지가 있음 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 페이지 `Women \| Shoes`, 페이지 `Women \| Tops`, 페이지 `Checkout \| Thank You` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
+
+## 포함
+
+순차적 필터 또는 순차적 필터의 일부인 순차적 컨테이너에 포함할 데이터를 지정할 수 있습니다.
+
+### 모든 사용자 {#include_everyone}
+
+모든 사용자를 포함하는 순차적 필터를 만들려면 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]** 옵션을 선택하십시오.
+
+순차적 필터는 전체적으로 주어진 패턴과 일치하는 데이터를 식별합니다.  다음은 하나의 제품 범주 페이지를 방문한 사람을 찾는 기본 시퀀스 필터의 예입니다 (여자) | 신발), 체크아웃 페이지(체크아웃) | 감사합니다.) 필터가 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]**(으)로 설정되어 있습니다.
+
+![순차적 필터에 모든 사용자 포함](assets/sequence-include-everyone.png)
+
+다음 예제 시퀀스가 일치하거나 일치하지 않습니다.
+
+| 시퀀스 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|--- | --- |
+| A와 B가 같은 세션에서 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| A 다음 C 다음 D 다음 B (다른 세션에서) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| B 다음에 A | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
+
+### 시퀀스 이전에만 및 시퀀스 이후에만
+
+![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL 시퀀스 이전에만]** 및 ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL 시퀀스 이후에만]** 옵션은 지정된 시퀀스의 전 또는 후에 데이터를 하위 집합으로 필터링합니다.
+
+* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **시퀀스 이전에만**: 시퀀스 전의 모든 데이터와 시퀀스 자체의 첫 번째 데이터를 포함합니다(예 1, 3 참조). 시퀀스가 데이터의 일부로 여러 번 나타나면 [!UICONTROL 시퀀스 이전에만]에 시퀀스가 마지막으로 발생했을 때의 첫 번째 히트와 그 전에 오는 모든 히트가 포함됩니다(예 2 참조).
+* ![시퀀스 후](/help/assets/icons/SequenceAfter.svg) **시퀀스 이후에만**: 시퀀스 후의 모든 히트와 시퀀스 자체의 마지막 데이터를 포함합니다(예 1, 3 참조). 시퀀스가 데이터의 일부로 여러 번 나타나면 Only After 에는 시퀀스가 처음 발생했을 때의 마지막 히트와 그 다음에 오는 모든 히트가 포함됩니다(예 2 참조).
+
+기준이 B로 식별되는 구성 요소 시퀀스를 지정하고, 그 다음 D로 식별되는 기준이 있는 구성 요소에 의해 시퀀스를 지정하는 정의를 생각해 보십시오. 세 가지 옵션은 다음과 같이 데이터를 식별합니다.
+
+
+| B 다음에 D | A | B | C | D | E | F |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| 모든 사용자 포함 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 시퀀스 이전에만 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 시퀀스 이후에만 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+
+
+
+| B 그런 다음 D(여러 번 발생) | A | B | C | D | B | C | D | E |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 모든 사용자 포함 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 시퀀스 이전에만 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 시퀀스 이후에만 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+
+#### 예
+
+사이트 섹션에 대해 세 가지 버전의 순차적 필터를 정의했습니다. 하나는 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]**, 하나는 ![시퀀스 전](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL 시퀀스 전에만]**, 다른 하나는 ![시퀀스 후](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL 시퀀스 후에만]** 옵션을 사용합니다. 세 개의 필터 이름을 적절하게 지정했습니다.
+
+![시퀀스 필터](assets/site-section-filters.png)
+
+이 세 개의 필터를 사용하여 사이트 섹션에 대해 보고할 때 자유 형식 테이블의 출력 예제가 됩니다.
+
+![순차적 필터 보고서](assets/sequential-filter-freeform-table.png)
+
+## 제외
+
+**[!UICONTROL Exclude]**&#x200B;을(를) 사용하여 ![사용자](/help/assets/icons/User.svg) [!UICONTROL 사람], ![방문](/help/assets/icons/Visit.svg) [!UICONTROL 세션] 또는 ![웹 페이지](/help/assets/icons/WebPage.svg) [!UICONTROL 이벤트] 데이터를 구체적으로 제외하지 않으면 필터 정의에 모든 데이터가 포함됩니다.
+
+[!UICONTROL 제외]를 사용하면 일반 데이터를 무시하고 더 많은 포커스를 가진 필터를 만들 수 있습니다. 제외를 사용하면 특정 사용자 그룹을 제외하는 필터를 만들 수도 있습니다. 예를 들어, 주문을 한 사람을 지정한 다음 해당 사람 그룹을 제외하여 *비구매자*&#x200B;를 식별하는 필터를 정의합니다. 가장 좋은 방법은 특정 포함 값과 일치하는 특정 담당자를 대상으로 [!UICONTROL Exclude]을(를) 사용하는 것보다 광범위한 정의를 사용하는 규칙을 만드는 것입니다.
+
+제외 정의는 다음과 같습니다.
+
+* **페이지 제외**. 필터 정의를 사용하여 보고서에서 특정 페이지(예: *홈 페이지*)를 제거하고, 페이지가 `Home Page`인 이벤트 규칙을 만든 다음 규칙을 제외합니다. 이 정의에는 *홈 페이지*&#x200B;를 제외한 모든 페이지가 자동으로 포함됩니다.
+* **참조 도메인 제외**. Google.com의 참조 도메인만 포함하고 다른 모든 도메인은 제외하는 정의를 사용합니다.
+* **비구매자 파악**. 주문이 0보다 큰 경우를 파악하고 [!UICONTROL 개인]을(를) 제외합니다.
+
+[!UICONTROL 제외]를 사용하여 개인이 특정 세션이나 이벤트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 제외]도 논리 그룹에 포함될 수 있습니다(아래 참조).
+
+구성 요소가 아니라 컨테이너를 제외할 수 있습니다.
+
+### 예
+
+[!UICONTROL 제외] 사용 예는 아래를 참조하십시오.
+
+#### 다음 범위 내에서 제외
+
+한 페이지를 방문한 사람, 다른 페이지를 방문하지 않은 사람, 다른 페이지를 방문한 사람을 식별합니다. ![설정](/help/assets/icons/Setting.svg) 제외를 사용하여 컨테이너를 제외합니다. 제외된 컨테이너는 왼쪽의 빨간색 얇은 막대로 식별됩니다.
+
+![시퀀스 제외](assets/sequence-exclude.png)
+
+
+#### 시작 시 제외
+
+다른 페이지로 이동하지 않고 한 페이지를 방문한 사용자를 식별합니다. 예를 들어 구매하지 않고 체크아웃한 사람이 홈 페이지를 방문한 적이 없습니다.
+
+![시퀀스 제외 시작](assets/sequence-exclude-start.png)
+
+
+#### 끝에서 제외
+
+한 페이지는 방문했지만 다른 페이지는 방문하지 않은 사용자를 식별합니다. 예를 들어, 홈 페이지를 방문했지만 체크아웃 페이지를 방문한 적이 없는 사용자입니다.
+
+![시퀀스 제외 끝](assets/sequence-exclude-end.png)
+
+
+## 논리 그룹에 포함될 수도 있습니다
+
+>[!NOTE]
 >
->&quot;within&quot; 절, THEN 문 사이에 &quot;1개 이내의 검색 키워드 인스턴스&quot;, &quot;1개 이내의 eVar 47 인스턴스&quot; 등을 추가할 수 있습니다. 이렇게 하면 필터가 차원의 한 인스턴스 이내로 제한됩니다.
+>[!UICONTROL 논리 그룹]은(는) 순차적 필터에서만 정의할 수 있습니다. 즉, [!UICONTROL Then] 연산자가 컨테이너 내에서 사용됩니다.
 
-**예**: 방문자는 페이지 A를 방문한 후 5분 내에 페이지 B를 방문했습니다.
+논리 그룹을 사용하면 조건을 하나의 순차적 필터 체크포인트로 그룹화할 수 있습니다. 시퀀스의 일부로서, 논리 그룹으로 식별된 컨테이너에 정의된 논리는 이전의 순차적 체크포인트 후와 다음의 순차적 체크포인트 전에 평가됩니다.
 
-![](assets/time_between_within_operator.png)
+논리 그룹 자체 내의 조건은 임의의 순서로 충족될 수 있습니다. 그와 대조적으로, 비순차적 컨테이너 (이벤트, 세션, 개인)는 전체 시퀀스 내에서 조건을 충족할 필요가 없으므로 Then 연산자와 함께 사용할 경우 직관적이지 않은 결과가 발생할 수 있습니다.
 
-**필터 만들기**: 이 필터는 [!UICONTROL 방문자] 컨테이너를 추가한 다음 두 개의 [!UICONTROL 히트] 컨테이너와 함께 드래그하여 만듭니다. [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열고 간격: 히트, 페이지 보기, 방문, 분, 시간, 일, 주, 월, 분기 또는 년을 설정합니다.
+[!UICONTROL 논리 그룹]은(는) 그룹화된 조건 중 순서 없이 *여러 조건을 그룹으로 처리하도록 디자인되었습니다*. 달리 말하면, 논리 그룹 내의 조건 순서는 무관합니다.
 
-![](assets/within_operator.png)
+논리 그룹을 사용하는 몇 가지 모범 사례는 다음과 같습니다.
 
-**일치**
+* 순차적 체크포인트를 그룹화합니다.
+* 순차적 필터 구성을 단순화합니다.
 
-시간 제한 내에 일치가 일어나야 합니다. 표현식 의 경우 방문자의 페이지 A 히트가 00:01에 일어나면 그 뒤의 페이지 B 히트는 그것이 00:06 또는 그 전 (00:01을 포함하여 5분 후)에 일어나는 한 일치합니다. 같은 분00:01 내의 히트도 일치합니다.
+### 예
 
-### Within 및 After 연산자 {#within_after}
+다음은 논리 그룹 컨테이너를 사용하는 방법에 대한 예입니다.
 
-[!UICONTROL Within] 및 [!UICONTROL After]를 사용하여 필터의 양 끝에서 최대 및 최소 끝점을 제공합니다.
+#### 모든 순서
 
-**예**: 방문자는 페이지 A를 방문하고 2주 후, 단 1개월 내에 페이지 B를 방문했습니다.
+한 페이지를 방문한 다음 순서에 관계없이 다른 페이지 세트에서 각 페이지를 열람한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 다음 순서에 관계없이 남성 페이지, 여성 페이지 및 키즈 페이지를 각각 방문한 사용자입니다.
 
-![](assets/time_between_using_both_operators.png)
+[!UICONTROL 논리 그룹] 없이 이 필터를 만들 수 있지만 구성이 복잡하고 복잡합니다. 방문자가 볼 수 있는 모든 페이지 시퀀스를 지정해야 합니다. 명확하게 하기 위해 첫 번째 컨테이너만 열고 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) 다른 컨테이너는 닫았습니다 ![V자형 화살표](/help/assets/icons/ChevronRight.svg) . 제목을 사용하여 다른 컨테이너의 콘텐츠를 파생할 수 있습니다.
 
-**세그먼트 만들기**: [!UICONTROL 방문자] 컨테이너 내에 두 개의 [!UICONTROL 히트] 컨테이너를 시퀀스 지정하여 필터를 만듭니다. 그런 다음 [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 설정합니다.
+![논리 그룹을 사용하지 않는 예제](assets/logicgroup-example-notusing.png)
 
-![](assets/within_after_together.png)
+아래와 같이 [!UICONTROL 논리 그룹]을 사용하여 이 필터 빌드를 단순화할 수 있습니다. 컨테이너에 대해 ![그룹](/help/assets/icons/Group.svg) **[!UICONTROL 논리 그룹]**&#x200B;을(를) 선택하십시오.
 
-**일치**
+![논리 그룹을 사용하지 않는 예제](assets/logicgroup-example-using.png)
 
-2019년 6월 1일에 페이지 A를 히트하고 2019년 6월 15일 이후에 돌아오지만 2019년 7월 1일에 *이전*&#x200B;되는 모든 방문자가 필터에 포함됩니다. 시간 간격 제외의 섹션과 비교합니다.
+#### 첫 번째 일치
 
-[!UICONTROL After] 및 [!UICONTROL Within] 연산자를 함께 사용하여 순차적 필터를 정의할 수 있습니다.
+한 페이지 또는 다른 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어 여성 페이지 또는 남성 페이지를 방문한 다음 체크아웃 을 방문한 사람이 있습니다 | 감사 인사 페이지.
 
-![](assets/time_between_within_after.png)
+![논리 그룹과 첫 번째 일치를 사용하는 예제](assets/logicgroup-example-firstmatch.png)
 
-이 예제는 2주 후, 그러나 1개월 내 두 번째 방문으로 페이지 B를 히트하는 경우를 설명합니다.
+#### 제외 및
+
+한 페이지를 방문한 후 명확하게 다른 페이지 세트를 방문하지 않았으나 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 남성 또는 여성 페이지를 방문하지 않았지만 키즈 페이지를 방문했습니다.
+
+![논리 그룹 제외 및](assets/logicgroup-exclude-and.png)
+
+#### 제외 또는
+
+한 페이지를 방문한 다음 명시적으로 페이지 세트의 페이지를 방문하지 않았지만 아직 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 남성 및 여성 페이지를 방문하지 않았지만 키즈 페이지를 방문했습니다.
+
+![논리 그룹 제외 및](assets/logicgroup-exclude-or.png)
+
+
+<!--
+An example of a complex sequential filter if you want to find the persons that 
+
+| Session One | Session Two | Session Three |
+| --- | --- | --- |
+| The person went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The person again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The person entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
+-->
+
+
+## 마지막 예
+
+마지막 예로, Empower Your Move 캠페인에 의해 터치되지 않고 특정 제품 페이지에 대해 학습한 사용자를 식별할 수 있습니다. 그리고 온라인 스토어에 첫 번째 방문에서 홈 페이지를 보았지만 남성 카테고리의 어떤 피트니스 (장비) 제품도 자세히 보지 않았습니다. 그러나 그 후 바로 다음 세션에서는 홈 페이지를 먼저 거치지 않고 제품 페이지로 이동하여 온라인 주문을 했습니다.
+
+
+![복잡한 순차적 필터 예](assets/sequential-complex.png)

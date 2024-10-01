@@ -5,10 +5,10 @@ title: 보기 전용 프로젝트
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 보기 전용 프로젝트에서 비활성화된 상호 작용은 다음과 같습니다.
 
-* 숨겨진 왼쪽 레일
+* 숨겨진 왼쪽 패널
 * 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 제공되는 드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)에 추가합니다.
 * 자유 형식 필터링
 * 보이는 행의 자유 형식 수

@@ -4,31 +4,32 @@ description: 필터 만들기 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 55%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
 # 필터 만들기
 
-복잡해야 하는 정도, 현재 프로젝트에만 적용해야 하는지 또는 모든 프로젝트에 적용해야 하는지 등에 따라 Workspace에서 다양한 유형의 필터를 만들 수 있습니다.
+Customer Journey Analytics에서 다양한 유형의 필터를 만들 수 있습니다.  선택하는 유형은 필터가 얼마나 복잡해야 하는지, 필터가 현재 Workspace 프로젝트에만 적용되어야 하는지, 아니면 모든 프로젝트에 적용되어야 하는지에 따라 다릅니다. Customer Journey Analytics의 기본 인터페이스에서 직접 또는 Workspace 프로젝트에서 작업할 때 필터를 만들 수 있습니다.
 
-다음은 사용 가능한 필터 유형에 대한 요약이며, 필터 유형을 만드는 방법에 대한 정보 링크입니다.
+기본적으로 관리자만 필터를 만들 수 있습니다. 사용자는 다른 구성 요소(예: 주석, 계산된 지표 등)를 보는 것과 유사한 방식으로 필터를 볼 수 있는 권한이 있습니다.
 
-| 필터 유형 | 생성되는 영역은? | 적용 가능한 영역은? | 사용 시기 |
-| --- | --- | --- | --- |
-| 구성 요소 목록 필터 | +를 클릭하면 [필터 빌더](/help/components/filters/filter-builder.md)로 이동합니다. | 모든 작업 영역 프로젝트 | 복잡한 필터의 경우는 순차적 필터 |
-| 빠른 필터 | [빠른 필터 빌더](/help/components/filters/quick-filters.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 임시 단일 규칙 필터(끌어서 놓기 사용)에 사용하거나, 여러 규칙(필터 아이콘 클릭)을 추가/편집하는 데 사용할 수 있습니다 |
-| 폴아웃 분석에서의 필터 | Analysis Workspace에서의 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 개별 폴아웃 시각화에 | 터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, 다양한 필터 간에 주요 워크플로를 비교할 수 있습니다. |
-| 계산된 지표 기반 필터 | [계산된 지표 빌더](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | 계산된 개별 지표에 | 지표 정의 내 필터 적용 |
+그러나 관리자는 [Admin Console](/help/technotes/access-control.md#user-level-access)을 통해 **[!UICONTROL CJA Workspace 액세스에 대한 권한 편집]**&#x200B;에서 **[!UICONTROL 보고 도구]**&#x200B;에 대한 **[!UICONTROL 필터 만들기]** 권한을 사용자에게 부여할 수 있습니다.
 
-자유 형식 프로젝트에 필터를 적용할 때 다음과 같은 몇 가지 다른 방법도 사용할 수 있습니다.
+다음과 같은 방법으로 필터를 만들 수 있습니다.
 
-| 액션 | 설명 |
-| --- | --- |
-| 선택 내용에서 필터 생성 | 인라인 필터를 만듭니다. 이 필터는 열려 있는 프로젝트에만 적용되며, Customer Journey Analytics 필터로 저장되지는 않습니다.<p> 1. 필터에 포함할 테이블 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 버튼으로 클릭합니다.  3. *선택 항목에서 필터 만들기*&#x200B;를 클릭합니다. |
-| 작업 영역 [!UICONTROL 구성 요소] > [!UICONTROL 새 필터] | 필터 빌더를 표시합니다. 필터링에 대한 자세한 내용은 [필터 빌더](/help/components/filters/filter-builder.md)를 참조하십시오. |
-| 공유 > 프로젝트 공유 또는 공유 > 프로젝트 데이터 조정 | [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 또는 [프로젝트 조정](/help/analysis-workspace/curate-share/curate.md)에서 받는 사람에 대한 공유 분석에서 프로젝트에 적용하는 필터를 사용하는 방법을 알아봅니다. |
-| 필터를 차원으로 사용 | 다음 비디오는 필터를 차원으로 사용하는 방법을 보여 줍니다.  <p>[Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |
+![필터를 만드는 방법](assets/create-filter.png)
+
+* ?? 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터]**&#x200B;를 선택합니다. [[!UICONTROL 필터] 관리자](/help/components/filters/manage-filters.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* ?? Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **필터**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* ?? Workspace 프로젝트의 시각화에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 필터 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트에서 바로 가기 **[!UICONTROL shift+cmd+e]**(macOS) 또는 **[!UICONTROL shift+ctrl+e]**(Windows)을 사용합니다.
+* ?? ***여기에 필터 놓기*** 놓기 영역에 ![추가](/help/assets/icons/Add.svg)를 선택합니다. 이 작업을 수행하면 프로젝트 전용 필터가 만들어집니다.
+
+새 필터를 정의하려면 [필터 빌더](/help/components/filters/filter-builder.md)를 사용합니다.
+
+Workspace 프로젝트에 있는 경우 [빠른 필터](/help/components/filters/quick-filters.md)를 사용하여 필터를 빠르게 만들 수도 있습니다.

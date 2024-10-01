@@ -4,10 +4,10 @@ title: 데이터 사전 보기
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 79%
 
 1. 확인할 구성 요소가 포함된 Analysis Workspace 프로젝트로 이동합니다.
 
-1. Analysis Workspace의 왼쪽 레일에서 [!UICONTROL **데이터 사전**] 아이콘을 선택합니다. (데이터 사전에 액세스하는 다른 방법은 [데이터 사전 개요](/help/components/data-dictionary/data-dictionary-overview.md)의 “데이터 사전 액세스”에 설명되어 있음)
+1. Analysis Workspace의 왼쪽 패널에서 [!UICONTROL **데이터 사전**] 아이콘을 선택합니다. (데이터 사전에 액세스하는 다른 방법은 [데이터 사전 개요](/help/components/data-dictionary/data-dictionary-overview.md)의 “데이터 사전 액세스”에 설명되어 있음)
 
    데이터 사전 창이 표시됩니다.
 

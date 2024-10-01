@@ -1,13 +1,13 @@
 ---
 title: Customer Journey Analytics에서 요약 데이터 사용
-description: 요약 데이터를 Customer Journey Analytics으로 가져오는 방법에 대한 모든 세부 사항을 설명합니다.
+description: 요약 데이터를 Customer Journey Analytics으로 가져오는 방법에 대한 모든 세부 사항을 설명하는 사용 사례
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '5187'
+source-wordcount: '5188'
 ht-degree: 8%
 
 ---
@@ -512,7 +512,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 
          ![매출 요약 데이터](../assets/revenue-summary-data.png)
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 속성]**&#x200B;을 펼칩니다.
-            1. **[!UICONTROL 속성 모델]** 드롭다운 목록에서 ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL 마지막 터치]**&#x200B;를 선택합니다.
+            1. **[!UICONTROL 속성 모델]** 드롭다운 목록에서 ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 마지막 터치]**&#x200B;를 선택합니다.
             1. **[!UICONTROL 전환 확인 기간]** 드롭다운 목록에서 **[!UICONTROL 30일]**&#x200B;을 선택합니다.
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **형식**&#x200B;을 펼칩니다.
             1. **[!UICONTROL 형식]** 드롭다운 목록에서 **[!UICONTROL 통화]**&#x200B;을(를) 선택합니다.
@@ -522,7 +522,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 
          ![주문 요약 데이터](../assets/orders-summary-data.png)
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 속성]**&#x200B;을 펼칩니다.
-            1. **[!UICONTROL 속성 모델]** 드롭다운 목록에서 ![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL 마지막 터치]**&#x200B;를 선택합니다.
+            1. **[!UICONTROL 속성 모델]** 드롭다운 목록에서 ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 마지막 터치]**&#x200B;를 선택합니다.
             1. **[!UICONTROL 전환 확인 기간]** 드롭다운 목록에서 **[!UICONTROL 30일]**&#x200B;을 선택합니다.
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 형식]**&#x200B;을 펼칩니다.
             1. **[!UICONTROL 형식]** 드롭다운 목록에서 **[!UICONTROL 소수점]**&#x200B;을(를) 선택합니다.

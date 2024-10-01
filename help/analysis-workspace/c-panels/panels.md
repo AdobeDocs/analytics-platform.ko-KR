@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 665dcd8edcfae6bbf3239c0812ce70843f2ce07c
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 100%
+source-wordcount: '2126'
+ht-degree: 33%
 
 ---
 
@@ -22,27 +22,115 @@ ht-degree: 100%
 | 패널 이름 | 설명 |
 | --- | --- |
 | [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) | 사용 가능한 패널 및 시각화 중에서 선택하여 분석을 시작합니다. |
-| [빠른 인사이트 패널](quickinsight.md) | 인사이트를 더 빨리 분석하고 발견할 수 있도록 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 구축하십시오. |
-| [속성 패널](attribution.md) | 파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
-| [자유 형식 패널](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
-| [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
-| [미디어 재생 소요 시간 패널](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생한 위치 또는 시청 감소가 발생한 위치를 파악할 수 있습니다. |
+| [속성](attribution.md) | 파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
+| [실험](experimentation.md) | 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. |
+| [자유 형식](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
+| [미디어 분당 평균 시청 시간](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 지정된 기간 동안 분당 평균 시청 시간을 분석합니다. |
+| [미디어 Concurrent Viewer](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
+| [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생하는 위치 또는 시청 감소가 발생하는 위치를 파악할 수 있습니다. |
+| [다음 또는 이전 항목](next-previous.md) | 사람들이 이동한 다음 또는 이전 페이지를 표시합니다. |
+| [빠른 인사이트](quickinsight.md) | 자유 형식 테이블과 함께 제공되는 시각화를 빠르게 구축하여 통찰력을 더 빨리 분석하고 발견할 수 있습니다. |
 
-![사용 가능한 패널 유형이 나열된 Customer Journey Analytics 패널입니다.](assets/panel-overview.png)
 
-[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Attribution IQ]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL 속성]은(는) 고급 분석에 적합합니다. ![AddCircle](/help/assets/icons/AddCircle.svg)은 캔버스 맨 아래에 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
-기본 시작 패널은 [!UICONTROL 자유 형식] 패널이지만 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)도 기본값으로 설정할 수 있습니다.
+기본 시작 패널은 [!UICONTROL 자유 형식] 패널이지만 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 또는 [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md)도 기본값으로 설정할 수 있습니다. [프로젝트 및 분석 환경 설정](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences)을 참조하세요.
 
-## 달력 {#calendar}
 
-패널 달력은 패널 내의 테이블 및 시각화에 대한 보고 범위를 제어합니다.
+## 패널 만들기
 
-참고:(보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
+패널을 만들려면:
+
+* **[!UICONTROL 패널]** 왼쪽 패널에서 캔버스로 패널을 끌어서 놓습니다.
+* [빈 패널](blank-panel.md)에서 패널을 선택합니다.
+* Workspace에서 **[!UICONTROL 삽입]** 메뉴를 사용하여 패널을 선택하십시오. 또는 [바로 가기](../build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널을 삽입할 수 있습니다.
+
+  ![패널 만들기](assets/create-panel.png)
+
+다음과 같은 작업을 수행할 수 있습니다.
+
+* 다른 시각화를 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg) **within** 패널을 선택하십시오. 시각화를 선택할 수 있는 팝업이 나타납니다.
+
+  ![가능한 시각화를 표시하는 팝업](assets/blank-panel.png)
+
+  | 선택.. | 다음을 만들려면... |
+  |---|---|
+  | ![표](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) |
+  | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) |
+  | ![전환 단계](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![워크플로우](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![그래프 영역 스택](/help/assets/icons/GraphAreaStacked.svg) | [스택 영역](/help/analysis-workspace/visualizations/area.md) |
+  | ![텍스트 번호 매기기](/help/assets/icons/TextNumbered.svg) | [집단 테이블](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [글머리 기호](/help/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![그래프 도넛](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) |
+  | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |
+  | ![그래프 분산](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) |
+  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) |
+
+* 작업 영역의 마지막 패널에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **외부**&#x200B;를 선택하여 다른 [빈 패널](blank-panel.md)을(를) 추가합니다.
+
+
+## 데이터 보기
+
+각 패널은 패널의 오른쪽 상단에 있는 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**으로 식별된 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다.
+
+빈 Workspace 프로젝트를 만들 때 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
+
+새 패널을 만들 때 기본 데이터 보기는 Workspace 프로젝트에서 마지막으로 작업한 패널의 데이터 보기를 기반으로 합니다.
+
+>[!IMPORTANT]
+>
+>선택한 데이터 보기는 패널에서 시각화를 작성하는 데 사용할 수 있는 차원, 지표 및 필터를 결정합니다.
+>
+>
+>패널에 대한 데이터 보기를 전환할 때 일부 구성 요소를 새 데이터 보기에서 사용할 수 없습니다. 이 변경 사항으로 인해 시각화가 제대로 렌더링되지 않을 수 있습니다. 다음과 같은 경고가 표시될 수 있습니다.
+>
+>* 이 패널에는 선택한 데이터 보기에서 활성화되지 않은 구성 요소가 포함되어 있습니다. 데이터 보기를 변경하거나 데이터 보기에서 필요한 구성 요소를 활성화하십시오.
+>* 시각화를 렌더링할 수 없음: 열과 행에 유효한 구성 요소가 포함되어 있는지 확인하십시오.
+>
+
+## 캘린더
+
+패널 달력은 패널 내의 테이블 및 시각화에 대한 보고 날짜 범위를 제어합니다.
+
+>[!NOTE]
+>
+>시각화 또는 패널 내에서 ![달력](/help/assets/icons/Calendar.svg) 날짜 범위 구성 요소를 사용하는 경우(예: 필터로) 날짜 범위 구성 요소는 패널 달력을 무시합니다.
+>
+
 
 ![선택한 날짜 범위가 표시된 캘린더 창입니다.](assets/panel-calendar.png)
 
-패널 캘린더의 고급 설정에서 분 단위 날짜 범위를 적용할 수 있습니다. 여러 날에 걸친 날짜 범위에 대해 보고하는 경우 시작 시간은 범위의 첫 번째 날에 적용되고 종료 시간은 범위의 마지막 날에 적용됩니다.
+1. 먼저 시작 날짜를 선택한 다음 종료 날짜를 선택하여 날짜 범위를 선택합니다.
+또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을(를) 선택할 수 있습니다.
+
+1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음을 수행합니다.
+
+   * 기본 `12:00 AM`(`0:00`) 및 `11:59 PM`(`23:59`) 이외의 **[!UICONTROL 시작 시간]** 및 **[!UICONTROL 종료 시간]**&#x200B;을(를) 지정하십시오. 종료 시간은 항상 59초를 포함합니다. 여러 날에 걸친 날짜 범위의 경우 시작 시간은 날짜 범위의 첫 번째 날에 적용되고 종료 시간은 날짜 범위의 마지막 날에 적용됩니다. 시작 및 종료 시간을 기본값으로 재설정하려면 **[!UICONTROL (시간 값 재설정)]**&#x200B;을(를) 사용하십시오.
+   * **[!UICONTROL 패널 달력을 기준으로 날짜 범위 구성 요소를 만듭니다]**. 비활성화되면 패널에 사용된 날짜 범위 구성 요소는 현재 시간을 기준으로 합니다. 활성화된 경우 패널에서 사용되는 날짜 범위 구성 요소는 패널 달력과 관련이 있습니다.
+   * **[!UICONTROL 순환 날짜 사용]**. 활성화된 경우 **[!UICONTROL 최근 7일 전체]**&#x200B;와 같은 사전 설정된 날짜 범위가 현재 날짜 및 시간 진행률로 동적으로 업데이트됩니다. 비활성화되면 이러한 사전 설정은 적용된 후 업데이트되지 않습니다.
+
+     ![순환 날짜](assets/calendar-rolling.png)
+
+     대괄호 안의 텍스트(예: **[!UICONTROL 고정된 시작 - 매일 롤링]**)를 선택하여 패널을 확장하고 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]**&#x200B;에 대한 세부 정보를 지정할 수 있습니다.
+
+      1. **[!UICONTROL 시작 날짜]**, **[!UICONTROL 종료 날짜]** 또는 **[!UICONTROL 고정 날짜]**&#x200B;를 선택하십시오.
+      1. **[!UICONTROL 시작 위치]** 또는 **[!UICONTROL 끝 위치]**&#x200B;를 선택한 경우 전체 식을 만들 수 있습니다. 예: **[!UICONTROL 종료]** **[!UICONTROL 현재 연도]** **[!UICONTROL 플러스]** `1` **[!UICONTROL 일]**. 표현식의 각 개별 부분에 적절한 값을 선택합니다.
+         * 현재 값을 선택합니다. 예: **[!UICONTROL 올해]**.
+         * 추가 계산을 위한 값을 선택합니다. 예: **[!UICONTROL plus]**.
+         * 추가 계산을 지정한 경우 값을 지정합니다. 예 `1`.
+         * 추가 계산을 지정한 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
+
+     순환 날짜 계산에 대한 세부 정보를 숨기려면 **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하십시오.
+
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+**[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
+
 
 ## 드롭 영역 {#dropzone}
 
@@ -50,21 +138,30 @@ ht-degree: 100%
 
 ### 필터
 
-패널 필터링을 시작하려면 왼쪽 레일에서 패널 드롭 영역으로 필터를 드래그 앤 드롭합니다. 패널에 필터를 추가하려면 이 과정을 반복하십시오. 필터는 패널 상단에 나란히 표시됩니다.
+패널 필터링을 시작하려면 왼쪽 패널의 필터를 패널 드롭 영역으로 끌어다 놓습니다. 패널에 필터를 추가하려면 이 과정을 반복하십시오. 필터는 패널 상단에 나란히 표시됩니다.
 
-![왼쪽 레일에 사용 가능한 지표와 패널 드롭 영역으로 드래그한 모바일 고객 지표가 표시됩니다.](assets/segment-filter.png)
+![왼쪽 패널에 사용 가능한 지표와 모바일 고객 지표가 패널 드롭 영역으로 드래그되었습니다.](assets/segment-filter.png)
 
-### 임시 필터
+#### 빠른 필터
 
-필터가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 필터를 만들 수도 있으므로 필터 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 만든 필터는 자동으로 이벤트 수준 필터로 정의됩니다. 이 정의는 필터 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 필터 빌더에서 편집하여 수정할 수 있습니다.
+필터가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 필터를 만들 수도 있으므로 [필터 빌더](/help/components/filters/filter-builder.md)(으)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 만든 필터는 자동으로 이벤트 수준 필터로 정의됩니다. 이 정의는 필터 이름 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택하여 빠르게 수정할 수 있습니다.
 
-애드혹 필터는 빠른 필터의 한 유형이며, 프로젝트에 대해 로컬입니다. 공개로 설정하지 않으면 왼쪽 레일에 표시되지 않습니다.
 
 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md)를 참조하십시오.
 
 ![공개하여 놓기 영역에 놓은 애드혹 필터입니다.](assets/adhoc-segment-filter.png)
 
-### 정적 드롭다운 필터
+### 드롭다운 필터
+
++++ 드롭다운 필터를 설명하는 비디오를 봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+
+{{videoaa}}
+
++++
+
+#### 정적 드롭다운 필터
 
 정적 드롭다운 필터를 통해 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어 모바일 디바이스 유형에 대한 드롭다운 필터를 추가하여 태블릿, 휴대폰 또는 데스크탑별로 패널을 필터링할 수 있습니다.
 
@@ -72,42 +169,37 @@ ht-degree: 100%
 
 ![시장 채널 “직접” 필터가 강조 표시된 정적 드롭다운 필터입니다. ](assets/dropdown-filter-intro.png)
 
-#### 정적 드롭다운 필터 만들기
+##### 정적 드롭다운 필터 만들기
 
-* 차원 항목을 사용하는 드롭다운 필터의 경우 왼쪽 레일에서 단일 차원을 선택하여 **`[Shift]`** 키를 누른 상태에서 패널 드롭 영역에 놓습니다. 이렇게 하면 해당 차원과 연결된 모든 차원 항목이 포함된 드롭다운 필터가 생성됩니다.
+* 차원 항목을 사용하는 드롭다운 필터의 경우 왼쪽 패널에서 단일 차원을 선택하고 ⇧(*shift*)을 누른 상태에서 패널 드롭 영역에 차원을 드롭합니다. 이 작업을 수행하면 해당 차원과 연결된 모든 차원 항목으로 드롭다운 필터가 만들어집니다.
 
-  또는 차원과 연결된 특정 차원 항목만 드롭다운 필터에 포함하려면 왼쪽 레일에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 이 작업을 수행하면 사용 가능한 모든 차원 항목이 표시됩니다. `[Shift + Click]` 또는 `[Ctrl + Click]`을 사용하여 이 목록에서 여러 차원 항목을 선택한 다음 **`[Shift]`** 키를 누른 상태에서 패널 드롭 영역에 놓습니다.
+  또는, 드롭다운 필터에 차원과 연결된 특정 차원 항목만 포함하려면 왼쪽 패널에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 선택합니다. 이 작업을 수행하면 사용 가능한 모든 차원 항목이 표시됩니다. ⇧+![Select](/help/assets/icons/Select.svg)(*shift* + *select*) 또는 ^+![Select](/help/assets/icons/Select.svg)(*control* + *select*)을(를) 사용하여 이 목록에서 여러 차원 항목을 선택한 다음 **을(를) 누른 상태에서**&#x200B;패널 드롭 영역에 ⇧.
 
-* 단일 구성 요소 유형을 사용하는 드롭다운 필터(예: 차원, 필터 또는 지표만 사용)의 경우 왼쪽 레일에서 `[Shift + Click]` 또는 `[Ctrl + Click]`을 사용하여 동일한 유형의 여러 항목을 선택한 다음 **`[Shift]`** 키를 누른 상태에서 패널 드롭 영역에 놓습니다.
+* 단일 구성 요소 유형을 사용하는 드롭다운 필터의 경우(예: 차원만, 필터만 또는 지표만) ⇧+![Select](/help/assets/icons/Select.svg) 또는 ^+![Select](/help/assets/icons/Select.svg)을(를) 사용하여 왼쪽 패널에서 동일한 유형의 여러 항목을 선택합니다. **⇧ 키를 누른 상태에서**&#x200B;패널 드롭 영역에 항목을 드롭합니다.
 
   선택한 구성 요소로 단일 드롭다운 필터가 생성됩니다.
 
-* 구성 요소 유형을 혼합하여 사용하는 드롭다운 필터(예: 지표 2개와 필터 3개)의 경우 `[Shift + Click]` 또는 `[Ctrl + Click]`을 사용하여 여러 구성 요소를 선택합니다. **`[Shift]`** 키를 누른 상태에서 선택 항목을 패널 드롭 영역에 놓습니다. 이 컨텍스트에서는 모든 구성 요소 유형이 별도의 드롭다운 필터로 처리됩니다. 예를 들어 선택 항목에 지표와 차원 항목을 모두 포함하면 두 개의 별도 드롭다운 필터가 생성됩니다. 드롭다운 필터 하나에는 차원 항목이 포함되고 다른 드롭다운 필터에는 지표가 포함됩니다.
+* 구성 요소 유형을 혼용하는 드롭다운 필터(예: 2개 지표 및 3개 필터)의 경우 ⇧+![선택](/help/assets/icons/Select.svg) 또는 ^+![선택](/help/assets/icons/Select.svg)을 사용하여 여러 구성 요소를 선택합니다. **⇧ 키를 누른 상태에서**&#x200B;패널 놓기 영역에 선택 항목을 놓으십시오. 이 컨텍스트에서는 모든 구성 요소 유형이 별도의 드롭다운 필터로 처리됩니다. 예를 들어 선택 항목에 지표와 차원 항목을 모두 포함하면 두 개의 별도 드롭다운 필터가 생성됩니다. 드롭다운 필터 하나에는 차원 항목이 포함되고 다른 드롭다운 필터에는 지표가 포함됩니다.
 
-  ![정적 드롭다운 필터를 놓는 데 사용할 수 있는 모바일 고객 세그먼트 필드가 있는 패널 창입니다. ](assets/create-dropdown.png)
-
-드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 다음 옵션이 제공됩니다.
+드롭다운 필터는 다음과 같은 컨텍스트 메뉴 옵션을 제공합니다.
 
 * **[!UICONTROL 드롭다운 삭제]**: 패널에서 드롭다운 필터를 제거합니다.
-* **[!UICONTROL 레이블 삭제]**: 드롭다운 필터 위의 텍스트를 제거합니다. 레이블을 수정하려면 연필 아이콘을 선택합니다.
+* **[!UICONTROL 레이블 삭제]**: 드롭다운 필터 위에 표시된 텍스트를 제거합니다. 레이블을 수정하려면 레이블 위로 마우스를 가져간 후 ![드롭다운 필터의 레이블 편집](/help/assets/icons/Edit.svg)을 선택합니다.
 * **[!UICONTROL 레이블 추가]**: 프로젝트에 드롭다운 필터를 추가하면 구성 요소 이름에 레이블이 자동으로 설정됩니다. 레이블을 삭제한 경우 이 옵션을 사용하여 다시 추가할 수 있습니다.
 * **[!UICONTROL 선택 필수]**: 패널에 필터가 설정되어 있어야 합니다.
 
-프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko).
+##### 정적 드롭다운 필터 사용
 
-#### 정적 드롭다운 필터 사용
-
-다음 방법 중 하나로 드롭다운 필터 메뉴를 사용하여 패널을 필터링할 수 있습니다.
+다음과 같은 방법으로 드롭다운 필터 메뉴를 사용하여 패널을 필터링할 수 있습니다.
 
 * 드롭다운 필터에서 필터를 선택하여 패널에 단일 필터를 적용합니다.
 
 * 드롭다운 필터에서 두 개 이상의 필터를 선택하여 패널에 여러 필터를 적용합니다. 선택된 필터를 포함하도록 패널이 필터링됩니다.
 
-  ![여러 필터 선택](assets/dropdown-filter-multiselect.png)
 
-### 동적 드롭다운 필터
+#### 동적 드롭다운 필터
 
-동적 드롭다운 필터를 사용하면 패널의 보고 범위 내의 데이터 및 기타 드롭다운 필터의 값을 기반으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 국가 차원과 도시 차원을 사용하여 두 개의 동적 드롭다운을 만들 수 있습니다. UICONTROL 국가 드롭다운 목록에서 국가를 선택하면 도시 드롭다운 목록이 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
+동적 드롭다운 필터를 사용하면 패널의 보고 범위 내의 데이터 및 기타 드롭다운 필터의 값을 기반으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 국가 차원과 도시 차원을 사용하여 두 개의 동적 드롭다운을 만들 수 있습니다. **[!UICONTROL 국가]** 드롭다운 목록에서 국가를 선택하면 **[!UICONTROL 도시]** 드롭다운 목록이 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
 
 이와 동일한 개념이 모든 차원에 적용됩니다. 즉, 패널의 날짜 범위 및 선택한 필터 내에 나타나는 차원 항목만 표시됩니다. 정적 드롭다운 필터에서 선택한 차원 항목은 동적 드롭다운 필터에서 사용 가능한 값에 영향을 줍니다. 그러나 그 반대로는 그렇지 않습니다. 즉, 동적 드롭다운 필터에서 선택한 차원 항목은 정적 드롭다운 필터에서 사용 가능한 값에 영향을 주지 않습니다.
 
@@ -115,26 +207,37 @@ ht-degree: 100%
 
 동적 드롭다운 필터를 만들려면 다음 작업을 수행하십시오.
 
-* **`[Shift]`**&#x200B;를 누른 상태에서 단일 차원을 패널 드롭 영역으로 드래그 앤 드롭합니다.
-* 지표, 필터 또는 날짜 범위에는 동적 드롭다운 필터를 사용할 수 없습니다.
-* 드롭다운 필터를 삭제하려면 필터를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 필터 삭제]**&#x200B;를 선택합니다.
+* **⇧ 키를 누른 채로 단일 차원을 패널 드롭 영역**&#x200B;에 끌어다 놓습니다.
 
-동적 드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 정적 드롭다운 필터와 동일한 옵션이 제공됩니다.
+지표, 필터 또는 날짜 범위에 동적 드롭다운 필터를 사용할 수 없습니다.
 
-## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
+동적 드롭다운 필터는 정적 드롭다운 필터와 동일한 컨텍스트 메뉴 옵션을 제공합니다.
 
-패널 헤더를 마우스 오른쪽 버튼으로 클릭하면 패널을 위한 추가 기능을 사용할 수 있습니다.
+
+## 상황에 맞는 메뉴
+
+패널에 대한 추가 기능은 패널 헤더의 컨텍스트 메뉴(마우스 오른쪽 버튼 클릭)를 통해 사용할 수 있습니다.
 
 ![패널 헤더에 대한 마우스 오른쪽 버튼 클릭 옵션입니다.](assets/right-click-menu.png)
 
-다음 설정을 사용할 수 있습니다.
+다음 옵션을 사용할 수 있습니다.
 
-| 설정 | 설명 |
+| 옵션 | 설명 |
 | --- | --- |
-| [!UICONTROL 복사한 패널/시각화 삽입] | 복사한 패널 또는 시각화를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣기(“삽입”)할 수 있습니다. |
-| [!UICONTROL 패널 복사] | 패널을 마우스 오른쪽 버튼으로 클릭하고 복사하여 프로젝트 내의 다른 위치 또는 다른 프로젝트에 삽입할 수 있습니다. |
-| [!UICONTROL 패널 복제] | 현재 패널의 정확한 복제본을 만들어서 수정할 수 있습니다. |
-| [!UICONTROL 모든 패널 축소/확장] | 모든 프로젝트 패널을 축소 및 확장합니다. |
-| [!UICONTROL 패널의 모든 시각화 축소 및 확장] | 현재 패널의 모든 시각화를 축소 및 확장합니다. |
-| [!UICONTROL 설명 편집] | 패널에 대한 텍스트 설명을 추가(또는 편집)합니다. |
-| [!UICONTROL 패널 링크 가져오기] | 프로젝트 내의 특정 패널로 사용자를 안내할 수 있습니다. 링크를 클릭하면 연결된 정확한 패널로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
+| **[!UICONTROL 복사한 패널 삽입]** | 복사한 패널을 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 수 있습니다. |
+| **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 패널, 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣습니다. |
+| **[!UICONTROL 모든 패널에 데이터 보기 적용]** | 이 패널의 데이터 보기를 프로젝트의 다른 모든 패널에 적용합니다. |
+| **[!UICONTROL 패널 복사]** | 프로젝트 내의 다른 위치 또는 다른 프로젝트에 삽입할 수 있도록 패널을 복사합니다. |
+| **[!UICONTROL 패널 복제]** | 현재 패널의 정확한 복제본을 만들어서 수정할 수 있습니다. |
+| **[!UICONTROL 모든 패널 축소]** | 모든 프로젝트 패널을 축소합니다. |
+| **[!UICONTROL 모든 패널 확장]** | 모든 프로젝트 패널을 확장합니다. |
+| **[!UICONTROL 패널의 모든 시각화 축소]** | 현재 패널의 모든 시각화를 축소합니다. |
+| **[!UICONTROL 패널의 모든 시각화 확장]** | 현재 패널의 모든 시각화를 확장합니다. |
+| **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가(또는 편집)합니다. |
+| **[!UICONTROL 패널 링크 가져오기]** | 프로젝트 내의 특정 패널로 사용자를 안내합니다. 링크를 선택하면 연결된 정확한 패널로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
+
+## 구성
+
+일부 패널([!UICONTROL 속성], [!UICONTROL 실험], [!UICONTROL 미디어 분당 평균 시청 시간] 등)에는 시각화 작성을 지원하는 구성 대화 상자가 있습니다. 패널 상단의 ![편집](/help/assets/icons/Edit.svg)을 사용하여 구성에 액세스하고 구성을 변경합니다.
+
+![패널 구성](/help/analysis-workspace/c-panels/assets/configure-panel.png)

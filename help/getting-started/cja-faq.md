@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
-workflow-type: ht
-source-wordcount: '2567'
-ht-degree: 100%
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+workflow-type: tm+mt
+source-wordcount: '2565'
+ht-degree: 99%
 
 ---
 
@@ -218,7 +218,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 사용 제한은 Adobe에서 정기적으로 모니터링하고 시행합니다. “데이터 행”은 Customer Journey Analytics 내에서 분석에 사용할 수 있는 데이터의 일일 평균 행을 의미합니다.
 
-예를 들어 계약에 따라 1백만 행의 데이터에 대한 권한이 있다고 가정해 보겠습니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
+예를 들어 계약에 따라 1백만 행의 데이터에 대한 권한이 부여됩니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
 
 ## 11. 데이터 불일치 진단 {#discrepancies}
 
