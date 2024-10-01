@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1493'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,6 @@ Analysis Workspace을 사용하면 분석을 빠르게 작성하여 통찰력을
 
 {{videoaa}}
 
-
 +++
 
 ## 인터페이스
@@ -36,7 +35,7 @@ Analysis Workspace을 사용하면 분석을 빠르게 작성하여 통찰력을
 | 위치 | 이름 및 기능 |
 |:---------:|----------|
 | ?? | 프로젝트 이름, 기능에 액세스할 수 있는 메뉴 구조, 프로젝트 목록으로 돌아갈 수 있는 ![V자 모양 왼쪽](/help/assets/icons/ChevronLeft.svg) 단추, Workspace 프로젝트를 공유할 수 있는 **[!UICONTROL 공유]** 단추를 포함합니다. <br/>언제든지 프로젝트 이름(예: 프로젝트)을 선택하여 이름을 변경합니다. <br/>프로젝트를 좋아하는 프로젝트 ![별](/help/assets/icons/Star.svg)(으)로 추가하려면 ![별모양](/help/assets/icons/StarOutline.svg)을 선택하세요. |
-| ?? | **단추 패널:** Analysis WorkspaceAnalysis Workspace 의 주요 [기능](#features)에 액세스하기 위한 단추가 들어 있습니다. ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 패널]**, ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 시각화]** 및 ![조정](/help/assets/icons/Curate.svg) **[!UICONTROL 구성 요소]**. 패널에는 데이터 사전을 여는 ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL 목차]** 및 ![책갈피](/help/assets/icons/Bookmark.svg) **[!UICONTROL 데이터 사전]** 단추도 포함되어 있습니다. |
+| ?? | **단추 패널:** Analysis Workspace의 키 [기능](#features)에 액세스하기 위한 단추가 포함되어 있습니다.<br/>![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 패널]**<br/>![안내식 분석](/help/assets/icons/GuidedAnalysis.svg)**[!UICONTROL &#x200B;안내식 분석]**<br/>![그래프 막대 세로](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 시각화]**<br/>![조정](/help/assets/icons/Curate.svg)**[!UICONTROL &#x200B;구성 요소]**<br/>![보기 목록](/help/assets/icons/ViewList.svg) **[!UICONTROL 목차]**<br/>![책갈피](/help/assets/icons/Bookmark.svg)**[!UICONTROL &#x200B;데이터 사전&#x200B;]** |
 | ?? | **왼쪽 패널:** 이 영역에는 개별 패널, 시각화, 구성 요소 또는 목록이 포함되어 있습니다. 콘텐츠는 단추 패널에서 선택한 단추에 따라 다릅니다. |
 | ?? | **캔버스:** 왼쪽 패널의 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 프로젝트는 패널을 추가하고, 패널에 시각화를 추가하고, 시각화에 구성 요소를 추가할 때 동적으로 업데이트됩니다. 여러 패널을 만들 수 있으며 각 패널 내에서 여러 시각화를 만들 수 있습니다.<br/>각 패널은 선택한 데이터 보기를 기반으로 합니다. 선택한 데이터 보기는 지표 및 차원과 같은 사용 가능한 구성 요소를 결정합니다. 자세한 내용은 [패널 - 데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 참조하십시오. |
 
@@ -46,11 +45,12 @@ Analysis Workspace의 주요 기능은 버튼 패널을 통해 사용할 수 있
 
 | 아이콘 | 기능 | 설명 |
 |:---:|---|---|
-| ![웹 페이지](/help/assets/icons/WebPage.svg) | **[!UICONTROL 패널]** | 패널 은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 단추 패널에서 ![WebPage](/help/assets/icons/WebPage.svg)를 선택하여 사용 가능한 패널 전체 목록을 확인합니다.<br/>패널에 대한 자세한 내용은 [패널 개요](/help/analysis-workspace/c-panels/panels.md)를 참조하세요. |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 시각화]** | 막대 또는 선 차트와 같은 시각화를 사용하여 데이터를 시각적으로 생동감 있게 표현할 수 있습니다. 맨 왼쪽 패널에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 사용 가능한 시각화의 전체 목록을 확인합니다. <br/>시각화에 대한 자세한 내용은 [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하세요. |
-| ![조정](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | Analysis Workspace의 구성 요소는 다음으로 구성됩니다.<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![이벤트](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![세그먼테이션](/help/assets/icons/Segmentation.svg) [필터](/help/components/filters/filters-overview.md)</li><li>![일정](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul>이러한 각 구성 요소 유형에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md)를 참조하세요. |
-| ![보기 목록](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차에서는 모든 패널과 시각화를 축소 가능한 목록으로 구성하여 특정 패널이나 시각화에 빠르게 액세스할 수 있습니다. |
-| ![책갈피](/help/assets/icons/Bookmark.svg) | **데이터 사전** | Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 도와줍니다.<br/>데이터 사전에 대한 자세한 내용은 [데이터 사전 개요](/help/components/data-dictionary/data-dictionary-overview.md)를 참조하세요. |
+| ![웹 페이지](/help/assets/icons/WebPage.svg) | **[!UICONTROL 패널]** | [패널](/help/analysis-workspace/c-panels/panels.md)은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 단추 패널에서 ![WebPage](/help/assets/icons/WebPage.svg)를 선택하여 사용 가능한 패널 전체 목록을 확인합니다. |
+| ![안내식 분석](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 안내식 분석]** | [안내가 있는 분석](../guided-analysis/overview.md)을 통해 안내가 있는 워크플로우를 통해 고품질 데이터와 고객 여정에 대한 통찰력을 셀프서비스할 수 있습니다. Workspace 프로젝트에 포함하기 위한 분석을 만들거나 이전에 저장된 기존 분석을 포함할 수 있습니다. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 시각화]** | 막대 또는 선 차트와 같은 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 사용하여 데이터를 시각적으로 표현할 수 있습니다. 맨 왼쪽 패널에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 사용 가능한 시각화의 전체 목록을 확인합니다. |
+| ![조정](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | [구성 요소](/help/components/overview.md)에는 다음 요소가 포함되어 있습니다.<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![이벤트](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![세그먼테이션](/help/assets/icons/Segmentation.svg) [필터](/help/components/filters/filters-overview.md)</li><li>![일정](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul> |
+| ![보기 목록](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차에서는 프로젝트에 포함된 모든 패널 및 시각화를 축소 가능한 목록으로 구성하여 특정 패널 또는 시각화에 빠르게 액세스할 수 있습니다. |
+| ![책갈피](/help/assets/icons/Bookmark.svg) | **데이터 사전** | [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 사용자와 관리자 모두 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다. |
 
 
 ## 메뉴

@@ -5,10 +5,10 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 99%
+source-wordcount: '1435'
+ht-degree: 91%
 
 ---
 
@@ -20,19 +20,19 @@ Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분�
 
 다음 안내식 분석 보기를 사용할 수 있습니다.
 
-| 분석 유형 | 보기 유형 | 설명 |
-| --- | --- | --- |
-| [!UICONTROL 기능 매트릭스] | [참여](types/engagement.md) | 기능 참여의 폭과 깊이를 이해합니다. |
-| [!UICONTROL 단계] | [마찰](types/friction.md) | 단계 간 전환율을 비교합니다. |
-| [!UICONTROL 단계] | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
-| [!UICONTROL 영향] | [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능을 비교합니다. |
-| [!UICONTROL 영향] | [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향을 측정합니다. |
-| [!UICONTROL 유지] | [유지율](types/retention-rates.md) | 사용자의 지속적인 재방문 습관을 측정합니다. |
-| [!UICONTROL 트렌드] | [사용](types/usage.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
-| [!UICONTROL 트렌드] | [빈도](types/frequency.md) | 사용 빈도로 참여도를 측정합니다. |
-| [!UICONTROL 사용자 성장] | [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태를 식별합니다. |
-| [!UICONTROL 사용자 성장] | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
-| [!UICONTROL 사용자 스트림] | [타임라인](types/timeline.md) | 세션 활동에서의 패턴을 탐색합니다. |
+| 보기 유형 | 설명 |
+| --- | --- |
+| [참여](types/engagement.md) | 기능 참여의 폭과 깊이를 이해합니다. |
+| [마찰](types/friction.md) | 단계 간 전환율을 비교합니다. |
+| [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
+| [릴리스](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능을 비교합니다. |
+| [최초 사용](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향을 측정합니다. |
+| [유지율](types/retention-rates.md) | 사용자의 지속적인 재방문 습관을 측정합니다. |
+| [사용](types/usage.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
+| [빈도](types/frequency.md) | 사용 빈도로 참여도를 측정합니다. |
+| [활성](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태를 식별합니다. |
+| [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
+| [타임라인](types/timeline.md) | 세션 활동에서의 패턴을 탐색합니다. |
 
 {style="table-layout:auto"}
 
@@ -40,15 +40,27 @@ Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분�
 
 Customer Journey Analytics 홈페이지에서 안내가 있는 분석에 액세스할 수 있습니다.
 
-1. 홈 페이지에서 **[!UICONTROL 안내식 분석]**&#x200B;을 클릭하면 [사용 현황 추세 보기](types/usage.md)로 바로 이동합니다.
+1. 홈페이지에서 **[!UICONTROL 안내가 있는 분석]**&#x200B;을 선택하면 [사용 트렌드 보기](types/usage.md)로 바로 이동합니다.
 
    ![랜딩 페이지 타일](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하여 다양한 보기 옵션을 확인하고 분석을 위한 다양한 시작점을 선택할 수 있습니다.
+1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택하여 다양한 보기 옵션을 확인하고 다른 분석 시작점을 선택하십시오.
 
    ![새 모달 만들기](assets/create-new-modal.png){style="border:1px solid gray"}
 
-조직이 아직 안내식 분석을 위해 프로비저닝되지 않은 경우 Adobe 계정 팀에 문의하십시오.
+Analysis Workspace 프로젝트 내에서 Guided Analysis에 액세스할 수도 있습니다.
+
+1. 홈 페이지에서 **[!UICONTROL 빈 프로젝트]**&#x200B;를 선택하여 빈 Workspace 프로젝트를 만듭니다.
+
+   ![빈 프로젝트 만들기](assets/blank-project.png){style="border:1px solid gray"}
+
+1. 왼쪽 레일에서 ![분석 가이드](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL 분석 가이드]**&#x200B;을 선택합니다.
+
+   ![Workspace 왼쪽 레일](assets/workspace-left-rail.png){style="border:1px solid gray"}
+
+1. 보기 유형을 Workspace 캔버스로 드래그한 다음 **[!UICONTROL 만들기]** 버튼을 선택하여 원하는 분석을 생성합니다. **[!UICONTROL 저장됨]** 섹션 아래에서 기존 분석을 Workspace 캔버스로 드래그할 수도 있습니다.
+
+   ![패널 만들기](assets/create-panel.png)
 
 ## 인터페이스
 
