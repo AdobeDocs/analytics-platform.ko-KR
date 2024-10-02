@@ -3,31 +3,32 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b7e8c535d178ef406e1563408cee83c638d6858b
+source-git-commit: c403e2bbf20de3dca4440160ef3f69a9d0d60a2f
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 50%
 
 ---
 
-# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 9월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2024년 10월)
 
-**마지막 업데이트**: 2024년 9월 11일
+**마지막 업데이트**: 2024년 10월 2일 목요일
 
-이번 릴리스 정보에는 2024년 9월 11일부터 10월 초까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2024년 10월 2일부터 2024년 10월 22일까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **계산된 지표 관리자 및 필터 관리자 내 “다음에서 사용” 열의 추가 정보** | 계산된 지표 관리자 및 필터 관리자의 “다음에서 사용” 열에는 다음과 같은 새로운 보고 영역이 포함되어 있습니다.<ul><li>**Report Builder**: Report Builder에서 사용되는 계산된 지표 또는 필터의 수를 보여 줍니다.</li><li>**애드혹 구성 요소**: 프로젝트에서 사용되는 애드혹 계산된 지표 또는 애드혹 필터의 수를 보여 줍니다. 이러한 애드혹 계산된 지표 및 필터(“빠른 계산된 지표” 및 “빠른 필터”라고도 함)는 생성된 프로젝트에서만 사용할 수 있으므로 “다음에서 사용” 열의 “프로젝트” 보고 영역에서 별도로 보고됩니다.</li></ul>자세한 내용은 [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager) 및 [필터 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/manage-filters)를 참조하시기 바랍니다. |  | 2024년 9월 11일 |
-| **경고** | Customer Journey Analytics의 경고 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다.<p>Customer Journey Analytics 패키지를 기반으로 예외 항목 임계값에 따라 경고를 트리거하도록 설정할 수도 있습니다. 이러한 경고(“지능형 경고”라고도 함)는 예외 항목 탐지 기능과 통합하여 필요 시 트리거되는 세부적인 컨트롤을 제공합니다.</p><p>Customer Journey Analytics에서의 경고 사용 프로세스는 Adobe Analytics에서의 경고 사용 프로세스와 거의 동일합니다. 한 가지 주요 차이점은 시간별 경고는 Customer Journey Analytics에서 사용할 수 없다는 것입니다. 이러한 차이는 가져올 수 있는 다양한 이벤트 데이터에 대한 데이터 수집이 일반적으로 데이터 이벤트 시간보다 3~9시간 정도 지연된 이후에 완료되기 때문입니다.</p><p>Adobe Analytics에서의 경고 사용과 Customer Journey Analytics에서의 경고 사용 간 차이점에 대한 자세한 내용은 [경고 기능 비교](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)를 참조하십시오.</p><p>경고에 대한 자세한 내용은 [경고 개요](/help/components/c-intelligent-alerts/intelligent-alerts.md)를 참조하십시오. |  | 2024년 9월 13일 |
-| **Adobe Analytics Source Connector 업데이트** | Analytics Source Connector는 Adobe에서 전적으로 관리하므로 데이터 세트 활동 페이지에는 배치에 대한 정보가 표시되지 않습니다. 수집한 레코드 주변의 지표를 확인하여 데이터 흐름을 모니터링할 수 있습니다. 자세한 내용은 [Analytics 데이터의 소스 연결을 만드는 방법](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)에 관한 안내서를 참조하십시오. |  | 지금 사용 가능 |
-| **안내식 분석: Workspace에 임베드** | Analysis Workspace에서 여러 안내식 분석을 단일 보기로 결합합니다. (참조할 설명서 링크) | 2024년 10월 2일 | 2024년 10월 31일 금요일 |
+| **안내식 분석: Workspace에 임베드** | [안내식 분석](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)을 이제 Analysis Workspace에서 바로 사용할 수 있으므로 사용자가 패널, 시각화 및 안내식 분석의 포괄적인 통찰력을 통해 대시보드를 만들 수 있습니다. 새 왼쪽 레일 섹션에서 안내식 분석을 새로 만들어 프로젝트에 추가할 수 있습니다. 여러 프로젝트에서 빌딩 블록으로 다시 사용할 수 있는 저장된 가이드 분석에 액세스할 수도 있습니다. | 2024년 10월 2일 | 2024년 10월 31일 |
+| **제품 사용** | 귀하의 조직에서 Customer Journey Analytics를 어떻게 사용할 수 있는지 확인해 보십시오. 이 기능을 활성화하면 조직 내에서 Analysis Workspace를 사용할 때 Adobe Experience Platform에 데이터를 수집하는 데이터 세트가 생성됩니다. 연결 및 데이터 보기도 자동으로 생성되므로 상위 프로젝트 유형, 가장 활동적인 사용자, 프로젝트에서 가장 많이 사용되는 구성 요소 등의 차원에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | 2024년 10월 3일 금요일 | 2024년 10월 23일 목요일 |
+| **여정 캔버스 시각화** | 여정 캔버스는 사용자가 정의된 여정을 통해 진행하거나 폴아웃하는 방법을 분석할 수 있는 Analysis Workspace의 시각화입니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 구축해 보세요. 캔버스에서 노드를 끌어다 놓아 여정의 이벤트와 조건을 재정렬하세요. 데이터가 이에 따라 업데이트됩니다.<p>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다.<p>여정 캔버스에 대한 자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)를 참조하세요.<p>여정 캔버스 시각화를 만드는 방법에 대해 알아보려면 [여정 캔버스 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하세요. | 2024년 10월 2일 | 2024년 10월 14일 화요일 |
+| 이제 대상을 만들 때 **패널 필터 및 열 필터가 포함됩니다** | 이제 Analysis Workspace 내의 시각화에서 대상자를 만들 때 패널 필터 및 열 필터가 추가 기준으로 포함됩니다. 필터가 필요하지 않으면 대상자를 게시하기 전에 제거할 수 있습니다. 이전에는 Analysis Workspace에서 패널 또는 시각화의 열에 적용된 필터가 대상자를 만들 때 무시되었습니다.<p>Customer Journey Analytics에서 대상자를 만드는 방법에 대한 자세한 내용은 [대상자 만들기 및 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)를 참조하십시오. |  | 2024년 10월 2일 |
+
 
 ## Customer Journey Analytics의 수정 사항
 
-AN-352461; AN-355446: AN-355665
+AN-354085; AN-355870; AN-356037; AN-356881; AN-357100; AN-358193; AN-358364; AN-358911; AN-359000; AN-359160
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
 
@@ -35,7 +36,6 @@ AN-352461; AN-355446: AN-355665
 | --- | --- | --- |
 | 해당 사항 없음 | | |
 
-{style="table-layout:auto"}
 
 ## 관련 리소스
 
