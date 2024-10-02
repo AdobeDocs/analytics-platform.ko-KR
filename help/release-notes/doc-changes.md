@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d0dbdcb6fa1402bce73584d1dd9165c1b3f00b33
+source-git-commit: 51d4f05d7d28befed0a5c0d1b47b53c2e045f7f7
 workflow-type: tm+mt
-source-wordcount: '4064'
-ht-degree: 70%
+source-wordcount: '4090'
+ht-degree: 69%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 10월** | |
+| Workspace 및 구성 요소 | Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 콘텐츠(주석, 차원, (계산된) 지표, 필터, 날짜 범위 및 경고)에 대한 설명서를 새로 고쳤습니다. |
 | **2024년 9월** | |
 | 요약 데이터 업데이트 | 요약 데이터에 대해 보고할 때 [조회 데이터](/help/data-views/summary-data.md#lookup-data)를 올바르게 사용하는 방법에 대한 정보로 요약 데이터 문서를 업데이트했습니다. |
 | BI 확장 업데이트 | BI 확장 설명서에 [기본값 및 제한](/help/data-views/bi-extension.md#defaults-and-limitations) 섹션을 추가했습니다. |
