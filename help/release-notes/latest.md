@@ -3,10 +3,10 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c403e2bbf20de3dca4440160ef3f69a9d0d60a2f
+source-git-commit: e45b57ca3ec55493c252336ac0b78fef97e03b36
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 50%
+source-wordcount: '513'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 | **제품 사용** | 귀하의 조직에서 Customer Journey Analytics를 어떻게 사용할 수 있는지 확인해 보십시오. 이 기능을 활성화하면 조직 내에서 Analysis Workspace를 사용할 때 Adobe Experience Platform에 데이터를 수집하는 데이터 세트가 생성됩니다. 연결 및 데이터 보기도 자동으로 생성되므로 상위 프로젝트 유형, 가장 활동적인 사용자, 프로젝트에서 가장 많이 사용되는 구성 요소 등의 차원에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | 2024년 10월 3일 금요일 | 2024년 10월 23일 목요일 |
 | **여정 캔버스 시각화** | 여정 캔버스는 사용자가 정의된 여정을 통해 진행하거나 폴아웃하는 방법을 분석할 수 있는 Analysis Workspace의 시각화입니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 구축해 보세요. 캔버스에서 노드를 끌어다 놓아 여정의 이벤트와 조건을 재정렬하세요. 데이터가 이에 따라 업데이트됩니다.<p>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다.<p>여정 캔버스에 대한 자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)를 참조하세요.<p>여정 캔버스 시각화를 만드는 방법에 대해 알아보려면 [여정 캔버스 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하세요. | 2024년 10월 2일 | 2024년 10월 14일 화요일 |
 | 이제 대상을 만들 때 **패널 필터 및 열 필터가 포함됩니다** | 이제 Analysis Workspace 내의 시각화에서 대상자를 만들 때 패널 필터 및 열 필터가 추가 기준으로 포함됩니다. 필터가 필요하지 않으면 대상자를 게시하기 전에 제거할 수 있습니다. 이전에는 Analysis Workspace에서 패널 또는 시각화의 열에 적용된 필터가 대상자를 만들 때 무시되었습니다.<p>Customer Journey Analytics에서 대상자를 만드는 방법에 대한 자세한 내용은 [대상자 만들기 및 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)를 참조하십시오. |  | 2024년 10월 2일 |
-
+| **자산 전송** | 프로젝트, 필터 및 계산된 지표와 같은 구성 요소의 소유권을 다른 사용자에게 이전하여 연속성과 적절한 액세스를 보장할 수 있습니다. | 10월 15일 | 10월 22일 |
 
 ## Customer Journey Analytics의 수정 사항
 
