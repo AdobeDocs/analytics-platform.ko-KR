@@ -4,9 +4,9 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 여정 캔버스 시각화를 사용하면 사용자와 고객에게 제공하는 여정을 분석하고 심도 있는 통찰력을 얻을 수 있습니다. 이를 통해 여정을 처음부터 정의하거나 Journey Optimizer에서 하나를 본 다음, 사람들이 여정을 어떻게 떠나고(빠짐) 계속 지나가는지를 확인할 수 있습니다.
 
 이벤트, 차원 항목, 필터 및 날짜 범위의 조합을 사용하여 [사용자 여정 분석을 빌드](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)하여 여정 노드를 만들 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 의사 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열합니다. 데이터를 변경할 때 실시간으로 업데이트됩니다.
+
+[노드는 &quot;최종 경로&quot;로 연결](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)됩니다. 즉, 방문자는 두 노드 사이에서 발생하는 이벤트에 관계없이 한 노드에서 다른 노드로 이동하는 한 계산됩니다. 사용자가 경로를 이동하는 데 할당되는 시간은 컨테이너 설정에 따라 결정됩니다.
+
+![여정 캔버스](assets/journey-canvas.png)
 
 ## 주요 기능
 
@@ -39,13 +43,13 @@ ht-degree: 2%
 
 * 여정을 완료한(종료 노드에 도착한) 사람의 수와 백분율
 
-* 여정의 특정 지점(노드)에 도착한 사람의 수와 백분율
+* 여정의 특정 노드에 도착한 사람의 수 및 백분율
 
-* 여정의 지정된 지점(노드) 이후 또는 이전에 발생한 가장 일반적인 단계
+* 여정의 주어진 노드 이후 또는 이전에 발생한 가장 일반적인 단계
 
 **폴아웃**
 
-* 사람들이 여정에서 가장 일반적으로 이탈하는 여정의 지점(노드)(바로 다음 노드에 도달하지 않음)
+* 사람들이 가장 일반적으로 여정에서 떨어진 여정 노드(바로 다음 노드에 도착한 적이 없음)
 
 **기타**
 

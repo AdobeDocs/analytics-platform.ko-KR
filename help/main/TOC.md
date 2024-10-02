@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 90%
+source-wordcount: '1021'
+ht-degree: 92%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 90%
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [지능형 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
       + 자유 형식 테이블 {#freeform-table}
-         + [자유 형식 테이블 개요](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [개요](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
@@ -136,22 +136,22 @@ ht-degree: 90%
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
-         + [집단 테이블 개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [집단 테이블 구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [집단 분석 사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 폴아웃 {#fallout}
-         + [폴아웃 개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [폴아웃 구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [폴아웃 분석에서 필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 플로우 {#flow}
-         + [플로우 개요](../analysis-workspace/visualizations/c-flow/flow.md)
-         + [플로우 구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [개요](../analysis-workspace/visualizations/c-flow/flow.md)
+         + [구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + 여정 캔버스 {#journey-canvas}
-         + [여정 캔버스 개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + [여정 캔버스 시각화 구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-         + [여정 캔버스 문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+         + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [영역(스택)](../analysis-workspace/visualizations/area.md)
       + [막대(스택)](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
@@ -168,7 +168,7 @@ ht-degree: 90%
       + [트리 맵](../analysis-workspace/visualizations/treemap.md)
       + [벤](../analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
-      + [패널 개요](../analysis-workspace/c-panels/panels.md)
+      + [개요](../analysis-workspace/c-panels/panels.md)
       + [빈 패널](../analysis-workspace/c-panels/blank-panel.md)
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
@@ -185,16 +185,16 @@ ht-degree: 90%
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
       + [보기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
    + 내보내기 {#export}
-      + [내보내기 개요](../analysis-workspace/export/export-project-overview.md)
+      + [개요](../analysis-workspace/export/export-project-overview.md)
       + [다운로드](../analysis-workspace/export/download-send.md)
       + [다른 사람에게 보내기](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + 예외 항목 탐지 {#anomaly-detection}
-      + [예외 항목 탐지 개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 예측 {#forecasting}
-      + [예측 개요](../analysis-workspace/c-forecast/forecasting.md)
+      + [개요](../analysis-workspace/c-forecast/forecasting.md)
       + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
       + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
       + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)

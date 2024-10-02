@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 49%
+source-wordcount: '1651'
+ht-degree: 50%
 
 ---
 
@@ -126,12 +126,6 @@ Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와
 그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
 Platform에서 Customer Journey Analytics 대상을 보려면 다음 작업을 수행하십시오.
-
->[!AVAILABILITY]
->
->다음 단계에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 단계가 환경에 표시되는 내용과 일치하지 않으면 대신 다음 단계를 사용하십시오. [!UICONTROL **세그먼트**] > [!UICONTROL **세그먼트 만들기**] > [!UICONTROL **대상**] 탭 > [!UICONTROL **CJA 대상**].
->
->기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 
 1. 왼쪽 패널에서 [!UICONTROL **고객**]&#x200B;을 확장한 다음 [!UICONTROL **대상**]&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
 
