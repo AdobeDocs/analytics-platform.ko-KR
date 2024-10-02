@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
+source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 50%
+source-wordcount: '1767'
+ht-degree: 47%
 
 ---
 
@@ -42,12 +42,10 @@ ht-degree: 50%
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
    | 메인 **[!UICONTROL 구성 요소] > [!UICONTROL 대상자]** 메뉴에서 | Audiences Manager 페이지가 열립니다. **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭하면 [!UICONTROL 대상자 빌더]가 열립니다. |
-   | 자유 형식 테이블 내에서 | 자유 형식 테이블에서 항목을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 선택 항목에서 대상 만들기]**&#x200B;를 선택합니다. 이 방법을 사용하면 테이블에서 선택한 차원 또는 차원 항목으로 필터가 미리 채워집니다. |
+   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화를 사용하면 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 대상을 만들 수 있습니다. 예를들어 자유 형식 테이블에서 항목을 마우스 오른쪽 단추로 클릭하거나 여정 캔버스에서 노드를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 대상 만들기]**&#x200B;를 선택할 수 있습니다. <p>이 방법을 사용하면 테이블에서 선택한 차원 또는 차원 항목으로 필터가 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 대상을 만들 수 있습니다.</p><ul><li>집단</li><li>폴아웃</li><li>흐름</li><li>자유 형식 테이블</li><li>여정 캔버스</li><li>벤</li></ul><p>**참고:** 대상에는 계산된 지표를 포함할 수 없습니다. 계산된 지표를 포함하는 대상을 만들려고 하면 계산된 지표가 대상 정의에 포함되지 않습니다.</p> |
    | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. |
 
    {style="table-layout:auto"}
-
-   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. 대상자를 빌드합니다.
 
@@ -64,7 +62,7 @@ ht-degree: 50%
    | 만료 날짜 | 대상자 새로 고침 중단일 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료될 예정인 대상자는 만료될 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 수신합니다. |
    | 전환 확인 기간 새로 고침 | 이 대상자를 생성할 때 데이터 창에서 얼마나 오래 적용될 것인지 지정합니다. 최대값은 90일입니다. |
    | [!UICONTROL 일회성 기간] | 일회성 대상자를 게시하려는 날짜 범위입니다. |
-   | [!UICONTROL 필터] | 필터는 대상자의 주요 입력입니다. 최대 20개의 필터를 추가할 수 있습니다. 이러한 필터는 `And` 또는 `Or` 연산자와 결합할 수 있습니다. |
+   | [!UICONTROL 필터] | 필터는 대상자의 주요 입력입니다. 최대 20개의 필터를 추가할 수 있습니다. 이러한 필터는 `And` 또는 `Or` 연산자와 결합할 수 있습니다.<p>Analysis Workspace의 시각화(예: 자유 형식 테이블 또는 여정 캔버스)에서 대상을 만들면 패널 또는 열에 적용된 모든 필터가 보존됩니다. 자동으로 적용되는 필터를 제거할 수 있습니다.</p> |
    | [!UICONTROL 샘플 ID 보기] | 이 대상자의 샘플 ID입니다. 검색 창을 사용하여 샘플 ID를 검색합니다. |
 
    {style="table-layout:auto"}
