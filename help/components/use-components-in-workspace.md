@@ -4,9 +4,9 @@ title: Analysis Workspace의 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->각 구성 요소에 대한 자세한 내용을 보려면 구성 요소 이름 옆에 있는 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 아이콘을 선택하십시오.
+>각 구성 요소에 대한 자세한 내용은 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 사용하십시오. 자세한 내용은 [구성 요소 정보](#component-info)를 참조하세요.
 
 ## 프로젝트에 구성 요소 추가
 

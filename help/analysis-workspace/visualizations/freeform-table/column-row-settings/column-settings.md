@@ -4,9 +4,9 @@ title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '882'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 19%
 
 조건부 서식을 지정하면 정의할 수 있는 상한, 중간점 및 하한에 서식이 적용됩니다. [!UICONTROL 사용자 지정] 제한을 선택하지 않은 경우 자유 형식 테이블 내에서 조건부 서식을 적용할 수도 분류에서 자동으로 활성화됩니다.
 
-<img src="./assets/conditional-formatting.png" alt="사용자 지정 이 선택된 조건부 서식 옵션" width="40%" />
+![조건부 서식](./assets/conditional-formatting.png)
 
 | 조건부 서식 옵션 | 설명 |
 | --- | --- |
@@ -67,9 +67,19 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
->abstract="선택한 열에 대해 기본값이 아닌 속성 모델 활성화"
+>abstract="선택한 열에 대해 기본값이 아닌 속성 모델을 활성화합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="비기본 속성 모델 사용"
+>abstract="기본값이 아닌 속성 모드는 이 지표에 사용할 수 없습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 [데이터 보기](/help/data-views/component-settings/attribution.md)에 구성된 기본 속성 모델을 재정의할 수 있습니다.

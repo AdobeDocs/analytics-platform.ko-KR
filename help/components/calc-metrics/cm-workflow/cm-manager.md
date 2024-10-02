@@ -3,10 +3,10 @@ description: 계산된 지표 관리자를 사용하여 공유, 필터링, 태�
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '901'
+ht-degree: 6%
 
 ---
 
@@ -51,17 +51,17 @@ ht-degree: 5%
 
 작업 표시줄을 사용하여 필터에 대해 작업을 수행할 수 있습니다➋. 작업 모음 에는 다음 작업이 포함되어 있습니다.
 
-| 액션 | 설명 |
-|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [계산된 지표 빌더](cm-build-metrics.md)를 사용하여 다른 계산된 지표를 추가합니다. |
-| ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 계산된 지표를 선택하지 않으면 이 검색 필드를 사용하여 필터를 검색합니다. |
-| ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 계산된 지표에 태그를 지정합니다. **[!UICONTROL 계산된 지표 태그 지정]** 대화 상자에서 선택한 계산된 지표에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 태그를 저장합니다. 자세한 내용은 [계산된 지표에 태그 지정](cm-tagging.md)을 참조하십시오. |
-| ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 선택한 계산된 지표를 공유합니다. **[!UICONTROL 계산된 지표 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [계산된 지표 공유](cm-sharing.md)를 참조하십시오. |
-| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 계산된 지표를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
-| ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 계산된 지표의 이름을 변경합니다. 선택하면 계산된 지표의 이름을 인라인으로 바꿀 수 있습니다. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 계산된 지표를 승인합니다. [계산된 지표 승인](cm-approving.md)을 참조하세요. |
-| ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 계산된 지표를 복사합니다. 새 계산된 지표가 같은 이름 및 접미사 `(Copy)`(으)로 만들어졌습니다. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 계산된 지표를 `Calculated  metric List.csv` 파일로 내보냅니다. |
+| 아이콘 | 액션 | 설명 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 추가]** | [계산된 지표 빌더](cm-build-metrics.md)를 사용하여 다른 계산된 지표를 추가합니다. |
+| ![검색](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 계산된 지표를 선택하지 않으면 이 검색 필드를 사용하여 필터를 검색합니다. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 계산된 지표에 태그를 지정합니다. **[!UICONTROL 계산된 지표 태그 지정]** 대화 상자에서 선택한 계산된 지표에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 태그를 저장합니다. 자세한 내용은 [계산된 지표에 태그 지정](cm-tagging.md)을 참조하십시오. |
+| ![공유](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 선택한 계산된 지표를 공유합니다. **[!UICONTROL 계산된 지표 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 계산된 지표에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [계산된 지표 공유](cm-sharing.md)를 참조하십시오. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 계산된 지표를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 변경]** | 선택한 단일 계산된 지표의 이름을 변경합니다. 선택하면 계산된 지표의 이름을 인라인으로 바꿀 수 있습니다. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** | 선택한 계산된 지표를 승인합니다. [계산된 지표 승인](cm-approving.md)을 참조하세요. |
+| ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 계산된 지표를 복사합니다. 새 계산된 지표가 같은 이름 및 접미사 `(Copy)`(으)로 만들어졌습니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 계산된 지표를 `Calculated  metric List.csv` 파일로 내보냅니다. |
 
 ### 활성 필터 막대
 

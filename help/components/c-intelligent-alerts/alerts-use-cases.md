@@ -1,12 +1,12 @@
 ---
 description: 경고에 대한 활용 사례.
-title: 경고 - 사용 사례
+title: 경고 사용 사례
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 38%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 38%
 
 다음 섹션에서는 경고를 만들 때 고려할 사용 사례에 대해 설명합니다.
 
-## 두 개의 필터로 필터링된 단순 경고 만들기 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## 경고 필터링
+
+필터를 사용하여 간단한 경고를 만들 수 있습니다. 예를 들어 모바일 앱 세션을 통해 홈 페이지를 방문하는 사용자의 세션 수에 대한 경고를 정의합니다.
 
 <!-- 
 
@@ -24,12 +26,12 @@ Update screenshots for better readability.
 
  -->
 
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## 여러 경고를 만드는 대신 경고를 통합 (스택) {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 경고 스택
 
-경고를 스태킹하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다.
+여러 경고를 만드는 대신 경고를 통합(스택)할 수 있습니다. 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다. 아래 예에서는 지표 임계값 중 하나가 트리거되면 경고가 전송됩니다.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

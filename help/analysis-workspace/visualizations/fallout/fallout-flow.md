@@ -4,7 +4,7 @@ title: 폴아웃 보고서 및 시각화 정보
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: b38e9052618f7326cd5ea22b6cda8b96624a3f84
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 46%
@@ -23,7 +23,7 @@ ht-degree: 46%
 <!-- markdownlint-enable MD034 -->
 
 
-![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) [!UICONTROL 폴아웃] 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다.
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 폴아웃]** 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다.
 
 +++ [!UICONTROL 폴아웃 시각화]의 비디오 데모를 봅니다.
 

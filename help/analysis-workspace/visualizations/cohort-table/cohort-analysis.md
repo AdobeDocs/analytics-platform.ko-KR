@@ -4,7 +4,7 @@ description: Analysis Workspace에서 집단 분석에 집단 테이블을 사�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 25%
@@ -32,7 +32,7 @@ ht-degree: 25%
 <!-- markdownlint-enable MD034 -->
 
 
-*집단*&#x200B;은(는) 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. ![텍스트 번호](/help/assets/icons/TextNumbered.svg) [!UICONTROL 집단 테이블] 시각화는 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*집단*&#x200B;은(는) 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. ![텍스트 번호](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 집단 테이블]** 시각화는 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
 집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 필터)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 

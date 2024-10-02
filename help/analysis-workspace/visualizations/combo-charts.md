@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 42%
+source-wordcount: '579'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 42%
    | 선 비교 유형 | 정의 |
    | --- | --- |
    | **[!UICONTROL 시간 비교]** | 예를 들어 가장 일반적인 비교 유형은 4주 전과 이 기간을 비교하는 것입니다. [!UICONTROL 시간 비교]를 선택한 경우 비교할 기간에 대해 2차 선택을 합니다.<p>![선택한 기간과 비교 및 기간에 대한 보조 선택 필드](assets/combo-time-period.png) |
-   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![선택한 함수 및 사용 가능한 지원되는 함수 목록을 표시하는 [기본 비교] 드롭다운 메뉴입니다.](assets/combo-functions.png) |
+   | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. [지원되는 함수](#supported-functions) 목록을 참조하십시오.<p>![선택한 함수 및 사용 가능한 지원되는 함수 목록을 표시하는 [기본 비교] 드롭다운 메뉴입니다.](assets/combo-functions.png) |
    | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![두 지표를 비교하는 콤보 차트입니다.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}

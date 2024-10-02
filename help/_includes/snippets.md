@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '3646'
 ht-degree: 35%
@@ -97,18 +97,15 @@ ht-degree: 35%
 
 ## 비디오 데모 Adobe Analytics {#videoaa}
 
->[!NOTE]
->
->이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 그러나 이 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. 용어의 다음과 같은 차이점에 유의하십시오.
->
->
->| Adobe Analytics | Customer Journey Analytics |
->|:---:|:---:|
->| 세그먼트 | 필터 |
->| 방문자 | 사람 |
->| 방문 | 세션 |
->| 히트 | 이벤트 |
->
+이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 그러나 이 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. 용어의 다음과 같은 차이점에 유의하십시오.
+
+| Adobe Analytics | Customer Journey Analytics |
+|:---:|:---:|
+| 세그먼트 | 필터 |
+| 방문자 | 사람 |
+| 방문 | 세션 |
+| 히트 | 이벤트 |
+
 
 ## 필터 패널 {#filterspanel}
 

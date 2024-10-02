@@ -3,10 +3,10 @@ description: 경고를 생성, 편집 또는 삭제합니다.
 title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 4%
+source-wordcount: '567'
+ht-degree: 7%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 4%
 
 작업 표시줄을 사용하여 경고에 대한 작업을 수행할 수 있습니다➋. 작업 모음 에는 다음 작업이 포함되어 있습니다.
 
-| 액션 | 설명 |
-|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [경고 빌더](alert-builder.md#alert-builder)를 사용하여 다른 경고를 추가하십시오. |
-| ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 경고를 선택하지 않은 경우 이 검색 필드를 사용하여 경고를 검색합니다. |
-| ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 경고에 태그를 지정합니다. **[!UICONTROL 태그 경고]** 대화 상자에서 선택한 경고에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 경고에 대한 태그를 저장합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 경고를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
-| ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 경고의 이름을 변경합니다. 선택하면 경고 이름을 인라인으로 바꿀 수 있습니다. |
-| ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 경고를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 경고를 만듭니다. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 활성화]** 또는 **[!UICONTROL 비활성화]** | 선택한 경고를 활성화하거나 비활성화합니다. |
-| ![새로 고침](/help/assets/icons/Refresh.svg) **[!UICONTROL 갱신]** | 경고 만료일을 갱신합니다. 원래 만료 날짜와 상관없이 이 옵션을 선택한 날부터 1년이 만료됩니다. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 경고를 `Alerts List.csv` 파일로 내보냅니다. |
+| 아이콘 | 액션 | 설명 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 추가]** | [경고 빌더](alert-builder.md#alert-builder)를 사용하여 다른 경고를 추가하십시오. |
+| ![검색](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 경고를 선택하지 않은 경우 이 검색 필드를 사용하여 경고를 검색합니다. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 경고에 태그를 지정합니다. **[!UICONTROL 태그 경고]** 대화 상자에서 선택한 경고에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 경고에 대한 태그를 저장합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 경고를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 변경]** | 선택한 단일 경고의 이름을 변경합니다. 선택하면 경고 이름을 인라인으로 바꿀 수 있습니다. |
+| ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 경고를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 경고를 만듭니다. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 사용]** 또는 **[!UICONTROL 사용 안 함]** | 선택한 경고를 활성화하거나 비활성화합니다. |
+| ![새로 고침](/help/assets/icons/Refresh.svg) | **[!UICONTROL 갱신]** | 경고 만료일을 갱신합니다. 원래 만료 날짜와 상관없이 이 옵션을 선택한 날부터 1년이 만료됩니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 경고를 `Alerts List.csv` 파일로 내보냅니다. |
 
 
 ### 활성 필터 막대

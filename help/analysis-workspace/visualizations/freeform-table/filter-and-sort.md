@@ -4,9 +4,9 @@ title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 42%
 
 ---
@@ -47,7 +47,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. 제외할 행을 마우스로 가리킨 다음 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
 
-   Shift 키를 누른 상태로 행 범위를 선택하거나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 상태로 여러 행을 선택합니다.
+   행 범위를 선택하려면 ***shift***&#x200B;를 누르고 있거나, 여러 행을 선택하려면 ***cmd*** 키(Mac의 경우) 또는 ***ctrl*** 키(Windows의 경우)를 누르고 있습니다.
 
 <!--### Right-click > Delete selected rows
 

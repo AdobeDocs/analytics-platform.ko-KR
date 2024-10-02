@@ -4,9 +4,9 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2167'
 ht-degree: 23%
 
 ---
@@ -180,7 +180,6 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 * 기본 지표에 더하거나 빼는 상수(예: `Revenue+50`)
 * 다음 기본 지표 중 하나:
    * 사용자
-   * (그 밖에 어떤 것이 있습니까?)
 
 실험 패널과 호환되지 않는 계산된 지표는 계산된 지표를 만들 때 [!UICONTROL **제품 호환성**] 필드에 [!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**] 값이 있습니다. 계산된 지표를 만드는 방법에 대한 자세한 내용은 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)을 참조하십시오.
 

@@ -4,7 +4,7 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 30%
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 
 
-![GraphPathing](/help/assets/icons/GraphPathing.svg) [!UICONTROL 흐름] 시각화는 웹 사이트 및 앱을 통한 고객 경로를 보여 줍니다.
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 흐름]** 시각화는 웹 사이트 및 앱을 통한 고객 경로를 보여 줍니다.
 
 시각화를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -37,7 +37,7 @@ ht-degree: 30%
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치를 분석합니다.
 * 선택한 경로에서 특정 지점을 지정하여 필터 생성
 
-+++ [!UICONTROL 흐름] 시각화의 비디오 데모를 봅니다.
++++ 플로우 시각화에 대한 비디오 데모를 봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 
