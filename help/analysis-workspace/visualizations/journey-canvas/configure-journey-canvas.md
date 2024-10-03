@@ -4,9 +4,9 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 3b9f477001747a96359f77f2e48baf7589b7a1e4
 workflow-type: tm+mt
-source-wordcount: '6593'
+source-wordcount: '6391'
 ht-degree: 1%
 
 ---
@@ -149,10 +149,6 @@ ht-degree: 1%
 
 ### 기존 노드를 기반으로 최상위 노드 표시
 
->[!AVAILABILITY]
->
->이 기능은 아직 사용할 수 없습니다.
-
 캔버스에 이미 있는 노드를 기준으로 최상위 노드를 자동으로 표시할 수 있습니다. 여정 캔버스에 상위 노드를 추가하거나 자유 형식 테이블에서 볼 수 있습니다.
 
 이 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
@@ -221,17 +217,17 @@ ht-degree: 1%
 
 ### 노드 복제
 
->[!AVAILABILITY]
->
->이 기능은 아직 사용할 수 없습니다.
-
 복제 옵션은 캔버스의 다음 오브젝트에 사용할 수 있습니다.
+
+* 개별 노드
 
 * 여러 노드
 
 노드를 복제하려면 다음을 수행하십시오.
 
-1. 복제할 여러 노드를 선택합니다.
+1. 복제할 노드를 하나 이상 선택합니다.
+
+   여러 노드를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
 
 1. 선택한 노드 중 하나를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **복제**]&#x200B;를 선택합니다.
 
@@ -263,7 +259,7 @@ ht-degree: 1%
 
 * 왼쪽 레일에서 Shift 키를 누른 채 캔버스의 빈 영역으로 여러 구성 요소를 동시에 드래그합니다.
 
-* 캔버스에서 결합할 노드를 선택하고 선택한 노드 중 하나를 마우스 오른쪽 단추로 클릭한 다음 **결합**.<!--Is there a limit on how many you can combine? -->을 선택합니다.
+<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
 
 #### 노드 결합 시 논리
 
@@ -304,7 +300,7 @@ ht-degree: 1%
 
 여정 캔버스에서 노드를 연결하면 THEN 연산자를 사용하여 연결됩니다. 이를 [순차적 필터링](/help/components/filters/seg-sequential-build.md)이라고도 합니다.
 
-노드는 &quot;최종 경로&quot;로 연결됩니다. 즉, 방문자는 두 노드 간에 발생하는 모든 이벤트에 관계없이 결국 한 노드에서 다른 노드로 이동하는 한 카운트됩니다. 사용자가 경로를 이동하는 데 할당되는 시간은 컨테이너 설정에 따라 결정됩니다. [시간 제약 조건을 추가](#add-a-time-constraint-between-nodes)하여 제어할 수도 있습니다.
+노드는 &quot;최종 경로&quot;로 연결됩니다. 즉, 방문자는 두 노드 간에 발생하는 모든 이벤트에 관계없이 결국 한 노드에서 다른 노드로 이동하는 한 카운트됩니다. 사용자가 경로를 이동하는 데 할당되는 시간은 컨테이너 설정에 따라 결정됩니다. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 노드를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **노드에서 필터 만들기**]&#x200B;를 선택하여 연결된 노드의 논리를 볼 수 있습니다. 논리는 [!UICONTROL **정의**] 섹션에 표시됩니다.
 
@@ -328,23 +324,23 @@ ht-degree: 1%
 
 자세한 내용은 [노드 추가](#add-nodes)를 참조하십시오.
 
-### 노드 사이에 시간 제한 추가
+<!--
+
+### Add a time constraint between nodes
 
 >[!AVAILABILITY]
 >
->이 기능은 아직 사용할 수 없습니다.
+>This feature is not yet available.
 
-노드 간에 시간 제한을 설정할 수 있습니다. 시간 제한이 있는 경우, 정의된 여정을 따르지만 노드 간에 이동하는 데 할당된 기간보다 오래 걸리는 경우 여정에서 떨어진 것으로 간주됩니다.
+You can set a time constraint between nodes. When a time constraint is in place, people are considered to have fallen out of the journey if they follow the defined journey but take longer than the allotted time period to move between the nodes.
 
-캔버스의 다음 객체에 시간 제한을 추가하는 옵션을 사용할 수 있습니다.
+The option to add a time constraint is available for the following objects on the canvas:
 
-* 노드 사이의 화살표
+* The arrow between nodes
 
-시간 제한을 추가하려면 다음을 수행합니다.
+To add a time constraint:
 
-1. 여정 캔버스 시각화에서 두 노드 사이의 화살표를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시간 제한 추가**]&#x200B;를 선택합니다.
-
-<!-- 
+1. In a Journey canvas visualization, right-click the arrow between 2 nodes, then select [!UICONTROL **Add time constraint**].
 
 from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
 1. Choose from the following options: 
@@ -353,35 +349,35 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ## 노드 또는 화살표 관리
 
-### 노드 또는 화살표 색상 변경
+<!--
+
+### Change the color of a node or arrow
 
 >[!AVAILABILITY]
 >
->이 기능은 아직 사용할 수 없습니다.
+>This feature is not yet available.
 
-캔버스에서 노드 또는 화살표의 색상을 변경하여 여정을 시각적으로 사용자 지정할 수 있습니다. 예를 들어 색상을 조정하여 바람직하거나 바람직하지 않은 이벤트를 나타낼 수 있습니다.
+You can visually customize a journey by changing the color of any node or arrow on the canvas. For example, you could adjust colors to indicate a desirable or undesirable event.
 
-캔버스에서 다음 객체에 대해 색상을 변경하는 옵션을 사용할 수 있습니다.
+The option to change the color is available for the following objects on the canvas:
 
-* 개별 노드
+* Individual nodes
 
-* 노드 사이의 화살표
+* The arrow between nodes
 
-노드 또는 화살표의 색상을 변경하려면
+To change the color of a node or arrow:
 
-1. 여정 캔버스 시각화에서 색상을 변경할 노드 또는 화살표를 마우스 오른쪽 버튼으로 클릭합니다.
+1. In a Journey canvas visualization, right-click the node or arrow whose color you want to change.
 
-1. [!UICONTROL **색상 변경**]&#x200B;을 선택합니다. <!--make sure "color" isn't capitalized. It is in the req doc-->
+1. Select [!UICONTROL **Change color**]. 
 
-1. 원하는 색상을 선택합니다.
+1. Select the desired color. 
 
-   다음 색상을 사용할 수 있습니다. <!--look into this interaction and color list-->
+   The following colors are available: 
+
+-->
 
 ### 노드 이름 바꾸기
-
->[!AVAILABILITY]
->
->이 기능은 아직 사용할 수 없습니다.
 
 구성 요소를 여정 캔버스 시각화로 드래그하면 구성 요소 이름과 동일한 이름의 노드가 만들어집니다. 노드가 나타내는 여정의 단계와 더 잘 일치하도록 노드의 이름을 변경할 수 있습니다.
 
@@ -453,15 +449,13 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 #### 하나 이상의 노드 또는 화살표에 분류 적용
 
->[!AVAILABILITY]
->
->이 기능은 아직 사용할 수 없습니다.
-
 1. 여정 캔버스 시각화에서 분류를 적용할 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
    또는
 
    여정 캔버스 시각화에서 분류를 적용할 2개 노드 사이의 화살표를 하나 이상 선택한 다음 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+
+   여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
 
 1. [!UICONTROL **분류**]&#x200B;를 선택하십시오.
 
@@ -513,6 +507,8 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
    여정 캔버스 시각화에서 대상자를 만들려는 2개의 노드 사이에 있는 하나 이상의 화살표를 선택한 다음, 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
+   여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
+
    >[!NOTE]
    >
    >대상에는 계산된 지표 또는 [요약 데이터 세트](/help/data-views/summary-data.md)를 기반으로 하는 지표를 포함할 수 없습니다. 계산된 지표 또는 요약 데이터 세트를 기반으로 하는 지표가 포함된 여정 캔버스 영역에서 대상을 만들려고 하면 계산된 지표는 대상 정의에 포함되지 않습니다.
@@ -522,10 +518,6 @@ from Travis: You can set time to be within X amount of time or after X amount of
 1. [대상 만들기 및 게시](/help/components/audiences/publish.md)에 설명된 대로 대상을 만들고 게시합니다.
 
 ### 트렌드 데이터 보기
-
->[!AVAILABILITY]
->
->이 기능은 아직 사용할 수 없습니다.
 
 여정 캔버스에서 객체에 대한 선 그래프로 추세 데이터를 볼 수 있습니다. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
@@ -546,6 +538,8 @@ from Travis: You can set time to be within X amount of time or after X amount of
    또는
 
    여정 캔버스 시각화에서 트렌드 데이터를 보려는 2개 노드 간에 하나 이상의 화살표를 선택한 다음, 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+
+   여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
 
 1. [!UICONTROL **트렌드**]&#x200B;을(를) 선택하십시오.
 
