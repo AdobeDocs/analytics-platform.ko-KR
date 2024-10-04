@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 14%
+source-wordcount: '1469'
+ht-degree: 15%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 14%
 | [!UICONTROL 보고 도구] | [!UICONTROL 필터 만들기] | 사용자가 [필터](/help/components/filters/filters-overview.md)를 만들 수 있도록 허용합니다. 사용자는 자신이 만든 필터 또는 자신과 공유된 필터만 태그 지정, 공유, 삭제, 이름 변경, 승인 및 승인 취소할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics의 [Labs](/help/labs/labs.md) 탭에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 허용합니다. 사용자는 자신이 만든 주석이나 자신과 공유된 주석에 태깅하고, 공유하고, 삭제하고, 이름을 바꿀 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 볼 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 만들 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 권한 검사를 적용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | 사용자가 [누구와도 프로젝트를 공유할 수 있도록 허용합니다.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |

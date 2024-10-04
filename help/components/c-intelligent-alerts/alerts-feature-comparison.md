@@ -3,9 +3,9 @@ description: 경고의 Customer Journey Analytics이 Adobe Analytics과 어떻�
 title: 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '569'
 ht-degree: 5%
 
 ---
@@ -56,9 +56,8 @@ Adobe Analytics에서는 다음 옵션을 사용할 수 있습니다.
 
 * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고 만들기]**&#x200B;를 선택합니다.
 
-* Analysis Workspace에서 프로젝트를 연 다음 다음 단축키를 사용합니다.
+* Analysis Workspace에서 프로젝트를 연 다음 바로 가기 **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) 또는**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]**(macOS)를 사용하십시오.
 
-  `ctrl (or cmd) + shift + a`
 
 
 

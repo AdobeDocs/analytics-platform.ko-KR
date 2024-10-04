@@ -5,10 +5,10 @@ title: 프로젝트 개요
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 6%
+source-wordcount: '1628'
+ht-degree: 7%
 
 ---
 
@@ -78,21 +78,21 @@ Customer Journey Analytics에서 프로젝트에 액세스하려면 **[!UICONTRO
 
 컨텍스트 메뉴 ![자세히](/help/assets/icons/More.svg) 또는 파란색 작업 표시줄을 사용하여 하나 이상의 프로젝트에서 작업을 수행할 수 있습니다.
 
-| 액션 | 설명 |
-|---|---|
-| ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *선택됨]** | 선택한 프로젝트 및 폴더를 선택 취소하고 파란색 작업 표시줄을 제거합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 하나 이상의 프로젝트 또는 폴더를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
-| ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 프로젝트 공유 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
-| ![편집](/help/assets/icons/Edit.svg) 이름 바꾸기 | 프로젝트 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**를 엽니다. 새 이름을 입력하고**[!UICONTROL 저장&#x200B;]**을 선택하세요. |
-| ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 하나 이상의 프로젝트를 복사합니다. 프로젝트 이름 및 접미사 `(Copy)`이(가) 동일합니다. |
-| ![고정](/help/assets/icons/PinOff.svg) **[!UICONTROL 고정]** 또는 **[!UICONTROL 고정 해제]** | 하나 이상의 프로젝트 또는 폴더를 고정하거나 고정 해제합니다. 고정된 프로젝트 및 폴더는 목록 맨 위에 표시되며 지정한 정렬 순서는 무시됩니다. |
-| ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) **[!UICONTROL 위로 이동]** | 고정된 프로젝트 또는 폴더를 프로젝트 목록에서 위로 이동합니다. |
-| ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) **[!UICONTROL 아래로 이동]** | 고정된 프로젝트 또는 폴더를 프로젝트 목록에서 아래로 이동합니다. |
-| ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 하나 이상의 프로젝트 또는 폴더에 태그를 지정합니다. 하나 이상의 태그를 선택할 수 있는 **[!UICONTROL 태그 구성 요소]** 대화 상자가 표시됩니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 프로젝트 또는 폴더에 대한 태그를 저장합니다. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** 또는 **[!UICONTROL 승인 취소]** | 프로젝트 승인 또는 승인 취소. 관리자만 프로젝트를 승인할 수 있습니다. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV 내보내기]** | 선택한 프로젝트를 이름이 `Project List.csv`인 CSV 파일로 내보냅니다. |
-| ![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 프로젝트 추가]** | 선택한 폴더에 프로젝트를 하나 이상 추가합니다. **[!UICONTROL 프로젝트 추가]**&#x200B;에서 하나 이상의 프로젝트를 선택할 수 있습니다. 폴더에 프로젝트를 추가하려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-inside-a-folder)를 참조하십시오. |
-| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **[!UICONTROL 이동]** | 선택한 하나 이상의 프로젝트를 폴더로 이동합니다. **[!UICONTROL 폴더 선택]**&#x200B;에서 선택한 프로젝트를 이동할 폴더를 선택하고 **[!UICONTROL 이동]**&#x200B;을 선택합니다. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-the-project-list)를 참조하십시오. |
+| 아이콘 | 액션 | 설명 |
+|:---:| ---|---|
+| ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *선택됨]** | 선택한 프로젝트 및 폴더를 선택 취소하고 파란색 작업 표시줄을 제거합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 하나 이상의 프로젝트 또는 폴더를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
+| ![공유](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 프로젝트 공유 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 변경]** | 프로젝트 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**를 엽니다. 새 이름을 입력하고**[!UICONTROL 저장&#x200B;]**을 선택하세요. |
+| ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 하나 이상의 프로젝트를 복사합니다. 프로젝트 이름 및 접미사 `(Copy)`이(가) 동일합니다. |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 고정]** 또는 **[!UICONTROL 고정 해제]** | 하나 이상의 프로젝트 또는 폴더를 고정하거나 고정 해제합니다. 고정된 프로젝트 및 폴더는 목록 맨 위에 표시되며 지정한 정렬 순서는 무시됩니다. |
+| ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 위로 이동]** | 고정된 프로젝트 또는 폴더를 프로젝트 목록에서 위로 이동합니다. |
+| ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL 아래로 이동]** | 고정된 프로젝트 또는 폴더를 프로젝트 목록에서 아래로 이동합니다. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 하나 이상의 프로젝트 또는 폴더에 태그를 지정합니다. 하나 이상의 태그를 선택할 수 있는 **[!UICONTROL 태그 구성 요소]** 대화 상자가 표시됩니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 프로젝트 또는 폴더에 대한 태그를 저장합니다. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** 또는 **[!UICONTROL 비승인]** | 프로젝트 승인 또는 승인 취소. 관리자만 프로젝트를 승인할 수 있습니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV 내보내기]** | 선택한 프로젝트를 이름이 `Project List.csv`인 CSV 파일로 내보냅니다. |
+| ![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL 프로젝트 추가]** | 선택한 폴더에 프로젝트를 하나 이상 추가합니다. **[!UICONTROL 프로젝트 추가]**&#x200B;에서 하나 이상의 프로젝트를 선택할 수 있습니다. 폴더에 프로젝트를 추가하려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-inside-a-folder)를 참조하십시오. |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL 이동]** | 선택한 하나 이상의 프로젝트를 폴더로 이동합니다. **[!UICONTROL 폴더 선택]**&#x200B;에서 선택한 프로젝트를 이동할 폴더를 선택하고 **[!UICONTROL 이동]**&#x200B;을 선택합니다. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-the-project-list)를 참조하십시오. |
 
 
 
