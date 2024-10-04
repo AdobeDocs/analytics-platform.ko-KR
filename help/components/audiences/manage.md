@@ -4,9 +4,9 @@ description: Customer Journey Analytics에서 대상자를 관리하는 방법 �
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 20%
 * 실시간 고객 플랫폼에서 **Customer Journey Analytics의 대상을 활발하게 사용하고 있는지**&#x200B;을(를) 확인하십시오. 또는 (이상적으로) Customer Journey Analytics이 만든 대상을 소비하는 모든 Experience Platform 애플리케이션입니다.
 
 [대상 보기](/help/technotes/access-control.md#user-level-access) 액세스 권한이 있는 경우 대상을 볼 수 있습니다. [대상자 만들기](/help/technotes/access-control.md#user-level-access) 액세스 권한이 있는 경우 대상자를 편집하고 삭제할 수 있습니다. [대상 목록](#audiences-list)에 대상이 표시됩니다.
+
+![대상 관리자](assets/audiences-manager.png)
 
 ## 대상 목록
 

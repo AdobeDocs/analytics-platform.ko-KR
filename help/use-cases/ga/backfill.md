@@ -1,19 +1,19 @@
 ---
-title: Google Analytics 내역 데이터를 Adobe Experience Platform으로 수집
+title: Google Analytics 내역 데이터 수집
 description: Adobe Customer Journey Analytics을 사용하여 Google Analytics 데이터를 Adobe Experience Platform에 수집하는 방법에 대해 설명합니다.
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 90%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
 
-# Google Analytics 내역 데이터를 Adobe Experience Platform으로 수집
+# Google Analytics 내역 데이터 수집
 
 이 페이지에서는 Google Analytics 내역 데이터를 Adobe Experience Platform에 데이터 세트로 수집한 다음 Customer Journey Analytics 내에 있는 데이터 보기에서 수집한 데이터 세트를 참조하는 방법에 중점을 두고 설명합니다. 이 페이지의 단계를 [라이브 Google Analytics 구현 구성](streaming.md)과 결합하여 반복 데이터 세트를 생성할 수 있습니다. 이 내역 데이터 세트를 현재 구현의 데이터 세트와 결합하여 현재 데이터 및 채워진 데이터와 함께 Customer Journey Analytics 데이터를 원활하게 볼 수 있습니다.
 

@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 구성
+title: 스트리밍 Google Analytics 데이터 구성
 description: Google 데이터 레이어를 Adobe Experience Platform으로 전송하는 구현을 설정하는 방법에 대해 알아봅니다.
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 89%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
-# Adobe Experience Platform으로의 Google Analytics 데이터 스트리밍 구성
+# 스트리밍 Google Analytics 데이터 구성
 
 이 페이지에서는 라이브 Google Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics 내에 있는 데이터 보기에서 수집한 데이터 세트를 참조하는 방법에 중점을 두고 설명합니다. 이 페이지의 단계를 [Google Analytics 내역 데이터를 Adobe Experience Platform으로 수집](backfill.md)과 결합하여 내역 데이터를 포함하는 데이터 세트를 생성할 수 있습니다. 스트리밍 데이터 세트를 채우기 데이터 세트와 결합하여 Customer Journey Analytics의 지난 데이터 및 현재 데이터를 원활하게 볼 수 있습니다.
 

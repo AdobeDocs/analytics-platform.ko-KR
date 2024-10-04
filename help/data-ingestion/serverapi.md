@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2348'
 ht-degree: 59%
 
 ---
 
-# Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집
+# Edge Network 서버 API를 통해 데이터 수집
 
 이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔, 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 

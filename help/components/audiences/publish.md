@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '1931'
-ht-degree: 17%
+source-wordcount: '1952'
+ht-degree: 16%
 
 ---
 
@@ -147,25 +147,25 @@ Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Pla
 
 ## Experience Platform에서 Customer Journey Analytics 대상 사용 {#audiences-aep}
 
-Customer Journey Analytics은 게시된 대상자로부터 네임스페이스와 ID 조합을 모두 가져와서 실시간 고객 프로필(RTCP)로 스트리밍합니다. Customer Journey Analytics은 연결이 구성되었을 때 [!UICONTROL 개인 ID](으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
+Customer Journey Analytics은 게시된 대상으로부터 모든 네임스페이스와 ID 조합을 가져와서 Real-time Customer Data Platform에 스트리밍합니다. Customer Journey Analytics은 연결이 구성되었을 때 [!UICONTROL 개인 ID](으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
 
-그런 다음 RTCP는 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
+그런 다음 Real-time Customer Data Platform은 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
 Platform에서 Customer Journey Analytics 대상을 보려면 다음 작업을 수행하십시오.
 
-1. 왼쪽 패널에서 [!UICONTROL **고객**]&#x200B;을 확장한 다음 [!UICONTROL **대상**]&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
+1. 왼쪽 패널에서 **[!UICONTROL 고객]**&#x200B;을 확장한 다음 **[!UICONTROL 대상]**&#x200B;을 선택합니다. <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. [!UICONTROL **찾아보기**] 탭을 선택합니다.
-
-   왼쪽 패널의 ![대상 옵션](assets/audiences-aep.png)
+1. **[!UICONTROL 찾아보기]** 탭을 선택합니다.
 
 1. Customer Journey Analytics에서 게시한 대상자를 찾으려면 다음 중 하나를 수행하십시오.
 
-   * [!UICONTROL **Customer Journey Analytics**]&#x200B;을 원본으로 표시하는 대상을 보려면 테이블을 [!UICONTROL **원본**] 열을 기준으로 정렬하세요.
+   왼쪽 패널의 ![대상 옵션](assets/aep-audiences.png)
 
-   * 필터 아이콘을 선택합니다.
+   * [!UICONTROL **Customer Journey Analytics**]&#x200B;을 원본으로 표시하는 대상을 보려면 테이블을 **[!UICONTROL 원본]** 열을 기준으로 정렬하세요.
 
-   * 검색 필드를 사용합니다.
+   * **[!UICONTROL 원본]**&#x200B;에서 ![필터](/help/assets/icons/Filter.svg)을(를) 필터링하고 **[!UICONTROL Customer Journey Analytics]**&#x200B;을(를) 선택하십시오.
+
+   * ![검색](/help/assets/icons/Search.svg) 검색 필드를 사용하십시오.
 
 플랫폼에서 대상을 사용하는 방법에 대한 자세한 내용은 Experience Platform 설명서의 [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)에서 [대상](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) 섹션을 참조하십시오.
 
@@ -186,7 +186,7 @@ Customer Journey Analytics 대상이 삭제되면 해당 대상은 더 이상 Ex
 
 +++
 
-+++**해당 프로필이 RTCDP에 없는 경우 새 프로필을 만들었습니까?**
++++**해당 프로필이 Real-time Customer Data Platform에 없는 경우 새 프로필이 만들어졌습니까?**
 
 네. 그렇습니다.
 
@@ -194,7 +194,7 @@ Customer Journey Analytics 대상이 삭제되면 해당 대상은 더 이상 Ex
 
 +++**Customer Journey Analytics이 대상 데이터를 파이프라인 이벤트나 데이터 레이크로 이동하는 플랫 파일로 전송합니까?**
 
-Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스트리밍하고, 이 데이터는 데이터 레이크의 시스템 데이터 세트에도 수집됩니다.
+Customer Journey Analytics은 파이프라인을 통해 데이터를 Real-time Customer Data Platform으로 스트리밍하며, 이 데이터는 데이터 레이크의 시스템 데이터 세트에도 수집됩니다.
 
 +++
 
@@ -210,9 +210,9 @@ Customer Journey Analytics은 파이프라인을 통해 데이터를 RTCP로 스
 
 +++
 
-+++**RTCP가 Customer Journey Analytics 메시지도 처리합니까? Customer Journey Analytics이 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?**
++++**Real-time Customer Data Platform에서 Customer Journey Analytics 메시지도 처리합니까? Customer Journey Analytics이 대상 공유를 통해 프로필 ID 그래프에 ID를 추가할 수 있습니까?**
 
-아니요. 한 사람당 하나의 ID만 전송되므로 RTCP가 사용할 그래프 에지가 없습니다.
+아니요. 한 사람당 하나의 ID만 전송되므로 Real-time Customer Data Platform에서 사용할 그래프 에지가 없습니다.
 
 +++
 

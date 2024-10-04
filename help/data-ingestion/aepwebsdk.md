@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3543'
 ht-degree: 83%
 
 ---
 
-# Adobe Experience Platform Web SDK를 통해 데이터 수집
+# 웹 SDK를 통해 데이터 수집
 
 이 빠른 시작 안내서에서는 Adobe Experience Platform Web SDK 및 Edge Network를 사용하여 웹 사이트 추적 데이터를 Adobe Experience Platform으로 직접 수집한 다음 Customer Journey Analytics에서 해당 데이터를 사용하는 방법을 설명합니다.
 

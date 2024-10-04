@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3382'
 ht-degree: 60%
 
 ---
 
-# Adobe Experience Platform Mobile SDK를 통해 데이터 수집
+# Mobile SDK를 통해 데이터 수집
 
 이 빠른 시작 안내서에서는 Adobe Experience Platform Mobile SDK 및 Edge Network을 사용하여 모바일 앱 추적 데이터를 Adobe Experience Platform으로 직접 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
@@ -283,7 +283,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 또한 카탈로그에서 다음과 같은 추가 확장을 설정합니다.
 
 - 신원
-- AEP 보증.
+- Assurance.
 - 동의합니다.
 
 확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 자습서에서 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)을 참조하십시오.

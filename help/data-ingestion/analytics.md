@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 81%
+source-wordcount: '1173'
+ht-degree: 80%
 
 ---
 
-# 기존 Adobe Analytics에서 데이터 수집 및 사용
+# Adobe Analytics에서 데이터 수집 및 사용
 
 이 빠른 시작 안내서에서는 Adobe Analytics가 Customer Journey Analytics에서 수집한 데이터를 사용하는 방법을 설명합니다.
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 >
 >- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/ko/docs/analytics/implementation/launch/overview.html)
+>- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
 >- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 

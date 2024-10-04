@@ -5,14 +5,14 @@ exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 61%
 
 ---
 
-# Adobe Experience Platform에서의 마케팅 채널 차원 사용
+# 마케팅 채널 차원 사용
 
 조직에서 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 보고서 세트 데이터를 Customer Journey Analytics으로 가져오는 경우 Customer Journey Analytics에서 연결을 구성하여 마케팅 채널 차원에 대해 보고할 수 있습니다.
 

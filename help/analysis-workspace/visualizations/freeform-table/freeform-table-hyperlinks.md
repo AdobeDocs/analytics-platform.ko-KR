@@ -1,17 +1,17 @@
 ---
-title: Analysis Workspace의 자유 형식 테이블에 하이퍼링크 만들기
+title: 자유 형식 테이블에 하이퍼링크 만들기
 description: Analysis Workspace의 자유 형식 테이블에서 차원 항목에 대한 하이퍼링크를 만드는 방법을 알아봅니다
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
 
-# 자유 형식 테이블의 차원에 대한 하이퍼링크 만들기
+# 자유 형식 테이블에 하이퍼링크 만들기
 
 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다.
 
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 +++
 
-## 하나 이상의 차원 항목에 대한 하이퍼링크 만들기
+## 하이퍼링크 만들기
 
-차원 항목에 대한 하이퍼링크를 만들 때 다음 사항을 고려하십시오.
+하나 이상의 차원 항목에 대한 하이퍼링크를 만들 때 다음 사항을 고려하십시오.
 
 * 만든 하이퍼링크는 Analysis Workspace 프로젝트 내의 자유 형식 테이블에 저장됩니다. 다른 테이블 또는 다른 프로젝트에서 동일한 차원 또는 차원 항목을 사용할 때는 하이퍼링크가 유지되지 않습니다.
 

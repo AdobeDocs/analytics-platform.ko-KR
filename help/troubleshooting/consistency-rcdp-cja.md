@@ -1,18 +1,18 @@
 ---
 description: Real-Time CDP(Real-time Customer Data Platform)와 Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성에 영향을 미치는 요인을 설명합니다.
-title: Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성
+title: 지표 및 대상자 멤버십의 일관성
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 97%
 
 ---
 
 
-# Real-Time CDP와 Adobe Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성
+# 지표 및 대상자 멤버십의 일관성
 
 실제 시나리오에서는 Real-Time CDP(Real-time Customer Data Platform)와 Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성을 보장할 수 없습니다. 이 문서에서는 그 이유를 설명합니다.
 

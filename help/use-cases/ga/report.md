@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고
+title: Google Analytics 데이터에 대한 보고서
 description: Customer Journey Analytics에서 Google Analytics 데이터에 대한 유용한 보고서 표시
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 87%
+source-wordcount: '682'
+ht-degree: 85%
 
 ---
 
-# Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고
+# Google Analytics 데이터에 대한 보고서
 
 이제 Customer Journey Analytics에서 데이터를 사용할 수 있으니 다음 예제를 통해 이러한 데이터에 대한 보고를 수행하는 데 유용한 시나리오를 살펴보십시오.
 

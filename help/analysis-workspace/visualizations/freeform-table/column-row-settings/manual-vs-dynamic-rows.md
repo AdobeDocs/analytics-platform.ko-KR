@@ -1,17 +1,17 @@
 ---
-title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
+title: 동적 및 정적 차원 항목
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 50%
+source-wordcount: '543'
+ht-degree: 49%
 
 ---
 
-# 자유 형식 테이블의 동적 및 정적 차원 항목
+# 동적 및 정적 차원 항목
 
 자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적 (시간 경과에 따라 변경) 또는 정적 (시간 경과에 따라 변경되지 않음)일 수 있습니다.
 
@@ -53,4 +53,4 @@ ht-degree: 50%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
 
 * 동적 행은 세션 또는 개인과 같이 합계로서 계산된 서버측 및 중복 제거 지표입니다.
-* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)
+* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)

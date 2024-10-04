@@ -1,17 +1,17 @@
 ---
-title: Google Analytics에서 Customer Journey Analytics로 데이터 마이그레이션
+title: Google Analytics에서 데이터 마이그레이션
 description: Google Analytics에서 Adobe Experience Platform으로 데이터를 이동하는 방법과 Customer Journey Analytics에서 보고서를 보는 방법에 대한 중요한 워크플로에 대해 알아봅니다.
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 79%
+source-wordcount: '303'
+ht-degree: 75%
 
 ---
 
-# Google Analytics에서 Customer Journey Analytics로 데이터 마이그레이션
+# Google Analytics에서 데이터 마이그레이션
 
 Customer Journey Analytics를 처음 사용하는 경우 귀사는 Google Analytics와 같은 다른 Analytics 플랫폼에서 데이터를 보유하고 있을 수 있습니다. 다음과 같은 중요한 단계를 따라 데이터를 Adobe Experience Platform으로 이동하여 Customer Journey Analytics에서 보고서를 볼 수 있습니다.
 

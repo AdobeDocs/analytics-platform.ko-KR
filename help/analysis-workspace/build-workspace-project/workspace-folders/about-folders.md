@@ -5,14 +5,14 @@ title: 폴더 개요
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
 
-# 폴더 정보
+# Analysis Workspace의 폴더 정보
 
 [폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)를 선택하면 Customer Journey Analytics의 폴더를 Workspace 랜딩 페이지에서 사용할 수 있습니다.
 

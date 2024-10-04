@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 92%
+source-wordcount: '964'
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 92%
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform Edge Network {#edge-network}
+      + Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [서버 API](../data-ingestion/serverapi.md)
@@ -115,7 +115,7 @@ ht-degree: 92%
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 영역의 폴더 {#workspace-folders}
-         + [Workspace의 폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [프로젝트를 폴더로 추가 또는 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -191,20 +191,20 @@ ht-degree: 92%
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Analysis Workspace에서 예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [예외 항목 탐지에서 사용된 통계 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [통계적 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 예측 {#forecasting}
       + [개요](../analysis-workspace/c-forecast/forecasting.md)
-      + [Analysis Workspace에서 예측 조회](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [예측 서비스에 사용되는 통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
-      + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [예측 보기](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [통계적 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
-   + 작업 영역 FAQ {#workspace-faq}
+   + Workspace FAQ 등 {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
       + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
+      + [제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace 액세스 가능 여부](../analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytics 대시보드 {#cja-dashboards}
    + [Analytics 대시보드 - 개요](../mobile-app/home.md)
@@ -360,10 +360,10 @@ ht-degree: 92%
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
    + Google Analytics 데이터 {#ga}
-      + [Google Analytics에서 Customer Journey Analytics로 데이터 마이그레이션 개요](../use-cases/ga/overview.md)
-      + [Google Analytics 내역 데이터를 Platform으로 수집](../use-cases/ga/backfill.md)
-      + [Platform으로의 Google Analytics 데이터 스트리밍 구성](../use-cases/ga/streaming.md)
-      + [Customer Journey Analytics에서 Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
+      + [Google Analytics에서 데이터 마이그레이션](../use-cases/ga/overview.md)
+      + [Google Analytics 내역 데이터 수집](../use-cases/ga/backfill.md)
+      + [스트리밍 Google Analytics 데이터 구성](../use-cases/ga/streaming.md)
+      + [Google Analytics 데이터에 대한 보고서](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
       + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
       + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -390,14 +390,14 @@ ht-degree: 92%
    + 결합 {#stitching}
       + [공유 디바이스](/help/use-cases/stitching/shared-devices.md)
    + 파생 필드 {#derived-fields}
-      + [파생 필드를 사용하여 목표 보고](../use-cases/goals-using-derived-fields.md)
+      + [목표에 대한 보고서](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
 
 + 문제 해결 {#troubleshooting}
-   + [Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교](../troubleshooting/compare.md)
-   + [Real-Time CDP와 Customer Journey Analytics 간의 지표 및 대상자 멤버십의 일관성](../troubleshooting/consistency-rcdp-cja.md)
+   + [데이터 비교](../troubleshooting/compare.md)
+   + [지표 및 대상의 일관성](../troubleshooting/consistency-rcdp-cja.md)
    + [권한 부족](../troubleshooting/lack-of-permissions.md)
 
 + 기술 노트 {#technotes}
@@ -408,7 +408,7 @@ ht-degree: 92%
    + [용어 설명](../technotes/glossary.md)
    + [가드레일](../technotes/guardrails.md)
    + [IP 주소](../technotes/ip-addresses.md)
-   + [Customer Journey Analytics 성능 최적화](../technotes/optimizing-performance.md)
+   + [성능 최적화](../technotes/optimizing-performance.md)
    + [사용량 조회 및 관리](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
