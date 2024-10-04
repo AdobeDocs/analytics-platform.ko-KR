@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
+source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ ht-degree: 0%
 
 #### 시나리오 1 - 사용자 A는 첫 번째 세션에서 여정 경로를 따른 다음 후속 세션에서 이후 노드만 따릅니다
 
-사용자 A가 사이트를 방문하여 여정의 경로를 따른다고 가정해 봅시다(노드 1: 사이트 방문 > 노드 2: 제품 A 보기 > 노드 3: 체크아웃). 이 시나리오에서는 이벤트가 여정의 각 노드에서 계산됩니다.
+사용자 A가 사이트를 방문하여 여정을 완료한다고 가정해 봅시다(노드 1: &quot;사이트 방문&quot; > 노드 2: &quot;제품 A 보기&quot; > 노드 3: &quot;체크아웃&quot;). 여정 A가 여정을 완료했으므로 이벤트가 사용자의 각 노드에서 계산됩니다.
 
-이제 사용자 A가 이후 세션에서 사이트를 다시 방문한다고 가정합니다. 사용자 A가 이전 세션에서 여정 경로를 따라 여정의 요구 사항을 이미 충족했으므로, 이는 사용자 A가 체크아웃할 때마다(현재 세션에서 여정 경로를 따르지 않았더라도) 여정의 세 번째 노드인 &quot;체크아웃&quot;에서 이벤트가 카운트됨을 의미합니다. 그러면 이전 노드인 &quot;제품 A 보기&quot;보다 &quot;체크아웃&quot; 노드에서 더 높은 비율과 숫자가 생성됩니다.
+이제 사용자 A가 이후 세션에서 사이트를 다시 방문한다고 가정해 보겠습니다. 사용자 A가 이미 이전 세션에서 여정 경로를 따라 여정을 완료했으므로, 이는 사용자 A가 현재 세션에서 여정 경로를 따르지 않았더라도 여정의 모든 노드와 일치하는 이벤트가 사용자 A에 있을 때마다 여정의 관련 노드에서 이벤트가 계산됨을 의미합니다. 예를 들어 사용자 A가 체크 아웃하면 이벤트가 &quot;체크 아웃&quot; 노드에서 계산됩니다. 이렇게 하면 이전 노드인 &quot;제품 A 보기&quot;보다 &quot;체크아웃&quot; 노드에서 백분율 및 숫자가 높아질 수 있습니다.
 
-이 예제에서 여정의 컨테이너 설정은 세 번째 노드(&quot;Check out&quot;)의 이벤트가 후속 세션에서 계산되는지 여부를 결정하는 데 중요한 역할을 합니다.
+이 예제에서 여정의 컨테이너 설정인 &quot;Person&quot;은 세 번째 노드(&quot;Check out&quot;)의 이벤트가 후속 세션에서 계산되는지 확인하는 데 중요한 역할을 합니다.
 
-또는 세션 이 개인 대신 컨테이너로 설정된 경우, 여정에 표시된 통계가 지정된 사용자에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 계산되지 않았습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
+또는 여정 설정이 &quot;세션&quot;으로 설정된 경우 컨테이너에 표시된 통계가 지정된 사용자에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 계산되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### 시나리오 2 - 사용자 B가 여정에서 이탈합니다.
 
-사용자 B가 사이트를 방문하여 여정의 경로를 따르지 않고(사이트를 방문하여 제품 B를 본 다음 체크아웃함) 여정의 시작 노드인 &quot;사이트 방문&quot;에 대해서는 이벤트가 계산되지만 나머지 노드에 대해서는 이벤트가 계산되지 않고 사용자 B가 여정에서 이탈한다고 가정해 봅시다. 사용자 B가 체크아웃했더라도 사용자 B가 제품 A를 보고 여정의 경로를 따르지 않았기 때문에 세 번째 노드인 &quot;Check out&quot;에서 이벤트가 계산되지 않습니다.
+사용자 B가 사이트를 방문하고 여정을 완료하지 않는다고 가정해 봅시다(사이트를 방문하고 제품 B를 본 다음 체크아웃함). 이 경우 여정의 시작 노드인 &quot;Visit site&quot;에 대해서는 이벤트가 계산되지만 나머지 노드에 대해서는 이벤트가 계산되지 않으며 사용자 B가 여정에서 제외됩니다. 사용자 B가 체크 아웃하기 전에 제품 A를 보고 여정을 완료하지 않았기 때문에 사용자 B가 체크 아웃했더라도 세 번째 노드(&quot;체크 아웃&quot;)에서 이벤트가 계산되지 않습니다.
 
-이것은 사람들이 여정의 &quot;최종 경로&quot;를 따를 때만 각 노드에 대해 이벤트가 계산되기 때문입니다. 즉, 두 노드 간에 발생하는 모든 이벤트와 관계없이 개인이 결국 한 노드에서 다른 노드로 이동하는 동안 이벤트가 계산됩니다.
+이것은 사람들이 여정의 &quot;최종 경로&quot;를 따를 때만 각 노드에 대해 이벤트가 계산되기 때문입니다. 즉, 2개의 노드 사이에서 발생하는 모든 이벤트와 관계없이 개인이 결국 한 노드에서 다른 노드로 이동한 경우에만 이벤트가 계산됩니다.
 
 ### 여정은 여러 경로가 단일 노드로 수렴합니다
 
