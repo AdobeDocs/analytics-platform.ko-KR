@@ -4,7 +4,7 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 17%
@@ -18,7 +18,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_venn_button"
 >title="벤"
->abstract="벤 차트 시각화를 만들어 두 요소와 겹치는 크기를 시각적으로 빠르게 비교합니다."
+>abstract="벤 차트 시각화를 만들어 두 요소와 겹치는 크기를 시각적으로 빠르게 비교할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

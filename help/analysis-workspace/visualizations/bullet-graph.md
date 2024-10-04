@@ -4,10 +4,10 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_button"
->title="Nullet"
+>title="글머리 기호"
 >abstract="지표가 성능 범위(목표)와 비교되거나 측정되는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
