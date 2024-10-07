@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
-title: 데이터 사전의 항목 편집
+title: 구성 요소 항목 편집
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 60%
+source-wordcount: '317'
+ht-degree: 57%
 
 ---
 
-# 데이터 사전의 구성 요소 항목 편집
+# 구성 요소 항목 편집
 
 Customer Journey Analytics 관리자는 주어진 데이터 보기에 대한 데이터 사전의 구성 요소 항목을 편집할 수 있습니다. 모든 변경 사항은 데이터 보기의 모든 사용자에게 표시됩니다.
 

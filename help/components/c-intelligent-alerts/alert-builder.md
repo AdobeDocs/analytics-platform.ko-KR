@@ -1,11 +1,11 @@
 ---
 description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고를 받습니다.
-title: 경고 만들기(Analysis Workspace)
+title: 경고 만들기
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '991'
 ht-degree: 19%
 
 ---

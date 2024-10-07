@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '950'
 ht-degree: 86%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 86%
    + [기본 분석 수행](../analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](../analysis-workspace/perform-adv-analysis.md)
    + 프로젝트 {#build-workspace-project}
-      + [프로젝트 개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -123,7 +123,7 @@ ht-degree: 86%
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
-      + [시각화 개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [지능형 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
       + 자유 형식 테이블 {#freeform-table}
@@ -179,7 +179,7 @@ ht-degree: 86%
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
-      + [공유 메뉴](../analysis-workspace/curate-share/send-schedule-files.md)
+      + [개요](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
@@ -207,7 +207,7 @@ ht-degree: 86%
       + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytics 대시보드 {#cja-dashboards}
-   + [Analytics 대시보드 - 개요](../mobile-app/home.md)
+   + [개요](../mobile-app/home.md)
    + [큐레이터 작업](../mobile-app/curator.md)
    + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
    + [모바일 스코어카드 관리](../mobile-app/manage-scorecard.md)
@@ -238,7 +238,7 @@ ht-degree: 86%
    + [FAQ](../guided-analysis/faq.md)
 
 + 구성 요소 {#cja-components}
-   + [구성 요소 개요](../components/overview.md)
+   + [개요](../components/overview.md)
    + [Analysis Workspace의 구성 요소 사용](../components/use-components-in-workspace.md)
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
    + 주석 {#annotations}
@@ -260,7 +260,7 @@ ht-degree: 86%
       + [높은 카디널리티 차원](../components/dimensions/high-cardinality.md)
    + [지표](../components/apply-create-metrics.md)
    + 필터 {#cja-filters}
-      + [필터 개요](../components/filters/filters-overview.md)
+      + [개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
       + [필터 빌드](../components/filters/filter-builder.md)
       + [빠른 필터](../components/filters/quick-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 86%
       + [필터 관리](../components/filters/manage-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
-      + [계산된 지표 개요](../components/calc-metrics/calc-metr-overview.md)
+      + [개요](../components/calc-metrics/calc-metr-overview.md)
       + 계산된 지표 워크플로 {#cm-workflow}
          + [계산된 지표 만들기](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
@@ -315,13 +315,13 @@ ht-degree: 86%
       + [내보내기 로그 관리](/help/components/exports/manage-export-logs.md)
       + [내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)
    + 데이터 사전 {#data-dictionary}
-      + [데이터 사전 개요](../components/data-dictionary/data-dictionary-overview.md)
+      + [개요](../components/data-dictionary/data-dictionary-overview.md)
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
       + [데이터 사전의 구성 요소 항목 편집](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [데이터 사전 상태 모니터링](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
-   + [Report Builder 개요](../report-builder/report-buider-overview.md)
+   + [개요](../report-builder/report-buider-overview.md)
    + [Report Builder 설치](../report-builder/report-builder-setup.md)
    + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
    + [Report Builder 허브](../report-builder/report-builder-hub.md)

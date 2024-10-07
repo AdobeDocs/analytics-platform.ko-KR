@@ -1,12 +1,12 @@
 ---
-title: 실시간 고객 프로필에 대상자 만들기 및 게시
+title: 대상자 생성 및 게시
 description: Customer Journey Analytics에서 대상자를 게시하는 방법 알아보기
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1948'
 ht-degree: 16%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 16%
 | **[!UICONTROL 이름]** | 대상자의 이름입니다. 예를 들어 `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 태그]** | 조직용으로 대상자에게 할당하고자 하는 모든 태그입니다. 하나 이상의 기존 태그를 선택하거나 새 태그를 입력할 수 있습니다. |
 | **[!UICONTROL 설명]** | 다른 대상과 구별하기 위한 대상에 대한 설명입니다. 예를 들어 `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/>다음 중 하나를 선택할 수 있습니다. <ul><li>**[!UICONTROL 한 번]** 대상: 새로 고침이 필요하지 않은 대상(기본값)입니다. 예를 들어 이 옵션은 특정 일회성 캠페인에 유용합니다.<br/>1회 날짜 범위를 **[!UICONTROL 지정해야 합니다]**. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 입력할 수 있습니다.</li><li>새로 고치는 대상입니다. 다음 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 매 4시간]**&#x200B;초: 4시간마다 새로 고치는 대상입니다.</li><li>**[!UICONTROL 매일]**: 매일 새로 고치는 대상입니다.</li><li>**[!UICONTROL 주별]**: 주별로 새로 고치는 대상입니다.</li><li>**[!UICONTROL 월별]**: 매월 새로 고치는 대상입니다.</li></ul></li><br/>대상을 새로 고치려면 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상이 평가되는 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 지정 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자 새로 고침을 중지할 시기를 정의합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료될 예정인 대상은 만료될 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상이 만료되기 한 달 전에 이메일을 수신합니다.</li></ul> Customer Journey Analytics 권한에 따라 대상 새로 고침은 75~150개로 제한됩니다.</li></ul> |
+| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/>다음 중 하나를 선택할 수 있습니다. <ul><li>**[!UICONTROL 한 번]** 대상: 새로 고침이 필요하지 않은 대상(기본값)입니다. 예를 들어 이 옵션은 특정 일회성 캠페인에 유용합니다.<br/>1회 날짜 범위를 **[!UICONTROL 지정해야 합니다]**. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 입력할 수 있습니다.</li><li>새로 고치는 대상입니다. 다음 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 매 4시간]**&#x200B;초: 4시간마다 새로 고치는 대상입니다.</li><li>**[!UICONTROL 매일]**: 매일 새로 고치는 대상입니다.</li><li>**[!UICONTROL 주별]**: 주별로 새로 고치는 대상입니다.</li><li>**[!UICONTROL 월별]**: 매월 새로 고치는 대상입니다.</li></ul></li>대상을 새로 고치려면 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상이 평가되는 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 지정 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자 새로 고침을 중지할 시기를 정의합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료될 예정인 대상은 만료될 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상이 만료되기 한 달 전에 이메일을 수신합니다.</li></ul> Customer Journey Analytics 권한에 따라 대상 새로 고침은 75~150개로 제한됩니다.</li></ul> |
 | **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 패널에서 필터 영역으로 필터를 하나 이상 끌어다 놓습니다. ![검색](/help/assets/icons/Search.svg) [!UICONTROL *검색 필터*]&#x200B;를 사용하여 필터를 검색할 수 있습니다. 최대 20개의 필터를 추가할 수 있습니다. 필터는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자로 결합할 수 있습니다.<p>Analysis Workspace의 시각화(예: 자유 형식 테이블 또는 여정 캔버스)에서 대상을 만들면 패널 또는 열에 적용된 모든 필터가 보존됩니다. 자동으로 적용되는 필터를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리 보기]** | 선택한 날짜 범위에 대한 [데이터 미리 보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택하십시오. |
 

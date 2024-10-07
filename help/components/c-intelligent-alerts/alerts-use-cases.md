@@ -3,14 +3,14 @@ description: 경고에 대한 활용 사례.
 title: 경고 사용 사례
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# 경고 - 사용 사례
+# 경고 사용 사례
 
 [경고 만들기](/help/components/c-intelligent-alerts/alert-builder.md)에 설명된 대로 경고를 만들 수 있습니다.
 
@@ -20,11 +20,6 @@ ht-degree: 0%
 
 필터를 사용하여 간단한 경고를 만들 수 있습니다. 예를 들어 모바일 앱 세션을 통해 홈 페이지를 방문하는 사용자의 세션 수에 대한 경고를 정의합니다.
 
-<!-- 
-
-Update screenshots for better readability.
-
- -->
 
 ![](assets/alerts-example1.png)
 
