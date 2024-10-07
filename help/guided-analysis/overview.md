@@ -5,10 +5,10 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: c403a660e1d60b1ee2e5552d615dffc2b52930a4
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 83%
+source-wordcount: '1454'
+ht-degree: 82%
 
 ---
 
@@ -84,11 +84,11 @@ Analysis Workspace 프로젝트 내에서 Guided Analysis에 액세스할 수도
 
 | 패키지 | 사용 가능한 조회수 |
 | --- | --- |
-| [!UICONTROL CJA 추가 기능] | 트렌드: 사용량, 트렌드: 빈도, 이동: 마찰, 이동: 전환 추세, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순성장 |
-| [!UICONTROL CJA Foundation] | 트렌드: 사용량 |
-| [!UICONTROL CJA Select] | 기초 보기 + 트렌드: 빈도, 단계: 마찰, 단계: 전환 트렌드, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순 증가 |
-| [!UICONTROL CJA Prime] | 보기 + 사용자 스트림: 타임라인, 기능 매트릭스: 참여, 영향: 릴리스, 영향: 첫 번째 사용 |
-| [!UICONTROL CJA Ultimate] | Prime 조회수 |
+| [!UICONTROL Customer Journey Analytics 추가 기능] | 트렌드: 사용량, 트렌드: 빈도, 이동: 마찰, 이동: 전환 추세, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순성장 |
+| [!UICONTROL Customer Journey Analytics 기초] | 트렌드: 사용량 |
+| [!UICONTROL Customer Journey Analytics 선택] | 기초 보기 + 트렌드: 빈도, 단계: 마찰, 단계: 전환 트렌드, 유지: 유지율, 사용자 증가: 활성, 사용자 증가: 순 증가 |
+| [!UICONTROL Customer Journey Analytics Prime] | 보기 + 사용자 스트림: 타임라인, 기능 매트릭스: 참여, 영향: 릴리스, 영향: 첫 번째 사용 |
+| [!UICONTROL Customer Journey Analytics Ultimate] | Prime 조회수 |
 
 {style="table-layout:auto"}
 
