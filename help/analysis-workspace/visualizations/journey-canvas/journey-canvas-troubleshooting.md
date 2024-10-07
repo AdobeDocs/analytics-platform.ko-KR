@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
+source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 * **[!UICONTROL 이벤트]**&#x200B;이(가) 기본 지표로 설정되어 있습니다.
 
-#### 시나리오 1 - 사용자 A는 첫 번째 세션에서 여정 경로를 따른 다음 후속 세션에서 이후 노드만 따릅니다
+#### 시나리오 1: 사용자 A는 첫 번째 세션에서 여정 경로를 따릅니다. 후속 세션에서 사용자는 이후 노드와만 일치하는 이벤트를 갖게 됩니다.
 
-사용자 A가 사이트를 방문하여 여정을 완료한다고 가정해 봅시다(노드 1: &quot;사이트 방문&quot; > 노드 2: &quot;제품 A 보기&quot; > 노드 3: &quot;체크아웃&quot;). 여정 A가 여정을 완료했으므로 이벤트가 사용자의 각 노드에서 계산됩니다.
+사용자 A가 사이트를 방문하여 여정을 완료한다고 가정해 봅시다(노드 1: &quot;사이트 방문&quot; > 노드 2: &quot;제품 A 보기&quot; > 노드 3: &quot;체크아웃&quot;). 여정 A는 여정의 각 노드와 순서대로 일치하는 이벤트를 가지고 있으므로, 이벤트는 사용자의 각 노드에서 계산됩니다.
 
 이제 사용자 A가 이후 세션에서 사이트를 다시 방문한다고 가정해 보겠습니다. 사용자 A가 이미 이전 세션에서 여정 경로를 따라 여정을 완료했으므로, 이는 사용자 A가 현재 세션에서 여정 경로를 따르지 않았더라도 여정의 모든 노드와 일치하는 이벤트가 사용자 A에 있을 때마다 여정의 관련 노드에서 이벤트가 계산됨을 의미합니다. 예를 들어 사용자 A가 체크 아웃하면 이벤트가 &quot;체크 아웃&quot; 노드에서 계산됩니다. 이렇게 하면 이전 노드인 &quot;제품 A 보기&quot;보다 &quot;체크아웃&quot; 노드에서 백분율 및 숫자가 높아질 수 있습니다.
 
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
-#### 시나리오 2 - 사용자 B가 여정에서 이탈합니다.
+#### 시나리오 2: 사용자 B가 여정에서 이탈함
 
 사용자 B가 사이트를 방문하고 여정을 완료하지 않는다고 가정해 봅시다(사이트를 방문하고 제품 B를 본 다음 체크아웃함). 이 경우 여정의 시작 노드인 &quot;Visit site&quot;에 대해서는 이벤트가 계산되지만 나머지 노드에 대해서는 이벤트가 계산되지 않으며 사용자 B가 여정에서 제외됩니다. 사용자 B가 체크 아웃하기 전에 제품 A를 보고 여정을 완료하지 않았기 때문에 사용자 B가 체크 아웃했더라도 세 번째 노드(&quot;체크 아웃&quot;)에서 이벤트가 계산되지 않습니다.
 
-이것은 사람들이 여정의 &quot;최종 경로&quot;를 따를 때만 각 노드에 대해 이벤트가 계산되기 때문입니다. 즉, 2개의 노드 사이에서 발생하는 모든 이벤트와 관계없이 개인이 결국 한 노드에서 다른 노드로 이동한 경우에만 이벤트가 계산됩니다.
+사람들이 여정의 &quot;최종 경로&quot;를 따를 때만 각 노드에 대해 이벤트가 계산되기 때문입니다. 즉, 2개의 노드 간에 발생하는 모든 이벤트에 관계없이 개인이 결국 한 노드에서 다른 노드로 이동한 경우에만 이벤트가 계산됩니다.
 
 ### 여정은 여러 경로가 단일 노드로 수렴합니다
 
