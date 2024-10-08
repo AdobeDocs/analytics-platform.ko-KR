@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,13 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+
+>[!TAB 안내식 분석]
+
+이제 안내식 분석을 Analysis Workspace 내에서 직접 사용할 수 있으므로 사용자는 패널, 시각화 및 안내식 분석의 포괄적인 통찰력을 사용하여 대시보드를 만들 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 >[!TAB 경고]
 
@@ -72,27 +79,6 @@ BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데
 
 *_BI 확장 기능을 사용하려면 Select 패키지 이상이 필요합니다._*
 
-
-<!--
->[!TAB Improved Audience Publising] 
-
-Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
-
-[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
-
--->
-
->[!TAB 예측]
-
-예측은 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 Analysis Workspace 기능입니다. 예측은 시계열 관련 데이터에만 사용할 수 있습니다.
-
-[![이미지](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
->[!TAB 새 설명서]
-
-이제 다음에서 새로운 설명서 섹션을 사용할 수 있습니다.<ul><li>요약 데이터 사용 사례 및 B2B 예시 사용 사례.</li><li>Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 방법.</li><li>데이터 내보내기 사용 사례와 필수 Experience Platform 및 Customer Journey 기능. </li></ul>이 내용과 기타 설명서 업데이트 사항을 확인하려면 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하십시오.
-
-[![이미지](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!ENDTABS]
 
