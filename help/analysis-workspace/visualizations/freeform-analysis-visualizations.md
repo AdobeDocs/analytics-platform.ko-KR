@@ -5,9 +5,9 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1617'
 ht-degree: 15%
 
 ---
@@ -35,6 +35,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | ![그래프 히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | 히스토그램 시각화는 지표 볼륨을 기반으로 개인, 방문 또는 이벤트를 버킷으로 버킷팅합니다. |
 | ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | 스택 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
+| ![분기3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | 여정 캔버스 시각화는 사용자 및 고객에게 제공하는 여정을 분석하고 통찰력을 얻는 데 도움이 됩니다. |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md) | 주요 지표 요약 시각화는 선, 요약 변경 및 요약 번호 시각화를 결합합니다. |
 | ![그래프 트렌드](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) | 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | ![그래프 분산](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) | 산포도 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. |

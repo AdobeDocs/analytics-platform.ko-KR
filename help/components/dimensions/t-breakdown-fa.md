@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '523'
 ht-degree: 58%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 58%
 
 * 항목 트리에 속성이 이미 있는 경우 속성을 변경하면 편집 중인 속성만 변경됩니다.
 
-+++ 분류를 보여 주는 비디오 보기
++++ 차원 및 차원 분류를 보여 주는 비디오 보기
 
 Analysis Workspace의 Dimension
 
