@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 216783872bf4dd26fe2137dffe8994d03193b604
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '649'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 보기]**: 이 보기 형식과 [전환 트렌드](conversion-trends.md) 간을 전환합니다.
 * **[!UICONTROL 단계]**: 추적할 이벤트 터치포인트입니다. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-   * [!UICONTROL 비교]: 각 단계에서는 단일 단계 단계에서 여러 이벤트를 비교하는 옵션을 제공하여 &quot;분기된 단계&quot;를 만듭니다. 이 기능을 사용하면 두 개의 별도 해석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 A/B 실험이 단계 내에서 실행되고 있는 경우에 유용합니다. 유입 경로를 비교하는 방법에 대해 설명하는 비디오가 필요하면 Customer Journey Analytics 자습서에서 [유입 경로 마찰 분석](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel/funnel-friction-analysis)을 참조하십시오.
+   * [!UICONTROL 비교]: 각 단계에서는 단일 단계 단계에서 여러 이벤트를 비교하는 옵션을 제공하여 &quot;분기된 단계&quot;를 만듭니다. 이 기능을 사용하면 두 개의 별도 해석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 A/B 실험이 단계 내에서 실행되고 있는 경우에 유용합니다. 단계 비교 방법에 대한 비디오를 보려면 Customer Journey Analytics 자습서의 [단계](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)를 참조하십시오.
 * **[!UICONTROL 다음으로 계산]**: 단계에 적용할 범위입니다. 옵션에는 [!UICONTROL 세션] 및 [!UICONTROL 사용자]가 있습니다.
    * [!UICONTROL 세션]: 모든 단계는 같은 세션 내에서 계산되어야 합니다.
    * [!UICONTROL 사용자]: 모든 단계는 선택한 보고 기간 내에서 계산되어야 합니다.

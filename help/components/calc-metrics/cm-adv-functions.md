@@ -4,7 +4,7 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
 source-wordcount: '3126'
 ht-degree: 19%
@@ -168,7 +168,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
 
-[시간 균일 중앙 제한 이론 및 점근 신뢰 시퀀스](http://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 임의의 시간 유효 신뢰도 **lower**&#x200B;을(를) 계산합니다.
+[시간 균일 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 임의의 시간 유효 신뢰도 **lower**&#x200B;을(를) 계산합니다.
 
 신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
 
@@ -183,7 +183,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
 
-[Time-uniform 중앙 제한 이론 및 점근 신뢰 시퀀스](http://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 언제든지 유효한 신뢰 **upper**&#x200B;를 계산합니다.
+[Time-uniform 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 언제든지 유효한 신뢰 **upper**&#x200B;를 계산합니다.
 
 신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
 
