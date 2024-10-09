@@ -1,29 +1,33 @@
 ---
-title: 참조 - 고급 함수
+title: 고급 함수
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3126'
 ht-degree: 19%
 
 ---
 
-# 참조 - 고급 함수
+# 고급 함수
 
-[구성 요소] 패널에서 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 목록 아래의 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오. 아래로 스크롤하여 고급 함수 목록을 확인합니다.
+[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다. 이 문서에서는 고급 함수의 알파벳 목록과 해당 정의를 설명합니다.
+
+[구성 요소] 패널에서 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 목록 아래의 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오. 아래로 스크롤하여 **[!UICONTROL 고급 함수]** 목록을 확인합니다.
 
 ## 테이블 함수 대 행 함수
 
-테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 테이블의 모든 행에 대해 출력이 다른 함수입니다. 적용 가능하고 관련이 있는 경우 함수 유형으로 함수에 주석이 추가됩니다.
+테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
+
+적용 가능하고 관련된 경우 함수에는 [!BADGE 테이블] 형식의 주석이 추가됩니다.{type="Neutral"}[!BADGE 행]{type="Neutral"}
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
 계산에 0을 포함할지 여부를 알려 줍니다. 때로는 0이 *없음*&#x200B;을 의미하지만 때로는 중요합니다.
 
-예를 들어, 매출 지표가 있고, 그 다음 페이지 보기 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 추가 지표가 [MEAN](cm-functions.md#mean), [MIN](cm-functions.md#row-min), [QUARTILE](cm-functions.md#quartile) 및 수익 열에 있는 더 많은 계산에 영향을 주지 않도록 하려는 것 같습니다. 이 경우 `include-zeros` 매개 변수를 확인합니다.
+예를 들어, 매출 지표가 있고, 그 다음 페이지 보기 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 추가 지표가 **[평균](cm-functions.md#mean)**, **[행 최소값](cm-functions.md#row-min)**, **[사분위수](cm-functions.md#quartile)** 및 수익 열에 있는 더 많은 계산에 영향을 주지 않도록 하려는 것일 수 있습니다. 이 경우 `include-zeros` 매개 변수를 확인합니다.
 
 대체 시나리오는 두 개의 관심 지표가 있고 행 중 일부가 0이므로 한 개의 지표가 더 높은 평균 또는 최소값을 갖는 것입니다.  이 경우 0을 포함하도록 매개 변수를 확인하지 않도록 선택할 수 있습니다.
 
@@ -918,13 +922,13 @@ t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다
 
 **예:**
 
-1. 범위 밖 아웃라이어를 찾을 때 사용:
+1. 함수를 사용하여 이상치를 찾습니다.
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. 매우 높거나 낮은 바운스 비율을 무시하려면 **[IF](#if)**&#x200B;와(과) 결합하고 그 외 다른 모든 경우에 세션을 계산하십시오.
+1. 매우 높거나 낮은 바운스 비율을 무시하도록 함수를 **[IF](#if)**&#x200B;와(과) 결합하고 다른 모든 경우에 세션을 계산하십시오.
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
