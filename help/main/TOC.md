@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 1a0422144b795be7f129b13208e93f8d3645a8e7
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 86%
+source-wordcount: '954'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 86%
       + [용어 비교](../getting-started/aa-vs-cja/terminology.md)
       + [데이터 처리 비교](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [환경](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [Analytics 처리와 데이터 준비](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [Analytics 처리와 데이터 준비 비교](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [Analytics ID](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [Adobe Analytics의 발전](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
@@ -83,7 +83,7 @@ ht-degree: 86%
    + [세션 설정](../data-views/session-settings.md)
    + 구성 요소 설정 {#component-settings}
       + [구성 요소 설정 개요](../data-views/component-settings/overview.md)
-      + [기여도 분석](../data-views/component-settings/attribution.md)
+      + [속성](../data-views/component-settings/attribution.md)
       + [비헤이비어](../data-views/component-settings/behavior.md)
       + [포맷](../data-views/component-settings/format.md)
       + [포함/제외 값](../data-views/component-settings/include-exclude-values.md)
@@ -100,6 +100,8 @@ ht-degree: 86%
    + [레이블 및 정책](../data-views/data-governance.md)
 
 + 도구 {#tools}
+   + 자산 전송 {#asset-transfer}
+      + [자산 전송](../tools/asset-transfer/transfer-assets.md)
    + 제품 사용 {#product-usage}
       + [개요](../tools/product-usage/usage-overview.md)
       + [데이터 설정](../tools/product-usage/data-settings.md)
@@ -118,8 +120,8 @@ ht-degree: 86%
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [프로젝트를 폴더로 추가 또는 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [프로젝트를 추가하거나 폴더로 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [핫키(단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + 시각화 {#visualizations}
@@ -134,7 +136,7 @@ ht-degree: 86%
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -144,21 +146,21 @@ ht-degree: 86%
          + [구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-      + 플로우 {#flow}
+      + 흐름 {#flow}
          + [개요](../analysis-workspace/visualizations/c-flow/flow.md)
          + [구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
-         + [차원 간 플로우](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+         + [차원 간 흐름](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + 여정 캔버스 {#journey-canvas}
          + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-      + [영역(스택)](../analysis-workspace/visualizations/area.md)
-      + [막대(스택)](../analysis-workspace/visualizations/bar.md)
+      + [(스택) 영역](../analysis-workspace/visualizations/area.md)
+      + [(스택) 막대](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [가로 막대(스택)](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [(스택) 가로 막대](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
       + [분산](../analysis-workspace/visualizations/scatterplot.md)
@@ -173,9 +175,9 @@ ht-degree: 86%
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 평균 분당 시청자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 소요 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
