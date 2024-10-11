@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '8842'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -403,7 +403,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_casewhen"
 >title="다음과 같은 경우"
->abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 이러한 기준을 사용하여 조건 순서에 따라 새 파생 필드의 값을 정의합니다."
+>abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 이러한 기준을 사용하여 조건 시퀀스에 따라 새 파생 필드의 값을 정의합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -643,7 +643,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_classify"
 >title="분류"
->abstract="이 함수는 텍스트가 입력되면 해당 값으로 대체되는 값 세트를 정의하는 기능을 제공합니다."
+>abstract="이 함수는 텍스트 항목에 의해 해당 값으로 대체되는 값 세트를 정의하는 기능을 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -788,7 +788,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_concatenate"
 >title="연결"
->abstract="이 함수를 사용하면 두 개 이상의 필드, 파생 필드 또는 사용자가 입력한 문자열 값을 정의된 구분 기호로 구분되는 단일 필드로 결합할 수 있습니다."
+>abstract="이 함수를 사용하여 두 개 이상의 필드, 파생 필드 또는 사용자가 입력한 문자열 값을 정의된 구분 기호로 구분되는 단일 필드로 결합합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1050,7 +1050,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_lookup"
 >title="조회"
->abstract="이 기능은 데이터 세트 간에 일치하는 키를 사용하여 조회 데이터 세트의 필드를 사용하는 기능을 제공합니다."
+>abstract="이 함수는 데이터 세트 간에 일치하는 키를 사용하여 조회 데이터 세트의 필드를 사용하는 기능을 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1172,7 +1172,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_math"
 >title="수학"
->abstract="이 기능은 필드에서 수학 연산을 수행하는 기능을 제공합니다. 해당 함수는 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본적인 산술 연산을 수행하는 데 사용할 수 있습니다."
+>abstract="이 함수는 필드에서 수학 연산을 수행하는 기능을 제공합니다. 해당 함수는 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본적인 산술 연산을 수행하는 데 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1263,7 +1263,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_mergefields"
 >title="필드 병합"
->abstract="이 함수는 두 개의 서로 다른 필드에서 값을 가져오고 각각의 값을 단일 차원에 포함하는 기능을 제공합니다. 규칙은 먼저 첫 번째 값이 설정되어 있는지 확인합니다. 그렇지 않은 경우 두 번째 값을 사용하며 이 과정을 반복합니다."
+>abstract="이 함수는 두 개의 서로 다른 필드에서 값을 가져오고 각각의 값을 단일 차원에 포함하는 기능을 제공합니다. 규칙은 먼저 첫 번째 값이 설정되어 있는지 확인합니다. 그렇지 않은 경우 두 번째 값을 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1339,7 +1339,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_nextprevious"
 >title="다음 또는 이전"
->abstract="이 함수는 특정 필드에 대해 수집된 다음 또는 이전 값을 보는 기능을 제공합니다."
+>abstract="이 함수는 특정 필드에 대해 수집된 다음 또는 이전 값을 조회할 수 있는 기능을 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
 

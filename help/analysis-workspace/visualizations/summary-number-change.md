@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarynumber_button"
 >title="요약 번호"
->abstract="합계 및 소계를 표시하는 시각화를 만듭니다."
+>abstract="총계와 소계를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +47,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarychange_button"
 >title="요약 변경"
->abstract="두 숫자 간의 델타(변화량)를 표시하는 시각화 만들기"
+>abstract="두 숫자 사이의 델타(변경)를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

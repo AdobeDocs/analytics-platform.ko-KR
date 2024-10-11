@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_sectionheader_button"
 >title="섹션 헤더"
->abstract="패널에 섹션 헤더를 추가하십시오."
+>abstract="패널에 섹션 헤더를 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 

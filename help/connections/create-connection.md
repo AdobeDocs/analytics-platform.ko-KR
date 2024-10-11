@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '3526'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
->title="건너뛴 레코드"
->abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에 대한 데이터 전송 중에 건너뛴 레코드(행)의 수입니다."
+>title="생략된 레코드"
+>abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에 대한 데이터 전송 중에 생략된 레코드(행) 수입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="삭제된 레코드"
->abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에서 제거된 레코드(행)의 수입니다"
+>abstract="선택한 데이터 세트에 대해 선택한 시간 간격 동안 연결에서 제거된 레코드(행) 수입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +63,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
->title="일일 평균 사용 횟수"
->abstract="전체 연결에 대해 예상되는 일일 이벤트 수 범위를 선택하십시오."
+>title="일일 평균 사용 수"
+>abstract="전체 연결에 대해 예상되는 일일 이벤트 수 범위를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -136,7 +136,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="일치하는 키"
->abstract="이벤트 데이터 세트 중 하나에서 연결할 필드를 선택합니다. 이 목록이 비어 있다면 사용자가 이벤트 데이터 세트를 추가하거나 구성하지 않았을 수 있습니다."
+>abstract="이벤트 데이터 세트 중 하나에 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="새 데이터 가져오기"
->abstract="Experience Platform 데이터 세트에 추가되는 모든 새 배치는 이 연결에 자동으로 추가되고 분석에 사용할 수 있습니다."
+>abstract="Experience Platform 데이터 세트에서 추가되는 모든 새 배치는 이 연결에 자동으로 추가되며 분석용으로 사용할 수 있게 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

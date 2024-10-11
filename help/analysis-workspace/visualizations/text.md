@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 25%
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_text_button"
 >title="텍스트"
->abstract="프로젝트에 사용자 정의 서식 있는 텍스트 시각화를 추가합니다."
+>abstract="사용자 정의 서식 있는 텍스트 시각화를 프로젝트에 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 

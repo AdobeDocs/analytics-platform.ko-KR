@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 23%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_treemap_button"
 >title="트리맵"
->abstract="트리맵 시각화를 만들어 중첩된 사각형이 있는 계층형(트리 구조) 데이터를 표시합니다."
+>abstract="중첩된 직사각형으로 계층(트리 구조) 데이터를 보여 주는 트리맵 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

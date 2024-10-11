@@ -19,7 +19,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_attribution"
 >title="속성"
->abstract="보고서의 지표에 적용되는 기본 속성 모델을 구성하십시오."
+>abstract="보고서의 지표에 적용되는 기본 속성 모델을 구성합니다."
 
 <!-- markdownlint-enable MD034 -->
 

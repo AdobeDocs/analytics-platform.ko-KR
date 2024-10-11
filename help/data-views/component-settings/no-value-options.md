@@ -19,7 +19,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_novalueoptions"
 >title="값 옵션 없음"
->abstract="차원에 값이 없는 경우 기본 비헤이비어를 구성하십시오."
+>abstract="차원에 값이 없는 경우 기본 비헤이비어를 구성합니다."
 
 <!-- markdownlint-enable MD034 -->
 

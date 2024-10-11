@@ -7,7 +7,7 @@ role: User
 source-git-commit: b9abcf48c5334d71639d7d96558a63611a4a491c
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_grandtotal"
->title="총계"
+>title="총 합계"
 >abstract="정적 행이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->

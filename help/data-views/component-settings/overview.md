@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 94%
+source-wordcount: '570'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_settings"
 >title="구성 요소 설정"
->abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성하십시오.<br/><br/>**매개 변수&#x200B;**<br/>**보고에서 구성 요소 숨기기**: 이 상자를 선택하면 보고에서 관리자가 아닌 사용자에게 이 구성 요소가 숨겨집니다. 관리자는 여전히 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 액세스할 수 있습니다."
+>abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성합니다.<br/><br/>**매개변수&#x200B;**<br/>**보고에서 구성 요소 숨기기**: 이 상자를 선택하면 이 구성 요소는 보고에서 관리자가 아닌 사용자에게 표시되지 않습니다. 관리자는 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 | [!UICONTROL 구성 요소 이름] | 필수 여부. Analysis Workspace에 표시되는 이름을 지정할 수 있습니다. 구성 요소의 이름을 변경하여 데이터 보기에 특정된 이름을 지정할 수 있습니다. |
 | [!UICONTROL 설명] | 선택 사항이지만 권장됨. 다른 사용자에게 구성 요소에 대한 정보를 제공합니다. |
 | [!UICONTROL 태그] | 선택 사항. Analysis Workspace UI에서 보다 쉽게 검색/필터링할 수 있도록 사용자 정의 태그 또는 즉시 사용 가능한 태그로 구성 요소에 태그를 지정할 수 있습니다. |
-| [!UICONTROL 컨텍스트 레이블] | 선택 사항. 구성 요소에 적용할 수 있는 시스템 정의 레이블의 드롭다운 목록입니다. 이러한 레이블은 Analysis Workspace 프로젝트 또는 패널에서 보고에 사용되는 구성 요소 집합을 정의하는 데 필요할 수 있습니다. |
+| [!UICONTROL 컨텍스트 레이블] | 선택 사항. 구성 요소에 적용할 수 있는 시스템 정의 레이블의 드롭다운 목록입니다. 이러한 레이블은 Analysis Workspace 프로젝트에서 [경험 패널](/help/analysis-workspace/c-panels/experimentation.md)을(를) 사용하여 실험 보고에 사용할 수 있는 구성 요소 집합을 정의하는 데 필요할 수 있습니다. 자세한 내용은 [Journey Optimizer과 통합](/help/integrations/ajo.md#data-view) 및 [Target 보고](/help/integrations/at.md)를 참조하십시오. |
 | [!UICONTROL 스키마 필드 이름] | 스키마 필드의 이름. |
 | [!UICONTROL 데이터 세트 유형] | 필수 여부. 구성 요소의 원본 데이터 세트 유형(이벤트, 조회 또는 프로필)을 표시하는 편집 불가능한 필드입니다. |
 | [!UICONTROL 데이터 세트] | 구성 요소의 원본 데이터 세트를 표시하는 편집 불가능한 필드입니다. 이 필드에는 여러 개의 데이터 세트가 포함될 수 있습니다. |

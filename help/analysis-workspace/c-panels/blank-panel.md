@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 18%
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_blankpanel_button"
 >title="빈 패널"
->abstract="완전히 맞춤화된 분석을 구축하기 위해 만들 수 있는 다양한 패널 또는 시각화를 보여 줍니다."
+>abstract="완전히 개인 맞춤화된 분석을 빌드하기 위해 생성할 수 있는 다양한 패널이나 시각화를 표시합니다."
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Analysis Workspace의 패널"
 
 <!-- markdownlint-enable MD034 -->

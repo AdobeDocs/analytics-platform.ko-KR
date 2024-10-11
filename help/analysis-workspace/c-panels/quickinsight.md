@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_quickinsights_button"
 >title="빠른 인사이트"
->abstract="패널을 만들어 자유 형식 테이블 및 관련 시각화를 빠르게 작성하여 통찰력을 더 빨리 분석하고 발견할 수 있습니다."
+>abstract="인사이트를 더 빨리 분석하고 발견할 수 있도록 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 빌드하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

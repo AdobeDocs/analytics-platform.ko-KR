@@ -19,7 +19,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_format"
 >title="포맷"
->abstract="보고서에서 사용될 때 구성 요소가 표시되는 방법을 결정하십시오."
+>abstract="보고서에서 사용될 때 구성 요소가 표시되는 방법을 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
 

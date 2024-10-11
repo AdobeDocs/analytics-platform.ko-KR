@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_scatter_button"
 >title="분산"
->abstract="차원 항목과 최대 3개의 지표 간의 관계를 보여 주는 분산형 시각화를 만듭니다."
+>abstract="차원 항목과 최대 3개 지표 간의 관계를 보여 주는 분산 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

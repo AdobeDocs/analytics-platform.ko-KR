@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 23%
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_goalvalue"
 >title="목표 값"
->abstract="**[!UICONTROL 높은 목표]**&#x200B;은(는) 목표로 삼고 있는 주요 목표입니다. **[!UICONTROL 낮은 목표]** 및 **[!UICONTROL 중간 목표]** [!UICONTROL 높은 목표] 아래에 범위를 만듭니다. 참고: **[!UICONTROL 백분율]** 옵션을 선택한 경우 목표를 정수로 입력하십시오. 목표가 20%인 경우 `20`을(를) 예로 들 수 있습니다."
+>abstract="**[!UICONTROL 높은 목표]**&#x200B;는 사용자가 추구하는 주요 목표입니다. **[!UICONTROL 낮은 목표]**&#x200B;와 **[!UICONTROL 중간 목표]**&#x200B;는 [!UICONTROL 높은 목표]보다 낮은 범위를 만듭니다. 참고: **[!UICONTROL 백분율]** 옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_button"
 >title="글머리 기호"
->abstract="지표가 성능 범위(목표)와 비교되거나 측정되는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
+>abstract="성과 범위(목표)에 대해 지표를 비교하거나 측정하는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 23%
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]**&#x200B;에 대한 값을 지정하십시오. <br/>**[!UICONTROL 높은 목표&#x200B;]**은(는) 목표로 삼고 있는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**및**[!UICONTROL &#x200B;중간 목표&#x200B;]**에서 높은 목표 아래에 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**옵션을 선택한 경우 목표를 정수로 입력하십시오. 목표가 20%인 경우 `20`을(를) 예로 들 수 있습니다. |
+| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]**&#x200B;에 대한 값을 지정하십시오. <br/>**[!UICONTROL 높은 목표&#x200B;]**는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**및**[!UICONTROL &#x200B;중간 목표&#x200B;]**에서 높은 목표 아래에 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
 
 >[!MORELIKETHIS]
 >

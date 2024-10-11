@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_components_alerts_timegranularity"
 >title="시간 세부 기간"
->abstract="시간 세부기간은 경고를 확인하는 빈도와 포함할 항목을 모두 나타냅니다."
+>abstract="시간 세부 기간은 경고를 확인하는 빈도와 포함 항목 모두를 나타냅니다."
 
 <!-- markdownlint-enable MD034 -->
 

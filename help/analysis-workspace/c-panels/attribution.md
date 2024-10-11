@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="속성"
->abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다."
+>abstract="파원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="속성 패널"
->abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 기타 모든 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 전환에 적용되는 데이터 속성 기간을 결정합니다."
+>abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 <!-- markdownlint-enable MD034 -->

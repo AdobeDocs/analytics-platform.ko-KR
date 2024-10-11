@@ -8,7 +8,7 @@ solution: Customer Journey Analytics
 source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
 source-wordcount: '2672'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="cja_mobilescorecard_annotations"
 >title="주석"
->abstract="작업 영역 프로젝트 내의 구성 요소 관리자에서 주석을 만들 수 있습니다."
+>abstract="주석은 작업 영역 프로젝트 내부의 구성 요소 관리자에서 생성할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

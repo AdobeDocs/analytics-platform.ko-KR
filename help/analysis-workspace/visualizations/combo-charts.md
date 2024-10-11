@@ -7,7 +7,7 @@ role: User
 source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_combo_button"
 >title="콤보"
->abstract="자유 형식 테이블을 먼저 만들지 않고도 콤보 차트 시각화를 빠르게 만들 수 있습니다."
+>abstract="우선 자유 형식 테이블을 만들지 않고도 콤보 차트 시각화를 빠르게 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

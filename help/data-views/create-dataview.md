@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '1832'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -71,8 +71,8 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
 >title="Journey Optimizer의 데이터 보기"
->abstract="Journey Optimizer에서는 Customer Journey Analytics으로 구성된 데이터 보기를 사용해야 합니다.<br/>이 옵션을 사용하면 Adobe Journey Optimizer 보고에 사용되는 기본 데이터 보기가 됩니다."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="추가 구성 요소 및 데이터 세트"
+>abstract="Journey Optimizer에서는 Customer Journey Analytics로 구성된 데이터 보기를 사용해야 합니다.<br/>Adobe Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#connection" text="어떤 구성 요소와 데이터 세트가 추가되는지 알아봅니다."
 
 <!-- markdownlint-enable MD034 -->
 

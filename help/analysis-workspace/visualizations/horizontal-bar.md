@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 14%
+ht-degree: 36%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 14%
 
 가로 막대 시각화에는 표준 및 누적 옵션이 있습니다.
 
-## 가로 막대 {#horizontal-bar}
+## 가로 막대형 {#horizontal-bar}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbar_button"
->title="가로 막대"
->abstract="하나 이상의 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
+>title="가로 막대형"
+>abstract="하나 이상의 지표에서 다양한 값을 나타내는 가로 막대형 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbarstacked_button"
 >title="스택 가로 막대"
->abstract="하나 이상의 스택 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
+>abstract="하나 이상의 누적된 지표에서 다양한 값을 나타내는 가로 막대형 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

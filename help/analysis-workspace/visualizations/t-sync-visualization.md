@@ -8,7 +8,7 @@ role: User
 source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 17%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_lockselection"
 >title="선택 사항 잠금"
->abstract="시각화를 데이터 소스에서 선택한 위치 또는 선택한 항목에 잠그려면 이 설정을 활성화하십시오."
+>abstract="이 설정을 활성화하여 시각화를 데이터 소스의 선택한 위치 또는 선택한 항목에 잠급니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_lockselection_showtable"
 >title="표 표시"
->abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 원본 데이터 원본과 별도로 현재 시각화에 대한 새 데이터 원본이 생성됩니다."
+>abstract="**[!UICONTROL 표 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

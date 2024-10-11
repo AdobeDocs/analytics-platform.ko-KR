@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_createaudience"
 >title="대상자 만들기"
->abstract="필터에서 대상자를 만들고 활성화를 위해 Adobe Experience Platform과 공유할 수 있습니다."
+>abstract="필터에서 대상자를 만들고 Adobe Experience Platform과 공유하여 활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -150,7 +150,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_repeating"
 >title="반복"
->abstract="차원의 인스턴스와 지속적인 값을 포함합니다."
+>abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -159,7 +159,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_instance"
 >title="인스턴스"
->abstract="차원의 인스턴스와 지속적인 값을 포함합니다."
+>abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -168,7 +168,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_nonrepeatinginstance"
 >title="비반복 인스턴스"
->abstract="차원에 대한 고유한(반복되지 않는) 인스턴스를 포함합니다."
+>abstract="차원에 대한 고유(비반복) 인스턴스를 포함합니다."
 
 <!-- markdownlint-enable MD034 -->
 

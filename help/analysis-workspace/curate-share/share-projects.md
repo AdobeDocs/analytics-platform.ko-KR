@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_shareprojects"
 >title="프로젝트 공유"
->abstract="이러한 프로젝트 역할을 조직의 다른 사용자와 공유할 수 있습니다."
+>abstract="다음 프로젝트 역할을 조직의 다른 사용자와 공유할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 28%
+ht-degree: 39%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_nondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
->abstract="선택한 지표에 대해 기본값이 아닌 속성 모델을 활성화합니다."
+>abstract="선택한 지표에 기본이 아닌 속성 모델을 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_participation"
 >title="기여도"
->abstract="방문자가 본 모든 차원 값에 대해 100% 크레딧을 제공합니다.<br/>열 합계가 과대평가되었습니다."
+>abstract="100%의 크레딧이 방문자가 본 모든 차원 값으로 이동합니다<br/>열 합계가 과대 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -104,7 +104,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_sametouch"
 >title="동일한 터치"
->abstract="크레딧은 전환과 동일한 이벤트에서 발생하는 차원 값에만 제공됩니다."
+>abstract="전환과 동일한 이벤트에 발생하는 차원 값에만 크레딧이 제공됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -121,7 +121,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_jcurve"
->title="J 커브"
+>title="J 곡선"
 >abstract="마지막 차원 값이 60%의 크레딧, 첫 번째 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -139,8 +139,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_timedecay"
->title="시간 하강"
->abstract="전환에 가장 가까운 시간에 Dimension 값이 가장 많은 크레딧을 받습니다."
+>title="시간 감소"
+>abstract="시간적으로 변환에 가장 가까운 차원 값에 가장 많은 크레딧이 제공됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,7 +158,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_algorithmic"
 >title="알고리즘"
->abstract="크레딧은 통계 알고리즘에 따라 동적으로 결정됩니다."
+>abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,7 +173,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_lookbackwindow"
 >title="전환 확인 기간"
->abstract="이 설정은 각 전환에 적용할 데이터 속성의 창을 결정합니다."
+>abstract="이 설정은 각 변환에 적용될 데이터 속성의 기간을 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
 

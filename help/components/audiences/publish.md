@@ -18,7 +18,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_refreshfrequency"
 >title="새로 고침 빈도"
->abstract="대상자의 멤버십이 재평가되는 빈도를 확인합니다.<br/>일회성 대상은 한 번만 평가됩니다."
+>abstract="대상자의 멤버십이 재평가되는 빈도를 확인합니다.<br/>일회성 대상자는 한 번만 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

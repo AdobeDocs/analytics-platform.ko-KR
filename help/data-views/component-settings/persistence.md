@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="지속성"
->abstract="차원에 적용되는 기본 배분 모델을 구성하십시오. 할당은 보고에서의 필터 전에 적용됩니다."
+>abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 필터 전에 적용됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

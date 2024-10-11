@@ -7,7 +7,7 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_button"
 >title="자유 형식 테이블"
->abstract="차원, 세그먼트, 지표 및 날짜 범위를 사용하여 빌드할 수 있는 빈 자유 형식 테이블 시각화를 만듭니다. 자유 형식 테이블을 다른 시각화의 기반으로 사용할 수 있습니다."
+>abstract="차원, 세그먼트, 지표 및 날짜 범위를 사용하여 작성할 수 있는 빈 자유 형식 테이블 시각화를 만듭니다. 자유 형식 테이블을 다른 시각화의 기반으로 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_histogram_button"
 >title="히스토그램"
->abstract="히스토그램 시각화를 만들어 범위 그룹에 숫자 데이터의 분포를 나타냅니다."
+>abstract="범위 그룹의 숫자 데이터 분포를 나타내는 히스토그램 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_fallout_button"
 >title="폴아웃"
->abstract="사람들이 원하는 체크포인트로 성공적으로 진행되는 방식을 보기 위한 시각화를 만듭니다."
+>abstract="방문자가 원하는 체크포인트로 진행하는 방법을 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

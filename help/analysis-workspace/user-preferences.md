@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '3466'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_shareonlyworkspace"
 >title="Workspace 사용자와의 공유만 허용"
->abstract="활성화되면 사용자는 Analysis Workspace 프로젝트를 공유할 때 **[!UICONTROL 모든 사람과 공유]** 옵션을 더 이상 사용할 수 없습니다. 이전에 이 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다."
+>abstract="활성화되면 Analysis Workspace 프로젝트를 공유할 때 사용자가 **[!UICONTROL 모두와 공유]** 옵션을 더 이상 사용할 수 없습니다. 이전에 이 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,7 +54,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud 인증 필요"
->abstract="활성화되면 Analysis Workspace의 모든 사람과 공유 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
+>abstract="활성화되면 Analysis Workspace의 모두와 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ ht-degree: 73%
 | --- | --- | --- |
 | **프로젝트 공유** | | |
 | | Workspace 사용자와의 공유만 허용 | 이 옵션이 활성화되면 조직의 사용자는 **[!UICONTROL 공유]** 메뉴에서 **[!UICONTROL 모든 사람과 공유]** 옵션을 볼 수 없습니다. 즉, [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 사용자는 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다.<br/>Healthcare Shield 라이선스가 부여된 고객을 제외한 모든 조직(사용자가 조직 외부의 사용자와 프로젝트를 공유할 수 있음을 의미)에 대해 이 옵션은 기본적으로 비활성화되어 있습니다. <p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.<ul><li>이 옵션을 사용하도록 설정하면 이전에 [!UICONTROL 누구와도 공유] 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람이 더 이상 프로젝트에 액세스할 수 없습니다.</li><li>이 옵션을 사용(Workspace 사용자와만 공유 허용)한 다음 나중에 사용 안 함(누구와도 공유 허용)하면 [!UICONTROL 누구와도 공유] 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에서 설명한 대로 **([!UICONTROL 공유]** > **[!UICONTROL 누구와도 공유]**)와 프로젝트를 공유할 때 사용할 수 있는 [!UICONTROL **Link is active**] 옵션을 활성화해야 합니다.</li><li>**Healthcare Shield 라이선스가 있는 고객:** 이 옵션이 기본적으로 활성화되어 있으며 비활성화할 수 없습니다. 사용자가 [!UICONTROL 누구와도 공유] 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 Adobe Admin Console에서 [!UICONTROL 누구와도 프로젝트 링크 공유] 권한([!UICONTROL 보고 도구] 아래 위치)을 추가해야 합니다. 권한을 추가한 후 이 옵션을 비활성화한 다음 그 결과로 표시되는 법적 고지 사항을 수락할 수 있습니다. 관리 콘솔에서 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하십시오.</li></ul> |
-| | Experience Cloud 인증 필요 | 활성화되면 Analysis Workspace의 모든 사람과 공유 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.<p>이 옵션이 활성화되면 사용자가 [!UICONTROL 모든 사람과 공유] 공유 옵션을 사용하여 프로젝트를 공유할 때마다 [!UICONTROL Experience Cloud 인증 필요] 옵션이 공유 대화 상자에서 활성화되며 프로젝트를 공유하는 사용자는 비활성화할 수 없습니다. 사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)를 참조하십시오. <p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 누구와도 공유] 공유 옵션과 공유했으며 [!UICONTROL Experience Cloud 인증 필요] 옵션을 활성화하지 않은 모든 프로젝트가 비활성화됩니다.<p>이 옵션을 사용(Experience Cloud 인증 필요)한 다음 나중에 사용 안 함(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 [!UICONTROL 모든 사용자와 공유] 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 **([!UICONTROL 공유]** > **[!UICONTROL 누구와도 공유]** > **[!UICONTROL 링크가 활성]**)할 때 사용할 수 있는 [!UICONTROL Link is active]*옵션을 활성화해야 합니다.</li><li>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 사용하도록 설정하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html)에 설명된 대로 이 설정을 설정합니다.</li><li>조직에서 Healthcare Shield 라이선스를 취득한 경우 이 옵션은 기본적으로 활성화되며 비활성화할 수 없습니다.</li></ul> |
+| | Experience Cloud 인증 필요 | 활성화되면 Analysis Workspace의 모두와 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.<p>이 옵션이 활성화되면 사용자가 [!UICONTROL 모든 사람과 공유] 공유 옵션을 사용하여 프로젝트를 공유할 때마다 [!UICONTROL Experience Cloud 인증 필요] 옵션이 공유 대화 상자에서 활성화되며 프로젝트를 공유하는 사용자는 비활성화할 수 없습니다. 사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)를 참조하십시오. <p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 누구와도 공유] 공유 옵션과 공유했으며 [!UICONTROL Experience Cloud 인증 필요] 옵션을 활성화하지 않은 모든 프로젝트가 비활성화됩니다.<p>이 옵션을 사용(Experience Cloud 인증 필요)한 다음 나중에 사용 안 함(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 [!UICONTROL 모든 사용자와 공유] 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 **([!UICONTROL 공유]** > **[!UICONTROL 누구와도 공유]** > **[!UICONTROL 링크가 활성]**)할 때 사용할 수 있는 [!UICONTROL Link is active]*옵션을 활성화해야 합니다.</li><li>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 사용하도록 설정하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html)에 설명된 대로 이 설정을 설정합니다.</li><li>조직에서 Healthcare Shield 라이선스를 취득한 경우 이 옵션은 기본적으로 활성화되며 비활성화할 수 없습니다.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -77,7 +77,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_categoricalpalette"
 >title="범주형 팔레트"
->abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주형 값을 나타냅니다."
+>abstract="Analysis Workspace 및 안내식 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -86,7 +86,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_divergingpalette"
 >title="분기형 팔레트"
->abstract="Analysis Workspace 및 사용자 증가 가이드 분석의 집단 테이블에 적용됩니다. 이 팔레트는 양 극단과 중간의 기준선을 사용하여 숫자로 표시합니다."
+>abstract="Analysis Workspace 및 사용자 성장 안내식 분석의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_prefs_sequentialpalette"
 >title="순차적 팔레트"
->abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
+>abstract="빈도 트렌드(스택 막대) 안내식 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다."
 
 <!-- markdownlint-enable MD034 -->
 

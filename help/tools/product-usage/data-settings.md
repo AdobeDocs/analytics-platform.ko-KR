@@ -6,7 +6,7 @@ hidefromtoc: true
 source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -36,4 +36,4 @@ _데이터 설정_ 페이지에서 제품 사용 구성을 처리합니다. 이 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
 >title="데이터 보존 기간 재정의"
->abstract="제품 사용 데이터의 가용성을 줄여 비용을 절감하거나 개인 정보 보호 지침을 준수할 수 있습니다."
+>abstract="제품 사용 데이터 가용성을 감소하여 비용을 절감하거나 개인정보 보호 지침을 준수합니다."

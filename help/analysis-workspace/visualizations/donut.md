@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_donut_button"
 >title="도넛"
->abstract="도넛 시각화를 만들어 일반적으로 적은 수의 항목에 대한 합계의 백분율을 비교합니다."
+>abstract="일반적으로 적은 수의 항목에 대한 합계의 백분율을 비교하는 도넛 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

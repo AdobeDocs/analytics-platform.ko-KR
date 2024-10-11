@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_includeexcludevalues"
 >title="포함/제외 값"
->abstract="특정 기준과 일치하는 값만 계산하도록 지표를 필터링하십시오."
+>abstract="특정 기준과 일치하는 값만 계산하도록 지표를 필터링합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_includeexcludevalues"
 >title="포함/제외 값"
->abstract="특정 기준과 일치하는 값만 포함하도록 차원 범위를 좁히십시오. 보고서에서 할당 및 필터 전에 포함 및 제외가 발생합니다.<br/><br/>**매개 변수&#x200B;**<br/>**대/소문자 구분**: 아래의 필터 논리가 대/소문자를 구분하는지 확인하십시오."
+>abstract="특정 기준과 일치하는 값만 포함하도록 차원을 좁힙니다. 보고서에서 할당 및 필터링 전에 포함 및 제외가 발생합니다.<br/><br/>**매개변수&#x200B;**<br/>**대소문자 구분**: 아래의 필터 로직이 대소문자를 구분하는지 확인합니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_keymetricsummary_button"
 >title="주요 지표 요약"
->abstract="선, 요약 변경 사항 및 요약 번호 차트의 조합인 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간의 지표 추세가 얼마나 중요한지 비교할 수 있습니다."
+>abstract="선, 요약 변경 사항 및 요약 번호 차트의 조합인 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 추세인지 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 

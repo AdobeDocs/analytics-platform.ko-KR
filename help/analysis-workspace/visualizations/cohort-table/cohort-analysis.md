@@ -7,7 +7,7 @@ role: User
 source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_button"
 >title="집단 테이블"
->abstract="이벤트 완료에 따라 사용자를 그룹화하는 집단 시각화를 만들고 진행 중인 참여 및 시간에 따른 이탈을 분석합니다."
+>abstract="이벤트 완료를 기반으로 사용자를 그룹화하고 진행 중인 참여와 시간에 따른 이탈을 분석하는 집단 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_panel"
->title="초호트 테이블"
->abstract="이벤트 완료를 기준으로 사용자를 그룹화한 다음 진행 중인 참여 및 시간 경과에 따른 이탈을 분석합니다.<br/><br/>**매개 변수&#x200B;**<br/>**포함 기준**: 초기 방문자 집단을 정의하는 데 사용되는 구성 요소입니다.<br/>**반환 기준**: 방문자가 반환되었는지 확인하는 데 사용되는 구성 요소입니다."
+>title="집단 테이블"
+>abstract="이벤트 완료를 기반으로 사용자를 그룹화한 다음, 진행 중인 참여와 시간에 따른 이탈을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**포함 기준**: 초기 방문자 집단을 정의하는 데 사용되는 구성 요소입니다.<br/>**재방문 기준**: 방문자가 돌아왔는지 결정하는 데 사용되는 구성 요소입니다."
 
 <!-- markdownlint-enable MD034 -->
 

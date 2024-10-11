@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_line_button"
 >title="라인"
->abstract="일정 기간 동안 값이 어떻게 변하는지를 보여 주는 선 시각화를 만듭니다. 시간을 차원으로 사용하는 경우에만 선 시각화를 사용할 수 있습니다."
+>abstract="일정 기간 동안 값이 어떻게 변하는지를 보여 주는 선 시각화를 만듭니다. 라인 시각화는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

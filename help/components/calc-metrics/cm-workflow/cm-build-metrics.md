@@ -6,7 +6,7 @@ exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_productcompatibility"
 >title="제품 호환성"
->abstract="Analysis Workspace, Report Builder 등에서 이 계산된 지표를 Customer Journey Analytics에서 사용할 수 있는 위치를 나타냅니다. 일부 계산된 지표는 실험과 함께 사용할 수 없습니다."
+>abstract="이 계산된 지표를 Customer Journey Analytics에서 사용할 수 있는 곳(예: Analysis Workspace, Report Builder 등)을 나타냅니다. 계산된 지표 중 일부는 실험에 사용할 수 없습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="실험에서 계산된 지표 사용"
 
 <!-- markdownlint-enable MD034 -->
@@ -27,7 +27,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_externalid"
 >title="외부 ID"
->abstract="외부 ID를 변경하면 계산된 지표가 비즈니스 인텔리전스 도구와 같은 외부 소스에 표시되는 방식에 영향을 줄 수 있습니다"
+>abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 계산된 지표가 표시되는 방식에 영향을 미칠 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
