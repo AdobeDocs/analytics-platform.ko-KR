@@ -1,18 +1,18 @@
 ---
 description: Adobe Experience Platform 고객 AI 데이터가 Customer Journey Analytics의 Workspace와 어떻게 통합되는지 알아봅니다.
-title: Customer Journey Analytics와 고객 AI 데이터 통합
+title: Customer AI 데이터 통합
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 99%
 
 ---
 
-# Adobe Customer Journey Analytics와 고객 AI 데이터 통합
+# Customer AI 데이터 통합
 
 {{release-limited-testing}}
 

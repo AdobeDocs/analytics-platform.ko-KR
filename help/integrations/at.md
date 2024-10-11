@@ -1,17 +1,17 @@
 ---
-title: Adobe Customer Journey Analytics의 Target 보고
+title: Target 보고
 description: Adobe Target과 Customer Journey Analytics 통합
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: b189776de8cadae3a93c717b6814f2130ab1be43
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 40%
+source-wordcount: '375'
+ht-degree: 41%
 
 ---
 
-# Adobe Customer Journey Analytics의 Target 보고
+# Target 보고
 
 Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 Adobe Target 활동을 측정하고 보고할 수 있습니다. 이 기능은 Analytics for Target(A4T)을 통해 Adobe Analytics(AA)에서 수행되는 것과 비슷하지만 Adobe Experience Platform(AEP)에 연결된 것과 비슷합니다.
 
