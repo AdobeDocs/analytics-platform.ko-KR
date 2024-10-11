@@ -4,10 +4,10 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 2%
+source-wordcount: '1606'
+ht-degree: 1%
 
 ---
 
@@ -82,32 +82,31 @@ ht-degree: 2%
 
 * 여정의 노드에 분류 차원을 추가하여 특정 노드에 대한 추가 데이터를 확인합니다
 
-## 여정 캔버스와 폴아웃 시각화 중 선택
+## 여정 캔버스, 폴아웃 또는 플로우 시각화 중 선택
 
-여정 캔버스 시각화는 사용자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 표시한다는 점에서 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)와 유사합니다.
-
-그러나 중요한 차이점이 있습니다.
+여정 캔버스 시각화는 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [흐름 시각화](/help/analysis-workspace/visualizations/c-flow/flow.md)와 유사하지만 중요한 차이가 있습니다.
 
 ### 차이점 이해
 
-다음 표는 여정 캔버스 시각화 및 폴아웃 시각화에서 지원되는 분석 유형을 보여 줍니다.
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
-| 함수 | 여정 캔버스 시각화 | 폴아웃 시각화 |
-|---------|----------|---------|
-| 선형 여정 | 예 | 예 |
-| 여러 진입점 및 경로가 있는 비선형 여정 | 예 | 아니요 |
-| Adobe Journey Optimizer 여정 | 예 | 아니요 |
-| 기본 지표 | 계산된 지표를 포함한 모든 지표 | 세션 또는 사용자 지표만 사용할 수 있습니다. |
-| 보조 지표 | 예<p>계산된 지표를 포함한 모든 지표</p> | 아니요 |
-| 필터 비교 | 아니요 | 예<p>[무제한 필터 비교](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#compare-filters-in-fallout)</p> |
+{{journey-visualization-comparisons}}
 
-### 사용할 시각화 선택
+### 여정 캔버스 사용 시기
 
-여정 캔버스 사용과 폴아웃 중 하나를 선택하기 전에 [둘 사이의 차이점을 파악하십시오](#understand-the-differences).
+여정 캔버스는 다음에 필수적입니다.
 
-여정 폴아웃 분석에 시작과 끝이 모두 알려진 선형 분석만 포함된 경우 이러한 보다 간단한 사용자 여정을 위해 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)를 더 간단한 옵션으로 사용하는 것이 좋습니다.
+* 여러 진입점 및 경로를 가진 여정을 포함하는 폴아웃 분석.
 
-여정 캔버스는 여러 진입점 및 경로가 있는 여정을 포함하는 폴아웃 분석이나 Journey Optimizer에서 생성된 여정을 분석하는 데 필수적입니다.
+* 여러 진입점과 경로가 있고 사전 정의된 여정 시퀀스가 있는 비선형 페이지입니다.
+
+* 사전 정의된 여정을 기반으로 하는 탐색적 Ad Hoc Analysis.
+
+* 세션, 개인 또는 발생 횟수 이외의 기본 지표가 필요한 분석입니다.
+
+* Adobe Journey Optimizer에서 시작된 여정에 대한 심층적인 분석입니다.
+
+[위의 표](#understand-the-differences)를 사용하여 여정 캔버스, 폴아웃 및 플로우 시각화 간의 차이점을 이해합니다.
 
 ## Journey Optimizer 여정 분석
 

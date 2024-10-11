@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 73%
+source-wordcount: '362'
+ht-degree: 53%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 
 +++
 
-## 차원 간 플로우
+## 차원 간 흐름
 
 [차원 간 플로우](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음, &#39;신발&#39; 부문으로 이동할 수 있습니다.
 
@@ -56,3 +56,22 @@ ht-degree: 73%
 >[흐름 시각화 구성](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
+## 플로우, 폴아웃 또는 여정 캔버스 시각화 중 선택
+
+흐름 시각화는 [폴아웃 시각화](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [여정 캔버스 시각화](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)와 유사하지만 중요한 차이가 있습니다.
+
+### 차이점 이해
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### 플로우 사용 시기
+
+플로우 시각화는 다음에 가장 적합합니다.
+
+* 경로의 바로 다음 접점에 대한 탐색적 애드혹 분석. 미리 정의된 여정 순서가 있는 페이지나 최종 경로를 사용하는 페이지에 대해서는 여정 캔버스를 사용합니다.
+
+* 여러 진입점과 경로가 있는 비선형 여정. (사전 정의된 여정 순서가 있는 페이지에 대해 여정 캔버스 사용)
+
+흐름, 폴아웃 및 여정 캔버스의 차이점을 이해하려면 [위의 표](#understand-the-differences)를 사용하십시오.
