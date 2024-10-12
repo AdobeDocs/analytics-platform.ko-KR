@@ -5,7 +5,7 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 61db4e228e81c921e756fdd284c1be0f730e4adb
+source-git-commit: 6497a73aaf7ab7ab597d7a9b00315d126ce402f8
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 79%
@@ -14,7 +14,7 @@ ht-degree: 79%
 
 # 안내식 분석 개요
 
-안내식 Customer Journey Analytics을 통해 마케팅, 제품, 분석가에 이르기까지 사용자는 마케팅 채널의 크로스 채널 데이터를 기반으로 구축된 안내식 워크플로우를 통해 고품질 데이터와 고객 여정에 대한 통찰력을 자체 제공할 수 있습니다. Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분석은 [데이터 보기](../data-views/data-views.md)의 데이터를 사용하며, 데이터 보기에서는 [연결](../connections/overview.md)을 통해 Adobe Experience Platform의 데이터를 참조합니다. 안내식 분석에서 만든 대다수의 보고서는 추가 연구를 위해 Analysis Workspace로 원활하게 전송할 수 있습니다.
+안내식 Customer Journey Analytics을 통해 마케팅, 제품, 분석가에 이르기까지 사용자는 마케팅 채널의 크로스 채널 데이터를 기반으로 구축된 안내식 워크플로우를 통해 고품질 데이터와 고객 여정에 대한 통찰력을 자체 제공할 수 있습니다. Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분석은 [데이터 보기](/help/data-views/data-views.md)의 데이터를 사용하며, 데이터 보기에서는 [연결](../connections/overview.md)을 통해 Adobe Experience Platform의 데이터를 참조합니다. 안내식 분석에서 만든 대다수의 보고서는 추가 연구를 위해 Analysis Workspace로 원활하게 전송할 수 있습니다.
 
 다음 안내식 분석을 사용할 수 있습니다.
 
