@@ -3,9 +3,9 @@ title: 에셋 전송
 description: 한 사용자에서 다른 사용자로 구성 요소를 전송하는 방법에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: faa9545fa3928a19aeaaf7285a9643e7dc253cea
+source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,14 @@ Customer Journey Analytics을 전송하려면 제품 관리자 권한이 필요�
 
 1. 이제 왼쪽 탐색 영역에서 각 구성 요소 폴더를 통해 전송할 폴더의 개별 구성 요소 또는 모든 에셋을 선택합니다.
 
-   관리자로부터 관리자가 아닌 사용자에게 자산을 전송해도 수신자가 관리자로 업그레이드되지 않습니다.
+   >[!NOTE]
+   >
+   >관리자의 자산을 관리자가 아닌 사용자에게 전송하면 수신자가 관리자로 업그레이드되지 않습니다.
+
+
+   >[!NOTE]
+   >
+   >    다른 구성 요소를 참조하는 자산(예: 다른 필터 및 계산된 지표를 참조하는 프로젝트)을 전송할 때 프로젝트의 현재 소유자가 소유하지 않는 구성 요소는 수신자와만 공유됩니다. 다른 모든 구성 요소의 소유권은 수신자에게 이전됩니다.
 
 1. 폴더에서 _모두_&#x200B;개의 자산을 선택하려면 표 상단의 **[!UICONTROL 이름]** 옆에 있는 상자를 선택합니다.
 
@@ -58,17 +65,31 @@ Customer Journey Analytics을 전송하려면 제품 관리자 권한이 필요�
    >
    >공정 유산을 피하기 위해 이송 중 화면을 닫지 않도록 합니다. 이를 통해 원활한 전송 경험이 보장됩니다.
 
+## 전송 결과
+
+다음과 같은 세 가지 결과가 이전될 수 있습니다.
+
+- **전송 성공**: &quot;Assets이 전송되었습니다.&quot;
+
+- **일부 성공**: &quot;일부 자산이 전송되었습니다.&quot;
+
+- **전송 실패**: &quot;자산을 전송하지 못했습니다. 다시 시도하십시오.&quot;
+
 ## Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 동안 에셋 전송
 
 에셋 전송에 대한 주요 사용 사례 중 하나는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 동안입니다.
 
 Adobe Analytics의 [구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) 기능을 사용하면 관리자가 소유한 프로젝트를 다른 관리자로 마이그레이션할 수 있습니다. 그런 다음 이러한 프로젝트를 구성하는 모든 구성 요소는 Customer Journey Analytics에서 다시 만들어지고 받는 사람 관리자는 구성 요소를 만든 사람에 관계없이 이러한 모든 구성 요소를 소유합니다.
 
-이 자산 전송 도구를 사용하면 관리자가 구성 요소를 올바른 소유자에게 재할당할 수 있습니다.
+이 자산 전송 도구를 사용하면 관리자는 이후 관리자이든 아니든 정당한 소유자에게 구성 요소를 재할당할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>이 도구를 사용하여 구성 요소를 전송할 수 있지만 관리자는 수신자가 이러한 구성 요소를 보거나 사용하는 데 필요한 데이터 보기에 액세스할 수 있는지 확인해야 합니다. [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서 권한을 보고 할당할 수 있습니다.
 
 ## CSV로 내보내기
 
-한 사용자에서 다른 사용자로 전송된 자산 목록을 .csv 파일로 내보낼 수 있습니다.
+**[!UICONTROL CSV로 내보내기]** 옵션을 사용하면 관리자만 .csv 파일에 표시된 사용자 목록을 다운로드할 수 있습니다. 이렇게 하면 전송된 에셋 목록을 .csv 파일로 내보낼 수 없습니다.
 
 <!---## Unknown users
 
