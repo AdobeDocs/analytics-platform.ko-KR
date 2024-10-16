@@ -3,10 +3,10 @@ title: 제품 사용 옵트아웃 설정
 description: 조직 내의 개별 사용자에 대한 옵트아웃 설정을 관리합니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 _옵트아웃 설정_ 페이지에서는 제품 사용 추적에서 조직 내의 사용자를 제외하거나 다시 포함할 수 있습니다. 제품 관리자만 볼 수 있습니다.
 
-**Customer Journey Analytics** > **[!UICONTROL 도구]** > **[!UICONTROL 제품 사용]** > **[!UICONTROL 옵트아웃 설정]**
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL 제품 사용]** > **[!UICONTROL 옵트아웃 설정]**
 
 이 페이지에서는 다음 설정을 사용할 수 있습니다.
 
