@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1a0422144b795be7f129b13208e93f8d3645a8e7
+source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 93%
 
 ---
@@ -218,24 +218,17 @@ ht-degree: 93%
 
 + 안내식 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
-   + 기능 지표 {#feature-matrix}
-      + [참여](../guided-analysis/types/engagement.md)
-   + 단계 {#funnel}
-      + [마찰 보기](../guided-analysis/types/friction.md)
-      + [전환 추세 보기](../guided-analysis/types/conversion-trends.md)
-   + 영향 {#impact}
-      + [릴리스 보기](../guided-analysis/types/release.md)
-      + [첫 사용 보기](../guided-analysis/types/first-use.md)
-   + 유지 {#retention}
-      + [유지율](../guided-analysis/types/retention-rates.md)
-   + 트렌드 {#trends}
-      + [사용량 보기](../guided-analysis/types/usage.md)
-      + [빈도 보기](../guided-analysis/types/frequency.md)
-   + 사용자 증가 {#user-growth}
-      + [활성 보기](../guided-analysis/types/active.md)
-      + [순성장 보기](../guided-analysis/types/net-growth.md)
-   + 사용자 스트림 {#streams}
-      + [타임라인](../guided-analysis/types/timeline.md)
+   + [활성 증가](../guided-analysis/types/active-growth.md)
+   + [전환 추세](../guided-analysis/types/conversion-trends.md)
+   + [참여](../guided-analysis/types/engagement.md)
+   + [최초 사용 영향](../guided-analysis/types/first-use-impact.md)
+   + [빈도](../guided-analysis/types/frequency.md)
+   + [단계](../guided-analysis/types/funnel.md)
+   + [순성장](../guided-analysis/types/net-growth.md)
+   + [릴리스 영향](../guided-analysis/types/release-impact.md)
+   + [유지](../guided-analysis/types/retention.md)
+   + [타임라인](../guided-analysis/types/timeline.md)
+   + [트렌드](../guided-analysis/types/trends.md)
    + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
    + [FAQ](../guided-analysis/faq.md)
 

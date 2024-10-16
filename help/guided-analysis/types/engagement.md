@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 670443a8caf6b71f49fc63a23b5328609864a9be
+source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 4%
 
 ---
 
 # [!UICONTROL 참여] 보기
 
-**[!UICONTROL 참여]** 보기에서는 기능 사용 빈도와 기능 사용 인원수에 대한 통찰력을 제공합니다. 이 분석은 여러 기능을 서로 비교할 때 가장 잘 작동합니다. 당신의 핵심, 힘, 일회성, 의문스러운 특징들이 무엇인지 이해함으로써 투자 결정에 박차를 가할 수 있도록 도와준다.
+![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** 보기는 기능 사용 빈도와 기능 사용 빈도에 대한 통찰력을 제공합니다. 이 분석은 여러 기능을 서로 비교할 때 가장 잘 작동합니다. 당신의 핵심, 힘, 일회성, 의문스러운 특징들이 무엇인지 이해함으로써 투자 결정에 박차를 가할 수 있도록 도와준다.
 
 이 시각화의 맨 위에 표시되는 기능은 참여 사용자 간에 자주 사용됨을 나타냅니다. 이 시각화의 오른쪽에 표시되는 기능은 활성 사용자 간에 널리 채택되어 있음을 나타냅니다. 피쳐를 사용한 횟수의 중간값은 그래프를 수평으로 나눕니다. 활성 사용자의 중간 백분율로 그래프가 세로로 나누어집니다. 매개 변수는 모든 데이터가 아니라 쿼리에서 선택한 이벤트를 기반으로 계산됩니다.
 

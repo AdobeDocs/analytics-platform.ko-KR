@@ -5,9 +5,9 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6497a73aaf7ab7ab597d7a9b00315d126ce402f8
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1393'
 ht-degree: 79%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 79%
 
 다음 안내식 분석을 사용할 수 있습니다.
 
-| 분석 | 설명 |
-| --- | --- |
-| [활성 증가](types/active.md) | 신규, 유지, 복귀 또는 휴면 상태를 식별합니다. |
-| [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
-| [참여](types/engagement.md) | 기능 참여의 폭과 깊이를 이해합니다. |
-| [첫 번째 사용 영향](types/first-use.md) | 주요 지표에 대한 최초 기능 사용의 영향을 측정합니다. |
-| [빈도](types/frequency.md) | 사용 빈도로 참여도를 측정합니다. |
-| [단계](types/friction.md) | 단계 간 전환율을 비교합니다. |
-| [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
-| [릴리스 영향](types/release.md) | 릴리스 전후 동일한 기간 동안의 성능을 비교합니다. |
-| [유지](types/retention-rates.md) | 사용자의 지속적인 재방문 습관을 측정합니다. |
-| [타임라인](types/timeline.md) | 세션 활동에서의 패턴을 탐색합니다. |
-| [트렌드](types/usage.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
+| 아이콘 | 분석 | 설명 |
+| :----:|--- | --- |
+| ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) | [활성 증가](types/active-growth.md) | 신규, 유지, 복귀 또는 휴면 상태를 식별합니다. |
+| ![전환 트렌스](/help/assets/icons/ConversionTrends.svg) | [전환 추세](types/conversion-trends.md) | 시간 경과에 따른 전환율 변화를 추적합니다. |
+| ![참여 그래프](/help/assets/icons/EngagementGraph.svg) | [참여](types/engagement.md) | 기능 참여의 폭과 깊이를 이해합니다. |
+| ![처음 사용](/help/assets/icons/FirstUse.svg) | [첫 번째 사용 영향](types/first-use-impact.md) | 주요 지표에 대한 최초 기능 사용의 영향을 측정합니다. |
+| ![히스토그램](/help/assets/icons/Histogram.svg) | [빈도](types/frequency.md) | 사용 빈도로 참여도를 측정합니다. |
+| ![전환 단계](/help/assets/icons/ConversionFunnel.svg) | [단계](types/funnel.md) | 단계 간 전환율을 비교합니다. |
+| ![NetGrowth](/help/assets/icons/NetGrowth.svg) | [순성장](types/net-growth.md) | 사용자가 증가하고 있습니까, 감소하고 있습니까? |
+| ![릴리스](/help/assets/icons/Release.svg) | [릴리스 영향](types/release-impact.md) | 릴리스 전후 동일한 기간 동안의 성능을 비교합니다. |
+| ![유지](/help/assets/icons/Retention.svg) | [유지](types/retention.md) | 사용자의 지속적인 재방문 습관을 측정합니다. |
+| ![타임라인](/help/assets/icons/Timeline.svg) | [타임라인](types/timeline.md) | 세션 활동에서의 패턴을 탐색합니다. |
+| ![그래프 트렌드](/help/assets/icons/GraphTrend.svg) | [트렌드](types/trends.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
 Customer Journey Analytics 홈 페이지에서 안내식 분석에 액세스할 수 있습니다.
 
-1. 홈 페이지에서 **[!UICONTROL 안내식 분석]**&#x200B;을 선택하면 [사용 현황 추세 보기](types/usage.md)로 바로 이동합니다.
+1. 홈 페이지에서 **[!UICONTROL 안내식 분석]**&#x200B;을 선택하면 [사용 현황 추세 보기](types/trends.md)로 바로 이동합니다.
 
    ![랜딩 페이지 타일](assets/landing-page-tile.png){style="border:1px solid gray"}
 

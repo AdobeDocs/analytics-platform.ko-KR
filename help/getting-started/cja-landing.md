@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -142,7 +142,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>안내식 분석</strong><br/><a href="/help/guided-analysis/overview.md">개요</a> - <a href="/help/guided-analysis/types/active.md">사용자 증가</a> - <a href="/help/guided-analysis/types/usage.md">트렌드</a> - <a href="/help/guided-analysis/types/friction.md">단계</a> - <a href="/help/guided-analysis/types/release.md">영향</a> - <a href="/help/guided-analysis/industry-use-cases.md">업계 사용 사례</a>
+      <strong>안내식 분석</strong><br/><a href="/help/guided-analysis/overview.md">개요</a> - <a href="/help/guided-analysis/types/active-growth.md">사용자 증가</a> - <a href="/help/guided-analysis/types/trends.md">트렌드</a> - <a href="/help/guided-analysis/types/funnel.md">단계</a> - <a href="/help/guided-analysis/types/release-impact.md">영향</a> - <a href="/help/guided-analysis/industry-use-cases.md">업계 사용 사례</a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
