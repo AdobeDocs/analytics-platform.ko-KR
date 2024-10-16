@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 22f3519445564ebdb2092db04cc966001bda8b1c
+source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 35%
+source-wordcount: '919'
+ht-degree: 33%
 
 ---
 
@@ -30,20 +30,20 @@ ht-degree: 35%
 >
 >Adobe Experience Platform은 일반적으로 타임스탬프를 UNIX® 밀리초로 저장합니다. 이 예에서 가독성을 위해 날짜 및 시간이 사용됩니다.
 
-| `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
-| --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
-| `user_310` | `1 Jan 7:04 AM` | | | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` | | | `2` |
+| example_id | timestamp | string_color | string_animal | metric_a |
+| --- | --- | --- | --- | ---: |
+| user_310 | 1월 7일 오전 1시 | 빨간색 | 여우 | |
+| user_310 | 1월 7일 오전 1시 | | | 2 |
+| user_310 | 1월 7일 오전 1시 8분 | 파란색 | | 3 |
+| user_847 | 1월 2일 오후 12:31 | | 거북 | 4 |
+| user_847 | 1월 2일 오후 12:44 | | | 2 |
 
-| `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
-| --- | --- | --- | --- | --- |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
+| different_id | timestamp | string_color | string_shape | metric_b |
+| --- | --- | --- | --- | ---: |
+| user_847 | 1월 2일 오후 12:26 | 노란색 | 원 | 8.5 |
+| user_847 | 1월 2일 오후 1:01 | 빨간색 | | |
+| alternateid_656 | 1월 2일 오후 8:58 | 빨간색 | 정사각형 | 4.2 |
+| alternateid_656 | 1월 2일 오후 9:03 | | 삼각형 | 3.1 |
 
 이 두 이벤트 데이터 세트를 사용하여 연결을 만들고 다음을 식별한 경우
 
@@ -52,19 +52,31 @@ ht-degree: 35%
 
 보고에는 다음과 같은 결합된 데이터 세트가 사용됩니다.
 
-| `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
-| --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
-| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
-| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
-| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
+| ID | timestamp | string_color | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| user_310 | 1월 7일 오전 1시 | 빨간색 | 여우 | | | |
+| user_310 | 1월 7일 오전 1시 | | | | 2 | |
+| user_310 | 1월 7일 오전 1시 8분 | 파란색 | | | 3 | |
+| user_847 | 1월 2일 오후 12:26 | 노란색 | | 원 | | 8.5 |
+| user_847 | 1월 2일 오후 12:31 | | 거북 | | 4 | |
+| user_847 | 1월 2일 오후 12:44 | | | | 2 | |
+| user_847 | 1월 2일 오후 1:01 | 빨간색 | | | | |
+| alternateid_656 | 1월 2일 오후 8:58 | 빨간색 | | 정사각형 | | 4.2 |
+| alternateid_656 | 1월 2일 오후 9:03 | | | 삼각형 | | 3.1 |
 
-스키마 경로의 중요성을 설명하려면 이 시나리오를 고려하십시오. 첫 번째 데이터 집합에서 `string_color`은(는) 스키마 경로 `_experience.whatever.string_color`을(를) 기반으로 하고 스키마 경로 `_experience.somethingelse.string_color`의 두 번째 데이터 집합에 있습니다. 이 시나리오에서는 데이터가 결합된 결과 데이터 집합의 한 열에 병합되지 **않습니다**. 대신 결과는 결합된 데이터 집합에 두 개의 `string_color` 열이 있습니다.
+스키마 경로의 중요성을 설명하려면 이 시나리오를 고려하십시오. 첫 번째 데이터 집합에서 `string_color`은(는) 스키마 경로 `_experience.whatever.string_color`을(를) 기반으로 하고 스키마 경로 `_experience.somethingelse.string_color`의 두 번째 데이터 집합에 있습니다. 이 시나리오에서는 데이터가 결합된 결과 데이터 집합의 한 열에 병합되지 **않습니다**. 대신 결과는 결합된 데이터 집합에 두 개의 `string_color` 열입니다.
+
+| ID | timestamp | 경험(_e).<br/>무엇이든.<br/>string_color | 경험.<br/>다른 항목.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| --- | --- | --- | --- | --- | --- | ---: | ---:|
+| user_310 | 1월 7일 오전 1시 | 빨간색 | | 여우 | | | |
+| user_310 | 1월 7일 오전 1시 | | | | | 2 | |
+| user_310 | 1월 7일 오전 1시 8분 | 파란색 | | | | 3 | |
+| user_847 | 1월 2일 오후 12:26 | | 노란색 | | 원 | | 8.5 |
+| user_847 | 1월 2일 오후 12:31 | | | 거북 |  | 4 | |
+| user_847 | 1월 2일 오후 12:44 | | | | | 2 | |
+| user_847 | 1월 2일 오후 1:01 | | 빨간색 | | | | |
+| alternateid_656 | 1월 2일 오후 8:58 | | 빨간색 | | 정사각형 | | 4.2 |
+| alternateid_656 | 1월 2일 오후 9:03 | | | | 삼각형 | | 3.1 |
 
 이 결합된 이벤트 데이터 세트는 보고에서 사용되는 것입니다. 행이 어느 데이터 세트에 포함되어 있든 상관없습니다. Customer Journey Analytics은 모든 데이터를 동일한 데이터 세트에 있는 것처럼 처리합니다. 일치하는 개인 ID가 두 데이터 세트에 표시되면 동일한 고유 사용자로 간주됩니다. 30분 내에 타임스탬프가 있는 두 데이터 세트에 일치하는 개인 ID가 표시되면 동일한 세션의 일부로 간주됩니다. 스키마 경로가 동일한 필드는 병합됩니다.
 
@@ -73,7 +85,7 @@ ht-degree: 35%
 연결에 첫 번째 표만 포함되고 두 번째 표는 포함되지 않은 경우 `string_color` 차원을 사용하여 보고서를 가져오고 마지막 터치 속성을 사용하여 `metric_a` 지표를 가져오면 다음이 표시됩니다.
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | 지정되지 않음 | 6 |
 | 파란색 | 3 |
 | 빨간색 | 2 |
@@ -81,7 +93,7 @@ ht-degree: 35%
 하지만 두 표를 모두 연결에 포함한 경우 `user_847`이 두 데이터 세트에 있으므로 속성 변경됩니다. 두 번째 데이터 세트 속성의 한 행 `metric_a`가 이전에 지정되지 않은 &#39;노란색&#39;이면 다음이 표시됩니다.
 
 | string_color | metric_a |
-| --- | --- |
+| --- | ---: |
 | 노란색 | 6 |
 | 파란색 | 3 |
 | 빨간색 | 2 |
