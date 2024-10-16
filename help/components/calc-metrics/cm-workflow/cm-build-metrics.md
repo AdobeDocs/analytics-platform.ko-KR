@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-1. 다음 세부 정보를 지정하십시오(![필수](/help/assets/icons/Required.svg) 필요).
+1. 다음 세부 정보를 지정합니다(![필수](/help/assets/icons/Required.svg)는 필수 입력 항목).
 
    | 요소 | 설명 |
    | --- | --- |
@@ -59,7 +59,7 @@ ht-degree: 9%
    | **[!UICONTROL 소수점 이하 자리 수]** | 선택한 형식에 대한 소수점 이하 자리 수를 지정합니다. 선택한 형식이 십진수, 통화 및 백분율인 경우에만 활성화됩니다. |
    | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 계산된 지표의 증가 트렌드를 ▲ **[!UICONTROL 양호(녹색)]** 또는 ▼ **[!UICONTROL 불량(빨간색)]**&#x200B;으로 표시할지 여부를 지정합니다. |
    | **[!UICONTROL 통화]** | 계산된 지표의 통화를 지정합니다. 선택한 포맷이 통화인 경우에만 활성화됩니다. |
-   | **[!UICONTROL 태그]** | 하나 이상의 태그를 생성하거나 적용하여 계산된 지표를 구성합니다. 입력할 수 있는 기존 태그를 찾으려면 입력을 시작합니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. 태그를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. |
+   | **[!UICONTROL 태그]** | 하나 이상의 태그를 생성하거나 적용하여 계산된 지표를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 미리보기]** | 미리보기는 지난 90일을 포함하며 지표를 올바르게 정의했는지 여부를 측정하는 방법입니다. |
    | **[!UICONTROL 요약]** | 계산된 지표 정의의 요약을 표시합니다. <br/>예: ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 주문 수]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션]**. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 필터를 정의합니다. |
@@ -67,8 +67,8 @@ ht-degree: 9%
 1. 계산된 지표 정의가 올바른지 확인하려면 계산된 지표 결과의 지속적으로 업데이트된 **[!UICONTROL 미리 보기]**&#x200B;를 사용하십시오. **[!UICONTROL 미리 보기]**&#x200B;은(는) 지난 90일을 처리하고 계산된 지표의 정의를 계속 평가합니다.
 
    **[!UICONTROL 제품 호환성]**&#x200B;은(는) 계산된 지표를 실험에 사용할 수 있는지 여부를 나타냅니다. 가능한 값:
-   * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
-   * **[!UICONTROL Customer Journey Analytics의 모든 곳(실험 제외)]**: 계산된 지표는 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+   * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+   * **[!UICONTROL Customer Journey Analytics의 모든 곳(실험 제외)]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
 
 1. 선택:
    * 계산된 지표를 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.

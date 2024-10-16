@@ -4,10 +4,10 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
+source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
-source-wordcount: '2145'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="실험"
->abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다.<br/><br/>**매개 변수&#x200B;**<br/>**실험**: 분석되는 실험입니다.<br>**제어 변형**: 선택한 실험에 대한 제어 변형입니다.<br/>**성공 지표**: 실험을 분석하기 위한 최대 5개의 표준(계산되지 않은) 성공 지표입니다.<br/>**지표 정규화**: 사람, 세션 또는 이벤트. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이 지표는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다."
+>abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다.<br/><br/>**매개변수&#x200B;**<br/>**실험**: 분석할 실험입니다.<br>**제어 변형**: 선택한 실험에 대한 제어 변형입니다.<br/>**성공 지표**: 실험을 분석하기 위한 최대 5개의 표준(계산되지 않은) 성공 지표입니다.<br/>**표준화 지표**: 사용자, 세션 또는 이벤트입니다. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이 지표는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,9 +41,9 @@ Adobe Customer Journey Analytics과 Adobe Target 간의 [통합에 대해 자세
 
 실험 패널은 모든 Customer Journey Analytics 사용자가 사용할 수 있습니다. 다른 관리자 권한이나 사용 권한이 필요하지 않습니다. 그러나 사전 요구 사항에는 관리자만 수행할 수 있는 작업이 필요합니다.
 
-## 계산된 지표의 새로운 함수
+## 계산된 지표의 함수
 
-상승도와 신뢰도라는 두 가지 새로운 고급 함수가 추가되었습니다. 자세한 내용은 [참조 - 고급 함수](/help/components/calc-metrics/cm-adv-functions.md)를 참조하십시오.
+상승도와 신뢰도의 두 가지 고급 기능을 사용할 수 있습니다. 자세한 내용은 [참조 - 고급 함수](/help/components/calc-metrics/cm-adv-functions.md)를 참조하십시오.
 
 ## 사전 요구 사항
 
@@ -51,10 +51,10 @@ Adobe Customer Journey Analytics과 Adobe Target 간의 [통합에 대해 자세
 
 ### 실험 데이터 세트에 대한 연결 만들기
 
-권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [오브젝트 배열](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)에 있는 것입니다. 두 차원은 **single** 개체 배열에 있어야 합니다. 실험 데이터가 단일 차원에 있는 경우(구분된 문자열에 실험 및 변형 데이터가 있는 경우) 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 차원을 두 개로 분할할 수 있습니다.
+권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [개체 배열](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)에 있는 것입니다. 두 차원은 **single** 개체 배열에 있어야 합니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 차원을 두 개로 분할할 수 있습니다.
 
 
-실험 데이터가 Adobe Experience Platform으로 [수집](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)된 후 하나 이상의 실험 데이터 세트에 대해 [Customer Journey Analytics에서 연결을 만듭니다](/help/connections/create-connection.md).
+실험 데이터가 Adobe Experience Platform으로 [수집](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)되면 하나 이상의 실험 데이터 세트에 대한 [Customer Journey Analytics에서 연결을 만듭니다](/help/connections/create-connection.md).
 
 ### 데이터 보기에서 컨텍스트 레이블 추가
 
@@ -69,16 +69,16 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 이 레이블이 없으면 함께 작동할 실험이 없어 실험 패널이 작동하지 않습니다.
 
-## Use
+## 사용
 
 **[!UICONTROL 실험]** 패널을 사용하려면:
 
 1. **[!UICONTROL 실험]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
 
-1. 패널에 대한 [입력](#panel-input)을(를) 지정하십시오.
+1. 패널의 [입력](#panel-input)을 지정합니다.
 
-1. 패널의 [output](#panel-output)을(를) 확인합니다.
+1. 패널의 [출력](#panel-output)을 확인합니다.
 
    >[!IMPORTANT]
    >
@@ -168,12 +168,11 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 >
 >Customer Journey Analytics과 Adobe Journey Optimizer을 모두 사용하는 조직의 경우 이 섹션의 정보는 Journey Optimizer 내의 실험 기능에도 적용됩니다.
 
-
 일부 계산된 지표가 실험 패널과 호환되는 것은 아닙니다.
 
 다음 지표 또는 상수를 포함하는 계산된 지표는 실험 패널과 호환되지 않습니다.
 
-* 요약 데이터 세트의 기본 지표<!--add link to Rob's "Summary data" doc when it's published -->
+* [요약 데이터 집합](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)의 기본 지표
 * 서로 나누거나 함께 곱하는 기본 지표(예: `Revenue`/`Orders`)
 * 기본 지표에 더하거나 빼는 상수(예: `Revenue+50`)
 * 다음 기본 지표 중 하나:
