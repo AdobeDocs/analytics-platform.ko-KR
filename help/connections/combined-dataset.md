@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8241bcc4a2653da456c1577eb95d5504ca118cd9
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 33%
@@ -66,7 +66,7 @@ ht-degree: 33%
 
 스키마 경로의 중요성을 설명하려면 이 시나리오를 고려하십시오. 첫 번째 데이터 집합에서 `string_color`은(는) 스키마 경로 `_experience.whatever.string_color`을(를) 기반으로 하고 스키마 경로 `_experience.somethingelse.string_color`의 두 번째 데이터 집합에 있습니다. 이 시나리오에서는 데이터가 결합된 결과 데이터 집합의 한 열에 병합되지 **않습니다**. 대신 결과는 결합된 데이터 집합에 두 개의 `string_color` 열입니다.
 
-| ID | timestamp | 경험(_e).<br/>무엇이든.<br/>string_color | 경험.<br/>다른 항목.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| ID | timestamp | 경험(_e).<br/>무엇이든.<br/>string_color | 경험(_e).<br/>다른 항목.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
 | --- | --- | --- | --- | --- | --- | ---: | ---:|
 | user_310 | 1월 7일 오전 1시 | 빨간색 | | 여우 | | | |
 | user_310 | 1월 7일 오전 1시 | | | | | 2 | |
