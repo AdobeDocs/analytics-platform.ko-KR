@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
+source-git-commit: 29869538b2f2475b707fd3c088b5715f44de319a
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 93%
@@ -21,6 +21,7 @@ ht-degree: 93%
 
 + [Adobe Customer Journey Analytics 안내서](../getting-started/cja-landing.md)
 + [Adobe Customer Journey Analytics용 AI 어시스턴트](../ai-assistant.md)
+
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
    + [2024년 릴리스](../release-notes/2024.md)
@@ -287,7 +288,7 @@ ht-degree: 93%
          + [계산된 지표 공유](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [계산된 지표 관리](../components/calc-metrics/cm-workflow/cm-manager.md)
          + [예](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
-      + [기본 계산된 지표](../components/calc-metrics/default-calcmetrics.md)
+      + [계산된 지표 템플릿](../components/calc-metrics/default-calcmetrics.md)
       + [기본 함수](../components/calc-metrics/cm-functions.md)
       + [고급 함수](../components/calc-metrics/cm-adv-functions.md)
    + 날짜 범위 {#cja-date-ranges}

@@ -3,10 +3,10 @@ title: 차원 개요
 description: 차원의 의미와 Customer Journey Analytics에서 차원을 사용하는 방법을 알아봅니다
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 28%
+source-wordcount: '262'
+ht-degree: 36%
 
 ---
 
@@ -34,6 +34,29 @@ Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫
 ## 차원 만들기
 
 Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원을 만들 수 있습니다](/help/data-views/create-dataview.md#components).
+
+## 기본 차원
+
+데이터 보기를 생성하면 기본적으로 다음 시간 기반 구성 요소가 데이터 보기에 차원으로 추가됩니다.
+
+- 15분
+- 30분
+- 5분
+- 일
+- 날짜(월 기준)
+- 요일
+- 일(한 해 기준)
+- 시간
+- 시간 (일 기준)
+- 분
+- 분/시간
+- 월
+- 월 (연 기준)
+- 분기
+- 사분기
+- 초
+- 주(한 해 기준)
+- 년
 
 ## 차원 설명 추가
 

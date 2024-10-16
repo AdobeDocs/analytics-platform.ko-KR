@@ -1,19 +1,19 @@
 ---
 description: Adobe은 사용할 수 있는 다양한 계산된 지표를 제공합니다. 이 페이지에는 이러한 지표와 그 사용 용도가 나열됩니다.
-title: 기본 계산된 지표
+title: 계산된 지표 템플릿
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: a507417c945f827ebb8bc92f7b5f54a9c4e6faa0
+source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 9%
+source-wordcount: '386'
+ht-degree: 8%
 
 ---
 
-# 기본 계산된 지표
+# 계산된 지표 템플릿
 
-Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위해 다음과 같은 기본 계산된 지표를 제공합니다. 이러한 Adobe 정의 기본 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별됩니다. 이러한 지표를 빠르게 필터링하려면 [구성 요소 필터](/help/components/overview.md#filter)에서 ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL Adobe 템플릿]**&#x200B;을(를) 선택하십시오.
+Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위해 다음과 같은 계산된 지표 템플릿을 제공합니다. 이러한 Adobe 정의 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별됩니다. 이러한 지표를 빠르게 필터링하려면 [구성 요소 필터](/help/components/overview.md#filter)에서 ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL Adobe 템플릿]**&#x200B;을(를) 선택하십시오.
 
 | 계산된 지표 이름 | 설명<br/>수식 |
 |---------|----------|
