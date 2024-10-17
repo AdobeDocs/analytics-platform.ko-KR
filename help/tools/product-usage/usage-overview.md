@@ -3,9 +3,9 @@ title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '336'
 ht-degree: 6%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 6%
 
 {{release-limited-testing}}
 
-제품 사용은 조직이 Customer Journey Analytics을 사용하는 방법에 대한 분석 데이터를 볼 수 있는 기능을 조직에 제공합니다. Customer Journey Analytics을 사용하는 모든 조직에서 사용할 수 있습니다. 활성화되면 다음 Adobe Experience Platform 구성 요소가 자동으로 생성되고 연결됩니다.
+제품 사용은 조직이 Customer Journey Analytics을 사용하는 방법에 대한 분석 데이터를 볼 수 있는 기능을 조직에 제공합니다. Customer Journey Analytics을 사용하는 모든 조직에서 사용할 수 있습니다. 활성화되면 다음 Adobe Experience Platform 구성 요소가 자동으로 생성되고 연결됩니다. 이러한 구성 요소는 모두 시스템 소유이며 읽기 전용이며 편집할 수 없습니다.
 
-* Adobe Experience Platform의 스키마. 이 스키마는 시스템 소유이며 읽기 전용이며 편집할 수 없습니다.
-* Adobe Experience Platform의 데이터 세트. 이 데이터 세트는 시스템 소유이며 읽기 전용이며 편집할 수 없습니다.
-* Customer Journey Analytics의 연결. 이 연결은 시스템 소유이며 읽기 전용이므로 편집할 수 없습니다.
-* Customer Journey Analytics의 데이터 보기. 위의 연결을 사용하여 이 데이터 보기를 편집하거나 더 많은 데이터 보기를 만들 수 있습니다. 데이터 보기의 소유자는 조직의 제품 사용을 활성화하는 개인입니다.
+* Adobe Experience Platform의 스키마
+* Adobe Experience Platform의 데이터 세트
+* Customer Journey Analytics 중인 연결
+* Customer Journey Analytics의 데이터 보기
 
 활성화되면 모든 데이터 수집 및 설정이 자동으로 구성됩니다. 사용자가 Analysis Workspace에서 작업을 수행할 때마다 해당 작업이 추적되어 보고에 사용할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 사용 가능한 차원
 
-제품 사용을 활성화하면 다음 차원을 사용할 수 있습니다.
+제품 사용을 활성화하면 다음 차원을 사용할 수 있습니다. 차원 설정을 변경하려면 시스템 소유 데이터 보기의 복사본을 만들고 Analysis Workspace에서 복사된 데이터 보기를 사용합니다.
 
 | 차원 | 설명 |
 | --- | --- |

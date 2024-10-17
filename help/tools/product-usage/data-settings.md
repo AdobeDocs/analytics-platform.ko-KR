@@ -3,10 +3,10 @@ title: 제품 사용 데이터 설정
 description: 제품 사용 설정을 활성화, 비활성화 또는 구성합니다.
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 13%
+source-wordcount: '318'
+ht-degree: 14%
 
 ---
 
@@ -19,8 +19,7 @@ _데이터 설정_ 페이지에서 제품 사용 구성을 처리합니다. 이 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL 제품 사용]** > **[!UICONTROL 데이터 설정]**
 
 >[!IMPORTANT]
->
->이 기능을 활성화하면 사용하기 전에 사용 약관에 동의해야 합니다. 이러한 약관에 동의하면 전체 조직을 대신하여 동의하는 것입니다. 이러한 약관을 수락하는 개인은 이 기능이 활성화될 때 자동으로 생성되는 데이터 보기를 소유합니다.
+>이 기능을 활성화하면 사용하기 전에 사용 약관에 동의해야 합니다. 이러한 약관에 동의하면 전체 조직을 대신하여 동의하는 것입니다.
 
 이 페이지에서는 다음 설정을 사용할 수 있습니다.
 
