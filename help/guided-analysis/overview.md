@@ -5,7 +5,7 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
+source-git-commit: a7545c5a197bd318212328ef6344245b2026d401
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 79%
@@ -32,7 +32,7 @@ ht-degree: 79%
 | ![타임라인](/help/assets/icons/Timeline.svg) | [타임라인](types/timeline.md) | 세션 활동에서의 패턴을 탐색합니다. |
 | ![그래프 트렌드](/help/assets/icons/GraphTrend.svg) | [트렌드](types/trends.md) | 시간 경과에 따른 사용자 참여를 측정합니다. |
 
-{style="table-layout:auto"}
+
 
 ## 액세스
 
