@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
 source-wordcount: '4009'
 ht-degree: 12%
@@ -17,7 +17,6 @@ ht-degree: 12%
 >[!NOTE]
 >
 >이 섹션에 설명된 기능을 사용하려면 **Select** 패키지 이상(필드 기반 결합용) 또는 **Prime** 패키지 이상(그래프 기반 결합용)이 있어야 합니다. 보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.
-
 
 ID 결합 (또는 간단히 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics이 처리할 수 있는 주요 사용 사례이며, 이를 통해 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에서 보고서를 원활하게 결합하고 실행할 수 있습니다.
 
