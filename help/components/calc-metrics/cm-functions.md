@@ -18,7 +18,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [열 최대값(지표)](#column-maximum)은(는) [열 최대값(페이지 보기 횟수 + 방문 횟수)](#column-maximum)도 허용합니다.
+>[!DNL metric]이 함수에서 인수로 식별되는 경우 지표의 다른 표현식도 허용됩니다. 예를 들어 [열 최대값(지표)](#column-maximum)은(는) [열 최대값(페이지 보기 횟수 + 방문 횟수)](#column-maximum)도 허용합니다.
 
 
 
@@ -88,7 +88,7 @@ ht-degree: 29%
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
@@ -110,7 +110,7 @@ ht-degree: 29%
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 평균(지표, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
@@ -122,7 +122,7 @@ ht-degree: 29%
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 중간값(지표, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
@@ -161,7 +161,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 백분위수(지표, k, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
@@ -187,7 +187,7 @@ x를 y 제곱한 값으로 반환합니다.
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 사분위수(지표, 사분위수, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}[열 최소값](#column-minimum), [중간값](#median) 및 [열 최대값](#column-maximum)은(는) 사분위수가 각각 `0`(영), `2` 및 `4`과(와) 같은 경우 [사분위수](#quartile)과(와) 같은 값을 반환합니다.
+[!BADGE Table]{type="Neutral"}[열 최소값](#column-minimum), [중간값](#median) 및 [열 최대값](#column-maximum)은(는) 사분위수가 각각 `0`(영), `2` 및 `4`과(와) 같은 경우 [사분위수](#quartile)과(와) 같은 값을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -196,7 +196,7 @@ x를 y 제곱한 값으로 반환합니다.
 | include_zeros | 계산에 0 값을 포함할지 여부입니다. |
 
 
-## 라운드
+## 반올림
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(지표, 숫자)]**
 
@@ -274,7 +274,7 @@ ROUND( 314.15, -2) = 300
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 표준 편차(지표, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
@@ -286,7 +286,7 @@ ROUND( 314.15, -2) = 300
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 분산(지표, include_zeros)]**
 
-[!BADGE 표]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|

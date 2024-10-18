@@ -35,7 +35,7 @@ ht-degree: 93%
    + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
    + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
    + [랜딩 페이지](../getting-started/landing.md)
-   + [랜딩 페이지 (이전)](../getting-started/cja-landing-old.md)
+   + [랜딩 페이지(이전)](../getting-started/cja-landing-old.md)
    + [자주 묻는 질문](../getting-started/cja-faq.md)
    + [Customer Journey Analytics와 BI 솔루션 비교](../getting-started/cja-vs-bi.md)
 
@@ -127,7 +127,7 @@ ht-degree: 93%
    + 시각화 {#visualizations}
       + [개요](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](../analysis-workspace/visualizations/t-sync-visualization.md)
-      + [지능형 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
+      + [인텔리전트 캡션](../analysis-workspace/visualizations/intelligent-captions.md)
       + 자유 형식 테이블 {#freeform-table}
          + [개요](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
@@ -136,8 +136,8 @@ ht-degree: 93%
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + 집단 테이블 {#cohort-table}
+         + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+      + 코호트 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -154,13 +154,13 @@ ht-degree: 93%
          + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-      + [(스택) 영역](../analysis-workspace/visualizations/area.md)
-      + [(스택) 막대](../analysis-workspace/visualizations/bar.md)
+      + [영역(누적)](../analysis-workspace/visualizations/area.md)
+      + [막대(누적)](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [(스택) 가로 막대](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대(누적)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
       + [분산](../analysis-workspace/visualizations/scatterplot.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 평균 분당 시청자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
@@ -216,7 +216,7 @@ ht-degree: 93%
    + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
 
-+ 안내식 분석 {#guided-analysis}
++ 가이드 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
    + [활성 증가](../guided-analysis/types/active-growth.md)
    + [전환 추세](../guided-analysis/types/conversion-trends.md)
@@ -238,7 +238,7 @@ ht-degree: 93%
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
    + 주석 {#annotations}
       + [주석 개요](../components/annotations/overview.md)
-      + [주석 생성](../components/annotations/create-annotations.md)
+      + [주석 만들기](../components/annotations/create-annotations.md)
       + [주석 관리](../components/annotations/manage-annotations.md)
       + [주석 보기](../components/annotations/view-annotations.md)
       + [모바일 주석](../components/annotations/mobile-annotations.md)
@@ -257,7 +257,7 @@ ht-degree: 93%
    + 필터 {#cja-filters}
       + [개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
-      + [필터 빌드](../components/filters/filter-builder.md)
+      + [필터 구성](../components/filters/filter-builder.md)
       + [빠른 필터](../components/filters/quick-filters.md)
       + [순차적 필터](../components/filters/seg-sequential-build.md)
       + [필터 공유](../components/filters/filters-share.md)
