@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 99%
 * 예를 들어 데이터 세트를 편집하여 다른 채우기를 요청할 수 있습니다.
 * 각 데이터 세트에 대한 기존 데이터를 가져올 수 있습니다.
 
-+++ 연결 경험 만들기 및 편집 방법을 설명하는 비디오
++++ 연결 경험 만들기 및 편집에 대해 설명하는 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
@@ -102,7 +102,7 @@ ht-degree: 99%
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
-   ![제목 없는 연결 설정](assets/create-conn1.png)
+   ![Untitled connection settings](assets/create-conn1.png)
 
 1. 연결 설정을 구성합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 99%
    | **[!UICONTROL 데이터 세트 유형]** | 이 연결에 추가한 각 데이터 세트에 대해 가져오는 데이터를 기반으로 데이터 세트 유형을 Customer Journey Analytics에서 자동으로 설정합니다. 이벤트 데이터, 프로필 데이터 및 조회 데이터의 3가지 데이터 세트 유형이 있습니다. 데이터 세트 유형에 대한 설명은 아래 표를 참조하십시오. |
    | **[!UICONTROL 세부 기간]** | 데이터 세트의 데이터 세부 기간입니다. 요약 데이터 세트에만 적용됩니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 세트의 데이터 소스 유형입니다. 요약 데이터 세트에 해당되지 않습니다. |
-   | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>중요: 선택할 개인 ID가 없는 경우, 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. [이 비디오](https://www.youtube.com/watch?v=G_ttmGl_LRU)를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
+   | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>중요: 선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. [이 비디오](https://www.youtube.com/watch?v=G_ttmGl_LRU)를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
    | **[!UICONTROL 키]** | 조회 데이터 세트(예: _id)에만 해당됩니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트(예: _id)에만 해당됩니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 켜기 또는 끄기로 설정합니다. |
@@ -136,7 +136,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="일치하는 키"
->abstract="이벤트 데이터 세트 중 하나에 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
+>abstract="이벤트 데이터 세트 중 하나에서 연결할 필드를 선택합니다. 이 목록이 비어 있다면 사용자가 이벤트 데이터 세트를 추가하거나 구성하지 않았을 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,13 +173,13 @@ ht-degree: 99%
 
 1. [!UICONTROL 데이터세트 선택] 단계에서는 Experience Platform 데이터 세트의 목록이 표시됩니다.
 
-   ![데이터 세트 선택](assets/select-datasets.png)
+   ![Select datasets](assets/select-datasets.png)
 
    각 데이터 세트에 대해, 목록은 다음과 같이 나타납니다.
 
    | 열 | 설명 |
    |---|---|
-   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동시킬 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동시킬 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | 데이터 세트 유형 | 데이터 세트 유형: 이벤트, 프로필, 조회 또는 요약. |
    | 레코드 수 | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | 스키마 | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동시킬 이름을 선택합니다. |
@@ -189,29 +189,29 @@ ht-degree: 99%
 
 
 1. 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
-   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
-   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
-   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
-   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![Column settings](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
+   * 특정 데이터 세트를 검색하려면 ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![Select](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![Close](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
 
 
 
 
 1. 이제 데이터 세트를 하나씩 구성합니다.
 
-   ![데이터 세트 구성](assets/add-dataset.png)
+   ![Configure datasets](assets/add-dataset.png)
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우, 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
    | **[!UICONTROL 타임스탬프]** | 이벤트 및 요약 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 조회 데이터 세트에 사용할 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 이벤트 데이터 세트 중 하나에 연결할 일치하는 키입니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다. |
-   | **[!UICONTROL 표준 시간대]** | 요약 데이터에만 사용할 수 있습니다. 시계열 요약 데이터에 적합한 시간대를 선택합니다. |
+   | **[!UICONTROL 시간대]** | 요약 데이터에만 사용할 수 있습니다. 시계열 요약 데이터에 적합한 시간대를 선택합니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. <br/>데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 활성화합니다. 지속적인 연결을 통해 데이터 세트에 추가된 새 데이터 배치를 Workspace에서 자동으로 사용할 수 있습니다. |
-   | **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우, (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
-   | **[!UICONTROL 데이터 세트 변환]** | 특정 B2B 조회 데이터 세트의 경우, 적절한 B2B 개인 기반 보고 시나리오에 맞게 데이터 세트 변환을 활성화할 수 있습니다. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오. |
+   | **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![Calendar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![Delete](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
+   | **[!UICONTROL 데이터 세트 변환]** | 특정 B2B 조회 데이터 세트의 경우 적절한 B2B 개인 기반 보고 시나리오에 맞게 데이터 세트 변환을 활성화할 수 있습니다. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오. |
    | **[!UICONTROL 채우기 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
    | **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
    | **[!UICONTROL 설명]** | 이 데이터 세트가 생성될 때 제공된 설명입니다. |
@@ -227,7 +227,7 @@ ht-degree: 99%
 
 생성한 연결을 미리 보려면 연결 설정 대화 상자에서 **[!UICONTROL 연결 미리보기]**&#x200B;를 선택합니다.
 
-![연결 미리보기](assets/create-conn4.png)
+![Connection preview](assets/create-conn4.png)
 
 이 미리보기에는 연결 구성을 나열하는 열이 일부 있습니다. 표시되는 열 유형은 개별 데이터 세트에 따라 다릅니다.
 
@@ -254,11 +254,11 @@ ht-degree: 99%
 
 이 조회 기능은 비용 또는 이윤과 같은 숫자 필드를 문자열 기반 키 필드에 추가할 때 유용합니다. 숫자 값을 키 또는 값으로 조회에 포함할 수 있습니다. 조회 스키마에서는 제품 이름, COGS, 캠페인 마케팅 비용 또는 이윤과 같은 숫자 값을 연결할 수 있습니다. 다음은 Adobe Experience Platform의 조회 스키마 예제입니다.
 
-![조회 스키마](assets/schema.png)
+![Lookup schema](assets/schema.png)
 
 이제 이러한 값을 Customer Journey Analytics 보고에 지표 또는 차원으로 가져오도록 지원합니다. 연결을 설정하고 조회 데이터 세트를 가져올 때 데이터 세트를 편집하여 [!UICONTROL 키] 및 [!UICONTROL 일치하는 키]를 선택할 수 있습니다.
 
-![데이터 세트 편집](assets/lookup-dataset.png)
+![Edit-dataset](assets/lookup-dataset.png)
 
 이 연결을 기준으로 데이터 보기를 설정할 때 숫자 값을 데이터 보기에 구성 요소로 추가합니다. 이 데이터 보기를 기반으로 하는 프로젝트는 이러한 숫자 값을 보고할 수 있습니다.
 
@@ -266,7 +266,7 @@ ht-degree: 99%
 
 Customer Journey Analytics에서는 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 -> 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
 
-ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. Customer Journey Analytics 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우, 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
+ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. Customer Journey Analytics 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
 
 ![](assets/idmap1.png)
 

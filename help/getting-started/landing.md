@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이지와 학습 섹션을 강조 표시하여[!DNL Analysis Workspace] 고객 여정 데이터를 보다 효과적으로 관리할 수 있습니다.
 
-+++ 자세한 내용은 비디오를 참조하십시오.
++++ 소개 비디오를 시청합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -33,18 +33,18 @@ Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습�
 
 >[!TAB 프로젝트]
 
-![프로젝트 랜딩 페이지](assets/landing-projects.png)
+![Projects landing page](assets/landing-projects.png)
 
 >[!TAB 학습]
 
-![학습 랜딩 페이지](assets/landing-learning.png)
+![Learning landing page](assets/landing-learning.png)
 
 
 >[!ENDTABS]
 
 ## 프로젝트
 
-[!UICONTROL 프로젝트]는 [!UICONTROL 작업 영역] 홈 페이지 역할을 합니다. **[!UICONTROL 프로젝트]** 탭에는 회사 폴더, 만든 모든 개인 폴더, Workspace 프로젝트 및 모바일 스코어카드가 표시됩니다. 이 페이지를 사용하여 폴더, 프로젝트 및 모바일 스코어카드를 보고, 만들고, 수정합니다. 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
+[!UICONTROL 프로젝트]는 [!UICONTROL Workspace] 홈 페이지 역할을 합니다. **[!UICONTROL 프로젝트]** 탭에는 회사 폴더, 사용자가 만든 모든 개인 폴더, 프로젝트 및 모바일 스코어카드가 표시됩니다. 이 페이지를 사용하여 폴더, 프로젝트 및 모바일 스코어카드를 보고, 만들고, 수정합니다. 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
 
 
 **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사람이 빌드하고 사용자와 공유했던 데이터 구성 요소, 테이블 및 시각화를 결합하는 사용자 정의된 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
@@ -114,26 +114,26 @@ The available columns are:
 Customer Journey Analytics의 학습 페이지를 사용하여 다음과 같은 내용을 학습합니다.
 
 * Customer Journey Analytics의 초급, 중급 또는 고급 기능 및 사용 사례
-* Adobe Analytics에서 Customer Journey Analytics으로 보다 원활하게 전환하는 방법
+* Adobe Analytics에서 Customer Journey Analytics로 보다 원활하게 전환하는 방법
 
-학습 콘텐츠에 액세스하려면 다음을 수행하십시오.
+학습 콘텐츠에 접근하는 방법:
 
-* Customer Journey Analytics의 상단 메뉴에서 [!UICONTROL **Workspace**]&#x200B;을(를) 선택하고 왼쪽 패널에서 [!UICONTROL **학습**]&#x200B;을(를) 선택합니다.
+* Customer Journey Analytics의 상단 메뉴에서 [!UICONTROL **Workspace**]&#x200B;을 선택한 다음 왼쪽 패널에서 [!UICONTROL **학습**]&#x200B;을 선택합니다.
 
 ### 기능
 
-학습 페이지에는 다음 기능이 제공됩니다
+학습 페이지는 다음 기능을 제공합니다.
 
-* **콘텐츠 필터링:** ![필터](/help/assets/icons/Filter.svg)를 사용하여 **[!UICONTROL 유형]**(**[!UICONTROL 문서]**, **[!UICONTROL 비디오]**, **[!UICONTROL 둘러보기 및 튜토리얼]**) 및 **[!UICONTROL 경험 수준]**(**[!UICONTROL 초급]**, **[!UICONTROL 중급]** 또는 **[!UICONTROL 고급]**)별로 학습 콘텐츠를 필터링합니다.
-* **진행률 추적:** 콘텐츠를 선택한 후 ![확인 표시 원](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 확인함]** 태그가 나타납니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 확인함]** 태그를 선택하여 콘텐츠에서 제거할 수 있습니다.
-* **추가 콘텐츠 보기:** 비디오를 보는 동안 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하여 Experience League에서 관련 설명서 콘텐츠를 봅니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
+* **콘텐츠 필터링**: ![Filter](/help/assets/icons/Filter.svg)를 사용하여 **[!UICONTROL 유형]**(**[!UICONTROL 문서]**, **[!UICONTROL 비디오]**&#x200B;와 **[!UICONTROL 둘러보기 및 튜토리얼]**)과 **[!UICONTROL 경험 수준]**(**[!UICONTROL 초보]**, **[!UICONTROL 중급]** 또는 **[!UICONTROL 고급]**)에 따라 학습 콘텐츠를 필터링합니다.
+* **진행 상황 추적**: 콘텐츠 일부를 선택하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
+* **추가 콘텐츠 보기:** 비디오를 시청하는 동안 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하여 Experience League에 대한 관련 설명서 콘텐츠를 볼 수 있습니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
    * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
-   * [!UICONTROL **Experience League 방문**]: Experience League에서 전체 Customer Journey Analytics 설명서 보기.
-* 새 사용자를 위한 **기본 사항:** 새 사용자를 위한 [!UICONTROL Workspace 기본 사항 학습] 둘러보기를 권장합니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 투어는 [자유 형식 패널](/help/analysis-workspace/c-panels/freeform-panel.md) 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 헤더의 도구 설명을 통해 Workspace에서 언제든지 다시 실행할 수도 있습니다.
+   * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Customer Journey Analytics 설명서 세트를 봅니다.
+* **신규 사용자를 위한 기본 사항:** [!UICONTROL Workspace 기본 사항 학습] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 [자유 형식 패널](/help/analysis-workspace/c-panels/freeform-panel.md) 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 헤더의 도구 설명을 통해 Workspace에서 다시 실행할 수도 있습니다.
 
-## 기본 랜딩 페이지
+## 선호하는 랜딩 페이지
 
-선호하는 랜딩 페이지를 설정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md#general-preferences)을 참조하십시오.
+선호하는 랜딩 페이지를 설정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md#general-preferences)을 참조하십시오.
 
 <!--
 ## Landing page FAQ {#landing-faq}

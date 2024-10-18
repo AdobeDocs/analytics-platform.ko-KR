@@ -5,9 +5,9 @@ exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
 role: User
 source-git-commit: 664576605b8be098a751609536e388c304c65513
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Analytics [처리 규칙 및 VISTA 규칙](https://experienceleague.adobe.
 
 Adobe Analytics에 의해 수집되고 저장되는 데이터는 처리 규칙이나 VISTA 규칙 또는 둘 다에 의해 변환될 수 있습니다. 그러나 Analytics 소스 커넥터를 통해 Platform으로 전달되는 보고서 세트는 다음에 데이터 준비를 사용하여 변환할 수 있습니다. 이는 다음과 같은 여러 가지 목적에 적합할 수 있습니다.
 
-* **Customer Journey Analytics 및/또는 RTCDP에서 사용할 보고서 세트 간의 스키마 차이 해결**. 예를 들어 보고서 세트 A는 `eVar1`을(를) &quot;검색어&quot;로 정의하고 보고서 세트 B는 `eVar2`을(를) &quot;검색어&quot;로 정의합니다. 데이터 준비를 사용하여 두 개의 서로 다른 eVar를 두 eVar의 데이터가 포함된 공통 필드로 매핑할 수 있습니다. 이렇게 하면 [Customer Journey Analytics 연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html) 또는 [Real-time Customer Data Platform](/help/connections/overview.md)에서 사용하기 위해 [서로 다른 스키마를 가진 보고서 세트를 결합](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)할 수 있습니다.
-* **`eVars` 필드를 의미 있는 이름으로 매핑**. Analytics 소스 커넥터를 통해 들어오는 `eVars` 및 `props`는 _\_experience.analytics.customDimensions.eVars.eVar1_&#x200B;과 같은 필드에 매핑됩니다. 데이터 준비는 `eVar` 및 `prop` 필드를 사용자에게 더 의미 있는 이름을 가지거나 다른 데이터 소스에서 가져온 이름과 일치하는 새 필드에 매핑하는 데 사용할 수 있습니다. (이 작업은 [Customer Journey Analytics 데이터 보기](/help/data-views/create-dataview.md)의 필드 이름 변경과 같은 다른 방법을 통해서도 수행할 수 있습니다.)
+* **Customer Journey Analytics 및/또는 RTCDP에서 사용할 보고서 세트 간의 스키마 차이 해결**. 예를 들어 보고서 세트 A는 `eVar1`을 “검색어”로 정의하고 보고서 세트 B는 `eVar2`를 “검색어”로 정의합니다. 데이터 준비를 사용하여 두 개의 서로 다른 eVar를 두 eVar의 데이터가 포함된 공통 필드로 매핑할 수 있습니다. 이렇게 하면 [Customer Journey Analytics 연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html) 또는 [Real-time Customer Data Platform](/help/connections/overview.md)에서 사용하기 위해 [서로 다른 스키마를 가진 보고서 세트를 결합](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)할 수 있습니다.
+* **`eVars` 필드를 의미 있는 이름으로 매핑**. Analytics 소스 커넥터를 통해 들어오는 `eVars` 및 `props`는 _\_experience.analytics.customDimensions.eVars.eVar1_&#x200B;과 같은 필드에 매핑됩니다. 데이터 준비는 `eVar` 및 `prop` 필드를 사용자에게 더 의미 있는 이름을 가지거나 다른 데이터 소스에서 가져온 이름과 일치하는 새 필드에 매핑하는 데 사용할 수 있습니다. (이 작업은 [Customer Journey Analytics 데이터 보기](/help/data-views/create-dataview.md)의 필드 이름 바꾸기와 같은 다른 방법을 통해서도 수행할 수 있습니다.)
 * **일반적으로 데이터 변환**. 데이터 준비에는 Analytics 소스 커넥터를 통해 들어오는 데이터를 기반으로 새 필드를 계산하는 데 사용할 수 있는 수백 개의 매핑 기능이 있습니다. 구분된 필드를 별도의 필드로 분할할 수 있습니다. 필드를 결합할 수 있습니다. 문자열을 조작할 수 있습니다. 정규 표현식 등을 기반으로 필드에서 정보를 추출할 수 있습니다.
 
 ## 데이터 준비 및 분류 {#classifications}

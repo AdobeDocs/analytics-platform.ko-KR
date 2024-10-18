@@ -1,33 +1,33 @@
 ---
-title: 주석 생성
+title: 주석 만들기
 description: Workspace에서 주석을 만드는 방법
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
 # 주석 만들기
 
-기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 구성 요소(예: 필터, 계산된 지표 등)를 보는 것과 유사한 방식으로 주석을 볼 수 있는 권한이 있습니다.
+기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 구성 요소(예: 필터, 계산된 지표 등) 조회 방식과 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
 
-그러나 관리자는 Admin Console을 통해 사용자에게 **[!UICONTROL CJA Workspace 액세스에 대한 권한 편집]**&#x200B;에서 **[!UICONTROL 보고 도구]**&#x200B;에 대한 **[!UICONTROL 주석 만들기]** 권한을 부여할 수 있습니다. 자세한 내용은 [사용자 수준 액세스 제어](/help/technotes/access-control.md#user-level-access)를 참조하십시오.
+단, 관리자는 **[!UICONTROL CJA Workspace 액세스 권한 편집]** 시 Admin Console을 통해 사용자에게 **[!UICONTROL 보고 도구]**&#x200B;에 대한 **[!UICONTROL 주석 만들기]** 권한을 부여할 수 있습니다. 자세한 내용은 [사용자 수준 액세스 제어](/help/technotes/access-control.md#user-level-access)를 참조하십시오.
 
-다음과 같은 방법으로 주석을 생성할 수 있습니다.
+다음과 같은 방식으로 주석을 만들 수 있습니다.
 
-![주석 만들기](assets/create-annotation.png)
+![Create an annotation](assets/create-annotation.png)
 
-* ?? 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석]**&#x200B;을 선택합니다. [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
-* ?? Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 주석 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트의 선 그래프의 컨텍스트 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
-* ??Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+o]**(Windows) 또는 **[!UICONTROL shift+command+o]**(macOS)을 사용합니다.
+* ?? 메인 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 주석]**&#x200B;을 선택합니다. [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* ?? Workspace 프로젝트 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목으로 주석 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트 선 그래프의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에 주석 달기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
+* ?? Workspace 프로젝트에서 단축키 **[!UICONTROL Ctrl+Shift+O]**(Windows) 또는 **[!UICONTROL Ctrl+Shift+O]**(macOS)를 사용합니다.
 
-주석을 정의하려면 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
+주석을 정의하려면 다음 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
 
 <!-- Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
@@ -55,39 +55,39 @@ ht-degree: 24%
 <!-- markdownlint-enable MD034 -->
 
 
-**[!UICONTROL 주석 빌더]** 대화 상자를 사용하여 새 주석을 만들거나 기존 주석을 편집합니다. 대화 상자의 제목이 **[!UICONTROL 새 주석]** 또는 [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 만들거나 관리하는 주석을 **[!UICONTROL 주석 편집]**&#x200B;입니다.
+**[!UICONTROL 주석 빌더]** 대화 상자를 사용하여 주석을 새로 만들거나 기존 주석을 편집합니다. 대화 상자 제목은 [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 만들거나 관리하는 주석에 대한 **[!UICONTROL 새로운 주석]** 또는 **[!UICONTROL 주석 편집]**&#x200B;으로 지정됩니다.
 
 
 >[!BEGINTABS]
 
 >[!TAB 주석 빌더]
 
-![다음 섹션에 설명된 필드와 옵션을 보여 주는 주석 세부 정보 창입니다.](assets/annotation-builder.png)
+![Annotation details window showing fields and options described in the next section.](assets/annotation-builder.png)
 
 >[!TAB 주석 만들기/편집]
 
-![다음 섹션에 설명된 필드와 옵션을 보여 주는 주석 세부 정보 창입니다.](assets/create-edit-annotation.png)
+![Annotation details window showing fields and options described in the next section.](assets/create-edit-annotation.png)
 
 >[!ENDTABS]
 
-1. 다음 세부 정보를 지정하십시오(![필수](/help/assets/icons/Required.svg) 필요).
+1. 다음 세부 정보를 지정합니다(![Required](/help/assets/icons/Required.svg)는 필수 입력 항목).
 
    | 요소 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 데이터 보기]** | 주석에 대한 데이터 보기를 선택할 수 있습니다. 정의한 주석은 선택한 데이터 보기에 따라 Workspace 프로젝트에서 주석으로 사용할 수 있습니다. [!UICONTROL 모든 데이터 보기에 적용]을 사용하도록 설정하면 이 선택이 무시됩니다. |
-   | **[!UICONTROL 프로젝트 전용 주석]** | 작성한 주석은 작업 중인 Workspace 프로젝트에만 표시된다는 것을 설명하는 정보 상자입니다. **[!UICONTROL 이 주석을 모든 프로젝트에 사용할 수 있도록 설정]**&#x200B;을 사용하여 모든 프로젝트에 주석을 표시할 수 있습니다. 이 정보 상자는 Workspace 프로젝트 내에서 주석을 만들 때만 표시됩니다. |
-   | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 주석의 이름을 지정합니다(예: `Needs further investigation`). |
-   | **[!UICONTROL 설명]** | 주석에 대한 설명을 입력하십시오(예: `We never expected such a fluctuation in numbers.`). |
-   | **[!UICONTROL 태그]** | 태그를 하나 이상 만들거나 적용하여 주석을 구성합니다. 입력할 수 있는 기존 태그를 찾으려면 입력을 시작합니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. 태그를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. |
-   | **[!UICONTROL 적용 날짜]** ![필수](/help/assets/icons/Required.svg) | 주석을 표시하기 위해 표시해야 하는 날짜 또는 날짜 범위를 선택합니다. 바로 가기를 사용하여 주석을 작성하면 주석은 하루 동안의 데이터 범위로 기본 설정됩니다. 시각화에서 선택 항목을 사용하여 주석을 생성할 때 주석은 시각화가 속한 패널의 날짜 범위를 기반으로 하는 데이터 범위로 기본 설정됩니다. |
+   | **[!UICONTROL 데이터 보기]** | 주석에 대한 데이터 보기를 선택할 수 있습니다. 정의된 주석은 선택한 데이터 보기를 기준으로 Workspace 프로젝트의 주석으로 사용할 수 있습니다. [!UICONTROL 모든 데이터 보기에 적용]이 활성화되면 이 선택 항목이 무효화됩니다. |
+   | **[!UICONTROL 프로젝트 전용 주석]** | 작업 중인 Workspace 프로젝트에만 표시되는 주석에 대해 설명하는 정보 상자입니다. 주석을 모든 프로젝트에 표시할 수 있도록 **[!UICONTROL 이 주석을 모든 프로젝트에 사용하기]**&#x200B;를 활성화합니다. 이 정보 상자는 Workspace 프로젝트 내에서 주석을 만들 때만 표시됩니다. |
+   | **[!UICONTROL 제목]** ![Required](/help/assets/icons/Required.svg) | 주석의 이름을 지정합니다(예: `Needs further investigation`). |
+   | **[!UICONTROL 설명]** | 주석에 대한 설명을 입력합니다(예: `We never expected such a fluctuation in numbers.`). |
+   | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 주석을 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL Enter]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
+   | **[!UICONTROL 적용된 날짜]** ![Required](/help/assets/icons/Required.svg) | 주석을 표시하기 위해 표시해야 하는 날짜 또는 날짜 범위를 선택합니다. 단축키로 주석을 만들면 주석이 기본적으로 해당 날짜에 대한 데이터 범위로 설정됩니다. 시각화의 선택 사항으로 주석을 만들면 주석이 기본적으로 시각화가 속한 패널의 날짜 범위에 따라 데이터 범위로 설정됩니다. |
    | **[!UICONTROL 색상]** | 주석에 색상을 적용합니다. 주석은 선택한 색상으로 프로젝트에 표시됩니다. 색상을 사용하여 공휴일, 외부 이벤트, 추적 문제 등과 같은 주석을 분류할 수 있습니다. |
-   | **[!UICONTROL 범위]** | 주석을 트리거하는 구성 요소 패널에서 지표를 드래그하여 놓습니다. (예: 사람, 세션 및 이벤트) 그런 다음 필터 역할을 하는 구성 요소 패널에서 차원 또는 필터를 드래그하여 놓아 주석을 표시할지 여부를 결정합니다. 범위를 지정하지 않으면 주석이 모든 데이터에 적용됩니다. <br/>다음 두 가지 옵션이 있습니다.<ul><li>**[!UICONTROL 다음 지표 중 하나가 있습니다]**: 주석을 표시하도록 트리거하는 지표를 최대 10개까지 드래그 앤 드롭합니다.<br/>예를 들어 매출 지표가 특정 날짜 범위에 대한 데이터 수집을 중지했습니다. 매출 지표를 이 상자로 드래그합니다.</li><li>**[!UICONTROL 이러한 필터를 모두 사용]**: 주석이 표시되는지 여부를 필터링하는 차원 또는 필터를 최대 10개까지 드래그 앤 드롭합니다.</li></ul><p><p>**참고:** 이후에 계산된 지표 또는 필터 정의의 일부로 사용되는 구성 요소에 적용된 주석은 자동으로 주석을 상속하지 않습니다. 주석을 표시하려면 원하는 계산된 지표도 범위 섹션에 추가해야 합니다. 그러나 동일한 정보로 주석을 추가하려는 모든 필터에 대해 새 주석을 만들어야 합니다. 예를 들어 특정 날짜의 [!UICONTROL 주문]에 주석을 적용합니다. 그런 다음 동일한 날짜 범위에 대해 계산된 지표에서 [!UICONTROL 주문]을 사용합니다. 새 계산된 지표는 주문에 대한 주석을 자동으로 표시하지 않습니다. 또한 주석을 표시할 범위 섹션에 계산된 지표를 추가합니다. |
+   | **[!UICONTROL 범위]** | 주석을 트리거하는 구성 요소 패널에서 지표를 드래그 앤 드롭합니다. 예를 들어 인원, 세션, 이벤트 등입니다. 그런 다음 구성 요소 패널에서 필터 역할을 하는 차원이나 필터를 드래그 앤 드롭하여 주석을 표시할지 여부를 결정합니다. 범위를 지정하지 않으면 주석이 모든 데이터에 적용됩니다. <br/>두 가지 옵션이 있습니다.<ul><li>**[!UICONTROL 다음 지표 중 하나가 있습니다.]** 주석을 표시하도록 트리거하는 지표를 최대 10개까지 드래그 앤 드롭합니다.<br/>예를 들어 매출 지표가 특정 날짜 범위에 대한 데이터 수집을 중지했습니다. 매출 지표를 이 상자로 드래그합니다.</li><li>**[!UICONTROL 이 모든 필터 사용]**: 주석 표시 여부를 필터링할 차원 또는 필터를 최대 10개까지 드래그 앤 드롭합니다.</li></ul><p><p>**참고:** 이후 계산된 지표 또는 필터 정의의 일부로 사용되는 구성 요소에 적용된 주석은 자동으로 주석을 상속하지 않습니다. 주석을 표시하려면 원하는 계산된 지표도 범위 섹션에 추가해야 합니다. 단, 동일한 정보로 주석을 추가하려는 모든 필터에 대해 새 주석을 만들어야 합니다. 예를 들어 특정 날짜의 [!UICONTROL 주문]에 주석을 적용합니다. 그런 다음 동일한 날짜 범위에 대해 계산된 지표에서 [!UICONTROL 주문]을 사용합니다. 새로 계산된 지표는 주문에 대한 주석을 자동으로 표시하지 않습니다. 또한 주석을 표시하려면 계산된 지표를 범위 섹션에 추가합니다. |
    | **[!UICONTROL 모든 데이터 보기에 적용]** | 기본적으로 주석은 기존 데이터 보기에 적용됩니다. 이 상자를 선택하면 회사의 모든 데이터 보기에 주석을 적용할 수 있습니다. |
 
    {style="table-layout:auto"}
 
 1. 선택
-   * 주석을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
-   * 주석의 복사본을 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하세요.
-   * 주석을 삭제하려면 **[!UICONTROL 삭제]**&#x200B;하십시오.
-   * **[!UICONTROL 취소]**: 주석의 변경 내용을 취소하거나 새 주석의 만들기를 취소합니다.
+   * **[!UICONTROL 저장]**&#x200B;을 클릭하여 주석을 저장합니다.
+   * **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 사용하여 주석 사본을 저장합니다.
+   * **[!UICONTROL 삭제]**&#x200B;를 사용하여 주석을 삭제합니다.
+   * **[!UICONTROL 취소]**&#x200B;를 사용하여 주석에 적용된 변경 사항을 취소하거나 새 주석 만들기를 취소합니다.

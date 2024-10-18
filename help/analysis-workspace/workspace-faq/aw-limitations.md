@@ -5,9 +5,9 @@ feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
 source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 89%
 
 ## 시각화
 
-* [!UICONTROL 폴아웃], [!UICONTROL 플로우], [!UICONTROL 집단] 및 [!UICONTROL 히스토그램]과 같이 필터를 활용하는 시각화는 계산된 지표를 입력으로 허용할 수 없습니다.
-* [!UICONTROL 플로우]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 플로우에서 사용할 수 없습니다.
-* [!UICONTROL 집단]: 정수가 아닌 항목은 집단 기준으로 사용할 수 없습니다.
+* [!UICONTROL 폴아웃], [!UICONTROL 흐름], [!UICONTROL 코호트] 및 [!UICONTROL 히스토그램]과 같이 필터를 활용하는 시각화는 계산된 지표를 입력으로 허용할 수 없습니다.
+* [!UICONTROL 흐름]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 흐름에서 사용할 수 없습니다.
+* [!UICONTROL 코호트]: 정수가 아닌 항목은 코호트 기준으로 사용할 수 없습니다.
 
 ## 필터
 
-* 특정 지표 및 차원은 [!UICONTROL 이벤트], [!UICONTROL 사용자] 등과 같이 필터링할 수 없습니다.
-* [패널 놓기 영역](/help/analysis-workspace/c-panels/panels.md)에 만든 애드혹 필터는 일종의 빠른 필터입니다. 이러한 구성 요소는 공개하지 않으면 Workspace 또는 필터 구성 요소 관리자의 왼쪽 패널에 표시되지 않습니다. 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md)를 참조하십시오.
+* [!UICONTROL 이벤트], [!UICONTROL 개인] 등과 같은 특정 지표 및 차원은 필터링할 수 없습니다.
+* [패널 놓기 영역](/help/analysis-workspace/c-panels/panels.md)에 만든 애드혹 필터는 일종의 빠른 필터입니다. 공개하지 않으면 Workspace 또는 필터 구성 요소 관리자의 왼쪽 패널에 나타나지 않습니다. 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md)를 참조하십시오.
 
 ## 계산된 지표
 
-* 계산된 지표는 특정 시각화에 사용할 수 없습니다. [시각화](#visualizations)를 참조하세요.
+* 계산된 지표는 특정 시각화에 사용할 수 없습니다. [시각화](#visualizations)를 참조하십시오.
 * 계산된 지표 자체가 별도의 속성 모델을 포함할 수 있으므로 계산된 지표는 [!UICONTROL 속성] 패널에서 사용할 수 없습니다.
 * 계산된 지표가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 필터]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
 
@@ -46,5 +46,5 @@ ht-degree: 89%
 
 ## 보고서 설정
 
-* [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
+* [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분자]만 사용합니다.
 
