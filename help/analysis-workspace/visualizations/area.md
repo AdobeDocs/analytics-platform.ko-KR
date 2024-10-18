@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 25%
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_areastacked_button"
 >title="스택 영역"
->abstract="여러 지표의 스택을 나타내는 영역 그래프 시각화를 만듭니다."
+>abstract="여러 지표의 스태킹을 나타내는 영역 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

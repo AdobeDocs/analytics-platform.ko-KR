@@ -7,11 +7,11 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 13%
+ht-degree: 30%
 
 ---
 
-# 막대(스택)
+# 막대(누적)
 
 막대 시각화에는 표준 및 누적 옵션이 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_barstacked_button"
 >title="스택 막대"
->abstract="하나 이상의 스택 지표에서 다양한 값을 나타내는 막대 시각화를 만듭니다."
+>abstract="하나 이상의 누적된 지표에서 다양한 값을 나타내는 막대 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

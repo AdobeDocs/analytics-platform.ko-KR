@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
->abstract="선택한 열에 대해 기본값이 아닌 속성 모델을 활성화합니다."
+>abstract="선택한 열에 기본이 아닌 속성 모델을 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,7 +76,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="비기본 속성 모델 사용"
->abstract="기본값이 아닌 속성 모드는 이 지표에 사용할 수 없습니다."
+>abstract="이 지표에는 기본이 아닌 속성 모델을 사용할 수 없습니다."
 
 <!-- markdownlint-enable MD034 -->
 

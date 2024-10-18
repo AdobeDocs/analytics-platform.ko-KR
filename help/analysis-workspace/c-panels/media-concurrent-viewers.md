@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaconcurrentviewers_button"
 >title="미디어 동시 뷰어"
->abstract="패널을 만들어 특정 콘텐츠 또는 특정 기간 동안의 분당 평균 시청 시간을 분석합니다."
+>abstract="특정 콘텐츠나 특정 기간 동안의 미디어 평균 분당 시청 대상자를 분석하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ Analysis Workspace에서 동시 뷰어 지표는 세션 수에 관계없이 특�
 
 +++
 
-## Use
+## 사용
 
 **[!UICONTROL 미디어 동시 뷰어]** 패널을 사용하려면:
 
@@ -63,9 +63,9 @@ Analysis Workspace에서 동시 뷰어 지표는 세션 수에 관계없이 특�
 
 1. 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 구성된 패널에 대해 데이터 보기를 선택해야 합니다.
 
-1. 패널에 대한 [입력](#panel-input)을(를) 지정하십시오.
+1. 패널의 [입력](#panel-input)을 지정합니다.
 
-1. 패널의 [output](#panel-output)을(를) 확인합니다.
+1. 패널의 [출력](#panel-output)을 확인합니다.
 
 ### 패널 입력
 
@@ -123,7 +123,7 @@ Analysis Workspace에서 동시 뷰어 지표는 세션 수에 관계없이 특�
 
 >[!MORELIKETHIS]
 >
->[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >[미디어 분당 평균 시청 시간 패널](average-minute-audience-panel.md)
 >

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_keymetricsummary_button"
 >title="주요 지표 요약"
->abstract="선, 요약 변경 사항 및 요약 번호 차트의 조합인 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 추세인지 비교합니다."
+>abstract="선, 요약 변경 및 요약 번호 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 추세인지 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 38%
 
 * 이전 분기와 비교하여 신규 예약이 어떻게 변경되었는지 알고자 하는 임원.
 
-## Use
+## 사용
 
 1. ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 주요 지표 요약]** 시각화를 추가합니다. [패널에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
