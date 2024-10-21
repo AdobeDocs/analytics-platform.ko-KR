@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
-workflow-type: ht
-source-wordcount: '3526'
-ht-degree: 100%
+source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 95%
 
 ---
 
@@ -134,11 +134,67 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_matchingkey"
->title="일치하는 키"
->abstract="이벤트 데이터 세트 중 하나에서 연결할 필드를 선택합니다. 이 목록이 비어 있다면 사용자가 이벤트 데이터 세트를 추가하거나 구성하지 않았을 수 있습니다."
+>id="cja_connection_primaryID"
+>title="기본 ID"
+>abstract="연결에 적합한 기본 ID를 선택합니다. B2C 시나리오에 적합한 사람입니다. B2B 시나리오를 설명합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_optionalContainers"
+>title="선택적 컨테이너"
+>abstract="추가 컨테이너를 선택합니다.<br/><br/>**[!UICONTROL 전역 계정&#x200B;]**: 연결에서 전역 계정을 구성할 수 있습니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회를 구성할 수 있습니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹을 구성할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_personID"
+>title="개인 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_accountID"
+>title="계정 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정의 고유 식별자)를 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_globalAccountID"
+>title="글로벌 계정 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정의 고유 식별자)를 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_opportunityID"
+>title="기회 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 영업 기회 ID(영업 기회에 대한 고유 식별자)를 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_buyingGroupID"
+>title="구매 그룹 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-disable MD034 -->
 
