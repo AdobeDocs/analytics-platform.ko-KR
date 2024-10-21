@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
@@ -25,14 +25,9 @@ ht-degree: 2%
 >* **관리자**: *이 분석에 PersonID 속성이 필요합니다. 개인 ID를 데이터 보기에 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자와 협력하여 개인 ID를 데이터 보기에 추가하십시오.*
 
-
-+++ 데모 비디오
-
 >[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
 
-+++
 
-![타임라인](../assets/timeline-new.png)
 
 ## 사용 사례
 
@@ -68,3 +63,10 @@ ht-degree: 2%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 이 설정은 타임라인과 같은 비트렌드 분석에 영향을 주지 않습니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
+
+
+## 예
+
+분석의 예는 아래를 참조하십시오.
+
+![타임라인](../assets/timeline-new.png)

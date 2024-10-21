@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,9 @@ ht-degree: 2%
 
 ![전환 트렌드](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 전환 트렌드]** 분석에서는 시간 경과에 따른 전환율의 트렌드 시각화를 제공합니다. 가로축은 시간 간격인 반면, 세로축은 전환율을 나타냅니다.
 
-+++ 데모 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 
-+++
-
-![전환 트렌드 시간 비교](../assets/conversion-trends-compare.png)
 
 ## 사용 사례
 
@@ -67,3 +63,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 유효한 옵션에는 시간별, 일별, 주별, 월별 및 분기별 이 포함됩니다. 동일한 날짜 범위에는 차트의 데이터 요소 수와 테이블의 열 수에 영향을 주는 서로 다른 간격이 있을 수 있습니다. 예를 들어 일별 세부기간을 사용하여 3일 동안의 분석을 보면 데이터 포인트가 세 개만 표시되는 반면, 시간별 세부기간을 사용하여 3일 동안의 분석에서는 데이터 포인트가 72개로 표시됩니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Conversion trends time compare](../assets/conversion-trends-compare.png)
+
+-->

@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '520'
 ht-degree: 5%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 5%
 
 ![릴리스](/help/assets/icons/Release.svg) **[!UICONTROL 릴리스 영향]** 분석은 지정된 날짜 전후에 주요 지표가 수행되는 방식을 비교합니다. 이 보고서의 가로축은 시간 간격인 반면 세로축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 이전 날짜와 이후 날짜를 비교하려는 날짜를 나타냅니다. 이 날짜는 일반적으로 제품 업데이트 또는 캠페인 시작과 같이 측정하려는 제품에 대한 주목할 만한 변경 사항을 나타냅니다.
 
-+++ 데모 비디오
-
 >[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
-
-+++
-
-![릴리스 영향](../assets/release-impact.png)
 
 ## 사용 사례
 
@@ -59,3 +53,13 @@ ht-degree: 5%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 유효한 옵션에는 [!UICONTROL 일별], [!UICONTROL 주별], [!UICONTROL 월별] 및 [!UICONTROL 분기별]이 있습니다. 간격을 변경하면 이전 및 이후 기간에 사용할 수 있는 옵션에 영향을 줍니다.
 * **[!UICONTROL 이전 및 이후 기간]**: 쿼리 레일에 지정된 날짜 이전 및 이후에 분석할 시간입니다. 사용 가능한 옵션은 [!UICONTROL 간격] 선택에 따라 다릅니다.
+
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Release impact](../assets/release-impact.png)
+
+-->

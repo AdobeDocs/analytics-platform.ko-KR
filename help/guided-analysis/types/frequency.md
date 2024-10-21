@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 5%
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도별로 이벤트 데이터를 그룹화합니다. 이 분석의 세로 축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷에 대한 사용자 또는 세션 수를 측정합니다.
 
-+++ 데모 비디오
-
 >[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
-
-+++
-
-![빈도](../assets/frequency.png)
 
 ## 사용 사례
 
@@ -72,3 +66,13 @@ ht-degree: 5%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 차트와 표는 기본적으로 집계된 데이터를 표시하며, 트렌드 보기로 표를 확장하는 옵션을 제공합니다. 트렌드 보기에서 사용자는 총 및 각 간격의 사용 빈도에 따라 그룹화되며, 이는 한 명의 사용자가 다른 간격의 다른 버킷에 대해 카운트할 수 있음을 의미합니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
+
+
+<!--
+## Example
+
+See below foran example of the analysis.
+
+![Frequency](../assets/frequency.png)
+
+-->

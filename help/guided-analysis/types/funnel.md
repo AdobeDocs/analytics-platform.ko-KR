@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '664'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 2%
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel ]**분석은 제품에 중요한 사용자 여정을 시각적으로 표시합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로 축은 각 단계에서 사용자 또는 세션의 백분율을 나타냅니다. 모든 단계는 최종 순서로 수행되어야 하지만 보고 기간 내에서 언제든지 발생할 수 있습니다.
 
-+++ 데모 비디오
-
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on){width="90%"}
-
-+++
-
-![단계 시간 비교](../assets/funnel-compare.png)
 
 ## 사용 사례
 
@@ -69,3 +63,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 이 설정은 [단계](funnel.md)와 같이 트렌드가 없는 분석에는 영향을 주지 않습니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Funnel time compare](../assets/funnel-compare.png)
+
+-->

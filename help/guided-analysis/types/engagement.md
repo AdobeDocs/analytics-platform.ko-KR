@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 4%
+source-wordcount: '739'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +23,8 @@ ht-degree: 4%
 * 매트릭스의 왼쪽 하단에 있는 기능은 **영향력이 낮음** 기능이며 널리 채택되거나 자주 사용되지 않습니다.
 * 매트릭스의 오른쪽 하단에 있는 기능은 **1회** 기능입니다. 널리 사용되지만 자주 사용되지 않습니다.
 
-+++ 데모 비디오
-
 >[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
-+++
-
-![참여 비교](../assets/engagement-compare.png)
 
 ## 사용 사례
 
@@ -76,3 +71,11 @@ ht-degree: 4%
 
 * **[!UICONTROL 간격]**: 트렌드 데이터를 보려는 날짜 세부 기간입니다. 이 분석에서는 [!UICONTROL Interval]을(를) 쿼리 레일에서 [!UICONTROL Counted as]과(와) 유사하게 처리합니다. 시간별 활성 사용자는 지원되지 않습니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Enagement compare](../assets/engagement-compare.png)
+-->
