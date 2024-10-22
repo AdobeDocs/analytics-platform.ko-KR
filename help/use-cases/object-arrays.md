@@ -5,10 +5,10 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 66%
+source-wordcount: '489'
+ht-degree: 61%
 
 ---
 
@@ -265,3 +265,10 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 | `Washing Machines` | `1850` |
 | `Dryers` | `500` |
 | `Total` | `2350` |
+
+
+
+## 제한 사항
+
+Experience Platform에서 사용하고 Customer Journey Analytics의 스키마의 일부로 모델링되는 데이터의 배열에는 제한 사항이 적용되지 않습니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
+

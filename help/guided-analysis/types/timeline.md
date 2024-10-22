@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '570'
+ht-degree: 1%
 
 ---
 
@@ -65,8 +65,12 @@ ht-degree: 2%
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜입니다. 롤링 날짜 범위 사전 설정 및 이전에 저장된 사용자 지정 범위는 편의상 사용하거나, 달력 선택기를 사용하여 고정 날짜 범위를 선택할 수 있습니다.
 
 
-## 예
+<!--
 
-분석의 예는 아래를 참조하십시오.
+## Example
 
-![타임라인](../assets/timeline-new.png)
+See below for an example of the analysis.
+
+![Timeline](../assets/timeline-new.png)
+
+-->

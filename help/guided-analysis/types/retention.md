@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -74,8 +74,11 @@ ht-degree: 2%
 * **[!UICONTROL [날짜 간격]]**&#x200B;에서 이벤트를 시작한 사용자 분석: 사용자가 이 날짜 범위 내에서 이벤트를 사용하면 분석에 포함됩니다. 이 날짜 범위는 모든 사용자가 모든 기간 버킷을 사용할 수 있는 충분한 시간을 보장합니다. 이 날짜 범위는 현재 날짜에 근접한 경우 선택한 날짜 범위와 다를 수 있습니다.
 * **[!UICONTROL 분석을 완료하기 위해 [날짜 간격]의 데이터가 예약되어 있습니다]**: 사용자가 이 기간 내에 처음 참여하는 경우 분석에 포함되지 않는 **데이터는**&#x200B;입니다. 최근 날짜 범위의 경우 이러한 사용자는 모든 기간 버킷에 대한 자격이 없습니다. 지난 날짜 범위의 경우 이러한 사용자는 선택한 날짜 범위를 벗어나서 활성화되었습니다.
 
-## 예
+<!--
+## Example
 
-분석의 예는 아래를 참조하십시오.
+See below for an example of the analysis.
 
-![유지](../assets/retention.png)
+![Retention](../assets/retention.png)
+
+-->
