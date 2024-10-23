@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
 workflow-type: tm+mt
-source-wordcount: '3078'
+source-wordcount: '3091'
 ht-degree: 77%
 
 ---
@@ -34,16 +34,22 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ### 자격 증명 만료
 
-* Experience Platform 및 Customer Journey Analytics에 대한 액세스 권한을 부여했습니다.
-* 연결 및 데이터 보기를 보고, 편집하고, 업데이트하거나, 삭제할 수 있도록 Customer Journey Analytics에 대한 제품 관리자 액세스 권한을 부여했습니다.
-* 또는
-* 액세스하려는 데이터 보기에 대한 액세스 권한을 부여했습니다.
-* CJA BI 확장 기능에 대한 액세스 권한을 부여했습니다.
+만료 자격 증명을 사용하려면 다음을 수행할 수 있습니다.
+
+* Experience Platform 및 Customer Journey Analytics에 대한 액세스 권한을 부여합니다.
+* 연결 및 데이터 보기를 보기, 편집, 업데이트 또는 삭제할 수 있도록 Customer Journey Analytics에 대한 제품 관리자 액세스 권한을 부여합니다.
+
+또는 다음을 수행할 수 있습니다.
+
+* 액세스하려는 데이터 보기에 대한 액세스 권한을 부여합니다.
+* Customer Journey Analytics BI 확장 기능에 대한 액세스 권한을 부여합니다.
 
 ### 만료되지 않는 자격 증명
 
-* Adobe 경험 플랫폼에서 만료되지 않는 자격 증명을 만듭니다.
-* [자격 증명 만료](#Expiring-credentials)에 언급된 동일한 단계에 따라 만료되지 않는 자격 증명에 대한 액세스 권한을 부여합니다.
+만료되지 않는 자격 증명을 사용하려면 다음을 수행하십시오.
+
+* Experience Platform에서 만료되지 않는 자격 증명을 만듭니다.
+* [만료되는 자격 증명](#Expiring-credentials)에 언급된 단계에 따라 만료되지 않는 자격 증명에 대한 액세스 권한을 부여합니다.
 
 자세한 내용은 [고객 여정 액세스 제어](../technotes/access-control.md)를 참조하십시오. 특히 [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions) 및 [Admin Console의 Customer Journey Analytics 권한](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
 
