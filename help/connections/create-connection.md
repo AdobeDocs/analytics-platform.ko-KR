@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 95%
+source-wordcount: '3747'
+ht-degree: 94%
 
 ---
 
@@ -194,6 +194,16 @@ ht-degree: 95%
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="일치하는 키"
+>abstract="일치하는 키 또는 일치하는 컨테이너를 기준으로 조인 방법을 선택합니다.<br/><br/>**[!UICONTROL 일치하는 키&#x200B;]**: 이벤트 데이터 세트 중 하나에 연결할 필드를 선택하십시오. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 일치하는 컨테이너]**: 이벤트 데이터 세트 중 하나와 연결하는 데 사용할 컨테이너를 선택하십시오. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 <!-- markdownlint-disable MD034 -->
