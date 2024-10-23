@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics에서 Report Builder의 데이터 범위를 선택하는 방법
+title: Customer Journey Analytics Report Builder에서 날짜 범위를 선택하는 방법
 description: Customer Journey Analytics Report Builder에서 달력, 순환 날짜 및 사용자 지정 표현식을 사용하는 방법을 설명합니다
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 ## 달력 사용
 
-**달력**&#x200B;을 사용할 때 날짜 범위 필드는 데이터 블록 요청에 대한 현재 날짜 범위를 표시합니다. 날짜 범위 필드에 직접 날짜를 입력하거나 데이터 범위 선택 옵션을 사용할 수 있습니다.
+**달력**&#x200B;을 사용할 때 날짜 범위 필드는 데이터 블록 요청에 대한 현재 날짜 범위를 표시합니다. 날짜 범위 필드에 직접 날짜를 입력하거나 날짜 범위 선택 옵션을 사용할 수 있습니다.
 
 ### 날짜 범위 필드
 
@@ -92,7 +92,7 @@ ht-degree: 89%
 
    ![현재 날짜와 14일을 선택한 날짜를 보여 주는 Report Builder 날짜 범위 창입니다.](./assets/image21.png)
 
-1. 다음을 클릭하여 데이터 범위를 정의합니다.
+1. 다음 을 클릭하여 날짜 범위를 정의합니다.
 
    날짜 미리보기를 사용하여 결과 날짜 범위가 원하는 범위인지 확인합니다.
 

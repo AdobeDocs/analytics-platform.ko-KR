@@ -4,7 +4,7 @@ title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 42%
@@ -25,7 +25,7 @@ ht-degree: 42%
 
 ![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 시각화와 유사하지만 숫자를 범위(버킷)로 그룹화합니다. Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
 
-## Use
+## 사용
 
 히스토그램을 만드는 방법:
 
@@ -38,7 +38,7 @@ ht-degree: 42%
 >
 >히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다.
 
-아래 예에서는 히스토그램을 사용하여 사람 수에 대한 세션을 버킷 지정합니다. 히스토그램은 대부분의 사람들이 선택한 데이터 범위에 대해 16~21개의 세션을 가지고 있음을 보여 줍니다.
+아래 예에서는 히스토그램을 사용하여 사람 수에 대한 세션을 버킷 지정합니다. 히스토그램에 따르면 대부분의 사용자는 선택한 날짜 범위에 대해 16~21개의 세션을 가지고 있습니다.
 
 ![](assets/histogram.png)
 

@@ -4,7 +4,7 @@ title: Analysis Workspace의 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -120,7 +120,7 @@ Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음을 수
 
      ![날짜 범위를 삭제합니다](assets/add-date-range.gif)
 
-   * 자유 형식 테이블 시각화의 지표 또는 차원입니다. 자세한 내용은 [데이터 범위 사용](/help/components/date-ranges/overview.md#use-date-ranges)을 참조하세요.
+   * 자유 형식 테이블 시각화의 지표 또는 차원입니다. 자세한 내용은 [날짜 범위 사용](/help/components/date-ranges/overview.md#use-date-ranges)을 참조하세요.
 
 Analysis Workspace에서 날짜 범위를 사용하고 관리하는 방법에 대한 자세한 내용은 [날짜 범위 개요](/help/components/date-ranges/overview.md)를 참조하십시오.
 

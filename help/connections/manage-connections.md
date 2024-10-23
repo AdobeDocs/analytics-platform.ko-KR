@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bafe2bfdd62065b58ebe5ea6f54a892e0177bbce
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 14%
@@ -131,7 +131,7 @@ ht-degree: 14%
 | --- | --- |
 | ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL 연결 편집] | 연결의 세부 정보를 편집하려면 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 연결 편집]**&#x200B;을 선택하세요. 자세한 내용은 [연결 만들기 또는 편집](create-connection.md)을 참조하십시오. |
 | 데이터 세트 선택기 | 연결 안에 있는 한 개의 데이터 세트 또는 모든 데이터 세트를 선택할 수 있습니다. 다수의 데이터 세트를 선택할 수는 없습니다. 기본값은 [!UICONTROL 모든 데이터 세트]로 설정되어 있습니다. |
-| 날짜 범위 선택기 | 시작 날짜, 종료 날짜를 편집하거나 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 데이터 범위 선택기를 엽니다. 날짜 범위 선택기에서 미리 정의된 기간(예: **[!UICONTROL 최근 6개월]**) 중 하나를 사용하여 날짜 범위를 선택하거나 달력을 사용하여 시작 및 종료 날짜를 선택합니다. **[!UICONTROL 적용]**&#x200B;을 선택하여 새 데이터 범위를 적용합니다. |
+| 날짜 범위 선택기 | 시작 날짜, 종료 날짜를 편집하거나 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 날짜 범위 선택기를 엽니다. 날짜 범위 선택기에서 미리 정의된 기간(예: **[!UICONTROL 최근 6개월]**) 중 하나를 사용하여 날짜 범위를 선택하거나 달력을 사용하여 시작 및 종료 날짜를 선택합니다. 새 날짜 범위를 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택하세요. |
 | [!UICONTROL 사용 가능한 이벤트 데이터 레코드] | 보고에 사용할 수 있는 총 이벤트 데이터 세트 행 수, 전체 연결에 대해 **개**. 이 수는 어떠한 달력 설정과도 관련이 없습니다. 카운트는 데이터 세트 선택기에서 또는 표에서 데이터 세트를 선택하면 변경됩니다. 데이터가 추가되면 보고에 데이터를 표시하는 데 1~2시간의 지연 시간이 있습니다. |
 | [!UICONTROL 지표] | 추가, 생략 및 삭제된 이벤트, 조회, 프로필 및 요약 데이터 세트 레코드와 추가된 배치 수를 요약합니다. 이 지표는 **선택한 데이터 세트 및 날짜 범위**&#x200B;를 기반으로 합니다.<p>**[!UICONTROL 세부 정보 확인]**&#x200B;을 선택하여 **[!UICONTROL 건너뛴 세부 정보 확인]** 팝업을 표시합니다. 팝업에 건너뛴 레코드 수와 모든 이벤트 데이터 세트 또는 선택한 데이터 세트에 대한 이유가 나열됩니다.<p><img src="./assets/skipped-records.png" width="500"/><p>자세한 정보가 포함된 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 팝업을 선택하십시오. [!UICONTROL 빈 방문자 ID]와 같은 일부 건너뛴 이유로 팝업에 [쿼리 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)에서 데이터 집합에서 건너뛴 레코드를 쿼리하는 데 사용할 수 있는 EQS(쿼리 서비스에 대한 Experience Platform)에 대한 샘플 PSQL이 표시됩니다. SQL을 복사하려면 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL EQS에 대한 샘플 PSQL 복사]**&#x200B;를 선택하십시오. |
 | [!UICONTROL 추가된 레코드] | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 추가되었는지 나타냅니다. 10분마다 업데이트됩니다. |
@@ -166,7 +166,7 @@ ht-degree: 14%
 | 옵션 | 설명 |
 | --- | --- |
 | ![새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) [!UICONTROL 새로 고침] | 연결을 새로 고치고 최근에 추가한 레코드를 반영하도록 허용하려면 ![새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 새로 고침]**&#x200B;을 선택하십시오. |
-| ![삭제](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 삭제]** | 이 연결을 [삭제](#delete-a-connection)합니다. |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 삭제]** | 이 연결을 [삭제](#delete-a-connection)합니다. |
 | ![데이터 보기 추가](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 데이터 보기 만들기]** | 이 연결을 기반으로 [데이터 보기를 만듭니다](#create-a-data-view). 자세한 내용은 [데이터 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)를 참조하세요. |
 | [!UICONTROL 연결 이름] | 연결에 대한 알기 쉬운 이름. |
 | [!UICONTROL 연결 설명] | 이 연결의 목적을 설명하는 더 자세한 설명입니다. |

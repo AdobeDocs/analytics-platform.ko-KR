@@ -4,10 +4,10 @@ title: 빠른 인사이트 패널
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 * **[!UICONTROL 분석]** - 차원 지정(주황색)
 * **[!UICONTROL 지표 기준]** - 지표 지정(녹색)
 * **[!UICONTROL 필터 기준]** - 필터 지정(파란색)
-* **[!UICONTROL 범위]** - 데이터 범위를 지정합니다(자주색).
+* **[!UICONTROL on]** - 날짜 범위(자주색)를 지정합니다.
 
 시각화가 올바르게 작동하도록 하나 이상의 차원과 지표를 선택해야 합니다.
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
   ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
 
-* 여러 차원 및 지표를 분석하고, 필터를 결합하거나 비교하고, 데이터 범위를 지정할 수 있습니다.
+* 여러 차원과 지표를 분석하고, 필터를 결합 또는 비교하고, 날짜 범위를 지정할 수 있습니다.
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 필터링 기준]**: 최대 2개의 필터를 추가할 수 있습니다. 예를 들어 예약을 필터로 추가하고, 해당 필터를 자주 방문하는 예약자 필터와 처음 여행하는 고객 필터와 결합하여 비교합니다. 다음 항목을 참조하십시오.
 
-   * 범위: 데이터 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
+   * 날짜: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
 
 ## 알려진 제한 사항
 

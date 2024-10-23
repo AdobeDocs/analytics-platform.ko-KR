@@ -4,7 +4,7 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 15%
@@ -54,7 +54,7 @@ ht-degree: 15%
 | **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 만들기]** | 모든 차원 항목에 대한 하이퍼링크를 만듭니다. 자유 형식 테이블의 차원에 대한 [하이퍼링크](../freeform-table-hyperlinks.md)를 참조하십시오. |
 | **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 편집]** | 모든 차원 항목에 대한 하이퍼링크를 편집합니다. 자유 형식 테이블의 차원에 대한 [하이퍼링크](../freeform-table-hyperlinks.md)를 참조하십시오. |
 | **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 제거]** | 모든 차원 항목에 대한 하이퍼링크를 제거합니다. 자유 형식 테이블의 차원에 대한 [하이퍼링크](../freeform-table-hyperlinks.md)를 참조하십시오. |
-| **[!UICONTROL 삭제]** | 테이블에서 차원을 삭제합니다. |
+| **[!UICONTROL Delete]** | 테이블에서 차원을 삭제합니다. |
 | **[!UICONTROL 시각화]** | 사용 가능한 시각화를 사용하여 차원을 시각화합니다. |
 | **[!UICONTROL 선택한 행만 표시]** | 시각화에 선택한 항목만 표시합니다. |
 | **[!UICONTROL 선택 항목에서 주석 만들기]** | 주석을 추가하려면 **[!UICONTROL 주석 세부 정보]**&#x200B;를 여십시오. |
@@ -80,8 +80,8 @@ ht-degree: 15%
 | 옵션 | 설명 |
 |---|---|
 | **[!UICONTROL 선택 항목에서 지표 만들기]** | 선택한 지표에서 새 지표를 만듭니다. 지표는 평균, 미디어, 열 최대값, 열 최소값, 열 합계일 수 있습니다. 계산된 지표 빌더에서 열기 를 선택하여 계산된 지표를 만들 수도 있습니다. |
-| **[!UICONTROL 기간 열 추가]** | 기간 열을 추가합니다. 패널의 달력 범위에 *날짜 범위*&#x200B;가 결정되는 몇 가지 옵션이 제공됩니다. <li>**[!UICONTROL 이 데이터 범위에 대한 *이전 날짜 범위*]**</li><li>**[!UICONTROL 이 *날짜 범위*부터 이 날짜 범위]**&#x200B;까지.</li><li>**[!UICONTROL 이 날짜 범위에 대한 사용자 지정 데이터 범위]**&#x200B;입니다. 날짜 범위를 지정할 **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 엽니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
-| **[!UICONTROL 기간 비교]** | 기간 비교 열을 추가합니다. 차원이 시간을 기반으로 하지 않는 경우에만 사용할 수 있습니다. *날짜 범위*&#x200B;를 결정하는 몇 가지 옵션이 제공됩니다. <li>**[!UICONTROL 이 데이터 범위에 대한 *이전 날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위에 대한 사용자 지정 데이터 범위]**&#x200B;입니다. 날짜 범위를 지정할 **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 엽니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
+| **[!UICONTROL 기간 열 추가]** | 기간 열을 추가합니다. 패널의 달력 범위에 *날짜 범위*&#x200B;가 결정되는 몇 가지 옵션이 제공됩니다. <li>**[!UICONTROL 이전 *날짜 범위*에서 이 날짜 범위까지]**</li><li>**[!UICONTROL 이 *날짜 범위*부터 이 날짜 범위]**&#x200B;까지.</li><li>**[!UICONTROL 이 날짜 범위에 대한 사용자 지정 날짜 범위]**&#x200B;입니다. 날짜 범위를 지정할 **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 엽니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
+| **[!UICONTROL 기간 비교]** | 기간 비교 열을 추가합니다. 차원이 시간을 기반으로 하지 않는 경우에만 사용할 수 있습니다. *날짜 범위*&#x200B;를 결정하는 몇 가지 옵션이 제공됩니다. <li>**[!UICONTROL 이전 *날짜 범위*에서 이 날짜 범위까지]**</li><li>**[!UICONTROL 이 날짜 범위에 대한 사용자 지정 날짜 범위]**&#x200B;입니다. 날짜 범위를 지정할 **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 엽니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
 | **[!UICONTROL 속성 모델 수정]** | 열에 대한 속성 모델을 수정합니다. |
 | **[!UICONTROL 속성 모델 비교]** | 새 속성 모델을 지정하고 선택한 열에 대한 속성 모델과 비교합니다. 새 속성 모델 지표와 함께 새 열이 추가됩니다. 또한 비교를 위해 변경률 열이 추가됩니다. |
 | **[!UICONTROL 열 너비 재설정]** | 열 너비를 기본 너비로 재설정합니다. |

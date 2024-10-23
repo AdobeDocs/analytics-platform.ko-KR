@@ -4,7 +4,7 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 66%
@@ -111,7 +111,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 깔때기 아이콘(![필터](assets/filter-icon.png))를 선택하면 결과를 좁히는 데 도움이 되는 필터 컨트롤 목록이 표시됩니다. 선택한 다양한 필터에 관계없이 마지막 1,000개의 레코드만 표시됩니다.
 
-![데이터 범위에 대해 표시된 필터를 보여 주는 감사 로그.](assets/filters.png)
+![날짜 범위에 대해 표시된 필터를 보여 주는 감사 로그.](assets/filters.png)
 
 UI의 감사 이벤트에 사용할 수 있는 필터는 다음과 같습니다.
 

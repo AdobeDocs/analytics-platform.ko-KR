@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 58%
@@ -21,7 +21,7 @@ ht-degree: 58%
 
    ![선택한 항목에서 경고 만들기를 보여 주는 단계 결과.](assets/breakdown.png)
 
-1. 하위 메뉴에서 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]**, **[!UICONTROL 필터]** 또는 **[!UICONTROL 데이터 범위]**&#x200B;를 선택한 다음 항목을 선택합니다.
+1. 하위 메뉴에서 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]**, **[!UICONTROL 필터]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오.
 
 선택한 기간에 대해 차원 항목이나 대상자 필터를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 

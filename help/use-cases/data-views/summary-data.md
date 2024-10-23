@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '5188'
 ht-degree: 8%
@@ -430,7 +430,7 @@ Customer Journey Analytics에서 샘플 데이터를 사용하려면 Experience 
 1. 다음에서 **[!UICONTROL Customer Journey Analytics]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
 1. 상단 메뉴에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 1. 연결을 선택하십시오(예: **[!UICONTROL 요약 데이터를 사용한 연결 예제]**).
-1. **[!UICONTROL 연결]** > **[!UICONTROL 요약 데이터를 사용한 연결 예제]** 세부 정보에서 적절한 데이터 범위를 선택하십시오.
+1. **[!UICONTROL 연결]** > **[!UICONTROL 요약 데이터를 사용한 연결 예제]** 세부 정보에서 적절한 날짜 범위를 선택하십시오.
    1. ![일정](/help/assets/icons/Calendar.svg)을 선택한 다음 **[!UICONTROL 최근 7일]**&#x200B;을 선택하십시오.
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
@@ -463,7 +463,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          | 주문 | 예제 이벤트 데이터 데이터 데이터 세트 | 정수 | *_tenant*.orders |
          | 매출 | 예제 이벤트 데이터 데이터 데이터 세트 | 이중 | *_tenant*.revenue_amount |
 
-         **차원**
+         **Dimensions**
 
          | 구성 요소 이름 | 데이터 세트 | 스키마 데이터 유형 | 스키마 경로 |
          |---|---|---|---|
@@ -550,7 +550,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 빈 [!UICONTROL 자유 형식 테이블]로 구성된 [!UICONTROL 자유 형식] 패널이 있는 빈 캔버스가 표시됩니다.
 
 1. 패널에 대해 선택된 데이터 보기가 요약 데이터에 대한 구성이 포함된 데이터 보기를 참조하는지 확인합니다. 예를들어 **[!UICONTROL 요약 데이터를 사용하는 데이터 보기 예시]**
-1. 보고할 데이터에 데이터 범위가 유효한지 확인합니다. 예: **[!UICONTROL 지난 2달]**.
+1. 보고할 데이터에 날짜 범위가 유효한지 확인합니다. 예: **[!UICONTROL 지난 2달]**.
 1. **[!UICONTROL Dimension]**&#x200B;에서 **[!UICONTROL 추적 코드(이벤트)]**&#x200B;을(를) 드래그하여 빈 자유 형식 테이블에 차원을 놓습니다.
 1. **[!UICONTROL 지표]**&#x200B;에서 **[!UICONTROL 주문]**&#x200B;을(를) 끌어다 놓고 지표를 **[!UICONTROL 이벤트]** 열로 끌어다 놓아 자유 형식 테이블의 해당 열을 바꿉니다.
 1. **[!UICONTROL 지표]**&#x200B;에서 **[!UICONTROL 매출]**&#x200B;을(를) 끌어다 놓고 지표를 끌어 자유 형식 테이블에 추가 열로 추가하십시오.

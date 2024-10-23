@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+workflow-type: tm+mt
 source-wordcount: '3466'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -192,8 +192,8 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 라인 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 최대 항목 수 제한 | 라인 시각화에서 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-| | 이중 축 표시(해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
-| | 표준화(해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
+| | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
+| | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | X축 표시 | 선 차트에 X축을 표시합니다. |
 | | Y축 표시 | 선 차트에 Y축을 표시합니다. |
 | | Y축 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
@@ -229,7 +229,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **스택형 차트** | | |
 | | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | 버킷 수 | 시각화에서 데이터 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
+| | 버킷 수 | 시각화에서 날짜 범위(버킷)의 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
 | | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>세션</li><li>개인</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문 페이지 조회수 또는 이벤트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
