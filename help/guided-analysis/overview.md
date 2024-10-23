@@ -5,9 +5,9 @@ keywords: 제품 분석
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1806'
 ht-degree: 47%
 
 ---
@@ -15,11 +15,6 @@ ht-degree: 47%
 # 가이드 분석 개요
 
 가이드 분석을 이용하면 마케팅부터 제품, 분석에 이르기까지 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 구축된 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. Analysis Workspace 및 모바일 스코어카드와 유사하게 안내식 분석은 [데이터 보기](/help/data-views/data-views.md)의 데이터를 사용하며, 데이터 보기에서는 [연결](../connections/overview.md)을 통해 Adobe Experience Platform의 데이터를 참조합니다. 안내식 분석에서 만든 대다수의 보고서는 추가 연구를 위해 Analysis Workspace로 원활하게 전송할 수 있습니다.
-
->[!NOTE]
->
->안내식 분석과 Analysis Workspace 간의 용어(세그먼트, 필터 등)의 차이에 대한 자세한 내용은 [FAQ](faq.md)를 참조하세요.
-
 
 다음 가이드 분석을 사용할 수 있습니다.
 
