@@ -4,10 +4,10 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1654'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,13 @@ ht-degree: 0%
 
 이 캡션은 여정의 모든 경로 중 전환율이 가장 높았던 경로를 요약합니다.
 
+여정에 여러 시작 노드가 포함된 경우 캡션은 다음과 같이 표시됩니다.
+
 ![여정 캔버스 인사이트 캡션](assets/journey-canvas-caption.png)
+
+여정에 단일 시작 노드가 포함된 경우 캡션은 다음과 같이 표시됩니다.
+
+![여정 캔버스 인사이트 캡션 단일 시작 노드](assets/journey-canvas-caption-singlestart.png)
 
 이 캡션을 해석할 때는 다음 사항을 고려하십시오.
 
@@ -176,13 +182,9 @@ ht-degree: 0%
 
 #### 기능 차이점
 
-여정 캔버스에서 Journey Optimizer 여정을 수정한 후 수정 사항에 따라 다음 기능에 대한 기능이 변경될 수 있습니다.
+여정 캔버스에서 Journey Optimizer 여정을 수정한 후 수정 사항에 따라 [!UICONTROL **화살표 설정**] 드롭다운 필드에서 사용할 수 있는 옵션이 변경됩니다. 자세한 내용은 [설정 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하세요.
 
-* [!UICONTROL **노드 형식**] 필드에 표시된 값이 변경되었습니다.
-
-* [!UICONTROL **화살표 설정**] 드롭다운 필드에서 사용할 수 있는 옵션이 변경됩니다.
-
-이러한 필드에 대한 자세한 내용은 [설정 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
+[!UICONTROL **노드 유형**] 필드는 Journey Optimizer에서만 사용할 수 있습니다. 여정 캔버스에서 여정을 수정하는지 여부에 관계없이 여정 캔버스에서 Journey Optimizer 여정을 볼 때는 사용할 수 없습니다.
 
 #### 동기화 차이점
 
@@ -196,7 +198,7 @@ Journey Optimizer에서 한 가지를 의미하는 특정 용어는 Customer Jou
 
 | 용어 | 여정 캔버스 | Journey Optimizer |
 |---------|----------|---------|
-| **이벤트** | Customer Journey Analytics에서 사용할 수 있는 여러 표준 지표 중 하나입니다. 이 지표는 생성된 매출, 구독 또는 리드와 같은 것을 계산합니다. | 온라인 구매와 같이 개인화된 여정을 트리거하는 활동의 카테고리입니다. |
+| **Event** | Customer Journey Analytics에서 사용할 수 있는 여러 표준 지표 중 하나입니다. 이 지표는 생성된 매출, 구독 또는 리드와 같은 것을 계산합니다. | 온라인 구매와 같이 개인화된 여정을 트리거하는 활동의 카테고리입니다. |
 
 ### 여정 캔버스에서 Journey Optimizer 여정 분석
 
