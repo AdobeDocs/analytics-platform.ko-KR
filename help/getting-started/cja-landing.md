@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,20 +27,20 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
+[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 
->[!TAB 안내식 분석]
+>[!TAB 가이드 분석]
 
-이제 안내식 분석을 Analysis Workspace 내에서 직접 사용할 수 있으므로 사용자는 패널, 시각화 및 안내식 분석의 포괄적인 통찰력을 사용하여 대시보드를 만들 수 있습니다.
+이제 Analysis Workspace 내에서 직접 가이드 분석을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 >[!TAB 경고]
 
 경고 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다. 경고가 얼마나 자주 실행되는지 미리 보고, 이메일이나 SMS로 경고를 보내고, 누적된 경고를 만드는 등의 작업을 수행할 수 있습니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB 요약 데이터]
 
@@ -49,13 +49,13 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 - 이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다.
 - 매시간 또는 매일 대상이나 목표를 업로드한 다음 이벤트 수준 지표에 대해 이들 대상 또는 목표를 배치합니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
 >[!TAB 그래프 기반 스티칭*]
 
 그래프 기반 결합을 통해 Experience Platform ID 서비스의 아이덴티티 그래프를 사용하면 다음 작업을 수행하여 고객 여정을 더 효과적으로 확인할 수 있습니다. <ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 전체에서 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>
 
-[![이미지](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+[![image](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_그래프 기반 스티칭을 위해서는 Prime 패키지가 필요합니다._*
 
@@ -63,19 +63,19 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 연결 구성의 일부로 특정 B2B 조회 스키마에 대한 데이터 세트를 변환하여 B2B 데이터에 대한 개인 기반 조회를 더 효과적으로 지원할 수 있습니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
+[![image](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
 
 >[!TAB 파생 필드]
 
 이제 새로운 파생 필드 기능(수학, 다음 또는 이전, 요약, 중복 제거)과 추가 기능 템플릿(예: 바운스, 알기 쉬운 데이터 세트 이름, 휴가 시즌, 월간 목표, 간단한 봇 감지 등)을 사용할 수 있습니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
+[![image](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB BI 확장 기능*]
 
 BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에서 사용하는 것과 동일한 데이터 보기를 기반으로 선호하는 BI 도구를 사용하여 보고 및 대시보드를 만들 수 있습니다.
 
-[![이미지](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
+[![image](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
 *_BI 확장 기능을 사용하려면 Select 패키지 이상이 필요합니다._*
 
@@ -98,7 +98,7 @@ BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>안내식 분석</strong><br/>워크플로를 사용하여 고객의 제품 경험에 대한 데이터와 통찰력을 얻는 방법을 알아봅니다. 안내식 분석을 통한 Product Analytics…
+    <div><strong>가이드 분석</strong><br/>워크플로를 사용하여 고객의 제품 경험에 대한 데이터와 통찰력을 얻는 방법을 알아봅니다. 가이드 분석을 통한 Product Analytics…
     </div>
     </td>
     <td>
@@ -142,7 +142,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>안내식 분석</strong><br/><a href="/help/guided-analysis/overview.md">개요</a> - <a href="/help/guided-analysis/types/active-growth.md">사용자 증가</a> - <a href="/help/guided-analysis/types/trends.md">트렌드</a> - <a href="/help/guided-analysis/types/funnel.md">단계</a> - <a href="/help/guided-analysis/types/release-impact.md">영향</a> - <a href="/help/guided-analysis/industry-use-cases.md">업계 사용 사례</a>
+      <strong>가이드 분석</strong><br/><a href="/help/guided-analysis/overview.md">개요</a> - <a href="/help/guided-analysis/types/active-growth.md">사용자 증가</a> - <a href="/help/guided-analysis/types/trends.md">트렌드</a> - <a href="/help/guided-analysis/types/funnel.md">단계</a> - <a href="/help/guided-analysis/types/release-impact.md">영향</a> - <a href="/help/guided-analysis/industry-use-cases.md">업계 사용 사례</a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>

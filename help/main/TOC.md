@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 93%
    + [레이블 및 정책](../data-views/data-governance.md)
 
 + 도구 {#tools}
-   + 자산 전송 {#asset-transfer}
+   + 자산 이전 {#asset-transfer}
       + [자산 전송](../tools/asset-transfer/transfer-assets.md)
    + 제품 사용 {#product-usage}
       + [개요](../tools/product-usage/usage-overview.md)
@@ -194,14 +194,14 @@ ht-degree: 93%
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [통계적 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [통계 기법](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 예측 {#forecasting}
       + [개요](../analysis-workspace/c-forecast/forecasting.md)
       + [예측 보기](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [통계적 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
+      + [통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
-   + Workspace FAQ 등 {#workspace-faq}
+   + Workspace FAQ 및 기타 {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
       + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
       + [제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
@@ -358,7 +358,7 @@ ht-degree: 93%
       + [Google Analytics에서 데이터 마이그레이션](../use-cases/ga/overview.md)
       + [Google Analytics 내역 데이터 수집](../use-cases/ga/backfill.md)
       + [스트리밍 Google Analytics 데이터 구성](../use-cases/ga/streaming.md)
-      + [Google Analytics 데이터에 대한 보고서](../use-cases/ga/report.md)
+      + [Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
    + 데이터 수집 {#data-ingestion}
       + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
       + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -385,14 +385,14 @@ ht-degree: 93%
    + 결합 {#stitching}
       + [공유 디바이스](/help/use-cases/stitching/shared-devices.md)
    + 파생 필드 {#derived-fields}
-      + [목표에 대한 보고서](../use-cases/goals-using-derived-fields.md)
+      + [목표 보고서](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
 
 + 문제 해결 {#troubleshooting}
    + [데이터 비교](../troubleshooting/compare.md)
-   + [지표 및 대상의 일관성](../troubleshooting/consistency-rcdp-cja.md)
+   + [지표 및 대상자의 일관성](../troubleshooting/consistency-rcdp-cja.md)
    + [권한 부족](../troubleshooting/lack-of-permissions.md)
 
 + 기술 노트 {#technotes}

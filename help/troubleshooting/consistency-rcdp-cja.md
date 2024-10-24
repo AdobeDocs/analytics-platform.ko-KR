@@ -5,9 +5,9 @@ role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Real-Time CDP와 Customer Journey Analytics 간의 대상자 멤버십을 비교
 
 Real-Time CDP와 Customer Journey Analytics는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [아이덴티티 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
 
-Customer Journey Analytics는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 지정 로직을 적용하여 서로 연결하는 [결합](../stitching/overview.md)을 사용하도록 구성할 수 있습니다.
+Customer Journey Analytics는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 정의 로직을 적용하여 서로 연결하는 [결합](../stitching/overview.md)을 사용하도록 구성할 수 있습니다.
 
 앞으로 Customer Journey Analytics는 아이덴티티 그래프를 사용할 수 있습니다.
 
@@ -40,13 +40,13 @@ Real-Time CDP는 다양한 데이터 조작 도구 세트를 제공합니다. [�
 
 Real-Time CDP와 Customer Journey Analytics의 데이터 세트가 동일하더라도 Real-Time CDP는 매우 제한된 기간 동안의 기록만 유지할 수 있습니다. 반대로 Customer Journey Analytics에는 수년간의 데이터가 저장되어 있을 가능성이 높습니다. 또한
 
-* Customer Journey Analytics 및 Real-Time CDP 고객은 사용자 지정 데이터 보존 기간을 서로 독립적으로 설정할 수 있습니다.
+* Customer Journey Analytics 및 Real-Time CDP 고객은 사용자 정의 데이터 보존 기간을 서로 독립적으로 설정할 수 있습니다.
 
 * Real-Time CDP CDP와 Customer Journey Analytics는 데이터 수집 논리가 다릅니다. Customer Journey Analytics는 개인 ID 또는 타임스탬프가 없는 레코드를 무시하며 단일 프로필/개인이 가질 수 있는 레코드 수에 대해 엄격한 제한이 있습니다.
 
 * Real-Time CDP 고객은 레이크 데이터에 7일 동안 액세스하여 주로 프로필에 데이터 온보딩을 용이하게 하고 애드혹을 쿼리할 수 있습니다.
 
-* Customer Journey Analytics 고객용 레이크 데이터에 대한 TTL은 없습니다. 그러나 Customer Journey Analytics 사용자는 연결을 생성할 때 Customer Journey Analytics에서 사용자 지정 보존 기간을 직접 설정할 수 있습니다.
+* Customer Journey Analytics 고객용 레이크 데이터에 대한 TTL은 없습니다. 그러나 Customer Journey Analytics 사용자는 연결을 생성할 때 Customer Journey Analytics에서 사용자 정의 보존 기간을 직접 설정할 수 있습니다.
 
 * Real-Time CDP의 프로필 저장소를 통해 고객이 구성 가능한 TTL을 사용할 수 있습니다. 고객은 이 TTL을 라이선스 권한 내에서 유지하는 데 필요한 것으로 변경할 수 있습니다.
 

@@ -5,20 +5,20 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # 기본 함수
 
 
-[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다. 이 문서에서는 함수 및 해당 정의의 알파벳 목록을 문서화합니다.
+[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다. 이 문서는 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
 >[!NOTE]
 >
->[!DNL metric]이 함수에서 인수로 식별되는 경우 지표의 다른 표현식도 허용됩니다. 예를 들어 [열 최대값(지표)](#column-maximum)은(는) [열 최대값(페이지 보기 횟수 + 방문 횟수)](#column-maximum)도 허용합니다.
+>[!DNL metric]이 함수에서 인수로 식별되는 경우 지표의 다른 표현식도 허용됩니다. 예를 들어 [COLUMN MAXIMUM(지표)](#column-maximum)는 [COLUMN MAXIMUM(페이지 조회수 + 방문 수)](#column-maximum)도 허용합니다.
 
 
 
@@ -26,124 +26,124 @@ ht-degree: 29%
 
 테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
 
-적용 가능하고 관련된 경우 함수에는 [!BADGE 테이블] 형식의 주석이 추가됩니다.{type="Neutral"}[!BADGE 행]{type="Neutral"}
+해당 및 관련이 있는 경우 함수에 함수 유형이 주석으로 표시됩니다. [!BADGE 테이블]{type="Neutral"}[!BADGE 행]{type="Neutral"}
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
-계산에 0을 포함할지 여부를 알려 줍니다. 때로는 0이 *없음*&#x200B;을 의미하지만 때로는 중요합니다.
+계산에 0을 포함할지 여부를 알려 줍니다. 때로 0은 *아무것도 없다*&#x200B;는 뜻이지만, 경우에 따라서는 중요합니다.
 
-예를 들어, 매출 지표가 있고, 그 다음 페이지 보기 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 추가 지표가 **[평균](cm-functions.md#mean)**, **[행 최소값](cm-functions.md#row-min)**, **[사분위수](cm-functions.md#quartile)** 및 수익 열에 있는 더 많은 계산에 영향을 주지 않도록 하려는 것일 수 있습니다. 이 경우 `include-zeros` 매개 변수를 확인합니다.
+예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-대체 시나리오는 두 개의 관심 지표가 있고 행 중 일부가 0이므로 한 개의 지표가 더 높은 평균 또는 최소값을 갖는 것입니다.  이 경우 0을 포함하도록 매개 변수를 확인하지 않도록 선택할 수 있습니다
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최소값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다
 
 
 
 ## 절대값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 절대값(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 절대값을 계산할 지표입니다. |
+| 지표 | 절대값을 계산할 지표. |
 
 
 ## 열 최대값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 열 최대값(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(지표, include_zeros)]**
 
 지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 ## 열 최소값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 열 최소값(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(지표, include_zeros)]**
 
 지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 ## 열 합계
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 열 합계(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(지표)]**
 
 열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해).
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 
 
 ## 계수
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 계산할 지표입니다. |
+| 지표 | 카운트할 지표. |
 
 
 ## 지수
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 지수(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 기본 e에 적용된 지수. |
+| 지표 | 밑 e에 적용된 지수. |
 
 
 ## 평균
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 평균(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(지표, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 평균을 계산할 지표입니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 평균을 계산할 지표. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 ## 중간값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 중간값(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(지표, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 중간값을 계산할 지표입니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 중간값을 계산할 지표. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 ## 모듈로
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 모듈로(metric_X, metric_Y)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
 
 유클리드 분할을 사용하여 x를 y로 나눈 후 나머지를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | 분할하려는 첫 번째 지표입니다. |
-| metric_Y | 분할하려는 두 번째 지표입니다. |
+| metric_X | 분할하려는 첫 번째 지표. |
+| metric_Y | 분할하려는 두 번째 지표. |
 
 ### 예
 
-반환 값의 부호는 입력과 같습니다(또는 영임).
+반환 값의 부호는 입력과 같습니다(또는 0임).
 
 ```
 MODULO(4,3) = 1
@@ -151,7 +151,7 @@ MODULO(-4,3) = -1
 MODULO(-3,3) = 0
 ```
 
-항상 양수를 얻으려면 다음을 사용하십시오
+항상 양수를 얻으려면 다음을 사용합니다
 
 ```
 MODULO(MODULO(x,y)+y,y)
@@ -159,53 +159,53 @@ MODULO(MODULO(x,y)+y,y)
 
 ## 백분위수
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 백분위수(지표, k, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(지표, k, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 0에서 100까지 범위의 백분위수 값. |
+| 지표 | 0에서 100까지 범위의 백분위수 값. |
 | k | 상대적 순위를 정의하는 지표 열. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 
 ## 거듭제곱 연산자
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL POWER 연산자(metric_X, metrix_Y)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
-x를 y 제곱한 값으로 반환합니다.
+x를 y의 거듭제곱으로 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y 파워로 높이려는 지표입니다. |
-| metric_Y | metric_X 를 높이려는 전력입니다. |
+| metric_X | metric_Y 거듭제곱으로 올리려는 지표. |
+| metric_Y | metric_X를 높이려는 거듭제곱. |
 
 
 ## 사분위수
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 사분위수(지표, 사분위수, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(지표, 사분위수, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}[열 최소값](#column-minimum), [중간값](#median) 및 [열 최대값](#column-maximum)은(는) 사분위수가 각각 `0`(영), `2` 및 `4`과(와) 같은 경우 [사분위수](#quartile)과(와) 같은 값을 반환합니다.
+[!BADGE 테이블]{type="Neutral"}[COLUMN MINIMUM](#column-minimum), [MEDIAN](#median), 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 사분위수 값을 계산할 지표입니다. |
+| 지표 | 사분위수 값을 계산할 지표. |
 | 사분위수 | 반환할 사분위수 값을 나타냅니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 ## 반올림
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(지표, 숫자)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(지표, 숫자)]**
 
-*number* 매개 변수가 없는 반올림은 *number* 매개 변수가 0인 반올림과 동일합니다. 즉, 가장 가까운 정수로 반올림합니다.  *number* 매개 변수를 사용하면 ROUND는 소수 오른쪽에 있는 *number*&#x200B;자리를 반환합니다.  *number*&#x200B;이(가) 음수이면 소수의 왼쪽에 0을 반환합니다.
+*숫자* 매개변수가 없는 반올림은 *숫자* 매개변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다.  *숫자* 매개변수를 사용하면 ROUND는 *숫자* 자리를 소수점 이하 오른쪽에 반환합니다.  *숫자*&#x200B;가 음수이면 소수의 왼쪽에 0들을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 반올림할 지표. |
-| 숫자 | 반환할 소수 오른쪽에 있는 자릿수입니다. (음수이면 십진수의 왼쪽에 0이 반환됩니다.) |
+| 지표 | 반올림할 지표. |
+| 숫자 | 소수점 오른쪽에 몇 자리까지 반환할 것인가. (음수이면 소수점 왼쪽에 0이 반환됩니다). |
 
 ### 예
 
@@ -219,89 +219,89 @@ ROUND( 314.15, -2) = 300
 
 ## 행 수
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 행 수()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
-주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;은(는) 1로 계산됩니다.
+주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;는 1로 간주됩니다.
 
 
 ## 행 최대값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 행 MAX(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(지표, include_zeros)]**
 
-각 행의 최대 열 수.
+각 행의 열 최대값.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 ## 행 최소값
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 행 최소값(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(지표, include_zeros)]**
 
-각 행의 최소 열 수.
+각 행의 열 최소값.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 
 ## 행 합계
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 행 합계(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(지표, include_zeros)]**
 
 각 행의 열 합계.
 
 | 인수 | 설명 |
 |---|---|
-| metric | 지표가 하나 이상 필요하지만 원하는 수의 지표를 매개 변수로 사용할 수 있습니다. |
+| 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 
 
 ## 제곱근
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 제곱근(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 제곱근(지표, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 제곱근을 계산할 지표입니다. |
+| 지표 | 제곱근을 계산할 지표. |
 
 
 ## 표준 편차
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 표준 편차(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 표준편차(지표, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}
-
-| 인수 | 설명 |
-|---|---|
-| | 표준 편차를 계산할 지표입니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
-
-
-## 변량
-
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 분산(지표, include_zeros)]**
-
-[!BADGE Table]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric | 분산을 계산할 지표입니다. |
-| include_zeros | 계산에 0 값을 포함할지 여부입니다. |
+| | 표준 편차를 계산할 지표. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
+
+
+## 분산
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(지표, include_zeros)]**
+
+[!BADGE 테이블]{type="Neutral"}
+
+| 인수 | 설명 |
+|---|---|
+| 지표 | 분산 계산할 지표. |
+| include_zeros | 계산에 0값을 포함할지 여부. |
 
 
 VARIANCE 방정식은 다음과 같습니다.
 
 ![](assets/variance_eq.png){width="100"}
 
-여기서 *x*&#x200B;은(는) 샘플 평균이고 [MEAN(*metric*)](#mean)이며 *n*&#x200B;은(는) 샘플 크기입니다.
+여기서 *x*&#x200B;는 샘플 평균 [MEAN(*지표*)](#mean)이고 *n*&#x200B;은 샘플의 크기입니다.
 
 
-분산을 계산하기 위해 전체 숫자 열을 살펴봅니다. 그 숫자 목록에서 먼저 평균을 계산합니다. 평균을 구하면 각 항목으로 이동하여 다음을 수행합니다.
+분산을 계산하려면 전체 숫자 열을 확인합니다. 그 숫자 목록에서 먼저 평균을 계산합니다. 평균을 계산한 다음 각 항목으로 이동하여 다음 작업을 수행합니다.
 
 1. 숫자에서 평균을 뺍니다.
 
@@ -309,9 +309,9 @@ VARIANCE 방정식은 다음과 같습니다.
 
 1. 그 값을 총계에 더합니다.
 
-전체 열을 반복하면 하나의 합계가 생깁니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
+전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
 
-다음 세 항목 열의 예에서
+다음 3개 항목 열의 예:
 
 | 열 |
 |:---:|
@@ -319,7 +319,7 @@ VARIANCE 방정식은 다음과 같습니다.
 | 2 |
 | 3 |
 
-이 열의 평균은 2입니다. 열의 변량은 ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3입니다.
+이 열의 평균은 2입니다. 열의 분산은((1 - 2)<sup>2</sup> +(2 - 2)<sup>2</sup> +(3 - 2)<sup>2</sup>/3 = 2/3입니다.
 
 
 

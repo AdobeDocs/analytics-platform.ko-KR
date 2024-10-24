@@ -5,9 +5,9 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 
 | 데이터 세트 이름 | 스키마 | 데이터 세트 유형 | 데이터 소스 유형 | 개인 ID | 키 | 일치하는 키 | 새 데이터 가져오기 | 데이터 채우기 |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration용 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL AJO 메시지 피드백 이벤트 데이터 세트] | [!UICONTROL AJO 메시지 피드백 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL AJO 푸시 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 푸시 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![녹색 상태](assets/../../connections/assets/status-green.svg) 켜짐 | ![회색 상태](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration용 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL AJO 메시지 피드백 이벤트 데이터 세트] | [!UICONTROL AJO 메시지 피드백 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL AJO 푸시 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 푸시 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 
 
 ### 데이터 보기
@@ -213,7 +213,7 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | 스팸 고객 불만 (AJO) | 총 스팸 고객 불만 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
 | 구독 목록 추가 (AJO) | 구독 목록에 추가된 총 횟수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표(파생 필드) |
 | 구독 목록 제거 (AJO) | 구독 목록에서 제거된 총 횟수입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표(파생 필드) |
-| 타겟팅됨 (AJO) | 제안이 개인에게 타겟팅된 횟수입니다. 이는 제안이 개인에게 표시되도록 고려된 횟수입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표(파생 필드) |
+| 타기팅됨 (AJO) | 제안이 개인에게 타기팅된 횟수입니다. 이는 제안이 개인에게 표시되도록 고려된 횟수입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 지표(파생 필드) |
 | 트리거됨 (AJO) | Adobe SDK에서 표시하도록 제안이 선택되었습니다. 다른 요인으로 인해 실제로 표시되지 않을 수도 있습니다. | AJO 푸시 추적 경험 이벤트 데이터 세트, 여정 단계 이벤트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 구성 요소 유형: 지표 |
 | 실험의 고유 방문자 (AJO) | 실험의 고유 방문자 수 | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | 구성 요소 유형: 지표 |
 | 구독 취소 (AJO) | 총 구독 취소 수 | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 구성 요소 유형: 지표 |
