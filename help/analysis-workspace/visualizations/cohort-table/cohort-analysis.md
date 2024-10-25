@@ -1,5 +1,5 @@
 ---
-title: 집단 테이블 개요
+title: 코호트 테이블 개요
 description: Analysis Workspace에서 집단 분석에 집단 테이블을 사용하는 방법을 알아봅니다
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
@@ -11,14 +11,14 @@ ht-degree: 37%
 
 ---
 
-# 집단 테이블 개요 {#cohort-table-overview}
+# 코호트 테이블 개요 {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_button"
->title="집단 테이블"
->abstract="이벤트 완료를 기반으로 사용자를 그룹화하고 진행 중인 참여와 시간에 따른 이탈을 분석하는 집단 시각화를 만듭니다."
+>title="코호트 테이블"
+>abstract="이벤트 완료를 기반으로 사용자를 그룹화하고 진행 중인 참여와 시간에 따른 이탈을 분석하는 코호트 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_panel"
->title="집단 테이블"
->abstract="이벤트 완료를 기반으로 사용자를 그룹화한 다음, 진행 중인 참여와 시간에 따른 이탈을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**포함 기준**: 초기 방문자 집단을 정의하는 데 사용되는 구성 요소입니다.<br/>**재방문 기준**: 방문자가 돌아왔는지 결정하는 데 사용되는 구성 요소입니다."
+>title="코호트 테이블"
+>abstract="이벤트 완료를 기반으로 사용자를 그룹화한 다음, 진행 중인 참여와 시간에 따른 이탈을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**포함 기준**: 초기 방문자 코호트를 정의하는 데 사용되는 구성 요소입니다.<br/>**재방문 기준**: 방문자가 돌아왔는지 결정하는 데 사용되는 구성 요소입니다."
 
 <!-- markdownlint-enable MD034 -->
 

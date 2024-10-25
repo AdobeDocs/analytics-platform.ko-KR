@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
 source-wordcount: '3747'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryID"
 >title="기본 ID"
->abstract="연결에 적합한 기본 ID를 선택합니다. B2C 시나리오에 적합한 사람입니다. B2B 시나리오를 설명합니다."
+>abstract="연결에 적합한 기본 ID 선택: B2C 시나리오 사용자. B2B 시나리오에 대한 계정."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,8 +145,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalContainers"
->title="선택적 컨테이너"
->abstract="추가 컨테이너를 선택합니다.<br/><br/>**[!UICONTROL 전역 계정&#x200B;]**: 연결에서 전역 계정을 구성할 수 있습니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회를 구성할 수 있습니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹을 구성할 수 있습니다."
+>title="선택 가능한 컨테이너"
+>abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -164,7 +164,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountID"
 >title="계정 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정의 고유 식별자)를 선택합니다."
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,7 +173,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalAccountID"
 >title="글로벌 계정 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정의 고유 식별자)를 선택합니다."
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정에 대한 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -182,7 +182,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityID"
 >title="기회 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 영업 기회 ID(영업 기회에 대한 고유 식별자)를 선택합니다."
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 기회 ID(기회에 대한 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -191,7 +191,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyingGroupID"
 >title="구매 그룹 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다."
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID 중에서 구매 그룹 ID(구매 그룹에 대한 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -200,7 +200,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="일치하는 키"
->abstract="일치하는 키 또는 일치하는 컨테이너를 기준으로 조인 방법을 선택합니다.<br/><br/>**[!UICONTROL 일치하는 키&#x200B;]**: 이벤트 데이터 세트 중 하나에 연결할 필드를 선택하십시오. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 일치하는 컨테이너]**: 이벤트 데이터 세트 중 하나와 연결하는 데 사용할 컨테이너를 선택하십시오. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
+>abstract="일치하는 키 또는 일치하는 컨테이너를 기준으로 연결 방법을 선택합니다.<br/><br/>**[!UICONTROL 일치하는 키&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 일치하는 컨테이너]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있다면 하나 이상의 컨테이너를 구성하지 않은 것일 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
