@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
+workflow-type: tm+mt
+source-wordcount: '942'
+ht-degree: 99%
 
 ---
 
@@ -363,9 +363,10 @@ ht-degree: 100%
       + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
       + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 데이터 보기 {#data-views}
-      + [데이터 보기 사용 사례](../use-cases/data-views/data-views-usecases.md)
-      + [바인딩 차원 및 지표 사용](../use-cases/data-views/binding-dimensions-metrics.md)
-      + [요약 데이터 사용](../use-cases/data-views/summary-data.md)
+      + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
+      + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [요약 데이터 사용](/help/use-cases/data-views/summary-data.md)
+      + [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
    + 데이터 내보내기 {#data-export}
       + [개요](../use-cases/data-export/overview.md)
       + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
