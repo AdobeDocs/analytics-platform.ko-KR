@@ -1,9 +1,7 @@
 ---
 title: 제품 사용 옵트아웃 설정
 description: 조직 내의 개별 사용자에 대한 옵트아웃 설정을 관리합니다.
-hide: true
-hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 7%

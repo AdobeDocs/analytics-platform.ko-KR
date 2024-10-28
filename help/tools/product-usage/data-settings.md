@@ -1,9 +1,7 @@
 ---
 title: 제품 사용 데이터 설정
 description: 제품 사용 설정을 활성화, 비활성화 또는 구성합니다.
-hide: true
-hidefromtoc: true
-source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
+source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 14%
