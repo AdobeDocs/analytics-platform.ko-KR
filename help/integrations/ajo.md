@@ -4,8 +4,8 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+source-git-commit: 5e239753928f5c994245025c8b5d2aee3eee6091
+workflow-type: tm+mt
 source-wordcount: '3020'
 ht-degree: 100%
 
@@ -18,8 +18,6 @@ ht-degree: 100%
 Journey Optimizer에서 생성된 데이터를 구성해 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다. 이 통합은 자동 구성할 수 있습니다. 필요한 경우 연결 또는 데이터 보기에서 사용 가능한 데이터 세트, 차원 또는 지표를 추가로 수동 사용자 정의할 수 있습니다.
 
 ## Journey Optimizer 통합 자동 구성
-
-{{release-limited-testing-section}}
 
 Journey Optimizer는 보고 엔진으로 Customer Journey Analytics 사용을 지원합니다. Journey Optimizer 설명서에서 [새 보고 인터페이스 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/report-gs-cja)을 참조하시기 바랍니다.
 
