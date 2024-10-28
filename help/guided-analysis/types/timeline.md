@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
-# [!UICONTROL 타임라인] 분석
+# [!UICONTROL 타임라인] 분석 {#timeline}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_timeline_button"
+>title="타임라인"
+>abstract="시간 경과에 따른 사용자 수준 세션 이벤트를 관찰합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![타임라인](/help/assets/icons/Timeline.svg) **[!UICONTROL 타임라인]** 분석을 사용하면 시간 경과에 따른 사용자 수준 세션 이벤트를 관찰하여 경험 패턴을 찾고 더 나은 사용자 스토리를 전달할 수 있습니다. 왼쪽 레일을 사용하면 속성 값 및 세그먼트별로 스트림을 필터링할 수 있습니다. 오른쪽 레일을 사용하면 필터 조건과 일치하는 무작위 사용자 목록에서 선택할 수 있습니다. 가운데 영역에는 선택한 사용자의 세션별 스트림이 표시되며, 타임스탬프, 속성 값 및 기간으로 구성됩니다. 특정 세션의 마지막 이벤트에는 기간을 사용할 수 없습니다.
 

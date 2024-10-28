@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 7%
 
 ---
 
-# [!UICONTROL 빈도] 분석
+# [!UICONTROL 빈도] 분석 {#frequency}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_frequency_button"
+>title="빈도"
+>abstract="특정 이벤트에 대한 반복 사용자 활동의 분포를 조회합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도별로 이벤트 데이터를 그룹화합니다. 이 분석의 세로 축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷에 대한 사용자 또는 세션 수를 측정합니다.
 

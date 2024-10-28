@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 18%
+source-wordcount: '376'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 18%
 >abstract="요약 데이터 그룹은 그룹의 모든 차원을 연결하며 보고를 위해 요약 데이터 세트의 차원을 다른 차원과 결합하는 데 사용됩니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
+>title="보고에서 숨기기"
+>abstract="이 옵션을 선택하면 해당 차원에 대한 **[!UICONTROL 보고에서 구성 요소 숨기기]**&#x200B;가 활성화되고 구성 요소가 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에 표시되지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 요약 데이터 그룹은 그룹의 모든 차원을 연결하며 보고를 위해 요약 데이터 세트의 차원을 다른 차원과 결합하는 데 사용됩니다.

@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 2%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
-# 유지 분석
+# 유지 분석 {#retention}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_retention_button"
+>title="유지"
+>abstract="제품을 계속해서 사용하는 사용자의 수를 측정합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![유지](/help/assets/icons/Retention.svg) **[!UICONTROL 유지]** 분석은 사용자가 시간이 지남에 따라 제품을 계속 사용하는 방법을 측정하므로 제품 시장 적합도를 이해하는 데 도움이 됩니다. 분석은 다음 두 가지 중요한 이벤트를 기반으로 사용자를 계산합니다.
 

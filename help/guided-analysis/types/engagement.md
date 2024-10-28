@@ -5,14 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 참여] 분석
+# [!UICONTROL 참여] 분석 {#engagement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_engagement_button"
+>title="참여"
+>abstract="기능 참여의 폭과 깊이를 이해합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** 분석을 통해 기능 사용 빈도와 기능 사용 인사이트를 확인할 수 있습니다. 이 분석은 여러 기능을 서로 비교할 때 가장 잘 작동합니다. 당신의 핵심, 힘, 일회성, 의문스러운 특징들이 무엇인지 이해함으로써 투자 결정에 박차를 가할 수 있도록 도와준다.
 

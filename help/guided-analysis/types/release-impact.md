@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 릴리스 영향] 분석
+# [!UICONTROL 릴리스 영향] 분석 {#release-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_releaseimpact_button"
+>title="릴리스 영향"
+>abstract="릴리스 전후 동일한 기간 동안의 성능을 비교합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![릴리스](/help/assets/icons/Release.svg) **[!UICONTROL 릴리스 영향]** 분석은 지정된 날짜 전후에 주요 지표가 수행되는 방식을 비교합니다. 이 보고서의 가로축은 시간 간격인 반면 세로축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 이전 날짜와 이후 날짜를 비교하려는 날짜를 나타냅니다. 이 날짜는 일반적으로 제품 업데이트 또는 캠페인 시작과 같이 측정하려는 제품에 대한 주목할 만한 변경 사항을 나타냅니다.
 

@@ -5,14 +5,24 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '637'
+ht-degree: 4%
 
 ---
 
-# [!UICONTROL 활성 증가] 분석
+# [!UICONTROL 활성 증가] 분석 {#active-growth}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_activegrowth_button"
+>title="활성 증가"
+>abstract="신규, 유지, 복귀 또는 휴면 상태를 식별합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL 활성 증가]** 분석은 특정 기간 동안의 사용자 증가 및 확보에 대한 통찰력을 제공합니다. 가로 축은 시간 간격인 반면, 세로 축은 사용자를 측정합니다. 사용자는 4개의 카테고리로 나뉩니다.
 

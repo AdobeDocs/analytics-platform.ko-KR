@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 3%
 
 ---
 
-# [!UICONTROL 순 증가] 분석
+# [!UICONTROL 순 증가] 분석 {#net-growth}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_netgrowth_button"
+>title="순성장"
+>abstract="사용자가 증가하고 있습니까, 감소하고 있습니까?"
+
+<!-- markdownlint-enable MD034 -->
 
 ![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** 분석은 특정 기간 동안 사용자를 얻거나 잃는 속도에 대한 통찰력을 제공합니다. 가로축은 시간간격인 반면 세로축은 생장의 측정치이다.
 

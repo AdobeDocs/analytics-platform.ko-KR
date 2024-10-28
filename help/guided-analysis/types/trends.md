@@ -5,14 +5,23 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '781'
+ht-degree: 4%
 
 ---
 
-# [!UICONTROL 트렌드] 분석
+# [!UICONTROL 트렌드] 분석 {#trends}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_trends_button"
+>title="트렌드"
+>abstract="시간 경과에 따른 사용자 참여를 측정합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** 분석은 제품의 성능 또는 시간의 흐름에 따른 사용자의 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
 

@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 4%
+source-wordcount: '674'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 첫 번째 사용 영향] 분석
+# [!UICONTROL 첫 번째 사용 영향] 분석 {#first-use-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_firstuseimpact_button"
+>title="최초 사용 영향"
+>abstract="주요 지표에 대한 최초 기능 사용의 영향을 측정합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![첫 번째 사용](/help/assets/icons/FirstUse.svg) **[!UICONTROL 첫 번째 사용 영향]** 분석에서는 사용자가 제품 기능을 처음 사용하기 전과 후에 수행된 주요 지표의 비교 결과를 보여 줍니다. 이 보고서의 가로 축은 이벤트 전후의 상대적인 시간 간격인 반면, 세로 축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 주어진 사용자가 기능을 처음 사용할 때의 0일을 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 롤아웃은 며칠 동안 발생할 수 있으므로 0일은 각 개별 사용자마다 다른 의미일 수 있습니다.
 
