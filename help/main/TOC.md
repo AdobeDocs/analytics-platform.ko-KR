@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
+source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,16 @@ ht-degree: 99%
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + [권장 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+      + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+      + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
+      + [데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+      + [서비스로 플랫폼 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
+      + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+      + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)

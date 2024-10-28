@@ -5,10 +5,10 @@ exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
+source-git-commit: 01df8b8b55ff8e8c0826bf98adfbd85d3412e6bb
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 100%
+source-wordcount: '787'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Customer Journey Analytics를 사용할 수 있는 고객은 다음과 같습니
 
 | 작업 | 세부 사항 |
 | --- | --- |
-| **1단계: Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 경우: 업그레이드 경로를 선택하고 데이터를 Adobe Experience Platform으로 전송** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 다양한 경로를 사용할 수 있습니다. 가능한 각 업그레이드 경로에는 고유한 장단점이 있으며, 하나의 조직에 적합한 경로가 다른 조직에는 적합하지 않을 수 있습니다. <p>Adobe Analytics에서 Customer Journey Analytics로의 업그레이드를 시작하려면 [Customer Journey Analytics로 업그레이드 시작하기](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)를 참조하십시오. <!-- [Utilizing Adobe Analytics report suite data in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md) --> </p> |
+| **1단계: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 경우: 업그레이드 경로를 선택하고 데이터를 Adobe Experience Platform으로 보내십시오** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 다양한 경로를 사용할 수 있습니다. 가능한 각 업그레이드 경로에는 고유한 장단점이 있으며, 하나의 조직에 적합한 경로가 다른 조직에는 적합하지 않을 수 있습니다. <p>Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하려면 다음 중 하나를 수행하십시오.</p><ul><li>Adobe에서 권장하는 업그레이드 경로를 따릅니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</li><li>사용 가능한 모든 업그레이드 경로에 대해 알아보고 조직에 가장 적합한 경로를 선택합니다. 자세한 내용은 [Customer Journey Analytics 업그레이드 시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)을 참조하세요.</li></ul> |
 | **2단계: Adobe Experience Platform으로 다른 데이터 가져오기** | Adobe Experience Platform에서 수행되는 이 단계에는 다음과 같은 몇 가지 하위 단계가 포함됩니다.<ul><li>**2a 단계: 데이터 스키마 준비**: [Adobe Experience Data Model(XDM)](https://experienceleague.adobe.com/kr/docs/experience-platform/xdm/home.html?lang=ko-KR)을 사용하여 고객 경험 데이터를 표준화하고 고객 경험 관리를 위한 [스키마를 정의](https://experienceleague.adobe.com/kr/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR)할 수 있습니다.</li><li>**2b 단계: 스키마를 기반으로 데이터 세트 만들기**: 플랫폼의 데이터는 이메일 데이터 세트, CRM 데이터 세트, POS 데이터 세트, Adobe Analytics 데이터 세트 등과 같은 데이터 세트로 구성됩니다. 각 데이터 세트는 스키마와 데이터 배치로 구성됩니다. [Experience Platform에서 데이터 세트를 생성](https://experienceleague.adobe.com/kr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=ko-KR)할 수 있습니다.</li><li>**2c 단계: 데이터를 Experience Platform에 수집**: 여기, 몇 가지 옵션이 있습니다.</li></ul> |
 | **3단계: 플랫폼 데이터 세트와 Customer Journey Analytics 간 연결 만들기** | 연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다.<br>[연결 만들기 또는 편집](/help/connections/create-connection.md)을 참조하십시오. |
 | **4단계: 데이터 보기 만들기** | 데이터 보기는 데이터의 “필터링된” 보기입니다. 방문 제한 시간, 속성 등에 대한 서로 다른 설정을 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 단일 데이터 세트에 대해 여러 데이터 보기를 만들 수 있습니다.<br>[데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오. |
