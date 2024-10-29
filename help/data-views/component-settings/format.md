@@ -5,7 +5,7 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 22%
@@ -22,16 +22,6 @@ ht-degree: 22%
 >abstract="보고서에서 사용될 때 구성 요소가 표시되는 방법을 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format_currencyconversion"
->title="통화 전환"
->abstract="선택한 통화 유형으로 통화를 구성하고 표시하려면 통화 코드 차원을 선택하십시오."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 포맷을 통해 보고서에서 사용될 때 주어진 지표가 표시되는 방법을 결정할 수 있습니다.
@@ -64,7 +54,16 @@ ht-degree: 22%
 
    {style="table-layout:auto"}
 
-## 통화 전환 사용
+## 통화 전환 사용 {#use-currency-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format_currencyconversion"
+>title="통화 전환"
+>abstract="선택한 통화 유형으로 통화를 구성하고 표시하려면 통화 코드 차원을 선택하십시오."
+
+<!-- markdownlint-enable MD034 -->
 
 Customer Journey Analytics에서의 통화 전환은 국제적으로 운영되는 비즈니스에 매우 가치 있을 수 있습니다. 수동 통화 전환의 복잡성을 제거하여 Customer Journey Analytics의 통화 전환은 재무 데이터에 일관성과 명확성을 제공합니다. 통화 전환은 일일 과거 환율을 추적하고 4년 동안 일일 환율을 유지합니다.
 

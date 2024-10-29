@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bab067f50e04b7eb1a211d8767cd2cd7a2acd9c5
+source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 97%
@@ -30,16 +30,6 @@ ht-degree: 97%
 
 ## 구성 {#configure}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
->title="외부 ID"
->abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 데이터 보기 이름이 표시되는 방식에 영향을 미칠 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-
 신규 또는 기존 데이터 보기를 구성하는 경우:
 
 1. **[!UICONTROL 구성]** 탭을 선택합니다(아직 활성화되지 않은 경우).
@@ -49,7 +39,16 @@ ht-degree: 97%
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 
-### 설정
+### 설정 {#settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="외부 ID"
+>abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 데이터 보기 이름이 표시되는 방식에 영향을 미칠 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 데이터 보기에 중요한 설정을 제공합니다.
 
