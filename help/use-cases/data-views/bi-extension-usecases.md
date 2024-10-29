@@ -6,10 +6,10 @@ feature: Data Views
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: b111a75041743e14a71d0df56b04c85ed4bae7b8
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 3%
+source-wordcount: '2575'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 3%
 각 사용 사례의 경우 **세부 정보** 섹션 내에서 다음 BI 도구에 대한 지침을 사용할 수 있습니다.
 
 * Power BI 데스크탑(버전 2.136.1478.0 64비트(2024년 9월))
-* Tableau Desktop(버전 2022.3.5(20223.23..0310) 64비트)
+* Tableau Desktop(버전 2024.1.5(20241.24.0705.0334) 64비트)
 
-지침은 이름이 **[!UICONTROL public.ares_sql_validation]**&#x200B;인 예제 데이터 보기, 두 개의 예제 차원(**[!UICONTROL 제품 이름]** 및 **[!UICONTROL 제품 범주]**) 및 두 개의 예제 지표(**[!UICONTROL 구매]** 및 **[!UICONTROL 구매 매출]**)를 참조합니다. 지침을 진행할 때, 해당되는 경우 특정 환경에 맞게 이러한 예제 객체를 수정합니다.
+지침은 이름이 **[!UICONTROL public.cc_data_view]**&#x200B;인 예제 데이터 보기, 두 개의 예제 차원(**[!UICONTROL 제품 이름]** 및 **[!UICONTROL 제품 범주]**) 및 두 개의 예제 지표(**[!UICONTROL 구매]** 및 **[!UICONTROL 구매 매출]**)를 참조합니다. 지침을 진행할 때, 해당되는 경우 특정 환경에 맞게 이러한 예제 객체를 수정합니다.
 
 
 ## 데이터 보기 연결 및 나열
@@ -81,13 +81,13 @@ ht-degree: 3%
    1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색 후:
    ![Power BI 대상 서버 로드 데이터](assets/powerbi-navigator-load.png)
-   1. 왼쪽 패널의 목록에서 **[!UICONTROL public.ares_sql_validation]**&#x200B;을(를) 선택합니다.
+   1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 로드]**&#x200B;를 선택합니다.
 1. 잠시 후 사용 가능한 지표와 차원이 **[!UICONTROL 데이터]** 창에 표시됩니다.
    ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png)
 
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 1. Experience Platform 쿼리 서비스 UI에서 필요한 자격 증명 및 매개 변수에 액세스합니다.
 
@@ -118,8 +118,8 @@ ht-degree: 3%
    * **[!UICONTROL 데이터베이스]** 아래의 데이터베이스 이름입니다.
    * **[!UICONTROL 테이블]** 아래의 테이블 목록입니다.
      ![연결된 타블로](assets/tableau-connected.png)
-   1. **[!UICONTROL ares_sql_validation]** 항목을 끌어 놓은 다음 **[!UICONTROL 테이블을 여기로 드래그하십시오]**.
-1. 이제 기본 창에 **[!UICONTROL ares_sql_validation]** 데이터 보기의 세부 정보가 표시됩니다.
+   1. **[!UICONTROL cc_data_view]** 항목을 끌어서 **[!UICONTROL 테이블을 여기로 드래그]**&#x200B;하는 기본 보기에 놓으십시오.
+1. 이제 기본 창에 **[!UICONTROL cc_data_view]** 데이터 보기에 대한 세부 정보가 표시됩니다.
    ![연결된 타블로](assets/tableau-validation.png)
 
 >[!ENDTABS]
@@ -132,6 +132,11 @@ ht-degree: 3%
 이 사용 사례에서는 2023년 1월 1일부터 2023년 1월 31일까지 발생한 일일 트렌드를 보여 주는 테이블 및 간단한 선 시각화를 표시할 수 있습니다.
 
 +++ 세부 사항
+
+>[!PREREQUISITES]
+>
+>[성공적인 연결을 확인했는지 확인하고 이 사용 사례를 시도하려는 BI 도구에 대한 데이터 보기를 나열](#connect-and-list-data-views)할 수 있습니다.
+>
 
 >[!BEGINTABS]
 
@@ -169,7 +174,7 @@ ht-degree: 3%
 
    ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc2-pbi-filter-final.png)
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 1. 하단의 **[!UICONTROL 시트 1]** 탭을 선택하여 **[!UICONTROL 데이터 원본]**&#x200B;에서 전환하세요. **[!UICONTROL 시트 1]** 보기에서:
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
@@ -196,11 +201,11 @@ ht-degree: 3%
    1. **[!UICONTROL DAY(Daterangeday)]**&#x200B;를 **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL 행]**(으)로 드래그합니다.
    1. 도구 모음의 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
-      **[!UICONTROL 일]** 보기는 다음과 같습니다.
+      **[!UICONTROL 데이터]** 보기는 다음과 같습니다.
 
       ![타블로 데스크톱 데이터](assets/uc2-tableau-data.png)
 
-1. 새 **[!UICONTROL 대시보드 1]** 보기를 만들려면 **[!UICONTROL 대시보드]** 탭을 선택하십시오. **[!UICONTROL 대시보드 1]** 보기에서:
+1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
    1. **[!UICONTROL 그래프]** 시트 아래의 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 데이터]** 시트를 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
    1. 보기에서 **[!UICONTROL 데이터]** 시트를 선택하고 **[!UICONTROL 전체 보기]**&#x200B;를 **[!UICONTROL 너비 수정]**(으)로 수정합니다.
@@ -209,7 +214,6 @@ ht-degree: 3%
 
       ![타블로 데스크톱 대시보드 1](assets/uc2-tableau-dashboard.png)
 
-
 >[!ENDTABS]
 
 +++
@@ -217,19 +221,61 @@ ht-degree: 3%
 
 ## 시간별 트렌드
 
-사용 사례 시놉시스
+이 사용 사례에서는 2023년 1월 1일에 대한 시간별 발생 트렌드를 보여 주는 테이블 및 간단한 선 시각화를 표시할 수 있습니다.
 
 +++ 세부 사항
+
+>[!PREREQUISITES]
+>
+>[성공적인 연결을 확인했는지 확인하고 이 사용 사례를 시도하려는 BI 도구에 대한 데이터 보기를 나열](#connect-and-list-data-views)할 수 있습니다.
+>
 
 >[!BEGINTABS]
 
 >[!TAB Power BI 데스크톱]
 
-단계
+![경고](/help/assets/icons/Alert.svg) Power BI이 날짜-시간 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]** 같은 차원은 지원되지 않습니다. **not**.
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
-단계
+1. 하단의 **[!UICONTROL 시트 1]** 탭을 선택하여 **[!UICONTROL 데이터 원본]**&#x200B;에서 전환하세요. **[!UICONTROL 시트 1]** 보기에서:
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
+   1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `02/01/2023` 기간을 지정하십시오.
+
+      ![타블로 데스크톱 필터](assets/uc3-tableau-filter.png)
+
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangehour]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
+      * 값이 **[!UICONTROL HOUR(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL 자세히]** > **[!UICONTROL 시간]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL Occurrences]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
+      * 값이 **[!UICONTROL SUM(발생 횟수)]**(으)로 자동 변환됩니다.
+   1. 도구 모음의 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+
+      시트 1 보기는 다음과 같아야 합니다.
+
+      ![타블로 데스크톱 그래프](assets/uc3-tableau-graph.png)
+
+1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
+1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
+1. **[!UICONTROL 시트 1(2)]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
+1. **[!UICONTROL 데이터]** 시트가 선택되어 있는지 확인하십시오. 데이터 보기에서:
+   1. 오른쪽 상단에서 **[!UICONTROL 표시]**&#x200B;를 선택하고 **[!UICONTROL 텍스트 테이블]**(왼쪽 상단 시각화)을 선택하여 데이터 보기의 콘텐츠를 테이블로 수정합니다.
+   1. **[!UICONTROL HOUR(Daterangeday)]**&#x200B;을(를) **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL 행]**(으)로 드래그합니다.
+   1. 도구 모음의 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+
+      **[!UICONTROL 데이터]** 보기는 다음과 같습니다.
+
+      ![타블로 데스크톱 데이터](assets/uc3-tableau-data.png)
+
+1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
+   1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
+   1. **[!UICONTROL 그래프]** 시트 아래의 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 데이터]** 시트를 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
+   1. 보기에서 **[!UICONTROL 데이터]** 시트를 선택하고 **[!UICONTROL 전체 보기]**&#x200B;를 **[!UICONTROL 너비 수정]**(으)로 수정합니다.
+
+      **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
+
+      ![타블로 데스크톱 대시보드 1](assets/uc3-tableau-dashboard.png)
+
 
 >[!ENDTABS]
 
@@ -238,19 +284,90 @@ ht-degree: 3%
 
 ## 월별 트렌드
 
-사용 사례 시놉시스
+이 사용 사례에서는 2023년 1월 1일 - 2024년 1월 1일 동안 월별 발생 트렌드를 보여주는 테이블 및 단순 선 시각화를 표시할 수 있습니다.
 
 +++ 세부 사항
+
+>[!PREREQUISITES]
+>
+>[성공적인 연결을 확인했는지 확인하고 이 사용 사례를 시도하려는 BI 도구에 대한 데이터 보기를 나열](#connect-and-list-data-views)할 수 있습니다.
+>
 
 >[!BEGINTABS]
 
 >[!TAB Power BI 데스크톱]
 
-단계
+1. **[!UICONTROL 데이터]** 창:
+   1. **[!UICONTROL daterangemonth]** 차원을 선택합니다.
+   1. **[!UICONTROL 발생 횟수]** 지표를 선택합니다.
 
->[!TAB 타블로]
+   현재 월의 발생 횟수를 표시하는 테이블이 표시됩니다. 더 나은 가시성을 위해 테이블 시각화를 확대하십시오.
 
-단계
+1. **[!UICONTROL 필터]** 창:
+
+   1. 이 시각적 개체의 **[!UICONTROL 필터]**&#x200B;에서 **[!UICONTROL daterangemonth is (All)]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL 고급 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
+   1. **[!UICONTROL 값이]** **[!UICONTROL 이거나]** `1/1/2023` **[!UICONTROL 이거나]** **[!UICONTROL 이거나]** `1/1/2024.` 이전인 경우 항목 표시로 필터를 정의합니다. 달력 아이콘을 사용하여 날짜를 선택하고 선택할 수 있습니다.
+   1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
+
+   적용된 **[!UICONTROL daterangeday]** 필터로 업데이트된 표가 표시됩니다.
+
+1. **[!UICONTROL 시각화]** 창에서:
+
+   1. **[!UICONTROL 선 차트]** 시각화를 선택하십시오.
+
+   라인 차트 시각화는 테이블과 동일한 데이터를 사용하면서 테이블을 대체합니다.
+
+   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc4-pbi-filter-daterange.png)
+
+1. 선 차트 시각화에서:
+
+   1. ![자세히](/help/assets/icons/More.svg)를 선택하세요.
+   1. 컨텍스트 메뉴에서 **[!UICONTROL 표로 표시]**&#x200B;를 선택합니다.
+
+   기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다.
+
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc4-pbi-filter-final.png)
+
+>[!TAB 타블로 데스크톱]
+
+1. 하단의 **[!UICONTROL 시트 1]** 탭을 선택하여 **[!UICONTROL 데이터 원본]**&#x200B;에서 전환하세요. **[!UICONTROL 시트 1]** 보기에서:
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
+   1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `01/01/2024` 기간을 지정하십시오.
+
+      ![타블로 데스크톱 필터](assets/uc4-tableau-filter.png)
+
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangeday]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
+      * 값이 **[!UICONTROL MONTH(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL MONTH]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL Occurrences]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
+      * 값이 **[!UICONTROL SUM(발생 횟수)]**(으)로 자동 변환됩니다.
+   1. 도구 모음의 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+
+      시트 1 보기는 다음과 같아야 합니다.
+
+      ![타블로 데스크톱 그래프](assets/uc4-tableau-graph.png)
+
+1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
+1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
+1. **[!UICONTROL 시트 1(2)]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
+1. **[!UICONTROL 데이터]** 시트가 선택되어 있는지 확인하십시오. 데이터 보기에서:
+   1. 오른쪽 상단에서 **[!UICONTROL 표시]**&#x200B;를 선택하고 **[!UICONTROL 텍스트 테이블]**(왼쪽 상단 시각화)을 선택하여 데이터 보기의 콘텐츠를 테이블로 수정합니다.
+   1. **[!UICONTROL MONTH(Daterangeday)]**&#x200B;을(를) **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL 행]**(으)로 드래그합니다.
+   1. 도구 모음의 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+
+      **[!UICONTROL 데이터]** 보기는 다음과 같습니다.
+
+      ![타블로 데스크톱 데이터](assets/uc4-tableau-data.png)
+
+1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
+   1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
+   1. **[!UICONTROL 그래프]** 시트 아래의 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 데이터]** 시트를 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
+   1. 보기에서 **[!UICONTROL 데이터]** 시트를 선택하고 **[!UICONTROL 전체 보기]**&#x200B;를 **[!UICONTROL 너비 수정]**(으)로 수정합니다.
+
+      **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
+
+      ![타블로 데스크톱 대시보드 1](assets/uc4-tableau-dashboard.png)
 
 >[!ENDTABS]
 
@@ -263,13 +380,18 @@ ht-degree: 3%
 
 +++ 세부 사항
 
+>[!PREREQUISITES]
+>
+>[성공적인 연결을 확인했는지 확인하고 이 사용 사례를 시도하려는 BI 도구에 대한 데이터 보기를 나열](#connect-and-list-data-views)할 수 있습니다.
+>
+
 >[!BEGINTABS]
 
 >[!TAB Power BI 데스크톱]
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -290,7 +412,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -311,7 +433,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -333,7 +455,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -355,7 +477,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -377,7 +499,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -399,7 +521,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -421,7 +543,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -443,7 +565,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -465,7 +587,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 
@@ -487,7 +609,7 @@ ht-degree: 3%
 
 단계
 
->[!TAB 타블로]
+>[!TAB 타블로 데스크톱]
 
 단계
 

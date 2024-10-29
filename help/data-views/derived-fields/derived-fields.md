@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '8842'
 ht-degree: 17%
@@ -889,7 +889,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 중복 제거 ID]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul><li>[!UICONTROL 유지할 값]:<ul><li>첫 번째 인스턴스 유지</li><li>마지막 인스턴스 유지</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 값]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul></li><li>[!UICONTROL 범위]:<ul><li>개인</li><li>세션</li></ul></li><li>[!UICONTROL 중복 제거 ID]:<ul><li>규칙</li><li>표준 필드</li><li>필드</li><li>문자열</li></ul><li>[!UICONTROL 유지할 값]:<ul><li>첫 번째 인스턴스 유지</li><li>마지막 인스턴스 유지</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1352,7 +1352,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 메서드]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>사람</li><li>세션</li></ul></li><li>[!UICONTROL 인덱스]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 메서드]:<ul><li>이전 값</li><li>다음 값</li></ul></li><li>[!UICONTROL 범위]:<ul><li>개인</li><li>세션</li></ul></li><li>[!UICONTROL 인덱스]:<ul><li>숫자</li></ul><li>[!UICONTROL 반복 포함]:<ul><li>부울</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1643,7 +1643,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>값<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>메서드 요약</li><li>범위<ul><li>이벤트</li><li>세션</li><li>사람</li></ul></li></ul> | <ul><li>숫자<ul><li>MAX - 값 집합에서 가장 큰 값 반환</li><li>MIN - 값 집합에서 가장 작은 값을 반환합니다.</li><li>MEDIAN - 값 집합에 대한 중간값을 반환합니다.</li><li>평균 - 값 집합에 대한 평균을 반환합니다.</li><li>SUM - 값 집합에 대한 합계를 반환합니다.</li><li>COUNT - 받은 값 수를 반환합니다.</li><li>DISTINCT - 개별 값 집합을 반환합니다.</li></ul></li><li>문자열<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li><li>날짜<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li><li>가장 이른 - 수신된 가장 이른 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li><li>최신 - 수신된 최신 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li></ul> | 파생 필드당 3개 함수 | 새 파생 필드 |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>값<ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></li><li>메서드 요약</li><li>범위<ul><li>이벤트</li><li>세션</li><li>개인</li></ul></li></ul> | <ul><li>숫자<ul><li>MAX - 값 집합에서 가장 큰 값 반환</li><li>MIN - 값 집합에서 가장 작은 값을 반환합니다.</li><li>MEDIAN - 값 집합에 대한 중간값을 반환합니다.</li><li>평균 - 값 집합에 대한 평균을 반환합니다.</li><li>SUM - 값 집합에 대한 합계를 반환합니다.</li><li>COUNT - 받은 값 수를 반환합니다.</li><li>DISTINCT - 개별 값 집합을 반환합니다.</li></ul></li><li>문자열<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li><li>날짜<ul><li>DISTINCT - 개별 값 집합을 반환합니다.</li><li>COUNT DISTINCT - 고유한 값의 수를 반환합니다.</li><li>MOST COMMON - 가장 자주 받은 문자열 값 반환</li><li>LEAST COMMON - 가장 적게 수신된 문자열 값을 반환합니다.</li><li>첫 번째 - 첫 번째 값이 수신되었습니다. 세션 및 이벤트 테이블에만 적용됩니다.</li><li>LAST- 마지막으로 받은 값으로 세션 및 이벤트 테이블에만 적용됩니다.</li><li>가장 이른 - 수신된 가장 이른 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li><li>최신 - 수신된 최신 값(시간에 따라 결정됨). 세션 및 이벤트 테이블에만 적용됩니다.</li></ul></li></ul> | 파생 필드당 3개 함수 | 새 파생 필드 |
 
 {style="table-layout:auto"}
 
@@ -1701,7 +1701,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 <!-- TRIM -->
 
-### 트리밍
+### 트리밍 {#trim}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -1823,7 +1823,7 @@ storeID를 포함한 데이터를 수집합니다. storeID에는 약식 미국 �
 
 <!-- URL PARSE -->
 
-### URL 구문 분석
+### URL 구문 분석 {#urlparse}
 
 <!-- markdownlint-disable MD034 -->
 
