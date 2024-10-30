@@ -6,9 +6,9 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,15 +107,15 @@ ht-degree: 99%
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** | | |
-|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨(기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
+|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
-|  | [데이터 보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 데이터를 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
-|  | [캘린더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>[!UICONTROL 기본적으로 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]를 활성화할 수 있습니다.</li></ul> |
-|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR) | <ul><li>자유 형식(기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
+|  | [데이터 보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 데이터를 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
+|  | [캘린더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>[!UICONTROL 기본적으로 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]를 활성화할 수 있습니다.</li></ul> |
+|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 인스턴스 계산 | [!UICONTROL 반복 인스턴스 계산]을 활성화하여 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 예를 들어 활성화되면 동일한 페이지에 대한 여러 개의 연속 페이지 조회수가 여러 페이지 조회수로 처리됩니다. 비활성화되면 동일한 페이지에 대한 여러 개의 연속 페이지 조회수가 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 세션)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
-|  | 번호 형식 | <ul><li>1,000.00(기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | CSV 구분자 | <ul><li>쉼표(기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
+|  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
 |  | 주석 표시 | 프로젝트에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/components/annotations/overview.md)를 참조하십시오. |
 
 
@@ -168,7 +168,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 위치별 분류 | 분류를 항목 자체가 아닌 항목 위치로 유지하려면 이 옵션을 선택합니다. 분류에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오. |
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
-| | 열 합계(정적 행만 해당) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행의 합계를 표시합니다.</li></ul> |
+| | 열 합계 (정적 행만 해당) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행의 합계를 표시합니다.</li></ul> |
 
 ### 시각화 환경 설정
 
@@ -229,7 +229,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **스택형 차트** | | |
 | | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | 버킷 수 | 시각화에서 날짜 범위(버킷)의 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
+| | 버킷 수 | 시각화에서 날짜 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
 | | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>세션</li><li>개인</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문 페이지 조회수 또는 이벤트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
@@ -261,7 +261,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 
 1. 오른쪽 상단에서 **[!UICONTROL 기본값 복원]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 시스템 기본 설정 복원]** 에서 **[!UICONTROL 기본값 복원]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 시스템 기본 설정 복원]**&#x200B;에서 **[!UICONTROL 기본값 복원]**&#x200B;을 선택합니다.
 
 ## [!UICONTROL 어두운 테마]
 

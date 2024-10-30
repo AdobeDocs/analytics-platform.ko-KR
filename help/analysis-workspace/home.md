@@ -7,9 +7,9 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 다음 이미지와 함께 제공되는 표는 Analysis Workspace 사용자 인터페이스의 주요 요소를 설명합니다.
 
-![Analysis Workspace window highlighting the far left and left panel, the canvas, and data view drop-down menu.](assets/analysis-workspace-overview.png)
+![맨 왼쪽 및 왼쪽 패널, 캔버스 및 데이터 보기 드롭다운 메뉴가 강조 표시된 Analysis Workspace 창입니다.](assets/analysis-workspace-overview.png)
 
 | 위치 | 이름 및 기능 |
 |:---------:|----------|
 | ?? | 프로젝트 이름, 기능에 액세스하는 메뉴 구조, 프로젝트 목록으로 돌아가는 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) 버튼 및 [Workspace 프로젝트를 공유](/help/analysis-workspace/curate-share/share-projects.md)하는 **[!UICONTROL 공유]** 버튼을 포함합니다. <br/>언제든지 프로젝트 이름(예: 새 프로젝트)을 선택하여 이름을 변경합니다. <br/>![StarOutline](/help/assets/icons/StarOutline.svg)을 선택하여 프로젝트를 자주 사용하는 프로젝트 ![Star](/help/assets/icons/Star.svg)로 표시합니다. |
-| ?? | **버튼 패널:** Analysis Workspace의 주요 [기능](#features)에 액세스할 수 있는 버튼이 포함되어 있습니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| ?? | **버튼 패널:** Analysis Workspace의 주요 [기능](#features)에 액세스할 수 있는 버튼이 포함되어 있습니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | ?? | **왼쪽 패널**: 이 영역에는 개별 패널, 시각화, 구성 요소 또는 목록이 포함됩니다. 콘텐츠는 버튼 패널에서 선택한 버튼에 따라 달라집니다. |
 | ?? | **캔버스**: 왼쪽 패널에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널을 추가하고, 시각화를 패널에 추가하고, 구성 요소를 시각화에 추가하면 프로젝트가 동적으로 업데이트됩니다. 여러 패널을 만들고, 각 패널 내부에서 여러 시각화를 만들 수 있습니다.<br/>각 패널은 선택한 데이터 보기를 기반으로 합니다. 선택한 데이터 보기는 사용할 수 있는 지표와 차원과 같은 구성 요소를 결정합니다. 자세한 내용은[패널 - 데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 참조하십시오. |
 
@@ -46,7 +46,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 | 아이콘 | 기능 | 설명 |
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 패널]** | [패널](/help/analysis-workspace/c-panels/panels.md)은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 테이블과 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. |
-| ![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 가이드 분석]** | [가이드 분석](../guided-analysis/overview.md)을 이용하면 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. Workspace 프로젝트에 포함될 분석을 만들거나 이전에 저장된 기존 분석을 포함할 수 있습니다. |
+| ![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 가이드 분석]** | [가이드 분석](../guided-analysis/overview.md)을 이용하면 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. Workspace 프로젝트에 포함될 분석을 만들거나 이전에 저장된 기존 분석을 포함할 수 있습니다. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 시각화]** | 막대 또는 선 차트와 같은 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 사용하여 데이터를 시각적으로 생동감 있게 표현할 수 있습니다. 맨 왼쪽 패널에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 시각화의 전체 목록을 확인합니다. |
 | ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | [구성 요소](/help/components/overview.md)에는 다음 요소가 포함됩니다.<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [차원](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [필터](/help/components/filters/filters-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차가 프로젝트에 포함된 모든 패널 및 시각화를 축소 가능한 목록으로 구성하면 특정 패널이나 시각화에 빠르게 액세스할 수 있습니다. |
@@ -96,7 +96,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 빈 패널]** | **[!UICONTROL *Opt+B *]** | **[!UICONTROL *Alt+B *]** | [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)을 삽입합니다. |
 | **[!UICONTROL 미디어 동시 뷰어]** | **[!UICONTROL *Opt+H *]** | **[!UICONTROL *Alt-H *]** | [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 패널을 삽입합니다. |
 | **[!UICONTROL 미디어 재생 소요 시간]** | **[!UICONTROL *Opt+I *]** | **[!UICONTROL *Alt+I *]** | [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널을 삽입합니다. |
-| **[!UICONTROL 미디어 평균 분당 시청자]** | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** | [미디어 평균 분당 시청자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널을 삽입합니다. |
+| **[!UICONTROL 미디어 평균 분당 시청 대상자]** | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** | [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널을 삽입합니다. |
 | **[!UICONTROL 속성]** | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** | [속성](/help/analysis-workspace/c-panels/attribution.md) 패널을 삽입합니다. |
 | **[!UICONTROL 자유 형식]** | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** | [자유 형식](/help/analysis-workspace/c-panels/freeform-panel.md) 패널을 삽입합니다. |
 | **[!UICONTROL 빠른 인사이트]** | **[!UICONTROL *Opt+J *]** | **[!UICONTROL *Alt+J *]** | [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md) 패널을 삽입합니다. |

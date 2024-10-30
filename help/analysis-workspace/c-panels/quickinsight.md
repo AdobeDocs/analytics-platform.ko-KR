@@ -5,9 +5,9 @@ feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 이러한 질문에 답변으로 [!UICONTROL 빠른 인사이트]는 가장 많이 사용되는 차원, 지표, 필터 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 목록에서 [!UICONTROL 인기]로 태그가 지정된 차원, 지표 및 필터가 표시됩니다.
 
-![The Quick Insights panel.](assets/popular-tag.png)
+![빠른 인사이트 패널입니다.](assets/popular-tag.png)
 
 [!UICONTROL 빠른 인사이트]는 다음과 같은 지원을 제공합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 다음은 알아두어야 할 몇 가지 기본 용어입니다. 각 데이터 테이블은 데이터 스토리 전달에 사용하는 2개 이상의 빌딩 블록(구성 요소)으로 구성됩니다.
 
-| 빌딩 블록(구성 요소) | 정의 |
+| 빌딩 블록 (구성 요소) | 정의 |
 |---|---|
 | **[!UICONTROL 차원]** | 차원은 프로젝트에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 숫자가 아닌 값 및 차원 항목으로 분류되는 날짜입니다. 예를 들어 *브라우저* 또는 *페이지*&#x200B;는 차원입니다. |
 | **[!UICONTROL 차원 항목]** | 차원 항목은 차원의 개별 값입니다. 예를 들어 브라우저 차원의 차원 항목은 *Chrome*, *Firefox*, *Edge* 등이 됩니다. |
@@ -74,10 +74,10 @@ ht-degree: 97%
 
 빌딩 블록 선택:
 
-* **[!UICONTROL 분석]** - 차원 지정(주황색)
-* **[!UICONTROL 지표 기준]** - 지표 지정(녹색)
-* **[!UICONTROL 필터 기준]** - 필터 지정(파란색)
-* **[!UICONTROL on]** - 날짜 범위(자주색)를 지정합니다.
+* **[!UICONTROL 분석]** - 차원 지정 (주황색)
+* **[!UICONTROL 지표 기준]** - 지표 지정 (녹색)
+* **[!UICONTROL 필터 기준]** - 필터 지정 (파란색)
+* **[!UICONTROL 범위]** - 날짜 범위를 지정합니다(자주색).
 
 시각화가 올바르게 작동하도록 하나 이상의 차원과 지표를 선택해야 합니다.
 
@@ -96,7 +96,7 @@ ht-degree: 97%
 
 1. 하나 이상의 차원과 지표를 추가한 경우 결과를 조회할 수 있습니다.
 
-   ![The Freeform table showing the dimension vertically and the metric horizontally.](assets/quick-insights-output.png)
+   ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
 
    * 지난 12개월 동안의 웹 세션을 기준으로 필터링된 차원(국가 코드)과 지표(세션)가 있는 자유 형식 테이블입니다.
 
@@ -112,11 +112,11 @@ ht-degree: 97%
 
 * 먼저 **[!UICONTROL 추가 팁]** 튜토리얼을 완료할 수 있습니다. 이 튜토리얼은 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여 줍니다. 빠른 인사이트 패널 제목 옆의 ![HelpOutline](/help/assets/icons/HelpOutline.svg)를 선택한 다음 팝업에서 **[!UICONTROL 추가 팁]**&#x200B;을 선택합니다.
 
-  ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
+  ![도움말 아이콘을 선택하면 빠른 인사이트 패널 알림이 표시됩니다.](assets/qibuilder4.png)
 
-* 여러 차원과 지표를 분석하고, 필터를 결합 또는 비교하고, 날짜 범위를 지정할 수 있습니다.
+* 여러 차원 및 지표를 분석하고, 필터를 결합하거나 비교하고, 날짜 범위를 지정할 수 있습니다.
 
-  ![Quick Insights Builder Result](assets/qibuilder-result.png)
+  ![Quick Insights 빌더 결과](assets/qibuilder-result.png)
 
    * **[!UICONTROL 별로 분류된]** 차원 **[!UICONTROL 분석]**: 차원에서 최대 3개의 분류 수준을 사용하여 필요한 데이터로 드릴다운할 수 있습니다. 다음 항목을 참조하십시오.
 
@@ -124,7 +124,7 @@ ht-degree: 97%
 
    * **[!UICONTROL 필터링 기준]**: 최대 2개의 필터를 추가할 수 있습니다. 예를 들어 예약을 필터로 추가하고, 해당 필터를 자주 방문하는 예약자 필터와 처음 여행하는 고객 필터와 결합하여 비교합니다. 다음 항목을 참조하십시오.
 
-   * 날짜: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
+   * 범위: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
 
 ## 알려진 제한 사항
 
@@ -132,7 +132,7 @@ ht-degree: 97%
 
 테이블에 직접 추가하기 전에 경고가 표시됩니다.
 
-![The Resync Builder option warning.](assets/qibuilder-outofsync.png)
+![빌더 재동기화 옵션 경고입니다.](assets/qibuilder-outofsync.png)
 
 그렇게 하지 않고 직접 빌드하면 신규 사용자에게 유용한 기능 없이 테이블이 기존의 자유 형식 테이블로 동작하게 됩니다.
 
