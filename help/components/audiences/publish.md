@@ -4,9 +4,9 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1973'
 ht-degree: 18%
 
 ---
@@ -126,7 +126,7 @@ Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Pla
 
 * Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름 및 설명을 공유합니다. 이 이름은 대상이 고유한지 확인하기 위해 Customer Journey Analytics 대상 ID와 함께 추가됩니다.
 * Customer Journey Analytics에서 대상자의 이름이나 설명에 대한 모든 변경 사항은 Experience Platform에 반영됩니다.
-* Customer Journey Analytics에서 대상이 삭제되면 Experience Platform에서 해당 대상을 계속 사용할 수 있습니다.
+* Customer Journey Analytics에서 대상자가 삭제되면 해당 대상자의 프로필 멤버십이 만료될 때까지 Experience Platform에서 해당 대상자를 계속 사용할 수 있습니다. 프로필 멤버십은 일회성 대상의 경우 420일 후에 만료되고 반복 대상의 경우 16일 후에 만료됩니다.
 
 ## 지연 고려 사항 {#latency}
 
