@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 1442aa9be5e6a6dc283ba559a2ff6c46de862425
+source-git-commit: e723339831bf835b43096affd4e0f15f41462f54
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 3%
+source-wordcount: '1058'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Assistant는 다양한 유형의 지표 및 구성 요소를 포함하여 데이
 | 지원되지 않는 기능 | 설명 |
 | --- | --- |
 | 인라인 요약 또는 응답 | AI Assistant는 사용자 프롬프트의 요약 답변으로 채팅 레일에서 인라인 응답할 수 없습니다.범위 외 프롬프트의 예:<ul><li>*마지막 프롬프트에서 인사이트에 대한 요약을 제공합니다.*</li><li>*선 시각화에서 강조 표시를 요약합니다.*</li></ul> |
-| 질문 설명 | 질문을 명확히 하는 것은 구성 요소 및 차원 항목으로 제한됩니다. AI Assistant는 데이터 보기, 시각화, 데이터 세부기간, 비교, 범위 등을 명확하게 할 수 없습니다. 질문을 명확히 하지 않으면 Assistant는 사용자가 요청할 가능성이 가장 높은 것을 기본값으로 설정합니다. 예기치 않은 시각화 또는 데이터 세부기간을 반환하는 경우 사용자는 다중 전환/업데이트 기능을 사용하여 시각화 및 데이터를 조정할 수 있습니다. |
+| 질문 설명 | 질문을 명확히 하는 것은 구성 요소 및 차원 항목으로 제한됩니다. AI Assistant는 데이터 보기, 시각화, 데이터 세부기간, 비교, 범위 등을 명확하게 할 수 없습니다. 질문을 명확히 하지 않으면 Assistant의 기본값이 사용자가 요청할 가능성이 가장 높은 것으로 설정됩니다. 예기치 않은 시각화 또는 데이터 세부기간을 반환하는 경우 다중 전환/업데이트 기능을 사용하여 시각화 및 데이터를 조정할 수 있습니다. |
 | Workspace 작업 / 기능 | AI 도우미는 시각화를 구축하고 업데이트하는 것 외에 Workspace에서 사용자에 대한 작업을 수행할 수 없습니다. 예를 들어, 다음과 같은 작업은 수행할 수 없습니다.<ul><li>상황별 작업 UI 버튼(차트, 새 패널, 새 테이블에 추가)</li><li>공유</li><li>내보내기</li><li>다운로드</li><li>사용자 환경 설정 관리</li><li>조정</li><li>데이터 보기 관리</li><li>Analytics 대시보드 앱</li><li>속성</li></ul> |
 | 지원되지 않는 시각화 유형 | <ul><li>흐름</li><li>폴아웃</li><li>집단 테이블</li><li>영역, 스택 영역</li><li>스택 막대</li><li>글머리 기호</li><li>콤보</li><li>히스토그램</li><li>가로 막대, 스택 가로 막대</li><li>주요 지표 요약</li><li>분산</li><li>요약 변경</li><li>텍스트</li><li>트리맵</li><li>벤</li></ul> |
 | 설명성과 검증성 | AI 비서가 응답을 생성한 방법에 대한 투명한 설명 또는 인용으로, 답변이 올바른지 확인할 수 있는 방법을 제공합니다. |
@@ -67,22 +67,40 @@ Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP 및 추�
 
 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
-## Data Analysis AI Assistant 액세스
+## Data Analysis AI Assistant 액세스 및 사용
 
+1. 이 링크로 이동하여 Labs IMS Org(단계)에서 Workspace을 열고 Adobe ID으로 로그인합니다.
 
+1. 새 빈 프로젝트를 열려면 프로젝트 페이지 상단의 배너에서 **[!UICONTROL 빈 프로젝트]**&#x200B;를 클릭하십시오.
 
+1. 오른쪽 상단에 있는 AI 비서 채팅 아이콘을 클릭합니다.
 
-## Data Analysis AI Assistant 사용
+   ![AI 길잡이 아이콘](/help/assets/ai-asst-icon.png)
 
-1. Customer Journey Analytics에서 프로비저닝된 샌드박스로 이동합니다.
+1. 하단의 **[!UICONTROL Customer Journey Analytics에 대해 묻기]** 대화 상자에서 AI 도우미에서 첫 번째 데이터 분석 질문을 합니다.
 
-1. Workspace 프로젝트를 엽니다.
+   예를 들어 7월에 받은 주문에 관심이 있다고 가정해 보겠습니다. &quot;7월 주문 표시&quot;를 입력할 수 있습니다.
+
+   ![AI 프롬프트](/help/assets/ai-asst-prompt1.png)
 
 
 ## 데이터 분석 프롬프트 예
 
 다음은 AI 보조가 프롬프트에 응답하는 방법과 예상 시각화에 대한 몇 가지 예입니다.
 
+| 예제 프롬프트 | 예상 시각화 |
+| --- | --- |
+| [개월]에 이익 표시 | 라인<p>특정 시간 범위별로 트렌드 또는 지표를 요청하면 기본적으로 선 시각화가 반환됩니다. |
+| [개월]의 주문 트렌드 | 라인 |
+| [개월]에 지역별 수입 표시 | 막대 |
+| 제품 범주별 매출 점유율 | 도넛 |
+| 1월부터 5월까지 요일별 주문 | 막대 |
+| 3월부터 6월까지 성별 주문 표시 | 막대 |
+| 2월부터 5월까지 SKU의 이익은 얼마입니까 | 막대 |
+| [월]의 저장소 이름별 수익 | 막대 |
+| [월]에 수익별 상위 10개 SKU는 무엇입니까? | 막대 |
+| 연간 월별 구매 비율 | 도넛 |
+| [개월]의 총 이익 | 요약 번호<p>특정 시간 범위 동안 지표의 &quot;합계&quot;를 요청하려면 요약 번호 시각화를 반환해야 합니다. |
 
 
 ## 프롬프트 우수 사례
@@ -91,7 +109,7 @@ TBD
 
 ## Alpha 테스트 기대치 및 요청된 피드백
 
-TB D
+TBD
 
 ## 질문 및 연락처
 
