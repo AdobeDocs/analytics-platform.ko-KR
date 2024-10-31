@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fc3aee031808d7a6c12ed2a2cbcad8f7ae6caa82
+source-git-commit: 8ff3a1c874a0eb67e4b7a6edda6156c4d07edc9f
 workflow-type: tm+mt
-source-wordcount: '4138'
-ht-degree: 68%
+source-wordcount: '4173'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 10월** | |
-| Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 주는 다양한 요소에 대해 설명합니다. |
+| 공유 디바이스 | 공유 장치에 대한 컨텍스트, 결합을 사용하여 공유 장치의 데이터를 처리 및 완화하는 방법, 쿼리 서비스를 사용하여 데이터의 공유 장치 노출을 이해하는 방법을 제공하는 사용 사례 문서를 추가했습니다. |
+| Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
 | Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 콘텐츠(주석, 차원, (계산된) 지표, 필터, 날짜 범위, 경고, 예약된 프로젝트 및 대상)에 대한 설명서를 새로 고쳤습니다. |
 | 안내식 분석 | Analysis Workspace 내에서 [안내식 분석](/help/guided-analysis/overview.md)을 사용할 수 있는 설명서를 업데이트했습니다. |
 | **2024년 9월** | |
@@ -114,7 +115,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2023년 6월** | |
 | 교차 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 교차 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 교차 채널 분석 기능과 관련된 문서가 [교차 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics BI 확장을 사용하면 Customer Journey Analytics에서 정의한 데이터 보기에 SQL로 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 Customer Journey Analytics에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/reporting-configuration) |
+| Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 Customer Journey Analytics에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/reporting-configuration) |
 | 통화 전환 | [통화 전환](../data-views/component-settings/format.md#currency) 지원에 대한 설명서가 업데이트되었습니다. |
 | 계산된 지표 업데이트 | 현재 Customer Journey Analytics 기능에 맞추기 위해 계산된 지표 설명서가 다음과 같이 업데이트되었습니다. <ul><li>Customer Journey Analytics에서 제공하는 [기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md) 목록이 업데이트됨</li><li>여러 계산된 지표 문서에서 업데이트된 스크린샷 및 절차 </li></ul> |
 | **2023년 5월** | |

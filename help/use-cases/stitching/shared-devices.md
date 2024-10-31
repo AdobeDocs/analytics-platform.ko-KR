@@ -3,13 +3,11 @@ title: 공유 디바이스
 description: 결합 및 기타 기술을 사용하여 공유 장치를 처리하는 방법에 대한 설명입니다.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
+source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -67,7 +65,7 @@ Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 �
 
 ### Device-split
 
-장치 분할은 익명 활동과 가장 가까운 거리에 있는 사용자에게 공유 장치의 익명 활동을 특성화합니다. Device-split은 가장 가까운 사람에게 인증되지 않은 활동과 인증된 활동 모두에 대한 크레딧을 제공하기 때문에 Device-split은 분석 사용 사례에 선호되는 접근법입니다. 장치 분할은 현재 필드 기반 결합에 사용됩니다.
+장치 분할은 익명 활동과 가장 가까운 거리에 있는 사용자에게 공유 장치의 익명 활동을 특성화합니다. 장치 분할은 현재 필드 기반 결합에 사용됩니다.
 
 결합에 디바이스 분할 속성이 사용되는 경우 결합된 ID는 아래 표와 같이 확인됩니다.
 
