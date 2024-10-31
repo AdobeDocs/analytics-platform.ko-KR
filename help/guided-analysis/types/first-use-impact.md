@@ -7,12 +7,12 @@ exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 9%
 
 ---
 
-# [!UICONTROL 첫 번째 사용 영향] 분석 {#first-use-impact}
+# [!UICONTROL 최초 사용 영향] 분석 {#first-use-impact}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보기]**: 이 분석과 [릴리스](release-impact.md) 간을 전환합니다.
 * **[!UICONTROL 주요 지표]**: 사용자별로 측정할 이벤트입니다. 선택한 각 키 표시기는 색칠된 선으로 표시됩니다. 이벤트를 나타내는 행이 테이블에 추가됩니다. 최대 3개의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음 값으로 계산]**: 선택한 이벤트에 적용할 계산 메서드입니다. 옵션에는 [!UICONTROL 사용자당 이벤트], [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL 사용자]가 있습니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 [!UICONTROL 사용자당 이벤트], [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL 사용자]가 있습니다.
 * **[!UICONTROL 요소]**: 이 분석에는 두 가지 요소가 있습니다.
    * **[!UICONTROL 날짜]**: 처음 사용 이벤트가 발생하기 전까지 찾기 시작할 시간입니다.
    * **[!UICONTROL 이벤트]**: 분석 중심을 잡기 위해 먼저 사용할 이벤트입니다.

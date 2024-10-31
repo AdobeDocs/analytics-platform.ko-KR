@@ -7,8 +7,8 @@ role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="보고에서 숨기기"
->abstract="이 옵션을 선택하면 해당 차원에 대한 **[!UICONTROL 보고에서 구성 요소 숨기기]**&#x200B;가 활성화되고 구성 요소가 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에 표시되지 않습니다."
+>abstract="이 옵션을 선택하면 해당 차원에 대해 **[!UICONTROL 보고에서 구성 요소 숨기기]**&#x200B;가 활성화되며 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에서 구성 요소가 표시되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 

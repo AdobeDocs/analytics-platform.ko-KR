@@ -7,8 +7,8 @@ exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보기]**: 이 분석과 [단계](funnel.md) 간을 전환합니다.
 * **[!UICONTROL 단계]**: 추적할 이벤트 터치포인트입니다. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-* **[!UICONTROL 다음 값으로 계산]**: 선택한 이벤트에 적용할 계산 메서드입니다. 옵션에는 [!UICONTROL 사용자] 및 [!UICONTROL 세션]이 포함됩니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 [!UICONTROL 사용자] 및 [!UICONTROL 세션]이 포함됩니다.
 * **[!UICONTROL 세그먼트]**: 단계를 비교할 세그먼트입니다. 선택한 각 세그먼트는 각 단계를 여러 개의 막대로 분할합니다. 각 색상은 다른 세그먼트를 나타냅니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ### 차트 설정

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1884'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
 >title="Journey Optimizer의 데이터 보기"
->abstract="Customer Journey Analytics는 Adobe Journey Optimizer와 호환되는 연결 및 데이터 보기를 사용해야 합니다. 기본적으로 연결 및 데이터 보기는 이러한 목적을 위해 자동 생성됩니다.<br/>또는 이 옵션을 활성화하여 Adobe Journey Optimizer 보고에 사용되는 기본 데이터 보기로 만들 수 있습니다. 활성화되면 Journey Optimizer에 필요한 모든 구성 요소가 이 데이터 보기에 추가되고 필요한 모든 Journey Optimizer 데이터 세트가 이 데이터 보기에 연결된 연결에 추가됩니다."
+>abstract="Customer Journey Analytics에서는 Adobe Journey Optimizer와 호환되는 연결 및 데이터 보기를 사용해야 합니다. 기본적으로 이 목적을 위해 연결 및 데이터 보기가 자동으로 생성됩니다.<br/>또는 이 옵션을 활성화하여 Adobe Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정할 수 있습니다. 이 옵션을 활성화하면 Journey Optimizer에 필요한 모든 필수 구성 요소가 이 데이터 보기에 추가되고, Journey Optimizer에 필요한 모든 데이터 세트가 이 데이터 보기와 관련된 연결에 추가됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#connection" text="어떤 구성 요소와 데이터 세트가 추가되는지 알아봅니다."
 
 <!-- markdownlint-enable MD034 -->

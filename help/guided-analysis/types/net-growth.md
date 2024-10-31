@@ -7,12 +7,12 @@ exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '676'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 순 증가] 분석 {#net-growth}
+# [!UICONTROL 순성장] 분석 {#net-growth}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보기]**: 이 분석과 [활성 증가](active-growth.md) 간을 전환합니다.
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 이러한 분석은 사용자를 기반으로 하므로 기간 내에 한 번 이벤트와 상호 작용하는 사용자는 활성 사용자로 계산된다. 쿼리에 이벤트를 하나 포함할 수 있습니다.
-* **[!UICONTROL 다음 값으로 계산]**: 선택한 이벤트에 적용할 계산 메서드입니다. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.
 * **[!UICONTROL 세그먼트]**: 측정할 세그먼트입니다. 쿼리에 하나의 세그먼트를 포함할 수 있습니다.
 
 ### 시간 비교
