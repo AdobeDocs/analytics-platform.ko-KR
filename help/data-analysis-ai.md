@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 7f5eddcf1ceaa6228411867f5794bfe72b2ad6ab
+source-git-commit: 37be5b159b756db2c8b523db6602f274541e2a81
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 4%
 Data Analysis AI Assistant는 Customer Journey Analytics 시 Analysis Workspace 데이터에 대해 발생할 수 있는 질문에 보다 빠르고 효율적으로 답변할 수 있는 지능적인 컨텍스트 인식 대화 에이전트입니다.
 
 Assistant는 다양한 유형의 지표 및 구성 요소를 포함하여 데이터 보기에서 모든 데이터를 살펴보며 프롬프트를 분석에 적합한 차원, 지표 및 날짜 범위로 변환합니다. 데이터 보기 구성 요소를 숙지한 다음, 이러한 구성 요소를 드래그하여 최상의 조합으로 놓아 질문에 답변해야 하는 대신, 질문을 AI Assistant에 입력하면 됩니다.
+
+![Data Analysis AI Assistant](assets/cja-ai-asst-da.gif)
 
 ## Alpha 버전의 범위 내 기능과 범위 외 기능 비교
 
