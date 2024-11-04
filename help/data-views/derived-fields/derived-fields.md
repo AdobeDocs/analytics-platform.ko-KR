@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
 workflow-type: tm+mt
-source-wordcount: '8842'
+source-wordcount: '8841'
 ht-degree: 17%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 17%
 ![파생 필드 대화 상자의 스크린샷](assets/derived-field-dialog.png)
 
 
-![프로그램 개요](/help/assets/icons/ProgramOverview.svg)
 
 |  |  이름  | 설명 |
 |---------|----------|--------|
@@ -188,6 +187,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![바운스 규칙 빌더의 스크린샷](assets/function-template-bounces.png)
@@ -199,6 +200,8 @@ ht-degree: 17%
 이 함수 템플릿은 두 값을 하나로 결합합니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -212,6 +215,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 친숙한 데이터 세트 이름 규칙 빌더의 ![스크린샷](assets/function-template-friendly-dataset-name.png)
@@ -223,6 +228,8 @@ ht-degree: 17%
 이 함수 템플릿은 간단한 페이지 이름을 만듭니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -236,6 +243,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 휴일 시즌 규칙 빌더의 ![스크린샷](assets/function-template-holiday-season.png)
@@ -247,6 +256,8 @@ ht-degree: 17%
 이 함수 템플릿은 사용자 지정 월별 목표를 설정합니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -260,6 +271,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![구분된 목록 규칙 빌더의 모든 값 가져오기 스크린샷](assets/function-template-get-all-values-in-delimited-list.png)
@@ -271,6 +284,8 @@ ht-degree: 17%
 이 함수 템플릿은 구분된 목록의 첫 번째 값을 가져옵니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -284,6 +299,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 구분 목록 규칙 빌더에서 마지막 값 가져오기의 ![스크린샷](assets/function-template-get-last-value-in-delimited-list.png)
@@ -295,6 +312,8 @@ ht-degree: 17%
 이 함수 템플릿은 정규 표현식을 사용하여 도메인 이름을 추출합니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -308,6 +327,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![쿼리 문자열 매개 변수 가져오기 규칙 빌더의 스크린샷](assets/function-template-get-query-string-parameter.png)
@@ -319,6 +340,8 @@ ht-degree: 17%
 이 함수 템플릿은 한 필드에서 다른 필드로 보고를 전환합니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
@@ -332,6 +355,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![Simple Bot Detection 규칙 빌더의 스크린샷](assets/function-template-simple-bot-detection.png)
@@ -344,6 +369,8 @@ ht-degree: 17%
 
 +++ 세부 사항
 
+{{select-package}}
+
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![종료 링크 규칙 빌더의 스크린샷](assets/function-template-exit-link.png)
@@ -355,6 +382,8 @@ ht-degree: 17%
 이 함수 템플릿은 일반적인 다운로드 링크에 플래그를 지정합니다.
 
 +++ 세부 사항
+
+{{select-package}}
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
