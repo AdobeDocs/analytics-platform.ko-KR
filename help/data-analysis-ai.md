@@ -5,19 +5,19 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 37be5b159b756db2c8b523db6602f274541e2a81
+source-git-commit: 376ad62c3883eef675f9b1df639e8c46ee259229
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 4%
+source-wordcount: '1596'
+ht-degree: 3%
 
 ---
 
 
 # Customer Journey Analytics - Alpha의 Data Analysis AI Assistant
 
-Data Analysis AI Assistant는 Customer Journey Analytics 시 Analysis Workspace 데이터에 대해 발생할 수 있는 질문에 보다 빠르고 효율적으로 답변할 수 있는 지능적인 컨텍스트 인식 대화 에이전트입니다.
+데이터 분석 AI 어시스턴트는 생성 AI 대화 에이전트로, Customer Journey Analytics 시 Analysis Workspace 데이터에 대한 궁금증을 보다 빠르고 효율적으로 해결할 수 있습니다.
 
-Assistant는 다양한 유형의 지표 및 구성 요소를 포함하여 데이터 보기에서 모든 데이터를 살펴보며 프롬프트를 분석에 적합한 차원, 지표 및 날짜 범위로 변환합니다. 데이터 보기 구성 요소를 숙지한 다음, 이러한 구성 요소를 드래그하여 최상의 조합으로 놓아 질문에 답변해야 하는 대신, 질문을 AI Assistant에 입력하면 됩니다.
+AI Assistant에서 질문을 하면 AI Assistant가 다양한 유형의 지표 및 구성 요소를 포함하여 데이터 보기의 모든 구성 요소를 스캔하고 프롬프트를 분석에 적합한 차원, 지표 및 날짜 범위로 변환합니다. 데이터 보기 구성 요소를 숙지한 다음, 이러한 구성 요소를 드래그하여 최상의 조합으로 놓아 질문에 답변해야 하는 대신, 질문을 AI Assistant에 입력하면 됩니다.
 
 ![Data Analysis AI Assistant](assets/cja-ai-asst-da.gif)
 
@@ -32,6 +32,7 @@ Assistant는 다양한 유형의 지표 및 구성 요소를 포함하여 데이
 | **범위를 벗어난 프롬프트 감지** | &quot;이 프로젝트 내보내기&quot;와 같이 범위를 벗어난 프롬프트를 제출하는 경우 도우미는 질문이 범위를 벗어났음을 알리는 방식으로 응답합니다. |
 | **명확한 질문** | AI Assistant가 답변할 수 있는 충분한 컨텍스트가 없는 질문을 하거나 너무 일반적인 경우 AI Assistant는 명확한 질문 및/또는 제안된 옵션으로 응답합니다. 예: <p>**구성 요소**<ul><li>지표: *어떤 &quot;매출&quot; 지표를 의미했습니까?*</li><li>Dimension: *아래 &quot;지역&quot; 중 어떤 것에 집중하시겠습니까?*</li><li>필터: *어떤 &quot;계정&quot; 필터를 적용하시겠습니까?*</li><li>날짜 범위: *지난 달, 마지막 전체 달 또는 마지막 30일을 의미합니까?*</li></ul>**Dimension 항목**: &quot;스토어 이름&quot;을 의미합니까? (예: 스토어 #5274, 스토어 #2949 등) |
 | **다중 회전** | AI Assistant는 이전 프롬프트의 컨텍스트에 따라 프롬프트에 응답하므로 사용자가 시각화를 업데이트하고 후속 질문을 할 수 있습니다.예: <ul><li>프롬프트 1: *3월의 트렌드 이벤트*</li><li>프롬프트 2: *대신 3월에서 4월까지의 데이터 표시*</li></ul> |
+| **확인 가능** | 생성된 자유 형식 테이블 및 데이터 시각화를 통해 데이터 검증 가능성 및 정확성을 확인할 수 있다. 예를 들어, 사용자가 *지난 달 주문 트렌드*&#x200B;에 대해 묻는 경우, 새로 생성된 패널, 데이터 시각화 및 자유 형식 테이블에서 올바른 지표(&quot;주문&quot;) 및 날짜 범위(&quot;지난 달&quot;)가 선택되었는지 확인할 수 있습니다. |
 | **피드백** | <ul><li>엄지 손가락 위로</li><li>엄지 손가락 아래로</li><li>플래그</li></ul> |
 
 ### 범위 외 Alpha 기능
@@ -42,7 +43,6 @@ Assistant는 다양한 유형의 지표 및 구성 요소를 포함하여 데이
 | **명확한 질문** | 질문을 명확히 하는 것은 구성 요소 및 차원 항목으로 제한됩니다. AI Assistant는 데이터 보기, 시각화, 데이터 세부기간, 비교, 범위 등을 명확하게 할 수 없습니다. 질문을 명확히 하지 않으면 Assistant의 기본값이 사용자가 요청할 가능성이 가장 높은 것으로 설정됩니다. 예기치 않은 시각화 또는 데이터 세부기간을 반환하는 경우 다중 전환/업데이트 기능을 사용하여 시각화 및 데이터를 조정할 수 있습니다. |
 | **Workspace 작업/기능** | AI 도우미는 시각화를 구축하고 업데이트하는 것 외에 Workspace에서 사용자에 대한 작업을 수행할 수 없습니다. 예를 들어, 다음과 같은 작업은 수행할 수 없습니다.<ul><li>상황별 작업 UI 버튼(차트, 새 패널, 새 테이블에 추가)</li><li>공유</li><li>내보내기</li><li>다운로드</li><li>사용자 환경 설정 관리</li><li>조정</li><li>데이터 보기 관리</li><li>Analytics 대시보드 앱</li><li>속성</li></ul> |
 | **지원되지 않는 시각화 유형** | <ul><li>흐름</li><li>폴아웃</li><li>집단 테이블</li><li>영역, 스택 영역</li><li>스택 막대</li><li>글머리 기호</li><li>콤보</li><li>히스토그램</li><li>가로 막대, 스택 가로 막대</li><li>주요 지표 요약</li><li>분산</li><li>요약 변경</li><li>텍스트</li><li>트리맵</li><li>벤</li></ul> |
-| **설명 및 확인 가능성** | AI 비서가 응답을 생성한 방법에 대한 투명한 설명 또는 인용으로, 답변이 올바른지 확인할 수 있는 방법을 제공합니다. |
 
 <!---## Feature access in the Customer Journey Analytics UI
 
@@ -77,7 +77,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. 새 빈 프로젝트를 열려면 프로젝트 페이지 상단의 배너에서 **[!UICONTROL 빈 프로젝트]**&#x200B;를 클릭하십시오.
 
-4. 패널에 대해 선택한 데이터 보기가 AI Assistant가 Alpha 테스트에 사용할 수 있도록 활성화된 데이터 보기인지 확인합니다(확실하지 않은 경우 taylorb@adobe.com 또는 Alpha Slack 채널에 문의)
+4. 패널에 대해 선택한 데이터 보기가 AI Assistant가 Alpha 테스트에 사용할 수 있도록 활성화된 데이터 보기인지 확인합니다(확실하지 않은 경우 Alpha Slack 채널에서 확인)
 
 5. 오른쪽 상단에 있는 AI 비서 채팅 아이콘을 클릭합니다.
 
@@ -111,23 +111,23 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ### 예제 3
 
-이제 제품 범주별 매출액을 살펴보자.
+다음으로, 지역별 매출을 이해하는 것 외에도 지역별 수익 데이터를 확인할 수 있습니다. 마지막 프롬프트를 다시 입력하는 대신 AI Assistant에 최신 시각화 및 자유 형식 테이블을 업데이트하도록 요청할 수 있습니다.
+
+1. 프롬프트 창에서 *&quot;이익 추가&quot;*&#x200B;를 입력하십시오.
+
+2. **[!UICONTROL 막대]** 차트는 여전히 가장 간결한 답변을 제공하지만 이익 지표가 자유 형식 테이블의 열로 추가되었습니다.
+
+   ![막대 차트](/help/assets/ai-asst-result4.png)
+
+### 예제 4
+
+마지막으로, 제품 범주별 매출액을 살펴보자.
 
 1. 프롬프트 창에서 *&quot;제품 범주별 매출액 비율&quot;을 입력하십시오.*
 
 2. 다시 말하지만, Data Analysis AI Assistant는 가장 적절한 시각화(이 경우 **[!UICONTROL 도넛]** 시각화)를 선택하여 질문에 답합니다.
 
    ![도넛](/help/assets/ai-asst-result3.png)
-
-### 예제 4
-
-마지막으로, 가장 수익성이 높은 SKU와 마케팅 리소스를 어디에 투자해야 하는지 알고 싶을 수 있습니다.
-
-1. 프롬프트 창에서 *&quot;2월부터 5월까지 SKU에 걸쳐 어떤 수익이 발생하는지&quot;*&#x200B;을(를) 묻습니다.
-
-2. 간단한 **[!UICONTROL 막대]** 차트는 가장 간결한 답변을 제공합니다.
-
-   ![막대 차트](/help/assets/ai-asst-result4.png)
 
 ## 데이터 분석 프롬프트 예
 
@@ -180,7 +180,6 @@ AI Assistant는 각 사용자 프롬프트에서 제공된 컨텍스트를 처�
 
 ## 질문 및 연락처
 
-* 전자 메일 `taylorb@adobe.com`(PM)
 * Alpha Slack 채널에서 질문과 피드백 보내기: #aep-cja-ai-assistant-testers ???
 
 
