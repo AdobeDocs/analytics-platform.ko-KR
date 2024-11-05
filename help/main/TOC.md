@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 64662195842ae799d2020c226ca34293905d13ae
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
    + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
    + [랜딩 페이지](../getting-started/landing.md)
-   + [랜딩 페이지(이전)](../getting-started/cja-landing-old.md)
+   + [랜딩 페이지 (이전)](../getting-started/cja-landing-old.md)
    + [자주 묻는 질문](../getting-started/cja-faq.md)
    + [Customer Journey Analytics와 BI 솔루션 비교](../getting-started/cja-vs-bi.md)
 
@@ -46,12 +46,12 @@ ht-degree: 95%
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
-      + [권장 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [추천 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
       + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
-      + [데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+      + [datastream 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
       + [서비스로 플랫폼 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
       + [연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
@@ -133,7 +133,7 @@ ht-degree: 95%
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [프로젝트를 추가하거나 폴더로 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [핫키(단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + [템플릿 사용](../analysis-workspace/templates/use-templates.md)
@@ -167,13 +167,13 @@ ht-degree: 95%
          + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-      + [영역(누적)](../analysis-workspace/visualizations/area.md)
-      + [막대(누적)](../analysis-workspace/visualizations/bar.md)
+      + [영역 (누적)](../analysis-workspace/visualizations/area.md)
+      + [막대 (누적)](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [가로 막대(누적)](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대 (누적)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
       + [분산](../analysis-workspace/visualizations/scatterplot.md)
@@ -188,7 +188,7 @@ ht-degree: 95%
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 평균 분당 시청자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
@@ -232,7 +232,7 @@ ht-degree: 95%
 + 가이드 분석 {#guided-analysis}
    + [개요](../guided-analysis/overview.md)
    + [활성 증가](../guided-analysis/types/active-growth.md)
-   + [전환 추세](../guided-analysis/types/conversion-trends.md)
+   + [전환 트렌드](../guided-analysis/types/conversion-trends.md)
    + [참여](../guided-analysis/types/engagement.md)
    + [최초 사용 영향](../guided-analysis/types/first-use-impact.md)
    + [빈도](../guided-analysis/types/frequency.md)
@@ -379,7 +379,7 @@ ht-degree: 95%
       + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [요약 데이터 사용](/help/use-cases/data-views/summary-data.md)
-      + [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
+      + [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
    + 데이터 내보내기 {#data-export}
       + [개요](../use-cases/data-export/overview.md)
       + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
