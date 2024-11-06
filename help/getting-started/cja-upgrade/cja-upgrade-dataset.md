@@ -6,26 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 33%
 
 ---
 
 # Customer Journey Analytics에 사용할 데이터 세트 만들기
 
 >[!NOTE]
->
->Adobe Analytics 이 설명서는 [업그레이드 Customer Journey Analytics 설문지](https://gigazelle.github.io/cja-ttv/)를 작성한 후 사용해야 합니다.
 > 
->조직에 대해 동적으로 생성된 이전 단계를 모두 완료한 후에만 이 페이지의 단계를 따르십시오.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
->이 페이지의 단계를 완료한 후 [Adobe Analytics에서 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행하여 업그레이드 질문을 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)하십시오.
+>이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-XDM 스키마를 만든 후에는 해당 데이터를 저장하고 관리할 구성을 정의해야 합니다. 이 작업은 데이터 세트를 통해 Adobe Experience Platform에서 수행됩니다.
+데이터 집합은 Adobe Experience Platform에 수집하는 데이터를 저장하고 관리하는 구조입니다.
 
 데이터 세트를 만들려면 다음 작업을 수행하십시오.
 
@@ -59,5 +57,5 @@ XDM 스키마를 만든 후에는 해당 데이터를 저장하고 관리할 구
 
    데이터 집합을 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 집합 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하세요. 실시간 고객 프로필에 대한 데이터 세트를 활성화하는 방법도 배울 수 있습니다.
 
-1. [Adobe Analytics에서 업그레이드 Customer Journey Analytics 설문 조사](https://gigazelle.github.io/cja-ttv/)로 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
 

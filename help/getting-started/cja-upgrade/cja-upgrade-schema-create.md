@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 53%
+source-wordcount: '987'
+ht-degree: 50%
 
 ---
 
 # Customer Journey Analytics에 사용할 XDM 스키마 만들기
 
 >[!NOTE]
->
->Adobe Analytics 이 설명서는 [업그레이드 Customer Journey Analytics 설문지](https://gigazelle.github.io/cja-ttv/)를 작성한 후 사용해야 합니다.
 > 
->조직에 대해 동적으로 생성된 이전 단계를 모두 완료한 후에만 이 페이지의 단계를 따르십시오.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
->이 페이지의 단계를 완료한 후 [Adobe Analytics에서 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행하여 업그레이드 질문을 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)하십시오.
+>이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 >[!IMPORTANT]
 >
@@ -62,13 +60,13 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-1. 예제 스키마의 구조 탭에서:
+1. 스키마의 [!UICONTROL **구조**] 탭에서:
 
-   1. [!UICONTROL 필드 그룹]에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
-
-      ![필드 그룹 추가](assets/add-field-group-button.png)
+   1. **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
       필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
+
+      ![필드 그룹 추가](assets/add-field-group-button.png)
 
    1. [!UICONTROL 필드 그룹 추가] 대화 상자의 목록에서 **[!UICONTROL AEP Web SDK ExperienceEvent]** 필드 그룹을 선택합니다.
 
@@ -116,7 +114,7 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-1. 스키마 이름을 표시하는 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
+1. (선택 사항) Customer Journey Analytics을 RTCDP와 통합하려면 스키마 이름을 표시하는 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
@@ -124,7 +122,7 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
    >[!IMPORTANT]
    >
-   >    프로필용으로 활성화된 스키마를 저장하고 나면 더 이상 프로필용으로 비활성화할 수 없습니다.
+   >프로필에 대해 스키마를 활성화한 후에는 프로필에 대해 비활성화할 수 없습니다.
 
    ![프로필용으로 스키마 활성화](./assets/enable-for-profile.png)
 
@@ -148,5 +146,5 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
    스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
-1. [Adobe Analytics에서 업그레이드 Customer Journey Analytics 설문 조사](https://gigazelle.github.io/cja-ttv/)로 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
 

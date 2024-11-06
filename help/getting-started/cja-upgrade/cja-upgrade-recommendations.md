@@ -6,24 +6,26 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ea16705e96047cbcf41e428d2018ea7c72b2afac
+source-git-commit: 6fe081690782272f550c8f9c33dfd9ae6b227d13
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 6%
+source-wordcount: '1471'
+ht-degree: 5%
 
 ---
 
 # Adobe Analytics에서 Customer Journey Analytics으로 업그레이드
 
-Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 프로세스를 시작하기 전에 먼저 권장되는 업그레이드 단계를 이해합니다.
+Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe은 [대부분의 조직에 권장되는 업그레이드 단계](#recommended-upgrade-steps-for-most-organizations)에 설명된 대로 Analytics 소스 커넥터와 함께 Experience Platform Web SDK의 새로운 구현을 권장합니다.
+
+타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
+
+## 대부분의 조직에 권장되는 업그레이드 단계
 
 >[!NOTE]
 >
 >이 섹션에 설명된 업그레이드 단계는 모든 조직이 Adobe Analytics에서 Customer Journey Analytics으로 성공적으로 업그레이드하는 데 사용할 수 있는 권장 업그레이드 단계입니다.
 >
 >그러나 타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
-
-## 대부분의 조직에 권장되는 업그레이드 단계
 
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 단계는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Web SDK와 함께 Adobe에서는 내역 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행하려면 Analytics 소스 커넥터를 사용하는 것이 좋습니다.
 
@@ -59,60 +61,37 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 ### 자세한 권장 업그레이드 단계
 
-다음 단계는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스를 보여줍니다.
+다음 단계에서는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스에 대해 간략히 설명합니다.
 
-조직의 고유한 환경 및 요구 사항에 따라 이러한 권장 단계는 조직에 적합하지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
+각 단계는 보다 자세한 프로세스에 대한 높은 수준의 설명을 제공합니다. 각 단계에 대한 링크를 따라 관련 작업을 완료한 후 이 페이지로 돌아와 프로세스의 다음 단계를 계속합니다.
 
 1. [XDM 스키마 아키텍처를 계획하십시오](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
 1. [Adobe Experience Platform에서 원하는 사용자 지정 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
+   스키마를 생성할 때 다음 옵션을 고려하십시오.
+
+   * RTCDP와 Customer Journey Analytics을 통합하려면 [Customer Journey Analytics에 사용할 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 설명된 대로 스키마에서 **[!UICONTROL 프로필]** 옵션을 활성화해야 합니다. 이 옵션이 활성화된 경우 이 스키마를 기반으로 한 데이터 세트에 데이터를 수집하면 해당 데이터가 실시간 고객 프로필에 병합됩니다.
+
+   * 스트리밍 미디어 데이터를 포함하려면 [스트리밍 데이터를 수집 및 사용하도록 스키마를 구성](/help/data-ingestion/streaming.md)해야 합니다.
+
 1. [Adobe Experience Platform에서 데이터 세트를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md).
 
-1. 현재 Adobe Analytics 구현을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
+1. (선택 사항) Adobe Analytics에서 분류 데이터를 사용하는 경우 Customer Journey Analytics의 데이터 세트에 분류 데이터를 추가할 수 있습니다.
 
-   +++AppMeasurement을 사용하는 Adobe Analytics 구현의 경우
+   분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다.
 
-   1. [Adobe Experience Platform에서 데이터 스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
+1. AppMeasurement 또는 Analytics 확장(태그)을 사용하는 Adobe Analytics 구현의 경우 [Adobe Experience Platform에서 데이터 스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
-+++
-
-   +++Analytics 확장(태그)을 사용하는 Adobe Analytics 구현의 경우
-
-   1. [Adobe Experience Platform에서 데이터 스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
-
-+++
-
-+++ Web SDK를 사용하는 Adobe Analytics 구현의 경우
-
-   추가 단계는 필요하지 않습니다.
-
-+++
+   Web SDK를 사용하는 Adobe Analytics 구현의 경우 데이터 스트림이 이미 있습니다.
 
 1. [데이터스트림에 서비스로 Adobe Experience Platform 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md).
 
-1. 다음 표를 사용하여 Customer Journey Analytics에서 계속 사용할 Adobe Analytics 기능을 식별한 다음 제공된 정보를 사용하여 Customer Journey Analytics 업그레이드의 일부로 해당 기능을 구성하는 방법을 알아보십시오.
-
-   | Adobe Analytics 기능 | Customer Journey Analytics을 위한 구현 요구 사항 | 추가 정보 |
-   |---------|----------|---------|
-   | 분류 데이터 | 분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다. |  |
-   | 마케팅 채널 | 마케팅 채널 파생 필드를 만듭니다. |  |
-   | Activity Map 오버레이 및 링크 추적 | 해당 사항 없음 | Adobe은 현재 Customer Journey Analytics에 대한 Activity Map 오버레이 지원을 작업 중입니다. |
-   | 데이터 피드 | 구현 중에 구성이 필요하지 않습니다.<br/>[Customer Journey Analytics의 다양한 내보내기 옵션에 대해 알아봅니다](/help/analysis-workspace/export/export-project-overview.md). | Customer Journey Analytics에서 데이터 피드에 대한 직접 대체를 아직 사용할 수 없지만 Analysis Workspace에서 Customer Journey Analytics 보고서를 내보내 타사 도구에서 사용하거나 외부 데이터와 결합할 수 있습니다. |
-   | Data Warehouse | 구현 중에 구성이 필요하지 않습니다.<br/>[Customer Journey Analytics의 전체 테이블 내보내기에 대해 알아봅니다](/help/analysis-workspace/export/export-cloud.md). | Customer Journey Analytics 전체 테이블 내보내기는 Adobe Analytics에서 Data Warehouse 보고서가 발전한 것이며 현재 Data Warehouse에서 사용할 수 없는 많은 새로운 자주 요청하는 기능이 추가되었습니다. |
-   | 스트리밍 미디어 데이터 |  |  |
+1. (선택 사항) Customer Journey Analytics을 Adobe Journey Optimizer과 통합하려면 Adobe Journey Optimizer에서 사용할 구현에 개인화 개체를 사용합니다.
 
 1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
 
    자세한 내용은 [소스 커넥터를 사용하여 데이터 수집 및 사용](/help/data-ingestion/sources.md)에서 [소스 커넥터 사용](/help/data-ingestion/sources.md#use-a-source-connector)을 참조하세요.
-
-1. 다음 표를 사용하여 원하는 Customer Journey Analytics 기능을 식별한 다음 제공된 정보를 사용하여 Customer Journey Analytics 업그레이드의 일부로 해당 기능을 구성하는 방법을 알아보십시오.
-
-   | 원하는 Customer Journey Analytics 기능 | Customer Journey Analytics을 위한 구현 요구 사항 | 추가 정보 |
-   |---------|----------|---------|
-   | 웹 데이터를 콜 센터 데이터와 같은 다른 채널의 데이터와 연결 | 연결을 만든 후(이후 단계에서 설명) Customer Journey Analytics에서 연결에 추가 데이터 세트를 추가합니다. |  |
-   | RTCDP와 통합 | 스키마에서 프로필 활성화 및 RTCDP에서 사용할 프로필 데이터 세트 만들기 | 이 작업은 XDM 스키마를 생성하는 동안 수행해야 합니다. |
-   | Adobe Journey Optimizer과 통합 | Adobe Journey Optimizer에서 사용하려면 구현의 개인화 개체를 사용하십시오 |  |
 
 1. 원하는 Customer Journey Analytics 구현을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
 
@@ -120,11 +99,19 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    1. [사이트에 alloy.js 추가](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22).
 
+   1. XDM 개체를 채우고 데이터스트림으로 보냅니다.
+
 +++
 
    +++태그
 
    1. [Adobe Experience Platform 데이터 수집에서 태그 속성을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start#create-a-property).
+
+   1. Adobe Experience Platform 웹 SDK 확장을 추가합니다.
+
+   1. 사이트에서 로더 태그를 구현합니다.
+
+   1. 태그에 XDM 데이터 수집 논리 추가.
 
 +++
 
@@ -134,7 +121,13 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 +++
 
+1. 웹 SDK 구현이 데이터 세트에 데이터를 보내고 있는지 확인합니다.
+
 1. [Customer Journey Analytics에 연결을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+
+1. (선택 사항) 웹 데이터를 콜 센터 데이터와 같은 다른 채널의 데이터와 연결합니다.
+
+   Customer Journey Analytics 연결에 추가 데이터 세트를 추가하여 이를 수행할 수 있습니다.
 
 1. [Customer Journey Analytics에서 데이터 보기를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
@@ -142,7 +135,17 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
+1. (선택 사항) Adobe Analytics에서 마케팅 채널을 사용하는 경우 [Customer Journey Analytics에서 마케팅 채널 파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md#marketing-channels).
+
+   파생 필드는 Customer Journey Analytics 실시간 보고의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (복잡한) 데이터 조작을 정의할 수 있습니다.
+
+   파생 필드의 한 가지 사용은 하나 이상의 조건(예: URL 매개 변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 파생된 마케팅 채널 필드를 정의하는 것입니다.
+
+   파생 필드에서 [마케팅 채널 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels)을(를) 사용하여 마케팅 채널의 파생 필드를 신속하게 만듭니다.
+
 1. 이전 구현의 데이터와 새 구현의 데이터를 비교하고, 차이점과 차이점이 존재하는 이유를 이해해야 합니다.
+
+1. ](/help/getting-started/aa-vs-cja/cja-aa.md) Customer Journey Analytics의 [기능 지원에 대해 알아봅니다. 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 지원되며, Customer Journey Analytics에서 많은 추가 기능을 사용할 수 있습니다.
 
 1. 사용자 온보딩을 계획합니다.
 

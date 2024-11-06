@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: edf134e6d42f45bbea538df3bcf9c717965d2235
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 88%
+source-wordcount: '1665'
+ht-degree: 89%
 
 ---
 
 # Customer Journey Analytics에서 사용할 연결 만들기 및 구성
 
 >[!NOTE]
->
->Adobe Analytics 이 설명서는 [업그레이드 Customer Journey Analytics 설문지](https://gigazelle.github.io/cja-ttv/)를 작성한 후 사용해야 합니다.
 > 
->조직에 대해 동적으로 생성된 이전 단계를 모두 완료한 후에만 이 페이지의 단계를 따르십시오.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
->이 페이지의 단계를 완료한 후 [Adobe Analytics에서 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행하여 업그레이드 질문을 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)하십시오.
+>이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/connections/create-connection.md -->
 
@@ -32,7 +30,7 @@ ht-degree: 88%
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
-   ![Untitled connection settings](assets/create-conn1.png)
+   ![제목 없는 연결 설정](assets/create-conn1.png)
 
 1. 연결 설정을 구성합니다.
 
@@ -67,13 +65,13 @@ ht-degree: 88%
 
 1. [!UICONTROL 데이터세트 선택] 단계에서는 Experience Platform 데이터 세트의 목록이 표시됩니다.
 
-   ![Select datasets](assets/select-datasets.png)
+   ![데이터 세트 선택](assets/select-datasets.png)
 
    각 데이터 세트에 대해, 목록은 다음과 같이 나타납니다.
 
    | 열 | 설명 |
    |---|---|
-   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동시킬 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동시킬 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | 데이터 세트 유형 | 데이터 세트 유형: 이벤트, 프로필, 조회 또는 요약. |
    | 레코드 수 | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | 스키마 | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동시킬 이름을 선택합니다. |
@@ -83,17 +81,17 @@ ht-degree: 88%
 
 
 1. 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 하나 이상의 이벤트 데이터 세트가 연결의 일부가 되어야 합니다.
-   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![Column settings](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
-   * 특정 데이터 세트를 검색하려면 ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
-   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![Select](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
-   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![Close](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 표 맞춤화] 대화 상자에 표시할 열을 선택합니다.
+   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
 
 
 
 
 1. 이제 데이터 세트를 하나씩 구성합니다.
 
-   ![Configure datasets](assets/add-dataset.png)
+   ![데이터 세트 구성](assets/add-dataset.png)
 
    | 설정 | 설명 |
    | --- | --- |
@@ -104,7 +102,7 @@ ht-degree: 88%
    | **[!UICONTROL 시간대]** | 요약 데이터에만 사용할 수 있습니다. 시계열 요약 데이터에 적합한 시간대를 선택합니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. <br/>데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 활성화합니다. 지속적인 연결을 통해 데이터 세트에 추가된 새 데이터 배치를 Workspace에서 자동으로 사용할 수 있습니다. |
-   | **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![Calendar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![Delete](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선 순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
+   | **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
    | **[!UICONTROL 데이터 세트 변환]** | 특정 B2B 조회 데이터 세트의 경우 적절한 B2B 개인 기반 보고 시나리오에 대해 데이터 세트 변환을 활성화할 수 있습니다. |
    | **[!UICONTROL 채우기 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
    | **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
@@ -117,5 +115,5 @@ ht-degree: 88%
 
    {style="table-layout:auto"}
 
-1. [Adobe Analytics에서 업그레이드 Customer Journey Analytics 설문 조사](https://gigazelle.github.io/cja-ttv/)로 조직에 대해 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
 

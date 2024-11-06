@@ -8,12 +8,12 @@ hide: true
 hidefromtoc: true
 source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics에 사용할 데이터 스트림 만들기
+# 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터 분류
 
 >[!NOTE]
 > 
@@ -21,23 +21,18 @@ ht-degree: 27%
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
-<!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
+Adobe Analytics의 분류 데이터와 마찬가지로 조회 데이터 세트는 Customer Journey Analytics에서 데이터를 분류하는 방법입니다.
 
-데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
+Analytics 소스 커넥터를 사용하는 경우 일부 표준 조회 데이터 세트가 보고서 시간에 자동으로 적용됩니다. 자세한 내용은 [데이터 세트에 표준 조회 추가](/help/connections/standard-lookups.md)를 참조하십시오.
 
-설정에서는 수집된 데이터를 Adobe Experience Platform의 데이터 세트로 전송하도록 데이터 스트림을 구성할 수 있습니다.
+Experience Platform Web SDK의 새로운 구현으로 데이터를 분류하려면 분류할 데이터가 포함된 각 차원에 대한 조회 데이터 세트를 만들어야 합니다.
 
-데이터스트림을 설정하는 경우:
+Customer Journey Analytics에서 사용할 조회 데이터 세트를 만들려면:
 
-1. Adobe Experience Platform의 왼쪽 레일에서 [!UICONTROL 데이터 수집]에서 **[!UICONTROL 데이터스트림]**&#x200B;을 선택합니다.
+1. AEP에서 새 스키마를 만듭니다. 조회 데이터 세트에 고유한 새 스키마입니다. 기존 스키마를 사용할 수 없습니다.
 
-1. **[!UICONTROL 새 데이터스트림]**&#x200B;을 선택합니다.
+1. 조회에 대한 새 스키마 클래스를 생성해야 합니다.
 
-1. 데이터스트림의 이름을 지정하고 데이터스트림에 대해 설명합니다. [!UICONTROL 이벤트 스키마] 목록에서 스키마를 선택합니다.
-
-   ![새 데이터스트림](assets/new-datastream.png)
-
-1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. 이 데이터 세트에서 조회 데이터 세트를 만듭니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-
