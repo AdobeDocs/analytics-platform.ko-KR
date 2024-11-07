@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -44,10 +44,6 @@ Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 
 ## 개요 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
-
->[!NOTE]
->
->이 문서는 Customer Journey Analytics용 Report Builder에 대한 설명서입니다. Windows의 Analytics용 Report Builder에 대한 정보는 [Adobe Analytics용 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)를 참조하십시오.
 
 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows)에서
 Customer Journey Analytics용 Report Builder를 다운로드할 수 있습니다.
