@@ -7,7 +7,7 @@ role: User
 source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 47%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarychange_button"
 >title="요약 변경"
->abstract="두 숫자 간의 델타(변화량)를 보여 주는 시각화 만들기"
+>abstract="두 숫자 사이의 델타(변경)를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
