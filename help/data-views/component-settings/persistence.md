@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: ce1f27b00b55d5c3780907c50107b081264000bd
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="지속성"
->abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 필터 전에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 바인딩 지표를 참조하십시오."
+>abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 필터 전에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
