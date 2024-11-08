@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
+source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 97%
+source-wordcount: '1009'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 + [Adobe Customer Journey Analytics 안내서](../getting-started/cja-landing.md)
 + [Adobe Customer Journey Analytics용 AI 어시스턴트](../ai-assistant.md)
-+ [Customer Journey Analytics을 위한 데이터 분석 AI 지원](../data-analysis-ai.md)
++ [Customer Journey Analytics용 데이터 분석 AI 어시스턴트](../data-analysis-ai.md)
 
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
@@ -49,6 +49,7 @@ ht-degree: 97%
       + [추천 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [분류에 대한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [태그를 사용하여 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
       + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
@@ -59,7 +60,7 @@ ht-degree: 97%
       + [연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [업그레이드 바로 가기: 웹 SDK로 마이그레이션](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [업그레이드 단축키: Web SDK로 마이그레이션](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)

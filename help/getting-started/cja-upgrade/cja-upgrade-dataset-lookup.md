@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터 분류
+description: 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터를 분류하는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 3827bafd85a03e8574667095b372aa61afb6756b
+source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
