@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 1fda8abfe4c4b5d9d4a2ddf99b0bb83db45539e3
+source-git-commit: adc9e888eece72031ed234e634b206475d1539d7
 workflow-type: tm+mt
-source-wordcount: '8807'
+source-wordcount: '9056'
 ht-degree: 2%
 
 ---
@@ -1478,6 +1478,60 @@ Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지�
 **날짜 범위**
 Customer Journey Analytics에서 정의한 날짜 범위는 **[!UICONTROL daterangeName]** 필드의 일부로 사용할 수 있습니다. **[!UICONTROL daterangeName]** 필드를 사용하는 경우 사용할 날짜 범위를 지정할 수 있습니다.
 
+**사용자 지정 변형**
+Power BI 데스크톱은 [데이터 분석 표현식(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)을 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 단일 차원 등급 사용 사례를 실행하려고 합니다. 다음 작업을 수행하십시오.
+
+1. 보고서 보기에서 막대 시각화를 선택합니다.
+1. 데이터 창에서 product_name 을 선택합니다.
+1. 도구 모음에서 새 열 을 선택합니다.
+1. 수식 편집기에서 `product_name_lower = LOWER('public.cc_data_view[product_name])`과(와) 같은 이름이 `product_name_lower`인 새 열을 정의합니다.
+   ![Power BI 데스크톱에서 Lower](assets/uc14-powerbi-transformation.png)(으)로 변환
+1. 데이터 창에서 product_name 열 대신 새 product_name_lower 열을 선택해야 합니다.
+1. 테이블 시각화의 ![자세히](/help/assets/icons/More.svg)에서 테이블로 보고서 를 선택하십시오.
+
+   Power BI 데스크톱은 다음과 같아야 합니다.
+   ![Power BI 데스크톱 변환 최종](assets/uc14-powerbi-final.png)
+
+사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `lower` 함수 사용을 참조하십시오.
+
+```sql
+select "_"."product_name_lower",
+    "_"."a0",
+    "_"."a1"
+from 
+(
+    select "rows"."product_name_lower" as "product_name_lower",
+        sum("rows"."purchases") as "a0",
+        sum("rows"."purchase_revenue") as "a1"
+    from 
+    (
+        select "_"."daterange" as "daterange",
+            "_"."product_name" as "product_name",
+            "_"."purchase_revenue" as "purchase_revenue",
+            "_"."purchases" as "purchases",
+            lower("_"."product_name") as "product_name_lower"
+        from 
+        (
+            select "_"."daterange",
+                "_"."product_name",
+                "_"."purchase_revenue",
+                "_"."purchases"
+            from 
+            (
+                select "daterange",
+                    "product_name",
+                    "purchase_revenue",
+                    "purchases"
+                from "public"."cc_data_view" "$Table"
+            ) "_"
+            where ("_"."daterange" < date '2024-01-01' and "_"."daterange" >= date '2023-01-01') and ("_"."product_name" in ('4G Cellular Trail Camera', '4K Wildlife Trail Camera', 'Wireless Trail Camera', '8-Person Cabin Tent', '20MP No-Glow Trail Camera', 'HD Wildlife Camera', '4-Season Mountaineering Tent', 'Trail Camera', '16MP Trail Camera with Solar Panel', '10-Person Family Tent'))
+        ) "_"
+    ) "rows"
+    group by "product_name_lower"
+) "_"
+where not "_"."a0" is null or not "_"."a1" is null
+limit 1000001
+```
 
 >[!TAB 타블로 데스크톱]
 
@@ -1498,6 +1552,34 @@ Customer Journey Analytics에서 정의한 계산된 지표는 계산된 지표�
 
 **날짜 범위**
 Customer Journey Analytics에서 정의한 날짜 범위는 **[!UICONTROL 날짜 범위 이름]** 필드의 일부로 사용할 수 있습니다. **[!UICONTROL 날짜 범위 이름]** 필드를 사용하는 경우 사용할 날짜 범위를 지정할 수 있습니다.
+
+**사용자 지정 변형**
+Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)를 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 단일 차원 등급 사용 사례를 실행하려고 합니다. 다음 작업을 수행하십시오.
+
+1. 기본 메뉴에서 **[!UICONTROL 분석]** > **[!UICONTROL 계산된 필드 만들기]**&#x200B;를 선택합니다.
+   1. `LOWER([Product Name])` 함수를 사용하여 **[!UICONTROL 소문자 제품 이름]**을(를) 정의합니다.
+      ![타블로 계산 필드](assets/uc14-tableau-calculated-field.png)
+   1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 데이터]** 시트를 선택하십시오.
+   1. **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 소문자 제품 이름]**&#x200B;을(를) 드래그하고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
+   1. **[!UICONTROL 행]**&#x200B;에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 제거합니다.
+1. **[!UICONTROL 대시보드 1]** 보기를 선택하십시오.
+
+Tableau Desktop은 다음과 같습니다.
+
+![변환 후 타블로 데스크톱](assets/uc14-tableau-final.png)
+
+사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `LOWER` 함수 사용을 참조하십시오.
+
+```sql
+SELECT LOWER(CAST(CAST("cc_data_view"."product_name" AS TEXT) AS TEXT)) AS "Calculation_1562467608097775616",
+  SUM("cc_data_view"."purchase_revenue") AS "sum:purchase_revenue:ok",
+  SUM("cc_data_view"."purchases") AS "sum:purchases:ok"
+FROM "public"."cc_data_view" "cc_data_view"
+WHERE (("cc_data_view"."daterange" >= (DATE '2023-01-01')) AND ("cc_data_view"."daterange" <= (DATE '2023-12-31')))
+GROUP BY 1
+HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM("cc_data_view"."purchase_revenue") <= 2000000.00000002))
+```
 
 >[!ENDTABS]
 
@@ -1548,7 +1630,6 @@ Customer Journey Analytics에는 많은 시각화가 있습니다. 가능한 모
 | ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | [텍스트 상자](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p> | [트리맵](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
 | ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | |
-
 
 >[!TAB 타블로 데스크톱]
 
