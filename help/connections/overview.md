@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 7a5fa07e3bafa3da5b044ce37299196a006f1d64
+source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 69%
 
 ---
 
@@ -24,18 +24,20 @@ ht-degree: 100%
 
 ## 필요 권한
 
-Customer Journey Analytics 연결을 만들려면 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)에서 다음 권한이 필요합니다.
+Customer Journey Analytics 연결을 만들려면 다음 권한이 필요합니다. 권한에 대한 자세한 내용은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) 및 [Adobe Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)에 대한 설명서를 참조하십시오.
 
-Adobe Experience Platform:
+### Adobe Admin Console 내:
+
+* Customer Journey Analytics: 제품 관리자
+* Adobe Experience Platform: 제품 프로필 *AEP-Default-All-Users*&#x200B;에 추가됨
+
+### Adobe Experience Platform 권한 내:
 
 * 데이터 모델링: 스키마 보기, 스키마 관리
 * 데이터 관리: 데이터 세트 보기, 데이터 세트 관리
 * 데이터 수집: 소스 관리
-* ID 네임스페이스 보기
-
-Customer Journey Analytics
-
-* 제품 관리자 액세스
+* Identity Management: ID 네임스페이스 보기
+* 샌드박스: 관련 Customer Journey Analytics 연결에 사용되는 샌드박스
 
 >[!IMPORTANT]
 >
