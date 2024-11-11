@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
+source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
 workflow-type: tm+mt
-source-wordcount: '4173'
+source-wordcount: '4195'
 ht-degree: 99%
 
 ---
@@ -19,8 +19,10 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 11월** | |
+| 결합 및 개인 정보 보호 요청 | 개인 정보 보호 요청의 결과인 [결합 해제 프로세스의 예정된 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 알림을 추가했습니다. |
 | **2024년 10월** | |
-| 공유 디바이스 | 공유 장치에 대한 컨텍스트, 결합을 사용하여 공유 장치에서 데이터를 처리하고 완화하는 방법, 쿼리 서비스를 사용하여 데이터의 공유 장치 노출을 이해하는 방법을 제공하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)를 추가했습니다. |
+| 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |
 | Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
 | Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 구성 요소(주석, 치수, (계산된) 지표, 필터, 날짜 범위, 알림, 예약된 프로젝트 및 대상자)에 대한 설명서를 새로 고쳤습니다. |
 | 가이드 분석 | Analysis Workspace에서 [가이드 분석](/help/guided-analysis/overview.md)을 사용할 수 있도록 설명서를 업데이트했습니다. |
@@ -107,13 +109,13 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 모바일 애플리케이션 및 기타 플랫폼용 데이터 수집 빠른 시작 안내서 | Customer Journey Analytics에서 모바일 애플리케이션 또는 기타 플랫폼(예: 데스크탑 애플리케이션, 콘솔 게임, 셋톱 박스 및 IoT 디바이스의 애플리케이션)에서 데이터를 수집하고 사용하는 방법을 설명하는 데이터 수집 빠른 시작 안내서가 추가되었습니다. [자세히 알아보기](../data-ingestion/data-ingestion.md) |
 | **2023년 7월** | |
 | 세션 설정 | 이 데이터 보기 설정에 대한 주제가 추가되었습니다. [자세히 알아보기](/help/data-views/session-settings.md) |
-| Adobe Product Analytics | Adobe Product Analytics는 Customer Journey Analytics에서 교차 채널 데이터 및 인사이트와 상호 작용하는 새로운 방법입니다. 이러한 새로운 기능을 통해 제품 팀은 [가이드 분석](/help/guided-analysis/overview.md) 워크플로를 통해 제품 경험에 대한 데이터 및 인사이트를 자체 관리할 수 있습니다&#x200B;. |
+| Adobe Product Analytics | Adobe Product Analytics는 Customer Journey Analytics에서 크로스 채널 데이터 및 인사이트와 상호 작용하는 새로운 방법입니다. 이러한 새로운 기능을 통해 제품 팀은 [가이드 분석](/help/guided-analysis/overview.md) 워크플로를 통해 제품 경험에 대한 데이터 및 인사이트를 자체 관리할 수 있습니다&#x200B;. |
 | 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (흔히 복잡한) 데이터 조작을 정의할 수 있습니다. |
 | 프로필 및 조회 데이터에 대한 조회 지원이 확장됨 | 프로필 또는 조회 데이터 세트 내의 필드 조회로 데이터 세트를 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) |
 | Report Builder 개선 사항 | <ul><li>[여러 데이터 블록에 대해 셀에서 필터링합니다](/help/report-builder/select-data-view.md)</li><li>[행 및 열 헤더를 표시하거나 숨깁니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
 | Edge Network 지역 조회 | [Datastream 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 통합 지리적 데이터를 제공하는 지역 조회 서비스를 제공합니다. |
 | **2023년 6월** | |
-| 교차 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 교차 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 교차 채널 분석 기능과 관련된 문서가 [교차 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
+| 크로스 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 크로스 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 크로스 채널 분석 기능과 관련된 문서가 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/bi-extension.md) |
 | Adobe Journey Optimizer 데이터 보기 | Customer Journey Analytics 관리자는 Customer Journey Analytics에서 “AJO 데이터 보기(샌드박스-이름)”의 일부 추가 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration) |
 | 통화 전환 | [통화 전환](../data-views/component-settings/format.md#currency) 지원에 대한 설명서가 업데이트되었습니다. |

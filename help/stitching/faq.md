@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 29%
+source-wordcount: '1871'
+ht-degree: 26%
 
 ---
 
@@ -70,6 +70,80 @@ ht-degree: 29%
 +++**결합은 개인 정보 요청을 어떻게 처리합니까?**
 
 Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+
+>[!IMPORTANT]
+>
+>개인 정보 보호 요청의 일부로서 결합 해제 프로세스는 2025년 초에 변경됩니다. 현재 결합 해제 프로세스는 알려진 최신 버전의 ID를 사용하여 이벤트를 다시 지정합니다. 이벤트를 다른 정체성으로 재지정하는 것은 바람직하지 않은 법적 결과를 가져올 수 있습니다. 이러한 문제를 해결하기 위해 2025년부터 새로운 결합 해제 프로세스는 영구 ID로 개인 정보 보호 요청의 대상인 이벤트를 업데이트합니다.
+> 
+
+예시하려면 결합 전과 결합 후에 ID, 이벤트에 대한 다음 데이터를 상상하십시오.
+
+| ID 맵 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|---|---|---|---|---|---|---|
+|  | 1 | ts1 | 123 | ecid | Bob | CustId |
+|  | 2 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 이벤트 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| | 2 | ts1 | 123 | ecid | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 결합된 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 | 결합된 ID | 결합된 네임스페이스 |
+|---|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | Bob | CustId |
+| | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId | 알렉스 | CustId |
+
+
+**개인 정보 보호 요청에 대한 현재 프로세스**
+
+CustID Bob이 있는 고객에 대한 개인 정보 보호 요청을 받으면 취소선 항목이 있는 행이 삭제됩니다. 다른 이벤트는 ID 맵을 사용하여 다시 시작됩니다. 예를 들어 결합된 데이터 세트의 첫 번째 결합된 ID는 **Alex**(으)로 업데이트됩니다.
+
+| ID 맵 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|:---:|---|---|---|---|---|---|
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
+|  | 2 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 이벤트 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 결합된 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 | 결합된 ID | 결합된 네임스페이스 |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **알렉스** | CustId |
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ | ~~Bob~~ | ~~CustId~~ |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId | 알렉스 | CustId |
+
+
+**개인 정보 요청을 위한 새 프로세스**
+
+CustID Bob이 있는 고객에 대한 개인 정보 보호 요청을 받으면 취소선 항목이 있는 행이 삭제됩니다. 다른 이벤트는 영구 ID를 사용하여 다시 시작됩니다. 예를 들어 결합된 데이터 세트의 첫 번째 결합된 ID는 **123**(으)로 업데이트됩니다.
+
+| ID 맵 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|:---:|---|---|---|---|---|---|
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
+|  | 2 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 이벤트 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 |
+|:---:|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | |
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId |
+
+
+| 결합된 데이터 세트 | Id | timestamp | 영구 ID | 영구 네임스페이스 | 임시 id | 임시 네임스페이스 | 결합된 ID | 결합된 네임스페이스 |
+|:---:|---|---|---|---|---|---|---|---|
+| | 1 | ts0 | 123 | ecid | | | **123** | ecid |
+| ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ | ~~Bob~~ | ~~CustId~~ |
+| | 3 | ts2 | 123 | ecid | 알렉스 | CustId | 알렉스 | CustId |
 
 +++
 
