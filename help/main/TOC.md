@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 98%
+source-wordcount: '1036'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,10 @@ ht-degree: 98%
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [분류에 대한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [태그를 사용하여 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
+      + [Web SDK 확장에 대한 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [속성에 대한 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [태그에 Web SDK 확장 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)

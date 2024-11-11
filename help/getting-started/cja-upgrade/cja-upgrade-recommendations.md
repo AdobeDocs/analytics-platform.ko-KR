@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 6fe081690782272f550c8f9c33dfd9ae6b227d13
+exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
+source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1490'
 ht-degree: 5%
 
 ---
@@ -27,7 +28,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Ad
 >
 >그러나 타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
 
-Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 단계는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Web SDK와 함께 Adobe에서는 내역 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행하려면 Analytics 소스 커넥터를 사용하는 것이 좋습니다.
+Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Adobe Web SDK와 함께 Analytics 소스 커넥터 를 사용하여 Customer Journey Analytics으로 전환하는 것도 좋습니다. Analytics 소스 커넥터를 사용하여 이전 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행할 수 있습니다.
 
 Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥터를 끄고 Experience Platform Web SDK를 독점적으로 사용할 수 있습니다.
 
@@ -79,7 +80,7 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 1. (선택 사항) Adobe Analytics에서 분류 데이터를 사용하는 경우 Customer Journey Analytics의 데이터 세트에 분류 데이터를 추가할 수 있습니다.
 
-   분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다.
+   이렇게 하려면 [분류 데이터를 포함하는 각 차원에 대한 조회 데이터 집합을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
 1. AppMeasurement 또는 Analytics 확장(태그)을 사용하는 Adobe Analytics 구현의 경우 [Adobe Experience Platform에서 데이터 스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
@@ -93,7 +94,7 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    자세한 내용은 [소스 커넥터를 사용하여 데이터 수집 및 사용](/help/data-ingestion/sources.md)에서 [소스 커넥터 사용](/help/data-ingestion/sources.md#use-a-source-connector)을 참조하세요.
 
-1. 원하는 Customer Journey Analytics 구현을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
+1. Customer Journey Analytics 구현을 위해 Experience Platform Web SDK를 구현하는 방법을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
 
    +++수동 구현(JS 파일)
 
@@ -105,13 +106,11 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    +++태그
 
-   1. [Adobe Experience Platform 데이터 수집에서 태그 속성을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start#create-a-property).
+   1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md).
 
-   1. Adobe Experience Platform 웹 SDK 확장을 추가합니다.
+   1. [태그 속성을 만들고 Adobe Experience Platform Web SDK 확장을 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)합니다.
 
-   1. 사이트에서 로더 태그를 구현합니다.
-
-   1. 태그에 XDM 데이터 수집 논리 추가.
+   1. [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
 
 +++
 
@@ -220,12 +219,3 @@ Generic upgrade steps are also available.
    The Analytics source connector as a stand-alone implementation is not a recommended long-term method for using Customer Journey Analytics. This is because of high latency, cluttered and complex schemas, reliance on Adobe Analytics nomenclature (prop, eVar, and so forth), and difficulty in eventually moving from the source connector to the recommended Web SDK implementation. 
    
 -->
-
-
-
-
-
-
-
-
-
