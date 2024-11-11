@@ -113,7 +113,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 파생 필드 | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (흔히 복잡한) 데이터 조작을 정의할 수 있습니다. |
 | 프로필 및 조회 데이터에 대한 조회 지원이 확장됨 | 프로필 또는 조회 데이터 세트 내의 필드 조회로 데이터 세트를 추가하는 기능을 제공합니다. 이전에는 이벤트 데이터 세트만 지원되었습니다. [자세히 알아보기](/help/connections/create-connection.md) |
 | Report Builder 개선 사항 | <ul><li>[여러 데이터 블록에 대해 셀에서 필터링합니다](/help/report-builder/select-data-view.md)</li><li>[행 및 열 헤더를 표시하거나 숨깁니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
-| Edge Network 지역 조회 | [Datastream 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 통합 지리적 데이터를 제공하는 지역 조회 서비스를 제공합니다. |
+| Edge Network 지역 조회 | [Datastream 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko) 통합 지리적 데이터를 제공하는 지역 조회 서비스를 제공합니다. |
 | **2023년 6월** | |
 | 크로스 채널 분석 및 결합 | 결합을 활성화하고 이 결합을 사용하여 크로스 채널 분석을 향상할 수 있는 방법을 추가로 명확히 하기 위한 향후 변경 사항을 예상하여 크로스 채널 분석 기능과 관련된 문서가 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md)을 Customer Journey Analytics 기능 및 사용 사례로 참조하고 [결합](../stitching/overview.md)을 이를 달성하기 위한 중요한 기능으로 참조하도록 편집되었습니다. |
 | Customer Journey Analytics 데이터 보기에 대한 PowerBI 및 Tableau 액세스 | Customer Journey Analytics BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. [자세히 알아보기](/help/data-views/bi-extension.md) |
@@ -212,7 +212,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 3월 | [작업 영역의 주석](/help/components/annotations/overview.md)에 대한 새로운 설명서. |
 | 2022년 3월 | 내용 업데이트 [연결 크기 추정](/help/getting-started/cja-faq.md). |
 | **2022년 2월** | |
-| 2022년 2월 | Adobe Analytics에서 Customer Journey Analytics로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko-KR) |
+| 2022년 2월 | Adobe Analytics에서 Customer Journey Analytics로 이동하는 관리자를 대상으로 한 새 안내서: [Adobe Analytics에서 Customer Journey Analytics로의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko) |
 | **2022년 1월** | |
 | 2022년 1월 | [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)에 대한 새로운 사용 사례 |
 | 2022년 1월 | [바인딩 차원 및 지표](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)와 새로운 [[!UICONTROL 처음 알려짐] 및 [!UICONTROL 마지막 알려짐] 할당 설정에 대한 새 기능 설명서 추가](/help/data-views/component-settings/persistence.md#allocation-settings) |
