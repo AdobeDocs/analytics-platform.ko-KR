@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
+source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
 workflow-type: tm+mt
 source-wordcount: '9752'
 ht-degree: 1%
@@ -89,35 +89,35 @@ ht-degree: 1%
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){width="100" zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. Power BI 데스크톱을 시작합니다.
    1. 주 인터페이스에서 **[!UICONTROL 다른 원본에서 데이터 가져오기]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 데이터 가져오기]** 대화 상자에서:
-      ![PowerBI PostgreSQL 데이터베이스](assets/powerbi-postgresql.png)
+      ![PowerBI PostgreSQL 데이터베이스](assets/powerbi-postgresql.png){zoomable="yes"}
       1. **[!UICONTROL PostgreSQL 데이터베이스]**&#x200B;를 검색하여 선택하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** 대화 상자에서:
-      ![PowerBI Desktop Server 및 데이터베이스 설정](assets/powerbi-serverdatabase.png)
+      ![PowerBI Desktop Server 및 데이터베이스 설정](assets/powerbi-serverdatabase.png){zoomable="yes"}
       1. Experience Platform ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 **[!UICONTROL 호스트]** 및 **[!UICONTROL 포트]** 값을 복사하여 **[!UICONTROL 서버]**&#x200B;의 값으로 `:`(으)로 구분하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io:80`.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]** 값을 복사하여 붙여 넣으십시오. 붙여넣은 값에 `?FLATTEN`을(를) 추가합니다. (예: `prod:cja?FLATTEN`)
       1. **[!UICONTROL DirectQuery]**&#x200B;을(를) **[!UICONTROL 데이터 연결 모드]**(으)로 선택합니다.
       1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** - **[!UICONTROL 데이터베이스]** 대화 상자에서:
-      ![PowerBI Desktop 사용자 및 암호](assets/powerbi-userpassword.png)
+      ![PowerBI Desktop 사용자 및 암호](assets/powerbi-userpassword.png){zoomable="yes"}
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL 이러한 설정을 적용할 수준을 선택]**&#x200B;의 드롭다운 메뉴가 이전에 정의한 **[!UICONTROL 서버]**(으)로 설정되어 있는지 확인하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI 데스크톱에서 다음을 볼 수 있습니다.
-      ![Power BI 대상 로드 데이터](assets/powerbi-navigator-load.png)
+      ![Power BI 대상 로드 데이터](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
       1. 두 가지 옵션이 있습니다.
          1. **[!UICONTROL 로드]**&#x200B;를 선택하여 설치를 계속하고 완료합니다.
          1. **[!UICONTROL 데이터 변환]**을 선택합니다. 구성의 일부로 변환을 선택적으로 적용할 수 있는 대화 상자가 표시됩니다.
-            ![Power BI 데스크톱 변환 데이터](assets/powerbi-transform-data.png)
+            ![Power BI 데스크톱 변환 데이터](assets/powerbi-transform-data.png){zoomable="yes"}
             * **[!UICONTROL 닫기 및 적용]**&#x200B;을 선택합니다.
    1. 잠시 후 **[!UICONTROL public.cc_data_view]**&#x200B;이(가) **[!UICONTROL 데이터]** 창에 표시됩니다. 차원 및 지표를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택하십시오.
-      ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png)
+      ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
 >[!TAB 타블로 데스크톱]
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 1. 타블로를 시작합니다.
    1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**을(를) 선택합니다.
-      ![타블로 커넥터](assets/tableau-connectors.png)
+      ![타블로 커넥터](assets/tableau-connectors.png){zoomable="yes"}
    1. **[!UICONTROL PostgreSQL]** 대화 상자의 **[!UICONTROL 일반]** 탭에서:
-      ![타블로 로그인 대화 상자](assets/tableau-signin.png)
+      ![타블로 로그인 대화 상자](assets/tableau-signin.png){zoomable="yes"}
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 호스트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 서버]**&#x200B;로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 포트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료되는 자격 증명]** 패널에서 **[!UICONTROL 포트]**(으)로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 데이터베이스]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]**(으)로 복사하여 붙여넣으십시오. 붙여넣은 값에 `%3FFLATTEN`을(를) 추가합니다. 예: `prod:cja%3FFLATTEN`.
@@ -150,10 +150,10 @@ ht-degree: 1%
       * **[!UICONTROL 연결]** 아래의 연결 이름입니다.
       * **[!UICONTROL 데이터베이스]** 아래의 데이터베이스 이름입니다.
       * **[!UICONTROL 테이블]** 아래의 테이블 목록입니다.
-        ![연결된 타블로](assets/tableau-connected.png)
+        ![연결된 타블로](assets/tableau-connected.png){zoomable="yes"}
       1. **[!UICONTROL cc_data_view]** 항목을 끌어서 **[!UICONTROL 테이블을 여기로 드래그]**&#x200B;하는 기본 보기에 놓으십시오.
    1. 기본 창에 **[!UICONTROL cc_data_view]** 데이터 보기의 세부 정보가 표시됩니다.
-      ![연결된 타블로](assets/tableau-validation.png)
+      ![연결된 타블로](assets/tableau-validation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -172,7 +172,7 @@ Customer Journey Analytics은 Experience Platform 인터페이스에서 연결�
 1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
 1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
 
-![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
+![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
 
 
 +++
@@ -219,7 +219,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 사용 사례에 대한 **[!UICONTROL 일별 트렌드]** 패널 예:
 
-![Customer Journey Analytics 일별 트렌드 패널](assets/cja_daily_trend.png)
+![Customer Journey Analytics 일별 트렌드 패널](assets/cja_daily_trend.png){zoomable="yes"}
 
 +++
 
@@ -253,7 +253,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    라인 차트 시각화는 테이블과 동일한 데이터를 사용하면서 테이블을 대체합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc2-pbi-daterange.png)
+   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc2-pbi-daterange.png){zoomable="yes"}
 
 1. 선 차트 시각화에서:
 
@@ -262,7 +262,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc2-pbi-final.png)
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc2-pbi-final.png){zoomable="yes"}
 
 >[!TAB 타블로 데스크톱]
 
@@ -271,7 +271,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `01/02/2023` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc2-tableau-filter.png)
+      ![타블로 데스크톱 필터](assets/uc2-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangeday]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL DAY(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL Day]**&#x200B;을(를) 선택합니다.
@@ -281,7 +281,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc2-tableau-graph.png)
+      ![타블로 데스크톱 그래프](assets/uc2-tableau-graph.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -293,7 +293,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc2-tableau-data.png)
+      ![타블로 데스크톱 데이터](assets/uc2-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -302,7 +302,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc2-tableau-dashboard.png)
+      ![타블로 데스크톱 대시보드 1](assets/uc2-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -317,7 +317,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 사용 사례에 대한 예제 **[!UICONTROL 시간별 트렌드]** 패널:
 
-![시간별 트렌드 시각화 Customer Journey Analytics](assets/cja_hourly_trend.png)
+![시간별 트렌드 시각화 Customer Journey Analytics](assets/cja_hourly_trend.png){zoomable="yes"}
 
 +++
 
@@ -341,7 +341,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `02/01/2023` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc3-tableau-filter.png)
+      ![타블로 데스크톱 필터](assets/uc3-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangehour]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL HOUR(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL 자세히]** > **[!UICONTROL 시간]**&#x200B;을(를) 선택합니다.
@@ -351,7 +351,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc3-tableau-graph.png)
+      ![타블로 데스크톱 그래프](assets/uc3-tableau-graph.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -363,7 +363,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc3-tableau-data.png)
+      ![타블로 데스크톱 데이터](assets/uc3-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -372,7 +372,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc3-tableau-dashboard.png)
+      ![타블로 데스크톱 대시보드 1](assets/uc3-tableau-dashboard.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -388,7 +388,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 사용 사례에 대한 예제 **[!UICONTROL 월별 트렌드]** 패널:
 
-![Customer Journey Analytics 월별 트렌드 시각화](assets/cja_monthly_trend.png)
+![Customer Journey Analytics 월별 트렌드 시각화](assets/cja_monthly_trend.png){zoomable="yes"}
 
 +++
 
@@ -424,7 +424,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    라인 차트 시각화는 테이블과 동일한 데이터를 사용하면서 테이블을 대체합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc4-pbi-filter-daterange.png)
+   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc4-pbi-filter-daterange.png){zoomable="yes"}
 
 1. 선 차트 시각화에서:
 
@@ -433,7 +433,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc4-pbi-filter-final.png)
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc4-pbi-filter-final.png){zoomable="yes"}
 
 >[!TAB 타블로 데스크톱]
 
@@ -442,7 +442,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `01/01/2024` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc4-tableau-filter.png)
+      ![타블로 데스크톱 필터](assets/uc4-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangeday]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL MONTH(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL MONTH]**&#x200B;을(를) 선택합니다.
@@ -452,7 +452,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc4-tableau-graph.png)
+      ![타블로 데스크톱 그래프](assets/uc4-tableau-graph.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -464,7 +464,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc4-tableau-data.png)
+      ![타블로 데스크톱 데이터](assets/uc4-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -473,7 +473,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc4-tableau-dashboard.png)
+      ![타블로 데스크톱 대시보드 1](assets/uc4-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -488,7 +488,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 사용 사례에 대한 **[!UICONTROL 단일 Dimension 등급]** 패널 예:
 
-![Customer Journey Analytics 단일 차원 등급 시각화](assets/cja-single-dimension-ranked.png)
+![Customer Journey Analytics 단일 차원 등급 시각화](assets/cja-single-dimension-ranked.png){zoomable="yes"}
 +++
 
 +++ BI 도구
@@ -528,7 +528,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    1. **[!UICONTROL purchase_revenue의 합계]**&#x200B;를 선택하여 내림차순 구매 매출 순서로 제품 이름을 정렬합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 5 테이블 상태](assets/uc5-pbi-table.png)
+   ![Power BI 데스크톱 사용 사례 5 테이블 상태](assets/uc5-pbi-table.png){zoomable="yes"}
 
 1. **[!UICONTROL 필터]** 창:
 
@@ -550,7 +550,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    선 및 누적 세로 막대형 차트가 업데이트됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 5 그래프](assets/uc5-pbi-chart.png)
+   ![Power BI 데스크톱 사용 사례 5 그래프](assets/uc5-pbi-chart.png){zoomable="yes"}
 
 1. 선 및 누적 세로 막대형 차트 시각화에서:
 
@@ -559,7 +559,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc5-pbi-final.png)
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc5-pbi-final.png){zoomable="yes"}
 
 >[!TAB 타블로 데스크톱]
 
@@ -568,7 +568,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `31/12/2024` 기간을 지정하십시오. **[!UICONTROL 적용]** 및 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
-      ![타블로 데스크톱 필터](assets/uc5-tableau-filter.png)
+      ![타블로 데스크톱 필터](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 행]** 옆에 있는 필드에 항목을 놓습니다.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL 구매]**&#x200B;를 끌어다 놓고 **[!UICONTROL 행]** 옆에 있는 필드에 항목을 놓습니다.
@@ -585,7 +585,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 그래프](assets/uc5-tableau-graph.png)
+   ![타블로 데스크톱 그래프](assets/uc5-tableau-graph.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
@@ -597,7 +597,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 데이터](assets/uc5-tableau-data.png)
+   ![타블로 데스크톱 데이터](assets/uc5-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -606,7 +606,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc5-tableau-dashboard.png)
+   ![타블로 데스크톱 대시보드 1](assets/uc5-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -621,7 +621,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 사용 사례에 대한 **[!UICONTROL 여러 Dimension 등급]** 패널 예:
 
-![여러 Dimension 등급 패널 Customer Journey Analytics](assets/cja-multiple-dimension-ranked.png)
+![여러 Dimension 등급 패널 Customer Journey Analytics](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
 
 +++
 
@@ -663,7 +663,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 1. 테이블의 각 범주를 분류하려면 제품 범주 수준에서 **[!UICONTROL +]**&#x200B;을(를) 선택합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 등급 매트릭스 테이블](assets/uc6-powerbi-data.png)
+   ![Power BI 데스크톱 여러 Dimension 등급 매트릭스 테이블](assets/uc6-powerbi-data.png){zoomable="yes"}
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -677,7 +677,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 등급 트리맵](assets/uc6-powerbi-treemap.png)
+   ![Power BI 데스크톱 여러 Dimension 등급 트리맵](assets/uc6-powerbi-treemap.png){zoomable="yes"}
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -694,7 +694,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 최종 순위](assets/uc6-powerbi-final.png)
+   ![Power BI 데스크톱 여러 Dimension 최종 순위](assets/uc6-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB 타블로 데스크톱]
@@ -706,7 +706,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc6-tableau-filter.png)
+      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc6-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 제품 범주]**&#x200B;을 드래그하여 **[!UICONTROL 열]** 옆에 놓습니다.
    1. **[!UICONTROL 구매 매출]**&#x200B;을 드래그하여 **[!UICONTROL 행]** 옆에 놓으십시오. 값이 **[!UICONTROL SUM(구매 매출)]**(으)로 변경됩니다.
@@ -719,7 +719,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop 여러 Dimension 등급 범주](assets/uc6-tableau-category.png)
+      ![Tableau Desktop 여러 Dimension 등급 범주](assets/uc6-tableau-category.png){zoomable="yes"}
 
 1. 현재 **[!UICONTROL 시트 1]** 시트의 이름을 `Category`(으)로 바꾸십시오.
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 `Data`(으)로 바꾸십시오.
@@ -738,7 +738,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-data.png)
+      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 **[!UICONTROL 트리맵]**(으)로 바꾸십시오.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
@@ -755,7 +755,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-treemap.png)
+      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-treemap.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Category]** 시트를 **[!UICONTROL Sheets]** 셸프에서 *여기에 시트 놓기*&#x200B;를 실행하는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -765,7 +765,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc6-tableau-final.png)
+   ![타블로 데스크톱 대시보드 1](assets/uc6-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -780,11 +780,11 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 제품 이름의 고유 개수를 보고하려면 **[!UICONTROL 제목]** `Product Name (Count Distinct)` 및 **[!UICONTROL 외부 ID]** `product_name_count_distinct`을(를) 사용하여 Customer Journey Analytics에서 계산된 지표를 설정하십시오.
 
-![Customer Journey Analytics 제품 이름(고유 개수) 계산된 지표](assets/cja-calc-metric-distinct-count-product-names.png)
+![Customer Journey Analytics 제품 이름(고유 개수) 계산된 지표](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 고유 Dimension 값 계산]** 패널의 예에서 해당 지표를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-count-distinct-dimension-values.png)
+![Customer Journey Analytics 고유 개수 값](assets/cja-count-distinct-dimension-values.png){zoomable="yes"}
 
 +++
 
@@ -813,7 +813,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-table.png)
+   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-table.png){zoomable="yes"}
 
 1. 테이블 시각화를 선택합니다. 컨텍스트 메뉴에서 **[!UICONTROL 복사]** > **[!UICONTROL 시각적 개체 복사]**&#x200B;를 선택합니다.
 1. **[!UICONTROL ctrl-v]**&#x200B;을 사용하여 시각화를 붙여 넣습니다. 시각화의 정확한 복사본이 원래 복사본과 겹칩니다. 보고서 영역에서 오른쪽으로 이동합니다.
@@ -821,7 +821,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-final.png)
+   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-final.png){zoomable="yes"}
 
 >[!TAB 타블로 데스크톱]
 
@@ -837,7 +837,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-data.png)
+      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
@@ -852,7 +852,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-card.png)
+   ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-card.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 카드]** 시트를 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -860,7 +860,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc7-tableau-final.png)
+   ![타블로 데스크톱 대시보드 1](assets/uc7-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -876,11 +876,11 @@ Customer Journey Analytics에서 정의한 날짜 범위를 사용하여 지난 
 
 날짜 범위를 사용하여 보고하려면 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Last Year 2023`(으)로 날짜 범위를 설정합니다.
 
-![Customer Journey Analytics 필터링할 날짜 범위 이름 사용](assets/cja-daterange.png)
+![Customer Journey Analytics 필터링할 날짜 범위 이름 사용](assets/cja-daterange.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 날짜 범위를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-date-range-filter-names-to-filter.png)
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-date-range-filter-names-to-filter.png){zoomable="yes"}
 
 자유 형식 테이블 시각화에 정의된 날짜 범위가 패널에 적용된 날짜 범위를 어떻게 오버룰하는지 확인합니다.
 
@@ -913,7 +913,7 @@ Customer Journey Analytics에서 정의한 날짜 범위를 사용하여 지난 
 
    적용된 **[!UICONTROL daterangeName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc8-powerbi-final.png)
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc8-powerbi-final.png){zoomable="yes"}
 
 >[!TAB 타블로 데스크톱]
 
@@ -928,7 +928,7 @@ Customer Journey Analytics에서 정의한 날짜 범위를 사용하여 지난 
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc8-tableau-final.png)
+      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc8-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -944,11 +944,11 @@ Customer Journey Analytics에서 정의한 Fishing 제품 범주에 대한 기�
 
 Inspect Customer Journey Analytics에 사용할 필터입니다.
 
-![Customer Journey Analytics 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png)
+![Customer Journey Analytics 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-filter-names-to-filter.png)
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -984,7 +984,7 @@ Inspect Customer Journey Analytics에 사용할 필터입니다.
 
    적용된 **[!UICONTROL filterName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc9-powerbi-final.png)
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc9-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB 타블로 데스크톱]
@@ -1002,7 +1002,7 @@ Inspect Customer Journey Analytics에 사용할 필터입니다.
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc9-tableau-final.png)
+      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc9-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1017,11 +1017,11 @@ Customer Journey Analytics에서 사냥 제품 카테고리의 제품을 필터�
 
 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(를) 사용하여 새 필터를 만듭니다.
 
-![Customer Journey Analytics Dimension 값을 사용하여 필터링](assets/cja-hunting-products.png)
+![Customer Journey Analytics Dimension 값을 사용하여 필터링](assets/cja-hunting-products.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL Dimension 값을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-dimension-values-to-filter.png)
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -1058,7 +1058,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
    적용된 **[!UICONTROL filterName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc10-powerbi-final.png)
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
@@ -1078,7 +1078,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc10-tableau-final.png)
+      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc10-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1094,7 +1094,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 사용 사례에 대한 **[!UICONTROL 정렬]** 패널 예:
 
-![Customer Journey Analytics 정렬 패널](assets/cja-sort.png)
+![Customer Journey Analytics 정렬 패널](assets/cja-sort.png){zoomable="yes"}
 
 +++
 
@@ -1128,7 +1128,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc11-powerbi-final.png)
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc11-powerbi-final.png){zoomable="yes"}
 
 BI 확장을 사용하여 Power BI 데스크톱에서 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
 
@@ -1234,7 +1234,7 @@ limit 1000001
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 정렬](assets/uc11-tableau-final.png)
+      ![타블로 데스크톱 정렬](assets/uc11-tableau-final.png){zoomable="yes"}
 
 Tableau Desktop에서 BI 확장을 사용하여 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. 이 `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
 
@@ -1260,7 +1260,7 @@ GROUP BY 1
 
 사용 사례에 대한 **[!UICONTROL 제한]** 패널 예:
 
-![Customer Journey Analytics 제한 패널](assets/cja-limit.png)
+![Customer Journey Analytics 제한 패널](assets/cja-limit.png){zoomable="yes"}
 
 +++
 
@@ -1296,7 +1296,7 @@ GROUP BY 1
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc12-powerbi-final.png)
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc12-powerbi-final.png){zoomable="yes"}
 
 BI 확장을 사용하여 Power BI Desktop에서 실행되는 쿼리에 `limit` 문이 포함되어 있지만 필요한 문이 포함되어 있지 않습니다. 상위 5회 발생에 대한 제한은 명시적 제품 이름 결과를 사용하여 Power BI Desktop에 의해 시행됩니다.
 
@@ -1407,7 +1407,7 @@ limit 1000001
 
          Tableau Desktop은 다음과 같습니다.
 
-         ![타블로 데스크톱 제한](assets/uc12-tableau-final.png)
+         ![타블로 데스크톱 제한](assets/uc12-tableau-final.png){zoomable="yes"}
 
 위에서 보듯이 Tableau Desktop에서 실행한 이 쿼리는 제품 이름에 대해 상위 5개 발생 횟수 필터를 정의할 때 실패합니다.
 
@@ -1489,12 +1489,12 @@ Power BI 데스크톱은 [데이터 분석 표현식(DAX)](https://learn.microso
 1. 데이터 창에서 product_name 을 선택합니다.
 1. 도구 모음에서 새 열 을 선택합니다.
 1. 수식 편집기에서 `product_name_lower = LOWER('public.cc_data_view[product_name])`과(와) 같은 이름이 `product_name_lower`인 새 열을 정의합니다.
-   ![Power BI 데스크톱에서 Lower](assets/uc14-powerbi-transformation.png)(으)로 변환
+   ![Power BI 데스크톱에서 Lower](assets/uc14-powerbi-transformation.png){zoomable="yes"}(으)로 변환
 1. 데이터 창에서 product_name 열 대신 새 product_name_lower 열을 선택해야 합니다.
 1. 테이블 시각화의 ![자세히](/help/assets/icons/More.svg)에서 테이블로 보고서 를 선택하십시오.
 
    Power BI 데스크톱은 다음과 같아야 합니다.
-   ![Power BI 데스크톱 변환 최종](assets/uc14-powerbi-final.png)
+   ![Power BI 데스크톱 변환 최종](assets/uc14-powerbi-final.png){zoomable="yes"}
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `lower` 함수 사용을 참조하십시오.
 
@@ -1562,7 +1562,7 @@ Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/deskt
 
 1. 기본 메뉴에서 **[!UICONTROL 분석]** > **[!UICONTROL 계산된 필드 만들기]**&#x200B;를 선택합니다.
    1. `LOWER([Product Name])` 함수를 사용하여 **[!UICONTROL 소문자 제품 이름]**을(를) 정의합니다.
-      ![타블로 계산 필드](assets/uc14-tableau-calculated-field.png)
+      ![타블로 계산 필드](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
    1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 데이터]** 시트를 선택하십시오.
    1. **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 소문자 제품 이름]**&#x200B;을(를) 드래그하고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
@@ -1571,7 +1571,7 @@ Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/deskt
 
 Tableau Desktop은 다음과 같습니다.
 
-![변환 후 타블로 데스크톱](assets/uc14-tableau-final.png)
+![변환 후 타블로 데스크톱](assets/uc14-tableau-final.png){zoomable="yes"}
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `LOWER` 함수 사용을 참조하십시오.
 
@@ -1642,11 +1642,11 @@ Customer Journey Analytics에는 많은 시각화가 있습니다. 가능한 모
 
 Power BI은 특정 시각화에 대한 자세한 내용을 살펴보기 위해 [드릴 모드](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)를 지원합니다. 아래 예에서는 제품 범주에 대한 구매 매출을 분석합니다. 제품 카테고리를 나타내는 막대의 상황에 맞는 메뉴에서 **[!UICONTROL 드릴다운]**&#x200B;을 선택할 수 있습니다.
 
-![Power BI 드릴다운](assets/uc15-powerbi-drilldown.png)
+![Power BI 드릴다운](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
 드릴다운하면 선택한 제품 범주 내의 제품에 대한 구매 매출로 시각화가 업데이트됩니다.
 
-![Power BI 드릴업](assets/uc15-powerbi-drillup.png)
+![Power BI 드릴업](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
 드릴다운을 수행하면 `WHERE` 절을 사용하는 다음 SQL 쿼리가 생성됩니다.
 
@@ -1725,11 +1725,11 @@ limit 1001
 
 Tableau는 [계층](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)에서 [드릴 모드](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)를 지원합니다. 아래 예에서는 테이블 내에서 제품 이름 필드를 선택하고 제품 범주 위로 끌어서 놓으면 계층을 만듭니다. 그런 다음 제품 카테고리를 나타내는 막대의 컨텍스트 메뉴에서 **[!UICONTROL + 드릴다운]**&#x200B;을 선택할 수 있습니다.
 
-![타블로 드릴다운](assets/uc15-tableau-drilldown.png)
+![타블로 드릴다운](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
 드릴다운하면 선택한 제품 범주 내의 제품에 대한 구매 매출로 시각화가 업데이트됩니다.
 
-![타블로 드릴업](assets/uc15-tableau-drillup.png)
+![타블로 드릴업](assets/uc15-tableau-drillup.png){zoomable="yes"}
 
 드릴다운을 수행하면 GROUP BY 절을 사용하는 다음 SQL 쿼리가 생성됩니다.
 
@@ -1745,11 +1745,11 @@ GROUP BY 1,
 
 쿼리가 결과를 선택한 제품 범주로 제한하지 **않습니다**. 시각화만 선택한 제품 범주를 표시합니다.
 
-![타블로 드릴업](assets/uc15-tableau-drillup2.png)
+![타블로 드릴업](assets/uc15-tableau-drillup2.png){zoomable="yes"}
 
 또는 한 개의 시각화가 다른 시각화에서 선택한 결과인 드릴다운 대시보드를 만들 수 있습니다. 아래 예제에서는 **[!UICONTROL 제품 범주]** 시각화를 필터로 사용하여 **[!UICONTROL 제품 이름]** 테이블을 업데이트합니다. 이 시각화 필터는 클라이언트 전용이며 추가 SQL 쿼리를 생성하지 않습니다.
 
-![타블로 시각화 필터](assets/uc15-tableau-visualizationfilter.png)
+![타블로 시각화 필터](assets/uc15-tableau-visualizationfilter.png){zoomable="yes"}
 
 
 >[!ENDTABS]
