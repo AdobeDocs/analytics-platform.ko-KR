@@ -4,9 +4,9 @@ description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1423'
 ht-degree: 8%
 
 ---
@@ -83,7 +83,7 @@ An example of a complex sequential filter if you want to find the persons that
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 사람</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 개인</td>
 </tr>
 
 <tr>
@@ -174,9 +174,13 @@ Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 시
 2. 나머지 데이터에 중첩 필터 정의를 적용합니다. 중첩된 필터 정의는 첫 번째 정의가 삭제된 데이터에는 적용되지 않습니다.
 3. 중첩된 컨테이너 필터 정의가 모두 계산될 때까지 반복합니다. 그런 다음 나머지 데이터는 결과에 포함되어 보고에 사용됩니다.
 
+>[!NOTE]
+>
+>필터 내에 필터를 중첩하면(예: [구성 요소] 패널에서 필터 정의로 필터를 드래그하면) 드래그한 필터 정의의 복사본(참조가 아님)을 사용하여 컨테이너가 만들어집니다.
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
+
 
 | Container | What container you can nest inside |
 | Event | Only event conditions |
