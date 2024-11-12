@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: ae07aa8a275a37f88d7626bac2f59e21d4c40e5a
+source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
 workflow-type: tm+mt
 source-wordcount: '9752'
 ht-degree: 1%
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 지표: **[!UICONTROL 구매 매출]** ?? 및 **[!UICONTROL 구매]** ??.
 * 필터: **[!UICONTROL 낚시 제품]** ??.
 
-![Customer Journey Analytics 기본 설정](assets/cja-base.png)
+![Customer Journey Analytics 기본 설정](assets/cja-base.png){zoomable="yes"}
 
 사용 사례를 살펴볼 때 이러한 예제 객체를 특정 환경에 적합한 객체로 바꾸십시오.
 
@@ -89,7 +89,7 @@ ht-degree: 1%
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){width="100" zoomable="yes"}
 
 1. Power BI 데스크톱을 시작합니다.
    1. 주 인터페이스에서 **[!UICONTROL 다른 원본에서 데이터 가져오기]**&#x200B;를 선택합니다.
@@ -129,7 +129,7 @@ ht-degree: 1%
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. 타블로를 시작합니다.
    1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**을(를) 선택합니다.
