@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
+source-git-commit: 6f264ffd30bb1308f95a913a16fb587f36d95a04
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 4. 패널에 대해 선택한 데이터 보기가 AI Assistant가 Alpha 테스트에 사용할 수 있도록 활성화된 데이터 보기인지 확인합니다(확실하지 않은 경우 Alpha Slack 채널에서 확인)
 
-5. 오른쪽 상단에 있는 AI 비서 채팅 아이콘을 클릭합니다.
+5. 오른쪽 상단에 있는 AI 비서 채팅 아이콘을 클릭합니다. 참고: 오른쪽 상단에 채팅 아이콘이 보이지 않는 경우 관리자에게 연락하여 [다음 지침](https://experienceleague.adobe.com/en/docs/analytics-platform/using/ai-assistant#feature-access)에 따라 Admin Console에서 &quot;AI Assistant: 제품 지식&quot; 및 &quot;AI Assistant: 데이터 분석&quot;을 활성화하도록 하십시오.
 
    ![AI 길잡이 아이콘](/help/assets/ai-asst-icon.png)
 
