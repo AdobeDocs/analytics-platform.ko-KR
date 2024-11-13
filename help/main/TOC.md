@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [추천 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
-      + [분류에 대한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Web SDK 확장에 대한 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
       + [속성에 대한 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
