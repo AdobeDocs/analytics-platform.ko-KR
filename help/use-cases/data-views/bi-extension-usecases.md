@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
+source-git-commit: d6d6777f3d40a979eefecea6ab6d4bd818be2401
 workflow-type: tm+mt
-source-wordcount: '9752'
-ht-degree: 1%
+source-wordcount: '9736'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 1%
 
 * **연결**
    * [데이터 보기 연결 및 나열](#connect-and-validate)
-   * [평면화할지 말지](#to-flatten-or-not)
 
 * **보고 및 분석**
    * [일별 트렌드](#daily-trend)
@@ -120,6 +119,25 @@ ht-degree: 1%
       ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
+### 평면화할지 말지
+
+Power BI 데스크톱은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+
+| 평면화 매개 변수 | 예 | 지원됨 | 비고 |
+|---|---|:---:|---|
+| 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션!** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | Power BI 데스크톱에 오류가 표시됩니다. **[!UICONTROL 제공된 자격 증명으로 인증할 수 없습니다. 다시 시도하십시오.]** |
+
+### 추가 정보
+
+* [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
+* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [Power BI을 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+
+
+
+
 >[!TAB 타블로 데스크톱]
 
 1. Experience Platform 쿼리 서비스 UI에서 필요한 자격 증명 및 매개 변수에 액세스합니다.
@@ -155,56 +173,23 @@ ht-degree: 1%
    1. 기본 창에 **[!UICONTROL cc_data_view]** 데이터 보기의 세부 정보가 표시됩니다.
       ![연결된 타블로](assets/tableau-validation.png){zoomable="yes"}
 
->[!ENDTABS]
+### 평면화할지 말지
 
-+++
-
-## 평면화할지 말지
-
-이 사용 사례에서는 BI 확장을 사용하여 Customer Journey Analytics에 연결할 때 데이터베이스에 추가 `FLATTEN` 매개 변수를 사용해야 하는지 여부를 이해합니다.
-
-+++ Customer Journey Analytics
-
-Customer Journey Analytics은 Experience Platform 인터페이스에서 연결하는 방법에 대한 정보를 제공합니다.
-
-1. Experience Platform 샌드박스로 이동합니다.
-1. 왼쪽 레일에서 ![쿼리](/help/assets/icons/DataSearch.svg) **[!UICONTROL 쿼리]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
-1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
-
-![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
-
-
-+++
-
-+++ BI 도구
-
->[!PREREQUISITES]
->
->[연결에 성공했는지 확인하고, 데이터 보기를 나열하고, 이 사용 사례를 시도하려는 BI 도구에 대해 데이터 보기를 사용](#connect-and-validate)할 수 있는지 확인하십시오. 올바른 연결에 필요한 명시적 `FLATTEN` 매개 변수 옵션에 대해서는 BI 도구 섹션을 참조하십시오.
->
-
->[!BEGINTABS]
-
->[!TAB Power BI 데스크톱]
-
-Power BI 데스크톱은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다.
+Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
 | 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | Power BI 데스크톱에 오류가 표시됩니다. **[!UICONTROL 제공된 자격 증명으로 인증할 수 없습니다. 다시 시도하십시오.]** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션**. `%3FFLATTEN`은(는) `?FLATTEN`의 URL 인코딩 버전입니다. |
 
->[!TAB 타블로 데스크톱]
+### 추가 정보
 
-Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다.
+* [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
+* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [쿼리 서비스에 타블로 데스크톱 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
 
-| 평면화 매개 변수 | 예 | 지원됨 | 비고 |
-|---|---|:---:|---|
-| 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+
 
 >[!ENDTABS]
 
@@ -277,7 +262,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
       * 값이 **[!UICONTROL DAY(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL Day]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL Occurrences]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL SUM(발생 횟수)]**(으)로 자동 변환됩니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -289,7 +274,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 1. **[!UICONTROL 데이터]** 시트가 선택되어 있는지 확인하십시오. **[!UICONTROL 데이터]** 보기에서:
    1. 오른쪽 상단에서 **[!UICONTROL 표시]**&#x200B;를 선택하고 **[!UICONTROL 텍스트 테이블]**(왼쪽 상단 시각화)을 선택하여 데이터 보기의 콘텐츠를 테이블로 수정합니다.
    1. 도구 모음에서 **[!UICONTROL 행 및 열 바꾸기]**&#x200B;를 선택합니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -347,7 +332,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
       * 값이 **[!UICONTROL HOUR(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL 자세히]** > **[!UICONTROL 시간]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL Occurrences]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL SUM(발생 횟수)]**(으)로 자동 변환됩니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -359,7 +344,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 1. **[!UICONTROL 데이터]** 시트가 선택되어 있는지 확인하십시오. **[!UICONTROL 데이터]** 보기에서:
    1. 오른쪽 상단에서 **[!UICONTROL 표시]**&#x200B;를 선택하고 **[!UICONTROL 텍스트 테이블]**(왼쪽 상단 시각화)을 선택하여 데이터 보기의 콘텐츠를 테이블로 수정합니다.
    1. **[!UICONTROL HOUR(Daterangeday)]**&#x200B;을(를) **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL 행]**(으)로 드래그합니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -448,7 +433,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
       * 값이 **[!UICONTROL MONTH(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL MONTH]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL Occurrences]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL SUM(발생 횟수)]**(으)로 자동 변환됩니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -460,7 +445,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 1. **[!UICONTROL 데이터]** 시트가 선택되어 있는지 확인하십시오. 데이터 보기에서:
    1. 오른쪽 상단에서 **[!UICONTROL 표시]**&#x200B;를 선택하고 **[!UICONTROL 텍스트 테이블]**(왼쪽 상단 시각화)을 선택하여 데이터 보기의 콘텐츠를 테이블로 수정합니다.
    1. **[!UICONTROL MONTH(Daterangeday)]**&#x200B;을(를) **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL 행]**(으)로 드래그합니다.
-   1. 도구 모음의 **[IUICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
+   1. 도구 모음의 **[!UICONTROL 맞춤]** 드롭다운 메뉴에서 **[!UICONTROL 표준]**&#x200B;을(를) **[!UICONTROL 전체 보기]**(으)로 수정합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
@@ -823,6 +808,15 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
    ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-final.png){zoomable="yes"}
 
+또는 Power BI과 구별되는 고유 개수 기능을 사용할 수 있습니다.
+
+1. **[!UICONTROL product_name]** 차원을 선택하십시오.
+1. **[!UICONTROL 열]**&#x200B;의 **[!UICONTROL product_name]** 차원에서 **[!UICONTROL Count(고유)]** 함수를 적용하세요.
+
+   ![Power BI 고유 개수](assets/uc7-powerbi-alternative.png){zoomable="yes"}
+
+
+
 >[!TAB 타블로 데스크톱]
 
 1. 하단의 **[!UICONTROL 시트 1]** 탭을 선택하여 **[!UICONTROL 데이터 원본]**&#x200B;에서 전환하세요. **[!UICONTROL 시트 1]** 보기에서:
@@ -861,6 +855,14 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
    ![타블로 데스크톱 대시보드 1](assets/uc7-tableau-final.png){zoomable="yes"}
+
+
+또는 Tableau Desktop의 고유 기능을 사용할 수 있습니다.
+
+1. **[!UICONTROL Cm 제품 이름 개수 고유]** 대신 **[!UICONTROL 제품 이름]**&#x200B;을(를) 사용하십시오.
+1. **[!UICONTROL 표시]**&#x200B;의 **[!UICONTROL 제품 이름]**&#x200B;에서 **[!UICONTROL 측정값]** > **[!UICONTROL 개수(고유)]**&#x200B;를 적용합니다.
+
+   ![Power BI 고유 개수](assets/uc7-tableau-alternative.png){zoomable="yes"}
 
 >[!ENDTABS]
 
