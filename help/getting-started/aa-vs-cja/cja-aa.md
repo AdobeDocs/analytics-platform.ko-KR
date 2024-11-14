@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
-workflow-type: ht
-source-wordcount: '2306'
-ht-degree: 100%
+source-git-commit: 1cf7ae6635f51f0ca06cbc235032525e3d9b3fec
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 
@@ -78,6 +78,7 @@ ht-degree: 100%
 
 | 기능 | 참고 |
 | --- | --- |
+| **Advertising Cloud** | [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars) |
 | **경고** | [Customer Journey Analytics에서의 경고 사용](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) 프로세스는 Adobe Analytics에서의 경고 사용 프로세스와 거의 동일합니다. <p>그러나 Customer Journey Analytics의 데이터 수집 타이밍으로 인해 매시간 알림 제공은 불가능합니다. Customer Journey Analytics에서는 알림을 매일, 매주 또는 매월로 구성할 수 있습니다.</p> |
 | **Analytics for Target (A4T)** | [Adobe Customer Journey Analytics와 Target 간 통합](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | **대상자 게시** | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
@@ -127,9 +128,6 @@ ht-degree: 100%
 | 기능 | 참고 |
 | --- | --- |
 | **Activity Map** | 지원이 아직 예정되지 않음 |
-| **Advertising Cloud** | 지원이 아직 예정되지 않음 |
-
-{style="table-layout:auto"}
 
 ## 지원 예정 없음 {#never}
 
