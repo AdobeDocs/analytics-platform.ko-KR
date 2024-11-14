@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
+source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1499'
 ht-degree: 5%
 
 ---
@@ -92,7 +92,11 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
 
-   자세한 내용은 [소스 커넥터를 사용하여 데이터 수집 및 사용](/help/data-ingestion/sources.md)에서 [소스 커넥터 사용](/help/data-ingestion/sources.md#use-a-source-connector)을 참조하세요.
+   1. [Analytics 원본 커넥터에 대한 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+
+   1. [Analytics 원본 커넥터를 만들고 필드를 매핑합니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [연결에 Analytics 원본 커넥터 데이터 집합을 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)합니다.
 
 1. Customer Journey Analytics 구현을 위해 Experience Platform Web SDK를 구현하는 방법을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
 
@@ -106,7 +110,7 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    +++태그
 
-   1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md).
+   1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
    1. [태그 속성을 만들고 Adobe Experience Platform Web SDK 확장을 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)합니다.
 

@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
+source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 50%
+source-wordcount: '1072'
+ht-degree: 46%
 
 ---
 
-# Customer Journey Analytics에 사용할 XDM 스키마 만들기
+# Customer Journey Analytics 웹 SDK 구현에 사용할 XDM 스키마 만들기
 
 >[!NOTE]
 > 
@@ -39,7 +40,7 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
 1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
-1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
+1. 스키마 만들기 마법사의 **[!UICONTROL 클래스 선택]** 단계에서 다음을 수행합니다.
 
    1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
 
@@ -60,11 +61,11 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-1. 스키마의 [!UICONTROL **구조**] 탭에서:
+1. 스키마에 포함할 필드를 포함하는 모든 필드 그룹을 추가합니다.
+
+   필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
    1. **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
-
-      필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
       ![필드 그룹 추가](assets/add-field-group-button.png)
 
@@ -78,7 +79,19 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
 
       **[!UICONTROL 뒤로]**&#x200B;를 선택하여 미리보기를 닫습니다.
 
+   1. (선택 사항) 포함할 추가 필드 그룹을 선택합니다.
+
    1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
+
+1. (선택 사항) 스키마에 포함할 사용자 정의 필드가 있는 경우 사용자 정의 필드 그룹을 만들고 사용자 정의 필드를 필드 그룹에 추가합니다.
+
+   1. **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+
+      ![필드 그룹 추가](assets/add-field-group-button.png)
+
+   1. [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL 새 필드 그룹 만들기]**&#x200B;를 선택합니다.
+
+   1. 표시 이름과 선택적 설명을 지정한 다음 **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
 1. [!UICONTROL 구조] 패널의 스키마 이름 옆에 있는 **[!UICONTROL +]**&#x200B;를 선택합니다.
 
@@ -147,4 +160,3 @@ Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience 
    스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

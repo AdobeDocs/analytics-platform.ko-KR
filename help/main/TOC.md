@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
+source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 97%
+source-wordcount: '1062'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [Web SDK 확장에 대한 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [Web SDK 확장에 대한 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [속성에 대한 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [태그에 Web SDK 확장 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
@@ -64,6 +64,9 @@ ht-degree: 97%
       + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [업그레이드 단축키: Web SDK로 마이그레이션](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [Analytics 소스 커넥터에 대한 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+      + [Analytics 소스 커넥터 만들기 및 필드 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
