@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
-workflow-type: ht
-source-wordcount: '4195'
-ht-degree: 100%
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
+workflow-type: tm+mt
+source-wordcount: '4216'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 11월** | |
+| BI 확장 기능 사용 사례 | Power BI 데스크톱 및 Tableau Desktop과 같은 BI 도구에 대한 여러 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)에 대한 설명서입니다. |
 | 스티칭 및 개인정보 보호 요청 | 개인정보 보호 요청의 결과로 발생하는 [향후 언스티칭 프로세스 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 공지가 추가되었습니다. |
 | **2024년 10월** | |
 | 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |

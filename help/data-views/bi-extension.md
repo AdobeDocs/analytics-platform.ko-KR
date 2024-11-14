@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 확장 기능
-description: Power BI 또는 타블로를 사용하여 Customer Journey Analytics BI 확장을 사용하여 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
+description: Power BI 또는 Tableau Desktop을 사용하여 Customer Journey Analytics BI 확장을 사용하여 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
+source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
 workflow-type: tm+mt
-source-wordcount: '3091'
-ht-degree: 77%
+source-wordcount: '3116'
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension]를 통해 SQL은 Customer Journey Analytics에서 정의한 [데이터 보기](./data-views.md)에 액세스할 수 있습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 생성할 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
+[!DNL Customer Journey Analytics BI extension]를 통해 SQL은 Customer Journey Analytics에서 정의한 [데이터 보기](./data-views.md)에 액세스할 수 있습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau Desktop 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 생성할 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
 Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics BI extension]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
 
@@ -100,7 +100,7 @@ Adobe Experience Platform:
 
 ### BI 도구
 
-현재 [!DNL Customer Journey Analytics BI extension]은 Power BI 및 Tableau에서만 지원되고 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만, 아직 공식적으로 지원되지는 않습니다.
+현재 [!DNL Customer Journey Analytics BI extension]은(는) Power BI 및 Tableau Desktop에 대해서만 지원되고 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만, 아직 공식적으로 지원되지는 않습니다.
 
 +++ Power BI
 
@@ -145,7 +145,7 @@ Adobe Experience Platform:
 
 +++
 
-+++Tableau
++++타블로 데스크톱
 
 1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
 
@@ -155,9 +155,9 @@ Adobe Experience Platform:
 
    1. ` cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. Tableau에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
+   1. 필요한 경우 Tableau Desktop에서 각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 등)를 복사하려면 ![복사](assets/Smock_Copy_18_N.svg)를 사용하십시오.
 
-1. Tableau에서 다음 작업을 수행합니다.
+1. Tableau Desktop에서:
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
@@ -192,6 +192,8 @@ Adobe Experience Platform:
 +++
 
 사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview)을 참조하십시오.
+
+Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 완수하는 방법은 [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하세요.
 
 ## 기능
 

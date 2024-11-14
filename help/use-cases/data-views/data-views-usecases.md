@@ -5,10 +5,10 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 62779154e889158c62e4713a951fb3633c16d5e1
+source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 35%
+source-wordcount: '1372'
+ht-degree: 33%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 35%
 
 자세한 내용은 [사용 요약 데이터](summary-data.md) 사용 사례를 참조하십시오.
 
+## BI 확장 기능 사용 사례
+
+Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 완수하는 방법에 대해서는 [BI 확장 사용 사례](bi-extension-usecases.md)를 참조하십시오.
+
 ## 문자열 스키마 필드에서 지표 만들기 {#string}
 
 예를 들어 데이터 보기를 만들 때 문자열인 [!UICONTROL 페이지 제목] 스키마 필드에서 [!UICONTROL 주문] 지표를 만들 수 있습니다.
@@ -35,7 +39,7 @@ ht-degree: 35%
 1. **[!UICONTROL 값 포함/제외]** 섹션을 열고 다음을 지정하십시오.
    1. **[!UICONTROL 포함/제외 값 설정]**&#x200B;을 사용하도록 설정합니다.
    1. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;을(를) 선택합니다.
-   1. `confirmation`을(를) 지정하십시오. page_title에 대한 이 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표입니다(계산된 지표가 아님). 포함/제외된 값이 포함된 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. Attribution IQ, 필터 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
+   1. `confirmation`을(를) 지정하십시오. page_title에 대한 이 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 포함/제외된 값이 있는 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. Attribution IQ, 필터 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
 
    ![지표에 Dimension](../assets/string-to-metric.gif){width=100%}
 1. [!UICONTROL 세션]의 [!UICONTROL 전환 확인 기간]을 사용하여 [!UICONTROL 마지막 터치]와 같은 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다.
