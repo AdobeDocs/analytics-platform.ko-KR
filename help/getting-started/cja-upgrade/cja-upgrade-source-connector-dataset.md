@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d30a1a7cbe441529f5b094215c0ea1131c1f67fc
+exl-id: 424485a3-a076-4656-83b6-733f16cc2326
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 37%
+source-wordcount: '818'
+ht-degree: 25%
 
 ---
 
@@ -20,6 +21,30 @@ ht-degree: 37%
 >이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+
+>[!NOTE]
+>
+>이 페이지의 정보는 다음을 가정합니다.
+>
+>* Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 중입니다.
+>* 향후 Customer Journey Analytics 데이터 수집을 위해 웹 SDK를 사용하고 있습니다.
+>* Analytics 소스 커넥터를 사용하여 이전 Adobe 분석 데이터를 Customer Journey Analytics으로 가져오려는 경우
+
+## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
+
+Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
+
+이 프로세스에서는 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics으로 업그레이드할 때 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)한다고 가정합니다.
+
+Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
+
+1. [Analytics 소스 커넥터에 대한 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. [Analytics 소스 커넥터 만들기 및 필드 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. 아래 설명된 대로 Analytics 소스 커넥터 데이터 세트를 연결에 추가합니다.
+
+## 연결에 Analytics 소스 커넥터 데이터 세트 추가
 
 [이전 데이터에 대한 Analytics 소스 커넥터를 만든](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) 후 Analytics 데이터에 대한 데이터 세트가 자동으로 만들어집니다.
 
@@ -68,7 +93,7 @@ ht-degree: 37%
 
 1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 채우기에 포함할 기간을 정의합니다.
 
-   Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.
+   Analytics 소스 커넥터는 프로덕션 샌드박스에 대해 13개월의 데이터(크기에 상관없이)를 가져옵니다. 비프로덕션 샌드박스의 채우기 기간은 3개월입니다.
 
    >[!IMPORTANT]
    >
@@ -83,4 +108,3 @@ ht-degree: 37%
 1. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하여 연결을 저장합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 2%
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +21,22 @@ ht-degree: 2%
 >이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+
+## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
+
+Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
+
+이 프로세스에서는 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics으로 업그레이드할 때 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)한다고 가정합니다.
+
+Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
+
+1. 아래 설명된 대로 Analytics 소스 커넥터에 대한 XDM 스키마를 만듭니다.
+
+1. [Analytics 소스 커넥터 만들기 및 필드 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## Analytics 소스 커넥터에 대한 XDM 스키마 만들기
 
 Customer Journey Analytics에서 사용할 Experience Platform Web SDK 구현에 대해 이미 [새 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)했어야 합니다. 이 스키마에는 데이터를 수집하려는 필드에 대한 필드 그룹이 포함되어야 합니다.
 
@@ -52,4 +69,3 @@ Analytics 소스 커넥터와 함께 사용할 XDM 스키마를 만들려면 다
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

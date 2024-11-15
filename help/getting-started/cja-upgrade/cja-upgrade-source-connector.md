@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: f96565a2-f556-4b45-b88e-984613614d2e
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 3%
+source-wordcount: '636'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +22,23 @@ ht-degree: 3%
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
+## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
+
 Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
 
-다음 단계에서는 조직 및 사용하는 특정 Platform 응용 프로그램의 요구 사항에 맞게 조정된 간소화된 스키마를 원하므로 Customer Journey Analytics으로 업그레이드할 때 [XDM 스키마를 만들](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)이라고 가정합니다.
+이 프로세스에서는 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics으로 업그레이드할 때 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)한다고 가정합니다.
 
-XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들어야 합니다.
+Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
 
-소스 커넥터 만들기에 대한 포괄적인 일반 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
+1. [Analytics 소스 커넥터에 대한 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 매핑합니다.
+
+1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## Analytics 소스 커넥터 만들기 및 필드 매핑
+
+XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들어야 합니다. (소스 커넥터 만들기에 대한 포괄적인 일반 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
 
 이전 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들려면 다음 작업을 수행하십시오.
 
@@ -78,7 +89,3 @@ XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 
    Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics 웹 SDK 구현으로 가져오는 경우 자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결에 추가해야 합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-
-
-
-
