@@ -18,7 +18,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_keymetricsummary_button"
 >title="주요 지표 요약"
->abstract="선, 요약 변경 및 요약 번호 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 추세인지 비교합니다."
+>abstract="선, 요약 변경 및 요약 번호 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 트렌드인지 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 

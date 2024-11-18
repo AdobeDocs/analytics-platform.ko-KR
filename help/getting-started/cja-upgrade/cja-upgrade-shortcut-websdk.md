@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8ef60cc3918b79919674e3c0478a2c1b1bd21d27
+exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
+source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# 업그레이드 바로 가기: 웹 SDK를 사용하도록 AppMeasurement 또는 Analytics 확장 구현을 마이그레이션합니다. {#shortcut-migrate-websdk}
+# 업그레이드 단축키: 웹 SDK를 사용하도록 AppMeasurement 또는 Analytics 확장 구현 마이그레이션 {#shortcut-migrate-websdk}
 
 >[!NOTE]
 >
@@ -24,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
 >title="웹 SDK를 사용하도록 Analytics 구현 마이그레이션"
->abstract="XDM 개체를 통해 데이터를 보내는 대신 데이터 개체를 통해 모든 변수를 AppMeasurement 형식으로 보낼 수 있습니다. 이 바로 가기를 사용하면 AppMeasurement 논리를 계속 사용하여 데이터를 플랫폼으로 보낼 수 있습니다."
+>abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 모든 변수를 AppMeasurement 형식으로 전송할 수 있습니다. 이 단축키를 사용하면 AppMeasurement 논리를 계속 사용하여 플랫폼으로 데이터를 전송할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,4 +56,3 @@ Web SDK를 사용하도록 AppMeasurement 또는 Analytics 확장 구현을 마�
 1. (선택 사항) 시간이 있을 때 조직에 대한 XDM 스키마를 만듭니다.
 
 1. (조건부) XDM 스키마를 생성한 경우, 데이터스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.
-
