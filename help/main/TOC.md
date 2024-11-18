@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 94%
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [Web SDK 확장에 대한 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [속성에 대한 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [태그에 Web SDK 확장 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+      + [속성용 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [태그에 Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
