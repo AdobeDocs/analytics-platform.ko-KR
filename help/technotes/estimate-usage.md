@@ -4,10 +4,10 @@ description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 71%
+source-wordcount: '875'
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Customer Journey Analytics 사용을 관리하려면:
 
    >[!CAUTION]
    >
-   >   이 수는 프로필 또는 조회 데이터에는 적용되지 않고 이벤트 데이터에만 적용됩니다. 프로필 및 조회 데이터가 있는 경우 이 수가 약간 높아질 수 있습니다. 하지만 현재는 사용자 인터페이스에서 프로필 및 조회 데이터 사용량에 대해 보고할 방법이 없습니다. 이 기능은 2023년 출시 예정입니다.
+   >   이 수는 프로필 또는 조회 데이터에는 적용되지 않고 이벤트 데이터에만 적용됩니다. 프로필 및 조회 데이터가 있는 경우 이 수가 약간 높아질 수 있습니다. 하지만 현재 사용자 인터페이스에서 프로필 및 조회 데이터 사용을 보고할 방법이 없습니다.
 
 1. 모든 이벤트 데이터 행의 합계가 있으면 회사가 Adobe와 체결한 Customer Journey Analytics 계약에서 “데이터 행” 자격을 조회하십시오.
 
