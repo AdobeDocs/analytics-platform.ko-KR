@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 9%
+source-wordcount: '590'
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,11 @@ ht-degree: 9%
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
->
->이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+>[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
 
-Customer Journey Analytics으로 업그레이드하는 방법은 다양하지만, 각 유형의 Adobe Analytics 구현에 대해 일부 업그레이드 경로를 사용할 수 있는 것은 아닙니다. 그러나 권장되는 업그레이드 경로는 조직에서 Adobe Analytics을 구현하는 방법에 관계없이 사용할 수 있습니다.
+Adobe Analytics을 구현할 수 있는 방법에는 여러 가지가 있습니다. Customer Journey Analytics으로 업그레이드할 때 모든 Adobe Analytics 구현에 대해 일부 업그레이드 경로를 사용할 수 있는 것은 아닙니다. 그러나 권장되는 업그레이드 경로는 조직에서 Adobe Analytics을 구현하는 방법에 관계없이 사용할 수 있습니다.
 
-아래 정보를 사용하여 현재 Adobe Analytics 구현 및 조직에서 사용할 수 있는 업그레이드 경로를 이해할 수 있습니다.
+아래 정보를 사용하여 현재 Adobe Analytics 구현 및 조직에서 사용할 수 있는 업그레이드 경로에 대해 알아보십시오.
 
 보다 구체적인 조언, 안내 또는 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
 

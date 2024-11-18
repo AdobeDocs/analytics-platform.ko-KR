@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 25%
+source-wordcount: '767'
+ht-degree: 27%
 
 ---
 
@@ -21,14 +21,6 @@ ht-degree: 25%
 >이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
-
->[!NOTE]
->
->이 페이지의 정보는 다음을 가정합니다.
->
->* Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 중입니다.
->* 향후 Customer Journey Analytics 데이터 수집을 위해 웹 SDK를 사용하고 있습니다.
->* Analytics 소스 커넥터를 사용하여 이전 Adobe 분석 데이터를 Customer Journey Analytics으로 가져오려는 경우
 
 ## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
 

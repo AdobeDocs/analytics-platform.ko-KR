@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1545'
 ht-degree: 5%
 
 ---
@@ -90,14 +90,6 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 1. (선택 사항) Customer Journey Analytics을 Adobe Journey Optimizer과 통합하려면 Adobe Journey Optimizer에서 사용할 구현에 개인화 개체를 사용합니다.
 
-1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
-
-   1. [Analytics 원본 커넥터에 대한 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
-
-   1. [Analytics 원본 커넥터를 만들고 필드를 매핑합니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-   1. [연결에 Analytics 원본 커넥터 데이터 집합을 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)합니다.
-
 1. Customer Journey Analytics 구현을 위해 Experience Platform Web SDK를 구현하는 방법을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
 
    +++수동 구현(JS 파일)
@@ -135,6 +127,20 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 1. [Customer Journey Analytics에서 데이터 보기를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
 1. [데이터가 Customer Journey Analytics으로 흘러가고 있는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+
+1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
+
+   >[!NOTE]
+   >
+   >이전에 Analytics 소스 커넥터를 만들지 않은 경우 다음 단계를 사용하십시오.
+   >
+   >이미 Customer Journey Analytics에 Analytics 소스 커넥터를 사용하고 있는 경우 [Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 따릅니다.
+
+   1. [Analytics 원본 커넥터에 대한 XDM 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
+
+   1. [Analytics 원본 커넥터를 만들고 필드를 매핑합니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   1. [연결에 Analytics 원본 커넥터 데이터 집합을 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)합니다.
 
 1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
