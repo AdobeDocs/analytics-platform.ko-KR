@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
+source-git-commit: a1feb2e8458169ed208da2c42fab62d25e1015bb
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -39,11 +40,11 @@ Analytics 소스 커넥터 사용의 장점과 단점에 대한 자세한 내용
 
    자세한 내용은 [Customer Journey Analytics 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하세요.
 
-1. (조건부) Adobe Analytics 스키마를 사용하려면 Analytics 소스 커넥터에 의해 자동으로 만들어진 데이터 세트를 Customer Journey Analytics 연결에 추가하십시오.
+1. (조건부) 웹 SDK 구현에 Adobe Analytics 스키마를 사용할 계획이라면 Analytics 소스 커넥터에 의해 자동으로 생성된 데이터 세트를 Customer Journey Analytics 연결에 추가하십시오.
 
    자세한 내용은 [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)를 참조하십시오.
 
-1. (조건부) XDM 스키마를 만들려는 경우:
+1. (조건부) 웹 SDK 구현에 사용할 XDM 스키마를 만들려는 경우:
 
    1. [Analytics 원본 커넥터에 대한 XDM 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
@@ -54,11 +55,3 @@ Analytics 소스 커넥터 사용의 장점과 단점에 대한 자세한 내용
    1. 원래 Analytics 소스 커넥터를 삭제합니다. <!-- need to add steps somewhere about how to do this -->
 
    1. [새 Analytics 소스 커넥터를 만들고 필드를 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-
-
-
-
-
-
-
