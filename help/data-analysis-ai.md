@@ -3,10 +3,11 @@ description: Customer Journey Analytics 설명서의 데이터 분석 질문에 
 title: Customer Journey Analytics의 Data Analysis AI Assistant
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: cc743d74a98dae9029654add65d3e685320fe9f3
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '1637'
 ht-degree: 3%
@@ -150,7 +151,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ## 프롬프트 우수 사례
 
-AI Assistant는 각 사용자 프롬프트에서 제공된 컨텍스트를 처리하고 가장 적절한 시각화와 자유 형식 테이블의 구성 요소로 지능적으로 응답하려고 합니다. 하지만 AI 비서의 반응은 프롬프트에서 사용되는 특정 단어와 구문에 따라 달라질 수 있어 언어가 조금만 바뀌면 다른 결과가 나올 수 있다. 이를 최대한 활용하는 방법은 다음과 같습니다. <ul><li>구체화: 응답 범위를 좁히려면 정확한 용어(예: &quot;지난 달 캘리포니아 판매&quot;)를 포함하십시오.</li><li>명확한 지표 및 필터 사용: 특정 지표(&quot;매출&quot; 등), 차원(예: &quot;웹 사이트 이름&quot;), 필터(예: &quot;iPhone 사용자&quot;) 및 날짜 범위(예: &quot;최근 3개월&quot;)를 추가하면 AI Assistant가 올바른 데이터에 집중할 수 있습니다.</li><li>직접 질문: &quot;올해 제품 범주별 평균 매출은 얼마입니까?&quot;와 같은 질문을 직접 구문 분석합니다. ai Assistant를 통해 명확하고 관련성 있는 통찰력을 더욱 쉽게 제공할 수 있습니다.</li></ul>
+AI Assistant는 각 사용자 프롬프트에서 제공된 컨텍스트를 처리하고 가장 적절한 시각화와 자유 형식 테이블의 구성 요소로 지능적으로 응답하려고 합니다. 하지만 AI 비서의 반응은 프롬프트에서 사용되는 특정 단어와 구문에 따라 달라질 수 있어 언어가 조금만 바뀌면 다른 결과가 나올 수 있다. 이를 최대한 활용하는 방법은 다음과 같습니다. <ul><li>구체화: 응답 범위를 좁히려면 정확한 조건(예: &quot;지난 달 캘리포니아 판매&quot;)을 포함하십시오.</li><li>명확한 지표 및 필터 사용: 특정 지표(&quot;수입&quot; 등), 차원(예: &quot;웹 사이트 이름&quot;), 필터(예: &quot;iPhone 사용자&quot;) 및 날짜 범위(예: &quot;최근 3개월&quot;)를 추가하면 AI Assistant가 올바른 데이터에 집중할 수 있습니다.</li><li>직접 질문: &quot;올해 제품 범주별 평균 매출은 얼마입니까?&quot;와 같은 질문을 직접 구문 분석합니다. ai Assistant를 통해 명확하고 관련성 있는 통찰력을 더욱 쉽게 제공할 수 있습니다.</li></ul>
 
 아래 표에 예상되는 응답 유형과 함께 AI Assistant의 데이터 시각화를 통해 프롬프트에 사용할 수 있는 예시 용어 및 구를 검토하십시오. 이러한 예제는 특정 단어나 구조가 AI Assistant의 출력에 어떻게 영향을 미칠 수 있는지 잘 알고 보다 정확하고 가치 있는 통찰력을 확보할 수 있도록 설계되었습니다. AI 비서는 생성 AI를 사용하므로 시각화 또는 선택한 데이터가 유사한 프롬프트에 따라 약간 다를 수 있습니다.
 
