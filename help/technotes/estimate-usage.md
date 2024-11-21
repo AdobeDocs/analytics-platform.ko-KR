@@ -4,10 +4,10 @@ description: 사용량을 예측하는 두 가지 방법과 이를 관리하는 
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
+source-git-commit: 191d1b7a4b851e93a44487dad4794709cbbd0374
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 69%
+source-wordcount: '856'
+ht-degree: 68%
 
 ---
 
@@ -29,10 +29,6 @@ Customer Journey Analytics 사용을 관리하려면:
 ## 연결 크기 예상 {#estimate-size}
 
 현재 [!UICONTROL Customer Journey Analytics]에 있는 이벤트 데이터의 행 수를 알고 있어야 합니다. 조직의 이벤트 데이터 레코드(데이터 행) 사용에 대한 정확한 정보를 얻으려면 **조직에서 만든 각 연결**&#x200B;에 대해 다음 작업을 수행하십시오.
-
->[!NOTE]
->
->해당 날짜에 Adobe에서 최신 사용량 보고서가 실행되므로 매월 첫 번째 금요일에 이 작업을 수행하십시오.
 
 1. [!UICONTROL Customer Journey Analytics]에서 **[!UICONTROL 연결]** 탭을 클릭합니다.
 
