@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '889'
 ht-degree: 27%
 
 ---
@@ -30,9 +30,13 @@ Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데�
 
 Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
 
-1. [Analytics 소스 커넥터에 대한 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. [Analytics 소스 커넥터 만들기 및 필드 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   또는
+
+   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
 
 1. 아래 설명된 대로 Analytics 소스 커넥터 데이터 세트를 연결에 추가합니다.
 
@@ -83,20 +87,26 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 1. **[!UICONTROL 데이터 세트 채우기]** 섹션에서 **[!UICONTROL 채우기 요청]**&#x200B;을(를) 선택합니다.
 
-1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 채우기에 포함할 기간을 정의합니다.
+1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 연결을 Customer Journey Analytics에 다시 채울 기간을 정의합니다.
 
-   Analytics 소스 커넥터는 프로덕션 샌드박스에 대해 13개월의 데이터(크기에 상관없이)를 가져옵니다. 비프로덕션 샌드박스의 채우기 기간은 3개월입니다.
+   다시 채우기를 요청하는 날짜를 지정할 때 명시해야 합니다. 몇 가지 요인에 따라 다음 중 하나를 수행할 수 있습니다.
 
-   >[!IMPORTANT]
-   >
-   >다시 채우기를 요청하는 날짜를 지정할 때 명시해야 합니다. 종료 날짜는 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜여야 합니다.
-   >
-   >또는 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜 직후 날짜를 선택한 다음 세그먼트를 사용하여 겹치는 데이터를 필터링할 수 있습니다.
+   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜와 동일한 종료 날짜를 선택합니다.
+
+   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+
+   * 데이터의 겹치는 부분이 더 많이 발생하는 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+
+     **참고:** 이 옵션을 사용하면 연결에 더 많은 행이 있으므로 비용이 증가합니다.
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
 1. **[!UICONTROL 다시 채우기 큐]**&#x200B;를 선택하십시오.
 
 1. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하여 연결을 저장합니다.
+
+1. (조건부) 조회 데이터 세트를 사용 중인 경우 조회 데이터 세트를 만들고 연결에 추가해야 합니다. 자세한 내용은 [Customer Journey Analytics에서 데이터를 분류하기 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)를 참조하십시오.
+
+   이 작업은 웹 SDK 구현을 구성할 때 아직 수행하지 않은 경우에만 필요합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.

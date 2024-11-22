@@ -1,5 +1,5 @@
 ---
-title: Analytics 소스 커넥터 만들기 및 필드 매핑
+title: Analytics 소스 커넥터 및 맵 필드 만들기
 description: Analytics 소스 커넥터를 만들고 필드를 매핑하는 방법을 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 2%
+source-wordcount: '689'
+ht-degree: 8%
 
 ---
 
-# Analytics 소스 커넥터 만들기 및 필드 매핑
+# Analytics 소스 커넥터 및 맵 필드 만들기
 
 >[!NOTE]
 > 
@@ -30,13 +30,17 @@ Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데�
 
 Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
 
-1. [Analytics 소스 커넥터에 대한 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 매핑합니다.
+1. Analytics 소스 커넥터가 없는 경우 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑합니다.
+
+   또는
+
+   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
 
 1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
-## Analytics 소스 커넥터 만들기 및 필드 매핑
+## Analytics 소스 커넥터 및 맵 필드 만들기
 
 XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들어야 합니다. (소스 커넥터 만들기에 대한 포괄적인 일반 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
 
@@ -69,6 +73,8 @@ XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 
    ![스키마 필드 매핑](assets/schema-mapping.png)
 
    1. **[!UICONTROL Source 필드]**&#x200B;의 Adobe Analytics ExperienceEvent 템플릿 필드 그룹에서 Adobe Analytics 필드를 선택합니다. 그런 다음 **[!UICONTROL Target 필드]**&#x200B;에서 매핑할 XDM 필드를 선택합니다.
+
+      AppMeasurement과 XDM 간의 고유한 아키텍처 차이로 인해 모든 Adobe Analytics 필드에 XDM의 해당 필드가 있는 것은 아닙니다.
 
    1. Adobe Analytics에서 데이터를 수집하는 데 사용하는 Adobe Analytics ExperienceEvent 템플릿 필드 그룹의 각 필드에 대해 이 프로세스를 반복합니다.
 

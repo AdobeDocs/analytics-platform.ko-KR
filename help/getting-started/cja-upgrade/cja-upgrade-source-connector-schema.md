@@ -1,5 +1,5 @@
 ---
-title: Analytics 소스 커넥터에 대한 XDM 스키마 만들기
+title: Analytics 소스 커넥터용 XDM 스키마 만들기
 description: Analytics 소스 커넥터에 대한 XDM 스키마를 만드는 방법을 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '537'
+ht-degree: 8%
 
 ---
 
-# Analytics 소스 커넥터에 대한 XDM 스키마 만들기
+# Analytics 소스 커넥터용 XDM 스키마 만들기
 
 >[!NOTE]
 > 
@@ -32,19 +32,23 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 1. 아래 설명된 대로 Analytics 소스 커넥터에 대한 XDM 스키마를 만듭니다.
 
-1. [Analytics 소스 커넥터 만들기 및 필드 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+   또는
+
+   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
 
 1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
-## Analytics 소스 커넥터에 대한 XDM 스키마 만들기
+## Analytics 소스 커넥터용 XDM 스키마 만들기
 
 Customer Journey Analytics에서 사용할 Experience Platform Web SDK 구현에 대해 이미 [새 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)했어야 합니다. 이 스키마에는 데이터를 수집하려는 필드에 대한 필드 그룹이 포함되어야 합니다.
 
-웹 SDK 구현을 위해 이미 만든 XDM 스키마 외에도 이제 Analytics 소스 커넥터와 함께 사용하여 이전 데이터를 Customer Journey Analytics 상태로 가져올 두 번째 XDM 스키마를 만들어야 합니다.
+이제 웹 SDK 스키마에서 이러한 동일한 필드 그룹을 사용하여 Analytics 소스 커넥터와 함께 사용할 수 있는 새 스키마에 추가해야 합니다.
 
-이 두 번째 스키마에는 다음이 포함되어야 합니다.
+Analytics 소스 커넥터에 대한 이 스키마에는 다음이 포함되어야 합니다.
 
-* 웹 SDK 구현을 위해 만든 스키마에 포함된 모든 필드 그룹(사용자 정의 필드 그룹 포함). (기본 필드 그룹에 속하지 않는 모든 사용자 지정 필드는 사용자 지정 필드 그룹의 일부로 웹 SDK 스키마에 추가했어야 합니다.)
+* 웹 SDK 구현을 위해 만든 사용자 지정 스키마에 포함된 모든 필드 그룹(사용자가 만든 사용자 지정 필드 그룹 포함). (기본 필드 그룹에 속하지 않는 모든 사용자 지정 필드는 사용자 지정 필드 그룹의 일부로 웹 SDK 스키마에 추가했어야 합니다.)
 
 * Adobe Analytics ExperienceEvent 템플릿 필드 그룹
 

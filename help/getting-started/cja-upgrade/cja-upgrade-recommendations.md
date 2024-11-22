@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1595'
 ht-degree: 5%
 
 ---
@@ -22,19 +22,17 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Ad
 
 ## 대부분의 조직에 권장되는 업그레이드 단계
 
->[!NOTE]
->
->이 섹션에 설명된 업그레이드 단계는 모든 조직이 Adobe Analytics에서 Customer Journey Analytics으로 성공적으로 업그레이드하는 데 사용할 수 있는 권장 업그레이드 단계입니다.
->
->그러나 타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
-
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Adobe Web SDK와 함께 Analytics 소스 커넥터 를 사용하여 Customer Journey Analytics으로 전환하는 것도 좋습니다. Analytics 소스 커넥터를 사용하여 이전 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행할 수 있습니다.
 
-Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥터를 끄고 Experience Platform Web SDK를 독점적으로 사용할 수 있습니다.
+Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Customer Journey Analytics으로 완전히 전환한 후에는 Analytics 소스 커넥터를 끄고 Web SDK를 독점적으로 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>이 섹션에 설명된 업그레이드 단계는 조직에 실용적이지 않습니다. [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성하십시오.
 
 ### 높은 수준의 권장 업그레이드 프로세스
 
-1. **Experience Platform Web SDK 구현**
+1. **지속적인 데이터 수집을 위해 Experience Platform Web SDK를 구현합니다**
 
    Experience Platform Web SDK의 새로운 구현은 Customer Journey Analytics을 위한 데이터를 수집하는 가장 좋은 방법입니다. Customer Journey Analytics 구현을 위한 가장 성능적이고, 간단하며, 미래에 대비할 수 있는 방법이기 때문에 Customer Journey Analytics을 최대한 활용할 수 있는 최상의 토대를 제공합니다.
 
@@ -44,7 +42,7 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    * Adobe Analytics 명명법(prop, eVar, 이벤트 등)에 의존하지 않음
 
-1. **Adobe Analytics 소스 커넥터 설정**
+1. **이전 데이터를 가져올 Adobe Analytics 소스 커넥터 설정**
 
    Customer Journey AnalyticsAdobe 에서 Experience Platform Web SDK 를 사용하는 것으로 원활하게 전환하려면 Adobe Analytics 소스 커넥터 를 사용하는 것이 좋습니다. 이렇게 하면 이전 데이터를 유지하고 새 Experience Platform Web SDK 구현의 데이터와 나란히 Customer Journey Analytics에서 기존 Adobe Analytics 구현의 데이터를 볼 수 있습니다.
 
@@ -128,21 +126,9 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
 1. [데이터가 Customer Journey Analytics으로 흘러가고 있는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
 
-1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
-
-   >[!NOTE]
-   >
-   >이전에 Analytics 소스 커넥터를 만들지 않은 경우 다음 단계를 사용하십시오.
-   >
-   >이미 Customer Journey Analytics에 Analytics 소스 커넥터를 사용하고 있는 경우 [Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 따릅니다.
-
-   1. [Analytics 원본 커넥터에 대한 XDM 스키마를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
-
-   1. [Analytics 원본 커넥터를 만들고 필드를 매핑합니다](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
-
-   1. [연결에 Analytics 원본 커넥터 데이터 집합을 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)합니다.
-
 1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
+
+   <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
 1. (선택 사항) Adobe Analytics에서 마케팅 채널을 사용하는 경우 [Customer Journey Analytics에서 마케팅 채널 파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md#marketing-channels).
 
@@ -152,9 +138,25 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    파생 필드에서 [마케팅 채널 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels)을(를) 사용하여 마케팅 채널의 파생 필드를 신속하게 만듭니다.
 
-1. 이전 구현의 데이터와 새 구현의 데이터를 비교하고, 차이점과 차이점이 존재하는 이유를 이해해야 합니다.
+1. 이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교하고, 차이점 및 차이점이 존재하는 이유를 이해해야 합니다. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
-1. ](/help/getting-started/aa-vs-cja/cja-aa.md) Customer Journey Analytics의 [기능 지원에 대해 알아봅니다. 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 지원되며, Customer Journey Analytics에서 많은 추가 기능을 사용할 수 있습니다.
+1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
+
+   >[!NOTE]
+   >
+   >이전에 Analytics 소스 커넥터를 만들지 않은 경우 다음 단계를 사용하십시오.
+   >
+   >이미 Customer Journey Analytics에 Analytics 소스 커넥터를 사용하고 있는 경우 [Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 따릅니다.
+
+   1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+   1. Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+      또는
+
+      Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
+
+   1. [연결에 Analytics 원본 커넥터 데이터 집합을 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)합니다.
 
 1. 사용자 온보딩을 계획합니다.
 
@@ -164,9 +166,11 @@ Customer Journey Analytics으로 완전히 전환하면 Analytics 소스 커넥�
 
    Adobe Analytics와 Customer Journey Analytics의 주요 차이점에 대한 자세한 내용은 [Adobe Analytics 사용자를 위한 사용 안내서](/help/getting-started/aa-to-cja-user.md)를 참조하십시오.
 
-1. AppMeasurement 데이터 수집을 비활성화합니다.
+1. ](/help/getting-started/aa-vs-cja/cja-aa.md) Customer Journey Analytics의 [기능 지원에 대해 알아봅니다. 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 지원되며, Customer Journey Analytics에서 많은 추가 기능을 사용할 수 있습니다.
 
-1. Analytics 소스 커넥터를 비활성화합니다.
+1. 웹 SDK 구현이 완료되고 수집 중인 데이터에 익숙해지면 [AppMeasurement 데이터 수집을 사용하지 않도록 설정](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)합니다.
+
+1. 모든 Analytics 소스 커넥터 데이터가 데이터 보존 기간을 벗어난 후 Analytics 소스 커넥터를 비활성화합니다.
 
    Experience Platform Web SDK 구현을 사용하면 내역 Adobe Analytics 데이터에 대해서만 Analytics 소스 커넥터가 필요하며 원래 구현의 데이터를 새 구현의 데이터와 비교합니다.
 

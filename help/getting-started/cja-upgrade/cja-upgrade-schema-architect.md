@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
+source-git-commit: 59089146b8e56db3b0b4084615f99dc65899b74f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,23 @@ ht-degree: 0%
 
 Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience Data Model) 스키마를 생성할 것을 권장합니다. XDM 스키마를 사용하면 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 사용할 수 있습니다. 스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.
 
-XDM 스키마 만들기를 시작하기 전에:
+XDM 스키마 아키텍처를 시작할 때 다음 섹션을 검토하십시오.
 
-1. 조직 전체에서 데이터 팀 및 기타 이해 당사자를 식별합니다.
+## XDM 스키마에서 Adobe Analytics 제한 방지
 
-1. 조직에서 사용하는 다른 Adobe Experience Platform 애플리케이션을 고려하면서 Customer Journey Analytics에 대한 조직의 이상적인 스키마 디자인을 결정합니다.
+Customer Journey Analytics의 기본 아키텍처는 Adobe Analytics보다 훨씬 더 많은 유연성을 제공합니다. 새로운 XDM 스키마를 만드는 것은 그러한 유연성을 여는 핵심 방법입니다. Customer Journey Analytics으로 업그레이드할 때 불필요한 Adobe Analytics 제한 사항을 스키마에 그대로 유지하지 않도록 하십시오.
+
+| Adobe Analytics 데이터 아키텍처 | XDM 스키마 아키텍처 |
+|---------|----------|
+| 개별 지표가 Analytics 데이터 아키텍처에 추가됩니다.<br/>예를 들어, Adobe Analytics의 경우 각 이벤트에 대해 다른 eVar이 있습니다. | XDM 스키마가 아닌 데이터 보기에서 개별 지표를 만듭니다. 이렇게 하면 나중에 변경해야 하는 경우에서 보다 유연하게 수행할 수 있습니다.<br/>예를 들어 Customer Journey Analytics에서 스키마에 단일 이벤트가 있으며 데이터 보기에서 이벤트 만들기를 사용합니다. |
+| 사용자 지정 변수를 만들려면 prop 및 eVar가 필요합니다. | B2 |
+| A3 | B3 |
+
+## 조직 전체에서 데이터 팀 및 기타 관련자 식별
+
+
+## 조직에서 사용되는 다른 Adobe Experience Platform 애플리케이션 고려
+
+
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

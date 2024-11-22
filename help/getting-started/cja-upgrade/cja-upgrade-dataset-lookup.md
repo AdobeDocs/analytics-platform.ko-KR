@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Analytics 소스 커넥터를 사용하는 경우 일부 표준 조회 데이터
 
 Experience Platform Web SDK를 사용할 때 Customer Journey Analytics에서 데이터를 분류하려면 분류할 데이터가 포함된 각 차원에 대한 XDM 스키마 및 조회 데이터 세트를 만들어야 합니다.
 
-## XDM 스키마 만들기
+## 조회 데이터 세트와 함께 사용할 XDM 스키마 만들기
 
 Customer Journey Analytics에서 분류할 데이터가 포함된 각 차원에 대해 새 XDM 스키마를 만듭니다. 이후 단계에서 조회 데이터 세트를 만들면 이 스키마를 참조합니다.
 
@@ -120,9 +120,9 @@ Customer Journey Analytics에서 연결에 조회 데이터 세트를 추가하�
 
 1. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
+   <!-- is there a step right in between here where you select the dataset -->
+
 1. **[!UICONTROL 키]** 필드와 **[!UICONTROL 일치하는 키]** 필드를 사용하여 조회 데이터 세트의 필드와 이벤트 또는 요약 데이터 세트의 필드 간의 상관 관계를 만듭니다.
 
 1. 모든 조회 데이터 세트가 Customer Journey Analytics의 연결에 추가된 후 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 수행합니다.
-
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
 
