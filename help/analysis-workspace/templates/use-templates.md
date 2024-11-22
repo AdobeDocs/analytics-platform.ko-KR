@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
+source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
-source-wordcount: '15295'
+source-wordcount: '15373'
 ht-degree: 58%
 
 ---
@@ -33,9 +33,17 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택합니다.
 
-1. [!UICONTROL **템플릿**]&#x200B;을(를) 선택하십시오.
+   ![템플릿 탭](assets/view-prebuilt-templates.png)
 
-   ![보고서 탭](assets/view-prebuilt-reports.png)
+1. [!UICONTROL **템플릿**] 섹션에서 다음 탭 중 하나를 선택합니다.
+
+   * **[!UICONTROL Adobe 템플릿]**: Adobe에서 제공한 모든 템플릿을 표시합니다.
+
+   * **[!UICONTROL _login_company_name _templates]**: 조직에서 만든 모든 회사 템플릿을 표시합니다.
+
+     회사 템플릿은 관리자만 만들 수 있습니다.
+
+1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png) 또는 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png) 아이콘을 선택하여 열 보기에서 템플릿을 볼 것인지 카드 보기에서 템플릿을 볼 것인지를 선택합니다.
 
 1. 검색 필드에서 찾을 템플릿의 이름을 입력한 다음 템플릿 목록에서 해당 이름을 선택합니다.
 
@@ -61,19 +69,19 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 1. 선택한 템플릿을 기반으로 보고서를 만들려면 템플릿을 선택합니다.
 
-## 템플릿 사용자 지정 및 저장 {#use-reports}
+## 템플릿을 기반으로 프로젝트 만들기 {#use-reports}
 
-템플릿이 사용자의 요구 사항에 정확히 맞지 않을 수 있지만 사용자에게 가까이 다가갈 수 있습니다. 이러한 경우 템플릿을 시작점으로 사용한 다음 특정 목적에 가장 적합하게 사용자 지정할 수 있습니다.
+템플릿이 사용자의 요구 사항에 정확히 맞지 않을 수 있지만 사용자에게 가까이 다가갈 수 있습니다. 이러한 경우 템플릿을 프로젝트의 시작점으로 사용한 다음 특정 목적에 가장 적합하게 사용자 지정할 수 있습니다.
 
 변경 후 템플릿에서 다른 곳으로 이동하면 변경 사항을 저장하거나 취소하라는 메시지가 표시됩니다. 템플릿에 변경 사항을 저장하면 템플릿이 새 프로젝트로 저장됩니다.
 
-템플릿을 사용자 정의하고 저장하려면 다음과 같이 하십시오.
+템플릿을 사용자 정의하고 프로젝트로 저장하려면 다음과 같이 하십시오.
 
 1. Adobe Analytics에서 [!UICONTROL **작업 영역**] 탭을 선택합니다.
 
 1. [!UICONTROL **템플릿**] 탭을 선택합니다.
 
-1. 보려는 템플릿을 선택합니다. 예를 들어 [!UICONTROL **추천**] 아래에서 [!UICONTROL **페이지**] 보고서를 선택합니다.
+1. 보려는 템플릿을 선택합니다. 예를 들어 [!UICONTROL **가장 자주 사용하는 항목**]&#x200B;에서 [!UICONTROL **페이지**] 템플릿을 선택합니다.
 
    Analysis Workspace에 표시되는 페이지 템플릿에는 두 개의 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)([막대 차트](/help/analysis-workspace/visualizations/bar.md) 및 [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md))와 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)이 표시됩니다. 사용된 지표는 발생 횟수입니다.
 
@@ -82,7 +90,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 1. 다음 중 하나를 수행합니다.
 
    * 템플릿을 봅니다.
-   * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그합니다. 예를 들어 [!UICONTROL **모바일 고객**]&#x200B;을 드래그하여 결과를 봅니다.
+   * 하나 이상의 필터를 상단의 필터 드롭 영역으로 드래그합니다. 예를 들어 [!UICONTROL **모바일 고객**] 필터를 드래그하여 결과를 봅니다.
    * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경합니다.
    * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 필요에 따라 템플릿을 사용자 정의합니다.
 
