@@ -286,7 +286,7 @@ ht-degree: 97%
    + 필터 {#cja-filters}
       + [개요](../components/filters/filters-overview.md)
       + [필터 만들기](../components/filters/create-filters.md)
-      + [필터 구성](../components/filters/filter-builder.md)
+      + [필터 빌드](../components/filters/filter-builder.md)
       + [빠른 필터](../components/filters/quick-filters.md)
       + [순차적 필터](../components/filters/seg-sequential-build.md)
       + [필터 공유](../components/filters/filters-share.md)
