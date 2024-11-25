@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4216'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 11월** | |
-| BI 확장 기능 사용 사례 | Power BI 데스크톱 및 Tableau Desktop과 같은 BI 도구에 대한 여러 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)에 대한 설명서입니다. |
+| BI 확장 기능 사용 사례 | Power BI Desktop 및 Tableau Desktop과 같은 BI 도구에 대한 여러 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)에 대한 설명서입니다. |
 | 스티칭 및 개인정보 보호 요청 | 개인정보 보호 요청의 결과로 발생하는 [향후 언스티칭 프로세스 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 공지가 추가되었습니다. |
 | **2024년 10월** | |
 | 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |
@@ -72,7 +72,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2024년 1월** | |
 | 예측 | 자유 형식 테이블 및 선 차트용으로 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능인 [예측](../analysis-workspace/c-forecast/forecasting.md)의 설명서를 추가했습니다. |
 | 전체 테이블을 내보낼 때 계정 및 위치 추가에 대한 설명서를 업데이트했습니다. | [Analysis Workspace에서 전체 테이블을 내보낼 경우](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다.<p>이제 새로운 [!UICONTROL **계정 추가**] 옵션을 [!UICONTROL **계정**] 드롭다운 메뉴에서 사용할 수 있습니다. 이전에는 [!UICONTROL **위치 이름**] 드롭다운 메뉴 옆의 버튼으로 사용할 수 있었던 [!UICONTROL **위치 추가**] 옵션을 이제 메뉴 자체에서 사용할 수 있습니다. |
-| Adobe Analytics에서 마이그레이션할 때 새로운 구성 요소 마이그레이션 정보 | Adobe Analytics 관리 안내서에서 문서화된 새로운 [구성 요소 마이그레이션](https://experienceleague.adobe.com/kr/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) 기능을 참조하는 [Adobe Analytics의 발전](/help/getting-started/aa-to-cja.md)에 정보를 추가했습니다. |
+| Adobe Analytics에서 마이그레이션할 때 새로운 구성 요소 마이그레이션 정보 | Adobe Analytics 관리 안내서에서 문서화된 새로운 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) 기능을 참조하는 [Adobe Analytics의 발전](/help/getting-started/aa-to-cja.md)에 정보를 추가했습니다. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 데이터 세트를 클라우드 대상으로 내보내는 데 [필요한 권한](/help/technotes/access-control.md)을 설명하는 정보를 추가했습니다. |
 | 연결 관리 | 고객 피드백을 기반으로 [연결 관리](../connections/manage-connections.md) 문서를 업데이트했습니다. |

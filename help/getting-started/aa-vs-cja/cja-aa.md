@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 221b73ef8dc0f7d28d13b8571955792367519849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 
 ## 전체 지원되는 Adobe Analytics 기능/구성 요소 {#full-support}
 
-| Adobe Analytics 기능 | CJA 지원에 대한 참고 사항 |
+| Adobe Analytics 기능 | CJA 지원 관련 참고 사항 |
 | --- | --- |
 | **이상 현상 발견** | 전체 지원 |
 | **Attribution IQ** | 전체 지원 |
@@ -78,7 +78,7 @@ ht-degree: 99%
 
 | 기능 | 참고 |
 | --- | --- |
-| **Advertising Cloud** | [Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
+| **Advertising Cloud** | [Customer Journey Analytics에서 사용할 AMO ID와 EF ID에 대한 내역 데이터를 수집](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/planning/rvars-to-evars)할 수 있습니다. |
 | **경고** | [Customer Journey Analytics에서의 경고 사용](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) 프로세스는 Adobe Analytics에서의 경고 사용 프로세스와 거의 동일합니다. <p>그러나 Customer Journey Analytics의 데이터 수집 타이밍으로 인해 매시간 알림 제공은 불가능합니다. Customer Journey Analytics에서는 알림을 매일, 매주 또는 매월로 구성할 수 있습니다.</p> |
 | **Analytics for Target (A4T)** | [Adobe Customer Journey Analytics와 Target 간 통합](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다. |
 | **대상자 게시** | Adobe의 Customer Data Platform 또는 Journey Optimizer 제품 라이선스가 부여된 경우 지원됩니다. [대상자 게시](/help/components/audiences/audiences-overview.md)는 Experience Platform의 실시간 고객 프로필로 대상자를 보냅니다. |
