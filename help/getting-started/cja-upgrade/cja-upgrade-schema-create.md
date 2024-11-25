@@ -1,20 +1,20 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics을 위한 사용자 지정 스키마 만들기
+description: Customer Journey Analytics을 위한 사용자 지정 스키마를 만드는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 46%
+source-wordcount: '1083'
+ht-degree: 45%
 
 ---
 
-# Customer Journey Analytics 웹 SDK 구현에 사용할 XDM 스키마 만들기
+# Customer Journey Analytics 웹 SDK 구현에 사용할 사용자 지정 스키마 만들기
 
 >[!NOTE]
 > 
@@ -24,15 +24,15 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->XDM 스키마를 생성하기 전에 조직 내의 데이터 팀 및 기타 관련자와 협력하여 사용하는 Customer Journey Analytics 및 기타 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 식별하십시오. 자세한 내용은 [Customer Journey Analytics에 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
+>사용자 정의 스키마를 생성하기 전에 조직 내의 데이터 팀 및 기타 관련자와 협력하여 사용하는 Customer Journey Analytics 및 기타 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 식별하십시오. 자세한 내용은 [Customer Journey Analytics에 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
 
-Adobe은 Customer Journey Analytics으로 업그레이드할 때 사용자 지정 XDM(경험 데이터 모델) 스키마를 생성할 것을 권장합니다. 사용자 정의 스키마를 사용하면 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 사용할 수 있습니다. 스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.
+Adobe은 Customer Journey Analytics으로 업그레이드할 때 Web SDK에 사용할 사용자 지정 XDM(경험 데이터 모델) 스키마를 생성할 것을 권장합니다. 사용자 정의 스키마를 사용하면 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 사용할 수 있습니다. 스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.
 
 ## 스키마 만들기
 
-정의하는 XDM 스키마는 Adobe Experience Platform에 수집하는 데이터의 모델을 나타냅니다.
+웹 SDK 구현에 대해 정의하는 사용자 지정 스키마는 Adobe Experience Platform에 수집하는 데이터의 모델을 나타냅니다.
 
-사용자 정의 스키마를 생성하려면:
+사용자 지정 스키마를 만들려면:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 

@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 8%
+source-wordcount: '700'
+ht-degree: 7%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 8%
 
 Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
 
-이 프로세스에서는 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics으로 업그레이드할 때 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)한다고 가정합니다.
+이 프로세스에서는 조직 및 사용하는 특정 Platform 응용 프로그램의 요구 사항에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics Web SDK 구현에 사용할 사용자 지정 스키마를 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)하려고 하는 것으로 가정합니다.
 
 Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
 
-1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Analytics 소스 커넥터에 대한 사용자 지정 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Analytics 소스 커넥터가 없는 경우 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑합니다.
+1. Analytics 소스 커넥터가 없는 경우 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 사용자 지정 웹 SDK 스키마에 매핑합니다.
 
    또는
 
-   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
+   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 사용자 지정 웹 SDK 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
 
 1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## Analytics 소스 커넥터 및 맵 필드 만들기
 
-XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들어야 합니다. (소스 커넥터 만들기에 대한 포괄적인 일반 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
+사용자 지정 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들어야 합니다. (소스 커넥터 만들기에 대한 포괄적인 일반 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
 
 이전 데이터에 사용할 Adobe Analytics 소스 커넥터를 만들려면 다음 작업을 수행하십시오.
 
@@ -60,11 +60,11 @@ XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 
 
 1. 화면 오른쪽 상단에서 **[!UICONTROL 다음]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL 사용자 지정 스키마]**&#x200B;를 선택한 다음 [Adobe Analytics 필드 그룹을 포함하는 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)에서 만든 스키마를 선택합니다. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. **[!UICONTROL 사용자 지정 스키마]**&#x200B;를 선택한 다음 [Adobe Analytics 필드 그룹을 포함하는 사용자 지정 스키마를 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)에서 만든 스키마를 선택합니다. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
-1. 각 Adobe Analytics 차원을 사용자 지정 XDM 스키마 차원에 매핑합니다.
+1. 각 Adobe Analytics 차원을 사용자 지정 스키마 차원에 매핑합니다.
 
    1. **[!UICONTROL 표준 필드 매핑]** 섹션에서 **[!UICONTROL 사용자 지정]** 탭을 선택합니다.
 
@@ -72,7 +72,7 @@ XDM 스키마를 만들면 내역 데이터에 사용할 Adobe Analytics 소스 
 
    ![스키마 필드 매핑](assets/schema-mapping.png)
 
-   1. **[!UICONTROL Source 필드]**&#x200B;의 Adobe Analytics ExperienceEvent 템플릿 필드 그룹에서 Adobe Analytics 필드를 선택합니다. 그런 다음 **[!UICONTROL Target 필드]**&#x200B;에서 매핑할 XDM 필드를 선택합니다.
+   1. **[!UICONTROL Source 필드]**&#x200B;의 Adobe Analytics ExperienceEvent 템플릿 필드 그룹에서 Adobe Analytics 필드를 선택합니다. 그런 다음 **[!UICONTROL Target 필드]**&#x200B;에서 매핑할 XDM 스키마의 사용자 지정 필드를 선택합니다.
 
       AppMeasurement과 XDM 간의 고유한 아키텍처 차이로 인해 모든 Adobe Analytics 필드에 XDM의 해당 필드가 있는 것은 아닙니다.
 

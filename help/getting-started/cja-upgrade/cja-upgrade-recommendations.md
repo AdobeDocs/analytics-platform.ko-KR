@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1594'
 ht-degree: 5%
 
 ---
@@ -140,7 +140,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
 1. 이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교하고, 차이점 및 차이점이 존재하는 이유를 이해해야 합니다. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
-1. (선택 사항) Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터를 가져옵니다.
+1. Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터 가져오기:
 
    >[!NOTE]
    >
