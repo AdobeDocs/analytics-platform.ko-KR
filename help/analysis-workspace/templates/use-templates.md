@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
 workflow-type: tm+mt
-source-wordcount: '15449'
+source-wordcount: '15490'
 ht-degree: 78%
 
 ---
@@ -61,7 +61,11 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    사용 가능한 템플릿 목록은 아래의 [사용 가능한 템플릿](#available-templates) 섹션을 참조하십시오.
 
-1. (선택 사항) 데이터 보기에서 사용할 수 없는 구성 요소가 포함된 템플릿을 보고 사용합니다. (기본적으로 템플릿은 데이터 보기에서 사용할 수 있는 구성 요소를 사용하는 경우에만 표시됩니다.)
+1. (선택 사항) 데이터 보기에서 사용할 수 없는 구성 요소가 포함된 템플릿을 볼 수 있습니다. (기본적으로 템플릿은 데이터 보기에서 사용할 수 있는 구성 요소를 사용하는 경우에만 표시됩니다.)
+
+   >[!NOTE]
+   >
+   >   이러한 템플릿을 사용하려면 먼저 관리자가 이러한 누락된 구성 요소에 대한 필수 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [누락된 구성 요소를 지정된 템플릿에 대한 데이터 보기에 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
 
    1. 필터 아이콘을 선택합니다.
 

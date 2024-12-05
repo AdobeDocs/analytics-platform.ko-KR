@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 4%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
 
-1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일의 **[!UICONTROL 템플릿]**&#x200B;에서 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
 
 1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 경우:
 
@@ -67,6 +67,8 @@ ht-degree: 4%
    1. 편집하거나 삭제할 템플릿을 찾습니다.
 
       ![회사 템플릿 카드 보기](assets/company-template-cards.png)
+
+   1. 템플릿 위로 마우스를 가져간 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
 
    1. 기타 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
@@ -97,6 +99,73 @@ ht-degree: 4%
    [템플릿 편집 또는 삭제](#edit-or-delete-templates)에 설명된 대로 템플릿을 삭제하거나 템플릿을 삭제할 수도 있습니다.
 
 1. (선택 사항) 필터 레일에서 일반 보기로 돌아가려면 **[!UICONTROL 회사 템플릿]**&#x200B;을 선택 취소합니다.
+
+## 주어진 템플릿에 대한 데이터 보기에 누락된 구성 요소를 추가합니다.
+
+기본적으로 Adobe에서 제공하는 일부 템플릿에는 데이터 보기에 없는 구성 요소가 포함되어 있으므로 작동하지 않습니다.
+
+누락된 각 구성 요소에 대해 일치하는 컨텍스트 레이블을 데이터 보기에서 사용할 수 있습니다. 데이터 보기에 이미 있는 구성 요소에 일치하는 컨텍스트 레이블을 추가하거나 데이터 보기에 새 구성 요소를 추가하고 컨텍스트 레이블을 추가해야 합니다.
+
+누락된 구성 요소를 템플릿에 추가하려면 다음 작업을 수행하십시오.
+
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일의 **[!UICONTROL 템플릿]**&#x200B;에서 **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다.
+
+1. 필터 아이콘을 선택하여 템플릿 목록을 필터링합니다.
+
+1. 데이터 보기에 없는 구성 요소가 필요한 템플릿을 표시하려면 **[!UICONTROL 사용할 준비가 되지 않음]**&#x200B;을 선택하십시오.
+
+   ![구성 요소가 없는 템플릿 사용](assets/template-not-ready.png)
+
+1. 데이터 보기에 아직 사용할 준비가 되지 않은 템플릿을 찾습니다.
+
+1. 다음 중 하나를 수행합니다.
+
+   * **열 보기에서 서식 파일을 보는 경우** ![열 보기 아이콘](assets/column-view-icon.png):
+
+      1. 아직 데이터 보기에 사용할 준비가 되지 않은 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 정보 아이콘을 선택합니다.
+
+         ![회사 템플릿 정보](assets/company-template-info.png)
+
+      1. **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
+
+         ![템플릿 미리 보기 페이지](assets/template-preview.png)
+
+   * **카드 보기에서 템플릿을 보는 경우** ![카드 보기 아이콘](assets/card-view-icon.png):
+
+      1. 데이터 보기에 사용할 준비가 되지 않은 템플릿을 찾습니다.
+
+         ![회사 템플릿 카드 보기](assets/company-template-cards.png)
+
+      1. 템플릿 위로 마우스를 가져간 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
+
+         ![템플릿 미리 보기 페이지](assets/template-preview.png)
+
+1. **[!UICONTROL 누락된 구성 요소]** 섹션에 데이터 보기에서 누락된 구성 요소 목록이 표시됩니다. **[!UICONTROL 이 구성 요소를 데이터 보기에 추가]**&#x200B;를 선택합니다.
+
+   데이터 보기에 대한 구성 페이지가 새 탭에 표시됩니다.
+
+1. 데이터 보기의 **[!UICONTROL 구성 요소]** 탭을 선택하십시오.
+
+   ![데이터 보기 구성 요소 탭](assets/template-dataview.png)
+
+1. 템플릿에서 누락된 것으로 나열된 각 구성 요소에 대해 **[!UICONTROL 구성 요소]** 탭에서 다음 중 하나를 수행합니다.
+
+   * **[!UICONTROL 포함된 구성 요소]** 섹션에서 누락된 구성 요소에 사용할 데이터 보기에 이미 포함된 구성 요소를 선택합니다.
+
+   * 누락된 구성 요소에 사용할 데이터 보기에 새 구성 요소를 추가한 다음 구성 요소를 선택합니다.
+
+     데이터 보기에 새 구성 요소를 추가하려면 스키마 필드 목록을 검색한 다음 **[!UICONTROL 포함된 구성 요소]** 섹션으로 끌어옵니다.
+
+1. 구성 요소를 선택한 상태에서 오른쪽 열에서 **[!UICONTROL 컨텍스트 레이블]** 드롭다운 메뉴를 찾습니다.
+
+   ![데이터 보기 구성 요소 탭](assets/template-dataview-context-label.png)
+
+1. **[!UICONTROL 컨텍스트 레이블]** 드롭다운 메뉴에서 누락된 구성 요소와 이름이 같은 컨텍스트 레이블을 선택합니다.
+
+1. **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다.
+
+1. 누락된 각 구성 요소에 대해 데이터 보기의 구성 요소에 일치하는 컨텍스트 레이블을 추가하는 프로세스를 반복합니다.
+
 
 ## 회사 템플릿 액세스
 
