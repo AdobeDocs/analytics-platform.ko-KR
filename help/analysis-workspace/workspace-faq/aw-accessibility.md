@@ -4,9 +4,9 @@ title: Analysis Workspace 액세스 가능 여부
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
 workflow-type: ht
-source-wordcount: '544'
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 ### 키보드 단축키 (핫키)
 
-[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) 세트를 제공합니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) 세트를 제공합니다.
 
 ## 화면 판독기 및 화면 돋보기 지원
 
@@ -64,7 +64,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 [!UICONTROL Analysis Workspace]는 색상 대비 요구 사항을 포함하여 WCAG 2.1 AA 적합성을 준수하기 위해 최선을 다합니다.
 
-또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다.
+또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다.
 
 ## 필수 유효성 검사
 
