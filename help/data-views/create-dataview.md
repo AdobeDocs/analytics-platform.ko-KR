@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
-workflow-type: ht
-source-wordcount: '1884'
-ht-degree: 100%
+source-git-commit: 60daea2b6c376c417a998a986c8fdfdff85decd9
+workflow-type: tm+mt
+source-wordcount: '1899'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer와 함께 사용할, Customer Journey Analytics의 관련 연결에 포함된 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하여 주는 추가 사용자 정의를 만듭니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
+| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer와 함께 사용할, Customer Journey Analytics의 관련 연결에 포함된 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하여 주는 추가 사용자 정의를 만듭니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li><li>이 옵션을 선택하면 데이터 보기와 연결된 연결을 삭제할 수 없습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
 
 {style="table-layout:auto"}
 

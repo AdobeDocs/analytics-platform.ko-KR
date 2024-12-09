@@ -5,10 +5,10 @@ exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 928c79f9ccf30cc33e0f334f715bf3190a257019
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 71%
+source-wordcount: '418'
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics 또는 Adobe Experience Platform에서 연결, 데이
 
 | 다음 작업을 수행하는 경우 | 발생하는 결과 |
 | --- | --- |
-| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul>권한이 없는 Adobe Experience Platform 샌드박스에 연결된 Customer Journey Analytics 연결은 삭제할 수 없습니다. 이러한 연결을 기반으로 구축된 데이터 보기에 대한 권한이 있어도 기본 Adobe Experience Platform 샌드박스에 대한 권한이 부여될 때까지 연결을 삭제할 수 없습니다. |
+| [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Analysis Workspace 프로젝트의 작동이 정지됩니다.</li></ul>다음과 같은 Customer Journey Analytics 연결은 삭제할 수 없습니다. <ul><li>권한이 없는 Adobe Experience Platform 샌드박스에 연결되어 있습니다. 이러한 연결을 기반으로 구축된 데이터 보기에 대한 권한이 있어도 기본 Adobe Experience Platform 샌드박스에 대한 권한이 부여될 때까지 연결을 삭제할 수 없습니다.</li><li>연결과 연결된 데이터 보기에 대해 다음 호환성 옵션을 선택했습니다. **[!UICONTROL Adobe Journey Optimizer에서 기본 데이터 보기로 설정]**<p>이 구성 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [호환성](/help/data-views/create-dataview.md#compatibility)을 참조하십시오.</p></li></ul> |
 | [!UICONTROL Adobe Experience Platform]에서 데이터 세트 삭제 | AEP에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 모든 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 세트의 모든 데이터는 연관된 Customer Journey Analytics 연결에서 자동으로 삭제됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트 삭제 | Customer Journey Analytics의 연결에서 데이터 세트를 삭제하면 해당 데이터 세트에 의존한 모든 데이터 보기 및 프로젝트가 더 이상 작동하지 않습니다. |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 [!UICONTROL Customer Journey Analytics] 연결에서 동일한 일괄 처리가 제거됩니다. [!UICONTROL Customer Journey Analytics]는 [!UICONTROL Adobe Experience Platform]에서 삭제된 일괄 처리에 대한 알림을 받습니다. |
