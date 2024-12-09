@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 28a43ef92bee1359509c0c3f92d51a08653830c3
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 30%
 
 ---
@@ -17,9 +17,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaminuteaverageaudience_button"
->title="미디어 평균 분당 시청자"
+>title="미디어 평균 분당 시청 대상자"
 >abstract="특정 콘텐츠나 특정 기간 동안의 미디어 평균 분당 시청 대상자를 분석하는 패널을 만듭니다."
-
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,10 +26,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaaverageminuteaudience_panel"
->title="미디어 평균 분당 시청자"
+>title="미디어 평균 분당 시청 대상자"
 >abstract="특정 미디어 콘텐츠나 사용자 정의 기간 동안의 성과를 보여 줍니다.<br/><br/>**일반 매개변수&#x200B;**<br/>**다음에 대한 지표 계산**: 지표 계산: 패널에 사용할 지표를 선택합니다. **특정 콘텐츠**&#x200B;를 선택하여 콘텐츠 길이를 기준으로 특정 콘텐츠나 이벤트에 대한 평균 분당 시청 대상자를 분석합니다. **사용자 정의 기간을 선택하여** 선택한 사용자 정의 기간 동안 평균 분당 시청 대상자가 어떻게 변하는지 분석합니다.<br/>**보고 차원**: **콘텐츠 ID** 차원의 **비디오 이름**&#x200B;별로 보고할지 선택합니다. 특정 콘텐츠를 지표로 선택한 경우에만 사용할 수 있습니다.<br/>**세부 기간**: 보고할 세부 기간을 선택합니다. 사용자 정의 기간을 지표로 선택한 경우에만 사용할 수 있습니다.<br/>**콘텐츠 필터링 기준(선택 사항)**: 특정 프로그램, 시즌, 에피소드를 선택하거나 사용자 정의 차원을 선택하여 콘텐츠를 필터링합니다.<br/><br/>**고급 설정&#x200B;**<br/>**표 설정**: 표에 계산 값을 표시할 수 있는지 여부를 선택합니다.<br/>**체류 시간 지표**: 특정 콘텐츠 계산에 사용할 체류 시간 지표를 선택합니다. 특정 콘텐츠를 지표로 선택한 경우에만 사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#specific-content" text="특정 콘텐츠"
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#custom-time-period" text="사용자 정의 기간"
 
 <!-- markdownlint-enable MD034 -->
 
