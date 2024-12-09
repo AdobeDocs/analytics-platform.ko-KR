@@ -4,9 +4,9 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '754'
 ht-degree: 26%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 26%
 <!-- markdownlint-enable MD034 -->
 
 
-Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTROL 자유 형식 테이블]** 시각화는 대화형 데이터 분석의 기반입니다. [구성 요소](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
+Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTROL 자유 형식 테이블]** 시각화는 대화형 데이터 분석의 기반입니다. [구성 요소](/help/components/overview.md) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
 
 ![여러 웹 페이지에 대한 방문 및 온라인 주문을 포함하여 행과 열의 구성 요소를 표시하는 자유 형식 테이블.](assets/opening-section.png)
 
@@ -54,16 +54,16 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 ### 다른 결과를 표시했던
 
 * ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)를 사용하여 하나 이상의 행에서 빠르게 [새 시각화를 만들기](../freeform-analysis-visualizations.md#visualize)할 수 있습니다.
-* 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
+* 프로젝트의 [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
 * 페이지 매김이 발생하기 전에 각 차원 행에 최대 400개의 행을 표시할 수 있습니다. 페이지에 더 많은 행을 표시하려면 첫 번째 열 헤더에서 **[!UICONTROL 행]** 옆의 숫자를 선택하십시오. 첫 번째 열 머리글에서 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 사용하여 다른 페이지로 이동합니다.
-* 추가 구성 요소로 행을 분류할 수 있습니다. 한 번에 여러 행을 분류하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 드래그합니다. [분류](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa)에 대해 자세히 알아보십시오.
-* 행을 [필터링](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings)에서 사용할 수 있습니다.
+* 추가 구성 요소로 행을 분류할 수 있습니다. 한 번에 여러 행을 분류하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 드래그합니다. [분류](/help/components/dimensions/t-breakdown-fa.md)에 대해 자세히 알아보십시오.
+* 행을 [필터링](/help/components/filters/filters-overview.md)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)에서 사용할 수 있습니다.
 
 ### 열
 
 * 구성 요소를 열 내에 스택하여 필터가 적용된 지표, 탭 간 분석 등을 만들 수 있습니다.
-* 각 열의 보기는 [열 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings)에서 조정할 수 있습니다.
-* [상황에 맞는 메뉴](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴에서는 표 머리글, 행 또는 열 선택 여부에 따라 다른 작업을 제공합니다.
+* 각 열의 보기는 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)에서 조정할 수 있습니다.
+* [상황에 맞는 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴에서는 표 머리글, 행 또는 열 선택 여부에 따라 다른 작업을 제공합니다.
 
 
 ## 설정
@@ -84,7 +84,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 | **[!UICONTROL 각 열의 날짜가 같은 행에서 모두 시작하도록 맞춥니다]** | 날짜를 각 열에서 동일한 행의 시작으로 정렬하거나 정렬하지 않음. |
 
 
-## 상황에 맞는 메뉴
+## 컨텍스트 메뉴
 
 시각화 헤더에서 다음 [컨텍스트 메뉴](../freeform-analysis-visualizations.md#context-menu) 옵션을 사용할 수 있습니다.
 

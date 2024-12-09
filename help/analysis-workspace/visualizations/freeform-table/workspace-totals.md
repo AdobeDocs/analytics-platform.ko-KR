@@ -4,9 +4,9 @@ title: 작업 영역 합계
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: b9abcf48c5334d71639d7d96558a63611a4a491c
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '487'
 ht-degree: 18%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 18%
 
 ## 합계 표시
 
-![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 열 설정]**&#x200B;에 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총합계 표시]** 옵션이 있습니다. 이러한 설정을 선택 취소하면 표에서 합계가 제거되며, 이는 합계가 적절하지 않은 경우에 필요할 수 있습니다. 예를 들어 특정 [계산된 지표 시나리오](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals)에서.
+![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 열 설정]**&#x200B;에 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총합계 표시]** 옵션이 있습니다. 이러한 설정을 선택 취소하면 표에서 합계가 제거되며, 이는 합계가 적절하지 않은 경우에 필요할 수 있습니다.
 
 
 [정적 행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 합계는 다르게 동작하며 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 행 설정]**&#x200B;을 사용하여 제어합니다.
@@ -53,7 +53,7 @@ ht-degree: 18%
 | 질문 | 답변 |
 |---|---|
 | 회색 열 비율은 어느 *합계*&#x200B;를 기반으로 합니까? | 이 *합계*&#x200B;는 **[!UICONTROL 행 설정]**&#x200B;의 **[!UICONTROL 백분율]** 설정 선택 사항에 따라 달라집니다.<ul><li>열별 백분율 계산 - 이 설정이 기본값입니다. 백분율은 테이블 합계를 기반으로 합니다.</li><li>행별 백분율 계산 - 백분율은 총계를 기반으로 합니다.</li></ul> |
-| **[!UICONTROL 값 없음 포함]** 설정은 합계에 어떤 영향을 줍니까? | **[!UICONTROL 값 없음 포함&quot;]** 설정이 선택 취소되면 **[!UICONTROL 값 없음]** 행이 테이블, 테이블 합계에서 제거되고 [*합계* 지표 유형](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc)을 사용하는 모든 계산된 지표로 전달됩니다. |
+| **[!UICONTROL 값 없음 포함]** 설정은 합계에 어떤 영향을 줍니까? | **[!UICONTROL 값 없음 포함&quot;]** 설정이 선택 취소되면 **[!UICONTROL 값 없음]** 행이 테이블, 테이블 합계에서 제거되고 [*합계* 지표 유형](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)을 사용하는 모든 계산된 지표로 전달됩니다. |
 | 사용자 지정 테이블 필터가 자유 형식 테이블에 적용되는 경우 모든 계산된 지표 및 조건부 서식이 필터를 처리합니까? | 현재 처리하지 않습니다. **[!UICONTROL Include &quot;값 없음&quot;]**&#x200B;이(가) 해당되지만 사용자 지정 테이블 필터는 다음 항목에 영향을 주지 않습니다.<ul><li>조건부 서식에서 사용하는 열 최대/최소 범위는 모든 데이터를 표시합니다.</li><li>**[!UICONTROL 총계]** 지표 유형을 활용하는 계산된 지표입니다.</li><li>자유 형식 테이블의 행들 간에 계산되는 열 합계, 열 최대값, 열 최소값, 카운트, 평균, 중간값, 백분위수, 사분위수, 행 수, 표준 편차, 분산, 누적, 누적 평균, 회귀 변형, T 스코어, T 테스트, Z 스코어 및 Z 테스트와 같은 함수를 사용하는 계산된 지표.</li></ul> |
 | 계산된 지표에서 **[!UICONTROL 총계]** 지표 유형은 무엇을 반영합니까? | **[!UICONTROL 총계]**&#x200B;는 **[!UICONTROL 총계]**&#x200B;을(를) 계속 참조하며 테이블이나 **[!UICONTROL 테이블 총계]**&#x200B;에 적용된 필터를 반영하지 않습니다. |
 | 데이터를 자유 형식 테이블에서 복사하여 붙여넣거나 CSV를 통해 다운로드할 때에는 어떤 합계가 표시됩니까? | 합계 행은 **[!UICONTROL 테이블 합계]**&#x200B;만 반영하며 열 **[!UICONTROL 합계 표시]** 설정을 준수합니다. |

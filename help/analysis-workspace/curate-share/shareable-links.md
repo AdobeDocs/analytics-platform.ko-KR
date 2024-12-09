@@ -5,10 +5,10 @@ title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 67%
+source-wordcount: '379'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 
 ## 다른 Workspace 사용자와 공유할 프로젝트 링크 받기 {#project-link}
 
-프로젝트에 대한 링크를 공유하려면 공유할 프로젝트로 이동한 다음 [!UICONTROL **공유**] > [!UICONTROL **프로젝트 링크 가져오기**](또는 **공유**] > [!UICONTROL **Workspace 사용자와 공유**] > [!UICONTROL **링크로 공유**)로 이동을 선택합니다. 링크를 공유받는 사용자는 로그인해야 합니다.
+프로젝트에 대한 링크를 공유하려면 공유할 프로젝트로 이동한 다음 **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 링크 가져오기]**(또는 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]** > **[!UICONTROL 링크로 공유]**)로 이동을 선택합니다. 링크를 공유받는 사용자는 로그인해야 합니다.
 
-링크의 수신자에게 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)이 할당되지 않은 경우 관리자는 **[!UICONTROL 원본 편집]** 기능을 받으며 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 경험을 받습니다.
+링크의 수신자에게 [프로젝트 역할](/help/analysis-workspace/curate-share/share-projects.md)이 할당되지 않은 경우 관리자는 **[!UICONTROL 원본 편집]**&#x200B;을 받고 관리자가 아닌 사용자는 **[!UICONTROL 복사본 편집]**&#x200B;을 받습니다.
 
 ## 모두와 공유할 수 있는 읽기 전용 링크 받기
 

@@ -4,9 +4,9 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 29%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 29%
 
 Workspace 프로젝트에 사용자 정의 서식 있는 텍스트를 추가하려면 ![텍스트](/help/assets/icons/Text.svg) **[!UICONTROL 텍스트]** 시각화를 사용하거나 시각화 및 패널에 대한 설명을 사용할 수 있습니다.
 
-## Use
+## 사용
 
 다음과 같은 방법으로 텍스트 시각화를 사용할 수 있습니다.
 
@@ -45,7 +45,7 @@ Workspace 프로젝트에 사용자 정의 서식 있는 텍스트를 추가하�
 
 ## 하이퍼링크 추가 {#hyperlinks}
 
-하이퍼링크를 추가하려면 텍스트를 강조 표시하고 메뉴에서 ![링크](/help/assets/icons/Link.svg)를 선택하십시오. 하이퍼링크를 사용하여 프로젝트 수신자에게 추가 지원을 제공할 수 있습니다. 하이퍼링크는 외부 웹 사이트, 문서 페이지, [Workspace 프로젝트, 패널 또는 시각화](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) 등에 연결할 수 있습니다.
+하이퍼링크를 추가하려면 텍스트를 강조 표시하고 메뉴에서 ![링크](/help/assets/icons/Link.svg)를 선택하십시오. 하이퍼링크를 사용하여 프로젝트 수신자에게 추가 지원을 제공할 수 있습니다. 하이퍼링크는 외부 웹 사이트, 문서 페이지, [Workspace 프로젝트, 패널 또는 시각화](/help/analysis-workspace/curate-share/shareable-links.md) 등에 연결할 수 있습니다.
 
 링크 아이콘이 강조 표시된 ![텍스트 옵션입니다.](assets/hyperlink.png)
 

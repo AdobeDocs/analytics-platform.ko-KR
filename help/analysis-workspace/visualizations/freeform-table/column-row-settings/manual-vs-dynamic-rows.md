@@ -4,10 +4,10 @@ description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상�
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 49%
+source-wordcount: '542'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 49%
 
 차원을 자유 형식 테이블에 놓으면 동적 행이 반환됩니다. 동적 행은 주어진 지표 및 기간에 대한 차원에 해당하는 상위 항목을 나타냅니다. 차원을 자유 형식 테이블 열에 놓을 수도 있으며 이 차원은 상위 5개 차원 항목으로 자동으로 확장됩니다.
 
-예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행에 반환됩니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
+예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행으로 돌아갑니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
 
 동적 차원 항목에는 행 필터 옵션 ![Filter](/help/assets/icons/Filter.svg) 및 ![Close](/help/assets/icons/Close.svg)이(가) 있으며, **not**&#x200B;은(는) 잠금 ![LockClosed](/help/assets/icons/LockClosed.svg)이(가) 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 ![닫기](/help/assets/icons/Close.svg)를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [표 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하세요.
 
@@ -53,4 +53,4 @@ ht-degree: 49%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
 
 * 동적 행은 세션 또는 개인과 같이 합계로서 계산된 서버측 및 중복 제거 지표입니다.
-* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
