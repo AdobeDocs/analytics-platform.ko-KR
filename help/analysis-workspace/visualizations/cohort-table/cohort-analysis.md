@@ -4,10 +4,10 @@ description: Analysis Workspace에서 집단 분석에 집단 테이블을 사�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 37%
+source-wordcount: '641'
+ht-degree: 34%
 
 ---
 
@@ -56,6 +56,8 @@ ht-degree: 37%
 >[!IMPORTANT]
 >
 >[!UICONTROL 집단 분석]에서는 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생 횟수를 지원하지 않습니다. 필터에 사용할 수 있는 지표만 [!UICONTROL 집단 분석]에서 사용할 수 있으며 한 번에 1씩만 증분할 수 있습니다.
+
+Customer Journey Analytics의 집단 테이블은 이중 기반(또는 모든 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value (이중)를 포함/반환 지표로 사용할 수 있습니다. 또한 Analytics Source 커넥터를 통해 Adobe Experience Platform으로 전달되는 모든 지표도 두 배가 됩니다.
 
 ## 집단 테이블 기능
 
