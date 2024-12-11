@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Customer Journey Analytics에서 Customer Journey Analytics은 순서대로 수�
 
 | 데이터 내보내기 사용 사례 | Experience Platform 및 Customer Journey Analytics 기능 |
 |---|---|
-| **데이터 백업**<br/>&#x200B;규정 준수 또는 규제 목적으로 디지털 데이터의 전체 복사본을 유지합니다. | **Experience Platform**: [**데이터 세트 내보내기**](export-datasets.md)<br/> Experience Platform에서 수집된 데이터를 일정 또는 임시로 클라우드 대상으로 직접 내보냅니다.<br/>*현재 제한된 릴리스, 2024년 6월에 Customer Journey Analytics 고객을 위한 전체 릴리스가 예정되어 있습니다.* |
+| **데이터 백업**<br/>&#x200B;규정 준수 또는 규제 목적으로 디지털 데이터의 전체 복사본을 유지합니다. | **Experience Platform**: [**데이터 세트 내보내기**](export-datasets.md)<br/> Experience Platform에서 수집된 데이터를 일정 또는 임시로 클라우드 대상으로 직접 내보냅니다. |
 | **데이터 유효성 검사**<br/>&#x200B;클릭스트림 데이터를 평가하여 데이터 수집 정확도를 확인합니다. | **Experience Platform**: [**쿼리 서비스(Data Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> 대화형 PostgreSQL 인터페이스를 사용하여 즐겨 사용하는 SQL 도구를 사용하여 임시 SQL 쿼리를 실행하여 데이터 세트의 데이터를 확인합니다.<br/><br/>**Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/>&#x200B;속성 및 세션화가 적용된 CJA에서 처리된 데이터의 유효성을 검사합니다. |
 | **데이터 레이크, Data Warehouse 또는 BI 도구**<br/>&#x200B;추가 데이터 세트와 함께 사용할 수 있도록 디지털 데이터를 고유한 BI 도구 또는 Data Lake로 가져옵니다. | **Customer Journey Analytics**: [**BI 확장 기능**](bi-extension.md)<br/> Customer Journey Analytics 처리된 지표를 Power BI과 같은 데이터 시각화 도구에 추가하고 사용자 지정 보고서에 대한 추가 데이터와 결합&#x200B;<br/><br/>**Experience Platform**: [**쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br> SQL을 사용하여 클라우드 대상으로 배달할 사용자 지정 클릭스트림 데이터를 생성합니다. |
 | **AI/ML에 대한 준비**<br/> Customer Journey Analytics 데이터를 통해 인공 지능/머신 러닝 모델과 작업을 개선합니다. | **Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/> Customer Journey Analytics 처리 차원 및 지표를 계산된 지표 및 세분화를 포함하여 클라우드 대상으로 한 번 또는 반복적으로 내보냅니다.<br/><br/>**Experience Platform**: [**쿼리 서비스(Data Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> SQL을 사용하여 사용자 지정된 클릭스트림 데이터를 생성하여 AI/ML 모델을 보강합니다. |
