@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -22,19 +22,19 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Ad
 
 ## 대부분의 조직에 권장되는 업그레이드 단계
 
-Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. Adobe Web SDK와 함께 Analytics 소스 커넥터 를 사용하여 Customer Journey Analytics으로 전환하는 것도 좋습니다. Analytics 소스 커넥터를 사용하여 이전 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행할 수 있습니다.
+Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform 웹 SDK의 새로운 구현입니다. Web SDKAdobe 와 함께 Analytics 소스 커넥터 를 사용하여 Customer Journey Analytics으로 전환하는 것도 좋습니다. Analytics 소스 커넥터를 사용하여 이전 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행할 수 있습니다.
 
-Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Customer Journey Analytics으로 완전히 전환한 후에는 Analytics 소스 커넥터를 끄고 Web SDK를 독점적으로 사용할 수 있습니다.
+Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Customer Journey Analytics으로 완전히 전환한 후에는 Analytics 소스 커넥터를 끄고 Web SDK을 독점적으로 사용할 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션에 설명된 업그레이드 단계는 조직에 실용적이지 않습니다. [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성하십시오.
+>이 섹션에 설명된 업그레이드 단계가 조직에 실용적이지 않은 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)을 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성하십시오.
 
 ### 높은 수준의 권장 업그레이드 프로세스
 
-1. **지속적인 데이터 수집을 위해 Experience Platform Web SDK를 구현합니다**
+1. **지속적인 데이터 수집을 위해 Experience Platform Web SDK 구현**
 
-   Experience Platform Web SDK의 새로운 구현은 Customer Journey Analytics을 위한 데이터를 수집하는 가장 좋은 방법입니다. Customer Journey Analytics 구현을 위한 가장 성능적이고, 간단하며, 미래에 대비할 수 있는 방법이기 때문에 Customer Journey Analytics을 최대한 활용할 수 있는 최상의 토대를 제공합니다.
+   Experience Platform 웹 SDK의 새로운 구현은 Customer Journey Analytics을 위한 데이터를 수집하는 가장 좋은 방법입니다. Customer Journey Analytics 구현을 위한 가장 성능적이고, 간단하며, 미래에 대비할 수 있는 방법이기 때문에 Customer Journey Analytics을 최대한 활용할 수 있는 최상의 토대를 제공합니다.
 
    * Adobe Experience Platform은 실시간 개인화 사용 사례를 지원하기 위해 구축되었으므로 성능 높은 보고 및 데이터 가용성
 
@@ -44,7 +44,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
 1. **이전 데이터를 가져올 Adobe Analytics 소스 커넥터 설정**
 
-   Customer Journey AnalyticsAdobe 에서 Experience Platform Web SDK 를 사용하는 것으로 원활하게 전환하려면 Adobe Analytics 소스 커넥터 를 사용하는 것이 좋습니다. 이렇게 하면 이전 데이터를 유지하고 새 Experience Platform Web SDK 구현의 데이터와 나란히 Customer Journey Analytics에서 기존 Adobe Analytics 구현의 데이터를 볼 수 있습니다.
+   Customer Journey Analytics과 함께 Experience Platform Web SDK 사용으로의 원활한 전환을 돕기 위해, Adobe은 Adobe Analytics 소스 커넥터 사용을 권장합니다. 이렇게 하면 이전 데이터를 유지하고 기존 Adobe Analytics 구현의 데이터를 새 Experience Platform 웹 SDK 구현의 데이터와 나란히 Customer Journey Analytics에 볼 수 있습니다.
 
    Analytics 소스 커넥터를 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -52,7 +52,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
      내역 Adobe Analytics 데이터를 유지해야 하는 동안 Analytics 소스 커넥터를 계속 실행할 수 있습니다.
 
-   * Customer Journey Analytics 내에서 원래 Adobe Analytics 구현(AppMeasurement, Analytics 확장 또는 Web SDK 확장)으로 수집된 데이터를 봅니다. 이 데이터를 새 웹 SDK 구현의 데이터와 나란히 비교할 수 있습니다.
+   * Customer Journey Analytics 내에서 원래 Adobe Analytics 구현(AppMeasurement, Analytics 확장 또는 웹 SDK 확장)으로 수집된 데이터를 봅니다. 이 데이터를 새 웹 SDK 구현의 데이터와 나란히 비교할 수 있습니다.
 
      차이점을 잘 알고 있을 때까지 Analytics 소스 커넥터를 계속 실행할 수 있습니다. <!--elaborate on what those differences are? -->
 
@@ -82,13 +82,13 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
 1. AppMeasurement 또는 Analytics 확장(태그)을 사용하는 Adobe Analytics 구현의 경우 [Adobe Experience Platform에서 데이터 스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
-   Web SDK를 사용하는 Adobe Analytics 구현의 경우 데이터 스트림이 이미 있습니다.
+   Web SDK을 사용하는 Adobe Analytics 구현의 경우 데이터 스트림이 이미 있습니다.
 
 1. [데이터스트림에 서비스로 Adobe Experience Platform 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md).
 
 1. (선택 사항) Customer Journey Analytics을 Adobe Journey Optimizer과 통합하려면 Adobe Journey Optimizer에서 사용할 구현에 개인화 개체를 사용합니다.
 
-1. Customer Journey Analytics 구현을 위해 Experience Platform Web SDK를 구현하는 방법을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
+1. Customer Journey Analytics 구현을 위해 Experience Platform 웹 SDK을 구현하는 방법을 설명하는 섹션을 확장한 다음 관련 단계를 완료합니다.
 
    +++수동 구현(JS 파일)
 
@@ -102,7 +102,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
    1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
-   1. [태그 속성을 만들고 Adobe Experience Platform Web SDK 확장을 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)합니다.
+   1. [태그 속성을 만들고 Adobe Experience Platform Web SDK 확장을 추가합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
 
    1. [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
 
@@ -114,7 +114,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
 +++
 
-1. 웹 SDK 구현이 데이터 세트에 데이터를 보내고 있는지 확인합니다.
+1. [웹 SDK 구현이 데이터 집합에 데이터를 보내고 있는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md).
 
 1. [Customer Journey Analytics에 연결을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
 
@@ -134,7 +134,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
    파생 필드는 Customer Journey Analytics 실시간 보고의 중요한 측면입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (복잡한) 데이터 조작을 정의할 수 있습니다.
 
-   파생 필드의 한 가지 사용은 하나 이상의 조건(예: URL 매개 변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 파생된 마케팅 채널 필드를 정의하는 것입니다.
+   파생 필드의 한 가지 사용은 하나 이상의 조건(예: URL 매개 변수, 페이지 URL 또는 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 파생된 마케팅 채널 필드를 정의하는 것입니다.
 
    파생 필드에서 [마케팅 채널 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels)을(를) 사용하여 마케팅 채널의 파생 필드를 신속하게 만듭니다.
 
@@ -146,7 +146,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
    >
    >이전에 Analytics 소스 커넥터를 만들지 않은 경우 다음 단계를 사용하십시오.
    >
-   >이미 Customer Journey Analytics에 Analytics 소스 커넥터를 사용하고 있는 경우 [Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 따릅니다.
+   >이미 Customer Journey Analytics에 Analytics 소스 커넥터를 사용하고 있는 경우 [Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 Web SDK으로 전환](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 따르십시오.
 
    1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
@@ -172,7 +172,7 @@ Experience Platform Web SDK를 사용하여 내역 데이터가 충분하고 Cus
 
 1. 모든 Analytics 소스 커넥터 데이터가 데이터 보존 기간을 벗어난 후 Analytics 소스 커넥터를 비활성화합니다.
 
-   Experience Platform Web SDK 구현을 사용하면 내역 Adobe Analytics 데이터에 대해서만 Analytics 소스 커넥터가 필요하며 원래 구현의 데이터를 새 구현의 데이터와 비교합니다.
+   Experience Platform 웹 SDK 구현을 사용하면 Analytics 소스 커넥터는 이전 Adobe Analytics 데이터에만 필요하며 원래 구현의 데이터를 새 구현의 데이터와 비교합니다.
 
    새 구현의 내역 데이터가 충분하고 Customer Journey Analytics의 보고 차이점에 익숙할 경우 Analytics 소스 커넥터를 꺼야 합니다.
 

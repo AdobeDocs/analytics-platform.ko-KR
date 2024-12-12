@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
+exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
+source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -39,10 +40,9 @@ ht-degree: 0%
 
 1. 지정된 데이터 세트에 대한 배치 ID를 선택한 다음 **[!UICONTROL 상태]** 필드에 **[!UICONTROL 성공]**&#x200B;이 표시되는지 확인하십시오.
 
-   **[!UICONTROL 상태]** 필드에 **[!UICONTROL 실패]**&#x200B;가 표시되면 Web SDK 구현을 확인하여 Adobe에게 데이터를 올바르게 보내고 있는지 확인하십시오.
+   **[!UICONTROL 상태]** 필드에 **[!UICONTROL 실패]**&#x200B;가 표시되면 웹 SDK 구현을 확인하여 데이터를 Adobe에 올바르게 보내고 있는지 확인하십시오.
 
    이 단계를 반복하여 각 배치의 상태를 확인합니다.
 
-
-
+1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
 

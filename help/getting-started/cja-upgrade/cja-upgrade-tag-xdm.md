@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '1224'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 48%
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
-[태그를 만들어 Web SDK 확장을 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)한 후에는 사이트를 추적하고 데이터를 Adobe Experience Platform으로 보내는 방법에 따라 데이터 요소와 규칙을 사용하여 태그를 구성해야 합니다. 태그에 대한 데이터 요소 및 규칙을 구성한 후 빌드하고 게시할 수 있습니다.
+[태그를 만들고 웹 SDK 확장을 추가한](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) 후에는 사이트를 추적하고 Adobe Experience Platform에 데이터를 보내는 방법에 따라 데이터 요소와 규칙을 사용하여 태그를 구성해야 합니다. 태그에 대한 데이터 요소 및 규칙을 구성한 후 빌드하고 게시할 수 있습니다.
 
 ## 데이터 요소 구성
 
@@ -113,7 +114,7 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
    * **[!UICONTROL 이름]**: 데이터 요소의 이름입니다. 예 `XDM - Page View`.
 
-   * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
+   * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;을(를) 선택합니다.
 
    * **[!UICONTROL 데이터 요소 형식]**: 목록에서 **[!UICONTROL XDM 개체]**&#x200B;를 선택합니다.
 
@@ -174,7 +175,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    * **[!UICONTROL 작업]**: **[!UICONTROL + 추가]**&#x200B;를 선택합니다. 그런 다음 [!UICONTROL 작업 구성] 대화 상자에서 다음 정보를 지정합니다. 완료되면 **[!UICONTROL 변경 내용 유지]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
+      * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;을(를) 선택합니다.
 
       * **[!UICONTROL 작업 유형]**: 목록에서 **[!UICONTROL 이벤트 보내기]**&#x200B;를 선택합니다.
 
@@ -220,9 +221,8 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포에 
 
 1. **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   태그가 저장되고 개발 환경에 맞게 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   태그가 저장되고 개발 환경용으로 빌드되었습니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 1. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
    ![게시 - 라이브러리 빌드](assets/build-library.png)
-

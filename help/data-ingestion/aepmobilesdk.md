@@ -1,18 +1,18 @@
 ---
-title: Adobe Experience Platform Mobile SDK를 통해 데이터 수집
+title: Adobe Experience Platform Mobile SDK을 통해 데이터 수집
 description: Adobe Experience Platform Mobile SDK 및 Edge Network을 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3382'
 ht-degree: 60%
 
 ---
 
-# Mobile SDK를 통해 데이터 수집
+# 모바일 SDK을 통해 데이터 수집
 
 이 빠른 시작 안내서에서는 Adobe Experience Platform Mobile SDK 및 Edge Network을 사용하여 모바일 앱 추적 데이터를 Adobe Experience Platform으로 직접 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
@@ -392,7 +392,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   태그가 저장되고 개발 환경에 맞게 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   태그가 저장되고 개발 환경용으로 빌드되었습니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 4. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
@@ -417,7 +417,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 3. **[!UICONTROL 닫기]**&#x200B;를 선택합니다.
 
-개발 환경에 대한 코드 대신 Adobe Experience Platform Mobile SDK를 배포 중인 위치에 따라 다른 환경(스테이징, 프로덕션)을 선택할 수도 있습니다.
+개발 환경에 대한 코드 대신 Adobe Experience Platform Mobile SDK을 배포하는 과정에 있는 위치에 따라 다른 환경(스테이징, 프로덕션)을 선택할 수 있습니다.
 
 자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)을 참조하십시오.
 
