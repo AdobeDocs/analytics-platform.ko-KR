@@ -4,10 +4,10 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 44%
+ht-degree: 49%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution_button"
+>id="workspace_attribution_button"
 >title="속성"
 >abstract="파원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution_panel"
+>id="workspace_attribution_panel"
 >title="속성 패널"
->abstract="파원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
+>abstract="차원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 <!-- markdownlint-enable MD034 -->
@@ -43,15 +43,15 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 * 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 시각적으로 전환된 경로를 탐색합니다.
 * 계산된 지표 작성: 여러 속성 할당 방법을 사용합니다.
 
-## Use
+## 사용
 
 **[!UICONTROL 속성]** 패널을 사용하려면:
 
 1. **[!UICONTROL 속성]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 패널에 대한 [입력](#panel-input)을(를) 지정하십시오.
+1. 패널의 [입력](#panel-input)을 지정합니다.
 
-1. 패널의 [output](#panel-output)을(를) 확인합니다.
+1. 패널의 [출력](#panel-output)을 확인합니다.
 
 ### 패널 입력
 
@@ -77,7 +77,7 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 * **총 지표**: 보고 기간 동안 발생했으며 선택한 차원에 속하는 총 전환 수입니다.
 * **속성 비교 막대**: 선택한 차원의 각 차원 항목에서 속성 전환을 시각적으로 비교합니다. 각 막대의 색상은 개별 속성 모델을 나타냅니다.
-* **속성 비교 테이블**: 막대 차트와 동일한 데이터를 테이블로 표시합니다. 이 표에서 다른 열 또는 행을 선택하면 막대 차트와 패널의 다른 여러 가지 시각화가 필터링됩니다. 이 테이블은 Workspace의 다른 자유 형식 테이블과 유사하게 작동하므로 지표, 필터 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
+* **속성 비교 테이블**: 막대 그래프와 동일한 데이터를 테이블로 표시합니다. 이 표에서 다른 열 또는 행을 선택하면 막대 그래프와 패널의 다른 여러 가지 시각화가 필터링됩니다. 이 테이블은 Workspace의 다른 자유 형식 테이블과 유사하게 작동하므로 지표, 필터 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
 * **Overlap Diagram**: 상위 3개 차원 항목과 이들이 전환에 공동으로 참여하는 빈도를 보여주는 벤 시각화입니다. 예를 들어 버블의 크기는 사용자가 차원 항목 모두에 노출될 때 전환이 발생한 빈도를 나타냅니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
 * **성능 세부 정보**: 최대 3개의 속성 모델을 시각적으로 비교하기 위한 분산 시각화입니다.
 * **추세적 성과**: 최상위 차원 항목에 대한 속성 전환 추세를 표시합니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
@@ -93,5 +93,5 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 >[!MORELIKETHIS]
 >
-> [패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> [Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

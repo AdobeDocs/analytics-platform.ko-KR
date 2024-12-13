@@ -4,7 +4,7 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 64%
@@ -16,7 +16,7 @@ ht-degree: 64%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_goalvalue"
+>id="workspace_bullet_goalvalue"
 >title="목표 값"
 >abstract="**[!UICONTROL 높은 목표]**&#x200B;는 사용자가 추구하는 주요 목표입니다. **[!UICONTROL 낮은 목표]**&#x200B;와 **[!UICONTROL 중간 목표]**&#x200B;는 [!UICONTROL 높은 목표]보다 낮은 범위를 만듭니다. 참고: **[!UICONTROL 백분율]** 옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우."
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_button"
+>id="workspace_bullet_button"
 >title="글머리 기호"
 >abstract="성과 범위(목표)에 대해 지표를 비교하거나 측정하는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
 

@@ -4,10 +4,10 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2144'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_button"
+>id="workspace_experimentation_button"
 >title="실험"
 >abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하는 패널을 만듭니다. 그리고 어떤 변화가 특정 결과를 도출하는 데 가장 적합한지 판단합니다."
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_panel"
+>id="workspace_experimentation_panel"
 >title="실험"
 >abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다.<br/><br/>**매개변수&#x200B;**<br/>**실험**: 분석할 실험입니다.<br>**제어 변형**: 선택한 실험에 대한 제어 변형입니다.<br/>**성공 지표**: 실험을 분석하기 위한 최대 5개의 표준(계산되지 않은) 성공 지표입니다.<br/>**표준화 지표**: 사용자, 세션 또는 이벤트입니다. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이 지표는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다."
 
@@ -109,7 +109,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 실험 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 [요약 변경](../visualizations/summary-number-change.md) 시각화가 제공됩니다. 언제든지 오른쪽 상단의 연필 편집을 선택하여 패널을 편집할 수 있습니다.
 
-또한 실험이 결정적인지 여부와 결과를 정리한 텍스트 요약을 얻을 수 있습니다. 결정성은 통계적 유의성을 기반으로 합니다([통계적 방법](#adobes-statistical-methodology) 참조). 상승도와 신뢰도가 가장 높은 최고의 성과 변형에 대한 요약 번호를 볼 수 있습니다.
+또한 실험이 결정적인지 여부와 결과를 정리한 텍스트 요약을 얻을 수 있습니다. 결정성은 통계적 중요도를 기반으로 합니다([통계적 방법론](#adobes-statistical-methodology) 참조). 상승도와 신뢰도가 가장 높은 최상의 성능 변형에 대한 요약 번호를 볼 수 있습니다.
 
 선택한 각 성공 지표에 대해 [자유 형식 테이블](../visualizations/freeform-table/freeform-table.md) 시각화 및 전환율 [선](../visualizations/line.md) 시각화가 표시됩니다.
 

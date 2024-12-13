@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_shareonlyworkspace"
+>id="workspace_prefs_shareonlyworkspace"
 >title="Workspace 사용자와의 공유만 허용"
 >abstract="활성화되면 Analysis Workspace 프로젝트를 공유할 때 사용자가 **[!UICONTROL 모두와 공유]** 옵션을 더 이상 사용할 수 없습니다. 이전에 이 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다."
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_requireexperiencecloudauth"
+>id="workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud 인증 필요"
 >abstract="활성화되면 Analysis Workspace의 모두와 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_categoricalpalette"
+>id="workspace_prefs_categoricalpalette"
 >title="범주형 팔레트"
 >abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주형 값을 나타냅니다."
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_divergingpalette"
+>id="workspace_prefs_divergingpalette"
 >title="분기형 팔레트"
 >abstract="Analysis Workspace 및 사용자 증가 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 양 극단과 중간의 기준선을 사용하여 숫자로 표시합니다."
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_sequentialpalette"
+>id="workspace_prefs_sequentialpalette"
 >title="순차적 팔레트"
 >abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showanomalies"
+>id="workspace_prefs_showanomalies"
 >title="예외 항목 표시"
 >abstract="**[!UICONTROL 예외 항목 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열에서 예외 항목 탐지가 자동으로 실행됩니다."
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showforecast"
+>id="workspace_prefs_showforecast"
 >title="예측 표시"
 >abstract="**[!UICONTROL 예측 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열이 자동으로 예측됩니다."
 

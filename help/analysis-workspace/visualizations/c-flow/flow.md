@@ -4,7 +4,7 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 53%
@@ -16,12 +16,12 @@ ht-degree: 53%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_button"
+>id="workspace_flow_button"
 >title="흐름"
 >abstract="하나의 체크포인트에서 다음 체크포인트로의 사용자 흐름을 표시하는 시각화를 만듭니다."
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_panel"
+>id="workspace_flow_panel"
 >title="흐름"
 >abstract="하나의 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 흐름을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**다음으로 시작**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생한 후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음 포함**: 차원 또는 차원 항목을 추가하여 선택한 구성 요소가 발생하기 전후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음으로 끝남**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생하기 전에 가장 많이 발생하는 접점을 확인합니다.<br/>**경로 지정 차원**: 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 차원을 추가합니다."
 

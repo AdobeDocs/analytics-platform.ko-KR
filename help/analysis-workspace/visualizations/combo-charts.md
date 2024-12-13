@@ -4,7 +4,7 @@ title: 콤보 차트 시각화
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 44%
@@ -16,7 +16,7 @@ ht-degree: 44%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_combo_button"
+>id="workspace_combo_button"
 >title="콤보"
 >abstract="우선 자유 형식 테이블을 만들지 않고도 콤보 차트 시각화를 빠르게 만듭니다."
 
@@ -39,7 +39,7 @@ ht-degree: 44%
 * 지표에 최대 3개의 필터를 적용할 수 있습니다.
 * 계산된 지표는 콤보 차트에서 지원되지 않습니다.
 
-## Use
+## 사용
 
 1. ![댓글](/help/assets/icons/ComboChart.svg) [!UICONTROL 콤보] 시각화를 추가합니다. [패널에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하세요.
 

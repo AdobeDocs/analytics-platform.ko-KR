@@ -4,7 +4,7 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 38%
@@ -16,7 +16,7 @@ ht-degree: 38%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_button"
+>id="workspace_nextorpreviousitem_button"
 >title="다음 또는 이전 항목"
 >abstract="사용자의 이전 차원과 사용자의 다음 차원을 파악할 수 있는 패널을 만듭니다."
 
@@ -25,7 +25,7 @@ ht-degree: 38%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_panel"
+>id="workspace_nextorpreviousitem_panel"
 >title="다음 또는 이전 항목"
 >abstract="방문자들이 이전에 왔거나 다음으로 이동하는 가장 일반적인 장소를 분석합니다.<br/><br/>**차원**: 차원을 선택합니다. 예: **페이지**.<br/>**차원 항목**: 특정 차원 항목을 선택합니다. 예: **홈 페이지**.<br/>**방향**: **다음**&#x200B;을 선택하여 선택한 차원 항목 바로 다음에 차원 항목을 표시합니다. **이전**&#x200B;을 선택하여 선택한 차원 항목으로 이어지는 차원 항목을 표시합니다.<br/>**컨테이너**: **세션**&#x200B;을 선택하여 동일한 세션 내에서 다음/이전 차원 항목을 표시하거나 **사용자**&#x200B;를 선택하여 동일한 사용자의 다음/이전 차원 항목을 표시합니다."
 

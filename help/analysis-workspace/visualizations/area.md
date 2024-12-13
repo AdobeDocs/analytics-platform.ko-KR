@@ -4,7 +4,7 @@ title: 영역 및 스택 영역
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 32%
@@ -18,7 +18,7 @@ ht-degree: 32%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_area_button"
+>id="workspace_area_button"
 >title="영역 그래프"
 >abstract="여러 지표의 교차점을 나타내는 영역 그래프 시각화를 만듭니다."
 
@@ -34,7 +34,7 @@ ht-degree: 32%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_areastacked_button"
+>id="workspace_areastacked_button"
 >title="스택 영역"
 >abstract="여러 지표의 스태킹을 나타내는 영역 그래프 시각화를 만듭니다."
 

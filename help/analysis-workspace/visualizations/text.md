@@ -4,7 +4,7 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 29%
@@ -16,7 +16,7 @@ ht-degree: 29%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_text_button"
+>id="workspace_text_button"
 >title="텍스트"
 >abstract="사용자 정의 서식 있는 텍스트 시각화를 프로젝트에 추가합니다."
 

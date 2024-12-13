@@ -5,10 +5,10 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_activegrowth_button"
+>id="workspace_guidedanalysis_activegrowth_button"
 >title="활성 증가"
 >abstract="신규, 유지, 복귀 또는 휴면 상태를 식별합니다."
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보기]**: 이 분석과 [순 증가](net-growth.md) 간을 전환합니다.
 * **[!UICONTROL 이벤트]**: 측정할 이벤트입니다. 이러한 분석은 사용자를 기반으로 하므로 기간 내에 한 번 이벤트와 상호 작용하는 사용자는 활성 사용자로 계산된다. 쿼리에 이벤트를 하나 포함할 수 있습니다.
-* **[!UICONTROL 다음 값으로 계산]**: 선택한 이벤트에 적용할 계산 메서드입니다. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.
 * **[!UICONTROL 세그먼트]**: 데이터를 필터링할 기준 세그먼트입니다. 쿼리에 하나의 세그먼트를 포함할 수 있습니다.
 
 ### 차트 설정

@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_firstuseimpact_button"
+>id="workspace_guidedanalysis_firstuseimpact_button"
 >title="최초 사용 영향"
 >abstract="주요 지표에 대한 최초 기능 사용의 영향을 측정합니다."
 

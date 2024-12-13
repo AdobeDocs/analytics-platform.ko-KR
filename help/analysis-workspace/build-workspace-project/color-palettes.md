@@ -4,10 +4,10 @@ title: 시각화 색상 팔레트
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_colorpalette"
+>id="workspace_project_colorpalette"
 >title="프로젝트 색상 팔레트"
 >abstract="이 프로젝트에 사용된 색상 팔레트를 변경합니다."
 
@@ -29,7 +29,7 @@ Workspace에서 사용되는 시각화 색상 팔레트를 변경할 수 있습�
 >
 >색상 팔레트 지원은 Internet Explorer 11에서 사용할 수 없습니다.
 
-![프로젝트 정보 및 설정 창](assets/color-palettes.png)
+![The Project Info &amp; Settings window.](assets/color-palettes.png)
 
 다음 사항에 주의하십시오.
 

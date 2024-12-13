@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 47%
@@ -16,7 +16,7 @@ ht-degree: 47%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_button"
+>id="workspace_mediaconcurrentviewers_button"
 >title="미디어 동시 뷰어"
 >abstract="특정 콘텐츠나 특정 기간 동안의 미디어 평균 분당 시청 대상자를 분석하는 패널을 만듭니다."
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_panel"
+>id="workspace_mediaconcurrentviewers_panel"
 >title="미디어 동시 뷰어"
 >abstract="시간 경과에 따른 동시 뷰어를 분석하고, 최대 동시 시청을 확인하거나 분류 및 비교합니다.<br/><br>**세부 기간**: 동시 뷰어를 확인할 수 있는 기간을 선택합니다.<br/>**패널 요약 번호**:<br/>이 옵션은 각 행의 날짜 또는 시간 세부 정보가 포함된 요약 번호를 표시합니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다.<br/>**시리즈 분류(선택 사항)**: 세그먼트, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류합니다. 한 번에 최대 10개의 줄을 확인합니다. 분류는 단일 수준으로 제한됩니다."
 

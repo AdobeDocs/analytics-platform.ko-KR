@@ -5,10 +5,10 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_trends_button"
+>id="workspace_guidedanalysis_trends_button"
 >title="트렌드"
 >abstract="시간 경과에 따른 사용자 참여를 측정합니다."
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보기]**: 이 분석과 [빈도](frequency.md) 간을 전환합니다.
 * **[!UICONTROL 이벤트 및 지표]**: 측정할 이벤트 또는 지표입니다. 각 선택 항목은 차트 계열 및 테이블 행으로 표시됩니다. 이벤트 및 지표는 쿼리에서 결합할 수 없습니다. 첫 번째 선택을 한 후 나머지 쿼리 선택 항목은 같은 유형이어야 합니다. 최대 5개의 선택 항목을 포함할 수 있습니다.
-* **[!UICONTROL 다음 값으로 계산]**: 선택한 이벤트에 적용할 계산 메서드입니다. 옵션에는 이벤트, 세션, 사용자, 사용자 비율, 세션당 이벤트 및 사용자당 이벤트가 포함됩니다. 옵션으로 카운트되면 이벤트 쿼리에만 적용할 수 있고 지표 쿼리에는 제거됩니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. 옵션에는 이벤트, 세션, 사용자, 사용자 비율, 세션당 이벤트 및 사용자당 이벤트가 포함됩니다. 옵션으로 카운트되면 이벤트 쿼리에만 적용할 수 있고 지표 쿼리에는 제거됩니다.
 * **[!UICONTROL 세그먼트]**: 측정하려는 세그먼트입니다. 선택한 각 세그먼트는 차트 계열 및 테이블 행의 수를 두 배로 늘립니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
 * **[!UICONTROL 분류 속성]**: 선택한 속성 값으로 차트 계열과 테이블 행을 분류합니다. 단일 분류 속성이 지원됩니다. 상위 20개 값이 테이블에 나타나고 최대 10개 값을 차트에서 볼 수 있습니다. ![숨기기 아이콘 표시](../assets/hide-in-chart.png) 아이콘을 전환하여 차트에서 행을 숨기거나 표시할 수 있습니다.
 

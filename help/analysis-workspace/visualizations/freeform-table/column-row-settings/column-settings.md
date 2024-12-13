@@ -4,7 +4,7 @@ title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 21%
@@ -65,7 +65,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
+>id="workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
 >abstract="선택한 열에 기본이 아닌 속성 모델을 사용합니다."
 
@@ -74,7 +74,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="비기본 속성 모델 사용"
 >abstract="이 지표에는 기본이 아닌 속성 모델을 사용할 수 없습니다."
 

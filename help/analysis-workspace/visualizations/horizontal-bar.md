@@ -4,14 +4,14 @@ title: 가로 막대 및 스택 가로 막대
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# 가로 막대(스택)
+# 가로 막대 (누적)
 
 가로 막대 시각화에는 표준 및 누적 옵션이 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 36%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbar_button"
+>id="workspace_horizontalbar_button"
 >title="가로 막대형"
 >abstract="하나 이상의 지표에서 다양한 값을 나타내는 가로 막대형 시각화를 만듭니다."
 
@@ -36,7 +36,7 @@ ht-degree: 36%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbarstacked_button"
+>id="workspace_horizontalbarstacked_button"
 >title="스택 가로 막대"
 >abstract="하나 이상의 누적된 지표에서 다양한 값을 나타내는 가로 막대형 시각화를 만듭니다."
 
