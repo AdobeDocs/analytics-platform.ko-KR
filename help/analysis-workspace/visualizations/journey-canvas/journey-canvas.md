@@ -4,9 +4,9 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 여정 캔버스에서 Journey Optimizer 여정을 분석하면 사람들이 여정과 상호 작용하는 방법에 대한 깊고 실행 가능한 통찰력을 제공합니다.
 
-여정 캔버스에서 Journey Optimizer 여정을 분석할 때 여정은 Journey Optimizer에서와 동일한 순서, 시퀀스 및 구조로 표시됩니다. 여정 캔버스 내에서 여정을 변경할 수 있는 경우 [변경 내용이 더 이상 Journey Optimizer에서 동기화되지 않습니다](#synchronization-between-journey-optimizer-and-journey-canvas).
+여정 캔버스에서 Journey Optimizer 여정을 분석할 때 여정은 Journey Optimizer에서와 동일한 순서, 시퀀스 및 구조로 표시됩니다. 여정 캔버스 내에서 여정을 크게 변경하면 [변경 내용이 더 이상 Journey Optimizer에서 동기화되지 않습니다](#synchronization-between-journey-optimizer-and-journey-canvas).
 
 ### 여정 캔버스로 Journey Optimizer 여정 분석의 이점
 
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 여정 캔버스에서 Journey Optimizer 여정 분석을 만들면 데이터가 Journey Optimizer에서 여정 캔버스에 이르기까지 한 방향으로만 동기화됩니다. 즉, 여정 캔버스에서 여정에 수행된 변경 사항이 Journey Optimizer에 반영되지 않습니다.
 
-또한, Journey Optimizer의 여정에 대한 변경 사항은 여정이 여정 캔버스에서 수정되지 않은 상태로 유지되는 경우에만 여정 캔버스와 동기화됩니다. 여정 캔버스에서 여정을 수정한 후에는 Journey Optimizer의 여정에 대한 모든 변경 사항이 여정 캔버스에 반영되지 않습니다. 여정 캔버스에 반영된 변경 내용을 보려면 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+또한 Journey Optimizer의 여정에 대한 변경 사항은 여정 캔버스에서 여정이 크게 수정되지 않은 경우에만 [여정 캔버스와 동기화됩니다](#differences-after-modifying-a-journey-in-journey-canvas). 여정 캔버스에서 여정을 수정한 후에는 Journey Optimizer의 여정에 대한 모든 변경 사항이 여정 캔버스에 반영되지 않습니다. 여정 캔버스에 반영된 변경 내용을 보려면 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 ### 여정 캔버스에서 여정 수정 후의 차이점 {#differences-after-modifying}
 

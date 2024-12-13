@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 221b73ef8dc0f7d28d13b8571955792367519849
-workflow-type: ht
-source-wordcount: '2320'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 | **보고 API 액세스** | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | **예약된 보고서/프로젝트** | 전체 지원 |
 | **세그먼트** | 전체 지원. 이제 “필터”라고 합니다. 기존 Analysis Workspace의 기존 세그먼트는 Customer Journey Analytics로 포팅되지 않습니다. |
-| **스트리밍 미디어 컬렉션 추가 기능** | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
+| **스트리밍 미디어 컬렉션** | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 | **요약 수준 데이터 소스** | 전체 지원 |
 | **가상 보고서 세트** | 전체 지원. 이제 [데이터 보기](/help/data-views/create-dataview.md)라고 합니다. |
 | **가상 보고서 세트 구성 요소 큐레이션** | 전체 지원: 이제 데이터 보기의 일부라고 합니다. |
@@ -105,7 +105,7 @@ ht-degree: 100%
 | **Report Builder** | Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | **사용자 권한/데이터 액세스 제어** | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 만든 연결, 프로젝트, 필터 또는 계산된 지표를 생성/업데이트/삭제할 수 있으며, 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 필터 또는 주석 만들기와 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
 | **시각화** | 맵 시각화를 제외한 모든 Workspace 시각화가 지원됩니다. |
-| **크로스 디바이스/크로스 채널 결합** | 신원 정보가 포함된 이벤트 데이터 세트에 대해 지원됩니다. [결합](../../stitching/overview.md)을 참조하십시오. |
+| **크로스 디바이스/크로스 채널 결합** | ID 정보가 포함된 이벤트 데이터 세트에 대해 지원됩니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 
 ## 부분 지원 {#partial}
 

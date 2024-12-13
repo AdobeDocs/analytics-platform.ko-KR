@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 47%
 
 ---
@@ -61,7 +61,7 @@ Analysis Workspace에서 동시 뷰어 지표는 세션 수에 관계없이 특�
 
 1. **[!UICONTROL 미디어 동시 뷰어]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 구성된 패널에 대해 데이터 보기를 선택해야 합니다.
+1. 스트리밍 미디어 컬렉션에서 구성 요소가 구성된 패널에 대한 데이터 보기를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 

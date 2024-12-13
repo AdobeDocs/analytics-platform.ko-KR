@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
-workflow-type: ht
-source-wordcount: '4216'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '4219'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 파생 필드 중복 제거 함수 | 파생 필드 [중복 제거](/help/data-views/derived-fields/derived-fields.md#deduplicate) 함수에 대한 설명서를 추가했습니다. |
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
-| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
+| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 Analysis Workspace에 표시하는 스트리밍 미디어 기능 집합을 참조할 때 &quot;Media Analytics&quot; 및 &quot;Streaming Media&quot;의 인스턴스를 &quot;스트리밍 미디어 컬렉션 추가 기능&quot; 및 &quot;스트리밍 미디어 컬렉션&quot;이라는 이름으로 대체했습니다. <p>이러한 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에서 사용할 수 있습니다.</p> |
 | 그래프 기반 스티칭 | 그래프 기반 스티칭을 도입하여 [결합 설명서](/help/stitching/overview.md)를 업데이트하고 재구성했습니다. |
 | AI 어시스턴트 | Customer Journey Analytics을 위한 AI 어시스턴트에 대한 [설명서](../ai-assistant.md)를 추가했습니다. |
 | B2B 조회를 위한 데이터 세트 변환 | B2B 조회 데이터 세트의 변환을 사용하여 [B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에서 개인 기반 조회](/help/connections//transform-datasets-b2b-lookups.md)를 지원하는 방법에 대한 설명서를 추가했습니다. |

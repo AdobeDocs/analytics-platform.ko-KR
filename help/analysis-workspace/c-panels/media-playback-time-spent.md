@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1127'
 ht-degree: 56%
 
 ---
@@ -63,7 +63,7 @@ Analysis Workspace에서 재생 소요 시간은 특정 시점에 미디어 스�
 
 1. **[!UICONTROL 미디어 재생 소요 시간]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 구성된 패널에 대해 데이터 보기를 선택해야 합니다.
+1. 스트리밍 미디어 컬렉션에서 구성 요소가 구성된 패널에 대한 데이터 보기를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 

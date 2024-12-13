@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1787'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->**[!UICONTROL 미디어 분당 평균 시청 시간]** 패널은 Customer Journey Analytics을 위해 스트리밍 미디어 컬렉션 추가 기능을 구입한 고객에게만 제공됩니다.
+>**[!UICONTROL 미디어 분당 평균 시청 시간]** 패널은 Customer Journey Analytics을 위해 스트리밍 미디어 컬렉션을 구입한 고객에게만 제공됩니다.
 >
 >자세한 내용은 Adobe 영업 담당자 또는 Adobe 계정 팀에 문의하십시오.
 >
@@ -62,8 +62,7 @@ Analysis Workspace에서 분당 평균 시청 시간은 다음에 대한 정보�
 
 1. **[!UICONTROL 미디어 분당 평균 시청 시간]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어 컬렉션 추가 기능에서 구성 요소가 구성된 패널에 대해 데이터 보기를 선택해야 합니다.
-
+1. 스트리밍 미디어 컬렉션에서 구성 요소가 구성된 패널에 대한 데이터 보기를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 
