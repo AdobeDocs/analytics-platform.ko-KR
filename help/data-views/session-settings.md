@@ -5,14 +5,26 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 91%
 
 ---
 
-# 세션 설정
+# 세션 설정 {#session-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_settings_datapreview"
+>title="데이터 미리 보기"
+>abstract="이 필터의 데이터를 연결의 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;의 총 연결 수를 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워질 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
 
 Customer Journey Analytics에서 사람들이 디지털 경험과 상호 작용하는 방식과 일치하는 방식으로 세션을 정의할 수 있습니다. 데이터 보기 내에서 세션 설정을 구성합니다.
 

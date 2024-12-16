@@ -4,10 +4,10 @@ title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 6%
+source-wordcount: '1494'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,16 @@ ht-degree: 6%
 >abstract="필터에서 대상자를 만들고 Adobe Experience Platform과 공유하여 활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_filter_datapreview"
+>title="데이터 미리 보기"
+>abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;의 데이터 보기의 총 수를 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워질 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 **[!UICONTROL 필터 빌더]** 대화 상자를 사용하여 새 필터를 만들거나 기존 필터를 편집합니다. 대화 상자의 제목은 [[!UICONTROL 필터] 관리자](/help/components/filters/manage-filters.md)에서 만들거나 관리하는 필터의 **[!UICONTROL 새 필터]** 또는 **[!UICONTROL 필터 편집]**&#x200B;입니다.
@@ -37,7 +47,7 @@ ht-degree: 6%
 
 >[!ENDTABS]
 
-1. 다음 세부 정보를 지정하십시오(![필수](/help/assets/icons/Required.svg) 필요).
+1. 다음 세부 정보를 지정합니다(![필수](/help/assets/icons/Required.svg)는 필수 입력 항목).
 
    | 요소 | 설명 |
    | --- | --- |
@@ -45,7 +55,7 @@ ht-degree: 6%
    | **[!UICONTROL 프로젝트 전용 필터]** | 필터가 작성된 프로젝트에만 표시되고 필터가 구성 요소 목록에 추가되지 않음을 설명하는 정보 상자입니다. **[!UICONTROL 이 필터를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 필터](quick-filters.md)을(를) 만들고 [!UICONTROL 빠른 필터] 인터페이스에서 **[!UICONTROL 빌더 열기]**&#x200B;를 사용하여 빠른 필터 정보를 일반 필터로 바꾸는 경우에만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 필터 이름을 지정합니다(예: `Last month mobile customers`). |
    | **[!UICONTROL 설명]** | 필터에 대한 설명(예: `Filter to define the mobile customers for the last month`)을 입력하십시오. |
-   | **[!UICONTROL 태그]** | 태그를 하나 이상 만들거나 적용하여 필터를 구성합니다. 입력할 수 있는 기존 태그를 찾으려면 입력을 시작합니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. 태그를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. |
+   | **[!UICONTROL 태그]** | 태그를 하나 이상 만들거나 적용하여 필터를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL Enter]**&#x200B;를 눌러 새 태그를 추가하십시오. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 필터를 정의합니다. |
 
    {style="table-layout:auto"}
