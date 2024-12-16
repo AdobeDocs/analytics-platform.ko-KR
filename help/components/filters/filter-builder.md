@@ -4,7 +4,7 @@ title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
+source-git-commit: b1bf7dfa4b2b95c2b3c00b71719a93bc7394ed33
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 7%
@@ -25,7 +25,7 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filter_datapreview"
+>id="cja_components_filters_datapreview"
 >title="데이터 미리 보기"
 >abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;의 데이터 보기의 총 수를 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워질 수 있습니다."
 
