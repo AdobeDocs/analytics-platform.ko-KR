@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3364'
 ht-degree: 14%
 
 ---
@@ -205,6 +205,46 @@ ht-degree: 14%
 
 
 ## 사용
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_keyusagemetrics"
+>title="주요 사용 지표"
+>abstract="코어 및 기록 보고 가능 행에 대해 월별 및 총 데이터를 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyingestedrows"
+>title="월별 수집된 행"
+>abstract="매월 시스템에 추가된 총 레코드 수를 측정하여 데이터 증가 및 수집률에 대한 통찰력을 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyreportablerows"
+>title="월별 보고 가능한 행"
+>abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 생략되고 삭제된 행을 뺀 것입니다. 보고 가능한 행은 청구 및 데이터 사용에 대한 주요 지표 역할을 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_detailbreakdown"
+>title="세부 분류."
+>abstract="데이터의 CSV 파일을 다운로드하는 옵션을 사용하여 연결, 데이터 세트, 샌드박스 및 태그별로 자세한 지표를 볼 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스는 Customer Journey Analytics 사용이 계약에 합의된 내용을 준수하는지 여부를 확인할 수 있도록 지원합니다. 모니터링 목적 외에 사용 UI를 사용하여 Customer Journey Analytics 라이선스 갱신을 계획할 수 있습니다.
 
