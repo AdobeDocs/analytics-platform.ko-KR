@@ -4,7 +4,7 @@ description: 계산된 지표 빌더를 사용하면 고급 계산된 지표에 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -191,7 +191,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_median"
+>id="calcmetrics_function_median"
 >title="중간값"
 >abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 집합의 가운데 있는 숫자입니다. 즉, 숫자의 절반은 중앙값보다 크거나 같은 값을 갖고, 절반은 중앙값보다 작거나 같은 값을 갖는다."
 
@@ -426,7 +426,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_square_root"
+>id="calcmetrics_function_square_root"
 >title="제곱근"
 >abstract="숫자의 양의 제곱근을 반환합니다. 숫자의 제곱근은 해당 숫자의 1/2 거듭제곱 값입니다."
 

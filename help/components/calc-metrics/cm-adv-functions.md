@@ -4,9 +4,9 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
-source-wordcount: '4428'
+source-wordcount: '4438'
 ht-degree: 27%
 
 ---
@@ -874,7 +874,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="calcmetrics_function_log_regression_coefficient"
 >title="로그 회귀: 상관 계수"
->abstract="요약"
+>abstract="로그 회귀: Y = a ln(X) + b. 상관 계수를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
