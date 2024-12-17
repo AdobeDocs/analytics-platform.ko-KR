@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 94d3c5352d00269b760e8b7bdf5059eaaa9b0bd3
+source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
-source-wordcount: '3418'
-ht-degree: 14%
+source-wordcount: '3536'
+ht-degree: 13%
 
 ---
 
@@ -262,7 +262,32 @@ ht-degree: 14%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_datanotavailable"
+>title="데이터를 사용할 수 없음"
+>abstract="2024년 9월 이전의 이전 데이터는 시스템 제한으로 인해 사용할 수 없습니다. 지표는 2024년 9월 이후부터 수집되고 표시됩니다. 이 차트는 타임라인에 지난 18개월을 표시하며, 데이터를 사용할 수 있게 되면 향후 데이터가 표시됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_corereportablerows"
+>title="핵심 보고 가능 행"
+>abstract="지난 13개월 동안 사용할 수 있는 총 행 수를 표시합니다. 예를 들어 2024년 2월 1일의 숫자는 2023년 1월부터 2024년 1월까지 이벤트 타임스탬프와 함께 사용할 수 있는 총 행을 보여줍니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_historicalreportablerows"
+>title="내역 보고 가능 행"
+>abstract="13개월보다 오래된 기간에 사용할 수 있는 총 행 수를 표시합니다. 예를 들어 2024년 2월 1일의 숫자는 2023년 1월보다 오래된 이벤트 타임스탬프에서 사용할 수 있는 총 행을 표시합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 
 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 이 인터페이스는 Customer Journey Analytics 사용이 계약에 합의된 내용을 준수하는지 여부를 확인할 수 있도록 지원합니다. 모니터링 목적 외에 사용 UI를 사용하여 Customer Journey Analytics 라이선스 갱신을 계획할 수 있습니다.
