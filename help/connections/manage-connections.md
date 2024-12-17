@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
+source-git-commit: 94d3c5352d00269b760e8b7bdf5059eaaa9b0bd3
 workflow-type: tm+mt
-source-wordcount: '3364'
+source-wordcount: '3418'
 ht-degree: 14%
 
 ---
@@ -243,6 +243,25 @@ ht-degree: 14%
 >abstract="데이터의 CSV 파일을 다운로드하는 옵션을 사용하여 연결, 데이터 세트, 샌드박스 및 태그별로 자세한 지표를 볼 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_otherdatasets"
+>title="기타 데이터 세트"
+>abstract="2024년 9월 이전 몇 달간 데이터는 데이터 집합 수준에서 수집되었으며 명확하게 하기 위해 *기타 데이터 집합*(으)로 표시됩니다. 2024년 9월부터 데이터는 세분화된 데이터 세트 수준으로 수집되며 *다른 데이터 세트*&#x200B;는 더 이상 나타나지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_unknowndatasetsorconnections"
+>title="알 수 없는 데이터 세트 또는 연결"
+>abstract="알 수 없는 데이터 세트 또는 연결은 해당 ID를 사용하여 표시됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 
