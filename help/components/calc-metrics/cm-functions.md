@@ -4,10 +4,10 @@ description: 계산된 지표 빌더를 사용하면 고급 계산된 지표에 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: ht
-source-wordcount: '1185'
-ht-degree: 100%
+source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+workflow-type: tm+mt
+source-wordcount: '1636'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,17 @@ ht-degree: 100%
 
 
 
-## 절대값
+## 절대값 {#absolute-value}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_absolute_value"
+>title="절대값"
+>abstract="숫자의 절대값을 반환합니다. 숫자의 절대값은 양의 값을 갖는 숫자입니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(지표)]**
 
@@ -49,7 +59,16 @@ ht-degree: 100%
 | 지표 | 절대값을 계산할 지표. |
 
 
-## 열 최대값
+## 열 최대값 {#column-maximum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_maximum"
+>title="열 최대값"
+>abstract="지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(지표, include_zeros)]**
 
@@ -61,7 +80,17 @@ ht-degree: 100%
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 열 최소값
+## 열 최소값 {#column-minimum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_minimum"
+>title="열 최소값"
+>abstract="지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(지표, include_zeros)]**
 
@@ -73,7 +102,17 @@ ht-degree: 100%
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 열 합계
+## 열 합계 {#column-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_sum"
+>title="열 합계"
+>abstract="열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(지표)]**
 
@@ -84,7 +123,17 @@ ht-degree: 100%
 | 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 
 
-## 계수
+## 계수 {#count}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_count"
+>title="계수"
+>abstract="열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수)."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
 
@@ -95,7 +144,16 @@ ht-degree: 100%
 | 지표 | 카운트할 지표. |
 
 
-## 지수
+## 지수 {#exponent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponent"
+>title="지수"
+>abstract="e를 주어진 숫자만큼 거듭제곱한 값을 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. EXPONENT는 숫자의 자연 로그인 LN의 역입니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(지표)]**
 
@@ -106,7 +164,17 @@ ht-degree: 100%
 | 지표 | 밑 e에 적용된 지수. |
 
 
-## 평균
+## 평균 {#mean}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_mean"
+>title="평균"
+>abstract="열에 있는 지표에 대한 산술 평균 또는 평균을 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(지표, include_zeros)]**
 
@@ -118,7 +186,17 @@ ht-degree: 100%
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 중간값
+## 중간값 {#median}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_median"
+>title="중간값"
+>abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 집합의 가운데 있는 숫자입니다. 즉, 숫자의 절반은 중앙값보다 크거나 같은 값을 갖고, 절반은 중앙값보다 작거나 같은 값을 갖는다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(지표, include_zeros)]**
 
@@ -130,7 +208,17 @@ ht-degree: 100%
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 모듈로
+## 모듈로 {#modulo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_modulo"
+>title="모듈로"
+>abstract="유클리드 분할을 사용하여 x를 y로 나눈 후 나머지를 반환합니다. "
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
 
@@ -157,7 +245,17 @@ MODULO(-3,3) = 0
 MODULO(MODULO(x,y)+y,y)
 ```
 
-## 백분위수
+## 백분위수 {#percentile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_percentile"
+>title="백분위수"
+>abstract="0과 100 사이의 값인 n번째 백분위수를 반환합니다. n &lt; 0인 경우 함수는 0을 사용합니다. n이 100보다 크면 함수는 100을 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(지표, k, include_zeros)]**
 
@@ -171,7 +269,16 @@ MODULO(MODULO(x,y)+y,y)
 
 
 
-## 거듭제곱 연산자
+## 거듭제곱 연산자 {#power-operator}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_operator"
+>title="거듭제곱 연산자"
+>abstract="x를 y의 거듭제곱으로 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
@@ -183,7 +290,17 @@ x를 y의 거듭제곱으로 반환합니다.
 | metric_Y | metric_X를 높이려는 거듭제곱. |
 
 
-## 사분위수
+## 사분위수 {#quartile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quartile"
+>title="사분위수"
+>abstract="지표에 대한 값들의 사분위수를 반환합니다. 예를 들어, 가장 많은 매출을 창출하는 상위 25% 제품을 찾는 데 사분위수를 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(지표, 사분위수, include_zeros)]**
 
@@ -196,7 +313,16 @@ x를 y의 거듭제곱으로 반환합니다.
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 반올림
+## 반올림 {#round}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_round"
+>title="반올림"
+>abstract="*숫자* 매개변수가 없는 반올림은 *숫자* 매개변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다.  *숫자* 매개변수를 사용하면 ROUND는 *숫자* 자리를 소수점 이하 오른쪽에 반환합니다.  *숫자*&#x200B;가 음수이면 소수의 왼쪽에 0들을 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(지표, 숫자)]**
 
@@ -216,15 +342,32 @@ ROUND( 314.15, -1) = 310
 ROUND( 314.15, -2) = 300
 ```
 
+## 행 수 {#row-count}
 
-## 행 수
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_count"
+>title="행 수"
+>abstract="주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;는 1로 간주됩니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
 주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;는 1로 간주됩니다.
 
 
-## 행 최대값
+## 행 최대값 {#row-max}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_max"
+>title="행 최대값"
+>abstract="각 행의 열 최대값."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(지표, include_zeros)]**
 
@@ -235,7 +378,17 @@ ROUND( 314.15, -2) = 300
 | 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
-## 행 최소값
+
+## 행 최소값 {#row-min}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_min"
+>title="행 최소값"
+>abstract="각 행의 열 최소값."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(지표, include_zeros)]**
 
@@ -248,7 +401,16 @@ ROUND( 314.15, -2) = 300
 
 
 
-## 행 합계
+## 행 합계 {#row-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_sum"
+>title="행 합계"
+>abstract="각 행의 열 합계."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(지표, include_zeros)]**
 
@@ -259,7 +421,17 @@ ROUND( 314.15, -2) = 300
 | 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 
 
-## 제곱근
+## 제곱근 {#square-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_square_root"
+>title="제곱근"
+>abstract="숫자의 양의 제곱근을 반환합니다. 숫자의 제곱근은 해당 숫자의 1/2 거듭제곱 값입니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 제곱근(지표, include_zeros)]**
 
@@ -270,7 +442,16 @@ ROUND( 314.15, -2) = 300
 | 지표 | 제곱근을 계산할 지표. |
 
 
-## 표준 편차
+## 표준 편차 {#standard-deviation}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_standard_deviation"
+>title="표준 편차"
+>abstract="데이터의 표본 인구를 기반으로, 표준 편차나, 분산의 제곱근을 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 표준편차(지표, include_zeros)]**
 
@@ -282,7 +463,16 @@ ROUND( 314.15, -2) = 300
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 분산
+## 분산 {#variance}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_variance"
+>title="분산"
+>abstract="데이터의 표본 인구를 기반으로 분산을 반환합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(지표, include_zeros)]**
 
@@ -320,9 +510,6 @@ VARIANCE 방정식은 다음과 같습니다.
 | 3 |
 
 이 열의 평균은 2입니다. 열의 분산은((1 - 2)<sup>2</sup> +(2 - 2)<sup>2</sup> +(3 - 2)<sup>2</sup>/3 = 2/3입니다.
-
-
-
 
 <!--
 
