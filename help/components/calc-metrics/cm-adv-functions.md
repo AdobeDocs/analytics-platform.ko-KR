@@ -4,7 +4,7 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4438'
 ht-degree: 27%
@@ -37,7 +37,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_and"
+>id="functions-and"
 >title="And"
 >abstract="결합. 0과 같지 않으면 참으로 간주하고 0과 같으면 거짓으로 간주합니다. 출력은 0(false) 또는 1(true)입니다."
 
@@ -57,7 +57,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_approximate_count_distinct"
+>id="functions-count-distinct-metric"
 >title="대략적인 고유 개수"
 >abstract="선택한 차원에 대한 차원 항목의 근사 고유 개수를 반환합니다."
 
@@ -84,7 +84,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_cosine"
+>id="functions-acos"
 >title="아크코사인"
 >abstract="지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오."
 
@@ -107,7 +107,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_sine"
+>id="functions-asin"
 >title="아크사인"
 >abstract="숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크신은 사인 값이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오"
 
@@ -130,7 +130,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_tangent"
+>id="functions-atan"
 >title="아크탄젠트"
 >abstract="숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오."
 
@@ -153,7 +153,7 @@ ht-degree: 27%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_t"
+>id="functions-cdf-t"
 >title="Cdf-T"
 >abstract="자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z-점수가 있는 확률을 반환합니다."
 
@@ -184,7 +184,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_z"
+>id="functions-cdf-z"
 >title="Cdf-Z"
 >abstract="정규 분포를 사용하는 임의의 변수에 col보다 적은 z-점수가 있는 확률을 반환합니다."
 
@@ -213,7 +213,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_ceiling"
+>id="functions-ceil"
 >title="천장"
 >abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(매출)을 사용하여 매출을 가장 근접한 달러 또는 $570으로 올림하십시오."
 
@@ -233,7 +233,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence"
+>id="functions-waskr-confidence"
 >title="신뢰도"
 >abstract="[시간 균일 중심 한계 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다."
 
@@ -258,7 +258,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_lower"
+>id="functions-waskr-confidence-interval-lower"
 >title="신뢰도 (하한)"
 >abstract="[시간 균일 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 임의의 시간 유효 신뢰도 **lower**&#x200B;을(를) 계산합니다."
 
@@ -282,7 +282,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_upper"
+>id="functions-waskr-confidence-interval-upper"
 >title="신뢰도 (상한)"
 >abstract="[Time-uniform 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 언제든지 유효한 신뢰 **upper**&#x200B;를 계산합니다."
 
@@ -307,7 +307,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cosine"
+>id="functions-cos"
 >title="코사인"
 >abstract="주어진 각도의 코사인을 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
@@ -327,7 +327,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cube_root"
+>id="functions-cube-root"
 >title="세제곱근"
 >abstract="숫자의 양의 세제곱근을 반환합니다. 숫자의 세제곱근은 해당 숫자의 1/3 거듭제곱 값입니다."
 
@@ -350,7 +350,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative"
+>id="functions-cumul"
 >title="누적"
 >abstract="열 x의 마지막 n 요소의 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다."
 
@@ -379,7 +379,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative_average"
+>id="functions-cumul-avg"
 >title="누적(평균)"
 >abstract="열 x의 마지막 n개 요소의 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다."
 
@@ -405,7 +405,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_equal"
+>id="functions-eq"
 >title="Equal"
 >abstract="같음. 출력은 0(false) 또는 1(true)입니다."
 
@@ -431,7 +431,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_correlation_coefficient"
+>id="functions-ls-corr-exp"
 >title="지수 회귀: 상관 계수"
 >abstract="지수 회귀: Y = a exp(X) + b. 상관 계수를 반환합니다."
 
@@ -454,7 +454,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_predicted_y"
+>id="functions-ls-pred-exp"
 >title="지수 회귀: 예측된 Y"
 >abstract="지수 회귀: Y = a exp(X) + b. Y를 반환합니다."
 
@@ -478,7 +478,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_intercept"
+>id="functions-ls-intercept-exp"
 >title="지수 회귀: 절편"
 >abstract="지수 회귀: Y = a exp(X) + b. b를 반환합니다."
 
@@ -501,7 +501,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_slope"
+>id="functions-ls-slope-exp"
 >title="지수 회귀: 기울기"
 >abstract="지수 회귀: Y = a exp(X) + b. a 반환"
 
@@ -525,7 +525,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_floor"
+>id="functions-floor"
 >title="Floor"
 >abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(매출)을 사용하여 매출을 가장 근접한 달러 또는 $569로 내림하십시오."
 
@@ -545,7 +545,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than"
+>id="functions-gt"
 >title="보다 큼"
 >abstract="출력은 0(false) 또는 1(true)입니다."
 
@@ -570,7 +570,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than_or_equal"
+>id="functions-ge"
 >title="크거나 같음"
 >abstract="크거나 같음. 출력은 0(false) 또는 1(true)입니다."
 
@@ -596,7 +596,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_cosine"
+>id="functions-cosh"
 >title="쌍곡코사인"
 >abstract="숫자의 쌍곡코사인을 반환합니다."
 
@@ -619,7 +619,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_sine"
+>id="functions-sinh"
 >title="쌍곡사인"
 >abstract="숫자의 쌍곡사인을 반환합니다."
 
@@ -639,7 +639,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_tangent"
+>id="functions-tanh"
 >title="쌍곡탄젠트"
 >abstract="숫자의 쌍곡탄젠트를 반환합니다."
 
@@ -659,7 +659,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_if"
+>id="functions-if"
 >title="If"
 >abstract="조건 매개변수의 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수의 값입니다. 그렇지 않으면 value_if_false 매개 변수의 값입니다."
 
@@ -683,7 +683,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than"
+>id="functions-lt"
 >title="보다 작음"
 >abstract="출력은 0(false) 또는 1(true)입니다."
 
@@ -708,7 +708,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than_or_equal"
+>id="functions-le"
 >title="작거나 같음"
 >abstract="작거나 같음. 출력은 0(false) 또는 1(true)입니다."
 
@@ -734,7 +734,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_lift"
+>id="functions-waskr-lift"
 >title="상승도"
 >abstract="제어 값과 비교한 비율의 상승도입니다."
 
@@ -753,7 +753,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_correlation_coefficient"
+>id="functions-ls-corr-linear"
 >title="선형 회귀: 상관 계수"
 >abstract="선형 회귀: Y = a X + b. 상관 계수를 반환합니다."
 
@@ -778,7 +778,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_intercept"
+>id="functions-ls-intercept-linear"
 >title="선형 회귀: 절편"
 >abstract="선형 회귀: Y = a X + b. b 반환."
 
@@ -803,7 +803,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_predicted_y"
+>id="functions-ls-pred-linear"
 >title="선형 회귀: 예측된 Y"
 >abstract="선형 회귀: Y = a X + b. Y 반환"
 
@@ -828,7 +828,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_slope"
+>id="functions-ls-slope-linear"
 >title="선형 회귀: 기울기"
 >abstract="선형 회귀: Y = a X + b. a 반환"
 
@@ -850,7 +850,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_base_ten"
+>id="functions-log10"
 >title="로그 밑 10"
 >abstract="숫자의 밑이 10인 로그를 반환합니다."
 
@@ -872,7 +872,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_coefficient"
+>id="functions-ls-corr-log"
 >title="로그 회귀: 상관 계수"
 >abstract="로그 회귀: Y = a ln(X) + b. 상관 계수를 반환합니다."
 
@@ -894,7 +894,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_intercept"
+>id="functions-ls-intercept-log"
 >title="로그 회귀: 절편"
 >abstract="로그 회귀: Y = a ln(X) + b. b를 반환합니다."
 
@@ -917,7 +917,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_predicted_y"
+>id="functions-ls-pred-log"
 >title="로그 회귀: 예측된 Y"
 >abstract="로그 회귀: Y = a ln(X) + b. Y를 반환합니다."
 
@@ -940,7 +940,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_slope"
+>id="functions-ls-slope-log"
 >title="로그 회귀: 기울기"
 >abstract="로그 회귀: Y = a ln(X) + b. a를 반환합니다."
 
@@ -963,7 +963,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_natural_log"
+>id="functions-log"
 >title="자연 로그"
 >abstract="숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e(2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다."
 
@@ -984,7 +984,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not"
+>id="functions-not"
 >title="아님"
 >abstract="부울로서의 부정 출력은 0(false) 또는 1(true)입니다."
 
@@ -1005,7 +1005,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not_equal"
+>id="functions-ne"
 >title="같지 않음"
 >abstract="같지 않음. 출력은 0(false) 또는 1(true)입니다."
 
@@ -1032,7 +1032,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_or"
+>id="functions-or"
 >title="또는"
 >abstract="분리. 0과 같지 않으면 참으로 간주하고 0과 같으면 거짓으로 간주합니다. 출력은 0(false) 또는 1(true)입니다."
 
@@ -1059,7 +1059,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_pi"
+>id="functions-pi"
 >title="Pi"
 >abstract="Pi 반환: 3.14159..."
 
@@ -1075,7 +1075,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_correlation_coefficient"
+>id="functions-ls-corr-power"
 >title="거듭제곱 회귀: 상관 계수"
 >abstract="거듭제곱 회귀: Y = b X ^ a. 상관 계수를 반환합니다."
 
@@ -1098,7 +1098,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_intercept"
+>id="functions-ls-intercept-power"
 >title="거듭제곱 회귀: 절편"
 >abstract="거듭제곱 회귀: Y = b X ^ a. b 반환"
 
@@ -1122,7 +1122,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_predicted_y"
+>id="functions-ls-pred-power"
 >title="거듭제곱 회귀: 예측된 Y"
 >abstract="거듭제곱 회귀: Y = b X ^ a. Y를 반환합니다."
 
@@ -1145,7 +1145,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_slope"
+>id="functions-ls-slope-power"
 >title="거듭제곱 회귀: 기울기"
 >abstract="거듭제곱 회귀: Y = b X ^ a. a 반환"
 
@@ -1168,7 +1168,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_correlation_coefficient"
+>id="functions-ls-corr-quadratic"
 >title="이차 회귀: 상관 계수"
 >abstract="이차 회귀: Y = (a + bX) ^ 2, 상관 계수를 반환합니다."
 
@@ -1189,7 +1189,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_intercept"
+>id="functions-ls-intercept-quadratic"
 >title="이차 회귀: 절편"
 >abstract="이차 회귀: Y = (a + bX) ^ 2, a 반환"
 
@@ -1211,7 +1211,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_predicted_y"
+>id="functions-ls-pred-quadratic"
 >title="이차 회귀: 예측된 Y"
 >abstract="이차 회귀: Y = (a + bX) ^ 2, Y 반환"
 
@@ -1233,7 +1233,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_slope"
+>id="functions-ls-slope-quadratic"
 >title="이차 회귀: 기울기"
 >abstract="이차 회귀: Y = (a + bX) ^ 2, b를 반환합니다."
 
@@ -1256,7 +1256,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_correlation_coefficient"
+>id="functions-ls-corr-reciprocal"
 >title="역수 회귀: 상관 계수"
 >abstract="역수 회귀: Y = a + b X ^ -1. 상관 계수를 반환합니다."
 
@@ -1278,7 +1278,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_intercept"
+>id="functions-ls-intercept-reciprocal"
 >title="역수 회귀: 절편"
 >abstract="역수 회귀: Y = a + b X ^ -1. 를 반환합니다."
 
@@ -1300,7 +1300,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_predicted_y"
+>id="functions-ls-pred-reciprocal"
 >title="역수 회귀: 예측된 Y"
 >abstract="역수 회귀: Y = a + b X ^ -1. Y를 반환합니다."
 
@@ -1322,7 +1322,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_slope"
+>id="functions-ls-slope-reciprocal"
 >title="회귀 회귀: 기울기"
 >abstract="역수 회귀: Y = a + b X ^ -1. b를 반환합니다."
 
@@ -1346,7 +1346,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_sine"
+>id="functions-sin"
 >title="사인"
 >abstract="주어진 각도의 사인을 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
@@ -1370,7 +1370,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_score"
+>id="functions-t-score"
 >title="T 스코어"
 >abstract="[MEAN](cm-functions.md#mean)에서의 편차를 표준 편차로 나눈 값입니다. [Z 스코어](#z-score)에 대한 별칭입니다."
 
@@ -1391,7 +1391,7 @@ Pi 반환: 3.14159...
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_test"
+>id="functions-t-test"
 >title="T-테스트"
 >abstract="t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다."
 
@@ -1438,7 +1438,7 @@ t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_tangent"
+>id="functions-tan"
 >title="탄젠트"
 >abstract="주어진 각도의 탄젠트를 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
@@ -1459,7 +1459,7 @@ t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_score"
+>id="functions-z-score"
 >title="Z 스코어"
 >abstract="표준 편차로 나눈 평균과의 편차."
 
@@ -1493,7 +1493,7 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_test"
+>id="functions-z-test"
 >title="Z-테스트"
 >abstract="z-점수가 x인 양측 z-테스트를 수행합니다."
 

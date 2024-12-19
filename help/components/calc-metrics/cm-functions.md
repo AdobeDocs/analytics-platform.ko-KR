@@ -4,7 +4,7 @@ description: 계산된 지표 빌더를 사용하면 고급 계산된 지표에 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -43,7 +43,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_absolute_value"
+>id="functions-abs"
 >title="절대값"
 >abstract="숫자의 절대값을 반환합니다. 숫자의 절대값은 양의 값을 갖는 숫자입니다."
 
@@ -64,7 +64,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_maximum"
+>id="functions-col-max"
 >title="열 최대값"
 >abstract="지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
@@ -85,7 +85,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_minimum"
+>id="functions-col-min"
 >title="열 최소값"
 >abstract="지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
@@ -107,7 +107,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_sum"
+>id="functions-col-sum"
 >title="열 합계"
 >abstract="열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해)."
 
@@ -128,7 +128,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_count"
+>id="functions-count"
 >title="계수"
 >abstract="열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수)."
 
@@ -149,7 +149,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponent"
+>id="functions-exp"
 >title="지수"
 >abstract="e를 주어진 숫자만큼 거듭제곱한 값을 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. EXPONENT는 숫자의 자연 로그인 LN의 역입니다."
 
@@ -169,7 +169,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_mean"
+>id="functions-mean"
 >title="평균"
 >abstract="열에 있는 지표에 대한 산술 평균 또는 평균을 반환합니다."
 
@@ -191,7 +191,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_median"
+>id="functions-median"
 >title="중간값"
 >abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 집합의 가운데 있는 숫자입니다. 즉, 숫자의 절반은 중앙값보다 크거나 같은 값을 갖고, 절반은 중앙값보다 작거나 같은 값을 갖는다."
 
@@ -213,7 +213,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_modulo"
+>id="functions-modulo"
 >title="모듈로"
 >abstract="유클리드 분할을 사용하여 x를 y로 나눈 후 나머지를 반환합니다. "
 
@@ -250,7 +250,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_percentile"
+>id="functions-percentile"
 >title="백분위수"
 >abstract="0과 100 사이의 값인 n번째 백분위수를 반환합니다. n &lt; 0인 경우 함수는 0을 사용합니다. n이 100보다 크면 함수는 100을 반환합니다."
 
@@ -274,7 +274,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_operator"
+>id="functions-pow"
 >title="거듭제곱 연산자"
 >abstract="x를 y의 거듭제곱으로 반환합니다."
 
@@ -295,7 +295,7 @@ x를 y의 거듭제곱으로 반환합니다.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quartile"
+>id="functions-quartile"
 >title="사분위수"
 >abstract="지표에 대한 값들의 사분위수를 반환합니다. 예를 들어, 가장 많은 매출을 창출하는 상위 25% 제품을 찾는 데 사분위수를 사용할 수 있습니다."
 
@@ -318,7 +318,7 @@ x를 y의 거듭제곱으로 반환합니다.
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_round"
+>id="functions-round"
 >title="반올림"
 >abstract="*숫자* 매개변수가 없는 반올림은 *숫자* 매개변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다.  *숫자* 매개변수를 사용하면 ROUND는 *숫자* 자리를 소수점 이하 오른쪽에 반환합니다.  *숫자*&#x200B;가 음수이면 소수의 왼쪽에 0들을 반환합니다."
 
@@ -347,7 +347,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_count"
+>id="functions-count-rows"
 >title="행 수"
 >abstract="주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;는 1로 간주됩니다."
 
@@ -363,7 +363,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_max"
+>id="functions-row-max"
 >title="행 최대값"
 >abstract="각 행의 열 최대값."
 
@@ -384,7 +384,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_min"
+>id="functions-row-min"
 >title="행 최소값"
 >abstract="각 행의 열 최소값."
 
@@ -406,7 +406,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_sum"
+>id="functions-row-sum"
 >title="행 합계"
 >abstract="각 행의 열 합계."
 
@@ -426,7 +426,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_square_root"
+>id="functions-sqrt"
 >title="제곱근"
 >abstract="숫자의 양의 제곱근을 반환합니다. 숫자의 제곱근은 해당 숫자의 1/2 거듭제곱 값입니다."
 
@@ -447,7 +447,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_standard_deviation"
+>id="functions-stdev"
 >title="표준 편차"
 >abstract="데이터의 표본 인구를 기반으로, 표준 편차나, 분산의 제곱근을 반환합니다."
 
@@ -468,7 +468,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_variance"
+>id="functions-variance"
 >title="분산"
 >abstract="데이터의 표본 인구를 기반으로 분산을 반환합니다."
 
