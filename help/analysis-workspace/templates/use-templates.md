@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
+source-git-commit: 34b94eeeeb501f6c0deb982351b7c65e0a97bc68
 workflow-type: tm+mt
-source-wordcount: '17969'
+source-wordcount: '18106'
 ht-degree: 81%
 
 ---
@@ -1347,6 +1347,24 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | **온라인/오프라인** | 온라인 트래픽과 오프라인 트래픽을 함께 확인합니다.<p>**이를 통해** 사이트로 유입되는 온라인 및 오프라인 트래픽의 분포를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 트래픽이 특정 수준에 도달하면 더 많은 리소스를 온라인 경험에 전용하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the ... --> |
 
 ### 기타 채널 {#other-channels}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--pointOfSale"
+>title="획득한 매출, 수행한 주문 및 판매된 수량을 포함한 POS(판매 시점) 거래 데이터를 봅니다. 이 템플릿에는 온라인 및 오프라인 매출뿐만 아니라 상위 상점, 상위 제품 및 상위 제품 카테고리에 대한 정보를 표시하는 시각화도 포함되어 있습니다."
+>abstract="**이를 통해**&#x200B;매장 위치와 온라인에서 가장 많이 팔리는 제품을 더 잘 이해할 수 있습니다.<br/>**학습한 내용에 따라** 성과가 가장 좋은 제품 및 채널에 더 많은 마케팅 리소스를 할당하는 등 여러 가지 작업을 수행할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--survey"
+>title="설문 조사에 대한 사용자 참여를 봅니다. 시작 및 완료 수, 상위 질문 및 답변, 첫 번째 참여자와 반복 참여자의 수를 확인합니다."
+>abstract="**설문 조사의 참여 수준과 성공률을 이해하는 데**&#x200B;도움이 될 수 있습니다.<br/>**학습한 내용에 따라** 향후 설문 조사를 조정하여 더 나은 참여를 제공할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 다음 템플릿을 사용할 수 있습니다.
 
