@@ -6,9 +6,9 @@ title: Workspace 단축키를 사용하는 방법
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -28,57 +28,57 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 | 액션 | 단축키 Mac | 단축키 Windows |
 | --- | --- | --- | 
-| 새 프로젝트 만들기 | **[!UICONTROL *cmd + shift + p *]** | **[!UICONTROL *ctrl + shift + p *]** |
-| 기존 프로젝트 열기 | **[!UICONTROL *cmd + o *]** | **[!UICONTROL *ctr + o *]** |
-| [패널] 창으로 이동 | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *alt + shift + 1 *]** |
-| [시각화] 창으로 이동 | **[!UICONTROL *opt + shift + 2 *]** | **[!UICONTROL *alt + shift + 2 *]** |
-| [구성 요소] 창으로 이동 | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *alt + shift + 3 *]** |
-| 모든 패널 축소/확장 | **[!UICONTROL *opt + m *]** | **[!UICONTROL *alt + m *]** |
-| 활성 패널 축소/확장 | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *alt + ctrl + m *]** |
-| 다음 패널로 이동 | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
-| 이전 패널로 이동 | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
+| 새 프로젝트 만들기 | **[!UICONTROL *Cmd + Shift + P *]** | **[!UICONTROL *Ctrl + Shift + P *]** |
+| 기존 프로젝트 열기 | **[!UICONTROL *Cmd + O *]** | **[!UICONTROL *Ctr + O *]** |
+| 패널 창으로 이동 | **[!UICONTROL *Opt + Shift + 1 *]** | **[!UICONTROL *Alt + Shift + 1 *]** |
+| 시각화 창으로 이동 | **[!UICONTROL *Opt + Shift + 2 *]** | **[!UICONTROL *Alt + Shift + 2 *]** |
+| 구성 요소 창으로 이동 | **[!UICONTROL *Opt + Shift + 3 *]** | **[!UICONTROL *Alt + Shift + 3 *]** |
+| 모든 패널 접기/펼치기 | **[!UICONTROL *Opt + M *]** | **[!UICONTROL *Alt + M *]** |
+| 활성 패널 접기/펼치기 | **[!UICONTROL *Opt + Cmd + M *]** | **[!UICONTROL *Alt + Ctrl + M *]** |
+| 다음 패널로 이동 | **[!UICONTROL *Opt *+ ▶︎]** | **[!UICONTROL *Alt *+ ▶︎]** |
+| 이전 패널로 이동 | **[!UICONTROL *Opt *+ ◀︎]** | **[!UICONTROL *Alt *+ ◀︎]** |
 
 ## 분석 작업
 
 | 액션 | 단축키 Mac | 단축키 Windows |
 | --- | --- | --- | 
-| 왼쪽 패널 검색 | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
-| 경고 만들기 | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
-| 계산된 지표 만들기 | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
-| 날짜 범위 만들기 | **[!UICONTROL *cmd + shift + d *]** | **[!UICONTROL *ctrl + shift + d *]** |
-| 필터 만들기 | **[!UICONTROL *cmd + shift + e *]** | **[!UICONTROL *ctrl + shift + e *]** |
-| 모두 삭제 | **[!UICONTROL *alt + w *]** | **[!UICONTROL *opt + w *]** |
-| 복사 | **[!UICONTROL *cmd + c *]** | **[!UICONTROL *ctrl + c *]** |
-| 다시 실행 | **[!UICONTROL *cmd + shift + z *]** | **[!UICONTROL *ctrl + shift + z *]** |
-| 실행 취소 | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
-| 구성 요소 새로 고침 | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *alt + shift + r *]** |
-| 프로젝트 새로 고침 | **[!UICONTROL *opt + r *]** | **[!UICONTROL *alt + r *]** |
-| 랜딩 페이지로 설정 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
+| 왼쪽 패널 검색 | **[!UICONTROL *Cmd + /*]** | **[!UICONTROL *Ctrl + /*]** |
+| 경고 만들기 | **[!UICONTROL *Cmd + Shift + A *]** | **[!UICONTROL *Ctrl + Shift + A *]** |
+| 계산된 지표 만들기 | **[!UICONTROL *Cmd + Shift + C *]** | **[!UICONTROL *Ctrl + Shift + C *]** |
+| 날짜 범위 만들기 | **[!UICONTROL *Cmd + Shift + D *]** | **[!UICONTROL *Ctrl + Shift + D *]** |
+| 필터 만들기 | **[!UICONTROL *Cmd + Shift + E *]** | **[!UICONTROL *Ctrl + Shift + E *]** |
+| 모두 지우기 | **[!UICONTROL *Alt + W *]** | **[!UICONTROL *Opt + W *]** |
+| 복사 | **[!UICONTROL *Cmd + C *]** | **[!UICONTROL *Ctrl + C *]** |
+| 다시 실행 | **[!UICONTROL *Cmd + Shift + Z *]** | **[!UICONTROL *Ctrl + Shift + Z *]** |
+| 실행 취소 | **[!UICONTROL *Cmd + Z *]** | **[!UICONTROL *Ctrl + Z *]** |
+| 구성 요소 새로 고침 | **[!UICONTROL *Opt + Shift + R *]** | **[!UICONTROL *Alt + Shift + R *]** |
+| 프로젝트 새로 고침 | **[!UICONTROL *Opt + R *]** | **[!UICONTROL *Alt + R *]** |
+| 랜딩 페이지로 설정 | **[!UICONTROL *Cmd + Shift + I *]** | **[!UICONTROL *Ctrl + Shift + I *]** |
 
 ## 패널 및 시각화 동작 추가
 
 | 액션 | 단축키 Mac | 단축키 Windows |
 | --- | --- | --- | 
-| 새 속성 패널 | **[!UICONTROL *opt + e *]** | **[!UICONTROL *alt + e *]** |
-| 새 빈 패널 | **[!UICONTROL *opt + b *]** | **[!UICONTROL *alt + b *]** |
-| 새 자유 형식 패널 | **[!UICONTROL *opt + a *]** | **[!UICONTROL *alt + a *]** |
-| 새 빠른 인사이트 패널 | **[!UICONTROL *opt + f *]** | **[!UICONTROL *alt + f *]** |
-| 새 자유 형식 테이블 | **[!UICONTROL *opt + 1 *]** | **[!UICONTROL *alt + 1 *]** |
-| 새 선 그래프 | **[!UICONTROL *opt + 2 *]** | **[!UICONTROL *alt + 2 *]** |
-| 새 막대 그래프 | **[!UICONTROL *opt + 3 *]** | **[!UICONTROL *alt + 3 *]** |
-| 새 콤보 차트 | **[!UICONTROL *opt + 4 *]** | **[!UICONTROL *alt + 4 *]** |
+| 새 속성 패널 | **[!UICONTROL *Opt + E *]** | **[!UICONTROL *Alt + E *]** |
+| 새 빈 패널 | **[!UICONTROL *Opt + B *]** | **[!UICONTROL *Alt + B *]** |
+| 새 자유 형식 패널 | **[!UICONTROL *Opt + A *]** | **[!UICONTROL *Alt + A *]** |
+| 새 빠른 인사이트 패널 | **[!UICONTROL *Opt + F *]** | **[!UICONTROL *Alt + F *]** |
+| 새 자유 형식 테이블 | **[!UICONTROL *Opt + 1 *]** | **[!UICONTROL *Alt + 1 *]** |
+| 새 선 그래프 | **[!UICONTROL *Opt + 2 *]** | **[!UICONTROL *Alt + 2 *]** |
+| 새 막대 그래프 | **[!UICONTROL *Opt + 3 *]** | **[!UICONTROL *Alt + 3 *]** |
+| 새 콤보 차트 | **[!UICONTROL *Opt + 4 *]** | **[!UICONTROL *Alt + 4 *]** |
 
 ## 민주화 동작
 
 | 액션 | 단축키 Mac | 단축키 Windows |
 | --- | --- | --- | 
-| 프로젝트 저장 | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
-| 다른 이름으로 프로젝트 저장 | **[!UICONTROL *cmd + shift + s *]** | **[!UICONTROL *ctrl + shift + s *]** |
-| 템플릿으로 저장 | **[!UICONTROL *opt + t *]** | **[!UICONTROL *alt + t *]** |
-| CSV로 다운로드 | **[!UICONTROL *cmd + shift + v *]** | **[!UICONTROL *ctrl + shift + v *]** |
-| PDF로 다운로드 | **[!UICONTROL *cmd + shift + b *]** | **[!UICONTROL *ctrl + shift + b *]** |
-| 프로젝트 데이터 조정 | **[!UICONTROL *cmd + shift + g *]** | **[!UICONTROL *ctrl + shift + g *]** |
-| 프로젝트 공유 | **[!UICONTROL *cmd + g *]** | **[!UICONTROL *ctrl + g *]** |
-| 프로젝트 링크 가져오기 | **[!UICONTROL *alt + l *]** | **[!UICONTROL *alt + l *]** |
-| 지금 파일 보내기 | **[!UICONTROL *alt + s *]** | **[!UICONTROL *alt + s *]** |
-| 일정에 따라 파일 보내기 | **[!UICONTROL *shift + alt + s *]** | **[!UICONTROL *shift + alt + s *]** |
+| 프로젝트 저장 | **[!UICONTROL *Cmd + S *]** | **[!UICONTROL *Ctrl + S *]** |
+| 다른 이름으로 프로젝트 저장 | **[!UICONTROL *Cmd + Shift + S *]** | **[!UICONTROL *Ctrl + Shift + S *]** |
+| 템플릿으로 저장 | **[!UICONTROL *Opt + T *]** | **[!UICONTROL *Alt + T *]** |
+| CSV로 다운로드 | **[!UICONTROL *Cmd + Shift + V *]** | **[!UICONTROL *Ctrl + Shift + V *]** |
+| PDF로 다운로드 | **[!UICONTROL *Cmd + Shift + B *]** | **[!UICONTROL *Ctrl + Shift + B *]** |
+| 프로젝트 데이터 조정 | **[!UICONTROL *Cmd + Shift + G *]** | **[!UICONTROL *Ctrl + Shift + G *]** |
+| 프로젝트 공유 | **[!UICONTROL *Cmd + G *]** | **[!UICONTROL *Ctrl + G *]** |
+| 프로젝트 링크 가져오기 | **[!UICONTROL *Alt + L *]** | **[!UICONTROL *Alt + L *]** |
+| 지금 파일 보내기 | **[!UICONTROL *Alt + S *]** | **[!UICONTROL *Alt + S *]** |
+| 일정에 따라 파일 보내기 | **[!UICONTROL *Shift + Alt + S *]** | **[!UICONTROL *Shift + Alt + S *]** |

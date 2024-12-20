@@ -6,9 +6,9 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_settings_datapreview"
->title="데이터 미리 보기"
->abstract="이 필터의 데이터를 연결의 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;의 총 연결 수를 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워질 수 있습니다."
+>title="데이터 미리보기"
+>abstract="이 필터의 데이터를 연결 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 연결 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,9 +47,9 @@ Customer Journey Analytics에서 사람들이 디지털 경험과 상호 작용�
 
    2. **[!UICONTROL 지표를 사용하여 새 세션 시작]** 아래의 **[!UICONTROL 여기에 지표 놓기]** 목록에서 지표를 선택합니다. 또는 **[!UICONTROL 지표 필드 놓기]**&#x200B;의 왼쪽 창에서 지표를 드래그 앤 드롭할 수 있습니다. 선택한 지표는 새 세션의 시작을 정의합니다. 지표를 여러 개 정의할 수 있습니다.
 
-      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 앱을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서, 이름이 **[!UICONTROL 론치]**&#x200B;로 지정되고 **[!UICONTROL 앱 상호작용]** **[!UICONTROL 이름]** 스키마 필드에 기반한 지표 유형의 구성요소를 정의합니다. **[!UICONTROL 론치]** 지표 구성 요소를 추가로 지정하여 값이 `launch`와(과) 일치할 때만 값을 계산하도록 합니다.
+      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 앱을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서 이름이 **[!UICONTROL 론치]**&#x200B;로 지정되고 **[!UICONTROL 앱 인터랙션]** **[!UICONTROL 이름]** 스키마 필드에 기반한 지표 유형의 구성 요소를 정의합니다. **[!UICONTROL 론치]** 지표 구성 요소를 추가로 지정하여 값이 `launch`와(과) 일치할 때만 값을 계산하도록 합니다.
 
-      ![앱 상호작용 지표 구성 요소 론치](assets/component-launches.png)
+      ![앱 인터랙션 지표 구성 요소 론치](assets/component-launches.png)
 
       그런 다음 드래그 앤 드롭하거나 **[!UICONTROL 론치]** 지표를 새 세션을 정의하는 지표로 선택합니다.
 
