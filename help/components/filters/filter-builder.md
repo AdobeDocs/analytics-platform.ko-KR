@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: b1bf7dfa4b2b95c2b3c00b71719a93bc7394ed33
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_datapreview"
->title="데이터 미리 보기"
->abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;의 데이터 보기의 총 수를 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워질 수 있습니다."
+>title="데이터 미리보기"
+>abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
