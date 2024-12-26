@@ -7,7 +7,7 @@ role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,18 +34,18 @@ ht-degree: 93%
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최소값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다
 
 
 
-## 절대값 {#absolute-value}
+## 절댓값 {#absolute-value}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-abs"
->title="절대값"
->abstract="숫자의 절대값을 반환합니다. 숫자의 절대값은 양의 값을 갖는 숫자입니다."
+>title="절댓값"
+>abstract="숫자의 절댓값을 반환합니다. 숫자의 절댓값은 양의 값을 갖는 숫자입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,16 +56,16 @@ ht-degree: 93%
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 절대값을 계산할 지표. |
+| 지표 | 절댓값을 계산할 지표. |
 
 
-## 열 최대값 {#column-maximum}
+## 열 최댓값 {#column-maximum}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
->title="열 최대값"
+>title="열 최댓값"
 >abstract="지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,13 +80,13 @@ ht-degree: 93%
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 열 최소값 {#column-minimum}
+## 열 최솟값 {#column-minimum}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
->title="열 최소값"
+>title="열 최솟값"
 >abstract="지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -123,13 +123,13 @@ ht-degree: 93%
 | 지표 | 하나 이상의 지표가 필요하지만 여러 개의 지표를 매개변수로 사용할 수 있습니다. |
 
 
-## 계수 {#count}
+## 개수 {#count}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-count"
->title="계수"
+>title="개수"
 >abstract="열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수)."
 
 <!-- markdownlint-enable MD034 -->
@@ -151,7 +151,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="지수"
->abstract="e를 주어진 숫자만큼 거듭제곱한 값을 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. EXPONENT는 숫자의 자연 로그인 LN의 역입니다."
+>abstract="e를 주어진 숫자만큼 거듭제곱한 값을 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. 지수는 숫자의 자연 로그인 LN의 역함수입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -193,7 +193,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-median"
 >title="중간값"
->abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 집합의 가운데 있는 숫자입니다. 즉, 숫자의 절반은 중앙값보다 크거나 같은 값을 갖고, 절반은 중앙값보다 작거나 같은 값을 갖는다."
+>abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -252,7 +252,7 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="백분위수"
->abstract="0과 100 사이의 값인 n번째 백분위수를 반환합니다. n &lt; 0인 경우 함수는 0을 사용합니다. n이 100보다 크면 함수는 100을 반환합니다."
+>abstract="0~100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -297,7 +297,7 @@ x를 y의 거듭제곱으로 반환합니다.
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
 >title="사분위수"
->abstract="지표에 대한 값들의 사분위수를 반환합니다. 예를 들어, 가장 많은 매출을 창출하는 상위 25% 제품을 찾는 데 사분위수를 사용할 수 있습니다."
+>abstract="지표에 대한 값들의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -358,20 +358,20 @@ ROUND( 314.15, -2) = 300
 주어진 열에 대해 행 수를 반환합니다(차원 내에 보고된 고유 요소 수). *고유 수 초과*&#x200B;는 1로 간주됩니다.
 
 
-## 행 최대값 {#row-max}
+## 행 최댓값 {#row-max}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-row-max"
->title="행 최대값"
->abstract="각 행의 열 최대값."
+>title="행 최댓값"
+>abstract="각 행의 열 최댓값."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(지표, include_zeros)]**
 
-각 행의 열 최대값.
+각 행의 열 최댓값.
 
 | 인수 | 설명 |
 |---|---|
@@ -379,20 +379,20 @@ ROUND( 314.15, -2) = 300
 | include_zeros | 계산에 0값을 포함할지 여부. |
 
 
-## 행 최소값 {#row-min}
+## 행 최솟값 {#row-min}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-row-min"
->title="행 최소값"
->abstract="각 행의 열 최소값."
+>title="행 최솟값"
+>abstract="각 행의 열 최솟값."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(지표, include_zeros)]**
 
-각 행의 열 최소값.
+각 행의 열 최솟값.
 
 | 인수 | 설명 |
 |---|---|
@@ -449,7 +449,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-stdev"
 >title="표준 편차"
->abstract="데이터의 표본 인구를 기반으로, 표준 편차나, 분산의 제곱근을 반환합니다."
+>abstract="데이터의 표본 집단을 기반으로, 표준 편차나, 분산의 제곱근을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -470,7 +470,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-variance"
 >title="분산"
->abstract="데이터의 표본 인구를 기반으로 분산을 반환합니다."
+>abstract="데이터의 표본 집단을 기반으로 분산을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 

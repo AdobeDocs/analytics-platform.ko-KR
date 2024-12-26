@@ -7,7 +7,7 @@ role: User
 source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 27%
+ht-degree: 56%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 27%
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최소값이 더 높은 경우입니다.  이 경우 0을 포함하도록 매개 변수를 확인하지 않도록 선택할 수 있습니다.
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 0을 포함하도록 매개 변수를 확인하지 않도록 선택할 수 있습니다.
 
 
 ## And {#and}
@@ -39,13 +39,13 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="And"
->abstract="결합. 0과 같지 않으면 참으로 간주하고 0과 같으면 거짓으로 간주합니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
-결합. 0과 같지 않으면 참으로 간주하고 0과 같으면 거짓으로 간주합니다. 출력은 0(false) 또는 1(true)입니다.
+논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -109,7 +109,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="아크사인"
->abstract="숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크신은 사인 값이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오"
+>abstract="숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -155,13 +155,13 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
 >title="Cdf-T"
->abstract="자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z-점수가 있는 확률을 반환합니다."
+>abstract="자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(지표, 숫자)]**
 
-자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z-점수가 있는 확률을 반환합니다.
+자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -186,13 +186,13 @@ CDF-T(x, ∞) ? cdf_z(x)
 >[!CONTEXTUALHELP]
 >id="functions-cdf-z"
 >title="Cdf-Z"
->abstract="정규 분포를 사용하는 임의의 변수에 col보다 적은 z-점수가 있는 확률을 반환합니다."
+>abstract="정규 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(지표, 숫자)]**
 
-정규 분포를 사용하는 임의의 변수에 col보다 적은 z-점수가 있는 확률을 반환합니다.
+정규 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -208,14 +208,14 @@ CDF-Z(2) ? 0.97725
 CDF-Z(-3) ? 0.0013499
 ```
 
-## 천장 {#ceiling}
+## 실링 {#ceiling}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
->title="천장"
->abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(매출)을 사용하여 매출을 가장 근접한 달러 또는 $570으로 올림하십시오."
+>title="실링"
+>abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -235,13 +235,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
 >title="신뢰도"
->abstract="[시간 균일 중심 한계 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다."
+>abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
 
-[시간 균일 중심 한계 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다.
+[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다.
 
 신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
 
@@ -260,13 +260,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-lower"
 >title="신뢰도 (하한)"
->abstract="[시간 균일 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 임의의 시간 유효 신뢰도 **lower**&#x200B;을(를) 계산합니다."
+>abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **하한**&#x200B;을 계산합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
 
-[시간 균일 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 임의의 시간 유효 신뢰도 **lower**&#x200B;을(를) 계산합니다.
+[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **하한**&#x200B;을 계산합니다.
 
 신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
 
@@ -284,13 +284,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-upper"
 >title="신뢰도 (상한)"
->abstract="[Time-uniform 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 언제든지 유효한 신뢰 **upper**&#x200B;를 계산합니다."
+>abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **상한**&#x200B;을 계산합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
 
-[Time-uniform 중앙 제한 이론 및 점근 신뢰 시퀀스](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 메서드를 사용하여 언제든지 유효한 신뢰 **upper**&#x200B;를 계산합니다.
+[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **상한**&#x200B;을 계산합니다.
 
 신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
 
@@ -309,7 +309,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="코사인"
->abstract="주어진 각도의 코사인을 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
+>abstract="주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -352,13 +352,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="누적"
->abstract="열 x의 마지막 n 요소의 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다."
+>abstract="x열의 마지막 n개 요소 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 누적(숫자, 지표)]**
 
-열 x의 마지막 n 요소의 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다.
+x열의 마지막 n개 요소 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다.
 
 | 인수 | 설명 |
 | --- | --- |
@@ -374,20 +374,20 @@ CDF-Z(-3) ? 0.0013499
 | 7월 | $400 | 1100달러 | $600 |
 
 
-## 누적(평균) {#cumulative-average}
+## 누적 (평균) {#cumulative-average}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
->title="누적(평균)"
->abstract="열 x의 마지막 n개 요소의 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다."
+>title="누적 (평균)"
+>abstract="x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 누적 평균(숫자, 지표)]**
 
-열 x의 마지막 n개 요소의 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 앞에 오는 요소를 합합니다.
+x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다.
 
 | 인수 | 설명 |
 | --- | --- |
@@ -407,13 +407,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-eq"
 >title="Equal"
->abstract="같음. 출력은 0(false) 또는 1(true)입니다."
+>abstract="Equal. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
 
-같음. 출력은 0(false) 또는 1(true)입니다.
+Equal. 출력은 0(false) 또는 1(true)입니다.
 
 
 | 인수 | 설명 |
@@ -503,7 +503,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="지수 회귀: 기울기"
->abstract="지수 회귀: Y = a exp(X) + b. a 반환"
+>abstract="지수 회귀: Y = a exp(X) + b. a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -520,14 +520,14 @@ CDF-Z(-3) ? 0.0013499
 | include_zeros | 계산에 0 값을 포함할지 여부 |
 
 
-## Floor {#floor}
+## 내림 {#floor}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-floor"
->title="Floor"
->abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(매출)을 사용하여 매출을 가장 근접한 달러 또는 $569로 내림하십시오."
+>title="내림"
+>abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -654,14 +654,14 @@ CDF-Z(-3) ? 0.0013499
 | 지표 | 쌍곡탄젠트를 찾을 라디안 단위 각도 |
 
 
-## If {#if}
+## 조건 {#if}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-if"
->title="If"
->abstract="조건 매개변수의 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수의 값입니다. 그렇지 않으면 value_if_false 매개 변수의 값입니다."
+>title="조건"
+>abstract="조건 매개변수 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -729,7 +729,7 @@ CDF-Z(-3) ? 0.0013499
 
 
 
-## 상승도(#lift)
+## 상승도 (#lift)
 
 <!-- markdownlint-disable MD034 -->
 
@@ -780,7 +780,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-linear"
 >title="선형 회귀: 절편"
->abstract="선형 회귀: Y = a X + b. b 반환."
+>abstract="선형 회귀: Y = a X + b. b를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -805,7 +805,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
 >title="선형 회귀: 예측된 Y"
->abstract="선형 회귀: Y = a X + b. Y 반환"
+>abstract="선형 회귀: Y = a X + b. Y를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -830,7 +830,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="선형 회귀: 기울기"
->abstract="선형 회귀: Y = a X + b. a 반환"
+>abstract="선형 회귀: Y = a X + b. a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -965,13 +965,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-log"
 >title="자연 로그"
->abstract="숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e(2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다."
+>abstract="숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e (2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 자연어 로그(지표)]**
 
-숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e(2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다.
+숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e (2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -986,13 +986,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="아님"
->abstract="부울로서의 부정 출력은 0(false) 또는 1(true)입니다."
+>abstract="부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(논리적)]**
 
-부울로서의 부정 출력은 0(false) 또는 1(true)입니다.
+부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1034,7 +1034,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="또는"
->abstract="분리. 0과 같지 않으면 참으로 간주하고 0과 같으면 거짓으로 간주합니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리합. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1061,13 +1061,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-pi"
 >title="Pi"
->abstract="Pi 반환: 3.14159..."
+>abstract="Pi: 3.14159... 반환"
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
 
-Pi 반환: 3.14159...
+Pi: 3.14159... 반환
 
 
 ## 거듭제곱 회귀: 상관 계수 {#power-regression-correlation-coefficient}
@@ -1100,7 +1100,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-power"
 >title="거듭제곱 회귀: 절편"
->abstract="거듭제곱 회귀: Y = b X ^ a. b 반환"
+>abstract="거듭제곱 회귀: Y = b X ^ a. b를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1147,7 +1147,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-power"
 >title="거듭제곱 회귀: 기울기"
->abstract="거듭제곱 회귀: Y = b X ^ a. a 반환"
+>abstract="거듭제곱 회귀: Y = b X ^ a. a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1191,7 +1191,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-quadratic"
 >title="이차 회귀: 절편"
->abstract="이차 회귀: Y = (a + bX) ^ 2, a 반환"
+>abstract="이차 회귀: Y = (a + bX) ^ 2, a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1213,7 +1213,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-quadratic"
 >title="이차 회귀: 예측된 Y"
->abstract="이차 회귀: Y = (a + bX) ^ 2, Y 반환"
+>abstract="이차 회귀: Y = (a + bX) ^ 2, Y를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1280,7 +1280,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-reciprocal"
 >title="역수 회귀: 절편"
->abstract="역수 회귀: Y = a + b X ^ -1. 를 반환합니다."
+>abstract="역수 회귀: Y = a + b X ^ -1. a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1323,7 +1323,7 @@ Pi 반환: 3.14159...
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-reciprocal"
->title="회귀 회귀: 기울기"
+>title="역수 회귀: 기울기"
 >abstract="역수 회귀: Y = a + b X ^ -1. b를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -1348,7 +1348,7 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="사인"
->abstract="주어진 각도의 사인을 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
+>abstract="주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1372,13 +1372,13 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
 >title="T 스코어"
->abstract="[MEAN](cm-functions.md#mean)에서의 편차를 표준 편차로 나눈 값입니다. [Z 스코어](#z-score)에 대한 별칭입니다."
+>abstract="[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z-점수](#z-score)에 대한 별칭."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL T 스코어(지표, include_zeros)]**
 
-[MEAN](cm-functions.md#mean)에서의 편차를 표준 편차로 나눈 값입니다. [Z 스코어](#z-score)에 대한 별칭입니다.
+[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z-점수](#z-score)에 대한 별칭.
 
 | 인수 | 설명 |
 |---|---|
@@ -1393,13 +1393,13 @@ Pi 반환: 3.14159...
 >[!CONTEXTUALHELP]
 >id="functions-t-test"
 >title="T-테스트"
->abstract="t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다."
+>abstract="t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL T-테스트(지표, 도, 꼬리)]**
 
-t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다.
+t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1440,13 +1440,13 @@ t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="탄젠트"
->abstract="주어진 각도의 탄젠트를 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
+>abstract="주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 탄젠트(지표)]**
 
-주어진 각도의 탄젠트를 반환합니다. 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
+주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -1454,13 +1454,13 @@ t 점수가 x이고 자유도가 n인 m측 검증 t 테스트를 수행합니다
 
 
 
-## Z 스코어 {#z-score}
+## z-점수 {#z-score}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-z-score"
->title="Z 스코어"
+>title="z-점수"
 >abstract="표준 편차로 나눈 평균과의 편차."
 
 <!-- markdownlint-enable MD034 -->
@@ -1495,13 +1495,13 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 >[!CONTEXTUALHELP]
 >id="functions-z-test"
 >title="Z-테스트"
->abstract="z-점수가 x인 양측 z-테스트를 수행합니다."
+>abstract="z-점수가 x인 n측 검증 z-테스트를 수행합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-z-점수가 x인 양측 z-테스트를 수행합니다.
+z-점수가 x인 n측 검증 z-테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|

@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -248,8 +248,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
->title="기타 데이터 세트"
->abstract="2024년 9월 이전 몇 달간 데이터는 데이터 집합 수준에서 수집되었으며 명확하게 하기 위해 *기타 데이터 집합*(으)로 표시됩니다. 2024년 9월부터 데이터는 세분화된 데이터 세트 수준으로 수집되며 *다른 데이터 세트*&#x200B;는 더 이상 나타나지 않습니다."
+>title="다른 데이터 세트"
+>abstract="2024년 9월 이전 몇 개월 동안 데이터는 데이터 세트 수준에서 수집되었고, 명확성을 위해 *다른 데이터 세트*&#x200B;로 표시됩니다. 2024년 9월부터 데이터는 세부적인 데이터 세트 수준에서 수집되고 *다른 데이터 세트*&#x200B;가 더 이상 표시되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -257,8 +257,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_unknowndatasetsorconnections"
->title="알 수 없는 데이터 세트 또는 연결"
->abstract="알 수 없는 데이터 세트 또는 연결은 해당 ID를 사용하여 표시됩니다."
+>title="알 수 없는 데이터 세트나 연결"
+>abstract="알 수 없는 데이터 세트나 연결은 해당 ID를 사용하여 표시합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -267,7 +267,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_datanotavailable"
 >title="데이터를 사용할 수 없음"
->abstract="2024년 9월 이전의 이전 데이터는 시스템 제한으로 인해 사용할 수 없습니다. 지표는 2024년 9월 이후부터 수집되고 표시됩니다. 이 차트는 타임라인에 지난 18개월을 표시하며, 데이터를 사용할 수 있게 되면 향후 데이터가 표시됩니다."
+>abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 차트는 타임라인에서 지난 18개월을 보여 주고 데이터는 추후 사용될 경우 표시됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +276,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
 >title="핵심 보고 가능 행"
->abstract="지난 13개월 동안 사용할 수 있는 총 행 수를 표시합니다. 예를 들어 2024년 2월 1일의 숫자는 2023년 1월부터 2024년 1월까지 이벤트 타임스탬프와 함께 사용할 수 있는 총 행을 보여줍니다."
+>abstract="지난 13개월 동안 사용 가능한 총 행 수를 표시합니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,7 +285,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
 >title="내역 보고 가능 행"
->abstract="13개월보다 오래된 기간에 사용할 수 있는 총 행 수를 표시합니다. 예를 들어 2024년 2월 1일의 숫자는 2023년 1월보다 오래된 이벤트 타임스탬프에서 사용할 수 있는 총 행을 표시합니다."
+>abstract="13개월 이상 지난 해당 기간의 사용 가능한 총 행 수를 표시합니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
