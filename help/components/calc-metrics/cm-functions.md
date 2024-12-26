@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -304,7 +304,7 @@ x를 y의 거듭제곱으로 반환합니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(지표, 사분위수, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}[COLUMN MINIMUM](#column-minimum), [MEDIAN](#median), 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
+[!BADGE 테이블]{type="Neutral"}[COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -449,7 +449,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-stdev"
 >title="표준 편차"
->abstract="데이터의 표본 집단을 기반으로, 표준 편차나, 분산의 제곱근을 반환합니다."
+>abstract="데이터의 표본 집단을 기반으로 표준 편차나 분산의 제곱근을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
