@@ -4,7 +4,7 @@ title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: b1bf7dfa4b2b95c2b3c00b71719a93bc7394ed33
+source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 10%
@@ -213,7 +213,7 @@ ht-degree: 10%
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
 | 반복(기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 | 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
-| 비반복 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
+| 비반복 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 
 세 개의 필터를 사용하는 이벤트에 대한 예제 보고서는 다음과 같습니다.
 
