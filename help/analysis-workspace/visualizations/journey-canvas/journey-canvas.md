@@ -4,10 +4,10 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
+source-git-commit: 05e1b5e26d5a1dc1e46a675131185f0927c65f22
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 3%
+source-wordcount: '1759'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="여정 캔버스"
->abstract="폴아웃과 유사하게 이 시각화는 사람들이 일련의 터치포인트를 어떻게 진행하거나 빠져나가는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 여정 캔버스를 사용하거나 Journey Optimizer에서 생성한 여정을 분석할 수 있습니다."
+>abstract="사람들이 일련의 터치포인트를 진행하거나 중단하는 방법을 보여 줍니다. 여러 진입점 및 경로가 있는 여정에 사용하거나 Journey Optimizer에서 만든 여정을 분석하는 데 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
