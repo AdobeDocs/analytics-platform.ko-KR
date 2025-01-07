@@ -4,14 +4,34 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
+source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 1%
+source-wordcount: '1766'
+ht-degree: 3%
 
 ---
 
-# 여정 캔버스 개요
+# 여정 캔버스 개요 {#journey-canvas-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_button"
+>title="여정 캔버스"
+>abstract="폴아웃과 유사하게 이 시각화는 사람들이 일련의 터치포인트를 어떻게 진행하거나 빠져나가는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 여정 캔버스를 사용하거나 Journey Optimizer에서 생성한 여정을 분석할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_panel"
+>title="여정 캔버스"
+>abstract="사람들이 정의된 여정을 통해 진행하거나 중단하는 방법을 분석합니다. 이벤트, 여정 항목 및 필터의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성하여 사용자 차원 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트 및 조건을 재배열합니다. 그렇게 하면 그에 따라 데이터가 업데이트됩니다. <br/><br/>Adobe Journey Optimizer에 대한 액세스 권한이 있는 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 여정 캔버스 시각화를 사용하면 사용자와 고객에게 제공하는 여정을 분석하고 심도 있는 통찰력을 얻을 수 있습니다. 이를 통해 여정을 처음부터 정의하거나 Journey Optimizer에서 하나를 본 다음, 사람들이 여정을 어떻게 떠나고(빠짐) 계속 지나가는지를 확인할 수 있습니다.
 
