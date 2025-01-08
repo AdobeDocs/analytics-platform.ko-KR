@@ -5,9 +5,9 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2226'
 ht-degree: 3%
 
 ---
@@ -178,6 +178,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
    * [개체 배열](/help/use-cases/object-arrays.md)의 일부인 필드에서 만들어졌습니다(Adobe Analytics의 다중 값 변수와 유사).
    * [지속성이 활성화됨](/help/data-views/component-settings/persistence.md)
    * [바인딩 차원](/help/use-cases/data-views/binding-dimensions-metrics.md)을 사용하고 있지 않습니다.
+* 다른 [개체 배열](/help/use-cases/object-arrays.md)을 참조하는 필드에서 가져온 차원이 여러 개 있습니다. (동일한 오브젝트 배열을 참조하는 여러 차원이 허용됩니다.)
 * 보고서당 5개 이상의 차원과 5개의 지표(최대 5개의 차원과 5개의 지표가 지원됨)
 * 테이블 열:
    * 날짜 범위
