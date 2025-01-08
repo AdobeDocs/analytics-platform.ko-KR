@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: e4107e2f795b9beb7aa2802aa7ea646be6733212
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 40%
+source-wordcount: '932'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 40%
 
 <!-- markdownlint-enable MD034 -->
 
-
 ![주요 지표](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 주요 지표 요약]** 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. 하나의 시각화로 결합된 여러 시각화의 이점을 제공합니다.
 
 * **[!UICONTROL 선]** 시각화는 기본 및 비교 날짜 범위에 대한 지표의 추세를 보여줍니다
@@ -30,6 +29,8 @@ ht-degree: 40%
 * **[!UICONTROL 요약 백분율 변경]**&#x200B;은 기본 날짜 범위와 비교 날짜 범위 간의 지표 증가 또는 감소를 보여 줍니다
 
 * 지표의 현재 총 값([!UICONTROL **요약 번호**])
+
+## 사용 사례
 
 이 시각화는 다음을 포함한 다양한 일반적인 사용 사례를 다룹니다.
 
@@ -50,11 +51,18 @@ ht-degree: 40%
    | 옵션 | 설명 |
    | --- | --- |
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
-   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다. |
-   | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위를 비교하는 날짜 범위. |
-   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 특히 관심이 있는 모든 필터. |
+   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>데이터 보기에서 사용 가능한 날짜 범위 중에서 선택합니다.</p> <p>시각화가 있는 패널에서 사용 중인 것과 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
+   | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교할 날짜 범위입니다. |
+   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 관심이 있는 모든 필터. |
 
    {style="table-layout:auto"}
+
+   >[!NOTE]
+   >
+   >[!UICONTROL **기본 날짜 범위**] 필드가 [!UICONTROL **패널 날짜 범위**](으)로 설정되어 있으면 선택한 **[!UICONTROL 비교 날짜 범위]** 옵션이 기본 날짜 범위와 관련되는지 또는 수정되는지에 따라 **[!UICONTROL 비교 날짜 범위]**&#x200B;가 자동으로 업데이트됩니다.
+   >
+   >* **상대:** **[!UICONTROL 비교 날짜 범위]** 필드가 기본 날짜 범위와 상대적인 옵션([!UICONTROL **이전 날**], [!UICONTROL **지난 주 같은 날**], [!UICONTROL **이전 4주 같은 날**] 등)으로 설정된 경우 [!UICONTROL **기본 날짜 범위**] 필드를 업데이트하면 **[!UICONTROL 비교 날짜 범위]**&#x200B;이 패널의 날짜 범위를 바로 뒤따르는 기간으로 자동 업데이트됩니다.
+   >* **고정:** [!UICONTROL **비교 날짜 범위**] 필드가 고정 날짜 범위(예: **2023년 2월 3일**)로 설정된 경우 [!UICONTROL **기본 날짜 범위**] 필드 또는 패널 날짜 범위에 대한 변경 사항은 [!UICONTROL **비교 날짜 범위**]&#x200B;에 영향을 주지 않습니다. 그러나 패널 날짜 범위를 업데이트하면 [!UICONTROL **기본 날짜 범위**]&#x200B;가 자동으로 업데이트됩니다.
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
@@ -89,6 +97,8 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ![지표, 요약 변경, 요약 번호 및 선 그래프를 표시하는 주요 지표 출력입니다.](assets/key-metrics.png)
 
+출력을 볼 때는 다음 사항을 고려하십시오.
+
 * **[!UICONTROL 이전 기간]** 선 그래프(항상 회색으로 표시됨)는 구성 단계의 **[!UICONTROL 비교 날짜 범위]**&#x200B;에 해당합니다.
 
 * 구성 중에 비교 날짜 범위가 지정되지 않았거나 시각화 설정에서 숨겨져 있는 경우 기본 날짜 범위에 대한 선 그래프만 표시됩니다. 요약 변경 사항이 숨겨져 있습니다.
@@ -111,17 +121,34 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 시각화 설정의 일부로, 특정 주요 지표 요약 설정을 사용할 수 있습니다.
 
 | 설정 | 설명 |
-|---|---|
-| **[!UICONTROL 요약 표시 유형]** | **[!UICONTROL 백분율 변경 강조]** 또는 **[!UICONTROL 숫자 값 강조]** 중에서 선택하세요. |
+| --- | --- |
+| **[!UICONTROL 백분율 변경 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 변경 사항 표시 |
+| **[!UICONTROL 숫자 값 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 번호 표시 |
+| **[!UICONTROL 범례 표시]** | 시각화 하단에 범례 표시 또는 숨기기 |
+| **[!UICONTROL 주석 표시]** | 관리자가 추가한 주석 표시 또는 숨기기 |
+| **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
+| **[!UICONTROL 백분율]** | 시각화를 숫자 대신 백분율로 표시합니다. |
 | **[!UICONTROL 추세선 표시]** | 시각화에 추세선을 표시합니다. |
-| **[!UICONTROL 추세선에 최대 및 최소 표시]** | 추세선에 최대값과 최소값을 표시합니다. |
-| **[!UICONTROL 비교 백분율 및 추세선 표시]** | 추세선과 비교 백분율을 표시합니다. 선택하지 않으면 둘 다 숨겨집니다. |
-| **[!UICONTROL 숫자 값 옵션]** | **[!UICONTROL 총 숫자 표시]** 또는 **[!UICONTROL 원시 차이 표시]**. |
-| **[!UICONTROL 값 생략]** | **[!UICONTROL 값 생략]**&#x200B;을 선택하여 숫자 값을 지능적으로 축약합니다. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td  align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 1로 설정</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td  align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td align="right">1,201.1만달러</td></tr><tr><td>US$12,011,141.25</td><td>선택, 3으로 설정</td><td align="right">1,201.1만달러</td></tr></table> |
+| **[!UICONTROL 추세선에 최대 및 최소 표시]** | 기본 및 비교 선 차트에서 최소값 및 최대값 표시 또는 숨기기 |
+| **[!UICONTROL 비교 백분율 및 추세선 표시]** | 비교 데이터를 표시하거나 숨깁니다. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 객체가 모두 숨겨집니다. |
+| **[!UICONTROL 총 숫자 표시]** | 요약 번호 표시 또는 숨기기 |
+| **[!UICONTROL 원시 차이 표시]** | 기본 날짜 범위와 보조 날짜 범위의 총 지표 값 간의 원시 차이를 표시하거나 숨깁니다. |
+| **[!UICONTROL 값 생략]** | **[!UICONTROL 값 생략]**&#x200B;을 선택하여 숫자 값을 지능적으로 축약합니다. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 1로 설정</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td align="right">1,201.1만달러</td></tr><tr><td>US$12,011,141.25</td><td>선택, 3으로 설정</td><td align="right">1,201.1만달러</td></tr></table> |
+
+## 시각화 편집
+
+시각화를 빌드한 후에도 원래 구성을 편집할 수 있습니다.
+
+1. 시각화의 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
+
+   ![시각화 편집 아이콘](assets/edit-icon.png)
+
+   이제 원래 구성 보기로 돌아갑니다.
+
+1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 필터를 원하는 대로 변경합니다.
 
 >[!MORELIKETHIS]
 >
 >[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->
