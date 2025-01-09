@@ -4,7 +4,7 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: b1cdaa871bf5040cf1cf436348b4ca03c5553a76
+source-git-commit: 9d2df264659341252c0ad02705eb4db04337ab0c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 63%
@@ -19,7 +19,7 @@ ht-degree: 63%
 >id="workspace_bullet_goalvalue"
 >title="목표 값"
 >abstract="**[!UICONTROL 높은 목표]**&#x200B;는 사용자가 추구하는 주요 목표입니다. **[!UICONTROL 낮은 목표]**&#x200B;와 **[!UICONTROL 중간 목표]**&#x200B;는 [!UICONTROL 높은 목표]보다 낮은 범위를 만듭니다. 참고: **[!UICONTROL 백분율]** 옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph" text="글머리 기호(Adobe Analytics)"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="글머리 기호(Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
