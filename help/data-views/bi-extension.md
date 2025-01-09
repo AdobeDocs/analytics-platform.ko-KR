@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
+source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 74%
+source-wordcount: '3176'
+ht-degree: 73%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform:
 
 1. ![쿼리 만들기](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B;쿼리 만들기&#x200B;**]**&#x200B;를 선택합니다.
 
-1. `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
 1. 쿼리를 실행하려면 SQL 문을 입력하고 ![재생](assets/Smock_Play_18_N.svg) 버튼을 선택합니다(또는 `[SHIFT]` + `[ENTER]` 누르기).
 
@@ -85,7 +85,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
@@ -110,7 +110,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. `cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Power BI에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -153,7 +153,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. ` cja` **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. 필요한 경우 Tableau Desktop에서 각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 등)를 복사하려면 ![복사](assets/Smock_Copy_18_N.svg)를 사용하십시오.
 
