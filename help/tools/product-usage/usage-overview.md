@@ -1,9 +1,10 @@
 ---
 title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
+source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '367'
 ht-degree: 6%
 
 ---
@@ -24,6 +25,12 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >이 기능은 Adobe Experience Platform의 계약 행 제한에 포함됩니다. 활성화하기 전에 조직에서 이 기능으로 생성된 데이터를 수용할 수 있는지 확인하십시오.
+
+## 제품 사용 활성화
+
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL 제품 사용]**
+
+Customer Journey Analytics에서 인터페이스의 이 섹션으로 이동하면 이 기능을 활성화할 수 있는 [데이터 설정](data-settings.md)(으)로 이동합니다.
 
 ## 사용 가능한 차원
 
