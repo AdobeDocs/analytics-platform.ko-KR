@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 27ce8f565688dc23a3f069a10078de55cd6da395
+source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
 workflow-type: tm+mt
 source-wordcount: '1576'
 ht-degree: 2%
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 ## 주어진 템플릿에 대한 데이터 보기에 누락된 구성 요소를 추가합니다.
 
-기본적으로 Adobe에서 제공하는 일부 템플릿에는 데이터 보기에 없는 구성 요소가 포함되어 있으므로 작동하지 않습니다.
+기본적으로 Adobe에서 제공하는 일부 템플릿에는 데이터 보기에 없는 구성 요소가 포함되어 있으므로 사용할 수 없습니다.
 
 누락된 각 구성 요소에 대해 일치하는 컨텍스트 레이블을 데이터 보기에서 사용할 수 있습니다. 데이터 보기에 이미 있는 구성 요소에 일치하는 컨텍스트 레이블을 추가하거나 데이터 보기에 새 구성 요소를 추가하고 컨텍스트 레이블을 추가해야 합니다.
 
