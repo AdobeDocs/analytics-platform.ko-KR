@@ -3,9 +3,9 @@ title: 현재 Customer Journey Analytics 릴리스 정보 보기
 description: 최신 Customer Journey Analytics 릴리스 정보
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: af9ed77160d1bf784d900d50055dded3e9f98eb1
+source-git-commit: f1474d55a262b25a76ac474db867cc9f0c2d2e36
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **자산 이전** | 프로젝트, 필터, 계산된 지표와 같은 구성 요소의 소유권을 다른 사용자에게 이전하여 연속성과 적절한 액세스 권한을 보장할 수 있습니다. [자세히 알아보기](/help/tools/asset-transfer/transfer-assets.md) |  | 10월 15일 |
-| **가이드 분석: Workspace에 임베드** | 이제 Analysis Workspace에서 직접 [가이드 분석](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다. 새 왼쪽 레일 섹션에서 프로젝트에 추가할 가이드 분석을 새로 만들 수 있습니다. 여러 프로젝트에서 빌딩 블록으로 재사용할 수 있는 저장된 가이드 분석에 액세스할 수도 있습니다. |   | 2025년 1월 22일 |
+| **가이드 분석: Workspace에 임베드** | 이제 Analysis Workspace에서 직접 [가이드 분석](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/guided-analysis/overview)을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다. 새 왼쪽 레일 섹션에서 프로젝트에 추가할 가이드 분석을 새로 만들 수 있습니다. 여러 프로젝트에서 빌딩 블록으로 재사용할 수 있는 저장된 가이드 분석에 액세스할 수도 있습니다. | 2024년 10월 2일 | 2024년 10월 23일 |
 | **제품 사용** | 귀하의 조직에서 Customer Journey Analytics를 어떻게 사용할 수 있는지 확인해 보십시오. 이 기능을 활성화하면 조직 내에서 Analysis Workspace를 사용할 때 Adobe Experience Platform에 데이터를 수집하는 데이터 세트가 생성됩니다. 연결 및 데이터 보기도 자동으로 생성되므로 상위 프로젝트 유형, 가장 활동적인 사용자, 프로젝트에서 가장 많이 사용되는 구성 요소 등의 차원에 액세스할 수 있습니다. [자세히 알아보기](/help/tools/product-usage/usage-overview.md) | 2024년 10월 23일 | 2025년 1월 |
 | **Analysis Workspace 성능의 요청 요소에 대한 새로운 정보** | 이제 Analysis Workspace에서 성과를 분석할 때 새로운 “요청 요인” 섹션을 사용할 수 있습니다. 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 자세히 알아보려면 [Analysis Workspace 성능 최적화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/optimizing-performance#request-factors)의 “요청 요소” 섹션을 참조하십시오. |  | 2024년 10월 1일 |
 
