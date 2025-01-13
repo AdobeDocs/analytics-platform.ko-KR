@@ -4,11 +4,10 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="Adobe Analytics 버전" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="이 문서의 Adobe Analytics 버전을 보려면 을(를) 선택합니다."
-source-git-commit: 896c7be6f1cfa4b0b714eb08ac47c1b89edecb79
+source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 60%
+source-wordcount: '249'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +19,6 @@ ht-degree: 60%
 >id="workspace_bullet_goalvalue"
 >title="목표 값"
 >abstract="**[!UICONTROL 높은 목표]**&#x200B;는 사용자가 추구하는 주요 목표입니다. **[!UICONTROL 낮은 목표]**&#x200B;와 **[!UICONTROL 중간 목표]**&#x200B;는 [!UICONTROL 높은 목표]보다 낮은 범위를 만듭니다. 참고: **[!UICONTROL 백분율]** 옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우."
->additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="글머리 기호(Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,6 +30,8 @@ ht-degree: 60%
 >abstract="성과 범위(목표)에 대해 지표를 비교하거나 측정하는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 글머리 기호 시각화를 설명합니다. 이 문서의&#x200B;**Adobe 분석**버전에 대한 [글머리 기호](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)를 참조하십시오.*
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** 시각화는 지표가 성능 범위(목표)와 비교하거나 측정하는 방법을 보여 줍니다.
 
