@@ -27,8 +27,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
->title="표 표시"
->abstract="**[!UICONTROL 표 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다."
+>title="테이블 표시"
+>abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
