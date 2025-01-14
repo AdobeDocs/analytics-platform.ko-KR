@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
 source-wordcount: '4260'
 ht-degree: 99%
@@ -187,7 +187,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_primaryID"
+>id="cja_connection_primaryid"
 >title="기본 ID"
 >abstract="연결에 적합한 기본 ID 선택: B2C 시나리오 사용자. B2B 시나리오에 대한 계정."
 
@@ -196,7 +196,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_optionalContainers"
+>id="cja_connection_optionalcontainers"
 >title="선택 가능한 컨테이너"
 >abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_personID"
+>id="cja_connection_personid"
 >title="개인 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다."
 
@@ -214,7 +214,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountID"
+>id="cja_connection_accountid"
 >title="계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다."
 
@@ -223,7 +223,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountField"
+>id="cja_connection_accountfield"
 >title="계정 필드"
 >abstract="계정 ID(계정에 대한 고유 식별자)를 나타내는 필드를 선택합니다."
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_globalAccountID"
+>id="cja_connection_globalaccountid"
 >title="글로벌 계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정에 대한 고유 식별자)를 선택합니다."
 
@@ -242,7 +242,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_opportunityID"
+>id="cja_connection_opportunityid"
 >title="기회 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 기회 ID(기회에 대한 고유 식별자)를 선택합니다."
 
@@ -251,7 +251,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_buyingGroupID"
+>id="cja_connection_buyinggroupid"
 >title="구매 그룹 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID 중에서 구매 그룹 ID(구매 그룹에 대한 고유 식별자)를 선택합니다."
 
@@ -305,7 +305,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_primaryID"
+>id="connection_primaryid"
 >title="기본 ID"
 >abstract="연결에 적합한 기본 ID 선택: B2C 시나리오 사용자. B2B 시나리오에 대한 계정."
 
@@ -314,7 +314,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_optionalContainers"
+>id="connection_optionalcontainers"
 >title="선택 가능한 컨테이너"
 >abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
 
@@ -323,7 +323,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_personID"
+>id="connection_personid"
 >title="개인 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다."
 
@@ -332,14 +332,14 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountID"
+>id="connection_accountid"
 >title="계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountField"
+>id="connection_accountfield"
 >title="계정 필드"
 >abstract="계정 ID(계정에 대한 고유 식별자)를 나타내는 필드를 선택합니다."
 
@@ -348,7 +348,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_globalAccountID"
+>id="connection_globalaccountid"
 >title="글로벌 계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정에 대한 고유 식별자)를 선택합니다."
 
@@ -357,7 +357,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_opportunityID"
+>id="connection_opportunityid"
 >title="기회 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 기회 ID(기회에 대한 고유 식별자)를 선택합니다."
 
@@ -366,7 +366,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_buyingGroupID"
+>id="connection_buyinggroupid"
 >title="구매 그룹 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID 중에서 구매 그룹 ID(구매 그룹에 대한 고유 식별자)를 선택합니다."
 
