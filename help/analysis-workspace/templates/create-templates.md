@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
+source-git-commit: 198d2670b2008cb669433753d5bfedd90f71c220
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1630'
 ht-degree: 2%
 
 ---
@@ -191,3 +191,10 @@ ht-degree: 2%
 Adobe이 제공하는 템플릿과 마찬가지로 조직의 사용자는 관리자가 만드는 템플릿에 액세스할 수 있습니다.
 
 회사 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/use-templates.md)에서 [템플릿 액세스 및 실행](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)을 참조하십시오.
+
+## 템플릿 탭 숨기기
+
+관리자는 조직 내의 모든 사용자에 대한 템플릿 탭을 숨길 수 있습니다.
+
+1. **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 환경 설정]** > **[!UICONTROL 회사]**(으)로 이동합니다.
+1. **[!UICONTROL 템플릿 탭 숨기기]** 옵션을 선택하십시오.
