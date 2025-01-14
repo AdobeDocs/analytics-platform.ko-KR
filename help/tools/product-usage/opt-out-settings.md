@@ -1,10 +1,11 @@
 ---
 title: 제품 사용 옵트아웃 설정
 description: 조직 내의 개별 사용자에 대한 옵트아웃 설정을 관리합니다.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 0ea24582-bab8-4a76-ac00-7c265423e8bb
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 7%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
 
@@ -25,5 +26,10 @@ Adobe은 클라이언트측과 서버측 추적을 결합하여 조직의 제품
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_opt_out_settings"
+>title="사용자 옵트아웃"
+>abstract="제품 사용 추적에서 사용자를 제외합니다."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_opt_out_settings"
 >title="사용자 옵트아웃"
 >abstract="제품 사용 추적에서 사용자를 제외합니다."

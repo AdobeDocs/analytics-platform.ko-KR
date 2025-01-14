@@ -4,8 +4,8 @@ description: Workspace에서 주석을 만드는 방법
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_annotations_details"
+>id="components_annotations_details"
 >title="주석 세부 정보"
 >abstract="주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원/지표에 연결할 수 있습니다."
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_annotations_scope"
+>id="components_annotations_scope"
 >title="범위"
 >abstract="범위를 사용하면 주석을 달 데이터를 맞춤화할 수 있습니다. 계산된 지표 및 세그먼트는 정의에 사용되는 구성 요소에 적용된 주석을 자동으로 상속하지 않습니다. 기존 주석의 범위 섹션에 계산된 지표를 새로 추가할 수 있습니다. 새 세그먼트에는 새로운 주석이 필요합니다."
 

@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '3749'
-ht-degree: 19%
+source-wordcount: '4023'
+ht-degree: 24%
 
 ---
 
@@ -278,6 +278,82 @@ ht-degree: 19%
 >id="cja_connections_historicalreportablerows"
 >title="내역 보고 가능 행"
 >abstract="13개월 이상 지난 해당 기간의 사용 가능한 총 행 수를 표시합니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_keyusagemetrics"
+>title="주요 사용 지표"
+>abstract="핵심 및 내역 보고 가능 행에 대한 월별 및 전체 데이터를 제공합니다."
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_monthlyingestedrows"
+>title="월별 수집된 행"
+>abstract="매달 시스템에 추가된 총 레코드 수를 측정하여 데이터 증가 및 수집 비율에 대한 통찰력을 제공합니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_monthlyreportablerows"
+>title="월별 보고 가능한 행"
+>abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 건너뛰거나 삭제된 행을 뺀 것입니다. 보고 가능한 행은 결제 및 데이터 사용량에 대한 주요 지표로 사용됩니다."
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_detailbreakdown"
+>title="세부 분류."
+>abstract="연결, 데이터 세트, 샌드박스 및 태그별로 자세한 지표를 조회할 수 있으며, 데이터의 CSV 파일을 다운로드할 수도 있습니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_otherdatasets"
+>title="다른 데이터 세트"
+>abstract="2024년 9월 이전 달의 경우 데이터 세트 수준에서 데이터가 수집되었으며 명확성을 위해 *기타 데이터 세트*(으)로 표시됩니다. 2024년 9월부터 데이터는 세부적인 데이터 세트 수준에서 수집되고 *다른 데이터 세트*&#x200B;가 더 이상 표시되지 않습니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_unknowndatasetsorconnections"
+>title="알 수 없는 데이터 세트나 연결"
+>abstract="알 수 없는 데이터 세트나 연결은 해당 ID를 사용하여 표시합니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_datanotavailable"
+>title="데이터를 사용할 수 없음"
+>abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 차트는 타임라인에서 지난 18개월을 보여 주고 데이터는 추후 사용될 경우 표시됩니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_corereportablerows"
+>title="핵심 보고 가능 행"
+>abstract="지난 13개월 동안 사용 가능한 총 행 수를 표시합니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_historicalreportablerows"
+>title="내역 보고 가능 행"
+>abstract="13개월 이상 지난 해당 기간의 사용 가능한 총 행 수를 표시합니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+
 <!-- markdownlint-enable MD034 -->
 
 

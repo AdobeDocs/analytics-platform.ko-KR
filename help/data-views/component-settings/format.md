@@ -5,10 +5,10 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format"
+>id="dataview_component_metric_format"
 >title="포맷"
 >abstract="보고서에서 사용될 때 구성 요소가 표시되는 방법을 결정합니다."
 
@@ -59,7 +59,7 @@ ht-degree: 22%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format_currencyconversion"
+>id="dataview_component_metric_format_currencyconversion"
 >title="통화 전환"
 >abstract="선택한 통화 유형으로 통화를 구성하고 표시하려면 통화 코드 차원을 선택하십시오."
 

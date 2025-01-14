@@ -1,10 +1,11 @@
 ---
 title: 제품 사용 데이터 설정
 description: 제품 사용 설정을 활성화, 비활성화 또는 구성합니다.
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 14%
+source-wordcount: '356'
+ht-degree: 23%
 
 ---
 
@@ -32,5 +33,15 @@ _데이터 설정_ 페이지에서 제품 사용 구성을 처리합니다. 이 
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
+>title="데이터 보존 기간 재정의"
+>abstract="제품 사용 데이터 가용성을 감소하여 비용을 절감하거나 개인정보 보호 지침을 준수합니다."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_sandbox"
+>title="Adobe Experience Platform 샌드박스"
+>abstract="스키마 및 데이터 세트가 생성되는 Adobe Experience Platform 샌드박스를 결정합니다."
+
+>[!CONTEXTUALHELP]
+>id="product_usage_data_retention"
 >title="데이터 보존 기간 재정의"
 >abstract="제품 사용 데이터 가용성을 감소하여 비용을 절감하거나 개인정보 보호 지침을 준수합니다."

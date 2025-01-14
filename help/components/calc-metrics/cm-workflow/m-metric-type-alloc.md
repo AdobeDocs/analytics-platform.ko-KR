@@ -3,7 +3,7 @@ description: 지표 유형 및 속성에 대해 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 39%
@@ -48,7 +48,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_nondefaultattributionmodel"
+>id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
 >abstract="선택한 지표에 기본이 아닌 속성 모델을 사용합니다."
 
@@ -57,7 +57,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attributionmodel"
+>id="components_calculatedmetrics_attributionmodel"
 >title="모델"
 >abstract="지표에 대한 속성 모델을 선택합니다."
 
@@ -66,7 +66,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lasttouch"
+>id="components_calculatedmetrics_attribution_lasttouch"
 >title="마지막 터치"
 >abstract="100%의 크레딧이 방문자가 본 마지막 차원 값으로 이동합니다."
 
@@ -75,7 +75,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_firsttouch"
+>id="components_calculatedmetrics_attribution_firsttouch"
 >title="첫 번째 터치"
 >abstract="100%의 크레딧이 방문자가 본 첫 번째 차원 값으로 이동합니다."
 
@@ -84,7 +84,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_linear"
+>id="components_calculatedmetrics_attribution_linear"
 >title="선형"
 >abstract="크레딧이 모든 차원 값에 고르게 분산됩니다."
 
@@ -93,7 +93,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_participation"
+>id="components_calculatedmetrics_attribution_participation"
 >title="기여도"
 >abstract="100%의 크레딧이 방문자가 본 모든 차원 값으로 이동합니다<br/>열 합계가 과대 평가됩니다."
 
@@ -102,7 +102,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_sametouch"
+>id="components_calculatedmetrics_attribution_sametouch"
 >title="동일한 터치"
 >abstract="전환과 동일한 이벤트에 발생하는 차원 값에만 크레딧이 제공됩니다."
 
@@ -111,7 +111,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_ushaped"
+>id="components_calculatedmetrics_attribution_ushaped"
 >title="U자형"
 >abstract="첫 번째 차원 값이 40%의 크레딧, 마지막 차원 값이 40%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
@@ -120,7 +120,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_jcurve"
+>id="components_calculatedmetrics_attribution_jcurve"
 >title="J 곡선"
 >abstract="마지막 차원 값이 60%의 크레딧, 첫 번째 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
@@ -129,7 +129,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_inversej"
+>id="components_calculatedmetrics_attribution_inversej"
 >title="J의 역"
 >abstract="첫 번째 차원 값이 60%의 크레딧, 마지막 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
@@ -138,7 +138,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_timedecay"
+>id="components_calculatedmetrics_attribution_timedecay"
 >title="시간 감소"
 >abstract="시간적으로 변환에 가장 가까운 차원 값에 가장 많은 크레딧이 제공됩니다."
 
@@ -147,7 +147,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_custom"
+>id="components_calculatedmetrics_attribution_custom"
 >title="사용자 정의"
 >abstract="고유한 위치 기반 속성 가중치를 정의합니다."
 
@@ -156,7 +156,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_algorithmic"
+>id="components_calculatedmetrics_attribution_algorithmic"
 >title="알고리즘"
 >abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
 
@@ -171,7 +171,7 @@ ht-degree: 39%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_attribution_lookbackwindow"
+>id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="전환 확인 기간"
 >abstract="이 설정은 각 변환에 적용될 데이터 속성의 기간을 결정합니다."
 

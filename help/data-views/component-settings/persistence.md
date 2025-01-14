@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: ce1f27b00b55d5c3780907c50107b081264000bd
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_persistence"
+>id="dataview_component_dimension_persistence"
 >title="지속성"
 >abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 필터 전에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
 
@@ -54,21 +54,21 @@ ht-degree: 80%
 
 사용 가능한 할당 설정에 관한 세부 정보.
 
-* **[!UICONTROL 가장 최근 할당]**: 차원에 있는 가장 최근(타임스탬프 기준) 값을 유지합니다. 차원의 만료 기간 내에서 발생하는 모든 후속 값은 이전에 지속된 값을 대체합니다. [값 옵션 없음](no-value-options.md) 아래의 이 차원에서 “‘값 없음’을 값으로 처리”를 활성화하는 경우 빈 값이 이전에 지속된 값을 덮어씁니다. 예를 들어 [!UICONTROL 가장 최근] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 표를 고려하십시오.
+* **[!UICONTROL 가장 최근 할당]**: 차원에 있는 가장 최근(타임스탬프 기준) 값을 유지합니다. 차원의 만료 기간 내에서 발생하는 모든 후속 값은 이전에 지속된 값을 대체합니다. [값 옵션 없음](no-value-options.md) 아래의 이 차원에서 “‘값 없음’을 값으로 처리”를 활성화하는 경우 빈 값이 이전에 지속된 값을 덮어씁니다. 예를 들어 [!UICONTROL 가장 최근] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 테이블을 고려하십시오.
 
   | 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
   | --- | --- | --- | --- | --- | --- |
   | 데이터 세트 값 |  | C | B |  | A |
   | 가장 최근 할당 |  | C | B | B | A |
 
-* **[!UICONTROL 원래]** 할당은 만료 기간 동안 차원 내에 있는 원래 값(타임스탬프 기준)을 유지합니다. 다른 값이 후속 이벤트에 표시되면 이 차원에 값이 있는 경우에도 덮어쓰지 않습니다. 예를 들어 [!UICONTROL 원래] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 표를 고려하십시오.
+* **[!UICONTROL 원래]** 할당은 만료 기간 동안 차원 내에 있는 원래 값(타임스탬프 기준)을 유지합니다. 다른 값이 후속 이벤트에 표시되면 이 차원에 값이 있는 경우에도 덮어쓰지 않습니다. 예를 들어 [!UICONTROL 원래] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 테이블을 고려하십시오.
 
   | 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
   | --- | --- | --- | --- | --- | --- |
   | 데이터 세트 값 |  | C | B |  | A |
   | 원본 할당 |  | C | C | C | C |
 
-* **[!UICONTROL 전체]**: 지표에 대한 [!UICONTROL 참여] 속성 모델과 유사하게 작동합니다. 보고에서 지표에 대한 전체 크레딧을 제공하도록 모든 값을 유지합니다. 예를 들어 [!UICONTROL 모든] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 표를 고려하십시오.
+* **[!UICONTROL 전체]**: 지표에 대한 [!UICONTROL 참여] 속성 모델과 유사하게 작동합니다. 보고에서 지표에 대한 전체 크레딧을 제공하도록 모든 값을 유지합니다. 예를 들어 [!UICONTROL 모든] 할당 및 [!UICONTROL 세션] 만료를 사용하여 다음 테이블을 고려하십시오.
 
   | 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
   | --- | --- | --- | --- | --- | --- |

@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1526'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_productcompatibility"
+>id="components_calculatedmetrics_productcompatibility"
 >title="제품 호환성"
 >abstract="이 계산된 지표를 Customer Journey Analytics에서 사용할 수 있는 곳(예: Analysis Workspace, Report Builder 등)을 나타냅니다. 계산된 지표 중 일부는 실험에 사용할 수 없습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="실험에서 계산된 지표 사용"
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_calculatedmetrics_externalid"
+>id="components_calculatedmetrics_externalid"
 >title="외부 ID"
 >abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 계산된 지표가 표시되는 방식에 영향을 미칠 수 있습니다."
 

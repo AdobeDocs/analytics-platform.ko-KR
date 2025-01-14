@@ -4,7 +4,7 @@ title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_createaudience"
+>id="components_filters_createaudience"
 >title="대상자 만들기"
 >abstract="필터에서 대상자를 만들고 Adobe Experience Platform과 공유하여 활성화할 수 있습니다."
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_datapreview"
+>id="components_filters_datapreview"
 >title="데이터 미리보기"
 >abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
 
@@ -158,7 +158,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_repeating"
+>id="components_filters_attribution_repeating"
 >title="반복"
 >abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
@@ -167,7 +167,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_instance"
+>id="components_filters_attribution_instance"
 >title="인스턴스"
 >abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
@@ -176,7 +176,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_nonrepeatinginstance"
+>id="components_filters_attribution_nonrepeatinginstance"
 >title="비반복 인스턴스"
 >abstract="차원에 대한 고유(비반복) 인스턴스를 포함합니다."
 

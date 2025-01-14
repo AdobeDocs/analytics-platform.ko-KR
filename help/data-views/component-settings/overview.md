@@ -5,8 +5,8 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_settings"
+>id="dataview_component_settings"
 >title="구성 요소 설정"
 >abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성합니다.<br/><br/>**매개변수&#x200B;**<br/>**보고에서 구성 요소 숨기기**: 이 상자를 선택하면 이 구성 요소는 보고에서 관리자가 아닌 사용자에게 표시되지 않습니다. 관리자는 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_contextlabels"
+>id="dataview_component_contextlabels"
 >title="컨텍스트 레이블"
 >abstract="컨텍스트 레이블을 제거하면 구성 요소가 필요한 특정 패널이나 보고서에 영향을 미칠 수 있습니다."
 

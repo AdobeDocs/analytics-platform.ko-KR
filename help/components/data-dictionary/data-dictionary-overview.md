@@ -4,7 +4,7 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 76%
@@ -16,7 +16,7 @@ ht-degree: 76%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_datadictionary"
+>id="component_datadictionary"
 >title="데이터 사전"
 >abstract="데이터 사전은 사용자와 관리자 모두 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Analytics 관리자는 사용자를 위해 데이터 사전의 각 구성 요소에 대한 정보를 구성해야 해야 합니다."
 

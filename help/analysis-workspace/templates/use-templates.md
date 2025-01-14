@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '19285'
 ht-degree: 73%
@@ -464,7 +464,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_time_spent"
+>id="template_time_spent"
 >title="각 방문 기간 동안 방문자가 사이트에서 보낸 평균 시간과 성공 이벤트 전에 사용자가 보낸 평균 시간을 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 방문자 참여 수준과 방문자가 구매 등 원하는 작업을 수행하는 데 소요되는 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트 변경이 방문자의 성공 이벤트에 빠르게 도달할 수 있는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 일 차원과 방문당 소요 시간(초) 지표를 사용합니다."
 

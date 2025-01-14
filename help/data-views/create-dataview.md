@@ -5,8 +5,8 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 60daea2b6c376c417a998a986c8fdfdff85decd9
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
+>id="dataview_externalid"
 >title="외부 ID"
 >abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 데이터 보기 이름이 표시되는 방식에 영향을 미칠 수 있습니다."
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Journey Optimizer의 데이터 보기"
 >abstract="Customer Journey Analytics는 Adobe Journey Optimizer와 호환되는 연결 및 데이터 보기를 사용해야 합니다. 기본적으로 연결 및 데이터 보기는 이러한 목적을 위해 자동 생성됩니다.<br/>또는 이 옵션을 활성화하여 Adobe Journey Optimizer 보고의 기본 데이터 보기로 설정할 수 있습니다. 활성화 시 Journey Optimizer의 모든 필수 구성 요소가 이 데이터 보기에 포함되며, 모든 필수 Journey Optimizer 데이터 세트가 이 데이터 보기와 관련된 연결에 추가됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#connection" text="어떤 구성 요소와 데이터 세트가 추가되는지 알아봅니다."

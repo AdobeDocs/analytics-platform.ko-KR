@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_refreshfrequency"
+>id="components_audiences_refreshfrequency"
 >title="새로 고침 빈도"
 >abstract="대상자의 멤버십을 재평가할 빈도를 확인합니다.<br/>일회성 대상자는 한 번만 평가됩니다."
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_audiencelimit"
+>id="components_audiences_audiencelimit"
 >title="대상자 제한"
 >abstract="새로 고치는 대상자는 새로 고침 빈도에 따라 제한됩니다."
 
@@ -34,7 +34,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_refreshlookbackwindow"
+>id="component_audiences_refreshlookbackwindow"
 >title="전환 확인 기간 새로 고침"
 >abstract="대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의하십시오."
 
@@ -43,7 +43,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_audiencesizelimit"
+>id="component_audiences_audiencesizelimit"
 >title="대상자 크기 제한"
 >abstract="대상자는 멤버 수 2천만 명을 초과할 수 없습니다."
 
@@ -52,7 +52,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_namespacesincluded"
+>id="component_audiences_namespacesincluded"
 >title="네임스페이스 포함됨"
 >abstract="이 대상자의 ID는 아래 네임스페이스로 구성됩니다."
 
@@ -104,7 +104,7 @@ ht-degree: 18%
 | **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 패널에서 필터 영역으로 필터를 하나 이상 끌어다 놓습니다. ![검색](/help/assets/icons/Search.svg) [!UICONTROL *검색 필터*]&#x200B;를 사용하여 필터를 검색할 수 있습니다. 최대 20개의 필터를 추가할 수 있습니다. 필터는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자로 결합할 수 있습니다.<p>Analysis Workspace의 시각화(예: 자유 형식 테이블 또는 여정 캔버스)에서 대상을 만들면 패널 또는 열에 적용된 모든 필터가 보존됩니다. 자동으로 적용되는 필터를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리 보기]** | 선택한 날짜 범위에 대한 [데이터 미리 보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택하십시오. |
 
-## 데이터 미리 보기
+## 데이터 미리보기
 
 데이터 미리보기 패널은 다음 정보를 제공합니다.
 

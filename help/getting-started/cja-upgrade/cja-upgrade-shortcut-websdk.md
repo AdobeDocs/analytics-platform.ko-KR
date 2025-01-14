@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 9%
+source-wordcount: '690'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
+>title="Web SDK를 사용하도록 Analytics 구현 마이그레이션"
+>abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 모든 변수를 AppMeasurement 형식으로 전송할 수 있습니다. 이 단축키를 사용하면 AppMeasurement 논리를 계속 사용하여 플랫폼으로 데이터를 전송할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="migrate_aa_to_websdk"
 >title="Web SDK를 사용하도록 Analytics 구현 마이그레이션"
 >abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 모든 변수를 AppMeasurement 형식으로 전송할 수 있습니다. 이 단축키를 사용하면 AppMeasurement 논리를 계속 사용하여 플랫폼으로 데이터를 전송할 수 있습니다."
 
