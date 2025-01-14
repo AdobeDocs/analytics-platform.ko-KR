@@ -1,19 +1,82 @@
 ---
 description: 지능형 캡션을 사용하여 시각화 내의 트렌드를 표시하는 자연어 인사이트를 생성합니다.
-title: 지능형 캡션
+title: 인텔리전트 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
+source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 5%
+source-wordcount: '771'
+ht-degree: 20%
 
 ---
 
-# 지능형 캡션
+# 인텔리전트 캡션 {#intelligent-captions}
 
-지능형 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스는 [Line](line.md) 시각화에 대해 자동 생성된 인사이트를 제공합니다. 다른 시각화 요소도 함께 제공됩니다.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_area"
+>title="지능형 캡션: 영역"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_bar"
+>title="지능형 캡션: 막대"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_donut"
+>title="지능형 캡션: 도넛"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_horizontalbar"
+>title="지능형 캡션: 가로 막대"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_line"
+>title="지능형 캡션: 선"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_fallout"
+>title="지능형 캡션: 폴아웃"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_flow"
+>title="지능형 캡션: 흐름"
+>abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+인텔리전트 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스는 [Line](line.md) 시각화에 대해 자동 생성된 인사이트를 제공합니다. 다른 시각화 요소도 함께 제공됩니다.
 
 지능형 캡션은 다음 항목에 맞춰져 있습니다.
 
