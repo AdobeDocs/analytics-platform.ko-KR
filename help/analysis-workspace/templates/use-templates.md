@@ -3,12 +3,10 @@ description: Analysis Workspace에서 기본 템플릿을 사용하는 방법에
 title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '19285'
+source-wordcount: '19294'
 ht-degree: 73%
 
 ---
@@ -65,7 +63,9 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    >[!NOTE]
    >
-   >   이러한 템플릿을 사용하려면 먼저 관리자가 이러한 누락된 구성 요소에 대한 필수 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [누락된 구성 요소를 지정된 템플릿에 대한 데이터 보기에 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
+   >이러한 템플릿을 사용하려면 먼저 관리자가 이러한 누락된 구성 요소에 대한 필수 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [누락된 구성 요소를 지정된 템플릿에 대한 데이터 보기에 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
+   >
+   >컨텍스트 레이블에 대한 자세한 내용은 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 필터 아이콘을 선택합니다.
 

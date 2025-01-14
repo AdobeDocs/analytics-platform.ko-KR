@@ -3,12 +3,10 @@ description: Analysis Workspace에서 기본 템플릿을 사용하는 방법에
 title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1599'
 ht-degree: 2%
 
 ---
@@ -37,7 +35,7 @@ ht-degree: 2%
    | **[!UICONTROL 설명]** | 템플릿에 대해 의도된 용도에 대해 설명하는 간단한 설명을 입력합니다. |
    | **[!UICONTROL 이 템플릿을 사용하는 이유]** | 조직의 사용자에게 이 템플릿을 사용할 수 있는 방법을 알려 주는 간단한 설명을 입력하십시오. 이 설명은 템플릿의 미리 보기 페이지에 표시됩니다. |
    | **[!UICONTROL 채널]** | 이 템플릿에 적용되는 적용 가능한 채널을 선택합니다. 여러 채널을 선택할 수 있습니다. **[!UICONTROL 웹]**, **[!UICONTROL 모바일]**, **[!UICONTROL 크로스 채널]**, **[!UICONTROL 콜 센터]** 및 **[!UICONTROL 매장]**.<p>선택한 사항에 따라 템플릿 표시 위치와 조직 템플릿 페이지에서 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |
-   | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 여러 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상]**, **[!UICONTROL 획득]** 및 **[!UICONTROL Journey Optimizer]**. <p>선택한 항목에 따라 조직 템플리트 페이지에서 템플리트 위치가 결정됩니다. 사용자는 템플릿으로 이동하거나 사용 사례별로 목록을 필터링할 수 있습니다. </p><p>**참고:** **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 선택하면 Adobe Journey Optimizer에서 템플릿을 사용할 수도 있습니다. Journey Optimizer에서는 **[!UICONTROL 보고서]** 페이지에서 사용자가 이 템플릿 또는 기본 템플릿을 선택할 수 있는 드롭다운 메뉴를 사용할 수 있습니다. 자세한 내용은 Journey Optimizer 설명서에서 [업데이트된 보고 환경 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)을 참조하십시오. |
+   | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 여러 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상]**, **[!UICONTROL 획득]** 및 **[!UICONTROL Journey Optimizer]**. <p>선택한 항목에 따라 조직 템플리트 페이지에서 템플리트 위치가 결정됩니다. 사용자는 템플릿으로 이동하거나 사용 사례별로 목록을 필터링할 수 있습니다. </p><p>**참고:** **[!UICONTROL Journey Optimizer]** 옵션은 Customer Journey Analytics에서 사용 중인 데이터 보기에 Journey Optimizer 데이터가 있는 경우에만 사용할 수 있습니다. **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 선택하면 Adobe Journey Optimizer에서 템플릿을 사용할 수 있습니다. Journey Optimizer의 **[!UICONTROL 보고서]** 페이지에서 드롭다운 메뉴를 사용하여 사용자가 이 템플릿 또는 기본 템플릿을 선택할 수 있습니다. 자세한 내용은 Journey Optimizer 설명서에서 [업데이트된 보고 환경 시작](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)을 참조하십시오. |
    | **[!UICONTROL Journey Optimizer 활동 유형]** | 이 템플릿과 연결할 Journey Optimizer 활동 유형을 선택하십시오. **[!UICONTROL 캠페인]**, **[!UICONTROL 여정]**, **[!UICONTROL 랜딩 페이지]**, **[!UICONTROL 보고서]** 또는 **[!UICONTROL 구독]**. <p>이 템플릿을 모든 활동 유형과 연결하려면 이 필드를 비워 둡니다.</p><p>이 필드는 **[!UICONTROL 사용 사례]** 필드에서 **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 선택한 경우에만 표시됩니다.</p> |
    | **[!UICONTROL Journey Optimizer 활동]** | 이 템플릿과 연결할 Journey Optimizer 활동을 선택합니다. <p>이 템플릿을 선택한 활동 유형의 모든 활동과 연결하려면 이 필드를 비워 둡니다.</p><p>이 필드는 **[!UICONTROL 사용 사례]** 필드에서 **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 선택한 경우에만 표시됩니다.</p> |
    | **[!UICONTROL 태그]** | 템플릿에 적용할 태그를 지정합니다. 사용자는 추가한 태그로 템플릿 목록을 필터링할 수 있습니다. |
