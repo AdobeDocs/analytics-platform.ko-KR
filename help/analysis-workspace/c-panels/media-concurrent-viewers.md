@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 46%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 47%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 미디어 동시 뷰어 패널을 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 >[!NOTE]

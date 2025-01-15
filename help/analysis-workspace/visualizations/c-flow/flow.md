@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 53%
+source-wordcount: '383'
+ht-degree: 50%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 53%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 플로우 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [흐름](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 흐름]** 시각화는 웹 사이트 및 앱을 통한 고객 경로를 보여 줍니다.

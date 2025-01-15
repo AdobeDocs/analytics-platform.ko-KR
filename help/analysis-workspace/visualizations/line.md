@@ -4,10 +4,10 @@ title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 23%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 23%
 >abstract="일정 기간 동안 값이 어떻게 변하는지를 보여 주는 선 시각화를 만듭니다. 라인 시각화는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 선 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [줄](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 선을 사용하여 지표를 나타냅니다. 시간을 차원으로 사용하는 경우에만 선 시각화를 사용할 수 있습니다.

@@ -4,10 +4,10 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 29%
+source-wordcount: '263'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 29%
 >abstract="사용자 정의 서식 있는 텍스트 시각화를 프로젝트에 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 텍스트 시각화를 문서화합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [텍스트](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text)을(를) 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 
 Workspace 프로젝트에 사용자 정의 서식 있는 텍스트를 추가하려면 ![텍스트](/help/assets/icons/Text.svg) **[!UICONTROL 텍스트]** 시각화를 사용하거나 시각화 및 패널에 대한 설명을 사용할 수 있습니다.

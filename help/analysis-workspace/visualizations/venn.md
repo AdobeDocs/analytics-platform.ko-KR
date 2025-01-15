@@ -4,10 +4,10 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 30%
+source-wordcount: '157'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 30%
 >abstract="두 요소와 중복 크기를 시각적으로 빠르게 비교하는 벤 차트 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**에서 벤 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [벤](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** 시각화를 사용하면 최대 3개의 필터와 지표(구성 요소 패널에서)를 드래그하여 벤 다이어그램을 작성할 수 있습니다.

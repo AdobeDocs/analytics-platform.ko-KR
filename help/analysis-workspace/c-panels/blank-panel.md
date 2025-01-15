@@ -4,10 +4,10 @@ title: 빈 패널
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 100%
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Analysis Workspace의 패널"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 빈 패널에 대한 문서입니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [빈 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 **[!UICONTROL 빈 패널]**&#x200B;은 완전히 개인 맞춤화된 분석을 빌드하기 위해 만들 수 있는 다양한 패널(![WebPage](/help/assets/icons/WebPage.svg)로 표시됨)이나 시각화를 표시합니다.

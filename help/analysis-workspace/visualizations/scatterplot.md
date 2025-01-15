@@ -4,10 +4,10 @@ description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니�
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 77%
+source-wordcount: '166'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 77%
 >abstract="차원 항목과 최대 3개 지표 간의 관계를 보여 주는 분산 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 분산 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [분산](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.

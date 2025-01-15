@@ -4,10 +4,10 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 49%
+source-wordcount: '691'
+ht-degree: 47%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 49%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 속성 패널에 대한 문서를 제공합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [기여도 분석 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 속성]** 패널은 다양한 속성 모델을 비교하는 분석을 쉽게 구축할 수 있는 방법입니다. 패널은 속성 모델을 사용하고 비교할 수 있는 전용 작업 공간을 제공합니다.
 
@@ -77,7 +82,7 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 * **총 지표**: 보고 기간 동안 발생했으며 선택한 차원에 속하는 총 전환 수입니다.
 * **속성 비교 막대**: 선택한 차원의 각 차원 항목에서 속성 전환을 시각적으로 비교합니다. 각 막대의 색상은 개별 속성 모델을 나타냅니다.
-* **속성 비교 테이블**: 막대 그래프와 동일한 데이터를 테이블로 표시합니다. 이 표에서 다른 열 또는 행을 선택하면 막대 그래프와 패널의 다른 여러 가지 시각화가 필터링됩니다. 이 테이블은 Workspace의 다른 자유 형식 테이블과 유사하게 작동하므로 지표, 필터 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
+* **속성 비교 테이블**: 막대 그래프와 동일한 데이터를 테이블로 표시합니다. 이 테이블에서 다른 열 또는 행을 선택하면 막대 그래프와 패널의 다른 여러 가지 시각화가 필터링됩니다. 이 테이블은 Workspace의 다른 자유 형식 테이블과 유사하게 작동하므로 지표, 필터 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
 * **Overlap Diagram**: 상위 3개 차원 항목과 이들이 전환에 공동으로 참여하는 빈도를 보여주는 벤 시각화입니다. 예를 들어 버블의 크기는 사용자가 차원 항목 모두에 노출될 때 전환이 발생한 빈도를 나타냅니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
 * **성능 세부 정보**: 최대 3개의 속성 모델을 시각적으로 비교하기 위한 분산 시각화입니다.
 * **추세적 성과**: 최상위 차원 항목에 대한 속성 전환 추세를 표시합니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.

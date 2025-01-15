@@ -4,7 +4,7 @@ description: Workspace 프로젝트에 섹션 헤더를 삽입하는 시각화�
 feature: Visualizations
 role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 18%
@@ -21,6 +21,17 @@ ht-degree: 18%
 >abstract="패널에 섹션 헤더를 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- uncomment when section header page in AA is available.
+>[!BEGINSHADEBOX]
+
+
+*This article documents the Section header visualization in **Customer Journey Analytics**. See [Section header](...) for the **Adobe Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+-->
 
 
 패널 내의 섹션을 식별하고 아티큘레이션하려면 패널 내의 어디에나 ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Section 헤더]** 시각화를 삽입할 수 있습니다.

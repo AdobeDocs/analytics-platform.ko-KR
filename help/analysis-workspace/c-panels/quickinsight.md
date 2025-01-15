@@ -4,10 +4,10 @@ title: 빠른 인사이트 패널
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 100%
 >abstract="인사이트를 더 빨리 분석하고 발견할 수 있도록 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 빌드하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 빠른 인사이트 패널에 대한 문서입니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 [!UICONTROL 빠른 인사이트]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한 고급 사용자가 테이블을 직접 만들지 않고도 간단한 질문에 빠르게 답할 수 있는 훌륭한 도구입니다.
@@ -100,7 +107,7 @@ ht-degree: 100%
 
    * 지난 12개월 동안의 웹 세션을 기준으로 필터링된 차원(국가 코드)과 지표(세션)가 있는 자유 형식 테이블입니다.
 
-   * 함께 제공되는 시각화(이 경우 [막대 그래프](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/개월당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: [!UICONTROL 디바이스]당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
+   * 함께 제공되는 시각화(이 경우 [막대 그래프](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 테이블에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/개월당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: [!UICONTROL 디바이스]당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
 1. 아래의 [추가 팁](#more-tips)에 설명된 대로 세부 사항을 추가해 보십시오.
 

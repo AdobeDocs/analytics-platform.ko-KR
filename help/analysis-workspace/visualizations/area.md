@@ -4,14 +4,14 @@ title: 영역 및 스택 영역
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 32%
+source-wordcount: '193'
+ht-degree: 27%
 
 ---
 
-# 영역 및 스택 영역
+# 영역 (누적)
 
 ## 영역 {#area}
 
@@ -23,6 +23,13 @@ ht-degree: 32%
 >abstract="여러 지표의 교차점을 나타내는 영역 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 영역 및 스택 영역 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전을 보려면 [영역 및 스택 영역](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** 시각화는 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 지표가 있고 두 개 이상의 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 추가합니다.

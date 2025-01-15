@@ -4,10 +4,10 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 38%
+source-wordcount: '467'
+ht-degree: 36%
 
 ---
 
@@ -31,7 +31,11 @@ ht-degree: 38%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
 
+*이 문서는&#x200B;**Customer Journey Analytics**의 다음 또는 이전 항목 패널을 문서화합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 다음 또는 이전 항목]** 패널에는 특정 차원에 대한 다음 또는 이전 차원 항목을 식별하는 많은 표와 시각화가 포함되어 있습니다. 예를 들어 고객이 홈 페이지를 방문한 후 가장 자주 방문한 페이지를 탐색할 수 있습니다.
 

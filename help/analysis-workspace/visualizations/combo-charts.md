@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 44%
+source-wordcount: '600'
+ht-degree: 45%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 44%
 >abstract="우선 자유 형식 테이블을 만들지 않고도 콤보 차트 시각화를 빠르게 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 콤보 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [콤보](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![주석](/help/assets/icons/ComboChart.svg) **[!UICONTROL 콤보]** 시각화를 사용하면 먼저 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
@@ -71,7 +78,7 @@ ht-degree: 44%
 | --- | --- |
 | **[!UICONTROL 열 합계]** | 열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해). |
 | **[!UICONTROL 누적 평균]** | 마지막 N개 행의 평균을 반환합니다. |
-| **[!UICONTROL 중간값]** | 열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 집합의 가운데 있는 숫자입니다. 숫자의 절반에는 중앙값보다 크거나 같은 값이 있고, 숫자의 절반에는 중앙값보다 작거나 같은 값이 있습니다. |
+| **[!UICONTROL 중간값]** | 열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 숫자의 절반에는 중앙값보다 크거나 같은 값이 있고, 숫자의 절반에는 중앙값보다 작거나 같은 값이 있습니다. |
 | **[!UICONTROL 누적]** | N개 행의 누적 합계입니다. |
 | **[!UICONTROL 열 최대값]** | 지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. |
 | **[!UICONTROL 평균]** | 지표에 대한 산술 평균 또는 평균을 반환합니다. |

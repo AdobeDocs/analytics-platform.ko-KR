@@ -4,10 +4,10 @@ title: 트리맵
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 32%
+source-wordcount: '154'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 32%
 >abstract="중첩된 직사각형으로 계층(트리 구조) 데이터를 보여 주는 트리맵 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Customer Journey Analytics**의 트리맵 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [트리맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL 트리맵]** 시각화를 사용하여 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다.

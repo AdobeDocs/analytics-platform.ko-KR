@@ -4,10 +4,10 @@ title: 요약 번호 및 요약 변경 사항
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 50%
+source-wordcount: '496'
+ht-degree: 47%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 50%
 >abstract="총계와 소계를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 요약 번호 및 요약 변경 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요.*
+
+>[!ENDSHADEBOX]
+
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 ![요약](/help/assets/icons/123.svg) **[!UICONTROL 요약 번호]** 시각화를 사용하십시오. 이 시각화는 관련 데이터 소스를 사용하여 다음과 같은 방식으로 동작합니다.
 
