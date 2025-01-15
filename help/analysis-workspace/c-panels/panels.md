@@ -4,8 +4,8 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ ht-degree: 100%
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [글머리 기호](/help/analysis-workspace/visualizations/bullet-graph.md) |
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) |
-  | ![Histogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |
+  | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) |
   | ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) |
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 +++ 드롭다운 필터에 대해 설명하는 비디오를 시청합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
 {{videoaa}}
 
