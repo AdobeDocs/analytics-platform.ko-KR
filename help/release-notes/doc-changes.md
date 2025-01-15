@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4256'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 1월** |  |
-| 사용 지표 | 개선된 [사용 지표](/help/connections/manage-connections.md#usage) 인터페이스에 대한 설명서를 업데이트했습니다. |
+| 사용량 지표 | 개선된 [사용 지표](/help/connections/manage-connections.md#usage) 인터페이스에 대한 설명서가 업데이트되었습니다. |
 
 
 ## 2024
@@ -31,7 +31,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | BI 확장 기능 사용 사례 | Power BI Desktop 및 Tableau Desktop과 같은 BI 도구에 대한 여러 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)에 대한 설명서입니다. |
 | 스티칭 및 개인정보 보호 요청 | 개인정보 보호 요청의 결과로 발생하는 [향후 언스티칭 프로세스 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 공지가 추가되었습니다. |
 | **2024년 10월** | |
-| 향상된 사용 인터페이스 | 모든 연결에서 [수집되고 보고 가능한 행의 사용을 표시하도록 개선된 인터페이스의 문서를 업데이트했습니다](/help/connections/manage-connections.md#usage) |
+| 개선된 사용 인터페이스 | 인터페이스 개선 사항을 반영하여 [모든 연결에서 수집된 행 및 보고 가능한 행의 사용량](/help/connections/manage-connections.md#usage)을 확인할 수 있도록 문서를 업데이트했습니다. |
 | 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |
 | Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
 | Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 구성 요소(주석, 치수, (계산된) 지표, 필터, 날짜 범위, 알림, 예약된 프로젝트 및 대상자)에 대한 설명서를 새로 고쳤습니다. |
