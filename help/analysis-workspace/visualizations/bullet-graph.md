@@ -4,10 +4,10 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 58%
+source-wordcount: '249'
+ht-degree: 59%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 58%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**에 글머리 기호 시각화를 설명합니다.이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전은 <br/>글머리 기호](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)를 참조하세요.*[
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 글머리 기호 시각화를 설명합니다.이 문서의&#x200B;**Adobe Analytics**버전은 <br/>글머리 기호](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)를 참조하세요.*[
 
 >[!ENDSHADEBOX]
 

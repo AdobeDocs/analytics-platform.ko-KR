@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 49%
+source-wordcount: '383'
+ht-degree: 50%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 49%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**의 흐름 시각화를 설명합니다.이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 <br/>흐름](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)을 참조하세요.*[
+*이 문서는&#x200B;**Customer Journey Analytics**의 플로우 시각화를 설명합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [흐름](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 
