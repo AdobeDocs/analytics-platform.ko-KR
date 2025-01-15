@@ -4,10 +4,10 @@ description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니�
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 68%
+source-wordcount: '168'
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 분산 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [분산](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하세요.*
+*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**의 분산 시각화를 설명합니다.<br/>이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 [분산](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

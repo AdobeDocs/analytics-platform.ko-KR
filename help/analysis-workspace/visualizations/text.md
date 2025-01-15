@@ -4,9 +4,9 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 27%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 텍스트 시각화를 문서화합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [텍스트](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text)을(를) 참조하십시오.*
+*이 문서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**에서 텍스트 시각화를 설명합니다.이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 <br/>자세한 내용은 [텍스트](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text)를 참조하세요.*
 
 >[!ENDSHADEBOX]
 

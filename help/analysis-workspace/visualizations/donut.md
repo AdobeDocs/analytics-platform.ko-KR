@@ -4,9 +4,9 @@ title: 도넛
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 26%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**에서 도넛 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전을 보려면 [도넛](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut)을(를) 참조하십시오.*
+*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**의 도넛 시각화에 대해 설명합니다.<br/>이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 [도넛](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut)을(를) 참조하세요.*
 
 >[!ENDSHADEBOX]
 

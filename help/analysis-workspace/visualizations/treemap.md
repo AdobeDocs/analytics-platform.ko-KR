@@ -4,9 +4,9 @@ title: 트리맵
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 27%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 트리맵 시각화에 대해 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [트리맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)을 참조하세요.*
+*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**의 트리맵 시각화에 대해 설명합니다.<br/>이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 [트리맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

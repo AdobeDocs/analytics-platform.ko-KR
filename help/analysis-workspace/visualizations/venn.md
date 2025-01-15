@@ -4,10 +4,10 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 26%
+source-wordcount: '159'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**에서 벤 시각화를 설명합니다. 이 문서의&#x200B;**Adobe Analytics**버전에 대한 [벤](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn)을 참조하세요.*
+*이 문서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**에서 벤 시각화를 설명합니다.<br/>이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**버전에 대한 [벤](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

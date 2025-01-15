@@ -4,9 +4,9 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2176'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 실험 패널에 대한 문서입니다.**Adobe Analytics**에서 Adobe Target 활동 및 경험을 분석하는 방법에 대한 자세한 내용은 [Analytics for Target 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하세요.*
+*이 문서에서는 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**의 실험 패널을 설명합니다.![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**에서 Adobe Target 활동 및 경험을 분석하는 방법에 대한 자세한 내용은 <br/>Analytics for Target 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하세요.*[
 
 >[!ENDSHADEBOX]
 
