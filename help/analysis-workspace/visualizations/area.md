@@ -4,14 +4,22 @@ title: 영역 및 스택 영역
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 27%
+source-wordcount: '202'
+ht-degree: 26%
 
 ---
 
 # 영역 (누적)
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Customer Journey Analytics**의 영역 및 스택 영역 시각화에 대해 설명합니다.이 문서의&#x200B;**Adobe Analytics**버전은 <br/>영역 및 스택 영역](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하세요.*[
+
+>[!ENDSHADEBOX]
+
+영역 시각화에는 표준 및 누적 옵션이 있습니다.
 
 ## 영역 {#area}
 
@@ -25,11 +33,7 @@ ht-degree: 27%
 <!-- markdownlint-enable MD034 -->
 
 
->[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 영역 및 스택 영역 시각화에 대해 설명합니다.이 문서의&#x200B;**Adobe Analytics**버전은 <br/>영역 및 스택 영역](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하세요.*[
-
->[!ENDSHADEBOX]
 
 
 ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** 시각화는 선 그래프와 비슷하지만 선 아래에 색칠된 영역이 있습니다. 여러 지표가 있고 두 개 이상의 지표의 교차 지점으로 표시되는 영역을 시각화하려는 경우 영역 그래프를 추가합니다.

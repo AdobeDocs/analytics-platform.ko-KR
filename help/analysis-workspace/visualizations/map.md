@@ -6,10 +6,11 @@ role: User, Admin
 badgePremium: label="Adobe Analytics 버전" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization.html" tooltip="이 문서의 Adobe Analytics 버전을 보려면 을(를) 선택합니다."
 hide: true
 hidefromtoc: true
-source-git-commit: 3c3ef1c79e5863b74a3b7458c87d1f83f7188e5a
+exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 16%
 
 ---
 
@@ -43,11 +44,9 @@ ht-degree: 13%
 <!-- markdownlint-enable MD034 -->
 
 
->[!NOTE]
->
->맵 시각화는 Analysis Workspace for Customer Journey Analytics에서 지원되지 않습니다. Adobe Analytics의 Analysis Workspace에서 맵 시각화를 사용하는 방법에 대한 자세한 내용은 이 문서의 맨 위에서 **Adobe Analytics 버전**&#x200B;을 선택하십시오.
->
+>[!BEGINSHADEBOX]
 
+*현재&#x200B;**Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.
+Adobe Analytics의 맵 시각화 설명서에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을(를) 참조하십시오.*
 
-
-
+>[!ENDSHADEBOX]
