@@ -7,9 +7,9 @@ badgePremium: label="Adobe Analytics 버전" url="https://experienceleague.adobe
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
+source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '81'
 ht-degree: 16%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-*현재&#x200B;**Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.
-Adobe Analytics의 맵 시각화 설명서에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을(를) 참조하십시오.*
+현재 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.
+![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;에서 맵 시각화 설명서에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을(를) 참조하십시오.
 
 >[!ENDSHADEBOX]
