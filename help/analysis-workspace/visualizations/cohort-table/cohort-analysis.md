@@ -4,10 +4,10 @@ description: Analysis Workspace에서 집단 분석에 집단 테이블을 사�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 30%
 
 ---
 
@@ -68,7 +68,9 @@ Customer Journey Analytics의 집단 테이블은 이중 기반(또는 모든 �
 
 ## 집단 테이블 기능
 
-다음 기능을 통해 생성 중인 집단에 대해 세밀하게 제어할 수 있습니다.
+다음 섹션에서는 작성 중인 집단에 대해 세밀하게 제어할 수 있는 집단 분석 기능에 대해 설명합니다.
+
+집단을 만들고 [!UICONTROL 집단 분석] 보고서를 실행하는 방법에 대한 자세한 내용은 [집단 테이블 구성](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)을 참조하십시오.
 
 ### [!UICONTROL 유지] 테이블
 
