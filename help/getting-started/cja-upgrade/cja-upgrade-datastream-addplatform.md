@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 31%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 31%
 
 이 섹션의 단계를 완료하기 전에 데이터 스트림이 이미 있어야 합니다. 데이터 스트림이 생성된 시기와 방법은 다음과 같이 Adobe Analytics 구현에 따라 다릅니다.
 
-* Adobe Analytics 구현에서 Web SDK 또는 Web SDK 확장을 사용하는 경우 업그레이드 프로세스 전에 Adobe Analytics 환경에서 데이터 스트림을 사용할 수 있었습니다.
+* Adobe Analytics 구현에서 웹 SDK 또는 웹 SDK 확장을 사용하는 경우 업그레이드 프로세스 전에 Adobe Analytics 환경에서 데이터 스트림을 사용할 수 있었습니다.
 
 * 다른 Adobe Analytics 구현의 경우 [Customer Journey Analytics에 사용할 데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)에 설명된 대로 데이터 스트림을 만드는 것은 업그레이드 프로세스의 일부입니다.
 

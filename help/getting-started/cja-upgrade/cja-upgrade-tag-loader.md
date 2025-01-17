@@ -1,20 +1,20 @@
 ---
-title: Web SDK 확장에 대한 로더 태그 구현
-description: Web SDK 확장에 대한 로더 태그를 구현하는 방법에 대해 알아봅니다
+title: Web SDK 확장 기능용 로더 태그 구현
+description: 웹 SDK 확장에 대한 로더 태그를 구현하는 방법에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: 937a7f31361027438929194f8ccc5aee83c33bc0
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 34%
+source-wordcount: '285'
+ht-degree: 36%
 
 ---
 
-# Web SDK 확장에 대한 로더 태그 구현
+# Web SDK 확장 기능용 로더 태그 구현
 
 >[!NOTE]
 > 
@@ -27,6 +27,12 @@ ht-degree: 34%
 다음 프로세스에서는 태그를 참조하는 코드를 가져오는 방법을 설명합니다. 자세한 내용은 Experience Platform 설명서에서 [태그 및 이벤트 전달에 대한 구현 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides)를 참조하십시오.
 
 태그를 참조하는 코드를 가져오는 경우:
+
+1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
+
+1. Adobe Experience Platform에서 **[!UICONTROL 데이터 수집]** > **[!UICONTROL 태그]**(으)로 이동합니다.
+
+1. **[!UICONTROL 태그 속성]** 페이지의 속성 목록에서 새로 만든 태그를 선택하여 엽니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 환경]**&#x200B;을 선택합니다.
 

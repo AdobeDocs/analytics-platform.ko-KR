@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: f76d098d-d223-40e4-be81-d28e7581396b
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '256'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +28,12 @@ ht-degree: 27%
 
 설정에서는 수집된 데이터를 Adobe Experience Platform의 데이터 세트로 전송하도록 데이터 스트림을 구성할 수 있습니다.
 
+>[!NOTE]
+>
+>다음 단계는 AppMeasurement 또는 Analytics 확장(태그)을 사용하는 Adobe Analytics 구현에만 필요합니다.
+>
+>Adobe Analytics 구현에서 웹 SDK 또는 웹 SDK 확장을 사용하는 경우 데이터 스트림이 이미 Adobe Analytics 환경에 있습니다.
+
 데이터스트림을 설정하는 경우:
 
 1. Adobe Experience Platform의 왼쪽 레일에서 [!UICONTROL 데이터 수집]에서 **[!UICONTROL 데이터스트림]**&#x200B;을 선택합니다.
@@ -40,4 +47,3 @@ ht-degree: 27%
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

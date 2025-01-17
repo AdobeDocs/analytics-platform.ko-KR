@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 5b440a8029aab392739e573a680123d0bd8a1318
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 49%
+source-wordcount: '1612'
+ht-degree: 32%
 
 ---
 
@@ -26,25 +26,39 @@ ht-degree: 49%
 
 ## 데이터 요소 구성
 
-데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 데이터 레이어에서 읽고 데이터를 Adobe Experience Platform으로 전달하는 데 사용할 수 있는 데이터 요소를 태그에 설정합니다.
+데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 태그에서 데이터 레이어에서 읽어 Adobe Experience Platform으로 데이터를 전달하는 데 사용할 수 있는 데이터 요소를 설정합니다. 데이터 요소에 대한 자세한 내용은 태그 설명서의 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 참조하십시오.
 
-데이터 요소에는 세 가지 유형이 있습니다. 먼저 데이터 요소를 설정하여 사이트에서 사람들이 보고 있는 페이지 이름을 캡처합니다. 그런 다음 Experience Cloud ID를 참조하는 데이터 요소를 설정합니다. 마지막으로 XDM 개체 데이터 요소를 정의합니다.
+다음 섹션에서는 제안되는 데이터 요소 및 구성할 수 있는 기타 일반적인 데이터 요소에 대해 설명합니다.
 
-### 페이지 이름 데이터 요소
+데이터 요소에는 다양한 유형이 있습니다. 구성할 수 있는 두 가지 일반적인 데이터 요소는 사람이 사이트에서 보고 있는 페이지 이름을 캡처하는 요소와 사이트를 방문하는 각 사람의 Experience Cloud ID를 캡처하는 요소입니다.
 
-페이지 이름 데이터 요소를 정의하는 경우:
+이 두 데이터 요소를 구성한 후 캡처할 특정 데이터에 대해 추가 데이터 요소를 구성할 수 있습니다.
+
+마지막으로, 원하는 데이터 요소를 모두 정의한 후에는 이전에 만든 [스키마](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 데이터 요소를 할당해야 합니다. 이를 위해 XDM 스키마 표현을 제공하는 XDM 데이터 요소를 정의합니다.
+
+<!-- Assigning data elements to an XDM object. All of the available XDM objects are based on the schema -->
+
+### 제안된 데이터 요소 만들기
+
+다음 섹션에서는 대부분의 조직에 적용되는 공통 데이터 요소를 생성하는 방법에 대해 설명합니다.
+
+#### 페이지 이름 데이터 요소
+
+대부분의 조직에 적용되는 공통 데이터 요소는 개인이 보고 있는 페이지 이름을 캡처하는 데이터 요소입니다.
+
+페이지 이름 데이터 요소를 만들려면 다음 작업을 수행하십시오.
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
 1. Adobe Experience Platform에서 **[!UICONTROL 데이터 수집]** > **[!UICONTROL 태그]**(으)로 이동합니다.
 
-1. [!UICONTROL 태그 속성] 목록에서 새로 만든 태그를 선택하여 엽니다.
+1. **[!UICONTROL 태그 속성]** 페이지의 속성 목록에서 새로 만든 태그를 선택하여 엽니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 데이터 요소]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 데이터 요소 만들기] 대화 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 데이터 요소 만들기]** 대화 상자에서 다음 정보를 지정합니다.
 
    * **[!UICONTROL 이름]**: 데이터 요소의 이름입니다. 예 `Page Name`.
 
@@ -66,9 +80,11 @@ ht-degree: 49%
 
 1. [ECID 데이터 요소](#ecid-data-element)를 사용하여 계속합니다.
 
-### ECID 데이터 요소
+#### ECID 데이터 요소
 
-ECID 데이터 요소를 정의하는 경우:
+대부분의 조직에 적용되는 공통 데이터 요소는 사이트를 방문하는 각 사용자의 Experience Cloud ID를 캡처하는 데이터 요소입니다.
+
+ECID 데이터 요소를 만들려면 다음을 수행하십시오.
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
@@ -76,11 +92,23 @@ ECID 데이터 요소를 정의하는 경우:
 
 1. [!UICONTROL 태그 속성] 목록에서 새로 만든 태그를 선택하여 엽니다.
 
+1. (조건부) Experience Cloud ID 서비스 확장이 아직 설치되지 않은 경우 설치합니다.
+
+   1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다.
+
+   1. 기본적으로 **[!UICONTROL 설치됨]** 탭이 선택됩니다. **[!UICONTROL Experience Cloud ID 서비스]** 타일이 나열되면 5단계로 건너뜁니다.
+
+   1. **[!UICONTROL Experience Cloud ID 서비스]** 타일이 나열되지 않으면 **[!UICONTROL 카탈로그]** 탭을 선택하십시오.
+
+   1. 검색 필드에서 **[!UICONTROL Experience Cloud ID 서비스]**&#x200B;를 검색한 다음 표시될 때 타일을 선택합니다
+
+   1. **[!UICONTROL 설치]** > **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
 1. 왼쪽 레일에서 **[!UICONTROL 데이터 요소]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 데이터 요소 만들기] 대화 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 데이터 요소 만들기]** 대화 상자에서 다음 정보를 지정합니다.
 
    * **[!UICONTROL 이름]**: 데이터 요소의 이름입니다. 예 `ECID`.
 
@@ -92,11 +120,45 @@ ECID 데이터 요소를 정의하는 경우:
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-1. [XDM 개체 데이터 요소](#xdm-object-data-element)를 계속합니다.
+1. [추가 데이터 요소 만들기](#create-additional-data-elements)를 계속합니다.
+
+### 추가 데이터 요소 만들기
+
+수집하려는 각 데이터 유형에 대한 데이터 요소를 만듭니다. [페이지 이름 데이터 요소](#page-name-data-element) 및 [ECID 데이터 요소](#ecid-data-element)에 설명된 것과 동일한 프로세스를 사용하여 각 추가 데이터 요소를 만듭니다.
+
+생성하는 데이터 요소에는 스키마에 상관 관계가 있는 필드가 있어야 합니다.
+
+일반적인 데이터 요소는 업계 및 비즈니스 요구 사항에 따라 다릅니다. 다음 산업별로 구성된 공통 데이터 요소를 고려하십시오.
+
+**소매 데이터 요소**
+
+* 제품
+
+* 장바구니 추가
+
+* 체크아웃
+
+**재무 데이터 요소**
+
+* 거래 ID
+
+* 트랜잭션 날짜
+
+* 서비스 유형
+
+**의료 데이터 요소**
+
+* 공급자 ID
+
+* 방문 날짜
+
+* 치료 유형
+
+조직에서 구현에 필요한 모든 데이터 요소를 만든 후 [XDM 개체 데이터 요소](#xdm-object-data-element)를 계속 사용하십시오.
 
 ### XDM 개체 데이터 요소
 
-이제 마지막으로 특정 데이터 요소를 이전에 정의한 스키마에 매핑하려고 합니다. XDM 스키마를 나타내는 다른 데이터 요소를 정의합니다.
+마지막으로 만든 데이터 요소를 이전에 만든 [스키마](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 매핑합니다. 이렇게 하려면 XDM 스키마의 표현을 제공하는 XDM 개체 데이터 요소를 정의합니다.
 
 XDM 오브젝트 데이터 요소를 정의하는 경우:
 
@@ -110,7 +172,7 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
 1. **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 데이터 요소 만들기] 대화 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 데이터 요소 만들기]** 대화 상자에서 다음 정보를 지정합니다.
 
    * **[!UICONTROL 이름]**: 데이터 요소의 이름입니다. 예 `XDM - Page View`.
 
@@ -127,7 +189,6 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
    ![ECID 데이터 요소 선택](assets/pick-ecid-dataelement.png)
 
    ![ECID 데이터 요소 매핑](assets/map-ecid.png)
-
 
 1. 스키마에 정의된 `web > webPageDetails > name` 속성을 페이지 이름 데이터 요소에 매핑합니다.
 
@@ -159,13 +220,13 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
 1. 왼쪽 레일에서 **[!UICONTROL 규칙]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 새 규칙 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 규칙 추가]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 규칙 만들기] 대화 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 규칙 만들기]** 대화 상자에서 다음 정보를 지정합니다.
 
    * **[!UICONTROL 이름]**: 규칙의 이름입니다. 예 `Page View`.
 
-   * **[!UICONTROL 이벤트]**: **[!UICONTROL + 추가]**&#x200B;를 선택합니다. 그런 다음 [!UICONTROL 이벤트 구성] 대화 상자에서 다음 정보를 지정합니다. 완료되면 **[!UICONTROL 변경 내용 유지]**&#x200B;를 선택합니다.
+   * **[!UICONTROL 이벤트]**: **[!UICONTROL + 추가]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 이벤트 구성]** 대화 상자에서 다음 정보를 지정합니다. 완료되면 **[!UICONTROL 변경 내용 유지]**&#x200B;를 선택합니다.
 
       * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL 코어]**&#x200B;을(를) 선택하십시오.
 
@@ -179,7 +240,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
       * **[!UICONTROL 작업 유형]**: 목록에서 **[!UICONTROL 이벤트 보내기]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 유형]**: 목록에서 **[!UICONTROL web.webpagedetails.pageViews]**&#x200B;을(를) 선택합니다.
+      * **[!UICONTROL 유형]**: 목록에서 **[!UICONTROL 웹 Webpagedetails 페이지 보기]**&#x200B;를 선택합니다.
 
       * **[!UICONTROL XDM 데이터]**: 원통 아이콘을 선택한 다음 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 보기]**&#x200B;를 선택합니다.
 
@@ -190,6 +251,12 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
         ![규칙 만들기](assets/rule-pageview.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+1. 사이트에 추가하려는 각 규칙에 대해 이 프로세스를 반복합니다.
+
+   규칙에 대한 자세한 내용은 태그 설명서의 [규칙](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)을 참조하십시오.
+
+1. [태그를 빌드하고 게시합니다](#build-and-publish-your-tag).
 
 ## 태그 빌드 및 게시
 
@@ -207,9 +274,9 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포에 
 
 1. 왼쪽 레일에서 **[!UICONTROL 흐름 게시]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 작업 중인 라이브러리 선택]**&#x200B;을 선택한 다음 **[!UICONTROL 라이브러리 추가...]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 라이브러리 추가]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 라이브러리 만들기] 대화 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 라이브러리 만들기]** 대화 상자에서 다음 정보를 지정합니다.
 
    * **[!UICONTROL 이름]**: 라이브러리의 이름입니다.
 

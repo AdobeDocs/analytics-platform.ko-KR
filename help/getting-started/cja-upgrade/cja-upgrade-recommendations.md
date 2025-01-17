@@ -7,18 +7,16 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1565'
 ht-degree: 5%
 
 ---
 
 # Adobe Analytics에서 Customer Journey Analytics으로 업그레이드
 
-Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe은 [대부분의 조직에 권장되는 업그레이드 단계](#recommended-upgrade-steps-for-most-organizations)에 설명된 대로 Analytics 소스 커넥터와 함께 Experience Platform Web SDK의 새로운 구현을 권장합니다.
-
-타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다. 이 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)를 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성합니다.
+Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 [권장되는 업그레이드 단계](#recommended-upgrade-steps-for-most-organizations)를 따를 수 있습니다. 또는 조직의 고유 상황에 맞게 [업그레이드 단계를 동적으로 생성](#dynamically-generate-upgrade-steps-for-your-organization)할 수 있습니다.
 
 ## 대부분의 조직에 권장되는 업그레이드 단계
 
@@ -100,9 +98,11 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
    +++태그
 
-   1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
-
    1. [태그 속성을 만들고 Adobe Experience Platform Web SDK 확장을 추가합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
+
+   1. [Adobe Experience Platform Web SDK 확장을 태그 속성에 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+
+   1. [사이트에서 로더 태그를 구현합니다](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
    1. [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
 
@@ -120,11 +120,11 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
 1. (선택 사항) 웹 데이터를 콜 센터 데이터와 같은 다른 채널의 데이터와 연결합니다.
 
-   Customer Journey Analytics 연결에 추가 데이터 세트를 추가하여 이를 수행할 수 있습니다.
+   [콜센터 및 웹 데이터 가져오기](/help/use-cases/cross-channel/call-center.md)에 설명된 대로 Customer Journey Analytics 연결에 추가 데이터 세트를 추가하여 이 작업을 수행할 수 있습니다.
 
 1. [Customer Journey Analytics에서 데이터 보기를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
-1. [데이터가 Customer Journey Analytics으로 흘러가고 있는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+1. [데이터가 Customer Journey Analytics의 데이터 보기로 이동하는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
 
 1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
