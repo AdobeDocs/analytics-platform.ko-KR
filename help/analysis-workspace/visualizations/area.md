@@ -4,10 +4,10 @@ title: 영역 및 스택 영역
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
+source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 26%
+source-wordcount: '204'
+ht-degree: 25%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 영역 및 스택 영역 시각화에 대해 설명합니다.이 문서의&#x200B;**Adobe Analytics**버전은 <br/>영역 및 스택 영역](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하세요.*[
+_이 문서는_&#x200B;의 영역 및 스택 영역 시각화에 대한 문서입니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [영역 및 스택 영역](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하세요._
 
 >[!ENDSHADEBOX]
 
