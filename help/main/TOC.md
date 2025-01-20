@@ -11,8 +11,8 @@ user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experie
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1099'
+ht-degree: 100%
 
 ---
 
