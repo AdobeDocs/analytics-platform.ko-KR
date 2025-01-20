@@ -4,9 +4,9 @@ title: 폴아웃 보고서 및 시각화 정보
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 30%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 폴아웃 시각화를 문서화합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [폴아웃](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하세요.*
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 폴아웃 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [폴아웃](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 22%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 선 시각화에 대해 설명합니다.이 문서의&#x200B;**Adobe Analytics**버전은 <br/>줄](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하세요.*[
+_이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에서 선 시각화를 설명합니다._<br/>_이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대한 [줄](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하세요.__
 
 >[!ENDSHADEBOX]
 

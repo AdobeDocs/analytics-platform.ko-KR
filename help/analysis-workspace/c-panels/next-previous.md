@@ -4,9 +4,9 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '469'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 다음 또는 이전 항목 패널을 문서화합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하세요.*
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 다음 또는 이전 항목 패널을 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대해 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ description: Analysis Workspace에서 집단 분석에 집단 테이블을 사�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '689'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Customer Journey Analytics**의 집단 테이블을 문서화합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [집단 테이블](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하세요.*
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 집단 테이블을 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [집단 테이블](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

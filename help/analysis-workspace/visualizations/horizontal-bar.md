@@ -4,7 +4,7 @@ title: 가로 막대 및 스택 가로 막대
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 가로 막대 및 스택 가로 막대 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/>이 문서의 _![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대해 [가로 막대 및 스택 가로 막대](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)를 참조하십시오._
+_이 문서에서는 가로 막대 및 스택 가로 막대 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대해 [가로 막대 및 스택 가로 막대](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 

@@ -7,10 +7,10 @@ badgePremium: label="Adobe Analytics 버전" url="https://experienceleague.adobe
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 16%
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="맵"
->abstract="이 시각화는 지표를 맵에 오버레이하여 나타냅니다. 이 기능은 다양한 지리적 영역에 걸쳐 데이터를 식별하는 데 유용합니다."
+>abstract="이 시각화는 지표를 맵 위에 중첩되도록 표현합니다. 이는 지리적으로 다른 지역들의 데이터를 식별하는 데 유용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,15 +38,14 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="히트맵"
->abstract="히트맵을 사용하여 이벤트를 그립니다."
+>title="열 지도"
+>abstract="히트맵을 사용하여 이벤트를 플롯합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-현재 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.
-![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;에서 맵 시각화 설명서에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을(를) 참조하십시오.
+_현재_&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_맵 시각화 설명서에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을 참조하십시오_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

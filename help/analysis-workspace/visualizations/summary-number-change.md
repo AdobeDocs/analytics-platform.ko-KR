@@ -4,9 +4,9 @@ title: 요약 번호 및 요약 변경 사항
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 47%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 요약 번호 및 요약 변경 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요.*
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ title: 막대 및 스택 막대
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 막대 및 스택 막대 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [막대 및 스택 막대](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar)를 참조하세요.*
+_이 문서는_&#x200B;의 막대 및 막대 누적 시각화에 대해 설명합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대해 [막대 및 스택 막대](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar)를 참조하세요._
 
 
 >[!ENDSHADEBOX]
