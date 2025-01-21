@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 

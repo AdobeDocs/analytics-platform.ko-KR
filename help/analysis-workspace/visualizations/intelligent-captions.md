@@ -7,7 +7,7 @@ role: User
 source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_area"
->title="지능형 캡션: 영역"
+>title="인텔리전트 캡션: 영역"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_bar"
->title="지능형 캡션: 막대"
+>title="인텔리전트 캡션: 막대"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_donut"
->title="지능형 캡션: 도넛"
+>title="인텔리전트 캡션: 도넛"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_horizontalbar"
->title="지능형 캡션: 가로 막대"
+>title="인텔리전트 캡션: 수평 막대"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -53,7 +53,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_line"
->title="지능형 캡션: 선"
+>title="인텔리전트 캡션: 라인"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -62,7 +62,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_fallout"
->title="지능형 캡션: 폴아웃"
+>title="인텔리전트 캡션: 폴아웃"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -71,7 +71,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_flow"
->title="지능형 캡션: 흐름"
+>title="인텔리전트 캡션: 플로우"
 >abstract="이 시각화에 대한 데이터를 보다 쉽게 이해하고 해석할 수 있도록 자연어 형식으로 인사이트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
