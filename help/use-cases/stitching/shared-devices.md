@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 공유 디바이스는 두 명 이상의 사용자가 사용하는 디바이스입니다. 일반적인 시나리오는 태블릿과 같은 장치, 키오스크에서 사용되는 장치 또는 콜 센터의 에이전트가 공유하는 컴퓨터 장비입니다.
 
-두 사람이 동일한 장치를 사용하고 둘 다 구매하는 경우 샘플 이벤트 데이터는 다음과 같을 수 있습니다.
+두 사람이 동일한 장치를 사용하고 둘 다 인증된 구매를 수행하면 샘플 이벤트 데이터가 다음과 같을 수 있습니다.
 
 | 이벤트 | 타임스탬프 | 페이지 이름 | 장치 ID | 이메일 |
 |--:|---|---|---|---|

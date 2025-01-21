@@ -3,14 +3,13 @@ description: Workspace 프로젝트에서 맵 시각화를 사용합니다.
 title: 맵
 feature: Visualizations
 role: User, Admin
-badgePremium: label="Adobe Analytics 버전" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization.html" tooltip="이 문서의 Adobe Analytics 버전을 보려면 을(를) 선택합니다."
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 53%
+source-wordcount: '67'
+ht-degree: 64%
 
 ---
 
