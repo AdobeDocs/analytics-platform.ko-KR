@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
+source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 99%
@@ -22,8 +22,6 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis 작업 영역](https://video.tv.adobe.com/v/26266/?quality=12){target="_blank"}
 
 >[!ENDSHADEBOX]
-
-
 
 ## 인터페이스
 
