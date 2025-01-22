@@ -2,10 +2,10 @@
 title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
+source-git-commit: ae22dc84406427567d45b670aa9737ea3a8b2f7b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '532'
+ht-degree: 12%
 
 ---
 
@@ -36,17 +36,96 @@ Customer Journey Analytics에서 인터페이스의 이 섹션으로 이동하�
 
 제품 사용을 활성화하면 다음 차원을 사용할 수 있습니다. 차원 설정을 변경하려면 시스템 소유 데이터 보기의 복사본을 만들고 Analysis Workspace에서 복사된 데이터 보기를 사용합니다.
 
-| 차원 | 설명 |
-| --- | --- |
-| 동작 이름 | 사용자가 수행한 작업 유형입니다. 데이터 보기 설정에서 사본을 만들어 이 차원을 원하는 지표로 사용할 수 있습니다. |
-| 사용된 속성 모델 | 구성 요소가 사용하는 속성 모델의 유형입니다. |
-| 구성 요소 | 구성 요소 유형과 구성 요소 이름을 포함하는 파생된 필드. |
-| 구성 요소 유형 | 추가, 제거 또는 수정된 구성 요소의 유형입니다. |
-| 로그인 사용자 | 작업을 수행한 사용자입니다. |
-| 사용된 패널 | 구성 요소가 추가, 제거 또는 수정된 패널입니다. |
-| 프로젝트 이름 | 프로젝트에 대한 알기 쉬운 이름. |
-| 프로젝트 유형 | 프로젝트 유형. |
-| 사용자 ID | 이벤트를 트리거한 사용자 ID입니다. |
-| 사용된 시각화 | 추가, 제거 또는 수정된 시각화입니다. |
+* **[!UICONTROL 작업 이름]**: 사용자가 수행한 작업의 유형입니다. 데이터 보기 설정에서 사본을 만들어 이 차원을 원하는 지표로 사용할 수 있습니다. Dimension 항목은 다음과 같습니다.
+   * [!UICONTROL 속성 추가]
+   * [!UICONTROL 구성 요소 추가]
+   * [!UICONTROL 패널 추가]
+   * [!UICONTROL 시각화 추가]
+   * [!UICONTROL 새로운 가이드 분석 만들기]
+   * [!UICONTROL 새 프로젝트 만들기]
+   * [!UICONTROL 구성 요소 조정]
+   * [!UICONTROL CSV 다운로드]
+   * [!UICONTROL PDF 다운로드]
+   * [!UICONTROL 안내가 있는 분석 로드]
+   * [!UICONTROL 프로젝트 로드]
+   * [!UICONTROL 새 스코어카드가 로드됨]
+   * [!UICONTROL 데이터 사전 열기]
+   * [!UICONTROL 지능형 캡션 열기]
+   * [!UICONTROL 프로젝트 공유]
+   * [!UICONTROL 실험 패널 실행]
+   * [!UICONTROL 프로젝트 저장]
+   * [!UICONTROL 스코어카드가 저장됨]
+   * [!UICONTROL 파일 보내기]
+   * [!UICONTROL 일정에 따라 파일 보내기]
+   * [!UICONTROL 모든 사람과 프로젝트 공유]
+   * [!UICONTROL Workspace 사용자와 프로젝트 공유]
+* **[!UICONTROL 사용된 속성 모델]**: 구성 요소가 사용하는 속성 모델의 유형입니다. Dimension 항목은 다음과 같습니다.
+   * [!UICONTROL 마지막 터치]
+   * [!UICONTROL 첫 번째 터치]
+   * [!UICONTROL 선형]
+   * [!UICONTROL 기여도]
+   * [!UICONTROL 동일한 터치]
+   * [!UICONTROL U자형]
+   * [!UICONTROL J 곡선]
+   * [!UICONTROL 역 J]
+   * [!UICONTROL 시간 감소]
+   * [!UICONTROL 사용자 정의]
+   * [!UICONTROL 알고리즘]
+* **[!UICONTROL 구성 요소 이름]**: 추가, 제거 또는 수정된 구성 요소의 이름입니다.
+* **[!UICONTROL 구성 요소 형식]**: 추가, 제거 또는 수정된 구성 요소의 형식입니다. Dimension 항목은 다음과 같습니다.
+   * [!UICONTROL 차원]
+   * [!UICONTROL 지표]
+   * [!UICONTROL 필터]
+   * [!UICONTROL 계산된 지표]
+   * [!UICONTROL 날짜 범위]
+   * [!UICONTROL 주석]
+   * [!UICONTROL 경고]
+* **[!UICONTROL 로그인 사용자]**: 작업을 수행한 사용자입니다.
+* **[!UICONTROL 사용된 패널]**: 구성 요소가 추가, 제거 또는 수정된 패널입니다. Dimension 항목은 다음과 같습니다.
+   * [!UICONTROL 속성]
+   * [!UICONTROL 빈 패널]
+   * [!UICONTROL 실험]
+   * [!UICONTROL 자유 형식]
+   * [!UICONTROL 다음 또는 이전 항목]
+   * [!UICONTROL 빠른 인사이트]
+   * [!UICONTROL 트렌드]
+   * [!UICONTROL 단계]
+   * [!UICONTROL 사용자 성장]
+   * [!UICONTROL 영향]
+   * [!UICONTROL 사용자 스트림]
+   * [!UICONTROL Retention]
+   * [!UICONTROL 기능 매트릭스]
+* **[!UICONTROL 프로젝트 이름]**: 프로젝트의 이름입니다.
+* **[!UICONTROL 프로젝트 형식]**: 프로젝트 형식입니다. Dimension 항목은 다음과 같습니다.
+   * `workspace-projects`
+   * `guided-analysis`
+   * `mobile-scorecard-builder`
+* **[!UICONTROL 사용자 ID]**: 이벤트를 트리거한 사용자 ID입니다.
+* **[!UICONTROL 사용된 시각화]**: 추가, 제거 또는 수정된 시각화입니다. Dimension 항목은 다음과 같습니다.
+   * [!UICONTROL 자유 형식 테이블]
+   * [!UICONTROL 코호트 테이블]
+   * [!UICONTROL 폴아웃]
+   * [!UICONTROL 흐름]
+   * [!UICONTROL 여정 캔버스 reportlet]
+   * [!UICONTROL 영역]
+   * [!UICONTROL 스택 영역]
+   * [!UICONTROL 막대]
+   * [!UICONTROL 스택 막대]
+   * [!UICONTROL 글머리 기호]
+   * [!UICONTROL 콤보]
+   * [!UICONTROL 도넛]
+   * [!UICONTROL 히스토그램]
+   * [!UICONTROL 가로 막대형]
+   * [!UICONTROL 스택 가로 막대]
+   * [!UICONTROL 주요 지표 요약]
+   * [!UICONTROL Line]
+   * [!UICONTROL 맵]
+   * [!UICONTROL 분산]
+   * [!UICONTROL 섹션 머리글]
+   * [!UICONTROL 요약 변경]
+   * [!UICONTROL 요약 번호]
+   * [!UICONTROL Text]
+   * [!UICONTROL 트리맵]
+   * [!UICONTROL 벤]
 
 프로젝트를 단순히 열거나 볼 때 제품 사용량은 개별 프로젝트 구성 요소를 추적하지 않습니다. 그러나 프로젝트를 여는 사용자 작업은 추적됩니다.
