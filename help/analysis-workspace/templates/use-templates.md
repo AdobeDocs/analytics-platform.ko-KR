@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
 workflow-type: tm+mt
-source-wordcount: '19294'
+source-wordcount: '19288'
 ht-degree: 86%
 
 ---
@@ -31,7 +31,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택합니다.
 
-   ![템플릿 탭](assets/view-prebuilt-templates.png)
+   ![템플릿 탭](assets/view-prebuilt-templates-full.png)
 
 1. [!UICONTROL **템플릿**] 섹션에서 다음 탭 중 하나를 선택합니다.
 
@@ -43,9 +43,9 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 1. 다음 옵션 중 하나를 사용하여 사용 가능한 템플릿을 보는 방법을 변경합니다.
 
-   * 열 보기 ![열 보기 아이콘](assets/column-view-icon.png) 또는 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png) 아이콘을 선택하여 열 보기에서 템플릿을 볼 것인지 카드 보기에서 템플릿을 볼 것인지를 선택합니다.
+   * 열 보기 ![ViewColumn](/help/assets/icons/ViewColumn.svg) 또는 카드 보기 ![Card](/help/assets/icons/Card.svg) 아이콘을 선택하여 열 보기에서 템플릿을 볼 것인지 카드 보기에서 템플릿을 볼 것인지를 선택합니다.
 
-   * 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png)을 사용할 때 다음 정렬 순서 중에서 선택하세요. **[!UICONTROL 가장 최근에 사용됨]**, **[!UICONTROL 가장 자주 사용됨]**, **[!UICONTROL 알파벳]**, **[!UICONTROL 범주형]**.
+   * 카드 보기 ![카드](/help/assets/icons/Card.svg)를 사용할 때 다음 정렬 순서 중에서 선택하세요. **[!UICONTROL 가장 최근에 사용됨]**, **[!UICONTROL 가장 자주 사용됨]**, **[!UICONTROL 알파벳]**, **[!UICONTROL 범주형]**.
 
 1. 검색 필드에서 찾을 템플릿의 이름을 입력한 다음 템플릿 목록에서 해당 이름을 선택합니다.
 

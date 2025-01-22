@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: ht
-source-wordcount: '1479'
-ht-degree: 100%
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
+workflow-type: tm+mt
+source-wordcount: '1473'
+ht-degree: 99%
 
 ---
 
@@ -17,18 +17,17 @@ ht-degree: 100%
 
 Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저 인터페이스를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 공유 및 예약할 수 있습니다.
 
+>[!BEGINSHADEBOX]
 
-+++ Analytics Workspace의 가능성을 보여 주는 비디오를 시청합니다.
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis 작업 영역](https://video.tv.adobe.com/v/26266/?quality=12){target="_blank"}
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+>[!ENDSHADEBOX]
 
-{{videoaa}}
 
-+++
 
 ## 인터페이스
 
-다음 이미지와 함께 제공되는 표는 Analysis Workspace 사용자 인터페이스의 주요 요소를 설명합니다.
+다음 이미지와 함께 제공되는 테이블은 Analysis Workspace 사용자 인터페이스의 주요 요소를 설명합니다.
 
 ![맨 왼쪽 및 왼쪽 패널, 캔버스 및 데이터 보기 드롭다운 메뉴가 강조 표시된 Analysis Workspace 창입니다.](assets/analysis-workspace-overview.png)
 
