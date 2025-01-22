@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 빠른 인사이트 패널을 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 빠른 인사이트 패널을 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

@@ -26,7 +26,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;에서 빈 패널에 대한 문서를 제공합니다.<br/>_이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대한 [빈 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하세요.__
+_이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;에서 빈 패널에 대한 문서를 제공합니다.<br/>_이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대한 [빈 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하세요.__
 
 >[!ENDSHADEBOX]
 
