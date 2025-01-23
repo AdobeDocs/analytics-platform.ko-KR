@@ -2,7 +2,7 @@
 title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: ae22dc84406427567d45b670aa9737ea3a8b2f7b
+source-git-commit: dbf4ff28f693085320c3e496ea99eede2ddb17d2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 12%
@@ -10,8 +10,6 @@ ht-degree: 12%
 ---
 
 # 제품 사용 개요
-
-{{release-limited-testing}}
 
 제품 사용은 조직이 Customer Journey Analytics을 사용하는 방법에 대한 분석 데이터를 볼 수 있는 기능을 조직에 제공합니다. Customer Journey Analytics을 사용하는 모든 조직에서 사용할 수 있습니다. 활성화되면 다음 Adobe Experience Platform 구성 요소가 자동으로 생성되고 연결됩니다. 이러한 구성 요소는 모두 시스템 소유이며 읽기 전용이며 편집할 수 없습니다.
 

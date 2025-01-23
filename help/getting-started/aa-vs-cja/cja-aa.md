@@ -5,25 +5,26 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 8c4b42c0046068ba45a47ecd9c7eab2ed89028e5
+workflow-type: tm+mt
+source-wordcount: '2386'
+ht-degree: 95%
 
 ---
 
 # Customer Journey Analytics 기능 지원
 
-다음 표에는 Customer Journey Analytics의 고유한 기능과 Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능이 나열되어 있습니다. 시간이 지남에 따라 Customer Journey Analytics에 기능이 더 추가되므로 이 목록은 변경될 수 있습니다.
+다음 테이블에는 Customer Journey Analytics의 고유한 기능과 Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능이 나열되어 있습니다. 시간이 지남에 따라 Customer Journey Analytics에 기능이 더 추가되므로 이 목록은 변경될 수 있습니다.
 
 ## Adobe Customer Journey Analytics의 고유한 기능 {#cja-not-aa}
 
-다음 표는 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서 지원되지 않는 기능을 보여 줍니다.
+다음 테이블는 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서 지원되지 않는 기능을 보여 줍니다.
 
 | 기능 | 자세한 내용 |
 | --- | --- |
 | **데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능** | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | **모든 유형의 데이터 수용** | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
+| **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
 | **Cross-Device Analytics** | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
 | **차원 개선 사항** | Customer Journey Analytics는 차원을 사용할 때 더 큰 유연성을 자랑합니다. <ul><li>**사용자 정의 숫자 기반 차원**: [데이터 보기 내에서 숫자 기반 차원을 직접 만듭니다](/help/data-views/create-dataview.md#components).</li><li>**문자열 기반 차원 정렬**: [자유 형식 테이블에서 문자열 기반 차원을 알파벳순으로 정렬합니다.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>Adobe Analytics에서는 소수의 기본 제공 숫자 차원만 사용할 수 있었으며 문자열 기반 차원별로 정렬하는 것은 불가능했습니다.</p> |
 | **파생 필드** | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 이러한 변환은 모든 보고에 소급 적용됩니다. |
@@ -31,11 +32,12 @@ ht-degree: 100%
 | **실험 분석** | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 [실험의 상승도 및 신뢰도를 평가](/help/analysis-workspace/c-panels/experimentation.md)할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
 | **예측** | [예측](/help/analysis-workspace/c-forecast/forecasting.md)은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함하는 AI/ML 기능입니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. |
 | **가이드 분석** | [가이드 분석](/help/guided-analysis/overview.md)을 이용하면 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 빌드된 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. |
-| **인텔리전트 캡션** | 인텔리전트 캡션은 고급 머신 러닝 및 생성형 AI를 사용하여 Workspace 시각화에 대한 유용한 자연어 인사이트를 제공합니다. 초기 릴리스에서는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화에 대한 자동 생성된 인사이트를 제공합니다. |
+| **인텔리전트 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)에서는 고급 기계 학습 및 생성 AI를 사용하여 Workspace 시각화에 중요한 자연어 통찰력을 제공합니다. 지능형 캡션은 선, 여러 줄, 막대, 가로 막대, 도넛, 영역, 흐름 및 폴아웃 시각화에 대해 지원됩니다. |
+| **제품 사용** | [제품 사용]https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview()은 조직에서 Customer Journey Analytics을 사용하는 방법을 보여 줍니다. |
 | **보고 시간 변환** | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
-| **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
 | **SQL 액세스** | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | **결합** | [결합](/help/stitching/overview.md)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
+| **Adobe Journey Optimizer의 템플릿** | Customer Journey Analytics에서 [템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)을(를) 만들거나 편집한 다음 Adobe Journey Optimizer의 보고서 페이지에서 사용할 템플릿을 저장하여 Journey Optimizer에서 새 보고 인터페이스를 사용자 지정합니다. |
 | **무제한 고객 차원 및 지표** | Customer Journey Analytics 차원은 무제한이지만 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합된 값일 수 있습니다. 차원은 중첩되거나 계층형 차원일 수 있습니다. <br/>반대로 Adobe Analytics는 최대 75개의 속성과 250개의 eVar를 지원합니다. |
 | **무제한 고유 값** | Customer Journey Analytics는 보고될 수 있는 단일 차원 내의 무제한 고유 값 또는 차원 항목을 지원합니다.<p>[차원에는 카디널리티 제한](/help/components/dimensions/high-cardinality.md)이 없으므로 고유한 값을 표시하고 계산할 수 있습니다.</p><p>이 접근 방식 덕분에 대규모 Adobe Analytics 구현에 존재할 수 있는 보고 및 분석 제한 사항이 사라지므로 [!UICONTROL 낮은 트래픽] 레이블이 가능합니다.</p><p>Customer Journey Analytics에서는 [!UICONTROL 고유 수 초과됨] 레이블을 볼 수 있지만, 이러한 현상은 발생 빈도가 훨씬 낮으며 데이터에 필터나 세그먼트를 적용하여 완화할 수 있습니다.</p> |
 
@@ -64,6 +66,7 @@ ht-degree: 100%
 | **PDF 내보내기** | 전체 지원 |
 | **프로젝트 큐레이션** | 전체 지원 |
 | **프로젝트 연결** | 전체 지원 |
+| **제품 템플릿** | [미리 빌드된 템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates) 및 [회사 템플릿](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#access-a-company-template)을 포함합니다. |
 | **보고서 시간 처리** | 전체 지원: Customer Journey Analytics는 보고 시 처리에만 사용합니다. |
 | **보고 API 액세스** | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | **예약된 보고서/프로젝트** | 전체 지원 |
@@ -118,7 +121,6 @@ ht-degree: 100%
 | 기능 | 참고 |
 | --- | --- |
 | **기여도 분석** | 지원이 예정되어 있습니다. |
-| **프로젝트 템플릿** | 지원이 예정되어 있습니다. |
 | **실시간 보고** | 지원이 예정되어 있습니다. |
 | **세그먼트 IQ** | 지원이 예정되어 있습니다. |
 | **거래 ID 데이터 소스** | 지원이 예정되어 있습니다. |
