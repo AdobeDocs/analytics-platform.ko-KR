@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
-workflow-type: ht
-source-wordcount: '4256'
-ht-degree: 100%
+source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
+workflow-type: tm+mt
+source-wordcount: '4402'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2025년 1월** |  |
 | 사용량 지표 | 개선된 [사용 지표](/help/connections/manage-connections.md#usage) 인터페이스에 대한 설명서가 업데이트되었습니다. |
-
+| 제품 사용 | [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview)은(는) 조직에서 Customer Journey Analytics을 사용하는 방법을 보여 줍니다. |
+| 가이드 분석 | 가이드 분석 내에서 [가이드 분석](/help/guided-analysis/overview.md)을 사용할 수 있는 설명서를 업데이트했습니다. |
 
 ## 2024
 
@@ -31,15 +32,19 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | BI 확장 기능 사용 사례 | Power BI Desktop 및 Tableau Desktop과 같은 BI 도구에 대한 여러 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)에 대한 설명서입니다. |
 | 스티칭 및 개인정보 보호 요청 | 개인정보 보호 요청의 결과로 발생하는 [향후 언스티칭 프로세스 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 공지가 추가되었습니다. |
 | **2024년 10월** | |
+| 여정 캔버스 시각화 | [여정 캔버스](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)는 사용자가 정의된 여정을 진행하거나 중단하는 방법을 분석할 수 있도록 해주는 Analysis Workspace의 시각화입니다. |
+| 에셋 이전 | 프로젝트, 필터 및 계산된 지표와 같은 구성 요소의 소유권을 [다른 사용자에게 전송](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)하여 연속성과 적절한 액세스를 보장할 수 있습니다. |
 | 개선된 사용 인터페이스 | 인터페이스 개선 사항을 반영하여 [모든 연결에서 수집된 행 및 보고 가능한 행의 사용량](/help/connections/manage-connections.md#usage)을 확인할 수 있도록 문서를 업데이트했습니다. |
 | 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |
 | Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
 | Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 구성 요소(주석, 치수, (계산된) 지표, 필터, 날짜 범위, 알림, 예약된 프로젝트 및 대상자)에 대한 설명서를 새로 고쳤습니다. |
 | 가이드 분석 | Analysis Workspace에서 [가이드 분석](/help/guided-analysis/overview.md)을 사용할 수 있도록 설명서를 업데이트했습니다. |
+| 대상 설명서 업데이트 | 이제 Analysis Workspace 내의 시각화에서 [대상자를 만들기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish?lang=en)할 때 패널 필터 및 열 필터가 추가 기준으로 포함됩니다. |
 | **2024년 9월** | |
 | 요약 데이터 업데이트 | 요약 데이터 보고 시 [조회 데이터](/help/data-views/summary-data.md#lookup-data)를 올바르게 사용하는 방법에 대한 요약 데이터 문서를 업데이트했습니다. |
 | BI 확장 기능 업데이트 | BI 확장 기능 설명서에 [기본값 및 제한 사항](/help/data-views/bi-extension.md#defaults-and-limitations) 섹션이 추가되었습니다. |
 | 경고 | 이제 Customer Journey Analytics에서 사용할 수 있는 [경고](/help/components/c-intelligent-alerts/intelligent-alerts.md) 기능에 대한 설명서가 추가되었습니다. |
+| 계산된 지표 관리자 및 필터 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보 | [계산된 지표 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) 및 [필터 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)의 &quot;사용 위치&quot; 열에는 다음 새 보고 영역이 포함됩니다. Report Builder 및 임시 구성 요소 |
 | **2024년 8월** | |
 | B2B 프로젝트 예시 | [B2B 조회 기능을 위한 새로운 변환 데이터 세트](/help/connections/transform-datasets-b2b-lookups.md)를 사용하여 Customer Journey Analytics에서 프로필(개인) 수준 B2B 데이터를 설정, 구성 및 보고하는 방법을 문서화한 [사용 사례](/help/use-cases/b2b/example.md)를 추가했습니다. |
 | 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 설명하는 [쿼리 서비스(Data Distiller) 및 내보내기 데이터 세트](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예시를 추가했습니다. |
@@ -150,7 +155,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2023년 3월** | |
 | 의사 결정 관리 데이터 통합 | [Customer Journey Analytics에 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md) 방법을 설명하는 콘텐츠를 추가했습니다. |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
-| 업데이트된 기능 지원 | Customer Journey Analytics에서 사용할 수 있지만 AA에서는 사용할 수 없거나 지원되지 않는 기능 표로 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 업데이트했습니다. |
+| 업데이트된 기능 지원 | Customer Journey Analytics에서 사용할 수 있지만 AA에서는 사용할 수 없거나 지원되지 않는 기능 테이블로 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 업데이트했습니다. |
 | 기본 계산된 지표 | [Adobe에서 제공하는 기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 설명하는 내용을 추가했습니다. |
 | 데이터 사전 | <p>데이터 사전의 [개요](/help/components/data-dictionary/data-dictionary-overview.md), [보기](/help/components/data-dictionary/view-data-dictionary.md), [편집](/help/components/data-dictionary/edit-entries-data-dictionary.md), 그리고 [모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)을 포함하여 데이터 사전을 위해 새로운 문서를 추가했습니다.</p><p>데이터 사전 기능을 설명하기 위해 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)의 정보가 업데이트되었습니다.</p> |
 | 프로젝트 링크 공유 (로그인 불필요) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사람들과 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analysis-workspace/curate-share/shareable-links.md)가 포함되어 있습니다.</p> <p>관리자 옵션이 [환경 설정](/help/analysis-workspace/user-preferences.md)에 추가되었습니다.</p> |

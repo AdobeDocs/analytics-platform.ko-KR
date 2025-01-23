@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 55da4faa73d708a450274c2b4d44c246ef5feb49
+source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
 workflow-type: tm+mt
 source-wordcount: '2417'
 ht-degree: 94%
@@ -34,7 +34,7 @@ ht-degree: 94%
 | **가이드 분석** | [가이드 분석](/help/guided-analysis/overview.md)을 이용하면 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 빌드된 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. |
 | **인텔리전트 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)에서는 고급 기계 학습 및 생성 AI를 사용하여 Workspace 시각화에 중요한 자연어 통찰력을 제공합니다. 지능형 캡션은 선, 여러 줄, 막대, 가로 막대, 도넛, 영역, 흐름 및 폴아웃 시각화에 대해 지원됩니다. |
 | **여정 캔버스** | [여정 캔버스](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)는 사용자가 정의된 여정을 진행하거나 중단하는 방법을 분석할 수 있도록 해주는 Analysis Workspace의 시각화입니다. |
-| **제품 사용** | [제품 사용](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview())은 조직에서 Customer Journey Analytics을 사용하는 방법을 보여 줍니다. |
+| **제품 사용** | [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview)은(는) 조직에서 Customer Journey Analytics을 사용하는 방법을 보여 줍니다. |
 | **보고 시간 변환** | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |
 | **SQL 액세스** | Data Distiller 옵션을 사용하여 Customer Journey Analytics는 Adobe 백엔드 처리 시 수집된 데이터의 제한 사항을 제거할 수 있습니다. SQL로 데이터를 수정하고 비즈니스 고유 값과 데이터 세트를 만들어 계속 탐색할 수 있습니다. Analytics는 해당 데이터에 대한 모든 종류의 SQL 액세스를 지원하지 않습니다. |
 | **결합** | [결합](/help/stitching/overview.md)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics가 처리할 수 있는 주요 사용 사례로, 공통 식별자(개인 ID)를 기반으로 다양한 채널의 여러 데이터 세트에 대한 보고서를 원활하게 결합하고 실행할 수 있습니다. |
