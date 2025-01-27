@@ -4,10 +4,10 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 66%
+source-wordcount: '932'
+ht-degree: 60%
 
 ---
 
@@ -63,22 +63,22 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 다음 항목이 표시됩니다.
 
 * **[!UICONTROL 작업 이름]**: 수행한 작업입니다. 가능한 값은 다음과 같습니다.
-   * API 요청
-   * 승인
-   * 만들기
-   * DELETE
-   * 편집
-   * 엠바고
-   * 내보내기
-   * ORG_CHANGE
-   * 새로 고침
-   * 공유
-   * 전송
-   * 승인 취소
-   * 공유 안 함
+   * API_REQUEST: 모든 작업은 백엔드 API 요청을 트리거합니다. API 요청에 대한 세부 사항이 표시됩니다.
+   * APPROVE: &quot;승인&quot; 작업이 수행되었습니다.
+   * CREATE: &quot;만들기&quot; 작업이 수행되었습니다.
+   * DELETE: &quot;삭제&quot; 작업이 수행되었습니다.
+   * EDIT: &quot;편집&quot; 작업이 수행되었습니다.
+   * 금지:
+   * 내보내기: &quot;내보내기&quot; 작업이 수행되었습니다.
+   * ORG_CHANGE: 조직 변경 작업이 수행되었습니다.
+   * 새로 고침: &quot;새로 고침&quot; 작업이 수행되었습니다.
+   * 공유: &quot;공유&quot; 작업이 수행되었습니다.
+   * 전송: 전송 작업이 수행되었습니다.
+   * UNAPPROVE: &quot;비승인&quot; 작업이 수행되었습니다.
+   * UNSHARE: &quot;공유 안 함&quot; 작업이 수행되었습니다.
 * **[!UICONTROL 만든 날짜]**: 작업을 수행한 날짜와 시간입니다.
 * **[!UICONTROL 설명]**: 작업의 요약입니다.
-* **[!UICONTROL 사용자 이름]**: 작업을 수행한 사용자입니다.
+* **[!UICONTROL 사용자 이름]**: 작업을 수행한 사용자입니다. 경우에 따라 사용자 이름이 누락될 수 있습니다. [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview) 기능은 항상 로그인 사용자 이름을 포함하므로 이 기능을 사용하는 것이 좋습니다.
 * **[!UICONTROL 이메일]**: 작업을 수행한 사용자의 이메일 주소입니다.
 * **[!UICONTROL 구성 요소 이름]**: 사용자가 작업한 구성 요소입니다.
 * **[!UICONTROL 구성 요소 형식]**: 구성 요소의 형식입니다. 가능한 값은 다음과 같습니다.
@@ -94,7 +94,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
    * 필터
    * IMS 조직
    * 모바일
-   * 프로젝트
+   * 프로젝트(Workspace)
    * 보고서
    * SCHEDULED_PROJECT
    * 사용자
