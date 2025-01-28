@@ -5,16 +5,16 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
+source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 94%
+source-wordcount: '2418'
+ht-degree: 93%
 
 ---
 
 # Customer Journey Analytics 기능 지원
 
-다음 테이블에는 Customer Journey Analytics의 고유한 기능과 Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics의 기능이 나열되어 있습니다. 시간이 지남에 따라 Customer Journey Analytics에 기능이 더 추가되므로 이 목록은 변경될 수 있습니다.
+다음 표에는 Customer Journey Analytics에 고유한 기능과, Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능이 나열되어 있습니다. 시간이 지남에 따라 Customer Journey Analytics에 기능이 더 추가되므로 이 목록은 변경될 수 있습니다.
 
 ## Adobe Customer Journey Analytics의 고유한 기능 {#cja-not-aa}
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 | **실험 분석** | Customer Journey Analytics는 연결의 일부로 정의된 모든 데이터 소스에서 [실험의 상승도 및 신뢰도를 평가](/help/analysis-workspace/c-panels/experimentation.md)할 수 있습니다. 이 평가를 사용하여 모든 채널에 걸쳐 고객 상호 작용 간의 인과 관계를 이해할 수 있습니다. 분석은 A4T를 통한 실험 분석으로 제한됩니다. |
 | **예측** | [예측](/help/analysis-workspace/c-forecast/forecasting.md)은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함하는 AI/ML 기능입니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. |
 | **가이드 분석** | [가이드 분석](/help/guided-analysis/overview.md)을 이용하면 사용자는 Customer Journey Analytics의 크로스 채널 데이터를 기반으로 빌드된 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. |
-| **인텔리전트 캡션** | [지능형 캡션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)에서는 고급 기계 학습 및 생성 AI를 사용하여 Workspace 시각화에 중요한 자연어 통찰력을 제공합니다. 지능형 캡션은 선, 여러 줄, 막대, 가로 막대, 도넛, 영역, 흐름 및 폴아웃 시각화에 대해 지원됩니다. |
+| **인텔리전트 캡션** | [지능형 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)에서는 고급 기계 학습 및 생성 AI를 사용하여 Workspace 시각화에 중요한 자연어 통찰력을 제공합니다. 지능형 캡션은 선, 여러 줄, 막대, 가로 막대, 도넛, 영역, 흐름 및 폴아웃 시각화에 대해 지원됩니다. |
 | **여정 캔버스** | [여정 캔버스](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)는 사용자가 정의된 여정을 진행하거나 중단하는 방법을 분석할 수 있도록 해주는 Analysis Workspace의 시각화입니다. |
 | **제품 사용** | [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview)은(는) 조직에서 Customer Journey Analytics을 사용하는 방법을 보여 줍니다. |
 | **보고 시간 변환** | Customer Journey Analytics의 [데이터 보기](/help/data-views/data-views.md)를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 필터링할 수 있습니다. 이러한 변형은 모두 비파괴적인 방식으로 수행됩니다. Adobe Analytics는 가상 보고서 세트와 사용자 정의 세션 길이를 통해 기능이 제한됩니다. |

@@ -6,14 +6,22 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 987d09a10da9cf972947fae99e5b88bfc8da135d
+source-git-commit: 4438f4f7bd2794f459a1f771b1685f2501838b5f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 1%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # Adobe Journey Optimizer에 사용할 개인화 개체 사용
+
+개인화 개체의 결과는 데이터 세트로 끝납니다. 실험의 결과. 고객이 Target에서 AA를 사용한 경우, 이는 CJA로 마이그레이션할 때와 Adobe Target에서 CJA를 사용할 때와는 완전히 다른 공간으로 끝납니다.
+
+Target은 A/B 테스트 또는 실험을 설정하는 이전 방식이었습니다. 그런 다음 Target에서 이러한 테스트의 결과가 보고를 위해 AA로 끝나는지 확인합니다. 이제 Target에서 데이터를 원한다고 말하는 대신 Target을 사용하는 경우 CJA를 Adobe Target 활동에 대한 보고 소스로 선택할 수 있습니다. 따라서 고객이 AA에서 이를 수행하고 있으며 CJA로 이동하고자 하는 경우, ...
+
+고객이 AJO을 가지고 있고 AJO에서 오퍼를 사용 중인 경우 오퍼를 설정할 수 있으며, 이렇게 하면 플랫폼에 데이터 세트도 생성됩니다. 하지만 그것은 업그레이드와 관련이 없습니다.
+
+
 
 답변이 필요한 질문:
 
@@ -29,6 +37,8 @@ ht-degree: 1%
 
 ## 웹 SDK의 수동 구현
 
+
+## 모바일 SDK 구현
 
 
 

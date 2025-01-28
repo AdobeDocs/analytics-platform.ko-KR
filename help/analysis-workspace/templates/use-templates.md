@@ -4,7 +4,7 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
+source-git-commit: c4ea1ffd6ffb21f972bb144fe6b56526ad4697ff
 workflow-type: tm+mt
 source-wordcount: '19288'
 ht-degree: 86%
@@ -947,8 +947,6 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | **브라우저 유형** | 사용자가 사이트에 액세스하는 데 사용하는 상위 브라우저를 만든 조직의 이름을 확인할 수 있습니다. 이는 동일한 브라우저의 다른 버전을 별도의 차원 항목으로 나열하지 않는다는 점에서 브라우저 템플릿과 다릅니다.<p>**방문자가 사용하는 가장 일반적인 브라우저를 더 잘 이해하는 데 도움이 됩니다**</p><p>**학습한 내용을 바탕으로** 상위 브라우저를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다. </p><p>이 템플릿은 브라우저 유형 차원을 사용합니다. </p> |
 
 ### 웹: 고객 확보 {#web-acquisition}
-
-<!--CJA only-->
 
 <!--AA only-->
 
