@@ -4,9 +4,9 @@ title: 인텔리전트 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 7d103e9d709ec076519360a4b43af44f061171e9
+source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '876'
 ht-degree: 19%
 
 ---
@@ -82,6 +82,12 @@ ht-degree: 19%
 
 * 다른 사용자와 공유하기 위해 서술이 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공할 수 있도록 이러한 통찰력이 필요합니다.
 * 높은 수준의 테이크아웃을 빠르게 찾고 싶은 비즈니스 사용자.
+
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intellent 캡션](https://video.tv.adobe.com/v/3420131/?learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 지능형 캡션 실행 {#launch}
 
