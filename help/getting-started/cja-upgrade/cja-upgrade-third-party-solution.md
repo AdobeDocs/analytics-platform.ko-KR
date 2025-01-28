@@ -1,81 +1,26 @@
 ---
-title: Adobe Analytics 구현 및 Customer Journey Analytics 업그레이드에 미치는 영향 이해
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: 서드파티 분석 솔루션에서 Customer Journey Analytics으로 업그레이드
+description: 타사 분석 솔루션에서 Customer Journey Analytics으로 업그레이드하는 방법에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '768'
 ht-degree: 8%
 
 ---
 
-# Adobe Analytics 구현 및 Customer Journey Analytics 업그레이드에 미치는 영향 이해 {#implementation-affects-upgrade}
+# 서드파티 분석 솔루션에서 Customer Journey Analytics으로 업그레이드 {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-upgrade-appmeasurement"
->title="AppMeasurement(수동 JS 파일)"
->abstract="페이지에 AppMeasurement.js를 로드하고 s 개체(예: s.eVar1)를 사용하여 Adobe에 데이터를 전송하는 JavaScript 구현입니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-analyticsextension"
->title="Adobe Analytics 확장(태그)"
->abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현입니다. 태그에 Adobe Analytics 확장이 설치되어 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-websdk"
->title="웹 SDK(alloy.js)"
->abstract="페이지에 웹 SDK 라이브러리(alloy.js)를 로드하고 JSON 페이로드를 사용하여 Adobe에 데이터를 전송하는 JavaScript 구현입니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-websdkextension"
->title="웹 SDK 확장 프로그램(태그)"
->abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현입니다. 태그에 웹 SDK 확장이 설치되어 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-api"
->title="데이터 삽입 API"
->abstract="데이터 삽입 API 또는 대량 데이터 삽입 API를 사용하는 구현입니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-mobilesdk"
->title="Mobile SDK"
->abstract="Adobe Experience Platform Mobile SDK을 사용하는 구현입니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-upgrade-unknown"
->title="알 수 없는 구현"
->abstract="구현을 관리하는 사람이 아닌 경우 이 옵션을 일시적으로 선택할 수 있습니다."
+>id="cja-upgrade-third-party"
+>title="서드파티 분석 제품"
+>abstract="Google Analytics과 같은 서드파티 분석 제품에 대한 데이터를 수집하는 구현입니다. 이 옵션을 선택하면 서드파티 분석 제품에서 Customer Journey Analytics으로 업그레이드할 때 적용되지 않는 몇 가지 설문 조사 옵션이 비활성화됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -83,13 +28,18 @@ ht-degree: 8%
 > 
 >[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
 
-Adobe Analytics을 구현할 수 있는 방법에는 여러 가지가 있습니다. Customer Journey Analytics으로 업그레이드할 때 모든 Adobe Analytics 구현에 대해 일부 업그레이드 경로를 사용할 수 있는 것은 아닙니다. 그러나 권장되는 업그레이드 경로는 조직에서 Adobe Analytics을 구현하는 방법에 관계없이 사용할 수 있습니다.
+타사 분석 솔루션에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Experience Platform에 기본 제공되는 데이터 수집 방법인 Customer Journey Analytics 웹 SDK의 새로운 구현입니다. 웹 SDK과 함께 Adobe에서는 타사 분석 솔루션의 내역 데이터를 Adobe Experience Platform으로 수집하는 것을 권장합니다.
 
-아래 정보를 사용하여 현재 Adobe Analytics 구현 및 조직에서 사용할 수 있는 업그레이드 경로에 대해 알아보십시오.
+<!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
+
+Google Analytics과 같은 서드파티 Customer Journey Analytics 솔루션에서 분석으로 이동할 때 다음 프로세스를 사용하십시오.
+
+1. ...
+
 
 보다 구체적인 조언, 안내 또는 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
-| 기존 Adobe Analytics 구현 | 설명 | 사용 가능한 업그레이드 경로 |
+| 기존 분석 솔루션 | 설명 | 사용 가능한 업그레이드 경로 |
 |---------|----------|----------|
 | AppMeasurement | JavaScript용 AppMeasurement은 지금까지 Adobe Analytics을 구현하는 일반적인 방법이었습니다.<p>이 구현 유형에 대한 자세한 내용은 [JavaScript용 AppMeasurement을 사용하여 Adobe Analytics 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview)을 참조하십시오.</p> | <ul><li>Experience Platform [(권장) 지속적인 데이터 수집을 위한 Analytics Web SDK의 새로운 구현; 이전 데이터를 위한 Analytics Source 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform 웹 SDK의 새 구현](/help/data-ingestion/aepwebsdk.md) </li><li>Adobe Analytics을 웹 SDK으로 마이그레이션</li><li>[Analytics Source 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |
 | Adobe Analytics 확장(태그) | <p>Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. Adobe는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 정의 코드를 배포할 수 있도록 해 줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다.</p><p>이 구현 유형에 대한 자세한 내용은 [Analytics 확장을 사용하여 Adobe Analytics 구현](https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/overview)을 참조하십시오.</p> | <ul><li>Experience Platform [(권장) 지속적인 데이터 수집을 위한 Analytics Web SDK의 새로운 구현; 이전 데이터를 위한 Analytics Source 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[Experience Platform 웹 SDK의 새 구현](/help/data-ingestion/aepwebsdk.md) </li><li>Adobe Analytics을 웹 SDK으로 마이그레이션</li><li>[Analytics Source 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |

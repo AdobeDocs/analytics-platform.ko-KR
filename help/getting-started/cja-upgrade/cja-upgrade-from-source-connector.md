@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 웹 SDK으로 전환
+# Customer Journey Analytics을 위해 Analytics 소스 커넥터에서 웹 SDK으로 전환 {#transition-from-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector"
+>title="Analytics 소스 커넥터 구현"
+>abstract="Analytics 소스 커넥터를 사용하면 Customer Journey Analytics에서 쉽게 가치를 얻을 수 있지만, Adobe Analytics과 Customer Journey Analytics 모두에 대한 비용을 지불해야 합니다. 이 안내서를 통해 독립적인 웹 SDK 구현으로 이동할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

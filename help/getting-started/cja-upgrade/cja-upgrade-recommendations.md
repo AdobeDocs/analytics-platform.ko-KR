@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1587'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 [권장되는 업그레이드 단계](#recommended-upgrade-steps-for-most-organizations)를 따를 수 있습니다. 또는 조직의 고유 상황에 맞게 [업그레이드 단계를 동적으로 생성](#dynamically-generate-upgrade-steps-for-your-organization)할 수 있습니다.
 
-## 대부분의 조직에 권장되는 업그레이드 단계
+## 대부분의 조직에 권장되는 업그레이드 단계 {#upgrade-process}
 
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에 기본 데이터 수집 방법인 Experience Platform 웹 SDK의 새로운 구현입니다. Web SDKAdobe 와 함께 Analytics 소스 커넥터 를 사용하여 Customer Journey Analytics으로 전환하는 것도 좋습니다. Analytics 소스 커넥터를 사용하여 이전 Adobe Analytics 데이터를 유지하고 병렬 데이터 비교를 수행할 수 있습니다.
 
@@ -28,7 +28,16 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 >
 >이 섹션에 설명된 업그레이드 단계가 조직에 실용적이지 않은 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)을 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성하십시오.
 
-### 높은 수준의 권장 업그레이드 프로세스
+### 높은 수준의 권장 업그레이드 프로세스 {#high-level-upgade-process}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-historical-data"
+>title="Adobe Analytics의 내역 데이터"
+>abstract="이전 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform 및 Customer Journey Analytics으로 가져옵니다."
+
+<!-- markdownlint-enable MD034 -->
 
 1. **지속적인 데이터 수집을 위해 Experience Platform Web SDK 구현**
 
@@ -54,7 +63,7 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
      차이점을 잘 알고 있을 때까지 Analytics 소스 커넥터를 계속 실행할 수 있습니다. <!--elaborate on what those differences are? -->
 
-   독립 실행형 구현으로서의 Analytics 소스 커넥터는 Customer Journey Analytics 사용을 위한 장기적인 권장 방법이 아닙니다. 이는 지연 시간이 길고, 복잡하고 복잡한 스키마, Adobe Analytics 명명법(prop, eVar 등)에 의존하고, 결국 소스 커넥터에서 권장되는 웹 SDK 구현으로 이동하기 어렵기 때문입니다.
+   독립 실행형 구현으로서의 Analytics 소스 커넥터는 Customer Journey Analytics 사용을 위한 장기적인 권장 방법이 아닙니다. 이는 지연 시간이 길고, 복잡하고 복잡한 스키마, Adobe Analytics 명명법(prop, eVar 등)에 의존하고, 결국 Analytics 소스 커넥터에서 권장되는 웹 SDK 구현으로 이동하기 어렵기 때문입니다.
 
 ### 자세한 권장 업그레이드 단계
 
