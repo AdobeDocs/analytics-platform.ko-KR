@@ -2,7 +2,7 @@
 title: 제품 사용 데이터 설정
 description: 제품 사용 설정을 활성화, 비활성화 또는 구성합니다.
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # 제품 사용 데이터 설정 {#product-usage-data-settings}
-
-{{release-limited-testing}}
 
 _데이터 설정_ 페이지에서 제품 사용 구성을 처리합니다. 이 페이지를 사용하여 조직의 제품 사용을 활성화하거나 비활성화할 수 있습니다. 또한 데이터 세트가 만들어지는 Adobe Experience Platform 샌드박스를 구성하고 원하는 경우 데이터 보존 기간을 재정의할 수 있습니다. 제품 관리자만 볼 수 있습니다.
 

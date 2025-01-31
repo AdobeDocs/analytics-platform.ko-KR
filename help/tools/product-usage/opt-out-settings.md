@@ -2,7 +2,7 @@
 title: 제품 사용 옵트아웃 설정
 description: 조직 내의 개별 사용자에 대한 옵트아웃 설정을 관리합니다.
 exl-id: 0ea24582-bab8-4a76-ac00-7c265423e8bb
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 11%
@@ -10,8 +10,6 @@ ht-degree: 11%
 ---
 
 # 제품 사용 옵트아웃 설정 {#product-usage-opt-out-settings}
-
-{{release-limited-testing}}
 
 _옵트아웃 설정_ 페이지에서는 제품 사용 추적에서 조직 내의 사용자를 제외하거나 다시 포함할 수 있습니다. 제품 관리자만 볼 수 있습니다.
 

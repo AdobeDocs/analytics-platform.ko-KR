@@ -2,10 +2,10 @@
 title: 제품 사용 개요
 description: 조직에서 Customer Journey Analytics을 사용하는 방법에 대한 인사이트 및 보고서를 봅니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: dbf4ff28f693085320c3e496ea99eede2ddb17d2
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '523'
+ht-degree: 13%
 
 ---
 
@@ -98,7 +98,6 @@ Customer Journey Analytics에서 인터페이스의 이 섹션으로 이동하�
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL 사용자 ID]**: 이벤트를 트리거한 사용자 ID입니다.
 * **[!UICONTROL 사용된 시각화]**: 추가, 제거 또는 수정된 시각화입니다. Dimension 항목은 다음과 같습니다.
    * [!UICONTROL 자유 형식 테이블]
    * [!UICONTROL 코호트 테이블]
