@@ -4,9 +4,9 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 1%
 
 이 기능은 다음 유형의 차원 항목에 대한 하이퍼링크를 만들 때 특히 유용합니다.
 
-* URL 값이 있는 Dimension 항목(예: 페이지 URL 차원)
+* URL 값이 있는 Dimension 항목(예: 페이지 URL 차원).
 
-* URL 값이 있는 분류가 포함된 Dimension 항목(예: 페이지 URL 차원의 분류가 있는 페이지 이름 차원)
+* URL 값이 있는 분류가 포함된 Dimension 항목(예: 페이지 URL 차원의 분류가 있는 페이지 이름 차원).
 
-* URL의 일부인 값이 있는 Dimension 항목 또는 분류(예: URL의 일부인 페이지 이름 차원)
+* URL의 일부인 값이 있는 Dimension 항목 또는 분류(예: URL의 일부인 페이지 이름 차원).
 
-+++ 이 기능에 대한 비디오 데모를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 하이퍼링크 만들기](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 하이퍼링크 만들기
 

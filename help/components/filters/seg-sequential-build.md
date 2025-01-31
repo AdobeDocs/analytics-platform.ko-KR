@@ -3,9 +3,9 @@ description: 순차적 필터는 THEN 연산자를 사용하여 필터 조건 �
 title: 순차적 필터
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2460'
 ht-degree: 3%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 3%
 
 구성 요소, 컨테이너 및 구성 요소 또는 컨테이너 간에 [!UICONTROL Then] 논리 연산자를 사용하여 순차적 필터를 만듭니다. [!UICONTROL Then] 논리 연산자는 한 필터 조건 다음에 다른 필터 조건이 발생함을 의미합니다.
 
-+++ 다음은 순차적 세그먼테이션을 보여 주는 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 순차적 필터에는 다음과 같은 몇 가지 [기본 기능](#basics)과 순차적 필터에 더 복잡성을 추가하도록 구성할 수 있는 추가 옵션이 있습니다.
 

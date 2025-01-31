@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 49%
+source-wordcount: '387'
+ht-degree: 46%
 
 ---
 
@@ -41,15 +41,17 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 * 웹 사이트 또는 애플리케이션을 통해 고객 여정을 시각화합니다.
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치를 분석합니다.
-* 선택한 경로에서 특정 지점을 지정하여 필터 생성
+* 선택한 경로에서 특정 지점을 지정하여 필터를 생성합니다.
 
-+++ 플로우 시각화에 대한 비디오 데모를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [흐름 시각화 만들기](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 차원 간 흐름
 

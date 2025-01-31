@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 66%
+source-wordcount: '1813'
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,12 @@ ht-degree: 66%
 
 사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 각 세부 슬라이드의 레이아웃을 수정하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. 드롭다운 메뉴를 사용하여 차트 유형을 변경할 수도 있습니다.
 
@@ -48,7 +53,7 @@ ht-degree: 66%
 
 ### 슬라이드 레이아웃 변경
 
-가장 중요한 정보에 초점을 맞추도록 슬라이드 레이아웃을 변경합니다. 예를 들어 차트 또는 표만 표시하도록 레이아웃을 변경할 수 있습니다. 슬라이드 레이아웃을 변경하려면 미리 설계된 형식 중 하나를 선택합니다.
+가장 중요한 정보에 초점을 맞추도록 슬라이드 레이아웃을 변경합니다. 예를 들어 차트 또는 테이블만 표시하도록 레이아웃을 변경할 수 있습니다. 슬라이드 레이아웃을 변경하려면 미리 설계된 형식 중 하나를 선택합니다.
 
 ![슬라이드 레이아웃](assets/layout.png)
 
@@ -78,7 +83,13 @@ ht-degree: 66%
 
 Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스토리를 만드는 방법에 대해 자세히 알아보려면 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 **데이터 스토리를 만들려면** {#data-story-create}
 

@@ -4,10 +4,10 @@ description: 보고서 실행 시 파생된 필터링된 지표에 대해 자세
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 계산된 지표는 기존 지표에서 생성할 수 있는 사용자 정의 지표입니다. 계산된 지표에서는 구현을 변경하지 않고도 데이터를 분석할 수 있는 사용자 정의 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다.
 
-+++ 계산된 지표를 사용하는 방법에 대한 개요는 이 비디오에서 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31787/?learn=on)
 
-+++
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표 소개](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 계산된 지표의 일반적인 워크플로는 다음 작업으로 구성됩니다.
 

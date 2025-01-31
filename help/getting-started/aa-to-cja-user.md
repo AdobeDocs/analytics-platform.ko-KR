@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
-workflow-type: ht
-source-wordcount: '1442'
-ht-degree: 100%
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+workflow-type: tm+mt
+source-wordcount: '1454'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 여전히 [Analysis Workspace](/help/analysis-workspace/home.md)의 기능을 사용하여 데이터를 분석할 수 있습니다. 작업 영역은 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md)는 사용할 수 있으며, Customer Journey Analytics와 Adobe Analytics 간에 유사하게 작동합니다.
-* [Report Builder](/help/report-builder/report-buider-overview.md)에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
+* [Report Builder](/help/report-builder/report-buider-overview.md)에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 를 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
 
 ## 보고 변경 사항
 
@@ -40,9 +40,19 @@ Experience Platform의 고객 데이터는 [스키마](https://experienceleague.
 
 Customer Journey Analytics 관리자는 Experience Platform의 데이터 세트에 [연결](/help/connections/create-connection.md)을 설정합니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 Customer Journey Analytics의 보고 기준입니다. Experience Platform은 보고를 위한 모든 데이터를 소스화하므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
 
-연결을 통해 Analytics 관리자는 Adobe Experience Platform의 데이터 세트를 다음 비디오에 포함하는 Customer Journey Analytics에 통합할 수 있습니다.
+연결을 통해 Analytics 관리자는 Adobe Experience Platform의 데이터 세트를 Customer Journey Analytics에 통합할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
+
+<!-- Outdated UI
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
+
 
 Adobe는 Analytics 소스 커넥터 또는 Web SDK를 통해 보고서 세트 데이터를 포함하여 Adobe Experience Platform으로 데이터를 가져오는 여러 가지 방법을 제공합니다. 여러 보고서 세트의 기존 구현을 Experience Platform에 결합할 수 있습니다. 이러한 데이터 세트를 기반으로 하는 연결 및 데이터 보기는 별도의 보고서 세트에 이전에 존재했던 데이터를 결합할 수 있습니다.
 
@@ -78,9 +88,14 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## 계산된 지표의 개념 변경
 
-계산된 지표는 Adobe Analytics와 Customer Journey Analytics 간에 유사하게 이름이 지정됩니다. 단, [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, Prop 또는 이벤트를 사용하지 않고 대신 Experience Platform 스키마 요소를 사용합니다. 이 기본 변경 사항은 기존의 계산된 지표 중 어떤 것도 [!UICONTROL Customer Journey Analytics]와 호환되지 않음을 의미합니다. Adobe Analytics 계산된 지표를 Customer Journey Analytics으로 이동하려면 다음 비디오를 참조하십시오.
+계산된 지표는 Adobe Analytics와 Customer Journey Analytics 간에 유사하게 이름이 지정됩니다. 단, [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, Prop 또는 이벤트를 사용하지 않고 대신 Experience Platform 스키마 요소를 사용합니다. 이 기본 변경 사항은 기존의 계산된 지표 중 어느 것도 [!UICONTROL Customer Journey Analytics]과(와) 호환되지 않음을 의미합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics으로 계산된 지표 이동](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 변수 속성 및 만료 설정 변경
 
@@ -100,9 +115,14 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## Adobe가 방문자를 식별하는 방법 변경
 
-Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
+Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오
 
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 낮은 트래픽 차원 항목 개념 변경
 

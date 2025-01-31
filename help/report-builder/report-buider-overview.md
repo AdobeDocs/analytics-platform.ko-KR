@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics용 Report Builder를 사용하여 다음과 같은 �
 
 - 기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 얻을 수 있습니다.
 - 달력, 셀 참조 또는 날짜 계산을 사용하여 사용자 정의 날짜를 만들 수 있습니다.
-- 익숙한 Excel 서식 도구를 사용하여 표와 시각화를 디자인할 수 있습니다.
+- 익숙한 Excel 서식 도구를 사용하여 테이블과 시각화를 디자인할 수 있습니다.
 
 Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 사용할 수 있습니다.
 
@@ -43,7 +43,12 @@ Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 
 
 ## 개요 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에 대한 보고서 빌더](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows)에서
 Customer Journey Analytics용 Report Builder를 다운로드할 수 있습니다.

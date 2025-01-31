@@ -5,10 +5,10 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '646'
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,13 @@ Universal Analytics 속성의 데이터 구조는 Google Analytics 4 속성의 �
 
 Universal Analytics 속성은 각 기록을 그 데이터 안에 개별 이벤트가 아닌 사용자 세션으로서 보관합니다. Universal Analytics 데이터를 Adobe Experience Platform과 호환되는 형식으로 변환하려면 SQL 쿼리가 필요합니다. GA 스키마에서 `UNNEST` 함수를 `hits` 필드에 적용한 다음 BigQuery 테이블로 저장합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332634)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Google Analytics에서 Customer Journey Analytics - BigQuery](https://video.tv.adobe.com/v/332634?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ```sql
 SELECT
@@ -74,7 +80,13 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 1. Adobe Experience Platform에서 왼쪽의 **[!UICONTROL 소스]**&#x200B;를 선택합니다.
 1. [카탈로그]에서 **[!UICONTROL Google Cloud Storage]** 옵션을 찾습니다. **[!UICONTROL 데이터 추가]**&#x200B;를 클릭합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/332676)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Experience Platform으로 Google Analytics 데이터 가져오기](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 >[!TIP]
 >

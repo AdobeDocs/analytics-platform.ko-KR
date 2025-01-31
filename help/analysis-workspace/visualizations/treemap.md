@@ -4,10 +4,10 @@ title: 트리맵
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 27%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
@@ -37,6 +37,13 @@ _이 문서에서는 트리맵 시각화를_ ![CustomerJourneyAnalytics](/help/a
 ![하위 분기를 나타내는 더 작은 역행렬의 타일을 표시하는 트리맵 예입니다.](assets/treemap.png)
 
 트리맵을 사용하면 다른 방법으로 찾기 어려운 패턴을 볼 수 있습니다. 차원의 색상 및 크기를 사용하여 차원이 상호 관련되는 방식 및 특정 차원이 특히 관련성이 있는지 확인할 수 있습니다. 트리맵의 두 번째 장점은 구성에 따라 트리맵이 공간을 효율적으로 사용할 수 있다는 것입니다.
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [트리맵 시각화](https://video.tv.adobe.com/v/334458/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]

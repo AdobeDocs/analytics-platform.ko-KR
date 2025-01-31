@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 58%
+source-wordcount: '540'
+ht-degree: 52%
 
 ---
 
@@ -51,28 +51,49 @@ ht-degree: 58%
 
 * 항목 트리에 속성이 이미 있는 경우 속성을 변경하면 편집 중인 속성만 변경됩니다.
 
-+++ 차원 및 차원 분류를 보여 주는 비디오 보기
+>[!BEGINSHADEBOX]
 
-Analysis Workspace의 Dimension
-
->[!VIDEO](https://video.tv.adobe.com/v/23971)
-
-Dimension 분류
-
->[!VIDEO](https://video.tv.adobe.com/v/23969)
-
-Analysis Workspace에서 프로젝트에 치수 및 메트릭 추가하기
-
->[!VIDEO](https://video.tv.adobe.com/v/30606)
-
-자유 양식 표에서 치수 작업하기
-
->[!VIDEO](https://video.tv.adobe.com/v/40179)
-
-위치별 차원 분류:
-
->[!VIDEO](https://video.tv.adobe.com/v/24033)
+데모 비디오는 ![Analysis Workspace의 VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/24033){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+

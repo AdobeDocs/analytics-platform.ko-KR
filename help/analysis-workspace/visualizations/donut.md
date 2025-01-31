@@ -4,10 +4,10 @@ title: 도넛
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 26%
+source-wordcount: '122'
+ht-degree: 25%
 
 ---
 
@@ -34,13 +34,15 @@ _이 문서는_&#x200B;의 도넛 시각화를 설명합니다![CustomerJourneyA
 
 ![데이터를 전체의 일부 또는 필터로 표시하는 도넛 차트.](assets/donut.png)
 
-+++ 이 기능에 대한 비디오 데모를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도넛 시각화 추가](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"}를 참조하세요.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

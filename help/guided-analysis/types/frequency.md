@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도별로 이벤트 데이터를 그룹화합니다. 이 분석의 세로 축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷에 대한 사용자 또는 세션 수를 측정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## 사용 사례
 

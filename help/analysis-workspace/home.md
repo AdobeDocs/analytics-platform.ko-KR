@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 99%
+source-wordcount: '1473'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis 작업 영역 개요](https://video.tv.adobe.com/v/26266/?quality=12){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis 작업 영역 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -27,11 +27,11 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 다음 이미지와 함께 제공되는 테이블은 Analysis Workspace 사용자 인터페이스의 주요 요소를 설명합니다.
 
-![맨 왼쪽 및 왼쪽 패널, 캔버스 및 데이터 보기 드롭다운 메뉴가 강조 표시된 Analysis Workspace 창입니다.](assets/analysis-workspace-overview.png)
+![인터페이스의 다양한 섹션을 강조 표시하는 Analysis Workspace 창](assets/analysis-workspace-overview.png)
 
 | 위치 | 이름 및 기능 |
 |:---------:|----------|
-| ?? | 프로젝트 이름, 기능에 액세스하는 메뉴 구조, 프로젝트 목록으로 돌아가는 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) 버튼 및 [Workspace 프로젝트를 공유](/help/analysis-workspace/curate-share/share-projects.md)하는 **[!UICONTROL 공유]** 버튼을 포함합니다. <br/>언제든지 프로젝트 이름(예: 새 프로젝트)을 선택하여 이름을 변경합니다. <br/>![StarOutline](/help/assets/icons/StarOutline.svg)을 선택하여 프로젝트를 자주 사용하는 프로젝트 ![Star](/help/assets/icons/Star.svg)로 표시합니다. |
+| ?? | 프로젝트 이름, 기능에 액세스할 수 있는 메뉴 구조, 프로젝트 목록으로 돌아갈 수 있는 ![뒤로 단추](/help/assets/icons/ChevronLeft.svg), [Workspace 프로젝트를 공유](/help/analysis-workspace/curate-share/share-projects.md)할 수 있는 **[!UICONTROL 공유]** 단추를 포함합니다. <br/>언제든지 프로젝트 이름(예: 새 프로젝트)을 선택하여 이름을 변경합니다. <br/>프로젝트를 즐겨찾는 프로젝트 ![Favor](/help/assets/icons/Star.svg)(으)로 표시하려면 ![Unfavor](/help/assets/icons/StarOutline.svg)을(를) 선택하십시오. |
 | ?? | **버튼 패널:** Analysis Workspace의 주요 [기능](#features)에 액세스할 수 있는 버튼이 포함되어 있습니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | ?? | **왼쪽 패널**: 이 영역에는 개별 패널, 시각화, 구성 요소 또는 목록이 포함됩니다. 콘텐츠는 버튼 패널에서 선택한 버튼에 따라 달라집니다. |
 | ?? | **캔버스**: 왼쪽 패널에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널을 추가하고, 시각화를 패널에 추가하고, 구성 요소를 시각화에 추가하면 프로젝트가 동적으로 업데이트됩니다. 여러 패널을 만들고, 각 패널 내부에서 여러 시각화를 만들 수 있습니다.<br/>각 패널은 선택한 데이터 보기를 기반으로 합니다. 선택한 데이터 보기는 사용할 수 있는 지표와 차원과 같은 구성 요소를 결정합니다. 자세한 내용은[패널 - 데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 참조하십시오. |

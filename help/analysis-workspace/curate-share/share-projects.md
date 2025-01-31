@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2042'
-ht-degree: 64%
+source-wordcount: '2053'
+ht-degree: 62%
 
 ---
 
@@ -40,13 +40,15 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 공유 전 적용한 모든 [조정](curate.md) 기능은 수신자가 프로젝트를 열 때 반영됩니다.
 
-+++ 프로젝트 공유 사용 방법을 보여 주는 비디오를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 프로젝트 공유](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 조직의 Customer Journey Analytics 사용자 및 그룹과 공유 {#Add}
 
@@ -153,9 +155,13 @@ Customer Journey Analytics 액세스 권한이 없는 사람에게 Analysis Work
 >
 >* Healthcare Shield 및 Privacy &amp; Security Shield 라이선스에서 [!UICONTROL 누구와도 공유] 기능이 모두 차단되었습니다.
 
-다음 비디오 데모 및 관련 문서에서는 모두와 링크를 공유하는 것과 관련된 옵션을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다른 사용자와 공유](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을 수행하십시오.
 
@@ -203,9 +209,16 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
 ## 임베드된 구성 요소 공유
 
-다음은 해당 주제에 대한 비디오입니다.
+프로젝트의 일부인 임베드된 구성 요소를 공유할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 포함된 구성 요소 공유](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## FAQ {#FAQs}
 

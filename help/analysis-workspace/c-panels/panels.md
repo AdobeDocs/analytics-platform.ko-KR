@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 98%
+source-wordcount: '2129'
+ht-degree: 99%
 
 ---
 
@@ -149,20 +149,17 @@ ht-degree: 98%
 
 자세한 내용은 [빠른 필터](/help/components/filters/quick-filters.md)를 참조하십시오.
 
-![공개되어 놓기 영역에 드롭되는 임시 필터](assets/adhoc-segment-filter.png)
+![공개하여 드롭 영역에 놓은 애드혹 필터](assets/adhoc-segment-filter.png)
 
 ### 드롭다운 필터
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 그러나 이 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. 용어의 다음 차이점에 유의하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 필터](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
-| Adobe Analytics | 고객 여정 분석 |
-| --- | --- |
-| 세그먼트 | 필터 |
-| 방문자 | 개인 |
-| 방문 | 세션 |
-| 히트 | 이벤트 |
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 
 #### 정적 드롭다운 필터

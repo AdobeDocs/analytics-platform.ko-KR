@@ -3,9 +3,9 @@ description: 개별 지표에 대한 필터링을 사용하면 동일한 보고�
 title: 필터링된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -87,10 +87,12 @@ ht-degree: 1%
    ![독일인과 해외 총 직원을 보여주는 Workspace 자유 형식 테이블 시각화](assets/workspace-german-vs-international-totals-percentage.png)
 
 
-+++ 다음은 필터링된 계산된 지표를 구현 불가 지표로 사용하는 방법을 설명하는 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [필터링된 계산된 지표를 구현 없는 지표로 사용](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+

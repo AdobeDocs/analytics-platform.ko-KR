@@ -5,7 +5,7 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 6%
@@ -25,7 +25,8 @@ ht-degree: 6%
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** 분석은 제품의 성능 또는 시간의 흐름에 따른 사용자의 행동에 대한 중요한 통찰력을 제공합니다. 이 보고서의 가로 축은 시간 간격이며 세로 축은 원하는 이벤트를 측정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## 사용 사례
 

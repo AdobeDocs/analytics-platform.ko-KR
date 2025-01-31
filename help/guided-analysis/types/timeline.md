@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 >* **관리자**: *이 분석에 PersonID 속성이 필요합니다. 개인 ID를 데이터 보기에 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자와 협력하여 개인 ID를 데이터 보기에 추가하십시오.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
 
 
 

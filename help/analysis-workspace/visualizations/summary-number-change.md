@@ -4,14 +4,26 @@ title: 요약 번호 및 요약 변경 사항
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 47%
+source-wordcount: '510'
+ht-degree: 46%
 
 ---
 
 # 요약 번호 및 요약 변경 사항
+
+>[!BEGINSHADEBOX]
+
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요._
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 번호 및 요약 변경 시각화](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 요약 번호 {#summary-number}
 
@@ -23,14 +35,6 @@ ht-degree: 47%
 >abstract="총계와 소계를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요._
-
->[!ENDSHADEBOX]
-
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 ![요약](/help/assets/icons/123.svg) **[!UICONTROL 요약 번호]** 시각화를 사용하십시오. 이 시각화는 관련 데이터 소스를 사용하여 다음과 같은 방식으로 동작합니다.
 

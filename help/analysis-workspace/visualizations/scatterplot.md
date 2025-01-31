@@ -4,10 +4,10 @@ description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니�
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 67%
+source-wordcount: '177'
+ht-degree: 57%
 
 ---
 
@@ -30,7 +30,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!ENDSHADEBOX]
 
 
-![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
+![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. 시각화에는 세 개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
 
 * 행 구성 요소 (일반적으로 차원)는 그래프의 각 점을 나타냅니다. 서로 다른 행은 서로 다른 색상 점으로 표시됩니다.
 * 가장 왼쪽 열 (일반적으로 지표)은 Y축 (세로)에서 점의 위치를 나타냅니다.
@@ -39,6 +39,14 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
 ![여러 차원 항목 ](assets/scatter.png)을(를) 표시하는 산포도 예
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산점도 시각화](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

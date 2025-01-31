@@ -4,9 +4,9 @@ title: 콤보 차트 시각화
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '603'
 ht-degree: 44%
 
 ---
@@ -30,7 +30,7 @@ _이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 >[!ENDSHADEBOX]
 
 
-![주석](/help/assets/icons/ComboChart.svg) **[!UICONTROL 콤보]** 시각화를 사용하면 먼저 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
+![콤보 차트](/help/assets/icons/ComboChart.svg) **[!UICONTROL 콤보]** 시각화를 사용하면 먼저 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
 
 [!UICONTROL 콤보]를 사용하여 다음을 수행할 수 있습니다.
 

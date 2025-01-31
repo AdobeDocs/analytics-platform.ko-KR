@@ -5,9 +5,9 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
-workflow-type: ht
-source-wordcount: '923'
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -44,12 +44,6 @@ Analysis Workspace의 구성 요소는 Workspace 프로젝트 패널 및 시각�
 
 프로젝트의 구성 요소를 사용하는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 
-
-+++ 구성 요소의 가능성을 보여 주는 비디오 시청:
-
->[!VIDEO](https://video.tv.adobe.com/v/23979)
-
-+++
 
 ## 구성 요소 관리 {#actions}
 

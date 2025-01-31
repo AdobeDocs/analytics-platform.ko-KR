@@ -4,9 +4,9 @@ title: 빠른 필터
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1170'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,13 @@ ht-degree: 2%
 빠른 필터를 사용하면 [필터 빌더](/help/components/filters/create-filters.md)에서 필터를 만들지 않고도 Workspace 프로젝트 내의 데이터를 빠르게 탐색할 수 있습니다.
 
 
-+++ 다음 비디오에서는 빠른 필터를 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
-+++
+>[!ENDSHADEBOX]
+
 
 빠른 필터를 사용하려면 다음 사항에 유의하십시오.
 

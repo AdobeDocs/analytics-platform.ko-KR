@@ -4,7 +4,7 @@ title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8eb146fccbdbe47df8ca28f7b8dcbce2bf6888fd
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 10%
@@ -132,13 +132,13 @@ ht-degree: 10%
 
 ![순환 날짜 범위를 사용하여 필터링](assets/filter-rolling-date-range.gif)
 
-+++ 다음은 필터에서 롤링 기간 사용하기에 대한 비디오입니다
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}을 참조하세요.
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 스택 필터 {#stack}
 

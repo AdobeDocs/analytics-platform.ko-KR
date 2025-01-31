@@ -4,22 +4,21 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 15%
+source-wordcount: '1026'
+ht-degree: 14%
 
 ---
 
 # 행 설정
 
-+++ 이 기능에 대한 비디오 데모를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
-+++
+>[!ENDSHADEBOX]
 
 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 개체 내에서 차원, 필터, 지표, 기간 또는 분류 옆에 있는 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;을(를) 선택하십시오.
 

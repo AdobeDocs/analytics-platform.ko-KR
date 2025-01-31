@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 이 분석에서 차트의 x축은 사용자의 초기 시작 이벤트 이후의 시간을 나타내고, y축은 하나 이상의 반환 이벤트에 참여하는 사용자의 비율을 나타냅니다. 기간 간 유지 및 이탈을 모두 볼 수 있으며, 표시되는 기간은 쿼리 설정을 통해 사용자 지정할 수 있습니다. 차트 아래에 있는 테이블은 동일한 날짜에 시작 이벤트를 수행한 사용자 그룹인 개별 집단을 표시하는 옵션과 함께 집계된 데이터를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## 사용 사례

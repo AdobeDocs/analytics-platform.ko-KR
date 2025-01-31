@@ -5,7 +5,7 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 17%
@@ -126,8 +126,6 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 최소값 표시]** | 시각화에 최소값을 표시합니다. |
 | **[!UICONTROL 최대 표시]** | 시각화에 최대 값을 표시합니다. |
 | **[!UICONTROL 추세선 표시]** | 시각화에 추세선을 표시합니다. 선택하면 드롭다운 메뉴에서 추세선 유형을 선택할 수 있습니다. |
-
-
 
 사용자가 만드는 모든 시각화에 대한 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md)을 참조하십시오.
 

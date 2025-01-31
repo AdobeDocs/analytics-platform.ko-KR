@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '2672'
-ht-degree: 68%
+source-wordcount: '2703'
+ht-degree: 67%
 
 ---
 
@@ -26,7 +26,13 @@ ht-degree: 68%
 
 다음 정보는 Customer Journey Analytics 큐레이터에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 시작을 위한 Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 만들기](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -202,7 +208,14 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 각 세부 슬라이드의 레이아웃을 수정하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. 드롭다운 메뉴를 사용하여 차트 유형을 변경할 수도 있습니다.
 
@@ -240,7 +253,15 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스토리를 만드는 방법에 대해 자세히 알아보려면 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 **데이터 스토리를 만들려면** {#data-story-create}
 

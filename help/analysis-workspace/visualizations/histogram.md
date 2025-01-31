@@ -4,10 +4,10 @@ title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 34%
+source-wordcount: '344'
+ht-degree: 36%
 
 ---
 
@@ -47,7 +47,7 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJo
 
 아래 예에서는 히스토그램을 사용하여 사람 수에 대한 세션을 버킷 지정합니다. 히스토그램에 따르면 대부분의 사용자는 선택한 날짜 범위에 대해 16~21개의 세션을 가지고 있습니다.
 
-![](assets/histogram.png)
+![히스토그램](assets/histogram.png)
 
 ## 고급 설정
 
@@ -74,9 +74,5 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJo
 >[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->
+>[히스토그램을 사용하여 예기치 않은 데이터 값을 식별합니다](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-
-## 블로그 게시물
-
-[예기치 않은 데이터 값을 식별하기 위해 히스토그램을 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)하는 방법에 대한 정보는 이 블로그 게시물을 참조하세요.

@@ -4,7 +4,7 @@ title: 영역 및 스택 영역
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 25%
@@ -51,8 +51,6 @@ _이 문서는_&#x200B;의 영역 및 스택 영역 시각화에 대한 문서�
 >abstract="여러 지표의 스태킹을 나타내는 영역 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
-
-
 
 
 ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** 시각화는 영역과 유사하지만 각 시리즈가 이전 시리즈의 맨 위에서 시작됩니다.

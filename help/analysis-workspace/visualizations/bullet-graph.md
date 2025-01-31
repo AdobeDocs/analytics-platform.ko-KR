@@ -4,10 +4,10 @@ title: 글머리 기호 그래프
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 58%
+source-wordcount: '263'
+ht-degree: 56%
 
 ---
 
@@ -39,9 +39,18 @@ _이 문서에서는 글머리 기호 시각화를_ ![CustomerJourneyAnalytics](
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** 시각화는 지표가 성능 범위(목표)와 비교하거나 측정하는 방법을 보여 줍니다.
 
-![](assets/bullet.png)
+![글머리 기호 그래프 시각화](assets/bullet.png)
 
 글머리 기호 그래프는 단일 기본 측정을 수행하고(예: 올해 초부터 현재까지 매출), 성능의 질적 범위(예: 타겟 매출과 비교하여)를 입력할 수 있도록 해 줍니다. 높은 목표 범위, 중간 목표 범위 및 낮은 목표 범위를 지정할 수 있습니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;에서 목표 범위를 지정할 수 있습니다.
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## 설정
 

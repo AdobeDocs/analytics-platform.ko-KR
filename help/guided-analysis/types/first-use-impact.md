@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 ![첫 번째 사용](/help/assets/icons/FirstUse.svg) **[!UICONTROL 첫 번째 사용 영향]** 분석에서는 사용자가 제품 기능을 처음 사용하기 전과 후에 수행된 주요 지표의 비교 결과를 보여 줍니다. 이 보고서의 가로 축은 이벤트 전후의 상대적인 시간 간격인 반면, 세로 축은 원하는 주요 지표를 측정합니다. 차트 중간에 있는 세로 막대는 주어진 사용자가 기능을 처음 사용할 때의 0일을 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 롤아웃은 며칠 동안 발생할 수 있으므로 0일은 각 개별 사용자마다 다른 의미일 수 있습니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421661/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
 
 
 ## 사용 사례

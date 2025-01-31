@@ -5,18 +5,23 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 75%
+source-wordcount: '1299'
+ht-degree: 73%
 
 ---
 
 # 경영진 빠른 시작 안내서
 
-다음 정보는 경영진 사용자에게 Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 다음은 이 정보를 시연하는 비디오입니다.
+다음 정보는 경영진 사용자에게 Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/343460/)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [경영진이 모바일 스코어카드에 액세스할 수 있도록 지원](https://video.tv.adobe.com/v/343460/){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
 
 이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
