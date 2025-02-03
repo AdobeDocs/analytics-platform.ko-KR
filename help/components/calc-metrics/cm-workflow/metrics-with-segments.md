@@ -3,7 +3,7 @@ description: 개별 지표에 대한 필터링을 사용하면 동일한 보고�
 title: 필터링된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
