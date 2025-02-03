@@ -4,7 +4,7 @@ title: 인텔리전트 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 5d391a73fb30ebc8f443f5a88357c866df03ce96
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 19%
@@ -85,7 +85,7 @@ ht-degree: 19%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intellent 캡션](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지능형 캡션](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
