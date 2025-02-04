@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: d5e8c75f1e3a207b625421a13219674f8da6c3f5
-workflow-type: ht
-source-wordcount: '3020'
-ht-degree: 100%
+source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+workflow-type: tm+mt
+source-wordcount: '3514'
+ht-degree: 94%
 
 ---
 
@@ -169,6 +169,31 @@ Journey Optimizer 데이터를 Adobe Experience Platform으로 가져온 다음�
 | 랜딩 페이지 ID (AJO) | 랜딩 페이지의 고유 식별자입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | 구성 요소 유형: 차원 |
 | 랜딩 페이지 소스 (AJO) | 랜딩 페이지의 소스입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | 파생 필드 | 구성 요소 유형: 차원 (파생 필드) |
 | 링크 URL (AJO) | 사용자가 클릭한 URL입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | 구성 요소 유형: 차원 |
+| 메시지 제외 이유 (AJO) | 제외 이유 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageExclusion.reason` | 구성 요소 유형: 차원 |
+| 메시지 실패 범주(AJO) | 실패 범주 | AJO 메시지 피드백 이벤트 데이터 세트 | ` _experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.category` | 구성 요소 유형: 차원 |
+| 메시지 실패 사유 (AJO) | 실패 이유 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.reason` | 구성 요소 유형: 차원 |
+| 메시지 실패 유형(AJO) | 실패 유형 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.type` | 구성 요소 유형: 차원 |
+| 메시지 실패 상태(AJO) | 실패 상태 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.status` | 구성 요소 유형: 차원 |
+| 메시지 ID(AJO) | 이 데이터를 연관시켜야 하는 메시지 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.messageID` | 구성 요소 유형: 차원 |
+| 메시지 다시 시도(AJO) | 재시도 횟수 | AJO 메시지 피드백 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.retryCount` | 구성 요소 유형: 차원 |
+| 노드 ID(AJO) | 여정 노드의 노드 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | 구성 요소 유형: 차원 |
+| 노드 이름(AJO) | 여정 노드의 노드 이름입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeName` | 구성 요소 유형: 차원 |
+| 노드 유형(AJO) | 여정 노드의 노드 유형입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | 구성 요소 유형: 차원 |
+| OS(AJO) | 운영 체제의 이름입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트 | `environment.operatingSystem` | 구성 요소 유형: 차원 |
+| OS 버전(AJO) | 운영 체제의 버전입니다. | AJO 푸시 추적 경험 이벤트 데이터 세트 | environment.operatingSystemVersion | 구성 요소 유형: 차원 |
+| 푸시 플랫폼(AJO) | 푸시 공급자 서비스(예: apns 또는 fcm). | AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`pushChannelContext.platform` | 구성 요소 유형: 차원 |
+| 푸시 제목 (AJO) | 푸시 제목, 개인화되지 않음. | AJO 엔티티 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.push.title | Component type: Dimension` |
+| 거부된 동의 정책(AJO) | 해당 거부된 동의 정책의 이름입니다. | 여정 단계 이벤트 | `_experience.journeyOrchestration.`<br/>`stepEvents.consent.rejectedPolicies.name` | 구성 요소 유형: 차원 |
+| SMS 인바운드 메시지(AJO) | SMS 인바운드 응답(예: 정지, 시작, 구독 등)입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 구성 요소 유형: 차원 |
+| SMS 메시지 유형(AJO) | SMS 공급자(예: 인바운드, 인바운드 답장 또는 전송)입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | ` _experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 구성 요소 유형: 차원 |
+| SMS 공급자(AJO) | SMS 공급자입니다(예: sinch 또는 twilio). | AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 구성 요소 유형: 차원 |
+| 선택 유형 (AJO) | 메시지가 표시된 채널 표면입니다. | 여정 단계 이벤트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.propositions.`<br/>`items.itemSelection.`<br/>`selectionDetail.selectionType` | 구성 요소 유형: 차원 |
+| 구독 목록 ID (AJO) | 구독 목록의 고유 식별자입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.subscription.`<br/>` subscriptionListID` | 구성 요소 유형: 차원 |
+| 표면 (AJO) |  | 여정 단계 이벤트, AJO 이메일 추적 경험 이벤트 데이터 세트, AJO 메시지 피드백 이벤트 데이터 세트, AJO 푸시 추적 경험 이벤트 데이터 세트 | `_experience.decisioning.`<br/>`propositions.scope` | 구성 요소 유형: 차원 |
+| 처리 ID(AJO) | 실험을 위해 선택된 처리의 ID입니다. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentID` | 구성 요소 유형: 차원 |
+| 처리 이름(AJO) | 실험에 대해 선택한 처리의 이름. | AJO 엔티티 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentName` | 구성 요소 유형: 차원 |
+| URL ID(AJO) | 사용자가 클릭한 URL의 고유 식별자입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | 구성 요소 유형: 차원 |
+| URL 레이블(AJO) | URL에 대한 친숙한 레이블입니다. | AJO 이메일 추적 경험 이벤트 데이터 세트 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.label` | 구성 요소 유형: 차원 |
 
 {style="table-layout:auto"}
 
