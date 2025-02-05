@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 99%
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Customer Journey Analytics는 차세대 분석 제품입니다. 이 문서
 
 ## 1. 사전 요구 사항 {#prerequisites}
 
-+++**[!UICONTROL Customer Journey Analytics]에 [!UICONTROL Private Device Graph] 또는 [!UICONTROL Device Coop]이 필요합니까?**
++++**[!UICONTROL Customer Journey Analytics]에 [!UICONTROL Private Device Graph] 또는 [!UICONTROL Device Coop]가 필요합니까?**
 
 아니요. [!UICONTROL Customer Journey Analytics]에는 [!UICONTROL Private Device Graph] 또는 [!UICONTROL Device Coop]가 필요하지 않습니다. 실제로 아직 지원되지 않습니다.
 
@@ -132,7 +132,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 >[!NOTE]
 >Customer Journey Analytics에는 고정된 데이터 크기가 없으므로 Adobe는 표준 수집 시간을 약속할 수 없습니다. Adobe는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
-<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상.)</li><li>소규모 채우기: 7일 이내<li>대규모 채우기: 30일 이내</li></ul>
+<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상) **참고:** 연결이 활성화된 경우 수집에는 최대 3.25시간이 걸릴 수 있습니다. 자세한 내용은 [보호](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails)를 참조하십시오.</li><li>소규모 채우기: 7일 이내<li>대규모 채우기: 30일 이내</li></ul>
 
 최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
@@ -155,7 +155,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 | [!UICONTROL Adobe Experience Platform] 데이터 레이크에서 데이터 세트 삭제 | Adobe Experience Platform 데이터 레이크에서 데이터 세트를 삭제하면 해당 데이터 세트에서 해당 데이터 세트를 포함하는 Customer Journey Analytics 연결로의 데이터 흐름이 중지됩니다. 해당 데이터 세트의 데이터는 연관된 Customer Journey Analytics 연결에서 자동으로 삭제됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 세트 삭제 | 저장된 연결 내에서 데이터 세트를 삭제하는 프로세스를 진행하려면 Adobe 계정 팀에 문의하십시오. |
 | [!UICONTROL Adobe Experience Platform]의 데이터 세트에서 배치를 삭제 | [!UICONTROL Adobe Experience Platform] 데이터 세트에서 일괄 처리가 삭제되면 해당 특정 일괄 처리가 들어 있는 Customer Journey Analytics 연결에서 동일한 일괄 처리가 제거됩니다. Customer Journey Analytics는 [!UICONTROL Adobe Experience Platform]에서 일괄 삭제 알림을 수신합니다. |
-| 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우, 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 수집이 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우, 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
+| 배치를 **Customer Journey Analytics**&#x200B;에 [!UICONTROL 수집하는 동안] 배치를 삭제 | 데이터 세트에 일괄 처리가 한 개만 있는 경우 해당 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에서 전혀 표시되지 않거나 일부 표시됩니다. 수집이 롤백됩니다. 데이터 세트에 5개의 일괄 처리가 있고 그 중 3개가 이미 데이터 세트를 삭제할 때 수집된 경우 해당 3개 일괄 처리의 데이터가 [!UICONTROL Customer Journey Analytics]에 표시됩니다. |
 | [!UICONTROL Customer Journey Analytics]에서 연결을 삭제 | 오류 메시지에 다음 내용이 표시됩니다.<ul><li>삭제된 연결에 대해 만들어진 모든 데이터 보기가 더 이상 작동하지 않습니다.</li><li> 마찬가지로, 삭제된 연결의 데이터 보기에 의존하는 모든 Workspace 프로젝트의 작동이 중지됩니다.</li></ul> |
 | [!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제 | 이 삭제된 데이터 보기에 의존하는 모든 Workspace 프로젝트의 작동이 중지된다는 오류 메시지가 표시됩니다. |
 
@@ -176,7 +176,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 +++**[!DNL Customer Journey Analytics]에서 Experience Platform Real-Time CDP 또는 기타 Experience Cloud 애플리케이션으로 [!UICONTROL 대상자]를 공유/게시할 수 있습니까?**
 
-고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics에서 식별된 [대상자를 Adobe Experience Platform의 실시간 고객 프로필을 만들어 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)할 수 있습니다.
+고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 식별된 [대상자를 Adobe Experience Platform의 실시간 고객 프로필을 만들어 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)할 수 있습니다.
 
 +++
 
@@ -218,7 +218,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 사용 제한은 Adobe에서 정기적으로 모니터링하고 시행합니다. “데이터 행”은 Customer Journey Analytics 내에서 분석에 사용할 수 있는 데이터의 일일 평균 행을 의미합니다.
 
-예를 들어 계약에 따라 1백만 행의 데이터에 대한 권한이 부여됩니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
+예를 들어 계약에 따라 1백만 행의 데이터에 대한 권한이 있습니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
 
 ## 11. 데이터 불일치 진단 {#discrepancies}
 
@@ -226,9 +226,9 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 1. 이 차원을 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;로 분류하면 크기가 같지만 다른 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;를 사용하는 데이터 세트가 2개 있음을 알 수 있습니다. 각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 개인 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]에서 5개의 레코드를 무시했습니다.
 
-   ![분류](assets/data-size2.png)
+   ![breakdown](assets/data-size2.png)
 
-1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우, 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 “5f21c12b732044194bffc1d0”인 데이터 세트가 없습니다. 나중에, Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
+1. 또한 [!UICONTROL Adobe Experience Platform]에서 체크인하는 경우 첫 연결이 만들어졌을 때 누군가 이 특정 데이터 세트를 [!UICONTROL Adobe Experience Platform]에서 삭제했으므로 ID가 “5f21c12b732044194bffc1d0”인 데이터 세트가 없습니다. 나중에, Customer Journey Analytics에 다시 추가되었지만 다른 [!UICONTROL 플랫폼 데이터 세트 ID]가 [!UICONTROL Adobe Experience Platform]에 의해 생성되었습니다.
 
 [!UICONTROL Customer Journey Analytics] 및 [!UICONTROL Adobe Experience Platform]의 [데이터 세트 및 연결 삭제에 대한 의미](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=ko-KR#implications-of-deleting-data-components)에 관하여 자세히 읽어보십시오.
 
@@ -237,7 +237,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 Adobe 이외의 솔루션 간의 상호 작용이 방문자에게 가까운 위치에서 발생할 수 있습니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
 
-![Edge Network를 사용한 데이터 흐름](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+![Data flow using Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
@@ -255,7 +255,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 
 | RDC 유형 | 데이터 수집 센터 |
 | --- | --- |
-| 글로벌 (기본값) | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
+| 글로벌(기본값) | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 아메리카만 | 오리건, 버지니아 |
 | 유럽만 | 아일랜드, 파리 |
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
