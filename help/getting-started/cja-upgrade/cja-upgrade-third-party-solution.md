@@ -1,26 +1,27 @@
 ---
-title: 서드파티 분석 솔루션에서 Customer Journey Analytics으로 업그레이드
+title: 서드파티 분석 솔루션에서 Customer Journey Analytics로 업그레이드
 description: 타사 분석 솔루션에서 Customer Journey Analytics으로 업그레이드하는 방법에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
+source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# 서드파티 분석 솔루션에서 Customer Journey Analytics으로 업그레이드 {#upgrade-from-third-party}
+# 서드파티 분석 솔루션에서 Customer Journey Analytics로 업그레이드 {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="서드파티 분석 제품"
->abstract="Google Analytics과 같은 서드파티 분석 제품에 대한 데이터를 수집하는 구현입니다. 이 옵션을 선택하면 서드파티 분석 제품에서 Customer Journey Analytics으로 업그레이드할 때 적용되지 않는 몇 가지 설문 조사 옵션이 비활성화됩니다."
+>abstract="Google Analytics와 같은 서드파티 분석 제품에 대한 데이터를 수집하는 구현 방식입니다. 이 옵션을 선택하면 서드파티 분석 제품에서 Customer Journey Analytics로 업그레이드할 때 적용되지 않는 설문 조사의 여러 항목이 비활성화됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

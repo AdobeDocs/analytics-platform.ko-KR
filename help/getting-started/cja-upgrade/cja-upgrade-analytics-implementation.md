@@ -1,5 +1,5 @@
 ---
-title: Adobe Analytics 구현 및 Customer Journey Analytics 업그레이드에 미치는 영향 이해
+title: Adobe Analytics 구현 방식과 Customer Journey Analytics 업그레이드에 미치는 영향을 이해하기
 description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 8%
+ht-degree: 27%
 
 ---
 
-# Adobe Analytics 구현 및 Customer Journey Analytics 업그레이드에 미치는 영향 이해 {#implementation-affects-upgrade}
+# Adobe Analytics 구현 방식과 Customer Journey Analytics 업그레이드에 미치는 영향을 이해하기 {#implementation-affects-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement"
->title="AppMeasurement(수동 JS 파일)"
->abstract="페이지에 AppMeasurement.js를 로드하고 s 개체(예: s.eVar1)를 사용하여 Adobe에 데이터를 전송하는 JavaScript 구현입니다."
+>title="AppMeasurement (수동 JS 파일)"
+>abstract="JavaScript 구현 방식으로, 페이지에서 AppMeasurement.js를 로드하고, s 오브젝트(예: s.eVar1)를 사용하여 Adobe로 데이터를 전송합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-analyticsextension"
->title="Adobe Analytics 확장(태그)"
->abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현입니다. 태그에 Adobe Analytics 확장이 설치되어 있습니다."
+>title="Adobe Analytics 확장 기능 (태그)"
+>abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현 방식입니다. 이 태그에는 Adobe Analytics 확장 기능이 설치되어 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk"
->title="웹 SDK(alloy.js)"
->abstract="페이지에 웹 SDK 라이브러리(alloy.js)를 로드하고 JSON 페이로드를 사용하여 Adobe에 데이터를 전송하는 JavaScript 구현입니다."
+>title="Web SDK (alloy.js)"
+>abstract="JavaScript 구현 방식으로, 페이지에서 Web SDK 라이브러리(alloy.js)를 로드하고 JSON 페이로드를 사용하여 Adobe로 데이터를 전송합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,8 +47,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdkextension"
->title="웹 SDK 확장 프로그램(태그)"
->abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현입니다. 태그에 웹 SDK 확장이 설치되어 있습니다."
+>title="Web SDK 확장 기능 (태그)"
+>abstract="Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현 방식입니다. 이 태그에는 Web SDK 확장 기능이 설치되어 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-api"
 >title="데이터 삽입 API"
->abstract="데이터 삽입 API 또는 대량 데이터 삽입 API를 사용하는 구현입니다."
+>abstract="데이터 삽입 API 또는 대량 데이터 삽입 API를 사용하는 구현 방식입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-mobilesdk"
 >title="Mobile SDK"
->abstract="Adobe Experience Platform Mobile SDK을 사용하는 구현입니다."
+>abstract="Adobe Experience Platform Mobile SDK를 사용하는 구현 방식입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,8 +74,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-unknown"
->title="알 수 없는 구현"
->abstract="구현을 관리하는 사람이 아닌 경우 이 옵션을 일시적으로 선택할 수 있습니다."
+>title="알 수 없는 구현 방식"
+>abstract="구현을 관리하는 담당자가 아니라면 일시적으로 이 옵션을 선택할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

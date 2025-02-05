@@ -1,26 +1,27 @@
 ---
-title: Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics 기능 지원 이해
+title: Adobe Analytics 기능 지원을 이해하고 Customer Journey Analytics로 업그레이드하기
 description: Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics 기능 지원에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1460cbd05cce793b25d026c413744508ab951147
+exl-id: 92053109-f80d-47ab-b011-c28a5411149c
+source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 29%
+ht-degree: 59%
 
 ---
 
-# Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics 기능 지원 이해 {#feature-support-upgrade}
+# Adobe Analytics 기능 지원을 이해하고 Customer Journey Analytics로 업그레이드하기 {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-migrate-projects"
 >title="구성 요소 및 프로젝트"
->abstract="Adobe Analytics의 구성 요소에는 프로젝트(관련 자유 형식 테이블 및 시각화), 세그먼트 및 계산된 지표가 포함됩니다."
+>abstract="Adobe Analytics의 구성 요소에는 프로젝트(연관된 자유 형식 테이블 및 시각화 포함), 세그먼트, 계산된 지표가 포함됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map"
->title="Activity Map 오버레이 및 링크 추적"
->abstract="링크 추적 데이터를 사이트에 오버레이로 표시할 수 있는 브라우저 확장입니다."
+>title="활동 맵 오버레이 및 링크 추적"
+>abstract="사이트에서 링크 추적 데이터를 오버레이 형태로 확인할 수 있도록 하는 브라우저 확장 기능입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +39,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-classification"
 >title="분류 데이터"
->abstract="데이터를 별도의 차원으로 그룹화하거나 범주화합니다."
+>abstract="데이터를 별도의 차원으로 그룹화하거나 분류합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +48,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channels"
 >title="마케팅 채널"
->abstract="고객이 사이트에 도착하는 방법을 분류하는 규칙을 만듭니다."
+>abstract="고객이 사이트에 유입되는 방식을 분류하는 규칙을 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,7 +57,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds"
 >title="데이터 피드"
->abstract="외부 도구 및 프로세스에서 사용하기 위해 Adobe Analytics에서 원시 데이터를 내보냅니다."
+>abstract="외부 도구 및 프로세스에서 사용할 수 있도록 Adobe Analytics의 원시 데이터를 내보냅니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +66,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-warehouse"
 >title="Data Warehouse"
->abstract="처리된 데이터를 Adobe Analytics에서 스프레드시트 형식으로 내보냅니다."
+>abstract="Adobe Analytics에서 처리된 데이터를 스프레드시트 형식으로 내보냅니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,7 +75,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="스트리밍 미디어 데이터"
->abstract="오디오, 비디오 또는 스트리밍되는 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 하는 Adobe Analytics의 추가 기능입니다."
+>abstract="오디오, 비디오 또는 스트리밍 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 수행하는 Adobe Analytics의 추가 기능입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,4 +96,3 @@ Customer Journey Analytics으로 업그레이드할 때 다음 Adobe Analytics �
 | [데이터 피드](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | [스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
-

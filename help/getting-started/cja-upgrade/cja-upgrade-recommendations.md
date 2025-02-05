@@ -10,7 +10,7 @@ exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
 source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
 workflow-type: tm+mt
 source-wordcount: '1587'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -28,14 +28,14 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 >
 >이 섹션에 설명된 업그레이드 단계가 조직에 실용적이지 않은 경우 [Adobe Analytics을 사용하여 업그레이드 Customer Journey Analytics](https://gigazelle.github.io/cja-ttv/)을 통해 조직의 고유한 환경에 맞는 업그레이드 단계를 동적으로 생성하십시오.
 
-### 높은 수준의 권장 업그레이드 프로세스 {#high-level-upgade-process}
+### 높은 수준 권장 업그레이드 프로세스 {#high-level-upgade-process}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-historical-data"
->title="Adobe Analytics의 내역 데이터"
->abstract="이전 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform 및 Customer Journey Analytics으로 가져옵니다."
+>title="Adobe Analytics의 이전 데이터"
+>abstract="Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform 및 Customer Journey Analytics로 가져옵니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
    Analytics 소스 커넥터를 사용하면 다음 작업을 수행할 수 있습니다.
 
-   * 이전 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform 및 Customer Journey Analytics으로 가져옵니다.
+   * Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform 및 Customer Journey Analytics로 가져옵니다.
 
      내역 Adobe Analytics 데이터를 유지해야 하는 동안 Analytics 소스 커넥터를 계속 실행할 수 있습니다.
 
