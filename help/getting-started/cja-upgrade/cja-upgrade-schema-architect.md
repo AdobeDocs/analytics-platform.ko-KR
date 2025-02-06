@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 59089146b8e56db3b0b4084615f99dc65899b74f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics에 사용할 스키마 설계
+# Customer Journey Analytics에 사용할 스키마 설계 {#upgrade-schema-architect}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-architect"
+>title="스키마 설계"
+>abstract="조직 내에서 데이터 수집의 요구 사항에 대해 논의하고 Adobe Experience Platform에서 사용할 스키마를 구축하는 방법을 결정하십시오. 이 단계는 조직에 맞춤화된 스키마를 사용하는 권장 프로세스를 사용하려 하기 때문에 나타납니다. 조직 내의 모든 팀이 정렬하는 스키마로 데이터 수집이 훨씬 쉬워지므로 이 단계를 올바르게 수행하는 것은 중요합니다.<br><br>통합 스키마를 맞추기 위해 조직의 모든 관련 당사자를 모을 수 있는 예상 시간은 1~2개월입니다. 이 시간대는 조정하는 데 필요한 팀의 수와 정렬할 차원 + 지표의 수에 따라 크게 달라집니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -22,7 +31,11 @@ ht-degree: 0%
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
-Adobe은 Customer Journey Analytics으로 업그레이드할 때 XDM(Experience Data Model) 스키마를 생성할 것을 권장합니다. XDM 스키마를 사용하면 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 사용할 수 있습니다. 스키마를 변경해야 하는 경우, 업데이트가 필요한 필드를 찾기 위해 사용하지 않는 수천 개의 필드를 검색하지 않아도 됩니다.
+Adobe은 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 웹 SDK과 함께 사용할 사용자 지정 XDM(경험 데이터 모델) 스키마를 생성할 것을 권장합니다. 또는 Adobe Analytics ExperienceEvent 필드 그룹을 사용하는 기본 Adobe Analytics 스키마를 사용할 수 있습니다.
+
+사용자 지정 XDM 스키마를 사용하면 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 사용할 수 있습니다. Adobe Analytics ExperienceEvent 필드 그룹을 사용하는 기본 Adobe Analytics 스키마와 달리, 사용자 지정 XDM 스키마에 대한 변경이 필요한 경우 업데이트가 필요한 필드를 찾기 위해 수천 개의 사용되지 않은 필드를 이동할 필요가 없습니다.
+
+이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
 
 XDM 스키마 아키텍처를 시작할 때 다음 섹션을 검토하십시오.
 

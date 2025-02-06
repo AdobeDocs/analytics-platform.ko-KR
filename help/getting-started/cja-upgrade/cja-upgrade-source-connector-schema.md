@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '627'
 ht-degree: 3%
 
 ---
 
-# Analytics 소스 커넥터에 대한 사용자 지정 스키마 만들기
+# Analytics 소스 커넥터에 대한 사용자 지정 스키마 만들기 {#create-custom-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create-schema"
+>title="Analytics 소스 커넥터에 대한 스키마 만들기"
+>abstract="이 스키마는 조직의 사용자 지정 스키마를 구성하는 모든 필드 그룹과 Adobe Analytics ExperienceEvent 필드 그룹의 조합입니다. 이를 통해 Analytics 소스 커넥터에서 사용하는 필드를 조직의 스키마에 매핑할 수 있으며 내역 데이터에만 사용됩니다.<br><br>기술적인 측면에서 볼 때, 조직의 사용자 지정 스키마를 구성하는 필드 그룹을 정확히 알고 있다면 몇 시간 내에 이 스키마를 만드는 작업이 완료되어 더 빨라질 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -54,7 +63,7 @@ Analytics 소스 커넥터에 대한 이 스키마에는 다음이 포함되어�
 
 Analytics 소스 커넥터에 사용할 사용자 지정 스키마를 만들려면 다음을 수행하십시오.
 
-1. [Customer Journey Analytics Web SDK 구현에 사용할 사용자 지정 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 설명된 대로 Adobe Experience Platform에서 새 사용자 지정 스키마를 만들기 시작합니다.
+1. [Customer Journey Analytics 웹 SDK 구현에 사용할 사용자 지정 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 설명된 대로 Adobe Experience Platform에서 새 사용자 지정 스키마를 만들기 시작합니다.
 
 1. 웹 SDK 구현을 위해 만든 스키마에 포함된 모든 필드 그룹(사용자 정의 필드 그룹 포함)을 추가합니다.
 

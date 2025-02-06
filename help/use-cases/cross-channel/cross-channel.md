@@ -5,14 +5,23 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 61%
+source-wordcount: '582'
+ht-degree: 51%
 
 ---
 
-# 크로스 채널 분석
+# 크로스 채널 분석 {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-additional-datasets"
+>title="연결에 데이터 세트 추가"
+>abstract="Adobe Experience Platform의 데이터 세트에 데이터를 추가한 후에는 Customer Journey Analytics에서 해당 데이터 세트를 연결에 추가할 수 있습니다. 다른 채널의 데이터를 추가할 때 조직에서 사용하는 스키마를 준수하는지 확인하십시오.<br><br>추가하는 각 데이터 집합에는 특히 모든 이벤트에 대한 고유 식별자가 존재하는지 확인하고 중요한 데이터 구조가 조직의 사용자 지정 스키마를 따르는지 확인하는 데 많은 작업이 필요합니다. 이 워크플로우를 설정하면 몇 개월에 걸쳐 조직 내의 많은 팀에 걸쳐 조정할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 크로스 채널 분석을 사용하면 다양한 웹, 모바일 및 오프라인 속성에서 데이터를 통합하여 다양한 채널 전반에서 고객 행동을 통합적으로 볼 수 있습니다. 예를 들어 이 통합된 뷰를 사용하여 데스크탑 및 모바일에서 고객 상호 작용을 분석하고, 고객 행동을 이해하고 통찰력을 추출하여 디지털 고객 경험을 최적화할 수 있습니다. 또한 지원 상호 작용 및 매장 구매 등 디지털 및 오프라인 채널을 포함하여 다양한 채널에서 고객 상호 작용을 분석하여 고객 여정을 효율적으로 이해하고 최적화할 수 있습니다.
 

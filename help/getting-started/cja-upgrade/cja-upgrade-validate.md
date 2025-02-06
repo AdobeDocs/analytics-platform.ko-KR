@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# 데이터가 Customer Journey Analytics으로 이동하고 있는지 확인
+# 데이터가 Customer Journey Analytics으로 이동하고 있는지 확인 {#validate-data}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-data-validate"
+>title="데이터가 흐르고 있는지 확인"
+>abstract="연결 세부 정보를 사용하여 데이터가 Customer Journey Analytics으로 유입되는지 확인하십시오.<br><br>모든 작업이 제대로 완벽하게 수행된 경우 이 단계를 하루 안에 완료할 수 있습니다. 데이터 수집 문제가 여러 개 있는 경우 문제 해결이 상당히 오래 걸릴 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

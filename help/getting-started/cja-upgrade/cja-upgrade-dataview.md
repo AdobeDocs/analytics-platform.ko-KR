@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 23%
+source-wordcount: '475'
+ht-degree: 20%
 
 ---
 
-# Customer Journey Analytics에서 데이터 보기 만들기
+# Customer Journey Analytics에서 데이터 보기 만들기 {#upgrade-create-dataview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataview"
+>title="Customer Journey Analytics에서 데이터 보기 만들기"
+>abstract="데이터 보기는 연결에서 데이터를 해석하는 방법을 결정할 수 있도록 해주는 Customer Journey Analytics과 관련된 컨테이너입니다.<br><br>데이터 보기를 처음 만드는 데 몇 분이 걸리지만 원하는 구성 요소 설정으로 각 차원과 지표를 구성하는 데 며칠이 걸릴 수 있습니다. 이러한 설정 변경은 소급하여 적용되므로 조직에서 시간이 지남에 따라 설정을 세분화할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -56,4 +66,3 @@ ht-degree: 23%
 1. 원하는 설정이 모두 지정되면 **[!UICONTROL 저장 및 완료]**&#x200B;를 선택합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-

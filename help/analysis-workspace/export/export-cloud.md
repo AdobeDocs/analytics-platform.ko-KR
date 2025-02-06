@@ -5,14 +5,23 @@ title: 클라우드로 Customer Journey Analytics 보고서 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2281'
 ht-degree: 3%
 
 ---
 
-# 클라우드로 Customer Journey Analytics 보고서 내보내기
+# 클라우드로 Customer Journey Analytics 보고서 내보내기 {#full-table-export}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-full-table-export"
+>title="Data Warehouse과 유사한 전체 테이블 내보내기 만들기"
+>abstract="전체 테이블 내보내기는 Analysis Workspace에 데이터가 표시되는 즉시 사용할 수 있습니다. 필요에 따라 전체 테이블 내보내기를 생성하거나 예약할 수 있습니다.<br><br>내보내기에 포함할 데이터를 이미 알고 있는 경우 전체 테이블 내보내기를 만드는 데 몇 분밖에 걸리지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 Customer Journey Analytics에서 Workspace 전체 테이블을 내보내고 내보내기를 지정된 클라우드 대상으로 보낼 수 있습니다.
 

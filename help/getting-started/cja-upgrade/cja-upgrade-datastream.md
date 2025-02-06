@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 23%
+source-wordcount: '300'
+ht-degree: 20%
 
 ---
 
-# Customer Journey Analytics에 사용할 데이터 스트림 만들기
+# Customer Journey Analytics에 사용할 데이터 스트림 만들기 {#upgrade-create-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-datastream-create"
+>title="Adobe Experience Platform에서 데이터 스트림 만들기"
+>abstract="데이터 스트림은 구성된 모든 서비스에 데이터를 전달하는 중간 위치입니다. Adobe Experience Platform에서 이 위치를 만듭니다.<br><br>Platform 인터페이스에서 데이터 스트림을 처음 만드는 데 몇 분 밖에 걸리지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

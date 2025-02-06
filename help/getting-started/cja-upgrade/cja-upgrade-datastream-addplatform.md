@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 31%
+source-wordcount: '353'
+ht-degree: 26%
 
 ---
 
-# 데이터스트림에 서비스로 플랫폼 추가
+# 데이터스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-addplatform-datastream"
+>title="데이터스트림에 서비스로 Adobe Experience Platform 추가"
+>abstract="데이터 스트림에는 데이터를 보낼 하나 이상의 서비스가 필요합니다. 데이터 스트림에서 Adobe Experience Platform as a service를 설정합니다.<br><br>데이터 스트림에 서비스를 추가하는 간단한 프로세스입니다. 완료하는 데 몇 분밖에 걸리지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

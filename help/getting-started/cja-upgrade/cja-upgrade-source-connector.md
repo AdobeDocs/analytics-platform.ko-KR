@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 6%
 
 ---
 
-# Analytics 소스 커넥터 및 맵 필드 만들기
+# Analytics 소스 커넥터 및 맵 필드 만들기 {#create-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create"
+>title="Analytics 소스 커넥터 만들기"
+>abstract="Analytics 소스 커넥터를 사용하여 Customer Journey Analytics에 사용할 보고서 세트 데이터를 수집합니다.<br><br>기본 설정으로 Analytics 원본 커넥터를 만드는 데 몇 분 정도 소요됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-map-fields"
+>title="Analytics 소스 커넥터 만들기 및 스키마 필드 매핑"
+>abstract="소스 커넥터는 Adobe Analytics 필드를 조직의 스키마에 매핑하는 방법을 알고 있어야 합니다. 이 인터페이스를 사용하여 소스 커넥터에 해당 매핑을 제공합니다. 이 단계는 Customer Journey Analytics에 내역 데이터를 추가하는 과정의 일부입니다.<br><br>이 단계에 소요되는 시간은 매핑해야 하는 차원과 지표의 수에 따라 다릅니다. 이 단계는 지루하고 반복적인 것만큼 어렵지 않다. 데이터 스트림 매핑을 완료하는 데 약 1주일 정도 걸릴 것으로 예상합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

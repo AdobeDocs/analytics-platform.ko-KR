@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 156df830-541d-4c92-9c49-98f346e040a7
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 24%
+source-wordcount: '371'
+ht-degree: 20%
 
 ---
 
-# 속성용 태그 만들기
+# 속성용 태그 만들기 {#upgrade-tag-property}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-property"
+>title="Adobe Experience Platform 데이터 수집에서 태그 속성 만들기"
+>abstract="태그 사용은 데이터 수집에 대한 일반적인 표준입니다. 언제든지 데이터 수집 변수를 업데이트할 수 있도록 Adobe Experience Platform 인터페이스에서 태그를 만듭니다.<br><br>몇 번의 클릭으로 태그 속성을 만들 수 있습니다. 단 몇 분 정도 걸립니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

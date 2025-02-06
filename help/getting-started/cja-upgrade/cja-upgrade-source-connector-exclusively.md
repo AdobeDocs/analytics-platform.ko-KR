@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 701e3d3ce535318e3d3debcdcd591615ea9ca4a1
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
-# Analytics 소스 커넥터만 사용하여 Customer Journey Analytics으로 업그레이드
+# Analytics 소스 커넥터만 사용하여 Customer Journey Analytics으로 업그레이드 {#use-source-connector-exclusively}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-exclusively"
+>title="Analytics 소스 커넥터만 사용합니다."
+>abstract="(권장되지 않음) 다른 Adobe Experience Platform 서비스와 통합하거나 Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 이동할 수 없습니다. 다른 소스의 데이터를 연결하려면 결합을 해야 할 수 있습니다. 설문지에서 이러한 모든 요구 사항을 충족하여 이 옵션을 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

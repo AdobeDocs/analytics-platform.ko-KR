@@ -6,10 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
+source-git-commit: 8d14bb23283107402332106df36e8f7898ea5d30
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 59%
 
 ---
@@ -83,7 +82,7 @@ ht-degree: 59%
 > 
 >[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
 
-다음 목록은 [Customer Journey Analytics 업그레이드 검사 목록](https://gigazelle.github.io/cja-ttv/)에 포함된 기능만 표시합니다. Customer Journey Analytics에서 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능을 보여 주는 포괄적인 목록을 보려면 [기능 지원 Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
+다음 목록은 Customer Journey Analytics을 위한 업그레이드 프로세스 중에 고려해야 하는 Adobe Analytics 기능만 표시합니다. Customer Journey Analytics에서 완전히 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능을 보여 주는 포괄적인 목록을 보려면 [기능 지원 Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
 Customer Journey Analytics으로 업그레이드할 때 다음 Adobe Analytics 기능 중 계속 사용할 기능을 고려하십시오.
 
@@ -96,3 +95,4 @@ Customer Journey Analytics으로 업그레이드할 때 다음 Adobe Analytics �
 | [데이터 피드](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | [스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
+

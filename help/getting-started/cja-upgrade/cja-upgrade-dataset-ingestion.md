@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
-source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics으로 업그레이드 시 데이터 세트 수집 모니터링
+# Customer Journey Analytics으로 업그레이드 시 데이터 세트 수집 모니터링 {#monitor-ingestion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataset-validate"
+>title="데이터 세트의 데이터 유효성 검사"
+>abstract="웹 SDK 구현을 구성했으므로 이제 데이터 세트 활동 관리자를 사용하여 수집된 일괄 처리와 실패한 일괄 처리를 볼 수 있습니다. 주로 수집된 일괄 처리가 표시되면 이 단계가 완료된 것입니다. 주로 실패한 일괄 처리가 표시되거나 일괄 처리가 표시되지 않으면 웹 SDK 구현에서 데이터를 Adobe에 올바르게 보내고 있는지 확인하십시오.<br><br>모든 작업이 제대로 완벽하게 수행된 경우 이 단계를 하루 안에 완료할 수 있습니다. 데이터 수집 문제가 여러 개 있는 경우 문제 해결이 상당히 오래 걸릴 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

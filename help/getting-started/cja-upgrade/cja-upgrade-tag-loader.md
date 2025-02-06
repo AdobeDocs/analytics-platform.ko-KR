@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 36%
+source-wordcount: '362'
+ht-degree: 28%
 
 ---
 
-# Web SDK 확장 기능용 로더 태그 구현
+# Web SDK 확장 기능용 로더 태그 구현 {#upgrade-tag-loader}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-loader"
+>title="사이트에서 로더 태그 구현"
+>abstract="웹 사이트 개발 팀과 함께 사이트의 모든 페이지에 로더 태그를 설치합니다.<br><br>이 작업의 완료 시간은 코드를 배포하기 위해 함께 작업하는 엔지니어링 팀의 응답 시간에 따라 크게 달라집니다. 적응형 엔지니어링팀이 많은 일부 조직은 며칠 내에 이 단계를 완료할 수 있지만, 작업 잔량이 많은 엔지니어링팀은 한 달 이상 걸릴 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

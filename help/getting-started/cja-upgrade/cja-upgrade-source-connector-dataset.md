@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 27%
+source-wordcount: '960'
+ht-degree: 25%
 
 ---
 
-# 연결에 Analytics 소스 커넥터 데이터 세트 추가
+# 연결에 Analytics 소스 커넥터 데이터 세트 추가 {#upgrade-source-connector-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-dataset"
+>title="연결에 Analytics 소스 커넥터 데이터 세트 추가"
+>abstract="이제 Analytics 보고서 세트의 내역 데이터가 Adobe Experience Platform에 있으므로 Customer Journey Analytics을 처음 구성할 때 만든 기존 연결에 해당 데이터 세트를 추가하십시오. 이 단계가 완료되면 Customer Journey Analytics의 내역 데이터를 사용할 수 있습니다.<br><br>Customer Journey Analytics에서 데이터 집합을 연결에 추가하는 작업은 간단하며 완료하는 데 몇 분밖에 걸리지 않습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -44,9 +53,9 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 [이전 데이터에 대한 Analytics 소스 커넥터를 만든](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) 후 Analytics 데이터에 대한 데이터 세트가 자동으로 만들어집니다.
 
-자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 웹 SDK 데이터와 Customer Journey Analytics의 동일한 데이터 보기에 표시됩니다.
+자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 웹 SDK 데이터와 Customer Journey Analytics에서 동일한 데이터 보기로 전송됩니다.
 
-자동으로 만든 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가하려면:
+웹 SDK 구현을 위해 만든 연결과 동일한 연결에 자동으로 만든 데이터 세트를 추가하려면 다음을 수행하십시오.
 
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
 

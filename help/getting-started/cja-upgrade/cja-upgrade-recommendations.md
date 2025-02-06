@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1568'
 ht-degree: 8%
 
 ---
@@ -177,13 +177,11 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
 1. ](/help/getting-started/aa-vs-cja/cja-aa.md) Customer Journey Analytics의 [기능 지원에 대해 알아봅니다. 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 지원되며, Customer Journey Analytics에서 많은 추가 기능을 사용할 수 있습니다.
 
-1. 웹 SDK 구현이 완료되고 수집 중인 데이터에 익숙해지면 [AppMeasurement 데이터 수집을 사용하지 않도록 설정](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)합니다.
+1. Customer Journey Analytics 웹 SDK 구현이 완료되고 수집 중인 데이터에 익숙해지면 Adobe Analytics을 비활성화하십시오.
 
-1. 모든 Analytics 소스 커넥터 데이터가 데이터 보존 기간을 벗어난 후 Analytics 소스 커넥터를 비활성화합니다.
+   Adobe은 Customer Journey Analytics을 구현한 후 일정 기간 동안 Adobe Analytics 환경을 계속 실행할 것을 권장합니다.
 
-   Experience Platform 웹 SDK 구현을 사용하면 Analytics 소스 커넥터는 이전 Adobe Analytics 데이터에만 필요하며 원래 구현의 데이터를 새 구현의 데이터와 비교합니다.
-
-   새 구현의 내역 데이터가 충분하고 Customer Journey Analytics의 보고 차이점에 익숙할 경우 Analytics 소스 커넥터를 꺼야 합니다.
+   업그레이드 도중 및 업그레이드 후 Adobe Analytics을 사용하는 방법과 Adobe Analytics을 사용하지 않도록 설정하는 제안 시점에 대한 자세한 내용은 [Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics이 필요한 시간 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)를 참조하십시오.
 
 ## 조직에 대한 업그레이드 단계를 동적으로 생성
 

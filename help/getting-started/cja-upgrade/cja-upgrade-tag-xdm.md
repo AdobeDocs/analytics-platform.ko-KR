@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 5b440a8029aab392739e573a680123d0bd8a1318
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 32%
+source-wordcount: '1697'
+ht-degree: 31%
 
 ---
 
-# 태그에 XDM 데이터 수집 논리 추가
+# 태그에 XDM 데이터 수집 논리 추가 {#upgrade-tag-xdm}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-xdm"
+>title="태그에 XDM 데이터 수집 논리 추가"
+>abstract="사이트에 설치된 로더 태그를 사용하여 Adobe에 보낼 XDM 개체를 채울 규칙과 데이터 요소를 추가할 수 있습니다. Adobe은 태그가 구성되는 방식을 추적하기 위해 솔루션 디자인 문서를 유지 관리할 것을 권장합니다.<br><br>이 단계에는 속성에 대한 모든 Analytics 논리 설정이 포함되므로 많은 작업이 필요합니다. 한 달 이상 시간을 할애하여 올바른 태그 규칙을 설정하고, 테스트하고, 사이트에 배포합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
