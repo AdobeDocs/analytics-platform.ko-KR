@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1696'
 ht-degree: 11%
 
 ---
@@ -92,7 +92,7 @@ Content Analytics 구성에 액세스하려면
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="콘텐츠 분석 데이터를 병합할 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다.<br/>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target=\"_blank\"}"
+>abstract="콘텐츠 분석 데이터를 병합할 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -119,7 +119,7 @@ Content Analytics 구성에 액세스하려면
 데이터 보기가 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 **[!UICONTROL 샌드박스]**&#x200B;가 선택한 데이터 보기에 따라 적절한 샌드박스 이름으로 자동 채워집니다.
 
 
-### 경험 캡처 및 정의
+### 경험 캡처 및 정의 {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
