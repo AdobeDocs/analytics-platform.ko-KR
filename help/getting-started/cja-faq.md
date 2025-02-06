@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
+source-git-commit: 408773de0fd157edf0cd7b8edc8a8873eff00eb0
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2582'
 ht-degree: 98%
 
 ---
@@ -132,7 +132,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 >[!NOTE]
 >Customer Journey Analytics에는 고정된 데이터 크기가 없으므로 Adobe는 표준 수집 시간을 약속할 수 없습니다. Adobe는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
-<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상) **참고:** 연결이 활성화된 경우 수집에는 최대 3.25시간이 걸릴 수 있습니다. 자세한 내용은 [보호](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails)를 참조하십시오.</li><li>소규모 채우기: 7일 이내<li>대규모 채우기: 30일 이내</li></ul>
+<ul><li>라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 &gt; 5천만 행: 90분 이상) 결합이 활성화된 경우 수집은 최대 3.25시간 정도 소요될 수 있습니다.<p>자세한 내용은 [보호](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails)를 참조하십시오.</li><li>소규모 채우기: 7일 이내<li>대규모 채우기: 30일 이내</li></ul>
 
 최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
 
