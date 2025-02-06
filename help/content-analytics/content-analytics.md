@@ -2,12 +2,12 @@
 title: 콘텐츠 분석 개요
 description: 콘텐츠 분석 개요
 solution: Customer Journey Analytics
-feature: Data Views
-role: Admin
+feature: Content Analytics
+role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 164d67748f8af066b603dcabeecf6d7cfca0f947
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 0%

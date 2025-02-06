@@ -2,13 +2,14 @@
 title: Content Analytics 안내 구성
 description: 온보딩 가이드 구성을 사용하여 Content Analytics를 구성하는 방법
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 69e2f358398fd8d2646e5a3c1cb6dfd1b5b5efbb
+exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1699'
 ht-degree: 11%
 
 ---
@@ -200,6 +201,16 @@ Content Analytics 구성에 액세스하려면
 >title="데이터 수집"
 >abstract="콘텐츠 분석을 위해 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 자산을 지정합니다."
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_experiences_edit_button"
+>title="데이터 수집"
+>abstract="선택한 구성과 연결된 Adobe 속성의 태그 속성에서 페이지 컨텐츠 분석 확장의 페이지 설정을 편집할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_assets_edit_button"
+>title="데이터 수집"
+>abstract="선택한 구성과 연결된 Adobe 속성의 태그 속성에서 Tag Content Analytics 확장의 에셋 설정을 편집할 수 있습니다."
+
 <!-- markdownlint-enable MD034 -->
 
 #### 새 구성
@@ -272,5 +283,3 @@ Content Analytics 구성에 액세스하려면
       1. 웹 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 구성이 만들어집니다.
       1. 웹 SDK이 이 태그 속성에 대해 구성된 경우 기존 웹 SDK 구성이 변경되지 않습니다.
 * **[!UICONTROL 저장]**: 구현된 구성에 대한 변경 내용이 저장되고 구현이 업데이트됩니다.
-
-

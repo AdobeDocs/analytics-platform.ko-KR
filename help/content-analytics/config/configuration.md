@@ -2,11 +2,12 @@
 title: 콘텐츠 분석 구성
 description: 콘텐츠 분석 구성 방법에 대한 개요
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 164d67748f8af066b603dcabeecf6d7cfca0f947
+exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -26,4 +27,3 @@ ht-degree: 0%
 
 * 콘텐츠 분석 [안내 구성](guided.md)을 사용합니다. 구성 마법사는 Content Analytics의 자동 구성을 위한 사전 요구 사항을 설정하는 데 필요한 모든 단계를 안내합니다.
 * 콘텐츠 분석을 구성하려면 [수동 프로세스](manual.md)를 따르십시오.
-
