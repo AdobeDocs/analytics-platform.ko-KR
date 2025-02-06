@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
+source-git-commit: 2dd215b0fe689c9370e9f5867fd1bd5fdee83d42
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Customer Journey Analytics 보호
 
-이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics에 대한 제품 설명](https://helpx.adobe.com/ko/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능에 대한 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/ko/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
+이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics에 대한 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능에 대한 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
 
 ## 제한 유형
 
@@ -236,7 +236,7 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 | Edge Network 또는 스트리밍 수집에서 데이터 레이크로 데이터 수집 | 60분 미만 |
 | Adobe Analytics Source 커넥터에서 데이터 레이크로 데이터 수집 | &lt; 2.25시간 |
 | 데이터 레이크에서 Customer Journey Analytics으로 데이터 수집 | 90분 미만 |
-| 결합(선택적 기능. 자세한 내용은 [결합 개요](../stitching/overview.md)를 참조하십시오.) | &lt; 3.25시간 |
+| 결합(선택적 기능. 자세한 내용은 [결합 개요](../stitching/overview.md)를 참조하십시오.) | 4시간 |
 | 100억 개 미만의 이벤트(최대 13개월의 내역 데이터) Adobe Analytics Source 커넥터 채우기 | &lt; 4주 |
 | 실시간 고객 프로필에 게시하는 대상(스트리밍 세그먼트의 자동 생성 및 세그먼트의 데이터 수신 준비 허용 포함). | ≈분 |
 | 대상의 새로 고침 빈도 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. 지연 시간은 새로 고침 빈도와 비슷합니다. |
