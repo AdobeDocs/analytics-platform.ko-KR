@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '3498'
-ht-degree: 99%
+source-wordcount: '3562'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="기본 테이블 지표"
->abstract="자유 형식 테이블에 사용할 기본 지표 또는 컨테이너를 선택합니다. 선택한 데이터 보기에 선택한 기본 지표나 컨테이너가 없는 경우 테이블은 자동으로 다른 기본 지표로 전환됩니다."
+>abstract="자유 형식 테이블에 사용할 기본 지표를 선택합니다. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블이 자동으로 다른 기본 지표로 전환됩니다."
 
 
 <!-- markdownlint-enable MD034 -->
@@ -181,7 +181,17 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
 | | 열 합계 (정적 행만 해당) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행의 합계를 표시합니다.</li></ul> |
 
-### 시각화 환경 설정
+### 시각화 환경 설정 {#visalization-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultflowcontainer"
+>title="기본 테이블 지표"
+>abstract="플로우 시각화에 사용할 기본 컨테이너를 선택합니다. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 플로우 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultfalloutcontainer"
+>title="기본 테이블 지표"
+>abstract="폴아웃 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없는 경우 폴아웃 시각화는 자동으로 다른 기본 컨테이너로 전환됩니다."
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 

@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -68,5 +68,5 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에 수집
 
 >[!MORELIKETHIS]
 >
->[콘텐츠 분석 사용(t.b.d.)](#value)
+>[콘텐츠 분석 보고](#report/report.md)
 >[콘텐츠 분석 구성](config/configuration.md)
