@@ -4,9 +4,9 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2183'
 ht-degree: 20%
 
 ---
@@ -189,3 +189,7 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 ## 실험 패널에서 계산된 지표 사용
 
 [실험 패널에서 계산된 지표를 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)하는 방법에 대한 자세한 내용은 이 블로그 게시물을 참조하세요.
+
+>[!MORELIKETHIS]
+>[Adobe Customer Journey Analytics 실험 마스터링](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>
