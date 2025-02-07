@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
 workflow-type: tm+mt
-source-wordcount: '3461'
-ht-degree: 100%
+source-wordcount: '3498'
+ht-degree: 99%
 
 ---
 
@@ -139,6 +139,17 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="기본 테이블 지표"
+>abstract="자유 형식 테이블에 사용할 기본 지표 또는 컨테이너를 선택합니다. 선택한 데이터 보기에 선택한 기본 지표나 컨테이너가 없는 경우 테이블은 자동으로 다른 기본 지표로 전환됩니다."
+
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이블 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -148,7 +159,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
-| **표** | | |
+| **테이블** | | |
 | | 테이블 유형 | <ul><li>자유 형식</li><li>테이블 빌더</li></ul> |
 | | 기본 테이블 지표 | <ul><li>발생 횟수</li><li>고유 방문자 수</li><li>방문 횟수</li></ul> |
 | | 기본 테이블 차원 | 분, 시간, 일, 주, 월, 분기 또는 연도 중에서 선택합니다. |
