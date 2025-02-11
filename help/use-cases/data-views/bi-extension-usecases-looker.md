@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 676f6c83bcf35f8da1a07841c043e1b56c57baf6
+source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13075'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 2%
 
 * **Power BI 데스크톱**. 사용된 버전은 2.137.1102.0 64비트(2024년 10월)입니다.
 * **타블로 데스크톱**. 사용된 버전은 2024.1.5(20241.24.0705.0334) 64비트입니다.
+* **조회자**. 온라인 버전 25.0.23([looker.com](https://looker.com){target="_blank"}을 통해 사용 가능)
 
 다음 사용 사례가 문서화되어 있습니다.
 
@@ -58,14 +59,14 @@ ht-degree: 2%
 
 ## 연결 및 유효성 검사
 
-이 사용 사례에서는 BI 도구에서 Customer Journey Analytics으로 연결을 설정하고 사용 가능한 데이터 보기를 나열하며 사용할 데이터 보기를 선택합니다.
+이 사용 사례에서는 BI 도구에서 Customer Journey Analytics으로의 연결을 설정하고 사용 가능한 데이터 보기를 나열하며 사용할 데이터 보기를 선택합니다.
 
 +++ Customer Journey Analytics
 
 지침은 다음 개체가 있는 예제 환경을 참조합니다.
 
 * 데이터 보기: **[!UICONTROL C&amp;C - 데이터 보기]** ??.
-* Dimension: **[!UICONTROL 제품 이름]** ?? 및 **[!UICONTROL 제품 범주]** ??.
+* 차원: **[!UICONTROL 제품 이름]** ?? 및 **[!UICONTROL 제품 범주]** ??.
 * 지표: **[!UICONTROL 구매 매출]** ?? 및 **[!UICONTROL 구매]** ??.
 * 필터: **[!UICONTROL 낚시 제품]** ??.
 
@@ -90,7 +91,7 @@ ht-degree: 2%
 
       ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
 
-1. Power BI 데스크톱을 시작합니다.
+1. Power BI Desktop을 시작합니다.
    1. 주 인터페이스에서 **[!UICONTROL 다른 원본에서 데이터 가져오기]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 데이터 가져오기]** 대화 상자에서:
       ![PowerBI PostgreSQL 데이터베이스](assets/powerbi-postgresql.png){zoomable="yes"}
@@ -98,7 +99,7 @@ ht-degree: 2%
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** 대화 상자에서:
       ![PowerBI Desktop Server 및 데이터베이스 설정](assets/powerbi-serverdatabase.png){zoomable="yes"}
-      1. Experience Platform ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 **[!UICONTROL 호스트]** 및 **[!UICONTROL 포트]** 값을 복사하여 **[!UICONTROL 서버]**&#x200B;의 값으로 `:`(으)로 구분하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io:80`.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL Server]**&#x200B;의 값으로 `:`(으)로 구분된 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 **[!UICONTROL 호스트]** 및 **[!UICONTROL 포트]** 값을 복사하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io:80`.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]** 값을 복사하여 붙여 넣으십시오. 붙여넣은 값에 `?FLATTEN`을(를) 추가합니다. (예: `prod:cja?FLATTEN`)
       1. **[!UICONTROL DirectQuery]**&#x200B;을(를) **[!UICONTROL 데이터 연결 모드]**(으)로 선택합니다.
       1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
@@ -107,8 +108,8 @@ ht-degree: 2%
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL 이러한 설정을 적용할 수준을 선택]**&#x200B;의 드롭다운 메뉴가 이전에 정의한 **[!UICONTROL 서버]**(으)로 설정되어 있는지 확인하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI 데스크톱에서 다음을 볼 수 있습니다.
-      ![Power BI 대상 로드 데이터](assets/powerbi-navigator-load.png){zoomable="yes"}
+   1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI Desktop에 다음 내용이 표시됩니다.
+      ![Power BI Destkop 데이터 로드](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
       1. 두 가지 옵션이 있습니다.
          1. **[!UICONTROL 로드]**&#x200B;를 선택하여 설치를 계속하고 완료합니다.
@@ -121,19 +122,19 @@ ht-degree: 2%
 
 ### 평면화할지 말지
 
-Power BI 데스크톱은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
 | 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션!** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | Power BI 데스크톱에 오류가 표시됩니다. **[!UICONTROL 제공된 자격 증명으로 인증할 수 없습니다. 다시 시도하십시오.]** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | Power BI Desktop에 오류가 표시됩니다. **[!UICONTROL 제공된 자격 증명으로 인증할 수 없습니다. 다시 시도하십시오.]** |
 
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
 * [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [Power BI을 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+* [쿼리 서비스에 Power BI 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -155,7 +156,7 @@ Power BI 데스크톱은 `FLATTEN` 매개 변수에 대해 다음 시나리오�
    1. **[!UICONTROL PostgreSQL]** 대화 상자의 **[!UICONTROL 일반]** 탭에서:
       ![타블로 로그인 대화 상자](assets/tableau-signin.png){zoomable="yes"}
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 호스트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 서버]**&#x200B;로 복사하여 붙여넣으십시오.
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 포트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료되는 자격 증명]** 패널에서 **[!UICONTROL 포트]**(으)로 복사하여 붙여넣으십시오.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 포트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 포트]**(으)로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 데이터베이스]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]**(으)로 복사하여 붙여넣으십시오. 붙여넣은 값에 `%3FFLATTEN`을(를) 추가합니다. 예: `prod:cja%3FFLATTEN`.
       1. **[!UICONTROL 인증]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 이름 및 암호]**&#x200B;를 선택합니다.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]**(으)로 복사하여 붙여넣으십시오.
@@ -208,14 +209,14 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
    1. **[!UICONTROL Looker 화면에 데이터베이스를 연결]**&#x200B;합니다.
 
-      ![데이터베이스에 Looker 연결](assets/looker-connect.png)
+      ![데이터베이스에 Looker 연결](assets/looker-connect.png){zoomable="yes"}
 
       1. 연결에 대한 **[!UICONTROL 이름]**(예: `Example Looker Connection`)을 입력하십시오.
       1. **[!UICONTROL 모든 프로젝트]**&#x200B;가 **[!UICONTROL 연결 범위]**(으)로 선택되었는지 확인하십시오.
       1. 방언으로 **[!UICONTROL PostgreSQL 9.5+]**&#x200B;을(를) 선택합니다.
-      1. Experience Platform ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 호스트]** 값을 **[!UICONTROL 호스트]** 값으로 복사하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io`.
-      1. ![Copy](/help/assets/icons/Copy.svg)을(를) 사용하여 Experience Platform **[!UICONTROL Query]** **[!UICONTROL 만료 자격 증명]** 패널의 **[!UICONTROL Port]** 값을 **[!UICONTROL Port]** 값으로 복사하여 붙여넣으십시오. 예: `80`.
-      1. Experience Platform ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]** 값을 **[!UICONTROL 데이터베이스]** 값으로 복사하여 붙여넣으십시오. 붙여넣은 값에 `?FLATTEN`을(를) 추가합니다. (예: `prod:cja?FLATTEN`)
+      1. ![Copy](/help/assets/icons/Copy.svg)을(를) 사용하여 Experience Platform **[!UICONTROL Query]** **[!UICONTROL 만료되는 자격 증명]** 패널에서 **[!UICONTROL Host]** 값을 **[!UICONTROL Host]** 값으로 복사하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io`.
+      1. ![Copy](/help/assets/icons/Copy.svg)을(를) 사용하여 Experience Platform **[!UICONTROL Query]** **[!UICONTROL 만료되는 자격 증명]** 패널의 **[!UICONTROL Port]** 값을 **[!UICONTROL Port]** 값으로 복사하여 붙여넣으십시오. 예: `80`.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]** 값을 **[!UICONTROL 데이터베이스]**&#x200B;의 값으로 복사하여 붙여넣으십시오. 붙여넣은 값에 `?FLATTEN`을(를) 추가합니다. (예: `prod:cja?FLATTEN`)
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 값을 **[!UICONTROL 사용자 이름]** 값으로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 암호]** 값을 **[!UICONTROL 암호]** 값으로 복사하여 붙여넣으십시오.
       1. **[!UICONTROL 선택적 설정]**&#x200B;에서 **[!UICONTROL 모두 확장]**&#x200B;을 선택합니다.
@@ -278,7 +279,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 사용 사례에 대한 **[!UICONTROL 일별 트렌드]** 패널 예:
 
-![Customer Journey Analytics 일별 트렌드 패널](assets/cja_daily_trend.png){zoomable="yes"}
+![Customer Journey Analytics 일일 트렌드 패널](assets/cja_daily_trend.png){zoomable="yes"}
 
 +++
 
@@ -370,17 +371,17 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
-   1. **[!UICONTROL DIMENSION]** 목록에서 **[!UICONTROL ‣날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL 날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;를 선택하십시오.
    1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 1. 선 시각화를 ‣ 표시하려면 **[!UICONTROL 시각화]**&#x200B;를 선택하십시오.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc2-looker-result.png)
+![조회 결과 일일 트렌드](assets/uc2-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -395,7 +396,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 사용 사례에 대한 예제 **[!UICONTROL 시간별 트렌드]** 패널:
 
-![시간별 트렌드 시각화 Customer Journey Analytics](assets/cja_hourly_trend.png){zoomable="yes"}
+![Customer Journey Analytics 시간별 트렌드 시각화](assets/cja_hourly_trend.png){zoomable="yes"}
 
 +++
 
@@ -410,7 +411,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 >[!TAB Power BI 데스크톱]
 
-![AlertRed](/help/assets/icons/AlertRed.svg) Power BI이 날짜-시간 필드를 처리하는 방법을 **not**&#x200B;하여 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;과(와) 같은 차원이 지원되지 않습니다.
+![AlertRed](/help/assets/icons/AlertRed.svg) Power BI은 날짜-시간 필드를 처리하는 방법을 **not**&#x200B;합니다. 따라서 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;과(와) 같은 차원이 지원되지 않습니다.
 
 >[!TAB 타블로 데스크톱]
 
@@ -460,17 +461,17 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/01/02]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
-   1. **[!UICONTROL DIMENSION]** 목록에서 **[!UICONTROL ‣Daterangehour 날짜]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL Daterangehour 날짜]**&#x200B;을 선택한 다음 **[!UICONTROL 시간]**&#x200B;을 선택합니다.
    1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 1. 선 시각화를 ‣ 표시하려면 **[!UICONTROL 시각화]**&#x200B;를 선택하십시오.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc3-looker-result.png)
+![조회 결과 일일 트렌드](assets/uc3-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -579,17 +580,17 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 **[!UICONTROL Cc 데이터 보기]** 레일에서,
-   1. **[!UICONTROL DIMENSION]** 목록에서 **[!UICONTROL ‣Daterangemonth 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 월]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL Daterangemonth 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 월]**&#x200B;을 선택합니다.
    1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 1. 선 시각화를 ‣ 표시하려면 **[!UICONTROL 시각화]**&#x200B;를 선택하십시오.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc4-looker-result.png)
+![조회 결과 일일 트렌드](assets/uc4-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -731,7 +732,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;]**섹션에서 다음을 수행합니다.**[!UICONTROL 
@@ -742,7 +743,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
       1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 측정값]**&#x200B;을(를) 한 번 더 선택합니다. **[!UICONTROL 사용자 지정 만들기]** 측정값 대화 상자에서 다음을 수행합니다.
       1. **[!UICONTROL 측정할 필드]** 드롭다운 메뉴에서 **[!UICONTROL 구매]**&#x200B;를 선택합니다.
@@ -762,12 +763,12 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
    1. 아래로 스크롤하여 **[!UICONTROL 구매]**&#x200B;를 확인하고 **[!UICONTROL Type]**&#x200B;을(를) **[!UICONTROL Line]**(으)로 변경합니다.
    1. **[!UICONTROL Y]** 탭을 선택합니다.
    1. **[!UICONTROL 왼쪽 1]** 컨테이너에서 **[!UICONTROL 구매]**&#x200B;를 **[!UICONTROL *새 왼쪽 축을 만들려면&#x200B;*]**시리즈를 여기로 드래그하세요. 이 작업은**[!UICONTROL &#x200B;왼쪽 2 ]**컨테이너를 만듭니다.
-      ![Looker 시각화 구성](assets/uc5-looker-visualization.png)
+      ![Looker 시각화 구성](assets/uc5-looker-visualization.png){zoomable="yes"}
    1. 팝업 대화 상자를 숨기려면 **[!UICONTROL 편집]** 옆에 있는 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc5-looker-result.png)
+![조회 결과 일일 트렌드](assets/uc5-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -782,7 +783,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 사용 사례에 대한 **[!UICONTROL 여러 Dimension 등급]** 패널 예:
 
-![여러 Dimension 등급 패널 Customer Journey Analytics](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
+![Customer Journey Analytics 여러 Dimension 등급 패널](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
 
 +++
 
@@ -824,7 +825,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 1. 테이블의 각 범주를 분류하려면 제품 범주 수준에서 **[!UICONTROL +]**&#x200B;을(를) 선택합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 등급 매트릭스 테이블](assets/uc6-powerbi-data.png){zoomable="yes"}
+   ![Power BI 데스크톱 다중 차원 등급 매트릭스 표](assets/uc6-powerbi-data.png){zoomable="yes"}
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -838,7 +839,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 등급 트리맵](assets/uc6-powerbi-treemap.png){zoomable="yes"}
+   ![Power BI 데스크톱 여러 차원 등급 트리맵](assets/uc6-powerbi-treemap.png){zoomable="yes"}
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -855,7 +856,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 Dimension 최종 순위](assets/uc6-powerbi-final.png){zoomable="yes"}
+   ![최종 순위가 지정된 Power BI 데스크톱 여러 차원](assets/uc6-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB 타블로 데스크톱]
@@ -867,7 +868,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc6-tableau-filter.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc6-tableau-filter.png){zoomable="yes"}
 
    1. **[!UICONTROL 제품 범주]**&#x200B;을 드래그하여 **[!UICONTROL 열]** 옆에 놓습니다.
    1. **[!UICONTROL 구매 매출]**&#x200B;을 드래그하여 **[!UICONTROL 행]** 옆에 놓으십시오. 값이 **[!UICONTROL SUM(구매 매출)]**(으)로 변경됩니다.
@@ -880,7 +881,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop 여러 Dimension 등급 범주](assets/uc6-tableau-category.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimensions 등급 범주](assets/uc6-tableau-category.png){zoomable="yes"}
 
 1. 현재 **[!UICONTROL 시트 1]** 시트의 이름을 `Category`(으)로 바꾸십시오.
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 `Data`(으)로 바꾸십시오.
@@ -899,7 +900,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-data.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 **[!UICONTROL 트리맵]**(으)로 바꾸십시오.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
@@ -916,7 +917,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 여러 Dimension 등급 데이터](assets/uc6-tableau-treemap.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-treemap.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Category]** 시트를 **[!UICONTROL Sheets]** 셸프에서 *여기에 시트 놓기*&#x200B;를 실행하는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -936,7 +937,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 범주]**&#x200B;을 선택하세요.
@@ -949,7 +950,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Sum of Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
       1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 측정값]**&#x200B;을(를) 한 번 더 선택합니다. **[!UICONTROL 사용자 지정 만들기]** 측정값 대화 상자에서 다음을 수행합니다.
       1. **[!UICONTROL 측정할 필드]** 드롭다운 메뉴에서 **[!UICONTROL 구매]**&#x200B;를 선택합니다.
@@ -968,14 +969,14 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
    1. 아래로 스크롤하여 **[!UICONTROL 차트 구성 편집]**&#x200B;을 선택합니다.
    1. 아래 스크린샷과 같이 **[!UICONTROL 차트 구성(재정의)]**&#x200B;에서 JSON을 수정한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
 
-      ![Looker 시각화 구성](assets/uc6-looker-visualization.png)
+      ![Looker 시각화 구성](assets/uc6-looker-visualization.png){zoomable="yes"}
 
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
    1. 팝업 대화 상자를 숨기려면 **[!UICONTROL 편집]** 옆에 있는 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc6-looker-result.png)
+![조회 결과 일일 트렌드](assets/uc6-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -988,7 +989,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 +++ Customer Journey Analytics
 
-제품 이름의 고유 개수를 보고하려면 **[!UICONTROL 제목]** `Product Name (Count Distinct)` 및 **[!UICONTROL 외부 ID]** `product_name_count_distinct`을(를) 사용하여 Customer Journey Analytics에서 계산된 지표를 설정하십시오.
+제품 이름의 고유 개수를 보고하려면 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Product Name (Count Distinct)` 및 **[!UICONTROL 외부 ID]** `product_name_count_distinct`(으)로 계산된 지표를 설정합니다.
 
 ![Customer Journey Analytics 제품 이름(고유 개수) 계산된 지표](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}
 
@@ -1017,7 +1018,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 1. **[!UICONTROL 데이터]** 창:
    1. **[!UICONTROL datarangeday]**&#x200B;를 선택하십시오.
-   1. Customer Journey Analytics에 정의된 계산된 지표인 **[!UICONTROL ∑ cm_product_name_count_distinct]**&#x200B;을(를) 선택하십시오.
+   1. Customer Journey Analytics에 정의된 계산된 지표인 **[!UICONTROL ∑ cm_product_name_count_distinct]**&#x200B;을(를) 선택합니다.
 
 1. 세로 막대형 차트를 표로 수정하려면 차트를 선택하고 **[!UICONTROL 시각화]** 창에서 **[!UICONTROL 표]**&#x200B;를 선택하십시오.
 
@@ -1056,7 +1057,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-data.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-data.png){zoomable="yes"}
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
@@ -1071,7 +1072,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc7-tableau-card.png){zoomable="yes"}
+   ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-card.png){zoomable="yes"}
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 카드]** 시트를 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
@@ -1097,18 +1098,18 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;를 선택합니다.
    1. **[!UICONTROL ‣제품 이름]**&#x200B;의 **자세히**⋮ 컨텍스트 메뉴에서 **[!UICONTROL 고유 개수 집계]**을(를) 선택합니다.
-      ![제품 이름 상황에 맞는 메뉴](assets/uc7-looker-count-distinct.png)
+      ![제품 이름 상황에 맞는 메뉴](assets/uc7-looker-count-distinct.png){zoomable="yes"}
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 1. **[!UICONTROL ‣ 시각화]**&#x200B;를 선택하고 도구 모음에서 6︎⃣을 선택하여 단일 값 시각화를 표시합니다.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc7-looker-result.png)
+![고유 조회 수](assets/uc7-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1123,7 +1124,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 날짜 범위를 사용하여 보고하려면 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Last Year 2023`(으)로 날짜 범위를 설정합니다.
 
-![Customer Journey Analytics 필터링할 날짜 범위 이름 사용](assets/cja-daterange.png){zoomable="yes"}
+![Customer Journey Analytics 날짜 범위 이름을 사용하여 필터링](assets/cja-daterange.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 날짜 범위를 사용할 수 있습니다.
 
@@ -1175,7 +1176,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc8-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc8-tableau-final.png){zoomable="yes"}
 
 >[!TAB 조회자]
 
@@ -1193,7 +1194,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc8-looker-result.png)
+![고유 조회 수](assets/uc8-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1203,13 +1204,13 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 ## 필터 이름을 사용하여 필터링
 
-이 사용 사례에서는 Customer Journey Analytics에서 정의한 Fishing 제품 범주에 대한 기존 필터를 사용합니다. 2023년 1월 동안 제품 이름과 발생 횟수(이벤트)를 필터링하고 보고하려면
+이 사용 사례에서는 Customer Journey Analytics에서 정의한 낚시 제품 카테고리에 대한 기존 필터를 사용합니다. 2023년 1월 동안 제품 이름과 발생 횟수(이벤트)를 필터링하고 보고하려면
 
 +++ Customer Journey Analytics
 
-Inspect Customer Journey Analytics에 사용할 필터입니다.
+Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
-![Customer Journey Analytics 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png){zoomable="yes"}
+![Customer Journey Analytics에서 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
 
@@ -1267,7 +1268,7 @@ Inspect Customer Journey Analytics에 사용할 필터입니다.
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc9-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc9-tableau-final.png){zoomable="yes"}
 
 >[!TAB 조회자]
 
@@ -1276,7 +1277,7 @@ Inspect Customer Journey Analytics에 사용할 필터입니다.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 다른 필터를 추가하려면 **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
@@ -1292,7 +1293,7 @@ Inspect Customer Journey Analytics에 사용할 필터입니다.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc9-looker-result.png)
+![고유 조회 수](assets/uc9-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1307,7 +1308,7 @@ Customer Journey Analytics에서 사냥 제품 카테고리의 제품을 필터�
 
 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(를) 사용하여 새 필터를 만듭니다.
 
-![Customer Journey Analytics Dimension 값을 사용하여 필터링](assets/cja-hunting-products.png){zoomable="yes"}
+![Customer Journey Analytics에서 Dimension 값을 사용하여 필터링](assets/cja-hunting-products.png){zoomable="yes"}
 
 그런 다음 사용 사례에 대해 **[!UICONTROL Dimension 값을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
 
@@ -1339,7 +1340,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 1. **[!UICONTROL 필터]** 창:
    1. 이 시각적 개체의 **[!UICONTROL 필터]**&#x200B;에서 **[!UICONTROL filterName is (All)]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL 기본 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 검색]** 필드 아래에서 Customer Journey Analytics에 정의된 기존 필터의 이름인 **[!UICONTROL Hunting Products]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 검색]** 필드 아래에서 Customer Journey Analytics에 정의된 기존 필터의 이름인 **[!UICONTROL 제품 사냥]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 이 시각적 개체의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 고급 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
    1. **[!UICONTROL 값이]** **[!UICONTROL 이거나]** `1/1/2023` **[!UICONTROL 이거나]** **[!UICONTROL 이(가)]** `2/1/2023` 이전인 경우 항목 표시로 필터를 정의합니다.
@@ -1368,7 +1369,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 다중 Dimension 등급 필터](assets/uc10-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc10-tableau-final.png){zoomable="yes"}
 
 >[!TAB 조회자]
 
@@ -1378,7 +1379,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 다른 필터를 추가하려면 **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
@@ -1393,7 +1394,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 아래 표시된 것과 유사한 표가 표시됩니다.
 
-![고유 조회 수](assets/uc10-looker-result.png)
+![고유 조회 수](assets/uc10-looker-result.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1445,7 +1446,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
    ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc11-powerbi-final.png){zoomable="yes"}
 
-BI 확장을 사용하여 Power BI 데스크톱에서 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
+BI 확장을 사용하여 Power BI Desktop에서 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
 
 ```sql
 select "_"."product_name",
@@ -1571,7 +1572,7 @@ GROUP BY 1
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;]**섹션에서 다음을 수행합니다.**[!UICONTROL 
@@ -1582,7 +1583,7 @@ GROUP BY 1
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Sum of Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
       1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 구매 매출]** 열에서 **[!UICONTROL ↓]**(**[!UICONTROL 내림차순, 정렬 순서: 1]**)을(를) 선택하십시오.
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
@@ -1590,7 +1591,7 @@ GROUP BY 1
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc11-looker-result.png)
+![고유 조회 수](assets/uc11-looker-result.png){zoomable="yes"}
 
 
 Looker에서 BI 확장을 사용하여 생성한 쿼리에 `ORDER BY`이(가) 포함되어 있습니다. 이는 정렬이 Looker 및 BI 확장을 통해 실행됨을 의미합니다.
@@ -1660,7 +1661,7 @@ FETCH NEXT 500 ROWS ONLY
 
    ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc12-powerbi-final.png){zoomable="yes"}
 
-BI 확장을 사용하여 Power BI Desktop에서 실행되는 쿼리에 `limit` 문이 포함되어 있지만 필요한 문이 포함되어 있지 않습니다. 상위 5회 발생에 대한 제한은 명시적 제품 이름 결과를 사용하여 Power BI Desktop에 의해 시행됩니다.
+BI 확장을 사용하여 Power BI Desktop에서 실행하는 쿼리에 `limit` 문이 포함되어 있지만 필요한 문은 포함되어 있지 않습니다. 상위 5회 발생에 대한 제한은 명시적 제품 이름 결과를 사용하여 Power BI Desktop에 의해 적용됩니다.
 
 ```sql
 select "_"."product_name",
@@ -1808,7 +1809,7 @@ GROUP BY 1
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
-      ![조회 필터](assets/uc2-looker-filter.png)
+      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
 1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 이름]**&#x200B;을 선택하세요.
@@ -1820,7 +1821,7 @@ GROUP BY 1
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc12-looker-result.png)
+![고유 조회 수](assets/uc12-looker-result.png){zoomable="yes"}
 
 Looker에서 BI 확장을 사용하여 생성한 쿼리에 `FETCH NEXT 5 ROWS ONLY`이(가) 포함되어 있습니다. 이는 Looker 및 BI 확장을 통해 제한이 실행됨을 의미합니다.
 
@@ -1845,11 +1846,11 @@ FETCH NEXT 5 ROWS ONLY
 
 ## 변형
 
-다양한 BI 도구에 의한 차원, 지표, 필터, 계산된 지표 및 날짜 범위와 같은 Customer Journey Analytics 객체의 변환을 이해하고자 합니다.
+다양한 BI 도구에 의한 차원, 지표, 필터, 계산된 지표 및 날짜 범위와 같은 Customer Journey Analytics 객체의 변환을 이해하려고 합니다.
 
 +++ Customer Journey Analytics
 
-Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.md)에서 데이터 세트의 구성 요소가 [차원](/help/components/dimensions/overview.md) 및 [지표](/help/components/apply-create-metrics.md)(으)로 노출되는 방식과 방식을 정의합니다. 차원 및 지표의 해당 정의는 BI 확장을 사용하여 BI 도구에 노출됩니다.
+Customer Journey Analytics에서는 [데이터 보기](/help/data-views/data-views.md)에서 데이터 세트의 구성 요소가 [차원](/help/components/dimensions/overview.md) 및 [지표](/help/components/apply-create-metrics.md)(으)로 노출되는 방식과 방식을 정의합니다. 차원 및 지표의 해당 정의는 BI 확장을 사용하여 BI 도구에 노출됩니다.
 [필터](/help/components/filters/filters-overview.md), [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md) 및 [날짜 범위](/help/components/date-ranges/overview.md)와 같은 구성 요소를 Workspace 프로젝트의 일부로 사용합니다. 이러한 구성 요소는 BI 확장을 사용하여 BI 도구에도 노출됩니다.
 
 +++
@@ -1865,26 +1866,26 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 >[!TAB Power BI 데스크톱]
 
-Customer Journey Analytics 개체는 **[!UICONTROL 데이터]** 창에서 사용할 수 있으며 Power BI 데스크톱에서 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL public.cc_data_view]**. 테이블 이름은 Customer Journey Analytics의 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
+Customer Journey Analytics 개체는 **[!UICONTROL 데이터]** 창에서 사용할 수 있으며 Power BI Desktop에서 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL public.cc_data_view]**. 테이블 이름은 Customer Journey Analytics에서 데이터 보기에 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
-**Dimension**
-Customer Journey Analytics의 Dimension은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에 Power BI 데스크톱의 차원 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**이(가) 있습니다.
+**차원**
+Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Power BI Desktop에 있는 차원의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]** 등으로 사용할 수 있습니다.
 
 **지표**
-Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 구매 매출]** 지표에는 Power BI 데스크톱의 지표 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL 구매_매출]**&#x200B;이(가) 있습니다. **[!UICONTROL ∑]**&#x200B;은(는) 지표를 나타냅니다. 시각화에서 지표를 사용하면 지표 이름이 **[!UICONTROL 지표 합계&#x200B;*로 변경됩니다.*]**
+Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 구매 매출]** 지표에는 Power BI Desktop에 있는 지표의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL 구매_매출]**&#x200B;이(가) 있습니다. **[!UICONTROL ∑]**&#x200B;은(는) 지표를 나타냅니다. 시각화에서 지표를 사용하면 지표 이름이 **[!UICONTROL 지표 합계&#x200B;*로 변경됩니다.*]**
 
 **필터**
-Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL filterName]** 필드의 일부로 사용할 수 있습니다. Power BI 데스크톱에서 **[!UICONTROL filterName]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
+Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL filterName]** 필드의 일부로 사용할 수 있습니다. Power BI Desktop에서 **[!UICONTROL filterName]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
 
 **계산된 지표**
-Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI 데스크톱에서는 **[!UICONTROL cm_product_name_count_distinct]**t로 표시됩니다.
+Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI Desktop에는 **[!UICONTROL cm_product_name_count_distinct]**t로 표시됩니다.
 
 **날짜 범위**
 Customer Journey Analytics에서 정의하는 날짜 범위는 **[!UICONTROL daterangeName]** 필드의 일부로 사용할 수 있습니다. **[!UICONTROL daterangeName]** 필드를 사용하는 경우 사용할 날짜 범위를 지정할 수 있습니다.
 
 **사용자 지정 변형**
-Power BI 데스크톱은 [데이터 분석 표현식(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)을 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 [등급 단일 차원](#single-dimension-ranked) 사용 사례를 실행하려고 합니다.
+Power BI Desktop은 [데이터 분석 표현식(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)을 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 [등급 단일 차원](#single-dimension-ranked) 사용 사례를 실행하려고 합니다.
 
 1. 보고서 보기에서 막대 시각화를 선택합니다.
 1. 데이터 창에서 **[!UICONTROL product_name]**&#x200B;을(를) 선택합니다.
@@ -1940,14 +1941,14 @@ limit 1000001
 
 >[!TAB 타블로 데스크톱]
 
-Customer Journey Analytics 개체는 시트를 작업할 때마다 **[!UICONTROL 데이터]** 사이드바에서 사용할 수 있습니다. 및 은(는) Tableau의 **[!UICONTROL 데이터 원본]** 페이지의 일부로 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 테이블 이름은 Customer Journey Analytics의 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
+시트에서 작업할 때마다 **[!UICONTROL 데이터]** 사이드바에서 Customer Journey Analytics 개체를 사용할 수 있습니다. 및 은(는) Tableau의 **[!UICONTROL 데이터 원본]** 페이지의 일부로 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 테이블 이름은 Customer Journey Analytics에서 데이터 보기에 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
-**Dimension**
-Customer Journey Analytics의 Dimension은 [!UICONTROL 구성 요소 이름]으로 식별됩니다. [!UICONTROL 구성 요소 이름]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어, Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Tableau의 차원 이름인 [!UICONTROL 구성 요소 이름] **[!UICONTROL 제품 이름]**&#x200B;이(가) 있습니다. 모든 차원은 **[!UICONTROL Abc]**(으)로 식별됩니다.
+**차원**
+Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 이름]으로 식별됩니다. [!UICONTROL 구성 요소 이름]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어, Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Tableau의 차원 이름인 [!UICONTROL 구성 요소 이름] **[!UICONTROL 제품 이름]**&#x200B;이(가) 있습니다. 모든 차원은 **[!UICONTROL Abc]**(으)로 식별됩니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL Daterangeday]**, **[!UICONTROL Daterangeweek]**, **[!UICONTROL Daterangemonth]** 등으로 사용할 수 있습니다. 날짜 범위 차원을 사용하는 경우 드롭다운 메뉴에서 해당 날짜 범위 차원에 적용할 적절한 날짜 또는 시간 정의를 선택해야 합니다. 예: **[!UICONTROL 년]**, **[!UICONTROL 분기]**, **[!UICONTROL 월]**, **[!UICONTROL 일]**.
 
 **지표**
-Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 이름]으로 식별됩니다. [!UICONTROL 구성 요소 이름]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어, Customer Journey Analytics의 **[!UICONTROL 구매 매출]** 지표에는 Tableau의 지표 이름인 [!UICONTROL 구성 요소 이름] **[!UICONTROL 구매 매출]**&#x200B;이 있습니다. 모든 지표는 **[!UICONTROL #]**(으)로 식별됩니다. 시각화에서 지표를 사용하면 지표 이름이 **[!UICONTROL Sum(*지표*)]**(으)로 바뀝니다.
+Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 이름]으로 식별됩니다. [!UICONTROL 구성 요소 이름]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어, Customer Journey Analytics의 지표 **[!UICONTROL 구매 매출]**&#x200B;에는 Tableau의 지표 이름인 [!UICONTROL 구성 요소 이름] **[!UICONTROL 구매 매출]**&#x200B;이(가) 있습니다. 모든 지표는 **[!UICONTROL #]**(으)로 식별됩니다. 시각화에서 지표를 사용하면 지표 이름이 **[!UICONTROL Sum(*지표*)]**(으)로 바뀝니다.
 
 **필터**
 Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL 필터 이름]** 필드의 일부로 사용할 수 있습니다. Tableau에서 **[!UICONTROL 필터 이름]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
@@ -1988,14 +1989,14 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 
 >[!TAB 조회자]
 
-Customer Journey Analytics 개체는 **[!UICONTROL 탐색]** 인터페이스에서 사용할 수 있습니다. 및 는 Looker에서 연결, 프로젝트 및 모델 설정의 일부로 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 보기 이름은 Customer Journey Analytics의 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
+Customer Journey Analytics 개체는 **[!UICONTROL 탐색]** 인터페이스에서 사용할 수 있습니다. 및 는 Looker에서 연결, 프로젝트 및 모델 설정의 일부로 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 보기 이름은 Customer Journey Analytics에서 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
-**Dimension**
-Customer Journey Analytics의 Dimension은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어, Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**이 있습니다. 이는 Looker의 차원 이름입니다.
+**차원**
+Customer Journey Analytics의 차원은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Looker의 차원 이름인 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL Daterangeday 날짜]**, **[!UICONTROL Daterangeweek 날짜]**, **[!UICONTROL Daterangemonth 날짜]** 등으로 사용할 수 있습니다.  날짜 범위 차원을 사용하는 경우 적절한 날짜 또는 시간 정의를 선택해야 합니다. 예: **[!UICONTROL 년]**, **[!UICONTROL 분기]**, **[!UICONTROL 월]**, **[!UICONTROL 날짜]**.
 
 **지표**
-Customer Journey Analytics의 지표는 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에서 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 구매 매출]** 지표는 **[!UICONTROL DIMENSION]** **[!UICONTROL 구매 매출]**&#x200B;을 갖습니다. 실제로 지표로 사용하려면 위의 예제에 표시된 대로 사용자 지정 측정값 필드를 생성하거나 차원에 대한 단축키를 사용하십시오. 예를 들어 **[!UICONTROL ⋮]**&#x200B;을(를) 선택하고 **[!UICONTROL 집계]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
+Customer Journey Analytics의 지표는 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에서 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 구매 매출]** 지표에는 **[!UICONTROL DIMENSION]** **[!UICONTROL 구매 매출]**&#x200B;이 있습니다. 실제로 지표로 사용하려면 위의 예제에 표시된 대로 사용자 지정 측정값 필드를 생성하거나 차원에 대한 단축키를 사용하십시오. 예를 들어 **[!UICONTROL ⋮]**&#x200B;을(를) 선택하고 **[!UICONTROL 집계]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
 
 **필터**
 Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL 필터 이름]** 필드의 일부로 사용할 수 있습니다. Looker에서 **[!UICONTROL 필터 이름]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
@@ -2012,13 +2013,13 @@ Looker는 위에 표시된 대로 사용자 지정 필드 빌더를 사용하여
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;]**섹션에서 다음을 수행합니다.**[!UICONTROL 
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 Dimension]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 식]** 텍스트 영역에 `lower(${cc_data_view.product_name})`을(를) 입력하십시오. `Product Name`을(를) 입력할 때 올바른 구문이 도움이 됩니다.
-      ![로커 변환 예](assets/uc14-looker-transformation.png)
+      ![로커 변환 예](assets/uc14-looker-transformation.png){zoomable="yes"}
    1. `product name`을(를) **[!UICONTROL 이름]**(으)로 입력하십시오.
    1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 아래 표시된 것과 유사한 표가 표시됩니다.
 
-![로커 변환 결과](assets/uc14-looker-result.png)
+![로커 변환 결과](assets/uc14-looker-result.png){zoomable="yes"}
 
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `LOWER` 함수 사용을 참조하십시오.
@@ -2049,7 +2050,7 @@ Customer Journey Analytics에서 사용할 수 있는 시각화를 BI 도구의 
 
 +++ Customer Journey Analytics
 
-Customer Journey Analytics에는 많은 시각화가 있습니다. 가능한 모든 시각화에 대한 소개와 개요는 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
+Customer Journey Analytics에는 다양한 시각화가 있습니다. 가능한 모든 시각화에 대한 소개와 개요는 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
 
 +++
 
@@ -2061,9 +2062,9 @@ Customer Journey Analytics에는 많은 시각화가 있습니다. 가능한 모
 
 ### 비교
 
-대부분의 Customer Journey Analytics 시각화를 위해 Power BI 데스크톱은 동등한 경험을 제공합니다. 아래 표를 참조하십시오.
+대부분의 Customer Journey Analytics 시각화의 경우 Power BI Desktop은 동등한 경험을 제공합니다. 아래 표를 참조하십시오.
 
-| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크톱 시각화 |
+| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크탑 시각화 |
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [영역](/help/analysis-workspace/visualizations/area.md) | [영역 차트, 누적 영역 차트 및 100% 영역 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) | [클러스터형 열 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
@@ -2146,7 +2147,7 @@ limit 1001
 
 대부분의 Customer Journey Analytics 시각화를 위해 Tableau Desktop은 이와 동등한 경험을 제공합니다. 아래 표를 참조하십시오.
 
-| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크톱 시각화 |
+| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크탑 시각화 |
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [영역](/help/analysis-workspace/visualizations/area.md) | [영역 차트](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) | [막대 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
@@ -2210,7 +2211,7 @@ GROUP BY 1,
 
 대부분의 Customer Journey Analytics 시각화의 경우 Looker에서는 동등한 경험을 제공합니다. 아래 표를 참조하십시오.
 
-| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크톱 시각화 |
+| 아이콘 | Customer Journey Analytics 시각화 | Power BI 데스크탑 시각화 |
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [영역](/help/analysis-workspace/visualizations/area.md) | [영역 차트](https://cloud.google.com/looker/docs/area-options) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) | [막대 차트](https://cloud.google.com/looker/docs/bar-options) |
@@ -2243,7 +2244,7 @@ GROUP BY 1,
 
 ## 주의 사항
 
-지원되는 각 BI 도구에는 Customer Journey Analytics BI 확장 작업에 몇 가지 주의 사항이 있습니다.
+지원되는 각 BI 도구에는 Customer Journey Analytics BI 확장을 사용할 때 몇 가지 주의 사항이 있습니다.
 
 +++ BI 도구
 
@@ -2251,12 +2252,12 @@ GROUP BY 1,
 
 >[!TAB Power BI 데스크톱]
 
-* Power BI 데스크톱 고급 날짜 범위 필터링은 전용입니다.  종료 날짜의 경우 보고하려는 날짜가 지난 날짜를 선택해야 합니다. 예를 들어 **[!UICONTROL 이(가)]** `1/1/2023` **[!UICONTROL 다음]** `1/2/2023` 전후에 있습니다.
-* 연결을 만들 때 Power BI 데스크톱의 기본값은 **[!UICONTROL 가져오기]**&#x200B;입니다. **[!UICONTROL 직접 쿼리]**&#x200B;를 사용하는지 확인하십시오.
-* Power BI 데스크톱은 Power Query를 통해 데이터 변환을 표시합니다.  Power Query는 주로 가져오기 유형 연결에서 작동하므로 날짜 또는 문자열 함수와 같이 적용하는 많은 변환에서 가져오기 유형 연결로 전환해야 한다는 오류가 발생합니다.  쿼리 시간에 데이터를 변환해야 하는 경우 Power BI이 변환 자체를 수행할 필요가 없도록 파생 차원 및 지표를 사용해야 합니다.
-* **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;과(와) 같은 **[!UICONTROL daterange *X *]**차원이 지원되지 않도록 Power BI 데스크톱에서 날짜-시간 형식 열을 처리하는 방법을 이해하지 못했습니다.
-* Power BI 데스크톱은 기본적으로 더 많은 쿼리 서비스 세션을 사용하여 여러 연결을 만들려고 합니다.  프로젝트의 Power BI 설정으로 이동하여 병렬 쿼리를 비활성화합니다.
-* Power BI 데스크톱은 모든 클라이언트 측 정렬 및 제한을 수행합니다. Power BI 데스크톱에는 연결된 값을 포함하는 상위 *X* 필터링에 대한 다른 의미 체계도 있습니다. 따라서 Analysis Workspace에서와 동일한 정렬 및 제한을 만들 수 없습니다.
+* Power BI Desktop 고급 날짜 범위 필터링은 전용입니다.  종료 날짜의 경우 보고하려는 날짜가 지난 날짜를 선택해야 합니다. 예를 들어 **[!UICONTROL 이(가)]** `1/1/2023` **[!UICONTROL 다음]** `1/2/2023` 전후에 있습니다.
+* 연결을 만들 때 Power BI Desktop의 기본값은 **[!UICONTROL 가져오기]**&#x200B;입니다. **[!UICONTROL 직접 쿼리]**&#x200B;를 사용하는지 확인하십시오.
+* Power BI Desktop은 Power Query를 통해 데이터 변환을 표시합니다.  Power Query는 주로 가져오기 유형 연결에서 작동하므로 날짜 또는 문자열 함수와 같이 적용하는 많은 변환에서 가져오기 유형 연결로 전환해야 한다는 오류가 발생합니다.  쿼리 시간에 데이터를 변환해야 하는 경우 Power BI에서 변환 자체를 수행할 필요가 없도록 파생 차원 및 지표를 사용해야 합니다.
+* Power BI Desktop이 날짜-시간 유형 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;와 같은 **[!UICONTROL daterange *X *]**차원이 지원되지 않습니다.
+* Power BI Desktop은 기본적으로 더 많은 쿼리 서비스 세션을 사용하여 여러 연결을 시도합니다.  프로젝트의 Power BI 설정으로 이동하여 병렬 쿼리를 비활성화합니다.
+* Power BI Desktop은 모든 클라이언트측 정렬과 제한을 수행합니다. Power BI Desktop에는 연결된 값을 포함하는 상위 *X* 필터링에 대한 다른 의미 체계도 있습니다. 따라서 Analysis Workspace에서와 동일한 정렬 및 제한을 만들 수 없습니다.
 * 이전 버전의 Power BI Desktop 2024년 10월 릴리스는 PostgreSQL 데이터 소스를 중단합니다. 이 문서에 언급된 버전을 사용해야 합니다.
 
 >[!TAB 타블로 데스크톱]
@@ -2268,7 +2269,7 @@ GROUP BY 1,
 >[!TAB 조회자]
 
 * Looker에는 노드당 최대 연결 수가 5~100개 사이여야 합니다.  이 값을 1로 설정할 수 없습니다.  이 설정은 Looker 연결이 사용 가능한 쿼리 서비스 세션 중 최소 5개를 항상 사용함을 의미합니다.
-* looker를 사용하여 Customer Journey Analytics 데이터 보기를 기반으로 하는 보기를 사용하여 프로젝트를 만들 수 있습니다. 그런 다음 LookerML을 사용하여 데이터 보기에서 사용할 수 있는 차원 및 지표를 기반으로 모델을 만듭니다.  이 프로젝트 보기는 소스와 일치하도록 자동으로 업데이트되지 않습니다.  CJA 데이터 보기 차원, 지표, 계산된 지표 또는 필터를 변경하거나 추가하는 경우 이러한 변경 사항은 자동으로 보기에 표시되지 않습니다.  프로젝트 보기를 수동으로 업데이트하거나 새 프로젝트를 만들어야 합니다.
+* 조회 기능을 사용하면 Customer Journey Analytics 데이터 보기를 기반으로 하는 보기를 사용하여 프로젝트를 만들 수 있습니다. 그런 다음 LookerML을 사용하여 데이터 보기에서 사용할 수 있는 차원 및 지표를 기반으로 모델을 만듭니다.  이 프로젝트 보기는 소스와 일치하도록 자동으로 업데이트되지 않습니다.  CJA 데이터 보기 차원, 지표, 계산된 지표 또는 필터를 변경하거나 추가하는 경우 이러한 변경 사항은 자동으로 보기에 표시되지 않습니다.  프로젝트 보기를 수동으로 업데이트하거나 새 프로젝트를 만들어야 합니다.
 * **[!UICONTROL 날짜 범위 날짜]** 또는 **[!UICONTROL 날짜 범위 날짜]**&#x200B;와 같은 날짜 또는 날짜-시간 필드에 대한 로커의 사용자 경험이 혼동됩니다.
 * 검색자의 날짜 범위는 포괄적이 아닌 배타적입니다.  **[!UICONTROL until(before)]**&#x200B;이(가) 회색이므로 해당 측면을 놓칠 수 있습니다.  종료일의 경우 보고하려는 날의 지난 날짜를 선택해야 합니다.
 * 조회 수는 지표를 자동으로 지표로 취급하지 않습니다.  지표를 선택하면 기본적으로 검색기가 지표를 쿼리의 차원으로 처리하려고 합니다.  지표를 지표로 처리하려면 위에 표시된 대로 사용자 지정 필드를 만들어야 합니다. 바로 가기로 **[!UICONTROL ⋮]**&#x200B;을(를) 선택하고 **[!UICONTROL 집계]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 합계]**&#x200B;를 선택할 수 있습니다.
