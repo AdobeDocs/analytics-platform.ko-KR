@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
+source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13066'
 ht-degree: 2%
 
 ---
@@ -236,7 +236,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
          1. **[!UICONTROL 이 모델에 대한 새 LookML 프로젝트 만들기]**&#x200B;에서 프로젝트 이름을 지정하십시오. `example: example_looker_project`용.
          1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
       1. **[!UICONTROL ➋에서 테이블 선택]**:
-         1. **[!UICONTROL 공개]**&#x200B;를 선택한 다음 Customer Journey Analytics 데이터 보기를 선택하십시오. 예: ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**.
+         1. **[!UICONTROL 공개]**&#x200B;를 선택한 다음 Customer Journey Analytics 데이터 보기를 선택하십시오. 예: ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**.
          1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
       1. **[!UICONTROL ➌에서 기본 키 선택]**:
          1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
@@ -244,7 +244,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
          1. 보기를 선택해야 합니다. 예: **[!UICONTROL cc_data_view.view]**.
          1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
       1. **[!UICONTROL ➎에 모델 이름을 입력하십시오]**:
-         1. 모델 이름을 지정합니다. 예: `example_looker_mode`l.
+         1. 모델 이름을 지정합니다. 예: `example_looker_model`.
       1. **[!UICONTROL 완료 및 데이터 탐색]**&#x200B;을 선택합니다.
 
    Looker의 **[!UICONTROL Explore]** 인터페이스로 리디렉션되어 데이터를 탐색할 수 있습니다.
@@ -258,8 +258,8 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
 | 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션!** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | 오류가 표시됩니다. **[!UICONTROL 제공된 자격 증명으로 인증할 수 없습니다. 다시 시도하십시오.]** |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션**. `%3FFLATTEN`은(는) `?FLATTEN`의 URL 인코딩 버전입니다. |
 
 ### 추가 정보
 
