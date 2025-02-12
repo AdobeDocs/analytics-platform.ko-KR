@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,7 +21,8 @@ ht-degree: 0%
 >이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
+
 
 조직을 위해 Content Analytics를 구성하려면 다음 중 하나를 수행할 수 있습니다.
 

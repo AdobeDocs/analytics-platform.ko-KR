@@ -6,14 +6,22 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
+exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # 컨텐츠 분석 보고 개요
+
+>[!WARNING]
+>
+>이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
+>
+
+{{release-limited-testing}}
 
 컨텐츠 분석에 대한 보고는 Analysis Workspace 내에서 수행됩니다. 특정 Workspace [template](#template)을(를) 사용할 수 있으므로 관련 콘텐츠 인사이트를 사용하여 미리 채워진 Workspace 프로젝트에 즉시 액세스할 수 있습니다.
 

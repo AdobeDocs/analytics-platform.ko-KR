@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
+source-git-commit: 007674fd9da69a4a333d5300c4f4d30640c4b366
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13056'
 ht-degree: 2%
 
 ---
@@ -222,7 +222,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
       1. **[!UICONTROL 선택적 설정]**&#x200B;에서 **[!UICONTROL 모두 확장]**&#x200B;을 선택합니다.
       1. 노드당 **[!UICONTROL 최대 연결]**&#x200B;을(를) `5`(으)로 설정합니다.
       1. **[!UICONTROL SSL]**&#x200B;이 사용하도록 설정되어 있는지 확인하십시오.
-      1. 연결을 테스트하려면 **[!UICONTROL 테스트]**&#x200B;를 선택하십시오. **[!UICONTROL 성공, JDBC 문자열 연결 가능: jdbc:postgresql://examplecompany.platform-query-stage.adobe.io:80/prod:cja?FLATTEN?tcpKeepAlive=true&amp;ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory&amp;sslmode=prefer]** 등의 메시지와 함께 화면 맨 위에 배너가 표시됩니다.
+      1. 연결을 테스트하려면 **[!UICONTROL 테스트]**&#x200B;를 선택하십시오. 화면 맨 위에 **[!UICONTROL 성공, JDBC ....]**&#x200B;에 연결할 수 있음 등의 메시지가 표시된 배너가 표시됩니다.
       1. **[!UICONTROL 연결]**&#x200B;을 선택하여 연결을 설정하고 저장합니다.
    1. **[!UICONTROL 연결]** 인터페이스에 새 연결이 표시됩니다.
    1. 왼쪽 레일에서 기본 탐색으로 이동하려면 **[!UICONTROL 관리자]**&#x200B;에서 **←**&#x200B;을(를) 선택하십시오.
