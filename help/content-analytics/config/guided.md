@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 19%
@@ -256,7 +256,7 @@ Content Analytics 구성에 액세스하려면
 
 * Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 편집하려면 **[!UICONTROL 자산]** 아래에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오.
 
-### 요약
+### 요약 {#summary}
 
 필요한 모든 세부 정보를 제공했으면 요약에 생성 또는 수정된 객체에 대한 세부 정보가 제공됩니다.
 
@@ -266,7 +266,7 @@ Content Analytics 구성에 액세스하려면
 
 ![콘텐츠 분석 구성 요약](../assets/aca-configuration-summary.png)
 
-### 작업
+### 작업 {#actions}
 
 <!-- markdownlint-disable MD034 -->
 
