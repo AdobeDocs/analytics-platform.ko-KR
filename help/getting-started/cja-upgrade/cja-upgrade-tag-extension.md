@@ -10,7 +10,7 @@ exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 23%
+ht-degree: 33%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-extension"
->title="Platform Web SDK 확장을 태그 속성에 추가"
->abstract="Adobe Experience Platform Web SDK 확장을 태그 속성에 추가합니다. 태그 속성에 Web SDK 확장 기능을 추가하는 작업이 간소화되어 완료하는 데 몇 분밖에 걸리지 않습니다."
+>title="태그 속성에 플랫폼 Web SDK 확장 기능 추가"
+>abstract="태그 속성에 Adobe Experience Platform Web SDK 확장 기능을 추가합니다. 태그 속성에 Web SDK 확장 기능을 추가하는 과정이 간소화되어, 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 Adobe Experience Platform 내의 태그 기능을 사용하여 사이트에서 코드를 구현하여 데이터를 수집할 수 있습니다. 이는 다른 태그 지정 요구 사항과 함께 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. 태그는 Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Experience Platform과 원활하게 통합할 수 있도록 해 줍니다.
 
-다음 정보는 태그에 Web SDK 확장을 추가하는 방법을 설명합니다. 자세한 내용은 Experience Platform 문서에서 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 참조하십시오. 웹 SDK에는 기본적으로 [!UICONTROL Adobe Experience Cloud ID 서비스]가 포함되어 있으므로 태그에 ID 서비스 확장을 추가할 필요가 없습니다.
+다음 정보는 태그에 Web SDK 확장을 추가하는 방법을 설명합니다. 자세한 내용은 Experience Platform 설명서에서 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 참조하십시오. 웹 SDK에는 기본적으로 [!UICONTROL Adobe Experience Cloud ID 서비스]가 포함되어 있으므로 태그에 ID 서비스 확장을 추가할 필요가 없습니다.
 
 [태그를 만든](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) 후에는 Adobe Experience Platform Web SDK 확장을 사용하여 태그를 구성해야 합니다. 이렇게 하면 데이터 스트림을 통해 Adobe Experience Platform으로 데이터를 전송할 수 있습니다.
 

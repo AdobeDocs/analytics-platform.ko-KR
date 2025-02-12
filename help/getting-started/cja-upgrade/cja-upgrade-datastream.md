@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics에 대한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,7 +10,7 @@ exl-id: f76d098d-d223-40e4-be81-d28e7581396b
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 20%
+ht-degree: 37%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
->title="Adobe Experience Platform에서 데이터 스트림 만들기"
->abstract="데이터 스트림은 구성된 모든 서비스에 데이터를 전달하는 중간 위치입니다. Adobe Experience Platform에서 이 위치를 만듭니다.<br><br>Platform 인터페이스에서 데이터 스트림을 처음 만드는 데 몇 분 밖에 걸리지 않습니다."
+>title="Adobe Experience Platform에 데이터 스트림 만들기"
+>abstract="데이터 스트림은 구성된 모든 서비스에 데이터를 전달하는 중개 위치입니다. Adobe Experience Platform에 이 위치를 만듭니다.<br><br>몇 분 정도면 플랫폼 인터페이스에서 데이터 스트림을 처음 만들 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 

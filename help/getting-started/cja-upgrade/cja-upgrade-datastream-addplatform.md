@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics에 대한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,24 +10,24 @@ exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 26%
+ht-degree: 42%
 
 ---
 
-# 데이터스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
+# 데이터 스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
->title="데이터스트림에 서비스로 Adobe Experience Platform 추가"
->abstract="데이터 스트림에는 데이터를 보낼 하나 이상의 서비스가 필요합니다. 데이터 스트림에서 Adobe Experience Platform as a service를 설정합니다.<br><br>데이터 스트림에 서비스를 추가하는 간단한 프로세스입니다. 완료하는 데 몇 분밖에 걸리지 않습니다."
+>title="데이터 스트림에 서비스로 Adobe Experience Platform 추가"
+>abstract="데이터 스트림에 데이터를 전송하려면 하나 이상의 서비스가 필요합니다. 데이터 스트림에 서비스로 Adobe Experience Platform을 설정합니다.<br><br>데이터 스트림에 서비스를 추가하는 것은 간단하며 완료까지 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 26%
 
 * Adobe Analytics 구현에서 웹 SDK 또는 웹 SDK 확장을 사용하는 경우 업그레이드 프로세스 전에 Adobe Analytics 환경에서 데이터 스트림을 사용할 수 있었습니다.
 
-* 다른 Adobe Analytics 구현의 경우 [Customer Journey Analytics에 사용할 데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)에 설명된 대로 데이터 스트림을 만드는 것은 업그레이드 프로세스의 일부입니다.
+* 다른 Adobe Analytics 구현의 경우 [Customer Journey Analytics에서 사용할 데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)에 설명된 대로 데이터 스트림을 만드는 것은 업그레이드 프로세스의 일부입니다.
 
 데이터 스트림을 사용할 수 있는 경우 Platform as a Service를 추가해야 합니다.
 

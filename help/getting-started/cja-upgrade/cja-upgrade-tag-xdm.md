@@ -10,7 +10,7 @@ exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="태그에 XDM 데이터 수집 논리 추가"
->abstract="사이트에 설치된 로더 태그를 사용하여 Adobe에 보낼 XDM 개체를 채울 규칙과 데이터 요소를 추가할 수 있습니다. Adobe은 태그가 구성되는 방식을 추적하기 위해 솔루션 디자인 문서를 유지 관리할 것을 권장합니다.<br><br>이 단계에는 속성에 대한 모든 Analytics 논리 설정이 포함되므로 많은 작업이 필요합니다. 한 달 이상 시간을 할애하여 올바른 태그 규칙을 설정하고, 테스트하고, 사이트에 배포합니다."
+>abstract="로더 태그를 사이트에 설치하면 규칙과 데이터 요소를 추가하여 Adobe로 보낼 XDM 오브젝트를 채울 수 있습니다. Adobe는 태그 구성 방식을 추적하기 위해 솔루션 설계 문서를 유지 관리할 것을 권장합니다.<br><br>이 단계는 모든 속성에 대한 모든 분석 논리를 설정하는 것을 포함하기 때문에 많은 작업이 필요합니다. 올바른 태그 규칙을 설정하고 테스트한 후 사이트에 배포하는 데 한 달 이상 소요될 것으로 예상됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
@@ -91,7 +91,7 @@ ht-degree: 31%
 
 #### ECID 데이터 요소
 
-대부분의 조직에 적용되는 공통 데이터 요소는 사이트를 방문하는 각 사용자의 Experience Cloud ID를 캡처하는 데이터 요소입니다.
+대부분의 조직에 적용되는 일반적인 데이터 요소는 사이트를 방문하는 각 사용자의 Experience Cloud ID를 캡처하는 데이터 요소입니다.
 
 ECID 데이터 요소를 만들려면 다음을 수행하십시오.
 

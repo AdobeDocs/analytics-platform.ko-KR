@@ -10,7 +10,7 @@ exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 6%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
 >title="Analytics 소스 커넥터 만들기"
->abstract="Analytics 소스 커넥터를 사용하여 Customer Journey Analytics에 사용할 보고서 세트 데이터를 수집합니다.<br><br>기본 설정으로 Analytics 원본 커넥터를 만드는 데 몇 분 정도 소요됩니다."
+>abstract="Analytics 소스 커넥터를 사용하여 Customer Journey Analytics에 사용할 보고서 모음 데이터를 수집합니다.<br><br>기본 설정으로 Analytics 소스 커넥터를 만들면 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,14 +29,14 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
->title="Analytics 소스 커넥터 만들기 및 스키마 필드 매핑"
->abstract="소스 커넥터는 Adobe Analytics 필드를 조직의 스키마에 매핑하는 방법을 알고 있어야 합니다. 이 인터페이스를 사용하여 소스 커넥터에 해당 매핑을 제공합니다. 이 단계는 Customer Journey Analytics에 내역 데이터를 추가하는 과정의 일부입니다.<br><br>이 단계에 소요되는 시간은 매핑해야 하는 차원과 지표의 수에 따라 다릅니다. 이 단계는 지루하고 반복적인 것만큼 어렵지 않다. 데이터 스트림 매핑을 완료하는 데 약 1주일 정도 걸릴 것으로 예상합니다."
+>title="Analytics 소스 커넥터 및 맵 스키마 필드 만들기"
+>abstract="소스 커넥터는 Adobe Analytics 필드를 조직의 스키마에 매핑하는 방법을 알아야 합니다. 이 인터페이스를 사용하여 소스 커넥터에 해당 매핑을 제공합니다. 이 단계는 Customer Journey Analytics에 과거 데이터를 추가하는 과정의 일부입니다.<br><br>이 단계가 걸리는 시간은 매핑해야 하는 차원과 지표의 수에 따라 크게 달라집니다. 이 단계는 지루하고 반복적인 만큼 어렵지 않습니다. 데이터 스트림 매핑을 완료하는 데 약 일주일 정도 걸릴 것으로 예상됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
@@ -48,7 +48,7 @@ Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데�
 
 Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
 
-1. [Analytics 소스 커넥터에 대한 사용자 지정 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [Analytics 소스 커넥터용 사용자 정의 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
 1. Analytics 소스 커넥터가 없는 경우 아래 설명된 대로 Analytics 소스 커넥터를 만들고 필드를 사용자 지정 웹 SDK 스키마에 매핑합니다.
 
@@ -72,7 +72,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    ![Adobe 응용 프로그램과 함께 소스가 선택된 Adobe Experience Platform 창 및 강조 표시된 데이터 추가](./assets/sources-overview.png)
 
-1. **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트 목록에서 Customer Journey Analytics에 사용할 기록 데이터가 포함된 보고서 세트를 선택합니다.
+1. **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트 목록에서 Customer Journey Analytics에서 사용할 내역 데이터가 포함된 보고서 세트를 선택합니다.
 
    ![보고서 세트 목록을 표시하는 Adobe Experience Platform 창](./assets/report-suites.png)
 
@@ -110,6 +110,6 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    연결이 만들어지면 데이터 흐름이 자동으로 만들어져 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다. 데이터 흐름은 프로덕션 샌드박스에 대해 최대 13개월의 내역 데이터를 수집합니다. 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.
 
-   Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics 웹 SDK 구현으로 가져오는 경우 자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결에 추가해야 합니다.
+   Analytics 소스 커넥터를 사용하여 이전 데이터를 Customer Journey Analytics Web SDK 구현으로 가져오는 경우, 자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결에 추가해야 합니다.
 
 1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.

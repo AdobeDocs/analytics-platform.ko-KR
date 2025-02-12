@@ -10,7 +10,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 28%
+ht-degree: 49%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="사이트에서 로더 태그 구현"
->abstract="웹 사이트 개발 팀과 함께 사이트의 모든 페이지에 로더 태그를 설치합니다.<br><br>이 작업의 완료 시간은 코드를 배포하기 위해 함께 작업하는 엔지니어링 팀의 응답 시간에 따라 크게 달라집니다. 적응형 엔지니어링팀이 많은 일부 조직은 며칠 내에 이 단계를 완료할 수 있지만, 작업 잔량이 많은 엔지니어링팀은 한 달 이상 걸릴 수 있습니다."
+>title="사이트에 로더 태그 구현"
+>abstract="웹 사이트 개발 팀과 협력하여 사이트의 모든 페이지에 로더 태그를 설치합니다.<br><br>이 작업의 완료 시간은 코드 배포를 위해 협력하는 엔지니어링 팀의 응답 시간에 따라 크게 달라집니다. 적응력이 뛰어난 엔지니어링 팀을 보유한 일부 조직은 며칠 만에 이 단계를 완료할 수 있으며, 업무가 많이 쌓인 엔지니어링 팀은 한 달 이상 걸릴 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 

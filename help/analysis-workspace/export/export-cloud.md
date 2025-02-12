@@ -1,29 +1,29 @@
 ---
 description: Analysis Workspace 프로젝트를 클라우드 위치로 내보내는 방법을 알아봅니다.
 keywords: Analysis Workspace
-title: 클라우드로 Customer Journey Analytics 보고서 내보내기
+title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 클라우드로 Customer Journey Analytics 보고서 내보내기 {#full-table-export}
+# Customer Journey Analytics 보고서를 클라우드로 내보내기 {#full-table-export}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
->title="Data Warehouse과 유사한 전체 테이블 내보내기 만들기"
->abstract="전체 테이블 내보내기는 Analysis Workspace에 데이터가 표시되는 즉시 사용할 수 있습니다. 필요에 따라 전체 테이블 내보내기를 생성하거나 예약할 수 있습니다.<br><br>내보내기에 포함할 데이터를 이미 알고 있는 경우 전체 테이블 내보내기를 만드는 데 몇 분밖에 걸리지 않습니다."
+>title="Data Warehouse와 유사한 전체 테이블 내보내기 만들기"
+>abstract="Analysis Workspace에서 데이터를 확인하는 즉시 전체 테이블 내보내기가 가능합니다. 필요에 따라 전체 테이블 내보내기를 만들거나 예약할 수 있습니다.<br><br>내보내기에 포함할 데이터를 이미 알고 있는 경우 전체 테이블 내보내기를 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
-Customer Journey Analytics에서 Workspace 전체 테이블을 내보내고 내보내기를 지정된 클라우드 대상으로 보낼 수 있습니다.
+Customer Journey Analytics에서 Workspace 전체 테이블을 내보내고 내보내기를 지정된 클라우드 대상으로 전송할 수 있습니다.
 
 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md)에 설명된 대로 Customer Journey Analytics 보고서를 내보내는 다른 방법도 사용할 수 있습니다.
 
@@ -155,7 +155,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 * **환경:** Customer Journey Analytics에서 사용하는 [IP 주소](/help/technotes/ip-addresses.md) 및 [도메인](/help/technotes/domains.md)이 해당 조직의 방화벽을 통해 허용되는지 확인하십시오.
 
-* **권한:** Adobe Admin Console에서 전체 테이블을 내보내려면 사용자에게 [!UICONTROL **전체 테이블 내보내기**] 권한이 할당된 제품 프로필이 할당되어야 합니다. Admin Console의 제품 프로필에 권한을 할당하는 방법에 대한 자세한 내용은 [Admin Console의 Customer Journey Analytics 권한](/help/technotes/access-control.md)을 참조하세요.
+* **권한:** Adobe Admin Console에서 전체 테이블을 내보내려면 사용자에게 [!UICONTROL **전체 테이블 내보내기**] 권한이 할당된 제품 프로필이 할당되어야 합니다. Admin Console의 제품 프로필에 권한을 할당하는 방법에 대한 자세한 내용은 Admin Console의 [Customer Journey Analytics 권한](/help/technotes/access-control.md)을 참조하십시오.
 
   >[!NOTE]
   >
@@ -174,7 +174,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 * 동적 차원
 
   자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 참조하십시오.
-* 첫 번째 분류의 Dimension은 변환된 후 내보낸 테이블의 행에 보조 차원으로 추가됩니다. 다른 모든 분류는 테이블에 포함되지 않습니다
+* 첫 번째 분류의 차원은 변환된 후 내보낸 테이블의 행에 보조 차원으로 추가됩니다. 다른 모든 분류는 테이블에 포함되지 않습니다
 * 대부분의 데이터 세트에서는 정렬이 지원되지 않습니다. 작은 데이터 세트에서는 데이터를 정렬할 수 있습니다
 
 ### 지원되지 않는 구성 요소
@@ -216,9 +216,9 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
   >
   >다차원 보고서는 이 문서에 설명된 대로 데이터를 클라우드로 내보낼 때만 지원됩니다.
 
-## 전체 테이블 내보내기(Customer Journey Analytics) 대 Data Warehouse(Adobe Analytics) 비교
+## Customer Journey Analytics의 전체 테이블 내보내기와 Adobe Analytics의 Data Warehouse 비교
 
-이전에 Data Warehouse을 사용하여 Adobe Analytics 데이터를 내보낸 경우 다음 표를 통해 Customer Journey Analytics에서 전체 표를 내보내는 것과 Adobe Analytics에서 Data Warehouse을 사용하여 데이터를 내보내는 것의 차이점을 파악할 수 있습니다.
+이전에 Data Warehouse을 사용하여 Adobe Analytics 데이터를 내보낸 경우 다음 표를 통해 Customer Journey Analytics에서 전체 표를 내보내는 것과 Adobe Analytics에서 Data Warehouse으로 데이터를 내보내는 것의 차이점을 파악할 수 있습니다.
 
 
 | 기능 | Customer Journey Analytics에서 전체 테이블 내보내기 | Adobe Analytics의 Data Warehouse |

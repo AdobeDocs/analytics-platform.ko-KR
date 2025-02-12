@@ -8,7 +8,7 @@ role: User
 source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
 source-wordcount: '3562'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="기본 테이블 지표"
->abstract="자유 형식 테이블에 사용할 기본 지표를 선택합니다. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블이 자동으로 다른 기본 지표로 전환됩니다."
+>abstract="자유 형식 테이블에 사용할 기본 지표를 선택하십시오. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블은 자동으로 다른 기본 지표로 전환합니다."
 
 
 <!-- markdownlint-enable MD034 -->
@@ -186,12 +186,12 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="기본 테이블 지표"
->abstract="플로우 시각화에 사용할 기본 컨테이너를 선택합니다. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 플로우 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+>abstract="흐름 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 흐름 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="기본 테이블 지표"
->abstract="폴아웃 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없는 경우 폴아웃 시각화는 자동으로 다른 기본 컨테이너로 전환됩니다."
+>abstract="폴아웃 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 폴아웃 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 

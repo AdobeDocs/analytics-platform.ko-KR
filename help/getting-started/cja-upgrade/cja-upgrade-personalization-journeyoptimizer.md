@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer에 사용할 개인화 개체 사용
+title: Adobe Journey Optimizer와 함께 사용할 개인화 오브젝트 사용
 description: Adobe Journey Optimizer에 사용할 개인화 개체를 사용하는 방법을 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
@@ -9,18 +9,18 @@ hidefromtoc: true
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Adobe Journey Optimizer에 사용할 개인화 개체 사용 {#upgrade-personalization}
+# Adobe Journey Optimizer와 함께 사용할 개인화 오브젝트 사용 {#upgrade-personalization}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
->title="Adobe Journey Optimizer에 대한 개인화 개체 사용"
->abstract="Adobe Journey Optimizer에서 사용하려면 구현의 개인화 개체를 사용하십시오."
+>title="Adobe Journey Optimizer에 대한 개인화 오브젝트 사용"
+>abstract="Adobe Journey Optimizer에서 사용하려면 구현에서 개인화 오브젝트를 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 

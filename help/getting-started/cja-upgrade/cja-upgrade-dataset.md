@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics에 대한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,7 +10,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 29%
+ht-degree: 44%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
->title="Adobe Experience Platform에서 데이터 세트 만들기"
->abstract="데이터 세트는 수집된 데이터가 있는 위치입니다. Adobe Experience Platform에서 이 위치를 만듭니다.<br><br>스키마를 염두에 두고 데이터 세트를 만드는 데 몇 분 정도 소요됩니다."
+>title="Adobe Experience Platform에 데이터 세트 만들기"
+>abstract="데이터 세트는 수집된 데이터가 있는 위치입니다. Adobe Experience Platform에 이 위치를 만듭니다.<br><br>스키마를 염두에 두고 데이터 세트를 만들면 몇 분이면 충분합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 

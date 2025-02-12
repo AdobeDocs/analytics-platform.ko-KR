@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics에서 데이터 보기 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics에 데이터 보기 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,24 +10,24 @@ exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 20%
+ht-degree: 38%
 
 ---
 
-# Customer Journey Analytics에서 데이터 보기 만들기 {#upgrade-create-dataview}
+# Customer Journey Analytics에 데이터 보기 만들기 {#upgrade-create-dataview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
->title="Customer Journey Analytics에서 데이터 보기 만들기"
->abstract="데이터 보기는 연결에서 데이터를 해석하는 방법을 결정할 수 있도록 해주는 Customer Journey Analytics과 관련된 컨테이너입니다.<br><br>데이터 보기를 처음 만드는 데 몇 분이 걸리지만 원하는 구성 요소 설정으로 각 차원과 지표를 구성하는 데 며칠이 걸릴 수 있습니다. 이러한 설정 변경은 소급하여 적용되므로 조직에서 시간이 지남에 따라 설정을 세분화할 수 있습니다."
+>title="Customer Journey Analytics에 데이터 보기 만들기"
+>abstract="데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다.<br><br>데이터 보기를 처음 만드는 건 몇 분이면 되지만 각 차원과 지표 원하는 구성 요소 설정으로 구성하는 데는 며칠이 걸릴 수 있습니다. 이러한 설정을 조정하면 조직이 시간이 지남에 따라 이를 개선할 수 있도록 소급 적용됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 20%
 
    ![구성 요소 탭](assets/dataview-components.png)
 
-1. [!UICONTROL **구성 요소**] 탭에서 왼쪽 레일의 스키마 요소를 [!UICONTROL **지표**] 섹션 또는 [!UICONTROL **Dimension**] 섹션으로 끌어옵니다. 추가하는 스키마 요소는 데이터 보기에서 지표 또는 차원이 됩니다.
+1. [!UICONTROL **구성 요소**] 탭에서 왼쪽 레일의 스키마 요소를 [!UICONTROL **지표**] 섹션 또는 [!UICONTROL **차원**] 섹션으로 끌어옵니다. 추가하는 스키마 요소는 데이터 보기에서 지표 또는 차원이 됩니다.
 
    데이터 보기에 구성 요소를 추가할 때 사용할 수 있는 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)의 [구성 요소](/help/data-views/create-dataview.md#components)를 참조하십시오.
 

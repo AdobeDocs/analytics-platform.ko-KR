@@ -170,7 +170,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >[!CONTEXTUALHELP]
 >id="template--training"
 >title="교육 튜토리얼 템플릿"
->abstract="일반적인 Analysis Workspace 용어와 첫 번째 분석 구축 단계를 알아보십시오."
+>abstract="일반적인 Analysis Workspace 용어와 첫 번째 분석 빌드 단계를 알아보십시오."
 
 <!-- markdownlint-enable MD034 -->
 

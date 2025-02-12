@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 마케팅 채널 파생 필드 만들기
-description: Customer Journey Analytics을 위한 마케팅 채널 파생 필드를 만드는 방법을 알아봅니다
+title: Customer Journey Analytics를 위한 마케팅 채널 파생 필드 만들기
+description: Customer Journey Analytics에 대한 마케팅 채널 파생 필드를 만드는 방법을 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,30 +10,30 @@ exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
-# Customer Journey Analytics을 위한 마케팅 채널 파생 필드 만들기 {#create-marketing-channel-derived-field}
+# Customer Journey Analytics를 위한 마케팅 채널 파생 필드 만들기 {#create-marketing-channel-derived-field}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
 >title="마케팅 채널 파생 필드 만들기"
->abstract="파생된 필드는 데이터 보기 내에 만들어집니다.<br><br>기본 마케팅 채널 설정을 사용하는 데 몇 분 밖에 걸리지 않습니다. 고도로 사용자 지정된 마케팅 채널 설정을 만드는 데 몇 시간이 걸릴 수 있습니다."
+>abstract="파생 필드는 데이터 보기 내에서 생성됩니다.<br><br>기본 마케팅 채널 설정 사용 시간은 몇 분 정도이지만 고도로 맞춤화된 마케팅 채널 설정을 만들기 위해서는 몇 시간이 걸릴 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 Analytics 소스 커넥터를 사용하면 마케팅 채널 데이터가 해당 커넥터를 통해 Customer Journey Analytics으로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [마케팅 채널 차원 사용](/help/use-cases/aa-data/marketing-channels.md)을 참조하세요.
 
-Experience Platform 웹 SDK을 사용할 때 Customer Journey Analytics에서 마케팅 채널을 사용하려면 데이터 보기에서 파생 필드를 사용하여 동일한 마케팅 채널과 Customer Journey Analytics에 대한 처리 규칙을 다시 만들 수 있습니다.
+Experience Platform Web SDK을 사용할 때 Customer Journey Analytics의 마케팅 채널을 사용하려면 데이터 보기에서 파생 필드를 사용하여 Customer Journey Analytics에 대해 동일한 마케팅 채널과 처리 규칙을 다시 만들 수 있습니다.
 
 1. Customer Journey Analytics에서 마케팅 채널을 추가할 데이터 보기를 선택합니다.
 

@@ -10,7 +10,7 @@ exl-id: 424485a3-a076-4656-83b6-733f16cc2326
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 25%
+ht-degree: 32%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-dataset"
 >title="연결에 Analytics 소스 커넥터 데이터 세트 추가"
->abstract="이제 Analytics 보고서 세트의 내역 데이터가 Adobe Experience Platform에 있으므로 Customer Journey Analytics을 처음 구성할 때 만든 기존 연결에 해당 데이터 세트를 추가하십시오. 이 단계가 완료되면 Customer Journey Analytics의 내역 데이터를 사용할 수 있습니다.<br><br>Customer Journey Analytics에서 데이터 집합을 연결에 추가하는 작업은 간단하며 완료하는 데 몇 분밖에 걸리지 않습니다."
+>abstract="Analytics 보고서 모음의 과거 데이터가 Adobe Experience Platform에 있으므로, Customer Journey Analytics를 처음 구성할 때 만든 기존 연결에 해당 데이터 세트를 추가합니다. 이 단계가 완료되면 Customer Journey Analytics의 과거 데이터를 사용할 수 있습니다.<br><br>Customer Journey Analytics에서 연결에 데이터 세트를 추가하는 작업은 간단하여 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
@@ -53,7 +53,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 [이전 데이터에 대한 Analytics 소스 커넥터를 만든](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) 후 Analytics 데이터에 대한 데이터 세트가 자동으로 만들어집니다.
 
-자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 웹 SDK 데이터와 Customer Journey Analytics에서 동일한 데이터 보기로 전송됩니다.
+자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 웹 SDK 데이터와 Customer Journey Analytics의 동일한 데이터 보기에 표시됩니다.
 
 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 자동으로 만든 데이터 세트를 추가하려면 다음을 수행하십시오.
 
@@ -96,7 +96,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 1. **[!UICONTROL 데이터 세트 채우기]** 섹션에서 **[!UICONTROL 채우기 요청]**&#x200B;을(를) 선택합니다.
 
-1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 연결을 Customer Journey Analytics에 다시 채울 기간을 정의합니다.
+1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 Customer Journey Analytics에 연결을 다시 채울 기간을 정의합니다.
 
    다시 채우기를 요청하는 날짜를 지정할 때 명시해야 합니다. 몇 가지 요인에 따라 다음 중 하나를 수행할 수 있습니다.
 

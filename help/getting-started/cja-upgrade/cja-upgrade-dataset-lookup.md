@@ -1,5 +1,5 @@
 ---
-title: 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터 분류
+title: Customer Journey Analytics에서 데이터를 분류하기 위한 조회 데이터 세트 만들기
 description: 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터를 분류하는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
@@ -10,32 +10,32 @@ exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# 조회 데이터 세트를 만들어 Customer Journey Analytics에서 데이터 분류 {#upgrade-lookup-dataset}
+# Customer Journey Analytics에서 데이터를 분류하기 위한 조회 데이터 세트 만들기 {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-lookup-dataset-create"
->title="분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다"
->abstract="Adobe Analytics의 분류 데이터와 마찬가지로 조회 데이터 세트는 Customer Journey Analytics에서 데이터를 분류하는 방법입니다."
+>title="분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트 만들기"
+>abstract="조회 데이터 세트는 Adobe Analytics의 분류 데이터와 유사하게 Customer Journey Analytics에서 데이터를 분류하는 방법입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
-Adobe Analytics의 분류 데이터와 마찬가지로 조회 데이터 세트는 Customer Journey Analytics에서 데이터를 분류하는 방법입니다.
+조회 데이터 세트는 Adobe Analytics의 분류 데이터와 유사하게 Customer Journey Analytics에서 데이터를 분류하는 방법입니다.
 
 Analytics 소스 커넥터를 사용하는 경우 일부 표준 조회 데이터 세트가 보고서 시간에 자동으로 적용됩니다. 자세한 내용은 [데이터 세트에 표준 조회 추가](/help/connections/standard-lookups.md)를 참조하십시오.
 
-Experience Platform 웹 SDK을 사용할 때 Customer Journey Analytics에서 데이터를 분류하려면 분류할 데이터가 포함된 각 차원에 대한 사용자 지정 스키마 및 조회 데이터 세트를 만들어야 합니다.
+Experience Platform Web SDK을 사용할 때 Customer Journey Analytics에서 데이터를 분류하려면 분류할 데이터가 포함된 각 차원에 대한 사용자 지정 스키마 및 조회 데이터 세트를 만들어야 합니다.
 
 ## 조회 데이터 세트에 사용할 사용자 지정 스키마 만들기
 
@@ -71,7 +71,7 @@ Customer Journey Analytics에서 조회 데이터 세트와 함께 사용할 스
 
 분류할 데이터가 포함된 각 차원에 대해 이 프로세스를 반복합니다.
 
-Customer Journey Analytics의 스키마와 함께 사용할 조회 데이터 세트를 만들려면:
+Customer Journey Analytics의 스키마와 함께 사용할 조회 데이터 세트를 만들려면 다음 작업을 수행하십시오.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Customer Journey Analytics의 스키마와 함께 사용할 조회 데이터 세
 
 분류할 데이터가 포함된 각 차원에 대해 이 프로세스를 반복합니다.
 
-Customer Journey Analytics에서 연결에 조회 데이터 세트를 추가하려면:
+Customer Journey Analytics에서 연결에 조회 데이터 세트를 추가하려면 다음을 수행하십시오.
 
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
 

@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다.
+title: Customer Journey Analytics에 대한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,30 +10,30 @@ exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '1708'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
-# Customer Journey Analytics에서 사용할 연결 만들기 및 구성 {#upgrade-create-connection}
+# Customer Journey Analytics와 함께 사용할 연결 만들기 및 구성 {#upgrade-create-connection}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-connection"
 >title="Customer Journey Analytics에 연결 만들기"
->abstract="연결을 통해 Adobe Experience Platform의 데이터를 Customer Journey Analytics 보고에 최적화된 형식으로 변환할 수 있습니다. Customer Journey Analytics에서 연결을 만드는 것은 간단하며 완료하는 데 몇 분밖에 걸리지 않습니다."
+>abstract="연결을 통해 Adobe Experience Platform의 데이터를 Customer Journey Analytics 보고에 최적화된 형식으로 변환할 수 있습니다. Customer Journey Analytics에서 연결을 만드는 것은 간단하며, 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/connections/create-connection.md -->
 
-다음 정보에서는 연결을 만들고 구성하는 방법과 만든 연결에 Experience Platform 데이터 세트를 추가하는 방법을 설명합니다. 연결 만들기 및 구성에 대한 자세한 내용은 [연결 만들기 또는 편집](/help/connections/create-connection.md)을 참조하세요.
+다음 정보는 연결을 만들고 구성하는 방법과 더불어 만든 연결에 Experience Platform 데이터 세트를 추가하는 방법을 설명합니다. 연결 만들기 및 구성에 대한 자세한 내용은 [연결 만들기 또는 편집](/help/connections/create-connection.md)을 참조하세요.
 
 ## 연결 만들기 및 구성 {#create-connection}
 

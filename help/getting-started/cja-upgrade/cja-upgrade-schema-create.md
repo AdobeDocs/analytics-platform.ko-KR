@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics을 위한 사용자 지정 스키마 만들기
-description: Customer Journey Analytics을 위한 사용자 지정 스키마를 만드는 방법 알아보기
+title: Customer Journey Analytics에 대한 사용자 지정 스키마 만들기
+description: Customer Journey Analytics에 대한 사용자 지정 스키마를 만드는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,18 +10,18 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 37%
+ht-degree: 51%
 
 ---
 
-# Customer Journey Analytics Web SDK 구현에 사용할 사용자 지정 스키마 만들기 {#create-custom-schema}
+# Customer Journey Analytics Web SDK 구현에 사용할 사용자 정의 스키마 만들기 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
->title="Adobe Experience Platform에서 원하는 사용자 지정 스키마 만들기"
->abstract="Adobe Experience Platform UI를 사용하여 Adobe이 데이터를 저장할 올바른 형식을 알 수 있도록 스키마를 만듭니다.<br><br>이 단계에는 조직에서 동의한 실제 스키마 만들기가 포함됩니다. 만들어야 하는 차원 및 지표의 수에 따라 Adobe Experience Platform 인터페이스에서 스키마를 만드는 데 걸리는 예상 시간은 약 1주입니다."
+>title="Adobe Experience Platform에 원하는 사용자 정의 스키마 만들기"
+>abstract="Adobe Experience Platform UI를 사용하여 스키마를 만들면 Adobe에서 데이터를 저장하는 데 적합한 형식을 알 수 있습니다.<br><br>이 단계에는 조직에서 합의한 스키마를 실제로 만드는 것이 포함됩니다. Adobe Experience Platform 인터페이스에서 스키마를 만드는 데 걸리는 예상 시간은 약 일주일이며, 이는 만들어야 하는 차원과 지표의 수에 따라 달라집니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
 >title="Adobe Analytics ExperienceEvent 필드 그룹을 사용하여 스키마 만들기"
->abstract="&#39;Adobe Analytics ExperienceEvent&#39; 필드 그룹을 사용하여 Adobe Analytics에서 사용하는 모든 필드가 포함된 Adobe Experience Platform의 스키마를 만듭니다.<br><br>Adobe Analytics ExperienceEvent 필드 그룹을 기반으로 스키마를 만드는 방법은 간단합니다. 완료하는 데 몇 분밖에 걸리지 않습니다."
+>abstract="“Adobe Analytics ExperienceEvent” 필드 그룹을 사용하여 Adobe Analytics에서 사용하는 모든 필드를 포함하는 스키마를 Adobe Experience Platform에 만듭니다.<br><br>Adobe Analytics ExperienceEvent 필드 그룹을 기반으로 스키마를 만드는 것은 간단하며, 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,28 +38,28 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
->title="프로필에 대한 스키마 활성화"
->abstract="실시간 CDP Adobe에 사용할 수 있도록 스키마에서 프로필을 활성화합니다. 이 단계는 Adobe Real-time CDP와 통합하려는 대상을 선택했기 때문에 나타납니다.<br><br>이 단계에는 단일 상자를 클릭하는 작업이 포함되므로 이 단계에는 몇 분만 소요됩니다."
+>title="프로필용으로 스키마 활성화"
+>abstract="Adobe Real-time CD에서 사용할 수 있도록 스키마에서 프로필을 활성화합니다. 이 단계는 Adobe Real-time CDP와 통합하기를 선택했기 때문에 나타납니다.<br><br>이 단계에서는 상자 하나만 클릭하기 때문에 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나, [Adobe Analytics을 사용하여 조직에 대해 동적으로 생성된 업그레이드 단계를 따라 업그레이드 Customer Journey Analytics을](https://gigazelle.github.io/cja-ttv/)할 수 있습니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
 >[!IMPORTANT]
 >
->사용자 정의 스키마를 생성하기 전에 조직 내의 데이터 팀 및 기타 관련자와 협력하여 사용하는 Customer Journey Analytics 및 기타 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 식별하십시오. 자세한 내용은 [Customer Journey Analytics에 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
+>사용자 정의 스키마를 생성하기 전에 조직 내의 데이터 팀 및 기타 관련자와 협력하여 Customer Journey Analytics 및 사용하는 기타 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 식별하십시오. 자세한 내용은 [Customer Journey Analytics에서 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
 
-다음 섹션에서는 Customer Journey Analytics과 함께 사용할 수 있는 스키마를 만드는 방법을 설명합니다. 다음 스키마 옵션을 사용할 수 있습니다.
+다음 섹션에서는 Customer Journey Analytics에서 사용할 수 있는 스키마를 만드는 방법을 설명합니다. 다음 스키마 옵션을 사용할 수 있습니다.
 
 * **사용자 지정 XDM 스키마:**(권장) 조직의 요구 사항과 사용하는 특정 Platform 응용 프로그램에 맞게 조정된 간소화된 스키마를 허용합니다. 향후 필요한 모든 변경 사항은 간단합니다.
 
 * **Adobe Analytics ExperienceEvent 필드 그룹을 사용하는 Adobe Analytics 스키마:** 불필요한 필드 수천 개를 추가해야 합니다. 앞으로 필요한 모든 변화는 더 어렵습니다.
 
-이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
+이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics에 대한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
 
 ## 스키마 만들기
 
@@ -114,9 +114,9 @@ ht-degree: 37%
 
    1. (선택 사항) 포함할 추가 필드 그룹을 선택합니다.
 
-      사용자 지정 XDM 스키마를 만들지 않고 기본 Adobe Analytics 스키마를 사용하도록 선택한 경우 이제 Adobe Analytics ExperienceEvent 필드 그룹을 추가할 수 있습니다. Adobe 그러나 이 필드 그룹을 추가하는 것보다 사용자 지정 XDM 스키마를 만드는 것이 좋습니다.
+      사용자 지정 XDM 스키마를 만들지 않고 기본 Adobe Analytics 스키마를 사용하도록 선택한 경우 이제 Adobe Analytics ExperienceEvent 필드 그룹을 추가할 수 있습니다. 그러나 Adobe에서는 이 필드 그룹을 추가하는 것보다 사용자 지정 XDM 스키마를 만드는 것이 좋습니다.
 
-      이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
+      이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics에 대한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
 
    1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
