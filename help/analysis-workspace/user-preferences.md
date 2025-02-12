@@ -6,7 +6,7 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3562'
 ht-degree: 100%
 
@@ -76,8 +76,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
->title="범주형 팔레트"
->abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주형 값을 나타냅니다."
+>title="카테고리형 팔레트"
+>abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 카테고리형 값을 나타냅니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | **표시** | | |
 |  | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 범주형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
+| | [색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 카테고리형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
 |  | [데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view) | 테이블 및 시각화가 데이터를 도출하는 데이터를 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
 |  | [캘린더](/help/analysis-workspace/c-panels/panels.md#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>[!UICONTROL 기본적으로 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]를 활성화할 수 있습니다.</li></ul> |

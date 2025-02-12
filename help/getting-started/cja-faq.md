@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 1bea6a1bc7d2070f01a60ef859675a0f9d03c86d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 >
 >Customer Journey Analytics에는 고정된 데이터 크기가 없으므로 Adobe는 표준 수집 시간을 약속할 수 없습니다. Adobe는 새로운 업데이트와 수집 최적화를 통해 이러한 지연 시간을 줄이기 위해 적극적으로 노력하고 있습니다.
 
-* 라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기 > 5천만 행: 90분 이상) 결합이 활성화된 경우 수집에는 최대 4시간이 소요될 수 있습니다. 자세한 내용은 [보호 기능](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails)을 참조하세요.
+* 라이브 데이터 또는 이벤트: Adobe Experience Platform에서 데이터를 사용할 수 있게 되면 90분 이내에 처리 및 수집됩니다. (배치 크기가 5,000만 행 이상: 90분 이상) 스티칭이 활성화된 경우 수집에 최대 4시간 정도 소요될 수 있습니다. 자세한 내용은 [가드레일](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/guardrails)을 참조하십시오.
 * 소규모 채우기: 7일 이내
 * 대규모 채우기: 30일 이내
 
@@ -260,7 +260,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 
 | RDC 유형 | 데이터 수집 센터 |
 | --- | --- |
-| 글로벌(기본값) | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
+| 글로벌 (기본값) | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 아메리카만 | 오리건, 버지니아 |
 | 유럽만 | 아일랜드, 파리 |
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
