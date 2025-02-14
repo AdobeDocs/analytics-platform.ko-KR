@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
+source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
 workflow-type: tm+mt
-source-wordcount: '14688'
+source-wordcount: '14697'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 2%
 * **타블로 데스크톱**. 사용된 버전은 2024.1.5(20241.24.0705.0334) 64비트입니다.
 * **조회자**. 온라인 버전 25.0.23([looker.com](https://looker.com){target="_blank"}을 통해 사용 가능)
 * **Jupyter 전자 필기장**. 사용된 버전은 7.3.2입니다.
+* **자습서**. 사용된 버전은 2024.12.0, 빌드 467입니다.
 
 다음 사용 사례가 문서화되어 있습니다.
 
