@@ -21,7 +21,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement"
 >title="AppMeasurement 데이터 수집 비활성화"
->abstract="Web SDK 데이터가 완벽하게 작동하려면 개발자 팀과 협력하여 웹 사이트나 속성에서 AppMeasurement.js를 제거합니다.<br><br>웹 사이트에서 AppMeasurement를 제거하는 작업은 몇 분밖에 걸리지 않지만 엔지니어링 팀에서 완료하는 데는 시간이 좀 걸릴 수 있습니다. 그러나 Analytics 사용자가 Adobe Analytics가 아닌 Customer Journey Analytics를 사용하고 있는지 확인하십시오. 아직 이 작업을 수행하지 않았다면 모든 사용자를 이동시키기 위한 공지 프로세스가 훨씬 더 오래 걸릴 수 있습니다."
+>abstract="Web SDK 데이터가 완벽하게 작동하려면 개발자 팀과 협력하여 웹 사이트나 속성에서 AppMeasurement.js를 제거합니다.<br><br>웹 사이트에서 AppMeasurement를 제거하는 작업은 몇 분밖에 걸리지 않지만 엔지니어링 팀에서 완료하는 데는 시간이 좀 걸릴 수 있습니다. 단, Analytics 사용자가 Adobe Analytics가 아닌 Customer Journey Analytics를 사용하고 있는지 확인하십시오. 아직 이 작업을 수행하지 않았다면 모든 사용자를 이동시키기 위한 공지 프로세스가 훨씬 더 오래 걸릴 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

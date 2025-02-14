@@ -21,7 +21,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-extension"
 >title="태그 속성에 플랫폼 Web SDK 확장 기능 추가"
->abstract="태그 속성에 Adobe Experience Platform Web SDK 확장 기능을 추가합니다. 태그 속성에 Web SDK 확장 기능을 추가하는 과정이 간소화되어, 완료하는 데 몇 분밖에 걸리지 않습니다."
+>abstract="태그 속성에 Adobe Experience Platform Web SDK 확장 기능을 추가합니다. 태그 속성에 Web SDK 확장 기능을 추가하는 과정이 간소화되어 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
