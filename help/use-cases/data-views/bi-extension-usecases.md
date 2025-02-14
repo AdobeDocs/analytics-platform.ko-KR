@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: ffa5bcbe246696a8364ff312bff1b7cc1256ff2c
+source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
 workflow-type: tm+mt
-source-wordcount: '13056'
+source-wordcount: '14688'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 2%
 * **Power BI 데스크톱**. 사용된 버전은 2.137.1102.0 64비트(2024년 10월)입니다.
 * **타블로 데스크톱**. 사용된 버전은 2024.1.5(20241.24.0705.0334) 64비트입니다.
 * **조회자**. 온라인 버전 25.0.23([looker.com](https://looker.com){target="_blank"}을 통해 사용 가능)
+* **Jupyter 전자 필기장**. 사용된 버전은 7.3.2입니다.
 
 다음 사용 사례가 문서화되어 있습니다.
 
@@ -264,6 +265,199 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
 * [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
 
+
+>[!TAB Jupyter 전자 필기장]
+
+1. Experience Platform 쿼리 서비스 UI에서 필요한 자격 증명 및 매개 변수에 액세스합니다.
+
+   1. Experience Platform 샌드박스로 이동합니다.
+   1. 왼쪽 레일에서 ![쿼리](/help/assets/icons/DataSearch.svg) **[!UICONTROL 쿼리]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
+
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+
+1. Jupyter Notebook 환경을 실행하기 위한 전용 Python 가상 환경을 설정했는지 확인하십시오.
+1. 가상 환경에 필요한 라이브러리를 설치했는지 확인합니다.
+   * ipython-sql: `pip install ipython-sql`.
+   * psycopg2-binary: `pip install psycopg-binary`.
+   * sqlalchemy: pip `install sqlalchemy`.
+
+1. 가상 환경 `jupyter notebook`에서 Jupyter Notebook을 시작합니다.
+1. 새 전자 필기장을 만들거나 [이 샘플 전자 필기장](assets/BI-Extension.ipynb.zip)을 다운로드하세요.
+1. 첫 번째 셀에 다음을 입력하고 실행합니다.
+
+   ```
+   %config SqlMagic.style = '_DEPRECATED_DEFAULT'
+   ```
+
+1. 새 셀에 연결에 대한 구성 매개 변수를 입력합니다. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 구성 매개 변수에 필요한 값으로 복사하고 붙여 넣습니다. 예:
+
+   ```
+   import ipywidgets as widgets
+   from IPython.display import display
+   
+   config_host = widgets.Text(description='Host:', value='example.platform-query-stage.adobe.io',
+                           layout=widgets.Layout(width="600px"))
+   display(config_host)
+   config_port = widgets.IntText(description='Port:', value=80,
+                              layout=widgets.Layout(width="200px"))
+   display(config_port)
+   config_db = widgets.Text(description='Database:', value='prod:cja',
+                         layout=widgets.Layout(width="300px"))
+   display(config_db)
+   config_username = widgets.Text(description='Username:', value='EC582F955C8A79F70A49420E@AdobeOrg',
+                               layout=widgets.Layout(width="600px"))
+   display(config_username)
+   config_password = widgets.Password(description='Password:', value='***',
+                                   layout=widgets.Layout(width="600px"))
+   display(config_password)
+   ```
+
+1. 셀을 실행합니다.
+1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 Jupyter Notebook의 **[!UICONTROL 암호]** 필드로 암호를 복사하여 붙여넣으십시오.
+
+   ![Jupter Notebook 구성 단계 1](assets/jupyter-config-step1.png)
+
+1. 새 셀에서 SQL 확장, 필수 라이브러리를 로드하고 Customer Journey Analytics과 연결할 명령문을 입력합니다.
+
+   ```python
+   %load_ext sql
+   from sqlalchemy import create_engine
+   %sql postgresql://{config_username.value}:{config_password.value}@{config_host.value}:{config_port.value}/{config_db.value}?sslmode=require
+   ```
+
+   셸을 실행합니다. 출력은 표시되지 않지만 셀은 경고 없이 실행됩니다.
+
+   ![Jupyer Notebook 구성 단계 4](assets/jupyter-config-step2.png)
+
+1. 새 호출에서 문을 입력하여 연결에 따라 사용 가능한 데이터 보기 목록을 가져옵니다.
+
+   ```python
+   %%sql
+   SELECT n.nspname as "Schema",
+      c.relname as "Name",
+      CASE c.relkind WHEN 'r' THEN 'table' WHEN 'v' THEN 'view' WHEN 'm' THEN 'materialized view' WHEN 'i' THEN 'index' WHEN 'S' THEN 'sequence' WHEN 's' THEN 'special' WHEN 't' THEN 'TOAST table' WHEN 'f' THEN 'foreign table' WHEN 'p' THEN 'partitioned table' WHEN 'I' THEN 'partitioned index' END as "Type",
+      pg_catalog.pg_get_userbyid(c.relowner) as "Owner"
+   FROM pg_catalog.pg_class c
+   LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+   WHERE c.relkind IN ('v','')
+      AND n.nspname <> 'pg_catalog'
+      AND n.nspname !~ '^pg_toast'
+      AND n.nspname <> 'information_schema'
+      AND pg_catalog.pg_table_is_visible(c.oid)
+      AND c.relname NOT LIKE '%test%'
+      AND c.relname NOT LIKE '%ajo%'
+   ORDER BY 1,2;
+   ```
+
+   셸을 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 구성 단계 5](assets/jupyter-config-step3.png)
+
+   데이터 보기 목록에 **[!UICONTROL cc_data_view]**&#x200B;이(가) 표시됩니다.
+
+### 평면화할지 말지
+
+Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+
+| 평면화 매개 변수 | 예 | 지원됨 | 비고 |
+|---|---|:---:|---|
+| 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션**. `%3FFLATTEN`은(는) `?FLATTEN`의 URL 인코딩 버전입니다. |
+
+### 추가 정보
+
+* [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
+* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+
+>[!TAB 자습서]
+
+1. Experience Platform 쿼리 서비스 UI에서 필요한 자격 증명 및 매개 변수에 액세스합니다.
+
+   1. Experience Platform 샌드박스로 이동합니다.
+   1. 왼쪽 레일에서 ![쿼리](/help/assets/icons/DataSearch.svg) **[!UICONTROL 쿼리]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴에서 `prod:cja`을(를) 선택합니다.
+
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+
+1. RStudio를 시작합니다.
+1. 새 R Markdown 파일을 만들거나 [이 예제 R Markdown 파일](assets/BI-Extension.Rmd.zip)을 다운로드합니다.
+1. 첫 번째 청크에 ` ```{r} `과(와) ` ``` ` 사이의 다음 문을 입력하십시오. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
+
+   ```R
+   library(rstudioapi)
+   library(DBI)
+   library(dplyr)
+   library(tidyr)
+   library(RPostgres)
+   library(ggplot2)
+   
+   host <- rstudioapi::showPrompt(title = "Host", message = "Host", default = "orangestagingco.platform-query-stage.adobe.io")
+   dbname <- rstudioapi::showPrompt(title = "Database", message = "Database", default = "prod:cja?FLATTEN")
+   user <- rstudioapi::showPrompt(title = "Username", message = "Username", default = "EC582F955C8A79F70A49420E@AdobeOrg")
+   password <- rstudioapi::askForPassword(prompt = "Password")
+   ```
+
+1. 청크를 실행합니다. **[!UICONTROL 호스트]**, **[!UICONTROL 데이터베이스]** 및 **[!UICONTROL 사용자]**&#x200B;를 묻는 메시지가 표시됩니다. 이전 단계의 일부로 제공한 값을 수락하면 됩니다.
+1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 RStudio의 **[!UICONTROL 암호]** 대화 상자 프롬프트로 암호를 복사하고 붙여넣으십시오.
+
+   ![RStudio 구성 단계 1](assets/rstudio-config-step1.png)
+
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   con <- dbConnect(
+      RPostgres::Postgres(),
+      host = host,
+      port = 80,
+      dbname = dbname,
+      user = user,
+      password = password,
+      sslmode = 'require'
+   )
+   ```
+
+1. 청크를 실행합니다. 연결에 성공하면 출력이 표시되지 않습니다.
+
+
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   views <- dbListTables(con)
+   print(views)
+   ```
+
+1. 청크를 실행합니다. `character(0)`이(가) 유일한 출력으로 표시됩니다.
+
+
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   glimpse(dv)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
+
+   ![RStudio 구성 단계 2](assets/rstudio-config-step2.png)
+
+### 평면화할지 말지
+
+RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+
+| 평면화 매개 변수 | 예 | 지원됨 | 비고 |
+|---|---|:---:|---|
+| 없음 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **사용할 권장 옵션**. |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCircle](/help/assets/icons/CloseCircle.svg) | |
+
+### 추가 정보
+
+* [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
+* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+
 >[!ENDTABS]
 
 +++
@@ -381,6 +575,54 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 ![조회 결과 일일 트렌드](assets/uc2-looker-result.png){zoomable="yes"}
 
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangeday AS Date, COUNT(*) AS Events \
+             FROM cc_data_view \
+             WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+             GROUP BY 1 \
+             ORDER BY Date ASC
+   df = data.DataFrame()
+   df = df.groupby('Date', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Date', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc2-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Daily Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      group_by(daterangeday) %>%
+      count() %>%
+      arrange(daterangeday, .by_group = FALSE)
+   ggplot(df, aes(x = daterangeday, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Date")
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc2-rstudio-results.png)
+
 >[!ENDTABS]
 
 +++
@@ -470,6 +712,54 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
 ![조회 결과 일일 트렌드](assets/uc3-looker-result.png){zoomable="yes"}
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangehour AS Hour, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-01-02' \
+               GROUP BY 1 \
+                ORDER BY Hour ASC
+   df = data.DataFrame()
+   df = df.groupby('Hour', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Hour', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc3-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Hourly Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-01-02") %>%
+      group_by(daterangehour) %>%
+      count() %>%
+      arrange(daterangehour, .by_group = FALSE)
+   ggplot(df, aes(x = daterangehour, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc3-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -589,6 +879,54 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
 ![조회 결과 일일 트렌드](assets/uc4-looker-result.png){zoomable="yes"}
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangemonth AS Month, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               ORDER BY Month ASC
+   df = data.DataFrame()
+   df = df.groupby('Month', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Month', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc4-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Hourly Events
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-01-02") %>%
+      group_by(daterangehour) %>%
+      count() %>%
+      arrange(daterangehour, .by_group = FALSE)
+   ggplot(df, aes(x = daterangehour, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc4-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -767,6 +1105,57 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
 ![조회 결과 일일 트렌드](assets/uc5-looker-result.png){zoomable="yes"}
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Purchase Revenue', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc5-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   library(tidyr)
+   
+   ## Single dimension ranked
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases)) %>%
+      arrange(product_name, .by_group = FALSE)
+   dfV <- df %>%
+      head(5)
+   ggplot(dfV, aes(x = purchase_revenue, y = product_name)) +
+      geom_col(position = "dodge") +
+      geom_text(aes(label = purchase_revenue), vjust = -0.5)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -976,6 +1365,52 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 ![조회 결과 일일 트렌드](assets/uc6-looker-result.png){zoomable="yes"}
 
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_category AS `Product Category`, product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1, 2 \
+               ORDER BY `Purchase Revenue` DESC \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby(['Product Category', 'Product Name'], as_index=False).sum()
+   plt.figure(figsize=(8, 8))
+   sns.scatterplot(x='Product Category', y='Product Name', size='Purchase Revenue', sizes=(10, 200), hue='Purchases', palette='husl', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc6-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Multiple dimensions ranked
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_category, product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases), .groups = "keep") %>%
+      arrange(desc(purchase_revenue), .by_group = FALSE)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc6-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1109,6 +1544,40 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 ![고유 조회 수](assets/uc7-looker-result.png){zoomable="yes"}
 
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT COUNT(DISTINCT(product_name)) AS `Product Name` \
+      FROM cc_data_view \
+      WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01';
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc7-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Count Distinct
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      summarise(product_name_count_distinct = n_distinct(product_name))
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc7-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1193,6 +1662,73 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
 ![고유 조회 수](assets/uc8-looker-result.png){zoomable="yes"}
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT daterangeName FROM cc_data_view;
+   style = {'description_width': 'initial'}
+   daterange_name = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Date Range Name:',
+      style=style
+   )
+   display(daterange_name)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-input.png)
+
+1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT daterangemonth AS Month, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterangeName = '{daterange_name.value}' \
+               GROUP BY 1 \
+               ORDER BY Month ASC
+   df = data.DataFrame()
+   df = df.groupby('Month', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.lineplot(x='Month', y='Events', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 날짜 범위 이름을 사용해야 합니다. (예: `Last Year 2023`)
+
+   ```R
+   ## Monthly Events for Last Year
+   df <- dv %>%
+      filter(daterangeName == "Last Year 2023") %>%
+      group_by(daterangemonth) %>%
+      count() %>%
+      arrange(daterangemonth, .by_group = FALSE)
+   ggplot(df, aes(x = daterangemonth, y = n)) +
+      geom_line(color = "#69b3a2") +
+      ylab("Events") +
+      xlab("Hour")
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc8-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1293,6 +1829,72 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
 ![고유 조회 수](assets/uc9-looker-result.png){zoomable="yes"}
 
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT filterName FROM cc_data_view;
+   style = {'description_width': 'initial'}
+   filter_name = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Filter Name:',
+      style=style
+   )
+   display(filter_name)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-input.png)
+
+1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+                  AND filterName = '{filter_name.value}' \
+               GROUP BY 1 \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Events', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 필터 이름을 사용해야 합니다. (예: `Fishing Products`)
+
+   ```R
+   ## Dimension filtered by name
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01" & filterName == "Fishing Products") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc9-rstudio-results.png)
+
+
 >[!ENDTABS]
 
 +++
@@ -1300,7 +1902,8 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
 ## 차원 값을 사용하여 필터링
 
-Customer Journey Analytics에서 사냥 제품 카테고리의 제품을 필터링하는 새 필터를 만듭니다. 그런 다음 새 필터를 사용하여 2023년 1월 중에 헌팅 카테고리의 제품에 대한 제품 이름과 발생 횟수(이벤트)를 보고할 수 있습니다.
+**[!UICONTROL 제품 범주]**&#x200B;에 대해 동적 **[!UICONTROL Hunting]** 값을 사용하여 헌팅 범주에서 제품을 필터링합니다. 또는 제품 카테고리 값의 동적 검색을 지원하지 않는 BI 도구의 경우 Customer Journey Analytics에서 헌팅 제품 카테고리의 제품을 필터링하는 새 필터를 만듭니다.
+그런 다음 새 필터를 사용하여 2023년 1월 중에 헌팅 카테고리의 제품에 대한 제품 이름과 발생 횟수(이벤트)를 보고할 수 있습니다.
 
 +++ Customer Journey Analytics
 
@@ -1329,7 +1932,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. **[!UICONTROL 데이터]** 창:
    1. **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL filterName]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL product_category]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL product_name]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL ∑회 발생]**&#x200B;을 선택하세요.
 
@@ -1338,20 +1941,22 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 1. **[!UICONTROL 필터]** 창:
    1. 이 시각적 개체의 **[!UICONTROL 필터]**&#x200B;에서 **[!UICONTROL filterName is (All)]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL 기본 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 검색]** 필드 아래에서 Customer Journey Analytics에 정의된 기존 필터의 이름인 **[!UICONTROL 제품 사냥]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 이 시각적 개체의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 고급 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
    1. **[!UICONTROL 값이]** **[!UICONTROL 이거나]** `1/1/2023` **[!UICONTROL 이거나]** **[!UICONTROL 이(가)]** `2/1/2023` 이전인 경우 항목 표시로 필터를 정의합니다.
+   1. **[!UICONTROL product_category]**&#x200B;의 **[!UICONTROL 필터 형식]**(으)로 **[!UICONTROL 기본 필터]**&#x200B;을(를) 선택하고 가능한 값 목록에서 **[!UICONTROL Hunting]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL filterName]**&#x200B;을(를) 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
    1. **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL daterange]**&#x200B;을(를) 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
 
-   적용된 **[!UICONTROL filterName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
+   적용된 **[!UICONTROL product_category]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
    ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
 >[!TAB 타블로 데스크톱]
+
+![AlertRed](/help/assets/icons/AlertRed.svg) Tableau Desktop은 Customer Journey Analytics에서 제품 범주의 동적 목록을 가져올 수 없습니다. 대신, 이 사용 사례에서는 **[!UICONTROL Hunting Products]**&#x200B;에 대해 새로 만든 필터를 사용하고 필터 이름 기준을 사용합니다.
 
 1. **[!UICONTROL 데이터 Source]** 보기의 **[!UICONTROL 데이터]** 아래에서 **[!UICONTROL cc_data_view(prod:cja%3FFLATTEN)]**&#x200B;의 컨텍스트 메뉴에서 **[!UICONTROL 새로 고침]**&#x200B;을 선택합니다. Customer Journey Analytics에서 방금 정의한 새 필터를 선택하려면 연결을 새로 고쳐야 합니다.
 1. 하단의 **[!UICONTROL 시트 1]** 탭을 선택하여 **[!UICONTROL 데이터 원본]**&#x200B;에서 전환하세요. **[!UICONTROL 시트 1]** 보기에서:
@@ -1384,15 +1989,75 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL ‣ 제품 범주]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL is]**&#x200B;을(를) 필터에 대한 선택으로 확인합니다.
-1. 가능한 값 목록에서 **[!UICONTROL 제품 사냥]**&#x200B;을 선택하십시오.
-1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
-   1. **[!UICONTROL 제품 이름]**&#x200B;을 선택하세요.
-   1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.
-1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 
-아래 표시된 것과 유사한 표가 표시됩니다.
+![AlertRed](/help/assets/icons/AlertRed.svg) 조회 수에 **[!UICONTROL 제품 범주]**&#x200B;에 대해 가능한 값 목록이 표시되지 않습니다.
 
 ![고유 조회 수](assets/uc10-looker-result.png){zoomable="yes"}
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT DISTINCT product_category FROM cc_data_view WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01';
+   style = {'description_width': 'initial'}
+   category_filter = widgets.Dropdown(
+      options=[d for d, in data],
+      description='Product Category:',
+      style=style
+   )
+   display(category_filter)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-input.png)
+
+1. 드롭다운 메뉴에서 **[!UICONTROL Hunting]**&#x200B;을(를) 선택합니다.
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               AND product_category = '{category_filter.value}' \
+               GROUP BY 1 \
+               ORDER BY Events DESC \
+               LIMIT 10;
+   df = data.DataFrame()
+   df = df.groupby('Product Name', as_index=False).sum()
+   plt.figure(figsize=(15, 3))
+   sns.barplot(x='Events', y='Product Name', data=df)
+   plt.show()
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-results.png)
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 카테고리를 사용해야 합니다. 예: `Hunting`.
+
+   ```R
+   ## Dimension 1 Filtered by Dimension 2 value
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01" & product_category == "Hunting") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc10-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1601,12 +2266,69 @@ SELECT
     COALESCE(SUM(CAST(( cc_data_view."purchase_revenue"  ) AS DOUBLE PRECISION)), 0) AS "purchase_revenue"
 FROM
     "public"."cc_data_view" AS "cc_data_view"
-WHERE ((( cc_data_view."daterange"  ) >= (DATE_TRUNC('day', DATE '2023-01-31')) AND ( cc_data_view."daterange"  ) < (DATE_TRUNC('day', DATE '2023-02-01'))))
+WHERE ((( cc_data_view."daterange"  ) >= (DATE_TRUNC('day', DATE '2024-01-31')) AND ( cc_data_view."daterange"  ) < (DATE_TRUNC('day', DATE '2023-02-01'))))
 GROUP BY
     1
 ORDER BY
     2 DESC
 FETCH NEXT 500 ROWS ONLY
+```
+
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT product_name AS `Product Name`, SUM(purchase_revenue) AS `Purchase Revenue`, SUM(purchases) AS `Purchases` \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               GROUP BY 1 \
+               ORDER BY `Purchase Revenue` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc11-jupyter-results.png)
+
+이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
+
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Dimension 1 Sorted
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2023-02-01") %>%
+      group_by(product_name) %>%
+      summarise(purchase_revenue = sum(purchase_revenue), purchases = sum(purchases), .groups = "keep") %>%
+      arrange(desc(purchase_revenue), .by_group = FALSE)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc11-rstudio-results.png)
+
+BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `ORDER BY`이(가) 포함되어 있습니다. 이는 순서가 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
+
+```sql
+SELECT
+  "product_name",
+  SUM("purchase_revenue") AS "purchase_revenue",
+  SUM("purchases") AS "purchases"
+FROM (
+  SELECT "cc_data_view".*
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" < '2023-02-01')
+) AS "q01"
+GROUP BY "product_name"
+ORDER BY "purchase_revenue" DESC
+LIMIT 1000
 ```
 
 >[!ENDTABS]
@@ -1838,6 +2560,60 @@ ORDER BY
 FETCH NEXT 5 ROWS ONLY
 ```
 
+
+>[!TAB Jupyter 전자 필기장]
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT product_name AS `Product Name`, COUNT(*) AS Events \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2023-02-01' \
+               GROUP BY 1 \
+               ORDER BY `Events` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc12-jupyter-results.png)
+
+이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
+
+>[!TAB 자습서]
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   ## Dimension 1 Limited
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
+      group_by(product_name) %>%
+      count() %>%
+      arrange(desc(n), .by_group = FALSE) %>%
+      head(5)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc12-rstudio-results.png)
+
+BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `LIMIT 5`이(가) 포함되어 있습니다. 이는 제한이 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
+
+```sql
+SELECT "product_name", COUNT(*) AS "n"
+FROM (
+  SELECT "cc_data_view".*
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" < '2024-01-01')
+) AS "q01"
+GROUP BY "product_name"
+ORDER BY "n" DESC
+LIMIT 5
+```
+
 >[!ENDTABS]
 
 +++
@@ -2034,6 +2810,66 @@ GROUP BY
 ORDER BY
     2 DESC
 FETCH NEXT 500 ROWS ONLY
+```
+
+>[!TAB Jupyter 전자 필기장]
+
+Customer Journey Analytics 개체(차원, 지표, 필터, 계산된 지표 및 날짜 범위)는 사용자가 구성하는 포함된 SQL 쿼리의 일부로 사용할 수 있습니다. 이전 예를 참조하십시오.
+
+**사용자 지정 변형**
+
+1. 새 셀에 다음 문을 입력합니다.
+
+   ```python
+   data = %sql SELECT LOWER(product_category) AS `Product Category`, COUNT(*) AS EVENTS \
+               FROM cc_data_view \
+               WHERE daterange BETWEEN '2023-01-01' AND '2024-01-01' \
+               GROUP BY 1 \
+               ORDER BY `Events` DESC \
+               LIMIT 5;
+   display(data)
+   ```
+
+1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![Jupyter Notebook 결과](assets/uc13-jupyter-results.png)
+
+이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
+
+>[!TAB 자습서]
+
+Customer Journey Analytics 구성 요소(차원, 지표, 필터, 계산된 지표 및 날짜 범위)는 R 언어에서 이름이 비슷한 객체로 사용할 수 있습니다. 구성 요소를 사용하여 구성 요소를 참조하십시오. 이전 예제를 참조하십시오.
+
+**사용자 지정 변형**
+
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+
+   ```R
+   df <- dv %>%
+      filter(daterange >= "2023-01-01" & daterange <= "2024-01-01") %>%
+      mutate(d2=lower(product_category)) %>%
+      group_by(d2) %>%
+      count() %>%
+      arrange(d2, .by_group = FALSE)
+   print(df)
+   ```
+
+1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
+
+   ![라디오 결과](assets/uc13-rstudio-results.png)
+
+BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `lower`이(가) 포함되어 있습니다. 이는 사용자 지정 변환이 RStudio 및 BI 확장에 의해 실행됨을 의미합니다.
+
+```sql
+SELECT "d2", COUNT(*) AS "n"
+FROM (
+  SELECT "cc_data_view".*, lower("product_category") AS "d2"
+  FROM "cc_data_view"
+  WHERE ("daterange" >= '2023-01-01' AND "daterange" <= '2024-01-01')
+) AS "q01"
+GROUP BY "d2"
+ORDER BY "d2"
+LIMIT 1000
 ```
 
 >[!ENDTABS]
@@ -2235,7 +3071,19 @@ GROUP BY 1,
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | [트리맵](https://cloud.google.com/looker/docs/treemap) |
 | ![Type](/help/assets/icons/TwoDots.svg) | [벤 다이어그램](/help/analysis-workspace/visualizations/venn.md) | [벤 다이어그램](https://cloud.google.com/looker/docs/venn) |
 
+>[!TAB Jupyter 전자 필기장]
+
+상태 기반 인터페이스인 **matplotlib.pyplot**&#x200B;의 시각화 기능을 matplotlib과 비교하는 것은 이 문서의 목적을 벗어납니다. 영감과 [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) 설명서는 위의 예를 참조하십시오.
+
+
+>[!TAB 자습서]
+
+R의 데이터 시각화 패키지인 **ggplot2**&#x200B;의 시각화 기능을 비교하는 것은 이 문서의 목적을 벗어납니다. 영감과 [ggplot2](https://ggplot2.tidyverse.org/articles/ggplot2.html) 설명서는 위의 예를 참조하십시오.
+
 >[!ENDTABS]
+
+
+
 
 +++
 
@@ -2271,6 +3119,15 @@ GROUP BY 1,
 * **[!UICONTROL 날짜 범위 날짜]** 또는 **[!UICONTROL 날짜 범위 날짜]**&#x200B;와 같은 날짜 또는 날짜-시간 필드에 대한 로커의 사용자 경험이 혼동됩니다.
 * 검색자의 날짜 범위는 포괄적이 아닌 배타적입니다.  **[!UICONTROL until(before)]**&#x200B;이(가) 회색이므로 해당 측면을 놓칠 수 있습니다.  종료일의 경우 보고하려는 날의 지난 날짜를 선택해야 합니다.
 * 조회 수는 지표를 자동으로 지표로 취급하지 않습니다.  지표를 선택하면 기본적으로 검색기가 지표를 쿼리의 차원으로 처리하려고 합니다.  지표를 지표로 처리하려면 위에 표시된 대로 사용자 지정 필드를 만들어야 합니다. 바로 가기로 **[!UICONTROL ⋮]**&#x200B;을(를) 선택하고 **[!UICONTROL 집계]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 합계]**&#x200B;를 선택할 수 있습니다.
+
+>[!TAB Jupyter 전자 필기장]
+
+* Jupyter Notebook의 주요 주의 사항은 도구가 다른 BI 도구와 같은 드래그 앤 드롭 사용자 인터페이스가 아니라는 것입니다. 좋은 비주얼을 만들 수는 있지만, 이를 위해서는 코드를 작성해야 합니다.
+
+>[!TAB 자습서]
+
+* R 배포는 플랫 스키마에서 작동하므로 **[!UICONTROL FLATTEN]** 옵션이 필요합니다.
+* RStudio의 주요 주의 사항은 도구가 다른 BI 도구처럼 드래그 앤 드롭 사용자 인터페이스가 아니라는 것입니다. 좋은 비주얼을 만들 수는 있지만, 이를 위해서는 코드를 작성해야 합니다.
 
 >[!ENDTABS]
 
