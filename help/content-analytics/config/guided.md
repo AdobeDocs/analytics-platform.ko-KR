@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
+source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 19%
@@ -273,7 +273,7 @@ Content Analytics 구성에 액세스하려면
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="온보딩 구현 경고"
->abstract="이렇게 하면 이 워크플로우에서 제공한 입력을 기반으로 콘텐츠 분석이 구성됩니다. 다른 몇 가지 설정은 일반적으로 콘텐츠 분석에 유용한 설정에 따라 자동으로 선택됩니다. 각 아티팩트의 설정을 검토하여 요구 사항과 지침을 충족하는지 확인하는 것이 좋습니다. <br/>이 구성과 연결된 Tags 라이브러리가 수동으로 게시될 때까지 데이터가 수집되지 않습니다.<br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 사용자가 방문한 시간에 캡처한 URL을 사용하여 사용자가 구현한 데이터 수집 설정에 따라 이러한 특성을 검색합니다."
+>abstract="이렇게 하면 이 워크플로우에서 제공한 입력을 기반으로 콘텐츠 분석이 구성됩니다. 다른 몇 가지 설정은 일반적으로 콘텐츠 분석에 유용한 설정에 따라 자동으로 선택됩니다. 각 아티팩트의 설정을 검토하여 요구 사항과 지침을 충족하는지 확인하는 것이 좋습니다. <br/><br/>이 구성과 연결된 Tags 라이브러리가 수동으로 게시될 때까지 데이터가 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 사용자가 방문한 시간에 캡처한 URL을 사용하여 사용자가 구현한 데이터 수집 설정에 따라 이러한 특성을 검색합니다."
 
 <!-- markdownlint-enable MD034 -->
 
