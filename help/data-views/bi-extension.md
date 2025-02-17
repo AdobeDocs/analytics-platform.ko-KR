@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 30e3df15aecec0bab180cd06e0ae7c79f58cdf44
+source-git-commit: 5fa4d47bcd42e4e392a7075076895826cf7061b1
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3618'
 ht-degree: 66%
 
 ---
@@ -100,7 +100,7 @@ Adobe Experience Platform:
 
 ### BI 도구
 
-현재 [!DNL Customer Journey Analytics BI extension]은(는) Power BI 및 Tableau Desktop에 대해서만 지원되고 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만, 아직 공식적으로 지원되지는 않습니다.
+현재 [!DNL Customer Journey Analytics BI extension]은(는) 아래 나열된 도구에 대해 지원되고 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만, 아직 공식적으로 지원되지는 않습니다.
 
 +++ Power BI
 
