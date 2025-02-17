@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
+source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
 workflow-type: tm+mt
 source-wordcount: '14697'
 ht-degree: 2%
@@ -318,7 +318,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. 셀을 실행합니다.
 1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 Jupyter Notebook의 **[!UICONTROL 암호]** 필드로 암호를 복사하여 붙여넣으십시오.
 
-   ![Jupter Notebook 구성 단계 1](assets/jupyter-config-step1.png)
+   ![Jupter Notebook 구성 단계 1](assets/jupyter-config-step1.png){zoomable="yes"}
 
 1. 새 셀에서 SQL 확장, 필수 라이브러리를 로드하고 Customer Journey Analytics과 연결할 명령문을 입력합니다.
 
@@ -330,7 +330,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    셸을 실행합니다. 출력은 표시되지 않지만 셀은 경고 없이 실행됩니다.
 
-   ![Jupyer Notebook 구성 단계 4](assets/jupyter-config-step2.png)
+   ![Jupyer Notebook 구성 단계 4](assets/jupyter-config-step2.png){zoomable="yes"}
 
 1. 새 호출에서 문을 입력하여 연결에 따라 사용 가능한 데이터 보기 목록을 가져옵니다.
 
@@ -354,7 +354,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    셸을 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 구성 단계 5](assets/jupyter-config-step3.png)
+   ![Jupyter Notebook 구성 단계 5](assets/jupyter-config-step3.png){zoomable="yes"}
 
    데이터 보기 목록에 **[!UICONTROL cc_data_view]**&#x200B;이(가) 표시됩니다.
 
@@ -405,7 +405,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. **[!UICONTROL 호스트]**, **[!UICONTROL 데이터베이스]** 및 **[!UICONTROL 사용자]**&#x200B;를 묻는 메시지가 표시됩니다. 이전 단계의 일부로 제공한 값을 수락하면 됩니다.
 1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 RStudio의 **[!UICONTROL 암호]** 대화 상자 프롬프트로 암호를 복사하고 붙여넣으십시오.
 
-   ![RStudio 구성 단계 1](assets/rstudio-config-step1.png)
+   ![RStudio 구성 단계 1](assets/rstudio-config-step1.png){zoomable="yes"}
 
 1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
@@ -442,7 +442,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 1. 청크를 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
 
-   ![RStudio 구성 단계 2](assets/rstudio-config-step2.png)
+   ![RStudio 구성 단계 2](assets/rstudio-config-step2.png){zoomable="yes"}
 
 ### 평면화할지 말지
 
@@ -599,7 +599,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc2-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc2-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -622,7 +622,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc2-rstudio-results.png)
+   ![라디오 결과](assets/uc2-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -737,7 +737,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc3-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc3-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -760,7 +760,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc3-rstudio-results.png)
+   ![라디오 결과](assets/uc3-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -904,7 +904,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc4-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc4-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -927,7 +927,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc4-rstudio-results.png)
+   ![라디오 결과](assets/uc4-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1130,7 +1130,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc5-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc5-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -1156,7 +1156,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc5-rstudio-results.png)
+   ![라디오 결과](assets/uc5-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1390,7 +1390,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc6-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc6-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -1409,7 +1409,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc6-rstudio-results.png)
+   ![라디오 결과](assets/uc6-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1559,7 +1559,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc7-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc7-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -1576,7 +1576,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc7-rstudio-results.png)
+   ![라디오 결과](assets/uc7-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1682,7 +1682,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc8-jupyter-input.png)
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-input.png){zoomable="yes"}
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
 
@@ -1706,7 +1706,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc8-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -1729,7 +1729,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc8-rstudio-results.png)
+   ![라디오 결과](assets/uc8-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1849,7 +1849,7 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc9-jupyter-input.png)
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-input.png){zoomable="yes"}
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
 
@@ -1874,7 +1874,7 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc9-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -1893,7 +1893,7 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc9-rstudio-results.png)
+   ![라디오 결과](assets/uc9-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -2013,7 +2013,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc10-jupyter-input.png)
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-input.png){zoomable="yes"}
 
 1. 드롭다운 메뉴에서 **[!UICONTROL Hunting]**&#x200B;을(를) 선택합니다.
 
@@ -2039,7 +2039,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc10-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB 자습서]
@@ -2058,7 +2058,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc10-rstudio-results.png)
+   ![라디오 결과](assets/uc10-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -2292,7 +2292,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc11-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc11-jupyter-results.png){zoomable="yes"}
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
@@ -2313,7 +2313,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc11-rstudio-results.png)
+   ![라디오 결과](assets/uc11-rstudio-results.png){zoomable="yes"}
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `ORDER BY`이(가) 포함되어 있습니다. 이는 순서가 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
 
@@ -2578,7 +2578,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc12-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc12-jupyter-results.png){zoomable="yes"}
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
@@ -2599,7 +2599,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc12-rstudio-results.png)
+   ![라디오 결과](assets/uc12-rstudio-results.png){zoomable="yes"}
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `LIMIT 5`이(가) 포함되어 있습니다. 이는 제한이 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
 
@@ -2833,7 +2833,7 @@ Customer Journey Analytics 개체(차원, 지표, 필터, 계산된 지표 및 �
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc13-jupyter-results.png)
+   ![Jupyter Notebook 결과](assets/uc13-jupyter-results.png){zoomable="yes"}
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
@@ -2857,7 +2857,7 @@ Customer Journey Analytics 구성 요소(차원, 지표, 필터, 계산된 지�
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc13-rstudio-results.png)
+   ![라디오 결과](assets/uc13-rstudio-results.png){zoomable="yes"}
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `lower`이(가) 포함되어 있습니다. 이는 사용자 지정 변환이 RStudio 및 BI 확장에 의해 실행됨을 의미합니다.
 

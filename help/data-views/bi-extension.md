@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: d7d16dbef202db9fdac08796dacc3368e0119456
+source-git-commit: 30e3df15aecec0bab180cd06e0ae7c79f58cdf44
 workflow-type: tm+mt
-source-wordcount: '3176'
-ht-degree: 73%
+source-wordcount: '3620'
+ht-degree: 66%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Experience Platform:
 
       1. **[!UICONTROL ** Server **]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Host **]** 매개 변수를 붙여 넣습니다.
 
-      1. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개 변수를 붙여 넣습니다.
+      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Database **]** 매개 변수를 **[!UICONTROL ** Database **]** 텍스트 필드에 붙여 넣으십시오.
 
          예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
@@ -141,7 +141,7 @@ Adobe Experience Platform:
 
    하나 이상의 선택한 테이블과 연결된 모든 차원 및 지표가 오른쪽 창에 표시되어 시각화에 사용할 수 있습니다.
 
-   자세한 내용은 [Power BI를 Query Service에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)을 참조하십시오.
+   자세한 내용은 [쿼리 서비스에 Power BI 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
 
 +++
 
@@ -187,13 +187,88 @@ Adobe Experience Platform:
 
    이제 데이터 보기 테이블의 데이터를 사용하여 보고서 및 시각화를 빌드할 수 있습니다.
 
-   자세한 내용은 [Query Service에 Tableau 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)을 참조하십시오.
+   자세한 내용은 [쿼리 서비스에 타블로 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+
++++
+
++++ 보는 사람
+
+1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+
+   1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
+
+   1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
+
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+
+   1. 필요한 경우 Looker에서 각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 등)를 복사하려면 ![복사](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+
+1. 조회:
+
+   1. 왼쪽 레일에서 **[!UICONTROL 관리자]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 연결]**&#x200B;을 선택하세요.
+   1. **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL Looker에 데이터베이스 연결]** 화면에서 새 연결을 설정할 때 적절한 값을 붙여 넣습니다. 방언으로 **[!UICONTROL PostgreSQL 9.5+]**&#x200B;을(를) 선택하십시오.
+   1. 연결을 테스트하려면 **[!UICONTROL 테스트]**&#x200B;를 선택하십시오.
+   1. 성공하면 **[!UICONTROL 업데이트]**&#x200B;를 선택하여 연결을 저장합니다.
+
+   이제 데이터 보기 테이블의 데이터를 사용하여 보고서 및 시각화를 빌드할 수 있습니다.
+
+   자세한 내용은 [Query Service에 Looker 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+
++++
+
++++ Jupyter Notebook
+
+1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+
+   1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
+
+   1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
+
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+
+   1. 필요한 경우 Jupyter Notebook에서 Postgres 자격 증명 매개 변수([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] 등)를 각각 복사하려면 ![Copy](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+
+1. Jupyter Notebook에서:
+
+   1. 필요한 라이브러리를 사용해야 합니다.
+   1. 연결을 설정하고 실행할 때 적절한 값을 사용하십시오.
+   1. 관련 쿼리를 실행하여 연결을 테스트합니다.
+
+   성공하면 데이터로 작업하여 보고서와 시각화를 작성할 수 있습니다.
+
+   자세한 내용은 [Jupyter Notebook을 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+
++++
+
++++ 스튜디오
+
+1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
+
+   1. 왼쪽 레일에서 **[!UICONTROL **&#x200B;쿼리&#x200B;**]**&#x200B;를 선택합니다(**[!UICONTROL **&#x200B;데이터 관리&#x200B;**]** 아래).
+
+   1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
+
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+
+   1. 필요한 경우 Jupyter Notebook에서 Postgres 자격 증명 매개 변수([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] 등)를 각각 복사하려면 ![Copy](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+
+1. 자습서에서:
+
+   1. 필요한 라이브러리를 사용해야 합니다.
+   1. 연결을 설정하고 실행할 때 적절한 값을 사용하십시오.
+   1. 관련 쿼리를 실행하여 연결을 테스트합니다.
+
+   성공하면 데이터로 작업하여 보고서와 시각화를 작성할 수 있습니다.
+
+   자세한 내용은 [RStudio를 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하십시오(RPostgres 패키지를 대신 사용).
 
 +++
 
 사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview)을 참조하십시오.
 
-Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 완수하는 방법은 [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하세요.
+Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 완수하는 방법은 [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하십시오.
 
 ## 기능
 
@@ -339,7 +414,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 >[!NOTE]
 >
->Power BI이 하루(시간, 30분, 5분 등) 미만의 `daterange` 지표를 지원하지 않습니다.
+>Power BI은 하루(시간, 30분, 5분 등) 미만의 `daterange` 지표를 지원하지 않습니다.
 >
 
 #### 필터 ID
