@@ -7,10 +7,10 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 3814e3241a202fda802934685b4472b4c11c4245
+source-git-commit: 99f82353e41180a0090e84e58593d63fc5cbe803
 workflow-type: tm+mt
 source-wordcount: '1650'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -72,7 +72,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ## AI Assistant에서 데이터 시각화 액세스 및 사용
 
-1. [experience.adobe.com](https://experience.adobe.com/)(으)로 이동하여 Adobe ID으로 로그인합니다.
+1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동하여 Adobe ID으로 로그인합니다.
 
 2. Experience Cloud 홈에서 **Customer Journey Analytics**&#x200B;을(를) 선택합니다.
 
@@ -90,7 +90,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
    * **[!UICONTROL AI 길잡이: 데이터 분석]**
 
-   자세한 내용은 관리자가 [이 지침](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/ai-assistant#feature-access)을 볼 수 있습니다.
+   자세한 내용은 관리자가 [이 지침](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)을 볼 수 있습니다.
 
    ![AI 길잡이 아이콘](/help/assets/ai-asst-icon.png)
 
