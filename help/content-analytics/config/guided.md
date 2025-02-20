@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
+source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1911'
 ht-degree: 19%
 
 ---
@@ -148,13 +148,16 @@ Content Analytics 구성에 액세스하려면
 >title="경험 캡처 및 정의"
 >abstract="선택한 구성과 연결된 태그 속성의 Adobe Content Analytics 확장 기능에서 설정을 편집할 수 있습니다."
 
-
-
 <!-- markdownlint-enable MD034 -->
 
 이 섹션에서는 컨텐츠 분석으로 수집하는 데이터에 경험을 포함하도록 선택할 수 있습니다.  경험은 웹 페이지를 방문한 초기 사용자가 사용한 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다.
 
 기본적으로 **[!UICONTROL 경험 포함]**&#x200B;이 꺼져 있습니다. 선택한 경우 경험을 포함할 URL을 정의해야 합니다.
+
+다음을 적용할 수 있는 경우에만 경험을 포함시키는 것이 좋습니다.
+
+* 사이트의 컨텐츠는 URL로만 구동됩니다.
+* 사이트의 페이지는 페이지 URL을 사용하여 재현할 수 있어야 합니다.
 
 새 구성이나 구현되지 않은 구성에 경험을 포함하려면 다음을 수행하십시오.
 
@@ -286,6 +289,7 @@ Content Analytics 구성에 액세스하려면
    * **[!UICONTROL Adobe Experience Platform]** 구성:
       1. 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 모델링하기 위한 스키마 생성.
       1. 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 수집하기 위한 데이터 세트 생성.
+      1. 기능 서비스를 사용하여 Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하는 데이터 흐름 생성.
    * **[!UICONTROL 콘텐츠 분석]** 구성:
       * 구성을 기반으로 한 피쳐화 어셈블러 프로세스 설정.
    * **[!UICONTROL Customer Journey Analytics]** 구성:
