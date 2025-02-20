@@ -3,10 +3,10 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 89ad5b445c79ee318ca064cbeb1da5948a714671
+source-git-commit: 419676a446bd04a1d0f7a96ffc564e439db48f54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 60%
+source-wordcount: '208'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **BI 확장 - Looker 지원** | 이제 Customer Journey Analytics BI 확장 [Looker, Jupyter Notebook 및 R Studio를 지원합니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | 2025년 1월 24일 토요일 |
+| **BI 확장 - Looker 지원** | 이제 Customer Journey Analytics BI 확장은 [Looker, Jupyter Notebook 및 R Studio](/help/data-views/bi-extension.md)를 지원합니다. [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)이(가) 지원되는 추가 도구를 반영하도록 업데이트되었습니다. |   | 2025년 1월 24일 토요일 |
 
 ## Customer Journey Analytics의 수정 사항
 

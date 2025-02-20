@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,13 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 이제 Analysis Workspace 내에서 직접 가이드 분석을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다.
 
 [![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+
+
+>[!TAB 지능형 캡션 v2]
+
+이제 추가 인터페이스 개선과 함께 [Line](/help/analysis-workspace/visualizations/line.md)(여러 줄 포함), [Bar](/help/analysis-workspace/visualizations/bar.md), [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md)(여러 영역 줄 포함), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) 시각화에 대한 지능형 캡션이 지원됩니다.
+
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB 경고]
 
@@ -73,7 +80,7 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 
 >[!TAB BI 확장 기능*]
 
-BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에서 사용하는 것과 동일한 데이터 보기를 기반으로 선호하는 BI 도구를 사용하여 보고 및 대시보드를 만들 수 있습니다. [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)가 제공됩니다.
+BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. 이제 즐겨 찾는 BI 도구(Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook 및 RStudio)를 사용하여 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에서 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다. [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)가 제공됩니다.
 
 [![image](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
