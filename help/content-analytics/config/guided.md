@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1991'
 ht-degree: 19%
 
 ---
@@ -103,6 +103,11 @@ Content Analytics 구성에 액세스하려면
 >id="aca_onboarding_dataview_header_alt"
 >title="데이터 보기"
 >abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 콘텐츠 분석 데이터를 병합합니다.<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change"
+>title="데이터 보기 선택"
+>abstract="새 데이터 보기를 선택하면 해당 데이터 보기가 업데이트되어 Content Analytics 지표 및 차원이 포함됩니다. 필요한 경우 연결된 연결도 업데이트되어 Content Analytics 데이터 세트를 포함합니다. 현재 콘텐츠 분석에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +281,7 @@ Content Analytics 구성에 액세스하려면
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="온보딩 구현 경고"
->abstract="이렇게 하면 이 워크플로우에서 제공한 입력을 기반으로 콘텐츠 분석이 구성됩니다. 다른 몇 가지 설정은 일반적으로 콘텐츠 분석에 유용한 설정에 따라 자동으로 선택됩니다. 각 아티팩트의 설정을 검토하여 요구 사항과 지침을 충족하는지 확인하는 것이 좋습니다. <br/><br/>이 구성과 연결된 Tags 라이브러리가 수동으로 게시될 때까지 데이터가 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 사용자가 방문한 시간에 캡처한 URL을 사용하여 사용자가 구현한 데이터 수집 설정에 따라 이러한 특성을 검색합니다."
+>abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로우에서 제공한 입력을 기반으로 Content Analytics를 구성합니다. 기본적으로 몇 가지 설정은 Content Analytics에 일반적으로 유용한 사항을 기반으로 선택되지만, 데이터 제어자는 각 아티팩트의 설정을 검토하여 설정이 해당 법률에 따른 개인정보 처리방침, 계약상 권리 및 의무, 동의 요구 사항에 따라 구현되는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 다음을 사용하여 특성을 검색합니다.<ol><li>사용자 사이트 방문 시, 구성한 데이터 수집 설정에 따라 캡처한 URL 및</li><li>이미지가 호스팅되는 URL입니다.</li></ol>타사 사이트에서 호스팅되는 이미지에 태그를 지정하면 안 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,27 +290,25 @@ Content Analytics 구성에 액세스하려면
 
 * **[!UICONTROL 버리기]**: 새 구성을 만들거나 기존 구성을 편집하는 과정에서 변경한 모든 내용이 무시됩니다.
 * **[!UICONTROL 나중에 저장]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 변경 내용이 저장됩니다. 이후 단계에서 구성을 다시 방문하여 추가 변경을 수행하거나 구성을 구현할 수 있습니다.
-* **[!UICONTROL 구현]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 변경 내용이 저장되고 구현됩니다. 구현은 다음과 같이 구성됩니다.
+* **[!UICONTROL 구현]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 설정 또는 변경 내용이 저장되고 구현됩니다. 구현은 다음과 같이 구성됩니다.
    * **[!UICONTROL Adobe Experience Platform]** 구성:
-      1. 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 모델링하기 위한 스키마 생성.
-      1. 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 수집하기 위한 데이터 세트 생성.
-      1. 기능 서비스를 사용하여 Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하는 데이터 흐름 생성.
-   * **[!UICONTROL 콘텐츠 분석]** 구성:
-      * 구성을 기반으로 한 피쳐화 어셈블러 프로세스 설정.
-   * **[!UICONTROL Customer Journey Analytics]** 구성:
-      1. 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
-      1. 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 속성 데이터 세트를 포함하도록 수정됩니다.
-      1. Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
+      * 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 모델링하기 위한 스키마 생성.
+      * 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 수집하기 위한 데이터 세트 생성.
+      * 기능 서비스를 사용하여 Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하는 데이터 흐름 생성.
    * **[!UICONTROL 데이터 수집]** 구성:
-      1. 새 태그 속성 또는 기존 태그 속성이 콘텐츠 분석 데이터 수집을 지원하도록 구성되었습니다. 이 구성은 태그용 Adobe Content Analytics 확장 포함을 의미합니다.
-      1. Content Analytics 이벤트에 대한 데이터 스트림이 만들어집니다.
-      1. Adobe Content Analytics 확장은 Content Analytics 이벤트가 Content Analytics용 데이터 스트림으로 전송되도록 구성되었습니다.
-      1. 웹 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 구성이 만들어집니다.
-      1. 웹 SDK이 이 태그 속성에 대해 구성된 경우 기존 웹 SDK 구성이 변경되지 않습니다.
+      * 새 태그 속성 또는 기존 태그 속성이 콘텐츠 분석 데이터 수집을 지원하도록 구성되었습니다. 이 구성은 태그용 Adobe Content Analytics 확장 포함을 의미합니다.
+      * Content Analytics 이벤트에 대한 데이터 스트림이 만들어집니다.
+      * Adobe Content Analytics 확장은 Content Analytics 이벤트가 Content Analytics용 데이터 스트림으로 전송되도록 구성되었습니다.
+      * 웹 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 구성이 만들어집니다.
+      * 웹 SDK이 이 태그 속성에 대해 구성된 경우 기존 웹 SDK 구성이 변경되지 않습니다.
+   * **[!UICONTROL Customer Journey Analytics]** 구성:
+      * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
+      * 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 속성 데이터 세트를 포함하도록 수정됩니다.
+      * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
 * **[!UICONTROL 저장]**: 구현된 구성에 대한 변경 내용이 저장되고 구현이 업데이트됩니다.
 * **[!UICONTROL 종료]**. 안내식 구성을 종료합니다. 구현된 구성에 대한 모든 변경 사항이 무시됩니다.
 
 >[!MORELIKETHIS]
 >
->[콘텐츠 분석의 수동 구성](manual.md)
+>[수동 구성](manual.md)
 >

@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 
 
 조직의 콘텐츠 분석을 구성하려면 콘텐츠 분석 [안내 구성](guided.md)을 사용합니다. 구성 마법사는 Content Analytics의 자동 구성을 위한 사전 요구 사항을 설정하는 데 필요한 모든 단계를 안내합니다.
+
+구현이 성공하면 안내가 있는 구성 마법사를 사용하여 몇 가지 사항을 변경할 수 있습니다. 그러나 그 외에 [수동 변경](manual.md)이 필요할 수 있습니다.
 
 ## 사전 요구 사항
 
@@ -56,6 +58,8 @@ Content Analytics를 구성하기 전에 다음 전제 조건이 충족되는지
 >>
 [!MORELIKETHIS]
 >>
+* [구성 가이드](guided.md)
+* [수동 구성](manual.md)
 * [액세스 제어](/help/technotes/access-control.md)
 >
 
