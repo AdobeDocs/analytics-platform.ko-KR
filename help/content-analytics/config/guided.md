@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 19%
+source-wordcount: '2036'
+ht-degree: 18%
 
 ---
 
@@ -105,9 +105,14 @@ Content Analytics 구성에 액세스하려면
 >abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 콘텐츠 분석 데이터를 병합합니다.<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change"
->title="데이터 보기 선택"
+>id="aca_onboarding_dataview_change_content"
+>title="새 데이터 보기"
 >abstract="새 데이터 보기를 선택하면 해당 데이터 보기가 업데이트되어 Content Analytics 지표 및 차원이 포함됩니다. 필요한 경우 연결된 연결도 업데이트되어 Content Analytics 데이터 세트를 포함합니다. 현재 콘텐츠 분석에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change_title"
+>title="새 데이터 보기"
+>abstract="새 데이터 보기"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -144,12 +149,12 @@ Content Analytics 구성에 액세스하려면
 >abstract="콘텐츠 분석에서 경험 수집"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_url_header"
+>id="aca_onboarding_experiences_parameters_header"
 >title="경험 캡처 및 정의"
->abstract="아래 매개변수가 적용되는 URL을 지정합니다."
+>abstract="웹 사이트에서 콘텐츠가 렌더링되는 방식을 결정하는 매개 변수를 지정합니다."
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_edit_button"
+>id="aca_onboarding_experiencecapture_edit_button"
 >title="경험 캡처 및 정의"
 >abstract="선택한 구성과 연결된 태그 속성의 Adobe Content Analytics 확장 기능에서 설정을 편집할 수 있습니다."
 
@@ -194,7 +199,7 @@ Content Analytics 구성에 액세스하려면
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="데이터 수집"
->abstract="태그 속성 제공"
+>abstract="**태그 속성 제공**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -228,7 +233,7 @@ Content Analytics 구성에 액세스하려면
 
 <!-- markdownlint-enable MD034 -->
 
-#### 새 구성
+#### 새 구성 {#new-configuration}
 
 새 구성에서 사용할 Tag 속성을 정의하거나 새 Tag 속성을 만들어야 합니다. 정규 표현식을 사용하여 포함 또는 제외할 페이지 및 에셋을 정의해야 합니다.
 
@@ -256,7 +261,7 @@ Content Analytics 구성에 액세스하려면
    * **[!UICONTROL 자산]**&#x200B;에 대한 정규식을 지정하십시오. 예: `(?!.*\b(store|help|admin)\b)`.
 
 
-#### 기존 구성
+#### 기존 구성 {#existing-configuration}
 
 기존 구성의 경우 태그 속성을 편집할 수 없습니다. 그러나 포함 또는 제외할 페이지 및 에셋을 편집할 수 있습니다.
 
@@ -279,9 +284,19 @@ Content Analytics 구성에 액세스하려면
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning"
+>id="aca_onboarding_implementation_warning_content"
 >title="온보딩 구현 경고"
 >abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로우에서 제공한 입력을 기반으로 Content Analytics를 구성합니다. 기본적으로 몇 가지 설정은 Content Analytics에 일반적으로 유용한 사항을 기반으로 선택되지만, 데이터 제어자는 각 아티팩트의 설정을 검토하여 설정이 해당 법률에 따른 개인정보 처리방침, 계약상 권리 및 의무, 동의 요구 사항에 따라 구현되는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 다음을 사용하여 특성을 검색합니다.<ol><li>사용자 사이트 방문 시, 구성한 데이터 수집 설정에 따라 캡처한 URL 및</li><li>이미지가 호스팅되는 URL입니다.</li></ol>타사 사이트에서 호스팅되는 이미지에 태그를 지정하면 안 됩니다."
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_implementation_warning_title"
+>title="구현 확인"
+>abstract="구현 확인"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -307,6 +322,11 @@ Content Analytics 구성에 액세스하려면
       * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
 * **[!UICONTROL 저장]**: 구현된 구성에 대한 변경 내용이 저장되고 구현이 업데이트됩니다.
 * **[!UICONTROL 종료]**. 안내식 구성을 종료합니다. 구현된 구성에 대한 모든 변경 사항이 무시됩니다.
+
+
+## 게시 {#publish}
+
+Content Analytics 구성을 활성화하려면 안내식 구성 마법사의 일부로 **[!UICONTROL 구현]**&#x200B;을 선택한 후 만들어진 태그 속성을 [수동으로](manual.md)게시해야 합니다.
 
 >[!MORELIKETHIS]
 >

@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,16 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-*완전히 다른 작업을 위해...*
+이 문서에서는 Content Analytics 구현을 변경하는 데 필요할 수 있는 수동 구성 작업에 대해 자세히 설명합니다. 일반적으로 구현을 변경하려면 [안내 구성 마법사](guided.md)를 사용해야 하지만 해당 구성 마법사를 사용하여 모든 내용을 변경할 수는 없습니다.
+
+다음과 같은 수동 구성 작업을 사용할 수 있습니다.
+
+## 게시
+
+Content Analytics 구성을 활성화하려면 연결된 태그 속성을 게시해야 합니다.
+
+
+## 수정
 
 >[!MORELIKETHIS]
 >
