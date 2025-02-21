@@ -3,10 +3,10 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e6f86bf3dee81d70300cb26a1593d0e40966a63b
+source-git-commit: f61e3c1563187a4852734fcca5ffbd21b70849f0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 60%
+source-wordcount: '254'
+ht-degree: 52%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **BI 확장 - 확장된 지원** | 이제 Customer Journey Analytics BI 확장 [Looker, Jupyter Notebook 및 R Studio를 지원합니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases). |   | 2025년 1월 24일 토요일 |
-| **미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트** | Analytics Source Connector는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 2025년 1월 30일 |
+| **미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트** | Analytics Source 커넥터는 Adobe Analytics의 스트리밍 미디어 데이터를 웹 SDK에서 사용하는 것과 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 2025년 1월 30일 |
 
 
 ## Customer Journey Analytics의 수정 사항
