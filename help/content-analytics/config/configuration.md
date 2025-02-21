@@ -55,12 +55,11 @@ Content Analytics를 구성하기 전에 다음 전제 조건이 충족되는지
    * 컨텐츠 참여 분석 및 통찰력을 캡처할 (유형) 에셋을 명확히 이해하고 있습니다.
 
 
->>
-[!MORELIKETHIS]
->>
-* [구성 가이드](guided.md)
-* [수동 구성](manual.md)
-* [액세스 제어](/help/technotes/access-control.md)
+>[!MORELIKETHIS]
+>
+>* [구성 가이드](guided.md)
+>* [수동 구성](manual.md)
+>* [액세스 제어](/help/technotes/access-control.md)
 >
 
 
