@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
+source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2024'
 ht-degree: 18%
 
 ---
@@ -105,14 +105,9 @@ Content Analytics 구성에 액세스하려면
 >abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 콘텐츠 분석 데이터를 병합합니다.<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_content"
+>id="aca_onboarding_dataview_change_dialog"
 >title="새 데이터 보기"
 >abstract="새 데이터 보기를 선택하면 해당 데이터 보기가 업데이트되어 Content Analytics 지표 및 차원이 포함됩니다. 필요한 경우 연결된 연결도 업데이트되어 Content Analytics 데이터 세트를 포함합니다. 현재 콘텐츠 분석에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_title"
->title="새 데이터 보기"
->abstract="새 데이터 보기"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -284,19 +279,9 @@ Content Analytics 구성에 액세스하려면
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_content"
->title="온보딩 구현 경고"
->abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로우에서 제공한 입력을 기반으로 Content Analytics를 구성합니다. 기본적으로 몇 가지 설정은 Content Analytics에 일반적으로 유용한 사항을 기반으로 선택되지만, 데이터 제어자는 각 아티팩트의 설정을 검토하여 설정이 해당 법률에 따른 개인정보 처리방침, 계약상 권리 및 의무, 동의 요구 사항에 따라 구현되는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 다음을 사용하여 특성을 검색합니다.<ol><li>사용자 사이트 방문 시, 구성한 데이터 수집 설정에 따라 캡처한 URL 및</li><li>이미지가 호스팅되는 URL입니다.</li></ol>타사 사이트에서 호스팅되는 이미지에 태그를 지정하면 안 됩니다."
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_title"
+>id="aca_onboarding_implementation_warning_dialog"
 >title="구현 확인"
->abstract="구현 확인"
-
-<!-- markdownlint-enable MD034 -->
-
+>abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로우에서 제공한 입력을 기반으로 Content Analytics를 구성합니다. 기본적으로 몇 가지 설정은 Content Analytics에 일반적으로 유용한 사항을 기반으로 선택되지만, 데이터 제어자는 각 아티팩트의 설정을 검토하여 설정이 해당 법률에 따른 개인정보 처리방침, 계약상 권리 및 의무, 동의 요구 사항에 따라 구현되는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지 및 텍스트의 특성을 가져오기 위해 Adobe은 다음을 사용하여 특성을 검색합니다.<ol><li>사용자 사이트 방문 시, 구성한 데이터 수집 설정에 따라 캡처한 URL 및</li><li>이미지가 호스팅되는 URL입니다.</li></ol>타사 사이트에서 호스팅되는 이미지에 태그를 지정하면 안 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
