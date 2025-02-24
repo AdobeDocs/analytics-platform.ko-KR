@@ -3,9 +3,9 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1501'
 ht-degree: 11%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 11%
    | 요소 | 설명 |
    | --- | --- |
    | **[!UICONTROL 데이터 보기]** | 계산된 지표에 대한 데이터 보기를 선택할 수 있습니다.  정의한 계산된 지표는 선택한 데이터 보기에 따라 Workspace 프로젝트에서 사용할 수 있습니다. |
-   | **[!UICONTROL 프로젝트 전용 지표]** | 지표를 만든 프로젝트에서만 볼 수 있고 지표가 구성 요소 목록에 추가되지 않는다는 것을 설명하는 정보 상자입니다. **[!UICONTROL 이 지표를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하여 해당 설정을 변경합니다. 이 정보 상자는 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 사용하여 Workspace에서 지표를 만들고 함수(예: **[!UICONTROL 평균]** 또는 **[!UICONTROL 중간값]**)를 선택한 경우에만 표시됩니다. 나중에 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info)를 사용하여 만들어진 지표를 편집합니다. |
+   | **[!UICONTROL 프로젝트 전용 지표]** | [단일 프로젝트에 대한 계산된 지표 만들기](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 단일 프로젝트에 대해 만들어진 계산된 지표를 편집할 때 이 대화 상자 맨 위에 정보 상자가 나타납니다. <p>이 계산된 지표를 모든 프로젝트에 사용할 수 있도록 설정하려면 **[!UICONTROL 이 지표를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]** 옵션을 선택하십시오.</p> |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 계산된 지표의 이름을 지정합니다(예: `Conversion Rate`). |
    | **[!UICONTROL 외부 ID]** ![필수](/help/assets/icons/Required.svg) | 외부 BI 도구 및 BI 확장 기능을 사용할 때 계산된 지표의 이름입니다. 값을 재정의하지 않으면 값이 `undefined_xxx`(으)로 자동 정의됩니다. |
    | **[!UICONTROL 설명]** | 필터에 대한 설명을 입력하십시오(예: `Calculated metric to define the conversion rate.`). [!UICONTROL 요약]에서 공식을 이미 자동으로 사용할 수 있으므로 계산된 지표에 대한 수식을 설명할 필요가 없습니다. |
@@ -67,7 +67,7 @@ ht-degree: 11%
 1. 계산된 지표 정의가 올바른지 확인하려면 계산된 지표 결과의 지속적으로 업데이트된 **[!UICONTROL 미리 보기]**&#x200B;를 사용하십시오. **[!UICONTROL 미리 보기]**&#x200B;은(는) 지난 90일을 처리하고 계산된 지표의 정의를 계속 평가합니다.
 
    **[!UICONTROL 제품 호환성]**&#x200B;은(는) 계산된 지표를 실험에 사용할 수 있는지 여부를 나타냅니다. 가능한 값:
-   * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+   * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 모든 Customer Journey Analytics에서 사용할 수 있습니다.
    * **[!UICONTROL Customer Journey Analytics의 모든 곳(실험 제외)]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
 
 1. 선택:
@@ -138,7 +138,7 @@ ht-degree: 11%
 
 * 차원에서 필터 컨테이너를 추가하려면 다음을 수행합니다.
 
-   1. 구성 요소 패널에서 ![Dimension](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimension]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 드래그하여 놓으십시오]**. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
+   1. 구성 요소 패널에서 ![차원](/help/assets/icons/Dimensions.svg) **[!UICONTROL 차원]** 구성 요소를 **[!UICONTROL 여기에 지표, 차원 항목, 필터 및/또는 함수를 드래그하여 놓으십시오]**. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
    1. **[!UICONTROL Dimension에서 필터 만들기]** 팝업에서 필터 조건을 정의합니다. 연산자 목록에서 를 선택하고 값을 선택하거나 값을 입력합니다. 예를 들어 **[!UICONTROL Month]** **[!UICONTROL equals]** ![V자형 화살표](/help/assets/icons/ChevronDown.svg) `Sep 2024`입니다.
    1. **[!UICONTROL 완료]**&#x200B;를 선택합니다. 필터 컨테이너가 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
 
