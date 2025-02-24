@@ -5,10 +5,10 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 68%
+source-wordcount: '581'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="연결에 데이터 세트 추가"
->abstract="Adobe Experience Platform에서 데이터를 데이터 세트에 추가한 후에는 Customer Journey Analytics에서 해당 데이터 세트를 연결에 추가할 수 있습니다. 다른 채널에서 데이터를 추가할 때 조직에서 사용하는 스키마를 준수하는지 확인합니다.<br><br>추가하는 각 데이터 세트는 특히 모든 이벤트에 고유 식별자가 존재하는지 확인하고 전체 데이터 구조가 조직의 사용자 정의 스키마와 일치하는지 확인해야 하기 때문에 엄청난 노력이 필요합니다. 이 워크플로를 설정하면 조직 내 여러 팀 간에 몇 달에 걸쳐 조정이 필요할 수 있습니다."
+>abstract="Adobe Experience Platform의 데이터 세트에 데이터를 추가한 후 Customer Journey Analytics에서 해당 데이터 세트를 연결에 추가할 수 있습니다. 다른 채널에서 데이터를 추가할 때 조직에서 사용하는 스키마를 준수하는지 확인합니다.<br><br>추가하는 각 데이터 세트는 특히 모든 이벤트에 고유 식별자가 존재하는지 확인하고 전체 데이터 구조가 조직의 사용자 정의 스키마와 일치하는지 확인해야 하기 때문에 엄청난 노력이 필요합니다. 이 워크플로를 설정하면 조직 내 여러 팀 간에 몇 달에 걸쳐 조정이 필요할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,8 +33,8 @@ ht-degree: 68%
 1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html).
 1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
    1. Edge Network 또는 Analytics 소스 커넥터를 통해 웹 사이트 또는 모바일 앱의 이벤트 기반 데이터 ![event](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg).
-   2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg)(예: CRM 시스템, 콜 센터 애플리케이션, 로열티 애플리케이션).
-   3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)(예: 제품 이름, 제품 정보 시스템의 범주).
+   2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg)&#x200B;(예: CRM 시스템, 콜 센터 애플리케이션, 로열티 애플리케이션).
+   3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)&#x200B;(예: 제품 이름, 제품 정보 시스템의 범주).
 
 1. 데이터 세트 간에 공통 네임스페이스 ID를 사용합니다. [결합](../../stitching/overview.md)을 사용하여 각 행에 공통 ID를 제공하는 것과 관련하여 모든 이벤트 기반 데이터 세트 ![데이터 새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)을 높이십시오. Customer Journey Analytics에서 현재 Experience Platform Profile 또는 결합용 ID 서비스를 사용하지 않습니다.
 1. 사용자 지정 데이터 준비를 수행하여 시계열 데이터 세트에서 Customer Journey Analytics에 수집할 공통 키를 확보할 수 있습니다.

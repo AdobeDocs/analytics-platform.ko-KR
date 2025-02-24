@@ -4,9 +4,9 @@ title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '864'
 ht-degree: 8%
 
 ---
@@ -43,11 +43,11 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 ## 다양한 속성 모델과 지표 비교
 
-지표에 대한 속성 모델 하나를 다른 모델과 신속하고 간편하게 비교하려면 해당 지표의 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
+지표에 대해 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 해당 지표에 대한 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
 
 ![속성 모델 비교를 강조 표시하는 Workspace 패널](assets/compare-attribution.png)
 
-이 바로 가기를 사용하면 속성 모델을 빠르고 쉽게 비교할 수 있습니다.
+이 바로 가기를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 비교할 수 있습니다.
 
 ## 계산된 지표 만들기
 

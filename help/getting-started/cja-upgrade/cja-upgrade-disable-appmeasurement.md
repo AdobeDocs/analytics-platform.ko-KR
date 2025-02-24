@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 50%
+source-wordcount: '201'
+ht-degree: 43%
 
 ---
 
-# AppMeasurement 데이터 수집 비활성화 {#disable-appmeasurement}
+# Adobe Analytics 비활성화 {#disable-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,7 +31,7 @@ ht-degree: 50%
 >
 >이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
 
-<!-- need to work on this -->
+Adobe Analytics을 사용하지 않도록 설정하기 전에 [Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 사용하지 않도록 설정할 시기 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)의 정보를 검토하십시오.
 
 * **태그:** Adobe Analytics 확장 사용 안 함
 

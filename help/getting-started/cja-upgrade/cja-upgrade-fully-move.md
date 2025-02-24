@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 19%
+source-wordcount: '936'
+ht-degree: 13%
 
 ---
 
-# Customer Journey Analytics로 업그레이드한 후 Adobe Analytics가 필요한 기간 평가 {#evaluate-aa-needs}
+# Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 비활성화할 시기 평가 {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="Customer Journey Analytics로 완전 전환"
->abstract="(권장) Customer Journey Analytics는 조직의 주요 분석 도구가 되는 것을 목표로 합니다. 하지만 조직에서 해당 도구에서만 제공되는 기능에 크게 의존하고 해당 워크플로를 변경할 수 없는 경우 여전히 Adobe Analytics가 필요할 수 있습니다."
+>abstract="(권장) Adobe에서는 Adobe Analytics에서 Customer Journey Analytics으로 완전히 전환할 것을 권장합니다. 전환 기간 동안 병렬 데이터 비교를 수행하려면 Customer Journey Analytics과 함께 Adobe Analytics을 실행해야 합니다. 데이터에 익숙해지면 Adobe Analytics을 비활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

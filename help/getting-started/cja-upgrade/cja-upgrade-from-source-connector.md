@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 15%
@@ -29,19 +29,19 @@ ht-degree: 15%
 > 
 >[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
 
-Analytics 소스 커넥터를 Customer Journey Analytics을 위한 유일한 구현으로 사용하는 데에는 고유한 단점이 있습니다.
+Analytics 소스 커넥터를 Customer Journey Analytics의 유일한 구현으로 사용하는 데에는 고유한 단점이 있습니다.
 
-조직에서 이미 Analytics 소스 커넥터 구현만 사용하여 Customer Journey AnalyticsAdobe 으로 업그레이드한 경우, 진행 중인 데이터 수집을 위한 웹 SDK의 새 구현과 함께 Analytics 소스 커넥터(이전 데이터의 경우)를 사용하는 구현으로 전환하는 것이 좋습니다.
+조직에서 이미 Analytics 소스 커넥터 구현만 사용하여 Customer Journey Analytics으로 업그레이드한 경우, Adobe에서는 웹 SDK의 새 구현(지속적인 데이터 수집을 위해)과 함께 Analytics 소스 커넥터(이전 데이터의 경우)를 사용하는 구현으로 전환할 것을 권장합니다.
 
 ## Analytics 소스 커넥터만 사용할 때의 장단점을 이해합니다
 
-Analytics 소스 커넥터 사용의 장점과 단점에 대한 자세한 내용은 [Analytics 소스 커넥터만 사용하여 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)를 참조하십시오.
+Analytics 소스 커넥터 사용의 장점과 단점에 대한 자세한 내용은 [Analytics 소스 커넥터만 사용하여 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)를 참조하십시오.
 
 ## Analytics 소스 커넥터에서 웹 SDK으로 전환
 
 다음은 Analytics 소스 커넥터를 독점적으로 사용하던 것에서 Analytics 소스 커넥터와 웹 SDK 구현으로 구성된 구현으로 전환하는 높은 수준의 프로세스입니다.
 
-1. 문서 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)의 [자세한 권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)에 설명된 대로 웹 SDK 구현을 만듭니다.
+1. 문서 [SDK에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)의 [자세한 권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)에 설명된 대로 웹 Adobe Analytics 구현을 만듭니다.
 
    웹 SDK 구현이 구성된 후 다음 단계를 계속 진행합니다.
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 4bbd661ce2cac94a2d532c13320e98eb0015e358
+source-git-commit: 0dd3dcc819b6e4a7b13fb4601322d94fd5db179a
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 99%
+source-wordcount: '1160'
+ht-degree: 94%
 
 ---
 
@@ -47,34 +47,44 @@ ht-degree: 99%
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
-      + [추천 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
-      + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
-      + [데이터 세트 수집 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [속성용 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [태그에 Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
-      + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
-      + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
-      + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
-      + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
-      + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
-      + [datastream 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
-      + [서비스로 플랫폼 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [권장 업그레이드 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + 스키마 {#schema} 설계 및 만들기
+         + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+         + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+         + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + 데이터 스트림 {#create-datastream} 만들기
+         + [datastream 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+         + [서비스로 플랫폼 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + 데이터 세트 {#create-datasets} 만들기
+         + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
+         + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+         + [데이터 세트 수집 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
+      + 태그 {#create-tags} 만들기
+         + [속성용 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+         + [태그에 Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+         + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+         + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+      + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
-      + [업그레이드 단축키: Web SDK로 마이그레이션](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
-      + [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
-      + [Analytics 소스 커넥터 및 맵 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
-      + [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
-      + [Analytics 소스 커넥터만 사용](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
-      + [AppMeasurement 데이터 수집 비활성화](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
-      + [서드파티 분석 솔루션에서 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
-      + [업그레이드 시 Adobe Analytics 기능 지원](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
-      + [업그레이드 도중 및 이후의 Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
+      + Analytics 소스 커넥터 {#historical-data-source-connector}을(를) 사용하여 이전 데이터 유지
+         + [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+         + [Analytics 소스 커넥터 및 맵 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+         + [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [Adobe Analytics 비활성화 시점 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
+      + [Adobe Analytics 비활성화](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + 대체 업그레이드 메서드 {#alternative-upgrade-methods}
+         + [AppMeasurement 데이터 수집 사용](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
+         + [데이터 레이어 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
+         + [Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)
+      + 기타 업그레이드 시나리오 {#other-upgrade-scenarios}
+         + [Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+         + [Adobe Analytics 이외 솔루션에서 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
+      + 추가 정보 {#additional-information}
+         + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+         + [업그레이드 시 Adobe Analytics 기능 지원](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
+         + [Customer Journey Analytics 기능](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
@@ -170,7 +180,7 @@ ht-degree: 99%
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + 코호트 테이블 {#cohort-table}
+      + 집단 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -214,7 +224,7 @@ ht-degree: 99%
       + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
-   + 프로젝트 구성, 공유 및 예약 {#curate-share}
+   + {#curate-share} 프로젝트 조정, 공유 및 예약
       + [개요](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
