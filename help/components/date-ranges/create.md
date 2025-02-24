@@ -4,7 +4,7 @@ description: 보고에 사용할 날짜 범위를 만듭니다.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a913f23506f692e64633408b8cd9bad6be27970b
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 39%
@@ -18,7 +18,7 @@ ht-degree: 39%
 
 ![주석 만들기](assets/create-date-range.png)
 
-* ?? 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* ?? 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 * ?? Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 이 날짜 범위까지의 사용자 지정 날짜 범위]**&#x200B;를 선택합니다.
 * ?? Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위 만들기]**&#x200B;를 선택합니다.
 * ?? Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+d]**(Windows) 또는 **[!UICONTROL shift+command+d]**(macOS)을 사용합니다.
