@@ -3,9 +3,9 @@ description: 계산된 지표 빌더는 차원, 지표, 필터 및 함수를 드
 title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: 3c11f204b73ec1cc5c4c359b6cc5c88023c93e43
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1705'
 ht-degree: 11%
 
 ---
@@ -31,6 +31,23 @@ ht-degree: 11%
 
 <!-- markdownlint-enable MD034 -->
 
+Customer Journey Analytics에서는 차원, 지표, 필터 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단하거나 복잡한 계산된 지표를 빌드하고 저장할 수 있습니다.
+
+## 계산된 지표 작성 시작
+
+계산된 지표 빌더를 사용하여 계산된 지표를 만들거나 편집할 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/components/apply-create-metrics.md)의 [단일 프로젝트에 대한 계산된 지표 만들기](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 계산된 지표를 만든 프로젝트에서만 사용할 수 있는 계산된 지표를 빠르게 만들 수 있습니다.
+
+계산된 지표 빌더에 액세스하여 구성 요소 목록에서 사용할 수 있는 계산된 지표 생성을 시작합니다.
+
+1. 다음 방법 중 하나로 계산된 지표 빌더에 액세스합니다.
+
+   * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.
+   * Analysis Workspace에서 프로젝트를 연 다음 왼쪽 레일에서 [!UICONTROL **지표**] 섹션 옆에 있는 **더하기** 아이콘을 선택합니다.
+   * [!DNL Customer Journey Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+
+1. 계산된 지표 빌더의 [영역](#areas-of-the-calculated-metrics-builder)을 계속 사용합니다.
+
+## 계산된 지표 빌더의 영역
 
 **[!UICONTROL 계산된 지표 빌더]** 대화 상자를 사용하여 새 계산된 지표를 만들거나 기존 계산된 지표를 편집합니다. 대화 상자의 제목은 [[!UICONTROL 계산된 지표] 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)에서 만들거나 관리하는 지표에 대해 **[!UICONTROL 새 계산된 지표]** 또는 **[!UICONTROL 계산된 지표 편집]**&#x200B;입니다.
 
