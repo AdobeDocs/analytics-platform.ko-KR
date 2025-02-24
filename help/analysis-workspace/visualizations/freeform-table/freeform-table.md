@@ -4,10 +4,10 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -103,7 +103,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 | **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 즉시 로컬 장치에 다운로드합니다. 선택한 차원에 대한 최대 50,000개의 차원 항목. |
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 시각화를 삽입할 수 있습니다. |
 | **[!UICONTROL 데이터 CSV 다운로드]** | 시각화의 표시된 데이터를 로컬 장치에 즉시 다운로드합니다. |
-| **[!UICONTROL 전체 테이블 내보내기...]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](../../export/export-cloud.md)를 참조하세요. |
+| **[!UICONTROL 전체 테이블 내보내기...]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [클라우드로 Customer Journey Analytics 보고서 내보내기](../../export/export-cloud.md)를 참조하십시오. |
 | **[!UICONTROL 시각화 복제]** | 시각화의 정확한 복제본을 만듭니다. |
 | **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가(또는 편집)합니다. [텍스트](../text.md)를 참조하세요. |
 | **[!UICONTROL 시각화 링크 가져오기]** | 시각화에 직접 링크를 복사하여 공유합니다. 링크 공유 대화 상자에 링크가 표시됩니다. 복사 를 선택하여 클립보드에 링크를 복사합니다. |
@@ -112,7 +112,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
