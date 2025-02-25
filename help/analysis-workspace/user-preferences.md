@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
-workflow-type: ht
-source-wordcount: '3562'
-ht-degree: 100%
+source-git-commit: ef93e386e3c3e64a022805dcf8674b7fddf361a5
+workflow-type: tm+mt
+source-wordcount: '3635'
+ht-degree: 96%
 
 ---
 
@@ -186,12 +186,23 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="기본 테이블 지표"
->abstract="흐름 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 흐름 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
+>abstract="[!UICONTROL 흐름] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 흐름] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="기본 테이블 지표"
->abstract="폴아웃 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 폴아웃 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
+>abstract="[!UICONTROL 폴아웃] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 폴아웃] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulthistogramcountingmethod"
+>title="기본 테이블 지표"
+>abstract="[!UICONTROL 히스토그램] 시각화에 사용할 기본 계산 방법을 선택하십시오. 선택한 데이터 보기에 선택한 기본 계산 방법이 없으면 [!UICONTROL 히스토그램] 시각화가 자동으로 다른 기본 계산 방법으로 전환됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultjourneycanvascontainer"
+>title="기본 테이블 지표"
+>abstract="[!UICONTROL 여정 캔버스] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 여정 캔버스] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
