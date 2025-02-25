@@ -4,10 +4,10 @@ title: 지표 및 대상자 멤버십의 일관성
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,10 @@ Real-Time CDP와 Customer Journey Analytics 간의 대상자 멤버십을 비교
 
 ## ID 구성의 차이점
 
-Real-Time CDP와 Customer Journey Analytics는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [아이덴티티 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
+Real-Time CDP와 Customer Journey Analytics는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [ID 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
 
-Customer Journey Analytics는 데이터 레이크의 데이터 세트에서 식별자를 추출하고 사용자 정의 로직을 적용하여 서로 연결하는 [결합](../stitching/overview.md)을 사용하도록 구성할 수 있습니다.
+[결합](../stitching/overview.md)을 사용하도록 Customer Journey Analytics을 구성할 수 있습니다. 결합 메커니즘으로 [필드 기반 결합](/help/stitching/fbs.md)을(를) 사용하는 경우 데이터 레이크의 데이터 세트에서 식별자를 지정하여 해당 데이터 세트의 데이터를 향상된 병합 프로필로 데이터 세트를 상승시키기 위한 목적으로 결합합니다. 결합 메커니즘으로 [그래프 기반 결합](/help/stitching/gbs.md)을 사용하는 경우 유사한 프로세스가 지정된 ID 네임스페이스를 기반으로 ID 그래프를 사용합니다.
 
-앞으로 Customer Journey Analytics는 아이덴티티 그래프를 사용할 수 있습니다.
 
 ## 데이터 세트 구성의 차이점
 
