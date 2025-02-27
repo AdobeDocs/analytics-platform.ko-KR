@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
+source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 52%
+source-wordcount: '464'
+ht-degree: 40%
 
 ---
 
@@ -109,6 +109,6 @@ Customer Journey Analytics으로 업그레이드할 때 다음 Adobe Analytics �
 | [Activity Map 오버레이 및 링크 추적](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | 아직 사용할 수 없음 |
 | [분류 데이터](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | 조회 데이터 세트는 Customer Journey Analytics에서 데이터를 분류하는 방법입니다.<p>[분류 데이터를 포함하는 각 차원에 대한 조회 데이터 집합을 만듭니다.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [마케팅 채널](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 파생 필드는 데이터 보기 내에서 생성됩니다. <p>[마케팅 채널 파생 필드를 만듭니다.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [데이터 피드](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | 데이터 세트의 1세대 데이터 내보내기는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)와 [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)을 통해 사용할 수 있습니다. 이러한 옵션은 수집되거나 Experience Platform Data Lake에 수집된 모든 데이터의 이벤트/행 수준 내보내기를 제공합니다. 이후 열은 쿼리 시간에 계산되므로 후 처리 데이터 열을 사용할 수 없습니다. 이후 열 내보내기는 보고를 통해 사용할 수 있습니다. |
+| [데이터 피드](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform 및 Customer Journey Analytics은 독립적으로 또는 결합하여 다양한 내보내기 요구 사항을 해결할 수 있는 다양한 기능을 제공합니다. 이러한 기능에는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html), [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html), [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 및 [BI 도구 통합](/help/data-views/bi-extension.md)이 포함됩니다.<p>내보내기 옵션에 대한 자세한 내용은 [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md)를 참조하십시오.</p> |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | [스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 작업 영역의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
