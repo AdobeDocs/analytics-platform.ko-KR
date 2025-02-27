@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 55%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="스트리밍 미디어 데이터"
->abstract="오디오, 비디오 또는 스트리밍 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 수행하는 Adobe Analytics의 추가 기능입니다."
+>abstract="오디오, 비디오 또는 스트리밍되는 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 하는 Adobe Analytics 및 Customer Journey Analytics에 대한 추가 기능입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -97,9 +97,7 @@ ht-degree: 55%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 다음 목록은 Customer Journey Analytics으로 업그레이드하는 동안 고려해야 하는 Adobe Analytics 기능만 표시합니다. Customer Journey Analytics에서 완전히 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능을 보여 주는 포괄적인 목록을 보려면 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
