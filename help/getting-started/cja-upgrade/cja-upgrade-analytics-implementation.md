@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '923'
 ht-degree: 26%
 
 ---
@@ -88,9 +88,7 @@ ht-degree: 26%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 Adobe Analytics을 구현할 수 있는 방법에는 여러 가지가 있습니다. Customer Journey Analytics으로 업그레이드할 때 모든 Adobe Analytics 구현에 일부 업그레이드 경로를 사용할 수 있는 것은 아닙니다. 그러나 권장되는 업그레이드 경로는 조직에서 Adobe Analytics을 구현하는 방법에 관계없이 사용할 수 있습니다.
 

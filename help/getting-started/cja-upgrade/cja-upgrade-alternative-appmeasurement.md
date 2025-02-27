@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 2b66e2db9b22bab5304fe981e58828d4ae9fabbd
+exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -24,9 +25,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 Customer Journey Analytics으로 업그레이드할 때 Adobe [Experience Platform Web SDK의 새 구현을 권장](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)합니다. 그러나 타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다.
 
@@ -73,4 +72,3 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
    1. 데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.
 
       자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
-

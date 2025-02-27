@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 43%
@@ -41,6 +41,8 @@ ht-degree: 43%
 >abstract="데이터 수집 API를 사용하여 데이터를 데이터 스트림으로 직접 전송합니다. 인증되지 않은 유형(클라이언트-서버)과 인증된 유형(서버-서버)이 모두 지원됩니다."
 
 <!-- markdownlint-enable MD034 -->
+
+{{upgrade-note}}
 
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Experience Platform Web SDK의 새로운 구현이며, Customer Journey Analytics에서 선호하는 데이터 수집 방법입니다.
 

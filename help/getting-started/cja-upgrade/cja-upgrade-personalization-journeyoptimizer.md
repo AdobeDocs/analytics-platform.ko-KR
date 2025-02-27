@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 16%
@@ -23,6 +23,8 @@ ht-degree: 16%
 >abstract="Adobe Journey Optimizer에서 사용하려면 구현에서 개인화 오브젝트를 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
+
+{{upgrade-note}}
 
 개인화 개체의 결과는 데이터 세트로 끝납니다. 실험의 결과. 고객이 Target에서 AA를 사용한 경우, 이는 CJA로 마이그레이션할 때와 Adobe Target에서 CJA를 사용할 때와는 완전히 다른 공간으로 끝납니다.
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '445'
 ht-degree: 15%
 
 ---
@@ -25,13 +25,11 @@ ht-degree: 15%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 Analytics 소스 커넥터를 Customer Journey Analytics의 유일한 구현으로 사용하는 데에는 고유한 단점이 있습니다.
 
-조직에서 이미 Analytics 소스 커넥터 구현만 사용하여 Customer Journey Analytics으로 업그레이드한 경우, Adobe에서는 웹 SDK의 새 구현(지속적인 데이터 수집을 위해)과 함께 Analytics 소스 커넥터(이전 데이터의 경우)를 사용하는 구현으로 전환할 것을 권장합니다.
+조직에서 이미 Analytics 소스 커넥터 구현만 사용하여 Customer Journey Analytics으로 업그레이드한 경우, Adobe에서는 지속적인 데이터 수집을 위해 웹 SDK의 새 구현으로 전환하고, 이전 데이터에만 Analytics 소스 커넥터를 사용하는 것이 좋습니다.
 
 ## Analytics 소스 커넥터만 사용할 때의 장단점을 이해합니다
 

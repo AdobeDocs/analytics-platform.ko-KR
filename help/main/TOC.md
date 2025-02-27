@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0dd3dcc819b6e4a7b13fb4601322d94fd5db179a
+source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 94%
+source-wordcount: '1165'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,7 @@ ht-degree: 94%
       + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
+      + [스트리밍 미디어 컬렉션 설정](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
       + Analytics 소스 커넥터 {#historical-data-source-connector}을(를) 사용하여 이전 데이터 유지
          + [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Analytics 소스 커넥터 및 맵 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)

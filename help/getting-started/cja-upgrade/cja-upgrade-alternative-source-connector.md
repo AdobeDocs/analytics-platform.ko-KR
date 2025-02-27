@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '413'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,7 @@ ht-degree: 4%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 권장되지는 않지만 Analytics 소스 커넥터를 Customer Journey Analytics의 유일한 구현 경로로 사용할 수 있습니다. 그러나 이러한 유형의 업그레이드와 관련된 고유한 단점 때문에 Adobe에서는 Experience Platform Web SDK의 새로운 구현과 함께 Analytics 소스 커넥터를 사용하는 것이 좋습니다. 이 권장 업그레이드 경로에 대한 자세한 내용은 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 [권장 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.
 

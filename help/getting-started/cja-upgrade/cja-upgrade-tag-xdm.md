@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 35%
+source-wordcount: '1631'
+ht-degree: 37%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 35%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
->
->이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+{{upgrade-note-step}}
 
 [태그를 만들고 웹 SDK 확장을 추가한](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) 후에는 사이트를 추적하고 Adobe Experience Platform에 데이터를 보내는 방법에 따라 데이터 요소와 규칙을 사용하여 태그를 구성해야 합니다. 태그에 대한 데이터 요소 및 규칙을 구성한 후 빌드하고 게시할 수 있습니다.
 

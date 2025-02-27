@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 13%
+source-wordcount: '918'
+ht-degree: 14%
 
 ---
 
@@ -34,9 +34,7 @@ ht-degree: 13%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
->
->이 설명서는 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)의 일부로 사용해야 합니다.
+{{upgrade-note}}
 
 대부분의 조직은 Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 비활성화하게 됩니다. 이는 두 개의 분석 환경을 유지 관리하는 데 드는 비용과 복잡성 때문입니다.
 

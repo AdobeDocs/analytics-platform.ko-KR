@@ -1,7 +1,7 @@
 ---
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3184'
 ht-degree: 23%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 23%
 
 ## 비디오 데모 Adobe Analytics {#videoaa}
 
-*이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 단, 해당 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. Adobe Analytics과 Customer Journey Analytics(예: 세그먼트 대 필터 또는 방문 대 세션) 간의 용어 차이점을 파악하십시오.*
+*이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 단, 해당 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. Adobe Analytics과 Customer Journey Analytics(예: 세그먼트 대 필터 또는 방문 대 세션) 간의 용어 차이점을 알아보십시오.*
 
 
 ## 필터 패널 {#filterspanel}
@@ -201,3 +201,17 @@ ht-degree: 23%
 | **Adobe Journey Optimizer 여정** | 예</br>보다 심층적인 분석 및 맞춤화를 위해 Journey Optimizer에서 여정 열기 | 아니요 | 아니요 |
 
 {style="table-layout:auto"}
+
+## 업그레이드 체크리스트 메모 {#upgrade-note}
+
+>[!NOTE]
+> 
+>[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+
+## 업그레이드 체크리스트 메모 후속 단계 {#upgrade-note-step}
+
+>[!NOTE]
+> 
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
+>
+>이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.

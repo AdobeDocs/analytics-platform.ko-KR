@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 19%
+source-wordcount: '302'
+ht-degree: 24%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 19%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
->
->이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+{{upgrade-note-step}}
 
 Analytics 소스 커넥터를 사용하면 마케팅 채널 데이터가 해당 커넥터를 통해 Customer Journey Analytics으로 전송됩니다. 마케팅 채널 규칙은 계속 기존의 Adobe Analytics에서 구성되며 일부 규칙은 지원되지 않습니다. 자세한 내용은 [마케팅 채널 차원 사용](/help/use-cases/aa-data/marketing-channels.md)을 참조하세요.
 

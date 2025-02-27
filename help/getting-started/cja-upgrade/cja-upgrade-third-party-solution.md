@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
-source-git-commit: d2d945724e7972bd4a29fa13291577bb76288229
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 9%
+source-wordcount: '237'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,7 @@ ht-degree: 9%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 Adobe Analytics 이외의 Analytics 솔루션에서 Customer Journey Analytics으로 업그레이드하는 권장 프로세스는 Customer Journey Analytics에서 선호하는 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다. 웹 SDK과 함께 Adobe에서는 타사 분석 솔루션의 내역 데이터를 Adobe Experience Platform으로 수집할 것을 권장합니다.
 

@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -42,9 +43,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 Customer Journey Analytics으로 업그레이드할 때 Adobe [Experience Platform Web SDK의 새 구현을 권장](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)합니다. 그러나 타임라인 및 리소스 제한과 같은 여러 요인에 따라 권장되는 업그레이드 단계가 조직에 실용적이지 않을 수 있습니다.
 
@@ -71,6 +70,3 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 전체 데이터 레
 1. 모든 데이터 레이어 요소를 원하는 XDM 필드에 매핑합니다.
 
    Adobe은 해당 데이터를 저장하는 위치나 방법을 모르므로 XDM 필드에 매핑되지 않은 모든 데이터 레이어 요소는 영구적으로 삭제됩니다.
-
-
-

@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 74719504960f00f4593633bb62f29d8655cdadd9
+exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 34%
+source-wordcount: '465'
+ht-degree: 35%
 
 ---
 
@@ -78,9 +79,7 @@ ht-degree: 34%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+{{upgrade-note}}
 
 다음 목록은 업그레이드 프로세스 중에 고려해야 하는 Customer Journey Analytics 기능만 보여 줍니다. Customer Journey Analytics에서 완전히 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능을 보여 주는 포괄적인 목록을 보려면 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
@@ -94,5 +93,3 @@ Customer Journey Analytics으로 업그레이드할 때 다음 Customer Journey 
 | [Adobe Target(A4T)와 임시 통합](/help/integrations/at.md) | Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 [Adobe Target 활동을 측정하고 보고](/help/integrations/at.md)할 수 있습니다. |
 | [Adobe Journey Optimizer과 통합](/help/integrations/ajo.md) | Journey Optimizer에서 생성된 데이터를 구성하여 [Customer Journey Analytics에서 고급 분석을 수행](/help/integrations/ajo.md)할 수 있습니다. |
 | Adobe Audience Manager와 일시적으로 통합 |  |
-
-

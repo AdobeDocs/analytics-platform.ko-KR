@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 49%
+source-wordcount: '296'
+ht-degree: 60%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 49%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
->
->이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+{{upgrade-note-step}}
 
 추적할 웹 사이트에 태그를 설치해야 합니다. 즉, 웹 사이트 템플릿의 헤더 태그에 코드를 배치해야 합니다.
 
