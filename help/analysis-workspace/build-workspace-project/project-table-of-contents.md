@@ -5,9 +5,9 @@ title: 목차
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
@@ -42,3 +42,8 @@ Analysis Workspace에서 프로젝트에 대한 목차를 볼 수 있으므로 �
    선택한 시각화는으로 자동 스크롤되어 간략하게 강조 표시됩니다.
 
    ![강조 표시된 목차](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Analytics의 새로운 목차 기능을 사용하여 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

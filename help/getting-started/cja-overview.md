@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 93%
+source-wordcount: '991'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [고객 여정 분석: Experience Business용 분석](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+Customer Journey Analytics 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Experience Business용 Analytics](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -82,27 +82,30 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 Customer Journey Analytics는 Adobe Experience Platform을 사용하는 많은 기능 중 하나입니다. Experience Platform에 구축된 다양한 기능을 통해 데이터를 최대한 활용할 수 있습니다.
 
-Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고, 데이터 과학 및 머신 러닝을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다. 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/kr/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
+Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고, 데이터 과학 및 머신 러닝을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다. 플랫폼의 고객 데이터는 스키마 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
 
 데이터 수집에서 직접 SQL 액세스를 위해 Experience Platform의 여러 구성 요소는 Customer Journey Analytics에 중요하며, 이를 보완합니다.
 
-* [Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/kr/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 이는 모든 데이터 세트에 참여하고 쿼리 결과를 새로운 데이터 세트로 캡처하여 보고에 사용하거나 프로필 서비스로 수집하기 위한 서버를 사용하지 않는 도구입니다. Experience Platform 쿼리 서비스를 사용하여 데이터 분석 에코시스템을 빌드하고 다양한 상호 작용 채널을 통해 소비자의 이미지를 만들 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
-* [실시간 고객 프로필](https://experienceleague.adobe.com/kr/docs/experience-platform/profile/home.html?lang=ko-KR):
-* [ID 서비스](https://experienceleague.adobe.com/kr/docs/experience-platform/sources/home.html?lang=ko-KR)
+* [Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): 표준 SQL을 사용하여 Adobe 솔루션 데이터, 고객 자사 데이터 또는 기타 Platform 데이터와 같은 데이터를 Adobe Experience Platform에서 검색할 수 있습니다. 이는 모든 데이터 세트에 참여하고 쿼리 결과를 새로운 데이터 세트로 캡처하여 보고에 사용하거나 프로필 서비스로 수집하기 위한 서버를 사용하지 않는 도구입니다. Experience Platform 쿼리 서비스를 사용하여 데이터 분석 에코시스템을 빌드하고 다양한 상호 작용 채널을 통해 소비자의 이미지를 만들 수 있습니다. 이러한 채널에는 판매 지점 시스템, 웹, 모바일, CRM 시스템 등이 포함될 수 있습니다.
+* [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR):
+* [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)
 
 ## 비디오
 
-
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics에서 데이터를 사용하여 작업하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터 작업](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+Customer Journey Analytics에서 데이터를 활용하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터를 활용](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics의 아키텍처 및 통합에 대한 소개 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [아키텍처 및 통합](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+Customer Journey Analytics의 아키텍처와 통합에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [아키텍처 및 통합](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
+* 분석가를 위한 [Adobe Customer Journey Analytics 충돌 과정](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
 
+* [마인드셋 및 Adobe Customer Journey Analytics 워크플로 최적화: 모든 규모의 조직을 위한 팀 모델](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+
+* [조직 준비 구축: Adobe Customer Journey Analytics 확장에 대한 사용자 우선 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)

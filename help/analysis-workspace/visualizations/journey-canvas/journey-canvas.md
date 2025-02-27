@@ -4,9 +4,9 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -174,7 +174,7 @@ _이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
   Journey Optimizer에서 기술 사용자는 이벤트를 만든 후에 여정에 추가해야 합니다.
 
-* 생성하는 사용자 지정 노드를 기반으로 대상을 만듭니다(Customer Journey Analytics 대상 빌더 시작).
+* 만드는 사용자 지정 노드를 기반으로 대상을 만듭니다(Customer Journey Analytics 대상 빌더 시작).
 
   Journey Optimizer에서는 사전 정의된 활동에 대해서만 대상을 만들 수 있습니다.
 
@@ -232,7 +232,7 @@ Journey Optimizer의 여정에 대한 변경 사항은 여정이 여정 캔버�
 
 여정 캔버스에서 Journey Optimizer 여정을 수정한 후에는 Journey Optimizer의 여정에 대한 모든 변경 사항이 여정 캔버스에 반영되지 않습니다. 여정 캔버스에 반영된 변경 내용을 보려면 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
-### Journey Optimizer과 Customer Journey Analytics 간의 용어 차이점
+### Journey Optimizer과 Customer Journey Analytics의 용어 차이점
 
 Journey Optimizer에서 한 가지를 의미하는 특정 용어는 Customer Journey Analytics에서 다른 의미를 갖습니다. 여정 캔버스를 사용할 때는 Customer Journey Analytics 용어가 사용됩니다.
 
@@ -247,3 +247,9 @@ Journey Optimizer에서 한 가지를 의미하는 특정 용어는 Customer Jou
 ## 여정 캔버스에서 분석 빌드
 
 Analysis Workspace에서 사용할 수 있는 차원 또는 지표를 기반으로 하는 여정 캔버스에서 분석을 빌드할 수 있습니다. 또는 Journey Optimizer에서 생성된 여정을 분석할 수 있습니다. 자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
+
+
+>[!MORELIKETHIS]
+>
+> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 가이드](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+
