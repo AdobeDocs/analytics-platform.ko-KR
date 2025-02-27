@@ -7,25 +7,21 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 8c257279353112df583b46d87ea17749a75867e2
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # 콘텐츠 분석 개요
 
-<!-- 
-This is a placeholder article for upcoming Content Analytics documentation. Currently used to set up contextual help entries for developer working on onboarding UI and workspace UI 
--->
-
 >[!WARNING]
 >
 >이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
 >
 
-{#release-limited-testing}
+{{release-limited-testing}}
 
 콘텐츠 분석은 마케터가 콘텐츠가 비즈니스가 정의한 주요 성능 지표에 미치는 영향을 이해할 수 있도록 도와줍니다. 동작 데이터 외에 콘텐츠 분석에서는 콘텐츠가 사용되는 방식과 콘텐츠가 영향을 미치는 방식에 대한 데이터를 수집합니다. 예를 들어, 고객이 특정 톤의 목소리, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응합니까? 이 정보는 특별히 설계된 보고 워크플로우 및 템플릿과 함께 Customer Journey Analytics의 고객 여정 데이터에 대해 보다 나은 분석을 수행하고 보다 심층적인 통찰력을 얻는 데 도움이 될 수 있습니다.
 
@@ -63,6 +59,12 @@ Content Analytics에서는 다음 주요 용어를 사용합니다.
 1. 피쳐화 어셈블러 서비스와 ID 서비스는 재방문한 데이터를 처리합니다.
 1. 이러한 서비스의 결과(구성 요소, 속성 및 ID)는 Experience Platform에서 관련된 특정 콘텐츠 분석 데이터 세트를 업데이트하는 데 사용됩니다.
 1. 그런 다음 행동 데이터 및 기타 조회 데이터 세트와 함께 컨텐츠 분석 데이터를 Customer Journey Analytics 구성(연결, 데이터 보기 및 Workspace)에서 사용할 수 있습니다. 이 구성은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 제공하는 기반을 제공합니다.
+
+>[!NOTE]
+>
+>콘텐츠 분석은 AI/ML을 활용합니다. (경험 및 에셋의 특징에 대한) 결과가 부정확할 수 있습니다.
+>
+
 
 >[!MORELIKETHIS]
 >

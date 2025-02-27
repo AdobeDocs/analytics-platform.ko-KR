@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 게시
 
-Content Analytics 구성을 활성화하려면 연결된 태그 속성을 게시해야 합니다.
+Content Analytics 구성을 활성화하려면 연결된 태그 속성을 [게시](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}해야 합니다. Content Analytics 태그 속성을 게시하는 경우에만 사용자가 구성한 도메인, 경험 및 에셋에 대해 Content Analytics 데이터가 수집됩니다
 
 
 ## 수정
@@ -37,4 +37,5 @@ Content Analytics 구성을 활성화하려면 연결된 태그 속성을 게시
 >[!MORELIKETHIS]
 >
 >[구성 가이드](guided.md)
+>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 >

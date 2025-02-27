@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. [Workspace에서 새 프로젝트를 만들거나](/help/analysis-workspace/build-workspace-project/create-projects.md) [기존 프로젝트를 엽니다](/help/analysis-workspace/build-workspace-project/open-projects.md).
 1. 캔버스에서 ![테이블](/help/assets/icons/Table.svg) [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 드래그합니다.
-1. 특정 Content Analytics 차원 및 지표와 기타 일반 [구성 요소](/help/components/overview.md)(예: 필터, 날짜 범위, 주석)를 사용하여 Content Analytics 인사이트를 구축하십시오.
+1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 필터, 날짜 범위, 주석)을 사용하여 Content Analytics 인사이트를 구축하십시오.
 
 ## 축소판
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   |---|---|
   | ![Content Analytics 경험 미리 보기](../assets/aca-experience-preview.png) | ![Content Analytics 자산 미리 보기](../assets/aca-asset-preview.png) |
   | **[!UICONTROL 경험 이름]** | **[!UICONTROL 에셋 이름]** |
-  | **[!UICONTROL 노출 횟수(항상)]**: 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(항상)]**: 에셋의 노출 횟수. |
+  | **[!UICONTROL 노출 횟수(항상)]**: 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(모든 노출 횟수)]**: 에셋의 노출 횟수. |
   | **[!UICONTROL Assets]**: 이 경험에 포함된 에셋 수입니다. 자산을 검사하려면 ![분류](/help/assets/icons/Breakdown.svg) 분류를 선택하십시오. | **[!UICONTROL 경험]**: 이 자산이 표시되는 경험 수입니다. [분류](/help/assets/icons/Breakdown.svg) 분류하여 자산을 검사합니다. |
   | **[!UICONTROL 첫 노출]**: 경험의 첫 노출 날짜입니다. | **[!UICONTROL 첫 노출]**: 에셋의 첫 노출 날짜입니다. |
   | **[!UICONTROL 가장 최근 노출]**: 경험의 가장 최근 노출 날짜입니다. | **[!UICONTROL 가장 최근 노출]**: 에셋의 가장 최근 노출 날짜입니다. |
