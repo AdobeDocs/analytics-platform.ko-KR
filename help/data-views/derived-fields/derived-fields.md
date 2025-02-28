@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '8841'
+source-wordcount: '8844'
 ht-degree: 17%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 17%
 
 템플릿을 사용하려면 템플릿에 규칙의 일부로 나열된 각 함수에 대해 올바른 매개 변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-다중 Dimension 조합 규칙 빌더의 ![스크린샷](assets/function-template-multi-dimension-combine.png)
+![다중 Dimension 결합 규칙 빌더의 스크린샷](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -445,7 +445,7 @@ ht-degree: 17%
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준](선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 값을 ](으)로 설정하고 [!UICONTROL 값을 ](으)로 설정합니다.</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음보다 이전</li><li>다음보다 이전이거나 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개의 [연산자](#operators). 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li><li>날짜</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 컨테이너:</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul><li>[!UICONTROL 기준]&#x200B;(선택한 값 유형에 따라 포함된 연산자 참조)</li></ul></li><li>[!UICONTROL 값을 ]&#x200B;(으)로 설정하고 [!UICONTROL 값을 ]&#x200B;(으)로 설정합니다.</p><ul><li>[!UICONTROL 값]</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul></li></ul> | <p>문자열</p><ul><li>다음과 같음</li><li>모든 검색어와 같음</li><li>구문 포함</li><li>검색어를 하나라도 포함</li><li>다음 검색어 포함</li><li>다음으로 시작</li><li>모든 용어로 시작</li><li>다음으로 끝남</li><li>모든 용어로 끝남</li><li>다음과 같지 않음</li><li>모든 검색어와 같지 않음</li><li>다음 구문 포함 안 함</li><li>검색어 포함 안 함</li><li>모든 검색어를 포함하지 않음</li><li>다음으로 시작하지 않음</li><li>어떤 용어로 시작하지 않음</li><li>다음으로 끝나지 않음</li><li>어떤 용어로 끝나지 않음</li><li>세트임</li><li>세트가 아님</li></ul><p>숫자</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 큼</li><li>다음보다 크거나 같음</li><li>다음보다 작음</li><li>다음보다 작거나 같음</li><li>세트임</li><li>세트가 아님</li></ul><p>날짜</p><ul><li>다음과 같음</li><li>다음과 같지 않음</li><li>다음보다 이후</li><li>다음보다 이후이거나 같음</li><li>다음보다 이전</li><li>다음보다 이전이거나 같음</li><li>세트임</li><li>세트가 아님</li></ul> | <ul><li>파생 필드당 5개 함수</li><li>파생 필드당 200개의 [연산자](#operators). 단일 연산자의 예로는 &#39;참조 도메인 포함 google&#39;이 있습니다. </li></ul> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -453,13 +453,13 @@ ht-degree: 17%
 
 계단식 로직을 적용하여 마케팅 채널 필드를 적절한 값으로 설정하여 다양한 마케팅 채널을 식별하는 규칙을 정의하려는 경우:
 
-- 레퍼러가 검색 엔진에서 왔고 페이지에 `cid`에 `ps_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 검색*](으)로 식별되어야 합니다.
-- 레퍼러가 검색 엔진에서 왔고 페이지에 쿼리 문자열 `cid`이(가) 없는 경우 마케팅 채널은 [!DNL *자연어 검색*](으)로 식별되어야 합니다.
-- 페이지에 `cid`에 `em_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *이메일*](으)로 식별되어야 합니다.
-- 페이지에 `cid`에 `ds_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *디스플레이 광고*](으)로 식별되어야 합니다.
-- 페이지에 `cid`에 `so_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 소셜*](으)로 식별되어야 합니다.
-- 레퍼러가 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com] 또는 [!DNL tiktok.com]의 참조 도메인에서 온 경우 마케팅 채널은 [!DNL *자연어 소셜*](으)로 식별해야 합니다.
-- 위의 규칙 중 일치하는 규칙이 없으면 마케팅 채널은 [!DNL *기타 레퍼러*](으)로 식별되어야 합니다.
+- 레퍼러가 검색 엔진에서 왔고 페이지에 `cid`에 `ps_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 검색*]&#x200B;(으)로 식별되어야 합니다.
+- 레퍼러가 검색 엔진에서 왔고 페이지에 쿼리 문자열 `cid`이(가) 없는 경우 마케팅 채널은 [!DNL *자연어 검색*]&#x200B;(으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `em_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *이메일*]&#x200B;(으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `ds_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *디스플레이 광고*]&#x200B;(으)로 식별되어야 합니다.
+- 페이지에 `cid`에 `so_`이(가) 포함된 쿼리 문자열 값이 있는 경우 마케팅 채널은 [!DNL *유료 소셜*]&#x200B;(으)로 식별되어야 합니다.
+- 레퍼러가 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com] 또는 [!DNL tiktok.com]의 참조 도메인에서 온 경우 마케팅 채널은 [!DNL *자연어 소셜*]&#x200B;(으)로 식별해야 합니다.
+- 위의 규칙 중 일치하는 규칙이 없으면 마케팅 채널은 [!DNL *기타 레퍼러*]&#x200B;(으)로 식별되어야 합니다.
 
 사이트에서 [!UICONTROL 레퍼러] 및 [!UICONTROL 페이지 URL]을 포함하는 샘플 이벤트를 받는 경우 이러한 이벤트는 다음과 같이 식별해야 합니다.
 
@@ -643,7 +643,7 @@ ht-degree: 17%
 
 ## 추가 정보 {#casewhen-more-info}
 
-Customer Journey Analytics은 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)(경험 데이터 모델)을 모델로 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers)를 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
+Customer Journey Analytics에서는 Adobe Experience Platform의 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)&#x200B;(경험 데이터 모델)을 모델로 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [필터 컨테이너](../../components/filters/filters-overview.md#filter-containers)를 참조하십시오. 이 컨테이너 모델은 기본적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한 사항을 부과합니다.
 
 Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -939,7 +939,7 @@ Customer Journey Analytics은 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#deduplicate-uc1-derivedfield}
 
-`Booking Confirmation` 파생 필드를 정의합니다. [!UICONTROL DEDUPLICATE] 함수를 사용하여 [!UICONTROL 중복 제거 ID] [!UICONTROL 예약 확인 ID]를 사용하여 [!UICONTROL 범위] [!DNL Person]에 대한 [!UICONTROL 값] [!DNL Booking]을(를) 중복 제거하는 규칙을 정의합니다. [!UICONTROL 첫 번째 인스턴스 유지]를 [!UICONTROL 유지할 값](으)로 선택합니다.
+`Booking Confirmation` 파생 필드를 정의합니다. [!UICONTROL DEDUPLICATE] 함수를 사용하여 [!UICONTROL 중복 제거 ID] [!UICONTROL 예약 확인 ID]를 사용하여 [!UICONTROL 범위] [!DNL Person]에 대한 [!UICONTROL 값] [!DNL Booking]을(를) 중복 제거하는 규칙을 정의합니다. [!UICONTROL 첫 번째 인스턴스 유지]를 [!UICONTROL 유지할 값]&#x200B;(으)로 선택합니다.
 
 ![연결 규칙의 스크린샷](assets/deduplicate-1.png)
 
@@ -1590,7 +1590,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#split-u1-derivedfield}
 
-`Responses` 파생 필드를 만듭니다. [!UICONTROL SPLIT] 함수를 사용하여 [!UICONTROL 배열로 변환] 메서드를 사용하여 `,`을(를) [!UICONTROL 구분 기호](으)로 사용하여 [!UICONTROL 음성 앱 응답] 필드의 값을 변환하는 규칙을 정의합니다.
+`Responses` 파생 필드를 만듭니다. [!UICONTROL SPLIT] 함수를 사용하여 [!UICONTROL 배열로 변환] 메서드를 사용하여 `,`을(를) [!UICONTROL 구분 기호]&#x200B;(으)로 사용하여 [!UICONTROL 음성 앱 응답] 필드의 값을 변환하는 규칙을 정의합니다.
 
 ![분할 규칙의 스크린샷](assets/split-1.png)
 
@@ -1706,7 +1706,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 파생 필드 {#summarize-uc-derivedfield}
 
-`Add To Cart Revenue Size` 파생 필드를 만듭니다. [!UICONTROL SUMMARIZE] 함수와 [!UICONTROL Sum] [!UICONTROL Summarize 메서드]를 사용합니다. [!UICONTROL Scope]을(를) [!UICONTROL Person](으)로 설정하여 [!UICONTROL cart_add] 필드의 값을 합합니다. 그런 다음 두 번째 [!UICONTROL CASE WHEN] 규칙을 사용하여 결과를 트리 범주 크기로 분할합니다.
+`Add To Cart Revenue Size` 파생 필드를 만듭니다. [!UICONTROL SUMMARIZE] 함수와 [!UICONTROL Sum] [!UICONTROL Summarize 메서드]를 사용합니다. [!UICONTROL Scope]을(를) [!UICONTROL Person]&#x200B;(으)로 설정하여 [!UICONTROL cart_add] 필드의 값을 합합니다. 그런 다음 두 번째 [!UICONTROL CASE WHEN] 규칙을 사용하여 결과를 트리 범주 크기로 분할합니다.
 
 ![Summarize 규칙의 스크린샷](assets/summarize.png)
 
@@ -1994,8 +1994,9 @@ Classify 함수의 연산자는 [!UICONTROL 값이 원래 값과 같은 경우] 
 
 파생 필드의 조회 및 프로필 필드 지원을 통해 이벤트 조회 및 프로필 속성에 따라 데이터를 변환할 수 있습니다. 이 기능은 조회 또는 프로필 데이터 세트에 있는 계정 수준 데이터가 있는 B2B 시나리오에서 특히 유용합니다. 또한 이 지원은 조회 데이터(예: 캠페인 정보 및 오퍼 유형)나 프로필 데이터(예: 멤버 계층 및 계정 유형)의 공통 필드에서 데이터를 조작하는 데 유용합니다.
 
-파생 필드에 대한 배경 정보는 다음을 참조하십시오.
+>[!MORELIKETHIS]
+>
+>- [블로그: 데이터를 최대한 활용: Customer Journey Analytics에서 파생된 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [블로그: 파생된 필드에서 Customer Journey Analytics의 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
-- [데이터를 최대한 활용하기: Customer Journey Analytics에서 파생된 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
-
-- [Customer Journey Analytics에 대한 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
