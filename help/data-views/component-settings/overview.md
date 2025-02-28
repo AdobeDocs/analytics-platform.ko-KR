@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 98%
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="구성 요소 설정"
->abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성합니다.<br/><br/>**매개변수&#x200B;**<br/>**보고에서 구성 요소 숨기기**: 이 상자를 선택하면 이 구성 요소는 보고에서 관리자가 아닌 사용자에게 표시되지 않습니다. 관리자는 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
+>abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 보고 구성합니다. 보고에서 관리자가 아닌 사용자에게 이 구성 요소를 숨기려면 이 확인란을 선택합니다. 관리자는 여전히 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 46%
+source-wordcount: '326'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="흐름"
->abstract="하나의 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 흐름을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**다음으로 시작**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생한 후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음 포함**: 차원 또는 차원 항목을 추가하여 선택한 구성 요소가 발생하기 전후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음으로 끝남**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생하기 전에 가장 많이 발생하는 접점을 확인합니다.<br/>**경로 지정 차원**: 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 차원을 추가합니다."
+>abstract="한 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 흐름을 분석합니다. 시작할 구성 요소(지표, 차원 또는 항목)와 끝낼 구성 요소를 지정합니다. 선택적으로 고급 설정을 정의하여 시각화를 추가로 구성할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

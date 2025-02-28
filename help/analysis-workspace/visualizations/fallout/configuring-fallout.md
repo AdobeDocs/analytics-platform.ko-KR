@@ -4,14 +4,15 @@ title: 폴아웃 시각화 구성
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 36%
+source-wordcount: '734'
+ht-degree: 38%
 
 ---
 
-# 폴아웃 시각화 구성
+# 폴아웃 시각화 구성 {#configure-fallout-visualization}
+
 
 터치포인트를 지정하여 차원이 여러 개인 폴아웃 시퀀스를 만들 수 있습니다. 일반적으로 터치포인트는 사이트에 있는 페이지입니다. 하지만 터치포인트는 페이지에 제한되지 않습니다. 예를 들어 고유 방문자 및 재방문뿐만 아니라 단위와 같은 이벤트를 추가할 수 있습니다. 범주, 브라우저 유형 또는 내부 검색어와 같은 차원을 추가할 수도 있습니다.
 
@@ -21,7 +22,7 @@ ht-degree: 36%
 
 차원, 지표 및 필터에 대해 경로 지정을 수행할 수 있습니다. 예를 들어 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
-## Use
+## 사용
 
 1. ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 폴아웃]** 시각화를 추가합니다. [패널에 시각화 추가](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 1. 페이지 차원에서 *터치포인트 추가* 드롭다운 메뉴로 페이지(예: 홈)를 드래그합니다.
@@ -54,7 +55,12 @@ ht-degree: 36%
    | **[!UICONTROL 다음 이벤트]** | 는 바로 다음 이벤트의 경로에서 다음 페이지에 도달합니다. |
 
 
-## 설정
+## 설정 {#settings}
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_container"
+>title="폴아웃 컨테이너"
+>abstract="경로 지정을 분석할 컨테이너를 선택하십시오. 이렇게 선택하면 참여를 이해하고 선택한 컨테이너에 대한 분석을 제한하는 데 도움이 됩니다."
 
 시각화의 일부로 특정 설정을 사용할 수 있습니다.
 
@@ -63,7 +69,7 @@ ht-degree: 36%
 | **[!UICONTROL 세션]** 또는 **[!UICONTROL 사용자]** | [!UICONTROL 세션]과(와) [!UICONTROL 개인] 간에 전환하여 개인 경로 지정을 분석하십시오. 기본값은 [!UICONTROL 개인]입니다. 이 설정은 세션들에 대해 사용자 수준에서 사용자 참여를 이해하거나 분석을 단일 세션으로 제한하는 데 도움이 됩니다. |
 
 
-## 상황에 맞는 메뉴
+## 컨텍스트 메뉴
 
 시각화의 일부로 특정 컨텍스트 메뉴 옵션을 사용할 수 있습니다.
 
@@ -80,7 +86,7 @@ ht-degree: 36%
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -4,14 +4,20 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1446'
 ht-degree: 37%
 
 ---
 
-# 플로우 시각화 구성
+# 플로우 시각화 구성 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="플로우 컨테이너"
+>abstract="경로 지정에 사용할 컨테이너(번호)를 선택합니다."
+
 
 플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
 
@@ -19,7 +25,7 @@ ht-degree: 37%
 
 ![다음으로 시작, 포함, 다음으로 끝남 필드를 표시하는 흐름 구성 화면입니다.](assets/new-flow.png)
 
-## Use
+## 사용
 
 1. ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 흐름]** 시각화를 추가합니다. [패널에 시각화 추가](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
@@ -39,7 +45,7 @@ ht-degree: 37%
    >
    >계산된 지표는 **[!UICONTROL 다음으로 시작]** 또는 **[!UICONTROL 다음으로 끝남]** 필드에서 사용할 수 없습니다.
 
-1. 지표를 선택하는 경우 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 [!UICONTROL **경로 지정 Dimension**]&#x200B;도 제공해야 합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
+1. 지표를 선택하는 경우 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 [!UICONTROL **Dimension 경로 지정**]&#x200B;도 제공해야 합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
 
    ![흐름 구성](assets/flow-configure.png)
 
@@ -49,7 +55,7 @@ ht-degree: 37%
    | 설정 | 설명 |
    | --- | --- |
    | **[!UICONTROL 줄 바꿈 레이블]** | 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다.  기본값 = 선택 해제. |
-   | **[!UICONTROL 반복 인스턴스 포함]** | 플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스(예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다. <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> |
+   | **[!UICONTROL 반복 인스턴스 포함]** | 흐름 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스(예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다. <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> |
    | **[!UICONTROL 처음/마지막 발생으로 제한]** | 차원, 항목 또는 지표의 처음 또는 마지막 발생으로 시작하거나 종료하는 경로로 경로를 제한합니다. 자세한 내용은 [처음/마지막 발생으로 제한](#example-scenario-for-limit-to-firstlast-occurrence)을 참조하십시오. |
    | **[!UICONTROL 열 수]** | 플로우 다이어그램에 원하는 열 수입니다. 최대 5개의 열을 지정할 수 있습니다. |
    | **[!UICONTROL 열당 항목 확장됨]** | 각 열에 원하는 항목 수입니다. 열당 확장된 최대 10개의 항목을 지정할 수 있습니다. |
@@ -104,7 +110,7 @@ ht-degree: 37%
 * 나머지 노드로 데이터가 유입되는 한 모든 다운스트림 및 업스트림 열은 지속됩니다.
 * 필터를 제거하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하여 필터 메뉴를 엽니다. 적용된 필터를 제거한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 흐름은 필터링되지 않은 이전 상태로 돌아가야 합니다.
 
-## 상황에 맞는 메뉴
+## 컨텍스트 메뉴
 
 다음 옵션을 사용하여 플로우 시각화의 모든 노드에서 컨텍스트 메뉴를 사용합니다.
 
@@ -146,7 +152,7 @@ ht-degree: 37%
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

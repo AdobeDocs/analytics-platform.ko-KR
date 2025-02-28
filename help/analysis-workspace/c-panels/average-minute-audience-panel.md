@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 29%
+source-wordcount: '1677'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="미디어 평균 분당 시청 대상자"
->abstract="특정 미디어 콘텐츠나 사용자 정의 기간 동안의 성과를 보여 줍니다.<br/><br/>**일반 매개변수&#x200B;**<br/>**다음에 대한 지표 계산**: 지표 계산: 패널에 사용할 지표를 선택합니다. **특정 콘텐츠**&#x200B;를 선택하여 콘텐츠 길이를 기준으로 특정 콘텐츠나 이벤트에 대한 평균 분당 시청 대상자를 분석합니다. **사용자 정의 기간을 선택하여** 선택한 사용자 정의 기간 동안 평균 분당 시청 대상자가 어떻게 변하는지 분석합니다.<br/>**보고 차원**: **콘텐츠 ID** 차원의 **비디오 이름**&#x200B;별로 보고할지 선택합니다. 특정 콘텐츠를 지표로 선택한 경우에만 사용할 수 있습니다.<br/>**세부 기간**: 보고할 세부 기간을 선택합니다. 사용자 정의 기간을 지표로 선택한 경우에만 사용할 수 있습니다.<br/>**콘텐츠 필터링 기준(선택 사항)**: 특정 프로그램, 시즌, 에피소드를 선택하거나 사용자 정의 차원을 선택하여 콘텐츠를 필터링합니다.<br/><br/>**고급 설정&#x200B;**<br/>**테이블 설정**: 테이블에 계산 값을 표시할 수 있는지 여부를 선택합니다.<br/>**체류 시간 지표**: 특정 콘텐츠 계산에 사용할 체류 시간 지표를 선택합니다. 특정 콘텐츠를 지표로 선택한 경우에만 사용할 수 있습니다."
+>abstract="특정 미디어 콘텐츠의 성능 또는 사용자 지정 기간 동안의 성능을 표시합니다. 보고 차원을 지정하고 선택적으로 콘텐츠를 필터링합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!NOTE]
 >
->**[!UICONTROL 미디어 분당 평균 시청 시간]** 패널은 Customer Journey Analytics을 위해 스트리밍 미디어 컬렉션을 구입한 고객에게만 제공됩니다.
+>**[!UICONTROL 미디어 분당 평균 시청 시간]** 패널은 Customer Journey Analytics용 스트리밍 미디어 컬렉션을 구입한 고객만 사용할 수 있습니다.
 >
 >자세한 내용은 Adobe 영업 담당자 또는 Adobe 계정 팀에 문의하십시오.
 >

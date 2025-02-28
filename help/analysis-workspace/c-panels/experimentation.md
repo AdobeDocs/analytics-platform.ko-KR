@@ -4,10 +4,10 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 20%
+source-wordcount: '2141'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="실험"
->abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다.<br/><br/>**매개변수&#x200B;**<br/>**실험**: 분석할 실험입니다.<br>**제어 변형**: 선택한 실험에 대한 제어 변형입니다.<br/>**성공 지표**: 실험을 분석하기 위한 최대 5개의 표준(계산되지 않은) 성공 지표입니다.<br/>**표준화 지표**: 사용자, 세션 또는 이벤트입니다. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이 지표는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다."
+>abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. 실험, 비교할 제어 변형, 성공 지표 및 표준화 지표를 지정합니다. 필요한 경우 신뢰도에 대한 상한과 하한을 설정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!ENDSHADEBOX]
 
 
-**[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Target 또는 Journey Optimizer과 같은 Adobe 솔루션, BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
+**[!UICONTROL 실험]** 패널을 통해 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단할 수 있습니다. 온라인, 오프라인, Target 또는 Journey Optimizer과 같은 Adobe 솔루션 및 BYO(Bring Your Own) 데이터 등 모든 실험 플랫폼에서 A/B 실험의 상승도와 신뢰도를 평가할 수 있습니다.
 
 Adobe Customer Journey Analytics과 Adobe Target 간의 [통합에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja).
 
@@ -60,11 +60,11 @@ Adobe Customer Journey Analytics과 Adobe Target 간의 [통합에 대해 자세
 권장되는 데이터 스키마는 실험 데이터가 두 개의 개별 차원에서 실험 및 변형 데이터를 포함하는 [개체 배열](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)에 있는 것입니다. 두 차원은 **single** 개체 배열에 있어야 합니다. 실험 데이터와 변형 데이터가 구분된 문자열에 있는 단일 차원의 실험 데이터가 있는 경우 데이터 보기의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정을 사용하여 패널에서 사용할 수 있도록 차원을 두 개로 분할할 수 있습니다.
 
 
-실험 데이터가 Adobe Experience Platform으로 [수집](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)되면 하나 이상의 실험 데이터 세트에 대한 [Customer Journey Analytics에서 연결을 만듭니다](/help/connections/create-connection.md).
+실험 데이터가 Adobe Experience Platform으로 [수집](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)되면 하나 이상의 실험 데이터 세트에 대해 [Customer Journey Analytics에서 연결을 만듭니다](/help/connections/create-connection.md).
 
 ### 데이터 보기에서 컨텍스트 레이블 추가
 
-Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍스트 레이블](/help/data-views/component-settings/overview.md)을(를) 추가할 수 있으며, [!UICONTROL 실험] 패널과 같은 Customer Journey Analytics 서비스에서는 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
+Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또는 지표에 [컨텍스트 레이블](/help/data-views/component-settings/overview.md)을(를) 추가할 수 있으며 [!UICONTROL 실험] 패널과 같은 Customer Journey Analytics 서비스에서는 이러한 레이블을 목적에 사용할 수 있습니다. 실험 패널에는 두 가지의 미리 정의된 레이블이 사용됩니다.
 
 * [!UICONTROL 실험]
 * [!UICONTROL 실험 변형]
@@ -101,7 +101,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
    | 설정 | 정의 |
    | --- | --- |
-   | **[!UICONTROL 날짜 범위]** | 실험 패널의 날짜 범위는 선택한 실험에 대해 Customer Journey Analytics 시 받은 첫 번째 이벤트를 기반으로 자동으로 설정됩니다. 필요한 경우 더 구체적인 시간대로 날짜 범위를 제한하거나 확장할 수 있습니다. |
+   | **[!UICONTROL 날짜 범위]** | 실험 패널의 날짜 범위는 선택한 실험에 대해 Customer Journey Analytics에서 받은 첫 번째 이벤트를 기반으로 자동으로 설정됩니다. 필요한 경우 더 구체적인 시간대로 날짜 범위를 제한하거나 확장할 수 있습니다. |
    | **[!UICONTROL 실험]** | 어떤 것을 영구적으로 유지하는 것이 최선인지 판단하기 위해 최종 사용자에게 공개된 경험의 변형 세트. 실험은 두 개 이상의 변형으로 구성되며, 그 중 하나는 제어 변형으로 간주됩니다. 이 설정은 데이터 보기에서 **[!UICONTROL 실험]** 레이블로 레이블 지정된 차원과 최근 3개월의 실험 데이터로 미리 채워집니다. |
    | **[!UICONTROL 제어 변형]** | 최종 사용자 경험에서 두 가지 이상의 변경 중 하나로, 최선의 대안을 식별하기 위해 비교됩니다. 하나의 변형을 제어로 선택해야 하며, 하나의 변형만 제어 변형으로 간주될 수 있습니다. 이 설정은 데이터 보기에서 **[!UICONTROL Variant]** 레이블로 레이블 지정된 차원으로 미리 채워집니다. 이 설정은 이 실험과 관련된 변형 데이터를 가져옵니다. |
    | **[!UICONTROL 성공 지표]**➊ | 사용자가 변형을 비교하는 지표입니다. 전환 지표에 대해 가장 바람직한 결과를 나타내는 변형(최고 또는 최저)이 실험의 *가장 성과가 좋은 변형*&#x200B;으로 선언됩니다. 최대 5개의 지표를 추가할 수 있습니다. |
@@ -152,7 +152,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 ## 비임의 차원 해석 {#non-randomized}
 
-Customer Journey Analytics을 사용하면 분석가가 임의의 차원을 실험으로 선택할 수 있습니다. 하지만 당신은 실험으로 선택된 차원이 무작위화된 사람이 아닌 분석을 어떻게 해석할 것인가?
+Customer Journey Analytics을 통해 분석가는 모든 차원을 실험으로 선택할 수 있습니다. 하지만 당신은 실험으로 선택된 차원이 무작위화된 사람이 아닌 분석을 어떻게 해석할 것인가?
 
 예를 들어, 한 사람이 보는 광고를 생각해 보십시오. *광고 A* 대신 *광고 B*&#x200B;을(를) 표시하기로 결정한 경우 일부 지표(예: 평균 매출)의 변화를 측정하는 데 관심이 있을 수 있습니다. 광고 A 대신 광고 B를 보여주는 인과적 효과는 마케팅 의사 결정에 도달하는데 있어서 핵심적으로 중요하다. 광고 A의 상태 quo를 광고 B의 대체 전략으로 대체한 경우, 이 인과 효과는 전체 모집단에 대한 평균 매출로 측정될 수 있습니다.
 
@@ -184,7 +184,7 @@ Customer Journey Analytics의 실험 패널을 사용하면 데이터를 개인�
 * 다음 기본 지표 중 하나:
    * 사용자
 
-실험 패널과 호환되지 않는 계산된 지표는 계산된 지표를 만들 때 [!UICONTROL **제품 호환성**] 필드에 [!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**] 값이 있습니다. 계산된 지표를 만드는 방법에 대한 자세한 내용은 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)을 참조하십시오.
+실험 패널과 호환되지 않는 계산된 지표는 계산된 지표를 만들 때 [!UICONTROL **제품 호환성**] 필드의 값이 [!UICONTROL **Customer Journey Analytics의 모든 곳(실험 제외)**]&#x200B;입니다. 계산된 지표를 만드는 방법에 대한 자세한 내용은 [지표 작성](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)을 참조하십시오.
 
 ## 실험 패널에서 계산된 지표 사용
 

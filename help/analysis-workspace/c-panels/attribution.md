@@ -4,10 +4,10 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 47%
+source-wordcount: '661'
+ht-degree: 38%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="속성"
->abstract="파원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다."
+>abstract="성공 지표, 채널 및 전환 확인 기간을 사용하여 여러 기여도 분석 모델을 빠르게 비교하고 시각화합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="속성 패널"
->abstract="차원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
+>abstract="성공 지표에 대한 여러 기여도 분석 모델을 빠르게 비교하고 시각화합니다. 채널(차원), 포함할 모델 및 전환 확인 기간을 선택합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 <!-- markdownlint-enable MD034 -->

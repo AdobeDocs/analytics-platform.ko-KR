@@ -5,10 +5,10 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 74%
+source-wordcount: '356'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="포함/제외 값"
->abstract="특정 기준과 일치하는 값만 포함하도록 차원을 좁힙니다. 보고서에서 할당 및 필터링 전에 포함 및 제외가 발생합니다.<br/><br/>**매개변수&#x200B;**<br/>**대소문자 구분**: 아래의 필터 로직이 대소문자를 구분하는지 확인합니다."
+>abstract="특정 기준과 일치하는 값만 포함하도록 차원을 좁힙니다. 보고서에서 할당 및 필터 전에 포함 및 제외가 발생합니다. 지정된 필터 로직이 대/소문자를 구분하는지 확인합니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -4,10 +4,10 @@ description: Analysis Workspace에서 집단 분석에 집단 테이블을 사�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 30%
+source-wordcount: '705'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="코호트 테이블"
->abstract="이벤트 완료를 기반으로 사용자를 그룹화한 다음 진행 중인 참여와 시간에 따른 이탈을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**포함 기준**: 초기 방문자 코호트를 정의하는 데 사용되는 구성 요소입니다.<br/>**재방문 기준**: 방문자가 돌아왔는지 결정하는 데 사용되는 구성 요소입니다."
+>abstract="이벤트 완료를 기준으로 사용자를 그룹화한 다음 진행 중인 참여 및 시간 경과에 따른 이탈을 분석합니다. 세부기간, 집단 분석 유형 및 순환 계산 사용 여부와 같은 추가 설정을 지정합니다. 고급 옵션을 설정하여 선택한 차원을 기반으로 지연 테이블 또는 사용자 지정 차원 집단을 빌드할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 * 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 
-[!UICONTROL 집단 테이블]은(는) [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객에 대해 사용할 수 있습니다.
+[!UICONTROL 집단 테이블]은(는) [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Customer Journey Analytics 고객이 사용할 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
