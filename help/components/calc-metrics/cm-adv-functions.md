@@ -4,10 +4,10 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
+source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 56%
+source-wordcount: '4542'
+ht-degree: 54%
 
 ---
 
@@ -418,8 +418,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
@@ -557,8 +557,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | 비교하는 데 사용할 기본 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
@@ -582,8 +582,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X |  |
-| metric_Y |  |
+| metric_X | 비교하는 데 사용할 기본 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
@@ -695,8 +695,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
@@ -720,8 +720,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
@@ -1019,8 +1019,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | |
-| metric_Y | |
+| metric_X | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교하는 데 사용할 지표입니다. |
 
 ### 예
 
