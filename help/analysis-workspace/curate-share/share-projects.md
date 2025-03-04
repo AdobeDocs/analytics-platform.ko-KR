@@ -5,9 +5,9 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d47fabb35e6674b8accb6ce3b56cb13c334f4d96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2070'
 ht-degree: 62%
 
 ---
@@ -137,13 +137,13 @@ Customer Journey Analytics 액세스 권한이 없는 사람에게 Analysis Work
 
 * 조직 외부의 사람
 
-* 조직 내에서 Customer Journey Analytics 액세스 권한이 없는 사람
+* 조직 내에서 Customer Journey Analytics에 액세스할 수 없는 사람
 
 >[!NOTE]
 >
->Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트를 공유할 때는 다음 사항을 고려하십시오.
+>Customer Journey Analytics에 액세스할 수 없는 사용자와 Analysis Workspace 프로젝트를 공유할 때는 다음 사항을 고려하십시오.
 >
->* [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 Customer Journey Analytics 관리자가 이러한 방식으로 프로젝트를 공유하는 기능을 사용하지 않도록 설정할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 Customer Journey Analytics 관리자가 이 기능을 비활성화했습니다.
+>* Customer Journey Analytics 관리자가 [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 이러한 방식으로 프로젝트를 공유하는 기능을 비활성화할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 Customer Journey Analytics 관리자가 이 기능을 비활성화했습니다.
 >
 >* 확장된 시각화가 50개를 초과하는 프로젝트는 Customer Journey Analytics 액세스 권한이 없는 사용자와 공유할 수 없습니다.
 >
@@ -153,8 +153,7 @@ Customer Journey Analytics 액세스 권한이 없는 사람에게 Analysis Work
 >
 >* 많은 사용자가 동시에 특정 링크에 액세스하려고 하면 프로젝트에 액세스하는 것이 불가능할 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 단일 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 동안 기다린 후 링크에 다시 액세스해 보십시오.
 >
->* Healthcare Shield 및 Privacy &amp; Security Shield 라이선스에서 [!UICONTROL 누구와도 공유] 기능이 모두 차단되었습니다.
-
+>* [!DNL Healthcare Shield] 및 [!DNL Privacy & Security Shield] 라이선스 모두에 대해 [!UICONTROL 누구와도 공유] 기능에 Experience Cloud 인증이 필요합니다. [!DNL Healthcare Shield] 고객의 경우 &quot;HIPAA 준수&quot; 경고가 표시되지만, Experience Cloud에 인증한 후에도 이 기능을 사용할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
@@ -179,7 +178,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
    프로젝트 소유자가 이 링크의 소유자에 해당합니다. Analytics 관리 안내서의 [사용자 에셋 전송](/help/tools/asset-transfer/transfer-assets.md)에 설명된 대로 프로젝트 소유권이 전송되어야 링크 소유권을 다른 사용자에게 전송할 수 있습니다.
 
-1. 다음 보안 옵션을 사용할지 여부를 선택합니다(이 옵션은 Customer Journey Analytics 관리자가 제어할 수 있음).
+1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 Customer Journey Analytics 관리자가 제어할 수 있음).
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
@@ -189,7 +188,7 @@ Analysis Workspace 프로젝트를 누구와도 공유하려면 다음 작업을
 
       * 이 옵션이 표시되지 않으면 Customer Journey Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
-      * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 이는 Customer Journey Analytics 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 Experience Cloud 인증을 요구함을 의미합니다. 이는 Healthcare Shield를 허가한 조직의 경우 항상 해당됩니다.
+      * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, Customer Journey Analytics 관리자는 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 Experience Cloud 인증을 요구합니다. 이는 Healthcare Shield를 허가한 조직의 경우 항상 해당됩니다.
 
 1. **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드 옆에 있는 ![링크](/help/assets/icons/Link.svg)를 선택하여 링크를 시스템 클립보드에 복사합니다.
 
