@@ -5,9 +5,9 @@ title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: d47fabb35e6674b8accb6ce3b56cb13c334f4d96
+source-git-commit: 100fe0c9bf5dd1db78ae8188e8de1f8ea53123dc
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2069'
 ht-degree: 62%
 
 ---
@@ -153,7 +153,7 @@ Customer Journey Analytics 액세스 권한이 없는 사람에게 Analysis Work
 >
 >* 많은 사용자가 동시에 특정 링크에 액세스하려고 하면 프로젝트에 액세스하는 것이 불가능할 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 단일 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 동안 기다린 후 링크에 다시 액세스해 보십시오.
 >
->* [!DNL Healthcare Shield] 및 [!DNL Privacy & Security Shield] 라이선스 모두에 대해 [!UICONTROL 누구와도 공유] 기능에 Experience Cloud 인증이 필요합니다. [!DNL Healthcare Shield] 고객의 경우 &quot;HIPAA 준수&quot; 경고가 표시되지만, Experience Cloud에 인증한 후에도 이 기능을 사용할 수 있습니다.
+>* [!DNL Healthcare Shield] 및 [!DNL Privacy & Security Shield] 라이선스 모두에 대해 [!UICONTROL 누구와도 공유] 기능을 사용하려면 Experience Cloud 인증이 필요합니다. [!DNL Healthcare Shield] 고객의 경우 &quot;HIPAA 준수&quot; 경고가 표시되지만, Experience Cloud에 인증한 후에도 이 기능을 사용할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
