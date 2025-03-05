@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
+source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4278'
 ht-degree: 99%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 99%
 
 ## 연결 만들기 및 구성 {#create-connection}
 
-1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
+1. Customer Journey Analytics의 기본 메뉴에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
    ![제목 없는 연결 설정](assets/create-conn1.png)

@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e444474d9f859f59613caa8fad06998372cdf742
+source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -71,7 +71,7 @@ ht-degree: 18%
 
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
-   | **[!UICONTROL 대상]** 인터페이스 내에서. | 기본 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**&#x200B;을 선택합니다. Audiences 인터페이스가 표시됩니다. **[!UICONTROL 대상 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상 빌더]가 열립니다. |
+   | **[!UICONTROL 대상]** 인터페이스 내에서 | 기본 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**&#x200B;을 선택합니다. Audiences 인터페이스가 표시됩니다. **[!UICONTROL 대상 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상 빌더]가 열립니다. |
    | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화를 사용하면 컨텍스트 메뉴를 사용하여 대상을 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 있는 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)에 있는 노드의 컨텍스트 메뉴에서 **[!UICONTROL 대상 만들기]**&#x200B;를 선택할 수 있습니다.<p>이 방법을 사용하면 대상 빌더의 필터가 선택한 차원 또는 차원 항목으로 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 대상을 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[흐름](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 대상에는 계산된 지표를 포함할 수 없습니다. 계산된 지표를 포함하는 대상을 만들려고 하면 계산된 지표는 대상 정의에 포함되지 않습니다.</p> |
    | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
 
@@ -147,7 +147,7 @@ Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Pla
 
 ## Experience Platform에서 Customer Journey Analytics 대상 사용 {#audiences-aep}
 
-Customer Journey Analytics은 게시된 대상으로부터 모든 네임스페이스와 ID 조합을 가져와서 Real-Time Customer Data Platform에 스트리밍합니다. Customer Journey Analytics은 연결이 구성되었을 때 [!UICONTROL 개인 ID]&#x200B;(으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상을 보냅니다.
+Customer Journey Analytics은 게시된 대상으로부터 네임스페이스와 ID 조합을 모두 가져와서 Real-Time Customer Data Platform으로 스트리밍합니다. Customer Journey Analytics은 연결이 구성되었을 때 [!UICONTROL 개인 ID]&#x200B;(으)로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상을 보냅니다.
 
 그런 다음 Real-Time Customer Data Platform은 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>을(를) 모든 장치 및 채널에서 타깃팅할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
