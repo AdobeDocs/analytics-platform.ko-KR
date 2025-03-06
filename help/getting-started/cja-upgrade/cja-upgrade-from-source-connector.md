@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 15%
+source-wordcount: '538'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 15%
 >id="cja-upgrade-source-connector"
 >title="Analytics 소스 커넥터 구현"
 >abstract="Analytics 소스 커넥터를 사용하면 Customer Journey Analytics를 손쉽게 활용할 수 있지만 Adobe Analytics와 Customer Journey Analytics를 모두 구독해야 합니다. 이 안내서는 독립적인 Web SDK 구현으로 전환하는 방법을 설명합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-delete"
+>title="기존의 Analytics 소스 커넥터 삭제"
+>abstract="현재 보유하고 있는 Analytics 소스 커넥터가 조직의 사용자 지정 스키마와 호환되지 않습니다. 하지만 데이터는 여전히 Analytics 보고서 세트에 있습니다. 이 단계에서는 현재 Analytics 소스 커넥터를 제거하므로 후속 단계에서 올바른 스키마를 사용하여 다시 만들 수 있습니다.<br><br>원본 커넥터를 삭제하기 전에 원본 커넥터를 제거해도 조직 내의 보고에 영향을 주지 않도록 조직의 다른 사용자와 조정할 수 있습니다. 이 조정을 완료하는 데 몇 주가 걸릴 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

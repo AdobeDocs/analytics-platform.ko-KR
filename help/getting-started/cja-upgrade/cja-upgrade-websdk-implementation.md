@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 1ac7059e76797b14c00993a2a46aa51b1ebfe6a2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 43%
+source-wordcount: '349'
+ht-degree: 38%
 
 ---
 
@@ -39,6 +39,24 @@ ht-degree: 43%
 >id="cja-upgrade-websdk-api"
 >title="NPM 패키지"
 >abstract="데이터 수집 API를 사용하여 데이터를 데이터 스트림으로 직접 전송합니다. 인증되지 않은 유형(클라이언트-서버)과 인증된 유형(서버-서버)이 모두 지원됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-no-selection"
+>title="지정된 속성에 대한 Web SDK 구현"
+>abstract="자세한 지침은 설문지에서 원하는 구현 유형을 선택합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-third-party"
+>title="타사 태그 관리 시스템에 Web SDK 라이브러리 추가"
+>abstract="태그 관리 시스템의 관리자와 협력하여 웹 SDK 라이브러리를 사이트에 추가합니다.<br><br>이 작업의 완료 시간은 태그 관리 시스템을 담당하는 개인의 응답성에 따라 크게 달라집니다. 웹 SDK 라이브러리를 추가하면 관련 구현 논리와 번들로 제공되어 조직의 표준 릴리스 주기 동안 배포될 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 14%
+source-wordcount: '1067'
+ht-degree: 12%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 14%
 >id="cja-upgrade-keep-aa"
 >title="두 가지 분석 제품 모두 유지"
 >abstract="(권장하지 않음) 이 옵션을 선택하면 Adobe와의 계약에 Adobe Analytics와 Customer Journey Analytics가 모두 포함되므로 시간이 지남에 따라 조직에 더 많은 비용이 들 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-source-connector"
+>title="Analytics 소스 커넥터를 비활성화하여 웹 SDK의 데이터만 사용"
+>abstract="Analytics 소스 커넥터는 Customer Journey Analytics에서 완전히 사용할 수 없는 일부 기능에 대한 액세스, 이전 데이터 비교 및 나란히 제공하는 데 사용됩니다. 이러한 목적으로 Adobe Analytics이 더 이상 필요하지 않으면 Analytics 소스 커넥터를 비활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,6 +67,24 @@ ht-degree: 14%
 >id="cja-upgrade-disable-appmeasurement-third-pary"
 >title="서드파티 태그 관리 시스템 비활성화"
 >abstract="Web SDK 데이터가 완벽하게 작동하면 태그 관리자와 협력하여 서드파티 태그 관리 시스템에서 AppMeasurement 라이브러리를 제거합니다.<br><br>이 단계를 수행하는 데 예상되는 시간은 태그 관리 제품에서 AppMeasurement를 비활성화하는 용이성과 태그 코드를 배포하고 관리하는 데 사용하는 릴리스 주기에 따라 달라집니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-tags"
+>title="태그에서 Analytics 확장 비활성화"
+>abstract="웹 SDK 데이터가 완전히 작동하면 태그 관리자와 함께 태그 속성에서 Adobe Analytics 확장을 제거합니다. 이를 수행하기 전에 사용자가 Adobe Analytics을 사용에서 Customer Journey Analytics으로 전환했는지 확인하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-api"
+>title="Adobe Analytics에 대한 API 데이터 수집 비활성화"
+>abstract="웹 SDK 데이터가 완전히 작동하면 해당 엔지니어링 팀과 협력하여 프로젝트에서 Adobe Analytics 코드를 제거합니다. 이를 수행하기 전에 사용자가 Adobe Analytics을 사용에서 Customer Journey Analytics으로 전환했는지 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

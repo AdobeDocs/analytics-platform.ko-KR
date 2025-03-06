@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 87b2927735834d253fa8a35ba106c1ed720a4ced
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 92%
+source-wordcount: '1193'
+ht-degree: 91%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 92%
          + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [데이터 세트 수집 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + 태그 {#create-tags} 만들기
+      + 태그 {#create-tags}을(를) 사용하여 웹 SDK 구현
          + [속성용 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [태그에 Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
@@ -88,6 +88,8 @@ ht-degree: 92%
          + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
          + [업그레이드 시 Adobe Analytics 기능 지원](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
          + [Customer Journey Analytics 기능](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
+         + [웹 SDK 구현 옵션](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
+         + [플랫폼을 위한 Adobe Analytics Web SDK 구성](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
    + Adobe Analytics와의 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
