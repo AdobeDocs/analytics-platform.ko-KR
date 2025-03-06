@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '5188'
 ht-degree: 8%
@@ -54,11 +54,11 @@ ht-degree: 8%
 
 +++
 
-보고서에서 또는 Workspace의 데이터 분석의 일부로서 Customer Journey Analytics에서 요약 데이터를 사용하려면
+Customer Journey Analytics의 요약 데이터를 보고서나 Workspace의 데이터 분석의 일부로 사용하려면 다음을 수행해야 합니다
 
-- Experience Platform의 요약 스키마
+- Experience Platform의 요약 스키마,
 - Experience Platform의 요약 데이터 세트
-- 요약 데이터 세트를 사용하도록 구성된 Customer Journey Analytics의 연결
+- 요약 데이터 세트 를 사용하도록 구성된 Customer Journey Analytics의 연결
 - 요약 데이터에 대한 지표 및 차원으로 올바르게 구성된 Customer Journey Analytics의 데이터 보기.
 
 이 요약 데이터를 이벤트 데이터의 데이터 세트 및 조회 데이터의 데이터 세트와 함께 사용합니다.
@@ -291,7 +291,7 @@ ht-degree: 8%
 
 요약 데이터에는 Experience Platform의 요약 스키마가 필요합니다. 요약 스키마는 XDM 요약 지표를 기본 클래스로 사용하는 스키마입니다.
 
-Experience Platform에서 요약 스키마를 생성하려면:
+Experience Platform에서 요약 스키마를 만들려면 다음 작업을 수행하십시오.
 
 1. 다음에서 **[!UICONTROL Experience Platform]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
 1. 왼쪽 레일에서 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
@@ -452,7 +452,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
       1. 다른 모든 설정은 그대로 둡니다.
       1. **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 요약 데이터를 사용한 데이터 보기]**&#x200B;의 **[!UICONTROL 구성 요소]** 단계에서:
-      1. Dimension 및 지표 목록에 다음 구성 요소를 추가합니다. 구성 요소 이름은 기본 이름에서 수정됩니다. 구성 요소 패널(오른쪽)의 **[!UICONTROL 구성 요소 설정]**&#x200B;에서 **[!UICONTROL 구성 요소 이름]**&#x200B;을(를) 사용합니다.
+      1. 차원 및 지표 목록에 다음 구성 요소를 추가합니다. 구성 요소 이름은 기본 이름에서 수정됩니다. 구성 요소 패널(오른쪽)의 **[!UICONTROL 구성 요소 설정]**&#x200B;에서 **[!UICONTROL 구성 요소 이름]**&#x200B;을(를) 사용합니다.
 
          **지표**
 
@@ -478,14 +478,14 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          | 추적 코드(이벤트) | 예제 이벤트 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.tracking_code |
          | 추적 코드(조회) | 조회 데이터 데이터 세트 예 | 문자열 | *_tenant*.tracking_code |
 
-      1. **[!UICONTROL Dimension]** 목록에서 **[!UICONTROL 추적 코드(이벤트)]** 차원을 선택하십시오. 구성 요소 패널에서 다음을 수행합니다.
+      1. **[!UICONTROL 차원]** 목록에서 **[!UICONTROL 추적 코드(이벤트)]** 차원을 선택합니다. 구성 요소 패널에서 다음을 수행합니다.
 
          ![추적 코드 요약 데이터](../assets/tracking-code-summary-data.png)
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 요약 데이터 그룹]**&#x200B;을 펼칩니다.
          1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 사용하도록 설정합니다.
          1. **[!UICONTROL Dimension]** 드롭다운 목록에서 **[!UICONTROL 캠페인 ID]**&#x200B;을(를) 선택하십시오. 이 단계에서는 이벤트 데이터와 요약 데이터가 보고를 위해 적절하게 결합되도록 합니다.
-         1. 선택적으로 **[!UICONTROL 보고에서 숨기기]**&#x200B;를 활성화할 수 있습니다. [!UICONTROL 보고에서 숨기기]를 통해 선택한 차원([!UICONTROL Campaign Id])을 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에서 숨길 수 있습니다. 이 옵션을 활성화한 경우 옵션을 확인할 수 있습니다.
-            1. **[!UICONTROL Dimension]** 목록에서 **[!UICONTROL 캠페인 ID]** 차원을 선택합니다.
+         1. 선택적으로 **[!UICONTROL 보고에서 숨기기]**&#x200B;를 활성화할 수 있습니다. [!UICONTROL 보고에서 숨기기]를 통해 선택한 차원([!UICONTROL 캠페인 ID])을 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에서 숨길 수 있습니다. 이 옵션을 활성화한 경우 옵션을 확인할 수 있습니다.
+            1. **[!UICONTROL 차원]** 목록에서 **[!UICONTROL 캠페인 ID]** 차원을 선택합니다.
             1. 이제 **[!UICONTROL 구성 요소 설정]**&#x200B;의 **[!UICONTROL 보고에서 구성 요소 숨기기]**&#x200B;가 자동으로 활성화됩니다.
 
       1. 새 파생 필드(예: `Campaign Name (Lookup Derived Field)`)를 만들어 조회 데이터 데이터 데이터 예제 데이터 세트의 캠페인 이름(조회) 차원을 사용하여 Workspace에서 보고할 수 있도록 합니다.
@@ -498,9 +498,9 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          1. **[!UICONTROL 반환할 값]** 드롭다운 메뉴에서 **[!UICONTROL campaign_name]** 선택
          1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-      1. 새로 만든 파생 필드 **[!UICONTROL 캠페인 이름(조회 파생 필드)]**&#x200B;을(를) **[!UICONTROL Dimension]** 구성 요소 목록에 추가합니다.
+      1. 새로 만든 파생 필드 **[!UICONTROL 캠페인 이름(조회 파생 필드)]**&#x200B;을(를) **[!UICONTROL 차원]** 구성 요소 목록에 추가합니다.
 
-      1. **[!UICONTROL Dimension]** 목록에서 **[!UICONTROL 캠페인 이름(조회)]** 차원을 선택합니다. 구성 요소 패널에서 다음을 수행합니다.
+      1. **[!UICONTROL 차원]** 목록에서 **[!UICONTROL 캠페인 이름(조회)]** 차원을 선택합니다. 구성 요소 패널에서 다음을 수행합니다.
 
          ![파생 필드 요약 데이터 그룹](../assets/derived-field-summary-data-group.png)
 
@@ -551,7 +551,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 
 1. 패널에 대해 선택된 데이터 보기가 요약 데이터에 대한 구성이 포함된 데이터 보기를 참조하는지 확인합니다. 예를들어 **[!UICONTROL 요약 데이터를 사용하는 데이터 보기 예시]**
 1. 보고할 데이터에 날짜 범위가 유효한지 확인합니다. 예: **[!UICONTROL 지난 2달]**.
-1. **[!UICONTROL Dimension]**&#x200B;에서 **[!UICONTROL 추적 코드(이벤트)]**&#x200B;을(를) 드래그하여 빈 자유 형식 테이블에 차원을 놓습니다.
+1. **[!UICONTROL 차원]**&#x200B;에서 **[!UICONTROL 추적 코드(이벤트)]**&#x200B;을(를) 끌어와 빈 자유 형식 테이블로 차원을 놓습니다.
 1. **[!UICONTROL 지표]**&#x200B;에서 **[!UICONTROL 주문]**&#x200B;을(를) 끌어다 놓고 지표를 **[!UICONTROL 이벤트]** 열로 끌어다 놓아 자유 형식 테이블의 해당 열을 바꿉니다.
 1. **[!UICONTROL 지표]**&#x200B;에서 **[!UICONTROL 매출]**&#x200B;을(를) 끌어다 놓고 지표를 끌어 자유 형식 테이블에 추가 열로 추가하십시오.
 1. **[!UICONTROL 지표]**&#x200B;에서 **[!UICONTROL 노출 횟수(요약)]**&#x200B;을(를) 끌어다 놓고 지표를 끌어 자유 형식 테이블에 추가 열로 추가합니다.

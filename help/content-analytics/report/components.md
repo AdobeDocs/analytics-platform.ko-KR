@@ -6,7 +6,8 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 17%
@@ -49,6 +50,9 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 경험 가로 픽셀 깊이 | 경험의 가로 픽셀 깊이에 대한 수량화 가능한 값입니다. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 경험 세로 픽셀 깊이 | 경험의 세로 픽셀 깊이에 대한 수량화 가능한 값입니다. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 
+{style="table-layout:fixed"}
+
+
 
 ## 경험 속성
 
@@ -68,6 +72,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 경험 단어 수 | 경험에 대해 ![AI 생성](/help/assets/icons/AI.svg) 단어 수. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 | 경험 문장당 단어 수 | 경험에 대한 문장당 ![AI 생성](/help/assets/icons/AI.svg) 단어 수. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 
+{style="table-layout:fixed"}
+
 
 ## 경험 이벤트
 
@@ -75,6 +81,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 |---|---|---|---|
 | 경험 보기 | 경험 보기 수에 대한 수량화 가능한 측정입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 | 경험 클릭수 | 경험 클릭 수에 대한 수량화 가능한 측정입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
+
+{style="table-layout:fixed"}
 
 
 ## 에셋 메타데이터
@@ -96,6 +104,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 자산 생성 날짜 | 에셋 생성일. | 차원 | 최근 \| 세션 |
 | 자산을 마지막으로 업데이트한 사람 | 자산 업데이트에 대한 식별자. | 차원 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 자산 마지막 업데이트 일자 | 에셋 업데이트 날짜. | 차원 | 최근 \| 세션 |
+
+{style="table-layout:fixed"}
 
 
 ## 자산 속성
@@ -119,6 +129,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 자산 조명 조건 | 자산의 ![AI 생성](/help/assets/icons/AI.svg) 조명 상태. 가능한 값은 골든아워, 블루아워, 한낮, 오버캐스트, 밤, 하이 키, 로우 키, 채광, 백열등, 형광, 화려한 스튜디오 입니다. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 자산 카메라 설정 | 자산의 ![AI 생성](/help/assets/icons/AI.svg) 카메라 설정. 가능한 값은 빠른 셔터 속도, 긴 노출입니다. 보케 흐림, 동작 흐림, 기울기 이동 흐림, 플래시, 광각, 흑백, 초현실적, 이중 노출, 매크로 및 일반 모드. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 
+{style="table-layout:fixed"}
+
 
 ## 자산 이벤트
 
@@ -126,6 +138,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 |---|---|---|---|
 | 자산 보기 | 자산 보기 수에 대한 수량화 가능한 측정입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 | 자산 클릭 수 | 자산 클릭 수에 대한 수량화 가능한 측정입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
+
+{style="table-layout:fixed"}
 
 
 <!--
@@ -137,6 +151,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | Experience Path Root | Root path to the experience. | Derived Field | |
 | Asset Location | Location of the asset. | Derived Field | |
 | Asset Percenption ID + Asset ID | Combiination of asset perception identifier and asset identifier | Derived Field | |
+
+{style="table-layout:fixed"}
 -->
 
 ## 계산된 지표
@@ -145,3 +161,5 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 |---|---|---|---|
 | 자산 클릭스루 비율 | 자산 클릭 수 / 자산 보기 | 계산된 지표 | |
 | 경험 클릭스루 비율 | 경험 클릭수 / 경험 보기 | 계산된 지표 | |
+
+{style="table-layout:fixed"}

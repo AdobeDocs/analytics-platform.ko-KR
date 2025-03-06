@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 596e54a559bac69214e1de3ea37da6177f110b7a
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
@@ -39,10 +39,11 @@ Content Analytics의 구성은 다음 단계로 구성됩니다.
    * 데이터 수집
       * 데이터 스트림이 생성되고 데이터 스트림 내에 Experience Platform 서비스가 구성되어 데이터를 Content Analytics 경험 이벤트 데이터 세트로 스트리밍합니다.
       * 태그 속성은 구성 마법사에서 올바른 샌드박스, 데이터스트림 및 기타 구성 옵션에 대해 구성된 Adobe Content Analytics 확장으로 만들어집니다.
-1. 태그 속성을 수동으로 게시하는 경우에만 콘텐츠 분석이 효과적으로 배포되고 활성화됩니다.
+1. 태그 속성을 [수동으로 게시](manual.md)하는 경우에만 콘텐츠 분석이 효과적으로 배포되고 활성화됩니다.
+
 1. [안내가 있는 구성](guided.md) 마법사를 사용하여 구현된 구성에 대해 일부 제한적으로만 변경할 수 있습니다. 예를들어 [데이터 보기](/help/data-views/data-views.md)를 변경합니다.
 1. 연결된 Tag 속성의 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 통해 구현된 구성에 다른 변경 작업을 수행할 수 있습니다.
-1. Tag 속성을 수동으로 다시 게시하는 경우에만 4단계와 5단계의 구성 수정 사항이 효과적으로 배포 및 활성화됩니다.
+1. Tag 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 4단계와 5단계의 구성 수정 사항이 효과적으로 배포되고 활성화됩니다.
 
 
 Content Analytics를 구성하기 전에 다음 전제 조건이 충족되는지 확인하십시오.
