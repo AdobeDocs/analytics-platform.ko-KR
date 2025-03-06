@@ -6,21 +6,21 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 19771d5cd2d2a38919c42e7f76bd700016020912
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
 # Customer Journey Analytics용 Report Builder 소개
 
-Customer Journey Analytics용 Report Builder를 통해 Adobe Customer Journey Analytics 데이터를 사용하여 맞춤형 보고서를 쉽게 만들고 편집하고 새로 고칠 수 있습니다. Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform에 구축된 서비스입니다. Report Builder의 간단하고 유연한 끌어다 놓기 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 맞춤형 보고서를 만들 수 있습니다.
+Customer Journey Analytics용 Report Builder를 통해 Adobe Customer Journey Analytics 데이터를 사용하여 사용자 정의 보고서를 쉽게 만들고 편집하고 새로 고칠 수 있습니다. Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform에 구축된 서비스입니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
 
 Customer Journey Analytics용 Report Builder를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 - 기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 얻을 수 있습니다.
-- 달력, 셀 참조 또는 날짜 계산을 사용하여 사용자 정의 날짜를 만들 수 있습니다.
+- 캘린더, 셀 참조 또는 날짜 계산을 사용하여 사용자 정의 날짜를 만들 수 있습니다.
 - 익숙한 Excel 서식 도구를 사용하여 테이블과 시각화를 디자인할 수 있습니다.
 
 Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 사용할 수 있습니다.
@@ -46,9 +46,9 @@ Customer Journey Analytics용 Report Builder는 다음 플랫폼의 Excel에서 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에 대한 보고서 빌더](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Buider](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
-[Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows)에서
+[Microsoft Store](https://appsource.microsoft.com/en-us/product/Office365/WA200003101)에서
 Customer Journey Analytics용 Report Builder를 다운로드할 수 있습니다.
