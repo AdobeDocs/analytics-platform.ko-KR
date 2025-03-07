@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 19771d5cd2d2a38919c42e7f76bd700016020912
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics용 Report Builder를 통해 Adobe Customer Journey An
 
 Customer Journey Analytics용 Report Builder를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-- 기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 얻을 수 있습니다.
+- 기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 세그먼트를 얻을 수 있습니다.
 - 캘린더, 셀 참조 또는 날짜 계산을 사용하여 사용자 정의 날짜를 만들 수 있습니다.
 - 익숙한 Excel 서식 도구를 사용하여 테이블과 시각화를 디자인할 수 있습니다.
 

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -65,6 +65,6 @@ Report Builder 허브에는 생성 및 관리 버튼, 명령 목록과 빠른 �
 
 **날짜 범위**&#x200B;는 선택한 데이터 블록의 날짜 범위를 보여 줍니다. 여러 날짜 범위가 있는 여러 데이터 블록을 선택한 경우 **날짜 범위** 링크에 *다중*&#x200B;이 표시됩니다.
 
-### 필터
+### 세그먼트
 
-**필터** 링크는 선택한 데이터 블록에서 사용하는 필터의 요약 목록을 표시합니다. 여러 필터가 적용된 여러 데이터 블록을 선택한 경우 **필터** 링크에 *다중*&#x200B;이 표시됩니다.
+**세그먼트** 링크는 선택한 데이터 블록에서 사용하는 세그먼트의 요약 목록을 표시합니다. 여러 세그먼트가 적용된 여러 데이터 블록을 선택한 경우 **세그먼트** 링크에 *다중*&#x200B;이 표시됩니다.
