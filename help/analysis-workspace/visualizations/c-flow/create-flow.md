@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1446'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
->title="플로우 컨테이너"
->abstract="경로 지정에 사용할 컨테이너(번호)를 선택합니다."
+>title="흐름 컨테이너"
+>abstract="경로 지정(번호)을 표시하는 데 사용할 컨테이너를 선택하십시오."
 
 
 플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.

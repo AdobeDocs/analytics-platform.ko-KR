@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="폴아웃 컨테이너"
->abstract="경로 지정을 분석할 컨테이너를 선택하십시오. 이렇게 선택하면 참여를 이해하고 선택한 컨테이너에 대한 분석을 제한하는 데 도움이 됩니다."
+>abstract="경로 지정을 분석할 컨테이너를 선택합니다. 이렇게 하면 참여를 이해하고 선택한 컨테이너에 대한 분석을 제한하는 데 도움이 됩니다."
 
 시각화의 일부로 특정 설정을 사용할 수 있습니다.
 

@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="다음 또는 이전 항목"
->abstract="방문자가 이전에 어디에서 왔거나 다음으로 이동했던 가장 일반적인 위치를 분석합니다. 시각화에 사용할 차원, 차원 항목, 방향 및 컨테이너를 지정합니다."
+>abstract="방문자들이 이전에 왔거나 다음으로 이동하는 가장 일반적인 장소를 분석합니다. 시각화에 사용할 차원, 차원 항목, 방향 및 컨테이너를 지정합니다."
 
 
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_container"
 >title="컨테이너"
->abstract="컨테이너를 선택하여 문의 범위를 결정합니다."
+>abstract="컨테이너를 선택하여 문의의 범위를 지정합니다."
 
 **[!UICONTROL 다음 또는 이전 항목]** 패널을 사용하려면:
 

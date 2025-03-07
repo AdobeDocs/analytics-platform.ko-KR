@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 23%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="코호트 테이블"
->abstract="이벤트 완료를 기준으로 사용자를 그룹화한 다음 진행 중인 참여 및 시간 경과에 따른 이탈을 분석합니다. 세부기간, 집단 분석 유형 및 순환 계산 사용 여부와 같은 추가 설정을 지정합니다. 고급 옵션을 설정하여 선택한 차원을 기반으로 지연 테이블 또는 사용자 지정 차원 집단을 빌드할 수 있습니다."
+>abstract="이벤트 완료를 기반으로 사용자를 그룹화한 다음 진행 중인 참여와 시간에 따른 이탈을 분석합니다. 세부 기간, 코호트 분석 유형, 순환 계산 사용 여부와 같은 추가 설정을 지정합니다. 선택한 차원을 기반으로 지연 테이블이나 사용자 정의 차원 코호트를 작성하기 위한 고급 옵션을 설정할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

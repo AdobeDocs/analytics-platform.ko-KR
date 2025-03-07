@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="연결에 데이터 세트 추가"
->abstract="Adobe Experience Platform의 데이터 세트에 데이터를 추가한 후 Customer Journey Analytics에서 해당 데이터 세트를 연결에 추가할 수 있습니다. 다른 채널에서 데이터를 추가할 때 조직에서 사용하는 스키마를 준수하는지 확인합니다.<br><br>추가하는 각 데이터 세트는 특히 모든 이벤트에 고유 식별자가 존재하는지 확인하고 전체 데이터 구조가 조직의 사용자 정의 스키마와 일치하는지 확인해야 하기 때문에 엄청난 노력이 필요합니다. 이 워크플로를 설정하면 조직 내 여러 팀 간에 몇 달에 걸쳐 조정이 필요할 수 있습니다."
+>abstract="Adobe Experience Platform에서 데이터를 데이터 세트에 추가한 후에는 Customer Journey Analytics에서 해당 데이터 세트를 연결에 추가할 수 있습니다. 다른 채널에서 데이터를 추가할 때 조직에서 사용하는 스키마를 준수하는지 확인합니다.<br><br>추가하는 각 데이터 세트는 특히 모든 이벤트에 고유 식별자가 존재하는지 확인하고 전체 데이터 구조가 조직의 사용자 정의 스키마와 일치하는지 확인해야 하기 때문에 엄청난 노력이 필요합니다. 이 워크플로를 설정하면 조직 내 여러 팀 간에 몇 달에 걸쳐 조정이 필요할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

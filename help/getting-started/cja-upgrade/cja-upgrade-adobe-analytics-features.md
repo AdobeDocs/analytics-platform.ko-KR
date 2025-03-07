@@ -10,7 +10,7 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 40%
+ht-degree: 55%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map-support"
->title="Activity Map 오버레이 지원은 아직 사용할 수 없습니다"
->abstract="Activity Map 오버레이 지원은 Customer Journey Analytics에서 아직 사용할 수 없습니다. 향후 사용할 수 있을 예정입니다."
+>title="Activity Map 오버레이는 아직 지원되지 않습니다."
+>abstract="Customer Journey Analytics에서는 아직 Activity Map 오버레이가 지원되지 않습니다. 향후에 제공될 예정입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -84,7 +84,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="스트리밍 미디어 데이터"
->abstract="오디오, 비디오 또는 스트리밍되는 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 하는 Adobe Analytics 및 Customer Journey Analytics에 대한 추가 기능입니다."
+>abstract="오디오, 비디오 또는 스트리밍 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 수행하는 Adobe Analytics 및 Customer Journey Analytics의 추가 기능입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -93,7 +93,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
 >title="프로젝트 및 구성 요소 마이그레이션"
->abstract="Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 가져옵니다."
+>abstract="Adobe Analytics 프로젝트 및 관련 모든 구성 요소를 Customer Journey Analytics로 가져옵니다."
 
 <!-- markdownlint-enable MD034 -->
 

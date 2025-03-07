@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="포함/제외 값"
->abstract="특정 기준과 일치하는 값만 포함하도록 차원을 좁힙니다. 보고서에서 할당 및 필터 전에 포함 및 제외가 발생합니다. 지정된 필터 로직이 대/소문자를 구분하는지 확인합니다."
+>abstract="특정 기준과 일치하는 값만 포함하도록 차원을 좁힙니다. 보고서에서 할당 및 필터링 전에 포함 및 제외가 발생합니다. 지정된 필터 논리가 대소문자를 구분하는지 확인합니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="미디어 동시 뷰어"
->abstract="패널을 만들어 특정 기간 동안의 동시 시청자를 분석합니다."
+>abstract="특정 기간 동안의 동시 뷰어 수를 분석하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="미디어 동시 뷰어"
->abstract="시간 경과에 따른 동시 뷰어를 분석하고, 최대 동시성을 확인하고, 선택적으로 필터, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
+>abstract="시간 경과에 따른 동시 뷰어를 분석하고, 최대 동시 시청을 확인하고, 필요한 경우 필터, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 

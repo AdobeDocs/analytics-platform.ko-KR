@@ -10,18 +10,18 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 0%
+ht-degree: 34%
 
 ---
 
-# 대체 요소 업그레이드: 데이터 레이어를 Customer Journey Analytics으로 전송 {#data-collection-data-layer}
+# 업그레이드 대안: 데이터 레이어를 Customer Journey Analytics로 전송 {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer"
->title="Adobe에 데이터 레이어 보내기"
->abstract="XDM 개체를 통해 데이터를 보내는 대신 데이터 개체를 통해 전체 데이터 레이어를 Adobe으로 보낼 수 있습니다.<br><br>이 옵션을 사용하면 처음부터 XDM 개체를 채우지 않고 데이터 레이어를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 그러나 이 매핑은 Adobe이 선뜻 해석하지 못하는 상당한 양의 데이터가 있을 것이므로 많은 작업이 필요합니다. 이 옵션을 사용하면 나중에 데이터에 추가하는 모든 필드는 데이터 스트림의 XDM에 매핑되어야 하므로 시간이 지남에 따라 복잡성이 가중될 수도 있습니다."
+>title="Adobe로 데이터 레이어 전송"
+>abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 전체 데이터 레이어를 Adobe로 전송할 수 있습니다.<br><br>이 옵션을 사용하면 XDM 오브젝트를 처음부터 직접 채우는 대신 데이터 레이어를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 그러나 Adobe가 즉시 해석할 수 없는 상당한 양의 데이터가 전송되므로, 이러한 매핑에는 많은 작업이 필요합니다. 또한 이 옵션을 선택하면 나중에 데이터에 추가하는 모든 필드를 데이터스트림의 XDM에 매핑해야 하므로 시간이 지남에 따라 복잡성이 증가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-send-data-layer"
->title="Adobe으로 데이터 레이어 보내기"
->abstract="원하는 시간에 Adobe으로 데이터를 전송하도록 구현을 구성하고, JSON 페이로드를 전체 데이터 레이어로 구성합니다."
+>title="Adobe로 데이터 레이어 전송"
+>abstract="원하는 시점에 Adobe로 데이터를 전송하도록 구현을 구성하고 JSON 페이로드를 전체 데이터 레이어로 구성합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer-map"
 >title="XDM에 각 데이터 레이어 요소 할당"
->abstract="모든 데이터 레이어 요소를 원하는 XDM 필드에 매핑합니다. Adobe은 해당 데이터를 저장하는 위치나 방법을 모르므로 XDM 필드에 매핑되지 않은 모든 데이터 레이어 요소는 영구적으로 삭제됩니다."
+>abstract="모든 데이터 레이어 요소를 원하는 XDM 필드에 매핑합니다. XDM 필드에 매핑되지 않은 데이터 레이어 요소는 Adobe가 해당 데이터를 저장할 위치나 방법을 알 수 없으므로 영구적으로 삭제됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,8 +65,8 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 전체 데이터 레
 
 전체 데이터 레이어를 Customer Journey Analytics으로 전송하는 기본 단계는 다음과 같습니다.
 
-1. 원하는 시간에 Adobe으로 데이터를 전송하도록 구현을 구성하고, JSON 페이로드를 전체 데이터 레이어로 구성합니다.
+1. 원하는 시점에 Adobe로 데이터를 전송하도록 구현을 구성하고 JSON 페이로드를 전체 데이터 레이어로 구성합니다.
 
 1. 모든 데이터 레이어 요소를 원하는 XDM 필드에 매핑합니다.
 
-   Adobe은 해당 데이터를 저장하는 위치나 방법을 모르므로 XDM 필드에 매핑되지 않은 모든 데이터 레이어 요소는 영구적으로 삭제됩니다.
+   XDM 필드에 매핑되지 않은 데이터 레이어 요소는 Adobe가 해당 데이터를 저장할 위치나 방법을 알 수 없으므로 영구적으로 삭제됩니다.

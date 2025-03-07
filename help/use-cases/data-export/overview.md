@@ -8,7 +8,7 @@ exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 source-git-commit: efb961c571ddcde1017e6bf2080fc2a97c28bb13
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="데이터 피드와 유사한 내보내기 기능 사용"
->abstract="Customer Journey Analytics에서는 데이터 피드에 대한 정확한 대체 요소를 아직 사용할 수 없습니다. 그러나 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API와 같은 기능을 사용하여 유사한 기능을 수행할 수 있습니다."
+>abstract="Customer Journey Analytics에서는 아직 데이터 피드를 완벽하게 대체할 수 있는 기능이 제공되지 않습니다. 단, 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API와 같은 기능을 사용하면 유사한 기능을 얻을 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

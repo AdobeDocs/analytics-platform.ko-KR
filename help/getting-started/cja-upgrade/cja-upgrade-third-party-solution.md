@@ -10,7 +10,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 10%
+ht-degree: 26%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="Adobe Analytics 이외의 제품"
->abstract="Google Analytics과 같은 Adobe Analytics 이외의 제품에 대한 데이터를 수집하는 구현입니다. 이 옵션을 선택하면 Adobe Analytics이 아닌 제품에서 Customer Journey Analytics으로 업그레이드할 때 적용되지 않는 몇 가지 선택 사항이 설문지에서 비활성화됩니다."
+>title="Adobe Analytics가 아닌 제품"
+>abstract="Google Analytics와 같은 Adobe Analytics가 아닌 제품에 대한 데이터를 수집하는 구현 방식입니다. 이 옵션을 선택하면 Adobe Analytics가 아닌 제품에서 Customer Journey Analytics로 업그레이드할 때 적용되지 않는 설문 조사의 여러 항목이 비활성화됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

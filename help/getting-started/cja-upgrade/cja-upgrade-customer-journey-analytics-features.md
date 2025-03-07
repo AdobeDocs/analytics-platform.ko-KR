@@ -10,7 +10,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: d745e0c3bc75ba6f9d29aedcdbaaae9aa17d6ab8
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 27%
+ht-degree: 46%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-customer-care"
->title="결합된 데이터 세트를 생성하려면 Adobe 고객 지원 센터에 문의하십시오"
->abstract="여러 데이터 세트에 있지만 기본 식별자가 아닌 식별자가 포함된 필드가 있는 경우 해당 필드를 사용하여 일관된 식별자로 새 데이터 세트를 생성할 수 있습니다."
+>title="Adobe 고객 지원 센터에 문의하여 결합된 데이터 세트 생성"
+>abstract="여러 데이터 세트에 존재하지만 기본 식별자가 아닌 식별자를 포함하는 필드가 있는 경우, 이를 활용하여 일관된 식별자를 가진 새 데이터 세트를 생성할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,8 +47,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-rtcdp"
->title="Real-time CDP와 통합"
->abstract="여러 소스의 프로필 데이터를 결합하여 사용자 트레이트를 기반으로 대상 및 세그먼트를 생성합니다."
+>title="Real-Time CDP와 통합"
+>abstract="다양한 소스의 프로필 데이터를 결합하여 사용자 특성을 기반으로 대상자와 세그먼트를 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,8 +56,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
->title="Adobe Target과 임시 통합"
->abstract="Adobe에서는 개인화 사용 사례를 위해 Adobe Journey Optimizer과 통합하는 것이 좋습니다. Adobe Target과 통합할 수는 있지만 단기적인 해결책입니다."
+>title="Adobe Target과 일시적으로 통합"
+>abstract="개인화 사용 사례에 대해서는 Adobe Journey Optimizer와 통합하는 것이 좋습니다. Adobe Target과 통합할 수는 있지만 단기적인 해결책입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-ajo"
->title="Journey Optimizer과 통합"
+>title="Journey Optimizer와 통합"
 >abstract="고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -75,7 +75,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="Adobe Audience Manager와 일시적으로 통합"
->abstract="Adobe에서는 대상 기반 사용 사례를 위해 Adobe Real-time CDP와 통합하는 것이 좋습니다. Audience Manager과 통합할 수는 있지만 단기적인 해결책입니다."
+>abstract="대상자 기반 사용 사례에 대해서는 Adobe Real-Time CDP와 통합하는 것이 좋습니다. Audience Manager과 통합할 수는 있지만 단기적인 해결책입니다."
 
 <!-- markdownlint-enable MD034 -->
 

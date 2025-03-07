@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="실험"
->abstract="다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. 실험, 비교할 제어 변형, 성공 지표 및 표준화 지표를 지정합니다. 필요한 경우 신뢰도에 대한 상한과 하한을 설정합니다."
+>abstract="다양한 사용자 경험, 마케팅 또는 메시지의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. 실험, 비교할 제어 변형, 성공 지표 및 표준화 지표를 지정합니다. 필요한 경우 신뢰성을 위해 상한과 하한을 설정합니다."
 
 <!-- markdownlint-enable MD034 -->
 

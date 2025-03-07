@@ -10,7 +10,7 @@ exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
 source-git-commit: f7b06838bbe5b1a5e304c6d0da6d34635391a90b
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-media-edge"
 >title="Media Edge 설정 및 구현"
->abstract="Customer Journey Analytics에서 스트리밍 미디어 컬렉션을 사용하려는 경우 업그레이드 프로세스의 특정 단계에서 특정 항목을 선택해야 합니다. 예를 들어 스키마에 MediaAnalytics 상호 작용 세부 정보 필드 그룹을 추가하고 데이터스트림에서 Media Analytics를 활성화하는 등의 작업이 필요합니다."
+>abstract="스트리밍 미디어 컬렉션을 Customer Journey Analytics와 함께 사용하려면 업그레이드 프로세스의 특정 단계에서 특정 작업을 수행해야 합니다. 예를 들어 스키마에 MediaAnalytics 인터랙션 세부 정보 필드 그룹을 추가하고 데이터 스트림에서 Media Analytics를 활성화하는 등의 작업이 필요합니다."
 
 <!-- markdownlint-enable MD034 -->
 
