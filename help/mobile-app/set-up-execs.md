@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 74%
+source-wordcount: '711'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에서 새 사용자를 설정합니다.
 
-1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드의 기반이 되는 데이터 보기, 필터, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
+1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드가 기반으로 하는 데이터 보기, 세그먼트, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
 ## 앱 사용자의 시스템 사전 요구 사항
 
@@ -35,7 +35,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->모바일 앱의 이름이 앱스토어에서 Adobe Analytics 대시보드이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
+>모바일 앱의 이름은 앱스토어에서 Adobe Analytics 대시보드 로 지정되지만, Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
 
 **iOS를 사용하는 경영진 사용자:**
 
@@ -74,7 +74,7 @@ ht-degree: 74%
 
 공유하는 스코어카드에 타일이 어떻게 표시되는지 경영진 사용자에게 설명합니다.
 
-![날짜 범위, 세그먼트 필터, 선택한 지표 및 차원을 포함한 타일 설명](assets/newexplain.png)
+![선택한 날짜 범위, 세그먼트, 지표 및 차원을 포함한 타일 설명](assets/newexplain.png)
 
 ![스코어카드의 예](assets/intro_scorecard.png)
 
@@ -112,7 +112,7 @@ ht-degree: 74%
 
 ![아무 것도 공유되지 않음](assets/nothing.png)
 
-* 경영진 사용자가 잘못된 Customer Journey Analytics 샌드박스를 선택했을 수 있습니다. 또는
+* 경영진 사용자가 잘못된 Customer Journey Analytics 샌드박스를 선택했을 수 있습니다.
 * 스코어카드가 경영진 사용자와 공유되지 않았을 수 있음.
 
 경영진 사용자가 올바른 Customer Journey Analytics 샌드박스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.

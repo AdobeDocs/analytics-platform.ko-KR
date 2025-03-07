@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1297'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->모바일 앱의 이름이 앱스토어에서 Adobe Analytics 대시보드이지만 Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
+>모바일 앱의 이름은 앱스토어에서 Adobe Analytics 대시보드 로 지정되지만, Customer Journey Analytics 모바일 스코어카드와 동일하게 앱을 사용할 수 있습니다.
 
 **iOS를 사용하는 경영진 사용자:**
 
@@ -120,11 +120,11 @@ ht-degree: 73%
 
    * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)은(는) Workspace에서 작동하는 것과 같은 방식으로 작동합니다.
+1. 스코어카드에 세그먼트를 적용하려면 세그먼트 드롭다운 목록을 탭하고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)은(는) Workspace에서 작동하는 것과 같은 방식으로 작동합니다.
 
-   ![세그먼트 필터](assets/segment_filter.png)
+   ![세그먼트](assets/segment_filter.png)
 
-1. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Customer Journey Analytics 팀에 연락하여 스코어카드를 업데이트하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
+1. [!UICONTROL 스코어카드] 업데이트를 가져옵니다. [!UICONTROL 스코어카드]에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Customer Journey Analytics 팀에 연락하여 스코어카드를 업데이트하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
 
 1. 이 앱에 대한 피드백을 남기려면:
 
@@ -157,7 +157,7 @@ ht-degree: 73%
 
 | 용어 | 정의 |
 |--- |--- |
-| 소비자 | 모바일 장치의 Customer Journey Analytics을 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
+| 소비자 | 모바일 디바이스에서 Customer Journey Analytics의 주요 지표와 통찰력을 보는 경영진 사용자 |
 | 큐레이터 | Customer Journey Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
 | 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 작업 |
 | 득점 카드 | 한 개 이상의 타일이 포함된 대시보드 보기 |

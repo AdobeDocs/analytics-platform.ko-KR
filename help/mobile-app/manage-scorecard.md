@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 65%
+source-wordcount: '1806'
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 65%
 
 ## 타일 속성 보기 및 구성 {#tiles}
 
-스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일 및 세부 슬라이드와 관련된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 대한 새 **제목**&#x200B;을 입력하고 필터를 적용하여 타일을 구성할 수 있습니다. 세그먼트는 Customer Journey Analytics의 필터입니다.
+스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일 및 세부 슬라이드와 관련된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 새 **제목**&#x200B;을 제공하고, 세그먼트를 적용하여 타일을 구성할 수 있습니다.
 
 ![속성 타일](assets/properties-tile-new.png)
 
@@ -109,7 +109,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 ### 데이터 스토리 사용자 정의 {#customize-data-story}
 
-데이터 스토리를 사용하면 모든 것을 사용자 정의하여 공유하고 싶은 정보를 공유하고 필요하지 않은 모든 것을 제외할 수 있습니다. 타일과 개별 슬라이드를 사용자 정의하여 필터를 추가하고 분류를 표시하고 레이아웃을 변경하고 시각화를 변경할 수 있습니다.
+데이터 스토리를 사용하면 모든 것을 사용자 정의하여 공유하고 싶은 정보를 공유하고 필요하지 않은 모든 것을 제외할 수 있습니다. 타일과 개별 슬라이드를 사용자 정의하여 세그먼트를 추가하고, 분류를 표시하고, 레이아웃을 변경하고, 시각화를 변경할 수 있습니다.
 
 **타일을 사용자 정의하려면**
 
