@@ -1,12 +1,12 @@
 ---
 title: Report Builder에서 차원을 필터링하는 방법
-description: Customer Journey Analytics Report Builder에서 필터 차원을 사용하는 방법을 설명합니다.
+description: Customer Journey Analytics용 Report Builder에서 차원 필터링을 사용하는 방법을 설명합니다
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 88%
@@ -21,9 +21,9 @@ ht-degree: 88%
 
 1. 데이터 블록을 선택하고 명령 패널에서 데이터 블록 편집을 클릭합니다.
 
-1. [다음]을 클릭하여 차원 탭을 표시합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 차원 탭을 표시합니다.
 
-1. 표에서 구성 요소 이름 옆에 있는&#x200B;**...** 아이콘을 클릭합니다.
+1. 테이블에서 구성 요소 이름 옆에 있는&#x200B;**...** 아이콘을 클릭합니다.
 
    ![줄임표 아이콘 옵션](./assets/image27.png)
 
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 페이지 및 행 기본 설정은 각 페이지에 10개의 데이터 행이 있음을 식별합니다. 페이지 1은 상위 10개 항목을 반환하고 페이지 2는 다음 10개 항목을 반환하는 식입니다.
 
-아래 표에는 페이지 및 행 값과 결과 출력의 예가 나와 있습니다.
+아래 테이블에는 페이지 및 행 값과 결과 출력의 예가 나와 있습니다.
 
 | 페이지 | 행 | 출력 |
 |------|--------|----------------------|
@@ -139,7 +139,7 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
    ![최근 6개월 목록의 항목 표시.](./assets/image34.png)
 
-   지난 6개월 동안의 데이터가 로드된 후 Report Builder이 링크를 **지난 18개월 동안의 항목 표시**(으)로 업데이트합니다.
+   지난 6개월 동안의 데이터가 로드된 후 Report Builder은 링크를 **지난 18개월 동안의 항목 표시**(으)로 업데이트합니다.
 
 1. 차원 항목을 선택합니다.
 
@@ -175,6 +175,6 @@ Customer Journey Analytics에서 일부 차원은 “값 없음” 항목을 수
 
 **차원** 탭에서 차원 항목 목록을 보려면 차원 이름 옆에 있는 V자형 아이콘을 클릭합니다.
 
-![Dimension 탭과 차원 목록입니다.](./assets/dimensions_chevron.png)
+![차원 탭과 차원 목록입니다.](./assets/dimensions_chevron.png)
 
 **테이블**&#x200B;에 항목을 드래그 앤 드롭하거나 항목 이름을 더블 클릭하여 **테이블** 빌더에 추가할 수 있습니다.

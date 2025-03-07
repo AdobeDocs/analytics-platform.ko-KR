@@ -1,21 +1,21 @@
 ---
-title: Customer Journey Analytics의 Report Builder에서 필터를 사용하는 방법
-description: Customer Journey Analytics Report Builder에서 필터를 사용하는 방법을 설명합니다.
+title: Customer Journey Analytics에서 Report Builder의 세그먼트를 사용하는 방법
+description: Customer Journey Analytics용 Report Builder에서 세그먼트를 사용하는 방법을 설명합니다.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 60%
+ht-degree: 56%
 
 ---
 
-# Report Builder에서 필터 작업
+# Report Builder에서 세그먼트 작업
 
-새 데이터 블록을 만들 때 또는 명령 패널에서 **데이터 블록 편집** 옵션을 선택할 때 필터를 적용할 수 있습니다.
+새 데이터 블록을 만들거나 명령 패널에서 **데이터 블록 편집** 옵션을 선택할 때 세그먼트를 적용할 수 있습니다.
 
 ## 데이터 블록에 필터 적용
 
