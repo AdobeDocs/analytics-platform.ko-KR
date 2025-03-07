@@ -5,18 +5,22 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
+source-git-commit: 97d48d88af969705f2664781e7a972f20c1b4239
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 9%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
 # 1단계: Customer Journey Analytics으로 업그레이드 시작
 
+<!--
+
 >[!AVAILABILITY]
 >
->이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장된 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>The information on this page is being replaced with the following more comprehensive upgrade information: <ul><li>**Recommended upgrade steps**<p>For detailed information, see [Recommended path when upgrading from Adobe Analytics to Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Customer Journey Analytics Upgrade Guide**<p>A new upgrade guide is available that dynamically generates upgrade steps that are tailored for your organization and your unique circumstances.</p><p>To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.</p></li></ul>
+
+-->
 
 Customer Journey Analytics은 차세대 analytics입니다. 이를 통해 데이터 보기의 구성 요소 및 파생 필드 정의를 통해 강력한 보고서 시간 처리 기능과 결합된 다중 채널 데이터 수집(온라인 및 오프라인 데이터 모두)을 수행할 수 있습니다.
 
