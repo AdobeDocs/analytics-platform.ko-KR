@@ -5,16 +5,20 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 11%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
 # 1단계: Customer Journey Analytics으로 업그레이드 시작
 
-Customer Journey Analytics은 차세대 분석입니다. 이를 통해 데이터 보기의 구성 요소 및 파생 필드 정의를 통해 강력한 보고서 시간 처리 기능과 결합된 다중 채널 데이터 수집(온라인 및 오프라인 데이터 모두)을 수행할 수 있습니다.
+>[!AVAILABILITY]
+>
+>이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장된 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+
+Customer Journey Analytics은 차세대 analytics입니다. 이를 통해 데이터 보기의 구성 요소 및 파생 필드 정의를 통해 강력한 보고서 시간 처리 기능과 결합된 다중 채널 데이터 수집(온라인 및 오프라인 데이터 모두)을 수행할 수 있습니다.
 
 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 프로세스를 시작하기 전에 Customer Journey Analytics의 장점과 업그레이드를 성공적으로 수행하는 데 필요한 단계를 이해해야 합니다.
 
@@ -57,7 +61,7 @@ Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 프
 | **2단계: [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | Customer Journey Analytics으로 업그레이드하는 방법은 다양합니다. 조직의 현재 Adobe Analytics 환경 및 장기 목표에 따라 조직에 가장 적합한 방법을 선택합니다. |
 | **3단계: [Adobe Experience Platform에 데이터 보내기](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | Adobe Experience Platform으로 데이터를 전송하는 프로세스는 2단계에서 선택한 업그레이드 경로에 따라 다릅니다. |
 | **4단계: [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | 대부분의 조직은 특정 시간 동안 이전 Adobe Analytics 데이터를 유지해야 합니다. 이를 수행하기 위한 다양한 옵션을 사용할 수 있습니다. |
-| **5단계: [추가 구현 작업 수행](/help/getting-started/cja-getting-started.md)** | 업그레이드 프로세스의 이 시점에서 Customer Journey Analytics 환경을 사용할 준비가 되기 전에 다양한 작업을 수행해야 합니다.<p>이러한 추가 작업은 Adobe Analytics의 업그레이드와 새로운 Customer Journey Analytics 구현에 적용됩니다.</p><p>이러한 작업에는 다음이 포함됩니다.</p><ul><li>다른 데이터를 Experience Platform 상태로 가져오기</li><li>플랫폼 데이터 세트와 Customer Journey Analytics 간 연결 만들기</li><li>데이터 보기 만들기</li><li>보고 API 사용 포팅</li><li>데이터 피드 및 Data Warehouse 계정</li><li>프로젝트 및 구성 요소 마이그레이션</li><li>Planning 사용자 온보딩</li></ul> <p>자세한 내용은 [Customer Journey Analytics 시작](/help/getting-started/cja-getting-started.md)을 참조하세요. |
+| **5단계: [추가 구현 작업 수행](/help/getting-started/cja-getting-started.md)** | 업그레이드 프로세스의 이 시점에서 Customer Journey Analytics 환경을 사용하기 전에 다양한 작업을 수행해야 합니다.<p>이러한 추가 작업은 새로운 Customer Journey Analytics 구현뿐만 아니라 Adobe Analytics에서의 업그레이드에도 적용됩니다.</p><p>이러한 작업에는 다음이 포함됩니다.</p><ul><li>Experience Platform으로 다른 데이터 가져오기</li><li>Platform 데이터 세트와 Customer Journey Analytics 간 연결 만들기</li><li>데이터 보기 만들기</li><li>보고 API 사용 포팅</li><li>데이터 피드 및 Data Warehouse 계정</li><li>프로젝트 및 구성 요소 마이그레이션</li><li>Planning 사용자 온보딩</li></ul> <p>자세한 내용은 [Customer Journey Analytics 시작](/help/getting-started/cja-getting-started.md)을 참조하세요. |
 
 {style="table-layout:auto"}
 

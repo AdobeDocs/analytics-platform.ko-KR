@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 14%
@@ -78,3 +78,5 @@ Analytics 소스 커넥터 사용의 장점과 단점에 대한 자세한 내용
 1. 원래 Analytics 소스 커넥터를 삭제합니다. <!-- need to add steps somewhere about how to do this -->
 
 1. [새 Analytics 소스 커넥터를 만들고 필드를 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+
+{{upgrade-final-step}}

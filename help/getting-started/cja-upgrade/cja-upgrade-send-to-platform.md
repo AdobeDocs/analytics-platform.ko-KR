@@ -4,9 +4,9 @@ description: Customer Journey Analytics으로 마이그레이션할 때 Adobe Ex
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,9 @@ ht-degree: 1%
 
 +++
 
+>[!AVAILABILITY]
+>
+>이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장된 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
 
 조직에 가장 적합한 업그레이드 경로를 [선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)한 후 Adobe Experience Platform에서 사용할 수 있도록 하기 위해 Customer Journey Analytics에 데이터를 전송할 수 있습니다.
 

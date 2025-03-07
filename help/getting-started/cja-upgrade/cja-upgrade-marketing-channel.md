@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 24%
+source-wordcount: '289'
+ht-degree: 25%
 
 ---
 
@@ -53,4 +53,4 @@ Experience Platform Web SDK을 사용할 때 Customer Journey Analytics의 마�
 
    새 파생 필드가 데이터 보기의 왼쪽 레일에 있는 스키마 필드의 일부로서 파생 필드 > 컨테이너에 추가됩니다.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}

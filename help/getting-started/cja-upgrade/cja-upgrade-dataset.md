@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 56%
+source-wordcount: '219'
+ht-degree: 60%
 
 ---
 
@@ -63,4 +63,4 @@ ht-degree: 56%
 
    데이터 집합을 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 집합 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하세요. 실시간 고객 프로필에 대한 데이터 세트를 활성화하는 방법도 배울 수 있습니다.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}

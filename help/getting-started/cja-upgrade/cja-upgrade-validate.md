@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 38%
+source-wordcount: '139'
+ht-degree: 41%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 38%
 
 1. 각 연결에 대해 사용 가능한 세부 정보에 대한 자세한 내용은 [연결 관리](/help/connections/manage-connections.md)의 [연결 세부 정보](/help/connections/manage-connections.md#manage-connections)를 참조하십시오.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}
 
 <!-- Should we duplicate the content here or single source it with /help/connections/manage-connections.md -->

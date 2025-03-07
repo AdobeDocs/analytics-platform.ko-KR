@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '745'
 ht-degree: 24%
 
 ---
@@ -108,4 +108,4 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    Analytics 소스 커넥터를 사용하여 이전 데이터를 Customer Journey Analytics Web SDK 구현으로 가져오는 경우, 자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결에 추가해야 합니다.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}

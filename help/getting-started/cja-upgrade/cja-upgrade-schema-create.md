@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 52%
+source-wordcount: '1252'
+ht-degree: 54%
 
 ---
 
-# Customer Journey Analytics에 사용할 사용자 지정 스키마 만들기 {#create-custom-schema}
+# Customer Journey Analytics에 사용할 사용자 정의 스키마 만들기 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -192,4 +192,4 @@ ht-degree: 52%
 
    스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}

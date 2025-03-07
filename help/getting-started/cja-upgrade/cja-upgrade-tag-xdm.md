@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 37%
@@ -298,3 +298,6 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포에 
 1. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
    ![게시 - 라이브러리 빌드](assets/build-library.png)
+
+{{upgrade-final-step}}
+

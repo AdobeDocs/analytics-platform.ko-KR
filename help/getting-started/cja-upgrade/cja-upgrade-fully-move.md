@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
-# Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 비활성화할 시기 평가 {#evaluate-aa-needs}
+# Customer Journey Analytics로 업그레이드한 후 Adobe Analytics 비활성화 시기 {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="Customer Journey Analytics로 완전 전환"
->abstract="(권장) Adobe에서는 Adobe Analytics에서 Customer Journey Analytics으로 완전히 전환할 것을 권장합니다. 전환 기간 동안 병렬 데이터 비교를 수행하려면 Customer Journey Analytics과 함께 Adobe Analytics을 실행해야 합니다. 데이터에 익숙해지면 Adobe Analytics을 비활성화할 수 있습니다."
+>abstract="(권장) Adobe Analytics에서 Customer Journey Analytics로 완전히 전환하는 것이 좋습니다. 전환 기간 동안 Customer Journey Analytics와 함께 Adobe Analytics를 실행하여 데이터를 나란히 비교하는 계획을 세워야 합니다. 데이터에 익숙해지면 Adobe Analytics를 비활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -135,3 +135,6 @@ ht-degree: 12%
    새 웹 SDK 구현으로 Customer Journey Analytics에서 내역 데이터를 충분히 수집한 후에는 Analytics 소스 커넥터를 완전히 제거할 수 있습니다.
 
    Analytics 소스 커넥터를 통해 Adobe Analytics 환경의 내역 데이터가 더 이상 필요하지 않고 새로운 웹 SDK 구현으로 수집한 내역 데이터만 사용할 수 있는 경우 이렇게 하십시오.
+
+{{upgrade-final-step}}
+

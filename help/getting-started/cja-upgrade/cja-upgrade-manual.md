@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 8%
 
 ---
@@ -38,4 +38,7 @@ ht-degree: 8%
 
 구현의 각 페이지에 직접 기본 코드를 추가하여 Platform Web SDK을 수동으로 설치할 수 있습니다.
 
-자세한 내용은 Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 2: 미리 빌드된 독립 실행형 버전 설치](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)를 참조하십시오.
+1. Web SDK Guide의 [옵션 2: [Install Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 사전 설치된 독립 실행형 버전 설치](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) 섹션의 단계를 따릅니다.
+
+{{upgrade-final-step}}
+

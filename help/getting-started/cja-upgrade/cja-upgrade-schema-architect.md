@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 26%
 
 ---
 
@@ -39,17 +39,23 @@ XDM 스키마 아키텍처를 시작할 때 다음 섹션을 검토하십시오.
 
 Customer Journey Analytics의 기본 아키텍처는 Adobe Analytics보다 훨씬 더 많은 유연성을 제공합니다. 새로운 XDM 스키마를 만드는 것은 그러한 유연성을 여는 핵심 방법입니다. Customer Journey Analytics으로 업그레이드할 때 불필요한 Adobe Analytics 제한 사항을 스키마에 전달하지 않도록 하십시오.
 
+>[!NOTE]
+>
+>다음 정보는 아직 완료되지 않았습니다. 그것은 가까운 장래에 완성될 것이다.
+
 | Adobe Analytics 데이터 아키텍처 | XDM 스키마 아키텍처 |
 |---------|----------|
 | 개별 지표가 Analytics 데이터 아키텍처에 추가됩니다.<br/>예를 들어 Adobe Analytics의 경우 각 이벤트에 대해 다른 eVar이 있습니다. | XDM 스키마가 아닌 데이터 보기에서 개별 지표를 만듭니다. 이렇게 하면 나중에 변경해야 하는 경우에서 보다 유연하게 수행할 수 있습니다.<br/>예를 들어 Customer Journey Analytics의 경우 스키마에 단일 이벤트가 있으며 데이터 보기에서 이벤트 만들기를 사용합니다. |
-| 사용자 지정 변수를 만들려면 prop 및 eVar가 필요합니다. | B2 |
-| A3 | B3 |
+| 사용자 지정 변수를 만들려면 prop 및 eVar가 필요합니다. |  |
 
 ## 조직 전체에서 데이터 팀 및 기타 관련자 식별
 
+>[!NOTE]
+>
+>이 정보는 아직 이용할 수 없습니다. 가까운 시일 내에 사용할 수 있습니다.
 
 ## 조직에서 사용되는 다른 Adobe Experience Platform 애플리케이션 고려
 
-
-
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+>[!NOTE]
+>
+>이 정보는 아직 이용할 수 없습니다. 가까운 시일 내에 사용할 수 있습니다.

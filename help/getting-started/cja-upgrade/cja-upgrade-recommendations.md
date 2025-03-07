@@ -1,16 +1,16 @@
 ---
-title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 시 권장 경로
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
+title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 단계에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 9%
+source-wordcount: '1629'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
 >[!NOTE]
 >
->이 섹션에 설명된 업그레이드 단계가 조직에서 실용적이지 않은 경우 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 사용하여 조직의 고유 상황에 맞는 업그레이드 단계를 동적으로 생성하십시오.
+>이 섹션에 설명된 업그레이드 단계가 조직에 실용적이지 않은 경우 Customer Journey Analytics 업그레이드 안내서 를 사용하여 조직의 고유 상황에 맞는 업그레이드 단계를 동적으로 생성합니다. (Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.)
 
 ### 높은 수준 권장 업그레이드 프로세스 {#high-level-upgade-process}
 
@@ -189,9 +189,11 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 
 조직의 고유 환경에 대한 업그레이드 단계를 동적으로 생성하려면 다음을 수행합니다.
 
-1. [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 작성합니다.
+1. Customer Journey Analytics 업그레이드 안내서를 완료합니다.
 
-   이 설문지를 작성한 후 조직 요구 사항에 맞는 최적의 업그레이드 단계를 요약한 단계별 지침이 제공됩니다. 기존 Adobe Analytics 환경 및 Customer Journey Analytics 목표에 가장 적합한 업그레이드 단계입니다.
+   Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
+
+   이 업그레이드 안내서를 완료한 후 조직 요구 사항에 맞는 최적의 업그레이드 단계를 설명하는 단계별 지침이 제공됩니다. 기존 Adobe Analytics 환경 및 Customer Journey Analytics 목표에 가장 적합한 업그레이드 단계입니다.
 
 1. 생성된 단계별 지침에 따라 Customer Journey Analytics으로 업그레이드하십시오.
 

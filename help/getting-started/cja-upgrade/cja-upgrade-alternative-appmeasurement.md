@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 7%
 
 ---
 
-# 업그레이드 대체 요소: Experience Platform Web SDK 및 Customer Journey Analytics과 함께 AppMeasurement 데이터 수집 사용 {#data-collection-appmeasurement}
+# 업그레이드 대안: AppMeasurement data collection을 Experience Platform Web SDK 및 Customer Journey Analytics와 함께 사용 {#data-collection-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic"
->title="웹 SDK에서 AppMeasurement 논리 사용"
->abstract="XDM 개체를 통해 데이터를 보내는 대신 데이터 개체를 통해 모든 변수를 AppMeasurement 형식으로 보냅니다.<br><br>이 옵션을 사용하면 처음부터 XDM 개체를 채우지 않고 AppMeasurement 논리를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 하지만 나중에 추가하는 필드는 데이터 스트림의 XDM에 매핑해야 하므로 시간이 지남에 따라 복잡성이 증가합니다."
+>title="AppMeasurement 논리와 Web SDK를 함께 사용"
+>abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 모든 변수를 AppMeasurement 형식으로 전송할 수 있습니다.<br><br>이 옵션을 사용하면 XDM 오브젝트를 처음부터 직접 채우는 대신 AppMeasurement 논리를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 그러나 나중에 추가하는 모든 필드를 데이터스트림의 XDM에 매핑해야 하므로 시간이 지남에 따라 복잡성이 증가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -100,7 +100,7 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
 
       자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
 
-   1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
+{{upgrade-final-step}}를 참조하십시오.
 
 
 

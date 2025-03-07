@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8fdc90ff3392b5d6884872d191a40a762cad6a3f
+exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -71,8 +72,4 @@ Adobe Analytics 구현에서 이미 Adobe Experience Platform Web SDK을 사용�
 
    자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
 
-1. [권장된 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 따릅니다.
-
-
-
-
+{{upgrade-final-step}}

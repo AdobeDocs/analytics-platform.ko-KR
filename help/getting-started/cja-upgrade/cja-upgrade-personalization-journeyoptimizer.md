@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 21%
@@ -28,7 +28,9 @@ ht-degree: 21%
 
 개인화된 최적화는 지도 머신 러닝 및 딥 러닝에서 최신 기술을 활용함으로써 비즈니스 사용자(마케터)는 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 지향 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다.
 
-자세한 내용은 Journey Optimizer 안내서의 [개인화된 최적화 모델](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)을 참조하십시오.
+1. Journey Optimizer 안내서의 [개인화된 최적화 모델](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)에 있는 정보를 따르십시오.
+
+{{upgrade-final-step}}
 
 <!--
 

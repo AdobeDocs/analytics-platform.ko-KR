@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '800'
 ht-degree: 10%
 
 ---
@@ -129,5 +129,7 @@ Customer Journey Analytics에서 연결에 조회 데이터 세트를 추가하�
 
 1. **[!UICONTROL 키]** 필드와 **[!UICONTROL 일치하는 키]** 필드를 사용하여 조회 데이터 세트의 필드와 이벤트 또는 요약 데이터 세트의 필드 간의 상관 관계를 만듭니다.
 
-1. 모든 조회 데이터 세트가 Customer Journey Analytics의 연결에 추가된 후 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 [동적으로 생성된 업그레이드 단계](https://gigazelle.github.io/cja-ttv/)를 계속 수행합니다.
+1. 모든 조회 데이터 세트가 Customer Journey Analytics의 연결에 추가될 때까지 이 프로세스를 반복합니다.
+
+{{upgrade-final-step}}
 

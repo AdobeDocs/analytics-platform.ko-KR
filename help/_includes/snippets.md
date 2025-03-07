@@ -1,8 +1,8 @@
 ---
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '3184'
-ht-degree: 23%
+source-wordcount: '3333'
+ht-degree: 22%
 
 ---
 # 스니펫
@@ -206,12 +206,14 @@ ht-degree: 23%
 
 >[!NOTE]
 > 
->[Customer Journey Analytics 업그레이드 확인 목록](https://gigazelle.github.io/cja-ttv/)의 질문에 답변할 때 이 페이지의 정보를 사용하십시오.
+>Customer Journey Analytics 업그레이드 가이드의 질문에 답변할 때 이 페이지의 정보를 사용하십시오. <br><br>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따릅니다.
 
 ## 업그레이드 체크리스트 메모 후속 단계 {#upgrade-note-step}
 
 >[!NOTE]
 > 
->이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. [권장되는 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)를 따르거나 [Adobe Analytics-Customer Journey Analytics 업그레이드 설문지](https://gigazelle.github.io/cja-ttv/)를 통해 조직에 대해 동적으로 생성된 업그레이드 단계를 따를 수 있습니다.
->
->이 페이지의 단계를 완료한 후 권장되는 업그레이드 단계 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다.
+>이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+
+## 업그레이드 체크리스트 최종 단계 {#upgrade-final-step}
+
+1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
