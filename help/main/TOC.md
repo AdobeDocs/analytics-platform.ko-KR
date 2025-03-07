@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 439bc00f2a7e08c8b73a4caa3a3c7269a3a7f895
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 91%
+source-wordcount: '1210'
+ht-degree: 90%
 
 ---
 
@@ -416,11 +416,19 @@ ht-degree: 91%
 
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
-   + Google Analytics 데이터 {#ga}
-      + [Google Analytics에서 데이터 마이그레이션](../use-cases/ga/overview.md)
-      + [Google Analytics 내역 데이터 수집](../use-cases/ga/backfill.md)
-      + [스트리밍 Google Analytics 데이터 구성](../use-cases/ga/streaming.md)
-      + [Google Analytics 데이터에 대한 보고](../use-cases/ga/report.md)
+   + 타사 데이터 {#third-party}
+      + [개요](/help/use-cases/third-party/overview.md)
+      + Google Analytics {#ga}
+         + [Google Analytics에서 데이터 마이그레이션](/help/use-cases/third-party/ga/overview.md)
+         + [Google Analytics 내역 데이터 수집](/help/use-cases/third-party/ga/backfill.md)
+         + [스트리밍 Google Analytics 데이터 구성](/help/use-cases/third-party/ga/streaming.md)
+         + [Google Analytics 데이터에 대한 보고](/help/use-cases/third-party/ga/report.md)
+      + Quantum 지표 {#qm}
+         + [세션 ID 수집](/help/use-cases/third-party/quantum-metric/collect-session-id.md)
+         + [세션 재생 연결](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
+         + [히트맵 사용](/help/use-cases/third-party/quantum-metric/heatmap.md)
+         + [마찰 이벤트 추가](/help/use-cases/third-party/quantum-metric/friction-events.md)
+         + [소스 커넥터](/help/use-cases/third-party/quantum-metric/source-connector.md)
    + 데이터 수집 {#data-ingestion}
       + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
       + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)

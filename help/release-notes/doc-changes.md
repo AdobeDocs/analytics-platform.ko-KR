@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
-workflow-type: ht
-source-wordcount: '4649'
-ht-degree: 100%
+source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
+workflow-type: tm+mt
+source-wordcount: '4664'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2025년 3월** | |
+| 양자 지표 사용 사례 | [Quantum 지표](/help/use-cases/third-party/quantum-metric/collect-session-id.md)에서 데이터를 수집하는 사용 사례를 추가했습니다. |
 | **2025년 2월** |  |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 [Adobe Analytics의 스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만, 앞으로는 새 위치만 사용됩니다. |
 | BI 확장 - 확장된 지원 | Customer Journey Analytics BI 확장 기능은 이제 [Looker, Jupyter Notebook 및 R Studio](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)를 지원합니다. |
@@ -199,7 +201,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2022년 10월 | 모바일 앱: [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides)에 대한 새로운 주제. |
 | 2022년 10월 | [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md) 주제에 대한 업데이트. |
 | **2022년 9월** | |
-| 2022년 9월 | [Customer Journey Analytics로의 Google Analytics 데이터 마이그레이션](/help/use-cases/ga/overview.md)에 대한 새로운 사용 사례. |
+| 2022년 9월 | [Customer Journey Analytics로의 Google Analytics 데이터 마이그레이션](/help/use-cases/third-party/ga/overview.md)에 대한 새로운 사용 사례. |
 | 2022년 9월 | 작업 영역의 [콤보 차트](/help/analysis-workspace/visualizations/combo-charts.md)에 대한 새로운 주제. |
 | 2022년 9월 | 작업 영역의 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)에 대한 새로운 주제. |
 | **2022월 8월** | |
@@ -269,7 +271,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 2021년 4월 | [지속성](/help/data-views/component-settings/persistence.md)에 대한 새로운 주제. |
 | 2021년 4월 | 작업 영역의 예약된 프로젝트 지원에 대한 새로운 설명서. |
 | 2021년 4월 | [향상된 데이터 보기 환경](/help/data-views/data-views.md)에 대한 새로운 주제. |
-| 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/ga/overview.md) 및 [해당 데이터 분석](/help/use-cases/ga/report.md)에 대한 새로운 주제. |
+| 2021년 4월 | [Google Analytics 데이터 수집](/help/use-cases/third-party/ga/overview.md) 및 [해당 데이터 분석](/help/use-cases/third-party/ga/report.md)에 대한 새로운 주제. |
 | 2021년 4월 | 작업 영역의 [예약된 보고서](/help/analysis-workspace/export/t-schedule-report.md)에 대한 주제를 추가했습니다. |
 | 2021년 4월 | [Customer Journey Analytics에서 카디널리티가 높은 차원](/help/components/dimensions/high-cardinality.md)에 대한 새로운 주제. |
 | **2021년 3월** | |
