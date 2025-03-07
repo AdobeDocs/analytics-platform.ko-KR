@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '587'
 ht-degree: 23%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 23%
 >id="cja-upgrade-source-connector-create-schema"
 >title="Analytics 소스 커넥터용 스키마 만들기"
 >abstract="이 스키마는 Adobe Analytics ExperienceEvent 필드 그룹과 조직의 사용자 정의 스키마를 구성하는 모든 필드 그룹을 결합한 것입니다. Analytics 소스 커넥터에서 사용하는 필드를 조직의 스키마에 매핑할 수 있으며, 과거 데이터에만 사용됩니다.<br><br>기술적인 측면에서 이 스키마를 만드는 작업은 몇 시간 안에 완료될 수 있으며, 조직의 사용자 정의 스키마를 구성하는 필드 그룹을 정확히 알고 있다면 더 빠를 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-historical"
+>title="내역 데이터에 대한 Analytics 소스 커넥터 만들기"
+>abstract="Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

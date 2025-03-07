@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 99f82353e41180a0090e84e58593d63fc5cbe803
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Analysis Workspace의 데이터 중심 질문에 답변하는 데 AI Assistant�
 | **확인 가능** | 생성된 자유 형식 테이블 및 데이터 시각화를 통해 데이터 검증 가능성 및 정확성을 확인할 수 있다. 예를 들어, 사용자가 *지난 달 주문 트렌드*&#x200B;에 대해 묻는 경우, 새로 생성된 패널, 데이터 시각화 및 자유 형식 테이블에서 올바른 지표(&quot;주문&quot;) 및 날짜 범위(&quot;지난 달&quot;)가 선택되었는지 확인할 수 있습니다. |
 | **피드백** | <ul><li>엄지 손가락 위로</li><li>엄지 손가락 아래로</li><li>플래그</li></ul> |
 
-### 지원 범위 밖의 Alpha 기능
+### 지원 범위 밖의 Beta 기능
 
 | 지원되지 않는 기능 | 설명 |
 | --- | --- |
@@ -78,9 +78,9 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. 새 빈 프로젝트를 열려면 프로젝트 페이지 상단의 배너에서 **[!UICONTROL 빈 프로젝트]**&#x200B;을(를) 선택하십시오.
 
-4. 패널에 대해 선택한 데이터 보기가 Alpha 테스트를 위한 AI Assistant와 함께 사용하도록 설정된 동일한 데이터 보기인지 확인합니다.
+4. 패널에 대해 선택한 데이터 보기가 Beta 테스트를 위한 AI Assistant와 함께 사용하도록 설정된 동일한 데이터 보기인지 확인합니다.
 
-   확실하지 않은 경우 Alpha Slack 채널에 문의하십시오.
+   확실하지 않은 경우 Beta Slack 채널에 문의하십시오.
 
 5. 페이지의 오른쪽 상단 영역에서 AI Assistant 채팅 아이콘을 선택합니다.
 
@@ -187,7 +187,7 @@ AI 어시스턴트는 각 사용자 프롬프트가 제공하는 컨텍스트를
 | 라인 시각화 | <ul><li>트렌드</li><li>[시간 범위]의 [지표]</li></ul> |
 | 막대 시각화 | <ul><li>[Dimension]의 [지표]</li></ul> |
 
-## Alpha 테스트 기대치 및 요청된 피드백
+## Beta 테스트 기대치 및 요청된 피드백
 
 각 질문을 게시한 후 조수가 제공한 답변을 주의 깊게 검토하십시오. 피드백을 제공하기 전에 생성된 시각화를 종합적으로 평가하는 것이 중요합니다.
 
