@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
+source-git-commit: cd0ff5f6c805dc75fc07cee87e104b84d411abc9
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1217'
 ht-degree: 90%
 
 ---
@@ -425,6 +425,7 @@ ht-degree: 90%
          + [스트리밍 Google Analytics 데이터 구성](/help/use-cases/third-party/ga/streaming.md)
          + [Google Analytics 데이터에 대한 보고](/help/use-cases/third-party/ga/report.md)
       + Quantum 지표 {#qm}
+         + [개요](/help/use-cases/third-party/quantum-metric/qm-overview.md)
          + [세션 ID 수집](/help/use-cases/third-party/quantum-metric/collect-session-id.md)
          + [세션 재생 연결](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [히트맵 사용](/help/use-cases/third-party/quantum-metric/heatmap.md)
