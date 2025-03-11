@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
-source-wordcount: '2689'
-ht-degree: 67%
+source-wordcount: '2698'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 스코어카드를 만들려면 다음을 수행해야 합니다.
 
-1. [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스합니다.
+1. Workspace에서 [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스합니다.
 2. 데이터를 사용하여 스코어카드를 구성하고 저장합니다.
 
 ## [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스 {#template}
@@ -58,6 +58,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 ### 새 프로젝트 만들기 {#create}
 
 1. Customer Journey Analytics을 열고 **[!UICONTROL Workspace]** 탭을 클릭합니다.
+1. 왼쪽 레일에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -72,7 +73,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 스코어카드 템플릿을 구현하려면:
 
-1. **[!UICONTROL 속성]**(오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 데이터 보기]**&#x200B;를 지정합니다.
+1. **[!UICONTROL 스코어카드 속성]**(오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 데이터 보기]**&#x200B;를 지정하십시오.
 
    ![데이터 보기 선택을 강조 표시하는 새 모바일 스코어카드 창](assets/properties_save.png)
 
