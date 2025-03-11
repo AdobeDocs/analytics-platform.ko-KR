@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
+source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
@@ -51,23 +52,4 @@ ht-degree: 1%
 1. 오른쪽 창에서 [지속성](/help/data-views/component-settings/persistence.md) 설정을 &#39;세션&#39;으로 설정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 4단계: 세션 ID 차원을 수용하도록 Workspace 구성
 
-Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum 지표에 직접 연결되도록 구성합니다.
-
-1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. Customer Journey Analytics으로 이동하고 상단 메뉴에서 **[!UICONTROL Workspace]**&#x200B;을(를) 선택합니다.
-1. 기존 프로젝트를 선택하거나 프로젝트를 만듭니다.
-1. [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)을 만듭니다.
-1. 세션 ID 차원을 Workspace 캔버스로 드래그합니다.
-1. 차원 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 만들기]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 사용자 지정 URL 만들기]**&#x200B;를 선택합니다.
-1. 다음 URL 구조를 붙여넣습니다.
-
-   ```
-   https://adobe.quantummetric.com/#/replay/cookie:$value
-   ```
-
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-
-이제 각 세션 ID를 클릭 가능한 링크로 지정할 수 있습니다. 이러한 링크를 통해 새 탭에 있는 Quantum 지표로 이동하여 해당 특정 세션을 보다 자세히 분석할 수 있습니다. Analysis Workspace 차원 항목에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 [자유 형식 테이블에 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.
