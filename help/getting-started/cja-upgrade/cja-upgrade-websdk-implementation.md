@@ -4,11 +4,10 @@ description: Customer Journey Analytics으로 업그레이드할 때의 웹 SDK 
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 1ac7059e76797b14c00993a2a46aa51b1ebfe6a2
+exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 38%
 
 ---
@@ -47,7 +46,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
 >title="지정된 속성에 대한 Web SDK 구현"
->abstract="자세한 지침은 설문지에서 원하는 구현 유형을 선택합니다."
+>abstract="자세한 지침은 업그레이드 안내서에서 원하는 구현 유형을 선택하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,6 +72,3 @@ Adobe Experience Platform Web SDK을 사용하는 방법에는 세 가지가 있
 * [NPM](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm): NPM 패키지 관리자를 사용하여 웹 SDK을 사이트에 설치합니다.
 
 자세한 내용은 Experience Platform Web SDK Guide의 [Web SDK 설치 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)를 참조하십시오.
-
-
-

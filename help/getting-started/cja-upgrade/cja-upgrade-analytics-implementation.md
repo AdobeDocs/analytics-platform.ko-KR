@@ -4,13 +4,11 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: ff951b6ca03fc5be4d24651b8b8e4bdd06216274
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 33%
+ht-degree: 29%
 
 ---
 
@@ -93,7 +91,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
 >title="기존의 구현 유형 확인"
->abstract="조직 내부에서 현재 Adobe Analytics로 데이터를 전송하는 데 사용하고 있는 구현 유형을 확인하십시오. Customer Journey Analytics로 마이그레이션할 준비가 되었을 때, 해당 정보를 알고 있는 개인 또는 팀과 협력하는 것이 중요합니다.<br><br>조직에서 사용하는 구현 유형을 확인한 후 설문 조사의 답변을 수정하십시오."
+>abstract="조직 내부에서 현재 Adobe Analytics로 데이터를 전송하는 데 사용하고 있는 구현 유형을 확인하십시오. Customer Journey Analytics으로 업그레이드할 때 이 정보를 아는 개인 또는 팀과 협력하십시오.<br><br>조직에서 사용하는 구현 유형을 결정한 후 Customer Journey Analytics 업그레이드 안내서에서 답변을 수정하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
