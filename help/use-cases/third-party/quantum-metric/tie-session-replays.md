@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d722e88d163dd99aa7b98c6fa6cd75028d7d9e6f
+source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
 
 # Customer Journey Analytics의 데이터에 양자 지표 세션 재생 연결
 
-Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &quot;내용&quot; 이면의 &quot;이유&quot;를 더 잘 이해할 수 있습니다.  Workspace을 사용하여 마찰이 있는 세션을 검색한 다음 하이퍼링크된 세션 ID를 클릭하여 Quantum 지표에서 세션 재생 을 탐색할 수 있습니다.  이 데이터를 사용하면 세션 내의 비헤이비어를 보고 소비자 마찰을 유도하는 요소를 더 잘 이해할 수 있습니다.
+Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &quot;내용&quot; 이면의 &quot;이유&quot;를 더 잘 이해할 수 있습니다.  Workspace을 사용하여 마찰이 있는 세션을 검색한 다음 하이퍼링크된 세션 ID를 클릭하여 Quantum 지표에서 세션 재생 을 탐색할 수 있습니다.  이 데이터를 사용하면 세션 내의 비헤이비어를 보고 소비자 마찰을 유도하는 요소를 더 잘 이해할 수 있습니다.  CJA과 연결된 세션 재생을 통해 경험에서 고객 행동에 대한 중요한 컨텍스트를 캡처할 수 있습니다.
 
 ## 사전 요구 사항
 
@@ -46,5 +46,5 @@ Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum �
 ## 2단계 Customer Journey Analytics에서 세션 보기
 
 클릭 가능한 링크로 Workspace 보고서를 만들면, Customer Journey Analytics의 필터를 사용하여 Quantum 지표에서 추가 분석할 수 있는 흥미로운 세션을 식별할 수 있습니다.
-이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  https://www.quantummetric.com/platform/session-replay에서 Quantum Metric 세션 재생에 대해 자세히 알아보십시오.
+이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)에서 Quantum 지표 세션 재생에 대해 자세히 알아보세요.
 
