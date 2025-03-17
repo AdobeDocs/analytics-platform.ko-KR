@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: a0f82948895f3eac86cf00df1dec8abc2f723fc2
+source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # Customer Journey Analytics과 함께 Quantum Metric Heatmap 사용
 
-CJA 데이터에 Quantum 지표 히트매핑을 연결하면 페이지 수준 참여를 더 잘 이해하고 소비자 행동을 기반으로 페이지를 최적화할 수 있습니다. Workspace을 사용하여 소비자 사용자 흐름을 이해하고 소비자가 한 페이지에서 다음 페이지로 이동하는 경로를 확인할 수 있습니다. 그런 다음 하이퍼링크가 설정된 페이지 URL을 클릭하여 사용자가 콘텐츠에 어떻게 참여하는지를 시각적으로 열 매핑할 수 있습니다.
+CJA 데이터에 Quantum 지표 히트매핑을 연결하면 페이지 수준 참여를 더 잘 이해하고 소비자 행동을 기반으로 페이지를 최적화할 수 있습니다. Workspace을 사용하여 소비자 사용자 흐름을 이해하고 소비자가 한 페이지에서 다음 페이지로 이동하는 경로를 확인할 수 있습니다. 그런 다음 하이퍼링크가 설정된 페이지 URL을 클릭하여 사용자가 콘텐츠에 어떻게 참여하는지를 시각적으로 열 매핑할 수 있습니다.  이제 Quantum Metric Heatmapping을 CJA에 연결하여 분석을 한 다음 페이지 수준 상호 작용을 비즈니스 결과와 연결할 수 있습니다.
 
 이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  https://www.quantummetric.com/platform/session-replay에서 Quantum Metric 세션 재생에 대해 자세히 알아보십시오.
 
@@ -48,6 +48,6 @@ Quantum 지표의 히트맵 기능에 액세스하려면 Quantum 지표의 **UX 
 
 ## Customer Journey Analytics 내의 링크를 클릭하여 Heatmap 보기
 
-열 매핑을 탐색할 페이지가 발견되면 URL이 포함된 패널에 적용할 수 있습니다. 이 표에서는 해당 페이지의 히트맵, 스크롤 깊이 및 상호 작용을 위한 키 영역을 탐색할 수 있는 URL을 반환합니다.  Quantum Metric Heatmap에 대해 자세히 알아보십시오. https://www.quantummetric.com/platform/interaction-heatmaps
+열 매핑을 탐색할 페이지가 발견되면 URL이 포함된 패널에 적용할 수 있습니다. 이 표에서는 해당 페이지의 히트맵, 스크롤 깊이 및 상호 작용을 위한 키 영역을 탐색할 수 있는 URL을 반환합니다.  [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)에서 Quantum Metric Heatmap에 대해 자세히 알아보십시오.
 
 
