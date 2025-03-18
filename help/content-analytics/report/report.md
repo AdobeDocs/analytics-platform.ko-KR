@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,9 @@ ht-degree: 0%
 처음부터 Content Analytics에 대한 보고를 시작하려면:
 
 1. [Workspace에서 새 프로젝트를 만들거나](/help/analysis-workspace/build-workspace-project/create-projects.md) [기존 프로젝트를 엽니다](/help/analysis-workspace/build-workspace-project/open-projects.md).
+1. Content Analytics 보고를 위해 [데이터 보기를 선택](/help/analysis-workspace/c-panels/panels.md#data-view)했는지 확인하십시오. Content Analytics 보고는 Content Analytics에 대해 [구성](/help/content-analytics/config/configuration.md)된 데이터 보기에만 사용할 수 있습니다.
 1. 캔버스에서 ![테이블](/help/assets/icons/Table.svg) [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 드래그합니다.
-1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 필터, 날짜 범위, 주석)을 사용하여 Content Analytics 인사이트를 구축하십시오.
+1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 필터, 날짜 범위, 주석)을 사용하여 Content Analytics 인사이트를 구축하십시오. 또는 Content Analytics 템플릿을 사용합니다.
 
 ## 축소판
 
@@ -49,7 +50,7 @@ ht-degree: 0%
   |---|---|
   | ![Content Analytics 경험 미리 보기](../assets/aca-experience-preview.png) | ![Content Analytics 자산 미리 보기](../assets/aca-asset-preview.png) |
   | **[!UICONTROL 경험 이름]** | **[!UICONTROL 에셋 이름]** |
-  | **[!UICONTROL 노출 횟수(항상)]**: 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(모든 노출 횟수)]**: 에셋의 노출 횟수. |
+  | **[!UICONTROL 노출 횟수(항상)]**: 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(항상)]**: 에셋의 노출 횟수. |
   | **[!UICONTROL Assets]**: 이 경험에 포함된 에셋 수입니다. 자산을 검사하려면 ![분류](/help/assets/icons/Breakdown.svg) 분류를 선택하십시오. | **[!UICONTROL 경험]**: 이 자산이 표시되는 경험 수입니다. [분류](/help/assets/icons/Breakdown.svg) 분류하여 자산을 검사합니다. |
   | **[!UICONTROL 첫 노출]**: 경험의 첫 노출 날짜입니다. | **[!UICONTROL 첫 노출]**: 에셋의 첫 노출 날짜입니다. |
   | **[!UICONTROL 가장 최근 노출]**: 경험의 가장 최근 노출 날짜입니다. | **[!UICONTROL 가장 최근 노출]**: 에셋의 가장 최근 노출 날짜입니다. |

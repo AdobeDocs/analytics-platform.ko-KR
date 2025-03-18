@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1390'
 ht-degree: 17%
 
 ---
@@ -63,7 +63,7 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 경험 설득 전략 | 해당 경험에 있는 ![AI 생성](/help/assets/icons/AI.svg) 설득 전략. 가능한 가치는 사회적 정체성, 사회적 증명, 권위, 구체성, 문 안의 발, 반응 극복, 상호성, 정박과 비교, 사회적 영향, 희소성, 의인화 등이다. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 경험 내러티브 | 마케터의 관점에서 관련성을 기반으로 경험이 구축하고 있는 ![AI 생성](/help/assets/icons/AI.svg) 설명. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 경험 톤 | 마케터의 관점에서 관련성을 기반으로 경험이 구축하고 있는 ![AI 생성](/help/assets/icons/AI.svg) 톤 | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
-| 경험 마케팅 감정 | ![AI 생성](/help/assets/icons/AI.svg) 경험을 읽을 때 독자에게 들리는 감정: 긴급성, 배타성, 격려, 도전, 호기심, 성취, 신뢰, 단순성, 매혹성. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
+| 경험 마케팅 감정 | ![AI 생성](/help/assets/icons/AI.svg) 경험의 일부로 사용되는 텍스트(긴급성, 배타성, 격려, 도전, 호기심, 성취, 신뢰, 단순성 및 매혹)를 읽을 때 독자에게 호출되는 감정입니다. | Dimension<br/>파생 필드 | \| 표시 값 없음<br/>가장 최근 \| 세션 |
 | 경험 이모지 개수 | 경험에 대한 ![AI 생성](/help/assets/icons/AI.svg) 이모지 수입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 | 경험 해시 태그 수 | 경험에 대한 ![AI 생성](/help/assets/icons/AI.svg) 해시태그 수입니다. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
 | 경험 문장 수 | 경험에 대한 ![AI 생성](/help/assets/icons/AI.svg) 문장 수. | 지표 | 값 계산<br/>십진수 \| 소수점 이하 자리 수: 0 |
@@ -163,3 +163,4 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 경험 클릭스루 비율 | 경험 클릭수 / 경험 보기 | 계산된 지표 | |
 
 {style="table-layout:fixed"}
+
