@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-api"
 >title="NPM 패키지"
->abstract="데이터 수집 API를 사용하여 데이터를 데이터 스트림으로 직접 전송합니다. 인증되지 않은 유형(클라이언트-서버)과 인증된 유형(서버-서버)이 모두 지원됩니다."
+>abstract="데이터 수집 API를 사용하여 데이터를 데이터스트림으로 직접 전송합니다. 인증되지 않은 유형(클라이언트-서버)과 인증된 유형(서버-서버)이 모두 지원됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
->title="지정된 속성에 대한 Web SDK 구현"
+>title="주어진 속성에 대한 Web SDK 구현"
 >abstract="자세한 지침은 업그레이드 안내서에서 원하는 구현 유형을 선택하십시오."
 
 <!-- markdownlint-enable MD034 -->
@@ -54,8 +54,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
->title="타사 태그 관리 시스템에 Web SDK 라이브러리 추가"
->abstract="태그 관리 시스템의 관리자와 협력하여 웹 SDK 라이브러리를 사이트에 추가합니다.<br><br>이 작업의 완료 시간은 태그 관리 시스템을 담당하는 개인의 응답성에 따라 크게 달라집니다. 웹 SDK 라이브러리를 추가하면 관련 구현 논리와 번들로 제공되어 조직의 표준 릴리스 주기 동안 배포될 수 있습니다."
+>title="서드파티 태그 관리 시스템에 Web SDK 라이브러리 추가"
+>abstract="태그 관리 시스템 관리자와 협력하여 Web SDK 라이브러리를 사이트에 추가합니다.<br><br>이 작업을 완료하는 데 소요되는 시간은 태그 관리 시스템을 담당하는 개인의 응답성에 따라 크게 달라집니다. Web SDK 라이브러리를 추가하면 관련 구현 논리가 함께 번들로 제공되어 조직의 표준 릴리스 주기 동안 배포될 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,5 +1,5 @@
 ---
-title: 데이터를 Platform으로 보내도록 기존 Adobe Analytics Web SDK 구현을 구성합니다
+title: 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송합니다.
 description: 기존 Adobe Analytics 웹 SDK 구현 구성에 대해 알아봅니다
 role: Admin
 solution: Customer Journey Analytics
@@ -8,18 +8,18 @@ exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# 데이터를 Platform으로 보내도록 기존 Adobe Analytics Web SDK 구현을 구성합니다 {#existing-websdk-implementation}
+# 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송합니다. {#existing-websdk-implementation}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-remove-aa-from-datastream"
->title="데이터 스트림에서 Adobe Analytics를 서비스로 제거"
->abstract="웹 SDK 데이터가 완전히 작동하면 플랫폼 관리자와 함께 데이터 스트림에서 Adobe Analytics as a service를 제거합니다. 이를 수행하기 전에 사용자가 Adobe Analytics을 사용에서 Customer Journey Analytics으로 전환했는지 확인하십시오."
+>title="데이터스트림에서 Adobe Analytics as a Service 제거"
+>abstract="Web SDK 데이터가 완벽하게 작동하면 플랫폼 관리자와 협력하여 데이터스트림에서 Adobe Analytics as a Service를 제거하십시오. 이 작업을 수행하기 전에 사용자가 Adobe Analytics에서 Customer Journey Analytics로 전환했는지 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

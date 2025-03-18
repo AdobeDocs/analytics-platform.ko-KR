@@ -12,14 +12,14 @@ ht-degree: 51%
 
 ---
 
-# Customer Journey Analytics에 사용할 데이터 스트림 만들기 {#upgrade-create-datastream}
+# Customer Journey Analytics에 사용할 데이터스트림 만들기 {#upgrade-create-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
->title="Adobe Experience Platform에 데이터 스트림 만들기"
->abstract="데이터 스트림은 구성된 모든 서비스에 데이터를 전달하는 중개 위치입니다. Adobe Experience Platform에 이 위치를 만듭니다.<br><br>몇 분 정도면 플랫폼 인터페이스에서 데이터 스트림을 처음 만들 수 있습니다."
+>title="Adobe Experience Platform에 데이터스트림 만들기"
+>abstract="데이터스트림은 구성된 모든 서비스에 데이터를 전달하는 중개 위치입니다. Adobe Experience Platform에 이 위치를 만듭니다.<br><br>몇 분 정도면 플랫폼 인터페이스에서 데이터스트림을 처음 만들 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

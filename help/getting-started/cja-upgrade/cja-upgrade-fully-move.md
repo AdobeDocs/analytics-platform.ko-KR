@@ -8,7 +8,7 @@ exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 18%
+ht-degree: 31%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-source-connector"
->title="Analytics 소스 커넥터를 비활성화하여 웹 SDK의 데이터만 사용"
->abstract="Analytics 소스 커넥터는 Customer Journey Analytics에서 완전히 사용할 수 없는 일부 기능에 대한 액세스, 이전 데이터 비교 및 나란히 제공하는 데 사용됩니다. 이러한 목적으로 Adobe Analytics이 더 이상 필요하지 않으면 Analytics 소스 커넥터를 비활성화할 수 있습니다."
+>title="Analytics 소스 커넥터를 비활성화하여 Web SDK에서만 데이터 사용"
+>abstract="Analytics 소스 커넥터는 나란히 배치된 데이터 비교, 과거 데이터 제공 및 Customer Journey Analytics에서 완전히 사용할 수 없는 일부 기능에 대한 액세스를 제공하는 데 사용됩니다. 더 이상 이러한 용도로 Adobe Analytics가 필요하지 않으면 Analytics 소스 커넥터를 비활성화할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -72,8 +72,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-analytics-tags"
->title="태그에서 Analytics 확장 비활성화"
->abstract="웹 SDK 데이터가 완전히 작동하면 태그 관리자와 함께 태그 속성에서 Adobe Analytics 확장을 제거합니다. 이를 수행하기 전에 사용자가 Adobe Analytics을 사용에서 Customer Journey Analytics으로 전환했는지 확인하십시오."
+>title="태그에서 Analytics 확장 기능 비활성화"
+>abstract="Web SDK 데이터가 완전히 작동하면 태그 관리자와 협력하여 태그 속성에서 Adobe Analytics 확장 기능을 제거합니다. 이 작업을 수행하기 전에 사용자가 Adobe Analytics에서 Customer Journey Analytics로 전환했는지 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-analytics-api"
 >title="Adobe Analytics에 대한 API 데이터 수집 비활성화"
->abstract="웹 SDK 데이터가 완전히 작동하면 해당 엔지니어링 팀과 협력하여 프로젝트에서 Adobe Analytics 코드를 제거합니다. 이를 수행하기 전에 사용자가 Adobe Analytics을 사용에서 Customer Journey Analytics으로 전환했는지 확인하십시오."
+>abstract="Web SDK 데이터가 완전히 작동하면 해당 엔지니어링 팀과 협력하여 프로젝트에서 Adobe Analytics 코드를 제거합니다. 이 작업을 수행하기 전에 사용자가 Adobe Analytics에서 Customer Journey Analytics로 전환했는지 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 46%
+ht-degree: 57%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tie-data"
 >title="다양한 출처의 데이터 연결"
->abstract="(권장) 다양한 웹, 모바일 및 오프라인 속성의 데이터를 연결하여 고객 행동에 대한 통합된 단일 보기를 만듭니다. 다른 채널의 분석 데이터를 결합하는 이 기능은 Customer Journey Analytics의 주요 사용 사례입니다."
+>abstract="(권장) 다양한 웹, 모바일, 오프라인 속성의 데이터를 연결하여 고객 행동에 대한 단일 통합 보기를 생성합니다. 다른 채널의 분석 데이터를 결합하는 이 기능은 Customer Journey Analytics의 기본 사용 사례입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
 >title="Adobe Target과 일시적으로 통합"
->abstract="개인화 사용 사례에 대해서는 Adobe Journey Optimizer와 통합하는 것이 좋습니다. Adobe Target과 통합할 수는 있지만 단기적인 해결책입니다."
+>abstract="개인화 사용 사례에 대해서는 Adobe Journey Optimizer와 통합하는 것이 좋습니다. Adobe Target과 통합하는 것은 가능하지만 단기적인 솔루션일 뿐입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,7 +73,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="Adobe Audience Manager와 일시적으로 통합"
->abstract="대상자 기반 사용 사례에 대해서는 Adobe Real-Time CDP와 통합하는 것이 좋습니다. Audience Manager과 통합할 수는 있지만 단기적인 해결책입니다."
+>abstract="대상자 기반 사용 사례에 대해서는 Adobe Real-Time CDP와 통합하는 것이 좋습니다. Audience Manager와 통합하는 것은 가능하지만 단기적인 솔루션일 뿐입니다."
 
 <!-- markdownlint-enable MD034 -->
 

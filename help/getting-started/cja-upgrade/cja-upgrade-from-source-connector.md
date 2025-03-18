@@ -8,7 +8,7 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 14%
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-delete"
 >title="기존의 Analytics 소스 커넥터 삭제"
->abstract="현재 보유하고 있는 Analytics 소스 커넥터가 조직의 사용자 지정 스키마와 호환되지 않습니다. 하지만 데이터는 여전히 Analytics 보고서 세트에 있습니다. 이 단계에서는 현재 Analytics 소스 커넥터를 제거하므로 후속 단계에서 올바른 스키마를 사용하여 다시 만들 수 있습니다.<br><br>원본 커넥터를 삭제하기 전에 원본 커넥터를 제거해도 조직 내의 보고에 영향을 주지 않도록 조직의 다른 사용자와 조정할 수 있습니다. 이 조정을 완료하는 데 몇 주가 걸릴 수 있습니다."
+>abstract="현재 사용 중인 Analytics 소스 커넥터는 조직의 사용자 정의 스키마와 호환되지 않습니다. 그러나 데이터는 여전히 Analytics 보고서 세트에 존재합니다. 이 단계는 현재 Analytics 소스 커넥터를 제거하여 이후 단계에서 올바른 스키마를 사용하여 다시 생성할 수 있게 합니다.<br><br>소스 커넥터를 삭제하기 전에 조직 내 다른 사용자와 협력하여 소스 커넥터 제거가 조직 내 보고에 영향을 미치지 않도록 확인하십시오. 이 조정을 완료하는 데 몇 주가 소요될 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

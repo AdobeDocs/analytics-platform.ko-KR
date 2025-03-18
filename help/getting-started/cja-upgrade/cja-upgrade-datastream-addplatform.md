@@ -12,14 +12,14 @@ ht-degree: 55%
 
 ---
 
-# 데이터 스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
+# 데이터스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
->title="데이터 스트림에 서비스로 Adobe Experience Platform 추가"
->abstract="데이터 스트림에 데이터를 전송하려면 하나 이상의 서비스가 필요합니다. 데이터 스트림에 서비스로 Adobe Experience Platform을 설정합니다.<br><br>데이터 스트림에 서비스를 추가하는 것은 간단하며 완료까지 몇 분밖에 걸리지 않습니다."
+>title="데이터스트림에 서비스로 Adobe Experience Platform 추가"
+>abstract="데이터스트림에 데이터를 전송하려면 하나 이상의 서비스가 필요합니다. 데이터스트림에 서비스로 Adobe Experience Platform을 설정합니다.<br><br>데이터스트림에 서비스를 추가하는 것은 간단하며 완료까지 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
