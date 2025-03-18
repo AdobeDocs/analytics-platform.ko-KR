@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 61b27e14386aaba1612844f3e00692edd38cba17
+source-git-commit: 5eb9136107ed872639b02df2549a2f81dee83e76
 workflow-type: tm+mt
 source-wordcount: '3295'
 ht-degree: 13%
@@ -192,7 +192,7 @@ Content Analytics 구성에 액세스하려면
 ![콘텐츠 분석 구성 경험 캡처 및 정의](../assets/aca-configuration-experience.png)
 
 1. **[!UICONTROL 경험 포함]**&#x200B;을 사용하도록 설정합니다.
-1. 선택 사항입니다. 웹 사이트에서 콘텐츠가 렌더링되는 방식 을 지정합니다. 매개 변수는 **[!UICONTROL 도메인 정규식]**&#x200B;과(와) **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 0개 이상의 조합입니다.
+1. 선택 사항입니다. 웹 사이트에서 콘텐츠가 렌더링되는 방식에 대한 매개 변수를 지정합니다. 매개 변수는 **[!UICONTROL 도메인 정규식]**&#x200B;과(와) **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 0개 이상의 조합입니다.
    1. **[!UICONTROL 도메인 정규식]**(예: `/^(?!.*\b(store|help|admin)\b)/`)을 입력하십시오. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
    1. `outdoors, patio, kitchen`과(와) 같이 쉼표로 구분된 **[!UICONTROL 쿼리 매개 변수]** 목록을 지정하십시오.
 1. 도메인 정규식과 쿼리 매개 변수의 조합을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 선택하십시오.
