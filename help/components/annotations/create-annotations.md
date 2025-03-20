@@ -4,10 +4,10 @@ description: Workspace에서 주석을 만드는 방법
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 ![주석 만들기](assets/create-annotation.png)
 
-* ?? 메인 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 주석]**&#x200B;을 선택합니다. [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
-* ?? Workspace 프로젝트 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목으로 주석 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트 선 그래프의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에 주석 달기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트에서 단축키 **[!UICONTROL Ctrl+Shift+O]**(Windows) 또는 **[!UICONTROL Ctrl+Shift+O]**(macOS)를 사용합니다.
+* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석]**&#x200B;을 선택합니다. [[!UICONTROL 주석] 관리자](/help/components/annotations/manage-annotations.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* **B**. Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 주석 만들기]**&#x200B;를 선택합니다.
+* **C**. Workspace 프로젝트의 선 그래프의 컨텍스트 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
+* **일**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
+* **E**.  Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+o]**(Windows) 또는 **[!UICONTROL shift+command+o]**(macOS)을 사용합니다.
 
 주석을 정의하려면 다음 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
 

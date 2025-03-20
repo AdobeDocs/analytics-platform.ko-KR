@@ -4,7 +4,7 @@ description: 필터 만들기 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -23,12 +23,12 @@ Customer Journey Analytics에서 다양한 유형의 필터를 만들 수 있습
 
 ![필터를 만드는 방법](assets/create-filter.png)
 
-* ?? 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터]**&#x200B;를 선택합니다. [[!UICONTROL 필터] 관리자](/help/components/filters/manage-filters.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
-* ?? Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **필터**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
-* ?? Workspace 프로젝트의 시각화에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 필터 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터 만들기]**&#x200B;를 선택합니다.
-* ?? Workspace 프로젝트에서 바로 가기 **[!UICONTROL shift+cmd+e]**(macOS) 또는 **[!UICONTROL shift+ctrl+e]**(Windows)을 사용합니다.
-* ?? ***여기에 필터 놓기*** 놓기 영역에 ![추가](/help/assets/icons/Add.svg)를 선택합니다. 이 작업을 수행하면 프로젝트 전용 필터가 만들어집니다.
+* **A**. 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터]**&#x200B;를 선택합니다. [[!UICONTROL 필터] 관리자](/help/components/filters/manage-filters.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **필터**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* **C**. Workspace 프로젝트의 시각화에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 필터 만들기]**&#x200B;를 선택합니다.
+* **일**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 필터 만들기]**&#x200B;를 선택합니다.
+* **E**. Workspace 프로젝트에서 바로 가기 **[!UICONTROL shift+cmd+e]**(macOS) 또는 **[!UICONTROL shift+ctrl+e]**(Windows)을 사용합니다.
+* **F**. ***여기에 필터 놓기*** 놓기 영역에 ![추가](/help/assets/icons/Add.svg)를 선택합니다. 이 작업을 수행하면 프로젝트 전용 필터가 만들어집니다.
 
 새 필터를 정의하려면 [필터 빌더](/help/components/filters/filter-builder.md)를 사용합니다.
 

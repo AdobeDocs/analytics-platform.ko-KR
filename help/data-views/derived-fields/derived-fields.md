@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '8844'
 ht-degree: 17%
@@ -1570,7 +1570,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 |  제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 메서드]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 5개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>문자열</li><li>숫자</li></ul> | <ul><li>[!UICONTROL 필드]:</li><ul><li>규칙</li><li>표준 필드</li><li>필드</li></ul></ul><ul><li>[!UICONTROL 메서드]:</li><ul><li>왼쪽에서</li><li>오른쪽에서</li><li>배열로 변환</li></ul></li><li>구분 기호:<ul><li>문자열</li></ul><li>인덱스의 경우:<ul><li>숫자</li></ul></li> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1966,7 +1966,7 @@ Url 구문 분석 규칙 2의 ![스크린샷](assets/url-parse-2.png)
 | <p>필드 병합</p> | <ul><li>파생 필드당 2개의 필드 병합 기능</li></ul> |
 | <p>다음 또는 이전</p> | <ul><li>3 파생 필드당 다음 또는 이전 함수</li></ul> |
 | <p>정규 표현식 바꾸기</p> | <ul><li>파생 필드당 1개의 정규 표현식 바꾸기 함수</li></ul> |
-| <p>분할</p> | <ul><li>파생 필드당 5개의 분할 함수</li></ul> |
+| <p>분할</p> | <ul><li>파생 필드당 2개의 분할 함수</li></ul> |
 | <p>요약</p> | <ul><li>3 파생 필드당 함수 요약</li></ul> |
 | <p>트리밍</p> | <ul><li>파생 필드당 1개의 Trim 함수</li></ul> |
 | <p>URL 구문 분석</p> | <ul><li>파생 필드당 5개의 URL 구문 분석 함수</li></ul> |
