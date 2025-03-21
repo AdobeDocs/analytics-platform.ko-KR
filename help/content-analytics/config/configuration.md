@@ -7,43 +7,30 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
 
 # 콘텐츠 분석 구성
 
->[!WARNING]
->
->이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
 Content Analytics의 구성은 다음 단계로 구성됩니다.
 
-![콘텐츠 분석 구성](../assets/aca-configuration.svg)
+![콘텐츠 분석 구성](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. Content Analytics [구성 가이드](guided.md) 마법사를 사용하여 Content Analytics 구성에 대한 필수 구성 요소를 설정하는 데 필요한 모든 단계를 안내합니다. 구성을 저장하고 나중에 다시 돌아갈 수 있습니다.
-1. 구성 값에 익숙해지면 구성을 구현할 수 있습니다. 이 구현은 마법사에서 구성한 내용을 기반으로 필요한 모든 아티팩트를 만듭니다. 다음 가공물이 생성, 업데이트 또는 선택됩니다.
-   * Customer Journey Analytics
-      * [데이터 보기](/help/data-views/data-views.md)를 선택했습니다.
-      * 선택한 데이터 보기에서 자동으로 파생된 [연결](/help/connections/overview.md)이(가) 선택되었습니다.
-   * Experience Platform
-      * 연결을 통해 자동으로 파생되는 샌드박스가 선택됩니다. 샌드박스에서 필요한 워크플로우 및 서비스를 사용할 수 있습니다.
-      * 샌드박스에서 Content Analytics 스키마를 선택합니다. 사용할 수 없는 경우 필요한 스키마가 생성됩니다.
-      * 샌드박스에서 Content Analytics 데이터 세트가 선택됩니다. 사용할 수 없는 경우 필요한 데이터 세트가 만들어집니다.
-   * 데이터 수집
-      * 데이터 스트림이 생성되고 데이터 스트림 내에 Experience Platform 서비스가 구성되어 데이터를 Content Analytics 경험 이벤트 데이터 세트로 스트리밍합니다.
-      * 태그 속성은 구성 마법사에서 올바른 샌드박스, 데이터 스트림 및 기타 구성 옵션에 대해 구성된 Adobe Content Analytics 확장으로 만들어집니다.
+1. Content Analytics [구성 가이드](guided.md) 마법사를 사용하여 Content Analytics 구성에 대한 필수 구성 요소를 설정하는 데 필요한 모든 단계를 안내합니다. 언제든지 구성을 저장하고 나중에 돌아갈 수 있습니다.
+1. 구성 값에 익숙해지면 구성을 구현할 수 있습니다. 이 구현은 마법사에서 구성한 내용을 기반으로 필요한 모든 아티팩트를 만듭니다.
 1. Tags 속성을 [수동으로 게시](manual.md)하는 경우에만 Content Analytics 구성이 효과적으로 배포 및 활성화됩니다.
 
 1. [안내가 있는 구성](guided.md) 마법사를 사용하여 구현된 구성에 일부 부분만 변경할 수 있습니다. 예를들어 [데이터 보기](/help/data-views/data-views.md)를 변경합니다.
-1. 구현된 구성에 다른 변경 작업을 수행할 수 있습니다. 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을(를) 사용합니다.
-1. Tags 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 4단계와 5단계의 구성 수정 사항이 효과적으로 배포되고 활성화됩니다.
+1. 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 구현된 구성에 다른 변경 작업을 수행할 수 있습니다.
+1. Tags 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 구성 수정 사항이 효과적으로 배포되고 활성화됩니다.
 
 
 ## 사전 요구 사항

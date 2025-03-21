@@ -7,19 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 17%
+source-wordcount: '1350'
+ht-degree: 18%
 
 ---
 
 # 콘텐츠 분석 구성 요소
 
->[!WARNING]
->
->이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -33,7 +30,7 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 * [Assets 이벤트](#asset-events)
 * [계산된 지표](#calculated-metrics)
 
-아래 표에서 ![AI 생성](/help/assets/icons/AI.svg)은(는) AI/ML 생성 값을 나타냅니다.
+아래 표에서 ![AI 생성](/help/assets/icons/AI.svg)은(는) AI/ML 생성 특성/값 쌍을 나타냅니다.
 
 ## 경험 메타데이터
 

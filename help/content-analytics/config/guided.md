@@ -7,19 +7,16 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 5eb9136107ed872639b02df2549a2f81dee83e76
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3324'
 ht-degree: 13%
 
 ---
 
 # Content Analytics 안내 구성
 
->[!WARNING]
->
->이 문서는 예정된 최종 버전의 임시 비공식 초안 버전이며 Content Analytics 설명서의 일부입니다. 모든 내용은 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -29,12 +26,11 @@ ht-degree: 13%
 >
 >조직의 샌드박스당 하나의 Content Analytics 구성만 가질 수 있습니다.
 
-
 Content Analytics 구성에 액세스하려면
 
 * Customer Journey Analytics의 기본 메뉴에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 콘텐츠 분석]**&#x200B;을 선택합니다.
 
-콘텐츠 분석 구성 화면에 기존 콘텐츠 분석 구성 표가 표시됩니다.
+**[!UICONTROL Content Analytics 구성]** 화면에 기존 Content Analytics 구성 표가 표시됩니다.
 
 ![콘텐츠 분석 구성](../assets/aca-configuration-table.png)
 각 구성에 대해 다음 세부 정보를 사용할 수 있습니다.
@@ -54,15 +50,15 @@ Content Analytics 구성에 액세스하려면
 
 새 구성을 만들려면 다음 작업을 수행하십시오.
 
-* **[!UICONTROL 구성 만들기]**&#x200B;를 선택합니다. 이 작업을 수행하면 안내가 있는 구성 마법사가 열립니다.
+* **[!UICONTROL 구성 만들기]**&#x200B;를 선택합니다. 이 작업은 [안내가 있는 구성 마법사](#guided-configuration-wizard)를 엽니다.
 
 기존 구성을 편집하려면 다음을 수행하십시오.
 
-* 기존 Content Analytics 구성에 대해 ![자세히](/help/assets/icons/More.svg)를 선택한 다음 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 이 작업을 수행하면 안내가 있는 구성 마법사가 열립니다.
+* 기존 Content Analytics 구성에 대해 ![자세히](/help/assets/icons/More.svg)를 선택한 다음 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 이 작업은 [안내가 있는 구성 마법사](#guided-configuration-wizard)를 엽니다.
 
 ## 안내식 구성 마법사
 
-안내식 구성 마법사는 네 개의 섹션([세부 정보](#details), [데이터 보기](#data-view), [경험 캡처 및 정의](#experience-capture-and-definition), [데이터 수집](#data-collection))으로 구성되며, 각 섹션에는 올바르게 설정하고 Content Analytics를 구성하는 데 필요한 세부 정보를 묻는 메시지가 표시됩니다. 섹션의 일부 설정은 이전 섹션의 구성 값에 따라 달라질 수 있으므로 다음 섹션으로 이동하기 전에 각 섹션을 완료하십시오.
+안내식 구성 마법사는 네 개의 섹션([세부 정보](#details), [데이터 보기](#data-view), [경험 캡처 및 정의](#experience-capture-and-definition), [데이터 수집](#data-collection))으로 구성되며, 각 섹션에는 Content Analytics을 올바르게 설정하고 구성하는 데 필요한 세부 정보를 묻는 메시지가 표시됩니다. 섹션의 일부 설정은 이전 섹션의 구성 값에 따라 달라질 수 있으므로 다음 섹션으로 이동하기 전에 각 섹션을 완료하십시오.
 
 ### 세부 사항 {#onboarding-details}
 
@@ -142,14 +138,17 @@ Content Analytics 구성에 액세스하려면
 
    기존 구성을 편집하는 경우 목록에는 기존 구성과 이미 연결된 샌드박스 내에서 사용할 수 있는 데이터 보기만 표시됩니다.
 
+   다음 작업을 수행할 수 있습니다.
+
    * 특정 데이터 보기를 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용하십시오.
-   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택하세요. 연결, 소유자 및 샌드박스에 대한 목록을 필터링할 수 있습니다.<br/>필터 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 사용합니다.
+   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 필터링할 수 있습니다.<br/>필터 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 사용합니다.
    * 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을(를) 선택합니다. **[!UICONTROL 테이블 사용자 지정]** 대화 상자에 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하여 변경 내용을 적용합니다.
 
+1. 사용할 데이터 보기에서 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 데이터 보기를 확인합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
 
-데이터 보기는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 선택한 데이터 보기에 따라 **[!UICONTROL 샌드박스]**&#x200B;가 적절한 샌드박스 이름으로 자동 채워집니다.
+Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 선택한 데이터 보기에 따라 **[!UICONTROL 샌드박스]**&#x200B;가 샌드박스 이름으로 자동 채워집니다.
 
 
 ### 경험 캡처 및 정의 {#onboarding-experiences}
@@ -271,8 +270,9 @@ Content Analytics 구성에 액세스하려면
   ![콘텐츠 분석 데이터 수집 새 태그](../assets/aca-configuration-datacollection-newtag.png)
 
    1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
-   2. **[!UICONTROL 태그 이름]**(예: `ACA Test`)을 지정하십시오.
-   3. **[!UICONTROL 도메인]**(예: `example.com`)을 지정하십시오.
+   1. **[!UICONTROL 태그 이름]**(예: `ACA Test for Documentation`)을 지정하십시오.
+  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
+   1. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
 * 경험을 포함하도록 선택한 경우 컨텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 나타냅니다.
 
@@ -317,20 +317,671 @@ Content Analytics 구성에 액세스하려면
 * **[!UICONTROL 버리기]**: 새 구성을 만들거나 기존 구성을 편집하는 과정에서 변경한 모든 내용이 무시됩니다.
 * **[!UICONTROL 나중에 저장]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 변경 내용이 저장됩니다. 이후 단계에서 구성을 다시 방문하여 추가 변경을 수행하거나 구성을 구현할 수 있습니다.
 * **[!UICONTROL 구현]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 설정 또는 변경 내용이 저장되고 구현됩니다. 구현은 다음과 같이 구성됩니다.
+
+   * **[!UICONTROL Customer Journey Analytics]** 구성:
+      * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
+      * 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 특성 데이터 세트를 포함하도록 수정됩니다.
+      * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
+
++++ 세부 사항
+
+     자세한 내용은 다음 시나리오에 제공됩니다.
+
+      * **Tags** 속성이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tags 속성에 대한 **Web SDK** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tag 속성에 대한 Adobe **Content Analytics** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">시나리오:</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>설정</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>보고서 템플릿</td>
+          <td colspan="4">보고서 템플릿을 사용할 수 있습니다</td>
+        </tr>
+        <tr>
+          <td>데이터 보기</td>
+          <td colspan="4">ACA 차원 및 지표를 갖도록 수정/생성됨</td>
+        </tr>
+        <tr>
+          <td>연결</td>
+          <td colspan="4">ACA 데이터 세트(ACA 이벤트, 에셋 속성, 경험 속성)를 포함하도록 수정됨</td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
    * **[!UICONTROL Adobe Experience Platform]** 구성:
       * 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 모델링하기 위한 스키마 생성.
       * 콘텐츠 분석 이벤트, 자산 속성 및 경험 속성(구성된 경우)을 수집하기 위한 데이터 세트 생성.
       * 기능 서비스를 사용하여 Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하는 데이터 흐름 생성.
+
++++ 세부 사항
+
+     자세한 내용은 다음 시나리오에 제공됩니다.
+
+      * **Tags** 속성이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tags 속성에 대한 **Web SDK** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tag 속성에 대한 Adobe **Content Analytics** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">시나리오:</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>설정</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 이벤트 스키마</strong></td>
+        </tr>
+        <tr>
+          <td style="margin-left: 160.0px;">이름</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 이벤트 데이터 세트</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+        </tr>
+        <tr>
+          <td>스키마</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+          <td>Content Analytics 이벤트</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>태그</td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+        </tr>
+        <tr>
+          <td>시스템 데이터 세트</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td>데이터 거버넌스 (DULE 레이블)</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 자산 속성 스키마</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics Assets 속성 데이터 세트</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+        </tr>
+        <tr>
+          <td>스키마</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+          <td>Content Analytics 자산 속성</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>태그</td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+        </tr>
+        <tr>
+          <td>시스템 데이터 세트</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td>데이터 거버넌스 (DULE 레이블)</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 경험 속성 스키마</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 경험 속성 데이터 세트</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+        </tr>
+        <tr>
+          <td>스키마</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+          <td>Content Analytics 경험 속성</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+          <td><i>미리 결정된 tbd</i></td>
+        </tr>
+        <tr>
+          <td>태그</td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+          <td><i>비어?</i></td>
+        </tr>
+        <tr>
+          <td>시스템 데이터 세트</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>프로필 활성화됨</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+          <td>아니요</td>
+        </tr>
+        <tr>
+          <td>데이터 거버넌스 (DULE 레이블)</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
    * **[!UICONTROL 데이터 수집]** 구성:
       * 새 태그 속성 또는 기존 태그 속성이 Content Analytics 데이터 수집을 지원하도록 구성되었습니다. 이 구성은 태그용 Adobe Content Analytics 확장 포함을 의미합니다.
       * Content Analytics 이벤트에 대한 데이터 스트림이 만들어집니다.
       * Adobe Content Analytics 확장은 Content Analytics 이벤트가 Content Analytics용 데이터 스트림으로 전송되도록 구성되었습니다.
       * 웹 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 구성이 만들어집니다.
       * 웹 SDK이 이 태그 속성에 대해 구성된 경우 기존 웹 SDK 구성이 변경되지 않습니다.
-   * **[!UICONTROL Customer Journey Analytics]** 구성:
-      * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
-      * 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 특성 데이터 세트를 포함하도록 수정됩니다.
-      * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
+
++++ 세부 사항
+
+     자세한 내용은 다음 시나리오에 제공됩니다.
+
+      * **Tags** 속성이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tags 속성에 대한 **Web SDK** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+      * Tag 속성에 대한 Adobe **Content Analytics** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">시나리오:</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>설정</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td colspan="5"><strong><br/>데이터스트림</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td><i>기존 값</i></td>
+          <td>콘텐츠 분석</td>
+          <td>콘텐츠 분석</td>
+          <td>콘텐츠 분석</td>
+        </tr>
+        <tr>
+          <td>설명</td>
+          <td><i>기존 값</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+        </tr>
+        <tr>
+          <td>스키마 매핑</td>
+          <td><i>기존 값</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+        </tr>
+        <tr>
+          <td>지리적 위치 및 네트워크 조회</td>
+          <td><i>기존 값</i></td>
+          <td>모든 옵션 끄기</td>
+          <td>모든 옵션 끄기</td>
+          <td>모든 옵션 끄기</td>
+        </tr>
+        <tr>
+          <td>장치 조회</td>
+          <td><i>기존 값</i></td>
+          <td>장치 정보 수집 안 함</td>
+          <td>장치 정보 수집 안 함</td>
+          <td>장치 정보 수집 안 함</td>
+        </tr>
+        <tr>
+          <td>IP 난독화</td>
+          <td><i>기존 값</i></td>
+          <td>없음</td>
+          <td>없음</td>
+          <td>없음</td>
+        </tr>
+        <tr>
+          <td>자사 ID 쿠키</td>
+          <td><i>기존 값</i></td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+        </tr>
+        <tr>
+          <td>타사 ID 동기화</td>
+          <td><i>기존 값</i></td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+        </tr>
+        <tr>
+          <td>액세스 유형</td>
+          <td><i>기존 값</i></td>
+          <td>혼합 인증</td>
+          <td>혼합 인증</td>
+          <td>혼합 인증</td>
+        </tr>
+        <tr>
+          <td>미디어 분석</td>
+          <td><i>기존 값</i></td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+        </tr>
+            <tr>
+          <td>보트 탐지</td>
+          <td><i>기존 값</i></td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+          <td>꺼짐</td>
+        </tr>
+        <tr>
+          <td>매핑</td>
+          <td><i>기존 값</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>태그 속성</strong><br/>기존 속성이나 새 속성입니다. 이름과 도메인은 사용자가 제공합니다.</td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td><i>사용자 제공</i>(기본 "Content Analytics")</td>
+        </tr>
+        <tr>
+          <td>도메인</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td ><i>predetermined</i></td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>태그 라이브러리</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>
+            <br/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>웹 SDK 확장</strong></td>
+        </tr>
+        <tr>
+          <td>이름</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>Content Analytics - 웹 SDK</td>
+          <td>Content Analytics - 웹 SDK</td>
+        </tr>
+        <tr>
+          <td>IMS 조직</td>
+          <td><i>자동으로 채워짐</i></td>
+          <td><i>자동으로 채워짐</i></td>
+          <td><i>자동으로 채워짐</i></td>
+          <td><i>자동으로 채워짐</i></td>
+        </tr>
+        <tr>
+          <td>Edge 도메인</td>
+          <td><i>기존 값<br/>AppMeasurement 구현과 일치하도록 업데이트가 필요할 수 있음</i></td>
+          <td><i>기존 값<br/>AppMeasurement 구현과 일치하도록 업데이트가 필요할 수 있음</i></td>
+          <td>
+            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
+          </td>
+          <td>
+            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>데이터 스트림</strong></td>
+        </tr>
+        <tr>
+          <td>프로덕션</td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>사용자 입력</i>?</td>
+          <td><i>사용자 입력</i>?</td>
+        </tr>
+        <tr>
+          <td>스테이징</td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>사용자 입력</i>?</td>
+          <td><i>사용자 입력</i>?</td>
+        </tr>
+        <tr>
+          <td>개발</td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
+          <td><i>사용자 입력</i>?</td>
+          <td><i>사용자 입력</i>?</td>
+        </tr>
+        <tr>
+          <td>개인 정보 보호</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>안에?</td>
+          <td>안에?</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>ID</strong></td>
+        </tr>
+        <tr>
+          <td>ECID 마이그레이션</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택됨</td>
+          <td>선택됨</td>
+        </tr>
+        <tr>
+          <td>서드파티 쿠키 사용</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택됨</td>
+          <td>선택됨</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>개인화</strong></td>
+        </tr>
+        <tr>
+          <td>Target을 at.js에서 Web SDK으로 마이그레이션</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택되지 않음</td>
+          <td>선택되지 않음</td>
+        </tr>
+        <tr>
+          <td>개인화 스토리지 활성화</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택되지 않음</td>
+          <td>선택되지 않음</td>
+        </tr>
+        <tr>
+          <td>Adobe Journey Optimizer용 자동 클릭 컬렉션</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>항상</td>
+          <td>항상</td>
+        </tr>
+        <tr>
+          <td>Adobe Target용 자동 클릭 컬렉션</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>절대 안 함</td>
+          <td>절대 안 함</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>데이터 수집</strong></td>
+        </tr>
+        <tr>
+          <td>내부 링크 클릭 수 수집</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택되지 않음</td>
+          <td>선택되지 않음</td>
+        </tr>
+        <tr>
+          <td>외부 링크 클릭 수 수집</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택되지 않음</td>
+          <td>선택되지 않음</td>
+        </tr>
+        <tr>
+          <td>다운로드 링크 클릭 수 수집</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>선택되지 않음</td>
+          <td>선택되지 않음</td>
+        </tr>
+        <tr>
+          <td>이벤트 데이터를 보낼 때 다음을 자동으로 포함</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>모든 기본 컨텍스트 정보</td>
+          <td>모든 기본 컨텍스트 정보</td>
+        </tr>
+        <tr>
+          <td>스트리밍 미디어</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>빈 값</td>
+          <td>빈 값</td>
+        </tr>
+        <tr>
+          <td>데이터 스트림 구성 무시</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>데이터 스트림 구성 일치</td>
+          <td>데이터 스트림 구성 일치</td>
+        </tr>
+        <tr>
+          <td>고급 설정 - Edge 기본 경로</td>
+          <td><i>기존 값</i></td>
+          <td><i>기존 값</i></td>
+          <td>ee</td>
+          <td>ee</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics 확장</strong></td>
+        </tr>
+        <tr>
+          <td>데이터 스트림</td>
+          <td><i>기존 값</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+          <td><i>predetermined</i></td>
+        </tr>
+        <tr>
+          <td>경험 캡처 및 정의</td>
+          <td><i>기존 값</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+        </tr>
+        <tr>
+          <td>이벤트 필터링</td>
+          <td><i>기존 값</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+          <td><i>사용자 제공</i></td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
 * **[!UICONTROL 저장]**: 구현된 구성에 대한 변경 내용이 저장되고 구현이 업데이트됩니다.
 * **[!UICONTROL 종료]**. 안내식 구성을 종료합니다. 구현된 구성에 대한 모든 변경 사항이 무시됩니다.
 
@@ -340,52 +991,54 @@ Content Analytics 구성에 액세스하려면
 Content Analytics 구성을 활성화하려면 **[!UICONTROL 구현]** [수동](manual.md)을 선택한 후 만들어진 태그 속성을 게시해야 합니다.
 
 
-## 온보딩 설정 및 구성
 
-다음 단원에서는 Content Analytics 구성 구현의 일부로 [Customer Journey Analytics](#customer-journey-analytics-cja), [Experience Platform](#experience-platform-aep) 및 [데이터 수집](#data-collection-dc)에 적용되는 설정 및 구성에 대해 간략히 설명합니다.
+<!--
+## Onboarding settings and configurations
 
-자세한 내용은 다음 시나리오에 제공됩니다.
+The following sections outline the settings and configurations applied to [Customer Journey Analytics](#customer-journey-analytics-cja), [Experience Platform](#experience-platform-aep) and [Data Collection](#data-collection-dc) as part of the implementation of a Content Analytics configuration.
 
-* **Tags** 속성이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
-* Tags 속성에 대한 **Web SDK** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
-* Tag 속성에 대한 Adobe **Content Analytics** 확장이 **✓**&#x200B;에 있거나 **✕**&#x200B;에 없습니다.
+Details are provided for the following scenarios:
+
+* **Tags** property exists **✓** or does not exist **✕**.
+* **Web SDK** extension for the Tags property exists **✓** or does not exist **✕**.
+* Adobe **Content Analytics** extension for the Tag property exists **✓** or does not exist **✕**.
 
 ### Customer Journey Analytics {#cja}
 
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">시나리오:</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>설정</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td>보고서 템플릿</td>
-      <td colspan="4">보고서 템플릿을 사용할 수 있습니다</td>
+      <td>Report Template</td>
+      <td colspan="4">A report template is available</td>
     </tr>
     <tr>
-      <td>데이터 보기</td>
-      <td colspan="4">ACA 차원 및 지표를 갖도록 수정/생성됨</td>
+      <td>Data view</td>
+      <td colspan="4">Modified/Created to have ACA dimensions and metrics</td>
     </tr>
     <tr>
-      <td>연결</td>
-      <td colspan="4">ACA 데이터 세트(ACA 이벤트, 에셋 속성, 경험 속성)를 포함하도록 수정됨</td>
+      <td>Connection</td>
+      <td colspan="4">Modified to include ACA datasets (ACA events, Asset attributes, Experience Attribute)</td>
     </tr>
   </tbody>
 </table>
@@ -395,249 +1048,249 @@ Content Analytics 구성을 활성화하려면 **[!UICONTROL 구현]** [수동](
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">시나리오:</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>설정</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 이벤트 스키마</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Events schema</strong></td>
     </tr>
     <tr>
-      <td style="margin-left: 160.0px;">이름</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
+      <td style="margin-left: 160.0px;">Name</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 이벤트 데이터 세트</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Events dataset</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
+      <td>Name</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
     </tr>
     <tr>
-      <td>스키마</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
-      <td>Content Analytics 이벤트</td>
+      <td>Schema</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>태그</td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>시스템 데이터 세트</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>데이터 거버넌스 (DULE 레이블)</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 자산 속성 스키마</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Asset Attributes schema</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
+      <td>Name</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics Assets 속성 데이터 세트</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Assets Attributes dataset</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
+      <td>Name</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>스키마</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
-      <td>Content Analytics 자산 속성</td>
+      <td>Schema</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>태그</td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>시스템 데이터 세트</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>데이터 거버넌스 (DULE 레이블)</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 경험 속성 스키마</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Experience Attributes schema</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
+      <td>Name</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 경험 속성 데이터 세트</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Experience Attributes dataset</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
+      <td>Name</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>스키마</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
-      <td>Content Analytics 경험 속성</td>
+      <td>Schema</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
-      <td><i>미리 결정된 tbd</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>태그</td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
-      <td><i>비어?</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>시스템 데이터 세트</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>프로필 활성화됨</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
-      <td>아니요</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>데이터 거버넌스 (DULE 레이블)</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
@@ -647,168 +1300,168 @@ Content Analytics 구성을 활성화하려면 **[!UICONTROL 구현]** [수동](
 </table>
 
 
-### 데이터 수집 {#dc}
+### Data Collection {#dc}
 
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">시나리오:</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>설정</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓ 태그<br>✓ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕ 태그<br>✕ 웹 SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="5"><strong><br/>데이터스트림</strong></td>
+      <td colspan="5"><strong><br/>Datastream</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td><i>기존 값</i></td>
-      <td>콘텐츠 분석</td>
-      <td>콘텐츠 분석</td>
-      <td>콘텐츠 분석</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td>Content Analytics</td>
+      <td>Content Analytics</td>
+      <td>Content Analytics</td>
     </tr>
     <tr>
-      <td>설명</td>
-      <td><i>기존 값</i></td>
+      <td>Description</td>
+      <td><i>existing value</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>스키마 매핑</td>
-      <td><i>기존 값</i></td>
+      <td>Mapping schema</td>
+      <td><i>existing value</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>지리적 위치 및 네트워크 조회</td>
-      <td><i>기존 값</i></td>
-      <td>모든 옵션 끄기</td>
-      <td>모든 옵션 끄기</td>
-      <td>모든 옵션 끄기</td>
+      <td>Geolocation and Network Lookup</td>
+      <td><i>existing values</i></td>
+      <td>All options off</td>
+      <td>All options off</td>
+      <td>All options off</td>
     </tr>
     <tr>
-      <td>장치 조회</td>
-      <td><i>기존 값</i></td>
-      <td>장치 정보 수집 안 함</td>
-      <td>장치 정보 수집 안 함</td>
-      <td>장치 정보 수집 안 함</td>
+      <td>Device Lookup</td>
+      <td><i>existing value</i></td>
+      <td>Do not collect any device information</td>
+      <td>Do not collect any device information</td>
+      <td>Do not collect any device information</td>
     </tr>
     <tr>
-      <td>IP 난독화</td>
-      <td><i>기존 값</i></td>
-      <td>없음</td>
-      <td>없음</td>
-      <td>없음</td>
+      <td>IP Obfuscation</td>
+      <td><i>existing value</i></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
     </tr>
     <tr>
-      <td>자사 ID 쿠키</td>
-      <td><i>기존 값</i></td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
+      <td>First Party ID Cookie</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>타사 ID 동기화</td>
-      <td><i>기존 값</i></td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
+      <td>Third Party ID Synch</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>액세스 유형</td>
-      <td><i>기존 값</i></td>
-      <td>혼합 인증</td>
-      <td>혼합 인증</td>
-      <td>혼합 인증</td>
+      <td>Access Type</td>
+      <td><i>existing value</i></td>
+      <td>Mixed Authentication</td>
+      <td>Mixed Authentication</td>
+      <td>Mixed Authentication</td>
     </tr>
     <tr>
-      <td>미디어 분석</td>
-      <td><i>기존 값</i></td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
+      <td>Media Analytics</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
         <tr>
-      <td>보트 탐지</td>
-      <td><i>기존 값</i></td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
-      <td>꺼짐</td>
+      <td>Bot Detection</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>매핑</td>
-      <td><i>기존 값</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
+      <td>Mapping</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>태그 속성</strong><br/>기존 속성이나 새 속성입니다. 이름과 도메인은 사용자가 제공합니다.</td>
+      <td colspan="5"><strong><br/>Tags property</strong><br/>An existing property or new property. The name and domain are provided by the user.</td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td><i>사용자 제공</i>(기본 "Content Analytics")</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i> (default "Content Analytics")</td>
     </tr>
     <tr>
-      <td>도메인</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
+      <td>Domain</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
       <td ><i>predetermined</i></td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>태그 라이브러리</strong></td>
+      <td colspan="5"><strong><br/>Tags library</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
       <td>
         <br/>
       </td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>웹 SDK 확장</strong></td>
+      <td colspan="5"><strong><br/>Web SDK Extension</strong></td>
     </tr>
     <tr>
-      <td>이름</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>Content Analytics - 웹 SDK</td>
-      <td>Content Analytics - 웹 SDK</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Content Analytics - Web SDK</td>
+      <td>Content Analytics - Web SDK</td>
     </tr>
     <tr>
-      <td>IMS 조직</td>
-      <td><i>자동으로 채워짐</i></td>
-      <td><i>자동으로 채워짐</i></td>
-      <td><i>자동으로 채워짐</i></td>
-      <td><i>자동으로 채워짐</i></td>
+      <td>IMS Org</td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
     </tr>
     <tr>
-      <td>Edge 도메인</td>
-      <td><i>기존 값<br/>AppMeasurement 구현과 일치하도록 업데이트가 필요할 수 있음</i></td>
-      <td><i>기존 값<br/>AppMeasurement 구현과 일치하도록 업데이트가 필요할 수 있음</i></td>
+      <td>Edge Domain</td>
+      <td><i>existing value<br/>Might require an update to match the AppMeasurement implementation</i></td>
+      <td><i>existing value<br/>Might require an update to match the AppMeasurement implementation</i></td>
       <td>
         <a href="http://edge.adobedc.net">edge.adobedc.net</a>
       </td>
@@ -817,162 +1470,164 @@ Content Analytics 구성을 활성화하려면 **[!UICONTROL 구현]** [수동](
       </td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>데이터 스트림</strong></td>
+      <td colspan="5"><strong><br/>Datastreams</strong></td>
     </tr>
     <tr>
-      <td>프로덕션</td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>사용자 입력</i>?</td>
-      <td><i>사용자 입력</i>?</td>
+      <td>Production</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>스테이징</td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>사용자 입력</i>?</td>
-      <td><i>사용자 입력</i>?</td>
+      <td>Staging</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>개발</td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>기존 값<br/>다른 데이터 스트림으로 보내는 데 사용되는 데이터 스트림 재정의</i></td>
-      <td><i>사용자 입력</i>?</td>
-      <td><i>사용자 입력</i>?</td>
+      <td>Development</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>개인 정보 보호</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>안에?</td>
-      <td>안에?</td>
+      <td>Privacy</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>In?</td>
+      <td>In?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>ID</strong></td>
+      <td colspan="5"><strong><br/>Identity</strong></td>
     </tr>
     <tr>
-      <td>ECID 마이그레이션</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택됨</td>
-      <td>선택됨</td>
+      <td>Migrate ECID</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Checked</td>
+      <td>Checked</td>
     </tr>
     <tr>
-      <td>서드파티 쿠키 사용</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택됨</td>
-      <td>선택됨</td>
+      <td>Use third-party cookies</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Checked</td>
+      <td>Checked</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>개인화</strong></td>
+      <td colspan="5"><strong><br/>Personalization</strong></td>
     </tr>
     <tr>
-      <td>Target을 at.js에서 Web SDK으로 마이그레이션</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택되지 않음</td>
-      <td>선택되지 않음</td>
+      <td>Migrate Target from at.js to Web SDK</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>개인화 스토리지 활성화</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택되지 않음</td>
-      <td>선택되지 않음</td>
+      <td>Enable personalization storage</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>Adobe Journey Optimizer용 자동 클릭 컬렉션</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>항상</td>
-      <td>항상</td>
+      <td>Auto click collection for Adobe Journey Optimizer</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Always</td>
+      <td>Always</td>
     </tr>
     <tr>
-      <td>Adobe Target용 자동 클릭 컬렉션</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>절대 안 함</td>
-      <td>절대 안 함</td>
+      <td>Auto click collection for Adobe Target</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Never</td>
+      <td>Never</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>데이터 수집</strong></td>
+      <td colspan="5"><strong><br/>Data Collection</strong></td>
     </tr>
     <tr>
-      <td>내부 링크 클릭 수 수집</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택되지 않음</td>
-      <td>선택되지 않음</td>
+      <td>Collect internal links clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>외부 링크 클릭 수 수집</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택되지 않음</td>
-      <td>선택되지 않음</td>
+      <td>Collect external link clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>다운로드 링크 클릭 수 수집</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>선택되지 않음</td>
-      <td>선택되지 않음</td>
+      <td>Collect download links clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>이벤트 데이터를 보낼 때 다음을 자동으로 포함</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>모든 기본 컨텍스트 정보</td>
-      <td>모든 기본 컨텍스트 정보</td>
+      <td>When sending event data, automatically include</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>All default context information</td>
+      <td>All default context information</td>
     </tr>
     <tr>
-      <td>스트리밍 미디어</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>빈 값</td>
-      <td>빈 값</td>
+      <td>Streaming Media</td>
+      <td><i>existing values</i></td>
+      <td><i>existing values</i></td>
+      <td>Blank values</td>
+      <td>Blank values</td>
     </tr>
     <tr>
-      <td>데이터 스트림 구성 무시</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
-      <td>데이터 스트림 구성 일치</td>
-      <td>데이터 스트림 구성 일치</td>
+      <td>Datastream Configuration Overrides</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Match datastream configuration</td>
+      <td>Match datastream configuration</td>
     </tr>
     <tr>
-      <td>고급 설정 - Edge 기본 경로</td>
-      <td><i>기존 값</i></td>
-      <td><i>기존 값</i></td>
+      <td>Advanced Settings - Edge base path</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
       <td>ee</td>
       <td>ee</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics 확장</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Extension</strong></td>
     </tr>
     <tr>
-      <td>데이터 스트림</td>
-      <td><i>기존 값</i></td>
+      <td>Datastreams</td>
+      <td><i>existing value</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
       <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>경험 캡처 및 정의</td>
-      <td><i>기존 값</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
+      <td>Experience Capturing & Definition</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
     <tr>
-      <td>이벤트 필터링</td>
-      <td><i>기존 값</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
-      <td><i>사용자 제공</i></td>
+      <td>Event Filtering</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 >[!MORELIKETHIS]
 >

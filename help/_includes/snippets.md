@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '3333'
-ht-degree: 22%
+source-wordcount: '3384'
+ht-degree: 21%
 
 ---
 # 스니펫
@@ -89,7 +89,7 @@ ht-degree: 22%
 
 | 유형 | 설명 |
 |---|---|
-| ![Type](/help/assets/filter-type.png){width="300"} | **[!UICONTROL 유형]** 섹션을 통해 유형을 필터링할 수 있습니다. <ul><li>두 개 이상의 유형을 선택할 수 있습니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(2)**: 선택한 형식 수(하나 이상의 형식을 선택한 경우).</li><li>**1︎⃣**: 현재 필터로 만든 항목에 사용할 수 있는 형식 수입니다.</li><li>⃣3︎: 특정 유형과 연관된 항목의 수입니다.</li></ul></li></ul> |
+| ![유형](/help/assets/filter-type.png){width="300"} | **[!UICONTROL 유형]** 섹션을 통해 유형을 필터링할 수 있습니다. <ul><li>두 개 이상의 유형을 선택할 수 있습니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(2)**: 선택한 형식 수(하나 이상의 형식을 선택한 경우).</li><li>**1︎⃣**: 현재 필터로 만든 항목에 사용할 수 있는 형식 수입니다.</li><li>⃣3︎: 특정 유형과 연관된 항목의 수입니다.</li></ul></li></ul> |
 
 ## 소유자 필터 섹션 {#ownerfiltersection}
 
@@ -217,3 +217,11 @@ ht-degree: 22%
 ## 업그레이드 체크리스트 최종 단계 {#upgrade-final-step}
 
 1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
+
+
+## 초안 Content Analytics 설명서 {#draft-aca}
+
+>[!WARNING]
+>
+>이 문서는 Content Analytics 설명서 초안의 일부입니다. 모든 Content Analytics 설명서 초안은 여전히 변경될 수 있으며 이 문서의 현재 버전 또는 Content Analytics 설명서의 일부인 다른 문서에서 파생될 수 있는 법적 의무는 없습니다.
+>
