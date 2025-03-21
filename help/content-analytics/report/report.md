@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
+source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 1. **[!UICONTROL 템플릿 설정]** 대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예: **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택하세요.
 
-**[!UICONTROL Content Analytics 개요]** 프로젝트가 Workspace에서 열립니다. 프로젝트는 4개의 패널로 구성되며, 각 패널은 자유 형식 테이블 및 시각화를 제공하여 특정 질문에 답합니다.
+**[!UICONTROL Content Analytics 개요]** 프로젝트가 [Analysis Workspace](/help/analysis-workspace/home.md)에서 열립니다. 프로젝트는 4개의 [패널](/help/analysis-workspace/c-panels/panels.md)로 구성되어 있으며, 각 패널은 특정 질문에 답하기 위해 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 및 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다.
 
 * **성과가 가장 좋은 콘텐츠는 무엇입니까?**
 이 패널을 통해 어떤 경험이 참여와 전환을 유도하는지, 해당 경험에서 어떤 에셋이 있는지를 이해할 수 있습니다. 경험은 특정 시간에 캡처되는 전체 웹 페이지입니다. 경험에는 텍스트 및 여러 개의 개별 이미지 자산이 모두 포함될 수 있습니다. 에셋은 개별 이미지입니다.
@@ -85,9 +85,9 @@ ht-degree: 0%
 
    * **경험**
 
-      * **경험 CTR**: 경험 CTR을 표시하는 요약 변경 시각화.
-      * **상위 전환 경험**: 선택한 전환 지표에 따라 상위 전환 경험을 표시하는 가로 막대형 차트 시각화입니다.
-      * **성과가 가장 높은 경험**: 성과가 가장 높은 경험에 대한 자유 형식 테이블(썸네일 및 미리 보기 포함)입니다.
+      * **경험 CTR**: [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화(경험 CTR 표시)
+      * **상위 전환 경험**: 선택한 전환 지표에 따라 상위 전환 경험을 표시하는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화입니다.
+      * **가장 성과가 좋은 경험**: 가장 성과가 좋은 경험에 대한 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)([축소판](#thumbnails) 및 [미리 보기](#previews) 포함).
 
    * **자산**
 
