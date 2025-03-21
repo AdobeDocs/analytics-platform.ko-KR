@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![콘텐츠 분석 썸네일](../assets/aca-thumbnails.png)
 
-Content Analytics 차원에 대한 썸네일 표시를 구성하려면 다음 작업을 수행하십시오.
+기본적으로 관련 Content Analytics 차원에 대한 썸네일이 표시됩니다. Content Analytics 차원에 대한 썸네일 표시를 구성하려면 다음 작업을 수행하십시오.
 
 * Content Analytics 차원의 머리글 행 위로 마우스를 가져갑니다. 예: **[!UICONTROL 자산 이름]** 또는 **[!UICONTROL 경험 ID]**.
 * ![설정](/help/assets/icons/Setting.svg)을 선택합니다.
