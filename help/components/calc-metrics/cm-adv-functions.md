@@ -4,18 +4,18 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 180129837fa326f600ebc3dc5a2a54fd6c3372cb
+source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
-source-wordcount: '4542'
-ht-degree: 54%
+source-wordcount: '4659'
+ht-degree: 96%
 
 ---
 
 # 고급 함수
 
-[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다. 이 문서에서는 고급 함수의 알파벳 목록과 해당 정의를 설명합니다.
+[계산된 지표 빌더](cm-workflow/cm-build-metrics.md)를 사용하면 통계 및 수학 함수를 적용할 수 있습니다. 이 문서는 고급 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
-[구성 요소] 패널에서 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 목록 아래의 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오. 아래로 스크롤하여 **[!UICONTROL 고급 함수]** 목록을 확인합니다.
+구성 요소 패널에서 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 목록 아래에 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 이러한 기능에 액세스합니다. 아래로 스크롤하여 **[!UICONTROL 고급 함수]** 목록을 확인합니다.
 
 ## 테이블 함수 대 행 함수
 
@@ -25,11 +25,11 @@ ht-degree: 54%
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
-계산에 0을 포함할지 여부를 알려 줍니다. 때로 0은 *아무것도 없다*&#x200B;는 뜻이지만, 경우에 따라서는 중요합니다.
+계산에 0을 포함할지 여부를 알려 줍니다. 때로 0은 *아무것도 없다*&#x200B;는 뜻이지만 경우에 따라서는 중요합니다.
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 0을 포함하도록 매개 변수를 확인하지 않도록 선택할 수 있습니다.
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다.
 
 
 ## And {#and}
@@ -43,13 +43,13 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
 논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| logical_test | 하나 이상의 매개 변수가 필요하지만 매개 변수를 원하는 수만큼 사용할 수 있습니다. TRUE 또는 FALSE로 평가할 수 있는 모든 값 또는 표현식 |
+| logical_test | 하나 이상의 매개변수가 필요하지만 여러 개의 매개변수를 사용할 수 있습니다. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
 
 
 ## 대략적인 고유 개수 {#approximate_count_distinct}
@@ -63,7 +63,7 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 근사 고유 개수(차원)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(차원)]**
 
 
 선택한 차원에 대한 차원 항목의 근사 고유 개수를 반환합니다.
@@ -71,11 +71,11 @@ ht-degree: 54%
 
 | 인수 | 설명 |
 |---|---|
-| 차원 | 대략적인 개별 항목 수를 계산할 차원입니다 |
+| 차원 | 근사 고유 항목 개수를 계산하려는 차원 |
 
 ### 예
 
-이 기능의 일반적인 사용 사례는 대략적인 고객 수를 얻으려는 경우입니다.
+이 함수의 일반적인 사용 사례는 대략적인 고객 수를 얻고자 할 때입니다.
 
 
 
@@ -90,7 +90,7 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 아크코사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -98,7 +98,7 @@ ht-degree: 54%
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 원하는 각도의 코사인 (-1 ~ 1 범위) |
+| 지표 | 원하는 각도의 코사인(-1 ~ 1 범위) |
 
 
 
@@ -113,7 +113,7 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 아크사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -121,7 +121,7 @@ ht-degree: 54%
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 원하는 각도의 사인 (-1 ~ 1 범위) |
+| 지표 | 원하는 각도의 사인(-1 ~ 1 범위). |
 
 
 
@@ -136,7 +136,7 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 아크탄젠트(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -144,7 +144,7 @@ ht-degree: 54%
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 원하는 각도의 탄젠트 -1부터 1까지 |
+| 지표 | 원하는 각도의 탄젠트(-1 ~ 1 범위) |
 
 
 
@@ -159,7 +159,7 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(지표, 숫자)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(지표, 숫자)]**
 
 자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다.
 
@@ -190,7 +190,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(지표, 숫자)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(지표, 숫자)]**
 
 정규 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다.
 
@@ -219,13 +219,13 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 천정(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 반올림하려는 지표 |
+| 지표 | 반올림할 지표 |
 
 
 ## 신뢰도 {#confidence}
@@ -239,7 +239,7 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(표준화 컨테이너, 성공 지표, 제어, 유의성 임계값)]**
 
 [시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다.
 
@@ -247,24 +247,24 @@ CDF-Z(-3) ? 0.0013499
 
 | 인수 | 설명 |
 | --- | --- |
-| 표준화-컨테이너 | 테스트가 실행되는 기준(사람, 세션 또는 이벤트)입니다. |
+| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
 
 
-## 신뢰도 (하한) {#confidence-lower}
+## 신뢰도(하한) {#confidence-lower}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-lower"
->title="신뢰도 (하한)"
+>title="신뢰도(하한)"
 >abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **하한**&#x200B;을 계산합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(표준화 컨테이너, 성공 지표, 제어, 유의성 임계값)]**
 
 [시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **하한**&#x200B;을 계산합니다.
 
@@ -272,23 +272,23 @@ CDF-Z(-3) ? 0.0013499
 
 | 인수 | 설명 |
 | --- | --- |
-| 표준화-컨테이너 | 테스트가 실행되는 기준(사람, 세션 또는 이벤트)입니다. |
+| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
 
-## 신뢰도 (상한) {#confidence-upper}
+## 신뢰도(상한) {#confidence-upper}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence-interval-upper"
->title="신뢰도 (상한)"
+>title="신뢰도(상한)"
 >abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **상한**&#x200B;을 계산합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 신뢰도(정규화-컨테이너, 성공-지표, 제어, 중요도-임계값)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(표준화 컨테이너, 성공 지표, 제어, 유의성 임계값)]**
 
 [시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **상한**&#x200B;을 계산합니다.
 
@@ -296,10 +296,10 @@ CDF-Z(-3) ? 0.0013499
 
 | 인수 | 설명 |
 | --- | --- |
-| 표준화-컨테이너 | 테스트가 실행되는 기준(사람, 세션 또는 이벤트)입니다. |
+| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
 
 
 ## 코사인 {#cosine}
@@ -313,13 +313,13 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 코사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 코사인을 원하는 라디안 단위 각도 |
+| 지표 | 코사인이 필요한 라디안 단위 각도 |
 
 
 ## 세제곱근 {#cube-root}
@@ -333,7 +333,7 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 큐브 루트(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(지표)]**
 
 
 숫자의 양의 세제곱근을 반환합니다. 숫자의 세제곱근은 해당 숫자의 1/3 거듭제곱 값입니다.
@@ -341,7 +341,7 @@ CDF-Z(-3) ? 0.0013499
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 큐브 루트를 계산할 지표입니다 |
+| 지표 | 세제곱근을 계산할 지표 |
 
 
 
@@ -356,47 +356,47 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 누적(숫자, 지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(숫자, 지표)]**
 
 x열의 마지막 n개 요소 합을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다.
 
 | 인수 | 설명 |
 | --- | --- |
-| 숫자 | 합계를 반환하는 마지막 N개 행 수입니다. N &lt;= 0이면 이전의 모든 행을 사용합니다. |
-| 지표 | 누적 합계를 원하는 지표입니다. |
+| 숫자 | 합계를 반환할 마지막 N개 행. N &lt;= 0이면 이전의 모든 행을 사용합니다. |
+| 지표 | 누적 합계를 구하려는 지표. |
 
 ### 예
 
-| 날짜 | 매출 | CUMULATIVE(0, 매출) | CUMULATIVE(2, 매출) |
+| 날짜 | 매출 | CUMULATIVE(0, 수익) | CUMULATIVE(2, 수익) |
 |------|------:|--------------:|--------------:|
-| 5월 | 500달러 | 500달러 | 500달러 |
-| 6월 | 200달러 | 700달러 | 700달러 |
-| 7월 | $400 | 1100달러 | $600 |
+| 5월 | $500 | $500 | $500 |
+| 6월 | $200 | $700 | $700 |
+| 7월 | $400 | $1100 | $600 |
 
 
-## 누적 (평균) {#cumulative-average}
+## 누적(평균) {#cumulative-average}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
->title="누적 (평균)"
+>title="누적(평균)"
 >abstract="x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 누적 평균(숫자, 지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(숫자, 지표)]**
 
 x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n개 요소 또는 x를 합합니다. n &lt; 0이면 선행하는 요소를 합합니다.
 
 | 인수 | 설명 |
 | --- | --- |
-| 숫자 | 평균을 반환하는 마지막 N개 행 수입니다. N &lt;= 0이면 이전의 모든 행을 사용합니다. |
-| 지표 | 누적 평균을 구할 지표입니다. |
+| 숫자 | 평균을 반환할 마지막 N개 행. N &lt;= 0이면 이전의 모든 행을 사용합니다. |
+| 지표 | 누적 평균을 구하려는 지표. |
 
 >[!NOTE]
 >
->이 함수는 1인당 매출과 같은 비율 지표에는 작동하지 않습니다. 이 함수는 마지막 N에 대한 수입을 합하고 마지막 N에 대한 사람의 수를 합한 다음 이들을 나누는 대신 비율의 평균을 구합니다. <br/>대신 [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![나누기](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative)를 사용하십시오.
+>이 함수는 1인당 수익과 같은 요금 지표에서는 작동하지 않습니다. 이 함수는 마지막 N에 대한 수익을 합산하고 마지막 N에 대한 사람들을 합산한 다음 나누는 대신 요금의 평균을 구합니다. <br/>대신 [**[!UICONTROL CUMULATIVE(수익)]**](#cumulative) ![나누기](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(사람)]**](#cumulative)을 사용합니다.
 >
 
 
@@ -411,7 +411,7 @@ x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
 
 Equal. 출력은 0(false) 또는 1(true)입니다.
 
@@ -437,7 +437,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 지수 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -445,9 +445,9 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 ## 지수 회귀: 예측된 Y {#exponential-regression-predicted-y}
 
@@ -460,7 +460,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 지수 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -470,7 +470,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 독립 데이터로 지정할 지표. |
 | metric_Y | 종속 데이터로 지정할 지표. |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 지수 회귀: 절편 {#exponential-regression-intercept}
@@ -484,7 +484,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 지수 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -493,7 +493,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 지수 회귀: 기울기 {#exponential-regression-slope}
@@ -507,7 +507,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 지수 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -517,7 +517,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 내림 {#floor}
@@ -531,7 +531,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -551,7 +551,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 다음보다 큼()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
 
 출력은 0(false) 또는 1(true)입니다.
 
@@ -576,7 +576,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 크거나 같음()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
 
 크거나 같음. 출력은 0(false) 또는 1(true)입니다.
 
@@ -602,7 +602,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 쌍곡코사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -625,7 +625,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 쌍곡사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -645,7 +645,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 쌍곡탄젠트(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(지표)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -665,7 +665,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -673,8 +673,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| logical_test | 필수. TRUE 또는 FALSE로 평가할 수 있는 모든 값 또는 표현식 |
-| value_if_true | logical_test 인수가 TRUE로 평가되는 경우 반환할 값입니다. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| logical_test | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
+| value_if_true | logical_test 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 | value_if_false | logical_test 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
 
@@ -689,7 +689,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 보다 작음()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
 
 출력은 0(false) 또는 1(true)입니다.
 
@@ -714,7 +714,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 작거나 같음()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
 
 작거나 같음. 출력은 0(false) 또는 1(true)입니다.
 
@@ -729,7 +729,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 
 
-## 상승도 (#lift)
+## 상승도 {#lift}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -740,9 +740,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
+![효과](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(정규화-컨테이너, 성공-지표, 제어)]**
+
+제어 값과 비교한 비율의 상승도입니다.
+
 | 인수 | 설명 |
 | --- | --- |
-| 표준화-컨테이너 | 테스트가 실행되는 기준(사람, 세션 또는 이벤트)입니다. |
+| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
 
@@ -759,7 +763,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 선형 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -767,9 +771,9 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -784,7 +788,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 선형 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -794,7 +798,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -809,7 +813,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 선형 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -819,7 +823,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -834,7 +838,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 선형 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -842,7 +846,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 로그 밑 10 {#log-base-ten}
@@ -856,7 +860,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 로그 밑 10(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -864,7 +868,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 밑이 10인 로그를 구하려는 양의 실수 |
+| 지표 | 밑이 10인 로그가 필요한 양의 실수 |
 
 
 ## 로그 회귀: 상관 계수 {#log-regression-correlation-coefficient}
@@ -878,15 +882,15 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 로그 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 로그 회귀: 절편 {#log-regression-intercept}
@@ -900,7 +904,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 로그 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -908,7 +912,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -923,7 +927,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 로그 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -931,7 +935,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -946,7 +950,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 로그 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -954,7 +958,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -969,13 +973,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 자연어 로그(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(지표)]**
 
 숫자의 자연 로그를 반환합니다. 자연 로그의 밑은 상수 e (2.71828182845904)입니다. LN은 EXP 함수의 역함수입니다.
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 자연 로그를 구하려는 양의 실수 |
+| 지표 | 자연 로그가 필요한 양의 실수 |
 
 
 
@@ -990,13 +994,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(논리적)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(논리적)]**
 
 부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| 논리적 | 필수. TRUE 또는 FALSE로 평가할 수 있는 값 또는 식입니다. |
+| 논리적 | 필수. TRUE 또는 FALSE로 평가할 수 있는 값 또는 표현식 |
 
 
 
@@ -1011,7 +1015,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 같지 않음()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
 
 
 같지 않음. 출력은 0(false) 또는 1(true)입니다.
@@ -1038,7 +1042,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -1046,7 +1050,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
-| logical_test | 하나 이상의 매개 변수가 필요하지만 매개 변수를 원하는 수만큼 사용할 수 있습니다. TRUE 또는 FALSE로 평가할 수 있는 모든 값 또는 표현식 |
+| logical_test | 하나 이상의 매개변수가 필요하지만 여러 개의 매개변수를 사용할 수 있습니다. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
 
 
 >[!NOTE]
@@ -1065,7 +1069,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
 
 Pi: 3.14159... 반환
 
@@ -1081,15 +1085,15 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 거듭제곱 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -1104,7 +1108,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 거듭제곱 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE 테이블]{type="Neutral"}
@@ -1114,7 +1118,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 거듭제곱 회귀: 예측된 Y {#power-regression-predicted-y}
@@ -1128,7 +1132,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 거듭제곱 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -1136,7 +1140,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -1151,7 +1155,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 거듭제곱 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -1159,7 +1163,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -1174,15 +1178,15 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 이차 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 ## 이차 회귀: 절편 {#quadratic-regression-intercept}
 
@@ -1195,7 +1199,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 이차 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -1203,7 +1207,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 이차 회귀: 예측된 Y {#quadratic-regression-predicted-y}
@@ -1217,7 +1221,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 이차 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -1225,7 +1229,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 이차 회귀: 기울기 {#quadratic-regression-slope}
@@ -1239,7 +1243,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 이차 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -1247,7 +1251,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 
@@ -1262,15 +1266,15 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 역수 회귀: 상관 계수(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y와 상호 연관시킬 지표 |
-| metric_Y | metric_X 와 상호 연관시킬 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| metric_X | metric_Y와 관련지을 지표 |
+| metric_Y | metric_X와 관련지을 지표 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 역수 회귀: 절편 {#reciprocal-regression-intercept}
@@ -1284,7 +1288,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 역수 회귀: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -1292,7 +1296,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 역수 회귀: 예측된 Y {#reciprocal-regression-predicted-y}
@@ -1306,7 +1310,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 역수 회귀: 예측된 Y(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
@@ -1314,7 +1318,7 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## 역수 회귀: 기울기 {#reciprocal-regression-slope}
@@ -1328,7 +1332,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 역수 회귀: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE 테이블]{type="Neutral"}
 
@@ -1336,8 +1340,29 @@ Pi: 3.14159... 반환
 |---|---|
 | metric_X | 종속 데이터로 지정할 지표 |
 | metric_Y | 독립 데이터로 지정할 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
+
+
+## 샘플 분산
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-variance-estimate"
+>title="샘플 분산"
+>abstract="공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 샘플 분산의 추정치를 계산합니다. 여기서 N은 표준화 컨테이너의 개수입니다. <br/>항상 유효한&#x200B;*신뢰도 계산의 일부로 사용됩니다.* 일반적으로 이 함수는 단독으로 유용하지는 않지만 계산을 확인하거나 *수동으로* 신뢰도 계산을 수행하는 데 사용할 수 있습니다."
+
+![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 샘플 분산(정규화-컨테이너, 성공-지표)]**
+
+샘플 분산의 추정치를 계산합니다.
+
+| 인수 | 설명 |
+| --- | --- |
+| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
+| 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
+
+<!-- markdownlint-enable MD034 -->
 
 
 
@@ -1352,7 +1377,7 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 사인(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(지표)]**
 
 
 [!BADGE 행]{type="Neutral"}
@@ -1360,30 +1385,30 @@ Pi: 3.14159... 반환
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 사인을 사용할 라디안 단위 각도 |
+| 지표 | 사인이 필요한 라디안 단위 각도 |
 
 
 
 
-## T 스코어 {#t-score}
+## T 점수 {#t-score}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
->title="T 스코어"
->abstract="[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z-점수](#z-score)에 대한 별칭."
+>title="T 점수"
+>abstract="[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z 점수](#z-score)에 대한 별칭."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL T 스코어(지표, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
 
-[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z-점수](#z-score)에 대한 별칭.
+[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z 점수](#z-score)에 대한 별칭.
 
 | 인수 | 설명 |
 |---|---|
 | 지표 | T 점수를 원하는 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
 
 ## T-테스트 {#t-test}
@@ -1397,35 +1422,35 @@ Pi: 3.14159... 반환
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL T-테스트(지표, 도, 꼬리)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(지표, 도, 꼬리)]**
 
 t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | T 테스트를 수행할 지표 |
+| 지표 | T 테스트를 수행하려는 지표 |
 | 도 | 자유도 |
-| 꼬리 | T 테스트를 수행하는 데 사용할 꼬리 길이 |
+| 꼬리 | T 테스트를 수행하는 데 사용할 꼬리의 길이 |
 
 ### 세부 사항
 
-시그니처는 T-TEST(지표, 도, 꼬리)입니다. 이 식은 아래에서 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**&#x200B;을(를) 호출합니다. 이 함수는 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**&#x200B;을(를) 실행하는 **[Z-TEST](#z-test)** 함수와 유사합니다.
+서명은 T 테스트(지표, 도, 꼬리)입니다. 아래에는 간단하게 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**&#x200B;라고 적혀 있습니다. 이 함수는 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**&#x200B;를 실행하는 **[Z 테스트](#z-test)** 함수와 유사합니다.
 
-- ***m***&#x200B;은(는) 꼬리 수입니다.
-- ***n***&#x200B;은(는) 자유도이며, 행 단위로 변경되지 않는 전체 보고서의 상수여야 합니다.
-- ***x***&#x200B;은(는) T-test 통계로 종종 지표를 기반으로 하는 공식(예: **[Z-SCORE](#z-score)**)으로 표시되며 모든 행에서 평가됩니다.
+- ***m***&#x200B;은 꼬리의 개수입니다.
+- ***n***&#x200B;은 자유도이며, 보고서 전체에서 일정한 숫자여야 합니다. 즉, 행 단위로 변경되지 않아야 합니다.
+- ***x***&#x200B;는 T 테스트 통계로 종종 지표를 기반으로 하는 공식(예: **[Z-SCORE](#z-score)**)으로 표시되며 모든 행에서 평가됩니다.
 
 반환 값은 자유도 및 꼬리 수를 감안할 때 테스트 통계 x의 지각 확률입니다.
 
 ### 예
 
-1. 함수를 사용하여 이상치를 찾습니다.
+1. 이 함수를 사용하여 이상치를 찾습니다.
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. 매우 높거나 낮은 바운스 비율을 무시하도록 함수를 **[IF](#if)**&#x200B;와(과) 결합하고 다른 모든 경우에 세션을 계산하십시오.
+1. 매우 높거나 낮은 바운스 비율을 무시하려는 **[경우](#if)** 함수를 결합하여 사용하며 그 외 다른 모든 경우에 세션 수 계산:
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
@@ -1444,43 +1469,43 @@ t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 탄젠트(지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(지표)]**
 
 주어진 각도의 탄젠트를 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 탄젠트를 원하는 라디안 단위 각도 |
+| 지표 | 탄젠트가 필요한 라디안 단위 각도 |
 
 
 
-## z-점수 {#z-score}
+## Z 점수 {#z-score}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-z-score"
->title="z-점수"
+>title="Z 점수"
 >abstract="표준 편차로 나눈 평균과의 편차."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(지표, include_zeros)]**
 
 [!BADGE 행]{type="Neutral"}
 
 | 인수 | 설명 |
 |---|---|
 | 지표 | Z 점수를 원하는 지표 |
-| include_zeros | 계산에 0 값을 포함할지 여부 |
+| include_zeros | 계산에 0값을 포함할지 여부 |
 
-Z 스코어가 0(영)이면 스코어가 평균과 같음을 의미합니다. Z 스코어는 양수 또는 음수일 수 있으며, 이는 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
+Z 점수가 0(영)이면 점수가 평균과 같음을 의미합니다. Z 점수는 양수 또는 음수일 수 있으며, 이는 평균보다 큰지 또는 작은지를 표준 편차의 수로 나타냅니다.
 
-Z 스코어에 대한 방정식은 다음과 같습니다.
+Z 점수에 대한 방정식은 다음과 같습니다.
 
 ![](assets/z_score.png)
 
-여기서 ***[!DNL x]***&#x200B;은(는) 원시 점수이고, ***[!DNL μ]***&#x200B;은(는) 모집단의 평균이고, ***[!DNL σ]***&#x200B;은(는) 모집단의 표준 편차입니다.
+여기서 ***[!DNL x]***&#x200B;는 원시 점수이고, ***[!DNL μ]***&#x200B;는 인구의 평균이고 ***[!DNL σ]***&#x200B;는 인구의 표준 편차입니다.
 
 >[!NOTE]
 >
@@ -1488,24 +1513,24 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 
 
-## Z-테스트 {#z-test}
+## Z 테스트 {#z-test}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-z-test"
->title="Z-테스트"
->abstract="z-점수가 x인 n측 검증 z-테스트를 수행합니다."
+>title="Z 테스트"
+>abstract="z 점수가 x인 n측 검증 z-테스트를 수행합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-z-점수가 x인 n측 검증 z-테스트를 수행합니다.
+z 점수가 x인 n측 검증 z-테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | Z 테스트를 수행할 지표 |
+| 지표 | Z 테스트를 수행하려는 지표 |
 | 꼬리 | Z 테스트를 수행하는 데 사용할 꼬리의 길이 |
 
 >[!NOTE]
