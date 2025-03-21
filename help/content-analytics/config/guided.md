@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: e8ba272d2deb535374a47b61c22d58c4168ff50c
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -262,7 +262,7 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
   ![Content Analytics 데이터 수집 기존 태그](../assets/aca-configuration-datacollection-existingtag.png)
 
-   1. **[!UICONTROL 기존]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
    2. **[!UICONTROL Tags 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 입력을 시작하여 사용 가능한 옵션을 검색하고 제한할 수 있습니다.
 
 * 새 태그 속성을 만들려면 다음 작업을 수행하십시오.
@@ -271,16 +271,15 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
    1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 태그 이름]**(예: `ACA Test for Documentation`)을 지정하십시오.
-  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
-   1. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 도메인]**(예: `example.com`)을 지정하십시오.
 
 * 경험을 포함하도록 선택한 경우 컨텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 나타냅니다.
 
-   * **[!UICONTROL 경험]**&#x200B;에 대한 정규식을 지정하십시오. 예를 들어 Content Analytics에서 모든 문서 페이지를 제외하려면 `/^(?!.*documentation).*/`을(를) 사용하십시오. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
+   * **[!UICONTROL 포함/제외]**&#x200B;할 페이지에 대한 정규식 문자열을 지정하십시오. 예를 들어 Content Analytics에서 모든 문서 페이지를 제외하려면 `/^(?!.*documentation).*/`을(를) 사용하십시오. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
 
 * 콘텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 나타냅니다.
 
-   * **[!UICONTROL 자산]**&#x200B;에 대한 정규식을 지정하십시오. 예: `/^(?!.*(logo\.jpg|\.svg)).*$/` Content Analytics에서 모든 로고 JPEG 및 SVG 이미지를 제외합니다. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
+   * **[!UICONTROL Assets에 대해 포함/제외]**&#x200B;할 정규식 문자열을 지정하십시오. 예: `/^(?!.*(logo\.jpg|\.svg)).*$/` Content Analytics에서 모든 로고 JPEG 및 SVG 이미지를 제외합니다. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
 
 
 #### 기존 구성 {#existing-configuration}
