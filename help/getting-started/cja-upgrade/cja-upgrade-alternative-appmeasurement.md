@@ -28,7 +28,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="Web SDK를 가리키도록 AppMeasurement 논리 변경"
->abstract="이 단계는 구현 단축키를 선택했기 때문에 표시됩니다. AppMeasurement 논리를 복사하거나 변경하여 s 오브젝트 대신 데이터 오브젝트에 값을 채웁니다. 예를 들어, s.eVar1의 할당을 data로 변경합니다.__adobe.analytics.eVar1을 실행하고 모든 Analytics 변수에 대해 반복합니다."
+>abstract="이 단계는 구현 단축키를 선택했기 때문에 표시됩니다. AppMeasurement 논리를 복사하거나 변경하여 s 오브젝트 대신 데이터 오브젝트에 값을 채웁니다. 예를 들어 s.eVar1의 할당을 data로 변경합니다.__adobe.analytics.eVar1을 실행하고 모든 Analytics 변수에 대해 반복합니다."
 
 <!-- markdownlint-enable MD034 -->
 

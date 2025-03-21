@@ -19,13 +19,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="Adobe Journey Optimizer에 대한 개인화 오브젝트 사용"
->abstract="최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 개인화된 제안을 제공하고 KPI를 극대화할 수 있도록 합니다."
+>abstract="최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 맞춤형 오퍼를 제공하고 KPI를 극대화할 수 있도록 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 개인화된 제안을 제공하고 KPI를 극대화할 수 있도록 합니다.
+최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 맞춤형 오퍼를 제공하고 KPI를 극대화할 수 있도록 합니다.
 
 1. Journey Optimizer 안내서의 [개인화된 최적화 모델](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)에 있는 정보를 따르십시오.
 
