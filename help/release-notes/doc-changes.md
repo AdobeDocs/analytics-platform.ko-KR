@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4664'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 3월** | |
-| 양자 지표 사용 사례 | [Quantum 지표](/help/use-cases/third-party/quantum-metric/collect-session-id.md)에서 데이터를 수집하는 사용 사례를 추가했습니다. |
+| Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | **2025년 2월** |  |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 [Adobe Analytics의 스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만, 앞으로는 새 위치만 사용됩니다. |
 | BI 확장 - 확장된 지원 | Customer Journey Analytics BI 확장 기능은 이제 [Looker, Jupyter Notebook 및 R Studio](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)를 지원합니다. |
@@ -29,7 +29,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 사용량 지표 | 개선된 [사용 지표](/help/connections/manage-connections.md#usage) 인터페이스에 대한 설명서가 업데이트되었습니다. |
 | 제품 사용 | [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview)에서는 조직에서 Customer Journey Analytics를 어떻게 사용하는지 확인할 수 있습니다. |
 | 가이드 분석 | 가이드 분석에서 [가이드 분석](/help/guided-analysis/overview.md)을 사용할 수 있도록 설명서를 업데이트했습니다. |
-| Journey Optimizer의 보고서 페이지에서의 Customer Journey Analytics의 사용자 정의 템플릿 사용에 대한 설명서 | 이제 [Customer Journey Analytics에서 템플릿을 만들거나 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)한 다음, Journey Optimizer의 보고서 페이지에서 사용할 템플릿을 저장함으로써 Adobe Journey Optimizer에서 새 보고 인터페이스를 사용자 정의할 수 있습니다. 이전에는 Adobe Journey Optimizer에서 새 보고 인터페이스를 사용자 정의할 수 없었습니다. |
+| Journey Optimizer의 보고서 페이지에서의 Customer Journey Analytics의 사용자 정의 템플릿 사용에 대한 설명서 | 이제 [Customer Journey Analytics에서 템플릿을 만들거나 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)한 다음 Journey Optimizer의 보고서 페이지에서 사용할 템플릿을 저장함으로써 Adobe Journey Optimizer에서 새 보고 인터페이스를 사용자 정의할 수 있습니다. 이전에는 Adobe Journey Optimizer에서 새 보고 인터페이스를 사용자 정의할 수 없었습니다. |
 | Analysis Workspace의 템플릿 | 이제 Customer Journey Analytics에서 [미리 작성된 템플릿](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates) 및 [회사 템플릿](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/create-templates)을 사용할 수 있습니다. |
 | 인텔리전트 캡션 v2 | 이제 [인텔리전트 캡션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)이 여러 줄, 막대, 가로 막대, 도넛, 영역, 흐름 및 폴아웃 시각화에 대해 지원됩니다. 확장된 보기에서 모든 인텔리전트 캡션을 한 번에 표시하도록 선택할 수 있으며, 개별 인텔리전트 캡션을 하나씩 보도록 표시할 수도 있습니다. |
 
