@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
+source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 2%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -39,19 +39,9 @@ Content Analytics을 구성하기 전에 다음 전제 조건이 충족되는지
 
 * 콘텐츠 분석에 사용되는 기능 서비스에 대한 사용자 에이전트 및 IP 주소를 허용 목록에 추가했습니다. 구성할 사용자 에이전트 문자열: <code>AdobeFeatuization/1.0</code>.
 * 연결을 관리하고 데이터 보기를 관리할 수 있는 추가 권한이 있는 Customer Journey Analytics 제품 관리자 역할이 있습니다.
-* 필요한 Experience Platform 권한이 있습니다.
-
-  | 카테고리 | 사용 권한 | 설명 |
-  |---|---|---|
-  | [!UICONTROL 데이터 수집] | 데이터스트림 보기 | 데이터스트림에 대한 읽기 전용 액세스 권한. |
-  | [!UICONTROL 데이터 수집] | 데이터 스트림 관리 | 데이터 스트림을 읽기, 만들기, 편집 및 삭제할 수 있는 액세스 권한. |
-  | [!UICONTROL 데이터 모델링] | [!UICONTROL 스키마 보기] | 스키마 및 관련 리소스에 대한 읽기 전용 액세스 권한. |
-  | [!UICONTROL 데이터 모델링] | [!UICONTROL 스키마 관리] | 스키마 및 관련 리소스를 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한. |
-  | [!UICONTROL 데이터 관리] | [!UICONTROL 데이터 세트 보기] | 데이터 세트 및 스키마에 대한 읽기 전용 액세스 권한. |
-  | [!UICONTROL 데이터 관리] | [!UICONTROL 데이터 세트 관리] | 데이터 세트 읽기, 만들기, 편집 및 삭제에 대한 액세스 권한. 스키마에 대한 읽기 전용 액세스 권한. |
-  | [!UICONTROL 데이터 수집] | [!UICONTROL 소스 관리] | 소스를 읽고, 만들고, 편집하고, 비활성화할 수 있는 액세스 권한. |
-  | [!UICONTROL Identity Management] | [!UICONTROL ID 네임스페이스 보기] | ID 네임스페이스에 대한 읽기 전용 액세스 권한. |
-
+* 데이터 수집에 대한 [권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}이 있어야 합니다. 이러한 권한은 다음으로 구성됩니다.
+   * [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Experience Platform 데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
 * 다음과 같은 중요한 구성 옵션을 신중하게 고려했습니다.
 
    * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때만 가능합니다.
