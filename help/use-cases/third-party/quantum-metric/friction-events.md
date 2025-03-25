@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: e6a77e75963fb43041c0533a28a9563a3849b8b0
+exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
+source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,8 @@ ht-degree: 0%
 # Customer Journey Analytics에 양자 지표 마찰 이벤트 추가
 
 Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 클릭 수 등과 같은 마찰 이벤트를 수집합니다. 이러한 이벤트는 사용자 여정에서 보조 이벤트로 Customer Journey Analytics에 전달할 수 있습니다. 이렇게 결합된 데이터를 사용하면 마찰이 다운스트림 지표에 미치는 영향을 더 잘 이해할 수 있습니다.
+
+## 전제 조건:
 
 이 사용 사례에는 두 가지 요구 사항이 있습니다.
 
