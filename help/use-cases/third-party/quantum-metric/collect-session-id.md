@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
+source-git-commit: 255f06ba504a0fa189a02966c5d3c63e1a4fadfd
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 [양자 지표 세션 재생 연결](tie-session-replays.md) 또는 [양자 지표 히트맵 사용](heatmap.md)과 같은 일부 사용 사례에서는 양자 지표 세션 ID를 수집하도록 구현을 수정해야 합니다. 이 페이지에서는 해당 데이터를 기존 구현으로 성공적으로 가져오는 프로세스에 대해 간략하게 설명합니다.
 
+## 사전 요구 사항
+
 다음 단계에서는 Adobe Experience Platform 데이터 수집에서 태그를 사용한다고 가정합니다. 조직에서 태그를 사용하지 않는 경우 이러한 데이터 수집 방법을 수동 웹 SDK 구현에 적용할 수 있습니다.
 
-## 1단계: Quantum 지표 태그 확장을 사용하여 Quantum 지표 세션 ID 캡처
+### 1단계: Quantum 지표 태그 확장을 사용하여 Quantum 지표 세션 ID 캡처
 
 다음 단계에 따라 Adobe Experience Platform으로 전송하는 데이터에 양자 지표 세션 ID를 추가합니다.
 
@@ -37,11 +39,11 @@ ht-degree: 0%
 
 자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
 
-## 2단계: 포함된 데이터 세트 필드 확인
+### 2단계: 포함된 데이터 세트 필드 확인
 
 이제 연결의 데이터 세트에 원하는 데이터 세트에 양자 지표 세션 ID가 있는지 확인합니다.
 
-## 3단계: Quantum 지표 세션 ID를 사용 가능한 차원으로 추가
+### 3단계: Quantum 지표 세션 ID를 사용 가능한 차원으로 추가
 
 기존 데이터 보기를 편집하여 세션 ID를 Customer Journey Analytics에서 사용 가능한 차원으로 추가합니다.
 
