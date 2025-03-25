@@ -7,10 +7,10 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
+source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '407'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,6 @@ Quantum 지표의 히트맵 기능에 액세스하려면 Quantum 지표의 **UX 
 
 ## Customer Journey Analytics 내의 링크를 클릭하여 Heatmap 보기
 
-열 매핑을 탐색할 페이지가 발견되면 URL이 포함된 패널에 적용할 수 있습니다. 이 표에서는 해당 페이지의 히트맵, 스크롤 깊이 및 상호 작용을 위한 키 영역을 탐색할 수 있는 URL을 반환합니다.  [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)에서 Quantum Metric Heatmap에 대해 자세히 알아보십시오.
+열 매핑을 탐색할 페이지가 발견되면 URL이 포함된 패널에 적용할 수 있습니다. 이 표에서는 해당 페이지의 히트맵, 스크롤 깊이 및 상호 작용을 위한 키 영역을 탐색할 수 있는 URL을 반환합니다.  [https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)에서 Quantum Metric Heatmap에 대해 자세히 알아보십시오.  추가 리소스는 Quantum Metric 고객 지원 담당자에게 문의하거나 Quantum Metric [고객 요청 포털](https://community.quantummetric.com/s/public-support-page)을 통해 요청을 제출하십시오.
 
 
