@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 94dad68426a08ffa34ded7905567fbea307b1de4
+source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -46,5 +46,5 @@ Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum �
 ## 2단계 Customer Journey Analytics에서 세션 보기
 
 클릭 가능한 링크로 Workspace 보고서를 만들면, Customer Journey Analytics의 필터를 사용하여 Quantum 지표에서 추가 분석할 수 있는 흥미로운 세션을 식별할 수 있습니다.
-이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)에서 Quantum 지표 세션 재생에 대해 자세히 알아보세요.
+이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)에서 Quantum 지표 세션 재생에 대해 자세히 알아보세요. 추가 리소스는 Quantum Metric 고객 지원 담당자에게 문의하거나 Quantum Metric [고객 요청 포털](https://community.quantummetric.com/s/public-support-page)을 통해 요청을 제출하십시오.
 
