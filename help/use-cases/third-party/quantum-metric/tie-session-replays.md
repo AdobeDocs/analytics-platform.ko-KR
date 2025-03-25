@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
+source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,11 @@ Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum �
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-이제 각 세션 ID를 클릭 가능한 링크로 지정할 수 있습니다. 이러한 링크를 통해 새 탭에 있는 Quantum 지표로 이동하여 해당 특정 세션을 보다 자세히 분석할 수 있습니다. Analysis Workspace 차원 항목에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 [자유 형식 테이블에 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.
+이제 각 세션 ID를 클릭 가능한 링크로 지정할 수 있습니다. Analysis Workspace 차원 항목에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 [자유 형식 테이블에 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.
 
 ## 2단계 Customer Journey Analytics에서 세션 보기
 
-클릭 가능한 링크로 Workspace 보고서를 만들면, Customer Journey Analytics의 필터를 사용하여 Quantum 지표에서 추가 분석할 수 있는 흥미로운 세션을 식별할 수 있습니다.
-이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 QM에서 더 자세히 탐색할 수 있습니다.  [https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)에서 Quantum 지표 세션 재생에 대해 자세히 알아보세요. 추가 리소스는 Quantum Metric 고객 지원 담당자에게 문의하거나 Quantum Metric [고객 요청 포털](https://community.quantummetric.com/s/public-support-page)을 통해 요청을 제출하십시오.
+세션 재생을 탐색할 관심 있는 세그먼트를 찾으면 세션 ID 링크가 포함된 패널에 적용하고 세그먼트별로 필터링할 수 있습니다. 이 테이블은 해당 세그먼트의 모든 세션을 반환하며, 이러한 세션 중 하나를 클릭하여 양자 지표에서 자세히 탐색할 수 있습니다.
+
+[https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)에서 Quantum 지표 세션 재생에 대해 자세히 알아보세요. 추가 리소스는 Quantum Metric 고객 지원 담당자에게 문의하거나 Quantum Metric [고객 요청 포털](https://community.quantummetric.com/s/public-support-page)을 통해 요청을 제출하십시오.
 
