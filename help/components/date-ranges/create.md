@@ -4,7 +4,7 @@ description: 보고에 사용할 날짜 범위를 만듭니다.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 6e4f23d65a620104cfbd36fc9b4ccd06146f143c
+source-git-commit: 3f9c185c86f2ae2727881d0d74ca54815867adb1
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 37%
@@ -18,12 +18,12 @@ ht-degree: 37%
 
 ![주석 만들기](assets/create-date-range.png)
 
-* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
-* **B**. Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 이 날짜 범위까지의 사용자 지정 날짜 범위]**&#x200B;를 선택합니다.
-* **C**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위 만들기]**&#x200B;를 선택합니다.
-* **일**. Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+d]**(Windows) 또는 **[!UICONTROL shift+command+d]**(macOS)을 사용합니다.
-* **E**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![달력](/help/assets/icons/Calendar.svg) **날짜 범위**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
-* **F**. 선 시각화와 같은 지원되는 시각화에서는 데이터 요소의 상황에 맞는 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
+* **A** - 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+* **B** - Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 이 날짜 범위에 대한 사용자 지정 날짜 범위]**&#x200B;를 선택합니다.
+* **C** - Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위 만들기]**&#x200B;를 선택합니다.
+* **D** - Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+d]**(Windows) 또는 **[!UICONTROL shift+command+d]**(macOS)를 사용합니다.
+* **전자** - Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![달력](/help/assets/icons/Calendar.svg) **날짜 범위**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* **F** - 선 시각화와 같은 지원되는 시각화에서 데이터 요소의 상황에 맞는 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
 
 주석을 정의하려면 [[!UICONTROL 날짜 범위 빌더]](#annotation-builder)를 사용합니다.
 
