@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
@@ -20,31 +20,31 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-이 문서에서는 Content Analytics 구성을 활성화 또는 비활성화하거나 Content Analytics 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
+이 문서에서는 Content Analytics 구성의 데이터 수집을 시작 또는 중지하거나 Content Analytics 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
 
 다음과 같은 수동 구성 작업을 사용할 수 있습니다.
 
-## 활성화
+## 데이터 수집 시작
 
-새 구성 또는 기존 구성에 대한 변경 사항을 활성화하려면 다음을 수행합니다.
+구현된 Content Analytics 구성에 대한 데이터 수집을 시작하려면 다음을 수행하십시오.
 
-1. [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을 따라야 합니다. Content Analytics 구성이 포함된 Tags 속성에 대한 라이브러리를 게시했습니다.
+1. [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을(를) 따릅니다. Content Analytics 구성이 포함된 Tags 속성에 대한 라이브러리를 게시했습니다.
 
-1. 개발, 스테이징 또는 게시 환경에서 Content Analytics에 따라 페이지의 `<head>` 요소에 포함된 코드를 [설치](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)해야 합니다.
+1. 개발, 스테이징 또는 게시 환경에 있는 페이지의 `<head>` 요소에 포함된 코드를 Content Analytics에 따라 [설치](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)합니다.
 
 
-## 비활성화
+## 데이터 수집 중지
 
-컨텐츠 분석 데이터 컬렉션을 비활성화하려면 다음 작업을 수행하십시오.
+구현된 Content Analytics 구성에 대한 데이터 수집을 중지하려면 다음을 수행하십시오.
 
 1. 개발, 스테이징 또는 프로덕션 환경에서 Content Analytics에 따라 페이지의 `<head>` 요소에서 [포함된 코드](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments)을(를) 제거합니다.
 1. Content Analytics 구성에 연결된 태그 속성을 [삭제](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)합니다.
 
 
 
-## 수정
+## 데이터 수집 수정
 
-[안내가 있는 구성 마법사](guided.md)를 사용하여 구현한 구성을 약간 변경할 수 있습니다. 예를 들어 데이터 보기를 변경합니다.
+[안내가 있는 구성 마법사](guided.md)를 사용하여 구현한 구성을 약간 변경할 수 있습니다. 예를 들어 데이터 보기를 변경하거나 경험을 활성화 또는 비활성화합니다.
 
 Content Analytics 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 다음 아티팩트를 변경합니다.
 
@@ -57,14 +57,14 @@ Content Analytics 구성과 연결된 Tags 속성에서 [Adobe Content Analytics
 
 * [경험 캡처 및 정의](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
-  정규 표현식을 편집하여 방법을 수정할 수 있습니다.
+  경험을 활성화 또는 비활성화하고 정규 표현식과 쿼리 매개 변수의 조합을 편집하여 웹 사이트에서 콘텐츠가 렌더링되는 방식을 결정할 수 있습니다.
 
 * [이벤트 필터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
 
   정규 표현식을 편집하여 페이지 및 에셋을 필터링하는 방법을 수정할 수 있습니다.
 
 
-Adobe Content Analytics 확장을 변경한 후 [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 변경 내용을 활성화하십시오.
+Adobe Content Analytics 확장을 변경한 후 [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 변경 내용에 따라 데이터 수집을 시작하십시오.
 
 
 

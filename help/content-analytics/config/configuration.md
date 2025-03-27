@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Content Analytics의 구성은 다음 단계로 구성됩니다.
 
 1. Content Analytics [구성 가이드](guided.md) 마법사를 사용하여 Content Analytics 구성에 대한 필수 구성 요소를 설정하는 데 필요한 모든 단계를 안내합니다. 언제든지 구성을 저장하고 나중에 돌아갈 수 있습니다.
 1. 구성 값에 익숙해지면 구성을 구현할 수 있습니다. 이 구현은 마법사에서 구성한 내용을 기반으로 필요한 모든 아티팩트를 만듭니다.
-1. Tags 속성을 [수동으로 게시](manual.md)하는 경우에만 Content Analytics 구성이 효과적으로 배포되고 활성화됩니다.
+1. Tags 속성을 [수동으로 게시](manual.md)하는 경우에만 Content Analytics 구성이 효과적으로 배포되고 데이터 수집이 시작됩니다.
 
 1. [안내가 있는 구성](guided.md) 마법사를 사용하여 구현된 구성에 일부 부분만 변경할 수 있습니다. 예를들어 [데이터 보기](/help/data-views/data-views.md)를 변경합니다.
 1. 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 구현된 구성에 다른 변경 작업을 수행할 수 있습니다.
-1. Tags 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 구성 수정 사항이 효과적으로 배포되고 활성화됩니다.
+1. Tags 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 구성 수정 사항이 효과적으로 배포되고 변경 사항에 따른 데이터 수집이 시작됩니다.
 
 
 ## 사전 요구 사항

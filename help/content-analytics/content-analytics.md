@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Content Analytics은 증가하는 수준에서 가치를 제공합니다.
 
 Content Analytics에서는 다음 주요 용어를 사용합니다.
 
-![Assets 및 경험](/help/content-analytics/assets//content-analytics-experience-asset.png)
+![Assets 및 경험](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **경험**: 경험은 웹 페이지를 방문한 초기 사용자가 사용하는 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다. 각 경험은 고유한 식별자를 가져옵니다.
-* **에셋**: 에셋은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 에셋은 고유 식별자도 가져옵니다.
+* **경험**: 경험은 웹 페이지를 방문한 초기 사용자가 사용하는 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다. 각 경험은 고유한 식별자를 가져옵니다. 페이지를 변경하면 페이지의 HTML이 변경되어 새로운 경험이 생성됩니다.
+* **에셋**: 에셋은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 에셋은 고유 식별자 및 가시 범위 ID도 가져옵니다. 가시 범위 ID는 시각적으로 동일한 에셋과 공유되는 식별자입니다. 가시 범위 ID는 서로 다른 에셋 URL 및 이에 대한 서로 다른 에셋 ID를 가질 수 있지만 지각 적으로는 동일한 에셋을 중복 제거하는 데 도움이 됩니다.
 * **특성**: 특성은 경험 또는 자산과 연결된 설명 메타데이터 요소입니다. 속성의 예로는 사진 스타일, 가독성, 설득 전략, 개체 색상, 배경색이 있습니다.
 
 ## 작동 방식
@@ -52,7 +52,7 @@ Content Analytics은 Experience Platform의 이벤트 데이터 세트에 수집
 ![콘텐츠 분석 - 작동 방식](assets/aca-overview.gif)
 
 
-1. 사용자가 Content Analytics에 대해 구성된 [사이트](config/configuration.md)를 방문하면 Experience Platform Web SDK은 콘텐츠와의 상호 작용을 기록합니다.
+1. 사용자가 Content Analytics에 대해 구성된 [사이트](config/configuration.md)를 방문하면 Experience Platform Web SDK은 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
 1. ID 및 기능 서비스는 이러한 상호 작용을 처리합니다. 이 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 재방문하는 크롤러로 구성됩니다. 이렇게 크롤링된 모든 URL에 대해 ID 서비스는 경험 및 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험과 에셋 메타데이터 및 속성을 검색합니다.
 1. 이러한 서비스의 결과([구성 요소, 특성 및 ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 콘텐츠 분석 데이터 세트를 업데이트하는 데 사용됩니다.
 1. 컨텐츠 분석 데이터는 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 사용할 수 있습니다. 해당 설정은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 제공하는 기반을 제공합니다. <br/>[Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 Content Analytics 보고서 및 분석을 바로 시작할 수 있습니다.

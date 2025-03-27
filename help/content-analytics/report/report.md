@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   | 경험 미리보기 | 에셋 미리보기 |
   |---|---|
   | ![Content Analytics 경험 미리 보기](../assets/aca-experience-preview.png) | ![Content Analytics 자산 미리 보기](../assets/aca-asset-preview.png) |
-  | **[!UICONTROL 경험 이름]** | **[!UICONTROL 에셋 이름]** |
+  | 차원 이름(예: **[!UICONTROL 경험 ID])** | 에셋 차원의 이름(예: **[!UICONTROL 에셋 ID])** |
   | **[!UICONTROL 노출 횟수(항상)]**: 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(항상)]**: 에셋의 노출 횟수. |
   | **[!UICONTROL Assets]**: 이 경험에 포함된 에셋 수입니다. <br/>자산을 검사하려면 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택하십시오. | **[!UICONTROL 경험]**: 이 자산이 표시되는 경험 수입니다. <br/>자산을 검사하려면 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택하십시오. |
   | **[!UICONTROL 첫 노출]**: 경험의 첫 노출 날짜입니다. | **[!UICONTROL 첫 노출]**: 에셋의 첫 노출 날짜입니다. |
@@ -83,7 +83,12 @@ ht-degree: 0%
 
   패널은 다음 시각화로 구성됩니다.
 
-   * **경험**
+   * **경험**.
+
+     >[!NOTE]
+     >
+     >이러한 시각화는 Content Analytics 구성에 [포함된 경험](/help/content-analytics/config/guided.md#experience-capture-and-definition)이 있는 경우에만 표시됩니다.
+     > 
 
       * **경험 CTR**: [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화(경험 CTR 표시)
       * **상위 전환 경험**: 선택한 전환 지표에 따라 상위 전환 경험을 표시하는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화입니다.
@@ -117,7 +122,13 @@ Content Analytics은 AI 및 GenAI를 사용하여 주제, 장면, 전경색 등�
 단일 자산 특성 범주(전경색)의 항목 성능을 비교하는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 예입니다. 이 자산 속성을 다른 자산 속성 범주 차원으로 바꿀 수 있습니다.
 
 * **전환에 기여하는 경험 특성은 무엇입니까?**
-자산 속성은 이미지의 시각적 품질에 중점을 두는 반면 경험 속성은 페이지 텍스트에 중점을 둡니다. 아래 시각화를 통해 전환에 기여하는 경험 속성을 살펴볼 수 있습니다. 이러한 속성은 AI 및 GenAI 모델을 사용하여 자동으로 지정됩니다.
+
+  >[!NOTE]
+  >
+  >이 패널은 Content Analytics 구성에 [포함된 경험](/help/content-analytics/config/guided.md#experience-capture-and-definition)이 있는 경우에만 표시됩니다.
+  > 
+
+  자산 속성은 이미지의 시각적 품질에 중점을 두는 반면 경험 속성은 페이지 텍스트에 중점을 둡니다. 아래 시각화를 통해 전환에 기여하는 경험 속성을 살펴볼 수 있습니다. 이러한 속성은 AI 및 GenAI 모델을 사용하여 자동으로 지정됩니다.
 
   패널은 다음 시각화로 구성됩니다.
 
