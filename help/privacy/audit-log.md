@@ -4,10 +4,10 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
+source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 60%
+source-wordcount: '953'
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 60%
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 로그 수집을 수동으로 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](../technotes/access-control.md)를 참조하세요.
+감사 로그를 보고 내보내려면 Adobe Console의 **[!UICONTROL 감사 로그 액세스]** 액세스 제어 권한이 필요합니다. Customer Journey Analytics 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 문서](../technotes/access-control.md)를 참조하십시오.
 
 ## UI에서 감사 로그 보기
 
@@ -68,7 +68,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
    * CREATE: &quot;만들기&quot; 작업이 수행되었습니다.
    * DELETE: &quot;삭제&quot; 작업이 수행되었습니다.
    * EDIT: &quot;편집&quot; 작업이 수행되었습니다.
-   * 금지:
+   * EMBARGO: [보고 활동 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)에서 요청을 제한하면 작업이 EMBARGO 아래의 감사 로그에 기록됩니다.
    * 내보내기: &quot;내보내기&quot; 작업이 수행되었습니다.
    * ORG_CHANGE: 조직 변경 작업이 수행되었습니다.
    * 새로 고침: &quot;새로 고침&quot; 작업이 수행되었습니다.
