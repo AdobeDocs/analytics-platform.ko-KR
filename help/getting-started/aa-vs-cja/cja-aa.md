@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
-workflow-type: ht
-source-wordcount: '2418'
-ht-degree: 100%
+source-git-commit: 916afd0d70f2690df61dde70f46f63e78d62b21a
+workflow-type: tm+mt
+source-wordcount: '2459'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
 | **데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능** | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | **모든 유형의 데이터 수용** | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
 | **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 CJA를 PowerBI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 CJA 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이렇게 하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 CJA에 대한 BI 보고를 얻을 수 있습니다. |
+| **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics)은(는) 콘텐츠가 비즈니스에서 정의한 주요 성능 지표에 미치는 영향을 마케터가 이해할 수 있도록 도와줍니다. 동작 데이터 위에 Content Analytics은 컨텐츠가 사용되는 방식과 컨텐츠가 영향을 미치는 방식에 대한 데이터를 수집합니다. |
 | **Cross-Device Analytics** | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
 | **차원 개선 사항** | Customer Journey Analytics는 차원을 사용할 때 더 큰 유연성을 자랑합니다. <ul><li>**사용자 정의 숫자 기반 차원**: [데이터 보기 내에서 숫자 기반 차원을 직접 만듭니다](/help/data-views/create-dataview.md#components).</li><li>**문자열 기반 차원 정렬**: [자유 형식 테이블에서 문자열 기반 차원을 알파벳순으로 정렬합니다.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>Adobe Analytics에서는 소수의 기본 제공 숫자 차원만 사용할 수 있었으며 문자열 기반 차원별로 정렬하는 것은 불가능했습니다.</p> |
 | **파생 필드** | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 이러한 변환은 모든 보고에 소급 적용됩니다. |
