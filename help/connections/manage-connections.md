@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics에서 연결을 관리하는 방법 알아보기
-description: Customer Journey Analytics(Customer Journey Analytics)의 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
+description: Customer Journey Analytics(Customer Journey Analytics)에서 Experience Platform 데이터 세트에 대한 연결을 관리하는 방법을 설명합니다.
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 7f2f2fc92c188c4cdfba7d87b7b64458daf2f0a6
 workflow-type: tm+mt
-source-wordcount: '4023'
-ht-degree: 26%
+source-wordcount: '4143'
+ht-degree: 25%
 
 ---
 
@@ -133,14 +133,14 @@ ht-degree: 26%
 | 데이터 세트 선택기 | 연결 안에 있는 한 개의 데이터 세트 또는 모든 데이터 세트를 선택할 수 있습니다. 다수의 데이터 세트를 선택할 수는 없습니다. 기본값은 [!UICONTROL 모든 데이터 세트]로 설정되어 있습니다. |
 | 날짜 범위 선택기 | 시작 날짜, 종료 날짜를 편집하거나 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 날짜 범위 선택기를 엽니다. 날짜 범위 선택기에서 미리 정의된 기간(예: **[!UICONTROL 최근 6개월]**) 중 하나를 사용하여 날짜 범위를 선택하거나 달력을 사용하여 시작 및 종료 날짜를 선택합니다. 새 날짜 범위를 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택하세요. |
 | [!UICONTROL 사용 가능한 이벤트 데이터 레코드] | 보고에 사용할 수 있는 총 이벤트 데이터 세트 행 수, 전체 연결에 대해 **개**. 이 수는 어떠한 달력 설정과도 관련이 없습니다. 카운트는 데이터 세트 선택기에서 또는 표에서 데이터 세트를 선택하면 변경됩니다. 데이터가 추가되면 보고에 데이터를 표시하는 데 1~2시간의 지연 시간이 있습니다. |
-| [!UICONTROL 지표] | 추가, 생략 및 삭제된 이벤트, 조회, 프로필 및 요약 데이터 세트 레코드와 추가된 배치 수를 요약합니다. 이 지표는 **선택한 데이터 세트 및 날짜 범위**&#x200B;를 기반으로 합니다.<p>**[!UICONTROL 세부 정보 확인]**&#x200B;을 선택하여 **[!UICONTROL 건너뛴 세부 정보 확인]** 팝업을 표시합니다. 팝업에 건너뛴 레코드 수와 모든 이벤트 데이터 세트 또는 선택한 데이터 세트에 대한 이유가 나열됩니다.<p><img src="./assets/skipped-records.png" width="500"/><p>자세한 정보가 포함된 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 팝업을 선택하십시오. [!UICONTROL 빈 방문자 ID]와 같은 일부 건너뛴 이유로 팝업에 [쿼리 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)에서 데이터 집합에서 건너뛴 레코드를 쿼리하는 데 사용할 수 있는 EQS(쿼리 서비스에 대한 Experience Platform)에 대한 샘플 PSQL이 표시됩니다. SQL을 복사하려면 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL EQS에 대한 샘플 PSQL 복사]**&#x200B;를 선택하십시오. |
+| [!UICONTROL 지표] | 추가, 생략 및 삭제된 이벤트, 조회, 프로필 및 요약 데이터 세트 레코드와 추가된 배치 수를 요약합니다. 이 지표는 **선택한 데이터 세트 및 날짜 범위**&#x200B;를 기반으로 합니다.<p>**[!UICONTROL 세부 정보 확인]**&#x200B;을 선택하여 **[!UICONTROL 건너뛴 세부 정보 확인]** 팝업을 표시합니다. 팝업에 건너뛴 레코드 수와 모든 이벤트 데이터 세트 또는 선택한 데이터 세트에 대한 이유가 나열됩니다.<p><img src="./assets/skipped-records.png" width="500"/><p>자세한 정보가 포함된 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 팝업을 선택하십시오. [!UICONTROL 빈 방문자 ID]와 같은 일부 건너뛴 이유로 팝업에 [쿼리 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)에서 데이터 집합에서 건너뛴 레코드를 쿼리하는 데 사용할 수 있는 EQS(Experience Platform for Query Service)에 대한 샘플 PSQL이 표시됩니다. SQL을 복사하려면 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL EQS에 대한 샘플 PSQL 복사]**&#x200B;를 선택하십시오. |
 | [!UICONTROL 추가된 레코드] | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 추가되었는지 나타냅니다. 10분마다 업데이트됩니다. |
 | [!UICONTROL 생략된 레코드] | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 생략되었는지 나타냅니다. 기록 생략의 이유에는 타임스탬프 누락, 누락된 또는 잘못된 개인 ID 등이 포함됩니다. 10분마다 업데이트됩니다. <p>잘못된 개인 ID(예: `undefined` 또는 `00000000` 또는 [!UICONTROL 개인 ID]에 있는 지정된 달에 1백만 번 이상 이벤트에 나타나는 숫자 및 문자의 조합)는 특정 사용자 또는 개인의 특성을 가질 수 없는 ID입니다. 이러한 행은 시스템으로 수집될 수 없으며 오류 유발 수집 및 보고를 초래할 수 있습니다. 잘못된 개인 ID를 수정할 수 있는 세 가지 방법이 있습니다.<ul><li>[결합](/help/stitching/overview.md)을 사용하여 정의되지 않은 또는 모두 영으로 된 사용자 ID를 올바른 사용자 ID로 채웁니다.</li><li>사용자 ID를 지우면 해당 ID는 수집 중에 키핑됩니다(잘못된 또는 모두 영으로 된 사용자 ID보다 선호됨).</li><li>데이터를 수집하기 전에 사용자의 시스템 내에서 모든 잘못된 사용자 ID를 수정합니다.</li></ul> |
-| [!UICONTROL 레코드] 삭제됨 | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 삭제되었는지 나타냅니다. 예를 들어 누군가가 [!DNL Experience Platform]에서 데이터 세트를 삭제했을 수 있습니다. 10분마다 업데이트됩니다.<p>일부 시나리오에서 이 값에는 결합 또는 일부 조회 데이터 세트 업데이트와 같이 대체된 레코드도 포함될 수 있습니다. 다음 예를 생각해 보십시오.</p><ul><li>한 개의 레코드를 XDM 개별 프로필 데이터 세트에 업로드합니다. 해당 Customer Journey Analytics은 프로필 조회 데이터로 수집하도록 구성됩니다. 연결 세부 정보에서 이 데이터 세트에는 추가된 레코드 1개가 표시됩니다.</li><li>이제 두 개의 레코드가 포함된 동일한 AEP 데이터 세트에 원본 레코드의 중복을 업로드합니다. Customer Journey Analytics은 프로필 조회 데이터 세트에서 추가 레코드를 수집합니다. 해당 개인 ID에 대한 연결에서 프로필 레코드를 이미 수집했음을 확인하고, Customer Journey Analytics에서 이전 버전을 삭제하고 새 프로필 데이터를 추가합니다. Customer Journey Analytics은 수집된 개인 ID에 대한 최신 프로필 조회 데이터만 유지하므로 연결 세부 정보에서 이 작업은 추가된 1개 레코드 및 삭제된 1개 레코드를 나타냅니다.</li><li>전체적으로 AEP 데이터 세트에는 동일한 두 개의 레코드가 포함되어 있습니다. 별도로 Customer Journey Analytics 연결 세부 정보에 수집된 데이터의 상태가 표시됩니다. 이 프로필 데이터 세트에 대해 추가된 레코드 2개와 삭제된 레코드 1개가 표시됩니다. </li></ul> |
-| ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _데이터 세트 이름 또는 ID 검색_ | 데이터 세트 검색 필드. 데이터 세트 이름 또는 [!UICONTROL 데이터 세트 ID](으)로 데이터 세트 테이블을 검색할 수 있습니다. |
+| [!UICONTROL 레코드] 삭제됨 | 선택된 기간 내에 **선택한 데이터 세트 및 날짜 범위**&#x200B;에 대해 얼마나 많은 행이 삭제되었는지 나타냅니다. 예를 들어 누군가가 [!DNL Experience Platform]에서 데이터 세트를 삭제했을 수 있습니다. 10분마다 업데이트됩니다.<p>일부 시나리오에서 이 값에는 결합 또는 일부 조회 데이터 세트 업데이트와 같이 대체된 레코드도 포함될 수 있습니다. 다음 예를 생각해 보십시오.</p><ul><li>한 개의 레코드를 XDM 개별 프로필 데이터 세트에 업로드합니다. Customer Journey Analytics은 이 데이터를 프로필 조회 데이터로 수집하도록 구성됩니다. 연결 세부 정보에서 이 데이터 세트에는 추가된 레코드 1개가 표시됩니다.</li><li>이제 두 개의 레코드가 포함된 동일한 AEP 데이터 세트에 원본 레코드의 중복을 업로드합니다. Customer Journey Analytics은 프로필 조회 데이터 세트에서 추가 레코드를 수집합니다. 해당 개인 ID에 대한 연결에서 프로필 레코드를 이미 수집했음을 확인하고 Customer Journey Analytics에서 이전 버전을 삭제하고 새 프로필 데이터를 추가합니다. Customer Journey Analytics은 수집된 개인 ID에 대한 최신 프로필 조회 데이터만 유지하므로 연결 세부 정보에서 이 작업은 추가된 1개 레코드, 삭제된 1개 레코드를 나타냅니다.</li><li>전체적으로 AEP 데이터 세트에는 동일한 두 개의 레코드가 포함되어 있습니다. 별도로 Customer Journey Analytics 연결 세부 정보에 수집된 데이터의 상태가 표시됩니다. 이 프로필 데이터 세트에 대해 추가된 레코드 2개와 삭제된 레코드 1개가 표시됩니다. </li></ul> |
+| ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _데이터 세트 이름 또는 ID 검색_ | 데이터 세트 검색 필드. 데이터 세트 이름 또는 [!UICONTROL 데이터 세트 ID]&#x200B;(으)로 데이터 세트 테이블을 검색할 수 있습니다. |
 | [!UICONTROL 데이터 세트 테이블] | 연결에 포함된 데이터 세트입니다. |
-| [!UICONTROL 데이터 세트] | 연결에 포함된 데이터 세트의 이름입니다. 하이퍼링크를 선택하여 Experience Platform UI의 데이터 세트를 새 탭에서 열 수 있습니다. 행 또는 확인란을 선택하여 선택한 데이터 세트에 대한 세부 사항만 표시할 수 있습니다. |
-| [!UICONTROL 데이터 세트 ID] | Experience Platform에 의해 자동으로 생성됩니다. |
+| [!UICONTROL 데이터 세트] | 연결에 포함된 데이터 세트의 이름입니다. 하이퍼링크를 선택하여 새 탭에서 Experience Platform UI의 데이터 세트를 열 수 있습니다. 행 또는 확인란을 선택하여 선택한 데이터 세트에 대한 세부 사항만 표시할 수 있습니다. |
+| [!UICONTROL 데이터 세트 ID] | Experience Platform에서 자동으로 생성됩니다. |
 | [!UICONTROL 추가된 레코드] | 선택한 시간 간격 동안 연결에 추가된 데이터 세트 레코드(행) 수입니다. |
 | [!UICONTROL 생략된 레코드] | 선택한 시간 간격 동안 연결을 위한 데이터 전송 중 건너뛴 데이터 세트 레코드(행) 수입니다. |
 | [!UICONTROL 삭제된 레코드] | 선택한 시간 간격 동안 연결에서 제거된 데이터 세트 레코드(행) 수입니다. |
@@ -148,7 +148,7 @@ ht-degree: 26%
 | [!UICONTROL 마지막으로 추가됨] | 연결에 추가된 데이터 세트에서 최신 일괄 처리의 타임스탬프. |
 | [!UICONTROL 데이터 소스 유형] | 데이터 세트의 소스 유형입니다. 연결을 만들 때 소스 유형을 정의합니다. |
 | [!UICONTROL 데이터 세트 유형] | 이 데이터 세트의 데이터 세트 유형입니다. 유형은 [!UICONTROL 이벤트], [!UICONTROL 프로필], [!UICONTROL 조회] 또는 [!UICONTROL 요약]일 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| 스키마 | 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
+| 스키마 | 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
 | [!UICONTROL 새 데이터 가져오기] | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![녹색 상태](assets/status-green.svg)   **[!UICONTROL _x _일자]**데이터 세트가 새 데이터를 가져오도록 구성된 경우 및<p>![상태 회색](assets/status-gray.svg)   새 데이터 가져오기를 가져오지 않도록 데이터 세트가 구성된 경우 **[!UICONTROL _x 해제_]**. |
 | [!UICONTROL 데이터 변환] | 적용 가능한 B2B 조회 데이터 세트의 변환 상태입니다. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![녹색 상태](assets/status-green.svg)   변환을 위해 활성화된 적용 가능한 데이터 세트의 경우 **[!UICONTROL _x _켜기]**, <p>![상태 회색](assets/status-gray.svg)   변환에 사용할 수 없는 적용 가능한 데이터 세트에 대한 **[!UICONTROL _x 해제_]** 및<p>다른 모든 데이터 세트의 경우 **[!UICONTROL 해당 없음]**&#x200B;을(를) 변환에 적용할 수 없습니다. |
 | [!UICONTROL 채우기 데이터] | 데이터 세트에 대한 데이터 채우기 상태입니다.<p>![상태 빨간색](assets/status-red.svg)   실패한 다시 채우기 횟수에 대해 **[!UICONTROL _x _개의 다시 채우기 실패]**,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _다시 채우기 처리 중]**다시 채우기 처리 횟수,<p>![녹색 상태](assets/status-green.svg)   완료된 다시 채우기 횟수에 대해 **[!UICONTROL _x _개 다시 채우기 완료됨]**및<p>![상태 회색](assets/status-gray.svg)   다시 채우기가 구성되지 않은 경우 **[!UICONTROL _끄기_]**. |
@@ -200,7 +200,7 @@ ht-degree: 26%
 | [!UICONTROL 채우기 데이터] | 데이터 세트에 대한 데이터 채우기 상태입니다.<p>![상태 빨간색](assets/status-red.svg)   실패한 다시 채우기 횟수에 대해 **[!UICONTROL _x _개의 다시 채우기 실패]**,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _다시 채우기 처리 중]**다시 채우기 처리 횟수,<p>![녹색 상태](assets/status-green.svg)   완료된 다시 채우기 횟수에 대해 **[!UICONTROL _x _개 다시 채우기 완료됨]**및<p>![상태 회색](assets/status-gray.svg)   다시 채우기가 구성되지 않은 경우 **[!UICONTROL _끄기_]**.<p>데이터 세트에 대한 과거 채우기 개요가 포함된 대화 상자를 표시하려면 을 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 지난 다시 채우기]**. |
 | [!UICONTROL 데이터 소스 유형] | 연결에 데이터 세트를 추가할 때 정의된 데이터 소스 유형. |
 | [!UICONTROL 데이터 세트 유형] | [!UICONTROL 이벤트], [!UICONTROL 프로필], [!UICONTROL 조회] 또는 [!UICONTROL 요약]입니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
-| [!UICONTROL 스키마] | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
+| [!UICONTROL 스키마] | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
 | [!UICONTROL 데이터 세트 ID] | 이 데이터 세트 ID는 Experience Platform에서 생성됩니다. |
 
 
@@ -356,10 +356,30 @@ ht-degree: 26%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_corereportablerows"
+>title="핵심 보고 가능 행"
+>abstract="코어 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이 값은 선택한 날짜 범위에서 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_historicalreportablerows"
+>title="내역 보고 가능 행"
+>abstract="기록 보고 가능 행은 합계되지 않은 스냅샷 값입니다. 이 값은 선택한 날짜 범위에서 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_cumulativereportablerows"
+>title="누적 보고 가능한 행"
+>abstract="누적 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이 값은 선택한 날짜 범위에서 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 [!UICONTROL 사용] 인터페이스는 모든 연결에서 수집되고 보고 가능한 행의 사용을 보여 줍니다. 선택하지 않은 경우 **[!UICONTROL 사용량]** 탭을 선택하여 인터페이스에 액세스합니다.
 
-이 인터페이스는 Customer Journey Analytics 사용이 계약에 합의된 내용을 준수하는지 여부를 확인할 수 있도록 지원합니다. 모니터링 목적 외에 사용 인터페이스를 사용하여 Customer Journey Analytics 라이선스 갱신을 계획할 수 있습니다.
+이 인터페이스는 Customer Journey Analytics 사용이 계약상 합의된 사항을 준수하는지 여부를 확인할 수 있도록 지원합니다. 모니터링 목적 외에 사용 인터페이스를 사용하여 Customer Journey Analytics 라이선스 갱신을 계획할 수 있습니다.
 
 사용 인터페이스는 다음 지표를 사용합니다
 
