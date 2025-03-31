@@ -8,7 +8,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 14%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="데이터 세트의 데이터 검증"
->abstract="구현을 구성했으므로 이제 데이터 세트 활동 관리자를 사용하여 수집된 일괄 처리와 실패한 일괄 처리를 볼 수 있습니다. 주로 수집된 배치가 보이면 이 단계가 완료됩니다. 주로 실패한 일괄 처리가 있거나 일괄 처리가 없는 경우, Adobe에 데이터를 올바르게 보내고 있는지 구현을 확인하십시오."
+>abstract="구현을 구성했으므로, 데이터 세트 활동 관리자를 사용하여 수집된 배치와 실패한 배치를 확인할 수 있습니다. 주로 수집된 배치가 보이면 이 단계가 완료됩니다. 주로 실패한 배치가 있거나 배치가 없는 경우 구현을 확인하여 Adobe로 데이터를 올바르게 전송하고 있는지 확인합니다."
 
 <!-- markdownlint-enable MD034 -->
 

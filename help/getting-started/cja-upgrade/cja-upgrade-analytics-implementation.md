@@ -8,7 +8,7 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
 >title="기존의 구현 유형 확인"
->abstract="조직 내부에서 현재 Adobe Analytics로 데이터를 전송하는 데 사용하고 있는 구현 유형을 확인하십시오. Customer Journey Analytics으로 업그레이드할 때 이 정보를 아는 개인 또는 팀과 협력하십시오.<br><br>조직에서 사용하는 구현 유형을 결정한 후 Customer Journey Analytics 업그레이드 안내서에서 답변을 수정하십시오."
+>abstract="조직 내부에서 현재 Adobe Analytics로 데이터를 전송하는 데 사용하고 있는 구현 유형을 확인하십시오. Customer Journey Analytics로 업그레이드할 때 이 정보를 아는 개인이나 팀과 협력하십시오.<br><br>조직에서 사용하는 구현 유형을 확인한 후 Customer Journey Analytics 업그레이드 안내서의 답변을 수정하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: 2c28d9658165baf4de9519733c321d47c71f2bda
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_container"
 >title="컨테이너"
->abstract="컨테이너를 선택하여 문의 범위를 결정합니다."
+>abstract="컨테이너를 선택하여 문의의 범위를 지정합니다."
 
 **[!UICONTROL 다음 또는 이전 항목]** 패널 사용 방법:
 

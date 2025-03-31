@@ -8,7 +8,7 @@ exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 23%
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-historical"
 >title="내역 데이터에 대한 Analytics 소스 커넥터 만들기"
->abstract="Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다."
+>abstract="Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 이러한 데이터는 Customer Journey Analytics에서 내역 데이터로 사용될 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 ## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
 
-Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
+Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 이러한 데이터는 Customer Journey Analytics에서 내역 데이터로 사용될 수 있습니다.
 
 이 프로세스에서는 조직 및 사용하는 특정 Platform 응용 프로그램의 요구 사항에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics Web SDK 구현에 사용할 사용자 지정 스키마를 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)하려고 하는 것으로 가정합니다.
 

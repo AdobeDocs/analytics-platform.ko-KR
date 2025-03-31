@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 54%
+ht-degree: 58%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
 >title="주어진 속성에 대한 Web SDK 구현"
->abstract="자세한 지침은 업그레이드 안내서에서 원하는 구현 유형을 선택하십시오."
+>abstract="업그레이드 안내서에서 원하는 구현 유형을 선택하여 자세한 지침을 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
 source-wordcount: '4659'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -215,7 +215,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="실링"
->abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오."
+>abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -527,7 +527,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="내림"
->abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오."
+>abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1344,14 +1344,14 @@ Pi: 3.14159... 반환
 
 
 
-## 샘플 분산
+## 표본 분산
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
->title="샘플 분산"
->abstract="공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 샘플 분산의 추정치를 계산합니다. 여기서 N은 표준화 컨테이너의 개수입니다. <br/>항상 유효한&#x200B;*신뢰도 계산의 일부로 사용됩니다.* 일반적으로 이 함수는 단독으로 유용하지는 않지만 계산을 확인하거나 *수동으로* 신뢰도 계산을 수행하는 데 사용할 수 있습니다."
+>title="표본 분산"
+>abstract="공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기에서 N은 표준화 컨테이너의 개수입니다. <br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다."
 
 ![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 샘플 분산(정규화-컨테이너, 성공-지표)]**
 
