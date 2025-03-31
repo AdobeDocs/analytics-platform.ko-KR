@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: ht
-source-wordcount: '4664'
-ht-degree: 100%
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
+workflow-type: tm+mt
+source-wordcount: '4701'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 | --- | --- |
+| **2025년 4월** | |
+| 콘텐츠 분석 | Adobe Content Analytics용 [설명서](/help/content-analytics/content-analytics.md). Content Analytics을 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 찾고, 예외 항목을 찾아내고, 콘텐츠 피로를 식별하고, 콘텐츠 노출로 인한 통찰력을 얻을 수 있습니다. |
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | **2025년 2월** |  |

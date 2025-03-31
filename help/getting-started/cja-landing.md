@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '836'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,12 @@ Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일�
 Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../release-notes/latest.md)에서 자세히 확인할 수 있습니다. 최신 변경 사항을 확인하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 방문하십시오.
 
 >[!BEGINTABS]
+
+>[!TAB Content Analytics]
+
+Adobe Content Analytics를 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다.
+
+[![image](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB AI 어시스턴트]
 
@@ -65,18 +71,6 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 [![image](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_그래프 기반 스티칭을 위해서는 Prime 패키지가 필요합니다._*
-
->[!TAB B2B 조회]
-
-연결 구성의 일부로 특정 B2B 조회 스키마에 대한 데이터 세트를 변환하여 B2B 데이터에 대한 개인 기반 조회를 더 효과적으로 지원할 수 있습니다.
-
-[![image](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
-
->[!TAB 파생 필드]
-
-이제 새로운 파생 필드 기능(수학, 다음 또는 이전, 요약, 중복 제거)과 추가 기능 템플릿(예: 바운스, 알기 쉬운 데이터 세트 이름, 휴가 시즌, 월간 목표, 간단한 봇 감지 등)을 사용할 수 있습니다.
-
-[![image](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB BI 확장 기능*]
 
