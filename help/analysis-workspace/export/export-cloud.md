@@ -5,9 +5,9 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: a7bd67894b02174d980a730086f89df97b524356
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2285'
 ht-degree: 6%
 
 ---
@@ -171,6 +171,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 * 검색 필터링
 * 정적 행
 * 날짜 정렬
+* 요약 데이터 세트의 지표
 * 동적 차원
 
   자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 참조하십시오.

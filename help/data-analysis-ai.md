@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bc0573b2d75a18aaaac4f5d171579e9763f2f8e0
+source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1900'
 ht-degree: 3%
 
 ---
@@ -45,32 +45,28 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
 | **Workspace 작업/기능** | 데이터 인사이트 에이전트는 시각화를 구축하고 업데이트하는 것 외에 Workspace에서 사용자에 대한 작업을 수행할 수 없습니다. 예를 들어, 다음 작업을 수행할 수 없습니다.<ul><li>상황별 작업 UI 버튼(차트, 새 패널, 새 테이블에 추가)</li><li>공유</li><li>내보내기</li><li>다운로드</li><li>사용자 환경 설정 관리</li><li>조정</li><li>데이터 보기 관리</li><li>Analytics 대시보드 앱</li><li>속성</li></ul> |
 | **지원되지 않는 시각화 유형** | <ul><li>플로우</li><li>폴아웃</li><li>집단 테이블</li><li>영역, 스택 영역</li><li>스택 막대</li><li>글머리 기호</li><li>콤보</li><li>히스토그램</li><li>가로 막대, 스택 가로 막대</li><li>주요 지표 요약</li><li>분산</li><li>요약 변경</li><li>텍스트</li><li>트리맵</li><li>벤</li></ul> |
 
-<!---## Feature access in the Customer Journey Analytics UI
+## Customer Journey Analytics에서 Data Insights 에이전트에 대한 액세스 관리
 
-[Do we even need this section for the Alpha?]
+다음 매개 변수는 Customer Journey Analytics의 Data Insights 에이전트에 대한 액세스를 제어합니다.
 
-The following parameters govern access to Data visualization in AI Assistant:
+* **솔루션 액세스**: Data Insights 에이전트는 Customer Journey Analytics Prime 및 Ultimate 고객이 사용할 수 있습니다. Adobe Analytics에서는 사용할 수 없습니다.
 
-* **Solution access**: Data visualization in AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
+* **계약 액세스**: AI Assistant에서 Data Insights 에이전트를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 AI Assistant에서 데이터 인사이트 에이전트를 사용하려면 먼저 특정 GenAI 관련 법률 용어에 동의해야 합니다.
 
-It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP and additional Experience Platform apps.
+* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI 도우미: 데이터 시각화]** 권한이 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]에서 다음 단계를 따라야 합니다.
+   1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**(으)로 이동
+   1. [!UICONTROL AI 길잡이: 제품 기술 자료]에 액세스할 수 있는 제품 프로필의 제목을 선택합니다.
+   1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 보고 도구]**&#x200B;를 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요.
+   1. **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **AI Assistant: 데이터 시각화**&#x200B;를 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택하십시오.
 
-* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data visualization in AI Assistant, your must agree to certain GenAI-related legal terms.
+      ![권한 추가](assets/ai-assistant-permissions.png).
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
-   1. Navigate to **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
-   1. Select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
-   1. In the specific product profile, select **[!UICONTROL Permissions]**.
-   1. Select ![Edit](/help/assets/icons/Edit.svg) to edit **[!UICONTROL Reporting Tools]**.
-   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data visualization** to **[!UICONTROL Included permission items]**.
-   
-      ![Add permission](assets/ai-assistant-permissions.png).
+   1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
 
-   1. Select **[!UICONTROL Save]** to save the permissions.
+자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
-See [Access control](/help/technotes/access-control.md#access-control) for more information.--->
-
-## AI Assistant에서 액세스 및 데이터 인사이트 에이전트
+## AI Assistant에서 Data Insights 에이전트에 액세스
 
 1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동하여 Adobe ID으로 로그인합니다.
 
