@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 40739525db8061f32a4cef1a27177fedad9bc458
+source-git-commit: c01fbe7b991da9c21a598ebac551775afd7deeed
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Content Analytics의 구성은 다음 단계로 구성됩니다.
 Content Analytics을 구성하기 전에 다음 전제 조건이 충족되는지 확인하십시오.
 
 * 콘텐츠 분석에 사용되는 기능 서비스에 대한 사용자 에이전트 및 IP 주소를 허용 목록에 추가했습니다. 구성할 사용자 에이전트 문자열: <code>AdobeFeatuization/1.0</code>.
+* Javascript를 사용하여 [웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"}을 구현하는 경우 기본 이름 <code>alloy를 사용하는지 확인하십시오</code> Javascript 라이브러리용.
 * 연결을 관리하고 데이터 보기를 관리할 수 있는 추가 권한이 있는 Customer Journey Analytics 제품 관리자 역할이 있습니다.
 * 데이터 수집에 대한 [권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}이 있어야 합니다. 이러한 권한은 다음으로 구성됩니다.
    * [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
