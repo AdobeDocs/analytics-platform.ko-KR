@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ceb6ac97686165c2883ad8057730bb09e4d7ad16
+source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2469'
 ht-degree: 25%
 
 ---
@@ -249,6 +249,11 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 >title="데이터 수집"
 >abstract="현재 구성과 연결된 태그 속성의 Adobe Content Analytics 확장 기능에서 자산 설정을 편집할 수 있습니다."
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_tags_disabled_description "
+>title="태그 속성 비활성화됨"
+>abstract="Content Analytics 확장이 이미 활성화되어 있습니다."
+
 <!-- markdownlint-enable MD034 -->
 
 #### 새 구성 {#new-configuration}
@@ -277,6 +282,11 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 * 콘텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 나타냅니다.
 
    * **[!UICONTROL Assets에 대해 포함/제외]**&#x200B;할 정규식 문자열을 지정하십시오. 예: `/^(?!.*(logo\.jpg|\.svg)).*$/` Content Analytics에서 모든 로고 JPEG 및 SVG 이미지를 제외합니다. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
+
+>[!IMPORTANT]
+>
+>Javascript를 사용하고 태그를 사용하지 않는 기존 웹 SDK 구현이 있는 경우 새로 만든 태그 속성에서 자동으로 포함된 웹 SDK 확장을 수동으로 제거해야 합니다.
+
 
 
 #### 기존 구성 {#existing-configuration}

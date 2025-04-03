@@ -6,13 +6,13 @@ feature: Content Analytics
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
+exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
+source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
-
 
 # Content Analytics 데이터 수집
 
@@ -24,11 +24,13 @@ ht-degree: 1%
 이 문서의 컨텍스트에서는 다음 정의가 사용됩니다.
 
 * **경험**: 경험이 전체 웹 페이지의 텍스트 콘텐츠로 정의됩니다. 데이터 수집을 위해 Content Analytics은 경험 ID를 기록합니다. Content Analytics은 페이지에 텍스트를 기록하지 않습니다.
-* **자산**: 이미지입니다. Content Analytics은 에셋 URL을 기록합니다.
-* **관련 URL**: 기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수.
 * **경험 ID**: 관련 URL과 경험 버전의 고유 조합입니다.
    * 지정된 전체 URL과 관련된 매개 변수를 [configuration](configuration.md)의 일부로 지정합니다.
-   * 사용되는 [버전 식별자](manual.md#versioning)를 정의할 수 있습니다. 데이터 수집의 경우 버전은 고려되지 않습니다. 관련 URL만 수집됩니다.
+   * 사용되는 [버전 식별자](manual.md#versioning)를 정의할 수 있습니다.
+* **자산**: 이미지입니다. Content Analytics은 에셋 URL을 기록합니다.
+* **자산 ID**: 자산의 URL입니다.
+* **관련 URL**: 기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수.
+
 
 ## 기능
 
@@ -38,7 +40,7 @@ Content Analytics 라이브러리는 다음과 같은 경우에 데이터를 수
 * 페이지 URL이 포함된 Tags 라이브러리의 일부인 [Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}에 구성되어 있습니다.
 
 
-### Content Analytics 이벤트
+## Content Analytics 이벤트
 
 Content Analytics 이벤트는 다음과 같이 구성됩니다.
 
@@ -50,7 +52,15 @@ Content Analytics 이벤트는 다음과 같이 구성됩니다.
 * 자산 보기(있는 경우 및 구성된 경우)
 * 자산 클릭 수(있는 경우 및 구성된 경우)
 
-#### 기록된 보기 또는 클릭 수
+
+Content Analytics 이벤트는 다음과 같은 순서로 수집됩니다.
+
+1. [기록된 보기 또는 클릭](#recorded-view-or-click)입니다.
+1. [정기 또는 특정(비헤이비어) 이벤트](#regular-or-specific-behaviorial-event)입니다.
+
+Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤트를 수집하지 않고 보기 또는 클릭을 별도로 수집하는 대신 해당 시퀀스를 반영하도록 데이터를 수집합니다. 이러한 컨텐츠 분석 데이터 수집 방법은 수집된 데이터의 양도 줄입니다. 데이터 수집.
+
+### 기록된 보기 또는 클릭
 
 다음과 같은 경우 에셋 보기가 기록됩니다.
 
@@ -73,26 +83,19 @@ Content Analytics 이벤트는 다음과 같이 구성됩니다.
 * 경험이 활성화된 페이지의 링크를 클릭합니다.
 
 
-#### 전송된 이벤트
+### 정기 또는 특정(행동) 이벤트
 
-Content Analytics 이벤트는 다음 두 가지 조건이 발생할 때 전송됩니다.
+Content Analytics 컨텍스트에서 정기적 또는 특정(비헤이비어) 이벤트를 실행하는 트리거는 다음과 같습니다.
 
-* 콘텐츠가 전송되며, 이는 다음 경우에 발생합니다.
-
-   * 에셋 보기 또는 클릭이 기록됩니다.
-   * 경험 보기 또는 클릭이 기록됩니다.
-
-* 이벤트를 전송하는 트리거가 실행되며, 이 이벤트는 다음과 같은 경우에 발생합니다.
-
-   * Web SDK 또는 AppMeasurement에서 이벤트를 보냅니다.
-   * 가시성이 숨김으로 변경됩니다. 예를 들면 다음과 같습니다.
-      * 페이지 언로드
-      * 탭 전환
-      * 브라우저 최소화
-      * 브라우저 닫기
-      * 잠금 화면
-   * URL이 변경되어 관련 URL이 수정됩니다.
-   * 자산 보기가 배치 제한인 32개를 초과합니다.
+* Web SDK 또는 AppMeasurement에서 이벤트를 보냅니다.
+* 가시성이 숨김으로 변경됩니다. 예를 들면 다음과 같습니다.
+   * 페이지 언로드
+   * 탭 전환
+   * 브라우저 최소화
+   * 브라우저 닫기
+   * 잠금 화면
+* URL이 변경되어 관련 URL이 수정됩니다.
+* 자산 보기가 배치 제한인 32개를 초과합니다.
 
 
 ## 스키마
