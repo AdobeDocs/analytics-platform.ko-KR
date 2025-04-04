@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
+source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Content Analytics 이벤트는 다음과 같은 순서로 수집됩니다.
 1. [기록된 보기 또는 클릭](#recorded-view-or-click)입니다.
 1. [정기 또는 특정(비헤이비어) 이벤트](#regular-or-specific-behaviorial-event)입니다.
 
-Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤트를 수집하지 않고 보기 또는 클릭을 별도로 수집하는 대신 해당 시퀀스를 반영하도록 데이터를 수집합니다. 이러한 컨텐츠 분석 데이터 수집 방법은 수집된 데이터의 양도 줄입니다. 데이터 수집.
+Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤트를 수집하지 않고 보기 또는 클릭을 별도로 수집하는 대신 해당 시퀀스를 반영하도록 데이터를 수집합니다. 이러한 컨텐츠 분석 데이터 수집 방법은 수집된 데이터의 양도 줄입니다.
 
 ### 기록된 보기 또는 클릭
 
@@ -71,7 +71,7 @@ Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤�
 다음과 같은 경우 에셋 클릭이 기록됩니다.
 
 * 자산을 조회했습니다.
-* ACA 확장 구성에 따라 자산이 제외되지 않았습니다.
+* Content Analytics 확장 구성에 따라 자산이 제외되지 않았습니다.
 * 다른 페이지로 연결되는 링크인 에셋을 직접 클릭합니다.
 
 다음과 같은 경우 경험 보기가 기록됩니다.
@@ -95,7 +95,7 @@ Content Analytics 컨텍스트에서 정기적 또는 특정(비헤이비어) �
    * 브라우저 닫기
    * 잠금 화면
 * URL이 변경되어 관련 URL이 수정됩니다.
-* 자산 보기가 배치 제한인 32개를 초과합니다.
+* 기록되고 전송할 준비가 된 자산 보기가 32개를 초과했습니다.
 
 
 ## 스키마
