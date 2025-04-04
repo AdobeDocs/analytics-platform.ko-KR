@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 0%
 # 콘텐츠 분석 구성
 
 {{release-limited-testing}}
+
 
 Content Analytics의 구성은 다음 단계로 구성됩니다.
 
@@ -42,8 +43,8 @@ Content Analytics을 구성하기 전에 다음 전제 조건이 충족되는지
 * 다음과 같은 중요한 구성 옵션을 신중하게 고려했습니다.
 
    * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때만 가능합니다.
-      * 공개 URL을 통해서만 사이트 콘텐츠에 액세스할 수 있습니다. 사이트에 액세스하려면 URL을 통해 사용할 수 없는 개인화된 토큰, 쿠키 또는 기타 메커니즘이 필요하지 않습니다.
-      * 사이트의 페이지는 페이지 URL을 사용하여 재현할 수 있으며 어떤 선택적 URL 매개 변수가 경험을 유도하는지 이해합니다.
+      * 사이트의 페이지는 페이지 URL을 사용하여 재현할 수 있어야 합니다.
+      * 지정된 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재현할 수 있으며 쿠키 또는 기타 개인화 메커니즘에 따라 달라지지 않습니다.
    * 컨텐츠 참여 분석 및 통찰력을 캡처할 페이지를 명확하게 이해하고 있습니다.
    * 컨텐츠 참여 분석 및 통찰력을 캡처할 (유형) 에셋을 명확히 이해하고 있습니다.
 

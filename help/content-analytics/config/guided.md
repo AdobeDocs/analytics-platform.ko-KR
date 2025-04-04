@@ -5,16 +5,17 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
 workflow-type: tm+mt
-source-wordcount: '2469'
-ht-degree: 25%
+source-wordcount: '2493'
+ht-degree: 24%
 
 ---
 
 # Content Analytics 안내 구성
 
 {{release-limited-testing}}
+
 
 안내식 구성을 통해 콘텐츠 분석을 빠르고 쉽게 구성할 수 있습니다. 안내식 구성은 마법사를 사용하여 콘텐츠 분석을 조직에 맞게 자동으로 구성하기 위한 요구 사항을 설정합니다. **[!UICONTROL 구성]** 화면에서 새 구성을 만들거나 기존 구성을 편집할 수 있습니다.
 
@@ -179,15 +180,20 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
 다음을 적용할 수 있는 경우에만 경험을 포함하십시오.
 
-* 공개 URL만 사용하여 사이트 콘텐츠에 액세스할 수 있습니다. 사이트에 액세스하려면 URL을 통해 사용할 수 없는 개인화된 토큰, 쿠키 또는 기타 메커니즘이 필요하지 않습니다.
 * 사이트의 페이지는 페이지 URL을 사용하여 재현할 수 있어야 합니다.
+* 지정된 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재현할 수 있으며 쿠키 또는 기타 개인화 메커니즘에 따라 달라지지 않습니다.
 
 새 구성이나 구현되지 않은 구성에 경험을 포함하려면 다음을 수행하십시오.
 
 ![콘텐츠 분석 구성 경험 캡처 및 정의](../assets/aca-configuration-experience.png)
 
-1. **[!UICONTROL 경험 포함]**&#x200B;을 사용하도록 설정합니다.
-1. 원할 경우 웹 사이트에서 콘텐츠가 렌더링되는 방식에 대한 매개 변수를 지정합니다. 매개 변수는 **[!UICONTROL 도메인 정규식]**&#x200B;과(와) **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 0개 이상의 조합입니다. 쿼리 매개 변수는 페이지의 콘텐츠에 영향을 주는 매개 변수를 나타냅니다. 이 입력을 사용하면 Content Analytics에서 고유한 경험을 정의할 때 페이지의 콘텐츠에 영향을 주지 않는 매개 변수를 무시할 수 있습니다.
+1. **[!UICONTROL 경험 포함]**&#x200B;을 사용하도록 설정합니다. 경험을 활성화하기 위한 토글은 다음 사항에 영향을 줍니다.
+
+   * Content Analytics 확장의 데이터 수집
+   * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스입니다
+   * Customer Journey Analytics의 보고 템플릿입니다.
+
+1. 웹 사이트에서 콘텐츠가 렌더링되는 방식에 대한 매개 변수를 지정합니다. 매개 변수는 **[!UICONTROL 도메인 정규식]**&#x200B;과(와) **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 0개 이상의 조합입니다. 쿼리 매개 변수는 페이지의 콘텐츠에 영향을 주는 매개 변수를 나타냅니다. 이 입력을 사용하면 Content Analytics에서 고유한 경험을 정의할 때 페이지의 콘텐츠에 영향을 주지 않는 매개 변수를 무시할 수 있습니다.
    1. **[!UICONTROL 도메인 정규식]**(예: `/^(?!.*\b(store|help|admin)\b)/`)을 입력하십시오. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다. 도메인 정규 표현식은 이러한 매개 변수가 적용되는 URL을 나타냅니다. 예를 들어 여러 사이트가 있을 수 있으며 각 사이트에 대해 서로 다른 매개 변수가 콘텐츠를 유도합니다. 쿼리 매개 변수가 모든 페이지에 적용되는 경우 `.*`을(를) 사용하여 모든 페이지를 나타낼 수 있습니다.
    1. `outdoors, patio, kitchen`과(와) 같이 쉼표로 구분된 **[!UICONTROL 쿼리 매개 변수]** 목록을 지정하십시오.
 1. 도메인 정규식과 쿼리 매개 변수의 조합을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 선택하십시오.
@@ -197,10 +203,9 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
 ![콘텐츠 분석 구성 경험 캡처 및 정의](../assets/aca-configuration-experience-edit.png)
 
-* Analysis Workspace에서 경험 구성 요소, 시각화 및 패널의 가용성을 활성화하거나 비활성화하려면 **[!UICONTROL 경험 포함]**&#x200B;을 전환하십시오.
-* Content Analytics의 경험에 대한 데이터 수집 구성을 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
+* **[!UICONTROL 경험 포함]**&#x200B;을 전환하여 Analysis Workspace에서 경험 구성 요소, 시각화, 패널 및 템플릿의 가용성을 활성화하거나 비활성화합니다.
 
-
+* Content Analytics의 경험에 대한 데이터 수집 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
 
 
 ### 데이터 수집 {#onboarding-data-collection}
@@ -265,7 +270,8 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
   ![Content Analytics 데이터 수집 기존 태그](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
-   2. **[!UICONTROL Tags 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 입력을 시작하여 사용 가능한 옵션을 검색하고 제한할 수 있습니다.
+   2. **[!UICONTROL Tags 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 입력을 시작하여 사용 가능한 옵션을 검색하고 제한할 수 있습니다. 구현된 다른 Content Analytics 구성에서 이미 사용하고 있는 태그 속성을 선택할 수 없습니다.
+
 
 * 새 태그 속성을 만들려면 다음 작업을 수행하십시오.
 
@@ -275,13 +281,13 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
    1. **[!UICONTROL 태그 이름]**(예: `ACA Test for Documentation`)을 지정하십시오.
    1. **[!UICONTROL 도메인]**(예: `example.com`)을 지정하십시오.
 
-* 경험을 포함하도록 선택한 경우 컨텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 나타냅니다.
+* Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 나타냅니다.
 
-   * **[!UICONTROL 포함/제외]**&#x200B;할 페이지에 대한 정규식 문자열을 지정하십시오. 예를 들어 Content Analytics에서 모든 문서 페이지를 제외하려면 `/^(?!.*documentation).*/`을(를) 사용하십시오. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
+  **[!UICONTROL 포함/제외]**&#x200B;할 페이지에 대한 정규식 문자열을 지정하십시오. <br/>예: `^(?!.*documentation).*` Content Analytics에서 모든 문서 페이지를 제외합니다.
 
 * 콘텐츠 분석에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 나타냅니다.
 
-   * **[!UICONTROL Assets에 대해 포함/제외]**&#x200B;할 정규식 문자열을 지정하십시오. 예: `/^(?!.*(logo\.jpg|\.svg)).*$/` Content Analytics에서 모든 로고 JPEG 및 SVG 이미지를 제외합니다. `/`을(를) 사용하여 정규식을 이스케이프 처리합니다.
+  **[!UICONTROL Assets에 대해 포함/제외]**&#x200B;할 정규식 문자열을 지정하십시오. <br/>예: `^(?!.*(logo\.jpg|\.svg)).*$` Content Analytics에서 모든 로고 JPEG 및 SVG 이미지를 제외합니다.
 
 >[!IMPORTANT]
 >
@@ -318,11 +324,11 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
 <!-- markdownlint-enable MD034 -->
 
-구성을 만들거나 편집한 경우 다음 작업을 사용할 수 있습니다.
+구성을 만들거나 편집할 때 다음 옵션이 제공됩니다.
 
-* **[!UICONTROL 버리기]**: 새 구성을 만들거나 기존 구성을 편집하는 과정에서 변경한 모든 내용이 무시됩니다.
-* **[!UICONTROL 나중에 저장]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 변경 내용이 저장됩니다. 이후 단계에서 구성을 다시 방문하여 추가 변경을 수행하거나 구성을 구현할 수 있습니다.
-* **[!UICONTROL 구현]**: 새 구성 또는 아직 구현되지 않은 기존 구성에 대한 설정 또는 변경 내용이 저장되고 구현됩니다. 구현은 다음과 같이 구성됩니다.
+* **[!UICONTROL 삭제]**: 구성의 일부로 변경된 모든 내용이 삭제됩니다.
+* **[!UICONTROL 나중에 저장]**: 구성에 대한 변경 내용이 저장됩니다. 이후 단계에서 구성을 다시 방문하여 추가 변경을 수행하거나 구성을 구현할 수 있습니다. 구성을 저장하려면 [!UICONTROL Name] 값만 필요합니다.
+* **[!UICONTROL 구현]**: 구성에 대한 설정 또는 변경 내용이 저장되고 구현됩니다. ![필수](/help/assets/icons/Required.svg)(으)로 표시된 모든 필드에는 적절한 값이 있어야 합니다. 구현은 다음과 같이 구성됩니다.
 
    * **[!UICONTROL Customer Journey Analytics]** 구성:
       * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.

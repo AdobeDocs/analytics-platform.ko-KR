@@ -7,14 +7,16 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
 
 # Content Analytics 데이터 수집
+
+{{release-limited-testing}}
 
 이 문서에서는 콘텐츠 Analytics에서 데이터를 수집하는 방법에 대해 자세히 설명합니다
 
@@ -23,8 +25,8 @@ ht-degree: 1%
 
 이 문서의 컨텍스트에서는 다음 정의가 사용됩니다.
 
-* **경험**: 경험이 전체 웹 페이지의 텍스트 콘텐츠로 정의됩니다. 데이터 수집을 위해 Content Analytics은 경험 ID를 기록합니다. Content Analytics은 페이지에 텍스트를 기록하지 않습니다.
-* **경험 ID**: 관련 URL과 경험 버전의 고유 조합입니다.
+* **경험**: 경험이 전체 웹 페이지의 텍스트 콘텐츠로 정의됩니다. 데이터 수집의 경우 Content Analytics은 페이지 URL을 기반으로 하는 경험 ID를 기록합니다. 나중에 페이지의 텍스트는 검색 서비스를 통해 캡처됩니다.
+* **경험 ID**: 관련 URL(기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수)과 [경험 버전](manual.md#versioning)의 고유한 조합입니다.
    * 지정된 전체 URL과 관련된 매개 변수를 [configuration](configuration.md)의 일부로 지정합니다.
    * 사용되는 [버전 식별자](manual.md#versioning)를 정의할 수 있습니다.
 * **자산**: 이미지입니다. Content Analytics은 에셋 URL을 기록합니다.
@@ -64,7 +66,7 @@ Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤�
 
 다음과 같은 경우 에셋 보기가 기록됩니다.
 
-* ACA 확장 구성에 따라 자산이 제외되지 않았습니다.
+* Content Analytics 확장 구성에 따라 자산이 제외되지 않았습니다.
 * 자산이 조회수 75%입니다.
 * 해당 자산은 이 페이지에 대해 이미 기록되지 않았습니다.
 
@@ -100,7 +102,7 @@ Content Analytics 컨텍스트에서 정기적 또는 특정(비헤이비어) �
 
 ## 스키마
 
-Content Analytics 데이터는 특정 Content Analytics 스키마를 기준으로 Experience Platform의 데이터 세트에 수집됩니다. 참조 스키마는 공개적으로 사용할 수 있으며 Content Analytics의 기본 구현에서 사용됩니다.
+Content Analytics 데이터는 특정 Content Analytics 스키마를 기준으로 Experience Platform의 데이터 세트에 수집됩니다. 참조 스키마를 공개적으로 사용할 수 있습니다.
 
 * [디지털 자산 스키마](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [디지털 경험 스키마](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)

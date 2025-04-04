@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: cf8b14590a99573815c95e863fd26ae5b4244754
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 # Content Analytics 수동 구성
 
 {{release-limited-testing}}
+
 
 이 문서에서는 Content Analytics 구성의 데이터 수집을 시작 또는 중지하거나 Content Analytics 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
 
@@ -82,7 +83,8 @@ Content Analytics 경험의 버전을 관리해야 하는 경우 분석할 경�
 ### 예
 
 ```
-function adobe.getContentExperienceVersion() {
+window.adobe = window.adobe || {};
+window.adobe.getContentExperienceVersion = () => {
   return "1.0";
-}
+};
 ```
