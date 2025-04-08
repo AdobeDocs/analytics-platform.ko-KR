@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dafd4360d12c5b8a6b9ce99799722cecbca9768c
+source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3281'
 ht-degree: 18%
 
 ---
@@ -132,6 +132,8 @@ Experience Platform Web SDK을 사용하여 내역 데이터가 충분하고 Cus
 1. [Customer Journey Analytics에서 데이터 보기를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
 
 1. [데이터가 Customer Journey Analytics의 데이터 보기로 이동하는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+
+1. Adobe Analytics 환경에서 [Analytics 인벤토리를 사용](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)하여 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 확인하세요.
 
 1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
 
