@@ -4,10 +4,10 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
 workflow-type: tm+mt
 source-wordcount: '1893'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점 및 경로가 있는 여정에 사용하거나 Journey Optimizer에서 만든 여정을 분석하는 데 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer에 액세스할 수 있는 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점과 경로가 있는 여정에 사용하거나 Journey Optimizer에서 생성된 여정을 분석하는 데 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점 및 경로가 있는 여정에 사용하거나 Journey Optimizer에서 만든 여정을 분석하는 데 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer에 액세스할 수 있는 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -81,17 +81,17 @@ _이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
 ### 전환율이 가장 높은 경로 {#conversion-rate-caption}
 
-여정 캔버스에서 가장 눈에 띄는 인사이트는 캔버스 자체의 맨 위에 캡션으로 표시됩니다.
+여정 캔버스에서 가장 두드러진 insight은 캔버스 자체의 맨 위에 캡션으로 표시됩니다.
 
 이 캡션은 여정의 모든 경로 중 전환율이 가장 높았던 경로를 요약합니다.
 
 여정에 여러 시작 노드가 포함된 경우 캡션은 다음과 같이 표시됩니다.
 
-![여정 캔버스 인사이트 캡션](assets/journey-canvas-caption.png)
+![여정 캔버스 insight 캡션](assets/journey-canvas-caption.png)
 
 여정에 단일 시작 노드가 포함된 경우 캡션은 다음과 같이 표시됩니다.
 
-![여정 캔버스 인사이트 캡션 단일 시작 노드](assets/journey-canvas-caption-singlestart.png)
+![여정 캔버스 insight 캡션 단일 시작 노드](assets/journey-canvas-caption-singlestart.png)
 
 이 캡션을 해석할 때는 다음 사항을 고려하십시오.
 
