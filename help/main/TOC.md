@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: d835411beba3d40f67d2f93ee76aa5eda6f45041
+source-git-commit: 3bdde8181ec2a0e507dae907acb3da2b702f5578
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 90%
+source-wordcount: '1216'
+ht-degree: 86%
 
 ---
 
@@ -32,34 +32,38 @@ ht-degree: 90%
    + [설명서 업데이트](../release-notes/doc-changes.md)
 
 + 시작하기 {#cja-overview}
-   + [Customer Journey Analytics 개요](../getting-started/cja-overview.md)
-   + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
-   + [랜딩 페이지](../getting-started/landing.md)
-   + [랜딩 페이지 (이전)](../getting-started/cja-landing-old.md)
-   + [자주 묻는 질문](../getting-started/cja-faq.md)
-   + [Customer Journey Analytics와 BI 솔루션 비교](../getting-started/cja-vs-bi.md)
-   + [Adobe Customer Journey Analytics용 AI 어시스턴트](../ai-assistant.md)
-   + [Customer Journey Analytics용 데이터 분석 AI 어시스턴트](../data-analysis-ai.md)
+   + Customer Journey Analytics {#cja-b2c-overview}
+      + [개요](../getting-started/cja-overview.md)
+      + [빠른 시작 안내서](../getting-started/cja-getting-started.md)
+      + [랜딩 페이지](../getting-started/landing.md)
+      + [자주 묻는 질문](../getting-started/cja-faq.md)
+      + [BI 솔루션과 비교](../getting-started/cja-vs-bi.md)
+      + [AI 어시스턴트](../ai-assistant.md)
+      + [Data Insights 에이전트](../data-analysis-ai.md)
+   + Customer Journey Analytics B2B edition {#cja-b2b}
+      + [개요](/help/getting-started/cja-b2b-edition.md)
+      + [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)
+      + [빠른 시작 안내서](/help/getting-started/cja-b2b-quick-start-guide.md)
 
-+ Customer Journey Analytics와 Adobe Analytics 비교 {#compare-aa-cja}
++ Customer Journey Analytics 및 Adobe Analytics {#compare-aa-cja}
    + Customer Journey Analytics로 업그레이드 {#upgrade-to-cja}
       + [시작](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [권장 업그레이드 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + 스키마 {#schema} 설계 및 만들기
+      + 스키마 설계 및 생성 {#schema}
          + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
          + [기존 스키마 사용](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
-      + 데이터 스트림 {#create-datastream} 만들기
+      + datastream 만들기 {#create-datastream}
          + [datastream 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
          + [서비스로 플랫폼 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
-      + 데이터 세트 {#create-datasets} 만들기
+      + 데이터 세트 만들기 {#create-datasets}
          + [데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
          + [분류를 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
          + [데이터 세트 수집 모니터링](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + 태그 {#create-tags}을(를) 사용하여 웹 SDK 구현
+      + 태그를 사용하여 웹 SDK 구현 {#create-tags}
          + [속성용 태그 만들기](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
          + [태그에 Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
          + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
@@ -71,13 +75,13 @@ ht-degree: 90%
       + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [데이터 흐름 유효성 검사](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [스트리밍 미디어 컬렉션 설정](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
-      + Analytics 소스 커넥터 {#historical-data-source-connector}을(를) 사용하여 이전 데이터 유지
+      + Analytics 소스 커넥터를 사용하여 이전 데이터 유지 {#historical-data-source-connector}
          + [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
          + [Analytics 소스 커넥터 및 맵 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
          + [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [Adobe Analytics 비활성화 시점 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
       + [Adobe Analytics 비활성화](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
-      + 대체 업그레이드 메서드 {#alternative-upgrade-methods}
+      + 대체 업그레이드 방법 {#alternative-upgrade-methods}
          + [AppMeasurement 데이터 수집 사용](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
          + [데이터 레이어 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
          + [Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)
@@ -162,7 +166,7 @@ ht-degree: 90%
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
-      + 작업 영역의 폴더 {#workspace-folders}
+      + Workspace의 폴더 {#workspace-folders}
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
@@ -186,7 +190,7 @@ ht-degree: 90%
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + 집단 테이블 {#cohort-table}
+      + 코호트 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [사용 사례](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -195,7 +199,7 @@ ht-degree: 90%
          + [구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-      + 흐름 {#flow}
+      + 플로우 {#flow}
          + [개요](../analysis-workspace/visualizations/c-flow/flow.md)
          + [구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 흐름](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
@@ -230,7 +234,7 @@ ht-degree: 90%
       + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
-   + {#curate-share} 프로젝트 조정, 공유 및 예약
+   + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [개요](../analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
@@ -251,7 +255,7 @@ ht-degree: 90%
       + [통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
-   + Workspace FAQ 및 기타 {#workspace-faq}
+   + Workspace FAQ 등 {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
       + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
       + [제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
@@ -425,7 +429,7 @@ ht-degree: 90%
          + [Google Analytics 내역 데이터 수집](/help/use-cases/third-party/ga/backfill.md)
          + [스트리밍 Google Analytics 데이터 구성](/help/use-cases/third-party/ga/streaming.md)
          + [Google Analytics 데이터에 대한 보고](/help/use-cases/third-party/ga/report.md)
-      + Quantum 지표 {#qm}
+      + 양자 지표 {#qm}
          + [개요](/help/use-cases/third-party/quantum-metric/qm-overview.md)
          + [세션 ID 수집](/help/use-cases/third-party/quantum-metric/collect-session-id.md)
          + [세션 재생 연결](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
