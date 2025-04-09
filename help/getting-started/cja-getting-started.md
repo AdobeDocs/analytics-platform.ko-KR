@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics 시작하기
+title: Customer Journey Analytics 빠른 시작 안내서
 description: Customer Journey Analytics를 구현하는 데 필요한 사전 요구 사항 및 워크플로를 이해합니다.
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 01df8b8b55ff8e8c0826bf98adfbd85d3412e6bb
-workflow-type: ht
-source-wordcount: '787'
-ht-degree: 100%
+source-git-commit: 7b824c914187854e9779ebdc51c5f5d6e77f6b16
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 99%
 
 ---
 
-# Customer Journey Analytics 시작하기
+# 빠른 시작 안내서
 
 Customer Journey Analytics를 구현하려면 이 워크플로를 따라야 합니다. 일부 초기 작업은 Adobe Experience Platform에서 수행되고, 일부는 Customer Journey Analytics에서 수행됩니다.
 
