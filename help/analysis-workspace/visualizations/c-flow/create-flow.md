@@ -4,10 +4,10 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 93%
+source-wordcount: '1484'
+ht-degree: 90%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 93%
    | **[!UICONTROL 처음/마지막 발생으로 제한]** | 차원, 항목 또는 지표의 처음 또는 마지막 발생으로 진입 또는 종료하는 경로로 경로를 제한합니다. 자세한 설명은 [처음/마지막 발생으로 제한](#example-scenario-for-limit-to-firstlast-occurrence)을 참조하십시오. |
    | **[!UICONTROL 열 수]** | 플로우 다이어그램에 원하는 열 수입니다. 최대 5개의 열을 지정할 수 있습니다. |
    | **[!UICONTROL 열당 항목 확장됨]** | 각 열에 원하는 항목 수입니다. 열당 확장된 최대 10개의 항목을 지정할 수 있습니다. |
-   | **[!UICONTROL 플로우 컨테이너]** | **[!UICONTROL 세션]**&#x200B;과 **[!UICONTROL 개인]** 간을 전환하여 경로 지정을 분석할 수 있습니다. 이 설정은 세션들에 대해 사용자 수준에서 사용자 참여를 이해하거나 분석을 단일 세션으로 제한하는 데 도움이 됩니다. |
+   | **[!UICONTROL 플로우 컨테이너]** | **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 세션]** 및 **[!UICONTROL 개인]** 간에 전환하여 경로 지정을 분석할 수 있습니다. 이 설정은 세션들에 대해 사용자 수준에서 사용자 참여를 이해하거나 분석을 단일 세션으로 제한하는 데 도움이 됩니다. |
 
    >[!IMPORTANT]
    >

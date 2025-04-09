@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 80%
+source-wordcount: '1001'
+ht-degree: 73%
 
 ---
 
@@ -84,14 +84,20 @@ ht-degree: 80%
   | 처음 알려짐 | C | C | C | C | C |
   | 마지막 알려짐 | A | A | A | A | A |
 
+
 ## [!UICONTROL 만료] 설정
 
 사용 가능한 만료 설정에 관한 세부 정보.
 
 * **세션**: 지정된 세션이 지나면 만료됩니다. 기본 만료 창.
-* **개인**: 보고 기간이 끝날 때 만료됩니다.
+* **개인 보고 기간**: 보고 기간이 끝날 때 만료됩니다.
+* **전역 계정 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
+* **계정 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
+* **영업 기회 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
+* **구매 그룹 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
 * **사용자 지정 시간**: 지정된 기간(최대 90일) 후에 만료됩니다. 이 만료 옵션은 원래 및 가장 최근 배분 모델에만 사용할 수 있습니다. 시간 기반 만료를 사용하는 경우 보고 기간(최대 90일) 시작 이전 값이 고려됩니다.
 * **지표**: 이 지표가 이벤트에 표시되면 차원에서 지속된 값이 즉시 만료됩니다. 이 차원의 만료 끝으로 지표를 사용할 수 있습니다. 이 만료 옵션은 원래 및 가장 최근 할당 설정에만 사용할 수 있습니다.
+
 
 ## [!UICONTROL 바인딩 차원]
 

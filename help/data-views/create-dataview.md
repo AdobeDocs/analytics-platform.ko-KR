@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 99%
+source-wordcount: '2120'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,22 @@ ht-degree: 99%
 
 신규 또는 기존 데이터 보기를 구성하는 경우:
 
+>[!BEGINTABS]
+
+>[!TAB 표준]
+
+![데이터 보기 구성](assets/dataview-configure.png)
+
+>[!TAB B2B edition]
+
+![데이터 보기 B2B 구성](assets/dataview-configure-b2b.png)
+
+>[!ENDTABS]
+
+
 1. **[!UICONTROL 구성]** 탭을 선택합니다(아직 활성화되지 않은 경우).
 
-   ![데이터 보기 구성](assets/dataview-configure.png)
+
 1. [!UICONTROL 설정], [!UICONTROL 컨테이너] 및 [!UICONTROL 캘린더] 세부 정보를 지정합니다(아래 참조).
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -56,10 +69,10 @@ ht-degree: 99%
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL **연결**] | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
-| [!UICONTROL **이름**] | 필수. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운 목록에 이 값이 표시됩니다. |
-| [!UICONTROL **외부 ID**] | 필수. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 `unspecified`입니다. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백은 밑줄로 대체됩니다. |
-| [!UICONTROL **설명**] | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
+| **[!UICONTROL 연결]** | 이 필드는 하나 이상의 Adobe Experience Platform 데이터 세트가 포함되어 있으며 이전에 설정한 연결에 데이터 보기를 연결합니다. |
+| **[!UICONTROL 이름]** | 필수. 데이터 이름 보기. Analysis Workspace의 오른쪽 드롭다운 목록에 이 값이 표시됩니다. |
+| **[!UICONTROL 외부 ID]** | 필수. 비즈니스 인텔리전스 도구와 같은 외부 소스에서 사용할 수 있는 데이터 보기의 이름입니다. 기본값은 `unspecified`입니다. 외부 ID를 지정하지 않으면 데이터 보기의 이름에서 이름이 생성되며 공백은 밑줄로 대체됩니다. |
+| **[!UICONTROL 설명]** | 선택 사항. Adobe는 사용자가 데이터 보기가 존재하는 이유와 설계 대상을 이해할 수 있도록 자세한 설명을 권장합니다. |
 
 {style="table-layout:auto"}
 
@@ -92,9 +105,13 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL **개인 컨테이너 이름**] | [!UICONTROL 개인] (기본값). [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 개인에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
-| [!UICONTROL **세션 컨테이너 이름**] | [!UICONTROL 세션] (기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 ‘방문’ 또는 조직이 원하는 다른 용어로 바꿀 수 있습니다. |
-| [!UICONTROL **이벤트 컨테이너 이름**] | [!UICONTROL 이벤트] (기본값). [!UICONTROL 이벤트] 컨테이너는 데이터 세트의 개별 이벤트를 정의합니다. 조직이 서로 다른 용어(예: “히트” 또는 “페이지 조회수”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 전역 계정 컨테이너 이름&#x200B;]** | `Global Account`(기본값). [!UICONTROL 전역 계정] 컨테이너에는 지정된 기간 내의 전역 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 계정 컨테이너 이름&#x200B;]** | `Account`(기본값). [!UICONTROL Account] 컨테이너에는 지정된 기간 내의 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 영업 기회 컨테이너 이름&#x200B;]** | `Opportunity`(기본값). [!UICONTROL 영업 기회] 컨테이너에는 지정된 시간대 내의 영업 기회에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 구매 그룹 컨테이너 이름&#x200B;]** | `Buying Group`(기본값). [!UICONTROL 구매 그룹] 컨테이너에는 지정된 기간 내에 구매 그룹을 위한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| **[!UICONTROL 개인 컨테이너 이름]** | `Person`(기본값). [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 개인에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
+| **[!UICONTROL 세션 컨테이너 이름]** | `Session`(기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 ‘방문’ 또는 조직이 원하는 다른 용어로 바꿀 수 있습니다. |
+| **[!UICONTROL 이벤트 컨테이너 이름]** | `Event`(기본값). [!UICONTROL 이벤트] 컨테이너는 데이터 세트의 개별 이벤트를 정의합니다. 조직이 서로 다른 용어(예: “히트” 또는 “페이지 조회수”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -179,5 +196,11 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 ### 세션 설정
 
 세션이 만료되기 전에 이벤트 간의 비활성 기간을 결정하면 새 세션이 시작됩니다. 기간은 필수 입력 항목입니다. 이벤트에 특정 지표가 포함되면 새 섹션이 강제로 시작될 수도 있습니다. 자세한 내용은 [세션 설정](session-settings.md)을 참조하시기 바랍니다.
+
+### 데이터 미리보기
+
+데이터 미리 보기는 이 데이터 보기의 데이터를 연결의 데이터와 비교합니다(다양한 컨테이너에 대해). 미리보기 비율은 지난 90일 동안의 총 연결 수를 기반으로 합니다.
+
+미리보기를 로드하지 않는 경우 연결이 여전히 다시 채워질 수 있습니다.
 
 원하는 설정이 모두 지정되면 **[!UICONTROL 저장]**&#x200B;을 클릭하고 마칩니다.

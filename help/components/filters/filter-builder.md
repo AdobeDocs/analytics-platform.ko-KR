@@ -1,12 +1,12 @@
 ---
-description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 Dimension, 필터 및 이벤트를 필터 개인으로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이 통합 개발 도구를 사용하여 방문과 이벤트 전반에 걸쳐 개인 속성 및 작업을 식별하는 간단하거나 복잡한 필터를 작성하고 저장할 수 있습니다.
+description: 필터 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 필터 및 이벤트를 필터 개인으로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이 통합 개발 도구를 사용하여 방문과 이벤트 전반에 걸쳐 개인 속성 및 작업을 식별하는 간단하거나 복잡한 필터를 작성하고 저장할 수 있습니다.
 title: 필터 빌드
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1570'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 10%
 정의의 유형과 범위를 구성할 수 있습니다.
 
 1. 정의 유형을 지정하려면 빌드에 포함 또는 제외 정의를 사용할지 여부를 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 토글 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;에서 선택합니다.
-1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운에서 정의 범위를 **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 개인]**&#x200B;으로 지정할지 여부를 선택합니다.
+1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운에서 정의 범위를 **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]**, **[!UICONTROL 개인]**, **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 영업 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} 또는 **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} 중 하나를 선택합니다
 
 이 설정은 나중에 언제든지 변경할 수 있습니다.
 
@@ -88,7 +88,7 @@ ht-degree: 10%
 
 구성 요소를 추가하려면 다음 작업을 수행하십시오.
 
-1. 구성 요소 패널의 구성 요소를 **[!UICONTROL 여기로 지표, 필터 및/또는 Dimension 드래그 앤 드롭]**&#x200B;합니다. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
+1. 구성 요소 패널에서 **[!UICONTROL 여기에 지표, 필터 및/또는 차원을 드래그 앤 드롭하십시오]**. 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정할 수 있는 대상 및 방법은 구성 요소와 연산자에 따라 다릅니다.
 1. 필요한 경우 기본 연산자를 수정합니다. 예를 들어 **[!UICONTROL equals]**&#x200B;부터 **[!UICONTROL 까지]**&#x200B;과(와) 같습니다. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](operators.md)를 참조하십시오.
 
@@ -113,7 +113,7 @@ ht-degree: 10%
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널의 구성 요소를 컨테이너로 끌어다 놓습니다. 파란색 삽입 줄을 안내선으로 사용하십시오.
 * 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너 외부지만 기본 정의 컨테이너 내부에 있는 구성 요소를 드래그하여 놓습니다. 파란색 삽입 줄을 안내선으로 사용합니다.
 * 컨테이너의 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을(를) 선택하십시오. 다음 을 선택하면 필터가 순차적 필터로 전환됩니다. 자세한 내용은 [순차적 필터 만들기](seg-sequential-build.md)를 참조하십시오.
-* 컨테이너 수준을 전환하려면 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 이벤트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]** 또는 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 사용자]**&#x200B;를 선택하십시오.
+* 컨테이너 수준을 전환하려면 ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL 전역 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![계정](/help/assets/icons/Account.svg) **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![기회](/help/assets/icons/Opportunity.svg) **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![구매 그룹](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, ![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 이벤트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]** 또는 ![을(를) 선택하십시오. 사용자](/help/assets/icons/User.svg) **[!UICONTROL 개인]**.
 
 컨테이너에서 다음 작업에 ![설정](/help/assets/icons/Setting.svg)을(를) 사용할 수 있습니다.
 
@@ -135,7 +135,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

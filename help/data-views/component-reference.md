@@ -5,10 +5,10 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 86%
 
 ---
 
@@ -27,6 +27,10 @@ Customer Journey Analytics의 차원 및 지표 대부분은 Adobe Experience Pl
 | 구성 요소 이름 | 차원 또는 지표 | 참고 |
 | --- | --- | --- |
 | [!UICONTROL 사람] | 지표 | [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
+| [!UICONTROL 계정] | 지표 | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
+| [!UICONTROL 글로벌 계정] | 지표 | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
+| [!UICONTROL 기회] | 지표 | [!UICONTROL 연결]에 지정된 영업 기회 ID를 기반으로 하는 영업 기회입니다. |
+| [!UICONTROL 그룹 구매] | 지표 | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
 | [!UICONTROL 세션] | 지표 | 데이터 보기의 세션 설정을 기반으로 합니다. |
 | [!UICONTROL 이벤트] | 지표 | [!UICONTROL 연결]의 모든 이벤트 데이터 세트의 행 수입니다. |
 | [!UICONTROL 초] | 차원 | 특정 이벤트기 발생한 시간(초)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시산(초)이고 마지막 차원 항목은 날짜 범위에서 마지막 시간(초)입니다. |
@@ -61,9 +65,13 @@ Customer Journey Analytics의 차원 및 지표 대부분은 Adobe Experience Pl
 | [!UICONTROL 복귀 세션] | 지표 | 개인의 첫 번째 세션이 아닌 세션 수입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 개인 ID] | 차원 | Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이들 ID 중 원하는 ID를 개인 ID로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등이 있습니다. [!UICONTROL 개인 ID] 차원은 데이터 세트를 결합하고 Customer Journey Analytics에서 고유 사용자를 식별하는 기반입니다.<p>가능한 사용 사례는 다음과 같습니다.<ul><li>특정 개인 ID 값에 대한 필터를 생성하여 해당 사용자의 비헤이비어를 포함한 모든 사항을 필터링합니다.</li><li>디버깅: 특정 쿠키 ID(또는 특정 고객 ID)에 대한 데이터가 있는지 확인합니다.</li><li>콜센터를 이용한 사용자를 식별합니다.</li></ul> |
 | [!UICONTROL 개인 ID 네임스페이스] | 차원 | [!UICONTROL 개인 ID]로 구성된 ID 유형입니다. 예는 `email address`, `cookie ID`, `Analytics ID`와 같습니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 글로벌 계정 ID] | 차원 | [!UICONTROL 전역 계정 ID]&#x200B;(연결에서 전역 계정 컨테이너를 사용하는 경우). |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 계정 ID] | 차원 | [!UICONTROL 계정 ID]&#x200B;(연결에서 계정 컨테이너를 사용하는 경우). |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 영업 기회 ID] | 차원 | [!UICONTROL 기회 ID]&#x200B;(연결에서 기회 컨테이너를 사용하는 경우). |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 구매 그룹 ID] | 차원 | 연결에서 구매 그룹 컨테이너를 사용하는 경우 [!UICONTROL 구매 그룹 ID]입니다. |
 | [!UICONTROL 사분기] | 차원 시간 분할 | Q1, Q2, Q3, Q4 |
 | [!UICONTROL 세션 반복] | 지표 | 개인의 첫 번째 세션이 아닌 세션의 수입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
-| [!UICONTROL 세션 유형] | 차원 | 이 차원에는 1) [!UICONTROL 첫 방문] 및 2) 재방문의 두 가지 값이 있습니다. [!UICONTROL 첫 방문] 라인 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우, 지표는 이 차원의 ‘해당되지 않음&#39; 버킷에 표시됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
+| [!UICONTROL 세션 유형] | 차원 | 이 차원에는 두 개의 값 1이 있습니다. [!UICONTROL 처음] 및 2. 돌아가기. [!UICONTROL 첫 방문] 라인 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 활동(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우, 지표는 이 차원의 ‘해당되지 않음&#39; 버킷에 표시됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 이벤트당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 이벤트] 버킷에 버킷팅합니다. |
 | [!UICONTROL 세션당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 세션] 버킷에 버킷팅합니다. |
 | [!UICONTROL 사용자당 소비한 시간] | 차원 | [!UICONTROL 소비한 시간] 지표를 [!UICONTROL 개인] 버킷에 버킷팅합니다. |
