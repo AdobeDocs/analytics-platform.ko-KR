@@ -4,7 +4,7 @@ description: 필터를 사용하는 이유 및 간단한 필터를 만드는 방
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 8%
@@ -20,11 +20,11 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 필터를 
 
 - 속성(브라우저 유형, 디바이스, 방문 횟수, 국가, 성별),
 - 상호 작용(캠페인, 키워드 검색, 검색 엔진)
-- 종료 및 시작(Facebook, 정의된 랜딩 페이지, 참조 도메인, geofence 이벤트의 개인),
+- 종료 및 시작(Facebook, 정의된 랜딩 페이지, 참조 도메인, geofence 이벤트의 사용자),
 - 사용자 지정 변수(양식 필드, 정의된 카테고리, 고객 ID)
 - 및 기타 기준.
 
-필터를 만드는 데 사용할 수 있는 다양한 옵션은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. 그런 다음 [필터 빌더](filter-builder.md)에서 필터 정의를 빌드, 수정 및 저장합니다. 또는 [빠른 필터 게시자](quick-filters.md)를 사용하여 빠른 필터를 만들 수 있습니다. 또한 [폴아웃](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) 시각화를 사용하는 등 Workspace의 시각화에서 필터를 생성할 수도 있습니다.
+필터를 만드는 데 사용할 수 있는 다양한 옵션은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. 그런 다음 [필터 빌더](filter-builder.md)에서 필터 정의를 빌드, 수정 및 저장합니다. 또는 [빠른 필터 빌더](quick-filters.md)를 사용하여 빠른 필터를 만들 수 있습니다. 또한 [폴아웃](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) 시각화를 사용하는 등 Workspace의 시각화에서 필터를 생성할 수도 있습니다.
 
 [필터 관리자](manage-filters.md)를 사용하여 필터를 관리합니다.
 
@@ -41,7 +41,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 필터를 
 
 - **구성 요소**: 필터 정의에 포함할 구성 요소와 조건이 유효성을 검사해야 하는 값을 결정합니다.
 
-- **프로세스**: 필터에 대한 승인 프로세스를 고려하십시오. Customer Journey Analytics에 승인 워크플로가 없지만 필터를 승인할지 여부를 결정하는 프로세스를 구성할 수 있습니다.
+- **프로세스**: 필터에 대한 승인 프로세스를 고려하십시오. Customer Journey Analytics에는 승인 워크플로가 없지만 필터를 승인할지 여부를 결정하는 프로세스를 구성할 수 있습니다.
 
 - **모듈화**: 모듈화를 염두에 두고 필터를 정의합니다. 따라서 필터 사용자는 필터를 [스택](filter-builder.md#stack-filters)하여 강력한 새 필터를 쉽게 만들 수 있습니다.
 
@@ -146,7 +146,7 @@ An example of a complex sequential filter if you want to find the persons that
 - 기여도 지표.
 - 선형 할당 지표.
 
-Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 시간과 새 세션을 만들어야 하는 시간을 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 자세한 내용은 [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
+Customer Journey Analytics의 데이터 보기를 사용하면 세션 지속 시간과 새 세션을 만들어야 하는 시간을 결정할 수 있습니다. 예를 들어 사용자가 모바일 앱을 시작할 때마다 를 기반으로 새 모바일 앱 세션을 정의할 수 있습니다. 자세한 내용은 [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
 
 ### 이벤트 컨테이너
 
@@ -164,7 +164,7 @@ Customer Journey Analytics의 데이터 보기를 사용하여 세션 지속 시
 
 ### 논리 그룹 컨테이너
 
-논리 그룹을 사용하면 조건을 하나의 순차적 필터 체크포인트로 그룹화할 수 있습니다. 시퀀스의 일부로, [!UICONTROL 논리 그룹](으)로 식별된 컨테이너에 정의된 논리는 이전의 순차적 체크포인트 후와 다음의 순차적 체크포인트 전에 평가됩니다. 자세한 내용은 [논리 그룹](seg-sequential-build.md#logic-group)을 참조하세요.
+논리 그룹을 사용하면 조건을 하나의 순차적 필터 체크포인트로 그룹화할 수 있습니다. 시퀀스의 일부로, [!UICONTROL 논리 그룹]&#x200B;(으)로 식별된 컨테이너에 정의된 논리는 이전의 순차적 체크포인트 후와 다음의 순차적 체크포인트 전에 평가됩니다. 자세한 내용은 [논리 그룹](seg-sequential-build.md#logic-group)을 참조하세요.
 
 ### 컨테이너 중첩
 

@@ -4,9 +4,9 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
+source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1988'
 ht-degree: 8%
 
 ---
@@ -192,9 +192,21 @@ _이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
 ### Journey Optimizer과 여정 캔버스 간 동기화
 
-여정 캔버스에서 Journey Optimizer 여정 분석을 만들면 데이터가 Journey Optimizer에서 여정 캔버스에 이르기까지 한 방향으로만 동기화됩니다. 즉, 여정 캔버스에서 여정에 수행된 변경 사항이 Journey Optimizer에 반영되지 않습니다.
+Journey Optimizer과 여정 캔버스 간의 동기화를 이해하려면 다음 동작을 고려하십시오.
 
-또한 Journey Optimizer의 여정에 대한 변경 사항은 여정 캔버스에서 여정이 크게 수정되지 않은 경우에만 [여정 캔버스와 동기화됩니다](#differences-after-modifying-a-journey-in-journey-canvas). 여정 캔버스에서 여정을 수정한 후에는 Journey Optimizer의 여정에 대한 모든 변경 사항이 여정 캔버스에 반영되지 않습니다. 여정 캔버스에 반영된 변경 내용을 보려면 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+* **데이터 동기화는 단방향입니다**
+
+  여정 캔버스에서 Journey Optimizer 여정 분석을 만들면 데이터가 Journey Optimizer에서 여정 캔버스에 이르기까지 한 방향으로만 동기화됩니다. 즉, 여정 캔버스에서 여정에 수행된 변경 사항이 Journey Optimizer에 반영되지 않습니다.
+
+* **여정 캔버스에서 여정을 수정하면 동기화가 중지됨**
+
+  여정 캔버스에서 여정이 크게 수정되지 않은 경우에만 [여정 캔버스와 동기화되는 Journey Optimizer의 여정 변경](#differences-after-modifying-a-journey-in-journey-canvas). 여정 캔버스에서 여정을 수정한 후에는 Journey Optimizer의 여정에 대한 모든 변경 사항이 여정 캔버스에 반영되지 않습니다. 여정 캔버스에 반영된 변경 내용을 보려면 여정 캔버스에서 여정을 삭제하고 [다시 만들 수 있습니다](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+
+* **&quot;모든 사람과 공유&quot; 링크를 사용하려면 Journey Optimizer에서 변경한 후 프로젝트가 Customer Journey Analytics에 저장되어야 합니다.**
+
+  &quot;모든 사람과 공유&quot; 링크를 사용하는 경우 프로젝트가 Customer Journey Analytics에 저장될 때까지 Journey Optimizer에서 변경한 내용이 여정 캔버스에 반영되지 않습니다.
+
+  &quot;모든 사람과 공유&quot; 링크에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [모든 사람과 프로젝트 공유(더 이상 필요하지 않음)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오.
 
 ### 여정 캔버스에서 여정 수정 후의 차이점 {#differences-after-modifying}
 
