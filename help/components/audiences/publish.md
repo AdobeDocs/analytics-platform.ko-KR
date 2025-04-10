@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
+source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 18%
+source-wordcount: '2350'
+ht-degree: 15%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 18%
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
    | **[!UICONTROL 대상]** 인터페이스 내에서 | 기본 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**&#x200B;을 선택합니다. Audiences 인터페이스가 표시됩니다. **[!UICONTROL 대상 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상 빌더]가 열립니다. |
-   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화를 사용하면 컨텍스트 메뉴를 사용하여 대상을 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 있는 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)에 있는 노드의 컨텍스트 메뉴에서 **[!UICONTROL 대상 만들기]**&#x200B;를 선택할 수 있습니다.<p>이 방법을 사용하면 대상 빌더의 필터가 선택한 차원 또는 차원 항목으로 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 대상을 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[흐름](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 대상에는 계산된 지표를 포함할 수 없습니다. 계산된 지표를 포함하는 대상을 만들려고 하면 계산된 지표는 대상 정의에 포함되지 않습니다.</p> |
+   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화를 사용하면 컨텍스트 메뉴를 사용하여 대상을 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 있는 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)에 있는 노드의 컨텍스트 메뉴에서 **[!UICONTROL 대상 만들기]**&#x200B;를 선택할 수 있습니다.<p>이 방법을 사용하면 대상 빌더의 필터가 선택한 차원 또는 차원 항목으로 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 대상을 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 대상에는 계산된 지표를 포함할 수 없습니다. 계산된 지표를 포함하는 대상을 만들려고 하면 계산된 지표는 대상 정의에 포함되지 않습니다.</p> |
    | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
 
    {style="table-layout:auto"}
@@ -86,7 +86,7 @@ ht-degree: 18%
 1. 대상 구성을 다시 확인하고 **[!UICONTROL 게시]**를 선택합니다.
 대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 게시 작업이 불과 1~2분 정도 소요됩니다.
 
-1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 선택하면 Adobe Experience Platform의 [세그먼트 UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview)&#x200B;(으)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
+1. 동일한 메시지 내에서 **[!UICONTROL AEP에서 대상 보기]**&#x200B;를 선택하면 Adobe Experience Platform의 [세그먼트 UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview)&#x200B;(으)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
 ## 대상자 빌더
 
@@ -169,6 +169,38 @@ Platform에서 Customer Journey Analytics 대상자를 보려면 다음 작업�
 
 플랫폼에서 대상을 사용하는 방법에 대한 자세한 내용은 Experience Platform 설명서의 [세그먼트 빌더 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)에서 [대상](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) 섹션을 참조하십시오.
 
+### Customer Journey Analytics과 Real-Time Customer Data Platform 간의 대상자 수 불일치 이해
+
+Customer Journey Analytics과 Real-Time Customer Data Platform 간에 대상자 수가 일치하지 않을 수 있습니다. 아래 사항은 이러한 차이점에 대한 자세한 설명을 제공합니다.
+
+![Customer Journey Analytics과 Real-Time CDP 간의 대상 차이에 대한 인포그래픽.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+
+**확률론적 대 결정론적 수**
+
+대상 멤버십 번호가 계산되는 방법은 아래 설명된 대로 두 앱 간에 다릅니다.
+
+* **Customer Journey Analytics**: Customer Journey Analytics의 **[!UICONTROL 총 사용자 수]** 지표는 예상 값입니다. 즉, 카운트는 대상자의 규칙에 따른 예측이며 새로 고침 간격 사이에 변경될 수 있습니다.
+* **Real-Time Customer Data Platform**: Real-Time Customer Data Platform의 개수는 일일 평가 작업을 기반으로 결정적이며, 대상자가 대상 포털에 게시를 완료할 때 수정됩니다.
+
+**게시 간격 및 속도**
+
+대상자가 Real-Time Customer Data Platform에 초당 1500개의 레코드(RPS) 속도로 게시됩니다. 예를 들어, 2천만 명의 회원을 대상으로 완전히 게시하는 데 약 3.7시간이 소요됩니다(20M/1500 RPS/시간 당 3600초). 이 기간 동안 두 앱 간의 대상자 멤버십에 차이가 있을 수 있습니다.
+
+**프로필 조각**
+
+Customer Journey Analytics에서 가져온 프로필이 Real-Time Customer Data Platform에 이미 있는 경우 새 프로필로 계산되지 않습니다. 이로 인해 Real-Time Customer Data Platform에서 예상보다 낮은 프로필 수가 발생할 수 있습니다.
+
+**일괄 처리와 스트리밍 대상**
+
+Customer Journey Analytics 대상은 일일 일괄 처리 평가 작업에 포함되지 않으며 다음 게시 간격까지 고정된 상태를 유지합니다. 반면 Real-Time Customer Data Platform의 다른 배치 대상은 24시간마다 재평가됩니다.
+
+### 기억해야 할 주요 방법
+
+* **Customer Journey Analytics의 예상 개수**: Customer Journey Analytics의 **[!UICONTROL 총 인원]** 개수는 예상 개수이며 스트리밍 데이터 및 ID 동작으로 인해 달라질 수 있습니다.
+* **Real-Time Customer Data Platform의 결정적 개수**: Real-Time Customer Data Platform의 개수는 고정되어 있으며 다음 게시 간격까지 변경되지 않습니다.
+* **프로필 조각**: Customer Journey Analytics에서 가져올 때 Real-Time Customer Data Platform의 기존 프로필이 새 프로필 수에 기여하지 않을 수 있습니다.
+
+이러한 측면을 명확하게 구분하면 Customer Journey Analytics 및 Real-Time Customer Data Platform에서 대상 데이터를 더 잘 이해하고 관리할 수 있습니다.
 
 ## FAQ {#faq}
 
