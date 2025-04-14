@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
+source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1878'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
    1. [!UICONTROL AI 길잡이: 제품 기술 자료]에 액세스할 수 있는 제품 프로필의 제목을 선택합니다.
    1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 보고 도구]**&#x200B;를 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요.
-   1. **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **AI Assistant: 데이터 시각화**&#x200B;를 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택하십시오.
+   1. ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택하여 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **AI 길잡이: 제품 지식** 및 **AI 길잡이: 데이터 분석**&#x200B;을(를) 추가합니다.
 
       ![권한 추가](assets/ai-assistant-permissions.png).
 
