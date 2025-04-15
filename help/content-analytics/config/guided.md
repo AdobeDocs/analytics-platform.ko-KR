@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
+source-git-commit: e3f0a7b9958151d678810bbe84740dd4d30b49e5
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 24%
+source-wordcount: '2570'
+ht-degree: 21%
 
 ---
 
@@ -99,13 +99,13 @@ Content Analytics 구성에 액세스하려면
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="새로운 데이터 보기"
+>title="새 데이터 보기"
 >abstract="새로운 데이터 보기를 선택하면 Content Analytics 지표와 차원이 포함되도록 해당 데이터 보기가 업데이트됩니다. 필요한 경우 연관된 연결도 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 현재 Content Analytics에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
 >title="선택한 데이터 보기 정리"
->abstract="Content Analytics에 이미 프로비저닝된 데이터 보기를 선택했습니다. 해당 기존 Content Analytics 구성이 제거되고 데이터 보기에 새 구성이 프로비저닝됩니다."
+>abstract="Content Analytics에 대해 이미 프로비저닝된 데이터 보기를 선택했습니다. 기존 Content Analytics 구성이 제거되고 데이터 보기가 새 구성으로 프로비저닝됩니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
@@ -120,11 +120,11 @@ Content Analytics 구성에 액세스하려면
 
    * 구성에 대한 새 데이터 보기를 선택하려면 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL 데이터 보기 선택]**&#x200B;을 사용하세요.
 
-     데이터 보기의 ![콘텐츠 분석 구성](../assets/aca-configuration-dataview.png)
+     데이터 보기의 ![Content Analytics 구성](../assets/aca-configuration-dataview.png)
 
    * 구성에 대한 데이터 보기를 수정하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하세요.
 
-     데이터 보기의 ![콘텐츠 분석 구성](../assets/aca-configuration-dataview-edit.png)
+     데이터 보기의 ![Content Analytics 구성](../assets/aca-configuration-dataview-edit.png)
 
 
    두 시나리오 모두에 구성에 대한 데이터 보기를 선택할 수 있는 **[!UICONTROL 데이터 보기]** 대화 상자가 표시됩니다.
@@ -145,7 +145,7 @@ Content Analytics 구성에 액세스하려면
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 데이터 보기를 확인합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
 
-Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 선택한 데이터 보기에 따라 **[!UICONTROL 샌드박스]**&#x200B;가 샌드박스 이름으로 자동 채워집니다.
+Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.md)는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 **[!UICONTROL 샌드박스]**&#x200B;는 선택한 데이터 보기에 따라 샌드박스 이름으로 자동 채워집니다.
 
 
 ### 경험 캡처 및 정의 {#onboarding-experiences}
@@ -155,7 +155,7 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
 >title="경험 캡처 및 정의"
->abstract="콘텐츠 분석을 통해 수집한 데이터에 경험을 포함하도록 선택할 수 있습니다. 선택한 경우 정규 표현식과 쿼리 매개변수의 조합을 하나 이상 설정하여 경험을 포함할 URL을 정의해야 합니다."
+>abstract="Content Analytics으로 수집하는 데이터에 경험을 포함하도록 선택할 수 있습니다. 선택한 경우 정규 표현식과 쿼리 매개변수의 조합을 하나 이상 설정하여 경험을 포함할 URL을 정의해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
@@ -168,13 +168,23 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 >abstract="웹 사이트에서 콘텐츠가 렌더링되는 방식을 결정하는 매개변수를 지정합니다."
 
 >[!CONTEXTUALHELP]
+>id="aca_onboarding_experiencecapture_new_include_experiences"
+>title="경험 캡처 및 정의"
+>abstract="활성화되면 경험 데이터가 수집되고 경험 속성이 생성되며 경험 보고를 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_experiencecapture_edit_include_experiences"
+>title="경험 캡처 및 정의"
+>abstract="활성화되면 경험 데이터가 수집되고 경험 속성이 생성되며 경험 보고를 사용할 수 있습니다. <br><br/>Use ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to modify the data collection configuration for experiences in the Tags property that is associated with the current configuration."
+
+>[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="경험 캡처 및 정의"
->abstract="현재 구성과 연결된 태그 속성의 Adobe Content Analytics 확장 기능에서 설정을 편집할 수 있습니다."
+>abstract="현재 구성과 연결된 태그 속성의 Adobe Content Analytics 확장에서 경험 데이터 수집에 대한 설정을 편집해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-이 섹션에서는 컨텐츠 분석으로 수집하는 데이터에 경험을 포함하도록 선택할 수 있습니다.  경험은 웹 페이지를 방문한 초기 사용자가 사용한 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다.
+이 섹션에서는 Content Analytics으로 수집하는 데이터에 경험을 포함하도록 선택할 수 있습니다.  경험은 웹 페이지를 방문한 초기 사용자가 사용한 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다.
 
 기본적으로 **[!UICONTROL 경험 포함]**&#x200B;이 꺼져 있습니다. 선택한 경우 경험을 포함할 URL을 정의해야 합니다.
 
@@ -199,11 +209,14 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 1. 도메인 정규식과 쿼리 매개 변수의 조합을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 선택하십시오.
 1. 정규 표현식과 쿼리 매개 변수의 다른 조합을 추가하려면 **[!UICONTROL 정규 표현식 추가]**&#x200B;를 선택합니다.
 
-기존 경험을 편집하거나 구현된 구성에 새 경험을 포함하려면 다음을 수행하십시오.
+구현된 구성에서 기존 경험을 편집하거나 새 경험을 포함하려면 다음을 수행하십시오.
 
-![콘텐츠 분석 구성 경험 캡처 및 정의](../assets/aca-configuration-experience-edit.png)
+![Content Analytics 구성 경험 캡처 및 정의](../assets/aca-configuration-experience-edit.png)
 
-* **[!UICONTROL 경험 포함]**&#x200B;을 전환하여 Analysis Workspace에서 경험 구성 요소, 시각화, 패널 및 템플릿의 가용성을 활성화하거나 비활성화합니다.
+* 활성화하거나 비활성화하려면 **[!UICONTROL 경험 포함]** 전환:
+
+   * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스입니다
+   * Customer Journey Analytics의 보고 템플릿입니다.
 
 * Content Analytics의 경험에 대한 데이터 수집 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
 
@@ -291,7 +304,7 @@ Customer Journey Analytics에서 데이터 보기는 Customer Journey Analytics 
 
 >[!IMPORTANT]
 >
->Javascript를 사용하고 태그를 사용하지 않는 기존 웹 SDK 구현이 있는 경우 새로 만든 태그 속성에서 자동으로 포함된 웹 SDK 확장을 수동으로 제거해야 합니다.
+>[Javascript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)를 사용하고 [Tags 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 사용하지 않는 기존 웹 SDK 구현이 있는 경우 새로 만든 Tags 속성에서 자동으로 포함된 웹 SDK 확장을 수동으로 제거해야 합니다.
 
 
 
