@@ -1,11 +1,11 @@
 ---
-title: 콘텐츠 분석 구성
-description: 콘텐츠 분석 구성 방법에 대한 개요
+title: Configure Content Analytics
+description: An overview of how to configure Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 320b1cb94f63d0e6813999c1dc293b7e78ac7845
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -35,11 +35,11 @@ Content Analytics의 구성은 다음 단계로 구성됩니다.
 Content Analytics을 구성하기 전에 다음 전제 조건이 충족되는지 확인하십시오.
 
 * 콘텐츠 분석에 사용되는 기능 서비스에 대한 사용자 에이전트 및 IP 주소를 허용 목록에 추가했습니다. 구성할 사용자 에이전트 문자열: <code>AdobeFeatuization/1.0</code>.
-* 일반 동작 데이터 수집을 위해 [Javascript를 사용하여 웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"}을(를) 구현한 경우 기본 이름 <code>alloy를 사용하고 있는지 확인하십시오</code> Javascript 라이브러리용.
+* 일반 동작 데이터 수집을 위해 [JavaScript를 사용하여 웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"}을 구현한 경우 기본 이름 <code>alloy를 사용하고 있는지 확인하십시오</code> Javascript 라이브러리용.
 * 연결을 관리하고 데이터 보기를 관리할 수 있는 추가 권한이 있는 Customer Journey Analytics 제품 관리자 역할이 있습니다.
 * 데이터 수집에 대한 [권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}이 있어야 합니다. 이러한 권한은 다음으로 구성됩니다.
    * [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Experience Platform 데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
+   * [Experience Platform 데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * 다음과 같은 중요한 구성 옵션을 신중하게 고려했습니다.
 
    * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때만 가능합니다.
