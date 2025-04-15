@@ -5,8 +5,8 @@ feature: Workspace Basics
 title: Workspace 단축키를 사용하는 방법
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | 경고 만들기 | **[!UICONTROL *Cmd + Shift + A *]** | **[!UICONTROL *Ctrl + Shift + A *]** |
 | 계산된 지표 만들기 | **[!UICONTROL *Cmd + Shift + C *]** | **[!UICONTROL *Ctrl + Shift + C *]** |
 | 날짜 범위 만들기 | **[!UICONTROL *Cmd + Shift + D *]** | **[!UICONTROL *Ctrl + Shift + D *]** |
-| 필터 만들기 | **[!UICONTROL *Cmd + Shift + E *]** | **[!UICONTROL *Ctrl + Shift + E *]** |
+| 세그먼트 만들기 | **[!UICONTROL *Cmd + Shift + E *]** | **[!UICONTROL *Ctrl + Shift + E *]** |
 | 모두 지우기 | **[!UICONTROL *Alt + W *]** | **[!UICONTROL *Opt + W *]** |
 | 복사 | **[!UICONTROL *Cmd + C *]** | **[!UICONTROL *Ctrl + C *]** |
 | 다시 실행 | **[!UICONTROL *Cmd + Shift + Z *]** | **[!UICONTROL *Ctrl + Shift + Z *]** |

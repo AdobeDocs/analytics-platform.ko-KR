@@ -4,10 +4,10 @@ title: 예외 항목 탐지에서 사용된 통계 기법
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 
 ## 일별 세부 기간에 대한 예외 항목 탐지
 
-일별 세부 기간 보고서의 경우, 알고리즘에서는 가능한 가장 정확한 결과를 제공하기 위해 몇 가지 중요한 요인들을 고려합니다. 우선, 알고리즘에서 두 클래스 (시계열 기반 모델 또는 이상 값 감지 모델) 중에 선택하는 항목의 사용 가능한 데이터를 기반으로 적용할 모델 유형을 결정합니다 (기능 필터링이라고 함).
+일별 세부 기간 보고서의 경우, 알고리즘에서는 가능한 가장 정확한 결과를 제공하기 위해 몇 가지 중요한 요인들을 고려합니다. 먼저, 알고리즘에서는 두 클래스(시계열 기반 모델 또는 이상 값 감지 모델) 중에서 선택하는 항목의 사용 가능한 데이터를 기반으로 적용할 모델 유형을 결정합니다(기능 세그먼트화라고 함).
 
 시계열 모델의 선택은 오류 유형, 트렌드 및 시즌 (ETS)에 대한 다음의 조합을 기반으로 합니다 ([Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168))에 설명됨. 특히, 알고리즘에서는 다음의 조합을 시도합니다.
 
@@ -29,7 +29,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 1. MNA (multiplicative error, no trend, additive seasonality)
 1. AAN (additive error, additive trend, no seasonality)
 
-알고리즘에서는 다음 중 MAPE (mean absolute percentage error)가 가장 좋은 하나를 선택하여 각의 적합성을 테스트합니다. 하지만, 가장 좋은 시계열 모델의 MAPE가 15%를 넘는 경우, 기능 필터링이 적용됩니다. 일반적으로, 반복 내용이 많은 데이터 (예: 주 단위 또는 월 단위 반복)는 시계열 모델에 가장 적합합니다.
+알고리즘에서는 다음 중 MAPE (mean absolute percentage error)가 가장 좋은 하나를 선택하여 각의 적합성을 테스트합니다. 그러나 최상의 시계열 모델의 MAPE가 15%보다 크면 기능적 세그먼트화가 적용됩니다. 일반적으로, 반복 내용이 많은 데이터 (예: 주 단위 또는 월 단위 반복)는 시계열 모델에 가장 적합합니다.
 
 모델 선택 후에는 알고리즘이 휴일과 연 단위 시즌을 기반으로 결과를 조정합니다. 휴일의 경우, 알고리즘에서는 다음 휴일 중 보고 날짜 범위에 있는 것이 있는지 확인합니다.
 

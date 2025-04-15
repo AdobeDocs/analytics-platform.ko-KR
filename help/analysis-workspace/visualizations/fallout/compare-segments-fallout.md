@@ -1,20 +1,20 @@
 ---
-description: 터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, Analysis Workspace의 다양한 필터 간에 주요 워크플로를 비교할 수 있습니다.
-keywords: 폴아웃 및 필터;폴아웃 분석의 필터;폴아웃의 필터 비교
-title: 폴아웃 분석에서 필터 적용
+description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
+keywords: 폴아웃 및 세그먼트;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
+title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
-# 폴아웃 분석에서 필터 적용
+# 폴아웃 분석에서 세그먼트 적용
 
-터치 포인트에서 필터를 만들고, 필터를 터치 포인트로 추가하고, Analysis Workspace의 다양한 필터 간에 주요 워크플로를 비교할 수 있습니다.
+터치 포인트에서 세그먼트를 만들고, 필터를 터치 포인트로 추가하고, Analysis Workspace의 다양한 필터 간에 주요 워크플로우를 비교할 수 있습니다.
 
 >[!IMPORTANT]
 >

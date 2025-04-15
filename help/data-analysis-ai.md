@@ -7,10 +7,10 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
 | **시각화 빌드 및 업데이트** | 자유 형식 테이블 및 관련 시각화(예: 선, 막대, 도넛 등)를 생성합니다.<p>예: *2월부터 5월까지 SKU에서 발생한 이익은 무엇입니까?* |
 | **지원되는 시각화 유형** | <ul><li>라인</li><li>다중 라인</li><li>자유 형식 테이블</li><li>막대</li><li>도넛</li><li>요약 숫자</li></ul> |
 | **범위를 벗어난 프롬프트 감지** | &quot;이 프로젝트 내보내기&quot;와 같이 범위를 벗어난 프롬프트를 제출하는 경우 데이터 인사이트 에이전트는 질문이 범위를 벗어났음을 알리는 방식으로 응답합니다. |
-| **명확한 질문** | 데이터 인사이트 에이전트가 대답할 충분한 컨텍스트가 없는 질문을 하거나 일반적이지 않은 질문을 하는 경우 데이터 인사이트 에이전트는 명확한 질문 또는 제안된 옵션으로 응답합니다. 예: <p>**구성 요소**<ul><li>지표: *어떤 &quot;매출&quot; 지표를 의미했습니까?*</li><li>Dimension: *아래 &quot;지역&quot; 중 어떤 것에 집중하시겠습니까?*</li><li>필터: *어떤 &quot;계정&quot; 필터를 적용하시겠습니까?*</li><li>날짜 범위: *지난 달, 마지막 전체 달 또는 마지막 30일을 의미합니까?*</li></ul>**Dimension 항목**: &quot;스토어 이름&quot;을 의미합니까? (예: 스토어 #5274, 스토어 #2949 등) |
+| **명확한 질문** | 데이터 인사이트 에이전트가 대답할 충분한 컨텍스트가 없는 질문을 하거나 일반적이지 않은 질문을 하는 경우 데이터 인사이트 에이전트는 명확한 질문 또는 제안된 옵션으로 응답합니다. 예: <p>**구성 요소**<ul><li>지표: *어떤 &quot;매출&quot; 지표를 의미했습니까?*</li><li>Dimension: *아래 &quot;지역&quot; 중 어떤 것에 집중하시겠습니까?*</li><li>필터: *어떤 &quot;계정&quot; 세그먼트를 적용하시겠습니까?*</li><li>날짜 범위: *지난 달, 마지막 전체 달 또는 마지막 30일을 의미합니까?*</li></ul>**Dimension 항목**: &quot;스토어 이름&quot;을 의미합니까? (예: 스토어 #5274, 스토어 #2949 등) |
 | **다중 회전** | 데이터 인사이트 에이전트는 이전 프롬프트의 컨텍스트에 따라 프롬프트에 응답하므로 사용자가 시각화를 업데이트하고 후속 질문을 할 수 있습니다. 예: <ul><li>프롬프트 1: *3월의 트렌드 이벤트*</li><li>프롬프트 2: *대신 3월에서 4월까지의 데이터 표시*</li></ul> |
 | **확인 가능** | 생성된 자유 형식 테이블 및 데이터 시각화를 통해 데이터 검증 가능성 및 정확성을 확인할 수 있다. 예를 들어, 사용자가 *지난 달 주문 트렌드*&#x200B;에 대해 묻는 경우, 새로 생성된 패널, 데이터 시각화 및 자유 형식 테이블에서 올바른 지표(&quot;주문&quot;) 및 날짜 범위(&quot;지난 달&quot;)가 선택되었는지 확인할 수 있습니다. |
 | **피드백** | <ul><li>엄지 손가락 위로</li><li>엄지 손가락 아래로</li><li>플래그</li></ul> |
@@ -53,16 +53,16 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
 
 * **계약 액세스**: AI Assistant에서 Data Insights 에이전트를 사용할 수 없는 경우 조직의 관리자 또는 Adobe 계정 담당자에게 문의하십시오. 조직에서 데이터 인사이트 에이전트를 사용하려면 먼저 특정 GenAI 관련 법률 용어에 동의해야 합니다.
 
-* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI 도우미: 데이터 시각화]** 권한이 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]에서 다음 단계를 따라야 합니다.
+* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI 도우미: 데이터 시각화]** 권한이 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]의 다음 단계를 따라야 합니다.
    1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**(으)로 이동
    1. [!UICONTROL AI 길잡이: 제품 기술 자료]에 액세스할 수 있는 제품 프로필의 제목을 선택합니다.
    1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL 보고 도구]**&#x200B;를 편집하려면 ![편집](/help/assets/icons/Edit.svg)을 선택하세요.
+   1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
    1. ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택하여 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **AI 길잡이: 제품 지식** 및 **AI 길잡이: 데이터 분석**&#x200B;을(를) 추가합니다.
 
       ![권한 추가](assets/ai-assistant-permissions.png).
 
-   1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
+   1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
@@ -167,7 +167,7 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
 
 * 구체화: 응답 범위를 좁히는 정확한 용어를 포함하십시오. 다음은 특정 프롬프트의 예입니다. &quot;Last month&#39;s sales in California&quot;
 
-* 명확한 지표 및 필터 사용: 특정 지표(&quot;수입&quot; 등), 차원(&quot;웹 사이트 이름&quot; 등), 필터(&quot;iPhone 사용자&quot; 등) 및 날짜 범위(&quot;최근 3개월&quot; 등)를 추가하면 데이터 인사이트 에이전트가 올바른 데이터에 집중할 수 있습니다.
+* 명확한 지표 및 세그먼트 사용: 특정 지표(&quot;수입&quot; 등), 차원(&quot;웹 사이트 이름&quot; 등), 세그먼트(&quot;iPhone 사용자&quot; 등) 및 날짜 범위(&quot;최근 3개월&quot; 등)를 추가하면 Data Insights Agent이 올바른 데이터에 집중할 수 있습니다.
 
 * 직접 질문: 질문을 직접 구문 분석하면 데이터 인사이트 에이전트가 명확하고 관련성 있는 인사이트를 보다 쉽게 제공할 수 있습니다. 다음은 &quot;올해 제품 범주별 평균 매출은 무엇입니까?&quot;라는 질문을 즉석에서 던지는 예입니다.
 
@@ -193,7 +193,7 @@ Data Insights 에이전트에서 응답을 평가할 때는 다음 사항을 고
 
 * 시각화/차트: 시각화를 평가합니다. 질문에 대한 적절한 시각화 또는 예상 시각화입니까? 아니면 다른 시각화를 예상했습니까?
 
-* 자유 형식 테이블: 자유 형식 테이블을 평가합니다. 자유 형식 테이블 데이터가 올바릅니까? 요청한 위치에 데이터를 분류하고 있습니까? 적용된 필터가 요청했거나 예상한 필터입니까?
+* 자유 형식 테이블: 자유 형식 테이블을 평가합니다. 자유 형식 테이블 데이터가 올바릅니까? 요청한 위치에 데이터를 분류하고 있습니까? 적용된 세그먼트가 요청했거나 예상한 세그먼트입니까?
 
 * 오류 메시지 / 범위 외: 질문이 범위를 벗어났음을 나타내는 일반적인 오류 메시지가 표시되는 경우 메시지가 표시되면 범위 외 메시지가 적절하다고 생각하는지 피드백을 제공합니다. 당신의 지시가 실제로 범위 내에 있었습니까?
 

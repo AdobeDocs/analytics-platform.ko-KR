@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |
 |---|---|---|---|
-| **[!UICONTROL 필터 만들기...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+E *]** | 새 [필터](/help/components/filters/create-filters.md)를 만듭니다. |
+| **[!UICONTROL 세그먼트 만들기...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+E *]** | 새 [세그먼트](/help/components/filters/create-filters.md)를 만듭니다. |
 | **[!UICONTROL 지표 만들기...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 새 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만듭니다. |
 | **[!UICONTROL 날짜 범위 만들기...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 새 [날짜 범위](/help/components/date-ranges/overview.md)를 만듭니다. |
 | **[!UICONTROL 주석 만들기...]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 새 [주석](/help/components/annotations/overview.md)을 만듭니다. |
