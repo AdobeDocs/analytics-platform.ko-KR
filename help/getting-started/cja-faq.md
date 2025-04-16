@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 1bea6a1bc7d2070f01a60ef859675a0f9d03c86d
-workflow-type: ht
-source-wordcount: '2582'
-ht-degree: 100%
+source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+workflow-type: tm+mt
+source-wordcount: '2580'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 ## 9. 연결 크기 예측 {#estimate-size}
 
-[사용량 예측 및 관리](/help/technotes/estimate-usage.md)를 참조하십시오.
+[연결 사용](/help/connections/manage-connections.md#usage)을 참조하세요.
 
 ## 10. 사용 초과에 관한 사항 {#overage}
 
