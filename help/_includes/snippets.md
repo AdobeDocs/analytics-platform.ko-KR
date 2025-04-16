@@ -1,5 +1,5 @@
 ---
-source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
 source-wordcount: '3796'
 ht-degree: 30%
@@ -236,7 +236,7 @@ ht-degree: 30%
 
 >[!AVAILABILITY]
 >
->이 문서에 설명된 기능 및 [!BADGE B2B edition]{type=Informative}(으)로 배지가 지정된 기타 모든 문서 또는 기능입니다.  은(는) 릴리스의 제한된 테스트 단계에 있으며 아직 사용자 환경에서 사용하지 못할 수 있습니다. <br/>또한 [!BADGE B2B edition]{type=Informative} 기능의 [!BADGE B2B edition]{type=Informative} 기능 및 설명서는 변경될 수 있으며 이를 통해 법적 의무를 파생할 수 없습니다.<br/>기능을 일반적으로 사용할 수 있는 경우 이 메모가 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+>이 문서에 설명된 기능 및 [!BADGE B2B edition]{type=Informative}(으)로 배지가 지정된 다른 모든 문서 또는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. <br/>또한 [!BADGE B2B edition]{type=Informative} 기능의 [!BADGE B2B edition]{type=Informative} 기능 및 설명서는 변경될 수 있으며 이를 통해 법적 의무를 파생할 수 없습니다.<br/>기능을 일반적으로 사용할 수 있는 경우 이 메모가 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 >
 
 
