@@ -4,10 +4,10 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -65,6 +65,15 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="댓글 달기 허용"
+>abstract="활성화되면 주석 영역은 Analysis Workspace의 프로젝트 오른쪽 레일에서 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 프로젝트 설정에서는 현재 활성 상태인 프로젝트에 대한 프로젝트 수준의 정보를 제공합니다.
 
@@ -83,6 +92,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
 | [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 범주별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
 | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
+| 댓글 달기 허용 | 이 옵션이 활성화되면 Analysis Workspace에서 프로젝트의 오른쪽 레일에 주석 영역을 사용할 수 있습니다. 자세한 내용은 [프로젝트에 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오. |
 
 
 

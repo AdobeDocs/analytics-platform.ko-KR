@@ -1,20 +1,20 @@
 ---
-title: Customer Journey Analytics 보호
-description: Customer Journey Analytics 보호 기능에 대해 알아보기
+title: Customer Journey Analytics 가드 레일
+description: Customer Journey Analytics의 보호 기능에 대해 알아보기
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 22b95bce42ee9f04b828cf5b765f40008a1534b1
+source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
 
-# Customer Journey Analytics 보호
+# Customer Journey Analytics 가드 레일
 
-이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics에 대한 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능에 대한 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
+이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics의 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html) 또는 [Adobe Analytics 추가 기능의 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)을 참조하세요.
 
 ## 제한 유형
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 | 보호 유형 | 설명 |
 |----------|---------|
-| **성능 보호 기능(소프트 제한)** | 성능 보호는 사용 사례의 범위와 관련된 사용 제한입니다. 성능 가드레일을 초과하면 성능 저하 및 지연이 발생할 수 있습니다. Adobe은 이러한 성능 저하의 원인이 아닙니다. 성능 가드레일을 지속적으로 초과하는 고객은 성능 저하를 방지하기 위해 추가 용량의 라이센스를 선택할 수 있습니다. |
+| **성능 보호 기능(소프트 제한)** | 성능 보호는 사용 사례의 범위와 관련된 사용 제한입니다. 성능 가드레일을 초과하면 성능 저하 및 지연이 발생할 수 있습니다. Adobe은 이러한 성능 저하에 대한 책임이 없습니다. 성능 가드레일을 지속적으로 초과하는 고객은 성능 저하를 방지하기 위해 추가 용량의 라이센스를 선택할 수 있습니다. |
 | **시스템 적용 보호 기능(하드 제한)** | 시스템에서 적용되는 가드레일은 Customer Journey Analytics UI 또는 API에 의해 적용됩니다. UI 및 API에서 이를 차단하거나 오류를 반환하므로 이를 초과할 수 없는 제한입니다. |
 
 {style="table-layout:auto"}
@@ -53,6 +53,10 @@ ht-degree: 7%
 | 프로젝트당 패널 | 15 | 시스템 강제 보호 | 프로젝트당 최대 [패널](../analysis-workspace/home.md#panels) 수. |
 | 패널당 시각화 | 25 | 시스템 강제 보호 | 패널당 최대 [시각화](../analysis-workspace/home.md#visualizations) 수. |
 | 자유 형식 테이블당 파생 필드 | 5 | 시스템 강제 보호 | 단일 자유 형식 테이블에 있는 다양한 파생 필드의 최대 수입니다. |
+| 프로젝트당 댓글 | 1,000 | 시스템 강제 보호 | 프로젝트당 최대 댓글 수. |
+| 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
+| 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
+| 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB) |
 
 {style="table-layout:auto"}
 
@@ -81,7 +85,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-Experience Platform [Real-time Customer Data Platform 보호](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)도 참조하세요.
+Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)도 참조하세요.
 
 
 ## 자동화된 데이터 세트 만료
@@ -126,7 +130,7 @@ Experience Platform [Real-time Customer Data Platform 보호](https://experience
 
 {style="table-layout:auto"}
 
-Experience Platform [데이터 수집을 위한 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)도 참조하세요.
+Experience Platform [데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)도 참조하세요.
 
 
 ## 대상 데이터 내보내기
@@ -138,7 +142,7 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 
 {style="table-layout:auto"}
 
-[데이터 집합 내보내기 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) Experience Platform 참조
+Experience Platform [데이터 집합 내보내기 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)도 참조하세요.
 
 
 ## 데이터 랜딩 영역
@@ -177,10 +181,10 @@ Experience Platform [데이터 수집을 위한 보호](https://experienceleague
 |---|--:|---|---|
 | 필터당 컨테이너 | 50 | 시스템 강제 보호 | 필터당 최대 컨테이너 수. |
 | 계산된 지표당 지표 | 25 | 시스템 강제 보호 | 계산된 지표당 최대 지표 수. |
-| 필터당 지표 및 Dimension | 25 | 시스템 강제 보호 | 필터당 고유한 최대 지표 및 차원 수. |
+| 필터당 지표 및 차원 | 25 | 시스템 강제 보호 | 필터당 고유한 최대 지표 및 차원 수. |
 | 필터당 중첩된 컨테이너 | 10 | 시스템 강제 보호 | 필터당 최대 중첩 컨테이너 수. |
 | 필터당 규칙 | 100 | 시스템 강제 보호 | 필터당 최대 규칙 수. |
-| 필터당 Dimension 당 문자열 비교 | 100 | 시스템 강제 보호 | 필터당 차원당 최대 문자열 비교 수. |
+| 필터당 Dimension당 문자열 비교 | 100 | 시스템 강제 보호 | 필터당 차원당 최대 문자열 비교 수. |
 | 계산된 지표 | 6,000 | 시스템 강제 보호 | 조직의 최대 계산된 지표 수입니다. |
 | 필터 | 50,000 | 시스템 강제 보호 | 조직에 대해 정의할 수 있는 최대 필터 수. |
 | API 호출 | 120 | 시스템 강제 보호 | 분당 API 요청(6초마다 12개 요청). |
