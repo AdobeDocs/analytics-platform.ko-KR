@@ -4,10 +4,10 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
+source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 88%
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,14 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
 | [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 범주별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
 | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
-| 댓글 달기 허용 | 이 옵션이 활성화되면 Analysis Workspace에서 프로젝트의 오른쪽 레일에 주석 영역을 사용할 수 있습니다. 자세한 내용은 [프로젝트에 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오. |
+
+<!--
+
+Add this to the table above - exchange - for pipe: (End of April, 2025 when project commenting is GA)
+
+Allow commenting - When this option is enabled, a comments area is available in the right rail of the project in Analysis Workspace. For more information, see [Add and manage comments in projects](/help/analysis-workspace/build-workspace-project/comment-projects.md). 
+
+-->
 
 
 

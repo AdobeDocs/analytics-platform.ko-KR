@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
+source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
@@ -53,14 +53,23 @@ ht-degree: 7%
 | 프로젝트당 패널 | 15 | 시스템 강제 보호 | 프로젝트당 최대 [패널](../analysis-workspace/home.md#panels) 수. |
 | 패널당 시각화 | 25 | 시스템 강제 보호 | 패널당 최대 [시각화](../analysis-workspace/home.md#visualizations) 수. |
 | 자유 형식 테이블당 파생 필드 | 5 | 시스템 강제 보호 | 단일 자유 형식 테이블에 있는 다양한 파생 필드의 최대 수입니다. |
-| 프로젝트당 댓글 | 1,000 | 시스템 강제 보호 | 프로젝트당 최대 댓글 수. |
-| 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
-| 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
-| 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB) |
 
 {style="table-layout:auto"}
 
+
 <!--
+
+Add this to the table above, change - for pipe : (End of April, 2025 when project commenting is GA)
+
+Comments per project - 1,000 - System-enforced Guardrail - Maximum number of comments per project. 
+Replies per comment - 100 - System-enforced Guardrail - Maximum number of replies per comment. 
+Images per comment - 5 - System-enforced Guardrail - Maximum number of images per comment. 
+Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB 
+
+-->
+
+<!--
+
 ## Attribution AI
 
 | Name |  Value | Description | PD? |
@@ -69,7 +78,6 @@ ht-degree: 7%
 | Region based iterations | 10 | Maximum number of region-based iterations of each Attribution AI model. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  | 
 | Export Insights batches | 12 | Maximum number of export batches times the number of authorized Attribution AI Insights per year. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) | 
 
-{style="table-layout:auto"}
 -->
 
 ## 대상자
