@@ -270,7 +270,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tags_disabled_description "
 >title="태그 속성 비활성화됨"
->abstract="Content Analytics 확장이 이미 활성화되어 있습니다."
+>abstract="Content Analytics 확장 기능이 이미 활성화되었습니다."
 
 <!-- markdownlint-enable MD034 -->
 
