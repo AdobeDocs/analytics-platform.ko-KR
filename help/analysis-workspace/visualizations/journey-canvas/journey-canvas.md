@@ -4,10 +4,10 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 여정 항목 및 세그먼트의 조합을 나타내는 노드와 화살표의 유연한 그래프를 생성하여 사용자 차원 분석을 작성합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 필터의 임의 조합을 나타내도록 노드와 화살표의 유연한 그래프를 만들어 사용자 여정의 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재정렬합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 여정 항목 및 세그먼트의 조합을 나타내는 노드와 화살표의 유연한 그래프를 생성하여 사용자 차원 분석을 작성합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 여정 캔버스 시각화는 사용자와 고객에게 제공하는 여정을 분석하고 깊이 있는 인사이트를 얻을 수 있습니다. 이를 통해 여정을 처음부터 정의하거나 Journey Optimizer에서 여정을 본 다음 사람들이 어떻게 여정을 떠나거나(폴아웃) 따라가는지(폴스루) 확인할 수 있습니다.
 
-이벤트, 차원 항목, 필터 및 날짜 범위를 조합하여 여정 노드를 생성함으로써 [사용자 여정에 대한 분석을 구축](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)할 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터를 변경하면 실시간으로 업데이트합니다.
+이벤트, 차원 항목, 세그먼트 및 날짜 범위의 조합을 사용하여 [사용자 여정의 분석을 빌드](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)하여 여정 노드를 만들 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터를 변경하면 실시간으로 업데이트합니다.
 
 [노드는](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) “최종 경로”로 연결되어 있으며, 이는 두 노드 간에 발생하는 이벤트와 상관없이 결국 한 노드에서 다른 노드로 이동하는 한 방문자 수가 계산된다는 것을 의미합니다. 사용자가 경로를 따라 이동할 수 있는 시간은 컨테이너 설정에 따라 결정됩니다.
 
@@ -170,7 +170,7 @@ Journey Optimizer 여정을 여정 캔버스에서 분석할 때 여정은 Journ
 
 Journey Optimizer에서 생성된 여정을 분석하기 위해 여정 캔버스를 사용하면 다양한 이점이 있습니다.
 
-* Customer Journey Analytics 차원, 지표, 필터 또는 날짜 범위를 사용하여 이벤트를 만듭니다.
+* Customer Journey Analytics 차원, 지표, 세그먼트 또는 날짜 범위를 사용하여 이벤트를 만듭니다.
 
   Journey Optimizer에서 기술 사용자는 이벤트를 먼저 생성한 후에 여정에 이벤트를 추가할 수 있습니다.
 
