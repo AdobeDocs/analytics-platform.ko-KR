@@ -3,10 +3,10 @@ description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세�
 title: 계산된 지표에 태그 지정
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 10%
       * 목록에서 기존 태그를 하나 이상 선택하거나
       * 새 태그를 입력하고 **[!UICONTROL Enter]**&#x200B;를 누릅니다. 를 반복하여 두 개 이상의 새 태그를 추가합니다.
 
-1. 계산된 지표에 대한 태그를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하십시오. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+1. 계산된 지표에 대한 태그를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하십시오. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 저장하면 [계산된 지표 빌더](cm-tagging.md)에서 선택한 계산된 지표에 대한 [!UICONTROL 태그] 필드에 태그가 나열됩니다.
 
 <!--
 
-In the Calculated metric manager, you can organize filters by tagging them.
+In the Calculated metric manager, you can organize segments by tagging them.
 
 All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 

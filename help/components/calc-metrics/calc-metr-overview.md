@@ -1,13 +1,13 @@
 ---
 title: 계산된 지표 개요
-description: 보고서 실행 시 파생된 필터링된 지표에 대해 자세히 알아보십시오.
+description: 보고서 실행 시 파생된 세그먼트화된 지표에 대해 알아봅니다.
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표 소개](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표 소개](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 | 플랜 | 특히 공식적으로 승인될 ![Checkmark](/help/assets/icons/Checkmark.svg) 지표의 경우, 자주 사용될 것으로 예상되는 계산된 지표를 신중하게 계획하고 구성합니다. |
 | [빌드](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 계산된 지표를 빌드, 수정 및 저장합니다. |
 | [적용](/help/components/use-components-in-workspace.md) | Workspace 프로젝트 내에서 바로 계산된 지표를 적용합니다. |
-| [관리](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 계산된 지표를 관리합니다. 하나 이상의 계산된 지표에 [태그를 지정](/help/components/calc-metrics/cm-workflow/cm-tagging.md)하고, 지표를 [승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)하고, [승인을 취소](/help/components/calc-metrics/cm-workflow/cm-approving.md)하고, [필터링](/help/components/calc-metrics/cm-workflow/cm-filter.md)하고, [즐겨찾기에서 추가](/help/components/calc-metrics/cm-workflow/cm-favorite.md)하거나 [제거](/help/components/calc-metrics/cm-workflow/cm-favorite.md)하고, [공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md)하거나 [복사](/help/components/calc-metrics/cm-workflow/cm-copy.md)할 수 있습니다. |
+| [관리](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 계산된 지표를 관리합니다. 하나 이상의 계산된 지표를 [태그](/help/components/calc-metrics/cm-workflow/cm-tagging.md), [승인](/help/components/calc-metrics/cm-workflow/cm-approving.md), [비승인](/help/components/calc-metrics/cm-workflow/cm-approving.md), [세그먼트](/help/components/calc-metrics/cm-workflow/cm-filter.md), [선호](/help/components/calc-metrics/cm-workflow/cm-favorite.md) 또는 [비선호](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md) 또는 [복사](/help/components/calc-metrics/cm-workflow/cm-copy.md)할 수 있습니다. |
 
 계산된 지표를 만들 수 있는 다양한 옵션은 [계산된 지표 만들기](/help/components/calc-metrics/cm-workflow/cm-workflow.md) 를 참조하십시오. [계산된 지표 빌더](cm-workflow/cm-build-metrics.md)에서 계산된 지표의 정의를 빌드, 수정 및 저장합니다.
 

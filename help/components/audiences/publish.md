@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 1f21bec36f4c7d30940ed4bb95b097665a45b8ad
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 83%
+ht-degree: 78%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 83%
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
    | **[!UICONTROL 대상]** 인터페이스 내에서 | 메인 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다. 대상자 인터페이스가 표시됩니다. **[!UICONTROL 대상 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상 빌더]가 열립니다. |
-   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화 기능을 사용하면 컨텍스트 메뉴를 사용하여 대상자를 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)의 노드 컨텍스트 메뉴에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 선택합니다.<p>이 방법을 사용하면 선택한 차원 또는 차원 항목으로 대상자 빌더의 필터가 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 클릭 메뉴를 사용하여 대상자를 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 계산된 지표는 대상자에 포함될 수 없습니다. 계산된 지표가 포함된 대상자를 만들려고 하면 계산된 지표가 대상자 정의에 포함되지 않습니다.</p> |
-   | 필터 생성/편집 UI에서 | **[!UICONTROL 이 필터에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 필터가 미리 채워집니다. 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
+   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화 기능을 사용하면 컨텍스트 메뉴를 사용하여 대상자를 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)의 노드 컨텍스트 메뉴에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 선택합니다.<p>이 방법을 사용하면 대상자 빌더의 세그먼트가 선택한 차원 또는 차원 항목으로 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 클릭 메뉴를 사용하여 대상자를 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 계산된 지표는 대상자에 포함될 수 없습니다. 계산된 지표가 포함된 대상자를 만들려고 하면 계산된 지표가 대상자 정의에 포함되지 않습니다.</p> |
+   | 세그먼트 생성/편집 UI에서 | **[!UICONTROL 이 세그먼트에서 대상자 만들기]**&#x200B;라는 상자를 선택합니다. 이 방법을 사용하면 세그먼트가 미리 채워집니다. 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
 
    {style="table-layout:auto"}
 
@@ -101,7 +101,7 @@ ht-degree: 83%
 | **[!UICONTROL 태그]** | 조직용으로 대상자에 할당하고자 하는 모든 태그. 하나 이상의 기존 태그를 선택하거나 새 태그를 입력할 수 있습니다. |
 | **[!UICONTROL 설명]** | 해당 대상자를 다른 대상자와 구별하기 위해 대상자에 대한 설명. 예: `Build an audience of really interested potential car buyers` |
 | **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/>다음 중에 선택할 수 있습니다. <ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul> Customer Journey Analytics 권한에 따라 최대 75~150회로 대상자 새로 고침이 제한됩니다.</li></ul> |
-| **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 패널에서 필터 영역으로 하나 이상의 필터를 끌어다 놓습니다. 필터를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *필터 검색*]&#x200B;을 사용할 수 있습니다. 최대 20개의 필터를 추가할 수 있습니다. 필터는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자와 결합할 수 있습니다.<p>Analysis Workspace(예: 자유 형식 테이블 또는 여정 캔버스)의 시각화에서 대상자를 만들 때 패널이나 열에 적용된 필터는 그대로 유지됩니다. 자동으로 적용된 모든 필터를 제거할 수 있습니다.</p> |
+| **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 패널에서 하나 이상의 세그먼트를 세그먼트 영역으로 끌어다 놓습니다. ![검색](/help/assets/icons/Search.svg) [!UICONTROL *세그먼트 검색*]&#x200B;을 사용하여 세그먼트를 검색할 수 있습니다. 최대 20개의 세그먼트를 추가할 수 있습니다. 세그먼트는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자로 결합할 수 있습니다.<p>Analysis Workspace의 시각화(예: 자유 형식 테이블 또는 여정 캔버스)에서 대상을 만들면 패널 또는 열에 적용된 모든 세그먼트가 보존됩니다. 자동으로 적용되는 모든 세그먼트를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리보기]** | 선택된 날짜 범위에 대해 [데이터 미리보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택합니다. |
 
 ## 데이터 미리보기

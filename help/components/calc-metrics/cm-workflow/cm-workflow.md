@@ -3,7 +3,7 @@ description: 계산된 지표를 만드는 방법을 알아봅니다.
 title: 계산된 지표 만들기
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # 계산된 지표 만들기
 
-기본적으로 관리자만 계산된 지표를 만들 수 있습니다. 사용자에게 계산된 지표를 볼 수 있는 권한이 있습니다. 이는 사용자가 다른 구성 요소(예: 필터, 주석 등)를 보는 것과 유사합니다.
+기본적으로 관리자만 계산된 지표를 만들 수 있습니다. 사용자에게 계산된 지표를 볼 수 있는 권한이 있습니다. 이는 사용자가 다른 구성 요소(예: 세그먼트, 주석 등)를 보는 것과 유사합니다.
 
 그러나 관리자는 [Admin Console](/help/technotes/access-control.md#user-level-access)을 통해 **[!UICONTROL CJA Workspace 액세스에 대한 권한 편집]**&#x200B;에서 **[!UICONTROL 보고 도구]**&#x200B;에 대한 **[!UICONTROL 계산된 지표 만들기]** 권한을 사용자에게 부여할 수 있습니다.
 
