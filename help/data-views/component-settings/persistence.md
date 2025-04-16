@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 73%
+source-wordcount: '1053'
+ht-degree: 79%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 73%
 
 
 
-[!UICONTROL 지속성]은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 지속성은 할당과 만료의 조합입니다.
+[!UICONTROL 지속성]은(는) 특정 차원 값이 설정된 이벤트에서 벗어난 지표에 특성을 부여하는 기능입니다. 지속성은 할당과 만료의 조합입니다.
 
-![지속성 옵션을 강조 표시하는 데이터 보기 창](../assets/persistence.png)
+![지속성 옵션을 강조 표시한 데이터 보기 창](../assets/persistence.png)
 
-* 하나의 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당** 설정을 통해 보존되는 값을 결정할 수 있습니다.
+* 한 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당**&#x200B;을 통해 유지할 값을 결정할 수 있습니다.
 
   >[!NOTE]
   >
-  >보고서의 지표에 [기본값이 아닌 속성 모델](/help/data-views/component-settings/attribution.md)이 설정되어 있는 경우 속성 모델은 동일한 보고서에 대해 차원에 설정한 할당을 무시합니다.
+  >보고서에서 지표에 [비기본 속성 모델](/help/data-views/component-settings/attribution.md)이 설정된 경우, 해당 속성 모델은 동일한 보고서에 대해 차원에서 설정한 할당을 무시합니다.
   >
   >그러나 여러 차원을 포함하는 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 수행할 때 속성은 각 차원에 적용된 할당 모델을 유지합니다.
 
@@ -45,8 +45,8 @@ ht-degree: 73%
 | 설정 | 설명 |
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 차원에 대한 지속성 설정을 활성화합니다. 지속성 설정이 활성화되지 않으면 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다. 이 설정은 기본적으로 비활성화되어 있습니다. |
-| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 배분 모델을 지정할 수 있습니다. 옵션은 [!UICONTROL 가장 최근], [!UICONTROL 원본], [!UICONTROL 인스턴스], [!UICONTROL 모두]입니다. 2021년 10월 28일부터 최대 90일의 전환 확인 기간이 [!UICONTROL 할당] 설정에 추가됩니다. |
-| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션은 [!UICONTROL 세션] (기본값), [!UICONTROL 개인], [!UICONTROL 사용자 지정 시간], [!UICONTROL 지표]입니다. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만을 사용할 수 있습니다. |
+| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 배분 모델을 지정할 수 있습니다. 옵션:<ul><li>**[!UICONTROL 가장 최근]**: 차원의 값은 후속 값으로 덮어쓸 때까지 지속됩니다</li><li> **[!UICONTROL 원래]**: 이 차원의 첫 번째 값은 유지되며 후속 값으로 덮어쓰이지 않습니다.</li><li>**[!UICONTROL 모두]**: 이 차원의 모든 값이 동시에 유지됩니다.</li><li>**[!UICONTROL 처음 알려짐]**: 이 차원의 첫 번째 값이 사용되며 이전 및 이후의 모든 이벤트에 적용됩니다.</li><li>**[!UICONTROL 마지막 알려짐]**: 이 차원의 마지막 값이 사용되며 이전 및 이후의 모든 이벤트에 적용됩니다.</li></ul> |
+| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션: <ul><li>**[!UICONTROL 세션]**(기본값)</li><li>**[!UICONTROL 사용자]**</li><li>**[!UICONTROL 사용자 지정 시간]**</li><li>**[!UICONTROL 지표]**</li></ul>. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ ht-degree: 73%
   | 데이터 세트 값 | A | B | C |  | A |
   | 모든 할당 | A | A, B | A, B, C | A, B, C | A, B, C |
 
-* **[!UICONTROL 처음 알려짐]** 및 **[!UICONTROL 마지막 알려짐]**: (2022년 1월 19일) 이 두 개의 배분 모델은 “시작” 및 “종료” 차원 사용 사례를 충족합니다. 지정된 지속성 범위(전환 확인이 있는 세션, 사용자 또는 사용자 지정 기간) 내의 차원에 대해 첫 번째 또는 마지막 관측 값을 취하고 지정된 범위 내의 모든 이벤트에 적용합니다. 예:
+* **[!UICONTROL 처음 알려짐]** 및 **[!UICONTROL 마지막 알려짐]**: (2022년 1월 19일) 이 두 개의 배분 모델은 “시작” 및 “종료” 차원 사용 사례를 충족합니다. 지정된 지속성 범위(전환 확인이 있는 세션, 사용자 또는 사용자 정의 기간) 내의 차원에 대해 첫 번째 또는 마지막 관측 값을 취하고 지정된 범위 내의 모든 이벤트에 적용합니다. 예:
 
   | 차원 | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 |
   | --- | --- | --- | --- | --- | --- |
@@ -95,27 +95,27 @@ ht-degree: 73%
 * **계정 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
 * **영업 기회 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
 * **구매 그룹 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
-* **사용자 지정 시간**: 지정된 기간(최대 90일) 후에 만료됩니다. 이 만료 옵션은 원래 및 가장 최근 배분 모델에만 사용할 수 있습니다. 시간 기반 만료를 사용하는 경우 보고 기간(최대 90일) 시작 이전 값이 고려됩니다.
+* **사용자 정의 시간**: 지정된 기간(최대 90일) 후에 만료됩니다. 이 만료 옵션은 원래 및 가장 최근 배분 모델에만 사용할 수 있습니다. 시간 기반 만료를 사용하는 경우 보고 기간(최대 90일) 시작 이전 값이 고려됩니다.
 * **지표**: 이 지표가 이벤트에 표시되면 차원에서 지속된 값이 즉시 만료됩니다. 이 차원의 만료 끝으로 지표를 사용할 수 있습니다. 이 만료 옵션은 원래 및 가장 최근 할당 설정에만 사용할 수 있습니다.
 
 
 ## [!UICONTROL 바인딩 차원]
 
-차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록입니다. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 포함됩니다.
+차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 있습니다.
 
-바인딩 차원을 효율적으로 사용하는 방법에 대한 예는 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
+바인딩 차원을 효율적으로 사용하는 방법에 대한 사례는 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## [!UICONTROL 바인딩 지표]
 
-바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운 목록입니다. 유효한 옵션에는 데이터 보기에 포함된 지표가 포함됩니다.
+바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운 목록. 유효한 옵션에는 데이터 보기에 포함된 지표가 있습니다.
 
 이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 지표가 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
 

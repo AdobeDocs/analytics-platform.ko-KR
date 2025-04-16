@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60074b300cb5fa07ed3b2d6bb2e4501881909984
+source-git-commit: 693227516950aec921d82564b39622a9e3ef4b9d
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 77%
+source-wordcount: '3849'
+ht-degree: 76%
 
 ---
 
@@ -40,23 +40,15 @@ ht-degree: 77%
 
 ### IMS 조직 환경 설정 {#ims-organization-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_shareonlyworkspace"
 >title="Workspace 사용자와의 공유만 허용"
 >abstract="활성화되면 Analysis Workspace 프로젝트를 공유할 때 사용자가 **[!UICONTROL 모두와 공유]** 옵션을 더 이상 사용할 수 없습니다. 이전에 이 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud 인증 필요"
 >abstract="활성화되면 Analysis Workspace의 모두와 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
@@ -71,34 +63,20 @@ ht-degree: 77%
 
 ### 프로젝트 및 분석 환경 설정 {#project-and-analysis-preferences}
 
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="카테고리형 팔레트"
 >abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 카테고리형 값을 나타냅니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="분기형 팔레트"
 >abstract="Analysis Workspace 및 사용자 증가 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 양 극단과 중간의 기준선을 사용하여 숫자로 표시합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="순차적 팔레트"
 >abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
-
-<!-- markdownlint-enable MD034 -->
-
 
 모든 새로운 Analysis Workspace 프로젝트, 새로운 Analysis Workspace 패널 및 새로운 가이드 분석에 대해 이러한 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -121,34 +99,21 @@ ht-degree: 77%
 
 ### 자유 형식 테이블 환경 설정 {#freeform-table-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="예외 항목 표시"
 >abstract="**[!UICONTROL 예외 항목 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열에서 예외 항목 탐지가 자동으로 실행됩니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="예측 표시"
 >abstract="**[!UICONTROL 예측 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열이 자동으로 예측됩니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="기본 테이블 지표"
 >abstract="자유 형식 테이블에 사용할 기본 지표를 선택하십시오. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블은 자동으로 다른 기본 지표로 전환합니다."
-
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이블 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
@@ -250,16 +215,16 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 비교 보기 | 비교 데이터 표시. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 오브젝트가 모두 표시되지 않습니다. |
 | | 숫자 값 옵션 | [!UICONTROL **주요 지표 요약**] 섹션에서 <ul><li>백분율 변경 표시</li><li>원시 차이 표시</li>기본 날짜 범위와 보조 날짜 범위의 총 지표 값 간의 원시 차이</ul> |
 | **[폴아웃](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 컨테이너 | **[!UICONTROL 세션]**&#x200B;과(와) **[!UICONTROL 개인]** 간을 전환하여 경로 지정을 분석할 수 있도록 합니다. 이러한 설정을 통해 다양한 B2B 컨테이너 수준 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}에서의 계정 참여, 개인 수준(세션 간)에서의 개인 참여를 이해하거나 분석을 단일 세션으로 제한할 수 있습니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
+| | 컨테이너 | 경로 지정을 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너를 사용하면 다양한 B2B 컨테이너 수준 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}에서의 계정 참여, 개인 수준(세션 간)에서의 개인 참여를 이해하거나 분석을 단일 세션으로 제한할 수 있습니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
 | **[흐름](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | 컨테이너 | **[!UICONTROL 흐름]** 섹션에서: <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
+| | 컨테이너 | 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너를 사용하면 다양한 B2B 컨테이너 수준 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}에서의 계정 참여, 개인 수준(세션 간)에서의 개인 참여를 이해하거나 분석을 단일 세션으로 제한할 수 있습니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
 | | 줄 바꿈 레이블 | 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다. 기본값 = 선택 해제. |
 | | 반복 인스턴스 포함 | 플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스(예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 흐름 시각화에서는 반복을 제거할 수 없습니다. 기본값 = 선택 해제. |
 | | 툴팁 표시 | 플로우 시각화 내의 개별 노드 위로 마우스를 가져갈 때 노드 데이터를 포함하는 도구 설명을 표시할지 여부를 결정합니다. |
 | | 열 수 | 흐름 다이어그램에 사용할 열 수를 결정합니다. |
 | | 열당 항목 확장됨 | 각 열에 원하는 항목 수입니다. |
 | **[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | 컨테이너 | **[!UICONTROL 세션]**&#x200B;과(와) **[!UICONTROL 개인]** 간을 전환하여 경로 지정을 분석할 수 있도록 합니다. 기본값은 **[!UICONTROL 개인]**&#x200B;입니다. 이러한 설정을 통해 다양한 B2B 컨테이너 수준 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}에서의 계정 참여, 개인 수준(세션 간)에서의 개인 참여를 이해하거나 분석을 단일 세션으로 제한할 수 있습니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
+| | 컨테이너 | 경로 지정을 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너를 사용하면 다양한 B2B 컨테이너 수준 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}에서의 계정 참여, 개인 수준(세션 간)에서의 개인 참여를 이해하거나 분석을 단일 세션으로 제한할 수 있습니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>세션</li><li>개인</li></ul> |
 | **스택형 차트** | | |
 | | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** | | |

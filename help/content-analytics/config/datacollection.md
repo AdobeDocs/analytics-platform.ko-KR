@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
+source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-이 문서에서는 콘텐츠 Analytics에서 데이터를 수집하는 방법에 대해 자세히 설명합니다
+이 문서에서는 Content Analytics에서 데이터를 수집하는 방법에 대해 자세히 설명합니다
 
 
 ## 정의
@@ -37,7 +37,7 @@ ht-degree: 1%
 Content Analytics 라이브러리는 다음과 같은 경우에 데이터를 수집합니다.
 
 * Content Analytics은 페이지에 로드되는 태그 라이브러리에 포함됩니다.
-* 페이지 URL이 포함된 Tags 라이브러리의 일부인 [Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}에 구성되어 있습니다.
+* 페이지 URL은 포함된 Tags 라이브러리의 일부인 [Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}에 구성되어 있습니다.
 
 
 ## Content Analytics 이벤트
