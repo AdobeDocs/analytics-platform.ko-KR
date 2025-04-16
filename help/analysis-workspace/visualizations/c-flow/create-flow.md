@@ -4,10 +4,10 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 90%
 | **[!UICONTROL 이 경로에 대한 필터 만들기]** | 필터를 만듭니다. 필터 빌더로 이동하여 새 필터를 구성할 수 있습니다. |
 | **[!UICONTROL 분류]** | 사용할 수 있는 차원, 지표 또는 시간으로 노드를 분석합니다. |
 | **[!UICONTROL 필터 열]** | 자유 형식 테이블에서 사용 가능한 것과 동일한 필터 옵션이 나타납니다. 사용 가능한 옵션에 대한 자세한 내용은 [테이블 필터 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)의 “테이블에 단순 또는 고급 필터 적용” 섹션을 참조하십시오. |
-| **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
+| **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 열 맨 위에 있는 세그먼트를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
 | **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |

@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [필터](filters/filters-overview.md): 강력하고 집중적인 대상자 필터를 작성, 관리, 공유하고 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
+* [세그먼트](filters/filters-overview.md): 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
 * [계산된 지표](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [날짜 범위](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
 * [주석](/help/components/annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## Analysis Workspace 구성 요소
 
-Analysis Workspace의 구성 요소는 Workspace 프로젝트 패널 및 시각화에 드래그 앤 드롭할 수 있는 지표, 차원, 필터 및 날짜 범위로 구성됩니다. 계산된 지표나 사용자 정의 날짜 범위와 같은 생성된 사용자 정의 구성 요소가 이 패널에 추가됩니다.
+Analysis Workspace의 구성 요소는 Workspace 프로젝트의 패널 및 시각화에 끌어서 놓을 수 있는 지표, 차원, 세그먼트 및 날짜 범위로 구성됩니다. 계산된 지표나 사용자 정의 날짜 범위와 같은 생성된 사용자 정의 구성 요소가 이 패널에 추가됩니다.
 
 구성 요소 패널에 액세스하려면 버튼 패널의 ![Curate](/help/assets/icons/Curate.svg) **[!UICONTROL 구성 요소]**&#x200B;를 선택합니다.
 
@@ -61,7 +61,7 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
    >**[!UICONTROL Shift 키]**&#x200B;를 누르거나 **[!UICONTROL Command]**(macOS) 또는 **[!UICONTROL Ctrl]**(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
 
 
-   ![Component Actions list showing Tag, Favorite, approve, Share, and Delete.](assets/component-menu.gif){width=100%}
+   ![태그, 즐겨찾기, 승인, 공유 및 삭제가 표시된 구성 요소 작업 목록입니다.](assets/component-menu.gif){width=100%}
 
    | 구성 요소 작업 | 설명 |
    |--- |--- |
@@ -69,10 +69,10 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
    | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 패널에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 즐겨찾기에서 제거]** | 즐겨찾기 목록에서 구성 요소를 제거합니다. |
    | ![Checkmark](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 승인됨별로 필터링할 수 있습니다. ![Checkmark](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |
-   | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
-   | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 필터 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+   | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+   | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
 
-사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [필터 관리](/help/components/filters/manage-filters.md)를 참조하십시오.
+사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [세그먼트 관리](/help/components/filters/manage-filters.md)를 참조하십시오.
 
 ## 구성 요소 목록 관리
 
@@ -84,7 +84,7 @@ Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하�
 
 2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원**(![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **필터**(![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다.<br/>Adobe 아이콘(![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg))은 계산된 지표 템플릿 또는 필터 템플릿 중 하나를 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
+   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원**(![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **필터**(![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다.<br/>Adobe 아이콘 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)은(는) 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
 
 3. 드롭다운 목록에서 구성 요소를 선택합니다.
 
@@ -102,7 +102,7 @@ Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하�
    | ![Star](/help/assets/icons/Star.svg) | **[!UICONTROL 즐겨찾기]** | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. <br/>즐겨찾기 목록에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [구성 요소 관리](#manage-components)를 참조하십시오. |
    | ![Dimensions](/help/assets/icons/Dimensions.svg) | **[!UICONTROL 차원]** | 차원인 구성 요소만 표시합니다. |
    | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL 지표]** | 지표인 구성 요소만 표시합니다. |
-   | ![Segmentation](/help/assets/icons/Segmentation.svg) | **[!UICONTROL 필터]** | 필터인 구성 요소만 표시합니다. |
+   | ![Segmentation](/help/assets/icons/Segmentation.svg) | **[!UICONTROL 세그먼트]** | 세그먼트인 구성 요소만 표시합니다. |
    | ![Calendar](/help/assets/icons/Calendar.svg) | **[!UICONTROL 날짜 범위]** | 날짜 범위인 구성 요소만 표시합니다. |
    | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *태그 이름&#x200B;*]** | 선택한 특정 태그가 있는 구성 요소만 표시합니다. Adobe 템플릿에 제공되는 전용 태그는 Adobe의 [기본 계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)입니다. |
 

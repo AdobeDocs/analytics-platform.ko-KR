@@ -4,7 +4,7 @@ title: 구성 요소 설명 추가
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: a0e301130cf7f8c4b3be17dfe52648fde5ee4fe4
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 14%
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 설명은 사용자가 Analysis Workspace에서 프로젝트를 빌드하거나 보고서를 볼 때 다양한 구성 요소를 사용하는 방법을 아는 데 도움이 됩니다.
 
-Customer Journey Analytics 관리자는 데이터 보기 또는 데이터 사전을 사용하여 구성 요소(차원, 지표, 필터 및 날짜 범위)에 대한 설명을 추가할 수 있습니다.
+Customer Journey Analytics 관리자는 데이터 보기 또는 데이터 사전을 사용하여 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)에 대한 설명을 추가할 수 있습니다.
 
 ## 데이터 보기에 설명 추가
 
