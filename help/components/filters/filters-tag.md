@@ -1,27 +1,27 @@
 ---
-description: 필터에 태그를 지정하여 구성할 수 있습니다.
-title: 필터 태그 지정
+description: 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
+title: 세그먼트에 태그 지정
 feature: Filters
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 66ec61ea64f1265d887d4941a22e1f9757120daa
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 필터 태그 지정
+# 세그먼트에 태그 지정
 
-[필터 관리자](manage-filters.md)에서 태그를 사용하여 필터를 구성할 수 있습니다. 관리자는 모든 필터에 태그를 지정할 수 있습니다. 관리자가 아닌 사용자는 자신이 만들거나 자신과 공유된 필터에만 태그를 지정할 수 있습니다.
+[세그먼트 관리자](manage-filters.md)에서 태그를 사용하여 세그먼트를 구성할 수 있습니다. 관리자는 모든 세그먼트에 태그를 지정할 수 있습니다. 관리자가 아닌 사용자는 자신이 만들었거나 공유된 세그먼트만 태그를 지정할 수 있습니다.
 
-하나 이상의 필터에 태깅하려면 다음을 수행하십시오.
+하나 이상의 세그먼트에 태깅하려면 다음을 수행합니다.
 
-1. [필터 관리자](manage-filters.md)에서 태그를 지정할 필터를 하나 이상 선택합니다.
+1. [세그먼트 관리자](manage-filters.md)에서 태그를 지정할 세그먼트를 하나 이상 선택합니다.
 1. 작업 표시줄에서 ![레이블](/help/assets/icons/Labels.svg) **[!UICONTROL 태그]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 태그 필터]** 대화 상자에서:
+1. **[!UICONTROL 세그먼트 태그]** 대화 상자에서:
 
-   ![태그 필터 대화 상자](assets/tag-filter-dialog.png)
+   ![세그먼트 태그 대화 상자](assets/tag-filter-dialog.png)
 
    1. (선택 사항) ![검색](/help/assets/icons/Search.svg)을 사용하여 태그 목록을 검색하고 제한합니다.
 
@@ -30,9 +30,9 @@ ht-degree: 2%
       * 목록에서 기존 태그를 하나 이상 선택하거나
       * 새 태그를 입력하고 **[!UICONTROL Enter]**&#x200B;를 누릅니다. 를 반복하여 두 개 이상의 새 태그를 추가합니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 선택하여 필터에 대한 태그를 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+1. **[!UICONTROL 저장]**&#x200B;을 선택하여 세그먼트에 대한 태그를 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
-저장하면 [필터 빌더](filter-builder.md)에서 선택한 필터의 [!UICONTROL 태그] 필드에 태그가 나열됩니다.
+저장되면 [세그먼트 빌더](filter-builder.md)에서 선택한 세그먼트의 [!UICONTROL 태그] 필드에 태그가 나열됩니다.
 
 
 ## 제안 사항
