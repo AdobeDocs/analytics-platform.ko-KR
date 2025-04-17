@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
+source-git-commit: e79094d974e4e91b044611f997c0e4215487d74f
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -218,7 +218,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 1. 정규 표현식과 쿼리 매개 변수의 다른 조합을 추가하려면 **[!UICONTROL 정규 표현식 추가]**&#x200B;를 선택합니다.
 
 
-### 구현된 구성 {#implemented-experiences-configuration}
+#### 구현된 구성 {#implemented-experiences-configuration}
 
 구현된 구성에서 기존 경험을 편집하거나 새 경험을 포함하려면 다음을 수행하십시오.
 
