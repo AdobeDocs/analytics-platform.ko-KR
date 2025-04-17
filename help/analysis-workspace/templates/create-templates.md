@@ -4,10 +4,10 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 0f4b396bb44612ef52b640ffaeba6aa5aeace423
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 98%
+source-wordcount: '1774'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,16 @@ ht-degree: 98%
 
 로그인 회사의 사람들은 [템플릿 사용](/help/analysis-workspace/templates/use-templates.md)에 설명된 대로 이러한 회사 템플릿을 사용할 수 있습니다.
 
-## 템플릿 만들기
+## 템플릿 만들기 {#create-templates}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="use-case-ajo-template"
+>title="Journey Optimizer에서 템플릿 사용"
+>abstract="Journey Optimizer에서 이 템플릿을 사용하는 경우 Customer Journey Analytics에서 이 템플릿과 함께 선택된 데이터 보기에 관계없이 Adobe Journey Optimizer에서 기본 데이터 보기로 설정된 데이터 보기가 사용됩니다."
+
+<!-- markdownlint-enable MD034 -->
 
 로그인 회사의 사람들이 사용할 수 있는 새 템플릿을 만드는 방법:
 
@@ -86,7 +95,7 @@ ht-degree: 98%
    | **[!UICONTROL 설명]** | 템플릿의 용도를 설명하는 간단한 설명을 입력합니다. |
    | **[!UICONTROL 이 템플릿을 사용하는 이유]** | 이 템플릿을 어떻게 사용할 수 있는지 조직 내의 사람들에게 알리기 위해 간단한 설명을 입력합니다. 이 설명은 템플릿의 미리보기 페이지에 표시됩니다. |
    | **[!UICONTROL 채널]** | 이 템플릿에 적용되는 채널을 모두 선택합니다. 다음의 여러 채널을 선택할 수 있습니다. **[!UICONTROL 웹]**, **[!UICONTROL 모바일]**, **[!UICONTROL 크로스 채널]**, **[!UICONTROL 콜센터]** 및 **[!UICONTROL 스토어에서]**. 채널을 선택하지 않으면 템플릿이 모든 채널에 포함됩니다.<p>선택한 항목에 따라 템플릿이 표시되는 위치와 조직 템플릿 페이지에서 템플릿에 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |
-   | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 다음의 여러 가지 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상자]**, **[!UICONTROL 확보]** 및 **[!UICONTROL Journey Optimizer]**. <p>선택한 항목에 따라 조직 템플릿 페이지에서 템플릿의 위치가 결정됩니다. 사용자는 템플릿으로 이동하거나 사용 사례별로 목록을 필터링할 수 있습니다. </p><p>**참고:** **[!UICONTROL Journey Optimizer]**&#x200B;를 선택하면 템플릿을 Adobe Journey Optimizer에서 사용할 수 있습니다. Journey Optimizer에서는 **[!UICONTROL 보고서]** 페이지에서 드롭다운 메뉴를 사용하여 사용자가 이 템플릿이나 기본 템플릿을 선택할 수 있습니다. 자세한 내용은 Journey Optimizer 설명서의 [업데이트된 보고 환경 시작하기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)를 참조하십시오. |
+   | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 다음의 여러 가지 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상자]**, **[!UICONTROL 확보]** 및 **[!UICONTROL Journey Optimizer]**. <p>선택한 항목에 따라 조직 템플릿 페이지에서 템플릿의 위치가 결정됩니다. 사용자는 템플릿으로 이동하거나 사용 사례별로 목록을 필터링할 수 있습니다. </p><p>**참고:** **[!UICONTROL Journey Optimizer]** 옵션을 선택하면 Adobe Journey Optimizer에서 템플릿을 사용할 수 있습니다. Journey Optimizer에서는 **[!UICONTROL 보고서]** 페이지에서 드롭다운 메뉴를 사용하여 사용자가 이 템플릿이나 기본 템플릿을 선택할 수 있습니다. 자세한 내용은 Journey Optimizer 설명서의 [업데이트된 보고 환경 시작하기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)를 참조하십시오.</p><p>Journey Optimizer 옵션을 선택할 때는 다음 사항을 고려하십시오.</p><ul><li>이 옵션은 Customer Journey Analytics에서 사용 중인 데이터 보기에 Journey Optimizer 데이터가 있는 경우에만 사용할 수 있습니다.</li><li>Journey Optimizer에서 이 템플릿을 사용하는 경우 Customer Journey Analytics에서 이 템플릿과 함께 선택된 데이터 보기에 관계없이 Adobe Journey Optimizer에서 기본 데이터 보기로 설정된 데이터 보기가 사용됩니다. <br/>데이터 보기를 Journey Optimizer에서 기본 데이터 보기로 설정하는 방법에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [호환성](/help/data-views/create-dataview.md#compatibility)을 참조하십시오.</li></ul> |
    | **[!UICONTROL Journey Optimizer 활동 유형]** | 이 템플릿과 연결할 Journey Optimizer 활동 유형을 선택합니다. **[!UICONTROL 캠페인]**, **[!UICONTROL 여정]**, **[!UICONTROL 랜딩 페이지]**, **[!UICONTROL 보고서]** 또는 **[!UICONTROL 구독]**. <p>이 템플릿을 모든 활동 유형과 연결하려면 이 필드를 비워 둡니다.</p><p>이 필드는 **[!UICONTROL Journey Optimizer]**&#x200B;가 **[!UICONTROL 사용 사례]** 필드에서 선택된 경우에만 표시됩니다.</p> |
    | **[!UICONTROL Journey Optimizer 활동]** | 이 템플릿과 연결할 Journey Optimizer 활동을 선택합니다. <p>선택한 활동 유형의 모든 활동과 이 템플릿을 연관시키려면 이 필드를 비워 둡니다.</p><p>이 필드는 **[!UICONTROL Journey Optimizer]**&#x200B;가 **[!UICONTROL 사용 사례]** 필드에서 선택된 경우에만 표시됩니다.</p> |
    | **[!UICONTROL 태그]** | 템플릿에 적용할 태그를 지정합니다. 추가한 태그를 통해 사용자가 템플릿 목록을 필터링할 수 있습니다. |
