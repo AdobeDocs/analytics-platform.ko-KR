@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 기존 데이터 보기를 편집하여 세션 ID를 Customer Journey Analytics에서 사용 가능한 차원으로 추가합니다.
 
 1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)을(를) 선택합니다.
 1. 원하는 기존 데이터 보기를 선택합니다.
 1. 왼쪽의 양자 지표 마찰 이벤트 필드 목록을 찾아 가운데에 있는 지표 영역으로 끌어서 놓습니다.
 1. 오른쪽 창에서 [값 포함/제외](/help/data-views/component-settings/include-exclude-values.md) 설정을 추적하려는 마찰 이벤트로 설정합니다. 여러 마찰 이벤트를 동일한 지표에 추가하여 결합할 수 있습니다. 마찰 이벤트 필드의 다른 사본을 지표 영역으로 드래그하여 다른 마찰 이벤트를 별도의 지표로 추적할 수도 있습니다.

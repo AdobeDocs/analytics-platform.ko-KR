@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ CJA은 QM 데이터, 순차적 데이터 분석, 풍부한 속성 및 기타 고
 Quantum 지표 데이터에 대한 소스 커넥터를 만들면 Adobe Experience Platform에서 데이터 세트가 자동으로 만들어집니다. 이 데이터 세트를 Customer Journey Analytics의 새 또는 기존 [연결](/help/connections/overview.md)에 추가합니다.
 
 1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. Customer Journey Analytics으로 이동하고 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 1. 연결에 이름을 지정하고 연결에 양자 지표 데이터 세트를 추가합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -46,7 +47,7 @@ Quantum 지표 데이터에 대한 소스 커넥터를 만들면 Adobe Experienc
 [데이터 보기](/help/data-views/data-views.md)를 만들어 차원 및 지표 설정을 구성하십시오.
 
 1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)을(를) 선택합니다.
 1. 원하는 데이터 보기를 선택하거나 데이터 보기를 만듭니다.
 1. 오른쪽의 스키마 필드 목록에서 원하는 양자 지표 차원 및 지표를 찾아 가운데에 있는 차원 및 지표 영역으로 끌어서 놓습니다.
 1. 오른쪽 창을 사용하여 원하는 각 차원 및 지표를 구성합니다.

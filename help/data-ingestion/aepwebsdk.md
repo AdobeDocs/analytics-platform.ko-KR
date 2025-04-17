@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 83%
+source-wordcount: '3551'
+ht-degree: 88%
 
 ---
 
@@ -58,22 +58,22 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 참석합니다.
 
-      ![경험 이벤트를 강조 표시하는 스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
+      ![경험 이벤트를 강조한 스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마는 프로필의 _비헤이비어_(예: 장면 이름, 장바구니에 추가 푸시 버튼)를 모델링하는 데 사용됩니다. 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]:
 
-   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
+   1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
-      ![스키마 필드 이름을 표시하는 스키마 만들기 창](./assets/create-ee-schema-wizard-step-2.png)
+      ![스키마 필드 이름을 표시하는 스키마 창 만들기](./assets/create-ee-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
@@ -105,11 +105,11 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field.png)
 
-   ID 개체는 스키마에 ID 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트를 방문하는 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트 방문 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -149,7 +149,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 비헤이비어 데이터 옆에서 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
 
-이 프로필 데이터를 캡처하려면 다음 작업을 수행합니다.
+이 프로필 데이터를 캡처하려면 다음 작업을 수행하십시오.
 
 - XDM 개별 프로필 클래스를 기반으로 스키마를 만듭니다.
 
@@ -157,7 +157,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-- Experience Cloud ID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
+- Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
 
 - 프로필용으로 스키마 활성화
 
@@ -201,7 +201,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 ## 데이터스트림 설정
 
-데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
+데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 것은 데이터스트림입니다.
 
 설정에서 Adobe Experience Platform의 데이터 세트로 웹 사이트에서 수집한 데이터를 전송하려고 합니다.
 
@@ -260,7 +260,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 #### **확장**
 
-데이터 스트림을 통해 Adobe Experience Platform으로 데이터를 보낼 수 있도록 Adobe 플랫폼 웹 SDK 확장을 태그에 추가합니다.
+데이터 스트림을 통해 Adobe Experience Platform으로 데이터를 보낼 수 있도록 Adobe Platform 웹 SDK 확장을 태그에 추가합니다.
 
 Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
@@ -280,7 +280,7 @@ Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
 자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)을 참조하십시오.
 
-웹 SDK에는 기본적으로 [!UICONTROL Adobe Experience Cloud ID 서비스]가 포함되어 있으므로 태그에 ID 서비스 확장을 추가할 필요가 없습니다.
+Web SDK에는 [!UICONTROL Adobe Experience Cloud ID 서비스]가 기본적으로 제공되므로 태그에 ID 서비스 확장 기능을 추가할 필요가 없습니다.
 
 #### **데이터 요소**
 
@@ -444,7 +444,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   태그가 저장되고 개발 환경용으로 빌드되었습니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   개발 환경에 대해 태그가 저장되고 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 4. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
@@ -493,7 +493,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 연결을 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 
 2. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
@@ -539,7 +539,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 
 2. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다.
 
@@ -576,7 +576,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 프로젝트를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
 2. 왼쪽 탐색 영역에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 

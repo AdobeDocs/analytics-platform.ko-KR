@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: ae88ab16e85bd1274990f8c4d04771398293fe09
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 기존 데이터 보기를 편집하여 세션 ID를 Customer Journey Analytics에서 사용 가능한 차원으로 추가합니다.
 
 1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics으로 이동하여 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)을(를) 선택합니다.
 1. 원하는 기존 데이터 보기를 선택합니다.
 1. 왼쪽의 양자 지표 세션 ID 필드 목록을 찾아 가운데에 있는 차원 영역으로 끌어서 놓습니다.
 1. 오른쪽 창에서 [지속성](/help/data-views/component-settings/persistence.md) 설정을 &#39;세션&#39;으로 설정합니다.

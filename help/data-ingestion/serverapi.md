@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform Edge Network 서버 API를 통해 데이터 수집
-description: Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
+title: Adobe Experience Platform Edge Network Server API를 통해 데이터 수집
+description: Adobe Experience Platform Edge Network Server API 및 Edge Network을 통해 Customer Journey Analytics으로 데이터를 수집하는 방법을 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 59%
+source-wordcount: '2356'
+ht-degree: 63%
 
 ---
 
-# Edge Network 서버 API를 통해 데이터 수집
+# Edge Network Server API를 통해 데이터 수집
 
-이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔, 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
+이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔 및 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
 이를 수행하려면 다음을 수행해야 합니다.
 
@@ -58,20 +58,20 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 참석합니다.
 
       ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마는 프로필의 _비헤이비어_(예: 장면 이름, 장바구니에 추가 푸시 버튼)를 모델링하는 데 사용됩니다. 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]:
 
-   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
+   1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
       ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -101,15 +101,15 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![예제 스키마 필드 추가 버튼](./assets/example-gamingschema-plus.png)
 
-1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름](으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름](으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형](으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹](으)로 선택합니다.
+1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름]&#x200B;(으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름]&#x200B;(으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형]&#x200B;(으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹]&#x200B;(으)로 선택합니다.
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
-   ID 개체는 스키마에 ID 기능을 추가합니다. 사용자의 경우 게임 콘솔에 로그인하는 데 사용하는 Experience Cloud ID 및 이메일 주소를 사용하여 게임을 플레이하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 사용자의 경우 게임 콘솔에 로그인하는 데 사용하는 Experience Cloud ID 및 이메일 주소를 사용하여 게임을 수행하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -157,7 +157,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-- Experience Cloud ID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
+- Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
 
 - 프로필용으로 스키마 활성화
 
@@ -201,7 +201,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 ## 데이터스트림 설정
 
-데이터 스트림은 Adobe Experience Platform 웹 및 모바일 SDK와 Adobe Experience Platform Edge Network 서버 API를 구현할 때의 서버측 구성을 나타냅니다. Adobe Experience Platform SDK 및 Edge Network 서버 API를 사용하여 데이터를 수집하면 데이터가 Adobe Experience Platform Edge Network으로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
+데이터 스트림은 Adobe Experience Platform 웹 및 모바일 SDK와 Adobe Experience Platform Edge Network Server API를 구현할 때의 서버측 구성을 나타냅니다. Adobe Experience Platform SDK 및 Edge Network Server API를 사용하여 데이터를 수집하면 데이터가 Adobe Experience Platform Edge Network으로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 것은 데이터스트림입니다.
 
 설정에서는 게임에서 수집한 데이터를 Adobe Experience Platform의 데이터 세트로 전송하려고 합니다.
 
@@ -237,7 +237,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 ## Edge Network 서버 API 사용
 
-게임 개발에서 적절한 경우 Adobe Experience Platform Edge Network 서버 API에 관련 호출을 추가할 수 있습니다.
+게임 개발에서 적절한 경우 Adobe Experience Platform Edge Network Server API에 관련 호출을 추가할 수 있습니다.
 
 예를 들어 플레이어의 점수를 업데이트하려면 다음을 사용합니다.
 
@@ -272,7 +272,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 예제 POST 요청에서 `{DATASTREAM_ID}`은(는) 이전에 구성한 예제 데이터 스트림의 식별자를 가리킵니다. `{sandbox}`은(는) 사용자 정의 블라인드 라이트 필드 그룹의 경로를 식별하는 샌드박스의 고유 이름입니다.
 
-Edge Network 서버 API 사용 방법에 대한 자세한 내용은 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html)을 참조하십시오.
+Edge Network Server API 사용 방법에 대한 자세한 내용은 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html)을 참조하십시오.
 
 ## 연결 설정
 
@@ -282,7 +282,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 연결을 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 
 2. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
@@ -324,7 +324,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 
 2. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다.
 
@@ -359,7 +359,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 프로젝트를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
 2. 왼쪽 탐색 영역에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
@@ -381,4 +381,4 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 >[!SUCCESS]
 >
->모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 데이터를 해당 데이터 세트로 전달할 수 있도록 Edge Network에 데이터 스트림을 구성했습니다. 그런 다음 Edge Network 서버 API를 사용하여 해당 데이터를 데이터 스트림으로 전송했습니다. 게임 데이터 및 기타 데이터를 사용할 수 있도록 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원과 지표를 지정할 수 있으며, 마지막으로 게임 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.
+>모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 데이터(스키마) 및 저장할 위치(데이터 세트)를 정의하는 것부터 시작합니다. 데이터가 해당 데이터 세트로 전달될 수 있도록 Edge Network에서 데이터 스트림을 구성했습니다. 그런 다음 Edge Network Server API를 사용하여 해당 데이터를 데이터스트림으로 전송했습니다. 게임 데이터와 기타 데이터를 사용할 수 있도록 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원과 지표를 지정할 수 있으며, 마지막으로 게임 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.

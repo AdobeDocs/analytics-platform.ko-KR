@@ -1,14 +1,14 @@
 ---
 title: Adobe Experience Platform Mobile SDK을 통해 데이터 수집
-description: Adobe Experience Platform Mobile SDK 및 Edge Network을 통해 데이터를 Customer Journey Analytics에 수집하는 방법을 설명합니다
+description: Adobe Experience Platform Mobile SDK 및 Edge Network을 통해 Customer Journey Analytics으로 데이터를 수집하는 방법에 대해 설명합니다
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3382'
-ht-degree: 60%
+source-wordcount: '3390'
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->이 빠른 시작 안내서는 애플리케이션에서 수집된 데이터를 Adobe Experience Platform으로 수집하고 Customer Journey Analytics에서 사용하는 방법에 대한 간단한 안내서입니다. 추가 정보를 참고하는 경우 연구하는 것이 좋습니다.
+>이 빠른 시작 안내서는 애플리케이션에서 수집된 데이터를 Adobe Experience Platform에 수집하고 Customer Journey Analytics에서 사용하는 방법에 대한 간단한 안내서입니다. 추가 정보를 참고하는 경우 연구하는 것이 좋습니다.
 
 
 ## 스키마 및 데이터 세트 설정
@@ -58,20 +58,20 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
-   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 참석합니다.
 
       ![스키마 만들기](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마는 프로필의 _비헤이비어_(예: 장면 이름, 장바구니에 추가 푸시 버튼)를 모델링하는 데 사용됩니다. 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]:
 
-   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
+   1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
       ![스키마 이름 지정](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -101,15 +101,15 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![예제 스키마 필드 추가 버튼](./assets/example-mobileschema-plus.png)
 
-1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름](으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름](으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형](으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹](으)로 선택합니다.
+1. [!UICONTROL 필드 속성] 패널에서 `identification`을(를) [!UICONTROL 필드 이름]&#x200B;(으)로 입력하고 **[!UICONTROL 식별]**&#x200B;을(를) [!UICONTROL 표시 이름]&#x200B;(으)로 입력하고 **[!UICONTROL 개체]**&#x200B;을(를) [!UICONTROL 유형]&#x200B;(으)로 선택하고 **[!UICONTROL ExperienceEvent 코어 v2.1]**&#x200B;을(를) [!UICONTROL 필드 그룹]&#x200B;(으)로 선택합니다.
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-mobile.png)
 
-   ID 개체는 스키마에 ID 기능을 추가합니다. 이 경우 Experience Cloud ID와 이메일 주소를 사용하여 모바일 앱을 사용하여 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 모바일 앱을 사용하여 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -157,7 +157,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-- Experience Cloud ID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
+- Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
 
 - 프로필용으로 스키마 활성화
 
@@ -201,7 +201,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 ## 데이터스트림 설정
 
-데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 데이터 스트림입니다.
+데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 것은 데이터스트림입니다.
 
 설정에서는 모바일 앱에서 수집한 데이터를 Adobe Experience Platform의 데이터 세트로 전송하려고 합니다.
 
@@ -260,7 +260,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 #### **확장**
 
-Adobe 플랫폼 Edge Network 확장을 태그에 추가하여 (데이터스트림을 통해) 데이터를 Adobe Experience Platform으로 보낼 수 있습니다.
+Adobe Platform Edge Network 확장을 태그에 추가하여 데이터스트림을 통해 Adobe Experience Platform으로 데이터를 전송할 수 있습니다.
 
 Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
@@ -274,7 +274,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
    ![AEP Mobile SDK 확장 구성](./assets/aepmobilesdk-extension-datastream.png)
 
-1. [!UICONTROL Edge Network 구성] 아래에 **[!UICONTROL 도메인 도메인]**&#x200B;을(를) 입력하십시오. 일반적으로 `<organizationName>.data.adobedc.net`을(를) 사용합니다.
+1. [!UICONTROL 도메인 구성] 아래에 **[!UICONTROL Edge Network 도메인]**&#x200B;을(를) 입력하십시오. 일반적으로 `<organizationName>.data.adobedc.net`을(를) 사용합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -283,7 +283,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 또한 카탈로그에서 다음과 같은 추가 확장을 설정합니다.
 
 - 신원
-- Assurance.
+- AEP Assurance.
 - 동의합니다.
 
 확장 및 해당 구성에 대한 자세한 내용은 Experience Platform용 모바일 앱 자습서에서 [태그 속성 구성](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)을 참조하십시오.
@@ -352,7 +352,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 작업] 아래에 ![더하기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
 
-      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택하십시오.
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택합니다.
 
       - [!UICONTROL 작업 유형] 목록에서 **[!UICONTROL Edge Network에 이벤트 전달]**&#x200B;을 선택합니다.
 
@@ -364,7 +364,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-위의 예는 애플리케이션 상태가 포함된 XDM 데이터를 Adobe Edge 네트워크 및 Adobe Experience Platform으로 전송하는 규칙을 정의하는 예입니다.
+위의 예는 애플리케이션 상태가 포함된 XDM 데이터를 Adobe Edge Network 및 Adobe Experience Platform으로 전송하는 규칙을 정의하는 예제입니다.
 
 태그에서 다양한 방식으로 규칙을 사용하여 변수를 조작할 수 있습니다(데이터 요소 사용).
 
@@ -392,7 +392,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   태그가 저장되고 개발 환경용으로 빌드되었습니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   개발 환경에 대해 태그가 저장되고 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 4. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
@@ -437,7 +437,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 연결을 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 
 2. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
@@ -483,7 +483,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 
 2. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다.
 
@@ -520,7 +520,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 프로젝트를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
 2. 왼쪽 탐색 영역에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
@@ -544,4 +544,4 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 >[!SUCCESS]
 >
->모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 로열티 데이터(스키마)와 이를 저장할 위치(데이터 세트) 정의를 시작으로 데이터를 해당 데이터 세트로 전달할 수 있도록 Edge Network에서 데이터스트림을 구성했습니다. 그런 다음 확장(Adobe Experience Platform Edge Network 및 기타), 데이터 요소 및 규칙이 포함된 태그를 정의 및 배포하여 모바일 앱에서 데이터를 캡처하고 해당 데이터를 데이터스트림으로 전송합니다. 모바일 앱 푸시 알림 추적 데이터 및 기타 데이터를 사용하기 위해 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원 및 지표를 지정할 수 있으며, 마지막으로 모바일 앱 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.
+>모든 단계가 완료되었습니다. Adobe Experience Platform에서 수집할 로열티 데이터(스키마)와 이를 저장할 위치(데이터 세트) 정의를 시작으로 데이터를 해당 데이터 세트로 전달할 수 있도록 Edge Network에서 데이터스트림을 구성했습니다. 그런 다음 확장(Adobe Experience Platform Edge Network 등), 데이터 요소 및 규칙이 포함된 태그를 정의 및 배포하여 모바일 앱에서 데이터를 캡처하고 해당 데이터를 데이터스트림으로 전송합니다. 모바일 앱 푸시 알림 추적 데이터 및 기타 데이터를 사용하기 위해 Customer Journey Analytics에서 연결을 정의했습니다. 데이터 보기 정의를 사용하면 사용할 차원 및 지표를 지정할 수 있으며, 마지막으로 모바일 앱 데이터를 시각화하고 분석하는 첫 번째 프로젝트를 만들었습니다.

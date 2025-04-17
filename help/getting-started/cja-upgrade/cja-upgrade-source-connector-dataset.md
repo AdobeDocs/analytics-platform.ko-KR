@@ -1,14 +1,14 @@
 ---
 title: 연결에 Analytics 소스 커넥터 데이터 세트 추가
-description: Analytics 소스 커넥터 데이터 세트를 연결에 추가하는 방법을 알아봅니다
+description: 연결에 Analytics 소스 커넥터 데이터 세트 추가 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 35%
+source-wordcount: '887'
+ht-degree: 98%
 
 ---
 
@@ -25,49 +25,49 @@ ht-degree: 35%
 
 {{upgrade-note-step}}
 
-## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics으로 가져오는 방법을 이해합니다
+## Analytics 소스 커넥터가 내역 데이터를 Customer Journey Analytics로 가져오는 방식 파악
 
-Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 이 데이터를 Customer Journey Analytics에서 내역 데이터로 사용할 수 있습니다.
+Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 이러한 데이터는 Customer Journey Analytics에서 내역 데이터로 사용될 수 있습니다.
 
-이 프로세스에서는 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 조정된 간소화된 스키마를 원하므로 [Customer Journey Analytics으로 업그레이드할 때 XDM 스키마를 생성](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)한다고 가정합니다.
+이 프로세스는 조직의 요구와 사용하는 특정 Platform 애플리케이션에 맞춘 간소화된 스키마가 필요하기 때문에 [Customer Journey Analytics로 업그레이드할 때 XDM 스키마를 만들고자](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) 한다고 가정합니다.
 
-Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics으로 가져오려면 다음을 수행해야 합니다.
+Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics로 가져오려면 다음 작업을 수행해야 합니다.
 
 1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 만들고 필드를 XDM 스키마에 매핑하십시오](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+1. 아직 Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 생성하고 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)합니다.
 
    또는
 
-   Analytics 소스 커넥터가 이미 있는 경우 [소스 커넥터의 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)하십시오.
+   이미 Analytics 소스 커넥터가 있는 경우 [소스 커넥터에서 XDM 스키마로 필드를 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)합니다.
 
-1. 아래 설명된 대로 Analytics 소스 커넥터 데이터 세트를 연결에 추가합니다.
+1. 아래 설명한 대로 연결에 Analytics 소스 커넥터 데이터 세트를 추가합니다.
 
 ## 연결에 Analytics 소스 커넥터 데이터 세트 추가
 
-[이전 데이터에 대한 Analytics 소스 커넥터를 만든](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) 후 Analytics 데이터에 대한 데이터 세트가 자동으로 만들어집니다.
+[내역 데이터에 대한 분석 소스 커넥터를 만들고](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md) 나면 Analytics 데이터에 대한 데이터 세트가 자동으로 생성됩니다.
 
-자동으로 생성된 이 데이터 세트를 웹 SDK 구현을 위해 만든 연결과 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 웹 SDK 데이터와 Customer Journey Analytics의 동일한 데이터 보기에 표시됩니다.
+자동으로 생성된 데이터 세트를 Web SDK 구현을 위해 생성한 동일한 연결에 추가해야 합니다. 이렇게 하면 Analytics 데이터가 Customer Journey Analytics의 Web SDK 데이터와 동일한 데이터 보기로 전송됩니다.
 
-웹 SDK 구현을 위해 만든 연결과 동일한 연결에 자동으로 만든 데이터 세트를 추가하려면 다음을 수행하십시오.
+자동으로 생성된 데이터 세트를 Web SDK 구현을 위해 생성한 동일한 연결에 추가하는 방법:
 
-1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 탭을 선택합니다.
+1. Customer Journey Analytics의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 
-1. [웹 SDK 구현을 위해 만든 연결](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)을 선택하십시오.
+1. [Web SDK 구현을 위해 생성된](/help/getting-started/cja-upgrade/cja-upgrade-connection.md) 연결을 선택합니다.
 
 1. **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
    ![연결 편집](assets/connection-add-dataset.png)
 
-1. 오른쪽 상단에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
+1. 오른쪽 상단의 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
 
    ![연결 편집](assets/connection-add-dateset2.png)
 
-1. Analytics 소스 커넥터를 만들 때 자동으로 만들어진 데이터 세트로 스크롤하거나 검색합니다.
+1. Analytics 소스 커넥터를 생성할 때 자동으로 생성된 데이터 세트를 스크롤하거나 검색합니다.
 
-   이 데이터 세트의 이름은 보고서 세트의 이름 다음에 `midValues`이(가) 옵니다. 예: `My report suite midValues`
+   이 데이터 세트의 이름은 보고서 세트의 이름 뒤에 `midValues`가 붙습니다. 예: `My report suite midValues`
 
-1. 데이터 집합 이름 옆의 확인란을 선택한 다음 **[!UICONTROL 다음]**&#x200B;을(를) 선택합니다.
+1. 데이터 세트 이름 옆에 있는 확인란을 선택한 다음 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
    ![연결 편집](assets/connection-add-dataset3.png)
 
@@ -84,32 +84,32 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    {style="table-layout:auto"}
 
-1. **[!UICONTROL 새 데이터 가져오기]** 섹션에서 **[!UICONTROL 새 데이터 모두 가져오기]** 옵션을 비활성화합니다.
+1. **[!UICONTROL 새로운 데이터 가져오기]** 섹션에서 **[!UICONTROL 모든 새로운 데이터 가져오기]** 옵션을 비활성화한 상태로 둡니다.
 
-   이전 데이터에 대해 Analytics 소스 커넥터 데이터 세트를 사용하고 있으므로 이 데이터 세트에 수집된 이후 데이터를 가져오지 않습니다.
+   내역 데이터에 대한 Analytics 소스 커넥터 데이터 세트를 사용하고 있기 때문에 이 데이터 세트에 수집된 이후의 데이터를 가져오고 싶지 않을 것입니다.
 
-1. **[!UICONTROL 데이터 세트 채우기]** 섹션에서 **[!UICONTROL 채우기 요청]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 데이터 세트 채우기]** 섹션에서 **[!UICONTROL 채우기 요청]**&#x200B;을 선택합니다.
 
-1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)을 선택하여 Customer Journey Analytics에 연결을 다시 채울 기간을 정의합니다.
+1. Customer Journey Analytics에 연결 채우기를 포함할 기간을 정의하려면 시작 및 종료 날짜를 입력하거나 캘린더 아이콘 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 선택합니다.
 
-   다시 채우기를 요청하는 날짜를 지정할 때 명시해야 합니다. 몇 가지 요인에 따라 다음 중 하나를 수행할 수 있습니다.
+   채우기를 요청할 때는 날짜를 명확하게 지정합니다. 여러 가지 요소에 따라 다음 중 하나를 수행할 수 있습니다.
 
-   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜와 동일한 종료 날짜를 선택합니다.
+   * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜와 동일한 종료 날짜를 선택합니다.
 
-   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+   * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
 
-   * 데이터의 겹치는 부분이 더 많이 발생하는 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+   * 데이터가 더 많이 겹치는 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
 
-     **참고:** 이 옵션을 사용하면 연결에 더 많은 행이 있으므로 비용이 증가합니다.
+     **참고:** 이 옵션은 연결에 더 많은 행이 있기 때문에 비용이 증가할 것입니다.
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
-1. **[!UICONTROL 다시 채우기 큐]**&#x200B;를 선택하십시오.
+1. **[!UICONTROL 대기열 채우기]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하여 연결을 저장합니다.
 
-1. (조건부) 조회 데이터 세트를 사용 중인 경우 조회 데이터 세트를 만들고 연결에 추가해야 합니다. 자세한 내용은 [Customer Journey Analytics에서 데이터를 분류하기 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)를 참조하십시오.
+1. (조건부) 조회 데이터 세트를 사용하는 경우, 조회 데이터 세트를 생성하고 연결에 추가해야 합니다. 자세한 내용은 [Customer Journey Analytics에서 데이터를 분류하기 위한 조회 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)를 참조하십시오.
 
-   이 작업은 웹 SDK 구현을 구성할 때 아직 수행하지 않은 경우에만 필요합니다.
+   이는 Web SDK 구현을 구성할 때 아직 수행하지 않은 경우에만 필요합니다.
 
 {{upgrade-final-step}}

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 80%
+source-wordcount: '1181'
+ht-degree: 82%
 
 ---
 
@@ -54,11 +54,11 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 3. Adobe Analytics 타일에서 **[!UICONTROL 설정]** 또는 **[!UICONTROL 데이터 추가]**&#x200B;를 선택합니다.
 
-   ![Adobe 응용 프로그램과 함께 소스가 선택된 Adobe Experience Platform 창 및 강조 표시된 데이터 추가](./assets/sources-overview.png)
+   ![소스가 선택된 Adobe Experience Platform 창과 Adobe 애플리케이션 및 데이터 추가가 강조 표시된 모습.](./assets/sources-overview.png)
 
 4. **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다. 보고서 세트 목록에서 사용할 세트를 선택합니다.
 
-   ![보고서 세트 목록을 표시하는 Adobe Experience Platform 창](./assets/report-suites.png)
+   ![보고서 세트 목록을 보여 주는 Adobe Experience Platform 창](./assets/report-suites.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
@@ -68,18 +68,18 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-6. 데이터 흐름의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
+6. 데이터 흐름의 이름을 지정하고 (선택 사항) 설명을 입력합니다.
 
-   ![데이터 흐름 세부 정보 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/dataflow-detail.png)
+   ![데이터 흐름 세부 정보 섹션을 강조 표시한 Adobe Experience Platform 창](./assets/dataflow-detail.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 7. 연결을 검토하고 **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-   ![검토를 위해 연결 및 데이터 형식 섹션을 강조 표시하는 Adobe Experience Platform 창](./assets/review.png)
+   ![검토를 위해 연결과 데이터 유형 섹션을 강조 표시한 Adobe Experience Platform 창](./assets/review.png)
 
 
-연결이 만들어지면 데이터 흐름이 자동으로 만들어져 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다. 데이터 흐름은 프로덕션 샌드박스에 대해 최대 13개월의 내역 데이터를 수집합니다. 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.
+연결이 만들어지면 데이터 흐름이 자동으로 만들어져 데이터 세트를 보고서 세트의 Adobe Analytics 데이터로 채웁니다. 데이터 흐름은 프로덕션 샌드박스에 대해 최대 13개월의 내역 데이터를 수집합니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
@@ -94,7 +94,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 연결을 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 
 2. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
@@ -140,7 +140,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 
 2. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다.
 
@@ -177,7 +177,7 @@ Analysis Workspace는 데이터를 기반으로 신속하게 분석을 빌드하
 
 프로젝트를 만드는 경우:
 
-1. Customer Journey Analytics UI의 상단 탐색에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
+1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 
 2. 왼쪽 탐색 영역에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택합니다.
 

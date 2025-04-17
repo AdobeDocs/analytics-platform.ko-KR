@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '5188'
-ht-degree: 8%
+source-wordcount: '5200'
+ht-degree: 15%
 
 ---
 
@@ -340,7 +340,7 @@ Experience Platform에서 요약 스키마를 만들려면 다음 작업을 수�
 
 요약 데이터를 Experience Platform에 저장하려면 먼저 데이터 세트를 만든 다음 요약 데이터를 데이터 세트에 업로드해야 합니다.
 
-데이터 세트를 만들려면 다음 작업을 수행하십시오.
+데이터 세트를 만드는 방법:
 
 1. 다음에서 **[!UICONTROL Experience Platform]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
 1. 왼쪽 레일에서 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
@@ -387,7 +387,7 @@ Customer Journey Analytics에서 샘플 데이터를 사용하려면 Experience 
 
 
 1. 다음에서 **[!UICONTROL Customer Journey Analytics]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
-1. 상단 메뉴에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 연결]** > **[!UICONTROL 제목 없는 연결]**&#x200B;에서:
    1. **[!UICONTROL 연결 이름]**&#x200B;을 입력하십시오(예: `Example Connection Using Summary Data`).
@@ -428,7 +428,7 @@ Customer Journey Analytics에서 샘플 데이터를 사용하려면 Experience 
 잠시 후 데이터 세트의 데이터가 Customer Journey Analytics에 제대로 로드되었는지 확인하십시오.
 
 1. 다음에서 **[!UICONTROL Customer Journey Analytics]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
-1. 상단 메뉴에서 **[!UICONTROL 연결]**&#x200B;을 선택합니다.
+1. 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
 1. 연결을 선택하십시오(예: **[!UICONTROL 요약 데이터를 사용한 연결 예제]**).
 1. **[!UICONTROL 연결]** > **[!UICONTROL 요약 데이터를 사용한 연결 예제]** 세부 정보에서 적절한 날짜 범위를 선택하십시오.
    1. ![일정](/help/assets/icons/Calendar.svg)을 선택한 다음 **[!UICONTROL 최근 7일]**&#x200B;을 선택하십시오.
@@ -443,7 +443,7 @@ Customer Journey Analytics에서 샘플 데이터를 사용하려면 Experience 
 Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지표 및 차원이 포함된 데이터 보기를 생성하려고 합니다.
 
 1. 다음에서 **[!UICONTROL Customer Journey Analytics]** 선택   ![앱](/help/assets/icons/Apps.svg)   앱 전환기.
-1. 상단 메뉴에서 **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+1. 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 1. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 데이터 보기]**&#x200B;에서 마법사 화면으로 이동하여 데이터 보기를 구성합니다.
    1. **[!UICONTROL 데이터 보기]**&#x200B;의 **[!UICONTROL 구성]** 단계에서:
@@ -482,7 +482,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 
          ![추적 코드 요약 데이터](../assets/tracking-code-summary-data.png)
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 요약 데이터 그룹]**&#x200B;을 펼칩니다.
-         1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 사용하도록 설정합니다.
+         1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 활성화합니다.
          1. **[!UICONTROL Dimension]** 드롭다운 목록에서 **[!UICONTROL 캠페인 ID]**&#x200B;을(를) 선택하십시오. 이 단계에서는 이벤트 데이터와 요약 데이터가 보고를 위해 적절하게 결합되도록 합니다.
          1. 선택적으로 **[!UICONTROL 보고에서 숨기기]**&#x200B;를 활성화할 수 있습니다. [!UICONTROL 보고에서 숨기기]를 통해 선택한 차원([!UICONTROL 캠페인 ID])을 Analysis Workspace 및 기타 Customer Journey Analytics 보고 도구에서 숨길 수 있습니다. 이 옵션을 활성화한 경우 옵션을 확인할 수 있습니다.
             1. **[!UICONTROL 차원]** 목록에서 **[!UICONTROL 캠페인 ID]** 차원을 선택합니다.
@@ -505,7 +505,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          ![파생 필드 요약 데이터 그룹](../assets/derived-field-summary-data-group.png)
 
          1. ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 요약 데이터 그룹]**&#x200B;을 펼칩니다.
-         1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 사용하도록 설정합니다.
+         1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 활성화합니다.
          1. **[!UICONTROL Dimension]** 드롭다운 목록에서 **[!UICONTROL 캠페인 이름(조회 파생 필드)]**&#x200B;을(를) 선택하십시오. 이 단계에서는 예제 조회 데이터 데이터 데이터 세트의 캠페인 이름(조회)을 보고에 안전하게 사용할 수 있습니다([Workspace](#workspace) 참조).
 
       1. **[!UICONTROL 지표]** 목록에서 **[!UICONTROL 매출]** 지표를 선택합니다. 구성 요소 패널에서 다음을 수행합니다.
@@ -585,7 +585,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
       1. **[!UICONTROL 조건부 서식]**&#x200B;을 사용하도록 설정합니다.
          1. **[!UICONTROL 자동 생성]**&#x200B;을 선택합니다.
          1. 선호하는 **[!UICONTROL 조건부 서식 팔레트]**&#x200B;를 선택하십시오.
-   1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하십시오.
+   1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 추적 코드(이벤트)가 아닌 캠페인 이름에 대해 보고하려면 다음 단계를 수행하십시오.
 
