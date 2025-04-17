@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 확장 기능
-description: Power BI 또는 Tableau Desktop을 사용하여 Customer Journey Analytics BI 확장을 사용하여 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
+description: Power BI 또는 Tableau Desktop을 사용하여 Customer Journey Analytics BI 확장 기능을 통해 데이터 보기에 액세스하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '3247'
-ht-degree: 62%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 62%
 
 [!DNL Customer Journey Analytics BI extension]를 통해 SQL은 Customer Journey Analytics에서 정의한 [데이터 보기](./data-views.md)에 액세스할 수 있습니다. 데이터 엔지니어와 분석가는 Power BI, Tableau Desktop 또는 기타 비즈니스 인텔리전스 및 시각화 도구(BI 도구라고도 함)에 더 익숙할 수 있습니다. 이제 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트를 생성할 때 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다.
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics BI extension]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)는 Experience Platform의 데이터 레이크에서 사용 가능한 데이터에 대한 SQL 인터페이스입니다. [!DNL Customer Journey Analytics BI extension]를 활성화하면 Customer Journey Analytics 데이터 보기를 [!DNL Query Service] 세션의 테이블 또는 보기로 볼 수 있도록 [!DNL Query Service] 기능이 확장됩니다. 따라서 [!DNL Query Service]를 PostgresSQL 인터페이스로 사용하는 비즈니스 인텔리전스 도구는 이러한 확장 기능을 통해 원활하게 이점을 누릴 수 있습니다.
 
 주요 이점은 다음과 같습니다.
 
@@ -28,30 +28,30 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 사전 요구 사항
 
-이 기능을 사용하려면 만료되거나 만료되지 않는 자격 증명을 사용하여 BI 도구를 [!DNL Customer Journey Analytics BI extension]에 연결할 수 있습니다. [자격 증명 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)에서 만료되는 자격 증명 또는 만료되지 않는 자격 증명을 설정하는 방법에 대한 자세한 정보를 제공합니다.
-다음은 CJA 권한을 설정하는 추가 단계입니다
+이 기능을 사용하면 만료되거나 만료되지 않는 자격 증명을 사용하여 BI 도구를 [!DNL Customer Journey Analytics BI extension]에 연결할 수 있습니다. [자격 증명 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)에서는 만료될 예정인 자격 증명 또는 만료되지 않은 자격 증명 설정에 대한 자세한 정보를 제공합니다.
+CJA 권한을 설정하기 위한 추가 단계는 다음과 같습니다.
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
 ### 자격 증명 만료
 
-만료 자격 증명을 사용하려면 다음을 수행할 수 있습니다.
+자격 증명 만료를 사용하려면 다음 작업을 수행하십시오.
 
 * Experience Platform 및 Customer Journey Analytics에 대한 액세스 권한을 부여합니다.
-* 연결 및 데이터 보기를 보기, 편집, 업데이트 또는 삭제할 수 있도록 Customer Journey Analytics에 대한 제품 관리자 액세스 권한을 부여합니다.
+* 제품 관리자에게 Customer Journey Analytics에 대한 액세스 권한을 부여하면 연결 및 데이터 보기를 보고, 편집하고, 업데이트하거나 삭제할 수 있습니다.
 
-또는 다음을 수행할 수 있습니다.
+또는 다음과 같은 작업을 수행할 수 있습니다.
 
 * 액세스하려는 데이터 보기에 대한 액세스 권한을 부여합니다.
 * Customer Journey Analytics BI 확장 기능에 대한 액세스 권한을 부여합니다.
 
 ### 만료되지 않는 자격 증명
 
-만료되지 않는 자격 증명을 사용하려면 다음을 수행하십시오.
+만료되지 않는 자격 증명을 사용하는 방법:
 
-* Experience Platform에서 만료되지 않는 자격 증명을 만듭니다.
-* [만료되는 자격 증명](#Expiring-credentials)에 언급된 단계에 따라 만료되지 않는 자격 증명에 대한 액세스 권한을 부여합니다.
+* Experience Platform에 만료되지 않는 자격 증명을 만듭니다.
+* 만료되지 않는 자격 증명에 대한 액세스 권한을 부여하려면 [자격 증명 만료](#Expiring-credentials)에 언급된 단계를 따릅니다.
 
-자세한 내용은 [고객 여정 액세스 제어](../technotes/access-control.md)를 참조하십시오. 특히 [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions) 및 [Admin Console의 Customer Journey Analytics 권한](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
+자세한 내용은 [고객 여정 액세스 제어](../technotes/access-control.md)를 참조하십시오. 특히 [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions)과 [Admin Console의 Customer Journey Analytics 권한](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
 
 
 ## 사용
@@ -70,7 +70,7 @@ Adobe Experience Platform:
 
 1. ![쿼리 만들기](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B;쿼리 만들기&#x200B;**]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
 1. 쿼리를 실행하려면 SQL 문을 입력하고 ![재생](assets/Smock_Play_18_N.svg) 버튼을 선택합니다(또는 `[SHIFT]` + `[ENTER]` 누르기).
 
@@ -85,7 +85,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
    1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
@@ -95,12 +95,12 @@ Adobe Experience Platform:
 
 +++
 
-자세한 내용은 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)를 참조하십시오.
+자세한 내용은 [쿼리 편집기 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/user-guide)를 참조하십시오.
 
 
 ### BI 도구
 
-현재 [!DNL Customer Journey Analytics BI extension]은(는) 아래 나열된 도구에 대해 지원되고 테스트됩니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만, 아직 공식적으로 지원되지는 않습니다.
+현재, [!DNL Customer Journey Analytics BI extension]은 아래 나열된 도구에 대해 지원 및 테스트되었습니다. PSQL 인터페이스를 사용하는 다른 BI 도구에서도 작동할 수 있지만 아직 공식적으로 지원되지는 않습니다.
 
 +++ Power BI
 
@@ -110,11 +110,11 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
    1. Power BI에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-1. Power BI에서 다음 작업을 수행합니다.
+1. Power BI에서 다음 작업을 수행하십시오.
 
    1. 기본 창의 상단 도구 모음에서 **[!UICONTROL **&#x200B;데이터 내보내기&#x200B;**]**&#x200B;를 선택합니다.
 
@@ -122,30 +122,30 @@ Adobe Experience Platform:
 
    1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행합니다.
+   1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
 
-      1. **[!UICONTROL ** Server **]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Host **]** 매개 변수를 붙여 넣습니다.
+      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Database **]** 매개 변수를 **[!UICONTROL ** Database **]** 텍스트 필드에 붙여 넣으십시오.
+      1. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드의 Experience Platform 쿼리 [!UICONTROL 자격 증명]에서 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
 
-         예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+         예를 들어 `prod:cja?FLATTEN`처럼 읽히도록 `?FLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
       1. **[!UICONTROL 데이터 연결]** 모드를 묻는 메시지가 나타나면 **[!UICONTROL DirectQuery]**&#x200B;를 선택합니다.
 
       1. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 묻는 메시지가 표시됩니다. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 동등한 매개변수 사용
 
 
-   1. 로그인에 성공하면 Customer Journey Analytics 데이터 보기 테이블이 Power BI **[!UICONTROL ** Navigator **]**&#x200B;에 나타납니다.
+   1. 로그인에 성공하면 Power BI의 **[!UICONTROL **&#x200B;탐색기&#x200B;**]**&#x200B;에 Customer Journey Analytics 데이터 보기 테이블이 표시됩니다.
 
    1. 사용할 데이터 보기 테이블을 선택하고 **[!UICONTROL **&#x200B;로드&#x200B;**]**&#x200B;를 선택합니다
 
    하나 이상의 선택한 테이블과 연결된 모든 차원 및 지표가 오른쪽 창에 표시되어 시각화에 사용할 수 있습니다.
 
-   자세한 내용은 [쿼리 서비스에 Power BI 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+   자세한 내용은 [Power BI를 Query Service에 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/power-bi)을 참조하십시오. 또한 자세한 예를 보려면 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오.
 
 +++
 
-+++타블로 데스크톱
++++Tableau Desktop
 
 1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
 
@@ -153,9 +153,9 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
-   1. 필요한 경우 Tableau Desktop에서 각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 등)를 복사하려면 ![복사](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+   1. Tableau Desktop에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
 1. Tableau Desktop에서:
 
@@ -163,21 +163,21 @@ Adobe Experience Platform:
 
    1. 목록에서 **[!UICONTROL ** PostgresSQL **]**&#x200B;을 선택합니다.
 
-   1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행합니다.
+   1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행하십시오.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Host **]** 매개 변수를 **[!UICONTROL ** Server **]** 텍스트 필드에 붙여 넣으십시오.
+      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Port **]** 매개 변수를 **[!UICONTROL ** Port **]** 텍스트 필드에 붙여 넣으십시오.
+      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;포트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;포트&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL ** Database **]** 매개 변수를 **[!UICONTROL ** Database **]** 텍스트 필드에 붙여 넣으십시오.
+      1. **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 텍스트 필드의 Experience Platform 쿼리 [!UICONTROL 자격 증명]에서 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수를 붙여넣습니다.
 
-         예를 들어 `prod:cja%3FFLATTEN`처럼 읽히도록 `%3FFLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+         예를 들어 `prod:cja%3FFLATTEN`처럼 읽히도록 `%3FFLATTEN`을 **[!UICONTROL **&#x200B;데이터베이스&#x200B;**]** 매개변수에 추가합니다. 자세한 내용은 [서드파티 BI 도구와 함께 사용할 수 있도록 중첩 데이터 구조 평면화](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
       1. **[!UICONTROL **&#x200B;인증&#x200B;**]** 목록에서 **[!UICONTROL **&#x200B;사용자 이름 및 암호&#x200B;**]**&#x200B;를 선택합니다.
 
       1. **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;사용자 이름&#x200B;**]** 매개변수를 붙여넣습니다.
 
-      1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;암호&#x200B;**]** 매개 변수를 **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드에 붙여 넣으십시오.
+      1. **[!UICONTROL **&#x200B;암호&#x200B;**]** 텍스트 필드에 Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;암호&#x200B;**]** 매개변수를 붙여넣습니다.
 
       1. **[!UICONTROL **&#x200B;로그인&#x200B;**]**&#x200B;을 선택합니다.
 
@@ -187,11 +187,11 @@ Adobe Experience Platform:
 
    이제 데이터 보기 테이블의 데이터를 사용하여 보고서 및 시각화를 빌드할 수 있습니다.
 
-   자세한 내용은 [쿼리 서비스에 타블로 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+   자세한 내용은 [쿼리 서비스에 Tableau 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/tableau)을 참조하십시오. 또한 자세한 예를 보려면 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오.
 
 +++
 
-+++ 보는 사람
++++ Looker
 
 1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
 
@@ -199,26 +199,26 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
-   1. 필요한 경우 Looker에서 각 Postgres 자격 증명 매개 변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 등)를 복사하려면 ![복사](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+   1. Looker에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-1. 조회:
+1. Looker에서:
 
-   1. 왼쪽 레일에서 **[!UICONTROL 관리자]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL 연결]**&#x200B;을 선택하세요.
+   1. 왼쪽 레일에서 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL Looker에 데이터베이스 연결]** 화면에서 새 연결을 설정할 때 적절한 값을 붙여 넣습니다. 방언으로 **[!UICONTROL PostgreSQL 9.5+]**&#x200B;을(를) 선택하십시오.
-   1. 연결을 테스트하려면 **[!UICONTROL 테스트]**&#x200B;를 선택하십시오.
-   1. 성공하면 **[!UICONTROL 업데이트]**&#x200B;를 선택하여 연결을 저장합니다.
+   1. **[!UICONTROL 데이터베이스를 Looker에 연결]** 화면에서 새 연결을 설정할 때 적절한 값을 붙여넣습니다. 방언으로서 **[!UICONTROL PostgreSQL 9.5+]** 선택했는지 확인합니다.
+   1. 연결을 테스트하려면 **[!UICONTROL 테스트]**&#x200B;를 선택합니다.
+   1. 성공한 경우 **[!UICONTROL 업데이트]**&#x200B;를 선택해 연결을 저장합니다.
 
    이제 데이터 보기 테이블의 데이터를 사용하여 보고서 및 시각화를 빌드할 수 있습니다.
 
-   자세한 내용은 [Query Service에 Looker 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+   자세한 내용은 [쿼리 서비스에 Looker 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/looker)을 참조하십시오. 또한 자세한 예를 보려면 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오.
 
 +++
 
-+++ Jupyter Notebook
++++ Jupyter Noteboook
 
 1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
 
@@ -226,23 +226,23 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
-   1. 필요한 경우 Jupyter Notebook에서 Postgres 자격 증명 매개 변수([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] 등)를 각각 복사하려면 ![Copy](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+   1. Jupyter Notebook에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-1. Jupyter Notebook에서:
+1. Jupyter Noteboook에서:
 
-   1. 필요한 라이브러리를 사용해야 합니다.
-   1. 연결을 설정하고 실행할 때 적절한 값을 사용하십시오.
+   1. 필요한 라이브러리를 사용하는지 확인합니다.
+   1. 연결을 설정하고 실행할 때 적절한 값을 사용합니다.
    1. 관련 쿼리를 실행하여 연결을 테스트합니다.
 
-   성공하면 데이터로 작업하여 보고서와 시각화를 작성할 수 있습니다.
+   성공한 경우 데이터를 활용하여 보고서와 시각화를 작성할 수 있습니다.
 
-   자세한 내용은 [Jupyter Notebook을 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)도 참조하세요.
+   자세한 내용은 [Jupyter Notebook을 쿼리 서비스에 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/jupyter-notebook)을 참조하십시오. 또한 자세한 예를 보려면 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오.
 
 +++
 
-+++ 스튜디오
++++ RStudio
 
 1. Adobe Experience Platform에서 PostgresSQL 자격 증명의 세부 정보를 찾습니다.
 
@@ -250,29 +250,29 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
 
-   1. 필요한 경우 Jupyter Notebook에서 Postgres 자격 증명 매개 변수([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username] 등)를 각각 복사하려면 ![Copy](assets/Smock_Copy_18_N.svg)를 사용하십시오.
+   1. Jupyter Notebook에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
-1. 자습서에서:
+1. RStudio에서:
 
-   1. 필요한 라이브러리를 사용해야 합니다.
-   1. 연결을 설정하고 실행할 때 적절한 값을 사용하십시오.
+   1. 필요한 라이브러리를 사용하는지 확인합니다.
+   1. 연결을 설정하고 실행할 때 적절한 값을 사용합니다.
    1. 관련 쿼리를 실행하여 연결을 테스트합니다.
 
-   성공하면 데이터로 작업하여 보고서와 시각화를 작성할 수 있습니다.
+   성공한 경우 데이터를 활용하여 보고서와 시각화를 작성할 수 있습니다.
 
-   자세한 내용은 [RStudio를 쿼리 서비스에 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio)을 참조하십시오. 자세한 예제는 [BI 확장 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하십시오(RPostgres 패키지를 대신 사용).
+   자세한 내용은 [쿼리 서비스에 RStudio 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/rstudio)을 참조하십시오. 또한 자세한 예를 보려면 [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오(대신 RPostgres 패키지를 사용하는 경우).
 
 +++
 
-사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview)을 참조하십시오.
+사용 가능한 다양한 도구에 대한 개요 및 자세한 내용은 [Query Service에 클라이언트 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/overview)을 참조하십시오.
 
-Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 완수하는 방법은 [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 참조하십시오.
+Customer Journey Analytics BI 확장 기능을 사용하여 다양한 사용 사례를 달성하는 방법에 대해서는 [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)를 확인하십시오.
 
 ## 기능
 
-기본적으로 데이터 보기에는 친숙한 이름에서 생성된 테이블 보안 이름이 있습니다. 예를 들어, 이름이 [!UICONTROL 내 웹 데이터 보기]인 데이터 보기의 보기 이름은 `my_web_data_view`입니다. 데이터 보기를 위해 BI 도구에서 사용할 기본 이름을 정의할 수 있습니다. 자세한 내용은 [데이터 보기 설정](create-dataview.md#settings)을 참조하세요.
+기본적으로 데이터 보기에는 친숙한 이름에서 생성된 테이블 보안 이름이 있습니다. 예를 들어 [!UICONTROL 내 웹 데이터 보기]라는 데이터 보기의 보기 이름은 `my_web_data_view`입니다. BI 도구에서 데이터 보기에 사용할 기본 이름을 정의할 수 있습니다. 자세한 내용은 [데이터 보기 설정](create-dataview.md#settings)을 참조하십시오.
 
 데이터 보기 ID를 테이블 이름으로 사용하려면 연결할 때 데이터베이스 이름에 옵션인 `CJA_USE_IDS` 설정을 추가할 수 있습니다. 예를 들어 `prod:cja?CJA_USE_IDS`에는 `dv_ABC123`과 같은 데이터 보기가 표시됩니다.
 
@@ -297,28 +297,28 @@ prod:all=> \dv
 
 ### 중첩 및 평면화
 
-기본적으로 데이터 보기의 스키마는 원래 XDM 스키마와 마찬가지로 중첩 구조를 사용합니다. 또한 통합은 `FLATTEN` 옵션을 지원합니다. 이 옵션을 사용하면 데이터 보기(및 세션의 다른 테이블)에 대한 스키마를 강제로 평면화할 수 있습니다. 평면화를 사용하면 구조화된 스키마를 지원하지 않는 BI 도구를 더 쉽게 사용할 수 있습니다. 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)을 참조하십시오.
+기본적으로 데이터 보기의 스키마는 원래 XDM 스키마와 마찬가지로 중첩 구조를 사용합니다. 또한 통합은 `FLATTEN` 옵션을 지원합니다. 이 옵션을 사용하면 데이터 보기(및 세션의 다른 테이블)에 대한 스키마를 강제로 평면화할 수 있습니다. 평면화를 사용하면 구조화된 스키마를 지원하지 않는 BI 도구를 더 쉽게 사용할 수 있습니다. 자세한 내용은 [Query Service에서 중첩된 데이터 구조로 작업](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)을 참조하십시오.
 
 
 ### 기본값 및 제한 사항
 
-BI 확장을 사용할 때 다음과 같은 추가 기본값과 제한이 적용됩니다.
+BI 확장 기능을 사용하는 경우 다음과 같은 추가 기본값 및 제한 사항이 적용됩니다.
 
-* BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 `LIMIT n`을(를) 사용하여 SQL에서 재정의할 수 있습니다. 여기서 `n`은(는) 1 - 50000입니다.
-* BI 확장을 사용하려면 계산에 사용되는 행을 제한하는 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 SQL `WHERE` 절에서 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 이 값을 재정의할 수 있습니다.
-* BI 확장을 사용하려면 집계 쿼리가 필요합니다. `SELECT * FROM ...`과(와) 같은 SQL을 사용하여 원시 기본 행을 가져올 수 없습니다. 높은 수준에서 집계 쿼리는 다음을 사용해야 합니다.
-   * `SUM` 및/또는 `COUNT`을(를) 사용하여 합계를 선택하십시오.<br/> 예: `SELECT SUM(metric1), COUNT(*) FROM ...`
+* BI 확장 기능에는 쿼리 결과에 대한 행 제한이 필요합니다. 기본값은 50이지만 SQL에서 `LIMIT n`를 사용하여 `n` 1 - 50000으로 이를 재정의할 수 있습니다.
+* BI 확장 기능에는 계산에 사용되는 행을 제한하기 위한 날짜 범위가 필요합니다. 기본값은 최근 30일이지만 특수 [`timestamp`](#timestamp) 또는 [`daterange`](#date-range) 열을 사용하여 SQL `WHERE` 절에서 이를 재정의할 수 있습니다.
+* BI 확장 기능에는 집계 쿼리가 필요합니다. `SELECT * FROM ...` 등 SQL을 사용해서는 원시 기본 행을 가져올 수 없습니다. 높은 수준에서 집계 쿼리는 다음을 사용해야 합니다.
+   * `SUM` 및/또는 `COUNT`를 사용하여 합계를 선택합니다.<br/> 예: `SELECT SUM(metric1), COUNT(*) FROM ...`
    * 차원별로 분류된 지표를 선택합니다. <br/>예: `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * 고유한 지표 값을 선택합니다.<br/>예: `SELECT DISTINCT dimension1 FROM ...`
 
-     자세한 내용은 [지원되는 SQL](#supported-sql)을(를) 참조하십시오.
+     자세한 내용은 [지원되는 SQL](#supported-sql)을 참조하십시오.
 
 
 ### 지원되는 SQL
 
-지원되는 SQL 유형에 대한 전체 참조는 [Query Service SQL 참조](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)를 확인하십시오.
+지원되는 SQL 유형에 대한 전체 참조는 [Query Service SQL 참조](https://experienceleague.adobe.com/ko/docs/experience-platform/query/sql/overview)를 확인하십시오.
 
-사용할 수 있는 SQL의 예는 아래 표를 참조하십시오.
+사용할 수 있는 SQL의 예는 아래 테이블을 참조하십시오.
 
 +++ 예
 
@@ -515,11 +515,11 @@ GROUP BY 2</code></pre>
 
 #### 고유 값 계산
 
-Customer Journey Analytics 작동 방식의 근본적인 특성 때문에 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 `adobe_personid` 차원입니다. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)`은(는) 고유한 사람의 수인 기본 사람 지표의 값을 반환합니다. 다른 차원의 경우, 대략적인 고유 카운트가 반환됩니다.
+Customer Journey Analytics 작동 방식의 근본적인 특성 때문에 정확한 고유 카운트를 얻을 수 있는 유일한 차원은 `adobe_personid` 차원입니다. 다음 SQL 문 `SELECT COUNT(DISTINCT adobe_personid)` 또는 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)`는 고유 사용자의 수인 기본 사용자 지표의 값을 반환합니다. 다른 차원의 경우, 대략적인 고유 카운트가 반환됩니다.
 
 #### 조건부 지표
 
-`SUM` 또는 `COUNT` 함수에 `IF` 또는 `CASE` 절을 임베드하여 선택한 지표와 관련된 필터링을 추가할 수 있습니다. 이러한 절을 추가하는 것은 Workspace 보고서 테이블의 지표 열에 필터를 적용하는 것과 유사합니다.
+`SUM` 또는 `COUNT` 함수에 `IF` 또는 `CASE` 절을 포함하여 선택한 지표와 관련된 추가 세그먼트화를 추가할 수 있습니다. 이 조항을 추가하는 것은 Workspace 보고서 테이블의 지표 열에 세그먼트를 적용하는 것과 비슷합니다.
 
 예:
 
@@ -533,7 +533,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 인라인 계산
 
-`SELECT`의 지표 표현식에 추가 계산을 적용할 수 있습니다. 이 수학은 계산된 지표에서 수학을 정의하는 대신 사용할 수 있습니다. 다음 테이블에는 지원되는 표현식 유형이 나열되어 있습니다.
+추가적인 수학을 `SELECT`의 지표 표현식에 적용할 수 있습니다. 이 수학은 계산된 지표에서 수학을 정의하는 대신 사용될 수 있습니다. 다음 테이블에는 지원되는 표현식 유형이 나열되어 있습니다.
 
 | 연산자 또는 함수 | 세부 사항 |
 |---|---|
@@ -556,26 +556,26 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 * 최대값만 제공되는 경우(`timestamp < X` 또는 `timestamp <= X`), 범위는 X-30일부터 X까지입니다.
 * 아무것도 제공되지 않는 경우 범위는 지금부터 -30일까지입니다.
 
-타임스탬프 범위는 RankedRequest에서 날짜 범위 전역 필터로 변환됩니다.
+타임스탬프 범위는 RankedRequest에서 날짜 범위 전역 세그먼트로 변환됩니다.
 타임스탬프 필드는 날짜/시간 함수에서 이벤트 타임스탬프를 구문 분석하고 자르는 데 사용될 수도 있습니다.
 
 #### 날짜 범위
 
-`daterange` 특수 열은 `timestamp`과(와) 유사하게 작동하지만 필터링은 전체 날짜로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
+`daterange` 특수 열은 `timestamp`과(와) 유사하게 작동하지만 세그먼트화는 전체 날짜로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
 `daterange` 필드를 사용하여 날짜/시간 함수에서 이벤트 날짜를 구문 분석하고 자를 수 있습니다.
 
-`daterangeName` 특수 열을 사용하면 `Last Quarter`와 같이 이름이 지정된 날짜 범위를 사용하여 쿼리를 필터링할 수 있습니다.
+`daterangeName` 특수 열은 `Last Quarter`과(와) 같은 명명된 날짜 범위를 사용하여 쿼리를 세그먼트화하는 데 사용할 수 있습니다.
 
 >[!NOTE]
 >
->Power BI은 하루(시간, 30분, 5분 등) 미만의 `daterange` 지표를 지원하지 않습니다.
+>Power BI는 1일 미만의 기간(1시간, 30분, 5분 등)의 `daterange` 지표를 지원하지 않습니다.
 >
 
-#### 필터 ID
+#### 세그먼트 ID
 
-`filterId` 특수 열은 옵션이며 외부에서 정의된 필터를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의된 필터를 쿼리에 적용하는 것은 Workspace의 패널에서 필터를 드래그하는 것과 비슷합니다. 여러 필터 ID는 `AND`-ing에서 사용할 수 있습니다.
+`filterId` 특수 열은 선택 사항이며 외부에서 정의한 세그먼트를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의한 세그먼트를 쿼리에 적용하는 것은 Workspace의 패널에서 세그먼트를 드래그하는 것과 비슷합니다. 여러 세그먼트 ID는 `AND`-ing에서 사용할 수 있습니다.
 
-`filterId`과 함께 `filterName` ID 대신 필터 이름을 사용할 수 있습니다.
+`filterId`과(와) 함께 `filterName`을(를) 사용하여 ID 대신 세그먼트 이름을 사용할 수 있습니다.
 
 ### WHERE 절
 
@@ -583,11 +583,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 1. `timestamp`, `daterange` 또는 `daterangeName` 특수 필드에서 날짜 범위를 찾습니다.
 
-1. 필터링에 포함할 외부에서 정의된 `filterId` 또는 `filterName`을(를) 찾습니다.
+1. 세그먼트에 포함할 외부에서 정의된 `filterId` 또는 `filterName`을(를) 찾습니다.
 
-1. 나머지 표현식을 임시 필터로 전환합니다.
+1. 나머지 표현식을 임시 세그먼트로 바꿉니다.
 
-`WHERE` 절에서 `AND`의 첫 번째 수준을 구문 분석하여 처리됩니다. 각 최상위 `AND`-ed 표현식은 위의 표현식 중 하나와 일치해야 합니다. `AND`의 첫 번째 수준보다 자세한 항목이거나 `WHERE` 절이 최상위 수준에서 `OR`을 사용하는 경우, 임시 필터로 처리됩니다.
+`WHERE` 절에서 `AND`의 첫 번째 수준을 구문 분석하여 처리됩니다. 각 최상위 `AND`-ed 표현식은 위의 표현식 중 하나와 일치해야 합니다. `AND`의 첫 번째 수준보다 더 깊은 모든 항목 또는 `WHERE` 절이 최상위 수준에서 `OR`을(를) 사용하는 경우 임시 세그먼트로 처리됩니다.
 
 ### 정렬 순서
 
@@ -640,7 +640,7 @@ ORDER BY -metric1 DESC
 | [분기](https://spark.apache.org/docs/latest/api/sql/index.html#quarter) | ``SELECT QUARTER(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. |
 | [시간](https://spark.apache.org/docs/latest/api/sql/index.html#hour) | ``SELECT HOUR(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 값 대신 항목 ID를 사용합니다. |
 | [분](https://spark.apache.org/docs/latest/api/sql/index.html#minute) | ``SELECT MINUTE(`timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. |
-| [추출](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용합니다.<br/>지원되는 항목:<br>- 키워드: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- 문자열:  `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
+| [추출](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용합니다.<br/>지원되는 항목:<br>- 키워드: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- 문자열: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
 | [날짜(일부)](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다. 친숙한 이름이 아닌 숫자가 필요하므로 이 함수의 일부 부분에 대한 값 대신 항목 ID를 사용합니다.<br/>지원되는 문자열 항목: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
 | [날짜(잘림)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 전달된 필드에 동적 차원 ID를 생성합니다.<br/>지원되는 문자열 세부 기간: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` 또는 `'MINUTE'`. |
 
@@ -648,10 +648,10 @@ ORDER BY -metric1 DESC
 
 ### 부분 지원
 
-일부 SQL 기능은 BI 확장 기능에서만 부분적으로 지원되며 다른 데이터베이스에서 볼 수 있는 것과 동일한 결과를 반환하지 않습니다.  이 특정 기능은 다양한 BI 도구로 생성된 SQL에서 사용되며 BI 확장에 정확한 일치가 없습니다. 따라서 BI 확장은 오류를 발생시키지 않고 최소 BI 도구 사용을 다루는 제한된 구현에 중점을 둡니다. 자세한 내용은 아래 표를 참조하십시오.
+일부 SQL 기능은 BI 확장 기능에서 부분적으로만 지원되며 다른 데이터베이스에서 볼 수 있는 결과를 반환하지 않습니다. 이 특정 기능은 다양한 BI 도구에 의해 생성된 SQL에서 사용되며, BI 확장 기능이 정확히 일치하지 않습니다. 그 결과, BI 확장 기능은 오류 없이 최소한의 BI 도구 사용을 다루는 제한된 구현에 중점을 둡니다. 자세한 내용은 아래 테이블을 참조하십시오.
 
 | 함수 | 예 | 세부 사항 |
 |---|---|---|
-| MIN() 및 MAX() | ``MIN(daterange)`` 또는 <br/> ``MAX(daterange)`` | `timestamp`, `daterange`의 `MIN()` 또는 `daterangeday`과(와) 같은 `daterangeX`이(가) 2년 전에 반환됩니다.<br/><br/> `timestamp`, `daterange`의 `MAX()` 또는 `daterangeday`과(와) 같은 `daterangeX`의 이(가) 현재 날짜/시간을 반환합니다.다른 차원, 지표 또는 식의 <br/><br/>`MIN()` 또는 `MAX()`은(는) 0을 반환합니다. |
+| 최소값() 및 최대값() | ``MIN(daterange)`` 또는 <br/> ``MAX(daterange)`` | `daterangeday` 등 `timestamp`에 `MIN()`, `daterange` 또는 `daterangeX` 중 하나는 2년 전을 반환합니다.<br/><br/> `daterangeday` 등 `timestamp`에 `MAX()`, `daterange` 또는 `daterangeX` 중 하나는 현재 날짜/시간을 반환합니다.다른 차원, 지표 또는 표현식에 <br/><br/>`MIN()` 또는 `MAX()`는 0이 반환됩니다. |
 
 {style="table-layout:auto"}

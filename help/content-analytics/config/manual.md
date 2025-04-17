@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 3%
@@ -56,9 +56,9 @@ Content Analytics 구성과 연결된 Tags 속성에서 [Adobe Content Analytics
 
   경험을 활성화 또는 비활성화하고 정규 표현식과 쿼리 매개 변수의 조합을 편집하여 웹 사이트에서 콘텐츠가 렌더링되는 방식을 결정할 수 있습니다.
 
-* [이벤트 필터링](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
+* [이벤트 세그먼트화](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
-  정규 표현식을 편집하여 페이지 및 에셋을 필터링하는 방법을 수정할 수 있습니다.
+  정규 표현식을 편집하여 페이지 및 에셋을 세그먼트화하는 방법을 수정할 수 있습니다.
 
 
 Adobe Content Analytics 확장을 변경한 후 [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 변경 내용에 따라 데이터 수집을 시작하십시오.

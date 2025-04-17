@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: e79094d974e4e91b044611f997c0e4215487d74f
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -138,7 +138,7 @@ ht-degree: 46%
    다음 작업을 수행할 수 있습니다.
 
    * 특정 데이터 보기를 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용하십시오.
-   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 필터링할 수 있습니다.<br/>필터 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 사용합니다.
+   * 사용 가능한 데이터 보기 목록을 세그먼트화하려면 ![세그먼트 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 세그먼트화할 수 있습니다.<br/>세그먼트 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트 숨기기]**&#x200B;를 사용합니다.
    * 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택합니다. **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택해 변경 사항을 적용합니다.
 
 1. 사용할 데이터 보기에서 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다.
@@ -229,7 +229,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
    * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스입니다
    * Customer Journey Analytics의 보고 템플릿입니다.
 
-* Content Analytics에서 경험에 대한 데이터 수집의 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
+* Content Analytics에서 경험에 대한 데이터 수집의 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)&#x200B;(으)로 리디렉션됩니다.
 
 
 ### 데이터 수집 {#onboarding-data-collection}
@@ -324,9 +324,9 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 기존 구성의 경우 태그 속성을 편집할 수 없습니다. 그러나 포함하거나 제외할 페이지와 자산을 편집할 수는 있습니다.
 
-* Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 편집하려면 **[!UICONTROL 경험]** 아래에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 Content Analytics 구성의 Tags 속성과 연결된 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다. 정규 표현식을 편집하여 페이지를 포함하거나 제외할 수 있습니다. 변경 내용을 [게시](#publish)하세요.
+* Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 페이지를 편집하려면 **[!UICONTROL 경험]** 아래에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 Content Analytics 구성의 Tags 속성과 연결된 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)&#x200B;(으)로 리디렉션됩니다. 정규 표현식을 편집하여 페이지를 포함하거나 제외할 수 있습니다. 변경 내용을 [게시](#publish)하세요.
 
-* Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 편집하려면 **[!UICONTROL 자산]** 아래에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 Content Analytics 구성의 Tags 속성과 연결된 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다. 정규 표현식을 편집하여 에셋을 포함하거나 제외할 수 있습니다. 변경 내용을 [게시](#publish)하세요.
+* Content Analytics에 대한 데이터를 수집할 때 포함 또는 제외할 자산을 편집하려면 **[!UICONTROL 자산]** 아래에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 Content Analytics 구성의 Tags 속성과 연결된 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)&#x200B;(으)로 리디렉션됩니다. 정규 표현식을 편집하여 에셋을 포함하거나 제외할 수 있습니다. 변경 내용을 [게시](#publish)하세요.
 
 ### 요약 {#summary}
 

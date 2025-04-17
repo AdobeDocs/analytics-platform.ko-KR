@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1956'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -309,7 +309,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    설정은 그대로 두고 **[!UICONTROL 저장 후 마침]**&#x200B;을 선택합니다.
 
-데이터 보기와 데이터 보기에서 사용할 수 있는 구성 요소를 만들고 편집하는 방법과 필터 및 세션 설정을 사용하는 방법에 대한 자세한 내용은 [데이터 보기 개요](../data-views/data-views.md)를 참조하십시오.
+데이터 보기를 만들고 편집하는 방법, 데이터 보기에서 사용할 수 있는 구성 요소, 세그먼트 및 세션 설정을 사용하는 방법에 대한 자세한 내용은 [데이터 보기 개요](../data-views/data-views.md)를 참조하십시오.
 
 
 ## 프로젝트 설정

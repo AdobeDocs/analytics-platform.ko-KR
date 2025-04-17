@@ -1,11 +1,11 @@
 ---
 title: 컨텐츠 분석 보고
-description: 콘텐츠 분석에 대한 보고 방법
+description: Content Analytics에서 보고하는 방법
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 [Analysis Workspace](/help/analysis-workspace/home.md) 내에서 Content Analytics에 대해 보고하고, 분석을 수행하고, 통찰력을 얻습니다. 특정 Workspace [template](#template)을(를) 사용할 수 있으므로 관련 콘텐츠 인사이트를 사용하여 미리 채워진 Workspace 프로젝트에 즉시 액세스할 수 있습니다.
 
-처음부터 Content Analytics에 대한 보고를 시작하려면:
+Content Analytics에 대한 보고를 처음부터 시작하려면:
 
 1. [Workspace에서 새 프로젝트를 만들거나](/help/analysis-workspace/build-workspace-project/create-projects.md) [기존 프로젝트를 엽니다](/help/analysis-workspace/build-workspace-project/open-projects.md).
 1. Content Analytics 보고를 위해 [데이터 보기를 선택](/help/analysis-workspace/c-panels/panels.md#data-view)했는지 확인하십시오. Content Analytics 보고는 Content Analytics에 대해 [구성](/help/content-analytics/config/configuration.md)된 데이터 보기에만 사용할 수 있습니다.
 1. 캔버스에서 ![테이블](/help/assets/icons/Table.svg) [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 드래그합니다.
-1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 필터, 날짜 범위, 주석)을 사용하여 Content Analytics 인사이트를 구축하십시오.
+1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 세그먼트, 날짜 범위, 주석)을 사용하여 콘텐츠 분석 인사이트를 구축하십시오.
 
 ## 축소판
 
-프로젝트에서 사용하는 Content Analytics 특정 차원을 기반으로 에셋 및 차원에 대한 썸네일이 표시됩니다.
+프로젝트에서 사용하는 Content Analytics 관련 차원에 따라 에셋 및 차원에 대한 썸네일이 표시됩니다.
 
 ![콘텐츠 분석 썸네일](../assets/aca-thumbnails.png)
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;을(를) 선택합니다.
 1. Content Analytics용으로 구성된 데이터 보기를 선택했는지 확인합니다.
-1. **[!UICONTROL 콘텐츠 분석]** 템플릿을 찾거나 선택하려면 필터(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여]**)를 검색하거나 사용하십시오.
+1. **[!UICONTROL 콘텐츠 분석]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**s의 경우 **[!UICONTROL 참여]**)를 검색하거나 사용하십시오.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]** 대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예: **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택하세요.
