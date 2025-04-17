@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 * **경험**: 경험이 전체 웹 페이지의 텍스트 콘텐츠로 정의됩니다. 데이터 수집의 경우 Content Analytics은 페이지 URL을 기반으로 하는 경험 ID를 기록합니다. 나중에 페이지의 텍스트는 검색 서비스를 통해 캡처됩니다.
 * **경험 ID**: 관련 URL(기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수)과 [경험 버전](manual.md#versioning)의 고유한 조합입니다.
    * 지정된 전체 URL과 관련된 매개 변수를 [configuration](configuration.md)의 일부로 지정합니다.
-   * 사용되는 [버전 식별자](manual.md#versioning)를 정의할 수 있습니다.
+   * 사용할 [버전 식별자](manual.md#versioning)을(를) 정의했으므로 경험에 대한 변경 내용을 올바르게 수집합니다.
 * **자산**: 이미지입니다. Content Analytics은 에셋 URL을 기록합니다.
 * **자산 ID**: 자산의 URL입니다.
 * **관련 URL**: 기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수.
@@ -56,7 +56,7 @@ Content Analytics 이벤트는 다음과 같이 구성됩니다.
 Content Analytics 이벤트는 다음과 같은 순서로 수집됩니다.
 
 1. [기록된 보기 또는 클릭](#recorded-view-or-click)입니다.
-1. [정기 또는 특정(비헤이비어) 이벤트](#regular-or-specific-behaviorial-event)입니다.
+1. [정기적 또는 특정(행동) 이벤트](#regular-or-specific-behaviorial-event)입니다.
 
 Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤트를 수집하지 않고 보기 또는 클릭을 별도로 수집하는 대신 해당 시퀀스를 반영하도록 데이터를 수집합니다. 이러한 컨텐츠 분석 데이터 수집 방법은 수집된 데이터의 양도 줄입니다.
 
@@ -85,7 +85,7 @@ Content Analytics은 보기 또는 클릭 바로 다음에 발생하는 이벤�
 
 ### 정기 또는 특정(행동) 이벤트
 
-Content Analytics 컨텍스트에서 정기적 또는 특정(비헤이비어) 이벤트를 실행하는 트리거는 다음과 같습니다.
+Content Analytics 컨텍스트에서 정기적 또는 특정(행동) 이벤트를 실행하는 트리거는 다음과 같습니다.
 
 * Web SDK 또는 AppMeasurement에서 이벤트를 보냅니다.
 * 가시성이 숨김으로 변경됩니다. 예를 들면 다음과 같습니다.

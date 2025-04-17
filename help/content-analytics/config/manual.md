@@ -1,18 +1,18 @@
 ---
-title: Content Analytics 수동 구성
-description: Content Analytics를 수동으로 구성하는 방법
+title: 콘텐츠 분석 수동 구성
+description: 콘텐츠 분석을 수동으로 구성하는 방법
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '448'
+ht-degree: 3%
 
 ---
 
-# Content Analytics 수동 구성
+# 콘텐츠 분석 수동 구성
 
 {{release-limited-testing}}
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 구현된 Content Analytics 구성에 대한 데이터 수집을 시작하려면 다음을 수행하십시오.
 
-1. [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을(를) 따릅니다. Content Analytics 구성이 포함된 Tags 속성에 대한 라이브러리를 게시했습니다.
+1. [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}을(를) 따르십시오. Content Analytics 구성이 포함된 Tags 속성에 대한 라이브러리를 게시했습니다.
 
 1. 개발, 스테이징 또는 게시 환경에 있는 페이지의 `<head>` 요소에 포함된 코드를 Content Analytics에 따라 [설치](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)합니다.
 
@@ -74,7 +74,9 @@ Adobe Content Analytics 확장을 변경한 후 [게시 흐름](https://experien
 
 ## 버전 매기기
 
-Content Analytics 경험의 버전을 관리해야 하는 경우 분석할 경험으로 간주되는 페이지에 전역 `adobe.getContentExperienceVersion` 함수를 추가해야 합니다.
+Content Analytics 경험을 수집하려면 새 경험(웹 페이지에 대한 변경 사항)이 제대로 수집되도록 버전 관리를 구현하는 것이 좋습니다.
+
+버전 관리를 구현하려면 분석할 경험이 있는 페이지에 전역 `adobe.getContentExperienceVersion` 함수를 추가합니다.
 
 `adobe.getContentExperienceVersion` 함수는 문자열을 값으로 반환해야 합니다. 이 값은 버전을 식별하기 위해 선택하는 모든 것일 수 있습니다. 버전이 [경험 ID URL](/help/content-analytics/report/components.md#experience-metadata)에 추가됩니다.
 

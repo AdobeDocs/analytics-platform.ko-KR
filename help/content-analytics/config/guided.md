@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6e59b029542b7b4353f03b6dd083e25955aacc7b
+source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2580'
 ht-degree: 46%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 46%
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 데이터 보기를 확인합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 
-Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.md)는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 **[!UICONTROL 샌드박스]**&#x200B;는 선택한 데이터 보기에 따라 샌드박스 이름으로 자동 채워집니다.
+Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.md)는 Customer Journey Analytics [연결](/help/connections/overview.md)에 연결되어 있습니다. 또한 연결은 조직 내의 샌드박스를 기반으로 합니다. 구성을 저장하면 **[!UICONTROL 샌드박스]** 필드가 선택한 데이터 보기에 따라 샌드박스 이름으로 자동 채워집니다.
 
 
 ### 경험 캡처 및 정의 {#onboarding-experiences}
@@ -180,7 +180,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="경험 캡처 및 정의"
->abstract="현재 구성과 연결된 태그 속성의 Adobe Content Analytics 확장에서 경험 데이터 수집에 대한 설정을 편집해야 합니다."
+>abstract="Adobe Content Analytics 확장 기능에서 경험 데이터 수집에 대한 설정을 편집해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -191,7 +191,15 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 다음을 적용할 수 있는 경우에만 경험을 포함하십시오.
 
 * 사이트의 페이지는 페이지 URL을 사용하여 재현할 수 있어야 합니다.
-* 지정된 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재현할 수 있으며 쿠키 또는 기타 개인화 메커니즘에 따라 달라지지 않습니다.
+* 지정된 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재현할 수 있으며 쿠키 또는 기타 개인화 메커니즘에 의존하지 않습니다.
+
+>[!IMPORTANT]
+>
+>[Content Analytics 버전 관리](manual.md#versioning)를 구현하여 Content Analytics의 적용을 받는 경험(페이지)에 대한 변경 내용을 수집합니다.
+
+
+
+#### 새 구성 {#new-experiences-configuration}
 
 새 구성이나 구현되지 않은 구성에 경험을 포함하려면 다음을 수행하십시오.
 
@@ -209,6 +217,9 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 1. 도메인 정규 표현식과 쿼리 매개변수의 조합을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 선택합니다.
 1. 정규 표현식과 쿼리 매개 변수의 다른 조합을 추가하려면 **[!UICONTROL 정규 표현식 추가]**&#x200B;를 선택합니다.
 
+
+### 구현된 구성 {#implemented-experiences-configuration}
+
 구현된 구성에서 기존 경험을 편집하거나 새 경험을 포함하려면 다음을 수행하십시오.
 
 ![Content Analytics 구성 경험 캡처 및 정의](../assets/aca-configuration-experience-edit.png)
@@ -218,7 +229,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
    * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스입니다
    * Customer Journey Analytics의 보고 템플릿입니다.
 
-* Content Analytics의 경험에 대한 데이터 수집 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
+* Content Analytics에서 경험에 대한 데이터 수집의 구성을 추가로 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)&#x200B;(으)로 리디렉션됩니다.
 
 
 ### 데이터 수집 {#onboarding-data-collection}
@@ -304,7 +315,8 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 >[!IMPORTANT]
 >
->[Javascript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/library)를 사용하고 [Tags 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)을 사용하지 않는 기존 웹 SDK 구현이 있는 경우 새로 만든 Tags 속성에서 자동으로 포함된 웹 SDK 확장을 수동으로 제거해야 합니다.
+>기존 웹 SDK 구현이 [태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) 대신 [JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/library)를 사용하는 경우 새로 만든 태그 속성에서 자동 포함 웹 SDK 확장을 수동으로 제거하십시오.
+>
 
 
 
