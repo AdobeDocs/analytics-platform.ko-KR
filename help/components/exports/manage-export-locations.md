@@ -5,10 +5,10 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    | 필터 | 설명 |
    |---------|----------|
-   | [!UICONTROL **위치 유형**]<!--should this be changed to Account type?--> | 위치가 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 역할 ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google 클라우드 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **위치 유형**]<!--should this be changed to Account type?--> | 위치가 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **계정**] | 위치가 연결된 계정의 이름입니다. |
    | [!UICONTROL **작성자**] | 위치를 만든 사용자의 이메일 주소입니다. |
 
@@ -223,9 +223,9 @@ ht-degree: 1%
 
    * [!UICONTROL **AEP 데이터 랜딩 영역**]
 
-   * [!UICONTROL **Amazon S3 역할 ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google 클라우드 플랫폼**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 

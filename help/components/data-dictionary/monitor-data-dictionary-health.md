@@ -4,10 +4,10 @@ title: 데이터 사전 상태 모니터링
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 78%
 
 ---
 
@@ -49,6 +49,6 @@ Customer Journey Analytics 관리자는 건강한 데이터 사전을 유지 관
 
    * [!UICONTROL **구성 요소에 연결된 데이터 없음**]
 
-   선택 항목에 따라 데이터 사전에 적절한 필터가 적용되고 관련 구성 요소만 표시됩니다.
+   선택한 항목에 따라 적절한 세그먼트가 데이터 사전에 적용되고 관련 구성 요소만 표시됩니다.
 
 1. 구성 요소를 편집하여 데이터 사전의 상태를 개선합니다. 데이터 사전에서 구성 요소를 편집하는 방법에 대한 자세한 내용은 [데이터 사전의 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md)을 참조하십시오.

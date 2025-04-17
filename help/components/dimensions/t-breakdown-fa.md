@@ -6,24 +6,24 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 52%
+ht-degree: 60%
 
 ---
 
 # 작업 영역에서 차원 분류
 
-특정 요구 사항에 맞게 데이터를 무제한으로 분류할 수 있습니다. 관련 지표, 차원, 필터, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성하십시오.
+특정 요구 사항에 맞게 데이터를 무제한으로 분류할 수 있습니다. 관련 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성하십시오.
 
 1. [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)에서 하나 이상의 선택한 행의 컨텍스트 메뉴에서 **[!UICONTROL 분류]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택합니다.
 
    ![선택한 항목에서 경고 만들기를 보여 주는 단계 결과.](assets/breakdown.png)
 
-1. 하위 메뉴에서 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]**, **[!UICONTROL 필터]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오.
+1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 필터]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오.
 
-선택한 기간에 대해 차원 항목이나 대상자 필터를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
+선택한 기간에 대해 차원 항목이나 대상자 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ ht-degree: 52%
 
 ## 위치별 분류
 
-기본적으로 분류는 정적 행 항목에 고정됩니다. 예를 들어 마케팅 채널별로 상위 3개 페이지 차원 항목 (홈 페이지, 검색 결과, 체크아웃)을 분류한다고 가정해 보겠습니다. 그런 다음 프로젝트를 떠났다가 2주 후에 돌아옵니다. 프로젝트를 다시 열면 상위 3개 페이지가 변경되고 대신 이제 홈 페이지, 검색 결과 및 체크아웃이 상위 4-6개 페이지가 됩니다. 기본적으로 마케팅 채널 분류는 4-6행에 있는 경우에도 여전히 홈 페이지, 검색 결과 및 체크아웃 아래에 표시됩니다.
+기본적으로 분류는 정적 행 항목에 고정됩니다. 예를 들어 마케팅 채널별로 상위 3개 페이지 차원 항목(홈 페이지, 검색 결과, 체크아웃)을 분류한다고 가정합니다. 그런 다음 프로젝트를 떠났다가 2주 후에 돌아옵니다. 프로젝트를 다시 열면 상위 3개 페이지가 변경되고 대신 이제 홈 페이지, 검색 결과 및 체크아웃이 상위 4-6개 페이지가 됩니다. 기본적으로 마케팅 채널 분류는 4-6행에 있는 경우에도 여전히 홈 페이지, 검색 결과 및 체크아웃 아래에 표시됩니다.
 
-반면 **위치별 분류**&#x200B;은(는) 상위 3개 항목이 무엇인지에 관계없이 항상 상위 3개 항목을 분류합니다. 다시 예로 돌아가서, 프로젝트를 다시 열면 마케팅 채널 분류가 테이블의 상위 3개 페이지에 연결됩니다. 홈 페이지, 검색 결과 및 체크아웃은 이제 4-6행에 있습니다. 이 설정을 구성하는 방법은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)을 참조하세요.
+반면 **위치별 분류**&#x200B;은(는) 상위 3개 항목이 무엇인지에 관계없이 항상 상위 3개 항목을 분류합니다. 예를 다시 참조하면, 프로젝트를 다시 열면 마케팅 채널 분류가 표의 상위 3페이지에 연결됩니다. 홈 페이지, 검색 결과 및 체크아웃은 이제 4-6행에 있습니다. 이 설정을 구성하는 방법은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)을 참조하세요.
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![Analysis Workspace의 VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
