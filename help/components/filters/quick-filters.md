@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 30%
 빠른 세그먼트를 관리하려면 특정 **[!UICONTROL 빠른 세그먼트]** 위로 마우스를 가져갑니다.
 
 * ![편집](/help/assets/icons/Edit.svg)을 선택하여 [빠른 세그먼트 빌더](#quick-filter-builder)를 열고 빠른 세그먼트를 편집합니다.
-* 팝업을 열려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다. 팝업에는 필터에 대한 정보가 표시됩니다. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 선택하여 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 세그먼트를 추가하십시오. **[!UICONTROL 빠른 세그먼트 저장]** 대화 상자가 표시되어 세그먼트 이름을 지정하라는 메시지가 표시됩니다. 계속하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다. [!UICONTROL 빠른 세그먼트]이(가) **[!UICONTROL 세그먼트]**(으)로 바뀝니다. [빠른 세그먼트 빌더](#quick-filter-builder)를 사용하여 세그먼트를 더 이상 편집할 수 없습니다. 대신 [세그먼트 빌더](filter-builder.md)를 사용하여 세그먼트를 일반 세그먼트로 편집해야 합니다.
+* 팝업을 열려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다. 팝업에 세그먼트에 대한 정보가 표시됩니다. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 선택하여 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 세그먼트를 추가하십시오. **[!UICONTROL 빠른 세그먼트 저장]** 대화 상자가 표시되어 세그먼트 이름을 지정하라는 메시지가 표시됩니다. 계속하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다. [!UICONTROL 빠른 세그먼트]이(가) **[!UICONTROL 세그먼트]**(으)로 바뀝니다. [빠른 세그먼트 빌더](#quick-filter-builder)를 사용하여 세그먼트를 더 이상 편집할 수 없습니다. 대신 [세그먼트 빌더](filter-builder.md)를 사용하여 세그먼트를 일반 세그먼트로 편집해야 합니다.
 
 ## 빠른 세그먼트 빌더
 
-빠른 세그먼트 빌더에 대한 예는 아래를 참조하십시오. 이 예에서 빌더는 `Call Reason = Order Change AND Online Orders is greater than or equal 1`라는 제목의 빠른 필터에 대해 열립니다. 상단의 빠른 필터 두 개는 모두 [!UICONTROL 국가별 평균 주문 가격] 자유 형식 테이블 등 [!UICONTROL 평균 주문 가격] 대시보드 패널과 모든 시각화에 적용됩니다.
+빠른 세그먼트 빌더에 대한 예는 아래를 참조하십시오. 이 예제에서는 제목이 `Call Reason = Order Change AND Online Orders is greater than or equal 1`인 빠른 세그먼트에 대해 빌더를 엽니다. 맨 위에 있는 두 빠른 세그먼트 모두 [!UICONTROL 평균 주문 가격 대시보드] 패널 및 [!UICONTROL 국가별 평균 주문 가격] 자유 형식 테이블과 같은 내의 모든 시각화에 적용됩니다.
 
 ![빠른 세그먼트 빌더](assets/quick-filter-builder.png)
 

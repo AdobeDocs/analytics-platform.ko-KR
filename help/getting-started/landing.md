@@ -4,10 +4,10 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습�
 
 >[!NOTE]
 >
->다음 설정 중 일부는 세션 중과 세션 간에 유지됩니다. 예: 선택된 탭, 선택된 필터, 선택된 열과 열 정렬 방향. 검색 결과는 유지되지 않습니다.
+>다음 설정 중 일부는 세션 중과 세션 간에 유지됩니다. 예를 들어 선택한 탭, 선택한 세그먼트, 선택한 열 및 열 정렬 방향이 있습니다. 검색 결과는 유지되지 않습니다.
 
 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
 

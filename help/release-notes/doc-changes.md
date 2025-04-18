@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '4716'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -45,18 +45,18 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 스티칭 및 개인정보 보호 요청 | 개인정보 보호 요청의 결과로 발생하는 [향후 언스티칭 프로세스 변경 사항](/help/stitching/faq.md#frequently-asked-questions)에 대한 공지가 추가되었습니다. |
 | **2024년 10월** | |
 | 여정 캔버스 시각화 | [여정 캔버스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)는 사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석할 수 있는 Analysis Workspace의 시각화입니다. |
-| 자산 이전 | 다른 사용자에게 프로젝트, 필터, 계산된 지표와 같은 구성 요소의 [소유권을 이전](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)하여 연속성과 적절한 액세스 권한을 보장할 수 있습니다. |
+| 자산 이전 | 프로젝트, 세그먼트 및 계산된 지표와 같은 구성 요소의 소유권을 [다른 사용자에게 전송](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)하여 연속성과 적절한 액세스를 보장할 수 있습니다. |
 | 개선된 사용 인터페이스 | 인터페이스 개선 사항을 반영하여 [모든 연결에서 수집된 행 및 보고 가능한 행의 사용량](/help/connections/manage-connections.md#usage)을 확인할 수 있도록 문서를 업데이트했습니다. |
 | 공유 디바이스 | 스티칭을 사용하여 공유 디바이스의 데이터를 처리하고 완화하는 방법과 쿼리 서비스를 사용하여 데이터에서 공유 디바이스 노출을 파악하는 방법을 설명하는 [사용 사례 문서](/help/use-cases/stitching/shared-devices.md)가 추가되었습니다. |
 | Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/technotes/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/technotes/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
-| Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 구성 요소(주석, 치수, (계산된) 지표, 필터, 날짜 범위, 알림, 예약된 프로젝트 및 대상자)에 대한 설명서를 새로 고쳤습니다. |
+| Workspace 및 구성 요소 | Analysis Workspace 프로젝트(프로젝트, 시각화 및 패널) 및 콘텐츠(주석, 차원, (계산된) 지표, 세그먼트, 날짜 범위, 경고, 예약된 프로젝트 및 대상)에 대한 설명서를 새로 고쳤습니다. |
 | 가이드 분석 | Analysis Workspace에서 [가이드 분석](/help/guided-analysis/overview.md)을 사용할 수 있도록 설명서를 업데이트했습니다. |
-| 대상자 설명서 업데이트 | Analysis Workspace 내의 시각화에서 [대상자를 만들](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish?lang=en) 때 이제 패널 필터와 열 필터가 추가 기준으로 포함됩니다. |
+| 대상자 설명서 업데이트 | 이제 Analysis Workspace 내의 시각화에서 [대상자를 만들기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish?lang=en)할 때 패널 세그먼트 및 열 세그먼트가 추가 기준으로 포함됩니다. |
 | **2024년 9월** | |
 | 요약 데이터 업데이트 | 요약 데이터 보고 시 [조회 데이터](/help/data-views/summary-data.md#lookup-data)를 올바르게 사용하는 방법에 대한 요약 데이터 문서를 업데이트했습니다. |
 | BI 확장 기능 업데이트 | BI 확장 기능 설명서에 [기본값 및 제한 사항](/help/data-views/bi-extension.md#defaults-and-limitations) 섹션이 추가되었습니다. |
 | 경고 | 이제 Customer Journey Analytics에서 사용할 수 있는 [경고](/help/components/c-intelligent-alerts/intelligent-alerts.md) 기능에 대한 설명서가 추가되었습니다. |
-| 계산된 지표 관리자 및 필터 관리자 내 “다음에서 사용” 열의 추가 정보 | [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) 및 [필터 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)의 “다음에서 사용” 열에는 Report Builder 및 애드혹 구성 요소와 같은 새로운 보고 영역이 포함됩니다. |
+| 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보 | [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) 및 [필터 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)의 “다음에서 사용” 열에는 Report Builder 및 애드혹 구성 요소와 같은 새로운 보고 영역이 포함됩니다. |
 | **2024년 8월** | |
 | B2B 프로젝트 예시 | [B2B 조회 기능을 위한 새로운 변환 데이터 세트](/help/connections/transform-datasets-b2b-lookups.md)를 사용하여 Customer Journey Analytics에서 프로필(개인) 수준 B2B 데이터를 설정, 구성 및 보고하는 방법을 문서화한 [사용 사례](/help/use-cases/b2b/example.md)를 추가했습니다. |
 | 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 설명하는 [쿼리 서비스(Data Distiller) 및 내보내기 데이터 세트](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예시를 추가했습니다. |

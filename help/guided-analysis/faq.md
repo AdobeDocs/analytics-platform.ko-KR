@@ -5,10 +5,10 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
-workflow-type: ht
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 * **Analysis Workspace는 차원 중심의 경험입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표로 구성됩니다. 원하는 데이터를 얻기 위해 행과 열 모두에 필터를 적용할 수 있습니다.
 
-* **안내식 분석은 이벤트 및 사용자 중심 경험입니다.** 각 분석은 이벤트 선택으로 시작되며, 차원과 필터를 추가하여 해당 이벤트 데이터를 세분화할 수 있습니다.
+* **안내식 분석은 이벤트 및 사용자 중심 경험입니다.** 이벤트를 선택하여 각 분석을 시작한 다음 차원 및 세그먼트를 추가하여 해당 이벤트 데이터를 구체화할 수 있습니다.
 
 ![Analysis Workspace 및 안내식 분석 보기](assets/structure.png){style="border:1px solid gray"}
 

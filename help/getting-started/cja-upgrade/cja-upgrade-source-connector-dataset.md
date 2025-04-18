@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -96,13 +96,13 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜와 동일한 종료 날짜를 선택합니다.
 
-   * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
 
-   * 데이터가 더 많이 겹치는 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 필터링합니다.
+   * 데이터에서 겹치는 부분이 더 큰 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
 
      **참고:** 이 옵션은 연결에 더 많은 행이 있기 때문에 비용이 증가할 것입니다.
 
-   <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
+   <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the segment. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
 1. **[!UICONTROL 대기열 채우기]**&#x200B;를 선택합니다.
 

@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
    데이터 보기에 구성 요소를 추가할 때 사용 가능한 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [구성 요소](/help/data-views/create-dataview.md#components)를 참조하십시오.
 
-1. [!UICONTROL **설정**] 탭을 선택합니다. 여기에서 전체 데이터 보기에 적용할 필터를 구성하고 세션 시간 초과 및 지표를 구성할 수 있습니다.
+1. [!UICONTROL **설정**] 탭을 선택합니다. 여기에서 전체 데이터 보기에 적용할 세그먼트를 구성하고 세션 시간 제한 및 지표를 구성할 수 있습니다.
 
    데이터 보기에 대한 설정을 구성할 때 사용 가능한 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [설정](/help/data-views/create-dataview.md#settings)을 참조하십시오.
 
