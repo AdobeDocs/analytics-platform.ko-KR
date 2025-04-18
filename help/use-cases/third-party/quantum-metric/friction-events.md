@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics에 양자 지표 마찰 이벤트 추가
-description: Quantum Metric에서 수집된 마찰 이벤트를 사용하여 Customer Journey Analytics의 인사이트에 깊이를 추가합니다.
+description: Customer Journey Analytics 행동 데이터에 양자 지표 수집 마찰 이벤트를 추가하여 CJA의 통찰력에 깊이를 더합니다.
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,20 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 
 ## 1단계: 양자 지표 태그 확장을 사용하여 마찰 이벤트 캡처
 
-양자 지표 CSM 팀은 추가할 올바른 스키마 요소를 결정하고 Customer Journey Analytics에서 사용할 데이터를 수집하도록 구현을 수정하도록 지시하는 데 도움이 됩니다. 자세한 내용은 Quantum Metric 고객 성공 관리자에게 문의하십시오.
+양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
 
-궁극적으로, 필드에서 마찰 이벤트 이름을 추적하기 시작할 것입니다.
+Adobe Experience Platform 데이터 수집 의 태그를 사용하여 XDM 개체에 포함되고 분석될 수 있도록 마찰 이벤트의 이름을 수동으로 설정합니다. 이를 수행하는 한 가지 방법은 규칙의 사용자 지정 코드입니다.
 
-## 2단계: 포함된 데이터 세트 필드 확인
+```js
+_satellite.setVar('qm_error_name','error rage click');
+return true;
+```
 
-이제 연결의 데이터 세트에 원하는 데이터 세트에 양자 지표 세션 ID가 있는지 확인합니다.
+그런 다음 동적으로 설정된 데이터 요소를 XDM 개체에 추가합니다.
 
-## 3단계: Customer Journey Analytics의 데이터 보기에 하나 이상의 차원 및 지표 추가
+![Quantum 지표 오류 이름 스크린샷](assets/error-name.png)
+
+## 2단계: Customer Journey Analytics의 데이터 보기에 하나 이상의 차원 및 지표 추가
 
 기존 데이터 보기를 편집하여 세션 ID를 Customer Journey Analytics에서 사용 가능한 차원으로 추가합니다.
 
@@ -45,8 +50,9 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 1. 왼쪽의 양자 지표 마찰 이벤트 필드 목록을 찾아 가운데에 있는 지표 영역으로 끌어서 놓습니다.
 1. 오른쪽 창에서 [값 포함/제외](/help/data-views/component-settings/include-exclude-values.md) 설정을 추적하려는 마찰 이벤트로 설정합니다. 여러 마찰 이벤트를 동일한 지표에 추가하여 결합할 수 있습니다. 마찰 이벤트 필드의 다른 사본을 지표 영역으로 드래그하여 다른 마찰 이벤트를 별도의 지표로 추적할 수도 있습니다.
 1. 원하는 차원 및 지표를 모두 만들었으면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 오류 이벤트의 전체 목록은 Quantum Metric 설명서를 참조하십시오. 추가 질문이 있는 경우 Quantum Metric 고객 지원 담당자에게 문의하거나 [Quantum Metric 고객 요청 포털](https://community.quantummetric.com/s/public-support-page)을 통해 요청을 제출하십시오.
 
-## 4단계: Analysis Workspace의 나머지 데이터와 함께 차원 및 지표 사용
+## 3단계: Analysis Workspace의 나머지 데이터와 함께 차원 및 지표 사용
 
 나머지 방문자 데이터와 함께 수집된 양자 지표 마찰 이벤트 데이터를 사용하면 Customer Journey Analytics의 다른 차원 또는 지표와 동일하게 사용할 수 있습니다.
 
