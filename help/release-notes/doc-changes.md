@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '4716'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 요약 데이터 업데이트 | 요약 데이터 보고 시 [조회 데이터](/help/data-views/summary-data.md#lookup-data)를 올바르게 사용하는 방법에 대한 요약 데이터 문서를 업데이트했습니다. |
 | BI 확장 기능 업데이트 | BI 확장 기능 설명서에 [기본값 및 제한 사항](/help/data-views/bi-extension.md#defaults-and-limitations) 섹션이 추가되었습니다. |
 | 경고 | 이제 Customer Journey Analytics에서 사용할 수 있는 [경고](/help/components/c-intelligent-alerts/intelligent-alerts.md) 기능에 대한 설명서가 추가되었습니다. |
-| 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보 | [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) 및 [필터 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)의 “다음에서 사용” 열에는 Report Builder 및 애드혹 구성 요소와 같은 새로운 보고 영역이 포함됩니다. |
+| 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보 | [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en) 및 [세그먼트 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)의 &quot;사용 위치&quot; 열에는 다음 새 보고 영역이 포함됩니다. Report Builder 및 임시 구성 요소 |
 | **2024년 8월** | |
 | B2B 프로젝트 예시 | [B2B 조회 기능을 위한 새로운 변환 데이터 세트](/help/connections/transform-datasets-b2b-lookups.md)를 사용하여 Customer Journey Analytics에서 프로필(개인) 수준 B2B 데이터를 설정, 구성 및 보고하는 방법을 문서화한 [사용 사례](/help/use-cases/b2b/example.md)를 추가했습니다. |
 | 업데이트된 데이터 내보내기 사용 사례 | 전환 확인 기간을 사용하여 세션 간에 속성을 올바르게 적용하는 방법을 설명하는 [쿼리 서비스(Data Distiller) 및 내보내기 데이터 세트](/help/use-cases/data-export/queryservice-export-datasets.md)에 더 자세한 쿼리 예시를 추가했습니다. |
@@ -87,7 +87,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Product Analytics 기능에 대한 새로운 설명서 | <ul><li>[기능 매트릭스](/help/guided-analysis/types/funnel.md)</li><li>향상된 [유지](/help/guided-analysis/types/retention.md)</li><li>[단계의 향상된 인사이트](/help/guided-analysis/types/funnel.md)</li><li>단일 이동 단계 내에서 이벤트 비교</li></ul> |
 | **2024년 3월** | |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/getting-started/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
-| 프로젝트 전용 Workspace 구성 요소에 대한 권한 향상의 설명서를 추가했습니다. | 다른 사용자와 프로젝트를 공유하는 경우 해당 사용자는 공유 프로젝트에 포함된 [빠른 필터](/help/components/filters/quick-filters.md) 및 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다. |
+| 프로젝트 전용 Workspace 구성 요소에 대한 권한 향상의 설명서를 추가했습니다. | 프로젝트를 다른 사용자와 공유하는 경우 해당 사용자는 공유 프로젝트에 포함된 [빠른 세그먼트](/help/components/filters/quick-filters.md) 및 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다. |
 | **2024년 2월** | |
 | 프로젝트 공유 설명서 업데이트 | [공유된 프로젝트를 보는 방법](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)에 대한 정보를 추가했습니다.<p>[개별 또는 여러 프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | 클라우드 내보내기 위치를 구성할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항 추가 | [클라우드 내보내기 계정을 구성](/help/components/exports/cloud-export-accounts.md)하고 [클라우드 내보내기 위치를 구성](/help/components/exports/cloud-export-locations.md)할 때 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항을 추가했습니다. |
@@ -118,7 +118,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
 | 목표/대상 설정에 대한 파생 필드 사용 | 파생 필드를 사용하여 목표/대상을 설정하고 이를 보고하는 방법을 설명하는 [사용 사례](../use-cases/goals-using-derived-fields.md) 문서를 추가했습니다. |
-| 클라우드로 전체 테이블 내보내기 | 수백만 개의 Workspace 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 필터 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
+| 클라우드로 전체 테이블 내보내기 | 수백만 개의 Workspace 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블을 내보내면 최대 5개의 분류, 5개의 지표, 세그먼트 및 계산된 지표를 모두 연결된 테이블에서 지원하면서 Workspace 내에서 설계된 데이터 테이블을 한 번만 또는 일정에 따라 배달할 수 있습니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
 | 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 관리 페이지의 새로운 열 | 이제 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)와 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)에서 사용할 수 있는 새로운 열을 문서화했습니다. |
 | Adobe Analytics와의 비교 | Customer Journey Analytics와 Adobe Analytics의 차이점을 비교하고 이해하기 위한 소개로 [개요 페이지](../getting-started/aa-vs-cja/overview.md)를 추가했습니다. |
@@ -160,10 +160,10 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 인텔리전트 캡션 설명서 | 라인 시각화의 [자연어 요약](/help/analysis-workspace/visualizations/intelligent-captions.md)으로 사용자를 위한 스토리텔링을 풍부하게 합니다. |
 | 파생 필드 | [파생 필드](../data-views/derived-fields/derived-fields.md) 기능에 대한 설명서를 추가했습니다. |
 | **2023년 4월** |  |
-| 필터를 차원으로 사용하는 방법에 대한 비디오 | 필터를 차원으로 사용하는 것에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [필터 만들기](/help/components/filters/create-filters.md) 페이지에 연결되어 있습니다.</p> <p>다음은 [Analysis Workspace에서 차원으로 필터 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html) 비디오에 대한 직접 링크입니다.</p> |
-| 필터 설명서 | [필터 빌더](/help/components/filters/filter-builder.md)를 사용하는 방법에 대한 문서를 추가했습니다. <p>[필터 만들기](/help/components/filters/create-filters.md) 및 [필터 개요](/help/components/filters/filters-overview.md)의 설명서를 간소화했습니다.</p> |
+| 세그먼트를 차원으로 사용하는 방법에 대한 비디오 | 세그먼트를 차원으로 사용하는 방법에 대한 비디오를 업데이트했습니다. <p>이 비디오는 [세그먼트 만들기](/help/components/filters/create-filters.md) 페이지에서 연결됩니다.</p> <p>다음은 비디오에 대한 직접 링크입니다. [Analysis Workspace에서 차원으로 세그먼트 사용](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
+| 세그먼트 설명서 | [세그먼트 빌더](/help/components/filters/filter-builder.md) 사용에 대한 문서를 추가했습니다. <p>[세그먼트 만들기](/help/components/filters/create-filters.md) 및 [세그먼테이션 개요](/help/components/filters/filters-overview.md)에서 간소화된 설명서입니다.</p> |
 | 실험 패널 설명서 업데이트 | [비무작위로 지정되는 차원 해석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html#non-randomized)에 대한 섹션을 추가했습니다. |
-| 프로젝트 필터 (애드혹 및 빠른 필터) | 프로젝트 필터에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 필터를 만드는 단계는 이제 [빠른 필터를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
+| 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 간소화된 설명서와 제거된 중복 정보. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/components/filters/quick-filters.md)와 결합됩니다. |
 | **2023년 3월** | |
 | 의사 결정 관리 데이터 통합 | [Customer Journey Analytics에 Adobe Journey Optimizer 의사 결정 관리 데이터 통합](/help/integrations/ajo-od.md) 방법을 설명하는 콘텐츠를 추가했습니다. |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |

@@ -5,10 +5,10 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -42,7 +42,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 개인 ID 결합
 
-Customer Journey Analytics에서 [결합된 데이터 집합](/help/connections/combined-dataset.md)을(를) 생성하려면 공통 식별자가 필요합니다.
+Customer Journey Analytics에서 [결합된 데이터 세트](/help/connections/combined-dataset.md)를 생성하려면 공통 식별자가 필요합니다.
 
 * 이미 데이터 세트 모두에 모든 이벤트에 대한 공통 식별자가 있는 경우 이 단계를 건너뛰고 연결을 만들 수 있습니다.
 * 데이터 세트 중 하나에 일부 이벤트에만 적용되는 공통 식별자가 있으면 이 두 데이터 세트에 대해 크로스 채널 분석을 활성화하는 단계에 대해 [결합](/help/stitching/overview.md)을 사용하여 데이터를 결합할 수 있습니다.
@@ -69,11 +69,11 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 이 시각화는 CCA가 데이터를 얼마나 잘 결합하는지 이해하는 데 도움이 됩니다.
 
-1. 2개의 필터를 만듭니다. 이 두 필터에 사용되는 변수는 각 이벤트의 데이터 소스를 반영하는 데 사용한 것과 동일한 변수입니다. 자세한 내용은 [필터 만들기](/help/components/filters/create-filters.md)를 참조하십시오.
+1. 두 개의 세그먼트를 만듭니다. 이 두 세그먼트에 사용된 변수는 각 이벤트의 데이터 소스를 반영하는 데 사용한 것과 동일한 변수입니다. 자세한 내용은 [세그먼트 만들기](/help/components/filters/create-filters.md)를 참조하십시오.
    * 데이터 세트 ID가 웹 데이터와 동일한 개인 컨테이너
    * 데이터 세트 ID가 콜센터 데이터와 같은 개인 컨테이너
 2. Analysis Workspace에서 [벤](/help/analysis-workspace/visualizations/venn.md) 시각화를 작업 영역 캔버스로 드래그합니다.
-3. 새로 만든 필터 2개를 **[!UICONTROL 필터 추가]** 영역으로 드래그하고 사람 지표를 **[!UICONTROL 지표 추가]** 영역으로 드래그합니다.
+3. 새로 만든 두 개의 세그먼트를 **[!UICONTROL 필터 추가]** 영역으로 드래그하고 사람 지표를 **[!UICONTROL 지표 추가]** 영역으로 드래그합니다.
 
 결과 벤 시각화는 웹 데이터와 콜센터 데이터를 모두 포함하는 데이터 세트에 있는 사람 수를 보여 줍니다. 겹치는 부분이 클수록 결합된 사람이 많습니다. 겹치지 않는 영역은 하나의 데이터 세트 또는 다른 데이터 세트에만 있는 사람을 나타냅니다.
 
@@ -90,11 +90,11 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 <!-- Complement with donut visualization -->
 
-이 표와 함께 사유 또는 범주를 기준으로 호출을 분할하여 통찰력을 추가로 높일 수 있습니다.
+이 테이블과 함께 사유 또는 범주를 기준으로 호출을 분할하여 통찰력을 추가로 높일 수 있습니다.
 
 1. 구성 요소 목록의 ‘호출 사유’ 차원 아래에 있는 오른쪽 V자 버튼을 클릭합니다. 이 작업을 수행하면 개별 차원 값이 표시됩니다.
-2. ‘호출’ 지표 아래에 있는 원하는 차원 값을 드래그합니다. 지표는 각 호출 사유를 기준으로 해당 지표를 필터링합니다.
-3. 자세히 들여다 보려는 각 호출 사유에 대해 이 작업을 반복합니다. ‘모든 세션’ 필터를 사용하여 총계를 조회합니다.
+2. &#39;호출&#39; 지표 아래에 있는 원하는 차원 값을 드래그합니다. 지표는 각 호출 사유를 기준으로 해당 지표를 세그먼트화합니다.
+3. 자세히 들여다 보려는 각 호출 사유에 대해 이 작업을 반복합니다. &#39;모든 세션&#39; 세그먼트를 사용하여 총계를 조회합니다.
 
 <!-- screenshot -->
 
@@ -139,10 +139,10 @@ step 2:
 
 Slide 4
 
-Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+Create a bunch of segments - facets to their business. Segments were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really segments)
 
 wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
 
-use sequential filters, but you lose the ability to use attribution IQ
+use sequential segments, but you lose the ability to use attribution IQ
 
 ## What to do when you've found insight -->

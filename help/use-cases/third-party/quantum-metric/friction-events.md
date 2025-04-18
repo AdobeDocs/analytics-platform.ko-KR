@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -66,4 +66,4 @@ return true;
 
 * 시간 경과에 따른 트렌드 마찰 이벤트 데이터
 * 폴아웃 또는 단계 시각화에서 Customer Journey Analytics 이벤트를 일부 단계로 추가하고, 양자 지표 마찰 이벤트를 다른 단계로 추가합니다. 이 보고서를 통해 방문자가 가장 일반적으로 문제가 발생하는 위치를 확인할 수 있습니다.
-* 더 자세한 분석을 위해 마찰 이벤트를 경험하는 방문자를 위한 필터 만들기 및 적용
+* 더 자세한 분석을 위해 마찰 이벤트를 경험하는 방문자를 위한 세그먼트 만들기 및 적용

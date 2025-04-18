@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 59%
+ht-degree: 51%
 
 ---
 
 # Marketo Engage 데이터에 대한 보고서
 
-Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용할 수 있는 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Adobe Customer Journey Analytics에서 이러한 데이터 세트에 대해 보고합니다.
+Adobe Experience Platform(Adobe Experience Platform)에서 새로 사용 가능한 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Adobe Customer Journey Analytics에서 이러한 데이터 세트에 대해 보고합니다.
 
 ## 1단계: Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
@@ -39,11 +39,11 @@ Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience
 1. [Analytics Workspace](/help/analysis-workspace/home.md)를 열고 새 프로젝트를 만듭니다.
 B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타일의 분석을 수행할 수 있습니다. B2B 오브젝트는 아직 사용할 수 없습니다.
 
-1. 다음과 같이 웹 페이지 조회수에 대한 [필터](/help/components/filters/create-filters.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :
+1. 다음과 같이 웹 페이지 조회수에 대한 [세그먼트](/help/components/filters/create-filters.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :
 
    ![이벤트 및 이벤트 유형을 표시하는 정의 창](../assets/marketo-filter.png)
 
-1. 자유 형식 테이블에서 생성한 필터(웹 페이지 조회수)를 가져온 다음 월 날짜 범위를 가져옵니다. 이렇게 하면 매월 리드별 웹 페이지 방문 횟수를 확인할 수 있습니다.
+1. 만든 세그먼트를 자유 형식 테이블 - 웹 페이지 조회수 로 가져온 다음 월 날짜 범위를 가져옵니다. 이렇게 하면 매월 리드별 웹 페이지 방문 횟수를 확인할 수 있습니다.
 
    ![월별 이벤트를 보여 주는 자유 형식 테이블.](../assets/marketo-freeform.png)
 

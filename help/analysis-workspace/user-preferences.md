@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3873'
 ht-degree: 75%
@@ -36,7 +36,7 @@ ht-degree: 75%
 | --- | --- |
 | **[!UICONTROL 랜딩 페이지]** | Customer Journey Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>빈 트렌드 가이드 분석</li><li>목록에서 선택한 특정 프로젝트</li></ul> |
 | **[!UICONTROL 팁]** | Analysis Workspace 오른쪽 아래 영역의 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
-| **[!UICONTROL 왼쪽 패널 그룹에 표시되는 구성 요소]** | 왼쪽 패널의 구성 요소 메뉴에 표시할 각 구성 요소 그룹의 수를 선택합니다. <p>구성 요소 그룹에서 0을 선택하는 경우 왼쪽 레일에서 구성 요소 그룹에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 구성 요소 그룹에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md)를 참조하십시오.</p> |
+| **[!UICONTROL 왼쪽 패널 그룹에 표시되는 구성 요소]** | 왼쪽 패널의 구성 요소 메뉴에 표시할 각 구성 요소 그룹의 수를 선택합니다. <p>구성 요소 그룹에서 0을 선택하는 경우 왼쪽 레일에서 구성 요소 그룹에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 구성 요소 그룹에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>세그먼트</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/components/overview.md)를 참조하십시오.</p> |
 
 ### IMS 조직 환경 설정 {#ims-organization-preferences}
 

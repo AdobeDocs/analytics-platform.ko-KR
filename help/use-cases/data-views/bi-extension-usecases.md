@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '14697'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 * **Power BI 데스크톱**. 사용된 버전은 2.137.1102.0 64비트(2024년 10월)입니다.
 * **타블로 데스크톱**. 사용된 버전은 2024.1.5(20241.24.0705.0334) 64비트입니다.
-* **조회자**. 온라인 버전 25.0.23([looker.com](https://looker.com){target="_blank"}을 통해 사용 가능)
+* **조회자**. 온라인 버전 25.0.23, [looker.com](https://looker.com){target="_blank"}을 통해 사용 가능
 * **Jupyter 전자 필기장**. 사용된 버전은 7.3.2입니다.
 * **자습서**. 사용된 버전은 2024.12.0, 빌드 467입니다.
 
@@ -34,9 +34,9 @@ ht-degree: 2%
    * [단일 차원 등급](#single-dimension-ranked)
    * [여러 차원 등급](#multiple-dimension-ranked)
    * [고유 차원 값 계산](#count-distinct-dimension-values)
-   * [날짜 범위 이름을 사용하여 필터링](#use-date-range-names-to-filter)
-   * [필터 이름을 사용하여 필터링](#use-filter-names-to-filter)
-   * [차원 값을 사용하여 필터링](#use-dimension-values-to-filter)
+   * [날짜 범위 이름을 사용하여 세그먼트화](#use-date-range-names-to-segment)
+   * [세그먼트 이름을 사용하여 세그먼트](#use-segment-names-to-segment)
+   * [차원 값을 사용하여 세그먼트화](#use-dimension-values-to-segment)
    * [정렬](#sort)
    * [제한](#limits)
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 ### 평면화할지 말지
 
-Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
@@ -133,8 +133,8 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
-* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [쿼리 서비스에 Power BI 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+* [자격 증명 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)
+* [쿼리 서비스에 Power BI 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -176,7 +176,7 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 ### 평면화할지 말지
 
-Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
@@ -187,8 +187,8 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
-* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [쿼리 서비스에 타블로 데스크톱 연결](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
+* [자격 증명 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)
+* [쿼리 서비스에 타블로 데스크톱 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/query/clients/tableau).
 
 
 >[!TAB 조회자]
@@ -204,8 +204,8 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 1. Looker에 로그인
 
-   1. 왼쪽 레일에서 **[!UICONTROL 관리자]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL 연결]**&#x200B;을 선택하세요.
+   1. 왼쪽 레일에서 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
    1. **[!UICONTROL Looker 화면에 데이터베이스를 연결]**&#x200B;합니다.
 
@@ -253,7 +253,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
 
 ### 평면화할지 말지
 
-Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
@@ -264,7 +264,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
-* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [자격 증명 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -360,7 +360,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
 ### 평면화할지 말지
 
-Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
@@ -371,7 +371,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
-* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [자격 증명 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)
 
 >[!TAB 자습서]
 
@@ -446,7 +446,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 ### 평면화할지 말지
 
-RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
+RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니다. 자세한 내용은 [중첩된 데이터 정리](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/flatten-nested-data)를 참조하십시오.
 
 | 평면화 매개 변수 | 예 | 지원됨 | 비고 |
 |---|---|:---:|---|
@@ -457,7 +457,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 ### 추가 정보
 
 * [사전 요구 사항](/help/data-views/bi-extension.md#prerequisites)
-* [자격 증명 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [자격 증명 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 
@@ -2909,21 +2909,21 @@ Customer Journey Analytics에는 다양한 시각화가 있습니다. 가능한 
 | ![콤보](/help/assets/icons/ComboChart.svg) | [콤보](/help/analysis-workspace/visualizations/combo-charts.md) | [선 및 누적 세로 막대형 차트 및 선 및 묶은 세로 막대형 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) | [도넛 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#doughnut-charts) |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [단계](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#funnel-charts). |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) | 분해 나무요? |
-| ![테이블 보기](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [테이블](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) 및 [매트릭스](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
-| ![그래프 히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |  |
-| ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | [클러스터형 막대형 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [누적 막대 차트 및 100% 누적 막대 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![분기3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [분해 트리](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | 분해 나무요? |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [테이블](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) 및 [매트릭스](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |  |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [클러스터형 막대형 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [누적 막대 차트 및 100% 누적 막대 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [분해 트리](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
-| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) | [분산형 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
-| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 머리글](/help/analysis-workspace/visualizations/section-header.md) | [텍스트 상자](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | [분산형 차트](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md) | [텍스트 상자](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | [카드](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
-| ![123](/help/assets/icons/123.svg)</p> | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | [카드](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
-| ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | [텍스트 상자](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![123](/help/assets/icons/123.svg)</p> | [요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md) | [카드](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
+| ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | [텍스트 상자](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p> | [트리맵](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
-| ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | |
+| ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | |
 
 
 ### 드릴다운
@@ -2992,21 +2992,21 @@ limit 1001
 | ![콤보](/help/assets/icons/ComboChart.svg) | [콤보](/help/analysis-workspace/visualizations/combo-charts.md) | [조합 차트](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) | |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
-| ![테이블 보기](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [텍스트 테이블](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
-| ![그래프 히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | [히스토그램](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
-| ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![분기3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [텍스트 테이블](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | [히스토그램](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
-| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) | [산포도](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
-| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 머리글](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | [산포도](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | |
-| ![123](/help/assets/icons/123.svg)</p> | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | |
-| ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | |
+| ![123](/help/assets/icons/123.svg)</p> | [요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md) | |
+| ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p> | [트리맵](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm) |
-| ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | |
+| ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | |
 
 
 ### 드릴다운
@@ -3056,19 +3056,19 @@ GROUP BY 1,
 | ![콤보](/help/assets/icons/ComboChart.svg) | [콤보](/help/analysis-workspace/visualizations/combo-charts.md) | [시각화 사용자 지정](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) | [도넛](https://cloud.google.com/looker/docs/donut-multiples-options) |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [단계](https://cloud.google.com/looker/docs/funnel-options) |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Sankey](https://cloud.google.com/looker/docs/sankey) |
-| ![테이블 보기](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [테이블](https://cloud.google.com/looker/docs/table-options) |
-| ![그래프 히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | |
-| ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대형](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://cloud.google.com/looker/docs/bar-options) |
-| ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://cloud.google.com/looker/docs/bar-options) |
-| ![분기3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Sankey](https://cloud.google.com/looker/docs/sankey) |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [테이블](https://cloud.google.com/looker/docs/table-options) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) | |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://cloud.google.com/looker/docs/bar-options) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) | [막대 차트](https://cloud.google.com/looker/docs/bar-options) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://cloud.google.com/looker/docs/line-options) |
-| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) | [산포도](https://cloud.google.com/looker/docs/scatter-options) |
-| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 머리글](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) | [선 차트](https://cloud.google.com/looker/docs/line-options) |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | [산포도](https://cloud.google.com/looker/docs/scatter-options) |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | [단일 값](https://cloud.google.com/looker/docs/single-value-options) |
-| ![123](/help/assets/icons/123.svg)</p> | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | [단일 값](https://cloud.google.com/looker/docs/single-value-options) |
-| ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | [단일 값](https://cloud.google.com/looker/docs/single-value-options) |
+| ![123](/help/assets/icons/123.svg)</p> | [요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md) | [단일 값](https://cloud.google.com/looker/docs/single-value-options) |
+| ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | [단일 값](https://cloud.google.com/looker/docs/single-value-options) |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) | [트리맵](https://cloud.google.com/looker/docs/treemap) |
 | ![Type](/help/assets/icons/TwoDots.svg) | [벤 다이어그램](/help/analysis-workspace/visualizations/venn.md) | [벤 다이어그램](https://cloud.google.com/looker/docs/venn) |
 

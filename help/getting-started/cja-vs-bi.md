@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 95%
+source-wordcount: '1648'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ Customer Journey Analytics는 수백 또는 수천 개의 서버에 분석을 �
 
 보고 엔진은 Customer Journey Analytics 기능의 기본적인 기능으로 사용자는 해당 보고 엔진 내에서 모든 고객 여정 데이터와 점진적으로 상호 작용하고 이를 토대로 작업할 수 있습니다. Customer Journey Analytics는 드래그 앤 드롭 기능을 통해 이 작업을 시각적으로 수행할 수 있는 광범위한 구성 요소 세트와 함께 제공됩니다. 사용자는 BI 시각화 도구를 사용하여 SQL로 준비된 데이터(IT로 정의) 경계 내에서 탐색할 수 있습니다. Customer Journey Analytics를 통해 IT로 돌아가지 않고도 원하는 만큼의 양을 세분화하고 분류하여 다른 SQL 보기를 빌드할 수 있습니다.
 
-여기서 핵심 개념은 “점진적으로”입니다. BI 도구의 대부분 시각화와 달리 Customer Journey Analytics의 시각화 드래그 앤 드롭 UI를 사용하여 특정 요구 사항에 맞게 관련 지표, 차원, 필터(세그먼트), 계산, 타임라인, 주석과 기타 분석 값 등을 통해 상호 작용 방식으로 시각화 쿼리를 빌드하는 등 데이터를 지속적으로 세분화할 수 있습니다.
+&quot;점진적&quot;은 여기에 있는 주요 개념입니다. BI 도구의 대부분의 시각화와는 달리 Customer Journey Analytics의 시각적 드래그 앤 드롭 UI를 사용하면 특정 요구 사항에 맞게 데이터를 지속적으로 분류할 수 있습니다. 관련 지표, 차원, 세그먼트, 계산, 타임라인, 주석 및 기타 분석 값을 사용하여 대화식으로 시각적 쿼리를 작성할 수 있습니다.
 
 해당 시각화 구성 요소에는 다음과 같은 스마트 기능이 내장되어 있습니다.
 

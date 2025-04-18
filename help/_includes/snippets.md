@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3796'
 ht-degree: 30%
@@ -60,7 +60,7 @@ ht-degree: 30%
 *이 비디오에서는 Adobe Analytics을 사용하는 기능을 보여 줍니다. 단, 해당 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. Adobe Analytics과 Customer Journey Analytics 간의 용어 차이점(예: &quot;방문&quot; 대 &quot;세션&quot;)을 파악하십시오.*
 
 
-## 필터 패널 {#filterspanel}
+## 세그먼트 패널 {#filterspanel}
 
 1. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널을 엽니다. 필터 목록에 추가 공간이 필요한 경우 ![Filter](/help/assets/icons/Filter.svg)를 한 번 더 선택하여 패널을 닫을 수 있습니다.
 1. 사용 가능한 필터 섹션에서 필터를 선택합니다.

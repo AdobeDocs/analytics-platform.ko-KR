@@ -5,10 +5,10 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 33%
+source-wordcount: '1364'
+ht-degree: 32%
 
 ---
 
@@ -39,11 +39,11 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 1. **[!UICONTROL 값 포함/제외]** 섹션을 열고 다음을 지정하십시오.
    1. **[!UICONTROL 포함/제외 값 설정]**&#x200B;을 사용하도록 설정합니다.
    1. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;을(를) 선택합니다.
-   1. `confirmation`을(를) 지정하십시오. page_title에 대한 이 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 포함/제외된 값이 있는 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. Attribution IQ, 필터 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
+   1. `confirmation`을(를) 지정하십시오. page_title에 대한 이 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 포함/제외된 값이 있는 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. Attribution IQ, 세그먼트 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
 
-   ![지표에 Dimension](../assets/string-to-metric.gif){width=100%}
+   ![지표에 대한 Dimension](../assets/string-to-metric.gif){width=100%}
 1. [!UICONTROL 세션]의 [!UICONTROL 전환 확인 기간]을 사용하여 [!UICONTROL 마지막 터치]와 같은 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다.
-같은 필드에서 다른 [!UICONTROL 주문] 지표를 만들고 다른 속성 모델을 지정할 수도 있습니다. [!UICONTROL 첫 번째 터치]와 다른 [!UICONTROL 전환 확인 기간](예: [!UICONTROL 30일]).
+같은 필드에서 다른 [!UICONTROL 주문] 지표를 만들고 다른 속성 모델을 지정할 수도 있습니다. [!UICONTROL 첫 번째 터치]와 다른 [!UICONTROL 전환 확인 기간]&#x200B;(예: [!UICONTROL 30일]).
 
 또 다른 예는 회사에서 얼마나 많은 개인 ID를 보유하는지 결정하는 지표로, 차원으로서의 개인 ID를 사용하는 것입니다.
 
@@ -53,9 +53,9 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 
 
-1. **[!UICONTROL Duration]** 정수를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL Dimension]** 섹션으로 끌어옵니다.
+1. **[!UICONTROL Duration]** 정수를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
 1. 이제 **[!UICONTROL 값 버킷팅]**을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. 버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.
-   ![차원 대 정수](../assets/integer-to-dimension.gif){width=100%}
+   ![정수 대 차원](../assets/integer-to-dimension.gif){width=100%}
 
 
 ## 플로우 다이어그램에서 숫자 차원을 지표로 사용 {#numeric}
@@ -97,7 +97,7 @@ f. 값으로 `50`을(를) 지정합니다.
 
 `Total Revenue (Algorithmic)`과(와) 같은 차이점을 반영하도록 각 지표의 이름을 변경해야 합니다.
 
-![다른 속성 설정에 대한 지표 복제](../assets/duplicate-metric-for-attribution.gif){width=100%}
+![다른 속성 설정에 대한 중복 지표](../assets/duplicate-metric-for-attribution.gif){width=100%}
 
 다른 데이터 보기 설정에 대한 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md)를 참조하십시오.
 데이터 보기의 개념적인 개요는 [데이터 보기 개요](/help/data-views/data-views.md)를 참조하십시오.

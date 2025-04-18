@@ -1,12 +1,12 @@
 ---
-description: 지표를 찾는 두 가지 주요 방법, 즉 정렬과 필터링에 대해 설명합니다.
+description: 지표를 찾는 두 가지 주요 방법인 정렬과 필터링에 대해 설명합니다.
 title: 지표 찾기
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: d2fb161151bb909152470041449ab3010e72e5e3
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 34%
+ht-degree: 8%
 
 ---
 

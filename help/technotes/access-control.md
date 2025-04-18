@@ -6,16 +6,16 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
 # 액세스 제어
 
-세 가지 수준의 액세스 또는 세 가지 역할(제품 관리자 역할, 제품 프로필 관리자 역할 및 사용자 수준 액세스)이 Customer Journey Analytics을 제어합니다. 여기서는 이 역할에 대해 자세하게 설명합니다.
+Customer Journey Analytics은 세 가지 수준의 액세스 또는 세 가지 역할(제품 관리자 역할, 제품 프로필 관리자 역할 및 사용자 수준 액세스)로 제어합니다. 여기서는 이 역할에 대해 자세하게 설명합니다.
 
 또한 이 문서에서는 Workspace 큐레이션 및 행 수준 및 가치 수준 액세스 제어와 같이 액세스를 제한하는 보다 세분화된 방법에 대해 설명합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 사용자를 제품 관리자로 추가하려면 다음을 수행하십시오.
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise/)(으)로 이동합니다.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise/)&#x200B;(으)로 이동합니다.
 
 1. [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **관리자**] 탭 > [!UICONTROL **관리자 추가**]&#x200B;를 선택합니다.
 
@@ -42,14 +42,14 @@ ht-degree: 14%
 제품 관리자에게는 기본적으로 다음 작업을 수행하는 데 필요한 권한이 부여됩니다.
 
 * 데이터 보기 만들기, 업데이트 및 삭제
-* 다른 사용자가 만든 프로젝트, 필터, 계산된 지표, 대상자, 주석 또는 필터 업데이트 및 삭제
+* 다른 사용자가 만든 프로젝트, 세그먼트, 계산된 지표, 대상자, 주석 또는 세그먼트 업데이트 및 삭제
 * 모든 사용자에게 작업 영역 프로젝트 공유
 * [보고 활동 관리자](/help/reporting-activity-manager/reporting-activity-overview.md)에서 보고 활동 관리
 * Analysis Workspace에서 [전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)
 
 #### 제품 관리자 추가 권한
 
-[Admin Console](https://adminconsole.adobe.com/enterprise/)의 **Customer Journey Analytics 제품 프로필**&#x200B;에서 제품 관리자로 추가된 것 외에도 Customer Journey Analytics 내에서 다음 작업을 완료하려면 추가 권한이 필요합니다.
+[Customer Journey Analytics](https://adminconsole.adobe.com/enterprise/)의 **Admin Console 제품 프로필**&#x200B;에서 제품 관리자로 추가되는 것 외에도 Customer Journey Analytics 내에서 다음 작업을 완료하려면 추가 권한이 필요합니다.
 
 * 데이터 [연결](/help/connections/overview.md) 만들기, 업데이트 및 삭제
 
@@ -67,7 +67,7 @@ ht-degree: 14%
   Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
 
 
-* Adobe Journey Optimizer이 AJO 연결이 있는 CJA와 통합된 경우 연결에 액세스하려면 여정 권한도 추가해야 합니다.
+* Adobe Journey Optimizer이 AJO 연결이 있는 CJA과 통합된 경우 연결에 액세스하려면 여정 권한도 추가해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
@@ -76,7 +76,7 @@ ht-degree: 14%
   | [!UICONTROL 여정] | [!UICONTROL 여정 보기] | 여정에 대한 읽기 전용 액세스 권한. |
   | [!UICONTROL 여정] | [!UICONTROL 여정 관리] | 여정 읽기, 만들기, 편집 및 삭제 |
 
-* [대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)(으)로 데이터 세트 내보내기
+* [대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)&#x200B;(으)로 데이터 세트 내보내기
 
   이 작업을 수행하려면 사용자는 다음 권한을 제공하는 **Experience Platform 제품 프로필**&#x200B;의 일부여야 합니다.
 
@@ -91,7 +91,7 @@ ht-degree: 14%
 
   사용자가 BI 확장을 사용할 수 있도록 제품 관리자
 
-   * 의 Experience Platform 권한에 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 있는 쿼리 서비스 리소스가 있는 역할이 포함되어 있는지 확인해야 합니다. Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
+   * 사용자의 Experience Platform 권한에 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 있는 쿼리 서비스 리소스가 있는 역할이 포함되어 있는지 확인해야 합니다. Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
 
      | 카테고리 | 사용 권한 | 설명 |
      |---|---|---| 
@@ -124,7 +124,7 @@ ht-degree: 14%
 | [!UICONTROL 보고 도구] | [!UICONTROL Analysis Workspace 액세스] | 사용자가 [Analysis Workspace](/help/analysis-workspace/home.md)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 안내식 분석 액세스] | 사용자가 [안내가 있는 분석](/help/guided-analysis/overview.md)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 계산된 지표 만들기] | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)을(를) 만들 수 있도록 허용합니다. 사용자는 자신이 만든 계산된 지표 또는 자신과 공유된 계산된 지표만 태그 지정, 공유, 삭제, 이름 변경, 승인, 승인을 취소할 수 있습니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 필터 만들기] | 사용자가 [필터](/help/components/filters/filters-overview.md)를 만들 수 있도록 허용합니다. 사용자는 자신이 만든 필터 또는 자신과 공유된 필터만 태그 지정, 공유, 삭제, 이름 변경, 승인 및 승인 취소할 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 필터 만들기] | 사용자가 [세그먼트](/help/components/filters/filters-overview.md)를 만들 수 있도록 허용합니다. 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그 지정, 공유, 삭제, 이름 변경, 승인 및 승인 취소할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics의 [Labs](/help/labs/labs.md) 탭에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 허용합니다. 사용자는 자신이 만든 주석이나 자신과 공유된 주석에 태깅하고, 공유하고, 삭제하고, 이름을 바꿀 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 볼 수 있도록 허용합니다. |
@@ -141,11 +141,11 @@ ht-degree: 14%
 
 ## 작업 영역 프로젝트 큐레이션
 
-작업 영역 보고 수준에서 다른 수준의 액세스 제어를 사용할 수 있습니다. 특정 구성 요소에 대한 특정 사용자의 액세스를 제한할 수 있습니다. Workspace 프로젝트 수준에서 구성 요소(차원, 지표, 필터, 날짜 범위)를 제한하는 방법과 큐레이션이 데이터 보기에 연결되는 방법에 대한 자세한 내용은 [프로젝트 조정](/help/analysis-workspace/curate-share/curate.md)을 참조하십시오.
+작업 영역 보고 수준에서 다른 수준의 액세스 제어를 사용할 수 있습니다. 특정 구성 요소에 대한 특정 사용자의 액세스를 제한할 수 있습니다. 작업 영역 프로젝트 수준에서 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한하는 방법과 큐레이션이 데이터 보기에 연결되는 방법에 대한 자세한 내용은 [프로젝트 구성](/help/analysis-workspace/curate-share/curate.md)을 참조하십시오.
 
 ## 개별 지표 또는 차원에 대한 액세스 권한 부여
 
-Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 수정할 수 있으므로 Customer Journey Analytics에서 변경될 수 있습니다. 소급하여 변경하면 보고도 변경됩니다.
+Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표 및 차원은 [데이터 보기](/help/data-views/data-views.md)에서 수정할 수 있으므로 Customer Journey Analytics에서 변경될 수 있습니다. 소급하여 변경하면 보고도 변경됩니다.
 
 ## 사용 사례
 
@@ -161,7 +161,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 
 1. 특정 데이터 보기의 [!UICONTROL 설정]에서 필터를 만드십시오. 여기서 [!UICONTROL 일]은(는) 데이터에 액세스할 수 있는 날짜와 같습니다. 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md#settings-filters)를 참조하십시오.
 1. 기본 연결에서 데이터 세트의 데이터 부분에 필터를 적용하는 데이터 보기를 저장합니다. 필터 정의와 맞지 않는 행은 데이터 보기에서 자동으로 제외되며 이 데이터 보기를 사용할 때 Analysis Workspace에서 사용할 수 없습니다.
-1. Admin Console에 새 [제품 프로필](#product-profile-admin-role)을(를) 만들고, 사용자를 제품 프로필에 추가하고, 제품 프로필에 이 특정 데이터 보기만 포함하십시오.
+1. Admin Console에서 새 [제품 프로필](#product-profile-admin-role)을 만들고, 사용자를 제품 프로필에 추가하고, 제품 프로필에 이 특정 데이터 보기만 포함하십시오.
 
 ### 가치 수준 액세스 제어
 

@@ -3,10 +3,10 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 04a681df29438de8d7c48fba394f607819997578
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 45%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **수치 차원의 “값 없음” 라인 항목 업데이트** | 수치 차원의 경우 이 업데이트를 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>필터에서 “값 없음” 차원 항목을 사용할 수 있습니다.</li><li>“값 없음” 라인 항목에 대한 보고서에서 세부 분석을 수행할 수 있습니다.</li></ul> [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | 2025년 3월 27일 |
+| **수치 차원의 “값 없음” 라인 항목 업데이트** | 수치 차원의 경우 이 업데이트를 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트에서 &quot;값 없음&quot; 차원 항목을 사용합니다.</li><li>“값 없음” 라인 항목에 대한 보고서에서 세부 분석을 수행할 수 있습니다.</li></ul> [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | 2025년 3월 27일 |
 | **Adobe Content Analytics** | Adobe Content Analytics를 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다.<p>기본적으로 사전 설치된 보고 템플릿과 자산 검사기 등의 새로운 기능을 사용하면 시간을 절약할 수 있습니다. 이 기능을 사용하면 데이터에 맞춰 자산을 시각화할 수 있을 뿐만 아니라 각 자산에서 성과, 배치, 속성 등을 포함한 요약된 세부 정보를 확인할 수도 있습니다.<p>전체 고객 여정의 맥락에서 이러한 새로운 콘텐츠 데이터를 조사하여 중요한 비즈니스 질문에 답하고, 콘텐츠 성과를 평가하고, 세분화를 개선하고, 최적화 기회를 파악하고, 활성화를 위한 새로운 대상자를 정의할 수 있습니다.<p>Content Analytics는 Customer Journey Analytics의 추가 기능입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics) |  | 2025년 3월 27일 |
 | **미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트** | Analytics Source Connector는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만, 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 2025년 3월 31일 |
 | **Adobe Experience Platform으로 스트리밍 미디어 데이터를 수집하기 위해 업데이트된 XDM 필드** | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집하는 데 새 XDM 필드 그룹 `mediaReporting`을(를) 사용할 수 있습니다. 새 `mediaReporting` 필드 그룹은 이전에 사용한 `media.mediaTimed` 필드 그룹을 대체합니다.<p>3개월의 전환 기간 동안 `media.mediaTimed` 필드에 대한 데이터 수집이 계속됩니다. 그러나 2025년 7월 말부터 `the media.mediaTimed` 필드는 완전히 사용되지 않으며 더 이상 Adobe Experience Platform 스키마 UI에 표시되지 않으며, 데이터는 `mediaReporting` 필드를 사용해서만 전송됩니다.<p>2025년 4월 22일 이전에 스트리밍 미디어 데이터를 플랫폼으로 수집하기 위해 Analytics 소스 커넥터를 구현한 고객은 새 필드 그룹을 사용하여 데이터를 전송하려면 기존 구성을 마이그레이션해야 합니다. 이 마이그레이션은 2025년 7월 말까지 완료해야 합니다. 마이그레이션 지원에 대해서는 Adobe Consulting 서비스 또는 계정 팀에 문의하십시오. 2025년 4월 22일 이후에 Analytics 소스 커넥터를 구현하는 고객에게는 작업이 필요하지 않습니다. |  | 2025년 4월 22일 수요일 |
