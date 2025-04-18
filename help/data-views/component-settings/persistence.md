@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="지속성"
->abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 필터 전에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
+>abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 세그먼트 앞에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,7 +40,7 @@ ht-degree: 79%
 
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
-[!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 지속성은 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
+[!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 세그먼트화나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
 
 | 설정 | 설명 |
 | --- | --- |
