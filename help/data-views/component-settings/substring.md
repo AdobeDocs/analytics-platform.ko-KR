@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 94%
 
 ![하위 문자열 설정](../assets/substring-settings.png)
 
-[!UICONTROL 하위 문자열]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 이는 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
+[!UICONTROL 하위 문자열]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 세그먼트화나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
 
 ## 왼쪽/오른쪽에서 시작
 
-문자열의 시작 또는 끝 위치에 따라 문자열의 일부를 가져옵니다. **[!UICONTROL 왼쪽에서]** 및 **[!UICONTROL 오른쪽에서]** 메서드는 두 개의 드롭다운 목록을 제공합니다. **[!UICONTROL From]**(출력이 시작되는 위치) 및 **[!UICONTROL To]**(출력이 끝나는 위치).
+문자열의 시작 또는 끝 위치에 따라 문자열의 일부를 가져옵니다. **[!UICONTROL 왼쪽에서 시작]** 및 **[!UICONTROL 오른쪽에서 시작]** 방법에는 **[!UICONTROL 시작]**(출력이 시작되는 곳)과 **[!UICONTROL 끝]**(출력이 끝나는 곳)의 두 가지 드롭다운 목록이 있습니다.
 
 * **[!UICONTROL 문자열 시작]**: 문자열의 시작입니다.
 * **[!UICONTROL 문자열 끝]**: 문자열의 끝입니다.
@@ -41,7 +41,7 @@ ht-degree: 94%
    * **[!UICONTROL 일치]**: 일치시킬 문자열입니다. 입력이 이 필드와 일치하지 않으면 [값 옵션 없음](no-value-options.md)이 적용됩니다.
    * **[!UICONTROL 색인]**: **[!UICONTROL 일치]** 기준은 문자열에 여러 번 표시될 수 있습니다. 이 정수는 방법에 따라 출력을 시작하거나 종료할 일치 항목을 결정합니다. 예를 들어 `1`의 색인은 최초 일치를 나타냅니다. 색인이 사용 가능한 일치 항목 수보다 높으면 [값 옵션 없음](no-value-options.md)이 적용됩니다.
    * **[!UICONTROL 문자열 포함]**: 활성화된 경우 출력에 **[!UICONTROL 일치]** 문자열을 포함하도록 하는 확인란입니다.
-* **[!UICONTROL 길이]**: 출력의 시작 위치 뒤에 포함할 문자 수를 지정하는 정수입니다. **[!UICONTROL 받는 사람]** 드롭다운 목록에서만 사용할 수 있습니다.
+* **[!UICONTROL 길이]**: 출력의 시작 위치 뒤에 포함할 문자 수를 지정하는 정수입니다. **[!UICONTROL 시작]** 드롭다운 목록에서만 사용할 수 있습니다.
 
 ## 구분 기호
 

@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 85%
@@ -199,7 +199,7 @@ ht-degree: 85%
          + [개요](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [구성](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [차원 간 폴아웃](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [필터 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [세그먼트 적용](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 플로우 {#flow}
          + [개요](../analysis-workspace/visualizations/c-flow/flow.md)
          + [구성](../analysis-workspace/visualizations/c-flow/create-flow.md)
@@ -320,19 +320,19 @@ ht-degree: 85%
       + [차원 시간 분할](../components/dimensions/time-parting-dimensions.md)
       + [높은 카디널리티 차원](../components/dimensions/high-cardinality.md)
    + [지표](../components/apply-create-metrics.md)
-   + 필터 {#cja-filters}
+   + 세그먼트 {#cja-segments}
       + [개요](../components/filters/filters-overview.md)
-      + [필터 만들기](../components/filters/create-filters.md)
-      + [필터 빌드](../components/filters/filter-builder.md)
-      + [빠른 필터](../components/filters/quick-filters.md)
-      + [순차적 필터](../components/filters/seg-sequential-build.md)
-      + [필터 공유](../components/filters/filters-share.md)
-      + [필터 태그 지정](../components/filters/filters-tag.md)
-      + [필터 목록 필터링](../components/filters/filters-filter.md)
-      + [필터를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
-      + [필터 승인](../components/filters/filters-approve.md)
-      + [필터 복사](../components/filters/filters-copy.md)
-      + [필터 관리](../components/filters/manage-filters.md)
+      + [세그먼트 만들기](../components/filters/create-filters.md)
+      + [세그먼트 작성](../components/filters/filter-builder.md)
+      + [빠른 세그먼트](../components/filters/quick-filters.md)
+      + [순차적 세그먼트](../components/filters/seg-sequential-build.md)
+      + [세그먼트 공유](../components/filters/filters-share.md)
+      + [세그먼트에 태그 지정](../components/filters/filters-tag.md)
+      + [세그먼트 목록 필터링](../components/filters/filters-filter.md)
+      + [세그먼트를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
+      + [세그먼트 승인](../components/filters/filters-approve.md)
+      + [세그먼트 복사](../components/filters/filters-copy.md)
+      + [세그먼트 관리](../components/filters/manage-filters.md)
       + [연산자](../components/filters/operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [개요](../components/calc-metrics/calc-metr-overview.md)
@@ -342,8 +342,8 @@ ht-degree: 85%
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [참여도 지표 빌드](../components/calc-metrics/cm-workflow/participation-metric.md)
-         + [필터링된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
-         + [필터 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
+         + [세분화된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [계산된 지표 필터링](../components/calc-metrics/cm-workflow/cm-filter.md)
          + [계산된 지표를 즐겨찾기로 표시](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [계산된 지표 복사](../components/calc-metrics/cm-workflow/cm-copy.md)

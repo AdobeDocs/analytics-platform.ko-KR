@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1454'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 * 여전히 [Analysis Workspace](/help/analysis-workspace/home.md)의 기능을 사용하여 데이터를 분석할 수 있습니다. 작업 영역은 기존 Adobe Analytics에서와 동일하게 작동합니다.
 * 동일한 버전의 [Adobe Analytics 대시보드](/help/mobile-app/home.md)는 사용할 수 있으며, Customer Journey Analytics와 Adobe Analytics 간에 유사하게 작동합니다.
-* [Report Builder](/help/report-builder/report-buider-overview.md)에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. (이 버전의 Report Builder 전에는 VMware에서 실행하지 않으면 Mac에서 를 사용할 수 없었습니다.) 이 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
+* [Report Builder](/help/report-builder/report-buider-overview.md)에는 새로운 인터페이스가 있고 MS Windows, MacOS 및 Excel 웹 버전에서 실행됩니다. 이전 버전의 Report Builder에서는 VMware를 사용하지 않으면 Mac에서 실행할 수 없었습니다. 이번 버전은 아직 기존 AA 데이터 요청을 지원하지 않습니다.
 
 ## 보고 변경 사항
 
@@ -78,7 +78,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)를 참조하십시오.
 
-아직 공유하거나 게시할 수 없는 상태입니다 [!UICONTROL 필터] ([!UICONTROL 세그먼트])에서) [!DNL Customer Journey Analytics] 통합 프로필을 Experience Platform하려면 이 기능은 개발 중입니다.
+[!DNL Customer Journey Analytics]의 [!UICONTROL 세그먼트]&#x200B;([!UICONTROL 세그먼트])를 Experience Platform 통합 프로필에 아직 공유하거나 게시할 수 없지만 이 기능은 개발 중입니다.
 
 세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
 
@@ -88,12 +88,12 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## 계산된 지표의 개념 변경
 
-계산된 지표는 Adobe Analytics와 Customer Journey Analytics 간에 유사하게 이름이 지정됩니다. 단, [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, Prop 또는 이벤트를 사용하지 않고 대신 Experience Platform 스키마 요소를 사용합니다. 이 기본 변경 사항은 기존의 계산된 지표 중 어느 것도 [!UICONTROL Customer Journey Analytics]과(와) 호환되지 않음을 의미합니다.
+계산된 지표는 Adobe Analytics와 Customer Journey Analytics 간에 유사하게 이름이 지정됩니다. 단, [!UICONTROL Customer Journey Analytics]는 더 이상 eVar, Prop 또는 이벤트를 사용하지 않고 대신 Experience Platform 스키마 요소를 사용합니다. 이 기본 변경 사항은 기존의 계산된 지표 중 어떤 것도 와 호환되지 않음을 의미합니다 [!UICONTROL Customer Journey Analytics].
 
 
 >[!BEGINSHADEBOX]
 
-계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics으로 계산된 지표 이동](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}을 참조하십시오.
+계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics로 이동](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 [!UICONTROL Customer Journey Analytics] 보고서 시간에 속성 및 만료를 포함한 모든 변수 설정을 적용합니다. 이제 이러한 설정이 [데이터 보기](/help/data-views/component-settings/persistence.md)및 일부 변수 설정(예: 속성)은 작업 영역 프로젝트에서 변경할 수 있습니다.
 
-동일한 데이터 보기에 동일한 변수의 여러 버전이 있을 수 있습니다. 예를 들어 30일 후에 만료되는 추적 코드 차원 하나와 세션 종료 시 만료되는 추적 코드 차원이 있을 수 있습니다. 이러한 추적 코드 차원은 모두 동일한 소스 데이터를 사용하지만, 다른 속성 설정을 사용합니다.
+동일한 데이터 보기에 동일한 변수의 여러 버전이 있을 수 있습니다. 예를 들어 30일 후에 만료되는 추적 코드 차원 하나와 세션 종료 시 만료되는 추적 코드 차원이 있을 수 있습니다. 이러한 추적 코드 차원은 모두 동일한 소스 데이터를 사용하지만 다른 속성 설정을 사용합니다.
 
 동일한 연결을 기반으로 여러 데이터 보기를 가질 수도 있습니다. 예를 들어 세션 시간 제한이 30분이고, 세션 시간 제한이 15분인 데이터 보기가 한 개 있을 수 있습니다. 두 데이터 보기는 오른쪽 위의 선택기에 표시되므로 두 보기 간에 원활하게 전환할 수 있습니다.
 
@@ -115,12 +115,12 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## Adobe가 방문자를 식별하는 방법 변경
 
-Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오
+Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
