@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 28a0abd3415a167e6dd3de3b77bd49b78fc003cd
+source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 48%
+source-wordcount: '855'
+ht-degree: 44%
 
 ---
 
@@ -43,15 +43,15 @@ ht-degree: 48%
 
 ## 작동 방식
 
-콘텐츠 분석은 Experience Platform의 이벤트 데이터 세트에서 수집된 웹 이미지 보기 데이터를 사용합니다. 이러한 데이터는 Experience Platform Edge Network(Web SDK, 서버 API) 또는 Analytics 소스 커넥터와 같은 다양한 방법을 통해 수집될 수 있습니다.
+Content Analytics은 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 또한 해당 콘텐츠 데이터 수집을 행동 데이터의 (기존) 데이터 수집 구현과 결합합니다.
 
 ![콘텐츠 분석 - 작동 방식](assets/aca-overview.gif)
-
 
 1. 사용자가 Content Analytics에 대해 구성된 [사이트](config/configuration.md)를 방문하면 Experience Platform Web SDK은 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
 1. ID 및 기능 서비스는 이러한 상호 작용을 처리합니다. 이 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 이렇게 검색된 모든 URL에 대해 ID 서비스는 경험 및 에셋을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험과 에셋 메타데이터 및 속성을 검색합니다.
 1. 이러한 서비스의 결과([구성 요소, 특성 및 ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 콘텐츠 분석 데이터 세트를 업데이트하는 데 사용됩니다.
 1. 컨텐츠 분석 데이터는 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 사용할 수 있습니다. 해당 설정은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 제공하는 기반을 제공합니다. <br/>[Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 Content Analytics 보고서 및 분석을 바로 시작할 수 있습니다.
+
 
 >[!NOTE]
 >

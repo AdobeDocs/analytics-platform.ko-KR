@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
+source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -34,10 +34,13 @@ ht-degree: 1%
 
 ## 기능
 
+Content Analytics을 사용하려면 Experience Platform Edge Network 웹 SDK이 컨텐츠 이벤트 데이터를 수집해야 합니다. 해당 이벤트 데이터 수집은 Experience Platform Edge Network(웹 SDK, 서버 API) 또는 Analytics 소스 커넥터(예: AppMeasurement 사용)와 같은 메커니즘을 통해 행동 이벤트 데이터의 (기존) 데이터 수집과 결합됩니다.
+
 Content Analytics 라이브러리는 다음과 같은 경우에 데이터를 수집합니다.
 
 * Content Analytics은 페이지에 로드되는 태그 라이브러리에 포함됩니다.
 * 페이지 URL은 포함된 Tags 라이브러리의 일부인 [Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}에 구성되어 있습니다.
+
 
 
 ## Content Analytics 이벤트
