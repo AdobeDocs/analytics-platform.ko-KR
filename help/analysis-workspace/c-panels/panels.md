@@ -4,7 +4,7 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 97%
@@ -136,26 +136,26 @@ ht-degree: 97%
 
 패널 드롭 영역을 사용하면 패널 내의 모든 테이블 및 시각화에 세그먼트 및 드롭다운 세그먼트를 적용할 수 있습니다. 패널에 하나 이상의 세그먼트를 적용할 수 있습니다.
 
-### 필터
+### 세그먼트
 
-패널 세그먼트화를 시작하려면 왼쪽 패널에서 패널 드롭 영역으로 세그먼트를 끌어다 놓습니다. 패널에 세그먼트를 추가하려면 이 과정을 반복하십시오. 필터는 패널 상단에 나란히 표시됩니다.
+패널 세그먼트화를 시작하려면 왼쪽 패널에서 패널 드롭 영역으로 세그먼트를 끌어다 놓습니다. 패널에 세그먼트를 추가하려면 이 과정을 반복하십시오. 세그먼트는 패널 상단에 나란히 표시됩니다.
 
 ![왼쪽 패널에는 사용 가능한 지수와 패널 놓기 영역으로 드래그된 모바일 고객 지표가 표시됩니다.](assets/segment-filter.png)
 
 #### 빠른 세그먼트
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/filters/filter-builder.md)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 필터는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆의 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/filters/filter-builder.md)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆의 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
 
 
 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
 
 ![공개되어 놓기 영역에 드롭된 임시 세그먼트](assets/adhoc-segment-filter.png)
 
-### 드롭다운 필터
+### 드롭다운 세그먼트
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 필터](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 

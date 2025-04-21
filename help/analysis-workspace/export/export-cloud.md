@@ -5,10 +5,10 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: a7bd67894b02174d980a730086f89df97b524356
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2285'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -183,7 +183,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 다음 구성 요소는 지원되지 않으며, Analysis Workspace에서 전체 테이블 내보내기를 수행할 때 테이블에서 이러한 구성 요소를 제거하라는 메시지를 표시합니다.
 
 * 지표 정의에서 기본 또는 고급 함수를 사용하는 계산된 지표(자세한 내용은 [기본 함수](/help/components/calc-metrics/cm-functions.md) 및 [고급 함수](/help/components/calc-metrics/cm-adv-functions.md) 참조)
-* 관리자가 내보내기를 제한한 구성 요소(자세한 내용은 [레이블 및 정책](/help/data-views/data-governance.md)의 *데이터 보기에서 데이터 거버넌스 정책 필터링* 섹션 참조)
+* 관리자가 제한한 구성 요소의 내보내기 제한(자세한 내용은 [레이블 및 정책](/help/data-views/data-governance.md)의 *데이터 보기의 데이터 거버넌스 정책에 대한 세그먼트* 섹션 참조)
 * 다음 모든 기준을 충족하는 차원:
    * [오브젝트 배열](/help/use-cases/object-arrays.md)의 일부인 필드에서 생성(Adobe Analytics의 다중 값 변수와 유사)
    * [지속성 활성화](/help/data-views/component-settings/persistence.md)
@@ -197,7 +197,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
    * 계산된 지표
    * 지표
    * 날짜 범위
-   * 필터
+   * 세그먼트
 
 ### 속성 행동
 

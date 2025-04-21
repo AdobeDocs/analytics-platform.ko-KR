@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 1. ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 주요 지표 요약]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
-1. **[!UICONTROL 지표]**, **[!UICONTROL 기본 날짜 범위]**, **[!UICONTROL 비교 날짜 범위]**(선택 사항) 및 **[!UICONTROL 필터]**(선택 사항)를 선택하여 시각화를 구성합니다.
+1. **[!UICONTROL 지표]**, **[!UICONTROL 기본 날짜 범위]**, **[!UICONTROL 비교 날짜 범위]**(선택 사항) 및 **[!UICONTROL 세그먼트]**(선택 사항)를 선택하여 시각화를 구성합니다.
 
    ![지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트에 대한 옵션을 보여 주는 주요 지표 구성.](assets/key-metrics-config.png)
 
@@ -61,7 +61,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
    | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>데이터 보기에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 위치한 패널에서 사용 중인 날짜 범위와 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교하는 날짜 범위. |
-   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
+   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
 
    {style="table-layout:auto"}
 

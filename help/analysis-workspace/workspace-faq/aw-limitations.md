@@ -4,10 +4,10 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 79%
+source-wordcount: '313'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 ## 테이블
 
 * 날짜 범위 또는 지표를 테이블의 행으로 사용하는 경우 날짜 비교 열을 추가할 수 없습니다.
-* 필터가 테이블의 행으로 사용되는 경우 선택 내용에서 지표 만들기가 비활성화됩니다. 또한 선택 내용에서 지표 만들기는 날짜 정렬 열에는 적용하지 않아야 합니다.
+* 세그먼트가 테이블의 행으로 사용되는 경우 선택 내용에서 지표 생성이 비활성화됩니다. 또한 선택 내용에서 지표 생성은 날짜 정렬 열에는 적용하지 않아야 합니다.
 * 분류 행에 대한 조건부 서식은 사용자 정의 범위를 사용할 수 없습니다.
 * 행 값을 합하여 합계 계산 설정이 적용될 때(일반적으로 정적 행 항목과 함께 사용) 테이블 합계 행에는 트렌드를 표시할 수 없습니다.
 
@@ -28,10 +28,10 @@ ht-degree: 79%
 * [!UICONTROL 흐름]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 흐름에서 사용할 수 없습니다.
 * [!UICONTROL 코호트]: 정수가 아닌 항목은 코호트 기준으로 사용할 수 없습니다.
 
-## 필터
+## 세그먼트
 
 * 특정 지표 및 차원은 세그먼트화할 수 없습니다(예: [!UICONTROL 이벤트], [!UICONTROL 개인] 등).
-* [패널 드롭 영역](/help/analysis-workspace/c-panels/panels.md)에서 만든 임시 세그먼트는 빠른 세그먼트의 유형입니다. 공개하지 않으면 Workspace 또는 필터 구성 요소 관리자의 왼쪽 패널에 나타나지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
+* [패널 드롭 영역](/help/analysis-workspace/c-panels/panels.md)에서 만든 임시 세그먼트는 빠른 세그먼트의 유형입니다. 이러한 구성 요소는 공개하지 않으면 Workspace 또는 세그먼트 관리자의 왼쪽 패널에 표시되지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
 
 ## 계산된 지표
 

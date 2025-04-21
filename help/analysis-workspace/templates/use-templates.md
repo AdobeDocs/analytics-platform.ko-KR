@@ -4,7 +4,7 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '19662'
 ht-degree: 99%
@@ -67,7 +67,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
-   1. 필터 아이콘을 선택합니다.
+   1. 세그먼트 아이콘을 선택합니다.
 
    1. **[!UICONTROL 사용 준비 안됨]**&#x200B;을 선택하면 추가 구성 요소가 필요한 템플릿을 표시합니다.
 
@@ -106,7 +106,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 1. 다음 중 하나를 수행합니다.
 
    * 템플릿을 봅니다.
-   * 하나 이상의 필터를 상단의 필터 드롭 영역으로 드래그합니다. 예를 들어 필터 [!UICONTROL **모바일 고객**]&#x200B;을 드래그하여 결과를 봅니다.
+   * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그합니다. 예를 들어 [!UICONTROL **모바일 고객**]&#x200B;을 드래그하여 결과를 봅니다.
    * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경합니다.
    * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 필요에 맞게 템플릿을 사용자 정의합니다.
 

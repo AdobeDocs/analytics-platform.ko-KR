@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -70,7 +70,6 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
-* 이제 세그먼트를 &#39;필터&#39;라고 합니다.
 * 이제 가상 보고서 세트를 “데이터 보기”라고 합니다
 * 이제 분류를 &#39;조회 데이터 세트&#39;라고 합니다.
 * 이제 고객 속성을 &#39;프로필 데이터 세트&#39;라고 합니다.
