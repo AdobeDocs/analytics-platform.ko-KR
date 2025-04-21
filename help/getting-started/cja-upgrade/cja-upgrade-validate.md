@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics에 대한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
+title: Customer Journey Analytics를 위한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 41%
 
 {{upgrade-note-step}}
 
-연결이 활성 상태이고 데이터가 Customer Journey Analytics의 데이터 보기로 이동하고 있는지 확인할 수 있습니다.
+연결이 활성화되어 있고 데이터가 Customer Journey Analytics의 데이터 보기로 흐르고 있는지 확인할 수 있습니다.
 
 1. Customer Journey Analytics에서 연결 탭을 선택합니다.
 
    ![목록 보기](assets/list-view.png)
 
-1. 구성한 [연결을 선택하십시오](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. [구성한 연결](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)을 선택합니다.
 
-   ![위젯과 설정을 표시하는 모든 데이터 세트 창](assets/conn-details.png)
+   ![위젯과 설정을 보여 주는 모든 데이터 세트 창](assets/conn-details.png)
 
-1. 각 연결에 대해 사용 가능한 세부 정보에 대한 자세한 내용은 [연결 관리](/help/connections/manage-connections.md)의 [연결 세부 정보](/help/connections/manage-connections.md#manage-connections)를 참조하십시오.
+1. 각 연결에 대해 사용할 수 있는 세부 정보에 대한 내용은 [연결 관리](/help/connections/manage-connections.md#manage-connections)의 [연결 세부 정보](/help/connections/manage-connections.md)를 참조하십시오.
 
 {{upgrade-final-step}}
 

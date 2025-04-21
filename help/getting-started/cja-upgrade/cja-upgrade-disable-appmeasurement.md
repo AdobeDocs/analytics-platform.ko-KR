@@ -1,6 +1,6 @@
 ---
 title: 연결에 Analytics 소스 커넥터 데이터 세트 추가
-description: Analytics 소스 커넥터 데이터 세트를 연결에 추가하는 방법을 알아봅니다
+description: 연결에 Analytics 소스 커넥터 데이터 세트 추가 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 60%
 
 Adobe Analytics을 사용하지 않도록 설정하기 전에 [Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 사용하지 않도록 설정할 시기 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)의 정보를 검토하십시오.
 
-* **태그:** Adobe Analytics 확장 사용 안 함
+* **태그:** Adobe Analytics 확장 기능 비활성화
 
-* **AppMeasurement:** AppMeasurement.js 라이브러리 s=newobject 바꾸기
+* **AppMeasurment:** AppMeasurement.js 라이브러리를 s=newobject로 교체
 
 >[!NOTE]
 >

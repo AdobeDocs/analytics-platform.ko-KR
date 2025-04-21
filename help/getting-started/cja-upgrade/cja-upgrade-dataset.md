@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics에 대한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
+title: Customer Journey Analytics를 위한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 60%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-데이터 집합은 Adobe Experience Platform에 수집하는 데이터를 저장하고 관리하는 구조입니다.
+데이터 세트는 Adobe Experience Platform에 수집한 데이터를 저장하고 관리하는 구성 요소입니다.
 
-데이터 세트를 만들려면 다음 작업을 수행하십시오.
+데이터 세트를 만드는 방법:
 
-1. Adobe Experience Platform의 왼쪽 레일에서 [!UICONTROL 데이터 관리] 내의 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
+1. 왼쪽 레일의 Adobe Experience Platform에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 데이터 세트 만들기]**&#x200B;를 선택합니다.
 
@@ -59,6 +59,6 @@ ht-degree: 60%
 
    ![프로필용으로 스키마 활성화](assets/aepwebsdk-dataset-profile.png)
 
-   데이터 집합을 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 집합 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하세요. 실시간 고객 프로필에 대한 데이터 세트를 활성화하는 방법도 배울 수 있습니다.
+   데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 가이드](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법도 배울 수 있습니다.
 
 {{upgrade-final-step}}

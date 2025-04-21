@@ -7,7 +7,7 @@ role: User
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대한 [히스토그램](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하세요.__
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 히스토그램 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
-![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷팅하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
+![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
 
 ## 사용
 
 히스토그램을 만드는 방법:
 
-1. ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
+1. ![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나, [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
 1. (옵션) **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다. [고급 설정](#advanced-settings)을 확인합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.

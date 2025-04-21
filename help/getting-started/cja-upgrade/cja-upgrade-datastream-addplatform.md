@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics에 대한 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로에 대해 알아봅니다
+title: Customer Journey Analytics를 위한 스키마 만들기
+description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,11 +8,11 @@ exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
-# 데이터스트림에 서비스로 플랫폼 추가 {#upgrade-addplatform-datastream}
+# 데이터스트림에 서비스로 Platform 추가 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,17 +27,17 @@ ht-degree: 55%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-이 섹션의 단계를 완료하기 전에 데이터 스트림이 이미 있어야 합니다. 데이터 스트림이 생성된 시기와 방법은 다음과 같이 Adobe Analytics 구현에 따라 다릅니다.
+이 섹션의 단계를 완료하기 전에 이미 데이터스트림이 존재해야 합니다. 데이터스트림이 생성된 시기와 방법은 다음과 같이 Adobe Analytics 구현에 따라 달라집니다.
 
-* Adobe Analytics 구현에서 웹 SDK 또는 웹 SDK 확장을 사용하는 경우 업그레이드 프로세스 전에 Adobe Analytics 환경에서 데이터 스트림을 사용할 수 있었습니다.
+* Adobe Analytics 구현에서 Web SDK 또는 Web SDK 확장 기능을 사용하는 경우, 데이터스트림은 업그레이드 프로세스 이전에 Adobe Analytics 환경에서 사용할 수 있었습니다.
 
-* 다른 Adobe Analytics 구현의 경우 [Customer Journey Analytics에서 사용할 데이터 스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)에 설명된 대로 데이터 스트림을 만드는 것은 업그레이드 프로세스의 일부입니다.
+* 다른 Adobe Analytics 구현의 경우, [Customer Journey Analytics에 사용할 데이터스트림 만들기](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)에 설명된 대로 데이터스트림 만들기는 업그레이드 프로세스의 일부입니다.
 
-데이터 스트림을 사용할 수 있는 경우 Platform as a Service를 추가해야 합니다.
+데이터스트림을 사용할 수 있으므로 Platform as a Service를 추가해야 합니다.
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 수집]의 **[!UICONTROL 데이터스트림]**&#x200B;을 선택합니다.
 
-1. 이전에 구성한 데이터 스트림을 선택합니다. <!--true?-->
+1. 이전에 구성된 데이터스트림을 선택합니다. <!--true?-->
 
 1. **[!UICONTROL 서비스 추가]**&#x200B;를 선택합니다.
 

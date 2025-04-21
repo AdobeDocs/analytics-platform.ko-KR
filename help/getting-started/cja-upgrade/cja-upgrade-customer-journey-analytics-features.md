@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics의 고유한 기능 이해
-description: Customer Journey Analytics의 고유한 기능에 대해 알아보기
+description: Customer Journey Analytics의 고유한 기능 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 57%
+ht-degree: 78%
 
 ---
 
@@ -79,15 +79,15 @@ ht-degree: 57%
 
 {{upgrade-note}}
 
-다음 목록은 업그레이드 프로세스 중에 고려해야 하는 Customer Journey Analytics 기능만 보여 줍니다. Customer Journey Analytics에서 완전히 지원되거나, 부분적으로 지원되거나, 지원되지 않는 Adobe Analytics 기능을 보여 주는 포괄적인 목록을 보려면 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
+다음 목록은 업그레이드 프로세스 중에 고려해야 할 Customer Journey Analytics 기능만 보여 줍니다. Customer Journey Analytics에서 전체적으로 지원되는 Adobe Analytics 기능, 부분적으로 지원되는 기능 또는 지원되지 않는 기능을 보여 주는 포괄적인 목록을 확인하려면 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 참조하십시오.
 
-Customer Journey Analytics으로 업그레이드할 때 다음 Customer Journey Analytics 기능 중 채택할 기능을 고려하십시오.
+Customer Journey Analytics로 업그레이드할 때 다음 중 어떤 Customer Journey Analytics 기능을 도입할지 고려합니다.
 
 | Customer Journey Analytics 기능 | 함수 |
 |---------|----------|
-| [웹 데이터를 콜 센터 데이터와 같은 다른 채널의 데이터와 연결](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
-| [사용자 지정 차원을 사용하여 다른 데이터 세트의 히트를 연결합니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
+| [콜센터 데이터 등 다른 채널의 데이터와 웹 데이터 연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/docs/analytics/import/home.html) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
+| [사용자 정의 차원을 사용하여 다른 데이터 세트에서 히트 결합](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | [Adobe Real-time CDP와 통합](/help/components/audiences/audiences-overview.md) | 고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 검색된 대상을 [만들어 Adobe Experience Platform의 실시간 고객 프로필에 게시](/help/components/audiences/audiences-overview.md)할 수 있습니다. |
 | [Adobe Target(A4T)와 통합](/help/integrations/at.md) | Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 [Adobe Target 활동을 측정하고 보고](/help/integrations/at.md)할 수 있습니다. 그러나 Adobe에서는 개인화 사용 사례를 위해 Adobe Journey Optimizer과 통합하는 것이 좋습니다. |
-| [Adobe Journey Optimizer과 통합](/help/integrations/ajo.md) | Journey Optimizer에서 생성된 데이터를 구성하여 [Customer Journey Analytics에서 고급 분석을 수행](/help/integrations/ajo.md)할 수 있습니다. |
+| [Adobe Journey Optimizer와 통합](/help/integrations/ajo.md) | Journey Optimizer에서 생성된 데이터를 구성하여 [Customer Journey Analytics에서 고급 분석을 수행](/help/integrations/ajo.md)할 수 있습니다. |
 | [Adobe Audience Manager과 통합](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing) | [Audience Manager 트레이트 및 세그먼트를 Adobe Experience Platform에 공유](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing)할 수 있습니다. 그러나 Adobe에서는 대상 기반 사용 사례를 위해 Adobe Real-time CDP와 통합하는 것이 좋습니다. |

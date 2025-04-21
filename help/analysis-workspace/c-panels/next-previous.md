@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 다음 또는 이전 항목 패널을 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대해 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하세요._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 다음 또는 이전 항목 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +81,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 | --- | --- |
 | **[!UICONTROL 가로 막대]** | 선택한 차원 항목에 따라 다음 (또는 이전) 항목을 나열합니다. 개별 막대에 마우스를 가져다 대면 자유 형식 테이블에서 해당 항목이 강조 표시됩니다. |
 | **[!UICONTROL 요약 숫자]** | 현재 달 동안(지금까지)의 모든 다음 또는 이전 차원 항목 발생 횟수를 요약한 상위 수준 숫자입니다. |
-| **[!UICONTROL 자유 형식 테이블]** | 선택한 차원 항목을 기준으로 다음 (또는 이전) 항목을 테이블 형식으로 나열합니다. 예를 들어 사람들이 홈 페이지나 작업 공간 페이지 다음 (또는 그 이전)으로 가장 방문한 페이지들이었습니다. |
+| **[!UICONTROL 자유 형식 테이블]** | 선택한 차원 항목을 기준으로 다음 (또는 이전) 항목을 테이블 형식으로 나열합니다. 예를 들어 사람들이 홈 페이지나 작업 영역 페이지 다음(또는 그 이전)으로 가장 방문 빈도가 높은 페이지들이었습니다. |
 
 {style="table-layout:auto"}
 

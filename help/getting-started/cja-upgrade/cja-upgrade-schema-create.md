@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics에 대한 사용자 지정 스키마 만들기
-description: Customer Journey Analytics에 대한 사용자 지정 스키마를 만드는 방법 알아보기
+title: Customer Journey Analytics를 위한 사용자 정의 스키마 만들기
+description: Customer Journey Analytics를 위한 사용자 정의 스키마를 만드는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -45,50 +45,50 @@ ht-degree: 54%
 
 >[!IMPORTANT]
 >
->사용자 정의 스키마를 생성하기 전에 조직 내의 데이터 팀 및 기타 관련자와 협력하여 Customer Journey Analytics 및 사용하는 기타 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 식별하십시오. 자세한 내용은 [Customer Journey Analytics에서 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
+>사용자 정의 스키마를 만들기 전에 조직 전반의 데이터 팀 및 기타 이해 관계자와 협력하여 Customer Journey Analytics 및 사용 중인 다른 Adobe Experience Platform 애플리케이션에 대한 조직의 이상적인 스키마 디자인을 확인합니다. 자세한 내용은 [Customer Journey Analytics에 사용할 스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)를 참조하십시오.
 
-다음 섹션에서는 Customer Journey Analytics에서 사용할 수 있는 스키마를 만드는 방법을 설명합니다. 다음 스키마 옵션을 사용할 수 있습니다.
+다음 섹션에서는 Customer Journey Analytics와 함께 사용할 수 있는 스키마를 만드는 방법을 설명합니다. 다음 스키마 옵션을 사용할 수 있습니다.
 
-* **사용자 지정 XDM 스키마:**(권장) 조직의 요구 사항과 사용하는 특정 Platform 응용 프로그램에 맞게 조정된 간소화된 스키마를 허용합니다. 향후 필요한 모든 변경 사항은 간단합니다.
+* **사용자 정의 XDM 스키마:** (권장) 조직의 요구 사항과 사용하는 특정 Platform 애플리케이션에 맞게 간소화된 스키마를 제공합니다. 필요한 향후 변경 사항은 간단합니다.
 
-* **Adobe Analytics ExperienceEvent 필드 그룹을 사용하는 Adobe Analytics 스키마:** 불필요한 필드 수천 개를 추가해야 합니다. 앞으로 필요한 모든 변화는 더 어렵습니다.
+* **Adobe Analytics ExperienceEvent 필드 그룹을 사용하는 Adobe Analytics 스키마:** 수천 개의 불필요한 필드를 추가해야 합니다. 필요한 향후 변경 사항은 더 어렵습니다.
 
-이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics에 대한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
+이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics를 위한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
 
 ## 스키마 만들기
 
-웹 SDK 구현에 대해 정의하는 사용자 지정 스키마는 Adobe Experience Platform에 수집하는 데이터의 모델을 나타냅니다.
+Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experience Platform에 수집하는 데이터 모델을 나타냅니다.
 
-사용자 지정 스키마를 만들려면:
+사용자 정의 스키마를 만드는 방법:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-1. Adobe Experience Platform의 왼쪽 레일에서 [!UICONTROL 데이터 관리] 내의 **[!UICONTROL 스키마]**&#x200B;을(를) 선택합니다.
+1. Adobe Experience Platform의 왼쪽 레일에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
-1. 스키마 만들기 마법사의 **[!UICONTROL 클래스 선택]** 단계에서 다음을 수행합니다.
+1. 스키마 만들기 마법사의 **[!UICONTROL 클래스 선택]** 단계:
 
-   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL 경험 이벤트]**&#x200B;를 참석합니다.
 
-      ![경험 이벤트를 강조 표시하는 스키마 만들기](assets/create-ee-schema-wizard-step-1.png)
+      ![경험 이벤트를 강조한 스키마 만들기](assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    경험 이벤트 스키마를 사용하여 프로필의 _비헤이비어_&#x200B;을(를) 모델링합니다(예: 장면 이름, 장바구니에 추가할 푸시 단추). 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
+      >    경험 이벤트 스키마는 프로필의 _비헤이비어_(예: 장면 이름, 장바구니에 추가 푸시 버튼)를 모델링하는 데 사용됩니다. 개별 프로필 스키마는 프로필 _속성_(예: 이름, 이메일, 성별)을 모델링하는 데 사용됩니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]에서:
+1. [!UICONTROL 스키마 만들기] 마법사의 [!UICONTROL 이름 및 검토 단계]:
 
-   1. 스키마에 대한 **[!UICONTROL 스키마 표시 이름]**&#x200B;과(와) **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
+   1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
-      ![스키마 필드 이름을 표시하는 스키마 만들기 창](assets/create-ee-schema-wizard-step-2.png)
+      ![스키마 필드 이름을 표시하는 스키마 창 만들기](assets/create-ee-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
-1. 스키마에 포함할 필드를 포함하는 모든 필드 그룹을 추가합니다.
+1. 스키마에 포함하려는 필드가 들어 있는 모든 필드 그룹을 추가합니다.
 
    필드 그룹은 손쉽게 스키마를 확장할 수 있는 재사용 가능한 오브젝트 및 속성의 컬렉션입니다.
 
@@ -106,15 +106,15 @@ ht-degree: 54%
 
       **[!UICONTROL 뒤로]**&#x200B;를 선택하여 미리보기를 닫습니다.
 
-   1. (선택 사항) 포함할 추가 필드 그룹을 선택합니다.
+   1. (선택 사항) 포함하려는 추가 필드 그룹을 선택합니다.
 
-      사용자 지정 XDM 스키마를 만들지 않고 기본 Adobe Analytics 스키마를 사용하도록 선택한 경우 이제 Adobe Analytics ExperienceEvent 필드 그룹을 추가할 수 있습니다. 그러나 Adobe에서는 이 필드 그룹을 추가하는 것보다 사용자 지정 XDM 스키마를 만드는 것이 좋습니다.
+      사용자 정의 XDM 스키마를 만드는 대신 기본 Adobe Analytics 스키마를 사용하도록 선택한 경우 지금 Adobe Analytics ExperienceEvent 필드 그룹을 추가할 수 있습니다. 하지만 Adobe에서는 이 필드 그룹을 추가하는 대신 사용자 정의 XDM 스키마를 만드는 것을 권장합니다.
 
-      이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics에 대한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
+      이러한 스키마 옵션에 대한 자세한 내용은 [Customer Journey Analytics를 위한 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하십시오.
 
    1. **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
-1. (선택 사항) 스키마에 포함할 사용자 정의 필드가 있는 경우 사용자 정의 필드 그룹을 만들고 사용자 정의 필드를 필드 그룹에 추가합니다.
+1. (선택 사항) 스키마에 포함하려는 사용자 정의 필드가 있는 경우 사용자 정의 필드 그룹을 만들고 필드 그룹에 사용자 정의 필드를 추가합니다.
 
    1. **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
@@ -122,7 +122,7 @@ ht-degree: 54%
 
    1. [!UICONTROL 필드 그룹 추가] 대화 상자에서 **[!UICONTROL 새 필드 그룹 만들기]**&#x200B;를 선택합니다.
 
-   1. 표시 이름과 선택적 설명을 지정한 다음 **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
+   1. 표시 이름과 설명(선택 사항)을 지정한 다음 **[!UICONTROL 필드 그룹 추가]**&#x200B;를 선택합니다.
 
 1. [!UICONTROL 구조] 패널의 스키마 이름 옆에 있는 **[!UICONTROL +]**&#x200B;를 선택합니다.
 
@@ -132,11 +132,11 @@ ht-degree: 54%
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 필드 그룹에 [새 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) [새 ID 필드를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)&#x200B;(`ecid`, `crmId` 및 필요한 기타 필드)하여 해당 새 필드 그룹을 선택하십시오.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](assets/identification-field.png)
 
-   ID 개체는 스키마에 ID 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트를 방문하는 프로필을 식별하려고 합니다. 개인의 ID를 추적하는 데 사용할 수 있는 다른 많은 속성(예: 고객 ID, 충성도 ID)이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 이 경우 Experience Cloud ID 및 이메일 주소를 사용하여 사이트 방문 프로필을 식별하려고 합니다. 방문자 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다(예: 고객 ID, 로열티 ID).
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -158,7 +158,7 @@ ht-degree: 54%
 
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-1. (선택 사항) Customer Journey Analytics을 RTCDP와 통합하려면 스키마 이름을 표시하는 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
+1. (선택 사항) Customer Journey Analytics를 RTCDP와 통합하려면 스키마 이름이 표시된 스키마의 루트 요소를 선택한 다음 **[!UICONTROL 프로필]** 스위치를 선택합니다.
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
@@ -166,7 +166,7 @@ ht-degree: 54%
 
    >[!IMPORTANT]
    >
-   >프로필에 대해 스키마를 활성화한 후에는 프로필에 대해 비활성화할 수 없습니다.
+   >프로필에 스키마를 활성화한 후에는 프로필에 대해 비활성화할 수 없습니다.
 
    ![프로필용으로 스키마 활성화](./assets/enable-for-profile.png)
 
@@ -176,7 +176,7 @@ ht-degree: 54%
 
    비헤이비어 데이터 옆에서 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
 
-   이 프로필 데이터를 캡처하려면 다음 작업을 수행합니다.
+   이 프로필 데이터를 캡처하려면 다음 작업을 수행하십시오.
 
    * XDM 개별 프로필 클래스를 기반으로 스키마를 만듭니다.
 
@@ -184,7 +184,7 @@ ht-degree: 54%
 
    * 프로필 코어 v2 필드 그룹을 기반으로 식별 오브젝트를 추가합니다.
 
-   * Experience Cloud ID를 기본 식별자로 정의하고 이메일을 식별자로 정의합니다.
+   * Experience Cloud ID를 기본 식별자로, 이메일을 식별자로 정의합니다.
 
    * 프로필용으로 스키마 활성화
 
