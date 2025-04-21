@@ -1,13 +1,13 @@
 ---
-description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터 세트를 나타냅니다.
+description: 라인 시각화를 사용하여 트렌드 (시간 기반) 데이터 세트를 나타냅니다.
 title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
 source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에서 선 시각화를 설명합니다._<br/>_이 문서의 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**버전에 대한 [줄](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하세요.__
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ _이 문서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 세부 기간]** | 세부 기간 드롭다운에서 일별, 주별, 월별로 트렌드 시각화를 변경합니다. 세부 기간은 데이터 소스 테이블에서도 업데이트됩니다. |
+| **[!UICONTROL 세부 기간]** | 세부 기간 드롭다운에서 일별, 주별, 월별로 트렌드 시각화를 변경합니다. 세부기간은 데이터 소스 테이블에서도 업데이트됩니다. |
 | **[!UICONTROL 최소 표시]** <br/>**[!UICONTROL 최대 표시&#x200B;]** | 최소값과 최대값 레이블을 오버레이하여 지표의 최소값과 최대값을 강조할 수 있습니다. 최소/최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다.<br/>![최소 및 최대값 레이블이 있는 오버레이.](assets/min-max-labels.png) |
 | **[!UICONTROL 트렌드 라인 표시]** | 회귀 또는 이동 평균 트렌드 라인을 라인 시리즈에 추가하도록 선택할 수 있습니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. 선택하면 목록에서 모델을 선택합니다. 사용 가능한 모델에 대한 개요와 설명은 [모델](#models)에서 확인하십시오.<br/>![선형 트렌드 라인](assets/show-linear-trendline.png). |
 

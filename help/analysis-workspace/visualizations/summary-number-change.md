@@ -1,55 +1,55 @@
 ---
-description: 요약 번호 및 요약 변경 시각화를 사용하여 프로젝트의 중요한 데이터 포인트를 표시할 수 있습니다.
-title: 요약 번호 및 요약 변경 사항
+description: 요약 숫자 및 요약 변경 시각화를 사용하여 프로젝트의 중요 데이터 포인트를 표시할 수 있습니다.
+title: 요약 숫자 및 요약 변경
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# 요약 번호 및 요약 변경 사항
+# 요약 숫자 및 요약 변경
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하세요._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 숫자와 요약 변경 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [요약 숫자 및 요약 변경](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 번호 및 요약 변경 시각화](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 숫자 및 요약 변경 시각화](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
-## 요약 번호 {#summary-number}
+## 요약 숫자 {#summary-number}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_summarynumber_button"
->title="요약 번호"
+>title="요약 숫자"
 >abstract="총계와 소계를 보여 주는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
-프로젝트에서 중요한 큰 숫자를 강조 표시하려면 ![요약](/help/assets/icons/123.svg) **[!UICONTROL 요약 번호]** 시각화를 사용하십시오. 이 시각화는 관련 데이터 소스를 사용하여 다음과 같은 방식으로 동작합니다.
+프로젝트에서 중요한 큰 숫자를 강조 표시하려면 ![요약](/help/assets/icons/123.svg) **[!UICONTROL 요약 숫자]** 시각화를 사용하십시오. 이 시각화는 연관된 데이터 소스를 사용하여 다음과 같은 방식으로 작동합니다.
 
 * 셀을 선택하지 않은 경우 열의 합계를 선택합니다.
 * 단일 셀을 선택하면 해당 셀의 요약이 표시됩니다.
 * 두 개 이상의 셀을 선택하면 선택한 첫 번째 셀이 표시됩니다.
 * 열을 선택하면 열의 첫 번째 셀 값이 선택됩니다.
 
-![요약 번호 시각화](asses/../assets/summary-number.png)
+![요약 숫자 시각화](asses/../assets/summary-number.png)
 
-시각화 설정의 일부로, 특정 요약 번호 옵션을 사용할 수 있습니다.
+시각화 설정의 일부로 특정 요약 숫자 옵션을 이용할 수 있습니다.
 
 | 옵션 | 정의 |
 |--- |--- |
-| **[!UICONTROL 값 생략]** | **[!UICONTROL 값 생략]**&#x200B;을 선택하여 숫자 값을 지능적으로 축약합니다. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어 값**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td  align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `0`(으)로 설정됨</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td> 선택됨, `1`(으)로 설정됨</td><td  align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `2`(으)로 설정됨</td><td align="right">1,201만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `3`(으)로 설정됨</td><td align="right">1,201.1만달러</td></tr></table> |
+| **[!UICONTROL 값 생략]** | 숫자 값을 지능적으로 축약하도록 **[!UICONTROL 값 생략]**&#x200B;을 선택합니다. 선택하면 숫자를 입력하여 축약 수를 정의합니다. 예:<br/><table><tr><td>**원래 값**</td><td>**축약 값**</td><td>**결과**</td></tr><tr><td>$12,011,141.25</td><td>선택되지 않음</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `0`으로 설정</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> 선택된 경우, `1`로 설정</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `2`로 설정</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `3`으로 설정</td><td align="right">$12.011M</td></tr></table> |
 | **[!UICONTROL 다음을 기준으로 값 요약]** | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
 
 ## 요약 변경 {#summary-change}
@@ -80,20 +80,20 @@ The green and red color of the Summary Change can be controlled through [custom 
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
 
 
-![두 숫자 간의 델타를 보여 주는 요약 변경 시각화](assets/summary-change.png)
+![두 숫자 사이의 델타를 보여 주는 요약 변경 시각화.](assets/summary-change.png)
 
 
-시각화 설정의 일부로 **[!UICONTROL 요약 변경 옵션]**&#x200B;을 사용할 수 있습니다.
+시각화 설정의 일부로 특정 **[!UICONTROL 요약 변경 옵션]**&#x200B;을 이용할 수 있습니다.
 
 | 옵션 | 정의 |
 |--- |--- |
 | **[!UICONTROL 백분율 변경 표시]** | 두 숫자 사이의 퍼센트 변화량을 표시합니다. |
-| **[!UICONTROL 원시 차이 표시]** | 두 숫자 간의 원시 차이를 표시합니다. 이 옵션을 사용하여 값들을 축약하고 소수점 이하 최대 3자리를 표시할 수도 있습니다. |
-| **[!UICONTROL 값 생략]** | 변경된 값을 지능적으로 축약하려면 **[!UICONTROL 값 축약]**&#x200B;을 선택하십시오. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어 값**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td  align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `0`(으)로 설정됨</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td> 선택됨, `1`(으)로 설정됨</td><td  align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `2`(으)로 설정됨</td><td align="right">1,201만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `3`(으)로 설정됨</td><td align="right">1,201.1만달러</td></tr></table> |
+| **[!UICONTROL 원시 차이 표시]** | 두 숫자 사이의 원시 차이를 표시합니다. 이 옵션을 사용하여 값들을 축약하고 소수점 이하 최대 3자리를 표시할 수도 있습니다. |
+| **[!UICONTROL 값 생략]** | 변경된 값을 지능적으로 축약하도록 **[!UICONTROL 값 생략]**&#x200B;을 선택합니다. 선택하면 숫자를 입력하여 축약 수를 정의합니다. 예:<br/><table><tr><td>**원래 값**</td><td>**축약 값**</td><td>**결과**</td></tr><tr><td>$12,011,141.25</td><td>선택되지 않음</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `0`으로 설정</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> 선택된 경우, `1`로 설정</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `2`로 설정</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, `3`로 설정</td><td align="right">$12.011M</td></tr></table> |
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

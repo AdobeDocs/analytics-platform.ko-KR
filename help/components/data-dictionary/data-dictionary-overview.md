@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace용 데이터 사전](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -68,7 +68,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 * Analysis Workspace에서 직접 구성 요소 설명을 업데이트합니다. 데이터 사전의 구성 요소 설명에 대한 모든 업데이트는 데이터 보기에 반영됩니다.
 
-  마찬가지로 데이터 보기의 구성 요소 설명에 대한 모든 업데이트가 Analysis Workspace에 반영됩니다.
+  마찬가지로 데이터 보기의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
 
   Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)를 참조하십시오.
 
@@ -76,20 +76,20 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액세스할 수 있습니다.
 
-왼쪽 패널의 ![데이터 사전 아이콘](assets/data-dictionary-access.png)
+![왼쪽 패널의 데이터 사전 아이콘](assets/data-dictionary-access.png)
 
-* 단추 패널의 ![책갈피](/help/assets/icons/Bookmark.svg)부터
+* 버튼 패널의 ![책갈피](/help/assets/icons/Bookmark.svg)에서.
 
 
 
-* 구성 요소 정보 팝오버 내의 ![책갈피](/help/assets/icons/Bookmark.svg)에서.
+* 구성 요소의 정보 팝오버 내의 ![책갈피](/help/assets/icons/Bookmark.svg)에서
 
 
 데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](/help/components/data-dictionary/view-data-dictionary.md)를 참조하십시오.
 
 ## 데이터 사전 업데이트 및 구성
 
-[데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 Customer Journey Analytics 관리자는 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다.
+Customer Journey Analytics 관리자는 [데이터 사전 상태 모니터링](/help/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 조직의 정상적인 데이터 사전의 유지 관리를 담당합니다.
 
 이 프로세스의 일부로 Customer Journey Analytics 관리자는 [데이터 사전의 구성 요소 항목 편집](/help/components/data-dictionary/edit-entries-data-dictionary.md)에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다.
 
