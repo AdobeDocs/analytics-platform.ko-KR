@@ -4,7 +4,7 @@ title: Analysis Workspace의 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -89,9 +89,9 @@ Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음을 수
 
 지표에 대한 자세한 내용은 [지표](/help/components/apply-create-metrics.md)를 참조하십시오.
 
-### 프로젝트에 필터 추가
+### 프로젝트에 세그먼트 추가
 
-[필터](/help/components/filters/filters-overview.md)를 사용하면 특성이나 특정 상호 작용에 따라 개인, 세션 또는 이벤트의 하위 집합을 식별할 수 있습니다.
+[세그먼트](/help/components/filters/filters-overview.md)를 사용하면 특성이나 특정 상호 작용에 따라 개인, 세션 또는 이벤트의 하위 집합을 식별할 수 있습니다.
 
 다음 방법 중 하나로 Analysis Workspace의 세그먼트를 사용할 수 있습니다.
 
@@ -103,7 +103,7 @@ Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음을 수
 자유 형식 테이블의 열에 세그먼트를 추가하면 해당 세그먼트는 테이블 열 내의 모든 컨텐츠에 적용됩니다. 폴아웃 시각화의 일부로 세그먼트를 추가할 수도 있습니다.
 
 * 구성 요소에서 세그먼트 사용
-[계산된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [주석](/help/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/filters/filter-builder.md)와 같은 구성 요소를 정의할 때 필터를 정의의 일부로 사용할 수 있습니다.
+[계산된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [주석](/help/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/filters/filter-builder.md)와 같은 구성 요소를 정의할 때 세그먼트를 정의의 일부로 사용할 수 있습니다.
 
 
 ### 프로젝트에 날짜 범위 추가

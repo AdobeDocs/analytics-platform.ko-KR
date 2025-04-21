@@ -2,8 +2,8 @@
 title: 제품 사용 개요
 description: 조직이 Customer Journey Analytics를 어떻게 활용하는지에 대한 인사이트와 보고서를 확인합니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
 * **[!UICONTROL 구성 요소 유형]**: 추가, 제거 또는 수정된 구성 요소의 유형. 차원 항목은 다음을 포함합니다.
    * [!UICONTROL 차원]
    * [!UICONTROL 지표]
-   * [!UICONTROL 필터]
+   * [!UICONTROL 세그먼트]
    * [!UICONTROL 계산된 지표]
    * [!UICONTROL 날짜 범위]
    * [!UICONTROL 주석]

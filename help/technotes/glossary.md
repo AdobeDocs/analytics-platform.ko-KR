@@ -5,7 +5,7 @@ exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 96%
@@ -22,7 +22,7 @@ ht-degree: 96%
 | 프로필 데이터 세트 | 고객 속성 | CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Adobe Experience Platform의 프로필 데이터 세트에 업로드할 수 있습니다. Customer Journey Analytics에서 해당 데이터 세트에 대한 연결을 만들고 데이터 보기를 만들면 Workspace에서 해당 데이터를 활용할 수 있습니다. |
 | Experience Cloud 조직 | 로그인 회사 | [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko-KR#topic_C31CB834F109465A82ED57FF0563B3F1)을 참조하십시오. |
 | 해당 사항 없음 | 보고서 세트 | 기존 Adobe Analytics의 보고서 세트가 더 이상 존재하지 않습니다. 대신 연결을 설정한 Platform 데이터 세트에서 (가상) [데이터 보기](/help/data-views/create-dataview.md)를 만듭니다. |
-| 세그먼트 | 세그먼트 | 이전에는 필터였던 세그먼트입니다. 이름이 &quot;segments&quot;로 변경되었습니다. |
+| 세그먼트 | 세그먼트 | 이전에는 &quot;필터&quot;로 사용되었던 세그먼트입니다. 이름이 &quot;segments&quot;로 변경되었습니다. |
 | 데이터 보기 | 가상 보고서 세트 | Adobe Analytics에서 가상 보고서 세트는 상위 보고서 세트의 필터가 적용된 보기입니다. 가상 보고서 세트와 Customer Journey Analytics의 데이터 보기 간의 주요 차이점은 가상 보고서 세트가 “기본” 또는 “상위” 보고서 세트의 하위 세트이며, 따라서 해당 설정의 일부를 상속한다는 것입니다. 상위/기본 보고서 세트가 더 이상 존재하지 않으므로 고유한 설정으로 데이터 보기를 정의합니다. |
 
 ## Adobe Experience Platform 용어

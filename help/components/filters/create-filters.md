@@ -4,7 +4,7 @@ description: 세그먼트 생성 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -23,8 +23,8 @@ Customer Journey Analytics에서 다양한 유형의 세그먼트를 만들 수 
 
 ![세그먼트를 만드는 방법](assets/create-filter.png)
 
-* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. [[!UICONTROL 필터] 관리자](/help/components/filters/manage-filters.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
-* **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **필터**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. [[!UICONTROL 세그먼트] 관리자](/help/components/filters/manage-filters.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
+* **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **세그먼트**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
 * **C**. Workspace 프로젝트의 시각화에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 세그먼트 만들기]**&#x200B;를 선택합니다.
 * **일**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트 만들기]**&#x200B;를 선택합니다.
 * **E**. Workspace 프로젝트에서 바로 가기 **[!UICONTROL shift+cmd+e]**(macOS) 또는 **[!UICONTROL shift+ctrl+e]**(Windows)을 사용합니다.

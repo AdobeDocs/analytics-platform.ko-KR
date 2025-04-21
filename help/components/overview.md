@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [세그먼트](filters/filters-overview.md): 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용합니다. 필터를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
+* [세그먼트](filters/filters-overview.md): 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 개인 하위 집합을 식별할 수 있습니다.
 * [계산된 지표](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [날짜 범위](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
 * [주석](/help/components/annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
@@ -84,7 +84,7 @@ Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하�
 
 2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원**(![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **필터**(![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다.<br/>Adobe 아이콘 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)은(는) 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
+   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)은 주황색이고, **세그먼트** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)은 파란색이고, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)은 녹색입니다.<br/>Adobe 아이콘 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)은(는) 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
 
 3. 드롭다운 목록에서 구성 요소를 선택합니다.
 

@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '4716'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -20,8 +20,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 4월** | |
-| 사용량 조회 및 관리 | [보기](/help/connections/manage-connections.md#usage) 및 [관리](/help/technotes/estimate-usage.md) Customer Journey Analytics 사용 방법에 대한 설명서를 다시 작성했습니다. |
-| 콘텐츠 분석 | Adobe Content Analytics용 [설명서](/help/content-analytics/content-analytics.md). Content Analytics을 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 찾고, 예외 항목을 찾아내고, 콘텐츠 피로를 식별하고, 콘텐츠 노출로 인한 통찰력을 얻을 수 있습니다. |
+| 사용 조회 및 관리 | Customer Journey Analytics 사용을 [조회](/help/connections/manage-connections.md#usage) 및 [관리](/help/technotes/estimate-usage.md)하는 방법에 대한 설명서가 다시 작성되었습니다. |
+| Content Analytics | Adobe Content Analytics에 대한 [설명서](/help/content-analytics/content-analytics.md)입니다. Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다. |
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | **2025년 2월** |  |
@@ -99,7 +99,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 예측 | 자유 형식 테이블 및 선 차트용으로 지원되는 시간 단위(시간별, 일별, 주별, 월별, 연간)를 사용하여 표준 또는 계산된 지표를 예측하는 새로운 Analysis Workspace 기능인 [예측](../analysis-workspace/c-forecast/forecasting.md)의 설명서를 추가했습니다. |
 | 전체 테이블을 내보낼 때 계정 및 위치 추가에 대한 설명서를 업데이트했습니다. | [Analysis Workspace에서 전체 테이블을 내보낼 경우](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) 새 계정 또는 위치를 구성할 때 사소한 인터페이스 업데이트를 반영하도록 설명서를 업데이트했습니다.<p>이제 새로운 [!UICONTROL **계정 추가**] 옵션을 [!UICONTROL **계정**] 드롭다운 메뉴에서 사용할 수 있습니다. 이전에는 [!UICONTROL **위치 이름**] 드롭다운 메뉴 옆의 버튼으로 사용할 수 있었던 [!UICONTROL **위치 추가**] 옵션을 이제 메뉴 자체에서 사용할 수 있습니다. |
 | Adobe Analytics에서 마이그레이션할 때 새로운 구성 요소 마이그레이션 정보 | Adobe Analytics 관리 안내서에서 문서화된 새로운 [구성 요소 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) 기능을 참조하는 [Adobe Analytics의 발전](/help/getting-started/aa-to-cja.md)에 정보를 추가했습니다. |
-| 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [필터 관리자](/help/components/filters/manage-filters.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
+| 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/filters/manage-filters.md)에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열에 대한 정보는 시스템 관리자만 사용할 수 있습니다. |
 | 데이터 세트 내보내기에 필요한 권한 | 데이터 세트를 클라우드 대상으로 내보내는 데 [필요한 권한](/help/technotes/access-control.md)을 설명하는 정보를 추가했습니다. |
 | 연결 관리 | 고객 피드백을 기반으로 [연결 관리](../connections/manage-connections.md) 문서를 업데이트했습니다. |
 | 파생 필드 | 함수 [제한](/help/data-views/derived-fields/derived-fields.md#limitations) 요약과 함수에 사용되는 [연산자](/help/data-views/derived-fields/derived-fields.md#operators) 수를 결정하는 방법에 대한 설명을 추가했습니다. |
@@ -120,7 +120,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 목표/대상 설정에 대한 파생 필드 사용 | 파생 필드를 사용하여 목표/대상을 설정하고 이를 보고하는 방법을 설명하는 [사용 사례](../use-cases/goals-using-derived-fields.md) 문서를 추가했습니다. |
 | 클라우드로 전체 테이블 내보내기 | 수백만 개의 Workspace 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블을 내보내면 최대 5개의 분류, 5개의 지표, 세그먼트 및 계산된 지표를 모두 연결된 테이블에서 지원하면서 Workspace 내에서 설계된 데이터 테이블을 한 번만 또는 일정에 따라 배달할 수 있습니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)를 참조하십시오. |
 | 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
-| 관리 페이지의 새로운 열 | 이제 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)와 [필터 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)에서 사용할 수 있는 새로운 열을 문서화했습니다. |
+| 관리 페이지의 새로운 열 | [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 및 [세그먼트 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)에서 사용할 수 있는 새 열을 정리했습니다. |
 | Adobe Analytics와의 비교 | Customer Journey Analytics와 Adobe Analytics의 차이점을 비교하고 이해하기 위한 소개로 [개요 페이지](../getting-started/aa-vs-cja/overview.md)를 추가했습니다. |
 | 추가 파생 필드 기능 | 새로운 [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 기능의 설명서를 업데이트했습니다. |
 | **2023년 9월** | |
@@ -194,7 +194,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 날짜 | 설명 업데이트 |
 | --- | --- |
 | **2022년 12월** |  |
-| 2022년 12월 16일 | [Customer Journey Analytics 데이터 사용 관리](/help/technotes/estimate-usage.md)에 대한 새로운 주제. |
+| 2022년 12월 16일 | [Customer Journey Analytics 데이터 사용 관리](/help/technotes/estimate-usage.md)에 대한 새로운 주제입니다. |
 | **2022년 10월** | |
 | 2022년 10월 | [예약된 프로젝트에 대한 암호 보호](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) 관련 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |
 | 2022년 10월 | [고객 관리 키](/help/privacy/cmk.md)에 대한 새로운 주제. 이 기능은 [HIPAA 준비](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html)의 지원을 받습니다. |

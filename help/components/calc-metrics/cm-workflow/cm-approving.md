@@ -3,10 +3,10 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 22%
+source-wordcount: '146'
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 계산된 지표의 승인을 취소하려면 다음 작업을 수행하십시오.
 
-1. [필터 관리자](cm-approving.md)에서 승인을 취소할 계산된 지표 중 하나 이상을 선택합니다.
+1. [계산된 지표 관리자](cm-approving.md)에서 승인을 취소할 계산된 지표 중 하나 이상을 선택합니다.
 1. 작업 표시줄에서 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인 취소]**&#x200B;를 선택합니다.
 
 

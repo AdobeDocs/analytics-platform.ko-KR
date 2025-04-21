@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 16%
@@ -124,7 +124,7 @@ Customer Journey Analytics은 세 가지 수준의 액세스 또는 세 가지 �
 | [!UICONTROL 보고 도구] | [!UICONTROL Analysis Workspace 액세스] | 사용자가 [Analysis Workspace](/help/analysis-workspace/home.md)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 안내식 분석 액세스] | 사용자가 [안내가 있는 분석](/help/guided-analysis/overview.md)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 계산된 지표 만들기] | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)을(를) 만들 수 있도록 허용합니다. 사용자는 자신이 만든 계산된 지표 또는 자신과 공유된 계산된 지표만 태그 지정, 공유, 삭제, 이름 변경, 승인, 승인을 취소할 수 있습니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 필터 만들기] | 사용자가 [세그먼트](/help/components/filters/filters-overview.md)를 만들 수 있도록 허용합니다. 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그 지정, 공유, 삭제, 이름 변경, 승인 및 승인 취소할 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 세그먼트 만들기] | 사용자가 [세그먼트](/help/components/filters/filters-overview.md)를 만들 수 있도록 허용합니다. 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그 지정, 공유, 삭제, 이름 변경, 승인 및 승인 취소할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics의 [Labs](/help/labs/labs.md) 탭에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 허용합니다. 사용자는 자신이 만든 주석이나 자신과 공유된 주석에 태깅하고, 공유하고, 삭제하고, 이름을 바꿀 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 볼 수 있도록 허용합니다. |

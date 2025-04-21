@@ -4,7 +4,7 @@ description: 구성 요소가 세그먼트 내의 값과 상호 작용하는 방
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 54%
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 연산자
 
-필터 빌더에서 선택한 연산자를 사용하여 구성 요소에 대한 값을 비교하고 제한할 수 있습니다. 연산자에는 [[!UICONTROL 표준]](#standard-operators) 및 [[!UICONTROL 고유 개수]](#distinct-count-operators)의 두 가지 범주가 있습니다.
+세그먼트 빌더에서 선택한 연산자를 사용하여 구성 요소에 대한 값을 비교하고 제한할 수 있습니다. 연산자에는 [[!UICONTROL 표준]](#standard-operators) 및 [[!UICONTROL 고유 개수]](#distinct-count-operators)의 두 가지 범주가 있습니다.
 
 ## 표준 연산자
 

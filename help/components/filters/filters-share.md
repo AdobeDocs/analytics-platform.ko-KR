@@ -4,7 +4,7 @@ title: 세그먼트 공유
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 11%
@@ -22,9 +22,9 @@ ht-degree: 11%
 
 1. [세그먼트 관리자](manage-filters.md)에서 공유할 세그먼트를 하나 이상 선택합니다.
 1. 작업 표시줄에서 ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 필터 공유]** 대화 상자에서:
+1. **[!UICONTROL 세그먼트 공유]** 대화 상자에서:
 
-   ![필터 공유 대화 상자](assets/share-filter-dialog.png)
+   ![세그먼트 공유 대화 상자](assets/share-filter-dialog.png)
 
    1. (선택 사항) 세그먼트를 공유할 그룹 또는 개인의 목록을 ![검색](/help/assets/icons/Search.svg)을 사용하여 *개인 또는 그룹을 검색*&#x200B;하고 제한하십시오.
 

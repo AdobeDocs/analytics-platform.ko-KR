@@ -5,7 +5,7 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 58%
@@ -43,7 +43,7 @@ ht-degree: 58%
 
 * 데이터 보기에서 &quot;값 없음&quot; 옵션을 구성합니다. **[!UICONTROL 값 없음을 값으로 취급]**&#x200B;하는 경우를 제외하고 위에 표시된 모든 구성 설정이 지원됩니다.
 * Workspace의 자유 형식 테이블에서 숫자 차원에 대해 **[!UICONTROL 값 없음 포함]**&#x200B;을 사용합니다.
-* 필터 빌더에서 숫자 차원을 사용하는 **[!UICONTROL 존재함]** 또는 **[!UICONTROL 존재하지 않음]** 연산자를 사용하십시오.
+* 세그먼트 빌더에서 숫자 차원을 사용하는 **[!UICONTROL 존재함]** 또는 **[!UICONTROL 존재하지 않음]** 연산자를 사용하십시오.
 
 
 >[!MORELIKETHIS]

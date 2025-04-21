@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -73,7 +73,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
    * 데이터 세트 ID가 웹 데이터와 동일한 개인 컨테이너
    * 데이터 세트 ID가 콜센터 데이터와 같은 개인 컨테이너
 2. Analysis Workspace에서 [벤](/help/analysis-workspace/visualizations/venn.md) 시각화를 작업 영역 캔버스로 드래그합니다.
-3. 새로 만든 두 개의 세그먼트를 **[!UICONTROL 필터 추가]** 영역으로 드래그하고 사람 지표를 **[!UICONTROL 지표 추가]** 영역으로 드래그합니다.
+3. 새로 만든 두 개의 세그먼트를 **[!UICONTROL 세그먼트 추가]** 영역으로 드래그하고 사람 지표를 **[!UICONTROL 지표 추가]** 영역으로 드래그합니다.
 
 결과 벤 시각화는 웹 데이터와 콜센터 데이터를 모두 포함하는 데이터 세트에 있는 사람 수를 보여 줍니다. 겹치는 부분이 클수록 결합된 사람이 많습니다. 겹치지 않는 영역은 하나의 데이터 세트 또는 다른 데이터 세트에만 있는 사람을 나타냅니다.
 

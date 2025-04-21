@@ -4,7 +4,7 @@ description: Customer Journey Analytics에서 세그먼트를 관리하는 방�
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 66ec61ea64f1265d887d4941a22e1f9757120daa
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 32%
@@ -21,7 +21,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->특정 Workspace 프로젝트 내에서 만드는 빠른 세그먼트는 모든 프로젝트에서 사용할 수 있도록 설정하지 않은 한 [!UICONTROL 필터] 관리자에 표시되지 않습니다.
+>특정 Workspace 프로젝트 내에서 만드는 빠른 세그먼트는 모든 프로젝트에서 사용할 수 있도록 설정하지 않은 한 [!UICONTROL 세그먼트] 관리자에 표시되지 않습니다.
 >
 
 ## 세그먼트 관리자
@@ -37,7 +37,7 @@ ht-degree: 32%
 | 열 | 설명 |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 세그먼트를 ![Star](/help/assets/icons/Star.svg)로 전환하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)으로 전환하지 않도록 선택하십시오. [세그먼트를 즐겨찾기로 표시](/help/components/filters/filters-favorite.md) 참조 |
-| **[!UICONTROL 제목 및 설명]** | 세그먼트를 편집하려면 제목 링크를 선택하여 [필터 빌더](filter-builder.md)를 엽니다. 공유 세그먼트는 ![공유](/help/assets/icons/ShareAlt.svg)(으)로 표시됩니다. |
+| **[!UICONTROL 제목 및 설명]** | 세그먼트를 편집하려면 제목 링크를 선택하여 [세그먼트 빌더](filter-builder.md)를 엽니다. 공유 세그먼트는 ![공유](/help/assets/icons/ShareAlt.svg)(으)로 표시됩니다. |
 | **[!UICONTROL 데이터 보기]** | 이 세그먼트가 적용되는 데이터 보기. |
 | **[!UICONTROL 소유자]** | 세그먼트 소유자. 사용자는 소유한 세그먼트나 사용자와 공유된 주석만 볼 수 있습니다. |
 | **[!UICONTROL 태그]** | 이 세그먼트의 태그입니다. |
@@ -54,7 +54,7 @@ ht-degree: 32%
 
 | 액션 | 설명 |
 |---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [필터 빌더](filter-builder.md)를 사용하여 다른 세그먼트를 추가하십시오. |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]** | [세그먼트 빌더](filter-builder.md)를 사용하여 다른 세그먼트를 추가하십시오. |
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 목록에서 선택한 세그먼트가 없으면 이 검색 필드를 사용하여 세그먼트를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 세그먼트에 태깅합니다. **[!UICONTROL 세그먼트 태그]** 대화 상자에서 선택한 세그먼트에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 세그먼트에 대한 태그를 저장합니다. 자세한 내용은 [세그먼트 태그 지정](/help/components/filters/filters-tag.md)을 참조하십시오. |
 | ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 선택한 세그먼트를 공유합니다. **[!UICONTROL 세그먼트 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 세그먼트에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [세그먼트 공유](filters-share.md)를 참조하십시오. |
@@ -62,7 +62,7 @@ ht-degree: 32%
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 세그먼트의 이름을 변경합니다. 선택하면 인라인 세그먼트 이름을 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 세그먼트를 승인합니다. 자세한 내용은 [세그먼트 승인](filters-approve.md)을 참조하세요. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 세그먼트를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 세그먼트를 만듭니다. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 세그먼트를 `Filters List.csv` 파일로 내보냅니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 세그먼트를 `Segments List.csv` 파일로 내보냅니다. |
 
 ### 활성 세그먼트 막대
 

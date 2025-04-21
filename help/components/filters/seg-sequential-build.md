@@ -3,7 +3,7 @@ description: 순차적 세그먼트는 THEN 연산자를 사용하여 세그먼�
 title: 순차적 세그먼트
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 
 
-순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](filter-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](filter-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 [정의 빌더](filter-builder.md#definition-builder)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하는 즉시 일반 세그먼트가 순차적 필터가 됩니다.
+순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](filter-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](filter-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 [정의 빌더](filter-builder.md#definition-builder)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하는 즉시 일반 세그먼트가 순차적 세그먼트가 됩니다.
 
 ### 예
 

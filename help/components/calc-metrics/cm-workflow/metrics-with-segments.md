@@ -3,7 +3,7 @@ description: 개별 지표를 세그먼트화하면 동일한 보고서 내에�
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 2f87afb9c87b0436ee40cc67a04d99d4f4f10e74
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    세그먼트는 다음과 같습니다.
 
-   ![독일 필터링](assets/filter-germany.png)
+   ![독일 세그먼트](assets/filter-germany.png)
 
 1. 계산된 지표 빌더로 돌아가 세그먼트를 사용하여 계산된 지표를 업데이트합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
    세그먼트는 다음과 같아야 합니다.
 
-   ![독일 필터링](assets/filter-not-germany.png)
+   ![독일 세그먼트](assets/filter-not-germany.png)
 
 1. 계산된 지표 빌더로 돌아가 세그먼트를 사용하여 계산된 지표를 업데이트합니다.
 

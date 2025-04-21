@@ -5,10 +5,10 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -56,9 +56,9 @@ Customer Journey Analytics에서는 채널 간 데이터에 대해 정교한 속
 
 ![계산된 지표](../../assets/calc-metric.png)
 
-Attribution IQ를 이용해 데이터를 필터링할 수도 있습니다. 예를 들어 두 개 이상의 디바이스를 사용하는 사용자 등 특정한 사용자 집합에 대해서만 속성을 볼 수 있습니다.
+Attribution IQ을 사용하면 데이터를 세그먼트화할 수도 있습니다. 예를 들어 두 개 이상의 디바이스를 사용하는 사용자 등 특정한 사용자 집합에 대해서만 속성을 볼 수 있습니다.
 
-![필터](../../assets/filter.png)
+![세그먼트](../../assets/filter.png)
 
 Google Ad 콘텐츠에도 웹 및 앱 매출을 귀속시킬 수 있습니다. 이 데이터 세트의 예제에서는 웹보다 모바일 앱에서 온라인 Google Ads를 통해 유도된 매출이 더 컸습니다. 광고를 웹 매출과 앱 매출에 따라 정렬하면 어떤 Google Ads의 성과가 가장 좋았는지에 대해 예상하지 못했던 정보를 파악할 수 있게 됩니다.
 

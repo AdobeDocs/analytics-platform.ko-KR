@@ -4,7 +4,7 @@ title: 빠른 세그먼트
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 26%
@@ -97,7 +97,7 @@ ht-degree: 26%
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 두 개 이상의 조건을 정의한 경우에만 사용할 수 있습니다. 드롭다운 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 조건 중에서 선택합니다. 선택 항목에 따라 빠른 세그먼트에 대한 부울 논리가 결정됩니다. 세 가지 조건이 있는 경우 논리를 섞을 수 없습니다. 부울 논리는 **[!UICONTROL AND]** 또는 **[!UICONTROL OR]**&#x200B;입니다. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | 빠른 세그먼트에 다른 조건을 추가합니다. 이 단추는 빠른 세그먼트에 대해 하나 또는 두 개의 조건을 정의한 경우에만 사용할 수 있습니다. |
 | **[!UICONTROL 적용]** | 변경 사항을 빠른 세그먼트에 적용합니다. |
-| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확실합니까?]** 대화 상자의 확인 메시지가 표시됩니다. **[!UICONTROL 확인]**&#x200B;을 선택하면 [빠른 세그먼트 빌더](#quick-filter-builder)에서 더 이상 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**(으)로 변경되었으며 이제 짙은 파란색 얇은 왼쪽 막대가 표시됩니다.<br/>일반 [세그먼트 빌더](filter-builder.md)가 열리고 **[!UICONTROL 이 세그먼트를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;할 수 있는 옵션이 제공됩니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 필터]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
+| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확실합니까?]** 대화 상자의 확인 메시지가 표시됩니다. **[!UICONTROL 확인]**&#x200B;을 선택하면 [빠른 세그먼트 빌더](#quick-filter-builder)에서 더 이상 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**(으)로 변경되었으며 이제 짙은 파란색 얇은 왼쪽 막대가 표시됩니다.<br/>일반 [세그먼트 빌더](filter-builder.md)가 열리고 **[!UICONTROL 이 세그먼트를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;할 수 있는 옵션이 제공됩니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
 | **[!UICONTROL 취소]** | 빠른 세그먼트 만들기 또는 편집을 취소하려면 선택합니다. |
 
 ## 빠른 세그먼트와 세그먼트

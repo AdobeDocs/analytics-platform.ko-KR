@@ -4,10 +4,10 @@ title: 세그먼트 작성
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 46%
    | **[!UICONTROL 데이터 보기]** | 세그먼트에 대한 데이터 보기를 선택할 수 있습니다.  정의한 세그먼트는 데이터 보기의 [설정](/help/data-views/create-dataview.md#settings-filters) 탭에서 세그먼트로 사용할 수 있습니다. |
    | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 볼 수 있고 세그먼트는 구성 요소 목록에 추가되지 않음을 설명하는 정보 상자입니다. **[!UICONTROL 이 세그먼트를 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하여 해당 설정을 변경할 수 있습니다. 이 정보 상자는 [빠른 세그먼트](quick-filters.md)를 만들고 [!UICONTROL 빠른 세그먼트] 인터페이스에서 **[!UICONTROL 빌더 열기]**&#x200B;를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 변경하는 경우에만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 세그먼트 이름을 지정합니다(예: `Last month mobile customers`). |
-   | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력하십시오(예: `Filter to define the mobile customers for the last month`). |
+   | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력하십시오(예: `Segment to define the mobile customers for the last month`). |
    | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 세그먼트를 정의합니다. |
 
@@ -82,7 +82,7 @@ ht-degree: 46%
 
 ### 구성 요소
 
-세그먼트 정의 구성 시 중요한 부분은 차원, 지표, 기존 세그먼트 및 날짜 범위를 사용하는 것입니다. 이러한 모든 구성 요소는 필터 빌더의 구성 요소 패널에서 사용할 수 있습니다.
+세그먼트 정의 구성 시 중요한 부분은 차원, 지표, 기존 세그먼트 및 날짜 범위를 사용하는 것입니다. 이러한 모든 구성 요소는 세그먼트 빌더의 구성 요소 패널에서 사용할 수 있습니다.
 
 ![정의 작성 시작](assets/start-building-filter.gif){width=100%}
 
@@ -130,7 +130,7 @@ ht-degree: 46%
 
 순환 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다. 이렇게 하면 진행 중인 캠페인 또는 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들어 *지난 60일 동안 온라인 구매를 한 모든 사용자*&#x200B;를 포함하는 세그먼트를 만들 수 있습니다.
 
-![순환 날짜 범위를 사용하여 필터링](assets/filter-rolling-date-range.gif)
+![순환 날짜 범위를 사용하는 세그먼트](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]

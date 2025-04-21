@@ -3,9 +3,9 @@ description: 계산된 지표를 만드는 방법을 알아봅니다.
 title: 계산된 지표 만들기
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 다음 방법으로 계산된 지표를 만들 수 있습니다.
 
-![필터를 만드는 방법](assets/create-metric.png)
+![계산된 지표를 만드는 방법](assets/create-metric.png)
 
 * **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 계산된 지표]**&#x200B;을(를) 선택합니다. [[!UICONTROL 계산된 지표] 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
 * **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![이벤트](/help/assets/icons/Event.svg) **지표**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
