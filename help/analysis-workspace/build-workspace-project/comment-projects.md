@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 11e6d5a2aace4554b48c05c2316061de1e628108
+exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
+source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ Analysis Workspace의 주석을 사용하면 Analysis Workspace 프로젝트 컨
 >* **조직:** Customer Journey Analytics 관리자는 [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 조직에 대해 이 기능을 비활성화할 수 있습니다.
 
 ## 댓글 보기
+
+오른쪽 레일의 댓글 영역이나 댓글 배지가 있는 경우 댓글 배지에서 댓글을 볼 수 있습니다.
+
+![Analysis Workspace에서 댓글 보기](assets/workspace-comments-view.png)
 
 ### 주석 영역에서 주석 보기
 
@@ -61,6 +66,12 @@ Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레�
 
 1. Analysis Workspace에서 프로젝트를 연 채 주석을 삽입할 프로젝트 영역을 마우스 오른쪽 버튼으로 클릭합니다.
 
+   모든 시각화는 시각화 헤더의 주석 배지를 지원하지만, 다음 시각화만 시각화 내의 특정 데이터 포인트에 주석 배지를 지원합니다.
+
+   * 자유 형식 테이블
+   * 코호트 테이블
+   * 라인
+
    <!--add screenshot-->
 
 1. **[!UICONTROL 댓글 추가]**&#x200B;를 선택합니다.
@@ -97,6 +108,8 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 1. @ 기호를 입력한 다음 포함할 사람의 이름, 성 또는 이메일 주소를 입력하세요.
 
+   ![태그 사용자](assets/comments-tag-user.png)
+
 1. 드롭다운 메뉴에 표시될 때 개인 이름을 선택합니다.
 
 @ 기호를 사용하여 댓글에 사용자를 포함할 때는 다음 사항을 고려하십시오.
@@ -122,6 +135,38 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 1. (선택 사항) 다른 사람에게 @ 기호 뒤에 해당 이름을 입력하여 댓글에 대해 알립니다. @ 기호를 사용하여 다른 사용자에게 알리는 방법에 대한 자세한 내용은 [댓글에 다른 사용자 포함](#include-others-in-a-comment)을 참조하세요.
 
 1. **[!UICONTROL 제출]**&#x200B;을 선택합니다.
+
+## 기존 댓글에 대한 배지 배치
+
+오른쪽 레일의 댓글 영역에서 댓글을 사용할 수 있지만 프로젝트에 아직 배지가 없는 경우 배지를 추가할 수 있습니다.
+
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+
+1. 배지를 넣을 댓글 옆에 있는 자세히 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 배지 배치]**&#x200B;를 선택합니다.
+
+1. 기존 댓글에 대한 배지를 배치할 프로젝트 영역을 선택합니다.
+
+   선택한 Workspace 프로젝트 영역에 **댓글 배지** ![댓글 배지](assets/comment-indicator.png)가 있습니다. 주석은 오른쪽 레일의 주석 영역 맨 위에도 나타납니다.
+
+   자세한 내용은 [프로젝트에서 주석 배지 보기](#view-comment-badges-in-a-project)를 참조하십시오.
+
+배지를 제거하려면:
+
+1. 제거할 배지를 선택한 다음 **[!UICONTROL 배지 제거]**&#x200B;를 선택합니다.
+
+   배지는 제거되지만 댓글은 오른쪽 레일의 댓글 영역에서 계속 사용할 수 있습니다.
+
+## 기존 댓글에 대한 배지 이동
+
+기존 댓글에 이미 배치된 댓글 배지를 이동할 수 있습니다.
+
+1. Analysis Workspace에서 프로젝트를 연 채 이동하려는 댓글에 대한 배지를 찾습니다.
+
+1. 배지를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 배치 이동]**&#x200B;을 선택합니다.
+
+1. 배지를 배치할 프로젝트 영역을 선택합니다.
+
+<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
 
 ## 댓글에 링크 복사
 
@@ -182,36 +227,3 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 해결된 주석은 기본적으로 주석 영역에서 숨겨집니다. 해결된 주석을 표시하려면:
 
 1. 설명 영역에서 필터 아이콘을 선택한 다음 **[!UICONTROL 해결된 설명 숨기기]** 옵션의 선택을 취소합니다.
-
-## 기존 댓글에 대한 배지 배치
-
-오른쪽 레일의 댓글 영역에서 댓글을 사용할 수 있지만 프로젝트에 아직 배지가 없는 경우 배지를 추가할 수 있습니다.
-
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
-
-1. 배지를 넣을 댓글 옆에 있는 자세히 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 배지 배치]**&#x200B;를 선택합니다.
-
-1. 기존 댓글에 대한 배지를 배치할 프로젝트 영역을 선택합니다.
-
-   선택한 Workspace 프로젝트 영역에 **댓글 배지** ![댓글 배지](assets/comment-indicator.png)가 있습니다. 주석은 오른쪽 레일의 주석 영역 맨 위에도 나타납니다.
-
-   자세한 내용은 [프로젝트에서 주석 배지 보기](#view-comment-badges-in-a-project)를 참조하십시오.
-
-배지를 제거하려면:
-
-1. 제거할 배지를 선택한 다음 **[!UICONTROL 배지 제거]**&#x200B;를 선택합니다.
-
-   배지는 제거되지만 댓글은 오른쪽 레일의 댓글 영역에서 계속 사용할 수 있습니다.
-
-## 기존 댓글에 대한 배지 이동
-
-기존 댓글에 이미 배치된 댓글 배지를 이동할 수 있습니다.
-
-1. Analysis Workspace에서 프로젝트를 연 채 이동하려는 댓글에 대한 배지를 찾습니다.
-
-1. 배지를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 배치 이동]**&#x200B;을 선택합니다.
-
-1. 배지를 배치할 프로젝트 영역을 선택합니다.
-
-<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
-
