@@ -1,22 +1,20 @@
 ---
-title: 콘텐츠 분석 구성 요소
+title: Content Analytics 구성 요소
 description: 차원, (계산된) 지표 및 파생 필드와 같은 특정 Content Analytics 구성 요소에 대한 세부 정보
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 0731eadd403ecb428d36492b83351aa0e696b41f
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 22%
 
 ---
 
-# 콘텐츠 분석 구성 요소
+# Content Analytics 구성 요소
 
-{{release-limited-testing}}
-
-Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 구성 요소에 다음 범주의 구성 요소(차원, (계산된) 지표, 파생 필드)를 추가합니다.
+Content Analytics은 Customer Journey Analytics에서 이미 사용 가능한 구성 요소에 다음 범주의 구성 요소(차원, (계산된) 지표, 파생 필드)를 추가합니다.
 
 * [경험 메타데이터](#experience-metadata)
 * [경험 속성](#experience-attributes)

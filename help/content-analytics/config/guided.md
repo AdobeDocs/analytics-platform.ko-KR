@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -13,9 +13,6 @@ ht-degree: 46%
 ---
 
 # 콘텐츠 분석 가이드 구성
-
-{{release-limited-testing}}
-
 
 가이드 구성을 통해 콘텐츠 분석을 빠르고 쉽게 구성할 수 있습니다. 가이드 구성은 마법사를 사용하여 조직에 맞게 콘텐츠 분석을 자동으로 구성하기 위한 요구 사항을 설정합니다. **[!UICONTROL 구성]** 화면에서 새로운 구성을 만들거나 기존 구성을 편집할 수 있습니다.
 

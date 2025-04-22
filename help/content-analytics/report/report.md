@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 컨텐츠 분석 보고 개요
-
-{{release-limited-testing}}
 
 [Analysis Workspace](/help/analysis-workspace/home.md) 내에서 Content Analytics에 대해 보고하고, 분석을 수행하고, 통찰력을 얻습니다. 특정 Workspace [template](#template)을(를) 사용할 수 있으므로 관련 콘텐츠 인사이트를 사용하여 미리 채워진 Workspace 프로젝트에 즉시 액세스할 수 있습니다.
 

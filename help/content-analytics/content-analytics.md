@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 44%
@@ -13,8 +13,6 @@ ht-degree: 44%
 ---
 
 # 콘텐츠 분석 개요
-
-{{release-limited-testing}}
 
 콘텐츠 분석은 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. 동작 데이터 위에 Content Analytics은 컨텐츠가 사용되는 방식과 컨텐츠가 영향을 미치는 방식에 대한 데이터를 수집합니다. 예를 들어 고객이 특정 음색, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응합니까? 이 정보는 특별히 설계된 보고 워크플로 및 템플릿과 함께 Customer Journey Analytics에서 고객 여정 데이터에 대한 더 나은 분석을 수행하고 더욱 심층적인 인사이트를 얻는 데 도움이 됩니다.
 

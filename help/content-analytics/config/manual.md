@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 3%
@@ -13,9 +13,6 @@ ht-degree: 3%
 ---
 
 # 콘텐츠 분석 수동 구성
-
-{{release-limited-testing}}
-
 
 이 문서에서는 Content Analytics 구성의 데이터 수집을 시작 또는 중지하거나 Content Analytics 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
 
