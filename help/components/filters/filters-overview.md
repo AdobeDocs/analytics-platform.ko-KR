@@ -4,9 +4,9 @@ description: 에 사용되는 세그먼트와 간단한 세그먼트를 만드�
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
@@ -160,6 +160,14 @@ Customer Journey Analytics의 데이터 보기를 사용하면 세션 지속 시
 - 모든 prop
 - 목록 차원
 - 머천다이징 차원(이벤트 컨텍스트)
+
+
+
+### B2B 컨테이너
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)에 대한 액세스 권한이 있는 경우 세그먼트에서 사용할 추가 컨테이너를 사용할 수 있습니다. 이러한 추가 컨테이너의 사용에 대한 자세한 내용은 [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)에서 확인할 수 있습니다.
 
 
 ### 논리 그룹 컨테이너

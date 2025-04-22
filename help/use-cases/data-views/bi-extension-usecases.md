@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '14697'
+source-wordcount: '14696'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
    * [단일 차원 등급](#single-dimension-ranked)
    * [여러 차원 등급](#multiple-dimension-ranked)
    * [고유 차원 값 계산](#count-distinct-dimension-values)
-   * [날짜 범위 이름을 사용하여 세그먼트화](#use-date-range-names-to-segment)
+   * [날짜 범위 이름을 사용하여 필터링](#use-date-range-names-to-filter)
    * [세그먼트 이름을 사용하여 세그먼트](#use-segment-names-to-segment)
    * [차원 값을 사용하여 세그먼트화](#use-dimension-values-to-segment)
    * [정렬](#sort)
@@ -1737,17 +1737,17 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 
 
-## 필터 이름을 사용하여 필터링
+## 세그먼트 이름을 사용하여 세그먼트
 
-이 사용 사례에서는 Customer Journey Analytics에서 정의한 낚시 제품 카테고리에 대한 기존 필터를 사용합니다. 2023년 1월 동안 제품 이름과 발생 횟수(이벤트)를 필터링하고 보고하려면
+이 사용 사례에서는 Customer Journey Analytics에서 정의한 낚시 제품 카테고리에 대한 기존 세그먼트를 사용하고자 합니다. 2023년 1월 동안 제품 이름과 발생 횟수(이벤트)를 세그먼트화하고 보고하려면
 
 +++ Customer Journey Analytics
 
-Customer Journey Analytics에서 사용할 필터를 검사합니다.
+Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 ![Customer Journey Analytics에서 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png){zoomable="yes"}
 
-그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
+그런 다음 사용 사례에 대해 **[!UICONTROL 세그먼트에 세그먼트 이름 사용]** 패널의 예에서 해당 세그먼트를 사용할 수 있습니다.
 
 ![Customer Journey Analytics 고유 개수 값](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
@@ -1901,18 +1901,18 @@ Customer Journey Analytics에서 사용할 필터를 검사합니다.
 +++
 
 
-## 차원 값을 사용하여 필터링
+## 차원 값을 사용하여 세그먼트화
 
-**[!UICONTROL 제품 범주]**&#x200B;에 대해 동적 **[!UICONTROL Hunting]** 값을 사용하여 헌팅 범주에서 제품을 필터링합니다. 또는 제품 카테고리 값의 동적 검색을 지원하지 않는 BI 도구의 경우 Customer Journey Analytics에서 헌팅 제품 카테고리의 제품을 필터링하는 새 필터를 만듭니다.
-그런 다음 새 필터를 사용하여 2023년 1월 중에 헌팅 카테고리의 제품에 대한 제품 이름과 발생 횟수(이벤트)를 보고할 수 있습니다.
+**[!UICONTROL 제품 범주]**&#x200B;에 대해 동적 **[!UICONTROL Hunting]** 값을 사용하여 헌팅 범주의 제품을 세그먼트화합니다. 또는 제품 카테고리 값의 동적 검색을 지원하지 않는 BI 도구의 경우 Customer Journey Analytics에서 헌팅 제품 카테고리의 제품을 세그먼트화하는 새 세그먼트를 만듭니다.
+그런 다음 새 세그먼트를 사용하여 2023년 1월 중에 헌팅 카테고리의 제품에 대한 제품 이름과 발생 횟수(이벤트)를 보고할 수 있습니다.
 
 +++ Customer Journey Analytics
 
-Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(를) 사용하여 새 필터를 만듭니다.
+Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(를) 사용하여 새 세그먼트를 만듭니다.
 
-![Customer Journey Analytics에서 Dimension 값을 사용하여 필터링](assets/cja-hunting-products.png){zoomable="yes"}
+![Customer Journey Analytics에서 Dimension 값을 사용하여 세그먼테이션](assets/cja-hunting-products.png){zoomable="yes"}
 
-그런 다음 사용 사례에 대해 **[!UICONTROL Dimension 값을 사용하여 필터링]** 패널의 예에서 해당 필터를 사용할 수 있습니다.
+그런 다음 사용 사례에 대해 **[!UICONTROL Dimension 값을 사용하여 필터링]** 패널의 예에서 해당 세그먼트를 사용할 수 있습니다.
 
 ![Customer Journey Analytics 고유 개수 값](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 

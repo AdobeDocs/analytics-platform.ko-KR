@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 99%
@@ -51,7 +51,7 @@ ht-degree: 99%
 
    ![보고서 대기열을 보여 주는 보고 활동](assets/reporting-activity-monthly.png)
 
-1. (선택 사항) 연결 목록을 검색하거나 세그먼트화할 수 있습니다.
+1. (선택 사항) 연결 목록을 검색하거나 필터링할 수 있습니다.
 
    * 특정 연결을 검색하려면 검색 필드를 사용합니다. 연결 이름이나 ID를 입력하기 시작하면 입력하는 동안 연결 목록이 업데이트됩니다.
 

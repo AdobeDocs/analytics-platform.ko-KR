@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 16%
@@ -159,8 +159,8 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 
 사용자에게 하루만 데이터 액세스 권한을 부여하려고 합니다. 이러한 특정 행에 대한 액세스를 제한하는 방법은 다음과 같습니다.
 
-1. 특정 데이터 보기의 [!UICONTROL 설정]에서 필터를 만드십시오. 여기서 [!UICONTROL 일]은(는) 데이터에 액세스할 수 있는 날짜와 같습니다. 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md#settings-filters)를 참조하십시오.
-1. 기본 연결에서 데이터 세트의 데이터 부분에 필터를 적용하는 데이터 보기를 저장합니다. 필터 정의와 맞지 않는 행은 데이터 보기에서 자동으로 제외되며 이 데이터 보기를 사용할 때 Analysis Workspace에서 사용할 수 없습니다.
+1. 특정 데이터 보기의 [!UICONTROL 설정]에서 세그먼트를 만드십시오. 여기서 [!UICONTROL 일]은(는) 데이터에 액세스할 수 있는 날짜와 같습니다. 자세한 내용은 [데이터 보기 만들기](/help/data-views/create-dataview.md#settings-filters)를 참조하십시오.
+1. 기본 연결에서 데이터 세트의 데이터 부분에 세그먼트를 적용하는 데이터 보기를 저장합니다. 세그먼트 정의와 맞지 않는 행은 데이터 보기에서 자동으로 제외되며 이 데이터 보기를 사용할 때 Analysis Workspace에서 사용할 수 없습니다.
 1. Admin Console에서 새 [제품 프로필](#product-profile-admin-role)을 만들고, 사용자를 제품 프로필에 추가하고, 제품 프로필에 이 특정 데이터 보기만 포함하십시오.
 
 ### 가치 수준 액세스 제어

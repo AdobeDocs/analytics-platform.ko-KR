@@ -4,9 +4,9 @@ title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '600'
 ht-degree: 21%
 
 ---
@@ -73,7 +73,9 @@ ht-degree: 21%
 
 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 경고 목록을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 특정 필터를 적용하는 경고 수가 표시됩니다.
 
-{{filterspanel}}
+
+1. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널을 엽니다. 알림 목록에 더 많은 공간이 필요한 경우 ![필터](/help/assets/icons/Filter.svg)를 한 번 더 선택하여 패널을 닫을 수 있습니다.
+1. 사용 가능한 필터 섹션에서 필터를 선택합니다.
 
 
 #### 태그 필터 섹션

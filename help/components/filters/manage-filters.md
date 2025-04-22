@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 세그먼트를 관리하는 방�
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -64,12 +64,12 @@ ht-degree: 32%
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 세그먼트를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 세그먼트를 만듭니다. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 세그먼트를 `Segments List.csv` 파일로 내보냅니다. |
 
-### 활성 세그먼트 막대
+### 활성 필터 표시줄
 
-세그먼트 막대➌은 세그먼트 패널에서 세그먼트 목록(있는 경우)에 적용된 활성 세그먼트를 표시합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 세그먼트를 빠르게 제거할 수 있습니다. 둘 이상의 세그먼트를 지정한 경우 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 세그먼트를 제거할 수 있습니다.
+필터 모음은 ➌ 필터 패널에서 세그먼트 목록(있는 경우)에 적용된 활성 세그먼트를 표시합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 필터를 두 개 이상 지정한 경우 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
 
-### 세그먼트 패널
+### 필터 패널
 
-![세그먼트](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 세그먼트 목록을 세그먼트화할 수 있습니다➍. 세그먼트 패널에는 세그먼트 유형 및 특정 세그먼트를 따르는 세그먼트 수가 표시됩니다. 세그먼트 패널의 표시를 전환하려면 ![세그먼트](/help/assets/icons/Filter.svg)를 선택하십시오.
+![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 세그먼트 목록을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형과 특정 필터를 적용하는 세그먼트 수가 표시됩니다. 필터 패널의 표시를 전환하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
 
 자세한 내용은 [세그먼트 목록 필터링](filters-filter.md)을 참조하십시오.

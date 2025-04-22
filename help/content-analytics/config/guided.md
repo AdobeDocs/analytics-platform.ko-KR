@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -138,7 +138,7 @@ ht-degree: 46%
    다음 작업을 수행할 수 있습니다.
 
    * 특정 데이터 보기를 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용하십시오.
-   * 사용 가능한 데이터 보기 목록을 세그먼트화하려면 ![세그먼트 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 필터링할 수 있습니다.<br/>세그먼트 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트 숨기기]**&#x200B;를 사용합니다.
+   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 필터링할 수 있습니다.<br/>세그먼트 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트 숨기기]**&#x200B;를 사용합니다.
    * 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택합니다. **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택해 변경 사항을 적용합니다.
 
 1. 사용할 데이터 보기에서 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다.

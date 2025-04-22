@@ -4,10 +4,10 @@ title: 경고 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 패키지를 기반으로 예외 항목 임계값에 
 
 다음 비디오 튜토리얼에서 경고 대한 기본 개요를 제공합니다. [경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
-## Customer Journey Analytics와 Adobe Analytics 경고의 차이점 파악
+## 경고 차이 이해
 
 Customer Journey Analytics에서의 경고 사용 프로세스는 Adobe Analytics에서의 경고 사용 프로세스와 거의 동일합니다. 단, 중요한 차이점이 있습니다.
 

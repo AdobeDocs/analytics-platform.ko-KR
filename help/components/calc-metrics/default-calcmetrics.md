@@ -4,10 +4,10 @@ title: 계산된 지표 템플릿
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,9 @@ Customer Journey Analytics은 가장 일반적인 사용 사례를 포괄하기 
 | 계산된 지표 이름 | 설명<br/>수식 |
 |---------|----------|
 | **[!UICONTROL 세션 시작 비율]** | 세션의 첫 번째 이벤트에서 차원 항목이 발생한 비율.<p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 세션 시작] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **세션 시작** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **세션** **)** |
-| **[!UICONTROL 사용자당 소비한 시간]** | 주어진 차원 항목에서 한 사용자가 소비한 평균 시간.<p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 소비한 시간(초)] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다. 세션의 마지막 이벤트 제외 필터가 사용자 지표에 적용됩니다. 필터가 데이터 세트에서 각 세션의 마지막 이벤트를 제외합니다. 이렇게 하면 구매 또는 양식 제출과 같은 이벤트나 작업으로 이어지는 사용자 행동을 마지막 작업은 제외하고 분석할 수 있습니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **소비한 시간(초)** ![나누기](/help/assets/icons/Divide.svg) ![세분화](/help/assets/icons/Segmentation.svg) **세션의 마지막 이벤트 제외(** ![이벤트](/help/assets/icons/Event.svg) **사용자)** |
+| **[!UICONTROL 사용자당 소비한 시간]** | 주어진 차원 항목에서 한 사용자가 소비한 평균 시간.<p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 소비한 시간(초)] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다. 세션의 마지막 이벤트 제외 세그먼트가 사람 지표에 적용됩니다. 세그먼트는 데이터 세트에 있는 각 세션의 마지막 이벤트를 제외합니다. 이렇게 하면 구매 또는 양식 제출과 같은 이벤트나 작업으로 이어지는 사용자 행동을 마지막 작업은 제외하고 분석할 수 있습니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **소비한 시간(초)** ![나누기](/help/assets/icons/Divide.svg) ![세분화](/help/assets/icons/Segmentation.svg) **세션의 마지막 이벤트 제외(** ![이벤트](/help/assets/icons/Event.svg) **사용자)** |
 | **[!UICONTROL 사용자당 세션 수]** | 사용자당 평균 세션 수.<p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **세션** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **사용자** **)** |
-| **[!UICONTROL 세션당 소비한 시간]** | 주어진 차원 항목에서 세션당 한 사용자가 소비한 평균 시간.<p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 소비한 시간(초)] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다. 세션의 마지막 이벤트 제외 필터가 세션 지표에 적용됩니다. 필터가 데이터 세트에서 각 세션의 마지막 이벤트를 제외합니다. 이렇게 하면 구매 또는 양식 제출과 같은 이벤트나 작업으로 이어지는 사용자 행동을 마지막 작업은 제외하고 분석할 수 있습니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **소비한 시간(초)** ![나누기](/help/assets/icons/Divide.svg) ![세분화](/help/assets/icons/Segmentation.svg) **세션의 마지막 이벤트 제외(** ![이벤트](/help/assets/icons/Event.svg) **세션)** |
+| **[!UICONTROL 세션당 소비한 시간]** | 주어진 차원 항목에서 세션당 한 사용자가 소비한 평균 시간.<p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 소비한 시간(초)] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다. 세션의 마지막 이벤트 제외 세그먼트가 세션 지표에 적용됩니다. 세그먼트는 데이터 세트에 있는 각 세션의 마지막 이벤트를 제외합니다. 이렇게 하면 구매 또는 양식 제출과 같은 이벤트나 작업으로 이어지는 사용자 행동을 마지막 작업은 제외하고 분석할 수 있습니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **소비한 시간(초)** ![나누기](/help/assets/icons/Divide.svg) ![세분화](/help/assets/icons/Segmentation.svg) **세션의 마지막 이벤트 제외(** ![이벤트](/help/assets/icons/Event.svg) **세션)** |
 | **[!UICONTROL 세션 종료 비율]** | 세션의 마지막 이벤트에서 차원 항목이 발생한 비율. <p>[데이터 보기](/help/data-views/create-dataview.md)에 [!UICONTROL 세션 종료] [표준 구성 요소](/help/data-views/component-reference.md)를 포함할 때 자동으로 이 계산된 지표가 Workspace에 추가됩니다.</p>요약: **(** ![이벤트](/help/assets/icons/Event.svg) **세션 종료** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **세션** **)** |
 | **[!UICONTROL 웹 세션]** | 웹 사이트에서 발생한 세션의 수. |
 | **[!UICONTROL 설문 조사 완료율]** | 설문 조사를 시작한 후 사람들이 이를 완료한 비율. |

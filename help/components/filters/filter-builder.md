@@ -4,7 +4,7 @@ title: 세그먼트 작성
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 45%
@@ -20,17 +20,10 @@ ht-degree: 45%
 >title="대상자 만들기"
 >abstract="세그먼트에서 대상을 만들고 활성화를 위해 Adobe Experience Platform과 공유할 수 있습니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
 >abstract="이 세그먼트의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 새 세그먼트를 만들거나 기존 세그먼트를 편집합니다. 대화 상자의 제목이 [[!UICONTROL 세그먼트] 관리자](/help/components/filters/manage-filters.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새 세그먼트]** 또는 **[!UICONTROL 세그먼트 편집]**&#x200B;입니다.
@@ -155,32 +148,23 @@ ht-degree: 45%
 
 ## 속성 {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="반복"
 >abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="인스턴스"
 >abstract="차원에 대한 인스턴스 및 지속된 값 포함"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="비반복 인스턴스"
 >abstract="차원에 대한 고유(비반복) 인스턴스를 포함합니다."
 
-<!-- markdownlint-enable MD034 -->
 
 
 
@@ -218,3 +202,5 @@ ht-degree: 45%
 세 개의 세그먼트를 사용하는 이벤트에 대한 예제 보고서는 다음과 같습니다.
 
 ![세그먼트 속성 모델 결과](assets/filter-dimension-attribution-results.png)
+
+<!-- markdownlint-enable MD034 -->

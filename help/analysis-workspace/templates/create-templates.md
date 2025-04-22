@@ -4,10 +4,10 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: b98cd4dc73e57f9ae5704a5d9e529ae3b518576c
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 84%
 
 1. 프로젝트 목록을 필터링하려면 필터 아이콘을 선택합니다.
 
-1. 필터 레일에서 **다른 필터**&#x200B;를 선택한 다음 **회사 템플릿**&#x200B;을 선택합니다.
+1. 필터 레일에서 **[!UICONTROL 기타 필터]**&#x200B;를 선택한 다음 **[!UICONTROL 회사 템플릿]**&#x200B;을 선택합니다.
 
    회사 템플릿 목록이 표시됩니다. 고정되지 않은 모든 일반 프로젝트는 표시되지 않습니다.
 
