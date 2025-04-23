@@ -1,10 +1,10 @@
 ---
 description: 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
 title: 세그먼트 승인
-feature: Filters
+feature: Filters, Segments
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%

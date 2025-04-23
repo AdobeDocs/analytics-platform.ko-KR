@@ -1,10 +1,10 @@
 ---
 description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 title: 세그먼트 목록 필터링
-feature: Filters
+feature: Filters, Segments
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 25%

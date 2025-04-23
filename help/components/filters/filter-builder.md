@@ -1,10 +1,10 @@
 ---
 description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 개인으로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이 통합 개발 도구를 사용하여 방문과 이벤트 간에 개인 속성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
 title: 세그먼트 작성
-feature: Filters
+feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 45%

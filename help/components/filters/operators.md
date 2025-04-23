@@ -2,9 +2,9 @@
 title: 연산자
 description: 구성 요소가 세그먼트 내의 값과 상호 작용하는 방법을 결정합니다.
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-feature: Filters
+feature: Filters, Segments
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 54%
