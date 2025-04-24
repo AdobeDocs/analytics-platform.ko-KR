@@ -4,10 +4,10 @@ title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 - 테이블에서 특정 행 제외
 - 테이블에 필터 적용
-- 대상자 필터 사용
+- 대상 세그먼트 사용
 
 각 방법이 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)에 어떤 영향을 미치는지 꼭 읽어보시기 바랍니다.
 
@@ -96,7 +96,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 대상 세그먼트 사용
 
-자세한 내용은 [필터 개요](/help/components/filters/filters-overview.md)를 참조하십시오.
+자세한 내용은 [세그먼테이션 개요](/help/components/filters/filters-overview.md)를 참조하십시오.
 
 ## 테이블 정렬
 

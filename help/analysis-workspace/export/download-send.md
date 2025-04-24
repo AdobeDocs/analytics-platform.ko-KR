@@ -4,7 +4,7 @@ title: Customer Journey Analytics 데이터 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 
 * 테이블에서 선택한 차원 **위** 분류는 각 열 위에 필터로 적용됩니다.
 * 테이블에서 선택한 차원 **아래** 분류는 제거됩니다.
 
-위의 예에서 페이지 항목은 패널 필터(신규 방문자 고객) 및 위의 구성 요소(마케팅 채널 = 이메일)가 필터로 적용된 상태로 다운로드되고 아래 구성 요소(모바일 디바이스 유형)는 다운로드된 CSV에서 제거됩니다.
+위의 예에서 페이지 항목은 패널 세그먼트(신규 방문자 고객) 및 위의 구성 요소(마케팅 채널 = 이메일)가 필터로 적용된 상태로 다운로드되고 아래 구성 요소(모바일 디바이스 유형)는 다운로드된 CSV에서 제거됩니다.
 
 ![다운로드한 .csv 파일을 Excel로 열립니다.](assets/downloaded-file.png)
 
