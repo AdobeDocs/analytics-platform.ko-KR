@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 94%
+source-wordcount: '5057'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,18 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | --- | --- |
 | **2025년 4월** | |
 | 사용 조회 및 관리 | Customer Journey Analytics 사용을 [조회](/help/connections/manage-connections.md#usage) 및 [관리](/help/technotes/estimate-usage.md)하는 방법에 대한 설명서가 다시 작성되었습니다. |
-| Content Analytics | Adobe Content Analytics에 대한 [설명서](/help/content-analytics/content-analytics.md)입니다. Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다. |
+| Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md)을(를) 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 찾고, 예외 항목을 찾아내고, 콘텐츠 피로를 식별하고, 콘텐츠 노출로 인한 통찰력을 얻을 수 있습니다. |
+| Adobe Experience Platform으로 스트리밍 미디어 데이터를 수집하기 위한 XDM 필드를 업데이트했습니다 | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때 더 이상 스트리밍 미디어 매개 변수 설명서의 &quot;XDM 필드 경로&quot; 제목 아래에 표시된 XDM 필드 경로를 사용하면 안 됩니다. 이러한 필드 경로는 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters) 페이지에서 찾을 수 있으며 &quot;사용되지 않음&quot;으로 표시됩니다. |
+| 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
+| **용어 변경: “필터”에서 “세그먼트”로 변경** | 이전에는 Adobe Customer Journey Analytics에서 세그먼트를 “필터”라고 불렀습니다. 이 용어는 이제 Adobe Analytics와 일치하게 되었습니다. 이제 “필터”는 “세그먼트”로 호칭합니다. (검색 필터를 여전히 &quot;필터&quot;라고 합니다.) UI 및 설명서가 업데이트되었습니다. |
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
+| 제품 사용 템플릿 | 새로운 Workspace 템플릿을 사용하면 조직 내에서 Customer Journey Analytics 제품이 어떻게 사용되는지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates) |
+| Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 사용자 지정 가이드를 생성하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL Customer Journey Analytics]** 탭에서 **[!UICONTROL Workspace으로 업그레이드]**&#x200B;를 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
+| 숫자 차원의 &quot;값 없음&quot; 라인 항목에 대한 업데이트 | 수치 차원의 경우 이 업데이트를 통해 세그먼트에 있는 &quot;값 없음&quot; 차원 항목을 사용하고 &quot;값 없음&quot; 라인 항목에 대한 보고서에서 분류를 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
+| 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025년 2월** |  |
-| 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 [Adobe Analytics의 스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만, 앞으로는 새 위치만 사용됩니다. |
+| 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics Source Connector는 [Adobe Analytics의 스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. |
 | BI 확장 - 확장된 지원 | Customer Journey Analytics BI 확장 기능은 이제 [Looker, Jupyter Notebook 및 R Studio](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)를 지원합니다. |
 | **2025년 1월** |  |
 | 업데이트된 연결 사용 경험 | 이제 연결의 [사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage) 탭에서 핵심 데이터, 수집 데이터 및 내역 데이터와 같은 보고 가능 행에 대한 개선된 시각화가 제공됩니다. 연결, 데이터 세트, 샌드박스 또는 태그별로 사용 데이터를 확인하고 분류할 수도 있습니다. |
