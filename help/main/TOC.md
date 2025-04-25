@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
+source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 85%
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트의 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Workspace의 폴더 {#workspace-folders}
+      + 작업 영역의 폴더 {#workspace-folders}
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
@@ -263,7 +263,7 @@ ht-degree: 85%
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ 콘텐츠 분석 {#content-analytics}
++ Content Analytics {#content-analytics}
    + [개요](/help/content-analytics/content-analytics.md)
    + 보고서 {#report}
       + [개요](/help/content-analytics/report/report.md)
@@ -383,17 +383,18 @@ ht-degree: 85%
 
 + Report Builder {#cja-reportbuilder}
    + [개요](../report-builder/report-buider-overview.md)
-   + [Report Builder 설치](../report-builder/report-builder-setup.md)
+   + [Report Builder 설정](../report-builder/report-builder-setup.md)
    + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
    + [Report Builder 허브](../report-builder/report-builder-hub.md)
    + [데이터 보기 선택](../report-builder/select-data-view.md)
    + [날짜 범위 선택](../report-builder/select-date-range.md)
-   + [세그먼트를 사용한 작업](../report-builder/work-with-filters.md)
+   + [세그먼트 작업](../report-builder/work-with-filters.md)
    + [차원 필터링](../report-builder/filter-dimensions.md)
    + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
    + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
+
 
 + 보고 활동 관리자 {#reporting-activity-manager}
    + [개요](../reporting-activity-manager/reporting-activity-overview.md)
