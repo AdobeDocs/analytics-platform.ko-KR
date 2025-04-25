@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 여정 항목 및 세그먼트의 조합을 나타내는 노드와 화살표의 유연한 그래프를 생성하여 사용자 차원 분석을 작성합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 세그먼트의 조합을 나타내는 유연한 노드 및 화살표 그래프를 만들어 사용자 여성 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="여정 캔버스"
->abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 여정 항목 및 세그먼트의 조합을 나타내는 노드와 화살표의 유연한 그래프를 생성하여 사용자 차원 분석을 작성합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
+>abstract="사람들이 정의된 여정을 어떻게 진행하거나 이탈하는지 분석합니다. 이벤트, 차원 항목, 세그먼트의 조합을 나타내는 유연한 노드 및 화살표 그래프를 만들어 사용자 여성 분석을 빌드합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터가 이에 따라 업데이트됩니다. <br/><br/>Adobe Journey Optimizer 이용이 가능한 고객은 기존 Journey Optimizer 여정을 분석할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

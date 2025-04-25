@@ -7,7 +7,7 @@ exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="미디어 평균 분당 시청 대상자"
->abstract="특정 미디어 콘텐츠의 성과나 사용자 정의 기간 동안의 성과를 보여 줍니다. 보고 차원을 지정하고 선택적으로 콘텐츠를 세그먼트화합니다."
+>abstract="특정 미디어 콘텐츠의 성과나 사용자 정의 기간 동안의 성과를 보여 줍니다. 보고 차원을 지정하고 필요한 경우 콘텐츠를 세분화합니다."
 
 <!-- markdownlint-enable MD034 -->
 

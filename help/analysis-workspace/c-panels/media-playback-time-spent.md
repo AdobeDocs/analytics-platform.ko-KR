@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="미디어 재생 소요 시간"
->abstract="시간 경과에 따른 비디오 소비를 분석하고, 다양한 세부 항목을 선택하고, 선택적으로 세그먼트, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
+>abstract="시간 경과에 따른 비디오 사용량을 분석하고, 다양한 세부 기간을 선택하고, 선택적으로 세그먼트, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 

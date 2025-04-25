@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '2580'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -96,13 +96,13 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="새 데이터 보기"
+>title="새로운 데이터 보기"
 >abstract="새로운 데이터 보기를 선택하면 Content Analytics 지표와 차원이 포함되도록 해당 데이터 보기가 업데이트됩니다. 필요한 경우 연관된 연결도 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 현재 Content Analytics에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
 >title="선택한 데이터 보기 정리"
->abstract="Content Analytics에 대해 이미 프로비저닝된 데이터 보기를 선택했습니다. 기존 Content Analytics 구성이 제거되고 데이터 보기가 새 구성으로 프로비저닝됩니다."
+>abstract="Content Analytics에 이미 프로비저닝된 데이터 보기를 선택했습니다. 해당 기존 Content Analytics 구성이 제거되고 데이터 보기에 새 구성이 프로비저닝됩니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
@@ -152,7 +152,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
 >title="경험 캡처 및 정의"
->abstract="Content Analytics으로 수집하는 데이터에 경험을 포함하도록 선택할 수 있습니다. 선택한 경우 정규 표현식과 쿼리 매개변수의 조합을 하나 이상 설정하여 경험을 포함할 URL을 정의해야 합니다."
+>abstract="콘텐츠 분석을 통해 수집한 데이터에 경험을 포함하도록 선택할 수 있습니다. 선택한 경우 정규 표현식과 쿼리 매개변수의 조합을 하나 이상 설정하여 경험을 포함할 URL을 정의해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
@@ -167,12 +167,12 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_new_include_experiences"
 >title="경험 캡처 및 정의"
->abstract="활성화되면 경험 데이터가 수집되고 경험 속성이 생성되며 경험 보고를 사용할 수 있습니다."
+>abstract="이 기능을 활성화하면 경험 데이터가 수집되고, 경험 속성이 생성되며, 경험 보고가 가능합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
 >title="경험 캡처 및 정의"
->abstract="활성화되면 경험 데이터가 수집되고 경험 속성이 생성되며 경험 보고를 사용할 수 있습니다. <br><br/>현재 구성과 연결된 Tags 속성에서 경험에 대한 데이터 수집 구성을 수정하려면 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 편집]**&#x200B;을 사용하세요."
+>abstract="이 기능을 활성화하면 경험 데이터가 수집되고, 경험 속성이 생성되며, 경험 보고가 가능합니다. <br><br/>편집 ![사용](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 편집]**&#x200B;을 사용하여 태그 속성에서 현재 구성과 관련 있는 경험에 대한 수집 구성을 수정합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"

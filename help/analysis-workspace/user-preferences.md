@@ -8,7 +8,7 @@ role: User
 source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3873'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
->title="프로젝트에 대한 댓글 달기 허용"
->abstract="활성화되면 주석 영역은 Analysis Workspace의 각 프로젝트 오른쪽 레일에서 사용할 수 있습니다."
+>title="프로젝트에서 댓글 달기 허용"
+>abstract="이 기능을 활성화하면 Analysis Workspace의 각 프로젝트 오른쪽 레일에 주석 영역이 제공됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -168,22 +168,22 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="기본 컨테이너"
->abstract="[!UICONTROL 흐름] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 흐름] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+>abstract="[!UICONTROL 흐름] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 [!UICONTROL 흐름] 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="기본 컨테이너"
->abstract="[!UICONTROL 폴아웃] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 폴아웃] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+>abstract="[!UICONTROL 폴아웃] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 [!UICONTROL 폴아웃] 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
 >title="기본 계산 방법"
->abstract="[!UICONTROL 히스토그램] 시각화에 사용할 기본 계산 방법을 선택하십시오. 선택한 데이터 보기에 선택한 기본 계산 방법이 없으면 [!UICONTROL 히스토그램] 시각화는 자동으로 다른 기본 계산 방법으로 전환됩니다."
+>abstract="[!UICONTROL 히스토그램] 시각화에 사용할 기본 계산 방법을 선택하십시오. 선택한 데이터 보기에 선택한 기본 계산 방법이 포함되어 있지 않으면 [!UICONTROL 히스토그램] 시각화는 자동으로 다른 기본 계산 방법으로 전환합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
 >title="기본 컨테이너"
->abstract="[!UICONTROL 여정 캔버스] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 없으면 [!UICONTROL 여정 캔버스] 시각화가 자동으로 다른 기본 컨테이너로 전환됩니다."
+>abstract="[!UICONTROL 여정 캔버스] 시각화에 사용할 기본 컨테이너를 선택하십시오. 선택한 데이터 보기에 선택한 기본 컨테이너가 포함되어 있지 않으면 [!UICONTROL 여정 캔버스] 시각화는 자동으로 다른 기본 컨테이너로 전환합니다."
 
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.

@@ -7,7 +7,7 @@ exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="use-case-ajo-template"
 >title="Journey Optimizer에서 템플릿 사용"
->abstract="Journey Optimizer에서 이 템플릿을 사용하는 경우 Customer Journey Analytics에서 이 템플릿과 함께 선택된 데이터 보기에 관계없이 Adobe Journey Optimizer에서 기본 데이터 보기로 설정된 데이터 보기가 사용됩니다."
+>abstract="Journey Optimizer에서 이 템플릿을 사용하면 Customer Journey Analytics에서 이 템플릿으로 선택한 데이터 보기와 관계없이 Adobe Journey Optimizer에서 기본 데이터 보기로 설정된 데이터 보기가 사용됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

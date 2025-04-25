@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -69,8 +69,8 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
->title="댓글 달기 허용"
->abstract="활성화되면 주석 영역은 Analysis Workspace의 프로젝트 오른쪽 레일에서 사용할 수 있습니다."
+>title="댓글 허용"
+>abstract="이 기능을 활성화하면 Analysis Workspace의 프로젝트 오른쪽 레일에 주석 영역이 제공됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
