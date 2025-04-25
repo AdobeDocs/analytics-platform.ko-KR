@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: aa7b73db10e81a96f532eedf09091109209124c0
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1223'
 ht-degree: 83%
 
 ---
@@ -148,6 +148,9 @@ ht-degree: 83%
    + [파생 필드](../data-views/derived-fields/derived-fields.md)
    + [요약 데이터](../data-views/summary-data.md)
    + [레이블 및 정책](../data-views/data-governance.md)
+   + 공유된 지표 및 차원{#shared-metrics-dimensions}
+      + [개요](/help/data-views/shared-metrics-dimensions/smd-overview.md)
+      + [편집자](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 
 + 도구 {#tools}
    + 자산 이전 {#asset-transfer}
@@ -165,7 +168,7 @@ ht-degree: 83%
       + [개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [프로젝트의 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [프로젝트에 대한 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 영역의 폴더 {#workspace-folders}
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -424,6 +427,36 @@ ht-degree: 83%
 
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
+   + Adobe Analytics 데이터 {#aa-data}
+      + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
+      + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
+   + B2B {#b2b}
+      + [B2B 프로젝트 예시](../use-cases/b2b/example.md)
+   + 복잡한 데이터 {#complex-data}
+      + [오브젝트 배열 사용](../use-cases/object-arrays.md)
+   + 크로스 채널 데이터 {#cross-channel}
+      + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
+      + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
+   + 데이터 내보내기 {#data-export}
+      + [개요](../use-cases/data-export/overview.md)
+      + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
+      + [데이터 세트 내보내기](../use-cases/data-export/export-datasets.md)
+      + [전체 테이블 내보내기](../use-cases/data-export/export-full-table.md)
+      + [쿼리 서비스 및 데이터 세트 내보내기](../use-cases/data-export/queryservice-export-datasets.md)
+   + 데이터 수집 {#data-ingestion}
+      + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
+      + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + 데이터 보기 {#data-views}
+      + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
+      + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [요약 데이터 사용](/help/use-cases/data-views/summary-data.md)
+      + [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
+   + 파생 필드 {#derived-fields}
+      + [목표 보고서](../use-cases/goals-using-derived-fields.md)
+   + 제품 분석 {#product-analysis}
+      + [제품 분석](/help/use-cases/product-analysis.md)
+   + 결합 {#stitching}
+      + [공유 디바이스](/help/use-cases/stitching/shared-devices.md)
    + 타사 데이터 {#third-party}
       + [개요](/help/use-cases/third-party/overview.md)
       + Google Analytics {#ga}
@@ -437,34 +470,6 @@ ht-degree: 83%
          + [히트맵 사용](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [마찰 이벤트 추가](/help/use-cases/third-party/quantum-metric/friction-events.md)
          + [소스 커넥터](/help/use-cases/third-party/quantum-metric/source-connector.md)
-   + 데이터 수집 {#data-ingestion}
-      + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
-      + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
-   + 데이터 보기 {#data-views}
-      + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
-      + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
-      + [요약 데이터 사용](/help/use-cases/data-views/summary-data.md)
-      + [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
-   + 데이터 내보내기 {#data-export}
-      + [개요](../use-cases/data-export/overview.md)
-      + [BI 확장 기능](../use-cases/data-export/bi-extension.md)
-      + [데이터 세트 내보내기](../use-cases/data-export/export-datasets.md)
-      + [전체 테이블 내보내기](../use-cases/data-export/export-full-table.md)
-      + [쿼리 서비스 및 데이터 세트 내보내기](../use-cases/data-export/queryservice-export-datasets.md)
-   + B2B {#b2b}
-      + [B2B 프로젝트 예시](../use-cases/b2b/example.md)
-   + 크로스 채널 데이터 {#cross-channel}
-      + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
-      + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
-   + Adobe Analytics 데이터 {#aa-data}
-      + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
-      + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
-   + 복잡한 데이터 {#complex-data}
-      + [오브젝트 배열 사용](../use-cases/object-arrays.md)
-   + 결합 {#stitching}
-      + [공유 디바이스](/help/use-cases/stitching/shared-devices.md)
-   + 파생 필드 {#derived-fields}
-      + [목표 보고서](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)

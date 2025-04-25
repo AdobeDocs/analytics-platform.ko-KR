@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
+source-git-commit: f3e1f5190024a38dc26199061fb7f466b8d0c472
 workflow-type: tm+mt
-source-wordcount: '5057'
-ht-degree: 91%
+source-wordcount: '5088'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,9 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 4월** | |
+| 제품 분석 사용 사례 | Customer Journey Analytics에서 [제품 분석](/help/use-cases/product-analysis.md)을 추가했습니다. |
+| 공유된 지표 및 차원 | [공유된 지표 및 차원](/help/data-views/shared-metrics-dimensions/smd-overview.md) 기능에 대한 설명서를 추가했습니다. |
+| Report Builder | [Report Builder](/help/report-builder/report-buider-overview.md) 설명서를 검토하고 업데이트했습니다. |
 | 사용 조회 및 관리 | Customer Journey Analytics 사용을 [조회](/help/connections/manage-connections.md#usage) 및 [관리](/help/technotes/estimate-usage.md)하는 방법에 대한 설명서가 다시 작성되었습니다. |
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md)을(를) 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 찾고, 예외 항목을 찾아내고, 콘텐츠 피로를 식별하고, 콘텐츠 노출로 인한 통찰력을 얻을 수 있습니다. |
 | Adobe Experience Platform으로 스트리밍 미디어 데이터를 수집하기 위한 XDM 필드를 업데이트했습니다 | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때 더 이상 스트리밍 미디어 매개 변수 설명서의 &quot;XDM 필드 경로&quot; 제목 아래에 표시된 XDM 필드 경로를 사용하면 안 됩니다. 이러한 필드 경로는 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters) 페이지에서 찾을 수 있으며 &quot;사용되지 않음&quot;으로 표시됩니다. |
