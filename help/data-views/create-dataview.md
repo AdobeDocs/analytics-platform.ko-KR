@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 85%
@@ -191,7 +191,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 ### 설정(세그먼트)
 
-전체 데이터 보기에 적용되는 세그먼트를 추가할 수 있습니다. 이 세그먼트는 Workspace에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 [!UICONTROL 세그먼트 추가] 필드로 세그먼트를 끌어옵니다.
+전체 데이터 보기에 적용되는 세그먼트를 추가할 수 있습니다. 이 세그먼트는 Workspace에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 **[!UICONTROL 세그먼트 추가]** 필드로 세그먼트를 끌어옵니다.
 
 ### 세션 설정
 
