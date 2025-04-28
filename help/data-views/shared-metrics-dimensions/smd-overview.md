@@ -2,7 +2,7 @@
 title: 공유 지표 및 차원 개요
 description: 여러 데이터 보기에서 동일한 차원 또는 지표 참조를 사용합니다.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 ![사용 가능한 작업 미리 보기](assets/smd-actions.png)
 
 * ![연필 아이콘](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**: [공유 구성 요소 편집기](shared-component-editor.md)에서 선택한 차원 및 지표를 열어 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 조정할 수 있습니다. 편집할 여러 구성 요소를 선택하면 해당 구성 요소가 모두 구성 요소 편집기에서 열립니다. 구성 요소 편집기에서 구성 요소를 Shift 키를 누른 상태에서 클릭하여 여러 구성 요소의 동일한 필드를 편집할 수 있습니다.
-* ![공유 아이콘](/help/assets/icons/Share.svg) **[!UICONTROL 데이터 보기에 공유]**: 선택한 연결 내에서 사용 가능한 모든 데이터 보기를 표시하는 창을 엽니다. 이 구성 요소를 사용할 수 있도록 하려는 각 데이터 보기의 확인란을 선택한 다음 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
-* ![공유 안 함 아이콘](/help/assets/icons/SaveTo.svg) **[!UICONTROL 데이터 보기에 대한 공유 안 함]**: 이 구성 요소가 현재 공유된 모든 데이터 보기를 표시하는 창을 엽니다. 이 구성 요소의 가용성을 제거할 각 데이터 보기의 확인란을 선택한 다음 **[!UICONTROL 공유 취소]**&#x200B;를 선택합니다.
+* ![공유 아이콘](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 데이터 보기에 공유]**: 선택한 연결 내에서 사용 가능한 모든 데이터 보기를 표시하는 창을 엽니다. 이 구성 요소를 사용할 수 있도록 하려는 각 데이터 보기의 확인란을 선택한 다음 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
+* ![공유 안 함 아이콘](/help/assets/icons/SaveTo.svg) **[!UICONTROL 데이터 보기에서 공유 안 함]**: 이 구성 요소가 현재 공유된 모든 데이터 보기를 표시하는 창을 엽니다. 이 구성 요소의 가용성을 제거할 각 데이터 보기의 확인란을 선택한 다음 **[!UICONTROL 공유 취소]**&#x200B;를 선택합니다.
 * ![중복 아이콘](/help/assets/icons/Copy.svg) **[!UICONTROL 중복]**: 선택한 구성 요소의 복사본을 만듭니다. 복제된 구성 요소에 대해 새 구성 요소 ID가 생성됩니다.
 * ![삭제 아이콘](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]**: 인터페이스에서 선택한 구성 요소를 제거합니다. 선택한 구성 요소가 데이터 보기와 공유되면 공유되지 않습니다.
