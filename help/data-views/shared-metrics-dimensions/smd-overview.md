@@ -1,7 +1,8 @@
 ---
 title: 공유 지표 및 차원 개요
 description: 여러 데이터 보기에서 동일한 차원 또는 지표 참조를 사용합니다.
-source-git-commit: 263767028893d9b04e5c8f8ae067b3e6283e4053
+exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
+source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
@@ -81,7 +82,7 @@ ht-degree: 0%
    * **[!UICONTROL 마지막 수정일]**: 구성 요소를 만든 후 수정한 경우 마지막으로 수정한 날짜입니다.
 * **[!UICONTROL 작업 내역]**: ![내역 아이콘](/help/assets/icons/History.svg) 아이콘을 선택하여 개별 데이터 보기에서 차원 및 지표를 가져오는 모든 인스턴스를 표시하는 모달 창을 엽니다.
 
-## 구성 요소 편집 또는 데이터 보기에 구성 요소 공유
+## 구성 요소를 편집하거나 데이터 보기에 구성 요소 공유
 
 구성 요소 옆에 있는 확인란을 사용하여 수행할 수 있는 모든 작업을 표시합니다. 다중 선택이 지원됩니다.
 
