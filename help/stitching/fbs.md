@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
+source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
 
   아래 예에서 네임스페이스 및 ID는 정렬된 기본 ID 목록과 마지막으로 선택한 ID를 생성합니다.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>네임스페이스</th>
        <th>ID 목록</th>
@@ -44,7 +44,7 @@ ht-degree: 15%
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>정렬된 ID 목록</th>
       <th>선택한 ID</th>
@@ -62,7 +62,7 @@ ht-degree: 15%
 
   아래 예에서 네임스페이스 및 ID는 선택한 네임스페이스(ECID) 및 마지막으로 선택한 ID에 대해 정렬된 ID 목록이 됩니다.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>네임스페이스</th>
        <th>ID 목록</th>
@@ -77,7 +77,7 @@ ht-degree: 15%
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>정렬된 ID 목록</th>
       <th>선택한 ID</th>
