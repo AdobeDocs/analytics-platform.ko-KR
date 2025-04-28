@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
+source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 8%
+source-wordcount: '462'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,12 @@ ht-degree: 8%
    - 결합 활성화 요청.
    - 다시 입력할 데이터 세트에 대한 데이터 세트 ID입니다.
    - 원하는 데이터 세트(모든 행에 표시되는 식별자)에 대한 영구 ID의 열 이름(ID 경로 및 네임스페이스)입니다.
-   - 필드 기반 결합의 경우, 원하는 데이터 세트에 대한 임시 ID의 열 이름 (연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자). 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 ID 네임스페이스입니다.
+   - 데이터 집합이 `identityMap`을(를) 지원하는 경우:
+      - 필드 기반 결합의 경우 영구 ID와 임시 ID 모두에 대한 네임스페이스를 지정합니다.
+      - 그래프 기반 결합의 경우 지속 ID에 대한 네임스페이스와 ID 그래프를 쿼리하는 데 사용할 ID 네임스페이스를 지정합니다.
+   - 데이터 집합에서 `identityMap`을(를) 지원하지 않는 경우:
+      - 필드 기반 결합의 경우, 원하는 데이터 세트에 대한 임시 ID의 열 이름 (연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자).
+      - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 ID 네임스페이스입니다.
    - 전환 확인 기간 및 재생 빈도에 대한 사용자 기본 설정입니다. 사용 가능한 [옵션](#options)은 Customer Journey Analytics 패키지를 참조하세요.
    - 샌드박스 이름
 

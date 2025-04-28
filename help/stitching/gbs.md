@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1540'
 ht-degree: 7%
 
 ---
@@ -15,9 +15,77 @@ ht-degree: 7%
 # 그래프 기반 스티칭
 
 
-그래프 기반 결합에서는 이벤트 데이터 세트와 함께 해당 데이터 세트에 대한 영구 ID(쿠키) 및 임시 ID(개인 ID)의 네임스페이스를 지정합니다. 그래프 기반 결합은 결합된 새 데이터 세트에 결합된 ID의 새 열을 만듭니다. 그런 다음 영구 ID를 사용하여 지정된 네임스페이스를 사용하여 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 결합된 ID를 업데이트합니다.
+그래프 기반 결합에서는 이벤트 데이터 세트와 함께 해당 데이터 세트에 대한 영구 ID(쿠키) 및 임시 ID(개인 ID)의 네임스페이스를 지정합니다. 그래프 기반 결합은 결합된 새 데이터 세트에 결합된 ID의 새 열을 만듭니다. 그런 다음 영구 ID를 사용하여 지정된 네임스페이스를 사용하여 Experience Platform ID 서비스에서 ID 그래프를 쿼리하고 결합된 ID를 업데이트합니다.
 
 ![그래프 기반 결합](/help/stitching/assets/gbs.png)
+
+## IdentityMap
+
+그래프 기반 결합은 다음 시나리오에서 [`identifyMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
+
+- `identityMap` 네임스페이스의 기본 ID를 사용하여 persistentID를 정의합니다.
+   - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 탄력적으로 정렬되고 첫 번째 ID가 선택됩니다.
+   - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우 사용 가능한 첫 번째 사전식 기본 ID가 선택됩니다.
+
+  아래 예에서 네임스페이스 및 ID는 정렬된 기본 ID 목록과 마지막으로 선택한 ID를 생성합니다.
+
+  <table>
+     <tr>
+       <th>네임스페이스</th>
+       <th>ID 목록</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>정렬된 ID 목록</th>
+      <th>선택한 ID</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+- `identityMap` 네임스페이스를 사용하여 persistentID 정의:
+   - `identityMap` 네임스페이스에 persistentID에 대한 여러 값이 있는 경우 사용 가능한 첫 번째 사전 ID가 사용됩니다.
+
+  아래 예에서 네임스페이스 및 ID는 선택한 네임스페이스(ECID) 및 마지막으로 선택한 ID에 대해 정렬된 ID 목록이 됩니다.
+
+  <table>
+     <tr>
+       <th>네임스페이스</th>
+       <th>ID 목록</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>정렬된 ID 목록</th>
+      <th>선택한 ID</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
+
 
 ## 그래프 기반 결합 작동 방식
 
@@ -25,7 +93,7 @@ ht-degree: 7%
 
 - **라이브 결합**: ID 그래프를 쿼리하여 선택한 네임스페이스에 대한 임시 ID를 조회하기 위해 영구 ID를 사용하여 각 히트(이벤트)를 들어오는 대로 결합하려고 합니다. 조회에서 임시 ID를 사용할 수 있는 경우 이 임시 ID가 즉시 결합됩니다.
 
-- **재생 결합**: ID 그래프에서 업데이트된 ID를 기반으로 하는 *재생* 데이터. 이 단계에서 ID 그래프가 네임스페이스에 대한 ID를 해결함으로써 이전에 알 수 없었던 디바이스(영구 ID)의 히트가 결합됩니다. 재생은 **빈도** 및 **전환 확인 기간**&#x200B;의 두 매개 변수로 결정됩니다. Adobe은 다음 매개 변수의 조합을 제공합니다.
+- **재생 결합**: ID 그래프에서 업데이트된 ID를 기반으로 하는 *재생* 데이터. 이 단계에서 ID 그래프가 네임스페이스에 대한 ID를 해결함으로써 이전에 알 수 없었던 디바이스(영구 ID)의 히트가 결합됩니다. 재생은 **빈도** 및 **전환 확인 기간**&#x200B;의 두 매개 변수로 결정됩니다. Adobe은 다음과 같은 매개 변수의 조합을 제공합니다.
    - **일별 빈도에 대한 일별 전환 확인**: 데이터는 매일 24시간 전환 확인 기간으로 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 방문자는 사이트를 방문하는 당일 인증해야 합니다.
    - **주별 빈도에 대한 주별 전환**: 매주 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 그러나 1주일 미만의 연결되지 않은 데이터는 다음 주간 재생까지 재처리되지 않습니다.
    - **주별 전환 확인**: 데이터는 주별 전환 확인 기간을 사용하여 매주 한 번 재생됩니다([옵션](#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 그러나 2주 미만의 연결되지 않은 데이터는 다음 주간 재생까지 재처리되지 않습니다.
@@ -76,7 +144,7 @@ ht-degree: 7%
 
 +++ 세부 사항
 
-2023-05-13 16:30에 24시간 전환 확인 기간 구성이 적용되는 재생 결합이 발생하면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)(으)로 표시됨).
+2023-05-13 16:30에 24시간 전환 확인 기간 구성이 적용되는 재생 결합이 발생하면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)&#x200B;(으)로 표시됨).
 
 | | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![그래프](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 결합된 ID<br/>(live stitch 후) | 결합된 ID<br/>(재생 24시간 후) |
 |---|---|---|---|---|---|
@@ -135,11 +203,11 @@ ht-degree: 7%
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 하나의 열(**영구 ID**)이 있어야 합니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Experience Platform ID 서비스에서 생성된 ECID입니다.
 - 영구 ID는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)되어야 합니다.
-- Experience Platform ID 서비스의 ID 그래프에는 **임시 ID**&#x200B;을(를) 확인하기 위해 결합하는 동안 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다. 자세한 내용은 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 참조하십시오.
+- Experience Platform Identity Service의 ID 그래프에는 **임시 ID**&#x200B;을(를) 확인하기 위해 결합하는 동안 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다. 자세한 내용은 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 참조하십시오.
 
 >[!NOTE]
 >
->그래프 기반 결합을 위해 **not**&#x200B;은(는) Real-time Customer Data Platform 라이선스가 필요합니다. **Prime** 이상의 Customer Journey Analytics 패키지에 필요한 Experience Platform ID 서비스 권한이 포함되어 있습니다.
+>그래프 기반 결합을 위해 Real-time Customer Data Platform 라이선스가 필요 **없습니다**. Customer Journey Analytics의 **Prime** 패키지 이상에 필요한 Experience Platform Identity 서비스 권한이 포함되어 있습니다.
 
 
 ## 제한 사항
@@ -148,7 +216,7 @@ ht-degree: 7%
 
 - 지정된 네임스페이스를 사용하여 임시 ID를 쿼리할 때 타임스탬프는 고려되지 않습니다. 따라서 영구 ID가 타임스탬프가 더 이른 레코드의 임시 ID와 결합될 수 있습니다.
 - 그래프의 네임스페이스에 여러 ID가 포함된 공유 장치 시나리오에서는 첫 번째 사전 그래픽 ID가 사용됩니다. 네임스페이스 제한 및 우선순위가 그래프 연결 규칙 릴리스의 일부로 구성된 경우 마지막으로 인증된 사용자의 ID가 사용됩니다. 자세한 내용은 [공유 장치](/help/use-cases/stitching/shared-devices.md)를 참조하십시오.
-- ID를 ID 그래프에 다시 채우는 데에는 3개월이라는 엄격한 제한이 있습니다. ID 그래프를 채우기 위해 Real-time Customer Data Platform과 같은 Experience Platform 애플리케이션을 사용하지 않는 경우 ID 다시 채우기를 사용합니다.
+- ID를 ID 그래프에 다시 채우는 데에는 3개월이라는 엄격한 제한이 있습니다. Real-time Customer Data Platform과 같은 Experience Platform 애플리케이션을 사용하여 ID 그래프를 채우지 않는 경우 ID 채우기 기능을 사용합니다.
 - [ID 서비스 보호](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)가 적용됩니다. 예를 들어, 다음 [정적 제한](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)을(를) 참조하십시오.
    - 그래프의 최대 ID 수: 50.
    - 단일 배치 수집을 위한 ID에 대한 최대 링크 수는 50개입니다.
