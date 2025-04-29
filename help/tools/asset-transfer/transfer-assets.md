@@ -4,9 +4,9 @@ description: 한 사용자에서 다른 사용자로 구성 요소를 전송하�
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Assets은 종종 개별 소유자에게 연결되며, 세그먼트 및 계산된
 
 1. 사용자를 선택하면 화면 하단에 에셋 전송 옵션이 나타납니다.
 
-   ![메뉴 옵션](/help/tools/asset-transfer/assets/after-selection.png)
+   ![자산 전송 메뉴 옵션](/help/tools/asset-transfer/assets/after-selection.png)
 
 1. **[!UICONTROL 자산 전송]**&#x200B;을 클릭합니다.
 
@@ -75,6 +75,20 @@ Assets은 종종 개별 소유자에게 연결되며, 세그먼트 및 계산된
 
 - **전송 실패**: &quot;자산을 전송하지 못했습니다. 다시 시도하십시오.&quot;
 
+### 자산 전송 실패의 잠재적 이유
+
+- 오류를 일으키는 종속 서비스: 자산 전송은 각 구성 요소 유형에 대해 다른 서비스와 상호 작용하므로(예: 네트워크 문제, 다운스트림 서비스 문제), 이로 인해 부분 또는 전체 오류가 발생하거나 간헐적인 오류가 발생할 수 있습니다.
+
+- 구성 요소가 없거나 다른 관리자가 전송함: 자산 전송 작업이 진행되는 동안 다른 사용자가 구성 요소를 삭제하거나 다른 관리자가 다른 사용자에게 전송했습니다.
+
+- API POST 본문이 올바르게 채워지지 않음: 여러 구성 요소 유형을 선택한 경우 API POST 본문에서 구성 요소를 보내지 못할 수 있습니다.
+
+- 사용자가 없음: 사용자가 전송 도중 삭제되었거나 다른 이유로 유효하지 않습니다. 전송이 시작되기 전에 사용자가 유효하지 않은 경우 도구에서 이를 포착하고 작업을 처리하지 않습니다. 전송 중간에 사용자를 삭제한 경우 부분 오류가 발생할 수 있습니다.
+
+- 연결/네트워크 오류: 전송 중 연결이 끊어졌습니다. 백엔드에 이미 전송된 전송 작업의 일괄 처리는 완료로 처리되지만 성공 및 실패 항목에 대한 요약이 포함된 전송 결과 메시지는 표시되지 않습니다.
+
+- 브라우저 탭이 중간에 닫힘: 매우 큰 전송의 경우 브라우저 탭이 닫히거나 페이지가 중간 전송에서 멀리 탐색되면 탭 닫기/페이지 탐색이 발생하기 전에 수행된 네트워크 요청만 에셋을 적절하게 전송합니다. 사용자가 페이지로 다시 이동하면 어떤 에셋이 이전되었고 어떤 에셋이 이전되지 않았는지를 나타내는 응답 상태 메시지가 수신되지 않습니다.
+
 ## Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 동안 자산 전송
 
 에셋 전송에 대한 주요 사용 사례 중 하나는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 동안입니다.
@@ -91,6 +105,9 @@ Adobe Analytics의 [구성 요소 마이그레이션](https://experienceleague.a
 
 **[!UICONTROL CSV로 내보내기]** 옵션을 사용하면 관리자만 .csv 파일에 표시된 사용자 목록을 다운로드할 수 있습니다. 이렇게 하면 전송된 에셋 목록을 .csv 파일로 내보낼 수 없습니다.
 
-<!---## Unknown users
+## 비활성 사용자
 
-All previously deleted users appear under one unknown user entry, along with all their orphan components. These components can be transferred to a new recipient. This feature will be available in January.-->
+이전에 삭제된 모든 사용자는 모든 고아 구성 요소와 함께 하나의 &quot;비활성 사용자&quot; 항목 아래에 표시됩니다. 이러한 구성 요소를 새 수신자에게 전송할 수 있습니다. 이 기능은 1월에 사용할 수 있습니다.
+
+![자산 전송 UI에 표시되는 비활성 사용자](assets/inactive-users.png)
+
