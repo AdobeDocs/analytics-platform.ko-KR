@@ -5,18 +5,25 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: e4ddb98b800457e407bb414ed4929c5d5018cf30
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 10%
 
 ---
 
 # 연결 개요
 
-연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회 및 프로필 데이터 세트 등 다양한 [!DNL Adobe Experience Platform] 데이터 소스 간의 연결을 설정할 수 있습니다. 이러한 연결로 데이터를 연결에서 파생 데이터 보기로 통합할 수 있습니다. 연결은 CJA의 기반이며 [!DNL Experience Platform] 소스 데이터 세트에서 만들어집니다. 연결에 대한 액세스 권한을 사용하면 연결을 구성하는 기본 데이터 세트를 보고 중요한 편집 및 구성을 선택할 수 있는 연결 관리자를 볼 수 있습니다.
+Customer Journey Analytics 제품 관리자는 연결을 통해 이벤트, 조회, 프로필 및 요약 데이터 세트와 같은 다양한 [!DNL Adobe Experience Platform] 데이터 소스와의 연결을 설정할 수 있습니다. 이러한 연결을 통해 연결의 데이터를 파생 데이터 보기에 통합할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [!DNL Experience Platform] 소스 데이터 세트에서 만들어집니다.
 
-연결 관리에 대한 액세스 권한을 핵심 관리 그룹으로 제한하는 것이 좋습니다. 연결 수준의 구성에는 Customer Journey Analytics로 가져온 데이터의 볼륨 할당과 관련하여 계약상 의미가 포함됩니다.
+>[!IMPORTANT]
+>
+>여러 [!DNL Experience Platform] 데이터 세트를 하나의 연결로 결합할 수 있습니다.
+
+
+## 연결 워크플로
+
+![연결 워크플로](assets/connection-workflow.png)
 
 <!-- Outdated interface 
 
@@ -28,23 +35,24 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring conn
 
 -->
 
-## 필요 권한
+상위 수준에서 연결 워크플로를 사용하여 다음을 수행할 수 있습니다.
 
-Customer Journey Analytics 연결을 만들려면 다음 권한이 필요합니다. 권한에 대한 자세한 내용은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) 및 [Adobe Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)에 대한 설명서를 참조하십시오.
+| 인터페이스 | 설명 |
+|:---:|---|
+| ➊ | 연결 관리자에서 연결 및 Customer Journey Analytics의 전체 사용을 [관리합니다](manage-connections.md). |
+| ➋ | [수집, 건너뛰기 또는 삭제된 데이터 세트 레코드와 같은 연결의 세부 정보를 검사합니다](manage-connections.md#connection-details). |
+| ➌ | [롤링 데이터 창과 같은 연결의 구성을 만들거나 편집](create-connection.md#create-or-edit-a-connection) 및 연결에 포함된 데이터 세트를 선택합니다. |
+| ➍ | [연결에 데이터 세트 추가](create-connection.md#add-datasets). 연결에는 하나 이상의 이벤트 또는 요약 데이터 세트가 있어야 하지만 다양한 이벤트, 프로필, 조회 및 요약 데이터 세트를 포함할 수 있습니다. |
+| ➎ | 추가하는 데이터 세트에 대해 [설정을 구성](create-connection.md#dataset-settings)합니다. 따라서 일반 사용자 기반 또는 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} 계정 기반 식별자를 기반으로 서로 다른 데이터 세트를 연결하는 방법을 결정할 수 있습니다. |
+| ➏ | [기존 데이터 집합에 대한 설정을 편집합니다](create-connection.md#edit-a-dataset). 나중에 언제든지 데이터 세트 설정을 다시 방문할 수 있습니다. |
 
-### Adobe Admin Console 내에서:
 
-* Customer Journey Analytics: 제품 관리자
-* Adobe Experience Platform: *AEP-Default-All-Users*&#x200B;라는 이름의 제품 프로필에 추가됨
 
-### Adobe Experience Platform 권한 내에서:
+## 액세스 제어
 
-* 데이터 모델링: 스키마 보기, 스키마 관리
-* 데이터 관리: 데이터 세트 보기, 데이터 세트 관리
-* 데이터 수집: 소스 관리
-* Identity Management: ID 네임스페이스 보기
-* 샌드박스: Customer Journey Analytics 연결에 사용되는 샌드박스
+연결 관리에 대한 액세스는 핵심 관리 그룹으로 제한해야 합니다. 연결 구성에는 Customer Journey Analytics으로 가져온 데이터에 대한 볼륨 할당과 관련된 계약상의 의미가 있습니다.
 
->[!IMPORTANT]
+>[!MORELIKETHIS]
 >
->여러 [!DNL Experience Platform] 데이터 세트를 하나의 연결로 결합할 수 있습니다.
+>[액세스 제어](/help/technotes/access-control.md).
+

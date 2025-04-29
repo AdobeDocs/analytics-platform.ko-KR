@@ -1,8 +1,8 @@
 ---
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
 workflow-type: tm+mt
-source-wordcount: '3759'
-ht-degree: 30%
+source-wordcount: '4061'
+ht-degree: 34%
 
 ---
 # 스니펫
@@ -239,3 +239,19 @@ ht-degree: 30%
 >[!INFO]
 >
 >이 설명서에서는 Customer Journey Analytics B2B edition에서만 사용할 수 있는 특정 B2B 문서 또는 기능을 [!BADGE B2B edition]{type=Informative}(으)로 표시합니다.
+
+
+## 공통 데이터 세트 설정 {#common-dataset-settings}
+
+| 설정 | 설명 |
+|---|---|
+| **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 활성화합니다. 지속적인 연결을 통해 데이터 세트에 추가된 새 데이터 배치를 Workspace에서 자동으로 사용할 수 있습니다. |
+| **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
+| **[!UICONTROL 일괄 처리 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
+| **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
+| **[!UICONTROL 설명]** | 데이터 세트를 만들 때 이 데이터 세트에 제공된 설명입니다. |
+| **[!UICONTROL 레코드 수]** | 데이터 세트 크기입니다. |
+| **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 스키마입니다. |
+| **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. |
+| **[!UICONTROL 미리보기: *데이터 세트 이름&#x200B;*]** | 처음 10개 행 및 처음 10개 열에 대한 데이터 세트를 미리 봅니다. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 제거]** | 전체 연결을 삭제하지 않고 [데이터 집합을 삭제](/help/connections/create-connection.md#delete-a-dataset)할 수 있습니다. 연결에서 데이터 세트를 삭제하면 데이터 수집과 관련된 비용과 전체 연결 및 관련 데이터 보기를 다시 만드는 번거로운 프로세스가 줄어듭니다. |
