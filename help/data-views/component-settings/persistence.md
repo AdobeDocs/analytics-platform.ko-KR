@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="지속성"
->abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 세그먼트 앞에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
+>abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 세그먼트 전에 적용됩니다. 자세한 내용은 [할당 설정](/help/data-views/component-settings/persistence.md#allocation-settings), [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings), [바인딩 차원](/help/data-views/component-settings/persistence.md#binding-dimension) 및 [바인딩 지표](/help/data-views/component-settings/persistence.md#binding-metric)를 참조하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-[!UICONTROL 지속성]은(는) 특정 차원 값이 설정된 이벤트에서 벗어난 지표에 특성을 부여하는 기능입니다. 지속성은 할당과 만료의 조합입니다.
+[!UICONTROL 지속성]은 특정 차원 값을 설정된 이벤트에서 벗어난 지표와 연결할 수 있습니다. 지속성은 할당과 만료의 조합입니다.
 
 ![지속성 옵션을 강조 표시한 데이터 보기 창](../assets/persistence.png)
 
-* 한 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당**&#x200B;을 통해 유지할 값을 결정할 수 있습니다.
+* 하나의 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 **할당** 설정을 통해 보존되는 값을 결정할 수 있습니다.
 
   >[!NOTE]
   >
@@ -40,13 +40,13 @@ ht-degree: 77%
 
 * **만료** 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
-[!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 세그먼트화나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
+[!UICONTROL 지속성]은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 이는 세그먼트화나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다.
 
 | 설정 | 설명 |
 | --- | --- |
 | [!UICONTROL 지속성 설정] | 차원에 대한 지속성 설정을 활성화합니다. 지속성 설정이 활성화되지 않으면 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다. 이 설정은 기본적으로 비활성화되어 있습니다. |
-| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 배분 모델을 지정할 수 있습니다. 옵션:<ul><li>**[!UICONTROL 가장 최근]**: 차원의 값은 후속 값으로 덮어쓸 때까지 지속됩니다</li><li> **[!UICONTROL 원래]**: 이 차원의 첫 번째 값은 유지되며 후속 값으로 덮어쓰이지 않습니다.</li><li>**[!UICONTROL 모두]**: 이 차원의 모든 값이 동시에 유지됩니다.</li><li>**[!UICONTROL 처음 알려짐]**: 이 차원의 첫 번째 값이 사용되며 이전 및 이후의 모든 이벤트에 적용됩니다.</li><li>**[!UICONTROL 마지막 알려짐]**: 이 차원의 마지막 값이 사용되며 이전 및 이후의 모든 이벤트에 적용됩니다.</li></ul> |
-| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 옵션: <ul><li>**[!UICONTROL 세션]**(기본값)</li><li>**[!UICONTROL 사용자]**</li><li>**[!UICONTROL 사용자 지정 시간]**</li><li>**[!UICONTROL 지표]**</li></ul>. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만 사용할 수 있습니다. |
+| [!UICONTROL 할당] | 지속성을 위해 차원에 사용되는 배분 모델을 지정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다.<ul><li>**[!UICONTROL 가장 최근]**: 차원 값이 후속 값으로 덮어쓸 때까지 유지됩니다.</li><li> **[!UICONTROL 원본]**: 이 차원의 첫 번째 값이 유지되며 후속 값으로 덮어쓰지 않습니다.</li><li>**[!UICONTROL 모두]**: 이 차원의 모든 값이 동시에 유지됩니다.</li><li>**[!UICONTROL 처음 알려짐]**: 이 차원의 첫 번째 값이 사용되며, 그 전후의 모든 이벤트에 적용됩니다.</li><li>**[!UICONTROL 마지막 알려짐]**: 이 차원의 마지막 값이 사용되며, 그 전후의 모든 이벤트에 적용됩니다.</li></ul> |
+| [!UICONTROL 만료] | 차원에 대한 지속성 기간을 지정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다. <ul><li>**[!UICONTROL 세션]**(기본값)</li><li>**[!UICONTROL 개인]**</li><li>**[!UICONTROL 사용자 정의 시간]**</li><li>**[!UICONTROL 지표]**</li></ul>. 내부 검색어 또는 기타 머천다이징 사용 사례와 같이 구매 시 차원을 만료해야 할 수도 있습니다. 설정할 수 있는 최대 만료 시간은 90일입니다. [!UICONTROL 모두] 할당을 선택하면 [!UICONTROL 세션] 또는 [!UICONTROL 개인] 만료만 사용할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -91,10 +91,10 @@ ht-degree: 77%
 
 * **세션**: 지정된 세션이 지나면 만료됩니다. 기본 만료 창.
 * **개인 보고 기간**: 보고 기간이 끝날 때 만료됩니다.
-* **전역 계정 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
-* **계정 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
-* **영업 기회 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
-* **구매 그룹 보고 기간** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}: 보고 기간이 끝날 때 만료됩니다.
+* **글로벌 계정 보고 기간**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}): 보고 기간이 끝날 때 만료됩니다.
+* **계정 보고 기간**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}): 보고 기간이 끝날 때 만료됩니다.
+* **기회 보고 기간**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}): 보고 기간이 끝날 때 만료됩니다.
+* **구매 그룹 보고 기간**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}): 보고 기간이 끝날 때 만료됩니다.
 * **사용자 정의 시간**: 지정된 기간(최대 90일) 후에 만료됩니다. 이 만료 옵션은 원래 및 가장 최근 배분 모델에만 사용할 수 있습니다. 시간 기반 만료를 사용하는 경우 보고 기간(최대 90일) 시작 이전 값이 고려됩니다.
 * **지표**: 이 지표가 이벤트에 표시되면 차원에서 지속된 값이 즉시 만료됩니다. 이 차원의 만료 끝으로 지표를 사용할 수 있습니다. 이 만료 옵션은 원래 및 가장 최근 할당 설정에만 사용할 수 있습니다.
 
