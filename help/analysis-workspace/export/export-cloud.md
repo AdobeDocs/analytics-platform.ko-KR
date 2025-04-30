@@ -5,10 +5,10 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
 workflow-type: tm+mt
 source-wordcount: '2285'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -189,7 +189,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
    * [지속성 활성화](/help/data-views/component-settings/persistence.md)
    * [바인딩 차원](/help/use-cases/data-views/binding-dimensions-metrics.md)을 사용하지 않음
 * 다양한 [오브젝트 배열](/help/use-cases/object-arrays.md)을 참조하는 필드에서 나온 여러 차원. (동일한 오브젝트 배열을 참조하는 여러 차원이 허용됨.)
-* 보고서당 5개 이상의 차원 및 5개 이상의 지표(최대 5개 차원 및 5개 지표 지원)
+* 보고서당 10개 이상의 차원과 10개의 지표 (최대 10개의 차원과 10개의 지표가 지원됨)
 * 테이블 열:
    * 날짜 범위
    * 차원
@@ -227,8 +227,8 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 | 사용자 정의 보고서 빌드 | 예 | 예 |
 | 계산된 지표 | 예 | 아니요 |
 | 세그먼트 | 예 | 제한적 |
-| 차원 | 5개로 제한 | 제한 없음 |
-| 지표 | 5개로 제한 | 제한 없음 |
+| 차원 | 10의 제한 | 제한 없음 |
+| 지표 | 10의 제한 | 제한 없음 |
 | 보고 행 | 등급에 따라 300만, 3천만, 1억 5천만, 3억으로 제한 | 제한 없음 |
 | 보고서 수 | 제한 없음 | 제한 없음 |
 | 임시(일회) 게재 | 예 | 예 |

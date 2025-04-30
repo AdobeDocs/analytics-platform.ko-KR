@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a88be1f79bc6dc07f849af5f32f3472105ee3ed
+source-git-commit: 8a8244bff45017a4b021599df6ff3dc37cf8e1c6
 workflow-type: tm+mt
-source-wordcount: '5103'
+source-wordcount: '5133'
 ht-degree: 94%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 4월** | |
+| 전체 테이블 내보내기 제한 늘림 | 전체 테이블 내보내기에 고객이 사용할 수 있는 [열 개수](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud#comparison-of-full-table-export-in-customer-journey-analytics-to-data-warehouse-in-adobe-analytics)를 5차원 및 5지표에서 10차원 및 10지표로 변경했습니다. |
 | 연결 | 예정된 고객 여정 B2B edition에 대한 고객 여정 연결 설명서를 다시 작업하고 업데이트했습니다. |
 | 제품 분석 사용 사례 | Customer Journey Analytics에서 [제품 분석](/help/use-cases/product-analysis.md)을 추가했습니다. |
 | 공유된 지표 및 차원 | [공유된 지표 및 차원](/help/data-views/shared-metrics-dimensions/smd-overview.md) 기능에 대한 설명서를 추가했습니다. |
