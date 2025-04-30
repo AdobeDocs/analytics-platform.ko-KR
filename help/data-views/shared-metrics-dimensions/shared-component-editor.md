@@ -1,7 +1,8 @@
 ---
 title: 공유 구성 요소 편집기
 description: 공유 차원 및 지표를 만들거나 편집합니다.
-source-git-commit: d2c6605cc440c293aca279c1583bac964055d277
+exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
+source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 오른쪽 상단에는 세 개의 버튼이 있습니다.
 
-* **[!UICONTROL 닫기]** 또는 **[!UICONTROL 취소]**: 모든 변경 내용이 저장되면 **[!UICONTROL 닫기]** 단추가 편집기를 닫습니다. 저장하지 않은 변경 내용이 있으면 **[!UICONTROL 취소] 단추를 클릭하여 해당 변경 내용을 저장하지 않고 편집기를 닫습니다.
+* **[!UICONTROL 닫기]** 또는 **[!UICONTROL 취소]**: 모든 변경 내용이 저장되면 **[!UICONTROL 닫기]** 단추가 편집기를 닫습니다. 저장하지 않은 변경 내용이 있는 경우 **[!UICONTROL 취소]** 단추를 누르면 해당 변경 내용을 저장하지 않고 편집기가 닫힙니다.
 * **[!UICONTROL 저장]**: 모든 구성 요소를 저장하고 편집기를 열어 둡니다.
 * **[!UICONTROL 저장 후 완료]**: 모든 구성 요소를 저장하고 편집기를 닫습니다.
 
