@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d48a6fc306a84eeeb189e1b272bfded7ed26ed70
+source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &q
 
 자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
 
-## 1단계: Quantum 지표 데이터를 수용할 스키마 필드 만들기
+## 1단계: Quantum 지표 세션 ID를 수용할 스키마 필드 만들기
 
 이 사용 사례는에 데이터를 전송할 전용 스키마 필드가 필요합니다. 스키마의 원하는 위치에 이 필드를 만들고 원하는 이름으로 지정할 수 있습니다. 조직에 이름 또는 위치에 대한 기본 설정이 없는 경우 예제 값이 제공됩니다.
 
@@ -32,7 +32,7 @@ Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &q
 1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 스키마]**&#x200B;로 이동합니다.
 1. 목록에서 원하는 스키마를 선택합니다.
 1. 원하는 개체 옆에 있는 ![필드 추가 아이콘](/help/assets/icons/AddCircle.svg) 아이콘을 선택합니다. 예를 들어 `Implementation Details` 옆에 있을 수 있습니다.
-1. 오른쪽에서 원하는 [!UICONTROL 이름]을(를) 입력합니다. (예: `qmSessionId`)
+1. 오른쪽에서 원하는 [!UICONTROL 이름]을 입력합니다. (예: `qmSessionId`)
 1. 원하는 [!UICONTROL 표시 이름]을 입력하십시오. (예: `Quantum Metric session ID`)
 1. [!UICONTROL Type]을(를) **[!UICONTROL String]**(으)로 선택하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
