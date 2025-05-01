@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 87%
+source-wordcount: '884'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 이 기술 설명서 가이드는 Customer Journey Analytics에 대한 자가 진단 지원을 제공합니다. Customer Journey Analytics를 사용하면 선택한 모든 채널(온라인 및 오프라인)의 고객 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 현재 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다.
 
-Customer Journey Analytics을 사용하면 Analysis Workspace에서 임의 일반 고객 ID의 온라인과 오프라인 데이터를 연결하는 방법을 제어할 수 있으므로 속성, 세그먼트, 흐름, 폴아웃 등을 수행할 수 있습니다. 속성, 필터, 플로우, 폴아웃 등을 수행할 수 있습니다.
+Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일반 고객 ID의 온라인과 오프라인 데이터를 연결하는 방법을 제어할 수 있으며, 이를 통해 고객 데이터 간의 속성, 필터, 플로우, 폴아웃 등을 수행할 수 있습니다.
 
 ## 새로운 기능
 
@@ -23,37 +23,44 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 >[!BEGINTABS]
 
->[!TAB Content Analytics]
+>[!TAB 콘텐츠 분석]
 
 Adobe Content Analytics를 사용하면 대량의 콘텐츠 데이터를 빠르고 쉽게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다.
 
-[![image](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
+[![이미지](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
+
+>[!TAB 공유된 지표 및 차원]
+
+공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 특히 여러 데이터 보기를 사용하는 조직에서 공통 구성 요소 설정을 공유하는 경우 유용합니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
 >[!TAB AI 어시스턴트]
 
 AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
 
-[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
+[![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 
 >[!TAB 가이드 분석]
 
 이제 Analysis Workspace 내에서 직접 가이드 분석을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다.
 
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB 지능형 캡션 v2]
+>[!TAB 인텔리전트 캡션 v2]
 
-이제 추가 인터페이스 개선과 함께 [Line](/help/analysis-workspace/visualizations/line.md)(여러 줄 포함), [Bar](/help/analysis-workspace/visualizations/bar.md), [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md)(여러 영역 줄 포함), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) 시각화에 대한 지능형 캡션이 지원됩니다.
+이제 추가 인터페이스 개선을 통해 [라인](/help/analysis-workspace/visualizations/line.md)(여러 줄 포함), [막대](/help/analysis-workspace/visualizations/bar.md), [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md), [영역](/help/analysis-workspace/visualizations/area.md)(여러 영역 라인 포함), [도넛](/help/analysis-workspace/visualizations/donut.md), [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) 시각화에 대한 인텔리전스 캡션이 지원됩니다.
 
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB 경고]
 
 경고 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다. 경고가 얼마나 자주 실행되는지 미리 보고, 이메일이나 SMS로 경고를 보내고, 누적된 경고를 만드는 등의 작업을 수행할 수 있습니다.
 
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
 
 >[!TAB 요약 데이터]
 
@@ -62,21 +69,21 @@ AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자�
 - 이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다.
 - 매시간 또는 매일 대상이나 목표를 업로드한 다음 이벤트 수준 지표에 대해 이들 대상 또는 목표를 배치합니다.
 
-[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+[![이미지](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
 
 >[!TAB 그래프 기반 스티칭*]
 
 그래프 기반 결합을 통해 Experience Platform ID 서비스의 아이덴티티 그래프를 사용하면 다음 작업을 수행하여 고객 여정을 더 효과적으로 확인할 수 있습니다. <ul><li>추가 데이터를 추출, 변환 및 로드하여 단일 식별자를 반영할 필요 없이 다양한 식별자를 사용하여 데이터 세트를 결합합니다.</li> <li>데이터 세트 전체에서 ID를 공유하여 단일 데이터 세트에 대한 기본 ID 또는 골든 ID의 적용 범위를 개선합니다.</li><li>Real-Time Customer Data Platform 및 Journey Optimizer에서 생성된 프로필을 Customer Journey Analytics의 사람들과 맞춥니다.</li></ul>
 
-[![image](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+[![이미지](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_그래프 기반 스티칭을 위해서는 Prime 패키지가 필요합니다._*
 
 >[!TAB BI 확장 기능*]
 
-BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. 이제 즐겨 찾는 BI 도구(Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook 및 RStudio)를 사용하여 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에서 사용하는 것과 동일한 데이터 보기를 기반으로 보고 및 대시보드를 만들 수 있습니다. [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)가 제공됩니다.
+BI 확장 기능을 통해 SQL은 Customer Journey Analytics에서 정의한 데이터 보기에 액세스할 수 있습니다. 이제 Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook, RStudio 등 선호하는 BI 도구를 사용하여 Customer Journey Analytics 사용자가 Analysis Workspace 프로젝트에서 사용하는 것과 동일한 데이터 보기를 기반으로 보고서와 대시보드를 만들 수 있습니다. [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)가 제공됩니다.
 
-[![image](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
+[![이미지](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
 *_BI 확장 기능을 사용하려면 Select 패키지 이상이 필요합니다._*
 
