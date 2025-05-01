@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '6794'
+source-wordcount: '6802'
 ht-degree: 63%
 
 ---
@@ -331,8 +331,8 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="일치하는 키"
->abstract="일치하는 키 또는 일치하는 컨테이너를 기준으로 연결 방법을 선택합니다.<br/><br/>**[!UICONTROL 일치하는 키&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 일치하는 컨테이너]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
+>title="키 유형 일치"
+>abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너로 일치]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -446,8 +446,8 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
->title="일치하는 키"
->abstract="일치하는 키 또는 일치하는 컨테이너를 기준으로 연결 방법을 선택합니다.<br/><br/>**[!UICONTROL 일치하는 키&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 일치하는 컨테이너]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
+>title="키 유형 일치"
+>abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너로 일치]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
