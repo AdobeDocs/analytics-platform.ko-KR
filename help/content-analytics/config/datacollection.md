@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
+source-git-commit: d695fcb8dbd98675914c687f3dfaf8c5f0017073
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 88%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 ## 기능
 
-콘텐츠 분석은 콘텐츠 이벤트 데이터를 수집하기 위해 Experience Platform Edge Network Web SDK를 필요로 합니다. 해당 이벤트 데이터 수집은 Experience Platform Edge Network(Web SDK, Server API)나 Analytics 소스 커넥터(예: AppMeasurement 사용)와 같은 메커니즘을 통해 동작 이벤트 데이터의 (기존) 데이터 수집과 결합됩니다.
+콘텐츠 분석은 콘텐츠 이벤트 데이터를 수집하기 위해 Experience Platform Edge Network Web SDK를 필요로 합니다. 해당 이벤트 데이터 수집은 Experience Platform Edge Network(웹 SDK, 서버 API) 또는 Analytics 소스 커넥터(예: AppMeasurement 사용)와 같은 메커니즘을 통해 동작 이벤트 데이터의 (기존) 데이터 수집과 결합됩니다.
 
 콘텐츠 분석 라이브러리는 다음과 같은 경우 데이터를 수집합니다.
 
