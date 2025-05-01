@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Customer Journey Analytics B2B edition에서 계정 기반 연결에 대해 [데
 ## 개인 및 계정 기반 데이터 보고
 
 사용자 기반 컨테이너(및 개인 ID)와 계정 기반 컨테이너(및 계정 ID)에 대해 보고하려면 Customer Journey Analytics 내에서 두 개의 개별 연결을 설정해야 합니다. 개인을 기본 ID로 선택하는 연결과 계정을 기본 ID로 선택하는 연결입니다. Customer Journey Analytics은 단일 컨테이너 계층에서 개인 기반 및 계정 기반 보고를 지원하지 않습니다.
+

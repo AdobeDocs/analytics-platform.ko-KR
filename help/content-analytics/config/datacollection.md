@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: d695fcb8dbd98675914c687f3dfaf8c5f0017073
+source-git-commit: 63c6a5d6148c1562b7f6ac8e4a1cac5919e2dd2e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 82%
@@ -15,7 +15,6 @@ ht-degree: 82%
 # 콘텐츠 분석 데이터 수집
 
 이 문서에서는 콘텐츠 분석이 데이터를 수집하는 방법을 자세히 설명합니다.
-
 
 ## 정의
 
@@ -40,7 +39,6 @@ ht-degree: 82%
 * 페이지 URL이 태그 라이브러리의 일부로 포함된 [콘텐츠 분석 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}에서 구성된 경우
 
 
-
 ## 콘텐츠 분석 이벤트
 
 콘텐츠 분석 이벤트는 다음으로 구성됩니다.
@@ -52,7 +50,6 @@ ht-degree: 82%
 * 경험 클릭 수(있는 경우 및 구성된 경우)
 * 자산 조회수(있는 경우 및 구성된 경우)
 * 자산 클릭 수(있는 경우 및 구성된 경우)
-
 
 콘텐츠 분석 이벤트는 다음의 시퀀스로 수집됩니다.
 
