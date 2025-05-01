@@ -4,10 +4,10 @@ description: 보고에 사용할 날짜 범위를 만듭니다.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 79%
 
 ![주석 만들기](assets/create-date-range.png)
 
-* **A** - 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
-* **B** - Workspace 프로젝트의 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 이 날짜 범위에 대한 사용자 지정 날짜 범위]**&#x200B;를 선택합니다.
-* **C** - Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 날짜 범위 만들기]**&#x200B;를 선택합니다.
-* **D** - Workspace 프로젝트에서 바로 가기 **[!UICONTROL ctrl+shift+d]**(Windows) 또는 **[!UICONTROL shift+command+d]**(macOS)를 사용합니다.
-* **전자** - Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![달력](/help/assets/icons/Calendar.svg) **날짜 범위**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
-* **F** - 선 시각화와 같은 지원되는 시각화에서 데이터 요소의 상황에 맞는 메뉴에서 **[!UICONTROL 주석 선택]**&#x200B;을 선택합니다.
+* **A** - 메인 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다. [[!UICONTROL 날짜 범위] 관리자](/help/components/date-ranges/manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+* **B** - Workspace 프로젝트, 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**&#x200B;를 선택합니다.
+* **C** - Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 날짜 **[!UICONTROL 범위 만들기]**&#x200B;를 선택합니다.
+* **D** - Workspace 프로젝트에서 단축키 **[!UICONTROL Ctrl+Shift+d]**(Windows) 또는 **[!UICONTROL Shift+Command+d]**(macOS)를 사용합니다.
+* **E** - Workspace 프로젝트, 왼쪽 패널의 구성 요소에서 ![캘린더](/help/assets/icons/Calendar.svg) **날짜 범위**&#x200B;에 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* **F** - 지원되는 시각화(예: 라인 시각화)에서 데이터 포인트의 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에 주석 달기]**&#x200B;를 선택합니다.
 
 주석을 정의하려면 다음 [[!UICONTROL 날짜 범위 빌더]](#annotation-builder)를 사용합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 79%
 1. 원할 경우, **[!UICONTROL 설명]**&#x200B;을 지정합니다.
 1. 하나 이상의 **[!UICONTROL 태그]**&#x200B;를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다.
 1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 **[!UICONTROL 날짜 범위]**를 선택합니다.
-또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택할 수 있습니다.
+또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을(를) 선택할 수 있습니다.
 
 1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행하십시오.
 

@@ -4,10 +4,10 @@ title: 빠른 인사이트 패널
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 94%
+source-wordcount: '1154'
+ht-degree: 95%
 
 ---
 
@@ -37,10 +37,10 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 * 어떤 시각화가 가장 유용한지,
 * 어떤 차원 및 지표가 인사이트를 용이하게 하는지,
 * 항목을 끌어다 놓을 위치,
-* 세그먼트를 만들 위치,
+* 세그먼트를 만들 위치
 * 등
 
-이러한 질문에 답변으로 [!UICONTROL 빠른 인사이트]는 가장 많이 사용되는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 목록에 [!UICONTROL POPULAR]&#x200B;(으)로 태그가 지정된 차원, 지표 및 세그먼트가 표시됩니다.
+이러한 질문에 답변으로 [!UICONTROL 빠른 인사이트]는 가장 많이 사용되는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 메뉴에 [!UICONTROL POPULAR] 태그가 지정된 차원, 지표 및 세그먼트가 표시됩니다.
 
 ![빠른 인사이트 패널입니다.](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 | [!UICONTROL 지표] | 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 사용자 활동에 대한 수량 정보입니다. |
 | **[!UICONTROL 시각화]** | Workspace에서는 데이터를 시각적으로 나타낼 수 있도록 해 주는 [다양한 시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다. 막대 그래프, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터. |
 | **[!UICONTROL 차원 분류]** | 차원 분류는 차원을 다른 차원으로 분류하는 방법입니다. 예를 들어 미국 주를 모바일 디바이스별로 분류하여 주별 모바일 디바이스 방문수를 확인할 수 있습니다. 또는 모바일 디바이스 유형별로, 지역별, 내부 캠페인 등으로 분류할 수 있습니다. |
-| **[!UICONTROL 세그먼트]** | 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다. 예를 들어 다음을 기반으로 [!UICONTROL 사람] 세그먼트를 만들 수 있습니다. <li>속성: 브라우저 유형, 디바이스, 방문 수, 국가, 성별 또는</li><li>상호 작용: 캠페인, 키워드 검색, 검색 엔진 또는</li><li>종료 및 항목: Facebook 사용자, 정의된 랜딩 페이지, 참조 도메인 또는</li><li> 사용자 정의 변수: 양식 필드, 정의된 범주, 고객 ID. |
+| **[!UICONTROL 세그먼트]** | 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다. 예를 들어 다음 속성을 기반으로 [!UICONTROL 사용자] 세그먼트를 만들 수 있음: <li>속성: 브라우저 유형, 디바이스, 방문 수, 국가, 성별 또는</li><li>상호 작용: 캠페인, 키워드 검색, 검색 엔진 또는</li><li>종료 및 항목: Facebook 사용자, 정의된 랜딩 페이지, 참조 도메인 또는</li><li> 사용자 정의 변수: 양식 필드, 정의된 카테고리, 고객 ID. |
 
 ## 사용
 
@@ -83,7 +83,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 * **[!UICONTROL 분석]** - 차원 지정(주황색)
 * **[!UICONTROL 지표 기준]** - 지표 지정(녹색)
-* **[!UICONTROL 세그먼트별]** - 세그먼트 지정(파란색)
+* **[!UICONTROL 세그먼트화 기준]** - 세그먼트 지정(파란색)
 * **[!UICONTROL 범위]** - 날짜 범위를 지정합니다(자주색).
 
 시각화가 올바르게 작동하도록 하나 이상의 차원과 지표를 선택해야 합니다.
@@ -94,7 +94,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 * 왼쪽 패널에서 구성 요소를 드래그 앤 드롭합니다.
 * 빌딩 블록 필드 중 하나에 입력을 시작합니다. 입력이 발견되면 가능한 값이 빌딩 블록 필드에 자동으로 채워집니다.
-* 빌딩 블록 드롭다운을 지정하고(예: **[!UICONTROL 분석]**&#x200B;의 `Country`) 사용하려는 값(예: **[!UICONTROL 국가 코드]**)에 대한 가능한 값 목록을 검색합니다(![ChevronRight](/help/assets/icons/ChevronRight.svg) 사용).
+* 빌딩 블록 드롭다운 메뉴(예: **[!UICONTROL Analyze]**&#x200B;의 `Country`)를 지정하고 사용할 값(예: **[!UICONTROL 국가 코드]**)에 대해 가능한 값 목록(![V자형 화살표](/help/assets/icons/ChevronRight.svg) 사용)을 검색합니다.
 
 **[!UICONTROL 지우기]**&#x200B;를 선택하여 입력 필드를 모두 지웁니다.
 
@@ -105,7 +105,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
    ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
 
-   * 지난 12개월 동안 웹 세션으로 세그먼트화된 차원(국가 코드) 및 지표(세션)가 있는 자유 형식 테이블입니다.
+   * 지난 12개월 동안의 웹 세션을 기준으로 세그먼트화된 차원(국가 코드)과 지표(세션)가 있는 자유 형식 테이블입니다.
 
    * 함께 제공되는 시각화(이 경우 [막대 그래프](/help/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 테이블에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/개월당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: [!UICONTROL 디바이스]당 [!UICONTROL 세션])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
@@ -129,7 +129,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
    * 더 많은 지표 **[!UICONTROL 기준]** 추가: 최대 2개의 지표를 추가할 수 있습니다. 다음 항목을 참조하십시오.
 
-   * **[!UICONTROL 세그먼트별]**: 최대 2개의 세그먼트를 더 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. 다음 항목을 참조하십시오.
+   * **[!UICONTROL 세그먼트화 기준]**: 최대 2개의 세그먼트를 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. 다음 항목을 참조하십시오.
 
    * 범위: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
 

@@ -4,10 +4,10 @@ title: 폴아웃 시각화 구성
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 ## 사용
 
 1. ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 폴아웃]** 시각화를 추가합니다. [패널 내에 시각화 추가](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
-1. 예를 들어 페이지 차원에서 홈으로 페이지를 끌어와 *터치포인트 추가* 드롭다운 메뉴로 이동합니다.
+1. 페이지 차원에서 *터치포인트 추가* 드롭다운 메뉴로 페이지(예: 홈)를 드래그합니다.
 
    ![홈 페이지 차원에서 터치포인트 추가 필드로 끌어온 홈 페이지.](assets/fallout-drag.png)
 

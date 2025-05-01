@@ -5,10 +5,10 @@ title: Workspace의 폴더 관리
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -44,7 +44,7 @@ Workspace에서 폴더를 이동하는 방법:
 * [프로젝트 목록](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 이동하려는 폴더를 선택합니다.
 
    1. 선택한 폴더의 ![More](/help/assets/icons/More.svg) 컨텍스트 메뉴 또는 파란색 작업 표시줄에 제공되는 [액션](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)에서 **[!UICONTROL 다음으로 이동]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL 폴더 선택]** 대화 상자에서 폴더를 이동할 **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더를 선택합니다.
+   1. **[!UICONTROL 폴더 선택]** 대화 상자의 **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더를 선택하여 폴더로 이동합니다.
 
    1. **[!UICONTROL 이동]**&#x200B;을 선택합니다.
 
@@ -52,7 +52,7 @@ Workspace에서 폴더를 이동하는 방법:
 
    1. [제목 영역](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)의 ![More](/help/assets/icons/More.svg)에서 **[!UICONTROL 폴더 이동]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 폴더 선택]** 대화 상자에서 폴더를 이동할 **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더를 선택합니다.
+   1. **[!UICONTROL 폴더 선택]** 대화 상자의 **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더를 선택하여 폴더로 이동합니다.
 
    1. **[!UICONTROL 이동]**&#x200B;을 선택합니다.
 

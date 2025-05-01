@@ -2,9 +2,9 @@
 title: 공유 구성 요소 편집기
 description: 공유 차원 및 지표를 만들거나 편집합니다.
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
-source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * **스키마 필드 선택기**: 원하는 스키마 필드를 찾아 포함된 구성 요소 영역으로 끌어서 놓습니다.
    * **연결**: 활성 연결입니다. [공유 지표 및 차원 관리자](smd-overview.md)에서 활성 연결을 변경합니다.
-   * **구성 요소 목록 드롭다운**: [!UICONTROL 스키마 필드]&#x200B;(새로운 공유 차원 및 지표) 또는 [!UICONTROL 지표 및 차원]&#x200B;(기존 공유 구성 요소) 중에서 선택할 수 있습니다.
+   * **구성 요소 목록**: 드롭다운 메뉴에서 [!UICONTROL 스키마 필드]&#x200B;(새로운 공유 차원 및 지표) 또는 [!UICONTROL 지표 및 차원]&#x200B;(기존 공유 구성 요소)을 선택할 수 있습니다.
    * **검색**: ![검색 아이콘](/help/assets/icons/Search.svg) 텍스트 검색을 사용하여 원하는 스키마 필드 또는 공유 구성 요소를 이름별로 찾습니다. ![필터 아이콘](/help/assets/icons/Filter.svg) 필터를 사용하여 구성 요소 목록의 범위를 좁힐 수도 있습니다. `Is not deprecated` 필터는 기본적으로 활성화되어 있습니다.
    * **파생 필드 만들기**: [파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md).
 * **포함된 구성 요소**: 공유하도록 구성하는 구성 요소입니다. 공유 구성 요소를 만들 때 두 개 이상의 스키마 필드를 이 영역으로 드래그하여 여러 구성 요소를 동시에 만들 수 있습니다. 공유 구성 요소를 편집할 때 편집할 여러 구성 요소를 선택할 수 있습니다. 이 구성 요소에는 이 영역에서 선택한 모든 구성 요소가 나열됩니다.

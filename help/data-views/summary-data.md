@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 99%
+source-wordcount: '1147'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Customer Journey Analytics에서 요약 데이터를 활용하고, 보고하고,
 
 ### 세부 기간 및 시간대
 
-Customer Journey Analytics에서 요약 데이터가 포함된 데이터 세트를 구성할 때 세부 기간이 데이터에서 자동으로 파생된다는 점을 알 수 있습니다. **[!UICONTROL 타임스탬프]** 및 **[!UICONTROL 시간대]** 드롭다운 선택 항목은 둘 다 스키마 정의에서 파생되므로 비활성화됩니다.
+Customer Journey Analytics에서 요약 데이터가 포함된 데이터 세트를 구성할 때 세부 기간이 데이터에서 자동으로 파생된다는 점을 알 수 있습니다. **[!UICONTROL 타임스탬프]** 및 **[!UICONTROL 시간대]** 드롭다운 메뉴에 대한 선택 항목이 둘 다 스키마 정의에서 파생되었으므로 비활성화됩니다.
 
 #### 세부 기간
 
@@ -154,5 +154,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 요약 데이터를 사용하고 보고하는 방법에 대한 자세한 사용 사례 예제는 [요약 데이터 사용](/help/use-cases/data-views/summary-data.md) 문서에서 확인하십시오.
->- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상시키는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+>- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

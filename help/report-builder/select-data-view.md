@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 데이터 보기 선택
 
-드롭다운 목록에서 데이터 보기를 선택하거나 셀에서 데이터 보기를 선택하여 데이터 블록을 새 데이터 보기로 자동으로 업데이트할 수 있습니다.
+드롭다운 메뉴에서 데이터 보기를 선택하거나 셀에서 데이터 보기를 선택하여 데이터 블록을 새 데이터 보기로 자동으로 업데이트할 수 있습니다.
 
 ## 셀에서 데이터 보기 선택
 

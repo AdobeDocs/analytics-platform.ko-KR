@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 예측 표시]** | 예측 값을 표시하여 선 그래프와 자유 형식 테이블을 향상시킵니다. |
 | **[!UICONTROL 최소 표시]** | 시각화에 최소값을 보여 줍니다. |
 | **[!UICONTROL 최대 표시]** | 시각화에 최대값을 보여 줍니다. |
-| **[!UICONTROL 트렌드 라인 표시]** | 시각화에 트렌드 라인을 표시합니다. 선택하면 드롭다운 메뉴에서 트렌드 라인 유형을 선택할 수 있습니다. |
+| **[!UICONTROL 트렌드 라인 표시]** | 시각화에 트렌드 라인을 표시합니다. 선택하면 드롭다운 메뉴에서 추세선 유형을 선택할 수 있습니다. |
 
 생성한 모든 시각화에 대한 설정을 사용자 정의할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analysis-workspace/user-preferences.md)을 참조하십시오.
 
@@ -141,9 +141,9 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
 | **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 데이터를 복사합니다. |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
-| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 장치에 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
-| **[!UICONTROL 데이터 CSV 다운로드]** | 시각화에 표시된 데이터를 로컬 장치에 다운로드합니다. |
+| **[!UICONTROL 데이터 CSV 다운로드]** | 시각화에 표시된 데이터를 로컬 디바이스에 다운로드합니다. |
 | **[!UICONTROL 전체 테이블 내보내기]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [Customer Journey Analytics 보고서를 클라우드로 내보내기](../export/export-cloud.md) 참조 |
 | **[!UICONTROL 시각화 복제]** | 시각화를 정확하게 복제합니다. |
 | **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. [텍스트](text.md)를 확인합니다. |
@@ -158,6 +158,6 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 ## 시각화
 
-어떤 시각화를 선택할지 확실하지 않은 경우, 자유 형식 테이블 행에서 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 시각화]**&#x200B;를 선택합니다(마우스를 올려 놓으면 사용 가능). 이 선택 방법은 시각화를 추가하는 가장 빠른 방법입니다. Analysis Workspace는 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화를 추정합니다. 예를 들어 1개의 행을 선택한 경우 트렌드 [선 그래프](line.md)가 생성됩니다. 세 개의 세그먼트 행을 선택한 경우 [벤](venn.md) 다이어그램이 만들어집니다.
+어떤 시각화를 선택할지 확실하지 않은 경우, 자유 형식 테이블 행에서 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 시각화]**&#x200B;를 선택합니다(마우스를 올려 놓으면 사용 가능). 이 선택 방법은 시각화를 추가하는 가장 빠른 방법입니다. Analysis Workspace는 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화를 추정합니다. 예를 들어 1개의 행을 선택한 경우 트렌드 [선 그래프](line.md)가 생성됩니다. 3개의 세그먼트 행을 선택한 경우 [벤](venn.md) 다이어그램이 생성됩니다.
 
 ![빠른 시각화](assets/quick-viz.png)

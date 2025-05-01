@@ -5,10 +5,10 @@ title: 폴더를 추가하거나 이동
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. 가능한 [액션](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) 목록에서 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **다음으로 이동**&#x200B;을 선택합니다. **[!UICONTROL 폴더 선택]** 대화 상자가 표시됩니다.
 
-1. **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더 이름을 선택합니다. 드롭다운을 사용하면 폴더 계층 구조를 트래버스하여 모든 수준의 하위 폴더를 선택할 수 있습니다.
+1. **[!UICONTROL 폴더]** 드롭다운 메뉴에서 폴더 이름을 선택합니다. 드롭다운 메뉴를 사용하여 폴더 계층 구조를 탐색하여 원하는 수준에서 하위 폴더를 선택할 수 있습니다.
 
    ![The Select Folder view showing the drop down menu and available subfolders.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 

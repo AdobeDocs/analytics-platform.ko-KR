@@ -1,13 +1,13 @@
 ---
 title: 고급 함수
-description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
+description: 함수 드롭다운 메뉴에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '5247'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
 
-적용 가능하고 관련이 있는 경우 함수에는 함수 유형 [!BADGE 테이블]{type="Neutral"} 또는 [!BADGE 행]{type="Neutral"}(으)로 주석이 추가됩니다.
+해당 및 관련이 있는 경우 함수에 함수 유형이 주석([!BADGE 테이블]{type="Neutral"} 또는 [!BADGE 행]{type="Neutral"})으로 표시됩니다.
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
@@ -116,7 +116,7 @@ ht-degree: 89%
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(지표)]**
 
 
-[!BADGE Row]{type="Neutral"} 숫자의 아크사인 또는 역사인을 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
+[!BADGE 행]{type="Neutral"} 숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -139,7 +139,7 @@ ht-degree: 89%
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(지표)]**
 
 
-[!BADGE Row]{type="Neutral"} 숫자의 아크탄젠트 또는 역탄젠트를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
+[!BADGE 행]{type="Neutral"} 숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -221,7 +221,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(지표)]**
 
-[!BADGE Row]{type="Neutral"} 주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오.
+[!BADGE 행]{type="Neutral"} 주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -315,7 +315,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(지표)]**
 
-[!BADGE 행]{type="Neutral"}은(는) 지정된 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
+[!BADGE 행]{type="Neutral"} 주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -419,7 +419,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -533,7 +533,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Row]{type="Neutral"}은(는) 주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오.
+[!BADGE 행]{type="Neutral"} 주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -558,7 +558,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 기본 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -583,7 +583,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 기본 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -605,7 +605,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(지표)]**
 
 
-[!BADGE Row]{type="Neutral"} 숫자의 쌍곡코사인을 반환합니다.
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡코사인을 반환합니다.
 
 
 | 인수 | 설명 |
@@ -627,7 +627,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(지표)]**
 
-[!BADGE Row]{type="Neutral"} 숫자의 쌍곡사인을 반환합니다.
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡사인을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -647,7 +647,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(지표)]**
 
-[!BADGE Row]{type="Neutral"} 숫자의 쌍곡탄젠트를 반환합니다.
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡탄젠트를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -668,7 +668,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE 행]{type="Neutral"} 조건 매개 변수의 값이 0이 아닌 경우 결과는 value_if_true 매개 변수의 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다.
+[!BADGE 행]{type="Neutral"} 조건 매개변수 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다.
 
 
 | 인수 | 설명 |
@@ -696,7 +696,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -721,7 +721,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -740,7 +740,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 <!-- markdownlint-enable MD034 -->
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(정규화-컨테이너, 성공-지표, 제어)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LIFT(정규화 컨테이너, 성공 지표, 제어)]**
 
 제어 값과 비교한 비율의 상승도입니다.
 
@@ -791,7 +791,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. b 반환
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. b를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -816,7 +816,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 행]{type="Neutral"} 선형 회귀: Y = a X + b. Y 반환
+[!BADGE 행]{type="Neutral"} 선형 회귀: Y = a X + b. Y를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -840,7 +840,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. a 반환
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -863,7 +863,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(지표)]**
 
 
-[!BADGE Row]{type="Neutral"} 숫자의 밑이 10인 로그를 반환합니다.
+[!BADGE 행]{type="Neutral"} 숫자의 밑이 10인 로그를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -1024,7 +1024,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 | 인수 | 설명 |
 |---|---|
 | metric_X | 비교하는 데 사용할 지표입니다. |
-| metric_Y | 비교하는 데 사용할 지표입니다. |
+| metric_Y | 비교 대상으로 사용할 지표입니다. |
 
 ### 예
 
@@ -1045,7 +1045,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE 행]{type="Neutral"} 연결 끊기 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
+[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 
 | 인수 | 설명 |
@@ -1201,7 +1201,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, a 반환
+[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1223,7 +1223,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, Y 반환
+[!BADGE 행]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, Y를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1245,7 +1245,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, b 반환
+[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1353,9 +1353,9 @@ Pi: 3.14159... 반환
 >title="표본 분산"
 >abstract="공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기에서 N은 표준화 컨테이너의 개수입니다. <br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다."
 
-![효과](/help/assets/icons/Effect.svg) **[!UICONTROL 샘플 분산(정규화-컨테이너, 성공-지표)]**
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(정규화 컨테이너, 성공 지표)]**
 
-샘플 분산의 추정치를 계산합니다.
+표본 분산의 추정치를 계산합니다.
 
 | 인수 | 설명 |
 | --- | --- |
@@ -1380,7 +1380,7 @@ Pi: 3.14159... 반환
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(지표)]**
 
 
-[!BADGE Row]{type="Neutral"}은(는) 지정한 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
+[!BADGE 행]{type="Neutral"} 주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -1492,7 +1492,7 @@ T 점수가 x이고 자유도가 n인 m측 검증 T 테스트를 수행합니다
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(지표, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"} 평균에서 표준 편차로 나눈 편차입니다.
+[!BADGE 행]{type="Neutral"} 표준 편차로 나눈 평균과의 편차입니다.
 
 | 인수 | 설명 |
 |---|---|

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 1. 차원을 선택합니다.
 1. ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 요약 데이터 그룹]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 그룹화 만들기]**&#x200B;를 활성화합니다.
-1. 첫 번째 단계에서 선택한 차원과 그룹화할 차원을 **[!UICONTROL 차원]** 드롭다운 목록에서 선택합니다. 드롭다운 목록에서는 이미 데이터 보기에 추가한 차원만 사용할 수 있습니다.
+1. 첫 번째 단계에서 선택한 차원과 그룹화할 **[!UICONTROL Dimension]** 드롭다운 메뉴에서 차원을 선택합니다. 데이터 보기에 이미 추가한 차원만 드롭다운 메뉴에서 사용할 수 있습니다.
 1. 원할 경우, **[!UICONTROL 보고에서 숨기기]**&#x200B;를 활성화하여 그룹화된 차원을 보고에서 숨깁니다. 이 옵션을 활성화하는 것은 그룹화된 차원에서 별도로 **[!UICONTROL 보고서에서 숨기기]**&#x200B;를 구성하는 것과 비슷합니다. 자세한 내용은 [구성 요소 설정](overview.md)을 참조하십시오.
 1. 원할 경우, 그룹화에 차원을 추가하려면 ![추가](/help/assets/icons/Add.svg) **[!UICONTROL 그룹에 차원 추가]**&#x200B;를 선택합니다.<br/>요약 데이터 그룹은 10개로 제한되므로 최대 9개의 차원을 추가할 수 있습니다.
 

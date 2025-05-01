@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '3247'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform:
 
 1. ![쿼리 만들기](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B;쿼리 만들기&#x200B;**]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
 1. 쿼리를 실행하려면 SQL 문을 입력하고 ![재생](assets/Smock_Play_18_N.svg) 버튼을 선택합니다(또는 `[SHIFT]` + `[ENTER]` 누르기).
 
@@ -85,7 +85,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
@@ -110,7 +110,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Power BI에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -153,7 +153,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Tableau Desktop에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -199,7 +199,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Looker에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -226,7 +226,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Jupyter Notebook에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -250,7 +250,7 @@ Adobe Experience Platform:
 
    1. 상단 막대에서 **[!UICONTROL **&#x200B;자격 증명&#x200B;**]**&#x200B;을 선택합니다.
 
-   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스에 대한 `cja` 데이터베이스를 선택합니다. 예 `prod:cja`.
+   1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
    1. Jupyter Notebook에서 필요한 경우 ![복사](assets/Smock_Copy_18_N.svg)를 사용하여 각 Postgres 자격 증명 매개변수([!UICONTROL 호스트], [!UICONTROL 포트], [!UICONTROL 데이터베이스], [!UICONTROL 사용자 이름] 및 기타)를 복사합니다.
 
@@ -366,7 +366,7 @@ HAVING m1 > 100</code></pre>
             </td>
         </tr>
         <tr>
-            <td>고유, 상단 
+            <td>고유, 상단
 차원 값 </td>
             <td>
                 <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
@@ -393,7 +393,7 @@ WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
         <tr>
             <td>다차원
 분류
-및 상위 차이점 </td>
+및 상단 고유 항목 </td>
             <td>
                 <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
 FROM dv1
@@ -410,22 +410,22 @@ FROM dv1</code></pre>
         </tr>
         <tr>
             <td>하위 선택:
-추가 필터링
-결과 </td>
+추가 결과
+필터링 </td>
             <td>
                 <pre><code>SELECT dim1, m1
 FROM (
   SELECT dim1, SUM(metric1) AS m1
   FROM dv1
-  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  DIM1로 그룹화
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  GROUP BY dim1
 )
-위치 dim1('A', 'B')</code></pre>
+WHERE dim1 in ('A', 'B')</code></pre>
             </td>
         </tr>
         <tr>
             <td>하위 선택:
-쿼리 대상
-데이터 보기 </td>
+데이터 보기
+전체 쿼리 </td>
             <td>
                 <pre><code>SELECT key, SUM(m1) AS total
 FROM (
@@ -447,10 +447,10 @@ ORDER BY total</code></pre>
         </tr>
         <tr>
             <td>하위 선택: 
-계층화된 소스, 
-필터링, 
+계층 소스, 
+필터링 
 및 집계 </td>
-            <td>하위 선택을 사용하여 계층화:
+            <td>하위 선택을 사용하여 계층화됨:
 <pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
 FROM (
   SELECT _.dim1,_.m1
@@ -462,7 +462,7 @@ FROM (
 ) rows
 GROUP BY 1
 ORDER BY total</code></pre>
-CTE를 사용하는 레이어:
+CTE WITH를 사용한 계층:
 <pre><code>WITH rows AS (
   WITH _ AS (
     SELECT * FROM data_ares
@@ -477,10 +477,10 @@ GROUP BY rows.item</code></pre>
         </td>
         </tr>
         <tr>
-            <td>다음 위치를 선택합니다.
-다음 항목 앞에 지표 표시
- 또는 와 혼합되어 있습니다.
-차원 </td>
+            <td>지표가 차원
+앞에 있거나
+ 혼합되는
+위치 선택 </td>
             <td>
                 <pre><code>SELECT SUM(metric1) AS m1, dim1
 FROM dv1
@@ -519,7 +519,7 @@ Customer Journey Analytics 작동 방식의 근본적인 특성 때문에 정확
 
 #### 조건부 지표
 
-`SUM` 또는 `COUNT` 함수에 `IF` 또는 `CASE` 절을 포함하여 선택한 지표와 관련된 추가 세그먼트화를 추가할 수 있습니다. 이 조항을 추가하는 것은 Workspace 보고서 테이블의 지표 열에 세그먼트를 적용하는 것과 비슷합니다.
+`SUM` 또는 `COUNT` 함수에 `IF` 또는 `CASE` 절을 임베드하여 선택한 지표와 관련된 세그먼트화를 추가할 수 있습니다. 이러한 절을 추가하는 것은 Workspace 보고서 테이블의 지표 열에 세그먼트를 적용하는 것과 유사합니다.
 
 예:
 
@@ -561,10 +561,10 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 날짜 범위
 
-`daterange` 특수 열은 `timestamp`과(와) 유사하게 작동하지만 세그먼트화는 전체 날짜로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
+`daterange` 특수 열은 `timestamp`와 유사하게 작동하나, 세그먼트화는 하루 종일로 제한됩니다. `daterange`는 옵션이며 범위 기본값은 `timestamp`와 동일합니다.
 `daterange` 필드를 사용하여 날짜/시간 함수에서 이벤트 날짜를 구문 분석하고 자를 수 있습니다.
 
-`daterangeName` 특수 열은 `Last Quarter`과(와) 같은 명명된 날짜 범위를 사용하여 쿼리를 세그먼트화하는 데 사용할 수 있습니다.
+`daterangeName` 특수 열을 사용하면 `Last Quarter`와 같이 이름이 지정된 날짜 범위를 사용하여 쿼리를 세그먼트화할 수 있습니다.
 
 >[!NOTE]
 >
@@ -573,9 +573,9 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 세그먼트 ID
 
-`filterId` 특수 열은 선택 사항이며 외부에서 정의한 세그먼트를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의한 세그먼트를 쿼리에 적용하는 것은 Workspace의 패널에서 세그먼트를 드래그하는 것과 비슷합니다. 여러 세그먼트 ID는 `AND`-ing에서 사용할 수 있습니다.
+`filterId` 특수 열은 옵션이며 외부에서 정의된 세그먼트를 쿼리에 적용하는 데 사용됩니다. 외부에서 정의된 세그먼트를 쿼리에 적용하는 것은 Workspace의 패널에서 세그먼트를 드래그하는 것과 비슷합니다. 여러 세그먼트 ID는 `AND`-ing로 사용할 수 있습니다.
 
-`filterId`과(와) 함께 `filterName`을(를) 사용하여 ID 대신 세그먼트 이름을 사용할 수 있습니다.
+`filterId`과 함께 `filterName` ID 대신 세그먼트 이름을 사용할 수 있습니다.
 
 ### WHERE 절
 
@@ -583,11 +583,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 1. `timestamp`, `daterange` 또는 `daterangeName` 특수 필드에서 날짜 범위를 찾습니다.
 
-1. 세그먼트에 포함할 외부에서 정의된 `filterId` 또는 `filterName`을(를) 찾습니다.
+1. 세그먼트에 포함할 외부에서 정의된 `filterId` 또는 `filterName`을 찾습니다.
 
-1. 나머지 표현식을 임시 세그먼트로 바꿉니다.
+1. 나머지 표현식을 애드혹 세그먼트로 전환합니다.
 
-`WHERE` 절에서 `AND`의 첫 번째 수준을 구문 분석하여 처리됩니다. 각 최상위 `AND`-ed 표현식은 위의 표현식 중 하나와 일치해야 합니다. `AND`의 첫 번째 수준보다 더 깊은 모든 항목 또는 `WHERE` 절이 최상위 수준에서 `OR`을(를) 사용하는 경우 임시 세그먼트로 처리됩니다.
+`WHERE` 절에서 `AND`의 첫 번째 수준을 구문 분석하여 처리됩니다. 각 최상위 `AND`-ed 표현식은 위의 표현식 중 하나와 일치해야 합니다. `AND`의 첫 번째 수준보다 자세한 항목이거나 `WHERE` 절이 최상위 수준에서 `OR`을 사용하는 경우, 애드혹 세그먼트로 처리됩니다.
 
 ### 정렬 순서
 

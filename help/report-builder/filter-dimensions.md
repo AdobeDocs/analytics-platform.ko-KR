@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 33%
@@ -109,7 +109,7 @@ Customer Journey Analytics에서 일부 차원은 *값 없음* 항목을 수집�
 
 필터링 기준을 설정하려면 다음을 수행합니다.
 
-1. 연산자 드롭다운 목록에서 연산자를 선택합니다. 기본적으로 **[!UICONTROL 구문 포함]**&#x200B;이(가) 선택되어 있습니다.
+1. 연산자 드롭다운 메뉴에서 연산자를 선택합니다. 기본적으로 **[!UICONTROL 구문 포함]**&#x200B;이(가) 선택되어 있습니다.
 
    ![연산자 목록입니다.](./assets/image31.png){zoomable="yes"}
 

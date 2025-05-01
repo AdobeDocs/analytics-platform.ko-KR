@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '8844'
+source-wordcount: '8857'
 ht-degree: 99%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 99%
 | A | **규칙 이름** | 기본적으로 규칙 이름은 **규칙 X**(X는 시퀀스 번호를 나타냄)입니다. 규칙의 이름을 편집하려면 해당 이름을 선택하고 새 이름을 입력합니다(예: `Query Parameter`). |
 | B | **함수 이름** | 규칙에 대해 선택된 함수 이름(예: [!UICONTROL URL PARSE]). 함수가 함수 시퀀스의 마지막이고 최종 출력 값을 결정하는 경우, 함수 이름 뒤에 [!UICONTROL - FINAL OUTPUT]이 붙습니다. 예: [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>해당 기능에 대한 자세한 정보가 담긴 팝업을 표시하려면 ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg)을 선택합니다. |
 | C | **규칙 설명** | 선택 사항으로 규칙에 설명을 추가할 수 있습니다.<br/>![자세히 아이콘](assets/More.svg)을 선택한 다음 **[!UICONTROL **&#x200B;설명 추가&#x200B;**]**&#x200B;를 선택하여 설명을 추가하거나 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]**&#x200B;을 선택하여 기존 설명을 편집합니다.<br/>편집기를 사용하여 설명을 입력합니다. 도구 모음을 사용하여 텍스트 서식을 지정할 수 있으며(스타일 선택기, 굵게, 기울임꼴, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 숫자 목록, 글머리 기호 목록 사용) 외부 정보에 대한 링크를 추가할 수 있습니다. <br/>설명 편집을 마치려면 편집기 외부를 클릭합니다. |
-| D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수의 유형에 따라 달라집니다. [!UICONTROL 필드] 또는 [!UICONTROL 값] 드롭다운은 함수가 예상하는 입력 유형에 따라 사용 가능한 모든 필드 카테고리(규칙, 표준 필드, 필드)를 표시합니다. 또는 스키마 및 표준 필드 선택기에서 필드를 끌어다 필드 또는 값에 놓을 수 있습니다. 조회 데이터 세트에서 필드를 끌어온 경우, 정의한 함수 앞에 조회 함수가 자동으로 삽입됩니다. <br/>지원되는 각 함수에 대한 자세한 내용은 [함수 참조](#function-reference)에서 확인하십시오. |
+| D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수의 유형에 따라 달라집니다. [!UICONTROL 필드] 또는 [!UICONTROL 값]에 대한 드롭다운 메뉴에는 함수가 예상하는 입력 유형에 따라 사용할 수 있는 모든 필드 범주(규칙, 표준 필드, 필드)가 표시됩니다. 또는 스키마 및 표준 필드 선택기에서 필드를 끌어다 필드 또는 값에 놓을 수 있습니다. 조회 데이터 세트에서 필드를 끌어온 경우, 정의한 함수 앞에 조회 함수가 자동으로 삽입됩니다. <br/>지원되는 각 함수에 대한 자세한 내용은 [함수 참조](#function-reference)에서 확인하십시오. |
 
 {style="table-layout:auto"}
 
@@ -1536,7 +1536,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 원하는 문자열 출력을 얻기 위해 이러한 시퀀스를 [!UICONTROL 출력 형식]으로 얼마든지 사용할 수 있습니다.
 
-| 출력 자리표시자 시퀀스 | 설명 |
+| 출력 플레이스홀더 시퀀스 | 설명 |
 | --- | --- |
 | `$&` | 전체 표현식과 일치하는 것을 출력합니다. |
 | `$n` | n번째 하위 표현식과 일치하는 것을 출력합니다. 예를 들어 `$1`은 첫 번째 하위 표현식을 출력합니다. |
@@ -1948,7 +1948,7 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 
 - 파생 필드에 대한 규칙을 정의할 때 최대 10개(표준 필드 제외)의 서로 다른 스키마 필드를 사용할 수 있습니다.
    - 이 최대 10개의 서로 다른 스키마 필드 중에서 조회 스키마 또는 프로필 스키마 필드는 최대 3개만 허용됩니다.
-- Customer Journey Analytics 연결당 최대 100개의 파생 필드를 가질 수 있습니다.
+- 라이선스가 부여된 패키지에 따라 Customer Journey Analytics 연결당 최대 파생 필드 수를 가질 수 있습니다. 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}을 참조하세요.
 
 
 ### 함수 제한 사항 요약
@@ -1966,7 +1966,7 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 | <p>필드 병합</p> | <ul><li>파생 필드당 2개 병합 필드 함수</li></ul> |
 | <p>다음 또는 이전</p> | <ul><li>파생 필드당 3개 다음 또는 이전 함수</li></ul> |
 | <p>정규 표현식 바꾸기</p> | <ul><li>파생 필드당 1개 정규 표현식 바꾸기 함수</li></ul> |
-| <p>분할</p> | <ul><li>파생 필드당 2개의 분할 함수</li></ul> |
+| <p>분할</p> | <ul><li>파생 필드당 2개 분할 함수</li></ul> |
 | <p>요약</p> | <ul><li>파생 필드당 3개 요약 함수</li></ul> |
 | <p>트리밍</p> | <ul><li>파생 필드당 1개 트리밍 함수</li></ul> |
 | <p>URL 구문 분석</p> | <ul><li>파생 필드당 5개 URL 구문 분석 함수</li></ul> |
@@ -1996,7 +1996,7 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 
 >[!MORELIKETHIS]
 >
->- [블로그: 데이터를 최대한 활용: Customer Journey Analytics에서 파생된 필드를 사용하기 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [블로그: 파생된 필드에서 Customer Journey Analytics의 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
 >- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 

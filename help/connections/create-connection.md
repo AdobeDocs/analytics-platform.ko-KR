@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '6794'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -558,7 +558,7 @@ ht-degree: 64%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없다면 스키마에 개인 ID가 정의되지 않은 것입니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없다면 스키마에 개인 ID가 정의되지 않은 것입니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
 | **[!UICONTROL 타임스탬프]** | 이 설정은 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형은 다음과 같습니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
 | **[!UICONTROL 데이터 원본 설명]** | 데이터 소스 유형으로 기타 를 선택한 경우 데이터 소스에 대한 설명입니다. |
@@ -578,7 +578,7 @@ ht-degree: 64%
 | **[!UICONTROL 글로벌 계정 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우에 적용할 수 있습니다. |
 | **[!UICONTROL 영업 기회 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 Opportunity ID(Opportunity에 대한 고유 식별자) 를 선택합니다. |
 | **[!UICONTROL 그룹 ID 구매]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다. |
-| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
 | **[!UICONTROL 타임스탬프]** | 이 설정은 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형은 다음과 같습니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
 | **[!UICONTROL 데이터 원본 설명]** | 데이터 소스 유형으로 기타 를 선택한 경우 데이터 소스에 대한 설명입니다. |
@@ -596,7 +596,7 @@ ht-degree: 64%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 스키마에 개인 ID가 정의되지 않습니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 스키마에 개인 ID가 정의되지 않습니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형은 다음과 같습니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
 | **[!UICONTROL 데이터 원본 설명]** | 데이터 소스 유형으로 기타 를 선택한 경우 데이터 소스에 대한 설명입니다. |
 
@@ -608,9 +608,9 @@ ht-degree: 64%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 스키마에 개인 ID가 정의되지 않습니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
-| **[!UICONTROL 전역 계정 필드]** | 사용 가능한 ID의 드롭다운 목록에서 데이터 세트에 대한 계정 기반 보고를 지원할 글로벌 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다. |
-| **[!UICONTROL 계정 필드]** | 사용 가능한 ID의 드롭다운 목록에서 데이터 세트에 대한 계정 기반 보고를 지원할 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우에 적용할 수 있습니다. |
+| **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에서 정의되었습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 스키마에 개인 ID가 정의되지 않습니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+| **[!UICONTROL 전역 계정 필드]** | 사용 가능한 ID의 드롭다운 메뉴에서 데이터 세트에 대한 계정 기반 보고를 지원할 글로벌 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다. |
+| **[!UICONTROL 계정 필드]** | 사용 가능한 ID의 드롭다운 메뉴에서 데이터 세트에 대한 계정 기반 보고를 지원할 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우에 적용할 수 있습니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형은 다음과 같습니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
 | **[!UICONTROL 데이터 원본 설명]** | 데이터 소스 유형으로 기타 를 선택한 경우 데이터 소스에 대한 설명입니다. |
 
@@ -740,7 +740,7 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 | 옵션 | 설명 |
 |---|---|
 | **[!UICONTROL 기본 ID 네임스페이스 사용]** | 이 옵션을 통해 Customer Journey Analytics는 ID 맵에서 `primary=true` 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. 또한 이 ID는 Customer Journey Analytics 개인 ID로 사용하기에 가장 적합한 후보입니다(Customer Journey Analytics 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
-| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)의 구성 요소입니다. 네임스페이스는 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics에서는 사용 중인 네임스페이스가 무엇인지 확인하기 위해서 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 목록에 표시됩니다. 데이터에 지정된 네임스페이스를 알지만 해당 네임스페이스는 자동으로 검색되지 않습니다. |
+| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)의 구성 요소입니다. 네임스페이스는 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics에서는 모든 행을 전체 데이터 세트로 스캔하여 존재하는 네임스페이스를 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 메뉴에 표시됩니다. 데이터에 지정된 네임스페이스를 알지만 해당 네임스페이스는 자동으로 검색되지 않습니다. |
 
 {style="table-layout:auto"}
 

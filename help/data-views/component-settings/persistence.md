@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 바인딩 차원]
 
-차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 목록. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 있습니다.
+차원 값의 지속성을 다른 차원의 차원 값에 바인딩할 수 있는 드롭다운 메뉴입니다. 유효한 옵션에는 데이터 보기에 포함된 다른 차원이 있습니다.
 
 바인딩 차원을 효율적으로 사용하는 방법에 대한 사례는 [Customer Journey Analytics에서 바인딩 차원 및 지표 사용](../../use-cases/data-views/binding-dimensions-metrics.md)을 참조하십시오.
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 바인딩 지표]
 
-바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운 목록. 유효한 옵션에는 데이터 보기에 포함된 지표가 있습니다.
+바인딩 트리거 역할을 하는 지표를 선택할 수 있는 드롭다운 메뉴입니다. 유효한 옵션에는 데이터 보기에 포함된 지표가 있습니다.
 
 이 설정은 바인딩 차원이 구성 요소보다 오브젝트 배열에서 낮은 경우에만 표시됩니다. 바인딩 지표가 이벤트에 있으면 차원 값은 이벤트 수준 차원에서 바인딩 차원의 하위 스키마 수준으로 복사됩니다.
 

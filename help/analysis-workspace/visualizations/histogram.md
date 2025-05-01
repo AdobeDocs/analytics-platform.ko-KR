@@ -4,10 +4,10 @@ title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 히스토그램을 만드는 방법:
 
 1. ![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
-1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나, [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
+1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나 [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
 1. (옵션) **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다. [고급 설정](#advanced-settings)을 확인합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
@@ -58,7 +58,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 | **[!UICONTROL 버킷 시작]** | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨). |
 | **[!UICONTROL 지표 버킷]** | 데이터 범위(버킷)의 개수를 늘리거나 줄일 수 있습니다. 버킷의 최대 개수는 50개입니다. |
 | **[!UICONTROL 지표 버킷 크기]** | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다. |
-| **[!UICONTROL 계산 방법]** | **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL 사람]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]**&#x200B;에서 선택하십시오. 예를 들어 계정당 페이지 보기 수 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, 세션당 페이지 보기 수, 사용자당 페이지 보기 수 또는 이벤트당 페이지 보기 수가 있습니다. |
+| **[!UICONTROL 계산 방법]** | **[!UICONTROL 글로벌 계정]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}), **[!UICONTROL 계정]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}), **[!UICONTROL 구매 그룹]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}), **[!UICONTROL 기회]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}), **[!UICONTROL 개인]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]** 중에서 선택하십시오. 예를 들어 계정당 페이지 조회수([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}), 세션당 페이지 조회수, 개인당 페이지 조회수 또는 이벤트당 페이지 조회수가 있습니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

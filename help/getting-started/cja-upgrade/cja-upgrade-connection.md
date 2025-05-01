@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics를 위한 스키마 만들기
+title: Customer Journey Analytics용 스키마 만들기
 description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1635'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 99%
 
 ## 연결 만들기 및 구성 {#create-connection}
 
-1. Customer Journey Analytics의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
+1. Customer Journey Analytics에서 상단 메뉴의 **[!UICONTROL 데이터 관리]**&#x200B;에서(선택 사항) **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 새 연결 만들기]**&#x200B;를 선택합니다.
 
    ![제목 없는 연결 설정](assets/create-conn1.png)
@@ -52,7 +52,7 @@ ht-degree: 99%
    | **[!UICONTROL 데이터 세트 유형]** | 이 연결에 추가한 각 데이터 세트에 대해 가져오는 데이터를 기반으로 데이터 세트 유형을 Customer Journey Analytics에서 자동으로 설정합니다. 이벤트 데이터, 프로필 데이터 및 조회 데이터의 3가지 데이터 세트 유형이 있습니다. 데이터 세트 유형에 대한 설명은 아래 테이블을 참조하십시오. |
    | **[!UICONTROL 세부 기간]** | 데이터 세트의 데이터 세부 기간입니다. 요약 데이터 세트에만 적용됩니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 세트의 데이터 소스 유형입니다. 요약 데이터 세트에 해당되지 않습니다. |
-   | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>중요: 선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. [이 비디오](https://www.youtube.com/watch?v=G_ttmGl_LRU)를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
+   | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>중요: 선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. [이 비디오](https://www.youtube.com/watch?v=G_ttmGl_LRU)를 보고 Experience Platform에서 ID를 정의하는 방법을 확인하십시오. |
    | **[!UICONTROL 키]** | 조회 데이터 세트(예: _id)에만 해당됩니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트(예: _id)에만 해당됩니다. |
    | **[!UICONTROL 새 데이터 가져오기]** | 켜기 또는 끄기로 설정합니다. |
@@ -75,10 +75,10 @@ ht-degree: 99%
 
    | 열 | 설명 |
    |---|---|
-   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동시킬 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
-   | 데이터 세트 유형 | 데이터 세트 유형: 이벤트, 프로필, 조회 또는 요약. |
+   | 데이터 세트 | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동할 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | 데이터 세트 유형 | 데이터 세트 유형: 이벤트, 프로필, 조회 또는 요약입니다. |
    | 레코드 수 | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
-   | 스키마 | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동시킬 이름을 선택합니다. |
+   | 스키마 | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동할 이름을 선택합니다. |
    | 마지막 배치 | Experience Platform에서 수집된 마지막 배치의 상태입니다. 더 자세한 내용은 [배치 상태](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/batch/troubleshooting#batch-states)를 참조하시기 바랍니다. |
    | 데이터 세트 ID | 데이터 세트의 ID입니다. |
    | 마지막으로 업데이트됨 | 데이터 세트에서 마지막으로 업데이트된 타임스탬프입니다. |
@@ -99,7 +99,7 @@ ht-degree: 99%
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
    | **[!UICONTROL 타임스탬프]** | 이벤트 및 요약 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 조회 데이터 세트에 사용할 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에만 사용할 수 있습니다. 이벤트 데이터 세트 중 하나에 연결할 일치하는 키입니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다. |

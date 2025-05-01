@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 자동으로 생성된 데이터 세트를 Web SDK 구현을 위해 생성한 동일한 연결에 추가하는 방법:
 
-1. Customer Journey Analytics의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
+1. Customer Journey Analytics에서 상단 메뉴의 **[!UICONTROL 데이터 관리]**&#x200B;에서(선택 사항) **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 
 1. [Web SDK 구현을 위해 생성된](/help/getting-started/cja-upgrade/cja-upgrade-connection.md) 연결을 선택합니다.
 
@@ -77,7 +77,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 목록에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
+   | **[!UICONTROL 개인 ID]** | 이벤트 및 프로필 데이터 세트에만 사용할 수 있습니다. 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 아래를 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
    | **[!UICONTROL 타임스탬프]** | 이벤트 및 요약 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
    | **[!UICONTROL 시간대]** | 요약 데이터에만 사용할 수 있습니다. 시계열 요약 데이터에 적합한 시간대를 선택합니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. <br/>데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
@@ -96,9 +96,9 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
    * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜와 동일한 종료 날짜를 선택합니다.
 
-   * 웹 SDK 구현으로 데이터 수집을 처음 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
+   * Web SDK 구현에서 데이터를 처음 수집하기 시작한 날짜 직후의 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
 
-   * 데이터에서 겹치는 부분이 더 큰 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
+   * 데이터가 더 많이 겹치는 종료 날짜를 선택한 다음 데이터 보기 세그먼트를 사용하여 겹치는 데이터를 세그먼트화합니다.
 
      **참고:** 이 옵션은 연결에 더 많은 행이 있기 때문에 비용이 증가할 것입니다.
 

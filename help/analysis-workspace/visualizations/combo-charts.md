@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 1. ![댓글](/help/assets/icons/ComboChart.svg) [!UICONTROL 콤보] 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
-1. 드롭다운 목록에서 X축의 차원과 Y축의 지표를 선택합니다.
+1. 드롭다운 메뉴에서 X축의 차원과 Y축의 지표를 선택합니다.
 
 1. 사용하려는 [!UICONTROL 선 비교] 유형을 선택합니다.
 

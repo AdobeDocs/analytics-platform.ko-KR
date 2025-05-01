@@ -4,10 +4,10 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 92%
 
 1. 테이블의 첫 번째 열의 맨 위에 있는 **[!UICONTROL 행]** 옆의 숫자를 클릭합니다.
 
-   ![표시되는 행의 수에 대한 드롭다운 목록을 보여 주는 자유 형식 테이블. 400개 행이 선택되었습니다.](assets/change-row-count.gif)
+   ![표시되는 행 수에 대한 의 드롭다운 메뉴를 표시하는 자유 형식 테이블입니다. 400개 행이 선택되었습니다.](assets/change-row-count.gif)
 
-1. 드롭다운 목록에서 테이블에 표시할 행 수를 선택합니다.
+1. 드롭다운 메뉴에서 테이블에 표시할 행 수를 선택합니다.
 
 
 ## 컨텍스트 메뉴
@@ -90,4 +90,4 @@ ht-degree: 92%
 
 ## 행 높이 변경
 
-프로젝트의 보기 밀도를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]** 및 **[!UICONTROL 크게]**(으)로 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)
+프로젝트의 보기 밀도를 **[!UICONTROL 축소]**, **[!UICONTROL 편안함]**, **[!UICONTROL 확장됨]**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)

@@ -2,9 +2,9 @@
 title: 공유 지표 및 차원 개요
 description: 여러 데이터 보기에서 동일한 차원 또는 지표 참조를 사용합니다.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
    * **[!UICONTROL 만든 사람]**: 지정한 사용자가 만든 구성 요소만 표시합니다.
    * **[!UICONTROL 중복]**: 다른 구성 요소와 구성 요소 ID가 같은 구성 요소만 표시합니다. 이러한 필터는 개요 카드를 통해 구성 요소를 검토하는 것과 동일합니다.
 * **검색**: ![검색 아이콘](../../assets/icons/Search.svg) 아이콘을 사용하여 이름으로 구성 요소를 검색합니다.
-* **[!UICONTROL 연결]**: [연결](/help/connections/overview.md)을 변경하는 드롭다운. 공유 차원 및 지표는 항상 단일 연결에 한정됩니다.
+* **[!UICONTROL 연결]**: [연결](/help/connections/overview.md)을 변경하는 드롭다운 메뉴입니다. 공유 차원 및 지표는 항상 단일 연결에 한정됩니다.
 * **[!UICONTROL 테이블 사용자 지정]**: 테이블에서 열을 표시하거나 숨기려면 ![테이블 사용자 지정 아이콘](/help/assets/icons/ColumnSetting.svg) 아이콘을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
    * **[!UICONTROL 필드 이름]**: 공유 차원 또는 지표의 이름입니다. 이 필드는 항상 표시됩니다.
    * **[!UICONTROL 유형]**: 구성 요소가 차원인지 지표인지 나타냅니다. 이 필드는 항상 표시됩니다.
