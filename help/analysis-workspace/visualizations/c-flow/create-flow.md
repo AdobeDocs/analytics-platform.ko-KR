@@ -4,10 +4,10 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 87%
+source-wordcount: '1525'
+ht-degree: 86%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 87%
 >id="workspace_flow_container"
 >title="흐름 컨테이너"
 >abstract="경로 지정(번호)을 표시하는 데 사용할 컨테이너를 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="반복 포함(비활성화)"
+>abstract="다중 값 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="반복 포함 "
+>abstract="플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다(예: 페이지 다시 로드)."
+
 
 
 플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
