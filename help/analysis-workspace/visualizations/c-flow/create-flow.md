@@ -4,14 +4,34 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
+source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 86%
+source-wordcount: '1684'
+ht-degree: 80%
 
 ---
 
 # 플로우 시각화 구성 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="다음으로 시작"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="다음 포함"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="다음으로 끝남"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="경로 지정 차원"
+>abstract="선택한 구성요소로 연결되거나 연결되는 경로로 사용할 차원을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -25,8 +45,23 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
->title="반복 포함 "
+>title="반복 포함"
 >abstract="플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다(예: 페이지 다시 로드)."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="처음/마지막 발생으로 제한"
+>abstract="첫 번째/마지막 접점이 시작/종료인 경우 결과는 경로로 제한됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="열 수"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="열당 항목 확장됨"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
 
 
 
