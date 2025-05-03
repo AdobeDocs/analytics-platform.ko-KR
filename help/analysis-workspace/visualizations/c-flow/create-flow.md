@@ -4,10 +4,10 @@ title: 플로우 시각화 구성 방법
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
+source-git-commit: 933b4005724aa438c3daeb58191e940821b5bb5f
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 80%
+source-wordcount: '1709'
+ht-degree: 79%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 80%
 >title="열당 항목 확장됨"
 >abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
 
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="업데이트로 재설정"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
 
 
 플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
