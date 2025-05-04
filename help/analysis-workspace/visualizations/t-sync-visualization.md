@@ -5,10 +5,10 @@ title: 데이터 소스 관리
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 96%
+source-wordcount: '437'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,15 @@ ht-degree: 96%
 >id="workspace_freeformtable_lockselection_showtable"
 >title="테이블 표시"
 >abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_showtable"
+>title="테이블 표시"
+>abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하여 원본 데이터 원본과 별도로 현재 시각화에 대한 새 데이터 원본을 생성합니다."
 
 <!-- markdownlint-enable MD034 -->
 
