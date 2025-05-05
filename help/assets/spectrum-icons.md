@@ -17,7 +17,7 @@ ht-degree: 14%
 
 이 표에는 스펙트럼 아이콘 코드 조각 구성을 통해 사용할 수 있는 모든 스펙트럼 아이콘이 나열되어 있습니다. 이름을 사용하여 Markdown에 코드 조각을 추가하고 Spectrum 아이콘을 표시합니다.
 
-업데이트를 보려면 [Wiki 페이지](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
+업데이트를 보려면 [Wiki 페이지] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 

@@ -87,7 +87,7 @@ Adobe Experience Platform:
 
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
-   1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
+   1. 명령 문자열을 복사하려면 **[!UICONTROL **&#x200B; PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
 1. 명령 또는 터미널 창을 엽니다.
 
@@ -120,9 +120,9 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일에서 **[!UICONTROL 자세히...]**&#x200B;를 선택합니다.
 
-   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL **&#x200B; PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
+   1. **[!UICONTROL **&#x200B; PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -161,7 +161,7 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. 목록에서 **[!UICONTROL ** PostgresSQL **]**&#x200B;을 선택합니다.
+   1. 목록에서 **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**&#x200B;을 선택합니다.
 
    1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행하십시오.
 

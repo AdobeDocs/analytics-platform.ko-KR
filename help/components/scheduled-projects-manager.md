@@ -36,7 +36,7 @@ ht-degree: 16%
 | **[!UICONTROL 빈도]** | 이 일정 프로젝트를 한 명 이상의 수신자에게 보낼 빈도. |
 | **[!UICONTROL 실행 시간]** | 이 예약된 프로젝트를 보내고자 하는 하루 중의 시간 |
 | **[!UICONTROL 쿼리 개수]** | 이 프로젝트에 대한 쿼리 개수 |
-| **** | 예약된 프로젝트에 대해 정의된 가장 긴 날짜 범위입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
+| **&#x200B;**&#x200B;| 예약된 프로젝트에 대해 정의된 가장 긴 날짜 범위입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
 | **[!UICONTROL 쿼리 개수]** | 예약된 프로젝트에 대해 실행된 쿼리 수입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
 
 

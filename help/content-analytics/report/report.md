@@ -65,7 +65,7 @@ Content Analytics에 대한 보고를 처음부터 시작하려면:
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;을(를) 선택합니다.
 1. Content Analytics용으로 구성된 데이터 보기를 선택했는지 확인합니다.
-1. **[!UICONTROL 콘텐츠 분석]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**s의 경우 **[!UICONTROL 참여]**)를 검색하거나 사용하십시오.
+1. **[!UICONTROL 콘텐츠 분석]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**&#x200B;s의 경우 **[!UICONTROL 참여]**)를 검색하거나 사용하십시오.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]** 대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예: **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택하세요.

@@ -51,7 +51,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 여정 캔버스 시각화를 설명합니다.<br/>**Adobe Analytics**&#x200B;에 동일한 시각화가 없습니다._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 여정 캔버스 시각화를 설명합니다.<br/>**Adobe Analytics**&#x200B;에 동일한 시각화가 없습니다._
 
 >[!ENDSHADEBOX]
 
