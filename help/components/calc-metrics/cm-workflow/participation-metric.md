@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리자는 [데이터 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)의 일부로 기여도와 같이 기본값이 아닌 속성 모델을 사용하여 지표를 만들 수 있습니다. 자세한 내용은 [속성 구성 요소 설정](../../../data-views/component-settings/attribution.md)을 참조하십시오.
+>관리자는 [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)의 일부로 기여도와 같이 기본값이 아닌 속성 모델을 사용하여 지표를 만들 수 있습니다. 자세한 내용은 [속성 구성 요소 설정](../../../data-views/component-settings/attribution.md)을 참조하십시오.
 
 아래 단계는 [계산된 지표 만들기 권한](/help/technotes//access-control.md#user-level-access)을 가진 모든 사용자가 기여도 지표를 만드는 방법을 보여 줍니다.
 

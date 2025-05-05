@@ -165,7 +165,7 @@ Customer Journey Analytics의 데이터 보기를 사용하면 세션 지속 시
 
 ### B2B 컨테이너
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)에 대한 액세스 권한이 있는 경우 세그먼트에서 사용할 추가 컨테이너를 사용할 수 있습니다. 이러한 추가 컨테이너의 사용에 대한 자세한 내용은 [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)에서 확인할 수 있습니다.
 

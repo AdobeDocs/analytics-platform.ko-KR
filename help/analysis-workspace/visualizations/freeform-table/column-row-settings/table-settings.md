@@ -90,4 +90,4 @@ ht-degree: 91%
 
 ## 행 높이 변경
 
-프로젝트의 보기 밀도를 **[!UICONTROL 축소]**, **[!UICONTROL 편안함]**, **[!UICONTROL 확장됨]**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)
+프로젝트의 보기 밀도를 **[!UICONTROL 축소]**, **[!UICONTROL 편안함]**, **[!UICONTROL 확장됨]**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)

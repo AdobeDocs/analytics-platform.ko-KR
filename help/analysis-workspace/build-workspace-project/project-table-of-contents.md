@@ -46,4 +46,4 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics의 새로운 목차 기능을 사용하여 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [Adobe Analytics의 새로운 목차 기능을 사용하여 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=ko)

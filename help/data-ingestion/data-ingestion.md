@@ -101,5 +101,5 @@ Adobe 기술을 사용하여 모바일 앱을 분석하거나, 다른 솔루션�
 
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집 자세히 살펴보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집 자세히 살펴보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=ko)
 

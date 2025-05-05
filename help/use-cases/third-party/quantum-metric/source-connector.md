@@ -28,7 +28,7 @@ CJA은 QM 데이터, 순차적 데이터 분석, 풍부한 속성 및 기타 고
 1. [!UICONTROL Experience Platform] > [!UICONTROL 연결] > [!UICONTROL 소스]&#x200B;(으)로 이동합니다.
 1. Quantum Metric 소스 커넥터를 추가하고 프롬프트에 따라 을 완료합니다.
 
-자세한 내용은 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)를 참조하십시오.
+자세한 내용은 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 참조하십시오.
 
 ## 2단계: Customer Journey Analytics에서 연결 만들기
 
@@ -40,7 +40,7 @@ Quantum 지표 데이터에 대한 소스 커넥터를 만들면 Adobe Experienc
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
->양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
+>양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
 
 ## 3단계: Customer Journey Analytics에서 데이터 보기 만들기
 

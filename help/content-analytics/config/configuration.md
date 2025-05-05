@@ -23,7 +23,7 @@ Content Analytics의 구성은 다음 단계로 구성됩니다.
 1. Tags 속성을 [수동으로 게시](manual.md)하는 경우에만 Content Analytics 구성이 효과적으로 배포되고 데이터 수집이 시작됩니다.
 
 1. [안내가 있는 구성](guided.md) 마법사를 사용하여 구현된 구성에 일부 부분만 변경할 수 있습니다. 예를들어 [데이터 보기](/help/data-views/data-views.md)를 변경합니다.
-1. 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 구현된 구성에 다른 변경 작업을 수행할 수 있습니다.
+1. 연결된 Tags 속성에서 [Adobe Content Analytics 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 구현된 구성에 다른 변경 작업을 수행할 수 있습니다.
 1. Tags 속성을 [수동으로 다시 게시](manual.md)하는 경우에만 구성 수정 사항이 효과적으로 배포되고 변경 사항에 따른 데이터 수집이 시작됩니다.
 
 
@@ -35,9 +35,9 @@ Content Analytics을 구성하기 전에 다음 전제 조건이 충족되는지
 * 일반적인 동작 데이터 수집을 위해 [JavaScript을 사용하여 웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/library){target="_blank"}을 구현한 경우 기본 이름 <code>alloy를 사용하고 있는지 확인하십시오</code> JavaScript 라이브러리용.
 * 연결을 관리하고 데이터 보기를 관리할 수 있는 추가 권한이 있는 Customer Journey Analytics 제품 관리자 역할이 있습니다.
 * Content Analytics 경험을 수집하려면 웹 페이지의 변경 사항에 따라 [Content Analytics 버전 관리](manual.md#versioning)를 설정하고 업데이트해야 합니다.
-* [데이터 수집에 대한 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}이 있어야 합니다.
-   * [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Experience Platform 데이터 수집 권한](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* [데이터 수집에 대한 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions){target="_blank"}이 있어야 합니다.
+   * [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Experience Platform 데이터 수집 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * 다음과 같은 중요한 구성 옵션을 신중하게 고려했습니다.
 
    * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때만 가능합니다.

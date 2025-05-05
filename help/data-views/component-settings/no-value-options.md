@@ -48,5 +48,5 @@ ht-degree: 58%
 
 >[!MORELIKETHIS]
 >
->다음은 [Customer Journey Analytics에서 “값 없음”을 처리](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339)하는 것에 관한 관련 블로그 게시물입니다.
+>다음은 [Customer Journey Analytics에서 “값 없음”을 처리](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339?profile.language=ko)하는 것에 관한 관련 블로그 게시물입니다.
 

@@ -36,7 +36,7 @@ ht-degree: 70%
 
 구현의 각 페이지에 직접 기본 코드를 추가하여 Platform Web SDK을 수동으로 설치할 수 있습니다.
 
-1. Web SDK Guide의 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)옵션 2: [Install Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 사전 설치된 독립 실행형 버전 설치 섹션의 단계를 따릅니다.
+1. Web SDK Guide의 [&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)옵션 2: [Install Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 사전 설치된 독립 실행형 버전 설치 섹션의 단계를 따릅니다.
 
 {{upgrade-final-step}}
 

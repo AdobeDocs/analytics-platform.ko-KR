@@ -86,7 +86,7 @@ Analysis Workspace의 데이터 중심 질문에 Data Insights 에이전트를 �
 
    * **[!UICONTROL AI 길잡이: 데이터 분석]**
 
-   자세한 내용은 관리자가 [이 지침](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)을 볼 수 있습니다.
+   자세한 내용은 관리자가 [이 지침](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access)을 볼 수 있습니다.
 
    ![AI 길잡이 아이콘](/help/assets/ai-asst-icon.png)
 

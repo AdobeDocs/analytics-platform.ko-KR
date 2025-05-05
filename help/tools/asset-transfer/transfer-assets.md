@@ -93,7 +93,7 @@ Assets은 종종 개별 소유자에게 연결되며, 세그먼트 및 계산된
 
 에셋 전송에 대한 주요 사용 사례 중 하나는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 동안입니다.
 
-Adobe Analytics의 [구성 요소 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) 기능을 사용하면 관리자가 소유한 프로젝트를 다른 관리자로 마이그레이션할 수 있습니다. 그런 다음 이러한 프로젝트를 구성하는 모든 구성 요소는 Customer Journey Analytics에서 다시 만들어지고 받는 사람 관리자는 이러한 구성 요소를 만든 사람에 관계없이 모든 구성 요소를 소유합니다.
+Adobe Analytics의 [구성 요소 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/component-migration) 기능을 사용하면 관리자가 소유한 프로젝트를 다른 관리자로 마이그레이션할 수 있습니다. 그런 다음 이러한 프로젝트를 구성하는 모든 구성 요소는 Customer Journey Analytics에서 다시 만들어지고 받는 사람 관리자는 이러한 구성 요소를 만든 사람에 관계없이 모든 구성 요소를 소유합니다.
 
 이 자산 전송 도구를 사용하면 관리자는 이후 관리자이든 아니든 정당한 소유자에게 구성 요소를 재할당할 수 있습니다.
 

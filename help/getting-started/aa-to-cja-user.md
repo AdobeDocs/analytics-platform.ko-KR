@@ -76,7 +76,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## 세그먼트 개념 변경
 
-세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)를 참조하십시오.
+세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ko)를 참조하십시오.
 
 [!DNL Customer Journey Analytics]의 [!UICONTROL 세그먼트]&#x200B;([!UICONTROL 세그먼트])를 Experience Platform 통합 프로필에 아직 공유하거나 게시할 수 없지만 이 기능은 개발 중입니다.
 

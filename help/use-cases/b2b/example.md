@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # B2B 프로젝트 예시
 
-이 문서에서는 일반적인 B2B 구성의 컨텍스트 내에서 개인 데이터에 대한 Customer Journey Analytics 시 올바르게 보고하려는 사용 사례를 보여줍니다. 이러한 구성은 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)의 일부입니다.  사용 사례에서는 Customer Journey Analytics의 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 설명합니다.
+이 문서에서는 일반적인 B2B 구성의 컨텍스트 내에서 개인 데이터에 대한 Customer Journey Analytics 시 올바르게 보고하려는 사용 사례를 보여줍니다. 이러한 구성은 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)의 일부입니다.  사용 사례에서는 Customer Journey Analytics의 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 설명합니다.
 
 ## 연결
 
@@ -41,7 +41,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 -->
 
 
-B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
+B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
 
 
 B2B 데이터의 개인 기반 조회를 지원하는 연결을 적절하게 설정하려면 개요를 보려면 다음 그림을 사용하고 다음 단계를 수행하십시오.

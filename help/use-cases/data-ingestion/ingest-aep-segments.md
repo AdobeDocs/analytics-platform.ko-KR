@@ -32,13 +32,13 @@ Adobe Experience Platform [실시간 고객 프로필](https://experienceleague.
 
 ## 2단계: 내보내기를 위해 Profile Union 데이터 세트 생성
 
-Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데이터 세트로 대상을 내보내려면 스키마가 프로필 [결합 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas)인 데이터 세트를 만들어야 합니다.
+Customer Journey Analytics의 연결에 최종적으로 추가될 수 있는 데이터 세트로 대상을 내보내려면 스키마가 프로필 [결합 스키마](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko#understanding-union-schemas)인 데이터 세트를 만들어야 합니다.
 
 결합 스키마는 동일한 클래스를 공유하고 프로필에 대해 활성화된 여러 스키마로 구성됩니다. 통합 스키마를 사용하면 동일한 클래스를 공유하는 스키마 내에 포함된 모든 필드의 통합을 표시할 수 있습니다. 실시간 고객 프로필은 통합 스키마를 사용하여 각 개별 고객에 대한 거시적인 보기를 생성합니다.
 
 ## 3단계: API 호출을 통해 대상자를 Profile Union 데이터 세트로 내보내기 {#export}
 
-대상을 Customer Journey Analytics으로 가져오려면 먼저 Adobe Experience Platform 데이터 세트로 내보내야 합니다. 이는 Segmentation API, 특히 [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html)를 통해서만 수행할 수 있습니다.
+대상을 Customer Journey Analytics으로 가져오려면 먼저 Adobe Experience Platform 데이터 세트로 내보내야 합니다. 이는 Segmentation API, 특히 [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko)를 통해서만 수행할 수 있습니다.
 
 선택한 대상 ID를 사용하여 내보내기 작업을 만들고 2단계에서 만든 Profile Union Adobe Experience Platform 데이터 세트에 결과를 넣을 수 있습니다. 대상을 위한 다양한 속성/이벤트를 내보낼 수 있지만 활용할 Customer Journey Analytics 연결에 사용된 개인 ID 필드와 일치하는 특정 프로필 ID 필드만 내보내면 됩니다(아래 5단계 참조).
 

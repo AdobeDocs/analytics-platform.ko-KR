@@ -92,7 +92,7 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 >
 >내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터를 모두 내보내려면 각 데이터 세트에 동일한 스키마를 사용해야 합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md)를 사용하여 Customer Journey Analytics의 데이터 세트를 병합할 수 있습니다.
 
-선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)에 자동으로 사전 매핑합니다.
+선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko#ui)에 자동으로 사전 매핑합니다.
 
 ![GA 데이터 필드 및 대상 스키마 매핑을 강조 표시하는 스키마 맵](../../assets/schema-map.png)
 

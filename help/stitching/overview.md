@@ -41,7 +41,7 @@ Customer Journey Analytics에서는 [필드 기반 결합](fbs.md) 및 [그래�
 - 원하는 데이터를 Adobe Experience Platform에 가져옵니다.
 
    - Adobe Analytics 데이터에 대해서는 [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)을 참조하십시오.
-   - 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) 및 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)을 참조하십시오.
+   - 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/create-schema-ui) 및 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)을 참조하십시오.
 
 Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이터 세트 중 하나 이상을 콜 센터 데이터와 같은 다른 데이터 세트와 결합하는 경우 크로스 채널 분석의 이점을 누릴 수 있습니다. 이 연결 구성은 이러한 다른 데이터 세트에는 결합된 ID와 유사한 개인 ID가 모든 행에 이미 포함되어 있다고 가정합니다.
 
@@ -55,7 +55,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 결합된 데이�
 >
 >- 소스 데이터 세트를 제거하면 연결된 데이터 세트가 처리를 중지하고 시스템에서 제거됩니다.
 >
->- 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 자세한 내용은 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)를 참조하십시오.
+>- 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블이 적용된 경우 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 자세한 내용은 [Experience Platform에서 데이터 사용 레이블 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)를 참조하십시오.
 
 결합은 획기적이고 강력한 기능이지만 사용 방법에 대한 제한이 있습니다.
 

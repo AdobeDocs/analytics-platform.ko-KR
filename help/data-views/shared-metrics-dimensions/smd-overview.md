@@ -66,7 +66,7 @@ ht-degree: 0%
    * **[!UICONTROL 설명]**: 구성 요소의 [설명](/help/data-views/component-settings/overview.md).
    * **[!UICONTROL 컨텍스트 레이블]**: 구성 요소에 대한 [컨텍스트 레이블](/help/data-views/component-settings/overview.md).
    * **[!UICONTROL 값 포함/제외]**: [값 포함/제외](/help/data-views/component-settings/include-exclude-values.md)에 지정된 규칙 수를 나열합니다.
-   * **[!UICONTROL 데이터 사용 레이블]**: 스키마 필드의 [데이터 사용 레이블](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview).
+   * **[!UICONTROL 데이터 사용 레이블]**: 스키마 필드의 [데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview).
    * **[!UICONTROL 사용되지 않음]**: 사용되지 않는 플래그가 설정되었는지 여부를 나타냅니다.
    * **[!UICONTROL 형식]**: 값이 표시되는 형식입니다. 부울은 일반적으로 `True | False`(으)로 표시되고 지표는 일반적으로 `Decimal`(으)로 표시됩니다.
    * **[!UICONTROL 지표 중복 제거]**: 구성 요소의 [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 설정입니다.

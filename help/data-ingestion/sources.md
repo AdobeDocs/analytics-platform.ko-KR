@@ -119,7 +119,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -131,7 +131,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하여 스트리밍 소스의 데이터가 실시간 고객 프로필에 추가되었는지 확인합니다.
 
-스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
+스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
 
 ### 데이터 세트 설정
 
@@ -167,7 +167,7 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
    ![프로필용으로 스키마 활성화](./assets/loyalty-dataset-profile.png)
 
-데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
+데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
 
 
 ## 소스 커넥터 사용
@@ -176,11 +176,11 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
 다양한 소스에서 데이터를 수집할 수 있습니다. 다음은 사용 가능한 여러 소스 중 일부에 불과합니다.
 
-- Adobe 애플리케이션(소스 커넥터에는 [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) 등이 포함)
+- Adobe 애플리케이션(소스 커넥터에는 [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) 등이 포함)
 
-- 클라우드 저장소(소스 커넥터에는 [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) 등이 포함)
+- 클라우드 저장소(소스 커넥터에는 [Amazon S3](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/blob) 등이 포함)
 
-- 데이터베이스(소스 커넥터에는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) 등이 포함)
+- 데이터베이스(소스 커넥터에는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/sql-server) 등이 포함)
 
 소스 커넥터를 설정하는 경우:
 
@@ -214,7 +214,7 @@ Adobe Analytics 소스 커넥터 사용 방법에 대한 자세한 내용은 [�
 
 HTTP API 원본 커넥터를 사용하는 방법에 대한 자세한 내용은 [스트리밍 데이터 수집 및 사용](./streaming.md)을 참조하세요.
 
-각 커넥터에 대한 추가 정보 링크를 포함하여 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)를 참조하십시오.
+각 커넥터에 대한 추가 정보 링크를 포함하여 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#terms-and-conditions)를 참조하십시오.
 
 
 ## 연결 설정

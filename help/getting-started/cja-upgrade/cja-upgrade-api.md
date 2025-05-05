@@ -27,7 +27,7 @@ ht-degree: 60%
 
 Adobe Experience Platform Web SDK JavaScript의 빌드 프로세스를 제어하려면 NPM 패키지를 설치하여 Platform Web SDK를 설치할 수 있습니다.
 
-1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) 섹션에 있는 정보를 따르십시오.
+1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) 섹션에 있는 정보를 따르십시오.
 
 {{upgrade-final-step}}
 

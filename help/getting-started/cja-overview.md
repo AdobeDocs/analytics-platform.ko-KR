@@ -105,6 +105,6 @@ Customer Journey Analytics의 아키텍처와 통합에 대한 소개 비디오�
 
 >[!MORELIKETHIS]
 >
->* 분석가를 위한 [Adobe Customer Journey Analytics 충돌 과정](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [마인드셋 및 Adobe Customer Journey Analytics 워크플로 최적화: 모든 규모의 조직을 위한 팀 모델](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [조직 준비 구축: Adobe Customer Journey Analytics 확장에 대한 사용자 우선 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* 분석가를 위한 [Adobe Customer Journey Analytics 충돌 과정](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=ko)
+>* [마인드셋 및 Adobe Customer Journey Analytics 워크플로 최적화: 모든 규모의 조직을 위한 팀 모델](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=ko)
+>* [조직 준비 구축: Adobe Customer Journey Analytics 확장에 대한 사용자 우선 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=ko)

@@ -19,7 +19,7 @@ ht-degree: 61%
 ## 사전 요구 사항
 
 * 보고서 세트 데이터는 이미 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
-* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. Adobe Analytics 구성 요소 안내서에서 [마케팅 채널에 대한 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html)을 참조하십시오.
+* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. Adobe Analytics 구성 요소 안내서에서 [마케팅 채널에 대한 처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=ko)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
 

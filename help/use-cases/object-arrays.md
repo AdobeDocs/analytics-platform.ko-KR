@@ -270,5 +270,5 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 
 ## 제한 사항
 
-Experience Platform에서 사용하고 Customer Journey Analytics의 스키마의 일부로 모델링되는 데이터의 배열에는 제한 사항이 적용되지 않습니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
+Experience Platform에서 사용하고 Customer Journey Analytics의 스키마의 일부로 모델링되는 데이터의 배열에는 제한 사항이 적용되지 않습니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
 

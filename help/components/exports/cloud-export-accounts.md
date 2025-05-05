@@ -92,7 +92,7 @@ ht-degree: 26%
 
      >[!AVAILABILITY]
      >
-     >이 섹션은 Amazon Web Services(AWS)에서 실행되는 Experience Platform 구현에 적용됩니다. 현재 AWS에서 실행 중인 Experience Platform은 제한된 수의 고객이 사용할 수 있습니다. 지원되는 Experience Platform 인프라에 대한 자세한 내용은 [Experience Platform 멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하세요.
+     >이 섹션은 Amazon Web Services(AWS)에서 실행되는 Experience Platform 구현에 적용됩니다. 현재 AWS에서 실행 중인 Experience Platform은 제한된 수의 고객이 사용할 수 있습니다. 지원되는 Experience Platform 인프라에 대한 자세한 내용은 [Experience Platform 멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하세요.
 
      [!UICONTROL **계정 만들기**] 대화 상자가 표시됩니다.
 
@@ -112,9 +112,9 @@ ht-degree: 26%
 
       1. 아직 다운로드하지 않았다면 [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 다운로드하십시오.
 
-      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
+      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
 
-         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
+         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
 
       1. Adobe Experience Platform 설명서를 따라 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드가 나타나면 3단계에서 복사한 SAS URI를 붙여넣습니다.
 

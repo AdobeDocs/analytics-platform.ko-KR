@@ -39,7 +39,7 @@ Google Analytics와 같은 서드파티 분석 솔루션에서 Customer Journey 
 
    * 비 Adobe Analytics 솔루션에서는 프로젝트 및 구성 요소를 마이그레이션할 수 없습니다.
 
-   * 분석 솔루션에 따라 내역 데이터 수집에 소스 커넥터를 사용할 수 있습니다. 자세한 내용은 Experience Platform 설명서의 [Source 커넥터 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)에서 [분석](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics)을 참조하십시오.
+   * 분석 솔루션에 따라 내역 데이터 수집에 소스 커넥터를 사용할 수 있습니다. 자세한 내용은 Experience Platform 설명서의 [Source 커넥터 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)에서 [분석](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#analytics)을 참조하십시오.
 
 
 더욱 구체적인 조언, 지침 또는 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
