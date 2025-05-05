@@ -26,7 +26,7 @@ ht-degree: 100%
 ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 최초 사용 영향]** 분석은 사용자가 제품 기능을 처음 사용하기 전과 사용한 후의 주요 지표를 비교한 것입니다. 이 보고서의 가로축은 이벤트 전후의 상대적인 시간 간격이며, 세로축은 원하는 주요 지표를 측정합니다. 차트 중앙의 세로 막대는 특정 사용자가 기능을 처음 사용한 날의 0일차를 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 출시는 잠재적으로 며칠에 걸쳐 진행될 수 있으므로 0일차는 각 사용자마다 다른 의미를 가질 수 있습니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423499/?quality=12&learn=on&captions=kor)
 
 
 ## 사용 사례

@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >반복 사용자는 사용자 수의 증가나 감소를 나타내지 않으므로 이 계산에는 반영되지 않습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423464/?quality=12&learn=on&captions=kor)
 
 
 ## 사용 사례

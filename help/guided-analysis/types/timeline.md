@@ -34,7 +34,7 @@ ht-degree: 100%
 >* **관리자**: *이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에는 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자에게 문의하여 데이터 보기에 개인 ID를 추가하십시오.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435774/?quality=12&learn=on&captions=kor)
 
 
 

@@ -83,7 +83,7 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Experience Platform으로 Google Analytics 데이터 가져오기](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Experience Platform으로 Google Analytics 데이터 가져오기](https://video.tv.adobe.com/v/3437173?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
