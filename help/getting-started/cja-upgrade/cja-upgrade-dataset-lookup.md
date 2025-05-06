@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Customer Journey Analytics에서 스키마와 함께 사용할 조회 데이터 
 
 Customer Journey Analytics에서 연결에 조회 데이터 세트를 추가하는 방법:
 
-1. Customer Journey Analytics의 상단 메뉴에서 **[!UICONTROL 연결]**(선택 사항: **[!UICONTROL 데이터 관리]**)을 선택합니다.
+1. Customer Journey Analytics에서 상단 메뉴의 **[!UICONTROL 데이터 관리]**&#x200B;에서(선택 사항) **[!UICONTROL 연결]**&#x200B;을 선택합니다.
 
 1. 조회 데이터 세트를 추가하려는 연결 옆에 있는 ![자세히 아이콘](assets/More.svg)을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 

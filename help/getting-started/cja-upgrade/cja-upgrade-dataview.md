@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
 
 데이터 보기를 만드는 방법:
 
-1. [Customer Journey Analytics](https://analytics.adobe.com)에 로그인하고 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)을(를) 선택합니다.
+1. [Customer Journey Analytics](https://analytics.adobe.com)에 로그인하고 상단 메뉴의 **[!UICONTROL 데이터 관리]**&#x200B;에서(선택 사항) **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 새 데이터 보기 만들기]**&#x200B;를 선택합니다. 또는 데이터 보기 목록에서 기존 데이터 보기를 선택하여 편집할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 90%
 
    데이터 보기에 구성 요소를 추가할 때 사용 가능한 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [구성 요소](/help/data-views/create-dataview.md#components)를 참조하십시오.
 
-1. [!UICONTROL **설정**] 탭을 선택합니다. 여기에서 전체 데이터 보기에 적용할 세그먼트를 구성하고 세션 시간 제한 및 지표를 구성할 수 있습니다.
+1. [!UICONTROL **설정**] 탭을 선택합니다. 여기에서 전체 데이터 보기에 적용할 세그먼트를 구성하고 세션 시간 초과 및 지표를 구성할 수 있습니다.
 
    데이터 보기에 대한 설정을 구성할 때 사용 가능한 옵션에 대한 자세한 내용은 [데이터 보기 만들기 또는 편집](/help/data-views/create-dataview.md)에서 [설정](/help/data-views/create-dataview.md#settings)을 참조하십시오.
 

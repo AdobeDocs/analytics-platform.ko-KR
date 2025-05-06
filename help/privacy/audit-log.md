@@ -5,9 +5,9 @@ exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
 source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
    * CREATE: “생성” 액션이 수행되었습니다.
    * 삭제: “삭제” 액션이 수행되었습니다.
    * EDIT: “편집” 액션이 수행되었습니다.
-   * EMBARGO: [보고 활동 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)에서 요청을 제한하면 작업이 EMBARGO 아래의 감사 로그에 기록됩니다.
+   * EMBARGO: [보고 활동 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)에서 요청을 제한하면 해당 작업이 감사 로그에 EMBARGO로 기록됩니다.
    * EXPORT: “내보내기” 액션이 수행되었습니다.
    * ORG_CHANGE: 조직 변경 액션이 수행되었습니다.
    * REFRESH: “새로 고침” 액션이 수행되었습니다.

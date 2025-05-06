@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 폴아웃 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 폴아웃 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
 * 동일한 보고서에서 서로 다른 두 개의 세그먼트를 나란히 놓고 비교
-* 단계 절차(터치포인트) 끌어다 놓기(다시 정렬).
+* 단계 절차(터치포인트) 드래그 앤 드롭(다시 정렬).
 * 서로 다른 차원 및 지표의 값을 혼합 및 대응.
 * 차원이 여러 개인 폴아웃 보고서 작성.
 * 폴아웃 직후 고객이 이동해 가는 위치 식별.
@@ -75,7 +75,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 * 미리 정의된 페이지 시퀀스와 단일 진입 지점 및 경로가 있는 여정을 포함하는 폴아웃 분석. (여러 진입 지점과 경로가 있는 여정의 경우 여정 캔버스를 사용합니다.)
 
-* 동일한 보고서에서 서로 다른 두 세그먼트의 병렬 비교를 수행해야 하는 여정.
+* 동일한 보고서에서 서로 다른 두 개의 세그먼트를 나란히 놓고 비교해야 하는 여정.
 
 [위의 테이블](#understand-the-differences)을 사용하여 여정 캔버스, 폴아웃, 플로우 시각화의 차이점을 이해하십시오.
 

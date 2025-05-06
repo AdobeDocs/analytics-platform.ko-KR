@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
 source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://video.tv.adobe.com/v/35024/?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -46,4 +46,4 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics의 새로운 목차 기능을 사용하여 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=ko)
+>* [Adobe Analytics의 새로운 목차 기능으로 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

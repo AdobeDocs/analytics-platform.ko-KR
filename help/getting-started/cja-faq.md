@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 
 +++**[!UICONTROL Customer Journey Analytics]에서 온라인 데이터를 오프라인 데이터로 어떻게 연결합니까?**
 
-개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics]은(는) 데이터 세트 간에 세그먼트, 속성, 흐름, 폴아웃 등을 연결할 수 있습니다.
+개인 ID가 데이터 세트 간에 일치하는 경우 [!UICONTROL Customer Journey Analytics]는 전체 데이터 세트에서 세그먼트, 기여도, 흐름, 폴아웃 등을 연결할 수 있습니다.
 
 +++
 
@@ -145,7 +145,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 
 ## 5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
-[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**&#x200B;설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
+[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
@@ -174,7 +174,7 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 | [!UICONTROL 세션] 및 [!UICONTROL 인원] 수 | 보고서 세트에 대해서는 중복 제거되지 않습니다. 결과적으로 수는 일치하지 않을 수 있습니다. |
 | 지표 중복 제거 | 여러 행에 동일한 거래 ID(예: [!UICONTROL 구매 ID])가 있는 경우 지표의 인스턴스(예: [!UICONTROL 주문])를 중복 제거합니다. 이로써 주요 지표의 초과 계산을 방지합니다. 따라서 보고서 세트에서 [!UICONTROL 주문]과 같은 지표를 추가할 수 없습니다. |
 | 통화 | 통화 전환은 Customer Journey Analytics에서 지원되지 않습니다. 병합하려는 보고서 세트가 서로 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
-| [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 세그먼트], [!UICONTROL 속성] 등에 영향을 줍니다. 번호가 제대로 추가될 수 없습니다. |
+| [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 세그먼트], [!UICONTROL 속성] 등에 영향을 미칩니다. 번호가 제대로 추가될 수 없습니다. |
 | [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하는 경우 문제가 발생할 수 있습니다. |
 
 ## 8. [!UICONTROL Adobe Analytics] 구성 요소
@@ -217,7 +217,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 ## 9. 연결 크기 예측 {#estimate-size}
 
-[연결 사용](/help/connections/manage-connections.md#usage)을 참조하세요.
+[연결 사용](/help/connections/manage-connections.md#usage)을 참조하십시오.
 
 ## 10. 사용 초과에 관한 사항 {#overage}
 
@@ -242,7 +242,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 Adobe 이외의 솔루션 간의 상호 작용이 방문자에게 가까운 위치에서 발생할 수 있습니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
 
-![Data flow using Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=ko)
+![Data flow using Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
@@ -272,4 +272,4 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)를 참조하십시오.

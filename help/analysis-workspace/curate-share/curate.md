@@ -6,9 +6,9 @@ feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한할 수 있습니다. 수신자가 프로젝트를 열면 해당 프로젝트를 위해 선별한 제한된 구성 요소 세트가 표시됩니다. 조정 작업은 선택 사항이지만 프로젝트를 공유하기 전에 권장되는 단계입니다.
 
 >[!NOTE]
-> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)을 통해 관리됩니다. 큐레이션은 보조 세그먼트입니다.
+> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)을 통해 관리됩니다. 조정은 보조 세그먼트입니다.
 
 ## 프로젝트 조정 적용
 
-1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
 1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 패널에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정] 필드로 드래그합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.

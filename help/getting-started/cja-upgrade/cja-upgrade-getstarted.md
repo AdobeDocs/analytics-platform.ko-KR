@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장된 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장되는 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직과 고유한 상황에 맞게 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 안내서가 출시되었습니다.</p><p>Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.</p></li></ul>
 
 Customer Journey Analytics는 차세대 분석입니다. 다중 채널 데이터 수집(온라인 및 오프라인 데이터 모두)을 가능하게 하며, (데이터 보기에서 구성 요소 및 파생 필드 정의를 통해) 강력한 보고 시간 처리 기능을 결합할 수 있습니다.
 
@@ -34,7 +34,7 @@ Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 과정
 
 * [데이터 보기의 보고서 시간 변환](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
-  Customer Journey Analytics의 데이터 보기를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고 데이터를 변경하거나 제거할 수 있고, 하위 문자열을 사용하여 차원을 조작하거나, 모든 값에서 지표를 생성하거나, 세그먼트를 생성하거나, 파생된 필드를 사용할 수 있습니다. 이러한 변환은 모두 비파괴적입니다.
+  Customer Journey Analytics의 데이터 보기를 사용하여 연결에서 데이터를 추가 해석할 수 있습니다. 구현을 변경하지 않고도 데이터를 변경 또는 제거할 수 있습니다. 하위 문자열을 사용하여 차원을 조작하고, 모든 값에서 지표를 만들고, 하위 이벤트를 세그먼트화하거나 파생 필드를 사용할 수 있습니다. 이러한 변환은 모두 비파괴적입니다.
 
 * [변환은 내역 데이터와 새로운 데이터에 적용됩니다.](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
 

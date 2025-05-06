@@ -5,9 +5,9 @@ feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 속성 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/attribution)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 속성 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/attribution)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 * **총 지표**: 보고 시간 창에서 발생한 총 전환 수로, 선택한 차원에 기인합니다.
 * **속성 비교 막대**: 선택한 차원의 각 차원 항목에서 속성 전환을 시각적으로 비교합니다. 각 막대의 색상은 개별 속성 모델을 나타냅니다.
-* **속성 비교 테이블**: 막대 그래프와 동일한 데이터를 테이블로 표시합니다. 이 표에서 다른 열이나 행을 선택하면 막대 차트와 패널의 다른 여러 시각화가 세그먼트화됩니다. 이 테이블은 Workspace의 기타 자유 형식 테이블과 유사하게 작동하므로 지표, 세그먼트 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
+* **속성 비교 테이블**: 막대 그래프와 동일한 데이터를 테이블로 표시합니다. 이 테이블에서 다른 열 또는 행을 선택하면 막대 그래프와 패널의 다른 여러 가지 시각화가 세그먼트화됩니다. 이 테이블은 Workspace의 기타 자유 형식 테이블과 유사하게 작동하므로 지표, 세그먼트 또는 분류와 같은 구성 요소를 추가할 수 있습니다.
 * **중복 다이어그램**: 상위 3개 차원 항목과 이들이 전환에 공동으로 참여하는 빈도를 보여 주는 벤 시각화입니다. 예를 들어 버블의 크기는 방문자가 차원 항목 모두에 노출될 때 전환이 발생한 빈도를 나타냅니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
 * **성과 세부 정보**: 산포도 시각화를 사용하여 시각적으로 최대 3개의 속성 모델을 비교할 수 있습니다.
 * **추세적 성과**: 최상위 차원 항목에 대한 속성 전환 추세를 표시합니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.

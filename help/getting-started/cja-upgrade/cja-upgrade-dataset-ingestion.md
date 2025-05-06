@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-웹 SDK 또는 API 구현을 구성한 후에는 개별 배치의 상태를 확인하여 데이터가 데이터 세트에 수집되고 있는지 확인해야 합니다.
+Web SDK 또는 API 구현을 구성한 후에는 개별 배치의 상태를 확인하여 데이터가 데이터 세트에 수집되고 있는지 확인해야 합니다.
 
 1. Experience Platform UI의 왼쪽 탐색 창에서 **[!UICONTROL 모니터링]**&#x200B;을 선택합니다.
 
@@ -37,13 +37,13 @@ ht-degree: 69%
 
 1. 배치 목록을 보려면 **[!UICONTROL 전체 일괄 처리]**&#x200B;를 선택합니다.
 
-   일괄 처리가 표시되지 않으면 Adobe에 데이터를 올바르게 보내고 있는지 구현을 확인하십시오.
+   배치가 표시되지 않으면 구현을 확인하여 Adobe로 데이터를 올바르게 전송하고 있는지 확인합니다.
 
    <!-- insert screenshot -->
 
 1. 주어진 데이터 세트에 대한 배치 ID를 선택한 후 **[!UICONTROL 상태]** 필드에 **[!UICONTROL 성공]**&#x200B;이 표시되는지 확인합니다.
 
-   **[!UICONTROL 상태]** 필드에 **[!UICONTROL 실패]**&#x200B;가 표시되면 구현을 확인하여 Adobe에 데이터를 올바르게 보내고 있는지 확인하십시오.
+   **[!UICONTROL 상태]** 필드에 **[!UICONTROL 실패]**&#x200B;가 표시되는 경우 구현을 확인하여 Adobe로 데이터를 올바르게 전송하고 있는지 확인합니다.
 
    각 배치의 상태를 확인하려면 이 단계를 반복합니다.
 

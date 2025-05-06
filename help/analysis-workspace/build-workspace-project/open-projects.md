@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
 source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 94%
    각 버전마다 목록에는 타임스탬프, 편집기 및 저장된 메모가 표시됩니다.
 
 
-1. 이전 버전을 선택하고 **[!UICONTROL 로드]**&#x200B;를 클릭합니다.
+1. 이전 버전을 선택하고 **[!UICONTROL 로드]**를 클릭합니다.
 그러면 이전 버전은 알림과 함께 로드됩니다. 이전 버전은 **[!UICONTROL 저장]**&#x200B;을 클릭할 때까지는 현재 저장된 프로젝트 버전이 되지 않습니다. 로드된 버전에서 벗어나 탐색하면 이전 버전을 다시 열고 싶을 때 마지막으로 저장된 버전이 표시됩니다.
 
 

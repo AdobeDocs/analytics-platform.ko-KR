@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1d17151b-3a12-468e-9a4f-9e5994599570
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 73%
 
 >[!AVAILABILITY]
 >
->이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장된 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>이 페이지의 정보는 다음과 같은 보다 포괄적인 업그레이드 정보로 대체됩니다. <ul><li>**권장되는 업그레이드 단계**<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**<p>조직과 고유한 상황에 맞게 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 안내서가 출시되었습니다.</p><p>Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.</p></li></ul>
 
 Adobe Analytics에서 Customer Journey Analytics로 이동할 때 내역 데이터를 보관하려면 다음 옵션 중 하나를 선택합니다.
 
@@ -46,11 +46,11 @@ Adobe Analytics에서 Customer Journey Analytics로 이동할 때 내역 데이�
 
 ## Analytics 소스 커넥터 사용
 
-[Analytics 원본 커넥터](/help/data-ingestion/analytics.md)를 사용하여 이전 데이터를 유지할 수 있습니다. 선택한 업그레이드 경로에 관계없이(웹 SDK을 사용하여 업그레이드한 경우에도) Analytics 소스 커넥터를 사용하여 Adobe Analytics 환경의 내역 데이터를 유지할 수 있습니다.
+[Analytics 소스 커넥터](/help/data-ingestion/analytics.md)를 사용하면 내역 데이터를 보관할 수 있습니다. 선택한 업그레이드 경로에 관계없이(Web SDK를 사용하여 업그레이드하는 경우에도) Analytics 소스 커넥터를 사용하여 Adobe Analytics 환경의 내역 데이터를 보관할 수 있습니다.
 
-Analytics 소스 커넥터를 사용하면 이전 데이터를 현재 데이터와 별도로 전용 위치로 가져와서 이전 데이터를 유지할 수 있습니다.
+Analytics 소스 커넥터를 사용하면 내역 데이터를 현재 데이터와 별도로 내역 데이터를 전용 위치로 가져와 보관할 수 있습니다.
 
-내역 데이터에 액세스해야 하는 한 Analytics 소스 커넥터가 작동하고 있어야 합니다.
+Analytics 소스 커넥터는 내역 데이터에 액세스해야 하는 동안 작동해야 합니다.
 
 <!-- Another possibility in the future: Map historical data in a way that allows you to tie it to your new data.  Possible? Explain -->
 

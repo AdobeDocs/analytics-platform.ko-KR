@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 * 웹 사이트나 애플리케이션 내의 고객 여정 시각화.
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석.
-* 선택한 경로에서 특정 지점을 지정하여 세그먼트를 생성합니다.
+* 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성.
 
 
 >[!BEGINSHADEBOX]

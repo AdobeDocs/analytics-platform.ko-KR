@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics를 위한 마케팅 채널 파생 필드 만들기
-description: Customer Journey Analytics를 위한 마케팅 채널 파생 필드 만들기 방법에 대해 알아보기
+title: Customer Journey Analytics용 마케팅 채널 파생 필드 만들기
+description: Customer Journey Analytics용 마케팅 채널 파생 필드 만들기 방법에 대해 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics를 위한 마케팅 채널 파생 필드 만들기 {#create-marketing-channel-derived-field}
+# Customer Journey Analytics용 마케팅 채널 파생 필드 만들기 {#create-marketing-channel-derived-field}
 
 <!-- markdownlint-disable MD034 -->
 

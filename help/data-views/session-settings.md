@@ -6,9 +6,9 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Customer Journey Analytics에서 사람들이 디지털 경험과 상호 작용�
 
 데이터 보기 내에서 세션 컨텍스트를 정의하려면 다음 작업을 수행하십시오.
 
-1. Customer Journey Analytics UI의 기본 탐색에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
+1. Customer Journey Analytics UI의 메인 탐색에서, **[!UICONTROL 데이터 관리]**&#x200B;에서(선택 사항) **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
 
 2. 새 데이터 보기를 만들거나 기존 데이터 보기를 편집합니다. 자세한 내용은 [데이터 보기 만들기 또는 편집](create-dataview.md)을 참조하십시오.
 

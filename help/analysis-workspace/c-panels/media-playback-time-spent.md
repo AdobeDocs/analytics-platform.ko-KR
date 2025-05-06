@@ -5,9 +5,9 @@ feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 |---|---|
 | 자유 형식 테이블은 어디에 있습니까? 데이터 소스는 어떻게 볼 수 있습니까? | <p></p><p>이 보기에서는 자유 형식 테이블을 사용할 수 없습니다. 데이터 소스를 다운로드하려면 선형 차트의 컨텍스트 메뉴에서 CSV 파일을 다운로드하는 옵션을 선택합니다.</p> |
 | <p>세부 기간이 변경된 이유는 무엇입니까?</p> | <p>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다.</p><p></p><p>큰 날짜 범위에서 작은 날짜 범위로 변경하는 경우 날짜 범위가 변경되면 세부 기간이 허용되는 가장 낮은 세부 항목으로 업데이트됩니다. 더 높은 수준의 세부 기간으로 보려면 패널을 편집하고 다시 빌드하십시오.</p> |
-| <p></p><p>비디오 이름, 세그먼트, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까?</p> | <p>단일 시각화에서 이들을 비교하려면 시리즈 분류 세그먼트의 세그먼트, 차원 또는 특정 차원 항목을 드래그합니다.</p><p></p><p>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다.</p> |
+| <p></p><p>비디오 이름, 세그먼트, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까?</p> | <p>단일 시각화에서 이들을 비교하려면 시리즈 분석 세그먼트에서 세그먼트, 차원 또는 특정 차원 항목을 끌어옵니다.</p><p></p><p>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다.</p> |
 | 날짜 범위는 어떻게 비교합니까? | 단일 시각화에서 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 끌어서 시리즈 분류를 사용합니다. 이러한 날짜 범위는 패널 날짜 범위보다 우선 적용됩니다. |
 | 시각화 유형은 어떻게 변경합니까? | <p></p><p>이 패널은 시계열에 대한 라인 시각화만 허용합니다.</p> |
 | 예외 항목 탐지를 실행할 수 있습니까? | <p></p><p>아니요. 이 패널에서는 예외 항목 탐지를 사용할 수 없습니다.</p> |
@@ -130,5 +130,5 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 >
 >[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
->[미디어 동시 시청자 패널](media-concurrent-viewers.md)
+>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
 >

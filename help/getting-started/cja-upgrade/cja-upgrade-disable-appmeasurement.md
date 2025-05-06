@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 77%
 
 {{upgrade-note-step}}
 
-Adobe Analytics을 사용하지 않도록 설정하기 전에 [Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics을 사용하지 않도록 설정할 시기 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)의 정보를 검토하십시오.
+Adobe Analytics를 비활성화하기 전에 [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics 비활성화 시기](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)의 정보를 검토하십시오.
 
 * **태그:** Adobe Analytics 확장 기능 비활성화
 
@@ -33,5 +33,5 @@ Adobe Analytics을 사용하지 않도록 설정하기 전에 [Customer Journey 
 
 >[!NOTE]
 >
->이 정보는 아직 이용할 수 없습니다. 가까운 시일 내에 사용할 수 있습니다.
+>해당 정보는 아직 제공되지 않습니다. 가까운 시일 내에 제공될 예정입니다.
 

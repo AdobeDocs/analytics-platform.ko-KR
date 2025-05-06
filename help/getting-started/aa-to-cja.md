@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 �
 
 ### 중요한 세그먼트 및 계산된 지표 식별 {#segments-calcmetrics}
 
-Adobe Analytics 세그먼트 및 계산된 지표는 Customer Journey Analytics과 호환되지 않습니다. 대부분의 경우 이들 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 Customer Journey Analytics에서 다시 빌드할 수 있습니다.
+Adobe Analytics 세그먼트 및 계산된 지표는 Customer Journey Analytics와 호환되지 않습니다. 대부분의 경우 이들 구성 요소는 사용 가능한 새 스키마 및 데이터를 사용하여 Customer Journey Analytics에서 다시 빌드할 수 있습니다.
 
 사용자가 시스템 간 전환할 때 최대한 원활하게 전환하도록 하려면 다음과 같은 방법을 통해 계획을 수립하십시오.
 
@@ -78,13 +78,13 @@ Adobe Analytics 세그먼트 및 계산된 지표는 Customer Journey Analytics�
 
 2. 해당 요소의 정의를 문서화하고,
 
-3. Customer Journey Analytics에서 [세그먼트](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)(으)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
+3. Customer Journey Analytics에서 [세그먼트](/help/components/filters/filters-overview.md) 및 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)로 복제하기 위해 데이터에 어떤 필드가 필요한지 식별합니다.
 
 다음은 몇 가지 안내 비디오입니다.
 
 * [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=ko-KR)
 
-* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=ko)
+* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
 
 ### 기타 고려 사항
 

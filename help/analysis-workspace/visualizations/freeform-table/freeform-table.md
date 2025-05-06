@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 자유 형식 테이블 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 자유 형식 테이블 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 ## 자유 형식 테이블 빌더
 
-먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 **[!UICONTROL 테이블 빌더 활성화]**&#x200B;를 선택할 수 있습니다. 빌더를 활성화한 상태에서 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. **[!UICONTROL 빌드]**&#x200B;를 선택하면 데이터가 업데이트됩니다.
+먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 **[!UICONTROL 테이블 빌더 활성화]**&#x200B;를 선택할 수 있습니다. 테이블 빌더를 활성화한 상태에서 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 테이블을 작성할 수 있습니다. **[!UICONTROL 빌드]**&#x200B;를 선택하면 데이터가 업데이트됩니다.
 
 ![자유 형식 테이블 빌더 표시 ](assets/table-builder.png)
 
@@ -56,7 +56,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 ### 필터링 및 정렬
 
-* 테이블의 데이터를 [세그먼트화하고 정렬](filter-and-sort.md)할 수 있습니다.
+* 테이블의 데이터를 [세분화 및 정렬](filter-and-sort.md)할 수 있습니다.
 
 ### 다른 결과를 표시했던
 
@@ -64,7 +64,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 * 프로젝트의 [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
 * 페이지 매김이 발생하기 전에 각 차원 행에 최대 400개의 행을 표시할 수 있습니다. 첫 번째 열 머리글의 **[!UICONTROL 행]** 옆에 있는 숫자를 선택하면 페이지에 행이 더 많이 표시됩니다. 첫 번째 열 머리글에서 ![ChevronRight](/help/assets/icons/ChevronRight.svg)를 사용하여 다른 페이지로 이동합니다.
 * 행을 추가 구성 요소별로 분류할 수 있습니다. 한 번에 여러 행을 분류하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 끌어다 놓습니다. [분류](/help/components/dimensions/t-breakdown-fa.md)에 대해 자세히 알아보십시오.
-* 행을 [세그먼트화](/help/components/filters/filters-overview.md)하여 축소된 항목 집합을 표시할 수 있습니다. 추가 설정은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)에서 사용할 수 있습니다.
+* 행을 [세그먼트화](/help/components/filters/filters-overview.md)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)에서 사용할 수 있습니다.
 
 ### 열
 
@@ -97,7 +97,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 | 옵션 | 설명 |
 | --- | --- |
-| **[!UICONTROL 복사된 시각화 삽입]**&#x200B;n | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
+| **[!UICONTROL 복사된 시각화 삽입]**n | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
 | **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 데이터를 복사합니다. |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
 | **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |

@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 {{upgrade-note}}
 
-Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 데 권장되는 프로세스는 Customer Journey Analytics를 위한 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다.
+Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 데 권장되는 프로세스는 Customer Journey Analytics용 기본 데이터 수집 방법인 Experience Platform Web SDK의 새로운 구현입니다.
 
 Adobe Experience Platform Web SDK를 사용하는 데 지원되는 방법은 세 가지가 있습니다.
 

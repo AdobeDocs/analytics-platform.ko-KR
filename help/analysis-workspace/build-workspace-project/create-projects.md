@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
    * **[!DNL Store Country]** [차원](/help/components/dimensions/overview.md) ➍
    * **[!DNL People]** [지표](/help/components/apply-create-metrics.md) ➎
    * **[!DNL Avg Order Value]** [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md) ➏
-   * **[!DNL Mobile App Sessions]** [세그먼트{2➐}](/help/components/filters/filters-overview.md)
+   * **[!DNL Mobile App Sessions]** [세그먼트](/help/components/filters/filters-overview.md) ➐
    * **[!DNL Last Month]** [날짜 범위](/help/components/date-ranges/overview.md) ➑
    * **[!DNL Example]** [주석](/help/components/annotations/overview.md) ➒
 
@@ -70,7 +70,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="댓글 허용"
->abstract="이 기능을 활성화하면 Analysis Workspace의 프로젝트 오른쪽 레일에 주석 영역이 제공됩니다."
+>abstract="이 기능을 활성화하면 Analysis Workspace의 프로젝트 오른쪽 레일에 댓글 영역이 제공됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -90,7 +90,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 | 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
 | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 참고: 이 설정은 흐름 또는 폴아웃 시각화에 적용되지 않습니다. |
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
-| [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 범주별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
+| [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 카테고리별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
 | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
 
 <!--

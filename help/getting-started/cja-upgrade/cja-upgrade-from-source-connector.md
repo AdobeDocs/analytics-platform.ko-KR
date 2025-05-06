@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 
 Customer Journey Analytics의 유일한 구현으로 Analytics 소스 커넥터를 사용하는 데는 본질적인 단점이 있습니다.
 
-조직에서 이미 Analytics 소스 커넥터 구현만 사용하여 Customer Journey Analytics으로 업그레이드한 경우, Adobe에서는 지속적인 데이터 수집을 위해 웹 SDK의 새 구현으로 전환하고, 이전 데이터에만 Analytics 소스 커넥터를 사용하는 것이 좋습니다.
+조직에서 이미 Analytics 소스 커넥터 구현만을 사용하여 Customer Journey Analytics로 업그레이드한 경우, 지속적인 데이터 수집을 위해 Web SDK의 새로운 구현으로 전환하고, Analytics 소스 커넥터는 내역 데이터에만 사용하는 것이 좋습니다.
 
 ## Analytics 소스 커넥터만 사용하는 것의 장단점 이해
 
@@ -54,7 +54,7 @@ Analytics 소스 커넥터를 사용하는 데 따른 장단점에 대한 자세
 
 1. Analytics 소스 커넥터에서 각 Adobe Analytics 차원을 Web SDK 스키마의 차원으로 매핑합니다.
 
-   1. &#x200B;
+   1. 
       <!-- how do you get here -->
 
    1. **[!UICONTROL 표준 필드 매핑]** 섹션에서 **[!UICONTROL 사용자 정의]** 탭을 선택합니다.

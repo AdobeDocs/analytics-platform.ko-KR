@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/346466/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습�
 
 >[!NOTE]
 >
->다음 설정 중 일부는 세션 중과 세션 간에 유지됩니다. 예를 들어 선택한 탭, 선택한 세그먼트, 선택한 열 및 열 정렬 방향이 있습니다. 검색 결과는 유지되지 않습니다.
+>다음 설정 중 일부는 세션 중과 세션 간에 유지됩니다. 예: 선택된 탭, 선택된 세그먼트, 선택된 열과 열 정렬 방향. 검색 결과는 유지되지 않습니다.
 
 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
 
@@ -93,7 +93,7 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |

@@ -1,23 +1,23 @@
 ---
-title: 미디어 동시 시청자 패널
-description: Analysis Workspace에서 미디어 동시 시청자 패널을 사용하고 해석하는 방법.
+title: 미디어 동시 뷰어 패널
+description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법.
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 미디어 동시 시청자 패널 {#media-concurrent-viewers-panel}
+# 미디어 동시 뷰어 패널 {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
->title="미디어 동시 시청자"
+>title="미디어 동시 뷰어"
 >abstract="특정 기간 동안의 동시 뷰어 수를 분석하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -26,15 +26,15 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
->title="미디어 동시 시청자"
->abstract="시간 경과에 따른 동시 뷰어를 분석하고, 최대 동시 시청을 확인하고, 필요한 경우 세그먼트, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
+>title="미디어 동시 뷰어"
+>abstract="시간 경과에 따른 동시 시청자를 분석하고, 최대 동시 시청을 확인하고, 필요한 경우 세그먼트, 차원, 차원 항목 또는 날짜 범위를 사용하여 분류하고 비교합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 미디어 동시 시청자 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [미디어 동시 시청자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
 >
 
-**[!UICONTROL 미디어 동시 시청자]** 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.
+**[!UICONTROL 미디어 동시 뷰어]** 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.
 
 동시 시청자 분석을 통해 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 콘텐츠 및 시청자 참여의 품질에 대한 중요한 인사이트를 제공합니다. 그리고 볼륨이나 규모에 대한 문제 해결이나 계획 수립 시 도움이 됩니다.
 
@@ -55,7 +55,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 시청자 패널](https://video.tv.adobe.com/v/35024/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -63,9 +63,9 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 ## 사용
 
-**[!UICONTROL 미디어 동시 시청자]** 패널을 사용하는 방법:
+**[!UICONTROL 미디어 동시 뷰어]** 패널을 사용하는 방법:
 
-1. **[!UICONTROL 미디어 동시 시청자]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
+1. **[!UICONTROL 미디어 동시 뷰어]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
 1. 스트리밍 미디어 컬렉션에서 구성 요소가 구성된 패널의 데이터 보기를 선택해야 합니다.
 
@@ -75,7 +75,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 ### 패널 입력
 
-다음 입력 설정을 사용하여 미디어 동시 시청자 패널을 구성할 수 있습니다.
+다음 입력 설정을 사용하여 미디어 동시 뷰어 패널을 구성할 수 있습니다.
 
 | 설정 | 설명 |
 |---|---|
@@ -86,17 +86,17 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 다음은 **[!UICONTROL 분]** 단위 세부 기간을 위해 구성된 패널의 예시로, **[!UICONTROL 최대]** 요약 숫자만 표시합니다. **[!UICONTROL 기타]**, **[!UICONTROL 테이블]**, **[!UICONTROL 휴대전화]**, **[!UICONTROL 게임 콘솔]**, **[!UICONTROL 미디어 플레이어]**, **[!UICONTROL 셋톱박스]**, **[!UICONTROL 텔레비전]**&#x200B;으로 분류되어 있습니다.
 
-![미디어 동시 시청자 시리즈 분류 보기에서는 10개 차원, 세그먼트 또는 날짜 범위 중 7개를 보여 줍니다.](assets/concurrent-viewers-series-breakdown.png)
+![미디어 동시 뷰어 시리즈 분류 보기에서는 10개 차원, 세그먼트 또는 날짜 범위 중 7개를 보여 줍니다.](assets/concurrent-viewers-series-breakdown.png)
 
 ### 패널 출력
 
-미디어 동시 시청자 패널은 최대 및/또는 최소 동시 시청자에 대한 세부 정보를 포함하는 꺾은선형 차트 및 요약 숫자를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 요약 줄이 제공됩니다.
+미디어 동시 뷰어 패널은 최대 및/또는 최소 동시 시청자에 대한 세부 정보를 포함하는 꺾은선형 차트 및 요약 숫자를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 요약 줄이 제공됩니다.
 
 언제든지 ![동시 시청자 패널 편집](/help/assets/icons/Edit.svg)을 선택하여 패널을 편집하고 다시 구성할 수 있습니다.
 
 시리즈 분류를 선택한 경우 꺾은선형 차트에 선과 요약 숫자가 각각 표시됩니다.
 
-![미디어 동시 시청자 출력.](assets/concurrent-viewers-output.png)
+![미디어 동시 뷰어 출력.](assets/concurrent-viewers-output.png)
 
 ### 데이터 소스
 
@@ -116,7 +116,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 |---|---|
 | 자유 형식 테이블은 어디에 있습니까? 데이터 소스는 어떻게 볼 수 있습니까? | 이 보기에서는 자유 형식 테이블을 사용할 수 없습니다. 라인 차트 컨텍스트 메뉴에서 데이터 소스를 다운로드하고 **[!UICONTROL 데이터를 CSV로 다운로드]**&#x200B;를 선택할 수 있습니다. |
 | 세부 기간이 변경된 이유는 무엇입니까? | 이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다.<br><br>큰 날짜 범위에서 작은 날짜 범위로 변경하는 경우 날짜 범위가 변경되면 세부 기간이 허용되는 가장 낮은 세부 항목으로 업데이트됩니다. 더 높은 수준의 세부 기간으로 보려면 패널을 편집하고 다시 빌드하십시오. |
-| 비디오 이름, 세그먼트, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까? | 단일 시각화에서 이러한 항목을 비교하려면 시리즈 분류 세그먼트의 세그먼트, 차원 또는 특정 차원 항목을 끌어옵니다.<br><br>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다. |
+| 비디오 이름, 세그먼트, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까? | 단일 시각화에서 이들 항목을 비교하려면 시리즈 분석 세그먼트에서 세그먼트, 차원 또는 특정 차원 항목을 끌어옵니다.<br><br>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다. |
 | 날짜 범위는 어떻게 비교합니까? | 단일 시각화에서 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 끌어서 시리즈 분류를 사용합니다. 날짜 범위는 패널 날짜 범위보다 우선 적용됩니다. |
 | 시각화 유형은 어떻게 변경합니까? | 이 패널은 시계열에 대한 라인 시각화만 허용합니다. |
 | 예외 항목 탐지를 실행할 수 있습니까? | 아니요. 이 패널에서는 예외 항목 탐지를 사용할 수 없습니다. |

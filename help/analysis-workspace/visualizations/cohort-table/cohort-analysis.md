@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
-*코호트*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 코호트 테이블]** 시각화는 코호트가 브랜드와 어떻게 상호 작용하는지 알아보고 싶을 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*코호트*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 코호트 테이블]** 시각화는 코호트가 브랜드와 어떻게 상호 작용하는지 알아보고 싶을 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 코호트 분석]에 대한 설명은 [코호트 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
-집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [조정 및 공유](/help/analysis-workspace/curate-share/curate.md)를 참조하십시오.
+코호트 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 세그먼트)를 조정한 다음 모든 사람과 코호트 보고서를 공유할 수 있습니다. [조정 및 공유](/help/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 
 [!UICONTROL 코호트 테이블]로 수행할 수 있는 작업의 예:
 
@@ -55,7 +55,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://video.tv.adobe.com/v/3430073/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -64,9 +64,9 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석]에서는 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에 사용할 수 있는 지표만 [!UICONTROL 집단 분석]에서 사용할 수 있으며 한 번에 1씩만 증분할 수 있습니다.
+>[!UICONTROL 코호트 분석]은 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표 (매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에 사용할 수 있는 지표만 [!UICONTROL 코호트 분석]에 사용될 수 있으며 한번에 1 이상으로 증분될 수 있습니다.
 
-Customer Journey Analytics의 코호트 테이블은 이중 기반(또는 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics Source Connector를 통해 Adobe Experience Platform에 전달되는 모든 지표도 두 배가 됩니다.
+Customer Journey Analytics의 코호트 테이블은 이중 기반(또는 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics 소스 커넥터를 통해 Adobe Experience Platform에 전달되는 모든 지표도 두 배가 됩니다.
 
 ## 코호트 테이블 기능
 

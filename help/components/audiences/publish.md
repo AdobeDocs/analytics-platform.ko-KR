@@ -5,9 +5,9 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2320'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 77%
 
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
-   | **[!UICONTROL 대상]** 인터페이스 내에서 | 메인 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다. 대상자 인터페이스가 표시됩니다. **[!UICONTROL 대상 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상 빌더]가 열립니다. |
-   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화 기능을 사용하면 컨텍스트 메뉴를 사용하여 대상자를 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)의 노드 컨텍스트 메뉴에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 선택합니다.<p>이 방법을 사용하면 대상자 빌더의 세그먼트가 선택한 차원 또는 차원 항목으로 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 클릭 메뉴를 사용하여 대상자를 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 계산된 지표는 대상자에 포함될 수 없습니다. 계산된 지표가 포함된 대상자를 만들려고 하면 계산된 지표가 대상자 정의에 포함되지 않습니다.</p> |
-   | 세그먼트 생성/편집 UI에서 | **[!UICONTROL 이 세그먼트에서 대상자 만들기]**&#x200B;라는 상자를 선택합니다. 이 방법을 사용하면 세그먼트가 미리 채워집니다. 자세한 내용은 [세그먼트 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
+   | **[!UICONTROL 대상자]** 인터페이스 내에서 | 메인 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다. 대상자 인터페이스가 표시됩니다. **[!UICONTROL 대상자 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상자 빌더]가 열립니다. |
+   | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화 기능을 사용하면 컨텍스트 메뉴를 사용하여 대상자를 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)의 노드 컨텍스트 메뉴에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 선택합니다.<p>이 방법을 사용하면 선택한 차원 또는 차원 항목으로 대상자 빌더의 세그먼트가 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 클릭 메뉴를 사용하여 대상자를 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 계산된 지표는 대상자에 포함될 수 없습니다. 계산된 지표가 포함된 대상자를 만들려고 하면 계산된 지표가 대상자 정의에 포함되지 않습니다.</p> |
+   | 세그먼트 생성/편집 UI에서 | **[!UICONTROL 이 세그먼트에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 세그먼트가 미리 채워집니다. 자세한 내용은 [세그먼트 만들기](/help/components/filters/create-filters.md)를 참조하십시오. |
 
    {style="table-layout:auto"}
 
@@ -83,7 +83,7 @@ ht-degree: 77%
 
 1. 이 대상자의 ID 샘플을 보려면 **[!UICONTROL [!UICONTROL 샘플 ID 보기]]**&#x200B;를 선택합니다. **[!UICONTROL 샘플 ID]** 대화 상자에서 샘플 ID를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *샘플 ID 검색*]&#x200B;을 사용할 수 있습니다.
 
-1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
+1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**를 선택합니다.
 대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 걸리지 않습니다.
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 선택하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
@@ -101,7 +101,7 @@ ht-degree: 77%
 | **[!UICONTROL 태그]** | 조직용으로 대상자에 할당하고자 하는 모든 태그. 하나 이상의 기존 태그를 선택하거나 새 태그를 입력할 수 있습니다. |
 | **[!UICONTROL 설명]** | 해당 대상자를 다른 대상자와 구별하기 위해 대상자에 대한 설명. 예: `Build an audience of really interested potential car buyers` |
 | **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/>다음 중에 선택할 수 있습니다. <ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul> Customer Journey Analytics 권한에 따라 최대 75~150회로 대상자 새로 고침이 제한됩니다.</li></ul> |
-| **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 패널에서 하나 이상의 세그먼트를 세그먼트 영역으로 끌어다 놓습니다. ![검색](/help/assets/icons/Search.svg) [!UICONTROL *세그먼트 검색*]&#x200B;을 사용하여 세그먼트를 검색할 수 있습니다. 최대 20개의 세그먼트를 추가할 수 있습니다. 세그먼트는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자로 결합할 수 있습니다.<p>Analysis Workspace의 시각화(예: 자유 형식 테이블 또는 여정 캔버스)에서 대상을 만들면 패널 또는 열에 적용된 모든 세그먼트가 보존됩니다. 자동으로 적용되는 모든 세그먼트를 제거할 수 있습니다.</p> |
+| **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 패널에서 세그먼트 영역으로 하나 이상의 세그먼트를 끌어다 놓습니다. 세그먼트를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *세그먼트 검색*]&#x200B;을 사용할 수 있습니다. 최대 20개의 세그먼트를 추가할 수 있습니다. 세그먼트는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자와 결합할 수 있습니다.<p>Analysis Workspace(예: 자유 형식 테이블 또는 여정 캔버스)의 시각화에서 대상자를 만들 때 패널이나 열에 적용된 세그먼트는 그대로 유지됩니다. 자동으로 적용된 모든 세그먼트를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리보기]** | 선택된 날짜 범위에 대해 [데이터 미리보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택합니다. |
 
 ## 데이터 미리보기
@@ -147,7 +147,7 @@ Customer Journey Analytics에서 대상자를 만들고 게시하면 해당 대�
 
 ## Experience Platform에서 Customer Journey Analytics 대상자 사용 {#audiences-aep}
 
-Customer Journey Analytics은 게시된 대상으로부터 네임스페이스와 ID 조합을 모두 가져와서 Real-Time Customer Data Platform으로 스트리밍합니다. Customer Journey Analytics는 연결이 구성될 때 [!UICONTROL 개인 ID]로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
+Customer Journey Analytics은 게시된 대상자에서 모든 네임스페이스와 ID 조합을 가져와 Real-Time Customer Data Platform으로 스트리밍합니다. Customer Journey Analytics는 연결이 구성될 때 [!UICONTROL 개인 ID]로 선택된 항목에 따라 기본 ID가 설정된 Experience Platform으로 대상자를 보냅니다.
 
 그런 다음 Real-Time Customer Data Platform은 각 네임스페이스/ID 조합을 검사하고 해당 조합이 속할 수 있는 프로필을 찾습니다. 프로필은 기본적으로 연결된 네임스페이스, ID 및 디바이스의 클러스터입니다. 프로필을 찾으면 네임스페이스와 ID를 이 프로필의 다른 ID에 세그먼트 멤버십 속성으로 추가합니다. 예를 들어 <user@adobe.com>은 모든 디바이스와 채널을 타깃으로 지정할 수 있습니다. 프로필을 찾을 수 없으면 새 프로필이 만들어집니다.
 
@@ -171,38 +171,38 @@ Platform에서 대상자를 사용하는 방법에 대한 자세한 내용은 Ex
 
 ### 대상자 수의 불일치 이해
 
-Customer Journey Analytics과 Real-Time Customer Data Platform 간에 대상자 수가 일치하지 않을 수 있습니다.
+Customer Journey Analytics과 Real-Time Customer Data Platform 간에는 대상자 수에 불일치가 발생할 수 있습니다.
 
 <!--
 ![Infographic on audience differences between Customer Journey Analytics and Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
 -->
 
-#### 예상 및 결정론적 수
+#### 추정 카운트와 확정적 카운트
 
-대상 멤버십 번호가 계산되는 방법은 아래 설명된 대로 두 앱 간에 다릅니다.
+두 앱의 대상자 멤버십 수를 계산하는 방법은 아래에 설명된 대로 서로 다릅니다.
 
-* **Customer Journey Analytics**: Customer Journey Analytics의 **[!UICONTROL 총 사용자 수]** 지표는 예상 값입니다. 즉, 카운트는 대상자의 규칙에 따른 예측이며 새로 고침 간격 사이에 변경될 수 있습니다.
-* **Real-Time Customer Data Platform**: Real-Time Customer Data Platform의 개수는 일일 평가 작업을 기반으로 결정적이며, 대상자가 대상 포털에 게시를 완료할 때 수정됩니다.
+* **Customer Journey Analytics**: Customer Journey Analytics의 **[!UICONTROL 총 인원]** 지표는 추정값입니다. 즉, 해당 수치는 대상자의 규칙에 따른 추정치이며 새로 고침 간격에 따라 변경될 수 있습니다.
+* **Real-Time Customer Data Platform**: Real-Time Customer Data Platform의 카운트는 일일 평가 작업을 기반으로 하여 확정적이며, 대상자가 대상자 포털에 게시를 완료하는 시점에 고정됩니다.
 
 #### 게시 간격 및 속도
 
-대상자가 Real-Time Customer Data Platform에 초당 1500개의 레코드(RPS) 속도로 게시됩니다. 예를 들어, 2천만 명의 회원을 대상으로 완전히 게시하는 데 약 3.7시간이 소요됩니다(20M/1500 RPS/시간 당 3600초). 이 기간 동안 두 앱 간의 대상자 멤버십에 차이가 있을 수 있습니다.
+대상자는 초당 1,500개의 레코드(RPS)의 속도로 Real-Time Customer Data Platform에 게시합니다. 예를 들어 2,000만 명의 멤버를 보유한 대상자가 완전히 게시하는 데는 약 3.7시간이 걸립니다(2,000만/1,500RPS/시간당 3,600초). 이 기간 동안 두 앱 간의 대상자 멤버십에는 차이가 있을 가능성이 높습니다.
 
 #### 프로필 단편화
 
-Customer Journey Analytics에서 가져온 프로필이 Real-Time Customer Data Platform에 이미 있는 경우 새 프로필로 계산되지 않습니다. 이로 인해 Real-Time Customer Data Platform에서 예상보다 낮은 프로필 수가 발생할 수 있습니다.
+Customer Journey Analytics에서 가져온 프로필이 Real-Time Customer Data Platform에 이미 존재하는 경우, 해당 프로필은 새 프로필로 계산되지 않습니다. 이로 인해 Real-Time Customer Data Platform의 프로필 수가 예상보다 낮아질 수 있습니다.
 
-#### 일괄 처리와 스트리밍 대상 비교
+#### 배치 대상자와 스트리밍 대상자
 
-Customer Journey Analytics 대상은 일일 일괄 처리 평가 작업에 포함되지 않으며 다음 게시 간격까지 고정된 상태를 유지합니다. 반면 Real-Time Customer Data Platform의 다른 배치 대상은 24시간마다 재평가됩니다.
+Customer Journey Analytics 대상자는 일일 일괄 평가 작업에 포함되지 않으며 다음 게시 간격까지 고정됩니다. 이와 대조적으로 Real-Time Customer Data Platform의 다른 배치 대상자는 24시간마다 다시 평가됩니다.
 
-### 기억해야 할 주요 방법
+### 기억해야 할 주요 사항
 
-* **Customer Journey Analytics의 예상 개수**: Customer Journey Analytics의 **[!UICONTROL 총 인원]** 개수는 예상 개수이며 스트리밍 데이터 및 ID 동작으로 인해 달라질 수 있습니다.
-* **Real-Time Customer Data Platform의 결정적 개수**: Real-Time Customer Data Platform의 개수는 고정되어 있으며 다음 게시 간격까지 변경되지 않습니다.
-* **프로필 조각**: Customer Journey Analytics에서 가져올 때 Real-Time Customer Data Platform의 기존 프로필이 새 프로필 수에 기여하지 않을 수 있습니다.
+* **Customer Journey Analytics의 추정 카운트**: Customer Journey Analytics의 **[!UICONTROL 총 인원]** 수는 추정치이며 스트리밍 데이터와 ID 동작에 따라 달라질 수 있습니다.
+* **Real-Time Customer Data Platform의 확정적 카운트**: Real-Time Customer Data Platform의 수는 고정되어 있으며 다음 게시 간격까지 변경되지 않습니다.
+* **프로필 단편화**: Customer Journey Analytics에서 프로필을 가져올 때 Real-Time Customer Data Platform의 기존 프로필은 새 프로필 수에 반영되지 않을 수 있습니다.
 
-이러한 측면을 명확하게 구분하면 Customer Journey Analytics 및 Real-Time Customer Data Platform에서 대상 데이터를 더 잘 이해하고 관리할 수 있습니다.—>
+이러한 측면을 명확하게 구분함으로써 Customer Journey Analytics 및 Real-Time Customer Data Platform 전반에서 대상자 데이터를 더 잘 이해하고 관리할 수 있습니다.--->
 
 ## FAQ {#faq}
 

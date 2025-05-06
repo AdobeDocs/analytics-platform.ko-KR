@@ -1,25 +1,25 @@
 ---
-title: Customer Journey Analytics를 위한 스키마 선택
-description: Customer Journey Analytics를 위한 스키마를 선택할 때 사용할 수 있는 옵션과 각각의 장단점에 대해 알아보기
+title: Customer Journey Analytics용 스키마 선택
+description: Customer Journey Analytics용 스키마를 선택할 때 사용할 수 있는 옵션과 각각의 장단점에 대해 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics를 위한 스키마 선택 {#choose-schema}
+# Customer Journey Analytics용 스키마 선택 {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
 >title="사용자 정의 스키마 사용"
->abstract="(권장) 스키마를 사용자 정의하면 조직에서 필요한 정보만 추적하고 복잡하고 불필요한 필드에 따른 오버헤드를 피할 수 있습니다. 이 옵션에는 Web SDK가 추가한 필드 그룹과 조직에 맞게 사용자 정의된 필드 그룹가 있습니다."
+>abstract="(권장) 스키마를 사용자 정의하면 조직에서 필요한 정보만 추적하고 복잡하고 불필요한 필드에 따른 오버헤드를 피할 수 있습니다. 이 옵션에는 Web SDK가 추가한 필드 그룹과 조직에 맞게 사용자 정의된 필드 그룹이 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 

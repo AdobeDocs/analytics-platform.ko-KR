@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 ![이 섹션에 설명된 구현 절차의 플로우.](../assets/cca-architecture.png)
 
-1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko).
-1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko).
-1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=ko):
+1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
+1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html).
+1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
    1. Edge Network 또는 Analytics 소스 커넥터를 통한 웹 사이트나 모바일 앱의 이벤트 기반 데이터 ![이벤트](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg).
    2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg)&#x200B;(예: CRM 시스템, 콜센터 애플리케이션, 로열티 애플리케이션).
    3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)&#x200B;(예: 제품 정보 시스템에서 제품 이름, 카테고리)
