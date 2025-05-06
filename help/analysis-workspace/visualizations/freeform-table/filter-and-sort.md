@@ -7,7 +7,7 @@ role: User
 source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 
@@ -31,7 +31,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 - 테이블에서 특정 행 제외
 - 테이블에 필터 적용
-- 대상 세그먼트 사용
+- 대상자 세그먼트 사용
 
 각 방법이 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)에 어떤 영향을 미치는지 꼭 읽어보시기 바랍니다.
 
@@ -94,7 +94,7 @@ Note: this option does not seem to work. AN-338422
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택하여 데이터를 필터링합니다. **[!UICONTROL 지우기]**&#x200B;를 선택하여 입력을 모두 지웁니다. **[!UICONTROL 취소]**&#x200B;를 선택하여 취소하고 대화 상자를 닫습니다. <br/>색상이 지정된 ![필터](/help/assets/icons/FilterColored.svg) **필터** 아이콘은 필터가 테이블에 적용될 때 세부 정보를 표시합니다.
 
-### 대상 세그먼트 사용
+### 대상자 세그먼트 사용
 
 자세한 내용은 [세그먼테이션 개요](/help/components/filters/filters-overview.md)를 참조하십시오.
 

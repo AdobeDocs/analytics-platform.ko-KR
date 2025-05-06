@@ -48,7 +48,7 @@ Report Builder for Customer Journey Analytics은 Microsoft Excel 추가 기능�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://video.tv.adobe.com/v/3452587?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

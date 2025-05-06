@@ -7,13 +7,13 @@ role: User
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
 # 계산된 지표 템플릿
 
-Customer Journey Analytics은 가장 일반적인 사용 사례를 포괄하기 위해 다음과 같은 계산된 지표 템플릿을 제공합니다. 이러한 Adobe 정의 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별됩니다. 이러한 지표를 빠르게 필터링하려면 [구성 요소 필터](/help/components/overview.md#filter)에서 ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다.
+Customer Journey Analytics은 가장 일반적인 사용 사례를 포괄하기 위해 다음과 같은 계산된 지표 템플릿을 제공합니다. Adobe에서 정의한 이러한 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별할 수 있습니다. 이러한 지표를 빠르게 필터링하려면 [구성 요소 필터](/help/components/overview.md#filter)에서 ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다.
 
 | 계산된 지표 이름 | 설명<br/>수식 |
 |---------|----------|

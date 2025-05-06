@@ -7,7 +7,7 @@ role: User
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 73%
+ht-degree: 93%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 73%
 
 ## 시각화
 
-* [!UICONTROL 폴아웃], [!UICONTROL 흐름], [!UICONTROL 집단] 및 [!UICONTROL 히스토그램]과 같이 세그먼트를 활용하는 시각화는 계산된 지표를 입력으로 허용할 수 없습니다.
+* [!UICONTROL 폴아웃], [!UICONTROL 흐름], [!UICONTROL 코호트] 및 [!UICONTROL 히스토그램]과 같이 세그먼트를 활용하는 시각화는 계산된 지표를 입력으로 허용할 수 없습니다.
 * [!UICONTROL 흐름]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 흐름에서 사용할 수 없습니다.
 * [!UICONTROL 코호트]: 정수가 아닌 항목은 코호트 기준으로 사용할 수 없습니다.
 
 ## 세그먼트
 
-* 특정 지표 및 차원은 세그먼트화할 수 없습니다(예: [!UICONTROL 이벤트], [!UICONTROL 개인] 등).
-* [패널 드롭 영역](/help/analysis-workspace/c-panels/panels.md)에서 만든 임시 세그먼트는 빠른 세그먼트의 유형입니다. 이러한 구성 요소는 공개하지 않으면 Workspace 또는 세그먼트 관리자의 왼쪽 패널에 표시되지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
+* [!UICONTROL 이벤트], [!UICONTROL 개인] 등과 같은 특정 지표 및 차원은 세그먼트화할 수 없습니다.
+* [패널 놓기 영역](/help/analysis-workspace/c-panels/panels.md)에 만든 애드혹 세그먼트는 일종의 빠른 세그먼트입니다. 이러한 구성 요소는 공개하지 않으면 Workspace 또는 세그먼트 관리자의 왼쪽 패널에 표시되지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
 
 ## 계산된 지표
 
 * 계산된 지표는 특정 시각화에 사용할 수 없습니다. [시각화](#visualizations)를 참조하십시오.
 * 계산된 지표 자체가 별도의 속성 모델을 포함할 수 있으므로 계산된 지표는 [!UICONTROL 속성] 패널에서 사용할 수 없습니다.
-* 계산된 지표가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
+* 계산된 지표가 Workspace에서 만들어지는 경우 ([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
 
 ## 날짜 범위
 

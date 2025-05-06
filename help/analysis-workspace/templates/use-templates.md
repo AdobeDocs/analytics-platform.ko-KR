@@ -128,27 +128,27 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    다음 섹션은 사용 가능한 카테고리에 해당하며 각 템플릿에 대한 정보를 제공합니다.
 
-   * &lbrack;[](#most-popular)
+   * [[!UICONTROL ](#most-popular)
 
-   * &lbrack;[](#engagement)
+   * [[!UICONTROL ](#engagement)
 
-   * &lbrack;[](#web-conversion)
+   * [[!UICONTROL ](#web-conversion)
 
-   * &lbrack;[](#web-audience)
+   * [[!UICONTROL ](#web-audience)
 
-   * &lbrack;[](#web-acquisition)
+   * [[!UICONTROL ](#web-acquisition)
 
-   * &lbrack;[](#mobile-mobile-app)
+   * [[!UICONTROL ](#mobile-mobile-app)
 
-   * &lbrack;[](#mobile-mobile-device-information)
+   * [[!UICONTROL ](#mobile-mobile-device-information)
 
-   * &lbrack;[](#time-parting)
+   * [[!UICONTROL ](#time-parting)
 
-   * &lbrack;[](#cross-channel)
+   * [[!UICONTROL ](#cross-channel)
 
-   * &lbrack;[](#other-channels)
+   * [[!UICONTROL ](#other-channels)
 
-   * &lbrack;[](#ajo)
+   * [[!UICONTROL ](#ajo)
 
 ### 최고 인기 항목 {#most-popular}
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
    * 특정 연결을 검색하려면 검색 필드를 사용합니다. 연결 이름이나 ID를 입력하기 시작하면 입력하는 동안 연결 목록이 업데이트됩니다.
 
-   * 세그먼트 옵션 목록을 확장하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오. [!UICONTROL **즐겨찾기**] 또는 [!UICONTROL **상태**]&#x200B;를 기준으로 필터링할 수 있습니다.
+   * ![필터](/help/assets/icons/Filter.svg)를 선택하면 세그먼트 옵션 목록이 확장됩니다. [!UICONTROL **즐겨찾기**] 또는 [!UICONTROL **상태**]&#x200B;를 기준으로 필터링할 수 있습니다.
 
      연결을 즐겨찾기로 표시하려면 연결 이름 왼쪽에 있는 별표 아이콘을 선택합니다.
 

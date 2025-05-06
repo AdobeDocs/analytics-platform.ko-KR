@@ -7,7 +7,7 @@ exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
 source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Customer Journey Analytics의 경고 기능을 사용하면 변경된 백분율�
 
 ## 경고 빌더
 
-경고 빌더 인터페이스는 Customer Journey Analytics에 세그먼트 또는 계산된 지표를 만든 사용자에게 익숙합니다.
+경고 빌더 인터페이스는 Customer Journey Analytics에 세그먼트 또는 계산된 지표를 만든 사용자와 유사합니다.
 
 ![경고 빌더 인터페이스](assets/alert-builder.png)
 
