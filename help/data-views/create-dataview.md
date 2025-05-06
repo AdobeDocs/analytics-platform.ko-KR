@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,14 +56,12 @@ ht-degree: 99%
 
 ### 설정 {#settings}
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
 >title="외부 ID"
 >abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 데이터 보기 이름이 표시되는 방식에 영향을 미칠 수 있습니다."
 
-<!-- markdownlint-enable MD034 -->
 
 데이터 보기에 중요한 설정을 제공합니다.
 
@@ -78,7 +76,6 @@ ht-degree: 99%
 
 ### 호환성 {#compatibility}
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
@@ -86,7 +83,6 @@ ht-degree: 99%
 >abstract="Customer Journey Analytics는 Adobe Journey Optimizer와 호환되는 연결 및 데이터 보기를 사용해야 합니다. 기본적으로 연결 및 데이터 보기는 이러한 목적을 위해 자동 생성됩니다.<br/>또는 이 옵션을 활성화하여 Adobe Journey Optimizer 보고의 기본 데이터 보기로 설정할 수 있습니다. 활성화 시 Journey Optimizer의 모든 필수 구성 요소가 이 데이터 보기에 포함되며, 모든 필수 Journey Optimizer 데이터 세트가 이 데이터 보기와 관련된 연결에 추가됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#connection" text="어떤 구성 요소와 데이터 세트가 추가되는지 알아봅니다."
 
-<!-- markdownlint-enable MD034 -->
 
 
 Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적용할 수 있는 설정을 제공합니다.
@@ -145,7 +141,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
-1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**&#x200B;과 같은 해당 필드를 드래그합니다.
+1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**과 같은 해당 필드를 드래그합니다.
 동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 서로 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 “제품 페이지”라는 차원과 “오류 페이지”라는 차원을 생성할 수 있습니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 일반 섹션으로 자동으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 위치에 모든 스키마 필드가 추가됩니다.
 

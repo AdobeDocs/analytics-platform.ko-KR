@@ -4,17 +4,16 @@ description: Customer Journey Analytics의 B2B edition에 대해 알아봅니다
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
-source-git-commit: 0e4e52cfd42db321c4a7a18a9b1473a67f87e785
+exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
+source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Customer Journey Analytics B2B edition
+# Customer Journey Analytics B2B 에디션
 
 {{b2b-edition}}
 
