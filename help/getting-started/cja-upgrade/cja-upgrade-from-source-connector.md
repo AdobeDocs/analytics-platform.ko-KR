@@ -54,7 +54,7 @@ Analytics 소스 커넥터를 사용하는 데 따른 장단점에 대한 자세
 
 1. Analytics 소스 커넥터에서 각 Adobe Analytics 차원을 Web SDK 스키마의 차원으로 매핑합니다.
 
-   1. 
+   1. &#x200B;
       <!-- how do you get here -->
 
    1. **[!UICONTROL 표준 필드 매핑]** 섹션에서 **[!UICONTROL 사용자 정의]** 탭을 선택합니다.
