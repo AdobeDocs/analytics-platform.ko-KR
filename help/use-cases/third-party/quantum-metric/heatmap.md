@@ -4,12 +4,10 @@ description: Quantum 지표 히트맵 데이터를 사용하여 페이지 수준
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -24,7 +22,7 @@ CJA 데이터에 Quantum 지표 히트매핑을 연결하면 페이지 수준 �
 
 Quantum 지표의 히트맵 기능에 액세스하려면 Quantum 지표의 **UX Ops** 패키지에 대한 권한이 있어야 합니다.
 
-## 1단계: Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum 지표에 직접 연결되도록 구성합니다.
+## 1단계: Analysis Workspace에서 링크 구성
 
 1. [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
 1. Customer Journey Analytics으로 이동하고 상단 메뉴에서 **[!UICONTROL Workspace]**&#x200B;을(를) 선택합니다.
@@ -41,6 +39,8 @@ Quantum 지표의 히트맵 기능에 액세스하려면 Quantum 지표의 **UX 
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 1. 링크 중 하나를 테스트하여 Quantum 지표 확장이 표시된 URL에서 열리는지 확인합니다. 이러한 링크는 새 탭에서 열리므로 Workspace 프로젝트는 열려 있습니다.
+
+![히트맵](assets/heatmap.png)
 
 ## 2단계: Customer Journey Analytics 내에서 링크를 클릭하여 히트맵 보기
 

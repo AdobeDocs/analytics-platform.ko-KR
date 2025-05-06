@@ -4,12 +4,10 @@ description: 양자 지표 연결 세션은 "무엇을"의 "이유"를 더 잘 �
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -22,7 +20,7 @@ Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &q
 
 다음 단계에서는 Adobe Experience Platform 데이터 수집에서 태그를 사용한다고 가정합니다. 조직에서 태그를 사용하지 않는 경우 이러한 데이터 수집 방법을 수동 웹 SDK 구현에 적용할 수 있습니다.
 
-자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
+자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
 
 ## 1단계: Quantum 지표 세션 ID를 수용할 스키마 필드 만들기
 
@@ -109,6 +107,8 @@ Workspace에서 자유 형식 테이블을 만들고 세션 ID 값이 Quantum �
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 이제 각 세션 ID를 클릭 가능한 링크로 지정할 수 있습니다. Analysis Workspace 차원 항목에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 [자유 형식 테이블에 하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 참조하십시오.
+
+![세션 재생](assets/session-replay.png)
 
 ## 5단계: Customer Journey Analytics에서 세션 보기
 

@@ -1,10 +1,8 @@
 ---
 title: Quantum Metric 통합 활용 사례
 description: Customer Journey Analytics에서 양자 지표 데이터를 나머지 데이터와 결합하는 방법에 대해 알아봅니다.
-hide: true
-hidefromtoc: true
 exl-id: a74e7143-e814-42c3-a706-b64427dc9ecb
-source-git-commit: acff9827d7507e536c4cd1d8e047b7e7b62a2642
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
