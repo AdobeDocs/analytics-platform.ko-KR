@@ -155,7 +155,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
