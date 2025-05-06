@@ -3,20 +3,20 @@ title: 차원 개요
 description: 차원의 의미와 Customer Journey Analytics에서 차원을 사용하는 방법을 알아봅니다
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 36%
 
 ---
 
 # 차원 개요
 
-Dimension은 데이터를 분석하는 데 사용되는 Customer Journey Analytics의 구성 요소 유형입니다. 예를 들어 [Analysis Workspace](/help/analysis-workspace/home.md) 또는 [Report Builder](/help/report-builder/report-buider-overview.md)에서 보고서를 작성할 때 차원을 사용합니다.
+차원은 데이터를 분석하는 데 사용되는 Customer Journey Analytics의 구성 요소 유형입니다. 예를 들어 [Analysis Workspace](/help/analysis-workspace/home.md) 또는 [Report Builder](/help/report-builder/rb-overview.md)에서 보고서를 작성할 때 차원을 사용합니다.
 
 Customer Journey Analytics 차원은 무제한 유형입니다. 값은 숫자, 텍스트, 객체, 목록 또는 모든 것의 조합일 수 있습니다.
 
-Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫자 값)에 대해 차원의 행(일반적으로 문자열 값)을 보여줍니다.
+Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫자 값)에 대해 차원 행(일반적으로 문자열 값)을 보여줍니다.
 
 예를 들어 페이지 차원을 사람 지표와 결합하면 사람들이 가장 많이 방문한 페이지를 보여주는 등급 보고서가 만들어집니다.
 

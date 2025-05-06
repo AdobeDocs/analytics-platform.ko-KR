@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 {{release-limited-testing}}
 
-Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ko)는 마케터에게 개별 수준에서 고객 예측을 생성할 수 있는 권한을 제공합니다.
+Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)는 마케터에게 개별 수준에서 고객 예측을 생성할 수 있는 권한을 제공합니다.
 
 영향력 있는 요소를 통해 고객 AI는 고객이 무엇을 할 수 있고 왜 하는지 알려 줄 수 있습니다. 또한 마케터는 고객 AI 예측 및 인사이트를 활용하여 가장 적절한 오퍼와 메시지를 제공함으로써 고객 경험을 개인화할 수 있습니다.
 
@@ -49,7 +49,7 @@ Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://
 
 ## 1단계: 고객 AI 인스턴스 구성
 
-데이터를 준비하고 모든 자격 증명 및 스키마를 준비한 후에는 Adobe Experience Platform의 [고객 AI 인스턴스 구성](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=ko) 안내서를 따라 시작합니다.
+데이터를 준비하고 모든 자격 증명 및 스키마를 준비한 후에는 Adobe Experience Platform의 [고객 AI 인스턴스 구성](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html) 안내서를 따라 시작합니다.
 
 ## 2단계: 고객 AI 데이터 세트에 대한 Customer Journey Analytics 연결 설정
 
@@ -73,7 +73,7 @@ Customer Journey Analytics에서는 이제 고객 AI용으로 계측된 Experien
 
 Customer Journey Analytics에서는 이제 설정한 연결의 일부로 가져온 차원(점수, 점수 날짜, 확률 등) 및 지표를 사용하여 [데이터 보기를 만들](/help/data-views/create-dataview.md) 수 있습니다.
 
-![Create dataview window](assets/create-dataview.png)
+![데이터 보기 창 만들기](assets/create-dataview.png)
 
 ## 4단계: Workspace에서 CAI 점수 보고
 
@@ -81,13 +81,13 @@ Customer Journey Analytics Workspace에서 새 프로젝트를 만들고 시각�
 
 ### 트렌드 성향 점수
 
-다음은 스택 막대 차트에서 시간 경과에 따른 사용자 세그먼트의 성향 점수 추세를 나타내는 CAI 데이터가 있는 Workspace 프로젝트의 예입니다.
+다음은 누적 막대 그래프에서 시간 경과에 따른 사용자 세그먼트의 성향 점수 추세를 나타내는 CAI 데이터가 있는 Workspace 프로젝트의 예입니다.
 
 ![Score buckets](assets/workspace-scores.png)
 
-### 이유 코드가 있는 표
+### 이유 코드가 있는 테이블
 
-다음은 세그먼트의 성향이 높거나 낮은 이유의 코드가 표시되는 표입니다.
+다음은 세그먼트의 성향이 높거나 낮은 이유의 코드가 표시되는 테이블입니다.
 
 ![Reason codes](assets/reason-codes.png)
 
@@ -99,7 +99,7 @@ Customer Journey Analytics Workspace에서 새 프로젝트를 만들고 시각�
 
 ### 성향 점수 분포
 
-이 막대 차트는 성향 점수 분포를 보여 줍니다.
+이 막대 그래프는 성향 점수 분포를 보여 줍니다.
 
 ![Distribution](assets/distribution.png)
 
