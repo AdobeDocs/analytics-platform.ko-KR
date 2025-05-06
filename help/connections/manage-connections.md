@@ -203,7 +203,7 @@ ht-degree: 70%
 | **[!UICONTROL 키]** | 조회 데이터 세트에 대해 지정한 키. |
 | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 대해 지정한 일치하는 키. |
 | **[!UICONTROL 타임스탬프]** | 이벤트 데이터 세트에 대해 정의된 타임스탬프. |
-| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
+| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
 | **[!UICONTROL 추가된 레코드]** | 선택한 날짜 범위 동안 연결에 추가된 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 생략된 레코드]** | 선택한 날짜 범위 동안 연결을 위한 데이터 전송 중 건너뛴 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 추가된 배치]** | 연결에 추가된 배치 수입니다. |
