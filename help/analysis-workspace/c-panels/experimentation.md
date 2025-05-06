@@ -188,8 +188,8 @@ Customer Journey Analytics의 실험 패널을 통해 데이터를 사람들의 
 
 ## 실험 패널에서 계산된 지표 사용
 
-[실험 패널에서 계산된 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)에 대한 자세한 내용은 이 블로그 게시물을 참조하십시오.
+[실험 패널에서 계산된 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=ko)에 대한 자세한 내용은 이 블로그 게시물을 참조하십시오.
 
 >[!MORELIKETHIS]
->[Adobe Customer Journey Analytics 실험 마스터하기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>[Adobe Customer Journey Analytics 실험 마스터하기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=ko)
 >

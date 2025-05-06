@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 데이터 거버넌스
 
-Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
+Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
 
@@ -39,4 +39,4 @@ CCPA에 따라 Privacy Service는 개인 데이터 판매를 거부하도록 요
 
 >[!MORELIKETHIS]
 >
->* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=ko)
