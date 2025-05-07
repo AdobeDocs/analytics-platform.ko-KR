@@ -5,23 +5,20 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 92%
 
 ---
 
 # [!UICONTROL 활성 증가] 분석 {#active-growth}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_activegrowth_button"
 >title="활성 증가"
 >abstract="신규, 유지, 복귀 또는 휴면 상태를 식별합니다."
 
-<!-- markdownlint-enable MD034 -->
 
 
 ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL 활성 증가]** 분석은 특정 기간 동안 사용자의 증가 및 확보에 대한 인사이트를 제공합니다. 가로축은 시간 간격이고, 세로축은 사용자 측정값입니다. 사용자는 4가지 카테고리로 구분됩니다.
@@ -34,7 +31,7 @@ ht-degree: 98%
 모든 활성 사용자(신규 사용자 + 재방문 사용자 + 복귀 사용자)는 가로축 위에 청록색 음영으로 표시되는 반면, 모든 휴면 사용자는 가로축 아래에 주황색으로 표시됩니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423397/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -54,7 +51,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 보기]**: 이 분석과 [순 성장](net-growth.md) 간을 전환합니다.
 * **[!UICONTROL 이벤트]**: 측정하려는 이벤트. 이 분석은 사용자 기반이므로, 해당 기간 내에 이벤트와 한 번 상호 작용한 사용자는 활성 사용자로 간주됩니다. 쿼리에 하나의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 있습니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. <ul><li>**[!UICONTROL 옵션]**&#x200B;에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 추가 **[!UICONTROL B2B 옵션]**&#x200B;은(는) Customer Journey Analytics B2B edition에서 사용할 수 있습니다. [!UICONTROL 글로벌 계정], [!UICONTROL 계정], [!UICONTROL 구매 그룹], [!UICONTROL 기회], [!UICONTROL 글로벌 계정의 백분율], [!UICONTROL 계정의 백분율], [!UICONTROL 구매 그룹의 백분율] 및 [!UICONTROL 기회의 백분율].</li></ul>
 * **[!UICONTROL 세그먼트]**: 데이터를 세그먼트화할 세그먼트입니다. 쿼리에 하나의 세그먼트를 포함할 수 있습니다.
 
 ### 차트 설정

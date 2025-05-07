@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >반복 사용자는 사용자 수의 증가나 감소를 나타내지 않으므로 이 계산에는 반영되지 않습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423464/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 
 ## 사용 사례
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 보기]**: 이 분석과 [활성 증가](active-growth.md) 간을 전환합니다.
 * **[!UICONTROL 이벤트]**: 측정하려는 이벤트. 이 분석은 사용자 기반이므로, 해당 기간 내에 이벤트와 한 번 상호 작용한 사용자는 활성 사용자로 간주됩니다. 쿼리에 하나의 이벤트를 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법. 옵션에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 있습니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. <ul><li>**[!UICONTROL 옵션]**&#x200B;에는 [!UICONTROL 사용자 수] 및 [!UICONTROL 사용자 비율]이 포함됩니다.</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 추가 **[!UICONTROL B2B 옵션]**&#x200B;은(는) Customer Journey Analytics B2B edition에서 사용할 수 있습니다. [!UICONTROL 글로벌 계정], [!UICONTROL 계정], [!UICONTROL 구매 그룹], [!UICONTROL 기회], [!UICONTROL 글로벌 계정의 백분율], [!UICONTROL 계정의 백분율], [!UICONTROL 구매 그룹의 백분율] 및 [!UICONTROL 기회의 백분율].</li></ul>
 * **[!UICONTROL 세그먼트]**: 측정하려는 세그먼트. 쿼리에 하나의 세그먼트를 포함할 수 있습니다.
 
 ### 시간 비교
