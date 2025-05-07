@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e37ac6f67da441e2e9491307dc44e31506383a0d
+source-git-commit: d618300480cdc3b4454e5c91e5e5adacc01d0c77
 workflow-type: tm+mt
-source-wordcount: '19815'
+source-wordcount: '19827'
 ht-degree: 96%
 
 ---
@@ -128,27 +128,27 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    다음 섹션은 사용 가능한 카테고리에 해당하며 각 템플릿에 대한 정보를 제공합니다.
 
-   * &lbrack;[](#most-popular)
+   * **[[!UICONTROL 최고 인기 항목]](#most-popular)**
 
-   * &lbrack;[](#engagement)
+   * **[[!UICONTROL 웹]** > **[!UICONTROL 참여]](#engagement)**
 
-   * &lbrack;[](#web-conversion)
+   * **[[!UICONTROL 웹]** > **[!UICONTROL 전환]](#web-conversion)**
 
-   * &lbrack;[](#web-audience)
+   * **[[!UICONTROL 웹]** > **[!UICONTROL 대상]](#web-audience)**
 
-   * &lbrack;[](#web-acquisition)
+   * **[[!UICONTROL 웹]** > **[!UICONTROL 획득]](#web-acquisition)**
 
-   * &lbrack;[](#mobile-mobile-app)
+   * **[[!UICONTROL 모바일]** > **[!UICONTROL 모바일 앱]](#mobile-mobile-app)**
 
-   * &lbrack;[](#mobile-mobile-device-information)
+   * **[[!UICONTROL 모바일]** > **[!UICONTROL 모바일 장치 정보]](#mobile-mobile-device-information)**
 
-   * &lbrack;[](#time-parting)
+   * **[[!UICONTROL 시간 분할]](#time-parting)**
 
-   * &lbrack;[](#cross-channel)
+   * **[[!UICONTROL 크로스 채널]](#cross-channel)**
 
-   * &lbrack;[](#other-channels)
+   * **[[!UICONTROL 기타 채널]](#other-channels)**
 
-   * &lbrack;[](#ajo)
+   * **[[!UICONTROL AJO]](#ajo)**
 
 ### 최고 인기 항목 {#most-popular}
 
