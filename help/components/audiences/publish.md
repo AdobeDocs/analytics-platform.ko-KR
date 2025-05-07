@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
-workflow-type: ht
-source-wordcount: '2320'
-ht-degree: 100%
+source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
@@ -122,9 +122,13 @@ ht-degree: 100%
 
 ## 대상자가 만들고 게시한 후 진행되는 상황? {#after-audience-created}
 
-Customer Journey Analytics에서 대상자를 만들고 게시하면 해당 대상자를 Experience Platform에서 사용할 수 있습니다. Adobe Experience Platform 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션에 대해 설정된 경우에만 생성됩니다.
+Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Platform에서 이 대상을 사용할 수 있으며 [대상 포털](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal)에서 볼 수 있습니다. Experience Platform에서 사용할 수 있는 대상을 통해 Adobe Journey Optimizer과 같은 다른 Experience Platform 애플리케이션에서 사용할 수 있습니다.
 
-* Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름과 설명을 공유합니다. 이 이름에는 Customer Journey Analytics 대상자 ID가 추가되어 대상자의 고유성을 보장합니다.
+Adobe Experience Platform 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션에 대해 설정된 경우에만 생성됩니다.
+
+Customer Journey Analytics에서 Experience Platform으로 게시된 대상자로 작업할 때 다음 사항을 고려하십시오.
+
+* Experience Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름 및 설명을 공유합니다. 이 이름에는 Customer Journey Analytics 대상자 ID가 추가되어 대상자의 고유성을 보장합니다.
 * Customer Journey Analytics에서 대상자의 이름이나 설명을 변경하면 Experience Platform에 반영됩니다.
 * Customer Journey Analytics에서 대상자가 삭제된 경우, 해당 대상자의 프로필 멤버십이 만료될 때까지 Experience Platform에서 계속 이용할 수 있습니다. 프로필 멤버십은 일회성 대상자의 경우 420일 후에 만료되고, 반복적 대상자의 경우 16일 후에 만료됩니다.
 
