@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: cd5ab1cec686ba8891bd0643d331b80b494b9f7a
 workflow-type: tm+mt
-source-wordcount: '6802'
-ht-degree: 63%
+source-wordcount: '6884'
+ht-degree: 62%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/3409302/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -168,7 +168,7 @@ ht-degree: 63%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -199,8 +199,8 @@ ht-degree: 63%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -208,7 +208,7 @@ ht-degree: 63%
 
 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -245,8 +245,8 @@ ht-degree: 63%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -332,7 +332,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="키 유형 일치"
->abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너로 일치]**: 이벤트 데이터 세트 중 하나와 연결할 컨테이너를 선택합니다. 이 목록이 비어 있으면 하나 이상의 컨테이너를 구성하지 않았을 수 있습니다."
+>abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너별 일치]**: 이벤트 데이터 세트 중 하나와 연결하는 데 사용할 컨테이너를 선택하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -517,13 +517,13 @@ ht-degree: 63%
 
 1. 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 하나 이상의 이벤트 또는 요약 데이터 세트가 연결의 일부여야 합니다.
 
-1. **[!UICONTROL 데이터 세트 추가]** 대화 상자의 **[!UICONTROL 데이터 세트 설정]**&#x200B;➋ 단계에서 선택한 각 데이터 세트에 대한 [설정을 하나씩 구성합니다](#dataset-settings).
+1. **[!UICONTROL 데이터 세트 추가]** 대화 상자의 **[!UICONTROL 데이터 세트 설정]**➋ 단계에서 선택한 각 데이터 세트에 대한 [설정을 하나씩 구성합니다](#dataset-settings).
 
    ![데이터 세트 추가](assets/add-dataset.png)
 
 1. 구성된 데이터 세트를 연결에 추가하려면 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택하십시오. 추가하려는 각 데이터 세트에 대한 모든 필수 설정을 제공하지 않은 경우 알림을 받습니다.
 
-   또는 **[!UICONTROL 취소]**&#x200B;를 선택하여 연결에 데이터 세트 추가를 취소할 수 있습니다. 또는 **[!UICONTROL 뒤로]**&#x200B;를 선택하여 {➊2}데이터 세트 선택&#x200B;**단계로 돌아갑니다.**
+   또는 **[!UICONTROL 취소]**&#x200B;를 선택하여 연결에 데이터 세트 추가를 취소할 수 있습니다. 또는 **[!UICONTROL 뒤로]**&#x200B;를 선택하여 {➊2}데이터 세트 선택&#x200B;]**단계로 돌아갑니다.**[!UICONTROL 
 
 
 ### 데이터 세트 편집
@@ -533,7 +533,7 @@ ht-degree: 63%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**&#x200B;대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
+1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
 
    ![데이터 세트 편집](assets/edit-dataset.png)
 
@@ -582,7 +582,6 @@ ht-degree: 63%
 | **[!UICONTROL 타임스탬프]** | 이 설정은 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형은 다음과 같습니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
 | **[!UICONTROL 데이터 원본 설명]** | 데이터 소스 유형으로 기타 를 선택한 경우 데이터 소스에 대한 설명입니다. |
-
 
 #### 프로필 데이터 세트
 
@@ -669,6 +668,25 @@ ht-degree: 63%
 {{common-dataset-settings}}
 
 
+### 데이터 다시 수집
+
+경우에 따라 하나 이상의 데이터 세트의 데이터를 연결로 다시 수집해야 합니다. 이렇게 하려면 다음 작업을 수행하십시오.
+
+1. 각 데이터 세트에 대해 다음 데이터를 다시 수집할 수 있습니다.
+
+   1. 다음 중 하나를 변경합니다.
+
+      * 이미 수집된 이벤트 데이터 세트에 대한 식별자(개인 ID, 계정 ID 또는 기타 ID).
+      * 이미 수집된 프로필 또는 조회 데이터 세트에 대한 키, 일치하는 키 또는 일치하는 키 유형(필드 또는 컨테이너)입니다.
+
+      또는 데이터 집합에서 **[!UICONTROL 기존 데이터 채우기 모두 채우기]**&#x200B;를 전환할 수 있습니다.
+
+   1. 데이터 집합에 대한 변경 내용을 **[!UICONTROL 적용]**&#x200B;합니다.
+
+1. 연결을 **[!UICONTROL 저장]**&#x200B;합니다. 특정 데이터 세트에 대한 데이터가 다시 수집됩니다.
+
+
+
 ### 데이터 세트 삭제
 
 데이터 세트를 삭제하면 삭제의 의미에 대한 알림이 표시됩니다. 데이터 세트를 삭제하면 연결된 모든 연결, 데이터 보기 및 프로젝트에 영향을 줄 수 있습니다. 또한 연결에서 유일한 이벤트 또는 요약 데이터 세트를 삭제하면 다른 이벤트 또는 요약 데이터 세트를 추가하라는 메시지가 표시됩니다. 하나 이상의 이벤트 또는 요약 데이터 세트가 포함된 연결만 저장할 수 있습니다.
@@ -676,7 +694,7 @@ ht-degree: 63%
 
 ### 이전 채우기
 
-인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**&#x200B;대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
+인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
 
 ## 데이터 세트 유형 {#dataset-types}
 
@@ -783,6 +801,6 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![공유](/help/assets/icons/Share.svg)
