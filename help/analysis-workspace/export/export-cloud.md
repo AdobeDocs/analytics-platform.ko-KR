@@ -5,7 +5,7 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
+source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 97%
@@ -123,7 +123,7 @@ Analysis Workspace에서 데이터를 내보낸 후에는 기존 내보내기를
 
 <!-- add in  what the file name, structure, and file format will be -->
 
-## 클라우드로 내보낼 때의 이점
+## 클라우드로 내보낼 때의 이점 {#advantages}
 
 Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작업이 가능합니다.
 
@@ -217,7 +217,7 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
   >
   >다차원 보고서는 이 문서에서 설명한 대로 클라우드 데이터를 내보낼 때만 지원됩니다.
 
-## 전체 테이블 내보내기(Customer Journey Analytics)와 Data Warehouse(Adobe Analytics) 비교
+## 전체 테이블 내보내기(Customer Journey Analytics)와 Data Warehouse(Adobe Analytics) 비교 {#comparison}
 
 이전에 Data Warehouse를 사용하여 Adobe Analytics 데이터를 내보낸 적이 있다면 다음 테이블을 통해 Customer Journey Analytics에서 전체 테이블을 내보내는 것과 Adobe Analytics에서 Data Warehouse로 데이터를 내보내는 것의 차이점을 이해할 수 있습니다.
 
