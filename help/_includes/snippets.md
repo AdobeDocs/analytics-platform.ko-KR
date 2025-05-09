@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 34%
+source-wordcount: '5198'
+ht-degree: 39%
 
 ---
 # 스니펫
@@ -155,7 +155,7 @@ ht-degree: 34%
 
 * **첫 번째 터치**&#x200B;와 **개인 전환 확인 기간**&#x200B;을 사용하는 속성은 세 번째 방문만 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다.
 
-* **선형**&#x200B;과 **세션 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
+* **선형**&#x200B;과 **세션 전환 확인 기간**을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
 **선형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다.
 
 * **J자형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.
@@ -205,17 +205,17 @@ ht-degree: 34%
 
 >[!NOTE]
 > 
->Customer Journey Analytics 업그레이드 가이드의 질문에 답변할 때 이 페이지의 정보를 사용하십시오. <br><br>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따릅니다.
+>Customer Journey Analytics 업그레이드 가이드의 질문에 답변할 때 이 페이지의 정보를 사용하십시오. <br><br>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
 
 ## 업그레이드 체크리스트 메모 후속 단계 {#upgrade-note-step}
 
 >[!NOTE]
 > 
->이전 업그레이드 단계를 모두 완료한 후에만 이 페이지의 단계를 수행합니다. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
+>이전 업그레이드 단계를 모두 완료한 후에만 이 페이지의 단계를 수행합니다. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직과 고유한 상황에 맞게 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 안내서가 출시되었습니다.</p><p>Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.</p></li></ul>
 
 ## 업그레이드 체크리스트 최종 단계 {#upgrade-final-step}
 
-1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.
+1. Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 계속 수행합니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
 
 
 ## 초안 Content Analytics 설명서 {#draft-aca}
@@ -247,11 +247,52 @@ ht-degree: 34%
 |---|---|
 | **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 활성화합니다. 지속적인 연결을 통해 데이터 세트에 추가된 새 데이터 배치를 Workspace에서 자동으로 사용할 수 있습니다. |
 | **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
-| **[!UICONTROL 일괄 처리 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
+| **[!UICONTROL 배치 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
 | **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
-| **[!UICONTROL 설명]** | 데이터 세트를 만들 때 이 데이터 세트에 제공된 설명입니다. |
+| **[!UICONTROL 설명]** | 이 데이터 세트가 생성될 때 제공된 설명입니다. |
 | **[!UICONTROL 레코드 수]** | 데이터 세트 크기입니다. |
 | **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 스키마입니다. |
 | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. |
-| **[!UICONTROL 미리보기: *데이터 세트 이름&#x200B;*]** | 처음 10개 행 및 처음 10개 열에 대한 데이터 세트를 미리 봅니다. |
+| **[!UICONTROL 미리보기: *데이터 세트 이름&#x200B;*]** | 처음 10개 행과 처음 10개 열에 대한 데이터 세트를 미리 봅니다. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 제거]** | 전체 연결을 삭제하지 않고 [데이터 집합을 삭제](/help/connections/create-connection.md#delete-a-dataset)할 수 있습니다. 연결에서 데이터 세트를 삭제하면 데이터 수집과 관련된 비용과 전체 연결 및 관련 데이터 보기를 다시 만드는 번거로운 프로세스가 줄어듭니다. |
+
+## 표준 차원 {#standard-dimensions}
+
+| 구성 요소 이름 | 참고 |
+|---|---|
+| 15분 | 지정된 이벤트가 발생한 15분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 15분입니다. |
+| 30분 | 주어진 이벤트가 발생한 30분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 30분이고 마지막 차원 항목은 날짜 범위에서 마지막 30분입니다. |
+| 5분 | 주어진 이벤트가 발생한 5분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 5분입니다. |
+| [!UICONTROL 일] | 특정 이벤트기 발생한 시간(일)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
+| [!UICONTROL 날짜] | 특정 이벤트기 발생한 월의 일입니다. 첫 번째 차원 항목은 날짜 범위에서 해당 월의 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 해당 월의 마지막 일입니다. |
+| [!UICONTROL 요일] | 특정 이벤트기 발생한 요일입니다. 첫 번째 차원 항목은 날짜 범위에서 주의 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 주의 마지막 일입니다. |
+| [!UICONTROL 날짜] | 특정 이벤트기 발생한 월의 일입니다. 첫 번째 차원 항목은 날짜 범위에서 해당 월의 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 해당 월의 마지막 일입니다. |
+| 이벤트 깊이 | 세션 내의 각 이벤트 상호 작용에 순차적 숫자 값(1, 2, 3 등)을 할당합니다. 이 차원을 사용하면 세션 내의 사용자 상호 작용의 순차적 흐름에서 특정 이벤트가 발생하는 위치를 자세히 추적하고 분석할 수 있습니다. 제한된 세션 내에서 이벤트의 시작부터 끝까지 진행률을 추적할 수 있습니다. 예: 방문자가 홈 페이지에 방문(이벤트 1, 세션 시작)하고 검색 기능(이벤트 2)을 사용하고, 제품 세부 사항 페이지를 보고(이벤트 3), 장바구니에 추가(이벤트 4)하고, 체크아웃을 진행하고(이벤트 5), 구매를 완료(이벤트 6, 세션 종료). 이제 세그먼트 정의에서 [!UICONTROL 이벤트 깊이]를 사용하여 상호 작용 깊이에 따라 데이터를 세그먼트화할 수 있습니다. |
+| [!UICONTROL 시간] | 특정 이벤트기 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. |
+| [!UICONTROL 시간 (일 기준)] | 특정 이벤트기 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 그날의 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 그날의 마지막 시간입니다. |
+| [!UICONTROL 분] | 특정 이벤트기 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 마지막 분입니다. |
+| [!UICONTROL 분/시간] | 특정 이벤트기 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 시간의 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 시간의 마지막 분입니다. |
+| [!UICONTROL 월] | 특정 이벤트기 발생한 시간(월)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 마지막 월입니다. |
+| [!UICONTROL 월] | 특정 이벤트기 발생한 월의 월입니다. 첫 번째 차원 항목은 날짜 범위에서 연도의 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 연도의 마지막 월입니다. |
+| [!UICONTROL 분기] | 특정 이벤트기 발생한 시간(분기)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 마지막 분기입니다. |
+| [!UICONTROL 사분기] | 특정 이벤트기 발생한 해당 연도의 분기입니다. 첫 번째 차원 항목은 날짜 범위에서 해당 연도의 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 해당 연도의 마지막 분기입니다. |
+| [!UICONTROL 초] | 특정 이벤트기 발생한 시간(초)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시산(초)이고 마지막 차원 항목은 날짜 범위에서 마지막 시간(초)입니다. |
+| [!UICONTROL 주] | 특정 이벤트기 발생한 시간(주)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. |
+| [!UICONTROL 주 단위] | 특정 이벤트기 발생한 시간(주)입니다. 첫 번째 차원 항목은 날짜 범위에서 연도의 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 연도의 마지막 주입니다. |
+| [!UICONTROL 년] | 특정 이벤트기 발생한 시간(년)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 해이고 마지막 차원 항목은 날짜 범위에서 가장 최근 연도입니다. |
+
+
+## 표준 지표 {#standard-metrics}
+
+| 구성 요소 이름 | 참고 |
+| --- | --- |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 계정] | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 구매 그룹] | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
+| [!UICONTROL 이벤트] | [!UICONTROL 연결]의 모든 이벤트 데이터 세트의 행 수입니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 글로벌 계정] | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 기회] | [!UICONTROL 연결]에 지정된 기회 ID를 기반으로 하는 기회입니다. |
+| [!UICONTROL 사용자] | [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
+| [!UICONTROL 세션 종료] | 세션의 마지막 이벤트였던 이벤트 수입니다. [!UICONTROL 세션 시작]과 마찬가지로 세그먼트 정의에서도 모든 세션의 마지막 이벤트까지 세그먼트화하는 데 사용할 수 있습니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 종료 비율</li></p> |
+| [!UICONTROL 세션 시작] | 세션의 첫 번째 이벤트였던 이벤트 수입니다. 세그먼트 정의(예: “[!UICONTROL 세션 시작]이 존재합니다”)에 사용될 경우 이 세그먼트는 모든 세션의 첫 번째 이벤트까지만 필터링합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 시작 비율</li></p> |
+| [!UICONTROL 세션] | 데이터 보기의 세션 설정을 기반으로 합니다. |
+| [!UICONTROL 소비한 시간(초)] | 차원에 대한 두 개의 서로 다른 값 사이의 시간을 합산합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>사용자당 소비한 시간</li><li>세션당 소비한 시간</li></p> |

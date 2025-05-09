@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 94%
+source-wordcount: '737'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일�
 
 ## 새로운 기능
 
-Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../release-notes/latest.md)에서 자세히 확인할 수 있습니다. 최신 변경 사항을 확인하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 방문하십시오.
+Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../release-notes/latest.md)에서 자세히 확인할 수 있습니다. 최신 설명서 업데이트를 최신 상태로 유지하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 참조하세요.
 
 >[!BEGINTABS]
 
@@ -29,47 +29,60 @@ Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르
 
 [![이미지](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
+>[!TAB 이벤트 깊이]
+
+이벤트 깊이 는 새로운 표준 차원으로, 고객 세션 내에서 이벤트가 배치되는 방식을 측정하고 더 잘 이해할 수 있는 새로운 방법을 제공합니다. 이벤트 깊이 차원을 사용하면 세션 내의 사용자 상호 작용의 순차적 흐름에서 특정 이벤트가 발생하는 위치를 자세히 추적하고 분석할 수 있습니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
+
+
 >[!TAB 공유된 지표 및 차원]
 
 공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 특히 여러 데이터 보기를 사용하는 조직에서 공통 구성 요소 설정을 공유하는 경우 유용합니다.
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
->[!TAB AI 어시스턴트]
 
-AI 어시스턴트는 개념 이해, 문제 해결, 정보 검색 등 실무자가 빠른 속도로 작업을 수행할 수 있도록 돕는 대화형 경험입니다. 비전문가도 전문적인 업무를 수행할 수 있게 해 주고 전반적인 업무의 질을 높여 주기도 합니다.
+<!--
+>[!TAB AI Assistant] 
 
-[![이미지](assets/learn-more-button.svg)](/help/ai-assistant.md)
+AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
 
-
->[!TAB 가이드 분석]
-
-이제 Analysis Workspace 내에서 직접 가이드 분석을 사용할 수 있으며, 사용자는 패널, 시각화 및 가이드 분석에서 얻은 포괄적인 인사이트로 대시보드를 만들 수 있습니다.
-
-[![이미지](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 
->[!TAB 인텔리전트 캡션 v2]
+>[!TAB Guided Analysis] 
 
-이제 추가 인터페이스 개선을 통해 [라인](/help/analysis-workspace/visualizations/line.md)(여러 줄 포함), [막대](/help/analysis-workspace/visualizations/bar.md), [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md), [영역](/help/analysis-workspace/visualizations/area.md)(여러 영역 라인 포함), [도넛](/help/analysis-workspace/visualizations/donut.md), [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 및 [흐름](/help/analysis-workspace/visualizations/c-flow/flow.md) 시각화에 대한 인텔리전스 캡션이 지원됩니다.
+Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
 
-[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
->[!TAB 경고]
-
-경고 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다. 경고가 얼마나 자주 실행되는지 미리 보고, 이메일이나 SMS로 경고를 보내고, 누적된 경고를 만드는 등의 작업을 수행할 수 있습니다.
-
-[![이미지](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB 요약 데이터]
 
-개인 ID가 없는 시계열 데이터를 가져올 수 있습니다. 이 시계열 데이터를 사용하여 다음과 같은 다양한 사용 사례를 지원할 수 있습니다.
+>[!TAB Intelligent captions v2] 
 
-- 이벤트 수준 데이터의 일부 또는 거의 유사한 높은 수준의 성과 지표를 제공합니다.
-- 매시간 또는 매일 대상이나 목표를 업로드한 다음 이벤트 수준 지표에 대해 이들 대상 또는 목표를 배치합니다.
+Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
 
-[![이미지](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Alerts] 
+
+Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
+
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Summary data] 
+
+Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
+
+- Presenting high-level performance indicators as part of or next to event-level data. 
+- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
+
+[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+
+-->
 
 >[!TAB 그래프 기반 스티칭*]
 
@@ -172,4 +185,4 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
+<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>

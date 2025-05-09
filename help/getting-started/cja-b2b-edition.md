@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,4 @@ Customer Journey Analytics B2B edition은 매출 성장을 이끄는 실행 가�
 >
 >[B2B 개념 및 기능](cja-b2b-concepts-features.md)
 >[B2B 빠른 시작 안내서](cja-b2b-quick-start-guide.md)
->B2B 보호 기능(문서:
->B2C에서 B2B로 마이그레이션(문서 t.b.d.)
 >

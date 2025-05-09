@@ -4,10 +4,10 @@ title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -35,11 +35,19 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
    * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
    * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
 
+  표준 지표의 전체 목록은 [표준 지표](#standard-metrics)를 참조하십시오.
+
 * **계산된 지표** ![계산기](/help/assets/icons/Calculator.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표입니다.
 
 * **계산된 지표 템플릿** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : 계산된 지표와 유사하게 동작하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 있는 그대로 사용하거나 사본을 저장하여 논리를 사용자 지정할 수 있습니다. [기본 계산된 지표](calc-metrics/cm-workflow/../default-calcmetrics.md)를 참조하십시오.
 
 지표가 승인되었는지 ![승인됨 아이콘](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)을 확인할 수 있습니다. 지표에 대한 자세한 내용을 보려면 지표 위로 마우스를 가져간 후 ![정보 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)을 선택하세요. 자세한 내용은 [구성 요소 정보](use-components-in-workspace.md#component-info)를 참조하세요.
+
+
+## 표준 지표
+
+Customer Journey Analytics의 전체 표준 지표 목록:
+{{standard-metrics}}
 
 ## 다양한 속성 모델과 지표 비교
 
