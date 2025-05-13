@@ -5,10 +5,10 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
+source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 97%
+source-wordcount: '2312'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,16 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 
 ![1~4단계에서 설명한 전체 테이블 내보내기 프로세스.](assets/export-full-table-process.png)
 
-## Analysis Workspace에서 전체 테이블 내보내기
+## Analysis Workspace에서 전체 테이블 내보내기 {#export-from-workspace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="매니페스트 파일"
+>abstract="활성화되면 매니페스트 파일이 성공적인 내보내기 게재에 포함됩니다. 매니페스트 파일을 사용하면 모든 파일이 성공적으로 배달되었는지 확인할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
