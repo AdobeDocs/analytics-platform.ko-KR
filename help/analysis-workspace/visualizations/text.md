@@ -4,10 +4,10 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: 75d45cd6a2149bb44949ec6e0f3808ea4a6995f5
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -46,7 +46,7 @@ Workspace 프로젝트에 사용자 정의의 서식 있는 텍스트를 추가�
 
 ## 텍스트 서식 조정 {#format}
 
-텍스트 상자 또는 설명을 편집할 때 선택한 텍스트의 글꼴 크기 (제목 수준), 색상, 스타일 (굵게, 기울임 꼴, 밑줄) 및 정렬을 조정할 수 있습니다. 글머리 기호 및 번호 매기기 목록을 추가할 수도 있습니다.
+텍스트 상자 또는 설명을 편집할 때 선택한 텍스트의 글꼴 크기(제목 수준), 색상, 스타일(굵게, 기울임 꼴, 밑줄) 및 정렬을 조정할 수 있습니다. 글머리 기호 및 번호 매기기 목록을 추가할 수도 있습니다.
 
 ![텍스트 색상 팔레트가 강조 표시된 Workspace 프로젝트의 텍스트 옵션.](assets/format.png)
 
@@ -58,6 +58,10 @@ Workspace 프로젝트에 사용자 정의의 서식 있는 텍스트를 추가�
 
 ## 이미지 추가 {#images}
 
-프로젝트에 이미지를 추가하려면 메뉴에서 ![이미지](/help/assets/icons/Image.svg)를 선택하고 공개 이미지 URL을 삽입합니다. 이미지 URL은 공개적으로 액세스할 수 있어야 하며 `https`로 시작하고 `.png`, `.jpeg`, `.jpg` 또는 `.gif` 형식이어야 합니다. 정적 및 애니메이션 이미지가 지원됩니다.
+프로젝트에 이미지를 추가하려면 메뉴에서 ![이미지](/help/assets/icons/Image.svg)를 선택하고 **[!UICONTROL 이미지 URL]**(예: `https://www.adobe.com/uploads/2018/06/Adobe.png`)에서 이미지 URL을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+이미지 URL은 공개적으로 액세스할 수 있어야 하며 `https`로 시작하고 `.png`, `.jpeg`, `.jpg` 또는 `.gif` 형식이어야 합니다. 정적 및 애니메이션 이미지가 지원됩니다.
+
+이미지의 드래그 앤 드롭 삽입은 지원되지 않습니다.
 
 ![이미지 아이콘이 선택된 텍스트 옵션.](assets/image.png)
