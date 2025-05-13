@@ -3,10 +3,8 @@ description: Analysis Workspace에서 프로젝트에 주석을 다는 방법에
 title: 프로젝트의 주석 추가 및 보기
 feature: Workspace Basics
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
+source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 0%
@@ -14,6 +12,8 @@ ht-degree: 0%
 ---
 
 # 프로젝트의 주석 추가 및 관리 {#comment-on-projects}
+
+{{release-limited-testing}}
 
 Analysis Workspace의 주석을 사용하면 Analysis Workspace 프로젝트 컨텍스트 내에서 통찰력을 공유하고 질문을 할 수 있습니다. 이를 통해 데이터에 대한 토론을 간소화하여 논의되는 데이터의 컨텍스트 내에서 대화를 유지할 수 있습니다.
 
