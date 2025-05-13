@@ -3,10 +3,10 @@ title: 차원 개요
 description: 차원의 의미와 Customer Journey Analytics에서 차원을 사용하는 방법을 알아봅니다
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 26%
+source-wordcount: '235'
+ht-degree: 25%
 
 ---
 
@@ -45,3 +45,9 @@ Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원을 �
 ## 차원 설명 추가
 
 Customer Journey Analytics 관리자는 데이터 보기 내에서 또는 Analysis Workspace 내에서 직접 차원 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 차원에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)를 참조하십시오.
+
+>[!MORELIKETHIS]
+>
+>[이벤트 깊이 기능을 통해 더 자세한 고객 인사이트 검색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>
+
