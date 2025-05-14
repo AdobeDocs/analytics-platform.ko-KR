@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 {{draft-b2b}}
 
-Adobe Analytics은 마케터를 위한 웹 및 디지털 분석 도구로 시작했으며 Customer Journey Analytics은 다중 채널, 오프라인 및 크로스 플랫폼 데이터를 포함하도록 범위를 넓혔습니다.  두 도구 모두 비즈니스 대 소비자 (B2C) 회사가 마케팅 노력과 고객 경험을 분석하고 최적화하는 데 도움이 됩니다.
+Adobe Analytics은 마케터를 위한 웹 및 디지털 분석 도구로 시작했으며 Customer Journey Analytics은 다중 채널, 오프라인 및 크로스 플랫폼 데이터를 포함하도록 범위를 넓혔습니다.  두 도구 모두 비즈니스 대 소비자 (B2C) 회사가 마케팅 노력과 고객 경험을 분석하고 최적화하는 데 도움이 됩니다. **사용자 기반 보고 및 분석에 집중**: 고객이 여러 채널에서 브랜드와 상호 작용하는 개인인 고객 여정을 이해합니다.
 
-B2B(Business-to-Business) 영업에서는 구매 여정에 거래 성사 전 여러 당사자, 온라인 및 오프라인 접점, 주요 단계가 포함됩니다. B2B 회사는 통합 여정 보기에서 이러한 모든 상호 작용을 추적하여 마케팅 노력과 계정 경험을 효과적으로 분석하고 최적화해야 합니다.
+Customer Journey Analytics B2B edition은 **계정 기반 보고 및 분석**&#x200B;을 추가합니다. B2B(Business-to-Business) 영업에서는 구매 여정에 거래 성사 전 여러 당사자, 온라인 및 오프라인 접점, 주요 단계가 포함됩니다. B2B 회사는 통합 여정 보기에서 이러한 모든 상호 작용을 추적하여 마케팅 노력과 계정 경험을 효과적으로 분석하고 최적화해야 합니다.
 
 일반적인 B2B 판매 특성은 다음과 같습니다.
 

@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: baf392d4d576f07d906ccb7cee379bf5cdfd2a34
+source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
 workflow-type: tm+mt
-source-wordcount: '7199'
-ht-degree: 59%
+source-wordcount: '7259'
+ht-degree: 58%
 
 ---
 
@@ -75,6 +75,11 @@ ht-degree: 59%
 >abstract="전체 연결에 대해 예상되는 일일 이벤트 수 범위를 선택합니다."
 
 >[!CONTEXTUALHELP]
+>id="connection_change_personid"
+>title="개인 ID 변경"
+>abstract="개인 ID를 변경하면 연결에서 기존 데이터가 모두 삭제되고 새 개인 ID를 기반으로 데이터 세트에서 모든 데이터가 다시 수집됩니다. 이 작업은 비용에 영향을 줄 수 있습니다. <br/><br/>**[!UICONTROL 계속]**&#x200B;을 선택하면 프로세스가 완료될 때까지 보고가 지연될 수 있습니다."
+
+>[!CONTEXTUALHELP]
 >id="connection_change_accountid"
 >title="계정 ID 변경"
 >abstract="계정 ID를 변경하면 연결에서 모든 기존 데이터가 삭제되고 새 계정 ID를 기반으로 데이터 세트에서 모든 데이터를 다시 수집합니다. 이 작업은 비용에 영향을 줄 수 있습니다. <br/><br/>**[!UICONTROL 계속]**&#x200B;을 선택하면 프로세스가 완료될 때까지 보고가 지연될 수 있습니다."
@@ -106,7 +111,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/3409302/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -142,7 +147,7 @@ ht-degree: 59%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -173,8 +178,8 @@ ht-degree: 59%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -182,7 +187,7 @@ ht-degree: 59%
 
 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -219,8 +224,8 @@ ht-degree: 59%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -228,231 +233,133 @@ ht-degree: 59%
 
 연결 워크플로의 일부로 [하나 이상의 데이터 세트를 추가](#add-datasets)하거나 [기존 데이터 세트를 편집](#edit-a-dataset)합니다.
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryid"
 >title="기본 ID"
 >abstract="연결에 적합한 기본 ID 선택: B2C 시나리오 사용자. B2B 시나리오에 대한 계정."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="선택 가능한 컨테이너"
 >abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_connection_personid"
->title="개인 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
 >title="계정 필드"
 >abstract="계정 ID(계정의 고유 식별자)를 나타내는 필드를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalaccountid"
 >title="글로벌 계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정에 대한 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityid"
 >title="기회 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 Opportunity ID (Opportunity 의 고유 식별자) 를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyinggroupid"
 >title="구매 그룹 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="cja_connection_personid"
+>title="개인 ID"
+>abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 개인 ID(개인의 고유 식별자)를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="키 유형 일치"
 >abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너별 일치]**: 이벤트 데이터 세트 중 하나와 연결하는 데 사용할 컨테이너를 선택하십시오."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="새 데이터 가져오기"
 >abstract="Experience Platform 데이터 세트에 추가되는 모든 새 배치는 이 연결에 자동으로 추가되며 분석에 사용할 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_datasetbackfill"
 >title="데이터 세트 다시 채우기"
 >abstract="이 옵션은 연결에서 이 데이터 세트에 대한 Experience Platform의 기존(내역) 데이터를 다시 채웁니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="데이터 세트 변환"
 >abstract="이 옵션은 B2B 시나리오에서 사용자 기반 조회에 사용할 수 있도록 데이터 세트를 변환합니다. 활성화되고 나면 데이터 세트의 변환은 되돌릴 수 없습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_connectionmap"
 >title="연결 맵"
 >abstract="연결 맵은 이벤트, 사용자, 계정 및 관련 조회 데이터 세트(기회, 캠페인 멤버 등) 간의 관계를 시각화합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_primaryid"
 >title="기본 ID"
 >abstract="연결에 적합한 기본 ID 선택: B2C 시나리오 사용자. B2B 시나리오에 대한 계정."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="선택 가능한 컨테이너"
 >abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="개인 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 개인 ID를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
 >title="계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
 >title="계정 필드"
 >abstract="계정 ID(계정의 고유 식별자)를 나타내는 필드를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_globalaccountid"
 >title="글로벌 계정 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 글로벌 계정 ID(글로벌 계정에 대한 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_opportunityid"
 >title="기회 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 Opportunity ID (Opportunity 의 고유 식별자) 를 선택합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_buyinggroupid"
 >title="구매 그룹 ID"
 >abstract="Experience Platform의 데이터 세트 스키마에서 정의한 사용 가능한 ID에서 구매 그룹 ID(구매 그룹의 고유 식별자)를 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="키 유형 일치"
 >abstract="조인 방법 선택: 필드별 일치 또는 컨테이너별 일치를 기반으로 합니다.<br/><br/>**[!UICONTROL 필드로 일치&#x200B;]**: 이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다.<br/>**[!UICONTROL 컨테이너별 일치]**: 이벤트 데이터 세트 중 하나와 연결하는 데 사용할 컨테이너를 선택하십시오."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
 >title="새 데이터 가져오기"
 >abstract="Experience Platform 데이터 세트에 추가되는 모든 새 배치는 이 연결에 자동으로 추가되며 분석에 사용할 수 있습니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_datasetbackfill"
 >title="데이터 세트 다시 채우기"
 >abstract="이 옵션은 연결에서 이 데이터 세트에 대한 Experience Platform의 기존(내역) 데이터를 다시 채웁니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_transformdataset"
 >title="데이터 세트 변환"
 >abstract="이 옵션은 B2B 시나리오에서 사용자 기반 조회에 사용할 수 있도록 데이터 세트를 변환합니다. 활성화되고 나면 데이터 세트의 변환은 되돌릴 수 없습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_connectionmap"
@@ -507,7 +414,7 @@ ht-degree: 59%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**&#x200B;대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
+1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
 
    ![데이터 세트 편집](assets/edit-dataset.png)
 
@@ -668,7 +575,7 @@ ht-degree: 59%
 
 ### 이전 채우기
 
-인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**&#x200B;대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
+인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
 
 ## 데이터 세트 유형 {#dataset-types}
 
@@ -704,7 +611,7 @@ ht-degree: 59%
 
 ![연결 맵](assets/connectionmap.png)
 
-이 맵을 사용하면 연결을 정의한 방법을 더 잘 이해하고 식별자를 사용하여 이벤트, 프로필, 조회 및 요약 데이터 세트 간의 관계를 설정할 수 있습니다.
+이 맵을 사용하면 연결을 정의한 방법을 더 잘 이해하고 컨테이너와 식별자를 사용하여 이벤트, 프로필, 조회 및 요약 데이터 세트 간의 관계를 설정할 수 있습니다.
 
 
 ## 숫자 필드를 조회 키 및 조회 값으로 사용 {#numeric}
@@ -775,6 +682,6 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![공유](/help/assets/icons/Share.svg)
