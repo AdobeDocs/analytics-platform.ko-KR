@@ -48,6 +48,6 @@ Customer Journey Analytics는 데이터 보기 내에서 또는 Analysis Workspa
 
 >[!MORELIKETHIS]
 >
->[이벤트 깊이 기능을 통해 더 자세한 고객 인사이트 검색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[이벤트 깊이 기능을 통해 더 자세한 고객 인사이트 검색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=ko#M576)
 >
 
