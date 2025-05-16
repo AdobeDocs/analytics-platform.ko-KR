@@ -72,6 +72,6 @@ ht-degree: 100%
 >
 >[콘텐츠 분석 보고](report/report.md)
 >[콘텐츠 분석 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
 >
 
