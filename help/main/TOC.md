@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 97%
+source-wordcount: '1225'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 97%
    + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Experience Platform Edge Network  {#edge-network}
+      + Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [서버 API](../data-ingestion/serverapi.md)
@@ -151,7 +151,7 @@ ht-degree: 97%
    + [레이블 및 정책](../data-views/data-governance.md)
    + 공유된 지표 및 차원{#shared-metrics-dimensions}
       + [개요](/help/data-views/shared-metrics-dimensions/smd-overview.md)
-      + [편집자](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
+      + [편집기](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 
 + 도구 {#tools}
    + 자산 이전 {#asset-transfer}
@@ -161,7 +161,7 @@ ht-degree: 97%
       + [데이터 설정](../tools/product-usage/data-settings.md)
       + [옵트아웃 설정](../tools/product-usage/opt-out-settings.md)
 
-+ 작업 영역 프로젝트 {#cja-workspace}
++ Workspace 프로젝트 {#cja-workspace}
    + [Analysis Workspace 개요](../analysis-workspace/home.md)
    + [기본 분석 수행](../analysis-workspace/perform-basic-analysis.md)
    + [고급 분석 수행](../analysis-workspace/perform-adv-analysis.md)
@@ -169,7 +169,7 @@ ht-degree: 97%
       + [개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [프로젝트에 대한 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [프로젝트의 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace의 폴더 {#workspace-folders}
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -194,7 +194,7 @@ ht-degree: 97%
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [작업 영역 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 코호트 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -212,19 +212,19 @@ ht-degree: 97%
          + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-      + [영역 (누적)](../analysis-workspace/visualizations/area.md)
-      + [막대 (누적)](../analysis-workspace/visualizations/bar.md)
+      + [영역 (스택)](../analysis-workspace/visualizations/area.md)
+      + [막대 (스택)](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [가로 막대 (누적)](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대 (스택)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
       + [맵](/help/analysis-workspace/visualizations/map.md)
       + [분산](../analysis-workspace/visualizations/scatterplot.md)
       + [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md)
-      + [요약 번호 및 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
+      + [요약 숫자 및 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](../analysis-workspace/visualizations/text.md)
       + [트리 맵](../analysis-workspace/visualizations/treemap.md)
       + [벤](../analysis-workspace/visualizations/venn.md)
@@ -387,12 +387,12 @@ ht-degree: 97%
 
 + Report Builder {#cja-reportbuilder}
    + [개요](../report-builder/rb-overview.md)
-   + [Report Builder 설정](../report-builder/report-builder-setup.md)
+   + [Report Builder 설치](../report-builder/report-builder-setup.md)
    + [데이터 블록 만들기](../report-builder/create-a-data-block.md)
    + [Report Builder 허브](../report-builder/report-builder-hub.md)
    + [데이터 보기 선택](../report-builder/select-data-view.md)
    + [날짜 범위 선택](../report-builder/select-date-range.md)
-   + [세그먼트 작업](../report-builder/work-with-filters.md)
+   + [세그먼트를 사용한 작업](../report-builder/work-with-filters.md)
    + [차원 필터링](../report-builder/filter-dimensions.md)
    + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
    + [통합 문서 예약](../report-builder/schedule-reportbuilder.md)
@@ -411,6 +411,7 @@ ht-degree: 97%
    + [그래프 기반 스티칭](/help/stitching/gbs.md)
    + [스티칭 사용](/help/stitching/use-stitching.md)
    + [결합된 데이터 세트 생성 및 관리](/help/stitching/stitching-ui.md)
+   + [결합 유효성 검사](/help/stitching/validate.md)
    + [자주 묻는 질문](/help/stitching/faq.md)
 
 + Adobe 통합 {#integrations}
