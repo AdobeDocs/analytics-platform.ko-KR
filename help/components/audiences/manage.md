@@ -5,9 +5,9 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 
 
 ![대상자 관리자](assets/audiences-manager.png)
 
-대상자 목록을 보려면 다음을 수행합니다.
+대상자 목록을 보려면 다음 작업을 수행합니다.
 
 1. Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다.
 
@@ -80,9 +80,9 @@ Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 
 
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
-| ![레이블](/help/assets/icons/Labels.svg) | **[!UICONTROL 태그]** | 선택한 대상자에 태그를 지정합니다. **[!UICONTROL 태그 업데이트: *대상 이름&#x200B;*]**&#x200B;대화 상자의 드롭다운 메뉴에서 태그를 선택하거나 새 태그를 하나 이상 입력하십시오. 저장하려면&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다. |
+| ![레이블](/help/assets/icons/Labels.svg) | **[!UICONTROL 태그]** | 선택한 대상자에 태그를 지정합니다. **[!UICONTROL 태그 업데이트: *대상자 이름&#x200B;*]**대화 상자의 드롭다운 메뉴에서 태그를 선택하거나 하나 이상의 새 태그를 입력합니다. 저장하려면**[!UICONTROL 저장&#x200B;]**을 선택합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 대상자를 삭제합니다. |
-| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 대상자의 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *대상자 이름&#x200B;*]**&#x200B;대화 상자를 사용하여 대상자의 이름을 바꾸고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택하여 저장합니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 대상자의 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *대상자 이름&#x200B;*]**대화 상자를 사용하여 대상자의 이름을 바꾸고**[!UICONTROL 저장&#x200B;]**을 선택하여 저장합니다. |
 
 하나 이상의 예약된 프로젝트를 선택하면 파란색 작업 표시줄에서 다음 액션을 사용할 수 있습니다.
 

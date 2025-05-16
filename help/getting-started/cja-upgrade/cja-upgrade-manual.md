@@ -1,14 +1,14 @@
 ---
 title: Alloy.js를 사용하여 Platform Web SDK 설치
-description: alloy.js를 사용하여 Platform Web SDK을 설치하는 방법에 대해 알아봅니다
+description: Alloy.js를 사용하여 Platform Web SDK 설치하는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 70%
 
 {{upgrade-note-step}}
 
-구현의 각 페이지에 직접 기본 코드를 추가하여 Platform Web SDK을 수동으로 설치할 수 있습니다.
+구현의 각 페이지에 베이스 코드를 직접 추가하여 Platform Web SDK를 수동으로 설치할 수 있습니다.
 
-1. Web SDK Guide의 [&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)옵션 2: [Install Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 사전 설치된 독립 실행형 버전 설치 섹션의 단계를 따릅니다.
+1. [옵션 2: Web SDK 안내서에서 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 사전 설치된 독립 실행형 버전 설치하기](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) 섹션의 단계를 따릅니다.
 
 {{upgrade-final-step}}
 

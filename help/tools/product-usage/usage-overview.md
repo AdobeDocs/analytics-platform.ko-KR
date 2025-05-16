@@ -3,9 +3,9 @@ title: 제품 사용 개요
 description: 조직이 Customer Journey Analytics를 어떻게 활용하는지에 대한 인사이트와 보고서를 확인합니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -133,4 +133,4 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
 
 **[!UICONTROL Adobe 템플릿]** > **[!UICONTROL 기타]** > **[!UICONTROL 제품 사용 개요]**
 
-데이터 보기 선택기에서 제품 사용량이 자동으로 만들어진 데이터 보기를 선택한 다음 **[!UICONTROL 제품 사용 개요]** 템플릿을 선택합니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 템플릿에서 사용하는 패널을 확인하고 이상적인 사용 사례에 대해 알아보거나 **[!UICONTROL 템플릿 사용]**&#x200B;을 선택하여 Analysis Workspace에서 엽니다.
+데이터 보기 선택기에서 제품 사용이 자동으로 생성된 데이터 보기를 선택한 다음 **[!UICONTROL 제품 사용 개요]** 템플릿을 선택합니다. 템플릿이 사용하는 패널을 확인하고 이상적인 사용 사례에 대해 알아보려면 **[!UICONTROL 미리보기]**&#x200B;를 선택하거나, Analysis Workspace에서 열기 위해 **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.

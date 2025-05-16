@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
 ht-degree: 100%
 
@@ -72,6 +72,6 @@ ht-degree: 100%
 >
 >[콘텐츠 분석 보고](report/report.md)
 >[콘텐츠 분석 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

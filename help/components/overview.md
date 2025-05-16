@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Components
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [세그먼트](filters/filters-overview.md): 강력하고 집중적인 대상자 세그먼트를 작성, 관리, 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 개인 하위 집합을 식별할 수 있습니다.
+* [세그먼트](filters/filters-overview.md): 강력하고 집중적인 대상자 세그먼트를 작성, 관리, 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
 * [계산된 지표](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [날짜 범위](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
 * [주석](/help/components/annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
@@ -40,7 +40,7 @@ Analysis Workspace의 구성 요소는 Workspace 프로젝트 패널 및 시각�
 
 구성 요소 패널에 액세스하려면 버튼 패널의 ![Curate](/help/assets/icons/Curate.svg) **[!UICONTROL 구성 요소]**&#x200B;를 선택합니다.
 
-![Workspace panel highlighting the Components icon in the left-rail](assets/components.png)
+![왼쪽 레일의 구성 요소 아이콘이 강조 표시된 Workspace 패널](assets/components.png)
 
 프로젝트의 구성 요소를 사용하는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analysis-workspace/home.md)를 참조하십시오.
 
@@ -68,7 +68,7 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
    | ![레이블](/help/assets/icons/Label.svg) [!UICONTROL **태그**] | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그런 다음 ![Filter](/help/assets/icons/Filter.svg) 필터를 선택하거나 `#`을 입력하여 왼쪽 패널에서 태그로 검색할 수 있습니다. 태그는 구성 요소 관리자에서 필터 역할도 합니다. |
    | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 패널에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 즐겨찾기에서 제거]** | 즐겨찾기 목록에서 구성 요소를 제거합니다. |
-   | ![Checkmark](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 승인됨별로 필터링할 수 있습니다. ![Checkmark](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |
+   | ![체크 표시](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 승인됨별로 필터링할 수 있습니다. ![체크 표시](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |
    | ![공유](/help/assets/icons/ShareAlt.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
    | ![삭제](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
 
@@ -84,7 +84,7 @@ Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하�
 
 2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)은 주황색이고, **세그먼트** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)은 파란색이고, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)은 녹색입니다.<br/>Adobe 아이콘(![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg))은 계산된 지표 템플릿 또는 세그먼트 템플릿 중 하나를 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
+   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다.<br/>Adobe 아이콘(![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg))은 계산된 지표 템플릿 또는 세그먼트 템플릿 중 하나를 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
 
 3. 드롭다운 메뉴에서 구성 요소를 선택합니다.
 
@@ -92,13 +92,13 @@ Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하�
 
 1. 왼쪽 패널에서 **구성 요소** 아이콘(![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
 
-2. **필터**(![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))를 선택하거나 검색 필드에 `#`를 입력합니다.
+2. **필터**(![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))를 선택하거나 검색 필드에 `#`를 입력합니다.
 
 3. 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 아이콘 | 필터 옵션 | 설명 |
    |---------|---|----------|
-   | ![Checkmark](/help/assets/icons/Checkmark.svg) | **[!UICONTROL 승인됨]** | 관리자가 승인함으로 표시한 구성 요소만 표시합니다. |
+   | ![체크 표시](/help/assets/icons/Checkmark.svg) | **[!UICONTROL 승인됨]** | 관리자가 승인함으로 표시한 구성 요소만 표시합니다. |
    | ![Star](/help/assets/icons/Star.svg) | **[!UICONTROL 즐겨찾기]** | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. <br/>즐겨찾기 목록에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [구성 요소 관리](#manage-components)를 참조하십시오. |
    | ![Dimensions](/help/assets/icons/Dimensions.svg) | **[!UICONTROL 차원]** | 차원인 구성 요소만 표시합니다. |
    | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL 지표]** | 지표인 구성 요소만 표시합니다. |

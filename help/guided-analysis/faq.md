@@ -6,9 +6,9 @@ feature: Guided Analysis
 keywords: 제품 분석
 role: User
 source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 | 가이드 분석 용어 | Analysis Workspace 용어 |
 | --- | --- |
-| 이벤트(바이너리 1/0 지표) | 지표 |
+| 이벤트 (바이너리 1/0 지표) | 지표 |
 | 사용자 | 사용자 |
 | 차원 | 차원 |
 | 차원 항목 | 차원 항목 |
@@ -60,7 +60,7 @@ ht-degree: 96%
 
 [Analysis Workspace](../analysis-workspace/home.md)와 가이드 분석은 동일한 기본 데이터를 사용하지만 각 도구를 사용하여 해당 데이터에 대한 쿼리를 구성하는 방식은 다릅니다.
 
-* **Analysis Workspace는 차원 중심의 경험입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표로 구성됩니다. 원하는 데이터를 얻기 위해 세그먼트를 행과 열 모두에 적용할 수 있습니다.
+* **Analysis Workspace는 차원 중심의 경험입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표로 구성됩니다. 원하는 데이터를 얻기 위해 행과 열 모두에 세그먼트를 적용할 수 있습니다.
 
 * **가이드 분석은 이벤트 및 사용자 중심 경험입니다.** 각 분석은 이벤트 선택으로 시작되며, 차원과 세그먼트를 추가하여 해당 이벤트 데이터를 세분화할 수 있습니다.
 
