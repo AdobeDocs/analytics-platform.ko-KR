@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 98%
+source-wordcount: '2653'
+ht-degree: 96%
 
 ---
 
@@ -108,6 +108,11 @@ ht-degree: 98%
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
 >title="이전 데이터 보기 정리"
 >abstract="새로운 데이터 보기를 선택했습니다. 이전에 선택한 데이터 보기에 대한 Content Analytics 구성이 제거됩니다."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_new_dialog"
+>title="새로운 데이터 보기"
+>abstract="이 구성에 대한 새 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기에서 유사한 지표 및 차원이 제거됩니다.<br/>다른 연결이 새 데이터 보기와 연결되어 있으면 연결이 Content Analytics 데이터 집합을 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 기존 구성에서 제거되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
