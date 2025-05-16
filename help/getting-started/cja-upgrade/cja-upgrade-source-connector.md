@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
 >title="Analytics 소스 커넥터 및 맵 스키마 필드 만들기"
->abstract="소스 커넥터는 Adobe Analytics 필드를 조직의 스키마에 매핑하는 방법을 알아야 합니다. 이 인터페이스를 사용하여 소스 커넥터에 해당 매핑을 제공합니다. 이 단계는 Customer Journey Analytics에 과거 데이터를 추가하는 과정의 일부입니다.<br><br>이 단계가 걸리는 시간은 매핑해야 하는 차원과 지표의 수에 따라 크게 달라집니다. 이 단계는 지루하고 반복적인 만큼 어렵지 않습니다. 데이터스트림 매핑을 완료하는 데 약 일주일 정도 걸릴 것으로 예상됩니다."
+>abstract="소스 커넥터는 Adobe Analytics 필드를 조직의 스키마에 매핑하는 방법을 알아야 합니다. 이 인터페이스를 사용하여 소스 커넥터에 해당 매핑을 제공합니다. 이 단계는 Customer Journey Analytics에 과거 데이터를 추가하는 과정의 일부입니다.<br><br>이 단계가 소요되는 시간은 매핑해야 하는 차원과 지표의 수에 따라 크게 달라집니다. 이 단계는 지루하고 반복적인 만큼 어렵지 않습니다. 데이터스트림 매핑을 완료하는 데 약 일주일 정도 걸릴 것으로 예상됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,7 +54,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 ## Analytics 소스 커넥터 및 맵 필드 만들기
 
-사용자 정의 스키마를 생성했으면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 생성해야 합니다. (소스 커넥터를 만드는 것에 대한 보다 포괄적이고 일반적인 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.)
+사용자 정의 스키마를 생성했으면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 생성해야 합니다. (소스 커넥터를 만드는 것에 대한 보다 포괄적이고 일반적인 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
 
 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만드는 방법:
 

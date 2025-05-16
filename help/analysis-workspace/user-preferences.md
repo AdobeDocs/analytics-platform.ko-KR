@@ -8,7 +8,7 @@ role: User
 source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
 source-wordcount: '4051'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud 인증 필요"
->abstract="활성화되면 Analysis Workspace의 **[!UICONTROL 누구와도 공유]** 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
+>abstract="활성화되면 Analysis Workspace의 **[!UICONTROL 모두와 공유]** 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ ht-degree: 96%
 | **프로젝트 공유** | | |
 | | Workspace 사용자와의 공유만 허용 | 이 옵션이 활성화되면 **[!UICONTROL 공유]** 메뉴에서 조직의 사용자에게 **[!UICONTROL 모두와 공유]** 옵션이 표시되지 않습니다. 즉, [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 사용자는 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다.<br/>이 옵션은 Healthcare Shield 라이선스가 있는 고객을 제외하고 모든 조직에서 기본적으로 비활성화되어 있습니다(즉, 사용자가 조직 외부의 사람들과 프로젝트를 공유할 수 있음). <p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.<ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 모두와 공유] 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다.</li><li>이 옵션을 활성화(Workspace 사용자와만 공유 허용)한 다음 나중에 비활성화(모두와 공유 허용)하더라도 이전에 [!UICONTROL 모두와 공유] 공유 옵션을 통해 프로젝트 액세스 권한을 부여받았던 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유&#x200B;**([!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]**)할 때 사용할 수 있는 [!UICONTROL **링크 활성화됨**] 옵션을 활성화해야 합니다.</li><li>**Healthcare Shield 라이선스가 있는 고객:** 이 옵션이 기본적으로 활성화되어 있으며 비활성화할 수 없습니다. 사용자가 [!UICONTROL 모두와 공유] 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 [!UICONTROL 모든 사람과 프로젝트 링크 공유] 권한([!UICONTROL 보고 도구] 아래에 위치)을 Adobe Admin Console에 추가해야 합니다. 권한을 추가한 후 이 옵션을 비활성화한 다음 그 결과로 표시되는 법적 고지 사항을 수락할 수 있습니다. 관리 콘솔에서 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하십시오.</li></ul> |
 | | Experience Cloud 인증 필요 | 이 옵션이 활성화되면 Analysis Workspace의 모두와 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.<p>이 옵션이 활성화되면 사용자가 [!UICONTROL 모두와 공유] 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 [!UICONTROL Experience Cloud 인증 필요] 옵션이 활성화되며, 프로젝트를 공유하는 사용자가 이를 비활성화할 수 없습니다. 사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오. <p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 모두와 공유] 공유 옵션으로 공유되었고 [!UICONTROL Experience Cloud 인증 필요] 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.<p>이 옵션을 활성화(Experience Cloud 인증 요구)한 다음 나중에 비활성화(링크가 있는 모두가 프로젝트에 액세스할 수 있도록 허용)하더라도 이전에 [!UICONTROL 모두와 공유] 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 [!UICONTROL 링크 활성화됨] *옵션을 활성화해야 합니다&#x200B;**([!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]** > **[!UICONTROL 링크 활성화됨]**).</li><li>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인합니다. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html)에 설명된 대로 이를 설정합니다.</li><li>조직에서 Healthcare Shield 라이선스를 취득한 경우 이 옵션은 기본적으로 활성화되며 비활성화할 수 없습니다.</li></ul> |
-| 프로젝트 주석 달기 | 프로젝트에서 댓글 달기 허용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>이 옵션을 활성화하면 Analysis Workspace의 각 프로젝트 오른쪽 레일에서 주석 영역을 사용할 수 있습니다.</p> <p>프로젝트 소유자는 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)에 설명된 대로 특정 프로젝트에 대한 설명 영역을 비활성화할 수 있습니다.</p> <p>Analysis Workspace 프로젝트의 댓글에 대한 자세한 내용은 [프로젝트의 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오.</p> |
+| 프로젝트 주석 달기 | 프로젝트에서 댓글 달기 허용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>이 옵션을 활성화하면 Analysis Workspace의 각 프로젝트 오른쪽 레일에서 주석 영역을 사용할 수 있습니다.</p> <p>프로젝트 소유자는 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)에 설명된 대로 특정 프로젝트에 대한 설명 영역을 비활성화할 수 있습니다.</p> <p>Analysis Workspace 프로젝트의 댓글에 대한 자세한 내용은 [프로젝트의 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오.</p> |
 
 {style="table-layout:auto"}
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="순차적 팔레트"
->abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
+>abstract="빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
 
 모든 새로운 Analysis Workspace 프로젝트, 새로운 Analysis Workspace 패널 및 새로운 가이드 분석에 대해 이러한 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -207,9 +207,9 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 예측을 Y축으로 확장하도록 허용 | 과거 값의 상한 및 하한을 벗어나는 예측 값이 있는 경우 y축에서는 이러한 예측 값이 자동으로 조정되지 않습니다. 이 옵션을 켜면 예측 값에 대한 y축의 크기가 적절하게 조정됩니다. |
 | | 최소 표시 | 최소값 레이블을 오버레이하여 지표의 최저점을 빠르게 강조 표시합니다. 참고: 최소값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
 | | 최대 표시 | 최대값 레이블을 오버레이하여 지표의 최고점을 빠르게 강조 표시합니다. 참고: 최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
-| | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세선을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
+| | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세센을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
 | **[코호트](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>컨테이너 | 계정 기반 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 연결 시 집단 분석에 사용할 기본 컨테이너를 선택하십시오. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>구매 그룹([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>기회([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>개인</li></ul> |
+| | [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>컨테이너 | 계정 기반 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 연결의 경우 코호트 분석을 위해 기본 컨테이너를 선택합니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>구매 그룹([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>기회([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>개인</li></ul> |
 | | 세부 기간 | 트렌드 시각화의 경우 시간 단위(일, 주, 월, 분기 또는 연도)를 변경할 수 있습니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | | 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
 | | 백분율 반올림 | 백분율 값을 소수 값으로 표시하지 않고 가장 가까운 정수로 반올림합니다. |
@@ -236,7 +236,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
 | | 컨테이너 | 경로를 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>계정([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>구매 그룹([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>기회([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"})</li><li>세션</li><li>개인</li></ul> |
 | **스택형 차트** | | |
-| | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
+| | 100% 스택 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | 버킷 수 | 시각화에서 날짜 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
 | | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>세션</li><li>개인</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문 페이지 조회수 또는 이벤트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
@@ -244,11 +244,11 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
 | | 백분율 | 요약 변경 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-| **[요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 백분율 | 요약 번호 시각화 값을 백분율로 표시합니다. |
-| | 범례 표시 | 요약 번호 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
+| **[요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
+| | 백분율 | 요약 숫자 시각화 값을 백분율로 표시합니다. |
+| | 범례 표시 | 요약 숫자 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 기준별 요약 값 | 최대, 최소, 평균, 중앙값 및 합계 중에서 선택합니다. |
-| | 값 생략 | **[!UICONTROL 요약 번호]** 섹션에서 |
+| | 값 생략 | **[!UICONTROL 요약 숫자]** 섹션에서 |
 | **[트리맵](/help/analysis-workspace/visualizations/treemap.md)** | | |
 | | 백분율 | 트리맵 시각화 값을 백분율로 표시합니다. |
 | | 최대 항목 수 제한 | 트리맵 시각화에서 X축의 항목 수를 줄입니다. 이 환경 설정은 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |

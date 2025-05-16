@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
 >title="Adobe Experience Platform에 원하는 사용자 정의 스키마 만들기"
->abstract="Adobe Experience Platform UI를 사용하여 스키마를 만들면 Adobe에서 데이터를 저장하는 데 적합한 형식을 알 수 있습니다.<br><br>이 단계에는 조직에서 합의한 스키마를 실제로 만드는 것이 포함됩니다. Adobe Experience Platform 인터페이스에서 스키마를 만드는 데 걸리는 예상 시간은 약 일주일이며, 이는 만들어야 하는 차원과 지표의 수에 따라 달라집니다."
+>abstract="Adobe Experience Platform UI를 사용하여 스키마를 만들면 Adobe에서 데이터를 저장하는 데 적합한 형식을 알 수 있습니다.<br><br>이 단계에는 조직에서 합의한 스키마를 실제로 만드는 것이 포함됩니다. Adobe Experience Platform 인터페이스에서 스키마를 만드는 데 소요되는 예상 시간은 약 일주일이며, 이는 만들어야 하는 차원과 지표의 수에 따라 달라집니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -132,7 +132,7 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=ko#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](assets/identification-field.png)
 
@@ -162,7 +162,7 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -188,6 +188,6 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    * 프로필용으로 스키마 활성화
 
-   스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+   스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 {{upgrade-final-step}}

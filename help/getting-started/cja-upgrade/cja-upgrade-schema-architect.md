@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
 >title="스키마 설계"
->abstract="조직 내에서 데이터 수집 요구 사항에 대해 논의하고 Adobe Experience Platform에서 사용할 스키마를 빌드하는 방법을 결정합니다. 이 단계는 조직에 맞춘 스키마를 사용하는 권장 프로세스를 사용하고자 하기 때문에 나타납니다. 이 단계를 올바르게 수행하는 것이 매우 중요합니다. 조직 내 모든 팀이 일치하는 스키마를 적용하면 데이터 수집이 훨씬 쉬워지기 때문입니다.<br><br>조직 내 모든 관련 당사자들이 통합된 스키마를 구성하는 데 걸리는 예상 시간은 1~2개월입니다. 이 기간은 조정해야 하는 팀의 수와 정렬할 차원과 지표의 수에 따라 크게 달라집니다."
+>abstract="조직 내에서 데이터 수집 요구 사항에 대해 논의하고 Adobe Experience Platform에서 사용할 스키마를 빌드하는 방법을 결정합니다. 이 단계는 조직에 맞춘 스키마를 사용하는 권장 프로세스를 사용하고자 하기 때문에 나타납니다. 이 단계를 올바르게 수행하는 것이 매우 중요합니다. 조직 내 모든 팀이 일치하는 스키마를 적용하면 데이터 수집이 훨씬 쉬워지기 때문입니다.<br><br>조직 내 모든 관련자들이 통합된 스키마를 구성하는 데 소요되는 예상 시간은 1~2개월입니다. 이 기간은 조정해야 하는 팀의 수와 정렬할 차원과 지표의 수에 따라 크게 달라집니다."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,8 +8,8 @@ feature: Connections
 role: Admin
 source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
 workflow-type: tm+mt
-source-wordcount: '4135'
-ht-degree: 70%
+source-wordcount: '4133'
+ht-degree: 74%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 70%
 | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![녹색 상태](assets/status-green.svg)   새 데이터를 가져오도록 구성된 데이터 세트의 경우 **[!UICONTROL _x _켜짐]**<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
 | **[!UICONTROL 생성된 일자]** | 연결을 처음 만든 타임스탬프. |
 | **[!UICONTROL 마지막 수정일]** | 연결을 마지막으로 업데이트한 타임스탬프. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
 
 테이블에 표시할 열을 구성하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택합니다. 표 맞춤화 대화 상자에서 표시할 열을 선택합니다.
 
@@ -86,13 +86,13 @@ ht-degree: 70%
 
 연결을 삭제하면 **[!UICONTROL 연결 삭제]** 패널에 어떤 데이터 보기가 삭제되고 어떤 작업 영역 프로젝트가 영향을 받는지가 표시됩니다.
 
-* {➊0}정보&#x200B;**에서 연결 삭제에 대한 의미가 표시됩니다.**
+* ➊ **[!UICONTROL 정보]**&#x200B;에서 연결 삭제의 의미가 표시됩니다.
 
   ![연결 삭제](assets/delete-connection.png)
 
   **[!UICONTROL 계속]**&#x200B;을 선택하여 삭제를 확인합니다.
 
-* **[!UICONTROL ➋Confirmation]**&#x200B;에서 **[!UICONTROL 연결 이름 입력]**&#x200B;에 연결 이름을 입력한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하여 연결을 삭제합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
+* ➋ **[!UICONTROL 확인]**&#x200B;에서 **[!UICONTROL 연결 이름 입력]**&#x200B;에 연결 이름을 입력하고 **[!UICONTROL 삭제]**&#x200B;를 선택하여 연결을 삭제합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 연결 삭제에 대한 자세한 내용은 [삭제 영향](/help/technotes/deletion.md)을 참조하십시오.
 
@@ -159,9 +159,9 @@ ht-degree: 70%
 | **[!UICONTROL 데이터 소스 유형]** | 소스 유형. 연결에 데이터 세트를 추가할 때 소스 유형을 정의합니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 집합 형식](create-connection.md#dataset-types)입니다. 유형은 [!UICONTROL 이벤트], [!UICONTROL 프로필], [!UICONTROL 조회] 또는 [!UICONTROL 요약]일 수 있습니다. |
 | **[!UICONTROL 스키마]** | 해당 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
 >[!IMPORTANT]
 >
@@ -184,9 +184,9 @@ ht-degree: 70%
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 기본 ID 유형&#x200B;]** | 연결의 기본 ID 유형: 사용자 기반 연결의 경우 **[!UICONTROL 개인]**, 계정 기반 연결의 경우 **[!UICONTROL 계정]**. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 컨테이너&#x200B;]** | 연결에 대해 구성된 컨테이너입니다. |
 | **[!UICONTROL 연결을 이용한 데이터 보기]** | 이 연결을 사용하는 데이터 보기입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 데이터 세트 수에 대해. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 데이터 세트 수에 대해. |
 | **[!UICONTROL 작성자]** | 연결을 만든 사람의 이름. |
 | **[!UICONTROL 마지막 수정일]** | 연결에 대한 마지막 변경의 타임스탬프. |
 | **[!UICONTROL 마지막 수정자]** | 연결을 마지막으로 수정한 사람의 이름입니다. |
@@ -197,20 +197,20 @@ ht-degree: 70%
 
 | 세부 사항 | 설명 |
 | --- | --- |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 글로벌 계정 ID &#x200B;]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 계정 ID &#x200B;]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 글로벌 계정 ID ]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 계정 ID ]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
 | **[!UICONTROL 개인 ID]** | 연결에 대한 개인 ID로 지정한 ID입니다. |
 | **[!UICONTROL 키]** | 조회 데이터 세트에 대해 지정한 키. |
 | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 대해 지정한 일치하는 키. |
 | **[!UICONTROL 타임스탬프]** | 이벤트 데이터 세트에 대해 정의된 타임스탬프. |
-| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
+| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
 | **[!UICONTROL 추가된 레코드]** | 선택한 날짜 범위 동안 연결에 추가된 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 생략된 레코드]** | 선택한 날짜 범위 동안 연결을 위한 데이터 전송 중 건너뛴 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 추가된 배치]** | 연결에 추가된 배치 수입니다. |
 | **[!UICONTROL 삭제된 레코드]** | 선택한 날짜 범위 동안 연결에서 제거된 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 마지막으로 추가됨]** | 연결에 추가된 최신 일괄 처리의 타임스탬프. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 세트가 연결에 추가될 때 정의된 데이터 소스 유형입니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 집합 형식](create-connection.md#dataset-types)입니다. |
 | **[!UICONTROL 스키마]** | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
@@ -241,7 +241,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyreportablerows"
 >title="월별 보고 가능한 행"
->abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 생략되고 삭제된 행을 뺀 것입니다. 보고 가능한 행은 결제 및 데이터 사용량에 대한 주요 지표로 사용됩니다."
+>abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 건너뛰거나 삭제된 행을 뺀 것입니다. 보고 가능한 행은 결제 및 데이터 사용량에 대한 주요 지표로 사용됩니다."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -258,7 +258,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="다른 데이터 세트"
->abstract="2024년 9월 이전 몇 개월 동안 데이터는 데이터 세트 수준에서 수집되었고, 명확성을 위해 *다른 데이터 세트*&#x200B;로 표시됩니다. 2024년 9월부터 데이터는 세분화된 데이터 세트 수준으로 수집되며 *다른 데이터 세트*&#x200B;는 더 이상 나타나지 않습니다."
+>abstract="2024년 9월 이전 몇 개월 동안 데이터는 데이터 세트 수준에서 수집되었고, 명확성을 위해 *다른 데이터 세트*&#x200B;로 표시됩니다. 2024년 9월부터 데이터는 세부적인 데이터 세트 수준에서 수집되고 *다른 데이터 세트*&#x200B;는 더 이상 표시되지 않습니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -274,7 +274,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_datanotavailable"
 >title="데이터를 사용할 수 없음"
->abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 이 차트는 타임라인에서 지난 18개월을 보여주며 데이터를 사용할 수 있게 되면 향후 데이터가 표시됩니다."
+>abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 차트는 타임라인에서 지난 18개월을 보여 주며, 데이터가 제공됨에 따라 향후 데이터가 표시됩니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -282,7 +282,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
 >title="핵심 보고 가능 행"
->abstract="지난 13개월 동안 사용할 수 있는 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+>abstract="지난 13개월 동안 사용 가능한 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -290,7 +290,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
 >title="내역 보고 가능 행"
->abstract="13개월보다 오래된 기간에 사용할 수 있는 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+>abstract="13개월 이상 지난 해당 기간의 사용 가능한 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -316,7 +316,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyreportablerows"
 >title="월별 보고 가능한 행"
->abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 생략되고 삭제된 행을 뺀 것입니다. 보고 가능한 행은 결제 및 데이터 사용량에 대한 주요 지표로 사용됩니다."
+>abstract="보고에 사용할 수 있는 행 수를 추적합니다. 보고 가능한 행은 수집된 행에서 수집 중에 건너뛰거나 삭제된 행을 뺀 것입니다. 보고 가능한 행은 결제 및 데이터 사용량에 대한 주요 지표로 사용됩니다."
 <!-- markdownlint-enable MD034 -->
 
 
@@ -333,7 +333,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_otherdatasets"
 >title="다른 데이터 세트"
->abstract="2024년 9월 이전 몇 개월 동안 데이터는 데이터 세트 수준에서 수집되었고, 명확성을 위해 *다른 데이터 세트*&#x200B;로 표시됩니다. 2024년 9월부터 데이터는 세분화된 데이터 세트 수준으로 수집되며 *기타 데이터 세트*&#x200B;는 더 이상 나타나지 않습니다."
+>abstract="2024년 9월 이전 몇 개월 동안 데이터는 데이터 세트 수준에서 수집되었고, 명확성을 위해 *다른 데이터 세트*&#x200B;로 표시됩니다. 2024년 9월부터 데이터는 세부적인 데이터 세트 수준에서 수집되고 *다른 데이터 세트*&#x200B;는 더 이상 표시되지 않습니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -349,7 +349,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_datanotavailable"
 >title="데이터를 사용할 수 없음"
->abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 이 차트는 타임라인에 지난 18개월을 표시하며, 데이터를 사용할 수 있을 때 향후 데이터가 표시됩니다."
+>abstract="시스템 제한으로 2024년 9월 이전의 내역 데이터는 사용할 수 없습니다. 2024년 9월부터 지표를 수집하여 표시합니다. 차트는 타임라인에서 지난 18개월을 보여 주며, 데이터가 제공됨에 따라 향후 데이터가 표시됩니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -357,7 +357,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
 >title="핵심 보고 가능 행"
->abstract="지난 13개월 동안 사용할 수 있는 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+>abstract="지난 13개월 동안 사용 가능한 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월부터 2024년 1월까지의 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -365,7 +365,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
 >title="내역 보고 가능 행"
->abstract="13개월보다 오래된 기간에 사용할 수 있는 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
+>abstract="13개월 이상 지난 해당 기간의 사용 가능한 총 행 수입니다. 예: 2024년 2월 1일의 수는 2023년 1월 이전 이벤트 타임스탬프에서 사용 가능한 합계 행을 보여 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -374,17 +374,17 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="핵심 보고 가능 행"
->abstract="핵심 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+>abstract="핵심 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월~3월을 선택하는 경우, 값은 3월의 스냅샷을 반영합니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="내역 보고 가능 행"
->abstract="내역 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+>abstract="내역 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월~3월을 선택하는 경우, 값은 3월의 스냅샷을 반영합니다."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="누적 보고 가능 행"
->abstract="누적 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월 - 3월을 선택하면 이 값에 3월의 스냅샷이 반영됩니다."
+>abstract="누적 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 고객이 1월~3월을 선택하는 경우, 값은 3월의 스냅샷을 반영합니다."
 
 <!-- markdownlint-enable MD034 -->
 

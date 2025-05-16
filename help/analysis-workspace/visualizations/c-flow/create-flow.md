@@ -7,7 +7,7 @@ role: User
 source-git-commit: a7350b6fc8fa75de07238543ed0db48af42b7577
 workflow-type: tm+mt
 source-wordcount: '1735'
-ht-degree: 75%
+ht-degree: 85%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="다음으로 시작"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="다음 포함"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="다음으로 끝남"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
@@ -40,13 +40,13 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
->title="반복 포함(비활성화)"
->abstract="다중 값 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다."
+>title="반복 포함 (비활성화됨)"
+>abstract="다중 값 차원을 포함하는 플로우 시각화에서 반복을 제거할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="반복 포함"
->abstract="플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다(예: 페이지 다시 로드)."
+>abstract="플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스(예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
@@ -56,17 +56,17 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="열 수"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="열당 항목 확장됨"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="업데이트로 재설정"
->abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 
 플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
@@ -174,7 +174,7 @@ ht-degree: 75%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 열 맨 위에 있는 세그먼트를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |
 | **[!UICONTROL 전체 열 확장]** | 모든 노드를 표시하도록 열을 확장합니다. 기본적으로 상위 5개의 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |
