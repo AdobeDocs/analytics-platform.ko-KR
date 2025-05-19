@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
+source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # 스티칭 사용
 
-조직이 모든 [필수 구성 요소](#prerequisites)를 충족하고 일반적인 [제한 사항](#limitations) 및 연결 방법별 제한 사항([필드 기반](#limitations-1) 및 [그래프 기반](#limitations-2))을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 연결을 시작할 수 있습니다.
+조직이 모든 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반적인 [제한 사항](overview.md#limitations) 및 연결 방법별 제한 사항([필드 기반](fbs.md#limitations) 및 [그래프 기반](gbs.md#limitations))을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 연결을 시작할 수 있습니다.
 
 ## 옵션 선택
 
