@@ -4,11 +4,10 @@ description: 결합의 유효성을 검사하는 방법
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
+source-git-commit: 3b402e367d2385b336c84ef52897ab34387a948d
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 문서에서는 Experience Platform의 모든 데이터 세트가 동일한 ID 네임스페이스에 정렬되는 Customer Journey Analytics 구성의 전체 값을 다루지 않습니다. 또한 이러한 모든 데이터 세트가 서로 잘 결합되어 전체 고객 여정에서 분석을 수행합니다.
+>하나 이상의 데이터 세트를 (유효성 검사) 결합하는 것은 궁극적으로 더 나은 분석과 통찰력에 기여합니다. 그러나 이 문서에서는 Experience Platform의 모든 데이터 세트가 동일한 ID 네임스페이스에 정렬되는 Customer Journey Analytics 구성의 전체 값에 대해서는 다루지 않습니다. 또한 이러한 모든 데이터 세트가 서로 잘 결합되어 전체 고객 여정에서 분석을 수행합니다.
 
 
 ## 데이터 보기 사전 요구 사항
@@ -39,7 +38,7 @@ ht-degree: 0%
 * `stitchedID.namespace.code`을(를) 사용하여 **[!UICONTROL 결합된 네임스페이스]** 차원을 정의합니다. 이 차원에는 행이 `Email`, `Phone`(으)로 승격된 ID의 네임스페이스가 포함되어 있습니다. 또는 결합 프로세스 폴백에 대한 네임스페이스입니다(예: `ECID`).
   ![연결된 네임스페이스 차원](assets/stitchednamespace-dimension.png)
 
-* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**&#x200B;에 사용됩니다.
+* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**에 사용됩니다.
   ![결합된 ID 차원](assets/stitchedid-dimension.png)
 
 
@@ -72,10 +71,10 @@ ht-degree: 0%
 
 연결을 만들 때 개인 ID에 사용할 필드 또는 ID를 정의해야 합니다. 예를 들어 웹 데이터 세트에서 장치 ID를 개인 ID로 선택하면 장치 중심 보고서가 만들어지고 이 데이터를 다른 오프라인 채널과 결합할 수 있는 기능이 없어집니다. 이메일과 같은 크로스 채널 필드 또는 ID를 선택하면 인증되지 않은 이벤트가 손실됩니다. 이러한 영향을 이해하려면 인증되지 않은 트래픽의 양과 인증된 트래픽의 양을 파악해야 합니다.
 
-1. 총 **에 대해 계산된 지표**&#x200B;인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 총 ]**에 대해 계산된 지표**[!UICONTROL 인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    총 ![인증되지 않은 이벤트](assets/calcmetric-unauthenticatedeventsovertotal.png)
 
-1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**&#x200B;을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    ![전자 메일 인증 속도](assets/calcmetric-emailauthenticationrate.png)
 
 1. **[!UICONTROL 전자 메일 인증 비율]** 계산된 지표와 함께 **[!UICONTROL 총]**&#x200B;에 대해 인증되지 않은 이벤트를 사용하여 [도넛](/help/analysis-workspace/visualizations/donut.md) 시각화를 만드십시오. 시각화는 인증되지 않고 인증된 데이터 세트의 이벤트 수를 표시합니다.
