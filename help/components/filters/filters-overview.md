@@ -4,8 +4,8 @@ description: 세그먼트를 사용하는 이유 및 간단한 세그먼트를 �
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
-workflow-type: ht
+source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Customer Journey Analytics를 사용하면 강력한 집중 대상자 세그먼�
 
    - 이 세그먼트를 언제 사용해야 합니까?
 
-- **범위**: 어떤 [세그먼트 컨테이너](#filter-containers)가 원하는 데이터를 가장 잘 나타냅니까? 가능한 가장 작은 컨테이너를 사용합니다.
+- **범위**: 어떤 [세그먼트 컨테이너](#segment-containers)가 원하는 데이터를 가장 잘 나타냅니까? 가능한 가장 작은 컨테이너를 사용합니다.
 
 - **구성 요소**: 세그먼트 정의에 포함할 구성 요소를 결정하고, 조건이 어떤 값을 검증해야 하는지 결정합니다.
 

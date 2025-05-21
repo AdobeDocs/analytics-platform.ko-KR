@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ ht-degree: 99%
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 
-### 설정 {#settings}
+### 설정 {#configure-settings}
 
 
 >[!CONTEXTUALHELP]
@@ -140,7 +140,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
-1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**&#x200B;과 같은 해당 필드를 드래그합니다.
+1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**과 같은 해당 필드를 드래그합니다.
 동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 서로 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 “제품 페이지”라는 차원과 “오류 페이지”라는 차원을 생성할 수 있습니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 일반 섹션으로 자동으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 위치에 모든 스키마 필드가 추가됩니다.
 
@@ -177,14 +177,14 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 
 
-## 설정
+## 설정 {#dataview-settings}
 
 1. **[!UICONTROL 설정]** 탭을 선택합니다.
 1. 전체 데이터 보기에 적용할 세그먼트를 구성합니다. 아래 [설정(세그먼트)](#settings-filters)을 참조하십시오.
 1. 세션 시간 제한 및 지표를 구성합니다. 아래 [세션 설정](#session-settings)을 참조하십시오.
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-### 설정(세그먼트)
+### 설정(세그먼트) {#segment-settings}
 
 전체 데이터 보기에 적용되는 세그먼트를 추가할 수 있습니다. 이 세그먼트는 작업 영역에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 **[!UICONTROL 세그먼트 추가]** 필드로 세그먼트를 드래그합니다.
 

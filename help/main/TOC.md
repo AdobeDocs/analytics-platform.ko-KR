@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+source-git-commit: d56605b1ae7fd6d83853ad54ce823464090e0192
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 99%
+source-wordcount: '1241'
+ht-degree: 98%
 
 ---
 
@@ -433,7 +433,13 @@ ht-degree: 99%
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [B2B 프로젝트 예시](../use-cases/b2b/example.md)
+      + [예제 사용자 기반 B2B 프로젝트](../use-cases/b2b/example.md)
+      + B2B 에디션 {#b2b-edition}
+         + [사용 사례 개요](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+         + [설정](/help/use-cases/b2b/b2b-edition/setup.md)
+         + [계정 마케팅 최적화](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [주요 계정 확장](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [제품 값 작성](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
    + 크로스 채널 데이터 {#cross-channel}
