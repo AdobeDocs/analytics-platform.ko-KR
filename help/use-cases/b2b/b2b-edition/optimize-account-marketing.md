@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B 에디션"
+exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 0%
+source-wordcount: '709'
+ht-degree: 1%
 
 ---
 
 # 계정 마케팅 최적화
+
+{{draft-b2b}}
 
 효과적인 계정 기반 마케팅을 위해서는 계정 수준에서 구매 여정에 대한 깊은 이해가 필요합니다. 따라서 거래를 성사시키는 데 가장 영향력 있는 마케팅 활동을 결정할 수 있습니다.
 
@@ -116,4 +120,3 @@ MQL(마케팅 적격 리드) 생성에 대한 영향을 시각화하려고 합�
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
    ![B2B 사용 사례 - 사용자 내 이벤트 - 흐름 구성](assets/b2b-uc-optimize-marketing-flow.png)
-

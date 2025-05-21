@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B 에디션"
+exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # 주요 계정 확장
+
+{{draft-b2b}}
 
 B2B 업체들은 주요 계정을 늘리고 보유하는 것이 우선 과제입니다. 거래가 진행될 수 있도록 하기 위한 전제 조건은 타겟 계정의 주요 이해 당사자와 적절한 시간에 소통하는 것입니다.
 
@@ -51,4 +55,3 @@ B2B 업체들은 주요 계정을 늘리고 보유하는 것이 우선 과제입
 1. [지능형 경고](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 1. [작업 공간 사용자 또는 모든 사람과 공유](/help/analysis-workspace/curate-share/share-projects.md)
 1. [댓글](/help/analysis-workspace/build-workspace-project/comment-projects.md)
-

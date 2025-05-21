@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B 에디션"
+exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
 # 제품 값 작성
+
+{{draft-b2b}}
 
 제품 관리자와 CMO 또는 CEO에게 B2B 제품 가치 통찰력을 전달하려고 합니다. 예를 들어 데이터 기반 이탈 분석 또는 예측을 통해 생성할 수 있습니다. 모바일 대시보드를 통해 이러한 통찰력을 쉽게 이해할 수 있도록 하십시오.
 
@@ -61,5 +65,3 @@ Customer Journey Analytics B2B edition은 제품 가치 통찰력을 제공하�
 1. 대시보드를 미리 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 사용하십시오. 이제 대시보드를 Adobe Analytics 대시보드 앱에서 사용할 수 있습니다. [App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards)에서 사용할 수 있습니다.
 
    ![B2B 사용 사례 - 제품 값 작성 - 통찰력 민주화 - 모바일 스코어카드 미리 보기](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)
-
-

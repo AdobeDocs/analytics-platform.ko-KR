@@ -6,14 +6,18 @@ feature: Use Cases
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B 에디션"
+exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # B2B edition 사용 사례 개요
+
+{{draft-b2b}}
 
 설명서의 이 섹션에서는 자주 더 복잡한 B2B 구매 여정에서 통찰력을 제공하는 것을 목적으로 하는 일부 특정 B2B 사용 사례에 대해 자세히 설명합니다. 일반적인 B2B 구매에는 구매 그룹, 다른 이해 관계자의 크로스 채널 접점, 판매 주기의 다양한 단계의 기회 등이 포함됩니다.
 
