@@ -4,9 +4,9 @@ title: 프로젝트의 주석 추가 및 보기
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
+source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레�
 
    ![댓글 영역 닫힘](assets/comments-area-closed.png)
 
-   각 주석은 주석이 게시되었던 날의 타임스탬프를 보여 줍니다. 현재 날짜에 댓글이 게시되면 시간이 표시됩니다. 댓글이 게시된 전체 날짜 및 시간을 표시하려면 마우스를 그날 또는 그날 위에 놓으십시오.
+   각 댓글에는 댓글이 게시된 날의 타임스탬프가 표시됩니다. 현재 날짜에 댓글이 게시되면 시간이 표시됩니다. 댓글이 게시된 전체 날짜 및 시간을 표시하려면 마우스를 그날 또는 그날 위에 놓으십시오.
 
 1. (선택 사항) 댓글 영역을 검색하려면 검색 아이콘 ![검색 아이콘](assets/comments-search-icon.png)을 선택한 다음 단어나 구를 입력합니다. 설명 영역은 해당 단어나 구를 포함하는 설명만 포함하도록 필터링됩니다.
 
@@ -66,7 +66,7 @@ Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레�
 
 1. Analysis Workspace에서 프로젝트를 연 채 주석을 삽입할 프로젝트 영역을 마우스 오른쪽 버튼으로 클릭합니다.
 
-   모든 시각화는 시각화 헤더의 주석 배지를 지원하지만, 다음 시각화만 시각화 내의 특정 데이터 포인트에 주석 배지를 지원합니다.
+   모든 시각화는 시각화 헤더에서 주석 배지를 지원하지만, 다음 시각화만 시각화 내의 특정 데이터 포인트에 주석 배지를 지원합니다.
 
    * 자유 형식 테이블
    * 코호트 테이블
@@ -104,19 +104,23 @@ Analysis Workspace에서 프로젝트에 주석을 추가하려면 다음을 수
 
 ## 댓글에 다른 사용자 포함
 
-Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 쉽게 공동 작업을 수행할 수 있습니다. 댓글에 다른 사용자를 포함하려면 다음 작업을 수행하십시오.
+Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 쉽게 공동 작업을 수행할 수 있습니다.
+
+@ 기호를 사용하여 댓글에 사용자를 포함할 때는 다음 사항을 고려하십시오.
+
+* 포함된 사람들은 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 [Experience Cloud 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)을 받습니다.
+
+  또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
+
+* 조직의 모든 사용자를 댓글에 포함할 수 있지만, 이렇게 해도 프로젝트에 대한 액세스 권한이 자동으로 부여되지는 않습니다. 이미 프로젝트에 액세스할 수 있는 사람만 액세스할 수 있습니다.
+
+댓글에 다른 사용자를 포함하려면 다음 작업을 수행하십시오.
 
 1. @ 기호를 입력한 다음 포함할 사람의 이름, 성 또는 이메일 주소를 입력하세요.
 
    ![태그 사용자](assets/comments-tag-user.png)
 
 1. 드롭다운 메뉴에 표시될 때 개인 이름을 선택합니다.
-
-@ 기호를 사용하여 댓글에 사용자를 포함할 때는 다음 사항을 고려하십시오.
-
-* 포함된 사람들은 이메일 알림과 Pulse 알림을 받습니다.
-
-* 귀하의 조직에 있는 모든 사람을 댓글에 포함할 수 있지만, 이렇게 해도 프로젝트에 대한 액세스 권한이 자동으로 부여되지는 않습니다. 이미 프로젝트에 액세스할 수 있는 사람만 액세스할 수 있습니다.
 
 ## 댓글에 회신
 
@@ -126,7 +130,7 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
    또는
 
-   회신에 회신할 댓글의 텍스트를 포함하려면 원본 텍스트를 인용 태그로 묶은 다음 회신할 댓글 또는 답글 옆에 있는 점 3개를 선택하고 **[!UICONTROL 답글 인용]**&#x200B;을 선택합니다. 견적 회신은 댓글을 명확하게 표시하거나 댓글이 참조하는 답변을 제공할 수 있는 좋은 방법입니다.
+   답글을 달 댓글의 텍스트를 따옴표로 묶은 상태로 포함하려면 답글을 달 특정 댓글 또는 답글 옆에 있는 점 3개를 선택한 다음 **[!UICONTROL 답글 인용]**&#x200B;을 선택합니다. 견적 회신은 댓글이 가리키는 댓글 또는 답변을 표시하는 좋은 방법입니다.
 
 1. **[!UICONTROL 새 댓글]** 필드에 댓글을 지정합니다.
 
@@ -146,7 +150,7 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 1. 기존 댓글에 대한 배지를 배치할 프로젝트 영역을 선택합니다.
 
-   선택한 Workspace 프로젝트 영역에 **댓글 배지** ![댓글 배지](assets/comment-indicator.png)가 있습니다. 주석은 오른쪽 레일의 주석 영역 맨 위에도 나타납니다.
+   선택한 Workspace 프로젝트의 영역에 **댓글 배지** ![댓글 배지](assets/comment-indicator.png)가 있습니다. 주석은 오른쪽 레일의 주석 영역 맨 위에도 나타납니다.
 
    자세한 내용은 [프로젝트에서 주석 배지 보기](#view-comment-badges-in-a-project)를 참조하십시오.
 
@@ -182,7 +186,7 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 주석 텍스트 복사
 
-본문 텍스트를 댓글로 복사하여 다른 사람과 공유할 수 있습니다.
+댓글의 본문을 복사하여 다른 사람과 공유할 수 있다.
 
 주석의 본문 텍스트를 복사하려면 다음을 수행합니다.
 
@@ -220,7 +224,7 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
 
-1. 확인하려는 댓글 옆에 있는 더 보기 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+1. 해결할 댓글 옆에 있는 추가 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 해결]**&#x200B;을 선택합니다.
 
 1. 확인하려면 **[!UICONTROL 해결]**&#x200B;을 다시 선택하십시오.
 
