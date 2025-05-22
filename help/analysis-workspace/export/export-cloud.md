@@ -5,10 +5,10 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
+source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
 workflow-type: tm+mt
-source-wordcount: '2284'
-ht-degree: 97%
+source-wordcount: '2340'
+ht-degree: 94%
 
 ---
 
@@ -156,9 +156,9 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 * 정적 행
 * 날짜 정렬
 * 요약 데이터 세트의 지표
-* 동적 차원
+* 동적 차원 항목
 
-  자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 참조하십시오.
+  동적 차원 항목은 자유 형식 테이블의 열 헤더에 차원을 놓을 때 생성되므로 열이 상위 5개 차원 항목에 의해 동적으로 필터링됩니다. Analysis Workspace에서 이러한 상위 5개 차원 항목은 프로젝트를 로드할 때마다 업데이트됩니다. 전체 테이블 내보내기에서 이러한 차원 항목은 정적이 됩니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 참조하십시오.
 * 첫 번째 분류의 차원은 변환되어 내보낸 테이블 행의 보조 차원으로 추가되며, 다른 분류는 테이블에 포함되지 않습니다
 * 대부분의 데이터 세트에서는 정렬이 지원되지 않습니다. 소규모 데이터 세트의 경우 데이터가 정렬될 수 있습니다.
 
