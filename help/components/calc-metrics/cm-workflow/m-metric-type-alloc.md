@@ -3,9 +3,9 @@ description: 지표 유형 및 속성에 대해 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '947'
+source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+workflow-type: tm+mt
+source-wordcount: '1007'
 ht-degree: 100%
 
 ---
@@ -45,122 +45,92 @@ ht-degree: 100%
 
 ## 속성 {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="비기본 속성 모델 사용"
 >abstract="선택한 지표에 기본이 아닌 속성 모델을 사용합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="모델"
 >abstract="지표에 대한 속성 모델을 선택합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="마지막 터치"
 >abstract="100%의 크레딧이 방문자가 본 마지막 차원 값으로 이동합니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="첫 번째 터치"
 >abstract="100%의 크레딧이 방문자가 본 첫 번째 차원 값으로 이동합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="선형"
 >abstract="크레딧이 모든 차원 값에 고르게 분산됩니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="기여도"
 >abstract="100%의 크레딧이 방문자가 본 모든 차원 값으로 이동합니다<br/>열 합계가 과대 평가됩니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="동일한 터치"
 >abstract="전환과 동일한 이벤트에 발생하는 차원 값에만 크레딧이 제공됩니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="동일한 터치"
+>abstract="전환과 동일한 이벤트에 발생하는 차원 값에만 크레딧이 제공됩니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U자형"
 >abstract="첫 번째 차원 값이 40%의 크레딧, 마지막 차원 값이 40%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J 곡선"
 >abstract="마지막 차원 값이 60%의 크레딧, 첫 번째 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J 곡선"
+>abstract="마지막 차원 값이 60%의 크레딧, 첫 번째 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="J의 역"
 >abstract="첫 번째 차원 값이 60%의 크레딧, 마지막 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="J의 역"
+>abstract="첫 번째 차원 값이 60%의 크레딧, 마지막 차원 값이 20%의 크레딧을 차지하고 나머지 20%의 크레딧은 중간 차원 값에서 공유합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="시간 감소"
 >abstract="시간적으로 변환에 가장 가까운 차원 값에 가장 많은 크레딧이 제공됩니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="사용자 정의"
 >abstract="고유한 위치 기반 속성 가중치를 정의합니다."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="사용자 정의"
+>abstract="고유한 위치 기반 속성 가중치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="알고리즘"
 >abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
 
-<!-- markdownlint-enable MD034 -->
 
 
 {{attribution-models-details}}
@@ -205,10 +175,10 @@ ht-degree: 100%
 
 * **시간 가치 하락**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 다음과 같이 기본 7일 반감기를 사용합니다.
 
-   * 디스플레이 터치 포인트와 전환 간 0일 간격. `2^(-0/7) = 1`
-   * 이메일 터치 포인트와 전환 간 0일 간격. `2^(-0/7) = 1`
-   * 소셜 터치 포인트와 전환 간 6일 간격. `2^(-6/7) = 0.552`
-   * 유료 검색 터치 포인트와 전환 간 9일 간격. `2^(-9/7) = 0.41`
+   * 디스플레이 접점과 전환 간 0일 간격. `2^(-0/7) = 1`
+   * 이메일 접점과 전환 간 0일 간격. `2^(-0/7) = 1`
+   * 소셜 접점과 전환 간 6일 간격. `2^(-6/7) = 0.552`
+   * 유료 검색 접점과 전환 간 9일 간격. `2^(-9/7) = 0.41`
    * 이러한 값을 표준화하면 다음과 같은 결과가 나옵니다.
 
       * 디스플레이: 33.8%, $16.88 받음
