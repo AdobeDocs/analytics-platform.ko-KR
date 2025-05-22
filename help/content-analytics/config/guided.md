@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
 workflow-type: tm+mt
 source-wordcount: '2653'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
 >title="새로운 데이터 보기"
->abstract="이 구성에 대한 새 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기에서 유사한 지표 및 차원이 제거됩니다.<br/>다른 연결이 새 데이터 보기와 연결되어 있으면 연결이 Content Analytics 데이터 집합을 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 기존 구성에서 제거되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기의 유사한 지표 및 차원은 제거됩니다.<br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 콘텐츠 분석 데이터 세트는 기존 구성에서 제거되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
