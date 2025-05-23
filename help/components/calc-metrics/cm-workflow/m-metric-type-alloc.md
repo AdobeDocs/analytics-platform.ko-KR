@@ -3,10 +3,10 @@ description: 지표 유형 및 속성에 대해 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -132,11 +132,14 @@ ht-degree: 100%
 >abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
 
 
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="컨테이너"
+>abstract="원하는 속성 범위를 설정할 컨테이너를 선택합니다."
+
 
 {{attribution-models-details}}
 
-
-### 전환 확인 기간 {#lookback-window}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -145,7 +148,6 @@ ht-degree: 100%
 >title="전환 확인 기간"
 >abstract="이 설정은 각 변환에 적용될 데이터 속성의 기간을 결정합니다."
 
-<!-- markdownlint-enable MD034 -->
 
 {{attribution-lookback-window}}
 
