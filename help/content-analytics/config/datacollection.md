@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 63c6a5d6148c1562b7f6ac8e4a1cac5919e2dd2e
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 82%
+source-wordcount: '628'
+ht-degree: 79%
 
 ---
 
@@ -94,6 +94,11 @@ ht-degree: 82%
    * 화면 잠금
 * URL이 변경되어 관련 URL도 수정되었습니다.
 * 기록되어 전송 준비가 된 자산 조회수가 32개를 초과했습니다.
+
+>[!NOTE]
+>
+>추가 Content Analytics 이벤트는 세션 또는 페이지의 이벤트 수를 기반으로 하는 바운스 비율 정의에 영향을 줄 수 있습니다.
+>
 
 
 ## 스키마

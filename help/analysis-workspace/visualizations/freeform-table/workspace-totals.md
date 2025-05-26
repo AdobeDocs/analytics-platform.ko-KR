@@ -4,31 +4,27 @@ title: Workspace 합계
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 91%
 
 ---
 
 # Workspace 합계 {#workspace-totals}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="총 합계"
 >abstract="정적 행이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다."
 
-<!-- markdownlint-enable MD034 -->
-
 
 자유 형식 테이블에서 합계 행은 각 분류 수준에 나타나고 두 개의 합계를 표시할 수 있습니다.
 
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
-* **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 세트입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 세그먼트를 반영합니다.
-* **[!UICONTROL 총계]**(**[!UICONTROL 벗어난]** *숫자*) ➋ - 이 합계는 수집된 모든 이벤트 수를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 세그먼트를 반영합니다.
+* **[!UICONTROL 총계]**(]**개 중**[!UICONTROL &#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 

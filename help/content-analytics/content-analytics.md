@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 94%
 
 ---
 
@@ -60,18 +60,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 콘텐츠 분석의 적용을 받는 경험 및 자산에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다.
+>Privacy 및 Security Shield 추가 기능에 라이선스를 부여한 경우 Content Analytics의 적용을 받는 (에서 생성된 모든 데이터) 경험 및 자산은 DULE 레이블 지정 또는 고객 관리 키의 적용을 받지 않습니다. 또한 Content Analytics은 HIPAA에 대비하는 서비스가 아닙니다.
 >
 
->[!NOTE]
->
->콘텐츠 분석은 세션 또는 페이지의 이벤트 수를 기반으로 하는 바운스 비율 정의에 영향을 미칠 가능성이 가장 높은 [추가 이벤트를 전송](config/datacollection.md#content-analytics-event)합니다.
->
 
 >[!MORELIKETHIS]
 >
 >[콘텐츠 분석 보고](report/report.md)
 >[콘텐츠 분석 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
