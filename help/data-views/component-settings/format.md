@@ -5,10 +5,10 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: 6fdb6cbd6f12a0417f513565b02e3ad60c8df6cb
+workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 <!-- markdownlint-enable MD034 -->
 
 
-포맷을 사용하면 보고서에서 특정 지표가 표시되는 방법을 결정할 수 있습니다.
+형식을 사용하여 보고서에 사용할 때 주어진 구성 요소가 표시되는 방법을 결정할 수 있습니다.
 
-## 지표에 대한 포맷 설정 구성
+## 구성 요소에 대한 형식 설정 구성
 
-주어진 지표가 표시되는 방법은 해당 표시 설정을 조정하여 결정할 수 있습니다.
+형식 설정을 조정하여 주어진 구성 요소가 표시되는 방식을 결정할 수 있습니다.
 
 1. Customer Journey Analytics에서 [!UICONTROL **데이터 보기**] 탭을 선택합니다.
 
@@ -44,12 +44,12 @@ ht-degree: 100%
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 포맷]** | 지표의 형식을 십진수, 시간, 백분율 또는 통화로 지정할 수 있습니다. |
-   | **[!UICONTROL 소수점]** | Integer 스키마 데이터 유형에 표시되지 않습니다. 지표가 표시하는 소수점 이하 자리 수를 지정할 수 있습니다. |
+   | **[!UICONTROL 포맷]** | 구성 요소의 서식을 십진수, 시간, 백분율 또는 통화로 지정할 수 있습니다. |
+   | **[!UICONTROL 소수점]** | Integer 스키마 데이터 유형에 표시되지 않습니다. 구성 요소에 표시되는 소수점 이하 자리 수를 지정할 수 있습니다. |
    | **[!UICONTROL 날짜]** | 보고에서 차원으로 사용하는 경우 날짜-시간 필드가 표시되는 방법을 결정할 수 있습니다. [자세히 알아보기](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL 날짜-시간]** | 보고에서 차원으로 사용하는 경우 날짜-시간 필드가 표시되는 방법을 결정할 수 있습니다. [자세히 알아보기](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL 통화]** | 지표에 표시하려는 통화를 결정할 수 있도록 해 줍니다. <p>다양한 통화로 거래가 발생하는 글로벌 데이터를 분석하는 경우 [통화 전환 사용](#use-currency-conversion)을 참조하십시오.</p> |
-   | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 이 지표의 증가 트렌드를 양호(녹색) 또는 불량(빨간색)인지 여부를 지정할 수 있습니다. |
+   | **[!UICONTROL 통화]** | 구성 요소에 표시할 통화를 결정할 수 있습니다. <p>다양한 통화로 거래가 발생하는 글로벌 데이터를 분석하는 경우 [통화 전환 사용](#use-currency-conversion)을 참조하십시오.</p> |
+   | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 이 구성 요소의 증가 트렌드가 양호(녹색) 또는 불량(빨간색)인지 여부를 지정할 수 있습니다. |
    | **[!UICONTROL True 값]** 및 **[!UICONTROL False 값]** | 부울 스키마 데이터 유형에만 표시됩니다. `true` 및 `false` 값에 대한 차원 항목 라벨을 사용자 정의할 수 있습니다. |
 
    {style="table-layout:auto"}
@@ -92,7 +92,7 @@ Customer Journey Analytics에서 통화 전환은 국제적으로 운영되는 �
 
    * [!UICONTROL **통화 코드 차원 선택**] 필드에서 변환하려는 통화를 나타내는 차원을 선택합니다(데이터의 기반이 되는 통화). 예를 들어 [!UICONTROL **통화 코드**]&#x200B;라 불리는 차원을 선택합니다.
 
-     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
+     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
 
    * [!UICONTROL **통화 변환 및 표시**] 필드에서 데이터를 변환할 통화를 선택합니다.
 
