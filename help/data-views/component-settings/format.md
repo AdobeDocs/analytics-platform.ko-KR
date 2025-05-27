@@ -92,7 +92,7 @@ Customer Journey Analytics에서 통화 전환은 국제적으로 운영되는 �
 
    * [!UICONTROL **통화 코드 차원 선택**] 필드에서 변환하려는 통화를 나타내는 차원을 선택합니다(데이터의 기반이 되는 통화). 예를 들어 [!UICONTROL **통화 코드**]&#x200B;라 불리는 차원을 선택합니다.
 
-     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
+     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
 
    * [!UICONTROL **통화 변환 및 표시**] 필드에서 데이터를 변환할 통화를 선택합니다.
 
