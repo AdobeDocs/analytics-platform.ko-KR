@@ -48,6 +48,6 @@ ht-degree: 91%
 
 >[!MORELIKETHIS]
 >
->[Adobe Customer Journey Analytics에서 &quot;값 없음&quot;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
+>[Adobe Customer Journey Analytics에서 &quot;값 없음&quot;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696?profile.language=ko#M598).
 
 
