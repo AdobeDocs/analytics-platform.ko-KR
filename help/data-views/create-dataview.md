@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
+source-git-commit: f578b8e381f59abb1f22e00718531f216fefaef8
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 99%
+source-wordcount: '2453'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -140,9 +140,9 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
-1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 왼쪽 레일에서 지표 또는 차원 섹션으로 ![핸들 아이콘](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 페이지 이름]**&#x200B;과 같은 해당 필드를 드래그합니다.
-동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 서로 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 “제품 페이지”라는 차원과 “오류 페이지”라는 차원을 생성할 수 있습니다.
-왼쪽 레일에서 스키마 필드 폴더를 드래그하면 일반 섹션으로 자동으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 위치에 모든 스키마 필드가 추가됩니다.
+1. 특정 스키마 필드를 찾거나 파생 필드를 정의하면 ![Handle icon](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
+동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 제목이 `Product Pages`이고 제목이 `Error pages`인 차원을 만들 수 있습니다.
+왼쪽 레일에서 스키마 필드 폴더를 드래그하면 폴더의 필드가 자동으로 적절한 섹션으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 섹션에 모든 스키마 필드가 추가됩니다.
 
 1. 한 가지 구성 요소를 선택하면 오른쪽에 설정이 나타납니다.
 
@@ -161,11 +161,11 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-**중복 지표 또는 차원**
+### 중복 지표 또는 차원
 
 지표 또는 차원을 복제한 뒤 특정 설정을 변경하면 단일 스키마 필드에서 다수의 지표 또는 차원을 손쉽게 만들 수 있습니다. 오른쪽 상단에서 지표 또는 차원 이름 아래의 [!UICONTROL 복제] 설정을 선택합니다. 새 차원 또는 지표를 변경한 뒤 더 설명적인 이름으로 저장합니다.
 
-**필터, 스키마 필드 또는 데이터 세트**
+### 필터, 스키마 필드 또는 데이터 세트
 
 [!UICONTROL 데이터 유형], [!UICONTROL 데이터 세트], [!UICONTROL 데이터 거버넌스]와 [!UICONTROL 기타] 기준([!UICONTROL 데이터 포함 여부], [!UICONTROL ID 여부] 및 [!UICONTROL 미사용 여부] 기준)을 사용하여 왼쪽 레일의 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 스키마 필드를 필터링할 수 있습니다.
 
@@ -174,6 +174,71 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 >[!TIP]
 >
 >데이터 보기에서 구성 요소가 제대로 로드되지 않고 오류 메시지가 표시되는 경우 해결 방법은 [사용 권한이 없음](../troubleshooting/lack-of-permissions.md)을 참조하십시오.
+
+
+### 포함된 구성 요소 {#included-components}
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_custom"
+>title="사용자 정의 레이블"
+>abstract="Adobe에서 제공하는 레이블 외에도 조직에 맞는 사용자 정의 레이블을 정의할 수도 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_contract"
+>title="약정 레이블"
+>abstract="계약(C) 레이블은 계약 의무가 있거나 조직의 데이터 거버넌스 정책과 관련된 데이터를 분류하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_identity"
+>title="ID 레이블"
+>abstract="ID(I) 레이블은 특정 사용자를 식별하거나 연결할 수 있는 데이터를 분류하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_sensitive"
+>title="중요 레이블"
+>abstract="중요(S) 레이블은 사용자 및 조직에서 중요하다고 간주하는 데이터를 분류하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_partner_ecosystem"
+>title="파트너 에코시스템"
+>abstract="Partner Ecosystem(P) 레이블은 서드파티 파트너와 공유되는 데이터를 분류하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_policies"
+>title="정책"
+>abstract="데이터 사용 레이블이 데이터 규정 준수를 효과적으로 지원하려면 데이터 사용 정책을 구현해야 합니다. 데이터 사용 정책은 Experience Platform 내에서 데이터에 대해 수행할 수 있거나 수행할 수 없는 마케팅 작업의 종류를 설명하는 규칙입니다. 정책 필터는 활성화된 정책을 데이터 보기에 적용합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_responsible_engagement"
+>title="책임 있는 참여 레이블"
+>abstract="책임 있는 참여 레이블은 책임 있는 참여를 지원하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
+
+
+**[!UICONTROL 포함된 구성 요소]**&#x200B;에는 데이터 보기에 대해 구성한 **[!UICONTROL 지표]** 및 **[!UICONTROL 차원]** 목록이 포함되어 있습니다.
+
+* 구성 요소를 검색하려면 ![검색](/help/assets/icons/Search.svg) **[!UICONTROL _구성 요소 검색_]**&#x200B;을 사용하십시오.
+* 나열된 포함된 구성 요소를 필터링하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
+
+  ![Includec 구성 요소 필터 대화 상자](assets/dataview_includedcomponents_filter.png)
+
+  **[!UICONTROL 필드 필터링 기준]** 대화 상자에서 다음 범주를 필터링할 수 있습니다.
+
+   * **[!UICONTROL 데이터 형식]** - 다음 데이터 형식 중 하나 이상을 선택할 수 있습니다. [!UICONTROL 문자열], [!UICONTROL 정수], [!UICONTROL 짧음], [!UICONTROL 부울], [!UICONTROL 이중], [!UICONTROL 바이트], [!UICONTROL 긴], [!UICONTROL 날짜] 또는 [!UICONTROL 날짜-시간].
+   * **[!UICONTROL 데이터 세트]** - 하나 이상의 데이터 세트를 선택합니다.
+   * **[!UICONTROL 데이터 거버넌스]**: [!UICONTROL 사용자 지정 레이블], [!UICONTROL 계약 레이블], [!UICONTROL ID 레이블], [!UICONTROL 민감도 레이블], P[!UICONTROL 파트너 에코시스템] 또는 [!UICONTROL 정책] 하위 범주에서 하나 이상의 레이블을 선택합니다.
+   * **[!UICONTROL 기타]** - 옵션 중 하나 이상을 선택합니다. [!UICONTROL 데이터 포함], [!UICONTROL ID 포함] 또는 [!UICONTROL 더 이상 사용되지 않음].
+
+  필터를 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택하세요.
 
 
 
