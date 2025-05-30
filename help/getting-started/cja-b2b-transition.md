@@ -5,11 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
 badgePremium: label="B2B 에디션"
-hide: true
-hidefromtoc: true
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
+exl-id: d0e6398b-8080-4e36-b178-0cb91945d0c5
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -24,9 +23,11 @@ ht-degree: 0%
 
 * Customer Journey Analytics으로 데이터를 수집하는 [연결](/help/connections/overview.md)이 있습니다.
 * 이 연결의 데이터를 사용하는 [데이터 보기](/help/data-views/data-views.md)가 있습니다.
-* 이 데이터 보기를 활용하는 보고서 및 시각화가 포함된 [프로젝트](/help/analysis-workspace/home.md)가 있습니다.
+* 이 데이터 보기를 활용하는 보고서 및 시각화가 있는 [프로젝트](/help/analysis-workspace/home.md)가 있습니다.
 
 이전에 Customer Journey Analytics을 사용한 적이 없다면 [B2B edition 빠른 시작 안내서](cja-b2b-quick-start-guide.md)를 참조하세요.
+
+Adobe Analytics 사용자이고 Customer Journey Analytics B2B edition을 사용할 계획이라면 먼저 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](cja-upgrade/cja-upgrade-recommendations.md) 설명서를 참조하십시오.
 
 
 ## 기존 구현

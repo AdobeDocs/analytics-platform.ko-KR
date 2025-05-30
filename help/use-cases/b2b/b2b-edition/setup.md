@@ -4,11 +4,9 @@ description: 일반적인 B2B 사용 사례에 대해 Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B 에디션"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 12%
@@ -288,9 +286,9 @@ Customer Journey Analytics에서 계정 기반 연결을 정의하여 이벤트,
    ![B2B 연결 - 데이터 세트 추가](assets/b2b-connection-add-datasets.png)
 
 1. **[!UICONTROL 다음]**&#x200B;을(를) 선택하여 선택한 각 데이터 세트에 대한 설정을 구성합니다.
-1. 이벤트 데이터 세트의 경우 **[!UICONTROL 계정 ID]**, **[!UICONTROL 전역 계정 ID]**, **[!UICONTROL 기회 ID]**, **[!UICONTROL 구매 그룹 ID]** 및 **[!UICONTROL 개인 ID]**&#x200B;의 ID에 해당하는 적절한 eVar를 선택했는지 확인하십시오.
+1. 이벤트 데이터 세트의 경우 **[!UICONTROL 계정 ID]**, **[!UICONTROL 글로벌 계정 ID]**, **[!UICONTROL 기회 ID]**, **[!UICONTROL 구매 그룹 ID]** 및 **[!UICONTROL 개인 ID]**&#x200B;의 ID에 해당하는 적절한 필드를 선택하십시오.
 
-   ![B2B 연결 - 이벤트 데이터 세트 추가](assets/b2b-connection-add-datasets-event-data.png).
+   ![B2B 연결 - 이벤트 데이터 세트 추가](assets/b2b-connection-add-datasets-event-data.png)
 
 1. 아래로 스크롤하여 계정 레코드 데이터 세트를 구성합니다. **[!UICONTROL 전역 계정]** 컨테이너에서 계정과 일치하는 올바른 식별자(**[!UICONTROL Account_ID]**)를 선택하십시오. 올바른 식별자(**[!UICONTROL Account_ID]**)를 **[!UICONTROL 전역 계정 필드]**(으)로 선택하십시오.
 
