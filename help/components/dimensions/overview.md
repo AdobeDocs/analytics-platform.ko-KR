@@ -4,9 +4,9 @@ description: 차원이 무엇이고 Customer Journey Analytics에서 차원이 �
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원을 �
 
 ## 표준 차원
 
-데이터 보기를 생성하면 기본적으로 다음 구성 요소가 데이터 보기에 차원으로 추가됩니다.
+데이터 보기를 생성할 때 기본적으로 다음과 같은 구성 요소가 차원으로 데이터 보기에 추가됩니다.
 
 {{standard-dimensions}}
 
@@ -48,6 +48,6 @@ Customer Journey Analytics는 데이터 보기 내에서 또는 Analysis Workspa
 
 >[!MORELIKETHIS]
 >
->[이벤트 깊이 기능을 통해 더 자세한 고객 인사이트 검색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=ko#M576)
+>[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

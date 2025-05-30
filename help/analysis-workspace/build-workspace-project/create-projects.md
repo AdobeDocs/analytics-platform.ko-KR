@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 
 ![Example project](assets/example-project.png)
 
-* [패널](/help/analysis-workspace/c-panels/panels.md)를 프로젝트에 추가합니다. 예: **[!DNL Example Panel]** ➊.
+* [패널](/help/analysis-workspace/c-panels/panels.md)를 프로젝트에 추가합니다. (예: **[!DNL Example Panel]** ➊).
 
-* [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 를 패널에 추가합니다. 예:
-   * **[!DNL Line Graph]** [줄](/help/analysis-workspace/visualizations/line.md) 시각화 ➋
-   * **[!DNL Countries]** [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화 ➌
+* [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 패널에 추가합니다. 예:
+   * **[!DNL Line Graph]** [라인](/help/analysis-workspace/visualizations/line.md) 시각화 ➋
+   * **[!DNL Countries]** [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화➌
 * [구성 요소](/help/components/overview.md)를 시각화에 추가합니다. 예:
    * **[!DNL Store Country]** [차원](/help/components/dimensions/overview.md) ➍
    * **[!DNL People]** [지표](/help/components/apply-create-metrics.md) ➎
@@ -81,7 +81,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
 | [프로젝트 색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 카테고리별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
 | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
-| 댓글 허용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>이 옵션이 활성화되면 Analysis Workspace에서 프로젝트의 오른쪽 레일에 주석 영역을 사용할 수 있습니다. 자세한 내용은 [프로젝트에 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오.</p> |
+| 댓글 허용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>이 옵션이 활성화되면 Analysis Workspace의 프로젝트 오른쪽 레일에 댓글 영역이 제공됩니다. 자세한 내용은 [프로젝트에서 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오.</p> |
 
 
 

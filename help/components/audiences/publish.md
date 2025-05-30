@@ -5,9 +5,9 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2368'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,14 +77,14 @@ ht-degree: 96%
 
    {style="table-layout:auto"}
 
-1. [대상자 빌더](#audience-builder)를 사용하여 대상자를 구축합니다.
+1. [대상자 빌더](#audience-builder)를 사용하여 대상자를 빌드합니다.
 
 1. [ 날짜 미리보기](#data-preview) 패널을 사용하여 데이터를 해석합니다.
 
 1. 이 대상자의 ID 샘플을 보려면 **[!UICONTROL [!UICONTROL 샘플 ID 보기]]**&#x200B;를 선택합니다. **[!UICONTROL 샘플 ID]** 대화 상자에서 샘플 ID를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *샘플 ID 검색*]&#x200B;을 사용할 수 있습니다.
 
-1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
-대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 걸리지 않습니다.
+1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**를 선택합니다.
+대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 소요되지 않습니다.
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 선택하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
 
@@ -122,13 +122,13 @@ ht-degree: 96%
 
 ## 대상자가 만들고 게시한 후 진행되는 상황? {#after-audience-created}
 
-Customer Journey Analytics에서 대상을 만들고 게시하면 Experience Platform에서 이 대상을 사용할 수 있으며 [대상 포털](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal)에서 볼 수 있습니다. Experience Platform에서 사용할 수 있는 대상을 통해 Adobe Journey Optimizer과 같은 다른 Experience Platform 애플리케이션에서 사용할 수 있습니다.
+Customer Journey Analytics에서 대상자를 생성하고 게시한 후에는 해당 대상자는 Experience Platform에서 사용할 수 있으며 [대상자 포털](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal)에서 확인할 수 있습니다. Experience Platform에서 제공되는 대상자는 Adobe Journey Optimizer와 같은 다른 Experience Platform 애플리케이션에서 사용할 수 있습니다.
 
 Adobe Experience Platform 스트리밍 세그먼트는 조직이 스트리밍 세그먼테이션에 대해 설정된 경우에만 생성됩니다.
 
 Customer Journey Analytics에서 Experience Platform으로 게시된 대상자로 작업할 때 다음 사항을 고려하십시오.
 
-* Experience Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름 및 설명을 공유합니다. 이 이름에는 Customer Journey Analytics 대상자 ID가 추가되어 대상자의 고유성을 보장합니다.
+* Experience Platform의 대상자는 Customer Journey Analytics 대상자와 동일한 이름과 설명을 공유합니다. 이 이름에는 Customer Journey Analytics 대상자 ID가 추가되어 대상자의 고유성을 보장합니다.
 * Customer Journey Analytics에서 대상자의 이름이나 설명을 변경하면 Experience Platform에 반영됩니다.
 * Customer Journey Analytics에서 대상자가 삭제된 경우, 해당 대상자의 프로필 멤버십이 만료될 때까지 Experience Platform에서 계속 이용할 수 있습니다. 프로필 멤버십은 일회성 대상자의 경우 420일 후에 만료되고, 반복적 대상자의 경우 16일 후에 만료됩니다.
 
@@ -140,11 +140,11 @@ Customer Journey Analytics에서 Experience Platform으로 게시된 대상자�
 
 |  | 지연 지점 | 지연 기간 |
 | --- | --- | --- |
-| 표시 안 됨 | Adobe Analytics와 Analytics 소스 커넥터(A4T) | 최대 30분 |
-| 1 | 데이터 레이크로 데이터 수집(Analytics 소스 커넥터 또는 기타 소스에서) | 최대 90분 |
+| 표시 안 됨 | Adobe Analytics와 Analytics 소스 커넥터 (A4T) | 최대 30분 |
+| 1 | 데이터 레이크로 데이터 수집 (Analytics 소스 커넥터 또는 기타 소스에서) | 최대 90분 |
 | 2 | Experience Platform 데이터 레이크에서 Customer Journey Analytics로 데이터 수집 | 최대 90분 |
 | 3 | 스트리밍 세그먼트의 자동 생성을 포함하여 실시간 고객 프로필에 대상자를 게시하고 세그먼트가 데이터를 수신할 수 있도록 합니다. | 몇 초 |
-| 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침(지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
+| 4 | 대상자에 대한 새로 고침 빈도 | <ul><li>일회성 새로 고침 (지연 시간 5분 미만)</li><li>4시간마다, 매일, 매주, 매월 새로 고침(지연 시간은 새로 고침 빈도와 밀접한 관련이 있음) |
 | 5 | Adobe Experience Platform에서 대상 생성: 새 세그먼트 활성화 | 1~2시간 |
 
 {style="table-layout:auto"}
@@ -190,7 +190,7 @@ Customer Journey Analytics과 Real-Time Customer Data Platform 간에는 대상�
 
 #### 게시 간격 및 속도
 
-대상자는 초당 1,500개의 레코드(RPS)의 속도로 Real-Time Customer Data Platform에 게시합니다. 예를 들어 2,000만 명의 멤버를 보유한 대상자가 완전히 게시하는 데는 약 3.7시간이 걸립니다(2,000만/1,500RPS/시간당 3,600초). 이 기간 동안 두 앱 간의 대상자 멤버십에는 차이가 있을 가능성이 높습니다.
+대상자는 초당 1,500개의 레코드(RPS)의 속도로 Real-Time Customer Data Platform에 게시합니다. 예를 들어 2,000만 명의 멤버를 보유한 대상자가 완전히 게시하는 데는 약 3.7시간이 소요됩니다(2,000만/1,500RPS/시간당 3,600초). 이 기간 동안 두 앱 간의 대상자 멤버십에는 차이가 있을 가능성이 높습니다.
 
 #### 프로필 단편화
 
