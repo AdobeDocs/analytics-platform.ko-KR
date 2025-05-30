@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f578b8e381f59abb1f22e00718531f216fefaef8
+source-git-commit: 33124dca4709a945400be9cab3a614436d8642c8
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 87%
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -205,7 +205,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 
 >[!CONTEXTUALHELP]
->id="dataview_includedcomponents_filter_datagovernance_partner_ecosystem"
+>id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="파트너 에코시스템"
 >abstract="Partner Ecosystem(P) 레이블은 서드파티 파트너와 공유되는 데이터를 분류하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
@@ -218,7 +218,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 
 >[!CONTEXTUALHELP]
->id="dataview_includedcomponents_filter_responsible_engagement"
+>id="dataview_includedcomponents_filter_datagovernance_responsibleengagement"
 >title="책임 있는 참여 레이블"
 >abstract="책임 있는 참여 레이블은 책임 있는 참여를 지원하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
