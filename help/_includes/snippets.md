@@ -2,7 +2,7 @@
 source-git-commit: c936ebbc191353d9993cc3c56892df3f29a1a1df
 workflow-type: tm+mt
 source-wordcount: '5163'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 # 스니펫
@@ -118,7 +118,7 @@ ht-degree: 89%
 | ![U자형](/help/assets/icons/AttributeUShaped.svg) | U자형 | 첫 번째 상호 작용에 40% 크레딧을 제공하고, 마지막 상호 작용에 40% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 접점에 나눠줍니다. 접점이 하나인 전환의 경우 100% 크레딧이 제공됩니다. 접점이 두 개인 전환의 경우 두 접점에 50% 크레딧이 제공됩니다. 이 속성 모델은 첫 번째와 마지막 상호 작용을 가장 중요하게 여기지만 그 사이에 추가적인 상호 작용을 완전히 무시하고 싶지 않은 시나리오에서 가장 적합합니다. |
 | ![J 곡선](/help/assets/icons/AttributeJCurve.svg) | J 곡선 | 마지막 상호 작용에 60% 크레딧을 제공하고, 첫 번째 상호 작용에 20% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 접점에 나눠줍니다. 접점이 하나인 전환의 경우 100% 크레딧이 제공됩니다. 접점이 두 개인 전환의 경우 75% 크레딧이 마지막 상호 작용에 제공되며, 25% 크레딧이 첫 번째 상호 작용에 제공됩니다. U자형과 유사하게, 이 속성 모델은 첫 번째와 마지막 상호 작용을 선호하지만 마지막 상호 작용을 더 선호합니다. |
 | ![J의 역](/help/assets/icons/AttributeInverseJ.svg) | J의 역 | 첫 번째 접점에 60% 크레딧을 제공하고, 마지막 접점에 20% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 접점에 나눠줍니다. 접점이 하나인 전환의 경우 100% 크레딧이 제공됩니다. 접점이 두 개인 전환의 경우 75% 크레딧이 첫 번째 상호 작용에 제공되며, 25% 크레딧이 마지막 상호 작용에 제공됩니다. J의 역과 유사하게, 이 속성 모델은 첫 번째와 마지막 상호 작용을 선호하지만 첫 번째 상호 작용을 더 선호합니다. |
-| ![시간 감소](/help/assets/icons/AttributeTimeDecay.svg) | 시간 감소 | 기본값이 7일인 사용자 정의 반감기 매개변수를 사용하는 기하급수적 감소가 따릅니다. 각 채널의 가중치는 접점 시작과 최종 전환 사이에 경과된 시간에 따라 달라집니다. 크레딧을 결정하는 데 사용되는 공식은 `2^(-t/halflife)`이고, 여기서 `t`는 접점과 전환 사이의 시간입니다. 그러면 모든 접점이 100%로 표준화됩니다. 중요한 특정 사건에 대한 속성을 측정하려는 시나리오에 이상적입니다. 이 이벤트 후 전환이 일어나기까지 시간이 오래 걸릴수록 크레딧은 적게 제공됩니다. |
+| ![시간 감소](/help/assets/icons/AttributeTimeDecay.svg) | 시간 감소 | 기본값이 7일인 사용자 정의 반감기 매개변수를 사용하는 기하급수적 감소가 따릅니다. 각 채널의 가중치는 접점 시작과 최종 전환 사이에 경과된 시간에 따라 달라집니다. 크레딧을 결정하는 데 사용되는 공식은 `2^(-t/halflife)`이고, 여기서 `t`는 접점과 전환 사이의 시간입니다. 그러면 모든 접점이 100%로 표준화됩니다. 중요한 특정 사건에 대한 속성을 측정하려는 시나리오에 이상적입니다. 이 이벤트 후 전환이 일어나기까지 시간이 오래 소요될수록 크레딧은 적게 제공됩니다. |
 | ![사용자 정의](/help/assets/icons/AttributeCustom.svg) | 사용자 정의 | 첫 번째 접점, 마지막 접점 및 그 사이에 있는 모든 접점에 제공할 가중치를 지정할 수 있습니다. 입력한 사용자 정의 숫자가 100에 추가되지 않는 경우에도 지정된 값이 100%로 표준화됩니다. 접점이 하나인 전환의 경우 100% 크레딧이 제공됩니다. 접점이 두 개인 상호 작용의 경우 중간 매개변수는 무시됩니다. 그런 다음 첫 번째 및 마지막 접점이 100%로 표준화되고 크레딧은 그에 따라 할당됩니다. 이 모델은 속성 모델을 완벽하게 제어하고 다른 속성 모델이 충족시키지 못하는 특정 요구 사항을 가진 분석가에게 이상적입니다. |
 | ![알고리즘](/help/assets/icons/AttributeAlgorithmic.svg) | 알고리즘 | 통계 기법을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. 속성에 사용되는 알고리즘은 협업 게임 이론의 Harsanyi 배당을 기반으로 합니다. Harsanyi 배당은 결과에 불평등한 기여와 함께 플레이어들 간의 크레딧을 분배하기 위해 Shapley 값 솔루션(노벨 경제학상 수상자인 Lloyd Shapley의 이름을 따서 이름이 지어짐)의 일반화입니다.<br>높은 수준에서 속성은 잉여금이 균등하게 분배되어야 하는 플레이어 연합으로 계산됩니다. 각 연합의 잉여금은 각 하위 연합 (또는 이전에 참가한 차원 항목)에 의해 이전에 생성된 잉여금에 따라 재귀적으로 결정됩니다. 자세한 내용은 John Harsanyi 및 Lloyd Shapley의 원본 논문을 참조하십시오.<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2 (28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4 (2)*, 194-220. |
 
@@ -155,7 +155,7 @@ ht-degree: 89%
 
 * **첫 번째 터치**&#x200B;와 **개인 전환 확인 기간**&#x200B;을 사용하는 속성은 세 번째 방문만 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다.
 
-* **선형**&#x200B;과 **세션 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
+* **선형**&#x200B;과 **세션 전환 확인 기간**을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
 **선형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다.
 
 * **J자형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.
@@ -260,24 +260,24 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 | 구성 요소 이름 | 참고 |
 |---|---|
-| 15분 | 지정된 이벤트가 발생한 15분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 15분입니다. |
-| 30분 | 주어진 이벤트가 발생한 30분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 30분이고 마지막 차원 항목은 날짜 범위에서 마지막 30분입니다. |
-| 5분 | 주어진 이벤트가 발생한 5분마다(내림). 첫 번째 차원 항목은 날짜 범위에서 처음 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 5분입니다. |
+| 15분 | 특정 이벤트가 발생한 시간(15분 단위)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 15분입니다. |
+| 30분 | 특정 이벤트가 발생한 시간(30분 단위)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 30분이고 마지막 차원 항목은 날짜 범위에서 마지막 30분입니다. |
+| 5분 | 특정 이벤트가 발생한 시간(5분 단위)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 15분이고 마지막 차원 항목은 날짜 범위에서 마지막 5분입니다. |
 | [!UICONTROL 일] | 특정 이벤트기 발생한 시간(일)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
-| [!UICONTROL 요일] | 특정 이벤트기 발생한 요일입니다. 첫 번째 차원 항목은 날짜 범위에서 주의 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 주의 마지막 일입니다. |
-| [!UICONTROL 날짜] | 특정 이벤트기 발생한 월의 일입니다. 첫 번째 차원 항목은 날짜 범위에서 해당 월의 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 해당 월의 마지막 일입니다. |
-| 이벤트 심도 | 세션 내의 각 이벤트 상호 작용에 순차적 숫자 값(1, 2, 3 등)을 할당합니다. 이 차원을 사용하면 데이터 보기에 대해 정의한 [제한된 경험 세션 내에서 사용자 상호 작용의 순차적 흐름에서 특정 이벤트가 발생하는 위치를 자세히 추적 및 분석할 수 있습니다](/help/data-views/session-settings.md#session-settings). 제한된 세션 내에서 이벤트의 시작부터 끝까지 진행률을 추적할 수 있습니다. 예: 방문자가 홈 페이지에 방문(이벤트 1, 세션 시작)하고 검색 기능(이벤트 2)을 사용하고, 제품 세부 사항 페이지를 보고(이벤트 3), 장바구니에 추가(이벤트 4)하고, 체크아웃을 진행하고(이벤트 5), 구매를 완료(이벤트 6, 세션 종료). 이제 세그먼트 정의에서 [!UICONTROL 이벤트 깊이]를 사용하여 상호 작용 깊이에 따라 데이터를 세그먼트화할 수 있습니다. |
+| [!UICONTROL 요일] | 특정 이벤트가 발생한 날짜(요일)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 요일이고 마지막 차원 항목은 날짜 범위에서 마지막 요일입니다. |
+| [!UICONTROL 날짜] | 특정 이벤트가 발생한 날짜(일)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 일이고 마지막 차원 항목은 날짜 범위에서 마지막 일입니다. |
+| 이벤트 심도 | 각 세션 내 이벤트 상호작용에 순차적인 숫자 값(1, 2, 3 등)을 할당합니다. 이 차원을 사용하면 [정의한 데이터 보기의 제한된 경험 세션](/help/data-views/session-settings.md#session-settings) 내에서 사용자 상호 작용의 순차적 흐름에서 특정 이벤트가 발생하는 위치를 상세히 추적하고 분석할 수 있습니다. 제한된 세션 내에서 이벤트가 시작부터 끝까지 진행되는 과정을 추적할 수 있습니다. 예를 들어 방문자가 홈 페이지에 접속(이벤트 1, 세션 시작), 검색 기능 사용(이벤트 2), 상품 세부 정보 페이지 조회(이벤트 3), 장바구니에 추가(이벤트 4), 체크아웃 진행(이벤트 5), 거래 완료(이벤트 6, 세션 종료)하는 흐름입니다. 이제 세그먼트 정의에서 [!UICONTROL 이벤트 심도]를 사용하여 상호 작용 깊이를 기준으로 데이터를 세분화할 수 있습니다. |
 | [!UICONTROL 시간] | 특정 이벤트기 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. |
-| [!UICONTROL 시간 (일 기준)] | 특정 이벤트기 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 그날의 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 그날의 마지막 시간입니다. |
+| [!UICONTROL 시간 (일 기준)] | 특정 이벤트가 발생한 시간(시)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. |
 | [!UICONTROL 분] | 특정 이벤트기 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 마지막 분입니다. |
-| [!UICONTROL 분/시간] | 특정 이벤트기 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 시간의 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 시간의 마지막 분입니다. |
+| [!UICONTROL 분 단위] | 특정 이벤트가 발생한 시간(분)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분이고 마지막 차원 항목은 날짜 범위에서 마지막 분입니다. |
 | [!UICONTROL 월] | 특정 이벤트기 발생한 시간(월)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 마지막 월입니다. |
-| [!UICONTROL 월] | 특정 이벤트기 발생한 월의 월입니다. 첫 번째 차원 항목은 날짜 범위에서 연도의 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 연도의 마지막 월입니다. |
+| [!UICONTROL 월 (연 기준)] | 특정 이벤트가 발생한 월입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 월이고 마지막 차원 항목은 날짜 범위에서 마지막 월입니다. |
 | [!UICONTROL 분기] | 특정 이벤트기 발생한 시간(분기)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 마지막 분기입니다. |
-| [!UICONTROL 사분기] | 특정 이벤트기 발생한 해당 연도의 분기입니다. 첫 번째 차원 항목은 날짜 범위에서 해당 연도의 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 해당 연도의 마지막 분기입니다. |
+| [!UICONTROL 사분기] | 특정 이벤트가 발생한 분기입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 분기이고 마지막 차원 항목은 날짜 범위에서 마지막 분기입니다. |
 | [!UICONTROL 초] | 특정 이벤트기 발생한 시간(초)입니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시산(초)이고 마지막 차원 항목은 날짜 범위에서 마지막 시간(초)입니다. |
 | [!UICONTROL 주] | 특정 이벤트기 발생한 시간(주)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. |
-| [!UICONTROL 주 단위] | 특정 이벤트기 발생한 시간(주)입니다. 첫 번째 차원 항목은 날짜 범위에서 연도의 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 연도의 마지막 주입니다. |
+| [!UICONTROL 주 단위] | 특정 이벤트가 발생한 주입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. |
 | [!UICONTROL 년] | 특정 이벤트기 발생한 시간(년)입니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 해이고 마지막 차원 항목은 날짜 범위에서 가장 최근 연도입니다. |
 
 
@@ -285,13 +285,13 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 | 구성 요소 이름 | 참고 |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 계정] | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 구매 그룹] | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 계정] | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 구매 그룹] | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
 | [!UICONTROL 이벤트] | [!UICONTROL 연결]의 모든 이벤트 데이터 세트의 행 수입니다. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 글로벌 계정] | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 기회] | [!UICONTROL 연결]에 지정된 기회 ID를 기반으로 하는 기회입니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 글로벌 계정] | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 기회] | [!UICONTROL 연결]에 지정된 기회 ID를 기반으로 하는 기회입니다. |
 | [!UICONTROL 사용자] | [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
 | [!UICONTROL 세션 종료] | 세션의 마지막 이벤트였던 이벤트 수입니다. [!UICONTROL 세션 시작]과 마찬가지로 세그먼트 정의에서도 모든 세션의 마지막 이벤트까지 세그먼트화하는 데 사용할 수 있습니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 종료 비율</li></p> |
 | [!UICONTROL 세션 시작] | 세션의 첫 번째 이벤트였던 이벤트 수입니다. 세그먼트 정의(예: “[!UICONTROL 세션 시작]이 존재합니다”)에 사용될 경우 이 세그먼트는 모든 세션의 첫 번째 이벤트까지만 필터링합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 시작 비율</li></p> |
 | [!UICONTROL 세션] | 데이터 보기의 세션 설정을 기반으로 합니다. |
-| [!UICONTROL 소비한 시간(초)] | 차원에 대한 두 개의 서로 다른 값 사이의 시간을 합산합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>사용자당 소비한 시간</li><li>세션당 소비한 시간</li></p> |
+| [!UICONTROL 소비 시간 (초)] | 차원에 대한 두 개의 서로 다른 값 사이의 시간을 합산합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>사용자당 소비한 시간</li><li>세션당 소비한 시간</li></p> |

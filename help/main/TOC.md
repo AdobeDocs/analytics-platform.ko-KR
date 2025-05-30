@@ -170,7 +170,7 @@ ht-degree: 98%
       + [개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [프로젝트의 주석](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [프로젝트의 댓글](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace의 폴더 {#workspace-folders}
          + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -412,7 +412,7 @@ ht-degree: 98%
    + [그래프 기반 스티칭](/help/stitching/gbs.md)
    + [스티칭 사용](/help/stitching/use-stitching.md)
    + [결합된 데이터 세트 생성 및 관리](/help/stitching/stitching-ui.md)
-   + [결합 유효성 검사](/help/stitching/validate.md)
+   + [결합 검사](/help/stitching/validate.md)
    + [자주 묻는 질문](/help/stitching/faq.md)
 
 + Adobe 통합 {#integrations}
