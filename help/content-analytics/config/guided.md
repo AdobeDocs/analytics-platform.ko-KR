@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
+source-git-commit: 7a25cd101ecd4ba88ee906e48f80219379c7374e
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 98%
+source-wordcount: '2656'
+ht-degree: 97%
 
 ---
 
@@ -347,7 +347,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="구현 확인"
->abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 콘텐츠 분석에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>사용자가 사이트를 방문할 당시에 캡처된 URL(귀하가 구성한 데이터 수집 설정에 따름)</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
+>abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 콘텐츠 분석에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>구성된 데이터 수집 설정에 따라 사용자의 사이트 방문 시 캡처되는 페이지의 URL 및</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

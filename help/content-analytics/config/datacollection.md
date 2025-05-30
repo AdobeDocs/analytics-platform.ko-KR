@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+source-git-commit: 7909388273af4c19d2dfda671c2af8eac470fff9
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 79%
+source-wordcount: '622'
+ht-degree: 81%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 79%
 
 페이지를 나가는 호출 수를 줄이기 위해 Content Analytics은 정보를 수집하지만 해당 정보를 즉시 보내지는 않습니다. 컨텐츠 상호 작용 정보가 수집되고 해당 정보를 포함하는 이벤트는 다음 트리거 중 하나가 발생할 때만 전송됩니다.
 
-* Web SDK 또는 AppMeasurement에서 이벤트를 보냅니다. 이 이벤트의 타임스탬프는 입니다.
+* Web SDK 또는 AppMeasurements가 이벤트를 보냅니다.
 * 표시 여부가 숨김으로 변경되었습니다. 예:
    * 페이지 언로드
    * 탭 전환
