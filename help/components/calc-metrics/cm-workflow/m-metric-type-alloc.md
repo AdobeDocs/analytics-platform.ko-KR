@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="컨테이너"
->abstract="원하는 속성 범위를 설정할 컨테이너를 선택합니다."
+>abstract="원하는 기여도 범위를 설정하려면 컨테이너를 선택하십시오."
 
 
 {{attribution-models-details}}
@@ -166,7 +166,7 @@ ht-degree: 98%
 
 * **첫 번째 터치**&#x200B;와 **개인 전환 확인 기간**&#x200B;을 사용하는 속성은 세 번째 방문만 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다.
 
-* **선형**&#x200B;과 **세션 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
+* **선형**&#x200B;과 **세션 전환 확인 기간**을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
 **선형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다.
 
 * **J자형**&#x200B;과 **개인 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.
@@ -194,6 +194,6 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >[속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)
->[참여도 지표](participation-metric.md)
+>>[참여도 지표](participation-metric.md)
 >
 
