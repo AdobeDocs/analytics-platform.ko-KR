@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
-workflow-type: ht
+source-git-commit: 105b235c1a4791fd59cf65ae7f543a5fc08fc55d
+workflow-type: tm+mt
 source-wordcount: '3281'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,27 +69,27 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 각 단계에서는 보다 자세한 프로세스에 대한 개략적인 설명을 제공합니다. 각 단계의 링크를 따라 관련 작업을 완료한 다음 이 페이지로 돌아가서 프로세스의 다음 단계로 계속 진행합니다.
 
-1. [XDM 스키마 아키텍처 계획 수립](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+1. [XDM 스키마 아키텍처 계획 수립](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md){target="_blank"}.
 
-1. [Adobe Experience Platform에 원하는 사용자 정의 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. [Adobe Experience Platform에 원하는 사용자 정의 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}.
 
    스키마를 생성할 때 다음 옵션을 고려합니다.
 
-   * Customer Journey Analytics를 RTCDP와 통합하려면 [Customer Journey Analytics에 사용할 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 설명된 대로 스키마에서 **[!UICONTROL 프로필]** 옵션을 활성화해야 합니다. 이 옵션을 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
+   * Customer Journey Analytics를 RTCDP와 통합하려면 [Customer Journey Analytics에 사용할 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}에 설명된 대로 스키마에서 **[!UICONTROL 프로필]** 옵션을 활성화해야 합니다. 이 옵션을 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   * 스트리밍 미디어 데이터를 포함하려면 [스트리밍 데이터를 수집하고 사용하도록 스키마를 구성](/help/data-ingestion/streaming.md)해야 합니다.
+   * 스트리밍 미디어 데이터를 포함하려면 [스트리밍 데이터를 수집하고 사용하도록 스키마를 구성](/help/data-ingestion/streaming.md){target="_blank"}해야 합니다.
 
-1. [Adobe Experience Platform에서 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md).
+1. [Adobe Experience Platform에서 데이터 세트 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md){target="_blank"}.
 
 1. (선택 사항) Adobe Analytics에서 분류 데이터를 사용하는 경우 Customer Journey Analytics에서 데이터 세트에 분류 데이터를 추가할 수 있습니다.
 
-   이를 위해 [분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+   이를 위해 [분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트를 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md){target="_blank"}.
 
-1. AppMeasurement 또는 Analytics 확장 기능(태그)을 사용하는 Adobe Analytics 구현의 경우, [Adobe Experience Platform에서 데이터스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md). <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
+1. AppMeasurement 또는 Analytics 확장 기능(태그)을 사용하는 Adobe Analytics 구현의 경우, [Adobe Experience Platform에서 데이터스트림을 만듭니다](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md){target="_blank"}. <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
-   Web SDK를 사용하여 Adobe Analytics를 구현하는 경우 데이터스트림이 이미 존재합니다. 자세한 내용은 [기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)을 참조하십시오.
+   Web SDK를 사용하여 Adobe Analytics를 구현하는 경우 데이터스트림이 이미 존재합니다. 자세한 내용은 [기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md){target="_blank"}을 참조하십시오.
 
-1. [데이터스트림에 서비스로 Adobe Experience Platform 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md).
+1. [데이터스트림에 서비스로 Adobe Experience Platform 추가](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md){target="_blank"}.
 
 1. (선택 사항) Customer Journey Analytics를 Adobe Journey Optimizer와 통합하려면 Adobe Journey Optimizer에서 사용할 수 있도록 구현에서 개인화 오브젝트를 사용합니다.
 
@@ -97,7 +97,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    +++수동 구현(JS 파일)
 
-   1. [내 사이트에 alloy.js 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22).
+   1. [내 사이트에 alloy.js 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"}.
 
    1. XDM 오브젝트를 채우고 데이터스트림으로 전송.
 
@@ -105,13 +105,13 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    +++태그
 
-   1. [태그 속성 만들기 및 Adobe Experience Platform Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md).
+   1. [태그 속성 만들기 및 Adobe Experience Platform Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md){target="_blank"}.
 
-   1. [태그 속성에 Adobe Experience Platform Web SDK 확장 기능 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+   1. [태그 속성에 Adobe Experience Platform Web SDK 확장을 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md){target="_blank"}합니다.
 
    1. [사이트에 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md).
 
-   1. [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md).
+   1. [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md){target="_blank"}.
 
 +++
 
@@ -121,31 +121,31 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
 +++
 
-1. [Web SDK 구현이 데이터 세트로 데이터를 전송하는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md).
+1. [Web SDK 구현이 데이터 세트로 데이터를 전송하는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}.
 
-1. [Customer Journey Analytics에 연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. [Customer Journey Analytics에 연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
 1. (선택 사항) 콜센터 데이터 등 다른 채널의 데이터와 웹 데이터 연결.
 
-   [콜센터 및 웹 데이터 가져오기](/help/use-cases/cross-channel/call-center.md)에 설명된 대로 Customer Journey Analytics 연결에 추가 데이터 세트를 추가하여 이를 달성합니다.
+   [콜센터 및 웹 데이터 가져오기](/help/use-cases/cross-channel/call-center.md){target="_blank"}에 설명된 대로 Customer Journey Analytics 연결에 추가 데이터 세트를 추가하여 이를 달성합니다.
 
-1. [Customer Journey Analytics에 데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
+1. [Customer Journey Analytics에 데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}.
 
-1. [Customer Journey Analytics의 데이터 보기로 데이터가 흐르는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md).
+1. [Customer Journey Analytics의 데이터 보기로 데이터가 흐르는지 확인](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}.
 
-1. Adobe Analytics 환경에서는 [Analytics 인벤토리를 사용](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory)하여 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 확인할 수 있습니다.
+1. Adobe Analytics 환경에서는 [Analytics 인벤토리를 사용](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"}하여 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 확인할 수 있습니다.
 
-1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
+1. [프로젝트 및 구성 요소 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}.
 
    <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
-1. (선택 사항) Adobe Analytics에서 마케팅 채널을 사용하는 경우 [Customer Journey Analytics에서 마케팅 채널 파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md#marketing-channels).
+1. (선택 사항) Adobe Analytics에서 마케팅 채널을 사용하는 경우 [Customer Journey Analytics에서 마케팅 채널 파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}.
 
    파생 필드는 Customer Journey Analytics의 실시간 보고 기능에서 중요한 부분입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다.
 
    파생 필드의 한 가지 용도는 하나 이상의 조건(예: URL 매개변수, 페이지 URL 또는 페이지 이름)에 따라 적절한 마케팅 채널을 결정하는 파생 마케팅 채널 필드를 정의하는 것입니다.
 
-   파생 필드에서 [마케팅 채널 기능 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels)을 사용하여 마케팅 채널에 대한 파생 필드를 빠르게 만듭니다.
+   파생 필드에서 [마케팅 채널 기능 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}을 사용하여 마케팅 채널에 대한 파생 필드를 빠르게 만듭니다.
 
 1. 기존 구현에서 Adobe Analytics의 데이터와 새 구현에서 Customer Journey Analytics의 데이터를 비교하고, 모든 차이점과 그 이유를 이해해야 합니다. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
@@ -155,17 +155,17 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
    >
    >이전에 Analytics 소스 커넥터를 만들지 않은 경우 다음 단계를 따릅니다.
    >
-   >이미 Customer Journey Analytics와 함께 Analytics 소스 커넥터를 사용하고 있는 경우, [Customer Journey Analytics용 Analytics 소스 커넥터에서 Web SDK로 전환](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)의 단계를 수행합니다.
+   >이미 Customer Journey Analytics와 함께 Analytics 소스 커넥터를 사용하고 있는 경우, [Customer Journey Analytics용 Analytics 소스 커넥터에서 Web SDK로 전환](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}의 단계를 수행합니다.
 
-   1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+   1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md){target="_blank"}.
 
-   1. 아직 Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 생성하고 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)합니다.
+   1. 아직 Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 생성하고 필드를 XDM 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md){target="_blank"}합니다.
 
       또는
 
-      이미 Analytics 소스 커넥터가 있는 경우 [소스 커넥터에서 XDM 스키마로 필드를 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)합니다.
+      이미 Analytics 소스 커넥터가 있는 경우 [소스 커넥터에서 XDM 스키마로 필드를 매핑](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}합니다.
 
-   1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md).
+   1. [연결에 Analytics 소스 커넥터 데이터 세트 추가](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md){target="_blank"}.
 
 1. 사용자 온보딩 계획 수립.
 
@@ -173,15 +173,15 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    사용자가 Customer Journey Analytics에서 Analysis Workspace의 주요 차이점을 숙지할 수 있도록 충분한 시간(3~6개월)을 할애하도록 하십시오.
 
-   Adobe Analytics와 Customer Journey Analytics의 주요 차이점에 대한 자세한 내용은 [Adobe Analytics 사용자를 위한 사용 안내서](/help/getting-started/aa-to-cja-user.md)를 참조하십시오.
+   Adobe Analytics와 Customer Journey Analytics의 주요 차이점에 대한 자세한 내용은 [Adobe Analytics 사용자를 위한 사용 안내서](/help/getting-started/aa-to-cja-user.md){target="_blank"}를 참조하십시오.
 
-1. [Customer Journey Analytics의 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)에 대해 알아봅니다. Customer Journey Analytics에서는 대부분의 Adobe Analytics 기능이 지원되며, 여러 추가 기능도 Customer Journey Analytics에서 사용할 수 있습니다.
+1. [Customer Journey Analytics의 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md){target="_blank"}에 대해 알아봅니다. Customer Journey Analytics에서는 대부분의 Adobe Analytics 기능이 지원되며, 여러 추가 기능도 Customer Journey Analytics에서 사용할 수 있습니다.
 
 1. Customer Journey Analytics Web SDK 구현이 완료되고 수집하는 데이터에 만족하면 Adobe Analytics를 비활성화합니다.
 
    Adobe에서는 Customer Journey Analytics를 구현한 후에도 일정 기간 동안 Adobe Analytics 환경을 실행 상태로 유지하는 것을 권장합니다.
 
-   업그레이드 중 및 업그레이드 이후 Adobe Analytics의 용도에 대한 자세한 내용과 Adobe Analytics를 비활성화 권장 시기에 대한 자세한 내용은 [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics가 필요한 기간 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)를 참조하십시오.
+   업그레이드 중 및 업그레이드 이후 Adobe Analytics의 용도에 대한 자세한 내용과 Adobe Analytics를 비활성화 권장 시기에 대한 자세한 내용은 [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics가 필요한 기간 평가](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md){target="_blank"}를 참조하십시오.
 
 ## 조직의 업그레이드 단계를 동적으로 생성
 
