@@ -157,7 +157,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="인스턴스"
->abstract="차원의 인스턴스를 포함합니다."
+>abstract="차원에 대한 인스턴스를 포함합니다."
 
 
 >[!CONTEXTUALHELP]
