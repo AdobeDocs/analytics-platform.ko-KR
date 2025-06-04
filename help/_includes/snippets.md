@@ -1,8 +1,8 @@
 ---
-source-git-commit: c936ebbc191353d9993cc3c56892df3f29a1a1df
+source-git-commit: fe705aade87a2c5ea8d47db3dcd727d239eafc76
 workflow-type: tm+mt
-source-wordcount: '5163'
-ht-degree: 100%
+source-wordcount: '5193'
+ht-degree: 99%
 
 ---
 # 스니펫
@@ -246,7 +246,7 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 | 설정 | 설명 |
 |---|---|
 | **[!UICONTROL 새 데이터 가져오기]** | 지속적인 연결을 설정하려면 이 옵션을 활성화합니다. 지속적인 연결을 통해 데이터 세트에 추가된 새 데이터 배치를 Workspace에서 자동으로 사용할 수 있습니다. |
-| **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li></ul> |
+| **[!UICONTROL 데이터 세트 채우기]** | **[!UICONTROL 기존의 모든 데이터 다시 채우기]**&#x200B;를 활성화하여 기존의 모든 데이터를 다시 채웁니다.<br/><br/>특정 기간의 내역 데이터를 다시 채우려면 **[!UICONTROL 다시 채우기 요청]**&#x200B;을 선택합니다. 최대 10개의 데이터 세트 채우기 기간을 정의할 수 있습니다.<ol><li>시작 및 종료 데이터를 입력하거나 ![캘린더](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)를 사용하여 날짜를 선택하여 기간을 정의합니다.</li><li>**[!UICONTROL 대기열 다시 채우기]**&#x200B;를 선택하여 목록에 다시 채우기를 추가하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다.</li></ol>각 항목에 대해 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택하여 기간을 편집하거나 ![삭제](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)를 선택하여 항목을 삭제합니다.<br/><br/>다시 채우기 이후에는<ul><li>각 데이터 세트를 개별적으로 채울 수 있습니다.</li><li>연결하는 데이터 세트에 추가된 새 데이터에 우선순위를 두므로 이 새 데이터의 지연 시간이 가장 짧습니다.</li><li>모든 채우기 (이전) 데이터는 더 느린 속도로 가져옵니다. 내역 데이터의 양은 지연 시간에 영향을 미칩니다.</li><li>Analytics 소스 커넥터는 프로덕션 샌드박스의 경우 (크기에 상관없이) 최대 13개월의 데이터를 가져옵니다. 비프로덕션 샌드박스의 다시 채우기는 3개월로 제한됩니다.</li><li>프로덕션 샌드박스의 경우 13개월 이상의 내역 채우기 데이터를 가져올 수 있는 추가 SKU에 라이선스를 부여한 경우 Adobe에 연락하여 확장된 채우기를 요청하십시오.</li></ul> |
 | **[!UICONTROL 배치 상태]** | 가능한 상태 표시기는 다음과 같습니다.<ul><li>성공</li><li>X 채우기 처리</li><li>꺼짐</li></ul> |
 | **[!UICONTROL 데이터 세트 ID]** | 이 ID는 자동으로 생성됩니다. |
 | **[!UICONTROL 설명]** | 이 데이터 세트가 생성될 때 제공된 설명입니다. |
