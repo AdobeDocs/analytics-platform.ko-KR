@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
+source-git-commit: 578674b3d62a8c31f1ca13e9edbb7e8c14974dc6
 workflow-type: tm+mt
-source-wordcount: '7259'
-ht-degree: 67%
+source-wordcount: '7421'
+ht-degree: 65%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/3409302/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -178,8 +178,8 @@ ht-degree: 67%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -224,8 +224,8 @@ ht-degree: 67%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -243,8 +243,6 @@ ht-degree: 67%
 >id="cja_connection_optionalcontainers"
 >title="선택 가능한 컨테이너"
 >abstract="추가 컨테이너를 선택하십시오.<br/><br/>**[!UICONTROL 글로벌 계정&#x200B;]**: 연결에서 글로벌 계정의 구성을 활성화합니다.<br/>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.<br/>**[!UICONTROL 구매 그룹&#x200B;]**: 연결에서 구매 그룹의 구성을 활성화합니다."
-
-
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -366,6 +364,43 @@ ht-degree: 67%
 >title="연결 맵"
 >abstract="연결 맵은 이벤트, 사용자, 계정 및 관련 조회 데이터 세트(기회, 캠페인 멤버 등) 간의 관계를 시각화합니다."
 
+>[!CONTEXTUALHELP]
+>id="connection_stitching_enable"
+>title="ID 결합 활성화"
+>abstract="ID 결합을 활성화하여 크로스 채널 분석을 위한 이 이벤트 데이터 세트를 향상시킵니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitching_dialog"
+>title="ID 결합 활성화"
+>abstract="ID 결합을 활성화하면 단일 또는 여러 데이터 세트에서 결합된 ID를 파생합니다. 이 프로세스에는 인증된 세션과 인증되지 않은 세션의 사용자 데이터 병합이 포함될 수 있습니다.<br/><br/>관련 법률 및 규정을 준수할 책임이 있습니다. 이러한 규정 준수에는 데이터 세트를 병합하기 전에 필요한 최종 사용자 권한을 얻는다는 내용이 포함됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+>[!CONTEXTUALHELP]
+>id="connection_persistent"
+>title="개인 ID"
+>abstract="사용 가능한 ID에서 영구 ID를 선택합니다. 영구 ID는 이벤트 데이터 세트의 모든 이벤트에서 사용할 수 있는 식별자입니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+>[!CONTEXTUALHELP]
+>id="connection_lookbackwindow"
+>title="전환 확인 기간"
+>abstract="재생 결합에 사용할 전환 확인 기간에 적절한 기간을 선택하십시오."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_map"
+>title="네임스페이스 ID 맵"
+>abstract="ID 맵에서 식별자를 선택하는 데 사용할 네임스페이스를 선택합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_graph"
+>title="네임스페이스 ID 그래프"
+>abstract="ID 그래프에서 식별자를 업데이트하는 데 사용할 네임스페이스를 선택합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
+
+
 ### 데이터 세트 추가
 
 연결을 만들거나 편집할 때 하나 이상의 Experience Platform 데이터 세트를 추가할 수 있습니다.
@@ -414,7 +449,7 @@ ht-degree: 67%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**&#x200B;대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
+1. **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
 
    ![데이터 세트 편집](assets/edit-dataset.png)
 
@@ -575,7 +610,7 @@ ht-degree: 67%
 
 ### 이전 채우기
 
-인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**&#x200B;대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
+인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
 
 ## 데이터 세트 유형 {#dataset-types}
 
@@ -682,6 +717,6 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![공유](/help/assets/icons/Share.svg)
