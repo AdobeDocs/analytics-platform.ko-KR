@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 7a25cd101ecd4ba88ee906e48f80219379c7374e
+source-git-commit: 6d4d6558f8f0ebb6a0885c958fe019d3e5afab4c
 workflow-type: tm+mt
-source-wordcount: '2656'
+source-wordcount: '2677'
 ht-degree: 97%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="새로운 데이터 보기"
->abstract="새로운 데이터 보기를 선택하면 Content Analytics 지표와 차원이 포함되도록 해당 데이터 보기가 업데이트됩니다. 필요한 경우 연관된 연결도 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 현재 Content Analytics에 대해 구성된 연결 및 데이터 보기는 수정되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 이러한 지표 및 차원은 원래 선택한 데이터 보기에서 제거됩니다.<br/><br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 원래 선택한 연결에서 제거되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"

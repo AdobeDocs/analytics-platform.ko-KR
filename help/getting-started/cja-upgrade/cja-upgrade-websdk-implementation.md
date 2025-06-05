@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-js"
->title="Web SDK JavaScript 라이브러리(alloy.js)"
+>title="Web SDK JavaScript 라이브러리 (alloy.js)"
 >abstract="사이트의 각 페이지에 Web SDK 라이브러리(alloy.js)를 포함합니다."
 
 <!-- markdownlint-enable MD034 -->

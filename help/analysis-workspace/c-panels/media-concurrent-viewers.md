@@ -5,7 +5,7 @@ feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/35024/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -130,6 +130,6 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
->[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>>[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+>>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
 >
