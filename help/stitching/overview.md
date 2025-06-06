@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 1a697ce0372d1cb544940778850714a198a000ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 >[!MORELIKETHIS]
 >
 >[필드 기반 결합](fbs.md)
->[그래프 기반 결합](gbs.md)
->[결합 사용](use-stitching.md)
->[결합 유효성 검사](validate.md)
->[결합 FAQ](faq.md)
+>>[그래프 기반 결합](gbs.md)
+>>[결합 사용](use-stitching.md)
+>>[스티칭 검증](validate.md)
+>>[스티칭 FAQ](faq.md)
 

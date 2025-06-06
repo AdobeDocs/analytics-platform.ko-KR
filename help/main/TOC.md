@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
       + [자주 묻는 질문](../getting-started/cja-faq.md)
       + [BI 솔루션과 비교](../getting-started/cja-vs-bi.md)
       + [AI 어시스턴트](../ai-assistant.md)
-      + [데이터 인사이트 에이전트](../data-analysis-ai.md)
+      + [Data Insights 에이전트](../data-analysis-ai.md)
    + Customer Journey Analytics B2B 에디션 {#cja-b2b}
       + [개요](/help/getting-started/cja-b2b-edition.md)
       + [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)
@@ -412,7 +412,7 @@ ht-degree: 98%
    + [그래프 기반 스티칭](/help/stitching/gbs.md)
    + [스티칭 사용](/help/stitching/use-stitching.md)
    + [결합된 데이터 세트 생성 및 관리](/help/stitching/stitching-ui.md)
-   + [결합 검사](/help/stitching/validate.md)
+   + [스티칭 검증](/help/stitching/validate.md)
    + [자주 묻는 질문](/help/stitching/faq.md)
 
 + Adobe 통합 {#integrations}
@@ -434,13 +434,13 @@ ht-degree: 98%
       + [마케팅 채널 차원 사용](../use-cases/aa-data/marketing-channels.md)
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [예제 사용자 기반 B2B 프로젝트](../use-cases/b2b/example.md)
+      + [개인 기반 B2B 프로젝트의 예](../use-cases/b2b/example.md)
       + B2B 에디션 {#b2b-edition}
          + [사용 사례 개요](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
          + [설정](/help/use-cases/b2b/b2b-edition/setup.md)
          + [계정 마케팅 최적화](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
          + [주요 계정 확장](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
-         + [제품 값 작성](/help/use-cases/b2b/b2b-edition/build-product-value.md)
+         + [제품 가치 빌드](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + 복잡한 데이터 {#complex-data}
       + [오브젝트 배열 사용](../use-cases/object-arrays.md)
    + 크로스 채널 데이터 {#cross-channel}

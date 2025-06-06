@@ -5,7 +5,7 @@ exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
 source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
 ht-degree: 100%
 
@@ -207,8 +207,8 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 >[!MORELIKETHIS]
 >
 >[세그먼트 만들기](create-filters.md)
->[세그먼트 빌더](filter-builder.md)
->[빠른 세그먼트](quick-filters.md)
->[순차적 세그먼트](seg-sequential-build.md)
->[세그먼트 관리](manage-filters.md)
+>>[세그먼트 빌더](filter-builder.md)
+>>[빠른 세그먼트](quick-filters.md)
+>>[순차적 세그먼트](seg-sequential-build.md)
+>>[세그먼트 관리](manage-filters.md)
 >

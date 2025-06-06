@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,14 +60,14 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Privacy 및 Security Shield 추가 기능에 라이선스를 부여한 경우 Content Analytics의 적용을 받는 (에서 생성된 모든 데이터) 경험 및 자산은 DULE 레이블 지정 또는 고객 관리 키의 적용을 받지 않습니다. 또한 Content Analytics은 HIPAA에 대비하는 서비스가 아닙니다.
+>개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 콘텐츠 분석의 적용을 받는 경험 및 자산에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다. 또한 콘텐츠 분석은 HIPAA 준수 서비스가 아닙니다.
 >
 
 
 >[!MORELIKETHIS]
 >
 >[콘텐츠 분석 보고](report/report.md)
->[콘텐츠 분석 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>>[콘텐츠 분석 구성](config/configuration.md)
+>>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
