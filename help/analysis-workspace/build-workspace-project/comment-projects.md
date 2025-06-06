@@ -4,9 +4,9 @@ title: 프로젝트의 주석 추가 및 보기
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 5831f1eea0d46000c15d0e2269717816785ee881
+source-git-commit: 02b85db81c384c78f7d388b19c8ad53d0028de43
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ Analysis Workspace의 주석을 사용하면 Analysis Workspace 프로젝트 컨
 
 Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레일의 댓글 영역에 표시됩니다.
 
-1. Analysis Workspace에서 프로젝트를 연 채 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘을 선택합니다.
+1. 기본적으로 주석 영역은 프로젝트를 처음 열 때 Analysis Workspace의 각 프로젝트에 대해 확장됩니다.
+
+   프로젝트의 오른쪽 레일에서 설명 영역 아이콘을 선택하여 설명 영역을 열거나 닫습니다.
 
    ![댓글 영역 닫힘](assets/comments-area-closed.png)
 
@@ -113,11 +115,11 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 @ 기호를 사용하여 댓글에 사용자를 포함할 때는 다음 사항을 고려하십시오.
 
-* 포함된 사람들은 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.png)에서 볼 수 있습니다.
+* 포함된 사람들은 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다.
 
-  또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
+  자세한 내용은 [댓글에 대한 알림 받기](#receive-notifications-about-comments)를 참조하세요.
 
-* 조직의 모든 사용자를 댓글에 포함할 수 있지만, 이렇게 해도 프로젝트에 대한 액세스 권한이 자동으로 부여되지는 않습니다. 이미 프로젝트에 액세스할 수 있는 사람만 액세스할 수 있습니다.
+* 조직에 있고 Customer Journey Analytics에 액세스할 수 있는 모든 사용자를 댓글에 포함할 수 있지만, 이렇게 해도 프로젝트 편집에 대한 액세스 권한이 자동으로 부여되지는 않습니다.
 
 댓글에 다른 사용자를 포함하려면 다음 작업을 수행하십시오.
 
@@ -144,6 +146,12 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 1. (선택 사항) 다른 사람에게 @ 기호 뒤에 해당 이름을 입력하여 댓글에 대해 알립니다. @ 기호를 사용하여 다른 사용자에게 알리는 방법에 대한 자세한 내용은 [댓글에 다른 사용자 포함](#include-others-in-a-comment)을 참조하세요.
 
 1. **[!UICONTROL 제출]**&#x200B;을 선택합니다.
+
+## 댓글에 대한 알림 받기
+
+프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.png)에서 볼 수 있습니다.
+
+또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
 
 ## 기존 댓글에 대한 배지 배치
 
