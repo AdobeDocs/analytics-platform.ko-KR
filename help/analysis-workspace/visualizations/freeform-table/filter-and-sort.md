@@ -4,7 +4,7 @@ title: 테이블 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 99%
@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 
@@ -96,7 +96,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 대상자 세그먼트 사용
 
-자세한 내용은 [세그먼테이션 개요](/help/components/filters/filters-overview.md)를 참조하십시오.
+자세한 내용은 [세그먼테이션 개요](/help/components/segments/seg-overview.md)를 참조하십시오.
 
 ## 테이블 정렬
 

@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
-workflow-type: ht
-source-wordcount: '1473'
-ht-degree: 100%
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
+source-wordcount: '1469'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 패널]** | [패널](/help/analysis-workspace/c-panels/panels.md)은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 테이블과 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. |
 | ![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 가이드 분석]** | [가이드 분석](../guided-analysis/overview.md)을 이용하면 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. Workspace 프로젝트에 포함될 분석을 만들거나 이전에 저장된 기존 분석을 포함할 수 있습니다. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 시각화]** | 막대 또는 선 차트와 같은 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 사용하여 데이터를 시각적으로 생동감 있게 표현할 수 있습니다. 맨 왼쪽 패널에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 시각화의 전체 목록을 확인합니다. |
-| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | [구성 요소](/help/components/overview.md)에는 다음 요소가 포함됩니다.<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [차원](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![세분화](/help/assets/icons/Segmentation.svg) [세그먼트](/help/components/filters/filters-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | [구성 요소](/help/components/overview.md)에는 다음 요소가 포함됩니다.<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [차원](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![세분화](/help/assets/icons/Segmentation.svg) [세그먼트](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차가 프로젝트에 포함된 모든 패널 및 시각화를 축소 가능한 목록으로 구성하면 특정 패널이나 시각화에 빠르게 액세스할 수 있습니다. |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **데이터 사전** | [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)은 사용자와 관리자 모두 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다. |
 
@@ -59,10 +59,10 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 키보드에서 다음 기호를 사용해야 합니다.
 
 - **[!UICONTROL *Shift *]**의 경우**⇧**
-- **[!UICONTROL *Cmd *]**(명령)의 경우**⌘**.
-- **[!UICONTROL *Ctrl *]**(제어)의 경우**⌃**.
-- **[!UICONTROL *Opt *]**(옵션)의 경우**⌥**.
-- **[!UICONTROL *Alt *]**(대체)의 경우**⎇**.
+- **[!UICONTROL *cmd *]**에 대한&#x200B;**⌘**(명령).
+- **[!UICONTROL *ctrl *]**(제어)에 대한&#x200B;**⌃**.
+- **[!UICONTROL *opt *]**용&#x200B;**⌥**(옵션).
+- **[!UICONTROL *alt *]**(대체)에 대한&#x200B;**⎇**.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
@@ -106,7 +106,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |
 |---|---|---|---|
-| **[!UICONTROL 세그먼트 만들기...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+E *]** | 새 [세그먼트](/help/components/filters/create-filters.md)를 만듭니다. |
+| **[!UICONTROL 세그먼트 만들기...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+E *]** | 새 [세그먼트](/help/components/segments/seg-create.md)를 만듭니다. |
 | **[!UICONTROL 지표 만들기...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 새 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만듭니다. |
 | **[!UICONTROL 날짜 범위 만들기...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 새 [날짜 범위](/help/components/date-ranges/overview.md)를 만듭니다. |
 | **[!UICONTROL 주석 만들기...]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 새 [주석](/help/components/annotations/overview.md)을 만듭니다. |

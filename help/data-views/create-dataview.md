@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 33124dca4709a945400be9cab3a614436d8642c8
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2453'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 ### 컨테이너
 
-데이터 보기의 컨테이너 이름을 지정합니다. 컨테이너 이름은 [세그먼트](/help/components/filters/filters-overview.md#Filter-containers)에서 자주 사용됩니다.
+데이터 보기의 컨테이너 이름을 지정합니다. 컨테이너 이름은 [세그먼트](/help/components/segments/seg-overview.md#containers)에서 자주 사용됩니다.
 
 | 설정 | 설명 |
 | --- | --- |

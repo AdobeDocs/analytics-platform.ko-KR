@@ -2,7 +2,7 @@
 title: Customer Journey Analytics의 제품 분석
 description: Customer Journey Analytics 내에서 제품 분석을 효과적으로 수행하기 위해 사용할 수 있는 기능에 대해 알아봅니다.
 exl-id: b185a2ed-18c8-4fb3-8c69-693d5fee0e67
-source-git-commit: 3d8ebd90156f0e44e4c45913a524ed91360dd39e
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 1%
@@ -31,13 +31,13 @@ Customer Journey Analytics은 이러한 기능을 활용하여 제품의 잠재�
 Adobe Experience Platform 및 Customer Journey Analytics의 다음 기능을 통해 제품 데이터를 규모에 맞게 수집 및 관리할 수 있습니다.
 
 * Adobe Experience Platform
-   * [데이터 &#x200B; 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)
+   * [데이터 &#x200B; 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
    * [데이터 &#x200B; 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home)
-   * [데이터 Distiller{&#x200B;1}](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview)
+   * [데이터 Distiller{&#x200B;1}](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [연결 &#x200B;](/help/connections/overview.md)
    * [파생 필드](/help/data-views/derived-fields/derived-fields.md)을(를) 포함한 [데이터 &#x200B; 보기](/help/data-views/data-views.md)
-   * [세그먼트 &#x200B;](/help/components/filters/filters-overview.md)
+   * [세그먼트 &#x200B;](/help/components/segments/seg-overview.md)
    * [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)
    * [안내식 분석&#x200B;: 타임라인 &#x200B;](/help/guided-analysis/types/timeline.md)
 
@@ -99,8 +99,8 @@ Experience Cloud 내의 다음 기능을 사용하면 통찰력에 효과적으�
 * Customer Journey Analytics 활성화를 위해 [대상 만들기 및 게시{&#x200B;1}](/help/components/audiences/publish.md)
 * Experience Cloud 제품을 통해 대상자 활성화:
    * AJO 및 Adobe Target에서 [실험을 실행](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment)하고 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)을 사용하여 Customer Journey Analytics의 변형의 영향을 측정합니다.
-   * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview)&#x200B;
+   * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
+* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview)&#x200B;
 
 ## 조직에 인사이트 &#x200B; 공유
 

@@ -4,10 +4,10 @@ title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 * 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 경고]**&#x200B;를 선택하십시오.
 
-경고 관리자는 [세그먼트 관리자](/help/components/filters/manage-filters.md) 및 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)와 같이 구성되어 있습니다.
+경고 관리자는 [세그먼트 관리자](/help/components/segments/seg-manage.md) 및 [계산된 지표 관리자](/help/components/calc-metrics/cm-workflow/cm-manager.md)와 같이 구성되어 있습니다.
 
 
 ## 경고 관리자
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 ### 경고 목록
 
-경고 목록에는 사용자가 소유한 모든 경고➊, 모든 프로젝트에 범위가 지정된 경고, 사용자와 공유된 경고가 표시됩니다. 목록은 다음과 같습니다.
+경고 목록 ➊에는 사용자가 소유한 모든 경고, 모든 프로젝트에 범위가 지정된 경고, 사용자와 공유된 경고가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
 |---|---|
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 ### 작업 표시줄
 
-작업 표시줄을 사용하여 경고에 대한 작업을 수행할 수 있습니다➋. 작업 표시줄에는 다음 액션이 포함됩니다.
+작업 모음 ➋을(를) 사용하여 경고에 대한 작업을 수행할 수 있습니다. 작업 표시줄에는 다음 액션이 포함됩니다.
 
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
@@ -66,12 +66,12 @@ ht-degree: 21%
 
 ### 활성 필터 표시줄
 
-필터 모음은 ➌ 필터 패널에서 경고 목록(있는 경우)에 적용된 활성 필터를 표시합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 두 개 이상의 필터가 지정되면 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
+필터 표시줄 ➌은(는) 필터 패널에서 경고 목록에 적용된 활성 필터를 표시합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 두 개 이상의 필터가 지정되면 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
 
 
 ### 필터 패널
 
-![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널을 사용하여 경고 목록을 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 특정 필터를 적용하는 경고 수가 표시됩니다.
+![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터]** 왼쪽 패널 ➍을(를) 사용하여 경고 목록을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 특정 필터를 적용하는 경고 수가 표시됩니다.
 
 
 1. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널을 엽니다. 알림 목록에 더 많은 공간이 필요한 경우 ![필터](/help/assets/icons/Filter.svg)를 한 번 더 선택하여 패널을 닫을 수 있습니다.
@@ -98,7 +98,7 @@ ht-degree: 21%
 {{enabledstatusfiltersection}}
 
 
-#### 유형 필터 섹션
+#### 필터 섹션 입력
 
 {{typefiltersection}}
 

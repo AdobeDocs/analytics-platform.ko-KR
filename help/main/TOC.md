@@ -9,8 +9,8 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%
 
@@ -325,20 +325,20 @@ ht-degree: 100%
       + [차원 시간 분할](../components/dimensions/time-parting-dimensions.md)
       + [높은 카디널리티 차원](../components/dimensions/high-cardinality.md)
    + [지표](../components/apply-create-metrics.md)
-   + 세그먼트 {#cja-filters}
-      + [개요](../components/filters/filters-overview.md)
-      + [세그먼트 만들기](../components/filters/create-filters.md)
-      + [세그먼트 작성](../components/filters/filter-builder.md)
-      + [빠른 세그먼트](../components/filters/quick-filters.md)
-      + [순차적 세그먼트](../components/filters/seg-sequential-build.md)
-      + [세그먼트 공유](../components/filters/filters-share.md)
-      + [세그먼트에 태그 지정](../components/filters/filters-tag.md)
-      + [세그먼트 목록 필터링](../components/filters/filters-filter.md)
-      + [세그먼트를 즐겨찾기로 표시](../components/filters/filters-favorite.md)
-      + [세그먼트 승인](../components/filters/filters-approve.md)
-      + [세그먼트 복사](../components/filters/filters-copy.md)
-      + [세그먼트 관리](../components/filters/manage-filters.md)
-      + [연산자](../components/filters/operators.md)
+   + 세그먼트 {#segments}
+      + [개요](/help/components/segments/seg-overview.md)
+      + [세그먼트 만들기](/help/components/segments/seg-create.md)
+      + [세그먼트 작성](/help/components/segments/seg-builder.md)
+      + [빠른 세그먼트](/help/components/segments/seg-quick.md)
+      + [순차적 세그먼트](/help/components/segments/seg-sequential-build.md)
+      + [세그먼트 공유](/help/components/segments/seg-share.md)
+      + [세그먼트에 태그 지정](/help/components/segments/seg-tag.md)
+      + [세그먼트 목록 필터링](/help/components/segments/seg-filter.md)
+      + [세그먼트를 즐겨찾기로 표시](/help/components/segments/seg-favorite.md)
+      + [세그먼트 승인](/help/components/segments/seg-approve.md)
+      + [세그먼트 복사](/help/components/segments/seg-copy.md)
+      + [세그먼트 관리](/help/components/segments/seg-manage.md)
+      + [연산자](/help/components/segments/seg-operators.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [개요](../components/calc-metrics/calc-metr-overview.md)
       + 계산된 지표 워크플로 {#cm-workflow}

@@ -4,7 +4,7 @@ title: 여정 캔버스
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '6225'
 ht-degree: 1%
@@ -297,7 +297,7 @@ ht-degree: 1%
 
 #### 노드 연결 시 논리
 
-여정 캔버스에서 노드를 연결하면 THEN 연산자를 사용하여 연결됩니다. 이를 [순차적인 세그먼트화](/help/components/filters/seg-sequential-build.md)이라고도 합니다.
+여정 캔버스에서 노드를 연결하면 THEN 연산자를 사용하여 연결됩니다. 이를 [순차적인 세그먼트화](/help/components/segments/seg-sequential-build.md)이라고도 합니다.
 
 노드는 &quot;최종 경로&quot;로 연결됩니다. 즉, 방문자는 두 노드 간에 발생하는 모든 이벤트에 관계없이 결국 한 노드에서 다른 노드로 이동하는 한 카운트됩니다. 사용자가 경로를 이동하는 데 할당되는 시간은 컨테이너 설정에 따라 결정됩니다. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
@@ -546,7 +546,7 @@ To change the color of a node or arrow:
 
 여정 내의 노드나 화살표를 기반으로 새 세그먼트를 만들 수 있습니다. 세그먼트가 만들어지면 Analysis Workspace의 어디에서나 사용할 수 있습니다.
 
-여정 캔버스에서 만든 세그먼트는 [순차적 세그먼트](/help/components/filters/seg-sequential-build.md)를 사용합니다. 즉, 세그먼트는 THEN 연산자를 사용하여 사람들이 이동한 이벤트 시퀀스(여정)를 함께 연결하여 선택한 노드 또는 화살표로 이어집니다. 선택한 노드 또는 화살표와 일치하는 모든 이벤트는 세그먼트에 포함됩니다.
+여정 캔버스에서 만든 세그먼트는 [순차적 세그먼트](/help/components/segments/seg-sequential-build.md)를 사용합니다. 즉, 세그먼트는 THEN 연산자를 사용하여 사람들이 이동한 이벤트 시퀀스(여정)를 함께 연결하여 선택한 노드 또는 화살표로 이어집니다. 선택한 노드 또는 화살표와 일치하는 모든 이벤트는 세그먼트에 포함됩니다.
 
 여러 경로가 유입되는 노드를 기반으로 세그먼트를 만드는 경우 모든 경로가 세그먼트에 포함됩니다. 별도의 경로는 OR 연산자로 연결됩니다.
 
@@ -558,7 +558,7 @@ To change the color of a node or arrow:
 
    세그먼트 빌더가 표시됩니다. [!UICONTROL **정의**] 섹션에서 세그먼트 정의는 선택한 노드 또는 화살표와 여정 내의 해당 컨텍스트를 기반으로 만들어집니다.
 
-1. 세그먼트 제목을 지정하고 다른 내용을 변경합니다. 세그먼트 만들기에 대한 자세한 내용은 [세그먼트 빌더](/help/components/filters/filter-builder.md)를 참조하세요.
+1. 세그먼트 제목을 지정하고 다른 내용을 변경합니다. 세그먼트 만들기에 대한 자세한 내용은 [세그먼트 빌더](/help/components/segments/seg-builder.md)를 참조하세요.
 
 1. 세그먼트를 저장하려면 [!UICONTROL **저장**]&#x200B;을 선택하세요.
 

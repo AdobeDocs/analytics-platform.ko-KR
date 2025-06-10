@@ -4,8 +4,8 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
   | ![테이블](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analysis-workspace/visualizations/bar.md) |
-  | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![워크플로](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analysis-workspace/visualizations/c-flow/flow.md) |
@@ -144,10 +144,10 @@ ht-degree: 100%
 
 #### 빠른 세그먼트
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/filters/filter-builder.md)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆의 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/segments/seg-builder.md)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆의 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
 
 
-자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
+자세한 내용은 [빠른 세그먼트](/help/components/segments/seg-quick.md)를 참조하십시오.
 
 ![공개되어 드롭 영역에 드롭된 애드혹 세그먼트](assets/adhoc-segment-filter.png)
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

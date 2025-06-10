@@ -4,8 +4,8 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 ## 세그먼트
 
 * [!UICONTROL 이벤트], [!UICONTROL 개인] 등과 같은 특정 지표 및 차원은 세그먼트화할 수 없습니다.
-* [패널 놓기 영역](/help/analysis-workspace/c-panels/panels.md)에 만든 애드혹 세그먼트는 일종의 빠른 세그먼트입니다. 공개하지 않으면 Workspace 또는 세그먼트 관리자의 왼쪽 패널에 나타나지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/filters/quick-filters.md)를 참조하십시오.
+* [패널 놓기 영역](/help/analysis-workspace/c-panels/panels.md)에 만든 애드혹 세그먼트는 일종의 빠른 세그먼트입니다. 공개하지 않으면 Workspace 또는 세그먼트 관리자의 왼쪽 패널에 나타나지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/components/segments/seg-quick.md)를 참조하십시오.
 
 ## 계산된 지표
 

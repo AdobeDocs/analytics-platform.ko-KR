@@ -4,8 +4,8 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 * 프로젝트의 [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
 * 페이지 매김이 발생하기 전에 각 차원 행에 최대 400개의 행을 표시할 수 있습니다. 첫 번째 열 머리글의 **[!UICONTROL 행]** 옆에 있는 숫자를 선택하면 페이지에 행이 더 많이 표시됩니다. 첫 번째 열 머리글에서 ![ChevronRight](/help/assets/icons/ChevronRight.svg)를 사용하여 다른 페이지로 이동합니다.
 * 행을 추가 구성 요소별로 분류할 수 있습니다. 한 번에 여러 행을 분류하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 끌어다 놓습니다. [분류](/help/components/dimensions/t-breakdown-fa.md)에 대해 자세히 알아보십시오.
-* 행을 [세그먼트화](/help/components/filters/filters-overview.md)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)에서 사용할 수 있습니다.
+* 행을 [세그먼트화](/help/components/segments/seg-overview.md)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)에서 사용할 수 있습니다.
 
 ### 열
 
@@ -113,6 +113,6 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

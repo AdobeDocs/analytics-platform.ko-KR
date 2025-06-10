@@ -4,8 +4,8 @@ title: Analysis Workspace의 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음 작업
 
 ### 프로젝트에 세그먼트 추가
 
-[세그먼트](/help/components/filters/filters-overview.md)를 사용하면 특성이나 특정 상호 작용에 따라 개인, 세션 또는 이벤트의 하위 집합을 식별할 수 있습니다.
+[세그먼트](/help/components/segments/seg-overview.md)를 사용하면 특성이나 특정 상호 작용에 따라 개인, 세션 또는 이벤트의 하위 집합을 식별할 수 있습니다.
 
 Analysis Workspace에서 세그먼트를 다음과 같은 방법으로 사용할 수 있습니다.
 
@@ -103,7 +103,7 @@ Analysis Workspace에서 세그먼트를 다음과 같은 방법으로 사용할
 자유 형식 테이블의 열에 세그먼트를 추가하면 세그먼트가 테이블 열 내의 모든 콘텐츠에 적용됩니다. 또한 폴아웃 시각화의 일부로 세그먼트를 추가할 수도 있습니다.
 
 * 구성요소에서 세그먼트 사용
-[계산된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [주석](/help/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/filters/filter-builder.md)와 같은 구성 요소를 정의할 때 정의의 일부로 세그먼트를 사용할 수 있습니다.
+[계산된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [주석](/help/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segments/seg-builder.md)와 같은 구성 요소를 정의할 때 정의의 일부로 세그먼트를 사용할 수 있습니다.
 
 
 ### 프로젝트에 날짜 범위 추가

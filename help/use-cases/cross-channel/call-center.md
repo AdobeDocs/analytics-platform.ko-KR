@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -69,7 +69,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 이 시각화는 CCA가 데이터를 얼마나 잘 결합하는지 이해하는 데 도움이 됩니다.
 
-1. 두 개의 세그먼트를 만듭니다. 이 두 세그먼트에 사용된 변수는 각 이벤트의 데이터 소스를 반영하는 데 사용한 것과 동일한 변수입니다. 자세한 내용은 [세그먼트 만들기](/help/components/filters/create-filters.md)를 참조하십시오.
+1. 두 개의 세그먼트를 만듭니다. 이 두 세그먼트에 사용된 변수는 각 이벤트의 데이터 소스를 반영하는 데 사용한 것과 동일한 변수입니다. 자세한 내용은 [세그먼트 만들기](/help/components/segments/seg-create.md)를 참조하십시오.
    * 데이터 세트 ID가 웹 데이터와 동일한 개인 컨테이너
    * 데이터 세트 ID가 콜센터 데이터와 같은 개인 컨테이너
 2. Analysis Workspace에서 [벤](/help/analysis-workspace/visualizations/venn.md) 시각화를 작업 영역 캔버스로 드래그합니다.

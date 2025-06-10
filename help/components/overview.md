@@ -5,8 +5,8 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 다음 구성 요소를 관리할 수 있습니다.
 
-* [세그먼트](filters/filters-overview.md): 강력하고 집중적인 대상자 세그먼트를 작성, 관리, 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
+* [세그먼트](segments/seg-overview.md): 강력하고 집중적인 대상자 세그먼트를 작성, 관리, 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
 * [계산된 지표](calc-metrics/calc-metr-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
 * [날짜 범위](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
 * [주석](/help/components/annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
@@ -72,7 +72,7 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
    | ![공유](/help/assets/icons/ShareAlt.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
    | ![삭제](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
 
-사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [세그먼트 관리](/help/components/filters/manage-filters.md)를 참조하십시오.
+사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [세그먼트 관리](/help/components/segments/seg-manage.md)를 참조하십시오.
 
 ## 구성 요소 목록 관리
 
