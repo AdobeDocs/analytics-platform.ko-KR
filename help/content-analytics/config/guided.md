@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 6d4d6558f8f0ebb6a0885c958fe019d3e5afab4c
 workflow-type: tm+mt
 source-wordcount: '2677'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="새로운 데이터 보기"
->abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 이러한 지표 및 차원은 원래 선택한 데이터 보기에서 제거됩니다.<br/><br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 원래 선택한 연결에서 제거되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 원래 선택된 데이터 보기의 이들 지표 및 차원은 제거됩니다.<br/><br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 콘텐츠 분석 데이터 세트는 원래 선택된 연결에서 제거되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
@@ -347,7 +347,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="구현 확인"
->abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 콘텐츠 분석에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>구성된 데이터 수집 설정에 따라 사용자의 사이트 방문 시 캡처되는 페이지의 URL 및</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
+>abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 콘텐츠 분석에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>사용자가 구성한 데이터 수집 설정별로 사용자의 사이트 방문 시 캡처된 페이지의 URL</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

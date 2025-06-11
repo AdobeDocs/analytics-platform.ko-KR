@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -182,38 +182,38 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_custom"
 >title="사용자 정의 레이블"
->abstract="Adobe에서 제공하는 레이블 외에도 조직에 맞는 사용자 정의 레이블을 정의할 수도 있습니다."
+>abstract="Adobe에서 제공하는 레이블 외에도 조직에 대한 사용자 정의 레이블을 정의할 수도 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="약정 레이블"
->abstract="계약(C) 레이블은 계약 의무가 있거나 조직의 데이터 거버넌스 정책과 관련된 데이터를 분류하는 데 사용됩니다."
+>abstract="약정 (C) 레이블은 계약 의무가 있거나 조직의 데이터 거버넌스 정책과 관련된 데이터를 분류하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_identity"
 >title="ID 레이블"
->abstract="ID(I) 레이블은 특정 사용자를 식별하거나 연결할 수 있는 데이터를 분류하는 데 사용됩니다."
+>abstract="ID (I) 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 분류하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
->title="중요 레이블"
->abstract="중요(S) 레이블은 사용자 및 조직에서 중요하다고 간주하는 데이터를 분류하는 데 사용됩니다."
+>title="민감 레이블"
+>abstract="민감 (S) 레이블은 사용자 및 조직에서 민감하다고 간주하는 데이터를 분류하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="파트너 에코시스템"
->abstract="Partner Ecosystem(P) 레이블은 서드파티 파트너와 공유되는 데이터를 분류하는 데 사용됩니다."
+>abstract="파트너 에코시스템 (P) 레이블은 서드파티 파트너와 공유되는 데이터를 분류하는 데 사용됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="정책"
->abstract="데이터 사용 레이블이 데이터 규정 준수를 효과적으로 지원하려면 데이터 사용 정책을 구현해야 합니다. 데이터 사용 정책은 Experience Platform 내에서 데이터에 대해 수행할 수 있거나 수행할 수 없는 마케팅 작업의 종류를 설명하는 규칙입니다. 정책 필터는 활성화된 정책을 데이터 보기에 적용합니다."
+>abstract="데이터 사용 레이블이 데이터 규정 준수를 효과적으로 지원하도록 하려면 데이터 사용 정책을 구현해야 합니다. 데이터 사용 정책은 Experience Platform 내에서 데이터 수행을 허용하거나 제한하는 마케팅 작업 종류를 설명하는 규칙입니다. 정책 필터는 활성화된 정책을 데이터 보기에 적용합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview" text="데이터 사용 레이블 개요"
 
 
