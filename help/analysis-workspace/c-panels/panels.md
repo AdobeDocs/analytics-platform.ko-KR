@@ -5,7 +5,7 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

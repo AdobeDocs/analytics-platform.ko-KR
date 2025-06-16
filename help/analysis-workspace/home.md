@@ -7,9 +7,9 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -58,11 +58,11 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
-- **[!UICONTROL *cmd *]**&#x200B;에 대한&#x200B;**⌘**(명령).
-- **[!UICONTROL *ctrl *]**(제어)에 대한&#x200B;**⌃**.
-- **[!UICONTROL *opt *]**&#x200B;용&#x200B;**⌥**(옵션).
-- **[!UICONTROL *alt *]**(대체)에 대한&#x200B;**⎇**.
+- **[!UICONTROL *Shift *]**의 경우**⇧**
+- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
