@@ -4,9 +4,9 @@ title: 프로젝트의 주석 추가 및 보기
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 02b85db81c384c78f7d388b19c8ad53d0028de43
+source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,15 @@ Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레�
 
 ### 프로젝트에서 주석 배지 보기
 
-프로젝트의 특정 영역에서 [만든 댓글](#comment-on-a-specific-area-of-the-project)에는 댓글과 관련된 프로젝트 영역에 표시되는 **댓글 배지** ![댓글 배지](assets/comment-indicator.png)가 있습니다. 댓글을 보려면 배지를 선택합니다. 배지를 선택한 후 주석 자체를 선택하여 오른쪽 레일의 주석 영역에서 주석을 강조 표시할 수 있습니다.
+프로젝트의 특정 영역에서 [만든 댓글](#comment-on-a-specific-area-of-the-project)에는 댓글과 관련된 프로젝트 영역에 표시되는 **댓글 배지** ![댓글 배지](assets/comment-indicator.svg)가 있습니다. 댓글을 보려면 배지를 선택합니다. 배지를 선택한 후 주석 자체를 선택하여 오른쪽 레일의 주석 영역에서 주석을 강조 표시할 수 있습니다.
 
-숫자는 프로젝트의 각 배지에 표시되며 생성된 순서대로 정렬됩니다. 프로젝트의 동일한 영역에 여러 개의 댓글이 있으면 배지에 세 개의 점 ![댓글 배지 다중](assets/comment-indicator-multiple.png)이 표시됩니다. 3점 배지를 선택하여 해당 영역의 모든 주석을 표시합니다.
+숫자는 프로젝트의 각 배지에 표시되며 생성된 순서대로 정렬됩니다. 프로젝트의 동일한 영역에 여러 개의 댓글이 있으면 배지에 세 개의 점 ![댓글 배지 다중](assets/comment-indicator-multiple.svg)이 표시됩니다. 3점 배지를 선택하여 해당 영역의 모든 주석을 표시합니다.
 
 <!-- Insert screeshot-->
 
 프로젝트에서 모든 주석 배지를 숨기려면 다음을 수행합니다.
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
 1. 댓글 영역의 맨 아래에서 **[!UICONTROL 배치된 배지 숨기기]** 옵션을 활성화합니다.
 
@@ -97,7 +97,7 @@ Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레�
 
 Analysis Workspace에서 프로젝트에 주석을 추가하려면 다음을 수행하십시오.
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다. <!-- add screen shot -->
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다. <!-- add screen shot -->
 
 1. **[!UICONTROL 새 댓글]** 필드에 댓글을 지정합니다.
 
@@ -131,7 +131,7 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 댓글에 회신
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
 1. 회신할 댓글 옆에 있는 **[!UICONTROL 회신]**&#x200B;을 선택합니다.
 
@@ -149,17 +149,17 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 댓글에 대한 알림 받기
 
-프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.png)에서 볼 수 있습니다.
+프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.svg)에서 볼 수 있습니다.
 
-또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
+또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
 
 ## 기존 댓글에 대한 배지 배치
 
 오른쪽 레일의 댓글 영역에서 댓글을 사용할 수 있지만 프로젝트에 아직 배지가 없는 경우 배지를 추가할 수 있습니다.
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
-1. 배지를 넣을 댓글 옆에 있는 자세히 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 배지 배치]**&#x200B;를 선택합니다.
+1. 배지를 넣을 댓글 옆에 있는 자세히 아이콘 ![자세히 아이콘](/help/assets/icons/MoreSmallList.svg)을 선택한 다음 **[!UICONTROL 배지 배치]**&#x200B;를 선택합니다.
 
 1. 기존 댓글에 대한 배지를 배치할 프로젝트 영역을 선택합니다.
 
@@ -191,9 +191,9 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 링크를 댓글에 복사하려면 다음 작업을 수행하십시오.
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
-1. 링크를 복사할 댓글 옆에 있는 더 보기 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 링크 복사]**&#x200B;를 선택합니다.
+1. 링크를 복사할 댓글 옆에 있는 자세히 아이콘 ![자세히 아이콘](/help/assets/icons/MoreSmallList.svg)을 선택한 다음 **[!UICONTROL 링크 복사]**&#x200B;를 선택합니다.
 
    링크가 시스템 클립보드에 복사됩니다. 이메일 또는 다른 유형의 메시지에 링크를 붙여넣을 수 있습니다.
 
@@ -203,15 +203,15 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 주석의 본문 텍스트를 복사하려면 다음을 수행합니다.
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
-1. 복사할 텍스트가 포함된 주석 옆에 있는 추가 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 본문 복사]**&#x200B;를 선택합니다.
+1. 복사할 텍스트가 있는 댓글 옆에 있는 더 보기 아이콘 ![더 보기 아이콘](/help/assets/icons/MoreSmallList.svg)을 선택한 다음 **[!UICONTROL 본문 복사]**&#x200B;를 선택합니다.
 
    주석의 본문이 시스템 클립보드에 복사됩니다.
 
 ## 댓글처럼
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
 1. 보증할 댓글에서 **[!UICONTROL 좋아요]**&#x200B;를 선택합니다.
 
@@ -223,9 +223,9 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 댓글을 삭제하려면
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
-1. 삭제하려는 댓글 옆에 있는 더 보기 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;을 선택합니다.
+1. 삭제하려는 댓글 옆에 있는 더 보기 아이콘 ![더 보기 아이콘](/help/assets/icons/MoreSmallList.svg)을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 삭제]**&#x200B;를 다시 선택하여 삭제를 확인합니다.
 
@@ -235,9 +235,9 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 댓글을 확인하려면:
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](assets/comments-area-icon.png)을 선택합니다.
+1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
 
-1. 해결할 댓글 옆에 있는 추가 아이콘 ![comment-more-icon](assets/comment-more-icon.png)을 선택한 다음 **[!UICONTROL 해결]**&#x200B;을 선택합니다.
+1. 확인하려는 댓글 옆에 있는 자세히 아이콘 ![자세히 아이콘](/help/assets/icons/MoreSmallList.svg)을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
 1. 확인하려면 **[!UICONTROL 해결]**&#x200B;을 다시 선택하십시오.
 
