@@ -5,10 +5,10 @@ feature: Workspace Basics
 title: Workspace 단축키를 사용하는 방법
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -19,10 +19,10 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 키보드에서 다음 기호를 사용해야 합니다.
 
 - **[!UICONTROL ** Shift **]**&#x200B;의 경우 **⇧**
-- **[!UICONTROL ** Cmd **]**(명령)의 경우 **⌘**.
-- **[!UICONTROL ** Ctrl **]**(제어)의 경우 **⌃**.
-- **[!UICONTROL ** Opt **]**(옵션)의 경우 **⌥**.
-- **[!UICONTROL ** Alt **]**(대체)의 경우 **⎇**.
+- **⌘****[!UICONTROL ** Cmd **]**(명령)의 경우.
+- **⌃****[!UICONTROL ** Ctrl **]**(제어)의 경우.
+- **⌥****[!UICONTROL ** Opt **]**(옵션)의 경우.
+- **⎇****[!UICONTROL ** Alt **]**(대체)의 경우.
 
 ## 탐색 작업
 
@@ -35,8 +35,8 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | 구성 요소 창으로 이동 | **[!UICONTROL *Opt + Shift + 3 *]** | **[!UICONTROL *Alt + Shift + 3 *]** |
 | 모든 패널 접기/펼치기 | **[!UICONTROL *Opt + M *]** | **[!UICONTROL *Alt + M *]** |
 | 활성 패널 접기/펼치기 | **[!UICONTROL *Opt + Cmd + M *]** | **[!UICONTROL *Alt + Ctrl + M *]** |
-| 다음 패널로 이동 | **[!UICONTROL *Opt *+ ▶︎]** | **[!UICONTROL *Alt *+ ▶︎]** |
-| 이전 패널로 이동 | **[!UICONTROL *Opt *+ ◀︎]** | **[!UICONTROL *Alt *+ ◀︎]** |
+| 다음 패널로 이동 | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| 이전 패널로 이동 | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## 분석 작업
 
@@ -67,6 +67,13 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | 새 선 그래프 | **[!UICONTROL *Opt + 2 *]** | **[!UICONTROL *Alt + 2 *]** |
 | 새 막대 그래프 | **[!UICONTROL *Opt + 3 *]** | **[!UICONTROL *Alt + 3 *]** |
 | 새 콤보 차트 | **[!UICONTROL *Opt + 4 *]** | **[!UICONTROL *Alt + 4 *]** |
+
+## 패널 작업 이동
+
+| 액션 | 단축키 Mac | 단축키 Windows |
+| --- | --- | --- | 
+| 패널을 위로 이동 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + 위쪽&#x200B;*]** |
+| 패널 아래로 이동 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 민주화 동작
 
