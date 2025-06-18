@@ -163,6 +163,6 @@ ht-degree: 91%
 >[!MORELIKETHIS]
 >
 >[속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)
->>[참여도 지표](participation-metric.md)
+>&#x200B;>[참여도 지표](participation-metric.md)
 >
 
