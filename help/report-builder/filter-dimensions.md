@@ -1,14 +1,14 @@
 ---
-title: Report Builder에서 차원을 필터링하는 방법
+title: Report Builder에서 차원 필터링
 description: Customer Journey Analytics용 Report Builder에서 차원 필터링을 사용하는 방법을 설명합니다
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 97c3b05d4d9661aabcb1b06db7fdf44671a29394
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '995'
 ht-degree: 33%
 
 ---
