@@ -4,10 +4,10 @@ title: 보기 밀도
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: ht
-source-wordcount: '110'
-ht-degree: 100%
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Workspace에서 사용하는 보기.
 
 >[!TAB 크게]
 
-Workspace에서 사용하는 보기.
+가장 확장된 보기가 있는 버전입니다.
 
 ![크게 보기 밀도.](assets/view-density-expanded.png)
 

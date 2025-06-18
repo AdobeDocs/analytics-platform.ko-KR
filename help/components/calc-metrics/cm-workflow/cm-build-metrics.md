@@ -3,7 +3,7 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 95%
@@ -11,8 +11,6 @@ ht-degree: 95%
 ---
 
 # 계산된 지표 작성 {#build-metrics}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
@@ -218,6 +216,5 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 >[!MORELIKETHIS]
 >
 >[함수 사용](cm-using-functions.md)
->&#x200B;>[세그먼트](/help/components/segments/seg-overview.md)
+>>[세그먼트](/help/components/segments/seg-overview.md)
 >
-

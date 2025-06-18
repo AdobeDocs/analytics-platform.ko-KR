@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 90%
+source-wordcount: '2456'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -245,13 +245,17 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 ## 설정 {#dataview-settings}
 
 1. **[!UICONTROL 설정]** 탭을 선택합니다.
+
+   ![데이터 보기 설정](assets/dataview-settings.png)
+
 1. 전체 데이터 보기에 적용할 세그먼트를 구성합니다. 아래 [설정(세그먼트)](#settings-filters)을 참조하십시오.
 1. 세션 시간 제한 및 지표를 구성합니다. 아래 [세션 설정](#session-settings)을 참조하십시오.
+
 1. 신규 또는 기존 데이터 보기 구성을 계속하려면 **[!UICONTROL 저장 후 계속]**&#x200B;을 선택합니다. 기존 데이터 보기 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ### 설정(세그먼트) {#segment-settings}
 
-전체 데이터 보기에 적용되는 세그먼트를 추가할 수 있습니다. 이 세그먼트는 작업 영역에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 목록에서 **[!UICONTROL 세그먼트 추가]** 필드로 세그먼트를 드래그합니다.
+전체 데이터 보기에 적용되는 세그먼트를 추가할 수 있습니다. 이 세그먼트는 작업 영역에서 실행하는 모든 보고서에 적용됩니다. 왼쪽 레일의 구성 요소에서 **[!UICONTROL 세그먼트 추가]** 필드로 세그먼트를 끌어옵니다.
 
 ### 세션 설정
 

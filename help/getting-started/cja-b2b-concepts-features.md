@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B 에디션"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 
 
 # B2B edition 개념 및 기능
-
-{{draft-b2b}}
 
 이 문서에서는 Customer Journey Analytics에서 일반적으로 사용되는 연결, 식별자, 컨테이너 및 데이터 세트와 같은 개념에 대해 설명합니다. 그리고 Customer Journey Analytics B2B edition이 이러한 개념에 추가 기능을 추가하는 방법입니다.
 

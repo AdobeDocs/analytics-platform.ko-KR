@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B 에디션"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 계정 마케팅 최적화
-
-{{draft-b2b}}
 
 효과적인 계정 기반 마케팅을 위해서는 계정 수준에서 구매 여정에 대한 깊은 이해가 필요합니다. 따라서 거래를 성사시키는 데 가장 영향력 있는 마케팅 활동을 결정할 수 있습니다.
 

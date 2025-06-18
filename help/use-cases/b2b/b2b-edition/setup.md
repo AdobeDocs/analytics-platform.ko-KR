@@ -6,22 +6,20 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B 에디션"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # B2B edition 사용 사례 설정
 
-{{draft-b2b}}
-
 이 문서에서는 다음 사용 사례를 지원하기 위한 Customer Journey Analytics B2B edition의 일반적인 설정을 다룹니다.
 
 * [계정 마케팅 최적화](optimize-account-marketing.md)
 * [주요 계정 확장](grow-key-accounts.md)
-* [제품 값 작성](build-product-value.md)
+* [제품 가치 빌드](build-product-value.md)
 
 
 >[!NOTE]

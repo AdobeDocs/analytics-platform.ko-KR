@@ -4,9 +4,9 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '661'
+source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+workflow-type: tm+mt
+source-wordcount: '663'
 ht-degree: 100%
 
 ---
@@ -92,9 +92,17 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
 {{attribution-models-details}}
 
+## 컨테이너
+
+{{attribution-container}}
+
 ## 전환 확인 기간
 
 {{attribution-lookback-window}}
+
+## 예
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

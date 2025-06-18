@@ -6,16 +6,14 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B 에디션"
 exl-id: d0e6398b-8080-4e36-b178-0cb91945d0c5
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 전환 안내서
-
-{{draft-b2b}}
 
 이 안내서에서는 Customer Journey Analytics에서 Customer Journey Analytics의 B2B edition으로 전환하는 방법에 대해 설명합니다.
 

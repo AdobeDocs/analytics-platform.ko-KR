@@ -3,7 +3,7 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
+source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 21%
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 계산된 지표를 승인하려면 다음을 수행하십시오.
 
-1. [계산된 지표 관리자](cm-approving.md)에서 승인할 계산된 지표 중 하나 이상을 선택합니다.
+1. [계산된 지표 관리자](cm-manager.md)에서 승인할 계산된 지표 중 하나 이상을 선택합니다.
 1. 작업 표시줄에서 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]**&#x200B;을 선택합니다. 승인된 계산된 지표는 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)(으)로 표시됩니다.
 
 계산된 지표의 승인을 취소하려면 다음 작업을 수행하십시오.

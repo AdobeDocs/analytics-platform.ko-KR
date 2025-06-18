@@ -6,8 +6,8 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B 에디션"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
-workflow-type: ht
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -17,8 +17,6 @@ ht-degree: 100%
 # Customer Journey Analytics B2B 에디션
 
 {{b2b-edition}}
-
-{{draft-b2b}}
 
 Adobe Analytics는 마케터를 위한 웹 및 디지털 분석 도구로 시작했으며, Customer Journey Analytics는 다중 채널, 오프라인 및 크로스 플랫폼 데이터를 포함하도록 범위를 확장했습니다.  두 도구 모두 기업 대 소비자(B2C) 기업의 마케팅 활동과 고객 경험을 분석하고 최적화하는 데 도움이 됩니다. **개인 기반 보고 및 분석**&#x200B;에 집중: 고객이 여러 채널을 통해 브랜드와 상호 작용하는 개인이라는 전제 하에 고객 여정을 이해하는 것이 중요합니다.
 
