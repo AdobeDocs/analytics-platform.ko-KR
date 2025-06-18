@@ -3,49 +3,46 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: df8a10c674ed64d0341209fbe0a700a5c94b3b75
-workflow-type: ht
-source-wordcount: '1093'
-ht-degree: 100%
+source-git-commit: 216b44907c8af1194ee010ae830ccd4d21ccfbf4
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 71%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2025년 5월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2025년 6월)
 
-**마지막 업데이트**: 2025년 5월 22일
+**마지막 업데이트**: 2025년 6월 18일 목요일
 
 
-이번 릴리스 정보에는 2025년 4월 22일부터 6월 18일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2025년 6월 2일 화요일부터 2025년 7월 15일 수요일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Experience Platform에 스트리밍 미디어 데이터를 수집하기 위한 업데이트된 XDM 필드** | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때, 스트리밍 미디어 매개변수 설명서의 “XDM 필드 경로” 제목 아래에 표시된 XDM 필드 경로는 더 이상 사용해서는 안 됩니다. 이러한 필드 경로는 다음 페이지에서 찾을 수 있으며 “더 이상 사용되지 않음”으로 표시됩니다. [오디오 및 비디오 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/quality-parameters). <p>대신, 고객은 위에서 언급한 스트리밍 미디어 매개변수 설명서의 “XDM 필드 경로 보고” 제목에 표시된 대로 `mediaReporting` 필드 경로로 마이그레이션해야 합니다.<p>3개월의 전환 기간 동안, 사용되지 않는 XDM 필드 경로에 대한 데이터 수집이 계속됩니다. 그러나 2025년 7월 말부터는 사용되지 않는 필드 경로가 완전히 제거되고, Adobe Experience Platform 스키마 UI에서 더 이상 표시되지 않으며, 데이터는 `mediaReporting` 필드 경로만 사용하여 전송됩니다.<p>2025년 4월 22일 이전에 플랫폼으로 스트리밍 미디어 데이터를 수집하기 위해 Analytics 소스 커넥터를 구현한 고객은 새 필드 경로를 사용하도록 기존 구성을 마이그레이션해야 합니다. 이 마이그레이션은 2025년 7월 말까지 완료되어야 합니다. 마이그레이션 지원에 대해서는 Adobe Consulting 서비스 또는 계정 팀에 문의해 주십시오. 2025년 4월 22일 이후 Analytics 소스 커넥터를 구현하는 고객은 아무런 조치도 취할 필요가 없습니다.</p> |  | 2025년 4월 22일 |
-| **스티칭: XDM IdentityMap에서 영구 ID 및 임시 ID 가져오기** | 이 기능은 스티칭 프로세스에서 XDM identityMap에 저장된 ID를 사용할 수 있도록 지원합니다. identityMap은 필드 기반 스티칭의 영구 또는 임시 ID로 사용할 수 있으며 그래프 기반 스티칭의 영구 ID로 사용할 수 있습니다. identityMap에서 특정 네임스페이스나 기본 ID를 사용할 수 있습니다. [여기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/fbs#identitymap) 및 [여기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/gbs#identitymap)에서 자세히 알아보십시오. |  | 2025년 4월 28일 |
-| **데이터 보기 전반에 공유된 지표 및 차원** | 여러 데이터 보기에 차원 및 지표 설정을 적용할 수 있습니다. 공유 차원 또는 지표에 적용되는 변경 사항은 모든 해당 데이터 보기 전반에 걸쳐 해당 차원 또는 지표의 모든 인스턴스에 적용됩니다. 이 인터페이스를 사용하면 다수의 데이터 보기가 사용되는 경우 Customer Journey Analytics 관리자가 구성 요소를 더 쉽게 관리할 수 있습니다. [자세히 알아보기](/help/data-views/shared-metrics-dimensions/smd-overview.md) |  | 2025년 4월 30일 |
-| **전체 테이블 내보내기 한도 증가** | Adobe는 고객이 [전체 테이블 내보내기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/export/export-cloud#comparison-of-full-table-export-in-customer-journey-analytics-to-data-warehouse-in-adobe-analytics)에 사용할 수 있는 열 수가 5개 차원과 5개 지표에서 10개 차원과 10개 지표로 늘렸습니다. 이는 모든 Customer Journey Analytics 계층에 적용됩니다. 내보낼 수 있는 행 수에 대한 권한에는 변경 사항이 없습니다. |  | 2025년 4월 30일 |
-| **이벤트 심도 차원** | 데이터 보기의 필수 표준 구성 요소 목록에 새로운 [이벤트 심도 차원](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-reference#required-standard-components)이 추가되었습니다. |  | 2025년 5월 8일 |
-| **전체 테이블을 내보낼 때 매니페스트 파일 비활성화** | Analysis Workspace에서 전체 테이블을 내보낼 때 기본적으로 포함되는 매니페스트 파일을 비활성화할 수 있습니다. [자세히 알아보기](/help/analysis-workspace/export/export-cloud.md) |  | 2025년 5월 20일 |
-| **Data Insights 에이전트** | Customer Journey Analytics의 AI 어시스턴트 중 하나인 Data Insights 에이전트는 생성형 AI 대화 에이전트입니다. Analysis Workspace에서 관련 시각화를 빌드함으로써 데이터 보기 및 실제 데이터의 구성 요소를 활용하여 데이터에 대한 질문에 빠르고 효율적으로 답변합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) |  | 2025년 5월 28일 |
-| **Double 유형 차원의 경우 차원 형식은 기본적으로 2로 설정** | Double 데이터 유형이 있는 스키마의 경우 차원 형식은 이제 기본적으로 소수점 이하 두 자리로 지정됩니다. 이 숫자를 소수점 0~5자리로 변경할 수 있습니다.<p>이전에는 형식이 소수점 이하 자릿수 0개로 기본 설정되었습니다.</p><p>이는 Analysis Workspace 보고서에서 Double 유형 차원을 사용하는 경우에는 기본적으로 소수 자릿수가 표시되지 않는다는 것을 의미합니다. 이제 동일한 보고서에 소수점 이하 두 자리까지 표시됩니다.</p><p>Double 유형 차원에 대해 표시되는 소수 자릿수를 업데이트하는 방법에 대한 자세한 내용은 [포맷 구성 요소 설정](/help/data-views/component-settings/format.md)을 참조하십시오.</p> | | 2025년 5월 29일 |
 | **Analysis Workspace 왼쪽 패널이 더 이상 마우스를 올려도 열리거나 닫히지 않음** | Analysis Workspace의 왼쪽 패널은 구성 요소, 패널, 시각화와 같은 항목을 프로젝트에 추가하는 데 사용됩니다. 왼쪽에 있는 아이콘 중 하나에 마우스를 올려 놓으면 왼쪽 패널이 일시적으로 열리는 옵션은 더 이상 제공되지 않습니다. 대신 이들 아이콘 중 하나를 클릭하여 패널을 열어 두고, 같은 아이콘을 클릭하여 패널을 닫으십시오. |  | 2025년 6월 2일 <p>(원래 2025년 5월 29일 릴리스로 계획됨)</p> |
 | **Customer Journey Analytics B2B 에디션** | Customer Journey Analytics B2B 에디션은 매출 성장을 촉진하는 실행 가능한 계정 인사이트를 제공하여 B2B 기업이 마케팅, 영업 및 제품 팀을 조정할 수 있도록 지원합니다. 데이터 모델의 중심에 계정을 두면 모든 분석은 계정 여정에 집중됩니다. 개인 및 시간 기반 이벤트 위에 새로운 계층의 엔티티(계정, 기회, 구매 그룹)를 추가하면 B2B 마케팅 및 수익 라이프사이클에 대한 전체적인 그림이 만들어집니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition) |  | 2025년 6월 18일 |
+| **Report Builder에서 보안 대상 지원** | 새로운 내보내기 대상이 Report Builder 추가 기능에 추가되었습니다. 지원되는 클라우드 스토리지 대상은 다음과 같습니다. <ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul> (참조할 설명서 링크) |  | 2025년 6월 18일 |
+| **새 미리 보기 환경** | 세그먼트, 계산된 지표 등을 미리 보는 데 사용되는 미리보기 패널에서 이제 도넛 시각화 대신 가로 막대 시각화를 사용합니다. |  | 2025년 6월 18일 |
+| **수정된 속성 모델 대화 상자** | 이제 속성 모델 대화 상자에서 컨테이너와 기간을 별도로 정의할 수 있습니다. |  | 2025년 6월 18일 |
+| **연결 맵** | 새 [연결 맵 인터페이스](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#connection-map)를 사용하여 연결 구성을 시각적으로 표시할 수 있습니다. |  | 2025년 6월 18일 |
 | **Analysis Workspace 프로젝트에 댓글 추가 및 보기** | Analysis Workspace에 새롭게 추가된 [댓글 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)을 통해 Analysis Workspace 프로젝트의 컨텍스트 내에서 인사이트를 공유하고 질문할 수 있습니다. 이 기능은 논의 중인 데이터의 컨텍스트 내에서 대화를 유지함으로써 데이터 관련 논의를 간소화할 수 있도록 합니다. 다음과 같은 작업을 수행할 수 있습니다. <ul><li>액세스 권한이 있는 Analysis Workspace 프로젝트에서 댓글 달기</li><li>시각화 내 특정 지점에 대해 댓글을 달거나 프로젝트 전반에 대한 일반적인 댓글 달기</li><li>다른 사용자를 태그하여 댓글에 대한 알림 전송</li><li>기존 댓글 관리 (편집, 고정, 해결 등)</li></ul>Customer Journey Analytics의 관리자는 [조직 수준에서 댓글 기능을 비활성화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)할 수 있습니다. 프로젝트 소유자는 [프로젝트 수준에서 댓글 기능을 비활성화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)할 수 있습니다. |  | 2025년 6월 25일 <p>(원래 2025년 5월 29일 릴리스로 계획됨)</p> |
+| **Chrome 사전 렌더링 지원** | Chrome이 페이지를 미리 렌더링할 때 데이터 수집 라이브러리가 작동하는 방식을 제어합니다. (참조할 설명서 링크) |  | 2025년 6월 30일 화요일 |
 
 ## Customer Journey Analytics의 수정 사항
 
-**Analysis Workspace**: AN-361874; AN-371360; AN-373079; AN-374382; AN-374447; AN-375277; AN-375680
-**대상자**: AN-372343
-**감사 로그**: AN-378168
-**연결**: AN-373121; AN-372996
-**데이터 삭제**: AN-375450
-**파생 필드**: AN-373689; AN-377852
-**내보내기 위치**: AN-374167
-**여정 캔버스**: AN-373319
-**Report Builder**: AN-369786
-**보고**: AN-377326; AN-378051
-**활동 관리자 보고**: AN-377148
+**경고**: AN-379554
+**Analysis Workspace**: AN-339607; AN-379222; AN-381138; AN-383291
+**B2B**: AN-376028
+Tableau용 **BI 확장**: AN-377488
+**구성 요소**: AN-376174
+**데이터 보기**: AN-379011
+**위치 내보내기**: AN-382191
+**전체 테이블 내보내기**: AN-375646; AN-376986; AN-380355; AN-381310
+**여정 캔버스**: AN-375865; AN-378011
+**Report Builder**: AN-369786; AN-371395; AN-372809
+**보고**: AN-372615; AN-378578;
 
 
 ## Customer Journey Analytics 관리자에 대한 중요 공지
@@ -57,7 +54,7 @@ ht-degree: 100%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
