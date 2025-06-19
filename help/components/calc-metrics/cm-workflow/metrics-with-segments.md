@@ -3,9 +3,9 @@ description: 개별 지표를 세그먼트화하면 동일한 보고서 내에�
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 총계
 
-1. 총계를 기반으로 두 개의 새 세그먼트를 만듭니다. 이전에 만든 각 세그먼트를 열고, 세그먼트 이름을 바꾸고, **[!UICONTROL 사람]**&#x200B;에 대한 **[!UICONTROL 지표 유형]**&#x200B;을(를) **[!UICONTROL 총계]**(으)로 설정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을(를) 사용하여 새 이름으로 세그먼트를 저장합니다. 예:
+1. 총계를 기반으로 두 개의 새 계산된 지표를 만듭니다. 이전에 만든 각 세그먼트를 열고, 세그먼트 이름을 바꾸고, **[!UICONTROL 사람]**&#x200B;에 대한 **[!UICONTROL 지표 유형]**&#x200B;을(를) **[!UICONTROL 총계]**(으)로 설정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을(를) 사용하여 새 이름으로 세그먼트를 저장합니다. 예:
 
    ![독일의 총 지표](assets/calculated-metric-germany-total.png)
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://video.tv.adobe.com/v/32607?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 

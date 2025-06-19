@@ -3,9 +3,9 @@ description: 계산된 지표 관리자를 사용하여 공유, 필터링, 태�
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 29%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 29%
 계산된 지표 관리자에는 다음 인터페이스 요소가 있습니다.
 
 
-![필터 인터페이스](assets/calculated-metrics-manager.png)
+![계산된 지표 관리자 인터페이스](assets/calculated-metrics-manager.png)
 
-### 필터 목록
+### 계산된 지표 목록
 
-필터 목록 ➊에는 사용자가 소유하거나 사용자와 공유된 모든 계산된 지표가 표시됩니다. 목록은 다음과 같습니다.
+계산된 지표 목록 ➊에는 사용자가 소유하거나 사용자와 공유된 모든 계산된 지표가 표시됩니다. 목록은 다음과 같습니다.
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 

@@ -3,7 +3,7 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 계산된 지표 공유
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 [계산된 지표 관리자](cm-manager.md)에서 계산된 지표를 공유할 수 있습니다. 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 계산된 지표를 공유할 수 있습니다.
 
 * **관리자**: 관리자는 전체 조직, 조직 내 그룹 및 개별 사용자와 계산된 지표를 공유할 수 있습니다. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-products.html)를 참조하십시오.
-* **관리자가 아닌 사용자**: 관리자가 아닌 사용자는 자신이 만든 계산된 지표만 개별 사용자와 공유할 수 있습니다. |
+* **관리자가 아닌 사용자**: 관리자가 아닌 사용자는 자신이 만든 계산된 지표만 개별 사용자와 공유할 수 있습니다.
 
 하나 이상의 계산된 지표를 공유하려면 다음을 수행하십시오.
 

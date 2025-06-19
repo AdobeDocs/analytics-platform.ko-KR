@@ -3,10 +3,10 @@ description: 계산된 지표를 만드는 방법을 알아봅니다.
 title: 계산된 지표 만들기
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 44%
+source-wordcount: '383'
+ht-degree: 25%
 
 ---
 
@@ -29,15 +29,19 @@ ht-degree: 44%
 
 새 계산된 지표를 정의하려면 [계산된 지표 빌더](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)를 사용합니다.
 
-계산된 지표를 만드는 데 필요한 절차를 알아봅니다.
+
+## 워크플로
+
+계산된 지표를 만들기 전에 다음 워크플로를 신중하게 고려하십시오.
 
 | 워크플로 작업 | 설명 |
 | --- | --- |
 | 계산된 지표 계획 | 특히 공식적으로 &quot;승인&quot;될 지표의 경우, 어느 계산된 지표가 광범위하게 사용되고 어떻게 정의될 것인지를 개괄하는 것이 좋습니다. |
-| [계산된 지표](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) 작성 | [!DNL Customer Journey Analytics] 구성 요소에서 사용할 계산 및 고급 계산된 지표를 작성하고 편집합니다. |
-| [&#128279;](cm-tagging.md)계산된 지표에 태그 지정 | 편리한 구성 및 공유를 위해 계산된 지표에 태그를 지정합니다. 단순 및 고급 검색 및 조직에 대해 태그를 계획하고 할당하는 방법을 참조하십시오. |
-| [&#128279;](cm-approving.md)계산된 지표 승인 | 계산된 지표를 승인하여 표준으로 지정합니다. |
-| 계산된 지표 적용 | 보고서에서 또는 지표 선택기(액세스하려면 [!UICONTROL 지표 표시]를 클릭)에서 바로 지표를 적용할 수 있습니다. |
-| 계산된 지표 필터링 | 지표 선택기에서 [!UICONTROL 고급 선택]을 클릭하고 태그, 소유자 및 기타 필터(모두 표시, 내 소유, 나와 공유, 즐겨찾기 및 승인됨)로 필터링하십시오. |
-| 계산된 지표를 [즐겨찾기](cm-finding.md)로 표시 | 지표를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다. |
+| [빌드](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) 계산된 지표 | [!DNL Customer Journey Analytics] 구성 요소에서 사용할 계산 및 고급 계산된 지표를 작성하고 편집합니다. |
+| [태그](cm-tagging.md) 계산된 지표 | 편리한 구성 및 공유를 위해 계산된 지표에 태그를 지정합니다. 단순 및 고급 검색 및 조직에 대해 태그를 계획하고 할당하는 방법을 참조하십시오. |
+| [승인](cm-approving.md) 계산된 지표 | 계산된 지표를 승인하여 표준으로 지정합니다. |
+| 계산된 지표 사용 | 프로젝트에서 계산된 지표를 사용합니다. |
+| [계산된 지표 공유](cm-sharing.md) | 계산된 지표를 다른 개인, 그룹 또는 조직과 공유합니다. |
+| [계산된 지표 ](cm-filter.md)개 필터링 | 태그, 소유자 및 기타 필터(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)로 계산된 지표를 필터링합니다. |
+| 계산된 지표를 [즐겨찾기](cm-finding.md)(으)로 표시 | 지표를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다. |
 

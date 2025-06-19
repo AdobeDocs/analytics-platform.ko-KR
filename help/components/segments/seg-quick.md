@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/345340/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -107,6 +107,6 @@ ht-degree: 92%
 세그먼트는 빠른 세그먼트에 비해 다음과 같은 장점이 있습니다.
 
 * 모든 Workspace 프로젝트에서 세그먼트를 사용할 수 있습니다.
-* 세그먼트가 중첩되고 계층적 컨테이너를 사용하여 더 많은 복잡성을 지원하고 시퀀스(시퀀스 세그먼트 사용)를 사용합니다.
+* 세그먼트는 중첩된 계층형 [컨테이너](seg-builder.md#containers) 및 시퀀스([순차적 세그먼트](seg-sequential-build.md) 사용)를 사용하여 더 많은 복잡성을 지원합니다.
 
 
