@@ -4,9 +4,9 @@ title: 프로젝트의 주석 추가 및 보기
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Analysis Workspace의 주석을 사용하면 Analysis Workspace 프로젝트 컨
 
 ### 주석 영역에서 주석 보기
 
-Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레일의 댓글 영역에 표시됩니다.
+Analysis Workspace 프로젝트에서 작성한 모든 댓글은 오른쪽 레일의 댓글 영역에 표시됩니다. 총 기존 댓글 수가 댓글 아이콘에 표시됩니다.
 
 1. 기본적으로 주석 영역은 프로젝트를 처음 열 때 Analysis Workspace의 각 프로젝트에 대해 확장됩니다.
 
@@ -131,13 +131,15 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 댓글에 회신
 
-1. Analysis Workspace에서 프로젝트를 연 상태에서 Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택합니다.
+1. Analysis Workspace에서 댓글을 추가할 프로젝트를 엽니다.
 
-1. 회신할 댓글 옆에 있는 **[!UICONTROL 회신]**&#x200B;을 선택합니다.
+1. Analysis Workspace의 오른쪽 레일에서 댓글 영역 아이콘 ![댓글 영역 아이콘](/help/assets/icons/Comment.svg)을 선택한 다음 회신할 댓글 옆에 있는 **[!UICONTROL 회신]**&#x200B;을 선택합니다.
+
+   답글을 달 댓글의 텍스트를 따옴표로 묶은 상태로 포함하려면 답글을 달 특정 댓글 또는 답글 옆에 있는 점 3개를 선택한 다음 **[!UICONTROL 답글 인용]**&#x200B;을 선택합니다. 견적 회신은 댓글이 가리키는 댓글 또는 답변을 표시하는 좋은 방법입니다.
 
    또는
 
-   답글을 달 댓글의 텍스트를 따옴표로 묶은 상태로 포함하려면 답글을 달 특정 댓글 또는 답글 옆에 있는 점 3개를 선택한 다음 **[!UICONTROL 답글 인용]**&#x200B;을 선택합니다. 견적 회신은 댓글이 가리키는 댓글 또는 답변을 표시하는 좋은 방법입니다.
+   댓글이 작성된 패널 또는 시각화에서 댓글 아이콘을 선택한 다음 **[!UICONTROL 회신]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 새 댓글]** 필드에 댓글을 지정합니다.
 
@@ -149,9 +151,9 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 댓글에 대한 알림 받기
 
-프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.svg)에서 볼 수 있습니다.
+프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.svg)에서 볼 수 있습니다.
 
-또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
+또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
 
 ## 기존 댓글에 대한 배지 배치
 
