@@ -4,10 +4,10 @@ title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,13 +49,6 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 Customer Journey Analytics의 전체 표준 지표 목록:
 {{standard-metrics}}
 
-## 다양한 속성 모델과 지표 비교
-
-지표에 대해 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 해당 지표에 대한 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
-
-![속성 모델 비교를 강조 표시하는 Workspace 패널](assets/compare-attribution.png)
-
-이 바로 가기를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 비교할 수 있습니다.
 
 ## 계산된 지표 만들기
 
@@ -65,9 +58,7 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
 ### 모든 프로젝트에 대해 계산된 지표 만들기
 
-계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다.
-
-계산된 지표 빌더에 액세스하는 방법에 대한 자세한 내용은 [계산된 지표 만들기](/help/components/calc-metrics/cm-workflow/cm-workflow.md)를 참조하십시오.
+[계산된 지표 빌더](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)를 사용하여 [계산된 지표를 만듭니다](/help/components/calc-metrics/cm-workflow/cm-workflow.md). 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다.
 
 ### 단일 프로젝트에 대해 계산된 지표 만들기
 
@@ -113,6 +104,13 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
    * [!UICONTROL **백분율 변경**]: 선택한 두 열 사이의 백분율 변경을 표시하는 새 열을 만듭니다.
 
-[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR) (3:42)
+
+## 다양한 속성 모델과 지표 비교
+
+지표에 대해 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 해당 지표에 대한 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
+
+![속성 모델 비교를 강조 표시하는 Workspace 패널](assets/compare-attribution.png)
+
+이 바로 가기를 사용하면 지표를 드래그하여 두 번 구성하지 않고 한 가지 속성 모델을 다른 모델과 비교할 수 있습니다.
 
 
