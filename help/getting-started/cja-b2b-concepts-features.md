@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B 에디션"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Customer Journey Analytics B2B edition의 계정 기반 연결 예:
 Customer Journey Analytics B2B edition은 [연결 맵](/help/connections/create-connection.md#connection-map) 인터페이스를 제공하여 연결에 있는 데이터 세트 간의 관계에 대한 개요를 제공합니다.
 
 
-Customer Journey Analytics과 마찬가지로 이벤트 기반 시계열 데이터는 Customer Journey Analytics B2B edition의 핵심입니다. 계정 기반 연결의 주요 차이점은 이벤트 데이터 세트의 모든 레코드에 개인 ID 대신 계정 ID가 필요하다는 것입니다.
+Customer Journey Analytics과 마찬가지로 이벤트 기반 시계열 데이터는 Customer Journey Analytics B2B edition의 핵심입니다. 계정 기반 연결의 주요 차이점은 이벤트 데이터 세트에 있는 모든 레코드에 개인 ID 대신 계정 ID가 필요하다는 것입니다.
 
 Customer Journey Analytics B2B edition에서 계정 기반 연결에 대해 [데이터 세트 설정](/help/connections/create-connection.md#dataset-settings)을 구성할 때 일부 설정에 사용할 수 있는 옵션은 [데이터 세트 유형](/help/connections/create-connection.md#dataset-types)에 따라 다릅니다. 예를 들어 다음을 수행해야 합니다.
 
@@ -121,5 +121,5 @@ Customer Journey Analytics B2B edition에서 계정 기반 연결에 대해 [데
 
 ## 개인 및 계정 기반 데이터 보고
 
-사용자 기반 컨테이너(및 개인 ID)와 계정 기반 컨테이너(및 계정 ID)에 대해 보고하려면 Customer Journey Analytics 내에서 두 개의 개별 연결을 설정해야 합니다. 개인을 기본 ID로 선택하는 연결과 계정을 기본 ID로 선택하는 연결입니다. Customer Journey Analytics은 단일 컨테이너 계층에서 개인 기반 및 계정 기반 보고를 지원하지 않습니다.
+사용자 기반 컨테이너(및 개인 ID)와 계정 기반 컨테이너(및 계정 ID)에 대해 보고하려면 Customer Journey Analytics 내에서 두 개의 개별 연결을 설정해야 합니다. 개인을 기본 ID로 선택하는 연결 하나와 계정을 기본 ID로 선택하는 연결 하나. Customer Journey Analytics은 단일 컨테이너 계층에서 개인 기반 및 계정 기반 보고를 지원하지 않습니다.
 

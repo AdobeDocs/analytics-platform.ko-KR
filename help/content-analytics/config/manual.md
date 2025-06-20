@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 70%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Content Analytics 확장 기능에서 변경 사항을 적용한 후에는
 >[!MORELIKETHIS]
 >
 >[가이드 구성](guided.md)
->[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+>>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -87,3 +87,45 @@ window.adobe.getContentExperienceVersion = () => {
   return "1.0";
 };
 ```
+
+## ID
+
+Content Analytics은 다음과 같은 방식으로 ID를 처리합니다.
+
+* ECID는 Content Analytics 스키마의 `identityMap` 부분에 자동으로 채워집니다.
+* `identityMap`에 다른 ID 값이 필요한 경우 Web SDK 확장 내의 `onBeforeEventSend` 콜백에서 이러한 값을 설정해야 합니다.
+* 스키마가 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
+
+
+Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"} 콜백 전에 웹 SDK [on을(를) 수정해야 합니다.
+
+1. Adobe Experience Platform Web SDK 확장 및 Adobe Content Analytics 확장이 포함된 **[!UICONTROL 태그]** 속성으로 이동합니다.
+1. ![플러그](/help/assets/icons/Plug.svg) **[!UICONTROL 확장]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Adobe Experience Platform Web SDK]** 확장을 선택하십시오.
+1. **[!UICONTROL 구성]**&#x200B;을 선택합니다.
+1. **[!UICONTROL SDK 인스턴스]** 섹션에서 아래로 스크롤하여 **[!UICONTROL 데이터 수집]** - **[!UICONTROL 이벤트 전송 콜백 전 켜기]**&#x200B;로 이동합니다.
+
+   ![이벤트 전송 콜백 전 ](/help/content-analytics/assets/onbeforeeventsendcallback.png)
+
+1. 이벤트 전송 콜백 코드&#x200B;]**전에**[!UICONTROL &lt;/> 제공 기능을 선택합니다.
+1. 다음 코드를 추가합니다.
+
+   ```javascript
+   window.adobeContentAnalytics?.forwardEvent(content);
+   
+   content.xdm.identityMap = _satellite.getVar('identityMap');
+   if ((content.xdm.eventType === "content.contentEngagement") && (_satellite.getVar('identityMap') != null)) {
+      return true;
+   }
+   ```
+
+   ![이벤트 전송 콜백 전 ](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
+
+1. **[!UICONTROL 저장]**&#x200B;을 선택하여 코드를 저장합니다.
+1. 확장을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. 태그 속성에 대한 업데이트를 [게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
+
+
+
+
+

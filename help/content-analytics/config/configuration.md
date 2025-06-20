@@ -5,16 +5,21 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 85%
 
 ---
 
 # 콘텐츠 분석 구성
 
-콘텐츠 분석 구성은 다음 단계로 구성됩니다.
+이 문서에서는 Content Analytics 구성 방법에 대해 자세히 설명합니다.
+
+Content Analytics을 구성하기 전에 [필수 구성 요소](#prerequisites)가 충족되고 필요한 [액세스 제어](#access-control)가 있으며 [제한 사항](#limitations)을 알고 있어야 합니다.
+
+
+높은 수준의 단계
 
 ![콘텐츠 분석 구성](../assets/aca-configuration.svg){zoomable="yes"}
 
@@ -60,6 +65,13 @@ ht-degree: 100%
 
 1. 콘텐츠 분석이 활성화된 데이터 보기는 특정 Customer Journey Analytics 제품 프로필에 대한 데이터 보기 권한의 일부로 포함됩니다.
 1. 해당 Customer Journey Analytics 제품 프로필은 사용자 또는 사용자 그룹에 할당된 제품 프로필 중 하나입니다.
+
+## 제한 사항
+
+Content Analytics 이벤트 데이터에 사용되는 스키마는 시스템 소유입니다. 시스템 소유 스키마는 수정할 수 없습니다. 이는 다음을 의미합니다.
+
+* 지리적 위치, 보트 탐지 또는 디바이스 조회와 같은 기능 지원을 위한 필드 그룹을 포함할 수 없습니다.
+* [필드 기반 결합](/help/stitching/fbs.md)을 지원하도록 특정 식별자를 추가할 수 없습니다.
 
 >[!MORELIKETHIS]
 >
