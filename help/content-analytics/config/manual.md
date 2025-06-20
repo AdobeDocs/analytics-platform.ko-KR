@@ -65,7 +65,7 @@ Adobe Content Analytics 확장 기능에서 변경 사항을 적용한 후에는
 >[!MORELIKETHIS]
 >
 >[가이드 구성](guided.md)
->>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+>&#x200B;>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -97,7 +97,7 @@ Content Analytics은 다음과 같은 방식으로 ID를 처리합니다.
 * 스키마가 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
 
 
-Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"} 콜백 전에 웹 SDK [on을(를) 수정해야 합니다.
+Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"} 콜백 전에 웹 SDK on을(를) 수정해야 합니다.
 
 1. Adobe Experience Platform Web SDK 확장 및 Adobe Content Analytics 확장이 포함된 **[!UICONTROL 태그]** 속성으로 이동합니다.
 1. ![플러그](/help/assets/icons/Plug.svg) **[!UICONTROL 확장]**&#x200B;을 선택합니다.
@@ -107,7 +107,7 @@ Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID
 
    ![이벤트 전송 콜백 전 ](/help/content-analytics/assets/onbeforeeventsendcallback.png)
 
-1. 이벤트 전송 콜백 코드&#x200B;]**전에**[!UICONTROL &lt;/> 제공 기능을 선택합니다.
+1. 이벤트 전송 콜백 코드&#x200B;**전에**&lt;/> 제공 기능을 선택합니다.
 1. 다음 코드를 추가합니다.
 
    ```javascript
