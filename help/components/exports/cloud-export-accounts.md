@@ -5,16 +5,16 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: cb4c2721867585fd11c0929f0947436872272da6
+source-git-commit: 882e280da3f65e297abccd475d381832fd236843
 workflow-type: tm+mt
-source-wordcount: '2230'
-ht-degree: 26%
+source-wordcount: '2246'
+ht-degree: 28%
 
 ---
 
 # 클라우드 내보내기 계정 구성
 
-[클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내려면 먼저 데이터를 전송할 대상을 추가하고 구성해야 합니다.
+Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([Customer Journey Analytics 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 Analysis Workspace에서 또는 [Report Builder에서 보고서 내보내기](/help/report-builder/report-builder-export.md)에 설명된 대로 Report Builder에서)하려면 데이터를 보낼 대상을 추가하고 구성해야 합니다.
 
 이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3, Google Cloud Platform 등)한 다음 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md)에 설명된 대로 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 과정으로 구성됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 
    * 누구나 공유 계정의 위치를 만들 수 있습니다.
 
-1. [!UICONTROL **계정 유형**] 필드에서 내보내는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 역할 ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake 및 AEP 데이터 랜딩 영역입니다.
+1. [!UICONTROL **계정 유형**] 필드에서 내보내는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake, AEP 데이터 랜딩 존입니다.
 
 1. 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 아래 섹션을 계속 진행합니다.
 
@@ -66,9 +66,9 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->내보내기 계정에 AEP 데이터 랜딩 영역 을 사용할 때는 다음 사항을 고려하십시오.
+>내보내기 계정에 AEP 데이터 랜딩 영역 을 사용할 때 다음 사항을 고려하십시오.
 >
-> * Customer Journey Analytics 보고서를 Adobe Experience Platform 데이터 랜딩 구역으로 내보낼 때 7일 이내에 데이터를 다운로드한 다음 AEP 데이터 랜딩 구역에서 삭제해야 합니다. 7일 후 데이터는 AEP 데이터 랜딩 구역에서 자동으로 삭제됩니다.
+> * Customer Journey Analytics 보고서를 Adobe Experience Platform 데이터 랜딩 구역으로 내보낼 때 7일 이내에 데이터를 다운로드해야 하고 AEP 데이터 랜딩 구역에서 삭제해야 합니다. 7일 후에는 AEP 데이터 랜딩 영역에서 데이터가 자동으로 삭제됩니다.
 > * AEP 데이터 랜딩 구역은 Azure 또는 AWS 스토리지를 사용합니다. 조직에서 Azure를 사용하도록 구성된 로그인 회사를 사용하는 경우 AEP 데이터 랜딩 구역은 Azure를 사용합니다. 로그인 회사가 AWS을 사용하도록 구성된 경우 AEP 데이터 랜딩 구역은 AWS을 사용합니다.
 >
 
@@ -78,9 +78,9 @@ ht-degree: 26%
 
    * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. **[!UICONTROL 계정 유형]** 필드에서 **[!UICONTROL AEP 데이터 랜딩 영역]**&#x200B;을(를) 선택한 후 [!UICONTROL **저장**]&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 계정 유형]** 필드에서 **[!UICONTROL AEP 데이터 랜딩 영역]**&#x200B;을 선택한 후 [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   AEP 데이터 랜딩 영역이 Azure 또는 AWS 스토리지를 사용하도록 구성되어 있는지 여부에 따라 다음 대화 상자 중 하나가 표시됩니다.
+   AEP 데이터 랜딩 영역 이 Azure 또는 AWS 스토리지를 사용하도록 구성되어 있는지 여부에 따라 다음 대화 상자 중 하나가 표시됩니다.
 
    * **Azure 저장소:**
 
@@ -92,7 +92,7 @@ ht-degree: 26%
 
      >[!AVAILABILITY]
      >
-     >이 섹션은 Amazon Web Services(AWS)에서 실행되는 Experience Platform 구현에 적용됩니다. 현재 AWS에서 실행 중인 Experience Platform은 제한된 수의 고객이 사용할 수 있습니다. 지원되는 Experience Platform 인프라에 대한 자세한 내용은 [Experience Platform 멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하세요.
+     >이 섹션은 Amazon Web Services(AWS)에서 실행되는 Experience Platform 구현에 적용됩니다. AWS에서 실행되는 Experience Platform은 현재 제한된 수의 고객에게만 제공됩니다. 지원되는 Experience Platform 인프라에 대해 자세히 알아보려면 [Experience Platform 멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오.
 
      [!UICONTROL **계정 만들기**] 대화 상자가 표시됩니다.
 
@@ -108,13 +108,13 @@ ht-degree: 26%
 
       >[!NOTE]
       >
-      >Azure를 기반으로 하는 AEP 데이터 랜딩 영역 계정을 사용하는 경우 AEP 데이터 랜딩 영역으로 내보내는 보고서에 액세스하는 가장 쉬운 방법은 Azure 스토리지 탐색기를 사용하는 것입니다. 다음 단계에서는 이 메서드를 사용합니다.
+      >Azure를 기반으로 하는 AEP 데이터 랜딩 영역 계정을 사용하는 경우, AEP 데이터 랜딩 영역으로 내보내는 보고서에 액세스하는 가장 쉬운 방법은 Azure Storage Explorer를 사용하는 것입니다. 다음 단계에서는 이 메서드를 사용합니다.
 
       1. 아직 다운로드하지 않았다면 [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 다운로드하십시오.
 
-      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
+      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
 
-         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
+         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
 
       1. Adobe Experience Platform 설명서를 따라 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드가 나타나면 3단계에서 복사한 SAS URI를 붙여넣습니다.
 
@@ -132,7 +132,7 @@ ht-degree: 26%
 
 1. (조건부) AWS 저장소를 사용하는 경우:
 
-   1. 다음 필드의 내용을 클립보드에 복사합니다(이 정보를 사용하여 AEP 데이터 랜딩 구역에서 Analysis Workspace으로 내보낸 데이터에 액세스).
+   1. 다음 필드의 내용을 클립보드에 복사합니다(이 정보를 사용하여 AEP 데이터 랜딩 구역에서 Analysis Workspace에서 내보낸 데이터에 액세스).
 
       * [!UICONTROL **액세스 키 ID**]
 
@@ -280,9 +280,9 @@ ht-degree: 26%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **계정 식별자**] | 조직 내뿐만 아니라 Snowflake이 지원하는 클라우드 플랫폼 및 클라우드 지역의 글로벌 네트워크 전체에서 Snowflake 계정을 고유하게 식별합니다. <p>Snowflake 계정에서 계정 식별자를 가져온 다음 여기에 정보를 붙여넣어야 합니다.</p><p>이 정보를 얻을 수 있는 위치를 알아보려면 Snowflake 설명서의 [계정 식별자 페이지](https://docs.snowflake.com/en/user-guide/admin-account-identifier)를 참조하세요.</p> |
-   | [!UICONTROL **사용자**] | 연결에 사용할 사용자의 로그인 이름입니다. Adobe에 특별히 사용할 새 사용자를 만드는 것이 좋습니다. 여기에 이름을 지정한 다음 같은 이름의 Snowflake 사용자를 만드십시오. `CREATE USER` 명령을 사용하여 Snowflake에서 사용자를 만들 수 있습니다.  <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role)을 참조하세요.</p> |
-   | [!UICONTROL **역할**] | 사용자에게 할당될 역할입니다. Adobe에 특별히 사용할 새 역할을 만드는 것이 좋습니다. 여기에서 역할을 지정한 다음 Snowflake에서 동일한 이름의 역할을 만들고 사용자에게 역할을 부여합니다. `CREATE ROLE` 명령을 사용하여 Snowflake에서 역할을 만들 수 있습니다. <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role)을 참조하세요.</p> |
+   | [!UICONTROL **계정 식별자**] | 조직 내뿐만 아니라 Snowflake에서 지원하는 클라우드 플랫폼 및 클라우드 지역의 글로벌 네트워크 전체에서 Snowflake 계정을 고유하게 식별합니다. <p>Snowflake 계정에서 계정 식별자를 가져온 다음 여기에 정보를 붙여넣어야 합니다.</p><p>이 정보를 얻을 수 있는 위치를 알아보려면 Snowflake 설명서의 [계정 식별자 페이지](https://docs.snowflake.com/en/user-guide/admin-account-identifier)를 참조하세요.</p> |
+   | [!UICONTROL **사용자**] | 연결에 사용할 사용자의 로그인 이름입니다. Adobe에 특별히 사용할 새 사용자를 만드는 것이 좋습니다. 여기에서 이름을 지정한 다음 동일한 이름으로 Snowflake에서 사용자를 만듭니다. `CREATE USER` 명령을 사용하여 Snowflake에서 사용자를 만들 수 있습니다.  <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role)을 참조하세요.</p> |
+   | [!UICONTROL **역할**] | 사용자에게 할당될 역할입니다. Adobe에 특별히 사용할 새 역할을 만드는 것이 좋습니다. 여기에서 역할을 지정한 다음, Snowflake에서 동일한 이름으로 역할을 만들고 사용자에게 역할을 부여합니다. `CREATE ROLE` 명령을 사용하여 Snowflake에서 역할을 만들 수 있습니다. <p>자세한 내용은 [사용자, 역할 및 권한 명령](https://docs.snowflake.com/en/sql-reference/commands-user-role)을 참조하세요.</p> |
 
    {style="table-layout:auto"}
 

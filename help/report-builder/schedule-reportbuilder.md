@@ -6,14 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 13%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
-# 통합 문서 예약
+# 이메일을 통해 공유하여 통합 문서 예약
 
 통합 문서를 저장하고 분석을 완료한 후 예약 기능을 사용하여 팀의 다른 사용자와 통합 문서를 공유할 수 있습니다. 예약 기능을 사용하면 통합 문서의 데이터를 자동으로 새로 고치는 일정을 만들 수 있습니다. Excel 통합 문서 파일을 특정 날짜와 시간에 지정된 대상자에 대한 첨부 파일로 이메일로 보냅니다. 일정을 설정하면 수신자는 정기적으로 자동 업데이트됩니다. 예약 기능을 사용하여 자동 업데이트를 예약하지 않고도 통합 문서를 한 번에 전송할 수도 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3417507/?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -129,54 +129,7 @@ ht-degree: 13%
 
 통합 문서 전송을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
+## 예약된 통합 문서 관리
 
-## 예약된 통합 문서 보기 및 관리
+이미 예약된 통합 문서 관리에 대한 자세한 내용은 [예약된 통합 문서 관리](/help/report-builder/manage-schedules-reportbuilder.md)를 참조하십시오.
 
-**[!UICONTROL 통합 문서]** 탭에서 모든 예약된 통합 문서를 보고 관리할 수 있습니다.
-
-1. Report Builder 허브에서 **[!UICONTROL 일정]** 선택
-
-1. **[!UICONTROL 통합 문서]** 탭을 선택합니다. 모든 예약된 통합 문서 목록이 표시됩니다.
-
-   ![예약된 통합 문서](assets/scheduled-workbooks.png){zoomable="yes"}
-
-   아이콘 위로 마우스를 가져가 예약된 통합 문서의 상태를 확인할 수 있습니다.
-
-   ![검색](/help/assets/icons/Search.svg)을 사용하여 예약된 특정 통합 문서를 검색합니다.
-표시할 열을 정의하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하십시오.
-
-1. 통합 문서를 하나 이상 선택합니다.
-
-   ![선택한 통합 문서 예약](assets/scheduled-workbooks-selected.png){zoomable="yes"}
-
-   다음 옵션을 사용할 수 있습니다.
-
-   | 옵션 | 설명 |
-   |---|---|
-   | ![편집](/help/assets/icons/Edit.svg) | 선택한 통합 문서의 일정을 편집합니다. |
-   | ![기록](/help/assets/icons/History.svg) | 선택한 통합 문서의 내역을 표시합니다. |
-   | ![일시 중지](/help/assets/icons/Pause.svg) | 선택한 통합 문서의 일정을 일시 중지합니다. |
-   | ![재생](/help/assets/icons/Play.svg) | 선택한 통합 문서의 일정을 다시 시작합니다. |
-   | ![다운로드](/help/assets/icons/Download.svg) | 선택한 통합 문서를 새 통합 문서로 다운로드합니다. |
-   | ![삭제](/help/assets/icons/Delete.svg) | 선택한 통합 문서의 일정을 삭제합니다. |
-
-
-## 예약된 통합 문서의 내역 및 상태
-
-**[!UICONTROL 기록]** 탭에서 예약된 통합 문서의 기록 및 상태를 볼 수 있습니다.
-
-1. Report Builder 허브에서 **[!UICONTROL 일정]**&#x200B;을(를) 선택하십시오.
-
-1. **[!UICONTROL 기록]** 탭을 선택합니다. 모든 예약된 통합 문서 목록이 표시됩니다.
-
-   ![예약된 내역](assets/scheduled-workbooks-history.png){zoomable="yes"}
-
-   목록에서 특정 통합 문서를 검색하려면 ![Search](/help/assets/icons/Search.svg)을(를) 사용하십시오.
-표시할 열을 정의하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하십시오.
-
-   **[!UICONTROL 기록]** 탭에서 예약된 각 작업의 상태를 검토할 수 있습니다. 각 예약된 작업에 대한 상태 변경 내용은 별도의 행에 설명되어 있습니다.
-
-   * ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg)은 통합 문서가 성공적으로 전송되었음을 나타냅니다.
-   * ![AlertRed](/help/assets/icons/AlertRed.svg)은(는) 오류가 발생했음을 나타냅니다.
-
-또는 **[!UICONTROL 통합 문서]** 탭에서 하나 이상의 선택한 통합 문서에 대해 ![기록](/help/assets/icons/History.svg)을 선택할 수 있습니다. 이 작업은 선택한 항목별로 필터링된 목록이 있는 **[!UICONTROL 기록]** 탭을 표시합니다. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
