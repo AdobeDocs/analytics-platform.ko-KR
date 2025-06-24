@@ -42,7 +42,7 @@ ht-degree: 98%
       + [BI 솔루션과 비교](../getting-started/cja-vs-bi.md)
       + [AI 어시스턴트](../ai-assistant.md)
       + [Data Insights 에이전트](../data-analysis-ai.md)
-   + Customer Journey Analytics B2B 에디션 {#cja-b2b}
+   + Customer Journey Analytics B2B Edition {#cja-b2b}
       + [개요](/help/getting-started/cja-b2b-edition.md)
       + [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)
       + [빠른 시작 안내서](/help/getting-started/cja-b2b-quick-start-guide.md)
@@ -439,7 +439,7 @@ ht-degree: 98%
       + [보고서 세트를 다른 스키마와 결합](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
       + [개인 기반 B2B 프로젝트의 예](../use-cases/b2b/example.md)
-      + B2B 에디션 {#b2b-edition}
+      + B2B Edition {#b2b-edition}
          + [사용 사례 개요](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
          + [설정](/help/use-cases/b2b/b2b-edition/setup.md)
          + [계정 마케팅 최적화](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
