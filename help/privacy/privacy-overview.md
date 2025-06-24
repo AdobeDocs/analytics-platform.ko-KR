@@ -5,9 +5,9 @@ exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
 source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 ## 데이터 거버넌스
 
-Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
+Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
 
@@ -27,11 +27,11 @@ Experience Platform에서 사용하는 데이터 세트에 생성된 개인정�
 
 [자세히 알아보기](/help/data-views/data-governance.md)
 
-## 개인 정보 보호 요청
+## 개인정보 보호 요청
 
-Adobe은 해당 지역 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다.
+Adobe는 해당 지역 및 국제법에 따라 개인정보 보호 요청을 처리합니다.
 
-Customer Journey Analytics은 Adobe Experience Platform에서 사용할 수 있는 데이터를 사용하므로 Adobe은 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR)을(를) 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+Customer Journey Analytics는 Adobe Experience Platform에서 제공하는 데이터를 사용하므로 Adobe는 데이터 액세스 및 삭제 요청을 제출할 수 있는 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
 
 ## GDPR
 
@@ -45,4 +45,4 @@ CCPA에 따라 Privacy Service는 개인 데이터 판매를 거부하도록 요
 
 >[!MORELIKETHIS]
 >
->* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=ko)
+>* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)

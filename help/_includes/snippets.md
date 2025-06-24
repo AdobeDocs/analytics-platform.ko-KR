@@ -1,8 +1,8 @@
 ---
 source-git-commit: 256b1a3901a13ff2873a5cb5782baf26c93b8e8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4947'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 # 스니펫
@@ -129,21 +129,21 @@ ht-degree: 96%
 속성 컨테이너는 속성에 대해 원하는 범위를 정의합니다. 가능한 옵션은 다음과 같습니다.
 
 * **세션**: 전환이 발생한 세션 시작 부분까지 되돌아봅니다. 세션 전환 확인 기간은 데이터 보기에서 수정된 [세션 시간 제한](/help/data-views/create-dataview.md#session-settings)을 따릅니다.
-* **개인**: 개인 컨테이너 범위에서 전환을 봅니다.
-* **전역 계정** [!BADGE B2B edition]{type=Informative}: 전역 계정 컨테이너 범위에서 전환을 봅니다.
-* **계정** [!BADGE B2B edition]{type=Informative}: 개인 컨테이너 범위에서 전환을 봅니다.
-* **영업 기회** [!BADGE B2B edition]{type=Informative}: 영업 기회 컨테이너 범위에서 전환을 봅니다.
-* **구매 그룹** [!BADGE B2B edition]{type=Informative}: 구매 그룹 컨테이너 범위에서 전환을 봅니다.
+* **개인**: 개인 컨테이너의 범위에서 변환을 살펴봅니다.
+* **글로벌 계정** [!BADGE B2B Edition]{type=Informative}: 글로벌 계정 컨테이너 범위에서 전환을 살펴봅니다.
+* **계정** [!BADGE B2B Edition]{type=Informative}: 개인 컨테이너 범위에서 전환을 살펴봅니다.
+* **기회** [!BADGE B2B Edition]{type=Informative}: 기회 컨테이너 범위에서 전환을 살펴봅니다.
+* **구매 그룹** [!BADGE B2B Edition]{type=Informative}: 구매 그룹 컨테이너 범위에서 전환을 살펴봅니다.
 
 ## 속성 전환 확인 기간 {#attribution-lookback-window}
 
-기여도 분석 전환 확인 기간은 터치 포인트를 포함하도록 전환이 되돌아봐야 하는 시간입니다. 차원 항목이 전환 확인 기간 밖에 설정된 경우, 해당 값은 어떤 속성 계산에도 포함되지 않습니다.
+속성 전환 확인 기간은 접점을 포함하도록 전환에서 다시 확인해야 하는 시간의 양입니다. 차원 항목이 전환 확인 기간 밖에 설정된 경우, 해당 값은 어떤 속성 계산에도 포함되지 않습니다.
 
 * **14일**: 전환이 발생한 날로부터 최대 14일까지를 되돌아봅니다.
 * **30일**: 전환이 발생한 날로부터 최대 30일까지를 되돌아봅니다.
 * **60일**: 전환이 발생한 날로부터 최대 60일까지를 되돌아봅니다.
 * **90일**: 전환이 발생한 날로부터 최대 90일까지를 되돌아봅니다.
-* **13개월** [!BADGE B2B 에디션]{type=Informative}: 전환이 발생한 날로부터 최대 13개월까지를 되돌아봅니다.
+* **13개월** [!BADGE B2B Edition]{type=Informative}: 전환이 발생한 날로부터 최대 13개월까지를 되돌아봅니다.
 * **사용자 정의 시간:** 전환이 발생한 시점부터 사용자 정의 전환 확인 기간을 설정할 수 있습니다. 분, 시간, 일, 주, 월 또는 분기 단위로 지정할 수 있습니다. 예를 들어 2월 20일에 전환이 발생한 경우 5일의 전환 확인 기간을 통해 2월 15일부터 2월 20일까지의 모든 차원 접점을 속성 모델에서 평가할 수 있습니다.
 
 ## 속성 예제 {#attribution-example}
@@ -154,20 +154,20 @@ ht-degree: 96%
 1. 9월 18일 이 방문자가 친구로부터 받은 소셜 미디어 링크를 통해 다시 사이트에 방문합니다. 장바구니에 몇 개 항목을 추가하지만 구입하지는 않습니다.
 1. 9월 24일 마케팅 팀이 장바구니에 있는 일부 항목에 대한 쿠폰이 포함된 이메일을 보냅니다. 쿠폰은 적용하지만 다른 쿠폰이 있는지 확인하기 위해 다른 몇 개 사이트를 방문합니다. 디스플레이 광고를 통해 다른 항목을 찾은 다음 최종적으로 $50에 구매합니다.
 
-기여도 분석 모델에 따라 컨테이너 및 채널은 서로 다른 크레딧을 받습니다. 예제는 아래 표를 참조하십시오.
+속성 모델 및 컨테이너에 따라 채널은 서로 다른 크레딧을 받습니다. 아래 테이블을 참조하십시오.
 
 | 모델 | 컨테이너 | 전환 확인 기간 | 설명 |
 |---|---|---|---|
 | 첫 번째 터치 | 세션 | 30일 | 속성은 세 번째 방문만 봅니다. 이메일과 디스플레이 사이에 이메일이 첫 번째였으며, 따라서 $50 구매에 대해 이메일이 100% 크레딧을 받습니다. |
-| 첫 번째 터치 | 개인 | 30일 | 속성은 세 개의 방문을 모두 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다. |
-| 선형 | 세션 | 30일 | 크레딧은 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다. |
-| 선형 | 개인 | 30일 | 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다. |
-| J자형 | 개인 | 30일 | 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.<ul><li>$30인 60% 크레딧이 디스플레이에 제공됩니다.</li><li>$10인 20% 크레딧이 유료 검색에 제공됩니다.</li><li>나머지 20%는 소셜과 이메일 간에 나누어져 각각 $5가 제공됩니다.</li></ul> |
+| 첫 번째 터치 | 개인 | 30일 | 속성은 세 번의 방문을 모두 살펴봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다. |
+| 선형 | 세션 | 30일 | 크레딧은 이메일과 디스플레이로 나뉩니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다. |
+| 선형 | 개인 | 30일 | 크레딧은 유료 검색, 소셜, 이메일, 디스플레이로 나뉩니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다. |
+| J자형 | 개인 | 30일 | 크레딧은 유료 검색, 소셜, 이메일, 디스플레이로 나뉩니다.<ul><li>$30인 60% 크레딧이 디스플레이에 제공됩니다.</li><li>$10인 20% 크레딧이 유료 검색에 제공됩니다.</li><li>나머지 20%는 소셜과 이메일 간에 나누어져 각각 $5가 제공됩니다.</li></ul> |
 | 시간 감소 | 개인 | 30일 | <ul><li>디스플레이 접점과 전환 간 0일 간격. `2^(-0/7) = 1`</li><li>이메일 접점과 전환 간 0일 간격. `2^(-0/7) = 1`</li><li>소셜 접점과 전환 간 6일 간격. `2^(-6/7) = 0.552`</li><li>유료 검색 접점과 전환 간 9일 간격. `2^(-9/7) = 0.41`</li>이러한 값을 표준화하면 다음과 같은 결과가 나옵니다.<ul><li>디스플레이: 33.8%, $16.88 받음</li><li>이메일: 33.8%, $16.88 받음</li><li>소셜: 18.6%, $9.32 받음</li><li>유료 검색: 13.8%, $6.92 받음</li></ul></li></ul> |
 
 크레딧이 여러 채널에 속하는 경우 일반적으로 정수가 있는 전환 이벤트는 분할됩니다. 예를 들어 두 채널이 선형 속성 모델을 사용하여 주문에 기여하는 경우 두 채널 모두 해당 주문의 0.5를 받습니다. 이러한 부분 지표는 모든 개인에게 집계된 다음 보고를 위해 가장 가까운 정수로 반올림됩니다.
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 계정 또는 영업 기회와 같은 특정 B2B 컨테이너와 더 적절한 전환 확인 기간(최대 13개월)을 사용하여 일반적인 B2B 시나리오에서 위의 속성 모델을 적용합니다.
+[!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정이나 기회와 같은 구체적인 B2B 컨테이너와 보다 적절한 전환 확인 기간(최대 13개월)을 사용하여 일반적인 B2B 시나리오에서 위의 속성 모델을 적용합니다.
 
 ## 여정 시각화 비교 {#journey-visualization-comparisons}
 
@@ -216,19 +216,19 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 >
 
 
-## Customer Journey Analytics B2B 에디션 초안 설명서 {#draft-b2b}
+## Customer Journey Analytics B2B Edition 초안 설명서 {#draft-b2b}
 
 >[!AVAILABILITY]
 >
->이 문서에 설명된 기능과 [!BADGE B2B 에디션]{type=Informative}이라는 배지가 붙은 다른 문서나 기능은 출시가 제한된 테스트 단계에 있으며 아직 사용자 환경에서는 사용하지 못할 수 있습니다. <br/>또한 [!BADGE B2B 에디션]{type=Informative} 기능 및 [!BADGE B2B 에디션]{type=Informative} 기능에 대한 설명서는 변경될 수 있으며, 이로 인해 어떠한 법적 의무도 발생하지 않습니다.<br/>기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+>이 문서에 설명된 기능과 [!BADGE B2B Edition]{type=Informative}이라는 배지가 붙은 다른 문서나 기능은 출시가 제한된 테스트 단계에 있으며 아직 사용자 환경에서는 사용하지 못할 수 있습니다. <br/>또한 [!BADGE B2B Edition]{type=Informative} 기능 및 [!BADGE B2B Edition]{type=Informative} 기능에 대한 설명서는 변경될 수 있으며, 이로 인해 어떠한 법적 의무도 발생하지 않습니다.<br/>기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
 >
 
 
-## B2B 에디션 {#b2b-edition}
+## B2B Edition {#b2b-edition}
 
 >[!INFO]
 >
->이 문서에서는 Customer Journey Analytics B2B 에디션에서만 사용할 수 있는 특정 B2B 문서나 기능에는 [!BADGE B2B 에디션]{type=Informative}이라는 표시가 있습니다.
+>이 문서에서는 Customer Journey Analytics B2B Edition에서만 사용할 수 있는 특정 B2B 문서나 기능에는 [!BADGE B2B Edition]{type=Informative}이라는 표시가 있습니다.
 
 
 ## 공통 데이터 세트 설정 {#common-dataset-settings}
@@ -275,11 +275,11 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 | 구성 요소 이름 | 참고 |
 | --- | --- |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 계정] | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 구매 그룹] | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 계정] | [!UICONTROL 연결]에 지정된 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 구매 그룹] | [!UICONTROL 연결]에 지정된 구매 그룹 ID를 기반으로 하는 구매 그룹입니다. |
 | [!UICONTROL 이벤트] | [!UICONTROL 연결]의 모든 이벤트 데이터 세트의 행 수입니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 글로벌 계정] | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>[!UICONTROL 기회] | [!UICONTROL 연결]에 지정된 기회 ID를 기반으로 하는 기회입니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 글로벌 계정] | [!UICONTROL 연결]에 지정된 글로벌 계정 ID를 기반으로 합니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 기회] | [!UICONTROL 연결]에 지정된 기회 ID를 기반으로 하는 기회입니다. |
 | [!UICONTROL 사용자] | [!UICONTROL 연결]에 지정된 개인 ID를 기반으로 합니다. |
 | [!UICONTROL 세션 종료] | 세션의 마지막 이벤트였던 이벤트 수입니다. [!UICONTROL 세션 시작]과 마찬가지로 세그먼트 정의에서도 모든 세션의 마지막 이벤트까지 세그먼트화하는 데 사용할 수 있습니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 종료 비율</li></p> |
 | [!UICONTROL 세션 시작] | 세션의 첫 번째 이벤트였던 이벤트 수입니다. 세그먼트 정의(예: “[!UICONTROL 세션 시작]이 존재합니다”)에 사용될 경우 이 세그먼트는 모든 세션의 첫 번째 이벤트까지만 필터링합니다.<p>다음 [계산된 지표](/help/components/calc-metrics/default-calcmetrics.md)를 Workspace에서 사용할 수 있으려면 이 구성 요소가 데이터 보기에 포함되어 있어야 합니다. <ul><li>세션 시작 비율</li></p> |
