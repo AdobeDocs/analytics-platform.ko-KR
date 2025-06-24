@@ -4,7 +4,7 @@ title: 구성 요소 설명 추가
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 14%
@@ -32,5 +32,5 @@ Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Custo
 >[!MORELIKETHIS]
 >
 >[데이터 보기 구성 요소 설정](/help/data-views/component-settings/overview.md)
->[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

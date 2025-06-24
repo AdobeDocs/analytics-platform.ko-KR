@@ -4,18 +4,18 @@ description: Workspace에서 주석을 보는 방법.
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 90%
 
 ---
 
 # 주석 보기
 
-주석은 하루 또는 날짜 범위에 따라 다소 다르게 나타납니다.
+주석은 표시되는 위치와 하루 또는 날짜 범위에 따라 약간 다르게 나타납니다.
 
-## 선 차트 또는 표에서 주석 보기
+## 선 차트 또는 테이블에서 주석 보기
 
 | 시각화<br/>유형 | 설명 |
 | --- | --- |

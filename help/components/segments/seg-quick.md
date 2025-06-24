@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 91%
+source-wordcount: '1187'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/345340/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -43,9 +43,9 @@ ht-degree: 91%
 드래그 앤 드롭으로 빠른 세그먼트를 생성할 때 다음 사항에 유의하십시오.
 
 * 모든 구성 요소 유형이 지원되는 것은 아닙니다. 계산된 지표는 지원되지 않으며, 세그먼트를 작성할 수 있는 차원과 지표만 지원됩니다.
-* 차원 및 지표 구성 요소의 경우 [빠른 세그먼트 빌더](#quick-segment-builder)가 자동으로 `exists` 조건을 생성합니다. 예를 들어 `City`를 끌어다 놓으면 `City exists` 조건이 생성됩니다.
-* 차원 값의 경우 [빠른 세그먼트 빌더](#quick-segment-builder)가 자동으로 `equals` 조건을 생성합니다. 예를 들어 `City` 차원에서 `amsterdam`을 끌어다 놓으면 `City equals amsterdam` 조건을 생성합니다.
-* `unspecified` 또는 `none`을 끌어다 놓으면 [빠른 세그먼트 빌더](#quick-segment-builder)가 `does not exist` 조건을 자동으로 생성합니다.
+* 차원 및 지표 구성 요소의 경우 [빠른 세그먼트 빌더](#quick-segment-builder)가 자동으로 `exists` 조건을 생성합니다. 예를 들어 **[!UICONTROL City]**&#x200B;을(를) 끌어서 놓으면 **[!UICONTROL City]** **[!UICONTROL 존재함]** 조건이 만들어집니다.
+* 차원 값의 경우 [빠른 세그먼트 빌더](#quick-segment-builder)에서 **[!UICONTROL equals]** 조건을 자동으로 만듭니다. 예를 들어 **[!UICONTROL City]** 차원 목록에서 **[!UICONTROL 암스테르담]**&#x200B;을(를) 끌어다 놓으면 **[!UICONTROL City]** **[!UICONTROL equals]** `Amsterdam` 조건이 만들어집니다.
+* **[!UICONTROL 지정되지 않음]** 또는 **[!UICONTROL 없음]**&#x200B;을 끌어서 놓으면 [빠른 세그먼트 빌더](#quick-segment-builder)에서 자동으로 **[!UICONTROL 존재하지 않음]** 조건을 만듭니다.
 
 만든 빠른 세그먼트는 패널 상단에 나타납니다. 빠른 세그먼트에는 연한 파란색의 얇은 왼쪽 막대가 있습니다. [빠른 세그먼트 빌더](#quick-segment-builder)를 사용하여 빠른 세그먼트를 편집 모드로 설정하면 빠른 세그먼트의 배경은 연한 파란색입니다.
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 ## 빠른 세그먼트 빌더
 
-빠른 세그먼트 빌더의 예는 아래와 같습니다. 이 예에서 빌더는 `Call Reason = Order Change AND Online Orders is greater than or equal 1`라는 제목의 빠른 세그먼트에 대해 열립니다. 상단의 빠른 세그먼트 두 개는 모두 [!UICONTROL 국가별 평균 주문 가격] 자유 형식 테이블 등 [!UICONTROL 평균 주문 가격] 대시보드 패널과 모든 시각화에 적용됩니다.
+빠른 세그먼트 빌더의 예는 아래와 같습니다. 이 예에서 빌더는 `Call Reason = Order Change AND Online Orders is greater than or equal 1`라는 제목의 빠른 세그먼트에 대해 열립니다. 상단의 빠른 세그먼트 두 개는 모두 [!UICONTROL 국가별 평균 주문 가격] 자유 형식 테이블 등 **[!UICONTROL 평균 주문 가격]** 대시보드 패널과 모든 시각화에 적용됩니다.
 
 ![빠른 세그먼트 빌더](assets/quick-filter-builder.png)
 
@@ -74,7 +74,7 @@ ht-degree: 91%
 | 요소 | 설명 |
 |---|---|
 | **[!UICONTROL 이름]** | 이름은 빠른 세그먼트 정의에서 자동으로 파생됩니다. |
-| **[!UICONTROL 사용자]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![경고](/help/assets/icons/Alert.svg) | 빠른 세그먼트로 얻은 데이터의 시각적 미리보기. 막대와 백분율은 빠른 세그먼트의 결과에 포함된 전체 데이터의 비율이 얼마인지에 대한 인사이트를 제공합니다. 빠른 세그먼트가 데이터를 반환하지 않는다는 빨간색 ![경고](/help/assets/icons/Alert.svg) 신호. |
+| **[!UICONTROL 사용자]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![경고](/help/assets/icons/Alert.svg) | 빠른 세그먼트로 얻은 데이터의 시각적 미리보기. 막대와 백분율은 빠른 세그먼트의 결과에 포함된 전체 데이터의 비율이 얼마인지에 대한 인사이트를 제공합니다. ![경고](/help/assets/icons/AlertRed.svg)는 빠른 세그먼트가 데이터를 반환하지 않는다는 신호를 보냅니다. |
 | **[!UICONTROL 포함]**<br/>**[!UICONTROL 제외]** | 패널의 데이터에 빠른 세그먼트의 결과를 포함할지 또는 제외할지 여부를 드롭다운 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 선택합니다. |
 | **[!UICONTROL 이벤트]**<br/>**[!UICONTROL 세션]**<br/>**[!UICONTROL 개인]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 빠른 세그먼트의 범위를 선택합니다. |
 

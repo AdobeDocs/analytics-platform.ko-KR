@@ -4,10 +4,10 @@ description: Workspace에서 주석을 만드는 방법
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
-workflow-type: ht
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * **D**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 주석 만들기]**&#x200B;를 선택합니다.
 * **E**.  Workspace 프로젝트에서 단축키 **[!UICONTROL Ctrl+Shift+o]**(Windows) 또는 **[!UICONTROL Ctrl+Shift+o]**(macOS)를 사용합니다.
 
-주석을 정의하려면 다음 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
+주석을 정의하려면 [[!UICONTROL 주석 빌더]](#annotation-builder)를 사용합니다.
 
 <!-- Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
