@@ -5,10 +5,10 @@ title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 61%
+source-wordcount: '369'
+ht-degree: 58%
 
 ---
 
@@ -24,9 +24,9 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 
 ## 모두와 공유할 수 있는 읽기 전용 링크 받기
 
-Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다.
+Customer Journey Analytics에 대한 액세스 권한이 없는 사용자와 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다.
 
-자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md) 문서의 “모두와 프로젝트 공유(로그인 필요 없음)”를 참조하십시오.
+자세한 내용은 [모든 사람과 공유](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오.
 
 ## 패널 또는 시각화 링크 가져오기 {#panel-link}
 
@@ -37,7 +37,7 @@ Customer Journey Analytics 액세스 권한이 없는 사용자와 Analysis Work
 
 [비디오 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
 
-![시각화 가져오기 링크가 강조 표시된 헤더를 마우스 오른쪽 단추로 클릭한 후 드롭다운 메뉴입니다.](assets/get-viz-link.png)
+![시각화 가져오기 링크가 강조 표시된 헤더를 마우스 오른쪽 단추로 클릭한 후 드롭다운 메뉴입니다.](assets/get-visualization-link.png)
 
 ## 목차에 링크 사용 {#TOC}
 

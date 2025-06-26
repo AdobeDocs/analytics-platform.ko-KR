@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
+description: Analysis Workspace의 데이터 사전을 사용하면 Analysis Workspace에서 의도한 사용, 승인된 사용, 중복 등을 포함하여 다양한 구성 요소를 카탈로그화하고 추적할 수 있습니다.
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="데이터 사전"
->abstract="데이터 사전은 사용자와 관리자 모두 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Analytics 관리자는 사용자를 위해 데이터 사전의 각 구성 요소에 대한 정보를 구성해야 해야 합니다."
+>abstract="데이터 사전은 사용자와 관리자 모두가 Customer Journey Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Customer Journey Analytics 관리자는 데이터 사전에 있는 각 구성 요소에 대한 정보를 조정할 책임이 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3422284/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace용 데이터 사전](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -58,7 +58,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 시스템 관리자는 데이터 사전을 사용하여 분석 환경에서 구성 요소를 추적하고 선별할 수 있습니다.
 
-다음은 Analytics 관리자가 데이터 사전을 사용할 수 있는 몇 가지 방법입니다.
+Analytics 관리자는 다음 용도로 데이터 사전을 사용할 수 있습니다.
 
 * 통합해야 하는 중복 구성 요소를 식별합니다.
 
@@ -103,10 +103,10 @@ Customer Journey Analytics 관리자는 [데이터 사전 상태 모니터링](/
 
   Analysis Workspace를 닫았다가 다시 열면 데이터 사전 창은 마지막으로 이동한 위치에 남아 있습니다. <!--True?-->
 
-* 최소화
+* 창을 최소화합니다.
 
   최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
 
   파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
 
-* 닫기
+* 창을 닫습니다.
