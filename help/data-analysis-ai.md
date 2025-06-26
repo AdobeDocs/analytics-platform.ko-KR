@@ -49,7 +49,7 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
 * **권한**: 사용자가 Data Insights 에이전트에 액세스하려면 [!UICONTROL Adobe Admin Console]에서 필수 권한이 부여되어야 합니다.
 
-  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 수행해야 합니다.
+  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 수행해야 합니다.
    1. **[!UICONTROL Admin Console]**&#x200B;에서 **[!UICONTROL 제품]** 탭을 선택하여 **[!UICONTROL 모든 제품 및 서비스]** 페이지를 엽니다.
    1. **[!UICONTROL Customer Journey Analytics]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 제품 프로필]** 탭에서 [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
