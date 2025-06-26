@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 7bf74e02db581bdf11b7efe31b62f018320c7f22
+source-git-commit: e19151a7b0c3ab2f9e532034d329896768ee095f
 workflow-type: tm+mt
-source-wordcount: '2359'
-ht-degree: 83%
+source-wordcount: '1972'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
 * **권한**: 사용자가 Data Insights 에이전트에 액세스하려면 [!UICONTROL Adobe Admin Console]에서 필수 권한이 부여되어야 합니다.
 
-  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 수행해야 합니다.
+  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 수행해야 합니다.
    1. **[!UICONTROL Admin Console]**&#x200B;에서 **[!UICONTROL 제품]** 탭을 선택하여 **[!UICONTROL 모든 제품 및 서비스]** 페이지를 엽니다.
    1. **[!UICONTROL Customer Journey Analytics]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 제품 프로필]** 탭에서 [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
@@ -229,24 +229,26 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
+<!--
+## Configuration best practices
 
-## 구성 모범 사례
+Below are best practices for your Customer Journey Analytics configuration (data view, calculated metrics, segments, and more) to ensure the Data Insights Agent can locate the correct components and return cleaner answers without having you to prompt for additional information.
 
-다음은 Data Insights Agent에서 추가 정보를 묻는 메시지를 표시하지 않고 올바른 구성 요소를 찾아 더 깔끔한 답변을 반환할 수 있도록 Customer Journey Analytics 구성(데이터 보기, 계산된 지표, 세그먼트 등)에 대한 모범 사례입니다.
-
-* **필요한 구성 요소의 균형을 맞춥니다**. 데이터 세트의 모든 필드를 지표 또는 차원 구성 요소로 데이터 보기에 추가하지 마십시오. 특히 분석에 사용하지 않을 것이 가장 확실합니다. 반면, 분석에 필요한 것으로 예상하는 필드로만 자신을 엄격히 제한하지 마십시오. 너무 제한된 데이터 보기는 분석의 유연성과 Data Insight의 에이전트 기능을 제한합니다.
-* **항상 친숙한 표시 이름을 사용하십시오**. 지표 또는 차원 구성 요소로서 데이터 보기에 정의하는 모든 필드에 친숙한 구성 요소 이름이 있는지 확인합니다. 친숙한 이름으로 필드 이름을 바꾸는 프로세스는 특히 Adobe Analytics 소스 커넥터 데이터 세트의 필드와 관련이 있습니다. 이러한 필드에는 종종 `eVar41` 또는 `prop25`과(와) 같이 식별되지 않는 이름이 있습니다.
-* **고유한 이름을 사용합니다**. 구별되는 이름은 데이터 보기에서 필드를 지표와 차원 구성 요소로 모두 사용할 때 특히 관련이 있습니다. 여러 구성 요소에서 필드를 사용할 때 각각 다른 구성 요소 설정이 있습니다.
-* **구성 요소 명명 규칙을 사용합니다**. 구성 요소 이름 지정 규칙을 사용하여 구성 요소를 그룹화할 수 있습니다. 예: **[!UICONTROL 개 주문 | 제품]** 및 **[!UICONTROL 주문 | 데이터에 있을 수 있는 서로 다른 주문 지표를 구별하기 위해 Customer]**&#x200B;을(를) 사용합니다.
-* **데이터 사전 사용**. 데이터 사전에 구성 요소에 대한 설명 및 기타 관련 데이터를 추가합니다. 데이터 Insight 에이전트는 현재 설명 및 태그를 사용하지 않습니다. 나중에 데이터 사전 설명 및 태그를 사용할 수 있습니다.
-* **승인된 계산된 지표를 사용**&#x200B;합니다. 승인된 계산된 지표만 데이터 보기의 구성 요소로 사용하는 프로세스에 동의하고 실험적인 계산된 지표를 사용하지 마십시오.
-* **필요한 세그먼트 공유**. 세그먼트를 공유하고 데이터 인사이트 에이전트 프롬프트에 필요한 세그먼트를 표시해야 합니다.
-* **데이터 보기 간에 구성 요소 이름을 표준화합니다**. 여러 데이터 보기에서 구성 요소와 동일한 필드를 사용하는 경우 해당 구성 요소에 대해 하나의 친숙한 이름과 단일 식별자를 사용해야 합니다. 단일 이름과 식별자를 사용하면 Data Insights 에이전트가 컨텍스트를 손실하지 않고 데이터 보기를 전환할 수 있습니다.
+* **Balance what components you need**. Do not add all the fields of your datasets as metrics or dimension components to your data view. Especially, those you most certainly will not use in your analysis. On the other hand, do not strictly limit yourself only to the fields you anticipate you require for your analysis. A too limited data view restricts the flexibility in your analysis and the Data Insight's agent functionality.
+* **Always use friendly display names**. Ensure that all fields you define in your data view, either as a metrics or dimension component, do have a friendly component name. The process of renaming fields with a friendly name is especially relevant for fields from Adobe Analytics source connector datasets. These fields often have non-friendly unidentifiable names like `eVar41`, or `prop25`.
+* **Use distinctive names**. Distinctive names are especially relevant when you use a field both as a metric and a dimension component in your data view. Or when you use a field in multiple components, each with different component settings. 
+* **Use a component naming convention**. You can use a component naming convention to group components. For example, **[!UICONTROL Orders | Product]** and  **[!UICONTROL Orders | Customer]** to distinguish between different order metrics that might exist in your data.
+* **Use the Data Dictionary**. Add description and other relevant data for components in the Data Dictionary. The Data Insight agent currently does not use description and tags. but might use Data Dictionary description and tags in the future. 
+* **Use approved calculated metrics**. Agree on a process to use only approved calculated metrics as components in your data view, and avoid using experimental calculated metrics.
+* **Share required segments**. Ensure you share segments and make segments visible that are required for Data Insights agent prompts.
+* **Standardize on component names across data views**. If you use the same fields as a component in multiple data views, ensure you use a single friendly name and a single identifier for that component. A single name and identifier allows the Data Insights agent to switch data views without losing context.
 
 >[!MORELIKETHIS]
 >
->[구성 요소 설정](/help/data-views/component-settings/overview.md)
->&#x200B;>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[세그먼트 공유](/help/components/segments/seg-share.md)
+>[Component settings](/help/data-views/component-settings/overview.md)
+>[Data Dictionary](/help/components/data-dictionary/data-dictionary-overview.md)
+>[Approve calculated metric](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>[Share segments](/help/components/segments/seg-share.md)
 >
+
+-->
