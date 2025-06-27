@@ -1,17 +1,17 @@
 ---
-description: 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 주는 플로우 기능에 대해 알아봅니다.
+description: Analysis Workspace에서 플로우 시각화를 사용하는 방법에 대해 알아봅니다.
 title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 96%
 
 ---
 
-# 플로우 {#flow}
+# 플로우 개요 {#flow}
 
 <!-- markdownlint-disable MD034 -->
 

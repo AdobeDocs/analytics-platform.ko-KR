@@ -1,17 +1,17 @@
 ---
-description: Workspace 합계를 계산하는 방법을 알아봅니다.
-title: Workspace 합계
+description: Analysis Workspace에서 자유 형식 테이블의 합계를 계산하는 방법을 알아봅니다.
+title: 총계
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '488'
 ht-degree: 91%
 
 ---
 
-# Workspace 합계 {#workspace-totals}
+# 총계 {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
@@ -24,7 +24,7 @@ ht-degree: 91%
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
 * **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 세그먼트를 반영합니다.
-* **[!UICONTROL 총계]**(**개 중**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(]**개 중**[!UICONTROL &#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 
