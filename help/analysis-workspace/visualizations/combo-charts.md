@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 지난달, 지난해 등과 비교한 내용과 같은 비교 데이터를 쉽게 시각화할 수 있습니다.
-title: 콤보 차트 시각화
+description: 지난달, 지난해 등과 비교한 내용과 같은 Analysis Workspace의 비교 데이터를 시각화하는 방법을 알아봅니다.
+title: 콤보
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
 
-_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
+_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -99,6 +99,6 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

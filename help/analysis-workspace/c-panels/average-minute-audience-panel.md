@@ -1,13 +1,13 @@
 ---
-title: 미디어 평균 분당 시청 대상자 패널
-description: Analysis Workspace에서 미디어 평균 분당 시청 대상자 패널을 사용하고 해석하는 방법.
+title: 미디어 대상 평균 시간 패널
+description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패널을 사용하고 해석하는 방법에 대해 알아봅니다.
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 95%
+source-wordcount: '1679'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 미디어 평균 분당 시청 대상자 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [미디어 평균 분당 시청 대상자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 미디어 평균 분당 시청 대상자 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [미디어 평균 분당 시청 대상자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 >[!MORELIKETHIS]
 >
 > [패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
-> [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+> > [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+> > [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >

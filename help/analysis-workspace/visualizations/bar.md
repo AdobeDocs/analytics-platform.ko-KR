@@ -1,13 +1,13 @@
 ---
-description: 막대 시각화는 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
+description: Analysis Workspace에서 막대 및 스택 막대 시각화를 사용하는 방법에 대해 알아봅니다.
 title: 막대 및 스택 막대
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 
@@ -48,7 +48,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!CONTEXTUALHELP]
 >id="workspace_barstacked_button"
 >title="스택 막대"
->abstract="하나 이상의 누적된 지표에서 다양한 값을 나타내는 막대 시각화를 만듭니다."
+>abstract="하나 이상의 스택 지표에서 다양한 값을 나타내는 막대 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -64,7 +64,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

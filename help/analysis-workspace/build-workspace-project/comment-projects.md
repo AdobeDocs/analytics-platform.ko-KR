@@ -1,10 +1,10 @@
 ---
-description: Analysis Workspace에서 프로젝트에 주석을 다는 방법에 대해 알아봅니다.
-title: 프로젝트의 주석 추가 및 보기
+description: Analysis Workspace에서 프로젝트에 댓글을 다는 방법을 알아봅니다.
+title: 프로젝트의 주석 추가 및 관리
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 0%
@@ -151,9 +151,9 @@ Analysis Workspace의 주석 기능을 사용하면 다른 사용자와 보다 �
 
 ## 댓글에 대한 알림 받기
 
-프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.svg)에서 볼 수 있습니다.
+프로젝트 소유자 및 [언급하는 특정 사용자](#include-others-in-a-comment)는 Adobe Experience Cloud 알림 설정에 따라 알림을 받습니다. 기본적으로 인앱 알림을 받으며, Customer Journey Analytics의 [Experience Cloud 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notification.svg)에서 볼 수 있습니다.
 
-또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
+또한 사용자는 [이메일 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) 및 [Slack 알림을 구독](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)하여 이메일 알림 및 Slack 알림을 받도록 Experience Cloud 알림 설정을 구성할 수 있습니다.
 
 ## 기존 댓글에 대한 배지 배치
 

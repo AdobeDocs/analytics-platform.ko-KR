@@ -1,14 +1,14 @@
 ---
-description: Workspace에서 폴더를 추가하거나 이동하는 방법 알아보기
+description: Analysis Workspace에서 프로젝트를 폴더에 추가하거나 이동하는 방법에 대해 알아봅니다.
 keywords: Analysis Workspace
-title: 프로젝트를 추가하거나 폴더로 이동
+title: 폴더에 프로젝트 추가 또는 이동
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 93%
+source-wordcount: '263'
+ht-degree: 87%
 
 ---
 

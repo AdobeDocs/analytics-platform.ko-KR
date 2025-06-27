@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 99%
 
 ---
 
@@ -173,12 +173,13 @@ ht-degree: 98%
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트의 댓글](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [프로젝트 저장](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace의 폴더 {#workspace-folders}
-         + [폴더 정보](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 및 하위 폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [개요](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [프로젝트를 추가하거나 폴더로 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [핫키 (단축키)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [프로젝트 추가 또는 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [단축키](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + 템플릿 {#templates}
@@ -195,8 +196,8 @@ ht-degree: 98%
             + [열 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [테이블 필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace 합계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [총계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 코호트 테이블 {#cohort-table}
          + [개요](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -228,11 +229,11 @@ ht-degree: 98%
       + [섹션 헤더](/help/analysis-workspace/visualizations/section-header.md)
       + [요약 숫자 및 변경 사항](../analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](../analysis-workspace/visualizations/text.md)
-      + [트리 맵](../analysis-workspace/visualizations/treemap.md)
+      + [트리맵](../analysis-workspace/visualizations/treemap.md)
       + [벤](../analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [개요](../analysis-workspace/c-panels/panels.md)
-      + [빈 패널](../analysis-workspace/c-panels/blank-panel.md)
+      + [빈](../analysis-workspace/c-panels/blank-panel.md)
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
@@ -260,7 +261,6 @@ ht-degree: 98%
       + [개요](../analysis-workspace/c-forecast/forecasting.md)
       + [예측 보기](../analysis-workspace/c-forecast/view-forecasts.md)
       + [통계 기법](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [목차](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + Workspace FAQ 및 기타 {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
@@ -398,9 +398,9 @@ ht-degree: 98%
    + [세그먼트를 사용한 작업](../report-builder/work-with-filters.md)
    + [차원 필터링](../report-builder/filter-dimensions.md)
    + [데이터 블록 관리](../report-builder/manage-reportbuilder.md)
-   + [전자 메일에 대한 통합 문서 예약](../report-builder/schedule-reportbuilder.md)
-   + [클라우드 내보내기를 위한 통합 문서 예약](../report-builder/report-builder-export.md)
-   + [워크북 일정 관리](/help/report-builder/manage-schedules-reportbuilder.md)
+   + [이메일용 일정 워크북](../report-builder/schedule-reportbuilder.md)
+   + [클라우드 내보내기용 일정 워크북](../report-builder/report-builder-export.md)
+   + [통합 문서 일정 관리](/help/report-builder/manage-schedules-reportbuilder.md)
    + [제한된 레이블](../report-builder/restricted-labels.md)
    + [Report Builder 설정](../report-builder/report-builder-settings.md)
 

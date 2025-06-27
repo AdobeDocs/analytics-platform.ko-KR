@@ -1,28 +1,28 @@
 ---
-description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작에 대해 알아봅니다.
+description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 동작을 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Workspace 단축키를 사용하는 방법
+title: 단축키
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# 핫키 (단축키)
+# 단축키
 
 Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 탐색, 분석 및 민주화를 수행할 수 있습니다.
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL **&#x200B; Shift &#x200B;**]&#x200B;**&#x200B;의 경우 &#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL **&#x200B; Cmd &#x200B;**]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL **&#x200B; Ctrl &#x200B;**]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL **&#x200B; Opt &#x200B;**]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL **&#x200B; Alt &#x200B;**]**(대체)의 경우.
+- **[!UICONTROL ** Shift **]**&#x200B;의 경우 **⇧**
+- **⌘****[!UICONTROL ** Cmd **]**(명령)의 경우.
+- **⌃****[!UICONTROL ** Ctrl **]**(제어)의 경우.
+- **⌥****[!UICONTROL ** Opt **]**(옵션)의 경우.
+- **⎇****[!UICONTROL ** Alt **]**(대체)의 경우.
 
 ## 탐색 작업
 

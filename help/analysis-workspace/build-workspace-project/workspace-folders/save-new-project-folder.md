@@ -1,32 +1,36 @@
 ---
-description: Workspace의 폴더에 프로젝트 저장에 대해 알아보기
+description: Analysis Workspace의 폴더에 새 프로젝트를 저장하는 방법을 알아봅니다.
 keywords: Analysis Workspace
-title: 폴더에 프로젝트 저장
+title: 폴더에 새 프로젝트 저장
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
 role: User
-source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
-workflow-type: ht
-source-wordcount: '93'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
-# 폴더에 새 프로젝트 저장
+# 새 프로젝트를 폴더에 저장
 
-<!-- Is this article still needed -->
+자세한 내용은 [프로젝트 저장](../save-projects.md#save)을 참조하십시오.
+
+<!-- Is this article still needed; removed from TOC
 
 
-새 프로젝트를 특정 폴더에 저장하려면 프로젝트 저장 대화 상자에서 폴더 이름을 선택합니다.
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. Workspace에서 새 프로젝트를 만듭니다.
+1. In Workspace, create a new project.
 
-   ![새 프로젝트를 만들 수 있는 자유 형식 테이블 창입니다.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+    ![The Freeform table window where you can create a new project.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. **프로젝트** > **저장** 대화 상자의 폴더 드롭다운 메뉴에서 폴더 이름을 선택합니다.
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   ![새 프로젝트를 폴더에 저장하는 저장 창입니다.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![The Save window where you save your new project to a folder.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
-1. **저장**&#x200B;을 클릭합니다.
+1. Click **Save**.
 
-   선택한 폴더에 프로젝트가 저장됩니다.
+    The project is saved in the selected folder.
+
+-->

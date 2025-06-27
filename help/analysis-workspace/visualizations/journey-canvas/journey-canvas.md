@@ -1,13 +1,13 @@
 ---
-description: 여정 캔버스 개요
-title: 여정 캔버스
+description: Analysis Workspace에서 여정 캔버스를 사용하는 방법을 알아봅니다.
+title: 여정 캔버스 개요
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '1988'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 99%
 
 ---
 
@@ -263,5 +263,5 @@ Analysis Workspace에서 사용할 수 있는 모든 차원이나 지표를 기�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ko)
+> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

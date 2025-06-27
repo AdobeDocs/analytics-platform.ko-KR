@@ -1,50 +1,56 @@
 ---
-description: 폴더에서 프로젝트 이름을 바꾸는 방법 알아보기
+description: Analysis Workspace에서 프로젝트를 제거하는 방법을 알아봅니다.
 keywords: Analysis Workspace
-title: 폴더에서 프로젝트 제거
+title: 프로젝트 제거
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: 9506cc42e80f25f68a891f21f38d60fb4d364588
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-# 프로젝트 삭제
-
-<!-- Is this article still needed -->
+# 프로젝트 제거
 
 
-## 프로젝트 이동 {#move-project-in-folder}
+Analysis Workspace에서 프로젝트를 제거하는 방법은 [프로젝트 관리의 작업](../freeform-overview.md#actions)을 참조하십시오.
 
-만든 프로젝트를 한 폴더에서 다른 폴더로 이동할 수 있습니다.
 
-1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
+<!-- Is this article still needed; not in the TOC anymore
 
-   ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. **다음으로 이동**&#x200B;을 선택한 후 프로젝트를 이동할 폴더를 선택합니다.
+## Move a project {#move-project-in-folder}
 
-   ![The Select Location window.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+You can move projects from one folder to another folder that you created.
 
-1. **이동**&#x200B;을 클릭합니다.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![Click Move.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-   프로젝트가 이동되었다는 확인 알림이 표시됩니다.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![The move confirmation toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![The Select Location window.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-## 폴더에서 프로젝트 삭제 {#delete-project-in-folder}
+1. Click **Move**.
 
-폴더에서 프로젝트를 삭제하면 180일 후 시스템에서 삭제됩니다. 사용자는 프로젝트로 직접 연결되는 URL이 있는 경우 삭제 후 180일 동안 웹 인터페이스를 통해 삭제된 프로젝트에 계속 액세스할 수 있습니다.
+    ![Click Move.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
+    A toast confirms that the project was moved.
 
-   ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![The move confirmation toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-1. **삭제**&#x200B;를 선택합니다.
+## Delete a project from a project folder {#delete-project-in-folder}
 
-1. 대화 상자에서 삭제를 확인하는 창이 뜹니다.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a direct URL to the project.
+
+1. From within a project folder, select the **...** ellipsis next to the project name.
+
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+
+1. Select **Delete**.
+
+1. A confirmation window asks you to confirm the deletion.
+
+-->

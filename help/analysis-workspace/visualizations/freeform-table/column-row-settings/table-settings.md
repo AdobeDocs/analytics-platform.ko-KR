@@ -1,13 +1,13 @@
 ---
-description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
+description: 행 설정을 사용하는 방법과 Analysis Workspace에서 자유 형식 테이블로 드래그한 구성 요소에 따라 행 설정이 어떻게 달라지는지 알아봅니다.
 title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 91%
+source-wordcount: '1056'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -90,4 +90,4 @@ ht-degree: 91%
 
 ## 행 높이 변경
 
-프로젝트의 보기 밀도를 **[!UICONTROL 축소]**, **[!UICONTROL 편안함]**, **[!UICONTROL 확장됨]**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**(으)로 설정할 수 있습니다.

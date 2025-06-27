@@ -1,14 +1,14 @@
 ---
-description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
-keywords: 폴아웃 및 세그먼트;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
+description: Analysis Workspace의 폴아웃 분석에서 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, 다양한 세그먼트 간에 주요 워크플로우를 비교하는 방법에 대해 알아봅니다.
+keywords: 폴아웃 및 세그먼테이션;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
 title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '468'
+ht-degree: 34%
 
 ---
 
@@ -18,11 +18,14 @@ ht-degree: 38%
 
 >[!IMPORTANT]
 >
->폴아웃에서 체크포인트로 사용되는 세그먼트는 폴아웃 시각화의 전체 컨텍스트보다 낮은 수준에 있는 컨테이너를 사용해야 합니다. 사용자 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 세그먼트는 세션 또는 이벤트 기반 세그먼트여야 합니다. 세션 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 세그먼트는 이벤트 기반 세그먼트여야 합니다. 잘못된 조합을 사용하는 경우 폴아웃은 100%입니다. 호환되지 않는 세그먼트를 터치포인트로 추가할 때 폴아웃 시각화에 대한 경고가 표시됩니다. 잘못된 특정 세그먼트 컨테이너 조합은 다음과 같이 잘못된 폴아웃 다이어그램을 만듭니다.
+>폴아웃에서 체크포인트로 사용되는 세그먼트는 폴아웃 시각화의 전체 컨텍스트보다 낮은 수준에 있는 컨테이너를 사용해야 합니다. 사용자 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 세그먼트는 세션 또는 이벤트 기반 세그먼트여야 합니다. 세션 컨텍스트 폴아웃을 사용하면 체크포인트로 사용되는 세그먼트는 이벤트 기반 세그먼트여야 합니다. 잘못된 조합을 사용하는 경우 폴아웃은 100%입니다. 호환되지 않는 세그먼트를 터치포인트로 추가할 때 폴아웃 시각화에 경고가 표시됩니다. 잘못된 특정 세그먼트 컨테이너 조합은 다음과 같이 잘못된 폴아웃 다이어그램을 만듭니다.
 >
->* 사람 컨텍스트 폴아웃 시각화에서 사람 기반 세그먼트를 터치포인트로 사용
+>* 사용자 컨텍스트 폴아웃 시각화에서 사용자 기반 세그먼트를 터치포인트로 사용
 >* 세션 컨텍스트 폴아웃 시각화에서 사용자 기반 세그먼트를 터치포인트로 사용
 >* 세션 컨텍스트 폴아웃 시각화에서 세션 기반 세그먼트를 터치포인트로 사용
+<!-- Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* -->
 
 ## 터치 포인트에서 세그먼트 만들기
 

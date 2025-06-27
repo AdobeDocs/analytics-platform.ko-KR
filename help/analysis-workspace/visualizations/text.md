@@ -1,13 +1,13 @@
 ---
-description: 사용자 정의 텍스트를 내 Workspace에 추가합니다.
+description: Analysis Workspace 프로젝트에 사용자 정의 텍스트를 추가하는 방법을 알아봅니다.
 title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 75d45cd6a2149bb44949ec6e0f3808ea4a6995f5
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 86%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 텍스트 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 텍스트 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 

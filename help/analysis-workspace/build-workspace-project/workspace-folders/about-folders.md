@@ -1,22 +1,22 @@
 ---
-description: Workspace의 폴더 정보 알아보기
+description: Analysis Workspace의 폴더에서 프로젝트를 구성하는 방법을 알아봅니다.
 keywords: Analysis Workspace
 title: 폴더 개요
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
 # 폴더 개요
 
-[폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)가 선택된 경우 Customer Journey Analytics의 폴더는 Workspace 랜딩 페이지에서 사용할 수 있습니다.
-
 Workspace의 폴더는 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 폴더 기능을 사용하면 폴더와 하위 폴더를 만들어 프로젝트를 관리할 수 있습니다.
+
+[폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)가 선택된 경우 Customer Journey Analytics의 폴더는 Workspace 랜딩 페이지에서 사용할 수 있습니다.
 
 Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다. 공유 회사 폴더를 통해 관리자는 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있게 합니다.
 

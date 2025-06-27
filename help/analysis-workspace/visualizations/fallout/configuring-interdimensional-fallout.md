@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로의 터치포인트로 차원과 지표를 혼합하고 일치시킬 수 있습니다. 폴아웃을 사용하면 조사할 사용자 단계를 보다 유연하게 정의할 수 있습니다.
+description: Analysis Workspace의 폴아웃 시각화를 통해 단계 및 워크플로의 터치포인트로 차원과 지표를 혼합하고 일치시키는 방법에 대해 알아봅니다. 조사할 사용자 단계를 보다 유연하게 정의하는 방법을 이해합니다.
 title: 차원 간 폴아웃
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
-source-git-commit: 37158b4e614435724205c505f322c1d7a434c35d
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 7%
 
 ---

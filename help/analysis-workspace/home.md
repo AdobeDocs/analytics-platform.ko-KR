@@ -1,15 +1,15 @@
 ---
 keywords: Analysis Workspace
 title: Analysis Workspace 개요
-description: Analysis Workspace 기능 개요
+description: Adobe Analytics의 고급 분석 툴인 Analysis Workspace에 대해 알아보십시오. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 구체화하고 분석을 조정 및 공유할 수 있습니다.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
-source-wordcount: '1469'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '1490'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,9 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
+
+{{videoaa}}
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +34,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 | 위치 | 이름 및 기능 |
 |:---------:|----------|
 | A | 프로젝트 이름기능에 액세스하는 메뉴 구조, 프로젝트 목록으로 돌아가는 ![뒤로 버튼](/help/assets/icons/ChevronLeft.svg) 및 [Workspace 프로젝트를 공유](/help/analysis-workspace/curate-share/share-projects.md)하는 **[!UICONTROL 공유]** 버튼을 포함합니다. <br/>언제든지 프로젝트 이름(예: 새 프로젝트)을 선택하여 이름을 변경합니다. <br/>프로젝트를 자주 사용하는 프로젝트로 표시하려면 ![즐겨찾기에서 추가](/help/assets/icons/Star.svg) 또는![즐겨찾기 취소](/help/assets/icons/StarOutline.svg)를 선택합니다. |
-| B | **버튼 패널:** Analysis Workspace의 주요 [기능](#features)에 액세스할 수 있는 버튼이 포함되어 있습니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **단추 패널:** Analysis Workspace의 키 [기능](#features)에 액세스할 수 있는 단추를 포함합니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **왼쪽 패널**: 이 영역에는 개별 패널, 시각화, 구성 요소 또는 목록이 포함됩니다. 콘텐츠는 버튼 패널에서 선택한 버튼에 따라 달라집니다. |
 | D | **캔버스**: 왼쪽 패널에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널을 추가하고, 시각화를 패널에 추가하고, 구성 요소를 시각화에 추가하면 프로젝트가 동적으로 업데이트됩니다. 여러 패널을 만들고, 각 패널 내부에서 여러 시각화를 만들 수 있습니다.<br/>각 패널은 선택한 데이터 보기를 기반으로 합니다. 선택한 데이터 보기는 사용할 수 있는 지표와 차원과 같은 구성 요소를 결정합니다. 자세한 내용은[패널 - 데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 참조하십시오. |
 
@@ -121,16 +123,16 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 파일 내보내기 예약]** | **[!UICONTROL *Shift+Opt+S *]** | **[!UICONTROL *Shift+Alt+S *]** | [프로젝트를 다른 수신자에게 일정에 따라 CSV 또는 PDF로 전송](/help/analysis-workspace/curate-share/send-schedule-files.md). |
 | **[!UICONTROL 프로젝트 데이터 조정]** | **[!UICONTROL *Shift+Cmd+G *]** | **[!UICONTROL *Shift+Ctrl+G *]** | [프로젝트 데이터 조정](/help/analysis-workspace/curate-share/curate.md). |
 
-| 도움말 | 단축키 Mac | 단축키 Windows | 설명 |
-|---|---|---|---|
-| **[!UICONTROL 비디오]** | | | 새 브라우저 탭에서 Customer Journey Analytics YouTube 채널을 엽니다. |
-| **[!UICONTROL 도움말 설명서]** | | | 새 브라우저 탭에서 설명서(실제로 방금 읽은 문서...)를 엽니다. |
-| **[!UICONTROL 도움말 포럼]** | | | 새 브라우저 탭에서 Adobe Analytics Experience League 커뮤니티 포럼을 엽니다. |
-| **[!UICONTROL 핫키]** | | | Workspace에서 사용할 수 있는 핫키(단축키)에 대한 개요를 표시합니다. |
-| **[!UICONTROL 디버거 활성화]** |  | | 디버거를 활성화합니다. 프로젝트가 다시 로드됩니다. |
-| **[!UICONTROL 디버거 비활성화]** | | | 디버거를 비활성화합니다. 프로젝트가 다시 로드됩니다. |
-| **[!UICONTROL 성능]** | | | **[!UICONTROL Analysis Workspace]** 성능의 지표를 보여 주는 대화 상자를 표시합니다. **[!UICONTROL CSV로 다운로드]**&#x200B;를 사용하여 성과 지표의 CSV 파일을 다운로드합니다. |
-| **[!UICONTROL Workspace 정보 페이지]** | | | 버전 정보, 기능 액세스 수준 및 활성 기능 플래그와 함께 **[!UICONTROL Analysis Workspace 정보 페이지]** 대화 상자를 표시합니다. |
+| 도움말 | 설명 |
+|---|---|
+| **[!UICONTROL 비디오]** | 새 브라우저 탭에서 Customer Journey Analytics YouTube 채널을 엽니다. |
+| **[!UICONTROL 도움말 설명서]** | 새 브라우저 탭에서 설명서(실제로 방금 읽은 문서...)를 엽니다. |
+| **[!UICONTROL 도움말 포럼]** | 새 브라우저 탭에서 Adobe Analytics Experience League 커뮤니티 포럼을 엽니다. |
+| **[!UICONTROL 핫키]** | Workspace에서 사용할 수 있는 핫키(단축키)에 대한 개요를 표시합니다. |
+| **[!UICONTROL 디버거 활성화]** | 디버거를 활성화합니다. 프로젝트가 다시 로드됩니다. |
+| **[!UICONTROL 디버거 비활성화]** | 디버거를 비활성화합니다. 프로젝트가 다시 로드됩니다. |
+| **[!UICONTROL 성능]** | **[!UICONTROL Analysis Workspace]** 성능의 지표를 보여 주는 대화 상자를 표시합니다. **[!UICONTROL CSV로 다운로드]**&#x200B;를 사용하여 성과 지표의 CSV 파일을 다운로드합니다. |
+| **[!UICONTROL Workspace 정보 페이지]** | 버전 정보, 기능 액세스 수준 및 활성 기능 플래그와 함께 **[!UICONTROL Analysis Workspace 정보 페이지]** 대화 상자를 표시합니다. |
 
 ## 데이터 소스
 

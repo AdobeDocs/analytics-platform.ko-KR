@@ -1,13 +1,13 @@
 ---
 title: 분산
-description: 최대 3개의 지표 간 관계를 보여 주는 시각화.
+description: 분산형 시각화를 사용하여 최대 3개의 지표 간 관계를 표시합니다.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 92%
 
 ---
 
@@ -32,9 +32,9 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 분산]** 시각화는 차원 항목과 최대 3개 지표 간의 관계를 보여 줍니다. 시각화는 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
 
-* 행 구성 요소 (일반적으로 차원)는 그래프의 각 점을 나타냅니다. 서로 다른 행은 서로 다른 색상 점으로 표시됩니다.
-* 가장 왼쪽 열 (일반적으로 지표)은 Y축 (세로)에서 점의 위치를 나타냅니다.
-* 두 번째 열은 X축 (가로)에서 점의 위치를 표시합니다.
+* 행 구성 요소(일반적으로 차원)는 그래프의 각 점을 나타냅니다. 서로 다른 행은 서로 다른 색상 점으로 표시됩니다.
+* 가장 왼쪽 열(일반적으로 지표)은 Y축(세로)에서 점의 위치를 나타냅니다.
+* 두 번째 열은 X축(가로)에서 점의 위치를 표시합니다.
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
@@ -43,7 +43,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -51,6 +51,6 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

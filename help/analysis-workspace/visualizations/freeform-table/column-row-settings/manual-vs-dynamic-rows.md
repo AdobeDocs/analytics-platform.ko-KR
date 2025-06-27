@@ -1,19 +1,19 @@
 ---
-title: 동적 및 정적 차원 항목
-description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법
+title: 동적 및 정적 Dimension 항목
+description: Analysis Workspace의 자유 형식 테이블에서 동적 차원 항목과 정적 차원 항목을 사용하는 방법에 대해 알아봅니다.
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '544'
+ht-degree: 88%
 
 ---
 
 # 동적 및 정적 차원 항목
 
-자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적(시간에 따라 변경) 또는 정적(시간에 따라 변경되지 않음)일 수 있습니다.
+자유 형식 테이블에서 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적(시간에 따라 변경) 또는 정적(시간에 따라 변경되지 않음)일 수 있습니다.
 
 ## 동적 차원 항목
 

@@ -1,13 +1,13 @@
 ---
 title: 자유 형식 테이블 개요
-description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
+description: Analysis Workspace에서 데이터 분석을 위한 기반인 자유 형식 테이블을 사용하는 방법에 대해 알아봅니다.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 97%
 
 ---
 

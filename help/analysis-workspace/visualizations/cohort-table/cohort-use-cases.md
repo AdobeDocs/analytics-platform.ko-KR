@@ -1,26 +1,26 @@
 ---
-description: 집단 분석의 사용 사례 예제에 대해 알아봅니다.
+description: 집단 분석의 몇 가지 사용 사례 사례에 대해 알아봅니다.
 keywords: Analysis Workspace
-title: 코호트 분석 사용 사례
+title: 집단 분석 사용 사례
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 52%
+source-wordcount: '974'
+ht-degree: 51%
 
 ---
 
-# [!UICONTROL 집단 분석] 사용 사례
+# 코호트 분석 사용 사례
 
-이 문서에서는 [!UICONTROL 집단 분석]에 대한 몇 가지 사용 사례 예제를 설명합니다.
+이 문서에서는 집단 분석의 몇 가지 사용 사례 예를 설명합니다.
 
 ## 앱 참여 사용 사례
 
 앱을 설치하는 사용자가 어떻게 시간이 지남에 따라 앱에 참여하는지를 분석하려 한다고 가정합니다. 사용자들이 앱을 설치한 후 사용한 적이 없습니까? 잠깐 사용하고는 서서히 사용하지 않습니까? 또는 시간이 지남에 따라 참여한 채로 남아 있습니까?
 
-6개월 [!UICONTROL 코호트 분석]을 생성할 수 있습니다.
+6개월 집단 분석을 생성할 수 있습니다.
 
 **세부 기간**: 2015년 1월부터 2015년 6월까지 매월.
 

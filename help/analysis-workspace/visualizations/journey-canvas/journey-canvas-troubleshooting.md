@@ -1,11 +1,12 @@
 ---
-description: 여정 캔버스 시각화 구성 시 예제
-title: 여정 캔버스 예
+description: 여정 캔버스 시각화를 구성할 때 문제를 해결하는 방법을 알아봅니다.
+title: 여정 캔버스 문제 해결
 feature: Visualizations
 role: User
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---

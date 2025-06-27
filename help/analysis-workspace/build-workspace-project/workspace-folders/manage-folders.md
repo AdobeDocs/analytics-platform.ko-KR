@@ -1,21 +1,21 @@
 ---
-description: Workspace에서 폴더를 관리하는 방법에 대해 알아보기
+description: Analysis Workspace에서 폴더를 관리하는 방법에 대해 알아봅니다.
 keywords: Analysis Workspace
-title: Workspace의 폴더 관리
+title: 폴더 관리
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 86%
 
 ---
 
 
 # 폴더 관리
 
-두 가지 방법으로 Workspace의 폴더를 관리할 수 있습니다. 폴더 내부에서 또는 프로젝트 목록에서 선택한 하나 이상의 폴더에서 관리합니다. 폴더 관리에 폴더 이름 바꾸기, 폴더 이동 또는 삭제가 포함됩니다.
+두 가지 방법으로 Workspace의 폴더를 관리할 수 있습니다. 폴더 내부에서 또는 프로젝트 목록에서 선택한 하나 이상의 폴더에서 관리합니다. 폴더 관리에는 폴더 이름을 바꾸거나, 폴더를 이동 또는 삭제하는 옵션이 포함되어 있습니다.
 
 ## 폴더 이름 바꾸기
 
@@ -26,13 +26,13 @@ Workspace에서 폴더 이름을 바꾸는 방법:
 * [프로젝트 목록](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 이름을 바꾸려는 폴더를 선택합니다.
 
    1. 선택한 폴더의 ![More](/help/assets/icons/More.svg) 컨텍스트 메뉴 또는 파란색 작업 표시줄에 제공되는 [액션](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**&#x200B;대화 상자에서 이름을 새로 입력하고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**대화 상자에서 이름을 새로 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다.
 
 * 이름을 바꾸려는 폴더 내부.
 
    1. [제목 영역](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)의 ![More](/help/assets/icons/More.svg)에서 **[!UICONTROL 폴더 이름 바꾸기]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**&#x200B;대화 상자에서 이름을 새로 입력하고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**대화 상자에서 이름을 새로 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다.
 
 
 ## 폴더 이동

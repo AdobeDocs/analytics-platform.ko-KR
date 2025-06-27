@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 자유 형식 패널에 대한 자세한 내용.
+description: 자유 형식 테이블과 함께 Analysis Workspace 프로젝트의 시작 상태로 자유 형식 패널을 사용하는 방법에 대해 알아봅니다.
 title: 자유 형식 패널
 feature: Panels
 exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 84%
 
 ---
 
@@ -37,6 +37,6 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)
->[자유 형식 테이블 시각화](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)
+>>[자유 형식 테이블 시각화](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >
