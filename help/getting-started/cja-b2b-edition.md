@@ -44,7 +44,7 @@ Customer Journey Analytics B2B Edition은 매출 성장을 촉진하는 실행 �
 >[!MORELIKETHIS]
 >
 >[B2B 개념 및 기능](cja-b2b-concepts-features.md)
->>[B2B 빠른 시작 안내서](cja-b2b-quick-start-guide.md)
->>[B@2B 전환 안내서](cja-b2b-transition.md)
->>[B2B 사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>&#x200B;>[B2B 빠른 시작 안내서](cja-b2b-quick-start-guide.md)
+>&#x200B;>[B@2B 전환 안내서](cja-b2b-transition.md)
+>&#x200B;>[B2B 사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >
