@@ -17,7 +17,7 @@ ht-degree: 52%
 조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한할 수 있습니다. 수신자가 프로젝트를 열면 해당 프로젝트를 위해 선별한 제한된 구성 요소 세트가 표시됩니다. 조정 작업은 선택 사항이지만 프로젝트를 공유하기 전에 권장되는 단계입니다.
 
 >[!NOTE]
-> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud)을 통해 관리됩니다. 조정은 보조 세그먼트입니다.
+> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-tool-experience-cloud)을 통해 관리됩니다. 조정은 보조 세그먼트입니다.
 
 ## 프로젝트 조정 적용
 
