@@ -4,14 +4,14 @@ title: 프로젝트 조정 및 공유 개요
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 52%
 
 ---
 
-# 개요 조정 및 공유
+# 프로젝트 조정 및 공유 개요
 
 Analysis Workspace의 **[!UICONTROL 공유]** 메뉴에서 사용 가능한 옵션을 사용하거나 인터페이스 오른쪽 상단에서 **[!UICONTROL 공유]**&#x200B;를 선택하면 프로젝트를 조정 및 공유하거나 프로젝트를 조직의 수신자나 다른 사람과 PDF 또는 CSV 파일로 보낼 수 있습니다.
 

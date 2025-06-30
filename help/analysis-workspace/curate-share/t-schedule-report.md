@@ -6,14 +6,14 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '793'
 ht-degree: 50%
 
 ---
 
-# 전송 및 예약
+# 프로젝트 보내기 및 예약
 
 Customer Journey Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 프로젝트를 보내도록 구성할 수 있습니다. 프로젝트는 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
