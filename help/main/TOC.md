@@ -9,13 +9,12 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 20a7ae368a9480697b6c07e88b557fbea425a932
+source-git-commit: 9f55946efb0471e1b92e9fabedc2b3d3a7b713a8
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1252'
 ht-degree: 98%
 
 ---
-
 
 # Adobe Customer Journey Analytics 안내서 {#using}
 
@@ -48,7 +47,7 @@ ht-degree: 98%
       + [빠른 시작 안내서](/help/getting-started/cja-b2b-quick-start-guide.md)
       + [전환 안내서](/help/getting-started/cja-b2b-transition.md)
 
-+ Customer Journey Analytics와 Adobe Analytics 비교 {#compare-aa-cja}
++ 업그레이드 및 비교 {#compare-aa-cja}
    + Customer Journey Analytics로 업그레이드 {#upgrade-to-cja}
       + [시작하기](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
@@ -98,7 +97,7 @@ ht-degree: 98%
          + [Web SDK 구현 옵션](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
          + [Platform용 Adobe Analytics Web SDK 구성](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
          + [Adobe Journey Optimizer를 통한 개인화 사용](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
-   + Adobe Analytics와의 비교 {#cja-aa-comparison}
+   + Adobe Analytics과 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
