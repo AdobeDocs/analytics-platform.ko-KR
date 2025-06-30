@@ -1,14 +1,14 @@
 ---
-description: Workspace의 프로젝트 공유 및 프로젝트 역할
+description: Analysis Workspace에서 프로젝트를 공유하는 방법을 알아봅니다.
 keywords: Analysis Workspace 공유
 title: 프로젝트 공유
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 98%
+source-wordcount: '2089'
+ht-degree: 97%
 
 ---
 
@@ -40,16 +40,16 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://video.tv.adobe.com/v/40036/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## 조직 내 Customer Journey Analytics 사용자 및 그룹과 공유 {#Add}
+## 조직의 사용자 및 그룹과 공유 {#Add}
 
-조직의 기존 Customer Journey Analytics 사용자 또는 그룹과 프로젝트를 공유할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 때 공유 받는 사용자는 Customer Journey Analytics 계정을 보유하고 있어야 합니다.
+조직의 기존 Analysis Workspace 사용자 또는 그룹과 프로젝트를 공유할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 때 공유 받는 사용자는 Customer Journey Analytics 계정을 보유하고 있어야 합니다.
 
 사용자 또는 그룹과 특정 역할을 공유하거나 링크를 공유할 수 있습니다.
 
@@ -83,7 +83,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
 저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
@@ -161,7 +161,7 @@ Customer Journey Analytics에 액세스할 수 없는 사용자에게 Analysis W
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://video.tv.adobe.com/v/3452463/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://video.tv.adobe.com/v/30902/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

@@ -1,14 +1,14 @@
 ---
-description: Workspace의 읽기 전용 프로젝트
+description: Analysis Workspace의 읽기 전용 프로젝트 경험을 이해합니다.
 keywords: 읽기 전용 프로젝트
 title: 읽기 전용 프로젝트
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 37%
+source-wordcount: '303'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 37%
 보기 전용 프로젝트에서 비활성화된 상호 작용은 다음과 같습니다.
 
 * 숨겨진 왼쪽 패널
-* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)에 추가하십시오.
+* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)에 추가하십시오.
 * 자유 형식 세그먼트화
 * 보이는 행의 자유 형식 수
 * 자유 형식 행, 열 또는 시각화 설정
@@ -43,10 +43,10 @@ ht-degree: 37%
 
 | 영역 | 활성화된 상호 작용 |
 | --- | --- |
-| 자유 형식 테이블 | <ul><li>페이지 매김 및 정렬</li><li>마우스로 가리키기</li><li>연결된 시각화를 업데이트하는 셀 선택</li><li>컨텍스트 메뉴 > 시각화 링크 가져오기</li><li>컨텍스트 메뉴 > 클립보드에 복사</li></ul> |
-| 시각화 | <ul><li>범례를 켜거나 해제하려면 클릭</li><li>마우스로 가리키기</li><li>컨텍스트 메뉴 > 시각화 링크 가져오기</li><li>축소/확장</li><li>플로우 - 플로우 노드 확장</li><li>지도 - 확대/축소</li></ul> |
-| 패널 | <ul><li>대화형 드롭다운 세그먼트</li><li>컨텍스트 메뉴 > 패널 링크 가져오기</li><li>축소/확장</li></ul> |
-| 프로젝트 | <ul><li>모든 정보 아이콘 검사</li><li>프로젝트 메뉴 - 신규, 열기, 랜딩 페이지로 설정, 새로 고침, CSV/PDF 다운로드, 제한된 프로젝트 정보 및 설정</li><li>공유 메뉴 - 프로젝트 링크 받기, 지금 파일 보내기</li><li>도움말 메뉴 - 팁 및 디버거 옵션을 제외한 모든 작업</li></ul> |
+| **자유 형식 테이블** | <li>페이지 매김 및 정렬</li><li>마우스로 가리키기</li><li>연결된 시각화를 업데이트하는 셀 선택</li><li>컨텍스트 메뉴 > 시각화 링크 가져오기</li><li>컨텍스트 메뉴 > 클립보드에 복사</li> |
+| **시각화** | <li>범례를 켜거나 해제하려면 클릭</li><li>마우스로 가리키기</li><li>컨텍스트 메뉴 > 시각화 링크 가져오기</li><li>축소/확장</li><li>플로우 - 플로우 노드 확장</li><li>지도 - 확대/축소</li></ul> |
+| **패널** | <li>대화형 드롭다운 세그먼트</li><li>컨텍스트 메뉴 > 패널 링크 가져오기</li><li>축소/확장</li> |
+| **프로젝트** | <li>모든 정보 아이콘 검사</li><li>프로젝트 메뉴 - 신규, 열기, 랜딩 페이지로 설정, 새로 고침, CSV/PDF 다운로드, 제한된 프로젝트 정보 및 설정</li><li>공유 메뉴 - 프로젝트 링크 받기, 지금 파일 보내기</li><li>도움말 메뉴 - 팁 및 디버거 옵션을 제외한 모든 작업</li> |
 
 
 ## 모든 경험과 공유

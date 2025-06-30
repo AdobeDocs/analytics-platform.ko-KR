@@ -5,8 +5,8 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * [날짜 범위](date-ranges/create.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
 * [주석](/help/components/annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
 * [지능형 경고](/help/components/c-intelligent-alerts/intelligent-alerts.md): 이 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다.
-* [예약된 프로젝트](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): 예약된 프로젝트를 관리합니다.
+* [예약된 프로젝트](/help/analysis-workspace/curate-share/t-schedule-report.md#scheduled-projects-manager): 예약된 프로젝트를 관리합니다.
 * [환경 설정](/help/analysis-workspace/user-preferences.md): Analysis Workspace 환경 설정을 관리합니다.
 * [대상자](/help/components/audiences/audiences-overview.md): Customer Journey Analytics에서 대상자를 만들고 타기팅 및 맞춤화를 위한 Adobe Experience Platform의 [Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home)에 게시합니다.
 * [내보내기](/help/components/exports/manage-export-locations.md): 내보내기 계정 및 위치를 관리합니다.

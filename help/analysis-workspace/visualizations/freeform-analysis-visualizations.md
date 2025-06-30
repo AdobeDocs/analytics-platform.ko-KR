@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -139,11 +139,11 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | 옵션 | 설명 |
 | --- | --- |
 | **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
-| **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 데이터를 복사합니다. |
-| **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
-| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
+| **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 [데이터를 복사](/help/analysis-workspace/export/download-send.md#copy-to-clipboard)합니다. |
+| **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 [선택 항목을 복사](/help/analysis-workspace/export/download-send.md#copy-to-clipboard)합니다. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | [로컬 장치에 시각화의 차원 항목을 다운로드](/help/analysis-workspace/export/download-send.md#download-items-as-csv)(최대 50,000개)합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
-| **[!UICONTROL 데이터 CSV 다운로드]** | 시각화에 표시된 데이터를 로컬 디바이스에 다운로드합니다. |
+| **[!UICONTROL 데이터 CSV 다운로드]** | 로컬 장치에 시각화의 [표시된 데이터를 다운로드합니다](/help/analysis-workspace/export/download-send.md#download-as-csv). |
 | **[!UICONTROL 전체 테이블 내보내기]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [Customer Journey Analytics 보고서를 클라우드로 내보내기](../export/export-cloud.md) 참조 |
 | **[!UICONTROL 시각화 복제]** | 시각화를 정확하게 복제합니다. |
 | **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. [텍스트](text.md)를 확인합니다. |
