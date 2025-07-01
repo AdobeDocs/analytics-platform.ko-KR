@@ -4,7 +4,7 @@ title: 지표
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 42%
@@ -44,7 +44,7 @@ ht-degree: 42%
 
 ![검색](/help/assets/icons/Search.svg)을 사용하여 예약된 프로젝트를 검색합니다. 필터 패널에서 필터가 적용되어 있는지 확인할 수도 있습니다. 필터를 제거하려면 필터에 대해 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. 모든 필터를 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하십시오.
 
-예약된 프로젝트를 편집하려면 예약된 프로젝트의 제목을 선택합니다. **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자를 사용하여 일정 세부 정보를 업데이트합니다. 자세한 내용은 [다른 사용자에게 파일 보내기](../analysis-workspace/curate-share/t-schedule-report.md)를 참조하십시오.
+예약된 프로젝트를 편집하려면 예약된 프로젝트의 제목을 선택합니다. **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자를 사용하여 일정 세부 정보를 업데이트합니다. 자세한 내용은 [다른 사용자에게 파일 보내기](../analysis-workspace/export/t-schedule-report.md)를 참조하십시오.
 
 ![예약된 프로젝트 편집](assets/edit-scheduled-project.png)
 

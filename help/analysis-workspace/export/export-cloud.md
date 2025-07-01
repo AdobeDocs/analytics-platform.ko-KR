@@ -5,7 +5,7 @@ title: Customer Journey Analytics 보고서를 클라우드로 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 94%
@@ -81,7 +81,7 @@ Analysis Workspace에서 전체 테이블 내보내는 방법:
    | 필드 이름 | 함수 |
    |---------|----------|
    | 이름 | 내보내기 이름을 지정합니다. 이 이름은 내보내기 목록에 표시됩니다. |
-   | 태그 | 기존 태그를 내보내기에 적용할 수도 있고, 새 태그를 만들어 적용할 수도 있습니다. <p>기존 태그를 내보내기에 적용하려면 드롭다운 메뉴에서 원하는 태그를 선택합니다. 사용자의 모든 태그를 적용할 수 있습니다<!-- double-check this -->.</p> <p>새로운 태그를 만들려면 새 태그의 이름을 입력한 다음 Enter를 누릅니다.</p><p>내보내기에 태그를 적용할 때 다음 사항을 고려합니다. <ul><li>적용한 태그는 내보내기 테이블에서 필터링하거나 검색할 수 있습니다.</li> <li>프로젝트에 적용된 태그는 전체 테이블을 내보낼 때 자동으로 적용되지 않습니다. 자세한 내용은 [내보내기 관리](/help/components/exports/manage-exports.md)의 “내보내기 페이지에서 열 구성”에 설명되어 있습니다. (또는 [내보내기에 전체 프로젝트를 예약](/help/analysis-workspace/curate-share/t-schedule-report.md)하는 경우 프로젝트에 적용된 모든 태그가 자동으로 내보내기에 적용됩니다.) <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
+   | 태그 | 기존 태그를 내보내기에 적용할 수도 있고, 새 태그를 만들어 적용할 수도 있습니다. <p>기존 태그를 내보내기에 적용하려면 드롭다운 메뉴에서 원하는 태그를 선택합니다. 사용자의 모든 태그를 적용할 수 있습니다<!-- double-check this -->.</p> <p>새로운 태그를 만들려면 새 태그의 이름을 입력한 다음 Enter를 누릅니다.</p><p>내보내기에 태그를 적용할 때 다음 사항을 고려합니다. <ul><li>적용한 태그는 내보내기 테이블에서 필터링하거나 검색할 수 있습니다.</li> <li>프로젝트에 적용된 태그는 전체 테이블을 내보낼 때 자동으로 적용되지 않습니다. 자세한 내용은 [내보내기 관리](/help/components/exports/manage-exports.md)의 “내보내기 페이지에서 열 구성”에 설명되어 있습니다. (또는 [내보내기에 전체 프로젝트를 예약](/help/analysis-workspace/export/t-schedule-report.md)하는 경우 프로젝트에 적용된 모든 태그가 자동으로 내보내기에 적용됩니다.) <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 설명 | 내보내기에 설명을 추가합니다. 내보내기를 볼 때 [내보내기 페이지](/help/components/exports/manage-exports.md)에서 설명을 열로 볼 수 있습니다. |
    | 데이터 보기 | 내보내기에 포함할 구성 요소가 들어 있는 데이터 보기를 선택합니다. 데이터 보기 드롭다운 메뉴는 대화 상자의 왼쪽 상단에 있으며 데이터 보기 아이콘![데이터 보기 아이콘](assets/data-view-icon.png)으로 식별할 수 있습니다.  <p>**참고:** 데이터 테이블에 이미 포함된 구성 요소가 없는 데이터 보기를 선택하면 데이터 테이블을 지우고 선택한 데이터 보기에 포함된 구성 요소를 사용하여 다시 만들라는 메시지가 표시됩니다. </p> |
    | 전환 확인 기간 | 각 내보내기 파일에 포함할 보고 기간을 선택합니다. 옵션에는 [!UICONTROL **오늘**], [!UICONTROL **어제**], [!UICONTROL **지난 7일**], [!UICONTROL **지난 30일**], [!UICONTROL **이번 주**], [!UICONTROL **이번 달**]&#x200B;이 있습니다. <p>[!UICONTROL **내보내기 빈도**]&#x200B;를 [!UICONTROL **지금 보내기(일회성)**]&#x200B;로 설정한 경우 이 옵션은 표시되지 않습니다. |
