@@ -57,4 +57,4 @@ Adobe Analytics에서는 다음 옵션을 사용할 수 있습니다.
 
 * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고 만들기]**&#x200B;를 선택합니다.
 
-* Analysis Workspace에서 프로젝트를 연 다음 바로 가기 **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) 또는**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]**(macOS)를 사용하십시오.
+* Analysis Workspace에서 프로젝트를 연 다음 바로 가기 **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) 또는&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]**(macOS)를 사용하십시오.
