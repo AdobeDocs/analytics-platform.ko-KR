@@ -1,8 +1,8 @@
 ---
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4947'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # 스니펫
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 ## Adobe Analytics 비디오 데모 {#videoaa}
 
-이 비디오에서는 Adobe Analytics를 사용하는 기능을 시연합니다. 단, 해당 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. Adobe Analytics과 Customer Journey Analytics 간의 용어 차이점(예: *방문* 대 *세션*)을 파악하십시오.
+이 비디오에서는 Adobe Analytics를 사용하는 기능을 시연합니다. 단, 해당 기능은 Customer Journey Analytics에서도 유사하게 사용할 수 있습니다. Adobe Analytics와 Customer Journey Analytics의 용어 차이(예: *방문* 대 *세션*)에 유의하십시오.
 
 
 ## 태그 필터 섹션 {#tagfiltersection}

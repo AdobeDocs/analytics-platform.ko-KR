@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 프로젝트를 만드는 방법을 알아봅니다.
+description: Analysis Workspace에서 기본 프로젝트를 만드는 방법을 알아봅니다.
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 
 빈 Workspace 프로젝트를 만들고 나면 [Analysis Workspace](/help/analysis-workspace/home.md) 사용자 인터페이스를 잘 알고 있는지 확인합니다. 확인되면 프로젝트를 빌드할 수 있습니다. 이렇게 하려면 다음 작업을 수행하십시오.
 
-![Example project](assets/example-project.png)
+![예제 프로젝트](assets/example-project.png)
 
 * [패널](/help/analysis-workspace/c-panels/panels.md)를 프로젝트에 추가합니다. (예: **[!DNL Example Panel]** ➊).
 
@@ -66,7 +66,7 @@ Analysis Workspace의 [프로젝트](/help/analysis-workspace/build-workspace-pr
 
 프로젝트 설정에서는 현재 활성 상태인 프로젝트에 대한 프로젝트 수준의 정보를 제공합니다.
 
-![The Project Info &amp; Settings window.](./assets/projectinfo.png)
+![프로젝트 정보 및 설정 창](./assets/projectinfo.png)
 
 설정에는 다음이 포함됩니다.
 

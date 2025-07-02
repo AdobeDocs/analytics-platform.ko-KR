@@ -6,13 +6,13 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: e19151a7b0c3ab2f9e532034d329896768ee095f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1972'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Data Insights Agent을 사용하여 데이터 시각화
+# Data Insights 에이전트를 사용하여 데이터 시각화
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 | **피드백 메커니즘** | <ul><li>좋아요</li><li>싫어요</li><li>플래그</li></ul> |  |
 
 
-## Data Insights Agent 액세스 관리
+## Data Insights 에이전트에 대한 액세스 관리
 
 다음 매개변수는 Customer Journey Analytics의 Data Insights 에이전트에 대한 액세스를 제어합니다.
 
