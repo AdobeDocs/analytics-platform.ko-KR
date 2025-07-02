@@ -111,7 +111,7 @@ insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://video.tv.adobe.com/v/33281?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
