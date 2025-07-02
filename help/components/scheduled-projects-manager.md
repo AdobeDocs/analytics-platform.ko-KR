@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
-title: 지표
+description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
+title: 예약된 프로젝트에서 예약된 프로젝트를 관리합니다
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 42%
+source-wordcount: '787'
+ht-degree: 41%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 42%
 
 ## 필터
 
-➌ 필터 패널을 사용하여 예약된 프로젝트 [예약된 프로젝트 목록](#scheduled-project-list)을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+[ 필터 패널을 사용하여 예약된 프로젝트 ](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 필터 패널은 다음 섹션으로 구성되어 있습니다.
 

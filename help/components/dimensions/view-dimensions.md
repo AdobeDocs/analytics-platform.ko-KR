@@ -1,17 +1,17 @@
 ---
-description: 시간이 아닌 차원에 대한 상위 5개 값(시간 차원의 경우 15개)을 표시합니다.
-title: Customer Journey Analytics Workspace에서 차원을 미리 보는 방법
+description: Analysis Workspace에서 차원의 세부 정보와 상위 값을 보는 방법에 대해 알아봅니다.
+title: 차원 미리 보기
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 18%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Analysis Workspace의 차원 미리보기
+# 차원 미리보기
 
 구성 요소에 대한 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info)를 사용하여 차원의 상위 항목을 표시할 수 있습니다.
 

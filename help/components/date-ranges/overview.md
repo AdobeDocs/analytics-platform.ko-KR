@@ -1,13 +1,13 @@
 ---
+description: 달력 및 데이터 범위를 사용하여 Analysis Workspace에서 날짜 범위를 지정합니다.
 title: 날짜 범위 개요
-description: 날짜 범위가 무엇인지, 보고 시 사용할 수 있는 방법을 알아봅니다.
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/anal
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/30912?format=jpeg&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++

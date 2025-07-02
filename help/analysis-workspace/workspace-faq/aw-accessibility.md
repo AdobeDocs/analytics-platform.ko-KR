@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 접근성 지원 기능
-title: Analysis Workspace 액세스 가능 여부
+description: Analysis Workspace의 접근성 지원 기능에 대해 알아봅니다.
+title: Analysis Workspace의 접근성
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 아래쪽, 왼쪽 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
 * **[!UICONTROL 탭]** 키를 통해 작업 영역 내의 더 큰 섹션 사이를 이동하는 랜드마크 단축키를 사용할 수 있습니다. 왼쪽 패널에서 **[!UICONTROL 탭]**&#x200B;을 사용하면 드래그 가능한 하나의 옵션에서 다음 옵션으로 이동할 수도 있습니다
-* ◀︎ 및 ▶︎는 **[!UICONTROL 탭]** 키가 요소를 강조 표시한 후 개별 요소 사이를 이동합니다.
+* ◀}︎Tab▶ 키}︎이 요소를 강조 표시한 후 {0 및 **[!UICONTROL 이(가) 개별 요소 간에 이동합니다.]**
 * **[!UICONTROL F6]** 키는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 포커스가 있는 패널에 파란색 테두리가 표시됩니다. 최근 선택한 기능과 기능 내 선택 항목에 회색 배경이 표시됩니다. 예시에서 최근 [!UICONTROL 구성 요소] 및 페이지 차원이 선택되었습니다.
 

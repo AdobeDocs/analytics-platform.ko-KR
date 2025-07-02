@@ -1,17 +1,17 @@
 ---
-description: 시간 분할은 수집한 이벤트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 분할합니다.
-title: 차원 시간 분할
+description: 시간 분할 차원이 수집된 이벤트의 타임스탬프를 가져와서 시간 또는 요일 과 같은 더 의미 있는 차원으로 나누는 방법에 대해 알아봅니다.
+title: 시간 분할 차원
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 58%
+ht-degree: 61%
 
 ---
 
-# Analysis Workspace의 차원 시간 분할
+# 차원 시간 분할
 
 시간 분할은 수집한 이벤트의 타임스탬프를 가져와서 **시간** 또는 **요일**&#x200B;과 같은 더 의미 있는 차원으로 분할합니다.
 
@@ -29,6 +29,6 @@ ht-degree: 58%
 | **[!UICONTROL 요일]** | 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일 |
 | **[!UICONTROL 평일/주말]** | 평일, 주말 |
 | **[!UICONTROL 날짜]** | 1-31 |
-| **[!UICONTROL 월]** | 1월~12월 |
+| **[!UICONTROL 월 (연 기준)]** | 1월~12월 |
 | **[!UICONTROL 일 (한 해 기준)]** | 1-366 |
 | **[!UICONTROL 사분기]** | Q1, Q2, Q3, Q4 |

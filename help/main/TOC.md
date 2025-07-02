@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a3442e4cbb949228213a606b87ff65c8c562895b
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1248'
 ht-degree: 98%
 
 ---
@@ -248,10 +248,10 @@ ht-degree: 98%
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
-      + [전송 및 예약](../analysis-workspace/export/t-schedule-report.md)
    + 내보내기 {#export}
       + [개요](../analysis-workspace/export/export-project-overview.md)
       + [다운로드](../analysis-workspace/export/download-send.md)
+      + [전송 및 예약](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
@@ -264,7 +264,8 @@ ht-degree: 98%
    + [사용자 환경 설정](../analysis-workspace/user-preferences.md)
    + Workspace FAQ 및 기타 {#workspace-faq}
       + [자주 묻는 질문](../analysis-workspace/workspace-faq/faq.md)
-      + [오류 메시지](../analysis-workspace/workspace-faq/error-messages.md)
+      + [성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [오류 및 문제 해결](../analysis-workspace/workspace-faq/error-messages.md)
       + [제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -306,21 +307,20 @@ ht-degree: 98%
 
 + 구성 요소 {#cja-components}
    + [개요](../components/overview.md)
-   + [Analysis Workspace의 구성 요소 사용](../components/use-components-in-workspace.md)
+   + [구성 요소 사용](../components/use-components-in-workspace.md)
    + [구성 요소 설명 추가](../components/add-component-descriptions.md)
    + 주석 {#annotations}
-      + [주석 개요](../components/annotations/overview.md)
+      + [개요](../components/annotations/overview.md)
       + [주석 만들기](../components/annotations/create-annotations.md)
       + [주석 관리](../components/annotations/manage-annotations.md)
       + [주석 보기](../components/annotations/view-annotations.md)
-      + [모바일 주석](../components/annotations/mobile-annotations.md)
-   + [예약된 프로젝트](../components/scheduled-projects-manager.md)
+      + [모바일 스코어카드 주석](../components/annotations/mobile-annotations.md)
    + 대상자 {#audiences}
       + [대상자 개요](../components/audiences/audiences-overview.md)
       + [대상자 생성 및 게시](../components/audiences/publish.md)
       + [대상자 관리](../components/audiences/manage.md)
    + 차원 {#dimensions}
-      + [차원 개요](../components/dimensions/overview.md)
+      + [개요](../components/dimensions/overview.md)
       + [차원 미리보기](../components/dimensions/view-dimensions.md)
       + [차원 분류](../components/dimensions/t-breakdown-fa.md)
       + [차원 시간 분할](../components/dimensions/time-parting-dimensions.md)
@@ -343,7 +343,7 @@ ht-degree: 98%
       + [세그먼트 사용](/help/components/segments/seg-use.md)
    + 계산된 지표 {#cja-calcmetrics}
       + [개요](../components/calc-metrics/calc-metr-overview.md)
-      + 계산된 지표 워크플로 {#cm-workflow}
+      + 워크플로 {#cm-workflow}
          + [계산된 지표 만들기](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
@@ -387,6 +387,7 @@ ht-degree: 98%
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
       + [데이터 사전의 구성 요소 항목 편집](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [데이터 사전 상태 모니터링](../components/data-dictionary/monitor-data-dictionary-health.md)
+   + [예약된 프로젝트](../components/scheduled-projects-manager.md)
 
 + Report Builder {#cja-reportbuilder}
    + [개요](../report-builder/rb-overview.md)

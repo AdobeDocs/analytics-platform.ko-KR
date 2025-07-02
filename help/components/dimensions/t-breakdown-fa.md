@@ -1,27 +1,27 @@
 ---
-description: Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
+description: Analysis Workspace에서 차원 및 차원 항목을 분류하는 방법을 알아봅니다.
 keywords: Analysis Workspace
 title: 차원 분류
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 59%
+source-wordcount: '554'
+ht-degree: 56%
 
 ---
 
-# 작업 영역에서 차원 분류
+# 차원 분류
 
-특정 요구 사항에 맞게 데이터를 무제한으로 분류할 수 있습니다. 관련 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성하십시오.
+Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한으로 분류할 수 있습니다. 관련 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성하십시오.
 
 1. [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)에서 하나 이상의 선택한 행의 컨텍스트 메뉴에서 **[!UICONTROL 분류]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택합니다.
 
    ![선택한 항목에서 경고 만들기를 보여 주는 단계 결과.](assets/breakdown.png)
 
-1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**&#x200B;필드에서 구성 요소를 검색하면 됩니다.
+1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**필드에서 구성 요소를 검색하면 됩니다.
 
 선택한 기간에 대해 차원 항목이나 대상자 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://video.tv.adobe.com/v/30875?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -62,7 +62,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/31092?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -71,7 +71,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://video.tv.adobe.com/v/33286?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -80,7 +80,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/328533?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -89,7 +89,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/30874?captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/24033){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 

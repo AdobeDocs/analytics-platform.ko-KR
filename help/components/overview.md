@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics의 구성 요소는 무엇입니까?
+title: 구성 요소 개요
 description: Customer Journey Analytics가 제공하는 구성 요소와 보고 시 이 구성 요소를 사용할 수 있는 방법을 알아봅니다.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 

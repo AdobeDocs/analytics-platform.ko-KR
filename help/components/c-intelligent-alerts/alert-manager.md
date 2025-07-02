@@ -1,13 +1,13 @@
 ---
-description: 경고를 생성, 편집 또는 삭제합니다.
+description: 경고 관리 방법을 알아봅니다.
 title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 

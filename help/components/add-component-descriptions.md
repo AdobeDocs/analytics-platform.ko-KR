@@ -1,13 +1,13 @@
 ---
-description: 관리자는 데이터 보기를 사용하여 구성 요소에 대한 설명을 추가할 수 있습니다.
+description: 관리자는 데이터 보기 또는 데이터 사전을 사용하여 구성 요소에 대한 설명을 추가할 수 있습니다
 title: 구성 요소 설명 추가
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 14%
+source-wordcount: '174'
+ht-degree: 12%
 
 ---
 
@@ -32,5 +32,5 @@ Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Custo
 >[!MORELIKETHIS]
 >
 >[데이터 보기 구성 요소 설정](/help/data-views/component-settings/overview.md)
->&#x200B;>[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

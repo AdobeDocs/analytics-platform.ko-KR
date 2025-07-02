@@ -1,19 +1,19 @@
 ---
-title: 모바일 스코어카드 주석
+title: 모바일 주석
 description: 모바일 스코어카드에서 주석을 표시하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 0e1654eae336f89e1574afadcd97e26798dc01a1
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
 
-# 모바일 스코어카드에서 주석 공유
+# 모바일 스코어카드 주석
 
 모바일 스코어카드에서 Workspace에 만든 주석을 표시할 수 있습니다. 모바일 스코어카드의 주석을 사용하면 조직 및 캠페인에 대한 상황별 데이터 뉘앙스와 인사이트를 공유할 수 있습니다.
 
@@ -50,4 +50,4 @@ ht-degree: 100%
 
 ![Annotation mobile scorecard preview](assets/annotations-scorecard-preview.png)
 
-추가 주석이 제공되는 경우 주석 하단에 여러 점(●)이 표시됩니다. 왼쪽 또는 오른쪽으로 스와이프하여 주석을 전환합니다.
+더 많은 주석을 사용할 수 있는 경우 주석 하단에 여러 점(●)이 표시됩니다. 왼쪽 또는 오른쪽으로 스와이프하여 주석을 전환합니다.

@@ -1,12 +1,12 @@
 ---
-description: Workspace FAQ 및 문제 해결 팁에 대해 알아봅니다.
+description: Workspace FAQ
 title: 자주 묻는 질문
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 role: User
-source-git-commit: f230283c69b2d8339d7bb2e3b170de54b9497135
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+workflow-type: tm+mt
+source-wordcount: '226'
 ht-degree: 100%
 
 ---

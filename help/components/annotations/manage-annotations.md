@@ -1,13 +1,13 @@
 ---
 title: 주석 관리
-description: Workspace에서 주석을 관리하는 방법
+description: Analysis Workspace에서 주석을 관리하는 방법
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ### 주석 목록
 
-주석 목록에는 소유한 주석, 모든 프로젝트에 적용된 주석, 공유된 주석이 모두 표시됩니다. 목록은 다음과 같습니다.
+주석 목록 ➊에는 사용자가 소유한 모든 주석, 모든 프로젝트에 범위가 지정된 주석, 사용자와 공유된 주석이 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
 | --- | --- | 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ### 작업 표시줄
 
-작업 표시줄을 사용하여 주석 작업을 수행할 수 있습니다. 작업 표시줄에는 다음 액션이 포함됩니다.
+작업 모음 ➋을(를) 사용하여 주석에 대해 작업을 수행할 수 있습니다. 작업 표시줄에는 다음 액션이 포함됩니다.
 
 | 아이콘 | 액션 | 설명 |
 |:--:|---|---|
@@ -65,11 +65,11 @@ ht-degree: 100%
 
 ### 활성 필터 표시줄
 
-필터 표시줄에 활성 필터가 표시됩니다(제공된 경우). ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 두 개 이상의 필터가 지정되면 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
+필터 표시줄 ➌에 활성 필터(있는 경우)가 표시됩니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 두 개 이상의 필터가 지정되면 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거할 수 있습니다.
 
 ### 필터 패널
 
-**[!UICONTROL 필터]** 왼쪽 패널을 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터를 처리하는 주석의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
+왼쪽 패널 **[!UICONTROL 에서]**&#x200B;필터➍를 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터를 처리하는 주석의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
 
 필터 목록을 필터링하는 방법:
 

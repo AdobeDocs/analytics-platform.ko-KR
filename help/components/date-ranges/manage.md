@@ -1,13 +1,13 @@
 ---
-title: 날짜 범위 관리
-description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또는 삭제합니다.
+title: 데이터 범위 관리
+description: Analysis Workspace에서 날짜 범위를 관리하는 방법을 이해합니다.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 12%
+source-wordcount: '603'
+ht-degree: 30%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ### 날짜 범위 목록
 
-날짜 범위 목록에➊은 모든 날짜 범위가 표시됩니다. 목록에는 다음 열이 있습니다.
+날짜 범위 목록 ➊에 모든 날짜 범위가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
 | --- | --- | 
@@ -40,35 +40,35 @@ ht-degree: 12%
 
 {style="table-layout:auto"}
 
-표시할 열을 지정하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용합니다.
+![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 사용하여 표시할 열을 지정합니다.
 
 ### 작업 표시줄
 
-작업 표시줄을 사용하여 날짜 범위에서 작업을 수행할 수 있습니다➋. 작업 모음 에는 다음 작업이 포함되어 있습니다.
+작업 표시줄 ➋을(를) 사용하여 날짜 범위에 대해 작업을 수행할 수 있습니다. 작업 표시줄에는 다음 액션이 포함됩니다.
 
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 추가]** | [날짜 범위 빌더](create.md#date-range-builder)를 사용하여 다른 날짜 범위를 추가하십시오. |
-| ![검색](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 선택한 날짜 범위가 없는 경우 이 검색 필드를 사용하여 날짜 범위를 검색합니다. |
+| ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 선택한 날짜 범위가 없는 경우 이 검색 필드를 사용하여 날짜 범위를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 날짜 범위에 태그를 지정합니다. **[!UICONTROL 날짜 범위 태그]** 대화 상자에서 선택한 날짜 범위의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 날짜 범위에 대한 태그를 저장합니다. |
 | ![공유](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 선택한 날짜 범위를 공유합니다. **[!UICONTROL 날짜 범위 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹 검색*&#x200B;하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 날짜 범위에 대한 공유 세부 정보를 저장합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 날짜 범위를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. |
-| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 변경]** | 선택한 단일 날짜 범위의 이름을 변경합니다. 선택하면 날짜 범위 이름을 인라인으로 바꿀 수 있습니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 날짜 범위를 삭제합니다. 확인 메시지가 표시됩니다. |
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 날짜 범위의 이름을 변경합니다. 선택하면 날짜 범위 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** | 선택한 날짜 범위를 승인합니다. |
 | ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 날짜 범위를 복사합니다. 새 날짜 범위는 동일한 이름과 접미사(복사)로 만들어집니다 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 선택한 날짜 범위를 `Date ranges List.csv` 파일로 내보냅니다. |
 
-### 활성 필터 막대
+### 활성 필터 표시줄
 
-필터 모음에 ➌ 활성 필터(있는 경우)가 표시됩니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 필터를 두 개 이상 지정한 경우 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거하십시오.
+필터 표시줄 ➌에 활성 필터(있는 경우)가 표시됩니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용하여 필터를 빠르게 제거할 수 있습니다. 필터를 두 개 이상 지정한 경우 **[!UICONTROL 모두 제거]**&#x200B;를 사용하여 모든 필터를 제거하십시오.
 
 ### 필터 패널
 
-**[!UICONTROL 필터]** 왼쪽 패널을 사용하여 날짜 범위를 필터링할 수 있습니다➍. 필터 패널에는 필터 유형 및 필터를 적용하는 날짜 범위의 수가 표시됩니다. 필터 패널의 표시를 전환하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
+왼쪽 패널 **[!UICONTROL 에서]**&#x200B;필터➍를 사용하여 날짜 범위를 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 필터를 적용하는 날짜 범위의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
 
-필터 목록을 필터링하려면 다음을 수행합니다.
+필터 목록을 필터링하는 방법:
 
-1. ![필터](/help/assets/icons/Filter.svg)를 선택하여 필터 패널을 엽니다. 필터 목록에 더 많은 공간이 필요한 경우 ![필터](/help/assets/icons/Filter.svg)를 한 번 더 선택하여 패널을 닫을 수 있습니다.
+1. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널을 엽니다. 필터 목록에 추가 공간이 필요한 경우 ![Filter](/help/assets/icons/Filter.svg)를 한 번 더 선택하여 패널을 닫을 수 있습니다.
 1. 사용 가능한 [필터 섹션](#filter-sections)을 사용하여 날짜 범위를 필터링할 수 있습니다.
 
    >[!INFO]
@@ -83,14 +83,14 @@ ht-degree: 12%
 {{otherfiltersfiltersection}}
 
 
-[날짜 범위 목록](#date-ranges-list)은(는) 필터 구성에 따라 자동으로 업데이트됩니다. [활성 필터 모음](#active-filter-bar)에서 구성된 필터를 볼 수 있습니다.
+[날짜 범위 목록](#date-ranges-list)은(는) 필터 구성에 따라 자동으로 업데이트됩니다. [활성 필터 표시줄](#active-filter-bar)에서 구성된 필터를 확인할 수 있습니다.
 
 
 ## 날짜 범위 편집
 
 다음 두 가지 방법으로 날짜 범위를 편집합니다.
 
-* Workspace 프로젝트에서 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info) 아이콘을 사용하십시오.
+* Workspace 프로젝트에서 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info) 아이콘을 사용합니다.
 
 * [[!UICONTROL 날짜 범위] 목록](#date-ranges-list)에서 날짜 범위의 제목을 선택합니다.
 

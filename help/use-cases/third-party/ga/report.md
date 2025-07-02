@@ -5,9 +5,9 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 85%
 
 ---
@@ -56,7 +56,7 @@ Customer Journey Analytics에서는 채널 간 데이터에 대해 정교한 속
 
 ![계산된 지표](../../assets/calc-metric.png)
 
-Attribution IQ을 사용하면 데이터를 세그먼트화할 수도 있습니다. 예를 들어 두 개 이상의 디바이스를 사용하는 사용자 등 특정한 사용자 집합에 대해서만 속성을 볼 수 있습니다.
+속성을 사용하면 데이터를 세그먼트화할 수도 있습니다. 예를 들어 두 개 이상의 디바이스를 사용하는 사용자 등 특정한 사용자 집합에 대해서만 속성을 볼 수 있습니다.
 
 ![세그먼트](../../assets/filter.png)
 

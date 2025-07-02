@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 프로젝트에 구성 요소를 추가하는 방법 알아보기
-title: Analysis Workspace의 구성 요소 사용
+description: Analysis Workspace에서 프로젝트에서 구성 요소를 사용하는 방법을 알아봅니다.
+title: Analysis Workspace에서 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
