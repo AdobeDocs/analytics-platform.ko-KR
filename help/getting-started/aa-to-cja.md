@@ -32,7 +32,7 @@ Adobe Analytics와 같은 데이터 세트에서 ID는 모든 데이터 행에 �
 
 ### 변수 정렬
 
-Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/global-rs)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
+Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가장 간단한 방법은 [Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/ko/docs/analytics/implementation/prepare/global-rs)를 사용하여 [글로벌 보고서 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)를 Experience Platform으로 수집하는 것입니다. 이 커넥터는 Adobe Analytics 변수를 Experience Platform의 XDM 스키마 및 데이터 세트에 직접 매핑하므로 Customer Journey Analytics에 쉽게 연결할 수 있습니다.
 
 전체 글로벌 보고서 세트가 항상 구현 가능한 것은 아닙니다. 여러 보고서 세트를 Customer Journey Analytics으로 가져오려는 경우 두 가지 옵션이 있습니다.
 
@@ -52,7 +52,7 @@ Analytics 데이터를 Customer Journey Analytics 데이터로 변환하는 가�
 
 * Customer Journey Analytics의 보고서 시간 특성
 
-Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices)를 게시했습니다. 이러한 업데이트된 권장 사항을 사용하면 고급 속성 기능을 사용하여 Adobe Analytics에 이미 있는 기능을 최대한 활용하는 데 도움이 됩니다. 또한 Customer Journey Analytics으로 전환할 때 성공을 위한 권장 사항이 제공됩니다.
+Adobe는 [업데이트된 마케팅 채널 구현을 위한 모범 사례](https://experienceleague.adobe.com/ko/docs/analytics/components/marketing-channels/mchannel-best-practices)를 게시했습니다. 이러한 업데이트된 권장 사항을 사용하면 고급 속성 기능을 사용하여 Adobe Analytics에 이미 있는 기능을 최대한 활용하는 데 도움이 됩니다. 또한 Customer Journey Analytics으로 전환할 때 성공을 위한 권장 사항이 제공됩니다.
 
 Customer Journey Analytics 데이터 보기의 일부로 [파생 필드](../data-views/derived-fields/derived-fields.md)가 도입됨에 따라 [마케팅 채널 기능 템플릿](../data-views/derived-fields/derived-fields.md#function-templates)을 사용하여 마케팅 채널 또한 비파괴적이고 소급 적용되는 방식으로 지원됩니다.
 
@@ -66,7 +66,7 @@ Adobe Analytics에서의 보고는 상당한 양의 데이터 사전 처리에 �
 
 [!UICONTROL 보고서 처리 시간]을 사용하면 기본 데이터 수집 방법을 변경할 필요 없이 소급 설정을 적용하고 여러 버전의 변수 지속성을 생성할 수 있습니다.
 
-이러한 변화로 인해 특히 만료 기간이 긴 변수의 경우 데이터 보고 방식에 약간의 차이가 발생합니다. [가상 보고서 세트](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)를 사용하여 보고서 처리 시간이 보고에 어떤 영향을 미칠 수 있는지 평가할 수 있습니다.
+이러한 변화로 인해 특히 만료 기간이 긴 변수의 경우 데이터 보고 방식에 약간의 차이가 발생합니다. [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)를 사용하여 보고서 처리 시간이 보고에 어떤 영향을 미칠 수 있는지 평가할 수 있습니다.
 
 ### 중요한 세그먼트 및 계산된 지표 식별 {#segments-calcmetrics}
 
@@ -82,9 +82,9 @@ Adobe Analytics 세그먼트 및 계산된 지표는 Customer Journey Analytics�
 
 다음은 몇 가지 안내 비디오입니다.
 
-* [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [Adobe Analytics 세그먼트를 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=ko)
 
-* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
+* [계산된 지표를 Adobe Analytics에서 Customer Journey Analytics로 이동](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
 ### 기타 고려 사항
 
