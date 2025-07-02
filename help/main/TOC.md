@@ -178,8 +178,8 @@ ht-degree: 98%
          + [개요](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 만들기](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [프로젝트 추가 또는 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [단축키](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [프로젝트를 추가하거나 이동](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [핫키](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
    + 템플릿 {#templates}

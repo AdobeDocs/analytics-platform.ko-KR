@@ -1,7 +1,7 @@
 ---
 keywords: Analysis Workspace
 title: Analysis Workspace 개요
-description: Adobe Analytics의 고급 분석 툴인 Analysis Workspace에 대해 알아보십시오. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 구체화하고 분석을 조정 및 공유할 수 있습니다.
+description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 대해 알아봅니다. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 생생하게 표현하고 분석을 조정하여 공유할 수 있습니다.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
@@ -9,7 +9,7 @@ role: User
 source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
 workflow-type: tm+mt
 source-wordcount: '1490'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -34,7 +34,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 | 위치 | 이름 및 기능 |
 |:---------:|----------|
 | A | 프로젝트 이름기능에 액세스하는 메뉴 구조, 프로젝트 목록으로 돌아가는 ![뒤로 버튼](/help/assets/icons/ChevronLeft.svg) 및 [Workspace 프로젝트를 공유](/help/analysis-workspace/curate-share/share-projects.md)하는 **[!UICONTROL 공유]** 버튼을 포함합니다. <br/>언제든지 프로젝트 이름(예: 새 프로젝트)을 선택하여 이름을 변경합니다. <br/>프로젝트를 자주 사용하는 프로젝트로 표시하려면 ![즐겨찾기에서 추가](/help/assets/icons/Star.svg) 또는![즐겨찾기 취소](/help/assets/icons/StarOutline.svg)를 선택합니다. |
-| B | **단추 패널:** Analysis Workspace의 키 [기능](#features)에 액세스할 수 있는 단추를 포함합니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **버튼 패널:** Analysis Workspace의 주요 [기능](#features)에 액세스할 수 있는 버튼이 포함되어 있습니다.<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 패널]](/help/analysis-workspace/c-panels/panels.md)</li><li>![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 가이드 분석]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 시각화]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Curate](/help/assets/icons/Curate.svg) [[!UICONTROL 구성 요소]](/help/components/overview.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 목차]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Bookmark](/help/assets/icons/Bookmark.svg) [[!UICONTROL 데이터 사전]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **왼쪽 패널**: 이 영역에는 개별 패널, 시각화, 구성 요소 또는 목록이 포함됩니다. 콘텐츠는 버튼 패널에서 선택한 버튼에 따라 달라집니다. |
 | D | **캔버스**: 왼쪽 패널에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널을 추가하고, 시각화를 패널에 추가하고, 구성 요소를 시각화에 추가하면 프로젝트가 동적으로 업데이트됩니다. 여러 패널을 만들고, 각 패널 내부에서 여러 시각화를 만들 수 있습니다.<br/>각 패널은 선택한 데이터 보기를 기반으로 합니다. 선택한 데이터 보기는 사용할 수 있는 지표와 차원과 같은 구성 요소를 결정합니다. 자세한 내용은[패널 - 데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 참조하십시오. |
 
@@ -60,17 +60,17 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL *Ctrl *]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL *Opt *]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL *Alt *]**(대체)의 경우.
+- **[!UICONTROL *Shift *]**의 경우**⇧**
+- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
 | **[!UICONTROL 프로젝트]** | 단축키 Mac | 단축키 Windows | 설명 |
 |---|---|---|---|
-| **[!UICONTROL 프로젝트 제작]** | **[!UICONTROL *Shift+Cmd+P *]** | **[!UICONTROL *Shift+Ctrl+P *]** | 새 프로젝트를 만듭니다. |
+| **[!UICONTROL 프로젝트 만들기]** | **[!UICONTROL *Shift+Cmd+P *]** | **[!UICONTROL *Shift+Ctrl+P *]** | 새 프로젝트를 만듭니다. |
 | **[!UICONTROL 모바일 스코어카드 만들기]** | | | [새 모바일 스코어카드 만들기](/help/mobile-app/create-scorecard.md). |
 | **[!UICONTROL 열기...]** | **[!UICONTROL *Cmd+O *]** | **[!UICONTROL *Ctrl+O *]** | [기존 프로젝트 열기](/help/analysis-workspace/build-workspace-project/save-projects.md#open-another-project). |
 | **[!UICONTROL 이전 버전 열기...]** | **[!UICONTROL *Opt+Cmd+O *]** | **[!UICONTROL *Alt+Ctrl+O *]** | [이전 버전의 프로젝트 열기](/help/analysis-workspace/build-workspace-project/save-projects.md#open-previous-version). |
