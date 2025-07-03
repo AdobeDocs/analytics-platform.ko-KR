@@ -15,7 +15,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 숫자와 요약 변경 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [요약 숫자 및 요약 변경](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 요약 숫자와 요약 변경 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [요약 숫자 및 요약 변경](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -94,6 +94,6 @@ The green and red color of the Summary Change can be controlled through [custom 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

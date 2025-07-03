@@ -44,6 +44,6 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_현재_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다._<br/>__![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 맵 시각화 설명서를 보려면 [맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을 참조하십시오._
+_현재_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다._<br/>__![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화 설명서를 보려면 [맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을 참조하십시오._
 
 >[!ENDSHADEBOX]
