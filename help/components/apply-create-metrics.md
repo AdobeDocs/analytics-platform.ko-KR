@@ -1,13 +1,13 @@
 ---
-description: 지표의 의미와 Adobe Analytics에서 지표를 사용하는 방법을 이해합니다.
+description: 지표의 의미와 Analysis Workspace에서 지표를 사용하는 방법을 이해합니다.
 title: 지표
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 8%
+source-wordcount: '868'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ## Analysis Workspace에서 지표 사용
 
-지표는 Analysis Workspace 내에서 유연하게 사용할 수 있습니다. 프로젝트의 날짜 기간 동안 지표가 트렌드를 표시되게 하려면 지표를 빈 자유 형식 테이블로 끌어서 놓습니다. 차원이 있을 때 지표를 드래그하여 해당 지표가 각 차원 항목과 어떻게 비교되는지 확인할 수도 있습니다. 기존 지표 헤더 위에 지표를 드래그하면 기존 지표가 대체되고 헤더 옆에 지표를 드래그하면 두 지표를 나란히 볼 수 있습니다.
+지표는 Analysis Workspace 내에서 유연하게 사용할 수 있습니다. 프로젝트의 날짜 기간 동안 지표가 트렌드를 표시되게 하려면 지표를 빈 자유 형식 테이블로 끌어서 놓습니다. 차원이 있을 때 지표를 드래그하여 각 차원 항목과 비교한 지표를 볼 수도 있습니다. 기존 지표 헤더 위로 지표를 드래그하면 지표가 대체되고 헤더 옆으로 지표를 드래그하면 두 지표를 나란히 볼 수 있습니다.
 
 Analysis Workspace에 지표 및 기타 유형의 구성 요소를 추가하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)을 참조하십시오.
 
@@ -27,11 +27,17 @@ Analysis Workspace에 지표 및 기타 유형의 구성 요소를 추가하는 
 Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표를 제공합니다.
 
 
-* **표준 지표**: 표준 지표의 예로는 사람, 세션, 이벤트, [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정이 있습니다.
+* **표준 지표**: 표준 지표의 예로는 사람, 세션, 이벤트가 있습니다.
 
-  Adobe Analytics과 달리 Customer Journey Analytics에서는 연결 및 데이터 보기 범위 내에서 유연한 방식으로 표준 지표를 정의할 수 있습니다.  표준 지표의 전체 목록은 [표준 지표](#standard-metrics)를 참조하십시오.
+  Adobe Analytics과 달리 Customer Journey Analytics에서는 연결 및 데이터 보기 범위 내에서 유연한 방식으로 표준 지표를 정의할 수 있습니다.
 
-* **계산된 지표** ![계산기](/help/assets/icons/Calculator.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 [사용자 정의 지표](/help/components/calc-metrics/calc-metr-overview.md).
+   * **사람**: Customer Journey Analytics의 사람 지표는 개인 ID의 고유 개수입니다. 연결에서 데이터 세트를 구성할 때 개인 ID로 선택한 항목에 따라 사람 지표는 다른 의미를 가질 수 있습니다.
+   * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
+   * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
+
+  표준 지표의 전체 목록은 [표준 지표](#standard-metrics)를 참조하십시오.
+
+* **계산된 지표** ![계산기](/help/assets/icons/Calculator.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표입니다.
 
 * **계산된 지표 템플릿** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : 계산된 지표와 유사하게 동작하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 있는 그대로 사용하거나 사본을 저장하여 논리를 사용자 지정할 수 있습니다. [기본 계산된 지표](calc-metrics/cm-workflow/../default-calcmetrics.md)를 참조하십시오.
 
@@ -46,7 +52,7 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
 ## 계산된 지표 만들기
 
-계산된 지표를 사용하면 간단한 연산자나 통계 함수를 사용하여 지표가 서로 관련되는 방식을 구성할 수 있습니다. 자세한 내용은 [계산된 지표 개요](/help/components/calc-metrics/calc-metr-overview.md)를 참조하십시오.
+계산된 지표를 사용하면 간단한 연산자나 통계 함수를 사용하여 지표가 서로 관련되는 방식을 쉽게 구성할 수 있습니다. 자세한 내용은 [계산된 지표 개요](/help/components/calc-metrics/calc-metr-overview.md)를 참조하십시오.
 
 계산된 지표를 만드는 방법에는 몇 가지가 있습니다. 선택하는 방법은 계산된 지표를 모든 프로젝트의 구성 요소 목록에서 사용할 수 있는지 또는 지표를 만든 프로젝트에서만 사용할 수 있는지 여부를 결정합니다.
 
@@ -76,15 +82,15 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
    단일 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 
-   * [!UICONTROL **평균**]: 열에 대한 차원 요소 집합에서 평균 값을 표시하는 새 열을 만듭니다. 이 열 값은 [평균](/help/components/calc-metrics/cm-functions.md#mean) 함수를 사용합니다.
+   * [!UICONTROL **평균**]: 열에 대한 차원 요소 집합에서 평균 값을 표시하는 새 열을 만듭니다. [평균](/help/components/calc-metrics/cm-functions.md#mean) 함수를 사용합니다.
 
-   * [!UICONTROL **중간값**]: 열에 대한 차원 요소 집합의 중간값을 표시하는 새 열을 만듭니다. 이 열 값은 [Median](/help/components/calc-metrics/cm-functions.md#median) 함수를 사용합니다.
+   * [!UICONTROL **중간값**]: 열에 대한 차원 요소 집합의 중간값을 표시하는 새 열을 만듭니다. [Median](/help/components/calc-metrics/cm-functions.md#median) 함수를 사용합니다.
 
-   * [!UICONTROL **열 최대값**]: 열의 차원 요소 집합에서 가장 큰 값을 표시하는 새 열을 만듭니다. 이 열 값은 [열 최대값](/help/components/calc-metrics/cm-functions.md#column-maximum) 함수를 사용합니다.
+   * [!UICONTROL **열 최대값**]: 열의 차원 요소 집합에서 가장 큰 값을 표시하는 새 열을 만듭니다. [열 최대값](/help/components/calc-metrics/cm-functions.md#column-maximum) 함수를 사용합니다.
 
-   * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. 이 열 값은 [열 최소값](/help/components/calc-metrics/cm-functions.md#column-minimum) 함수를 사용합니다.
+   * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. [열 최소값](/help/components/calc-metrics/cm-functions.md#column-minimum) 함수를 사용합니다.
 
-   * [!UICONTROL **열 합계**]: 열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). 이 열 값은 [열 합계](/help/components/calc-metrics/cm-functions.md#column-sum) 함수를 사용합니다.
+   * [!UICONTROL **열 합계**]:열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). [열 합계](/help/components/calc-metrics/cm-functions.md#column-sum) 함수를 사용합니다.
 
    두 개의 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 
@@ -101,7 +107,7 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
 ## 다양한 속성 모델과 지표 비교
 
-한 지표에 대해 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 해당 지표에 대한 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
+지표에 대해 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 해당 지표에 대한 컨텍스트 메뉴에서 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
 
 ![속성 모델 비교를 강조 표시하는 Workspace 패널](assets/compare-attribution.png)
 

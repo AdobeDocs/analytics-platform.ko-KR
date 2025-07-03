@@ -4,14 +4,14 @@ title: Analysis Workspace에서 구성 요소 사용
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
-# Analysis Workspace의 구성 요소 사용
+# 프로젝트에서 구성 요소 사용
 
 구성 요소는 Analysis Workspace에서 모든 프로젝트의 실제 데이터를 구성합니다. 구성 요소는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. 시각화나 패널로 구성 요소를 드래그하여 프로젝트에 구성 요소를 추가할 수 있습니다.
 

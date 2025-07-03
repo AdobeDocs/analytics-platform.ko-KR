@@ -1,10 +1,10 @@
 ---
 title: 주석 관리
-description: Analysis Workspace에서 주석을 관리하는 방법
+description: Workspace에서 주석을 관리하는 방법을 알아봅니다.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 91%

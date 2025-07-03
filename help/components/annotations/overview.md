@@ -1,14 +1,14 @@
 ---
 title: 주석 개요
-description: Analysis Workspace에서 주석을 사용하는 방법
+description: Analysis Workspace에서 주석을 사용하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: '320'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 주석을 만들 수 있는 다양한 옵션은 [주석 만들기](/help/components/annotations/create-annotations.md)를 참조하십시오. 그런 다음 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 빌드, 수정 및 저장합니다.
 
-[주석 관리자](manage-annotations.md) 를 사용하여 주석을 관리합니다.
+[주석 관리자](manage-annotations.md)를 사용하여 주석을 관리합니다.
 
 ## 주석 켜기 또는 끄기
 

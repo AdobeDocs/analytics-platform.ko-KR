@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 98%
+source-wordcount: '1249'
+ht-degree: 99%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 98%
          + [Web SDK 구현 옵션](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
          + [Platform용 Adobe Analytics Web SDK 구성](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
          + [Adobe Journey Optimizer를 통한 개인화 사용](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
-   + Adobe Analytics과 비교 {#cja-aa-comparison}
+   + Adobe Analytics와 비교 {#cja-aa-comparison}
       + [개요](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics 데이터 사용](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [기능 지원](../getting-started/aa-vs-cja/cja-aa.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
    + [고급 분석 수행](../analysis-workspace/perform-adv-analysis.md)
    + 프로젝트 {#build-workspace-project}
       + [개요](../analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [프로젝트 빠른 시작](/help/analysis-workspace/build-workspace-project/starter-projects.md)
+      + [프로젝트를 빠르게 시작하기](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트의 댓글](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -182,6 +182,7 @@ ht-degree: 98%
       + [핫키](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](../analysis-workspace/build-workspace-project/view-density.md)
+      + [디버거](../analysis-workspace/build-workspace-project/debugger.md)
    + 템플릿 {#templates}
       + [템플릿 사용](../analysis-workspace/templates/use-templates.md)
       + [템플릿 만들기 및 관리](../analysis-workspace/templates/create-templates.md)
@@ -244,14 +245,14 @@ ht-degree: 98%
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
    + 선별 및 공유 {#curate-share}
       + [개요](../analysis-workspace/curate-share/send-schedule-files.md)
-      + [프로젝트 구성](../analysis-workspace/curate-share/curate.md)
+      + [프로젝트 선별](../analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
    + 내보내기 {#export}
       + [개요](../analysis-workspace/export/export-project-overview.md)
       + [다운로드](../analysis-workspace/export/download-send.md)
-      + [전송 및 예약](../analysis-workspace/export/t-schedule-report.md)
+      + [보내기 및 예약](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)

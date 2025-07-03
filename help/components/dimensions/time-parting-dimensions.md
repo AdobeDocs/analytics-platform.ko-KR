@@ -1,13 +1,13 @@
 ---
-description: 시간 분할 차원이 수집된 이벤트의 타임스탬프를 가져와서 시간 또는 요일 과 같은 더 의미 있는 차원으로 나누는 방법에 대해 알아봅니다.
+description: 시간 분할 차원이 수집된 이벤트의 타임스탬프를 가져오고 이러한 이벤트를 시간 또는 요일 과 같은 더 의미 있는 차원으로 분류하는 방법에 대해 알아봅니다.
 title: 시간 분할 차원
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 61%
+source-wordcount: '198'
+ht-degree: 60%
 
 ---
 

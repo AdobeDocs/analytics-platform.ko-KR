@@ -5,7 +5,7 @@ title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 34%
@@ -23,19 +23,20 @@ ht-degree: 34%
 >* 사용자 컨텍스트 폴아웃 시각화에서 사용자 기반 세그먼트를 터치포인트로 사용
 >* 세션 컨텍스트 폴아웃 시각화에서 사용자 기반 세그먼트를 터치포인트로 사용
 >* 세션 컨텍스트 폴아웃 시각화에서 세션 기반 세그먼트를 터치포인트로 사용
+
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## 터치 포인트에서 세그먼트 만들기
 
 1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트로부터 세그먼트를 만듭니다. 터치 포인트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 터치 포인트에서 세그먼트 만들기]**&#x200B;를 선택합니다.
 
-   ![터치 포인트에서 세그먼트 만들기가 강조 표시된 터치 포인트 드롭다운 메뉴.](assets/fallout-createfilter.png)
+   ![터치 포인트에서 세그먼트 만들기가 강조 표시된 터치 포인트 드롭다운 메뉴.](assets/fallout-createsegment.png)
 
    선택한 터치포인트와 일치하는 사전에 만들어진 순차적 세그먼트로 사전에 채워진 [!UICONTROL 세그먼트 빌더]이(가) 열립니다.
 
-   ![세그먼트 빌더에 미리 채워진 순차적 세그먼트가 표시됩니다.](assets/fallout-definefilter.png)
+   ![세그먼트 빌더에 미리 채워진 순차적 세그먼트가 표시됩니다.](assets/fallout-definesegment.png)
 
 1. 세그먼트에 제목과 설명을 지정하고 저장합니다.
 
@@ -57,7 +58,7 @@ ht-degree: 34%
 1. 세 개의 세그먼트를 시각화 상단에 있는 세그먼트 드롭 영역으로 드래그합니다.
 
 
-1. 선택 사항: *모든 방문 수*&#x200B;를 기본 컨테이너로 유지하거나 컨테이너를 삭제할 수 있습니다.
+1. 선택 사항: *모든 사용자*&#x200B;를 기본 컨테이너로 유지하거나 컨테이너를 삭제할 수 있습니다.
 
    ![이전 단계에서 드래그한 두 세그먼트와 함께 모든 방문 횟수를 표시하는 폴아웃입니다.](assets/fallout-multiplefilters.png)
 

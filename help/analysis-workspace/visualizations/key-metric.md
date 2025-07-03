@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 97%
+source-wordcount: '948'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 주요 지표 요약 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 주요 지표 요약 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -141,18 +141,16 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## 시각화 편집
 
-시각화를 빌드한 후에도 원래 구성을 편집할 수 있습니다.
+시각화를 작성한 후 원래 구성을 편집할 수 있습니다.
 
-1. 시각화 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
+1. 시각화의 오른쪽 상단 모서리에서 ![편집](/help/assets/icons/Edit.svg)을(를) 선택합니다.
 
-   ![시각화 편집 아이콘](assets/edit-icon.png)
-
-   이제 원래 구성 보기로 돌아갑니다.
+   이제 원래 [구성 보기](#configure)(으)로 돌아갑니다.
 
 1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 세그먼트를 원하는 대로 변경합니다.
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)

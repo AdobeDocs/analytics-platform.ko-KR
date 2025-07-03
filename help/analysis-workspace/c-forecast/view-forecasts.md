@@ -4,10 +4,10 @@ title: Analysis Workspace에서 예측을 조회하는 방법
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## 테이블에서 예측 보기
 
-시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. [사용자 환경 설정](../user-preferences.md)에서 자유 형식 테이블에 대해 [!UICONTROL 예측 표시]를 사용하면 테이블에 추가된 첫 번째 지표 열에 대한 예측이 자동으로 표시됩니다. 추가 열의 경우:
+시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. [!UICONTROL 사용자 환경 설정]에서 자유 형식 테이블에 대해 [예측 표시](../user-preferences.md)를 사용하면 테이블에 추가된 첫 번째 지표 열에 대한 예측이 자동으로 표시됩니다. 추가 열의 경우:
 
 1. 열 헤더에서 열 설정 아이콘 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;를 선택했는지 확인하십시오. 자세한 내용은 [열 설정](../visualizations/freeform-table/column-row-settings/column-settings.md)을 참조하십시오.
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 ![테이블에 예측 표시](assets/show-forecast-table.png)
 
 * 각 셀의 예측 값과 백분율이 **진한 회색**&#x200B;에 표시됩니다.
-* 예측 값을 나타내려면 예측 기호 <img src="./assets/forecast.svg" alt="예측 기호" width="20" />이(가) 셀의 오른쪽 위 모서리에 표시됩니다.
+* 예측 값을 나타내려면 셀의 오른쪽 위 모서리에 예측 기호 ![ForecastAnalytics](/help/assets/icons/ForecastAnalytics.svg)이(가) 표시됩니다.
 
 
 ## 라인 차트에서 예측 보기

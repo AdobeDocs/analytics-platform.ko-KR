@@ -5,17 +5,17 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '306'
+ht-degree: 88%
 
 ---
 
 
 # 모바일 스코어카드 주석
 
-모바일 스코어카드에서 Workspace에 만든 주석을 표시할 수 있습니다. 모바일 스코어카드의 주석을 사용하면 조직 및 캠페인에 대한 상황별 데이터 뉘앙스와 인사이트를 공유할 수 있습니다.
+모바일 스코어카드의 Analysis Workspace에서 생성된 주석을 표시할 수 있습니다. 모바일 스코어카드의 주석을 사용하면 조직 및 캠페인에 대한 상황별 데이터 뉘앙스와 인사이트를 공유할 수 있습니다.
 
 
 ## 모바일 스코어카드에서 주석 표시

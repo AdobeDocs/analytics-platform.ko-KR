@@ -1,12 +1,12 @@
 ---
-title: 자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기
+title: 하이퍼링크 만들기
 description: Analysis Workspace의 자유 형식 테이블에서 차원 항목에 대한 하이퍼링크를 만드는 방법을 알아봅니다.
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1599'
 ht-degree: 97%
 
 ---

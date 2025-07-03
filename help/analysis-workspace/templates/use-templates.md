@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 템플릿을 사용하는 방법을 알아봅니다.
+description: Analysis Workspace의 기본 템플릿과 이러한 기본 템플릿을 사용하는 방법에 대해 알아봅니다.
 title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '19826'
-ht-degree: 100%
+source-wordcount: '19833'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    * 템플릿을 봅니다.
    * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그합니다. 예를 들어 [!UICONTROL **모바일 고객**]&#x200B;을 드래그하여 결과를 봅니다.
-   * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경합니다.
+   * 오른쪽 상단의 캘린더로 이동하여 날짜 범위를 변경합니다.
    * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 필요에 맞게 템플릿을 사용자 정의합니다.
 
 1. (선택 사항) [!UICONTROL **프로젝트**] > [!UICONTROL **저장**]&#x200B;을 선택하여 템플릿을 프로젝트로 저장합니다.

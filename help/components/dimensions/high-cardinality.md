@@ -1,11 +1,11 @@
 ---
 title: 높은 카디널리티 차원
-description: Customer Journey Analytics에서 고유한 값이 많은 차원을 처리하는 방법을 설명합니다
+description: Customer Journey Analytics에서 고유한 값이 많은 차원을 처리하는 방법을 설명합니다.
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 7%
