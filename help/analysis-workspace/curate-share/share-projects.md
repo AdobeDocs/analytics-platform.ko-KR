@@ -61,9 +61,9 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 조직의 사용자 및 그룹과 특정 프로젝트 역할을 공유할 때는 다음 사항을 고려해 보십시오.
 
-* 프로젝트 역할(**[!UICONTROL 원본 편집]**, **[!UICONTROL 사본 편집]** 및 **[!UICONTROL 읽기 전용]**)은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started)에서 관리되는 사용자 권한과 독립적입니다.
+* 프로젝트 역할(**[!UICONTROL 원본 편집]**, **[!UICONTROL 사본 편집]** 및 **[!UICONTROL 읽기 전용]**)은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-getting-started)에서 관리되는 사용자 권한과 독립적입니다.
 
-* Customer Journey Analytics에서 그룹은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started)에서 제품 프로필로 정의됩니다. 관리자는 *모두*&#x200B;를 포함한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 *모두*&#x200B;를 제외하고 자신이 구성원으로 있는 모든 그룹과 공유할 수 있습니다.
+* Customer Journey Analytics에서 그룹은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-getting-started)에서 제품 프로필로 정의됩니다. 관리자는 *모두*&#x200B;를 포함한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 *모두*&#x200B;를 제외하고 자신이 구성원으로 있는 모든 그룹과 공유할 수 있습니다.
 
 * 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 이 시나리오는 사용자가 개인과 그룹의 일부로 모두 추가되는 경우에 발생할 수 있습니다. 예를 들어, 사용자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할 및 그룹의 구성원으로 **[!UICONTROL 읽기 전용]** 역할이 주어지면 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다.
 
