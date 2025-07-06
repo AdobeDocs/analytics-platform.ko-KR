@@ -1,13 +1,13 @@
 ---
-title: 세분화 개요
+title: 세그먼테이션 개요
 description: 세그먼트를 사용하는 이유 및 간단한 세그먼트를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,7 @@ Customer Journey Analytics의 데이터 보기를 통해 세션이 지속되는 
 
 ### B2B 컨테이너
 
-[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}
+[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
 [Customer Journey Analytics B2B 에디션](/help/getting-started/cja-b2b-edition.md)에 액세스할 수 있는 경우 세그먼트에 사용할 수 있는 추가 컨테이너가 제공됩니다. 이러한 추가 컨테이너의 사용에 대한 자세한 내용은 [B2B 개념 및 기능](/help/getting-started/cja-b2b-concepts-features.md)에서 확인할 수 있습니다.
 

@@ -1,17 +1,17 @@
 ---
 description: 테이블 또는 라인 차트에서 예측을 보는 방법에 대해 알아봅니다.
-title: Analysis Workspace에서 예측을 조회하는 방법
+title: 예측 보기
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 2%
 
 ---
 
-# Analysis Workspace에서 예측 조회
+# 예측 보기
 
 자유 형식 테이블 또는 라인 차트에서 예측을 볼 수 있습니다.
 

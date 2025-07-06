@@ -1,13 +1,13 @@
 ---
 title: 기본 함수
-description: 계산된 지표 빌더를 사용하면 고급 계산된 지표에 통계 및 수학 함수를 적용할 수 있습니다.
+description: 기본 계산된 지표 함수에 대해 알아봅니다.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+workflow-type: tm+mt
+source-wordcount: '1868'
+ht-degree: 92%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
 
-해당 및 관련이 있는 경우 함수에 함수 유형이 주석으로 표시됩니다. [!BADGE 테이블]{type="Neutral"}[!BADGE 행]{type="Neutral"}
+해당 및 관련이 있는 경우 함수에 함수 유형이 주석([!BADGE 테이블]{type="Neutral"} 또는 [!BADGE 행]{type="Neutral"})으로 표시됩니다.
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
-계산에 0을 포함할지 여부를 알려 줍니다. 때로 0은 *아무것도 없다*&#x200B;는 뜻이지만, 경우에 따라서는 중요합니다.
+계산에 0을 포함할지 여부를 알려 줍니다. 때로 0은 *아무것도 없다*&#x200B;는 뜻이지만 경우에 따라서는 중요합니다.
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE Row]{type="Neutral"} 숫자의 절대값을 반환합니다. 숫자의 절댓값은 양의 값을 갖는 숫자입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 열 내의 한 지표에 대한 0이 아닌 값의 수 또는 개수(차원 내에서 보고된 고유 요소의 수)를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -157,7 +157,7 @@ ht-degree: 100%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE Row]{type="Neutral"} e를 지정된 숫자의 거듭제곱으로 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. 지수는 숫자의 자연 로그인 LN의 역함수입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 열의 지표에 대한 산술 평균 또는 평균을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -200,7 +200,7 @@ ht-degree: 100%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE Table]{type="Neutral"} 열에서 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(지표, k, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}은 0에서 100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -304,7 +304,7 @@ x를 y의 거듭제곱으로 반환합니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(지표, 사분위수, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}[COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
+[!BADGE 테이블]{type="Neutral"}은(는) 지표에 대한 값의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다. [COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -435,7 +435,7 @@ ROUND( 314.15, -2) = 300
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 제곱근(지표, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE Row]{type="Neutral"} 숫자의 양의 제곱근을 반환합니다. 숫자의 제곱근은 해당 숫자의 1/2 거듭제곱 값입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -455,7 +455,7 @@ ROUND( 314.15, -2) = 300
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 표준편차(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 데이터의 샘플 모집단을 기반으로 표준편차 또는 분산의 제곱근을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -476,7 +476,7 @@ ROUND( 314.15, -2) = 300
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE Table]{type="Neutral"} 데이터의 샘플 모집단을 기반으로 분산을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|

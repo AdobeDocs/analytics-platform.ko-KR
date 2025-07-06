@@ -1,17 +1,17 @@
 ---
-description: Analysis Workspace의 예측은 일련의 고급 통계 기법을 사용하여 예측 값을 결정합니다.
-title: 예측에 사용되는 통계 기법
+description: Analysis Workspace의 예측이 일련의 고급 통계 기술을 사용하여 예측 값을 결정하는 방법에 대해 알아봅니다.
+title: 통계 기법
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-source-git-commit: accd7300c2dd6224e4d154cb6e3889f564e07a1a
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 
 ---
 
-# 예측 서비스에 사용되는 통계 기법
+# 통계 기법
 
 예측 서비스는 현재 Promise를 지원하며 대부분의 데이터에 대해 효율적이고 안정적으로 작동하는 것으로 나타났습니다. 예언자는 메타가 개발한 널리 사용되는 오픈소스 예측 패키지다. 트렌드, 계절성 및 이벤트 구성 요소로 데이터를 분해합니다. Promise 모델은 효율적이며 많은 예측 애플리케이션에 맞게 확장됩니다. 또한 모델은 이상치 및 누락된 데이터에 대해 강력하게 작동합니다.
 

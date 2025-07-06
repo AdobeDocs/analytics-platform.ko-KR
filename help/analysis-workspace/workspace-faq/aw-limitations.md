@@ -1,17 +1,17 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항에 대해 알아보기
-title: Analysis Workspace의 알려진 제한 사항
-feature: FAQ
+title: 알려진 제한 사항
+feature: Workspace Basics
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
-# Analysis Workspace의 알려진 제한 사항
+# 알려진 제한 사항
 
 다음은 Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록입니다.
 

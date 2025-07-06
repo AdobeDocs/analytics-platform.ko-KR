@@ -1,16 +1,16 @@
 ---
-description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세그먼트를 정리할 수 있습니다.
+description: 계산된 지표에 태그를 지정하여 계산된 지표를 구성하는 방법을 알아봅니다.
 title: 계산된 지표에 태그 지정
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
-# 계산된 지표에 태그 지정
+# 계산된 지표 태그 지정
 
 
 [계산된 지표 관리자](cm-manager.md)에서 태그를 사용하여 계산된 지표를 구성할 수 있습니다. 관리자는 모든 계산된 지표에 태그를 지정할 수 있습니다. 관리자가 아닌 사용자는 자신이 만들거나 자신과 공유된 계산된 지표에만 태그를 지정할 수 있습니다.
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 1. 계산된 지표에 대한 태그를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하십시오. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
-저장하면 [계산된 지표 빌더](cm-tagging.md)에서 선택한 계산된 지표에 대한 [!UICONTROL 태그] 필드에 태그가 나열됩니다.
+저장하면 [!UICONTROL 계산된 지표 빌더]에서 선택한 계산된 지표에 대한 [태그](cm-tagging.md) 필드에 태그가 나열됩니다.
 
 <!--
 

@@ -1,13 +1,13 @@
 ---
-description: Customer Journey Analytics용 Analysis Workspace에서 빠른 이해하십시오 사용
+description: Analysis Workspace에서 빠른 세그먼트를 사용하는 방법을 알아봅니다.
 title: 빠른 세그먼트
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 85%
+source-wordcount: '1186'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/345340/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

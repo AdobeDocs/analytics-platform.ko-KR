@@ -1,12 +1,12 @@
 ---
-description: 지표 유형 및 속성에 대해 알아보기
+description: 지표 유형 및 속성에 대해 알아봅니다.
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 91%
          * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
          * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
 
-            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오.
-            * [컨테이너](#container) 옵션에서 **[!UICONTROL 컨테이너]**&#x200B;을(를) 선택하십시오.
-            * [전환 확인 기간](#lookback-window) 옵션에서 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다. **[!UICONTROL 사용자 지정 시간]**&#x200B;을(를) 선택하는 경우 최대 **[!UICONTROL 분기]**&#x200B;까지 **[!UICONTROL 분]**&#x200B;으로 기간을 정의할 수 있습니다.
+            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
+            * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
+            * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
 
       1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
 
      비기본 속성 모델을 이미 정의한 경우 **[!UICONTROL 편집]**&#x200B;을 선택해 선택 항목을 수정합니다.
 
-속성 모델, 컨테이너 및 전환 확인 기간을 사용하는 방법에 대한 예는 [예](#example)를 참조하십시오.
+속성 모델, 컨테이너와 전환 확인 기간 사용에 대한 예시는 [예제](#example)에서 확인하십시오.
 
 
 ## 속성 모델 {#attribution-models}
@@ -163,6 +163,6 @@ ht-degree: 91%
 >[!MORELIKETHIS]
 >
 >[속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)
->&#x200B;>[참여도 지표](participation-metric.md)
+>>[참여도 지표](participation-metric.md)
 >
 

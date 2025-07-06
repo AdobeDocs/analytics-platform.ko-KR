@@ -4,10 +4,10 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 속성 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/attribution)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 속성 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/attribution)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Customer Journey Analytics는 다음을 통해 속성을 강화합니다.
 
    ![여러 개의 선택된 차원과 지표를 보여 주는 속성 패널 창.](assets/attribution-panel.png)
 
-1. **[!UICONTROL 포함된 모델]**&#x200B;에서 하나 이상의 [속성 모델](#attribution-models)을 선택하고 비교에 사용할 **[!UICONTROL 전환 확인 기간]**&#x200B;에서 [전환 확인 기간](#lookback-window)을 선택합니다.
+1. [포함된 모델](#attribution-models)에서 **[!UICONTROL 속성 모델]**, [컨테이너](#container)에서 **[!UICONTROL 컨테이너]** 및 [전환 확인 기간](#lookback-window)에서 비교에 사용할 **[!UICONTROL 전환 확인 기간]**&#x200B;을 하나 이상 선택하십시오.
 
 1. 패널에서 시각화를 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 

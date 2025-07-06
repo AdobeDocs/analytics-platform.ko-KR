@@ -1,9 +1,9 @@
 ---
-description: 순차적 세그먼트는 THEN 연산자를 사용하여 세그먼트 조건의 시퀀스를 정의하는 세그먼트입니다.
-title: 순차적 세그먼트
+description: THEN 연산자를 사용하여 일련의 세그먼트 조건을 정의하는 순차적 세그먼트에 대해 알아봅니다.
+title: SequentialSegments
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/32591/?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 
 
-순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](seg-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 [정의 빌더](seg-builder.md#definition-builder)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하는 즉시 일반 세그먼트가 순차적 세그먼트가 됩니다.
+순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](seg-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 **[!UICONTROL 정의 빌더]**&#x200B;에서 사용하는 컨테이너에서 [Then](seg-builder.md#definition-builder) 연산자를 선택하는 즉시 일반 세그먼트가 순차적 세그먼트가 됩니다.
 
 ### 예
 
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 ## [!UICONTROL 이후] 및 [!UICONTROL 내부]
 
-**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 이벤트, 세션 또는 차원에 대한 [시간 제약 조건](#time-constraints) 또는 [제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
+![Then](/help/assets/icons/Clock.svg) 연산자에서 **[!UICONTROL Clock]** ![After](/help/assets/icons/Clock.svg) 및 **[!UICONTROL Clock]** **[!UICONTROL Within]**&#x200B;을(를) 사용하여 이벤트, 세션 또는 차원에 대한 [시간 제약 조건](#time-constraints) 또는 [제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
 
 ### 시간 제한
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;을(를) 선택하십시오.
+1. ![-](/help/assets/icons/ChevronDown.svg) 또는 **[!UICONTROL *+*]**을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면**[!UICONTROL  VDown ]****[!UICONTROL  number ]**을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 ### [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL Dimension] 제약 조건
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 이벤트, 세션 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**&#x200B;을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 이벤트, 세션 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
 #### 예
 
@@ -210,7 +210,7 @@ ht-degree: 4%
 
 ## [!UICONTROL 제외]
 
-**[!UICONTROL Exclude]**&#x200B;을(를) 사용하여 ![사용자](/help/assets/icons/User.svg) [!UICONTROL 사람], ![방문](/help/assets/icons/Visit.svg) [!UICONTROL 세션] 또는 ![웹 페이지](/help/assets/icons/WebPage.svg) [!UICONTROL 이벤트] 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
+![Exclude](/help/assets/icons/User.svg)을(를) 사용하여 [!UICONTROL 사용자] ![사람](/help/assets/icons/Visit.svg), [!UICONTROL 방문] ![세션](/help/assets/icons/WebPage.svg) 또는 [!UICONTROL 웹 페이지] **[!UICONTROL 이벤트]** 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
 
 [!UICONTROL 제외]를 사용하면 일반 데이터를 무시하고 더 많은 포커스를 가진 세그먼트를 만들 수 있습니다. 제외를 사용하면 특정 사용자 그룹을 제외하는 세그먼트를 만들 수도 있습니다. 예를 들어, 주문을 한 사람을 지정한 다음 해당 사람 그룹을 제외하여 *비구매자*&#x200B;를 식별하는 세그먼트를 정의합니다. 가장 좋은 방법은 특정 포함 값과 일치하는 특정 담당자를 대상으로 [!UICONTROL Exclude]을(를) 사용하는 것보다 광범위한 정의를 사용하는 규칙을 만드는 것입니다.
 
@@ -296,7 +296,7 @@ ht-degree: 4%
 
 #### [!UICONTROL 제외] [!UICONTROL 또는]
 
-한 페이지를 방문한 후 페이지 세트의 페이지를 명시적으로 방문하지 않았지만 다른 페이지를 방문하지 않은 사용자를 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 남성 및 여성 페이지를 방문하지 않았지만 키즈 페이지를 방문했습니다.
+한 페이지를 방문한 후 페이지 세트의 페이지를 명시적으로 방문하지 않았지만 다른 페이지를 방문하지 않은 사용자를 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 남성 및 여성 페이지는 방문하지 않았지만 키즈 페이지는 방문하지 않았습니다.
 
 ![논리 그룹 제외 및](assets/logicgroup-exclude-or.png)
 

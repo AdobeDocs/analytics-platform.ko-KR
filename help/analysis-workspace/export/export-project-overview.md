@@ -5,10 +5,10 @@ title: 프로젝트 데이터를 내보내는 방법
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
-workflow-type: ht
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,6 @@ Analysis Workspace에서 내보내고자 할 때 다양한 방법을 사용할 �
 |---------|----------|
 | [워크스테이션에 다운로드](/help/analysis-workspace/export/download-send.md) | <li>개인 워크스테이션에 프로젝트를 다운로드합니다.</li><li>애드혹 데이터만 다운로드합니다(예약되지 않음).</li> <li>최대 50,000개의 행을 다운로드합니다.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
 | [다른 사용자에게 보내기](/help/analysis-workspace/export/t-schedule-report.md) | <li>내보내기한 Customer Journey Analytics 데이터를 조직의 다른 사용자에게 이메일로 보냅니다.</li><li>이메일을 애드혹 또는 일정에 맞춰 보냅니다.</li> <li>이메일에는 50,000개 이하의 행을 포함하십시오.</li> <!--true?--> |
-| [클라우드 애플리케이션으로 내보내기](/help/analysis-workspace/export/export-cloud.md) | <li>다음과 같은 클라우드 위치로 내보내기 <ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>애드혹 또는 일정에 따라 데이터를 내보냅니다.</li><li>더 많은 양의 Customer Journey Analytics 데이터를 저장합니다.</li><li>수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [클라우드 위치로 내보내기](/help/analysis-workspace/export/export-cloud.md) | <li>다음과 같은 클라우드 위치로 내보내기 <ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>애드혹 또는 일정에 따라 데이터를 내보냅니다.</li><li>더 많은 양의 Customer Journey Analytics 데이터를 저장합니다.</li><li>수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

@@ -1,12 +1,12 @@
 ---
 title: 고급 함수
-description: 함수 드롭다운 메뉴에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
+description: 고급 계산된 지표 함수에 대해 알아봅니다.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ca1aae1291119214f3b051f9b6df8ddcd58faa6c
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '5247'
+source-wordcount: '5241'
 ht-degree: 99%
 
 ---

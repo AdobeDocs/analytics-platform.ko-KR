@@ -1,12 +1,12 @@
 ---
 description: Analysis Workspace 프로젝트에서 데이터를 다운로드하는 다양한 가능성에 대해 알아봅니다.
-title: Analysis Workspace 프로젝트 및 데이터 다운로드
+title: 프로젝트 및 데이터 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1184'
 ht-degree: 25%
 
 ---
@@ -35,11 +35,11 @@ Customer Journey Analytics 데이터를 내보내는 추가 방법은 [내보내
 
 프로젝트를 PDF 파일로 다운로드하려면 다음 작업을 수행하십시오.
 
-1. **[!UICONTROL 프로젝트]** > **[!UICONTROL PDF 다운로드]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 프로젝트]** > **[!UICONTROL PDF 다운로드]**를 선택합니다.
 녹색 막대에 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 다운로드가 요청되었습니다. 기다려 주십시오.]**&#x200B;이(가) 표시됩니다.
 
-1. 다운로드가 준비되면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *프로젝트 이름&#x200B;*PDF이 포함된 녹색 막대가 준비됩니다.]**&#x200B;이(가) 나타납니다.
-PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. PDF이 정확히 표시되거나 다운로드되는 방법은 PDF 문서를 처리하기 위한 브라우저 구성에 따라 다릅니다.
+1. 다운로드가 준비되면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *프로젝트 이름&#x200B;*PDF이 포함된 녹색 막대가 준비됩니다.]**이(가) 나타납니다.
+PDF을 다운로드하려면**[!UICONTROL 다운로드]**를 선택하십시오. PDF이 정확히 표시되거나 다운로드되는 방법은 PDF 문서를 처리하기 위한 브라우저 구성에 따라 다릅니다.
 
 
 프로젝트를 CSV 파일로 다운로드하려면 다음 작업을 수행하십시오.
@@ -107,8 +107,8 @@ PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선
 
 파일이 다운로드되면 다음 알림이 표시됩니다.
 
-* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**&#x200B;를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
-* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**&#x200B;완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
+* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
+* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 

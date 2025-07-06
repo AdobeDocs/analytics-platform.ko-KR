@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 99%
+source-wordcount: '1269'
+ht-degree: 97%
 
 ---
 
@@ -234,7 +234,7 @@ ht-degree: 99%
       + [벤](../analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [개요](../analysis-workspace/c-panels/panels.md)
-      + [빈](../analysis-workspace/c-panels/blank-panel.md)
+      + [빈 패널](../analysis-workspace/c-panels/blank-panel.md)
       + [속성](../analysis-workspace/c-panels/attribution.md)
       + [실험](../analysis-workspace/c-panels/experimentation.md)
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
@@ -254,6 +254,12 @@ ht-degree: 99%
       + [다운로드](../analysis-workspace/export/download-send.md)
       + [보내기 및 예약](../analysis-workspace/export/t-schedule-report.md)
       + [클라우드로 내보내기](../analysis-workspace/export/export-cloud.md)
+   + 속성 {#attribution}
+      + [속성 개요](../analysis-workspace/attribution/overview.md)
+      + [모델, 컨테이너 및 전환 확인 기간](../analysis-workspace/attribution/models.md)
+      + [알고리즘 속성](../analysis-workspace/attribution/algorithmic.md)
+      + [모범 사례](../analysis-workspace/attribution/best-practices.md)
+      + [자주 묻는 질문](../analysis-workspace/attribution/faq.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [예외 항목 보기](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -268,7 +274,7 @@ ht-degree: 99%
       + [성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 및 문제 해결](../analysis-workspace/workspace-faq/error-messages.md)
       + [제한 사항](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [관리 요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + 콘텐츠 분석 {#content-analytics}
@@ -346,10 +352,12 @@ ht-degree: 99%
       + [개요](../components/calc-metrics/calc-metr-overview.md)
       + 워크플로 {#cm-workflow}
          + [계산된 지표 만들기](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
+         + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [간단한 예](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [더 복잡한 예](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [참여도 지표 빌드](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [기여도 지표](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [세분화된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [계산된 지표 필터링](../components/calc-metrics/cm-workflow/cm-filter.md)

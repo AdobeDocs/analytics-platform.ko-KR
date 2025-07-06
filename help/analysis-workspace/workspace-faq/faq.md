@@ -1,13 +1,13 @@
 ---
-description: Workspace FAQ
+description: Analysis Workspace에 대한 일반적인 질문에 대한 답변을 받아 보십시오.
 title: 자주 묻는 질문
-feature: FAQ
+feature: Workspace Basics
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 

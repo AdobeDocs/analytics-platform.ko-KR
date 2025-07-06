@@ -1,13 +1,13 @@
 ---
+description: 세그먼트 관리자를 사용하여 세그먼트 공유, 필터링, 태그 지정, 승인, 복사, 삭제 및 즐겨찾기로 세그먼트 표시 등의 세그먼트를 관리하는 방법을 이해합니다.
 title: 세그먼트 관리
-description: Customer Journey Analytics에서 세그먼트 관리 방법 알아보기
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 81%
+source-wordcount: '930'
+ht-degree: 75%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 81%
 | ![검색](/help/assets/icons/Search.svg) [!UICONTROL *제목별 검색*] | 세그먼트가 목록에서 선택되지 않은 경우 이 검색 필드를 사용하여 세그먼트를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL 태그]** | 선택한 세그먼트에 태그를 지정합니다. **[!UICONTROL 세그먼트에 태그 지정]** 대화 상자에서 선택한 세그먼트의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 세그먼트의 태그를 저장합니다. 자세한 내용은 [세그먼트 태그 지정](/help/components/segments/seg-tag.md)을 참조하십시오. |
 | ![공유](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 공유]** | 선택한 세그먼트를 공유합니다. **[!UICONTROL 세그먼트 공유]** 대화 상자에서 ![검색](/help/assets/icons/Search.svg) *개인 또는 그룹을 검색* 하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 세그먼트에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [세그먼트 공유](seg-share.md)를 참조하십시오. |
-| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 세그먼트를 삭제합니다. 확인 메시지가 표시됩니다. |
+| ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** | 선택한 세그먼트를 삭제합니다. 확인을 묻는 메시지가 표시됩니다. <br/>세그먼트를 삭제할 때 다음 사항에 유의하십시오. <ul><li>이 세그먼트가 적용된 예약된 보고서 및 프로젝트는 계속 정상적으로 작동합니다.</li><li> 예약된 보고서는 같은 이름의 세그먼트를 편집할 때 업데이트되지 않습니다.</li> </ul> |
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 세그먼트 이름을 바꿉니다. 선택한 경우 세그먼트 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 세그먼트를 승인합니다. 자세한 내용은 [세그먼트 승인](seg-approve.md)을 참조하십시오. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 세그먼트를 복사합니다. 새로운 세그먼트가 동일한 이름에 접미사 `(Copy)`가 추가되어 생성됩니다. |
