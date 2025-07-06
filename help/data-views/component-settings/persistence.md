@@ -108,7 +108,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/3409295/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
