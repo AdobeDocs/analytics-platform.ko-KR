@@ -4,10 +4,10 @@ title: 경고 기능 비교 Customer Journey Analytics 및 Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 23%
+source-wordcount: '487'
+ht-degree: 24%
 
 ---
 
@@ -45,16 +45,8 @@ Customer Journey Analytics에서 데이터를 완료하고 보고할 수 있기�
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## Analysis Workspace에서 경고 만들기를 사용할 수 없음
+## 경고 만들기
 
-Adobe Analytics의 Analysis Workspace에서는 아래에 설명된 방법으로 Analysis Workspace에서 경고를 만들 수 있습니다. Customer Journey Analytics에서는 Analysis Workspace에서 경고를 생성하는 옵션을 아직 사용할 수 없습니다. 대신 [경고 만들기](/help/components/c-intelligent-alerts/alert-builder.md)에 설명된 대로 경고 빌더에 액세스하십시오.
+Adobe Analytics의 Analysis Workspace에서는 [여러 방법으로 Analysis Workspace에서 경고를 만들 수 있습니다](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). Customer Journey Analytics에서는 자유 형식 테이블의 선택 항목에서만 Analysis Workspace에서 [경고를 만들 수 있습니다](alert-builder.md).
 
-Adobe Analytics에서는 다음 옵션을 사용할 수 있습니다.
-
-* 자유 형식 테이블에서 하나 이상의 라인 항목을 선택한 다음 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기]**&#x200B;를 선택합니다.
-
-  이렇게 하면 즉시 경고 빌더가 미리 채워져서 올바른 지표와 세그먼트가 있는 경고가 만들어집니다.
-
-* Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고 만들기]**&#x200B;를 선택합니다.
-
-* Analysis Workspace에서 프로젝트를 연 다음 바로 가기 **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) 또는&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]**(macOS)를 사용하십시오.
+Adobe Analytics과 Customer Journey Analytics 모두 [경고 관리자](alert-manager.md)를 통해 경고를 만들 수 있습니다
