@@ -1,13 +1,13 @@
 ---
-description: 알림을 세부적으로 제어하고 예외 항목 탐지와 통합할 수 있도록 경고를 사용하는 방법을 이해합니다.
+description: 알림을 세부적으로 제어하고 예외 항목 탐지와 통합하기 위해 알림을 사용하는 방법을 이해합니다.
 title: 경고 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Customer Journey Analytics 패키지를 기반으로 예외 항목 임계값에 
 * 하나의 경고에서 여러 지표를 캡처하는 “스택” 경고를 생성합니다.
 * 예외 항목(90%, 95%, 99%, 99.75%, 99.9% 임계값, % 변경, 위/아래)를 기반으로 경고를 구축합니다(Select, Prime 또는 Ultimate 패키지가 있는 Customer Journey Analytics 고객만 사용 가능).
 
-다음 비디오 튜토리얼에서 경고 대한 기본 개요를 제공합니다. [경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ko) (5:34)
+다음 비디오 튜토리얼에서 경고 대한 기본 개요를 제공합니다. [경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## 경고의 차이점 이해
 

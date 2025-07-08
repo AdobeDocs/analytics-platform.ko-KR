@@ -1,13 +1,13 @@
 ---
-description: 달력 및 데이터 범위를 사용하여 Analysis Workspace에서 날짜 범위를 지정합니다.
+description: Analysis Workspace에서 캘린더 및 데이터 범위를 사용하여 날짜 범위를 지정합니다.
 title: 날짜 범위 개요
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/anal
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/30912?format=jpeg&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -47,8 +47,8 @@ Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/anal
 날짜 범위는 [모든 구성 요소를 사용](/help/components/overview.md#analysis-workspace-components)하는 것과 같은 방식으로 사용합니다. ![캘린더](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 구성 요소 패널에서 날짜 범위를 끌어서 다음 위치에 구성 요소를 놓습니다.
 
 - **[!UICONTROL 캘린더]**: 현재 캘린더 구성을 날짜 범위로 ![전환](/help/assets/icons/Switch.svg) **[!UICONTROL 대체]**&#x200B;합니다.
-- **지표 열 머리글**: 지표를 ![전환](/help/assets/icons/Switch.svg) **[!UICONTROL 대체]**&#x200B;하거나 지표로 날짜 범위를 ![추가](/help/assets/icons/Add.svg)**[!UICONTROL 추가&#x200B;]**&#x200B;하거나 지표를 날짜 범위 구성 요소를 사용하여 지표를 ![필터](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;필터링&#x200B;]**&#x200B;합니다.
-- **차원 열 머리글**: 현재 차원을 ![전환](/help/assets/icons/Switch.svg) **[!UICONTROL 대체]**&#x200B;합니다. 새로운 차원은 이제 **[!UICONTROL 날짜 범위]**&#x200B;입니다. 차원이 날짜 범위이면 차원 항목으로 날짜 범위를 ![추가](/help/assets/icons/Add.svg)**[!UICONTROL 추가&#x200B;]**&#x200B;할 수 있습니다.
+- **지표 열 머리글**: 지표를 ![전환](/help/assets/icons/Switch.svg) **[!UICONTROL 대체]**&#x200B;하거나 지표로 날짜 범위를 ![추가](/help/assets/icons/Add.svg)**[!UICONTROL 추가&#x200B;]**하거나 지표를 날짜 범위 구성 요소를 사용하여 지표를 ![필터](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;필터링&#x200B;]**합니다.
+- **차원 열 머리글**: 현재 차원을 ![전환](/help/assets/icons/Switch.svg) **[!UICONTROL 대체]**&#x200B;합니다. 새로운 차원은 이제 **[!UICONTROL 날짜 범위]**&#x200B;입니다. 차원이 날짜 범위이면 차원 항목으로 날짜 범위를 ![추가](/help/assets/icons/Add.svg)**[!UICONTROL 추가&#x200B;]**할 수 있습니다.
 - **차원 항목**: 날짜 범위에 따라 특정 차원 항목을 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;합니다.
 
 자유 형식 테이블 시각화에 날짜 범위 열을 직접 추가할 수도 있습니다.

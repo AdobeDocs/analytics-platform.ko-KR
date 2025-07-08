@@ -1,12 +1,12 @@
 ---
 title: 차원 개요
-description: 차원의 의미와 Customer Journey Analytics에서 차원을 사용하는 방법을 알아봅니다.
+description: 차원이 무엇이고 Customer Journey Analytics에서 차원이 어떻게 사용되는지 알아봅니다.
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,6 +48,6 @@ Customer Journey Analytics는 데이터 보기 내에서 또는 Analysis Workspa
 
 >[!MORELIKETHIS]
 >
->[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=ko#M576)
+>[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 
