@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace에서 프로젝트에서 구성 요소를 사용하는 방법을 알아봅니다.
+description: Analysis Workspace에서 프로젝트에 구성 요소를 사용하는 방법 알아보기
 title: 프로젝트에서 구성 요소 사용
 feature: Components
 role: User
@@ -7,7 +7,7 @@ exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음 프로젝트 내의 패널이나 시각화로 드래그합니다.
 
-1. 선택 사항으로 구성요소를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 이 드래그 앤 드롭 기능은 구성 요소를 세그먼트로 정의하고 해당 세그먼트를 패널 내의 모든 콘텐츠에 적용합니다.
+1. 선택 사항으로 구성 요소를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 이 드래그 앤 드롭 기능은 구성 요소를 세그먼트로 정의하고 해당 세그먼트를 패널 내의 모든 콘텐츠에 적용합니다.
 패널의 세그먼트 드롭 영역을 사용하여 패널을 분할하는 방법에 대한 자세한 내용은 [패널 개요](/help/analysis-workspace/c-panels/panels.md)의 [드롭 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone)을 참조하십시오.
 
 1. 자세한 내용은 다음 섹션을 참조하십시오.
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 1. Analysis Workspace에서 다른 구성 요소와 함께 차원 및 차원 항목을 선택적으로 세분화할 수 있습니다. 자세한 내용은 [Workspace에서 차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 
-Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내용은 [차원 미리 보기](/help/components/dimensions/view-dimensions.md), [차원 분류](/help/components/dimensions/t-breakdown-fa.md) 및 [차원 시간 분할](/help/components/dimensions/time-parting-dimensions.md)을 참조하십시오.
+Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내용은 [차원 미리보기](/help/components/dimensions/view-dimensions.md), [차원 분류](/help/components/dimensions/t-breakdown-fa.md) 및 [차원 시간 분할](/help/components/dimensions/time-parting-dimensions.md)을 참조하십시오.
 
 ### 프로젝트에 지표 추가
 
@@ -102,7 +102,7 @@ Analysis Workspace에서 세그먼트를 다음과 같은 방법으로 사용할
 * 시각화에 세그먼트 추가
 자유 형식 테이블의 열에 세그먼트를 추가하면 세그먼트가 테이블 열 내의 모든 콘텐츠에 적용됩니다. 또한 폴아웃 시각화의 일부로 세그먼트를 추가할 수도 있습니다.
 
-* 구성요소에서 세그먼트 사용
+* 구성 요소에서 세그먼트 사용
 [계산된 지표](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [주석](/help/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segments/seg-builder.md)와 같은 구성 요소를 정의할 때 정의의 일부로 세그먼트를 사용할 수 있습니다.
 
 
