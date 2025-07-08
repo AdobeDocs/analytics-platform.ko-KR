@@ -21,7 +21,7 @@ Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/anal
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/30912?format=jpeg&captions=kor)
 
 {{videoaa}}
 +++
