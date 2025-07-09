@@ -4,11 +4,11 @@ description: Customer Journey Analytics B2B edition에 대한 개념 및 기능�
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
+source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Customer Journey Analytics B2B는 다음 데이터 유형과 데이터 세트를
 | 데이터 유형 | 시계열 | 컨테이너 레코드 | 필드 레코드 |
 |---|---|---|---|
 | **데이터 세트** | **이벤트 데이터 세트**<br/>&#x200B;예:<ul><li>디지털 분석</li><li>CRM 이벤트</li><li>대면 이벤트</li><li>콜 센터 데이터</li></ul> | **프로필 데이터 세트**<br/>&#x200B;예:<ul><li>CRM 레코드</li><li>AJO B2B 레코드</li><li>CDP 레코드</li><ul> | **클래스**<br/>&#x200B;예:<ul><li>캠페인 레코드</li><li>마케팅 목록 레코드</li><li>컨텐츠 메타데이터</li><li>제품 레코드</li></ul> |
-| 요구 사항 | **타임스탬프**<br>&#x200B;모든 레코드에 필요한 시간:<ul><li>계정 ID</li><li>글로벌 계정 ID</li><li>개인 ID</li></ul> | **계정 ID**<br>&#x200B;레코드에 다음과 같은 컨테이너 ID가 필요합니다.<ul><li>계정</li><li>개인</li><li>기회</li><li>구매 그룹</li></ul> | **일치하는 키**<br>&#x200B;레코드에는 다음과 같은 컨테이너 또는 이벤트 데이터 집합에 포함된 ID가 필요합니다.<ul><li>캠페인 ID</li><li>콘텐츠 ID</li><li>제품 ID</li></ul> |
+| 요구 사항 | **타임스탬프**<br>&#x200B;모든 레코드에 필요한 시간:<ul><li>계정 ID</li><li>글로벌 계정 ID(선택 사항)</li></ul> | **계정 ID**<br>&#x200B;레코드에 다음과 같은 컨테이너 ID가 필요합니다.<ul><li>계정</li><li>개인</li><li>기회</li><li>구매 그룹</li></ul> | **일치하는 키**<br>&#x200B;레코드에는 다음과 같은 컨테이너 또는 이벤트 데이터 집합에 포함된 ID가 필요합니다.<ul><li>캠페인 ID</li><li>콘텐츠 ID</li><li>제품 ID</li></ul> |
 
 {style="table-layout:fixed"}
 
