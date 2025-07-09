@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
+source-git-commit: 7853231ffc2ad42a66ab67a61c9f043ec1eac739
 workflow-type: tm+mt
 source-wordcount: '14685'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 * **Power BI 데스크톱**. 사용된 버전은 2.137.1102.0 64비트(2024년 10월)입니다.
 * **타블로 데스크톱**. 사용된 버전은 2024.1.5(20241.24.0705.0334) 64비트입니다.
-* **조회자**. 온라인 버전 25.0.23, [looker.com](https://looker.com){target="_blank"}을 통해 사용 가능
+* **조회자**. 온라인 버전 25.0.23, [looker.com](https://looker.com)을 통해 사용 가능
 * **Jupyter 전자 필기장**. 사용된 버전은 7.3.2입니다.
 * **자습서**. 사용된 버전은 2024.12.0, 빌드 467입니다.
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 * 지표: **[!UICONTROL 구매 매출]** 🅓 및 **[!UICONTROL 구매]** 🅔.
 * 필터: **[!UICONTROL 낚시 제품]** 🅕.
 
-![Customer Journey Analytics 기본 설정](assets/cja-base.png){zoomable="yes"}
+![Customer Journey Analytics 기본 설정](assets/cja-base.png)
 
 사용 사례를 살펴볼 때 이러한 예제 객체를 특정 환경에 적합한 객체로 바꾸십시오.
 
@@ -89,41 +89,35 @@ ht-degree: 2%
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. `prod:cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴에서]**&#x200B;을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
 
 1. Power BI Desktop을 시작합니다.
    1. 주 인터페이스에서 **[!UICONTROL 다른 원본에서 데이터 가져오기]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 데이터 가져오기]** 대화 상자에서:
-
-      ![PowerBI PostgreSQL 데이터베이스](assets/powerbi-postgresql.png){zoomable="yes"}
+      ![PowerBI PostgreSQL 데이터베이스](assets/powerbi-postgresql.png)
       1. **[!UICONTROL PostgreSQL 데이터베이스]**&#x200B;를 검색하여 선택하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** 대화 상자에서:
-
-      ![PowerBI Desktop Server 및 데이터베이스 설정](assets/powerbi-serverdatabase.png){zoomable="yes"}
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL Server]**&#x200B;의 값으로 **[!UICONTROL (으)로 구분된 Experience Platform]**&#x200B;쿼리&#x200B;**&#x200B;**&#x200B;만료 자격 증명&#x200B;**[!UICONTROL 패널의]**&#x200B;호스트`:` 및 **[!UICONTROL 포트]** 값을 복사하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io:80`.
+      ![PowerBI Desktop Server 및 데이터베이스 설정](assets/powerbi-serverdatabase.png)
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL Server]**&#x200B;의 값으로 **[!UICONTROL (으)로 구분된 Experience Platform]**&#x200B;쿼리&#x200B;****&#x200B;만료 자격 증명&#x200B;**[!UICONTROL 패널의]**&#x200B;호스트`:` 및 **[!UICONTROL 포트]** 값을 복사하여 붙여넣으십시오. 예: `examplecompany.platform-query.adobe.io:80`.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]** 값을 복사하여 붙여 넣으십시오. 붙여넣은 값에 `?FLATTEN`을(를) 추가합니다. (예: `prod:cja?FLATTEN`)
       1. **[!UICONTROL DirectQuery]**&#x200B;을(를) **[!UICONTROL 데이터 연결 모드]**(으)로 선택합니다.
       1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** - **[!UICONTROL 데이터베이스]** 대화 상자에서:
-
-      ![PowerBI Desktop 사용자 및 암호](assets/powerbi-userpassword.png){zoomable="yes"}
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
+      ![PowerBI Desktop 사용자 및 암호](assets/powerbi-userpassword.png)
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL 이러한 설정을 적용할 수준 선택]**&#x200B;의 드롭다운 메뉴가 이전에 정의한 **[!UICONTROL 서버]**(으)로 설정되어 있는지 확인하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI Desktop에 다음 내용이 표시됩니다.
-
-      ![Power BI Destkop 데이터 로드](assets/powerbi-navigator-load.png){zoomable="yes"}
+      ![Power BI Destkop 데이터 로드](assets/powerbi-navigator-load.png)
       1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
       1. 두 가지 옵션이 있습니다.
          1. **[!UICONTROL 로드]**&#x200B;를 선택하여 설치를 계속하고 완료합니다.
-         1. **[!UICONTROL 데이터 변환]**&#x200B;을 선택합니다. 구성의 일부로 변환을 선택적으로 적용할 수 있는 대화 상자가 표시됩니다.
-
-            ![Power BI 데스크톱 변환 데이터](assets/powerbi-transform-data.png){zoomable="yes"}
+         1. **[!UICONTROL 데이터 변환]**을 선택합니다. 구성의 일부로 변환을 선택적으로 적용할 수 있는 대화 상자가 표시됩니다.
+            ![Power BI 데스크톱 변환 데이터](assets/powerbi-transform-data.png)
             * **[!UICONTROL 닫기 및 적용]**&#x200B;을 선택합니다.
    1. 잠시 후 **[!UICONTROL public.cc_data_view]**&#x200B;이(가) **[!UICONTROL 데이터]** 창에 표시됩니다. 차원 및 지표를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택하십시오.
-
-      ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png){zoomable="yes"}
+      ![Power BI Destkop 서버 데이터를 로드함](assets/powerbi-navigator-loaded.png)
 
 
 ### 평면화할지 말지
@@ -154,21 +148,19 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. `prod:cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴에서]**&#x200B;을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
 
 1. 타블로를 시작합니다.
-   1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택합니다.
-
-      ![타블로 커넥터](assets/tableau-connectors.png){zoomable="yes"}
+   1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**을(를) 선택합니다.
+      ![타블로 커넥터](assets/tableau-connectors.png)
    1. **[!UICONTROL PostgreSQL]** 대화 상자의 **[!UICONTROL 일반]** 탭에서:
-
-      ![타블로 로그인 대화 상자](assets/tableau-signin.png){zoomable="yes"}
+      ![타블로 로그인 대화 상자](assets/tableau-signin.png)
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 호스트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 서버]**&#x200B;로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 포트]**&#x200B;를 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 포트]**(으)로 복사하여 붙여넣으십시오.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 데이터베이스]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]**(으)로 복사하여 붙여넣으십시오. 붙여넣은 값에 `%3FFLATTEN`을(를) 추가합니다. 예: `prod:cja%3FFLATTEN`.
       1. **[!UICONTROL 인증]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 이름 및 암호]**&#x200B;를 선택합니다.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]**(으)로 복사하여 붙여넣으십시오.
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 암호]**&#x200B;를 복사하여 **[!UICONTROL 암호]**&#x200B;에 붙여넣으십시오. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 암호]**&#x200B;를 복사하여 **[!UICONTROL 암호]**&#x200B;에 붙여넣으십시오. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL SSL 필요]**&#x200B;가 선택되어 있는지 확인하십시오.
       1. **[!UICONTROL 로그인]**&#x200B;을 선택합니다.
 
@@ -177,12 +169,10 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
       * **[!UICONTROL 연결]** 아래의 연결 이름입니다.
       * **[!UICONTROL 데이터베이스]** 아래의 데이터베이스 이름입니다.
       * **[!UICONTROL 테이블]** 아래의 테이블 목록입니다.
-
-        ![연결된 타블로](assets/tableau-connected.png){zoomable="yes"}
+        ![연결된 타블로](assets/tableau-connected.png)
       1. **[!UICONTROL cc_data_view]** 항목을 끌어서 **[!UICONTROL 테이블을 여기로 드래그]**&#x200B;하는 기본 보기에 놓으십시오.
    1. 기본 창에 **[!UICONTROL cc_data_view]** 데이터 보기의 세부 정보가 표시됩니다.
-
-      ![연결된 타블로](assets/tableau-validation.png){zoomable="yes"}
+      ![연결된 타블로](assets/tableau-validation.png)
 
 ### 평면화할지 말지
 
@@ -210,7 +200,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. `prod:cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴에서]**&#x200B;을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
 
 1. Looker에 로그인
 
@@ -219,7 +209,7 @@ Tableau Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지�
    1. **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
    1. **[!UICONTROL Looker 화면에 데이터베이스를 연결]**&#x200B;합니다.
 
-      ![데이터베이스에 Looker 연결](assets/looker-connect.png){zoomable="yes"}
+      ![데이터베이스에 Looker 연결](assets/looker-connect.png)
 
       1. 연결에 대한 **[!UICONTROL 이름]**(예: `Example Looker Connection`)을 입력하십시오.
       1. **[!UICONTROL 모든 프로젝트]**&#x200B;가 **[!UICONTROL 연결 범위]**(으)로 선택되었는지 확인하십시오.
@@ -286,7 +276,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. `prod:cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴에서]**&#x200B;을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
 
 1. Jupyter Notebook 환경을 실행하기 위한 전용 Python 가상 환경을 설정했는지 확인하십시오.
 1. 가상 환경에 필요한 라이브러리를 설치했는지 확인합니다.
@@ -328,7 +318,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 1. 셀을 실행합니다.
 1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 Jupyter Notebook의 **[!UICONTROL 암호]** 필드로 암호를 복사하여 붙여넣으십시오.
 
-   ![Jupter Notebook 구성 단계 1](assets/jupyter-config-step1.png){zoomable="yes"}
+   ![Jupter Notebook 구성 단계 1](assets/jupyter-config-step1.png)
 
 1. 새 셀에서 SQL 확장, 필수 라이브러리를 로드하고 Customer Journey Analytics과 연결할 명령문을 입력합니다.
 
@@ -340,7 +330,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    셸을 실행합니다. 출력은 표시되지 않지만 셀은 경고 없이 실행됩니다.
 
-   ![Jupyer Notebook 구성 단계 4](assets/jupyter-config-step2.png){zoomable="yes"}
+   ![Jupyer Notebook 구성 단계 4](assets/jupyter-config-step2.png)
 
 1. 새 호출에서 문을 입력하여 연결에 따라 사용 가능한 데이터 보기 목록을 가져옵니다.
 
@@ -364,7 +354,7 @@ Looker는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니�
 
    셸을 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 구성 단계 5](assets/jupyter-config-step3.png){zoomable="yes"}
+   ![Jupyter Notebook 구성 단계 5](assets/jupyter-config-step3.png)
 
    데이터 보기 목록에 **[!UICONTROL cc_data_view]**&#x200B;이(가) 표시됩니다.
 
@@ -392,11 +382,11 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
    1. **[!UICONTROL 쿼리]** 인터페이스에서 **[!UICONTROL 자격 증명]** 탭을 선택하십시오.
    1. `prod:cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴에서]**&#x200B;을(를) 선택합니다.
 
-      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png){zoomable="yes"}
+      ![쿼리 서비스 자격 증명](assets/queryservice-credentials.png)
 
 1. RStudio를 시작합니다.
 1. 새 R Markdown 파일을 만들거나 [이 예제 R Markdown 파일](assets/BI-Extension.Rmd.zip)을 다운로드합니다.
-1. 첫 번째 청크에 ` ` ``{r} `과(와) ` `` ` ` 사이의 다음 문을 입력하십시오. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
+1. 첫 번째 청크에 ` ```{r} `과(와) ` ``` ` 사이의 다음 문을 입력하십시오. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
 
    ```R
    library(rstudioapi)
@@ -415,9 +405,9 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. **[!UICONTROL 호스트]**, **[!UICONTROL 데이터베이스]** 및 **[!UICONTROL 사용자]**&#x200B;를 묻는 메시지가 표시됩니다. 이전 단계의 일부로 제공한 값을 수락하면 됩니다.
 1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 RStudio의 **[!UICONTROL 암호]** 대화 상자 프롬프트로 암호를 복사하고 붙여넣으십시오.
 
-   ![RStudio 구성 단계 1](assets/rstudio-config-step1.png){zoomable="yes"}
+   ![RStudio 구성 단계 1](assets/rstudio-config-step1.png)
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    con <- dbConnect(
@@ -434,7 +424,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. 연결에 성공하면 출력이 표시되지 않습니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    views <- dbListTables(con)
@@ -444,7 +434,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. `character(0)`이(가) 유일한 출력으로 표시됩니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 ` ``` {r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    glimpse(dv)
@@ -452,7 +442,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 1. 청크를 실행합니다. 아래 스크린샷과 유사한 출력이 표시됩니다.
 
-   ![RStudio 구성 단계 2](assets/rstudio-config-step2.png){zoomable="yes"}
+   ![RStudio 구성 단계 2](assets/rstudio-config-step2.png)
 
 ### 평면화할지 말지
 
@@ -482,7 +472,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 사용 사례에 대한 **[!UICONTROL 일별 트렌드]** 패널 예:
 
-![Customer Journey Analytics 일일 트렌드 패널](assets/cja_daily_trend.png){zoomable="yes"}
+![Customer Journey Analytics 일일 트렌드 패널](assets/cja_daily_trend.png)
 
 +++
 
@@ -516,7 +506,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    라인 차트 시각화는 테이블과 동일한 데이터를 사용하면서 테이블을 대체합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc2-pbi-daterange.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc2-pbi-daterange.png)
 
 1. 선 차트 시각화에서:
 
@@ -525,7 +515,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc2-pbi-final.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc2-pbi-final.png)
 
 >[!TAB 타블로 데스크톱]
 
@@ -534,7 +524,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `01/02/2023` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc2-tableau-filter.png){zoomable="yes"}
+      ![타블로 데스크톱 필터](assets/uc2-tableau-filter.png)
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangeday]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL DAY(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL Day]**&#x200B;을(를) 선택합니다.
@@ -543,7 +533,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc2-tableau-graph.png){zoomable="yes"}
+      ![타블로 데스크톱 그래프](assets/uc2-tableau-graph.png)
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -555,7 +545,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc2-tableau-data.png){zoomable="yes"}
+      ![타블로 데스크톱 데이터](assets/uc2-tableau-data.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -564,7 +554,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc2-tableau-dashboard.png){zoomable="yes"}
+      ![타블로 데스크톱 대시보드 1](assets/uc2-tableau-dashboard.png)
 
 
 >[!TAB 조회자]
@@ -573,9 +563,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
    1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL 날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;를 선택하십시오.
@@ -585,7 +574,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc2-looker-result.png){zoomable="yes"}
+![조회 결과 일일 트렌드](assets/uc2-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -610,12 +599,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc2-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc2-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Daily Events
@@ -633,7 +622,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc2-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc2-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -648,7 +637,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 사용 사례에 대한 예제 **[!UICONTROL 시간별 트렌드]** 패널:
 
-![Customer Journey Analytics 시간별 트렌드 시각화](assets/cja_hourly_trend.png){zoomable="yes"}
+![Customer Journey Analytics 시간별 트렌드 시각화](assets/cja_hourly_trend.png)
 
 +++
 
@@ -672,7 +661,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `02/01/2023` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc3-tableau-filter.png){zoomable="yes"}
+      ![타블로 데스크톱 필터](assets/uc3-tableau-filter.png)
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangehour]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL HOUR(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL 자세히]** > **[!UICONTROL 시간]**&#x200B;을(를) 선택합니다.
@@ -681,7 +670,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc3-tableau-graph.png){zoomable="yes"}
+      ![타블로 데스크톱 그래프](assets/uc3-tableau-graph.png)
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -693,7 +682,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc3-tableau-data.png){zoomable="yes"}
+      ![타블로 데스크톱 데이터](assets/uc3-tableau-data.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -702,7 +691,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc3-tableau-dashboard.png){zoomable="yes"}
+      ![타블로 데스크톱 대시보드 1](assets/uc3-tableau-dashboard.png)
 
 
 >[!TAB 조회자]
@@ -712,9 +701,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/01/02]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
    1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL Daterangehour 날짜]**&#x200B;을 선택한 다음 **[!UICONTROL 시간]**&#x200B;을 선택합니다.
@@ -724,7 +712,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc3-looker-result.png){zoomable="yes"}
+![조회 결과 일일 트렌드](assets/uc3-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -749,12 +737,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc3-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc3-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Hourly Events
@@ -772,7 +760,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc3-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc3-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -787,7 +775,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 사용 사례에 대한 예제 **[!UICONTROL 월별 트렌드]** 패널:
 
-![Customer Journey Analytics 월별 트렌드 시각화](assets/cja_monthly_trend.png){zoomable="yes"}
+![Customer Journey Analytics 월별 트렌드 시각화](assets/cja_monthly_trend.png)
 
 +++
 
@@ -823,7 +811,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    라인 차트 시각화는 테이블과 동일한 데이터를 사용하면서 테이블을 대체합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc4-pbi-filter-daterange.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 2 날짜 범위 필터](assets/uc4-pbi-filter-daterange.png)
 
 1. 선 차트 시각화에서:
 
@@ -832,7 +820,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc4-pbi-filter-final.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc4-pbi-filter-final.png)
 
 >[!TAB 타블로 데스크톱]
 
@@ -841,7 +829,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `01/01/2024` 기간을 지정하십시오.
 
-      ![타블로 데스크톱 필터](assets/uc4-tableau-filter.png){zoomable="yes"}
+      ![타블로 데스크톱 필터](assets/uc4-tableau-filter.png)
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterangeday]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 열]** 옆에 있는 필드에 항목을 놓습니다.
       * 값이 **[!UICONTROL MONTH(Daterangeday)]**(으)로 업데이트되도록 **[!UICONTROL Daterangeday]** 드롭다운 메뉴에서 **[!UICONTROL MONTH]**&#x200B;을(를) 선택합니다.
@@ -850,7 +838,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 그래프](assets/uc4-tableau-graph.png){zoomable="yes"}
+      ![타블로 데스크톱 그래프](assets/uc4-tableau-graph.png)
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Graph`(으)로 변경합니다.
@@ -862,7 +850,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 데이터](assets/uc4-tableau-data.png){zoomable="yes"}
+      ![타블로 데스크톱 데이터](assets/uc4-tableau-data.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -871,7 +859,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 대시보드 1](assets/uc4-tableau-dashboard.png){zoomable="yes"}
+      ![타블로 데스크톱 대시보드 1](assets/uc4-tableau-dashboard.png)
 
 
 >[!TAB 조회자]
@@ -880,9 +868,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 **[!UICONTROL Cc 데이터 보기]** 레일에서,
    1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL Daterangemonth 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 월]**&#x200B;을 선택합니다.
@@ -892,7 +879,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc4-looker-result.png){zoomable="yes"}
+![조회 결과 일일 트렌드](assets/uc4-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -917,12 +904,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc4-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc4-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Hourly Events
@@ -940,7 +927,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc4-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc4-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -955,7 +942,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 사용 사례에 대한 **[!UICONTROL 단일 Dimension 등급]** 패널 예:
 
-![Customer Journey Analytics 단일 차원 등급 시각화](assets/cja-single-dimension-ranked.png){zoomable="yes"}
+![Customer Journey Analytics 단일 차원 등급 시각화](assets/cja-single-dimension-ranked.png)
 
 +++
 
@@ -982,7 +969,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    1. 이 시각적 개체의 **[!UICONTROL 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 상대적 날짜]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 값이 마지막]** **&#x200B;**&#x200B;역년`1`에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
+   1. **[!UICONTROL 값이 마지막]** ****&#x200B;역년`1`에 있을 때 ****&#x200B;항목을 표시하도록 필터를 정의합니다.
    1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
 
    적용된 **[!UICONTROL daterange]** 필터로 업데이트된 표가 표시됩니다.
@@ -996,7 +983,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    1. **[!UICONTROL purchase_revenue의 합계]**&#x200B;를 선택하여 내림차순 구매 매출 순서로 제품 이름을 정렬합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 5 테이블 상태](assets/uc5-pbi-table.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 5 테이블 상태](assets/uc5-pbi-table.png)
 
 1. **[!UICONTROL 필터]** 창:
 
@@ -1018,7 +1005,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    선 및 누적 세로 막대형 차트가 업데이트됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 사용 사례 5 그래프](assets/uc5-pbi-chart.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 5 그래프](assets/uc5-pbi-chart.png)
 
 1. 선 및 누적 세로 막대형 차트 시각화에서:
 
@@ -1027,7 +1014,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    기본 보기가 라인 시각화와 테이블을 모두 표시하도록 업데이트되었습니다.
 
-   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc5-pbi-final.png){zoomable="yes"}
+   ![Power BI 데스크톱 사용 사례 2 최종 일일 트렌드 시각화](assets/uc5-pbi-final.png)
 
 >[!TAB 타블로 데스크톱]
 
@@ -1036,7 +1023,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL 필터 필드 \[Daterange\]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 **[!UICONTROL 다음 >]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 필터 \[날짜 범위]]** 대화 상자에서 **[!UICONTROL 날짜 범위]**&#x200B;를 선택하고 `01/01/2023` - `31/12/2023` 기간을 지정하십시오. **[!UICONTROL 적용]** 및 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
-      ![타블로 데스크톱 필터](assets/uc5-tableau-filter.png){zoomable="yes"}
+      ![타블로 데스크톱 필터](assets/uc5-tableau-filter.png)
 
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL 행]** 옆에 있는 필드에 항목을 놓습니다.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블(*측정값 이름*)]** 목록에서 **[!UICONTROL 구매]**&#x200B;를 끌어다 놓고 **[!UICONTROL 행]** 옆에 있는 필드에 항목을 놓습니다. 값이 **[!UICONTROL SUM(구매)]**(으)로 자동 변환됩니다.
@@ -1051,7 +1038,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 그래프](assets/uc5-tableau-graph.png){zoomable="yes"}
+   ![타블로 데스크톱 그래프](assets/uc5-tableau-graph.png)
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
@@ -1063,7 +1050,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![타블로 데스크톱 데이터](assets/uc5-tableau-data.png){zoomable="yes"}
+   ![타블로 데스크톱 데이터](assets/uc5-tableau-data.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Graph]** 시트를 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -1072,7 +1059,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc5-tableau-dashboard.png){zoomable="yes"}
+   ![타블로 데스크톱 대시보드 1](assets/uc5-tableau-dashboard.png)
 
 
 
@@ -1082,9 +1069,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**[!UICONTROL 섹션에서 다음을 수행합니다.]**
@@ -1094,9 +1080,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
       1. **[!UICONTROL 측정값 유형]** 드롭다운 메뉴에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
-      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**&#x200B;에 입력되었는지 확인하십시오.
-
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
+      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 측정값]**&#x200B;을(를) 한 번 더 선택합니다. **[!UICONTROL 사용자 지정 만들기]** 측정값 대화 상자에서 다음을 수행합니다.
       1. **[!UICONTROL 측정할 필드]** 드롭다운 메뉴에서 **[!UICONTROL 구매]**&#x200B;를 선택합니다.
@@ -1115,14 +1100,13 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL 계열]** 탭을 선택합니다.
    1. 아래로 스크롤하여 **[!UICONTROL 구매]**&#x200B;를 확인하고 **[!UICONTROL Type]**&#x200B;을(를) **[!UICONTROL Line]**(으)로 변경합니다.
    1. **[!UICONTROL Y]** 탭을 선택합니다.
-   1. **[!UICONTROL 왼쪽 1]** 컨테이너에서 **[!UICONTROL 구매]**&#x200B;를 **[!UICONTROL *새 왼쪽 축을 만들려면&#x200B;*]**&#x200B;시리즈를 여기로 드래그하세요. 이 작업은&#x200B;**[!UICONTROL &#x200B;왼쪽 2 &#x200B;]**&#x200B;컨테이너를 만듭니다.
-
-      ![Looker 시각화 구성](assets/uc5-looker-visualization.png){zoomable="yes"}
+   1. **[!UICONTROL 왼쪽 1]** 컨테이너에서 **[!UICONTROL 구매]**&#x200B;를 **[!UICONTROL *새 왼쪽 축을 만들려면&#x200B;*]**시리즈를 여기로 드래그하세요. 이 작업은**[!UICONTROL &#x200B;왼쪽 2 ]**컨테이너를 만듭니다.
+      ![Looker 시각화 구성](assets/uc5-looker-visualization.png)
    1. 팝업 대화 상자를 숨기려면 ![편집](/help/assets/icons/CrossSize75.svg) 옆에 있는 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc5-looker-result.png){zoomable="yes"}
+![조회 결과 일일 트렌드](assets/uc5-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -1147,12 +1131,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc5-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc5-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    library(tidyr)
@@ -1173,7 +1157,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc5-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1188,7 +1172,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 사용 사례에 대한 **[!UICONTROL 여러 Dimension 등급]** 패널 예:
 
-![Customer Journey Analytics 여러 Dimension 등급 패널](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
+![Customer Journey Analytics 여러 Dimension 등급 패널](assets/cja-multiple-dimension-ranked.png)
 
 +++
 
@@ -1206,7 +1190,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. 날짜 범위가 모든 시각화에 적용되도록 하려면 **[!UICONTROL daterangeday]**&#x200B;을(를) **[!UICONTROL 데이터]** 창에서 **[!UICONTROL 이 페이지의 필터]**(으)로 끌어서 놓습니다.
    1. **[!UICONTROL 이 페이지의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 상대적 날짜]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 값이 마지막]** **&#x200B;**&#x200B;역년`1`에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
+   1. **[!UICONTROL 값이 마지막]** ****&#x200B;역년`1`에 있을 때 ****&#x200B;항목을 표시하도록 필터를 정의합니다.
    1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
 
 1. **[!UICONTROL 데이터]** 창:
@@ -1217,7 +1201,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. **[!UICONTROL ∑ 구매 선택]**
 
 1. 세로 막대형 차트를 표로 수정하려면 표를 선택하고 **[!UICONTROL 시각화]** 창에서 **[!UICONTROL 매트릭스]**&#x200B;를 선택하십시오.
-   * **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL product_name]**&#x200B;을(를) 끌어다 놓고 [!UICONTROL 시각화] 창의 **[!UICONTROL 행]**&#x200B;에서 **&#x200B;**&#x200B;[!UICONTROL product_categor]&#x200B;**&#x200B;**&#x200B;y 아래에 필드를 놓습니다.
+   * **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL product_name]**&#x200B;을(를) 끌어다 놓고 [!UICONTROL 시각화] 창의 **[!UICONTROL 행]**&#x200B;에서 ****[!UICONTROL product_categor]****y 아래에 필드를 놓습니다.
 
 1. 테이블에 표시되는 제품 수를 제한하려면 **[!UICONTROL 필터]** 창에서 **[!UICONTROL product_name is (All)]**&#x200B;을(를) 선택하십시오.
 
@@ -1230,7 +1214,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 테이블의 각 범주를 분류하려면 제품 범주 수준에서 **[!UICONTROL +]**&#x200B;을(를) 선택합니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 다중 차원 등급 매트릭스 표](assets/uc6-powerbi-data.png){zoomable="yes"}
+   ![Power BI 데스크톱 다중 차원 등급 매트릭스 표](assets/uc6-powerbi-data.png)
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -1244,7 +1228,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 여러 차원 등급 트리맵](assets/uc6-powerbi-treemap.png){zoomable="yes"}
+   ![Power BI 데스크톱 여러 차원 등급 트리맵](assets/uc6-powerbi-treemap.png)
 
 1. 상단 메뉴에서 **[!UICONTROL 홈]**&#x200B;을 선택하고 **[!UICONTROL 새 비주얼]**&#x200B;을 선택합니다. 보고서에 새 시각적 개체가 추가됩니다.
 
@@ -1261,7 +1245,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![최종 순위가 지정된 Power BI 데스크톱 여러 차원](assets/uc6-powerbi-final.png){zoomable="yes"}
+   ![최종 순위가 지정된 Power BI 데스크톱 여러 차원](assets/uc6-powerbi-final.png)
 
 
 >[!TAB 타블로 데스크톱]
@@ -1273,7 +1257,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc6-tableau-filter.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc6-tableau-filter.png)
 
    1. **[!UICONTROL 제품 범주]**&#x200B;을 드래그하여 **[!UICONTROL 열]** 옆에 놓습니다.
    1. **[!UICONTROL 구매 매출]**&#x200B;을 드래그하여 **[!UICONTROL 행]** 옆에 놓으십시오. 값이 **[!UICONTROL SUM(구매 매출)]**(으)로 변경됩니다.
@@ -1286,7 +1270,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimensions 등급 범주](assets/uc6-tableau-category.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimensions 등급 범주](assets/uc6-tableau-category.png)
 
 1. 현재 **[!UICONTROL 시트 1]** 시트의 이름을 `Category`(으)로 바꾸십시오.
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 `Data`(으)로 바꾸십시오.
@@ -1305,7 +1289,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-data.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-data.png)
 
 1. **[!UICONTROL 새 워크시트]**&#x200B;를 선택하여 새 시트를 만들고 이름을 **[!UICONTROL 트리맵]**(으)로 바꾸십시오.
    1. **[!UICONTROL 데이터]** 창의 **[!UICONTROL 테이블]** 목록에서 **[!UICONTROL Daterange]** 항목을 드래그하여 **[!UICONTROL 필터]** 선반에 놓습니다.
@@ -1322,7 +1306,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-treemap.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 데이터](assets/uc6-tableau-treemap.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL Category]** 시트를 **[!UICONTROL Sheets]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 실행하는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -1332,7 +1316,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc6-tableau-final.png){zoomable="yes"}
+   ![타블로 데스크톱 대시보드 1](assets/uc6-tableau-final.png)
 
 
 >[!TAB 조회자]
@@ -1341,9 +1325,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 범주]**&#x200B;을 선택하세요.
@@ -1355,9 +1338,8 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
       1. **[!UICONTROL 측정값 유형]** 드롭다운 메뉴에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Sum of Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
-      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**&#x200B;에 입력되었는지 확인하십시오.
-
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
+      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 측정값]**&#x200B;을(를) 한 번 더 선택합니다. **[!UICONTROL 사용자 지정 만들기]** 측정값 대화 상자에서 다음을 수행합니다.
       1. **[!UICONTROL 측정할 필드]** 드롭다운 메뉴에서 **[!UICONTROL 구매]**&#x200B;를 선택합니다.
@@ -1376,14 +1358,14 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
    1. 아래로 스크롤하여 **[!UICONTROL 차트 구성 편집]**&#x200B;을 선택합니다.
    1. 아래 스크린샷과 같이 **[!UICONTROL 차트 구성(재정의)]**&#x200B;에서 JSON을 수정한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
 
-      ![Looker 시각화 구성](assets/uc6-looker-visualization.png){zoomable="yes"}
+      ![Looker 시각화 구성](assets/uc6-looker-visualization.png)
 
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
    1. 팝업 대화 상자를 숨기려면 ![편집](/help/assets/icons/CrossSize75.svg) 옆에 있는 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![조회 결과 일일 트렌드](assets/uc6-looker-result.png){zoomable="yes"}
+![조회 결과 일일 트렌드](assets/uc6-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -1409,12 +1391,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc6-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc6-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Multiple dimensions ranked
@@ -1428,7 +1410,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc6-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc6-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1444,11 +1426,11 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 제품 이름의 고유 개수를 보고하려면 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Product Name (Count Distinct)` 및 **[!UICONTROL 외부 ID]** `product_name_count_distinct`(으)로 계산된 지표를 설정합니다.
 
-![Customer Journey Analytics 제품 이름(고유 개수) 계산된 지표](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}
+![Customer Journey Analytics 제품 이름(고유 개수) 계산된 지표](assets/cja-calc-metric-distinct-count-product-names.png)
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 고유 Dimension 값 계산]** 패널의 예에서 해당 지표를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-count-distinct-dimension-values.png){zoomable="yes"}
+![Customer Journey Analytics 고유 개수 값](assets/cja-count-distinct-dimension-values.png)
 
 +++
 
@@ -1477,7 +1459,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-table.png){zoomable="yes"}
+   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-table.png)
 
 1. 테이블 시각화를 선택합니다. 컨텍스트 메뉴에서 **[!UICONTROL 복사]** > **[!UICONTROL 시각적 개체 복사]**&#x200B;를 선택합니다.
 1. **[!UICONTROL ctrl-v]**&#x200B;을 사용하여 시각화를 붙여 넣습니다. 시각화의 정확한 복사본이 원래 복사본과 겹칩니다. 보고서 영역에서 오른쪽으로 이동합니다.
@@ -1485,14 +1467,14 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-final.png){zoomable="yes"}
+   ![Power BI 데스크톱 다중 개수 고유 테이블](assets/uc7-powerbi-final.png)
 
 또는 Power BI과 구별되는 고유 개수 기능을 사용할 수 있습니다.
 
 1. **[!UICONTROL product_name]** 차원을 선택하십시오.
 1. **[!UICONTROL 열]**&#x200B;의 **[!UICONTROL product_name]** 차원에서 **[!UICONTROL Count(고유)]** 함수를 적용하세요.
 
-   ![Power BI 고유 개수](assets/uc7-powerbi-alternative.png){zoomable="yes"}
+   ![Power BI 고유 개수](assets/uc7-powerbi-alternative.png)
 
 
 
@@ -1510,7 +1492,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-data.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-data.png)
 
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 선택하여 두 번째 시트를 만듭니다.
 1. **[!UICONTROL 시트 1]** 탭 컨텍스트 메뉴에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택하여 시트의 이름을 `Data`(으)로 변경합니다.
@@ -1525,7 +1507,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    Tableau Desktop은 다음과 같습니다.
 
-   ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-card.png){zoomable="yes"}
+   ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc7-tableau-card.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
    1. **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 카드]** 시트를 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
@@ -1533,7 +1515,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
 
-   ![타블로 데스크톱 대시보드 1](assets/uc7-tableau-final.png){zoomable="yes"}
+   ![타블로 데스크톱 대시보드 1](assets/uc7-tableau-final.png)
 
 
 또는 Tableau Desktop의 고유 기능을 사용할 수 있습니다.
@@ -1541,7 +1523,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL Cm 제품 이름 개수 고유]** 대신 **[!UICONTROL 제품 이름]**&#x200B;을(를) 사용하십시오.
 1. **[!UICONTROL 표시]**&#x200B;의 **[!UICONTROL 제품 이름]**&#x200B;에서 **[!UICONTROL 측정값]** > **[!UICONTROL 개수(고유)]**&#x200B;를 적용합니다.
 
-   ![고유 타블로 수](assets/uc7-tableau-alternative.png){zoomable="yes"}
+   ![고유 타블로 수](assets/uc7-tableau-alternative.png)
 
 
 >[!TAB 조회자]
@@ -1550,21 +1532,19 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL ‣제품 이름]**&#x200B;의 **자세히**⋮ 컨텍스트 메뉴에서 **[!UICONTROL 고유 개수 집계]**&#x200B;을(를) 선택합니다.
-
-      ![제품 이름 상황에 맞는 메뉴](assets/uc7-looker-count-distinct.png){zoomable="yes"}
+   1. **[!UICONTROL ‣제품 이름]**&#x200B;의 **자세히**⋮ 컨텍스트 메뉴에서 **[!UICONTROL 고유 개수 집계]**을(를) 선택합니다.
+      ![제품 이름 상황에 맞는 메뉴](assets/uc7-looker-count-distinct.png)
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
 1. **[!UICONTROL ‣ 시각화]**&#x200B;를 선택하고 도구 모음에서 6︎⃣을 선택하여 단일 값 시각화를 표시합니다.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc7-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc7-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -1580,12 +1560,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc7-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc7-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Count Distinct
@@ -1597,7 +1577,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc7-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc7-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1613,11 +1593,11 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 날짜 범위를 사용하여 보고하려면 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Last Year 2023`(으)로 날짜 범위를 설정합니다.
 
-![Customer Journey Analytics 날짜 범위 이름을 사용하여 필터링](assets/cja-daterange.png){zoomable="yes"}
+![Customer Journey Analytics 날짜 범위 이름을 사용하여 필터링](assets/cja-daterange.png)
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 날짜 범위 이름을 사용하여 필터링]** 패널의 예에서 해당 날짜 범위를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-date-range-filter-names-to-filter.png){zoomable="yes"}
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-date-range-filter-names-to-filter.png)
 
 자유 형식 테이블 시각화에 정의된 날짜 범위가 패널에 적용된 날짜 범위를 어떻게 오버룰하는지 확인합니다.
 
@@ -1650,7 +1630,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
    적용된 **[!UICONTROL daterangeName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc8-powerbi-final.png){zoomable="yes"}
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc8-powerbi-final.png)
 
 >[!TAB 타블로 데스크톱]
 
@@ -1665,7 +1645,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc8-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc8-tableau-final.png)
 
 >[!TAB 조회자]
 
@@ -1683,7 +1663,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc8-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc8-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -1703,7 +1683,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc8-jupyter-input.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-input.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
 
@@ -1727,12 +1707,12 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc8-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc8-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오. 적절한 날짜 범위 이름을 사용해야 합니다. (예: `Last Year 2023`)
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 날짜 범위 이름을 사용해야 합니다. (예: `Last Year 2023`)
 
    ```R
    ## Monthly Events for Last Year
@@ -1750,7 +1730,7 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc8-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc8-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1766,11 +1746,11 @@ RStudio는 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지원합니
 
 Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
-![Customer Journey Analytics에서 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png){zoomable="yes"}
+![Customer Journey Analytics에서 필터 이름을 사용하여 필터링](assets/cja-fishing-products.png)
 
 그런 다음 사용 사례에 대해 **[!UICONTROL 세그먼트에 세그먼트 이름 사용]** 패널의 예에서 해당 세그먼트를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-filter-names-to-filter.png)
 
 +++
 
@@ -1806,7 +1786,7 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
    적용된 **[!UICONTROL filterName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc9-powerbi-final.png){zoomable="yes"}
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc9-powerbi-final.png)
 
 
 >[!TAB 타블로 데스크톱]
@@ -1824,7 +1804,7 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc9-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc9-tableau-final.png)
 
 >[!TAB 조회자]
 
@@ -1832,9 +1812,8 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 다른 필터를 추가하려면 **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
@@ -1850,7 +1829,7 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc9-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc9-looker-result.png)
 
 
 
@@ -1871,7 +1850,7 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc9-jupyter-input.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-input.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 낚시 제품]**&#x200B;을(를) 선택합니다.
 
@@ -1896,12 +1875,12 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc9-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc9-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오. 적절한 필터 이름을 사용해야 합니다. (예: `Fishing Products`)
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 필터 이름을 사용해야 합니다. (예: `Fishing Products`)
 
    ```R
    ## Dimension filtered by name
@@ -1915,7 +1894,7 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc9-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc9-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1932,11 +1911,11 @@ Customer Journey Analytics에서 사용할 세그먼트를 검사합니다.
 
 Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(를) 사용하여 새 세그먼트를 만듭니다.
 
-![Customer Journey Analytics에서 Dimension 값을 사용하여 세그먼테이션](assets/cja-hunting-products.png){zoomable="yes"}
+![Customer Journey Analytics에서 Dimension 값을 사용하여 세그먼테이션](assets/cja-hunting-products.png)
 
 그런 다음 사용 사례에 대해 **[!UICONTROL Dimension 값을 사용하여 필터링]** 패널의 예에서 해당 세그먼트를 사용할 수 있습니다.
 
-![Customer Journey Analytics 고유 개수 값](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
+![Customer Journey Analytics 고유 개수 값](assets/cja-using-dimension-values-to-filter.png)
 
 +++
 
@@ -1973,7 +1952,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
    적용된 **[!UICONTROL product_category]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc10-powerbi-final.png){zoomable="yes"}
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc10-powerbi-final.png)
 
 
 
@@ -1995,7 +1974,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc10-tableau-final.png){zoomable="yes"}
+      ![Tableau Desktop Multiple Dimension 등급 필터](assets/uc10-tableau-final.png)
 
 >[!TAB 조회자]
 
@@ -2004,9 +1983,8 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 다른 필터를 추가하려면 **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
@@ -2016,7 +1994,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 ![AlertRed](/help/assets/icons/AlertRed.svg) 조회 수에 **[!UICONTROL 제품 범주]**&#x200B;에 대해 가능한 값 목록이 표시되지 않습니다.
 
-![고유 조회 수](assets/uc10-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc10-looker-result.png)
 
 
 >[!TAB Jupyter 전자 필기장]
@@ -2036,7 +2014,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc10-jupyter-input.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-input.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL Hunting]**&#x200B;을(를) 선택합니다.
 
@@ -2062,12 +2040,12 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc10-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc10-jupyter-results.png)
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오. 적절한 카테고리를 사용해야 합니다. 예: `Hunting`.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오. 적절한 카테고리를 사용해야 합니다. 예: `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -2081,7 +2059,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc10-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc10-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -2097,7 +2075,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
 사용 사례에 대한 **[!UICONTROL 정렬]** 패널 예:
 
-![Customer Journey Analytics 정렬 패널](assets/cja-sort.png){zoomable="yes"}
+![Customer Journey Analytics 정렬 패널](assets/cja-sort.png)
 
 +++
 
@@ -2131,7 +2109,7 @@ Customer Journey Analytics에서 **[!UICONTROL 제목]** `Hunting Products`을(�
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc11-powerbi-final.png){zoomable="yes"}
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc11-powerbi-final.png)
 
 BI 확장을 사용하여 Power BI Desktop에서 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
 
@@ -2237,7 +2215,7 @@ limit 1000001
 
       Tableau Desktop은 다음과 같습니다.
 
-      ![타블로 데스크톱 정렬](assets/uc11-tableau-final.png){zoomable="yes"}
+      ![타블로 데스크톱 정렬](assets/uc11-tableau-final.png)
 
 Tableau Desktop에서 BI 확장을 사용하여 실행한 쿼리에 `sort` 문이 포함되어 있지 않습니다. 이 `sort` 문이 없다는 것은 정렬이 클라이언트측에서 실행됨을 의미합니다.
 
@@ -2258,9 +2236,8 @@ GROUP BY 1
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 **[!UICONTROL 제품 이름]**&#x200B;을(를) 선택합니다.
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**[!UICONTROL 섹션에서 다음을 수행합니다.]**
@@ -2270,9 +2247,8 @@ GROUP BY 1
       1. **[!UICONTROL 측정값 유형]** 드롭다운 메뉴에서 **[!UICONTROL 합계]**&#x200B;를 선택합니다.
       1. **[!UICONTROL 이름]**&#x200B;의 사용자 지정 필드 이름을 입력하십시오. 예: `Sum of Purchase Revenue`.
       1. **[!UICONTROL 필드 세부 정보]** 탭을 선택합니다.
-      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**&#x200B;에 입력되었는지 확인하십시오.
-
-         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png){zoomable="yes"}
+      1. **[!UICONTROL 형식]** 드롭다운 메뉴에서 **[!UICONTROL 소수 자릿수]**&#x200B;을(를) 선택하고 `0`이(가) **[!UICONTROL 소수 자릿수]**에 입력되었는지 확인하십시오.
+         ![사용자 지정 지표 필드 보기](assets/uc5-looker-customfield.png)
       1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 구매 매출]** 열에서 **[!UICONTROL ↓]**(**[!UICONTROL 내림차순, 정렬 순서: 1]**)을(를) 선택하십시오.
 1. **[!UICONTROL 실행]**&#x200B;을 선택합니다.
@@ -2280,7 +2256,7 @@ GROUP BY 1
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc11-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc11-looker-result.png)
 
 
 Looker에서 BI 확장을 사용하여 생성한 쿼리에 `ORDER BY`이(가) 포함되어 있습니다. 이는 정렬이 Looker 및 BI 확장을 통해 실행됨을 의미합니다.
@@ -2317,14 +2293,14 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc11-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc11-jupyter-results.png)
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Dimension 1 Sorted
@@ -2338,7 +2314,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc11-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc11-rstudio-results.png)
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `ORDER BY`이(가) 포함되어 있습니다. 이는 순서가 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
 
@@ -2369,7 +2345,7 @@ LIMIT 1000
 
 사용 사례에 대한 **[!UICONTROL 제한]** 패널 예:
 
-![Customer Journey Analytics 제한 패널](assets/cja-limit.png){zoomable="yes"}
+![Customer Journey Analytics 제한 패널](assets/cja-limit.png)
 
 +++
 
@@ -2392,7 +2368,7 @@ LIMIT 1000
 1. **[!UICONTROL 필터]** 창:
    1. **[!UICONTROL 이 시각적 개체의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 상대적 날짜]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 값이 마지막]** **&#x200B;**&#x200B;역년`1`에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
+   1. **[!UICONTROL 값이 마지막]** ****&#x200B;역년`1`에 있을 때 ****&#x200B;항목을 표시하도록 필터를 정의합니다.
    1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
    1. 이 시각적 개체의 **[!UICONTROL 필터에서]** product_name is (All)**[!UICONTROL 을(를) 선택하십시오]**.
    1. **[!UICONTROL 상위 N]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
@@ -2405,7 +2381,7 @@ LIMIT 1000
 
    Power BI 데스크톱은 다음과 같아야 합니다.
 
-   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc12-powerbi-final.png){zoomable="yes"}
+   ![필터링할 날짜 범위 이름을 사용하는 Power BI 데스크톱](assets/uc12-powerbi-final.png)
 
 BI 확장을 사용하여 Power BI Desktop에서 실행하는 쿼리에 `limit` 문이 포함되어 있지만 필요한 문은 포함되어 있지 않습니다. 상위 5회 발생에 대한 제한은 명시적 제품 이름 결과를 사용하여 Power BI Desktop에 의해 적용됩니다.
 
@@ -2516,7 +2492,7 @@ limit 1000001
 
          Tableau Desktop은 다음과 같습니다.
 
-         ![타블로 데스크톱 제한](assets/uc12-tableau-final.png){zoomable="yes"}
+         ![타블로 데스크톱 제한](assets/uc12-tableau-final.png)
 
 위에서 보듯이 Tableau Desktop에서 실행한 이 쿼리는 제품 이름에 대해 상위 5개 발생 횟수 필터를 정의할 때 실패합니다.
 
@@ -2554,9 +2530,8 @@ GROUP BY 1
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
-
-      ![조회 필터](assets/uc2-looker-filter.png){zoomable="yes"}
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+      ![조회 필터](assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 이름]**&#x200B;을 선택하세요.
@@ -2568,7 +2543,7 @@ GROUP BY 1
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 
-![고유 조회 수](assets/uc12-looker-result.png){zoomable="yes"}
+![고유 조회 수](assets/uc12-looker-result.png)
 
 Looker에서 BI 확장을 사용하여 생성한 쿼리에 `FETCH NEXT 5 ROWS ONLY`이(가) 포함되어 있습니다. 이는 Looker 및 BI 확장을 통해 제한이 실행됨을 의미합니다.
 
@@ -2604,13 +2579,13 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc12-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc12-jupyter-results.png)
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Dimension 1 Limited
@@ -2625,7 +2600,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc12-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc12-rstudio-results.png)
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `LIMIT 5`이(가) 포함되어 있습니다. 이는 제한이 RStudio 및 BI 확장을 통해 적용됨을 의미합니다.
 
@@ -2670,7 +2645,7 @@ Customer Journey Analytics에서는 [데이터 보기](/help/data-views/data-vie
 Customer Journey Analytics 개체는 **[!UICONTROL 데이터]** 창에서 사용할 수 있으며 Power BI Desktop에서 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL public.cc_data_view]**. 테이블 이름은 Customer Journey Analytics에서 데이터 보기에 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
 **차원**
-Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Power BI Desktop에 있는 차원의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**&#x200B;이(가) 있습니다.
+Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Power BI Desktop에 있는 차원의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]** 등으로 사용할 수 있습니다.
 
 **지표**
@@ -2680,7 +2655,7 @@ Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 ID]로 식별�
 Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL filterName]** 필드의 일부로 사용할 수 있습니다. Power BI Desktop에서 **[!UICONTROL filterName]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
 
 **계산된 지표**
-Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI Desktop에는 **[!UICONTROL cm_product_name_count_distinct]**&#x200B;t로 표시됩니다.
+Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI Desktop에는 **[!UICONTROL cm_product_name_count_distinct]**t로 표시됩니다.
 
 **날짜 범위**
 Customer Journey Analytics에서 정의하는 날짜 범위는 **[!UICONTROL daterangeName]** 필드의 일부로 사용할 수 있습니다. **[!UICONTROL daterangeName]** 필드를 사용하는 경우 사용할 날짜 범위를 지정할 수 있습니다.
@@ -2692,12 +2667,12 @@ Power BI Desktop은 [데이터 분석 표현식(DAX)](https://learn.microsoft.co
 1. 데이터 창에서 **[!UICONTROL product_name]**&#x200B;을(를) 선택합니다.
 1. 도구 모음에서 **[!UICONTROL 새 열]**&#x200B;을 선택합니다.
 1. 수식 편집기에서 `product_name_lower`과(와) 같은 이름이 `product_name_lower = LOWER('public.cc_data_view[product_name])`인 새 열을 정의합니다.
-   ![Power BI 데스크톱에서 Lower](assets/uc14-powerbi-transformation.png){zoomable="yes"}(으)로 변환
+   ![Power BI 데스크톱에서 Lower](assets/uc14-powerbi-transformation.png)(으)로 변환
 1. **[!UICONTROL 데이터]** 창에서 **[!UICONTROL product_name]** 열 대신 새 **[!UICONTROL product_name_lower]** 열을 선택하십시오.
 1. 테이블 시각화의 **[!UICONTROL 자세히]**&#x200B;에서 ![테이블로 보고서](/help/assets/icons/More.svg)를 선택합니다.
 
    Power BI 데스크톱은 다음과 같아야 합니다.
-   ![Power BI 데스크톱 변환 최종](assets/uc14-powerbi-final.png){zoomable="yes"}
+   ![Power BI 데스크톱 변환 최종](assets/uc14-powerbi-final.png)
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `lower` 함수 사용을 참조하십시오.
 
@@ -2765,8 +2740,7 @@ Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/deskt
 
 1. 기본 메뉴에서 **[!UICONTROL 분석]** > **[!UICONTROL 계산된 필드 만들기]**&#x200B;를 선택합니다.
    1. **[!UICONTROL 함수를 사용하여]**&#x200B;소문자 제품 이름`LOWER([Product Name])`을(를) 정의합니다.
-
-      ![타블로 계산 필드](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
+      ![타블로 계산 필드](assets/uc14-tableau-calculated-field.png)
    1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 데이터]** 시트를 선택하십시오.
    1. **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 소문자 제품 이름]**&#x200B;을(를) 드래그하고 **[!UICONTROL 행]** 옆의 필드에 항목을 놓습니다.
@@ -2775,7 +2749,7 @@ Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/deskt
 
 Tableau Desktop은 다음과 같습니다.
 
-![변환 후 타블로 데스크톱](assets/uc14-tableau-final.png){zoomable="yes"}
+![변환 후 타블로 데스크톱](assets/uc14-tableau-final.png)
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `LOWER` 함수 사용을 참조하십시오.
 
@@ -2794,7 +2768,7 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 Customer Journey Analytics 개체는 **[!UICONTROL 탐색]** 인터페이스에서 사용할 수 있습니다. 및 는 Looker에서 연결, 프로젝트 및 모델 설정의 일부로 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 보기 이름은 Customer Journey Analytics에서 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
 **차원**
-Customer Journey Analytics의 차원은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Looker의 차원 이름인 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**&#x200B;이(가) 있습니다.
+Customer Journey Analytics의 차원은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Looker의 차원 이름인 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL Daterangeday 날짜]**, **[!UICONTROL Daterangeweek 날짜]**, **[!UICONTROL Daterangemonth 날짜]** 등으로 사용할 수 있습니다.  날짜 범위 차원을 사용하는 경우 적절한 날짜 또는 시간 정의를 선택해야 합니다. 예: **[!UICONTROL 년]**, **[!UICONTROL 분기]**, **[!UICONTROL 월]**, **[!UICONTROL 날짜]**.
 
 **지표**
@@ -2815,14 +2789,13 @@ Looker는 위에 표시된 대로 사용자 지정 필드 빌더를 사용하여
 1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**[!UICONTROL 섹션에서 다음을 수행합니다.]**
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 Dimension]**&#x200B;을(를) 선택합니다.
    1. `lower(${cc_data_view.product_name})`식&#x200B;**[!UICONTROL 텍스트 영역에]**&#x200B;을(를) 입력하십시오. `Product Name`을(를) 입력할 때 올바른 구문이 도움이 됩니다.
-
-      ![로커 변환 예](assets/uc14-looker-transformation.png){zoomable="yes"}
+      ![로커 변환 예](assets/uc14-looker-transformation.png)
    1. `product name`을(를) **[!UICONTROL 이름]**(으)로 입력하십시오.
    1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 아래 표시된 것과 유사한 표가 표시됩니다.
 
-![로커 변환 결과](assets/uc14-looker-result.png){zoomable="yes"}
+![로커 변환 결과](assets/uc14-looker-result.png)
 
 
 사용자 지정 변환으로 인해 SQL 쿼리가 업데이트됩니다. 아래 SQL 예제에서 `LOWER` 함수 사용을 참조하십시오.
@@ -2861,7 +2834,7 @@ Customer Journey Analytics 개체(차원, 지표, 필터, 계산된 지표 및 �
 
 1. 셀을 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![Jupyter Notebook 결과](assets/uc13-jupyter-results.png){zoomable="yes"}
+   ![Jupyter Notebook 결과](assets/uc13-jupyter-results.png)
 
 이 쿼리는 Jupyter Notebook에 정의된 BI 확장에서 실행됩니다.
 
@@ -2871,7 +2844,7 @@ Customer Journey Analytics 구성 요소(차원, 지표, 필터, 계산된 지�
 
 **사용자 지정 변형**
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    df <- dv %>%
@@ -2885,7 +2858,7 @@ Customer Journey Analytics 구성 요소(차원, 지표, 필터, 계산된 지�
 
 1. 청크를 실행합니다. 아래 스크린샷과 비슷한 출력이 표시됩니다.
 
-   ![라디오 결과](assets/uc13-rstudio-results.png){zoomable="yes"}
+   ![라디오 결과](assets/uc13-rstudio-results.png)
 
 BI 확장을 사용하여 RStudio에서 생성된 쿼리에 `lower`이(가) 포함되어 있습니다. 이는 사용자 지정 변환이 RStudio 및 BI 확장에 의해 실행됨을 의미합니다.
 
@@ -2958,11 +2931,11 @@ Customer Journey Analytics에는 다양한 시각화가 있습니다. 가능한 
 
 Power BI은 특정 시각화에 대한 자세한 내용을 살펴보기 위해 [드릴 모드](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)를 지원합니다. 아래 예에서는 제품 범주에 대한 구매 매출을 분석합니다. 제품 카테고리를 나타내는 막대의 상황에 맞는 메뉴에서 **[!UICONTROL 드릴다운]**&#x200B;을 선택할 수 있습니다.
 
-![Power BI 드릴다운](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
+![Power BI 드릴다운](assets/uc15-powerbi-drilldown.png)
 
 드릴다운은 선택한 제품 범주 내의 제품에 대한 구매 매출로 시각화를 업데이트합니다.
 
-![Power BI 드릴업](assets/uc15-powerbi-drillup.png){zoomable="yes"}
+![Power BI 드릴업](assets/uc15-powerbi-drillup.png)
 
 드릴다운을 수행하면 `WHERE` 절을 사용하는 다음 SQL 쿼리가 생성됩니다.
 
@@ -3041,11 +3014,11 @@ limit 1001
 
 Tableau는 [계층](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)에서 [드릴 모드](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)를 지원합니다. 아래 예제에서는 **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 제품 이름]** 필드를 선택하고 **[!UICONTROL 제품 범주]** 위로 끌어서 놓으면 계층을 만듭니다. 그런 다음 제품 카테고리를 나타내는 막대의 컨텍스트 메뉴에서 **[!UICONTROL + 드릴다운]**&#x200B;을 선택할 수 있습니다.
 
-![타블로 드릴다운](assets/uc15-tableau-drilldown.png){zoomable="yes"}
+![타블로 드릴다운](assets/uc15-tableau-drilldown.png)
 
 드릴다운은 선택한 제품 범주 내의 제품에 대한 구매 매출로 시각화를 업데이트합니다.
 
-![타블로 드릴업](assets/uc15-tableau-drillup.png){zoomable="yes"}
+![타블로 드릴업](assets/uc15-tableau-drillup.png)
 
 드릴다운을 수행하면 GROUP BY 절을 사용하는 다음 SQL 쿼리가 생성됩니다.
 
@@ -3061,11 +3034,11 @@ GROUP BY 1,
 
 쿼리가 결과를 선택한 제품 범주로 제한하지 **않습니다**. 시각화만 선택한 제품 범주를 표시합니다.
 
-![타블로 드릴업](assets/uc15-tableau-drillup2.png){zoomable="yes"}
+![타블로 드릴업](assets/uc15-tableau-drillup2.png)
 
 또는 한 개의 시각화가 다른 시각화에서 선택한 결과인 드릴다운 대시보드를 만들 수 있습니다. 아래 예제에서는 **[!UICONTROL 제품 범주]** 시각화를 필터로 사용하여 **[!UICONTROL 제품 이름]** 테이블을 업데이트합니다. 이 시각화 필터는 클라이언트 전용이며 추가 SQL 쿼리를 생성하지 않습니다.
 
-![타블로 시각화 필터](assets/uc15-tableau-visualizationfilter.png){zoomable="yes"}
+![타블로 시각화 필터](assets/uc15-tableau-visualizationfilter.png)
 
 
 >[!TAB 조회자]
@@ -3130,7 +3103,7 @@ R의 데이터 시각화 패키지인 **ggplot2**&#x200B;의 시각화 기능을
 * Power BI Desktop 고급 날짜 범위 필터링은 전용입니다.  종료 날짜의 경우 보고하려는 날짜가 지난 날짜를 선택해야 합니다. 예를 들어 **[!UICONTROL 이(가)]** `1/1/2023` **[!UICONTROL 다음]** `1/2/2023` 전후에 있습니다.
 * 연결을 만들 때 Power BI Desktop의 기본값은 **[!UICONTROL 가져오기]**&#x200B;입니다. **[!UICONTROL 직접 쿼리]**&#x200B;를 사용하는지 확인하십시오.
 * Power BI Desktop은 Power Query를 통해 데이터 변환을 표시합니다.  Power Query는 주로 가져오기 유형 연결에서 작동하므로 날짜 또는 문자열 함수와 같이 적용하는 많은 변환에서 가져오기 유형 연결로 전환해야 한다는 오류가 발생합니다.  쿼리 시간에 데이터를 변환해야 하는 경우 Power BI에서 변환 자체를 수행할 필요가 없도록 파생 차원 및 지표를 사용해야 합니다.
-* Power BI Desktop이 날짜-시간 유형 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour *및&#x200B;*]**&#x200B;daterangeminute&#x200B;**[!UICONTROL 와 같은&#x200B;]**&#x200B;daterange&#x200B;**[!UICONTROL X &#x200B;]**&#x200B;차원이 지원되지 않습니다.
+* Power BI Desktop이 날짜-시간 유형 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour *및&#x200B;*]**daterangeminute**[!UICONTROL 와 같은&#x200B;]**daterange**[!UICONTROL X ]**차원이 지원되지 않습니다.
 * Power BI Desktop은 기본적으로 더 많은 쿼리 서비스 세션을 사용하여 여러 연결을 시도합니다.  프로젝트의 Power BI 설정으로 이동하여 병렬 쿼리를 비활성화합니다.
 * Power BI Desktop은 모든 클라이언트측 정렬과 제한을 수행합니다. Power BI Desktop에는 연결된 값을 포함하는 상위 *X* 필터링에 대한 다른 의미 체계도 있습니다. 따라서 Analysis Workspace에서와 동일한 정렬 및 제한을 만들 수 없습니다.
 * 이전 버전의 Power BI Desktop 2024년 10월 릴리스는 PostgreSQL 데이터 소스를 중단합니다. 이 문서에 언급된 버전을 사용해야 합니다.
