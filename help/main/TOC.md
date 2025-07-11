@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 98%
+source-wordcount: '1275'
+ht-degree: 99%
 
 ---
 
@@ -357,7 +357,7 @@ ht-degree: 98%
          + [간단한 예](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [더 복잡한 예](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [기여도 지표](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [참여도 지표](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [세분화된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [계산된 지표 필터링](../components/calc-metrics/cm-workflow/cm-filter.md)
@@ -396,8 +396,10 @@ ht-degree: 98%
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
       + [데이터 사전의 구성 요소 항목 편집](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [데이터 사전 상태 모니터링](../components/data-dictionary/monitor-data-dictionary-health.md)
+   + 실시간 보고 {#real-time-reporting}
+      + [개요](/help/components/real-time/real-time.md)
+      + [실시간 보고 사용](/help/components/real-time/use-real-time.md)
    + [예약된 프로젝트](../components/scheduled-projects-manager.md)
-
 + Report Builder {#cja-reportbuilder}
    + [개요](../report-builder/rb-overview.md)
    + [Report Builder 설치](../report-builder/report-builder-setup.md)
