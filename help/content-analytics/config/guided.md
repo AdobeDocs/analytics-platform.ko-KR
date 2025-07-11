@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6d4d6558f8f0ebb6a0885c958fe019d3e5afab4c
+source-git-commit: 1c4342d91e0c939d596c9660ffc510c4698f8680
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2696'
 ht-degree: 98%
 
 ---
@@ -324,7 +324,9 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 #### 기존 구성 {#existing-configuration}
 
-기존 구성의 경우 태그 속성을 편집할 수 없습니다. 그러나 포함하거나 제외할 페이지와 자산을 편집할 수는 있습니다.
+기존 구성의 경우 태그 속성을 편집할 수 없습니다. 기존 구성과 연결된 Tags 속성을 업데이트하려면 [Content Analytics 태그 확장 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하십시오.
+
+그러나 포함하거나 제외할 페이지와 자산을 편집할 수는 있습니다.
 
 * 콘텐츠 분석을 위해 데이터를 수집할 때 포함하거나 제외할 페이지를 편집하려면 **[!UICONTROL 경험]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 콘텐츠 분석 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 페이지를 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
 
