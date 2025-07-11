@@ -336,7 +336,7 @@ ht-degree: 99%
    + 세그먼트 {#segments}
       + [개요](/help/components/segments/seg-overview.md)
       + [세그먼트 만들기](/help/components/segments/seg-create.md)
-      + [세그먼트 작성](/help/components/segments/seg-builder.md)
+      + [세그먼트 빌드](/help/components/segments/seg-builder.md)
       + [빠른 세그먼트](/help/components/segments/seg-quick.md)
       + [순차적 세그먼트](/help/components/segments/seg-sequential-build.md)
       + [세그먼트 공유](/help/components/segments/seg-share.md)
@@ -353,7 +353,7 @@ ht-degree: 99%
       + 워크플로 {#cm-workflow}
          + [계산된 지표 만들기](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [지표 찾기](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [계산된 지표 작성](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [계산된 지표 빌드](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [간단한 예](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [더 복잡한 예](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
