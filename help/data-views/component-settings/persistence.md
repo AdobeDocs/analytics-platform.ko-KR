@@ -20,7 +20,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="지속성"
->abstract="차원에 적용되는 기본 배분 모델을 구성하십시오. 할당은 보고에서의 세그먼트 전에 적용됩니다."
+>abstract="차원에 적용되는 기본 배분 모델을 구성합니다. 할당은 보고의 세그먼트 전에 적용됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,7 +108,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/3409295/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [바인딩 차원](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
