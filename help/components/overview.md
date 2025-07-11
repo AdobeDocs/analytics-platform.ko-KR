@@ -1,14 +1,14 @@
 ---
 title: 구성 요소 개요
-description: Adobe Analytics이 제공하는 구성 요소와 Analysis Workspace에서 구성 요소를 사용하는 방법에 대해 알아봅니다.
+description: Adobe Analytics가 제공하는 구성 요소와 Analysis Workspace에서 구성 요소를 사용하는 방법을 알아봅니다.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

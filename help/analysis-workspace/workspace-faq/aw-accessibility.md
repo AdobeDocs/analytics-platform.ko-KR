@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 ### 키보드 단축키 (핫키)
 
-[!UICONTROL Analysis Workspace]에서는 보다 매끄러운 워크플로를 위해 [키보드 단축키(핫키)](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)의 다양한 집합을 제공합니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키(핫키)](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) 세트를 제공합니다.
 
 ## 화면 판독기 및 화면 돋보기 지원
 

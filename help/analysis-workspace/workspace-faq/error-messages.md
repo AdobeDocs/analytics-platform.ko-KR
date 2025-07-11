@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Analysis Workspace를 사용할 때 아래 정보를 사용하여 몇 가지 일
 | 문제 | 문제 해결 방법 |
 |---|---|
 | 지표를 드래그하면 *잘못된 데이터*&#x200B;라고 표시됩니다. | 잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 서로 위에 스택된 두 개의 지표는 이런 식으로 두 개의 지표를 표시할 수 있는 방법이 없으므로 데이터로 반환되지 않습니다. 대신 지표를 나란히 배치합니다. |
-| 지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다. | Workspace 보고서를 만들었지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.<ul><li>보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.</li><li>오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인합니다.</li><li>웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 데이터가 수집되고 있는지 확인합니다.</li></ul> |
+| 지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다. | Workspace 보고서를 만들었지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.<ul><li>보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.</li><li>오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인합니다.</li><li>웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 데이터가 수집되고 있는지 확인합니다.</li></ul> |
