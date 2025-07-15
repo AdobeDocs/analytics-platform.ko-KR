@@ -28,7 +28,7 @@ ht-degree: 11%
 * [다음 또는 이전 항목](/help/analysis-workspace/c-panels/next-previous.md)
 * [빠른 인사이트](/help/analysis-workspace/c-panels/quickinsight.md)
 
-가장 최근 데이터 새로 고침의 타임스탬프가 포함된 메시지가 표시됩니다. 예: [!UICONTROL  *오후 7시 55분에 마지막으로 새로 고침*].
+가장 최근 데이터 새로 고침의 타임스탬프가 포함된 메시지가 표시됩니다. 예: [!UICONTROL &#x200B; *오후 7시 55분에 마지막으로 새로 고침*].
 
 드롭다운 메뉴에서 보고할 실시간 기간을 선택합니다. 사용 가능한 옵션은 다음과 같습니다.
 
