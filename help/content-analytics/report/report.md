@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: ht
+source-git-commit: c86da649c23ca06c3404b6e5db0b9970e8817a72
+workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 기본적으로 관련 콘텐츠 분석 차원에 대한 썸네일이 표시됩니다. 콘텐츠 분석 차원에 대한 썸네일 표시를 구성하려면:
 
-* 콘텐츠 분석 차원의 헤더 행 위에 마우스를 가져다 댑니다. 예를 들어 **[!UICONTROL 자산 이름]** 또는 **[!UICONTROL 경험 ID]**.
+* 콘텐츠 분석 차원의 헤더 행 위에 마우스를 가져다 댑니다. 예: **[!UICONTROL 자산 ID]** 또는 **[!UICONTROL 경험 ID]**.
 * ![설정](/help/assets/icons/Setting.svg)을 선택합니다.
 * **[!UICONTROL 행 설정]** 팝업에서 **[!UICONTROL 설정]** 아래에서 **[!UICONTROL 썸네일 표시]**&#x200B;를 선택하거나 선택 취소합니다.
 
@@ -155,5 +155,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[콘텐츠 분석 구성 요소](components.md)
->[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
