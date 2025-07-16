@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="비헤이비어"
->abstract="차원 및 지표 구성 요소에 적용할 수 있습니다. 이 지표에 대한 라인 항목을 집계하는 방법을 결정합니다. 이 차원에 대한 문자열 값이 소문자인지 여부를 지정합니다."
+>abstract="차원 및 지표 구성 요소에 적용 가능합니다. 이 지표에 대한 라인 항목을 집계하는 방법을 결정합니다. 이 차원에 대한 문자열 값이 소문자인지 여부를 지정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
