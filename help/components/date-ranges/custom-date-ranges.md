@@ -5,10 +5,10 @@ title: 사용자 지정 날짜 범위 예
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
+source-git-commit: 28a657a0a93325a745dcf51c706cc488f599a6e0
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 +++ 세부 사항
 
-한 주 전의 현재 날짜부터 같은 주의 마지막 날짜까지의 기간을 정의하는 날짜 범위를 정의하려고 합니다. 예를 들어 오늘이 2024년 9월 11일 수요일인 경우, 2024년 9월 4일 수요일부터 2024년 9월 7일 토요일까지 날짜 범위를 원하는 경우 9월
+한 주 전의 현재 날짜부터 같은 주의 마지막 날짜까지의 기간을 정의하는 날짜 범위를 정의하려고 합니다. 예를 들어 오늘이 2024년 9월 11일 수요일인 경우, 2024년 9월 4일 수요일부터 2024년 9월 7일 토요일까지 날짜 범위를 원하는 경우
 
 ![날짜 범위 예](assets/date-range-example.png)
 
