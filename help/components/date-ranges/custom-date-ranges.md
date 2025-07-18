@@ -1,22 +1,20 @@
 ---
-description: Analysis Workspace의 사용자 지정 날짜 범위 예입니다.
+description: Analysis Workspace에서 사용자 지정 날짜 범위를 정의하는 방법을 알아봅니다.
 keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 예
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
 
 # 사용자 지정 날짜 범위 예
 
-이 문서에서는 사용자 지정 날짜 범위의 더 많은 예를 보여줍니다
-
-
+이 문서에서는 사용자 지정 날짜 범위의 더 많은 예를 보여줍니다.
 
 ## 지난 2개월 전
 
