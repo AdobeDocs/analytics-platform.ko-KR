@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
+source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2283'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,9 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
       * 음수를 표시합니다.
 
         예를 들어 연도별 지표를 맵에 그리는 경우 뉴욕에 대해 -33%를 맵에 표시할 수 있습니다.
+
       * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
+
       * 녹색 및 빨간색 색상 구성표는 양수 및 음수를 나타냅니다.
 
    * **추가 시각화 설정**: 맵 시각화에 대한 추가 설정을 보려면 시각화 헤더에서 설정 아이콘 ![설정](/help/assets/icons/Setting.svg)을 선택하십시오. 자세한 내용은 [시각화 설정 구성](#configure-visualization-settings)을 참조하십시오.
@@ -238,7 +240,7 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
    | **[!UICONTROL 스타일]** | | |
    | | **[!UICONTROL 색상 테마]** | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
    | | **[!UICONTROL 맵 스타일]** | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
-   | | **[!UICONTROL 클러스터 반경]** | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다. |
+   | | **[!UICONTROL 클러스터 반경]** | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다.<p>이 옵션은 **[!UICONTROL 버블]**&#x200B;이(가) **[!UICONTROL 맵 유형]**(으)로 선택된 경우에만 사용할 수 있습니다.</p> |
    | | **[!UICONTROL 사용자 지정 최대값]** | 맵의 최대 값에 대한 임계값을 변경할 수 있습니다. 이 값을 조정하면 설정한 사용자 지정 최대 값에 비례하여 버블 또는 히트맵 값(색상 및 크기)의 크기가 조정됩니다. |
    | | **[!UICONTROL 주석 표시]** | 이 시각화에 대해 만들어진 주석을 표시합니다. |
    | | **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
