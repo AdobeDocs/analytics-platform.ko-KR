@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 78fab62b4f28a85986b5d7c537d321049f929897
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2653'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 97%
 | --- | --- |
 | **데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능** | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
 | **모든 유형의 데이터 수용** | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/ko/docs/analytics/import/home) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
-| **B2B Edition** | [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=en)은(는) 수익 성장을 이끄는 실행 가능한 계정 통찰력을 제공하여 B2B 회사가 마케팅, 판매 및 제품 팀을 조정할 수 있도록 지원합니다. 데이터 모델의 중심에 계정을 두면 모든 분석은 계정 여정에 집중됩니다. 개인 및 시간 기반 이벤트 위에 새로운 계층의 엔티티(계정, 기회, 구매 그룹)를 추가하면 B2B 마케팅 및 수익 라이프사이클에 대한 전체적인 그림이 만들어집니다. |
+| **B2B Edition** | [Customer Journey Analytics B2B Edition](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=en)은 매출 성장을 촉진하는 실행 가능한 계정 인사이트를 제공하여 B2B 기업이 마케팅, 영업 및 제품 팀을 조정할 수 있도록 지원합니다. 데이터 모델의 중심에 계정을 두면 모든 분석은 계정 여정에 집중됩니다. 개인 및 시간 기반 이벤트 위에 새로운 계층의 엔티티(계정, 기회, 구매 그룹)를 추가하면 B2B 마케팅 및 수익 라이프사이클에 대한 전체적인 그림이 만들어집니다. |
 | **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 Customer Journey Analytics를 Power BI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 Customer Journey Analytics 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이 확장 기능을 사용하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 Customer Journey Analytics에 대한 BI 보고를 얻을 수 있습니다. |
-| **콘텐츠 분석** | [콘텐츠 분석](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics)은 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. 콘텐츠 분석은 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. |
+| **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics)는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. |
 | **크로스 디바이스 분석** | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
-| **Data Insights 에이전트** | Customer Journey Analytics의 AI Assistant에 포함된 [Data Insights Agent](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en)은(는) 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축하여 데이터 중심의 질문에 빠르고 효율적으로 답변할 수 있습니다. |
+| **Data Insights 에이전트** | Customer Journey Analytics의 AI 어시스턴트 중 하나인 [Data Insights 에이전트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en)는 생성형 AI 대화 에이전트입니다. Analysis Workspace에서 관련 시각화를 빌드함으로써 데이터 보기 및 실제 데이터의 구성 요소를 활용하여 데이터에 대한 질문에 빠르고 효율적으로 답변합니다. |
 | **차원 개선 사항** | Customer Journey Analytics는 차원을 사용할 때 더 큰 유연성을 자랑합니다. <ul><li>**사용자 정의 숫자 기반 차원**: [데이터 보기 내에서 숫자 기반 차원을 직접 만듭니다](/help/data-views/create-dataview.md#components).</li><li>**문자열 기반 차원 정렬**: [자유 형식 테이블에서 문자열 기반 차원을 알파벳순으로 정렬합니다.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>Adobe Analytics에서는 소수의 기본 제공 수치 차원만 사용할 수 있었으며 문자열 기반 차원별로 정렬하는 것은 불가능했습니다.</p> |
 | **파생 필드** | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 이러한 변환은 모든 보고에 소급 적용됩니다. |
 | **향상된 보안 및 개인정보 보호 옵션** - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 [추가 보안 옵션](/help/privacy/cmk.md)을 제공합니다. Adobe Analytics는 HIPAA를 지원하지 않습니다. |
@@ -76,7 +76,7 @@ ht-degree: 97%
 | **보고서 시간 처리** | 전체 지원: Customer Journey Analytics는 보고 시 처리에만 사용합니다. |
 | **보고 API 액세스** | 전체 지원: [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)를 통해 이용 가능합니다. |
 | **예약된 보고서/프로젝트** | 전체 지원 |
-| **세그먼트** | 전체 지원. 세그먼트는 이전에 Adobe Customer Journey Analytics에서 *필터*&#x200B;라고 불렸습니다. |
+| **세그먼트** | 전체 지원. 세그먼트는 이전에 Customer Journey Analytics에서 *필터*&#x200B;라고 불렸습니다. |
 | **스트리밍 미디어 컬렉션** | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 Workspace의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |
 | **요약 수준 데이터 소스** | 전체 지원 |
 | **가상 보고서 세트** | 전체 지원. [데이터 보기](/help/data-views/create-dataview.md)는 Adobe Analytics의 보고서 세트와 동일한 Customer Journey Analytics입니다. |
