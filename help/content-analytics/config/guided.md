@@ -82,22 +82,22 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataview_button"
 >title="데이터 보기"
->abstract="Content Analytics을 구성하려면 기존 데이터 보기를 선택해야 합니다. 따라서 콘텐츠 분석 데이터를 다른 데이터와 병합할 수 있습니다."
+>abstract="Content Analytics을 구성하려면 기존 데이터 보기를 선택해야 합니다. 따라서 Content Analytics 데이터를 다른 데이터와 병합할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 콘텐츠 분석 데이터를 병합합니다."
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="데이터 보기"
->abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 콘텐츠 분석 데이터를 병합합니다.<br/>"
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다.<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="새로운 데이터 보기"
->abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 원래 선택된 데이터 보기의 이들 지표 및 차원은 제거됩니다.<br/><br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 콘텐츠 분석 데이터 세트는 원래 선택된 연결에서 제거되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 원래 선택된 데이터 보기의 이들 지표 및 차원은 제거됩니다.<br/><br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 Content Analytics 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 원래 선택된 연결에서 제거되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
@@ -112,7 +112,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
 >title="새로운 데이터 보기"
->abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 콘텐츠 분석 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기의 유사한 지표 및 차원은 제거됩니다.<br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 콘텐츠 분석 데이터 세트를 포함하도록 업데이트됩니다. 콘텐츠 분석 데이터 세트는 기존 구성에서 제거되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기의 유사한 지표 및 차원은 제거됩니다.<br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 Content Analytics 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 기존 구성에서 제거되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -258,7 +258,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="데이터 수집"
->abstract="콘텐츠 분석을 위해 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 페이지를 지정합니다."
+>abstract="Content Analytics에 대해 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 페이지를 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -268,7 +268,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="데이터 수집"
->abstract="콘텐츠 분석을 위해 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 자산을 지정합니다."
+>abstract="Content Analytics에 대해 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 자산을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -349,7 +349,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="구현 확인"
->abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 콘텐츠 분석에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>사용자가 구성한 데이터 수집 설정별로 사용자의 사이트 방문 시 캡처된 페이지의 URL</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
+>abstract="**[!UICONTROL 구현]**&#x200B;을 선택하면 이 워크플로에서 제공한 입력을 기반으로 Content Analytics가 구성됩니다. 일반적으로 Content Analytics에 유용한 내용을 기반으로 여러 설정이 기본 선택되지만 귀하(데이터 컨트롤러)는 각 아티팩트의 설정을 검토하여 해당 설정이 귀하의 개인정보 처리방침, 계약상의 권리 및 의무, 해당 법에 따른 동의 요구 사항에 따라 구현되었는지 확인해야 합니다.<br/><br/>이 구성과 관련된 태그 라이브러리가 수동으로 게시될 때까지는 아무런 데이터도 수집되지 않습니다.<br/><br/>이미지와 텍스트의 속성을 얻기 위해 Adobe는 다음을 사용하여 속성을 가져옵니다.<ol><li>사용자가 구성한 데이터 수집 설정별로 사용자의 사이트 방문 시 캡처된 페이지의 URL</li><li>이미지가 호스팅되는 URL</li></ol>서드파티 사이트에 호스팅된 이미지에는 태그를 지정해서는 안 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

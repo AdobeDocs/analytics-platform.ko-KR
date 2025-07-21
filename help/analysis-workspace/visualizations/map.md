@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
 workflow-type: tm+mt
 source-wordcount: '2270'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
@@ -129,14 +129,14 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 | 선택 항목에서 트렌드 만들기 | 맵 시각화에서 선택한 특정 영역을 기반으로 추세선 차트 시각화를 만듭니다. <p>자세한 내용은 [맵 시각화에서 추세선 차트 만들기](#create-a-trended-line-chart-from-the-map-visualization)를 참조하세요. <!-- is this correct? --> | 맵 시각화에서 트렌드를 만들 수 없습니다. |
 | 선택 항목에서 분류 추가 | 맵 시각화에서 선택한 특정 영역 내의 특정 차원 항목, 지표, 세그먼트 또는 날짜 범위를 분류합니다. <p>자세한 내용은 [맵 시각화에서 분류 추가](#add-a-breakdown-from-the-map-visualization)를 참조하십시오. | 맵 시각화에서 분류를 추가할 수 없습니다. |
 
-## 맵 시각화 작성 시작 {#begin-building-map}
+## 맵 시각화 빌드 시작 {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
 >title="맵 시각화 구성"
->abstract="맵 시각화의 기반으로 사용되는 지표 또는 계산된 지표를 선택합니다. 데이터의 특정 하위 세트에 중점을 두려는 경우 세그먼트를 추가할 수도 있습니다.<p>시각화가 렌더링된 후 언제든지 이 정보를 업데이트할 수 있습니다.</p>"
+>abstract="맵 시각화의 기준으로 사용되는 지표 또는 계산된 지표를 선택합니다. 특정 데이터 하위 집합에 초점을 맞추고자 하는 경우 세그먼트를 추가할 수도 있습니다.<p>시각화가 렌더링된 후 언제든지 이 정보를 업데이트할 수 있습니다.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
