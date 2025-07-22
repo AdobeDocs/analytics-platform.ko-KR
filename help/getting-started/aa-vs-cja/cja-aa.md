@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 78fab62b4f28a85986b5d7c537d321049f929897
-workflow-type: ht
-source-wordcount: '2653'
-ht-degree: 100%
+source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
+workflow-type: tm+mt
+source-wordcount: '2694'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | **모든 유형의 데이터 수용** | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)을 사용하여 데이터를 조합하고 탐색할 수 있도록 균일하게 나타내고 구성할 수 있습니다. Adobe Analytics는 일부 [데이터 가져오기](https://experienceleague.adobe.com/ko/docs/analytics/import/home) 기능을 사용하여 주로 웹 및 모바일 분석 데이터에 중점을 둡니다. |
 | **B2B Edition** | [Customer Journey Analytics B2B Edition](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=en)은 매출 성장을 촉진하는 실행 가능한 계정 인사이트를 제공하여 B2B 기업이 마케팅, 영업 및 제품 팀을 조정할 수 있도록 지원합니다. 데이터 모델의 중심에 계정을 두면 모든 분석은 계정 여정에 집중됩니다. 개인 및 시간 기반 이벤트 위에 새로운 계층의 엔티티(계정, 기회, 구매 그룹)를 추가하면 B2B 마케팅 및 수익 라이프사이클에 대한 전체적인 그림이 만들어집니다. |
 | **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 Customer Journey Analytics를 Power BI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 Customer Journey Analytics 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이 확장 기능을 사용하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 Customer Journey Analytics에 대한 BI 보고를 얻을 수 있습니다. |
+| **Workspace 프로젝트의 댓글** | 댓글을 사용하면 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en)의 컨텍스트에서 인사이트를 공유하고 질문을 할 수 있습니다. 이를 통해 데이터에 대한 토론을 간소화하여 논의되는 데이터의 컨텍스트 내에서 대화를 유지할 수 있습니다. |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics)는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. |
 | **크로스 디바이스 분석** | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내력 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
 | **Data Insights 에이전트** | Customer Journey Analytics의 AI 어시스턴트 중 하나인 [Data Insights 에이전트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en)는 생성형 AI 대화 에이전트입니다. Analysis Workspace에서 관련 시각화를 빌드함으로써 데이터 보기 및 실제 데이터의 구성 요소를 활용하여 데이터에 대한 질문에 빠르고 효율적으로 답변합니다. |
