@@ -538,7 +538,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="어떤 콘텐츠와 콘텐츠 속성이 가장 성과가 좋은지 알아봅니다."
->abstract="**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. &lt;a href=\&quot;https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>자세히 알아보기</a>.<br/>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다."
+>abstract="**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. &lt;a href=\&quot;https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>자세히 알아보기</a>.<br/>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
