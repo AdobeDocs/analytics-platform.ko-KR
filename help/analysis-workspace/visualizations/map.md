@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
+source-git-commit: f0ef310f120e278685893308315902e32c54e35e
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2385'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
@@ -287,11 +287,13 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
 맵 시각화에서 세그먼트를 만들려면 다음 작업을 수행하십시오.
 
-1. (선택 사항) 세그먼트에 사용할 데이터가 포함된 맵의 특정 영역을 확대합니다.
+1. 세그먼트에 사용할 데이터가 포함된 맵 영역으로 확대/축소하거나 패닝합니다.
 
-1. 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭한 다음 마우스를 끌어 원하는 영역을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 표시되는 드롭다운 메뉴에서 **[!UICONTROL 선택 항목에서 세그먼트 만들기]**&#x200B;를 선택합니다.
+   * **현재 맵에 표시된 모든 항목에서 세그먼트를 만들려면:** 맵의 아무 곳이나 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 현재 보기에서 세그먼트 만들기]**&#x200B;를 선택합니다.
+
+   * **맵의 특정 영역에 대한 세그먼트를 만들려면:** 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭하고 마우스를 끌어 원하는 영역을 선택한 다음 **[!UICONTROL 선택 영역에서 세그먼트 만들기]**&#x200B;를 선택합니다.
 
 1. 세그먼트 빌더 를 사용하여 새 세그먼트를 정의합니다. 자세한 내용은 [세그먼트 빌더](/help/components/segments/seg-builder.md)를 참조하십시오.
 
@@ -301,11 +303,13 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
 맵 시각화에서 대상자를 만들려면 다음 작업을 수행하십시오.
 
-1. (선택 사항) 대상자에게 사용할 데이터가 포함된 맵의 특정 영역을 확대합니다.
+1. 대상자에게 사용할 데이터가 포함된 맵 영역으로 확대/축소하거나 패닝합니다.
 
-1. 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭한 다음 마우스를 끌어 원하는 영역을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 표시되는 드롭다운 메뉴에서 **[!UICONTROL 선택 항목에서 대상 만들기]**&#x200B;를 선택합니다.
+   * **현재 맵에 표시된 모든 항목에서 대상을 만들려면:** 맵의 아무 곳이나 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 현재 보기에서 대상 만들기]**&#x200B;를 선택합니다.
+
+   * **맵의 특정 영역에 대한 대상을 만들려면:** 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭하고 마우스를 끌어 원하는 영역을 선택한 다음 **[!UICONTROL 선택 영역에서 대상 만들기]**&#x200B;를 선택합니다.
 
 1. 대상 빌더를 사용하여 새 대상을 정의합니다. 자세한 내용은 [대상 만들기 및 게시](/help/components/audiences/publish.md#audience-builder)의 [대상 빌더](/help/components/audiences/publish.md)를 참조하십시오.
 
@@ -315,11 +319,13 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
 맵 시각화에서 추세선 차트를 만들려면 다음 작업을 수행하십시오.
 
-1. (선택 사항) 트렌드 라인 차트에 사용할 데이터가 포함된 맵의 특정 영역을 확대합니다.
+1. 트렌드 라인 차트에 사용할 데이터가 포함된 맵 영역으로 확대/축소하거나 패닝합니다.
 
-1. 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭한 다음 마우스를 끌어 원하는 영역을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 표시되는 드롭다운 메뉴에서 **[!UICONTROL 트렌드]**&#x200B;을(를) 선택합니다.
+   * **현재 맵에 표시된 모든 항목으로 추세선 차트를 만들려면:** 맵의 아무 곳이나 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 현재 보기에서 트렌드]**&#x200B;를 선택합니다.
+
+   * **맵의 더 구체적인 영역에 대한 추세선 차트를 만들려면:** 선택 도구 ![맵 선택 아이콘](assets/map-selection-icon.png)을 클릭하고 마우스를 끌어 원하는 영역을 선택한 다음 **[!UICONTROL 트렌드]**&#x200B;를 선택하십시오.
 
    추세선을 포함하는 선 시각화가 구축됩니다. 이 시각화에 대한 자세한 내용은 [줄](/help/analysis-workspace/visualizations/line.md)을 참조하세요.
 
