@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 2d4e8c51111427564c761a16deb27223e98cd2ec
+source-git-commit: c9560f8b11ff055040611e208f09ee3e2d7bb5da
 workflow-type: tm+mt
-source-wordcount: '8925'
+source-wordcount: '8857'
 ht-degree: 99%
 
 ---
@@ -19,31 +19,10 @@ ht-degree: 99%
 >title="파생 필드"
 >abstract="파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 데이터 조작을 정의할 수 있습니다. 그런 다음 해당 파생 필드를 Workspace에서 구성 요소(지표 또는 차원)로 사용하거나 데이터 보기에서 구성 요소로 추가로 정의할 수 있습니다."
 
-<!-- BEGIN
-     Temporarily have these entries at the top; once functions are documented
-     move them to appropriate function section
--->
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_datemath"
->title="날짜 수학"
->abstract="이 함수는 두 날짜 또는 날짜-시간 필드 간의 차이를 반환하는 기능을 제공합니다."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_typecast"
->title="타입캐스트"
->abstract="이 기능은 Customer Journey Analytics 내에서 필드를 추가 변환할 수 있도록, 필드의 유형을 즉시 변경하는 기능을 제공합니다."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_depth"
->title="깊이"
->abstract="이 함수는 이벤트 깊이 표준 구성 요소의 기능과 유사하게 모든 필드의 깊이를 반환하는 기능을 제공합니다."
-
-<!-- END -->
 
 파생 필드는 Adobe Customer Journey Analytics의 실시간 보고 기능에서 중요한 부분입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 파생 필드를 [Workspace](../../analysis-workspace/home.md)의 구성 요소(지표 또는 차원)로 사용하거나 [데이터 보기](../data-views.md)에서 파생 필드를 구성 요소로 정의할 수도 있습니다.
 
-파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
+파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
 
 파생 필드는 [데이터 보기](../data-views.md) 내에서 정의되며, 규칙으로 정의된 함수 집합을 기반으로 하며, 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
@@ -444,14 +423,10 @@ ht-degree: 99%
 
 ### 다음과 같은 경우 {#casewhen}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="다음과 같은 경우"
 >abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 이러한 기준을 사용하여 조건 시퀀스에 따라 새 파생 필드의 값을 정의합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용합니다. 이러한 기준을 사용하여 조건 시퀀스에 따라 새 파생 필드의 값을 정의합니다.
@@ -660,7 +635,7 @@ ht-degree: 99%
 
 ## 추가 정보 {#casewhen-more-info}
 
-Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
+Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
 
 Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -672,7 +647,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 |  | 제한 |
 |:---:|----|
-| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 &#x200B;] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
+| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 ] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
 | **B** | 규칙에서 *설정*&#x200B;한 모든 값은 동일한 컨테이너에서 시작되어야 하며 동일한 유형이거나 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
 | **C** | 규칙의 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우] 구조에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작할 필요가 *없으며* 동일한 유형이지 *않아도* 됩니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
 
@@ -684,14 +659,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 분류 {#classify}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_classify"
 >title="분류"
 >abstract="이 함수는 텍스트 항목에 의해 해당 값으로 대체되는 값 세트를 정의하는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 새 파생 필드에서 해당 값으로 대체되는 값 집합을 정의합니다.
@@ -913,17 +884,14 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 +++
 
+<!-- DEDUPLICATE -->
 
 ### 중복 제거 {#dedup}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_deduplicate"
 >title="중복 제거"
 >abstract="이 함수는 세션 또는 개인 수준에서 비반복적으로 값만 계산하도록 필드를 구성하는 기능을 제공합니다. 또한 중복 제거 ID를 사용하면 특정 ID(예: 구매 ID)를 기반으로 하나의 값(첫 번째 인스턴스 또는 마지막 인스턴스)만 사용되도록 할 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 값을 여러 번 세는 것을 방지합니다.
@@ -1007,6 +975,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 +++
 
 
+
 <!-- FIND AND REPLACE -->
 
 ### 찾기 및 바꾸기 {#find-and-replace}
@@ -1017,8 +986,6 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 >id="dataview_derivedfields_findandreplace"
 >title="찾기 및 바꾸기"
 >abstract="이 함수는 선택한 필드의 모든 값을 찾아서 해당 값을 파생된 새 필드에서 다른 값으로 바꾸는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 선택한 필드에서 모든 값을 찾아 해당 값을 새 파생 필드의 다른 값으로 바꿉니다.
@@ -1091,14 +1058,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 조회 {#lookup}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lookup"
 >title="조회"
 >abstract="이 함수는 데이터 세트 간에 일치하는 키를 사용하여 조회 데이터 세트의 필드를 사용하는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 조회 데이터 세트의 필드를 사용하여 값을 조회하고 새 파생 필드나 추가 규칙 처리를 위해 값을 반환합니다.
@@ -1152,14 +1115,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 소문자 {#lowercase}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lowercase"
 >title="소문자"
 >abstract="이 함수는 전체 문자열 텍스트를 소문자 값으로 변환합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 필드의 값을 소문자로 변환하여 새로운 파생 필드에 저장합니다.
@@ -1213,14 +1172,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 수학 {#math}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_math"
 >title="수학"
 >abstract="이 함수는 필드에서 수학 연산을 수행하는 기능을 제공합니다. 해당 함수는 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본적인 산술 연산을 수행하는 데 사용할 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 숫자 필드에서는 기본적인 수학 연산자(더하기, 빼기, 곱하기, 나누기, 거듭제곱)를 사용합니다.
@@ -1277,7 +1232,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 1. 다른 필드 또는 정적 값이 따라오는 피연산자(예: 곱하기는 `*`)를 추가합니다. 더 복잡한 수식을 정의하려면 괄호를 사용할 수 있습니다.
 
-1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;**으로**&#x200B;[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]&#x200B;**으로**&#x200B;더하기 -*x*를 선택합니다.
+1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 -*x*를 선택합니다.
    ![수학 자세히 정보 2](assets/math-more-info-2.png)
 
 1. 녹색 체크 표시 ![체크 표시](./assets/checkmark.svg)</span>는 수학 공식이 유효한지 여부를 나타내며 그렇지 않으면 ![경고](./assets/alert.svg)가 표시되고 [!UICONTROL 잘못된 수식 표현]이라는 메시지가 나타납니다.
@@ -1290,11 +1245,9 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 - 수식에서 여러 정적 값을 사용하는 경우, 수식을 유효하게 하려면 이러한 정적 값을 괄호를 사용하여 그룹화해야 합니다. 예:
 
    - 이 수식은 오류를 반환합니다.
-
      ![수학 자세히 정보 4](assets/math-more-info-4.png)
 
    - 이 수식은 유효합니다.
-
      ![수학 자세히 정보 5](assets/math-more-info-5.png)
 
 히트 수준 기반 계산에 수학 함수를 사용합니다. [요약](#summarize) 함수를 사용하여 이벤트, 세션 또는 개인 범위 기반 계산이 가능합니다.
@@ -1306,14 +1259,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 필드 병합 {#merge}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_mergefields"
 >title="필드 병합"
 >abstract="이 함수는 두 개의 서로 다른 필드에서 값을 가져오고 각각의 값을 단일 차원에 포함하는 기능을 제공합니다. 규칙은 먼저 첫 번째 값이 설정되어 있는지 확인합니다. 그렇지 않은 경우 두 번째 값을 사용합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 두 개의 다른 필드의 값을 새로운 파생 필드로 병합합니다.
@@ -1382,14 +1331,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 다음 또는 이전 {#next-previous}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_nextprevious"
 >title="다음 또는 이전"
 >abstract="이 함수는 특정 필드에 대해 수집된 다음 또는 이전 값을 조회할 수 있는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 필드를 입력으로 받아 세션이나 사용 범위 내에서 해당 필드의 다음 또는 이전 값을 확인합니다. 이는 방문 및 이벤트 테이블 필드에만 적용됩니다.
@@ -1464,14 +1409,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 정규 표현식 바꾸기 {#regex-replace}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_regexreplace"
 >title="정규 표현식 바꾸기"
 >abstract="이 함수는 정규 표현식을 사용하여 문자열의 일부를 추출하는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 정규 표현식을 사용하여 필드의 값을 새로운 파생 필드로 바꿉니다.
@@ -1571,14 +1512,10 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 분할 {#split}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_split"
 >title="분할"
 >abstract="이 함수는 구분 기호를 기반으로 하나의 필드를 여러 필드로 분할하는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 필드의 값을 새로운 파생 필드로 분할합니다.
@@ -1647,7 +1584,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ![분할 규칙의 스크린샷 - 첫 번째 값](assets/split-2.png)
 
-오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 &#x200B;] 파생 필드를 만듭니다.
+오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 ] 파생 필드를 만듭니다.
 
 ![분할 규칙의 스크린샷 - 마지막 값](assets/split-3.png)
 
@@ -1673,14 +1610,10 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 요약 {#summarize}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_summarize"
 >title="요약"
 >abstract="이 함수는 이벤트, 세션 또는 개인 수준에서 값을 집계하는 기능을 제공합니다. 선택 필드의 필드 유형에 따라 다양한 옵션을 사용할 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 이벤트, 세션 및 사용자 수준에서 지표 또는 차원에 집계 유형 함수를 적용합니다.
@@ -1751,14 +1684,10 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ### 트리밍 {#trim}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_trim"
 >title="트리밍"
 >abstract="이 함수는 문자열의 처음 또는 끝에서 공백이나 특수 문자를 자르는 기능을 제공합니다. 또한 반환 값에 사용할 문자 수를 문자열의 앞이나 끝에서 지정하는 기능도 있습니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 필드 값의 시작 또는 끝에서 공백, 특수 문자 또는 특정 문자 수를 제거하여 새로운 파생 필드를 만듭니다.
@@ -1868,19 +1797,14 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 {style="table-layout:auto"}
 +++
 
-
 <!-- URL PARSE -->
 
 ### URL 구문 분석 {#urlparse}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_urlparse"
 >title="URL 구문 분석"
 >abstract="이 함수는 호스트, 경로 또는 쿼리 매개변수를 포함하여 URL의 다양한 부분을 구문 분석하는 기능을 제공합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 프로토콜, 호스트, 경로 또는 쿼리 매개변수를 포함한 URL의 다양한 부분을 구문 분석합니다.
@@ -2015,7 +1939,7 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 
 >[!MORELIKETHIS]
 >
->- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=ko)
->- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=ko)
->- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=ko)
+>- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
