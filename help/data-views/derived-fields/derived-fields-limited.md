@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!IMPORTANT]
 >
 >이는 아직 일반적으로 사용할 수 없는 새로운 파생된 필드 함수에 대한 사전 설명서입니다. 이 정보를 사용하여 새로 파생된 필드 함수에 대해 알아봅니다. 이 설명서는 여전히 변경될 수 있으며 이 문서의 현재 버전에서 파생될 수 있는 법적 의무는 없습니다.
->><br/>일반적으로 파생된 필드 기능과 현재 사용 가능한 릴리스 함수 및 함수 템플릿에 대한 정보는 [파생된 필드](derived-fields.md)을(를) 참조하십시오.
+>&#x200B;><br/>일반적으로 파생된 필드 기능과 현재 사용 가능한 릴리스 함수 및 함수 템플릿에 대한 정보는 [파생된 필드](derived-fields.md)을(를) 참조하십시오.
 >
 
 ## 함수 참조
@@ -75,7 +75,7 @@ ht-degree: 27%
 
 ### 파생 필드 {#datemath-uc1-derivedfield}
 
-`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와(과) [!DNL Person]체크인 날짜[!UICONTROL  사이의 ]범위에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을(를) [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다. [!UICONTROL 예약 날짜]와(과) [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을(를) 선택하여 마지막 사용자 범위 값이 계산에 사용되도록 합니다.
+`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와(과) [!DNL Person]체크인 날짜[!UICONTROL &#x200B; 사이의 &#x200B;]범위에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을(를) [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다. [!UICONTROL 예약 날짜]와(과) [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을(를) 선택하여 마지막 사용자 범위 값이 계산에 사용되도록 합니다.
 
 ![날짜 계산 규칙의 스크린샷](assets/datemath-1.png)
 
@@ -95,8 +95,8 @@ ht-degree: 27%
 
 세션 내의 고객이 주문하기 전에 검색 시간을 분 단위로 이해하려고 합니다.
 
-`Time Between Search And Order In Minutes`검색 시간[[!UICONTROL  및 ]주문 시간](#case-when) 값을 정의하기 위해 두 개의 [!UICONTROL CASE WHEN] 함수[!UICONTROL 의 결과인 새 ] 파생 필드를 정의합니다.
-그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]이 [!UICONTROL 세션], 값이 [!UICONTROL 검색 시간], [!UICONTROL 주문 시간], [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 [!UICONTROL 날짜 계산] 함수의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 ] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
+`Time Between Search And Order In Minutes`검색 시간[[!UICONTROL &#x200B; 및 &#x200B;]주문 시간](#case-when) 값을 정의하기 위해 두 개의 [!UICONTROL CASE WHEN] 함수[!UICONTROL 의 결과인 새 &#x200B;] 파생 필드를 정의합니다.
+그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]이 [!UICONTROL 세션], 값이 [!UICONTROL 검색 시간], [!UICONTROL 주문 시간], [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 [!UICONTROL 날짜 계산] 함수의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 &#x200B;] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
 
 날짜 계산 규칙 3의 ![스크린샷](assets/datemath-3.png)
 
@@ -195,7 +195,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 ### 파생 필드 {#typecast-uc1-derivedfield}
 
-`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL Typecast에서 ] [!UICONTROL String]&#x200B;([!UICONTROL 화면 높이]) 필드에 대한 규칙을 정의하고 이를 새 파생 필드에 저장합니다.
+`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL String]&#x200B;([!UICONTROL 화면 높이]) 필드에 대한 규칙을 정의하고 이를 새 파생 필드에 저장합니다.
 
 ![Typecast 규칙 1](assets/typecast-1.png)의 스크린샷
 
@@ -210,7 +210,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 ### 파생 필드 {#typecast-uc2-derivedfield}
 
-`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 매출] 필드를 [!UICONTROL Typecast에서 ] [!UICONTROL 정수]&#x200B;(으)로 Typecast로 규칙을 정의하고 새 파생 필드에 저장합니다.
+`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 매출] 필드를 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL 정수]&#x200B;(으)로 Typecast로 규칙을 정의하고 새 파생 필드에 저장합니다.
 
 
 +++
