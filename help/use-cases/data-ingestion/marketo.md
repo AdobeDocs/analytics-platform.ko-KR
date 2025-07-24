@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 14%
+source-wordcount: '1059'
+ht-degree: 13%
 
 ---
 
@@ -29,17 +29,17 @@ Experience Platform의 사용 가능한 Marketo Engage 데이터 세트를 활�
 >
 
 
-Customer Journey Analytics에서 Marketo Engage 날짜에 대해 보고하려면:
+Customer Journey Analytics에서 Marketo Engage 데이터에 대해 보고하려면 다음을 수행하십시오.
 
 +++ &#x200B;1. Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 +++
 
 +++ &#x200B;2. Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Platform 연결 애플리케이션을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Platform 연결 애플리케이션을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 +++
 
@@ -137,3 +137,6 @@ Marketo Engage과 Customer Journey Analytics 간의 보고 기능에 대한 빠�
 | **사용자 지정 보고 및 유연성** | 프로그램 및 계정 딥 다이빙용 고급 BI(추가 기능). | 사용 가능한 모든 데이터를 사용하여 사용자 지정 작업 공간, 대시보드 또는 보고서를 작성하는 방식의 유연성이 뛰어납니다. |
 | **대상 분석** | 프로그램 목록, 참여 및 스마트 목록을 필터링하고 세그먼트화합니다. | 풍부한 성향 및 여정 시각화, 대상 경로 지정 및 세그먼트 중복 분석. |
 | **의도한 사용자** | 마케터, 마케팅 운영자, 수요 창출 작업자, 수익 담당자. | 분석가, 데이터 과학자, 마케팅 전략가, 고객 경험 전문가. |
+| **지표 중복 제거** | 이메일 성과 보고서의 경우 지표는 잠재 고객 ID, 캠페인 ID 및 이메일 자산 ID별로 자동으로 중복 제거됩니다. 동일한 이메일 에셋에서 여러 이메일을 만든 경우 동일한 프로그램에서 동일한 리드로 전송되면 이러한 이메일은 하나만 계산됩니다. | 추가 필터 및 지표를 적용하지 않으면 [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 없이 이메일 보고 데이터가 총 이메일 성능 횟수로 보고됩니다. |
+
+{style="table-layout:fixed"}
