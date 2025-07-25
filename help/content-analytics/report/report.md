@@ -6,9 +6,9 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: 51b3d533ef7b42ff03823f2dffcb2ccfbb9c4bbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Content Analytics에 대한 보고를 처음부터 시작하려면:
 1. Workspace에서 [새 프로젝트를 만들거나](/help/analysis-workspace/build-workspace-project/create-projects.md) [기존 프로젝트를 엽니다](/help/analysis-workspace/build-workspace-project/open-projects.md).
 1. Content Analytics 보고를 위해 [데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 선택해야 합니다. Content Analytics 보고는 Content Analytics에 대해 [구성된](/help/content-analytics/config/configuration.md) 데이터 보기에서만 사용할 수 있습니다.
 1. 캔버스에 ![테이블](/help/assets/icons/Table.svg) [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 끌어다 놓습니다.
-1. [특정 Content Analytics 구성 요소](components.md)와 기타 일반 [구성 요소](/help/components/overview.md)(세그먼트, 날짜 범위, 주석 등)를 사용하여 Content Analytics 인사이트를 구축합니다.
+1. [특정 Content Analytics 구성 요소](components.md)와 기타 일반 [구성 요소](/help/components/overview.md)(세그먼트, 날짜 범위, 주석 등)를 사용하여 Content Analytics 인사이트를 빌드합니다.
 
 ## 썸네일
 
@@ -65,7 +65,7 @@ Content Analytics [템플릿](/help/analysis-workspace/templates/use-templates.m
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
+1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
@@ -155,5 +155,5 @@ Content Analytics는 AI와 생성형 AI를 사용하여 피사체, 장면, 전�
 >[!MORELIKETHIS]
 >
 >[Content Analytics 구성 요소](components.md)
->&#x200B;>[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
