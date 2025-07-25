@@ -6,12 +6,12 @@ exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 98%
+source-wordcount: '1076'
+ht-degree: 96%
 
 ---
 
-# 미디어 재생 체류 시간 패널 {#media-playback-time-spent-panel}
+# 미디어 재생 소요 시간 패널 {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!NOTE]
 >
 >미디어 평균 분당 시청 대상자 패널은 Customer Journey Analytics용 스트리밍 미디어 컬렉션 추가 기능을 구매한 고객에게만 제공됩니다.
->&#x200B;>자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
+>>자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
 >
 
 **[!UICONTROL 미디어 재생 소요 시간]** 패널은 최대 동시 시청과 분류 및 비교 기능에 대한 세부 정보와 함께 시간 경과에 따른 재생을 분석할 수 있습니다.
@@ -91,7 +91,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 | 패널 요약 숫자 | 재생 소요 시간의 날짜 또는 시간 세부 정보를 보려면 요약 숫자를 사용할 수 있습니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 선택에 소요된 총 재생 시간을 합산합니다. 패널 기본값은 최대값만 표시하지만 최소값, 합계 또는 세 가지 조합을 표시하도록 변경할 수 있습니다.<br>분류를 사용하는 경우 각각에 대한 요약 숫자가 표시됩니다. |
 | 시리즈 분류 | 필요에 따라 세그먼트, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류할 수 있습니다.<p>- 한 번에 최대 10개의 줄을 볼 수 있습니다. 분류는 단일 수준으로 제한됩니다.</p><p>- 차원을 끌어오면 선택한 패널 날짜 범위를 기반으로 최상위 차원 항목이 자동으로 선택됩니다.</p>- 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 시리즈 분류 세그먼트로 끌어옵니다. |
 | 시간 형식 | `Hours:Minutes:Seconds`(기본값) 또는 `Minutes`(0.5로 반올림된 정수로 표시됨)으로 소요된 재생 시간을 볼 수 있습니다. |
-| 날짜 시퀀스 표시 | 두 개 이상의 날짜 범위 세그먼트를 시리즈 분류로 배치한 경우 오버레이(기본값) 또는 순차적 중에서 선택하는 옵션이 표시됩니다. 오버레이는 공통 x축으로 시작하는 선을 표시하여 병렬로 실행되는 반면, 순차적 옵션은 특정 x축으로 시작하는 선을 표시합니다. 데이터가 정렬되면(예: 세그먼트 1이 오후 8시 44분에 끝나고 세그먼트 2가 오후 8시 45분에 시작됨) 선이 순차적으로 표시됩니다. |
+| 날짜 시퀀스 표시 | 두 개 이상의 날짜 범위 세그먼트를 시리즈 분류로 배치한 경우 오버레이(기본값) 또는 순차적 중에서 선택하는 옵션이 표시됩니다. 오버레이는 공통 x축으로 시작하는 선을 표시하여 병렬로 실행되는 반면, 순차적 옵션은 특정 x축으로 시작하는 선을 표시합니다. 데이터가 정렬되면(예: 세그먼트 1이 오후 8:44에 끝나고 세그먼트 2가 오후 8:45에 시작됨) 선이 순차적으로 표시됩니다. |
 
 
 ![미디어 플레이북 소요 시간 기본 보기.](assets/mpts_default_view.png)
@@ -129,6 +129,6 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
->&#x200B;>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+>>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
 >
