@@ -4,20 +4,14 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2130'
+ht-degree: 100%
 
 ---
 
 # 패널 개요 {#panels-overview}
-
->[!CONTEXTUALHELP]
->id="workspace_panel_realtime_refresh"
->title="실시간 새로 고침"
->abstract="이 패널에서 데이터와 시각화를 실시간으로 새로 고칠 수 있습니다."
-
 
 [!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)에서 패널에 액세스할 수 있습니다. 패널은 기간, 데이터 보기 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우에 유용합니다.
 
@@ -33,7 +27,7 @@ ht-degree: 0%
 | [자유 형식](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
 | [미디어 평균 분당 시청 대상자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 시청 대상자를 분석합니다. |
 | [미디어 동시 뷰어](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
-| [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생하는 위치 또는 시청 감소가 발생하는 위치를 파악합니다. |
+| [미디어 재생 체류 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 체류 시간 분석을 통해 최대 동시 시청이 발생하는 위치 또는 시청 감소가 발생하는 위치를 파악합니다. |
 | [다음 또는 이전 항목](next-previous.md) | 사용자가 이동하는 다음 또는 이전 페이지를 표시합니다. |
 | [빠른 인사이트](quickinsight.md) | 인사이트를 더 빨리 분석하고 발견하려면 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 빌드합니다. |
 
@@ -83,7 +77,7 @@ ht-degree: 0%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**&#x200B;으로 식별됩니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**으로 식별됩니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -134,7 +128,7 @@ ht-degree: 0%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -161,7 +155,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
