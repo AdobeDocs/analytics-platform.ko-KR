@@ -1,13 +1,13 @@
 ---
 title: 고급 함수
-description: 고급 계산된 지표 함수에 대해 알아봅니다.
+description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '5241'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다. 이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다.
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다.
 
 
 ## And {#and}
@@ -39,13 +39,13 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="And"
->abstract="논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리곱. 0과 같지 않음은 참로 간주되고 0과 같음은 거짓로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
-논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
+논리곱. 0과 같지 않음은 참로 간주되고 0과 같음은 거짓로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -661,7 +661,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-if"
 >title="조건"
->abstract="조건 매개변수 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
+>abstract="조건 매개변수 값이 0이 아닌 경우(참) 결과는 value_if_참 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -990,13 +990,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="아님"
->abstract="부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="부울로 부정을 표시합니다. 출력은 0(거짓) 또는 1(참)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(논리적)]**
 
-부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다.
+부울로 부정을 표시합니다. 출력은 0(거짓) 또는 1(참)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1038,14 +1038,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="또는"
->abstract="논리합. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리합. 0과 같지 않음은 참로 간주되고 0과 같음은 거짓로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
+[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 참로 간주되고 0과 같음은 거짓로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 
 | 인수 | 설명 |
