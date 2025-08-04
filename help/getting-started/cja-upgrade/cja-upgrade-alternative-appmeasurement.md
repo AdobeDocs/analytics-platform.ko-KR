@@ -84,7 +84,7 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
       |----------|---------|
       | <p>Adobe Analytics 스키마 사용의 장점은 다음과 같습니다.</p><ul><li>업그레이드의 용이성<p>이미 Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics로 데이터를 전송하고 있는 경우 데이터스트림에 서비스를 추가하여 Adobe Experience Platform으로 데이터를 전송할 수 있습니다(이 서비스는 Customer Journey Analytics 구성에서 사용할 수 있음).</p></li></ul> | <p>Adobe Analytics 스키마 사용의 단점은 다음과 같습니다.</p><ul><li>Adobe Analytics 스키마를 사용하면 다른 Platform 애플리케이션과 함께 사용할 수 있다는 점에서 제한이 없지만 다른 방식보다 더 복잡한 스키마를 만들 수 있습니다. Adobe Analytics 스키마에는 조직에서 사용할 가능성이 낮은 Adobe Analytics에만 국한된 오브젝트가 많이 포함되어 있기 때문입니다.<p>스키마 변경이 필요할 때 업데이트가 필요한 필드를 찾기 위해 수천 개의 사용되지 않은 필드를 선별해야 합니다.</p></li></ul> |
 
-+++
+      +++
 
       +++XDM 스키마 만들기
 
@@ -92,7 +92,7 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
       |----------|---------|
       | <ul><p>자체 XDM 스키마를 업데이트하는 것의 장점은 다음과 같습니다.</p><ul><li>조직의 요구와 사용하는 특정 Platform 애플리케이션에 맞춘 간소화된 스키마.</li><p>스키마 변경이 필요할 때 업데이트가 필요한 필드를 찾기 위해 수천 개의 사용되지 않은 필드를 선별해야 할 필요가 없습니다.</p></ul> | <p>자체 XDM 스키마를 업데이트하는 것의 단점은 다음과 같습니다.</p><ul><li>스키마를 업데이트하는 것은 Platform으로 데이터를 전송하기 전에 필요한 시간이 많이 소요되는 프로세스입니다.</li></ul> |
 
-+++
+      +++
 
    1. 데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.
 
