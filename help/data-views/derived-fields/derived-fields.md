@@ -655,7 +655,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 |  | 제한 |
 |:---:|----|
-| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 ] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
+| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 &#x200B;] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
 | **B** | 규칙에서 *설정*&#x200B;한 모든 값은 동일한 컨테이너에서 시작되어야 하며 동일한 유형이거나 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
 | **C** | 규칙의 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우] 구조에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작할 필요가 *없으며* 동일한 유형이지 *않아도* 됩니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
 
@@ -922,7 +922,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ### 파생 필드 {#datemath-uc1-derivedfield}
 
-`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와(과) [!DNL Person]체크인 날짜[!UICONTROL  사이의 ]범위에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을(를) [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다. [!UICONTROL 예약 날짜]와(과) [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을(를) 선택하여 마지막 사용자 범위 값이 계산에 사용되도록 합니다.
+`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와(과) [!DNL Person]체크인 날짜[!UICONTROL &#x200B; 사이의 &#x200B;]범위에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을(를) [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다. [!UICONTROL 예약 날짜]와(과) [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을(를) 선택하여 마지막 사용자 범위 값이 계산에 사용되도록 합니다.
 
 ![날짜 계산 규칙의 스크린샷](assets/datemath-1.png)
 
@@ -942,8 +942,8 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 세션 내의 고객이 주문하기 전에 검색 시간을 분 단위로 이해하려고 합니다.
 
-`Time Between Search And Order In Minutes`검색 시간[[!UICONTROL  및 ]주문 시간](#case-when) 값을 정의하기 위해 두 개의 [!UICONTROL CASE WHEN] 함수[!UICONTROL 의 결과인 새 ] 파생 필드를 정의합니다.
-그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]이 [!UICONTROL 세션], 값이 [!UICONTROL 검색 시간], [!UICONTROL 주문 시간], [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 [!UICONTROL 날짜 계산] 함수의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 ] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
+`Time Between Search And Order In Minutes`검색 시간[[!UICONTROL &#x200B; 및 &#x200B;]주문 시간](#case-when) 값을 정의하기 위해 두 개의 [!UICONTROL CASE WHEN] 함수[!UICONTROL 의 결과인 새 &#x200B;] 파생 필드를 정의합니다.
+그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]이 [!UICONTROL 세션], 값이 [!UICONTROL 검색 시간], [!UICONTROL 주문 시간], [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 [!UICONTROL 날짜 계산] 함수의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 &#x200B;] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
 
 날짜 계산 규칙 3의 ![스크린샷](assets/datemath-3.png)
 
@@ -1347,7 +1347,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 1. 다른 필드 또는 정적 값이 따라오는 피연산자(예: 곱하기는 `*`)를 추가합니다. 더 복잡한 수식을 정의하려면 괄호를 사용할 수 있습니다.
 
-1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 -*x*를 선택합니다.
+1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;**으로**&#x200B;[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]&#x200B;**으로**&#x200B;더하기 -*x*를 선택합니다.
    ![수학 자세히 정보 2](assets/math-more-info-2.png)
 
 1. 녹색 체크 표시 ![체크 표시](./assets/checkmark.svg)</span>는 수학 공식이 유효한지 여부를 나타내며 그렇지 않으면 ![경고](./assets/alert.svg)가 표시되고 [!UICONTROL 잘못된 수식 표현]이라는 메시지가 나타납니다.
@@ -1360,9 +1360,11 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 - 수식에서 여러 정적 값을 사용하는 경우, 수식을 유효하게 하려면 이러한 정적 값을 괄호를 사용하여 그룹화해야 합니다. 예:
 
    - 이 수식은 오류를 반환합니다.
+
      ![수학 자세히 정보 4](assets/math-more-info-4.png)
 
    - 이 수식은 유효합니다.
+
      ![수학 자세히 정보 5](assets/math-more-info-5.png)
 
 히트 수준 기반 계산에 수학 함수를 사용합니다. [요약](#summarize) 함수를 사용하여 이벤트, 세션 또는 개인 범위 기반 계산이 가능합니다.
@@ -1699,7 +1701,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ![분할 규칙의 스크린샷 - 첫 번째 값](assets/split-2.png)
 
-오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 ] 파생 필드를 만듭니다.
+오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 &#x200B;] 파생 필드를 만듭니다.
 
 ![분할 규칙의 스크린샷 - 마지막 값](assets/split-3.png)
 
@@ -1944,7 +1946,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 ### 파생 필드 {#typecast-uc1-derivedfield}
 
-`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL Typecast에서 ] [!UICONTROL String]&#x200B;([!UICONTROL 화면 높이]) 필드에 대한 규칙을 정의하고 이를 새 파생 필드에 저장합니다.
+`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL String]&#x200B;([!UICONTROL 화면 높이]) 필드에 대한 규칙을 정의하고 이를 새 파생 필드에 저장합니다.
 
 ![Typecast 규칙 1](assets/typecast-1.png)의 스크린샷
 
@@ -1959,7 +1961,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 ### 파생 필드 {#typecast-uc2-derivedfield}
 
-`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 매출] 필드를 [!UICONTROL Typecast에서 ] [!UICONTROL 정수]&#x200B;(으)로 Typecast로 규칙을 정의하고 새 파생 필드에 저장합니다.
+`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 매출] 필드를 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL 정수]&#x200B;(으)로 Typecast로 규칙을 정의하고 새 파생 필드에 저장합니다.
 
 
 +++
