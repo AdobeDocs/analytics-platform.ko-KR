@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: 27e09c893c45f445d9344c1cc5132960060bf032
 workflow-type: tm+mt
-source-wordcount: '2456'
-ht-degree: 89%
+source-wordcount: '2521'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +90,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer와 함께 사용할, Customer Journey Analytics의 관련 연결에 포함된 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하여 주는 추가 사용자 정의를 만듭니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li><li>이 옵션을 선택하면 데이터 보기와 관련된 연결을 삭제할 수 없습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
+| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer와 함께 사용할, Customer Journey Analytics의 관련 연결에 포함된 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li><li>이 데이터 보기와 연결된 연결에서 **[!UICONTROL CJA에서 사용]** 옵션을 자동으로 사용하도록 설정합니다. (이 옵션에 대한 자세한 내용은 [Customer Journey Analytics에서 Journey Optimizer 연결 사용](/help/connections/manage-connections.md)을 참조하세요.)<p>이 설정을 사용하도록 설정한 후 수동으로 사용하지 않도록 설정하면 연결 및 연결된 데이터 보기가 기본 상태로 다시 설정됩니다. 이로 인해 보고서에 데이터가 변경될 수 있습니다.</p></li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하여 주는 추가 사용자 정의를 만듭니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li><li>이 옵션을 선택하면 데이터 보기와 관련된 연결을 삭제할 수 없습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
 
 {style="table-layout:auto"}
 
@@ -100,9 +100,9 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 | 설정 | 설명 |
 | --- | --- |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 글로벌 계정 컨테이너 이름&#x200B;]** | `Global Account`(기본값). [!UICONTROL 글로벌 계정] 컨테이너에는 지정된 시간대 내의 글로벌 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 계정 컨테이너 이름&#x200B;]** | `Account`(기본값). [!UICONTROL 계정] 컨테이너에는 지정된 시간대 내의 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 기회 컨테이너 이름&#x200B;]** | `Opportunity`(기본값). [!UICONTROL 기회] 컨테이너에는 지정된 시간대 내의 기회에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 컨테이너 이름&#x200B;]** | `Global Account`(기본값). [!UICONTROL 글로벌 계정] 컨테이너에는 지정된 시간대 내의 글로벌 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 컨테이너 이름&#x200B;]** | `Account`(기본값). [!UICONTROL 계정] 컨테이너에는 지정된 시간대 내의 계정에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 기회 컨테이너 이름&#x200B;]** | `Opportunity`(기본값). [!UICONTROL 기회] 컨테이너에는 지정된 시간대 내의 기회에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
 | [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}<br/>**[!UICONTROL 구매 그룹 컨테이너 이름&#x200B;]** | `Buying Group`(기본값). [!UICONTROL 구매 그룹] 컨테이너에는 지정된 시간대 내의 구매 그룹에 대한 모든 세션 및 이벤트가 포함됩니다. 조직에서 다른 용어를 사용하는 경우 여기에서 컨테이너 이름을 바꿀 수 있습니다. |
 | **[!UICONTROL 개인 컨테이너 이름]** | `Person`(기본값). [!UICONTROL 개인] 컨테이너에는 지정된 시간대 내의 개인에 대한 모든 세션 및 이벤트가 포함됩니다. 조직이 서로 다른 용어(예: “방문자” 또는 “사용자”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 | **[!UICONTROL 세션 컨테이너 이름]** | `Session`(기본값). [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다. 이 컨테이너의 이름을 ‘방문’ 또는 조직이 원하는 다른 용어로 바꿀 수 있습니다. |
@@ -141,7 +141,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
 1. 특정 스키마 필드를 찾거나 파생 필드를 정의하면 ![Handle icon](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
-동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 제목이 `Product Pages`이고 제목이 `Error pages`인 차원을 만들 수 있습니다.
+동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 `Product Pages`구성 요소 설정`Error pages`을 사용하여 제목이 [이고 제목이 ](component-settings/overview.md)인 차원을 만들 수 있습니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 폴더의 필드가 자동으로 적절한 섹션으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 섹션에 모든 스키마 필드가 추가됩니다.
 
 1. 한 가지 구성 요소를 선택하면 오른쪽에 설정이 나타납니다.
