@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bf5d809588c7a0b2e7a97470c99a0f2565d6f713
+source-git-commit: 8f49855b508c3e5ea58979e14fd2aa9c2b3c9b9e
 workflow-type: tm+mt
-source-wordcount: '7413'
+source-wordcount: '7269'
 ht-degree: 67%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/3409302/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 경험 만들기 및 편집](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -178,8 +178,8 @@ ht-degree: 67%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -224,8 +224,8 @@ ht-degree: 67%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -449,7 +449,7 @@ ht-degree: 67%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. [데이터 집합 편집: ](#dataset-settings)데이터 집합 이름&#x200B;**[!UICONTROL 대화 상자에서 _데이터 집합 설정_]**&#x200B;을 구성하십시오.
+1. [데이터 집합 편집: ](#dataset-settings)데이터 집합 이름&#x200B;**[!UICONTROL 대화 상자에서 _데이터 집합 설정_]**을 구성하십시오.
 
    ![데이터 세트 편집](assets/edit-dataset.png)
 
@@ -610,7 +610,7 @@ ht-degree: 67%
 
 ### 이전 채우기
 
-인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**&#x200B;대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
+인터페이스에서 ![내역](/help/assets/icons/History.svg) **[!UICONTROL 지난 다시 채우기]**&#x200B;를 선택하면 **[!UICONTROL 지난 다시 채우기: _데이터 집합 이름_]**대화 상자에 데이터 집합에서 가장 최근 다시 채우기가 표시됩니다.
 
 ## 데이터 세트 유형 {#dataset-types}
 
@@ -704,17 +704,8 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 2. Adobe Experience Platform에 있는 모든 데이터 세트를 표시하려면 `Show Tables` 쿼리를 수행하십시오.
 
 
-## 대규모 조회 데이터 세트의 알고리즘 가지치기
-
-연결을 만들 때 조회 목적으로 대규모 데이터 세트를 추가할 수 있습니다. 예를 들면 보고서 및 시각화를 빌드할 때 제품 설명 정보를 조회할 수 있도록 제품 카탈로그를 나타내는 데이터 세트가 있습니다. 이러한 대규모 조회 데이터 세트는 현재 가드레일로 구현된 최대 1,000만 회의 고유 조회수를 초과할 수 있으며 이 경우 추가 데이터는 건너뛰게 됩니다.
-
-사용자는 대규모 조회 데이터 세트의 알고리즘 가지치기를 요청할 수 있습니다. 이 알고리즘을 통한 정리는 이벤트 데이터 세트의 주요 사항과 일치하는 조회 데이터 세트의 데이터만 유지합니다. 이렇게 하면 정리되지 않은 전체 조회 데이터 세트를 로드할 필요가 없습니다. 보고서에 거의 영향을 주지 않는 오래되었거나 자주 사용되지 않는 항목이 제거되지만 이는 상당한 이점을 제공합니다. 알고리즘은 최대 90일 이전까지 적용되며 매주 업데이트됩니다.
-
-보다 자세한 내용을 알아보고 이 기능을 활성화하려면 Adobe 지원 팀에 문의하십시오.
-
-
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ![공유](/help/assets/icons/Share.svg)
