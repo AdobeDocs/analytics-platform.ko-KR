@@ -1,16 +1,16 @@
 ---
-description: 컨테이너 계층 논리, 규칙 및 연산자를 기반으로 사용자 지정 지표를 만들기 위해 차원, 지표, 세그먼트 및 함수를 드래그하여 놓을 수 있는 캔버스를 제공하는 계산된 지표 빌더에 대해 알아봅니다.
-title: 지표 작성
+description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 정의 지표를 만들 수 있는 캔버스를 제공함을 알아봅니다.
+title: 지표 빌드
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 계산된 지표 작성 {#build-metrics}
+# 계산된 지표 빌드 {#build-metrics}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
@@ -200,5 +200,5 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 >[!MORELIKETHIS]
 >
 >[함수 사용](cm-using-functions.md)
->&#x200B;>[세그먼트](/help/components/segments/seg-overview.md)
+>>[세그먼트](/help/components/segments/seg-overview.md)
 >
