@@ -240,7 +240,7 @@ ht-degree: 100%
       + [자유 형식](../analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 체류 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [미디어 재생 소요 시간](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](../analysis-workspace/c-panels/next-previous.md)
       + [빠른 인사이트](../analysis-workspace/c-panels/quickinsight.md)
    + 선별 및 공유 {#curate-share}
@@ -277,7 +277,7 @@ ht-degree: 100%
       + [요구 사항](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [접근성](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ 콘텐츠 분석 {#content-analytics}
++ Content Analytics {#content-analytics}
    + [개요](/help/content-analytics/content-analytics.md)
    + 보고서 {#report}
       + [개요](/help/content-analytics/report/report.md)
