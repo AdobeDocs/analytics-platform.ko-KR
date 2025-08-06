@@ -3,9 +3,9 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 71974e607b0924796c4413a4d092f7afd643d32f
+source-git-commit: 379cf7af9bf6722fd483a9c0639fc6b294c398a4
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 81%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 81%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analysis Workspace 프로젝트에 댓글 추가 및 보기** | Analysis Workspace에 새롭게 추가된 [댓글 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)을 통해 Analysis Workspace 프로젝트의 컨텍스트 내에서 인사이트를 공유하고 질문할 수 있습니다. 이 기능은 논의 중인 데이터의 컨텍스트 내에서 대화를 유지함으로써 데이터 관련 논의를 간소화할 수 있도록 합니다. 다음과 같은 작업을 수행할 수 있습니다. <ul><li>액세스 권한이 있는 Analysis Workspace 프로젝트에서 댓글 달기</li><li>시각화 내 특정 지점에 대해 댓글을 달거나 프로젝트 전반에 대한 일반적인 댓글 달기</li><li>다른 사용자를 태그하여 댓글에 대한 알림 전송</li><li>기존 댓글 관리 (편집, 고정, 해결 등)</li></ul>Customer Journey Analytics의 관리자는 [조직 수준에서 댓글 기능을 비활성화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)할 수 있습니다. 프로젝트 소유자는 [프로젝트 수준에서 댓글 기능을 비활성화](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)할 수 있습니다. | 2025년 6월 25일 | 2025년 7월 22일 <p>(이전 2025년 5월 29일)</p> |
-| **PDF로 다운로드된 프로젝트가 워크스테이션에 다운로드됨** | 프로젝트를 PDF로 다운로드하면 해당 PDF는 워크스테이션의 다운로드 폴더에 다운로드됩니다. 이전에는 프로젝트를 PDF로 다운로드하면 고유한 URL이 있는 새 브라우저 탭에서 PDF가 실행되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/export/download-send) | | TBD |
+| **PDF로 다운로드된 프로젝트가 워크스테이션에 다운로드됨** | 프로젝트를 PDF로 다운로드하면 해당 PDF는 워크스테이션의 다운로드 폴더에 다운로드됩니다. 이전에는 프로젝트를 PDF로 다운로드하면 고유한 URL이 있는 새 브라우저 탭에서 PDF가 실행되었습니다. (참조할 설명서 링크) | | 2025년 8월 25일 화요일 |
 | **파생 필드 - 데이터 수학 함수** | [날짜 계산](/help/data-views/derived-fields/derived-fields.md#date-math) 파생 필드 함수는 두 날짜 또는 날짜-시간 필드 간의 차이를 반환하는 기능을 제공합니다. | 2025년 8월 4일 화요일 | 2025년 8월 8일 토요일 |
 | **파생 필드 - 깊이 함수** | [Depth](/help/data-views/derived-fields/derived-fields.md#depth) 파생 필드 함수는 기본 제공 표준 이벤트 깊이 차원으로 가능한 것과 유사한 필드의 깊이를 반환할 수 있는 기능을 제공합니다. | 2025년 8월 4일 화요일 | 2025년 8월 8일 토요일 |
 | **파생 필드 - 타입캐스트 함수** | [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast) 파생 필드 함수를 사용하면 필드 형식을 즉시 변경하고, Customer Journey Analytics 내에서 추가 변환에 사용할 수 있는 필드를 만들 수 있습니다. | 2025년 8월 4일 화요일 | 2025년 8월 8일 토요일 |
@@ -48,7 +48,7 @@ ht-degree: 81%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
