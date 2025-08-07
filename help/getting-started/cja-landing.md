@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Customer Journey Analytics B2B Edition은 매출 성장을 촉진하는 실행 �
 
 >[!TAB 파생 필드 함수]
 
-새로 파생된 필드 함수: [데이터 계산](/help/data-views/derived-fields/derived-fields.md#date-math), [깊이](/help/data-views/derived-fields/derived-fields.md#depth) 및 [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast).
+새로운 파생 필드 함수: [날짜 계산](/help/data-views/derived-fields/derived-fields.md#date-math), [깊이](/help/data-views/derived-fields/derived-fields.md#depth), [타입캐스트](/help/data-views/derived-fields/derived-fields.md#typecast).
 
 [![이미지](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -197,4 +197,4 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
+<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
