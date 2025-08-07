@@ -4,7 +4,7 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1b52969f178a31ef90f1969f3a1637258a480c57
+source-git-commit: df069a7a67c65db9eb70900869495202f63abd05
 workflow-type: tm+mt
 source-wordcount: '20276'
 ht-degree: 97%
@@ -1071,7 +1071,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >abstract="**이를 통해**&#x200B;계정 수준에서 참여 트렌드가 증가 또는 감소하는지 여부를 더 잘 이해하고, 계정 간의 활동을 비교하고, 보존 또는 획득 노력에 집중할 위치를 결정할 수 있습니다.<br/>**학습한 내용에 따라** 참여도는 낮지만 계정의 중요성으로 인해 더 많은 주의가 필요한 계정에 집중하는 등 여러 가지 작업을 수행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
->id="cja-template--b2b-opportunity-enagement"
+>id="cja-template--b2b-opportunity-engagement"
 >title="영업 기회 수준에서 참여를 추적하고 영향력을 얻거나 잃는 실제 거래를 추적합니다."
 >abstract="**이를 통해**&#x200B;보다 정확하게 거래 진행을 예측하고 참여 급증 또는 중단 시 집중 지원을 받을 수 있습니다.<br/>**학습한 내용에 따라** 거의 종료된 거래에 대해 추가적인 노력을 기울이고 다른 거래가 왜 인기를 잃는지 조사하는 등 여러 가지 작업을 수행할 수 있습니다."
 
