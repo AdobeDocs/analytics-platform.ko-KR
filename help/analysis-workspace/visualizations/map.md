@@ -3,10 +3,8 @@ description: 지도 시각화를 사용하여 지리 지도 시각화에 데이�
 title: 맵
 feature: Visualizations
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: bee6c3420511dc944c74e9818d77f6424fcb9cc8
+source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 11%
@@ -47,7 +45,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
