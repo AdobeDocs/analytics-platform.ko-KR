@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
-workflow-type: ht
-source-wordcount: '2694'
-ht-degree: 100%
+source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
+workflow-type: tm+mt
+source-wordcount: '2709'
+ht-degree: 98%
 
 ---
 
@@ -112,9 +112,10 @@ ht-degree: 100%
 | **처리 규칙, VISTA 규칙, 마케팅 채널 처리 규칙** | Web SDK 기반 데이터 세트와 Analytics 소스 커넥터의 데이터 모두에 대해 Adobe Experience Platform Data Prep 기능과 [파생 필드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/derived-fields)를 사용하여 지원됩니다. |
 | **Products 변수** | Experience Platform 내에서 사용자는 데이터 세트 스키마 내의 오브젝트 배열을 사용하여 이 사용 사례를 충족할 수 있습니다. Customer Journey Analytics 내에서 고객은 다양한 제품 변수를 사용할 수 있으며 Adobe Analytics에서처럼 단일 변수로 제한되지 않습니다. |
 | **프로젝트 공유** | 프로젝트 공유는 Customer Journey Analytics 사용자 사이에서만 지원됩니다. Customer Journey Analytics와 기존 Analysis Workspace 간에 프로젝트를 공유할 수 없습니다. |
+| **실시간 보고** | Customer Journey Analytics의 실시간 보고는 Analysis Workspace에 있는 하나 이상의 패널 내에 데이터와 시각화를 실시간으로 표시하고 업데이트합니다. |
 | **Report Builder** | Microsoft Excel용 새로운 Office 365 플러그인으로 지원됩니다. |
 | **사용자 권한/데이터 액세스 제어** | Customer Journey Analytics는 [Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-tool-experience-cloud) 제품 관리자, 제품 프로필 관리자 및 사용자를 구별합니다. 제품 관리자만 다른 사용자가 생성한 연결, 프로젝트, 세그먼트 또는 계산된 지표를 생성, 업데이트 및 삭제할 수 있습니다. 제품 관리자와 제품 프로필 관리자는 데이터 보기를 편집할 수 있습니다. 계산된 지표, 세그먼트 또는 주석 만들기와 같은 작업에 추가적인 사용자 권한을 사용할 수 있습니다. |
-| **시각화** | 맵 시각화를 제외한 모든 Workspace 시각화가 지원됩니다. |
+| **시각화** | 모든 Workspace 시각화가 지원됩니다. |
 | **크로스 디바이스/크로스 채널 결합** | ID 정보가 포함된 이벤트 데이터 세트에 대해 지원됩니다. [결합](../../stitching/overview.md)을 참조하십시오. |
 
 ## 부분 지원 {#partial}
@@ -127,7 +128,6 @@ ht-degree: 100%
 
 | 기능 | 참고 |
 | --- | --- |
-| **실시간 보고** | 지원이 예정되어 있습니다. |
 | **거래 ID 데이터 소스** | 지원이 예정되어 있습니다. |
 
 ## 지원되지 않음. 향후 지원 계획 없음 {#not-planned}
