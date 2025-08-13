@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 3c3fd6b814485871f2fd9249b0ffa9a0b24a360c
-workflow-type: ht
+source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+workflow-type: tm+mt
 source-wordcount: '2371'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights 에이전트에 대한 액세스는 2025년 11월 30일에 종료됩니다. 중단 없이 Data Insights 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Data Insights 에이전트 라이선스에 대해 자세히 알아보십시오.
 
-Customer Journey Analytics의 AI 어시스턴트에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
+Customer Journey Analytics의 [AI Assistant](/help/ai-assistant.md)에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
 
 Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 중심 질문에 답하면 Analysis Workspace에서 시각화를 수작업으로 빌드하고 데이터 보기 구성 요소에 익숙해지는 데 드는 수많은 시간을 절약할 수 있습니다.
 

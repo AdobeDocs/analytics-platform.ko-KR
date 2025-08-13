@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
-workflow-type: ht
-source-wordcount: '604'
-ht-degree: 100%
+source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,17 @@ Customer Journey Analytics용 AI 어시스턴트는 모든 제품 계층에서 �
 
 ## 제품 지식 {#knowledge}
 
-제품 지식 검색 모델은 Customer Journey Analytics를 기반으로 학습됩니다. 데이터 분석 등의 다른 기능도 나중에 출시될 예정입니다.
-
 | 제품 지식 | 예 |
 | --- | --- |
 | 구체적인 학습 | <ul><li>Adobe Analytics와 Customer Journey Analytics의 차이점은 무엇입니까?</li><li>계산된 지표를 어떻게 작성합니까?</li></ul> |
 | 공개 검색 | <ul><li>Workspace 프로젝트를 어떻게 내보낼 수 있습니까?</li><li>중복된 Workspace 구성 요소를 어떻게 찾을 수 있습니까?</li></ul> |
 | 문제 해결 | <ul><li>데이터가 CJA에 들어오는 데 얼마나 걸립니까?</li><li>Customer Journey Analytics 연결에는 몇 개의 파생 필드를 가질 수 있습니까?</li></ul> |
+
+## 데이터 분석
+
+Customer Journey Analytics의 AI 어시스턴트에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
+
+AI Assistant 내에서 Data Insights Agent을 사용하는 방법에 대한 자세한 내용은 [Data Insights Agent으로 데이터 시각화](/help/data-analysis-ai.md)를 참조하십시오.
 
 ## 기능 액세스
 
