@@ -45,7 +45,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
 
 >[!ENDSHADEBOX]
 
