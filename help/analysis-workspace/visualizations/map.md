@@ -4,9 +4,9 @@ title: 맵
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
+source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2761'
 ht-degree: 11%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
@@ -112,13 +112,13 @@ Adobe은 맵 시각화를 사용하는 몇 가지 [미리 작성된 템플릿](/
 
 1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
 
-1. 데이터 보기 페이지에서 맵 시각화를 사용하는 미리 작성된 템플릿으로 분석할 데이터가 포함된 데이터 보기를 선택합니다. 이 데이터 보기에서 국가 데이터가 있는 차원, 지역 데이터가 있는 차원, 도시 데이터가 있는 차원, 주 데이터가 있는 차원 및 DMA 데이터가 있는 차원 등 5개를 선택합니다. 그런 다음 해당 컨텍스트 레이블로 차원에 레이블을 지정합니다.
+1. 데이터 보기 페이지에서 맵 시각화를 사용하는 미리 작성된 템플릿으로 분석할 데이터가 포함된 데이터 보기를 선택합니다. 이 데이터 보기에서 국가 데이터가 있는 차원, 지역 데이터가 있는 차원, 도시 데이터가 있는 차원, 주 데이터가 있는 차원 및 DMA 데이터가 있는 차원 등 5개 차원을 선택합니다. 그런 다음 해당 컨텍스트 레이블로 차원에 레이블을 지정합니다.
 
 1. **[!UICONTROL 구성 요소]** 탭을 선택합니다.
 
 1. (조건부) 웹 SDK을 사용하고 있고 데이터 스트림에 지리 필드를 채우도록 구성했거나 Analytics Source 커넥터를 사용하여 이벤트 데이터를 채우는 경우, 지리 필드를 스키마에서 이미 사용할 수 있고 올바른 컨텍스트 레이블로 채워야 합니다.
 
-   **[!UICONTROL 구/군/시]**, **[!UICONTROL 우편 번호]**, **[!UICONTROL 시/도]**(**[!UICONTROL 이벤트 데이터 세트]** > **[!UICONTROL placeContext]** > **[!UICONTROL 지역]**&#x200B;에서)와 같은 적절한 스키마 필드를 찾아 아직 없는 경우 차원으로 데이터 보기에 끌어서 놓습니다.
+   **[!UICONTROL 구/군/시]**, **[!UICONTROL 우편 번호]**, **[!UICONTROL 시/도]**(**[!UICONTROL 이벤트 데이터 세트]** > **[!UICONTROL placeContext]** > **[!UICONTROL 지역]**&#x200B;에서)와 같은 적절한 스키마 필드를 찾은 다음 아직 없는 경우 차원으로 데이터 보기에 끌어서 놓습니다.
 
    이러한 스키마 필드가 데이터 보기에 차원으로 존재하면 해당 컨텍스트 레이블이 자동으로 적용되고 지역 템플릿에서는 추가 구성 없이 이 필드를 사용합니다.
 
@@ -153,7 +153,7 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 | 선택 항목에서 트렌드 만들기 | 맵 시각화에서 선택한 특정 영역을 기반으로 추세선 차트 시각화를 만듭니다. <p>자세한 내용은 [맵 시각화에서 추세선 차트 만들기](#create-a-trended-line-chart-from-the-map-visualization)를 참조하세요. <!-- is this correct? --> | 맵 시각화에서 트렌드를 만들 수 없습니다. |
 | 선택 항목에서 분류 추가 | 맵 시각화에서 선택한 특정 영역 내의 특정 차원 항목, 지표, 세그먼트 또는 날짜 범위를 분류합니다. <p>자세한 내용은 [맵 시각화에서 분류 추가](#add-a-breakdown-from-the-map-visualization)를 참조하십시오. | 맵 시각화에서 분류를 추가할 수 없습니다. |
 
-## 맵 시각화 빌드 시작 {#begin-building-map}
+## 맵 시각화 작성 {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -197,7 +197,7 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
 ## 맵 시각화 보기
 
-1. [맵 시각화 작성 시작](#begin-building-a-map-visualization)에 설명된 대로 맵 시각화를 작성하십시오.
+1. 아직 작성하지 않았다면 [맵 시각화 작성](#begin-building-a-map-visualization)에 설명된 대로 맵 시각화를 작성합니다.
 
 1. Analysis Workspace의 맵 시각화에서 다음 중 하나를 수행합니다.
 
@@ -250,7 +250,7 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
 맵 시각화에 대한 설정을 구성하려면 다음 작업을 수행하십시오.
 
-1. Analysis Workspace에서 기존 맵 시각화를 열거나 [새 맵 시각화를 만들기](#begin-building-a-map-visualization)합니다.
+1. Analysis Workspace에서 기존 맵 시각화를 열거나 [새 맵 시각화를 빌드](#begin-building-a-map-visualization)합니다.
 
 1. 맵 시각화 위로 마우스를 가져간 다음 시각화 헤더에서 설정 아이콘 ![설정](/help/assets/icons/Setting.svg)을 선택합니다.
 
