@@ -21,7 +21,7 @@ ht-degree: 82%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **맵 시각화** | 맵 시각화는 Analysis Workspace의 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있게 해주는 시각화 기능입니다. 지리적으로 다른 지역들의 지표 데이터를 식별하고 비교하는 데 유용합니다.<p>이전에는 Adobe Analytics에서만 맵 시각화 기능을 사용할 수 있었습니다.</p><p>Customer Journey Analytics의 맵 시각화에는 Adobe Analytics의 맵 시각화에서 다음과 같은 개선 사항이 포함되어 있습니다.</p><ul><li>데이터 보기의 모든 세그먼트를 데이터 소스로 사용합니다.</li><li>데이터 보기에서 차원을 구성하여 최대 1미터의 정확도를 얻을 수 있습니다.</li><li>새로운 선택 도구를 사용하면 시각화에서 선택한 모든 영역에서 세그먼트, 대상자, 트렌드 또는 분류를 생성할 수 있습니다.</li></ul><p>자세한 내용은 [맵](/help/analysis-workspace/visualizations/map.md)을 참조하십시오.</p> | 2025년 8월 13일 | 2025년 8월 25일 |
+| **맵 시각화** | 맵 시각화는 Analysis Workspace의 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 주는 시각화 기능입니다. 지리적으로 다른 지역들의 지표 데이터를 식별하고 비교하는 데 유용합니다.<p>이전에는 Adobe Analytics에서만 맵 시각화 기능을 사용할 수 있었습니다.</p><p>Customer Journey Analytics의 맵 시각화에는 Adobe Analytics의 맵 시각화에서 다음과 같은 개선 사항이 포함되어 있습니다.</p><ul><li>데이터 보기의 모든 세그먼트를 데이터 소스로 사용합니다.</li><li>데이터 보기에서 차원을 구성하여 최대 1미터의 정확도를 얻을 수 있습니다.</li><li>새로운 선택 도구를 사용하면 시각화에서 선택한 모든 영역에서 세그먼트, 대상자, 트렌드 또는 분류를 생성할 수 있습니다.</li></ul><p>자세한 내용은 [맵](/help/analysis-workspace/visualizations/map.md)을 참조하십시오.</p> | 2025년 8월 13일 | 2025년 8월 25일 |
 | **실시간 보고** | Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 이상의 패널 내에서 데이터와 시각화를 실시간으로 표시하고 업데이트합니다. | | 2025년 9월 17일(원래 2025년 8월 15일 릴리스 예정) |
 | **B2B 템플릿** | Customer Journey Analytics B2B Edition 라이선스를 구비하면 다음과 같은 추가 B2B 템플릿을 Adobe 템플릿 UI에서 사용할 수 있습니다. <ul><li>B2B 계정 참여 개요</li><li>B2B 기회 참여 개요</li><li>B2B 구매 그룹 활동</li></ul><p>(참조할 설명서 링크입니다.)</p> |  | 2025년 8월 15일 |
 | **PDF로 다운로드된 프로젝트가 워크스테이션에 다운로드됨** | 프로젝트를 PDF로 다운로드하면 해당 PDF는 워크스테이션의 다운로드 폴더에 다운로드됩니다. <p>이전에는 프로젝트를 PDF로 다운로드하면 고유한 URL이 있는 새 브라우저 탭에서 PDF가 실행되었습니다.</p><p>자세한 내용은 [프로젝트 및 데이터 다운로드](/help/analysis-workspace/export/download-send.md)를 참조하십시오.</p> |  | 2025년 8월 25일 |
@@ -55,7 +55,7 @@ ht-degree: 82%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
