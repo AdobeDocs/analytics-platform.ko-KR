@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 1c4342d91e0c939d596c9660ffc510c4698f8680
+source-git-commit: 8531c372607f39a3e39de8eda4f624057e56d9a4
 workflow-type: tm+mt
-source-wordcount: '2696'
-ht-degree: 98%
+source-wordcount: '2694'
+ht-degree: 97%
 
 ---
 
@@ -313,7 +313,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 * 콘텐츠 분석을 위해 데이터를 수집할 때 포함하거나 제외할 자산을 지정합니다.
 
-  **[!UICONTROL 포함/제외할 자산]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예를 들어 `^(?!.*(logo\.jpg|\.svg)).*$`를 지정하여 콘텐츠 분석에서 모든 로고 JPEG 및 SVG 이미지를 제외할 수 있습니다.
+  **[!UICONTROL 포함/제외할 자산]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 모든 로고 JPEG 이미지를 제외합니다.
 
 >[!IMPORTANT]
 >
