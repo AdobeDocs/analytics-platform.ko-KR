@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
+source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 
 ## 지연
 
-데이터 수집 방법에 따라 Customer Journey Analytics에 대한 실시간 보고의 실시간 지연 시간이 결정됩니다. 아래 그림과 표는 실시간 및 표준 보고를 사용할 때 다양한 데이터 수집 시나리오에 대한 대략적인 대기 시간을 보여 줍니다.
+데이터를 수집하는 방법에 따라 Customer Journey Analytics에서 실시간 보고의 지연 시간이 결정됩니다. 아래 그림과 표는 실시간 및 (비교를 위해) 표준 보고를 사용할 때 다양한 데이터 수집 시나리오에 대한 대략적인 대기 시간을 보여 줍니다.
 
 또한 실시간 보고에서는 표준 보고에 사용된 [통합(결합된) 데이터 세트](/help/connections/combined-dataset.md)와 완전히 별개인 통합 데이터 세트를 사용한다는 점을 강조합니다. [실시간 새로 고침 토글](use-real-time.md)을 사용하여 다음 항목 간에 전환합니다.
 
@@ -56,10 +56,11 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 
 | | 데이터 수집 | 실시간 보고 지연 | 표준 보고 지연 |
 |:---:|---|--:|--:|
-| 1 | Edge Network에 Edge Network SDK / API | &approx; &lt; 00h:06m:30 | &approx; &lt; 01h:35m:0 |
-| 2 | 스트리밍 커넥터 | &approx; &lt; 00h:16m:30 | &approx; &lt; 01h:45m:0 |
-| 3 | Adobe Analytics 소스 커넥터 | &approx; &lt; 00h:16m:30 | &approx; &lt; 01h:45m:0 |
-| 4 | 소스 커넥터에 연결된 기타 소스 커넥터(배치 데이터 포함) | &approx; &lt; 24h:01m:30s | &approx; &lt; 25h:30m:00s |
+| 1 | Edge Network에 Edge Network SDK / API | &amp;approx; &lt; 00h:06m:30 | &amp;approx; &lt; 01h:35m:0 |
+| 2 | 스트리밍 커넥터 | &amp;approx; &lt; 00h:16m:30 | &amp;approx; &lt; 01h:45m:0 |
+| 3 | Adobe Analytics 소스 커넥터 | &amp;approx; &lt; 00h:16m:30 | &amp;approx; &lt; 01h:45m:0 |
+| 4 | 소스 커넥터에 연결된 기타 소스 커넥터(배치 데이터 포함) | &amp;approx; &lt; 24h:01m:30s | &amp;approx; &lt; 25h:30m:00s |
+
 
 ## 제한 사항
 
@@ -67,8 +68,8 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 
 * 실시간 보고는 24시간의 롤링 기간 동안 사용 가능한 데이터에 대한 보고서만 제공합니다. 다음보다 큰 데이터   24시간 경과는 실시간 보고에 사용할 수 없습니다. 보고서에 대한 [실시간 새로 고침](use-real-time.md)이 비활성화되거나 자동으로 꺼지면 Customer Journey Analytics에서 보고에 일반적으로 사용되는 [통합 데이터 세트](/help/connections/combined-dataset.md)에서 모든 관련 데이터를 한 번 더 사용할 수 있습니다.
 * 속성, 세분화, 계산된 지표 등은 24시간의 롤링 기간 내에 사용 가능한 데이터에서만 작동합니다. 예를 들어, *재방문자* 세그먼트에는 지난 24시간 동안 여러 번 방문한 사람만 포함되므로 실시간 보고서에 극히 적은 수의 사람들이 포함됩니다. 더 이상 활성화되지 않은 캠페인을 이전에 클릭한 사람에 대한 실시간 보고서를 만들 때에도 유사한 제한이 적용됩니다.
-* 실시간 보고는 이벤트 및 세션 수준 데이터에 가장 잘 작동하며 사용자 수준 데이터에 대한 실시간 보고를 사용하는 것은 주의해야 합니다. <!--Need to explain this a bit better --> 연속 24시간 기간의 이벤트만 실시간 보고서에 사용할 수 있으므로 개인의 이벤트 내역도 이 창으로 제한됩니다. 차원 및 (계산된) 지표를 선택할 때에는 이벤트 및 세션 수준 데이터의 환경 설정을 고려하십시오. 또한 실시간 새로 고침이 활성화된 패널에서 분류, 다음 또는 이전 등과 같은 기능을 사용할 수도 있습니다.
-* 실시간 보고와 결합을 결합할 수 없습니다. <!-- Do we need to explain this in more detail, why? --> 실시간 보고는 이벤트 및 세션 수준 데이터에 대한 것으로 사용자 기반 데이터와는 관련성이 낮습니다.
+* 실시간 보고는 이벤트 및 세션 수준 데이터에 가장 잘 작동하며 사용자 수준 데이터에 대한 실시간 보고를 사용하는 것은 주의해야 합니다. 실시간 보고서에 롤링 24시간 기간의 이벤트만 사용할 수 있으므로 개인의 이벤트 내역도 이 창으로 제한됩니다. 차원 및 (계산된) 지표를 선택할 때에는 이벤트 및 세션 수준 데이터의 환경 설정을 고려하십시오. 또한 실시간 새로 고침이 활성화된 패널에서 분류, 다음 또는 이전 등과 같은 기능을 사용할 수도 있습니다.
+* 실시간 보고와 결합을 결합할 수 없습니다. 실시간 보고는 이벤트 및 세션 수준 데이터에 대한 것이며 사용자 기반 데이터와는 관련성이 낮습니다.
 * 미디어 시작 및 미디어 닫기 지표를 제외하고 하트비트 수집 미디어 지표를 사용할 수 없습니다. 따라서 여전히 실시간 보고를 사용하여 미디어 사용 사례를 활성화할 수 있습니다.
 * [다운로드 또는 내보내기 옵션](/help/analysis-workspace/export/download-send.md)을 사용하여 프로젝트를 다운로드하거나 자유 형식 테이블에서 데이터를 내보낼 때 다음 사항을 고려하십시오.
    * 다운로드한 CSV 프로젝트 또는 내보낸 CSV 파일에는 다운로드 또는 내보내기 시점에 사용할 수 있는 실시간 데이터가 포함됩니다.
