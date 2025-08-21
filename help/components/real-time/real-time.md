@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
+source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '723'
 ht-degree: 5%
 
 ---
@@ -54,12 +54,12 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 
 ![실시간 보고](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
-| | 데이터 수집 | 실시간 보고 지연 | 표준 보고 지연 |
+| | 데이터 수집 | 실시간 보고 대기 시간 <br/>(약). 보다 작음) | 표준 보고 대기 시간 <br/>(약). 보다 작음) |
 |:---:|---|--:|--:|
-| 1 | Edge Network에 Edge Network SDK / API | &approx; &lt; 00h:06m:30 | &approx; &lt; 01h:35m:0 |
-| 2 | 스트리밍 커넥터 | &approx; &lt; 00h:16m:30 | &approx; &lt; 01h:45m:0 |
-| 3 | Adobe Analytics 소스 커넥터 | &approx; &lt; 00h:16m:30 | &approx; &lt; 01h:45m:0 |
-| 4 | 소스 커넥터에 연결된 기타 소스 커넥터(배치 데이터 포함) | &approx; &lt; 24h:01m:30s | &approx; &lt; 25h:30m:00s |
+| 1 | Edge Network에 Edge Network SDK / API | 7분 | 95분 |
+| 2 | 스트리밍 커넥터 | 17분 | 105분 |
+| 3 | Adobe Analytics 소스 커넥터 | 17분 | 105분 |
+| 4 | 소스 커넥터에 연결된 기타 소스 커넥터(배치 데이터 포함) | 25시간 | 25시간 |
 
 
 ## 제한 사항
