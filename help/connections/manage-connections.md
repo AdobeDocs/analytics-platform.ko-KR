@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 283b494799de4124a3870437bd83c307e3766819
 workflow-type: tm+mt
 source-wordcount: '4693'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 61%
 | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![녹색 상태](assets/status-green.svg)   새 데이터를 가져오도록 구성된 데이터 세트의 경우 **[!UICONTROL _x _켜짐]**<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
 | **[!UICONTROL 생성된 일자]** | 연결을 처음 만든 타임스탬프. |
 | **[!UICONTROL 마지막 수정일]** | 연결을 마지막으로 업데이트한 타임스탬프. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
 | **[!UICONTROL 통합]** | 연결에서 사용할 수 있는 모든 Experience Platform 응용 프로그램을 표시합니다. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 사용할 수 있도록 연결을 활성화했는지 여부를 표시합니다. |
 
@@ -149,7 +149,7 @@ Customer Journey Analytics에서 Journey Optimizer 연결을 사용하여 연결
 
 * Journey Optimizer에서 **[!UICONTROL CJA에서 분석]** 단추를 사용하여 Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층적인 분석을 수행합니다.
 
-  자세한 내용은 Journey Optimizer 설명서의 [Customer Journey Analytics에서 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)을 참조하십시오.
+  자세한 내용은 Journey Optimizer 설명서의 [Customer Journey Analytics에서 분석](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)을 참조하십시오.
 
 * Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.
 
@@ -277,9 +277,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음 작업을 수�
 | **[!UICONTROL 데이터 소스 유형]** | 소스 유형. 연결에 데이터 세트를 추가할 때 소스 유형을 정의합니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 집합 형식](create-connection.md#dataset-types)입니다. 유형은 [!UICONTROL 이벤트], [!UICONTROL 프로필], [!UICONTROL 조회] 또는 [!UICONTROL 요약]일 수 있습니다. |
 | **[!UICONTROL 스키마]** | 해당 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
 >[!IMPORTANT]
 >
@@ -303,9 +303,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음 작업을 수�
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 기본 ID 유형&#x200B;]** | 연결의 기본 ID 유형: 사용자 기반 연결의 경우 **[!UICONTROL 개인]**, 계정 기반 연결의 경우 **[!UICONTROL 계정]**. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 컨테이너&#x200B;]** | 연결에 대해 구성된 컨테이너입니다. |
 | **[!UICONTROL 연결을 이용한 데이터 보기]** | 이 연결을 사용하는 데이터 보기입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 데이터 세트 수에 대해. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 데이터 세트 수에 대해. |
 | **[!UICONTROL 작성자]** | 연결을 만든 사람의 이름. |
 | **[!UICONTROL 마지막 수정일]** | 연결에 대한 마지막 변경의 타임스탬프. |
 | **[!UICONTROL 마지막 수정자]** | 연결을 마지막으로 수정한 사람의 이름입니다. |
@@ -316,20 +316,20 @@ Customer Journey Analytics에서 연결을 제거하려면 다음 작업을 수�
 
 | 세부 사항 | 설명 |
 | --- | --- |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID &#x200B;]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
-| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID &#x200B;]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID ]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID ]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
 | **[!UICONTROL 개인 ID]** | 연결에 대한 개인 ID로 지정한 ID입니다. |
 | **[!UICONTROL 키]** | 조회 데이터 세트에 대해 지정한 키. |
 | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 대해 지정한 일치하는 키. |
 | **[!UICONTROL 타임스탬프]** | 이벤트 데이터 세트에 대해 정의된 타임스탬프. |
-| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
+| **[!UICONTROL 사용 가능한 레코드]** | 캘린더를 통해 선택한 특정 기간 동안 이 데이터 세트에 대해 수집된 행의 총 수. 데이터가 추가되고 난 후 보고에 표시되기까지의 지연 시간은 없습니다. 그러나 새로운 연결을 만들면 [지연 시간](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)이 생깁니다. |
 | **[!UICONTROL 추가된 레코드]** | 선택한 날짜 범위 동안 연결에 추가된 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 생략된 레코드]** | 선택한 날짜 범위 동안 연결을 위한 데이터 전송 중 건너뛴 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 추가된 배치]** | 연결에 추가된 배치 수입니다. |
 | **[!UICONTROL 삭제된 레코드]** | 선택한 날짜 범위 동안 연결에서 제거된 데이터 세트 레코드(행)의 수입니다. |
 | **[!UICONTROL 마지막으로 추가됨]** | 연결에 추가된 최신 일괄 처리의 타임스탬프. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
 | **[!UICONTROL 데이터 소스 유형]** | 데이터 세트가 연결에 추가될 때 정의된 데이터 소스 유형입니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 집합 형식](create-connection.md#dataset-types)입니다. |
 | **[!UICONTROL 스키마]** | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
@@ -387,7 +387,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음 작업을 수�
 >[!CONTEXTUALHELP]
 >id="connections_averagerowsize"
 >title="평균 행 크기"
->abstract="Customer Journey Analytics에서 수집 및 저장된 데이터의 각 행에서 현재 일에 소비한 평균 스토리지 양(KB)이며, 이전 달과 비교하여 백분율이 변경되었습니다."
+>abstract="이번 달 Customer Journey Analytics(KB)에서 수집 및 저장된 각 데이터 행이 소비한 평균 저장량으로, 전월 대비 백분율 변화가 있습니다."
 
 
 >[!CONTEXTUALHELP]
@@ -500,5 +500,5 @@ Customer Journey Analytics에서 연결을 제거하려면 다음 작업을 수�
 >[!MORELIKETHIS]
 >
 >[연결 설정 보기, 문제 해결 및 수정](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja) 튜토리얼.
->&#x200B;>[Customer Journey Analytics 사용량 관리](/help/technotes/estimate-usage.md)
+>>[Customer Journey Analytics 사용량 관리](/help/technotes/estimate-usage.md)
 >
