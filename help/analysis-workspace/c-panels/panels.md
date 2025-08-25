@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
-workflow-type: ht
-source-wordcount: '2130'
-ht-degree: 100%
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 97%
 
 ---
 
@@ -73,6 +73,18 @@ ht-degree: 100%
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) |
 
 * Workspace의 마지막 패널 **외부**&#x200B;에서 ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 다른 [빈 패널](blank-panel.md)을 추가합니다.
+
+
+## 패널 관리
+
+다음과 같은 방법으로 패널을 관리할 수 있습니다.
+
+![패널 관리](assets/manage-panel.png)
+
+* 패널을 축소하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다.
+* 축소된 패널을 표시하려면 ![V자 모양 왼쪽](/help/assets/icons/ChevronLeft.svg)을 선택합니다.
+* 패널을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize200.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd+z *]**)를 선택하십시오. |**[!UICONTROL * ctrl+z *]**).
+* 패널을 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 패널을 끌어서 놓습니다.
 
 
 ## 데이터 보기
@@ -155,7 +167,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

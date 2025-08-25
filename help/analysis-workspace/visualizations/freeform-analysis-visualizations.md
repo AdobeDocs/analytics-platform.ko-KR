@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 95%
+source-wordcount: '1738'
+ht-degree: 89%
 
 ---
 
@@ -67,6 +67,22 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
    * Workspace **[!UICONTROL 삽입]** 메뉴를 사용하여 시각화를 삽입합니다.
 
    * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. 테이블의 현재 선택에 따라 Workspace는 제공할 시각화를 결정하고 요청된 시각화를 구축하기 위해 데이터를 해석합니다.
+
+[Bar](line.md)의 [Line](bar.md) 시각화와 같은 간단한 시각화를 추가하면 시각화는 가장 가까운 자유 형식 테이블을 데이터 소스로 사용합니다. 항상 시각화의 [데이터 원본](#data-source)을(를) 수정할 수 있습니다.
+
+
+## 시각화 관리
+
+시각화 위로 마우스를 이동하거나 시각화를 선택하면 시각화를 관리할 수 있습니다.
+
+![시각화 관리](assets/manage-visualization.png)
+
+* 시각화를 축소하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다.
+* 축소된 시각화를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 선택합니다.
+* 시각화를 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd+z *]**)를 선택하십시오. |**[!UICONTROL * ctrl+z *]**).
+* 시각화를 기본 높이로 되돌리려면 ![ImageResize](/help/assets/icons/Resize.svg)을(를) 선택합니다.
+* 패널 내에서 시각화를 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 시각화를 끌어서 놓습니다.
+
 
 
 ## 범례
