@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 사용 가능한 결합 방법 | <li>필드 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 스티칭</li> | <li>필드 기반 결합</li><li>그래프 기반 스티칭</li> |
+| 사용 가능한 결합 방법 | <li>필드 기반 스티칭</li> | <li>필드 기반 스티칭</li><li>그래프 기반 스티칭</li> | <li>필드 기반 스티칭</li><li>그래프 기반 스티칭</li> |
 | 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
 | 전환 확인 기간 및 재생 빈도 | <li>1일, 매일</li><li>최대 7일, 매주</li> | <li>1일, 매일</li><li>최대 14일, 매주</li> | <li>1일, 매일</li><li>최대 30일, 매주</li> |
 | 결합에 허용되는 최대 데이터 세트 수 | 5 | 15 | 50 |
@@ -36,7 +36,7 @@ ht-degree: 7%
    - 원하는 데이터 세트(모든 행에 표시되는 식별자)에 대한 영구 ID의 열 이름(ID 경로 및 네임스페이스)입니다.
    - 데이터 집합이 `identityMap`을(를) 지원하는 경우:
       - 필드 기반 결합의 경우 영구 ID와 임시 ID 모두에 대한 네임스페이스를 지정합니다.
-      - 그래프 기반 결합의 경우 지속 ID에 대한 네임스페이스와 ID 그래프를 쿼리하는 데 사용할 ID 네임스페이스를 지정합니다.
+      - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 영구 ID의 네임스페이스와 ID 네임스페이스를 지정하십시오.
    - 데이터 집합에서 `identityMap`을(를) 지원하지 않는 경우:
       - 필드 기반 결합의 경우, 원하는 데이터 세트에 대한 임시 ID의 열 이름 (연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자).
       - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 ID 네임스페이스입니다.

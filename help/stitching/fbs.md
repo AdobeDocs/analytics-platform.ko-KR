@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 98432804b71805c3714423dff577bbf80d5c92d1
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1784'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 ## IdentityMap
 
-필드 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
+필드 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
 - `identityMap` 네임스페이스의 기본 ID를 사용하여 persistentID를 정의합니다.
    - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 탄력적으로 정렬되고 첫 번째 ID가 선택됩니다.
@@ -57,10 +57,10 @@ ht-degree: 15%
 
 
 - `identityMap` 네임스페이스를 사용하여 persistentID 또는 transientID 중 하나 또는 둘 다 정의합니다.
-   - `identityMap` 네임스페이스에 persistentID 또는 transientID에 대한 여러 값이 있는 경우 사용 가능한 첫 번째 사전식 값이 사용됩니다.
+   - `identityMap` 네임스페이스에 persistentID 또는 transientID에 대한 값이 여러 개 있는 경우 사용 가능한 첫 번째 사전식 값이 사용됩니다.
    - persistentID와 transientID의 네임스페이스는 함께 사용할 수 없습니다.
 
-  아래 예에서 네임스페이스 및 ID는 선택한 네임스페이스(ECID) 및 마지막으로 선택한 ID에 대해 정렬된 ID 목록이 됩니다.
+  아래 예에서는 필드 기반 결합에 사용할 네임스페이스로 ECID를 선택했습니다. 이렇게 하면 정렬된 ID 목록이 표시되고 최종적으로 선택한 ID가 표시됩니다.
 
   <table style="table-layout:auto">
      <tr>
@@ -142,7 +142,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 지연된 데이터(타임스탬프가 24시간 이상 된 데이터)는 가장 높은 품질을 위해 현재 데이터 결합의 우선 순위를 지정하면서 &#39;최상&#39;으로 처리됩니다.
 
-+++
++++ 
 
 ### 2단계: 재생 결합
 
@@ -174,7 +174,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 속성은 식별 사용자 지정 변수가 디바이스에 연결되어 있을 때 작동합니다. 위의 예에서, 이벤트 1과 10은 재생의 결과로서 결합되며, 이벤트 8과 9만 결합되지 않는다. 사람 지표(누적)를 2로 줄입니다.
 
-+++
++++ 
 
 ### 3단계: 개인 정보 보호 요청
 
@@ -202,7 +202,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **장치 3개** | | **4명**:<br/>246, `Bob`, `3579`, `81911` | **2명**:<br/>Bob, `3579` |  | **3명**:<br/>`246`, `3579`, `81911` |
 
-+++
++++ 
 
 ## 사전 요구 사항
 
@@ -214,7 +214,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
    - 일부 행에서만 사용할 수 있는 식별자인 **임시 ID**. 예를 들어 방문자가 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 거의 모든 식별자를 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 임시 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 적어도 한 번 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 <!--
-- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 98432804b71805c3714423dff577bbf80d5c92d1
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1542'
 ht-degree: 7%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 7%
 
 ## IdentityMap
 
-그래프 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
+그래프 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
-- `identityMap` 네임스페이스의 기본 ID를 사용하여 persistentID를 정의합니다.
+- `identityMap` 네임스페이스에서 기본 ID를 사용하여 persistentID를 정의합니다.
    - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 탄력적으로 정렬되고 첫 번째 ID가 선택됩니다.
    - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우 사용 가능한 첫 번째 사전식 기본 ID가 선택됩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 - `identityMap` 네임스페이스를 사용하여 persistentID 정의:
    - `identityMap` 네임스페이스에 persistentID에 대한 여러 값이 있는 경우 사용 가능한 첫 번째 사전 ID가 사용됩니다.
 
-  아래 예에서 네임스페이스 및 ID는 선택한 네임스페이스(ECID) 및 마지막으로 선택한 ID에 대해 정렬된 ID 목록이 됩니다.
+  아래 예에서는 사용할 네임스페이스로 ECID를 선택했습니다. 이렇게 하면 정렬된 ID 목록이 표시되고 최종적으로 선택한 ID가 표시됩니다.
 
   <table style="table-layout:auto">
      <tr>
@@ -113,7 +113,7 @@ ht-degree: 7%
 ![ID 그래프 246](assets/identity-graph-246.svg)
 ![ID 그래프 3579](assets/identity-graph-3579.svg)
 
-[ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer)를 사용하여 특정 프로필에 대한 시간에 따른 ID 그래프를 볼 수 있습니다. ID를 연결할 때 사용되는 논리를 더 잘 이해하려면 [ID 서비스 연결 논리](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)도 참조하세요.
+[ID 그래프 뷰어](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer)를 사용하여 특정 프로필에 대한 시간에 따른 ID 그래프를 볼 수 있습니다. ID를 연결할 때 사용되는 논리를 더 잘 이해하려면 [ID 서비스 연결 논리](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)도 참조하세요.
 
 ### 1단계: 라이브 결합
 
@@ -144,7 +144,7 @@ ht-degree: 7%
 
 +++ 세부 사항
 
-2023-05-13 16:30에 24시간 전환 확인 기간 구성이 적용되는 재생 결합이 발생하면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)&#x200B;(으)로 표시됨).
+2023-05-13 16:30에 재생 결합이 발생하고 24시간 전환 확인 기간이 구성되면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)&#x200B;(으)로 표시됨).
 
 | | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![그래프](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 결합된 ID<br/>(live stitch 후) | 결합된 ID<br/>(재생 24시간 후) |
 |---|---|---|---|---|---|
@@ -203,7 +203,7 @@ ht-degree: 7%
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 방문자를 식별하는 하나의 열(**영구 ID**)이 있어야 합니다. 예를 들어 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Experience Platform ID 서비스에서 생성된 ECID입니다.
 - 영구 ID는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)되어야 합니다.
-- Experience Platform Identity Service의 ID 그래프에는 **임시 ID**&#x200B;을(를) 확인하기 위해 결합하는 동안 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다. 자세한 내용은 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 참조하십시오.
+- Experience Platform Identity Service의 ID 그래프에는 `Email`임시 ID`Phone`을(를) 확인하기 위해 결합하는 동안 사용할 네임스페이스(예: **또는**)가 있어야 합니다. 자세한 내용은 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ ht-degree: 7%
 - 지정된 네임스페이스를 사용하여 임시 ID를 쿼리할 때 타임스탬프는 고려되지 않습니다. 따라서 영구 ID가 타임스탬프가 더 이른 레코드의 임시 ID와 결합될 수 있습니다.
 - 그래프의 네임스페이스에 여러 ID가 포함된 공유 장치 시나리오에서는 첫 번째 사전 그래픽 ID가 사용됩니다. 네임스페이스 제한 및 우선순위가 그래프 연결 규칙 릴리스의 일부로 구성된 경우 마지막으로 인증된 사용자의 ID가 사용됩니다. 자세한 내용은 [공유 장치](/help/use-cases/stitching/shared-devices.md)를 참조하십시오.
 - ID를 ID 그래프에 다시 채우는 데에는 3개월이라는 엄격한 제한이 있습니다. Real-time Customer Data Platform과 같은 Experience Platform 애플리케이션을 사용하여 ID 그래프를 채우지 않는 경우 ID 채우기 기능을 사용합니다.
-- [ID 서비스 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)가 적용됩니다. 예를 들어, 다음 [정적 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails#static-limits)을(를) 참조하십시오.
+- [ID 서비스 보호](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)가 적용됩니다. 예를 들어, 다음 [정적 제한](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)을(를) 참조하십시오.
    - 그래프의 최대 ID 수: 50.
    - 단일 배치 수집을 위한 ID에 대한 최대 링크 수는 50개입니다.
    - 그래프 수집을 위한 XDM 레코드의 최대 ID 수: 20.
