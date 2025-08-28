@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Customer Journey Analytics과 통합됩니다.
 
-자세한 내용은 [Adobe Advertising과 Customer Journey Analytics의 통합 개요](https://experienceleague.adobe.com/en/docs/advertising/integrations/customer-journey-analytics/overview)를 참조하십시오.
+자세한 내용은 [Adobe Advertising과 Customer Journey Analytics의 통합 개요](https://experienceleague.adobe.com/ko/docs/advertising/integrations/customer-journey-analytics/overview)를 참조하십시오.
