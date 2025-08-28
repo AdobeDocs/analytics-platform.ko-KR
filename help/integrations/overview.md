@@ -4,10 +4,10 @@ description: 다른 Adobe 솔루션 및 서비스의 데이터를 통합하는 �
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 93%
 
 ---
 
@@ -21,3 +21,17 @@ Adobe는 Adobe Experience Platform에 호스팅된 데이터를 활용하는 다
 2. 원하는 데이터 세트를 사용하여 Customer Journey Analytics에 [연결을 만듭니다](/help/connections/create-connection.md).
 3. 보고에 사용할 차원 및 지표가 포함된 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
 4. 데이터 보기 내에 구성된 차원 및 지표를 기반으로 Analysis Workspace에서 보고서를 실행합니다.
+
+다음은 사용 가능한 일부 통합 목록입니다.
+
+* [Adobe Analytics](/help/integrations/aa.md)
+
+* [Target](/help/integrations/at.md)
+
+* [Adobe Advertising](/help/integrations/advertising.md)
+
+* [Journey Optimizer](/help/integrations/ajo.md)
+
+* [의사 결정 관리](/help/integrations/ajo-od.md)
+
+* [고객 AI](/help/integrations/customer-ai.md)
