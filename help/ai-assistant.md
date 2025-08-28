@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Customer Journey Analytics용 AI 어시스턴트는 모든 제품 계층에서 �
 
 Customer Journey Analytics의 AI 어시스턴트에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
 
-AI Assistant 내에서 Data Insights Agent을 사용하는 방법에 대한 자세한 내용은 [Data Insights Agent으로 데이터 시각화](/help/data-analysis-ai.md)를 참조하십시오.
+AI 어시스턴트 내에서 Data Insights Agent를 사용하는 방법에 대한 자세한 내용은 [Data Insights Agent를 사용하여 데이터 시각화](/help/data-analysis-ai.md)를 참조하십시오.
 
 ## 기능 액세스
 
