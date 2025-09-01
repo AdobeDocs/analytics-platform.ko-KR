@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9e263d638d483194424a492b0494672ef0f62e71
+source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
-source-wordcount: '3739'
+source-wordcount: '3738'
 ht-degree: 55%
 
 ---
@@ -90,7 +90,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 * **일관성**: 컨텍스트 레이블을 사용하는 데이터 보기에 기반한 하나 이상의 프로젝트에서 작업하는 조직의 모든 사용자는 동일한 동작을 갖습니다.
 * **기능 및 템플릿 표시**: 특정 시각화 및 기능은 적절한 컨텍스트 레이블이 지정된 경우에만 표시됩니다. 예:
 
-   * Customer Journey Analytics에서 위도와 경도를 나타내는 필드를 알고 있는 경우에만 [맵](/help/analysis-workspace/visualizations/map.md) 시각화가 제대로 표시됩니다.
+   * Customer Journey Analytics에서 위도와 경도를 나타내는 구성 요소를 알고 있는 경우에만 [맵](/help/analysis-workspace/visualizations/map.md) 시각화가 제대로 표시됩니다.
    * 특정 [템플릿](/help/analysis-workspace/templates/use-templates.md)은(는) 올바른 컨텍스트 레이블이 적용되고 관련 구성 요소를 사용할 수 있는 경우에만 표시됩니다.
 
 다음과 같은 경우 컨텍스트 레이블이 필요할 수 있습니다.
@@ -105,7 +105,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 
   **참고**: 맵 시각화는 릴리스의 제한된 테스트 단계에 있으므로 사용자 환경에서 아직 사용하지 못할 수 있습니다.
 
-* [Adobe에서 제공하는 템플릿](/help/analysis-workspace/templates/use-templates.md)을 사용하는 경우. 특정 구성 요소가 데이터 보기에 없으므로 Adobe에서 제공하는 일부 템플릿이 작동하지 않을 수 있습니다.
+* Adobe에서 제공한 [템플릿](/help/analysis-workspace/templates/use-templates.md)을 표시합니다. 특정 구성 요소가 데이터 보기에 없으므로 Adobe에서 제공하는 일부 템플릿이 작동하지 않을 수 있습니다.
 
   누락된 각 구성 요소에 대해 일치하는 컨텍스트 레이블을 데이터 보기에서 사용할 수 있습니다. 이미 데이터 보기에 있는 구성 요소에 일치하는 컨텍스트 레이블을 추가해야 합니다. 또는 데이터 보기에 새 구성 요소를 추가하고 구성 요소에 컨텍스트 레이블을 추가해야 합니다(아직 자동으로 제공되지 않은 경우).
 
