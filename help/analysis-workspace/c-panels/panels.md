@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,15 +81,15 @@ ht-degree: 97%
 
 ![패널 관리](assets/manage-panel.png)
 
-* 패널을 축소하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다.
-* 축소된 패널을 표시하려면 ![V자 모양 왼쪽](/help/assets/icons/ChevronLeft.svg)을 선택합니다.
-* 패널을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize200.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd+z *]**)를 선택하십시오. |**[!UICONTROL * ctrl+z *]**).
-* 패널을 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 패널을 끌어서 놓습니다.
+* 패널을 숨기려면 ![ChevronDown](/help/assets/icons/ChevronDown.svg)을 선택합니다.
+* 숨겨진 패널을 표시하려면 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg)를 선택합니다.
+* 패널을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize200.svg)을 선택합니다. 실행 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *Cmd+Z *]**|**[!UICONTROL * Ctrl+Z *]**)를 선택합니다.
+* 패널을 이동하려면 ![이동](/help/assets/icons/Move.svg)이 보일 때마다(일반적으로 헤더 위에 마우스를 올려놓았을 때) 패널을 끌어다 놓습니다.
 
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**&#x200B;으로 식별됩니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**으로 식별됩니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -140,7 +140,7 @@ ht-degree: 97%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -167,7 +167,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
