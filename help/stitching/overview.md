@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
+source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '792'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 >[!IMPORTANT]
 >
 >
->- 소스 이벤트 데이터 세트 스키마에 대한 모든 변경 사항을 결합된 새 데이터 세트 스키마에도 적용합니다.
+>- 소스 이벤트 데이터 세트 스키마에 변경한 내용을 새로운 결합된 데이터 세트 스키마에도 적용합니다.
 >
 >- 소스 데이터 세트를 제거하면 결합된 데이터 세트가 처리를 중지하고 시스템에서 제거됩니다.
 >
@@ -69,11 +69,25 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 
 - 두 데이터 세트의 조인. Customer Journey Analytics에서 조인은 종종 Analysis Workspace에서 조회나 분류에 사용됩니다. 결합은 조인 기능을 사용하지만 그 과정 자체는 조인 이상의 작업을 포함합니다.
 
+
+## Journey Optimizer 데이터 세트
+
+결합은 다음과 같은 자동 생성된 Journey Optimizer 데이터 세트를 지원합니다.
+
+- AJO 여정 단계 이벤트
+- AJO 인바운드 활동 이벤트 데이터 세트
+- AJO 표면 데이터 세트
+- AJO 메시지 피드백 이벤트 데이터 세트* AJO 푸시 추적 경험 이벤트 데이터 세트
+- AJO 이메일 추적 경험 이벤트 데이터 세트
+- AJO BCC 피드백 이벤트 데이터 세트
+- AJO 라이브 활동 피드백 이벤트 데이터 세트
+- AJO ExD 의사 결정 이벤트 데이터 세트
+
 >[!MORELIKETHIS]
 >
 >[필드 기반 결합](fbs.md)
->&#x200B;>[그래프 기반 결합](gbs.md)
->&#x200B;>[결합 사용](use-stitching.md)
->&#x200B;>[스티칭 검증](validate.md)
->&#x200B;>[스티칭 FAQ](faq.md)
+>>[그래프 기반 결합](gbs.md)
+>>[결합 사용](use-stitching.md)
+>>[스티칭 검증](validate.md)
+>>[스티칭 FAQ](faq.md)
 
