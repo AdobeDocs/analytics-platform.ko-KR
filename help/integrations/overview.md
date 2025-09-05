@@ -5,9 +5,9 @@ exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
 source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe는 Adobe Experience Platform에 호스팅된 데이터를 활용하는 다
 3. 보고에 사용할 차원 및 지표가 포함된 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
 4. 데이터 보기 내에 구성된 차원 및 지표를 기반으로 Analysis Workspace에서 보고서를 실행합니다.
 
-다음은 사용 가능한 일부 통합 목록입니다.
+다음은 사용 가능한 통합 중 일부에 대한 목록입니다.
 
 * [Adobe Analytics](/help/integrations/aa.md)
 
