@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 28%
+source-wordcount: '2041'
+ht-degree: 26%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 28%
 
 1. [Customer Journey Analytics](https://analytics.adobe.com)에 로그인하고 빈 Workspace 프로젝트를 만듭니다.
 2. 왼쪽의 **[!UICONTROL **&#x200B;시각화&#x200B;**]** 탭을 선택하고 **[!UICONTROL **&#x200B;흐름&#x200B;**]** 시각화를 오른쪽의 캔버스로 드래그합니다.
-3. 왼쪽의 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 선택하고 **[!UICONTROL **&#x200B;데이터 세트 ID **]** 차원을 **[!UICONTROL **&#x200B; Dimension 또는 항목&#x200B;**]**&#x200B;이라는 레이블이 지정된 가운데 위치로 드래그합니다.
+3. 왼쪽의 **[!UICONTROL **&#x200B;구성 요소&#x200B;**]** 탭을 선택하고 **[!UICONTROL **&#x200B;데이터 세트 ID **]** 차원을 **[!UICONTROL ** Dimension 또는 항목&#x200B;**]**&#x200B;이라는 레이블이 지정된 가운데 위치로 드래그합니다.
 4. 이 플로우 보고서는 대화형입니다. 흐름을 후속 또는 이전 페이지로 확장하려면 값 중 하나를 선택합니다. 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 열을 확장하거나 축소하십시오. 동일한 플로우 보고서 내에서 다양한 차원을 사용할 수도 있습니다.
 
 데이터 세트 ID 차원 항목의 이름을 바꾸려는 경우 조회 데이터 세트를 사용할 수 있습니다.
@@ -75,7 +75,7 @@ ht-degree: 28%
 
 +++ 크로스 디바이스 분석(기존 Analytics의 한 기능)과 크로스 채널 분석의 차이점은 무엇입니까?
 
-[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko)은(는) 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
+[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은(는) 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
 
 크로스 채널 분석은 Customer Journey Analytics과 관련된 사용 사례로서 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID를 결합하므로 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 교차 장치 분석 필드 기반 결합과 유사하게 디자인적으로 작동하지만 기존 Analytics와 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현이 달라집니다. 자세한 내용은 [결합](overview.md) 및 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) 사용 사례를 참조하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 28%
 
 +++ 결합은 개인 정보 요청을 어떻게 처리합니까?
 
-Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
 
 >[!IMPORTANT]
 >
@@ -205,7 +205,7 @@ Customer Journey Analytics의 특정 지표는 기존 Analytics의 지표와 유
 
 | **Customer Journey Analytics에 결합된 데이터** | **Customer Journey Analytics에 결합되지 않은 데이터** | **Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **사람** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **사람** = 개인 ID로 선택한 열에 따른 고유한 개인 ID 수입니다. Analytics 소스 커넥터 데이터 세트의 **People**&#x200B;은(는) `endUserIDs._experience.aaid.id`이(가) Customer Journey Analytics에서 개인 ID로 사용되는 경우 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;와(과) 유사합니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
+| **사람** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **사람** = 개인 ID로 선택한 열에 따른 고유한 개인 ID 수입니다. Analytics 소스 커넥터 데이터 세트의 **People**&#x200B;은(는) **이(가) Customer Journey Analytics에서 개인 ID로 사용되는 경우 기존 Adobe Analytics의**&#x200B;고유 방문자 수`endUserIDs._experience.aaid.id`와(과) 유사합니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=ko-KR)을 참조하십시오. |
 | **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에서의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko-KR)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=ko-KR)에 지정된 세션 설정을 기반으로 정의됩니다. |
 | **이벤트**&#x200B;는 Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 영구 ID가 비어 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트**&#x200B;는 Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=ko-KR)를 참조하십시오. |
 
@@ -242,4 +242,37 @@ Customer Journey Analytics의 특정 지표는 기존 Analytics의 지표와 유
 
 +++
 
+## ID 서비스에 대한 데이터 세트 활성화
 
++++ ID 서비스에 대해서만 데이터 세트를 활성화하는 방법 
+
+ID 서비스에서 그래프 기반 결합에 데이터 세트를 사용하려면 데이터 세트가 활성화되어 있는지 확인해야 합니다.
+
+그래프 기반 결합을 사용하기 위해 Real-Time Customer Data Platform에 대해 라이선스가 부여되지 않아도 됩니다. 그래프 기반 결합은 실시간 고객 프로필이 아닌 사용 가능한 ID 그래프를 기반으로 합니다.
+
+ID 서비스에 대해서만 데이터 집합을 활성화하려면 `POST` 태그만 사용하는 `/datasets` 끝점에 대한 `unifiedIdentity` 요청을 사용합니다. 예:
+
+```shell
+curl -X POST \
+  https://platform.adobe.io/data/foundation/catalog/dataSets \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {ORG_ID}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+    "schemaRef": {
+        "id": "https://ns.adobe.com/{TENANT_ID}/schemas/31670881463308a46f7d2cb09762715",
+        "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+    },
+    "tags": {
+       "unifiedIdentity": ["enabled:true"]
+    }
+  }'
+```
+
+Real-Time Customer Data Profile 라이선스가 없는 동안 요청에서 `unifiedProfile` 태그를 사용하면 오류가 반환됩니다.
+
+자세한 내용은 [프로필 및 ID에 사용할 수 있는 데이터 집합 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity)를 참조하십시오.
+
++++ 

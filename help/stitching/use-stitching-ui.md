@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 4bca14492374939cd1ea6508c774720db61a6283
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '368'
 ht-degree: 3%
 
 ---
@@ -44,9 +44,19 @@ ht-degree: 3%
    * 기본 ID 네임스페이스를 사용하려면 **[!UICONTROL 기본 ID 네임스페이스를 사용]**&#x200B;하세요.
    * **[!UICONTROL 네임스페이스]** 드롭다운 메뉴에서 네임스페이스를 선택합니다.
 
-   개인 ID로 **[!UICONTROL ID 그래프]**&#x200B;를 선택하는 경우 네임스페이스를 선택해야 합니다. 그 전에 결합을 위해 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하는 **[!UICONTROL ID 그래프로 변경]** 대화 상자가 표시됩니다. 계속하려면 **[!UICONTROL 계속]**&#x200B;을 선택하세요.
+
+   개인 ID로 **[!UICONTROL ID 그래프]**&#x200B;를 선택하는 경우 네임스페이스를 선택해야 합니다.
+
+   >[!NOTE]
+   >
+   >ID 그래프를 사용할 수 있는 권한이 있어야 합니다.
+   >
+
+   그 전에 **[!UICONTROL ID 그래프로 변경]** 대화 상자가 표시되어 데이터 집합에 대한 ID 그래프 설정을 [마쳤는지 확인](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)한 후에 결합을 위해 ID 그래프를 사용합니다. 계속하려면 **[!UICONTROL 계속]**&#x200B;을 선택하세요.
 
    * **[!UICONTROL 네임스페이스]** 드롭다운 메뉴에서 네임스페이스를 선택합니다.
 
 
-1. **[!UICONTROL 전환 확인 기간]** 드롭다운 메뉴에서 전환 확인 기간을 선택합니다. 옵션은 **[!UICONTROL 1일]**, **[!UICONTROL 7일]**, **[!UICONTROL 14일]** 또는 **[!UICONTROL 30일]**&#x200B;입니다.
+1. **[!UICONTROL 전환 확인 기간]** 드롭다운 메뉴에서 전환 확인 기간을 선택합니다. 사용 가능한 옵션은 권한이 부여된 Customer Journey Analytics 패키지에 따라 다릅니다.
+
+ID 결합을 위해 활성화된 데이터 세트가 포함된 연결을 저장하면 각 데이터 세트에 대한 데이터 수집이 시작될 때 각 데이터 세트에 대한 결합 프로세스가 시작됩니다.
