@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 
 ## Journey Optimizer 데이터 세트
 
-결합은 다음과 같은 자동 생성된 Journey Optimizer 데이터 세트를 지원합니다.
+결합은 다음과 같이 자동으로 생성된 Journey Optimizer 데이터 세트를 지원합니다.
 
 - AJO 여정 단계 이벤트
 - AJO 인바운드 활동 이벤트 데이터 세트
@@ -81,13 +81,13 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 - AJO 이메일 추적 경험 이벤트 데이터 세트
 - AJO BCC 피드백 이벤트 데이터 세트
 - AJO 라이브 활동 피드백 이벤트 데이터 세트
-- AJO ExD 의사 결정 이벤트 데이터 세트
+- AJO ExD 결정 이벤트 데이터 세트
 
 >[!MORELIKETHIS]
 >
 >[필드 기반 결합](fbs.md)
->&#x200B;>[그래프 기반 결합](gbs.md)
->&#x200B;>[결합 사용](use-stitching.md)
->&#x200B;>[스티칭 검증](validate.md)
->&#x200B;>[스티칭 FAQ](faq.md)
+>>[그래프 기반 결합](gbs.md)
+>>[결합 사용](use-stitching.md)
+>>[스티칭 검증](validate.md)
+>>[스티칭 FAQ](faq.md)
 
