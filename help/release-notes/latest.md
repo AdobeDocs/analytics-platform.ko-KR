@@ -3,19 +3,19 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: eb860cf67f8174838837816a781f3f5ef9015683
+source-git-commit: 79e120b4362fe226debaeaea94da7e6b52c7e24a
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 58%
+source-wordcount: '944'
+ht-degree: 56%
 
 ---
 
-# 현재 Adobe Customer Journey Analytics 릴리스 정보 (2025년 8월)
+# 최신 Adobe Customer Journey Analytics 릴리스 정보 (2025년 9월)
 
-**마지막 업데이트**: 2025년 9월 4일
+**마지막 업데이트**: 2025년 9월 11일 금요일
 
 
-이번 릴리스 정보에는 2025년 8월 13일부터 9월 16일까지의 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2025년 9월부터 10월 초까지의 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
@@ -54,7 +54,7 @@ ht-degree: 58%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
