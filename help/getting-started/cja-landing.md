@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
-workflow-type: ht
-source-wordcount: '808'
-ht-degree: 100%
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,17 @@ Customer Journey Analytics를 사용하면 Analysis Workspace에서 임의 일�
 
 ## 새로운 기능
 
-Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../release-notes/latest.md)에서 자세히 확인할 수 있습니다. 최신 설명서 업데이트를 확인하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 방문하십시오.
+Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 자세한 [릴리스 정보](../release-notes/latest.md)를 확인하십시오. 최신 설명서 업데이트를 확인하려면 [설명서 업데이트 페이지](../release-notes/doc-changes.md)를 방문하십시오.
 
 >[!BEGINTABS]
+
+>[!TAB 실시간 보고*]
+
+Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 이상의 패널 내에서 데이터와 시각화를 실시간으로 표시하고 업데이트합니다.
+
+[![이미지](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
+
+*_실시간 보고를 위해 Ultimate 패키지가 있어야 합니다._*
 
 >[!TAB B2B Edition]
 
@@ -197,4 +205,4 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
+<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
