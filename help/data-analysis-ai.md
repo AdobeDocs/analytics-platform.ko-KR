@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: c8d9eddd1ce11975dec16f715a5f5888cd4d6ffa
+source-git-commit: 8eb57617cc089dee0df73171feb1118f35d4c960
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 100%
+source-wordcount: '2381'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,16 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 | **피드백 메커니즘** | <ul><li>좋아요</li><li>싫어요</li><li>플래그</li></ul> |  |
 
 
-## Data Insights 에이전트에 대한 액세스 관리
+## Data Insights 에이전트에 대한 액세스 관리 {#manage-access}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="Data Insights Agent에 사용"
+>abstract="이 옵션을 사용하면 Data Insights Agent에서 사용할 수 있도록 이 데이터 보기를 사용할 수 있습니다. Data Insights Agent은 Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 생성 AI 대화 에이전트입니다. 텍스트 프롬프트를 통해 데이터를 빠르게 분석하는 데 도움이 됩니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 다음 매개변수는 Customer Journey Analytics의 Data Insights 에이전트에 대한 액세스를 제어합니다.
 
