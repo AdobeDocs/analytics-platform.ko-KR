@@ -5,10 +5,10 @@ title: 클라우드로 전체 테이블 내보내기
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
+source-git-commit: 0b6afd5639234f6305c99267d3b1624279c97368
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 73%
+source-wordcount: '2482'
+ht-degree: 72%
 
 ---
 
@@ -56,15 +56,6 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="export-manifest"
->title="매니페스트 파일"
->abstract="이 기능을 활성화하면 모든 성공적인 내보내기 게재에 매니페스트 파일이 포함됩니다. 매니페스트 파일을 통해 모든 파일이 성공적으로 게재되었는지 확인할 수 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
 >id="cja-export-details"
 >title="세부 사항"
 >abstract="내보내기 이름을 지정합니다. 설명 및 태그를 추가할 수도 있습니다. 이 정보는 내보내기 테이블 및 이메일 알림에서 내보내기를 식별하는 데 도움이 됩니다."
@@ -78,7 +69,16 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >title="데이터 구조"
 >abstract="내보내는 자유 형식 테이블입니다. 왼쪽 패널의 구성 요소를 테이블로 드래그하여 데이터 구조를 수정할 수 있습니다. 구성 요소를 필터 영역으로 드래그하여 필터를 적용할 수 있습니다. 캔버스에 구성 요소를 추가하면 테이블이 동적으로 업데이트됩니다."
 
-<!-- markdownlint-enable MD034 -->ß
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="매니페스트 파일"
+>abstract="선택하면 매니페스트 파일이 성공적인 내보내기 게재에 포함됩니다. 매니페스트 파일을 통해 모든 파일이 성공적으로 게재되었는지 확인할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -96,6 +96,15 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >id="cja-export-destination"
 >title="목적지"
 >abstract="데이터를 전송할 클라우드 계정 및 위치를 선택합니다. 기존 계정 및 위치를 선택하거나 &#39;새로 추가&#39;를 선택하여 만들 수 있습니다. 내보내기 실패 또는 만료 사실을 알릴 사용자 및 그룹을 지정합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-format"
+>title="파일 포맷"
+>abstract="Parquet 파일 형식을 선택하면 구성 요소 이름에 포함된 일부 특수 문자가 밑줄(_)로 바뀝니다. 교체된 전체 문자 목록은 아래 링크를 참조하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
