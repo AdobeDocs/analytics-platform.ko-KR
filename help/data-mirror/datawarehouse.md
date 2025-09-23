@@ -56,8 +56,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 [!DNL Azure Databricks] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Azure Databricks] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Azure Databricks] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -67,8 +67,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 [!DNL Google BigQuery] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Google BigQuery] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Google BigQuery] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -84,8 +84,8 @@ ALTER TABLE mytable SET CHANGE_TRACKING = TRUE
 
 [!DNL Snowflake] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Snowflake] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Snowflake] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]
