@@ -180,7 +180,7 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
 
      ![개인 설명자](assets/platform-schema-personid.png)
 
-   * **[!UICONTROL 타임스탬프]** 필드가 **[!UICONTROL personid]** 필드와 함께 **[!UICONTROL 기본 키]**y로 구성되었습니다. **[!UICONTROL timestamp]** 필드도 **[!UICONTROL Timestamp 설명자]**(으)로 구성되어 있습니다. 시계열 모델 기반 데이터에 대해 필드를 **[!UICONTROL 타임스탬프 설명자]**(으)로 정의하기만 하면 됩니다.
+   * **[!UICONTROL 타임스탬프]** 필드가 **[!UICONTROL personid]** 필드와 함께 **[!UICONTROL 기본 키]**&#x200B;y로 구성되었습니다. **[!UICONTROL timestamp]** 필드도 **[!UICONTROL Timestamp 설명자]**(으)로 구성되어 있습니다. 시계열 모델 기반 데이터에 대해 필드를 **[!UICONTROL 타임스탬프 설명자]**(으)로 정의하기만 하면 됩니다.
 
      ![타임스탬프 설명자](assets/platform-schema-timestamp.png)
 
