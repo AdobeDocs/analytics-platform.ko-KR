@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
-workflow-type: ht
-source-wordcount: '1280'
-ht-degree: 100%
+source-git-commit: 06c5a73e5c0c900782bb284ffef9f88c387ba9cc
+workflow-type: tm+mt
+source-wordcount: '1299'
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 100%
    + [Adobe Analytics 사용자를 위한 사용 안내서](../getting-started/aa-to-cja-user.md)
 
 + 데이터 수집 {#cja-data-ingestion}
-   + [데이터 수집 개요](../data-ingestion/data-ingestion.md)
+   + [개요](../data-ingestion/data-ingestion.md)
    + 빠른 시작 안내서 수집 및 사용{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Experience Platform Edge Network {#edge-network}
@@ -120,6 +120,15 @@ ht-degree: 100%
       + [배치 데이터](../data-ingestion/batch.md)
       + [스트리밍 데이터](../data-ingestion/streaming.md)
       + [소스 커넥터](../data-ingestion/sources.md)
+      + [애드혹 데이터](/help/data-ingestion/adhoc.md)
+
++ 데이터 미러 {#cja-data-mirror}
+   + [개요](/help/data-mirror/data-mirror.md)
+   + 구성 {#configure}
+      + [Data Warehouse 기본 솔루션](/help/data-mirror/datawarehouse.md)
+      + [Experience Platform](/help/data-mirror/aep.md)
+      + [Customer Journey Analytics](/help/data-mirror/cja.md)
+   + [Data Mirror 빠른 시작 안내서](/help/data-mirror/model-based.md)
 
 + 연결 {#cja-connections}
    + [연결 개요](../connections/overview.md)

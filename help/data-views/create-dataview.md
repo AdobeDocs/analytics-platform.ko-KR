@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 27e09c893c45f445d9344c1cc5132960060bf032
+source-git-commit: 3193ee46dc0fc794b9adebab916ac178322ff650
 workflow-type: tm+mt
-source-wordcount: '2521'
-ht-degree: 87%
+source-wordcount: '2540'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -136,9 +136,9 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
    ![구성 요소 탭](assets/dataview-components.png)
 
-   데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다.  이미 포함된 구성 요소는 모든 데이터 보기(예: 이벤트, 인원, 세션 지표와 분, 분기, 주 차원)에 필요한 표준 구성 요소(시스템 생성)입니다. 또한 Adobe는 **[!UICONTROL 데이터 포함]** 필터를 적용하여 기본적으로 **[!UICONTROL 더 이상 사용되지 않으므로]** 데이터가 포함된 더 이상 사용되지 않는 스키마 필드만 나타나도록 합니다.
+   데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다.  이미 포함된 구성 요소는 모든 데이터 보기(예: 이벤트, 인원, 세션 지표와 분, 분기, 주 차원)에 필요한 표준 구성 요소(시스템 생성)입니다. Adobe은 또한 필터 **[!UICONTROL 데이터 포함]**&#x200B;과(와) **[!UICONTROL 이(가) 기본적으로 더 이상 사용되지 않음]**&#x200B;을(를) 적용하므로, 더 이상 사용되지 않는 데이터가 포함된 스키마 필드만 나타납니다.
 
-1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL 이벤트 데이트 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
+1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 이벤트 데이터 세트]** 또는 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 데이터 세트 조회]**&#x200B;와 같은 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다. 이벤트 데이터 세트의 경우 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL XDM 필드]** 및 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 임시 및 모델 기반 필드]**&#x200B;에 대한 별도의 컬렉션을 사용할 수 있습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
 1. 특정 스키마 필드를 찾거나 파생 필드를 정의하면 ![Handle icon](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
 동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 `Product Pages`구성 요소 설정`Error pages`을 사용하여 제목이 [이고 제목이 ](component-settings/overview.md)인 차원을 만들 수 있습니다.
