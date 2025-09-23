@@ -7,15 +7,17 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2271'
 ht-degree: 14%
 
 ---
 
-
 # 모델 기반 데이터 미러링 및 사용
+
+{{release-limited-testing}}
 
 이 빠른 시작 안내서에서는 [Customer Journey Analytics용 Experience Platform Data Mirror](data-mirror.md) 기능을 사용하여 Adobe Experience Platform의 Data Warehouse 기본 솔루션에서 모델 기반 데이터를 미러링하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
@@ -180,7 +182,7 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
 
      ![개인 설명자](assets/platform-schema-personid.png)
 
-   * **[!UICONTROL 타임스탬프]** 필드가 **[!UICONTROL personid]** 필드와 함께 **[!UICONTROL 기본 키]**&#x200B;y로 구성되었습니다. **[!UICONTROL timestamp]** 필드도 **[!UICONTROL Timestamp 설명자]**(으)로 구성되어 있습니다. 시계열 모델 기반 데이터에 대해 필드를 **[!UICONTROL 타임스탬프 설명자]**(으)로 정의하기만 하면 됩니다.
+   * **[!UICONTROL 타임스탬프]** 필드가 **[!UICONTROL personid]** 필드와 함께 **[!UICONTROL 기본 키]**(으)로 구성되었습니다. **[!UICONTROL timestamp]** 필드도 **[!UICONTROL Timestamp 설명자]**(으)로 구성되어 있습니다. 시계열 모델 기반 데이터에 대해 필드를 **[!UICONTROL 타임스탬프 설명자]**(으)로 정의하기만 하면 됩니다.
 
      ![타임스탬프 설명자](assets/platform-schema-timestamp.png)
 
@@ -218,7 +220,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
+  [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
 
 
 ### 데이터 선택

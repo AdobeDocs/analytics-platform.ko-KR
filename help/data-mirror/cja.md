@@ -7,15 +7,17 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: f7687bba-efbe-4a2c-8ad1-cf216554a1e9
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
 
 ---
 
-
 # Customer Journey Analytics 구성
+
+{{release-limited-testing}}
 
 Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용하려면 연결, 데이터 보기 및 작업 영역 프로젝트를 만들거나 업데이트하여 모델 기반 데이터를 사용해야 합니다.
 
@@ -37,5 +39,5 @@ Data Warehouse 네이티브 솔루션에서 미러링된 데이터가 포함된 
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](data-mirror.md)
+>[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
 >

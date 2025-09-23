@@ -7,7 +7,8 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: ebd6695cd5242c5443ccfbc5a38f337454f6de33
+exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
@@ -15,6 +16,8 @@ ht-degree: 3%
 ---
 
 # Experience Platform 구성
+
+{{release-limited-testing}}
 
 Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용하려면 여러 Experience Platform 구성 요소를 적절하게 구성해야 합니다.
 
@@ -52,9 +55,9 @@ Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용�
 
 지원되는 Data Warehouse 네이티브 솔루션에 대한 인증은 관련 Experience Platform 설명서를 참조하십시오.
 
-* [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 데이터 선택
@@ -89,5 +92,5 @@ Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](data-mirror.md)
+>[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
 >

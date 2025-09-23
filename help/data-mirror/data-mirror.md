@@ -7,9 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ Data Mirror에서 Experience Platform 설명서 를 참조하십시오.
 
 >[!NOTE]
 >
->Customer Journey Analytics용 Experience Platform Data Mirror 기능은 2026년 3월 25일까지 **공개 베타**&#x200B;에서 사용할 수 있습니다. Beta 기간 동안 변경 데이터 캡처(CDC) 업데이트는 조직의 월별 데이터 행의 0.5%로 제한됩니다. 월별 데이터 행은 12로 나눈 데이터 행에 대한 연간 자격을 기반으로 합니다. Adobe은 조직이 이 제한을 초과하는 경우 Experience Platform Data Mirror for Customer Journey Analytics 기능에 대한 베타 액세스를 종료할 수 있는 권한을 보유합니다.
+>Customer Journey Analytics용 Experience Platform Data Mirror 기능은 2026년 3월 25일까지 **공개 베타**&#x200B;에서 사용할 수 있습니다. Beta 기간 동안 변경 데이터 캡처(CDC) 업데이트는 Customer Journey Analytics에 대한 1천만 개의 일일 변경 행 권한으로 제한됩니다. Adobe은 조직이 이 제한을 초과하는 경우 Experience Platform Data Mirror 기능에 대한 beta 액세스를 종료할 수 있는 권한을 보유합니다. 청구 의미를 포함한 기능에 대한 자세한 내용은 Experience League 설명서의 이 섹션 을 참조하십시오.
 >
 
 선택한 데이터 웨어하우스 네이티브 솔루션([!DNL Azure Databricks], [!DNL Google BigQuery] 및 [!DNL Snowflake])에 Experience Platform Data Mirror for Customer Journey Analytics 기능을 사용할 수 있습니다. Customer Journey Analytics 버전의 Data Mirror 기능을 사용하려면 여러 구성 요소를 적절하게 설정하고 구성해야 합니다.
@@ -56,5 +57,5 @@ Data Mirror에서 Experience Platform 설명서 를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](data-mirror.md)
+>[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
 >

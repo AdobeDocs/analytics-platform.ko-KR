@@ -7,7 +7,8 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -15,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Data Warehouse 기본 솔루션 구성
+
+{{release-limited-testing}}
 
 Customer Journey Analytics용 Experience Platform Data Mirror을 지원하려면 지원되는 세 가지 데이터 웨어하우스 네이티브 솔루션([[!DNL Azure Databricks]](#azure-databricks), [[!DNL Google BigQuery]](#google-bigquery), [[!DNL Snowflake]](#snowflake))에서 사용하려는 데이터에 변경 데이터 캡처를 사용하도록 설정해야 합니다.
 
@@ -53,8 +56,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 [!DNL Azure Databricks] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Azure Databricks] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Azure Databricks] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -64,8 +67,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 [!DNL Google BigQuery] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Google BigQuery] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Google BigQuery] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -81,11 +84,11 @@ ALTER TABLE mytable SET CHANGE_TRACKING = TRUE
 
 [!DNL Snowflake] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 
-* [기본 연결 만들기 [!DNL Snowflake] 기본 연결 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [기본 연결 만들기 [!DNL Snowflake] 기본 연결 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [데이터베이스에 대한 원본 연결을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](data-mirror.md)
+>[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
 >
