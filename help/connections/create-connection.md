@@ -439,7 +439,7 @@ ht-degree: 61%
 
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 임시]** | 단일 데이터 집합에서만 사용할 수 있도록 네임스페이스가 지정된 필드가 있는 [임시 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)를 기반으로 하는 임시 데이터입니다. | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | *ad hoc* 동작을 기반으로 하는 클래스를 기반으로 하는 모든 ad hoc 스키마 | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
+| **[!UICONTROL 임시]** | 단일 데이터 집합에서만 사용할 수 있도록 네임스페이스가 지정된 필드가 있는 [임시 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/api/ad-hoc)를 기반으로 하는 임시 데이터입니다. | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | *ad hoc* 동작을 기반으로 하는 클래스를 기반으로 하는 모든 ad hoc 스키마 | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
 | **[!UICONTROL 모델]** | 모델 기반 스키마를 기반으로 하는 모델 기반 데이터입니다. | 모델 기반 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | 모든 모델 기반 스키마 | 모델 기반 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
 
 
@@ -778,5 +778,5 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 >[!MORELIKETHIS]
 >
 >* [데이터 수집 개요](/help/data-ingestion/data-ingestion.md)
->* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
 
