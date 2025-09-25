@@ -4,13 +4,11 @@ description: Data Warehouse 기본 솔루션과 Customer Journey Analytics 간�
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: 578e19d8a8205bdfa034900c45d7d4a2d8f6a797
+source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -35,7 +33,7 @@ Data Mirror은 데이터베이스 동기화를 위한 다음과 같은 필수 �
 
 Data Mirror을 사용하여 소스 시스템에서 직접 변경 사항을 수집하고, 스키마 무결성을 적용하며, 분석, 여정 오케스트레이션 및 규정 준수 워크플로우에 데이터를 사용할 수 있도록 합니다. Data Mirror은 기존 데이터베이스 모델의 직접 미러링을 활성화하여 복잡한 업스트림 ETL 프로세스를 제거하고 구현 시간을 단축합니다. 이를 통해 삭제 및 데이터 위생 작업을 정확하게 제어하여 데이터 거버넌스를 향상시킬 수 있습니다.
 
-Data Mirror의 [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}도 참조하세요.
+Data Mirror의 [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}도 참조하세요.
 
 ## Customer Journey Analytics용 Data Mirror
 
@@ -53,5 +51,5 @@ Customer Journey Analytics용 Experience Platform Data Mirror은 선택한 데�
 >[!MORELIKETHIS]
 >
 >[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
->&#x200B;>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
->
+>>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[모델 기반 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)

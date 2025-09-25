@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
+workflow-type: tm+mt
+source-wordcount: '1089'
+ht-degree: 85%
 
 ---
 
@@ -20,23 +20,30 @@ ht-degree: 100%
 >
 >모든 시나리오에서 Customer Journey Analytics에 _사용_&#x200B;하려는 데이터는 실제로 Adobe Experience Platform에서 _수집_&#x200B;됩니다.
 
-앞 [개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)에 표시된 높은 수준의 Customer Journey Analytics 아키텍처를 참조하십시오.
 
-![이 섹션에 설명된 Customer Journey Analytics 아키텍처](./assets/cja-architecture.png)
+다음은 높은 수준의 Customer Journey Analytics 아키텍처입니다.
 
-위 아키텍처의 데이터 세트는 다음의 다양한 소스에서 가져올 수 있습니다.
+![Customer Journey Analytics 아키텍처](/help/getting-started/assets/cja-overview.svg)
 
-- 배치 데이터,
+이 아키텍처는 고객 여정 분석을 통해 다음과 같은 작업을 수행하는 방법을 보여 줍니다.
 
-- 스트리밍 데이터,
+* ![연결](/help/assets/icons/Data.svg)에서 여러 데이터 세트 [데이터](/help/connections/overview.md)를 결합하십시오.
+* 연결에서 정의한 데이터 세트에서 사용할 수 있는 필드를 기반으로 하여 ![데이터 보기](/help/assets/icons/Dimensions.svg)에서 차원 ![차원](/help/assets/icons/Event.svg) 및 지표 [이벤트](/help/data-views/data-views.md)을(를) 정의하고 구성하십시오.
+* 데이터 보기의 차원 및 지표를 기반으로 하여 ![프로젝트](/help/assets/icons/ViewTable.svg)에서 보고서 ![ViewTable](/help/assets/icons/GraphTrend.svg) 및 시각화(예: 줄 ![Line](/help/assets/icons/GraphAreaStacked.svg) 및 영역 [Area](/help/analysis-workspace/home.md))를 작성합니다.
 
-- 현재 Adobe Analytics 배포 데이터,
+아키텍처의 데이터 세트는 다양한 소스에서 가져올 수 있습니다.
 
-- Adobe Experience Platform Web/Mobile SDK를 사용하는 웹 사이트/모바일 앱 추적 데이터,
+* 배치 데이터,
 
-- Adobe Experience Platform Edge Network Server API를 사용하여 데스크탑 애플리케이션, 콘솔 게임, 셋톱박스 또는 IoT 디바이스를 추적하여 얻은 데이터 또는
+* 스트리밍 데이터,
 
-- Adobe가 소스 커넥터를 제공하는 서드파티 데이터 제공업체의 데이터.
+* 현재 Adobe Analytics 배포 데이터,
+
+* Adobe Experience Platform Web/Mobile SDK를 사용하는 웹 사이트/모바일 앱 추적 데이터,
+
+* Adobe Experience Platform Edge Network Server API를 사용하여 데스크탑 애플리케이션, 콘솔 게임, 셋톱박스 또는 IoT 디바이스를 추적하여 얻은 데이터 또는
+
+* Adobe가 소스 커넥터를 제공하는 서드파티 데이터 제공업체의 데이터.
 
 이러한 데이터 세트가 많을 수 있습니다.
 
@@ -48,11 +55,11 @@ ht-degree: 100%
 
 이 기능은 회사에서 구입한 SKU 패키지에 따라 다릅니다.
 
-- 우선순위 수집 기본: 90분 내 24시간 이전 데이터 SLT 처리 (**CJA Foundation** 및 **CJA Select**&#x200B;에 사용 가능)
+* 우선순위 수집 기본: 90분 내 24시간 이전 데이터 SLT 처리 (**CJA Foundation** 및 **CJA Select**&#x200B;에 사용 가능)
 
-- 우선순위 수집 중간: 90분 내 72시간 이전 데이터 SLT 처리 (**CJA Prime**&#x200B;에 사용 가능)
+* 우선순위 수집 중간: 90분 내 72시간 이전 데이터 SLT 처리 (**CJA Prime**&#x200B;에 사용 가능)
 
-- 우선순위 수집 고급: 90분 내 1주 전 데이터 SLT 처리 (**CJA Ultimate**&#x200B;에서 사용 가능)
+* 우선순위 수집 고급: 90분 내 1주 전 데이터 SLT 처리 (**CJA Ultimate**&#x200B;에서 사용 가능)
 
 ## 기존 Adobe Analytics에서 데이터 수집 및 사용
 
@@ -95,11 +102,17 @@ Adobe 기술을 사용하는 데스크탑 애플리케이션, 게임 콘솔에�
 
 ## 소스 커넥터를 사용하여 데이터 수집 및 사용
 
-소스 커넥터에서 지원하는 소스의 데이터를 사용할 수 있습니다. 소스 커넥터는 Adobe, 퍼스트 파티 및 서드파티 애플리케이션의 데이터를 Adobe Experience Platform으로 수집할 수 있는 구성 가능한 구성입니다. 사용 가능한 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)를 참조하십시오. 소스 커넥터를 사용하여 소스의 데이터를 Adobe Experience Platform으로 쉽게 수집한 다음 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
+소스 커넥터에서 지원하는 소스의 데이터를 사용할 수 있습니다. 소스 커넥터는 Adobe, 퍼스트 파티 및 서드파티 애플리케이션의 데이터를 Adobe Experience Platform으로 수집할 수 있는 구성 가능한 구성입니다. 사용 가능한 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)를 참조하십시오. 소스 커넥터를 사용하여 소스의 데이터를 Adobe Experience Platform으로 쉽게 수집한 다음 Customer Journey Analytics에서 다른 채널 및 데이터 소스의 데이터로 사용하고, 결합하고, 분석할 수 있습니다.
 
 자세한 내용은 [소스 커넥터를 사용하여 데이터 수집 및 사용](./sources.md)을 참조하십시오.
 
+## 임시 데이터 수집 및 사용
+
+Experience Platform에서 단일 데이터 세트만 필요하며 XDM(경험 데이터 모델) 스키마를 구성할 필요가 없는 임시 데이터를 사용할 수 있습니다. 이 시나리오를 Ad Hoc 스키마라고 합니다. 임시 스키마는 CSV 파일 수집 및 특정 종류의 소스 연결 생성 등 Experience Platform의 다양한 데이터 수집 워크플로우에서 사용됩니다.
+
+[임시 데이터 수집 및 사용](./adhoc.md)을 참조하세요.
+
 >[!MORELIKETHIS]
 >
->블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집에 대한 자세한 내용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=ko)
+>블로그: [Adobe Customer Journey Analytics의 데이터 처리 및 수집에 대한 자세한 내용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 
