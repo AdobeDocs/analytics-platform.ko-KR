@@ -51,5 +51,5 @@ Customer Journey Analytics용 Experience Platform Data Mirror은 선택한 데�
 >[!MORELIKETHIS]
 >
 >[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
->>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->>[모델 기반 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+>&#x200B;>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>&#x200B;>[모델 기반 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
