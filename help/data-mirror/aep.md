@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: 8946f1bc57cc856adeac4ee0a96799040f7e698c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용하려면 여러 Experience Platform 구성 요소를 적절하게 구성해야 합니다.
+Experience Platform Data Mirror for Customer Journey Analytics을 사용하려면 여러 Experience Platform 구성 요소를 적절하게 구성해야 합니다.
 
 * 스키마
 * 데이터 세트
@@ -32,7 +32,7 @@ Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용�
 미러링할 Data Warehouse 네이티브 테이블을 모델링하는 모델 기반 스키마를 만들어야 합니다. 모델 기반 스키마를 구성할 때 다음 요구 사항이 충족되는지 확인하십시오.
 
 * 모델 기반 스키마 유형을 입력하라는 메시지가 표시되면 수동 옵션을 선택해야 합니다.
-* 데이터 유형에 적절한 스키마를 선택합니다. Data Mirror 기능은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
+* 데이터 유형에 적절한 스키마를 선택합니다. Experience Platform Data Mirror은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
 
 * 스키마의 필드 및 해당 속성을 정의합니다.
 * 모델 기반 스키마의 필드에 필요한 속성을 구성합니다.
@@ -55,9 +55,9 @@ Customer Journey Analytics용 Experience Platform Data Mirror 기능을 사용�
 
 지원되는 Data Warehouse 네이티브 솔루션에 대한 인증은 관련 Experience Platform 설명서를 참조하십시오.
 
-* [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 데이터 선택

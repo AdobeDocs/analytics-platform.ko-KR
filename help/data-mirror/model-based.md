@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2268'
 ht-degree: 14%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 {{release-limited-testing}}
 
-이 빠른 시작 안내서에서는 [Customer Journey Analytics용 Experience Platform Data Mirror](data-mirror.md) 기능을 사용하여 Adobe Experience Platform의 Data Warehouse 기본 솔루션에서 모델 기반 데이터를 미러링하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
+이 빠른 시작 안내서에서는 [Customer Journey Analytics용 Experience Platform Data Mirror](data-mirror.md)를 사용하여 Adobe Experience Platform의 Data Warehouse 기본 솔루션에서 모델 기반 데이터를 미러링하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
 
 이 사용 사례를 달성하려면 다음을 수행해야 합니다.
 
@@ -117,12 +117,12 @@ Experience Platform Data Mirror for Customer Journey Analytics의 경우 변경 
    SET OPTIONS (enable_change_history = TRUE);
    ```
 
-Data Warehouse 기본 솔루션의 표에 있는 데이터는 Experience Platform Data Mirror for Customer Journey Analytics 기능을 사용할 준비가 되었습니다.
+Data Warehouse 기본 솔루션의 표에 있는 데이터는 Customer Journey Analytics용 Experience Platform Data Mirror을 사용할 준비가 되었습니다.
 
 
 ## 스키마 설정
 
-Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대한 스키마를 정의해야 합니다. Experience Platform에서 미러링하고 Experience Platform Data Mirror for Customer Journey Analytics 기능을 사용하는 모든 데이터는 모델 기반 스키마를 준수해야 합니다.
+Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대한 스키마를 정의해야 합니다. Experience Platform에서 미러링하고 Customer Journey Analytics용 Experience Platform Data Mirror을 사용하는 모든 데이터는 모델 기반 스키마를 준수해야 합니다.
 
 이 데이터를 모델링하는 스키마를 정의합니다. 스키마를 설정하는 경우:
 
@@ -141,7 +141,7 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
    1. **[!UICONTROL 설명]**&#x200B;을 입력하십시오. 예: `Sample event feed schema for a model-based schema`.
    1. **[!UICONTROL 시계열]**&#x200B;을(를) **[!UICONTROL 스키마 동작]**(으)로 선택합니다. 시계열 기반 데이터에는 **[!UICONTROL 시계열]**&#x200B;을(를) 선택하고 레코드 기반 데이터에는 **[!UICONTROL 레코드]**&#x200B;을(를) 선택합니다. 비헤이비어는 스키마 구조 및 포함된 속성을 정의합니다.
 
-      Customer Journey Analytics용 Experience Platform Data Mirror 기능은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
+      Customer Journey Analytics용 Experience Platform Data Mirror은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
 
       ![스키마 구성](assets/model-based-create-schema.png)
 
@@ -220,7 +220,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
+  [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
 
 
 ### 데이터 선택
@@ -351,6 +351,8 @@ Customer Journey Analytics 인터페이스에서 다음을 수행합니다.
       1. **[!UICONTROL 이벤트 데이터 세트]**&#x200B;를 선택하십시오.
       1. **[!UICONTROL 임시 및 모델 기반 필드]**&#x200B;를 선택하십시오.
       1. 모델 기반 스키마에서 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]**(으)로 필드를 끌어다 놓습니다.
+
+         ![모델 기반 필드를 구성 요소로 추가](assets/cja-add-dataset-folder-dv.png)
 
    1. 올바른 형식이 없거나 올바른 형식이 아니거나 다른 이유로 수정하려는 필드에 대해 파생된 필드를 정의합니다. 예를 들어 **[!UICONTROL 매출액]**&#x200B;의 경우.
 
