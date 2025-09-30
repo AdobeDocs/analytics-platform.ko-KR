@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: f41162d1c4c44f79c59585d1311cd2e431725103
-workflow-type: ht
-source-wordcount: '20276'
+source-git-commit: cae339ebc5d2609a7a93e63e874c4e7d611f2cad
+workflow-type: tm+mt
+source-wordcount: '20424'
 ht-degree: 100%
 
 ---
@@ -591,6 +591,16 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 
 <!--Both AA and CJA-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다."
+>abstract="**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 국가 차원을 사용합니다."
+
+>[!CONTEXTUALHELP]
+>id="template--consentPolicyOverview"
+>title="사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다."
+>abstract="**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 국가 차원을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="template--countryGeoReport"
