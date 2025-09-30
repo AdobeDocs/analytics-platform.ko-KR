@@ -4,10 +4,10 @@ title: 폴아웃 시각화 구성
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: d91e6aaebd14bc02f53b28820dd6013350e36d36
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 92%
+source-wordcount: '856'
+ht-degree: 76%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 92%
    >
    >여러 세그먼트는 AND로 결합되지만 차원 항목 및 지표와 같은 여러 항목은 OR로 결합됩니다.
 
-   ![강조 표시된 페이지:CamerRoll 또는 페이지: Camera 터치포인트.](assets/fallout-or.png)
+   ![페이지:CamerRoll 또는 페이지: 카메라 터치포인트가 강조 표시되었습니다.](assets/fallout-or.png)
 
 1. **개별 터치포인트를 경로 내의 다음 이벤트로 제한** (*최종적으로* 실행되는 것과 대조적으로) 할 수도 있습니다. 각 터치포인트 아래에는 다음과 같이 **[!UICONTROL 최종 경로]**&#x200B;와 **[!UICONTROL 다음 이벤트]**&#x200B;라는 옵션이 있는 선택기가 있습니다.
 
@@ -80,14 +80,14 @@ ht-degree: 92%
 | **[!UICONTROL 터치포인트 트렌드]** | 터치포인트에 대한 트렌드 데이터를 사전 빌드된 일부 예외 항목 탐지 데이터가 있는 선 그래프로 확인하십시오. |
 | **[!UICONTROL 터치포인트 트렌드(%)]** | 총 폴아웃 비율의 트렌드를 표시합니다. |
 | **[!UICONTROL 모든 터치포인트의 트렌드 표시(%)]** | 동일한 차트에서 폴아웃(**[!UICONTROL 모든 방문자]**&#x200B;가 포함된 경우 제외)의 모든 터치포인트 비율의 트렌드를 표시합니다. |
-| **[!UICONTROL 이 터치포인트에서 폴스루 분류]** | 방문자가 다음 터치포인트로 계속 이동할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여 주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 교체할 수 있습니다. |
-| **[!UICONTROL 이 터치포인트에서 폴아웃 분류]** | 단계를 통과하지 않은 사람이 선택된 단계 직후 무엇을 했는지 볼 수 있습니다. |
+| **[!UICONTROL 이 터치포인트에서 폴스루 분류]** | 방문자가 다음 터치포인트로 계속 이동할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여 주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴스루: 모든 사람 > 페이지가 홈]** 중 하나와 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;와 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 사람 > 페이지가 홈](/help/components/segments/seg-quick.md)으로 분할된 **[!UICONTROL 사람]**&#x200B;을 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴스루 세그먼트가 결정되는 방법을 이해합니다. |
+| **[!UICONTROL 이 터치포인트에서 폴아웃 분류]** | 선택한 단계 직후 funnel을 통해 도달하지 않은 사람이 수행한 작업을 봅니다. 이렇게 하면 차원을 보여 주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴아웃: 사람 > 페이지는 모든 홈]**&#x200B;과 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;과(와) 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 방문자 > 페이지가 홈](/help/components/segments/seg-quick.md) 세그먼트 중 하나와 같음 **[!UICONTROL 사람]**&#x200B;을(를) 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴아웃 세그먼트가 결정되는 방식을 이해합니다. |
 | **[!UICONTROL 터치포인트에서 세그먼트 만들기]** | 선택한 터치포인트에서 새 세그먼트를 만듭니다. |
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

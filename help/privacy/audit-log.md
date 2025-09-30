@@ -4,10 +4,10 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Adobe Customer Journey Analytics를 사용하면 “감사 로그” 형식으로 다양한 서비스 및 기능에 대한 사용자 활동을 감사할 수 있습니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 건강 보험 이동성 및 책임법(HIPAA)과 같은 기업 데이터 관리 정책 및 규제 요구 사항을 효과적으로 준수하는 데 도움이 됩니다.
 
 기본적으로 감사 로그는 **어떤 사람**&#x200B;이 **어떤** 액션을 **언제** 수행했는지 알려 줍니다. 로그에 기록된 각 액션에는 작업 유형, 날짜 및 시간, 작업을 수행한 사용자의 이메일 ID 및 작업 유형과 관련된 추가 속성을 나타내는 메타데이터가 포함됩니다.
+
+감사 로그는 90일 동안 유지됩니다. 이후 감사 로그는 자동으로 삭제됩니다.
 
 이 주제에서는 UI에서 보고 관리하는 방법을 포함하여 Customer Journey Analytics의 감사 로그를 다룹니다.
 
