@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
->title="Data Insights Agent에 사용"
->abstract="이 옵션을 사용하면 Data Insights Agent에서 사용할 수 있도록 이 데이터 보기를 사용할 수 있습니다. Data Insights Agent은 Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 생성 AI 대화 에이전트입니다. 텍스트 프롬프트를 통해 데이터를 빠르게 분석하는 데 도움이 됩니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
+>title="Data Insights 에이전트에 사용 가능"
+>abstract="이 옵션을 사용하면 이 데이터 보기를 활성화하여 Data Insights 에이전트에서 사용할 수 있습니다. Data Insights 에이전트는 Customer Journey Analytics의 AI 어시스턴트에서 액세스할 수 있는 생성형 AI 대화 에이전트입니다. 이 에이전트는 텍스트 프롬프트를 통해 데이터를 빠르게 분석하는 데 도움이 됩니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -163,13 +163,13 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
 ![도넛](/help/assets/ai-asst-result3.png)
 
-## Experience Cloud 애플리케이션에서 Data Insights Agent 액세스
+## Experience Cloud 애플리케이션에서 Data Insights Agent에 액세스
 
-Adobe Experience Platform Agent Orchestrator을 사용하면 Adobe Journey Optimizer 및 Real-Time CDP과 같은 여러 Adobe Experience Cloud 애플리케이션에서 Data Insights Agent의 기능에 액세스할 수 있습니다.
+Adobe Experience Platform Agent Orchestrator를 사용하면 Adobe Journey Optimizer 및 Real-Time CDP와 같은 여러 Adobe Experience Cloud 애플리케이션에서 Data Insights 에이전트의 기능에 액세스할 수 있습니다.
 
-Agent Orchestrator은 요청을 해석하고 필요한 전문 에이전트를 결정하고 올바른 응답을 제공하도록 조정합니다. 다중 전환 상호 작용 간의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 빌드할 수 있습니다.
+Agent Orchestrator는 사용자의 요청을 해석하고, 필요한 전문 에이전트를 결정하며, 적절한 응답을 제공하도록 조정합니다. 멀티턴 상호 작용 전반의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 기반으로 빌드할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Agent Orchestrator](http://www.adobe.com/go/agent-orchestrator-home)을 참조하세요.
+자세한 내용은 [Adobe Experience Platform Agent Orchestrator](http://www.adobe.com/go/agent-orchestrator-home)를 참조하십시오.
 
 ## 데이터 시각화 프롬프트 예시
 
@@ -259,7 +259,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[구성 요소 설정](/help/data-views/component-settings/overview.md)
->&#x200B;>[데이터 사전 ](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[세그먼트 공유](/help/components/segments/seg-share.md)
+>>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[세그먼트 공유](/help/components/segments/seg-share.md)
 >
