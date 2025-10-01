@@ -67,7 +67,7 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >[!MORELIKETHIS]
 >
 >[Content Analytics 보고](report/report.md)
->&#x200B;>[Content Analytics 구성](config/configuration.md)
->&#x200B;>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>>[Content Analytics 구성](config/configuration.md)
+>>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

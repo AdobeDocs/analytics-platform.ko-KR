@@ -263,7 +263,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
 >title="데이터 수집"
->abstract="**포함/제외할 자산**"
+>abstract="**포함/제외할 에셋**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"

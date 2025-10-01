@@ -1,6 +1,6 @@
 ---
-title: 콘텐츠 분석 수동 구성
-description: 콘텐츠 분석을 수동으로 구성하는 방법
+title: Content Analytics 수동 구성
+description: Content Analytics를 수동으로 구성하는 방법
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
@@ -12,27 +12,27 @@ ht-degree: 70%
 
 ---
 
-# 콘텐츠 분석 수동 구성
+# Content Analytics 수동 구성
 
-이 문서에서는 콘텐츠 분석 구성의 데이터 수집을 시작 또는 중지하거나 콘텐츠 분석 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
+이 문서에서는 Content Analytics 구성의 데이터 수집을 시작 또는 중지하거나 Content Analytics 구현을 편집하는 데 필요한 수동 작업에 대해 자세히 설명합니다.
 
 다음 수동 구성 작업을 사용할 수 있습니다.
 
 ## 데이터 수집 시작
 
-구현된 콘텐츠 분석 구성에 대한 데이터 수집을 시작하려면 다음을 수행합니다.
+구현된 Content Analytics 구성에 대한 데이터 수집을 시작하려면 다음을 수행합니다.
 
-1. [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따릅니다. 콘텐츠 분석 구성이 포함된 태그 속성에 대한 라이브러리를 정상적으로 게시합니다.
+1. [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따릅니다. Content Analytics 구성이 포함된 태그 속성에 대한 라이브러리를 정상적으로 게시합니다.
 
-1. 콘텐츠 분석에 따라 개발, 스테이징 또는 게시 환경의 페이지 `<head>` 요소에 임베드된 코드를 [설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments#installation)합니다.
+1. Content Analytics에 따라 개발, 스테이징 또는 게시 환경의 페이지 `<head>` 요소에 임베드된 코드를 [설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments#installation)합니다.
 
 
 ## 데이터 수집 중지
 
-구현된 콘텐츠 분석 구성에 대한 데이터 수집을 중지하려면 다음을 수행합니다.
+구현된 Content Analytics 구성에 대한 데이터 수집을 중지하려면 다음을 수행합니다.
 
-1. 콘텐츠 분석에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
-1. 콘텐츠 분석 구성과 연결된 태그 속성을 [삭제](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
+1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
+1. Content Analytics 구성과 연결된 태그 속성을 [삭제](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
 
 
 
@@ -46,7 +46,7 @@ ht-degree: 70%
 
   >[!CAUTION]
   >
-  >Adobe Content Analytics 확장 기능에서 구성한 샌드박스 및 데이터스트림이 [가이드 구성](guided.md) 초기 단계에서 콘텐츠 분석에 대해 구성되어 있는지 확인하십시오. 이 구성을 사용하면 필요한 모든 아티팩트를 사용할 수 있습니다.<br/><br/>또한 샌드박스 또는 데이터스트림에 대한 업데이트가 동일한 샌드박스 또는 데이터스트림을 사용하도록 구성된 다른 콘텐츠 분석 구성을 방해하지 않는지도 확인하십시오.
+  >Adobe Content Analytics 확장 기능에서 구성한 샌드박스 및 데이터스트림이 [가이드 구성](guided.md) 초기 단계에서 콘텐츠 분석에 대해 구성되어 있는지 확인하십시오. 이 구성을 사용하면 필요한 모든 아티팩트를 사용할 수 있습니다.<br/><br/>또한 샌드박스 또는 데이터스트림에 대한 업데이트가 동일한 샌드박스 또는 데이터스트림을 사용하도록 구성된 다른 Content Analytics 구성을 방해하지 않는지도 확인하십시오.
   >
 
 * [경험 캡처 및 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
@@ -65,13 +65,13 @@ Adobe Content Analytics 확장 기능에서 변경 사항을 적용한 후에는
 >[!MORELIKETHIS]
 >
 >[가이드 구성](guided.md)
->&#x200B;>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+>>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
 >
 
 
 ## 버전 관리
 
-콘텐츠 분석 경험을 수집하려면 버전 관리를 구현하여 새로운 경험(웹 페이지 변경 사항)이 적절하게 수집되도록 해야 합니다.
+Content Analytics 경험을 수집하려면 버전 관리를 구현하여 새로운 경험(웹 페이지 변경 사항)이 적절하게 수집되도록 해야 합니다.
 
 버전 관리를 구현하려면 분석하려는 경험에 대한 페이지에 글로벌 `adobe.getContentExperienceVersion` 함수를 추가합니다.
 
@@ -97,7 +97,7 @@ Content Analytics은 다음과 같은 방식으로 ID를 처리합니다.
 * 스키마가 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
 
 
-Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 [&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"} 콜백 전에 웹 SDK on을(를) 수정해야 합니다.
+Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 [ 콜백 전에 웹 SDK ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}on을(를) 수정해야 합니다.
 
 1. Adobe Experience Platform Web SDK 확장 및 Adobe Content Analytics 확장이 포함된 **[!UICONTROL 태그]** 속성으로 이동합니다.
 1. ![플러그](/help/assets/icons/Plug.svg) **[!UICONTROL 확장]**&#x200B;을 선택합니다.
@@ -107,7 +107,7 @@ Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID
 
    ![이벤트 전송 콜백 전 ](/help/content-analytics/assets/onbeforeeventsendcallback.png)
 
-1. 이벤트 전송 콜백 코드&#x200B;**전에**&lt;/> 제공 기능을 선택합니다.
+1. 이벤트 전송 콜백 코드&#x200B;**[!UICONTROL 전에]**&lt;/> 제공 기능을 선택합니다.
 1. 다음 코드를 추가합니다.
 
    ```javascript
