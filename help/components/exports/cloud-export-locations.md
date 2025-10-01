@@ -5,14 +5,32 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: 5adcab1df932f5c8af1f140fb6707f2d56726ae3
 workflow-type: tm+mt
-source-wordcount: '1915'
-ht-degree: 20%
+source-wordcount: '2030'
+ht-degree: 19%
 
 ---
 
-# 클라우드 내보내기 위치 구성
+# 클라우드 내보내기 위치 구성 {#configure-cloud-export-locations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-prefix"
+>title="접두사"
+>abstract="데이터를 저장할 컨테이너 내의 루트 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예: `folder_name/`"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-name"
+>title="파일 이름 및 경로"
+>abstract="이 위치로 전송되는 자동화된 내보내기에 사용할 동적 사용자 지정 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. &lt;br\>파일 이름 및 경로에 변수를 사용하여 동적으로 만듭니다. &lt;br\>예를 들어 `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>사용 가능한 변수 목록을 보려면 아래 링크를 클릭하십시오."
+
+<!-- markdownlint-enable MD034 -->
 
 Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 Analysis Workspace에서 또는 [Report Builder에서 보고서 내보내기](/help/report-builder/report-builder-export.md)에 설명된 대로 Report Builder에서)하려면 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 데이터를 보낼 위치를 추가하고 구성해야 합니다.
 
@@ -88,11 +106,11 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    1. [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 엽니다.
 
-   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***(으)로 이동합니다.
+   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***(으)로 이동합니다.
 
       >[!NOTE]
       >
-      >폴더 이름 **[!UICONTROL cjaexport-_number_]**&#x200B;은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**&#x200B;이 됩니다.
+      >폴더 이름 **[!UICONTROL cjaexport-_number_]**은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**이 됩니다.
 
 
       ![Azure 저장소 탐색기에서 파일에 액세스](assets/azure-storage-explorer-access.png)
