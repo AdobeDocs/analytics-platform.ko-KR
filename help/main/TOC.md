@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: 4621b5059333c5ee4f7d41014d0e4eff17ef33bf
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -122,10 +122,10 @@ ht-degree: 98%
       + [소스 커넥터](../data-ingestion/sources.md)
       + [애드혹 데이터](/help/data-ingestion/adhoc.md)
 
-+ 데이터 미러 {#cja-data-mirror}
++ Data Mirror {#cja-data-mirror}
    + [개요](/help/data-mirror/data-mirror.md)
    + 구성 {#configure}
-      + [Data Warehouse 기본 솔루션](/help/data-mirror/datawarehouse.md)
+      + [데이터 웨어하우스 기본 솔루션](/help/data-mirror/datawarehouse.md)
       + [Experience Platform](/help/data-mirror/aep.md)
       + [Customer Journey Analytics](/help/data-mirror/cja.md)
    + [Data Mirror 빠른 시작 안내서](/help/data-mirror/model-based.md)
@@ -225,13 +225,13 @@ ht-degree: 98%
          + [개요](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [구성](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [문제 해결](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-      + [영역 (스택)](../analysis-workspace/visualizations/area.md)
-      + [막대 (스택)](../analysis-workspace/visualizations/bar.md)
+      + [영역(스택)](../analysis-workspace/visualizations/area.md)
+      + [막대(스택)](../analysis-workspace/visualizations/bar.md)
       + [글머리 기호](../analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](../analysis-workspace/visualizations/combo-charts.md)
       + [도넛](../analysis-workspace/visualizations/donut.md)
       + [히스토그램](../analysis-workspace/visualizations/histogram.md)
-      + [가로 막대 (스택)](../analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대(스택)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](../analysis-workspace/visualizations/key-metric.md)
       + [라인](../analysis-workspace/visualizations/line.md)
       + [맵](/help/analysis-workspace/visualizations/map.md)
@@ -453,7 +453,7 @@ ht-degree: 98%
 + 데이터 거버넌스 {#cja-privacy}
    + [데이터 거버넌스](../privacy/privacy-overview.md)
    + [감사 로그](../privacy/audit-log.md)
-   + [고객 관리 키](../privacy/cmk.md)
+   + [고객 관리형 키](../privacy/cmk.md)
 
 + 사용 사례 {#cja-usecases}
    + [Customer Journey Analytics 사용 사례](../use-cases/cja-usecases.md)
