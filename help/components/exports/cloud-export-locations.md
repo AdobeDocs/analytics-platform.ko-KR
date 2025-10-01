@@ -106,11 +106,11 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    1. [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 엽니다.
 
-   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***(으)로 이동합니다.
+   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***(으)로 이동합니다.
 
       >[!NOTE]
       >
-      >폴더 이름 **[!UICONTROL cjaexport-_number_]**은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**이 됩니다.
+      >폴더 이름 **[!UICONTROL cjaexport-_number_]**&#x200B;은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**&#x200B;이 됩니다.
 
 
       ![Azure 저장소 탐색기에서 파일에 액세스](assets/azure-storage-explorer-access.png)
