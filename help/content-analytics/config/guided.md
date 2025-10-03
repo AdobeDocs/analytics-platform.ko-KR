@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2694'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
    다음 작업을 수행할 수 있습니다.
 
    * 특정 데이터 보기를 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용합니다.
-   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택하세요. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에서 목록을 필터링할 수 있습니다.<br/>세그먼트 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트 숨기기]**&#x200B;를 사용합니다.
+   * 사용 가능한 데이터 보기 목록을 필터링하려면 ![필터 표시](/help/assets/icons/Filter.svg)를 선택합니다. [!UICONTROL 연결], [!UICONTROL 소유자] 및 [!UICONTROL 샌드박스]에 따라 목록을 필터링할 수 있습니다.<br/>세그먼트 창을 숨기려면 ![숨기기](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트 숨기기]**&#x200B;를 사용합니다.
    * 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택합니다. **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택해 변경 사항을 적용합니다.
 
 1. 사용할 ![SelectBox](/help/assets/icons/SelectBox.svg) 데이터 보기를 선택합니다.
@@ -313,7 +313,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 * Content Analytics을 위해 데이터를 수집할 때 포함하거나 제외할 에셋을 지정합니다.
 
-  **[!UICONTROL 포함/제외할 자산]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 모든 로고 JPEG 이미지를 제외합니다.
+  **[!UICONTROL 포함/제외할 에셋]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 콘텐츠 분석에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -324,7 +324,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 #### 기존 구성 {#existing-configuration}
 
-기존 구성의 경우 태그 속성을 편집할 수 없습니다. 기존 구성과 연결된 Tags 속성을 업데이트하려면 [Content Analytics 태그 확장 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하십시오.
+기존 구성의 경우 태그 속성을 편집할 수 없습니다. 기존 구성과 연결된 태그 속성을 업데이트하려면 [콘텐츠 분석 태그 확장 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하십시오.
 
 그러나 포함하거나 제외할 페이지와 자산을 편집할 수는 있습니다.
 
