@@ -75,7 +75,7 @@ ht-degree: 26%
 
 +++ 크로스 디바이스 분석(기존 Analytics의 한 기능)과 크로스 채널 분석의 차이점은 무엇입니까?
 
-[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)은(는) 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
+[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko)은(는) 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
 
 크로스 채널 분석은 Customer Journey Analytics과 관련된 사용 사례로서 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID를 결합하므로 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 교차 장치 분석 필드 기반 결합과 유사하게 디자인적으로 작동하지만 기존 Analytics와 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현이 달라집니다. 자세한 내용은 [결합](overview.md) 및 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) 사용 사례를 참조하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 26%
 
 +++ 결합은 개인 정보 요청을 어떻게 처리합니까?
 
-Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+Adobe은 현지 및 국제 법에 따라 개인 정보 보호 요청을 처리합니다. Adobe에서는 데이터 액세스 및 삭제 요청을 제출하기 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
 
 >[!IMPORTANT]
 >
@@ -275,6 +275,6 @@ curl -X POST \
 
 Real-Time Customer Data Profile 라이선스가 없는 동안 요청에서 `unifiedProfile` 태그를 사용하면 오류가 반환됩니다.
 
-자세한 내용은 [프로필 및 ID에 사용할 수 있는 데이터 집합 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity)를 참조하십시오.
+자세한 내용은 [프로필 및 ID에 사용할 수 있는 데이터 집합 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity)를 참조하십시오.
 
 +++ 
