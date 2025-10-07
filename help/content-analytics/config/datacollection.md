@@ -8,7 +8,7 @@ exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 79%
 
 ## 기능
 
-Content Analytics는 콘텐츠 이벤트 데이터를 수집하기 위해 Experience Platform Edge Network Web SDK를 필요로 합니다. 해당 이벤트 데이터 수집은 Experience Platform Edge Network(웹 SDK, 서버 API) 또는 Analytics 소스 커넥터(예: AppMeasurement 사용)와 같은 메커니즘을 통해 동작 이벤트 데이터의 (기존) 데이터 수집과 결합됩니다.
+Content Analytics는 콘텐츠 이벤트 데이터를 수집하기 위해 Experience Platform Edge Network Web SDK를 필요로 합니다. 해당 이벤트 데이터 수집은 Experience Platform Edge Network(Web SDK, Server API)나 Analytics 소스 커넥터(예: AppMeasurement 사용)와 같은 메커니즘을 통해 동작 이벤트 데이터의 (기존) 데이터 수집과 결합됩니다.
 
 Content Analytics 라이브러리는 다음과 같은 경우 데이터를 수집합니다.
 
@@ -54,7 +54,7 @@ Content Analytics 이벤트는 다음으로 구성됩니다.
 Content Analytics 이벤트는 다음의 시퀀스로 수집됩니다.
 
 1. [기록된 보기 또는 클릭](#recorded-view-or-click).
-1. [Content Analytics 이벤트를 보내는 트리거](#trigger-to-send-a-content-analytics-event).
+1. [Content Analytics 이벤트를 전송하는 트리거](#trigger-to-send-a-content-analytics-event).
 
 Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라, 보기 또는 클릭을 별도로 수집하여 해당 보기 또는 클릭 직후의 이벤트를 수집하는 방식으로 데이터를 수집하여 그 순서를 반영합니다. 이러한 Content Analytics 데이터 수집 방법은 수집된 데이터의 양도 줄입니다.
 
@@ -81,9 +81,9 @@ Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라
 * 클릭이 경험이 활성화된 페이지의 링크에서 발생했습니다.
 
 
-### Content Analytics 이벤트 보내기 트리거
+### Content Analytics 이벤트를 전송하는 트리거
 
-페이지를 나가는 호출 수를 줄이기 위해 Content Analytics은 정보를 수집하지만 해당 정보를 즉시 보내지는 않습니다. 컨텐츠 상호 작용 정보가 수집되고 해당 정보를 포함하는 이벤트는 다음 트리거 중 하나가 발생할 때만 전송됩니다.
+페이지에서 나가는 통화 수를 줄이기 위해 Content Analytics를 통해 정보를 수집하지만 해당 정보를 즉시 전송하지는 않습니다. 콘텐츠 상호 작용 정보가 수집되며, 해당 정보를 포함하는 이벤트는 다음 트리거 중 하나가 발생할 때만 전송됩니다.
 
 * Web SDK 또는 AppMeasurements가 이벤트를 보냅니다.
 * 표시 여부가 숨김으로 변경되었습니다. 예:
@@ -97,7 +97,7 @@ Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라
 
 >[!NOTE]
 >
->추가 Content Analytics 이벤트는 세션 또는 페이지의 이벤트 수를 기반으로 하는 바운스 비율 정의에 영향을 줄 수 있습니다.
+>추가 Content Analytics 이벤트는 세션 또는 페이지의 이벤트 수를 기반으로 하는 바운스 비율 정의에 영향을 미칠 가능성이 가장 높습니다.
 >
 
 
