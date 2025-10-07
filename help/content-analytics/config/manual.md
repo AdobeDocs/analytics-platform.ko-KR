@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 70%
 
 [가이드 구성 마법사](guided.md)를 사용하여 구현된 구성을 약간 변경할 수 있습니다. 예를 들어 데이터 보기를 변경하거나 경험을 활성화 또는 비활성화할 수 있습니다.
 
-콘텐츠 분석 구성과 연결된 태그 속성에서 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 다음 아티팩트를 변경할 수 있습니다.
+Content Analytics 구성과 연결된 태그 속성에서 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 다음 아티팩트를 변경할 수 있습니다.
 
 * [샌드박스 및 데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}
 
   >[!CAUTION]
   >
-  >Adobe Content Analytics 확장 기능에서 구성한 샌드박스 및 데이터스트림이 [가이드 구성](guided.md) 초기 단계에서 콘텐츠 분석에 대해 구성되어 있는지 확인하십시오. 이 구성을 사용하면 필요한 모든 아티팩트를 사용할 수 있습니다.<br/><br/>또한 샌드박스 또는 데이터스트림에 대한 업데이트가 동일한 샌드박스 또는 데이터스트림을 사용하도록 구성된 다른 Content Analytics 구성을 방해하지 않는지도 확인하십시오.
+  >Adobe Content Analytics 확장 기능에서 구성한 샌드박스 및 데이터스트림이 [가이드 구성](guided.md) 초기 단계에서 Content Analytics에 대해 구성되어 있는지 확인하십시오. 이 구성을 사용하면 필요한 모든 아티팩트를 사용할 수 있습니다.<br/><br/>또한 샌드박스 또는 데이터스트림에 대한 업데이트가 동일한 샌드박스 또는 데이터스트림을 사용하도록 구성된 다른 Content Analytics 구성을 방해하지 않는지도 확인하십시오.
   >
 
 * [경험 캡처 및 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
@@ -65,7 +65,7 @@ Adobe Content Analytics 확장 기능에서 변경 사항을 적용한 후에는
 >[!MORELIKETHIS]
 >
 >[가이드 구성](guided.md)
->&#x200B;>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+>>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -94,20 +94,20 @@ Content Analytics은 다음과 같은 방식으로 ID를 처리합니다.
 
 * ECID는 Content Analytics 스키마의 `identityMap` 부분에 자동으로 채워집니다.
 * `identityMap`에 다른 ID 값이 필요한 경우 Web SDK 확장 내의 `onBeforeEventSend` 콜백에서 이러한 값을 설정해야 합니다.
-* 스키마가 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
+* 스키마는 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
 
 
-Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 이벤트를 보내기 [&#x200B; 콜백 전에 웹 SDK &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}on을(를) 수정해야 합니다.
+Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 ](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}on before event send[ 콜백에서 Web SDK를 수정해야 합니다.
 
 1. Adobe Experience Platform Web SDK 확장 및 Adobe Content Analytics 확장이 포함된 **[!UICONTROL 태그]** 속성으로 이동합니다.
 1. ![플러그](/help/assets/icons/Plug.svg) **[!UICONTROL 확장]**&#x200B;을 선택합니다.
-1. **[!UICONTROL Adobe Experience Platform Web SDK]** 확장을 선택하십시오.
+1. **[!UICONTROL Adobe Experience Platform Web SDK]** 확장을 선택합니다.
 1. **[!UICONTROL 구성]**&#x200B;을 선택합니다.
-1. **[!UICONTROL SDK 인스턴스]** 섹션에서 아래로 스크롤하여 **[!UICONTROL 데이터 수집]** - **[!UICONTROL 이벤트 전송 콜백 전 켜기]**&#x200B;로 이동합니다.
+1. **[!UICONTROL SDK 인스턴스]** 섹션에서 아래로 스크롤하여 **[!UICONTROL 데이터 수집]** - **[!UICONTROL On before event send 콜백]**&#x200B;로 이동합니다.
 
-   ![이벤트 전송 콜백 전 &#x200B;](/help/content-analytics/assets/onbeforeeventsendcallback.png)
+   ![On before event send 콜백](/help/content-analytics/assets/onbeforeeventsendcallback.png)
 
-1. 이벤트 전송 콜백 코드&#x200B;**[!UICONTROL 전에]**&lt;/> 제공 기능을 선택합니다.
+1. **[!UICONTROL &lt;/> On before event send 콜백 코드 제공]**&#x200B;을 선택합니다.
 1. 다음 코드를 추가합니다.
 
    ```javascript
@@ -119,9 +119,9 @@ Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID
    }
    ```
 
-   ![이벤트 전송 콜백 전 &#x200B;](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
+   ![On before event send 콜백](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 선택하여 코드를 저장합니다.
+1. 코드를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 확장을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 태그 속성에 대한 업데이트를 [게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
 
