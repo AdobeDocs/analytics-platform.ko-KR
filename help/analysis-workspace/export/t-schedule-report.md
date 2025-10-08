@@ -6,18 +6,22 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 50%
+source-wordcount: '799'
+ht-degree: 51%
 
 ---
 
 # 프로젝트 보내기 및 예약
 
-Customer Journey Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 프로젝트를 보내도록 구성할 수 있습니다. 프로젝트는 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+Customer Journey Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 프로젝트를 보내도록 구성할 수 있습니다.
 
-프로젝트에 적용된 모든 태그는 자동으로 내보내기에 적용됩니다.
+파일을 보낼 때 다음 사항을 고려하십시오.
+
+* 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+
+* 프로젝트에 적용된 모든 태그는 자동으로 내보내기에 적용됩니다.
 
 Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 수 있으며, 자세한 내용은 [내보내기 개요](/help/analysis-workspace/export/export-project-overview.md)에서 설명합니다.
 
@@ -40,7 +44,7 @@ Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 
 
 ## 파일 내보내기 예약 {#schedule}
 
-이메일로 수신자에게 일정에 따라 파일을 보내려면
+전자 메일로 일정에 따라 파일을 수신자에게 보내려면 다음과 같이 하십시오.
 
 1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**&#x200B;을 선택합니다.
 1. 파일 유형을 지정합니다.
@@ -99,7 +103,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 ### 암호로 예약된 새 프로젝트 보호
 
 1. 프로젝트를 저장하고 나면 **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]** 또는 **[!UICONTROL 공유]** > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;로 이동합니다.
-1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=ko#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=ko#schedule)에 대해 위 지침을 따르십시오.
+1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule)에 대해 위 지침을 따르십시오.
 
 ### 암호로 예약된 기존 프로젝트 보호
 

@@ -4,10 +4,10 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 89%
+source-wordcount: '207'
+ht-degree: 70%
 
 ---
 
@@ -25,12 +25,18 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 벤 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 벤 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
 ![유형](/help/assets/icons/TwoDots.svg) **[!UICONTROL 벤]** 시각화를 사용하여 최대 (구성 요소 패널에서) 3개의 세그먼트와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
+
+>[!NOTE]
+>
+>Analysis Workspace은 면적비례 벤 다이어그램을 사용합니다. 2차원으로 표현되는 원이 3개 이상인 벤 다이어그램은 항상 완벽한 비율로 그릴 수 없다.
+> 
+>Workspace은 가장 가까운 근사 벤 생성을 시도하지만 결과가 항상 시각적으로 정확하지 않을 수 있습니다.
 
 ![세 개의 세그먼트가 포함된 벤 시각화.](assets/venn.png)
 
@@ -48,7 +54,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://video.tv.adobe.com/v/3416884/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://video.tv.adobe.com/v/335798/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +62,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
