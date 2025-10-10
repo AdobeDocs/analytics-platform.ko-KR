@@ -87,12 +87,12 @@ Experience Platform UI를 통해 데이터 세트를 내보내고 내보내기�
 
 #### 대상에 인증(기본 연결 만들기)
 
-이제 [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-base-connection) API를 사용하여 자격 증명을 인증하고 클라우드 저장소 대상에 안전하게 저장하려면 [`POST /targetConection`기본 연결을 만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다.
+이제 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-base-connection) API를 사용하여 자격 증명을 인증하고 클라우드 저장소 대상에 안전하게 저장하려면 [`POST /targetConection`기본 연결을 만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다.
 
 
 #### 내보내기 매개 변수 제공
 
-그런 다음 [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) API를 사용하여 데이터 집합에 대한 내보내기 매개 변수를 저장하는 추가 대상 연결을 [`POST /targetConection`만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다. 이러한 내보내기 매개 변수에는 위치, 파일 형식, 압축 등이 포함됩니다.
+그런 다음 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) API를 사용하여 데이터 집합에 대한 내보내기 매개 변수를 저장하는 추가 대상 연결을 [`POST /targetConection`만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다. 이러한 내보내기 매개 변수에는 위치, 파일 형식, 압축 등이 포함됩니다.
 
 #### 데이터 흐름 설정
 

@@ -603,4 +603,4 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 >[!MORELIKETHIS]
 >
 >[요약 데이터](/help/data-views/summary-data.md)
->>[요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md)
+>&#x200B;>[요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md)

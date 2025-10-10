@@ -47,7 +47,7 @@ ht-degree: 76%
 
 1. **개별 터치포인트를 경로 내의 다음 이벤트로 제한** (*최종적으로* 실행되는 것과 대조적으로) 할 수도 있습니다. 각 터치포인트 아래에는 다음과 같이 **[!UICONTROL 최종 경로]**&#x200B;와 **[!UICONTROL 다음 이벤트]**&#x200B;라는 옵션이 있는 선택기가 있습니다.
 
-   ![모든 방문 보기에서 강조 표시된 최종 경로 옵션. ](assets/fallout-nexthit.png)
+   ![모든 방문 보기에서 강조 표시된 최종 경로 옵션. &#x200B;](assets/fallout-nexthit.png)
 
    | 옵션 | 설명 |
    |---|---|
@@ -87,7 +87,7 @@ ht-degree: 76%
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

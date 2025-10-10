@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 미디어 평균 분당 시청 대상자 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [미디어 평균 분당 시청 대상자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 미디어 평균 분당 시청 대상자 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [미디어 평균 분당 시청 대상자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 >[!MORELIKETHIS]
 >
 > [패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
-> > [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+> &#x200B;> [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+> &#x200B;> [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >

@@ -68,7 +68,7 @@ ht-degree: 41%
 
 ## 필터
 
-[ 필터 패널을 사용하여 예약된 프로젝트 ](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+[&#x200B; 필터 패널을 사용하여 예약된 프로젝트 &#x200B;](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 필터 패널은 다음 섹션으로 구성되어 있습니다.
 

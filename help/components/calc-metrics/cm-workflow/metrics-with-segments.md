@@ -29,8 +29,8 @@ ht-degree: 1%
 
 ## 방문 빈도가 높은 페이지
 
-1. [(이)라는 Workspace 프로젝트에서 ](cm-workflow.md)계산된 지표를 만듭니다`German people`.
-1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 ](/help/components/segments/seg-builder.md)이라는 이름의 세그먼트를 만듭니다`Germany`합니다.
+1. [(이)라는 Workspace 프로젝트에서 &#x200B;](cm-workflow.md)계산된 지표를 만듭니다`German people`.
+1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 &#x200B;](/help/components/segments/seg-builder.md)이라는 이름의 세그먼트를 만듭니다`Germany`합니다.
 
    >[!TIP]
    >
