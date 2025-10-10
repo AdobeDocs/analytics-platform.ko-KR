@@ -26,7 +26,7 @@ ht-degree: 92%
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 트렌드]** 분석은 시간 경과에 따른 제품 성과나 사용자 행동에 대한 귀중한 인사이트를 제공합니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 이벤트를 측정합니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423443/?quality=12&learn=on&captions=kor)
 
 ## 사용 사례
 

@@ -31,7 +31,7 @@ ht-degree: 92%
 모든 활성 사용자(신규 사용자 + 재방문 사용자 + 복귀 사용자)는 가로축 위에 청록색 음영으로 표시되는 반면, 모든 휴면 사용자는 가로축 아래에 주황색으로 표시됩니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423397/?quality=12&learn=on&captions=kor)
 
 ## 사용 사례
 

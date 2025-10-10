@@ -43,7 +43,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
