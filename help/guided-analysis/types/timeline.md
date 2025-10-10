@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >[!UICONTROL 타임라인] 분석을 위해서는 **[!UICONTROL 개인 ID]** 표준 구성 요소가 [데이터 보기](/help/data-views/component-reference.md#optional)에서 사용 가능해야 합니다. 데이터 보기에 개인 ID를 포함하면 Customer Journey Analytics 관리자가 관리하므로 조직은 이 데이터에 액세스할 수 있는 사용자에 대한 완전한 개인정보 보호 제어가 가능합니다.
->><br/>데이터 보기에 [!UICONTROL 개인 ID] 구성 요소가 추가되지 않은 경우 다음 메시지가 표시됩니다.
+>&#x200B;><br/>데이터 보기에 [!UICONTROL 개인 ID] 구성 요소가 추가되지 않은 경우 다음 메시지가 표시됩니다.
 >
 >* **관리자**: *이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에는 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자에게 문의하여 데이터 보기에 개인 ID를 추가하십시오.*
