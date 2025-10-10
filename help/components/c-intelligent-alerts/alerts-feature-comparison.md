@@ -47,6 +47,6 @@ Customer Journey Analytics에서 데이터를 완료하고 보고할 수 있기�
 
 ## 경고 만들기
 
-Adobe Analytics의 Analysis Workspace에서는 [여러 방법으로 Analysis Workspace에서 경고를 만들 수 있습니다](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). Customer Journey Analytics에서는 자유 형식 테이블의 선택 항목에서만 Analysis Workspace에서 [경고를 만들 수 있습니다](alert-builder.md).
+Adobe Analytics의 Analysis Workspace에서는 [여러 방법으로 Analysis Workspace에서 경고를 만들 수 있습니다](https://experienceleague.adobe.com/ko/docs/analytics/components/alerts/alert-builder). Customer Journey Analytics에서는 자유 형식 테이블의 선택 항목에서만 Analysis Workspace에서 [경고를 만들 수 있습니다](alert-builder.md).
 
 Adobe Analytics과 Customer Journey Analytics 모두 [경고 관리자](alert-manager.md)를 통해 경고를 만들 수 있습니다

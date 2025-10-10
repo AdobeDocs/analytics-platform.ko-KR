@@ -28,9 +28,9 @@ Customer Journey Analytics는 특정 Adobe Experience Platform 권한이 없으�
 
 1. 올바른 액세스 제어가 있는지 확인하십시오.
 
-   * Experience Platform 제품을 보유한 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions)를 참조하십시오.
+   * Experience Platform 제품을 보유한 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#platform-permissions)를 참조하십시오.
 
-   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 권한이 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [액세스 제어 계층 구조 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow)를 참조하십시오.
+   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 권한이 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [액세스 제어 계층 구조 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#access-control-hierarchy-and-workflow)를 참조하십시오.
 
 
 1. Adobe Experience Platform UI로 이동합니다.

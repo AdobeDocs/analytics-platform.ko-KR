@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->디버거를 사용하려면 **편집** 또는 **복사** [프로젝트에 액세스](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744)해야 합니다.
+>디버거를 사용하려면 **편집** 또는 **복사** [프로젝트에 액세스](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-25744)해야 합니다.
 >
 
 

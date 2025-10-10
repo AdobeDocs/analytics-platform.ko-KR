@@ -16,7 +16,7 @@ ht-degree: 6%
 
 이 사용 사례에서는 파생 필드의 기능을 사용하여 특정 차원에 대한 목표를 설정한 다음, Workspace 프로젝트에서 이러한 목표를 사용하는 방법을 설명합니다.
 
-파생 필드에 익숙하지 않은 경우 [자습서](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) 및 [설명서](../data-views/derived-fields/derived-fields.md)를 참조하여 소개를 받으십시오.
+파생 필드에 익숙하지 않은 경우 [자습서](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=ko) 및 [설명서](../data-views/derived-fields/derived-fields.md)를 참조하여 소개를 받으십시오.
 
 
 ## 목표 정의
