@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * **경험 ID**: 관련 URL(URL을 URL과 페이지의 콘텐츠를 구동하는 매개변수)과 [경험 버전](manual.md#versioning)의 고유한 조합입니다.
    * [구성](configuration.md)의 일부로 주어진 전체 URL에 관련된 매개변수를 지정합니다.
    * 사용할 [버전 식별자](manual.md#versioning)를 정의하면 환경의 변경 사항을 적절하게 수집할 수 있습니다.
-* **자산**: 이미지입니다. Content Analytics는 에셋 URL을 기록합니다.
+* **자산**: 이미지입니다. Content Analytics는 자산 URL을 기록합니다.
 * **자산 ID**: 자산의 URL입니다.
 * **관련 URL**: 기본 URL과 페이지의 콘텐츠를 구동하는 모든 매개변수입니다.
 
@@ -53,8 +53,8 @@ Content Analytics 이벤트는 다음으로 구성됩니다.
 
 Content Analytics 이벤트는 다음의 시퀀스로 수집됩니다.
 
-1. [기록된 보기 또는 클릭](#recorded-view-or-click).
-1. [Content Analytics 이벤트를 전송하는 트리거](#trigger-to-send-a-content-analytics-event).
+1. [기록된 보기 또는 클릭](#recorded-view-or-click)
+1. [Content Analytics 이벤트를 전송하는 트리거](#trigger-to-send-a-content-analytics-event)
 
 Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라, 보기 또는 클릭을 별도로 수집하여 해당 보기 또는 클릭 직후의 이벤트를 수집하는 방식으로 데이터를 수집하여 그 순서를 반영합니다. 이러한 방식을 사용하여 Content Analytics 데이터를 수집하면 수집되는 데이터 양도 줄어듭니다.
 
@@ -62,14 +62,14 @@ Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라
 
 자산 보기는 다음과 같은 경우 기록됩니다.
 
-* Content Analytics 확장 기능 구성에 따라 에셋이 제외되지 않았습니다.
+* Content Analytics 확장 기능 구성에 따라 자산이 제외되지 않았습니다.
 * 자산이 75% 정도 검토 중입니다.
 * 해당 자산이 아직 이 페이지에 기록되지 않았습니다.
 
 자산 클릭은 다음과 같은 경우 기록됩니다.
 
 * 자산이 조회되었습니다.
-* Content Analytics 확장 기능 구성에 따라 에셋이 제외되지 않았습니다.
+* Content Analytics 확장 기능 구성에 따라 자산이 제외되지 않았습니다.
 * 다른 페이지로 연결되는 링크인 자산을 직접 클릭했습니다.
 
 경험 보기는 다음과 같은 경우 기록됩니다.

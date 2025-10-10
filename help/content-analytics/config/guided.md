@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2694'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Content Analytics 구성 액세스 방법
 
 | 열 | 설명 |
 |---|---|
-| **[!UICONTROL 이름]** | 구성의 이름. |
-| **[!UICONTROL 작성자]** | 구성을 생성한 기술 계정. |
-| **[!UICONTROL 생성 일자]** | 구성을 처음 만든 타임스탬프. |
-| **[!UICONTROL 수정 일자]** | 구성이가 마지막으로 수정된 타임스탬프. |
-| **[!UICONTROL 샌드박스]** | Content Analytics가 구성되고 구현될 (예정인) 조직 내의 샌드박스. |
+| **[!UICONTROL 이름]** | 구성의 이름 |
+| **[!UICONTROL 작성자]** | 구성을 생성한 기술 계정 |
+| **[!UICONTROL 생성 일자]** | 구성을 처음 만든 타임스탬프 |
+| **[!UICONTROL 수정 일자]** | 구성이가 마지막으로 수정된 타임스탬프 |
+| **[!UICONTROL 샌드박스]** | Content Analytics가 구성되고 구현될 (예정인) 조직 내의 샌드박스 |
 | **[!UICONTROL 상태]** | 구성의 상태. 상태는 다음과 같을 수 있습니다.<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 초안]**: 구성이 나중을 위해 저장되며 배포되지 않습니다.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL 실패]**: 구성에 실패했습니다. **[!UICONTROL 편집]**&#x200B;을 선택하여 실패에 대한 정보를 얻을 수 있습니다. Adobe는 실패한 구현을 사전에 해결합니다. 자세한 내용은 고객 센터에 문의하십시오.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 완료]** 구성이 완료되고 성공적으로 구현되었습니다. |
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 사용해 테이블을 사용자 정의할 수 있습니다. **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 표시할 열을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택해 변경 사항을 적용합니다.
@@ -263,7 +263,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
 >title="데이터 수집"
->abstract="**포함/제외할 에셋**"
+>abstract="**포함/제외할 자산**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
@@ -311,9 +311,9 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
   **[!UICONTROL 포함/제외할 페이지]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예를 들어 `^(?!.*documentation).*`을 지정하여 Content Analytics에서 모든 설명서 페이지를 제외할 수 있습니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 에셋을 지정합니다.
+* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 지정합니다.
 
-  **[!UICONTROL 포함/제외할 에셋]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 Content Analytics에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
+  **[!UICONTROL 포함/제외할 자산]**&#x200B;에 대한 정규 표현식 문자열을 지정합니다. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 Content Analytics에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -330,7 +330,7 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 * Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 편집하려면 **[!UICONTROL 경험]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 Content Analytics 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 페이지를 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 에셋을 편집하려면 **[!UICONTROL 에셋]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 Content Analytics 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 자산을 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
+* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 편집하려면 **[!UICONTROL 자산]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 Content Analytics 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 자산을 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
 
 ### 요약 {#summary}
 
@@ -366,8 +366,8 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 
    * **[!UICONTROL Adobe Experience Platform]** 구성:
-      * Content Analytics 이벤트, 에셋 속성 및 (구성된 경우) 경험 속성을 모델링하기 위한 스키마 생성.
-      * Content Analytics 이벤트, 에셋 속성 및 (구성된 경우) 경험 속성을 수집하기 위한 데이터 세트 생성.
+      * Content Analytics 이벤트, 자산 속성 및 (구성된 경우) 경험 속성을 모델링하기 위한 스키마 생성.
+      * Content Analytics 이벤트, 자산 속성 및 (구성된 경우) 경험 속성을 수집하기 위한 데이터 세트 생성.
       * Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하기 위해 기능화 서비스를 사용하는 데이터 흐름 생성.
 
 

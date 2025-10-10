@@ -6,7 +6,7 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -48,11 +48,11 @@ Content Analytics에 대한 보고를 처음부터 시작하려면:
   |---|---|
   | ![Content Analytics 경험 미리보기](../assets/aca-experience-preview.png) | ![Content Analytics 자산 미리보기](../assets/aca-asset-preview.png) |
   | 차원의 이름 (예: **[!UICONTROL 경험 ID])** | 자산 차원의 이름 (예: **[!UICONTROL 자산 ID])** |
-  | **[!UICONTROL 노출 횟수(전체 기간)]**: 해당 경험에 대한 노출 횟수. | **[!UICONTROL 노출 횟수(전체 시간)]**: 해당 자산에 대한 노출 횟수. |
-  | **[!UICONTROL 자산]**: 이 경험에 포함된 자산의 수. <br/>![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택해 자산을 검사합니다. | **[!UICONTROL 경험 수]**: 이 자산이 표시된 경험의 수. <br/>![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택해 자산을 검사합니다. |
-  | **[!UICONTROL 첫 번째 노출]**: 해당 경험의 첫 번째 노출 날짜. | **[!UICONTROL 첫 번째 노출]**: 해당 자산의 첫 번째 노출 날짜. |
-  | **[!UICONTROL 가장 최근 노출]**: 해당 경험의 가장 최근 노출 날짜. | **[!UICONTROL 가장 최근 노출]**: 해당 자산의 가장 최근 노출 날짜. |
-  | **[!UICONTROL 경험 속성]**: 해당 경험의 [속성](/help/content-analytics/report/components.md#experience-attributes). | **[!UICONTROL 자산 속성]**: 해당 자산의 [속성](/help/content-analytics/report/components.md#asset-attributes). |
+  | **[!UICONTROL 노출 횟수(전체 기간)]**: 해당 경험에 대한 노출 횟수 | **[!UICONTROL 노출 횟수(전체 시간)]**: 해당 자산에 대한 노출 횟수 |
+  | **[!UICONTROL 자산]**: 이 경험에 포함된 자산의 수 <br/>![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택해 자산을 검사합니다. | **[!UICONTROL 경험 수]**: 이 자산이 표시된 경험의 수 <br/>![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택해 자산을 검사합니다. |
+  | **[!UICONTROL 첫 번째 노출]**: 해당 경험의 첫 번째 노출 날짜 | **[!UICONTROL 첫 번째 노출]**: 해당 자산의 첫 번째 노출 날짜 |
+  | **[!UICONTROL 가장 최근 노출]**: 해당 경험의 가장 최근 노출 날짜 | **[!UICONTROL 가장 최근 노출]**: 해당 자산의 가장 최근 노출 날짜 |
+  | **[!UICONTROL 경험 속성]**: 해당 경험의 [속성](/help/content-analytics/report/components.md#experience-attributes) | **[!UICONTROL 자산 속성]**: 해당 자산의 [속성](/help/content-analytics/report/components.md#asset-attributes) |
 
 
 ## 템플릿
@@ -84,20 +84,20 @@ Content Analytics [템플릿](/help/analysis-workspace/templates/use-templates.m
      >이러한 시각화는 Content Analytics 구성에 [경험을 포함](/help/content-analytics/config/guided.md#experience-capture-and-definition)시켰을 때만 표시됩니다.
      > 
 
-      * **경험 CTR**: 경험 CTR을 보여 주는 [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화.
-      * **상위 전환 경험**: 선택한 전환 지표를 기반으로 상위 전환 경험을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화.
-      * **최고 성과 경험**: 최고 성과 경험에 대한 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)([썸네일](#thumbnails) 및 [미리보기](#previews) 포함).
+      * **경험 CTR**: 경험 CTR을 보여 주는 [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화
+      * **상위 전환 경험**: 선택한 전환 지표를 기반으로 상위 전환 경험을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화
+      * **최고 성과 경험**: 최고 성과 경험에 대한 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)([썸네일](#thumbnails) 및 [미리보기](#previews) 포함)
 
    * **자산**
 
       * **자산 CTR**
-자산 CTR을 보여 주는 [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화.
+: 자산 CTR을 보여 주는 [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) 시각화
       * **상위 전환 자산**
-선택한 전환 지표를 기반으로 상위 전환 자산을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화.
+: 선택한 전환 지표를 기반으로 상위 전환 자산을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화
       * **최고 성과 자산**
-최고 성과 자산에 대한 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)([썸네일](#thumbnails) 및 [미리보기](#previews) 포함).
-      * **자산 - 조회수와 전환 비교.**
-자산 조회수 대비 전환의 산포도를 보여 주는 [산포도](/help/analysis-workspace/visualizations/scatterplot.md) 시각화.
+: 최고 성과 자산에 대한 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)([썸네일](#thumbnails) 및 [미리보기](#previews) 포함)
+      * **자산 - 조회수와 전환 비교**
+: 자산 조회수 대비 전환의 산포도를 보여 주는 [산포도](/help/analysis-workspace/visualizations/scatterplot.md) 시각화
 
 * **어떤 자산 속성이 전환에 가장 큰 영향을 미칩니까?**
 Content Analytics는 AI와 생성형 AI를 사용하여 피사체, 장면, 전경색 등 모든 자산 메타데이터를 자동으로 지정합니다. 속성은 자산이나 경험에 포함된 내용을 설명하는 AI 할당 메타데이터 태그입니다. 예: <code>전경색: 빨간색</code> 자동으로 할당되는 속성입니다. 시각화는 자산의 전환에 가장 크게 기여하는 속성을 파악하는 데 도움이 됩니다.
@@ -105,15 +105,15 @@ Content Analytics는 AI와 생성형 AI를 사용하여 피사체, 장면, 전�
   패널은 다음 시각화로 구성되어 있습니다.
 
    * **상위 전환 자산 속성**
-선택한 전환 지표를 기반으로 상위 전환 자산 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md).
+: 선택한 전환 지표를 기반으로 상위 전환 자산 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md)
    * **상위 전환 자산 속성과 지난 30일 비교**
-선택한 전환 지표를 기반으로 지난 30일과 비교하여 상위 전환 자산 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화.
+: 선택한 전환 지표를 기반으로 지난 30일과 비교하여 상위 전환 자산 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화
    * **상위 전환 자산 속성 데이터**
-선택한 전환 지표를 기준으로 상위 전환 속성을 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 테이블에서 행을 선택하여 속성 추세 시각화를 업데이트합니다.
+: 선택한 전환 지표를 기준으로 상위 전환 속성을 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 테이블에서 행을 선택하여 속성 추세 시각화를 업데이트합니다.
    * **속성 추세**
-선택한 상위 전환 자산 속성의 속성 추세를 보여 주는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화.
+: 선택한 상위 전환 자산 속성의 속성 추세를 보여 주는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화
    * **자산 전경색**
-단일 자산 속성 카테고리: 전경색의 항목 성과를 비교하는 예시 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 이 자산 속성을 다른 자산 속성 카테고리 차원으로 대체할 수 있습니다.
+: 단일 자산 속성 카테고리: 전경색의 항목 성과를 비교하는 예시 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 이 자산 속성을 다른 자산 속성 카테고리 차원으로 대체할 수 있습니다.
 
 * **어떤 경험 속성이 전환에 가장 큰 영향을 미칩니까?**
 
@@ -127,18 +127,18 @@ Content Analytics는 AI와 생성형 AI를 사용하여 피사체, 장면, 전�
   패널은 다음 시각화로 구성되어 있습니다.
 
    * **상위 전환 경험 속성**
-선택한 전환 지표를 기반으로 상위 전환 경험 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화.
+: 선택한 전환 지표를 기반으로 상위 전환 경험 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화
    * **상위 전환 경험 속성과 지난 30일 비교**
-선택한 전환 지표를 기반으로 지난 30일과 비교하여 상위 전환 경험 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화.
+: 선택한 전환 지표를 기반으로 지난 30일과 비교하여 상위 전환 경험 속성을 보여 주는 [가로 막대](/help/analysis-workspace/visualizations/horizontal-bar.md) 시각화
    * **상위 전환 경험 속성 데이터**
-선택한 전환 지표를 기준으로 상위 전환 경험을 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 테이블에서 행을 선택하여 라인 시각화를 업데이트합니다.
+: 선택한 전환 지표를 기준으로 상위 전환 경험을 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). 테이블에서 행을 선택하여 라인 시각화를 업데이트합니다.
    * **라인**
-선택한 상위 전환 경험 속성에 대한 트렌드를 보여 주는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화.
+: 선택한 상위 전환 경험 속성에 대한 트렌드를 보여 주는 [라인](/help/analysis-workspace/visualizations/line.md) 시각화
    * **경험 키워드**
-선택한 전환 지표를 기반으로 상위 경험 키워드를 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+: 선택한 전환 지표를 기반으로 상위 경험 키워드를 보여 주는 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 
 * **자산은 내 사이트의 어디에 표시됩니까?**
-사이트에서 가장 많이 조회된 자산의 위치를 자세히 설명하는 자유 형식 테이블 하나로 구성된 패널.
+사이트에서 가장 많이 조회된 자산의 위치를 자세히 설명하는 자유 형식 테이블 하나로 구성된 패널
 
   패널은 하나의 시각화로 구성됩니다.
 

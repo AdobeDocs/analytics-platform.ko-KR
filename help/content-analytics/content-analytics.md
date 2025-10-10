@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -24,8 +24,8 @@ Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x20
 
 Content Analytics는 점점 더 높은 수준의 가치를 제공합니다.
 
-1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 에셋이 노출되고 있는지, 그리고 에셋이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 인사이트는 웹 속성에서 자산이 충분히 활용되지 않고 있는지, 아니면 과도하게 활용되고 있는지 파악하는 데 도움이 됩니다.
-1. 콘텐츠 **참여**: Content Analytics는 특정 속성을 가진 에셋에 대한 평균 클릭스루 비율과 같은 참여 인사이트를 제공할 수 있습니다. 이러한 인사이트는 특정 유형의 경험이 여전히 효과적인지 여부를 판단하는 데 도움이 됩니다.
+1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 자산이 노출되고 있는지, 그리고 자산이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 인사이트는 웹 속성에서 자산이 충분히 활용되지 않고 있는지, 아니면 과도하게 활용되고 있는지 파악하는 데 도움이 됩니다.
+1. 콘텐츠 **참여**: Content Analytics는 특정 속성을 가진 자산에 대한 평균 클릭스루 비율과 같은 참여 인사이트를 제공할 수 있습니다. 이러한 인사이트는 특정 유형의 경험이 여전히 효과적인지 여부를 판단하는 데 도움이 됩니다.
 1. 콘텐츠 **여정**: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합하면 콘텐츠 여정에 대한 추가적인 인사이트를 얻을 수 있습니다. 예를 들어 특정 콘텐츠가 전환으로 이어지는지 여부는 참여도에 달려 있습니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
 1. 콘텐츠 **개인화**: 궁극적으로 Content Analytics를 통해 인사이트에 따라 조치를 취하고 이러한 인사이트를 활용하여 콘텐츠에 비용을 어떻게 사용할지 결정할 수 있습니다. 예를 들어 특정 대상자에게 특정 유형의 콘텐츠를 보내야 합니까? 어떤 콘텐츠가 나에게 높은 개인화 기회를 제공합니까?
 
@@ -60,7 +60,7 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 
 >[!NOTE]
 >
->개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 Content Analytics의 적용을 받는 경험 및 에셋에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
+>개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 Content Analytics의 적용을 받는 경험 및 자산에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
 >
 
 
@@ -68,6 +68,6 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >
 >[Content Analytics 보고](report/report.md)
 >>[Content Analytics 구성](config/configuration.md)
->>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
