@@ -1,12 +1,12 @@
 ---
-title: Customer Journey Analytics를 위한 스키마 만들기
+title: Customer Journey Analytics용 스키마 만들기
 description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 

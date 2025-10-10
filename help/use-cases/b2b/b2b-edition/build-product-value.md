@@ -4,7 +4,7 @@ description: Customer Journey Analytics B2B edition을 사용하여 제품 가�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt

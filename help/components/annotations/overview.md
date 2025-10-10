@@ -6,7 +6,7 @@ feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -42,4 +42,4 @@ ht-degree: 100%
 |---|---|
 | **시각화** | ![Setting](/help/assets/icons/Setting.svg) > **[!UICONTROL 설정]** >  **[!UICONTROL 주석 표시]**&#x200B;를 활성화 또는 비활성화합니다.<br/>![Enable disable annotations for a visualization](/help/components/annotations/assets/annotations-visualization.png) |
 | **프로젝트** | Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;을 선택하고 **[!UICONTROL 주석 표시]**&#x200B;를 활성화 또는 비활성화합니다.<br/>![Enable disable annotations for a project](/help/components/annotations/assets/annotations-project.png) |
-| **사용자** | **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택하거나, Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 사용자 환경 설정]**&#x200B;을 선택합니다. <br/> **[!UICONTROL 환경 설정]**&#x200B;에서 **[!UICONTROL 프로젝트 및 분석]**&#x200B;을 선택합니다. 왼쪽 탭 막대에서 **[!UICONTROL 데이터]**&#x200B;를 선택합니다. 하단에서 **[!UICONTROL 자유 형식 테이블]** 제목 아래의 **[!UICONTROL 주석 표시]**&#x200B;를 활성화하거나 비활성화합니다.<br/>![Enable disable annotations for a user](/help/components/annotations/assets/annotations-user.png) |
+| **사용자** | **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택하거나, Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 사용자 환경 설정]**&#x200B;을 선택합니다. <br/>**[!UICONTROL 환경 설정]**&#x200B;에서 **[!UICONTROL 프로젝트 및 분석]**&#x200B;을 선택합니다. 왼쪽 탭 막대에서 **[!UICONTROL 데이터]**&#x200B;를 선택합니다. 하단에서 **[!UICONTROL 자유 형식 테이블]** 제목 아래의 **[!UICONTROL 주석 표시]**&#x200B;를 활성화하거나 비활성화합니다.<br/>![Enable disable annotations for a user](/help/components/annotations/assets/annotations-user.png) |

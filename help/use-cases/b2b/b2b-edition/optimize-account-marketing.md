@@ -4,7 +4,7 @@ description: Customer Journey Analytics B2B edition을 사용하여 계정 마�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
@@ -108,7 +108,7 @@ MQL(마케팅 적격 리드) 생성에 대한 영향을 시각화하려고 합�
 1. **[!UICONTROL 다음으로 끝남]**&#x200B;에 대해 **[!UICONTROL MQL 적격]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 경로 지정 차원]**&#x200B;에 대해 **[!UICONTROL 콘텐츠 형식]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 열 개수]**&#x200B;에 `5`을(를) 입력하십시오.
+1. `5`열 개수&#x200B;**[!UICONTROL 에]**&#x200B;을(를) 입력하십시오.
 1. **[!UICONTROL 흐름 컨테이너]**&#x200B;의 **[!UICONTROL 계정]**&#x200B;을(를) 선택하십시오.
 
    ![B2B 사용 사례 - 사용자 내 이벤트 - 흐름 구성](assets/b2b-uc-optimize-marketing-flow-config.png)

@@ -4,7 +4,7 @@ description: 일반적인 Customer Journey Analytics B2B edition 사용 사례�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Customer Journey Analytics B2B edition에서 제공할 수 있는 분석의 이점을 얻을 수 있는 주요 가상 사용자는 다음과 같습니다.
 
-| 담당자 | B2B 분석 요구 사항 |
+| 페르소나 | B2B 분석 요구 사항 |
 |---|---|
 | 마케팅 관리자 | 캠페인 성과, 채널 성과 및 라이프사이클, 마케팅 ROI, 리드 생성, 고객 유지 및 브랜드 성과 |
 | 비즈니스 분석가 | 세분화된 데이터, 빠른 보고 시간, 많은 관련자를 지원할 수 있는 유연성, 인사이트 전달이 용이합니다. |

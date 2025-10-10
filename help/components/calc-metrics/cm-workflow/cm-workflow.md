@@ -21,7 +21,7 @@ ht-degree: 18%
 
 ![지표를 만드는 방법](assets/create-metric.png)
 
-* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 계산된 지표]**&#x200B;을(를) 선택합니다. ![계산된 지표](/help/assets/icons/AddCircle.svg) 관리자[!UICONTROL **[!UICONTROL 에서 &#x200B;]**]AddCircle[추가](/help/components/calc-metrics/cm-workflow/cm-manager.md)를 선택합니다.
+* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 계산된 지표]**&#x200B;을(를) 선택합니다. ![계산된 지표](/help/assets/icons/AddCircle.svg) 관리자[!UICONTROL **[!UICONTROL 에서 ]**]AddCircle[추가](/help/components/calc-metrics/cm-workflow/cm-manager.md)를 선택합니다.
 * **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![이벤트](/help/assets/icons/Add.svg) ![지표](/help/assets/icons/Event.svg)의 **추가**&#x200B;를 선택합니다.
 * **C**. Workspace 프로젝트의 지표 열 헤더에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 선택합니다. 하위 메뉴에서 함수를 선택하거나 **[!UICONTROL 계산된 지표 빌더에서 열기]**&#x200B;를 선택할 수 있습니다. <br/>함수를 선택하면 계산된 지표가 프로젝트 전용 지표로 정의됩니다. 나중에 이 지표를 편집할 때 [구성 요소 정보](/help/components/use-components-in-workspace.md#component-info) 팝업을 통해 [계산된 지표 빌더](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)에 알림이 표시됩니다.
 * **D**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.

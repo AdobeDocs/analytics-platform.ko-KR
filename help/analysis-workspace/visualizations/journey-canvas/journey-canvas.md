@@ -51,7 +51,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 여정 캔버스 시각화를 설명합니다.<br/>**Adobe Analytics**&#x200B;에 동일한 시각화가 없습니다._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 여정 캔버스 시각화를 설명합니다.<br/>**Adobe Analytics**&#x200B;에 동일한 시각화가 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -263,5 +263,5 @@ Analysis Workspace에서 사용할 수 있는 모든 차원이나 지표를 기�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ko)
+> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

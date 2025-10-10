@@ -4,7 +4,7 @@ description: 일반적인 B2B 사용 사례에 대해 Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt

@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 7d3300336a955facc230f335d1452096700ea98b
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 23%
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->[날짜 범위 선택](select-date-range.md)
->[차원 필터링](filter-dimensions.md)
->[세그먼트 작업](work-with-filters.md)
+>>[날짜 범위 선택](select-date-range.md)
+>>[차원 필터링](filter-dimensions.md)
+>>[세그먼트 작업](work-with-filters.md)
 >

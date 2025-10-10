@@ -5,7 +5,7 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 100%
 
@@ -198,7 +198,7 @@ Customer Journey Analytics에서 가져온 프로필이 Real-Time Customer Data 
 
 #### 배치 대상자와 스트리밍 대상자
 
-Customer Journey Analytics 대상자는 일일 일괄 평가 작업에 포함되지 않으며 다음 게시 간격까지 고정됩니다. 이와 대조적으로 Real-Time Customer Data Platform의 다른 배치 대상자는 24시간마다 다시 평가됩니다.
+Customer Journey Analytics 대상자는 일일 배치 평가 작업에 포함되지 않으며, 다음 게시 주기까지 고정된 상태로 유지됩니다. 이와 대조적으로 Real-Time Customer Data Platform의 다른 배치 대상자는 24시간마다 다시 평가됩니다.
 
 ### 기억해야 할 주요 사항
 

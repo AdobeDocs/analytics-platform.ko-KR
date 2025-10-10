@@ -4,7 +4,8 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: 프로젝트 디버거
 role: User
-source-git-commit: ae8c1fb127accae53ab9363a8cceedd5221a245b
+exl-id: 1335ec1f-5597-4e23-8228-3d477534de43
+source-git-commit: 695d5f686d10fc39b1b3d717a19fd6e874d81b33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->디버거를 사용하려면 **편집** 또는 **복사** [프로젝트에 액세스](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-25744)해야 합니다.
+>디버거를 사용하려면 **편집** 또는 **복사** [프로젝트에 액세스](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744)해야 합니다.
 >
 
 
@@ -96,6 +97,3 @@ ht-degree: 3%
 1. Analysis Workspace 프로젝트 메뉴에서 **[!UICONTROL 도움말]** > **[!UICONTROL 디버거 사용 안 함]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 디버거 사용 안 함]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 1. 페이지 또는 사이트를 다시 로드하라는 브라우저의 메시지가 표시되면 확인합니다.
-
-
-

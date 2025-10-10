@@ -5,7 +5,7 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2193'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -220,7 +220,7 @@ ht-degree: 100%
 
 동적 드롭다운 세그먼트를 만드는 방법:
 
-* ⇧**를 누른 상태**&#x200B;에서 단일 차원을 패널 드롭 영역으로 끌어다 놓습니다.
+* **를 누른 상태**&#x200B;에서 단일 차원을 패널 드롭 영역으로 끌어다 놓습니다.
 
 참고: 지표, 세그먼트 또는 날짜 범위에는 동적 드롭다운 세그먼트를 사용할 수 없습니다.
 

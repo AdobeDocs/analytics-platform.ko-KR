@@ -4,7 +4,7 @@ description: Customer Journey Analytics B2B edition을 사용하여 주요 계�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B 에디션"
+badgePremium: label="B2B Edition"
 exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
@@ -21,13 +21,13 @@ B2B 업체들은 주요 계정을 늘리고 보유하는 것이 우선 과제입
 
 ## 판매 단계 진행
 
-임시 잠재 고객 전환 보고서를 생성 및 배포하고 영업 단계를 통해 계정이 어떻게 진행되는지 이해하려고 합니다.
+임시 잠재 고객 전환 보고서를 생성 및 배포하고 영업 funnel을 통해 계정이 어떻게 진행되는지 이해하려는 경우
 
 [폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 시각화를 사용하면 순차적 여정에서 사전 정의된 단계 간 전환 및 드롭오프율을 시각화할 수 있습니다.
 
 ### 예
 
-영업 단계의 맨 위(잠재 고객에서 영업 기회에 이르기까지)에 발생한 결과를 보고자 합니다.
+영업 funnel의 맨 위에 있는 계정의 폴아웃(잠재 고객에서 영업 기회에 이르기까지)을 확인하려고 합니다.
 
 1. [폴아웃 만들기 및 구성](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) 시각화.
 1. ![설정](/help/assets/icons/Setting.svg)을(를) 선택하여 **[!UICONTROL 계정]**&#x200B;을(를) **[!UICONTROL 폴아웃 컨테이너]**(으)로 선택합니다.

@@ -38,7 +38,7 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 
 ## 2단계: 양자 지표 태그 확장을 사용하여 마찰 이벤트 캡처
 
-양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
+양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
 
 Adobe Experience Platform 데이터 수집 의 태그를 사용하여 XDM 개체에 포함되고 분석될 수 있도록 마찰 이벤트의 이름을 수동으로 설정합니다. 이를 수행하는 한 가지 방법은 규칙의 사용자 지정 코드입니다.
 
@@ -78,5 +78,5 @@ return true;
 가능한 분석 아이디어는 다음과 같습니다.
 
 * 시간 경과에 따른 트렌드 마찰 이벤트 데이터
-* 폴아웃 또는 단계 시각화에서 Customer Journey Analytics 이벤트를 일부 단계로 추가하고, 양자 지표 마찰 이벤트를 다른 단계로 추가합니다. 이 보고서를 통해 방문자가 가장 일반적으로 문제가 발생하는 위치를 확인할 수 있습니다.
+* 폴아웃 또는 funnel 시각화에서 Customer Journey Analytics 이벤트를 일부 단계로 추가하고, 양자 지표 마찰 이벤트를 다른 단계로 추가합니다. 이 보고서를 통해 방문자가 가장 일반적으로 문제가 발생하는 위치를 확인할 수 있습니다.
 * 더 자세한 분석을 위해 마찰 이벤트를 경험하는 방문자를 위한 세그먼트 만들기 및 적용

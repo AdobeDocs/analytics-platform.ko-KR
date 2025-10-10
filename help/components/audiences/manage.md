@@ -5,9 +5,9 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 
 
 ## 대상자 목록에서 대상자 보기
 
-대상자 목록은 ➊ 기존 대상자를 보여 줍니다.
+대상 목록 ➊에 기존 대상이 표시됩니다.
 
 ![대상자 관리자](assets/audiences-manager.png)
 
@@ -94,7 +94,7 @@ Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 
 
 ## 대상자 목록 필터링
 
-필터 패널 ➋을 사용하여 [대상자 목록](#audiences-list)을 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+필터 패널 [을(를) 사용하여 ](#audiences-list)대상 목록➋을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 ![대상자 관리자](assets/audiences-manager.png)
 

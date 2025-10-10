@@ -30,7 +30,7 @@ ht-degree: 1%
 
 1. 데이터 블록을 만듭니다. 데이터 블록 만들기에 대한 자세한 내용은 [데이터 블록 만들기](/help/report-builder/create-a-data-block.md)를 참조하십시오.
 
-1. **[!UICONTROL 데이터 보기]**&#x200B;에서 ![데이터 보기 선택기](/help/assets/icons/DataViewSelector.svg)을(를) 선택합니다.
+1. ![데이터 보기](/help/assets/icons/DataViewSelector.svg)에서 **[!UICONTROL 데이터 보기 선택기]**&#x200B;을(를) 선택합니다.
 
 1. 데이터 블록 외부의 ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)을(를) 사용하여 셀을 선택합니다.
 

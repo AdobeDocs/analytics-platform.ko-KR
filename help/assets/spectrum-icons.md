@@ -8,7 +8,7 @@ hide-from-toc: true
 source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
 source-wordcount: '1954'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 이 표에는 스펙트럼 아이콘 코드 조각 구성을 통해 사용할 수 있는 모든 스펙트럼 아이콘이 나열되어 있습니다. 이름을 사용하여 Markdown에 코드 조각을 추가하고 Spectrum 아이콘을 표시합니다.
 
-업데이트를 보려면 [Wiki 페이지] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
+업데이트를 보려면 [Wiki 페이지](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
@@ -30,11 +30,11 @@ ht-degree: 14%
 | ABC | `![ABC](/help/assets/icons/ABC.svg)` | ![ABC](/help/assets/icons/ABC.svg) |
 | AEMcreen | `![AEMScreen](/help/assets/icons/AEMScreen.svg)` | ![AEMcreen](/help/assets/icons/AEMScreen.svg) |
 | AI | `![AI](/help/assets/icons/AI.svg)` | ![AI](/help/assets/icons/AI.svg) |
-| 액션 | `![Action](/help/assets/icons/Action.svg)` | ![작업](/help/assets/icons/Action.svg) |
+| 액션 | `![Action](/help/assets/icons/Action.svg)` | ![액션](/help/assets/icons/Action.svg) |
 | 활성 | `![Active](/help/assets/icons/Active.svg)` | ![활성](/help/assets/icons/Active.svg) |
 | AdDisplay | `![AdDisplay](/help/assets/icons/AdDisplay.svg)` | ![AdDisplay](/help/assets/icons/AdDisplay.svg) |
 | AdPrint | `![AdPrint](/help/assets/icons/AdPrint.svg)` | ![AdPrint](/help/assets/icons/AdPrint.svg) |
-| 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 | `![Add](/help/assets/icons/Add.svg)` | ![추가](/help/assets/icons/Add.svg) |
+| 추가 | `![Add](/help/assets/icons/Add.svg)` | ![추가](/help/assets/icons/Add.svg) |
 | AddCircle | `![AddCircle](/help/assets/icons/AddCircle.svg)` | ![AddCircle](/help/assets/icons/AddCircle.svg) |
 | 추가 | `![AddTo](/help/assets/icons/AddTo.svg)` | ![추가](/help/assets/icons/AddTo.svg) |
 | AddToSelection | `![AddToSelection](/help/assets/icons/AddToSelection.svg)` | ![AddToSelection](/help/assets/icons/AddToSelection.svg) |
@@ -71,10 +71,10 @@ ht-degree: 14%
 | 앱 | `![Apps](/help/assets/icons/Apps.svg)` | ![앱](/help/assets/icons/Apps.svg) |
 | 보관 | `![Archive](/help/assets/icons/Archive.svg)` | ![보관](/help/assets/icons/Archive.svg) |
 | 보관 제거 | `![ArchiveRemove](/help/assets/icons/ArchiveRemove.svg)` | ![보관 제거](/help/assets/icons/ArchiveRemove.svg) |
-| 아래쪽 화살표 | `![ArrowDown](/help/assets/icons/ArrowDown.svg)` | ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) |
+| 아래쪽 화살표 | `![ArrowDown](/help/assets/icons/ArrowDown.svg)` | ![ArrowDown](/help/assets/icons/ArrowDown.svg) |
 | 왼쪽 화살표 | `![ArrowLeft](/help/assets/icons/ArrowLeft.svg)` | ![왼쪽 화살표](/help/assets/icons/ArrowLeft.svg) |
 | 오른쪽 화살표 | `![ArrowRight](/help/assets/icons/ArrowRight.svg)` | ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) |
-| 위쪽 화살표 | `![ArrowUp](/help/assets/icons/ArrowUp.svg)` | ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) |
+| 위쪽 화살표 | `![ArrowUp](/help/assets/icons/ArrowUp.svg)` | ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
 | 오른쪽 화살표 | `![ArrowUpRight](/help/assets/icons/ArrowUpRight.svg)` | ![오른쪽 화살표](/help/assets/icons/ArrowUpRight.svg) |
 | 아트보드 | `![Artboard](/help/assets/icons/Artboard.svg)` | ![아트보드](/help/assets/icons/Artboard.svg) |
 | 문서 | `![Article](/help/assets/icons/Article.svg)` | ![문서](/help/assets/icons/Article.svg) |
@@ -116,14 +116,14 @@ ht-degree: 14%
 | 블로워 | `![Blower](/help/assets/icons/Blower.svg)` | ![송풍기](/help/assets/icons/Blower.svg) |
 | 흐림 효과 | `![Blur](/help/assets/icons/Blur.svg)` | ![흐림 효과](/help/assets/icons/Blur.svg) |
 | 책 | `![Book](/help/assets/icons/Book.svg)` | ![책](/help/assets/icons/Book.svg) |
-| 책갈피 | `![Bookmark](/help/assets/icons/Bookmark.svg)` | ![책갈피](/help/assets/icons/Bookmark.svg) |
+| 책갈피 | `![Bookmark](/help/assets/icons/Bookmark.svg)` | ![Bookmark](/help/assets/icons/Bookmark.svg) |
 | BookmarkSingle | `![BookmarkSingle](/help/assets/icons/BookmarkSingle.svg)` | ![BookmarkSingle](/help/assets/icons/BookmarkSingle.svg) |
 | 책갈피 단일 윤곽선 | `![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)` | ![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg) |
 | BookmarkSmall | `![BookmarkSmall](/help/assets/icons/BookmarkSmall.svg)` | ![BookmarkSmall](/help/assets/icons/BookmarkSmall.svg) |
 | 북마크작은 윤곽선 | `![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)` | ![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg) |
 | 부울 | `![Boolean](/help/assets/icons/Boolean.svg)` | ![부울](/help/assets/icons/Boolean.svg) |
 | 테두리 | `![Border](/help/assets/icons/Border.svg)` | ![테두리](/help/assets/icons/Border.svg) |
-| Box | `![Box](/help/assets/icons/Box.svg)` | ![상자](/help/assets/icons/Box.svg) |
+| 확인란 | `![Box](/help/assets/icons/Box.svg)` | ![상자](/help/assets/icons/Box.svg) |
 | BoxAdd | `![BoxAdd](/help/assets/icons/BoxAdd.svg)` | ![BoxAdd](/help/assets/icons/BoxAdd.svg) |
 | BoxExport | `![BoxExport](/help/assets/icons/BoxExport.svg)` | ![BoxExport](/help/assets/icons/BoxExport.svg) |
 | BoxImport | `![BoxImport](/help/assets/icons/BoxImport.svg)` | ![BoxImport](/help/assets/icons/BoxImport.svg) |
@@ -131,7 +131,7 @@ ht-degree: 14%
 | 대괄호 사각형 | `![BracketsSquare](/help/assets/icons/BracketsSquare.svg)` | ![대괄호](/help/assets/icons/BracketsSquare.svg) |
 | Branch1 | `![Branch1](/help/assets/icons/Branch1.svg)` | ![분기1](/help/assets/icons/Branch1.svg) |
 | Branch2 | `![Branch2](/help/assets/icons/Branch2.svg)` | ![분기2](/help/assets/icons/Branch2.svg) |
-| Branch3 | `![Branch3](/help/assets/icons/Branch3.svg)` | ![분기3](/help/assets/icons/Branch3.svg) |
+| Branch3 | `![Branch3](/help/assets/icons/Branch3.svg)` | ![Branch3](/help/assets/icons/Branch3.svg) |
 | 분기원 | `![BranchCircle](/help/assets/icons/BranchCircle.svg)` | ![BranchCircle](/help/assets/icons/BranchCircle.svg) |
 | 탐색 표시 | `![BreadcrumbNavigation](/help/assets/icons/BreadcrumbNavigation.svg)` | ![탐색 표시](/help/assets/icons/BreadcrumbNavigation.svg) |
 | 분류 | `![Breakdown](/help/assets/icons/Breakdown.svg)` | ![분류](/help/assets/icons/Breakdown.svg) |
@@ -145,7 +145,7 @@ ht-degree: 14%
 | 버튼 | `![Button](/help/assets/icons/Button.svg)` | ![단추](/help/assets/icons/Button.svg) |
 | 라이브러리 | `![CCLibrary](/help/assets/icons/CCLibrary.svg)` | ![라이브러리](/help/assets/icons/CCLibrary.svg) |
 | 계산기 | `![Calculator](/help/assets/icons/Calculator.svg)` | ![계산기](/help/assets/icons/Calculator.svg) |
-| 캘린더 | `![Calendar](/help/assets/icons/Calendar.svg)` | ![캘린더](/help/assets/icons/Calendar.svg) |
+| 캘린더 | `![Calendar](/help/assets/icons/Calendar.svg)` | ![Calendar](/help/assets/icons/Calendar.svg) |
 | 캘린더 추가 | `![CalendarAdd](/help/assets/icons/CalendarAdd.svg)` | ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) |
 | 캘린더 잠김 | `![CalendarLocked](/help/assets/icons/CalendarLocked.svg)` | ![캘린더 잠금](/help/assets/icons/CalendarLocked.svg) |
 | 캘린더 잠금 해제 | `![CalendarUnlocked](/help/assets/icons/CalendarUnlocked.svg)` | ![캘린더 잠금 해제](/help/assets/icons/CalendarUnlocked.svg) |
@@ -214,7 +214,7 @@ ht-degree: 14%
 | ConfidenceThree | `![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)` | ![신뢰도 3](/help/assets/icons/ConfidenceThree.svg) |
 | 신뢰도Two | `![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)` | ![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg) |
 | 대비 | `![Contrast](/help/assets/icons/Contrast.svg)` | ![대비](/help/assets/icons/Contrast.svg) |
-| 전환 단계 | `![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)` | ![전환 단계](/help/assets/icons/ConversionFunnel.svg) |
+| 전환 단계 | `![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)` | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) |
 | 전환 트렌드 | `![ConversionTrends](/help/assets/icons/ConversionTrends.svg)` | ![전환 트렌드](/help/assets/icons/ConversionTrends.svg) |
 | 복사 | `![Copy](/help/assets/icons/Copy.svg)` | ![복사](/help/assets/icons/Copy.svg) |
 | 커버 이미지 | `![CoverImage](/help/assets/icons/CoverImage.svg)` | ![표지 이미지](/help/assets/icons/CoverImage.svg) |
@@ -224,7 +224,7 @@ ht-degree: 14%
 | 자르기 회전 | `![CropRotate](/help/assets/icons/CropRotate.svg)` | ![회전 자르기](/help/assets/icons/CropRotate.svg) |
 | CrossSize75 | `![CrossSize75](/help/assets/icons/CrossSize75.svg)` | ![CrossSize75](/help/assets/icons/CrossSize75.svg) |
 | 십자선 | `![Crosshair](/help/assets/icons/Crosshair.svg)` | ![십자 모양](/help/assets/icons/Crosshair.svg) |
-| 조정 | `![Curate](/help/assets/icons/Curate.svg)` | ![조정](/help/assets/icons/Curate.svg) |
+| 조정 | `![Curate](/help/assets/icons/Curate.svg)` | ![Curate](/help/assets/icons/Curate.svg) |
 | 잘라내기 | `![Cut](/help/assets/icons/Cut.svg)` | ![잘라내기](/help/assets/icons/Cut.svg) |
 | 대시보드 | `![Dashboard](/help/assets/icons/Dashboard.svg)` | ![대시보드](/help/assets/icons/Dashboard.svg) |
 | 데이터 | `![Data](/help/assets/icons/Data.svg)` | ![데이터](/help/assets/icons/Data.svg) |
@@ -261,7 +261,7 @@ ht-degree: 14%
 | DeviceRotatePortrait | `![DeviceRotatePortrait](/help/assets/icons/DeviceRotatePortrait.svg)` | ![DeviceRotatePortrait](/help/assets/icons/DeviceRotatePortrait.svg) |
 | 디바이스 TV | `![DeviceTV](/help/assets/icons/DeviceTV.svg)` | ![장치 TV](/help/assets/icons/DeviceTV.svg) |
 | DeviceTablet | `![DeviceTablet](/help/assets/icons/DeviceTablet.svg)` | ![DeviceTablet](/help/assets/icons/DeviceTablet.svg) |
-| 차원 | `![Dimensions](/help/assets/icons/Dimensions.svg)` | ![차원](/help/assets/icons/Dimensions.svg) |
+| 차원 | `![Dimensions](/help/assets/icons/Dimensions.svg)` | ![Dimensions](/help/assets/icons/Dimensions.svg) |
 | Discover | `![Discover](/help/assets/icons/Discover.svg)` | ![Discover](/help/assets/icons/Discover.svg) |
 | DiscoverOutline | `![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)` | ![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg) |
 | 아래쪽 가장자리 분산 | `![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)` | ![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg) |
@@ -314,7 +314,7 @@ ht-degree: 14%
 | 이메일 새로 고침 | `![EmailRefresh](/help/assets/icons/EmailRefresh.svg)` | ![전자 메일 새로 고침](/help/assets/icons/EmailRefresh.svg) |
 | 이메일 예약 | `![EmailSchedule](/help/assets/icons/EmailSchedule.svg)` | ![전자 메일 예약](/help/assets/icons/EmailSchedule.svg) |
 | 참여 | `![Engagement](/help/assets/icons/Engagement.svg)` | ![참여](/help/assets/icons/Engagement.svg) |
-| 참여 그래프 | `![EngagementGraph](/help/assets/icons/EngagementGraph.svg)` | ![참여 그래프](/help/assets/icons/EngagementGraph.svg) |
+| 참여 그래프 | `![EngagementGraph](/help/assets/icons/EngagementGraph.svg)` | ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) |
 | 엔터프라이즈 | `![Enterprise](/help/assets/icons/Enterprise.svg)` | ![Enterprise](/help/assets/icons/Enterprise.svg) |
 | 지우기 | `![Erase](/help/assets/icons/Erase.svg)` | ![지우기](/help/assets/icons/Erase.svg) |
 | 이벤트 | `![Event](/help/assets/icons/Event.svg)` | ![이벤트](/help/assets/icons/Event.svg) |
@@ -367,7 +367,7 @@ ht-degree: 14%
 | 파일링 캐비닛 | `![FilingCabinet](/help/assets/icons/FilingCabinet.svg)` | ![캐비닛 정리](/help/assets/icons/FilingCabinet.svg) |
 | 필름롤 | `![Filmroll](/help/assets/icons/Filmroll.svg)` | ![필름롤](/help/assets/icons/Filmroll.svg) |
 | FilmrollAutoAdd | `![FilmrollAutoAdd](/help/assets/icons/FilmrollAutoAdd.svg)` | ![FilmrollAutoAdd](/help/assets/icons/FilmrollAutoAdd.svg) |
-| 필터링 | `![Filter](/help/assets/icons/Filter.svg)` | ![필터](/help/assets/icons/Filter.svg) |
+| 필터 | `![Filter](/help/assets/icons/Filter.svg)` | ![필터](/help/assets/icons/Filter.svg) |
 | 필터 추가 | `![FilterAdd](/help/assets/icons/FilterAdd.svg)` | ![필터 추가](/help/assets/icons/FilterAdd.svg) |
 | FilterCheck | `![FilterCheck](/help/assets/icons/FilterCheck.svg)` | ![FilterCheck](/help/assets/icons/FilterCheck.svg) |
 | 필터 색상 | `![FilterColored](/help/assets/icons/FilterColored.svg)` | ![FilterColored](/help/assets/icons/FilterColored.svg) |
@@ -377,7 +377,7 @@ ht-degree: 14%
 | 필터 제거 | `![FilterRemove](/help/assets/icons/FilterRemove.svg)` | ![FilterRemove](/help/assets/icons/FilterRemove.svg) |
 | 필터 별 | `![FilterStar](/help/assets/icons/FilterStar.svg)` | ![필터 별](/help/assets/icons/FilterStar.svg) |
 | 찾기 및 바꾸기 | `![FindAndReplace](/help/assets/icons/FindAndReplace.svg)` | ![찾기 및 바꾸기](/help/assets/icons/FindAndReplace.svg) |
-| FirstUse | `![FirstUse](/help/assets/icons/FirstUse.svg)` | ![처음 사용](/help/assets/icons/FirstUse.svg) |
+| FirstUse | `![FirstUse](/help/assets/icons/FirstUse.svg)` | ![FirstUse](/help/assets/icons/FirstUse.svg) |
 | 플래그 | `![Flag](/help/assets/icons/Flag.svg)` | ![플래그](/help/assets/icons/Flag.svg) |
 | FlagExclude | `![FlagExclude](/help/assets/icons/FlagExclude.svg)` | ![플래그 제외](/help/assets/icons/FlagExclude.svg) |
 | FlashAuto | `![FlashAuto](/help/assets/icons/FlashAuto.svg)` | ![FlashAuto](/help/assets/icons/FlashAuto.svg) |
@@ -439,9 +439,9 @@ ht-degree: 14%
 | 그레이디언트 | `![Gradient](/help/assets/icons/Gradient.svg)` | ![그라데이션](/help/assets/icons/Gradient.svg) |
 | 그래프 영역 | `![GraphArea](/help/assets/icons/GraphArea.svg)` | ![GraphArea](/help/assets/icons/GraphArea.svg) |
 | 그래프 영역 스택 | `![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)` | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) |
-| 그래프 가로 | `![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)` | ![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg) |
+| 그래프 가로 | `![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)` | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) |
 | 그래프 가로 추가 | `![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)` | ![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg) |
-| 그래프 가로 스택 | `![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)` | ![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg) |
+| 그래프 가로 스택 | `![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)` | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) |
 | 세로 그래프 막대 | `![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)` | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) |
 | 그래프 막대 세로 추가 | `![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)` | ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) |
 | 그래프 막대 세로 스택 | `![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)` | ![GraphBarVerticalStack](/help/assets/icons/GraphBarVerticalStacked.svg) |
@@ -451,7 +451,7 @@ ht-degree: 14%
 | 그래프 도넛 | `![GraphDonut](/help/assets/icons/GraphDonut.svg)` | ![GraphDonut](/help/assets/icons/GraphDonut.svg) |
 | 그래프 도넛 추가 | `![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)` | ![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg) |
 | GraphGantt | `![GraphGantt](/help/assets/icons/GraphGantt.svg)` | ![GraphGantt](/help/assets/icons/GraphGantt.svg) |
-| 그래프 막대 그래프 | `![GraphHistogram](/help/assets/icons/GraphHistogram.svg)` | ![그래프 히스토그램](/help/assets/icons/GraphHistogram.svg) |
+| 그래프 막대 그래프 | `![GraphHistogram](/help/assets/icons/GraphHistogram.svg)` | ![GraphHistogram](/help/assets/icons/GraphHistogram.svg) |
 | GraphPathing | `![GraphPathing](/help/assets/icons/GraphPathing.svg)` | ![GraphPathing](/help/assets/icons/GraphPathing.svg) |
 | 그래프 파이 | `![GraphPie](/help/assets/icons/GraphPie.svg)` | ![그래프파이](/help/assets/icons/GraphPie.svg) |
 | 그래프 이익 곡선 | `![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)` | ![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg) |
@@ -461,7 +461,7 @@ ht-degree: 14%
 | 그래프 스트림 등급 추가 | `![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)` | ![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg) |
 | GraphSunburst | `![GraphSunburst](/help/assets/icons/GraphSunburst.svg)` | ![GraphSunburst](/help/assets/icons/GraphSunburst.svg) |
 | 그래프 트리 | `![GraphTree](/help/assets/icons/GraphTree.svg)` | ![GraphTree](/help/assets/icons/GraphTree.svg) |
-| 그래프 트렌드 | `![GraphTrend](/help/assets/icons/GraphTrend.svg)` | ![그래프 트렌드](/help/assets/icons/GraphTrend.svg) |
+| 그래프 트렌드 | `![GraphTrend](/help/assets/icons/GraphTrend.svg)` | ![GraphTrend](/help/assets/icons/GraphTrend.svg) |
 | 그래프 트렌드 추가 | `![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)` | ![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg) |
 | 그래프 트렌드 경고 | `![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)` | ![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg) |
 | 그래픽 | `![Graphic](/help/assets/icons/Graphic.svg)` | ![그래픽](/help/assets/icons/Graphic.svg) |
@@ -587,7 +587,7 @@ ht-degree: 14%
 | 이동 | `![Move](/help/assets/icons/Move.svg)` | ![이동](/help/assets/icons/Move.svg) |
 | 왼쪽으로 이동 | `![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)` | ![왼쪽으로 이동](/help/assets/icons/MoveLeftRight.svg) |
 | 이동 위치 | `![MoveTo](/help/assets/icons/MoveTo.svg)` | ![이동](/help/assets/icons/MoveTo.svg) |
-| 위로 이동 | `![MoveUpDown](/help/assets/icons/MoveUpDown.svg)` | ![위로/아래로 이동](/help/assets/icons/MoveUpDown.svg) |
+| 위로 이동 | `![MoveUpDown](/help/assets/icons/MoveUpDown.svg)` | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) |
 | MovieCamera | `![MovieCamera](/help/assets/icons/MovieCamera.svg)` | ![MovieCamera](/help/assets/icons/MovieCamera.svg) |
 | 다수 | `![Multiple](/help/assets/icons/Multiple.svg)` | ![다중](/help/assets/icons/Multiple.svg) |
 | MultipleAdd | `![MultipleAdd](/help/assets/icons/MultipleAdd.svg)` | ![다중 추가](/help/assets/icons/MultipleAdd.svg) |
@@ -600,7 +600,7 @@ ht-degree: 14%
 | 새 플랜 | `![NewPlan](/help/assets/icons/NewPlan.svg)` | ![새 플랜](/help/assets/icons/NewPlan.svg) |
 | NewsAdd | `![NewsAdd](/help/assets/icons/NewsAdd.svg)` | ![뉴스 추가](/help/assets/icons/NewsAdd.svg) |
 | NoEdit | `![NoEdit](/help/assets/icons/NoEdit.svg)` | ![편집 안 함](/help/assets/icons/NoEdit.svg) |
-| 참고 | `![Note](/help/assets/icons/Note.svg)` | ![메모](/help/assets/icons/Note.svg) |
+| 메모 | `![Note](/help/assets/icons/Note.svg)` | ![메모](/help/assets/icons/Note.svg) |
 | 메모 추가 | `![NoteAdd](/help/assets/icons/NoteAdd.svg)` | ![메모 추가](/help/assets/icons/NoteAdd.svg) |
 | O | `![O](/help/assets/icons/O.svg)` | ![O](/help/assets/icons/O.svg) |
 | 오퍼 | `![Offer](/help/assets/icons/Offer.svg)` | ![오퍼](/help/assets/icons/Offer.svg) |
@@ -660,7 +660,7 @@ ht-degree: 14%
 | 개인 정보 보호 | `![Privacy](/help/assets/icons/Privacy.svg)` | ![개인정보 보호](/help/assets/icons/Privacy.svg) |
 | 프로그램 개요 | `![ProgramOverview](/help/assets/icons/ProgramOverview.svg)` | ![프로그램 개요](/help/assets/icons/ProgramOverview.svg) |
 | 프로젝트 | `![Project](/help/assets/icons/Project.svg)` | ![프로젝트](/help/assets/icons/Project.svg) |
-| 프로젝트 추가 | `![ProjectAdd](/help/assets/icons/ProjectAdd.svg)` | ![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) |
+| 프로젝트 추가 | `![ProjectAdd](/help/assets/icons/ProjectAdd.svg)` | ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) |
 | 프로젝트 편집 | `![ProjectEdit](/help/assets/icons/ProjectEdit.svg)` | ![프로젝트 편집](/help/assets/icons/ProjectEdit.svg) |
 | 프로젝트 이름 편집 | `![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)` | ![프로젝트 이름 편집](/help/assets/icons/ProjectNameEdit.svg) |
 | 홍보 | `![Promote](/help/assets/icons/Promote.svg)` | ![홍보](/help/assets/icons/Promote.svg) |
@@ -690,7 +690,7 @@ ht-degree: 14%
 | 다시 실행 | `![Redo](/help/assets/icons/Redo.svg)` | ![다시 실행](/help/assets/icons/Redo.svg) |
 | 새로 고침 | `![Refresh](/help/assets/icons/Refresh.svg)` | ![새로 고침](/help/assets/icons/Refresh.svg) |
 | 지역 선택 | `![RegionSelect](/help/assets/icons/RegionSelect.svg)` | ![지역 선택](/help/assets/icons/RegionSelect.svg) |
-| 릴리스 | `![Release](/help/assets/icons/Release.svg)` | ![릴리스](/help/assets/icons/Release.svg) |
+| 릴리스 | `![Release](/help/assets/icons/Release.svg)` | ![Release](/help/assets/icons/Release.svg) |
 | 관련성 | `![Relevance](/help/assets/icons/Relevance.svg)` | ![관련성](/help/assets/icons/Relevance.svg) |
 | 제거 | `![Remove](/help/assets/icons/Remove.svg)` | ![제거](/help/assets/icons/Remove.svg) |
 | RemoveCircle | `![RemoveCircle](/help/assets/icons/RemoveCircle.svg)` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
@@ -705,7 +705,7 @@ ht-degree: 14%
 | 필수 여부 | `![Required](/help/assets/icons/Required.svg)` | ![필요합니다](/help/assets/icons/Required.svg) |
 | 크기 조정 | `![Resize](/help/assets/icons/Resize.svg)` | ![크기 조정](/help/assets/icons/Resize.svg) |
 | ResolveComment | `![ResolvedComment](/help/assets/icons/ResolvedComment.svg)` | ![ResolvedComment](/help/assets/icons/ResolvedComment.svg) |
-| 유지 | `![Retention](/help/assets/icons/Retention.svg)` | ![유지](/help/assets/icons/Retention.svg) |
+| 유지 | `![Retention](/help/assets/icons/Retention.svg)` | ![Retention](/help/assets/icons/Retention.svg) |
 | 유지율 | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![유지 비율](/help/assets/icons/RetentionRates.svg) |
 | 리트윗 | `![Retweet](/help/assets/icons/Retweet.svg)` | ![리트윗](/help/assets/icons/Retweet.svg) |
 | 재사용 | `![Reuse](/help/assets/icons/Reuse.svg)` | ![재사용](/help/assets/icons/Reuse.svg) |
@@ -739,7 +739,7 @@ ht-degree: 14%
 | 시트 | `![Seat](/help/assets/icons/Seat.svg)` | ![시트](/help/assets/icons/Seat.svg) |
 | 시트 추가 | `![SeatAdd](/help/assets/icons/SeatAdd.svg)` | ![시트 추가](/help/assets/icons/SeatAdd.svg) |
 | 세그먼트 | `![Segment](/help/assets/icons/Segment.svg)` | ![세그먼트](/help/assets/icons/Segment.svg) |
-| 세그먼테이션 | `![Segmentation](/help/assets/icons/Segmentation.svg)` | ![세분화](/help/assets/icons/Segmentation.svg) |
+| 세그먼테이션 | `![Segmentation](/help/assets/icons/Segmentation.svg)` | ![Segmentation](/help/assets/icons/Segmentation.svg) |
 | 선택 | `![Select](/help/assets/icons/Select.svg)` | ![선택](/help/assets/icons/Select.svg) |
 | SelectAdd | `![SelectAdd](/help/assets/icons/SelectAdd.svg)` | ![추가 선택](/help/assets/icons/SelectAdd.svg) |
 | SelectBox | `![SelectBox](/help/assets/icons/SelectBox.svg)` | ![SelectBox](/help/assets/icons/SelectBox.svg) |
@@ -780,7 +780,7 @@ ht-degree: 14%
 | 분할 영역 | `![Slice](/help/assets/icons/Slice.svg)` | ![슬라이스](/help/assets/icons/Slice.svg) |
 | 느림 | `![Slow](/help/assets/icons/Slow.svg)` | ![느림](/help/assets/icons/Slow.svg) |
 | SmallCap | `![SmallCap](/help/assets/icons/SmallCap.svg)` | ![작은 대문자](/help/assets/icons/SmallCap.svg) |
-| 스냅샷 | `![Snapshot](/help/assets/icons/Snapshot.svg)` | ![스냅숏](/help/assets/icons/Snapshot.svg) |
+| 스냅샷 | `![Snapshot](/help/assets/icons/Snapshot.svg)` | ![스냅샷](/help/assets/icons/Snapshot.svg) |
 | 소셜 네트워크 | `![SocialNetwork](/help/assets/icons/SocialNetwork.svg)` | ![소셜 네트워크](/help/assets/icons/SocialNetwork.svg) |
 | 정렬 순서 아래로 | `![SortOrderDown](/help/assets/icons/SortOrderDown.svg)` | ![SortOrderDown](/help/assets/icons/SortOrderDown.svg) |
 | 정렬 순서 | `![SortOrderUp](/help/assets/icons/SortOrderUp.svg)` | ![SortOrderUp](/help/assets/icons/SortOrderUp.svg) |
@@ -820,7 +820,7 @@ ht-degree: 14%
 | 전환 | `![Switch](/help/assets/icons/Switch.svg)` | ![전환](/help/assets/icons/Switch.svg) |
 | 동기화 | `![Sync](/help/assets/icons/Sync.svg)` | ![동기화](/help/assets/icons/Sync.svg) |
 | SyncRemove | `![SyncRemove](/help/assets/icons/SyncRemove.svg)` | ![SyncRemove](/help/assets/icons/SyncRemove.svg) |
-| 표 | `![Table](/help/assets/icons/Table.svg)` | ![테이블](/help/assets/icons/Table.svg) |
+| 테이블 | `![Table](/help/assets/icons/Table.svg)` | ![테이블](/help/assets/icons/Table.svg) |
 | 테이블 추가 | `![TableAdd](/help/assets/icons/TableAdd.svg)` | ![테이블 추가](/help/assets/icons/TableAdd.svg) |
 | 테이블 및 차트 | `![TableAndChart](/help/assets/icons/TableAndChart.svg)` | ![테이블 및 차트](/help/assets/icons/TableAndChart.svg) |
 | 테이블 열 추가 왼쪽 | `![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg)` | ![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg) |
@@ -908,7 +908,7 @@ ht-degree: 14%
 | 트리밍 경로 | `![TrimPath](/help/assets/icons/TrimPath.svg)` | ![TrimPath](/help/assets/icons/TrimPath.svg) |
 | 트로피 | `![Trophy](/help/assets/icons/Trophy.svg)` | ![트로피](/help/assets/icons/Trophy.svg) |
 | 두 점 | `![TwoDots](/help/assets/icons/TwoDots.svg)` | ![두 점](/help/assets/icons/TwoDots.svg) |
-| 유형 | `![Type](/help/assets/icons/Type.svg)` | ![유형](/help/assets/icons/Type.svg) |
+| 유형 | `![Type](/help/assets/icons/Type.svg)` | ![Type](/help/assets/icons/Type.svg) |
 | USA | `![USA](/help/assets/icons/USA.svg)` | ![미국](/help/assets/icons/USA.svg) |
 | 밑줄 | `![Underline](/help/assets/icons/Underline.svg)` | ![밑줄](/help/assets/icons/Underline.svg) |
 | 실행 취소 | `![Undo](/help/assets/icons/Undo.svg)` | ![실행 취소](/help/assets/icons/Undo.svg) |
@@ -948,11 +948,11 @@ ht-degree: 14%
 | ViewDay | `![ViewDay](/help/assets/icons/ViewDay.svg)` | ![ViewDay](/help/assets/icons/ViewDay.svg) |
 | ViewDetail | `![ViewDetail](/help/assets/icons/ViewDetail.svg)` | ![세부 정보 보기](/help/assets/icons/ViewDetail.svg) |
 | ViewGrid | `![ViewGrid](/help/assets/icons/ViewGrid.svg)` | ![ViewGrid](/help/assets/icons/ViewGrid.svg) |
-| ViewList | `![ViewList](/help/assets/icons/ViewList.svg)` | ![목록 보기](/help/assets/icons/ViewList.svg) |
+| ViewList | `![ViewList](/help/assets/icons/ViewList.svg)` | ![ViewList](/help/assets/icons/ViewList.svg) |
 | ViewRow | `![ViewRow](/help/assets/icons/ViewRow.svg)` | ![ViewRow](/help/assets/icons/ViewRow.svg) |
 | 단일 보기 | `![ViewSingle](/help/assets/icons/ViewSingle.svg)` | ![ViewSingle](/help/assets/icons/ViewSingle.svg) |
 | ViewStack | `![ViewStack](/help/assets/icons/ViewStack.svg)` | ![ViewStack](/help/assets/icons/ViewStack.svg) |
-| ViewTable | `![ViewTable](/help/assets/icons/ViewTable.svg)` | ![테이블 보기](/help/assets/icons/ViewTable.svg) |
+| ViewTable | `![ViewTable](/help/assets/icons/ViewTable.svg)` | ![ViewTable](/help/assets/icons/ViewTable.svg) |
 | ViewWeek | `![ViewWeek](/help/assets/icons/ViewWeek.svg)` | ![ViewWeek](/help/assets/icons/ViewWeek.svg) |
 | 조회함 표시 | `![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)` | ![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg) |
 | 비네팅 | `![Vignette](/help/assets/icons/Vignette.svg)` | ![비네팅](/help/assets/icons/Vignette.svg) |

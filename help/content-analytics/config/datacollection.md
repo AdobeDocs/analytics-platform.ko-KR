@@ -8,7 +8,7 @@ exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Content Analytics 이벤트는 다음의 시퀀스로 수집됩니다.
 1. [기록된 보기 또는 클릭](#recorded-view-or-click).
 1. [Content Analytics 이벤트를 전송하는 트리거](#trigger-to-send-a-content-analytics-event).
 
-Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라, 보기 또는 클릭을 별도로 수집하여 해당 보기 또는 클릭 직후의 이벤트를 수집하는 방식으로 데이터를 수집하여 그 순서를 반영합니다. 이러한 Content Analytics 데이터 수집 방법은 수집된 데이터의 양도 줄입니다.
+Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라, 보기 또는 클릭을 별도로 수집하여 해당 보기 또는 클릭 직후의 이벤트를 수집하는 방식으로 데이터를 수집하여 그 순서를 반영합니다. 이러한 방식을 사용하여 Content Analytics 데이터를 수집하면 수집되는 데이터 양도 줄어듭니다.
 
 ### 기록된 보기 또는 클릭
 

@@ -13,9 +13,9 @@ ht-degree: 41%
 
 # Target 보고
 
-Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 Adobe Target 활동을 측정하고 보고할 수 있습니다. 이 기능은 Analytics for Target(A4T)을 통해 Adobe Analytics(AA)에서 수행되는 것과 비슷하지만 Adobe Experience Platform(AEP)에 연결된 것과 비슷합니다.
+Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 Adobe Target 활동을 측정하고 보고할 수 있습니다. 이 기능은 Analytics for Target(A4T)을 통해 Adobe Analytics(AA)에서 수행되는 것과 비슷하지만 Adobe Experience Platform(AEP)에 대한 연결을 통해 수행됩니다.
 
-이제 Customer Journey Analytics 연결에 Target Experience Platform 조회 데이터 세트(기본적으로 분류에서 사용 가능)를 추가하면 사용자가 Target 보고 도구, Target 주문 속성 및 기타 기능에 적절히 노출될 수 있습니다. Customer Journey Analytics 데이터 보기 내에서 약간의 준비와 조정만 수행하면 Target 데이터를 CJA로 직접 전송하려는 모든 사용자가 이러한 활동을 즉시 사용할 수 있습니다.
+이제 Experience Platform에서 기본적으로 사용할 수 있는 Target 분류 조회 데이터 세트를 Customer Journey Analytics 연결에 추가하여 사용자가 Target 보고 도구, Target 주문 속성 및 기타 기능에 적절히 노출할 수 있습니다. Customer Journey Analytics 데이터 보기 내에서 약간의 준비와 조정만 수행하면 Target 데이터를 CJA으로 직접 전송하려는 모든 사용자가 이러한 활동을 즉시 사용할 수 있습니다.
 
 ## 주요 이점
 
@@ -25,7 +25,7 @@ Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Ana
 
 ## 참고 사항 및 고려 사항
 
-Target 분류 이벤트 데이터 세트가 CJA 연결에 추가되면 이들 구성 요소가 차원으로 추가되면 CJA 데이터 보기 내에서 다음과 같은 몇 가지 사소한 조정을 수행할 수 있습니다.
+Target 분류 이벤트 데이터 세트가 CJA 연결에 추가되면 이들 구성 요소가 차원으로 추가되면 CJA 데이터 보기 내에서 다음과 같은 몇 가지 사항을 약간 조정할 수 있습니다.
 
 * 지속성을 Target에서 추적하는 방식과 유사하게 설정합니다(적절한 설정이 있는지 Target 컨설턴트 또는 고객에게 확인).
 

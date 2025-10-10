@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 100%
 
@@ -98,29 +98,29 @@ ht-degree: 100%
 
    이 프로세스는 Adobe Analytics를 구현하는 데 사용한 데이터 수집 방법에 따라 다릅니다.
 
-+++ AppMeasurement
+   +++ AppMeasurement
 
    [AppMeasurement 데이터 수집 비활성화](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md).
 
-+++
+   +++
 
-+++ Analytics 확장 기능(태그)
+   +++ Analytics 확장 기능(태그)
 
    태그에서 Analytics 확장 기능 비활성화.
 
-+++
+   +++
 
-+++ API
+   +++ API
 
    API 데이터 수집 비활성화.
 
-+++
+   +++
 
-+++ 서드파티
+   +++ 서드파티
 
    태그 관리자와 협력하여 서드파티 태그 관리 시스템에서 AppMeasurement 라이브러리를 제거합니다.
 
-+++
+   +++
 
 1. 데이터스트림에서 Adobe Analytics as a Service 제거.
 

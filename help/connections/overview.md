@@ -6,8 +6,8 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
-workflow-type: ht
-source-wordcount: '257'
+workflow-type: tm+mt
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring conn
 | ➋ | 수집, 건너뛰기 또는 삭제된 데이터 세트 레코드와 같은 [연결의 세부 사항을 검사합니다](manage-connections.md#connection-details). |
 | ➌ | 롤링 데이터 창, 사용할 샌드박스, 연결에 포함된 데이터 세트 등과 같은 [연결 구성을 만들거나 편집합니다](create-connection.md#create-or-edit-a-connection). |
 | ➍ | [연결에 데이터 추가](create-connection.md#add-datasets). 연결에는 최소한 하나의 이벤트 또는 요약 데이터 세트가 있어야 하지만 다양한 이벤트, 프로필, 조회 및 요약 데이터 세트를 포함할 수 있습니다. |
-| ➎ | 추가할 데이터 세트의 [설정을 구성합니다.](create-connection.md#dataset-settings) 공통된 개인 기반 또는 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 계정 기반 식별자에 따라 다양한 데이터 세트를 연결하는 방법을 결정할 수 있습니다. |
+| ➎ | 추가할 데이터 세트의 [설정을 구성합니다.](create-connection.md#dataset-settings) 공통된 개인 기반 또는 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정 기반 식별자에 따라 다양한 데이터 세트를 연결하는 방법을 결정할 수 있습니다. |
 | ➏ | [기존 데이터 세트의 설정 편집](create-connection.md#edit-a-dataset). 데이터 세트 설정은 나중에 언제든지 다시 확인할 수 있습니다. |
 
 

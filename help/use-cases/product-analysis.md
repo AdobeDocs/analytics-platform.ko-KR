@@ -17,7 +17,7 @@ Customer Journey Analytics은 다음과 같은 기능을 통해 제품 경험을
 
 * **규모에 맞게 제품 데이터 관리**: 비즈니스 요구 사항에 맞게 제품 데이터를 손쉽게 수집, 변환 및 관리하여 신뢰할 수 있는 통찰력을 보장합니다.
 * **획득 및 활성화 측정**: 새 사용자가 제품을 발견하고 첫 번째 가치 창출 이벤트에 참여하는 방법을 추적합니다.
-* **참여 및 채택 측정**: 사용자가 제품 단계를 통해 어떻게 진행되는지 이해하고, 마찰 지점을 식별하고, 주요 기능의 채택을 추적합니다.
+* **참여 및 채택 측정**: 사용자가 제품 funnel을 통해 어떻게 진행되는지 이해하고, 마찰 지점을 식별하며, 주요 기능의 채택을 추적합니다.
 * **유지 및 이탈 측정**: 시간 경과에 따른 사용자 유지를 분석하고 이탈의 지표를 식별하며 이탈을 줄이고 충성도를 높이기 위한 전략을 개발합니다.
 * **작업 제품 인사이트**: 데이터 기반 인사이트를 실행 가능한 전략으로 전환하여 사용자 경험을 개선하고 지속적인 제품 성장을 촉진합니다.
 * **조직과 통찰력 공유**: 팀 간에 주요 결과를 전달하여 노력을 조정하고, 공동 작업을 촉진하고, 모든 사람이 공유된 제품 및 비즈니스 목표를 향해 나아가도록 합니다.
@@ -31,19 +31,19 @@ Customer Journey Analytics은 이러한 기능을 활용하여 제품의 잠재�
 Adobe Experience Platform 및 Customer Journey Analytics의 다음 기능을 통해 제품 데이터를 규모에 맞게 수집 및 관리할 수 있습니다.
 
 * Adobe Experience Platform
-   * [데이터 &#x200B; 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)
+   * [데이터 &#x200B; 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
    * [데이터 &#x200B; 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home)
-   * [데이터 Distiller{&#x200B;1}](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview)
+   * [데이터 Distiller{&#x200B;1}](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [연결 &#x200B;](/help/connections/overview.md)
-   * [파생 필드](/help/data-views/derived-fields/derived-fields.md)을(를) 포함한 [데이터 &#x200B; 보기](/help/data-views/data-views.md)
+   * [파생 필드](/help/data-views/data-views.md)을(를) 포함한 [데이터 &#x200B; 보기](/help/data-views/derived-fields/derived-fields.md)
    * [세그먼트 &#x200B;](/help/components/segments/seg-overview.md)
    * [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)
    * [안내식 분석&#x200B;: 타임라인 &#x200B;](/help/guided-analysis/types/timeline.md)
 
 ## 획득 및 활성화 측정
 
-제품 성장은 새로운 사용자를 유치하고, 전환 경로를 공개하며, 여정에서 발생하는 마찰을 제거하는 실행 가능한 깔때기형 통찰력에 달려 있습니다.
+제품 성장은 새로운 사용자를 유치하고, 전환 경로를 공개하며, 여정에 따른 마찰을 제거하는 실행 가능한 funnel 최고 수준의 통찰력에 달려 있습니다.
 
 * 고객 확보 기능은 도착 방법, 가장 효과적이거나 가장 낮은 노력 등 제품에 들어오는 신규 사용자를 추적합니다.
 * 활성화 는 특정 목표에 따라 정의된 첫 번째 값 이벤트에 참여하는 신규 사용자를 모니터링합니다.
@@ -60,7 +60,7 @@ Customer Journey Analytics의 다음 기능을 사용하면 획득과 활성화�
 
 ## 참여 및 채택 측정
 
-새 사용자를 획득하면 제품 단계의 맨 위가 확장됩니다. 참여는 이러한 사용자를 단계를 더 아래로 안내하고 성공에 대한 장애물을 제거하는 데 중점을 둡니다. 그들의 성공은 직접적으로 귀사의 비즈니스 성공을 이끈다.
+새 사용자를 획득하면 제품 funnel의 상단이 확장됩니다. 참여는 이러한 사용자를 funnel으로 더 아래로 안내하고 성공에 대한 장애물을 제거하는 데 중점을 둡니다. 그들의 성공은 직접적으로 귀사의 비즈니스 성공을 이끈다.
 
 ![참여 분석](/help/guided-analysis/assets/feature-matrix.png)
 
@@ -69,7 +69,7 @@ Customer Journey Analytics의 다음 기능을 통해 제품 참여 및 채택�
 * [가이드 분석: 참여](/help/guided-analysis/types/engagement.md)
 * [안내식 분석: 트렌드](/help/guided-analysis/types/trends.md)
 * [안내식 분석: 빈도](/help/guided-analysis/types/frequency.md)
-* [안내식 분석: 단계](/help/guided-analysis/types/funnel.md)
+* [안내식 분석: Funnel](/help/guided-analysis/types/funnel.md)
 * [안내식 분석: 전환 트렌드](/help/guided-analysis/types/conversion-trends.md)
 * [가이드 분석: 릴리스 영향](/help/guided-analysis/types/release-impact.md)
 * [안내식 분석: 첫 번째 사용 &#x200B; 영향](/help/guided-analysis/types/first-use-impact.md)
@@ -99,8 +99,8 @@ Experience Cloud 내의 다음 기능을 사용하면 통찰력에 효과적으�
 * Customer Journey Analytics 활성화를 위해 [대상 만들기 및 게시{&#x200B;1}](/help/components/audiences/publish.md)
 * Experience Cloud 제품을 통해 대상자 활성화:
    * AJO 및 Adobe Target에서 [실험을 실행](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment)하고 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)을 사용하여 Customer Journey Analytics의 변형의 영향을 측정합니다.
-   * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview)&#x200B;
+   * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
+* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview)&#x200B;
 
 ## 조직에 인사이트 &#x200B; 공유
 

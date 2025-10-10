@@ -7,7 +7,7 @@ exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 여정 캔버스에서 여정의 뒤에 오는 노드의 경우 여정 앞에 오는 노드보다 더 높은 비율이나 개수 카운트를 표시할 수 있습니다.
 
-즉, 항상 단계 모양의 (각 단계에 따라 참여가 감소하면서) 폴아웃 시각화와는 달리, 여정 캔버스 시각화는 이전 단계보다 여정의 이후 단계에서 더 높은 참여도를 가질 수 있습니다.
+즉, 항상 funnel 형태인 폴아웃 시각화와는 달리(각 단계에 따라 참여도가 감소함), 여정 캔버스 시각화는 이전 단계보다 여정의 이후 단계에서 더 높은 참여도를 가질 수 있습니다.
 
 이 문제는 다음 시나리오에서 발생할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 이 예제에서 여정의 컨테이너 설정인 &quot;Person&quot;은 세 번째 노드(&quot;Check out&quot;)의 이벤트가 후속 세션에서 계산되는지 확인하는 데 중요한 역할을 합니다.
 
-또는 여정 설정이 &quot;세션&quot;으로 설정된 경우 컨테이너에 표시된 통계가 지정된 사용자에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 계산되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
+또는 여정 설정이 &quot;세션&quot;으로 설정된 경우 컨테이너에 표시된 통계가 지정된 사용자에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 계산되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)에서 [여정 캔버스 시각화 만들기 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하세요.
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
@@ -115,7 +115,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++
 
-+++합계의 백분율
++++전체 백분율
 
 **[!UICONTROL 백분율 값]** 필드가 **[!UICONTROL 총]**&#x200B;의 백분율로 설정된 경우 이 여정의 노드에는 다음 통계가 포함됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 세그먼테이션 개요
+title: 세분화 개요
 description: 세그먼트를 사용하는 이유 및 간단한 세그먼트를 만드는 방법을 이해합니다.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
@@ -7,7 +7,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -207,7 +207,7 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 >[!MORELIKETHIS]
 >
 >[세그먼트 만들기](seg-create.md)
->&#x200B;>[세그먼트 빌더](seg-builder.md)
->&#x200B;>[빠른 세그먼트](seg-quick.md)
->&#x200B;>[순차적 세그먼트](seg-sequential-build.md)
->&#x200B;>[세그먼트 관리](seg-manage.md)
+>>[세그먼트 빌더](seg-builder.md)
+>>[빠른 세그먼트](seg-quick.md)
+>>[순차적 세그먼트](seg-sequential-build.md)
+>>[세그먼트 관리](seg-manage.md)

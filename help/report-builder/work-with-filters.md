@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# 세그먼트 작업
+# 세그먼트를 사용한 작업
 
 새 데이터 블록을 만들거나 **[!UICONTROL 명령]** 패널에서 **[!UICONTROL 데이터 블록 편집]**&#x200B;을 선택하면 세그먼트를 적용할 수 있습니다.
 
@@ -29,14 +29,14 @@ ht-degree: 6%
 
 * 또는
 
-   1. **[!UICONTROL 테이블]** 창에서 특정 지표에 대해 ![MoreSmall](/help/assets/icons/MoreSmall.svg)을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
+   1. ![테이블](/help/assets/icons/MoreSmall.svg) 창에서 특정 지표에 대해 **[!UICONTROL MoreSmall]**&#x200B;을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
 
       지표를 표시하는 ![세그먼트 탭](./assets/filter-metric.png){zoomable="yes"}
 
    1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
 
       ![적용된 세그먼트](assets/segments-applied.png)
-   1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
+   1. ![적용된 세그먼트](/help/assets/icons/CrossSize75.svg) 목록에서 세그먼트를 제거하려면 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 적용된 필터를 보려면 테이블 창에서 지표 위로 마우스를 이동하거나 선택합니다. 세그먼트가 적용된 지표에는 세그먼트 아이콘이 표시됩니다.
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 
    1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
-   1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
+   1. ![적용된 세그먼트](/help/assets/icons/CrossSize75.svg) 목록에서 세그먼트를 제거하려면 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 Report Builder에 적용된 세그먼트 변경 사항을 확인하는 메시지가 표시됩니다.

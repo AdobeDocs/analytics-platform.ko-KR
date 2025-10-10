@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 글머리 기호 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 글머리 기호 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/30858/?quality=12/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -58,12 +58,12 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**&#x200B;는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**&#x200B;와&#x200B;**[!UICONTROL &#x200B;중간 목표&#x200B;]**&#x200B;는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**&#x200B;옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
+| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**와**[!UICONTROL &#x200B;중간 목표&#x200B;]**는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -79,7 +79,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 * 시각화를 축소하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다.
 * 축소된 시각화를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 선택합니다.
-* 시각화를 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd+z *]**)를 선택하십시오. |**[!UICONTROL * ctrl+z *]**).
+* 시각화를 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오. 실행 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *Cmd+Z *]**|**[!UICONTROL * Ctrl+Z *]**)를 선택합니다.
 * 시각화를 기본 높이로 되돌리려면 ![ImageResize](/help/assets/icons/Resize.svg)을(를) 선택합니다.
 * 패널 내에서 시각화를 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 시각화를 끌어서 놓습니다.
 

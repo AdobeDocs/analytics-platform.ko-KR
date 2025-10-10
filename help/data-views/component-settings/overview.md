@@ -59,7 +59,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/3412938/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -388,7 +388,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 대체 종료 (AJO) | 프로필이 최종 노드에 도달하거나 오류로 인해 실패하여 발생하지 않은 종료 횟수입니다. |
 | 앱 설치 (AJO) | 앱 설치 수. |
 | 앱 실행 (AJO) | 모바일 앱을 시작한 횟수입니다. |
-| 배치 ID (AJO) | 예약된 여정 또는 캠페인 액션에 대해 각각의 새 일괄 처리 인스턴스를 호출할 때 생성되는 GUID입니다. 예를 들어 예약된 여정 또는 캠페인 작업이 오전 8.00과 오전 10.00에 실행되는 경우 두 개의 서로 다른 batchInstanceID가 있습니다. |
+| 배치 ID (AJO) | 예약된 여정 또는 캠페인 액션에 대해 각각의 새 배치 인스턴스를 호출할 때 생성되는 GUID입니다. 예를 들어 예약된 여정 또는 캠페인 작업이 오전 8.00과 오전 10.00에 실행되는 경우 두 개의 서로 다른 batchInstanceID가 있습니다. |
 | 배치 인스턴스 타임스탬프 (AJO) | 배치 인스턴스의 타임스탬프입니다. |
 | 아웃바운드 채널에 대한 바운스 (사용되지 않음) | 아웃바운드 채널을 통해 반송된 총 메시지 수입니다. |
 | 캠페인 액션 이름 (AJO) | 캠페인 액션의 이름입니다. |

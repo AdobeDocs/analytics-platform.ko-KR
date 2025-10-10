@@ -47,7 +47,7 @@ Customer Journey Analytics에서 사람들이 디지털 경험과 상호 작용�
 
    2. **[!UICONTROL 지표를 사용하여 새 세션 시작]** 아래의 **[!UICONTROL 여기에 지표 놓기]** 목록에서 지표를 선택합니다. 또는 **[!UICONTROL 지표 필드 놓기]**&#x200B;의 왼쪽 창에서 지표를 드래그 앤 드롭할 수 있습니다. 선택한 지표는 새 세션의 시작을 정의합니다. 지표를 여러 개 정의할 수 있습니다.
 
-      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 앱을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서 **[!UICONTROL appInteraction]** **[!UICONTROL 이름]** 스키마 필드를 기반으로 하는 **[!UICONTROL Launch]**(이)라는 유형 지표의 구성 요소를 정의합니다. 값이 `launch`와(과) 일치하는 경우에만 값을 계산하도록 **[!UICONTROL Launch]** 지표 구성 요소를 추가로 지정합니다.
+      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 앱을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서 **[!UICONTROL appInteraction]** **[!UICONTROL 이름]** 스키마 필드를 기반으로 하는 **[!UICONTROL Launch]**(이)라는 유형 지표의 구성 요소를 정의합니다. 값이 **[!UICONTROL 와(과) 일치하는 경우에만 값을 계산하도록]** Launch`launch` 지표 구성 요소를 추가로 지정합니다.
 
       ![앱 인터랙션 지표 구성 요소 론치](assets/component-launches.png)
 

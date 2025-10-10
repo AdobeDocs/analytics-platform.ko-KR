@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
 source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >한 사용자에서 다른 사용자로 1:1 전송만 가능합니다. 일대다 또는 다대일 전송은 지원되지 않습니다.
+   >한 사용자에서 다른 사용자로 1:1 전송만 수행할 수 있습니다. 일대다 또는 다대일 전송은 지원되지 않습니다.
 
 
 1. 사용자를 선택하면 화면 하단에 자산 전송 옵션이 나타납니다.

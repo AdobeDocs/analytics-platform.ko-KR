@@ -12,11 +12,11 @@ ht-degree: 7%
 
 ---
 
-# 예제 사용자 기반 B2B 프로젝트
+# 개인 기반 B2B 프로젝트의 예
 
-이 문서에서는 일반적인 사용자 기반 B2B 설정의 컨텍스트 내에서 개인 데이터에 대해 Customer Journey Analytics에서 올바르게 보고하려는 사용 사례를 보여줍니다. 이러한 구성은 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)에서 용이하게 수행됩니다.  사용 사례에서는 Customer Journey Analytics에서 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 설명합니다.
+이 문서에서는 일반적인 사용자 기반 B2B 설정의 컨텍스트 내에서 개인 데이터에 대해 Customer Journey Analytics에서 올바르게 보고하려는 사용 사례를 보여줍니다. 이러한 구성은 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)에서 용이하게 수행됩니다.  사용 사례에서는 Customer Journey Analytics에서 B2B 데이터를 기반으로 프로필(개인) 수준을 설정, 구성 및 보고하는 방법을 설명합니다.
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 계정 기반 보고 사용 사례에 대한 별도의 섹션이 [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md) 릴리스와 함께 게시됩니다.
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정 기반 보고 사용 사례에 대한 별도의 섹션이 [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md) 릴리스와 함께 게시됩니다.
 
 ## 연결
 
@@ -43,7 +43,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 -->
 
 
-B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-Time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
+B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-Time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
 
 
 B2B 데이터의 개인 기반 조회를 지원하는 연결을 적절하게 설정하려면 개요를 보려면 다음 그림을 사용하고 다음 단계를 수행하십시오.
@@ -62,14 +62,14 @@ B2B 데이터의 개인 기반 조회를 지원하는 연결을 적절하게 설
    |---|---|---|---| 
    | B2B 활동 데이터 세트 | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B 개인 데이터 세트 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B 계정 데이터 세트 | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>(B2B 개인 데이터 세트)<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | B2B 영업 기회 데이터 세트 | | Source 키&#x200B;<br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey<br/>(B2B 영업 기회 관계 데이터 세트)<br/>**opportunityKey.sourceKey**&#x200B;❷ |
-   | B2B 캠페인 데이터 세트 | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>(B2B 캠페인 멤버 데이터 세트)<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | B2B 마케팅 목록 데이터 세트 | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>(B2B 마케팅 목록 구성원 데이터 세트)<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | B2B 계정 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**&#x200B;❺ |
-   | B2B 영업 기회 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**&#x200B;❻ |
-   | B2B 캠페인 멤버 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**&#x200B;❼ |
-   | B2B 마케팅 목록 구성원 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**&#x200B;❽ |
+   | B2B 계정 데이터 세트 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>(B2B 개인 데이터 세트)<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B 영업 기회 데이터 세트 | | Source 키&#x200B;<br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>(B2B 영업 기회 관계 데이터 세트)<br/>**opportunityKey.sourceKey**❷ |
+   | B2B 캠페인 데이터 세트 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(B2B 캠페인 멤버 데이터 세트)<br/>**campaignKey.sourceKey**❸<br/> |
+   | B2B 마케팅 목록 데이터 세트 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(B2B 마케팅 목록 구성원 데이터 세트)<br/>**marketingListKey.sourceKey**❹ |
+   | B2B 계정 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❺ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❺ |
+   | B2B 영업 기회 사용자 관계 데이터 세트 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❻ |
+   | B2B 캠페인 멤버 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❼ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❼ |
+   | B2B 마케팅 목록 구성원 데이터 세트 | | SourceKey <br/>**personKey.sourceKey**❽ | Source 키<br/>(이벤트 데이터 세트)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -82,7 +82,7 @@ Workspace 프로젝트를 작성할 때 관련 B2B 차원 및 지표에 액세�
 
 예를 들어 데이터 보기에 다음 구성 요소를 추가하여 B2B 데이터를 기반으로 개인 기반 수준에 대해 보고할 수 있습니다. 구성 요소 이름은 원래 스키마 이름과 명확하게 일치하도록 수정되는 경우가 있습니다.
 
-+++지표
++++지표 
 
 | 구성 요소 이름 | 데이터 세트 | 데이터 유형 | 스키마 경로 |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Workspace 프로젝트를 작성할 때 관련 B2B 차원 및 지표에 액세�
 | 업종 | B2B 계정 데이터 세트 | 문자열 | accountOrganization.industry |
 | 성 | B2B 개인 데이터 세트 | 문자열 | person.name.lastName |
 | 마케팅 목록 이름 | B2B 마케팅 목록 데이터 세트 | 문자열 | marketingListName |
-| 영업 기회 이름 | B2B 영업 기회 데이터 세트 | 문자열 | opportunityName |
+| 기회 이름 | B2B 영업 기회 데이터 세트 | 문자열 | opportunityName |
 | 영업 기회 단계 | B2B 영업 기회 데이터 세트 | 문자열 | opportunityStage |
 | 영업 기회 유형 | B2B 영업 기회 유형 데이터 세트 | 문자열 | opportunityType |
 | 웨비나 세션 이름 | B2B 캠페인 데이터 세트 | 문자열 | 웨비나 세션 이름 |

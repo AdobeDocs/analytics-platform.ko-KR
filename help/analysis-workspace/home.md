@@ -7,7 +7,7 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -94,7 +94,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 |---|---|---|---|
 | **[!UICONTROL 빈 패널]** | **[!UICONTROL *Opt+B *]** | **[!UICONTROL *Alt+B *]** | [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md)을 삽입합니다. |
 | **[!UICONTROL 미디어 동시 뷰어]** | **[!UICONTROL *Opt+H *]** | **[!UICONTROL *Alt-H *]** | [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 패널을 삽입합니다. |
-| **[!UICONTROL 미디어 재생 소요 시간]** | **[!UICONTROL *Opt+I *]** | **[!UICONTROL *Alt+I *]** | [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널을 삽입합니다. |
+| **[!UICONTROL 미디어 재생 체류 시간]** | **[!UICONTROL *Opt+I *]** | **[!UICONTROL *Alt+I *]** | [미디어 재생 체류 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널을 삽입합니다. |
 | **[!UICONTROL 미디어 평균 분당 시청 대상자]** | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** | [미디어 평균 분당 시청 대상자](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널을 삽입합니다. |
 | **[!UICONTROL 속성]** | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** | [속성](/help/analysis-workspace/c-panels/attribution.md) 패널을 삽입합니다. |
 | **[!UICONTROL 자유 형식]** | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** | [자유 형식](/help/analysis-workspace/c-panels/freeform-panel.md) 패널을 삽입합니다. |

@@ -12,7 +12,7 @@ ht-degree: 20%
 
 # Customer Journey Analytics에서 사용하는 도메인
 
-일부 방화벽 구성은 Customer Journey Analytics이 제품 인터페이스에 의존하는 도메인을 차단합니다. 이 도메인 목록을 사용하여 조직 내에서 제품 액세스를 허용하도록 조직의 네트워크 설정을 변경할 수 있습니다. Adobe은 최적의 경험을 위해 이러한 도메인을 조직의 방화벽을 통해 허용하기를 권장합니다.
+일부 방화벽 구성은 Customer Journey Analytics이 제품 인터페이스에 의존하는 도메인을 차단합니다. 이 도메인 목록을 사용하여 조직 내에서 제품 액세스를 허용하도록 조직의 네트워크 설정을 변경할 수 있습니다. Adobe에서는 최적의 경험을 위해 이러한 도메인을 조직의 방화벽을 통해 사용할 수 있도록 권장합니다.
 
 | 기술 | 도메인 |
 | --- | --- |
@@ -28,10 +28,10 @@ ht-degree: 20%
 
 ## Adobe Experience Cloud 도메인
 
-위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/domains)을 참조하십시오.
+위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
 >[Customer Journey Analytics에서 사용하는 IP 주소](ip-addresses.md)
 >
->[Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

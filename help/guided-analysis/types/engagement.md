@@ -6,7 +6,7 @@ keywords: 제품 분석
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 매트릭스의 왼쪽 하단에 있는 기능은 **낮은 영향**&#x200B;으로, 이 기능이 널리 채택되지 않거나 자주 사용되지 않는 것입니다.
 * 매트릭스의 오른쪽 하단에 있는 기능은 **일회성**&#x200B;으로, 이 기능이 널리 채택되지만 자주 사용되지 않는 것입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447474?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 
 ## 사용 사례

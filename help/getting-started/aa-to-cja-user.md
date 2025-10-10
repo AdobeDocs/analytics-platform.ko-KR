@@ -36,7 +36,7 @@ ht-degree: 100%
 
 Customer Journey Analytics는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다.
 
-Experience Platform의 고객 데이터는 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR) 및 데이터 배치로 구성된 데이터 세트로 저장됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
+Experience Platform의 고객 데이터는 데이터 세트에 저장되며, 데이터 세트는 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR)와 데이터 배치로 구성됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
 
 Customer Journey Analytics 관리자는 Experience Platform의 데이터 세트에 [연결](/help/connections/create-connection.md)을 설정합니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 Customer Journey Analytics의 보고 기준입니다. Experience Platform은 보고를 위한 모든 데이터를 소스화하므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
 
@@ -76,7 +76,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## 세그먼트 개념 변경
 
-세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ko)를 참조하십시오.
+세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)를 참조하십시오.
 
 [!DNL Customer Journey Analytics]의 [!UICONTROL 세그먼트]&#x200B;([!UICONTROL 세그먼트])를 Experience Platform 통합 프로필로 공유하거나 게시하는 기능은 아직 제공되지 않으며, 현재 개발 중입니다.
 
@@ -93,7 +93,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 >[!BEGINSHADEBOX]
 
-계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics로 이동](https://video.tv.adobe.com/v/33326?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics로 이동](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/32934/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

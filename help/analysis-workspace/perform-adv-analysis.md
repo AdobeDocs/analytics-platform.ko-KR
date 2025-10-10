@@ -6,7 +6,7 @@ exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ![Advanced Analysis shown in a flow diagram.](assets/cja-adv-analysis1.png)
 
-![Multiple visualization examples, such as donut, venn, and stacked bar chart.](assets/cja-adv-analysis2.png)
+![도넛, 벤 및 누적 막대 그래프와 같은 여러 시각화 예시.](assets/cja-adv-analysis2.png)

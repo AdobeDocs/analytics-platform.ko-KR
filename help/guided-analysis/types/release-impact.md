@@ -6,7 +6,7 @@ keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![릴리스](/help/assets/icons/Release.svg) **[!UICONTROL 릴리스 영향]** 분석은 특정 날짜 전후의 주요 지표를 비교한 것입니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 주요 지표를 측정합니다. 차트 중앙의 세로 막대는 비교하려는 전후 날짜를 나타냅니다. 이 날짜는 일반적으로 제품 업데이트나 캠페인 출시 등 측정하려는 제품에 대한 주요 변경 사항을 나타냅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423452/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## 사용 사례
 

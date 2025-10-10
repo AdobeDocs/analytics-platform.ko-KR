@@ -78,7 +78,7 @@ Attribution models are available outside of virtual report suites. While they us
 -->
 
 
-+++## 지원되는 차원 및 지표는 무엇입니까?
++++## 어떤 차원 및 지표가 지원됩니까?
 
 속성은 데이터 보기에서 정의한 모든 비표준 지표에서 지원됩니다.
 

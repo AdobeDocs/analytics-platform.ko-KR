@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,12 +87,12 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Content Analytics 데이터를 병합하려는 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다."
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="데이터 보기"
->abstract="Customer Journey Analytics에서 Content Analytics 데이터를 병합할 기존 데이터 보기를 선택하십시오.<br/>"
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다.<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"

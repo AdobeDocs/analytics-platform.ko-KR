@@ -6,7 +6,7 @@ exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -90,7 +90,7 @@ Customer Journey Analytics의 전체 표준 지표 목록:
 
    * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. [열 최소값](/help/components/calc-metrics/cm-functions.md#column-minimum) 함수를 사용합니다.
 
-   * [!UICONTROL **열 합계**]:열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). [열 합계](/help/components/calc-metrics/cm-functions.md#column-sum) 함수를 사용합니다.
+   * [!UICONTROL **열 합계**]:Creates 열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열(차원의 요소에 대해)입니다. [열 합계](/help/components/calc-metrics/cm-functions.md#column-sum) 함수를 사용합니다.
 
    두 개의 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 

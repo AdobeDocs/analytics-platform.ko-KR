@@ -8,13 +8,13 @@ role: User
 source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # 내보내기 관리
 
-[클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 전체 테이블을 내보내면 내보내기는 [!UICONTROL 내보내기] 페이지의 [!UICONTROL 내보내기] 탭에서 사용할 수 있습니다.
+[Customer Journey Analytics 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 전체 테이블을 내보내면 내보내기는 [!UICONTROL 내보내기] 페이지의 [!UICONTROL 내보내기] 탭에서 사용할 수 있습니다.
 
 사용자가 만든 내보내기만 볼 수 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
    | 필터 | 설명 |
    |---------|----------|
-   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 역할 ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google 클라우드 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았거나 일회성 내보내기가 아직 완료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료**]: 내보내기를 성공적으로 내보냈음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 자세한 오류 정보를 보려면 [!UICONTROL **실패**] 상태를 마우스로 가리킵니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
    | [!UICONTROL **빈도**] | 내보내기가 발생하는 빈도. 다음 빈도를 사용할 수 있습니다. <ul><li>[!UICONTROL **한 번**]</li><li>[!UICONTROL **매일**]</li><li>[!UICONTROL **주별**]</li><li>[!UICONTROL **월별**]</li><li>[!UICONTROL **연간**]</li></ul> |
 
@@ -64,7 +64,7 @@ ht-degree: 4%
 
    [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다.
 
-1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 [Analysis Workspace에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)를 참조하십시오.
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
 
 ## 내보내기 복제
 
@@ -128,18 +128,18 @@ ht-degree: 4%
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 
-1. [!UICONTROL **내보내기**] 탭에서 [!UICONTROL 내보내기] 페이지의 오른쪽 상단에 있는 **테이블 사용자 지정** 아이콘 ![테이블 사용자 지정](assets/customize-table-icon.png)을 선택합니다.
+1. [!UICONTROL **내보내기**] 탭에서 **내보내기** 페이지의 오른쪽 상단에 있는 ![테이블 사용자 지정](assets/customize-table-icon.png) 아이콘 [!UICONTROL 테이블 사용자 지정]을 선택합니다.
 
    다음 열을 사용할 수 있습니다.
 
    | 사용 가능한 열 | 설명 |
    |---------|----------|
-   | 이름 | 내보내기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보내기를 만들 때 이름을 지정합니다. |
+   | 이름 | 내보내기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보낼 때 이름을 지정합니다. |
    | ID | 내보낼 때 자동으로 할당되는 ID입니다. <!-- True? --> |
    | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보내기를 만들 때 데이터 보기를 선택할 수 있습니다. |
    | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 [!UICONTROL 활성], [!UICONTROL 완료] 및 [!UICONTROL 실패]입니다.<p> **참고:** 실패한 내보내기 문제 해결에 대한 자세한 내용은 [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.</p> |
    | 태그 | 내보내기에 적용되는 모든 태그를 표시합니다. 내보내기에 태그를 적용하는 방법에 대한 자세한 내용은 [내보내기에 태그 지정](#tag-an-export)을 참조하십시오. |
-   | 표 크기 (마지막 전송) | 마지막으로 전송된 내보내기 크기입니다. |
+   | 테이블 크기(마지막 전송) | 마지막으로 전송된 내보내기 크기입니다. |
    | 작성자 | 내보내기를 만든 사용자입니다. |
    | 생성됨 | 내보내기가 생성된 날짜와 시간입니다. <!-- true? --> |
    | 위치 | 데이터를 내보낸 계정의 위치입니다. |
@@ -148,7 +148,7 @@ ht-degree: 4%
    | 전송 시간 | 내보내기가 전송된 시간입니다. |
    | 마지막으로 보냄 | 내보내기가 마지막으로 전송된 시간입니다. |
    | 마지막 수정 | 내보내기가 마지막으로 수정된 시간입니다. 내보내기 페이지의 항목은 기본적으로 이 열을 기준으로 정렬됩니다. |
-   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
+   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
 
    {style="table-layout:auto"}
 

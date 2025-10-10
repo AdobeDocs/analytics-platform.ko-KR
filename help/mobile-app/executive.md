@@ -19,7 +19,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [경영진이 모바일 스코어카드에 액세스할 수 있도록 지원](https://video.tv.adobe.com/v/3444843?captions=kor){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [경영진이 모바일 스코어카드에 액세스할 수 있도록 지원](https://video.tv.adobe.com/v/343460/){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -99,7 +99,7 @@ ht-degree: 73%
       * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
       * 1년 이상은 주별 트렌드를 표시함
 
-   * 비율 값 변경 수식은 지표 합계 (현재 날짜 범위) – 지표 합계 (비교 날짜 범위) / 지표 합계 (비교 날짜 범위)입니다.
+   * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
 
    * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 

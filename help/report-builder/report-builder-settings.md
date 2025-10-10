@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 

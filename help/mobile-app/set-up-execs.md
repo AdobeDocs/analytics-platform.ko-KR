@@ -18,7 +18,7 @@ ht-degree: 69%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에서 새 사용자를 설정합니다.
+1. [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드가 기반으로 하는 데이터 보기, 세그먼트, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -84,7 +84,7 @@ ht-degree: 69%
 * 하루는 시간별 트렌드를 표시함
    * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
    * 1년 이상은 주별 트렌드를 표시함
-   * 비율 값 변경 수식은 지표 합계 (현재 날짜 범위) – 지표 합계 (비교 날짜 범위) / 지표 합계 (비교 날짜 범위)입니다.
+   * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
    * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 
 

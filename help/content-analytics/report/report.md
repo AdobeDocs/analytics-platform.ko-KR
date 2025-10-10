@@ -8,7 +8,7 @@ exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Content Analytics에 대한 보고를 처음부터 시작하려면:
 1. Workspace에서 [새 프로젝트를 만들거나](/help/analysis-workspace/build-workspace-project/create-projects.md) [기존 프로젝트를 엽니다](/help/analysis-workspace/build-workspace-project/open-projects.md).
 1. Content Analytics 보고를 위해 [데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view)를 선택해야 합니다. Content Analytics 보고는 Content Analytics에 대해 [구성된](/help/content-analytics/config/configuration.md) 데이터 보기에서만 사용할 수 있습니다.
 1. 캔버스에 ![테이블](/help/assets/icons/Table.svg) [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 끌어다 놓습니다.
-1. [특정 Content Analytics 구성 요소](components.md) 및 기타 일반 [구성 요소](/help/components/overview.md)(예: 세그먼트, 날짜 범위, 주석)을 사용하여 Content Analytics 인사이트를 구축하십시오.
+1. [특정 Content Analytics 구성 요소](components.md)와 기타 일반 [구성 요소](/help/components/overview.md)(세그먼트, 날짜 범위, 주석 등)를 사용하여 Content Analytics 인사이트를 빌드합니다.
 
 ## 썸네일
 
@@ -57,7 +57,7 @@ Content Analytics에 대한 보고를 처음부터 시작하려면:
 
 ## 템플릿
 
-Content Analytics [template](/help/analysis-workspace/templates/use-templates.md)을(를) 사용하여 가장 성과가 좋은 콘텐츠와 콘텐츠 특성을 알아볼 수 있습니다. 템플릿은 [웹 채널 및 참여 사용 사례](/help/analysis-workspace/templates/use-templates.md#web-engagement)의 일부이며 콘텐츠가 세부적으로 어떻게 성과를 내는지 자세히 설명합니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다.
+Content Analytics [템플릿](/help/analysis-workspace/templates/use-templates.md)은 어떤 콘텐츠와 콘텐츠 속성이 가장 좋은 성과를 내고 있는지 알 수 있도록 도와줍니다. 템플릿은 [웹 채널 및 참여 사용 사례](/help/analysis-workspace/templates/use-templates.md#web-engagement)의 일부이며 콘텐츠가 세부적으로 어떻게 성과를 내는지 자세히 설명합니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다.
 
 학습한 내용을 바탕으로, 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다.
 
@@ -65,7 +65,7 @@ Content Analytics [template](/help/analysis-workspace/templates/use-templates.md
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. **[!UICONTROL Content Analytics]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여]**)를 검색하거나 사용하십시오.
+1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
@@ -155,5 +155,5 @@ Content Analytics는 AI와 생성형 AI를 사용하여 피사체, 장면, 전�
 >[!MORELIKETHIS]
 >
 >[Content Analytics 구성 요소](components.md)
->&#x200B;>[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[템플릿 사용](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

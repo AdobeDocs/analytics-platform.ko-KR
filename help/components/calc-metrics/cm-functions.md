@@ -1,13 +1,13 @@
 ---
 title: 기본 함수
-description: 기본 계산된 지표 함수에 대해 알아봅니다.
+description: 기본적인 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(지표)]**
 
-[!BADGE Row]{type="Neutral"} 숫자의 절대값을 반환합니다. 숫자의 절댓값은 양의 값을 갖는 숫자입니다.
+[!BADGE 행]{type="Neutral"} 숫자의 절댓값을 반환합니다. 숫자의 절댓값은 양의 값을 갖는 숫자입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -137,7 +137,7 @@ ht-degree: 92%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(지표)]**
 
-[!BADGE 테이블]{type="Neutral"} 열 내의 한 지표에 대한 0이 아닌 값의 수 또는 개수(차원 내에서 보고된 고유 요소의 수)를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수).
 
 | 인수 | 설명 |
 |---|---|
@@ -157,7 +157,7 @@ ht-degree: 92%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(지표)]**
 
-[!BADGE Row]{type="Neutral"} e를 지정된 숫자의 거듭제곱으로 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. 지수는 숫자의 자연 로그인 LN의 역함수입니다.
+[!BADGE 행]{type="Neutral"} 주어진 숫자만큼 거듭제곱한 값을 반환합니다. 상수 e는 자연 로그의 밑인 2.71828182845904와 같습니다. 지수는 숫자의 자연 로그인 LN의 역함수입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -178,7 +178,7 @@ ht-degree: 92%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 열의 지표에 대한 산술 평균 또는 평균을 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 열에 있는 지표에 대한 산술 평균 또는 평균을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -200,7 +200,7 @@ ht-degree: 92%
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(지표, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"} 열에서 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다.
+[!BADGE 테이블]{type="Neutral"} 열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(지표, k, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}은 0에서 100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다.
+[!BADGE Table]{type="Neutral"} 0~100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -304,7 +304,7 @@ x를 y의 거듭제곱으로 반환합니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(지표, 사분위수, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}은(는) 지표에 대한 값의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다. [COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 지표에 대한 값들의 사분위수를 반환합니다. 예를 들어 사분위수는 대부분의 매출을 파생시키는 상위 25%의 제품을 찾는 데 사용될 수 있습니다. [COLUMN MINIMUM](#column-minimum), [MEDIAN](#median) 및 [COLUMN MAXIMUM](#column-maximum)은 사분위수가 각각 `0`(영), `2` 및 `4`와 같을 때 [QUARTILE](#quartile)와 동일한 값을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -455,7 +455,7 @@ ROUND( 314.15, -2) = 300
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 표준편차(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 데이터의 샘플 모집단을 기반으로 표준편차 또는 분산의 제곱근을 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 데이터의 표본 집단을 기반으로 표준 편차나 분산의 제곱근을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -476,7 +476,7 @@ ROUND( 314.15, -2) = 300
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(지표, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"} 데이터의 샘플 모집단을 기반으로 분산을 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 데이터의 표본 집단을 기반으로 분산을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|

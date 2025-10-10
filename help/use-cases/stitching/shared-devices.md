@@ -49,7 +49,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 마지막 인증 속성
 
-Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Experience Platform ID 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다. 자세한 내용은 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)을 참조하십시오.
+Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Experience Platform ID 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다. 자세한 내용은 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)을 참조하십시오.
 
 결합에 마지막 인증 속성이 사용되면 아래 표에 표시된 대로 결합된 ID가 확인됩니다.
 
@@ -123,7 +123,7 @@ When using ECID reset, Stitched IDs resolve as shown in the table below.
 
 2. **공유 장치에 대한 이벤트 속성**
 
-   식별된 공유 장치의 경우, 총 이벤트 수 중 해당 장치가 원인이 될 수 있는 이벤트를 결정합니다. 이 속성은 공유 디바이스가 데이터에 미치는 영향 및 분석에 대한 영향을 통찰력을 제공합니다.
+   식별된 공유 장치의 경우, 총 이벤트 수 중 해당 장치가 원인이 될 수 있는 이벤트를 결정합니다. 이 속성은 insight을 통해 공유 디바이스가 데이터에 미치는 영향 및 분석에 대한 영향을 제공합니다.
 
    ```sql
    SELECT COUNT(*) AS total_events,

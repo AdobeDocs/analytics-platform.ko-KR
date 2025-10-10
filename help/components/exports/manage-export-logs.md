@@ -8,7 +8,7 @@ role: User
 source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 5%
    | 필터 | 설명 |
    |---------|----------|
    | [!UICONTROL **ID 내보내기**] | 보려는 내보내기 로그의 내보내기 ID를 지정합니다. |
-   | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 역할 ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google 클라우드 플랫폼**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다양한 상황으로 인해 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다.<p>가능한 실패 원인에 대한 자세한 내용은 [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.</p> |
 
    {style="table-layout:auto"}
@@ -112,13 +112,13 @@ This option is not available when selecting multiple logs. -->
 
 1. [!UICONTROL **로그**] 탭을 선택합니다.
 
-1. [!UICONTROL 로그] 페이지의 오른쪽 상단에서 **테이블 사용자 지정** 아이콘 ![테이블 사용자 지정](assets/customize-table-icon.png)을 선택합니다.
+1. **로그** 페이지의 오른쪽 상단에서 ![테이블 사용자 지정](assets/customize-table-icon.png) 아이콘 [!UICONTROL 테이블 사용자 지정]을 선택합니다.
 
    다음 열을 사용할 수 있습니다.
 
    | 사용 가능한 열 | 설명 |
    |---------|----------|
-   | 내보내기 이름 | 내보내기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보내기를 만들 때 이름을 지정합니다. |
+   | 내보내기 이름 | 내보내기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보낼 때 이름을 지정합니다. |
    | 내보내기 ID | 내보낼 때 자동으로 할당되는 ID입니다. <!-- True? --> |
    | 인스턴스 ID | Customer Journey Analytics 인스턴스의 ID입니다. <!-- True? --> |
    | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보내기를 만들 때 데이터 보기를 선택할 수 있습니다. |
@@ -128,7 +128,7 @@ This option is not available when selecting multiple logs. -->
    | 계정 | 데이터를 내보낸 계정입니다. |
    | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 [!UICONTROL 보류 중], [!UICONTROL 배달됨] 및 [!UICONTROL 실패]입니다. |
    | 게재 일자 | 내보내기가 발생한 날짜입니다. |
-   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
+   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
    | 행 수 | 내보낸 테이블에 포함된 행 수입니다. |
 
    {style="table-layout:auto"}

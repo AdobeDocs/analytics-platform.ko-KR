@@ -22,7 +22,7 @@ ht-degree: 33%
 
 1. 데이터 블록의 셀을 선택합니다.
 
-1. **[!UICONTROL 명령]** 패널에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 블록 편집]**&#x200B;을(를) 선택합니다.
+1. ![명령](/help/assets/icons/Edit.svg) 패널에서 **[!UICONTROL 편집]** **[!UICONTROL 데이터 블록 편집]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL 다음]**&#x200B;을 선택하여 **[!UICONTROL 차원]** 탭을 표시합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 33%
 
 1. 팝업 메뉴에서 **[!UICONTROL 필터 차원]**&#x200B;을 선택하여 **[!UICONTROL 필터 차원]** 창을 표시합니다.
 
-1. **[!UICONTROL Type]**(으)로 **가장 자주 사용하는 항목** 또는 **특정**&#x200B;을(를) 선택하십시오.
+1. **Type**(으)로 **가장 자주 사용하는 항목** 또는 **[!UICONTROL 특정]**&#x200B;을(를) 선택하십시오.
 
    ![필터 차원 창에서 선택한 특정 옵션입니다.](./assets/image28.png){zoomable="yes"}
 

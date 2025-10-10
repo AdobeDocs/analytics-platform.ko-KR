@@ -16,7 +16,7 @@ ht-degree: 61%
 
 일부 플랫폼 스키마에 오브젝트 배열이 있을 수 있습니다. Adobe Customer Journey Analytics은 이벤트, 조회 및 프로필 데이터 내에서 개체 배열의 수집 및 보고를 지원합니다. 가장 일반적인 예 중 하나는 여러 제품이 포함된 장바구니입니다. 각 제품에는 이름, SKU, 범주, 가격, 수량 및 추적하려는 기타 모든 차원이 있습니다. 이러한 모든 패싯에는 별도의 요구 사항이 있지만 모두 동일한 히트에 적합해야 합니다.
 
-이전 버전의 Adobe Analytics에서는 `products` 변수를 사용하여 이 기능을 제공했습니다. 제품의 패싯을 구분하기 위해 세미콜론(`;`)으로 구분된 연속 문자열이며, 제품 설명은 쉼표(`,`)로 구분했습니다. &quot;오브젝트 배열&quot;을 제한적으로 지원하는 유일한 변수였습니다. 목록 변수와 같은 다중 값 변수는 배열의 동등한 변수를 지원할 수 있지만, &quot;오브젝트 배열&quot;을 지원할 수는 없습니다. Customer Journey Analytics은 단일 데이터 행 내에서 임의의 세부 계층을 지원하여 이 개념을 확장하며, 이는 이전 버전의 Adobe Analytics에서 사용할 수 없는 기능입니다.
+이전 버전의 Adobe Analytics에서는 `products` 변수를 사용하여 이 기능을 제공했습니다. 제품의 패싯을 구분하기 위해 세미콜론(`;`)으로 구분된 연속 문자열이며, 제품 설명은 쉼표(`,`)로 구분했습니다. &quot;오브젝트 배열&quot;을 제한적으로 지원하는 유일한 변수였습니다. 목록 변수와 같은 다중 값 변수는 배열의 동등한 변수를 지원할 수 있지만, &quot;오브젝트 배열&quot;을 지원할 수는 없습니다. Customer Journey Analytics은 단일 데이터 행 내에서 임의의 세부 계층을 지원하여 이 개념을 확장했습니다. 이는 이전 버전의 Adobe Analytics에서 사용할 수 없는 기능입니다.
 
 ## 동일한 이벤트 예
 
@@ -188,9 +188,9 @@ Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고
 +}
 ```
 
-건조기에 보증서가 포함되지 않았으므로 표에 건조기가 포함되지 않습니다.
+건조기에 보증서가 포함되지 않았으므로 테이블에 건조기가 포함되지 않습니다.
 
-차원과 지표를 모두 결합할 수 있으므로 다음 표에서 데이터에 어떻게 지정되지 않은 차원 항목이 있는지 확인할 수 있습니다.
+차원과 지표를 모두 결합할 수 있으므로 다음 테이블에서 데이터에 어떻게 지정되지 않은 차원 항목이 있는지 확인할 수 있습니다.
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -270,5 +270,5 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 
 ## 제한 사항
 
-Experience Platform에서 사용하고 Customer Journey Analytics의 스키마의 일부로 모델링되는 데이터의 배열에는 제한 사항이 적용되지 않습니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
+제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)을 참조하십시오.
 

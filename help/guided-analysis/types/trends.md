@@ -26,7 +26,7 @@ ht-degree: 92%
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 트렌드]** 분석은 시간 경과에 따른 제품 성과나 사용자 행동에 대한 귀중한 인사이트를 제공합니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 이벤트를 측정합니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423443/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 * **[!UICONTROL 보기]**: 이 분석과 [빈도](frequency.md)를 전환합니다.
 * **[!UICONTROL 이벤트 및 지표]**: 측정하려는 이벤트나 지표. 각 선택 항목은 차트 시리즈와 테이블 행으로 표현됩니다. 이벤트와 지표는 쿼리에서 결합할 수 없습니다. 첫 번째 선택을 한 후에는 나머지 쿼리 선택 항목이 동일한 유형이어야 합니다. 최대 5개의 선택 항목을 포함할 수 있습니다.
-* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. <ul><li>**[!UICONTROL 옵션]**&#x200B;에는 [!UICONTROL 사용자], [!UICONTROL 이벤트], [!UICONTROL 세션], [!UICONTROL 사용자 비율], [!UICONTROL 세션당 이벤트] 및 [!UICONTROL 사용자당 이벤트]가 포함됩니다.</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B 에디션"} 추가 **[!UICONTROL B2B 옵션]**&#x200B;은(는) Customer Journey Analytics B2B edition에서 사용할 수 있습니다. [!UICONTROL 글로벌 계정], [!UICONTROL 계정], [!UICONTROL 구매 그룹], [!UICONTROL 기회], [!UICONTROL 글로벌 계정의 백분율], [!UICONTROL 계정의 백분율], [!UICONTROL 구매 그룹의 백분율], [!UICONTROL 기회의 백분율], [!UICONTROL 글로벌 계정당 이벤트], [!UICONTROL 계정당 이벤트], [!UICONTROL 구매 그룹당 이벤트] 및 [!UICONTROL 기회당 이벤트].</li></ul>옵션으로 계산된 내용은 이벤트 쿼리에만 적용되고 지표 쿼리에서는 제거됩니다.
+* **[!UICONTROL 다음으로 계산됨]**: 선택한 이벤트에 적용할 계산 방법입니다. <ul><li>**[!UICONTROL 옵션]**&#x200B;에는 [!UICONTROL 사용자], [!UICONTROL 이벤트], [!UICONTROL 세션], [!UICONTROL 사용자 비율], [!UICONTROL 세션당 이벤트] 및 [!UICONTROL 사용자당 이벤트]가 포함됩니다.</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 추가 **[!UICONTROL B2B 옵션]**&#x200B;은(는) Customer Journey Analytics B2B edition에서 사용할 수 있습니다. [!UICONTROL 글로벌 계정], [!UICONTROL 계정], [!UICONTROL 구매 그룹], [!UICONTROL 기회], [!UICONTROL 글로벌 계정의 백분율], [!UICONTROL 계정의 백분율], [!UICONTROL 구매 그룹의 백분율], [!UICONTROL 기회의 백분율], [!UICONTROL 글로벌 계정당 이벤트], [!UICONTROL 계정당 이벤트], [!UICONTROL 구매 그룹당 이벤트] 및 [!UICONTROL 기회당 이벤트].</li></ul>옵션으로 계산된 내용은 이벤트 쿼리에만 적용되고 지표 쿼리에서는 제거됩니다.
 * **[!UICONTROL 세그먼트]**: 측정하려는 세그먼트. 선택된 세그먼트마다 차트 시리즈와 테이블 행의 수가 두 배로 늘어납니다. 최대 5개의 세그먼트를 포함할 수 있습니다.
 * **[!UICONTROL 분류 속성]**: 선택한 속성의 값을 기준으로 차트 시리즈와 테이블 행을 분류합니다. 단일 분류 속성이 지원됩니다. 테이블에는 상위 20개 값이 표에 표시되고, 차트에서 최대 10개의 값을 볼 수 있습니다. 차트에서 행을 숨기거나 표시하려면 ![숨기기 아이콘 표시](../assets/hide-in-chart.png) 아이콘을 토글합니다.
 

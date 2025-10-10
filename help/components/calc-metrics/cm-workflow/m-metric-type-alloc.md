@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -163,6 +163,6 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >[속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)
->&#x200B;>[참여도 지표](participation-metric.md)
+>>[참여도 지표](participation-metric.md)
 >
 

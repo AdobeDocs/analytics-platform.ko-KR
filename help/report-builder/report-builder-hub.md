@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -70,6 +70,6 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->[날짜 범위 선택](select-date-range.md)
->[필터 ](work-with-filters.md) 작업
+>>[날짜 범위 선택](select-date-range.md)
+>>[필터 ](work-with-filters.md) 작업
 >

@@ -163,7 +163,7 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
 ![도넛](/help/assets/ai-asst-result3.png)
 
-## Experience Cloud 애플리케이션에서 Data Insights Agent에 액세스
+## Experience Cloud 애플리케이션에서 Data Insights 에이전트에 액세스
 
 Adobe Experience Platform Agent Orchestrator를 사용하면 Adobe Journey Optimizer 및 Real-Time CDP와 같은 여러 Adobe Experience Cloud 애플리케이션에서 Data Insights 에이전트의 기능에 액세스할 수 있습니다.
 

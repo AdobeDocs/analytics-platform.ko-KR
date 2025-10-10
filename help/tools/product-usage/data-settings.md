@@ -3,7 +3,7 @@ title: 제품 사용 데이터 설정
 description: 제품 사용 설정을 활성화, 비활성화 또는 구성합니다.
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
 source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 

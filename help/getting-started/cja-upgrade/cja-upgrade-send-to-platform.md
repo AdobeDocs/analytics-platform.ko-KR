@@ -7,15 +7,15 @@ hide: true
 hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 3단계: 업그레이드 시 Adobe Experience Platform으로 데이터 보내기
 
-+++이 섹션을 확장하여 이 페이지의 정보가 더 큰 업그레이드 프로세스에서 어떻게 적용되는지 참조하십시오. 이전 업그레이드 단계가 모두 완료되었는지 확인합니다.
++++이 섹션을 확장하여 이 페이지의 정보가 대규모 업그레이드 프로세스에 맞는 위치를 확인합니다. 이전 업그레이드 단계가 모두 완료되었는지 확인합니다.
 
 이 섹션을 계속 진행하기 전에 먼저 이전 업그레이드 작업을 모두 완료했는지 확인합니다.
 

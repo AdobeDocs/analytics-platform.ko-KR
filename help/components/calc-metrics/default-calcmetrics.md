@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # 계산된 지표 템플릿
 
-Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위해 다음과 같은 계산된 지표 템플릿을 제공합니다. Adobe에서 정의한 이러한 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별할 수 있습니다. 이러한 지표를 빠르게 필터링하려면 [구성 요소 필터](/help/components/overview.md#filter)에서 ![레이블](/help/assets/icons/Label.svg) **[!UICONTROL Adobe 템플릿]**&#x200B;을(를) 선택하십시오.
+Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위해 다음과 같은 계산된 지표 템플릿을 제공합니다. Adobe에서 정의한 이러한 계산된 지표는 작은 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 로고로 식별할 수 있습니다. 이러한 지표를 빠르게 필터링하려면 ![구성 요소 필터](/help/assets/icons/Label.svg)에서 **[!UICONTROL 레이블]** [Adobe 템플릿](/help/components/overview.md#filter)을(를) 선택하십시오.
 
 | 계산된 지표 이름 | 설명<br/>수식 |
 |---------|----------|

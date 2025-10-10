@@ -15,11 +15,11 @@ ht-degree: 37%
 
 >[!TIP]
 >
->Customer Journey Analytics의 모든 연결에서 수집 및 보고 가능한 행의 사용을 **보기**&#x200B;하려면 [**[!UICONTROL 사용&#x200B;]**&#x200B;인터페이스](/help/connections/manage-connections.md#usage)를 사용하십시오.
+>Customer Journey Analytics의 모든 연결에서 수집 및 보고 가능한 행의 사용을 [**[!UICONTROL 보기&#x200B;]**하려면 ](/help/connections/manage-connections.md#usage)사용** 인터페이스&#x200B;**를 사용하십시오.
 
 
 
-[**[!UICONTROL 연결&#x200B;]**&#x200B;인터페이스](/help/connections/create-connection.md)에서 Customer Journey Analytics 사용을 관리할 수 있습니다. 이 인터페이스에서 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
+[**[!UICONTROL 연결&#x200B;]**인터페이스](/help/connections/create-connection.md)에서 Customer Journey Analytics 사용을 관리할 수 있습니다. 이 인터페이스에서 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
