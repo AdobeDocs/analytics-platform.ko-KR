@@ -4,10 +4,10 @@ title: 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 97%
+source-wordcount: '1132'
+ht-degree: 72%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 
@@ -29,9 +29,9 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 여러 가지 방법을 사용하여 자유 형식 테이블에서 행을 필터링할 수 있습니다.
 
-- 테이블에서 특정 행 제외
-- 테이블에 필터 적용
-- 대상자 세그먼트 사용
+* 테이블에서 특정 행 제외
+* 테이블에 필터 적용
+* 대상자 세그먼트 사용
 
 각 방법이 [자유 형식 테이블 합계](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)에 어떤 영향을 미치는지 꼭 읽어보시기 바랍니다.
 
@@ -93,6 +93,38 @@ Note: this option does not seem to work. AN-338422
    | [!UICONTROL **항상 항목 제외**] | 필터링된 데이터에서 제외하려는 항목의 이름을 지정합니다. |
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택하여 데이터를 필터링합니다. **[!UICONTROL 지우기]**&#x200B;를 선택하여 입력을 모두 지웁니다. **[!UICONTROL 취소]**&#x200B;를 선택하여 취소하고 대화 상자를 닫습니다. <br/>색상이 지정된 ![필터](/help/assets/icons/FilterColored.svg) **필터** 아이콘은 필터가 테이블에 적용될 때 세부 정보를 표시합니다.
+
+### 스파크라인 및 선 시각화의 트렌드 데이터에 필터 기준 포함 {#include-filter-criteria}
+
+자유 형식 테이블의 테이블 차원에 적용되는 모든 검색 필터 조건은 항상 스파크라인에 포함됩니다.
+
+스파크라인 외에도 연결된 라인 시각화에 포함되도록 필터 기준을 구성할 수 있습니다. 기본적으로 필터 기준은 선 시각화에 포함되지 않습니다. 선 시각화는 연결된 테이블에서 선택한 행에 대한 데이터를 표시합니다. 행을 선택하지 않으면 연결된 테이블의 첫 번째 차원에 대한 데이터만 표시됩니다.)
+
+스파크라인 및 선 시각화에 대한 자세한 내용은 [자유 형식 테이블에 대한 트렌드 데이터 보기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)를 참조하십시오.
+
+#### 필터 기준을 포함하도록 라인 시각화 구성
+
+1. 지표 열 헤더에서 스파크라인을 선택합니다.
+
+   스파크라인 셀을 선택하면 진한 회색으로 표시됩니다. 연결된 선 시각화에 필터 기준이 포함되어 있음을 나타냅니다. 필터 기준은 열의 세그먼트로 적용됩니다. <!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   ![스파크라인 선택됨](assets/table-sparkline-selected.png)
+
+#### 열 합계가 부정확할 수 있는 경우 이해
+
+다음 시나리오에서는 열 합계가 정확하지 않을 수 있습니다.
+
+* 정적 구성 요소를 왼쪽 열에서 사용하고 [열 합계가 행의 합계로 계산되는 경우](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  이 시나리오에서는 행 항목에 겹치는 데이터가 포함되어 있으면 열 합계가 정확하지 않습니다.
+
+  예를 들어 왼쪽 열에 정적 세그먼트를 추가한 다음 오른쪽 열에 지표로 사용자를 추가하는 경우 이러한 사용자 중 일부는 둘 이상의 정적 세그먼트에 속할 수 있습니다. 이 경우 Workspace은 각 정적 세그먼트에 대한 사용자를 중복 제거하지 않습니다. 이렇게 하면 일부 사용자가 두 번 이상 카운트될 수 있으므로 총 사용자 수가 더 많을 수 있습니다.
+
+* 여러 값을 갖는 차원을 사용할 때
+
+>[!NOTE]
+>
+>스파크라인 및 라인 차트는 이러한 시나리오에서 여전히 정확한 합계를 반영합니다.
 
 ### 대상자 세그먼트 사용
 
