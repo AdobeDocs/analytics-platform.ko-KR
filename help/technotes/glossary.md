@@ -28,4 +28,4 @@ ht-degree: 96%
 ## Adobe Experience Platform 용어
 
 Adobe Experience Platform은 기업 전체의 데이터 및 콘텐츠를 표준화하므로 실시간 고객 프로필을 기반으로 데이터 과학을 구현하고 콘텐츠 속도를 가속화하여 고객 여정 전반에서 경험 개인화를 촉진합니다.
-자세한 내용은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko)을 참조하십시오.
+자세한 내용은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html)을 참조하십시오.

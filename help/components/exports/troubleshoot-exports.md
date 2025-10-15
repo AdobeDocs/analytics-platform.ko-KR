@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 | 보고서의 차원 또는 지표가 데이터 보기에서 제거되었습니다 | 데이터 보기에서 제거된 구성 요소를 확인하려면 시스템 관리자에게 문의하십시오. 내보내기에서 다른 데이터 보기를 사용하거나 더 이상 사용할 수 없는 구성 요소를 테이블에서 제거해야 할 수 있습니다. | [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md) |
 | 행 제한 초과됨 | 라이선스 유형에 따라 최대 300만, 3000만, 1억 5000만 또는 3억 개의 행을 내보낼 수 있습니다. 내보내려는 테이블을 업데이트하여 총 행 수를 줄입니다. | [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md) |
 | 예약된 내보내기 만료 | 구성한 예약된 내보내기가 만료되었습니다. 내보내기의 만료를 업데이트합니다. | [내보내기 관리](/help/components/exports/manage-exports.md) |
-| Dimension이 지원되지 않음 | <p>다음 기준을 모두 충족하는 차원은 전체 테이블 내보내기에서 지원되지 않습니다.</p> <ul><li>개체 배열의 일부인 필드에서 만들어졌습니다.</li><li>지속성이 활성화됨<li>바인딩 차원을 사용하지 않음</li> | <ul><li>[&#x200B; 개체 배열 사용 &#x200B;](/help/use-cases/object-arrays.md)</li><li>[지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)<li>[Customer Journey Analytics에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
+| Dimension이 지원되지 않음 | <p>다음 기준을 모두 충족하는 차원은 전체 테이블 내보내기에서 지원되지 않습니다.</p> <ul><li>개체 배열의 일부인 필드에서 만들어졌습니다.</li><li>지속성이 활성화됨<li>바인딩 차원을 사용하지 않음</li> | <ul><li>[ 개체 배열 사용 ](/help/use-cases/object-arrays.md)</li><li>[지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)<li>[Customer Journey Analytics에서 바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
 | 조직에서 시행하는 데이터 거버넌스 정책은 테이블의 구성 요소 내보내기를 제한합니다 | 내보내기가 제한된 구성 요소를 확인하려면 시스템 관리자에게 문의하십시오. 내보내기 전에 제한된 구성 요소를 제거합니다. | *데이터 보기에서 데이터 거버넌스 정책 필터링* [레이블 및 정책](/help/data-views/data-governance.md) 섹션 |
 
 ## Adobe 고객 지원에 문의하십시오

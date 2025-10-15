@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 클릭 수 등과 같은 마찰 이벤트를 수집합니다. 이러한 이벤트는 사용자 여정에서 보조 이벤트로 Customer Journey Analytics에 전달할 수 있습니다. 이렇게 결합된 데이터를 사용하면 마찰이 다운스트림 지표에 미치는 영향을 더 잘 이해할 수 있습니다.
 
-## 전제 조건:
+## 사전 요구 사항:
 
 이 사용 사례에는 두 가지 요구 사항이 있습니다.
 
@@ -38,7 +38,7 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 
 ## 2단계: 양자 지표 태그 확장을 사용하여 마찰 이벤트 캡처
 
-양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
+양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
 
 Adobe Experience Platform 데이터 수집 의 태그를 사용하여 XDM 개체에 포함되고 분석될 수 있도록 마찰 이벤트의 이름을 수동으로 설정합니다. 이를 수행하는 한 가지 방법은 규칙의 사용자 지정 코드입니다.
 

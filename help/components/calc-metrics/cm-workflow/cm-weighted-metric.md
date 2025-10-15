@@ -38,7 +38,7 @@ ht-degree: 5%
 
 파생 필드는 모든 사용자가 바운스 비율 지표의 정의를 재정의하거나 수정할 수 없다는 이점이 있는 데이터 보기의 일부입니다. 이 장점에는 한계점도 있습니다. 데이터 보기에 대한 액세스 권한이 없는 사용자는 파생 필드를 사용할 수 없으며 세그먼트 및 계산된 지표에 의존하여 바운스 비율을 정의해야 합니다.
 
-Customer Journey Analytics에서 바운스 수 및 바운스 비율을 계산하는 방법에 대한 자세한 배경 정보는 이 [블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko)을 참조하세요.
+Customer Journey Analytics에서 바운스 수 및 바운스 비율을 계산하는 방법에 대한 자세한 배경 정보는 이 [블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446)을 참조하세요.
 
 +++
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 639c3d3c349615078c76f8806bcd5bb458b0f6f2
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 99%
+ht-degree: 69%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 요약 숫자와 요약 변경 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [요약 숫자 및 요약 변경](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 요약 숫자와 요약 변경 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [요약 숫자 및 요약 변경](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 숫자 및 요약 변경 시각화](https://video.tv.adobe.com/v/3416890/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 숫자 및 요약 변경 시각화](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -38,9 +38,9 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 ![요약](/help/assets/icons/123.svg) **[!UICONTROL 요약 숫자]** 시각화를 사용하십시오. 이 시각화는 연관된 데이터 소스를 사용하여 다음과 같은 방식으로 작동합니다.
 
-* 셀을 선택하지 않은 경우 열의 합계를 선택합니다.
-* 단일 셀을 선택하면 해당 셀의 요약이 표시됩니다.
-* 두 개 이상의 셀을 선택하면 선택한 첫 번째 셀이 표시됩니다.
+* 선택된 셀이 없는 경우 열의 합계를 선택합니다.
+* 단일 셀을 선택하면 해당 셀에 대한 요약이 표시됩니다.
+* 셀을 두 개 이상 선택하면 선택한 첫 번째 셀이 표시됩니다.
 * 열을 선택하면 열의 첫 번째 셀 값이 선택됩니다.
 
 ![요약 숫자 시각화](asses/../assets/summary-number.png)
@@ -64,20 +64,20 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 <!-- markdownlint-enable MD034 -->
 
 
-![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL 요약 변경]** 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ko) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko) option.-->
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL 요약 변경]** 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
 <!--
-The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko) option.
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
 -->
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 
 * 셀을 선택하지 않으면 열의 처음 두 셀 값을 비교합니다.
-* 하나의 셀을 선택하면 셀 값을 자신과 비교하기 때문에 0을 표시합니다.
-* 두 개의 셀을 선택하면 처음 선택한 셀을 분자로, 두 번째 셀을 분모로 취합니다.
-* 세 개 이상의 셀을 선택하면 처음 두 개만 비교합니다.
+* 한 셀을 선택하면 셀 값을 자신과 비교하므로 0이 표시됩니다.
+* 두 개의 셀을 선택하면 첫 번째 선택한 셀이 분모로 사용되고 두 번째 셀이 분모로 사용됩니다.
+* 둘 이상의 셀을 선택한 경우 비교를 위해 처음 두 개만 고려합니다.
 * 셀 범위를 선택하면 범위에서 선택한 첫 번째 셀과 마지막 셀을 비교합니다.
-* 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
+* 열을 선택하면 첫 번째 값을 자신과 비교하여 0의 변화를 표시합니다.
 
 
 ![두 숫자 사이의 델타를 보여 주는 요약 변경 시각화.](assets/summary-change.png)
@@ -94,6 +94,6 @@ The green and red color of the Summary Change can be controlled through [custom 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

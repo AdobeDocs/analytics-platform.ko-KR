@@ -70,6 +70,6 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->&#x200B;>[날짜 범위 선택](select-date-range.md)
->&#x200B;>[필터 &#x200B;](work-with-filters.md) 작업
+>>[날짜 범위 선택](select-date-range.md)
+>>[필터 ](work-with-filters.md) 작업
 >

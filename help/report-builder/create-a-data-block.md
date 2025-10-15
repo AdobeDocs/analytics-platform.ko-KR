@@ -114,7 +114,7 @@ ht-degree: 24%
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->&#x200B;>[날짜 범위 선택](select-date-range.md)
->&#x200B;>[차원 필터링](filter-dimensions.md)
->&#x200B;>[세그먼트 작업](work-with-filters.md)
+>>[날짜 범위 선택](select-date-range.md)
+>>[차원 필터링](filter-dimensions.md)
+>>[세그먼트 작업](work-with-filters.md)
 >

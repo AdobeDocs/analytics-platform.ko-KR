@@ -7,7 +7,7 @@ role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 50%
+ht-degree: 46%
 
 ---
 
@@ -62,7 +62,7 @@ Analysis Workspace의 예외 항목을 표 또는 선 차트로 볼 수 있습�
 
    * 예외 항목의 원시 값.
 
-   * 녹색 선으로 표시되는 예상 값보다 위 또는 아래 값의 백분율 값
+   * 녹색 실선으로 표시되는 예상 값 초과 또는 미만의 백분율 값입니다.
 
 
 

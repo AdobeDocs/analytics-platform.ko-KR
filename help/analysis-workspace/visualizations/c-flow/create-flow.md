@@ -7,7 +7,7 @@ role: User
 source-git-commit: 016bf917e3737f00364c531760722d9b0d6ec785
 workflow-type: tm+mt
 source-wordcount: '1759'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 83%
 
 ## 구성
 
-플로우 구성의 요약이 시각화의 맨 위에 나타납니다. 다이어그램의 경로들은 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다.
+플로우 구성의 요약이 시각화의 맨 위에 나타납니다. 다이어그램의 경로는 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다.
 
 ![방문 횟수로 끝남, 경로 지정 차원: 페이지 및 플로우 컨테이너: 방문자를 보여 주는 플로우 출력 예.](assets/flow-output.png)
 
@@ -176,8 +176,8 @@ ht-degree: 83%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 열 맨 위에 있는 세그먼트를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
-| **[!UICONTROL 전체 열 확장]** | 모든 노드를 표시하도록 열을 확장합니다. 기본적으로 상위 5개의 노드만 표시됩니다. |
+| **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 전체 열 확장]** | 열을 확장하여 모든 노드를 표시합니다. 기본적으로 상위 5개 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |
 
@@ -205,7 +205,7 @@ ht-degree: 83%
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

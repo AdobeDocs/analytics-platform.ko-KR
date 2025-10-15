@@ -146,7 +146,7 @@ ht-degree: 5%
    | 계정 | 데이터를 내보낸 계정입니다. |
    | 빈도 | 내보내기가 전송되는 빈도입니다. 사용 가능한 옵션은 [!UICONTROL 1회], [!UICONTROL 일별], [!UICONTROL 주별], [!UICONTROL 주별], [!UICONTROL 일별], [!UICONTROL 일별] 및 [!UICONTROL 특정 날짜별]입니다. |
    | 전송 시간 | 내보내기가 전송된 시간입니다. |
-   | 마지막으로 보냄 | 내보내기가 마지막으로 전송된 시간입니다. |
+   | 마지막 전송 | 내보내기가 마지막으로 전송된 시간입니다. |
    | 마지막 수정 | 내보내기가 마지막으로 수정된 시간입니다. 내보내기 페이지의 항목은 기본적으로 이 열을 기준으로 정렬됩니다. |
    | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
 

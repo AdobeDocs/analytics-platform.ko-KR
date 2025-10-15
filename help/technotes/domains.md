@@ -28,10 +28,10 @@ ht-degree: 20%
 
 ## Adobe Experience Cloud 도메인
 
-위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/domains)을 참조하십시오.
+위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
 >[Customer Journey Analytics에서 사용하는 IP 주소](ip-addresses.md)
 >
->[Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

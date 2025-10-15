@@ -32,5 +32,5 @@ Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Custo
 >[!MORELIKETHIS]
 >
 >[데이터 보기 구성 요소 설정](/help/data-views/component-settings/overview.md)
->&#x200B;>[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[데이터 사전 구성 요소 항목](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics은 북미, 유럽 및 APAC의 퍼블릭 클라�
 
 프로비저닝 시 고객은 Adobe Experience Platform 데이터가 위치할 지역을 지정합니다. Adobe Experience Platform 데이터 레이크에서 CJA으로 수집된 데이터는 동일한 영역에 저장됩니다.
 
-자세한 내용은 Adobe Experience Cloud 설명서의 [지역 데이터 수집](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/rdc)을 참조하십시오.
+자세한 내용은 Adobe Experience Cloud 설명서의 [지역 데이터 수집](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc)을 참조하십시오.
 
 ## Azure
 

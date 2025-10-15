@@ -7,7 +7,7 @@ exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 * 마틴 루터 킹 데이
 * 대통령의 날
-* 메모리얼 데이
+* 현충일
 * 7월 4일
 * 추수감사절
 * 블랙 프라이데이

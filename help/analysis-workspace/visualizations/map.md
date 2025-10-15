@@ -7,7 +7,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2761'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![&#x200B; 버전에 대한 &#x200B;](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
@@ -256,10 +256,10 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
    | 섹션 | 설정 | 설명 |
    | --- |--- |--- |
    | **[!UICONTROL 맵 유형]** | | |
-   | | **[!UICONTROL 버블]** | 버블을 사용하여 이벤트를 그립니다. 버블 차트는 산포도와 비례 영역 차트의 중간에 있는 다중 변수 그래프입니다. 이 보기가 기본값입니다. |
-   | | **[!UICONTROL 히트맵]** | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
+   | | **[!UICONTROL 버블]** | 버블을 사용하여 이벤트를 플롯합니다. 거품형 차트는 산포도와 비례 영역 차트 간의 교차인 다중 변수 그래프입니다. 이 보기가 기본값입니다. |
+   | | **[!UICONTROL 히트맵]** | 히트맵을 사용하여 이벤트를 플롯합니다. 히트맵은 매트릭스에 포함된 개별 값이 색상으로 표시되는 데이터를 그래픽으로 표시한 것입니다. |
    | **[!UICONTROL 스타일]** | | |
-   | | **[!UICONTROL 색상 테마]** | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
+   | | **[!UICONTROL 색상 테마]** | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 산호, 빨강, 녹색 또는 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
    | | **[!UICONTROL 맵 스타일]** | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
    | | **[!UICONTROL 클러스터 반경]** | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다.<p>이 옵션은 **[!UICONTROL 버블]**&#x200B;이(가) **[!UICONTROL 맵 유형]**(으)로 선택된 경우에만 사용할 수 있습니다.</p> |
    | | **[!UICONTROL 사용자 지정 최대값]** | 맵의 최대 값에 대한 임계값을 변경할 수 있습니다. 이 값을 조정하면 설정한 사용자 지정 최대 값에 비례하여 버블 또는 히트맵 값(색상 및 크기)의 크기가 조정됩니다. |

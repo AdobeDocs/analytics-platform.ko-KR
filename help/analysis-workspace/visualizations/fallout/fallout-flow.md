@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 폴아웃 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 폴아웃 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 폴아웃은 시퀀스에서 각 단계 또는 터치포인트 간 전환 및 폴아웃 비율을 보여 줍니다.
 
-예를 들어 구매 프로세스 동안 방문자의 폴아웃 지점을 추적할 수 있습니다. 시작 터치포인트와 완료 터치포인트를 선택하고, 중간 터치포인트를 추가하여 간단하게 웹 사이트 탐색 경로를 만들어 보십시오. 다차원 폴아웃을 수행할 수도 있습니다.
+예를 들어 구매 프로세스 동안 방문자의 폴아웃 지점을 추적할 수 있습니다. 시작 터치포인트와 종료 터치포인트를 선택하고 중간 터치포인트를 추가하여 웹 사이트 탐색 경로를 만들면 됩니다. 그러나 다차원 폴아웃도 수행할 수 있습니다.
 
 ## 폴아웃, 플로우 및 여정 캔버스 시각화 중에서 선택
 

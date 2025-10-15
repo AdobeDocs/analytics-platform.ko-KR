@@ -9,7 +9,7 @@ exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -59,7 +59,7 @@ Customer Journey Analytics B2B edition을 설정하기 전에 수집하는 각 �
 | 마케팅 이벤트 유형 |
 | 기회 ID |
 | 페이지 |
-| 페이지 상세정보 |
+| 페이지 세부 정보 |
 | 참조 도메인 |
 | 영업 담당자 ID |
 | 영업 단계 이름 |

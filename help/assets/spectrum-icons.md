@@ -8,7 +8,7 @@ hide-from-toc: true
 source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
 source-wordcount: '1954'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 이 표에는 스펙트럼 아이콘 코드 조각 구성을 통해 사용할 수 있는 모든 스펙트럼 아이콘이 나열되어 있습니다. 이름을 사용하여 Markdown에 코드 조각을 추가하고 Spectrum 아이콘을 표시합니다.
 
-업데이트를 보려면 [Wiki 페이지] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
+업데이트를 보려면 [Wiki 페이지](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
@@ -58,7 +58,7 @@ ht-degree: 16%
 | Amusementpark | `![Amusementpark](/help/assets/icons/Amusementpark.svg)` | ![Amusementpark](/help/assets/icons/Amusementpark.svg) |
 | 앵커 | `![Anchor](/help/assets/icons/Anchor.svg)` | ![앵커](/help/assets/icons/Anchor.svg) |
 | 앵커 선택 | `![AnchorSelect](/help/assets/icons/AnchorSelect.svg)` | ![앵커 선택](/help/assets/icons/AnchorSelect.svg) |
-| 주석 달기 | `![Annotate](/help/assets/icons/Annotate.svg)` | ![주석](/help/assets/icons/Annotate.svg) |
+| 주석 | `![Annotate](/help/assets/icons/Annotate.svg)` | ![주석](/help/assets/icons/Annotate.svg) |
 | AnnotatePen | `![AnnotatePen](/help/assets/icons/AnnotatePen.svg)` | ![AnnotatePen](/help/assets/icons/AnnotatePen.svg) |
 | AnnotateRange | `![AnnotateRange](/help/assets/icons/AnnotateRange.svg)` | ![AnnotateRange](/help/assets/icons/AnnotateRange.svg) |
 | 답변 | `![Answer](/help/assets/icons/Answer.svg)` | ![답변](/help/assets/icons/Answer.svg) |
@@ -205,7 +205,7 @@ ht-degree: 16%
 | 열 2B | `![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)` | ![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg) |
 | 열 두 개 | `![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)` | ![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg) |
 | 콤보 차트 | `![ComboChart](/help/assets/icons/ComboChart.svg)` | ![콤보 차트](/help/assets/icons/ComboChart.svg) |
-| 댓글 | `![Comment](/help/assets/icons/Comment.svg)` | ![댓글](/help/assets/icons/Comment.svg) |
+| 설명 | `![Comment](/help/assets/icons/Comment.svg)` | ![댓글](/help/assets/icons/Comment.svg) |
 | 비교 | `![Compare](/help/assets/icons/Compare.svg)` | ![비교](/help/assets/icons/Compare.svg) |
 | Compas | `![Compas](/help/assets/icons/Compas.svg)` | ![비교](/help/assets/icons/Compas.svg) |
 | 조건 | `![Condition](/help/assets/icons/Condition.svg)` | ![조건](/help/assets/icons/Condition.svg) |
@@ -262,7 +262,7 @@ ht-degree: 16%
 | 디바이스 TV | `![DeviceTV](/help/assets/icons/DeviceTV.svg)` | ![장치 TV](/help/assets/icons/DeviceTV.svg) |
 | DeviceTablet | `![DeviceTablet](/help/assets/icons/DeviceTablet.svg)` | ![DeviceTablet](/help/assets/icons/DeviceTablet.svg) |
 | 차원 | `![Dimensions](/help/assets/icons/Dimensions.svg)` | ![Dimensions](/help/assets/icons/Dimensions.svg) |
-| Discover | `![Discover](/help/assets/icons/Discover.svg)` | ![Discover](/help/assets/icons/Discover.svg) |
+| 검색 | `![Discover](/help/assets/icons/Discover.svg)` | ![검색](/help/assets/icons/Discover.svg) |
 | DiscoverOutline | `![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)` | ![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg) |
 | 아래쪽 가장자리 분산 | `![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)` | ![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg) |
 | 가로 가운데 배치 | `![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)` | ![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg) |
@@ -479,7 +479,7 @@ ht-degree: 16%
 | 도움말 | `![Help](/help/assets/icons/Help.svg)` | ![도움말](/help/assets/icons/Help.svg) |
 | 도움말 개요 | `![HelpOutline](/help/assets/icons/HelpOutline.svg)` | ![HelpOutline](/help/assets/icons/HelpOutline.svg) |
 | 히스토그램 | `![Histogram](/help/assets/icons/Histogram.svg)` | ![히스토그램](/help/assets/icons/Histogram.svg) |
-| History | `![History](/help/assets/icons/History.svg)` | ![기록](/help/assets/icons/History.svg) |
+| 내역 | `![History](/help/assets/icons/History.svg)` | ![기록](/help/assets/icons/History.svg) |
 | 홈 | `![Home](/help/assets/icons/Home.svg)` | ![홈](/help/assets/icons/Home.svg) |
 | 홈페이지 | `![Homepage](/help/assets/icons/Homepage.svg)` | ![홈 페이지](/help/assets/icons/Homepage.svg) |
 | 핫픽스 | `![HotFixe](/help/assets/icons/HotFixe.svg)` | ![핫픽스](/help/assets/icons/HotFixe.svg) |
@@ -575,7 +575,7 @@ ht-degree: 16%
 | 최소화 | `![Minimize](/help/assets/icons/Minimize.svg)` | ![최소화](/help/assets/icons/Minimize.svg) |
 | 모바일 서비스 | `![MobileService](/help/assets/icons/MobileService.svg)` | ![MobileService](/help/assets/icons/MobileService.svg) |
 | 모던 격자 보기 | `![ModernGridView](/help/assets/icons/ModernGridView.svg)` | ![ModernGridView](/help/assets/icons/ModernGridView.svg) |
-| 머니 | `![Money](/help/assets/icons/Money.svg)` | ![돈](/help/assets/icons/Money.svg) |
+| Money | `![Money](/help/assets/icons/Money.svg)` | ![돈](/help/assets/icons/Money.svg) |
 | 모니터링 | `![Monitoring](/help/assets/icons/Monitoring.svg)` | ![모니터링](/help/assets/icons/Monitoring.svg) |
 | 달 | `![Moon](/help/assets/icons/Moon.svg)` | ![달](/help/assets/icons/Moon.svg) |
 | 기타 | `![More](/help/assets/icons/More.svg)` | ![자세히](/help/assets/icons/More.svg) |
@@ -637,7 +637,7 @@ ht-degree: 16%
 | 일시 정지 | `![Pause](/help/assets/icons/Pause.svg)` | ![일시 중지](/help/assets/icons/Pause.svg) |
 | PauseCircle | `![PauseCircle](/help/assets/icons/PauseCircle.svg)` | ![PauseCircle](/help/assets/icons/PauseCircle.svg) |
 | 폰 | `![Pawn](/help/assets/icons/Pawn.svg)` | ![폰](/help/assets/icons/Pawn.svg) |
-| 대기 중 | `![Pending](/help/assets/icons/Pending.svg)` | ![보류 중](/help/assets/icons/Pending.svg) |
+| 보류 중 | `![Pending](/help/assets/icons/Pending.svg)` | ![보류 중](/help/assets/icons/Pending.svg) |
 | 사용자 그룹 | `![PeopleGroup](/help/assets/icons/PeopleGroup.svg)` | ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) |
 | 개인화 필드 | `![PersonalizationField](/help/assets/icons/PersonalizationField.svg)` | ![개인화 필드](/help/assets/icons/PersonalizationField.svg) |
 | 원근감 | `![Perspective](/help/assets/icons/Perspective.svg)` | ![관점](/help/assets/icons/Perspective.svg) |
@@ -698,18 +698,18 @@ ht-degree: 16%
 | 순서 바꾸기 | `![Reorder](/help/assets/icons/Reorder.svg)` | ![순서 바꾸기](/help/assets/icons/Reorder.svg) |
 | 재생 | `![Replay](/help/assets/icons/Replay.svg)` | ![재생](/help/assets/icons/Replay.svg) |
 | 답변 | `![Replie](/help/assets/icons/Replie.svg)` | ![회신](/help/assets/icons/Replie.svg) |
-| 답글 | `![Reply](/help/assets/icons/Reply.svg)` | ![회신](/help/assets/icons/Reply.svg) |
+| 답변 | `![Reply](/help/assets/icons/Reply.svg)` | ![회신](/help/assets/icons/Reply.svg) |
 | 전체 회신 | `![ReplyAll](/help/assets/icons/ReplyAll.svg)` | ![모두 회신](/help/assets/icons/ReplyAll.svg) |
 | 보고서 | `![Report](/help/assets/icons/Report.svg)` | ![보고서](/help/assets/icons/Report.svg) |
 | ReportAdd | `![ReportAdd](/help/assets/icons/ReportAdd.svg)` | ![ReportAdd](/help/assets/icons/ReportAdd.svg) |
-| 필수 여부 | `![Required](/help/assets/icons/Required.svg)` | ![필요합니다](/help/assets/icons/Required.svg) |
+| 필수 여부 | `![Required](/help/assets/icons/Required.svg)` | ![필수](/help/assets/icons/Required.svg) |
 | 크기 조정 | `![Resize](/help/assets/icons/Resize.svg)` | ![크기 조정](/help/assets/icons/Resize.svg) |
 | ResolveComment | `![ResolvedComment](/help/assets/icons/ResolvedComment.svg)` | ![ResolvedComment](/help/assets/icons/ResolvedComment.svg) |
 | 유지 | `![Retention](/help/assets/icons/Retention.svg)` | ![Retention](/help/assets/icons/Retention.svg) |
 | 유지율 | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![유지 비율](/help/assets/icons/RetentionRates.svg) |
 | 리트윗 | `![Retweet](/help/assets/icons/Retweet.svg)` | ![리트윗](/help/assets/icons/Retweet.svg) |
 | 재사용 | `![Reuse](/help/assets/icons/Reuse.svg)` | ![재사용](/help/assets/icons/Reuse.svg) |
-| 매출 | `![Revenue](/help/assets/icons/Revenue.svg)` | ![매출 &#x200B;](/help/assets/icons/Revenue.svg) |
+| 매출 | `![Revenue](/help/assets/icons/Revenue.svg)` | ![매출 ](/help/assets/icons/Revenue.svg) |
 | 되돌리기 | `![Revert](/help/assets/icons/Revert.svg)` | ![되돌리기](/help/assets/icons/Revert.svg) |
 | 되감기 | `![Rewind](/help/assets/icons/Rewind.svg)` | ![되감기](/help/assets/icons/Rewind.svg) |
 | 원 되감기 | `![RewindCircle](/help/assets/icons/RewindCircle.svg)` | ![되감기 순환](/help/assets/icons/RewindCircle.svg) |
@@ -909,7 +909,7 @@ ht-degree: 16%
 | 트로피 | `![Trophy](/help/assets/icons/Trophy.svg)` | ![트로피](/help/assets/icons/Trophy.svg) |
 | 두 점 | `![TwoDots](/help/assets/icons/TwoDots.svg)` | ![두 점](/help/assets/icons/TwoDots.svg) |
 | 유형 | `![Type](/help/assets/icons/Type.svg)` | ![Type](/help/assets/icons/Type.svg) |
-| USA | `![USA](/help/assets/icons/USA.svg)` | ![미국](/help/assets/icons/USA.svg) |
+| 미국 | `![USA](/help/assets/icons/USA.svg)` | ![미국](/help/assets/icons/USA.svg) |
 | 밑줄 | `![Underline](/help/assets/icons/Underline.svg)` | ![밑줄](/help/assets/icons/Underline.svg) |
 | 실행 취소 | `![Undo](/help/assets/icons/Undo.svg)` | ![실행 취소](/help/assets/icons/Undo.svg) |
 | 그룹화 해제 | `![Ungroup](/help/assets/icons/Ungroup.svg)` | ![그룹 해제](/help/assets/icons/Ungroup.svg) |
@@ -965,7 +965,7 @@ ht-degree: 16%
 | VolumeOne | `![VolumeOne](/help/assets/icons/VolumeOne.svg)` | ![VolumeOne](/help/assets/icons/VolumeOne.svg) |
 | 볼륨 3 | `![VolumeThree](/help/assets/icons/VolumeThree.svg)` | ![볼륨 3](/help/assets/icons/VolumeThree.svg) |
 | 볼륨 2 | `![VolumeTwo](/help/assets/icons/VolumeTwo.svg)` | ![VolumeTwo](/help/assets/icons/VolumeTwo.svg) |
-| 시계 | `![Watch](/help/assets/icons/Watch.svg)` | ![시청](/help/assets/icons/Watch.svg) |
+| 시청 | `![Watch](/help/assets/icons/Watch.svg)` | ![시청](/help/assets/icons/Watch.svg) |
 | 웹 페이지 | `![WebPage](/help/assets/icons/WebPage.svg)` | ![WebPage](/help/assets/icons/WebPage.svg) |
 | 웹 페이지 | `![WebPages](/help/assets/icons/WebPages.svg)` | ![웹 페이지](/help/assets/icons/WebPages.svg) |
 | 워크플로 | `![Workflow](/help/assets/icons/Workflow.svg)` | ![워크플로](/help/assets/icons/Workflow.svg) |

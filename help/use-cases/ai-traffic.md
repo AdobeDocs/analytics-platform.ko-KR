@@ -229,8 +229,8 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <th><strong>LLM 서비스</strong></th>
 <th>예제 URL</th>
-<th><strong>쿼리 매개 변수</strong></th>
-<th><strong>값 예</strong></th>
+<th><strong>쿼리 매개변수</strong></th>
+<th><strong>예제 값</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -297,6 +297,6 @@ LLM 및 AI 생성 트래픽과 관련된 이벤트, 세션 또는 사람을 식�
 
 >[!MORELIKETHIS]
 >
->이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=ko)을 기반으로 합니다.
+>이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)을 기반으로 합니다.
 >
 >

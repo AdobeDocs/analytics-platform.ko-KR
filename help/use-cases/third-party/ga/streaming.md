@@ -17,8 +17,8 @@ ht-degree: 89%
 
 데이터 수집 구성에는 다음 단계가 포함됩니다.
 
-1. [Adobe Experience Platform용 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 구현 구현 시작 및 운영에 대한 기본 사항은 [빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko)를 참조하십시오.
-1. [Google 데이터 레이어 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html?lang=ko) 설치 이 확장은 특히 Google 데이터 레이어에 맞게 설계된 Web SDK 확장 설치의 대안 역할을 합니다.
-1. Adobe Experience Platform 데이터 수집에서 [데이터스트림 만들기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko) Adobe Experience Platform으로 데이터를 전송하는 데이터스트림 구성 현재 각 Google 데이터 레이어 오브젝트를 여기에 있는 해당 XDM 필드에 매핑해야 합니다. Adobe는 향후 이 매핑 워크플로를 단순화할 예정입니다.
+1. [Adobe Experience Platform용 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 구현 구현 시작 및 운영에 대한 기본 사항은 [빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html)를 참조하십시오.
+1. [Google 데이터 레이어 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html) 설치 이 확장은 특히 Google 데이터 레이어에 맞게 설계된 Web SDK 확장 설치의 대안 역할을 합니다.
+1. Adobe Experience Platform 데이터 수집에서 [데이터스트림 만들기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) Adobe Experience Platform으로 데이터를 전송하는 데이터스트림 구성 현재 각 Google 데이터 레이어 오브젝트를 여기에 있는 해당 XDM 필드에 매핑해야 합니다. Adobe는 향후 이 매핑 워크플로를 단순화할 예정입니다.
 
 원하는 태그를 사이트에 구현하고 게시하면 [연결 만들기](/help/connections/create-connection.md), [데이터 보기 만들기](/help/data-views/create-dataview.md)로 진행할 수 있습니다.

@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 최종 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431277/?quality=12&learn=on&captions=kor){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
 
 ## 사용 사례
 

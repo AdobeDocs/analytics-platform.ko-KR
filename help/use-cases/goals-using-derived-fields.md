@@ -16,7 +16,7 @@ ht-degree: 6%
 
 이 사용 사례에서는 파생 필드의 기능을 사용하여 특정 차원에 대한 목표를 설정한 다음, Workspace 프로젝트에서 이러한 목표를 사용하는 방법을 설명합니다.
 
-파생 필드에 익숙하지 않은 경우 [자습서](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=ko) 및 [설명서](../data-views/derived-fields/derived-fields.md)를 참조하여 소개를 받으십시오.
+파생 필드에 익숙하지 않은 경우 [자습서](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) 및 [설명서](../data-views/derived-fields/derived-fields.md)를 참조하여 소개를 받으십시오.
 
 
 ## 목표 정의
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 각 마케팅 채널에 대한 월별 매출 목표를 설정할 수 있습니다. 다음 작업을 수행하십시오.
 
-1. 이름이 [인 &#x200B;](/help/data-views/derived-fields/derived-fields.md#marketing-channels)마케팅 채널 함수 템플릿`Monthly Marketing Channel Revenue Goal (Incremental)`을(를) 사용하여 새 파생 필드를 만드십시오.
+1. 이름이 [인 ](/help/data-views/derived-fields/derived-fields.md#marketing-channels)마케팅 채널 함수 템플릿`Monthly Marketing Channel Revenue Goal (Incremental)`을(를) 사용하여 새 파생 필드를 만드십시오.
 
 1. URL PARSE 및 CASE WHEN 규칙의 조합을 기반으로 각 마케팅 채널을 제대로 식별하도록 모든 규칙을 정의합니다. 예:
 

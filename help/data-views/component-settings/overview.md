@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
 source-wordcount: '3738'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/3412938/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -199,7 +199,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 |------|-------------|
 | 브라우저 | 브라우저. |
 | 브라우저 유형 | 브라우저 유형입니다. |
-| 언어 | 언어 |
+| 언어 | 언어. |
 | 운영 체제 | 운영 체제. |
 | 운영 체제 그룹 | 운영 체제 그룹. |
 | 운영 체제 이름 | 운영 체제 이름. |
@@ -435,7 +435,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 항목 ID (AJO) | 항목의 ID입니다. |
 | 항목 이름 (AJO) | 항목의 이름입니다. |
 | 항목 이름 (지속됨) (AJO) | 지속성 바인딩이 활성화된 항목의 이름입니다. |
-| 여정 작업 오류(AJO) | 여정 작업에 의해 생성된 오류 메시지. |
+| 여정 작업 오류(AJO) | 여정 액션에 의해 생성된 오류 메시지입니다. |
 | 여정 액션 노드 이름 | 여정 작업의 노드 이름입니다. |
 | 여정 진입 | 단계 이벤트가 프로필에 대한 여정 진입 이벤트인 경우 참입니다. |
 | 여정 종료 (AJO) | 여정 종료. |
@@ -494,7 +494,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 재시도 횟수 (AJO) | 성공 또는 실패 전에 메시지 전송을 재시도한 횟수 |
 | 규칙 이름 | 여정 진입의 거부를 야기한 규칙의 이름입니다. |
 | 선택 유형 (AJO) | 항목이 결정의 일부로 파생될 때 사용되는 선택 유형입니다. |
-| 전송 (사용되지 않음) | 모든 채널에서 보낸 총 메시지 수입니다. |
+| 전송 (사용되지 않음) | 모든 채널의 전송된 총 메시지 수입니다. |
 | SMS 인바운드 메시지 (AJO) | SMS 인바운드 회신(예: 중지, 시작, 구독 등) |
 | SMS 인바운드 메시지 (AJO) | SMS 인바운드 응답(예: 정지, 시작, 구독 등)입니다. |
 | SMS 메시지 유형(AJO) | SMS 공급자(예: inbound, inboundReply 또는 send). |

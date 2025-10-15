@@ -1,5 +1,5 @@
 ---
-title: Ad Hoc Analysis을 위한
+title: 전환 안내서
 description: Customer Journey Analytics에서 Customer Journey Analytics B2B edition으로 전환하는 방법 알아보기
 solution: Customer Journey Analytics
 feature: Basics
@@ -9,7 +9,7 @@ exl-id: d0e6398b-8080-4e36-b178-0cb91945d0c5
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 

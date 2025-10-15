@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 만들기](https://video.tv.adobe.com/v/3409733?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 만들기](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 이 스코어카드의 큐레이터로서 스코어카드 빌더를 사용하여 경영진 소비자를 위해 스코어카드에 표시할 타일을 구성할 수 있습니다. 또한 타일을 탭하여 세부 보기 또는 분류를 조정하는 방법을 구성할 수 있습니다. 스코어카드 빌더 인터페이스가 아래에 표시되어 있습니다.
 
-![새로운 모바일 스코어카드 창을 보여 주는 스코어카드 빌더. &#x200B;](assets/scorecard_builder.png)
+![새로운 모바일 스코어카드 창을 보여 주는 스코어카드 빌더. ](assets/scorecard_builder.png)
 
 스코어카드를 만들려면 다음 작업을 수행해야 합니다.
 
@@ -79,7 +79,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 드래그 앤 드롭]** 영역으로 끌어다 놓습니다. 비슷한 워크플로를 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
-   ![화살표가 스코어카드에 놓인 지표(새로운 KPI)를 가리키는 새로운 모바일 스코어카드 창. &#x200B;](assets/build_list.png)
+   ![화살표가 스코어카드에 놓인 지표(새로운 KPI)를 가리키는 새로운 모바일 스코어카드 창. ](assets/build_list.png)
 
 
 1. 각 타일에서 관련 차원 목록에 대한 최상위 항목 등, 지표에 대한 추가 정보를 표시하는 상세 보기에 액세스할 수 있습니다.
@@ -96,7 +96,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 세그먼트 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Customer Journey Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 세그먼트를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)합니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 세그먼트 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Customer Journey Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 세그먼트를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
 
 ![빌드 세그먼트를 강조하는 세그먼트 드롭다운 선택기](assets/segment_ui.png)
 
@@ -212,7 +212,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3413790?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트의 데이터 스토리](https://video.tv.adobe.com/v/3420563/?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트의 데이터 스토리](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -274,7 +274,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
    ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width=".50%"}
 1. 슬라이드를 추가하여 데이터 스토리를 작성합니다. 기본적으로 첫 번째 슬라이드가 생성됩니다.
 새 슬라이드를 추가하려면 슬라이드 위로 마우스를 가져가거나 슬라이드를 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
-   * &#x200B;+ 기호를 탭하여 새 슬라이드를 만듭니다.
+   * + 기호를 탭하여 새 슬라이드를 만듭니다.
    * 복제 아이콘을 탭하여 기존 슬라이드를 복제합니다.
 1. 빈 슬라이드를 만드는 경우 왼쪽 레일에서 구성 요소를 끌어다 놓거나 레이아웃을 선택하여 타일의 데이터로 슬라이드를 자동으로 채웁니다.
    ![데이터 스토리 만들기](assets/data-story2.png)

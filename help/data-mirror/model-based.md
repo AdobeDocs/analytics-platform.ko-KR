@@ -50,7 +50,7 @@ Customer Journey Analytics용 Experience Platform Data Mirror에는 모델 기�
 
 +++ 샘플 이벤트 데이터 세부 정보
 
-| timestamp | ID | pagename | 성격 | trackingcode | 주문 수 | 수익 금액 |
+| timestamp | id | pagename | 성격 | trackingcode | 주문 수 | 수익 금액 |
 | :---                      |  ---: | :---              | :---            | :---          |   ---: | :---           |
 | 2025-03-06T19:15:39+00:00 | 10001 | 홈 페이지 | person-1abc123 | abc123 |        |                |
 | 2025-03-06T19:15:39+00:00 | 10002 | 확인 페이지 | person-1abc123 |               | 1 | 174.25 |
@@ -218,7 +218,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
+  [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
 
 
 ### 데이터 선택
@@ -272,7 +272,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 1. 계속하려면 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 
-### 자세한 내용은
+### 리뷰
 
 **[!UICONTROL 검토]** 단계에서.
 

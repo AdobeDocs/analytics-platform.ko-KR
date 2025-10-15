@@ -86,7 +86,7 @@ Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 
 
 >[!NOTE]
 >
->예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/kr/solutions/industries/healthcare.html) 추가 기능 제품을 구입한 Customer Journey Analytics 고객에게만 표시됩니다.
+>예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 추가 기능 제품을 구입한 Customer Journey Analytics 고객에게만 표시됩니다.
 
 Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 암호를 사용하여 예약된 프로젝트를 암호화합니다.
 
@@ -103,7 +103,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 ### 암호로 예약된 새 프로젝트 보호
 
 1. 프로젝트를 저장하고 나면 **[!UICONTROL 공유]** > **[!UICONTROL 지금 파일 보내기]** 또는 **[!UICONTROL 공유]** > **[!UICONTROL 일정에 따라 파일 보내기]**&#x200B;로 이동합니다.
-1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=ko#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=ko#schedule)에 대해 위 지침을 따르십시오.
+1. [지금 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) 또는 [일정에 따라 파일 보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule)에 대해 위 지침을 따르십시오.
 
 ### 암호로 예약된 기존 프로젝트 보호
 

@@ -20,7 +20,7 @@ Real-Time CDP와 Customer Journey Analytics 간의 대상자 멤버십을 비교
 
 ## ID 구성의 차이점
 
-Real-Time CDP와 Customer Journey Analytics는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [ID 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=ko)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
+Real-Time CDP와 Customer Journey Analytics는 오늘날 개인에 대한 동일한 정의를 공유하지 않습니다. Real-Time CDP는 [ID 그래프](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)의 정보에 전적으로 의존하여 병합 프로필을 빌드합니다.
 
 Customer Journey Analytics는 [결합](../stitching/overview.md)을 사용하도록 구성할 수 있습니다. 결합 메커니즘으로 [필드 기반 결합](/help/stitching/fbs.md)을 사용하는 경우, 데이터 레이크의 데이터 세트에서 식별자를 지정하여 해당 데이터 세트의 데이터를 결합함으로써 향상된 병합 프로필로 데이터 세트를 강화할 수 있습니다. 결합 메커니즘으로 [그래프 기반 결합](/help/stitching/gbs.md)을 사용하는 경우, 지정된 ID 네임스페이스를 기반으로 ID 그래프를 활용하는 유사한 프로세스가 사용됩니다.
 
@@ -33,7 +33,7 @@ Real-Time CDP에 데이터를 저장할 수도 있고, Customer Journey Analytic
 
 Customer Journey Analytics를 사용하면 필드 결합, 필드 분리 및 포함/제외, 하위 문자열, 값 중복 제거, 세션화, 행 수준 필터링 등 기타 조작 등 쿼리 시간에 광범위한 데이터 수정이 가능합니다.
 
-Real-Time CDP는 다양한 데이터 조작 도구 세트를 제공합니다. [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko)을 적용하여 어떤 데이터가 우선시되고 어떤 데이터가 결합되어 개인에 대한 통합 보기를 생성할 것인지 결정합니다.
+Real-Time CDP는 다양한 데이터 조작 도구 세트를 제공합니다. [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html)을 적용하여 어떤 데이터가 우선시되고 어떤 데이터가 결합되어 개인에 대한 통합 보기를 생성할 것인지 결정합니다.
 
 ## TTL(Time to Live) 및 데이터 수집의 차이점
 

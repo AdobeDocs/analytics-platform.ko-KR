@@ -1,5 +1,5 @@
 ---
-title: 데이터 범위 관리
+title: 날짜 범위 관리
 description: Analysis Workspace에서 날짜 범위를 관리하는 방법을 이해합니다.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '5241'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 테이블 함수 대 행 함수
 
-테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
+테이블 함수는 테이블의 모든 행에 대해 출력이 동일한 함수입니다. 행 함수는 테이블의 모든 행에 대해 출력이 다른 함수입니다.
 
 해당 및 관련이 있는 경우 함수에 함수 유형이 주석([!BADGE 테이블]{type="Neutral"} 또는 [!BADGE 행]{type="Neutral"})으로 표시됩니다.
 

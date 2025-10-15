@@ -32,5 +32,5 @@ Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또�
 
    ![Create new folder](../assets/create-new-folder.png)
 
-1. **만들기**&#x200B;를 클릭합니다.
+1. **만들기**를 클릭합니다.
 새 폴더가 현재 폴더에 추가됩니다.

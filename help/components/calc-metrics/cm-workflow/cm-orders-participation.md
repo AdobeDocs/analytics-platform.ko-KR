@@ -6,7 +6,7 @@ exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 1b6e1d432bfe4b0574b8ee68bcfa940941f3c36f
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 6%
 
 1. (선택 사항) [계산된 지표 공유](/help/components/calc-metrics/cm-workflow/cm-sharing.md)에 설명된 대로 조직의 다른 사용자와 지표를 공유합니다.
 
-이는 마케팅 채널에서 주문을 지원하는 방법을 쉽게 구분하는 방법입니다. 또는 자유 형식 테이블에서 지표를 선택하고 컨텍스트 메뉴에서 속성 모델을 테이블에서 직접 조정할 수 있습니다.
+이는 주문 제작에 도움이 되는 마케팅 채널을 쉽게 알 수 있는 방법입니다. 또는 자유 형식 테이블에서 지표를 선택하고 컨텍스트 메뉴에서 속성 모델을 테이블에서 직접 조정할 수 있습니다.

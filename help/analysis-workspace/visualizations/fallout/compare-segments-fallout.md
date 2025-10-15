@@ -8,7 +8,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 34%
 >* 세션 컨텍스트 폴아웃 시각화에서 세션 기반 세그먼트를 터치포인트로 사용
 
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## 터치 포인트에서 세그먼트 만들기
@@ -44,7 +44,7 @@ ht-degree: 34%
 
 ## 터치 포인트로서 세그먼트 추가
 
-예를 들어, 어떻게 미국 사용자가 트렌드를 보이고 폴아웃에 영향을 주는지를 확인하려면 미국 사용자 세그먼트를 폴아웃으로 드래그하십시오.
+예를 들어 미국 사용자의 트렌드를 확인하고 폴아웃에 영향을 주는 방법을 확인하려면 미국 사용자 세그먼트를 폴아웃으로 드래그하십시오.
 
 ![미국 사용자 세그먼트를 선택하고 강조 표시하여 폴아웃으로 끌었습니다.](assets/fallout-addfilter.png)
 

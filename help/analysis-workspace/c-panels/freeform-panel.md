@@ -7,7 +7,7 @@ role: User
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 자유 형식 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [자유 형식 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 자유 형식 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [자유 형식 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -37,6 +37,6 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)
->&#x200B;>[자유 형식 테이블 시각화](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Workspace에서 구성 요소 사용](/help/components/use-components-in-workspace.md)
+>>[자유 형식 테이블 시각화](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

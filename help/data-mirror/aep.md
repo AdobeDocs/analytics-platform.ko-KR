@@ -27,7 +27,7 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 
 ## 스키마
 
-미러링할 Data Warehouse 네이티브 테이블을 모델링하는 [모델 기반 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/model-based){target="_blank"}를 만들어야 합니다. 모델 기반 스키마를 구성할 때 다음 요구 사항이 충족되는지 확인하십시오.
+미러링할 Data Warehouse 네이티브 테이블을 모델링하는 [모델 기반 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based){target="_blank"}를 만들어야 합니다. 모델 기반 스키마를 구성할 때 다음 요구 사항이 충족되는지 확인하십시오.
 
 * 모델 기반 스키마 유형을 입력하라는 메시지가 표시되면 수동 옵션을 선택해야 합니다.
 * 데이터 유형에 적절한 스키마를 선택합니다. Experience Platform Data Mirror은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
@@ -53,9 +53,9 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 
 지원되는 Data Warehouse 네이티브 솔루션에 대한 인증은 관련 Experience Platform 설명서를 참조하십시오.
 
-* [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 데이터 선택
@@ -80,7 +80,7 @@ Data Warehouse 네이티브 솔루션에 있는 테이블의 필드를 모델 �
 Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 데이터 세트로 데이터를 미러링하는 일정을 정의합니다.
 
 
-### 자세한 내용은
+### 리뷰
 
 데이터 미러를 지원하고 데이터 캡처를 변경하는 Data Warehouse 네이티브 솔루션에 대한 소스 커넥터 설정을 검토하십시오.
 
@@ -91,5 +91,5 @@ Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 
 >[!MORELIKETHIS]
 >
 >[Data Mirror 빠른 시작 안내서: 모델 기반 데이터를 미러링하고 사용](model-based.md)
->&#x200B;>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[모델 기반 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/model-based)
+>>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[모델 기반 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)

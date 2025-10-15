@@ -21,7 +21,7 @@ ht-degree: 97%
 >[!NOTE]
 >
 >요약 데이터는 요약 데이터 세트의 시계열 데이터입니다. 해당 요약 데이터 세트는 XDM 요약 지표 클래스를 기본 클래스로 사용하는 스키마를 기반으로 합니다.
->&#x200B;>시간별 또는 일별 기반의 시계열 데이터만 지원됩니다.
+>>시간별 또는 일별 기반의 시계열 데이터만 지원됩니다.
 
 >[!TIP]
 >
@@ -154,5 +154,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 요약 데이터를 사용하고 보고하는 방법에 대한 자세한 사용 사례 예제는 [요약 데이터 사용](/help/use-cases/data-views/summary-data.md) 문서에서 확인하십시오.
->- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=ko)
+>- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 
