@@ -86,7 +86,7 @@ Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 
 
 >[!NOTE]
 >
->예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 추가 기능 제품을 구입한 Customer Journey Analytics 고객에게만 표시됩니다.
+>예약된 프로젝트를 암호로 보호하는 옵션은 [Healthcare Shield](https://business.adobe.com/kr/solutions/industries/healthcare.html) 추가 기능 제품을 구입한 Customer Journey Analytics 고객에게만 표시됩니다.
 
 Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 암호를 사용하여 예약된 프로젝트를 암호화합니다.
 

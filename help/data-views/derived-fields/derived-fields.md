@@ -1580,10 +1580,10 @@ URL 일부를 가져와서 고유한 페이지 식별자로 사용하여 트래�
 
 | 페이지 URL |
 |---|
-| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/kr/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/kr/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/kr/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/kr/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
