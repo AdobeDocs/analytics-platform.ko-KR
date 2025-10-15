@@ -17,7 +17,7 @@ ht-degree: 14%
 
 이 표에는 스펙트럼 아이콘 코드 조각 구성을 통해 사용할 수 있는 모든 스펙트럼 아이콘이 나열되어 있습니다. 이름을 사용하여 Markdown에 코드 조각을 추가하고 Spectrum 아이콘을 표시합니다.
 
-업데이트를 보려면 [Wiki 페이지](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
+업데이트를 보려면 [Wiki 페이지] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)를 보세요.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
@@ -709,7 +709,7 @@ ht-degree: 14%
 | 유지율 | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![유지 비율](/help/assets/icons/RetentionRates.svg) |
 | 리트윗 | `![Retweet](/help/assets/icons/Retweet.svg)` | ![리트윗](/help/assets/icons/Retweet.svg) |
 | 재사용 | `![Reuse](/help/assets/icons/Reuse.svg)` | ![재사용](/help/assets/icons/Reuse.svg) |
-| 매출 | `![Revenue](/help/assets/icons/Revenue.svg)` | ![매출 ](/help/assets/icons/Revenue.svg) |
+| 매출 | `![Revenue](/help/assets/icons/Revenue.svg)` | ![매출 &#x200B;](/help/assets/icons/Revenue.svg) |
 | 되돌리기 | `![Revert](/help/assets/icons/Revert.svg)` | ![되돌리기](/help/assets/icons/Revert.svg) |
 | 되감기 | `![Rewind](/help/assets/icons/Rewind.svg)` | ![되감기](/help/assets/icons/Rewind.svg) |
 | 원 되감기 | `![RewindCircle](/help/assets/icons/RewindCircle.svg)` | ![되감기 순환](/help/assets/icons/RewindCircle.svg) |

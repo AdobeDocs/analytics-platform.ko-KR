@@ -158,6 +158,6 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 ## 데이터 준비 대 구성 요소 ID
 
-위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)을 참조하십시오.
+위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)을 참조하십시오.
 
 구성 요소 ID 변경은 Customer Journey Analytics 전용 기능이며 실시간 고객 프로필 및 RTCDP으로 전송되는 Analytics 소스 커넥터의 데이터에는 영향을 주지 않습니다.

@@ -351,7 +351,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 #### 쿼리 서비스 API 사용
 
 또는 RESTful API를 사용하여 쿼리와 쿼리에 대한 일정을 정의할 수 있습니다. 자세한 내용은 [쿼리 서비스 API 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)를 참조하십시오.
-쿼리를 만들 때(`ctasParameters`쿼리 만들기[) 또는 쿼리에 대한 일정을 만들 때(](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)예약된 쿼리 만들기[) 출력 데이터 집합을 선택적 ](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule) 속성의 일부로 정의하는지 확인하십시오.
+쿼리를 만들 때(`ctasParameters`쿼리 만들기[) 또는 쿼리에 대한 일정을 만들 때(](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)예약된 쿼리 만들기[) 출력 데이터 집합을 선택적 &#x200B;](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule) 속성의 일부로 정의하는지 확인하십시오.
 
 
 
@@ -418,12 +418,12 @@ Experience Platform UI를 통해 출력 데이터 세트를 내보내고 내보�
 
 #### 대상에 인증(기본 연결 만들기)
 
-이제 [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-base-connection) API를 사용하여 자격 증명을 인증하고 클라우드 저장소 대상에 안전하게 저장하려면 [`POST /targetConection`기본 연결을 만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다.
+이제 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-base-connection) API를 사용하여 자격 증명을 인증하고 클라우드 저장소 대상에 안전하게 저장하려면 [`POST /targetConection`기본 연결을 만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다.
 
 
 #### 내보내기 매개 변수 제공
 
-그런 다음 [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) API를 사용하여 출력 데이터 집합에 대한 내보내기 매개 변수를 저장하는 추가 대상 연결을 [`POST /targetConection`만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다. 이러한 내보내기 매개 변수에는 위치, 파일 형식, 압축 등이 포함됩니다.
+그런 다음 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) API를 사용하여 출력 데이터 집합에 대한 내보내기 매개 변수를 저장하는 추가 대상 연결을 [`POST /targetConection`만들어야](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) 합니다. 이러한 내보내기 매개 변수에는 위치, 파일 형식, 압축 등이 포함됩니다.
 
 #### 데이터 흐름 설정
 
