@@ -18,7 +18,7 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://video.tv.adobe.com/v/35024/?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

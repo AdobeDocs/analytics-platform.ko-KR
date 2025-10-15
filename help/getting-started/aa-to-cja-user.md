@@ -93,7 +93,7 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 >[!BEGINSHADEBOX]
 
-계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics로 이동](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}을 확인하십시오.
+계산된 지표를 이동하는 방법에 대한 데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics에서 Customer Journey Analytics로 이동](https://video.tv.adobe.com/v/33326?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://video.tv.adobe.com/v/32934/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

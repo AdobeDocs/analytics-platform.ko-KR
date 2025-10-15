@@ -27,7 +27,7 @@ ht-degree: 100%
 ![전환 트렌드](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 전환 트렌드]** 분석은 시간 경과에 따른 전환율의 추세를 시각화하여 보여 줍니다. 가로축은 시간 간격을 나타내고, 세로축은 전환율을 나타냅니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423490/?captions=kor&quality=12&learn=on)
 
 
 ## 사용 사례
