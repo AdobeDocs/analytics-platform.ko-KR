@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
+source-git-commit: f43cbee1d38a67045b9975498870654567a88419
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1307'
 ht-degree: 99%
 
 ---
@@ -259,7 +259,7 @@ ht-degree: 99%
       + [프로젝트 공유](../analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](../analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](../analysis-workspace/curate-share/view-only-projects.md)
-      + [프레젠테이션 생성](/help/analysis-workspace/curate-share/generate-presentations.md)
+      + [슬라이드 프레젠테이션 생성](/help/analysis-workspace/curate-share/generate-slides.md)
    + 내보내기 {#export}
       + [개요](../analysis-workspace/export/export-project-overview.md)
       + [다운로드](../analysis-workspace/export/download-send.md)
@@ -514,7 +514,7 @@ ht-degree: 99%
    + [Labs 사용 안내서](../labs/labs.md)
 
 + 문제 해결 {#troubleshooting}
-   + [Source 커넥터 데이터 비교](../troubleshooting/compare.md)
+   + [소스 커넥터 데이터 비교](../troubleshooting/compare.md)
    + [지표 및 대상자의 일관성](../troubleshooting/consistency-rcdp-cja.md)
    + [권한 부족](../troubleshooting/lack-of-permissions.md)
 
