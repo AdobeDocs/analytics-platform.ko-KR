@@ -20,7 +20,7 @@ Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &q
 
 다음 단계에서는 Adobe Experience Platform 데이터 수집에서 태그를 사용한다고 가정합니다. 조직에서 태그를 사용하지 않는 경우 이러한 데이터 수집 방법을 수동 웹 SDK 구현에 적용할 수 있습니다.
 
-자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
+자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
 
 ## 1단계: Quantum 지표 세션 ID를 수용할 스키마 필드 만들기
 

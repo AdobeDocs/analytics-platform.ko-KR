@@ -440,4 +440,4 @@ Analysis Workspace은 다른 프로필의 검색을 고려하지 않고 Orangey�
 
 >[!MORELIKETHIS]
 >
->[데이터 보기의 바인딩 차원](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) 자습서.
+>[데이터 보기의 바인딩 차원](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=ko) 자습서.

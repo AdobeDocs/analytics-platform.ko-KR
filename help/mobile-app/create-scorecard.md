@@ -96,7 +96,7 @@ Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 �
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 세그먼트 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Customer Journey Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 세그먼트를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 세그먼트 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Customer Journey Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 세그먼트를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)합니다.
 
 ![빌드 세그먼트를 강조하는 세그먼트 드롭다운 선택기](assets/segment_ui.png)
 

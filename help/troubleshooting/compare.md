@@ -17,7 +17,7 @@ ht-degree: 100%
 
 조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이러한 차이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 Adobe Analytics에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 이러한 유연성으로 인해 Customer Journey Analytics이 데이터를 해석하는 방식에 약간의 차이가 발생할 수 있습니다. 이 문서를 사용하여 Customer Journey Analytics 및 Adobe Analytics가 데이터를 처리하는 방식의 잠재적 차이점을 이해합니다.
 
-이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
+이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
 
 ![해당 데이터는 Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform으로, 그리고 CJA 연결을 사용하여 Custoer Journey Analytics로 이동합니다.](assets/compare.png)
 
