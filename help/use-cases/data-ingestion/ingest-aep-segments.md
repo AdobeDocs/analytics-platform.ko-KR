@@ -19,7 +19,7 @@ ht-degree: 11%
 ## 사전 요구 사항
 
 * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)&#x200B;(특히 실시간 고객 프로필)에 액세스합니다.
-* Experience Platform [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)를 만들고 관리할 수 있는 액세스 권한.
+* Experience Platform [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)를 만들고 관리할 수 있는 액세스 권한.
 * [Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)에 대한 액세스 권한(및 SQL 작성 기능).
 * 데이터의 일부 변환을 수행할 수 있는 도구에 대한 액세스 권한.
 * Customer Journey Analytics에 액세스 Customer Journey Analytics 연결 및 데이터 보기를 만들고 수정하려면 [Customer Journey Analytics 제품 관리자](/help/technotes/access-control.md)여야 합니다.
@@ -56,7 +56,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
 
 ### 프로필 활성화 데이터 세트 만들기
 
-코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) 스키마를 기반으로 데이터 집합`_xdm.context.profile__union`을(를) 만듭니다.
+코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create#create-a-dataset) 스키마를 기반으로 데이터 집합`_xdm.context.profile__union`을(를) 만듭니다.
 
 +++ 데이터 세트 요청 만들기
 
@@ -102,7 +102,7 @@ curl -X POST \
 
 ### 대상자 내보내기
 
-선택한 대상을 방금 만든 데이터 세트로 내보냅니다. 대상자를 데이터 세트로 보내는 내보내기 작업을 만들려면 [세그먼테이션 서비스 API를 사용하십시오](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create).
+선택한 대상을 방금 만든 데이터 세트로 내보냅니다. 대상자를 데이터 세트로 보내는 내보내기 작업을 만들려면 [세그먼테이션 서비스 API를 사용하십시오](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/api/export-jobs#create).
 
 +++ 내보내기 작업 요청
 
@@ -170,7 +170,7 @@ curl -X POST https://platform.adobe.io/data/core/ups/export/jobs \
 
 +++
 
-[세그먼테이션 서비스 API를 사용하여 내보내기 작업의 상태를 확인](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get)하세요.
+[세그먼테이션 서비스 API를 사용하여 내보내기 작업의 상태를 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/api/export-jobs#get)하세요.
 
 +++ 특정 내보내기 작업 요청 검색
 
@@ -413,7 +413,7 @@ Customer Journey Analytics UI에서:
 
 ## Step 1: Select audiences in Real-time Customer Profile {#audience}
 
-Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
+Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
 
 You likely already have audiences in RTCP that may have come from various sources. Select one or more audiences to ingest into Customer Journey Analytics. For example, WKND Fly Platinum and Gold Fly Club Members.
 
@@ -422,19 +422,19 @@ You likely already have audiences in RTCP that may have come from various source
 
 ## Step 2: Create a Profile Union dataset for the export
 
-In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ko#understanding-union-schemas).
 
 Union schemas are composed of multiple schemas that share the same class and have been enabled for Profile. The union schema enables you to see an amalgamation of all of the fields contained within schemas sharing the same class. Real-time Customer Profile uses the union schema to create a holistic view of each individual customer.
 
 ## Step 3: Export an audience to the Profile Union dataset via API call {#export}
 
-Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html). 
+Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko). 
 
 You can create an export job using the audience ID of your choice, and put the results in the Profile Union Adobe Experience Platform dataset you created in Step 2. Although you can export various attributes/events for the audience, you only need to export the specific profile ID field that matches the person ID field used in the Customer Journey Analytics connection you will be leveraging (see below in Step 5).
 
 ## Step 4: Edit the export output 
 
-The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
+The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
 
 The standard export job, however, contains more data and so we need to edit this output to remove extraneous data, as well as move some things around.  Also, you need to create a schema/dataset first before you add the transformed data to it.
 
@@ -482,6 +482,6 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 * 대상 데이터가 Customer Journey Analytics 내에서 지속적으로 새로 고쳐지도록 이 프로세스를 정기적으로 수행해야 합니다.
 * 단일 Customer Journey Analytics 연결 내에서 여러 대상을 가져올 수 있습니다. 이는 프로세스에 복잡성을 가중시키지만 실행 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
    1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
-   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. [&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html)에 대해 `audienceMembershipId`개체 배열`audienceMembershipIdName`을 사용하는 것이 가장 좋습니다.
+   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. [&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)에 대해 `audienceMembershipId`개체 배열`audienceMembershipIdName`을 사용하는 것이 가장 좋습니다.
    1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
    1. 이제 Customer Journey Analytics Workspace 내에서 이 새 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.
