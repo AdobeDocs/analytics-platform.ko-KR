@@ -56,7 +56,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
 
 ### 프로필 활성화 데이터 세트 만들기
 
-코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) 스키마를 기반으로 데이터 집합`_xdm.context.profile__union`을(를) 만듭니다.
+코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) 스키마를 기반으로 데이터 집합`_xdm.context.profile__union`을(를) 만듭니다.
 
 +++ 데이터 세트 요청 만들기
 
@@ -336,7 +336,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
    1. (선택 사항) **[!UICONTROL 설명]**&#x200B;을 입력합니다.
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 1. **[!UICONTROL audienceMembershipId]** 및 **[!UICONTROL audienceMembershipName]**(이)라는 두 개의 필드를 포함하는 사용자 지정 필드 그룹(예: **[!UICONTROL Audience Membership]**)을 포함하도록 스키마를 설정하십시오.
-1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 I****[!UICONTROL ID 네임스페이스]**&#x200B;로서 [!UICONTROL 이메일]이 있는지 **.
+1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 I&#x200B;**&#x200B;**&#x200B;[!UICONTROL ID 네임스페이스]&#x200B;**&#x200B;로서 [!UICONTROL 이메일]이 있는지 &#x200B;**.
 
    ![내보낼 세그먼트](assets/segment-for-export.png)
 
