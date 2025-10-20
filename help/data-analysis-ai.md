@@ -259,7 +259,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[구성 요소 설정](/help/data-views/component-settings/overview.md)
->>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
->>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->>[세그먼트 공유](/help/components/segments/seg-share.md)
+>&#x200B;>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
+>&#x200B;>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>&#x200B;>[세그먼트 공유](/help/components/segments/seg-share.md)
 >
