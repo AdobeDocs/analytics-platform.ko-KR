@@ -140,9 +140,9 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
    * [Customer Journey Analytics 자습서](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
-   * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
+   * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
    * [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)
 
