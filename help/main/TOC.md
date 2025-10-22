@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: c32c57a1a62edc5b1c78ffe2b6782d575c98cfdd
+source-git-commit: 9c584bb7c66e9e6b2ef2fc49802fb6839db1d70a
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1310'
 ht-degree: 99%
 
 ---
@@ -54,6 +54,7 @@ ht-degree: 99%
       + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [권장되는 업그레이드 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [조직 준비](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + 스키마를 설계 및 만들기 {#schema}
          + [스키마 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
