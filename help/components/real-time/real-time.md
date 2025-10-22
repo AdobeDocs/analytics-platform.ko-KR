@@ -4,9 +4,9 @@ title: 실시간 보고 개요
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 5%
 # 실시간 보고 개요
 
 Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 이상의 패널 내에서 데이터와 시각화를 실시간으로 표시하고 업데이트합니다.
-
-{{release-limited-testing}}
 
 {{ultimate-package}}
 
@@ -59,6 +57,7 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 | 3 | Adobe Analytics 소스 커넥터 | 17분 | 105분 |
 | 4 | 소스 커넥터에 연결된 기타 소스 커넥터(배치 데이터 포함) | 25시간 | 25시간 |
 
+30분 이상 서비스 중단이 발생할 경우 문제가 해결될 때 실시간 데이터가 데이터로 채워지지 않습니다. 대신 실시간 보고는 서비스가 다시 작동하기 시작하는 순간부터 실시간 데이터를 선택합니다. 이 기간 동안 데이터가 손실되지 않으며 실시간 보고 이외의 표준 보고 기능을 사용하여 계속 사용할 수 있습니다.
 
 ## 제한 사항
 
