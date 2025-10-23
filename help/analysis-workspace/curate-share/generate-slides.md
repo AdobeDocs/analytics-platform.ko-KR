@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: f13a02c2741cf32c25edd11f969a7644f724b612
+source-git-commit: 62ef107c52a96178fbf9e41fee49db757488525b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1506'
+ht-degree: 3%
 
 ---
 
@@ -106,9 +106,10 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
    | **[!UICONTROL 표지 제목]** | 프레젠테이션의 제목을 지정합니다. 이 제목은 프레젠테이션의 제목 슬라이드에 표시됩니다. |
    | **[!UICONTROL 발표자 이름 포함]** | 발표자의 이름을 지정합니다. 이 이름은 프레젠테이션의 제목 슬라이드에 있으며 표지 제목 아래에 있습니다. |
    | 포함할 **[!UICONTROL 패널 및 시각화]** | 프레젠테이션에 포함할 패널 및 시각화를 선택합니다. 최대 50개의 시각화를 포함할 수 있습니다.<p>대부분의 패널 및 시각화가 지원됩니다. 지원되지 않는 패널 및 시각화에 대한 자세한 내용은 [지원되지 않는 프로젝트 요소 및 기능](#unsupported-project-elements-and-features)을 참조하십시오.</p> |
-   | **[!UICONTROL 패널 및 시각화 설명]** | 생성된 슬라이드 프레젠테이션에 패널 및 시각화 설명을 포함할지 여부를 선택합니다. |
-   | **[!UICONTROL 주석]** | 생성된 슬라이드 프레젠테이션에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/components/annotations/overview.md)를 참조하십시오. |
    | **[!UICONTROL 구성 요소 강조]** | 프레젠테이션에서 강조할 시각화에서 지표와 차원을 선택합니다. 선택하는 구성 요소는 순위가 더 높고 데이터 스토리의 테마와 중요한 서사가 생성될 때 더 많은 가중치가 부여됩니다. <p>강조를 적용하지 않으면 구성 요소는 다음과 같이 프레젠테이션에 표시됩니다.<ul><li>**지표 및 차원:** 기울임꼴</li><li>**Dimension 항목:** 큰따옴표</li></ul></p><p>강조를 적용하면 구성 요소가 프레젠테이션에 다음과 같이 표시됩니다.</p><ul><li>**지표 및 차원:** 기울임체 및 굵게</li><li>해당 차원이 강조된 경우 **Dimension 항목:** 굵게<p>차트에서 차원 항목이 강조 표시되면 색상도 차원 항목에 적용됩니다.</p></li></ul> |
+
+   <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
+   - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  -->
 
 1. (조건부) 슬라이드 프레젠테이션에 회사 테마가 필요하지 않은 경우 더 적은 단계로 슬라이드를 생성하려면 **[!UICONTROL 기본 테마]**&#x200B;를 선택합니다.
 
