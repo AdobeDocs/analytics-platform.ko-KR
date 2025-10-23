@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: 3807ad0beac3656c1f3bd886611fbe4470a6e7c5
+source-git-commit: 99adae279a21c827579ebc3b58b336a9f0e3e8a4
 workflow-type: tm+mt
 source-wordcount: '1535'
 ht-degree: 4%
@@ -12,6 +12,10 @@ ht-degree: 4%
 ---
 
 # Data storytelling: Workspace 보고서에서 슬라이드 프레젠테이션 생성 {#generate-powerpoint}
+
+{{release-limited-testing}}
+
+<!-- also remove lmited testing note from: /help/technotes/access-control.md -->
 
 [필요한 권한](#permission-requirements-to-generate-slides)이 있는 사용자는 Analysis Workspace 프로젝트 기반의 .pptx 프레젠테이션을 자동으로 생성할 수 있습니다. 이러한 슬라이드 프레젠테이션을 생성할 때 Customer Journey Analytics은 주요 인사이트를 식별하고 관련자가 사용할 수 있는 슬라이드로 변환하여 데이터에서 스토리를 자동으로 생성합니다.
 
