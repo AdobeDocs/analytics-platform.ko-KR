@@ -5,23 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
+source-git-commit: d1097ca5f981623283a7d02200d5023548046429
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 4%
 
 ---
 
 # B2B 조회를 위한 데이터 세트 변환
 
-B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 개인 기반 조회를 지원하려면 B2B 조회 데이터 세트의 변환이 필요합니다.
+B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 사용자 기반 조회를 지원하기 위해 B2B 조회 데이터 세트를 변환하면 데이터 정확도를 향상시킬 수 있습니다.
 
 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.
 
-* [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM 비즈니스 마케팅 목록 구성원](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM 비즈니스 마케팅 목록 구성원](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
