@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '413'
 ht-degree: 93%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 93%
 
 
 속성을 통해 차원 항목이 성공 이벤트에 대한 크레딧을 얻는 방식을 맞춤화할 수 있습니다.
-
-![속성 설정 옵션을 강조 표시한 데이터 보기 창](../assets/attribution-settings.png)
 
 예:
 
