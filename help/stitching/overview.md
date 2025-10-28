@@ -92,8 +92,8 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 >[!MORELIKETHIS]
 >
 >[필드 기반 결합](fbs.md)
->>[그래프 기반 결합](gbs.md)
->>[결합 사용](use-stitching.md)
->>[스티칭 검증](validate.md)
->>[스티칭 FAQ](faq.md)
+>&#x200B;>[그래프 기반 결합](gbs.md)
+>&#x200B;>[결합 사용](use-stitching.md)
+>&#x200B;>[스티칭 검증](validate.md)
+>&#x200B;>[스티칭 FAQ](faq.md)
 
