@@ -20,7 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 10월** | |
-| Data Insights Agent 액세스 관리 | 데이터 보기[을(를) 사용하기 위한 ](/help/data-analysis-ai.md#manage-access-to-data-insights-agent)권한 요구 사항 및 프로세스를 업데이트했습니다. |
+| Data Insights Agent 액세스 관리 | 데이터 보기[을(를) 사용하기 위한 &#x200B;](/help/data-analysis-ai.md#manage-access-to-data-insights-agent)권한 요구 사항 및 프로세스를 업데이트했습니다. |
 | 속성 구성 | 모델, 컨테이너 및 전환 확인 기간에 대한 새 속성 구성 옵션을 반영하도록 추가 업데이트입니다. |
 | Experience Platform 대상자 수집 및 활용 | [Experience Platform 대상자 수집 및 사용](/help/use-cases/data-ingestion/ingest-aep-segments.md) 방법에 대한 사용 사례 문서를 업데이트했습니다. |
 | Customer Journey Analytics로 업그레이드할 조직 준비하기 | [Customer Journey Analytics로 업그레이드할 조직을 준비하는 방법](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)에 대한 정보가 추가되었습니다. |
