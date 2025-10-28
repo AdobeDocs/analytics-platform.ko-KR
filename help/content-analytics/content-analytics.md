@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 
 ## 작동 방식
 
-Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [콘텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 그리고 해당 콘텐츠 데이터 수집을 (기존의) 동작 데이터 수집 구현과 결합합니다.
+Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [콘텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. 동작 데이터는 Web SDK 또는 Analytics Source Connector를 사용하여 수집할 수 있습니다.
 
 ![Content Analytics - 작동 방식](assets/aca-overview.gif)
 
@@ -68,6 +68,6 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >
 >[Content Analytics 보고](report/report.md)
 >>[Content Analytics 구성](config/configuration.md)
->>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
