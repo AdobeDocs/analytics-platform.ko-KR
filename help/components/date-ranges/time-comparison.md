@@ -4,10 +4,10 @@ title: 날짜 비교
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 5a9cb206076755d5b34a8ec9108ca88a9468bfe3
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 95%
+source-wordcount: '757'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,12 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어 *작년 이맘때보다 얼마나 좋아질까요/나빠질까요?*&#x200B;라는 질문은 비즈니스를 이해하는 데 기본적인 질문입니다. 날짜 비교에 *차이점* 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
 1. 기간을 비교할 차원 및 지표를 사용하여 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)을 만듭니다.
+1. 패널 또는 열의 기간을 설정하여 비교 시간대와 롤링 또는 고정 시간 비교 여부를 결정합니다.
+
+   순환 시간 비교를 만들려면 패널 또는 열 날짜 범위를 순환 날짜 범위(예: **[!UICONTROL 최근 7일]**, **[!UICONTROL 최근 30일]** 등)로 설정하십시오.
+
+   고정 시간 비교를 만들려면 패널 또는 열 날짜 범위를 사용자 지정 날짜 범위로 설정하십시오.
+
 1. 표 행의 컨텍스트 메뉴를 열고 **[!UICONTROL 기간 비교]**&#x200B;를 선택합니다.
 
    ![기간 비교가 선택된 테이블 행](assets/compare-time.png)
