@@ -4,10 +4,10 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a32f2c308b8fc1b463dc00d77008063035968241
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 86%
 | **[!UICONTROL 선택 항목으로 주석 만들기]** | **[!UICONTROL 주석 세부 정보]**&#x200B;를 열어 주석을 추가합니다. |
 
 
-자유 형식 테이블에서 하나 이상의 차원 항목(첫 번째 열) 또는 하나 이상의 개별 셀을 선택할 때 다음과 같은 추가 컨텍스트 메뉴 옵션을 사용할 수 있습니다.
+다음 추가 컨텍스트 메뉴 옵션은 자유 형식 테이블에서 하나 이상의 차원 항목(첫 번째 열) 또는 하나 이상의 개별 셀을 선택할 때 사용할 수 있습니다.
 
 | 옵션 | 설명 |
 | --- | --- |
@@ -90,4 +90,4 @@ ht-degree: 86%
 
 ## 행 높이 변경
 
-프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**(으)로 설정할 수 있습니다.
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.

@@ -4,10 +4,10 @@ title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: e8bb2df72cd223713bf63f0e85ea9c9e444cb3e5
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 91%
+source-wordcount: '910'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -88,13 +88,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->구성 요소의 비기본 속성 모델에 대한 속성을 업데이트할 때 다음 사항을 고려해야 합니다.
+>지표에 대해 기본이 아닌 속성 모델을 활성화할 때 다음 사항을 고려하십시오.
 >
->* **보고서에서 *단일 차원***&#x200B;으로 구성 요소를 사용하는 경우: 비기본 속성 모델을 사용할 때 구성 요소의 속성은 배분 모델을 무시합니다.
+>* **보고서에서 지표를 *단일 차원과 함께 사용하는 경우*:** 지표의 속성은 차원에 설정된 할당 모델을 재정의합니다. 예를 들어 &quot;첫 번째 터치&quot; 속성이 있는 지표는 &quot;가장 최근&quot; 차원 할당을 무시합니다.
 >
->* **보고서에서 *다중 차원*으로 구성 요소를 사용하는 경우:** 비기본 속성 모델을 사용할 때 구성 요소의 속성은 배분 모델을 유지합니다.
->
->   다중 차원은 [클라우드로 데이터 내보내기](/help/analysis-workspace/export/export-cloud.md) 시에만 사용할 수 있습니다.
+>* **보고서에서 지표를 *여러 차원과 함께 사용할 때*:** 지표의 속성은 각 차원의 할당 모델 위에 적용됩니다. 예를 들어 &quot;첫 번째 터치&quot; 속성이 있는 지표는 &quot;가장 최근&quot; 차원 할당 위에 적용됩니다.
 >
 > 배분에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오.
 

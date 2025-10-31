@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 3e87e9edd69229d5228de0f96d2525614172e725
+source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1311'
 ht-degree: 99%
 
 ---
@@ -204,6 +204,7 @@ ht-degree: 99%
          + [개요](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [하이퍼링크 만들기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + [트렌드 데이터 보기](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [여러 차원 포함](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)
          + [필터링 및 정렬](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [총계](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + 열 및 행 설정 {#column-row-settings}
