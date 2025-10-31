@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e4b7f1da451a7ec9171fbb623e0e79e916827fd8
+source-git-commit: 77f350923bb750bf99fe4080e44968f9a52cd7da
 workflow-type: tm+mt
 source-wordcount: '2489'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
    1. 제공된 테이블의 **[!UICONTROL 보고 도구]** 행에서 ![편집](/help/assets/icons/Edit.svg) 아이콘을 선택합니다.
    1. **[!UICONTROL AI 어시스턴트: 제품 지식]**&#x200B;를 스크롤하여 찾거나 검색한 후 해당 권한 옆에 있는 더하기 아이콘(![AddCircle](/help/assets/icons/AddCircle.svg))을 선택합니다.
-   1. **[!UICONTROL Data Insights Agent]**(으)로 스크롤하거나 검색한 다음 이 권한 옆에 있는 더하기 아이콘 ![AddCircle](/help/assets/icons/AddCircle.svg)을(를) 선택합니다.
+   1. **[!UICONTROL Data Insights 에이전트]**&#x200B;를 스크롤하여 찾거나 검색한 후 해당 권한 옆에 있는 더하기 아이콘(![AddCircle](/help/assets/icons/AddCircle.svg))을 선택합니다.
 
-      **[!UICONTROL AI 도우미: 제품 정보]** 권한과 **[!UICONTROL Data Insights Agent]** 권한이 **[!UICONTROL 포함된 권한 항목]** 열에 추가됩니다.
+      **[!UICONTROL AI 어시스턴트: 제품 지식]** 권한과 **[!UICONTROL Data Insights 에이전트]** 권한이 **[!UICONTROL 포함된 권한 항목]** 열에 추가됩니다.
 
       ![권한 추가](assets/ai-assistant-permissions.png).
 
@@ -74,29 +74,29 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
 
   액세스 제어에 대한 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
-* **데이터 보기 액세스**: Data Insights Agent에 대해 데이터 보기를 사용하도록 설정해야 합니다.
+* **데이터 보기 액세스**: Data Insights 에이전트에 대해 데이터 보기를 사용하도록 설정해야 합니다.
 
   >[!IMPORTANT]
   >
   >이 데이터 보기를 활성화할 때 다음 사항을 고려하십시오.
   >* IMS 조직당 최대 50개의 데이터 보기를 활성화할 수 있습니다. 특정 조직의 모든 제품 프로필에서 50개가 넘는 데이터 보기를 활성화하는 경우, Data Insights 에이전트는 가장 많이 사용되는 50개의 데이터 보기를 사용합니다.
-  >* Data Insights Agent은 포함된 데이터 보기를 활성화한 같은 날 중에 참조할 수 있습니다.
+  >* Data Insights 에이전트는 데이터 보기를 활성화한 당일에 포함된 데이터 보기를 참조할 수 있습니다.
 
-  Data Insights Agent에 대한 데이터 보기를 활성화하려면 다음을 수행하십시오.
-
-   1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
-
-   1. Data Insights Agent에 사용할 데이터 보기를 하나 이상 선택한 다음 **[!UICONTROL Data Insights Agent에 사용]**&#x200B;을 선택합니다.
-
-      ![Data Insights Agent에 대한 데이터 보기 사용](assets/data-view-enable-dia.png)
-
-  IMS 조직에서 Data Insights Agent에 대해 활성화된 데이터 보기 수를 보려면 다음을 수행하십시오.
+  Data Insights 에이전트에 대한 데이터 보기를 활성화하려면 다음을 수행하십시오.
 
    1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL Data Insights Agent]** 열 맨 위에 있는 정보 아이콘을 선택합니다.
+   1. Data Insights 에이전트에 사용할 데이터 보기를 하나 이상 선택한 다음 **[!UICONTROL Data Insights 에이전트에 사용 가능]**&#x200B;을 선택합니다.
 
-      ![Data Insights Agent 정보 아이콘](assets/data-insights-agent-tooltip.png)
+      ![Data Insights 에이전트에 대한 데이터 보기 활성화](assets/data-view-enable-dia.png)
+
+  IMS 조직에서 Data Insights 에이전트에 대해 활성화된 데이터 보기 수를 보려면 다음을 수행하십시오.
+
+   1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+
+   1. **[!UICONTROL Data Insights 에이전트]** 열 맨 위에 있는 정보 아이콘을 선택합니다.
+
+      ![Data Insights 에이전트 정보 아이콘](assets/data-insights-agent-tooltip.png)
 
 ## AI 어시스턴트에서 Data Insights 에이전트 액세스
 
@@ -264,7 +264,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[구성 요소 설정](/help/data-views/component-settings/overview.md)
->&#x200B;>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[세그먼트 공유](/help/components/segments/seg-share.md)
+>>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[세그먼트 공유](/help/components/segments/seg-share.md)
 >
