@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/23968)-->
+>[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
 
 ## 테이블 필터링
 
