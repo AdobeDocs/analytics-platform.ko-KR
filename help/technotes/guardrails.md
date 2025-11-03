@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
+source-git-commit: 9263a0c868c6cfe140e38df43d72ff497c2fc931
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2068'
 ht-degree: 7%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 7%
 | 패널당 시각화 | 25 | 시스템 강제 보호 | 패널당 최대 [시각화](../analysis-workspace/home.md#visualizations) 수. |
 | 자유 형식 테이블당 파생 필드 | 5 | 시스템 강제 보호 | 단일 자유 형식 테이블에 있는 다양한 파생 필드의 최대 수입니다. |
 | 프로젝트당 댓글 | 1,000 | 시스템 강제 보호 | 프로젝트당 최대 댓글 수. |
+| 프로젝트당 댓글 | 1,000 | 시스템 강제 보호 | 프로젝트당 최대 댓글 수. |
+| 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
+| 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
+| 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB)입니다. |
 | 댓글당 답글 수 | 100 | 시스템 강제 보호 | 댓글당 최대 회신 수. |
 | 댓글당 이미지 수 | 5 | 시스템 강제 보호 | 댓글당 최대 이미지 수. |
 | 이미지 크기 | 2 | 시스템 강제 보호 | 이미지당 최대 업로드 크기(MB) |
@@ -62,8 +66,6 @@ ht-degree: 7%
 
 
 <!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced Guardrail - Maximum number of dimensions per freeform table. -->
-
-
 
 <!--
 
@@ -90,7 +92,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)도 참조하세요.
+Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)도 참조하세요.
 
 
 ## 자동화된 데이터 세트 만료
@@ -110,7 +112,7 @@ Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experi
 | 프로젝트 | 50,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
 | 데이터 보기 | 2,000 | 시스템 강제 보호 | 조직의 최대 [데이터 보기](../data-views/data-views.md) 수입니다. |
 | 데이터 보기 | 500-1000 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko). |
+| 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html). |
 | 연결 | 1000년 | 시스템 강제 보호 | 조직의 최대 [연결](../connections/overview.md) 수입니다. |
 | 연결 제목 | 500 | 시스템 강제 보호 | 연결 제목의 최대 문자 수입니다. |
 | 지표 | 5,000 | 시스템 강제 보호 | 데이터 보기의 최대 지표 수입니다. |
@@ -135,7 +137,7 @@ Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experi
 
 {style="table-layout:auto"}
 
-Experience Platform [데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)도 참조하세요.
+Experience Platform [데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)도 참조하세요.
 
 
 ## 대상 데이터 내보내기
@@ -147,7 +149,7 @@ Experience Platform [데이터 수집을 위한 보호 기능](https://experienc
 
 {style="table-layout:auto"}
 
-Experience Platform [데이터 집합 내보내기 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails#dataset-exports)도 참조하세요.
+Experience Platform [데이터 집합 내보내기 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)도 참조하세요.
 
 
 ## 데이터 랜딩 영역
@@ -212,7 +214,7 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 통합 문서 파일 크기 | 5 | 시스템 강제 보호 | 예약된 통합 문서의 최대 파일 크기(MB)입니다. |
-| 데이터 블록 | 1000 | 시스템 강제 보호 | 통합 문서당 최대 [데이터 블록 수](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=ko). |
+| 데이터 블록 | 1000 | 시스템 강제 보호 | 통합 문서당 최대 [데이터 블록 수](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html). |
 | 지표 | 20 | 시스템 강제 보호 | 데이터 블록당 최대 지표 수. |
 | 날짜 범위 범위 | 13 | 시스템 강제 보호 | 데이터 블록당 날짜 범위가 적용될 수 있는 최대 개월 수입니다. |
 | 다른 결과를 표시했던 | 50,000 | 시스템 강제 보호 | 데이터 블록당 최대 행 수. |
@@ -250,11 +252,20 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 | 데이터 보기 | 50 | 시스템 강제 보호 | Data Insights Agent에 대해 활성화할 수 있는 최대 데이터 보기 수입니다. 더 많은 데이터 보기가 활성화되면 Data Insights Agent에서는 가장 많이 사용된 데이터 보기만 사용할 수 있습니다. 이 가드레일은 연결 또는 조직 내에서 정의할 수 있는 최대 데이터 보기 수를 정의하는 [가드레일에 영향을 주지 않습니다](#connections-data-views-projects). |
 
 
+## Customer Journey Analytics B2B Edition
+
+| 이름 | 값 | 제한 유형 | 설명 |
+|---|--:|---|---|
+| BPP(보고 가능한 사업가 프로필) 보고 가능한 행 | 100만 | 성능 보호 | 1000개의 보고 가능한 비즈니스 사용자 프로필당 평균 보고 가능한 행입니다. |
+
+
+
+
 ## 지연
 
 >[!NOTE]
 >
->아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. 자세한 내용은 Experience Platform [데이터 수집을 위한 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)를 참조하십시오.
+>아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. 자세한 내용은 Experience Platform [데이터 수집을 위한 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)를 참조하십시오.
 
 | 데이터 흐름 | 예상 지연 시간 |
 |---|---|
