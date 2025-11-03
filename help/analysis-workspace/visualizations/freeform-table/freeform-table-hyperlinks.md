@@ -4,14 +4,14 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1602'
 ht-degree: 97%
 
 ---
 
-# 하이퍼링크 만들기
+# 자유 형식 테이블에 하이퍼링크 만들기
 
 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 해당 항목을 클릭하도록 할 수 있습니다.
 

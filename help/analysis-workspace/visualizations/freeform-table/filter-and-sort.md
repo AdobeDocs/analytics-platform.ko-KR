@@ -4,20 +4,20 @@ title: 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 1d760139bd988097486e5c151364f291ad8e243d
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1134'
 ht-degree: 65%
 
 ---
 
-# 테이블 필터링 및 정렬
+# 자유 형식 테이블 필터링 및 정렬
 
 Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. 그에 따라 자유 형식 테이블은 수천 개의 정보 행을 포함할 수 있습니다. 데이터를 필터링하고 정렬하는 것은 가장 중요한 정보를 효율적으로 표시하는 데 필수적인 부분이 될 수 있습니다.
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 

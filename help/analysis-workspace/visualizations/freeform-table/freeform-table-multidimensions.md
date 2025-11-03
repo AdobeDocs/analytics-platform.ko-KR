@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1274'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,26 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-자유 형식 테이블에 최대 5개의 차원 열을 포함할 수 있으므로 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 하나의 연결된 항목 역할을 합니다.
+자유 형식 테이블에 최대 5개의 차원 열을 포함할 수 있으므로 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다.
 
-여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 보다 완벽하고 사용자 정의 분석을 만들 수 있습니다.
+여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 보다 심층적이고 사용자 정의 분석을 만들 수 있습니다.
+
+## 연결된 차원 항목
+
+자유 형식 테이블에 여러 차원 열을 추가하면 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다. 이 기능을 사용하면 특정 차원 조합에 대한 지표 데이터를 볼 수 있습니다.
+
+예를 들어, 차원이 _구/군/시_, _장치 유형_ 및 _날짜_&#x200B;이고 지표가 _이벤트_&#x200B;인 자유 형식 테이블을 생각해 보십시오. 이 테이블의 첫 번째 행에 있는 3개 차원 항목은 연결된 단일 차원 항목이 되어 그 달 30일에 휴대폰에서 뭄바이에서 발생한 2,056개의 이벤트가 있었음을 보여 줍니다.
+
+| Dimension: 도시 | Dimension: 장치 유형 | Dimension: 날짜 | 지표: 이벤트 |
+|---------|----------|---------|---------|
+| 뭄바이 | 휴대폰 | 30 | 2,056 |
+| 뉴욕 | 태블릿 | 31 | 1,761 |
+| 방갈로르 | 데스크톱 | 1 | 1,666 |
+| 델리 | 휴대폰 | 14 | 1,396 |
+
+이 표가 Analysis Workspace에 표시되는 방식은 다음과 같습니다.
+
+![다중 차원 예](assets/multi-dim-example.png)
 
 ## 여러 차원 열 추가
 
@@ -39,6 +56,8 @@ ht-degree: 2%
      여러 차원을 선택하려면 ***Command*** 키(Mac의 경우) 또는 ***Ctrl*** 키(Windows의 경우)를 길게 누릅니다.
 
      ![여러 차원 드래그](assets/dimensions-add-multiple.png)
+
+1. 테이블의 각 행을 단일 차원 항목으로 봅니다. 자세한 내용은 [연결된 차원 항목 보기](#view-concatenated-dimension-items)를 참조하십시오.
 
 ## 테이블 필터링
 
@@ -66,7 +85,7 @@ Analysis Workspace의 열별로, 차원이든 지표든 자유 형식 테이블�
 
 1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
 
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ### 여러 열을 기준으로 표 정렬(고급 정렬)
 
@@ -100,7 +119,7 @@ Analysis Workspace의 열별로, 차원이든 지표든 자유 형식 테이블�
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ![다중 정렬 예](assets/dimensions-multiple-sort.png)
 
@@ -160,9 +179,21 @@ Analysis Workspace에서는 자유 형식 테이블 내에 여러 차원을 추�
 
 ### 여러 차원 열이 있는 테이블에 분류를 추가합니다
 
-여러 차원 열이 있는 테이블에 분류를 추가하면 분류는 분류를 추가한 행의 모든 차원 항목에 적용됩니다.
+여러 차원 열이 있는 테이블에 분류를 추가하면 분류는 추가한 행의 연결된 차원 항목(모든 차원 열에 있음)에 적용됩니다.
 
-[차원 분류](/help/components/dimensions/t-breakdown-fa.md)에 설명된 대로 분류를 추가할 수 있습니다.
+또한 분류 내에 여러 차원 열을 추가할 수 있습니다. 분류 내의 각 차원 항목 행도 연결된 단일 차원 항목처럼 작동합니다.
+
+<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
+
+![다중 정렬 예](assets/dimensions-multiple-sort.png)
+
+분류를 추가하는 방법에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
+
+## 여러 차원 열에 걸쳐 있는 차원 항목을 기반으로 세그먼트를 만듭니다
+
+여러 차원 열에 걸쳐 있는 차원 항목을 기반으로 세그먼트를 만들면 각 차원 항목이 세그먼트 정의에 포함되고, And 연산자가 연결됩니다.
+
+세그먼트 만들기에 대한 자세한 내용은 [세그먼트 만들기](/help/components/segments/seg-create.md)를 참조하십시오.
 
 ## 지원되지 않는 차원 {#unsupported}
 
