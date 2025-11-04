@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: 62ef107c52a96178fbf9e41fee49db757488525b
+source-git-commit: 87e3b3cfdf765a57ecdb70921696013bcba4feac
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1585'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
    |---------|----------|
    | **[!UICONTROL 표지 제목]** | 프레젠테이션의 제목을 지정합니다. 이 제목은 프레젠테이션의 제목 슬라이드에 표시됩니다. |
    | **[!UICONTROL 발표자 이름 포함]** | 발표자의 이름을 지정합니다. 이 이름은 프레젠테이션의 제목 슬라이드에 있으며 표지 제목 아래에 있습니다. |
-   | 포함할 **[!UICONTROL 패널 및 시각화]** | 프레젠테이션에 포함할 패널 및 시각화를 선택합니다. 최대 50개의 시각화를 포함할 수 있습니다.<p>대부분의 패널 및 시각화가 지원됩니다. 지원되지 않는 패널 및 시각화에 대한 자세한 내용은 [지원되지 않는 프로젝트 요소 및 기능](#unsupported-project-elements-and-features)을 참조하십시오.</p> |
+   | 포함할 **[!UICONTROL 패널 및 시각화]** | 프레젠테이션에 포함할 패널 및 시각화를 선택합니다. 최대 50개의 시각화를 포함할 수 있습니다.<p>시각화가 흐리게 표시되면 뒤에 **[!UICONTROL (지원되지 않음)]** 또는 **[!UICONTROL (제한된 데이터)]**&#x200B;이(가) 표시됩니다.</p><ul><li>**지원되지 않음**: 대부분의 패널 및 시각화가 지원됩니다. 지원되지 않는 패널 및 시각화에 대한 자세한 내용은 [지원되지 않는 프로젝트 요소 및 기능](#unsupported-project-elements-and-features)을 참조하십시오.</li><li>**제한된 데이터**: 시각화에 조직에서 시행하는 데이터 거버넌스 정책에 의해 내보내기가 제한된 구성 요소가 포함되어 있습니다. 시스템 관리자에게 문의하여 내보내기가 제한된 구성 요소를 확인한 다음 슬라이드를 생성하기 전에 제한된 구성 요소를 제거하십시오.</li></ul> |
    | **[!UICONTROL 구성 요소 강조]** | 프레젠테이션에서 강조할 시각화에서 지표와 차원을 선택합니다. 선택하는 구성 요소는 순위가 더 높고 데이터 스토리의 테마와 중요한 서사가 생성될 때 더 많은 가중치가 부여됩니다. <p>강조를 적용하지 않으면 구성 요소는 다음과 같이 프레젠테이션에 표시됩니다.<ul><li>**지표 및 차원:** 기울임꼴</li><li>**Dimension 항목:** 큰따옴표</li></ul></p><p>강조를 적용하면 구성 요소가 프레젠테이션에 다음과 같이 표시됩니다.</p><ul><li>**지표 및 차원:** 기울임체 및 굵게</li><li>해당 차원이 강조된 경우 **Dimension 항목:** 굵게<p>차트에서 차원 항목이 강조 표시되면 색상도 차원 항목에 적용됩니다.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -235,5 +235,9 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
   분류의 데이터는 생성된 프레젠테이션에 포함되지만 차원 항목과 동일한 수준으로 표시됩니다.
 
 * 안내식 분석
+
+* 데이터 거버넌스 정책에 의해 내보내기가 제한된 구성 요소
+
+  자세한 내용은 [내보내기 실패 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.
 
 
