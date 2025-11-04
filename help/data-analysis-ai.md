@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 77f350923bb750bf99fe4080e44968f9a52cd7da
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 100%
+source-wordcount: '2491'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights 에이전트에 대한 액세스는 2025년 11월 30일에 종료됩니다. 중단 없이 Data Insights 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Data Insights 에이전트 라이선스에 대해 자세히 알아보십시오.
+>Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일까지 가능합니다. 중단 없이 Data Insights Agent을 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
 
 Customer Journey Analytics의 [AI 어시스턴트](/help/ai-assistant.md)에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
 
@@ -264,7 +264,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[구성 요소 설정](/help/data-views/component-settings/overview.md)
->>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
->>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->>[세그먼트 공유](/help/components/segments/seg-share.md)
+>[데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)
+>[계산된 지표 승인](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>[세그먼트 공유](/help/components/segments/seg-share.md)
 >

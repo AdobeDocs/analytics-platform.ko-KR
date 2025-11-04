@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a32f2c308b8fc1b463dc00d77008063035968241
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 56%
+ht-degree: 53%
 
 ---
 
@@ -21,13 +21,13 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
    ![선택한 항목에서 경고 만들기를 보여 주는 단계 결과.](assets/breakdown.png)
 
-1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**&#x200B;필드에서 구성 요소를 검색하면 됩니다.
+1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**필드에서 구성 요소를 검색하면 됩니다.
 
 선택한 기간에 대해 차원 항목이나 대상자 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
 >[!NOTE]
 >
->테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
+>테이블에 표시되는 분류의 수는 400개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
 ## 위치별 분류
 
@@ -51,7 +51,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://video.tv.adobe.com/v/30875?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -60,7 +60,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/31092?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -69,7 +69,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://video.tv.adobe.com/v/33286?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -78,7 +78,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/328533?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -87,7 +87,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/30874?captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/24033){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
