@@ -437,12 +437,12 @@ ht-degree: 99%
 
 + 결합 {#stitching}
    + [개요](/help/stitching/overview.md)
-   + [필드 기반 스티칭](/help/stitching/fbs.md)
-   + [그래프 기반 스티칭](/help/stitching/gbs.md)
-   + [요청 결합](/help/stitching/use-stitching.md)
-   + [스티칭 사용](/help/stitching/use-stitching-ui.md)
+   + [필드 기반 결합](/help/stitching/fbs.md)
+   + [그래프 기반 결합](/help/stitching/gbs.md)
+   + [결합 요청](/help/stitching/use-stitching.md)
+   + [결합 사용](/help/stitching/use-stitching-ui.md)
    + [결합된 데이터 세트 생성 및 관리](/help/stitching/stitching-ui.md)
-   + [스티칭 검증](/help/stitching/validate.md)
+   + [결합 검증](/help/stitching/validate.md)
    + [자주 묻는 질문](/help/stitching/faq.md)
 
 + Adobe 통합 {#integrations}
