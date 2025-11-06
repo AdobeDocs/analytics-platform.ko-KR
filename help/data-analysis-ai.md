@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
+source-git-commit: 518f2aeac309a34016146b7a4da7823b6fd84cac
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일까지 가능합니다. 중단 없이 Data Insights Agent을 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
+>Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일까지 가능합니다. 이 날짜 이후에도 중단 없이 Data Insights Agent을 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
 
 Customer Journey Analytics의 [AI 어시스턴트](/help/ai-assistant.md)에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
 
