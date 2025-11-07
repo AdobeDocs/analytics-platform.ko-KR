@@ -2,10 +2,10 @@
 title: 제품 사용 개요
 description: 조직이 Customer Journey Analytics를 어떻게 활용하는지에 대한 인사이트와 보고서를 확인합니다.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
+source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 89%
+source-wordcount: '657'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->이 기능은 Adobe Experience Platform의 계약된 행 제한에 포함됩니다. 이 기능을 활성화하기 전에 조직이 이 기능으로 생성된 데이터를 수용할 수 있는지 확인합니다.
+>제품 사용을 활성화하면 사용 데이터가 Adobe Experience Platform 데이터 레이크에 저장됩니다. 조직의 데이터 레이크 스토리지 할당이 이 기능을 활성화하여 생성된 추가 데이터 세트를 수용할 수 있는지 확인하십시오.
+>
+>이 기능은 라이선스가 있는 Customer Journey Analytics 보고 행 제한 또는 이벤트 데이터 권한에 대해서는 계산되지 않습니다.
 
 ## 제품 사용 활성화
 
@@ -58,7 +60,7 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
    * [!UICONTROL 모두와 프로젝트 공유]
    * [!UICONTROL Workspace 사용자와 프로젝트 공유]
    * [!UICONTROL 데이터 보기 전환]
-* **[!UICONTROL 사용된 속성 모델]**: 구성 요소가 사용하는 속성 모델의 유형. 차원 항목은 다음을 포함합니다.
+* **[!UICONTROL 사용된 기여도 모델]**: 구성 요소가 사용하는 기여도 모델의 유형. 차원 항목은 다음을 포함합니다.
    * [!UICONTROL 마지막 터치]
    * [!UICONTROL 첫 번째 터치]
    * [!UICONTROL 선형]
@@ -70,8 +72,8 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
    * [!UICONTROL 시간 감소]
    * [!UICONTROL 사용자 정의]
    * [!UICONTROL 알고리즘]
-* **[!UICONTROL 구성 요소 ID]**: 추가, 제거 또는 수정된 구성 요소의 ID입니다.
-* **[!UICONTROL 구성 요소 이름]**: 추가, 제거 또는 수정된 구성 요소의 이름입니다.
+* **[!UICONTROL 구성 요소 ID]**: 추가, 제거 또는 수정된 구성 요소의 ID
+* **[!UICONTROL 구성 요소 이름]**: 추가, 제거 또는 수정된 구성 요소에 대한 친근한 이름
 * **[!UICONTROL 구성 요소 유형]**: 추가, 제거 또는 수정된 구성 요소의 유형. 차원 항목은 다음을 포함합니다.
    * [!UICONTROL 차원]
    * [!UICONTROL 지표]
@@ -80,10 +82,10 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
    * [!UICONTROL 날짜 범위]
    * [!UICONTROL 주석]
    * [!UICONTROL 경고]
-* **[!UICONTROL 데이터 보기 ID]**: 데이터 보기의 ID입니다.
-* **[!UICONTROL 데이터 보기 이름]**: 데이터 보기의 이름입니다.
-* **[!UICONTROL 로그인 사용자]**: 액션을 수행한 사용자.
-* **[!UICONTROL 사용된 패널]**: 추가, 제거 또는 수정된 패널입니다. 차원 항목은 다음을 포함합니다.
+* **[!UICONTROL 데이터 보기 ID]**: 데이터 보기의 ID
+* **[!UICONTROL 데이터 보기 이름]**: 데이터 보기의 이름
+* **[!UICONTROL 로그인 사용자]**: 액션을 수행한 사용자
+* **[!UICONTROL 사용된 패널]**: 추가, 제거 또는 수정된 패널. 차원 항목은 다음을 포함합니다.
    * [!UICONTROL 속성]
    * [!UICONTROL 빈 패널]
    * [!UICONTROL 실험]
@@ -97,8 +99,8 @@ Customer Journey Analytics에서 이 인터페이스 섹션으로 이동하면 �
    * [!UICONTROL 사용자 스트림]
    * [!UICONTROL Retention]
    * [!UICONTROL 기능 매트릭스]
-* **[!UICONTROL 프로젝트 ID]**: 프로젝트의 ID입니다.
-* **[!UICONTROL 프로젝트 이름]**: 프로젝트에 대한 친숙한 이름.
+* **[!UICONTROL 프로젝트 ID]**: 프로젝트의 ID
+* **[!UICONTROL 프로젝트 이름]**: 프로젝트에 대한 친숙한 이름
 * **[!UICONTROL 프로젝트 유형]**: 프로젝트 유형. 차원 항목은 다음을 포함합니다.
    * `workspace-projects`
    * `guided-analysis`
