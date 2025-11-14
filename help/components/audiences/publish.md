@@ -4,10 +4,10 @@ description: Customer Journey Analytics에서 대상자를 게시하는 방법 �
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
+source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 100%
+source-wordcount: '2391'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    | 만들기 방법 | 세부 사항 |
    | --- | --- |
-   | **[!UICONTROL 대상자]** 인터페이스 내에서 | 메인 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상자]**&#x200B;를 선택합니다. 대상자 인터페이스가 표시됩니다. **[!UICONTROL 대상자 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상자 빌더]가 열립니다. |
+   | **[!UICONTROL 게시된 대상자]** 인터페이스 내에서 | 기본 Customer Journey Analytics 메뉴에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 게시된 대상]**&#x200B;을 선택합니다. 대상자 인터페이스가 표시됩니다. **[!UICONTROL 대상자 만들기]**&#x200B;를 선택하면 [!UICONTROL 대상자 빌더]가 열립니다. |
    | Analysis Workspace의 시각화에서 | Analysis Workspace의 많은 시각화 기능을 사용하면 컨텍스트 메뉴를 사용하여 대상자를 만들 수 있습니다. 예를 들어 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)의 항목 또는 [여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)의 노드 컨텍스트 메뉴에서 **[!UICONTROL 대상자 만들기]**&#x200B;를 선택합니다.<p>이 방법을 사용하면 선택한 차원 또는 차원 항목으로 대상자 빌더의 세그먼트가 미리 채워집니다.</p><p>다음 시각화를 사용하면 마우스 오른쪽 클릭 메뉴를 사용하여 대상자를 만들 수 있습니다.</p><ul><li>[코호트 테이블](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[폴아웃](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[플로우](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[맵&#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**참고:** 이 시각화는 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다.</li><li>[벤](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**참고:** 계산된 지표는 대상자에 포함될 수 없습니다. 계산된 지표가 포함된 대상자를 만들려고 하면 계산된 지표가 대상자 정의에 포함되지 않습니다.</p> |
    | 세그먼트 생성/편집 UI에서 | **[!UICONTROL 이 세그먼트에서 대상자 만들기]** 확인란을 선택합니다. 이 방법을 사용하면 세그먼트가 미리 채워집니다. 자세한 내용은 [세그먼트 만들기](/help/components/segments/seg-create.md)를 참조하십시오. |
 

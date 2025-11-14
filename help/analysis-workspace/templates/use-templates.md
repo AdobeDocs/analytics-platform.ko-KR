@@ -4,10 +4,10 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8b9f45bc68fd90c2b15a91d547256c18d0d7142b
+source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
 workflow-type: tm+mt
-source-wordcount: '20687'
-ht-degree: 98%
+source-wordcount: '20775'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -591,6 +591,11 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 
 <!--Both AA and CJA-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="사이트를 방문하는 사람 중 어떤 대상이 표시되는지 확인합니다."
+>abstract="**대상자가 시작된 대상(RTCDP, Customer Journey Analytics 등), 대상자 중복 등에 대한 일반 정보를 더 잘 이해하는 데 도움이 됩니다**.<br/>**학습한 내용에 따라 데이터를 사용하여 특정 대상을 위한 마케팅 활동에 집중하거나 여러 대상을 포괄하는 고객을 위한 맞춤 경험을 만드는 등 여러 가지 작업을 수행할 수 있습니다**.<br/>이 템플릿은 대상 이름, 대상 원본, 종료된 대상 이름 및 종료된 대상 원본 차원을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"

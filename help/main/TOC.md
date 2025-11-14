@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
-workflow-type: ht
-source-wordcount: '1311'
-ht-degree: 100%
+source-git-commit: 0c3dfd54dc0cee912cab18644fa984b2be5a26a7
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 99%
 
 ---
 
@@ -138,7 +138,6 @@ ht-degree: 100%
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
    + [B2B 조회](../connections/transform-datasets-b2b-lookups.md)
-
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
    + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)
@@ -163,7 +162,9 @@ ht-degree: 100%
    + 공유된 지표 및 차원{#shared-metrics-dimensions}
       + [개요](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [편집기](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-
+   + 대상자 분석 {#audience-analysis}
+      + [개요](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [RTCDP에서 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)
 + 도구 {#tools}
    + 자산 이전 {#asset-transfer}
       + [자산 전송](../tools/asset-transfer/transfer-assets.md)
@@ -335,10 +336,10 @@ ht-degree: 100%
       + [주석 관리](../components/annotations/manage-annotations.md)
       + [주석 보기](../components/annotations/view-annotations.md)
       + [모바일 스코어카드 주석](../components/annotations/mobile-annotations.md)
-   + 대상자 {#audiences}
-      + [대상자 개요](../components/audiences/audiences-overview.md)
+   + 대상자 게시 {#audiences}
+      + [대상자 게시 개요](../components/audiences/audiences-overview.md)
       + [대상자 생성 및 게시](../components/audiences/publish.md)
-      + [대상자 관리](../components/audiences/manage.md)
+      + [게시된 대상자 관리](../components/audiences/manage.md)
    + 차원 {#dimensions}
       + [개요](../components/dimensions/overview.md)
       + [차원 미리보기](../components/dimensions/view-dimensions.md)
