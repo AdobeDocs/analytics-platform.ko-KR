@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
+source-git-commit: 8b9f45bc68fd90c2b15a91d547256c18d0d7142b
 workflow-type: tm+mt
-source-wordcount: '20761'
+source-wordcount: '20687'
 ht-degree: 98%
 
 ---
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -591,11 +591,6 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 
 <!--Both AA and CJA-->
-
->[!CONTEXTUALHELP]
->id="template--audienceOverview"
->title="사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다."
->abstract="**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 국가 차원을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
