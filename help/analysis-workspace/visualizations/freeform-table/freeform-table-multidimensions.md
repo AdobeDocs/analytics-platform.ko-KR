@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
+source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
      ![여러 차원 드래그](assets/dimensions-add-multiple.png)
 
-1. 테이블의 각 행을 단일 차원 항목으로 봅니다. 자세한 내용은 [연결된 차원 항목](#view-concatenated-dimension-items)을 참조하십시오.
+1. 테이블의 각 행을 단일 차원 항목으로 봅니다. 자세한 내용은 [연결된 차원 항목](#concatenated-dimension-items)을 참조하십시오.
 
 ## 테이블 필터링
 
@@ -85,7 +85,7 @@ Analysis Workspace의 열별로, 차원이든 지표든 자유 형식 테이블�
 
 1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
 
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ### 여러 열을 기준으로 표 정렬(고급 정렬)
 
@@ -119,7 +119,7 @@ Analysis Workspace의 열별로, 차원이든 지표든 자유 형식 테이블�
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ![다중 정렬 예](assets/dimensions-multiple-sort.png)
 
@@ -181,11 +181,11 @@ Analysis Workspace에서는 자유 형식 테이블 내에 여러 차원을 추�
 
 여러 차원 열이 있는 테이블에 분류를 추가하면 분류는 추가한 행의 연결된 차원 항목(모든 차원 열에 있음)에 적용됩니다.
 
+![다중 정렬 분류 예제](assets/dimensions-multiple-sort-breakdown.png)
+
 또한 분류 내에 여러 차원 열을 추가할 수 있습니다. 분류 내의 각 차원 항목 행도 연결된 단일 차원 항목처럼 작동합니다.
 
-<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
-
-![다중 정렬 예](assets/dimensions-multiple-sort.png)
+<!-- Add a screenshot of a breakdown with multiple cllumns, then add this sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows..." -->
 
 분류를 추가하는 방법에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 
