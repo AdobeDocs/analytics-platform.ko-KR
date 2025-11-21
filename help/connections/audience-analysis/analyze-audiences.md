@@ -1,35 +1,62 @@
 ---
-title: RTCDP에서 대상 분석
-description: Customer Journey Analytics의 RTCDP에서 대상을 분석하는 방법을 알아봅니다.
+title: Customer Journey Analytics에서 Experience Platform 대상 분석
+description: Customer Journey Analytics에서 Experience Platform 대상을 분석하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 7fa7410e892504e0f334ccb60ff1ec9019d2f467
+source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
-# RTCDP에서 대상 분석 {#analyze-audiences-RTCDP}
+# Customer Journey Analytics에서 Experience Platform 대상 분석 {#analyze-audiences-RTCDP}
+
+대상 데이터를 Analysis Workspace의 새 차원으로 사용할 수 있는 경우 [대상 분석 구성을 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) 후에 Customer Journey Analytics에서 Experience Platform 대상 분석을 시작할 수 있습니다.
+
+대상 개요 템플릿은 Customer Journey Analytics에서 사용할 수 있습니다.
+
+대상 개요 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)에서 [템플릿 액세스 및 실행](/help/analysis-workspace/templates/use-templates.md)을 참조하십시오.
+
+대상 개요 템플릿에는 다음 패널이 포함되어 있습니다.
+
+## 사용 개요 패널
+
+선택한 데이터 보기와 연결된 사용 이벤트가 있는 모든 대상의 데이터를 표시합니다. 대상자 멤버십 데이터는 매일 Experience Platform에서 업데이트됩니다. 어제 데이터는 항상 표시되므로 패널 날짜 범위를 변경하면 데이터가 부정확해집니다.
+
+이 패널의 표를 사용하여 대상 동작을 더 잘 이해할 수 있습니다. 선택한 데이터 보기에서 대상 설명 차원을 드래그하여 분류로 추가합니다. 또는 다른 상호 작용 차원(예: 페이지, 작업 등)을 분류로 사용합니다.
+
+## 상위 대상 원본 패널
+
+대상이 만들어진 위치, RTCDP, Customer Journey Analytics 등에서 표시합니다.
+
+이 패널의 표를 사용하여 대상자 출처가 다른 요인에 어떻게 영향을 미칠 수 있는지 더 잘 이해하십시오. 선택한 데이터 보기에서 대상 이름 차원을 드래그하여 분류로 추가합니다. 또는 다른 상호 작용 차원(예: 페이지, 작업 등)을 분류로 사용합니다.
+
+## 대상 겹치기 패널
+
+선택한 데이터 보기와 연결된 사용 이벤트가 있는 모든 대상의 데이터를 표시합니다. 어제 데이터는 항상 표시되므로 패널 날짜 범위를 변경하면 데이터가 부정확해집니다.
+
+이 패널의 표에서 최대 3개의 대상을 선택하여 해당 벤 다이어그램에서 대상이 어떻게 겹치는지 확인합니다.
+
+## 종료된 대상자 사용량
+
+선택한 데이터 보기와 연결된 사용 이벤트를 사용하여 종료한 모든 대상의 데이터를 표시합니다. 어제 데이터는 항상 표시되므로 패널 날짜 범위를 변경하면 데이터가 부정확해집니다. &quot;종료한 대상자&quot;는 어제 사용 이벤트가 남아 있거나 종료한 사람이 속한 대상입니다.
+
+이 패널의 표를 사용하여 대상 동작을 더 잘 이해할 수 있습니다. 선택한 데이터 보기에서 기존 대상 설명 차원을 드래그하여 분류로 추가합니다. 또는 다른 상호 작용 차원 또는 지표(예: 페이지, 작업 등)를 분류로 사용합니다.
+
+## 종료한 상위 대상 원본 패널
+
+RTCDP, Customer Journey Analytics 등에서 종료한 각 대상이 원래 만들어진 위치를 표시합니다.
+
+이 패널의 표를 사용하여 대상자 출처가 다른 요인에 어떻게 영향을 미칠 수 있는지 더 잘 이해하십시오. 선택한 데이터 보기에서 종료한 대상 이름 차원을 드래그하여 분류로 추가합니다. 또는 다른 상호 작용 차원 또는 지표(예: 페이지, 작업 등)를 분류로 사용합니다.
 
 
-<!-- markdownlint-disable MD034 -->
 
->[!CONTEXTUALHELP]
->id="cja-audience-analysis-consent"
->title="Experience Platform에서 프로필 동의 정책 데이터 가져오기"
->abstract="동의 정책은 데이터에 대해 수행할 수 있는 마케팅 작업을 정의하는 Experience Platform 규칙입니다. 샌드박스의 데이터 세트에 동의 정책이 정의된 경우 이 옵션을 활성화해야 합니다."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
 
->[!CONTEXTUALHELP]
->id="cja-audience-analysis-merge-policy"
->title="병합 정책"
->abstract="병합 정책은 어떤 데이터가 우선시되고 어떤 데이터가 결합되어 개인에 대한 통합 보기를 생성할 것인지 결정하는 Experience Platform 규칙입니다. 샌드박스의 데이터 세트에 병합 정책이 정의된 경우 이 옵션을 활성화해야 합니다."
 
-<!-- markdownlint-enable MD034 -->
+

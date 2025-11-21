@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0c3dfd54dc0cee912cab18644fa984b2be5a26a7
+source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 99%
 
 ---
@@ -164,7 +164,8 @@ ht-degree: 99%
       + [편집기](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
    + 대상자 분석 {#audience-analysis}
       + [개요](/help/connections/audience-analysis/audience-analysis-overview.md)
-      + [RTCDP에서 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)
+      + [구성](/help/connections/audience-analysis/audience-analysis-configure.md)
+      + [분석](/help/connections/audience-analysis/analyze-audiences.md)
 + 도구 {#tools}
    + 자산 이전 {#asset-transfer}
       + [자산 전송](../tools/asset-transfer/transfer-assets.md)
