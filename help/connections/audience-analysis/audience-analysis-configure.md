@@ -50,7 +50,7 @@ ht-degree: 16%
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 병합 정책]** | 대상 분석에 사용할 프로필 데이터 세트에 해당하는 병합 정책을 선택합니다. <p>병합 정책 은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 대상 만들기에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 선택한 병합 정책은 대상자에 포함된 프로필 속성에 영향을 줍니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 연결된 대상을 더 잘 이해하려면 데이터 팀에 문의하십시오.</p> |
-   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
+   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
 
 1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 클릭합니다.
 
