@@ -4,10 +4,10 @@ title: 실시간 보고 개요
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
+source-git-commit: 59d48b84ddd34ef161ec0b11f023ccccf9b2e892
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 5%
+source-wordcount: '810'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 5%
 Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 이상의 패널 내에서 데이터와 시각화를 실시간으로 표시하고 업데이트합니다.
 
 {{ultimate-package}}
+
+>[!TIP]
+>
+>Ultimate 패키지에 대한 권한이 있지만 [실시간 새로 고침 토글](use-real-time.md)이 표시되지 않는 경우, 고객 지원 티켓을 만들어 조직에 대한 실시간 보고를 사용하도록 요청하세요.
+
 
 ## 사용 사례
 
