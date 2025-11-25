@@ -6,16 +6,16 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # 대상 분석 개요
 
-<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md -->
+<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md and this article: /help/analysis-workspace/templates/use-templates.md-->
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 대상 분석을 사용하면 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.
 
-다음 다이어그램 및 관련 테이블은 Customer Journey Analytics의 대상 분석 구성을 통해 Experience Platform의 대상 데이터를 Analysis Workspace에서 사용할 수 있게 되는 방법에 대한 높은 수준의 표현을 보여 줍니다.
+다음 다이어그램 및 관련 테이블은 Customer Journey Analytics의 대상 분석 구성을 통해 Experience Platform 대상 데이터를 Analysis Workspace에서 사용할 수 있게 되는 방법에 대한 높은 수준의 표현을 보여 줍니다.
 
 ![대상 분석 개요](assets/audience-analysis-overview.png)
 

@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 대상 데이터를 Analysis Workspace의 새 차원으로 사용할 수 있는 경우 [대상 분석 구성을 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) 후에 Customer Journey Analytics에서 Experience Platform 대상 분석을 시작할 수 있습니다.
 
 대상 개요 템플릿은 Customer Journey Analytics에서 사용할 수 있습니다.
+
+<!-- Can you also use the new audience dimensions in any project, regardless of whether it's a template? I assume so -->
+
+<!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? -->
 
 대상 개요 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)에서 [템플릿 액세스 및 실행](/help/analysis-workspace/templates/use-templates.md)을 참조하십시오.
 
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 이 패널의 표에서 최대 3개의 대상을 선택하여 해당 벤 다이어그램에서 대상이 어떻게 겹치는지 확인합니다.
 
-## 종료된 대상자 사용량
+## 종료된 대상자 사용 패널
 
 선택한 데이터 보기와 연결된 사용 이벤트를 사용하여 종료한 모든 대상의 데이터를 표시합니다. 어제 데이터는 항상 표시되므로 패널 날짜 범위를 변경하면 데이터가 부정확해집니다. &quot;종료한 대상자&quot;는 어제 사용 이벤트가 남아 있거나 종료한 사람이 속한 대상입니다.
 
