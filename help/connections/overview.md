@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # 연결 개요
 
-Customer Journey Analytics 제품 관리자는 연결을 통해 이벤트, 조회, 프로필 및 요약 데이터 세트와 같은 [!DNL  Experience Platform]개의 데이터 소스를 수집할 것을 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
+Customer Journey Analytics 제품 관리자는 연결을 통해 이벤트, 조회, 프로필 및 요약 데이터 세트와 같은 [!DNL &#x200B; Experience Platform]개의 데이터 소스를 수집할 것을 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
 
 >[!IMPORTANT]
 >
