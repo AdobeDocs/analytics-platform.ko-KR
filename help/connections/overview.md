@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
+source-git-commit: 09a6ae258d27f8fe9c9a1fc7ed63273620c67c1b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 80%
 
 ---
 
 # 연결 개요
 
-연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회, 프로필 및 요약 데이터 세트 등 다양한 [!DNL  Experience Platform] 데이터 소스 간의 연결을 설정할 수 있습니다. 이러한 연결로 데이터를 연결에서 파생 데이터 보기로 통합할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [!DNL Experience Platform] 소스 데이터 세트에서 만들어집니다.
+Customer Journey Analytics 제품 관리자는 연결을 통해 이벤트, 조회, 프로필 및 요약 데이터 세트와 같은 [!DNL  Experience Platform]개의 데이터 소스를 수집할 것을 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
 
 >[!IMPORTANT]
 >
