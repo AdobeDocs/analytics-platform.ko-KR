@@ -13,9 +13,9 @@ ht-degree: 55%
 
 # 보고서 세트를 다른 스키마와 결합
 
-[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)는 Real-time Customer Data Platform 및 Customer Journey Analytics(Customer Journey Analytics)와 같은 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 보고서 세트 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform으로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 Adobe Experience Platform 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics 소스 커넥터는 보고서 세트당 하나의 데이터 세트를 만듭니다.
+[Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)는 Real-time Customer Data Platform 및 Customer Journey Analytics(Customer Journey Analytics)와 같은 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 Adobe Analytics의 보고서 세트 데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform으로 가져온 각 보고서 세트는 개별 소스 연결 데이터 흐름으로 구성되며, 각 데이터 흐름은 Adobe Experience Platform 데이터 레이크 내에 데이터 세트로 들어옵니다. Analytics 소스 커넥터는 보고서 세트당 하나의 데이터 세트를 만듭니다.
 
-Customer Journey Analytics 고객은 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)을 사용하여 Adobe Experience Platform 데이터 레이크의 데이터 세트를 Customer Journey Analytics Analysis Workspace에 통합합니다. 그러나 연결 내에서 보고서 세트를 결합할 경우 보고서 세트 간의 스키마 차이는 Adobe Experience Platform [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 기능을 사용하여 해결해야 합니다. 목적은 prop 및 eVar와 같은 Adobe Analytics 변수가 Customer Journey Analytics에서 일관된 의미를 갖도록 하는 것입니다.
+Customer Journey Analytics 고객은 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko)을 사용하여 Adobe Experience Platform 데이터 레이크의 데이터 세트를 Customer Journey Analytics Analysis Workspace에 통합합니다. 그러나 연결 내에서 보고서 세트를 결합할 경우 보고서 세트 간의 스키마 차이는 Adobe Experience Platform [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 기능을 사용하여 해결해야 합니다. 목적은 prop 및 eVar와 같은 Adobe Analytics 변수가 Customer Journey Analytics에서 일관된 의미를 갖도록 하는 것입니다.
 
 ## 보고서 세트 간의 스키마 차이가 문제가 됩니다.
 
@@ -59,7 +59,7 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
    | **XDM ExperienceEvent** 클래스 |
    | **Adobe Analytics ExperienceEvent 템플릿** 필드 그룹 |
 
-1. 스키마에 다른 필드 그룹을 추가하거나 [사용자 정의 필드 그룹을 생성](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)한 후 스키마에 추가합니다. 새 필드 그룹을 만들고 이를 **통합 필드**&#x200B;라고 부릅니다. 그런 후에 다음 필드를 새 필드 그룹에 추가합니다.
+1. 스키마에 다른 필드 그룹을 추가하거나 [사용자 정의 필드 그룹을 생성](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)한 후 스키마에 추가합니다. 새 필드 그룹을 만들고 이를 **통합 필드**&#x200B;라고 부릅니다. 그런 후에 다음 필드를 새 필드 그룹에 추가합니다.
 
    | &quot;통합 필드&quot; 사용자 정의 필드 그룹  |
    | --- |
@@ -158,6 +158,6 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 ## 데이터 준비 대 구성 요소 ID
 
-위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)을 참조하십시오.
+위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=ko)을 참조하십시오.
 
 구성 요소 ID 변경은 Customer Journey Analytics 전용 기능이며 실시간 고객 프로필 및 RTCDP으로 전송되는 Analytics 소스 커넥터의 데이터에는 영향을 주지 않습니다.
