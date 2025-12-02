@@ -18,7 +18,7 @@ Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://video.tv.adobe.com/v/346466/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
