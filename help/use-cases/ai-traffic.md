@@ -4,7 +4,7 @@ description: 파생 필드를 기반으로 사용하여 Workspace에서 LLM 및 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 39b3e0eb43e69c81c12e56fc7605e5746c2d650c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -297,6 +297,6 @@ LLM 및 AI 생성 트래픽과 관련된 이벤트, 세션 또는 사람을 식�
 
 >[!MORELIKETHIS]
 >
->이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=ko)을 기반으로 합니다.
+>이 사용 사례 문서는 블로그 문서 [Adobe Customer Journey Analytics에서 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)을 기반으로 합니다.
 >
 >

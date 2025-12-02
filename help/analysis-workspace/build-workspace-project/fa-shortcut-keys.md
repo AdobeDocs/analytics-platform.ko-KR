@@ -5,7 +5,7 @@ feature: Workspace Basics
 title: 단축키
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL **&#x200B; Shift &#x200B;**]&#x200B;**&#x200B;의 경우 &#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL **&#x200B; Cmd &#x200B;**]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL **&#x200B; Ctrl &#x200B;**]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL **&#x200B; Opt &#x200B;**]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL **&#x200B; Alt &#x200B;**]**(대체)의 경우.
+- **[!UICONTROL ** Shift **]**&#x200B;의 경우 **⇧**
+- **⌘****[!UICONTROL ** Cmd **]**(명령)의 경우.
+- **⌃****[!UICONTROL ** Ctrl **]**(제어)의 경우.
+- **⌥****[!UICONTROL ** Opt **]**(옵션)의 경우.
+- **⎇****[!UICONTROL ** Alt **]**(대체)의 경우.
 
 ## 탐색 작업
 
 | 액션 | 단축키 Mac | 단축키 Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 새 프로젝트 만들기 | **[!UICONTROL *Cmd + Shift + P *]** | **[!UICONTROL *Ctrl + Shift + P *]** |
 | 기존 프로젝트 열기 | **[!UICONTROL *Cmd + O *]** | **[!UICONTROL *Ctr + O *]** |
 | 패널 창으로 이동 | **[!UICONTROL *Opt + Shift + 1 *]** | **[!UICONTROL *Alt + Shift + 1 *]** |
@@ -41,7 +41,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 ## 분석 작업
 
 | 액션 | 단축키 Mac | 단축키 Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 왼쪽 패널 검색 | **[!UICONTROL *Cmd + /*]** | **[!UICONTROL *Ctrl + /*]** |
 | 경고 만들기 | **[!UICONTROL *Cmd + Shift + A *]** | **[!UICONTROL *Ctrl + Shift + A *]** |
 | 계산된 지표 만들기 | **[!UICONTROL *Cmd + Shift + C *]** | **[!UICONTROL *Ctrl + Shift + C *]** |
@@ -58,7 +58,7 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 ## 패널 및 시각화 동작 추가
 
 | 액션 | 단축키 Mac | 단축키 Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 새 속성 패널 | **[!UICONTROL *Opt + E *]** | **[!UICONTROL *Alt + E *]** |
 | 새 빈 패널 | **[!UICONTROL *Opt + B *]** | **[!UICONTROL *Alt + B *]** |
 | 새 자유 형식 패널 | **[!UICONTROL *Opt + A *]** | **[!UICONTROL *Alt + A *]** |
@@ -71,14 +71,14 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 ## 패널 작업 이동
 
 | 액션 | 단축키 Mac | 단축키 Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 패널을 위로 이동 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + 위쪽&#x200B;*]** |
 | 패널 아래로 이동 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 민주화 동작
 
 | 액션 | 단축키 Mac | 단축키 Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 프로젝트 저장 | **[!UICONTROL *Cmd + S *]** | **[!UICONTROL *Ctrl + S *]** |
 | 다른 이름으로 프로젝트 저장 | **[!UICONTROL *Cmd + Shift + S *]** | **[!UICONTROL *Ctrl + Shift + S *]** |
 | 템플릿으로 저장 | **[!UICONTROL *Opt + T *]** | **[!UICONTROL *Alt + T *]** |

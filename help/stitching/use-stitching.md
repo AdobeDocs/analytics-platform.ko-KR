@@ -1,18 +1,18 @@
 ---
-title: 요청 결합
+title: 결합 요청
 description: 결합 요청 방법
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 요청 결합
+# 결합 요청
 
 조직이 모든 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반적인 [제한 사항](overview.md#limitations) 및 연결 방법별 제한 사항([필드 기반](fbs.md#limitations) 및 [그래프 기반](gbs.md#limitations))을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 연결을 요청하고 사용할 수 있습니다.
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 사용 가능한 결합 방법 | <li>필드 기반 스티칭</li> | <li>필드 기반 스티칭</li><li>그래프 기반 스티칭</li> | <li>필드 기반 스티칭</li><li>그래프 기반 스티칭</li> |
+| 사용 가능한 결합 방법 | <li>필드 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 결합</li> |
 | 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
 | 전환 확인 기간 및 재생 빈도 | <li>1일, 매일</li><li>최대 7일, 매주</li> | <li>1일, 매일</li><li>최대 14일, 매주</li> | <li>1일, 매일</li><li>최대 30일, 매주</li> |
 | 결합에 허용되는 최대 데이터 세트 수 | 5 | 15 | 50 |

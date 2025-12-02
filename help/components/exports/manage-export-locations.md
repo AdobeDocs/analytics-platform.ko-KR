@@ -5,7 +5,7 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 3%
@@ -118,7 +118,7 @@ ht-degree: 3%
 
 ## 계정 키 보기
 
-계정을 만든 후 해당 계정에 대해 연결된 계정 키를 볼 수 있습니다. 처음에 [&#x200B; 계정을 구성했을 때 클라우드 공급자 &#x200B;](/help/components/exports/cloud-export-accounts.md)로 계정 구성을 완료하지 않은 경우 이 정보를 확인해야 합니다.
+계정을 만든 후 해당 계정에 대해 연결된 계정 키를 볼 수 있습니다. 처음에 [ 계정을 구성했을 때 클라우드 공급자 ](/help/components/exports/cloud-export-accounts.md)로 계정 구성을 완료하지 않은 경우 이 정보를 확인해야 합니다.
 
 내보내기 계정과 연결된 키를 보려면 다음과 같이 하십시오.
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '5021'
 ht-degree: 15%
@@ -603,4 +603,4 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
 >[!MORELIKETHIS]
 >
 >[요약 데이터](/help/data-views/summary-data.md)
->&#x200B;>[요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md)
+>[요약 데이터 그룹 구성 요소 설정](/help/data-views/component-settings/summary-data-group.md)

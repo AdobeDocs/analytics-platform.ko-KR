@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer에서 생성된 데이터를 가져와 Cust
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 100%
@@ -28,14 +28,14 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 연결의 이름은 **[!UICONTROL AJO 활성화된 연결(*샌드박스 이름*)]**&#x200B;이며 구성 및 데이터세트에 대해 다음과 같은 기본 값을 가집니다.
 
 | **연결 설정** | 값 |
-|---|---| 
+|---|---|
 | [!UICONTROL 연결 이름] | `AJO Enabled Connection (`_`sandbox name`_`)` |
 | [!UICONTROL 연결 설명] | [!UICONTROL *연결을 설명해 주십시오.*] |
 | [!UICONTROL 태그] | [!UICONTROL *태그 선택*] |
 
 
 | **데이터 설정** | 값 |
-|---|---| 
+|---|---|
 | [!UICONTROL 롤링 데이터 기간 활성화] | 활성화됨. [!UICONTROL 선택된 개월 수] `13`. |
 | [!UICONTROL 샌드박스] | [!UICONTROL *샌드박스 이름*] (비활성화됨, 이 설정은 수정할 수 없음). |
 | [!UICONTROL 일일 평균 이벤트 수] | 백만 개 미만(비활성화됨, 이 설정은 수정할 수 없음). |

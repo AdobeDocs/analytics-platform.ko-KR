@@ -4,7 +4,7 @@ title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 94%
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 세부 기간]** | 세부 기간 드롭다운에서 일별, 주별, 월별로 트렌드 시각화를 변경합니다. 세부기간은 데이터 소스 테이블에서도 업데이트됩니다. |
+| **[!UICONTROL 세부 기간]** | 세부 기간 드롭다운에서 일별, 주별, 월별로 트렌드 시각화를 변경합니다. 세부 기간은 데이터 소스 테이블에서도 업데이트됩니다. |
 | **[!UICONTROL 최소 표시]** <br/>**[!UICONTROL 최대 표시&#x200B;]** | 최소값과 최대값 레이블을 오버레이하여 지표의 최소값과 최대값을 강조할 수 있습니다. 최소/최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다.<br/>![최소 및 최대값 레이블이 있는 오버레이.](assets/min-max-labels.png) |
 | **[!UICONTROL 트렌드 라인 표시]** | 회귀 또는 이동 평균 트렌드 라인을 라인 시리즈에 추가하도록 선택할 수 있습니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. 선택하면 목록에서 모델을 선택합니다. 사용 가능한 모델에 대한 개요와 설명은 [모델](#models)에서 확인하십시오.<br/>![선형 트렌드 라인](assets/show-linear-trendline.png).<p>**팁:** 오늘(부분 데이터) 또는 미래 날짜를 포함하지 않는 데이터에 추세선을 적용하는 것이 좋습니다. 오늘이나 미래 날짜는 트렌드 라인이 왜곡됩니다. 그러나 미래 날짜를 포함해야 하는 경우 데이터에서 0을 제거하여 해당 날짜에 대한 왜곡을 방지하십시오. 시각화의 데이터 소스 테이블로 이동하여 지표 열을 선택한 다음 **[!UICONTROL 열 설정]** > **[!UICONTROL 0을 값 없음으로 해석]**&#x200B;을 활성화합니다.</p> |
 
@@ -61,7 +61,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

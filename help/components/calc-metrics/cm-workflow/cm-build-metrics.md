@@ -3,7 +3,7 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 빌드
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 100%
@@ -200,5 +200,5 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 >[!MORELIKETHIS]
 >
 >[함수 사용](cm-using-functions.md)
->>[세그먼트](/help/components/segments/seg-overview.md)
+>[세그먼트](/help/components/segments/seg-overview.md)
 >

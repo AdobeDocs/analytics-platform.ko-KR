@@ -4,7 +4,7 @@ description: Analysis Workspace에서 날짜 범위를 관리하는 방법을 �
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 29%
@@ -30,7 +30,7 @@ ht-degree: 29%
 날짜 범위 목록 ➊에 모든 날짜 범위가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 날짜 범위에 대해 ![별](/help/assets/icons/Star.svg)을(를) 선호하거나 ![StarOutline](/help/assets/icons/StarOutline.svg)을(를) 선호하지 않도록 선택하십시오. |
 | **[!UICONTROL 제목 및 설명]** | 제목과 설명을 편집하려면 제목 링크를 선택하면 [날짜 범위 빌더](/help/components/date-ranges/create.md#date-range-builder)가 열립니다. |
 | **[!UICONTROL 소유자]** | 날짜 범위의 소유자입니다. |

@@ -4,7 +4,7 @@ title: 세그먼트 관리
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters, Segments
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 75%
@@ -35,7 +35,7 @@ ht-degree: 75%
 세그먼트 목록 ➊에는 사용자가 소유한 모든 세그먼트, 모든 프로젝트에 범위가 지정된 세그먼트, 사용자와 공유된 세그먼트가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 세그먼트를 ![별](/help/assets/icons/Star.svg) 즐겨찾기에 추가할지 ![StarOutline](/help/assets/icons/StarOutline.svg) 추가하지 않을지 선택합니다. [세그먼트를 즐겨찾기로 표시](/help/components/segments/seg-favorite.md)를 참조하십시오. |
 | **[!UICONTROL 제목 및 설명]** | 세그먼트를 편집하려면 제목 링크를 선택하여 [세그먼트 빌더](seg-builder.md)를 엽니다. 공유된 세그먼트는 ![공유](/help/assets/icons/ShareAlt.svg)로 표시됩니다. |
 | **[!UICONTROL 데이터 보기]** | 이 세그먼트가 적용되는 데이터 보기입니다. |

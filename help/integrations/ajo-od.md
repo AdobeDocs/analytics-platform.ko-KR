@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer 의사 결정 관리에서 생성된 데이
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 100%
@@ -16,17 +16,17 @@ ht-degree: 100%
 
 Adobe Journey Optimizer [의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ko-KR)를 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하도록 도와주는 의사 결정 엔진을 통해 쉽게 개인화할 수 있습니다.
 
-의사 결정 관리는 Adobe Journey Optimizer의 일부이며 Adobe Journey Optimizer와 통합되어 있습니다. 또한 풍부한 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=ko) 지원을 사용하여 Adobe Journey Optimizer에 정의된 여정 및 캠페인과 독립적으로 사용할 수도 있습니다.
+의사 결정 관리는 Adobe Journey Optimizer의 일부이며 Adobe Journey Optimizer와 통합되어 있습니다. 또한 풍부한 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 지원을 사용하여 Adobe Journey Optimizer에 정의된 여정 및 캠페인과 독립적으로 사용할 수도 있습니다.
 
 다음 단계를 수행하여 의사 결정 관리에서 생성된 데이터를 가져와 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다.
 
 ## 의사 결정 관리의 데이터를 Adobe Experience Platform에 전송
 
-Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. 의사 결정 관리의 데이터는 Experience Platform에서 **자동으로** 또는 **명시적으로 전송된 경험 이벤트**(예: 노출 또는 클릭)의 일부로 수집됩니다. 자세한 내용은 [데이터 수집 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. 의사 결정 관리의 데이터는 Experience Platform에서 **자동으로** 또는 **명시적으로 전송된 경험 이벤트**(예: 노출 또는 클릭)의 일부로 수집됩니다. 자세한 내용은 [데이터 수집 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)를 참조하십시오.
 
 ## 연결 만들기
 
-의사 결정 관리 데이터를 Adobe Experience Platform으로 가져온 다음에는 의사 결정 관리 데이터 세트를 기반으로 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko)을 만들 수 있습니다. 또는 기존 연결에 의사 결정 관리 데이터 세트를 추가할 수 있습니다.
+의사 결정 관리 데이터를 Adobe Experience Platform으로 가져온 다음에는 의사 결정 관리 데이터 세트를 기반으로 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)을 만들 수 있습니다. 또는 기존 연결에 의사 결정 관리 데이터 세트를 추가할 수 있습니다.
 
 다음 데이터 세트를 선택하고 구성합니다.
 
@@ -42,7 +42,7 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 
 ## 데이터 보기 만들기
 
-연결을 만든 다음에는 하나 이상의 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
+연결을 만든 다음에는 하나 이상의 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
 
 >[!NOTE]
 >
