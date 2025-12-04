@@ -45,7 +45,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [제품 프로필에 대한 사용자 관리](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [제품 프로필에 대한 사용자 관리](https://video.tv.adobe.com/v/3475948/?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 
 >[!ENDSHADEBOX]
