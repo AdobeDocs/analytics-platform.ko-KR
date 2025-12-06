@@ -1,19 +1,19 @@
 ---
-title: 스티칭 사용
+title: 결합 사용
 description: 결합 사용 방법
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
+source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
 
-# 스티칭 사용
+# 결합 사용
 
 연결의 일부로 구성한 하나 이상의 이벤트 데이터 세트에 대한 결합을 활성화할 수 있습니다. 라이선스가 부여된 Customer Journey Analytics 패키지에 따라 결합에 사용할 수 있는 이벤트 데이터 세트의 수가 결정됩니다.
 
@@ -30,7 +30,7 @@ ht-degree: 3%
    * id로 구성되고 영구 ID 및 개인 ID에 대해 서로 다른 값을 선택할 수 있는 여러 필드.
    * 영구 ID 또는 개인 ID에 ID 맵 및 기본 ID 네임스페이스를 사용하려는 경우 연결된 네임스페이스와 함께 기본 ID로 표시되는 하나 이상의 필드.
 
-* ID 그래프 및 그래프 기반 결합을 사용하려면 이벤트 데이터 세트가 ID 서비스에 대해 [활성화되어야 합니다](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
+* 그래프 기반 결합을 사용하고 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다. 데이터 세트에 영구 ID 옆에 관련 개인 ID가 포함된 경우 데이터 세트는 ID 그래프에 기여합니다.
 
 
 ## Preflight 확인
@@ -137,7 +137,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 전환 확인 기간]** 드롭다운 메뉴에서 전환 확인 기간을 선택합니다. 사용 가능한 옵션은 권한이 부여된 Customer Journey Analytics 패키지에 따라 다릅니다.
 
-ID 결합을 위해 활성화된 데이터 세트가 포함된 연결을 저장하면 각 데이터 세트에 대한 데이터 수집이 시작될 때 각 데이터 세트에 대한 결합 프로세스가 시작됩니다.
+연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작될 때 결합 킥에 대해 활성화된 데이터 세트에 대한 결합 프로세스가 시작됩니다
 
 ## 제한 사항
 
