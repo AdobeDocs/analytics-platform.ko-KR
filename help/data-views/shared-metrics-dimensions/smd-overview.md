@@ -2,9 +2,9 @@
 title: 공유 지표 및 차원 개요
 description: 여러 데이터 보기에서 동일한 차원 또는 지표 참조를 사용합니다.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
    * **[!UICONTROL 요약 데이터 그룹]**: 구성 요소의 [요약 데이터 그룹](/help/data-views/component-settings/summary-data-group.md) 설정입니다.
    * **[!UICONTROL 만든 날짜]**: 구성 요소를 만들거나 가져온 날짜입니다.
    * **[!UICONTROL 마지막 수정일]**: 구성 요소를 만든 후 수정한 경우 마지막으로 수정한 날짜입니다.
-* **[!UICONTROL 작업 내역]**: ![내역 아이콘](/help/assets/icons/History.svg) 아이콘을 선택하여 개별 데이터 보기에서 차원 및 지표를 가져오는 모든 인스턴스를 표시하는 모달 창을 엽니다.
+* **[!UICONTROL 작업 내역]**: 많은 수의 구성 요소를 가져오거나 공유하는 경우 작업이 자동으로 만들어집니다. ![내역 아이콘](/help/assets/icons/History.svg) 아이콘을 선택하여 개별 데이터 보기에서 차원 및 지표를 가져오는 모든 인스턴스를 표시하는 모달 창을 엽니다. 작업을 트리거할 만큼 큰 가져오기 또는 공유 작업이 없으면 이 단추가 표시되지 않습니다.
 
 ## 구성 요소를 편집하거나 데이터 보기에 구성 요소 공유
 
