@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1627'
 ht-degree: 4%
 
 ---
@@ -230,14 +230,18 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
 
    * 트리맵
 
-* 분류
-
-  분류의 데이터는 생성된 프레젠테이션에 포함되지만 차원 항목과 동일한 수준으로 표시됩니다.
-
 * 안내식 분석
 
 * 데이터 거버넌스 정책에 의해 내보내기가 제한된 구성 요소
 
   자세한 내용은 [내보내기 실패 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.
+
+## 지원이 제한된 프로젝트 요소 및 기능
+
+* 분류
+
+  관련 통찰력을 생성할 때 중복 제거 및 점수 지정 프로세스의 일부로, 자유 형식 테이블 내의 각 분류는 독립적으로 분석되며 단일 자유 형식 테이블 내의 처음 5개 분류만 분석됩니다.
+
+  분류의 첫 번째 수준만 지원됩니다. 분류는 프레젠테이션에 포함되지 않습니다.
 
 
