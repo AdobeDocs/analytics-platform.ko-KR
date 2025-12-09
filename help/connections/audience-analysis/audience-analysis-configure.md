@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 13%
+source-wordcount: '1289'
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 13%
 
 대상 분석을 사용하면 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다. 대상 분석에 대한 자세한 개요 정보는 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
 
+## 대상 분석 구성 만들기
+
 대상 분석 구성을 만들 때는 분석할 Experience Platform 대상과 연결된 샌드박스 및 병합 정책을 선택합니다. Customer Journey Analytics은 새 조회 데이터 세트를 만든 다음 사용자가 선택한 연결에 조회 데이터 세트와 프로필 데이터 세트를 자동으로 추가합니다.
+
+시스템 관리자만 대상 분석 구성을 만들 수 있습니다.
 
 대상 분석 구성을 만들려면 다음 작업을 수행하십시오.
 
@@ -70,18 +74,20 @@ ht-degree: 13%
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 이름]** | 구성의 이름을 지정합니다. |
-   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프로필 데이터 세트가 포함된 샌드박스를 선택합니다. <p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.</p> |
+   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프로필 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. <p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.</p> |
 
 1. **[!UICONTROL 프로필 데이터 집합]** 섹션에서 다음 정보를 지정하십시오.
 
    | 필드 | 설명 |
    |---------|----------|
-   | **[!UICONTROL 병합 정책]** | 대상 분석에 사용할 프로필 데이터 세트에 해당하는 병합 정책을 선택합니다. <p>병합 정책 은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 대상 만들기에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 선택한 병합 정책은 대상자에 포함된 프로필 속성에 영향을 줍니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 연결된 대상을 더 잘 이해하려면 데이터 팀에 문의하십시오.</p> |
-   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
+   | **[!UICONTROL 병합 정책]** | 대상자 분석에 사용할 프로필 데이터 세트에 해당하는 병합 정책을 선택하십시오. <p>병합 정책 은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 대상 만들기에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 선택한 병합 정책은 대상자에 포함된 프로필 속성에 영향을 줍니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 연결된 대상을 더 잘 이해하려면 데이터 팀에 문의하십시오.</p> |
+   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
 
 1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 클릭합니다.
 
 1. 연결 대화 상자에서 프로필 데이터 세트를 추가할 연결 옆의 확인란을 선택한 다음 **[!UICONTROL 연결 사용]**&#x200B;을 선택합니다.
+
+   연결은 하나의 대상 분석 구성에만 연결할 수 있습니다.
 
 1. 다음 정보를 지정하여 연결을 구성하십시오.
 
@@ -100,5 +106,35 @@ ht-degree: 13%
 1. 구성을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 선택하십시오.
 
    프로필 데이터 세트는 하루에 한 번 업데이트되므로 대상 분석 구성을 만든 다음 날에 Customer Journey Analytics 데이터 보기에서 대상을 사용할 수 있습니다.
+
+1. 24시간 후 [데이터 보기에서 대상 차원을 봅니다](#view-audience-dimensions-in-the-data-view). 선택한 데이터 보기에서 대상 차원을 사용할 수 있는지 확인합니다.
+
+## 데이터 보기에서 대상 차원 보기
+
+[대상 분석 구성을 만들기](#create-an-audience-analysis-configuration)한 후 구성 중에 선택한 데이터 보기에 대상 차원이 추가되었는지 확인할 수 있습니다.
+
+데이터 보기에서 대상 차원을 보려면 데이터 보기가 할당된 제품 프로필의 제품 프로필 관리자여야 합니다. 자세한 내용은 [액세스 제어](/help/technotes/access-control.md)를 참조하십시오.
+
+데이터 보기에서 대상 분석 차원을 보려면 다음 작업을 수행하십시오.
+
+1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+
+1. **[!UICONTROL 차원]** 섹션에서 이제 다음 차원을 사용할 수 있습니다.
+
+   * **[!UICONTROL 대상 이름]**
+
+   * **[!UICONTROL 대상 원본]**
+
+   * **[!UICONTROL 종료된 대상 원본]**
+
+   * **[!UICONTROL 종료된 대상 이름]**
+
+   이러한 각 차원은 대상 분석 구성 중에 선택한 병합 정책과 연결된 프로필 데이터 세트에 추가되고, 각 차원은 생성된 새 조회 데이터 세트에 추가되었습니다.
+
+   ![데이터 보기에서 사용할 수 있는 대상 차원](assets/audience-analysis-dataview-dataset.png)
+
+1. Analysis Workspace에서 대상 분석 차원을 사용합니다.
+
+   Analysis Workspace에서 데이터 보기를 사용할 수 있는 액세스 권한이 있는 사용자는 새 차원을 보고 분석에 사용할 수 있습니다. Analysis Workspace에서 대상 분석 차원을 사용하는 방법에 대한 자세한 내용은 [Customer Journey Analytics에서 Experience Platform 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)을 참조하십시오.
 
 

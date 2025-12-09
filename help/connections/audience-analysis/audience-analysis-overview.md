@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
+source-git-commit: f23775342a29d758b478206a77386e18a58312a6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 4%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->대상 분석은 고객 타겟팅 및 맞춤화를 위해 Customer Journey Analytics에서 발견된 대상을 만들어 Adobe Experience Platform에 게시할 수 있는 대상 게시와 다릅니다. 대상 게시에 대한 자세한 내용은 [대상 게시 개요](/help/components/audiences/audiences-overview.md)를 참조하십시오.
+>대상 분석과 대상 게시의 차이점을 이해합니다.
+>
+>* **대상 분석**: Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다.
+>* **대상 게시**: 고객 타기팅 및 개인화를 위해 Customer Journey Analytics에서 검색된 대상을 만들어 Adobe Experience Platform에 게시할 수 있습니다. 대상 게시에 대한 자세한 내용은 [대상 게시 개요](/help/components/audiences/audiences-overview.md)를 참조하십시오.
 
 대상 분석을 사용하면 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.
 
@@ -46,6 +49,12 @@ ht-degree: 4%
 
 자세한 내용은 [대상 분석 구성](/help/connections/audience-analysis/audience-analysis-configure.md)을 참조하십시오.
 
+## 대상 분석 구성 관리
+
+대상 분석 구성을 만든 후 관리할 수 있습니다. 구성을 보고, 편집하고, 삭제할 수 있습니다.
+
+기존 대상 분석 구성 관리에 대한 자세한 내용은 [대상 분석 구성 관리](/help/connections/audience-analysis/audience-analysis-manage.md)를 참조하십시오.
+
 ## Customer Journey Analytics에서 대상 데이터 분석
 
 Customer Journey Analytics에서 사용할 수 있는 대상 데이터를 통해 대상 구성원이 다양한 채널에서 어떻게 행동하는지에 대한 실용적인 통찰력을 얻을 수 있습니다.
@@ -57,6 +66,16 @@ Customer Journey Analytics에서 사용할 수 있는 대상 데이터를 통해
 * 스토어에서 구매한 고객 구성원
 
 자세한 내용은 [Customer Journey Analytics에서 Experience Platform 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)을 참조하십시오.
+
+## 대상 분석 역할 및 권한 요구 사항
+
+대상 분석에 필요한 Customer Journey Analytics 역할 및 Experience Platform 권한은 다음과 같습니다.
+
+| 기능 | Customer Journey Analytics 역할 또는 권한 요구 사항 | Experience Platform 권한 요구 사항 |
+|---------|----------|----------|
+| [대상 분석 구성 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) | 시스템 관리자 | <ul><li>데이터 세트: 읽기 권한</li><li>스키마: 읽기, 쓰기</li><li>및 ID 네임스페이스: 읽기</li></ul> |
+| [데이터 보기에서 대상 분석 차원 보기](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 데이터 보기가 할당된 제품 프로필의 제품 프로필 관리자 <p>자세한 내용은 [액세스 제어](/help/technotes/access-control.md)를 참조하십시오.</p> | 해당 사항 없음 |
+| Analysis Workspace에서 대상 분석 차원 사용 | 대상 분석 차원이 추가된 데이터 보기에 대한 액세스 권한 | 해당 사항 없음 |
 
 
 

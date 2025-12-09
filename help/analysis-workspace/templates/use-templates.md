@@ -4,7 +4,7 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -652,7 +652,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p> - -->
+<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p><p>For more information, see [Analyze Experience Platform audiences in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> - -->
 
 | 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
