@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+source-git-commit: 95e50b73533c627f05c3b8dfe112b28b4f9e70c1
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 84%
+source-wordcount: '2722'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 | [!UICONTROL **캘린더 유형**] | 주단위로 그룹화하는 방법을 결정합니다.<br>**그레고리역:** 표준 캘린더 양식. 분기별로 그룹화합니다.<br>**4-5-4 소매 기반 캘린더:** 표준화된 4-5-4 소매 기반 캘린더. 분기의 첫째 달과 마지막 달에는 4주가 포함되지만 분기의 둘째 달은 5주로 구성됩니다.<br>**사용자 정의(4-5-4):** 4-5-4 캘린더와 유사하지만 예외적으로 한 해의 첫째 날과 주가 ‘추가’되는 년도를 선택할 수 있습니다.<br>**사용자 정의(4-4-5):** 각 분기의 첫째, 둘째 달에는 4주가 포함되지만 각 분기의 마지막 주는 5주로 구성됩니다.<br>**사용자 정의(5-4-4):** 각 분기의 첫째 달에는 5주가 포함되지만 각 분기의 둘째, 셋째 달은 4주로 구성됩니다. |
 | [!UICONTROL **한 해의 첫째 달**] 및 [!UICONTROL **한 주의 첫째 날**] | 그레고리력 유형의 경우 표시. 연도가 시작할 월과 각 주가 시작할 요일을 지정합니다. |
 | [!UICONTROL **올해 첫째 날**] | 사용자 정의 캘린더 유형의 경우 표시. 올해가 시작할 날짜를 지정합니다. 이 값에 따라 캘린더는 각 주의 첫 번째 요일을 자동으로 지정합니다. |
-| [!UICONTROL **“추가 주”가 발생하는 연도**] | 364일 캘린더(주 7일 52주)를 사용하면 매년 남은 날들이 추가 주가 추가될 때까지 누적됩니다. 이 추가 주가 해당 해의 마지막 달에 추가됩니다. 주를 별도로 추가하는 년도를 지정합니다. |
+| [!UICONTROL **“추가 주”가 발생하는 연도**] | 364일 캘린더(주 7일 52주)를 사용하면 매년 남은 날들이 추가 주가 추가될 때까지 누적됩니다. 이 추가 주가 해당 해의 마지막 달에 추가됩니다. 주를 별도로 추가하는 년도를 지정합니다.<br><br/>**추가 주 및 윤년**<br/>&#x200B;사용자 지정 **[!UICONTROL 달력 유형]**(**[!UICONTROL 사용자 지정(4-5-4)]**, **[!UICONTROL 사용자 지정(4-4-5)]** 또는 **[!UICONTROL 사용자 지정(5-4-4)]**)을 선택하면 남은 일수가 추가된 날로부터 전체 추가 주(7일)가 될 때까지 매년 누적됩니다. 이 추가 주는 **[!UICONTROL 주가 발생하는 연도]**&#x200B;에서 선택한 연도에 추가됩니다.<br/><br/>윤년은 &quot;추가 주&quot;가 발생하는 **[!UICONTROL 년]**&#x200B;에 의도적으로 표시되지 않습니다. 그러나 윤년은 여전히 53주를 포함할 수 있습니다. 윤년이 53주를 포함하도록 하려면 &quot;추가&quot; 주가 발생하는 **[!UICONTROL 연도]**&#x200B;에서 비윤년을 선택하여 누적 날짜 드리프트가 목표 윤년에 최대 7일까지 추가되도록 합니다. 예를 들어, 2024년에 53주를 포함하려면 **[!UICONTROL 2019]**&#x200B;을 선택하세요. 2019년부터 2024년까지 총 날짜 드리프트는 7일(2020(+2), 2021(+1), 2022(+1), 2023(+1) 및 2024(+2))이며, 이로 인해 2024년에는 53번째 주가 됩니다.<br/><br/>**[!UICONTROL 현재 연도의 첫째 날]**&#x200B;에 대한 선택은 추가 주가 시작되는 위치에 영향을 줍니다. 달력 미리 보기를 사용하여 구성을 확인합니다. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 이벤트 데이터 세트]** 또는 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 데이터 세트 조회]**&#x200B;와 같은 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다. 이벤트 데이터 세트의 경우 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL XDM 필드]** 및 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 임시 및 관계 필드]**&#x200B;에 대한 별도의 컬렉션을 사용할 수 있습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 생성**&#x200B;을 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
 1. 특정 스키마 필드를 찾거나 파생 필드를 정의하면 ![Handle icon](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
-동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 `Product Pages`구성 요소 설정`Error pages`을 사용하여 제목이 [이고 제목이 &#x200B;](component-settings/overview.md)인 차원을 만들 수 있습니다.
+동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽에 있는 다른 `Product Pages`구성 요소 설정`Error pages`을 사용하여 제목이 [이고 제목이 ](component-settings/overview.md)인 차원을 만들 수 있습니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 폴더의 필드가 자동으로 적절한 섹션으로 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 섹션에 모든 스키마 필드가 추가됩니다.
 
 1. 한 가지 구성 요소를 선택하면 오른쪽에 설정이 나타납니다.
