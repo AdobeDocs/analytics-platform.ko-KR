@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 | 3 | 프로필 데이터 세트 | 분석할 Experience Platform 대상 데이터를 포함해야 합니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다. |
 | 4 | 병합 정책 | 분석할 Experience Platform 대상과 연결된 병합 정책입니다. |
 | 5 | 프로필 데이터 | 선택한 병합 정책과 연결된 프로필 데이터입니다. 이 데이터는 Experience Platform 데이터 세트 내에서 사용할 수 있습니다. |
-| 6 | 새 조회 데이터 세트 | 새로 만든 대상 차원에 대해 친숙한 이름을 제공합니다. 조회 데이터 세트는 사용자가 선택한 프로필 데이터 세트와 함께 자동으로 생성되고 연결에 추가됩니다. |
+| 6 | 새 조회 데이터 세트 | 새로 만든 대상 차원에 대해 친숙한 이름을 제공합니다. <p>조회 데이터 세트는 사용자가 선택한 프로필 데이터 세트와 함께 자동으로 생성되고 연결에 추가됩니다.</p> |
 | 7 | 연결 | 선택한 프로필 데이터 세트를 추가할 연결입니다. |
 | 8 | 새 대상 차원 | 선택한 프로필 데이터 세트에 포함되어 있으며 Analysis Workspace에서 보고할 수 있는 Experience Platform 대상을 나타내는 새 대상 차원<!--and metrics?-->입니다. 이러한 차원은 자동으로 생성됩니다. |
 | 9 | 데이터 보기 | 선택한 데이터 보기는 연결과 연결됩니다. Analysis Workspace 내에서 Experience Platform 대상 데이터를 분석할 때 사용할 데이터 보기입니다. 이러한 데이터 보기는 보고를 위해 Experience Platform 대상 데이터로 자동으로 구성됩니다. |
@@ -73,7 +73,7 @@ Customer Journey Analytics에서 사용할 수 있는 대상 데이터를 통해
 
 | 기능 | Customer Journey Analytics 역할 또는 권한 요구 사항 | Experience Platform 권한 요구 사항 |
 |---------|----------|----------|
-| [대상 분석 구성 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) | 시스템 관리자 | <ul><li>데이터 세트: 읽기 권한</li><li>스키마: 읽기, 쓰기</li><li>및 ID 네임스페이스: 읽기</li></ul> |
+| [대상 분석 구성 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) | 시스템 관리자 | <ul><li>데이터 세트: 읽기 권한</li><li>스키마: 읽기, 쓰기</li><li>ID 네임스페이스: 읽기</li></ul> |
 | [데이터 보기에서 대상 분석 차원 보기](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 데이터 보기가 할당된 제품 프로필의 제품 프로필 관리자 <p>자세한 내용은 [액세스 제어](/help/technotes/access-control.md)를 참조하십시오.</p> | 해당 사항 없음 |
 | Analysis Workspace에서 대상 분석 차원 사용 | 대상 분석 차원이 추가된 데이터 보기에 대한 액세스 권한 | 해당 사항 없음 |
 
