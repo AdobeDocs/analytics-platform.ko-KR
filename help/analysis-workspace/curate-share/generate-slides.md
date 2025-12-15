@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
+source-git-commit: 8ddfc194c873bdb3fe12f3aeb04c01bcad83d0a5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 4%
@@ -159,7 +159,7 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
 
       업로드된 파일에 &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot; 이름이 있는 마스터 레이아웃이 있는지 확인하십시오.
 
-      최대 15개의 마스터 레이아웃이 지원됩니다.
+      최대 25개의 마스터 레이아웃이 지원됩니다.
 
       최대 25MB 크기의 .pptx 및 .potx 파일이 지원됩니다.
 
