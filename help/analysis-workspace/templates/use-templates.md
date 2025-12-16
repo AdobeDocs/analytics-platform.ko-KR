@@ -4,7 +4,7 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
+source-git-commit: 11a550e0cd67db106e2dd399843c4cf0923467ad
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -1070,12 +1070,12 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 ### Brand Concierge {#brand-concierge-templates}
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge-b2c"
+>id="template--brand-concierge--concierge"
 >title="대화 패턴, 사용자 피드백 및 권장 사항의 효과를 통해 사용자 참여를 분석합니다."
 >abstract="**이를 통해 참여 패턴을 식별하고, 대화 품질을 평가하고, 고객 만족도 추세를 추적하고, 링크 추천의 효과를 측정할 수 있습니다**.<br/>**학습한 내용에 따라 AI 에이전트의 응답을 개선하거나, 자주 발생하는 문제에 대한 타기팅된 콘텐츠를 개발하거나, 추천 알고리즘을 개선하거나, 다양한 사용자 세그먼트에 대한 전문 경로를 만드는 등**&#x200B;다양한 작업을 수행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge--concierge"
+>id="template--brand-concierge--meeting"
 >title="B2B 모임 요청의 전체 라이프사이클을 추적합니다. 전환율, 컨설턴트 성과를 모니터링하고 가장 효과적인 리드 생성 채널을 파악합니다."
 >abstract="**이를 통해 모임 전환율을 추적하고, 성과가 좋은 팀원을 식별하고, 예약 동작의 계절 트렌드를 이해하고, 가장 중요한 모임 요청을 생성하는 페이지를 확인할 수 있습니다**.<br/>**학습한 내용에 따라** 모임 요청 프로세스를 최적화하고, 리소스를 전환율이 높은 페이지에 재분배하거나, 예약률이 낮은 컨설턴트를 위한 타기팅된 교육을 개발하거나, 누락된 모임을 줄이기 위한 새로운 전략을 구현하는 등 여러 가지 작업을 수행할 수 있습니다."
 
