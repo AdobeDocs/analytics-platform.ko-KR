@@ -110,12 +110,12 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_ajo"
 >title="Customer Journey Analytics에서 이 연결 사용"
->abstract="이 옵션을 사용하면 Journey Optimizer 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이는 다음과 같은 작업을 수행할 수 있도록 해 줍니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**이 옵션을 사용하도록 설정하면 연결 내의 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 계산되며 연결 사용 UI 내에 나타납니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴보십시오. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)"
+>abstract="이 옵션을 사용하면 Journey Optimizer 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이는 다음과 같은 작업을 수행할 수 있도록 해 줍니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**이 옵션을 사용하도록 설정하면 연결 내의 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 계산되며 연결 사용 UI 내에 나타납니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴보십시오. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo)"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_ajo"
 >title="Customer Journey Analytics에서 이 연결 제거"
->abstract="이 Journey Optimizer 연결은 현재 고객 여정 분석에서 사용됩니다. 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 여정 Analytics 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 더 이상 자세한 분석을 수행할 수 없습니다. 연결 및 연결된 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에 연결이 제거되는 전체 월이 포함됩니다.**<br/><br/>&#x200B;연결이 Journey Optimizer에서 사용 가능한 상태로 유지됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)"
+>abstract="이 Journey Optimizer 연결은 현재 고객 여정 분석에서 사용됩니다. 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 여정 Analytics 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 더 이상 자세한 분석을 수행할 수 없습니다. 연결 및 연결된 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에 연결이 제거되는 전체 월이 포함됩니다.**<br/><br/>&#x200B;연결이 Journey Optimizer에서 사용 가능한 상태로 유지됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo)"
 
 <!-- End of contextual help entries for CJA connection dialogs -->
 
@@ -458,7 +458,7 @@ ht-degree: 60%
 
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 임시]** | 단일 데이터 집합에서만 사용할 수 있도록 네임스페이스가 지정된 필드가 있는 [임시 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)를 기반으로 하는 임시 데이터입니다. | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | *ad hoc* 동작을 기반으로 하는 클래스를 기반으로 하는 모든 ad hoc 스키마 | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
+| **[!UICONTROL 임시]** | 단일 데이터 집합에서만 사용할 수 있도록 네임스페이스가 지정된 필드가 있는 [임시 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/api/ad-hoc)를 기반으로 하는 임시 데이터입니다. | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | *ad hoc* 동작을 기반으로 하는 클래스를 기반으로 하는 모든 ad hoc 스키마 | 임시 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
 | **[!UICONTROL 모델]** | 관계형 스키마를 기반으로 하는 관계형 데이터. | 관계형 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. | 모든 관계형 스키마. | 관계형 데이터 세트에 대해 선택한 데이터 세트 유형에 따라 다릅니다. |
 
 
@@ -797,5 +797,5 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 >[!MORELIKETHIS]
 >
 >* [데이터 수집 개요](/help/data-ingestion/data-ingestion.md)
->* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
 
