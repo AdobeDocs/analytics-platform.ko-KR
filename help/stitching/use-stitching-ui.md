@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
+source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 3%
    * id로 구성되고 영구 ID 및 개인 ID에 대해 서로 다른 값을 선택할 수 있는 여러 필드.
    * 영구 ID 또는 개인 ID에 ID 맵 및 기본 ID 네임스페이스를 사용하려는 경우 연결된 네임스페이스와 함께 기본 ID로 표시되는 하나 이상의 필드.
 
-* 그래프 기반 결합을 사용하고 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다. 데이터 세트에 영구 ID 옆에 관련 개인 ID가 포함된 경우 데이터 세트는 ID 그래프에 기여합니다.
-
+* 그래프 기반 결합을 사용하고 이벤트 데이터 세트에 영구 ID 옆에 관련 개인 ID가 포함되어 있으므로 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다.
 
 ## Preflight 확인
 

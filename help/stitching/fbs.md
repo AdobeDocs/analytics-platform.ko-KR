@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 9%
+source-wordcount: '1713'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 ## IdentityMap
 
-필드 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
+필드 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
 - `identityMap` 네임스페이스에서 기본 ID를 사용하여 persistentID를 정의합니다.
    - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 탄력적으로 정렬되고 첫 번째 ID가 선택됩니다.
@@ -122,17 +122,17 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 | 이벤트 | 타임스탬프 | 영구 ID (쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) |
 |---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | `246` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`246`** |
-| 2 | 2023-05-12 12:02 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 3 | 2023-05-12 12:03 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 1 | 2023-05-12 12:01 | `246` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** |
-| 5 | 2023-05-12 12:05 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 10 | 2023-05-12 12:02 | `81911` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`81911`** |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 10 | 2023-05-12 12:02 | `81911` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** |
 | | | **장치 3개** | | **4명**:<br/>`246`, `Bob`, `3579`, `81911` |
 
@@ -157,16 +157,16 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 | 이벤트 | 타임스탬프 | 영구 ID (쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) | 결합된 ID(재생 후) |
 |---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** |
-| 2 | 2023-05-12 12:02 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![위쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
-| 3 | 2023-05-12 12:03 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` | Bob |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` |
-| 5 | 2023-05-12 12:05 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | `Bob` |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` |
-| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
-| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
 | 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![위쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | `Bob` ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` |
 | | | **장치 3개** | | **4명**:<br/>`246`, `Bob`, `3579`, `81911` | **2명**:<br/>`Bob`, `3579` |
 
@@ -189,16 +189,16 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 | 이벤트 | 타임스탬프 | 영구 ID (쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) | 결합된 ID(재생 후) | 개인 ID | 결합된 ID(개인 정보 보호 요청 후) |
 |---|---|---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** | - | `246` |
-| 2 | 2023-05-12 12:02 | `246` | Bob ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![위쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 3 | 2023-05-12 12:03 | `246` | Bob ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 2 | 2023-05-12 12:02 | `246` | Bob ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![위쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 3 | 2023-05-12 12:03 | `246` | Bob ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 5 | 2023-05-12 12:05 | `246` | Bob ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 5 | 2023-05-12 12:05 | `246` | Bob ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 8 | 2023-05-12 12:03 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 9 | 2023-05-12 12:09 | `3579` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
 | 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![아래쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![위쪽 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `81911` |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![오른쪽 화살표](/help/assets/icons/ArrowRight.svg) | `Bob` ![아래쪽 화살표](/help/assets/icons/ArrowDown.svg) | `Bob` ![위쪽 화살표](/help/assets/icons/ArrowUp.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `81911` |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **장치 3개** | | **4명**:<br/>246, `Bob`, `3579`, `81911` | **2명**:<br/>Bob, `3579` |  | **3명**:<br/>`246`, `3579`, `81911` |
 
@@ -214,7 +214,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
    - 일부 행에서만 사용할 수 있는 식별자인 **개인 ID**. 예를 들어 프로필이 인증되면 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 거의 모든 식별자를 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 개인 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 한 번 이상 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
