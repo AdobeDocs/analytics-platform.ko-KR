@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: dd4ebd86cbb6640575a0eb05aa00aadfa2c7c410
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 ## IdentityMap
 
-그래프 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
+그래프 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
 - `identityMap` 네임스페이스에서 기본 ID를 사용하여 persistentID를 정의합니다.
    - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 탄력적으로 정렬되고 첫 번째 ID가 선택됩니다.
@@ -114,12 +114,11 @@ ht-degree: 5%
 
 조회 창을 벗어난 데이터는 재생되지 않습니다. 프로필은 인증되지 않은 방문과 인증된 방문을 함께 식별하기 위해 주어진 전환 확인 기간 내에서 인증해야 합니다. 디바이스가 인식되면 해당 시점부터 라이브로 결합됩니다.
 
-영구 ID `246` 및 `3579`에 대한 다음 두 개의 ID 그래프, 이러한 ID 그래프가 시간이 지남에 따라 업데이트되는 방법, 이러한 업데이트가 그래프 기반 결합의 단계에 미치는 영향을 고려하십시오.
+방문자 A(영구 ID `246` 사용)와 방문자 B(영구 ID `3579` 사용)에 대한 시간 경과에 따른 다음 두 가지 ID 그래프 업데이트와 이러한 업데이트가 그래프 기반 결합의 단계에 미치는 영향을 고려하십시오.
 
-![ID 그래프 246](assets/identity-graph-246.svg)
-![ID 그래프 3579](assets/identity-graph-3579.svg)
+![ID 그래프 3579](assets/identity-graphs.svg)
 
-[ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer)를 사용하여 특정 프로필에 대한 시간에 따른 ID 그래프를 볼 수 있습니다. ID를 연결할 때 사용되는 논리를 더 잘 이해하려면 [ID 서비스 연결 논리](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-linking-logic)도 참조하세요.
+[ID 그래프 뷰어](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer)를 사용하여 특정 프로필에 대한 시간에 따른 ID 그래프를 볼 수 있습니다. ID를 연결할 때 사용되는 논리를 더 잘 이해하려면 [ID 서비스 연결 논리](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)도 참조하세요.
 
 ### 1단계: 라이브 결합
 
@@ -223,7 +222,7 @@ ht-degree: 5%
 - 지정된 네임스페이스를 사용하여 개인 ID를 쿼리할 때 타임스탬프는 고려되지 않습니다. 따라서 영구 ID가 타임스탬프가 더 이른 레코드의 개인 ID와 결합될 수 있습니다.
 - 그래프의 네임스페이스에 여러 ID가 포함된 공유 장치 시나리오에서는 첫 번째 사전 그래픽 ID가 사용됩니다. 네임스페이스 제한 및 우선순위가 그래프 연결 규칙 릴리스의 일부로 구성된 경우 마지막으로 인증된 사용자의 ID가 사용됩니다. 자세한 내용은 [공유 장치](/help/use-cases/stitching/shared-devices.md)를 참조하십시오.
 - ID를 ID 그래프에 다시 채우는 데에는 3개월이라는 엄격한 제한이 있습니다. Real-time Customer Data Platform과 같은 Experience Platform 애플리케이션을 사용하여 ID 그래프를 채우지 않는 경우 ID 채우기 기능을 사용합니다.
-- [ID 서비스 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)가 적용됩니다. 예를 들어, 다음 [정적 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails#static-limits)을(를) 참조하십시오.
+- [ID 서비스 보호](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)가 적용됩니다. 예를 들어, 다음 [정적 제한](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)을(를) 참조하십시오.
    - 그래프의 최대 ID 수: 50.
    - 단일 배치 수집을 위한 ID에 대한 최대 링크 수는 50개입니다.
    - 그래프 수집을 위한 XDM 레코드의 최대 ID 수: 20.
