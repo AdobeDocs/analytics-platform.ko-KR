@@ -50,7 +50,7 @@ Analytics 소스 커넥터는 Customer Journey Analytics을 사용할 권한이 
 
 계정 관리자가 여러 조직의 Analytics 데이터를 매핑하라는 요청과 함께 이메일을 수신하면 Adobe 내에서 요청을 검토합니다. 계정 관리자는 추가 질문, 선택적 교육 및 기타 정보를 얻기 위해 귀하에게 연락합니다.
 
-승인되면 요청된 매핑이 만들어지고 사용자에게 알림이 전송됩니다. 소스 IMS 조직 이름이 Experience Platform의 Analytics 보고서 세트 [목록](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)에 있는 보고서 세트 이름에 추가됩니다.
+승인되면 요청된 매핑이 만들어지고 사용자에게 알림이 전송됩니다. 소스 IMS 조직 이름이 Experience Platform의 Analytics 보고서 세트 [목록](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)에 있는 보고서 세트 이름에 추가됩니다.
 
 ## 제한 사항 및 위험
 
