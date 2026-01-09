@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
@@ -27,17 +27,19 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 
 ## 스키마
 
-미러링할 Data Warehouse 네이티브 테이블인 [관계형 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational){target="_blank"}를 만들어야 합니다. 관계형 스키마를 구성할 때는 다음 요구 사항이 충족되는지 확인하십시오.
+미러링할 Data Warehouse 네이티브 테이블인 [관계형 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"}를 만들어야 합니다. 관계형 스키마를 구성할 때는 다음 요구 사항이 충족되는지 확인하십시오.
 
 * 관계형 스키마 유형을 입력하라는 메시지가 표시되면 수동 옵션을 선택해야 합니다.
-* 데이터 유형에 적절한 스키마를 선택합니다. Experience Platform Data Mirror은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용됩니다.
+* 데이터 유형에 적절한 스키마를 선택합니다. Experience Platform Data Mirror은 대부분 시계열 데이터(예: 이벤트 데이터)에 사용되지만 레코드 기반(조회 및 프로필) 데이터에도 사용할 수 있습니다.
 
 * 스키마의 필드 및 해당 속성을 정의합니다.
 * 관계형 스키마의 필드에 필요한 속성을 구성합니다.
 
-   * 기본 키
-   * 버전 식별자
-   * 타임스탬프 식별자(시계열 데이터용).
+   * **기본 키**.
+   * **버전 설명자**(순차적 번호(정수 필드 형식) 또는 DateTime 필드 형식으로 구성해야 함). DateTime 필드 유형을 사용하는 경우, 버전 설명자는 데이터 수정 타임스탬프를 정의합니다(예: 마지막으로 수정된 타임스탬프를 포함).
+   * **타임스탬프 설명자**(시계열 데이터의 경우), 이벤트가 캡처되는 순간에 변경할 수 없는 타임스탬프를 정의합니다. 레코드 기반 관계형 스키마에는 타임스탬프 설명자가 필요하지 않습니다.
+
+
 
 ## 데이터 세트
 
@@ -53,9 +55,9 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 
 지원되는 Data Warehouse 네이티브 솔루션에 대한 인증은 관련 Experience Platform 설명서를 참조하십시오.
 
-* [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 데이터 선택
@@ -91,5 +93,5 @@ Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 
 >[!MORELIKETHIS]
 >
 >[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용](relational.md)
->[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
->[관계형 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[관계형 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

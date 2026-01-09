@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2351'
 ht-degree: 14%
 
 ---
@@ -173,6 +173,8 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
 
      ![버전 설명자](assets/platform-schema-id.png)
 
+     실제 시나리오에서는 더 적절한 필드를 [버전 설명자](aep.md#schema)(으)로 사용할 수 있습니다. 예를 들어 마지막 수정 시간을 추적하는 필드입니다.
+
    * **[!UICONTROL personid]** 필드가 **[!UICONTROL 타임스탬프]**&#x200B;와 함께 **[!UICONTROL 기본 키]**(으)로 구성되었습니다. 복합 키를 만들려면 ![추가](/help/assets/icons/Add.svg) **[!UICONTROL 복합 기본 키 만들기]**&#x200B;를 선택하십시오.
 
      ![복합 키](assets/platform-schema-compositekey.png)
@@ -180,6 +182,8 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
      **[!UICONTROL personid]** 필드도 **[!UICONTROL ID]**(으)로 구성되었으며 **[!UICONTROL CRMID]**&#x200B;은(는) **[!UICONTROL ID 네임스페이스]**(으)로 사용됩니다.
 
      ![개인 설명자](assets/platform-schema-personid.png)
+
+     **[!UICONTROL personid]** 필드는 **[!UICONTROL 기본 키]**&#x200B;가 아니어도 됩니다. 실제 시나리오에서는 **[!UICONTROL personid]**&#x200B;와 별도로 기본 키를 추적할 다른 필드가 있을 수 있습니다.
 
    * **[!UICONTROL 타임스탬프]** 필드가 **[!UICONTROL personid]** 필드와 함께 **[!UICONTROL 기본 키]**(으)로 구성되었습니다. **[!UICONTROL timestamp]** 필드도 **[!UICONTROL Timestamp 설명자]**(으)로 구성되어 있습니다. 시계열 관계형 데이터에 대해 필드를 **[!UICONTROL 타임스탬프 설명자]**(으)로 정의하기만 하면 됩니다.
 
@@ -189,6 +193,8 @@ Experience Platform의 데이터를 미러링하려면 먼저 데이터에 대�
    **[!UICONTROL 기본 키]**, **[!UICONTROL 버전 설명자]** 및 **[!UICONTROL 타임스탬프 설명자]**&#x200B;를 올바르게 정의한 경우 스키마 정의 위에 있는 경고가 사라집니다.
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+비슷한 방법으로 레코드 기반 관계형 [스키마](aep.md#schema)을(를) 설정할 수 있습니다. 예를 들어 프로필 및 조회 데이터를 포함할 수 있습니다.
 
 
 ## 소스 커넥터 사용
@@ -219,7 +225,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Azure 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
+  [Azure 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용할 때 연결 및 인증하는 방법에 대한 자세한 내용은 Experience Platform 설명서를 참조하세요.
 
 
 ### 데이터 선택
@@ -254,7 +260,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
 **[!UICONTROL 매핑]** 단계에서:
 
-1. 필드를 매핑합니다. Google BigQuery의 스키마(**[!UICONTROL Source 데이터]**)에서 Experience Platform에 정의한 스키마의 필드(**[!UICONTROL Target 필드]**)까지.
+1. Google BigQuery의 스키마 필드(**[!UICONTROL Source 데이터]**)를 Experience Platform에서 정의한 스키마 필드(**[!UICONTROL Target 필드]**)에 매핑합니다.
 
    ![Experience Platform - Source 커넥터 - 매핑](assets/platform-sources-mapping.png)
 
