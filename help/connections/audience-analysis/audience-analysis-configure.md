@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1305'
 ht-degree: 12%
 
 ---
@@ -74,14 +74,14 @@ ht-degree: 12%
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 이름]** | 구성의 이름을 지정합니다. |
-   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프로필 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. <p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.</p> |
+   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프로필 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. 단일 샌드박스는 최대 100개의 대상 분석 구성을 지원할 수 있습니다. <p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.</p> |
 
 1. **[!UICONTROL 프로필 데이터 집합]** 섹션에서 다음 정보를 지정하십시오.
 
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 병합 정책]** | 대상자 분석에 사용할 프로필 데이터 세트에 해당하는 병합 정책을 선택하십시오. <p>병합 정책 은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 대상 만들기에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 선택한 병합 정책은 대상자에 포함된 프로필 속성에 영향을 줍니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 연결된 대상을 더 잘 이해하려면 데이터 팀에 문의하십시오.</p> |
-   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
+   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
 
 1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 클릭합니다.
 
@@ -105,7 +105,10 @@ ht-degree: 12%
 
 1. 구성을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 선택하십시오.
 
-   프로필 데이터 세트는 하루에 한 번 업데이트되므로 대상 분석 구성을 만든 다음 날에 Customer Journey Analytics 데이터 보기에서 대상을 사용할 수 있습니다.
+   >[!IMPORTANT]
+   >
+   >프로필 데이터 세트는 하루에 한 번 업데이트되므로 대상 분석 구성을 만든 다음 날에 Customer Journey Analytics 데이터 보기에서 대상을 사용할 수 있습니다.
+
 
 1. 24시간 후 [데이터 보기에서 대상 차원을 봅니다](#view-audience-dimensions-in-the-data-view). 선택한 데이터 보기에서 대상 차원을 사용할 수 있는지 확인합니다.
 

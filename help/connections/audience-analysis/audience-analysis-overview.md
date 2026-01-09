@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -41,11 +41,14 @@ ht-degree: 3%
 | 7 | 연결 | 선택한 프로필 데이터 세트를 추가할 연결입니다. |
 | 8 | 새 대상 차원 | 선택한 프로필 데이터 세트에 포함되어 있으며 Analysis Workspace에서 보고할 수 있는 Experience Platform 대상을 나타내는 새 대상 차원<!--and metrics?-->입니다. 이러한 차원은 자동으로 생성됩니다. |
 | 9 | 데이터 보기 | 선택한 데이터 보기는 연결과 연결됩니다. Analysis Workspace 내에서 Experience Platform 대상 데이터를 분석할 때 사용할 데이터 보기입니다. 이러한 데이터 보기는 보고를 위해 Experience Platform 대상 데이터로 자동으로 구성됩니다. |
-| 10 | Analysis Workspace | 수집된 Experience Platform 대상을 포함하는 보고서를 만드는 Customer Journey Analytics 내의 영역입니다. |
 
 ## 대상 분석 구성
 
 대상 분석을 구성할 때 분석하려는 Experience Platform 대상과 연결된 샌드박스 및 병합 정책을 선택합니다. Customer Journey Analytics은 새 조회 데이터 세트를 만든 다음 사용자가 선택한 연결에 조회 데이터 세트와 프로필 데이터 세트를 자동으로 추가합니다.
+
+>[!NOTE]
+>
+>대상은 대상 분석 구성을 만든 다음 날에 Customer Journey Analytics 데이터 보기에서 사용할 수 있습니다.
 
 자세한 내용은 [대상 분석 구성](/help/connections/audience-analysis/audience-analysis-configure.md)을 참조하십시오.
 
