@@ -48,7 +48,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 만료되지 않는 자격 증명을 사용하는 방법:
 
-* Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
+* Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
 * [자격 증명 만료](#Expiring-credentials)에 언급된 단계에 따라 만료되지 않는 자격 증명에 대한 액세스 권한을 부여합니다.
 
 자세한 내용은 [고객 여정 액세스 제어](../technotes/access-control.md)를 참조하십시오. 특히 [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions)과 [Admin Console의 Customer Journey Analytics 권한](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
