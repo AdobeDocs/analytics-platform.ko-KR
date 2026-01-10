@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -20,10 +20,6 @@ ht-degree: 100%
 >id="cja-upgrade-schema-tailored"
 >title="사용자 정의 스키마 사용"
 >abstract="(권장) 스키마를 사용자 정의하면 조직에서 필요한 정보만 추적하고 복잡하고 불필요한 필드에 따른 오버헤드를 피할 수 있습니다. 이 옵션에는 Web SDK가 추가한 필드 그룹과 조직에 맞게 사용자 정의된 필드 그룹이 있습니다."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
