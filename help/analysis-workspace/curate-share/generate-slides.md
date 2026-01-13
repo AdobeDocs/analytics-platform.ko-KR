@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: 82ca99af8f344b713e285980145fa0ee6ae6ae1c
+source-git-commit: 06e6dd99d318812447d903f2e14e4daba80d4957
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 6%
+source-wordcount: '1694'
+ht-degree: 5%
 
 ---
 
@@ -228,9 +228,7 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
 
    * 콤보
 
-   * 폴아웃
-
-   * 플로우
+   * 여러 차원 열이 있는 자유 형식 테이블(단일 차원 열이 있는 테이블이 지원됨)
 
    * 여정 캔버스
 
