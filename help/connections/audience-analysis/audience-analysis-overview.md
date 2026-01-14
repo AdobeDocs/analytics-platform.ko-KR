@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
+source-git-commit: ca2adce7be8a28fa72323915473a8c2283741889
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '728'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,9 @@ ht-degree: 3%
 
 대상 분석을 구성할 때 분석하려는 Experience Platform 대상과 연결된 샌드박스 및 병합 정책을 선택합니다. Customer Journey Analytics은 새 조회 데이터 세트를 만든 다음 사용자가 선택한 연결에 조회 데이터 세트와 프로필 데이터 세트를 자동으로 추가합니다.
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>대상 데이터는 매일 밤 재처리 및 생성되므로 전날(&quot;어제&quot;)에 대해서만 대상 데이터를 정확하게 분석하여 분석할 수 있습니다.
 >
 >대상은 대상 분석 구성을 만든 다음 날에 Customer Journey Analytics 데이터 보기에서 사용할 수 있습니다.
 
