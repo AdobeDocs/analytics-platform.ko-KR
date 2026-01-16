@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
+source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,8 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 
 다음 두 가지 방법으로 결합을 활성화할 수 있습니다.
 
-- [결합 활성화 요청](/help/stitching/use-stitching.md)
-- [연결 인터페이스에서 결합 활성화](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
+- [결합을 사용하도록 요청](/help/stitching/use-stitching.md)합니다. 승인되면 결합을 요청한 데이터 세트에 대해 중복 데이터 세트가 만들어집니다. 이 중복 데이터 세트에는 결합된 식별자가 있는 추가 열이 포함되어 있습니다. Customer Journey Analytics에서 결합된 데이터를 사용하려면 결합된 데이터 세트를 포함하는 기존 연결을 새로 만들거나 편집해야 합니다.
+- [연결 인터페이스에서 연결을 활성화합니다](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}. 연결 인터페이스에서 데이터 세트에 대한 결합을 구성할 때 Customer Journey Analytics의 해당 데이터 세트에서 데이터를 수집하는 동안 결합은 &#39;즉시&#39; 발생합니다.
 
 ## 제한 사항
 

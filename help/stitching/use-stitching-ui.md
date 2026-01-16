@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
+source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -144,3 +144,11 @@ ht-degree: 3%
 
 * 이벤트 데이터 세트는 단일 연결의 일부로 한 번만 연결할 수 있습니다. 동일한 이벤트 데이터 세트를 두 번 이상 정의하고 각 인스턴스에 대해 별도의 결합 구성을 사용할 수 없습니다. 동일한 데이터 세트에 다른 결합 구성을 적용하려면 각 구성에 대해 별도의 연결을 사용합니다.
 
+
+## 마이그레이션
+
+연결 인터페이스에서 활성화된 결합은 요청 기반 결합의 문제 없이 공존할 수 있습니다.
+
+예를 들어 이전 또는 현재 결합 요청의 결과로 데이터 레이크에 웹 기반 결합 데이터 세트가 있는 경우. 연결 인터페이스를 사용하여 콜 센터 데이터 세트에서 결합된 데이터를 추가하여 해당 데이터를 웹 기반 데이터와 결합할 수 있습니다.
+
+결국, Adobe은 요청 기반의 결합된 데이터 세트를 연결 경험의 새 결합으로 자동으로 마이그레이션합니다.

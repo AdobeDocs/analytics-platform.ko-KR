@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 7%
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 사용 가능한 결합 방법 | <li>필드 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 결합</li> | <li>필드 기반 결합</li><li>그래프 기반 결합</li> |
+| 사용 가능한 결합 방법 | 필드 기반 결합 | 필드 기반 결합<br/>그래프 기반 결합 | 필드 기반 결합<br>그래프 기반 결합</li> |
 | 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
-| 전환 확인 기간 및 재생 빈도 | <li>1일, 매일</li><li>최대 7일, 매주</li> | <li>1일, 매일</li><li>최대 14일, 매주</li> | <li>1일, 매일</li><li>최대 30일, 매주</li> |
+| 전환 확인 기간 및 재생 빈도 | 1일, 매일<br/>최대 7일, 매주 | 1일, 매일<br/>최대 14일, 매주 | 1일, 매일<br/>최대 30일, 매주 |
 | 결합에 허용되는 최대 데이터 세트 수 | 5 | 15 | 50 |
 
 ## 지원 요청
