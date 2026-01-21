@@ -63,7 +63,7 @@ ht-degree: 18%
   | [!UICONTROL 데이터 관리] | [!UICONTROL 데이터 세트 보기] | 데이터 세트 및 스키마에 대한 읽기 전용 액세스 권한. |
   | [!UICONTROL Identity Management] | [!UICONTROL ID 네임스페이스 보기] | ID 네임스페이스에 대한 읽기 전용 액세스 권한. |
 
-  Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
+  Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions).
 
 
 * Journey Optimizer가 Journey Optimizer 연결이 있는 Customer Journey Analytics 와 통합된 경우 Connections에 액세스하려면 Journeys 솔루션 권한도 추가해야 합니다.
@@ -84,13 +84,13 @@ ht-degree: 18%
   | [!UICONTROL 대상] | [!UICONTROL 대상 관리] | 대상 연결 및 대상 계정을 읽고 만들고 삭제할 수 있는 액세스 권한. |
   | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 세그먼트를 기존 대상으로 활성화할 수 있도록 허용합니다. 활성화 작업 과정 에서 매핑 단계를 활성화합니다. 또한 이 권한을 사용하려면 데이터를 대상으로 활성화하려는 사용자에게 대상 보기 권한을 부여해야 합니다. |
 
-  Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
+  Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions).
 
 * [BI 확장 사용](../data-views/bi-extension.md)
 
   사용자가 BI 확장을 사용하려면 제품 관리자가
 
-   * 사용자에 대한 Experience Platform 권한에 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 있는 쿼리 서비스 리소스가 있는 역할이 포함되어 있는지 확인해야 합니다. Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
+   * 사용자에 대한 Experience Platform 권한에 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 있는 쿼리 서비스 리소스가 있는 역할이 포함되어 있는지 확인해야 합니다. Experience Platform 권한에 대한 자세한 내용은 제품 프로필[에 대한 권한 관리를 참조하십시오](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions).
 
      | 카테고리 | 사용 권한 | 설명 |
      |---|---|---|
@@ -130,7 +130,7 @@ ht-degree: 18%
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 대상을 만들 [수 있도록 합니다](/help/components/audiences/audiences-overview.md). Adobe Experience Platform 에서 세그먼트를[&#x200B; 관리해야 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 데이터 스토리텔링] | 사용자가 [작업 영역 프로젝트를 기반으로 슬라이드 프레젠테이션을 생성할 수 있도록 합니다.](/help/analysis-workspace/curate-share/generate-slides.md)<p>데이터 스토리텔링은 릴리스의 제한적 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.</p> |
 | [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | API[&#x200B; 및 감사 로그 UI에 대한 &#x200B;](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/)권한 검사를 시행합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | 사용자가 [누구와도 프로젝트를 공유할 수 있도록 허용합니다.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL 보고 도구] | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | 사용자가 [누구와도 프로젝트를 공유할 수 있도록 허용합니다.](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL 보고 도구] | [!UICONTROL 예측] | 사용자가 Analysis Workspace의 [예측](../analysis-workspace/c-forecast/forecasting.md) 기능에 액세스할 수 있도록 허용 |
 | [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 AI Assistant[에 &#x200B;](../ai-assistant.md)액세스하여 제품 지식을 얻을 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 인텔리전트 캡션] | 사용자가 지능형 캡션에 액세스할 [수 있도록 합니다](/help/analysis-workspace/visualizations/intelligent-captions.md). |
