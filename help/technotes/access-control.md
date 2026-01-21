@@ -29,11 +29,11 @@ ht-degree: 18%
 
 사용자를 제품 관리자로 추가하려면 다음을 수행하십시오.
 
-1. Admin Console[로 ](https://adminconsole.adobe.com/enterprise/)이동합니다.
+1. Admin Console[로 &#x200B;](https://adminconsole.adobe.com/enterprise/)이동합니다.
 
-1. Customer Journey Analytics > 관리자 탭 관리자&#x200B;[!UICONTROL **추가>**]&#x200B;선택합니다&#x200B;[!UICONTROL **.**] [!UICONTROL ****]
+1. Customer Journey Analytics > 관리자 탭 관리자&#x200B;[!UICONTROL **추가>**]&#x200B;선택합니다&#x200B;[!UICONTROL **.**] [!UICONTROL **&#x200B;**]
 
-   추가한 사용자에게는 제품 관리자 기본 권한이[ 부여](#product-admin-default-permissions)됩니다. 필요한 경우 추가 권한을[ 부여](#product-admin-additional-permissions)할 수도 있습니다.
+   추가한 사용자에게는 제품 관리자 기본 권한이[&#x200B; 부여](#product-admin-default-permissions)됩니다. 필요한 경우 추가 권한을[&#x200B; 부여](#product-admin-additional-permissions)할 수도 있습니다.
 
 #### 제품 관리자 기본 권한
 
@@ -98,7 +98,7 @@ ht-degree: 18%
      | [!UICONTROL 쿼리 서비스] | [!UICONTROL 쿼리 서비스 통합 관리] | 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 생성, 업데이트 및 삭제할 수 있는 액세스 권한입니다. |
 
    * 은(는) 사용자에게 적절한 Customer Journey Analytics 권한이 있는지 확인해야 합니다.
-      * 관련 데이터 보기에 액세스할 수 있는 권한. 사용자 수준 액세스[!UICONTROL 의 ]데이터 보기를[ 참조하십시오](#user-level-access).
+      * 관련 데이터 보기에 액세스할 수 있는 권한. 사용자 수준 액세스[!UICONTROL 의 &#x200B;]데이터 보기를[&#x200B; 참조하십시오](#user-level-access).
       * Customer Journey Analytics BI 확장에 액세스할 수 있는 권한. 사용자 수준 액세스의 [!UICONTROL 데이터 보기 도구]를 참조하십시오[.](#user-level-access)
 
 ### 제품 프로필 관리자 역할
@@ -120,19 +120,19 @@ ht-degree: 18%
 | 카테고리 | 사용 권한 | 설명 |
 | --- | --- | ---|
 | [!UICONTROL 데이터 보기] | *데이터 보기 이름* | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL Analysis Workspace 액세스] | 사용자가 Analysis Workspace Analysis Workspace에[ 액세스할 ](/help/analysis-workspace/home.md)수 있도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 분석 액세스 안내] | 사용자가 안내식 분석[에 액세스할 수 ](/help/guided-analysis/overview.md)있도록 합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL Analysis Workspace 액세스] | 사용자가 Analysis Workspace Analysis Workspace에[&#x200B; 액세스할 &#x200B;](/help/analysis-workspace/home.md)수 있도록 합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 분석 액세스 안내] | 사용자가 안내식 분석[에 액세스할 수 &#x200B;](/help/guided-analysis/overview.md)있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 계산된 지표 만들기] | 사용자가 계산된 지표를 만들 [수 있도록 합니다](/help/components/calc-metrics/calc-metr-overview.md). 사용자는 자신이 만든 계산된 지표 또는 자신과 공유된 계산된 지표만 태그, 공유, 삭제, 이름 변경, 승인, 승인 취소할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 세그먼트 만들기] | 사용자가 세그먼트를 만들 [수 있도록 합니다](/help/components/segments/seg-overview.md). 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그, 공유, 삭제, 이름 변경, 승인, 승인 취소할 수 있습니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics 에서 Labs[ 탭 액세스할 ](/help/labs/labs.md)수 있도록 합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics 에서 Labs[&#x200B; 탭 액세스할 &#x200B;](/help/labs/labs.md)수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 허용합니다. 사용자는 자신이 만든 주석이나 자신과 공유된 주석에 태깅하고, 공유하고, 삭제하고, 이름을 바꿀 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 볼 수 있도록 허용합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 대상을 만들 [수 있도록 합니다](/help/components/audiences/audiences-overview.md). Adobe Experience Platform 에서 세그먼트를[ 관리해야 ](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 대상을 만들 [수 있도록 합니다](/help/components/audiences/audiences-overview.md). Adobe Experience Platform 에서 세그먼트를[&#x200B; 관리해야 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 데이터 스토리텔링] | 사용자가 [작업 영역 프로젝트를 기반으로 슬라이드 프레젠테이션을 생성할 수 있도록 합니다.](/help/analysis-workspace/curate-share/generate-slides.md)<p>데이터 스토리텔링은 릴리스의 제한적 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.</p> |
-| [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | API[ 및 감사 로그 UI에 대한 ](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/)권한 검사를 시행합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | API[&#x200B; 및 감사 로그 UI에 대한 &#x200B;](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/)권한 검사를 시행합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | 사용자가 [누구와도 프로젝트를 공유할 수 있도록 허용합니다.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL 보고 도구] | [!UICONTROL 예측] | 사용자가 Analysis Workspace의 [예측](../analysis-workspace/c-forecast/forecasting.md) 기능에 액세스할 수 있도록 허용 |
-| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 AI Assistant[에 ](../ai-assistant.md)액세스하여 제품 지식을 얻을 수 있도록 합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 AI Assistant[에 &#x200B;](../ai-assistant.md)액세스하여 제품 지식을 얻을 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 인텔리전트 캡션] | 사용자가 지능형 캡션에 액세스할 [수 있도록 합니다](/help/analysis-workspace/visualizations/intelligent-captions.md). |
 | [!UICONTROL 데이터 보기 도구] | [!UICONTROL 전체 테이블 내보내기] | 사용자가 [전체 테이블을 클라우드](/help/analysis-workspace/export/export-cloud.md) 내보내도록 합니다. |
 | [!UICONTROL 데이터 보기 도구] | [!UICONTROL CJA BI 확장] | 사용자가 [BI 확장](../data-views/bi-extension.md)을 사용하도록 허용합니다. |
@@ -145,7 +145,7 @@ ht-degree: 18%
 
 ## 개별 지표 또는 차원에 대한 액세스 권한 부여
 
-Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표 및 차원은 데이터 보기[에서 ](/help/data-views/data-views.md)수정할 수 있으므로 Customer Journey Analytics 에서 변경될 수 있습니다. 소급하여 변경하면 보고도 변경됩니다.
+Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표 및 차원은 데이터 보기[에서 &#x200B;](/help/data-views/data-views.md)수정할 수 있으므로 Customer Journey Analytics 에서 변경될 수 있습니다. 소급하여 변경하면 보고도 변경됩니다.
 
 ## 사용 사례
 
