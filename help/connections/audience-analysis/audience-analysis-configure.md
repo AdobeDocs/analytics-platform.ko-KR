@@ -87,7 +87,7 @@ ht-degree: 12%
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 병합 정책]** | 대상자 분석에 사용할 프로필 데이터 세트에 해당하는 병합 정책을 선택하십시오. <p>병합 정책 은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 대상 만들기에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 선택한 병합 정책은 대상자에 포함된 프로필 속성에 영향을 줍니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 연결된 대상을 더 잘 이해하려면 데이터 팀에 문의하십시오.</p> |
-   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
+   | **[!UICONTROL 프로필 데이터 세트]** | 선택한 병합 정책과 연결된 프로필 데이터 세트입니다. 이 프로필 데이터 세트에는 분석할 Experience Platform 대상 데이터가 포함되어 있습니다. 이 프로필 데이터 세트는 선택한 연결에 추가됩니다.<p>병합 정책을 선택하면 프로필 스냅샷 내보내기가 표시됩니다. 예: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>자세한 내용은 Experience Platform 대시보드 가이드의 [프로필 특성 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/query#profile-attribute-datasets)를 참조하십시오.</p> |
 
 1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 클릭합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 12%
    | **[!UICONTROL 기본 ID 네임스페이스 사용]** | 이 옵션은 개인 ID로 **[!UICONTROL ID 맵]**&#x200B;을(를) 선택한 경우 표시됩니다. <p>Customer Journey Analytics이 ID 맵에서 primary=true 속성으로 표시된 ID를 찾으려는 경우 이 옵션을 활성화하고 해당 ID를 해당 행의 개인 ID로 사용합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. 또한 이 ID는 Customer Journey Analytics 개인 ID로 사용하기에 가장 적합한 후보입니다(Customer Journey Analytics 연결에 데이터 세트가 구성되는 방법에 따라 다름).</p> |
    | **[!UICONTROL ID 네임스페이스]** | 이 옵션은 개인 ID로 **[!UICONTROL ID 맵]**&#x200B;을(를) 선택한 경우 표시됩니다. 기본 ID 네임스페이스를 사용하는 경우 이 옵션이 비활성화됩니다. <p>ID 네임스페이스는 [Experience Platform Identity Service](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)의 구성 요소입니다. 네임스페이스는 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics에서 각 행의 ID 맵에서 이 네임스페이스 키를 검색하고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics에서는 모든 행을 전체 데이터 세트로 스캔하여 존재하는 네임스페이스를 확인할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 메뉴에 표시됩니다. 데이터에 지정된 네임스페이스를 알아야 하지만 해당 네임스페이스는 자동으로 검색되지 않습니다.</p> |
 
-   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
+   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
 
 1. **[!UICONTROL 데이터 보기]** 섹션에서 **[!UICONTROL 데이터 보기 선택]**&#x200B;을 클릭합니다.
 
