@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 11a550e0cd67db106e2dd399843c4cf0923467ad
+source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
 workflow-type: tm+mt
-source-wordcount: '20775'
+source-wordcount: '20877'
 ht-degree: 97%
 
 ---
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -652,10 +652,9 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p><p>For more information, see [Analyze Experience Platform audiences in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> - -->
-
 | 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| **[!UICONTROL 대상 개요]** | 사이트를 방문하는 사람 중 어떤 대상이 표시되는지 확인합니다.<p>**대상자가 시작된 대상(RTCDP, Customer Journey Analytics 등), 대상자 중복 등에 대한 일반 정보를 더 잘 이해하는 데 도움이 됩니다**.</p><p>**학습한 내용에 따라 데이터를 사용하여 특정 대상을 위한 마케팅 활동에 집중하거나 여러 대상을 포괄하는 고객을 위한 맞춤 경험을 만드는 등 여러 가지 작업을 수행할 수 있습니다**.</p><p>이 템플릿은 대상 이름, 대상 원본, 종료된 대상 이름 및 종료된 대상 원본 차원을 사용합니다.</p><p>자세한 내용은 [Customer Journey Analytics에서 Experience Platform 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)을 참조하십시오.</p> |
 | [!UICONTROL **첫 방문자 대 재방문자**] | 처음 방문자 수와 재방문자 수를 비교해 보십시오. <p>**이를 통해** 고객 충성도를 유지하는 데 있어 사이트의 효과를 이해하거나 새로운 고객을 확보하는 속도를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 첫 방문자에게 추후 구매를 장려하는 인센티브를 제공하여 다시 방문하도록 유도하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 | **개인 ID** | 다양한 채널에서 개별 사용자 행동을 확인할 수 있습니다.<p>**이를 통해** 여러 접점에서 전체 고객 여정과 상호 작용을 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사용자 환경 설정 타기팅에 가장 적합한 마케팅 활동을 개인화하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 | **지리적 국가** | 사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다.<p>**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 국가 차원을 사용합니다. </p> |
