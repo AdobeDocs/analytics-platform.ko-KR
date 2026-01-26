@@ -4,9 +4,9 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
+source-git-commit: e9799941256524ef148513fb16835a031b241e44
 workflow-type: tm+mt
-source-wordcount: '20877'
+source-wordcount: '20935'
 ht-degree: 97%
 
 ---
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -1113,3 +1113,13 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | [!UICONTROL **B2B 계정 참여 개요**] | 이벤트, 사람, 기회에 따라 계정이 얼마나 활성화되어 있는지 살펴보십시오.<p>**이를 통해 계정 수준에서의 참여도가 상승 추세인지 하락 추세인지 더 잘 이해하고, 계정 간의 활동을 비교하며, 보유 또는 인수 노력에 집중할 위치를 결정하는데 도움이 됩니다.**</p><p>**학습한 내용을 바탕으로** 참여도는 낮지만 계정의 중요성 때문에 더 많은 주의가 필요한 계정에 주의를 기울이는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | [!UICONTROL **B2B 기회 참여 개요**] | 기회 수준과 표면 거래에서 참여도를 추적하여 견인력을 얻거나 잃습니다.<p>**이를 통해 거래 진행 상황을 보다 정확하게 예측하고 참여가 급증하거나 정체되는 부분에 집중할 수 있습니다.**</p><p>**학습한 내용을 바탕으로 거의 성사된 거래에 추가 노력을 기울이고 다른 거래가 주목받지 못하는 이유를 조사하는 등 다양한 작업을 수행할 수 있습니다.**</p> |
 | [!UICONTROL **B2B 구매 그룹 활동**] | 각 계정 내 구매 그룹 활동을 시각화하여 계정 및 구매 그룹 마케팅 플레이에 정보를 제공합니다.<p>**이를 통해 어떤 구매 그룹과 그 구매 그룹 내에서 가장 적극적으로 참여하는 사람들을 시각화하여 그룹 참여의 격차를 강조하는데 도움이 됩니다.**</p><p>**학습한 내용을 바탕으로 구매 그룹에 속해 있지만 참여하지 않는 듯한 사람들과 더 많이 소통하려고 노력하는 등 여러 가지 일을 할 수 있습니다.**</p> |
+
+
+### Mix Modeler 템플릿 {#mix-modeler-templates}
+
+<!-- CJA only -->
+
+>[!CONTEXTUALHELP]
+>id="template--mixModelerReport"
+>title="Mix Modeler에서 생성한 선택한 모델에서 인사이트를 봅니다."
+>abstract="**이렇게 하면**&#x200B;이(가) Mix Modeler에서 생성된 모델의 증분 인사이트를 더 잘 이해하는 데 도움이 됩니다. <br/>**이러한 통찰력을 기반으로**&#x200B;다음 작업을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 식별합니다.</li><li>최적화가 필요할 수 있는 채널을 식별합니다.</li></ul>"
