@@ -8,7 +8,7 @@ role: User, Admin
 source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja-export-prefix"
 >title="접두사"
->abstract="데이터를 저장할 컨테이너 내의 루트 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예: `folder_name/`"
+>abstract="데이터를 저장할 컨테이너 내의 루트 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    * [AEP 데이터 랜딩 구역](#aep-data-landing-zone)
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
-   * [Google Cloud 플랫폼](#google-cloud-platform)
+   * [Google Cloud Platform](#google-cloud-platform)
    * [Azure SAS](#azure-sas)
    * [Azure RBAC](#azure-rbac)
    * [Snowflake](#snowflake)
@@ -94,7 +94,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예: `folder_name/` |
+   | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -106,11 +106,11 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    1. [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 엽니다.
 
-   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***(으)로 이동합니다.
+   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***(으)로 이동합니다.
 
       >[!NOTE]
       >
-      >폴더 이름 **[!UICONTROL cjaexport-_number_]**&#x200B;은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**&#x200B;이 됩니다.
+      >폴더 이름 **[!UICONTROL cjaexport-_number_]**은(는) Azure Storage Explorer에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**이 됩니다.
 
 
       ![Azure 저장소 탐색기에서 파일에 액세스](assets/azure-storage-explorer-access.png)
@@ -196,7 +196,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
    |---------|----------|
    | [!UICONTROL **컨테이너**] | Customer Journey Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
    | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>컨테이너(폴더)에 액세스하려면 Azure RBAC 계정 구성 시 지정한 애플리케이션 ID에 `Storage Blob Data Contributor` 역할이 부여되었는지 확인합니다.</p> <p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p> |
-   | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
+   | [!UICONTROL **계정**] | Azure 스토리지 계정. |
 
    {style="table-layout:auto"}
 
