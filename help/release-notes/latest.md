@@ -3,10 +3,10 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fa6178831923d1bb256fa03fa2945a61541d65f7
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 48%
+source-wordcount: '967'
+ht-degree: 47%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 48%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Customer Journey Analytics의 Experience Platform 프로필 데이터 세트에서 대상 분석** | 이제 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.<p>이는 Customer Journey Analytics의 새로운 기능을 통해 XDM 오브젝트 맵을 수집할 수 있으므로 프로필 AudienceID를 수집할 수 있습니다.</p><p>이전에는 간단한 XDM 맵만 Customer Journey Analytics에 수집할 수 있었습니다.</p><p>Analysis Workspace의 프로젝트에 차원으로 대상 데이터를 추가할 수 있을 뿐만 아니라 다음과 같은 새로운 Workspace 템플릿도 사용할 수 있습니다.</p><ul><li>Audience Analytics 개요</li><li>동의 정책 개요</li></ul><p><!-- For more information, see [Audience analysis overview](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html). -->(참조할 설명서 링크입니다.)</p> | 2025년 10월 22일 | 2026년 1월 말 <p> (원래 2026년 1월 22일로 계획됨)</p> |
+| **Customer Journey Analytics의 Experience Platform 프로필 데이터 세트에서 대상 분석** | 이제 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.<p>이는 Customer Journey Analytics의 새로운 기능을 통해 XDM 오브젝트 맵을 수집할 수 있으므로 프로필 AudienceID를 수집할 수 있습니다.</p><p>이전에는 간단한 XDM 맵만 Customer Journey Analytics에 수집할 수 있었습니다.</p><p>Analysis Workspace의 프로젝트에 차원으로 대상 데이터를 추가할 수 있을 뿐만 아니라 다음과 같은 새로운 Workspace 템플릿도 사용할 수 있습니다.</p><ul><li>Audience Analytics 개요</li><li>동의 정책 개요</li></ul><p>자세한 내용은 [대상 분석 개요](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html)를 참조하십시오.</p> | 2025년 10월 22일 | 2026년 1월 27일 수요일 <p> (원래 2026년 1월 22일로 계획됨)</p> |
 | **데이터 스토리텔링: Workspace 보고서에서 슬라이드 프레젠테이션 생성** | 이제 Analysis Workspace 보고서를 기반으로 하는 슬라이드 프레젠테이션(.pptx 형식)을 자동으로 생성할 수 있습니다. Workspace는 보고서에서 주요 인사이트를 탐지하고 이를 관련자 대상으로 준비가 된 슬라이드로 변환합니다.<p>이 기능을 사용하면 검색 결과를 표시하고, 경영진을 대상으로 하는 설명을 빌드하고, 비즈니스 영향을 전달하는 데 필요한 시간과 노력을 단축할 수 있습니다.</p><p>자세한 내용은 [데이터 스토리텔링: Workspace 보고서에서 슬라이드 프레젠테이션 생성](/help/analysis-workspace/curate-share/generate-slides.md)을 참조하십시오.</p> | 2025년 10월 22일 | 2026년 1월 28일 목요일 |
 | **자유 형식 테이블에 여러 차원 열 포함** | 이제 자유 형식 테이블에 최대 5개의 차원 열을 포함하여 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다.<p>여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 보다 심층적이고 사용자 정의 분석을 만들 수 있습니다.</p><p>이전에는 자유 형식 테이블에 차원 열을 1개만 포함할 수 있었습니다.</p><p><!-- For more information, see [Include multiple dimension columns in a freeform table](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md).--> (참조할 설명서 링크입니다.)</p> | 2026년 1월 28일 목요일 | 2026년 2월 18일 목요일 |
 | **여러 열로 표 정렬** | 이제 Analysis Workspace에서 차원 또는 지표에 관계없이 자유 형식 테이블의 데이터를 여러 열로 정렬할 수 있습니다.<p>여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 옆에 우선 순위 번호가 표시됩니다.</p><p>(참조할 설명서 링크입니다.)<!-- For more information, see "Filter and sort freeform tables". (need to move info to this article from "Include multiple dimension columns in a freeform table") --></p> | 2026년 1월 28일 목요일 | 2026년 2월 18일 목요일 |
-| **여러 IMS 조직의 데이터 원본 결합** | 이제 Analytics Source 커넥터를 사용하여 여러 IMS 조직의 여러 데이터 소스를 결합할 수 있습니다. 이렇게 하면 고객 데이터가 여러 IMS 조직에 분산되는 경우에도 조직이 고객 데이터를 결합하여 볼 수 있습니다. <p>**참고:** 이 구성은 Adobe 고객 지원 센터에 요청을 제출하는 경우에만 사용할 수 있습니다.</p>  <p>(참조할 설명서 링크입니다.)</p> |  | 2026년 1월 30일 토요일 |
-| **연결부 결합** | 이제 Customer Journey Analytics의 결합 프로세스가 더 간단합니다. 데이터 세트를 복제하고 복제된 데이터 세트에 결합을 적용하는 대신, 이제 Customer Journey Analytics에 데이터를 수집할 때 결합을 적용하므로 중복된 데이터 세트와 스키마가 필요하지 않습니다. <p>또한 이제 Adobe 고객 지원 센터를 통해 연결을 요청하지 않고도 업데이트된 연결 인터페이스를 통해 [직접 연결을 시작](/help/stitching/use-stitching-ui.md)할 수 있습니다.</p><p> *추가 노력 필요 및 휴가 시즌으로 인해 이전에 전달한 릴리스 날짜가 연기되었습니다. 이제 연휴 기간 동안 안정성을 보장하고 중단을 최소화하기 위해 단계적 출시가 계획되어 있습니다.*</p> | 2025년 10월 28일 | 2026년 1월 30일 토요일 |
+| **여러 IMS 조직의 데이터 원본 결합** | 이제 Analytics Source 커넥터를 사용하여 여러 IMS 조직의 여러 데이터 소스를 결합할 수 있습니다. 이렇게 하면 고객 데이터가 여러 IMS 조직에 분산되는 경우에도 조직이 고객 데이터를 결합하여 볼 수 있습니다. <p>**참고:** 이 구성은 Adobe 고객 지원 센터에 요청을 제출하는 경우에만 사용할 수 있습니다.</p>  <p>(참조할 설명서 링크입니다.)</p> |  | 2026년 1월 30일 |
+| **연결부 결합** | 이제 Customer Journey Analytics의 결합 프로세스가 더 간단합니다. 데이터 세트를 복제하고 복제된 데이터 세트에 결합을 적용하는 대신, 이제 Customer Journey Analytics에 데이터를 수집할 때 결합을 적용하므로 중복된 데이터 세트와 스키마가 필요하지 않습니다. <p>또한 이제 Adobe 고객 지원 센터를 통해 연결을 요청하지 않고도 업데이트된 연결 인터페이스를 통해 [직접 연결을 시작](/help/stitching/use-stitching-ui.md)할 수 있습니다.</p><p> *추가 노력 필요 및 휴가 시즌으로 인해 이전에 전달한 릴리스 날짜가 연기되었습니다. 이제 연휴 기간 동안 안정성을 보장하고 중단을 최소화하기 위해 단계적 출시가 계획되어 있습니다.*</p> | 2025년 10월 28일 | 2026년 1월 30일 |
 | **Data Mirror 지원** | Experience Platform의 특정 소스 커넥터에 대한 모델 기반 스키마와 변경 데이터 캡처(CDC) 기능 지원을 통해 Customer Journey Analytics에서 [!DNL Snowflake], [!DNL Azure Databricks] 및 [!DNL Google BigQuery]와 같은 데이터 웨어하우스 솔루션의 [데이터 미러](/help/data-mirror/data-mirror.md) 기능을 지원할 수 있게 되었습니다.<p>Beta에 액세스하려면 Adobe 계정 팀에 문의하십시오.</p> | Beta 릴리스: 2025년 9월 24일 | TBD |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** | 이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 
@@ -55,7 +55,7 @@ ht-degree: 48%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
