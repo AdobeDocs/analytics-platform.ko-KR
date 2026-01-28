@@ -4,10 +4,10 @@ title: 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 45%
+source-wordcount: '1575'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 
@@ -148,7 +148,7 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
 
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ### 여러 열을 기준으로 표 정렬(고급 정렬)
 
@@ -182,13 +182,13 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ![다중 정렬 예](assets/dimensions-multiple-sort.png)
 
 #### 정렬 우선 순위
 
-여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 ![정렬 우선 순위 아이콘](assets/sort-priority-icon.png) 옆에 우선 순위 번호가 표시됩니다.
+여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 ![SortOrderDown](/help/assets/icons/SortOrderDown.svg)<sup>➊</sup> 옆에 우선 순위 번호가 표시됩니다.
 
 1차 우선 순위가 있는 열은 기본 순서를 결정하고, 2차 우선 순위가 있는 열은 1차 열에서 행이 동일한 값을 가질 때 순서를 결정하고, 3차 우선 순위가 있는 열은 1차 열과 2차 열에서 행이 동일한 값을 가질 때 순서를 결정합니다.
 

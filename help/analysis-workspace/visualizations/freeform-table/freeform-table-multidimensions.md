@@ -3,7 +3,7 @@ title: 자유 형식 테이블에 여러 차원 포함
 description: 자유 형식 테이블에 여러 차원을 포함하는 방법을 알아봅니다
 feature: Visualizations
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 1%
@@ -116,3 +116,4 @@ Analysis Workspace에서는 자유 형식 테이블 내에 여러 차원을 추�
 * 동일한 자유 형식 테이블에서 함께 사용되는 다른 [개체 배열](/help/use-cases/object-arrays.md)을 참조하는 필드의 여러 차원입니다.
 
   여러 차원이 동일한 개체 배열을 참조하는 경우 동일한 자유 형식 테이블에서 여러 차원을 함께 사용할 수 있습니다.
+
