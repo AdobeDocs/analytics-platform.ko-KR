@@ -148,7 +148,7 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
 
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ### 여러 열을 기준으로 표 정렬(고급 정렬)
 
@@ -182,7 +182,7 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ![다중 정렬 예](assets/dimensions-multiple-sort.png)
 
