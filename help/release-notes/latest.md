@@ -20,7 +20,7 @@ ht-degree: 47%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Customer Journey Analytics의 Experience Platform 프로필 데이터 세트에서 대상 분석** | 이제 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.<p>이는 Customer Journey Analytics의 새로운 기능을 통해 XDM 오브젝트 맵을 수집할 수 있으므로 프로필 AudienceID를 수집할 수 있습니다.</p><p>이전에는 간단한 XDM 맵만 Customer Journey Analytics에 수집할 수 있었습니다.</p><p>Analysis Workspace의 프로젝트에 차원으로 대상 데이터를 추가할 수 있을 뿐만 아니라 다음과 같은 새로운 Workspace 템플릿도 사용할 수 있습니다.</p><ul><li>Audience Analytics 개요</li><li>동의 정책 개요</li></ul><p>자세한 내용은 [대상 분석 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html)를 참조하십시오.</p> | 2025년 10월 22일 | 2026년 1월 27일 수요일 <p> (원래 2026년 1월 22일로 계획됨)</p> |
+| **Customer Journey Analytics의 Experience Platform 프로필 데이터 세트에서 대상 분석** | 이제 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.<p>이는 Customer Journey Analytics의 새로운 기능을 통해 XDM 오브젝트 맵을 수집할 수 있으므로 프로필 AudienceID를 수집할 수 있습니다.</p><p>이전에는 간단한 XDM 맵만 Customer Journey Analytics에 수집할 수 있었습니다.</p><p>Analysis Workspace의 프로젝트에 차원으로 대상 데이터를 추가할 수 있을 뿐만 아니라 다음과 같은 새로운 Workspace 템플릿도 사용할 수 있습니다.</p><ul><li>Audience Analytics 개요</li><li>동의 정책 개요</li></ul><p>자세한 내용은 [대상 분석 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html?lang=ko)를 참조하십시오.</p> | 2025년 10월 22일 | 2026년 1월 27일 수요일 <p> (원래 2026년 1월 22일로 계획됨)</p> |
 | **데이터 스토리텔링: Workspace 보고서에서 슬라이드 프레젠테이션 생성** | 이제 Analysis Workspace 보고서를 기반으로 하는 슬라이드 프레젠테이션(.pptx 형식)을 자동으로 생성할 수 있습니다. Workspace는 보고서에서 주요 인사이트를 탐지하고 이를 관련자 대상으로 준비가 된 슬라이드로 변환합니다.<p>이 기능을 사용하면 검색 결과를 표시하고, 경영진을 대상으로 하는 설명을 빌드하고, 비즈니스 영향을 전달하는 데 필요한 시간과 노력을 단축할 수 있습니다.</p><p>자세한 내용은 [데이터 스토리텔링: Workspace 보고서에서 슬라이드 프레젠테이션 생성](/help/analysis-workspace/curate-share/generate-slides.md)을 참조하십시오.</p> | 2025년 10월 22일 | 2026년 1월 28일 목요일 |
 | **자유 형식 테이블에 여러 차원 열 포함** | 이제 자유 형식 테이블에 최대 5개의 차원 열을 포함하여 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다.<p>여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 보다 심층적이고 사용자 정의 분석을 만들 수 있습니다.</p><p>이전에는 자유 형식 테이블에 차원 열을 1개만 포함할 수 있었습니다.</p><p>자세한 내용은 [자유 형식 테이블에 여러 차원 열 포함](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)을 참조하십시오.</p> | 2026년 1월 28일 목요일 | 2026년 2월 18일 목요일 |
 | **여러 열로 표 정렬** | 이제 Analysis Workspace에서 차원 또는 지표에 관계없이 자유 형식 테이블의 데이터를 여러 열로 정렬할 수 있습니다.<p>여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 옆에 우선 순위 번호가 표시됩니다.</p><p>(참조할 설명서 링크입니다.)<!-- For more information, see "Filter and sort freeform tables". (need to move info to this article from "Include multiple dimension columns in a freeform table") --></p> | 2026년 1월 28일 목요일 | 2026년 2월 18일 목요일 |
@@ -55,7 +55,7 @@ ht-degree: 47%
 ## 관련 리소스
 
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
-* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
+* [Adobe Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
