@@ -3,12 +3,10 @@ title: 자유 형식 테이블에 여러 차원 포함
 description: 자유 형식 테이블에 여러 차원을 포함하는 방법을 알아봅니다
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 2%
+source-wordcount: '829'
+ht-degree: 1%
 
 ---
 
@@ -59,95 +57,11 @@ ht-degree: 2%
 
 1. 테이블의 각 행을 단일 차원 항목으로 봅니다. 자세한 내용은 [연결된 차원 항목](#concatenated-dimension-items)을 참조하십시오.
 
-## 테이블 필터링
+## 테이블 필터링 및 정렬
 
-자유 형식 테이블에서 하나 이상의 차원 열에 필터를 적용할 수 있습니다.
+자유 형식 테이블의 열에 필터링 및 정렬을 적용할 수 있습니다. 자유 형식 테이블의 데이터는 차원이든 지표이든 열을 기준으로 정렬할 수 있습니다. 여러 열을 동시에 정렬할 수도 있습니다.
 
-테이블 필터링에 대한 자세한 내용은 [자유 형식 테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables)의 [테이블 필터링](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하십시오.
-
-## 테이블 정렬 {#sort-tables}
-
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
-
-Analysis Workspace의 열별로, 차원이든 지표든 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
-
-기본적으로 차원은 오름차순으로 정렬되고 지표는 내림차순으로 정렬됩니다.
-
-### 단일 열을 기준으로 표 정렬
-
-이 섹션에 설명된 대로 단일 열의 데이터를 정렬할 때 테이블에 적용된 [고급 정렬](#sort-tables-by-multiple-columns-advanced-sorting)이 제거됩니다.
-
-단일 열을 기준으로 테이블의 데이터를 정렬하려면 다음을 수행합니다.
-
-1. 정렬할 열의 머리글 위로 마우스를 가져간 다음 **정렬** 아이콘 ![정렬](/help/assets/icons/SortOrderDown.svg)이 나타나면 선택합니다.
-
-   ![정렬 드롭다운 메뉴](assets/sort-dropdown-menu.png)
-
-1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
-
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
-
-### 여러 열을 기준으로 표 정렬(고급 정렬)
-
-<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
-
-#### 여러 열에 정렬 적용
-
-테이블의 데이터를 여러 열로 정렬하려면 다음을 수행합니다.
-
-1. 정렬할 열의 머리글 위로 마우스를 가져간 다음 표시될 때 **정렬** 아이콘 ![정렬](/help/assets/icons/SortOrderDown.svg)을 선택합니다.
-
-   ![정렬 드롭다운 메뉴](assets/sort-dropdown-menu.png)
-
-1. **[!UICONTROL 고급 정렬]**&#x200B;을 선택합니다.
-
-   ![고급 정렬 대화 상자](assets/sort-advanced-dialog.png)
-
-1. 고급 정렬 대화 상자에서 다음 중 하나를 수행합니다.
-
-   * **[!UICONTROL 정렬 열 추가]** 단추를 선택하여 아직 정렬되지 않은 열을 추가하십시오.
-
-   * **제거** 아이콘 ![제거](/help/assets/icons/Close.svg)을(를) 선택하여 더 이상 정렬하지 않을 열을 제거합니다.
-
-   * 목록에서 열을 더 높거나 낮게 드래그하여 정렬 우선 순위를 조정합니다.
-
-     자세한 내용은 [정렬 우선 순위](#sort-priority)를 참조하십시오.
-
-   * 드롭다운 메뉴에서 **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하여 정렬 값을 변경합니다.
-
-   * 열 이름 드롭다운 메뉴를 선택하여 다른 열을 선택합니다.
-
-1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
-
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
-
-![다중 정렬 예](assets/dimensions-multiple-sort.png)
-
-#### 정렬 우선 순위
-
-여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 ![정렬 우선 순위 아이콘](assets/sort-priority-icon.png) 옆에 우선 순위 번호가 표시됩니다.
-
-1차 우선 순위가 있는 열은 기본 순서를 결정하고, 2차 우선 순위가 있는 열은 1차 열에서 행이 동일한 값을 가질 때 순서를 결정하고, 3차 우선 순위가 있는 열은 1차 열과 2차 열에서 행이 동일한 값을 가질 때 순서를 결정합니다.
-
-예를 들어 다음 열이 있는 표를 생각해 보십시오.
-
-* 날짜(차원)
-
-* 시간(차원)
-
-* 이벤트(지표)
-
-다음과 같이 각 열에 정렬 우선순위를 지정할 수 있습니다.
-
-| 열(구성 요소) 이름 | 구성 요소 유형 | 정렬 우선 순위 |
-|---------|----------|---------|
-| 날짜 (월 기준) | 차원 | 1 |
-| 시간 (일 기준) | 차원 | 2 |
-| 이벤트 | 지표 | 3 |
-
-각 열에 정렬 우선 순위를 할당하면 데이터가 테이블에 표시되는 방식을 정확하게 제어할 수 있습니다. 이 예에서 정보는 먼저 날짜별로, 그 다음 시간별로, 그리고 마지막으로 이벤트별로 정렬됩니다.
-
-![다중 정렬 예](assets/dimensions-multiple-sort.png)
+자세한 내용은 [자유 형식 테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하십시오.
 
 ## 여러 차원 열 및 분류
 

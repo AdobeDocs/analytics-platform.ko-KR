@@ -4,10 +4,10 @@ title: 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 65%
+source-wordcount: '1577'
+ht-degree: 45%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 �
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/31093?captions=kor)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## 테이블 필터링
 
@@ -132,6 +132,82 @@ Note: this option does not seem to work. AN-338422
 
 ## 테이블 정렬
 
-Analysis Workspace의 차원 또는 지표 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다. 화살표는 데이터가 정렬되는 방식을 나타냅니다(내림차순의 경우 **↓** 오름차순의 경우 **↑**).
+Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다. 여러 열을 동시에 정렬할 수도 있습니다.
 
-![정렬](assets/sorting.gif)
+기본적으로 차원은 오름차순으로 정렬되고 지표는 내림차순으로 정렬됩니다.
+
+### 단일 열을 기준으로 표 정렬
+
+이 섹션에 설명된 대로 단일 열의 데이터를 정렬할 때 테이블에 적용된 [고급 정렬](#sort-tables-by-multiple-columns-advanced-sorting)이 제거됩니다.
+
+단일 열을 기준으로 테이블의 데이터를 정렬하려면 다음을 수행합니다.
+
+1. 정렬할 열의 머리글 위로 마우스를 가져간 다음 **정렬** 아이콘 ![정렬](/help/assets/icons/SortOrderDown.svg)이 나타나면 선택합니다.
+
+   ![정렬 드롭다운 메뉴](assets/sort-dropdown-menu.png)
+
+1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
+
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+
+### 여러 열을 기준으로 표 정렬(고급 정렬)
+
+{{release-limited-testing-section}}
+
+#### 여러 열에 정렬 적용
+
+테이블의 데이터를 여러 열로 정렬하려면 다음을 수행합니다.
+
+1. 정렬할 열의 머리글 위로 마우스를 가져간 다음 표시될 때 **정렬** 아이콘 ![정렬](/help/assets/icons/SortOrderDown.svg)을 선택합니다.
+
+   ![정렬 드롭다운 메뉴](assets/sort-dropdown-menu.png)
+
+1. **[!UICONTROL 고급 정렬]**&#x200B;을 선택합니다.
+
+   ![고급 정렬 대화 상자](assets/sort-advanced-dialog.png)
+
+1. 고급 정렬 대화 상자에서 다음 중 하나를 수행합니다.
+
+   * **[!UICONTROL 정렬 열 추가]** 단추를 선택하여 아직 정렬되지 않은 열을 추가하십시오.
+
+   * **제거** 아이콘 ![제거](/help/assets/icons/Close.svg)을(를) 선택하여 더 이상 정렬하지 않을 열을 제거합니다.
+
+   * 목록에서 열을 더 높거나 낮게 드래그하여 정렬 우선 순위를 조정합니다.
+
+     자세한 내용은 [정렬 우선 순위](#sort-priority)를 참조하십시오.
+
+   * 드롭다운 메뉴에서 **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하여 정렬 값을 변경합니다.
+
+   * 열 이름 드롭다운 메뉴를 선택하여 다른 열을 선택합니다.
+
+1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+
+![다중 정렬 예](assets/dimensions-multiple-sort.png)
+
+#### 정렬 우선 순위
+
+여러 열에 대한 데이터를 정렬할 때 데이터는 각 열에 할당하는 우선 순위에 따라 정렬됩니다. 정렬 아이콘 ![정렬 우선 순위 아이콘](assets/sort-priority-icon.png) 옆에 우선 순위 번호가 표시됩니다.
+
+1차 우선 순위가 있는 열은 기본 순서를 결정하고, 2차 우선 순위가 있는 열은 1차 열에서 행이 동일한 값을 가질 때 순서를 결정하고, 3차 우선 순위가 있는 열은 1차 열과 2차 열에서 행이 동일한 값을 가질 때 순서를 결정합니다.
+
+예를 들어 다음 열이 있는 표를 생각해 보십시오.
+
+* 날짜(차원)
+
+* 시간(차원)
+
+* 이벤트(지표)
+
+다음과 같이 각 열에 정렬 우선순위를 지정할 수 있습니다.
+
+| 열(구성 요소) 이름 | 구성 요소 유형 | 정렬 우선 순위 |
+|---------|----------|---------|
+| 날짜 (월 기준) | 차원 | 1 |
+| 시간 (일 기준) | 차원 | 2 |
+| 이벤트 | 지표 | 3 |
+
+각 열에 정렬 우선 순위를 할당하면 데이터가 테이블에 표시되는 방식을 정확하게 제어할 수 있습니다. 이 예에서 정보는 먼저 날짜별로, 그 다음 시간별로, 그리고 마지막으로 이벤트별로 정렬됩니다.
+
+![다중 정렬 예](assets/dimensions-multiple-sort.png)
