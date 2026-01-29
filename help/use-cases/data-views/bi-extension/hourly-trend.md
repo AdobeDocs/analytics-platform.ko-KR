@@ -86,7 +86,7 @@ ht-degree: 0%
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
       ![조회 필터](../assets/uc2-looker-filter.png)
 1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/01/02]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ```{r} `에서 ` ``` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
 
    ```R
    ## Hourly Events
