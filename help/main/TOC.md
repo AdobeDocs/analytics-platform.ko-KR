@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 97%
 
 ---
 
@@ -494,7 +494,24 @@ ht-degree: 99%
       + [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)
       + [바인딩 차원 및 지표 사용](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [요약 데이터 사용](/help/use-cases/data-views/summary-data.md)
-      + [BI 확장 기능 사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
+      + BI 확장 기능 {#bi-extension}
+         + [사용 사례](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [데이터 보기 연결 및 나열](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
+         + [일별 트렌드](/help/use-cases/data-views/bi-extension/daily-trend.md)
+         + [시간별 트렌드](/help/use-cases/data-views/bi-extension/hourly-trend.md)
+         + [월별 트렌드](/help/use-cases/data-views/bi-extension/monthly-trend.md)
+         + [단일 차원 등급](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
+         + [여러 차원 등급](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
+         + [고유 차원 값 계산](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [날짜 범위 이름을 사용하여 필터링](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [세그먼트 이름을 사용하여 세그먼트](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [차원 값을 사용하여 세그먼트화](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [정렬](/help/use-cases/data-views/bi-extension/sort.md)
+         + [제한](/help/use-cases/data-views/bi-extension/limits.md)
+         + [변형](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [시각화](/help/use-cases/data-views/bi-extension/visualizations.md)
+         + [주의 사항](/help/use-cases/data-views/bi-extension/caveats.md)
+
    + 파생 필드 {#derived-fields}
       + [LLM 및 AI 생성 트래픽에 대한 보고서](/help/use-cases/ai-traffic.md)
       + [목표 보고서](../use-cases/goals-using-derived-fields.md)
