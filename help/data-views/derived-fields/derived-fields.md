@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 156a33c653307bce3bad3784bc49e9b7d2ff08a2
 workflow-type: tm+mt
 source-wordcount: '10187'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 89%
 
 파생 필드는 Adobe Customer Journey Analytics의 실시간 보고 기능에서 중요한 부분입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 파생 필드를 [Workspace](../../analysis-workspace/home.md)의 구성 요소(지표 또는 차원)로 사용하거나 [데이터 보기](../data-views.md)에서 파생 필드를 구성 요소로 정의할 수도 있습니다.
 
-파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
+파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
 
 파생 필드는 [데이터 보기](../data-views.md) 내에서 정의되며, 규칙으로 정의된 함수 집합을 기반으로 하며, 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
 >[!NOTE]
 >
->[표준 구성 요소](../component-reference.md)가 이벤트 데이터 세트에 연결되어 있습니다. 따라서 파생 필드의 일부로 사용되는 표준 구성 요소는 이벤트 데이터 세트의 데이터에 대해서만 작동합니다.
+>[표준 구성 요소](../component-reference.md)는 이벤트 데이터 세트에 연결됩니다. 따라서 파생 필드의 일부로 사용되는 표준 구성 요소는 이벤트 데이터 세트의 데이터에 대해서만 작동합니다.
 >
 
 
@@ -77,7 +77,7 @@ ht-degree: 89%
 | A | **규칙 이름** | 기본적으로 규칙 이름은 **규칙 X**(X는 시퀀스 번호를 나타냄)입니다. 규칙의 이름을 편집하려면 해당 이름을 선택하고 새 이름을 입력합니다(예: `Query Parameter`). |
 | B | **함수 이름** | 규칙에 대해 선택된 함수 이름(예: [!UICONTROL URL PARSE]). 함수가 함수 시퀀스의 마지막이고 최종 출력 값을 결정하는 경우, 함수 이름 뒤에 [!UICONTROL - FINAL OUTPUT]이 붙습니다. 예: [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>해당 기능에 대한 자세한 정보가 담긴 팝업을 표시하려면 ![도움말 아이콘](assets/Smock_HelpOutline_18_N.svg)을 선택합니다. |
 | C | **규칙 설명** | 선택 사항으로 규칙에 설명을 추가할 수 있습니다.<br/>![자세히 아이콘](assets/More.svg)을 선택한 다음 **[!UICONTROL **&#x200B;설명 추가&#x200B;**]**&#x200B;를 선택하여 설명을 추가하거나 **[!UICONTROL **&#x200B;설명 편집&#x200B;**]**&#x200B;을 선택하여 기존 설명을 편집합니다.<br/>편집기를 사용하여 설명을 입력합니다. 도구 모음을 사용하여 텍스트 서식을 지정할 수 있으며(스타일 선택기, 굵게, 기울임꼴, 밑줄, 오른쪽, 왼쪽, 가운데, 색상, 숫자 목록, 글머리 기호 목록 사용) 외부 정보에 대한 링크를 추가할 수 있습니다. <br/>설명 편집을 마치려면 편집기 외부를 클릭합니다. |
-| D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수의 유형에 따라 달라집니다. [!UICONTROL 필드] 또는 [!UICONTROL 값]에 대한 드롭다운 메뉴에는 함수가 예상하는 입력 유형에 따라 사용할 수 있는 모든 필드 범주(규칙, 표준 필드, 필드)가 표시됩니다. 또는 스키마 및 표준 필드 선택기에서 필드를 끌어다 필드 또는 값에 놓을 수 있습니다. 조회 데이터 세트에서 필드를 끌어온 경우, 정의한 함수 앞에 조회 함수가 자동으로 삽입됩니다. <br/>지원되는 각 함수에 대한 자세한 내용은 [함수 참조](#function-reference)에서 확인하십시오. |
+| D | **함수 영역** | 함수의 논리를 정의합니다. 인터페이스는 함수의 유형에 따라 달라집니다. [!UICONTROL 필드] 또는 [!UICONTROL 값] 드롭다운 메뉴는 함수가 예상하는 입력 유형에 따라 사용 가능한 모든 필드 카테고리(규칙, 표준 필드, 필드)를 표시합니다. 또는 스키마 및 표준 필드 선택기에서 필드를 끌어다 필드 또는 값에 놓을 수 있습니다. 조회 데이터 세트에서 필드를 끌어온 경우, 정의한 함수 앞에 조회 함수가 자동으로 삽입됩니다. <br/>지원되는 각 함수에 대한 자세한 내용은 [함수 참조](#function-reference)에서 확인하십시오. |
 
 {style="table-layout:auto"}
 
@@ -398,7 +398,7 @@ ht-degree: 89%
 
 ### 주 위도 {#state-latitude}
 
-이 함수 템플릿은 정밀도가 5자리인 미국 주의 위도를 가져옵니다.
+이 함수 템플릿은 정확도가 5자리인 미국 주의 위도를 가져옵니다.
 
 +++ 세부 사항
 
@@ -406,14 +406,14 @@ ht-degree: 89%
 
 템플릿을 사용하려면 템플릿의 규칙에 나열된 각 함수에 대한 올바른 매개변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![상태 Latitude 규칙 빌더의 스크린샷](assets/function-template-state-latitude.png)
+![주 위도 규칙 빌더의 스크린샷](assets/function-template-state-latitude.png)
 
 +++
 
 
 ### 주 경도 {#state-longitude}
 
-이 함수 템플릿은 5자리 정밀도로 미국 상태에 대한 경도를 가져옵니다.
+이 함수 템플릿은 정확도가 5자리인 미국 주의 경도를 가져옵니다.
 
 +++ 세부 사항
 
@@ -421,7 +421,7 @@ ht-degree: 89%
 
 템플릿을 사용하려면 템플릿의 규칙에 나열된 각 함수에 대한 올바른 매개변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
-![상태 경도 규칙 빌더의 스크린샷](assets/function-template-state-longitude.png)
+![주 경도 규칙 빌더의 스크린샷](assets/function-template-state-longitude.png)
 
 +++
 
@@ -464,7 +464,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="다음과 같은 경우"
->abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 해당 기준을 사용하여 조건의 시퀀스를 기반으로 새로운 파생 필드의 값을 정의합니다."
+>abstract="이 함수는 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용할 수 있는 기능을 제공합니다. 그런 다음 이러한 기준을 사용하여 조건 시퀀스에 따라 새 파생 필드의 값을 정의합니다."
 
 
 하나 이상의 필드에서 정의된 기준에 따라 조건을 적용합니다. 이러한 기준을 사용하여 조건 시퀀스에 따라 새 파생 필드의 값을 정의합니다.
@@ -673,7 +673,7 @@ ht-degree: 89%
 
 ## 추가 정보 {#casewhen-more-info}
 
-Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
+Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 더 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
 
 Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -685,7 +685,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 |  | 제한 |
 |:---:|----|
-| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 &#x200B;] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
+| **A** | 규칙에서 동일한 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우]&#x200B;([!UICONTROL 및] 또는 [!UICONTROL 또는 ] 사용) 구조 내에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작되어야 하며 모든 유형(문자열 ![문자열](assets/Smock_ABC_18_N.svg), 숫자![숫자](assets/Smock_123_18_N.svg) 등)이 될 수 있습니다. <br/>![종속성 A의 스크린샷](assets/dependency-a.png) |
 | **B** | 규칙에서 *설정*&#x200B;한 모든 값은 동일한 컨테이너에서 시작되어야 하며 동일한 유형이거나 동일한 유형의 파생된 값을 가져야 합니다. <br/> ![종속성 B의 스크린샷](assets/dependency-b.png) |
 | **C** | 규칙의 [!UICONTROL 조건], [!UICONTROL 그렇지 않은 경우] 구조에서 *선택*&#x200B;한 값은 동일한 컨테이너에서 시작할 필요가 *없으며* 동일한 유형이지 *않아도* 됩니다. <br/> ![종속성 C의 스크린샷](assets/dependency-c.png) |
 
@@ -941,51 +941,51 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 사항 | 출력 |
 |---|---|---|---|---|
-| <ul><li>날짜</li><li>날짜-시간</li></ul> | <ul><li>[!UICONTROL 범위]<ul><li>이벤트</li><li>세션</li><li>개인</li></ul></li><li>[!UICONTROL 값]:<ul><li>날짜</li><li>날짜-시간</li><li>정적 날짜(사용자 입력)</li><li>정적 날짜-시간(사용자 입력)</li><li>동적 날짜<ul><li>오늘</li></ul></li><li>동적 날짜-시간<ul><li>지금</li></ul></li></ul></li><li>[!UICONTROL 세부 기간]:<ul><li>초</li><li>분</li><li>시간</li><li>일</li><li>주</li><li>개월</li><li>분기</li><li>년</li></ul></li><li>각 날짜 또는 날짜-시간 반환에 대해:<ul><li>첫 번째(세션 또는 사용자 내)</li><li>마지막(세션 또는 사용자 내)</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>날짜</li><li>날짜-시간</li></ul> | <ul><li>[!UICONTROL 범위]<ul><li>이벤트</li><li>세션</li><li>개인</li></ul></li><li>[!UICONTROL 값]:<ul><li>날짜</li><li>날짜-시간</li><li>정적 날짜(사용자 입력)</li><li>정적 날짜-시간(사용자 입력)</li><li>동적 날짜<ul><li>오늘</li></ul></li><li>동적 날짜-시간<ul><li>지금</li></ul></li></ul></li><li>[!UICONTROL 세부 기간]<ul><li>초</li><li>분</li><li>시간</li><li>일</li><li>주</li><li>개월</li><li>분기</li><li>년</li></ul></li><li>각 날짜 또는 날짜-시간 반환:<ul><li>첫 번째(세션 또는 개인 내)</li><li>마지막(세션 또는 개인 내)</li></ul></li></ul> | <p>해당 사항 없음</p> | <p>파생 필드당 2개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
 
 ## 사용 사례 1 {#datemath-uc1}
 
-호텔 회사의 마케팅 분석가는 지난 주 고객 체크인 날짜와 예약 날짜 사이의 일 수 차이를 이해하려고 합니다.
+호텔 회사의 마케팅 분석가가 지난 주 고객 체크인 날짜와 예약 날짜 사이의 일수 차이를 이해하려고 합니다.
 
 
 ### 파생 필드 {#datemath-uc1-derivedfield}
 
-`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와(과) [!DNL Person]체크인 날짜[!UICONTROL &#x200B; 사이의 &#x200B;]범위에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을(를) [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다. [!UICONTROL 예약 날짜]와(과) [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을(를) 선택하여 마지막 사용자 범위 값이 계산에 사용되도록 합니다.
+`Days between booking and check-in` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 예약 날짜]와 [!UICONTROL 체크인 날짜] 사이의 [!UICONTROL 범위] [!DNL Person]에 대한 요일을 계산하는 규칙을 정의합니다. [!UICONTROL 일]을 [!UICONTROL 출력 세부 기간]으로 선택합니다. [!UICONTROL 예약 날짜]와 [!UICONTROL 체크인 날짜] 모두에 대해 [!UICONTROL 마지막 반환]을 선택하여 마지막 개인 범위 값이 계산에 사용되도록 합니다.
 
-![날짜 계산 규칙의 스크린샷](assets/datemath-1.png)
+![Date Math 규칙의 스크린샷](assets/datemath-1.png)
 
 
 ## 사용 사례 2 {#datemath-uc2}
 
-오프라인 매장의 마케팅 분석가로서 당신은 며칠 전 고객이 매장을 마지막으로 방문한 것을 알고 싶다. 모바일 앱 내의 지리적 위치 기능과 상점의 비콘을 사용하여 고객의 실제 방문을 캡처합니다.
+귀하는 오프라인 매장의 마케팅 분석가로서 고객이 매장을 마지막으로 방문한 것이 며칠 전인지 알고자 합니다. 모바일 앱 내의 지리적 위치 기능과 상점의 비콘을 사용하여 고객의 실제 방문을 캡처합니다.
 
 ### 파생 필드 {#datemath-uc2-derivedfield}
 
-새 `Days Since Visit To Shop` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL Person]의 [!UICONTROL 중복 제거 범위]&#x200B;(으)로 사용자 지정 날짜-시간([!UICONTROL Date]에 지정)과 [!UICONTROL 로컬 시간]&#x200B;([!UICONTROL 이벤트 데이터 집합의 placeContext] 필드 그룹) 사이의 일수를 계산하는 규칙을 정의합니다. [!UICONTROL 마지막 반환]을 선택하여 [!UICONTROL 현지 시간]에 대한 마지막 개인 범위 값을 계산에 사용하도록 합니다. 일을 [!UICONTROL 출력 세부 기간]&#x200B;(으)로 선택합니다.
+새 `Days Since Visit To Shop` 파생 필드를 정의합니다. [!UICONTROL DATE MATH] 함수를 사용하여 [!UICONTROL 개인]의 [!UICONTROL 중복 제거 범위]로 사용자 정의 날짜-시간([!UICONTROL 날짜]에서 지정)과 [!UICONTROL 현지 시간]&#x200B;(이벤트 데이터 세트의 [!UICONTROL placeContext] 필드 그룹) 사이의 일수를 계산하는 규칙을 정의합니다. [!UICONTROL 마지막 반환]을 선택하여 [!UICONTROL 현지 시간]에 대한 마지막 개인 범위 값을 계산에 사용하도록 합니다. 일을 [!UICONTROL 출력 세부 기간]으로 선택합니다.
 
-![날짜 계산 규칙의 스크린샷 2](assets/datemath-2.png)
+![Date Math 규칙의 스크린샷 2](assets/datemath-2.png)
 
-또는 편리한 동적 날짜 범위 값 지금 을 사용하여 지금부터 [!UICONTROL 현지 시간] 사이(이벤트 데이터 세트의 [!UICONTROL placeContext] 필드 그룹에서)를 계산할 수 있습니다
+또는 편의를 위한 동적 날짜 범위 값인 지금을 사용하여 지금부터 [!UICONTROL 현지 시간] 사이(이벤트 데이터 세트의 [!UICONTROL placeContext] 필드 그룹에서)를 계산할 수 있습니다.
 
-![날짜 계산 규칙 2a의 스크린샷](assets/datemath-2a.png)
+![Date Math 규칙의 스크린샷 2a](assets/datemath-2a.png)
 
 
 ## 사용 사례 3 {#datemath-uc3}
 
-세션 내의 고객이 주문하기 전에 검색 시간을 분 단위로 이해하려고 합니다.
+세션 이내에 고객이 주문하기 전에 검색 시간을 분 단위로 이해하려고 합니다.
 
-`Time Between Search And Order In Minutes`검색 시간[[!UICONTROL &#x200B; 및 &#x200B;]주문 시간](#case-when) 값을 정의하기 위해 두 개의 [!UICONTROL CASE WHEN] 함수[!UICONTROL 의 결과인 새 &#x200B;] 파생 필드를 정의합니다.
-그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]이 [!UICONTROL 세션], 값이 [!UICONTROL 검색 시간], [!UICONTROL 주문 시간], [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 [!UICONTROL 날짜 계산] 함수의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 &#x200B;] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
+[!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간] 값을 정의하기 위해 두 개의 [[!UICONTROL CASE WHEN] 함수의 결과인](#case-when)새 `Time Between Search And Order In Minutes` 파생 필드를 정의합니다.
+그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]가 [!UICONTROL 세션]으로, 값이 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]으로, [!UICONTROL 출력 세부 시간]이 [!UICONTROL 분]으로 설정된 [!UICONTROL DATE MATH] 함수를 통해 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 반환]을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
 
-날짜 계산 규칙 3의 ![스크린샷](assets/datemath-3.png)
+![Date Math 규칙의 스크린샷 3](assets/datemath-3.png)
 
 
 ## 추가 정보 {#datemath-more-info}
 
-프로필 데이터 세트에서 사용자 기반 필드를 선택하면 [!UICONTROL 첫 번째 반환] 또는 [!UICONTROL 마지막 반환] 옵션을 사용할 수 없습니다. 개인 기반 필드는 개인의 날짜 또는 날짜-시간 필드에 대해 하나의 값만 가질 수 있습니다.
+프로필 데이터 세트에서 개인 기반 필드를 선택하면 [!UICONTROL 첫 번째 반환] 또는 [!UICONTROL 마지막 반환] 옵션을 사용할 수 없습니다. 개인 기반 필드는 개인의 날짜 또는 날짜-시간 필드에 대해 하나의 값만 가질 수 있습니다.
 +++
 
 <!-- DEDUPLICATE -->
@@ -1088,7 +1088,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 >title="깊이"
 >abstract="이 함수는 이벤트 깊이 표준 구성 요소의 기능과 유사하게 모든 필드의 깊이를 반환하는 기능을 제공합니다."
 
-기본 제공 [표준 이벤트 깊이 차원](/help/components/dimensions/overview.md#standard-dimensions)에서 가능한 것과 유사한 필드의 깊이를 반환합니다.
+기본 제공되는 [표준 이벤트 심도 차원](/help/components/dimensions/overview.md#standard-dimensions)에서 가능한 것과 유사한 필드의 심도를 반환합니다.
 
 +++ 세부 사항
 
@@ -1103,18 +1103,18 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ## 사용 사례 {#depth-uc1}
 
-내부 검색 깊이(검색 횟수로 해석할 수도 있음)를 이해하려고 합니다. 따라서 나중에 해당 내부 검색 깊이를 사용하여 특정 검색 깊이와 연관된 검색어를 분류할 수 있습니다.
+내부 검색 심도(검색 수로 해석할 수도 있음)를 이해하려고 합니다. 이를 통해 나중에 해당 내부 검색 심도를 사용하여 특정 검색 심도와 연관된 검색어를 분류할 수 있습니다.
 
 
 ### 파생 필드 {#depth-uc1-derivedfield}
 
-새 `Internal Search Depth` 파생 필드를 정의합니다. [!UICONTROL DEPTH] 함수를 사용하여 [!UICONTROL 내부 검색어]의 깊이를 검색하고 새 파생 필드에 저장하는 규칙을 정의합니다.
+새 `Internal Search Depth` 파생 필드를 정의합니다. [!UICONTROL DEPTH] 함수를 사용하여 [!UICONTROL 내부 검색어]의 심도를 조회하고 새 파생 필드에 저장하는 규칙을 정의합니다.
 
-![깊이 규칙의 스크린샷](assets/depth-1.png)
+![심도 규칙의 스크린샷](assets/depth-1.png)
 
 그런 다음 시각화에서 파생된 새 필드를 사용하여 첫 번째 검색에서 검색하는 데 사용된 용어를 분류합니다.
 
-![깊이 규칙의 스크린샷](assets/depth-1a.png)
+![심도 규칙의 스크린샷](assets/depth-1a.png)
 
 +++
 
@@ -1377,7 +1377,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 1. 다른 필드 또는 정적 값이 따라오는 피연산자(예: 곱하기는 `*`)를 추가합니다. 더 복잡한 수식을 정의하려면 괄호를 사용할 수 있습니다.
 
-1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;**으로**&#x200B;[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]&#x200B;**으로**&#x200B;더하기 -*x*를 선택합니다.
+1. 정적 값을 삽입하려면(예: `1.05`), 값을 입력하고 정적 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 *x*&#x200B;를 선택하거나 팝업 메뉴에서 정적 음수 값&#x200B;]**으로**[!UICONTROL &#x200B;더하기 -*x*를 선택합니다.
    ![수학 자세히 정보 2](assets/math-more-info-2.png)
 
 1. 녹색 체크 표시 ![체크 표시](./assets/checkmark.svg)</span>는 수학 공식이 유효한지 여부를 나타내며 그렇지 않으면 ![경고](./assets/alert.svg)가 표시되고 [!UICONTROL 잘못된 수식 표현]이라는 메시지가 나타납니다.
@@ -1580,10 +1580,10 @@ URL 일부를 가져와서 고유한 페이지 식별자로 사용하여 트래�
 
 | 페이지 URL |
 |---|
-| `https://business.adobe.com/kr/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/kr/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/kr/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/kr/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -1729,7 +1729,7 @@ Customer Journey Analytics은 Perl 정규 표현식 구문의 하위 집합을 �
 
 ![분할 규칙의 스크린샷 - 첫 번째 값](assets/split-2.png)
 
-오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 &#x200B;] 파생 필드를 만듭니다.
+오른쪽에서 구분 기호로 1을, 색인으로 1을 선택하여 `Second Response`응답 [!UICONTROL 필드의 마지막 값을 가져오는 ] 파생 필드를 만듭니다.
 
 ![분할 규칙의 스크린샷 - 마지막 값](assets/split-3.png)
 
@@ -1954,7 +1954,7 @@ storeID를 포함한 데이터를 수집합니다. storeID의 처음 두 글자�
 >title="타입캐스트"
 >abstract="이 기능은 Customer Journey Analytics 내에서 필드를 추가 변환할 수 있도록, 필드의 유형을 즉시 변경하는 기능을 제공합니다."
 
-Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 필드의 필드 유형을 변경합니다.
+Customer Journey Analytics 내에서 추가 변환에 사용할 수 있도록 필드의 필드 유형을 변경합니다.
 
 +++ 세부 사항
 
@@ -1962,7 +1962,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 | 입력 데이터 유형 | 입력 | 포함된 연산자 | 제한 | 출력 |
 |---|---|---|---|---|
-| <ul><li>숫자</li><li>날짜</li><li>날짜-시간</li><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드] | <p><ul><li>정수<ul><li>대상 문자열</li></ul></li><li>더블<ul><li>대상 문자열<ul><li>상속할 소수 자릿수 포함(최대 5개)</li></ul></li><li>종료 정수</li></ul></li><li>바이트<ul><li>대상 문자열</li></ul></li><li>긺<ul><li>대상 문자열</li></ul></li><li>날짜<ul><li>대상 문자열<ul><li>출력 형식을 정의하는 기능을 제공합니다.</li></ul></li><li>예<ul><li>날짜(2025년 1월 7일 예)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">예. 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">예. 2025년 1월 7일</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예. 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예. 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예. 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예. 2025년 1월 7일 수요일</li></ul></li></ul></li></ul></li></ul></li><li>날짜-시간<ul><li>대상 문자열<ul><li>출력 형식을 정의하는 기능을 제공합니다.</li></ul></li><li>예<ul><li data-stringify-indent="0" data-stringify-border="0">날짜-시간(2025년 1월 7일 예, 1:30pm, 52초)<ul><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 2025년 1월 7일 13일:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 2007/25/01 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM DD, YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예. 2025년 1월 07일 13:30:52</li></ul></li></ul></li></ul></li><li>문자열<ul><li>숫자로 변환<ul><li>기본적으로 숫자가 아닌 값이 있으면 null을 반환합니다.</li><li>사용할 정밀도와 로케일을 사용자가 입력해야 합니다. </li></ul></li></ul></li></ul></li></ul></p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
+| <ul><li>숫자</li><li>날짜</li><li>날짜-시간</li><li>문자열</li></ul> | <ul><li>[!UICONTROL 필드] | <p><ul><li>정수<ul><li>문자열로</li></ul></li><li>더블<ul><li>문자열로<ul><li>상속할 소수 자릿수 포함(최대 5개)</li></ul></li><li>정수로</li></ul></li><li>바이트<ul><li>문자열로</li></ul></li><li>긺<ul><li>문자열로</li></ul></li><li>날짜<ul><li>문자열로<ul><li>출력 형식을 정의하는 기능을 제공</li></ul></li><li>예<ul><li>날짜(예: 2025년 1월 7일)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">예: 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">예: 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예: 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예: 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">예: 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">예: 2025년 1월 7일</li></ul></li></ul></li></ul></li></ul></li><li>날짜-시간<ul><li>문자열로<ul><li>출력 형식을 정의하는 기능을 제공</li></ul></li><li>예<ul><li data-stringify-indent="0" data-stringify-border="0">날짜-시간(예: 2025년 1월 7일, 1:30pm, 52초)<ul><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 01/07/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM DD, YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">예: 2025년 1월 7일 13:30:52</li></ul></li></ul></li></ul></li><li>문자열<ul><li>숫자로<ul><li>기본적으로 숫자가 아닌 값이 있으면 null을 반환합니다.</li><li>사용할 정확도 맟 로케일을 사용자가 입력해야 합니다. </li></ul></li></ul></li></ul></li></ul></p> | <p>파생 필드당 3개 함수</p> | <p>새 파생 필드</p> |
 
 {style="table-layout:auto"}
 
@@ -1974,22 +1974,22 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 ### 파생 필드 {#typecast-uc1-derivedfield}
 
-`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL String]&#x200B;([!UICONTROL 화면 높이]) 필드에 대한 규칙을 정의하고 이를 새 파생 필드에 저장합니다.
+`Screen Height` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 문자열]을 [!UICONTROL 화면 높이]로 [!UICONTROL 타입캐스트]하고 이를 새로 파생된 필드에 저장하는 규칙을 정의합니다.
 
-![Typecast 규칙 1](assets/typecast-1.png)의 스크린샷
+![타입캐스트 규칙의 스크린샷 1](assets/typecast-1.png)
 
 
 
 ## 사용 사례 2 {#typecast-uc2}
 
-집단 테이블 (정수만 지원)에서 매출을 사용하려고 하지만 매출 필드에는 Double 유형이 있습니다.
+정수만 지원하는 코호트 테이블에서 매출을 사용하려고 하는 상황에서 매출 필드에 Double 유형이 있습니다.
 
-![Typecast 규칙 2의 스크린샷](assets/typecast-2.png)
+![타입캐스트 규칙의 스크린샷 2](assets/typecast-2.png)
 
 
 ### 파생 필드 {#typecast-uc2-derivedfield}
 
-`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 매출] 필드를 [!UICONTROL Typecast에서 &#x200B;] [!UICONTROL 정수]&#x200B;(으)로 Typecast로 규칙을 정의하고 새 파생 필드에 저장합니다.
+`Revenue (integer)` 파생 필드를 정의합니다. [!UICONTROL TYPECAST] 함수를 사용하여 [!UICONTROL 정수]를 [!UICONTROL 매출]로 [!UICONTROL 타입캐스트]하고 이를 새로 파생된 필드에 저장하는 규칙을 정의합니다.
 
 
 +++
@@ -2089,7 +2089,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 - 파생 필드에 대한 규칙을 정의할 때 최대 10개(표준 필드 제외)의 서로 다른 스키마 필드를 사용할 수 있습니다.
    - 이 최대 10개의 서로 다른 스키마 필드 중에서 조회 스키마 또는 프로필 스키마 필드는 최대 3개만 허용됩니다.
-- 라이선스가 부여된 패키지에 따라 Customer Journey Analytics 연결당 최대 파생 필드 수를 가질 수 있습니다. 자세한 내용은 [제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}을 참조하세요.
+- 라이선스가 부여된 패키지에 따라 Customer Journey Analytics 연결당 최대 파생 필드 수를 가질 수 있습니다. 자세한 내용은 [제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}를 참조하십시오.
 
 
 ### 함수 제한 사항 요약
@@ -2099,9 +2099,9 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 | <p>다음과 같은 경우</p> | <ul><li>파생 필드당 5개 다음과 같은 경우 함수</li><li>파생 필드당 200개 [연산자](#operators)</li></ul> |
 | <p>분류</p> | <ul><li>파생 필드당 5개 분류 함수</li><li>파생 필드당 200개 [연산자](#operators)</li></ul> |
 | <p>연결</p> | <ul><li>파생 필드당 2개 연결 함수</li><li>연결 함수당 3개 값</ul> |
-| <p>데이터 수학</p> | <ul><li>파생된 필드당 2개 날짜 수학 함수</li></ul> |
+| <p>데이터 수학</p> | <ul><li>파생 필드당 2개 Date Math 함수</li></ul> |
 | <p>중복 제거</p> | <ul><li>파생 필드 5개 중복 제거 함수</li></ul> |
-| <p>깊이</p> | <ul><li>파생 필드당 깊이 함수 3개</li></ul> |
+| <p>깊이</p> | <ul><li>파생 필드당 3개 Depth 함수</li></ul> |
 | <p>찾기 및 바꾸기</p> | <ul><li>파생 필드당 2개 찾기 및 바꾸기 함수</li></ul> |
 | <p>조회</p> | <ul><li>파생 필드당 5개 조회 함수</li></ul> |
 | <p>소문자</p> | <ul><li>파생 필드당 2개 소문자 함수</li></ul> |
@@ -2112,7 +2112,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 | <p>분할</p> | <ul><li>파생 필드당 2개 분할 함수</li><li>최대 10개의 값이 반환됩니다</ul> |
 | <p>요약</p> | <ul><li>파생 필드당 3개 요약 함수</li></ul> |
 | <p>트리밍</p> | <ul><li>파생 필드당 1개 트리밍 함수</li></ul> |
-| <p>타입캐스트</p> | <ul><li>파생 필드당 3개의 Typecast 함수</li></ul> |
+| <p>타입캐스트</p> | <ul><li>파생 필드당 3개 Typecast 함수</li></ul> |
 | <p>URL 구문 분석</p> | <ul><li>파생 필드당 5개 URL 구문 분석 함수</li></ul> |
 
 {style="table-layout:auto"}
@@ -2140,7 +2140,7 @@ Customer Journey Analytics 내에서 추가 변형에 사용할 수 있도록 �
 
 >[!MORELIKETHIS]
 >
->- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=ko)
->- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=ko)
->- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=ko)
+>- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
