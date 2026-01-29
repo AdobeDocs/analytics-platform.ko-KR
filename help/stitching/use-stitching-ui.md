@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
+source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -136,7 +136,13 @@ ht-degree: 3%
 
 1. **[!UICONTROL 전환 확인 기간]** 드롭다운 메뉴에서 전환 확인 기간을 선택합니다. 사용 가능한 옵션은 권한이 부여된 Customer Journey Analytics 패키지에 따라 다릅니다.
 
-연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작될 때 결합 킥에 대해 활성화된 데이터 세트에 대한 결합 프로세스가 시작됩니다
+연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작될 때 결합 킥에 대해 활성화된 데이터 세트에 대한 결합 프로세스가 시작됩니다.
+
+>[!CAUTION]
+>
+>연결 인터페이스에서 연결을 사용하도록 설정된 데이터 세트의 경우 완료된 다시 채우기 횟수에 대해 다시 채우기 상태가 즉시 ![녹색 상태](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _다시 채우기 완료됨]**(으)로 잘못 보고됩니다. 다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오.
+>
+
 
 ## 제한 사항
 
