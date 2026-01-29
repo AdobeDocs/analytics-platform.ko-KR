@@ -6,7 +6,7 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
+source-git-commit: 92754044cad67627987b0912367eddc48d1aee89
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 # 결합 사용
 
 연결의 일부로 구성한 하나 이상의 이벤트 데이터 세트에 대한 결합을 활성화할 수 있습니다. 라이선스가 부여된 Customer Journey Analytics 패키지에 따라 결합에 사용할 수 있는 이벤트 데이터 세트의 수가 결정됩니다.
-
-{{release-limited-testing}}
 
 [연결을 만들거나](/help/connections/create-connection.md#dataset-settings) [연결을 편집](/help/connections/create-connection.md)할 때 이벤트 데이터 세트에 대한 [데이터 세트 설정](/help/connections/manage-connections.md#edit-a-connection)의 일부로 연결을 활성화할 수 있습니다.
 
