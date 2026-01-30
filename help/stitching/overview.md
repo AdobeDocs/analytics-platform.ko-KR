@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
 workflow-type: tm+mt
 source-wordcount: '902'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 ID 결합(또는 간단히 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics의 주요 사용 사례입니다. 이 기능을 통해 다양한 채널의 여러 데이터 세트 대한 보고서를 공통 식별자(개인 ID)를 기준으로 원활하게 결합하고 실행할 수 있습니다.
 
-유사한 개인 ID를 사용하여 데이터 세트를 결합하면 속성이 디바이스 및 채널 간에 전달됩니다. 예를 들어 사용자가 데스크탑 컴퓨터의 광고를 통해 사이트를 방문합니다. 사용자가 제품을 구매하지만 주문 주문에 문제가 발생합니다. 그런 다음 사용자가 고객 서비스 팀에 문의하여 문제 해결을 요청합니다. 크로스 채널 분석을 사용하면 콜센터 이벤트를 사용자가 원래 클릭한 광고에 연결할 수 있습니다.
+유사한 개인 ID를 사용하여 데이터 세트를 결합하면 속성이 디바이스 및 채널 간에 전달됩니다. 예를 들어 사용자가 데스크탑 컴퓨터의 광고를 통해 사이트를 방문합니다. 사용자가 제품을 구매하지만 주문 시 문제가 발생합니다. 그런 다음 사용자가 고객 서비스 팀에 문의하여 문제 해결을 요청합니다. 크로스 채널 분석을 사용하면 콜센터 이벤트를 사용자가 원래 클릭한 광고에 연결할 수 있습니다.
 
 안타깝게도 Customer Journey Analytics에서 연결에 포함된 모든 이벤트 기반 데이터 세트에 이러한 속성을 지원할 수 있는 데이터가 충분히 채워져 있는 것은 아닙니다. 특히 웹 기반 또는 모바일 기반 경험 데이터 세트에는 모든 이벤트에 대한 실제 개인 ID 정보가 없는 경우가 많습니다.
 
@@ -49,8 +49,8 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 
 다음 두 가지 방법으로 결합을 활성화할 수 있습니다.
 
-- [결합을 사용하도록 요청](/help/stitching/use-stitching.md)합니다. 승인되면 결합을 요청한 데이터 세트에 대해 중복 데이터 세트가 만들어집니다. 이 중복 데이터 세트에는 결합된 식별자가 있는 추가 열이 포함되어 있습니다. Customer Journey Analytics에서 결합된 데이터를 사용하려면 결합된 데이터 세트를 포함하는 기존 연결을 새로 만들거나 편집해야 합니다.
-- [연결 인터페이스에서 연결을 활성화합니다](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}. 연결 인터페이스에서 데이터 세트에 대한 결합을 구성할 때 Customer Journey Analytics의 해당 데이터 세트에서 데이터를 수집하는 동안 결합은 &#39;즉시&#39; 발생합니다.
+- [결합을 사용하도록 요청](/help/stitching/use-stitching.md)(더 이상 사용되지 않음). 승인되면 결합을 요청한 데이터 세트에 대해 중복 데이터 세트가 만들어집니다. 이 중복 데이터 세트에는 결합된 식별자가 있는 추가 열이 포함되어 있습니다. Customer Journey Analytics에서 결합된 데이터를 사용하려면 결합된 데이터 세트를 포함하는 기존 연결을 새로 만들거나 편집해야 합니다.
+- [연결 인터페이스에서 연결을 활성화합니다](/help/stitching/use-stitching-ui.md). 연결 인터페이스에서 데이터 세트에 대한 결합을 구성할 때 Customer Journey Analytics의 해당 데이터 세트에서 데이터를 수집하는 동안 결합은 &#39;즉시&#39; 발생합니다.
 
 ## 제한 사항
 

@@ -5,14 +5,22 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 6%
+source-wordcount: '479'
+ht-degree: 5%
 
 ---
 
 # 결합 요청
+
+
+>[!IMPORTANT]
+>
+>Adobe을 통한 요청 결합은 더 이상 필요하지 않으며 이 방법은 더 이상 사용되지 않습니다. [연결 UI에서 연결을 사용하도록 설정](use-stitching-ui.md).
+>
+
+
 
 조직이 모든 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반적인 [제한 사항](overview.md#limitations) 및 연결 방법별 제한 사항([필드 기반](fbs.md#limitations) 및 [그래프 기반](gbs.md#limitations))을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 연결을 요청하고 사용할 수 있습니다.
 
@@ -54,25 +62,3 @@ ht-degree: 6%
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
 데이터 보기가 설정되면 채널 및 디바이스 간에 Customer Journey Analytics 보고 분석을 실행할 수 있습니다.
-
-<!-- Uncomment once stitching UI is available (for limited testing)..
-
-### Do It Yourself
-
-|Positive|[!BADGE New Feature]{type=Positive before-title="false"}|
-
-{{release-limited-testing-section}}
-
-Alternatively, you can set up and use stitching through the Customer Journey Analytics user interface:
-
-1. Go to the [Create and manage stitched datasets](stitching-ui.md) and follow steps to rekey your dataset.
-
-2. [Create a connection](/help/connections/create-connection.md) in Customer Journey Analytics using the newly generated dataset and any other datasets that you want to include. Choose the correct person ID for each dataset.
-
-3. [Create a connection](/help/connections/create-connection.md) in Customer Journey Analytics using the newly generated dataset and any other datasets that you want to include. Choose the correct person ID for each dataset.
-   
-4. [Create a data view](/help/data-views/create-dataview.md) based on the connection.
-
-Once the data view is set up, the cross-channel analysis in Customer Journey Analytics is just like any other analysis in Customer Journey Analytics, except now the data operates across channels and devices.
-
--->

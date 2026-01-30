@@ -4,10 +4,10 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
+source-git-commit: 3afb60a60b7fd1acb414244dffdb6a6493792f9c
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 91%
+source-wordcount: '628'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 제품 및 설명서의 최신 개선 사항을 살�
 
 [![이미지](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
 
-*_연결을 사용하려면 Select 패키지가 적어도 있어야 합니다._*
+*연결을 사용하려면 Select 패키지가 적어도 있어야 합니다.*
 
 
 >[!TAB 대상 분석]
@@ -45,7 +45,7 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 
 [![이미지](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
-*_실시간 보고를 위해서는 Ultimate 패키지가 필요합니다._*
+*실시간 보고를 위해서는 Ultimate 패키지가 필요합니다.*
 
 
 >[!TAB B2B Edition]
@@ -67,6 +67,7 @@ Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르
 
 먼저 아래 링크의 자료를 통해 Customer Journey Analytics의 다양한 기능을 자세히 살펴보십시오.
 
+
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
@@ -75,16 +76,20 @@ Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>데이터 수집 및 사용</strong><br/>Experience Platform에 데이터를 수집하고 이를 Customer Journey Analytics에서 분석 및 보고하는 데 사용할 수 있는 옵션에 대해 알아봅니다.</div>
+    <div><strong>데이터 수집 및 사용</strong><br/>데이터를 Experience Platform에 수집하여 분석 및 보고에 사용해야 하는 옵션에 대해 알아봅니다.</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>가이드 분석</strong><br/>워크플로를 사용하여 고객의 제품 경험에 대한 데이터와 인사이트를 얻는 방법을 알아봅니다. 가이드 분석을 통한 Product Analytics…
+    <div><strong>가이드 분석</strong><br/>워크플로를 사용하여 고객의 제품 경험에 대한 데이터와 인사이트를 얻는 방법을 알아봅니다. 가이드 분석을 통한 Product Analytics.
     </div>
     </td>
     <td>
     <a href="/help/analysis-workspace/home.md"><img src="./assets/workspace.png"></a>
     <div><strong>Analysis Workspace</strong><br/>Analysis Workspace를 사용하면 속성, 플로우 및 폴아웃 다이어그램, 차원 분석과 같은 기본 및 고급 분석을 수행할 수 있습니다.</div>
+    </td>
+    <td>
+    <a href="/help/content-analytics/content-analytics.md"><img src="./assets/content-analytics.png"></a>
+    <div><strong>Content Analytics</strong><br/>동작 옆에 있는 콘텐츠가 주요 성능 지표에 미치는 영향을 이해합니다. 고객 여정 데이터에 대한 심층적인 통찰력을 얻으십시오.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -92,6 +97,7 @@ Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르
     <td align="center"><a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/guided-analysis/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/analysis-workspace/home.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/content-analytics/content-analytics.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -104,7 +110,7 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong>Adobe Analytics와 비교</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">개요</a> - <a href="/help/getting-started/aa-to-cja.md">발전</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Adobe Analytics 데이터 사용</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">기능 지원</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">용어</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">데이터 처리</a> - <a href="/help/getting-started/cja-b2b-edition.md">Customer Journey Analytics B2B Edition</a>
+      <strong>Adobe Analytics과 비교</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">개요</a> - <a href="/help/getting-started/aa-to-cja.md">진화</a> - <a href="/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md">업그레이드</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Adobe Analytics 데이터 사용</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">기능 지원</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">용어</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">데이터 처리</a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -121,13 +127,13 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
       <img src="./assets/workspace.svg" width="35px"><br/>
       <strong>Workspace 프로젝트</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">기본 </a> 및 <a href="/help/analysis-workspace/perform-adv-analysis.md">고급 분석</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">프로젝트</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">시각화</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">패널</a>
     </td>
-    <td>
-      <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>가이드 분석</strong><br/><a href="/help/guided-analysis/overview.md">개요</a> - <a href="/help/guided-analysis/types/active-growth.md">사용자 증가</a> - <a href="/help/guided-analysis/types/trends.md">트렌드</a> - <a href="/help/guided-analysis/types/funnel.md">단계</a> - <a href="/help/guided-analysis/types/release-impact.md">영향</a> - <a href="/help/guided-analysis/industry-use-cases.md">업계 사용 사례</a>
-    </td>
-    <td>
+        <td>
       <img src="./assets/share.svg" width="35px"><br/>
       <strong>공유, 내보내기, 통합</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">프로젝트</a> - <a href="/help/mobile-app/home.md">Analytics 대시보드</a> - <a href="/help/report-builder/rb-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">클라우드 내보내기</a> - <a href="/help/integrations/overview.md">통합</a>
+    </td>
+    <td>
+      <img src="./assets/guided-analysis.svg" width="35px"><br/>
+      <strong>기타...</strong><br/><a href="/help/guided-analysis/overview.md">분석 가이드</a> - <a href="/help/content-analytics/content-analytics.md">Content Analytics</a> - <a href="/help/getting-started/cja-b2b-edition.md">B2B edition</a> 
     </td>
   </tr>
 </table>
@@ -145,4 +151,4 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
+<b>최신 정보를 얻고, 커뮤니티에 기여하고, Customer Journey Analytics 경험을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 동료 실무자들과 기능에 대해 논의해 보십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
