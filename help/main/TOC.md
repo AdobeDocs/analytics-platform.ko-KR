@@ -9,8 +9,8 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
-workflow-type: ht
+source-git-commit: 905d32421b4c1d3135a51dfd9898a02e750555d0
+workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
 
@@ -139,6 +139,11 @@ ht-degree: 100%
    + [결합된 이벤트 데이터 세트](../connections/combined-dataset.md)
    + [표준 조회](../connections/standard-lookups.md)
    + [B2B 조회](../connections/transform-datasets-b2b-lookups.md)
+   + 대상자 분석 {#audience-analysis}
+      + [개요](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [구성](/help/connections/audience-analysis/audience-analysis-configure.md)
+      + [관리](/help/connections/audience-analysis/audience-analysis-manage.md)
+      + [분석](/help/connections/audience-analysis/analyze-audiences.md)
 + 데이터 보기 {#cja-dataviews}
    + [데이터 보기 개요](../data-views/data-views.md)
    + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)
@@ -163,11 +168,6 @@ ht-degree: 100%
    + 공유된 지표 및 차원{#shared-metrics-dimensions}
       + [개요](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [편집기](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-   + 대상자 분석 {#audience-analysis}
-      + [개요](/help/connections/audience-analysis/audience-analysis-overview.md)
-      + [구성](/help/connections/audience-analysis/audience-analysis-configure.md)
-      + [관리](/help/connections/audience-analysis/audience-analysis-manage.md)
-      + [분석](/help/connections/audience-analysis/analyze-audiences.md)
 + 도구 {#tools}
    + 자산 이전 {#asset-transfer}
       + [자산 전송](../tools/asset-transfer/transfer-assets.md)
