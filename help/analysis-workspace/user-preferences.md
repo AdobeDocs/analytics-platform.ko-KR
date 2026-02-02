@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 0a307bb43c780479df1cdc751fdadfc82f9dda55
+source-git-commit: bc708b34814550b89f6c9916d8bc48850008c1dc
 workflow-type: tm+mt
-source-wordcount: '4044'
-ht-degree: 98%
+source-wordcount: '4015'
+ht-degree: 99%
 
 ---
 
@@ -90,10 +90,12 @@ ht-degree: 98%
 
 [프로젝트 개요](/help/analysis-workspace/build-workspace-project/freeform-overview.md)의 설명에 따라 Analysis Workspace의 개별 프로젝트에 맞게 동일한 환경 설정 중 일부를 사용자 정의할 수도 있습니다.
 
+<!--
 >[!IMPORTANT]
 >
->**[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 
 | 섹션 | 환경 설정 | 옵션 |
@@ -106,6 +108,7 @@ ht-degree: 98%
 |  | [캘린더](/help/analysis-workspace/c-panels/panels.md#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>[!UICONTROL 기본적으로 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]를 활성화할 수 있습니다.</li></ul> |
 |  | [패널 유형](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 인스턴스 계산 | [!UICONTROL 반복 인스턴스 계산]을 활성화하여 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 예를 들어 활성화되면 동일한 페이지에 대한 여러 개의 연속 페이지 조회수가 여러 페이지 조회수로 처리됩니다. 비활성화되면 동일한 페이지에 대한 여러 개의 연속 페이지 조회수가 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 세션)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
+|  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
 |  | 주석 표시 | 프로젝트에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/components/annotations/overview.md)를 참조하십시오. |
 
@@ -139,7 +142,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | --- | --- | --- |
 | **테이블** | | |
 | | 테이블 유형 | <ul><li>자유 형식</li><li>테이블 빌더</li></ul> |
-| | 기본 테이블 지표 | <ul><li>이벤트</li><li>세션</li><li>사용자</li></ul> |
+| | 기본 테이블 지표 | <ul><li>이벤트</li><li>세션</li><li>사람</li></ul> |
 | | 기본 테이블 차원 | 분, 시간, 일, 주, 월, 분기 또는 연도 중에서 선택합니다. |
 | | 날짜 정렬 | 이 옵션을 선택하여 각 열의 날짜가 같은 행에서 시작하도록 맞춥니다. |
 | **[열](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
