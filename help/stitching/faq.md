@@ -75,7 +75,7 @@ ht-degree: 85%
 
 +++ 크로스 디바이스 분석(기존 Analytics의 한 기능)과 크로스 채널 분석의 차이점은 무엇입니까?
 
-[크로스 디바이스 분석](https://experienceleague.adobe.com/ko/docs/analytics/components/cda/overview)은 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
+[크로스 디바이스 분석](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)은 기존 Adobe Analytics 고유의 기능으로, 사용자가 여러 디바이스에서 작동하는 방식을 이해할 수 있습니다. 디바이스 데이터를 서로 연결하는 두 가지 워크플로, 즉 필드 기반 결합 및 디바이스 그래프를 제공합니다.
 
 크로츠 채널 분석은 Customer Journey Analytics 고유의 사용 사례로, 사용자가 디바이스와 채널 모두에서 작동하는 방식을 이해할 수 있습니다. 데이터 세트의 개인 ID에 대해 키를 결합하여 해당 데이터 세트를 다른 데이터 세트와 매끄럽게 결합할 수 있습니다. 이 기능은 설계상 크로스 디바이스 분석의 필드 기반 결합과 유사하게 작동하지만 기존 Analytics 및 Customer Journey Analytics 간에 데이터 아키텍처가 달라 구현은 다르게 수행됩니다. 자세한 내용은 [결합](overview.md) 및 [크로스 채널 분석](../use-cases/cross-channel/cross-channel.md) 사용 사례를 참조하십시오.
 
@@ -205,11 +205,11 @@ Customer Journey Analytics의 특정 지표는 기존 Adobe Analytics의 지표�
 
 | **Customer Journey Analytics에 결합된 데이터** | **Customer Journey Analytics에 결합되지 않은 데이터** | **Adobe Analytics** | **CDA가 포함된 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **인원** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **인원** = 선택된 열을 기준으로 한 고유 개인 ID 수입니다. Analytics 소스 커넥터 데이터 세트에 있는 **인원**&#x200B;은 Customer Journey Analytics에서 `endUserIDs._experience.aaid.id`가 개인 ID로 선택된 경우 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;와 유사합니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/people)을 참조하십시오. |
-| **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에서의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/visits)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/cda/setup)에 지정된 세션 설정을 기반으로 정의됩니다. |
-| **이벤트**&#x200B;는 Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 빈 영구 ID가 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트**&#x200B;는 Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/occurrences)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/occurrences)를 참조하십시오. |
+| **인원** = 결합된 ID가 개인 ID로 선택된 고유한 개인 ID 수입니다. **인원**&#x200B;은 결합 프로세스의 결과에 따라 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;보다 높거나 낮을 수 있습니다. | **인원** = 선택된 열을 기준으로 한 고유 개인 ID 수입니다. Analytics 소스 커넥터 데이터 세트에 있는 **인원**&#x200B;은 Customer Journey Analytics에서 `endUserIDs._experience.aaid.id`가 개인 ID로 선택된 경우 기존 Adobe Analytics의 **고유 방문자 수**&#x200B;와 유사합니다. | **고유 방문자 수**&#x200B;는 고유 방문자 ID의 수입니다. **고유 방문자 수**&#x200B;는 고유한 **ECID** 수와 동일하지 않을 수 있습니다. | [인원](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/people)을 참조하십시오. |
+| **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에서의 세션 설정을 기반으로 정의됩니다. 결합 프로세스를 통해 여러 디바이스의 개별 세션을 단일 세션으로 결합할 수 있습니다. | **세션**&#x200B;은 Customer Journey Analytics 데이터 보기에 지정된 세션 설정을 기반으로 정의됩니다. | **방문 횟수**: [방문 횟수](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/visits)를 참조하십시오. | **방문 횟수**&#x200B;는 [CDA 가상 보고서 세트](https://experienceleague.adobe.com/en/docs/analytics/components/cda/setup)에 지정된 세션 설정을 기반으로 정의됩니다. |
+| **이벤트**&#x200B;는 Customer Journey Analytics에서 결합된 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 단, 빈 영구 ID가 있는 행에 대한 위의 FAQ를 참고하십시오. | **이벤트**&#x200B;는 Customer Journey Analytics에서 결합되지 않은 데이터의 행 수입니다. 이 지표는 일반적으로 기존 Adobe Analytics의 **발생 횟수**&#x200B;에 가깝습니다. 그러나 Experience Platform 데이터 레이크의 연결되지 않은 데이터에 빈 개인 ID가 포함된 이벤트가 있는 경우 이러한 이벤트는 Customer Journey Analytics에 포함되지 않습니다. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences)를 참조하십시오. | **발생 횟수**: [발생 횟수](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences)를 참조하십시오. |
 
-다른 지표는 Customer Journey Analytics 및 Adobe Analytics와 유사할 수 있습니다. 예를 들어 Adobe Analytics [사용자 정의 이벤트](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/custom-events) 1-100의 총 횟수는 결합 여부에 관계없이 기존 Adobe Analytics와 Customer Journey Analytics 간에 호환됩니다. Customer Journey Analytics와 Adobe Analytics 간의 이벤트 중복 제거와 같은 [기능의 차이](/help/getting-started/aa-vs-cja/cja-aa.md)로 인해 두 제품 간에 불일치가 발생할 수 있습니다.
+다른 지표는 Customer Journey Analytics 및 Adobe Analytics와 유사할 수 있습니다. 예를 들어 Adobe Analytics [사용자 정의 이벤트](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/custom-events) 1-100의 총 횟수는 결합 여부에 관계없이 기존 Adobe Analytics와 Customer Journey Analytics 간에 호환됩니다. Customer Journey Analytics와 Adobe Analytics 간의 이벤트 중복 제거와 같은 [기능의 차이](/help/getting-started/aa-vs-cja/cja-aa.md)로 인해 두 제품 간에 불일치가 발생할 수 있습니다.
 
 +++
 
@@ -269,7 +269,7 @@ curl -X PATCH \
 
 실시간 고객 데이터 프로필 라이선스가 없을 때 요청에서 `unifiedProfile` 태그를 사용하면 오류가 반환됩니다.
 
-자세한 내용은 [프로필 및 ID에 대해 활성화된 데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset)를 참조하십시오.
+자세한 내용은 [프로필 및 ID에 대해 활성화된 데이터 세트 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset)를 참조하십시오.
 
 +++ 
 
