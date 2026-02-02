@@ -1,13 +1,13 @@
 ---
-title: 결합 검증
-description: 결합의 유효성을 검사하는 방법
+title: 결합 유효성 검사
+description: 결합의 유효성을 검사하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 99b434e62d859c96bfda53731f3f8a0750850501
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478127?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 * `stitchedID.namespace.code`을(를) 사용하여 **[!UICONTROL 결합된 네임스페이스]** 차원을 정의합니다. 이 차원에는 행이 `Email`, `Phone`(으)로 승격된 ID의 네임스페이스가 포함되어 있습니다. 또는 결합 프로세스 폴백에 대한 네임스페이스입니다(예: `ECID`).
   ![연결된 네임스페이스 차원](assets/stitchednamespace-dimension.png)
 
-* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**&#x200B;에 사용됩니다.
+* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**에 사용됩니다.
   ![결합된 ID 차원](assets/stitchedid-dimension.png)
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
    아래 예에서 `personalEmail.address`은(는) ID 역할을 하며 **[!UICONTROL _Email 집합]** 지표를 만드는 데 사용됩니다.
    ![전자 메일 집합 지표](assets/emailset-metric.png)
 
-1. `stitchedID.namespae.code` 필드를 사용하여 **[!UICONTROL 전자 메일로 결합된 네임스페이스]** 차원을 만듭니다. [포함/제외 값 구성 요소 설정](/help/data-views/component-settings/include-exclude-values.md)을 지정했는지 확인하세요. 따라서 데이터 행을 높이려는 네임스페이스의 값만 고려합니다.
+1. `stitchedID.namespae.code` 필드를 사용하여 **[!UICONTROL 전자 메일로 결합된 네임스페이스]** 차원을 만듭니다. [구성 요소 설정에 제외 값 포함](/help/data-views/component-settings/include-exclude-values.md)을 지정했는지 확인하세요. 따라서 데이터 행을 높이려는 네임스페이스의 값만 고려합니다.
    1. **[!UICONTROL 포함/제외 값 설정]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 일치]**(으)로 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;를 선택합니다.
    1. 전자 메일 네임스페이스로 승격된 이벤트를 선택하려면 **[!UICONTROL 같음]** `email`을(를) **[!UICONTROL 기준]**(으)로 지정하십시오.
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 연결을 만들 때 개인 ID에 사용할 필드 또는 ID를 정의해야 합니다. 예를 들어 웹 데이터 세트에서 장치 ID를 개인 ID로 선택하면 장치 중심 보고서가 만들어지고 이 데이터를 다른 오프라인 채널과 결합할 수 있는 기능이 없어집니다. 이메일과 같은 크로스 채널 필드 또는 ID를 선택하면 인증되지 않은 이벤트가 손실됩니다. 이러한 영향을 이해하려면 인증되지 않은 트래픽의 양과 인증된 트래픽의 양을 파악해야 합니다.
 
-1. 총 **[!UICONTROL 에 대해 계산된 지표]**&#x200B;인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 총 **[!UICONTROL 에 대해 계산된 지표]**인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    총 ![인증되지 않은 이벤트](assets/calcmetric-unauthenticatedeventsovertotal.png)
 
-1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**&#x200B;을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    ![전자 메일 인증 속도](assets/calcmetric-emailauthenticationrate.png)
 
 1. **[!UICONTROL 전자 메일 인증 비율]** 계산된 지표와 함께 **[!UICONTROL 총]**&#x200B;에 대해 인증되지 않은 이벤트를 사용하여 [도넛](/help/analysis-workspace/visualizations/donut.md) 시각화를 만드십시오. 시각화는 인증되지 않고 인증된 데이터 세트의 이벤트 수를 표시합니다.

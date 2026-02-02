@@ -1,14 +1,14 @@
 ---
-title: 결합 요청
-description: 결합 요청 방법
+title: 요청 결합
+description: 결합을 요청하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -20,13 +20,11 @@ ht-degree: 5%
 >Adobe을 통한 요청 결합은 더 이상 필요하지 않으며 이 방법은 더 이상 사용되지 않습니다. [연결 UI에서 연결을 사용하도록 설정](use-stitching-ui.md).
 >
 
-
-
-조직이 모든 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반적인 [제한 사항](overview.md#limitations) 및 연결 방법별 제한 사항([필드 기반](fbs.md#limitations) 및 [그래프 기반](gbs.md#limitations))을 이해하면 다음 단계에 따라 Customer Journey Analytics에서 연결을 요청하고 사용할 수 있습니다.
+조직이 일반 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반 [제한 사항](overview.md#limitations)을(를) 이해하며 결합 방법별([필드 기반](fbs.md) 및 [그래프 기반](gbs.md)) 필수 구성 요소 및 제한 사항도 이해하면 Customer Journey Analytics에서 결합을 요청하고 사용할 수 있습니다.
 
 ## 옵션 선택
 
-권한이 있는 Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합이 허용되는 최대 데이터 세트 수를 결정합니다. 자세한 내용은 [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html)을 참조하세요. 지원을 요청하기 전에 사용 가능한 옵션을 결정하십시오.
+권한이 부여된 Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대한 옵션을 결정합니다. 자세한 내용은 [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html)을 참조하세요. 지원을 요청하기 전에 사용 가능한 옵션을 결정하십시오.
 
 | | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
@@ -62,3 +60,11 @@ ht-degree: 5%
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
 데이터 보기가 설정되면 채널 및 디바이스 간에 Customer Journey Analytics 보고 분석을 실행할 수 있습니다.
+
+## 제한 사항
+
+- 소스 이벤트 데이터 세트 스키마에 변경한 내용을 새로운 결합된 데이터 세트 스키마에도 적용합니다.
+
+- 소스 데이터 세트를 제거하면 결합된 데이터 세트가 처리를 중지하고 시스템에서 제거됩니다.
+
+- 데이터 사용 레이블은 결합된 데이터 세트 스키마에 자동으로 전파되지 않습니다. 소스 데이터 세트 스키마에 데이터 사용 레이블을 적용하는 경우, 이러한 데이터 사용 레이블을 결합된 데이터 세트 스키마에 수동으로 적용해야 합니다. 자세한 내용은 [Experience Platform에서 데이터 사용량 레이블 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview)를 참조하십시오.
