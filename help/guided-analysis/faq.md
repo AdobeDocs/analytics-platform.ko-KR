@@ -6,7 +6,7 @@ feature: Guided Analysis
 keywords: 제품 분석
 role: User
 source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 | 가이드 분석 용어 | Analysis Workspace 용어 |
 | --- | --- |
 | 이벤트 (바이너리 1/0 지표) | 지표 |
-| 사용자 | 사용자 |
+| 사용자 | 사람 |
 | 차원 | 차원 |
 | 차원 항목 | 차원 항목 |
 | 세그먼트 | 세그먼트 |

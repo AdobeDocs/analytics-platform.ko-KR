@@ -6,15 +6,15 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Content Analytics의 개요
 
-Content Analytics는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. 예를 들어 고객이 어떤 특정 음성 톤, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응하는지 확인할 수 있습니다. 이 정보는 특별히 설계된 보고 워크플로 및 템플릿과 함께 Customer Journey Analytics에서 고객 여정 데이터에 대한 더 나은 분석을 수행하고 더욱 심층적인 인사이트를 얻는 데 도움이 됩니다.
+Content Analytics는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 행동 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. 예를 들어 고객이 어떤 특정 음성 톤, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응하는지 확인할 수 있습니다. 이 정보는 특별히 설계된 보고 워크플로 및 템플릿과 함께 Customer Journey Analytics에서 고객 여정 데이터에 대한 더 나은 분석을 수행하고 더욱 심층적인 인사이트를 얻는 데 도움이 됩니다.
 
 Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x200B;를 사용하여 콘텐츠를 구성 요소와 속성으로 분류합니다. 모든 콘텐츠에 구조화된 메타데이터 프로필을 만들면 어떤 콘텐츠와 해당 콘텐츠의 속성이 비즈니스 결과를 주도하는지 분석할 수 있습니다.
 
@@ -41,14 +41,14 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 
 ## 작동 방식
 
-Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [콘텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. 동작 데이터는 Web SDK 또는 Analytics Source Connector를 사용하여 수집할 수 있습니다.
+Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [콘텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 콘텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(Web SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. 행동 데이터는 Web SDK 또는 Analytics 소스 커넥터를 통해 수집할 수 있습니다.
 
 ![Content Analytics - 작동 방식](assets/aca-overview.gif)
 
 1. 사용자가 사이트를 방문하면 [Content Analytics을 위해 구성](config/configuration.md)된 Experience Platform Web SDK가 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
 1. ID 및 기능화 서비스에서 이러한 상호 작용을 처리합니다. 해당 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 검색된 모든 URL에 대해 ID 서비스는 경험과 자산을 고유하게 식별합니다. 또한 기능화 서비스는 AI/ML 서비스를 적용하여 경험과 자산의 메타데이터와 속성을 발견합니다.
 1. 이러한 서비스의 결과([구성 요소, 속성, ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
-1. Content Analytics 데이터는 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 사용할 수 있습니다. 이러한 설정은 콘텐츠에 대해 고유한 거시적 수준 인사이트의 기초를 제공합니다. <br/>[Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 Content Analytics 보고서와 분석을 바로 시작할 수 있습니다.
+1. Content Analytics 데이터는 행동 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 사용할 수 있습니다. 이러한 설정은 콘텐츠에 대해 고유한 거시적 수준 인사이트의 기초를 제공합니다. <br/>[Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 Content Analytics 보고서와 분석을 바로 시작할 수 있습니다.
 
 
 >[!NOTE]
@@ -67,7 +67,7 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >[!MORELIKETHIS]
 >
 >[Content Analytics 보고](report/report.md)
->&#x200B;>[Content Analytics 구성](config/configuration.md)
->&#x200B;>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>[Content Analytics 구성](config/configuration.md)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

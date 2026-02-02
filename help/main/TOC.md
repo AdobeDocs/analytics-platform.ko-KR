@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
 source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -502,13 +502,13 @@ ht-degree: 97%
          + [월별 트렌드](/help/use-cases/data-views/bi-extension/monthly-trend.md)
          + [단일 차원 등급](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
          + [여러 차원 등급](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
-         + [고유 차원 값 계산](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
-         + [날짜 범위 이름을 사용하여 필터링](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
-         + [세그먼트 이름을 사용하여 세그먼트](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
-         + [차원 값을 사용하여 세그먼트화](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [개별 차원 값 계산](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [일자 범위 이름을 사용하여 필터링](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [세그먼트 이름을 사용하여 세분화](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [차원 값을 사용하여 세분화](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
          + [정렬](/help/use-cases/data-views/bi-extension/sort.md)
          + [제한](/help/use-cases/data-views/bi-extension/limits.md)
-         + [변형](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [변환](/help/use-cases/data-views/bi-extension/transformations.md)
          + [시각화](/help/use-cases/data-views/bi-extension/visualizations.md)
          + [주의 사항](/help/use-cases/data-views/bi-extension/caveats.md)
 

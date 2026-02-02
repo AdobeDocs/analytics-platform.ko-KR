@@ -6,15 +6,15 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 09a6ae258d27f8fe9c9a1fc7ed63273620c67c1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 연결 개요
 
-Customer Journey Analytics 제품 관리자는 연결을 통해 이벤트, 조회, 프로필 및 요약 데이터 세트와 같은 [!DNL &#x200B; Experience Platform]개의 데이터 소스를 수집할 것을 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
+연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회, 프로필, 요약 데이터 세트 등 어떤 [!DNL  Experience Platform] 데이터 소스를 수집할지 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring conn
 | ➋ | 수집, 건너뛰기 또는 삭제된 데이터 세트 레코드와 같은 [연결의 세부 사항을 검사합니다](manage-connections.md#connection-details). |
 | ➌ | 롤링 데이터 창, 사용할 샌드박스, 연결에 포함된 데이터 세트 등과 같은 [연결 구성을 만들거나 편집합니다](create-connection.md#create-or-edit-a-connection). |
 | ➍ | [연결에 데이터 추가](create-connection.md#add-datasets). 연결에는 최소한 하나의 이벤트 또는 요약 데이터 세트가 있어야 하지만 다양한 이벤트, 프로필, 조회 및 요약 데이터 세트를 포함할 수 있습니다. |
-| ➎ | 추가할 데이터 세트의 [설정을 구성합니다.](create-connection.md#dataset-settings) 공통된 개인 기반 또는 [!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정 기반 식별자에 따라 다양한 데이터 세트를 연결하는 방법을 결정할 수 있습니다. |
+| ➎ | 추가할 데이터 세트의 [설정을 구성합니다.](create-connection.md#dataset-settings) 공통된 개인 기반 또는 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 계정 기반 식별자에 따라 다양한 데이터 세트를 연결하는 방법을 결정할 수 있습니다. |
 | ➏ | [기존 데이터 세트의 설정 편집](create-connection.md#edit-a-dataset). 데이터 세트 설정은 나중에 언제든지 다시 확인할 수 있습니다. |
 
 

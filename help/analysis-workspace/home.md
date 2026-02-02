@@ -7,7 +7,7 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1490'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

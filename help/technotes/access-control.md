@@ -7,9 +7,9 @@ exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
 source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 | [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics의 [Labs](/help/labs/labs.md) 탭에 액세스할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 합니다. 사용자는 본인이 만든 주석이나 본인에게 공유된 주석을 태그 지정, 공유, 삭제, 이름 변경할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 [대상](/help/components/audiences/audiences-overview.md)을 만들 수 있도록 허용합니다. Adobe Experience Platform에서 [세그먼트 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)가 필요합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 만들 수 있도록 합니다. Adobe Experience Platform에서 [세그먼트 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)가 필요합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 데이터 스토리텔링] | 사용자가 [Workspace 프로젝트를 기반으로 슬라이드 프레젠테이션을 생성](/help/analysis-workspace/curate-share/generate-slides.md)할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 모든 사용자와 프로젝트 링크 공유] | 사용자가 [누구에게나 프로젝트를 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)할 수 있도록 합니다. |
