@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics의 Report Builder란 무엇입니까?
-description: Customer Journey Analytics용 Report Builder에 대해 설명합니다.
+title: Report Builder 개요
+description: Report Builder 기능에 대해 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Customer Journey Analytics용 Report Builder는 Microsoft Excel 추가 기능입
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://video.tv.adobe.com/v/3452587?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

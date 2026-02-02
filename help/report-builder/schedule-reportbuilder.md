@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics에서 Report Builder를 사용하여 통합 문서를 예약하는 방법
-description: Report Builder에서 예약 기능을 사용하는 방법 알아보기
+title: Report Builder을 사용하여 통합 문서 예약
+description: Report Builder에서 예약 기능을 사용하는 방법을 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 15%
+source-wordcount: '858'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3417507/?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -1,15 +1,15 @@
 ---
 title: Report Builder에서 보고서 내보내기
-description: Report Builder에서 보안 대상으로 데이터를 내보내는 방법을 설명합니다.
+description: Report Builder에서 보안 대상으로 데이터를 내보내는 방법을 알아봅니다.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: cc20ddf5da5787af0a29b5d18c00abff816071d2
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 38%
+source-wordcount: '1303'
+ht-degree: 39%
 
 ---
 
@@ -49,17 +49,15 @@ Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
 
 1. [!UICONTROL **일정**]&#x200B;을 선택하세요.
 
-<!-- add screenshot -->
-
 1. **[!UICONTROL 통합 문서]** 탭에서 더하기 아이콘을 선택하여 새 일정을 만듭니다
-
-   ![Report Builder 일정 탭](assets/report-builder-schedule-cloud.png)
 
    또는
 
    이미 만든 일정으로 통합 문서를 내보내려면 일정 목록에서 일정을 선택한 다음 **[!UICONTROL 일정에 따라 보내기]**&#x200B;를 선택합니다.
 
 1. [!UICONTROL **Adobe Report Builder**] 오른쪽 패널에서 다음 정보를 지정하여 새 일정을 계속 만듭니다.
+
+   ![Report Builder 일정 탭](assets/report-builder-schedule-cloud.png)
 
    | 필드 이름 | 함수 |
    |---------|----------|
@@ -111,8 +109,6 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 * 여러 차원이 포함된 데이터 블록을 내보냅니다.
 
 ## 내보내기 요구 사항 {#export-requirements}
-
-### 최소 요구 사항
 
 데이터 블록, 환경 및 권한이 다음 요구 사항을 충족하는지 확인하십시오.
 

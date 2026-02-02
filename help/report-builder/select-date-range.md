@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics의 Report Builder에서 날짜 범위를 선택하는 방법
-description: Report Builder for Customer Journey Analytics에서 달력, 순환 날짜 및 사용자 지정 표현식을 사용하는 방법을 설명합니다
+title: Report Builder에서 데이터 범위 선택
+description: Report Builder에서 날짜 범위를 선택하는 방법을 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 49%
+source-wordcount: '853'
+ht-degree: 50%
 
 ---
 

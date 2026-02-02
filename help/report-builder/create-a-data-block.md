@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics에서 Report Builder을 사용하여 데이터 블록을 만드는 방법
-description: 데이터 블록을 만드는 방법을 설명합니다.
+title: Report Builder에서 데이터 블록 만들기
+description: 데이터 블록을 만드는 방법을 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 7d3300336a955facc230f335d1452096700ea98b
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 24%
+source-wordcount: '771'
+ht-degree: 23%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 24%
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->&#x200B;>[날짜 범위 선택](select-date-range.md)
->&#x200B;>[차원 필터링](filter-dimensions.md)
->&#x200B;>[세그먼트 작업](work-with-filters.md)
+>[날짜 범위 선택](select-date-range.md)
+>[차원 필터링](filter-dimensions.md)
+>[세그먼트 작업](work-with-filters.md)
 >

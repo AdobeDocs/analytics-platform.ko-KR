@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics의 Report Builder 허브란 무엇입니까?
-description: Report Builder 허브 구성 요소에 대해 설명합니다.
+title: Report Builder 허브
+description: Report Builder 허브에 대해 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
+source-git-commit: 1e19e0c79617d27c7039b695c70ca5026fcaf357
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 27%
+source-wordcount: '534'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 블록 편집]** | 선택한 셀 또는 셀 범위는 하나의 데이터 블록에만 속합니다. | 데이터 블록을 편집하는 데 사용합니다. |
 | ![새로 고침](/help/assets/icons/Refresh.svg) **[!UICONTROL 데이터 블록 새로 고침]** | 선택 항목에 하나 이상의 데이터 블록이 포함되어 있습니다. 명령은 선택 항목의 데이터 블록만 새로 고칩니다. | 하나 이상의 데이터 블록을 새로 고치는 데 사용합니다. |
 | ![문서 새로 고침](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL 모든 데이터 블록 새로 고침]** | 통합 문서에는 하나 이상의 데이터 블록이 있습니다. | 통합 문서의 모든 데이터 블록을 새로 고치는 데 사용 |
-| ![보내기](/help/assets/icons/Send.svg) **[!UICONTROL 통합 문서 보내기]** | 통합 문서에는 하나 이상의 데이터 블록이 있습니다. | 을(를) 사용하여 통합 문서를 이메일로 파일로 보냅니다. |
+| ![보내기](/help/assets/icons/Send.svg) **[!UICONTROL 통합 문서 보내기]** | 통합 문서에는 하나 이상의 데이터 블록이 있습니다. | [전자 메일로 통합 문서를 파일로 보내기](schedule-reportbuilder.md)하는 데 사용합니다. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 데이터 블록 복사]** | 선택한 셀 또는 셀 범위가 하나 이상의 데이터 블록의 일부입니다. | 데이터 블록을 복사하는 데 사용합니다. |
 | ![잘라내기](/help/assets/icons/Cut.svg) **[!UICONTROL 데이터 블록 잘라내기]** | 선택한 셀 또는 셀 범위가 하나 이상의 데이터 블록의 일부입니다. | 데이터 블록을 잘라냅니다. |
 | ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 데이터 블록 삭제]** | 선택한 셀 또는 셀 범위는 하나의 데이터 블록에만 속합니다. | 데이터 블록을 삭제하는 데 사용 |
@@ -70,6 +70,6 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 >[!MORELIKETHIS]
 >
 >[데이터 보기 선택](select-data-view.md)
->&#x200B;>[날짜 범위 선택](select-date-range.md)
->&#x200B;>[필터 &#x200B;](work-with-filters.md) 작업
+>[날짜 범위 선택](select-date-range.md)
+>[필터 ](work-with-filters.md) 작업
 >

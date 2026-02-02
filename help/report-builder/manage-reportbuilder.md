@@ -1,15 +1,15 @@
 ---
-title: Customer Journey Analytics에서 Report Builder를 사용하여 데이터 블록을 관리하는 방법
-description: Report Builder에서 관리 기능을 사용하는 방법을 설명합니다.
+title: Report Builder에서 데이터 블록 관리
+description: Report Builder에서 데이터 블록을 관리하는 방법을 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 21%
+source-wordcount: '517'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 21%
 
 ## 데이터 블록 편집
 
-데이터 보기 및 날짜 범위 데이터 블록을 편집할 수 있습니다. 또는 데이터 블록에 적용된 세그먼트입니다.
+데이터 블록의 데이터 보기 및 날짜 범위를 편집할 수 있습니다. 또는 데이터 블록에 적용된 세그먼트입니다.
 
 예를 들어 하나 이상의 데이터 블록에서 기존 세그먼트를 새 세그먼트로 바꿀 수 있습니다.
 
