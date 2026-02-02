@@ -71,5 +71,5 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 >
 >[데이터 보기 선택](select-data-view.md)
 >[날짜 범위 선택](select-date-range.md)
->[필터 ](work-with-filters.md) 작업
+>[필터 &#x200B;](work-with-filters.md) 작업
 >
