@@ -39,7 +39,7 @@ ht-degree: 6%
 
 각 마케팅 채널에 대한 월별 매출 목표를 설정할 수 있습니다. 다음 작업을 수행하십시오.
 
-1. 이름이 [인 ](/help/data-views/derived-fields/derived-fields.md#marketing-channels)마케팅 채널 함수 템플릿`Monthly Marketing Channel Revenue Goal (Incremental)`을(를) 사용하여 새 파생 필드를 만드십시오.
+1. 이름이 [인 &#x200B;](/help/data-views/derived-fields/derived-fields.md#marketing-channels)마케팅 채널 함수 템플릿`Monthly Marketing Channel Revenue Goal (Incremental)`을(를) 사용하여 새 파생 필드를 만드십시오.
 
 1. URL PARSE 및 CASE WHEN 규칙의 조합을 기반으로 각 마케팅 채널을 제대로 식별하도록 모든 규칙을 정의합니다. 예:
 
