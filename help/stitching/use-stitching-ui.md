@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: 8f7c1f2a89c10be9b33f6e06fcff287e275767cf
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 사전 요구 사항을 충족하는 경우 ID 결합을 활성화하기 전에 이벤트 데이터 세트의 데이터에 대해 일부 프리플라이트 검사를 수행할 수 있습니다.
 
-* 영구 ID /person ID에 XDM 스키마 필드를 사용하려는 경우 이벤트 데이터 세트에 대한 스키마에서 ID가 올바르게 표시되는지 확인하십시오. [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 참조하십시오.
+* 영구 ID 또는 개인 ID에 XDM 스키마 필드를 사용하려는 경우 이벤트 데이터 세트에 대한 스키마에서 ID가 올바르게 표시되는지 확인하십시오. [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 참조하십시오.
 * 영구 ID와 개인 ID 모두에 대한 ID 범위 확인:
 
    * **영구 ID**

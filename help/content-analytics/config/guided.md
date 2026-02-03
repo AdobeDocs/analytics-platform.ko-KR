@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: a2715ff9869796858dec16d3b8b422ef0c9325aa
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 100%
+source-wordcount: '2776'
+ht-degree: 97%
 
 ---
 
@@ -331,6 +331,18 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 * Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 편집하려면 **[!UICONTROL 경험]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 Content Analytics 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 페이지를 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
 
 * Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 편집하려면 **[!UICONTROL 자산]** 아래의 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택합니다. 현재 Content Analytics 구성의 태그 속성과 연결된 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다. 자산을 포함하거나 제외하도록 정규 표현식을 편집할 수 있습니다. 변경 사항은 [게시](#publish)해야 합니다.
+
+
+### 헤더 재정의
+
+선택적으로 **[!UICONTROL 헤더 무시]** 섹션에서 헤더 이름과 암호 헤더 값을 지정할 수 있습니다.  이 헤더는 구성을 무시하므로 Content Analytics은 구현한 보트 감지 또는 게이트 트래픽 기술을 무시하도록 사용자 지정 HTTP 헤더를 전송합니다.
+
+![헤더 재정의 섹션](/help/content-analytics/assets/aca-configuration-header-overrides.png)
+
+1. **[!UICONTROL 헤더 재정의 구성]**&#x200B;을 사용하도록 설정합니다.
+1. **[!UICONTROL 헤더 이름]**&#x200B;을(를) 입력하십시오. (예: `x-asset-service`)
+1. **[!UICONTROL 헤더 값]**&#x200B;을(를) 입력하십시오. 지정하는 내용은 비밀이며 사용자 인터페이스에 표시되지 않습니다(입력 중에 ![가시성](/help/assets/icons/Visibility.svg)을(를) 공개하도록 명시적으로 선택하지 않은 경우).
+
 
 ### 요약 {#summary}
 

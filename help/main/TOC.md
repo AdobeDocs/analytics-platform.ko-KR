@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 905d32421b4c1d3135a51dfd9898a02e750555d0
+source-git-commit: 6cd1b858b3bd7e1ac69a294dbc5fa9c0c2c135a9
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
@@ -445,7 +445,7 @@ ht-degree: 100%
    + [필드 기반 결합](/help/stitching/fbs.md)
    + [그래프 기반 결합](/help/stitching/gbs.md)
    + [결합 요청](/help/stitching/use-stitching.md)
-   + [결합 사용](/help/stitching/use-stitching-ui.md)
+   + [결합 활성화](/help/stitching/use-stitching-ui.md)
    + [결합 검증](/help/stitching/validate.md)
    + [자주 묻는 질문](/help/stitching/faq.md)
 
