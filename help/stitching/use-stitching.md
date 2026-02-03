@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 19%
+source-wordcount: '407'
+ht-degree: 26%
 
 ---
 
@@ -19,19 +19,6 @@ ht-degree: 19%
 >
 >Adobe을 통한 요청 결합은 더 이상 필요하지 않으며 이 방법은 더 이상 사용되지 않습니다. [연결 UI에서 연결을 사용하도록 설정](use-stitching-ui.md).
 >
-
-조직이 일반 [필수 구성 요소](overview.md#prerequisites)를 충족하고 일반 [제한 사항](overview.md#limitations)을(를) 이해하며 결합 방법별([필드 기반](fbs.md) 및 [그래프 기반](gbs.md)) 필수 구성 요소 및 제한 사항도 이해하면 Customer Journey Analytics에서 결합을 요청하고 사용할 수 있습니다.
-
-## 옵션 선택
-
-권한이 부여된 Customer Journey Analytics 패키지는 사용 가능한 결합 방법, 초기 채우기 기간, 전환 확인 기간, 재생 빈도 및 결합에 허용된 최대 데이터 세트 수에 대한 옵션을 결정합니다. 자세한 내용은 [Customer Journey Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html)을 참조하세요. 지원을 요청하기 전에 사용 가능한 옵션을 결정하십시오.
-
-| | Customer Journey Analytics<br/>선택 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
-|---|---|---|---|
-| 사용 가능한 결합 방법 | 필드 기반 결합 | 필드 기반 결합<br/>그래프 기반 결합 | 필드 기반 결합<br>그래프 기반 결합</li> |
-| 1회 스티칭 채우기 기간 | 13개월 | 13개월 | 25개월 |
-| 전환 확인 기간 및 재생 빈도 | 1일, 매일<br/>최대 7일, 매주 | 1일, 매일<br/>최대 14일, 매주 | 1일, 매일<br/>최대 30일, 매주 |
-| 결합에 허용되는 최대 데이터 세트 수 | 5 | 15 | 50 |
 
 ## 지원 요청
 

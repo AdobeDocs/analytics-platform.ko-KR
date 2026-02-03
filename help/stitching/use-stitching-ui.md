@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 8f7c1f2a89c10be9b33f6e06fcff287e275767cf
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 3%
+source-wordcount: '935'
+ht-degree: 5%
 
 ---
 
@@ -85,7 +85,13 @@ ht-degree: 3%
 
 
 
-## ID 결합 활성화
+## ID 결합 활성화 {#enable-identity-stitching}
+
+>[!CONTEXTUALHELP]
+>id="connection_changeto_identitygraph"
+>title="ID 그래프로 변경"
+>abstract="결합할 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하십시오."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
 
 결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 섹션에서 다음을 수행합니다.
 
