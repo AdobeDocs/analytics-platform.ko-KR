@@ -35,15 +35,15 @@ Content Analytics은 독립 실행형 제품으로 라이선스가 부여되지�
 | 용어 | 설명 |
 |---|---|
 | **스키마** | [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)은(는) 데이터의 구조와 형식을 나타내고 유효성을 검사하는 규칙 집합입니다. 스키마는 높은 수준에서 클릭과 같이 웹 사이트에서 발생하는 이벤트와 같은 실제 개체에 대한 추상적인 정의를 제공합니다. 그리고 해당 객체의 각 인스턴스에 포함되어야 하는 데이터에 대해 간략히 설명합니다. |
-| **데이터 세트** | [dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)은(는) 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다. 데이터 집합은 각 행이 웹 사이트의 이벤트인 데이터베이스 테이블과 같습니다. |
-| **데이터스트림** | [데이터스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)은(는) 웹 사이트에서 Adobe Experience Platform의 올바른 데이터 세트로 데이터를 라우팅하는 서버측 구성을 나타냅니다. 데이터 스트림은 사이트를 스토리지에 연결하는 데이터 하이웨이 역할을 합니다. |
-| **태그** | Experience Platform의 [태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)은(는) Adobe의 차세대 태그 관리 기능입니다. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. Content Analytics에서는 Adobe의 태그 관리 시스템을 사용하여 모든 페이지를 유사하게 편집할 필요 없이 웹 사이트에 추적 코드를 배포할 수 있습니다. 태그 기능은 Google 태그 관리자에서 알 수 있는 기능과 유사합니다. |
+| **데이터 세트** | [dataset](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)은(는) 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다. 데이터 집합은 각 행이 웹 사이트의 이벤트인 데이터베이스 테이블과 같습니다. |
+| **데이터스트림** | [데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)은(는) 웹 사이트에서 Adobe Experience Platform의 올바른 데이터 세트로 데이터를 라우팅하는 서버측 구성을 나타냅니다. 데이터 스트림은 사이트를 스토리지에 연결하는 데이터 하이웨이 역할을 합니다. |
+| **태그** | Experience Platform의 [태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)은(는) Adobe의 차세대 태그 관리 기능입니다. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. Content Analytics에서는 Adobe의 태그 관리 시스템을 사용하여 모든 페이지를 유사하게 편집할 필요 없이 웹 사이트에 추적 코드를 배포할 수 있습니다. 태그 기능은 Google 태그 관리자에서 알 수 있는 기능과 유사합니다. |
 | **샌드박스** | Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Experience Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. Content Analytics은 일반적으로 *프로덕션* 샌드박스를 사용합니다. |
-| **연결** | [연결](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)은(는) 수집되는 Experience Platform 데이터 세트를 정의합니다. 연결은 데이터 세트(AEP에 데이터가 저장되는 데이터 세트)와 Customer Journey Analytics(데이터를 분석하는 데이터 세트) 간의 링크를 정의합니다. 연결을 통해 수집된 데이터를 보고에 사용할 수 있습니다. |
+| **연결** | [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)은(는) 수집되는 Experience Platform 데이터 세트를 정의합니다. 연결은 데이터 세트(AEP에 데이터가 저장되는 데이터 세트)와 Customer Journey Analytics(데이터를 분석하는 데이터 세트) 간의 링크를 정의합니다. 연결을 통해 수집된 데이터를 보고에 사용할 수 있습니다. |
 | **데이터 보기** | [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)는 연결에서 데이터를 해석하는 방법을 결정할 수 있는 컨테이너입니다. 데이터 보기는 사용자가 보고할 수 있는 모든 차원과 지표를 지정합니다. 데이터 보기는 분석에 사용할 수 있는 행과 열을 결정하는 구성과 같습니다. |
-| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)은(는) Content Analytics 보고서와 분석을 작성하는 데 사용하는 드래그 앤 드롭 브라우저 인터페이스입니다. |
-| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
-| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
+| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)은(는) Content Analytics 보고서와 분석을 작성하는 데 사용하는 드래그 앤 드롭 브라우저 인터페이스입니다. |
+| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
+| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
 
 
 ## 설정 개요
