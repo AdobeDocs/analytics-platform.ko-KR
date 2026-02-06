@@ -5,16 +5,18 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 79%
+source-wordcount: '1741'
+ht-degree: 69%
 
 ---
 
 # 그래프 기반 결합
 
-그래프 기반 결합에서 이벤트 데이터 세트를 지정합니다. 또한 해당 이벤트 데이터 세트의 경우 개인 ID 값을 포함하는 ID 그래프에서 영구 ID(쿠키)와 원하는 결합 네임스페이스를 지정합니다. 그래프 기반 결합은 결합된 ID의 새 열을 이벤트 데이터 세트에 추가합니다. 영구 ID는 지정된 결합 네임스페이스를 사용하여 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 결합된 ID를 업데이트하는 데 사용됩니다.
+그래프 기반 결합에서는 이벤트 데이터 세트, 해당 데이터 세트에 대한 영구 ID(쿠키) 및 ID 그래프에서 원하는 개인 ID 네임스페이스를 지정합니다. 그래프 기반 결합은 모든 이벤트에 대한 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 합니다. 영구 ID는 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 지정된 네임스페이스에서 개인 ID를 얻는 데 사용됩니다.
+
+이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 따라서 결합용으로 활성화된 데이터 세트가 포함된 [연결](/help/data-views/data-views.md)과(와) 연결된 [데이터 보기](/help/connections/overview.md)에서 개인 ID 데이터 보기 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
 
 
 ![그래프 기반 결합](/help/stitching/assets/gbs.png)
@@ -120,7 +122,7 @@ ht-degree: 79%
 
 +++ 세부 사항
 
-| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결합된 ID(라이브 결합 후) |
+| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID(라이브 결합 후) |
 |--:|---|---|---|---|
 | 1 | 2023-05-12 11:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) *정의되지 않음* | `246` |
 | 2 | 2023-05-12 14:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -132,8 +134,8 @@ ht-degree: 79%
 
 {style="table-layout:auto"}
 
-각 이벤트에 대해 결합된 ID가 어떻게 해결되는지 볼 수 있습니다. 시간, 영구 ID 및 지정된 네임스페이스에 대한 ID 그래프의 조회를 기반으로 합니다(동시).
-조회가 둘 이상의 결합된 ID로 확인되는 경우(예: 이벤트 7의 경우), 알파벳순 기준으로 ID 그래프에서 반환되는 첫 번째 ID가 선택됩니다(이 예제의 경우 `a.b@yahoo.co.uk`).
+각 이벤트에 대해 결과 ID가 어떻게 확인되는지 확인할 수 있습니다. 시간, 영구 ID 및 지정된 개인 ID 네임스페이스에 대한 ID 그래프 조회를 기반으로 합니다.
+조회가 둘 이상의 결과 ID로 확인되는 경우(예: 이벤트 7의 경우) ID 그래프에서 반환되는 사전 편집기 첫 번째 ID가 선택됩니다(이 예제의 경우 `a.b@yahoo.co.uk`).
 
 +++
 
@@ -145,7 +147,7 @@ ht-degree: 79%
 
 2023-05-13 16:30에 재생 결합이 발생하고 24시간 전환 확인 기간이 구성되면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](/help/assets/icons/Replay.svg)으로 표시됨).
 
-| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결합된 ID<br/>(라이브 결합 후) | 결합된 ID<br/>(재생 24시간 후) |
+| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID<br/>(live stitch 후) | 결과 ID<br/>(재생 24시간 후) |
 |---|---|---|---|---|---|
 | 2 | 2023-05-12 14:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
 | 3 | 2023-05-12 15:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -160,7 +162,7 @@ ht-degree: 79%
 2023-05-13 16:30에 재생 결합이 발생하고 7일 전환 확인 기간이 구성되면 샘플의 모든 이벤트가 다시 결합됩니다.
 
 
-| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결합된 ID<br/>(라이브 결합 후) | 결합된 ID<br/>(재생 7일 후) |
+| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID<br/>(live stitch 후) | 결과 ID<br/>(재생 7일 후) |
 |---|---|---|---|---|---|
 | ![재생](/help/assets/icons/Replay.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) *정의되지 않음* | `246` | `a.b@yahoo.co.uk` |
 | ![재생](/help/assets/icons/Replay.svg) 2 | 2023-05-12 14:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
@@ -176,13 +178,13 @@ ht-degree: 79%
 
 ### 3단계: 개인정보 보호 요청
 
-개인정보 보호 요청을 받으면 결합된 ID가 개인정보 보호 요청의 사용자 주체에 대한 모든 레코드에서 삭제됩니다.
+개인 정보 보호 요청을 받으면 결과 ID가 개인 정보 보호 요청의 사용자 주제에 대한 모든 레코드에서 삭제됩니다.
 
 +++ 세부 사항
 
 다음 테이블은 위와 동일한 데이터를 나타내나, 개인정보 보호 요청(예: 2023-05-13 18:00)이 샘플 이벤트에 미치는 영향을 보여 줍니다.
 
-| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결합된 ID(개인정보 보호 요청 후) |
+| | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID(개인 정보 보호 요청 이후) |
 |--:|---|---|---|---|
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![분기1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 2 | 2023-05-12 14:00 | `246` | `246`![분기1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
@@ -207,7 +209,7 @@ ht-degree: 79%
    - 이러한 관련 ID를 포함하는 모든 데이터 세트는 ID 그래프 데이터 수집에 대해 [활성화됨](faq.md#enable-a-dataset-for-the-identity-service)이어야 합니다. 이 기능을 사용하면 시간이 지남에 따라 필요한 모든 소스에서 들어오는 ID를 그래프에 추가할 수 있습니다.
    - 이미 잠시 동안 실시간 고객 데이터 프로필 또는 Adobe Journey Optimizer을 사용하는 경우 그래프가 이미 특정 범위로 설정되어야 합니다.<br/>그래프 기반 결합으로 활성화된 데이터 세트에 내역 결합 채우기도 필요한 경우 원하는 결합 결과를 얻으려면 그래프에 전체 기간에 대한 내역 ID가 이미 포함되어 있어야 합니다.
 - 그래프 기반 결합을 사용하고 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다.
-- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
+- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
 
 >[!NOTE]
 >

@@ -5,16 +5,20 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 92%
+source-wordcount: '1797'
+ht-degree: 81%
 
 ---
 
 # 필드 기반 결합
 
-필드 기반 결합에서는 이벤트 데이터 세트와 해당 데이터 세트에 대한 영구 ID(쿠키) 및 개인 ID를 지정합니다. 필드 기반 결합은 결합된 새 ID 열을 이벤트 데이터 세트에 추가하고 특정 영구 ID에 대한 개인 ID가 있는 행을 기반으로 이 결합된 ID를 업데이트합니다. <br/>Customer Journey Analytics를 Experience Platform ID 서비스 및 관련 ID 그래프에 대한 액세스 권한이 없는 독립형 솔루션으로 사용할 때 필드 기반 결합을 사용할 수 있습니다. 사용 가능한 ID 그래프를 사용하지 않으려는 경우도 마찬가지입니다.
+필드 기반 결합에서는 이벤트 데이터 세트와 해당 데이터 세트에 대한 영구 ID(쿠키) 및 개인 ID를 지정합니다. 필드 기반 결합은 특정 영구 ID와 함께 제공되는 모든 익명 이벤트에서 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 하려고 합니다.  해당 정보는 특정 영구 ID에 대한 개인 ID가 있는 행에서 검색됩니다.
+
+이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 결과적으로, 결합을 위해 활성화된 데이터 세트가 포함된 [연결](/help/data-views/data-views.md)과(와) 연결된 [데이터 보기](/help/connections/overview.md)에서 개인 ID 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
+
+Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Experience Platform Identity 서비스 및 관련 ID 그래프에 대한 액세스 권한이 없음) 필드 기반 결합을 사용할 수 있습니다. 사용 가능한 ID 그래프를 사용하지 않으려는 경우도 마찬가지입니다.
 
 ![필드 기반 결합](/help/stitching/assets/fbs.png)
 
@@ -120,7 +124,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 *수집된 날짜에 나타난 데이터:*
 
-| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) |
+| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결과 ID(라이브 결합 후) |
 |---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
 | 2 | 2023-05-12 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` |
@@ -138,7 +142,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 새 디바이스에서 인증되지 않은 이벤트와 인증된 이벤트는 모두 별도의 사람(일시적으로)으로 계산됩니다. 인식된 장치의 인증되지 않은 이벤트는 라이브 결합됩니다.
 
-속성은 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예에서 이벤트 1, 8, 9, 10을 제외한 모든 이벤트는 라이브로 결합됩니다(모두 `Bob` 식별자를 사용). 라이브 결합은 이벤트 4, 6 및 12에 대해 결합된 ID를 &#39;해결&#39;합니다.
+속성은 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예에서 이벤트 1, 8, 9, 10을 제외한 모든 이벤트는 라이브로 결합됩니다(모두 `Bob` 식별자를 사용). 라이브 결합은 이벤트 4, 6 및 12의 결과 ID를 &quot;확인&quot;합니다.
 
 타임스탬프가 24시간 이상 된 데이터인 지연된 데이터는 최선의 노력으로 처리되며, 최상의 품질을 위해 현재 데이터를 우선 결합합니다.
 
@@ -154,7 +158,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 *재생 후 동일한 데이터:*
 
-| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) | 결합된 ID(재생 후) |
+| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결과 ID(라이브 결합 후) | 결과 ID(재생 후) |
 |---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** |
 | 2 | 2023-05-12 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
@@ -178,7 +182,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 ### 3단계: 개인정보 보호 요청
 
-개인정보 보호 요청을 받으면 결합된 ID가 개인정보 보호 요청의 사용자 주체에 대한 모든 레코드에서 삭제됩니다.
+개인 정보 보호 요청을 수신하면 개인 ID 값에 대한 결합 프로세스에서 설정된 모든 식별자 정보는 모든 레코드에서 개인 정보 보호 요청의 사용자 주체에 대한 영구 ID 값으로 업데이트됩니다.
 
 +++ 세부 사항
 
@@ -186,7 +190,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 *Bob에 대한 개인정보 보호 요청 후의 동일한 데이터:*
 
-| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결합된 ID(라이브 결합 후) | 결합된 ID(재생 후) | 개인 ID | 결합된 ID(개인정보 보호 요청 후) |
+| 이벤트 | 타임스탬프 | 영구 ID(쿠키 ID) | 개인 ID | 결과 ID(라이브 결합 후) | 결과 ID(재생 후) | 개인 ID | 결과 ID(개인 정보 보호 요청 이후) |
 |---|---|---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** | - | `246` |
 | 2 | 2023-05-12 12:02 | `246` | Bob ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![Arrow Up](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
@@ -214,7 +218,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
    - **개인 ID**&#x200B;는 일부 행에서만 사용할 수 있는 식별자입니다. 예를 들어 프로필이 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 식별자를 거의 모두 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 개인 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 한 번 이상 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우, 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
