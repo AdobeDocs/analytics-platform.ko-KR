@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478127?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
