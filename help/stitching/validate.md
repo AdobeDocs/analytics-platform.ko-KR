@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: 391adbe67a4c76f3eb2a8bfcfbb733b2d980cafe
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478127?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [연결 사용 및 유효성 검사](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->이 문서에서는 Adobe[을(를) 통해 &#x200B;](/help/stitching/use-stitching.md)요청되고 중복된 결합된 데이터 집합에 추가된 결합된 ID 열을 사용하여 구현된 데이터 결합의 유효성을 검사하는 방법에 대해 설명합니다. 이 문서는 연결 UI를 통해 [활성화됨](/help/stitching/use-stitching-ui.md)인 결합의 유효성을 검사하는 방법에 대한 세부 정보로 곧 업데이트될 예정입니다.
+>이 문서에서는 Adobe[을(를) 통해 ](/help/stitching/use-stitching.md)요청되고 중복된 결합된 데이터 집합에 추가된 결합된 ID 열을 사용하여 구현된 결합의 유효성을 검사하는 방법에 대해 설명합니다. 이 문서는 연결 UI를 통해 [활성화됨](/help/stitching/use-stitching-ui.md)인 결합의 유효성을 검사하는 방법에 대한 세부 정보로 곧 업데이트될 예정입니다.
 
 
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 * `stitchedID.namespace.code`을(를) 사용하여 **[!UICONTROL 결합된 네임스페이스]** 차원을 정의합니다. 이 차원에는 행이 `Email`, `Phone`(으)로 승격된 ID의 네임스페이스가 포함되어 있습니다. 또는 결합 프로세스 폴백에 대한 네임스페이스입니다(예: `ECID`).
   ![연결된 네임스페이스 차원](assets/stitchednamespace-dimension.png)
 
-* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**&#x200B;에 사용됩니다.
+* `stitchedID.id`을(를) 사용하여 **[!UICONTROL 결합된 ID 값]** 차원을 정의합니다. 이 차원은 ID의 원시 값을 포함합니다. 해시된 이메일, 해시된 휴대폰, ECID 등을 예로 들 수 있습니다. 이 값은 **[!UICONTROL 결합된 네임스페이스]**에 사용됩니다.
   ![결합된 ID 차원](assets/stitchedid-dimension.png)
 
 
@@ -83,10 +83,10 @@ ht-degree: 0%
 
 연결을 만들 때 개인 ID에 사용할 필드 또는 ID를 정의해야 합니다. 예를 들어 웹 데이터 세트에서 장치 ID를 개인 ID로 선택하면 장치 중심 보고서가 만들어지고 이 데이터를 다른 오프라인 채널과 결합할 수 있는 기능이 없어집니다. 이메일과 같은 크로스 채널 필드 또는 ID를 선택하면 인증되지 않은 이벤트가 손실됩니다. 이러한 영향을 이해하려면 인증되지 않은 트래픽의 양과 인증된 트래픽의 양을 파악해야 합니다.
 
-1. 총 **[!UICONTROL 에 대해 계산된 지표]**&#x200B;인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 총 **[!UICONTROL 에 대해 계산된 지표]**인증되지 않은 이벤트를 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    총 ![인증되지 않은 이벤트](assets/calcmetric-unauthenticatedeventsovertotal.png)
 
-1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**&#x200B;을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
+1. 이전에 정의한 **[!UICONTROL _전자 메일 집합]** 지표를 기반으로 계산된 지표 **[!UICONTROL 전자 메일 인증 비율]**을 만듭니다. 다음과 같이 규칙 빌더에서 규칙을 정의합니다.
    ![전자 메일 인증 속도](assets/calcmetric-emailauthenticationrate.png)
 
 1. **[!UICONTROL 전자 메일 인증 비율]** 계산된 지표와 함께 **[!UICONTROL 총]**&#x200B;에 대해 인증되지 않은 이벤트를 사용하여 [도넛](/help/analysis-workspace/visualizations/donut.md) 시각화를 만드십시오. 시각화는 인증되지 않고 인증된 데이터 세트의 이벤트 수를 표시합니다.
