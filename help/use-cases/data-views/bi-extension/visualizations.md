@@ -4,7 +4,8 @@ description: Customer Journey Analytics의 다양한 BI 도구에서 BI 확장�
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: cb0102923f10f39becd40cc4187d2e11fb8c4e2f
+exl-id: a357facb-d536-4c81-847c-a6f0d3f041e7
+source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 24%
@@ -216,3 +217,4 @@ R의 데이터 시각화 패키지인 **ggplot2**&#x200B;의 시각화 기능을
 
 >[!ENDTABS]
 
++++
