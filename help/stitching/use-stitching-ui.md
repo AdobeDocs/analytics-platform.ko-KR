@@ -91,7 +91,7 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="ID 그래프로 변경"
 >abstract="결합할 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하십시오."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
