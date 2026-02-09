@@ -21,7 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 |---|---|
 | **2026년 2월** | |
 | 데이터 보기 관리 | [데이터 보기를 관리](/help/data-views/manage-dataviews.md)하는 방법에 대한 자세한 정보를 추가했습니다. |
-| 결합 | 연결 UI[ 기능의 ](/help/stitching/use-stitching-ui.md)연결 결과 변경 사항을 반영하도록 연결 설명서를 업데이트했습니다. |
+| 결합 | 연결 UI[&#x200B; 기능의 &#x200B;](/help/stitching/use-stitching-ui.md)연결 결과 변경 사항을 반영하도록 연결 설명서를 업데이트했습니다. |
 | **2026년 1월** | |
 | 스키마 설계 | [Customer Journey Analytics에 사용할 스키마를 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)하는 데 유용한 정보와 컨텍스트를 추가했습니다. |
 
