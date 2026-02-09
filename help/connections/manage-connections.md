@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
-workflow-type: ht
-source-wordcount: '4935'
-ht-degree: 100%
+source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+workflow-type: tm+mt
+source-wordcount: '4938'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 | **[!UICONTROL 통합]** | 연결에서 사용할 수 있는 모든 Experience Platform 애플리케이션을 표시합니다. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 사용할 수 있도록 연결을 활성화했는지 여부를 표시합니다. |
 
-테이블에 표시할 열을 구성하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택합니다. 테이블 맞춤화 대화 상자에서 표시할 열을 선택합니다.
+테이블에 표시할 열을 구성하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택합니다. **[!UICONTROL 표 사용자 지정]** 대화 상자에서 표시할 열을 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 ### 연결 편집
 

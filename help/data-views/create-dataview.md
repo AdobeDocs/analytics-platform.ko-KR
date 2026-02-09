@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 95e50b73533c627f05c3b8dfe112b28b4f9e70c1
-workflow-type: ht
-source-wordcount: '2722'
-ht-degree: 100%
+source-git-commit: ade6fcd95626d9380153b5089d8f438332dedf8d
+workflow-type: tm+mt
+source-wordcount: '2790'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/345559/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -109,6 +109,11 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 | **[!UICONTROL 이벤트 컨테이너 이름]** | `Event`(기본값). [!UICONTROL 이벤트] 컨테이너는 데이터 세트의 개별 이벤트를 정의합니다. 조직이 서로 다른 용어(예: “히트” 또는 “페이지 조회수”)를 사용하는 경우 여기서 컨테이너 이름을 변경할 수 있습니다. |
 
 {style="table-layout:auto"}
+
+### AI 설정
+
+**[!UICONTROL Data Insights Agent]**&#x200B;에 대한 데이터 보기를 사용하려면 [Data Insights Agent에 대해 사용](/help/data-analysis-ai.md)을 선택하십시오. Data Insights Agent은 Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 생성 AI 대화 에이전트입니다. 이 에이전트는 텍스트 프롬프트를 통해 데이터를 빠르게 분석하는 데 도움이 됩니다. 에이전트는 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
+
 
 ### 캘린더
 

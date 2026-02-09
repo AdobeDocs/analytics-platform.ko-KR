@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,8 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * 데이터 보기에서 컨테이너의 이름을 바꾸고 해당 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에서 이름이 변경된 컨테이너를 표면화하도록 할 수 있습니다.
 
+* 데이터 보기에 대해 Data Insights Agent을 활성화하거나 비활성화할 수 있습니다.
+
 ## 데이터 보기의 사전 요구 사항 {#prerequisites}
 
 * 데이터 보기를 만들려면 먼저 [Experience Platform 데이터 세트에 대해 하나 이상의 연결을 설정해야 합니다](/help/connections/create-connection.md).
@@ -84,9 +86,10 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 ## 데이터 보기 삭제 {#delete}
 
-[!UICONTROL Customer Journey Analytics]에서 데이터 보기를 삭제하는 경우, 이 삭제된 데이터 보기에 의존하는 모든 [!UICONTROL Workspace] 프로젝트가 더 이상 작동하지 않는다는 오류 메시지가 표시됩니다.
+[Customer Journey Analytics](/help/data-views/manage-dataviews.md#delete-data-views)에서 [!UICONTROL 데이터 보기를 삭제]하면 이 삭제된 데이터 보기에 의존하는 [!UICONTROL Workspace] 프로젝트가 더 이상 작동하지 않는다는 오류 메시지가 표시됩니다.
 
 ## 다음 단계
 
 * [데이터 보기 만들기](/help/data-views/create-dataview.md)
+* [데이터 보기 관리](/help/data-views/manage-dataviews.md)
 * [데이터 보기 사용 사례](/help/use-cases/data-views/data-views-usecases.md)

@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 518f2aeac309a34016146b7a4da7823b6fd84cac
-workflow-type: ht
-source-wordcount: '2494'
-ht-degree: 100%
+source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+workflow-type: tm+mt
+source-wordcount: '2451'
+ht-degree: 98%
 
 ---
 
@@ -82,21 +82,10 @@ Data Insights 에이전트를 사용하여 Analysis Workspace에서 데이터 �
   >* IMS 조직당 최대 50개의 데이터 보기를 활성화할 수 있습니다. 특정 조직의 모든 제품 프로필에서 50개가 넘는 데이터 보기를 활성화하는 경우, Data Insights 에이전트는 가장 많이 사용되는 50개의 데이터 보기를 사용합니다.
   >* Data Insights 에이전트는 데이터 보기를 활성화한 당일에 포함된 데이터 보기를 참조할 수 있습니다.
 
-  Data Insights 에이전트에 대한 데이터 보기를 활성화하려면 다음을 수행하십시오.
+  Data Insights Agent에 대한 데이터 보기를 활성화하려면 데이터 보기에 대한 [AI 설정](/help/data-views/create-dataview.md#ai-settings)을 참조하십시오.
 
-   1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
+  데이터 보기의 Data Insights Agent 열에 있는 [정보](/help/data-views/manage-dataviews.md#manage-data-views)를 사용하여 IMS 조직의 Data Insights Agent에 대해 활성화된 데이터 보기 수를 볼 수 있습니다.
 
-   1. Data Insights 에이전트에 사용할 데이터 보기를 하나 이상 선택한 다음 **[!UICONTROL Data Insights 에이전트에 사용 가능]**&#x200B;을 선택합니다.
-
-      ![Data Insights 에이전트에 대한 데이터 보기 활성화](assets/data-view-enable-dia.png)
-
-  IMS 조직에서 Data Insights 에이전트에 대해 활성화된 데이터 보기 수를 보려면 다음을 수행하십시오.
-
-   1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
-
-   1. **[!UICONTROL Data Insights 에이전트]** 열 맨 위에 있는 정보 아이콘을 선택합니다.
-
-      ![Data Insights 에이전트 정보 아이콘](assets/data-insights-agent-tooltip.png)
 
 ## AI 어시스턴트에서 Data Insights 에이전트 액세스
 
