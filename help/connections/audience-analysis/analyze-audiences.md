@@ -4,7 +4,8 @@ description: Customer Journey Analytics에서 Experience Platform 대상을 분�
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 095cae34-1337-464a-9682-3c899295c0a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -56,11 +57,3 @@ ht-degree: 0%
 RTCDP, Customer Journey Analytics 등에서 종료한 각 대상이 원래 만들어진 위치를 표시합니다.
 
 이 패널의 표를 사용하여 대상자 출처가 다른 요인에 어떻게 영향을 미칠 수 있는지 더 잘 이해하십시오. 선택한 데이터 보기에서 종료한 대상 이름 차원을 드래그하여 분류로 추가합니다. 또는 다른 상호 작용 차원 또는 지표(예: 페이지, 작업 등)를 분류로 사용합니다.
-
-
-
-
-
-
-
-

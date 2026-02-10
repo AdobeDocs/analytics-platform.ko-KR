@@ -1,14 +1,14 @@
 ---
 title: 세션 설정
-description: 세션의 길이와 새 세션을 시작하는 트리거를 정의하는 데 사용할 수 있는 데이터 보기의 설정
+description: 세션 길이를 정의하는 데 사용할 수 있는 데이터 보기의 설정과 새 세션을 시작하는 트리거에 대해 알아봅니다
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 88%
+source-wordcount: '465'
+ht-degree: 82%
 
 ---
 

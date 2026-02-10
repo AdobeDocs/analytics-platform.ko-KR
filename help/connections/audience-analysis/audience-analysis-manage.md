@@ -1,10 +1,11 @@
 ---
-title: 대상 분석 구성 관리
+title: Audience Analysis 구성 관리
 description: 대상 분석 구성을 관리하는 방법 알아보기
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 0d38a779-a29f-41c9-81b4-f5523eeae93f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -78,7 +79,3 @@ ht-degree: 2%
    ![대상 분석 기본 페이지](assets/audience-analysis-manage-configurations.png)
 
 1. 삭제할 구성 옆의 확인란을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
-
-
-
-

@@ -4,13 +4,13 @@ description: 데이터 보기를 관리하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+exl-id: c5cf15ab-3eb1-4e6b-93a3-3d89694ca0ea
+source-git-commit: c7cf7250f30e2f6023aa7690391aea149ba12eff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 11%
+source-wordcount: '923'
+ht-degree: 10%
 
 ---
-
 
 # 데이터 보기 관리
 
@@ -29,7 +29,7 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 | --- | --- |
 | **[!UICONTROL 이름]** | 데이터 보기의 이름입니다. |
 | ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 데이터 보기에 대한 정보를 보려면 데이터 보기 이름 옆에 있는 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오.<br/>데이터 보기에 대한 세부 정보가 팝업 창에 표시됩니다. |
-| ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | ![자세히](/help/assets/icons/More.svg)를 선택하여 컨텍스트 메뉴를 엽니다. 데이터 보기에서 <br/>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]** - [편집](#edit-data-views)을(를) 선택할 수 있습니다.<br/>![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]**&#x200B;를 [데이터 보기를 복사](#copy-data-views)합니다.데이터 보기에서 <br/>![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]**(으)로 [삭제](#delete-data-views)<br/>![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]**&#x200B;에서 [데이터 보기의 세부 사항을 CSV 파일로 내보내기](#export-data-views-to-csv)로 내보내기.데이터 보기를 위해 <br/>![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 프로젝트 만들기]** ~ [새 Workspace 프로젝트 만들기](#create-project-from-data-views). |
+| ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | ![자세히](/help/assets/icons/More.svg)를 선택하여 컨텍스트 메뉴를 엽니다. 데이터 보기에서 <br/>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]** - [편집](#edit-data-views)을(를) 선택할 수 있습니다.<br/>![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]**&#x200B;를 [데이터 보기를 복사](#copy-data-views)합니다.데이터 보기에서 <br/>![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]**(으)로 [삭제](#delete-data-views)<br/>![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]**&#x200B;에서 [데이터 보기의 세부 사항을 CSV 파일로 내보내기](#export-data-views-to-csv)로 내보내기.데이터 보기를 위해 <br/>![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 프로젝트 만들기]** ~ [새 Workspace 프로젝트 만들기](#create-project-from-data-views).<br/>![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Data Insights Agent에 대해 사용]**&#x200B;하여 Data Insights Agent에 대한 데이터 보기를 사용하도록 설정합니다.Data Insights Agent에 대한 데이터 보기를 비활성화하려면 <br/>![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Data Insights Agent에 대해 비활성화]**&#x200B;하십시오. |
 | **[!UICONTROL 연결]** | 데이터 보기와 연결된 연결의 이름입니다. |
 | **[!UICONTROL 샌드박스]** | 데이터 보기와 연결된 샌드박스의 이름입니다. |
 | **[!UICONTROL 소유자]** | 데이터 보기의 소유자입니다. |
@@ -58,6 +58,8 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 | **[!UICONTROL 통합]** | 선택한 통합이 있는 데이터 보기만 표시됩니다. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 사용할 수 있는 데이터 보기만 표시하려면 **[!UICONTROL 켜짐]**&#x200B;을 선택하세요. Customer Journey Analytics에서 사용할 수 있도록 아직 활성화되지 않은 데이터 보기만 표시하려면 **[!UICONTROL 해제]**&#x200B;를 선택하십시오. |
 
+
+필터 창을 숨기려면 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 선택하십시오.
 
 ## 데이터 보기 만들기
 
@@ -152,4 +154,3 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 
 1. Data Insights Agent에 대해 비활성화되거나 활성화된 데이터 보기 행을 하나 이상 선택합니다.
 1. 파란색 작업 표시줄에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Data Insights Agent에 대해 사용]** 또는 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Data Insights Agent에 대해 사용 안 함]**&#x200B;을 선택합니다.
-

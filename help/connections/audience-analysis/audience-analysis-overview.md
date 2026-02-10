@@ -1,13 +1,14 @@
 ---
-title: 대상 분석 개요
+title: Audience Analysis 개요
 description: Customer Journey Analytics의 RTCDP에서 대상 분석에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 1e962f52-6b56-4671-afea-d58dae67e8a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 >* **대상 분석**: Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다.
 >* **대상 게시**: 고객 타기팅 및 개인화를 위해 Customer Journey Analytics에서 검색된 대상을 만들어 Adobe Experience Platform에 게시할 수 있습니다. 대상 게시에 대한 자세한 내용은 [대상 게시 개요](/help/components/audiences/audiences-overview.md)를 참조하십시오.
 
-대상 분석을 사용하면 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상은 Analysis Workspace에서 사용할 새 차원으로 사용할 수 있게 됩니다.
+대상 분석을 사용하면 Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상자는 Analysis Workspace에서 사용할 수 있는 새 차원으로 제공됩니다.
 
 다음 다이어그램 및 관련 테이블은 Customer Journey Analytics의 대상 분석 구성을 통해 Experience Platform 대상 데이터를 Analysis Workspace에서 사용할 수 있게 되는 방법에 대한 높은 수준의 표현을 보여 줍니다.
 
@@ -85,11 +86,3 @@ Customer Journey Analytics에서 사용할 수 있는 대상 데이터를 통해
 * 단일 샌드박스는 최대 100개의 대상 분석 구성을 지원할 수 있습니다.
 
 * 연결은 하나의 대상 분석 구성에만 연결할 수 있습니다.
-
-
-
-
-
-
-
-

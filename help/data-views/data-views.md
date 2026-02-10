@@ -1,14 +1,14 @@
 ---
 title: 데이터 보기 개요
-description: 데이터 보기는 Customer Journey Analytics 연결에서 지표, 차원, 세션 등과 같은 데이터 요소를 해석하는 방법을 지정합니다.
+description: 데이터 보기가 지표, 차원, 세션 등과 같은 Customer Journey Analytics 연결의 데이터 요소를 해석하는 방법을 지정하는 방법에 대해 알아봅니다.
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 95%
+source-wordcount: '1096'
+ht-degree: 93%
 
 ---
 
