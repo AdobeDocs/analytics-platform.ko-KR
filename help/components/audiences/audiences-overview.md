@@ -20,7 +20,7 @@ ht-degree: 79%
 >* **대상 분석**: Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상 분석에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
 >* **대상 게시**: 고객 타기팅 및 개인화를 위해 Customer Journey Analytics에서 검색된 대상을 만들어 Adobe Experience Platform에 게시할 수 있습니다.
 
-고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 검색된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)을 만들어 게시할 수 있습니다. Experience Platform 프로필 데이터 세트에서 Customer Journey Analytics 연결로 대상 멤버십 데이터를 수집하는 방법에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
+고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 검색된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)을 만들어 게시할 수 있습니다. Experience Platform 프로필 데이터 세트에서 Customer Journey Analytics 연결로 대상 멤버십 데이터를 수집하는 방법에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
 
 대상자 게시는 Customer Journey Analytics 내에서 발견된 인사이트를 활성화하고 조치를 취하는 명확한 방법을 제공합니다. 이러한 조치에는 다음이 포함될 수 있습니다.
 
@@ -50,7 +50,7 @@ Customer Journey Analytics에서 만드는 대상자는 프로필을 위해 활�
 
 ## 데이터 거버넌스 및 동의
 
-Customer Journey Analytics에서 대상자를 게시하면 해당 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다. Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
+Customer Journey Analytics에서 대상자를 게시하면 해당 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다. Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy).
 
 ## 다음 단계
 
