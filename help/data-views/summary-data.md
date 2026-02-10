@@ -154,5 +154,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 요약 데이터를 사용하고 보고하는 방법에 대한 자세한 사용 사례 예제는 [요약 데이터 사용](/help/use-cases/data-views/summary-data.md) 문서에서 확인하십시오.
->- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+>- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=ko)
 
