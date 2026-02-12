@@ -3,16 +3,16 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7e98a1abbab4b954df5f7759879203c1d355fd50
+source-git-commit: 7260c9cadbd5b6e5e85f778547635330b8bfc49a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 41%
+source-wordcount: '1188'
+ht-degree: 40%
 
 ---
 
 # 현재 Customer Journey Analytics 릴리스 정보 (2026년 2월)
 
-**마지막 업데이트**: 2026년 2월 11일 목요일
+**마지막 업데이트**: 2026년 2월 12일 금요일
 
 이 릴리스 정보는 2026년 2월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -29,6 +29,7 @@ ht-degree: 41%
 | **근사 고유 개수 함수 업데이트**<p>근사 고유 개수 함수에서 사용되는 HLL 확률적 알고리즘은 곧 업데이트될 것이다. 이 함수를 사용하는 숫자에 대한 결과 출력은 다음과 같이 과거 숫자에서 약간 변경될 수 있습니다.<ul><li>매우 적은 양의 고유 값을 계산할 때 추정치를 사용하지 않고 정확한 개수를 사용하도록 결과가 개선됩니다.</li><li>더 큰 값을 계산할 때 예상 횟수는 이 업데이트 전과 동일한 정확도를 유지합니다(예상 횟수는 정확한 횟수의 5%, 시간의 95% 내에서 정확함).</li></ul><p>근사 고유 개수 함수에 대한 자세한 내용은 [고급 함수](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct)에서 [근사 고유 개수](/help/components/calc-metrics/cm-adv-functions.md)를 참조하십시오.</p> |  | 2026년 3월 |
 | **Data Mirror 지원**  <p>Experience Platform의 특정 소스 커넥터에 대한 모델 기반 스키마와 변경 데이터 캡처(CDC) 기능 지원을 통해 Customer Journey Analytics에서 [!DNL Snowflake], [!DNL Azure Databricks] 및 [!DNL Google BigQuery]와 같은 데이터 웨어하우스 솔루션의 [데이터 미러](/help/data-mirror/data-mirror.md) 기능을 지원할 수 있게 되었습니다.</p><p>Beta에 액세스하려면 Adobe 계정 팀에 문의하십시오.</p> | Beta 릴리스: 2025년 9월 24일 | TBD |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <p>이제 이전 라이브 스트리밍 미디어 콘텐츠의 예약 데이터를 업로드하여 시청률을 보다 쉽고 정확하게 추적할 수 있습니다.</p><p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
+| **여러 IMS 조직의 보고서 세트 결합**<p>Analytics Source 커넥터를 사용하여 여러 IMS 조직의 보고서 세트를 결합할 수 있습니다. 이 [IMS 간 데이터 매핑](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) 기능을 사용하면 고객 데이터가 여러 IMS 조직에 분산되어 있는 경우에도 조직에서 고객 데이터를 통합적으로 볼 수 있습니다. <p>**참고:** 이 구성은 Adobe 고객 지원 센터에 요청을 제출하는 경우에만 사용할 수 있습니다.</p> |  | 2026년 2월 12일 금요일 |
 
 ## Customer Journey Analytics의 수정 사항
 
