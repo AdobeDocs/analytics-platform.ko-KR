@@ -3,10 +3,11 @@ title: 자유 형식 테이블에 여러 차원 포함
 description: 자유 형식 테이블에 여러 차원을 포함하는 방법을 알아봅니다
 feature: Visualizations
 role: User
-source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
+exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
+source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 1%
+source-wordcount: '836'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 자유 형식 테이블에 최대 5개의 차원 열을 포함할 수 있으므로 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다.
 
-여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 보다 심층적이고 사용자 정의 분석을 만들 수 있습니다.
+여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 더욱 심층적이고 사용자 정의된 분석을 만들 수 있습니다.
 
 ## 연결된 차원 항목
 
@@ -109,11 +110,12 @@ Analysis Workspace에서는 자유 형식 테이블 내에 여러 차원을 추�
 
 세그먼트 만들기에 대한 자세한 내용은 [세그먼트 만들기](/help/components/segments/seg-create.md)를 참조하십시오.
 
-## 지원되지 않는 차원 {#unsupported}
+## 지원되지 않는 차원 및 기능 {#unsupported}
 
-다음 차원 조합은 지원되지 않으며, Analysis Workspace에서는 조합을 추가하지 않거나 추가된 후 오류 메시지를 표시합니다.
+다음 차원 조합 및 기능은 여러 차원 열을 사용할 때 지원되지 않으며, Analysis Workspace에서 사용을 금지하거나 오류 메시지를 표시합니다.
 
 * 동일한 자유 형식 테이블에서 함께 사용되는 다른 [개체 배열](/help/use-cases/object-arrays.md)을 참조하는 필드의 여러 차원입니다.
 
   여러 차원이 동일한 개체 배열을 참조하는 경우 동일한 자유 형식 테이블에서 여러 차원을 함께 사용할 수 있습니다.
 
+* [정적 차원 항목](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md#static-dimension-items).
