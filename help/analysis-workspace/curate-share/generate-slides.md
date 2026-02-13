@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
+source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 4%
 
 ---
@@ -106,7 +107,7 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
    |---------|----------|
    | **[!UICONTROL 표지 제목]** | 프레젠테이션의 제목을 지정합니다. 이 제목은 프레젠테이션의 제목 슬라이드에 표시됩니다. |
    | **[!UICONTROL 발표자 이름 포함]** | 발표자의 이름을 지정합니다. 이 이름은 프레젠테이션의 제목 슬라이드에 있으며 표지 제목 아래에 있습니다. |
-   | 포함할 **[!UICONTROL 패널 및 시각화]** | 프레젠테이션에 포함할 패널 및 시각화를 선택합니다. 최대 50개의 시각화를 포함할 수 있습니다.<p>시각화가 흐리게 표시되면 뒤에 **[!UICONTROL (지원되지 않음)]** 또는 **[!UICONTROL (제한된 데이터)]**&#x200B;이(가) 표시됩니다.</p><ul><li>**지원되지 않음**: 대부분의 패널 및 시각화가 지원됩니다. 지원되지 않는 패널 및 시각화에 대한 자세한 내용은 [지원되지 않는 프로젝트 요소 및 기능](#unsupported-project-elements-and-features)을 참조하십시오.</li><li>**제한된 데이터**: 시각화에 조직에서 시행하는 데이터 거버넌스 정책에 의해 내보내기가 제한된 구성 요소가 포함되어 있습니다. 시스템 관리자에게 문의하여 내보내기가 제한된 구성 요소를 확인한 다음 슬라이드를 생성하기 전에 제한된 구성 요소를 제거하십시오.</li></ul> |
+   | **[!UICONTROL 포함된 패널 및 시각화]** | 프레젠테이션에 포함할 패널 및 시각화를 선택합니다. 최대 50개의 시각화를 포함할 수 있습니다.<p>시각화가 흐리게 표시되면 뒤에 **[!UICONTROL (지원되지 않음)]** 또는 **[!UICONTROL (제한된 데이터)]**&#x200B;이(가) 표시됩니다.</p><ul><li>**지원되지 않음**: 대부분의 패널 및 시각화가 지원됩니다. 지원되지 않는 패널 및 시각화에 대한 자세한 내용은 [지원되지 않는 프로젝트 요소 및 기능](#unsupported-project-elements-and-features)을 참조하십시오.</li><li>**제한된 데이터**: 시각화에 조직에서 시행하는 데이터 거버넌스 정책에 의해 내보내기가 제한된 구성 요소가 포함되어 있습니다. 시스템 관리자에게 문의하여 내보내기가 제한된 구성 요소를 확인한 다음 슬라이드를 생성하기 전에 제한된 구성 요소를 제거하십시오.</li></ul> |
    | **[!UICONTROL 구성 요소 강조]** | 프레젠테이션에서 강조할 시각화에서 지표와 차원을 선택합니다. 선택하는 구성 요소는 순위가 더 높고 데이터 스토리의 테마와 중요한 서사가 생성될 때 더 많은 가중치가 부여됩니다. <p>강조를 적용하지 않으면 구성 요소는 다음과 같이 프레젠테이션에 표시됩니다.<ul><li>**지표 및 차원:** 기울임꼴</li><li>**Dimension 항목:** 큰따옴표</li></ul></p><p>강조를 적용하면 구성 요소가 프레젠테이션에 다음과 같이 표시됩니다.</p><ul><li>**지표 및 차원:** 기울임체 및 굵게</li><li>해당 차원이 강조된 경우 **Dimension 항목:** 굵게<p>차트에서 차원 항목이 강조 표시되면 색상도 차원 항목에 적용됩니다.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -246,5 +247,3 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
   관련 통찰력을 생성할 때 중복 제거 및 점수 지정 프로세스의 일부로, 자유 형식 테이블 내의 각 분류는 독립적으로 분석되며 단일 자유 형식 테이블 내의 처음 5개 분류만 분석됩니다.
 
   분류의 첫 번째 수준만 지원됩니다. 분류는 프레젠테이션에 포함되지 않습니다.
-
-

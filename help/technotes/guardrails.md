@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 687fb6a9f829bf38b91f394e7df811844be6926b
+source-git-commit: 150c8879e441f6a613ae2e51ffbc5df30c202e95
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2281'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/guardrails/overview)도 참조하세요.
+Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)도 참조하세요.
 
 
 ## 자동화된 데이터 세트 만료
@@ -112,8 +112,8 @@ Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experi
 | 프로젝트 | 50,000 | 시스템 강제 보호 | 조직의 최대 프로젝트 수. |
 | 데이터 보기 | 2,000 | 시스템 강제 보호 | 조직의 최대 [데이터 보기](../data-views/data-views.md) 수입니다. |
 | 데이터 보기 | 500-1000 | 시스템 강제 보호 | 연결에 대한 최대 데이터 보기 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko). |
-| 연결 | 1000년 | 시스템 강제 보호 | 조직의 최대 [연결](../connections/overview.md) 수입니다. |
+| 데이터 세트 | 100 | 시스템 강제 보호 | 연결당 최대 [데이터 세트 수](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html). |
+| 연결 | 1000 | 시스템 강제 보호 | 조직의 최대 [연결](../connections/overview.md) 수입니다. |
 | 연결 제목 | 500 | 시스템 강제 보호 | 연결 제목의 최대 문자 수입니다. |
 | 지표 | 5,000 | 시스템 강제 보호 | 데이터 보기의 최대 지표 수입니다. |
 | 차원 | 5,000 | 시스템 강제 보호 | 데이터 보기의 최대 차원 수입니다. |
@@ -134,12 +134,12 @@ Experience Platform [실시간 고객 데이터 플랫폼 보호](https://experi
 | 고유 문자열 | 1,000만 ~ 10억 | 시스템 강제 보호 | 조회 데이터 세트당 최대 고유 키 수. Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조).<ul><li>재단: 천만.</li><li>선택: 1억</li><li>Prime: 2억 5천만 명.</li><li>Ultimate: 10억</li><ul> |
 | 사용자당 행 수 | 100만 | 시스템 강제 보호 | 연결 내 지정된 달에 고유 개인 ID당 최대 행 수. |
 | 일별 행 | 25억 | 성능 보호 | 연결의 일일 최대 평균 행 수입니다. |
-| 연도별 연결당 행 수 | 할당된 데이터 센터에 따라 다릅니다(자세한 내용은 설명 참조). | 성능 보호 | 연결의 연간 권장 행 제한입니다. 아래 나열된 제한 사항은 2026년 1월과 비슷하며, 연결당 더 많은 행을 허용하도록 시간이 지남에 따라 늘어납니다. 이러한 제한을 초과하려는 경우 Adobe 계정 팀에 연락하여 대체 구성에 대해 논의하십시오. <p>행 제한은 다음과 같이 할당된 데이터 센터에 따라 다릅니다.</p><ul><li>**미국 Azure(미국 고객의 경우 기본값)**: 약 5,000억(월별 약 420억)</li><li>**미국 AWS(미국 고객에 대한 요청으로 제공)**: 약 300억(매월 약 25억)</li><li>**암스테르담**: 약 2,000억(월별 약 165억)</li><li>**다른 모든 데이터 센터**: 250억(한 달에 약 20억)</li></ul></p><p>조직은 Experience Platform을 처음 구매할 때 Experience Platform 데이터 센터를 선택합니다. 이 결정은 일반적으로 데이터 주권 및 상주 요구 사항을 기반으로 합니다. 데이터 센터를 선택할 때는 모든 AEP+앱 사용 사례(Customer Journey Analytics의 행 볼륨뿐만 아니라)를 고려해야 합니다.</p><p>할당된 데이터 센터를 보는 방법에 대한 자세한 내용은 [Customer Journey Analytics 호스팅 위치](/help/technotes/data-centers.md)를 참조하십시오.</p> |
+| 연도별 연결당 행 수 | 할당된 데이터 센터에 따라 다릅니다(자세한 내용은 설명 참조). | 성능 보호 | 연결의 연간 행 제한. 아래 나열된 제한 사항은 2026년 1월 20일부터 적용되며, 연결당 더 많은 행을 허용하기 위해 시간이 지남에 따라 증가할 수 있습니다. <p>행 제한은 다음과 같이 할당된 데이터 센터에 따라 다릅니다.</p><ul><li>**미국 Azure(미국 고객의 경우 기본값)**: 약 5,000억(월별 약 420억)</li><li>**미국 AWS(미국 고객에 대한 요청으로 제공)**: 약 300억(매월 약 25억)</li><li>**암스테르담**: 약 2,000억(월별 약 165억)</li><li>**다른 모든 데이터 센터**: 250억(한 달에 약 20억)</li></ul><p>이러한 제한을 초과할 것으로 예상되고 성능 저하 문제를 방지하려면 Adobe 계정 팀에 연락하여 대체 구성에 대해 논의하십시오.</p><p>조직은 AEP+앱을 처음 구현할 때 데이터 센터를 선택할 수 있습니다. 이 결정은 일반적으로 각 고객의 데이터 상주 요구 사항을 기반으로 합니다. 데이터 센터를 선택할 때는 모든 AEP+앱 사용 사례(Customer Journey Analytics의 행 볼륨뿐만 아니라)를 고려해야 합니다.</p><p>할당된 데이터 센터를 보는 방법에 대한 자세한 내용은 [Customer Journey Analytics 호스팅 위치](/help/technotes/data-centers.md)를 참조하십시오.</p> |
 | 행 크기 | 2 | 성능 보호/시스템 적용 보호 | Customer Journey Analytics에 수집된 데이터 행당 평균 크기(KB)(소프트 제한). 행 크기에 대한 정적 제한은 Experience Platform에서 데이터 수집을 위한 가드레일에 의해 결정됩니다. |
 
 {style="table-layout:auto"}
 
-Experience Platform [데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)도 참조하세요.
+Experience Platform [데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)도 참조하세요.
 
 
 ## 대상 데이터 내보내기
@@ -151,7 +151,7 @@ Experience Platform [데이터 수집을 위한 보호 기능](https://experienc
 
 {style="table-layout:auto"}
 
-Experience Platform [데이터 집합 내보내기 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/guardrails#dataset-exports)도 참조하세요.
+Experience Platform [데이터 집합 내보내기 보호](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)도 참조하세요.
 
 
 ## 데이터 랜딩 영역
@@ -216,7 +216,7 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 통합 문서 파일 크기 | 5 | 시스템 강제 보호 | 예약된 통합 문서의 최대 파일 크기(MB)입니다. |
-| 데이터 블록 | 1000 | 시스템 강제 보호 | 통합 문서당 최대 [데이터 블록 수](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=ko). |
+| 데이터 블록 | 1000 | 시스템 강제 보호 | 통합 문서당 최대 [데이터 블록 수](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html). |
 | 지표 | 20 | 시스템 강제 보호 | 데이터 블록당 최대 지표 수. |
 | 날짜 범위 범위 | 13 | 시스템 강제 보호 | 데이터 블록당 날짜 범위가 적용될 수 있는 최대 개월 수입니다. |
 | 다른 결과를 표시했던 | 50,000 | 시스템 강제 보호 | 데이터 블록당 최대 행 수. |
@@ -267,7 +267,7 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 
 >[!NOTE]
 >
->아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. 자세한 내용은 Experience Platform [데이터 수집을 위한 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ko)를 참조하십시오.
+>아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다. 지연 시간은 고객 구성, 데이터 볼륨 및 소비자 애플리케이션에 따라 다릅니다. 실제 처리 시간이 더 빠른 경우가 많습니다. 구체적인 계약 조건 및 SLA는 Customer Journey Analytics 계약을 참조하십시오. 자세한 내용은 Experience Platform [데이터 수집을 위한 보호](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)를 참조하십시오.
 
 | 데이터 흐름 | 예상 지연 시간 |
 |---|---|
