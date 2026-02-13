@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator를 사용하면 Adobe Journey Optim
 
 Agent Orchestrator는 사용자의 요청을 해석하고, 필요한 전문 에이전트를 결정하며, 적절한 응답을 제공하도록 조정합니다. 멀티턴 상호 작용 전반의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 기반으로 빌드할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)를 참조하십시오.
+자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/kr/products/experience-platform/agent-orchestrator.html)를 참조하십시오.
 
 ## 데이터 시각화 프롬프트 예시
 
