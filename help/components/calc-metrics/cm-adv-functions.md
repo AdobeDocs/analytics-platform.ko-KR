@@ -4,10 +4,10 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fa66083b922c903f6a7b0608d91f26e85bd8374f
+source-git-commit: a5e07891b23184dfe5d4c3f1b2c4b36b6884fb72
 workflow-type: tm+mt
-source-wordcount: '5272'
-ht-degree: 98%
+source-wordcount: '5294'
+ht-degree: 99%
 
 ---
 
@@ -1351,11 +1351,11 @@ Pi: 3.14159... 반환
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="표본 분산"
->abstract="수식 `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`을(를) 사용하여 샘플 분산의 추정치를 계산합니다. 여기서 `N`은(는) 정규화 컨테이너의 수입니다. <br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다."
+>abstract="공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기에서 N은 표준화 컨테이너의 개수입니다. <br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다."
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(정규화 컨테이너, 성공 지표)]**
 
-수식 `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`을(를) 사용하여 샘플 분산의 추정치를 계산합니다. 여기서 `N`은(는) 정규화 컨테이너의 수입니다.<br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다.
+공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기서 N은 표준화 컨테이너의 개수입니다.<br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다.
 
 | 인수 | 설명 |
 | --- | --- |
