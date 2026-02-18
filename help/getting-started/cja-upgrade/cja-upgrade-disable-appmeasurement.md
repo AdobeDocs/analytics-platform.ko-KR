@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 {{upgrade-note-step}}
 
-Adobe Analytics를 비활성화하기 전에 [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics 비활성화 시기](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)의 정보를 검토하십시오.
+Adobe Analytics를 비활성화하기 전에 [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics 비활성화 시기«2»에 있는 정보를 검토하십시오.](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
 
 * **태그:** Adobe Analytics 확장 기능 비활성화
 
