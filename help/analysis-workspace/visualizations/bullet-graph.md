@@ -45,7 +45,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/30858/?captions=kor&quality=12/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
