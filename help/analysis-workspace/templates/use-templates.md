@@ -4,10 +4,10 @@ title: 템플릿 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
+source-git-commit: 02aa4b4c9b357efca3d620bb72d8a505153bc079
 workflow-type: tm+mt
-source-wordcount: '20935'
-ht-degree: 97%
+source-wordcount: '21006'
+ht-degree: 96%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 97%
 
 Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 보고 시나리오에 대한 빠른 인사이트를 제공합니다. 다음은 템플릿을 통해 답변할 수 있는 몇 가지 질문의 예입니다.
 
-* 얼마나 많은 사람들이 사이트를 방문합니까
-* 해당 방문자 중 고유 방문자 수 (한 번만 카운트)
-* 방문자의 사이트 방문 경로 (예: 링크를 따라 사이트를 방문했는지 또는 사이트에 직접 방문했는지 여부)
-* 방문자가 사이트 콘텐츠를 검색하는 데 사용한 키워드
-* 방문자가 특정 페이지 또는 전체 사이트에서 머문 시간
-* 방문자가 클릭한 링크 및 사이트를 나갈 때
+* 얼마나 많은 사람들이 사이트를 방문합니까?
+* 해당 방문자 중 고유 방문자 수 (한 번만 카운트됨)입니다.
+* 방문자의 사이트 방문 방법(예: 링크를 따라왔는지 또는 직접 방문했는지 여부).
+* 방문자가 사이트 콘텐츠를 검색하는 데 사용한 키워드입니다.
+* 방문자가 특정 페이지 또는 전체 사이트에서 머문 시간입니다.
+* 방문자가 클릭한 링크 및 사이트를 나갈 때입니다.
 * 매출 또는 전환 이벤트를 생성하는 데 가장 효과적인 마케팅 채널
-* 비디오 시청 소요 시간
-* 방문자가 사이트를 방문하는 데 사용한 브라우저 및 디바이스
+* 비디오를 시청하는 데 얼마나 많은 시간을 소비했는지.
+* 방문자가 사이트를 방문하는 데 사용한 브라우저 및 장치입니다.
 
 다음 정보는 Analysis Workspace의 [!UICONTROL 템플릿] 탭에서 템플릿에 액세스하고 이를 사용하는 방법을 설명합니다.
 
@@ -65,7 +65,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -1117,11 +1117,15 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 ### Mix Modeler 템플릿 {#mix-modeler-templates}
 
+다음 템플릿을 사용할 수 있습니다.
+
+| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Mix Modeler 증분 모델 인사이트**] | Mix Modeler에서 생성한 선택한 모델에서 인사이트를 봅니다.<p>**이렇게 하면**&#x200B;이(가) Mix Modeler에서 생성된 모델의 증분 인사이트를 더 잘 이해하는 데 도움이 됩니다. <p>**이러한 통찰력을 기반으로**&#x200B;다음 작업을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 식별합니다.</li><li>최적화가 필요할 수 있는 채널을 식별합니다.</li></ul></p> |
+
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
->id="template--mixModelerReport"
+>id="template--mixmodeler-incremental-models-insights"
 >title="Mix Modeler에서 생성한 선택한 모델에서 인사이트를 봅니다."
 >abstract="**이렇게 하면**&#x200B;이(가) Mix Modeler에서 생성된 모델의 증분 인사이트를 더 잘 이해하는 데 도움이 됩니다. <br/>**이러한 통찰력을 기반으로**&#x200B;다음 작업을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 식별합니다.</li><li>최적화가 필요할 수 있는 채널을 식별합니다.</li></ul>"
-
-
