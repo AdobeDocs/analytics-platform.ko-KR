@@ -1,36 +1,31 @@
 ---
 title: 분산
-description: 분산형 시각화를 사용하여 최대 3개의 지표 간 관계를 표시합니다.
+description: Analysis Workspace에서 분산형 시각화를 만들고 해석하여 차원 항목과 최대 3개의 지표 간 관계를 분석하는 방법에 대해 알아봅니다.
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a625c0b505802eb91d04e21223f1b429bdf9117b
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 92%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
 # 분산 {#scatter}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_scatter_button"
 >title="분산"
 >abstract="차원 항목과 최대 3개 지표 간의 관계를 보여 주는 분산 시각화를 만듭니다."
 
-<!-- markdownlint-enable MD034 -->
-
-
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 분산 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [분산](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 분산 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [분산](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
-![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 분산]** 시각화는 차원 항목과 최대 3개 지표 간의 관계를 보여 줍니다. 시각화는 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
+![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** 시각화를 사용하면 데이터의 서로 다른 지표 간의 상관 관계와 패턴을 식별할 수 있습니다. 시각화는 차원 항목과 최대 3개의 지표 간의 관계를 보여 줍니다. 시각화는 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
 
 * 행 구성 요소(일반적으로 차원)는 그래프의 각 점을 나타냅니다. 서로 다른 행은 서로 다른 색상 점으로 표시됩니다.
 * 가장 왼쪽 열(일반적으로 지표)은 Y축(세로)에서 점의 위치를 나타냅니다.
@@ -38,19 +33,25 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
-![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
+
+
+![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>[범례가 산포에 표시되도록 구성](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)할 때 범례는 데이터 원본에 (선택된) 차원 항목의 수가 제한된 경우에만 표시됩니다.
 
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
