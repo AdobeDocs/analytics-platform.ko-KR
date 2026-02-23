@@ -35,7 +35,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [참여 분석](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [참여 분석](https://video.tv.adobe.com/v/3447474?captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
