@@ -60,11 +60,11 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL *Shift *]**의 경우**⇧**
-- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
-- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
-- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
-- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
+- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
+- **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃**&#x200B;**[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥**&#x200B;**[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇**&#x200B;**[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
@@ -103,7 +103,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 자유 형식 테이블]** | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 라인]** | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** | [라인](/help/analysis-workspace/visualizations/line.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 막대]** | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** | [막대](/help/analysis-workspace/visualizations/bar.md) 시각화를 삽입합니다. |
-| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [ 콤보](/help/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
+| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [&#x200B; 콤보](/help/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
 
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |
