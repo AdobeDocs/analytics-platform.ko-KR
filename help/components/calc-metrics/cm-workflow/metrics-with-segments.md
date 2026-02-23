@@ -3,14 +3,14 @@ description: 동일한 시각화 내에서 지표 비교를 수행할 수 있도
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
 
-# 세그먼트화된 지표
+# 세분화된 지표
 
 [계산된 지표 빌더](cm-build-metrics.md#definition-builder)에서 지표 정의 내에 세그먼트를 적용할 수 있습니다. 분석에서 데이터 하위 집합에 대한 지표를 사용하려는 경우 세그먼트를 적용하는 것이 유용합니다.
 
@@ -29,8 +29,8 @@ ht-degree: 1%
 
 ## 방문 빈도가 높은 페이지
 
-1. [(이)라는 Workspace 프로젝트에서 &#x200B;](cm-workflow.md)계산된 지표를 만듭니다`German people`.
-1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 &#x200B;](/help/components/segments/seg-builder.md)이라는 이름의 세그먼트를 만듭니다`Germany`합니다.
+1. [(이)라는 Workspace 프로젝트에서 ](cm-workflow.md)계산된 지표를 만듭니다`German people`.
+1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 ](/help/components/segments/seg-builder.md)이라는 이름의 세그먼트를 만듭니다`Germany`합니다.
 
    >[!TIP]
    >
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://video.tv.adobe.com/v/32607?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 

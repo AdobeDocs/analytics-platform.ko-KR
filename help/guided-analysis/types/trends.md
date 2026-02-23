@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 92%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 92%
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 트렌드]** 분석은 시간 경과에 따른 제품 성과나 사용자 행동에 대한 귀중한 인사이트를 제공합니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 이벤트를 측정합니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423443/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
 
 ## 사용 사례
 
@@ -76,7 +76,7 @@ ht-degree: 92%
 
 분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
 
-* **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 시간별, 일별, 주별, 월별, 분기별이 있습니다. 동일한 날짜 범위는 차트의 데이터 포인트 수와 테이블의 열 수에 영향을 미치는 다양한 간격을 가질 수 있습니다. 예를 들어 일일 세분 기간으로 3일에 걸친 분석을 보면 데이터 포인트가 3개만 표시되는 반면, 시간별 세분 기간으로 3일에 걸친 분석에서는 72개의 데이터 포인트가 표시됩니다.
+* **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 시간별, 일별, 주별, 월별, 분기별이 있습니다. 동일한 날짜 범위는 차트의 데이터 포인트 수와 테이블의 열 수에 영향을 미치는 다양한 간격을 가질 수 있습니다. 예를 들어, 일별 세부 기간으로 3일에 걸친 분석을 보면 데이터 포인트가 3개만 표시되는 반면, 시간별 세부 기간으로 3일을 분석하면 72개의 데이터 포인트가 표시됩니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 

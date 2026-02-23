@@ -4,10 +4,10 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3422284/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 데이터 사전](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/data-dictionary/use-data-dictionary){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 

@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 98%
 
 ---
 
@@ -33,8 +33,11 @@ ht-degree: 100%
 * 매트릭스의 왼쪽 하단에 있는 기능은 **낮은 영향**&#x200B;으로, 이 기능이 널리 채택되지 않거나 자주 사용되지 않는 것입니다.
 * 매트릭스의 오른쪽 하단에 있는 기능은 **일회성**&#x200B;으로, 이 기능이 널리 채택되지만 자주 사용되지 않는 것입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447474?captions=kor)
+>[!BEGINSHADEBOX]
 
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [참여 분석](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 사용 사례
 

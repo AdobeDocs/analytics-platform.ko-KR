@@ -4,10 +4,10 @@ title: 플로우 개요
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 94%
+source-wordcount: '325'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -46,14 +46,14 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화 만들기](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## 차원 간 플로우
+## 차원 간 흐름
 
 [차원 간 플로우](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음 &#39;신발&#39; 부문으로 이동할 수 있습니다.
 

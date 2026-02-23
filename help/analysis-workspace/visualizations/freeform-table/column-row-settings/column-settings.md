@@ -4,9 +4,9 @@ title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 81%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 | **[!UICONTROL 합계 표시]** | 열의 서버측 합계를 표시합니다. 총계는 세션이나 개인 등의 지표를 중복 제거합니다. |
 | **[!UICONTROL 스파크라인 표시]** | 열 머리글에 선 차트를 표시합니다. |
 | **[!UICONTROL 숫자]** | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
-| **[!UICONTROL 백분율]** | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확성을 보장하기 위해 100%보다 큰 백분율도 가능합니다. 열 너비가 너무 커지는 것을 방지하기 위해 상한값을 1,000%까지 조정할 수 있습니다. |
+| **[!UICONTROL Percent]** | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확성을 보장하기 위해 100%보다 큰 백분율도 가능합니다. 열 너비가 너무 커지는 것을 방지하기 위해 상한값을 1,000%까지 조정할 수 있습니다. |
 | **[!UICONTROL 예외 항목 표시]** | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. |
 | **[!UICONTROL 예측 표시]** | 예측 값이 이 열에 표시되는지 결정합니다. |
 | **[!UICONTROL 머리글 텍스트 줄바꿈]** | 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 줄바꿈은 PDF 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. 기본적으로 사용됩니다. |

@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '3738'
+source-wordcount: '3739'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 56%
 | [!UICONTROL 스키마 유형] | 구성 요소의 데이터 유형을 표시하는 편집 불가능한 필드입니다. Platform에서 지원되는 모든 스키마 필드 유형을 사용할 수 있지만 Customer Journey Analytics에서 모든 필드 유형이 지원되는 것은 아닙니다. 지원되는 데이터 유형은 `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`, `Boolean`입니다. 현재 조회 데이터 세트에서 `String` 스키마 데이터 유형만 허용됩니다. |
 | [!UICONTROL 구성 요소 ID] | 필수. [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs)는 이 필드를 사용하여 구성 요소를 참조합니다. 데이터 보기의 각 구성 요소는 고유해야 합니다. Adobe는 각 구성 요소의 ID를 자동으로 생성합니다. 그러나 편집 아이콘을 클릭하고 구성 요소 ID를 수정할 수 있습니다. 이 구성 요소 ID를 변경하면 이 구성 요소가 포함된 기존의 모든 Workspace 프로젝트가 중단됩니다. 각 구성 요소는 단일 데이터 보기에서 고유 ID가 필요하지만 다른 데이터 보기에서는 동일한 구성 요소 ID를 사용할 수 있습니다. 다른 데이터 보기에서 동일한 구성 요소 ID를 사용하는 경우 Workspace 프로젝트는 데이터 보기 간에 호환될 수 있습니다. <br/>프로필 및 조회 기반 구성 요소의 경우 구성 요소 ID에 데이터 세트 ID를 기반으로 하는 ID 접두사가 있습니다(예: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Workspace 프로젝트에서 `person.name.firstName`과 같은 프로필 또는 조회 기반 구성 요소를 재사용하고 이 구성 요소를 다른 데이터 보기에서 구성하려면 데이터 보기 전체에서 구성 요소 ID의 이름을 고유하게 바꾸어야 합니다(예: `myUniqueID.person.name.firstName`). |
 | [!UICONTROL 경로] | 필수. 구성 요소의 원본 스키마 경로를 표시하는 편집 불가능한 필드입니다. |
-| [!UICONTROL 데이터 사용 레이블] | Adobe Experience Platform에서 이 구성 요소에 할당된 모든 데이터 사용 레이블. [자세히 알아보기](/help/data-views/data-governance.md). |
+| [!UICONTROL 데이터 사용 레이블] | Adobe Experience Platform에서 이 구성 요소에 할당된 모든 데이터 사용 레이블. [자세히 알아보기](/help/data-views/data-governance.md) |
 | [!UICONTROL 보고에서 구성 요소 숨기기] | 관리자가 아닌 경우 데이터 보기에서 구성 요소를 큐레이션할 수 있습니다. 관리자는 여전히 Analysis Workspace 프로젝트에서 [!UICONTROL 모든 구성 요소 표시]를 클릭하여 액세스할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -59,7 +59,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://video.tv.adobe.com/v/3412938/?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -437,7 +437,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 항목 이름 (지속됨) (AJO) | 지속성 바인딩이 활성화된 항목의 이름입니다. |
 | 여정 작업 오류(AJO) | 여정 액션에 의해 생성된 오류 메시지입니다. |
 | 여정 액션 노드 이름 | 여정 작업의 노드 이름입니다. |
-| 여정 진입 | 단계 이벤트가 프로필에 대한 여정 진입 이벤트인 경우 참입니다. |
+| 여정 입장 | 단계 이벤트가 프로필에 대한 여정 진입 이벤트인 경우 참입니다. |
 | 여정 종료 (AJO) | 여정 종료. |
 | 여정 이벤트 노드 이름 | 이 값은 여정에서 세그먼트 또는 외부 이벤트가 발생할 때마다 설정됩니다. |
 | 여정 제외 이유 | 여정 인스턴스 제외 이유. |
@@ -469,7 +469,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 메시지 상태 (AJO) | 메시지 상태(예: 보냄, 반송됨, 오류 등) |
 | 메시지 유형 (AJO) | 메시지가 마케팅인지 또는 트랜잭션인지를 나타냅니다. |
 | 메시지 피드백 상태 (사용되지 않음) | 피드백 상태. |
-| 노드 진입 | 단계 이벤트가 프로필에 대한 노드 진입 이벤트인 경우 참입니다. |
+| 노드 입장 | 단계 이벤트가 프로필에 대한 노드 진입 이벤트인 경우 참입니다. |
 | 노드 ID | 여정 노드의 노드 ID입니다. |
 | 노드 이름 | 여정 노드의 노드 이름입니다. |
 | 노드 유형 | 여정 노드의 노드 유형입니다. |

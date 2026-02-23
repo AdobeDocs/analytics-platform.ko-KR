@@ -4,10 +4,10 @@ description: 속성을 정의하는 구성 요소에 대해 알아봅니다.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 15%
 
 Adobe Analytics의 속성 개념에는 세 가지 구성 요소가 포함됩니다.
 
-* **속성 모델:** [모델](#attribution-model)은(는) 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
-* **컨테이너**: [컨테이너](#container)은(는) 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
-* **속성 전환 확인 기간:** [전환 확인 기간](#lookback-window)은(는) 선택한 모델에 대한 전환 확인 일수를 설명합니다.
+* **속성 모델**: 이 [모델](#attribution-model)은 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
+* **컨테이너**: [컨테이너](#container)는 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
+* **속성 전환 확인 기간:** [전환 확인 기간](#lookback-window)은 선택한 모델에 대한 전환 확인 일수를 설명합니다.
 
 
-## 속성 모델
+## 기여도 모델
 
 {{attribution-models-details}}
 
@@ -66,13 +66,6 @@ A lookback window is the amount of time a conversion should look back to include
 * **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. Visitor lookback considers all values from the beginning of the month of the report's date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
 
 * **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on February 20, a lookback window of 10 days would evaluate all dimension touchpoints from February 10 - February 20 in the attribution model.
-
->[!BEGINSHADEBOX]
-  
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40044?captions=kor&quality=12&learn=on){target="_blank"} for a demo video.
-  
->[!ENDSHADEBOX]
-
 
 ## Example
 

@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1808'
 ht-degree: 85%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3413790?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://video.tv.adobe.com/v/3420563/?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
    ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width=".50%"}
 1. 슬라이드를 추가하여 데이터 스토리를 작성합니다. 기본적으로 첫 번째 슬라이드가 생성됩니다.
 새 슬라이드를 추가하려면 슬라이드 위로 마우스를 가져가거나 슬라이드를 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
-   * &#x200B;+ 기호를 탭하여 새 슬라이드를 만듭니다.
+   * + 기호를 탭하여 새 슬라이드를 만듭니다.
    * 복제 아이콘을 탭하여 기존 슬라이드를 복제합니다.
 1. 빈 슬라이드를 만드는 경우 왼쪽 레일에서 구성 요소를 끌어다 놓거나 레이아웃을 선택하여 타일의 데이터로 슬라이드를 자동으로 채웁니다.
    ![데이터 스토리 만들기](assets/data-story2.png)

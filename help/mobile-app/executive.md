@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1298'
 ht-degree: 73%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [경영진이 모바일 스코어카드에 액세스할 수 있도록 지원](https://video.tv.adobe.com/v/3444843?captions=kor){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [경영진이 모바일 스코어카드에 액세스할 수 있도록 지원](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -93,7 +93,7 @@ ht-degree: 73%
 
    타일에 대한 추가 정보:
 
-   * 스파크라인의 세부기간은 날짜 범위의 길이에 따라 달라집니다.
+   * 스파크라인의 세부 기간은 날짜 범위의 길이에 따라 달라집니다.
 
       * 하루는 시간별 트렌드를 표시함
       * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함

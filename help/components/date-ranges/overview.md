@@ -4,7 +4,7 @@ title: 날짜 범위 개요
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -16,17 +16,6 @@ ht-degree: 100%
 Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/analysis-workspace/c-panels/panels.md#calendar)를 사용하여 해당 패널의 시각화 날짜 범위를 지정합니다.
 
 날짜 범위 구성 요소를 사용하면 패널의 캘린더 설정을 정의할 수 있습니다.
-
-<!-- Very old video, should we show it?
-
-+++ View a video illustrating use of calendar and date ranges
-
->[!VIDEO](https://video.tv.adobe.com/v/30912?captions=kor&format=jpeg)
-
-{{videoaa}}
-+++
-
--->
 
 ## 날짜 범위 사용
 

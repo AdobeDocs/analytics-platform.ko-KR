@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1262'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 이 분석에서 차트의 x축은 사용자의 초기 시작 이벤트 이후의 시간을 나타내며, y축은 하나 이상의 재방문 이벤트에 참여한 사용자의 비율을 나타냅니다. 유지율과 이탈율을 기간별로 볼 수 있으며, 표시되는 기간은 쿼리 설정을 통해 사용자 정의할 수 있습니다. 차트 아래에 있는 테이블은 집계 데이터를 제공하며, 같은 날짜에 시작 이벤트를 수행한 사람들의 그룹인 개별 코호트를 표시하는 옵션이 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435785/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
 
 
 ## 사용 사례
@@ -75,7 +75,7 @@ ht-degree: 97%
 
 분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
 
-* **[!UICONTROL 간격]**: 유지 데이터를 보려는 날짜 단위입니다. 유효한 옵션으로는 일별, 주별 및 월별이 있습니다. 동일한 날짜 범위에도 간격이 다를 수 있으며, 이는 기간 버킷 옵션에 영향을 미칩니다.
+* **[!UICONTROL 간격]**: 유지 데이터를 보고자 하는 날짜 세부 기간입니다. 유효한 옵션으로는 일별, 주별 및 월별이 있습니다. 동일한 날짜 범위에도 간격이 다를 수 있으며, 이는 기간 버킷 옵션에 영향을 미칩니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 현재 날짜에 가까운 날짜 범위를 선택하면 현재 날짜에 너무 가깝게 참여한 사용자는 포함되지 않습니다. 이 분석은 항상 모든 사용자가 모든 기간 버킷에 포함될 수 있도록 합니다. 캘린더 선택기 아래의 메시지는 사용자가 참여하는 날짜 범위와 재방문 사용자에게만 예약된 간격의 정보를 제공합니다.

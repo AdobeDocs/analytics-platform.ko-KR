@@ -4,9 +4,9 @@ description: Analysis Workspace에서 분산형 시각화를 만들고 해석하
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: a625c0b505802eb91d04e21223f1b429bdf9117b
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '232'
 ht-degree: 65%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 분산 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [분산](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 분산 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [분산](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -35,12 +35,12 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 
 
-![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/use-scatterplot-visualizations){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

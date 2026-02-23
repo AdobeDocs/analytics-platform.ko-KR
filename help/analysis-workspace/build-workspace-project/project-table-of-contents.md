@@ -5,10 +5,10 @@ title: 목차
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 88%
+source-wordcount: '210'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://video.tv.adobe.com/v/35024/?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차 만들기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -46,4 +46,4 @@ Analysis Workspace에서 프로젝트의 목차를 볼 수 있으며, 이를 통
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics의 새로운 목차 기능으로 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=ko)
+>* [Adobe Analytics의 새로운 목차 기능으로 대시보드 탐색 간소화](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

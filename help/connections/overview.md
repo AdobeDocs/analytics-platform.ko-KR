@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 97%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
 # 연결 개요
 
-연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회, 프로필, 요약 데이터 세트 등 어떤 [!DNL &#x200B; Experience Platform] 데이터 소스를 수집할지 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
+연결을 통해 Customer Journey Analytics 제품 관리자는 이벤트, 조회, 프로필, 요약 데이터 세트 등 어떤 [!DNL  Experience Platform] 데이터 소스를 수집할지 정의할 수 있습니다. 연결은 Customer Journey Analytics의 기반이며 [데이터 보기](/help/data-views/data-views.md)에서 차원 또는 지표로 정의할 수 있는 데이터(필드)의 가용성을 결정합니다.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,11 @@ ht-degree: 97%
 
 ![연결 워크플로](assets/connection-workflow.png)
 
-<!-- Outdated interface 
-
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/v/35111/?quality=12&learn=on){target="_blank"} for a demo video.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본에 연결](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
-
--->
 
 높은 수준에서 연결 워크플로를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
