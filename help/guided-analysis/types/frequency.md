@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도에 따라 이벤트 데이터를 그룹화합니다. 이 분석의 세로축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷의 사용자 또는 세션 수를 측정합니다.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
 
 ## 사용 사례
 

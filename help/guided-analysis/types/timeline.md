@@ -34,7 +34,7 @@ ht-degree: 99%
 >* **관리자**: *이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에는 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자에게 문의하여 데이터 보기에 개인 ID를 추가하십시오.*
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 
