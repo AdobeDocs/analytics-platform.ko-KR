@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 5%
@@ -48,7 +48,7 @@ ht-degree: 5%
        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
      ```
 
-     위치:
+     여기서
 
       * `{PERSISTENT_ID_FIELD}`은(는) 영구 ID의 필드입니다. 예: `identityMap.ecid[0]`.
       * `{DATASET_TABLE_NAME}`은(는) 이벤트 데이터 세트의 테이블 이름입니다.
@@ -75,7 +75,7 @@ ht-degree: 5%
           AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
         ```
 
-        위치:
+        여기서
 
          * `{PERSON_ID_FIELD}`은(는) 개인 ID에 대한 필드입니다. 예: `identityMap.crmId[0]`.
          * `{DATASET_TABLE_NAME}`은(는) 이벤트 데이터 세트의 테이블 이름입니다.
@@ -91,7 +91,7 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="ID 그래프로 변경"
 >abstract="결합할 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하십시오."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -112,14 +112,14 @@ ht-degree: 5%
 
    영구 ID로 **[!UICONTROL ID 맵]**&#x200B;을(를) 선택하는 경우 네임스페이스 를 선택해야 합니다. 다음 두 가지 옵션이 있습니다.
 
-   * 기본 ID 네임스페이스를 사용하려면 **[!UICONTROL 기본 ID 네임스페이스를 사용]**&#x200B;하세요.
+   * 기본 ID 네임스페이스를 사용하려면 **[!UICONTROL 기본 ID 네임스페이스 사용]**&#x200B;을(를) 선택하십시오.
    * **[!UICONTROL 네임스페이스]** 드롭다운 메뉴에서 네임스페이스를 선택합니다.
 
 1. **[!UICONTROL 개인 ID]** 드롭다운 메뉴에서 개인 ID를 선택합니다.
 
    개인 ID로 **[!UICONTROL ID 맵]**&#x200B;을(를) 선택하는 경우 네임스페이스를 선택해야 합니다. 다음 두 가지 옵션이 있습니다.
 
-   * 기본 ID 네임스페이스를 사용하려면 **[!UICONTROL 기본 ID 네임스페이스를 사용]**&#x200B;하세요.
+   * 기본 ID 네임스페이스를 사용하려면 **[!UICONTROL 기본 ID 네임스페이스 사용]**&#x200B;을(를) 선택하십시오.
    * **[!UICONTROL 네임스페이스]** 드롭다운 메뉴에서 네임스페이스를 선택합니다.
 
 
