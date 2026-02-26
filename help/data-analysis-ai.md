@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e1f7245a6c9bf6e36a49edafbcbb0e1005bc6e5b
+source-git-commit: 684f7e95e872ed3cc56a12725dd63459ed488ecc
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 89%
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights 에이전트에 대한 액세스는 2026년 2월 28일까지 제공됩니다. 이 날짜 이후에도 중단 없이 Data Insights 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
+>Data Insights 에이전트는 적격 고객에게 한정된 기간 동안 제공됩니다. Data Insights 에이전트에 대한 액세스는 2026년 3월 31일 수요일까지 제공됩니다. 이 날짜 이후에도 중단 없이 Data Insights 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
 
 Customer Journey Analytics의 [AI 어시스턴트](/help/ai-assistant.md)에서 액세스할 수 있는 Data Insights 에이전트는 데이터에 대한 질문에 빠르고 효율적으로 답변하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
 
@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator를 사용하면 Adobe Journey Optim
 
 Agent Orchestrator는 사용자의 요청을 해석하고, 필요한 전문 에이전트를 결정하며, 적절한 응답을 제공하도록 조정합니다. 멀티턴 상호 작용 전반의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 기반으로 빌드할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/kr/products/experience-platform/agent-orchestrator.html)를 참조하십시오.
+자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)를 참조하십시오.
 
 ## 데이터 시각화 프롬프트 예시
 
