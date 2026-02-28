@@ -8,7 +8,7 @@ role: User
 source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -58,7 +58,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-details"
 >title="세부 사항"
->abstract="내보내기 이름을 지정합니다. 설명 및 태그를 추가할 수도 있습니다. 이 정보는 내보내기 테이블 및 이메일 알림에서 내보내기를 식별하는 데 도움이 됩니다."
+>abstract="내보내기 이름을 지정합니다. 설명 및 태그를 추가할 수도 있습니다. 이 정보는 내보내기 테이블 및 이메일 알림에서 내보내기를 파악하는 데 도움이 됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -67,7 +67,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-data-structure"
 >title="데이터 구조"
->abstract="내보내는 자유 형식 테이블입니다. 왼쪽 패널의 구성 요소를 테이블로 드래그하여 데이터 구조를 수정할 수 있습니다. 구성 요소를 필터 영역으로 드래그하여 필터를 적용할 수 있습니다. 캔버스에 구성 요소를 추가하면 테이블이 동적으로 업데이트됩니다."
+>abstract="내보내고 있는 자유 형식 테이블입니다. 왼쪽 패널에서 테이블로 구성 요소를 끌어서 데이터 구조를 수정할 수 있습니다. 필터 영역으로 구성 요소를 끌어서 필터를 적용할 수 있습니다. 캔버스에 구성 요소를 추가하면 테이블이 동적으로 업데이트됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,7 +76,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="export-manifest"
 >title="매니페스트 파일"
->abstract="선택하면 매니페스트 파일이 성공적인 내보내기 게재에 포함됩니다. 매니페스트 파일을 통해 모든 파일이 성공적으로 게재되었는지 확인할 수 있습니다."
+>abstract="선택하면 모든 성공적인 내보내기 게재에 매니페스트 파일이 포함됩니다. 매니페스트 파일을 통해 모든 파일이 성공적으로 게재되었는지 확인할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,7 +85,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-schedule"
 >title="예약"
->abstract="내보내기가 발생하는 빈도를 선택합니다. 지금 보내기(1회)를 선택하여 내보내기를 즉시 시작합니다. 예약된 내보내기는 지정한 날짜 및 시간에 시작됩니다. "
+>abstract="내보내기가 얼마나 자주 수행되어야 하는지 선택합니다. 지금 보내기(일회)를 선택하여 내보내기를 즉시 실행합니다. 예약된 내보내기는 지정한 날짜 및 시간에 시작됩니다. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-destination"
 >title="목적지"
->abstract="데이터를 전송할 클라우드 계정 및 위치를 선택합니다. 기존 계정 및 위치를 선택하거나 &#39;새로 추가&#39;를 선택하여 만들 수 있습니다. 내보내기 실패 또는 만료 사실을 알릴 사용자 및 그룹을 지정합니다."
+>abstract="데이터를 전송할 클라우드 내보내기 계정 및 위치를 선택합니다. 기존 계정 및 위치를 선택하거나 “새로 추가”를 선택하여 만들 수 있습니다. 내보내기 실패 또는 만료 사실을 알릴 사용자 및 그룹을 지정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -104,7 +104,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-file-format"
 >title="파일 포맷"
->abstract="Parquet 파일 형식을 선택하면 구성 요소 이름에 포함된 일부 특수 문자가 밑줄(_)로 바뀝니다. 교체된 전체 문자 목록은 아래 링크를 참조하십시오."
+>abstract="Parquet 파일 형식을 선택하면 구성 요소 이름에 포함된 일부 특수 문자가 밑줄(_)로 바뀝니다. 대체된 문자 전체 목록은 아래 링크를 참조하십시오."
 
 <!-- markdownlint-enable MD034 -->
 

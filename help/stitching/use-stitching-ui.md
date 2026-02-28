@@ -8,7 +8,7 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="개인 ID"
->abstract="사용 가능한 ID에서 개인 ID(개인용 고유 식별자)를 선택합니다. 그래프 기반 결합을 사용하려면 **[!UICONTROL ID 그래프]**&#x200B;를 선택하십시오."
+>abstract="사용 가능한 ID에서 개인 ID(개인에 대한 고유 식별자)를 선택합니다. 그래프 기반 결합을 사용하려면 **[!UICONTROL ID 그래프]**&#x200B;를 선택합니다."
 
 결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 섹션에서 다음을 수행합니다.
 
