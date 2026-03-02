@@ -5,10 +5,10 @@ title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 53%
+source-wordcount: '338'
+ht-degree: 39%
 
 ---
 
@@ -35,14 +35,15 @@ Customer Journey Analytics에 대한 액세스 권한이 없는 사용자와 Ana
 * 패널 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 선택합니다.
 * 시각화 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택합니다.
 
-[비디오 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 내부 또는 외부에 연결](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ![시각화 가져오기 링크가 강조 표시된 헤더를 마우스 오른쪽 단추로 클릭한 후 드롭다운 메뉴입니다.](assets/get-visualization-link.png)
 
 ## 목차에 링크 사용 {#TOC}
 
-다양한 링크 옵션을 활용하는 한 가지 팁은 작업 영역 프로젝트 상단에 항상 목차를 포함하는 것입니다. 목차에서는 다른 관련 프로젝트, 특정 패널 및 특정 시각화에 연결할 수 있습니다. 이렇게 하면 프로젝트의 수신자가 보다 쉽게 탐색할 수 있습니다.
+다양한 링크 옵션을 활용하는 한 가지 팁은 Workspace 프로젝트 상단에 항상 [목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 포함하는 것입니다. 목차에서는 다른 관련 프로젝트, 특정 패널 및 특정 시각화에 연결할 수 있습니다. 이렇게 하면 프로젝트의 수신자가 보다 쉽게 탐색할 수 있습니다.
 
-[비디오 시청](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ko-KR)에서 링크 및 Workspace의 리치 텍스트 편집기를 사용하여 목차를 구성하는 방법에 대해 알아보십시오.
-
-![프로젝트 목차입니다.](assets/toc.png)

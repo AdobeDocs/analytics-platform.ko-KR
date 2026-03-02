@@ -4,10 +4,10 @@ title: 라인
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '540'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -57,6 +57,13 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 | **[!UICONTROL 거듭제곱]** | 곡선을 만들고 특정 비율로 증가하는 측정 값을 비교하는 데이터 세트에 유용합니다. 데이터에 0이나 음수 값이 있는 경우에는 이 옵션을 사용하지 마십시오. 수식: `y = a * x^b` |
 | **[!UICONTROL 이차]** | 포물선(위 또는 아래로 오목)과 같은 모양의 데이터 세트에 가장 잘 맞습니다. 수식: `y = a + b * x + c * x^2` |
 | **[!UICONTROL 이동 평균]** | 평균 세트를 기반으로 부드러운 트렌드 라인을 만듭니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트([!UICONTROL 세부 기간] 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. 예를 들어 7일 이동 평균 또는 4주 이동 평균이 있습니다. |
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Line](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/line-visualization){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >

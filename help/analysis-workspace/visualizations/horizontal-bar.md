@@ -4,18 +4,18 @@ title: 가로 막대 및 스택 가로 막대
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 89%
+source-wordcount: '204'
+ht-degree: 85%
 
 ---
 
-# 가로 막대 (스택)
+# 가로 막대(스택)
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 가로 막대 및 스택 가로 막대 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [가로 막대 및 스택 가로 막대](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 가로 막대 및 스택 가로 막대 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [가로 막대 및 스택 가로 막대](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -57,11 +57,16 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 ![스택 가로 막대 100%](assets/horizontal-bar-stacked100.png)
 
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [영역 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

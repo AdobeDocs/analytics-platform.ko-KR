@@ -4,7 +4,7 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 84%
@@ -12,13 +12,6 @@ ht-degree: 84%
 ---
 
 # 행 설정
-
-
->[!BEGINSHADEBOX]
-
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
-
->[!ENDSHADEBOX]
 
 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 개체 내에서 차원, 세그먼트, 지표, 기간 또는 분류 옆에 있는 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;을 선택하십시오.
 
@@ -29,6 +22,14 @@ ht-degree: 84%
 | **[!UICONTROL 위치별 분류]** | 기본적으로 이 설정은 비활성화되며 분류는 정적 행 항목에 고정됩니다. 예를 들어 마케팅 채널별로 상위 3개 페이지 차원 항목(홈 페이지, 검색 결과, 체크아웃)을 분류한다고 가정합니다. 그런 다음 프로젝트를 떠났다가 2주 후에 돌아옵니다. 프로젝트를 다시 열면 상위 3개 페이지가 변경되고 대신 이제 홈 페이지, 검색 결과 및 체크아웃이 상위 4-6개 페이지가 됩니다. 기본적으로 마케팅 채널 분류는 4-6행에 있는 경우에도 여전히 홈 페이지, 검색 결과 및 체크아웃 아래에 표시됩니다. <br> 반면 **위치별 분류**&#x200B;는 상위 3개 항목이 무엇인지에 관계없이 항상 상위 3개 항목을 분류합니다. 예를 다시 참조하면, 프로젝트를 다시 열면 마케팅 채널 분류가 표의 상위 3페이지에 연결됩니다. 홈 페이지, 검색 결과 및 체크아웃은 이제 4~6행에 있습니다. |
 | **[!UICONTROL 백분율]** | **열별 백분율 계산**(기본값): 셀에 표시되는 백분율은 열 합계를 기반으로 계산됩니다. <br>**행별 백분율 계산**: 셀의 백분율은 열 방향이 아니라 행 방향으로 계산되며, 총 합계가 분모입니다. 이 계산은 특히 트렌드 백분율에 유용합니다. |
 | **[!UICONTROL 열 합계]** | 이 설정들은 [정적 행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)에만 사용할 수 있습니다. <br> **현재 행의 합계로 표시**&#x200B;는 테이블에서 행의 클라이언트측 합계를 보여 주며 이는 합계가 방문 또는 개인과 같은 지표에 대한 중복 제거를 수행하지 *않음*&#x200B;을 의미합니다. <br> **총계 표시**&#x200B;는 서버측 합계를 보여 줍니다. 이는 중복 제거된 지표의 합계를 의미합니다. |
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 ## 행 수 변경
 
@@ -90,4 +91,4 @@ ht-degree: 84%
 
 ## 행 높이 변경
 
-프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.

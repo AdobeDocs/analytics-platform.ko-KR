@@ -4,10 +4,10 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 83%
+source-wordcount: '299'
+ht-degree: 80%
 
 ---
 
@@ -25,12 +25,18 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 텍스트 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)를 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 텍스트 시각화에 대해 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
 Workspace 프로젝트에 사용자 정의의 서식 있는 텍스트를 추가하려면 ![텍스트](/help/assets/icons/Text.svg) **[!UICONTROL 텍스트]** 시각화를 사용하거나 시각화 및 패널에 대한 설명을 사용할 수 있습니다.
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [텍스트 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 사용
 

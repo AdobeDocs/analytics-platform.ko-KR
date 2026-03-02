@@ -4,9 +4,9 @@ title: 맵
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2770'
 ht-degree: 11%
 
 ---
@@ -42,11 +42,17 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![&#x200B; 버전에 대한 &#x200B;](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_&#x200B;**을 참조하세요.**&#x200B;_
+_이 문서는_&#x200B;에 맵 시각화를 문서화합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의 [AdobeAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)_ Adobe Analytics![ 버전에 대한 ](/help/assets/icons/AdobeAnalytics.svg)맵&#x200B;_**을 참조하세요.**_
 
 >[!ENDSHADEBOX]
 
 Analysis Workspace의 ![지구](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]** 시각화를 사용하면 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있습니다. 지리적으로 다른 지역들의 지표 데이터를 식별하고 비교하는 데 유용합니다.
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [맵 시각화](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/configure-and-use-the-map-visualization){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 사전 요구 사항
 

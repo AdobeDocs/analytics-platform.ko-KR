@@ -4,9 +4,9 @@ title: 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2205'
 ht-degree: 99%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**&#x200B;으로 식별됩니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기 이름&#x200B;*]**으로 식별됩니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -140,7 +140,7 @@ ht-degree: 99%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -167,7 +167,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -180,7 +180,7 @@ ht-degree: 99%
 
 정적 드롭다운 세그먼트를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 세그먼트를 추가할 수 있습니다.
 
-![시장 채널 “직접” 세그먼트가 강조 표시된 정적 드롭다운 세그먼트입니다. &#x200B;](assets/dropdown-filter-intro.png)
+![시장 채널 “직접” 세그먼트가 강조 표시된 정적 드롭다운 세그먼트입니다. ](assets/dropdown-filter-intro.png)
 
 ##### 정적 드롭다운 세그먼트 만들기
 
@@ -225,6 +225,12 @@ ht-degree: 99%
 참고: 지표, 세그먼트 또는 날짜 범위에는 동적 드롭다운 세그먼트를 사용할 수 없습니다.
 
 동적 드롭다운 세그먼트를 클릭하면 정적 드롭다운 세그먼트와 동일한 컨텍스트 메뉴 옵션이 제공됩니다.
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 세그먼트](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 
 ## 컨텍스트 메뉴
