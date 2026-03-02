@@ -5,10 +5,10 @@ title: 내보내기 로그 관리
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: bf76b8688dc0c463c032dd94e88450fed5488949
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 8%
+source-wordcount: '936'
+ht-degree: 7%
 
 ---
 
@@ -30,11 +30,13 @@ ht-degree: 8%
 
 1. 다음 중 하나를 수행합니다.
 
+   * 시스템 관리자는 **[!UICONTROL 모든 사용자에 대한 로그 보기]** 옵션을 활성화할 수 있습니다. 이 옵션을 활성화하면 내보내기를 만든 사용자에 관계없이 모든 로그가 표시됩니다.
+
    * 표시되는 열을 [사용자 지정](#configure-columns)합니다.
 
    * 로그와 연결된 내보내기를 보려면 로그 이름 옆에 있는 **정보 아이콘** ![정보 아이콘](assets/information-icon.png)을 선택하십시오.
 
-   * 로그와 연결된 내보내기를 편집하려면 로그 이름 옆에 있는 **내보내기 편집 아이콘** ![정보 아이콘](assets/edit-export-icon.png)을 선택하십시오.
+   * 로그와 연결된 내보내기를 편집하려면 로그 이름 옆에 있는 **내보내기 편집 아이콘** ![내보내기 편집 아이콘](/help/assets/icons/Edit.svg)을 선택하십시오.
 
      내보내기 편집에 대한 자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
 
@@ -58,7 +60,7 @@ ht-degree: 8%
    |---------|----------|
    | [!UICONTROL **ID 내보내기**] | 보려는 내보내기 로그의 내보내기 ID를 지정합니다. |
    | [!UICONTROL **계정 유형**] | 로그와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다양한 상황으로 인해 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다.<p>가능한 실패 원인에 대한 자세한 내용은 [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.</p> |
+   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **보류 중**]: 내보내기의 특정 인스턴스가 시작되었지만 아직 완료되지 않았습니다.<p>보류 중 상태의 내보내기를 다시 실행하면 내보내기 프로세스가 지연됩니다.</p></li><li>[!UICONTROL **완료**]: 내보내기의 특정 인스턴스가 처리를 완료했으며 내보내기 계정에서 사용할 수 있습니다.</li><li>[!UICONTROL **실패**]<p>다양한 상황으로 인해 내보내기에 실패할 수 있습니다. 실패 상태 위로 마우스를 가져가면 실패에 대한 세부 정보를 볼 수 있습니다.</p><p>가능한 실패 원인에 대한 자세한 내용은 [실패한 내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)을 참조하세요.</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -94,11 +96,19 @@ This option is not available when selecting multiple logs. -->
 
 1. 편집할 내보내기와 관련된 로그를 찾습니다.
 
-1. 로그 이름 옆에 있는 **내보내기 편집** 아이콘 ![로그 내보내기 아이콘](assets/export-icon.png)을 선택합니다.
+1. 로그 이름 옆에 있는 **내보내기 편집** 아이콘 ![내보내기 로그 편집 아이콘](/help/assets/icons/Edit.svg)을 선택합니다.
 
    또는
 
    로그 옆의 확인란을 선택한 다음 [!UICONTROL **내보내기 편집**]&#x200B;을 선택합니다.
+
+## 완료되거나 실패한 내보내기 다시 실행
+
+특정 내보내기 로그와 연결된 하나 이상의 내보내기를 다시 실행할 수 있습니다. 내보내기를 다시 실행하려면 내보내기 로그의 상태가 완료됨 또는 실패이고 7일 이내여야 합니다.
+
+1. 다시 실행할 하나 이상의 내보내기 작업 옆의 확인란을 선택합니다.
+
+1. **[!UICONTROL 다시 실행]**&#x200B;을 선택하십시오.
 
 ## 열 구성
 
@@ -123,12 +133,13 @@ This option is not available when selecting multiple logs. -->
    | 인스턴스 ID | Customer Journey Analytics 인스턴스의 ID입니다. <!-- True? --> |
    | 데이터 보기 이름 | 내보내기와 연결된 데이터 보기의 이름입니다. 사용자는 [클라우드로 Customer Journey Analytics 보고서 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 내보내기를 만들 때 데이터 보기를 선택할 수 있습니다. |
    | 파일 수 | 내보내기에 포함된 파일 수입니다. |
-   | 크기 | 내보내기 크기.<p>파일 크기는 때때로 KIB 및 MIB로 표현되는 1024의 기준으로 계산됩니다. 클라우드 공급자가 크기를 1000으로 계산하는 경우 클라우드 공급자에 표시되는 크기가 여기에 표시되는 크기와 약간 다를 수 있습니다.</p> |
+   | 크기 | 내보내기 크기.<p>파일 크기는 때때로 KiB 및 MiB로 표현되는 1024의 기준으로 계산됩니다. 클라우드 공급자가 크기를 1000으로 계산하는 경우 클라우드 공급자에 표시되는 크기가 여기에 표시되는 크기와 약간 다를 수 있습니다.</p> |
    | 위치 | 데이터를 내보낸 계정의 위치입니다. |
    | 계정 | 데이터를 내보낸 계정입니다. |
-   | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 [!UICONTROL 보류 중], [!UICONTROL 배달됨] 및 [!UICONTROL 실패]입니다. |
+   | 상태 | 내보내기의 상태입니다. 사용 가능한 상태는 [!UICONTROL 보류 중], [!UICONTROL 완료] 및 [!UICONTROL 실패]입니다. |
    | 게재 일자 | 내보내기가 발생한 날짜입니다. |
-   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
+   | 시작 일자 | 내보내기가 시작된 날짜입니다. |
+   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL AEP 데이터 랜딩 영역]입니다. |
    | 행 수 | 내보낸 테이블에 포함된 행 수입니다. |
 
    {style="table-layout:auto"}

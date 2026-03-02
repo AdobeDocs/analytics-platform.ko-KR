@@ -5,9 +5,9 @@ title: 내보내기 관리
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: d0fa233aa5359064e9e0afea1a5384f5e38d017e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1277'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 [Customer Journey Analytics 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 전체 테이블을 내보내면 내보내기는 [!UICONTROL 내보내기] 페이지의 [!UICONTROL 내보내기] 탭에서 사용할 수 있습니다.
 
-사용자가 만든 내보내기만 볼 수 있습니다.
+사용자가 만든 내보내기만 볼 수 있습니다. 관리자는 **[!UICONTROL 모든 사용자에 대한 내보내기 보기]** 옵션을 활성화하여 모든 내보내기를 볼 수 있습니다.
 
 ## 내보내기 필터링 및 검색
 
@@ -28,16 +28,17 @@ ht-degree: 5%
 
 1. [!UICONTROL **내보내기**] 탭을 선택합니다.
 
-1. **필터** 아이콘을 선택하십시오.
+   ![내보내기 관리](assets/exports-manage.png)
 
-   <!--add screenshot -->
+1. **필터** 아이콘 ![필터 아이콘](/help/assets/icons/Filter.svg)을 선택합니다.
 
    다음 기준으로 필터링할 수 있습니다.
 
    | 필터 | 설명 |
    |---------|----------|
    | [!UICONTROL **계정 유형**] | 내보내기와 연결된 계정 유형입니다. 다음 계정 유형을 사용할 수 있습니다. <ul><li>[!UICONTROL **AEP 데이터 랜딩 영역**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았거나 일회성 내보내기가 아직 완료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료**]: 내보내기를 성공적으로 내보냈음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 자세한 오류 정보를 보려면 [!UICONTROL **실패**] 상태를 마우스로 가리킵니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul> </p></li></ul> |
+   | [!UICONTROL **상태**] | 내보내기의 상태입니다. 다음 상태를 사용할 수 있습니다. <ul><li>[!UICONTROL **활성**]: 예약된 내보내기가 아직 만료되지 않았거나 일회성 내보내기가 아직 완료되지 않았음을 나타냅니다. </li><li>[!UICONTROL **완료**]: 내보내기를 성공적으로 내보냈음을 나타냅니다. 예약된 내보내기의 경우 일정이 만료되었음을 나타냅니다.</li><li>[!UICONTROL **실패**]<p>다음과 같은 경우 내보내기에 실패할 수 있습니다. 자세한 오류 정보를 보려면 [!UICONTROL **실패**] 상태를 마우스로 가리킵니다. <ul><li>예약된 내보내기 만료</li><li>예약된 내보내기에 대한 행 제한에 도달했습니다. </li></ul><li>[!UICONTROL **만료됨**]: 내보내기가 만료되었음을 나타냅니다.</li></ul> |
+   | [!UICONTROL **작성자**] | 내보내기를 만든 사용자입니다.<p>이 옵션은 **[!UICONTROL 모든 사용자에 대한 내보내기 보기]** 옵션이 활성화된 경우에만 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **빈도**] | 내보내기가 발생하는 빈도. 다음 빈도를 사용할 수 있습니다. <ul><li>[!UICONTROL **한 번**]</li><li>[!UICONTROL **매일**]</li><li>[!UICONTROL **주별**]</li><li>[!UICONTROL **월별**]</li><li>[!UICONTROL **연간**]</li></ul> |
 
    {style="table-layout:auto"}
@@ -47,6 +48,8 @@ ht-degree: 5%
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 
 1. [!UICONTROL **내보내기**] 탭을 선택합니다.
+
+   ![내보내기 관리](assets/exports-manage.png)
 
 1. 검색 필드에 검색 중인 내보내기와 관련된 정보를 입력합니다. 테이블에서 사용할 수 있는 열에서 데이터를 검색할 수 있습니다.
 
@@ -64,7 +67,21 @@ ht-degree: 5%
 
    [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다.
 
-1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
+
+## 내보내기 갱신
+
+예약된 내보내기가 만료되기 전이나 후에 하나 이상의 예약된 내보내기를 갱신할 수 있습니다. 수출은 갱신한 날로부터 1년 동안 갱신됩니다.
+
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
+
+1. [!UICONTROL **내보내기**] 탭에서 갱신할 하나 이상의 내보내기 옆에 있는 확인란을 선택합니다.
+
+1. [!UICONTROL **갱신**]&#x200B;을 선택하세요.
+
+   [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다. <!--check process from here. -->
+
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
 
 ## 내보내기 복제
 
@@ -96,7 +113,7 @@ ht-degree: 5%
 
 ## 내보내기에 태그 지정
 
-내보내기에 태그를 적용하면 [!UICONTROL 내보내기] 페이지의 [!UICONTROL 태그] 열에서 해당 태그를 볼 수 있습니다. 자세한 내용은 [열 구성](#configure-columns)을 참조하십시오.
+내보내기에 태그를 적용하면 [!UICONTROL 내보내기] 페이지의 [!UICONTROL 태그] 열에서 해당 태그를 볼 수 있습니다. 자세한 내용은 [열 구성](#configure-columns-on-the-exports-page)을 참조하십시오.
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 
@@ -106,13 +123,14 @@ ht-degree: 5%
 
 1. [!UICONTROL **태그 내보내기**] 대화 상자에서 태그 이름을 입력하여 새 태그를 만들거나 드롭다운 메뉴에서 기존 태그를 선택합니다.
 
-   선택한 내보내기 간의 모든 공통 태그가 태그 대화 상자에 표시됩니다. <!-- what happens if one export has a tag and another doesn't? Is the tag removed if you don't select it? I'm guessing not, but maybe check -->
+   선택한 내보내기 간의 모든 공통 태그가 태그 대화 상자에 표시됩니다.
 
 1. [!UICONTROL **태그 적용**]&#x200B;을 선택합니다.
 
+
 ## 내보내기 삭제
 
-내보내기 페이지에서 내보내기를 삭제할 수 있습니다. 삭제된 예약된 내보내기는 더 이상 전송되지 않습니다.
+내보내기 페이지에서 내보내기를 삭제할 수 있습니다. 내보내기를 삭제하면 내보내기 페이지에서 내보내기가 제거됩니다. 삭제된 예약된 내보내기는 취소되며 더 이상 전송되지 않습니다.
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 
@@ -148,8 +166,22 @@ ht-degree: 5%
    | 전송 시간 | 내보내기가 전송된 시간입니다. |
    | 마지막 전송 | 내보내기가 마지막으로 전송된 시간입니다. |
    | 마지막 수정 | 내보내기가 마지막으로 수정된 시간입니다. 내보내기 페이지의 항목은 기본적으로 이 열을 기준으로 정렬됩니다. |
-   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL Adobe Experience Platform]입니다. |
+   | 계정 유형 | 데이터를 내보낸 클라우드 계정 유형입니다. 사용 가능한 계정 유형은 [!UICONTROL Amazon S3 역할 ARN], [!UICONTROL Google 클라우드 플랫폼], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] 및 [!UICONTROL AEP 데이터 랜딩 영역]입니다. |
 
    {style="table-layout:auto"}
 
 1. 표시할 열이 선택되어 있는지 확인합니다. 선택한 열이 내보내기 페이지에 나타나고 관련 정보가 표시됩니다.
+
+## 내보내기 페이지에서 내보내기 만들기
+
+[전체 테이블을 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에 설명된 대로 Analysis Workspace에서 내보내기를 만들거나 이 섹션에 설명된 대로 내보내기 페이지에서 내보내기를 만들 수 있습니다.
+
+내보내기 페이지에서 내보내기 만들기를 시작하려면 다음을 수행합니다.
+
+1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
+
+1. [!UICONTROL **내보내기**] 탭에서 **[!UICONTROL 내보내기 추가]**&#x200B;를 선택합니다.
+
+1. 사용 가능한 필드를 완료하여 내보내기를 만듭니다. 각 필드에 대한 정보, 구성 요소, 계산된 지표 함수 및 지원되는 기타 기능에 대한 정보는 [전체 표를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
+
+

@@ -5,10 +5,10 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 25f46c50b6578026ff3aaae5019306bdcf82f211
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 28%
+source-wordcount: '2242'
+ht-degree: 31%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 1. [!UICONTROL 내보내기] 페이지에서 [!UICONTROL **위치 계정**] 탭을 선택합니다.
 
-   ![다른 계정 추가를 보여 주는 페이지 옵션을 내보냅니다](assets/account-add.png)
+   ![계정 추가를 보여 주는 페이지 옵션을 내보냅니다](assets/account-add.png)
 
 1. [!UICONTROL **계정 추가**]&#x200B;를 선택합니다.
 
@@ -69,14 +69,14 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 >내보내기 계정에 AEP 데이터 랜딩 영역 을 사용할 때 다음 사항을 고려하십시오.
 >
 > * Customer Journey Analytics 보고서를 Adobe Experience Platform 데이터 랜딩 구역으로 내보낼 때 7일 이내에 데이터를 다운로드해야 하고 AEP 데이터 랜딩 구역에서 삭제해야 합니다. 7일 후에는 AEP 데이터 랜딩 영역에서 데이터가 자동으로 삭제됩니다.
-> * AEP 데이터 랜딩 구역은 Azure 또는 AWS 스토리지를 사용합니다. 조직에서 Azure를 사용하도록 구성된 로그인 회사를 사용하는 경우 AEP 데이터 랜딩 구역은 Azure를 사용합니다. 로그인 회사가 AWS을 사용하도록 구성된 경우 AEP 데이터 랜딩 구역은 AWS을 사용합니다.
+> * AEP 데이터 랜딩 구역은 Azure 또는 AWS 스토리지를 사용합니다. 조직에서 Azure을 사용하도록 구성된 IMS 조직을 사용하는 경우 AEP 데이터 랜딩 영역은 Azure을 사용합니다. 로그인 회사가 AWS을 사용하도록 구성된 경우 AEP 데이터 랜딩 구역은 AWS을 사용합니다.
 >
 
 1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. **[!UICONTROL 계정 유형]** 필드에서 **[!UICONTROL AEP 데이터 랜딩 영역]**&#x200B;을 선택한 후 [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
@@ -98,9 +98,9 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
      ![계정 내보내기 대화 상자 AEP 데이터 랜딩 영역](assets/export-account-aep-aws.png)
 
-1. (조건부) Azure 스토리지를 사용하는 경우:
+1. (조건부) Azure 저장소를 사용하는 경우:
 
-   1. [!UICONTROL **SAS URI**] 필드의 내용을 클립보드에 복사합니다. 이 SAS URI를 사용하여 AEP 데이터 랜딩 영역에서 Analysis Workspace에서 내보낸 데이터에 액세스합니다.
+   1. [!UICONTROL **SAS URI**] 필드의 내용을 클립보드에 복사합니다. 이 SAS URI를 사용하여 AEP 데이터 랜딩 구역에서 내보낸 Analysis Workspace 데이터에 액세스합니다.
 
       이 필드가 비어 있는 경우 Adobe Experience Platform에 액세스할 수 있는 권한이 부여되어야 합니다.
 
@@ -108,15 +108,15 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
       >[!NOTE]
       >
-      >Azure를 기반으로 하는 AEP 데이터 랜딩 영역 계정을 사용하는 경우, AEP 데이터 랜딩 영역으로 내보내는 보고서에 액세스하는 가장 쉬운 방법은 Azure Storage Explorer를 사용하는 것입니다. 다음 단계에서는 이 메서드를 사용합니다.
+      >Azure을 기반으로 하는 AEP 데이터 랜딩 영역 계정을 사용하는 경우, AEP 데이터 랜딩 영역으로 내보내는 보고서에 가장 쉽게 액세스할 수 있는 방법은 Azure Storage Explorer를 사용하는 것입니다. 다음 단계에서는 이 메서드를 사용합니다.
 
       1. 아직 다운로드하지 않았다면 [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 다운로드하십시오.
 
-      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure Storage Explorer에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
+      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure 저장소 탐색기에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
 
-         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
+         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
 
-      1. Adobe Experience Platform 설명서를 따라 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드가 나타나면 3단계에서 복사한 SAS URI를 붙여넣습니다.
+      1. Adobe Experience Platform 설명서를 따라가면 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드가 표시됩니다. 이전 단계에서 복사한 SAS URI를 붙여 넣으십시오.
 
          >[!NOTE]
          >
@@ -156,7 +156,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. [!UICONTROL **계정 추가**] 대화 상자의 [!UICONTROL **계정 속성**] 섹션에서 다음 정보를 지정하십시오.
 
@@ -178,13 +178,13 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
 1. [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md)을 계속합니다.
 
-### Google Cloud Platform
+### Google Cloud 플랫폼
 
 1. 다음 방법 중 하나로 클라우드 내보내기 계정을 만들기 시작합니다.
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. [!UICONTROL **계정 추가**] 대화 상자의 [!UICONTROL **계정 속성**] 섹션에서 다음 정보를 지정하십시오.
 
@@ -212,7 +212,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. [!UICONTROL **계정 추가**] 대화 상자의 [!UICONTROL **계정 속성**] 섹션에서 다음 정보를 지정하십시오.
 
@@ -220,9 +220,9 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
    |---------|----------|
    | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
    | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.<p><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p>또는</p><p>액세스 정책을 만들지 않고 직접 액세스 역할을 부여하려면 Azure 포털을 사용하여 Azure 역할을 할당하는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)를 참조하세요. 애플리케이션 ID에 대한 역할 할당이 추가되어 주요 자격 증명 모음 URI에 액세스합니다. </p></li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul> |
+   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.<p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p><p>또는</p><p>액세스 정책을 만들지 않고 직접 액세스 역할을 부여하려면 Azure 포털을 사용하여 Azure 역할을 할당하는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)를 참조하십시오. 이렇게 하면 키 자격 증명 모음 URI에 액세스할 수 있는 애플리케이션 ID의 역할 할당이 추가됩니다. </p></li><li>주요 자격 증명 모음 URI에 액세스하려면 응용 프로그램 ID에 `Key Vault Certificate User` 기본 제공 역할이 부여되었는지 확인하십시오.<p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul> |
    | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. 이 정보는 Microsoft Azure의 **Key Vault** 설정 페이지에서 만든 Key Vault에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
-   | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 응용 프로그램을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하세요. <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
+   | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 Microsoft ID 플랫폼을 사용하여 응용 프로그램을 등록하는 방법에 대한 [Microsoft Azure 설명서를 참조하십시오](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
 
    {style="table-layout:auto"}
 
@@ -232,7 +232,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    ![만들어진 계정 내보내기 대화 상자](assets/export-account-azure.png)
 
-1. 아직 권한이 없는 경우 Azure SAS의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
+1. 아직 권한이 없는 경우 Azure SAS의 버킷에 권한을 부여해야 합니다. <!-- add link to Google Cloud docs on how to do this -->
 
 1. [!UICONTROL **확인**]&#x200B;을 선택합니다.
 
@@ -244,7 +244,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. [!UICONTROL **계정 추가**] 대화 상자의 [!UICONTROL **계정 속성**] 섹션에서 다음 정보를 지정하십시오.
 
@@ -262,7 +262,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    ![만들어진 계정 내보내기 대화 상자](assets/export-account-azure.png)
 
-1. 아직 권한이 없는 경우 Azure RBAC의 버킷에 권한을 부여했는지 확인하십시오. <!-- add link to Google Cloud docs on how to do this -->
+1. 아직 권한이 없다면 Azure RBAC의 컨테이너에 대한 권한을 부여해야 합니다.
 
 1. [!UICONTROL **확인**]&#x200B;을 선택합니다.
 
@@ -274,7 +274,7 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
    * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 계정 만들기를 시작합니다](#begin-creating-a-cloud-export-account)
 
-   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. [!UICONTROL **계정 추가**] 대화 상자의 [!UICONTROL **계정 속성**] 섹션에서 다음 정보를 지정하십시오.
 
