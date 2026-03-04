@@ -4,7 +4,7 @@ title: 필터링 및 정렬
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 47%
@@ -145,11 +145,9 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]**&#x200B;을 선택하십시오.
 
-   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+   정렬이 열에 적용되면 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ### 여러 열을 기준으로 표 정렬(고급 정렬)
-
-{{release-limited-testing-section}}
 
 #### 여러 열에 정렬 적용
 
@@ -179,7 +177,7 @@ Analysis Workspace에서는 차원이든 지표이든 간에 열을 기준으로
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 &#x200B;](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
+정렬이 열에 적용될 때 정렬 아이콘이 계속 표시됩니다. 화살표는 데이터 정렬 방식을 나타냅니다(![오름차순의 경우 ](/help/assets/icons/SortOrderUp.svg), 내림차순의 경우 ![정렬](/help/assets/icons/SortOrderDown.svg)).
 
 ![다중 정렬 예](assets/dimensions-multiple-sort.png)
 
