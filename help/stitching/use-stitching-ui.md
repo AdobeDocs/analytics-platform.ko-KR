@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 7d78b955b26d2fcc166d277f9ddf220ff2e03d36
+source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1150'
 ht-degree: 7%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="스티칭 지표"
->abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>일반적으로 샘플 데이터와 다릅니다."
+>abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,7 +123,7 @@ ht-degree: 7%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16444" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="잘못된 ID"
 
 
 결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 섹션에서 다음을 수행합니다.
