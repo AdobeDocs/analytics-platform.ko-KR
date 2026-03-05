@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
 workflow-type: tm+mt
-source-wordcount: '3249'
-ht-degree: 95%
+source-wordcount: '3462'
+ht-degree: 89%
 
 ---
 
@@ -48,8 +48,31 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 만료되지 않는 자격 증명을 사용하는 방법:
 
-* Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
-* [자격 증명 만료](#Expiring-credentials)에 언급된 단계에 따라 만료되지 않는 자격 증명에 대한 액세스 권한을 부여합니다.
+1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
+
+1. Customer Journey Analytics 제품 및 제품 프로필에 대해 만료되지 않는 자격 증명을 사용할 수 있는지 확인합니다. 다음 단계를 실행하려면 조직의 시스템 관리자여야 합니다.
+   1. **[!UICONTROL 앱]**&#x200B;에서 ![Admin Console](/help/assets/icons/Apps.svg)을(를) 선택합니다.
+   1. 만료되지 않는 자격 증명이 API 자격 증명 목록에 추가되었는지 확인합니다.
+      1. 상단 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택합니다.
+      1. 왼쪽 레일에서 **[!UICONTROL API 자격 증명]**&#x200B;을(를) 선택합니다.
+      1. 새 자격 증명 또는 마이그레이션된 만료되지 않는 자격 증명이 나열되고 **[!UICONTROL EQS-...]**(으)로 시작해야 합니다.
+
+      1. 만료되지 않는 API 자격 증명이 Customer Journey Analytics 제품 및 프로필에 액세스할 수 있는지 확인합니다.
+
+         1. ![EQS-...](/help/assets/icons/ProductDetails.svg) 만료되지 않는 API 자격 증명에 대해 **[!UICONTROL ProductDetails]**&#x200B;을(를) 선택하십시오.
+         1. **[!UICONTROL EQS-...]** 제품 세부 정보 창에서 ![자세히](/help/assets/icons/More.svg)를 선택하고 **[!UICONTROL API 자격 증명 편집]**&#x200B;을 선택합니다.
+         1. **[!UICONTROL API 자격 증명 편집]** 대화 상자에서 **[!UICONTROL 할당된 프로필]**&#x200B;의 유효성을 검사하십시오. 나열된 Customer Journey Analytics 제품이 없는 경우:
+            1. ![추가](/help/assets/icons/Add.svg)를 선택하고 **[!UICONTROL Customer Journey Analytics]**&#x200B;을(를) 선택합니다.
+            1. Query Service 및 BI 확장에 대한 액세스 권한을 제공하려는 사용자가 포함된 제품 프로필을 한 개 이상 선택합니다.
+            1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+
+1. Experience Platform 쿼리 서비스에 만료되지 않는 API 자격 증명이 표시되는지 확인합니다.
+
+   1. **[!UICONTROL 앱]**&#x200B;에서 ![Experience Platform](/help/assets/icons/Apps.svg)을(를) 선택합니다.
+   1. 왼쪽 레일에서 **[!UICONTROL 쿼리]**&#x200B;를 선택합니다.
+   1. 상단 메뉴에서 **[!UICONTROL 자격 증명]**&#x200B;을 선택합니다.
+   1. 1단계에서 제공한 이름을 사용하는 만료되지 않는 API 자격 증명이 **[!UICONTROL 만료되지 않는 자격 증명]** 목록에 표시됩니다.
+
 
 자세한 내용은 [고객 여정 액세스 제어](../technotes/access-control.md)를 참조하십시오. 특히 [제품 관리자 추가 권한](../technotes/access-control.md#product-admin-additional-permissions)과 [Admin Console의 Customer Journey Analytics 권한](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
 
@@ -87,7 +110,7 @@ Adobe Experience Platform:
 
    1. `cja`데이터베이스&#x200B;**[!UICONTROL 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의]** 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
-   1. 명령 문자열을 복사하려면 **[!UICONTROL **&#x200B; PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
+   1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
 1. 명령 또는 터미널 창을 엽니다.
 
@@ -120,9 +143,9 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일에서 **[!UICONTROL 자세히...]**&#x200B;를 선택합니다.
 
-   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL **&#x200B; PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL **&#x200B; PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
+   1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -161,7 +184,7 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. 목록에서 **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**&#x200B;을 선택합니다.
+   1. 목록에서 **[!UICONTROL ** PostgresSQL **]**&#x200B;을 선택합니다.
 
    1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행하십시오.
 
