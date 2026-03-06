@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->Customer Journey Analytics 인터페이스에서 잘못된 ID는 BAVID라고도 합니다([Analytics BAVID](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)부터 시작).
+>Customer Journey Analytics 인터페이스에서 잘못된 ID는 BAVID라고도 합니다([Analytics BAVID](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16444)부터 시작).
 >
 
 ## 정의
