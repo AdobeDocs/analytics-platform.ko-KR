@@ -3,9 +3,9 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fd8c539ae3bb0efc30a7fde7ff8d13a866263a91
+source-git-commit: 8e64a4aea82562a48bab8556739087e89f99781c
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1293'
 ht-degree: 38%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 38%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | -------: | ----:|
-| **연결에서 데이터 세트 미리 보기 다시 디자인**<p>사용자 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)하면 데이터 미리 보기 환경이 개선됩니다. 결합된 데이터 세트의 경우 [결합 지표](/help/stitching/use-stitching-ui.md#stitching-metrics) 및 [잘못된 ID](/help/stitching/use-stitching-ui.md#bad-ids)를 추가로 사용할 수 있습니다. | 2026년 3월 6일 토요일 | 2026년 3월 6일 토요일 |
+| **연결에서 데이터 세트 미리 보기 다시 디자인**<p>사용자 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)하면 데이터 미리 보기 환경이 개선됩니다. 활성화된 데이터 세트 결합의 경우 [결합 지표](/help/stitching/use-stitching-ui.md#stitching-metrics) 및 [잘못된 ID에 대한 정보](/help/stitching/use-stitching-ui.md#bad-ids)를 추가로 사용할 수 있습니다. | 2026년 3월 6일 토요일 | 2026년 3월 6일 토요일 |
 | **추가 Content Analytics 썸네일 및 미리 보기**<p>이제 Content Analytics 축소판 및 미리보기가 막대(스택), 가로 막대(스택) 및 분산형 시각화에서 지원됩니다. | 2026년 3월 5일 금요일 | TBD |
 | **헤더 재정의** <p>Content Analytics에서 헤더 이름과 암호 헤더 값을 지정할 수 있습니다. 이 [헤더는 구성을 무시합니다](/help/content-analytics/config/guided.md#header-overrides) Content Analytics에서 사용자가 구현한 보트 검색 또는 게이트 트래픽 기술을 무시하도록 사용자 지정 HTTP 헤더를 보내도록 합니다.</p> |  | 2026년 2월 2일 화요일 |
 | **여러 IMS 조직의 보고서 세트 결합**<p>Analytics Source 커넥터를 사용하여 여러 IMS 조직의 보고서 세트를 결합할 수 있습니다. 이 [IMS 간 데이터 매핑](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) 기능을 사용하면 고객 데이터가 여러 IMS 조직에 분산되어 있는 경우에도 조직에서 고객 데이터를 통합적으로 볼 수 있습니다. <p>**참고:** 이 구성은 Adobe 고객 지원 센터에 요청을 제출하는 경우에만 사용할 수 있습니다.</p> |  | 2026년 2월 12일 금요일 |
