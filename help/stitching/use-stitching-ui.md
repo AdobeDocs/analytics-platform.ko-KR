@@ -1,14 +1,14 @@
 ---
 title: 결합 활성화
-description: 연결 UI에서 결합을 활성화하는 방법을 알아봅니다.
+description: Customer Journey Analytics에서 이벤트 데이터 세트에 대한 ID 결합을 활성화합니다. 데이터를 연결하기 위해 연결 UI에서 영구 ID, 개인 ID 및 재생 창을 구성하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
+source-git-commit: b7b2a1f3eb1c149caf65ab3e4321e4f4347695cc
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 7%
+source-wordcount: '1724'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 
    * **개인 ID**
-      * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 테스트를 실행하고 일부 테스트 영구 ID 값으로 그래프를 쿼리할 수 있습니다. 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
+      * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 테스트를 실행하고 일부 샘플 영구 ID 값으로 그래프를 쿼리할 수 있습니다. 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
       * 필드 기반 결합의 경우 개인 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 이상적으로 5%를 초과해야 합니다.
 
         확인에 사용할 수 있는 쿼리의 예:
@@ -87,6 +87,8 @@ ht-degree: 7%
 
 ## ID 결합 활성화 {#enable-identity-stitching}
 
+사용자 기반 연결에서 이벤트 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 ID 결합을 활성화할 수 있습니다. 계정 기반 연결에는 ID 결합을 사용할 수 없습니다.
+
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
 >title="ID 그래프로 변경"
@@ -101,7 +103,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="스티칭 지표"
->abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다."
+>abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리 보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,10 +125,12 @@ ht-degree: 7%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16444" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="잘못된 ID"
 
 
-결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 섹션에서 다음을 수행합니다.
+### 데이터 세트 설정
+
+결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 **[!UICONTROL 데이터 세트 설정]** 섹션에서 다음을 수행하십시오.
 
 ![ID 결합을 활성화할 때 ID 결합 옵션](assets/identity-stitching-ui.png)
 
@@ -158,14 +162,70 @@ ht-degree: 7%
    >ID 그래프를 사용할 권한이 있는지 확인합니다.
    >
 
-   그 전에 결합을 위해 ID 그래프를 사용하기 전에 **[!UICONTROL 그래프 기반 필수 구성 요소]**&#x200B;의 일부로 데이터 집합에 대한 ID 그래프 설정을 완료했는지 확인하는 [ID 그래프에 대한 변경](/help/stitching/gbs.md#prerequisites) 대화 상자가 표시됩니다. 계속하려면 **[!UICONTROL 계속]**&#x200B;을 선택하세요.
+   그 전에 데이터 집합에 대한 ID 그래프 설정을 완료했는지 확인하기 위해 **[!UICONTROL ID 그래프로 변경]** 대화 상자가 표시됩니다. ID 그래프를 사용하여 결합하기 전에 이 설정은 [그래프 기반 필수 구성 요소](/help/stitching/gbs.md#prerequisites)의 일부입니다. 계속하려면 **[!UICONTROL 계속]**&#x200B;을 선택하세요.
 
    * **[!UICONTROL 네임스페이스]** 드롭다운 메뉴에서 네임스페이스를 선택합니다.
 
-
 1. **[!UICONTROL 재생 창]** 드롭다운 메뉴에서 재생 창을 선택합니다. 사용 가능한 옵션은 권한이 부여된 Customer Journey Analytics 패키지에 따라 다릅니다.
 
-연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작될 때 결합 킥에 대해 활성화된 데이터 세트에 대한 결합 프로세스가 시작됩니다.
+1. 결합할 이벤트 데이터 집합의 미리 보기를 보려면 **[!UICONTROL 다음]**&#x200B;을 선택하십시오.
+
+
+### 데이터 세트 미리보기
+
+표준 **[!UICONTROL 데이터 세트 미리 보기]** 인터페이스 위에, 사용자 기반 연결에서 [데이터 세트를 추가](/help/connections/create-connection.md#add-datasets)하거나 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 두 개의 추가 정보 패널을 사용할 수 있습니다.
+
+>[!NOTE]
+>AWS에 Customer Journey Analytics을 배포한 고객의 경우 이 기능은 릴리스 보류 중입니다.
+>
+
+![ID 결합을 활성화할 때 ID 결합 옵션](assets/identity-stitching-ui-preview.png)
+
+#### 스티칭 지표
+
+
+
+**[!UICONTROL 결합 지표]**&#x200B;은(는) 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 집합을 사용하여 계산됩니다. 이 샘플 데이터 집합은 일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다. 결합 지표는 다음에 대한 세부 정보를 제공합니다.
+
+* **[!UICONTROL 개인 ID 범위]**: 결합 프로세스(실시간 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위입니다.
+   * 최상의 필드 기반 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)가 전송되어야 합니다.
+   * 최상의 그래프 기반 결합 결과를 위해 (영구 ID, 개인 ID) 관계가 각 영구 ID의 ID 그래프에 존재해야 합니다.
+
+  개인 ID 범위는 백분율로 표시되며, 안정적인 개발 또는 프로덕션 설정에서 권장되는 사항과 비교됩니다. 이 적용 범위 값이 높을수록 선택한 개인 ID로 더 나은 결합 결과를 얻을 수 있습니다.
+
+* **[!UICONTROL 영구 ID 범위]**: 이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(실시간 및 재생) 중에 식별에 사용됩니다. 영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다.
+
+  영구 ID 범위는 백분율로 표시되며, 안정적인 개발 또는 프로덕션 설정에서 권장되는 최소 사항과 비교됩니다.
+
+
+#### 잘못된 ID
+
+>[!INFO]
+>
+>잘못된 ID는 Customer Journey Analytics 인터페이스에서 BAVID라고도 합니다.
+> 
+
+Customer Journey Analytics에서 잘못된 ID는 식별자입니다.
+
+* 연결을 사용할 수 있는 데이터 세트의 영구 ID 또는 개인 ID 필드에서 비롯된 특정 ID 값으로 **과(와)**
+* 는 한 달 내에 연결 데이터의 백만 개 이상의 이벤트(100만 개)에 있습니다.
+
+ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤트는 연결 데이터에서 삭제되고 보고에 표시되지 않습니다.
+
+잘못된 ID 사용 사례의 예:
+
+* 개인 ID 필드에 사용자 지정 또는 자리 표시자 값이 있습니다(예: `undefined`). 이러한 값은 [결합 및 보고 데이터 품질](/help/stitching/faq.md#undefined-person-id-values)에도 영향을 줄 수 있습니다.
+* 필드 기반 결합 구성에서 여러 사람이 장치를 공유하고 사용자 간 총 전환 수가 50,000개를 초과하는 경우. 이 시나리오에서는 결합 프로세스가 중지되어 해당 디바이스에 대한 개인 ID 정보가 사용되고 대신 영구 ID 정보만 사용됩니다. 따라서 해당 장치의 모든 데이터 세트 이벤트가 영구 ID ID를 가진 연결 데이터로 전송되어 잘못된 ID 상황이 발생할 가능성이 높습니다.
+
+
+>[!NOTE]
+>**[!UICONTROL 잘못된 ID]**&#x200B;을(를) 포함한 **[!UICONTROL 결합 지표]**&#x200B;은(는) 제한된 데이터 집합을 기반으로 계산됩니다. 결합에 사용할 데이터 세트에 대해 잘못된 ID가 있는지 식별하려면 [잘못된 ID 기술 정보](/help/technotes/badids.md)를 참조하세요.
+>
+
+
+### 저장
+
+연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작되는 즉시 활성화된 데이터 세트를 결합하기 위한 결합 프로세스가 시작됩니다.
 
 >[!CAUTION]
 >

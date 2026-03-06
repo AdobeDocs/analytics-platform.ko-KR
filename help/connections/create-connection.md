@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: dfcae178e02a2a235abb17e502e83d87e95f40db
+source-git-commit: 5e6f62010797d47758cec7f97ffa414968f75731
 workflow-type: tm+mt
-source-wordcount: '8802'
-ht-degree: 98%
+source-wordcount: '9759'
+ht-degree: 89%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="connection_change_personid"
 >title="ID 설정 변경 "
->abstract="ID 설정을 변경하면 연결 인터페이스에 수정 사항을 저장하면 이 데이터 세트에 대한 연결 데이터가 삭제됩니다. 새 설정을 기반으로 데이터 세트에서 데이터를 다시 수집해야 합니다.<br/><br/>삭제 프로세스가 완료될 때까지 보고가 지연될 수 있습니다."
+>abstract="ID 설정을 변경하면 연결 인터페이스에 수정 사항을 저장하면 이 데이터 세트에 대한 연결 데이터가 삭제됩니다. 새 설정에 따라 데이터 세트에 대한 데이터 채우기를 수동으로 시작해야 합니다.<br/><br/>삭제 프로세스가 완료될 때까지 보고가 지연될 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_change_accountid"
@@ -117,32 +117,32 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_ajo"
 >title="Customer Journey Analytics에서 이 연결 사용"
->abstract="이 옵션을 사용하면 Journey Optimizer 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이는 다음과 같은 작업을 수행할 수 있도록 해 줍니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li><li>여정 이벤트, 대화 경로 및 캠페인 성과를 분석합니다.</li></ul>**이 옵션을 활성화하면 연결 내 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 계산되며 연결 사용 UI에 나타납니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo){target="_blank"}"
+>abstract="이 옵션을 사용하면 Journey Optimizer 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이는 다음과 같은 작업을 수행할 수 있도록 해 줍니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li><li>여정 이벤트, 대화 경로 및 캠페인 성과를 분석합니다.</li></ul>**이 옵션을 사용하면 연결 내의 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 포함됩니다. 연결 사용 UI에 표시됩니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_ajo"
 >title="Customer Journey Analytics에서 이 연결 제거"
->abstract="이 Journey Optimizer 연결은 현재 Customer Journey Analytics에서 사용되고 있습니다. 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li><li>여정 이벤트, 대화 경로 및 캠페인 성과를 분석합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 Journey Optimizer에서 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo){target="_blank"}"
+>abstract="이 Journey Optimizer 연결은 현재 Customer Journey Analytics에서 사용되고 있습니다. 연결을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Journey Optimizer 데이터에 대한 심층 분석을 수행합니다.</li><li>Journey Optimizer 연결 및 관련 데이터 보기를 편집합니다.</li><li>여정 이벤트, 대화 경로 및 캠페인 성과를 분석합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 Journey Optimizer에서 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_brand_concierge"
 >title="Customer Journey Analytics에서 이 연결 사용"
->abstract="이 옵션을 사용하면 Brand Concierge 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이러한 기능을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Brand Concierge 데이터에 대한 심층 분석을 수행합니다.</li><li>Brand Concierge 연결 및 관련 데이터 보기를 편집합니다.</li><li>대화 참여, 감정 및 전환 지표를 분석합니다.</li></ul>**이 옵션을 활성화하면 연결 내 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 계산되며 연결 사용 UI에 나타납니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}"
+>abstract="이 옵션을 사용하면 Brand Concierge 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이러한 기능을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Brand Concierge 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Brand Concierge 연결 및 관련 데이터 보기를 편집합니다.</li><li>대화 참여, 감정 및 전환 지표를 분석합니다.</li></ul>**이 옵션을 사용하면 연결 내의 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 포함됩니다. 연결 사용 UI에 표시됩니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_brand_concierge"
 >title="Customer Journey Analytics에서 이 연결 제거"
->abstract="이 Brand Concierge 연결은 현재 Customer Journey Analytics에서 사용됩니다. 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Brand Concierge 데이터에 대한 심층 분석을 수행합니다.</li><li>Brand Concierge 연결 및 관련 데이터 보기를 편집합니다.</li><li>대화 참여, 감정 및 전환 지표를 분석합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 Brand Concierge에서 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}"
+>abstract="이 Brand Concierge 연결은 현재 Customer Journey Analytics에서 사용되고 있습니다. 연결을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 Brand Concierge 데이터에 대한 심층적인 분석을 수행합니다.</li><li>Brand Concierge 연결 및 관련 데이터 보기를 편집합니다.</li><li>대화 참여, 감정 및 전환 지표를 분석합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 Brand Concierge에서 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_product_usage"
 >title="Customer Journey Analytics에서 이 연결 사용"
->abstract="이 옵션을 사용하면 제품 사용 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이러한 기능을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 제품 사용 데이터에 대한 심층 분석을 수행합니다.</li><li>제품 사용 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**이 옵션을 활성화하면 연결 내 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 계산되며 연결 사용 UI에 나타납니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}"
+>abstract="이 옵션을 사용하면 제품 사용 연결을 통해 Customer Journey Analytics의 고급 보고 기능을 활용할 수 있습니다. 이러한 기능을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 제품 사용 데이터에 대한 심층 분석을 수행합니다.</li><li>제품 사용 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**이 옵션을 사용하면 연결 내의 각 데이터 행은 Customer Journey Analytics의 매달 라이선스 데이터 행에 포함됩니다. 연결 사용 UI에 표시됩니다.**<br><br/> Customer Journey Analytics에서 데이터 행을 추가로 사용하는 데 익숙한 경우에만 이 옵션을 살펴시기 바랍니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_product_usage"
 >title="Customer Journey Analytics에서 이 연결 제거"
->abstract="이 제품 사용 연결은 현재 Customer Journey Analytics에서 사용되고 있습니다. 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 제품 사용 데이터에 대한 심층 분석을 수행합니다.</li><li>제품 사용 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 제품 사용에 대해 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}"
+>abstract="이 제품 사용 연결은 현재 Customer Journey Analytics에서 사용되고 있습니다. 연결을 통해 다음을 수행할 수 있습니다.<ul><li>Customer Journey Analytics 내에서 제품 사용 데이터에 대한 심층 분석을 수행합니다.</li><li>제품 사용 연결 및 관련 데이터 보기를 편집합니다.</li></ul>**연결을 제거하면 Customer Journey Analytics에서 심층 분석을 더 이상 수행할 수 없습니다. 연결 및 관련 데이터 보기는 기본 상태로 재설정되며 더 이상 편집할 수 없습니다.**<br/><br/>**Customer Journey Analytics에서 이 연결에 대한 청구에는 연결이 제거된 전체 달에 대한 요금이 포함됩니다.**<br/><br/>&#x200B;연결이 제품 사용에 대해 활성화 상태를 유지합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_legal_section_section"
@@ -179,7 +179,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본에 연결](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본에 연결](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -215,7 +215,7 @@ ht-degree: 98%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -241,14 +241,14 @@ ht-degree: 98%
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)입니다. |
    | **[!UICONTROL 데이터 세트 유형]** | 이 연결에 추가한 각 데이터 세트에 대해 가져오는 데이터를 기반으로 [데이터 세트 유형](#dataset-types)을 Customer Journey Analytics에서 자동으로 설정합니다. 이벤트 데이터, 프로필 데이터 및 조회 데이터의 3가지 데이터 세트 유형이 있습니다. 데이터 세트 유형에 대한 설명은 아래 테이블을 참조하십시오. |
-   | **[!UICONTROL 결합됨]** | 데이터 세트가 [연결 UI에서 결합에 대해 활성화되면](/help/stitching/use-stitching-ui.md) 값은 **[!UICONTROL true]**&#x200B;입니다. 그렇지 않은 경우 값은 **[!UICONTROL false]**&#x200B;입니다. [결합 절차 요청](/help/stitching//use-stitching.md)의 결과로 생성된 결합된 데이터 세트는 이 테이블에서 결합된 것으로 식별되지 않으며 기본적으로 **[!UICONTROL false]** 값을 갖습니다. |
+   | **[!UICONTROL 결합됨]** | 데이터 세트가 [연결 UI에서 결합에 대해 활성화되면](/help/stitching/use-stitching-ui.md) 값은 **[!UICONTROL true]**&#x200B;입니다. 그렇지 않으면 값이 **[!UICONTROL false]**&#x200B;입니다. [결합 절차 요청](/help/stitching//use-stitching.md)의 결과로 생성된 결합된 데이터 세트는 이 테이블에서 결합된 것으로 식별되지 않으며 기본적으로 **[!UICONTROL false]** 값을 갖습니다. |
    | **[!UICONTROL 세부 기간]** | 데이터 세트의 데이터 세부 기간입니다. 요약 데이터 세트에만 적용됩니다. |
    | **[!UICONTROL 데이터 소스 유형]** | 데이터 세트의 데이터 소스 유형입니다. 요약 데이터 세트에 해당되지 않습니다. |
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치하는 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -256,7 +256,7 @@ ht-degree: 98%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -293,8 +293,8 @@ ht-degree: 98%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치하는 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -494,9 +494,9 @@ ht-degree: 98%
 
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID <br/> 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}) |
 |---|---|---|---|---|
-| **[!UICONTROL 이벤트]** | 시간으로 이벤트를 나타내는 데이터입니다. 예를 들어 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 횟수 데이터 등이 있습니다. 이 데이터는 고객 ID나 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용할 ID를 유연하게 선택할 수 있습니다. | [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 설정합니다. | *시계열* 동작이 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. 예를 들면 *XDM 경험 이벤트* 또는 *XDM 결정 이벤트*&#x200B;가 해당됩니다. | 포함하고자 하는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 1개 이상의 ID가 ID 네임스페이스로 정의되고 연결된 고유한 ID 세트가 있을 수 있습니다. 이러한 ID는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 등이 있습니다. |
+| **[!UICONTROL 이벤트]** | 시간으로 이벤트를 나타내는 데이터입니다. 예를 들어 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 횟수 데이터 등이 있습니다. 이 데이터는 고객 ID나 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용되는 ID를 유연하게 사용할 수 있습니다. | [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 설정합니다. | *시계열* 동작이 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. 예를 들면 *XDM 경험 이벤트* 또는 *XDM 결정 이벤트*&#x200B;가 해당됩니다. | 포함하고자 하는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 ID 네임스페이스에 정의되고 연결된 하나 이상의 ID 세트가 있을 수 있습니다. 이러한 ID는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 등이 있습니다. |
 | **[!UICONTROL 조회]** | 프로필, 조회 및 이벤트 데이터 세트(후자의 경우 항상 지원됨) 등 모든 데이터 세트 유형 내의 필드 조회로 데이터세트를 추가할 수 있습니다. 이 추가 기능은 B2B 등 복잡한 데이터 모델을 지원하는 Customer Journey Analytics의 기능을 확장합니다. 이 데이터는 이벤트, 프로필 또는 조회 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 최대 3개 조회 수준을 추가할 수 있습니다. ([파생 필드](/help/data-views/derived-fields/derived-fields.md)는 연결 내 조회에 대해 일치하는 키로 사용할 수 없습니다.) 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 사례에 대해서는 [B2B 예시](/help/use-cases/b2b/example.md)를 참조하십시오. | 해당 사항 없음 | *XDM 개별 프로필* 클래스를 제외하고, *레코드* 동작이 있는 XDM 클래스를 기반으로 한 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. | 해당 사항 없음 |
-| **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 계정, 개인, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 사항 없음 | *XDM 개인 프로필* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마입니다. | 포함하고자 하는 개인 ID/계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트(요약 데이터 세트 제외)에는 하나 이상의 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})가 정의되어 있습니다. 예를 들어 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID 등이 있습니다.<br>![개인 ID &#x200B;](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 병합하려면 동일한 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})를 사용해야 합니다. |
+| **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 계정, 개인, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 사항 없음 | *XDM 개인 프로필* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마입니다. | 포함하고자 하는 개인 ID/계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트(요약 데이터 세트 제외)에는 하나 이상의 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})가 정의되어 있습니다. 예를 들어 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID 등이 있습니다.<br>![개인 ID ](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 병합하려면 동일한 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})를 사용해야 합니다. |
 | **요약** | 개별 개인 ID와 관련이 없는 시계열 데이터입니다. 요약 데이터는 캠페인과 같이 여러 집계 수준에서 집계된 데이터를 나타냅니다. 이 데이터를 Customer Journey Analytics에 활용해 다양한 사용 사례를 지원할 수 있습니다. 자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하십시오. | Experience Platform의 이벤트 기반 요약 지표 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. 시간별 또는 일별 세부 기간만 지원됩니다. | *XDM 요약 지표* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. | 해당 사항 없음 |
 
 또는 위에 나열된 데이터 세트 유형은 일반 XDM 기반 스키마 대신 애드 혹이나 관계형 스키마를 기반으로 할 수 있습니다.
@@ -508,6 +508,75 @@ ht-degree: 98%
 
 
 ### 데이터 세트 추가
+
+연결을 만들거나 편집할 때 하나 이상의 Experience Platform 데이터 세트를 추가할 수 있습니다.
+
+#### 사용자 기반 연결용
+
+1. **[!UICONTROL 연결]** > **[!UICONTROL _연결 이름_]** 인터페이스에서 ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
+
+1. ➊ **[!UICONTROL 데이터 세트 선택]** 단계에서는 Experience Platform 데이터 세트의 목록이 표시됩니다.
+
+   ![데이터 세트 선택](assets/select-datasets.png)
+
+   각 데이터 세트에 대해, 목록은 다음과 같이 나타납니다.
+
+   | 열 | 설명 |
+   |---|---|
+   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동할 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트 유형]** | 데이터 세트 유형: [이벤트](#event-dataset), [프로필](#profile-dataset), [조회](#lookup-dataset), [요약](#summary-dataset), [임시](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) |
+   | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
+   | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동할 이름을 선택합니다. |
+   | **[!UICONTROL 마지막 배치]** | Experience Platform에서 수집된 마지막 배치의 상태입니다. 더 자세한 내용은 [배치 상태](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/batch/troubleshooting#batch-states)를 참조하시기 바랍니다. |
+   | **[!UICONTROL 데이터 세트 ID]** | 데이터 세트의 ID입니다. |
+   | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트에서 마지막으로 업데이트된 타임스탬프입니다. |
+
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
+   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)**[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
+   * 데이터 세트에 대한 세부 정보를 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다.
+
+
+1. 하나 이상의 데이터 세트를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 하나 이상의 이벤트 또는 요약 데이터 세트가 연결의 일부가 되어야 합니다.
+
+1. **[!UICONTROL 데이터 세트 추가]** 대화 상자의 ➋ **[!UICONTROL 데이터 세트 설정]** 단계에서 [선택한 데이터 세트 각각의 설정](#dataset-settings)을 하나씩 구성합니다.
+
+   ![Add datasets](assets/add-dataset.png)
+
+   * 연결에서 데이터 집합을 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]**&#x200B;을(를) 선택하십시오.
+   * 뒤로 돌아가려면 **[!UICONTROL 뒤로]**&#x200B;를 선택하세요.
+   * 연결에 데이터 세트 추가를 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+
+1. 계속하려면 선택한 데이터 세트에 필요한 모든 설정을 지정해야 합니다. 필수 입력이 누락된 경우 해당 필수 입력이 누락된 특정 유형의 데이터 세트 수를 나타내는 빨간색 숫자가 표시됩니다. ![AlertRed](/help/assets/icons/AlertRed.svg) 및 빨간색 설명은 입력 또는 선택한 값이 없는 필수 필드를 식별합니다. 모든 데이터 세트에 대한 모든 필수 설정을 구성했으면 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+1. ❸ **[!UICONTROL 데이터 세트 미리 보기]**&#x200B;에서는 최근에 수집된 데이터의 간단한 데이터 집합을 기반으로 하는 각 데이터 세트에 대한 미리 보기를 볼 수 있습니다.
+
+   ![연결의 일부로 데이터 세트를 추가하는 동안 데이터 세트 미리 보기](/help/connections/assets/add-dataset-preview.png)
+
+   * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
+   * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
+   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**[!UICONTROL 대화 상자에서:]**
+      1. 테이블에 표시할 열을 선택합니다.
+      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
+   * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
+
+   **[!UICONTROL 데이터 집합 정보]** 창에는 데이터 집합에 대한 세부 정보가 표시됩니다. **[!UICONTROL 스키마]** 또는 **[!UICONTROL 데이터 세트]**&#x200B;의 값을 선택하여 새 브라우저 탭에서 Experience Platform의 관련 인터페이스를 엽니다.
+
+   * 연결에서 데이터 집합을 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]**&#x200B;을(를) 선택하십시오.
+   * 뒤로 돌아가려면 **[!UICONTROL 뒤로]**&#x200B;를 선택하세요.
+   * 연결에 데이터 세트 추가를 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+
+
+1. 구성된 데이터 세트를 연결에 추가하려면 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택하십시오.
+
+>[!NOTE]
+>AWS에 Customer Journey Analytics을 배포한 고객의 경우 별도의 ❸ 데이터 세트 미리 보기 단계가 없습니다. 미리 보기는 ❷ 데이터 집합 설정의 일부입니다.
+>
+
+
+
+
+#### 계정 기반 연결용
 
 연결을 만들거나 편집할 때 하나 이상의 Experience Platform 데이터 세트를 추가할 수 있습니다.
 
@@ -541,7 +610,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL 데이터 세트 추가]** 대화 상자의 ➋ **[!UICONTROL 데이터 세트 설정]** 단계에서 [선택한 데이터 세트 각각의 설정](#dataset-settings)을 하나씩 구성합니다.
 
-   ![Add datasets](assets/add-dataset.png)
+   ![Add datasets](assets/add-dataset-b2b.png)
 
 1. 구성된 데이터 세트를 연결에 추가하려면 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 추가하려는 각 데이터 세트에 대한 모든 필수 설정을 제공하지 않은 경우, 알림을 받습니다.
 
@@ -552,12 +621,60 @@ ht-degree: 98%
 
 연결에 대해 이미 구성된 데이터 세트를 편집하려면 **[!UICONTROL 연결]** > **[!UICONTROL _연결 이름_]** 인터페이스에서 다음을 수행합니다.
 
+
+#### 사용자 기반 연결용
+
+1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 연결 편집]**&#x200B;을 선택합니다.
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 데이터 세트 편집: _데이터 세트 이름_]**&#x200B;대화 상자에서 [데이터 세트 설정](#dataset-settings)을 구성합니다.
+1. ❶ **[!UICONTROL 데이터 집합 설정]**&#x200B;에서 [데이터 집합 편집: ](#dataset-settings)데이터 집합 이름&#x200B;**[!UICONTROL 대화 상자에서 _데이터 집합 설정_]**을 구성하십시오.
 
-   ![Edit dataset](assets/edit-dataset.png)
+   ![Edit dataset](assets/edit-dataset-b2c.png)
+
+   변경하는 경우 계속하기 전에 데이터 세트에 필요한 모든 설정을 지정해야 합니다. 필수 입력이 누락된 경우 계속할 수 없습니다. ![AlertRed](/help/assets/icons/AlertRed.svg) 및 빨간색 설명은 입력 또는 선택한 값이 없는 필수 필드를 식별합니다.
+
+   >[!NOTE]
+   >
+   >저장된 연결의 일부인 [애드 혹](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) 데이터 세트에 대한 **[!UICONTROL 데이터 세트 유형]**, **[!UICONTROL 개인 ID]**, **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL 타임스탬프]**&#x200B;를 편집할 수 없습니다. 이러한 설정을 변경하려면 다음과 같은 작업을 수행합니다.
+   >
+   >1. 연결에서 기존의 애드 혹 또는 관계형 데이터 세트를 삭제합니다.
+   >1. 업데이트된 설정이 있는 동일한 데이터 세트를 연결에 추가합니다.
+   >
+
+   연결에서 데이터 집합을 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]**&#x200B;을(를) 선택하십시오.
+
+   데이터 집합에 필요한 설정을 모두 구성했으면 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. ❷ **[!UICONTROL 데이터 세트 미리 보기]**&#x200B;에서는 최근에 수집된 데이터의 간단한 데이터 집합을 기반으로 하는 각 데이터 세트에 대한 미리 보기를 볼 수 있습니다.
+
+   ![연결의 일부로 데이터 세트를 추가하는 동안 데이터 세트 미리 보기](/help/connections/assets/add-dataset-preview.png)
+
+   * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
+   * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
+   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**[!UICONTROL 대화 상자에서:]**
+      1. 테이블에 표시할 열을 선택합니다.
+      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
+   * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
+
+   **[!UICONTROL 데이터 집합 정보]** 창에는 데이터 집합에 대한 세부 정보가 표시됩니다. **[!UICONTROL 스키마]** 또는 **[!UICONTROL 데이터 세트]**&#x200B;의 값을 선택하여 새 브라우저 탭에서 Experience Platform의 관련 인터페이스를 엽니다.
+
+   * 연결에서 데이터 집합을 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]**&#x200B;을(를) 선택하십시오.
+   * 뒤로 돌아가려면 **[!UICONTROL 뒤로]**&#x200B;를 선택하세요.
+   * 연결에 데이터 세트 추가를 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+
+1. 데이터 세트 설정을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
+
+
+#### 계정 기반 연결용
+
+1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 연결 편집]**&#x200B;을 선택합니다.
+1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
+1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
+
+1. **[!UICONTROL 데이터 세트 편집: _데이터 세트 이름_]**대화 상자에서 [데이터 세트 설정](#dataset-settings)을 구성합니다.
+
+   ![Edit dataset](assets/edit-dataset-b2b.png)
 
    >[!NOTE]
    >
@@ -568,7 +685,6 @@ ht-degree: 98%
    >
 
 1. 데이터 세트 설정을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
-
 
 ### 데이터 세트 설정
 
@@ -762,7 +878,7 @@ ht-degree: 98%
 
 ### 이전 채우기
 
-인터페이스에서 ![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 선택하면 **[!UICONTROL 이전 채우기: _데이터 세트 이름_]**&#x200B;대화 상자에 데이터 세트에서 가장 최근 채우기가 표시됩니다.
+인터페이스에서 ![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 선택하면 **[!UICONTROL 이전 채우기: _데이터 세트 이름_]**대화 상자에 데이터 세트에서 가장 최근 채우기가 표시됩니다.
 
 
 ## 연결 미리보기 {#preview}
@@ -780,7 +896,7 @@ ht-degree: 98%
 
 ![연결 맵](assets/connectionmap.png)
 
-이 맵은 연결을 정의하고 컨테이너 및 식별자를 사용하여 이벤트, 프로필, 조회 및 요약 데이터 세트 간의 관계를 설정한 방식을 더 잘 이해하는 데 도움이 됩니다.
+이 맵을 사용하면 연결을 정의한 방법을 더 잘 이해할 수 있습니다. 컨테이너와 식별자를 사용하여 이벤트, 프로필, 조회 및 요약 데이터 세트 간의 관계를 설정하는 방법입니다.
 
 
 ## 숫자 필드를 조회 키 및 조회 값으로 사용 {#numeric}
@@ -843,5 +959,5 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 >[!MORELIKETHIS]
 >
 >* [데이터 수집 개요](/help/data-ingestion/data-ingestion.md)
->* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=ko)
+>* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699)
 
