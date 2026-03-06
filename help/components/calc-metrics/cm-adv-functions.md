@@ -4,10 +4,10 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: a5e07891b23184dfe5d4c3f1b2c4b36b6884fb72
+source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
 workflow-type: tm+mt
-source-wordcount: '5294'
-ht-degree: 99%
+source-wordcount: '5286'
+ht-degree: 98%
 
 ---
 
@@ -433,14 +433,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="지수 회귀: 상관 계수"
->abstract="지수 회귀: Y = a exp(X) + b. 상관 계수를 반환합니다."
+>abstract="지수 회귀: Y = b * exp(aX). 상관 계수를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. 상관 계수를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = b * exp(aX). 상관 계수를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -456,14 +456,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="지수 회귀: 예측된 Y"
->abstract="지수 회귀: Y = a exp(X) + b. Y를 반환합니다."
+>abstract="지수 회귀: Y = b * exp(aX). Y를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 행]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. Y를 반환합니다.
+[!BADGE 행]{type="Neutral"} 지수 회귀: Y = b * exp(aX). Y를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -480,14 +480,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="지수 회귀: 절편"
->abstract="지수 회귀: Y = a exp(X) + b. b를 반환합니다."
+>abstract="지수 회귀: Y = b * exp(aX). b를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. b를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = b * exp(aX). b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -503,14 +503,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="지수 회귀: 기울기"
->abstract="지수 회귀: Y = a exp(X) + b. a를 반환합니다."
+>abstract="지수 회귀: Y = b * exp(aX). a를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. a를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = b * exp(aX). a를 반환합니다.
 
 
 | 인수 | 설명 |
