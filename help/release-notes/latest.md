@@ -3,7 +3,7 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b8cb704b3c05780d1a4af610f6ad336ab5c789cf
+source-git-commit: 53099bd891d939260a95cffc66e7857167901902
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 39%
@@ -20,7 +20,7 @@ ht-degree: 39%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | -------: | ----:|
-| **연결에서 데이터 세트 미리 보기 다시 디자인**<p>사용자 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)하면 데이터 미리 보기 환경이 개선됩니다. 활성화된 데이터 세트 결합의 경우 [결합 지표](/help/stitching/use-stitching-ui.md#stitching-metrics) 및 [잘못된 ID에 대한 정보](/help/stitching/use-stitching-ui.md#bad-ids)를 추가로 사용할 수 있습니다. | 2026년 3월 6일 토요일 | 2026년 3월 6일 토요일 |
+| **연결에서 데이터 세트 미리 보기 다시 디자인**<p>사용자 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)하면 데이터 미리 보기 환경이 개선됩니다. 활성화된 데이터 세트 결합의 경우 [결합 지표](/help/stitching/use-stitching-ui.md#stitching-metrics) 및 [잘못된 ID에 대한 정보](/help/stitching/use-stitching-ui.md#bad-ids)를 추가로 사용할 수 있습니다. | 2026년 3월 6일 토요일 | TBD |
 | **헤더 재정의** <p>Content Analytics에서 헤더 이름과 암호 헤더 값을 지정할 수 있습니다. 이 [헤더는 구성을 무시합니다](/help/content-analytics/config/guided.md#header-overrides) Content Analytics에서 사용자가 구현한 보트 검색 또는 게이트 트래픽 기술을 무시하도록 사용자 지정 HTTP 헤더를 보내도록 합니다.</p> |  | 2026년 2월 2일 화요일 |
 | **여러 IMS 조직의 보고서 세트 결합**<p>Analytics Source 커넥터를 사용하여 여러 IMS 조직의 보고서 세트를 결합할 수 있습니다. 이 [IMS 간 데이터 매핑](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) 기능을 사용하면 고객 데이터가 여러 IMS 조직에 분산되어 있는 경우에도 조직에서 고객 데이터를 통합적으로 볼 수 있습니다. <p>**참고:** 이 구성은 Adobe 고객 지원 센터에 요청을 제출하는 경우에만 사용할 수 있습니다.</p> |  | 2026년 2월 12일 금요일 |
 | **자유 형식 테이블에 여러 차원 열 포함**<p>이제 자유 형식 테이블에 최대 5개의 차원 열을 포함하여 여러 차원 항목을 나란히 볼 수 있습니다. 차원 항목의 각 행은 연결된 단일 차원 항목처럼 작동합니다.</p><p>여러 차원 열이 있는 자유 형식 테이블에 필터, 정렬, 분류 등을 적용하여 더욱 심층적이고 사용자 정의된 분석을 만들 수 있습니다.</p><p>이전에는 자유 형식 테이블에 차원 열을 1개만 포함할 수 있었습니다.</p><p>자세한 내용은 [자유 형식 테이블에 여러 차원 열 포함](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)을 참조하십시오.</p> | 2026년 1월 28일 | 2026년 3월 4일 목요일 <p>(원래 2026년 2월 18일 목요일로 계획됨)</p> |
