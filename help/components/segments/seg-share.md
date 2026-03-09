@@ -4,10 +4,10 @@ title: 세그먼트 공유
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 6%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 6%
    1. **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]** 섹션에서 옵션을 하나 이상 선택하거나 한 명 이상의 개인을 검색하고 선택하십시오. 사용 가능한 옵션은 역할에 따라 다릅니다.
 
    1. 세그먼트를 공유하려면 **[!UICONTROL 저장]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
+
+공유 세그먼트에 대한 액세스 권한이 있는 경우 프로젝트에서 사용하거나 [데이터 보기의 설정](/help/data-views/session-settings.md)의 일부로 사용할 수 있습니다.
 
 ## 모범 사례
 

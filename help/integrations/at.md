@@ -4,10 +4,10 @@ description: Adobe Target과 Customer Journey Analytics 통합
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '386'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +25,9 @@ Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Ana
 
 ## 참고 사항 및 고려 사항
 
-Target 분류 이벤트 데이터 세트가 CJA 연결에 추가되면 이들 구성 요소가 차원으로 추가되면 CJA 데이터 보기 내에서 다음과 같은 몇 가지 사항을 약간 조정할 수 있습니다.
+Target 활동에서는 [보고 소스로 Customer Journey Analytics을 사용](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)해야 합니다.
+
+Target 분류 이벤트 데이터 세트가 연결에 추가되면 이들 구성 요소가 차원으로 추가되면 데이터 보기 내에서 다음과 같은 몇 가지 사소한 조정을 수행할 수 있습니다.
 
 * 지속성을 Target에서 추적하는 방식과 유사하게 설정합니다(적절한 설정이 있는지 Target 컨설턴트 또는 고객에게 확인).
 
