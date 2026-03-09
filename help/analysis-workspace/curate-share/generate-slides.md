@@ -5,9 +5,9 @@ title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
+source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1696'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Data Storytelling은 Data Insights Agent에 따른 스킬이며 제한된 시간 동안 적격 고객이 사용할 수 있습니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일에 종료됩니다. 중단 없이 Data Insights Agent 또는 기타 Adobe Experience Platform 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대한 자세한 내용을 확인하십시오.
+>Data Storytelling은 Data Insights Agent에 따른 스킬이며 제한된 시간 동안 적격 고객이 사용할 수 있습니다. Data Insights 에이전트에 대한 액세스는 2026년 3월 31일 수요일에 종료됩니다. 중단 없이 Data Insights Agent 또는 기타 Adobe Experience Platform 에이전트를 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대한 자세한 내용을 확인하십시오.
 
 
 [필요한 권한](#permission-requirements-to-generate-slides)이 있는 사용자는 Analysis Workspace 프로젝트 기반의 .pptx 프레젠테이션을 자동으로 생성할 수 있습니다. 이러한 슬라이드 프레젠테이션을 생성할 때 Customer Journey Analytics은 주요 인사이트를 식별하고 관련자가 사용할 수 있는 슬라이드로 변환하여 데이터에서 스토리를 자동으로 생성합니다.
