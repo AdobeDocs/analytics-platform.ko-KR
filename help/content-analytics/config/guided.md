@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
+source-git-commit: 6e7776cbaf99d5b2031b0fb3872c331852443b74
 workflow-type: tm+mt
-source-wordcount: '3393'
+source-wordcount: '3419'
 ht-degree: 81%
 
 ---
@@ -431,6 +431,16 @@ Customer Journey Analytics에서 [데이터 보기](/help/data-views/data-views.
 
 
 ### 헤더 재정의
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="헤더 재정의"
+>abstract="**헤더 재정의**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="헤더 재정의"
+>abstract="보트 탐지 또는 게이트 트래픽을 우회하는 고급 기능입니다. Content Analytics에는 끝점을 호출할 때 사용자 지정 HTTP 헤더가 포함됩니다."
 
 선택적으로 **[!UICONTROL 헤더 무시]** 섹션에서 헤더 이름과 암호 헤더 값을 지정할 수 있습니다.  이 헤더는 구성을 무시하므로 Content Analytics은 구현한 보트 감지 또는 게이트 트래픽 기술을 무시하도록 사용자 지정 HTTP 헤더를 전송합니다.
 
