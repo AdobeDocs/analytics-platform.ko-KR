@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 53099bd891d939260a95cffc66e7857167901902
+source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -102,22 +102,22 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
->title="스티칭 지표"
+>title="결합 지표"
 >abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리 보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
->title="개인 ID 범위"
+>title="개인 ID 적용 범위"
 >abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위.<br/>최상의 결합 결과를 얻으려면 (영구 ID, 개인 ID) 관계가 각 영구 ID의 ID 그래프에 있어야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
->title="개인 ID 범위"
+>title="개인 ID 적용 범위"
 >abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위.<br/>최상의 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)를 보내야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
->title="영구 ID 범위"
+>title="영구 ID 적용 범위"
 >abstract="이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(라이브 및 재생) 중에 식별에 사용됩니다. <br/>영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다."
 
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-16444" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
 
 
 ### 데이터 세트 설정
@@ -186,7 +186,7 @@ ht-degree: 5%
 
 ![ID 결합을 활성화할 때 ID 결합 옵션](assets/identity-stitching-ui-preview.png)
 
-#### 스티칭 지표
+#### 결합 지표
 
 
 
