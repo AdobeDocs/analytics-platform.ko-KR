@@ -12,4 +12,4 @@ ht-degree: 8%
 
 # 브라우저 및 언어 지원
 
-Customer Journey Analytics supports all browsers and languages that are supported in the Experience Platform UI, as described in [Browser and language support for the Experience Platform UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/browser-language-support#language-support).
+Customer Journey Analytics supports all browsers and languages that are supported in the Experience Platform UI, as described in [Browser and language support for the Experience Platform UI](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-ui/browser-language-support#language-support).
