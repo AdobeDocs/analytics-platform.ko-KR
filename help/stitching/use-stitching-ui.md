@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
+source-git-commit: 1e0d028db957743416bc7840f5a3682206a3edf3
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1808'
 ht-degree: 9%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="결합 지표"
->abstract="결합 지표는 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 세트를 사용하여 계산됩니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리 보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
+>abstract="결합 지표는 지난 7일 내에 이벤트의 타임스탬프가 있는 샘플 데이터 세트를 사용하여 계산되고 있습니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리 보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -125,7 +125,7 @@ ht-degree: 9%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
 
 
 ### 데이터 세트 설정
@@ -188,9 +188,7 @@ ht-degree: 9%
 
 #### 결합 지표
 
-
-
-**[!UICONTROL 결합 지표]**&#x200B;은(는) 지난 7일 동안 수집된 모든 데이터의 샘플 데이터 집합을 사용하여 계산됩니다. 이 샘플 데이터 집합은 일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다. 결합 지표는 다음에 대한 세부 정보를 제공합니다.
+**[!UICONTROL 결합 지표]**&#x200B;은(는) 지난 7일 내에 이벤트 타임스탬프가 있는 샘플 데이터 집합을 사용하여 계산되고 있습니다. 이 샘플 데이터 집합은 일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다. 결합 지표는 다음에 대한 세부 정보를 제공합니다.
 
 * **[!UICONTROL 개인 ID 범위]**: 결합 프로세스(실시간 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위입니다.
    * 최상의 필드 기반 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)가 전송되어야 합니다.
