@@ -8,7 +8,7 @@ role: User
 source-git-commit: c4a7884ae05d9290b2974483474ba8326492d014
 workflow-type: tm+mt
 source-wordcount: '3234'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
 >title="Data Warehouse와 유사한 전체 테이블 내보내기 만들기"
->abstract="Analysis Workspace에서 데이터를 확인하는 즉시 전체 테이블 내보내기가 가능합니다. 필요에 따라 전체 테이블 내보내기를 생성하거나 예약할 수 있습니다.<br><br>내보내기에 포함할 데이터를 이미 알고 있는 경우 몇 분 안에 전체 테이블 내보내기를 만들 수 있습니다."
+>abstract="Analysis Workspace에서 데이터를 확인하는 즉시 전체 테이블 내보내기가 가능합니다. 필요에 따라 전체 테이블 내보내기를 만들거나 예약할 수 있습니다.<br><br>내보내기에 포함할 데이터를 이미 알고 있는 경우 몇 분만에 전체 테이블 내보내기를 만들 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +113,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-notifications"
 >title="알림"
->abstract="이 내보내기가 실패하거나 곧 만료될 때 알림을 받을 사용자 및 그룹을 추가합니다."
+>abstract="이 내보내기가 실패했거나 만료될 예정일 때 알림을 받을 사용자와 그룹을 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 

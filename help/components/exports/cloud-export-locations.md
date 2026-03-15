@@ -107,11 +107,11 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
 
    1. [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 엽니다.
 
-   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***(으)로 이동합니다.
+   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***(으)로 이동합니다.
 
       >[!NOTE]
       >
-      >폴더 이름 **[!UICONTROL cjaexport-_number_]**&#x200B;은(는) Azure 저장소 탐색기에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**&#x200B;이 됩니다.
+      >폴더 이름 **[!UICONTROL cjaexport-_number_]**은(는) Azure 저장소 탐색기에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**이 됩니다.
 
 
       ![Azure 저장소 탐색기에서 파일 액세스](assets/azure-storage-explorer-access.png)
@@ -122,17 +122,17 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
 
 1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
 
-   * 위에서 설명한 내보내기 페이지에서 [클라우드 내보내기 위치 만들기](#begin-creating-a-cloud-export-location)를 시작합니다.
+   * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 위치를 만들기 시작](#begin-creating-a-cloud-export-location)합니다.
 
-   * [Analysis Workspace에서 전체 테이블을 내보내는 중](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
-1. [!UICONTROL **위치 추가**] 대화 상자의 [!UICONTROL **위치 속성**] 섹션에서 다음 정보를 지정하여 Amazon S3 역할 ARN 위치를 구성합니다.
+1. [!UICONTROL **위치 추가**] 대화 상자의 [!UICONTROL **위치 속성**] 섹션에서 다음 정보를 지정하여 Amazon S3 역할 ARN 위치를 구성하십시오.
 
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. <p>Adobe에서 제공한 사용자 ARN에 이 버킷에 파일을 업로드할 수 있는 `S3:PutObject` 권한이 있는지 확인하십시오. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [전체 명명 규칙 목록은 AWS 설명서에서 사용할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
-   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 파일 이름 앞에 동적 사용자 정의 파일 경로를 삽입할 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화하여 파일 이름을 논리적 방식으로 예측 및 폴더로 구성할 수 있습니다. 예를 들어 파일 이름은 전달된 날짜에 따라 이름을 지정한 다음 각 달에 해당하는 폴더에 넣을 수 있습니다.</p><p>파일 이름 및 경로에 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -154,7 +154,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    |---------|----------|
    | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe에서 제공한 사용자에 대해 `roles/storage.objectCreator` 권한을 부여했는지 확인하십시오. [Google Cloud Platform 계정을 구성](/help/components/exports/cloud-export-accounts.md)할 때 보안 주체가 제공됩니다. <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
-   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업에 대한 총 파일 번호입니다.</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -164,13 +164,13 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
 
 ### Azure SAS
 
-1. 다음 방법 중 하나로 클라우드 내보내기 위치 만들기를 시작합니다.
+1. 다음 방법 중 하나로 클라우드 내보내기 위치를 만들기 시작합니다.
 
-   * 위에서 설명한 내보내기 페이지에서 [클라우드 내보내기 위치 만들기](#begin-creating-a-cloud-export-location)를 시작합니다.
+   * 위에서 설명한 대로 내보내기 페이지에서 [클라우드 내보내기 위치를 만들기 시작](#begin-creating-a-cloud-export-location)합니다.
 
-   * [Analysis Workspace에서 전체 테이블을 내보내는 중](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
+   * [Analysis Workspace에서 전체 테이블을 내보낼 때](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
-1. [!UICONTROL **위치 추가**] 대화 상자의 [!UICONTROL **위치 속성**] 섹션에서 다음 정보를 지정하여 Azure SAS 위치를 구성합니다.
+1. [!UICONTROL **위치 추가**] 대화 상자의 [!UICONTROL **위치 속성**] 섹션에서 다음 정보를 지정하여 Azure SAS 위치를 구성하십시오.
 
    | 필드 | 함수 |
    |---------|----------|
@@ -223,7 +223,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
    | [!UICONTROL **스키마**] | 지정된 스키마는 기존 스키마여야 합니다. 이 스키마에 액세스하려면 만든 역할에 권한이 있어야 합니다.<p>단계 이름과 연결된 스키마입니다.</p><p>다음 명령을 사용하여 Snowflake의 스키마에 권한을 만든 역할을 부여할 수 있습니다. `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>자세한 내용은 Snowflake 설명서의 [데이터베이스, 스키마 및 공유 명령 페이지](https://docs.snowflake.com/en/sql-reference/commands-database)를 참조하십시오.</p> |
    | [!UICONTROL **단계 이름**] | Snowflake에서 데이터 파일이 저장되는 내부 단계의 이름입니다.<p>계정에서 지정한 역할에 이 단계 이름에 대한 읽기 및 쓰기 권한이 있는지 확인하십시오. (읽기 및 쓰기 액세스 권한을 부여하므로 Adobe에서만 사용되는 단계를 사용하는 것이 좋습니다.)</p><p>다음 명령을 사용하여 Snowflake의 단계 이름에 읽기 및 쓰기 액세스 권한을 부여할 수 있습니다. `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>역할에 권한을 부여하는 방법에 대한 자세한 내용은 [Snowflake 설명서에서 권한 부여](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege)를 참조하십시오.</p> <p>단계 이름에 대한 자세한 내용은 [Snowflake 설명서의 로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)을 참조하십시오.</p> |
    | [!UICONTROL **단계 경로**] | Snowflake에서 데이터 파일이 저장되는 위치에 대한 경로입니다. <p>자세한 내용은 Snowflake 설명서에서 [로컬 파일에 대한 내부 단계 선택](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)을 참조하십시오.</p> |
-   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하면 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv가 됩니다.</p> |
+   | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 동적 사용자 지정 파일 경로로 파일 이름 앞에 올 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
