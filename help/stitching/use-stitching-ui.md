@@ -125,7 +125,7 @@ ht-degree: 10%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
 
 
 ### 데이터 세트 설정
