@@ -8,7 +8,7 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="개인 ID"
->abstract="사용 가능한 ID에서 개인 ID(개인에 대한 고유 식별자)를 선택합니다. 라이선스에 그래프 기반 연결이 포함되어 있고 이 연결 방법을 사용하려면 **[!UICONTROL ID 그래프]**&#x200B;를 선택하세요."
+>abstract="사용 가능한 ID에서 개인 ID(개인에 대한 고유 식별자)를 선택합니다. 라이선스가 그래프 기반 결합을 포함하며 해당 결합 방법을 사용하고자 하는 경우 **[!UICONTROL ID 그래프]**&#x200B;를 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
@@ -125,7 +125,7 @@ ht-degree: 9%
 >id="connection_stitchingmetrics_badids"
 >title="잘못된 ID"
 >abstract="잘못된 ID는 보고 데이터에 심각한 영향을 주는 ID 값입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="잘못된 ID"
 
 
 ### 데이터 세트 설정
