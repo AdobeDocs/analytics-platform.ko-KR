@@ -4,58 +4,68 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 1741b2f3fc0588aaf0f403c6f3863ce837e376e9
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 99%
+source-wordcount: '663'
+ht-degree: 49%
 
 ---
 
 # Customer Journey Analytics 랜딩 페이지
 
-Customer Journey Analytics 랜딩 페이지는 프로젝트 관리자 홈 페이지와 학습 섹션을 강조 표시하여[!DNL Analysis Workspace] 고객 여정 데이터를 보다 효과적으로 관리할 수 있습니다.
+Customer Journey Analytics 랜딩 페이지에는 다음 하위 탭이 포함되어 있습니다.
+
+**[!UICONTROL 프로젝트]**: 사용자가 빌드했거나 다른 사용자가 빌드하여 해당 사용자와 공유한 데이터 구성 요소, 테이블 및 시각화를 결합한 사용자 지정 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
+
+**[!UICONTROL 템플릿]**: Adobe에서 제공하는 템플릿과 조직 고유의 템플릿을 포함합니다.
+
+**[!UICONTROL 학습]**: 실습형 비디오 둘러보기, 튜토리얼 및 설명서 링크가 포함되어 있습니다. 또한 조직 고유의 업그레이드 단계를 동적으로 생성하는 도구와 함께 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 방법에 대한 정보가 포함되어 있습니다.
+
+![CJA 랜딩 페이지 왼쪽 레일](assets/cja-landing-page-left-rail.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-Customer Journey Analytics 랜딩 페이지는 ‘프로젝트’ 및 ‘학습’ 하위 탭으로 구성됩니다.
-
-**[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사람이 빌드하고 사용자와 공유했던 데이터 구성 요소, 테이블 및 시각화를 결합하는 사용자 정의된 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
-
-**[!UICONTROL 학습]** 탭에는 실습형 비디오 둘러보기, 튜토리얼 및 설명서 링크가 포함되어 있습니다.
-
->[!BEGINTABS]
-
->[!TAB 프로젝트]
-
-![Projects landing page](assets/landing-projects.png)
-
->[!TAB 학습]
-
-![Learning landing page](assets/landing-learning.png)
-
-
->[!ENDTABS]
-
 ## 프로젝트
 
-[!UICONTROL 프로젝트]는 [!UICONTROL Workspace] 홈 페이지 역할을 합니다. **[!UICONTROL 프로젝트]** 탭에는 회사 폴더, 사용자가 만든 모든 개인 폴더, 프로젝트 및 모바일 스코어카드가 표시됩니다. 이 페이지를 사용하여 폴더, 프로젝트 및 모바일 스코어카드를 보고, 만들고, 수정합니다. 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
+왼쪽 레일의 **[!UICONTROL 프로젝트]** 섹션은 [!UICONTROL **Workspace**] 탭의 홈 페이지 역할을 합니다.
 
+Customer Journey Analytics의 프로젝트에 액세스하려면:
+
+1. [!UICONTROL **Workspace**] 탭을 선택합니다.
+
+1. 왼쪽 레일에서 [!UICONTROL **프로젝트**]&#x200B;를 선택합니다.
+
+프로젝트 섹션에는 회사 폴더, 생성한 모든 개인 폴더, Workspace 프로젝트 및 모바일 스코어카드가 표시됩니다. 이 페이지를 사용하여 폴더, 프로젝트 및 모바일 스코어카드를 보고, 만들고, 수정합니다. 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
 
 **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사람이 빌드하고 사용자와 공유했던 데이터 구성 요소, 테이블 및 시각화를 결합하는 사용자 정의된 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
 
 >[!NOTE]
 >
->다음 설정 중 일부는 세션 중과 세션 간에 유지됩니다. 예: 선택된 탭, 선택된 세그먼트, 선택된 열과 열 정렬 방향. 검색 결과는 유지되지 않습니다.
+>다음 설정 중 일부는 세션 간에 유지됩니다. 예: 선택된 탭, 선택된 세그먼트, 선택된 열과 열 정렬 방향. 검색 결과가 지속되지 않습니다.
 
 자세한 내용은 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.
+
+## 템플릿
+
+Customer Journey Analytics에서 템플릿에 액세스하려면 다음을 수행하십시오.
+
+1. [!UICONTROL **Workspace**] 탭을 선택합니다.
+
+1. 왼쪽 레일의 [!UICONTROL **템플릿**] 섹션에서 Adobe 템플릿 또는 회사 템플릿을 선택할 수 있습니다.
+
+템플릿 사용에 대한 자세한 내용은 다음 리소스를 참조하십시오.
+
+* [템플릿 사용](/help/analysis-workspace/templates/use-templates.md)
+
+* [템플릿 만들기 및 관리](/help/analysis-workspace/templates/create-templates.md)
 
 <!--
 
@@ -93,7 +103,7 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
@@ -111,20 +121,20 @@ The available columns are:
 
 ## 학습
 
-학습 페이지에는 실습형 비디오 둘러보기, 튜토리얼 및 설명서 링크가 포함되어 있습니다.
+**[!UICONTROL Workspace]** 탭의 [!UICONTROL **학습**] 섹션에서는 Customer Journey Analytics의 초급, 중급 또는 고급 기능 및 사용 사례에 대한 정보를 제공합니다. 또한 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 방법에 대한 정보도 제공합니다.
 
-Customer Journey Analytics의 학습 페이지를 사용하여 다음과 같은 내용을 학습합니다.
+### 학습 경로
 
-* Customer Journey Analytics의 초급, 중급 또는 고급 기능 및 사용 사례
-* Adobe Analytics에서 Customer Journey Analytics로 보다 원활하게 전환하는 방법
+Customer Journey Analytics의 학습 경로 정보에 액세스하려면:
 
-학습 콘텐츠에 접근하는 방법:
+1. [!UICONTROL **Workspace**] 탭을 선택합니다.
 
-* Customer Journey Analytics의 상단 메뉴에서 [!UICONTROL **Workspace**]&#x200B;을 선택한 다음 왼쪽 패널에서 [!UICONTROL **학습**]&#x200B;을 선택합니다.
+1. 왼쪽 레일의 [!UICONTROL **학습**] 섹션에서 [!UICONTROL **학습 경로**]&#x200B;를 선택합니다.
 
-### 기능
+   이 페이지에는 실습형 비디오 투어, 튜토리얼 및 설명서 링크가 포함되어 있습니다.
 
-학습 페이지는 다음 기능을 제공합니다.
+
+[!UICONTROL **학습 경로**] 페이지에서는 다음 기능을 제공합니다.
 
 * **콘텐츠 필터링**: ![Filter](/help/assets/icons/Filter.svg)를 사용하여 **[!UICONTROL 유형]**(**[!UICONTROL 문서]**, **[!UICONTROL 비디오]**&#x200B;와 **[!UICONTROL 둘러보기 및 튜토리얼]**)과 **[!UICONTROL 경험 수준]**(**[!UICONTROL 초보]**, **[!UICONTROL 중급]** 또는 **[!UICONTROL 고급]**)에 따라 학습 콘텐츠를 필터링합니다.
 * **진행 상황 추적**: 콘텐츠 일부를 선택하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
@@ -132,6 +142,18 @@ Customer Journey Analytics의 학습 페이지를 사용하여 다음과 같은 
    * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
    * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Customer Journey Analytics 설명서 세트를 봅니다.
 * **신규 사용자를 위한 기본 사항:** [!UICONTROL Workspace 기본 사항 학습] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 [자유 형식 패널](/help/analysis-workspace/c-panels/freeform-panel.md) 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 헤더의 도구 설명을 통해 Workspace에서 다시 실행할 수도 있습니다.
+
+### Customer Journey Analytics로 업그레이드
+
+Customer Journey Analytics 업그레이드에 대한 정보에 액세스하려면 다음 작업을 수행하십시오.
+
+1. [!UICONTROL **Workspace**] 탭을 선택합니다.
+
+1. 왼쪽 레일의 [!UICONTROL **학습**] 섹션에서 [!UICONTROL **Customer Journey Analytics으로 업그레이드**]&#x200B;를 선택합니다.
+
+이 페이지는 Adobe Analytics에서 Customer Journey Analytics으로 아직 완전히 업그레이드되지 않은 고객을 위한 것입니다. 조직의 고유 환경에 맞게 동적으로 생성된 업그레이드 단계를 제공하는 설문지를 제공합니다.
+
+자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#dynamically-generate-upgrade-steps-for-your-organization)에서 [조직에 대한 업그레이드 단계 동적으로 생성](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)을 참조하십시오.
 
 ## 선호하는 랜딩 페이지
 
