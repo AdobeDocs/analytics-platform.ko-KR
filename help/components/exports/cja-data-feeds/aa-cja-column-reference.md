@@ -19,7 +19,7 @@ Adobe Analytics과 Customer Journey Analytics은 근본적으로 다르므로 1:
 
 >[!NOTE]
 >
->이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
+>이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
 
 +++**`accept_language`**
 
