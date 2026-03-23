@@ -20,7 +20,7 @@ Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에 true 1
 
 >[!NOTE]
 >
->이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
+>이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
 
 +++**`accept_language`**
 
@@ -360,7 +360,7 @@ Adobe Advertising 통합에 사용되는 EF ID.
 
 {{cja-df-post}}
 
-스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 일부 지표가 다음 XDM 필드에 직접 매핑될 수 있습니다.
+스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 일부 지표가 다음 XDM 필드에 직접 매핑될 수 있습니다.
 
 * **체크아웃**: `xdm.commerce.checkouts.value`
 * **장바구니 추가**: `xdm.commerce.productListAdds.value`
@@ -373,7 +373,7 @@ Adobe Advertising 통합에 사용되는 EF ID.
 일부 지표는 Adobe Analytics에서 중복 제거를 완전히 제어하는 방식인 이벤트 직렬화를 사용할 수 있습니다. [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 구성 요소 설정을 사용하여 중복 제거 패리티를 달성할 수 있습니다.
 
 * Adobe Analytics에서 지표가 방문별로 중복을 제거하는 경우 해당 지표의 구성 요소 설정에서 중복 제거 범위를 세션으로 설정할 수 있습니다.
-* 지표가 Adobe Analytics에서 이벤트 ID별로 중복을 제거하는 경우 해당 지표에 대한 XDM 개체에 `value` 및 `id` 필드가 모두 포함되어 있을 수 있습니다. 스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 해당 지표는 다음 XDM 필드에 있을 수 있습니다. 지표의 구성 요소 설정에서 **[!UICONTROL 중복 제거 ID]** 필드를 설정할 수 있습니다.
+* 지표가 Adobe Analytics에서 이벤트 ID별로 중복을 제거하는 경우 해당 지표에 대한 XDM 개체에 `value` 및 `id` 필드가 모두 포함되어 있을 수 있습니다. 스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 해당 지표는 다음 XDM 필드에 있을 수 있습니다. 지표의 구성 요소 설정에서 **[!UICONTROL 중복 제거 ID]** 필드를 설정할 수 있습니다.
 
    * **체크아웃**: `xdm.commerce.checkouts.id`
    * **장바구니 추가**: `xdm.commerce.productListAdds.id`
