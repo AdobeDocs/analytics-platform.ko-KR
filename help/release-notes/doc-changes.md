@@ -25,7 +25,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Content Analytics 썸네일 및 미리보기 | Content Analytics의 추가 시각화를 위한 [썸네일](/help/content-analytics/report/report.md#thumbnails) 및 [미리 보기](/help/content-analytics/report/report.md#previews)에 대한 설명서입니다. |
 | **2026년 2월** | |
 | 헤더 재정의 | Content Analytics에 대한 추가 [헤더 재정의 구성](/help/content-analytics/config/guided.md#header-overrides)에 대한 설명서입니다. |
-| 계산된 지표 보호 | 조직의 최대 계산된 지표 수[에 대한 ](/help/technotes/guardrails.md#segments-and-calculated-metrics)보호가 업데이트되었습니다. 최대 인원은 이제 50,000입니다. |
+| 계산된 지표 보호 | 조직의 최대 계산된 지표 수[에 대한 &#x200B;](/help/technotes/guardrails.md#segments-and-calculated-metrics)보호가 업데이트되었습니다. 최대 인원은 이제 50,000입니다. |
 | 독립형 Content Analytics | Content Analytics의 [독립 실행형 구성](/help/content-analytics/config/standalone.md)에 대한 설명서를 추가했습니다. |
 | **2026년 1월** | |
 | 스키마 설계 | [Customer Journey Analytics에 사용할 스키마를 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)하는 데 유용한 정보와 컨텍스트를 추가했습니다. |
