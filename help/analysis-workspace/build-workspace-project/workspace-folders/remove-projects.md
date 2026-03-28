@@ -5,7 +5,7 @@ title: 프로젝트 제거
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 9506cc42e80f25f68a891f21f38d60fb4d364588
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 7%
@@ -18,7 +18,8 @@ ht-degree: 7%
 Analysis Workspace에서 프로젝트를 제거하는 방법은 [프로젝트 관리의 작업](../freeform-overview.md#actions)을 참조하십시오.
 
 
-<!-- Is this article still needed; not in the TOC anymore
+<!--
+Is this article still needed; not in the TOC anymore
 
 
 ## Move a project {#move-project-in-folder}

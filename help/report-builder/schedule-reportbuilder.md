@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,8 @@ ht-degree: 14%
    * **[!UICONTROL ISO 날짜 형식]**&#x200B;입니다. 이 경우 `YYYY-MM-DD`이(가) 파일 이름에 추가됩니다.
    * **[!UICONTROL ISO 날짜 형식 + 타임스탬프]**&#x200B;입니다. 그러면 `YYYY-MM-DD_HH-MM-SS`이(가) 파일 이름에 추가됩니다.
 
-<!-- Does no longer seem to be an option? 
+<!-- 
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.

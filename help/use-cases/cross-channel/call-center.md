@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -33,9 +33,9 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko-KR) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
 
-데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 통찰력을 높일 수 있습니다.
+데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 인사이트를 높일 수 있습니다.
 
 * 콜센터와 웹 데이터를 함께 연결하는 데 사용되는 식별자의 형식이 유사한지 확인합니다.
 * 각 데이터 세트에 데이터 소스를 포함합니다. 예를 들어 `data_source`각 스키마에 열을 포함하고 모든 이벤트의 값을 각각 `"Web"` 또는 `"Call center"`로 설정합니다.<!--mapper-->
@@ -63,7 +63,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 ## 시각화 만들기
 
-다음 시각화는 결합된 데이터 세트에서 통찰력을 얻는 데 사용할 수 있습니다.
+다음 시각화는 결합된 데이터 세트에서 인사이트를 얻는 데 사용할 수 있습니다.
 
 ### 데이터 세트 겹치기
 
@@ -77,7 +77,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 결과 벤 시각화는 웹 데이터와 콜센터 데이터를 모두 포함하는 데이터 세트에 있는 사람 수를 보여 줍니다. 겹치는 부분이 클수록 결합된 사람이 많습니다. 겹치지 않는 영역은 하나의 데이터 세트 또는 다른 데이터 세트에만 있는 사람을 나타냅니다.
 
-### 웹 페이지에 콜센터 이벤트 속성 지정
+### 웹 페이지에 콜 센터 이벤트 속성 지정
 
 이 자유 형식 테이블을 사용하면 콜센터 이벤트에 기여하는 상위 페이지를 볼 수 있습니다. 먼저 원하는 차원과 지표에 올바른 속성 모델이 있는지 확인합니다.
 
@@ -90,7 +90,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 <!-- Complement with donut visualization -->
 
-이 테이블과 함께 사유 또는 범주를 기준으로 호출을 분할하여 통찰력을 추가로 높일 수 있습니다.
+이 테이블과 함께 사유 또는 범주를 기준으로 호출을 분할하여 인사이트를 추가로 높일 수 있습니다.
 
 1. 구성 요소 목록의 ‘호출 사유’ 차원 아래에 있는 오른쪽 V자 버튼을 클릭합니다. 이 작업을 수행하면 개별 차원 값이 표시됩니다.
 2. &#39;호출&#39; 지표 아래에 있는 원하는 차원 값을 드래그합니다. 지표는 각 호출 사유를 기준으로 해당 지표를 세그먼트화합니다.
@@ -100,7 +100,7 @@ Customer Journey Analytics에서 [연결을 만듭니다](/help/connections/crea
 
 ### 플로우 시각화
 
-콜센터 채널을 사용하기 전에 고객이 수행할 작업에 대한 통찰력을 얻을 수 있습니다. 이 플로우 시각화를 통해 콜센터 문의 시 고객이 가장 자주 사용하는 여정을 이해할 수 있습니다. 이 통찰력을 사용하면 가장 효과적인 개선 사항을 결정하여 고객의 호출 가능성을 줄일 수 있습니다.
+콜센터 채널을 사용하기 전에 고객이 수행할 작업에 대한 인사이트를 얻을 수 있습니다. 이 플로우 시각화를 통해 콜센터 문의 시 고객이 가장 자주 사용하는 여정을 이해할 수 있습니다. 이 인사이트를 사용하면 가장 효과적인 개선 사항을 결정하여 고객의 호출 가능성을 줄일 수 있습니다.
 
 1. 왼쪽의 **[!UICONTROL 시각화]** 탭을 클릭하고 플로우 시각화를 작업 영역 캔버스로 드래그합니다.
 2. 왼쪽의 **[!UICONTROL 구성 요소]** 탭을 클릭하고 ‘호출 사유’ 차원을 찾습니다.
@@ -145,4 +145,5 @@ wanted to understand when someone interacts with a facet, whats the highest perc
 
 use sequential segments, but you lose the ability to use attribution IQ
 
-## What to do when you've found insight -->
+## What to do when you've found insight 
+-->
