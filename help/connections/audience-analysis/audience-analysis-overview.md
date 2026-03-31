@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 1e962f52-6b56-4671-afea-d58dae67e8a8
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 4%
+source-wordcount: '749'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 | 8 | 새 대상 차원 | 선택한 프로필 데이터 세트에 포함되어 있으며 Analysis Workspace에서 보고할 수 있는 Experience Platform 대상을 나타내는 새 대상 차원<!--and metrics?-->입니다. 이러한 차원은 자동으로 생성됩니다. |
 | 9 | 데이터 보기 | 선택한 데이터 보기는 연결과 연결됩니다. Analysis Workspace 내에서 Experience Platform 대상 데이터를 분석할 때 사용할 데이터 보기입니다. 이러한 데이터 보기는 보고를 위해 Experience Platform 대상 데이터로 자동으로 구성됩니다. |
 
-## 대상 분석 구성
+## 대상자 분석 구성
 
 대상 분석을 구성할 때 분석하려는 Experience Platform 대상과 연결된 샌드박스 및 병합 정책을 선택합니다. Customer Journey Analytics은 새 조회 데이터 세트를 만든 다음 사용자가 선택한 연결에 조회 데이터 세트와 프로필 데이터 세트를 자동으로 추가합니다.
 
@@ -78,6 +78,10 @@ Customer Journey Analytics에서 사용할 수 있는 대상 데이터를 통해
 | [대상 분석 구성 만들기](/help/connections/audience-analysis/audience-analysis-configure.md) | 시스템 관리자 | <ul><li>데이터 세트: 읽기 권한</li><li>스키마: 읽기, 쓰기</li><li>ID 네임스페이스: 읽기</li></ul> |
 | [데이터 보기에서 대상 분석 차원 보기](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 데이터 보기가 할당된 제품 프로필의 제품 프로필 관리자 <p>자세한 내용은 [액세스 제어](/help/technotes/access-control.md)를 참조하십시오.</p> | 해당 사항 없음 |
 | Analysis Workspace에서 대상 분석 차원 사용 | 대상 분석 차원이 추가된 데이터 보기에 대한 액세스 권한 | 해당 사항 없음 |
+
+## 대상 분석 사용 사례
+
+예를 들어 Audience Analysis에서 제공하는 값을 강조 표시하는 사용 사례는 [Audience Analysis 사용 사례](/help/connections/audience-analysis/audience-analysis-use-cases.md)를 참조하십시오.
 
 ## 대상 분석 제한
 
