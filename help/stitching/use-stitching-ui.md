@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
+source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 10%
+source-wordcount: '1727'
+ht-degree: 9%
 
 ---
 
@@ -172,11 +172,6 @@ ht-degree: 10%
 
 
 ### 데이터 세트 미리보기
-
->[!AVAILABILITY]
->
->이 섹션에 설명된 향상된 **[!UICONTROL 데이터 세트 미리 보기]** 인터페이스(**[!UICONTROL 결합 지표]** 및 **[!UICONTROL 잘못된 ID]** 포함)는 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용할 수 없습니다. 사용할 수 없는 경우 데이터 세트 미리 보기는 **[!UICONTROL 데이터 세트 설정]** 인터페이스의 일부로 표시됩니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
->
 
 표준 **[!UICONTROL 데이터 세트 미리 보기]** 인터페이스 위에, 사용자 기반 연결에서 [데이터 세트를 추가](/help/connections/create-connection.md#add-datasets)하거나 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 두 개의 추가 정보 패널을 사용할 수 있습니다.
 
