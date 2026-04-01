@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
+source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1712'
 ht-degree: 9%
 
 ---
@@ -174,10 +174,6 @@ ht-degree: 9%
 ### 데이터 세트 미리보기
 
 표준 **[!UICONTROL 데이터 세트 미리 보기]** 인터페이스 위에, 사용자 기반 연결에서 [데이터 세트를 추가](/help/connections/create-connection.md#add-datasets)하거나 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 두 개의 추가 정보 패널을 사용할 수 있습니다.
-
->[!NOTE]
->AWS에 Customer Journey Analytics을 배포한 고객의 경우 이 기능은 릴리스 보류 중입니다.
->
 
 ![ID 결합을 활성화할 때 ID 결합 옵션](assets/identity-stitching-ui-preview.png)
 
