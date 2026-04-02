@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: b85f6cd32fc5e097dc2ec5604fca18f50bfcf288
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 99%
 
 ---
 
@@ -63,11 +63,16 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 Content Analytics의 적용을 받는 경험 및 자산에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
 >
 
+>[!IMPORTANT]
+>
+>Content Analytics은 영어로만 기능을 지원합니다.
+>
+
 
 >[!MORELIKETHIS]
 >
 >[Content Analytics 보고](report/report.md)
 >[Content Analytics 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
