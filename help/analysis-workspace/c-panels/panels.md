@@ -4,10 +4,10 @@ title: Analysis Workspace의 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: d89c9dd2ab42ada9d0af259c21a77f183384b680
+source-git-commit: 11df56f5d757602403098d1c6b4330e935a438a2
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 43%
+source-wordcount: '2721'
+ht-degree: 42%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 43%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**&#x200B;을(를) 식별할 수 있습니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**을(를) 식별할 수 있습니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -140,7 +140,7 @@ ht-degree: 43%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -167,14 +167,14 @@ ht-degree: 43%
    ![놓기 영역에 추가 또는 바꾸기](assets/add-or-replace-to-drop-zone.png)
 
    * 선택 항목을 놓아 다음 구성 요소를 만듭니다.
-      * [을(를) 놓는 모든 세그먼트 구성 요소에 대한 &#x200B;](#segment)세그먼트❷.
-      * [을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 &#x200B;](#quick-segment)빠른 세그먼트❸.
+      * [을(를) 놓는 모든 세그먼트 구성 요소에 대한 ](#segment)세그먼트❷.
+      * [을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 ](#quick-segment)빠른 세그먼트❸.
    * 다음 구성 요소를 만들려면 **누른 상태에서**⇧(Shift) 선택 항목을 드롭하십시오.
-      * [을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❹입니다.
-      * [을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❺입니다.
-      * [을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❻입니다.
-      * [을(를) 삭제한 선택한 차원 &#x200B;](#drop-down-menu)항목[에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴&#x200B;*또는 분류*&#x200B;드롭다운 메뉴❼.
-      * [을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴[&#x200B; 또는 분류 &#x200B;](#drop-down-menu)드롭다운 메뉴❽.
+      * [을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 ](#drop-down-menu)드롭다운 메뉴❹입니다.
+      * [을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 ](#drop-down-menu)드롭다운 메뉴❺입니다.
+      * [을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 ](#drop-down-menu)드롭다운 메뉴❻입니다.
+      * [을(를) 삭제한 선택한 차원 ](#drop-down-menu)항목[에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 ](#drop-down-menu)드롭다운 메뉴&#x200B;*또는 분류*&#x200B;드롭다운 메뉴❼.
+      * [을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 ](#drop-down-menu)드롭다운 메뉴[ 또는 분류 ](#drop-down-menu)드롭다운 메뉴❽.
 
 
 ### 세그먼트
@@ -219,20 +219,20 @@ ht-degree: 43%
 
 **⇧ 동안**&#x200B;놓는 지표, 세그먼트 또는 날짜 범위 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 구성 요소에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다.
 
-*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+*⇧ 동안*&#x200B;놓는 **차원** 구성 요소에 대해 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 패널을 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![분류](/help/assets/icons/Breakdown.svg)를 선택하고 구성 요소 ![의 컨텍스트 메뉴에서 &#x200B;](/help/assets/icons/Filter.svg)필터❾를 선택합니다.
+* ![분류](/help/assets/icons/Breakdown.svg)을(를) 선택하고 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터를 필터링❾합니다.
 
 
 #### 패널 분류
 
-*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭다운 메뉴를 구성하여 분류할 수 있습니다. 분류를 사용하여 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭된 차원 항목([정적](#static) 분류 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 분류 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 분류하도록 드롭다운 메뉴를 구성할 수 있습니다. 분류를 사용하여 패널을 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![필터](/help/assets/icons/Filter.svg)를 선택하고 구성 요소 ![의 컨텍스트 메뉴에서 &#x200B;](/help/assets/icons/Breakdown.svg)분류❾를 선택합니다.
+* ![필터](/help/assets/icons/Filter.svg)를 선택하고 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터 분류❾를 선택합니다.
 
 >[!IMPORTANT]
 >
->분류는 세그먼트, 날짜 범위 또는 지표가 아닌 차원 및 차원 항목에만 사용할 수 있습니다.
+>분류는 놓기 영역에서 사용하는 차원 및 차원 항목에만 사용할 수 있습니다.
 >
 
 
@@ -276,7 +276,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -284,7 +284,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
