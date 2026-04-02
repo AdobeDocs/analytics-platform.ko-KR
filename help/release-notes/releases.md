@@ -4,7 +4,7 @@ title: Customer Journey Analytics 기능 릴리스 전략
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 ## 출시 전략
 
-[!UICONTROL Analysis Workspace]는 기능 플래그(“토글”이라고도 함)를 사용하여 새로운 기능의 가시성을 제어하므로 전체 릴리스 전에 통제된 크기 테스트를 수행할 수 있습니다. 이 릴리스 전략에는 다음 단계가 포함됩니다.
+[!UICONTROL Analysis Workspace]는 기능 플래그(&quot;토글&quot;이라고도 함)를 사용하여 새로운 기능의 가시성을 제어하므로 전체 릴리스 전에 통제된 크기 테스트를 수행할 수 있습니다. 이 릴리스 전략에는 다음 단계가 포함됩니다.
 
 * **제한된 테스트**: 단계적인 릴리스는 내부 Adobe 사용자에 의한 테스트부터 시작됩니다. 그런 다음 소수의 고객 계정 그룹에 공개되어 기능이 고객의 요구와 기대를 충족하는지 확인합니다.
 
