@@ -4,9 +4,8 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Adobe Analytics에서 Customer Journey Analytics으로 데이터 피드 열 매핑 준비
 feature: Components
 hide: true
-hidefromtoc: true
 exl-id: d0a9e697-1e48-4cfb-8613-2f932bf5015b
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 2%
