@@ -3,9 +3,8 @@ title: Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매
 description: 주어진 Adobe Analytics 데이터 피드 열을 가져오는 방법을 결정하고 Customer Journey Analytics 구현에서 그에 해당하는 대략적인 내용을 결정합니다.
 feature: Components
 hide: true
-hidefromtoc: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 48%

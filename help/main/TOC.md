@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: bac8472ed61d2c7421fb43957c22d18edaac67ec
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '1389'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 + 릴리스 정보 {#releases}
    + [최신 릴리스](../release-notes/latest.md)
-   + [사전 릴리스 정보](../release-notes/pre-release-notes.md)
+   + {hide-from-toc}[시험판 정보](../release-notes/pre-release-notes.md)
    + [2026 릴리스](../release-notes/2026.md)
    + [2025년 릴리스](../release-notes/2025.md)
    + [2024년 릴리스](../release-notes/2024.md)
@@ -43,10 +43,10 @@ ht-degree: 98%
 
 + 업그레이드 및 비교 {#compare-aa-cja}
    + Customer Journey Analytics로 업그레이드 {#upgrade-to-cja}
-      + [시작하기](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
-      + [업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
-      + [Platform으로 데이터 전송](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
-      + [내역 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + {hide-from-toc}[시작하기](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
+      + {hide-from-toc}[업그레이드 경로 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
+      + {hide-from-toc}[플랫폼으로 데이터 보내기](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
+      + {hide-from-toc}[이전 데이터 유지](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [권장되는 업그레이드 프로세스](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [조직 준비하기](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + 스키마를 설계 및 만들기 {#schema}
@@ -406,10 +406,10 @@ ht-degree: 98%
       + [내보내기 로그 관리](/help/components/exports/manage-export-logs.md)
       + [내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)
       + 데이터 피드 {#cja-data-feeds}
-         + [데이터 피드 개요](/help/components/exports/cja-data-feeds/data-feed-overview.md)
-         + [Adobe Analytics 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)
-         + [열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
-         + [열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
+         + {hide-from-toc}[데이터 피드 개요](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+         + {hide-from-toc}[Adobe Analytics 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)
+         + {hide-from-toc}[열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
+         + {hide-from-toc}[열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
    + 데이터 사전 {#data-dictionary}
       + [개요](../components/data-dictionary/data-dictionary-overview.md)
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
@@ -532,7 +532,7 @@ ht-degree: 98%
          + [세션 리플레이 연결](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [히트맵 사용](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [마찰 이벤트 추가](/help/use-cases/third-party/quantum-metric/friction-events.md)
-         + [소스 커넥터](/help/use-cases/third-party/quantum-metric/source-connector.md)
+         + {hide-from-toc}[Source 커넥터](/help/use-cases/third-party/quantum-metric/source-connector.md)
 
 + Labs {#labs}
    + [Labs 사용 안내서](../labs/labs.md)
