@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funnel 마찰 분석](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funnel 마찰 분석](https://video.tv.adobe.com/v/3431277/?captions=kor&quality=12&learn=onn){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
