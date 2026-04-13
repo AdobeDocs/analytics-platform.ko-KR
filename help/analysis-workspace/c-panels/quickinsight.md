@@ -103,7 +103,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 1. 하나 이상의 차원과 지표를 추가한 경우 결과를 조회할 수 있습니다.
 
-   ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
+   ![The 자유 형식 테이블 showing the dimension vertically and the metric horizontally.](assets/quick-insights-output.png)
 
    * 지난 12개월 동안의 웹 세션을 기준으로 세그먼트화된 차원(국가 코드)과 지표(세션)가 있는 자유 형식 테이블입니다.
 

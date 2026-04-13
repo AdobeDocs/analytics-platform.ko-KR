@@ -113,6 +113,6 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -50,7 +50,7 @@ ht-degree: 88%
    | **[!UICONTROL 날짜-시간]** | 보고에서 차원으로 사용하는 경우 날짜-시간 필드가 표시되는 방법을 결정할 수 있습니다. [자세히 알아보기](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL 통화]** | 구성 요소에 표시할 통화를 결정할 수 있습니다. <p>다양한 통화로 거래가 발생하는 글로벌 데이터를 분석하는 경우 [통화 전환 사용](#use-currency-conversion)을 참조하십시오.</p> |
    | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 이 구성 요소의 증가 트렌드가 양호(녹색) 또는 불량(빨간색)인지 여부를 지정할 수 있습니다. |
-   | **[!UICONTROL True 값]** 및 **[!UICONTROL False 값]** | 부울 스키마 데이터 유형에만 표시됩니다. `true` 및 `false` 값에 대한 차원 항목 라벨을 사용자 정의할 수 있습니다. |
+   | **[!UICONTROL True 값]** 및 **[!UICONTROL False 값]** | 부울 스키마 데이터 유형에만 표시됩니다. `true` 및 `false` 값에 대한 차원 항목 레이블을 사용자 지정할 수 있습니다. |
 
    {style="table-layout:auto"}
 

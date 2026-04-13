@@ -26,7 +26,7 @@ ht-degree: 100%
 
 지표 중복 제거를 통해 반복되지 않는 값만 계산하도록 지표를 구성할 수 있습니다.
 
-![Metric deduplication](../assets/metric-deduplication.png)
+![지표 중복 제거](../assets/metric-deduplication.png)
 
 | 설정 | 설명 |
 | --- | --- |
