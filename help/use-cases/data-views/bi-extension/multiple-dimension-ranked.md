@@ -4,9 +4,10 @@ description: Customer Journey Analytics의 다양한 BI 도구에서 BI 확장�
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -244,7 +245,7 @@ ht-degree: 1%
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 다음 코드 블록을 입력합니다.
 
    ```R
    ## Multiple dimensions ranked

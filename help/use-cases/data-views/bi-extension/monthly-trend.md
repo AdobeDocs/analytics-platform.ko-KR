@@ -4,9 +4,10 @@ description: Customer Journey Analytics의 다양한 BI 도구의 BI 확장에 �
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 9be5180e-6926-431e-aa70-61cb98130ef6
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -154,7 +155,7 @@ ht-degree: 0%
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크에 다음 코드 블록을 입력합니다.
 
    ```R
    ## Hourly Events
