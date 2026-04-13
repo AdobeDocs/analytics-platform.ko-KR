@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 빠른 인사이트 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하십시오._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;의 빠른 인사이트 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 1. 하나 이상의 차원과 지표를 추가한 경우 결과를 조회할 수 있습니다.
 
-   ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
+   ![The 자유 형식 테이블 showing the dimension vertically and the metric horizontally.](assets/quick-insights-output.png)
 
    * 지난 12개월 동안의 웹 세션을 기준으로 세그먼트화된 차원(국가 코드)과 지표(세션)가 있는 자유 형식 테이블입니다.
 

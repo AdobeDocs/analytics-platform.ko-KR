@@ -52,7 +52,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![오늘과 어제를 강조 표시한 감사 로그. &#x200B;](assets/audit_ui.png)
+![오늘과 어제를 강조 표시한 감사 로그. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 
@@ -60,7 +60,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 설명 옆에 있는 정보(i) 버튼을 더블 클릭합니다.
 
-![정보 버튼을 강조한 감사 로그. &#x200B;](assets/info-button-audit.png)
+![정보 버튼을 강조한 감사 로그. ](assets/info-button-audit.png)
 
 다음 항목이 표시됩니다.
 
