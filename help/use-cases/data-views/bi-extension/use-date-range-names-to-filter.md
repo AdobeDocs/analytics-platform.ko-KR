@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: a10818ec-a25c-4e4e-a551-14ff501750fa
-source-git-commit: 0299762a2c901852ba6b0940093809a116fa6b11
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 >[!TAB 자습서]
 
-1. 새 청크에 ` ` ``{r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오. 적절한 날짜 범위 이름을 사용해야 합니다. (예: `Last Year 2023`)
+1. 새 청크에 다음 코드 블록을 입력합니다. 적절한 날짜 범위 이름을 사용해야 합니다. (예: `Last Year 2023`)
 
    ```R
    ## Monthly Events for Last Year
