@@ -41,7 +41,7 @@ ht-degree: 93%
 >
 >반복 사용자는 사용자 수의 증가나 감소를 나타내지 않으므로 이 계산에는 반영되지 않습니다.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
 
 
 ## 사용 사례

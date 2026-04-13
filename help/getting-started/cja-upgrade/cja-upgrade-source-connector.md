@@ -54,7 +54,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 ## Analytics 소스 커넥터 및 맵 필드 만들기
 
-사용자 정의 스키마를 생성했으면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 생성해야 합니다. (소스 커넥터를 만드는 것에 대한 보다 포괄적이고 일반적인 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.)
+사용자 정의 스키마를 생성했으면 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 생성해야 합니다. (소스 커넥터를 만드는 것에 대한 보다 포괄적이고 일반적인 지침은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.)
 
 내역 데이터에 사용할 Adobe Analytics 소스 커넥터를 만드는 방법:
 
