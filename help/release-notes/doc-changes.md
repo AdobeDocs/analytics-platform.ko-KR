@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e1aab5822d650b6ae5ed335d85a09fe9ed46a2f0
+source-git-commit: a4287ab5b341f156d039b4bc35dc03482ba3f60c
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5819'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 4월** | |
+| 업데이트된 집단 분석 사용 사례 | 피드백을 기반으로 Analytics Workspace 예제를 집단 분석 사용 사례에 추가했습니다. |
 | **2026년 3월** | |
 | 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#drop-zone) 기능을 지원하도록 패널의 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)에 대한 설명서를 재구성했습니다. |
 | 불량 ID에 대한 기술 정보(BAVID) | 잘못된 ID의 새 [기술 정보](/help/technotes/badids.md). 이 기술 문서에서는 잘못된 ID의 정의, Customer Journey Analytics 인터페이스에서 잘못된 ID가 사용되는 위치 및 잘못된 ID에 대한 연결의 데이터를 조사하는 방법에 대해 설명합니다. |
