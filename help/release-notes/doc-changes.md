@@ -4,10 +4,10 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4287ab5b341f156d039b4bc35dc03482ba3f60c
+source-git-commit: 6ae1f8ccca5321b2ebab775cc12775c64377613e
 workflow-type: tm+mt
-source-wordcount: '5819'
-ht-degree: 96%
+source-wordcount: '5856'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 4월** | |
+| Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다 | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 연결에 포함됩니다](/help/integrations/ajo.md#high-throughput-add-on-datasets). |
 | 업데이트된 집단 분석 사용 사례 | 피드백을 기반으로 Analytics Workspace 예제를 집단 분석 사용 사례에 추가했습니다. |
 | **2026년 3월** | |
 | 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#drop-zone) 기능을 지원하도록 패널의 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)에 대한 설명서를 재구성했습니다. |
