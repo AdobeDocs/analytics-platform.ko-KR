@@ -4,13 +4,13 @@ description: 파생 필드를 기반으로 사용하여 Workspace에서 LLM 및 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+exl-id: 29857457-3fbb-441c-8761-91712b9df20f
+source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # LLM 및 AI 생성 트래픽에 대한 보고서
 
@@ -25,12 +25,12 @@ ht-degree: 1%
 
 LLM 및 AI 생성 트래픽을 탐지하려면 다음을 구별합니다.
 
-* **LLM 크롤러**: RAG(Augmented Generation) 교육 및 검색을 위해 데이터를 수집합니다.
+* **LLM 웹 크롤러**: RAG(Augmented Generation) 교육 및 검색을 위해 데이터를 수집합니다.
 * **AI 에이전트**: 사람 대신 작업을 수행하는 인터페이스로 작동합니다. AI 에이전트는 웹 분석 추적 메서드를 우회하는 API를 통해 상호 작용하는 것을 선호합니다. 그럼에도 불구하고 여전히 웹 사이트를 통해 AI가 생성한 트래픽의 상당 부분을 분석할 수 있습니다.
 
 LLM 및 AI 생성 트래픽을 식별하고 모니터링하는 세 가지 일반적인 코어 감지 방법은 다음과 같습니다.
 
-* **사용자 에이전트 식별**: 서버에 대한 요청이 있으면 HTTP 사용자 에이전트 헤더가 추출되어 알려진 AI 크롤러 및 에이전트 패턴에 대해 분석됩니다. 이 서버측 메서드는 HTTP 헤더에 액세스해야 하며 데이터 수집 계층에서 구현된 경우 가장 효과적입니다.
+* **사용자 에이전트 식별**: 서버에 요청하면 HTTP 사용자 에이전트 헤더가 추출되고 알려진 AI 웹 크롤러 및 에이전트 패턴에 대해 분석됩니다. 이 서버측 메서드는 HTTP 헤더에 액세스해야 하며 데이터 수집 계층에서 구현된 경우 가장 효과적입니다.
 * **레퍼러 분류**: HTTP 레퍼러 헤더에 현재 요청에 연결된 이전 웹 페이지의 URL이 포함되어 있습니다. 이 헤더는 사용자가 ChatGPT 또는 Perplexity와 같은 웹 인터페이스에서 사이트를 클릭스루할 때 표시됩니다.
 * **쿼리 매개 변수 검색**: AI 서비스는 URL 매개 변수(특히 UTM 매개 변수)를 링크에 추가할 수 있습니다. 이러한 매개 변수는 URL에서 유지되며 표준 분석 구현을 통해 감지할 수 있으므로 이러한 URL 매개 변수는 클라이언트측 추적 시나리오에서도 중요한 표시기가 됩니다.
 
@@ -39,7 +39,7 @@ LLM 및 AI 생성 트래픽을 식별하고 모니터링하는 세 가지 일반
 
 | 시나리오 | 사용자 에이전트 식별 | 레퍼러 분류 | 쿼리 매개변수 감지 |
 |---|---|---|---|
-| **모델 교육** | 서버측 로깅이 구현될 때 에이전트(`GPTBot`, `ClaudeBot` 등)를 식별할 수 있습니다. | 분류를 할 수 없습니다. AI 크롤러는 교육 중에 레퍼러를 생성하지 않습니다. | 발견은 불가능합니다. AI 크롤러는 교육 중에 매개 변수를 추가하지 않습니다. |
+| **모델 교육** | 서버측 로깅이 구현될 때 에이전트(`GPTBot`, `ClaudeBot` 등)를 식별할 수 있습니다. | 분류를 할 수 없습니다. AI 웹 크롤러는 교육 중에 레퍼러를 생성하지 않습니다. | 발견은 불가능합니다. AI 웹 크롤러는 교육 중에 매개 변수를 추가하지 않습니다. |
 | **에이전트 탐색** | 서버측 로깅이 헤더를 캡처할 때 에이전트(`ChatGPT-User`, `claude-web`)를 식별할 수 있습니다. | 에이전트가 레퍼러 보존이 포함된 AI 인터페이스에서 탐색하는 경우 분류할 수 있습니다. | AI 서비스가 추적 매개 변수를 추가하면 감지도 가능해질 수 있습니다. |
 | 쿼리에 응답할 **RAG(검색 증강 생성)를 검색합니다** | 에이전트(`OAI-SearchBot`, `PerplexityBot`)는 서버측 로깅으로 식별할 수 있습니다. | RAG 작업은 종종 레퍼러 메커니즘을 무시하므로 일반적으로 분류를 수행할 수 없습니다. | AI 제공자가 구체적으로 구현하지 않으면 탐지가 거의 불가능하다. |
 | **사용자가 클릭스루** | 에이전트를 식별할 수 없습니다. AI 에이전트는 일반 사용자 에이전트로 표시됩니다. | 사용자가 AI 인터페이스([chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai) 등)에서 링크를 클릭하면 분류가 가능합니다. | AI 서비스가 아웃바운드 링크에 UTM 매개 변수를 추가하면 검색이 가능합니다. |
@@ -63,7 +63,7 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <table>
 <thead>
 <tr>
-<th>크롤러</th>
+<th>웹 크롤러</th>
 <th>사용자 에이전트 문자열</th>
 <th>목적/행동</th>
 </tr>
@@ -72,7 +72,7 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>GPTBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.1; +<a href="https://openai.com/gptbot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/gptbot</a></code></td>
-<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">ChatGPT 및 언어 모델 교육을 위한 OpenAI의 기본 웹 크롤러</a></td>
+<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">ChatGPT 및 언어 모델 교육을 위한 OpenAI의 주요 웹 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>ChatGPT-User</strong></td>
@@ -87,12 +87,12 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>OAI-SearchBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +<a href="https://openai.com/searchbot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/searchbot</a></code></td>
-<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">콘텐츠 검색을 위한 ChatGPT의 검색 중심 크롤러</a></td>
+<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">콘텐츠 검색을 위한 ChatGPT의 검색 중심 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>클로드봇</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +claudebot@anthropic.com</code></td>
-<td><a href="https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler" target="_blank" rel="noopener nofollow noreferrer">클라우드 AI 비서 교육 및 업데이트를 위한 인류 크롤러</a></td>
+<td><a href="https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler" target="_blank" rel="noopener nofollow noreferrer">클라우드 AI 비서 교육 및 업데이트에 대한 앤트로픽의 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>Claud-User</strong></td>
@@ -107,7 +107,7 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>PlexityBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +<a href="https://www.perplexity.ai/perplexitybot" target="_blank" rel="noopener nofollow noreferrer">https://perplexity.ai/perplexitybot</a>)</code></td>
-<td><a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">실시간 웹 데이터 인덱싱을 위한 Perplestity.ai 크롤러</a></td>
+<td><a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">실시간 웹 데이터 색인화를 위한 Perplexity.ai의 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>곤란-사용자</strong></td>
@@ -117,12 +117,12 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>Google 확장</strong></td>
 <td><code>Mozilla/5.0 (compatible; Google-Extended/1.0; +<a href="https://support.google.com/webmasters/answer/182072" target="_blank" rel="noopener nofollow noreferrer">http://www.google.com/bot.html</a>)</code></td>
-<td><a href="https://blog.google/technology/ai/an-update-on-web-publisher-controls/" target="_blank" rel="noopener nofollow noreferrer">표준 Googlebot과 별도의 Gemini용 Google AI 중심 크롤러</a></td>
+<td><a href="https://blog.google/technology/ai/an-update-on-web-publisher-controls/" target="_blank" rel="noopener nofollow noreferrer">Google의 표준 Googlebot과 별도로 Gemini에 대한 AI 중심 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>BingBot</strong></td>
 <td><code>Mozilla/5.0 (compatible; BingBot/1.0; +<a href="http://www.bing.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.bing.com/bot.html</a>)</code></td>
-<td>Bing 검색 및 Bing 채팅(Copilot)을 지원하는 Microsoft 크롤러</td>
+<td>Bing 검색 및 Bing 채팅을 지원하는 Microsoft 웹 크롤러(Copilot)</td>
 </tr>
 <tr>
 <td><strong>DuckAssisteBot</strong></td>
@@ -132,7 +132,7 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>YouBot</strong></td>
 <td><code>Mozilla/5.0 (compatible; YouBot (+<a href="http://www.you.com" target="_blank" rel="noopener nofollow noreferrer">http://www.you.com</a>))</code></td>
-<td>Crawler behind You.com의 AI 검색 및 브라우저 도우미</td>
+<td>You.com의 AI 검색 및 브라우저 도우미 뒤에 있는 웹 크롤러</td>
 </tr>
 <tr>
 <td><strong>meta-externalagent</strong></td>
@@ -142,17 +142,17 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <tr>
 <td><strong>Amazonbot</strong></td>
 <td><code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Amazonbot/0.1; +<a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">https://developer.amazon.com/support/amazonbot</a>)</code></td>
-<td><a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">검색 및 AI 애플리케이션용 Amazon 크롤러</a></td>
+<td><a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">Amazon의 검색 및 AI 애플리케이션 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>Applebot</strong></td>
 <td><code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +<a href="https://support.apple.com/kb/HT6619" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/go/applebot</a>)</code></td>
-<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Spotlight, Siri 및 Safari용 Apple 크롤러</a></td>
+<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Spotlight, Siri 및 Safari를 위한 Apple 웹 크롤러</a></td>
 </tr>
 <tr>
 <td><strong>Applebot-Extended</strong></td>
 <td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://www.apple.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
-<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">향후 AI 모델을 위한 Apple의 AI 중심 크롤러(옵트인)</a></td>
+<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Apple의 향후 AI 모델을 위한 AI 중심 웹 크롤러(옵트인)</a></td>
 </tr>
 <tr>
 <td><strong>바이트스파이더</strong></td>

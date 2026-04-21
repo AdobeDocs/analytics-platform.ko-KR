@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6ae1f8ccca5321b2ebab775cc12775c64377613e
+source-git-commit: 68c9d38f4fe60a9b8e661309698ba0ec38e2ea9b
 workflow-type: tm+mt
-source-wordcount: '5856'
+source-wordcount: '5874'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 4월** | |
+| 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 보호 기능 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
 | Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다 | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 연결에 포함됩니다](/help/integrations/ajo.md#high-throughput-add-on-datasets). |
 | 업데이트된 집단 분석 사용 사례 | 피드백을 기반으로 Analytics Workspace 예제를 집단 분석 사용 사례에 추가했습니다. |
 | **2026년 3월** | |
@@ -48,7 +49,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기여도 구성 | 모델, 컨테이너 및 전환 확인 기간에 대한 새 기여도 구성 옵션을 반영하도록 추가 업데이트 |
 | Experience Platform 대상자 수집 및 활용 | [Experience Platform 대상자 수집 및 사용](/help/use-cases/data-ingestion/ingest-aep-segments.md) 방법에 대한 사용 사례 문서를 업데이트했습니다. |
 | Customer Journey Analytics로 업그레이드할 조직 준비하기 | [Customer Journey Analytics로 업그레이드할 조직을 준비하는 방법](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)에 대한 정보가 추가되었습니다. |
-| LLM 및 AI 생성 트래픽에 대한 보고서 | 파생 필드를 기반으로 LLM 및 AI 생성 트래픽을 보고하는 방법에 대한 [사용 사례 문서](/help/use-cases/ai-traffic.md)가 추가되었습니다. 이 문서는 [Adobe Customer Journey Analytics의 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=ko) 블로그 문서를 기반으로 합니다. |
+| LLM 및 AI 생성 트래픽에 대한 보고서 | 파생 필드를 기반으로 LLM 및 AI 생성 트래픽을 보고하는 방법에 대한 [사용 사례 문서](/help/use-cases/data-views/derived-fields/ai-traffic.md)가 추가되었습니다. 이 문서는 [Adobe Customer Journey Analytics의 LLM 및 AI 생성 트래픽 추적 및 분석](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=ko) 블로그 문서를 기반으로 합니다. |
 | **2025년 9월** | |
 | 1900년 이전 날짜 | Customer Journey Analytics에서 1900년 이전 날짜를 처리하는 방법에 대한 [참고 사항](/help/connections/create-connection.md#datasets)을 추가했습니다. |
 | 실시간 보고 | Customer Journey Analytics에 [실시간 보고](/help/components/real-time/real-time.md)에 대한 설명서를 추가했습니다. |
@@ -178,7 +179,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 통화 전환 업데이트 | [통화 전환을 구성](/help/data-views/component-settings/format.md)하는 방법에 대한 설명서를 명시하였습니다. |
 | 예외 항목 탐지 설명서 업데이트 | 예외 항목 탐지에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li></ul> |
 | **2023년 10월** | |
-| 목표/대상 설정에 대한 파생 필드 사용 | 파생 필드를 사용하여 목표/대상을 설정하고 이를 보고하는 방법을 설명하는 [사용 사례](../use-cases/goals-using-derived-fields.md) 문서를 추가했습니다. |
+| 목표/대상 설정에 대한 파생 필드 사용 | 파생 필드를 사용하여 목표/대상을 설정하고 이를 보고하는 방법을 설명하는 [사용 사례](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md) 문서를 추가했습니다. |
 | 클라우드로 전체 테이블 내보내기 | 수백만 개의 Workspace 행이 있는 전체 테이블을 클라우드 대상으로 내보내는 방법에 대한 설명서를 추가했습니다. <p>전체 테이블 내보내기 기능은 연결된 테이블에서 최대 5개의 분류, 5개의 지표, 세그먼트 및 계산된 지표를 모두 지원하며 Workspace 내에서 디자인된 데이터 테이블을 일회성 또는 예약된 게재로 제공합니다. 이는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다.</p><p>자세한 내용은 [클라우드로 Customer Journey Analytics 보고서 내보내기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=ko)를 참조하십시오. |
 | 보고 활동 관리자 | 보고 활동 관리자에 대한 설명서를 추가했습니다. <p>보고 활동 관리자를 사용하면 조직에서의 각 연결에 대한 보고 용량을 확인할 수 있습니다. 이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.</p> <p>다음 새 문서가 추가되었습니다.<ul><li>[보고 활동 관리자 개요](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[보고 활동 관리자에서 보고 활동 보기](/help/reporting-activity-manager/reporting-activity.md)</li><li>[보고 활동 관리자에서 요청 취소](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 관리 페이지의 새로운 열 | 이제 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html?lang=ko)와 [세그먼트 관리자](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html?lang=ko)에서 사용할 수 있는 새로운 열을 문서화했습니다. |

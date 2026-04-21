@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 12347a865bdeb16f9b45ec5e5eddc3390894e0dc
+source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
 workflow-type: tm+mt
-source-wordcount: '10283'
+source-wordcount: '10297'
 ht-degree: 99%
 
 ---
@@ -39,6 +39,11 @@ ht-degree: 99%
 - 하나 이상의 조건(예: URL 매개변수, 페이지 URL, 페이지 이름)을 기반으로 적절한 마케팅 채널을 결정하는 파생 마케팅 채널 필드를 정의합니다.
 
 표준 구성 요소는 파생 필드의 이벤트 데이터 세트에서만 지원됩니다.
+
+>[!TIP]
+>
+>파생 필드를 사용할 때의 모범 사례, 보호 기능 및 일반적인 위험 요소에 대해서는 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)을(를) 참조하십시오.
+>
 
 ## 파생 필드 인터페이스 {#interface}
 
