@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 01e2c7668bf31d9a3ed1ee55d8692a3616f5de4d
+source-git-commit: 35d365dec8bc9afdfd55405dbcfa082280515b18
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 97%
@@ -159,7 +159,6 @@ ht-degree: 97%
    + [표준 구성 요소 참조](../data-views/component-reference.md)
    + [BI 확장 기능](../data-views/bi-extension.md)
    + [파생 필드](../data-views/derived-fields/derived-fields.md)
-   + {hide-from-toc}[모범 사례 - 숨김](/help/data-views/derived-fields/best-practices.md)
    + [요약 데이터](../data-views/summary-data.md)
    + [레이블 및 정책](../data-views/data-governance.md)
    + 공유된 지표 및 차원{#shared-metrics-dimensions}
@@ -514,9 +513,10 @@ ht-degree: 97%
          + [시각화](/help/use-cases/data-views/bi-extension/visualizations.md)
          + [주의 사항](/help/use-cases/data-views/bi-extension/caveats.md)
 
-   + 파생 필드 {#derived-fields}
-      + [LLM 및 AI 생성 트래픽에 대한 보고서](/help/use-cases/ai-traffic.md)
-      + [목표 보고서](../use-cases/goals-using-derived-fields.md)
+      + 파생 필드 {#derived-fields}
+         + [파생 필드 지침](/help/use-cases/data-views/derived-fields/guidelines.md)
+         + [LLM 및 AI 생성 트래픽에 대한 보고서](/help/use-cases/data-views/derived-fields/ai-traffic.md)
+         + [목표 보고서](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md)
    + 제품 분석 {#product-analysis}
       + [제품 분석](/help/use-cases/product-analysis.md)
    + 결합 {#stitching}
