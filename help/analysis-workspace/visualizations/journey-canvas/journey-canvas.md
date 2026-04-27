@@ -4,10 +4,10 @@ title: 여정 캔버스 개요
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 100%
+source-wordcount: '2022'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 여정 캔버스 시각화를 설명합니다.<br/>**Adobe Analytics**&#x200B;에 동일한 시각화가 없습니다._
+_이 문서에서는_&#x200B;의 여정 캔버스 시각화에 대해 설명합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/>**Adobe Analytics**&#x200B;에 해당하는 시각화가 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
 
 이벤트, 차원 항목, 세그먼트 및 날짜 범위를 조합하여 여정 노드를 생성함으로써 [사용자 여정에 대한 분석을 구축](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)할 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터를 변경하면 실시간으로 업데이트합니다.
 
-[노드는](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) “최종 경로”로 연결되어 있으며, 이는 두 노드 간에 발생하는 이벤트와 상관없이 결국 한 노드에서 다른 노드로 이동하는 한 방문자 수가 계산된다는 것을 의미합니다. 사용자가 경로를 따라 이동할 수 있는 시간은 컨테이너 설정에 따라 결정됩니다.
+[노드는 &quot;최종 경로&quot;로 연결](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)됩니다. 즉, 방문자는 두 노드 사이에서 발생하는 모든 이벤트에 관계없이 한 노드에서 다른 노드로 이동하는 한 계산됩니다. 사용자가 경로를 따라 이동할 수 있는 시간은 컨테이너 설정에 따라 결정됩니다.
 
 ![여정 캔버스](assets/journey-canvas.png)
 
@@ -206,7 +206,7 @@ Journey Optimizer와 여정 캔버스 간의 동기화를 이해하려면 다음
 
   “모두와 공유” 링크를 사용하는 경우, 프로젝트를 Customer Journey Analytics에 저장해야 Journey Optimizer에서 변경한 내용이 Journey Canvas에 반영됩니다.
 
-  “모두와 공유” 링크에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)을 참조하십시오.
+  &quot;모든 사람과 공유&quot; 링크에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오.
 
 ### 여정 캔버스에서 여정을 수정한 후의 차이점 {#differences-after-modifying}
 
