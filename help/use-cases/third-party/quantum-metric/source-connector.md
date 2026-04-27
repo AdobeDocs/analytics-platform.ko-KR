@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Quantum 지표 데이터에 대한 소스 커넥터를 만들면 Adobe Experienc
 1. **[!UICONTROL 저장을]** 클릭합니다.
 
 >[!NOTE]
->양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
+>양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
 
 ## 3단계: Customer Journey Analytics에서 데이터 보기 만들기
 

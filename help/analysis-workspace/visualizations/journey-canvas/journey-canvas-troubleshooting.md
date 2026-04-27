@@ -1,13 +1,13 @@
 ---
-description: 여정 캔버스 시각화를 구성하는 과정에서 문제를 해결하는 방법을 알아봅니다.
+description: Analysis Workspace에서 여정 캔버스 시각화를 사용하여 사용자 여정, 폴아웃 및 다중 경로 전환을 분석하는 방법에 대해 알아봅니다.
 title: 여정 캔버스 문제 해결
 feature: Visualizations
 role: User
 exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
+workflow-type: tm+mt
+source-wordcount: '1303'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * 여러 경로가 단일 노드로 수렴하는 경우
 
-### 여정은 인원 또는 세션 이외의 기본 지표를 사용합니다
+### 이 여정은 사람 또는 세션 이외의 기본 지표를 사용합니다
 
 여정 캔버스에서는 모든 지표를 기본 지표로 사용할 수 있으므로, 여정 뒤에 나타나는 노드가 여정 앞에 나타나는 노드보다 더 높은 비율이나 숫자를 표시할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 이 예제에서 여정의 컨테이너 설정인 &#39;개인&#39;은 세 번째 노드(&#39;체크아웃&#39;)의 이벤트가 후속 세션에서 집계되는지 확인하는 데 중요한 역할을 합니다.
 
-또는 여정 설정이 &#39;세션&#39;으로 설정된 경우 컨테이너에 표시된 통계가 특정 개인에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 집계되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) 문서의 [여정 캔버스 시각화 빌드 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하십시오.
+또는 여정 설정이 &#39;세션&#39;으로 설정된 경우 컨테이너에 표시된 통계가 특정 개인에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 집계되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 사용자 B가 사이트를 방문하고 여정을 완료하지 않는다고 가정해 보겠습니다(사이트를 방문하고 제품 B를 본 다음 체크아웃한 경우). 이 경우 여정의 시작 노드인 &#39;사이트 방문&#39;에 대해서는 이벤트가 집계되지만 나머지 노드에 대해서는 이벤트가 집계되지 않으며 사용자 B는 여정에서 이탈합니다. 사용자 B는 체크아웃 전에 제품 A를 보고 여정을 완료하지 않았기 때문에 사용자 B가 체크아웃했더라도 세 번째 노드(&#39;체크아웃&#39;)에서 이벤트가 집계되지 않습니다.
 
-사람들이 여정의 &#39;최종 경로&#39;를 따를 때만 각 노드에 대해 이벤트가 집계되기 때문입니다. 즉, 2개의 노드 간에 어떠한 이벤트가 발생하든지 개인이 한 노드에서 다른 노드로 최종 이동한 경우에만 이벤트가 집계됩니다.
+사람들이 여정의 &#39;최종 경로&#39;를 따를 때만 각 노드에 대해 이벤트가 집계되기 때문입니다. 즉, 두 노드 간에 발생하는 모든 이벤트에 관계없이 개인이 결국 한 노드에서 다른 노드로 이동한 경우에만 이벤트가 계산됩니다.
 
 ### 여정은 여러 경로가 단일 노드로 수렴합니다
 
