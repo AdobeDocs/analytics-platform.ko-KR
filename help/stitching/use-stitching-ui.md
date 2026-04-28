@@ -7,8 +7,8 @@ role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 9%
+source-wordcount: '1788'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 연결의 일부로 구성한 하나 이상의 이벤트 데이터 세트에 대한 결합을 활성화할 수 있습니다. 라이선스가 부여된 Customer Journey Analytics 패키지에 따라 연결할 수 있는 이벤트 데이터 세트 수가 결정됩니다.
 
-[연결을 만들거나](/help/connections/create-connection.md#dataset-settings) [연결을 편집](/help/connections/create-connection.md)할 때 이벤트 데이터 세트에 대한 [데이터 세트 설정](/help/connections/manage-connections.md#edit-a-connection)의 일부로 연결을 활성화합니다.
+[연결을 만들거나](/help/connections/create-connection.md) [연결을 편집](/help/connections/manage-connections.md#edit-a-connection)할 때 이벤트 데이터 세트에 대한 [데이터 세트 설정](/help/connections/create-connection.md#dataset-settings)의 일부로 연결을 활성화합니다.
 
 ## 사전 요구 사항
 
@@ -102,22 +102,22 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="결합 지표"
->abstract="결합 지표는 지난 7일 동안의 이벤트 타임스탬프가 있는 샘플 데이터 세트를 사용하여 계산됩니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리 보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
+>abstract="결합 지표는 지난 7일 동안의 이벤트 타임스탬프가 포함된 샘플 데이터 세트를 사용하여 계산됩니다.<br>이 샘플 데이터 집합은 일반적으로 **[!UICONTROL 미리보기]** 테이블에 사용된 샘플 데이터와 다릅니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
 >title="개인 ID 적용 범위"
->abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위.<br/>최상의 결합 결과를 얻으려면 (영구 ID, 개인 ID) 관계가 각 영구 ID의 ID 그래프에 있어야 합니다."
+>abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택 개인 ID의 범위입니다.<br/>최상의 결합 결과를 얻으려면 각 영구 ID의 ID 그래프에 (영구 ID, 개인 ID) 관계가 있어야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
 >title="개인 ID 적용 범위"
->abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위.<br/>최상의 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)를 보내야 합니다."
+>abstract="결합 프로세스(라이브 및 재생) 중에 식별에 사용되는 선택 개인 ID의 범위입니다.<br/>최상의 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에 개인 ID(사용자 정보)를 전송해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="영구 ID 적용 범위"
->abstract="이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(라이브 및 재생) 중에 식별에 사용됩니다. <br/>영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다."
+>abstract="이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(라이브 및 재생) 중 식별에 사용됩니다. <br/>영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다."
 
 
 >[!CONTEXTUALHELP]
