@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: 728aa97d87e9b9e125fbfbbaf0ce890bc3ab34fc
+source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 21%
+source-wordcount: '2477'
+ht-degree: 20%
 
 ---
 
@@ -48,6 +48,15 @@ ht-degree: 21%
 >id="aa_datafeed_notify"
 >title="완료되면 알림"
 >abstract="데이터 피드가 전송된 후 알림을 게재해야 하는 이메일 주소를 하나 이상 지정합니다. 여러 이메일 주소는 쉼표로 구분해야 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_lookback_date_range"
+>title="전환 확인 날짜 범위"
+>abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics이 보이는 거리를 제어합니다.<br/>이 설정은 빈도 창(시간 또는 일)을 변경하지 않습니다. 그러나 전환 확인 날짜 범위는 전달되는 데이터에 영향을 줄 수 있습니다. 세그먼트 자격, 세션 계산 및 차원 지속성은 모두 전환 확인 날짜 범위의 영향을 받습니다."
 
 <!-- markdownlint-enable MD034 -->
 
