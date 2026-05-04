@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
+source-git-commit: da88f281e0b7657306c6c90851d615860721fe16
 workflow-type: tm+mt
 source-wordcount: '3511'
 ht-degree: 95%
@@ -519,3 +519,4 @@ Content Analytics 구성에 대한 데이터 수집을 시작하려면 **[!UICON
 >
 >[수동 구성](manual.md)
 >
+
