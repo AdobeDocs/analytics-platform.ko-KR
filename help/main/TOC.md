@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 8fe31fe0603c2b17fee930011cce915df3c76200
+source-git-commit: f59958b9d290138480fe4b5588d1b5660250be12
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 96%
+source-wordcount: '1427'
+ht-degree: 95%
 
 ---
 
@@ -410,6 +410,7 @@ ht-degree: 96%
          + {hide-from-toc}[Adobe Analytics 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)
          + {hide-from-toc}[열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
          + {hide-from-toc}[열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
+         + {hide-from-toc}[데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md)
    + 데이터 사전 {#data-dictionary}
       + [개요](../components/data-dictionary/data-dictionary-overview.md)
       + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
@@ -557,4 +558,4 @@ ht-degree: 96%
    + [사용 관리](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
-+ [Customer Journey Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/cja/)
++ [Customer Journey Analytics 서버](https://developer.adobe.com/analytics-mcp/docs/cja/)
