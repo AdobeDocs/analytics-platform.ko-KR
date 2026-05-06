@@ -5,9 +5,9 @@ title: 데이터 소스 관리
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 28ad4be7b5ff3c58f51fdb882d9b273f53bcea2a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 89%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 89%
 >id="workspace_freeformtable_showtable"
 >title="테이블 표시"
 >abstract="**[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다."
-
 
 시각화를 동기화하면 시각화에 해당하는 자유 형식 테이블 또는 데이터 소스를 제어할 수 있습니다.
 
