@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
+source-git-commit: 54a7f59847b752a4e898b488a90520e8b31d3622
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 20%
+source-wordcount: '2439'
+ht-degree: 19%
 
 ---
 
@@ -27,16 +27,7 @@ ht-degree: 20%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_os_strings"
->title="운영 체제 문자열 바꾸기"
->abstract="이 옵션은 고객 데이터에 임베드된 다음 문자열 시퀀스를 감지하고 공백으로 대체하여 데이터 출력을 정리합니다. <br/>Windows: CRLF, CR 또는 TAB<br/>Mac 및 Linux: \n, \r 또는 \t"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aa_datafeed_export_file"
+>id="cja_datafeed_export_file"
 >title="매니페스트"
 >abstract="각 데이터 피드 게재에 매니페스트 파일을 포함할지 여부를 선택합니다. 매니페스트 파일에는 데이터 피드에 포함된 각 파일에 대한 정보가 있습니다. 데이터 피드 데이터를 하나의 패키지로 보낼 때, 완료한 파일을 포함하도록 선택할 수도 있지만, 매니페스트 파일이 권장됩니다. "
 
@@ -45,7 +36,7 @@ ht-degree: 20%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_notify"
+>id="cja_datafeed_notify"
 >title="완료되면 알림"
 >abstract="데이터 피드가 전송된 후 알림을 게재해야 하는 이메일 주소를 하나 이상 지정합니다. 여러 이메일 주소는 쉼표로 구분해야 합니다."
 
@@ -54,7 +45,7 @@ ht-degree: 20%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_lookback_date_range"
+>id="cja_datafeed_lookback_date_range"
 >title="전환 확인 날짜 범위"
 >abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics이 보이는 거리를 제어합니다.<br/>이 설정은 빈도 창(시간 또는 일)을 변경하지 않습니다. 그러나 전환 확인 날짜 범위는 전달되는 데이터에 영향을 줄 수 있습니다. 세그먼트 자격, 세션 계산 및 차원 지속성은 모두 전환 확인 날짜 범위의 영향을 받습니다."
 
