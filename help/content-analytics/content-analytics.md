@@ -5,18 +5,18 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: b85f6cd32fc5e097dc2ec5604fca18f50bfcf288
+source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 99%
+source-wordcount: '896'
+ht-degree: 56%
 
 ---
 
 # Content Analytics의 개요
 
-Content Analytics는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 행동 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. 예를 들어 고객이 어떤 특정 음성 톤, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응하는지 확인할 수 있습니다. 이 정보는 특별히 설계된 보고 워크플로 및 템플릿과 함께 Customer Journey Analytics에서 고객 여정 데이터에 대한 더 나은 분석을 수행하고 더욱 심층적인 인사이트를 얻는 데 도움이 됩니다.
+Content Analytics는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics은 행동 데이터 외에도 콘텐츠가 소비되는 방식과 콘텐츠가 영향을 미치는 방식에 대한 데이터를 수집합니다. 예를 들어 고객이 어떤 특정 음성 톤, 특정 색상 팔레트 또는 특정 테마에 더 잘 반응하는지 확인할 수 있습니다. 이 정보는 특별히 설계된 보고 워크플로 및 템플릿과 함께 Customer Journey Analytics에서 고객 여정 데이터에 대한 더 나은 분석을 수행하고 더욱 심층적인 인사이트를 얻는 데 도움이 됩니다.
 
-Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x200B;를 사용하여 콘텐츠를 구성 요소와 속성으로 분류합니다. 모든 콘텐츠에 구조화된 메타데이터 프로필을 만들면 어떤 콘텐츠와 해당 콘텐츠의 속성이 비즈니스 결과를 주도하는지 분석할 수 있습니다.
+Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x200B;를 사용하여 콘텐츠를 구성 요소와 속성으로 분류합니다. 모든 콘텐츠에 구조화된 메타데이터 프로필을 만들어 해당 콘텐츠의 어떤 콘텐츠와 어떤 속성이 비즈니스 결과를 도출하는지 분석할 수 있습니다.
 
 이 구조화된 메타데이터 프로필을 만드는 것 외에도, Content Analytics는 단일 식별자를 사용하여 자산과 경험을 식별하는 **ID 서비스**&#x200B;를 제공합니다. ID 서비스는 동일한 자산이 여러 장소에 나타날 때를 인식할 수 있습니다. 그렇게 되면 이 자산의 인스턴스가 동일한 자산으로 취급되어 콘텐츠 사용과 소비에 대한 보다 전체적인 보기가 가능해집니다.
 
@@ -24,9 +24,9 @@ Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x20
 
 Content Analytics는 점점 더 높은 수준의 가치를 제공합니다.
 
-1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 자산이 노출되고 있는지, 그리고 자산이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 인사이트는 웹 속성에서 자산이 충분히 활용되지 않고 있는지, 아니면 과도하게 활용되고 있는지 파악하는 데 도움이 됩니다.
+1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 자산이 노출되고 있는지, 그리고 자산이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 통찰력을 통해 웹 및 모바일 속성에서 에셋이 과소 사용되는지 또는 과다 사용되는지를 확인할 수 있습니다.
 1. 콘텐츠 **참여**: Content Analytics는 특정 속성을 가진 자산에 대한 평균 클릭스루 비율과 같은 참여 인사이트를 제공할 수 있습니다. 이러한 인사이트는 특정 유형의 경험이 여전히 효과적인지 여부를 판단하는 데 도움이 됩니다.
-1. 콘텐츠 **여정**: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합하면 콘텐츠 여정에 대한 추가적인 인사이트를 얻을 수 있습니다. 예를 들어 특정 콘텐츠가 전환으로 이어지는지 여부는 참여도에 달려 있습니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
+1. 컨텐츠 여정: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합될 때 컨텐츠 여정에 대한 추가 통찰력을 얻을 수 있습니다. 예를 들어 특정 컨텐츠가 참여 외에 전환으로 이어지는지 여부를 확인할 수 있습니다. 예를 들어 특정 콘텐츠가 참여 외에 전환으로 연결되는지 여부입니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
 1. 콘텐츠 **개인화**: 궁극적으로 Content Analytics를 통해 인사이트에 따라 조치를 취하고 이러한 인사이트를 활용하여 콘텐츠에 비용을 어떻게 사용할지 결정할 수 있습니다. 예를 들어 특정 대상자에게 특정 유형의 콘텐츠를 보내야 합니까? 어떤 콘텐츠가 나에게 높은 개인화 기회를 제공합니까?
 
 ## 용어
@@ -35,20 +35,20 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 
 ![자산 및 경험](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **경험**: 경험은 웹 페이지를 처음 방문한 사용자가 사용한 URL을 사용하여 재생산할 수 있는 웹 페이지의 모든 텍스트입니다. 각 경험에는 고유 식별자가 부여됩니다. 페이지의 HTML이 변경되어 페이지가 변경되면 새로운 경험이 제공됩니다.
-* **자산**: 자산은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 자산에는 고유 식별자와 지각 ID가 부여됩니다. 지각 ID는 시각적으로 동일한 자산과 공유되는 식별자입니다. 지각 ID는 다른 자산 URL과 그에 따른 다른 자산 ID를 가지고 있지만 지각적으로는 동일한 자산의 중복을 제거하는 데 도움이 됩니다.
+* **경험**: 경험은 초기 사용자가 웹 페이지를 방문하는 데 사용한 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다. 또는 모바일 앱에서 텍스트, 에셋 및 클릭 투 액션의 조합입니다. 각 경험에는 고유 식별자가 부여됩니다.
+* **자산**: 자산은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 자산에는 고유 식별자와 지각 ID가 부여됩니다. 지각 ID는 시각적으로 동일한 자산과 공유되는 식별자입니다. 가시 범위 ID는 다른 에셋 URL과 따라서 다른 에셋 ID가 있을 수 있지만 가시 범위적으로 동일한 에셋을 중복 제거하는 데 도움이 됩니다.
 * **속성**: 속성은 경험이나 자산과 관련된 설명적 메타데이터 요소입니다. 속성의 예로는 사진 스타일, 가독성, 설득 전략, 오브젝트 색상, 배경색 등이 있습니다.
 
 ## 작동 방식
 
-Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹 이미지 보기 데이터를 사용하여 [콘텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 콘텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(Web SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. 행동 데이터는 Web SDK 또는 Analytics 소스 커넥터를 통해 수집할 수 있습니다.
+Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 모바일 이미지 보기 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 모바일 SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. Web SDK, Mobile SDK 또는 Analytics Source Connector를 사용하여 동작 데이터를 수집할 수 있습니다.
 
-![Content Analytics - 작동 방식](assets/aca-overview.gif)
+![Content Analytics - 작동 방식](assets/aca-overview-new.gif)
 
-1. 사용자가 사이트를 방문하면 [Content Analytics을 위해 구성](config/configuration.md)된 Experience Platform Web SDK가 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
-1. ID 및 기능화 서비스에서 이러한 상호 작용을 처리합니다. 해당 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 검색된 모든 URL에 대해 ID 서비스는 경험과 자산을 고유하게 식별합니다. 또한 기능화 서비스는 AI/ML 서비스를 적용하여 경험과 자산의 메타데이터와 속성을 발견합니다.
+1. 사용자가 사이트 또는 앱([Content Analytics용으로 구성됨](config/configuration.md))을 방문하면 Experience Platform 웹 또는 모바일 SDK은 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
+1. ID 및 기능 서비스는 이러한 상호 작용을 처리합니다. 해당 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 검색된 모든 URL에 대해 ID 서비스는 경험과 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험 및 에셋 메타데이터와 속성을 검색합니다.
 1. 이러한 서비스의 결과([구성 요소, 속성, ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
-1. Content Analytics 데이터는 행동 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 사용할 수 있습니다. 이러한 설정은 콘텐츠에 대해 고유한 거시적 수준 인사이트의 기초를 제공합니다. <br/>[Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 Content Analytics 보고서와 분석을 바로 시작할 수 있습니다.
+1. Content Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 데이터를 사용할 수 있습니다. 해당 설정은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 위한 기반을 제공합니다. <br/>Content Analytics 보고서와 분석은 [Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 빠르게 시작할 수 있습니다.
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 
 >[!NOTE]
 >
->개인정보 보호 및 보안 방패 추가 기능에 대한 라이선스를 취득한 경우 Content Analytics의 적용을 받는 경험 및 자산에서 생성된 모든 데이터는 DULE 레이블 또는 고객 관리 키가 적용되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
+>Privacy 및 Security Shield 추가 기능에 라이선스를 부여한 경우 DULE 레이블 지정 또는 고객 관리 키에는 Content Analytics이 적용되는 경험 및 자산이 포함되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
 >
 
 >[!IMPORTANT]
@@ -73,6 +73,6 @@ Content Analytics는 Experience Platform의 이벤트 데이터 세트에서 웹
 >
 >[Content Analytics 보고](report/report.md)
 >[Content Analytics 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=ko#M454)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
