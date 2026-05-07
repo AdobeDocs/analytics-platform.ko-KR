@@ -4,17 +4,18 @@ description: Audience Analysis의 사용 사례를 알아봅니다.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
-source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
+hide: true
+exl-id: f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 1%
+source-wordcount: '1517'
+ht-degree: 0%
 
 ---
 
 # Audience Analysis 활용 사례 {#analyze-audiences-use-cases}
 
-Audience Analysis를 사용하면 Customer Journey Analytics에서 Experience Platform 대상 멤버십 데이터를 보고할 수 있습니다. 이는 다른 매개 변수 및 구성 세부 사항과 함께 수집 중인 프로필 데이터 세트를 결정하는 데 도움이 되는 Audience Analysis 구성 마법사를 통해 관리되는 구성을 통해 달성할 수 있습니다. 자세한 개요 정보는 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
+Audience Analysis를 사용하면 Customer Journey Analytics에서 Experience Platform 대상 멤버십 데이터를 보고할 수 있습니다. 이는 다른 매개 변수 및 구성 세부 사항과 함께 수집 중인 프로필 데이터 세트를 결정하는 데 도움이 되는 Audience Analysis 구성 마법사를 통해 관리되는 구성을 통해 달성할 수 있습니다. 자세한 개요 정보는 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오. )
 
 이 문서에는 Audience Analysis에서 제공하는 값을 강조 표시하는 예제 사용 사례가 포함되어 있습니다. 사용 사례를 검토하기 전에 먼저 아래 보고 고려 사항을 숙지하십시오. 사용 사례는 보고서의 최종 출력에 영향을 미칠 수 있으므로 이러한 고려 사항을 염두에 두어야 합니다.
 

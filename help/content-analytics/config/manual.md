@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
+source-git-commit: a593221a9eb81d747777aedb323fd44a32c470be
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 64%
 
 ---
 
@@ -22,25 +22,38 @@ ht-degree: 100%
 
 구현된 Content Analytics 구성에 대한 데이터 수집을 시작하려면 다음을 수행합니다.
 
-1. [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따릅니다. Content Analytics 구성이 포함된 태그 속성에 대한 라이브러리를 정상적으로 게시합니다.
+1. [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따릅니다. Content Analytics 구성이 포함된 태그 속성에 대한 라이브러리를 성공적으로 게시했습니다.
 
-1. Content Analytics에 따라 개발, 스테이징 또는 게시 환경의 페이지 `<head>` 요소에 임베드된 코드를 [설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments#installation)합니다.
+1. 구성한 채널을 기반으로 다음 작업을 수행하십시오.
 
+   * **web**&#x200B;의 경우: [설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments#installation) 개발, 스테이징 또는 게시 환경에 있는 페이지의 `<head>` 요소에 포함된 코드를 Content Analytics에 따라 설정합니다.
+   * **모바일**&#x200B;의 경우: Content Analytics용 모바일 애플리케이션을 구성하고 계측하는 방법은 [Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/home/)에서 솔루션별 [Adobe Content Analytics 확장 안내서](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)를 참조하십시오.
 
 ## 데이터 수집 중지
 
-구현된 Content Analytics 구성에 대한 데이터 수집을 중지하려면 다음을 수행합니다.
+구성한 채널을 기반으로 구현된 Content Analytics 구성에 대한 데이터 수집을 중지하려면 다음을 수행합니다.
 
-1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
-1. Content Analytics 구성과 연결된 태그 속성을 [삭제](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
+* **web**&#x200B;의 경우:
 
+   1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
+   1. Content Analytics 구성에 연결된 웹 태그 속성을 삭제합니다.
+
+* **mobile**&#x200B;의 경우:
+
+   1. 앱에서 [Content Analytics 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 제거합니다.
+   1. Content Analytics 구성에 연결된 모바일 태그 속성을 삭제합니다.
+
+변경 내용을 적용하려면 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따르십시오.
 
 
 ## 데이터 수집 수정
 
 [가이드 구성 마법사](guided.md)를 사용하여 구현된 구성을 약간 변경할 수 있습니다. 예를 들어 데이터 보기를 변경하거나 경험을 활성화 또는 비활성화할 수 있습니다.
 
-Content Analytics 구성과 연결된 태그 속성에서 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 다음 아티팩트를 변경할 수 있습니다.
+
+### 웹
+
+Content Analytics 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 웹 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview)을 사용하여 다음 아티팩트를 변경합니다.
 
 * [샌드박스 및 데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-datastreams){target="_blank"}
 
@@ -58,18 +71,22 @@ Content Analytics 구성과 연결된 태그 속성에서 [Adobe Content Analyti
   정규 표현식을 편집하여 페이지와 자산을 세그먼트화하는 방법을 수정할 수 있습니다.
 
 
-Adobe Content Analytics 확장 기능에서 변경 사항을 적용한 후에는 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 적용한 변경 사항에 따라 데이터 수집을 시작해야 합니다.
+Adobe Content Analytics 웹 확장을 변경한 후 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 데이터 수집을 시작합니다.
 
 
+### 모바일
 
->[!MORELIKETHIS]
->
->[가이드 구성](guided.md)
->>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
->
+Content Analytics 구성과 연결된 Tags 속성에서 [Adobe Content Analytics 모바일 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 사용하여 추가로 변경합니다.
+
+Adobe Content Analytics 웹 확장을 변경한 후 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 사용하여 데이터 수집을 시작합니다.
 
 
 ## 버전 관리
+
+>[!NOTE]
+>
+>이 섹션은 웹 채널용 Content Analytics에만 적용됩니다.
+
 
 Content Analytics 경험을 수집하려면 버전 관리를 구현하여 새로운 경험(웹 페이지 변경 사항)이 적절하게 수집되도록 해야 합니다.
 
@@ -88,44 +105,8 @@ window.adobe.getContentExperienceVersion = () => {
 };
 ```
 
-## ID
-
-Content Analytics은 다음과 같은 방식으로 ID를 처리합니다.
-
-* ECID는 Content Analytics 스키마의 `identityMap` 부분에 자동으로 채워집니다.
-* `identityMap`에 다른 ID 값이 필요한 경우 Web SDK 확장 내의 `onBeforeEventSend` 콜백에서 이러한 값을 설정해야 합니다.
-* 스키마는 시스템 소유이므로 필드 기반 결합은 지원되지 않습니다. 따라서 필드 기반 결합을 지원하기 위해 스키마에 다른 필드를 추가할 수 없습니다
-
-
-Content Analytics ID 데이터와 Adobe Experience Platform Web SDK 데이터 ID 데이터가 필드 수준에서 올바르게 결합되는지 확인하려면 ](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}on before event send[ 콜백에서 Web SDK를 수정해야 합니다.
-
-1. Adobe Experience Platform Web SDK 확장 및 Adobe Content Analytics 확장이 포함된 **[!UICONTROL 태그]** 속성으로 이동합니다.
-1. ![플러그](/help/assets/icons/Plug.svg) **[!UICONTROL 확장]**&#x200B;을 선택합니다.
-1. **[!UICONTROL Adobe Experience Platform Web SDK]** 확장을 선택합니다.
-1. **[!UICONTROL 구성]**&#x200B;을 선택합니다.
-1. **[!UICONTROL SDK 인스턴스]** 섹션에서 아래로 스크롤하여 **[!UICONTROL 데이터 수집]** - **[!UICONTROL On before event send 콜백]**&#x200B;로 이동합니다.
-
-   ![On before event send 콜백](/help/content-analytics/assets/onbeforeeventsendcallback.png)
-
-1. **[!UICONTROL &lt;/> On before event send 콜백 코드 제공]**&#x200B;을 선택합니다.
-1. 다음 코드를 추가합니다.
-
-   ```javascript
-   window.adobeContentAnalytics?.forwardEvent(content);
-   
-   content.xdm.identityMap = _satellite.getVar('identityMap');
-   if ((content.xdm.eventType === "content.contentEngagement") && (_satellite.getVar('identityMap') != null)) {
-      return true;
-   }
-   ```
-
-   ![On before event send 콜백](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
-
-1. 코드를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 확장을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 태그 속성에 대한 업데이트를 [게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)합니다.
-
-
-
-
-
+>[!MORELIKETHIS]
+>
+>[안내식 구성](guided.md)
+>[데이터 수집 태그 게시 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview)
+>

@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 68c9d38f4fe60a9b8e661309698ba0ec38e2ea9b
+source-git-commit: 5c38633e3416f92c04039a3a1da6f1e1ee561608
 workflow-type: tm+mt
-source-wordcount: '5874'
+source-wordcount: '6869'
 ht-degree: 95%
 
 ---
@@ -19,18 +19,20 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 5월** | |
+| Content Analytics 모바일 채널 | Content Analytics 모바일 채널의 기능 및 구성을 설명하는 [Content Analytics 설명서](/help/content-analytics/content-analytics.md) 업데이트. |
 | **2026년 4월** | |
 | 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 보호 기능 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
 | Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다 | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 연결에 포함됩니다](/help/integrations/ajo.md#high-throughput-add-on-datasets). |
 | 업데이트된 집단 분석 사용 사례 | 피드백을 기반으로 Analytics Workspace 예제를 집단 분석 사용 사례에 추가했습니다. |
 | **2026년 3월** | |
-| 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#drop-zone) 기능을 지원하도록 패널의 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)에 대한 설명서를 재구성했습니다. |
+| 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 패널의 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
 | 불량 ID에 대한 기술 정보(BAVID) | 잘못된 ID의 새 [기술 정보](/help/technotes/badids.md). 이 기술 문서에서는 잘못된 ID의 정의, Customer Journey Analytics 인터페이스에서 잘못된 ID가 사용되는 위치 및 잘못된 ID에 대한 연결의 데이터를 조사하는 방법에 대해 설명합니다. |
-| 연결에서 데이터 세트 미리보기 다시 디자인 | 연결을 사용할 수 있는 데이터 세트에 대한 추가 [미리 보기 정보 결합](/help/connections/create-connection.md#add-datasets)에 대한 설명서를 포함하여 개인 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#edit-a-dataset) 또는 [편집](/help/stitching/use-stitching-ui.md#datasets-preview)할 때 개선된 데이터 미리 보기 환경에 대한 설명서를 업데이트했습니다. |
+| 연결에서 데이터 세트 미리보기 다시 디자인 | 연결을 사용할 수 있는 데이터 세트에 대한 추가 [미리 보기 정보 결합](/help/stitching/use-stitching-ui.md#datasets-preview)에 대한 설명서를 포함하여 개인 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 개선된 데이터 미리 보기 환경에 대한 설명서를 업데이트했습니다. |
 | Content Analytics 썸네일 및 미리보기 | Content Analytics의 추가 시각화를 위한 [썸네일](/help/content-analytics/report/report.md#thumbnails) 및 [미리 보기](/help/content-analytics/report/report.md#previews)에 대한 설명서입니다. |
 | **2026년 2월** | |
 | 헤더 재정의 | Content Analytics에 대한 추가 [헤더 재정의 구성](/help/content-analytics/config/guided.md#header-overrides)에 대한 설명서입니다. |
-| 계산된 지표 보호 | 조직의 최대 계산된 지표 수[에 대한 &#x200B;](/help/technotes/guardrails.md#segments-and-calculated-metrics)보호가 업데이트되었습니다. 최대 인원은 이제 50,000입니다. |
+| 계산된 지표 보호 | 조직의 최대 계산된 지표 수[&#128279;](/help/technotes/guardrails.md#segments-and-calculated-metrics)에 대한 보호가 업데이트되었습니다. 최대 인원은 이제 50,000입니다. |
 | 독립형 Content Analytics | Content Analytics의 [독립 실행형 구성](/help/content-analytics/config/standalone.md)에 대한 설명서를 추가했습니다. |
 | **2026년 1월** | |
 | 스키마 설계 | [Customer Journey Analytics에 사용할 스키마를 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)하는 데 유용한 정보와 컨텍스트를 추가했습니다. |
@@ -79,7 +81,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md)를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다. |
 | Adobe Experience Platform에 스트리밍 미디어 데이터를 수집하기 위한 업데이트된 XDM 필드 | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때, 스트리밍 미디어 매개변수 설명서의 “XDM 필드 경로” 제목 아래에 표시된 XDM 필드 경로는 더 이상 사용해서는 안 됩니다. 이러한 필드 경로는 다음 페이지에서 찾을 수 있으며 “더 이상 사용되지 않음”으로 표시됩니다. [오디오 및 비디오 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/quality-parameters). |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics 소스 커넥터는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
-| 용어 변경: “필터”에서 “세그먼트”로 변경 | 이전에는 Adobe Customer Journey Analytics에서 세그먼트를 “필터”라고 불렀습니다. 이 용어는 이제 Adobe Analytics와 일치하게 되었습니다. 이제 “필터”는 “세그먼트”로 호칭합니다. (물론 검색 필터는 여전히 “필터”입니다.) UI와 설명서가 업데이트되었습니다. |
+| 용어 변경: “필터”에서 “세그먼트”로 변경 | 이전에는 Adobe Customer Journey Analytics에서 세그먼트를 “필터”라고 불렀습니다. 이 용어는 이제 Adobe Analytics와 일치하게 되었습니다. 이제 “필터”는 “세그먼트”로 호칭합니다. (분명히 검색 필터는 여전히 &quot;필터&quot;라고 합니다.) UI 및 설명서가 업데이트되었습니다. |
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | 제품 사용 템플릿 | 새로운 Workspace 템플릿을 사용하면 조직 내에서 Customer Journey Analytics 제품이 어떻게 사용되는지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates) |
@@ -216,7 +218,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 최적화 업데이트 | [Customer Journey Analytics 성능 최적화](/help/technotes/optimizing-performance.md)에 대한 문서가 업데이트됨 |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
-| 왼쪽 레일의 구성 요소 정렬 | 왼쪽 레일의 구성 요소 목록 정렬에 대한 정보가 추가되었습니다. [구성 요소 개요](/help/components/overview.md)의 “필터 검색 및 구성 요소 목록 정렬” 섹션을 참조하십시오. |
+| 왼쪽 레일의 구성 요소 정렬 | 왼쪽 레일의 구성 요소 목록 정렬에 대한 정보가 추가되었습니다.[구성 요소 개요](/help/components/overview.md)의 “구성 요소 목록 검색, 필터링 및 정렬” 섹션을 참조하십시오. |
 | 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | X 아이콘을 사용하여 동적 차원이 포함된 특정 행을 신속하게 삭제하는 방법에 대한 정보가 추가되었습니다. [테이블 필터링 및 정렬](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)의 “테이블에서 특정 행을 신속하게 제외” 섹션을 참조하십시오. |
 | 패널 내에 시각화를 추가하는 버튼 | 시각화를 빠르게 추가할 수 있는 Analysis Workspace의 각 패널 하단에 있는 새로운 버튼에 대한 정보가 추가되었습니다. [시각화 개요](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)의 “패널에 시각화 추가” 섹션을 참조하십시오. |
 | 인텔리전트 캡션 설명서 | 라인 시각화의 [자연어 요약](/help/analysis-workspace/visualizations/intelligent-captions.md)으로 사용자를 위한 스토리텔링을 풍부하게 합니다. |
