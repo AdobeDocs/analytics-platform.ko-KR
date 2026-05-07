@@ -50,7 +50,7 @@ Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Pl
 
 CDN에서 직접 라이브러리를 로드합니다.
 
-1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
+1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -72,7 +72,7 @@ CDN에서 직접 라이브러리를 로드합니다.
    ```
 
    장소
-   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
+   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
    * `content-analytics/1.x.x`은(는) Content Analytics SDK 라이브러리를 사용할 버전을 참조합니다.
 
 2. 독립 실행형 빌드가 `window.contentAnalytics`을(를) 초기화 함수로 표시합니다.
