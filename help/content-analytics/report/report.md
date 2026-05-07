@@ -94,7 +94,7 @@ Content Analytics [template](/help/analysis-workspace/templates/use-templates.md
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
+1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
