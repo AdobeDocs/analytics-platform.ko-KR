@@ -1,16 +1,17 @@
 ---
 title: Content Analytics 태그 집계 구성
-description: Experience Platform 데이터 수집 태그를 사용하지 않고 Content Analytics을 구성하는 방법에 대해 알아봅니다
+description: Experience Platform 데이터 수집 태그를 사용하지 않고 Content Analytics을 구성하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 hide: true
-source-git-commit: d324e2b03d47ba1cf8e5abbadc817b98b27ea68e
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
 
 ---
+
 
 # Content Analytics 태그 독립적인 구성
 
@@ -44,7 +45,7 @@ Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Pl
 
 CDN에서 직접 라이브러리를 로드합니다.
 
-1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
+1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -66,7 +67,7 @@ CDN에서 직접 라이브러리를 로드합니다.
    ```
 
    장소
-   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
+   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
    * `content-analytics/1.x.x`은(는) Content Analytics SDK 라이브러리를 사용할 버전을 참조합니다.
 
 2. 독립 실행형 빌드가 `window.contentAnalytics`을(를) 초기화 함수로 표시합니다.
