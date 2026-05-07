@@ -3,7 +3,7 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ae368ea39b6521e2e350aa7849568cd225ecef90
+source-git-commit: 64b96d8b0917975f19c353e26d9e6437d1b4e5ac
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 63%
@@ -12,7 +12,7 @@ ht-degree: 63%
 
 # 현재 Customer Journey Analytics 릴리스 정보 (2026년 4월)
 
-**마지막 업데이트**: 2026년 4월 22일
+**마지막 업데이트**: 2026년 5월 7일
 
 이 릴리스 정보에는 2026년 4월 릴리스 기간이 포함됩니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
