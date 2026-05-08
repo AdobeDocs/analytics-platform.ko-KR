@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: f29a55379d83fc9bdd89c82f0b27c4321a139908
+source-git-commit: 8c4bd397aa2863c7365778cb545ec42d9b0f4528
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1419'
 ht-degree: 47%
 
 ---
@@ -100,7 +100,11 @@ Content Analytics [template](/help/analysis-workspace/templates/use-templates.md
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
 
-[Analysis Workspace](/help/analysis-workspace/home.md)에서 **[!UICONTROL Content Analytics 개요]** 프로젝트가 열립니다. 프로젝트는 4개의 [패널](/help/analysis-workspace/c-panels/panels.md)로 구성되어 있으며, 각 패널은 특정 질문에 답변할 수 있도록 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 및 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다. **[!UICONTROL 콘텐츠 채널]** 분류를 사용하여 관심 있는 콘텐츠 채널의 패널을 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)할 수 있습니다. **[!UICONTROL 웹]** 또는 **[!UICONTROL 모바일]**.
+[Analysis Workspace](/help/analysis-workspace/home.md)에서 **[!UICONTROL Content Analytics 개요]** 프로젝트가 열립니다. 프로젝트는 4개의 [패널](/help/analysis-workspace/c-panels/panels.md)로 구성되어 있으며, 각 패널은 특정 질문에 답변할 수 있도록 [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 및 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다.
+
+**[!UICONTROL 콘텐츠 채널]** 분류를 사용하여 관심 있는 콘텐츠 채널의 패널을 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)할 수 있습니다. **[!UICONTROL 웹]** 또는 **[!UICONTROL 모바일]**.
+
+![Analysis Workspace 패널의 콘텐츠 채널 분류](/help/content-analytics/assets/aca-content-channel-selector.png)
 
 네 개의 패널은 다음과 같습니다.
 
