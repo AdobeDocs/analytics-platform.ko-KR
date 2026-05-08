@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 64b96d8b0917975f19c353e26d9e6437d1b4e5ac
+source-git-commit: 43beba33f185e81fcebb4c18acfaa1c236ccd0c7
 workflow-type: tm+mt
-source-wordcount: '6869'
+source-wordcount: '6886'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 5월** | |
+| Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md). |
 | Content Analytics 모바일 채널 | Content Analytics 모바일 채널의 기능 및 구성을 설명하는 [Content Analytics 설명서](/help/content-analytics/content-analytics.md) 업데이트. |
 | **2026년 4월** | |
 | 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 보호 기능 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
