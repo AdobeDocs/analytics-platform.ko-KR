@@ -4,10 +4,10 @@ title: 열 설정
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 81%
+source-wordcount: '951'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 | 옵션 | 설명 |
 | --- | --- |
 | **[!UICONTROL 합계 표시]** | 열의 클라이언트측 합계를 표시합니다. 이 합계는 세션이나 개인 등의 지표를 중복 제거하지 **않습니다**. |
-| **[!UICONTROL 합계 표시]** | 열의 서버측 합계를 표시합니다. 총계는 세션이나 개인 등의 지표를 중복 제거합니다. |
+| **[!UICONTROL 총 합계 표시]** | 열의 서버측 합계를 표시합니다. 총계는 세션이나 개인 등의 지표를 중복 제거합니다. |
 | **[!UICONTROL 스파크라인 표시]** | 열 머리글에 선 차트를 표시합니다. |
 | **[!UICONTROL 숫자]** | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
 | **[!UICONTROL Percent]** | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확성을 보장하기 위해 100%보다 큰 백분율도 가능합니다. 열 너비가 너무 커지는 것을 방지하기 위해 상한값을 1,000%까지 조정할 수 있습니다. |
@@ -60,7 +60,7 @@ ht-degree: 81%
 | **[!UICONTROL 백분율 제한 사용]** | 절댓값이 아니라 백분율에 따라 제한 범위 변경. 백분율 제한값 범위는 비율만을 기반으로 하는 지표(예: 바운스 비율) 및 개수와 비율이 있는 지표(예: 페이지 조회수)에서 작동합니다. |
 | **[!UICONTROL 자동 생성]** | 데이터를 기반으로 상한/중간/하한을 자동으로 계산. 상한은 이 열에서 가장 큰 값입니다. 하한값은 가장 낮고, 중간값은 상한 및 하한값의 평균값이다. |
 | **[!UICONTROL 사용자 정의]** | **[!UICONTROL 상한]**, **[!UICONTROL 중간점]** 및 **[!UICONTROL 하한]**&#x200B;을 수동으로 할당합니다. 제한값을 통해 열 값이 양호, 평균 또는 나쁨일 때를 유연하게 확인할 수 있습니다. |
-| **[!UICONTROL 조건부 서식 팔레트]** | 미리 구성된 색상 세트를 셀에 적용합니다. 선택한 4개의 색상 구성표에 따라 높은 값, 중간 값, 낮은 값에 다른 색상을 지정합니다. <br> 테이블에서 차원을 바꾸면 조건부 서식 제한이 재설정됩니다. 지표를 바꾸면 해당 열에 대한 제한이 재계산됩니다(지표는 X축에 있고 차원은 Y축에 있음). |
+| **[!UICONTROL 조건부 서식 팔레트]** | 미리 구성된 색상 세트를 셀에 적용합니다. 사용 가능한 네 가지 색상 구성표 중 어떤 색상 구성표를 선택하느냐에 따라 서로 다른 색상이 높은 값, 중간점 값 및 낮은 값에 할당됩니다. <br> 테이블에서 차원을 바꾸면 조건부 서식 제한이 재설정됩니다. 지표를 바꾸면 해당 열에 대한 제한이 재계산됩니다(지표는 X축에 있고 차원은 Y축에 있음). |
 
 ## 비기본 속성 모델 사용 {#use-non-default-attribution-model}
 

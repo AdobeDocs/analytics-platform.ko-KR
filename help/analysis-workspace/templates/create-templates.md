@@ -4,9 +4,9 @@ title: 템플릿 만들기 및 관리
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1888'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
 
-1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일의 **[!UICONTROL 템플릿]** 아래에서 **[!UICONTROL _login_company_name _템플릿을 선택합니다]**.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일의 **[!UICONTROL 템플릿]** 아래에서 **[!UICONTROL _login _company_name_ 템플릿을 선택합니다]**.
 
 1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 방법:
 

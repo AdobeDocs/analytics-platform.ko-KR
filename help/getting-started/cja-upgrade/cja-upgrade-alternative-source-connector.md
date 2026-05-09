@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 94%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>가장 시간이 적게 걸리며 까다로운 업그레이드 경로. <p>데이터는 Customer Journey Analytics으로 빠르고 쉽게 마이그레이션됩니다.</p></li></ul> | <ul><li>**데이터가 Edge Network로 전송되지 않습니다**. <p>이로 인해 다음과 같은 단점이 발생합니다.</p><ul><li>모든 업그레이드 경로에 대한 보고에서 가장 높은 수준의 [지연](/help/technotes/guardrails.md#latencies) 발생, 실시간 개인화 사용 사례에 최적화되지 않음.</li><li>데이터는 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없으며 Customer Journey Analytics에만 국한됨</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존</li></ul><li>**향후 Web SDK로의 전환이 어려움**: 결국에는 Experience Platform Web SDK가 제공하는 이점을 활용하고 싶을 것입니다. Experience Platform Web SDK를 사용하려면 새로 구현해야 합니다.</li><li>**스키마에서 Analytics 경험 이벤트 필드 그룹 사용**: 이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 여러 Adobe Analytics 이벤트를 추가합니다. 이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 혼란스러운 스키마가 생길 수 있습니다.</li><li>**Adobe Analytics와 Customer Journey Analytics에 대한 라이선스 모두 필요**: Analytics 소스 커넥터를 사용하려면 Adobe Analytics와 Customer Journey Analytics에 대한 비용을 모두 지불해야 합니다.</li></ul> |
+| <ul><li>가장 시간이 적게 걸리며 까다로운 업그레이드 경로. <p>데이터는 Customer Journey Analytics으로 빠르고 쉽게 마이그레이션됩니다.</p></li></ul> | <ul><li>**데이터가 Edge Network로 전송되지 않습니다**. <p>이로 인해 다음과 같은 단점이 발생합니다.</p><ul><li>모든 업그레이드 경로에 대한 보고에서 가장 높은 수준의 [지연](/help/technotes/guardrails.md#latencies) 발생, 실시간 개인화 사용 사례에 최적화되지 않음.</li><li>데이터는 다른 Adobe Experience Platform 애플리케이션과 공유할 수 없으며 Customer Journey Analytics에만 국한됨</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존</li></ul><li>**향후 Web SDK로의 전환이 어려움**: 결국에는 Experience Platform Web SDK가 제공하는 이점을 활용하고 싶을 것입니다. Experience Platform Web SDK를 사용하려면 새로 구현해야 합니다.</li><li>**스키마에서 Analytics 경험 이벤트 필드 그룹 사용**: 이 필드 그룹은 Customer Journey Analytics 스키마에 필요하지 않은 여러 Adobe Analytics 이벤트를 추가합니다.  이로 인해 Customer Journey Analytics에 필요한 것보다 더 복잡하고 혼란스러운 스키마가 생길 수 있습니다.</li><li>**Adobe Analytics와 Customer Journey Analytics에 대한 라이선스 모두 필요**: Analytics 소스 커넥터를 사용하려면 Adobe Analytics와 Customer Journey Analytics에 대한 비용을 모두 지불해야 합니다.</li></ul> |
 
 {style="table-layout:auto"}
 

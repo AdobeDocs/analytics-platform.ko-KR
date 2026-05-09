@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '694'
 ht-degree: 98%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
-![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**&#x200B;분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 최종 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 최종 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funnel 마찰 분석](https://video.tv.adobe.com/v/3431277/?captions=kor&quality=12&learn=onn){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funnel 마찰 분석](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

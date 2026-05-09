@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 93%
+source-wordcount: '743'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 93%
 >
 >반복 사용자는 사용자 수의 증가나 감소를 나타내지 않으므로 이 계산에는 반영되지 않습니다.
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
 
 
 ## 사용 사례

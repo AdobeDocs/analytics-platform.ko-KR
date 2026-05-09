@@ -4,10 +4,10 @@ title: 실험 패널
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 97%
+source-wordcount: '2318'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 실험 패널에 대해 설명합니다._<br/>__![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에서 Adobe Target 활동 및 경험을 분석하는 방법에 대한 자세한 내용은 [Target용 Analytics 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하십시오._
+_이 문서에서는 실험 패널의 문서_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 있습니다._<br/>_Adobe Target 활동 및 경험을 분석하는 방법에 대한 자세한 내용은 [Analytics for Target 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하십시오_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
    | **[!UICONTROL 실험]** | 어떤 것을 영구적으로 유지하는 것이 최선인지 판단하기 위해 최종 사용자에게 공개된 경험의 변형 세트. 실험은 두 개 이상의 변형으로 구성되며, 그 중 하나는 제어 변형으로 간주됩니다. 이 설정은 데이터 보기에서 **[!UICONTROL 실험]** 레이블로 레이블 지정된 차원과 최근 6개월 동안의 실험 데이터로 미리 채워집니다. |
    | **[!UICONTROL 제어 변형]** | 최종 사용자 경험에서 두 가지 이상의 변경 중 하나로, 최선의 대안을 식별하기 위해 비교됩니다. 하나의 변형을 제어로 선택해야 하며, 하나의 변형만 제어 변형으로 간주될 수 있습니다. 이 설정은 데이터 보기에서 **[!UICONTROL 변형]** 레이블로 레이블 지정된 차원으로 미리 채워집니다. 이 설정은 이 실험과 관련된 변형 데이터를 가져옵니다. |
    | **[!UICONTROL 성공 지표]** ➊ | 사용자가 변형을 비교하는 지표입니다. 전환 지표에 대해 가장 바람직한 결과를 나타내는 변형(최고 또는 최저)이 실험의 *최고 성과의 변형*&#x200B;으로 사용됩니다. 최대 5개의 지표를 추가할 수 있습니다. |
-   | **[!UICONTROL 지표 정규화]** ➋ | 테스트가 실행될 기본(**[!UICONTROL 글로벌 계정]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 기회]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 구매 그룹]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 사용자]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]**)입니다. 예를 들어 테스트는 **[!UICONTROL 전환율]**&#x200B;이 페이지 보기로 계산되는 여러 변형의 전환율을 비교할 수 있습니다. |
+   | **[!UICONTROL 지표 정규화]** ➋ | 테스트가 실행될 기본(**[!UICONTROL 글로벌 계정]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 기회]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 구매 그룹]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 사용자]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]**)입니다. 예를 들어 테스트는 **[!UICONTROL 전환율]**&#x200B;이 페이지 보기로 계산되는 여러 변형의 전환율을 비교할 수 있습니다. |
    | **[!UICONTROL 신뢰도 상한/하한 포함]** | 이 옵션을 활성화하면 신뢰 수준에 대한 상한과 하한이 표시됩니다. |
 
 
@@ -107,7 +107,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 실험 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 [요약 변경](../visualizations/summary-number-change.md) 시각화가 제공됩니다. 언제든지 오른쪽 상단의 연필 편집을 선택하여 패널을 편집할 수 있습니다.
 
-또한 실험이 결정적인지 여부와 결과를 정리한 텍스트 요약을 얻을 수 있습니다. 결론은 통계적 유의성에 근거합니다([통계적 방법론](#adobes-statistical-methodology) 참조). 가장 높은 상승도와 신뢰도를 가진 최고 성능의 변형에 대한 요약 숫자를 확인할 수 있습니다.
+또한 실험이 결정적인지 여부와 결과를 정리한 텍스트 요약을 얻을 수 있습니다. 결정성은 통계적 유의성을 기반으로 합니다([통계적 방법](#adobes-statistical-methodology) 참조). 상승도와 신뢰도가 가장 높은 최고의 성과 변형에 대한 요약 번호를 볼 수 있습니다.
 
 선택한 각 성공 지표에 대해 [자유 형식 테이블](../visualizations/freeform-table/freeform-table.md) 시각화와 전환율 [라인](../visualizations/line.md) 시각화가 표시됩니다.
 
@@ -124,7 +124,7 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 2. **최고 성과의 변형**: 실험이 결정적이라고 선언되면 전환율이 가장 높은 변형을 최고 성과의 변형으로 레이블 지정합니다. 이 변형은 제어 또는 기준선 변형이거나, *항시* 유효한 신뢰 임계값(Benjamini-Hochberg 보정 적용 상태) 95%를 초과하는 변형 중 하나여야 합니다.
 
-3. **전환율**: 표시되는 전환율은 표준화 지표 값 ➊에 대한 성공 지표 값 ➋의 비율입니다. 이 값은 이진수(실험의 각 단위당 1 또는 0)가 아닌 경우 이 값이 1보다 클 수 있습니다.
+3. **전환율**: 표시되는 전환율은 표준화 지표 값 ➋에 대한 성공 지표 값 ➊의 비율입니다. 이 값은 이진수(실험의 각 단위당 1 또는 0)가 아닌 경우 이 값이 1보다 클 수 있습니다.
 
 4. **상승도**: 실험 보고서 요약에는 기준선 상승도가 표시되며, 이는 기준선에 대한 해당 변형의 전환율 개선 비율을 측정한 것입니다. 정확하게 정의하면 해당 변형과 기준선 간의 성과 차이를 기준선의 성과로 나눈 값이 백분율로 표시됩니다.
 
@@ -146,13 +146,13 @@ Customer Journey Analytics 데이터 보기 설정에서 관리자는 차원 또
 
 Customer Journey Analytics를 통해 분석가는 모든 차원을 실험으로 선택할 수 있습니다. 그러나 실험으로 선택된 차원이 무작위로 추출된 사람들을 위한 차원이 아닌 분석을 어떻게 해석할 수 있습니까?
 
-예를 들어 사람이 보는 광고를 생각해 보겠습니다. *광고 A* 대신 *광고 B*&#x200B;를 표시하기로 결정한 경우 일부 지표(예: 평균 수익)의 변화를 측정하는 데 관심이 있을 수 있습니다. 광고 A 대신 광고 B를 보여 주는 인과 효과는 마케팅 결정에 도달하는 데 매우 중요합니다. 이 인과 효과는 광고 A를 표시하는 현상 유지를 광고 B를 표시하는 다른 전략으로 대체하면 전체 집단의 평균 수익으로 측정될 수 있습니다.
+예를 들어 사람이 보는 광고를 생각해 보겠습니다. *광고 A* 대신 *광고 B*&#x200B;을(를) 표시하기로 결정한 경우 일부 지표(예: 평균 매출)의 변화를 측정하는 데 관심이 있을 수 있습니다. 광고 A 대신 광고 B를 보여주는 인과적 효과는 마케팅 의사 결정에 도달하는데 있어서 핵심적으로 중요하다. 이 인과 효과는 광고 A를 표시하는 현상 유지를 광고 B를 표시하는 다른 전략으로 대체하면 전체 집단의 평균 수익으로 측정될 수 있습니다.
 
 A/B 테스트는 이러한 개입의 효과를 객관적으로 측정하기 위한 업계의 표준입니다. A/B 테스트가 인과관계 추정치를 도출하는 중요한 이유는 가능한 변형 중 하나를 받을 수 있는 사람들의 무작위 배정 때문입니다.
 
 이제 무작위화로 달성할 수 없는 차원, 예를 들어 미국의 주에 대해 생각해 보겠습니다. 사람들은 주로 뉴욕과 캘리포니아 두 주에서 옵니다. 겨울 의류 브랜드의 평균 판매 수익은 지역 날씨의 차이로 인해 두 주에서 다를 수 있습니다. 이러한 상황에서는 사람들의 지리적 상태가 다르다는 사실이 아니라 날씨가 겨울 의류 판매의 진정한 원인일 수 있습니다.
 
-Customer Journey Analytics의 실험 패널을 통해 데이터를 사람들의 주별 평균 매출 차이로 분석할 수 있습니다. 이런 상황에서는 출력 결과에 인과 관계가 없습니다. 하지만 이런 분석은 여전히 흥미로울 수 있습니다. 이는 사람들의 주별 평균 수입 차이에 대한 추정치(불확실성 측정치와 함께)를 제공합니다. 이 값은 *통계적 가설 검정*&#x200B;으로도 지칭됩니다. 이 분석의 결과는 흥미로울 수 있지만 반드시 실행 가능한 것은 아닙니다. 단순히 무작위로 지정하지 않았기 때문에, 때로는 차원의 가능한 값 중 하나에 사람을 무작위로 지정할 수 없습니다.
+Customer Journey Analytics의 실험 패널을 통해 데이터를 사람들의 주별 평균 매출 차이로 분석할 수 있습니다. 이런 상황에서는 출력 결과에 인과 관계가 없습니다. 하지만 이런 분석은 여전히 흥미로울 수 있습니다. 이는 사람들의 주별 평균 수입 차이에 대한 추정치(불확실성 측정치와 함께)를 제공합니다.  이 값은 *통계적 가설 검정*&#x200B;으로도 지칭됩니다. 이 분석의 결과는 흥미로울 수 있지만 반드시 실행 가능한 것은 아닙니다. 단순히 무작위로 지정하지 않았기 때문에, 때로는 차원의 가능한 값 중 하나에 사람을 무작위로 지정할 수 없습니다.
 
 다음 일러스트레이션은 이러한 상황을 대조합니다.
 
@@ -180,8 +180,8 @@ Customer Journey Analytics의 실험 패널을 통해 데이터를 사람들의 
 
 ## 실험 패널에서 계산된 지표 사용
 
-[실험 패널에서 계산된 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=ko)에 대한 자세한 내용은 이 블로그 게시물을 참조하십시오.
+[실험 패널에서 계산된 지표 사용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)에 대한 자세한 내용은 이 블로그 게시물을 참조하십시오.
 
 >[!MORELIKETHIS]
->[Adobe Customer Journey Analytics 실험 마스터하기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=ko)
+>[Adobe Customer Journey Analytics 실험 마스터하기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
 >

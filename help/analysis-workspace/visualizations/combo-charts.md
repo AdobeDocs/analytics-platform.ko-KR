@@ -4,10 +4,10 @@ title: 콤보
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 93%
+source-wordcount: '617'
+ht-degree: 92%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
 
-_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
+_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 
    출력은 다음과 유사합니다.
 
-   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 &#x200B;](assets/combo-output.png)
+   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 ](assets/combo-output.png)
 
    현재 기간은 막대 차트로 표시됩니다. 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “*바벨*”이라고 합니다.
 
@@ -98,7 +98,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
