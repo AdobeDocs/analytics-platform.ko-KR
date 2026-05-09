@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 98%
+source-wordcount: '2770'
+ht-degree: 95%
 
 ---
 
@@ -290,7 +290,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 1. 제목, 차트 유형 및 기타 타일 옵션을 변경합니다.
 1. 구성 요소를 타일로 끌어옵니다.
    ![데이터 스토리 만들기](assets/data-story3.png)
-시각화와 같은 구성 요소를 타일에 끌어다 놓으면 해당 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
+시각화와 같은 구성 요소를 타일에 끌어다 놓으면 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
 1. 제목에만 변경 사항을 적용하려면 Shift 키를 누른 상태에서 변경 사항을 적용하십시오.
    ![데이터 스토리 만들기](assets/data-story4.png)
 

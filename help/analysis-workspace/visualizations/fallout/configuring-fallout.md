@@ -4,10 +4,10 @@ title: 폴아웃 시각화 구성
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 295e4c9b3b9dff5ba650456c3f62817b30fe1e3d
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 43%
+source-wordcount: '921'
+ht-degree: 41%
 
 ---
 
@@ -100,13 +100,13 @@ ht-degree: 43%
 | **[!UICONTROL 터치포인트 트렌드]** | 터치포인트에 대한 트렌드 데이터를 사전 빌드된 일부 예외 항목 탐지 데이터가 있는 선 그래프로 확인하십시오. |
 | **[!UICONTROL 터치포인트 트렌드(%)]** | 총 폴아웃 비율의 트렌드를 표시합니다. |
 | **[!UICONTROL 모든 터치포인트의 트렌드 표시(%)]** | 동일한 차트에서 폴아웃(**[!UICONTROL 모든 방문자]**&#x200B;가 포함된 경우 제외)의 모든 터치포인트 비율의 트렌드를 표시합니다. |
-| **[!UICONTROL 이 터치포인트에서 폴스루 분류]** | 방문자가 다음 터치포인트로 계속 이동할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴스루: 모든 사람 > 페이지가 홈]** 중 하나와 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;와 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 사람 > 페이지가 홈](/help/components/segments/seg-quick.md)으로 분할된 **[!UICONTROL 사람]**&#x200B;을 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴스루 세그먼트가 결정되는 방법을 이해합니다. |
-| **[!UICONTROL 이 터치포인트에서 폴아웃 분류]** | 선택한 단계 직후 funnel을 통해 도달하지 않은 사람이 수행한 작업을 봅니다. 이렇게 하면 차원을 보여주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴아웃: 사람 > 페이지는 모든 홈]**&#x200B;과 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;과(와) 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 방문자 > 페이지가 홈](/help/components/segments/seg-quick.md) 세그먼트 중 하나와 같음 **[!UICONTROL 사람]**&#x200B;을(를) 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴아웃 세그먼트가 결정되는 방식을 이해합니다. |
+| **[!UICONTROL 이 터치포인트에서 폴스루 분류]** | 방문자가 다음 터치포인트로 계속 이동할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴스루: 모든 사람 > 페이지가 홈]** 중 하나와 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;와 지표로 [프로젝트 전용 빠른 세그먼트](/help/components/segments/seg-quick.md) **[!UICONTROL 폴스루: 모든 사람 > 페이지가 홈]**&#x200B;으로 분할된 **[!UICONTROL 사람]**&#x200B;을 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴스루 세그먼트가 결정되는 방법을 이해합니다. |
+| **[!UICONTROL 이 터치포인트에서 폴아웃 분류]** | 선택한 단계 직후 funnel을 통해 도달하지 않은 사람이 수행한 작업을 봅니다. 이렇게 하면 차원을 보여주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴아웃: 사람 > 페이지는 모든 홈]**&#x200B;과 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;과(와) 지표로 [프로젝트 전용 빠른 세그먼트](/help/components/segments/seg-quick.md) **[!UICONTROL 폴스루: 모든 방문자 > 페이지가 홈]** 세그먼트 중 하나와 같음 **[!UICONTROL 사람]**&#x200B;을(를) 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴아웃 세그먼트가 결정되는 방식을 이해합니다. |
 | **[!UICONTROL 터치포인트에서 세그먼트 만들기]** | 선택한 터치포인트에서 새 세그먼트를 만듭니다. |
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

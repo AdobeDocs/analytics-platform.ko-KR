@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 5808de9b39d3c8fa5632755958ddb887c081b203
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 9%
+source-wordcount: '1545'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 {{upgrade-note-step}}
 
-Adobe은 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)을 구현할 때 Customer Journey Analytics에 대한 사용자 지정 [XDM(Experience Data Model](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)) 스키마를 만들 것을 권장합니다. 이 스키마를 만드는 작업은 일반적으로 구현 변경 사항이나 코드를 터치하기 전에 수행됩니다. 사용자 지정 스키마를 사용하면 Adobe Analytics에서 제한을 상속하지 않고 간결한 조직별 데이터 계약을 디자인할 수 있습니다. 조직에서 사용할 수 있는 스키마 유형에 대한 자세한 내용은 [Customer Journey Analytics용 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하세요.
+Adobe은 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)을 구현할 때 Customer Journey Analytics에 대한 사용자 지정 [XDM(Experience Data Model](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)) 스키마를 만들 것을 권장합니다. 이 스키마를 만드는 작업은 일반적으로 구현 변경 사항이나 코드를 터치하기 전에 수행됩니다. 사용자 지정 스키마를 사용하면 Adobe Analytics에서 제한을 상속하지 않고 간결한 조직별 데이터 계약을 디자인할 수 있습니다. 조직에서 사용할 수 있는 스키마 유형에 대한 자세한 내용은 [Customer Journey Analytics용 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)을 참조하세요.
 
 스키마는 데이터를 장기적으로 구조화하는 방법에 대한 세련된 버전을 위한 것입니다. 스키마를 변경하면 데이터 수집, 유효성 검사 및 다운스트림 서비스에 영향을 주기 때문에 많은 비용이 소요됩니다. 비즈니스 요구 사항이 허용하는 대로 시간이 지남에 따라 스키마에 을 추가할 수 있습니다. 그러나 스키마 필드는 데이터가 유입되기 시작하면 제거할 수 없습니다.
 

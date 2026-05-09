@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 13b413fd-2103-427a-b251-5b3a19046bdb
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 80%
+source-wordcount: '141'
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 80%
 
 Adobe Experience Platform Web SDK JavaScript의 빌드 프로세스를 제어하려면 NPM 패키지를 설치하여 Platform Web SDK를 설치할 수 있습니다.
 
-1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk) 섹션에 있는 정보를 따르십시오.
+1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) 섹션에 있는 정보를 따르십시오.
 
 {{upgrade-final-step}}
 

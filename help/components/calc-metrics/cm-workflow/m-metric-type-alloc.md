@@ -3,10 +3,10 @@ description: 지표 유형 및 속성에 대해 알아봅니다.
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 99%
 
 ---
 

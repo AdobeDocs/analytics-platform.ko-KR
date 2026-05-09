@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: a85cc758f414c8c9f702ed83d1dd2675bf29a30f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 94%
+source-wordcount: '960'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 주요 지표 요약 시각화를 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)을 참조하십시오._
+_이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -153,6 +153,6 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)

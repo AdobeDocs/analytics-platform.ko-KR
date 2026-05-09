@@ -5,7 +5,7 @@ title: 클라우드 내보내기 위치 구성
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 25%
@@ -152,7 +152,7 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe에서 제공한 사용자에 대해 `roles/storage.objectCreator` 권한을 부여했는지 확인하십시오. [Google Cloud Platform 계정을 구성](/help/components/exports/cloud-export-accounts.md)할 때 보안 주체가 제공됩니다. <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`:`adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+   | [!UICONTROL **버킷**] | Customer Journey Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe에서 제공한 사용자에 대해 `roles/storage.objectCreator` 권한을 부여했는지 확인하십시오. [Google Cloud Platform 계정을 구성](/help/components/exports/cloud-export-accounts.md)할 때 보안 주체가 제공됩니다. <p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 정적 폴더 이름을 지정한 다음 이름 뒤에 슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
    | [!UICONTROL **파일 이름 및 경로**] | 이 위치로 전송되는 자동 내보내기에 사용할 동적 사용자 정의 파일 이름을 지정합니다. 파일 이름 앞에 동적 사용자 정의 파일 경로를 추가할 수도 있습니다. <p>이 옵션을 사용하면 파일 이름 생성 및 폴더 배치를 자동화할 수 있으므로 파일 이름을 예측하고 논리적으로 폴더에 구성할 수 있습니다. 예를 들어 파일 이름은 배달된 날짜에 따라 명명된 다음 각 달에 해당하는 폴더에 배치할 수 있습니다.</p><p>파일 이름 및 경로에서 다음 변수 중 하나를 사용하여 동적으로 만듭니다.</p><ul><li>**{yyyy}**: 4자리 달력 연도(대/소문자 구분)</li><li>**{yy}**: 2자리 달력 연도(대/소문자 구분)</li><li>**{MM}**: 2자리 월(대/소문자 구분)</li><li>**{dd}**: 2자리 일(대/소문자 구분)</li><li>**{HH}**: 2자리 시간(대/소문자 구분)</li><li>**{mm}**: 2자리 분(대/소문자 구분)</li><li>**{ss}**: 2자리 초(대/소문자 구분)</li><li>**{fff}**: 3자리 나노초(대/소문자 구분)</li><li>**{instance_id}**: 요청(인스턴스) UUID</li><li>**{export_id}**: 내보내기(예약) UUID</li><li>**{idx}**: 0부터 시작하는 인덱스(각 파일에 대해 증가함)</li><li>**{total}**: 전체 전송 작업의 총 파일 수</li><li>**{completion_millis}**: 전송 시간(밀리초)</li></ul></p><p>예를 들어 `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`을(를) 지정하는 경우 2026년 1월 15일에 이 대상으로 자동으로 전송되는 내보내기의 파일 경로 및 이름은 다음과 같습니다. [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 

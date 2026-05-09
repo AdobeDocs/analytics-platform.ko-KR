@@ -4,10 +4,10 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 94%
+source-wordcount: '526'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 다음 또는 이전 항목 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하십시오._
+_이 문서에서는 다음 또는 이전 항목 패널을 설명합니다_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_다음 또는 이전 항목 패널[&#128279;](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)에서_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전의 문서를 참조하십시오._
 
 >[!ENDSHADEBOX]
 

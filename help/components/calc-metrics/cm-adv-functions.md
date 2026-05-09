@@ -4,10 +4,10 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '5286'
-ht-degree: 98%
+source-wordcount: '5381'
+ht-degree: 96%
 
 ---
 
@@ -675,7 +675,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | logical_test | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
 | value_if_true | logical_test 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
-| value_if_false | logical_test 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| value_if_false | logical_test 인수가 FALSE로 평가되는 경우 반환할 값입니다. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
 
 ## 보다 작음 {#less-than}
@@ -759,14 +759,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="선형 회귀: 상관 계수"
->abstract="선형 회귀: Y = a X + b. 상관 계수를 반환합니다."
+>abstract="선형 회귀: Y = a X + b.  상관 계수를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. 상관 계수를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b.  상관 계수를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -1355,7 +1355,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(정규화 컨테이너, 성공 지표)]**
 
-공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기서 N은 표준화 컨테이너의 개수입니다.<br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다.
+공식 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))을 사용하여 표본 분산의 추정치를 계산합니다. 여기에서 N은 표준화 컨테이너의 개수입니다.<br/>이는 *항상 유효한* 신뢰도 계산의 일부로 사용됩니다. 일반적으로 이 함수는 단독으로 사용하기에 유용하지 않지만 계산을 확인하거나 신뢰도 계산을 *수동으로* 수행하는 데 사용할 수 있습니다.
 
 | 인수 | 설명 |
 | --- | --- |

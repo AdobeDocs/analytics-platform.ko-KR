@@ -4,10 +4,10 @@ title: 빈 패널
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 93%
+source-wordcount: '266'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;의 빈 패널에 대해 설명합니다.<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [빈 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하십시오._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;에 있는 빈 패널을 설명합니다.<br/>_자세한 내용은 [빈 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하십시오_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ _이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJou
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |
-  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) |
   | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) |
 
