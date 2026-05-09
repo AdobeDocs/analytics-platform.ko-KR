@@ -15,7 +15,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 
 >[!ENDSHADEBOX]

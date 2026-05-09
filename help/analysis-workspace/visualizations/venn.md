@@ -25,7 +25,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
+_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 

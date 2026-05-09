@@ -20,7 +20,7 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [산란](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
+_이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [산란](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ _이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![Custo
 
 
 
-![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]

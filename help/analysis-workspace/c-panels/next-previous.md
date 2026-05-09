@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 다음 또는 이전 항목 패널을 설명합니다_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)에서_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전의 문서를 참조하십시오._[
+_이 문서에서는 다음 또는 이전 항목 패널을 설명합니다_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_다음 또는 이전 항목 패널[&#128279;](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)에서_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전의 문서를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +58,7 @@ _이 문서에서는 다음 또는 이전 항목 패널을 설명합니다_ ![Cu
 | **[!UICONTROL 차원]** | 다음 또는 이전 항목을 탐색할 차원을 선택합니다. |
 | **[!UICONTROL 차원 항목]** | 다음 / 이전 문의의 가운데에서 특정 차원 항목을 선택합니다. |
 | **[!UICONTROL 방향]** | [!UICONTROL 다음] 또는 [!UICONTROL 이전] 차원 항목 중 무엇을 찾고 있는지 지정합니다. |
-| **[!UICONTROL 컨테이너]** | **[!UICONTROL 글로벌 계정]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 구매 그룹]**[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 기회]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 세션]** 또는 **[!UICONTROL 사용자]** 컨테이너 중 하나를 선택하여 문의의 범위를 지정합니다. |
+| **[!UICONTROL 컨테이너]** | **[!UICONTROL 글로벌 계정]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 구매 그룹]**&#x200B;[!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 기회]**([!BADGE B2B 에디션]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 세션]** 또는 **[!UICONTROL 사용자]** 컨테이너 중 하나를 선택하여 문의의 범위를 지정합니다. |
 
 {style="table-layout:auto"}
 

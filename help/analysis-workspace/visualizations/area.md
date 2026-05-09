@@ -15,7 +15,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 있는 영역 및 스택 영역 시각화를 설명합니다._<br/>__&#x200B;에 대한 [영역 및 스택 영역](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 있는 영역 및 스택 영역 시각화를 설명합니다._<br/>__&#x200B;에 대한 [영역 및 스택 영역](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/area)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 

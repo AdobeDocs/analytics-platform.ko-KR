@@ -25,7 +25,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 트리맵 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [트리맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/treemap)을(를) 참조하십시오. ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
+_이 문서에서는 트리맵 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [트리맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/treemap)을(를) 참조하십시오. ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 

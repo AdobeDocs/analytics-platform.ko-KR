@@ -25,7 +25,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 도넛 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [도넛](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/donut)을(를) 참조하십시오._![
+_이 문서에서는 도넛 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ AdobeAnalytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [도넛](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/donut)을(를) 참조하십시오._
 
 >[!ENDSHADEBOX]
 

@@ -40,7 +40,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 웹 SDK에서 AppMea
 
 ## 장점과 단점
 
-이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1}을 통과하므로 더욱 세련되었습니다._
+이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1&rbrace;을 통과하므로 더욱 세련되었습니다._
 
 이 업그레이드 대체 요소를 사용할 때 다음과 같은 장점과 단점을 고려하십시오.
 
