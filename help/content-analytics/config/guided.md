@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4018'
 ht-degree: 62%
 
 ---
@@ -299,7 +299,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별 가능한 자산 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ##### 헤더 재정의 {#mobile-header-overrides}
@@ -502,6 +502,16 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 
 ##### 헤더 재정의 {#web-header-overrides}
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="헤더 재정의"
+>abstract="**헤더 재정의**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="헤더 재정의"
+>abstract="봇 탐지 또는 게이트 트래픽을 우회하기 위한 고급 기능입니다. Content Analytics는 엔드포인트를 호출할 때 사용자 지정 HTTP 헤더를 포함시킵니다."
 
 <!-- needs modification for mobile channel -->
 
