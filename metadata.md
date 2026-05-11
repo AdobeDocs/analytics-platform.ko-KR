@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Customer Journey Analytics
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
 type: Documentation
 git-repo: https://github.com/AdobeDocs/analytics-platform.en
 description: 이 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다.
