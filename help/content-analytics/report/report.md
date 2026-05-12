@@ -6,11 +6,22 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 236959f0e060e35a285777f40b8d1ef90855ed5c
 workflow-type: tm+mt
 source-wordcount: 1438
@@ -105,7 +116,7 @@ Content Analytics [template](/help/analysis-workspace/templates/use-templates.md
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
+1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
