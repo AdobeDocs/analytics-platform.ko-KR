@@ -5,10 +5,27 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 8c4bd397aa2863c7365778cb545ec42d9b0f4528
+TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 236959f0e060e35a285777f40b8d1ef90855ed5c
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 47%
+source-wordcount: 1438
+ht-degree: 46%
 
 ---
 
@@ -43,21 +60,25 @@ ht-degree: 47%
 
 ### 막대(스택) 및 가로 막대(스택)
 
-{{release-limited-testing-section}}
-
 막대 차트의 ![Content Analytics 썸네일](/help/content-analytics/assets/aca-bar-thumbnail.png)
-
 
 축소판은 세로 또는 가로 축에 범례의 일부로 표시됩니다. [막대(스택)](/help/analysis-workspace/visualizations/bar.md) 및 [가로 막대(스택)](/help/analysis-workspace/visualizations/horizontal-bar.md)의 막대 위에 마우스를 올려 놓으면 썸네일이 표시됩니다.
 
 
 ### 분산
 
-{{release-limited-testing-section}}
-
 ![산포에 대한 Content Analytics 썸네일](/help/content-analytics/assets/aca-scatter-thumbnail.png)
 
 [분산](/help/analysis-workspace/visualizations/scatterplot.md)의 데이터 포인트 위로 마우스를 가져가면 썸네일이 표시됩니다.
+
+
+### 라인
+
+{{release-limited-testing-section}}
+
+![줄의 Content Analytics 썸네일](/help/content-analytics/assets/aca-line-thumbnail.png)
+
+[줄](/help/analysis-workspace/visualizations/line.md)의 데이터 포인트 위로 마우스를 가져가면 썸네일이 표시됩니다.
 
 ## 미리보기
 
