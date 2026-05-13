@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
+TQID: https://experienceleague.adobe.com/qfRVeaFTYitZOsleqfzxYsSlo5YZrTjdFqJSjIza-hg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 62%
+source-wordcount: 4071
+ht-degree: 61%
 
 ---
 
@@ -299,7 +304,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별 가능한 자산 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ##### 헤더 재정의 {#mobile-header-overrides}
@@ -491,6 +496,8 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
       1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
       1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
       1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
+
+     웹 채널에 대해 Content Analytics의 태그 [독립적인 구현](/help/content-analytics/config/tags-agnostic.md)을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
 
 * Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별 가능한 페이지를 제외해야 합니다.
 
