@@ -4,10 +4,9 @@ description: Experience Platform 데이터 수집 태그를 사용하지 않고 
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-hide: true
-source-git-commit: 64b96d8b0917975f19c353e26d9e6437d1b4e5ac
+source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 5%
 
 ---
@@ -24,7 +23,10 @@ Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Pl
 
 >[!PREREQUISITES]
 >
->`initializeContentLibrary`을(를) 호출하기 전에 페이지에서 Adobe Experience Platform Web SDK(Alloy)를 초기화해야 합니다.
+>* `initializeContentLibrary`을(를) 호출하기 전에 페이지에서 Adobe Experience Platform Web SDK(Alloy)를 초기화해야 합니다.
+>* Content Analytics 구성 마법사를 완료하여 Content Analytics 구성에 대한 사전 요구 사항을 설정하는 데 필요한 모든 단계를 안내합니다.
+>* 안내식 구성이 완료되면 해당 구성 보기에서 해당 구성에 맞는 JavaScript 설정을 사용할 수 있습니다.
+
 
 ## 설치
 
@@ -154,8 +156,3 @@ initializeContentLibrary({
   ],
 });
 ```
-
->[!NOTE]
->
->[안내가 있는 구성](/help/content-analytics/config/guided.md) 인터페이스에서 Content Analytics 구성을 설정한 후에는 해당 구성 보기에서 해당 구성과 관련된 JavaScript 설정을 사용할 수 있습니다.
-
