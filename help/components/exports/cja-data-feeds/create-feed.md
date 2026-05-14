@@ -3,7 +3,7 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: 357866d839d14324014f7603a1eac85a0f2072cc
+source-git-commit: da47de2de52a3cc0d9aa768141bd7368042e1c66
 workflow-type: tm+mt
 source-wordcount: '2466'
 ht-degree: 31%
@@ -50,8 +50,6 @@ ht-degree: 31%
 >abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics에서 얼마나 지난 날짜까지 조회할지를 제어합니다.<br/>이 설정은 빈도 기간(시간 또는 날)을 변경하지 않습니다. 그러나 전환 확인 날짜 범위는 게재되는 데이터에 영향을 줄 수 있습니다. 세그먼트 자격, 세션 계산, 일부 파생된 필드 변환 및 차원 지속성은 모두 전환 확인 날짜 범위의 영향을 받습니다."
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 
