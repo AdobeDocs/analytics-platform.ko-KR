@@ -5,53 +5,31 @@ title: Analytics 데이터 피드 개요
 feature: Components
 hide: true
 exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 5e77857ca846767e3b9e7479baa4a4b18c6e3c8f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 40%
+source-wordcount: '221'
+ht-degree: 21%
 
 ---
 
 # 데이터 피드 개요
 
-데이터 피드는 Customer Journey Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이러한 원시 데이터는 Adobe 외부의 다른 플랫폼에서 조직의 재량에 따라 사용할 수 있습니다. 데이터는 매 시간이 끝날 때 시간별 배치로 전달되거나, 하루가 끝날 때 일별 배치로 전달됩니다.
+데이터 피드는 Customer Journey Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 조직의 판단에 따라 Adobe 외부의 다른 플랫폼에서 이 원시 데이터를 사용할 수 있습니다. 데이터는 매 시간이 끝날 때 시간별 배치로 전달되거나, 하루가 끝날 때 일별 배치로 전달됩니다.
 
 ## 사전 요구 사항
 
 데이터 피드를 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
 
-* Adobe Customer Journey Analytics에 수집되는 데이터를 사용하는 작업 구현. <!-- For more information, see Data ingestion overview - add link -->
-* 계정이 Analytics 제품 관리자이거나 계정이 데이터 피드에 액세스할 수 있는 제품 프로필에 속합니다. <!--???-->
-* Amazon S3, Google Cloud Platform, Azure RBAC 또는 Azure SAS에 구성된 버킷입니다.<!--Which cloud providers do we support??-->
-* (레거시: 레거시 FTP 및 SFTP 대상 유형에만 필요) FTP 사이트 및 자격 증명 사용 가능(조직에서 제공한 FTP 자격 증명)<!--Delete???-->
+* Adobe Customer Journey Analytics <!-- For more information, see Data ingestion overview - add link -->에 수집되는 데이터를 사용하는 작업 구현
+* 계정이 Analytics 제품 관리자이거나 계정이 데이터 피드 <!--???-->에 대한 액세스 권한이 있는 제품 프로필에 속합니다.
+* {DNL Amazon S3}, {DNL Google Cloud Platform}, {DNL Azure RBAC}에 구성된 버킷 {DNL Azure SAS}
 
-## Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교
+## 시작하기
 
-Customer Journey Analytics의 데이터 피드 기능은 Adobe Analytics과 다릅니다. 자세한 내용은 [Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)를 참조하십시오.
+Customer Journey Analytics에서 데이터 피드를 사용하려면 먼저 Customer Journey Analytics의 데이터 피드가 Adobe Analytics의 데이터 피드와 어떻게 다른지 이해하십시오. 차이점을 이해하면 Adobe Analytics 데이터 피드를 Customer Journey Analytics에 매핑한 다음 데이터 피드 만들기를 시작할 수 있습니다.
 
+1. [Customer Journey Analytics과 Adobe Analytics의 데이터 피드 간 차이점을 이해합니다](/help/components/exports/cja-data-feeds/df-comparison.md).
 
-## 다음 단계
+1. [Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 
-다음 리소스는 데이터 피드를 가져오는 기본 워크플로를 이해하는 데 도움이 됩니다. 기본 워크플로를 이해하면 조직 내의 팀과 함께 원시 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
-
-* 데이터 피드 모범 사례<!--add link-->: 데이터 피드를 만들고 관리하기 위한 모범 사례입니다.
-* 데이터 피드 만들기<!--add link-->: 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
-* 데이터 피드 관리<!--add link-->: 데이터 피드 인터페이스 탐색에 대한 자세한 정보
-* 데이터 피드 콘텐츠 <!--add link-->: 압축 파일의 내용을 이해합니다.
-* 데이터 열 정의 <!--add link-->: 사용 가능한 모든 열의 포괄적인 목록입니다.
-
-<!-- Is this still the output users can download from the destination? I aske Jun. -->
-
->[!BEGINSHADEBOX]
-
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 인터페이스 탐색](https://video.tv.adobe.com/v/3428565?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
-
->[!ENDSHADEBOX]
-
-
-
->[!BEGINSHADEBOX]
-
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://video.tv.adobe.com/v/3418482?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
-
->[!ENDSHADEBOX]
+1. [데이터 피드를 만듭니다](/help/components/exports/cja-data-feeds/create-feed.md).
