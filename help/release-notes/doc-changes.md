@@ -4,9 +4,9 @@ description: 2019년 12월 이후 설정된 Customer Journey Analytics 문서에
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
-source-wordcount: '6910'
+source-wordcount: '6915'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 5월** | |
-| Content Analytics에 대한 태그 독립적인 구성 | Experience Platform 데이터 수집 태그를 사용하지 않고 웹 채널용 Content Analytics을 구현하는 방법에 대한 [설명서](/help/content-analytics/config/tags-agnostic.md). |
+| Content Analytics용 Javascript 라이브러리 | Experience Platform 데이터 수집 태그 없이 [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널용 Content Analytics을 구현하는 방법에 대한 설명서입니다. |
 | Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md). |
 | Content Analytics 모바일 채널 | Content Analytics 모바일 채널의 기능 및 구성을 설명하는 [Content Analytics 설명서](/help/content-analytics/content-analytics.md) 업데이트. |
 | **2026년 4월** | |

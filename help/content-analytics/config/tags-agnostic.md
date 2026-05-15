@@ -1,20 +1,20 @@
 ---
-title: Content Analytics 태그 집계 구성
-description: Experience Platform 데이터 수집 태그를 사용하지 않고 Content Analytics을 구성하는 방법에 대해 알아봅니다.
+title: Content Analytics JavaScript 키브라리
+description: Experience Platform 데이터 수집 태그를 사용하지 않고 Content Analytics을 구성하고 대신 Content Analytics JavaScript 라이브러리를 사용하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 
-# Content Analytics 태그 독립적인 구성
+# Content Analytics JavaScript 라이브러리
 
-Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Platform Edge Network을 통해 Adobe Experience Platform에 컨텐츠 데이터를 전송하여 웹 사이트에서 컨텐츠 관련 이벤트를 추적할 수 있습니다. Adobe Experience Platform 태그(Launch) 없이 Content Analytics을 구현하려면 이 라이브러리를 사용합니다.
+Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Platform Edge Network을 통해 Adobe Experience Platform에 컨텐츠 데이터를 전송하여 웹 사이트에서 컨텐츠 관련 이벤트를 추적할 수 있습니다. Adobe Experience Platform 태그 없이 Content Analytics을 구현하려면 이 라이브러리를 사용하십시오.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Pl
 >
 >* `initializeContentLibrary`을(를) 호출하기 전에 페이지에서 Adobe Experience Platform Web SDK(Alloy)를 초기화해야 합니다.
 >* Content Analytics 구성 마법사를 완료하여 Content Analytics 구성에 대한 사전 요구 사항을 설정하는 데 필요한 모든 단계를 안내합니다.
->* 안내식 구성이 완료되면 해당 구성 보기에서 해당 구성에 맞는 JavaScript 설정을 사용할 수 있습니다.
+>* 안내식 구성이 완료되면 JavaScript 설정을 사용할 수 있습니다.
 
 
 ## 설치
