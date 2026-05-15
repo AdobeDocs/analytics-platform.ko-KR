@@ -6,22 +6,14 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 TQID: https://experienceleague.adobe.com/qfRVeaFTYitZOsleqfzxYsSlo5YZrTjdFqJSjIza-hg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
-source-wordcount: 4071
-ht-degree: 61%
+source-wordcount: 4074
+ht-degree: 64%
 
 ---
 
@@ -179,7 +171,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_new_dialog"
 >title="선택된 데이터 보기"
->abstract="이 구성에 대해 선택된 데이터 보기를 수정했습니다. 선택된 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 이러한 지표와 차원은 더 이상 선택되지 않은 이전에 선택한 데이터 보기에서 제거됩니다.<br/><br/>다른 연결이 선택한 데이터 보기에 연결되어 있으면 연결이 Content Analytics 데이터 집합을 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 원래 선택된 연결에서 제거되지 않습니다.<br/><br/>선택한 모든 데이터 보기는 이 구성의 일부인 채널을 상속합니다."
+>abstract="이 구성에 대해 선택된 데이터 보기를 수정했습니다. 선택된 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 이러한 지표와 차원은 더 이상 선택되지 않은 이전에 선택한 데이터 보기에서 제거됩니다.<br/><br/>선택한 데이터 보기와 다른 연결이 관련된 경우, 해당 연결은 Content Analytics 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 원래 선택된 연결에서 제거되지 않습니다.<br/><br/>선택한 모든 데이터 보기는 이 구성의 일부인 채널을 상속합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_change_dialog"
@@ -260,7 +252,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
 >title="모바일 에셋 위치 데이터 수집"
->abstract="Content Analytics를 위한 데이터를 수집할 때 **제외**&#x200B;할 에셋 위치를 지정합니다. 개인 식별 가능한 자산 위치를 제외해야 합니다."
+>abstract="Content Analytics를 위한 데이터를 수집할 때 **제외**&#x200B;할 에셋 위치를 지정합니다. 개인 식별이 가능한 에셋 위치를 제외해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
@@ -270,7 +262,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
 >title="모바일 에셋 URL 데이터 수집"
->abstract="Content Analytics를 위한 데이터를 수집할 때 **제외**&#x200B;할 에셋 URL을 지정합니다. 개인 식별 가능한 자산 URL을 제외해야 합니다."
+>abstract="Content Analytics를 위한 데이터를 수집할 때 **제외**&#x200B;할 에셋 URL을 지정합니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다."
 
 모바일 채널의 경우 [경험 캡처 및 정의](#experience-capture-and-definition), [데이터 수집](#data-collection) 및 [헤더 재정의](#header-overrides)를 구성할 수 있습니다.
 
@@ -306,13 +298,13 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
   **[!UICONTROL 제외할 경험 위치]**&#x200B;에 대해 **[!UICONTROL 정규 표현식 문자열]**&#x200B;을 지정하십시오. <br/>예: `^(?!.*documentation).*` Content Analytics에서 모든 설명서 경험 위치를 제외합니다.
 
-* Content Analytics에 대한 데이터를 수집할 때 제외할 자산 위치를 지정합니다. 개인 식별 가능한 자산 위치를 제외해야 합니다.
+* Content Analytics에 대한 데이터를 수집할 때 제외할 자산 위치를 지정합니다. 개인 식별이 가능한 에셋 위치를 제외해야 합니다.
 
   **[!UICONTROL 제외할 자산 위치]**&#x200B;에 대해 **[!UICONTROL 정규 표현식 문자열]**&#x200B;을 지정하십시오. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지가 있는 모든 자산 위치를 제외합니다.
 
-* Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별 가능한 자산 URL을 제외해야 합니다.
+* Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ##### 헤더 재정의 {#mobile-header-overrides}
@@ -384,7 +376,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="데이터 수집"
->abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 페이지를 지정합니다. 개인 식별 가능한 페이지를 제외해야 합니다."
+>abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 페이지를 지정합니다. 개인 식별이 가능한 페이지를 제외해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -394,7 +386,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="데이터 수집"
->abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 에셋을 지정합니다. 개인 식별 가능한 자산을 제외해야 합니다."
+>abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 에셋을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -432,7 +424,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_header"
 >title="웹 에셋 데이터 수집"
->abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 에셋을 지정합니다. 개인 식별 가능한 자산을 제외해야 합니다."
+>abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 에셋을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다."
 
 
 ##### 경험 캡처 및 정의 {#web-experience-capture-and-definition}
@@ -505,13 +497,13 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
       1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
       1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
 
-     웹 채널에 대해 Content Analytics의 태그 [독립적인 구현](/help/content-analytics/config/tags-agnostic.md)을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
+     [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널에 대한 태그 독립적인 구현을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별 가능한 페이지를 제외해야 합니다.
+* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별이 가능한 페이지를 제외해야 합니다.
 
   **[!UICONTROL 포함/제외]**&#x200B;할 페이지에 대해 **[!UICONTROL 정규식 문자열]**&#x200B;을 지정하십시오. <br/>예를 들어 `^(?!.*documentation).*`을 지정하여 Content Analytics에서 모든 설명서 페이지를 제외할 수 있습니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 지정합니다. 개인 식별 가능한 자산을 제외해야 합니다.
+* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다.
 
   **[!UICONTROL 포함/제외]**&#x200B;할 자산에 대해 **[!UICONTROL 정규식 문자열]**&#x200B;을 지정하십시오. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 Content Analytics에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
 
