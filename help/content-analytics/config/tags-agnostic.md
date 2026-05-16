@@ -1,10 +1,10 @@
 ---
-title: Content Analytics JavaScript 키브라리
+title: Content Analytics JavaScript 라이브러리
 description: Experience Platform 데이터 수집 태그를 사용하지 않고 Content Analytics을 구성하고 대신 Content Analytics JavaScript 라이브러리를 사용하는 방법에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
+source-git-commit: 35abfb5b77384b16beaddab2554a7d48d10be012
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 4%
