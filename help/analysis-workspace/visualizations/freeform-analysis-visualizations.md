@@ -5,9 +5,15 @@ title: 시각화 개요
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+TQID: https://experienceleague.adobe.com/CQjTrdabJOkSDNLB5pCApq2-5NSZe1BNvWvyXr-CLmc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: 1786
 ht-degree: 89%
 
 ---
@@ -41,7 +47,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) | 산포도 시각화는 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [섹션 헤더](section-header.md) | 패널 내의 섹션을 식별하고 표현합니다. |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) | 요약 변경 시각화는 선택한 셀 간의 변경 사항을 하나의 큰 숫자나 백분율로 표시합니다. |
-| ![123](/help/assets/icons/123.svg)</p> | [요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md) | 요약 숫자 시각화는 선택한 셀을 하나의 큰 숫자로 표시합니다. |
+| ![123](/help/assets/icons/123.svg)</p> | [요약 번호](/help/analysis-workspace/visualizations/summary-number-change.md) | 요약 숫자 시각화는 선택한 셀을 하나의 큰 숫자로 표시합니다. |
 | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analysis-workspace/visualizations/text.md) | 텍스트 시각화는 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 사용자의 분석 및 인사이트에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md)<p> | 트리맵 시각화는 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) | 벤 시각화는 원을 사용하여 최대 3개 세그먼트의 지표 겹침을 나타냅니다. |
@@ -74,7 +80,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
    * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. 테이블의 현재 선택에 따라 Workspace는 제공할 시각화를 결정하고 요청된 시각화를 구축하기 위해 데이터를 해석합니다.
 
-[Bar](line.md)의 [Line](bar.md) 시각화와 같은 간단한 시각화를 추가하면 시각화는 가장 가까운 자유 형식 테이블을 데이터 소스로 사용합니다. 항상 시각화의 [데이터 원본](#data-source)을(를) 수정할 수 있습니다.
+[Bar](bar.md)의 [Line](line.md) 시각화와 같은 간단한 시각화를 추가하면 시각화는 가장 가까운 자유 형식 테이블을 데이터 소스로 사용합니다. 항상 시각화의 [데이터 원본](#data-source)을(를) 수정할 수 있습니다.
 
 
 ## 시각화 관리
@@ -132,7 +138,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 시각화 유형]** | 데이터를 시각화하는 데 사용되는 시각화 유형을 변경합니다. |
 | **[!UICONTROL 세부 기간]** | 트렌드 시각화의 세부 기간을 변경합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
-| **[!UICONTROL 100% 스택]** | 차트를 100% 스택 시각화로 바꿉니다. 영역, 막대, 가로 막대로 구성된 스택 시각화에만 적용됩니다. |
+| **[!UICONTROL 100% 스택]** | 차트를 100% 스택 시각화로 바꿉니다.  영역, 막대, 가로 막대로 구성된 스택 시각화에만 적용됩니다. |
 | **[!UICONTROL 범례 표시]** | 범례 텍스트를 표시합니다. |
 | **[!UICONTROL 최대 항목 수 제한]** | 시각화에 표시되는 항목 수를 제한합니다. 선택하면 최대 항목 수를 정의합니다. |
 | **[!UICONTROL 주석 표시]** | 이 시각화를 위해 작성된 주석을 표시합니다. |

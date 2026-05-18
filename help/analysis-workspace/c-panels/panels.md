@@ -4,10 +4,16 @@ title: Analysis Workspace의 패널 개요
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 11df56f5d757602403098d1c6b4330e935a438a2
+TQID: https://experienceleague.adobe.com/4UiJUXEOGW3paTCi293AADuY1VYiu2egk0A4Oyv5uD8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 42%
+source-wordcount: 2809
+ht-degree: 41%
 
 ---
 
@@ -68,7 +74,7 @@ ht-degree: 42%
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analysis-workspace/visualizations/histogram.md) |
-  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analysis-workspace/visualizations/scatterplot.md) |
   | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analysis-workspace/visualizations/treemap.md) |
 
@@ -89,7 +95,7 @@ ht-degree: 42%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**&#x200B;을(를) 식별할 수 있습니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**을(를) 식별할 수 있습니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -140,7 +146,7 @@ ht-degree: 42%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -167,14 +173,14 @@ ht-degree: 42%
    ![놓기 영역에 추가 또는 바꾸기](assets/add-or-replace-to-drop-zone.png)
 
    * 선택 항목을 놓아 다음 구성 요소를 만듭니다.
-      * [을(를) 놓는 모든 세그먼트 구성 요소에 대한 &#x200B;](#segment)세그먼트❷.
-      * [을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 &#x200B;](#quick-segment)빠른 세그먼트❸.
+      * ❷을(를) 놓는 모든 세그먼트 구성 요소에 대한 [세그먼트](#segment).
+      * ❸을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 [빠른 세그먼트](#quick-segment).
    * 다음 구성 요소를 만들려면 **누른 상태에서**⇧(Shift) 선택 항목을 드롭하십시오.
-      * [을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❹입니다.
-      * [을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❺입니다.
-      * [을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❻입니다.
-      * [을(를) 삭제한 선택한 차원 &#x200B;](#drop-down-menu)항목[에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴&#x200B;*또는 분류*&#x200B;드롭다운 메뉴❼.
-      * [을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴[&#x200B; 또는 분류 &#x200B;](#drop-down-menu)드롭다운 메뉴❽.
+      * ❹을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❺을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❻을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❼을(를) 삭제한 선택한 차원 *항목*&#x200B;에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
+      * ❽을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
 
 
 ### 세그먼트
@@ -219,16 +225,16 @@ ht-degree: 42%
 
 **⇧ 동안**&#x200B;놓는 지표, 세그먼트 또는 날짜 범위 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 구성 요소에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다.
 
-*⇧ 동안*&#x200B;놓는 **차원** 구성 요소에 대해 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 패널을 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+**⇧ 동안**&#x200B;놓는 *차원* 구성 요소에 대해 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 패널을 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![분류](/help/assets/icons/Breakdown.svg)을(를) 선택하고 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터를 필터링❾합니다.
+* ![분류](/help/assets/icons/Breakdown.svg)를 선택하고 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. | **[!UICONTROL 구성 요소 ❾에 대한 컨텍스트 메뉴에서]** 패널의 데이터를 필터링합니다.
 
 
 #### 패널 분류
 
-*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭된 차원 항목([정적](#static) 분류 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 분류 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 분류하도록 드롭다운 메뉴를 구성할 수 있습니다. 분류를 사용하여 패널을 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+**놓는 동안**⇧ 놓는 *차원* 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭된 차원 항목([정적](#static) 분류 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 분류 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 분류하도록 드롭다운 메뉴를 구성할 수 있습니다. 분류를 사용하여 패널을 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![필터](/help/assets/icons/Filter.svg)를 선택하고 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터 분류❾를 선택합니다.
+* ![필터](/help/assets/icons/Filter.svg)를 선택하고 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택합니다. | **[!UICONTROL 구성 요소 ❾에 대한 컨텍스트 메뉴에서]** 패널의 데이터를 분류합니다.
 
 >[!IMPORTANT]
 >
@@ -243,13 +249,13 @@ ht-degree: 42%
 
 * 패널 내에서 속성 활성화 지표를 사용하는 경우 세그먼트는 종종 속성 활성화 지표를 지웁니다. 분류는 패널에 대한 데이터를 검색하기 위해 실행되는 쿼리 내의 다른 지점에 적용됩니다. 따라서 분류는 이러한 속성 활성화 지표를 지우지 않습니다.
 
-  예를 들어, **[!UICONTROL Luma: 제품 범주]** **[!UICONTROL 필터]** ![여성](/help/assets/icons/Filter.svg) 세그먼트를 사용할 때의 특성 기반 **[!UICONTROL 온라인 매출]** 지표와 **[!UICONTROL Luma: 제품 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 여성]** 분류 간의 차이를 볼 수 있습니다.
+  예를 들어, **[!UICONTROL Luma: 제품 범주]** ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 여성]** 세그먼트를 사용할 때의 특성 기반 **[!UICONTROL 온라인 매출]** 지표와 **[!UICONTROL Luma: 제품 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 여성]** 분류 간의 차이를 볼 수 있습니다.
 
   ![특성 기반 지표: 필터링 대 분류](assets/attribute-filter-breakdown.png)
 
 * 분류 드롭다운 메뉴 내에서 하위 이벤트 수준 차원을 사용하는 경우 분류는 해당 하위 이벤트 수준에서 실행됩니다. 대신 세그먼트 드롭다운 메뉴 내의 세그먼트는 이벤트 수준에서 실행됩니다.
 
-  예를 들어, **[!UICONTROL Luma: 제품 하위 범주]** **[!UICONTROL 필터]** ![Tops](/help/assets/icons/Filter.svg) 세그먼트와 **[!UICONTROL Luma: 제품 하위 범주]** **[!UICONTROL 분류]** ![Tops](/help/assets/icons/Breakdown.svg) 분류를 사용할 때의 **[!UICONTROL 온라인 매출]** 지표의 차이점을 참조하십시오. 분류는 하위 이벤트 수준에서 쿼리를 명시적으로 실행하는 반면 세그먼트는 이벤트 수준에서 쿼리를 실행합니다.
+  예를 들어, **[!UICONTROL Luma: 제품 하위 범주]** ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** 세그먼트와 **[!UICONTROL Luma: 제품 하위 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]** 분류를 사용할 때의 **[!UICONTROL 온라인 매출]** 지표의 차이점을 참조하십시오. 분류는 하위 이벤트 수준에서 쿼리를 명시적으로 실행하는 반면 세그먼트는 이벤트 수준에서 쿼리를 실행합니다.
 
   ![하위 이벤트 기반 지표: 필터링 대 분류](assets/sub-event-filter-breakdown.png)
 
@@ -276,7 +282,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -284,7 +290,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

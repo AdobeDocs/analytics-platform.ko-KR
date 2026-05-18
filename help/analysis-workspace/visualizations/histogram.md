@@ -4,9 +4,13 @@ title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/Wj8V9NZwRtMKvvWhfz4l8nI0jRJjTQHMzpprODz0SVA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 80%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하십시오._
+_이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -70,5 +74,5 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJo
 >[패널에 시각화 추가](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 상황에 맞는 메뉴](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
+>[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
