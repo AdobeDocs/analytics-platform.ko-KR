@@ -18,10 +18,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
+source-git-commit: add42fb00c3ce65d9c40bb023bd6bf8bdd397ee1
 workflow-type: tm+mt
-source-wordcount: 4074
-ht-degree: 64%
+source-wordcount: 4111
+ht-degree: 63%
 
 ---
 
@@ -369,7 +369,9 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="데이터 수집"
->abstract="사용할 태그 속성을 정의하거나 태그 속성을 새로 만듭니다. 정규 표현식을 사용하여 포함하거나 제외할 페이지 및 자산을 정의합니다."
+>abstract="사용할 태그 속성을 정의하거나 태그 속성을 새로 만듭니다. 정규 표현식을 사용하여 포함하거나 제외할 페이지 및 자산을 정의합니다.<br/>태그를 구분하지 않는 구현의 경우 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하십시오.  태그 속성이 만들어지지만 사용할 필요는 없습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript 라이브러리"
+
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
