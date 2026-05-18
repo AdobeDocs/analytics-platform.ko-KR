@@ -6,22 +6,14 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 TQID: https://experienceleague.adobe.com/qfRVeaFTYitZOsleqfzxYsSlo5YZrTjdFqJSjIza-hg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: add42fb00c3ce65d9c40bb023bd6bf8bdd397ee1
 workflow-type: tm+mt
-source-wordcount: 4074
-ht-degree: 64%
+source-wordcount: 4111
+ht-degree: 63%
 
 ---
 
@@ -312,7 +304,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ##### 헤더 재정의 {#mobile-header-overrides}
@@ -369,7 +361,9 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="데이터 수집"
->abstract="사용할 태그 속성을 정의하거나 태그 속성을 새로 만듭니다. 정규 표현식을 사용하여 포함하거나 제외할 페이지 및 자산을 정의합니다."
+>abstract="사용할 태그 속성을 정의하거나 태그 속성을 새로 만듭니다. 정규 표현식을 사용하여 포함하거나 제외할 페이지 및 자산을 정의합니다.<br/>태그를 구분하지 않는 구현의 경우 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하십시오.  태그 속성이 만들어지지만 사용할 필요는 없습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript 라이브러리"
+
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
