@@ -5,10 +5,17 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: a357facb-d536-4c81-847c-a6f0d3f041e7
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+TQID: https://experienceleague.adobe.com/0UmFc0QhasumJEU9QZNFErDDgOmG--9Y2ZDUbS7suUQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 24%
+source-wordcount: 1332
+ht-degree: 14%
 
 ---
 
@@ -145,7 +152,7 @@ limit 1001
 
 ## 드릴다운
 
-Tableau는 [계층](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)에서 [드릴 모드](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)를 지원합니다. 아래 예제에서는 **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 제품 이름]** 필드를 선택하고 **[!UICONTROL 제품 범주]** 위로 끌어서 놓으면 계층을 만듭니다. 그런 다음 제품 카테고리를 나타내는 막대의 컨텍스트 메뉴에서 **[!UICONTROL + 드릴다운]**&#x200B;을 선택할 수 있습니다.
+Tableau는 [계층](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)에서 [드릴 모드](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)를 지원합니다. 아래 예제에서는 **[!UICONTROL 테이블]**&#x200B;에서 **[!UICONTROL 제품 이름]** 필드를 선택하고 **[!UICONTROL 제품 범주]** 위로 끌어서 놓으면 계층을 만듭니다. 그런 다음 제품 카테고리를 나타내는 막대의 컨텍스트 메뉴에서 **[!UICONTROL + 드릴다운]**&#x200B;을 선택할 수 있습니다.
 
 ![타블로 드릴다운](../assets/uc15-tableau-drilldown.png)
 
