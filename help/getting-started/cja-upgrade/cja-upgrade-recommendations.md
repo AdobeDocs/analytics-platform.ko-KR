@@ -5,9 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/PAKNNU-oabmCvYh-YBzTyzMjlsYoPRXJaGIq06TmZ40
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: 3352
 ht-degree: 95%
 
 ---
@@ -43,7 +49,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    * Adobe Experience Platform은 실시간 개인화 사용 사례를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성
 
-   * 다른 Experience Cloud 제품(AJO, RTCDP 등) 간 Adobe Experience Cloud 데이터 수집을 위한 구현 통합
+   * 다른 CX 엔터프라이즈 제품(AJO, RTCDP 등) 간에 Adobe CX 엔터프라이즈 데이터 수집을 위한 구현 통합
 
    * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
 
@@ -215,7 +221,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
    | 질문 | 사용 가능한 답변 | 추가 정보 |
    |---------|----------|---------|
    | 현재 Adobe Analytics 구현을 설명하는 옵션을 선택합니다. 이 정보는 Customer Journey Analytics으로 업그레이드할 때 사용할 수 있는 대체 업그레이드 옵션에 영향을 줄 수 있습니다. | 다음 중 하나를 선택하십시오. <ul><li>**AppMeasurement:**<br/> JavaScript 구현 방식으로, 페이지에서 AppMeasurement.js를 로드하고, s 오브젝트(예: s.eVar1)를 사용하여 Adobe로 데이터를 전송합니다.</li><li>**Adobe Analytics 확장 기능(태그):** <br/>Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현 방식입니다. 이 태그에는 Adobe Analytics 확장 기능이 설치되어 있습니다.</li><li>**Experience Platform Web SDK 확장 기능(태그):**<br/> Adobe Experience Platform 데이터 수집(이전의 Launch)을 로드하는 태그 구현입니다. 이 태그에는 Web SDK 확장 기능이 설치되어 있습니다.</li><li>**Experience Platform Web SDK(alloy.js):** Web SDK 라이브러리(alloy.js)를 페이지에 로드하고 JSON 페이로드를 사용하여 Adobe에 데이터를 전송하는 JavaScript 구현입니다.</li><li>**대량 데이터 삽입 API:**<br/> 데이터 삽입 API 또는 대량 데이터 삽입 API를 사용하는 구현입니다.</li><li>**Experience Platform Mobile SDK:**<br/> Adobe Experience Platform Mobile SDK를 사용하는 구현입니다.</li><li>**서드파티 태그 관리 도구를 사용하는 AppMeasurement:**<br/> 서드파티 태그 관리 도구를 사용하는 구현입니다.</li><li>**Adobe Analytics가 아닌 제품:**<br/> Google Analytics와 같은 Adobe Analytics가 아닌 제품에 대한 데이터를 수집하는 구현 방식입니다. 이 옵션을 선택하면 Adobe Analytics가 아닌 제품에서 Customer Journey Analytics로 업그레이드할 때 적용되지 않는 업그레이드 안내서의 여러 옵션이 비활성화됩니다. </li><li>**알 수 없음**<br/> 구현을 관리하는 담당자가 아니라면 일시적으로 이 옵션을 선택할 수 있습니다.</li></ul><p>해당하는 경우 선택:<ul><li>**현재 구현에서 Analytics 소스 커넥터를 사용함:**<br/> Analytics 소스 커넥터를 사용하면 Customer Journey Analytics를 손쉽게 활용할 수 있지만 Adobe Analytics와 Customer Journey Analytics를 모두 구독해야 합니다. 이 안내서는 독립적인 Web SDK 구현으로 전환하는 방법을 설명합니다.</li></ul></p> | <ul><li>[Adobe Analytics 구현 방식과 Customer Journey Analytics 업그레이드에 미치는 영향을 이해하기](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md#understand-your-adobe-analytics-implementation-and-how-it-affects-your-upgrade-to-customer-journey-analytics)</li><li>[Customer Journey Analytics를 위해 Analytics 소스 커넥터에서 Web SDK로 전환](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)</li></ul> |
-   | 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 즉시 사용할 수 있습니다. 그러나 다음 기능은 업그레이드 프로세스 중에 고려해야 합니다. 사용할 항목을 선택합니다. | 해당되는 모든 항목 선택:<ul><li>**Adobe Analytics의 내역 데이터:**</br>&#x200B;이전 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform과 Customer Journey Analytics로 가져옵니다.</li><li>**Adobe Analytics의 구성 요소 및 프로젝트:**</br> Adobe Analytics의 구성 요소에는 프로젝트(연관된 자유 형식 테이블 및 시각화 포함), 세그먼트 및 계산된 지표가 포함됩니다.</li><li>**Acivity Map 오버레이 및 링크 추적:**</br>&#x200B;사이트에 링크 추적 데이터를 오버레이로 표시하는 브라우저 확장 기능입니다.</li><li>**분류 데이터:**</br>&#x200B;데이터를 별도의 차원으로 그룹화하거나 분류합니다.</li><li>**마케팅 채널:**</br>&#x200B;고객이 사이트에 유입되는 방식을 분류하는 규칙을 생성합니다.</li><li>**Data Warehouse:**</br> Adobe Analytics에서 처리된 데이터를 스프레드시트 형식으로 내보냅니다.</li><li>**데이터 피드:**&#x200B;Customer Journey Analytics에서는 아직 데이터 피드를 완벽하게 대체할 수 있는 기능이 제공되지 않습니다. 단, 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API와 같은 기능을 사용하면 유사한 기능을 얻을 수 있습니다.</br></li><li>**스트리밍 미디어 데이터:**</br>&#x200B;오디오, 비디오 또는 스트리밍 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 수행하는 Adobe Analytics 및 Customer Journey Analytics의 추가 기능입니다.</li></ul> | <ul><li>[Adobe Analytics 기능 지원을 이해하고 Customer Journey Analytics로 업그레이드하기](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)</li></ul> |
+   | 대부분의 Adobe Analytics 기능은 Customer Journey Analytics에서 즉시 사용할 수 있습니다. 그러나 다음 기능은 업그레이드 프로세스 중에 고려해야 합니다. 사용할 항목을 선택합니다. | 해당되는 모든 항목 선택:<ul><li>**Adobe Analytics의 내역 데이터:**</br>&#x200B;이전 Adobe Analytics 보고서 세트 데이터를 Adobe Experience Platform과 Customer Journey Analytics로 가져옵니다.</li><li>**Adobe Analytics의 구성 요소 및 프로젝트:**</br> Adobe Analytics의 구성 요소에는 프로젝트(연관된 자유 형식 테이블 및 시각화 포함), 세그먼트 및 계산된 지표가 포함됩니다.</li><li>**Acivity Map 오버레이 및 링크 추적:**</br>&#x200B;사이트에 링크 추적 데이터를 오버레이로 표시하는 브라우저 확장 기능입니다.</li><li>**분류 데이터:**</br>&#x200B;데이터를 별도의 차원으로 그룹화하거나 분류합니다.</li><li>**마케팅 채널:**</br>&#x200B;고객이 사이트에 유입되는 방식을 분류하는 규칙을 생성합니다.</li><li>**Data Warehouse:**</br> Adobe Analytics에서 처리된 데이터를 스프레드시트 형식으로 내보냅니다.</li><li>**데이터 피드:**Customer Journey Analytics에서는 아직 데이터 피드를 완벽하게 대체할 수 있는 기능이 제공되지 않습니다. 단, 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API와 같은 기능을 사용하면 유사한 기능을 얻을 수 있습니다.</br></li><li>**스트리밍 미디어 데이터:**</br>&#x200B;오디오, 비디오 또는 스트리밍 콘텐츠와 같은 미디어의 데이터 수집을 전문으로 수행하는 Adobe Analytics 및 Customer Journey Analytics의 추가 기능입니다.</li></ul> | <ul><li>[Adobe Analytics 기능 지원을 이해하고 Customer Journey Analytics로 업그레이드하기](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)</li></ul> |
    | 대부분의 새로운 기능은 Customer Journey Analytics에서 즉시 사용할 수 있습니다. 그러나 다음 기능은 업그레이드 프로세스 중에 고려해야 합니다. 사용할 항목을 선택합니다. | 해당되는 모든 항목 선택:<ul><li>**수집된 데이터를 다른 원본(예: x)의 데이터와 연결합니다. 연락처 센터 데이터):**</br>(권장) 다양한 웹, 모바일 및 오프라인 속성의 데이터를 연결하여 고객 행동에 대한 통합된 단일 보기를 만듭니다. 다른 채널의 분석 데이터를 결합하는 이 기능은 Customer Journey Analytics의 기본 사용 사례입니다.</li><li>**사용자 정의 차원을 사용하여 다른 데이터 세트에서 히트 결합:**<br/>&#x200B;데이터 세트 중 하나라도 기본 식별자(예: Experience Cloud ID)를 공유하지 않는 경우에도 로그인 사용자 이름이나 이메일 주소와 같은 다른 차원을 사용하여 해당 데이터를 연결할 수 있습니다.</li><li>**Adobe Journey Optimizer와 통합:**<br/>&#x200B;고객에게 연속적이며 개인화된 상황별 경험을 제공할 수 있습니다.</li><li>**Adobe Real-Time CDP와 통합:**<br/>&#x200B;여러 소스의 프로필 데이터를 결합하여 사용자 특성에 따라 대상자와 세그먼트를 생성합니다.</li><li>**Adobe Target(A4T)과 통합:**<br/>&#x200B;개인화 사용 사례의 경우 Adobe Journey Optimizer와 통합하는 것이 좋습니다. Adobe Target과 통합하는 것은 가능하지만 단기적인 솔루션일 뿐입니다.</li><li>**Adobe Audience Manager와 통합:**<br/>&#x200B;고객 기반 사용 사례에는 Adobe Real-time CDP와 통합하는 것이 좋습니다. Audience Manager와 통합하는 것은 가능하지만 단기적인 솔루션일 뿐입니다.</li></ul> | [Customer Journey Analytics의 고유한 기능 이해](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md) |
    | Adobe Analytics와 Customer Journey Analytics를 궁극적으로 어떻게 사용할 것인지 선택합니다. | 다음 중 하나를 선택하십시오. <ul><li>**Adobe Analytics에서 Customer Journey Analytics로 완전히 전환할 예정:**<br/>(권장) Adobe Analytics에서 Customer Journey Analytics로 완전히 전환하는 것이 좋습니다. 전환 기간 동안 Customer Journey Analytics와 함께 Adobe Analytics를 실행하여 데이터를 나란히 비교하는 계획을 세워야 합니다. 데이터에 익숙해지면 Adobe Analytics를 비활성화할 수 있습니다.</li><li>**두 Analytics 제품을 모두 유지하고자 함:**<br/>(권장하지 않음) 이 옵션을 선택하면 Adobe와의 계약에 Adobe Analytics와 Customer Journey Analytics가 모두 포함되므로 시간이 지남에 따라 조직에 더 많은 비용이 들 수 있습니다.</li></ul> | [Customer Journey Analytics로 업그레이드한 후 Adobe Analytics 비활성화 시기](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) |
    | Customer Journey Analytics 스키마를 설정하는 방법을 선택합니다. | 다음 중 하나를 선택하십시오. <ul><li>**조직에 맞는 스키마를 사용하자 함**</br>(권장) 스키마를 사용자 정의하면 조직에서 필요한 것만 추적하고 복잡하고 필요 없는 필드에 관련된 오버헤드를 피할 수 있습니다. 이 옵션에는 Web SDK가 추가한 필드 그룹과 조직에 맞게 사용자 정의된 필드 그룹이 있습니다.</li><li>**기본 Adobe Analytics 스키마를 사용하고자 함**</br>(권장하지 않음) Adobe Analytics 스키마에는 1,000개가 넘는 필드가 포함되어 있어 스키마가 복잡하고 지저분해질 수 있습니다. 귀하의 조직이 Customer Journey Analytics에서 사용되지 않는 기존 개념인 Prop 및 eVars 개념을 계속 고수해야 합니다. 다른 Adobe Experience Platform 서비스와 통합하는 것은 더 어렵습니다.</li></ul> | [Customer Journey Analytics용 스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) |
@@ -246,7 +252,7 @@ Generic upgrade steps are also available.
 
    * Highly performant reporting and data availability because Adobe Experience Platform is built to power real-time personalization use cases
 
-   * Consolidate implementation for Adobe Experience Cloud data collection between other Experience Cloud products (AJO, RTCDP, and so forth)
+   * Consolidate implementation for Adobe CX Enterprise data collection between other CX Enterprise products (AJO, RTCDP, and so forth)
 
    * Not reliant on Adobe Analytics nomenclature (prop, eVar, event, and so forth)
 

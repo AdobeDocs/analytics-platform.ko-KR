@@ -3,10 +3,14 @@ description: Customer Journey Analytics의 연속 기능 릴리스 전략에 대
 title: Customer Journey Analytics 기능 릴리스 전략
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/KTMrEfZBHkdpRHlEGj8s4hfAtlPPjAqQrh6mtS-yAWM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
+workflow-type: tm+mt
+source-wordcount: 402
+ht-degree: 90%
 
 ---
 
@@ -20,9 +24,9 @@ Customer Journey Analytics 릴리스는 기능 배포에 대한 확장 가능한
 
 * **제한된 테스트**: 단계적인 릴리스는 내부 Adobe 사용자에 의한 테스트부터 시작됩니다. 그런 다음 소수의 고객 계정 그룹에 공개되어 기능이 고객의 요구와 기대를 충족하는지 확인합니다.
 
-* **롤아웃 시작**: 단계적인 릴리스 롤아웃은 제한된 테스트 단계부터 시작됩니다. 그런 다음 고객들에 대한 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 Experience Cloud 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
+* **롤아웃 시작**: 단계적인 릴리스 롤아웃은 제한된 테스트 단계부터 시작됩니다. 그런 다음 고객들에 대한 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 CX 엔터프라이즈 조직 수준에서 발생하므로 조직의 모든 권한 있는 사용자는 동일한 경험을 받습니다.
 
-* **GA (일반 배포)**: 권한이 있는 Experience Cloud 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
+* **GA(일반 배포)**: 권한이 있는 CX 엔터프라이즈 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
 
 각 기능 릴리스 시 RTP에서 GA로의 타임라인은 달라질 수 있습니다. 릴리스 시작 (RTP) 2개월 이내에 기능이 GA 상태가 되도록 릴리스를 짧게 유지하는 것이 목표입니다.
 

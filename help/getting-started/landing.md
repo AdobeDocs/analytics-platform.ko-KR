@@ -4,10 +4,15 @@ title: Customer Journey Analytics 랜딩 페이지
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 1741b2f3fc0588aaf0f403c6f3863ce837e376e9
+TQID: https://experienceleague.adobe.com/yj0864tQCuKNQocyhuqyi-N647uoy2IeqhT9RHmrRK0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 49%
+source-wordcount: 680
+ht-degree: 45%
 
 ---
 
@@ -26,7 +31,7 @@ Customer Journey Analytics 랜딩 페이지에는 다음 하위 탭이 포함되
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -103,9 +108,9 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
-| [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
+| [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest CX Enterprise release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
 | Search bar | Searches all columns in the table. |
 | Selection box | Selects one or more projects to display the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, **Export CSV**, and **Move to**. You may not have permissions to perform all listed actions. |
@@ -121,7 +126,7 @@ The available columns are:
 
 ## 학습
 
-**[!UICONTROL Workspace]** 탭의 [!UICONTROL **학습**] 섹션에서는 Customer Journey Analytics의 초급, 중급 또는 고급 기능 및 사용 사례에 대한 정보를 제공합니다. 또한 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 방법에 대한 정보도 제공합니다.
+[!UICONTROL **Workspace**] 탭의 **[!UICONTROL 학습]** 섹션에서는 Customer Journey Analytics의 초급, 중급 또는 고급 기능 및 사용 사례에 대한 정보를 제공합니다. 또한 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 방법에 대한 정보도 제공합니다.
 
 ### 학습 경로
 
@@ -153,7 +158,7 @@ Customer Journey Analytics 업그레이드에 대한 정보에 액세스하려�
 
 이 페이지는 Adobe Analytics에서 Customer Journey Analytics으로 아직 완전히 업그레이드되지 않은 고객을 위한 것입니다. 조직의 고유 환경에 맞게 동적으로 생성된 업그레이드 단계를 제공하는 설문지를 제공합니다.
 
-자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#dynamically-generate-upgrade-steps-for-your-organization)에서 [조직에 대한 업그레이드 단계 동적으로 생성](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)을 참조하십시오.
+자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)에서 [조직에 대한 업그레이드 단계 동적으로 생성](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#dynamically-generate-upgrade-steps-for-your-organization)을 참조하십시오.
 
 ## 선호하는 랜딩 페이지
 

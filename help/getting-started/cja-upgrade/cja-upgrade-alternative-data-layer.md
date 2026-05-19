@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/86uAMXhpBXaVnjA8Zh2G7Ail-XKR2HjrYNyge5BRMRc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 56%
+source-wordcount: 696
+ht-degree: 54%
 
 ---
 
@@ -55,7 +60,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 전체 데이터 레
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간 Adobe Experience Cloud 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**현재 데이터 계층 논리를 사용합니다**: 이 메서드는 일반적인 웹 SDK 구현 대신 현재 데이터 계층 논리를 사용합니다. 이 접근 방식에서는 일부 구성이 필요하지만 처음부터 완전히 새로운 구현이 필요하지 않으며 데이터 요소나 태그 규칙을 채울 필요가 없습니다. 이를 통해 처음부터 XDM 개체를 채우는 대신 데이터 레이어의 데이터를 XDM에 매핑할 수 있습니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. <p>이 옵션을 사용하면 전체 클라이언트측 데이터 레이어를 데이터 개체에 넣고 Adobe으로 보낼 수 있으므로 Adobe에서 쉽게 해석할 수 없는 상당한 양의 데이터가 생성됩니다. Adobe에서 데이터를 해석할 수 있도록 하려면 데이터스트림 매핑을 사용하여 모든 개별 필드를 원하는 XDM 필드에 매핑해야 합니다.</p></li><li>**엄격한 구현**: 구현은 히트가 전송될 때 데이터 계층이 제공하는 것으로 제한됩니다. 기본 데이터 요구 사항이 있는 조직에서도 이 기능을 사용할 수 있지만, 대부분의 조직에서는 데이터 요소를 채울 수 있는 보다 유연한 구현을 위해 이러한 유형의 엄격한 구현을 피해야 합니다.</li><li>**향후 변경 내용은 구현하기 더 어렵습니다**: 나중에 데이터에 추가하는 필드는 데이터 스트림의 XDM에 매핑해야 합니다.</li></ul> |
+| <ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 CX 엔터프라이즈 제품(AJO, RTCDP 등) 간에 Adobe CX 엔터프라이즈 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**현재 데이터 계층 논리를 사용합니다**: 이 메서드는 일반적인 웹 SDK 구현 대신 현재 데이터 계층 논리를 사용합니다. 이 접근 방식에서는 일부 구성이 필요하지만 처음부터 완전히 새로운 구현이 필요하지 않으며 데이터 요소나 태그 규칙을 채울 필요가 없습니다. 이를 통해 처음부터 XDM 개체를 채우는 대신 데이터 레이어의 데이터를 XDM에 매핑할 수 있습니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. <p>이 옵션을 사용하면 전체 클라이언트측 데이터 레이어를 데이터 개체에 넣고 Adobe으로 보낼 수 있으므로 Adobe에서 쉽게 해석할 수 없는 상당한 양의 데이터가 생성됩니다. Adobe에서 데이터를 해석할 수 있도록 하려면 데이터스트림 매핑을 사용하여 모든 개별 필드를 원하는 XDM 필드에 매핑해야 합니다.</p></li><li>**엄격한 구현**: 구현은 히트가 전송될 때 데이터 계층이 제공하는 것으로 제한됩니다. 기본 데이터 요구 사항이 있는 조직에서도 이 기능을 사용할 수 있지만, 대부분의 조직에서는 데이터 요소를 채울 수 있는 보다 유연한 구현을 위해 이러한 유형의 엄격한 구현을 피해야 합니다.</li><li>**향후 변경 내용은 구현하기 더 어렵습니다**: 나중에 데이터에 추가하는 필드는 데이터 스트림의 XDM에 매핑해야 합니다.</li></ul> |
 
 {style="table-layout:auto"}
 
