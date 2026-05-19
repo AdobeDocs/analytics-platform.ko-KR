@@ -5,17 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-TQID: https://experienceleague.adobe.com/eeNrn3hVytufmz195UHNakznBoVRQ0A-qfOYucFF-X0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+autotag-review: '2026-05-19T09:24:07.100Z'
+TQID: 'https://experienceleague.adobe.com/f-HOhKLpbM4u4MAzzoUCc0cMvVIu1k3FXg4FShValVE'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1899
 ht-degree: 70%
@@ -219,7 +216,7 @@ ht-degree: 70%
    - 이러한 관련 ID를 포함하는 모든 데이터 세트는 ID 그래프 데이터 수집에 대해 [활성화됨](faq.md#enable-a-dataset-for-the-identity-service)이어야 합니다. 이 기능을 사용하면 시간이 지남에 따라 필요한 모든 소스에서 들어오는 ID를 그래프에 추가할 수 있습니다.
    - 이미 잠시 동안 실시간 고객 데이터 프로필 또는 Adobe Journey Optimizer을 사용하는 경우 그래프가 이미 특정 범위로 설정되어야 합니다.<br/>그래프 기반 결합으로 활성화된 데이터 세트에 내역 결합 채우기도 필요한 경우 원하는 결합 결과를 얻으려면 그래프에 전체 기간에 대한 내역 ID가 이미 포함되어 있어야 합니다.
 - 그래프 기반 결합을 사용하고 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다.
-- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
+- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
 
 >[!NOTE]
 >

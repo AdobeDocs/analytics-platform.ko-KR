@@ -4,9 +4,16 @@ title: 텍스트
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+autotag-review: '2026-05-19T08:27:12.586Z'
+TQID: 'https://experienceleague.adobe.com/Fvc9q9PfWlv92WFWVq9LG7B2eahHJaxCLPikqjqn9Y4'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 325
 ht-degree: 75%
 
 ---
@@ -25,7 +32,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 텍스트 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)을 참조하십시오._
+_이 문서에서는 텍스트 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [텍스트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/text)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +41,7 @@ Workspace 프로젝트에 사용자 정의의 서식 있는 텍스트를 추가�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [텍스트 시각화](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [텍스트 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -6,9 +6,16 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+autotag-review: '2026-05-19T09:35:54.646Z'
+TQID: 'https://experienceleague.adobe.com/A0jSmg-0wGH3D-ZEUVTYVJf9ZXfUZdvfaBviAAXY00M'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7id: d3f42e9e-bb51-4077-a732-358b801d8b29
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
@@ -108,7 +115,7 @@ MQL(마케팅 적격 리드) 생성에 대한 영향을 시각화하려고 합�
 1. **[!UICONTROL 다음으로 끝남]**&#x200B;에 대해 **[!UICONTROL MQL 적격]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 경로 지정 차원]**&#x200B;에 대해 **[!UICONTROL 콘텐츠 형식]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다.
-1. `5`열 개수&#x200B;**[!UICONTROL 에]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL 열 개수]**&#x200B;에 `5`을(를) 입력하십시오.
 1. **[!UICONTROL 흐름 컨테이너]**&#x200B;의 **[!UICONTROL 계정]**&#x200B;을(를) 선택하십시오.
 
    ![B2B 사용 사례 - 사용자 내 이벤트 - 흐름 구성](assets/b2b-uc-optimize-marketing-flow-config.png)

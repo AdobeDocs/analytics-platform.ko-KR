@@ -4,9 +4,16 @@ description: Customer Journey Analytics 감사 로그를 보고 관리하는 방
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+autotag-review: '2026-05-19T07:58:20.300Z'
+TQID: 'https://experienceleague.adobe.com/eI0cv42QWTm0NqS-4FTuudTDefQ-MZBUMFsyy5-VLaM'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: c1cf8502-455a-452a-9f49-d22dfdff8033
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 999
 ht-degree: 98%
 
 ---
@@ -52,7 +59,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![오늘과 어제를 강조 표시한 감사 로그. &#x200B;](assets/audit_ui.png)
+![오늘과 어제를 강조 표시한 감사 로그. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 
@@ -60,7 +67,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 설명 옆에 있는 정보(i) 버튼을 더블 클릭합니다.
 
-![정보 버튼을 강조한 감사 로그. &#x200B;](assets/info-button-audit.png)
+![정보 버튼을 강조한 감사 로그. ](assets/info-button-audit.png)
 
 다음 항목이 표시됩니다.
 

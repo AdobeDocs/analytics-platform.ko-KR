@@ -5,10 +5,17 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+autotag-review: '2026-05-19T09:14:55.236Z'
+TQID: 'https://experienceleague.adobe.com/4SG79HyhFS5kr-kXXVGb-cTI8j3St6CwztOW-x1xXi8'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: cbde176d-5423-4c67-8a87-bc8faefd3a44
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: 983
+ht-degree: 93%
 
 ---
 
@@ -16,9 +23,9 @@ ht-degree: 97%
 
 {{release-limited-testing}}
 
-Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ko)는 마케터에게 개별 수준에서 고객 예측을 생성할 수 있는 권한을 제공합니다.
+Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)는 마케터에게 개별 수준에서 고객 예측을 생성할 수 있는 권한을 제공합니다.
 
-영향력 있는 요소를 통해 고객 AI는 고객이 무엇을 할 수 있고 왜 하는지 알려 줄 수 있습니다. 또한 마케터는 고객 AI 예측 및 인사이트를 활용하여 가장 적절한 오퍼와 메시지를 제공함으로써 고객 경험을 개인화할 수 있습니다.
+영향력 있는 요소를 통해 고객 AI는 고객이 무엇을 할 수 있고 왜 하는지 알려 줄 수 있습니다. 또한 마케터는 Customer AI 예측 및 인사이트를 활용하여 가장 적절한 오퍼와 메시지를 제공함으로써 고객 경험을 개인화할 수 있습니다.
 
 고객 AI는 성향 점수에 대해 개인 행동 데이터와 프로필 데이터에 의존합니다. 고객 AI는 Adobe Analytics, Adobe Audience Manager, 소비자 경험 이벤트 데이터 및 경험 이벤트 데이터를 비롯한 여러 데이터 소스를 가져올 수 있어 유연하게 사용할 수 있습니다. Experience Platform 소스 커넥터를 사용하여 Adobe Audience Manager 및 Adobe Analytics 데이터를 가져오는 경우 모델은 자동으로 표준 이벤트 유형을 선택하여 모델을 교육하고 평가합니다. 표준 이벤트 유형 없이 고유한 경험 이벤트 데이터 세트를 가져오는 경우 해당 모델에서 사용하려면 모든 관련 필드를 사용자 정의 이벤트 또는 프로필 속성으로 매핑해야 합니다. 이는 Experience Platform의 고객 AI 구성 단계에서 수행할 수 있습니다.
 
@@ -35,7 +42,7 @@ Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://
    * 예: 호텔 체인의 마케터가 처음에는 공연 티켓 구매 성향이 낮은 고객으로 식별되었지만 시간이 지나면서 공연 티켓 구매 성향이 높은 고객이 된 호텔 고객이 누구인지 파악하고자 합니다.
 * **성향 분포를 살펴봅니다**.
    * 사용 사례: 세그먼트를 정의할 때 성향 점수의 분포를 더 정확하게 파악합니다.
-   * 예: 소매업체가 제품에 대해 $50 할인된 가격으로 특정 프로모션을 진행하려고 합니다. 이 업체는 예산 등의 이유로 인해 매우 제한적인 프로모션만 진행하기를 원할 수 있습니다. 업체는 데이터를 분석하여 상위 80% 이상의 고객만을 대상으로 하기로 결정합니다.
+   * 예: 소매업체가 제품에 대해 $50 할인된 가격으로 특정 프로모션을 진행하려고 합니다. 예산 등의 이유로 매우 제한적인 프로모션만 진행하고자 할 수 있습니다. 이들은 데이터를 분석하여 상위 80% 이상의 고객만을 대상으로 하기로 결정합니다.
 * **시간의 흐름에 따라 특정 코호트에 대한 작업을 수행하는 경향을 살펴봅니다**.
    * 사용 사례: 시간의 흐름에 따라 특정 코호트를 추적합니다.
    * 예: 호텔 체인의 마케터가 시간 경과에 따른 브론즈 등급과 실버 등급 또는 실버 등급과 골드 등급을 추적하고자 합니다. 시간 경과에 따라 호텔을 예약하는 각 코호트의 성향을 확인할 수 있습니다.
@@ -49,7 +56,7 @@ Adobe Experience Platform Intelligent Services의 일부인 [고객 AI](https://
 
 ## 1단계: 고객 AI 인스턴스 구성
 
-데이터를 준비하고 모든 자격 증명 및 스키마를 준비한 후에는 Adobe Experience Platform의 [고객 AI 인스턴스 구성](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=ko) 안내서를 따라 시작합니다.
+데이터를 준비하고 모든 자격 증명 및 스키마를 준비한 후에는 Adobe Experience Platform의 [고객 AI 인스턴스 구성](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html) 안내서를 따라 시작합니다.
 
 ## 2단계: 고객 AI 데이터 세트에 대한 Customer Journey Analytics 연결 설정
 
@@ -67,7 +74,7 @@ Customer Journey Analytics에서는 이제 고객 AI용으로 계측된 Experien
 
 ![CAI schema](assets/cai-schema.png)
 
-(예제는 프로필 데이터 세트이며 동일한 스키마 오브젝트 세트는 Customer Journey Analytics가 가져올 경험 이벤트 데이터 세트의 일부입니다. 경험 이벤트 데이터 세트에는 점수 날짜로 타임스탬프가 포함됩니다.) 이 모델에서 득점한 모든 고객은 점수, 점수 날짜 등을 갖게 됩니다. 연관되어 있습니다.
+(예제는 프로필 데이터 세트이며 동일한 스키마 오브젝트 세트는 Customer Journey Analytics가 가져올 경험 이벤트 데이터 세트의 일부입니다. 경험 이벤트 데이터 세트에는 점수 날짜로 타임스탬프가 포함됩니다.) 이 모델에서 득점한 모든 고객은 연관된 점수, 점수 날짜 등을 갖게 됩니다.
 
 ## 3단계: 연결을 기반으로 데이터 보기 만들기
 

@@ -4,9 +4,16 @@ description: Experience Platform 데이터 수집 태그를 사용하지 않고 
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: 35abfb5b77384b16beaddab2554a7d48d10be012
+autotag-review: '2026-05-19T06:56:34.440Z'
+TQID: 'https://experienceleague.adobe.com/GUYf0ZoTlAkoIIPWzfZTm0-eMvBjN8ieYSu6goHu3GA'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 4%
 
 ---
@@ -52,7 +59,7 @@ Adobe Content Analytics JavaScript 라이브러리를 사용하면 Experience Pl
 
 CDN에서 직접 라이브러리를 로드합니다.
 
-1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
+1. [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 초기화하고 Content Analytics 번들을 로드합니다.
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -74,7 +81,7 @@ CDN에서 직접 라이브러리를 로드합니다.
    ```
 
    장소
-   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
+   * `alloy/2.x.x`은(는) [웹 SDK JavaScript 라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)를 사용할 버전을 참조합니다.
    * `content-analytics/1.x.x`은(는) Content Analytics SDK 라이브러리를 사용할 버전을 참조합니다.
 
 2. 독립 실행형 빌드가 `window.contentAnalytics`을(를) 초기화 함수로 표시합니다.

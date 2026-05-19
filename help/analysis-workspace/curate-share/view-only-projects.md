@@ -5,10 +5,17 @@ title: 읽기 전용 프로젝트
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+autotag-review: '2026-05-19T08:24:39.395Z'
+TQID: 'https://experienceleague.adobe.com/unXy2ZoBYHCtuKNQ9VfM3iJEEjVUU-fr-XRQ7pci5fo'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a3b826fd-7a63-4a83-8736-83eee6668f44
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 37%
+source-wordcount: 328
+ht-degree: 39%
 
 ---
 
@@ -29,7 +36,7 @@ ht-degree: 37%
 보기 전용 프로젝트에서 비활성화된 상호 작용은 다음과 같습니다.
 
 * 숨겨진 왼쪽 패널
-* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)에 추가하십시오.
+* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)에 추가하십시오.
 * 자유 형식 세그먼트화
 * 보이는 행의 자유 형식 수
 * 자유 형식 행, 열 또는 시각화 설정

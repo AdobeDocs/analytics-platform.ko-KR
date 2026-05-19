@@ -5,10 +5,17 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+autotag-review: '2026-05-19T09:33:58.249Z'
+TQID: 'https://experienceleague.adobe.com/FJOAnB2Dumw9txeabYMfrIqE1uihee-TcA8ZFcAbU2Y'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e8abc408-b05c-427f-9e37-f8b033a6b3c3id: bfef374d-acfd-4c57-bf74-a2b36053c545id: cf731116-8803-4027-85aa-9c0a126e8321
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 61%
+source-wordcount: 518
+ht-degree: 59%
 
 ---
 
@@ -270,5 +277,5 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 
 ## 제한 사항
 
-제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-model-limits)에서 [데이터 모델 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-size-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)을 참조하십시오.
+제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
 

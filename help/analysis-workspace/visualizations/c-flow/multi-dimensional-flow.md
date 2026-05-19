@@ -4,14 +4,21 @@ title: 차원 간 플로우
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+autotag-review: '2026-05-19T08:41:06.716Z'
+TQID: 'https://experienceleague.adobe.com/1er03t5uOypgXP6sjFW3z7vbN8IucVak2OiDeUG-OaU'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: 338
 ht-degree: 89%
 
 ---
 
-# 차원 간 플로우
+# 차원 간 흐름
 
 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. 이 문서에서는 모바일 앱 상호 작용 및 이벤트와 같은 두 가지 사용 사례에 대해 이 플로우를 사용하는 방법과 캠페인으로 웹 방문을 추진하는 방법을 보여 줍니다
 
