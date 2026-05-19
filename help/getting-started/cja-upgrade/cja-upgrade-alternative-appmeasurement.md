@@ -5,10 +5,23 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/ZqnH8IZau2fC-ucGAjMFQyolfhCe2pYbLiWJ7BKKhII
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 60%
+source-wordcount: 1381
+ht-degree: 59%
 
 ---
 
@@ -46,7 +59,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 웹 SDK에서 AppMea
 
 | 장점 | 단점 |
 |----------|---------|
-| Adobe Analytics 구현에서 이미 Web SDK를 사용하고 있는 경우 이 업그레이드 경로가 권장됩니다.<ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 Experience Cloud 제품(AJO, RTCDP 등) 간 Adobe Experience Cloud 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식은 일부 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요하지는 않습니다. 기존 Adobe Analytics 보고에 영향을 주지 않으면서 구현 로직을 최소한으로 변경하여 기존 데이터 레이어와 코드를 사용할 수 있습니다.</li><li>**XDM 스키마를 사용하기 위한 옵션 제공**: 기존 Adobe Analytics 스키마를 사용하거나 데이터 오브젝트의 XDM 스키마 및 필드를 XDM 스키마에 매핑할 수 있습니다. [XDM 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home#xdm-schemas)는 필요한 모든 필드를 정의할 수 있는 유연한 스키마이며, 관련된 필드만 정의할 수 있습니다. <p>자체 XDM 스키마를 사용하는 것의 이점에 대한 자세한 내용은 아래의 “자체 XDM 스키마 사용”을 참조하십시오.</p></li><li>**규칙과 데이터 요소 유지**: 새로운 규칙 액션이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**미래 지향적**: 자체 XDM 스키마를 사용하도록 선택하면 향후 구현 업데이트가 더 쉬워집니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 액션을 수행하려면 데이터 오브젝트의 모든 필드가 XDM 스키마 필드에 할당되는 데이터스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로에서 한 번만 수행하면 되며, 구현 변경이 필요하지 않습니다. 그러나 XDM 오브젝트에서 데이터를 전송할 때는 추가적인 단계가 필요하지 않습니다.</li><li>**시간이 지남에 따라 복잡성이 증가합니다**: 나중에 추가하는 모든 필드는 데이터 스트림의 XDM에 매핑되어야 합니다.<p>새 필드가 구현에 추가될 때마다 다음 중 하나를 수행할 수 있습니다.</p><ul><li>**옵션 1:** 데이터 개체에서 임의의 새 evar 또는 새 prop을 채운 다음 원하는 XDM 필드에 매핑합니다.<p>이 프로세스는 클라이언트측 구현에 대한 일관성을 유도하지만 매핑이 필요합니다.</p></li><li>**옵션 2:** 데이터 개체를 레거시 구현으로 두고 모든 새 필드에 대해 XDM 개체만 채우기를 시작합니다.<p>이 프로세스에서는 매핑이 필요하지 않지만, 일부 변수는 데이터 개체에만 있고, 다른 변수는 XDM 개체에만 있습니다. 구현 문제를 해결해야 할 때는 언제든지 두 위치로 이동해야 합니다. 내부 워크플로우가 이에 적합한지 확인하십시오.</p></li></ul> |
+| Adobe Analytics 구현에서 이미 Web SDK를 사용하고 있는 경우 이 업그레이드 경로가 권장됩니다.<ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 CX 엔터프라이즈 제품(AJO, RTCDP 등) 간에 Adobe CX 엔터프라이즈 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**기존 구현 사용**: 이 접근 방식은 일부 구현 변경이 필요하지만 처음부터 완전히 새로운 구현이 필요하지는 않습니다. 기존 Adobe Analytics 보고에 영향을 주지 않으면서 구현 로직을 최소한으로 변경하여 기존 데이터 레이어와 코드를 사용할 수 있습니다.</li><li>**XDM 스키마를 사용하기 위한 옵션 제공**: 기존 Adobe Analytics 스키마를 사용하거나 데이터 오브젝트의 XDM 스키마 및 필드를 XDM 스키마에 매핑할 수 있습니다. [XDM 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home#xdm-schemas)는 필요한 모든 필드를 정의할 수 있는 유연한 스키마이며, 관련된 필드만 정의할 수 있습니다. <p>자체 XDM 스키마를 사용하는 것의 이점에 대한 자세한 내용은 아래의 “자체 XDM 스키마 사용”을 참조하십시오.</p></li><li>**규칙과 데이터 요소 유지**: 새로운 규칙 액션이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**미래 지향적**: 자체 XDM 스키마를 사용하도록 선택하면 향후 구현 업데이트가 더 쉬워집니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 액션을 수행하려면 데이터 오브젝트의 모든 필드가 XDM 스키마 필드에 할당되는 데이터스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로에서 한 번만 수행하면 되며, 구현 변경이 필요하지 않습니다. 그러나 XDM 오브젝트에서 데이터를 전송할 때는 추가적인 단계가 필요하지 않습니다.</li><li>**시간이 지남에 따라 복잡성이 증가합니다**: 나중에 추가하는 모든 필드는 데이터 스트림의 XDM에 매핑되어야 합니다.<p>새 필드가 구현에 추가될 때마다 다음 중 하나를 수행할 수 있습니다.</p><ul><li>**옵션 1:** 데이터 개체에서 임의의 새 evar 또는 새 prop을 채운 다음 원하는 XDM 필드에 매핑합니다.<p>이 프로세스는 클라이언트측 구현에 대한 일관성을 유도하지만 매핑이 필요합니다.</p></li><li>**옵션 2:** 데이터 개체를 레거시 구현으로 두고 모든 새 필드에 대해 XDM 개체만 채우기를 시작합니다.<p>이 프로세스에서는 매핑이 필요하지 않지만, 일부 변수는 데이터 개체에만 있고, 다른 변수는 XDM 개체에만 있습니다. 구현 문제를 해결해야 할 때는 언제든지 두 위치로 이동해야 합니다. 내부 워크플로우가 이에 적합한지 확인하십시오.</p></li></ul> |
 
 {style="table-layout:auto"}
 

@@ -5,9 +5,30 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/PAKNNU-oabmCvYh-YBzTyzMjlsYoPRXJaGIq06TmZ40
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: 3352
 ht-degree: 95%
 
 ---
@@ -43,7 +64,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    * Adobe Experience Platform은 실시간 개인화 사용 사례를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성
 
-   * 다른 Experience Cloud 제품(AJO, RTCDP 등) 간 Adobe Experience Cloud 데이터 수집을 위한 구현 통합
+   * 다른 CX 엔터프라이즈 제품(AJO, RTCDP 등) 간에 Adobe CX 엔터프라이즈 데이터 수집을 위한 구현 통합
 
    * Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음
 
@@ -246,7 +267,7 @@ Generic upgrade steps are also available.
 
    * Highly performant reporting and data availability because Adobe Experience Platform is built to power real-time personalization use cases
 
-   * Consolidate implementation for Adobe Experience Cloud data collection between other Experience Cloud products (AJO, RTCDP, and so forth)
+   * Consolidate implementation for Adobe CX Enterprise data collection between other CX Enterprise products (AJO, RTCDP, and so forth)
 
    * Not reliant on Adobe Analytics nomenclature (prop, eVar, event, and so forth)
 

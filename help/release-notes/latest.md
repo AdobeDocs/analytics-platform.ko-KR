@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
+source-git-commit: 373deaea2b7d73484a3983bde490a86e950c2c0e
 workflow-type: tm+mt
-source-wordcount: 819
+source-wordcount: 818
 ht-degree: 45%
 
 ---
@@ -77,5 +77,5 @@ ht-degree: 45%
 * [2025년의 이전 Customer Journey Analytics 릴리스 정보](/help/release-notes/2025.md)
 * [Adobe Analytics 릴리스 노트](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 * [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
-* [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current)
+* [CX 엔터프라이즈 릴리스 정보](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current)
 * [Customer Journey Analytics 설명서 업데이트](/help/release-notes/doc-changes.md)
