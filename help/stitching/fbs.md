@@ -5,10 +5,20 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 2e2620bdc6875b13492013f4ec108bae0302a25a
+TQID: https://experienceleague.adobe.com/xqNEj5V-fQTo-8j5S9Ad-5ZezRjjr8kdt2Xmx0U8xDI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 81%
+source-wordcount: 1902
+ht-degree: 82%
 
 ---
 
@@ -16,11 +26,11 @@ ht-degree: 81%
 
 필드 기반 결합에서는 이벤트 데이터 세트와 해당 데이터 세트에 대한 영구 ID(쿠키) 및 개인 ID를 지정합니다. 필드 기반 결합은 특정 영구 ID와 함께 제공되는 모든 익명 이벤트에서 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 하려고 합니다.  해당 정보는 특정 영구 ID에 대한 개인 ID가 있는 행에서 검색됩니다.
 
-이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 결과적으로, 결합을 위해 활성화된 데이터 세트가 포함된 [연결](/help/data-views/data-views.md)과(와) 연결된 [데이터 보기](/help/connections/overview.md)에서 개인 ID 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
+이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 결과적으로, 결합을 위해 활성화된 데이터 세트가 포함된 [연결](/help/connections/overview.md)과(와) 연결된 [데이터 보기](/help/data-views/data-views.md)에서 개인 ID 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
 
 Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Experience Platform Identity 서비스 및 관련 ID 그래프에 대한 액세스 권한이 없음) 필드 기반 결합을 사용할 수 있습니다. 사용 가능한 ID 그래프를 사용하지 않으려는 경우도 마찬가지입니다.
 
-![필드 기반 결합](/help/stitching/assets/fbs.svg)
+![필드 기반 결합](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap

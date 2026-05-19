@@ -5,10 +5,24 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
+TQID: https://experienceleague.adobe.com/a-Mu3MKfpRsUqgxx7JWP3NR4vji62VaNFi-hI5teDZI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 76%
+source-wordcount: 780
+ht-degree: 75%
 
 ---
 
@@ -19,10 +33,9 @@ ht-degree: 76%
 
 Content Analytics를 구성하기 전에 [전제 조건](#prerequisites)이 충족되었는지, 필요한 [액세스 제어 권한](#access-control)을 갖고 있는지, [제한 사항](#limitations)을 알고 있는지 확인해야 합니다.
 
+Content Analytics을 구성하는 단계는 다음과 같습니다.
 
-상위 수준 단계
-
-![Content Analytics 구성](../assets/aca-configuration.svg){zoomable="yes"}
+![Content Analytics 구성](../assets/aca-configuration.png){zoomable="yes"}
 
 1. Content Analytics [가이드 구성](guided.md) 마법사를 사용하여 Content Analytics의 구성을 위한 필수 조건을 설정하는 데 필요한 모든 단계를 안내합니다. 언제든지 구성을 저장하고 나중에 다시 돌아올 수 있습니다.
 1. 구성 값에 익숙해지면 구성을 구현할 수 있습니다. 이 구현은 마법사에서 구성한 내용을 기반으로 필요한 모든 아티팩트를 생성합니다.

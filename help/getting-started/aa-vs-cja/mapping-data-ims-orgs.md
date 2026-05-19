@@ -5,10 +5,20 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
+TQID: https://experienceleague.adobe.com/6qERpivKabPPCynMGNKrLhhOMcROnlp7HKpbvXpzNSg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: 1127
+ht-degree: 2%
 
 ---
 
@@ -33,7 +43,7 @@ Analytics 소스 커넥터는 기본적으로 단일 조직 내의 Adobe Analyti
 
 | 그림 | 설명 |
 |---|---|
-| ![여러 IMS 조직 간에 데이터 매핑](/help/getting-started/assets/map-data-across-ims-orgs.svg) | 이 매핑을 통해 IMS 조직 3 내에서 프로비저닝된 Customer Journey Analytics의 한 연결에서 IMS 조직 1, IMS 조직 2 및 IMS 조직 3에 존재하는 보고서 세트에 대해 보고할 수 있습니다. |
+| ![여러 IMS 조직 간에 데이터 매핑](/help/getting-started/assets/map-data-across-ims-orgs.png) | 이 매핑을 통해 IMS 조직 3 내에서 프로비저닝된 Customer Journey Analytics의 한 연결에서 IMS 조직 1, IMS 조직 2 및 IMS 조직 3에 존재하는 보고서 세트에 대해 보고할 수 있습니다. |
 
 {style="table-layout:fixed"}
 

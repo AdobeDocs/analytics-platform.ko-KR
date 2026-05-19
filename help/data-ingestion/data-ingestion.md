@@ -5,9 +5,18 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
-workflow-type: ht
-source-wordcount: '1089'
+TQID: https://experienceleague.adobe.com/Jj2ZXUQocZs5QtKkDhEuySQjf1oR01uae9vcy6U4jxg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+workflow-type: tm+mt
+source-wordcount: 1129
 ht-degree: 100%
 
 ---
@@ -23,7 +32,7 @@ ht-degree: 100%
 
 다음은 높은 수준의 Customer Journey Analytics 아키텍처입니다.
 
-![고객 여정 분석 아키텍처](/help/getting-started/assets/cja-overview.svg)
+![고객 여정 분석 아키텍처](/help/getting-started/assets/cja-overview.png)
 
 이 아키텍처는 고객 여정 분석을 통해 다음 작업을 수행하는 방법을 보여줍니다.
 

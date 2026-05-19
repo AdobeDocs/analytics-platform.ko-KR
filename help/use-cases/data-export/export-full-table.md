@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: ee004948-3025-434b-a90b-8aa185800820
-source-git-commit: 9fef1fddbb4b51efb9282e3ef13501bd498a4546
+TQID: https://experienceleague.adobe.com/5RFfXMHnDWg8C7TV8jXgsA5OE3syQzPH4Btx00x5nsU
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 6%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 6%
 
 [!DNL Customer Journey Analytics Full Table Export]을(를) 사용하여 데이터를 내보내면 Customer Journey Analytics Analysis Workspace의 자유 형식 테이블에서 데이터를 내보낼 수 있습니다.
 
-![BI 확장](../assets/export-full-table.svg)
+![BI 확장](../assets/export-full-table.png)
 
 ## 추가 정보
 
