@@ -8,11 +8,20 @@ badgePremium: label="Beta"
 exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
 autotag-review: '2026-05-19T08:56:46.637Z'
 TQID: 'https://experienceleague.adobe.com/A3GkkNVAO9qpbOqCrZnf6PNJfRuwMaodJVOOuSRg0w8'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: bfef374d-acfd-4c57-bf74-a2b36053c545
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 442
@@ -68,7 +77,7 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 [!DNL Google BigQuery] 원본 연결에서 변경 데이터 캡처를 사용하려면 [!DNL Google Cloud] 콘솔에서 [!DNL Google BigQuery] 페이지로 이동하여 `enable_change_history`을(를) `TRUE`(으)로 설정하십시오. 이 속성을 사용하면 데이터 테이블에 대한 변경 내역을 사용할 수 있습니다.
 
-자세한 내용은  [!DNL GoogleSQL]](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list)의 [데이터 정의 언어 구문에 대한 안내서를 참조하십시오.
+자세한 내용은  [!DNL GoogleSQL][&#128279;](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list)의 데이터 정의 언어 구문에 대한 안내서를 참조하십시오.
 
 [!DNL Google BigQuery] 소스 연결에 변경 데이터 캡처를 활성화하는 방법에 대한 단계는 다음 설명서를 참조하십시오.
 

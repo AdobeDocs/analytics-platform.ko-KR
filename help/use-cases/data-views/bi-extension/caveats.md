@@ -7,11 +7,17 @@ role: User
 exl-id: b6e8ebd9-4fda-41d1-ac37-ca869f5ee57c
 autotag-review: '2026-05-19T08:03:31.717Z'
 TQID: 'https://experienceleague.adobe.com/Af1iqNrfI24QsDCofUyHmiGCluNz7lW0mhkH5ObNUZI'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 743
@@ -33,7 +39,7 @@ ht-degree: 0%
 * Power BI Desktop 고급 날짜 범위 필터링은 전용입니다.  종료 날짜의 경우 보고하려는 날짜가 지난 날짜를 선택해야 합니다. 예를 들어 **[!UICONTROL 이(가)]** `1/1/2023` **[!UICONTROL 다음]** `1/2/2023` 전후에 있습니다.
 * 연결을 만들 때 Power BI Desktop의 기본값은 **[!UICONTROL 가져오기]**&#x200B;입니다. **[!UICONTROL 직접 쿼리]**&#x200B;를 사용하는지 확인하십시오.
 * Power BI Desktop은 Power Query를 통해 데이터 변환을 표시합니다.  Power Query는 주로 가져오기 유형 연결에서 작동하므로 날짜 또는 문자열 함수와 같이 적용하는 많은 변환에서 가져오기 유형 연결로 전환해야 한다는 오류가 발생합니다.  쿼리 시간에 데이터를 변환해야 하는 경우 Power BI에서 변환 자체를 수행할 필요가 없도록 파생 차원 및 지표를 사용해야 합니다.
-* Power BI Desktop이 날짜-시간 유형 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;와 같은 **[!UICONTROL daterange *X *]**차원이 지원되지 않습니다.
+* Power BI Desktop이 날짜-시간 유형 열을 처리하는 방법을 이해하지 못하므로 **[!UICONTROL daterangehour]** 및 **[!UICONTROL daterangeminute]**&#x200B;와 같은 **[!UICONTROL daterange *X *]**&#x200B;차원이 지원되지 않습니다.
 * Power BI Desktop은 기본적으로 더 많은 쿼리 서비스 세션을 사용하여 여러 연결을 시도합니다.  프로젝트의 Power BI 설정으로 이동하여 병렬 쿼리를 비활성화합니다.
 * Power BI Desktop은 모든 클라이언트측 정렬과 제한을 수행합니다. Power BI Desktop에는 연결된 값을 포함하는 상위 *X* 필터링에 대한 다른 의미 체계도 있습니다. 따라서 Analysis Workspace에서와 동일한 정렬 및 제한을 만들 수 없습니다.
 * 이전 버전의 Power BI Desktop 2024년 10월 릴리스는 PostgreSQL 데이터 소스를 중단합니다. 이 문서에 언급된 버전을 사용해야 합니다.

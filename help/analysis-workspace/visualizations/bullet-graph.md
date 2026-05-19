@@ -6,11 +6,16 @@ exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
 autotag-review: '2026-05-19T08:01:11.240Z'
 TQID: 'https://experienceleague.adobe.com/G3lsqQvpMi7qfHIF0n5bymHloch0SaHuqwpl-3T04Fs'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 297
@@ -40,7 +45,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 글머리 기호 시각화에 대해 설명합니다_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)을(를) 참조하십시오._![
+_이 문서에서는 글머리 기호 시각화에 대해 설명합니다_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ AdobeAnalytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)을(를) 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +68,7 @@ _이 문서에서는 글머리 기호 시각화에 대해 설명합니다_ ![Cus
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**와**[!UICONTROL &#x200B;중간 목표&#x200B;]**는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
+| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**&#x200B;는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**&#x200B;와&#x200B;**[!UICONTROL &#x200B;중간 목표&#x200B;]**&#x200B;는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**&#x200B;옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
 
 >[!MORELIKETHIS]
 >

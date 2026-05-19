@@ -6,11 +6,16 @@ exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
 autotag-review: '2026-05-19T08:32:13.517Z'
 TQID: 'https://experienceleague.adobe.com/xXpUD-E71BVVe0WOQ-tbLILq1c5kRN-Jy2xHufxBfBk'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 617
@@ -32,9 +37,9 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
+_이 문서에서는_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
 
-_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
+_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +80,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
    출력은 다음과 유사합니다.
 
-   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 ](assets/combo-output.png)
+   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 &#x200B;](assets/combo-output.png)
 
    현재 기간은 막대 차트로 표시됩니다. 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “*바벨*”이라고 합니다.
 

@@ -7,11 +7,17 @@ role: User
 exl-id: 55666295-6161-4fbc-b326-231cb5780d4f
 autotag-review: '2026-05-19T09:45:14.371Z'
 TQID: 'https://experienceleague.adobe.com/afndJsKLHQSCIa9cdTcVUoBRGrU2wBRUYZ4QijVOiE0'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 788
@@ -51,9 +57,9 @@ ht-degree: 0%
 1. **[!UICONTROL 필터]** 창:
    1. **[!UICONTROL 이 시각적 개체의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 상대적 날짜]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 값이 마지막]** `1` **[!UICONTROL 역년]**&#x200B;에 있을 때 ]****[!UICONTROL &#x200B;항목을 표시하도록 필터를 정의합니다.
+   1. **[!UICONTROL 값이 마지막]** `1` **[!UICONTROL 역년]**&#x200B;에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
    1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
-   1. 이 시각적 개체의 **[!UICONTROL 필터에서**[!UICONTROL  product_name is (All)]**을(를) 선택하십시오]**.
+   1. 이 시각적 개체의 **[!UICONTROL 필터에서**&#x200B;[!UICONTROL &#x200B; product_name is (All)]&#x200B;**을(를) 선택하십시오]**.
    1. **[!UICONTROL 상위 N]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
    1. **[!UICONTROL 항목 표시]** **[!UICONTROL 상위]** `5` **[!UICONTROL 값별]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 데이터]** 창에서 **[!UICONTROL 합계 발생 횟수]**&#x200B;를 끌어서 놓고 **[!UICONTROL 여기에 데이터 필드 추가]**&#x200B;에 놓습니다.
@@ -213,9 +219,9 @@ GROUP BY 1
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
       ![조회 필터](../assets/uc2-looker-filter.png)
-1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
+1. **[!UICONTROL 이(가) 범위에 있으므로**&#x200B;[!UICONTROL &#x200B; Cc 데이터 보기 날짜&#x200B;]&#x200B;**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 이름]**&#x200B;을 선택하세요.
    1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.
