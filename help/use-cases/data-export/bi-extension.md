@@ -5,9 +5,14 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 669a1305-3e37-4ca2-8178-a89a27958e5d
-source-git-commit: 9fef1fddbb4b51efb9282e3ef13501bd498a4546
+TQID: https://experienceleague.adobe.com/erSJs1i9L6I0gv9Gujg5CneSV-0P4trb7DKl8H03WCo
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 154
 ht-degree: 50%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 50%
 
 [!DNL Customer Journey Analytics BI extension]을(를) 사용하여 데이터를 내보내면 Customer Journey Analytics 데이터 보기에서 데이터를 내보낼 수 있습니다.
 
-![BI 확장](../assets/bi-extension.svg)
+![BI 확장](../assets/bi-extension.png)
 
 ## 추가 정보
 
