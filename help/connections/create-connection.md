@@ -5,9 +5,25 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: ff99ee131e9bae9fc2815fb54e5b5c14577450f7
 workflow-type: tm+mt
-source-wordcount: '10330'
+source-wordcount: 10342
 ht-degree: 92%
 
 ---
@@ -495,7 +511,7 @@ ht-degree: 92%
 | 데이터 세트 유형 | 설명 | 타임스탬프 | 스키마 | 개인 ID <br/> 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}) |
 |---|---|---|---|---|
 | **[!UICONTROL 이벤트]** | 시간으로 이벤트를 나타내는 데이터입니다. 예를 들어 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 횟수 데이터 등이 있습니다. 이 데이터는 고객 ID나 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용되는 ID를 유연하게 사용할 수 있습니다. | [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 설정합니다. | *시계열* 동작이 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. 예를 들면 *XDM 경험 이벤트* 또는 *XDM 결정 이벤트*&#x200B;가 해당됩니다. | 포함하고자 하는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 ID 네임스페이스에 정의되고 연결된 하나 이상의 ID 세트가 있을 수 있습니다. 이러한 ID는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 등이 있습니다. |
-| **[!UICONTROL 조회]** | 프로필, 조회 및 이벤트 데이터 세트(후자의 경우 항상 지원됨) 등 모든 데이터 세트 유형 내의 필드 조회로 데이터세트를 추가할 수 있습니다. 이 추가 기능은 B2B 등 복잡한 데이터 모델을 지원하는 Customer Journey Analytics의 기능을 확장합니다. 이 데이터는 이벤트, 프로필 또는 조회 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 최대 3개 조회 수준을 추가할 수 있습니다. ([파생 필드](/help/data-views/derived-fields/derived-fields.md)은(는) 연결 내에서 조회를 위해 일치하는 키로 사용할 수 없습니다.) 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 사례에 대해서는 [B2B 예시](/help/use-cases/b2b/example.md)를 참조하십시오. | 해당 사항 없음 | *XDM 개별 프로필* 클래스를 제외하고, *레코드* 동작이 있는 XDM 클래스를 기반으로 한 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. | 해당 사항 없음 |
+| **[!UICONTROL 조회]** | 프로필, 조회 및 이벤트 데이터 세트(후자의 경우 항상 지원됨) 등 모든 데이터 세트 유형 내의 필드 조회로 데이터세트를 추가할 수 있습니다. 이 추가 기능은 B2B 등 복잡한 데이터 모델을 지원하는 Customer Journey Analytics의 기능을 확장합니다. 이 데이터는 이벤트, 프로필 또는 조회 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 최대 3개 조회 수준을 추가할 수 있습니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 사례에 대해서는 [B2B 예시](/help/use-cases/b2b/example.md)를 참조하십시오. <br/><br/>**참고**: <ul><li>[파생 필드](/help/data-views/derived-fields/derived-fields.md)은(는) 연결 내에서 조회에 대해 일치하는 키로 사용할 수 없습니다.</li><li>[고객 관리 키](/help/privacy/cmk.md) 및 [임시 데이터 세트](#ad-hoc-dataset)에 대해서는 대량 조회가 지원되지 않습니다.</li></ul> | 해당 사항 없음 | *XDM 개별 프로필* 클래스를 제외하고, *레코드* 동작이 있는 XDM 클래스를 기반으로 한 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. | 해당 사항 없음 |
 | **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 계정, 개인, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 사항 없음 | *XDM 개인 프로필* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마입니다. | 포함하고자 하는 개인 ID/계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트(요약 데이터 세트 제외)에는 하나 이상의 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})가 정의되어 있습니다. 예를 들어 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID 등이 있습니다.<br>![개인 ID &#x200B;](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 병합하려면 동일한 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})를 사용해야 합니다. |
 | **요약** | 개별 개인 ID와 관련이 없는 시계열 데이터입니다. 요약 데이터는 캠페인과 같이 여러 집계 수준에서 집계된 데이터를 나타냅니다. 이 데이터를 Customer Journey Analytics에 활용해 다양한 사용 사례를 지원할 수 있습니다. 자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하십시오. | Experience Platform의 이벤트 기반 요약 지표 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. 시간별 또는 일별 세부 기간만 지원됩니다. | *XDM 요약 지표* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. | 해당 사항 없음 |
 
