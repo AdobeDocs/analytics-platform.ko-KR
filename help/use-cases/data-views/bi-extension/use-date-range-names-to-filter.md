@@ -5,9 +5,22 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: a10818ec-a25c-4e4e-a551-14ff501750fa
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+autotag-review: '2026-05-19T09:40:38.657Z'
+TQID: 'https://experienceleague.adobe.com/98raijZwviVsIrYb7S5y8BYfOZf4-yKKSANeSRfpmM0'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 612
 ht-degree: 2%
 
 ---
@@ -53,7 +66,7 @@ ht-degree: 2%
    1. 이 시각적 개체의 **[!UICONTROL 필터]**&#x200B;에서 **[!UICONTROL daterangeName is (All)]**&#x200B;을(를) 선택하십시오.
    1. **[!UICONTROL 기본 필터링]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
    1. **[!UICONTROL 검색]** 필드 아래에서 Customer Journey Analytics에 정의된 날짜 범위의 이름인 **[!UICONTROL Last Year 2023]**&#x200B;을(를) 선택합니다.
-   1. ![열](/help/assets/icons/CrossSize75.svg)에서 **[!UICONTROL daterangeName]**&#x200B;을(를) 제거하려면 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL daterangeName]**&#x200B;을(를) 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
 
    적용된 **[!UICONTROL daterangeName]** 필터로 업데이트된 표가 표시됩니다. Power BI 데스크톱은 다음과 같아야 합니다.
 

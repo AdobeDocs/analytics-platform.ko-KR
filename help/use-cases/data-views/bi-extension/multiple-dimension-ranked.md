@@ -5,9 +5,22 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+autotag-review: '2026-05-19T09:42:58.473Z'
+TQID: 'https://experienceleague.adobe.com/MiPO6srBKMG9f9ijpOP7hFEHzewxjcEGVBpFZaWIilw'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1549
 ht-degree: 1%
 
 ---
@@ -39,7 +52,7 @@ ht-degree: 1%
 1. 날짜 범위가 모든 시각화에 적용되도록 하려면 **[!UICONTROL daterangeday]**&#x200B;을(를) **[!UICONTROL 데이터]** 창에서 **[!UICONTROL 이 페이지의 필터]**(으)로 끌어서 놓습니다.
    1. **[!UICONTROL 이 페이지의 필터]**&#x200B;에서 **[!UICONTROL 날짜 범위는 (모두)]**&#x200B;입니다.
    1. **[!UICONTROL 상대적 날짜]**&#x200B;을(를) **[!UICONTROL 필터 형식]**(으)로 선택합니다.
-   1. **[!UICONTROL 값이 마지막]** **&#x200B;**&#x200B;역년`1`에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
+   1. **[!UICONTROL 값이 마지막]** `1` **[!UICONTROL 역년]**&#x200B;에 있을 때 **&#x200B;**&#x200B;항목을 표시하도록 필터를 정의합니다.
    1. **[!UICONTROL 필터 적용]**&#x200B;을 선택하십시오.
 
 1. **[!UICONTROL 데이터]** 창:
@@ -50,7 +63,7 @@ ht-degree: 1%
    1. **[!UICONTROL 총 구매]** 선택
 
 1. 세로 막대형 차트를 표로 수정하려면 표를 선택하고 **[!UICONTROL 시각화]** 창에서 **[!UICONTROL 매트릭스]**&#x200B;를 선택하십시오.
-   * **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL product_name]**&#x200B;을(를) 끌어다 놓고 [!UICONTROL 시각화] 창의 **[!UICONTROL 행]**&#x200B;에서 **&#x200B;**&#x200B;[!UICONTROL product_categor]&#x200B;**&#x200B;**&#x200B;y 아래에 필드를 놓습니다.
+   * **[!UICONTROL 열]**&#x200B;에서 **[!UICONTROL product_name]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL 시각화]** 창의 **[!UICONTROL 행]**&#x200B;에서 **[!UICONTROL product_categor]**&#x200B;y 아래에 필드를 놓습니다.
 
 1. 테이블에 표시되는 제품 수를 제한하려면 **[!UICONTROL 필터]** 창에서 **[!UICONTROL product_name is (All)]**&#x200B;을(를) 선택하십시오.
 
@@ -158,7 +171,7 @@ ht-degree: 1%
       ![Tableau Desktop Multiple Dimension 등급 데이터](../assets/uc6-tableau-treemap.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
-   1. **[!UICONTROL Category]** 시트를 **[!UICONTROL Sheets]** 셸프에서 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 실행하는 *대시보드 1* 보기로 끌어다 놓습니다.
+   1. **[!UICONTROL Category]** 시트를 **[!UICONTROL Sheets]** 셸프에서 *여기에 시트 놓기*&#x200B;를 실행하는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
    1. **[!UICONTROL 대시보드 1]** 보기에서 **[!UICONTROL 시트]** 셸프의 **[!UICONTROL 카테고리]** 시트 아래에 있는 **[!UICONTROL 트리맵]** 시트를 끌어서 놓습니다.
    1. **[!UICONTROL 대시보드 1]** 보기에서 **[!UICONTROL 트리맵]** 시트 아래의 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 데이터]** 시트를 끌어서 놓습니다.
    1. 뷰에서 각 시트의 크기를 조정합니다.
@@ -176,11 +189,11 @@ ht-degree: 1%
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
       ![조회 필터](../assets/uc2-looker-filter.png)
-1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
+1. **[!UICONTROL 이(가) 범위에 있으므로**&#x200B;[!UICONTROL &#x200B; Cc 데이터 보기 날짜&#x200B;]&#x200B;**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2024/01/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 제품 범주]**&#x200B;을 선택하세요.
    1. **[!UICONTROL 제품 이름]**&#x200B;을 선택하세요.
-1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**[!UICONTROL 섹션에서 다음을 수행합니다.]**
+1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**섹션에서 다음을 수행합니다.**
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 측정값]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 사용자 지정 측정값 만들기]** 대화 상자에서 다음을 수행합니다.
       1. **[!UICONTROL 측정할 필드]** 드롭다운 메뉴에서 **[!UICONTROL 구매 매출]**&#x200B;을(를) 선택합니다.
@@ -210,7 +223,7 @@ ht-degree: 1%
       ![Looker 시각화 구성](../assets/uc6-looker-visualization.png)
 
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
-   1. 팝업 대화 상자를 숨기려면 ![편집](/help/assets/icons/CrossSize75.svg) 옆에 있는 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오
+   1. 팝업 대화 상자를 숨기려면 **[!UICONTROL 편집]** 옆에 있는 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오
 
 아래 표시된 것처럼 시각화 및 테이블이 표시됩니다.
 

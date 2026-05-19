@@ -5,13 +5,27 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+autotag-review: '2026-05-19T08:52:44.354Z'
+TQID: 'https://experienceleague.adobe.com/2aw2GDyFlHdR577R8ntg2Q2MYB8zHtr5dc7CWZd4LX0'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 951
 ht-degree: 33%
 
 ---
-
 
 # 결합된 이벤트 데이터 세트
 
@@ -66,7 +80,7 @@ ht-degree: 33%
 
 스키마 경로의 중요성을 설명하려면 이 시나리오를 고려하십시오. 첫 번째 데이터 집합에서 `string_color`은(는) 스키마 경로 `_experience.whatever.string_color`을(를) 기반으로 하고 스키마 경로 `_experience.somethingelse.string_color`의 두 번째 데이터 집합에 있습니다. 이 시나리오에서는 데이터가 결합된 결과 데이터 집합의 한 열에 병합되지 **않습니다**. 대신 결과는 결합된 데이터 집합에 두 개의 `string_color` 열입니다.
 
-| ID | 타임스탬프 | 경험(_e).<br/>무엇이든.<br/>string_color | 경험(_e).<br/>다른 항목.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| ID | 타임스탬프 | _experience.<br/>무엇이든.<br/>string_color | _experience.<br/>다른 기능.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
 |---|---|---|---|---|---|---:|---:|
 | user_310 | 1월 1일 오전 7:02 | 빨간색 | | 여우 | | | |
 | user_310 | 1월 1일 오전 7:04 | | | | | 2 | |
@@ -112,7 +126,7 @@ ht-degree: 33%
 * 얼마나 많은 사람들이 내 브랜드와 상호 작용합니까? 얼마나 많은 디바이스와 어떤 유형의 디바이스를 사용하고 있습니까? 어떻게 중첩됩니까?
 * 사람들이 모바일 디바이스에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도는 얼마나 됩니까? 하나의 디바이스에 랜딩되는 캠페인 클릭스루가 다른 곳에서 전환을 가져옵니까?
 * 장치 간 여정을 고려할 때 캠페인 효과에 대한 이해가 어떻게 달라집니까? 단계 분석은 어떻게 변경됩니까?
-* 사용자가 하나의 디바이스에서 다른 디바이스로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 어디로 이어집니까?
+* 사용자가 하나의 디바이스에서 다른 디바이스로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 어디에서 성공합니까?
 * 여러 디바이스가 있는 사용자의 행동은 단일 디바이스가 있는 사용자와 어떻게 다릅니까?
 
 
