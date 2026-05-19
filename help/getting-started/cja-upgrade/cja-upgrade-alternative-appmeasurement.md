@@ -6,10 +6,18 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
 TQID: https://experienceleague.adobe.com/ZqnH8IZau2fC-ucGAjMFQyolfhCe2pYbLiWJ7BKKhII
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 1381
@@ -45,7 +53,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 웹 SDK에서 AppMea
 
 ## 장점과 단점
 
-이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1}을 통과하므로 더욱 세련되었습니다._
+이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1&rbrace;을 통과하므로 더욱 세련되었습니다._
 
 이 업그레이드 대체 요소를 사용할 때 다음과 같은 장점과 단점을 고려하십시오.
 
