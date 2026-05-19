@@ -153,4 +153,4 @@ ht-degree: 32%
 >
 >[Customer Journey Analytics에서 사용하는 도메인](domains.md)
 >
->[CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/ip-addresses)
