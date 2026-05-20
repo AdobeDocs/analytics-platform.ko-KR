@@ -6,28 +6,12 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bdc5b3671b5810419b13a42b0ba138f9dffc34cb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 18fb93e93ec714e6a9d64010309eba0f2ff5593a
 workflow-type: tm+mt
 source-wordcount: 21144
 ht-degree: 98%
@@ -88,7 +72,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -406,7 +390,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="어떤 콘텐츠와 콘텐츠 속성이 가장 성과가 좋은지 알아봅니다."
->abstract="**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. [추가 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}.<br/>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다."
+>abstract="**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. [추가 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다."
 
 
 다음 템플릿을 사용할 수 있습니다.
