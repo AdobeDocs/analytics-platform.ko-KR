@@ -65,7 +65,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 만료되지 않는 자격 증명을 사용하는 방법:
 
-1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
+1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
 
 1. Customer Journey Analytics 제품 및 제품 프로필에 대해 만료되지 않는 자격 증명을 사용할 수 있는지 확인합니다. 다음 단계를 실행하려면 조직의 시스템 관리자여야 합니다.
    1. ![앱](/help/assets/icons/Apps.svg)에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.

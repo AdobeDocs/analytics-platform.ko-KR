@@ -104,7 +104,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
+>**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
 >
 
 ## 열 최솟값 {#column-minimum}
@@ -134,7 +134,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
+>**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
 >
 
 
