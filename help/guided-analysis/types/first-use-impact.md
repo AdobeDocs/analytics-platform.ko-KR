@@ -5,9 +5,14 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/TRLnyHuOUno5zy2QT2Uc8vFnWeVy2snRu-ispS0ClKk
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: 692
 ht-degree: 97%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 97%
 ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 최초 사용 영향]** 분석은 사용자가 제품 기능을 처음 사용하기 전과 사용한 후의 주요 지표를 비교한 것입니다. 이 보고서의 가로축은 이벤트 전후의 상대적인 시간 간격이며, 세로축은 원하는 주요 지표를 측정합니다. 차트 중앙의 세로 막대는 특정 사용자가 기능을 처음 사용한 날의 0일차를 나타냅니다. 사용자가 항상 같은 날에 기능을 채택하는 것은 아니며 출시는 잠재적으로 며칠에 걸쳐 진행될 수 있으므로 0일차는 각 사용자마다 다른 의미를 가질 수 있습니다.
 
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
 
 
 ## 사용 사례

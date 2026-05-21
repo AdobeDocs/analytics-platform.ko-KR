@@ -5,10 +5,16 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: f350fd99187f6ce35042ad9d97d9d02b5f8d1721
+TQID: https://experienceleague.adobe.com/cDOJq7Dc6x301enIo7h-cm8pGphmnvQAihnLoYGIr-A
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 6%
+source-wordcount: 622
+ht-degree: 11%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 6%
 
 고유 값이 많은 차원을 사용하는 경우 결과 보고서에 표시하거나 계산할 고유 차원 항목이 너무 많이 포함될 수 있습니다. 가장 중요하지 않은 것으로 간주되는 차원 항목을 제거하여 결과가 잘립니다. 이러한 최적화는 프로젝트 및 제품 성능을 유지하기 위해 수행됩니다.
 
-고유 값이 너무 많은 차원이 포함된 보고서를 요청하면 Analysis Workspace은 일부 차원 항목이 포함되지 않았다는 표시기를 차원 헤더에 표시합니다. 예를 들어 **[!UICONTROL 행: 22,343,156]**&#x200B;을 초과하는 1~50개 **[!UICONTROL more]** 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
+고유 값이 너무 많은 차원이 포함된 보고서를 요청하면 Analysis Workspace는 차원 헤더에 모든 차원 항목이 포함되지 않았음을 알리는 표시기를 표시합니다. 예를 들어 **[!UICONTROL 행: 22,343,156]**&#x200B;을 초과하는 1~50개 **[!UICONTROL more]** 키워드는 가장 중요한 차원 항목을 반환하기 위해 일부 최적화가 보고서에 적용되었음을 나타냅니다.
 
 ![22,343,156 이상 중 1~50개를 표시하는 &quot;초과&quot; 키워드를 표시하는 Workspace의 자유 형식 테이블](assets/high-cardinality.png)
 

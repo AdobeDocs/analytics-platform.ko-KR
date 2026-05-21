@@ -6,18 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: User
 TQID: https://experienceleague.adobe.com/FTWdLEx5SD4GMgi4XJKQ20-RVsg1oRFZtEMjPXkVuYQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1160
@@ -46,7 +39,7 @@ Customer Journey Analytics는 다양한 소스의 데이터 세트를 하나의 
 
 ## 웹 및 콜센터 데이터를 플랫폼으로 가져오기
 
-데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
+데이터를 Adobe Experience Platform으로 가져옵니다. Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) 및 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko-KR)을 참조하십시오.
 
 데이터를 플랫폼으로 가져올 때 다음 팁을 통해 결과 보고서의 인사이트를 높일 수 있습니다.
 

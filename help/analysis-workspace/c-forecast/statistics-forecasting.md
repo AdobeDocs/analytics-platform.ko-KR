@@ -4,10 +4,15 @@ title: 통계 기법
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+TQID: https://experienceleague.adobe.com/hbfehTAPC7nw96Wdm47bdX-D5c4cfTCeCtlHlINBBxI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: d13dba12-733d-4914-8d92-d643658bbe5d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: 552
+ht-degree: 3%
 
 ---
 
@@ -54,6 +59,6 @@ ht-degree: 4%
 
 ## 참조
 
-1. 테일러, 션 J., 벤자민 레담: 규모에 맞춰 *예측.* 미국 통계학자 72.1(2018): 37-45.
-1. 트리베, 오스카 외.: *Neuralprophter: 규모에 맞게 설명할 수 있는 예측입니다.* arXiv 사전 인쇄 arXiv:2111.15397(2021).
+1. 테일러, 숀 J., 벤자민 레담: *규모에 대한 예측* 미국 통계학자 72.1 (2018): 37-45.
+1. Triebe, Oskar, et al.: *Neuralprophet: 규모에 대한 설명 가능한 예측.* arXiv 사전 인쇄 arXiv:2111.15397(2021).
 1. Zhang 및 Arbor: *시계열 예외 항목 탐지.* 미국 특허 출원 #18/057883.

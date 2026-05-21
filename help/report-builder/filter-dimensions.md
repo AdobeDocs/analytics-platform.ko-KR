@@ -6,13 +6,16 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: a18b628f02889911c7663c32f31ef3c3bec3cf2e
+TQID: https://experienceleague.adobe.com/SAoyiEbKE1Niv3uwBMNB-M3F7WcdBQ-Guzs2mkRKHLE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 33%
+source-wordcount: 993
+ht-degree: 34%
 
 ---
-
 
 # 차원 필터링
 
@@ -22,7 +25,7 @@ ht-degree: 33%
 
 1. 데이터 블록의 셀을 선택합니다.
 
-1. ![명령](/help/assets/icons/Edit.svg) 패널에서 **[!UICONTROL 편집]** **[!UICONTROL 데이터 블록 편집]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 명령]** 패널에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 블록 편집]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL 다음]**&#x200B;을 선택하여 **[!UICONTROL 차원]** 탭을 표시합니다.
 
@@ -32,7 +35,7 @@ ht-degree: 33%
 
 1. 팝업 메뉴에서 **[!UICONTROL 필터 차원]**&#x200B;을 선택하여 **[!UICONTROL 필터 차원]** 창을 표시합니다.
 
-1. **Type**(으)로 **가장 자주 사용하는 항목** 또는 **[!UICONTROL 특정]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Type]**(으)로 **가장 자주 사용하는 항목** 또는 **특정**&#x200B;을(를) 선택하십시오.
 
    ![필터 차원 창에서 선택한 특정 옵션입니다.](./assets/image28.png){zoomable="yes"}
 

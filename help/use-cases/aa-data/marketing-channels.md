@@ -5,10 +5,16 @@ exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+TQID: https://experienceleague.adobe.com/ur8f2cMDdoncdUzZ8FDAUYbJZ-8JOyAKKZ5p5Go-OkM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 49%
+source-wordcount: 1089
+ht-degree: 48%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 49%
 ## 사전 요구 사항
 
 * 보고서 세트 데이터는 이미 [Analytics 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics)를 사용하여 Adobe Experience Platform으로 가져와야 합니다. 마케팅 채널은 Analytics 보고서 세트의 처리 규칙에 의존하므로 다른 데이터 소스는 지원되지 않습니다.
-* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. Adobe Analytics 구성 요소 안내서에서 [마케팅 채널에 대한 처리 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)을 참조하십시오.
+* 마케팅 채널 처리 규칙을 미리 설정해야 합니다. Adobe Analytics 구성 요소 안내서에서 [마케팅 채널에 대한 처리 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)을 참조하십시오.
 
 ## 마케팅 채널 스키마 요소
 
@@ -33,8 +39,8 @@ ht-degree: 49%
 
 1. Analytics 원본 커넥터를 기반으로 데이터 집합을 포함하는 [연결을 만듭니다](/help/connections/create-connection.md).
 2. 다음 차원을 포함하는 [데이터 보기를 만듭니다](/help/data-views/create-dataview.md).
-   * **`channel.typeAtSource`**: [마케팅 채널](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/marketing-channel) 차원에 해당합니다.
-   * **`channel._id`**: [마케팅 채널 세부 사항](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/marketing-detail)에 해당합니다.
+   * **`channel.typeAtSource`**: [마케팅 채널](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel) 차원에 해당합니다.
+   * **`channel._id`**: [마케팅 채널 세부 사항](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)에 해당합니다.
 3. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 첫 번째 및 마지막 터치 차원을 모두 사용하려면 각 마케팅 채널 차원을 구성 요소 영역으로 여러 번 드래그합니다. 각 차원에 원하는 속성 모델과 지속성을 지정합니다. 또한 Adobe에서는 Analysis Workspace에서 쉽게 사용할 수 있도록 각 차원에 표시 이름을 지정하도록 권장합니다.
 4. 데이터 보기를 만듭니다.
 
@@ -77,5 +83,5 @@ Adobe Experience Platform의 아키텍처는 Adobe Analytics 보고서 세트와
 * 위에 나열된 아키텍처 차이점이 비교에 영향을 주지 않는지 확인합니다. 이러한 차이점에는 마지막 터치 채널을 무시하지 않는 채널을 제거하고 방문의 첫 번째 히트(세션)인 규칙 기준을 제거하는 작업이 포함됩니다.
 * 연결에 Adobe Analytics과 동일한 보고서 세트를 사용하는지 다시 확인하십시오. Customer Journey Analytics 연결에 자체 마케팅 채널 처리 규칙이 있는 보고서 세트가 여러 개 있는 경우 Adobe Analytics과 비교하는 쉬운 방법이 없습니다. 데이터를 비교하기 위해 각 보고서 세트에 대해 별도의 연결을 만들어야 합니다.
 * 동일한 날짜 범위를 비교하고 데이터 보기의 시간대 설정이 보고서 세트의 시간대와 같은지 확인합니다.
-* 보고서 세트 데이터를 볼 때 사용자 정의 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/marketing-channel) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/first-touch-channel)이나 [마지막 터치 채널](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/last-touch-channel)을 비교하지 않도록 권장합니다. Customer Journey Analytics은 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 Customer Journey Analytics 보고서가 실행될 때 계산됩니다.
+* 보고서 세트 데이터를 볼 때 사용자 정의 속성 모델을 사용합니다. 예를 들어 기본이 아닌 속성 모델을 사용하는 지표와 함께 [마케팅 채널](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel) 차원을 사용합니다. Adobe에서는 보고서 세트에 수집된 속성에 의존하므로 기본 차원 [첫 번째 터치 채널](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/first-touch-channel)이나 [마지막 터치 채널](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/last-touch-channel)을 비교하지 않도록 권장합니다. Customer Journey Analytics은 보고서 세트의 속성 데이터에 의존하지 않습니다. 대신 Customer Journey Analytics 보고서가 실행될 때 계산됩니다.
 * 일부 지표는 보고서 세트 데이터와 플랫폼 데이터 간의 아키텍처 차이로 인해 비교하기가 어렵습니다. 방문 횟수/세션 수, 개인/사용자 수 및 발생 횟수/이벤트 수를 예로 들 수 있습니다.

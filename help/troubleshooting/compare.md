@@ -6,9 +6,15 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 쿼리 서비스;쿼리 서비스;SQL 구문
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: 770
 ht-degree: 100%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 100%
 
 조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이러한 차이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 Adobe Analytics에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 이러한 유연성으로 인해 Customer Journey Analytics이 데이터를 해석하는 방식에 약간의 차이가 발생할 수 있습니다. 이 문서를 사용하여 Customer Journey Analytics 및 Adobe Analytics가 데이터를 처리하는 방식의 잠재적 차이점을 이해합니다.
 
-이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
+이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
 
 ![해당 데이터는 Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform으로, 그리고 CJA 연결을 사용하여 Custoer Journey Analytics로 이동합니다.](assets/compare.png)
 

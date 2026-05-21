@@ -3,10 +3,15 @@ description: 주문 추진에 도움이 되는 마케팅 채널을 보여 주는
 title: 보다 복잡한 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 1b6e1d432bfe4b0574b8ee68bcfa940941f3c36f
+TQID: https://experienceleague.adobe.com/T5hA3-IeRUfDR53RL6TnJUslUI7XxRSZN2KpPKAz7k0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: 240
+ht-degree: 3%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 0%
 1. **[!UICONTROL 지표]** 구성 요소에서 **[!UICONTROL 온라인 주문]** 지표를 선택하고 지표를 **[!UICONTROL 정의]** 영역으로 끌어서 놓습니다.
 
    1. 지표에 대해 ![설정](/help/assets/icons/Setting.svg)을(를) 선택합니다.
-   1. **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 열 속성 모델]**&#x200B;에서 속성 모델을 조정합니다.
       1. **[!UICONTROL 모델]**&#x200B;에 대해 **[!UICONTROL 사용자 지정]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Starter]**&#x200B;을(를) `0`(으)로, **[!UICONTROL Player]**&#x200B;을(를) `100`(으)로, **[!UICONTROL Closer]**&#x200B;을(를) `0`(으)로 설정합니다.
       1. **[!UICONTROL 컨테이너]**&#x200B;에 대해 **[!UICONTROL 방문자]**&#x200B;을(를) 선택하십시오.

@@ -5,9 +5,15 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: 1278
 ht-degree: 96%
 
 ---
@@ -30,7 +36,7 @@ ht-degree: 96%
 
 이 분석에서 차트의 x축은 사용자의 초기 시작 이벤트 이후의 시간을 나타내며, y축은 하나 이상의 재방문 이벤트에 참여한 사용자의 비율을 나타냅니다. 유지율과 이탈율을 기간별로 볼 수 있으며, 표시되는 기간은 쿼리 설정을 통해 사용자 정의할 수 있습니다. 차트 아래에 있는 테이블은 집계 데이터를 제공하며, 같은 날짜에 시작 이벤트를 수행한 사람들의 그룹인 개별 코호트를 표시하는 옵션이 있습니다.
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
 
 
 ## 사용 사례

@@ -5,9 +5,14 @@ title: 클라우드 내보내기 위치 및 계정 관리
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 25a5c42153e28493321d87fa5227fcf44c244bb6
+TQID: https://experienceleague.adobe.com/fFXssOZV4eb8Yo1cADhBgXXte-umE4i5CtYVleEVD1w
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: 1395
 ht-degree: 3%
 
 ---
@@ -120,7 +125,7 @@ ht-degree: 3%
 
 ## 계정 키 보기
 
-계정을 만든 후 해당 계정에 대해 연결된 계정 키를 볼 수 있습니다. 처음에 [&#x200B; 계정을 구성했을 때 클라우드 공급자 &#x200B;](/help/components/exports/cloud-export-accounts.md)로 계정 구성을 완료하지 않은 경우 이 정보를 확인해야 합니다.
+계정을 만든 후 해당 계정에 대해 연결된 계정 키를 볼 수 있습니다. 처음에 ](/help/components/exports/cloud-export-accounts.md) 계정을 구성했을 때 클라우드 공급자 [로 계정 구성을 완료하지 않은 경우 이 정보를 확인해야 합니다.
 
 내보내기 계정과 연결된 키를 보려면 다음과 같이 하십시오.
 

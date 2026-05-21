@@ -4,9 +4,15 @@ title: 경고 관리
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/oKewVodxYwDlnsuqGclK6ZYEmN-pXNqbc5ud6OkIUK4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 599
 ht-degree: 22%
 
 ---
@@ -54,10 +60,10 @@ ht-degree: 22%
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 추가]** | [경고 빌더](alert-builder.md#alert-builder)를 사용하여 다른 경고를 추가하십시오. |
-| ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 경고를 선택하지 않은 경우 이 검색 필드를 사용하여 경고를 검색합니다. |
+| ![검색](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 목록에서 경고를 선택하지 않은 경우 이 검색 필드를 사용하여 경고를 검색합니다. |
 | ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 경고에 태그를 지정합니다. **[!UICONTROL 태그 경고]** 대화 상자에서 선택한 경고에 대한 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 경고에 대한 태그를 저장합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 경고를 삭제합니다. 확인 메시지가 표시됩니다. |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 경고의 이름을 변경합니다. 선택하면 경고 이름을 인라인으로 바꿀 수 있습니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 경고의 이름을 변경합니다. 선택하면 경고 이름을 인라인으로 바꿀 수 있습니다. |
 | ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 선택한 경고를 복사합니다. 같은 이름과 접미사 `(Copy)`을(를) 사용하여 새 경고를 만듭니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 사용]** 또는 **[!UICONTROL 사용 안 함]** | 선택한 경고를 활성화하거나 비활성화합니다. |
 | ![새로 고침](/help/assets/icons/Refresh.svg) | **[!UICONTROL 갱신]** | 경고의 만료 날짜를 갱신합니다. 원래 만료 날짜와 상관없이 이 옵션을 선택한 날부터 1년이 만료됩니다. |

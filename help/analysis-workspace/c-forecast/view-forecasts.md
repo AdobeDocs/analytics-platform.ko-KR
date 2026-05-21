@@ -4,10 +4,15 @@ title: 예측 보기
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+TQID: https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: d13dba12-733d-4914-8d92-d643658bbe5d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: 372
+ht-degree: 5%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 2%
 
 ## 테이블에서 예측 보기
 
-시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. [!UICONTROL 사용자 환경 설정]에서 자유 형식 테이블에 대해 [예측 표시](../user-preferences.md)를 사용하면 테이블에 추가된 첫 번째 지표 열에 대한 예측이 자동으로 표시됩니다. 추가 열의 경우:
+시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. [사용자 환경 설정](../user-preferences.md)에서 자유 형식 테이블에 대해 [!UICONTROL 예측 표시]를 사용하면 테이블에 추가된 첫 번째 지표 열에 대한 예측이 자동으로 표시됩니다. 추가 열의 경우:
 
 1. 열 헤더에서 열 설정 아이콘 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;를 선택했는지 확인하십시오. 자세한 내용은 [열 설정](../visualizations/freeform-table/column-row-settings/column-settings.md)을 참조하십시오.
 

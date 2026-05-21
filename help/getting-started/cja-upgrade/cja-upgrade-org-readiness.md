@@ -4,14 +4,21 @@ description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7c0342a68f75774fd7b29979d3ce610f22d047ae
+exl-id: bd19250e-91c0-49f6-b6dc-3abd641344aa
+TQID: https://experienceleague.adobe.com/DtETa7Qh3l2X9YSjkX56zX8CmDTWVpGvvyrd9HFayt4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 8%
+source-wordcount: 1186
+ht-degree: 15%
 
 ---
 
-# Customer Journey Analytics으로 업그레이드할 조직 준비
+# Customer Journey Analytics로 업그레이드할 조직 준비하기
 
 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)에 설명된 대로 성공적인 업그레이드의 일부는 특정 운영 고려 사항에 초점을 맞추어 조직을 준비하는 것입니다. 조직을 준비하려면 다음 작업을 수행하는 것이 좋습니다.
 
@@ -37,7 +44,7 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
 | 기능 | 이점 | 예 |
 |---------|----------|---------|
-| **[모든 종류의 데이터를 위한 숙박](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)** | Customer Journey Analytics에는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능이 결합되어 있습니다. | 소매 조직은 다음 종류의 데이터를 단일 보기에 통합하여 전체 고객 여정에 대한 가시성을 제공할 수 있습니다. <ul><li>웹 클릭스트림 트랜잭션</li><li>모바일 앱 트랜잭션</li><li>매장 내 거래</li><li>CRM 및 충성도 데이터</li></ul> |
+| **[모든 종류의 데이터를 위한 숙박](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)** | Customer Journey Analytics는 모든 종류의 데이터 스키마와 유형을 보유할 수 있는 Experience Platform의 기능과 결합되어 있습니다. | 소매 조직은 다음 종류의 데이터를 단일 보기에 통합하여 전체 고객 여정에 대한 가시성을 제공할 수 있습니다. <ul><li>웹 클릭스트림 트랜잭션</li><li>모바일 앱 트랜잭션</li><li>매장 내 거래</li><li>CRM 및 충성도 데이터</li></ul> |
 | **[크로스 채널 분석](/help/use-cases/cross-channel/cross-channel.md)** | 다양한 웹, 모바일 및 오프라인 속성에서 데이터를 통합하여 다양한 채널에서 고객 행동에 대한 통합된 단일 보기를 활성화합니다. | 여러 채널에서 데이터를 수집하는 소매 조직은 다음과 같은 종류의 분석을 수행할 수 있습니다.<p>쇼핑객이 유료 검색 광고를 클릭하고 온라인에서 청바지를 탐색한 후 푸시 알림을 받은 다음 이틀 후 매장에서 구매합니다. 이러한 통합된 관점을 통해 정확한 크로스 채널 속성을 구현하여 디지털 접점이 매장 내 판매에 어떻게 기여하는지 보여 줍니다. 또한 맞춤형 오퍼를 통해 &quot;온라인에서 검색하고 스토어에서 구매한&quot; 고객을 타겟팅하는 것과 같이 보다 정밀한 세그먼테이션을 지원합니다. 또한 하나의 대시보드에서 명확하고 모든 채널 매출 보고를 제공하여 단편화되고 고립된 인사이트를 고객 행동에 대한 전체적인 이해로 바꿉니다. |
 | **[보고서 처리 시간](/help/getting-started/aa-to-cja.md#get-comfortable-with-report-time-processing)** | 기본 데이터 수집 방법을 변경할 필요 없이 소급 설정을 적용하고 여러 버전의 변수 지속성을 생성합니다. | Customer Journey Analytics을 사용하면 데이터를 다시 가져오거나 처리하지 않고도 신속하게 지표, 차원 및 속성 모델을 만들고 조정할 수 있으므로 소매 조직은 엔지니어링에게 데이터 세트를 다시 빌드하도록 요청할 필요 없이 최근 소셜 캠페인이 온라인 및 매장 내 판매 모두에 어떤 영향을 미쳤는지 확인할 수 있습니다. 속성 모델을 마지막 터치에서 첫 번째 터치 또는 사용자 지정 규칙 기반 속성으로 즉시 변경할 수 있습니다. |
 | **[Content Analytics](/help/content-analytics/content-analytics.md)** | 콘텐츠가 비즈니스가 정의한 주요 성능 지표에 미치는 영향을 마케터가 이해할 수 있도록 도와줍니다. Content Analytics는 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. | 소매 조직은 웹, 앱, 이메일 및 매장 내 데이터를 통합하여 만든 각 디지털 콘텐츠가 고객 여정 및 전환에 어떻게 기여하는지 정확하게 파악할 수 있습니다. <p>소매 조직은 인기 있는 소셜 미디어 플랫폼에 있는 &quot;여름 데님 스타일 가이드&quot;가 충성도 회원들 간의 높은 참여를 유도하며, 이러한 회원들이 일주일 이내에 매장에서 데님을 구매할 가능성이 40% 더 높다는 것을 확인할 수 있었다.</p> |
@@ -138,9 +145,9 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
   시작하는 데 도움이 되는 리소스는 다음과 같습니다.
 
-   * [Customer Journey Analytics 자습서](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
+   * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
    * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
@@ -149,4 +156,3 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 ## 권장되는 업그레이드 단계 수행
 
 업그레이드 프로세스를 시작할 준비가 되면 Customer Journey Analytics 업그레이드 가이드의 [권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) 또는 동적으로 생성된 업그레이드 단계를 따릅니다. Customer Journey Analytics에서 안내서에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택하십시오. 화면에 표시되는 안내를 따르십시오.
-

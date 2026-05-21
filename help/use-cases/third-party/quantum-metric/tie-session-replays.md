@@ -5,9 +5,15 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
+TQID: https://experienceleague.adobe.com/GEH0qD9G2uRs36-yzWjUbfH8VdSezkhUffcDuDQcsfw
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: 843
 ht-degree: 2%
 
 ---
@@ -20,7 +26,7 @@ Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &q
 
 다음 단계에서는 Adobe Experience Platform 데이터 수집에서 태그를 사용한다고 가정합니다. 조직에서 태그를 사용하지 않는 경우 이러한 데이터 수집 방법을 수동 웹 SDK 구현에 적용할 수 있습니다.
 
-자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
+자세한 내용은 [Quantum Metric Tag Extension](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) 설명서를 참조하십시오.
 
 ## 1단계: Quantum 지표 세션 ID를 수용할 스키마 필드 만들기
 

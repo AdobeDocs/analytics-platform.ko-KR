@@ -4,9 +4,14 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/CxkgYLy9HfZEWEqU0r7UnuF5VStvjcKeX8SBwUqxj-s
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 55%
 
 ---
@@ -25,7 +30,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
+_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +59,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

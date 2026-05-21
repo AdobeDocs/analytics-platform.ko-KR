@@ -5,10 +5,16 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 28%
+source-wordcount: 1443
+ht-degree: 24%
 
 ---
 
@@ -34,12 +40,12 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 
 
-1. **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 페이지 제목]**&#x200B;을 **[!UICONTROL 포함된 구성 요소]** 아래의 [!UICONTROL 지표] 섹션으로 끌어옵니다.
-1. 방금 끌어온 지표를 강조 표시하고 의 `Orders`구성 요소 설정&#x200B;**[!UICONTROL 에서]**(으)로 이름을 바꿉니다.
+1. **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 페이지 제목]**&#x200B;을 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 지표]** 섹션으로 끌어옵니다.
+1. 방금 끌어온 지표를 강조 표시하고 의 **[!UICONTROL 구성 요소 설정]**&#x200B;에서 `Orders`(으)로 이름을 바꿉니다.
 1. **[!UICONTROL 값 포함/제외]** 섹션을 열고 다음을 지정하십시오.
    1. **[!UICONTROL 포함/제외 값 설정]**&#x200B;을 사용하도록 설정합니다.
    1. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;을(를) 선택합니다.
-   1. `confirmation`을(를) 지정하십시오. **[!UICONTROL page_title]**&#x200B;에 대한 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표(계산된 지표가 아님)입니다. 포함/제외된 값이 있는 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. 이러한 지표는 속성, 세그먼트 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
+   1. `confirmation`을(를) 지정하십시오. **[!UICONTROL page_title]**&#x200B;에 대한 텍스트는 이 페이지가 주문 처리와 관련되어 있음을 나타냅니다. 해당 기준이 충족되는 모든 페이지 제목을 검토한 후 각 인스턴스에 대해 `1`이(가) 계산됩니다. 결과는 새 지표입니다(계산된 지표가 아님). 포함/제외된 값이 있는 지표는 다른 지표를 사용할 수 있는 모든 곳에서 사용할 수 있습니다. 이러한 지표는 속성, 세그먼트 및 표준 지표를 사용할 수 있는 모든 곳에서 작동합니다.
 
    ![지표에 대한 Dimension](../assets/string-to-metric.gif){width=100%}
 1. [!UICONTROL 세션]의 [!UICONTROL 전환 확인 기간]을 사용하여 [!UICONTROL 마지막 터치]와 같은 이 지표에 대한 속성 모델을 추가로 지정할 수 있습니다.
@@ -53,16 +59,16 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 
 
-1. **[!UICONTROL Duration]** 정수를 **[!UICONTROL 포함된 구성 요소]** 아래의 [!UICONTROL 차원] 섹션으로 끌어옵니다.
-1. 이제 **[!UICONTROL 값 버킷팅]**&#x200B;을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. 버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.
+1. **[!UICONTROL Duration]** 정수를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
+1. 이제 **[!UICONTROL 값 버킷팅]**을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. 버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.
    ![정수 대 차원](../assets/integer-to-dimension.gif){width=100%}
 
 
 ## 플로우 다이어그램에서 숫자 차원을 지표로 사용 {#numeric}
 
-수치 차원을 사용하여 지표를 [!UICONTROL &#x200B; 흐름] 시각화로 가져올 수 있습니다.
+수치 차원을 사용하여 지표를 [!UICONTROL  흐름] 시각화로 가져올 수 있습니다.
 
-1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 2. 작업 영역 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
 
 ![전자 메일에서 종료/주문으로의 마케팅 채널 흐름](../assets/flow.png)
@@ -73,14 +79,14 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 예를 들어 데이터 보기에서 포함/제외 기능을 사용하여 $50 이상의 매출을 생성한 제품에만 중점을 둡니다. 따라서 $50 제품 구매와 $25 제품 구매를 포함하는 주문이 있는 경우 포함/제외 기능은 전체 주문이 아니라 $25 제품 구매를 제거합니다.
 
-1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 **[!UICONTROL 수입]** 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 지표]** 영역으로 드래그합니다.
-1. 지표를 선택하고 오른쪽에 다음 내용을 구성합니다.
-a. **[!UICONTROL 형식]**&#x200B;에서 **[!UICONTROL 통화]**&#x200B;를 선택합니다.
-b. **[!UICONTROL 통화]**&#x200B;에서 **[!UICONTROL USD]**&#x200B;을(를) 선택합니다.
-c. **[!UICONTROL 값 포함/제외]**&#x200B;에서 **[!UICONTROL 포함/제외 값 설정]** 옆에 있는 확인란을 선택합니다.
-d. **[!UICONTROL Match]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;을 선택합니다.
-e. **[!UICONTROL 기준]**&#x200B;에서 **[!UICONTROL 이]**&#x200B;보다 크거나 같음을 선택합니다.
-f. 값으로 `50`을(를) 지정합니다.
+1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 **[!UICONTROL 수입]** 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 지표]** 영역으로 드래그합니다.
+1. 지표를 선택하고 오른쪽에서 다음을 구성합니다.
+a. **[!UICONTROL 형식]**&#x200B;에서 **[!UICONTROL 통화]**를 선택합니다.
+b. **[!UICONTROL 통화]**&#x200B;에서 **[!UICONTROL USD]**을(를) 선택하세요.
+c. **[!UICONTROL 값 포함/제외]**&#x200B;에서 **[!UICONTROL 포함/제외 값 설정]** 옆에 있는 확인란을 선택하십시오.
+d. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**을 선택합니다.
+e. **[!UICONTROL 기준]**&#x200B;에서 **[!UICONTROL 이(가)]**보다 크거나 같음을 선택합니다.
+f. `50`을(를) 값으로 지정합니다.
 
 이러한 새 설정을 사용해, 고가치 매출만 볼 수 있으며 50달러 미만인 모든 항목을 배제할 수 있습니다.
 
@@ -112,11 +118,11 @@ f. 값으로 `50`을(를) 지정합니다.
 
 한 차원 및 두 지표를 통해 이 보고를 원활하게 수행할 수 있습니다.
 
-* [세션 유형](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-reference) - 이 차원에는 [!UICONTROL 새로 만들기] 및 [!UICONTROL 반환]의 두 가지 값이 있습니다. [!UICONTROL New] 줄 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 동작(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
+* [세션 유형](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - 이 차원에는 [!UICONTROL 새로 만들기] 및 [!UICONTROL 반환]의 두 가지 값이 있습니다. [!UICONTROL New] 줄 항목에는 개인이 정의한 첫 번째 세션으로 결정된 세션의 모든 동작(즉, 이 차원에 대한 지표)이 포함됩니다. 다른 모든 항목은 [!UICONTROL 재방문] 항목에 포함됩니다(모든 항목이 세션에 속한다고 가정). 지표가 세션에 포함되지 않는 경우 지표는 이 차원의 “해당되지 않음” 버킷에 표시됩니다.
 
-* [처음 세션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-reference)입니다. 최초 세션 지표는 보고 기간 내에서 개인이 정의한 첫 번째 세션으로 정의됩니다.
+* [처음 세션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)입니다. 최초 세션 지표는 보고 기간 내에서 개인이 정의한 첫 번째 세션으로 정의됩니다.
 
-* [재방문 세션](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-reference) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.—>
+* [재방문 세션](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) 재방문 세션 지표는 개인의 첫 번째 세션이 아닌 세션의 수입니다.—>
 
 구성 요소에 액세스하려면 다음을 수행하십시오.
 
@@ -135,7 +141,7 @@ Adobe Experience Platform의 스키마에는 [!UICONTROL 날짜] 및 [!UICONTROL
 
 * 날짜 형식의 경우 **[!UICONTROL 월, 일, 년]** 형식으로 **[!UICONTROL 날짜]**&#x200B;를 선택하면 보고의 출력 예는 2022년 8월 23일과 같을 수 있습니다.
 
-* 날짜-시간 형식의 경우 **[!UICONTROL 시간]** 형식의 **[!UICONTROL 분:Minute]**&#x200B;을(를) 선택하면 결과는 20:20과(와) 같이 표시될 수 있습니다.
+* 날짜-시간 형식의 경우 **[!UICONTROL 시간:Minute]** 형식의 **[!UICONTROL 분]**&#x200B;을(를) 선택하면 결과는 20:20과(와) 같이 표시될 수 있습니다.
 
 1900년 1월 1일 이후의 날짜(1970년 1월 1일은 예외)와 2000년 1월 1일 이후의 날짜-시간 값이 지원됩니다.:00:
 

@@ -5,10 +5,16 @@ title: 클라우드 내보내기 계정 구성
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 25f46c50b6578026ff3aaae5019306bdcf82f211
+TQID: https://experienceleague.adobe.com/RJMRWr4ooIKHzfZ9auhh2hUvequxGTodCL4ba5ScoDg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 31%
+source-wordcount: 2473
+ht-degree: 34%
 
 ---
 
@@ -112,9 +118,9 @@ Customer Journey Analytics 보고서를 클라우드 대상으로 내보내기([
 
       1. 아직 다운로드하지 않았다면 [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 다운로드하십시오.
 
-      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure 저장소 탐색기에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
+      1. Adobe Experience Platform 설명서에서 [데이터 랜딩 영역 컨테이너를 Azure 저장소 탐색기에 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)에 설명된 단계를 수행합니다.
 
-         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
+         복사한 URI에 이러한 자격 증명이 포함되어 있으므로 [데이터 랜딩 영역에 대한 자격 증명 검색](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) 및 [데이터 랜딩 영역 자격 증명 업데이트](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials) 섹션에 설명된 작업을 건너뛸 수 있습니다.
 
       1. Adobe Experience Platform 설명서를 따라가면 [!UICONTROL **Blob 컨테이너 SAS URL**] 필드가 표시됩니다. 이전 단계에서 복사한 SAS URI를 붙여 넣으십시오.
 

@@ -5,10 +5,16 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/Sb4kVGW3EHe85km5NDp-qWQu8MIeW5v2gwrYNTmNevY
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 85%
+source-wordcount: 1849
+ht-degree: 81%
 
 ---
 
@@ -42,7 +48,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +92,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +107,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
    ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width=".50%"}
 1. 슬라이드를 추가하여 데이터 스토리를 작성합니다. 기본적으로 첫 번째 슬라이드가 생성됩니다.
 새 슬라이드를 추가하려면 슬라이드 위로 마우스를 가져가거나 슬라이드를 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
-   * &#x200B;+ 기호를 탭하여 새 슬라이드를 만듭니다.
+   * + 기호를 탭하여 새 슬라이드를 만듭니다.
    * 복제 아이콘을 탭하여 기존 슬라이드를 복제합니다.
 1. 빈 슬라이드를 만드는 경우 왼쪽 레일에서 구성 요소를 끌어다 놓거나 레이아웃을 선택하여 타일의 데이터로 슬라이드를 자동으로 채웁니다.
    ![데이터 스토리 만들기](assets/data-story2.png)
@@ -117,7 +123,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 1. 제목, 차트 유형 및 기타 타일 옵션을 변경합니다.
 1. 구성 요소를 타일로 끌어옵니다.
    ![데이터 스토리 만들기](assets/data-story3.png)
-시각화와 같은 구성 요소를 타일에 끌어다 놓으면 해당 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
+시각화와 같은 구성 요소를 타일에 끌어다 놓으면 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
 1. 제목에만 변경 사항을 적용하려면 Shift 키를 누른 상태에서 변경 사항을 적용하십시오.
    ![데이터 스토리 만들기](assets/data-story4.png)
 

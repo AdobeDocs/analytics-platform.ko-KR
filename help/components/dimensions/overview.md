@@ -3,9 +3,15 @@ title: 차원 개요
 description: 차원이 무엇이고 Customer Journey Analytics에서 차원이 어떻게 사용되는지 알아봅니다.
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+TQID: https://experienceleague.adobe.com/bMM7desF2wr71h-SR1mzD7-oSwm-8cPvmeU7SeM7-fU
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 253
 ht-degree: 100%
 
 ---
@@ -20,7 +26,7 @@ Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫
 
 예를 들어 페이지 차원을 사용자 지표와 결합하면 사용자별 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 만들어집니다.
 
-| 페이지 | 사용자 |
+| 페이지 | 사람 |
 | --- | ---: |
 | 홈 페이지 | 800 |
 | 제품 페이지 | 500 |
@@ -48,6 +54,6 @@ Customer Journey Analytics는 데이터 보기 내에서 또는 Analysis Workspa
 
 >[!MORELIKETHIS]
 >
->[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=ko#M576)
+>[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

@@ -5,22 +5,11 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 TQID: https://experienceleague.adobe.com/4UiJUXEOGW3paTCi293AADuY1VYiu2egk0A4Oyv5uD8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2809
@@ -106,7 +95,7 @@ ht-degree: 41%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**&#x200B;을(를) 식별할 수 있습니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**을(를) 식별할 수 있습니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -157,7 +146,7 @@ ht-degree: 41%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -293,7 +282,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -301,7 +290,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

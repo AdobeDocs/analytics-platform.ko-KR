@@ -4,9 +4,14 @@ description: Analysis Workspace에서 분산형 시각화를 만들고 해석하
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
 role: User
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/qkpKnRbGfAQ2dQSw06QEYlBZ-dycI1NyGtvxC89oidE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 254
 ht-degree: 51%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [산란](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
+_이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [산란](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -35,12 +40,12 @@ _이 문서에서는_&#x200B;에 분산형 시각화를 설명합니다. ![Custo
 
 
 
-![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/use-scatterplot-visualizations){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/use-scatterplot-visualizations){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

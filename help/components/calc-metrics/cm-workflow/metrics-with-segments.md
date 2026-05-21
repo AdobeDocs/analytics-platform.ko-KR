@@ -3,9 +3,15 @@ description: 동일한 시각화 내에서 지표 비교를 수행할 수 있도
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/dOOOOGytHT-5IMC9LNcNlBKLufs9PUkvjBoAgw38bEI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 504
 ht-degree: 1%
 
 ---
@@ -29,8 +35,8 @@ ht-degree: 1%
 
 ## 방문 빈도가 높은 페이지
 
-1. [(이)라는 Workspace 프로젝트에서 &#x200B;](cm-workflow.md)계산된 지표를 만듭니다`German people`.
-1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 &#x200B;](/help/components/segments/seg-builder.md)이라는 이름의 세그먼트를 만듭니다`Germany`합니다.
+1. `German people`(이)라는 Workspace 프로젝트에서 [계산된 지표를 만듭니다](cm-workflow.md).
+1. [계산된 지표 빌더](cm-build-metrics.md)에서 [CRM 데이터의 CRM 국가 필드를 사용하여 `Germany`이라는 이름의 세그먼트를 만듭니다](/help/components/segments/seg-builder.md)합니다.
 
    >[!TIP]
    >
@@ -90,7 +96,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 계산된 지표를 구현 없는 지표로 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 

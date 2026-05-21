@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 9c4ae8174086559ee552c5ffc95a8a7b0009f126
+TQID: https://experienceleague.adobe.com/XK781eI953KTIHbIX8M9l09QnOcILsNas1-DNmi57Gc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 79%
+source-wordcount: 1224
+ht-degree: 77%
 
 ---
 
@@ -20,11 +26,11 @@ ht-degree: 79%
 >
 >문서화된 구현 메서드를 사용하여 한 개 이상의 웹 사이트에 Adobe Analytics 라이선스를 부여하고 배포합니다.
 >
->- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=ko)
+>- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)
+>- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
->- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko)
+>- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
 이를 구현하려면 다음 작업을 수행해야 합니다.
 
@@ -56,7 +62,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
    ![소스가 선택된 Adobe Experience Platform 창과 Adobe 애플리케이션 및 데이터 추가가 강조 표시된 모습.](./assets/sources-overview.png)
 
-4. **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다. 보고서 세트 목록에서 사용할 세트를 선택합니다.<br/> 또는 ![검색](/help/assets/icons/Search.svg) **[!UICONTROL _검색_]**&#x200B;을 사용하여 보고서 세트를 검색할 수 있습니다.
+4. **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다. 보고서 세트 목록에서 사용할 보고서 세트를 선택합니다.<br/> 또는 ![검색](/help/assets/icons/Search.svg) **[!UICONTROL _검색_]**&#x200B;을 사용하여 보고서 세트를 검색할 수 있습니다.
 
    ![보고서 세트 목록을 보여 주는 Adobe Experience Platform 창](./assets/report-suites.png)
 
@@ -83,7 +89,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
-보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.
+보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
 
 
 ## 연결 설정
