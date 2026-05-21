@@ -4,11 +4,20 @@ title: 순차적 세그먼트
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
 TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2491
@@ -97,7 +106,7 @@ ht-degree: 4%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**을(를) 선택하십시오.
+1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -134,14 +143,14 @@ ht-degree: 4%
 
 한 페이지를 방문한 후 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 다음 2주 후 1개월 내에 여성 을 방문한 사람 | 신발 페이지.
 
-![다음 이후지만 ](assets/sequence-afterbutwithin.png) 이내에 시퀀스
+![다음 이후지만 &#x200B;](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
 2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 신발 페이지가 세그먼트에 적합합니다.:01
 
 
 ### [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL Dimension] 제약 조건
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 이벤트, 세션 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 이벤트, 세션 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**&#x200B;을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
 #### 예
 

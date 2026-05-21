@@ -5,10 +5,15 @@ feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
 TQID: https://experienceleague.adobe.com/hXe1cEXGvuuBSd0bpavJGEJpEXng2zctXUxPinGu4es
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 540
@@ -60,7 +65,7 @@ Should we really mention API here. If so, we can do it all over the place in the
 1. 날짜 범위의 **[!UICONTROL 제목]**&#x200B;을 지정합니다. 예: **[!UICONTROL 분기별]**.
 1. 원할 경우, **[!UICONTROL 설명]**&#x200B;을 지정합니다.
 1. 하나 이상의 **[!UICONTROL 태그]**&#x200B;를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
-1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 **[!UICONTROL 날짜 범위]**를 선택합니다.
+1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다.
 또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택할 수 있습니다.
 
 1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행하십시오.

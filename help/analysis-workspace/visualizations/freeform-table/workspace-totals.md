@@ -5,10 +5,17 @@ feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
 TQID: https://experienceleague.adobe.com/BoH9J-fL9UxPG4wId9-GU7muMNR10aeWe0BBd1NQOjo
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 502
@@ -29,7 +36,7 @@ ht-degree: 88%
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
 * **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 세그먼트를 반영합니다.
-* **[!UICONTROL 총계]**(]**개 중**[!UICONTROL &#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(**개 중**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 

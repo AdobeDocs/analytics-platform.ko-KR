@@ -4,11 +4,21 @@ title: 계산된 지표 만들기
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
 TQID: https://experienceleague.adobe.com/8xHrnqI8ZUf3qwy4Im3Qa-ESAokGMs3XPOYmpFF6Dx0
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 384
@@ -48,6 +58,6 @@ ht-degree: 15%
 | [승인](cm-approving.md) 계산된 지표 | 계산된 지표를 승인하여 표준 지표로 만듭니다. |
 | 계산된 지표 사용 | 프로젝트에서 계산된 지표를 사용합니다. |
 | [계산된 지표 공유](cm-sharing.md) | 계산된 지표를 다른 개인, 그룹 또는 조직과 공유합니다. |
-| [계산된 지표 ](cm-filter.md)개 필터링 | 태그, 소유자 및 기타 필터(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)로 계산된 지표를 필터링합니다. |
+| [계산된 지표 &#x200B;](cm-filter.md)개 필터링 | 태그, 소유자 및 기타 필터(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)로 계산된 지표를 필터링합니다. |
 | 계산된 지표를 [즐겨찾기](cm-finding.md)(으)로 표시 | 지표를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다. |
 

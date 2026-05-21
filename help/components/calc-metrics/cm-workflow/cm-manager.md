@@ -4,10 +4,22 @@ title: 계산된 지표 관리
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
 TQID: https://experienceleague.adobe.com/lyXPyn6sObLNBvD8O-bULf1dDoQO80IIOokU8Dy1Vno
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0id: f2ef16dc-055a-4bb7-baa5-7039653f3966id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 903
@@ -45,7 +57,7 @@ ht-degree: 32%
 | **[!UICONTROL 태그]** | 이 계산된 지표에 대한 태그를 나열합니다. |
 | **[!UICONTROL 다음 사용자와 공유]** | 계산된 지표를 공유한 개인 또는 그룹 수를 표시합니다. **[!UICONTROL 계산된 지표 공유]** 대화 상자를 열려면 선택하십시오. 자세한 내용은 [계산된 지표 공유](cm-sharing.md)를 참조하십시오. |
 | **[!UICONTROL 수정한 날짜]** | 계산된 지표를 마지막으로 수정한 날짜 및 시간입니다. |
-| **[!UICONTROL 다음에서 사용]** | 계산된 지표가 현재 사용 중인 위치와 각 영역에서 사용 중인 횟수를 보여줍니다. <p>예를 들어, 계산된 지표가 40개의 프로젝트와 2개의 경고에서 사용 중인 경우 이 열의 값은 [!UICONTROL **42개의 구성 요소**]&#x200B;로 표시됩니다. <p>이 열의 값을 선택하여 계산된 지표가 사용되는 위치 분류를 확인합니다(예: [!UICONTROL **프로젝트(40)**], [!UICONTROL **모바일 스코어카드(2)**]). 또한 계산된 지표가 사용되는 항목 목록을 볼 수 있습니다. 예를 들어 해당 프로젝트가 사용되는 프로젝트 목록을 보려면 [!UICONTROL **프로젝트(40)**] 링크를 선택합니다.</p><p>다음 각 영역은 해당 영역에서 사용 중인 계산된 지표의 인스턴스 수를 보여줍니다.</p> <ul><li>[!UICONTROL **프로젝트**]<p>[계산된 지표 빌더에서 ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)하여 모든 프로젝트에 사용할 수 있는 계산된 지표를 포함합니다.</p></li><li>[!UICONTROL **애드혹 구성 요소**]<p>[빠른 계산된 지표로 만든 ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 계산된 지표를 포함하며 단일 프로젝트 내에서만 사용할 수 있습니다.</p></li><li>[!UICONTROL **예약된 프로젝트**]</li><li>[!UICONTROL **모바일 스코어카드**]</li><li>[!UICONTROL **주석**]</li><li>[!UICONTROL **Report Builder**]<p>이 옵션을 선택하면 다음 데이터 열이 포함된 CSV 파일이 다운로드됩니다.</p><ul><li>Report Builder 이름</li><li>마지막 액세스</li><li>마지막으로 액세스한 IMS 사용자 ID</li><li>마지막으로 액세스한 사용자 이름</li></ul></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보는 시스템 관리자만 사용할 수 있습니다.</li><li>기본적으로 [!UICONTROL **다음에서 사용됨**] 열은 표시되지 않습니다. ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 사용하여 이 열의 표시를 구성합니다.</li><li>이 정보에는 API 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>지정된 구성 요소에 대해 이 열에 데이터가 없지만 [!UICONTROL **마지막으로 사용됨**] 날짜가 있는 경우 구성 요소가 저장되지 않고 분석에 사용되었을 수 있습니다.</li><li>사용량 정보는 2023년 9월부터의 자료만 제공됩니다.</li></ul><p>이 정보와 함께 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다.</p> |
+| **[!UICONTROL 다음에서 사용]** | 계산된 지표가 현재 사용 중인 위치와 각 영역에서 사용 중인 횟수를 보여줍니다. <p>예를 들어, 계산된 지표가 40개의 프로젝트와 2개의 경고에서 사용 중인 경우 이 열의 값은 [!UICONTROL **42개의 구성 요소**]&#x200B;로 표시됩니다. <p>이 열의 값을 선택하여 계산된 지표가 사용되는 위치 분류를 확인합니다(예: [!UICONTROL **프로젝트(40)**], [!UICONTROL **모바일 스코어카드(2)**]). 또한 계산된 지표가 사용되는 항목 목록을 볼 수 있습니다. 예를 들어 해당 프로젝트가 사용되는 프로젝트 목록을 보려면 [!UICONTROL **프로젝트(40)**] 링크를 선택합니다.</p><p>다음 각 영역은 해당 영역에서 사용 중인 계산된 지표의 인스턴스 수를 보여줍니다.</p> <ul><li>[!UICONTROL **프로젝트**]<p>[계산된 지표 빌더에서 &#x200B;](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)하여 모든 프로젝트에 사용할 수 있는 계산된 지표를 포함합니다.</p></li><li>[!UICONTROL **애드혹 구성 요소**]<p>[빠른 계산된 지표로 만든 &#x200B;](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 계산된 지표를 포함하며 단일 프로젝트 내에서만 사용할 수 있습니다.</p></li><li>[!UICONTROL **예약된 프로젝트**]</li><li>[!UICONTROL **모바일 스코어카드**]</li><li>[!UICONTROL **주석**]</li><li>[!UICONTROL **Report Builder**]<p>이 옵션을 선택하면 다음 데이터 열이 포함된 CSV 파일이 다운로드됩니다.</p><ul><li>Report Builder 이름</li><li>마지막 액세스</li><li>마지막으로 액세스한 IMS 사용자 ID</li><li>마지막으로 액세스한 사용자 이름</li></ul></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보는 시스템 관리자만 사용할 수 있습니다.</li><li>기본적으로 [!UICONTROL **다음에서 사용됨**] 열은 표시되지 않습니다. ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 사용하여 이 열의 표시를 구성합니다.</li><li>이 정보에는 API 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>지정된 구성 요소에 대해 이 열에 데이터가 없지만 [!UICONTROL **마지막으로 사용됨**] 날짜가 있는 경우 구성 요소가 저장되지 않고 분석에 사용되었을 수 있습니다.</li><li>사용량 정보는 2023년 9월부터의 자료만 제공됩니다.</li></ul><p>이 정보와 함께 [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다.</p> |
 | **[!UICONTROL 마지막 사용]** | 계산된 지표가 마지막으로 사용된 시기 |
 
 {style="table-layout:auto"}

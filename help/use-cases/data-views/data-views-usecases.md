@@ -6,11 +6,18 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1443
@@ -60,13 +67,13 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 
 1. **[!UICONTROL Duration]** 정수를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
-1. 이제 **[!UICONTROL 값 버킷팅]**을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. 버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.
+1. 이제 **[!UICONTROL 값 버킷팅]**&#x200B;을 추가하여 이 차원을 버킷 방식으로 보고에 표시할 수 있습니다. 버킷이 없으면 이 차원의 각 인스턴스가 Workspace 보고에 라인 항목으로 나타납니다.
    ![정수 대 차원](../assets/integer-to-dimension.gif){width=100%}
 
 
 ## 플로우 다이어그램에서 숫자 차원을 지표로 사용 {#numeric}
 
-수치 차원을 사용하여 지표를 [!UICONTROL  흐름] 시각화로 가져올 수 있습니다.
+수치 차원을 사용하여 지표를 [!UICONTROL &#x200B; 흐름] 시각화로 가져올 수 있습니다.
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 [!UICONTROL 마케팅 채널] 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 [!UICONTROL 지표] 영역으로 드래그합니다.
 2. 작업 영역 보고에서 이 플로우는 [!UICONTROL 마케팅 채널]이 [!UICONTROL 주문]으로 흘러가는 모습을 보여 줍니다.
@@ -81,11 +88,11 @@ Customer Journey Analytics BI 확장을 사용하여 다양한 사용 사례를 
 
 1. 데이터 보기 [구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) 탭에서 **[!UICONTROL 수입]** 스키마 필드를 [!UICONTROL 포함된 구성 요소] 아래의 **[!UICONTROL 지표]** 영역으로 드래그합니다.
 1. 지표를 선택하고 오른쪽에서 다음을 구성합니다.
-a. **[!UICONTROL 형식]**&#x200B;에서 **[!UICONTROL 통화]**를 선택합니다.
-b. **[!UICONTROL 통화]**&#x200B;에서 **[!UICONTROL USD]**을(를) 선택하세요.
+a. **[!UICONTROL 형식]**&#x200B;에서 **[!UICONTROL 통화]**&#x200B;를 선택합니다.
+b. **[!UICONTROL 통화]**&#x200B;에서 **[!UICONTROL USD]**&#x200B;을(를) 선택하세요.
 c. **[!UICONTROL 값 포함/제외]**&#x200B;에서 **[!UICONTROL 포함/제외 값 설정]** 옆에 있는 확인란을 선택하십시오.
-d. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**을 선택합니다.
-e. **[!UICONTROL 기준]**&#x200B;에서 **[!UICONTROL 이(가)]**보다 크거나 같음을 선택합니다.
+d. **[!UICONTROL 일치]**&#x200B;에서 **[!UICONTROL 모든 기준이 충족되는 경우]**&#x200B;을 선택합니다.
+e. **[!UICONTROL 기준]**&#x200B;에서 **[!UICONTROL 이(가)]**&#x200B;보다 크거나 같음을 선택합니다.
 f. `50`을(를) 값으로 지정합니다.
 
 이러한 새 설정을 사용해, 고가치 매출만 볼 수 있으며 50달러 미만인 모든 항목을 배제할 수 있습니다.

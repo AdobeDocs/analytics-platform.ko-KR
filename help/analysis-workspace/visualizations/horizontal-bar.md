@@ -5,10 +5,14 @@ feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
 TQID: https://experienceleague.adobe.com/-A-UUiraQfKIjVHrAR5c-lYBBt6-1kPWzHuvtDa6DK0
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 227
@@ -20,7 +24,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대해 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)을 참조하십시오._
+_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대해 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 

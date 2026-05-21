@@ -7,11 +7,22 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
 TQID: https://experienceleague.adobe.com/9oEoM8cI6Bxl-PXmiT-OhskFK3XlaPVkQSFOi4Dyajg
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1309
@@ -79,7 +90,7 @@ Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
    | **[!UICONTROL 위치]** | 내보내기 데이터를 보낼 계정의 위치를 선택합니다.<p>또는 선택한 계정에서 사용하려는 위치를 아직 구성하지 않은 경우 새 위치를 구성할 수 있습니다.<ol><li>[!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다. <ul><li>[!UICONTROL **이름**]: 위치 이름.</li><li>[!UICONTROL **설명**]: 계정의 다른 위치와 구분할 수 있도록 위치에 대한 간단한 설명을 제공합니다.</li><li>**[!UICONTROL 조직의 모든 사용자가 위치를 사용할 수 있도록 설정]**: 조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 선택하십시오. 계정을 공유할 때는 다음 사항을 고려하십시오.<ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 계정 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul></li><li>[!UICONTROL **위치 계정**]: 위치를 만들려는 계정을 선택합니다.</li></ul><li>위치 구성을 완료하려면 [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 아래 링크를 계속 진행합니다.<ul><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL 예약 옵션 표시]** | 내보내기 예약에 대한 추가 옵션을 보려면 이 옵션을 선택합니다. 내보내기를 한 번만 전송하려면 이 옵션을 선택하지 않은 상태로 둡니다. 이 옵션을 선택하지 않으면 내보내기가 즉시 시작됩니다. |
    | **[!UICONTROL 시작 날짜]** | 예약된 내보내기가 시작되어야 하는 날짜 및 시간. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
-   | ]**에**[!UICONTROL &#x200B;종료 | 예약된 내보내기가 만료되는 날짜 및 시간. 예약된 내보내기 작업은 설정한 날짜 및 시간 이후에는 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
+   | **에**&#x200B;종료 | 예약된 내보내기가 만료되는 날짜 및 시간. 예약된 내보내기 작업은 설정한 날짜 및 시간 이후에는 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
    | **[!UICONTROL 빈도]** | 특정 날짜의 빈도를 시간대별, 일일, 주간, 월간 또는 연간으로 설정할 수 있습니다. 예를 들어, 수신자가 월요일 아침에 받은 편지함에 이메일을 먼저 보낼 수 있도록 통합 문서를 그 달의 첫 번째 일요일 밤에 보내도록 일정을 설정할 수 있습니다. |
 
    {style="table-layout:auto"}
