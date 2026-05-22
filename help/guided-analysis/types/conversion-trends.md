@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 550
-ht-degree: 97%
+source-wordcount: 537
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 97%
 
 ![전환 트렌드](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 전환 트렌드]** 분석은 시간 경과에 따른 전환율의 추세를 시각화하여 보여 줍니다. 가로축은 시간 간격을 나타내고, 세로축은 전환율을 나타냅니다.
 
-
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/conversion-trends)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3423490/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 

@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 98%
+source-wordcount: 659
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도에 따라 이벤트 데이터를 그룹화합니다. 이 분석의 세로축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷의 사용자 또는 세션 수를 측정합니다.
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
+>[!VIDEO](https://video.tv.adobe.com/v/3435809/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 

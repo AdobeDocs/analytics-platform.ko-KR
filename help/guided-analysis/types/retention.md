@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 1278
-ht-degree: 96%
+source-wordcount: 1266
+ht-degree: 97%
 
 ---
 
@@ -44,8 +44,7 @@ ht-degree: 96%
 
 이 분석에서 차트의 x축은 사용자의 초기 시작 이벤트 이후의 시간을 나타내며, y축은 하나 이상의 재방문 이벤트에 참여한 사용자의 비율을 나타냅니다. 유지율과 이탈율을 기간별로 볼 수 있으며, 표시되는 기간은 쿼리 설정을 통해 사용자 정의할 수 있습니다. 차트 아래에 있는 테이블은 집계 데이터를 제공하며, 같은 날짜에 시작 이벤트를 수행한 사람들의 그룹인 개별 코호트를 표시하는 옵션이 있습니다.
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3435785/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 

@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 861
-ht-degree: 91%
+source-wordcount: 849
+ht-degree: 92%
 
 ---
 
@@ -39,8 +39,7 @@ ht-degree: 91%
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 트렌드]** 분석은 시간 경과에 따른 제품 성과나 사용자 행동에 대한 귀중한 인사이트를 제공합니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 이벤트를 측정합니다.
 
-
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
+>[!VIDEO](https://video.tv.adobe.com/v/3423443/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 

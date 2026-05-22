@@ -21,10 +21,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 594
-ht-degree: 97%
+source-wordcount: 582
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,7 @@ ht-degree: 97%
 >* **관리자**: *이 분석에는 PersonID 속성이 필요합니다. 데이터 보기에 개인 ID를 추가하십시오.*
 >* **관리자가 아닌 사용자**: *이 분석에는 PersonID 속성이 필요합니다. Customer Journey Analytics 관리자에게 문의하여 데이터 보기에 개인 ID를 추가하십시오.*
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3435774/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 

@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 705
-ht-degree: 90%
+source-wordcount: 692
+ht-degree: 92%
 
 ---
 
@@ -44,8 +44,7 @@ ht-degree: 90%
 
 모든 활성 사용자(신규 사용자 + 재방문 사용자 + 복귀 사용자)는 가로축 위에 청록색 음영으로 표시되는 반면, 모든 휴면 사용자는 가로축 아래에 주황색으로 표시됩니다.
 
-
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
+>[!VIDEO](https://video.tv.adobe.com/v/3423397/?captions=kor&quality=12&learn=on)
 
 ## 사용 사례
 
