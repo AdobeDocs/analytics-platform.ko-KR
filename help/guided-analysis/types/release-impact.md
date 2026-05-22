@@ -6,20 +6,14 @@ keywords: 제품 분석
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
 TQID: https://experienceleague.adobe.com/2PKIwvFwCv5FiL7WgeJPksm74c8m5B4L33RZouD-t1o
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 97%
+source-wordcount: 532
+ht-degree: 100%
 
 ---
 
@@ -36,7 +30,7 @@ ht-degree: 97%
 
 ![릴리스](/help/assets/icons/Release.svg) **[!UICONTROL 릴리스 영향]** 분석은 특정 날짜 전후의 주요 지표를 비교한 것입니다. 본 보고서의 가로축은 시간 간격이고, 세로축은 원하는 주요 지표를 측정합니다. 차트 중앙의 세로 막대는 비교하려는 전후 날짜를 나타냅니다. 이 날짜는 일반적으로 제품 업데이트나 캠페인 출시 등 측정하려는 제품에 대한 주요 변경 사항을 나타냅니다.
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## 사용 사례
 
