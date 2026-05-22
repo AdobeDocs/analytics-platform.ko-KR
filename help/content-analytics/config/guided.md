@@ -377,7 +377,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >id="aca_onboarding_datacollection_button"
 >title="데이터 수집"
 >abstract="사용할 태그 속성을 정의하거나 태그 속성을 새로 만듭니다. 정규 표현식을 사용하여 포함하거나 제외할 페이지 및 자산을 정의합니다.<br/>태그를 구분하지 않는 구현의 경우 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하십시오.  태그 속성이 만들어지지만 사용할 필요는 없습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript 라이브러리"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript 라이브러리"
 
 
 >[!CONTEXTUALHELP]
