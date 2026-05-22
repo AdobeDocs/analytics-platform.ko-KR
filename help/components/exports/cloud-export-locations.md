@@ -6,10 +6,16 @@ feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
 TQID: https://experienceleague.adobe.com/7Ajjn92O63TWPEgA5ddJZ7aOgm22T8C00lLZ-UcRFt4
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3307
@@ -112,11 +118,11 @@ Customer Journey Analytics 보고서를 클라우드 대상([Analysis Workspace]
 
    1. [Microsoft Azure 저장소 탐색기](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)를 엽니다.
 
-   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***(으)로 이동합니다.
+   1. [!UICONTROL **저장소 계정**] > [!UICONTROL **(첨부된 컨테이너)**] > [!UICONTROL **Blob 컨테이너**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***(으)로 이동합니다.
 
       >[!NOTE]
       >
-      >폴더 이름 **[!UICONTROL cjaexport-_number_]**은(는) Azure 저장소 탐색기에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**이 됩니다.
+      >폴더 이름 **[!UICONTROL cjaexport-_number_]**&#x200B;은(는) Azure 저장소 탐색기에서 제공하는 기본 이름입니다. SAS URI(일반)와 연결된 연결이 하나만 있는 경우 이 폴더의 이름은&#x200B;**[!UICONTROL cjaexport-1]**&#x200B;이 됩니다.
 
 
       ![Azure 저장소 탐색기에서 파일 액세스](assets/azure-storage-explorer-access.png)
