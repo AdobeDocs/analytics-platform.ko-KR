@@ -5,9 +5,29 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+TQID: https://experienceleague.adobe.com/EQ6tDK5VUq5-OQOZtLCoaqh-HBHMsU9c8Bfizy9BcPs
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: aff2ef09-fc60-4018-9197-e2befd623064
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: 1680
 ht-degree: 100%
 
 ---
@@ -32,11 +52,11 @@ ht-degree: 100%
 
 ## Customer Journey Analytics: 온라인 및 오프라인 데이터에 대한 대중화된 워크플로
 
-Customer Journey Analytics는 고객 여정 이해만을 목적으로 주요 고객 수준에서 온라인 및 오프라인 크로스 채널 데이터를 연결하는 환경을 제공합니다. 관련성이 있는 데이터에 대한 보기를 [연결](/help/connections/overview.md)하고 [정의](/help/data-views/data-views.md)하려면 초기 설정이 필요합니다. 그러나 완료되면 해당 데이터는 지속적인 분석 및 탐색에 쉽게 사용할 수 있습니다. 고객 여정에 대한 통찰력을 점진적으로 확보하고 이해할 수 있습니다. 결합된 온라인 및 오프라인 데이터를 공개하여 고객 여정 관련 질문에 즉시 답변할 수 있습니다.
+Customer Journey Analytics는 고객 여정 이해만을 목적으로 주요 고객 수준에서 온라인 및 오프라인 크로스 채널 데이터를 연결하는 환경을 제공합니다. 관련성이 있는 데이터에 대한 보기를 [연결](/help/connections/overview.md)하고 [정의](/help/data-views/data-views.md)하려면 초기 설정이 필요합니다. 그러나 완료되면 해당 데이터는 지속적인 분석 및 탐색에 쉽게 사용할 수 있습니다. 고객 여정에 대한 인사이트를 점진적으로 확보하고 이해할 수 있습니다. 결합된 온라인 및 오프라인 데이터를 민주화하여 고객 여정 관련 질문에 즉시 답변할 수 있습니다.
 
 ![이 섹션에 설명된 Customer Journey Analytics 워크플로](./assets/cjaworkflow.png)
 
-Customer Journey Analytics를 통한 시각적 Analysis Workspace 환경을 사용하여 질문하고 거의 즉각적으로 통찰력을 확보할 수 있습니다. 크로스 채널 데이터와 보고서는 SQL 코드 없이도 즉시 사용할 수 있습니다. 데이터를 완전히 상호 관련시키면 UI에서 간단한 드래그 앤 드롭 기능으로 추가 쿼리와 분석을 수행할 수 있습니다. 계속 질문하면서 필요에 따라 추가 내용을 점진적으로 탐색할 수 있습니다. 그런 다음 발견된 인사이트에 대해 활성화하고 조율할 대상자 공유와 같은 즉각적인 조치를 취할 수 있습니다.
+Customer Journey Analytics를 통한 시각적 Analysis Workspace 환경을 사용하여 질문하고 거의 즉각적으로 인사이트를 확보할 수 있습니다. 크로스 채널 데이터와 보고서는 SQL 코드 없이도 즉시 사용할 수 있습니다. 데이터를 완전히 상호 관련시키면 UI에서 간단한 드래그 앤 드롭 기능으로 추가 쿼리와 분석을 수행할 수 있습니다. 계속 질문하면서 필요에 따라 추가 내용을 점진적으로 탐색할 수 있습니다. 그런 다음 발견된 인사이트에 대해 활성화하고 조율할 대상자 공유와 같은 즉각적인 조치를 취할 수 있습니다.
 
 ## Customer Journey Analytics의 강력한 보고 엔진
 

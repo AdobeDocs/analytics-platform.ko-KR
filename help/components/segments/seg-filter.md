@@ -4,9 +4,20 @@ title: 세그먼트 필터링
 feature: Filters, Segments
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/Xyft76mCwW-VD9zI6rUDbbGDTnbAsd55hjLQjdhyje0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 168
 ht-degree: 29%
 
 ---
@@ -17,7 +28,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->세그먼트 목록은 [세그먼트 관리자](seg-manage.md#filters-list)의 일부로 [세그먼트 목록](seg-manage.md)을 참조합니다. 동일한 ![세그먼트 관리자](/help/assets/icons/Filter.svg)의 일부인 [필터](seg-manage.md#filter-panel) [필터 패널](seg-manage.md)을 사용하여 해당 목록을 필터링할 수 있습니다.
+>세그먼트 목록은 [세그먼트 관리자](seg-manage.md)의 일부로 [세그먼트 목록](seg-manage.md#filters-list)을 참조합니다. 동일한 [세그먼트 관리자](seg-manage.md)의 일부인 ![필터](/help/assets/icons/Filter.svg) [필터 패널](seg-manage.md#filter-panel)을 사용하여 해당 목록을 필터링할 수 있습니다.
 >
 
 

@@ -2,16 +2,31 @@
 title: 공유 지표 및 차원 개요
 description: 여러 데이터 보기에서 동일한 차원 또는 지표 참조를 사용합니다.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
+TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 0%
+source-wordcount: 1292
+ht-degree: 3%
 
 ---
 
 # 공유 지표 및 차원 개요
 
-공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 특히 여러 데이터 보기를 사용하는 조직에서 공통 구성 요소 설정을 공유하는 경우 유용합니다. 공유 지표 및 차원에 대한 변경 사항은 공유되는 모든 데이터 보기에 즉시 적용됩니다. 개별 데이터 보기를 편집할 때 구성 요소 이름 옆에 있는 ![공유 구성 요소 아이콘](/help/assets/icons/CCLibrary.svg) 아이콘을 통해 공유 차원 및 지표를 식별할 수 있습니다.
+공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 여러 데이터 보기를 사용하는 조직에게 특히 유용하며, 이러한 데이터 보기가 공통 구성 요소 설정을 공유하는 경우 더욱 유용합니다. 공유 지표 및 차원에 대한 변경 사항은 공유되는 모든 데이터 보기에 즉시 적용됩니다. 개별 데이터 보기를 편집할 때 구성 요소 이름 옆에 있는 ![공유 구성 요소 아이콘](/help/assets/icons/CCLibrary.svg) 아이콘을 통해 공유 차원 및 지표를 식별할 수 있습니다.
 
 공유 차원 및 지표를 통해 여러 데이터 보기에서 공통 구성 요소를 사용할 수 있지만 연결 간에 공유할 수는 없습니다.
 

@@ -6,10 +6,21 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/g7-pu7H2LQVNRShRj5Jr6gGWYfB-eMxoLRexdfBUGiE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 50%
+source-wordcount: 859
+ht-degree: 52%
 
 ---
 
@@ -128,7 +139,7 @@ ht-degree: 50%
 
 ## 셀의 날짜 범위
 
-날짜 범위는 워크시트 셀에 지정할 수 있습니다. **[!UICONTROL 셀의 날짜 범위]** 옵션을 사용하여 선택한 셀에서 데이터 블록 시작 및 종료 날짜를 선택합니다. **[!UICONTROL 셀에서]** 옵션을 선택하면 패널에 셀 위치를 입력하거나 **[!UICONTROL DataBlockSelector]**&#x200B;를 사용하여 현재 선택한 셀을 선택할 수 있는 **[!UICONTROL From]** 및 ![To](/help/assets/icons/DataBlockSelector.svg) 필드가 표시됩니다.
+날짜 범위는 워크시트 셀에 지정할 수 있습니다. **[!UICONTROL 셀의 날짜 범위]** 옵션을 사용하여 선택한 셀에서 데이터 블록 시작 및 종료 날짜를 선택합니다. **[!UICONTROL 셀에서]** 옵션을 선택하면 패널에 셀 위치를 입력하거나 ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)를 사용하여 현재 선택한 셀을 선택할 수 있는 **[!UICONTROL From]** 및 **[!UICONTROL To]** 필드가 표시됩니다.
 
 ![Sheet1!H4에서 Sheet1!I4로 선택](./assets/date-range-from-cell.png){zoomable="yes"}
 

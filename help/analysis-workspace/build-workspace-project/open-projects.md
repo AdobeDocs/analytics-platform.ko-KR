@@ -4,9 +4,19 @@ title: 프로젝트 열기
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/iqhe-qsJLj6il8IDhb8ZAkINpww7oKZYj-r2oyjTxGY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: 375
 ht-degree: 97%
 
 ---
@@ -19,7 +29,7 @@ ht-degree: 97%
 
 다른 프로젝트에서 작업하는 동안에도 다른 프로젝트를 열 수 있습니다.
 
-* **[!UICONTROL 프로젝트]** 메뉴에서 **[!UICONTROL 열기]**&#x200B;를 선택합니다. [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md) 페이지와 비슷한 대화 상자가 표시됩니다. [검색](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) 또는 [세그먼트 패널](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)을 사용하여 목록의 범위를 좁힙니다.
+* **[!UICONTROL 프로젝트]** 메뉴에서 **[!UICONTROL 열기]**&#x200B;를 선택합니다. [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md) 페이지와 비슷한 대화 상자가 표시됩니다.  [검색](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) 또는 [세그먼트 패널](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)을 사용하여 목록의 범위를 좁힙니다.
 * 프로젝트 제목을 선택하여 Analysis Workspace에서 프로젝트를 엽니다.
 
 프로젝트를 찾을 수 없고 새 프로젝트를 시작하려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.

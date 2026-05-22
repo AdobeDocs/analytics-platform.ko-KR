@@ -6,9 +6,21 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/BOvbE0QbzDPntg55mRGkS-HIh7dUh1inIFgAhAlfLGw
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: 641
 ht-degree: 6%
 
 ---
@@ -29,14 +41,14 @@ ht-degree: 6%
 
 * 또는
 
-   1. ![테이블](/help/assets/icons/MoreSmall.svg) 창에서 특정 지표에 대해 **[!UICONTROL MoreSmall]**&#x200B;을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 테이블]** 창에서 특정 지표에 대해 ![MoreSmall](/help/assets/icons/MoreSmall.svg)을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
 
       지표를 표시하는 ![세그먼트 탭](./assets/filter-metric.png){zoomable="yes"}
 
    1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
 
       ![적용된 세그먼트](assets/segments-applied.png)
-   1. ![적용된 세그먼트](/help/assets/icons/CrossSize75.svg) 목록에서 세그먼트를 제거하려면 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
+   1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 적용된 필터를 보려면 테이블 창에서 지표 위로 마우스를 이동하거나 선택합니다. 세그먼트가 적용된 지표에는 세그먼트 아이콘이 표시됩니다.
@@ -63,7 +75,7 @@ ht-degree: 6%
 
 
    1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
-   1. ![적용된 세그먼트](/help/assets/icons/CrossSize75.svg) 목록에서 세그먼트를 제거하려면 **[!UICONTROL CrossSize75]**&#x200B;을(를) 선택하십시오.
+   1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
    1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 Report Builder에 적용된 세그먼트 변경 사항을 확인하는 메시지가 표시됩니다.

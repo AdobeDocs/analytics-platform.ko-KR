@@ -5,9 +5,21 @@ title: 내보내기 관리
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: d0fa233aa5359064e9e0afea1a5384f5e38d017e
+TQID: https://experienceleague.adobe.com/a63XlsGElfxDW1-EqB2l1iMdTtMlk7OaVBuLvS8QH7E
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1281
 ht-degree: 5%
 
 ---
@@ -67,7 +79,7 @@ ht-degree: 5%
 
    [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다.
 
-1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)를 참조하십시오.
 
 ## 내보내기 갱신
 
@@ -81,7 +93,7 @@ ht-degree: 5%
 
    [!UICONTROL **전체 테이블 내보내기**] 대화 상자가 표시됩니다. <!--check process from here. -->
 
-1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)를 참조하십시오.
+1. 사용 가능한 옵션을 업데이트합니다. 각 옵션에 대한 자세한 내용은 [Analysis Workspace 보고서를 클라우드로 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 [Customer Journey Analytics에서 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md#export-full-tables)를 참조하십시오.
 
 ## 내보내기 복제
 
@@ -146,7 +158,7 @@ ht-degree: 5%
 
 1. Customer Journey Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**]&#x200B;를 선택합니다.
 
-1. [!UICONTROL **내보내기**] 탭에서 **내보내기** 페이지의 오른쪽 상단에 있는 ![테이블 사용자 지정](assets/customize-table-icon.png) 아이콘 [!UICONTROL 테이블 사용자 지정]을 선택합니다.
+1. [!UICONTROL **내보내기**] 탭에서 [!UICONTROL 내보내기] 페이지의 오른쪽 상단에 있는 **테이블 사용자 지정** 아이콘 ![테이블 사용자 지정](assets/customize-table-icon.png)을 선택합니다.
 
    다음 열을 사용할 수 있습니다.
 
@@ -159,7 +171,7 @@ ht-degree: 5%
    | 태그 | 내보내기에 적용되는 모든 태그를 표시합니다. 내보내기에 태그를 적용하는 방법에 대한 자세한 내용은 [내보내기에 태그 지정](#tag-an-export)을 참조하십시오. |
    | 테이블 크기(마지막 전송) | 마지막으로 전송된 내보내기 크기입니다. |
    | 작성자 | 내보내기를 만든 사용자입니다. |
-   | 생성됨 | 내보내기가 생성된 날짜와 시간입니다. <!-- true? --> |
+   | 생성일 | 내보내기가 생성된 날짜와 시간입니다. <!-- true? --> |
    | 위치 | 데이터를 내보낸 계정의 위치입니다. |
    | 계정 | 데이터를 내보낸 계정입니다. |
    | 빈도 | 내보내기가 전송되는 빈도입니다. 사용 가능한 옵션은 [!UICONTROL 1회], [!UICONTROL 일별], [!UICONTROL 주별], [!UICONTROL 주별], [!UICONTROL 일별], [!UICONTROL 일별] 및 [!UICONTROL 특정 날짜별]입니다. |

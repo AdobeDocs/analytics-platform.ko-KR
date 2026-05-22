@@ -5,10 +5,31 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+TQID: https://experienceleague.adobe.com/rbgqDkQLPbw-EfhMyUL-eVXZZ1cxMXiQmvU7Si2WCZ8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+  - id: df28738e-9c71-4aa8-929e-edde22340cc6
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3390'
-ht-degree: 62%
+source-wordcount: 3536
+ht-degree: 63%
 
 ---
 
@@ -274,7 +295,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
    ![AEP Mobile SDK 확장 구성](./assets/aepmobilesdk-extension-datastream.png)
 
-1. **[!UICONTROL 도메인 구성]** 아래에 [!UICONTROL Edge Network 도메인]을(를) 입력하십시오. 일반적으로 `<organizationName>.data.adobedc.net`을(를) 사용합니다.
+1. [!UICONTROL 도메인 구성] 아래에 **[!UICONTROL Edge Network 도메인]**&#x200B;을(를) 입력하십시오. 일반적으로 `<organizationName>.data.adobedc.net`을(를) 사용합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -304,9 +325,9 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
    - 데이터 요소의 이름을 지정합니다(예: `Carrier Name`).
 
-   - **[!UICONTROL 확장]** 목록에서 [!UICONTROL Mobile Core]을(를) 선택합니다.
+   - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-   - **[!UICONTROL 데이터 요소 형식]** 목록에서 [!UICONTROL 통신사 이름]을(를) 선택하십시오.
+   - [!UICONTROL 데이터 요소 형식] 목록에서 **[!UICONTROL 통신사 이름]**&#x200B;을(를) 선택하십시오.
 
 
      ![페이지 정보를 사용하여 날짜 요소 만들기](./assets/create-dataelement-mobile.png)
@@ -336,25 +357,25 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 이벤트 구성] 대화 상자에서:
 
-      - **[!UICONTROL 확장]** 목록에서 [!UICONTROL Mobile Core]을(를) 선택합니다.
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - **[!UICONTROL 이벤트 유형]** 목록에서 [!UICONTROL 전경]을 선택합니다.
-
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
-
-   - ![모바일 코어 - 전경](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 옆에 있는 [!UICONTROL 플러스]를 클릭합니다.
-
-      - **[!UICONTROL 확장]** 목록에서 [!UICONTROL Mobile Core]을(를) 선택합니다.
-
-      - **[!UICONTROL 이벤트 유형]** 목록에서 [!UICONTROL 배경]을(를) 선택하십시오.
+      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 전경]**&#x200B;을 선택합니다.
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
-   - ![작업](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 아래에 [!UICONTROL 더하기] 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
+   - [!UICONTROL 모바일 코어 - 전경] 옆에 있는 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)를 클릭합니다.
 
-      - **[!UICONTROL 확장]** 목록에서 [!UICONTROL Adobe Experience Platform Edge Network]을(를) 선택합니다.
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - **[!UICONTROL 작업 유형]** 목록에서 [!UICONTROL Edge Network에 이벤트 전달]을 선택합니다.
+      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 배경]**&#x200B;을(를) 선택하십시오.
+
+      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+
+   - [!UICONTROL 작업] 아래에 ![더하기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
+
+      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택합니다.
+
+      - [!UICONTROL 작업 유형] 목록에서 **[!UICONTROL Edge Network에 이벤트 전달]**&#x200B;을 선택합니다.
 
       - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 

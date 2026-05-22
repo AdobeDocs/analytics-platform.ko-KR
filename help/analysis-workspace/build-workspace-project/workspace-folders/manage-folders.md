@@ -5,13 +5,21 @@ title: 폴더 관리
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/YNvjUk6kW4s7DwgpQSnU5R5ifPnpsavl0EJ84qqvAXI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 86%
+source-wordcount: 431
+ht-degree: 81%
 
 ---
-
 
 # 폴더 관리
 
@@ -72,11 +80,11 @@ Workspace에서 폴더를 삭제하려면
 
    1. 선택한 폴더의 ![More](/help/assets/icons/More.svg) 컨텍스트 메뉴 또는 파란색 작업 표시줄에 제공되는 [액션](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL 계속 진행하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택하여 폴더를 삭제합니다.
+   1. **[!UICONTROL 계속하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택하여 폴더를 삭제합니다.
 
 * 삭제하려는 폴더 내부.
 
    1. [제목 영역](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)의 ![More](/help/assets/icons/More.svg)에서 **[!UICONTROL 폴더 삭제]**&#x200B;를 선택합니다.
 
-   1. 폴더를 **[!UICONTROL 삭제하고 폴더&#x200B;*이름을 변경*하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL *이름* 폴더를 삭제하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 

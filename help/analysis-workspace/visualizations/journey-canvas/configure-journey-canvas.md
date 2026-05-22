@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
+source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
 workflow-type: tm+mt
-source-wordcount: 6457
+source-wordcount: 6499
 ht-degree: 91%
 
 ---
@@ -87,6 +87,15 @@ ht-degree: 91%
 
 
 ## 시각화 설정 구성
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_percentage_value"
+>title="백분율 계산 방법 선택"
+>abstract="각 노드에 표시되는 백분율은 사용자가 구성하는 기본 및 보조 지표를 기반으로 합니다. 백분율이 시작 노드, 이전 노드 또는 보고서 세트의 모든 데이터와 관련되는지 여부를 선택할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 여정 캔버스 헤더에서 다양한 구성 옵션을 사용할 수 있습니다.
 

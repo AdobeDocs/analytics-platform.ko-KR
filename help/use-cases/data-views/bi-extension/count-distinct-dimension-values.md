@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 6a05bce1-542c-40d3-bbb0-4a8e561438c9
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+TQID: https://experienceleague.adobe.com/vExsuq2Xwl-heKZr5aPc-4p97LrgnIDCU0GQ3ps3PII
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 953
 ht-degree: 0%
 
 ---
@@ -105,7 +112,7 @@ ht-degree: 0%
    ![Tableau Desktop Multiple Dimension 등급 필터](../assets/uc7-tableau-card.png)
 
 1. **[!UICONTROL 새 대시보드]** 탭 단추(맨 아래)를 선택하여 새 **[!UICONTROL 대시보드 1]** 보기를 만듭니다. **[!UICONTROL 대시보드 1]** 보기에서:
-   1. **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 카드]** 시트를 **[!UICONTROL 여기에 시트 놓기]**&#x200B;를 읽는 *대시보드 1* 보기로 끌어다 놓습니다.
+   1. **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 카드]** 시트를 *여기에 시트 놓기*&#x200B;를 읽는 **[!UICONTROL 대시보드 1]** 보기로 끌어다 놓습니다.
    1. **[!UICONTROL 대시보드 1]** 보기에서 **[!UICONTROL 카드]** 시트 아래의 **[!UICONTROL 시트]** 셸프에서 **[!UICONTROL 데이터]** 시트를 끌어서 놓습니다.
 
    **[!UICONTROL 대시보드 1]** 보기는 다음과 같습니다.
@@ -129,7 +136,7 @@ ht-degree: 0%
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
    1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
       ![조회 필터](../assets/uc2-looker-filter.png)
-1. **[!UICONTROL 이(가) 범위에 있으므로]** Cc 데이터 보기 날짜&#x200B;**[!UICONTROL 필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
+1. **[!UICONTROL 이(가) 범위에 있으므로**&#x200B;[!UICONTROL &#x200B; Cc 데이터 보기 날짜&#x200B;]&#x200B;**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/02/01]**.
 1. 왼쪽 레일의 **[!UICONTROL ‣Cc 데이터 보기]** 섹션에서 다음을 수행합니다.
    1. **[!UICONTROL 날짜 범위 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 날짜]**&#x200B;를 선택합니다.
    1. **[!UICONTROL ‣제품 이름]**&#x200B;의 **자세히**⋮ 컨텍스트 메뉴에서 **[!UICONTROL 고유 개수 집계]**&#x200B;을(를) 선택합니다.

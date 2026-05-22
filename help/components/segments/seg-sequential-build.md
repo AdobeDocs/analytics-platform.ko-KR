@@ -3,9 +3,24 @@ description: THEN 연산자를 사용하여 일련의 세그먼트 조건을 정
 title: 순차적 세그먼트
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: 2491
 ht-degree: 4%
 
 ---
@@ -43,7 +58,7 @@ ht-degree: 4%
 
 
 
-순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](seg-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자 및 논리를 사용합니다. 기본 정의나 **[!UICONTROL 정의 빌더]**&#x200B;에서 사용하는 컨테이너에서 [Then](seg-builder.md#definition-builder) 연산자를 선택하는 즉시 일반 세그먼트가 순차적 세그먼트가 됩니다.
+순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-builder.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. [정의 빌더](seg-builder.md#definition-builder)를 사용하여 세그먼트 정의를 구성할 수 있습니다. 해당 구성에서는 구성 요소, 컨테이너, 연산자, 논리를 사용합니다. 기본 정의나 [정의 빌더](seg-builder.md#definition-builder)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하는 즉시 일반 세그먼트가 순차적 세그먼트가 됩니다.
 
 ### 예
 
@@ -82,7 +97,7 @@ ht-degree: 4%
 
 ## [!UICONTROL 이후] 및 [!UICONTROL 내부]
 
-![Then](/help/assets/icons/Clock.svg) 연산자에서 **[!UICONTROL Clock]** ![After](/help/assets/icons/Clock.svg) 및 **[!UICONTROL Clock]** **[!UICONTROL Within]**&#x200B;을(를) 사용하여 이벤트, 세션 또는 차원에 대한 [시간 제약 조건](#time-constraints) 또는 [제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
+**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 이벤트, 세션 또는 차원에 대한 [시간 제약 조건](#time-constraints) 또는 [제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
 
 ### 시간 제한
 
@@ -91,7 +106,7 @@ ht-degree: 4%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. ![-](/help/assets/icons/ChevronDown.svg) 또는 **[!UICONTROL *+*]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면&#x200B;**[!UICONTROL &#x200B; VDown &#x200B;]**&#x200B;**[!UICONTROL &#x200B; number &#x200B;]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -101,7 +116,7 @@ ht-degree: 4%
 |--- |--- |
 | **[!UICONTROL 이후]** | [!UICONTROL After] 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값 설정 시 시간 제한은 세그먼트가 적용될 때 시작됩니다. 예를 들어, 페이지 A를 방문하지만 하루가 지날 때까지 페이지 B를 방문하러 돌아오지 않는 사람을 식별하기 위해 [!UICONTROL After] 연산자를 컨테이너에 설정한 경우, 방문자가 페이지 A를 나갈 때 그 날이 시작됩니다.  방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최소 1440분(하루)이 지나야 합니다. |
 | **[!UICONTROL 내부]** | [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 제한을 지정하는 데 사용됩니다. 예를 들어, 페이지 A를 방문한 다음 하루 이내에 페이지 B를 다시 방문하기 위해 [!UICONTROL Within] 연산자를 컨테이너에 설정한 경우, 그 하루는 페이지 A를 나갈 때 시작됩니다. 세그먼트에 포함되기 위해 페이지 B를 열기 전에 최대 하루의 시간을 가질 수 있습니다. 개인이 세그먼트에 포함되려면 페이지 B를 보려면 페이지 A에서 나간 후 최대 1440분(하루) 이내에 페이지 B를 열어야 합니다. |
-| **[!UICONTROL 다음 이후지만]** 이내 | [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 모두 사용하는 경우 두 연산자 모두 순차적이 아니라 나란히 시작하고 끝납니다. <br/>예를 들어 컨테이너를 `After = 1 Week(s) and Within = 2 Week(s)`(으)로 설정하여 세그먼트를 만듭니다.<br/>이 세그먼트의 방문자를 식별하는 조건은 1주와 2주 사이에만 충족됩니다. 두 조건 모두 첫 번째 페이지 보기 시부터 적용됩니다. |
+| **[!UICONTROL 다음 이후지만]** 이내 | [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 모두 사용하는 경우 두 연산자 모두 순차적이 아니라 나란히 시작하고 끝납니다. <br/>예를 들어 컨테이너를 `After = 1 Week(s) and Within = 2 Week(s)`(으)로 설정한 세그먼트를 만듭니다.<br/>이 세그먼트의 방문자 식별 조건은 1주와 2주 사이에만 충족됩니다. 두 조건 모두 첫 번째 페이지 보기 시부터 적용됩니다. |
 
 
 #### 예
@@ -110,19 +125,19 @@ ht-degree: 4%
 
 ##### [!UICONTROL After] 연산자
 
-2주 후에만 한 페이지를 방문한 사람과 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 있지만 여성은 | 2주 후에야 구두 페이지를 엽니다.
+2주 후에만 한 페이지를 방문한 사람과 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람은 있지만 여성은 | 2주 후에야 Shoes 페이지를 엽니다.
 
 ![다음 순서](assets/sequence-after.png)
 
-홈의 페이지 보기가 2024년 6월 1일 00:01에 있는 경우 Women 페이지에 대한 페이지 보기가 표시됩니다 | 해당 페이지 보기가 2024년 6월 15일 이후 00:01인 경우 구두는 일치합니다.
+홈의 페이지 보기가 2024년 6월 1일 00:01에 있는 경우 Women 페이지에 대한 페이지 보기가 표시됩니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 이후에 발생하는 한 일치합니다:01.
 
 ##### [!UICONTROL Within] 연산자
 
-5분 내에 한 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람과 여성 | 5분 이내에 구두 페이지를 방문하세요.
+5분 내에 한 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어, 홈 페이지를 방문한 사람과 여성 | 5분 이내에 신발 페이지를 엽니다.
 
 ![다음 범위 내의 시퀀스](assets/sequence-within.png)
 
-홈의 페이지 보기가 2024년 6월 1일 12:01에 있는 경우 Women의 페이지 보기가 표시됩니다 | 해당 페이지 보기가 2024년 6월 15일 12:16 전에 발생하는 한 신발은 일치합니다.
+홈의 페이지 보기가 2024년 6월 1일 12:01에 있는 경우 Women의 페이지 보기가 표시됩니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 12:16 전에 발생하는 한 일치합니다.
 
 ##### [!UICONTROL After], [!UICONTROL Within] 연산자
 
@@ -130,7 +145,7 @@ ht-degree: 4%
 
 ![다음 이후지만 &#x200B;](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
-2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 게시된 신발 페이지는 세그먼트에 해당됩니다.:01
+2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 신발 페이지가 세그먼트에 적합합니다.:01
 
 
 ### [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL Dimension] 제약 조건
@@ -139,7 +154,7 @@ ht-degree: 4%
 
 #### 예
 
-다음은 한 제품 범주 페이지를 방문한 사람을 찾는 순차적 세그먼트의 예입니다(여성) | 신발), 체크아웃 페이지(체크아웃) | Thank You) 를 참조하십시오.
+다음은 한 제품 범주 페이지를 방문한 사람을 찾는 순차적 세그먼트의 예입니다(여성) | Shoes), 체크아웃 페이지(체크아웃) | 감사합니다.) 한 페이지 내에서 사용할 수 있습니다.
 
 ![다음 범위 내의 시퀀스 세그먼트](assets/sequence-filter-within.png)
 
@@ -158,7 +173,7 @@ ht-degree: 4%
 
 모든 사용자를 포함하는 순차적 세그먼트를 만들려면 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]** 옵션을 선택하십시오.
 
-순차적 세그먼트는 전체로서 주어진 패턴과 일치하는 데이터를 식별합니다.  다음은 하나의 제품 범주 페이지를 방문한 사람을 찾는 기본 시퀀스 세그먼트의 예입니다(여성) | 신발), 체크아웃 페이지(체크아웃) | 감사합니다.) 세그먼트가 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]**(으)로 설정되어 있습니다.
+순차적 세그먼트는 전체로서 주어진 패턴과 일치하는 데이터를 식별합니다.  다음은 하나의 제품 범주 페이지를 방문한 사람을 찾는 기본 시퀀스 세그먼트의 예입니다(여성) | Shoes), 체크아웃 페이지(체크아웃) | 감사합니다.) 세그먼트가 ![사용자 그룹](/help/assets/icons/UserGroup.svg) **[!UICONTROL 모든 사용자 포함]**(으)로 설정되어 있습니다.
 
 ![순차적 세그먼트에 모든 사용자가 포함됩니다](assets/sequence-include-everyone.png)
 
@@ -210,7 +225,7 @@ ht-degree: 4%
 
 ## [!UICONTROL 제외]
 
-![Exclude](/help/assets/icons/User.svg)을(를) 사용하여 [!UICONTROL 사용자] ![사람](/help/assets/icons/Visit.svg), [!UICONTROL 방문] ![세션](/help/assets/icons/WebPage.svg) 또는 [!UICONTROL 웹 페이지] **[!UICONTROL 이벤트]** 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
+**[!UICONTROL Exclude]**&#x200B;을(를) 사용하여 ![사용자](/help/assets/icons/User.svg) [!UICONTROL 사람], ![방문](/help/assets/icons/Visit.svg) [!UICONTROL 세션] 또는 ![웹 페이지](/help/assets/icons/WebPage.svg) [!UICONTROL 이벤트] 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
 
 [!UICONTROL 제외]를 사용하면 일반 데이터를 무시하고 더 많은 포커스를 가진 세그먼트를 만들 수 있습니다. 제외를 사용하면 특정 사용자 그룹을 제외하는 세그먼트를 만들 수도 있습니다. 예를 들어, 주문을 한 사람을 지정한 다음 해당 사람 그룹을 제외하여 *비구매자*&#x200B;를 식별하는 세그먼트를 정의합니다. 가장 좋은 방법은 특정 포함 값과 일치하는 특정 담당자를 대상으로 [!UICONTROL Exclude]을(를) 사용하는 것보다 광범위한 정의를 사용하는 규칙을 만드는 것입니다.
 
@@ -284,7 +299,7 @@ ht-degree: 4%
 
 #### 첫 번째 일치
 
-한 페이지 또는 다른 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어 여성 페이지 또는 남성 페이지를 방문한 다음 체크아웃 을 방문한 사람이 있습니다 | 감사 인사 페이지.
+한 페이지 또는 다른 페이지를 방문한 다음 다른 페이지를 방문한 사람을 식별합니다. 예를 들어 여성 페이지 또는 남성 페이지를 방문한 다음 체크아웃 을 방문한 사람이 있습니다 | 감사 인사 페이지
 
 ![논리 그룹과 첫 번째 일치를 사용하는 예제](assets/logicgroup-example-firstmatch.png)
 

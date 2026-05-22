@@ -5,10 +5,23 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 제품 분석
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/4fwNjSWPcLFNewlSHjxJq6MVWQY1Lc0-CpSomNkU69M
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+workflow-type: tm+mt
+source-wordcount: 443
+ht-degree: 89%
 
 ---
 
@@ -60,9 +73,9 @@ ht-degree: 100%
 
 [Analysis Workspace](../analysis-workspace/home.md)와 가이드 분석은 동일한 기본 데이터를 사용하지만 각 도구를 사용하여 해당 데이터에 대한 쿼리를 구성하는 방식은 다릅니다.
 
-* **Analysis Workspace는 차원 중심의 경험입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표로 구성됩니다. 원하는 데이터를 얻기 위해 행과 열 모두에 세그먼트를 적용할 수 있습니다.
+* **Analysis Workspace은 차원 중심의 환경입니다.** 테이블은 일반적으로 차원 행으로 구성되는 반면 열은 일반적으로 지표입니다. 원하는 데이터를 얻기 위해 행과 열 모두에 세그먼트를 적용할 수 있습니다.
 
-* **가이드 분석은 이벤트 및 사용자 중심 경험입니다.** 각 분석은 이벤트 선택으로 시작되며, 차원과 세그먼트를 추가하여 해당 이벤트 데이터를 세분화할 수 있습니다.
+* **안내식 분석은 이벤트 및 사용자 중심의 경험입니다.** 각 분석은 이벤트를 선택하여 시작한 다음 차원과 세그먼트를 추가하여 이벤트 데이터를 구체화할 수 있습니다.
 
 ![Analysis Workspace 및 가이드 분석 보기](assets/structure.png){style="border:1px solid gray"}
 

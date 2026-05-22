@@ -4,10 +4,25 @@ title: 빠른 세그먼트
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/DvRdeldUVvvaUfzWVV-vTflR1iZvMUH68pZQTL1d8D8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 84%
+source-wordcount: 1200
+ht-degree: 82%
 
 ---
 
@@ -97,7 +112,7 @@ ht-degree: 84%
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 두 개 이상의 조건을 정의한 경우에만 사용할 수 있습니다. 조건 사이의 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 선택합니다. 선택은 빠른 세그먼트에 대한 부울 논리를 결정합니다. 세 가지 조건이 있는 경우 논리를 섞을 수 없습니다. 부울 논리는 **[!UICONTROL AND]** 또는 **[!UICONTROL OR]**&#x200B;입니다. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | 빠른 세그먼트에 다른 조건을 추가합니다. 이 버튼은 빠른 세그먼트에 대해 하나 또는 두 개의 조건을 정의한 경우에만 사용할 수 있습니다. |
 | **[!UICONTROL 적용]** | 빠른 세그먼트에 변경 사항을 적용합니다. |
-| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확실합니까?]** 대화 상자의 확인 메시지가 표시됩니다. **[!UICONTROL 확인]**&#x200B;을 선택하면 더 이상 [빠른 세그먼트 빌더](#quick-segment-builder)의 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**&#x200B;로 바뀌고 이제 왼쪽에 더 진한 파란색의 얇은 막대가 생겼습니다.<br/>일반 [세그먼트 빌더](seg-builder.md)는 **[!UICONTROL 모든 프로젝트에 이 세그먼트를 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하는 옵션과 함께 열립니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
+| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확인 메시지가 표시됩니다. 계속하시겠습니까?]** 대화 상자. **[!UICONTROL 확인]**&#x200B;을 선택하면 더 이상 [빠른 세그먼트 빌더](#quick-segment-builder)의 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**&#x200B;로 바뀌고 이제 왼쪽에 더 진한 파란색의 얇은 막대가 생겼습니다.<br/>일반 [세그먼트 빌더](seg-builder.md)는 **[!UICONTROL 모든 프로젝트에 이 세그먼트를 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하는 옵션과 함께 열립니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
 | **[!UICONTROL 취소]** | 빠른 세그먼트 생성 또는 편집을 취소하려면 선택합니다. |
 
 ## 빠른 세그먼트와 세그먼트

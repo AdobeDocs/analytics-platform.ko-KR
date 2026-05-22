@@ -5,10 +5,24 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: a30b4286207eb72f7674bb4f6ba4cf0a1aecd280
+TQID: https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 10%
+source-wordcount: 1680
+ht-degree: 13%
 
 ---
 
@@ -56,7 +70,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
 
 ### 프로필 활성화 데이터 세트 만들기
 
-코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create#create-a-dataset) 스키마를 기반으로 데이터 집합`_xdm.context.profile__union`을(를) 만듭니다.
+코어 기반 **[!UICONTROL XDM 개별 프로필]** 스키마를 기반으로 데이터 세트를 만들어야 합니다. Experience Platform UI에서 데이터 세트를 만들 때 해당 코어 기반 XDM 개인 프로필을 스키마로 선택할 수 없습니다. 대신 [카탈로그 서비스 API를 사용하여 `_xdm.context.profile__union` 스키마를 기반으로 데이터 집합](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create#create-a-dataset)을(를) 만듭니다.
 
 +++ 데이터 세트 요청 만들기
 
@@ -84,7 +98,7 @@ curl -X POST \
 }'
 ```
 
-위치:
+여기서
 
 * `DATASET_NAME`은(는) 데이터 집합에 대한 알기 쉬운 이름입니다. (예: `Segment Export Job Dataset for CJA`)
 
@@ -94,7 +108,7 @@ curl -X POST \
 ["@/dataSets/{DATASET_ID}"]
 ```
 
-위치:
+여기서
 
 * `DATASET_ID`은(는) 생성된 데이터 세트에 대한 데이터 세트 식별자입니다.
 
@@ -243,7 +257,7 @@ FROM (
 WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_ID_2' OR key = 'AUDIENCE_ID_3')
 ```
 
-위치:
+여기서
 
 * `IDENTITY_TO_USE_AS_PERSON_ID`은(는) 내보내기 작업의 일부로 정의한 필드 중 하나입니다. 예: `_demoemea.identification.core.email`.
 * `DATASET_TABLE_NAME`은(는) 데이터 집합의 테이블 이름입니다.
@@ -270,7 +284,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 ]
 ```
 
-위치:
+여기서
 
 * `PERSON_ID_x`은(는) 개인 ID로 사용할 식별자의 식별자 값입니다. 예를 들어 전자 메일을 사용하는 경우 `john.doe@gmail.com`입니다.
 * `AUDIENCE_ID_x`은(는) 대상 식별자입니다.
@@ -306,7 +320,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 ]
 ```
 
-위치:
+여기서
 
 * `TENANT_NAME`은(는) 테넌트의 이름입니다. 예: `_demoemea`.
 * `PERSON_ID_x`은(는) 개인 ID로 사용할 식별자의 식별자 값입니다. 예를 들어 전자 메일을 사용하는 경우 `john.doe@gmail.com`입니다.
@@ -339,7 +353,7 @@ Experience Platform UI에서 다음 작업을 수행합니다.
    1. (선택 사항) **[!UICONTROL 설명]**&#x200B;을 입력합니다.
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 1. **[!UICONTROL audienceMembershipId]** 및 **[!UICONTROL audienceMembershipName]**(이)라는 두 개의 필드를 포함하는 사용자 지정 필드 그룹(예: **[!UICONTROL Audience Membership]**)을 포함하도록 스키마를 설정하십시오.
-1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 I&#x200B;**&#x200B;**&#x200B;[!UICONTROL ID 네임스페이스]&#x200B;**&#x200B;로서 [!UICONTROL 이메일]이 있는지 &#x200B;**.
+1. **[!UICONTROL personID]** 필드가 **[!UICONTROL ID]**, **[!UICONTROL 기본 ID]**&#x200B;이고 I&#x200B;**[!UICONTROL ID 네임스페이스]로서 &#x200B;** [!UICONTROL 이메일]&#x200B;**&#x200B;이 있는지 &#x200B;**.
 
    ![내보낼 세그먼트](assets/segment-for-export.png)
 
@@ -484,6 +498,6 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 * 대상 데이터가 Customer Journey Analytics 내에서 지속적으로 새로 고쳐지도록 이 프로세스를 정기적으로 수행해야 합니다.
 * 단일 Customer Journey Analytics 연결 내에서 여러 대상을 가져올 수 있습니다. 이는 프로세스에 복잡성을 가중시키지만 실행 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
    1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
-   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. [&#x200B; 또는 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)에 대해 `audienceMembershipId`개체 배열`audienceMembershipIdName`을 사용하는 것이 가장 좋습니다.
+   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. `audienceMembershipId` 또는 `audienceMembershipIdName`에 대해 [개체 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)을 사용하는 것이 가장 좋습니다.
    1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
    1. 이제 Customer Journey Analytics Workspace 내에서 이 새 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.
