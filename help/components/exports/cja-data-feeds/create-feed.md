@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2458
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="전환 확인 날짜 범위"
->abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics에서 얼마나 지난 날짜까지 조회할지를 제어합니다.<br/>이 설정은 빈도 기간(시간 또는 날)을 변경하지 않습니다. 그러나 전환 확인 날짜 범위는 게재되는 데이터에 영향을 줄 수 있습니다. 세그먼트 자격, 세션 계산, 일부 파생된 필드 변환 및 차원 지속성은 모두 전환 확인 날짜 범위의 영향을 받습니다."
+>abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics에서 얼마나 지난 날짜까지 조회할지를 제어합니다.<br/>이 설정은 빈도 기간(시간 또는 날)을 변경하지 않습니다. 그러나 전환 확인 날짜 범위는 게재되는 데이터에 영향을 줄 수 있습니다. 세그먼트 선별, 세션 계산, 일부 파생 필드 변환 및 차원 지속성은 모두 전환 확인 날짜 범위의 영향을 받습니다."
 
 <!-- markdownlint-enable MD034 -->
 
