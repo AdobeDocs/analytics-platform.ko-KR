@@ -6,31 +6,15 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/5rXDQ-Ygp3TrEMbpK1UaUcRwSrc81VkUKauxth4-AUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 4356
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -69,8 +53,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
->title="CX 엔터프라이즈 인증 필요"
->abstract="활성화되면 Analysis Workspace의 **[!UICONTROL 누구와도 공유]** 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 CX 엔터프라이즈 자격 증명을 사용하여 인증해야 합니다."
+>title="CX Enterprise 인증 필요"
+>abstract="활성화되면 Analysis Workspace의 **[!UICONTROL 모두와 공유]** 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 CX Enterprise 자격 증명을 사용하여 인증해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -86,7 +70,7 @@ ht-degree: 93%
 |  | 템플릿 탭 숨기기 | 조직의 모든 사용자에 대해 템플릿 탭을 숨깁니다. |
 | **프로젝트 공유** | | |
 | | Workspace 사용자와의 공유만 허용 | 이 옵션이 활성화되면 **[!UICONTROL 공유]** 메뉴에서 조직의 사용자에게 **[!UICONTROL 모두와 공유]** 옵션이 표시되지 않습니다. 즉, [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 사용자는 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다.<br/>이 옵션은 Healthcare Shield 라이선스가 있는 고객을 제외하고 모든 조직에서 기본적으로 비활성화되어 있습니다(즉, 사용자가 조직 외부의 사람들과 프로젝트를 공유할 수 있음). <p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.<ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 모두와 공유] 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다.</li><li>이 옵션을 활성화(Workspace 사용자와만 공유 허용)한 다음 나중에 비활성화(모두와 공유 허용)하더라도 이전에 [!UICONTROL 모두와 공유] 공유 옵션을 통해 프로젝트 액세스 권한을 부여받았던 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유&#x200B;**([!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]**)할 때 사용할 수 있는 [!UICONTROL **링크 활성화됨**] 옵션을 활성화해야 합니다.</li><li>**Healthcare Shield 라이선스가 있는 고객:** 이 옵션이 기본적으로 활성화되어 있으며 비활성화할 수 없습니다. 사용자가 [!UICONTROL 모두와 공유] 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 [!UICONTROL 모든 사람과 프로젝트 링크 공유] 권한([!UICONTROL 보고 도구] 아래에 위치)을 Adobe Admin Console에 추가해야 합니다. 권한을 추가한 후 이 옵션을 비활성화한 다음 그 결과로 표시되는 법적 고지 사항을 수락할 수 있습니다. Admin Console에서 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하십시오.</li></ul> |
-| | CX 엔터프라이즈 인증 필요 | 이 옵션이 활성화되면 Analysis Workspace의 **[!UICONTROL 다른 사람과 공유]** 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 CX 엔터프라이즈 자격 증명을 사용하여 인증해야 합니다.<p>이 옵션이 활성화되면 사용자가 [!UICONTROL 모든 사람과 공유] 공유 옵션을 사용하여 프로젝트를 공유할 때마다 [!UICONTROL CX 엔터프라이즈 인증 필요] 옵션이 공유 대화 상자에서 활성화되며 프로젝트를 공유하는 사용자는 비활성화할 수 없습니다. 사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오. <p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 누구와도 공유] 공유 옵션과 공유되었고 [!UICONTROL CX 엔터프라이즈 인증 필요] 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.<p>이 옵션을 사용(CX 엔터프라이즈 인증 필요)한 다음 나중에 사용 안 함(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)으로 설정한 경우, 이전에 [!UICONTROL 누구와도 공유] 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 회복하지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 [!UICONTROL 링크 활성화됨] 옵션을 활성화해야 합니다&#x200B;**([!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]** > **[!UICONTROL 링크 활성화됨]**).</li><li>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인합니다. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html)에 설명된 대로 이를 설정합니다.</li><li>조직에서 Healthcare Shield 라이선스를 취득한 경우 이 옵션은 기본적으로 활성화되며 비활성화할 수 없습니다.</li></ul> |
+| | CX Enterprise 인증 필요 | 이 옵션이 활성화되면 Analysis Workspace의 **[!UICONTROL 다른 사람과 공유]** 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 CX 엔터프라이즈 자격 증명을 사용하여 인증해야 합니다.<p>이 옵션이 활성화되면 사용자가 [!UICONTROL 모든 사람과 공유] 공유 옵션을 사용하여 프로젝트를 공유할 때마다 [!UICONTROL CX 엔터프라이즈 인증 필요] 옵션이 공유 대화 상자에서 활성화되며 프로젝트를 공유하는 사용자는 비활성화할 수 없습니다. 사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오. <p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>이 옵션을 활성화하면 이전에 [!UICONTROL 누구와도 공유] 공유 옵션과 공유되었고 [!UICONTROL CX 엔터프라이즈 인증 필요] 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.<p>이 옵션을 사용(CX 엔터프라이즈 인증 필요)한 다음 나중에 사용 안 함(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)으로 설정한 경우, 이전에 [!UICONTROL 누구와도 공유] 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 회복하지 않습니다. 이 경우 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 [!UICONTROL 링크 활성화됨] 옵션을 활성화해야 합니다&#x200B;**([!UICONTROL 공유]** > **[!UICONTROL 모두와 공유]** > **[!UICONTROL 링크 활성화됨]**).</li><li>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인합니다. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html)에 설명된 대로 이를 설정합니다.</li><li>조직에서 Healthcare Shield 라이선스를 취득한 경우 이 옵션은 기본적으로 활성화되며 비활성화할 수 없습니다.</li></ul> |
 | 프로젝트 댓글 달기 | 프로젝트에서 댓글 달기 허용 | 이 옵션이 활성화되면 Analysis Workspace의 각 프로젝트 오른쪽 레일에 댓글 영역이 제공됩니다. <p>프로젝트 소유자는 [프로젝트 만들기](/help/analysis-workspace/build-workspace-project/create-projects.md)에 설명된 대로 특정 프로젝트에 대한 댓글 영역을 비활성화할 수 있습니다.</p> <p>Analysis Workspace 프로젝트에서 댓글을 다는 방법에 대한 자세한 내용은 [프로젝트에서 댓글 추가 및 관리](/help/analysis-workspace/build-workspace-project/comment-projects.md)를 참조하십시오.</p> |
 
 {style="table-layout:auto"}
@@ -115,7 +99,7 @@ ht-degree: 93%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
