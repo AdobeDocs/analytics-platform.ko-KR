@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 1963
 ht-degree: 10%
 
 ---
@@ -355,7 +355,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 1. RStudio를 시작합니다.
 1. 새 R Markdown 파일을 만들거나 [이 예제 R Markdown 파일](../assets/BI-Extension.Rmd.zip)을 다운로드합니다.
-1. 첫 번째 청크에 ` ` ``{r} `과(와) ` `` ` ` 사이의 다음 문을 입력하십시오. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
+1. 첫 번째 청크에 다음 문을 입력합니다. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
 
    ```R
    library(rstudioapi)
@@ -376,7 +376,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
    ![RStudio 구성 단계 1](../assets/rstudio-config-step1.png)
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    con <- dbConnect(
@@ -393,7 +393,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. 연결에 성공하면 출력이 표시되지 않습니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    views <- dbListTables(con)
@@ -403,7 +403,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. `character(0)`이(가) 유일한 출력으로 표시됩니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    glimpse(dv)

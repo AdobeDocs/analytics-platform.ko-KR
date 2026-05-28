@@ -20,9 +20,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -112,3 +112,7 @@ XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/x
 
 * 기본 키, 버전 설명자 및 타임스탬프 설명자는 관계형 XDM 스키마의 루트 레벨 필드여야 합니다. 이 요구 사항을 지원하려면 수집 중에 [필드 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)을(를) 사용하십시오.
 * [매핑 단계](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) 동안 적절한 소스 필드를 생략할 수 있습니다.
+
+## 미러링된 데이터의 배치 크기
+
+연결의 일부로 구성된 모든 미러된 데이터 세트의 경우, 미러된 데이터 세트에 대한 데이터를 수집하기 위한 각 배치가 100GB를 초과하지 않도록 해야 합니다. 자세한 내용은 [일괄 처리 수집을 위한 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}를 참조하십시오.

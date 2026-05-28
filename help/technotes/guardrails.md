@@ -26,14 +26,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
 
 ---
 
-# Customer Journey Analytics 가드 레일
+# Customer Journey Analytics 보호 기능
 
 이 문서에서는 Customer Journey Analytics의 다양한 구성 요소에 대한 제한을 제공합니다. 보호, 범위 매개 변수 및 사용 권한에 대해서는 [Customer Journey Analytics의 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics.html), [Adobe Analytics 추가 기능의 제품 설명: Customer Journey Analytics](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html) 또는 [Customer Journey Analytics B2B edition의 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/customer-journey-analytics-b2b.html)을 참조하세요.
 
@@ -41,9 +41,9 @@ ht-degree: 9%
 
 이 문서에는 두 가지 유형의 기본 제한이 있습니다.
 
-| 보호 유형 | 설명 |
+| 가드레일 형태 | 설명 |
 |----------|---------|
-| **성능 보호 기능(소프트 제한)** | 성능 보호는 사용 사례의 범위와 관련된 사용 제한입니다. 성능 가드레일을 초과하면 성능 저하 및 지연이 발생할 수 있습니다. Adobe은 이러한 성능 저하에 대한 책임이 없습니다. 성능 가드레일을 지속적으로 초과하는 고객은 성능 저하를 방지하기 위해 추가 용량의 라이센스를 선택할 수 있습니다. |
+| **성능 보호(소프트 제한)** | 성능 보호는 사용 사례의 범위와 관련된 사용 제한입니다. 성능 가드레일을 초과하면 성능 저하 및 지연이 발생할 수 있습니다. Adobe은 이러한 성능 저하에 대한 책임이 없습니다. 성능 가드레일을 지속적으로 초과하는 고객은 성능 저하를 방지하기 위해 추가 용량의 라이센스를 선택할 수 있습니다. |
 | **시스템 적용 보호 기능(하드 제한)** | 시스템에서 적용되는 가드레일은 Customer Journey Analytics UI 또는 API에 의해 적용됩니다. UI 및 API에서 이를 차단하거나 오류를 반환하므로 이를 초과할 수 없는 제한입니다. |
 
 {style="table-layout:auto"}
@@ -86,7 +86,7 @@ ht-degree: 9%
 {style="table-layout:auto"}
 
 
-<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced Guardrail - Maximum number of dimensions per freeform table. -->
+<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced guardrail - Maximum number of dimensions per freeform table. -->
 
 <!--
 
