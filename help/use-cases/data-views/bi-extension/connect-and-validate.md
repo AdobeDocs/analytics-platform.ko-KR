@@ -7,20 +7,14 @@ role: User
 exl-id: d122a415-fb22-48f7-9377-8349dba274e5
 autotag-review: '2026-05-19T09:45:42.786Z'
 TQID: 'https://experienceleague.adobe.com/snwj7xbkzdBzHE073kpVyfNQ0iWxHBrxhm58NJOiwy8'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: f24857a4-4b64-4b25-b237-d43026362144
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 1963
 ht-degree: 10%
 
 ---
@@ -74,7 +68,7 @@ ht-degree: 10%
       1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
    1. **[!UICONTROL PostgreSQL 데이터베이스]** - **[!UICONTROL 데이터베이스]** 대화 상자에서:
       ![PowerBI Desktop 사용자 및 암호](../assets/powerbi-userpassword.png)
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드의 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 값을 복사합니다. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL 이러한 설정을 적용할 수준 선택]**&#x200B;의 드롭다운 메뉴가 이전에 정의한 **[!UICONTROL 서버]**(으)로 설정되어 있는지 확인하십시오.
       1. **[!UICONTROL 연결]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 탐색기]** 대화 상자에서 데이터 보기를 검색합니다. 이 검색은 시간이 걸릴 수 있습니다. 검색하면 Power BI Desktop에 다음 내용이 표시됩니다.
@@ -82,7 +76,7 @@ ht-degree: 10%
       1. 왼쪽 패널의 목록에서 **[!UICONTROL public.cc_data_view]**&#x200B;을(를) 선택합니다.
       1. 다음 두 가지 옵션이 있습니다.
          1. **[!UICONTROL 로드]**&#x200B;를 선택하여 설치를 계속하고 완료합니다.
-         1. **[!UICONTROL 데이터 변환]**&#x200B;을 선택합니다. 구성의 일부로 변환을 선택적으로 적용할 수 있는 대화 상자가 표시됩니다.
+         1. **[!UICONTROL 데이터 변환]**을 선택합니다. 구성의 일부로 변환을 선택적으로 적용할 수 있는 대화 상자가 표시됩니다.
             ![Power BI 데스크톱 변환 데이터](../assets/powerbi-transform-data.png)
             * **[!UICONTROL 닫기 및 적용]**&#x200B;을 선택합니다.
    1. 잠시 후 **[!UICONTROL public.cc_data_view]**&#x200B;이(가) **[!UICONTROL 데이터]** 창에 표시됩니다. 차원 및 지표를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 선택하십시오.
@@ -120,7 +114,7 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
       ![쿼리 서비스 자격 증명](../assets/queryservice-credentials.png)
 
 1. 타블로를 시작합니다.
-   1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 서버로]** 아래의 왼쪽 레일에서 **[!UICONTROL PostgreSQL]**&#x200B;을(를) 선택하십시오. 사용할 수 없는 경우 **[!UICONTROL 자세히...]**&#x200B;를 선택하고 **[!UICONTROL 설치된 커넥터]**&#x200B;에서 **[!UICONTROL PostgreSQL]**을(를) 선택합니다.
       ![타블로 커넥터](../assets/tableau-connectors.png)
    1. **[!UICONTROL PostgreSQL]** 대화 상자의 **[!UICONTROL 일반]** 탭에서:
       ![타블로 로그인 대화 상자](../assets/tableau-signin.png)
@@ -129,7 +123,7 @@ Power BI Desktop은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 데이터베이스]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 데이터베이스]**(으)로 복사하여 붙여넣으십시오. 붙여넣은 값에 `%3FFLATTEN`을(를) 추가합니다. 예: `prod:cja%3FFLATTEN`.
       1. **[!UICONTROL 인증]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 이름 및 암호]**&#x200B;를 선택합니다.
       1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 **[!UICONTROL 사용자 이름]**&#x200B;을(를) Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 사용자 이름]**(으)로 복사하여 붙여넣으십시오.
-      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 암호]**&#x200B;를 복사하여 **[!UICONTROL 암호]**&#x200B;에 붙여넣으십시오. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
+      1. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널에서 **[!UICONTROL 암호]**&#x200B;를 복사하여 **[!UICONTROL 암호]**&#x200B;에 붙여넣으십시오. [만료되지 않는 자격 증명](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)을 사용하는 경우 만료되지 않는 자격 증명의 암호를 사용하십시오.
       1. **[!UICONTROL SSL 필요]**&#x200B;가 선택되어 있는지 확인하십시오.
       1. **[!UICONTROL 로그인]**&#x200B;을 선택합니다.
 
@@ -355,7 +349,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
 1. RStudio를 시작합니다.
 1. 새 R Markdown 파일을 만들거나 [이 예제 R Markdown 파일](../assets/BI-Extension.Rmd.zip)을 다운로드합니다.
-1. 첫 번째 청크에 ` ` ``{r} `과(와) ` `` ` ` 사이의 다음 문을 입력하십시오. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
+1. 첫 번째 청크에 다음 문을 입력합니다. ![복사](/help/assets/icons/Copy.svg)를 사용하여 Experience Platform **[!UICONTROL 쿼리]** **[!UICONTROL 만료 자격 증명]** 패널의 값을 `host`, `dbname`, `user` 등의 다양한 매개 변수에 필요한 값으로 복사하고 붙여넣으십시오. 예:
 
    ```R
    library(rstudioapi)
@@ -376,7 +370,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 
    ![RStudio 구성 단계 1](../assets/rstudio-config-step1.png)
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    con <- dbConnect(
@@ -393,7 +387,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. 연결에 성공하면 출력이 표시되지 않습니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    views <- dbListTables(con)
@@ -403,7 +397,7 @@ Jupyter Notebook은 `FLATTEN` 매개 변수에 대해 다음 시나리오를 지
 1. 청크를 실행합니다. `character(0)`이(가) 유일한 출력으로 표시됩니다.
 
 
-1. 새 청크를 만들고 ` ` `` {r} `에서 ` `` ` ` 사이의 다음 문을 입력하십시오.
+1. 새 청크를 만들고 다음 문을 입력합니다.
 
    ```R
    glimpse(dv)
