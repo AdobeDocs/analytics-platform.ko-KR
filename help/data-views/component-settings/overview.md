@@ -6,27 +6,15 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: dcc1be6e0c0e0dab19b4067232e48dc175011ed1
 workflow-type: tm+mt
-source-wordcount: 3784
-ht-degree: 53%
+source-wordcount: 4127
+ht-degree: 48%
 
 ---
 
@@ -77,7 +65,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -173,19 +161,19 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 
 | 이름 | 설명 |
 |------|-------------|
-| 콘텐츠 ID | 컨텐츠 ID. |
-| 콘텐츠 체류 시간 | 콘텐츠 체류 시간. |
-| 에피소드 | 에피소드. |
-| 이벤트 유형 | 이벤트 유형. |
-| 미디어 사용 시간 | 미디어 체류 시간. |
-| 시즌 | 계절. |
-| 마지막 통화 이후 지난 시간 (초) | 마지막 통화 이후 경과된 시간(초). |
-| 표시 | 표시. |
-| 시작 시간 | 시작할 시간입니다. |
-| 총 버퍼 지속 시간 | 총 버퍼 지속 시간. |
-| 총 일시 중지 기간 | 총 일시 중단 기간. |
-| 비디오 길이 | 비디오 길이. |
-| 비디오 이름 | 비디오 이름. |
+| [콘텐츠 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 재생 중인 콘텐츠에 대한 고유 식별자. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 ID]** 라디오 단추를 사용하도록 설정합니다. |
+| [콘텐츠 체류 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 광고를 제외한 콘텐츠를 보는 데 소요된 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 체류 시간]** 고급 설정을 실행합니다. |
+| [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 시리즈 내 에피소드 번호. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 에피소드별 필터링을 활성화합니다. |
+| 이벤트 유형 | 미디어 이벤트 유형(예: `media.play` 또는 `media.ping`). Customer Journey Analytics에서 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
+| [미디어 사용 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 콘텐츠, 광고, 버퍼링 및 일시 중지를 포함한 총 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널 및 **[!UICONTROL 미디어 소요 시간]** 고급 설정을 실행합니다. |
+| [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 시리즈 내의 시즌 번호입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 시즌별 필터링을 활성화합니다. |
+| 마지막 통화 이후 지난 시간 (초) | 이전 하트비트 Ping 이후 경과된 시간(초)입니다. Customer Journey Analytics에서 세션이 여전히 활성 상태인 시기를 식별하는 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
+| [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 프로그램 또는 시리즈 이름. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에 표시별로 필터링을 사용하도록 설정합니다. |
+| [시작 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 컨텐츠 선택 시점부터 재생이 시작되는 시점까지의 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 버퍼 지속 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 세션 중 버퍼링에 소요된 총 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 일시 중단 기간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 세션 중 일시 중지된 총 체류 시간. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [비디오 길이](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 콘텐츠의 기간(초)입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널의 **[!UICONTROL 특정 콘텐츠]** 모드에 필요합니다. |
+| [비디오 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 콘텐츠의 표시 이름입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 비디오 이름]** 라디오 단추를 사용하도록 설정합니다. |
 
 +++
 
