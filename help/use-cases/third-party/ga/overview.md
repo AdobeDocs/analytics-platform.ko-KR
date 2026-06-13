@@ -17,14 +17,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 303
-ht-degree: 79%
+source-wordcount: 342
+ht-degree: 70%
 
 ---
 
 # Google Analytics에서 데이터 마이그레이션
+
+>[!BEGINSHADEBOX]
+
+이 안내서에서는 관리자의 데이터 마이그레이션에 대해 다룹니다. Customer Journey Analytics에서 GA4 보고서를 찾고 있는 분석가의 경우 [Google Analytics 4에서 Customer Journey Analytics으로 전환](/help/getting-started/ga-to-cja/home.md) 및 [Customer Journey Analytics의 GA4 보고서](/help/getting-started/ga-to-cja/reports.md)를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 Customer Journey Analytics를 처음 사용하는 경우 귀사는 Google Analytics와 같은 다른 Analytics 플랫폼에서 데이터를 보유하고 있을 수 있습니다. 다음과 같은 중요한 단계를 따라 데이터를 Adobe Experience Platform으로 이동하여 Customer Journey Analytics에서 보고서를 볼 수 있습니다.
 

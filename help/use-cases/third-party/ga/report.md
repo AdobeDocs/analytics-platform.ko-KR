@@ -21,16 +21,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 685
-ht-degree: 85%
+source-wordcount: 704
+ht-degree: 83%
 
 ---
 
 # Google Analytics 데이터에 대한 보고
 
-이제 Customer Journey Analytics에서 데이터를 사용할 수 있으니 다음 예제를 통해 이러한 데이터에 대한 보고를 수행하는 데 유용한 시나리오를 살펴보십시오.
+이제 Customer Journey Analytics에서 데이터를 사용할 수 있으니 다음 예제를 통해 이러한 데이터에 대한 보고를 수행하는 데 유용한 시나리오를 살펴보십시오. Customer Journey Analytics의 GA4 보고서 등가물에 대한 포괄적인 조회는 Customer Journey Analytics의 [GA4 보고서](/help/getting-started/ga-to-cja/reports.md)를 참조하십시오.
 
 ## 웹 데이터와 앱 데이터를 통합된 데이터 세트로 시각화
 
