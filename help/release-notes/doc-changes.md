@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 50c7bb7b18b45b5ffac0eebacca2bb0d2ed0c28d
 workflow-type: tm+mt
-source-wordcount: 6915
+source-wordcount: 6944
 ht-degree: 94%
 
 ---
@@ -49,6 +49,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 6월** | |
+| 새로운 GA4 안내서 | [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)이 추가되었습니다. |
 | **2026년 5월** | |
 | Content Analytics용 Javascript 라이브러리 | Experience Platform 데이터 수집 태그 없이 [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널용 Content Analytics을 구현하는 방법에 대한 설명서입니다. |
 | Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md). |
