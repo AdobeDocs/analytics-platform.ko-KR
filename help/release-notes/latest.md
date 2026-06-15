@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 373deaea2b7d73484a3983bde490a86e950c2c0e
+source-git-commit: c818dd36bc900b3945b87503afad8e944a3716a7
 workflow-type: tm+mt
-source-wordcount: 818
-ht-degree: 45%
+source-wordcount: 721
+ht-degree: 38%
 
 ---
 
@@ -48,7 +48,6 @@ ht-degree: 45%
 | **Customer Journey Analytics용 MCP 서버** <br/>Analytics MCP(Model Context Protocol) 서버를 사용하면 지원되는 MCP 클라이언트를 Adobe Customer Journey Analytics에 연결할 수 있습니다. 연결되면 MCP 클라이언트는 제품별 도구를 호출하여 데이터를 검색하거나 쿼리를 실행하거나 LLM 또는 에이전트 워크플로우의 일부로 지원되는 작업을 수행할 수 있습니다. 자세한 내용은 [Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/)를 참조하십시오.<p>Beta 기간 동안 이러한 MCP 서버를 사용한 경우 Beta와 프로덕션 엔드포인트 간에 서로 다른 URL이 있습니다. 베타 기간 동안 만들어진 모든 에이전트 워크플로가 5월 31일 이전에 프로덕션 끝점을 사용하도록 업데이트되었는지 확인하십시오.</p> | | 2026년 5월 5일 |
 | **기본 모바일 앱 경험에 대한 Content Analytics 지원**<br/>&#x200B;조직은 콘텐츠 성능 분석을 iOS 및 Android 앱으로 확장하여 이미지 에셋과 세분화된 경험 요소를 캡처함으로써 사용자 참여 및 비즈니스 결과를 이끄는 인앱 콘텐츠를 파악할 수 있습니다.<p> [설명서](/help/content-analytics/content-analytics.md)이(가) 모바일 채널 기능 및 구성을 설명하기 위해 업데이트되었습니다. [Content Analytics Mobile SDK 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)에 대한 정보는 [Adobe Developer](https://developer.adobe.com/)에서 사용할 수 있습니다.</p><p>인사이트는 모든 Adobe Content Analytics 고객이 사용할 수 있습니다.</p> | | 2026년 5월 6일 |
 | **여정 캔버스 개선 사항** <br/> 여정 캔버스 시각화에서는 다음 개선 사항을 사용할 수 있습니다. <ul><li>여정에서 [노드 제외](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#exclude-nodes).</li><li>노드의 폴아웃 데이터를 사용하여 [세그먼트 만들기](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#create-a-segment-based-on-a-node-or-arrow), [트렌드](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#view-trend-data), [대상](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#create-an-audience) 및 [분류](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#apply-a-breakdown)를 만듭니다.</li></ul> | | 2026년 5월 18일 |
-| **Adobe Engineering Agent에서 데이터 유효성 검사** <br/>Data Engineering Agent 내에서 새로운 데이터 유효성 검사 기술을 사용할 수 있습니다. 이러한 기술은 Customer Journey Analytics에서 데이터를 분석하기 전에 팀이 Adobe Experience Platform에서 데이터 품질을 직접 신속하게 평가하는 데 도움이 됩니다. <p>데이터 유효성 검사 기술은 통계 요약과 유효하지 않거나 비정상적인 값의 지능형 탐지를 결합하여 온디맨드, 현장 수준, 데이터 세트 수준 유효성 검사를 수행할 수 있습니다. </p><p>데이터 유효성 검사 기술을 사용하면 수작업 QA 작업을 줄이고 데이터 엔지니어링 워크플로 전반에 걸쳐 신뢰할 수 있는 데이터 온보딩 및 변환을 가속화할 수 있습니다.</p><p>(참조할 설명서 링크입니다.)<!--For more information, see [Data Engineering Agent]() (will be in this repo: https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/cja-data-insights-agent).--></p> | | 2026년 5월 19일 <p>(원래 2026년 3월 31일 릴리스로 계획됨)</p> |
 | **Content Analytics: 선 시각화 썸네일 및 미리 보기** <br/>[썸네일 및 미리 보기](/help/content-analytics/report/report.md)를 이제 Content Analytics의 선 시각화에서 에셋 및 경험에 사용할 수 있습니다. |  | 2026년 5월 20일 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 
