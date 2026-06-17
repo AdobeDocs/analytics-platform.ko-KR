@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: 50c7bb7b18b45b5ffac0eebacca2bb0d2ed0c28d
 workflow-type: tm+mt
 source-wordcount: 6944
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -52,24 +52,24 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2026년 6월** | |
 | 새로운 GA4 안내서 | [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)이 추가되었습니다. |
 | **2026년 5월** | |
-| Content Analytics용 Javascript 라이브러리 | Experience Platform 데이터 수집 태그 없이 [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널용 Content Analytics을 구현하는 방법에 대한 설명서입니다. |
-| Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md). |
-| Content Analytics 모바일 채널 | Content Analytics 모바일 채널의 기능 및 구성을 설명하는 [Content Analytics 설명서](/help/content-analytics/content-analytics.md) 업데이트. |
+| Content Analytics용 JavaScript 라이브러리 | Experience Platform 데이터 수집 태그 없이 [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널용 Content Analytics을 구현하는 방법에 대한 설명서입니다. |
+| Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md)입니다. |
+| Content Analytics 모바일 채널 | Content Analytics 모바일 채널의 기능 및 구성을 설명하는 [Content Analytics 설명서](/help/content-analytics/content-analytics.md) 업데이트입니다. |
 | **2026년 4월** | |
-| 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 보호 기능 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
-| Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다 | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 연결에 포함됩니다](/help/integrations/ajo.md#high-throughput-add-on-datasets). |
-| 업데이트된 집단 분석 사용 사례 | 피드백을 기반으로 Analytics Workspace 예제를 집단 분석 사용 사례에 추가했습니다. |
+| 파생 필드 지침 | 파생 필드 작업에 대한 [지침](/help/use-cases/data-views/derived-fields/guidelines.md)(모범 사례, 가드레일 및 일반적인 위험)이 포함된 문서를 추가했습니다. |
+| Journey Optimizer 통합 시 포함할 수 있는 두 데이터 세트에 대한 누락된 설명서가 추가되었습니다. | IMS 조직에 대해 높은 처리량 트랜잭션 메시지 추가 기능을 사용하도록 설정하면 [프로필이 아닌 시스템 생성 데이터 세트 두 개가 추가로](/help/integrations/ajo.md#high-throughput-add-on-datasets) 연결에 포함됩니다. |
+| 코호트 분석 사용 사례 업데이트 | 피드백을 기반으로 Analytics Workspace 예제를 코호트 분석 사용 사례에 추가했습니다. |
 | **2026년 3월** | |
-| 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 패널의 [놓기 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
-| 불량 ID에 대한 기술 정보(BAVID) | 잘못된 ID의 새 [기술 정보](/help/technotes/badids.md). 이 기술 문서에서는 잘못된 ID의 정의, Customer Journey Analytics 인터페이스에서 잘못된 ID가 사용되는 위치 및 잘못된 ID에 대한 연결의 데이터를 조사하는 방법에 대해 설명합니다. |
-| 연결에서 데이터 세트 미리보기 다시 디자인 | 연결을 사용할 수 있는 데이터 세트에 대한 추가 [미리 보기 정보 결합](/help/stitching/use-stitching-ui.md#datasets-preview)에 대한 설명서를 포함하여 개인 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 개선된 데이터 미리 보기 환경에 대한 설명서를 업데이트했습니다. |
-| Content Analytics 썸네일 및 미리보기 | Content Analytics의 추가 시각화를 위한 [썸네일](/help/content-analytics/report/report.md#thumbnails) 및 [미리 보기](/help/content-analytics/report/report.md#previews)에 대한 설명서입니다. |
+| 패널 분류 | 새로운 [분류](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 [패널의 드롭 영역](/help/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
+| 잘못된 ID에 대한 기술 정보(BAVID) | [잘못된 ID에 대한 새 기술 정보](/help/technotes/badids.md)입니다. 이 기술 정보는 잘못된 ID의 정의, Customer Journey Analytics 인터페이스에서 잘못된 ID가 사용되는 위치 그리고 연결에서 데이터를 조사하여 잘못된 ID를 찾아내는 방법에 대해 설명합니다. |
+| 연결에서 데이터 세트 미리보기 다시 디자인 | 결합을 사용할 수 있는 데이터 세트에 대한 추가 [미리 보기 정보 결합](/help/stitching/use-stitching-ui.md#datasets-preview)에 대한 설명서를 포함하여 개인 기반 연결에서 데이터 세트를 [추가](/help/connections/create-connection.md#add-datasets) 또는 [편집](/help/connections/create-connection.md#edit-a-dataset)할 때 개선된 데이터 미리 보기 환경에 대한 설명서를 업데이트했습니다. |
+| Content Analytics 썸네일 및 미리 보기 | Content Analytics에서 추가 시각화를 위한 [썸네일](/help/content-analytics/report/report.md#thumbnails) 및 [미리 보기](/help/content-analytics/report/report.md#previews)에 대한 설명서입니다. |
 | **2026년 2월** | |
 | 헤더 재정의 | Content Analytics에 대한 추가 [헤더 재정의 구성](/help/content-analytics/config/guided.md#header-overrides)에 대한 설명서입니다. |
-| 계산된 지표 보호 | 조직의 최대 계산된 지표 수[&#128279;](/help/technotes/guardrails.md#segments-and-calculated-metrics)에 대한 보호가 업데이트되었습니다. 최대 인원은 이제 50,000입니다. |
-| 독립형 Content Analytics | Content Analytics의 [독립 실행형 구성](/help/content-analytics/config/standalone.md)에 대한 설명서를 추가했습니다. |
+| 계산된 지표 가드레일 | [조직에 대해 계산된 최대 지표 수에 대한 가드레일](/help/technotes/guardrails.md#segments-and-calculated-metrics)이 업데이트되었습니다. 최대 지표 수는 이제 50,000개입니다. |
+| 독립 실행형 Content Analytics | [Content Analytics의 독립 실행형 구성](/help/content-analytics/config/standalone.md)에 대한 설명서를 추가했습니다. |
 | **2026년 1월** | |
-| 스키마 설계 | [Customer Journey Analytics에 사용할 스키마를 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)하는 데 유용한 정보와 컨텍스트를 추가했습니다. |
+| 스키마 설계 | [Customer Journey Analytics에 사용할 스키마를 설계](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)하는 데 필요한 중요한 정보와 컨텍스트를 추가했습니다. |
 
 
 ## 2025
@@ -77,7 +77,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 12월** | |
-| 샌드박스 변경의 영향 | 샌드박스 삭제 또는 재설정의 영향을 [삭제 및 재설정 의미](/help/technotes/deletion.md) 문서에 추가했습니다. |
+| 샌드박스 변경의 의미 | 샌드박스 삭제 또는 재설정이 미치는 영향을 [삭제 및 재설정 의미](/help/technotes/deletion.md) 문서에 추가했습니다. |
 | **2025년 11월** | |
 | 연결당 일일 행 수에 대한 가드레일 | 연결당 하루 최대 평균 행 수에 대한 [데이터 전송 제한 가드레일 정보](/help/technotes/guardrails.md)가 추가되었습니다. |
 | **2025년 10월** | |
@@ -115,7 +115,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md)를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르게 조사하여 트렌드를 파악하고, 예외 항목을 발견하고, 콘텐츠 피로도를 식별하고, 콘텐츠 노출로부터 인사이트를 얻을 수 있습니다. |
 | Adobe Experience Platform에 스트리밍 미디어 데이터를 수집하기 위한 업데이트된 XDM 필드 | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때, 스트리밍 미디어 매개변수 설명서의 “XDM 필드 경로” 제목 아래에 표시된 XDM 필드 경로는 더 이상 사용해서는 안 됩니다. 이러한 필드 경로는 다음 페이지에서 찾을 수 있으며 “더 이상 사용되지 않음”으로 표시됩니다. [오디오 및 비디오 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/quality-parameters). |
 | 미디어 컬렉션: 새로운 Media Reporting XDM을 위한 Adobe Source Connector 업데이트 | Analytics 소스 커넥터는 Adobe Analytics의 스트리밍 미디어 데이터를 Web SDK에서 사용하는 동일한 필드에 자동으로 매핑합니다. 이전에는 데이터가 이전 위치와 새 위치 모두에 매핑되어 있었지만 앞으로는 새 위치만 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
-| 용어 변경: “필터”에서 “세그먼트”로 변경 | 이전에는 Adobe Customer Journey Analytics에서 세그먼트를 “필터”라고 불렀습니다. 이 용어는 이제 Adobe Analytics와 일치하게 되었습니다. 이제 “필터”는 “세그먼트”로 호칭합니다. (분명히 검색 필터는 여전히 &quot;필터&quot;라고 합니다.) UI 및 설명서가 업데이트되었습니다. |
+| 용어 변경: “필터”에서 “세그먼트”로 변경 | 이전에는 Adobe Customer Journey Analytics에서 세그먼트를 “필터”라고 불렀습니다. 이 용어는 이제 Adobe Analytics와 일치하게 되었습니다. 이제 “필터”는 “세그먼트”로 호칭합니다. (검색 필터는 여전히 &quot;필터&quot;라고 부릅니다.) UI와 설명서가 업데이트되었습니다. |
 | **2025년 3월** | |
 | Quantum Metric 사용 사례 | [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md)에서 데이터를 수집하기 위한 사용 사례가 추가되었습니다. |
 | 제품 사용 템플릿 | 새로운 Workspace 템플릿을 사용하면 조직 내에서 Customer Journey Analytics 제품이 어떻게 사용되는지 확인할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates) |
