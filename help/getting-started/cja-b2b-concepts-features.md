@@ -7,26 +7,15 @@ role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
 TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 2%
+source-wordcount: 1545
+ht-degree: 3%
 
 ---
 
@@ -95,6 +84,9 @@ Analysis Workspace에서 특정 B2B 기능에 B2B 컨테이너를 사용할 수 
 
 B2B 컨테이너와 함께 세그먼트, 속성 및 시각화는 딥 B2B 분석 및 통찰력에서 지원합니다.
 
+## 스키마
+
+Customer Journey Analytics B2B 편집기는 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을(를) 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 [표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
 
 ## 데이터 세트
 
