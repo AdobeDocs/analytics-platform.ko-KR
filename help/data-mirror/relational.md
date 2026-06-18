@@ -237,7 +237,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
    1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
+  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
 
 
 ### 데이터 선택
