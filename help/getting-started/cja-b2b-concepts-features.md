@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 2%
+source-wordcount: 1545
+ht-degree: 3%
 
 ---
 
@@ -95,6 +95,9 @@ Analysis Workspace에서 특정 B2B 기능에 B2B 컨테이너를 사용할 수 
 
 B2B 컨테이너와 함께 세그먼트, 속성 및 시각화는 딥 B2B 분석 및 통찰력에서 지원합니다.
 
+## 스키마
+
+Customer Journey Analytics B2B 편집기는 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을(를) 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
 
 ## 데이터 세트
 

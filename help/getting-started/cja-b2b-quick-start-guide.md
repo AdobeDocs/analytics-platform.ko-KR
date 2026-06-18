@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 431
-ht-degree: 88%
+source-wordcount: 499
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ Customer Journey Analytics B2B 에디션을 구현하려면 다음 전제 조건
 
 | 작업 | 세부 사항 |
 | --- | --- |
-| **1단계: Experience Platform에 B2B 데이터 수집** | Experience Platform에서 수행되는 이 단계에는 다음과 같은 몇 가지 하위 단계가 포함됩니다.<ul><li>**1a단계: 데이터 스키마 준비**: [Adobe 경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 [스키마 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)를 합니다.</li><li>**1b단계: 스키마를 기반으로 데이터 세트 만들기**: 플랫폼의 데이터는 계정 데이터, 기회 데이터, 구매 그룹 데이터, 캠페인 데이터, 마케팅 목록 데이터, 이메일 데이터 세트, CRM 데이터 세트, POS 데이터 세트 등의 데이터 세트로 구성됩니다. 각 데이터 세트는 스키마와 데이터 배치로 구성됩니다. [Experience Platform에서 데이터 세트를 생성](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=ko)할 수 있습니다.</li><li>**1c단계: 데이터를 Experience Platform에 수집**: [몇 가지 옵션](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)이 있습니다.</li></ul> |
+| **1단계: Experience Platform에 B2B 데이터 수집** | Experience Platform에서 수행되는 이 단계에는 다음과 같은 몇 가지 하위 단계가 포함됩니다.<ul><li>**1a단계: 데이터 스키마 준비**: [Adobe 경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 [스키마 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)를 합니다.<br/>Real-Time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공되는 표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스와 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.</li><li>**1b단계: 스키마를 기반으로 데이터 세트 만들기**: 플랫폼의 데이터는 계정 데이터, 기회 데이터, 구매 그룹 데이터, 캠페인 데이터, 마케팅 목록 데이터, 이메일 데이터 세트, CRM 데이터 세트, POS 데이터 세트 등의 데이터 세트로 구성됩니다. 각 데이터 세트는 스키마와 데이터 배치로 구성됩니다. [Experience Platform에서 데이터 세트를 생성](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=ko)할 수 있습니다.</li><li>**1c단계: 데이터를 Experience Platform에 수집**: [몇 가지 옵션](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)이 있습니다.</li></ul> |
 | **2단계: 플랫폼 데이터 세트와 Customer Journey Analytics 간 연결 만들기** | 연결을 통해 Adobe Experience Platform의 데이터 세트를 작업 영역에 통합할 수 있습니다. Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience Platform과 작업 영역의 데이터 세트 간에 연결을 설정해야 합니다. B2B 에디션으로 연결을 구성할 때 추가 옵션이 제공됩니다. <br>[연결 만들기 또는 편집](/help/connections/create-connection.md)을 참조하십시오. |
 | **3단계: 데이터 보기 만들기** | 데이터 보기는 데이터의 *필터링된* 보기입니다. 방문 제한 시간, 속성 등에 대한 서로 다른 설정을 사용하여 동일한 연결에 대해 다른 데이터 보기를 만들 수 있습니다. 단일 데이터 세트에 대해 여러 데이터 보기를 만들 수 있습니다. B2B edition이 있을 때 데이터 보기를 구성할 때 추가 옵션이 있습니다.<br>데이터 보기 만들기[&#128279;](/help/data-views/create-dataview.md)를 참조하십시오. |
 | **4단계: Analysis Workspace에서 크로스 채널 데이터 보고하기** | 연결 및 데이터 보기를 만든 후 Analysis Workspace의 강력한 기능과 유연성을 사용하여 가져온 B2B 데이터를 분석하십시오.<br>기본 분석 수행[&#128279;](/help/analysis-workspace/perform-basic-analysis.md) 및 [고급 분석 수행](/help/analysis-workspace/perform-adv-analysis.md)을 참조하십시오. |

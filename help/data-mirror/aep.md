@@ -4,7 +4,6 @@ description: Customer Journey Analytics용 Experience Platform Data Mirror에 �
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
 autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
@@ -21,16 +20,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 571
 ht-degree: 6%
 
 ---
 
 # Experience Platform 구성
-
-{{release-limited-testing}}
 
 Experience Platform Data Mirror for Customer Journey Analytics을 사용하려면 여러 Experience Platform 구성 요소를 적절하게 구성해야 합니다.
 
@@ -107,6 +104,6 @@ Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용합니다.](relational.md)
->[Data Mirror (Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
+>[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용](relational.md)
+>[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
 >[관계형 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)
