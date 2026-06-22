@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 2022
-ht-degree: 96%
+source-wordcount: 2040
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_&#x200B;의 여정 캔버스 시각화에 대해 설명합니다![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/>**Adobe Analytics**&#x200B;에 해당하는 시각화가 없습니다._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 여정 캔버스 시각화를 설명합니다._<br/>_자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas)를 참조하십시오_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
