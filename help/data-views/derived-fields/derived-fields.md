@@ -22,10 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 536a1c7151521b26fccd486704d5c9426b039f53
 workflow-type: tm+mt
-source-wordcount: 10358
-ht-degree: 98%
+source-wordcount: 10387
+ht-degree: 97%
 
 ---
 
@@ -349,7 +349,7 @@ ht-degree: 98%
 
 ### 쿼리 문자열 매개변수 가져오기 {#querystring}
 
-이 함수 템플릿은 쿼리 문자열 값을 추출합니다.
+이 함수 템플릿은 지정된 쿼리 매개 변수에 대한 쿼리 문자열 값을 추출합니다. 쿼리 매개 변수는 대/소문자를 구분합니다. 쿼리 매개 변수의 대소문자를 모두 고려하려면 [소문자](#lowercase) 함수를 삽입하십시오.
 
 +++ 세부 사항
 
