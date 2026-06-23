@@ -552,7 +552,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="소스 커넥터 없음"
 >abstract="유료 미디어에는 광고 게시자를 위한 Experience Platform 소스 커넥터가 필요합니다. 이 샌드박스에서 사용할 수 있는 Google 광고 또는 Meta 광고 커넥터가 없습니다. **[!UICONTROL Experience Platform]** > **[!UICONTROL 소스]** 인터페이스에서 이러한 커넥터 중 하나 이상을 구성하고 이 단계로 돌아가서 Content Analytics 유료 미디어의 구성을 계속합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/ads" text="Google 광고 소스"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/ads" text="Google 광고 소스"
 
 #### 저장 {#web-save}
 
