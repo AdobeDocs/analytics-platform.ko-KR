@@ -7,11 +7,24 @@ role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 autotag-review: '2026-05-19T08:54:42.845Z'
 TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
 workflow-type: tm+mt
 source-wordcount: 4177
@@ -306,7 +319,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ##### 헤더 재정의 {#mobile-header-overrides}
