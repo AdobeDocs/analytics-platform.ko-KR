@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
+source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
 ht-degree: 63%
@@ -554,7 +554,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >abstract="유료 미디어에는 광고 게시자를 위한 Experience Platform 소스 커넥터가 필요합니다. 이 샌드박스에서 사용할 수 있는 Google 광고 또는 Meta 광고 커넥터가 없습니다. **[!UICONTROL Experience Platform]** > **[!UICONTROL 소스]** 인터페이스에서 이러한 커넥터 중 하나 이상을 구성하고 이 단계로 돌아가서 Content Analytics 유료 미디어의 구성을 계속합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/ads" text="Google 광고 소스"
 
-#### 저장 {#web-save}
+##### 저장 {#web-save}
 
 웹 채널에 대한 세부 정보를 지정한 후 **[!UICONTROL 저장]**&#x200B;을 선택하여 구성을 저장합니다. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
