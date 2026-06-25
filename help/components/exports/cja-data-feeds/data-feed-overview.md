@@ -7,19 +7,12 @@ hide: true
 exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
 autotag-review: '2026-05-19T08:45:11.428Z'
 TQID: 'https://experienceleague.adobe.com/TO8lEW8-GE-sIGj3vmm0X1zCgpg-0VpS1wjs0-HQjg8'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
 source-wordcount: 221
 ht-degree: 21%
@@ -36,7 +29,7 @@ ht-degree: 21%
 
 * Adobe Customer Journey Analytics <!-- For more information, see Data ingestion overview - add link -->에 수집되는 데이터를 사용하는 작업 구현
 * 계정이 Analytics 제품 관리자이거나 계정이 데이터 피드 <!--???-->에 대한 액세스 권한이 있는 제품 프로필에 속합니다.
-* {DNL Amazon S3}, {DNL Google Cloud Platform}, {DNL Azure RBAC}에 구성된 버킷 {DNL Azure SAS}
+* [!DNL Amazon S3], [!DNL Google Cloud Platform], [!DNL Azure RBAC] 또는 [!DNL Azure SAS]에 구성된 버킷
 
 ## 시작하기
 
