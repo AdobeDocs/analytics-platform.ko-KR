@@ -45,7 +45,7 @@ ht-degree: 44%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
 | **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md)은(는) 관계형 스키마를 사용하여 외부 데이터 웨어하우스 솔루션([!DNL Snowflake], [!DNL Azure Databricks] 및 [!DNL Google BigQuery])에서 Customer Journey Analytics으로 행 수준 변경 수집(변경 데이터 캡처)을 활성화하는 Experience Platform 기능입니다. ETL(업스트림 추출, 변환 및 로드) 프로세스 없이도 데이터 관계를 유지하고, 고유성을 적용하며, 버전 관리를 지원합니다. | 2026년 3월 25일 | 2026년 6월 17일 |
-| **AI Assistant에서 데이터 유효성 검사** <br/>AI Assistant를 사용하여 [Adobe Experience Platform 데이터 세트의 데이터 품질을 확인](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)할 수 있습니다. Agent Orchestrator을 기반으로 하는 데이터 유효성 검사 기능은 데이터 세트에 대한 통계 및 시맨틱 유효성 검사를 수행하고, 데이터 세트 필드를 분석하고, 데이터 품질 문제를 식별하고, 실행 가능한 통찰력과 함께 자연어 요약을 반환할 수 있습니다. | | 2026년 6월 22일 |
+| **AI Assistant에서 데이터 유효성 검사** <br/>AI Assistant를 사용하여 [Adobe Experience Platform 데이터 세트의 데이터 품질을 확인](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)할 수 있습니다. Agent Orchestrator을 기반으로 하는 데이터 유효성 검사 기능은 데이터 세트에 대한 통계 및 시맨틱 유효성 검사를 수행하고, 데이터 세트 필드를 분석하고, 데이터 품질 문제를 식별하고, 실행 가능한 통찰력과 함께 자연어 요약을 반환할 수 있습니다. | | 2026년 6월 22일 |
 
 ### Customer Journey Analytics의 수정 사항
 
