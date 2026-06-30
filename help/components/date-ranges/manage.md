@@ -15,10 +15,10 @@ subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 29%
+source-wordcount: 590
+ht-degree: 25%
 
 ---
 
@@ -105,15 +105,7 @@ ht-degree: 29%
 
 * [[!UICONTROL 날짜 범위] 목록](#date-ranges-list)에서 날짜 범위의 제목을 선택합니다.
 
-[날짜 범위 빌더](/help/components/date-ranges/create.md#date-range-builder)를 사용하여 날짜 범위를 편집합니다.
-
-
-
-
-날짜 범위 관리자를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제합니다. 날짜 관리자에 연결하려면:
-
-1. AdobeID 자격 증명을 사용하여 [analytics.adobe.com](https://analytics.adobe.com)에 로그인합니다.
-1. [!UICONTROL 구성 요소] > [!UICONTROL 날짜 범위]로 이동합니다.
+[날짜 범위 빌더](/help/components/date-ranges/create.md#date-range-builder)를 사용하여 날짜 범위를 편집합니다.[날짜 범위 관리자](/help/components/date-ranges/manage.md)를 사용하여 날짜 범위를 공유, 이름 변경 또는 삭제하세요.
 
 
 <!--
