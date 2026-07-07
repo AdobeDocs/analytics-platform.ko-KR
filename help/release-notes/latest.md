@@ -3,6 +3,7 @@ title: 최신 Customer Journey Analytics 릴리스 정보
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -27,25 +28,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+source-git-commit: b27408ce620b9dc62c06e4dc6dda00b2aef1c46d
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 44%
+source-wordcount: 746
+ht-degree: 38%
 
 ---
 
-# 최신 Customer Journey Analytics 릴리스 정보 (2026년 6월)
+# 최신 Customer Journey Analytics 릴리스 정보 (2026년 7월)
 
-**마지막 업데이트**: 2026년 6월 25일
+**마지막 업데이트**: 2026년 7월 8일
 
-이 릴리스 노트는 2026년 6월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 7월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
-| **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md)은(는) 관계형 스키마를 사용하여 외부 데이터 웨어하우스 솔루션([!DNL Snowflake], [!DNL Azure Databricks] 및 [!DNL Google BigQuery])에서 Customer Journey Analytics으로 행 수준 변경 수집(변경 데이터 캡처)을 활성화하는 Experience Platform 기능입니다. ETL(업스트림 추출, 변환 및 로드) 프로세스 없이도 데이터 관계를 유지하고, 고유성을 적용하며, 버전 관리를 지원합니다. | 2026년 3월 25일 | 2026년 6월 17일 |
-| **AI Assistant에서 데이터 유효성 검사** <br/>AI Assistant를 사용하여 [Adobe Experience Platform 데이터 세트의 데이터 품질을 확인](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)할 수 있습니다. Agent Orchestrator을 기반으로 하는 데이터 유효성 검사 기능은 데이터 세트에 대한 통계 및 시맨틱 유효성 검사를 수행하고, 데이터 세트 필드를 분석하고, 데이터 품질 문제를 식별하고, 실행 가능한 통찰력과 함께 자연어 요약을 반환할 수 있습니다. | | 2026년 6월 22일 |
+| **하위 이벤트 분석** <br/>하위 이벤트 분석을 사용하면 이벤트 수준보다 세부적인 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 또한 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 컨테이너로 정의할 수도 있습니다.</p> | 7월 8일 | 2026년 7월 말 |
+| **CJA B2B: Ad Hoc 및 관계형 데이터 세트 지원** <br/>Ad Hoc 및 관계형 데이터 세트는 이제 CJA B2B 계정 기반 연결에서도 지원됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 20일 |
+| **유료 미디어 데이터** <br/>유료 미디어가 Content Analytics의 세 번째 채널로 추가됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
+| **연결 사용 UI 업데이트** <br/>Customer Journey Analytics, Customer Journey Analytics B2B edition과 같은 각 개별 모듈에 대한 사용 세부 정보를 볼 수 있습니다. 또한 월별 각 모듈에 대한 사용 현황 보고를 분류할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
+| **CX Enterprise Coworker: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 때 데이터 유효성 검사** <br/>CX Enterprise Coworker의 새로운 기술을 사용하면 기존 Adobe Analytics 구현의 데이터에 대해 Customer Journey Analytics 구현의 데이터를 확인할 수 있습니다. <p>이 스킬은 각 차원, 지표 및 트렌드를 자동으로 비교한 다음, Customer Journey Analytics으로의 마이그레이션을 용이하게 하기 위해 구현할 수 있는 AI 기반 인사이트 및 권장 사항을 생성합니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
 
 ### Customer Journey Analytics의 수정 사항
 
