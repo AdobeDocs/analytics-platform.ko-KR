@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 840107d7c99277b0d75a5344b59109c6690b0596
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 954
 ht-degree: 2%
@@ -26,6 +26,8 @@ ht-degree: 2%
 ---
 
 # Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교
+
+{{release-limited-testing}}
 
 Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하면 원시 데이터를 서드파티 플랫폼으로 내보낼 수 있습니다. 이전에 Adobe Analytics에서 데이터 피드를 사용한 적이 있는 경우 다음 정보를 사용하여 사용 가능한 기능과 개념의 차이점을 이해하십시오.
 

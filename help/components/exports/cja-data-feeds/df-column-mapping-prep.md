@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 1092
 ht-degree: 3%
@@ -29,6 +29,8 @@ ht-degree: 3%
 ---
 
 # Adobe Analytics에서 Customer Journey Analytics으로 데이터 피드 열 매핑 준비
+
+{{release-limited-testing}}
 
 Customer Journey Analytics은 데이터 피드에 포함할 수 있는 열을 결정하기 위해 Adobe Analytics보다 유연한 아키텍처를 제공합니다. 대부분의 조직은 Customer Journey Analytics에서 내보낸 열과 Adobe Analytics에서 내보낸 열이 다를 것으로 예상해야 합니다. 이러한 차이는 다음 요인으로 인해 발생합니다.
 

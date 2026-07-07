@@ -28,14 +28,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3920
 ht-degree: 48%
 
 ---
 
 # Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매핑
+
+{{release-limited-testing}}
 
 Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에 true 1:1 매핑을 수행할 수 없습니다. 두 제품은 근본적으로 다르며, 각 조직의 구현도 크게 달라질 수 있다.
 
