@@ -38,9 +38,9 @@ ht-degree: 76%
 >
 >문서화된 구현 방법을 사용하여 하나 이상의 웹 사이트에 Adobe Analytics 라이선스가 부여되고 배포되었습니다.
 >
->- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
->- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
->- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
+>- [Experience Platform Edge를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=ko)
+>- [Adobe Analytics 확장을 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)
+>- [JavaScript를 사용하여 Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko)
 
 이를 구현하려면 다음 작업을 수행해야 합니다.
 
@@ -99,7 +99,7 @@ Adobe Analytics 소스 커넥터를 만드는 경우:
 
 초기 수집이 완료되면 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 사용할 수 있게 준비됩니다.
 
-보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
+보다 포괄적인 튜토리얼은 [UI에서 Adobe Analytics 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.
 
 ## 연결 설정
 
