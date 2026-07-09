@@ -7,22 +7,15 @@ feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 1664
-ht-degree: 100%
+source-wordcount: 1377
+ht-degree: 95%
 
 ---
 
@@ -47,9 +40,9 @@ ht-degree: 100%
 
 다음 섹션에서는 제안된 데이터 요소와 구성할 수 있는 기타 일반적인 데이터 요소를 설명합니다.
 
-데이터 요소에는 다양한 유형이 있습니다. 구성하고자 할 수 있는 두 가지 일반적인 데이터 요소는 다음과 같습니다. 하나는 사이트에서 사람들이 보고 있는 페이지 이름을 캡처하는 것이고, 다른 하나는 사이트를 방문하는 각 사람의 Experience Cloud ID를 캡처하는 것입니다.
+데이터 요소에는 다양한 유형이 있습니다. 구성할 수 있는 일반적인 데이터 요소는 사이트에서 사람들이 보고 있는 페이지 이름을 캡처하는 데이터 요소입니다.
 
-이 두 데이터 요소를 구성한 후에는 캡처하려는 특정 데이터에 대해 추가 데이터 요소를 구성할 수 있습니다.
+페이지 이름 데이터 요소를 구성한 후 캡처할 특정 데이터에 대해 추가 데이터 요소를 구성할 수 있습니다.
 
 마지막으로, 원하는 모든 데이터 요소를 정의한 후에는 이전에 [생성한 스키마](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 데이터 요소를 할당해야 합니다. 이를 수행하려면 XDM 스키마를 나타내는 XDM 데이터 요소를 정의해야 합니다.
 
@@ -93,55 +86,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-   이제 Adobe Experience Platform Web SDK에서 자동으로 제공되고 Experience Cloud ID 서비스 확장을 통해 사용할 수 있는 Experience Cloud ID를 참조하는 데이터 요소를 설정하려고 합니다.
-
-1. [ECID 데이터 요소](#ecid-data-element)로 계속 진행합니다.
-
-#### ECID 데이터 요소
-
-대부분의 조직에 적용되는 일반적인 데이터 요소는 사이트를 방문하는 각 개인의 Experience Cloud ID를 캡처하는 데이터 요소입니다.
-
-ECID 데이터 요소를 만드는 방법:
-
-1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
-
-1. Adobe Experience Platform에서 **[!UICONTROL 데이터 수집]** > **[!UICONTROL 태그]**&#x200B;로 이동합니다.
-
-1. [!UICONTROL 태그 속성] 목록에서 새로 만든 태그를 선택하여 엽니다.
-
-1. (조건부) Experience Cloud ID 서비스 확장 기능이 아직 설치되지 않았다면 설치합니다.
-
-   1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다.
-
-   1. 기본적으로 **[!UICONTROL 설치됨]** 탭이 선택됩니다. **[!UICONTROL Experience Cloud ID 서비스]** 타일이 나열되어 있으면 5단계로 건너뜁니다.
-
-   1. **[!UICONTROL Experience Cloud ID 서비스]** 타일이 나열되어 있으면 **[!UICONTROL 카탈로그]** 탭을 선택합니다.
-
-   1. 검색창에서 **[!UICONTROL Experience Cloud ID 서비스]**&#x200B;를 검색한 후 타일이 나타나면 선택합니다.
-
-   1. **[!UICONTROL 설치]** > **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-
-1. 왼쪽 레일에서 **[!UICONTROL 데이터 요소]**&#x200B;를 선택합니다.
-
-1. **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
-
-1. **[!UICONTROL 데이터 요소 만들기]** 대화 상자에서 다음 정보를 지정합니다.
-
-   * **[!UICONTROL 이름]**: 데이터 요소의 이름. 예 `ECID`.
-
-   * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Experience Cloud ID 서비스]**&#x200B;를 선택합니다.
-
-   * **[!UICONTROL 데이터 요소 유형]**: 목록에서 **[!UICONTROL ECID]**&#x200B;를 선택합니다.
-
-     ![ECID 데이터 요소](assets/ecid-dataelement.png)
-
-1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-
 1. [추가 데이터 요소 만들기](#create-additional-data-elements)로 계속 진행합니다.
 
 ### 추가 데이터 요소 만들기
 
-수집하려는 각 유형의 데이터에 대한 데이터 요소를 생성합니다. [페이지 이름 데이터 요소](#page-name-data-element)와 [ECID 데이터 요소](#ecid-data-element)에 설명된 동일한 프로세스를 사용하여 각 추가 데이터 요소를 생성합니다.
+수집하려는 각 유형의 데이터에 대한 데이터 요소를 생성합니다. [페이지 이름 데이터 요소](#page-name-data-element)에 설명된 것과 동일한 프로세스를 사용하여 각 추가 데이터 요소를 만듭니다.
 
 생성하는 데이터 요소는 스키마에 상관 필드가 있어야 합니다.
 
@@ -201,12 +150,6 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
    * **[!UICONTROL 스키마]**: 목록에서 스키마를 선택합니다.
 
-1. 스키마에 정의된 `identification > core > ecid` 속성을 ECID 데이터 요소에 매핑합니다. 원통 아이콘을 선택하여 데이터 요소 목록에서 ECID 데이터 요소를 쉽게 선택합니다.
-
-   ![ECID 데이터 요소 선택](assets/pick-ecid-dataelement.png)
-
-   ![ECID 데이터 요소 매핑](assets/map-ecid.png)
-
 1. 스키마에 정의된 `web > webPageDetails > name` 속성을 페이지 이름 데이터 요소에 매핑합니다.
 
    ![페이지 이름 데이터 요소 매핑](assets/map-pagename.png)
@@ -227,7 +170,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 >
 >태그에서 다양한 방식으로 규칙을 사용하여 변수를 조작할 수 있습니다(데이터 요소 사용).
 >
->자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko)을 참조하십시오.
+>자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)을 참조하십시오.
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
@@ -279,7 +222,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
 데이터 요소 및 규칙을 정의한 후 태그를 빌드하고 게시해야 합니다. 라이브러리 빌드를 만들면 이를 환경에 지정해야 합니다. 그런 다음 빌드의 확장, 규칙 및 데이터 요소를 컴파일하여 지정된 환경에 배치합니다. 각 환경에서는 지정된 빌드를 사이트에 통합할 수 있는 고유한 임베드 코드를 제공합니다.
 
-Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 수용해야 하는 간단하면서 복잡한 게시 워크플로를 지원합니다. 자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 수용해야 하는 간단하면서 복잡한 게시 워크플로를 지원합니다. 자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)를 참조하십시오.
 
 태그를 빌드하고 게시하는 경우:
 
