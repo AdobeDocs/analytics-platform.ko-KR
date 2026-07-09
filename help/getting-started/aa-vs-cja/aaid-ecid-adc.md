@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 96%
+source-wordcount: 632
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ Analytics 소스 커넥터에서 AAID는 `HEX(post_visid_high) + "-" + HEX(post_
 
 ## ECID
 
-ECID(Experience Cloud ID) 또는 MCID(Marketing Cloud ID)는 Adobe Analytics에서 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR)를 사용하여 Analytics가 구현될 때 채워지는 별도의 디바이스 식별자 필드입니다. ECID는 Adobe Analytics 데이터 피드의 `mcvisid` 열에 표시됩니다.
+ECID(Experience Cloud ID) 또는 MCID(Marketing Cloud ID)는 Analytics가 [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR)&#x200B;(AppMeasurement) 또는 Experience Platform ID 서비스(Web SDK)를 사용하여 구현될 때 Adobe Analytics에 채워지는 별도의 장치 식별자 필드입니다. ECID는 Adobe Analytics 데이터 피드의 `mcvisid` 열에 표시됩니다.
 
 이벤트에 ECID가 존재하는 경우, AAID는 Analytics [유예 기간](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=ko)이 구성되어 있는지 여부에 따라 ECID에 기반할 수 있습니다. [Analytics 및 Experience Cloud ID 요청](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=ko)도 참조하십시오.
 
@@ -65,8 +65,7 @@ Analytics 소스 커넥터는 다음과 같이 XDM 형식으로 Adobe Experience
 
 identityMap 내:
 
-* ECID가 있으면 이벤트의 기본 ID로 표시됩니다. 이 경우 AAID는 위의 설명에 따라 ECID를 기반으로 할 수 있습니다.
-그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
+* ECID가 있으면 이벤트의 기본 ID로 표시됩니다. 이 경우 AAID는 위의 설명에 따라 ECID를 기반으로 할 수 있습니다.그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
 * AACUSTOMID는 이벤트의 기본 ID로 표시되지 않습니다. 단, AACUSTOMID가 있으면 AAID는 위의 설명에 따라 AACUSTOMID를 기반으로 합니다.
 
 하나 또는 여러 개의 ID가 `identityMap`에 복사되면 `endUserIDs._experience.mcid.namespace.code`도 동일한 이벤트에 대해 다음과 같이 설정됩니다.
