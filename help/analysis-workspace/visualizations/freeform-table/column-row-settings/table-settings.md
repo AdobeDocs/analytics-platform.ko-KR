@@ -6,18 +6,11 @@ exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 hold: true
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d52a5194712a2a1d9304cf8bf420e937f3d1e255
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
 workflow-type: tm+mt
 source-wordcount: 1596
 ht-degree: 56%
@@ -38,7 +31,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -114,12 +107,12 @@ ht-degree: 56%
 
 ## 행 높이 변경
 
-프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
 
 
 ## 인라인 분류 예
 
-이 예제에서는 **[!UICONTROL 선택한 행 이름 바꾸기]**, **[!UICONTROL 선택한 행 결합]** 및 **[!UICONTROL 파생 필드로 만들기]** 컨텍스트 메뉴 옵션을 사용하는 방법을 보여 주었습니다. 수정된 자유 형식 테이블을 재설정하는 방법 을 참조하십시오.
+이 예제에서는 **[!UICONTROL 선택한 행 이름 바꾸기]**, **[!UICONTROL 선택한 행 결합]** 및 **[!UICONTROL 파생 필드로 만들기]** 컨텍스트 메뉴 옵션을 사용하는 방법을 보여 줍니다. 수정된 자유 형식 테이블을 재설정하는 방법 을 참조하십시오.
 
 * **[!UICONTROL 값 없음]** 행의 이름을 **[!UICONTROL 기타]**(으)로 바꾸십시오.
 
@@ -160,7 +153,7 @@ ht-degree: 56%
 
 * 자유 형식 테이블을 수정 전 상태로 재설정합니다.
 
-   1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
+   1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
    1. **[!UICONTROL 이름이 변경된 행]** 팝업에서 **[!UICONTROL 이름이 변경된 행 재설정]**&#x200B;을 선택합니다.
 
       ![자유 형식 테이블 재설정](assets/popup-reset.png)
