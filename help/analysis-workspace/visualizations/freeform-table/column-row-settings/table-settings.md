@@ -4,6 +4,7 @@ title: 행 설정
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
+hold: true
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -16,10 +17,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 78%
+source-wordcount: 1596
+ht-degree: 56%
 
 ---
 
@@ -76,24 +77,33 @@ ht-degree: 78%
 
 | 옵션 | 설명 |
 | --- | --- |
+| **[!UICONTROL 클립보드에 선택 항목 복사]** | 자유 형식 테이블의 선택한 셀에 있는 정보를 복사합니다. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
 | **[!UICONTROL 하이퍼링크 만들기]** | 해당 항목에 대한 하이퍼링크를 만듭니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
 | **[!UICONTROL 하이퍼링크 편집]** | 해당 항목에 대한 하이퍼링크를 편집합니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
 | **[!UICONTROL 하이퍼링크 제거]** | 해당 항목에 대한 하이퍼링크를 제거합니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
+| **[!UICONTROL CSV로 선택 항목 다운로드]** | 시각화의 차원 항목을 즉시 로컬 디바이스에 다운로드합니다. |
+| **[!UICONTROL 선택 항목 삭제]** | 선택한 행을 삭제합니다. |
+| **[!UICONTROL 선택 항목에서 경고 만들기]** | 선택 항목에서 경고를 만들려면 [경고 빌더](/help/components/c-intelligent-alerts/alert-builder.md)를 여십시오. |
 | **[!UICONTROL 분류]** | 차원 항목을 분류합니다. **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]** 목록에서 선택하십시오. *검색*&#x200B;을 사용하여 구성 요소를 대체 검색합니다. |
-| **[!UICONTROL 선택 항목 삭제]** | 선택한 행(항목)을 삭제합니다. |
+| **[!UICONTROL 시각화]** | 사용 가능한 시각화를 사용하여 선택 사항을 시각화합니다. |
 | **[!UICONTROL 트렌드 선택]** | 선택 항목에 대한 트렌드 라인 차트 시각화를 만듭니다. |
 | **[!UICONTROL 선택한 행만 표시]** | 시각화에서 선택한 행만 표시합니다. |
 | **[!UICONTROL 모든 행 표시]** | 시각화에 모든 행을 표시합니다. |
-| **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | **[!UICONTROL 세그먼트 빌더]**&#x200B;를 열어 선택 항목에서 세그먼트를 빌드합니다. |
-| **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택 항목을 기준으로 대상자를 빌드하려면 **[!UICONTROL 대상자 만들기]** 대화 상자를 엽니다. |
+| **[!UICONTROL 선택한 행 이름 바꾸기]** | 선택한 행의 이름을 변경합니다. **[!UICONTROL 선택한 행 이름 바꾸기]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행 이름이 바뀌면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 이름이 바뀐 행을 재설정할 수 있습니다. [인라인 분류 예제](#inline-classifications-example)를 참조하십시오. |
+| **[!UICONTROL 선택한 행 결합]** | 선택한 행을 결합합니다. **[!UICONTROL 선택한 행 결합]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행이 결합되면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 이름이 변경된 행을 재설정할 수 있습니다. [인라인 분류 예제](#inline-classifications-example)를 참조하십시오. |
+| **[!UICONTROL 파생 필드로 만들기]** | *이 상황에 맞는 메뉴 옵션을 보려면 Customer Journey Analytics 제품 관리자여야 합니다.*<br/>&#x200B;행 이름을 바꾸거나 결합하여 수정한 자유 형식 테이블의 선택한 행에서 사용할 수 있습니다. 선택하면 [파생 필드 인터페이스](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field)가 열리고 자유 형식 테이블에 대한 수정 사항이 이미 미리 채워져 있습니다. [인라인 분류 예제](#inline-classifications-example)를 참조하십시오. |
+| **[!UICONTROL 선택 항목으로 주석 만들기]** | [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 열어 선택 항목을 위한 주석을 빌드합니다. |
+| **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | [세그먼트 빌더](/help/components/segments/seg-builder.md)를 열어 선택 항목에서 세그먼트를 빌드합니다. |
+| **[!UICONTROL 선택 항목으로 대상자 만들기]** | [대상 빌더](/help/components/audiences/publish.md#audience-builder)를 열어 선택 항목에서 대상을 빌드합니다. |
 
 지표 열 머리글을 선택할 때 다음과 같은 추가 컨텍스트 메뉴 옵션을 사용할 수 있습니다.
 
 | 옵션 | 설명 |
 |---|---|
 | **[!UICONTROL 선택 항목으로 지표 만들기]** | 선택한 지표에서 새 지표를 만듭니다. 지표는 평균, 미디어, 열 최대값, 열 최소값, 열 합계가 될 수 있습니다. 계산된 지표 빌더에서 열기를 선택하여 계산된 지표를 만들 수도 있습니다. |
-| **[!UICONTROL 기간 열 추가]** | 기간 열을 추가합니다. 패널의 캘린더 범위에 따라 *날짜 범위*&#x200B;가 결정되는 여러 옵션이 제공됩니다. <li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위까지 이 *날짜 범위*]**.</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
-| **[!UICONTROL 기간 비교]** | 비교 기간 열을 추가합니다. 차원이 시간을 기준으로 하지 않을 때만 사용할 수 있습니다. *날짜 범위*&#x200B;를 결정하는 몇 가지 옵션이 제공됩니다. <li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
+| **[!UICONTROL 기간 열 추가]** | 기간 열을 추가합니다. 패널의 캘린더 범위에 따라 *날짜 범위*&#x200B;가 결정되는 여러 옵션이 제공됩니다. <ul><li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위까지 이 *날짜 범위*]**.</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li></ul>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
+| **[!UICONTROL 기간 비교]** | 비교 기간 열을 추가합니다. 차원이 시간을 기준으로 하지 않을 때만 사용할 수 있습니다. *날짜 범위*&#x200B;를 결정하는 몇 가지 옵션이 제공됩니다. <ul><li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li></ul>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
 | **[!UICONTROL 속성 모델 수정]** | 열에 대한 속성 모델을 수정합니다. |
 | **[!UICONTROL 속성 모델 비교]** | 새로운 속성 모델을 지정하고 선택한 열의 속성 모델과 비교합니다. 새로운 속성 모델 지표가 포함된 새 열이 추가되었습니다. 또한 비교를 위해 백분율 변경 열이 추가되었습니다. |
 | **[!UICONTROL 열 너비 재설정]** | 열 너비를 기본 너비로 재설정합니다. |
@@ -101,6 +111,57 @@ ht-degree: 78%
 | **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | **[!UICONTROL 세그먼트 빌더]**&#x200B;를 열어 선택 항목에서 세그먼트를 빌드합니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택 항목을 기준으로 대상자를 빌드하려면 **[!UICONTROL 대상자 만들기]** 대화 상자를 엽니다. |
 
+
 ## 행 높이 변경
 
 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
+
+
+## 인라인 분류 예
+
+이 예제에서는 **[!UICONTROL 선택한 행 이름 바꾸기]**, **[!UICONTROL 선택한 행 결합]** 및 **[!UICONTROL 파생 필드로 만들기]** 컨텍스트 메뉴 옵션을 사용하는 방법을 보여 줍니다. 수정된 자유 형식 테이블을 재설정하는 방법 을 참조하십시오.
+
+* **[!UICONTROL 값 없음]** 행의 이름을 **[!UICONTROL 기타]**(으)로 바꾸십시오.
+
+   1. 선택한 **[!UICONTROL 값 없음]** 행의 컨텍스트 메뉴에서 **[!UICONTROL 선택한 행 이름 바꾸기]**&#x200B;를 선택합니다.
+
+      ![선택한 행 컨텍스트 메뉴 옵션 이름 바꾸기](assets/context-rename.png)
+
+   1. **[!UICONTROL 선택한 행 이름 바꾸기]** 대화 상자에서:
+
+      ![선택한 행 이름 바꾸기 대화 상자](assets/dialog-rename.png)
+
+      1. <code>기타 입력</code> **[!UICONTROL 이름]**&#x200B;용.
+      1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+
+* **[!UICONTROL 남성]** 및 **[!UICONTROL 여성]** 행을 하나의 **[!UICONTROL 성인]** 행에 결합하십시오.
+
+   1. **[!UICONTROL 남성]** 및 **[!UICONTROL 여성]** 행을 선택하십시오.
+   1. 선택한 행에서 컨텍스트 메뉴에서 **[!UICONTROL 선택한 행 결합]**&#x200B;을 선택합니다.
+
+      ![선택한 행 결합 메뉴 옵션 선택](assets/context-combine.png)
+
+   1. **[!UICONTROL 선택한 행 결합]** 대화 상자에서 다음 작업을 수행합니다.
+
+      ![선택한 행 대화 상자 결합](assets/dialog-combine.png)
+
+      1. <code>성인 입력</code> **[!UICONTROL 이름]**&#x200B;용.
+      1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+
+* 자유 형식 테이블의 수정 사항에서 파생된 필드를 만듭니다.
+
+   1. 수정된 테이블에서 선택한 행에 대한 컨텍스트 메뉴에서 **[!UICONTROL 파생 필드로 만들기]**&#x200B;를 선택합니다.
+
+      ![파생 필드로 만들기 메뉴 옵션 선택](assets/context-derived.png)
+
+   1. 테이블에서 수정된 모든 사항을 기반으로 파생 필드의 정의를 검사, 수정(선택 사항) 및 저장합니다.
+
+      ![파생 필드 만들기 대화 상자](assets/dialog-derived.png)
+
+* 자유 형식 테이블을 수정 전 상태로 재설정합니다.
+
+   1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
+   1. **[!UICONTROL 이름이 변경된 행]** 팝업에서 **[!UICONTROL 이름이 변경된 행 재설정]**&#x200B;을 선택합니다.
+
+      ![자유 형식 테이블 재설정](assets/popup-reset.png)
+
