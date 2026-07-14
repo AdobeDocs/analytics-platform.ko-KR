@@ -4,8 +4,10 @@ description: 하위 이벤트 분석을 통해 고객 여정 분석에서 이벤
 feature: Segmentation
 hold: true
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: 6b2b6fbf16c7aa7a7a31bb46ac63e4150bf2cfc8
 workflow-type: tm+mt
 source-wordcount: 564
