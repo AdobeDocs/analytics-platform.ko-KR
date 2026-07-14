@@ -17,7 +17,7 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
+source-git-commit: 8a63b9948d58c4057db7fa74b36e9d0e0210f946
 workflow-type: tm+mt
 source-wordcount: 1596
 ht-degree: 56%
@@ -164,4 +164,3 @@ ht-degree: 56%
    1. **[!UICONTROL 이름이 변경된 행]** 팝업에서 **[!UICONTROL 이름이 변경된 행 재설정]**&#x200B;을 선택합니다.
 
       ![자유 형식 테이블 재설정](assets/popup-reset.png)
-
