@@ -33,7 +33,7 @@ ht-degree: 88%
 
 ## 데이터 거버넌스
 
-Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
+Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
 
@@ -53,7 +53,7 @@ Customer Journey Analytics은 Experience Platform 프로필 데이터 세트의 
 
 Adobe는 해당 지역 및 국제법에 따라 개인정보 보호 요청을 처리합니다.
 
-Customer Journey Analytics는 Adobe Experience Platform에서 제공하는 데이터를 사용하므로 Adobe는 데이터 액세스 및 삭제 요청을 제출할 수 있는 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
+Customer Journey Analytics는 Adobe Experience Platform에서 제공하는 데이터를 사용하므로 Adobe는 데이터 액세스 및 삭제 요청을 제출할 수 있는 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)를 제공합니다. 이러한 요청은 원래 데이터 세트와 재입력된 데이터 세트 모두에 적용됩니다.
 
 ## GDPR
 
@@ -65,4 +65,4 @@ CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 
 
 >[!MORELIKETHIS]
 >
->* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [블로그: Adobe Customer Journey Analytics에서 효과적인 거버넌스를 유지하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=ko)
