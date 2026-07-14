@@ -5,22 +5,18 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:11:52.108Z'
 TQID: 'https://experienceleague.adobe.com/zvIcmaZiq3dtL-6b8fal6l2pWVLUbfVcOGWgyuqMqjE'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 65ed91c47b271257451243db6f7e50e127ff4b68
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 95%
+source-wordcount: 955
+ht-degree: 93%
 
 ---
 
@@ -62,7 +58,7 @@ ht-degree: 95%
 * **[!UICONTROL 기준]**: 구분된 값 목록을 처리하는 방법
    * **[!UICONTROL 왼쪽에서 시작]**: 구분된 목록의 시작 부분부터 시작하여 앞으로 계산합니다.
    * **[!UICONTROL 오른쪽에서 시작]**: 구분된 목록의 끝 부분부터 시작하여 거꾸로 계산합니다.
-   * **[!UICONTROL 배열로 변환]**: 이 차원을 오브젝트 배열 스키마 요소처럼 처리합니다.
+   * **[!UICONTROL 배열로 변환]**: 이 차원을 오브젝트 배열 스키마 요소처럼 처리합니다. 이 차원은 데이터 보기에서 선택하여 작업 영역 프로젝트의 [하위 이벤트 분석](/help/components/segments/sub-event.md)에 사용할 수 있는 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#containers-1)(으)로 사용할 수 있습니다.
 * **[!UICONTROL 구분 기호]**: 필드에서 사용하는 구분 기호입니다.
 * **[!UICONTROL 색인]**: 기준이 왼쪽/오른쪽에서 시작인 경우에만 표시됩니다. 배열에 있던 것과 같은 요소 번호입니다. 예를 들어 문자열 입력이 `"Fox,Turtle,Rabbit,Wolf"`이고 색인이 3이면 출력은 `"Rabbit"`입니다. 색인이 사용 가능한 구분 요소의 수보다 높으면 [값 옵션 없음](no-value-options.md)이 적용됩니다.
 
