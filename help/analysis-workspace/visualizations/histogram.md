@@ -4,20 +4,14 @@ title: 히스토그램
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-hold: true
 autotag-review: '2026-05-19T08:31:33.712Z'
 TQID: 'https://experienceleague.adobe.com/X9T4RpAiJ8uL0clPhyjffdl02kwd-k2Jv3O5t6iHfss'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
 source-wordcount: 494
 ht-degree: 74%
@@ -34,7 +28,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하십시오._
+_이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/histogram)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -80,5 +74,5 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![CustomerJo
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가시각화 설정시각화 상황에 맞는 메뉴히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
+>[패널에 시각화 추가시각화 설정시각화 상황에 맞는 메뉴히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
