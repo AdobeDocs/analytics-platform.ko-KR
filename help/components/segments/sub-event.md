@@ -2,16 +2,15 @@
 title: 하위 이벤트 분석
 description: 하위 이벤트 분석을 통해 고객 여정 분석에서 이벤트 내의 개별 제품 또는 다른 컨테이너를 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
-hold: true
 hide: true
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 0%
+source-wordcount: 630
+ht-degree: 9%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 0%
 - Media Analytics 데이터 내의 특정 미디어 채널에서 세그먼트화합니다.
 
 
-Customer Journey Analytics에서는 하위 이벤트 분석을 사용할 컨테이너를 데이터 보기 내에 정의합니다. 하위 이벤트 분석이 없으면 컨테이너 항목 속성에 대해 세그먼트화하면 이벤트 내의 모든 항목이 컨테이너 항목 속성과 일치하는 모든 이벤트가 반환됩니다. 그 결과가 잘못된 속성 및 부풀려진 매출 지표입니다. 하위 이벤트 분석에서는 필터를 이벤트 내의 개별 항목 행으로 범위를 지정하고 이러한 문제를 해결합니다.
+Customer Journey Analytics에서는 하위 이벤트 분석을 사용할 컨테이너를 데이터 보기 내에 정의합니다. 하위 이벤트 분석을 사용하지 않으면 컨테이너 항목 속성에 대한 세그먼트화는 정의한 모든 이벤트, 세션, 사용자, (글로벌) 계정 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, 구매 그룹 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, 기회 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 또는 기타 [컨테이너](/help/data-views/create-dataview.md#containers-1)를 반환합니다. 그 결과가 잘못된 속성 및 부풀려진 매출 지표입니다. 하위 이벤트 분석에서는 필터를 이벤트 내의 개별 컨테이너 행으로 범위를 지정하고 이러한 문제를 해결합니다.
 
 하위 이벤트 분석에서 제외 논리는 컨테이너에 대한 표준 이벤트 수준 제외와 다르게 동작합니다. 컨테이너 내에서 항목 특성을 제외하면 세그먼트는 컨테이너 내에 **항목이 있지만**&#x200B;제외 기준과 일치하지 않는 이벤트를 반환합니다. 세그먼트는 항목이 없는 이벤트를 반환하지 않습니다.
 
