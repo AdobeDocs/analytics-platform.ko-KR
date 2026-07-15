@@ -5,15 +5,10 @@ feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
 TQID: https://experienceleague.adobe.com/RKh01bcmVkoZ2wkHDvBM-oX9rRagVaOqK4fn2A-IpaI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df28738e-9c71-4aa8-929e-edde22340cc6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7c679fcbf52d2a5832d16bf138bd197f11f4ceb7
 workflow-type: tm+mt
 source-wordcount: 434
@@ -28,7 +23,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="데이터 사전"
->abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 공유 받은 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합된 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다."
+>abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 공유 받은 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합된 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
