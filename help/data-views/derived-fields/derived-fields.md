@@ -5,6 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -22,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 536a1c7151521b26fccd486704d5c9426b039f53
+source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
-source-wordcount: 10387
-ht-degree: 97%
+source-wordcount: 10573
+ht-degree: 98%
 
 ---
 
@@ -302,6 +303,8 @@ ht-degree: 97%
 템플릿을 사용하려면 템플릿의 규칙에 나열된 각 함수에 대한 올바른 매개변수를 지정해야 합니다. 자세한 내용은 [함수 참조](#function-reference)를 참조하십시오.
 
 ![구분된 목록의 모든 값 가져오기 규칙 빌더의 스크린샷](assets/function-template-get-all-values-in-delimited-list.png)
+
+파생 필드는 데이터 보기에서 선택하여 작업 영역 프로젝트의 [하위 이벤트 분석](/help/components/segments/sub-event.md)에 사용할 수 있는 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#containers-1)(으)로 사용할 수 있게 됩니다.
 
 +++
 
@@ -755,8 +758,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 ## 사용 사례 1 {#classify-uc1}
 
-`hotelID`에 대한 키 열과 `hotelID`과(와) 연결된 하나 이상의 추가 열을 포함하는 CSV 파일이 있습니다. `city`, `rooms`, `hotel name`.
-차원에서 [!DNL Hotel ID]을(를) 수집하지만 CSV 파일의 `hotelID`에서 파생된 [!DNL Hotel Name] 차원을 만들려고 합니다.
+`hotelID` 및 `hotelID`에 연결된 하나 이상의 추가 열 `city`, `rooms`, `hotel name`이 포함된 CSV 파일이 있습니다.차원에서 [!DNL Hotel ID]을 수집하고 있지만 CSV 파일의 `hotelID`에서 파생된 [!DNL Hotel Name] 차원을 만들고자 합니다.
 
 **CSV 파일 구조 및 콘텐츠 추가**
 
@@ -1014,8 +1016,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 세션 이내에 고객이 주문하기 전에 검색 시간을 분 단위로 이해하려고 합니다.
 
-[!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간] 값을 정의하기 위해 두 개의 [[!UICONTROL CASE WHEN] 함수](#case-when)의 결과인 새 `Time Between Search And Order In Minutes` 파생 필드를 정의합니다.
-그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]가 [!UICONTROL 세션]&#x200B;(으)로 설정된 [!UICONTROL DATE MATH] 함수와 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간] 및 [!UICONTROL 출력 세부 기간]이 [!UICONTROL 분]&#x200B;(으)로 설정된 값의 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 &#x200B;] 반환을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
+[!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간] 값을 정의하기 위해 두 개의 [[!UICONTROL CASE WHEN] 함수의 결과인](#case-when)새 `Time Between Search And Order In Minutes` 파생 필드를 정의합니다.그런 다음 이 두 값을 사용하여 [!UICONTROL 범위]가 [!UICONTROL 세션]으로, 값이 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]으로, [!UICONTROL 출력 세부 시간]이 [!UICONTROL 분]으로 설정된 [!UICONTROL DATE MATH] 함수를 통해 차이를 계산합니다. 두 값 모두에 대해 [!UICONTROL 첫 번째 반환]을 선택하여 첫 번째 [!UICONTROL 검색 시간] 및 [!UICONTROL 주문 시간]이 반환되도록 합니다.
 
 ![Date Math 규칙의 스크린샷 3](assets/datemath-3.png)
 
@@ -1287,8 +1288,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 1. 선택기에서 **[!UICONTROL 스키마 필드]**&#x200B;를 선택합니다.
 1. ![스키마 필드 아이콘](assets/Smock_Folder_18_N.svg) **[!UICONTROL 조회 데이터 세트]**&#x200B;를 선택합니다.
 1. 조회 데이터 세트를 선택하고 조회에 사용할 필드를 찾습니다.
-1. 함수에 사용할 수 있는 입력 필드(예: Case When)에 조회 필드를 끌어다 놓습니다. 유효하면 **[!UICONTROL + 추가]** 레이블이 지정된 파란색 상자를 사용하여 필드를 삭제하고 조회 필드를 놓은 함수 앞에 조회 함수를 자동으로 삽입할 수 있습니다. 삽입된 조회 함수는 모든 필드에 대한 관련 값으로 자동으로 채워집니다.
-   ![조회 드래그](assets/lookup-drag.png)
+1. 사용 가능한 함수 입력 필드(예: 다음과 같은 경우)에 조회 필드를 끌어다 놓습니다. 유효한 경우, **[!UICONTROL + 추가]** 레이블이 있는 파란색 상자는 필드를 삭제하고 조회 필드를 삭제한 함수 이전에 조회 함수를 자동으로 삽입할 수 있도록 해 줍니다. 삽입된 조회 기능은 모든 필드에 대한 관련 값으로 자동 채워집니다.   ![조회 드래그](assets/lookup-drag.png)
 
 +++
 
@@ -1409,8 +1409,7 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 수식을 만드는 방법:
 
-1. 수식 필드에 입력을 시작하면 입력한 내용과 일치하는 숫자 필드가 팝업 메뉴에 나타납니다. 또는 왼쪽 창의 사용 가능한 필드에서 숫자 필드를 끌어다 놓을 수 있습니다.
-   ![수학 자세히 정보 1](assets/math-more-info-1.png)
+1. 수식 필드에 입력을 시작하면 입력한 내용과 일치하는 숫자 필드가 팝업 메뉴에 나타납니다. 또는 왼쪽 창의 사용 가능한 필드에서 숫자 필드를 끌어다 놓을 수 있습니다.   ![수학 자세히 정보 1](assets/math-more-info-1.png)
 
 1. 다른 필드 또는 정적 값이 따라오는 피연산자(예: 곱하기는 `*`)를 추가합니다. 더 복잡한 수식을 정의하려면 괄호를 사용할 수 있습니다.
 

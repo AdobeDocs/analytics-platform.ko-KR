@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: 0cc15e1c3dcbd8609a47954af8602ad617c67a51
 workflow-type: tm+mt
-source-wordcount: 2675
-ht-degree: 29%
+source-wordcount: 2774
+ht-degree: 28%
 
 ---
 
@@ -68,6 +68,15 @@ ht-degree: 29%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_user-agent"
+>title=""
+>abstract="사용자 에이전트 데이터와 장치 조회 데이터가 동일한 데이터 피드 구성에 있을 수 없습니다."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 
 1. 인터페이스 오른쪽 상단에 있는 앱 전환기 ![App](/help/assets/icons/Apps.svg)에서 [!UICONTROL **Customer Journey Analytics**]&#x200B;를 선택합니다.
@@ -101,6 +110,11 @@ ht-degree: 29%
 
 1. 데이터 피드 구성에 구성 요소를 추가합니다. 왼쪽 레일에서 포함할 구성 요소를 찾은 다음 캔버스로 드래그하여 데이터 구조를 만듭니다. **[!UICONTROL Shift 키]**&#x200B;를 누르거나 **[!UICONTROL Command]**(macOS) 또는 **[!UICONTROL Ctrl]**(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
 
+   >[!NOTE]
+   >
+   >사용자 에이전트 데이터와 장치 조회 데이터가 동일한 데이터 피드 구성에 있을 수 없습니다. 충돌하는 구성 요소를 추가하려고 하면 오류가 표시됩니다. 자세한 내용은 데이터 수집 가이드의 [데이터 스트림 만들기 및 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)에서 [장치 조회 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#geolocation-device-lookup)을 참조하십시오.
+
+
    다음 정보를 사용하여 항상 포함되는 차원, 포함할 수 없는 차원 및 대체해야 하는 지표를 이해합니다.
 
    +++ 데이터 피드에 항상 포함되는 차원
@@ -109,9 +123,9 @@ ht-degree: 29%
 
    | 차원 이름 | 참고 | 데이터 피드 | 기타 보고 |
    |---|---|---|---|
-   | 타임스탬프 | 이벤트 기간의 타임스탬프. 마이크로초 세부 기간. UTC로 표시됩니다. | 필수 | 사용할 수 없음 |
-   | 행 ID | 고유 행 식별자 | 필수 | 사용할 수 없음 |
-   | 세션 ID | 각 세션에 대한 고유 식별자 | 필수 | 사용할 수 없음 |
+   | 타임스탬프 UTC | 이벤트가 발생한 날짜 및 시간으로, UTC 시간대로 표시됩니다. 초 미만(초단위) 세부 기간을 지원합니다. | 필수 | 사용할 수 없음 |
+   | 행 ID | 데이터 피드에 포함된 각 행의 고유 식별자입니다. | 필수 | 사용할 수 없음 |
+   | 세션 ID | 데이터 피드에 포함된 각 세션에 대한 고유 식별자. | 필수 | 사용할 수 없음 |
    | 개인 ID | 데이터 보기 및 연결에 대한 개인 식별자 | 필수 | 선택 사항 표준 |
    | 계정 ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 계정 컨테이너를 사용할 때의 계정 ID | 필수 | 선택 사항 표준 |
 
