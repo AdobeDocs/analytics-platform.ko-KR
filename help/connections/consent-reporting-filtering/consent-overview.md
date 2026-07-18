@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: 1058
 ht-degree: 2%
 
 ---
@@ -29,6 +29,15 @@ ht-degree: 2%
 # 동의 보고 및 필터링 개요
 
 동의 보고 및 필터링은 Adobe Experience Platform 프로필 데이터 세트에 저장된 동의 정책 멤버십 데이터를 사용하여 방문자 동의를 보고하고, 동의를 받지 않은 방문자의 데이터를 Customer Journey Analytics에 수집하기 전에 선택적으로 제외하는 데 도움이 됩니다.
+
+## 사전 요구 사항
+
+동의 보고 및 필터링을 구성하기 전에 다음을 확인하십시오.
+
+* 조직은 Adobe Healthcare Shield 또는 Privacy &amp; Security Shield에 라이선스를 부여했습니다.
+* Customer Journey Analytics에서 시스템 관리자 권한이 있습니다.
+* 사용하려는 샌드박스에 동의 정책 구성원 데이터가 있는 프로필 데이터 세트가 `consentPoliciesIDMap` 필드에 포함되어 있습니다.
+* 구성할 연결이 이미 있습니다. 자세한 내용은 [연결 만들기 또는 편집](/help/connections/create-connection.md)을 참조하세요.
 
 다음 다이어그램 및 관련 테이블은 동의 보고 및 필터링을 통해 Analysis Workspace에서 동의 정책 데이터를 사용할 수 있도록 하고 수집 시 방문자 데이터를 필터링하는 방법을 개괄적으로 보여 줍니다.
 
