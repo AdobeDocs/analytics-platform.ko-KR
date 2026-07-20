@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
+source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
 ht-degree: 90%
@@ -419,7 +419,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="계정 ID"
->abstract="필요한 경우 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유 계정 식별자로 사용됩니다."
+>abstract="필요한 경우 XDM 스키마에 정의된 사용 가능한 비ID 또는 비사용자 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유 계정 식별자로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -582,8 +582,8 @@ ht-degree: 90%
    * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
    * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
    * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
-      1. 테이블에 표시할 열을 선택합니다.
-      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
+     1. 테이블에 표시할 열을 선택합니다.
+     1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
    * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
 
    **[!UICONTROL 데이터 집합 정보]** 창에는 데이터 집합에 대한 세부 정보가 표시됩니다. **[!UICONTROL 스키마]** 또는 **[!UICONTROL 데이터 세트]**&#x200B;의 값을 선택하여 새 브라우저 탭에서 Experience Platform의 관련 인터페이스를 엽니다.
@@ -674,8 +674,8 @@ ht-degree: 90%
    * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
    * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
    * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
-      1. 테이블에 표시할 열을 선택합니다.
-      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
+     1. 테이블에 표시할 열을 선택합니다.
+     1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
    * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
 
    **[!UICONTROL 데이터 집합 정보]** 창에는 데이터 집합에 대한 세부 정보가 표시됩니다. **[!UICONTROL 스키마]** 또는 **[!UICONTROL 데이터 세트]**&#x200B;의 값을 선택하여 새 브라우저 탭에서 Experience Platform의 관련 인터페이스를 엽니다.
