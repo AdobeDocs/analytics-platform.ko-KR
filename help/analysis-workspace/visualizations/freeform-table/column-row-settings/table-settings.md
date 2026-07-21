@@ -16,10 +16,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
+source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
 workflow-type: tm+mt
-source-wordcount: 1628
-ht-degree: 55%
+source-wordcount: 1630
+ht-degree: 53%
 
 ---
 
@@ -106,9 +106,9 @@ ht-degree: 55%
 | **[!UICONTROL 속성 모델 수정]** | 열에 대한 속성 모델을 수정합니다. |
 | **[!UICONTROL 속성 모델 비교]** | 새로운 속성 모델을 지정하고 선택한 열의 속성 모델과 비교합니다. 새로운 속성 모델 지표가 포함된 새 열이 추가되었습니다. 또한 비교를 위해 백분율 변경 열이 추가되었습니다. |
 | **[!UICONTROL 열 너비 재설정]** | 열 너비를 기본 너비로 재설정합니다. |
-| **[!UICONTROL 선택 항목으로 주석 만들기]** | **[!UICONTROL 주석 세부 정보]**&#x200B;를 열어 주석을 추가합니다. |
-| **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | **[!UICONTROL 세그먼트 빌더]**&#x200B;를 열어 선택 항목에서 세그먼트를 빌드합니다. |
-| **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택 항목을 기준으로 대상자를 빌드하려면 **[!UICONTROL 대상자 만들기]** 대화 상자를 엽니다. |
+| **[!UICONTROL 선택 항목으로 주석 만들기]** | [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 열어 선택 항목을 위한 주석을 빌드합니다. |
+| **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | [세그먼트 빌더](/help/components/segments/seg-builder.md)를 열어 선택 항목에서 세그먼트를 빌드합니다. |
+| **[!UICONTROL 선택 항목으로 대상자 만들기]** | [대상 빌더](/help/components/audiences/publish.md#audience-builder)를 열어 선택 항목에서 대상을 빌드합니다. |
 
 
 ## 행 높이 변경
@@ -116,7 +116,9 @@ ht-degree: 55%
 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
 
 
-## 인라인 분류
+## 인라인 분류 {#inline-classifications-example}
+
+{{release-limited-testing-section}}
 
 인라인 분류를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면
 
@@ -162,6 +164,6 @@ ht-degree: 55%
 * 자유 형식 테이블을 수정 전 상태로 재설정합니다.
 
   1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
-  1. **[!UICONTROL 이름이 변경된 행]** 팝업에서 **[!UICONTROL 수정된 행 재설정]**&#x200B;을 선택합니다.
+  1. **[!UICONTROL 수정된 행]** 팝업에서 **[!UICONTROL 수정된 행 재설정]**&#x200B;을 선택합니다.
 
      ![자유 형식 테이블 재설정](assets/popup-reset.png)

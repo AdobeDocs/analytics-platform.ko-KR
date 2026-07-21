@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
+source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
 workflow-type: tm+mt
-source-wordcount: 6499
-ht-degree: 91%
+source-wordcount: 6697
+ht-degree: 88%
 
 ---
 
@@ -92,8 +92,44 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_percentage_value"
->title="백분율 계산 방법 선택"
+>title="백분율 값"
 >abstract="각 노드에 표시되는 백분율은 사용자가 구성하는 기본 및 보조 지표를 기반으로 합니다. 백분율이 시작 노드, 이전 노드 또는 보고서 세트의 모든 데이터와 관련되는지 여부를 선택할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings"
+>title="화살표 설정"
+>abstract="캔버스에서 레이블을 표시할지 또는 숨길지 여부를 선택합니다. 레이블은 여정 캔버스 내에서 생성된 사용자 지정 이름입니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings_ajo"
+>title="화살표 설정"
+>abstract="캔버스에서 레이블과 값을 표시할지 또는 숨길지 여부를 선택합니다. 레이블은 여정 캔버스 내에서 만들어진 사용자 지정 이름이거나 Journey Optimizer에서 만들어진 레이블 또는 조건일 수 있습니다. 값은 여정의 한 노드에서 다음 노드로 이동한 사람 또는 세션을 나타내는 숫자와 백분율입니다. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_show_fallout"
+>title="폴아웃 표시"
+>abstract="폴아웃 데이터는 여정의 다음 노드에 도달하지 않은 여정의 각 노드에 있는 사람 또는 세션의 백분율과 수를 보여줍니다. 사이트에서 다른 작업을 수행했을 수도 있지만 여정의 다음 노드에서 정의한 기준을 충족하지 못했습니다.<br/>폴아웃 데이터는 사용자 또는 세션을 표시하며(선택한 기본 지표에 관계 없이) 여정 캔버스 컨테이너 설정을 기반으로 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_compare"
+>title="비교 대상"
+>abstract="이전 기간에 대해 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교 날짜 범위를 선택하면 여정의 각 노드에 기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 퍼센트 변경이 표시됩니다. "
 
 <!-- markdownlint-enable MD034 -->
 

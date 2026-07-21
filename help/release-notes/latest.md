@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 587265d7613f732af811a77a947b0ce96ccad9bf
+source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: 699
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 39%
 | **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
 | **연결 사용 인터페이스 업데이트** <br/>연결을 관리할 때 사용 인터페이스에서 이제 Customer Journey Analytics 또는 Customer Journey Analytics B2B edition과 같은 각 개별 모듈에 대한 사용 세부 정보를 볼 수 있습니다. <p>또한 이제 월별 각 모듈에 대한 사용 보고를 분류할 수 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
 | **CX Enterprise Coworker: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 때 데이터 유효성 검사** <br/>CX Enterprise Coworker의 새로운 기술을 사용하면 기존 Adobe Analytics 구현의 데이터에 대해 Customer Journey Analytics 구현의 데이터를 확인할 수 있습니다. <p>이 스킬은 필요에 따라 각 차원, 지표 및 트렌드를 개별적으로 자동으로 비교합니다. 또한 모든 Adobe Analytics 보고서 세트를 모든 Customer Journey Analytics 데이터 보기와 비교할 수도 있습니다. 그런 다음 스킬은 Customer Journey Analytics으로의 마이그레이션을 용이하게 하기 위해 구현할 수 있는 AI 기반 인사이트와 권장 사항을 생성합니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
-| **인라인 분류**<br/>[&#x200B;인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면 | | 2026년 7월 20일 |
+| **인라인 분류**<br/>[&#x200B;인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면 | 2026년 7월 20일 | 2026년 7월 25일 |
 
 ### Customer Journey Analytics의 수정 사항
 
