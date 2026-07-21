@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
+source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 699
+source-wordcount: 696
 ht-degree: 39%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 39%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
-| **하위 이벤트 분석** <br/>하위 이벤트 분석을 사용하면 이벤트 수준보다 세부적인 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 또한 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 컨테이너로 정의할 수도 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | 2026년 7월 15일 | 2026년 7월 말 |
+| **하위 이벤트 분석** <br/>[하위 이벤트 분석](/help/components/segments/sub-event.md)을 사용하면 이벤트 수준보다 더 세분화된 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)(으)로 정의할 수도 있습니다. | 2026년 7월 21일 | 2026년 7월 말 |
 | **B2B edition: Ad Hoc 및 관계형 데이터 세트 지원** <br/>Ad Hoc 및 관계형 데이터 세트는 이제 Customer Journey Analytics B2B edition의 계정 기반 연결에서도 지원됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 20일 |
 | **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
 | **연결 사용 인터페이스 업데이트** <br/>연결을 관리할 때 사용 인터페이스에서 이제 Customer Journey Analytics 또는 Customer Journey Analytics B2B edition과 같은 각 개별 모듈에 대한 사용 세부 정보를 볼 수 있습니다. <p>또한 이제 월별 각 모듈에 대한 사용 보고를 분류할 수 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |

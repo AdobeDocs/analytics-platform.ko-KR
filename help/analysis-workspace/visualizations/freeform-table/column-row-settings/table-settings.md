@@ -16,7 +16,7 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
+source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
 workflow-type: tm+mt
 source-wordcount: 1630
 ht-degree: 53%
@@ -89,9 +89,9 @@ ht-degree: 53%
 | **[!UICONTROL 트렌드 선택]** | 선택 항목에 대한 트렌드 라인 차트 시각화를 만듭니다. |
 | **[!UICONTROL 선택한 행만 표시]** | 시각화에서 선택한 행만 표시합니다. |
 | **[!UICONTROL 모든 행 표시]** | 시각화에 모든 행을 표시합니다. |
-| **[!UICONTROL 선택한 행 이름 바꾸기]** | 선택한 행의 이름을 변경합니다. **[!UICONTROL 선택한 행 이름 바꾸기]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행 이름이 바뀌면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 수정된 행을 재설정할 수 있습니다. [인라인 분류](#inline-classifications)를 참조하세요. |
-| **[!UICONTROL 선택한 행 결합]** | 선택한 행을 결합합니다. **[!UICONTROL 선택한 행 결합]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행이 결합되면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 수정된 행을 재설정할 수 있습니다. [인라인 분류](#inline-classifications)를 참조하세요. |
-| **[!UICONTROL 수정된 행을 파생 필드로 만들기]** | *이 상황에 맞는 메뉴 옵션을 보려면 Customer Journey Analytics 제품 관리자여야 합니다.*<br/>&#x200B;행 이름을 바꾸거나 결합하여 수정한 자유 형식 테이블의 선택한 행에서 사용할 수 있습니다. 선택하면 [파생 필드 인터페이스](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field)가 열리고 자유 형식 테이블에 대한 수정 사항이 이미 미리 채워져 있습니다. [인라인 분류](#inline-classifications)를 참조하세요. |
+| **[!UICONTROL 선택한 행 이름 바꾸기]** | 선택한 행의 이름을 변경합니다. **[!UICONTROL 선택한 행 이름 바꾸기]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행 이름이 바뀌면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 수정된 행을 재설정할 수 있습니다. [인라인 분류](#inline-classifications-example)를 참조하세요. |
+| **[!UICONTROL 선택한 행 결합]** | 선택한 행을 결합합니다. **[!UICONTROL 선택한 행 결합]** 대화 상자에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. **[!UICONTROL 확인]**&#x200B;을 선택하여 확인하거나 **[!UICONTROL 취소]**&#x200B;를 선택하여 취소합니다. 자유 형식 테이블의 행이 결합되면 헤더 열의 차원 이름에 **[!UICONTROL (수정됨)]**&#x200B;이(가) 추가되고 ![톱니바퀴](/help/assets/icons/Gear.svg) 아이콘을 사용하여 차원 헤더 열에서 수정된 행을 재설정할 수 있습니다. [인라인 분류](#inline-classifications-example)를 참조하세요. |
+| **[!UICONTROL 수정된 행을 파생 필드로 만들기]** | *이 상황에 맞는 메뉴 옵션을 보려면 Customer Journey Analytics 제품 관리자여야 합니다.*<br/>&#x200B;행 이름을 바꾸거나 결합하여 수정한 자유 형식 테이블의 선택한 행에서 사용할 수 있습니다. 선택하면 [파생 필드 인터페이스](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field)가 열리고 자유 형식 테이블에 대한 수정 사항이 이미 미리 채워져 있습니다. [인라인 분류](#inline-classifications-example)를 참조하세요. |
 | **[!UICONTROL 선택 항목으로 주석 만들기]** | [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 열어 선택 항목을 위한 주석을 빌드합니다. |
 | **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | [세그먼트 빌더](/help/components/segments/seg-builder.md)를 열어 선택 항목에서 세그먼트를 빌드합니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | [대상 빌더](/help/components/audiences/publish.md#audience-builder)를 열어 선택 항목에서 대상을 빌드합니다. |

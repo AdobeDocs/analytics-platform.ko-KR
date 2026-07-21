@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 587265d7613f732af811a77a947b0ce96ccad9bf
+source-git-commit: 4526480673706e8eb1ec9a3903484edcc1b72a4b
 workflow-type: tm+mt
-source-wordcount: 6952
+source-wordcount: 6963
 ht-degree: 99%
 
 ---
@@ -50,6 +50,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 7월** | |
+| 하위 이벤트 분석 | [하위 이벤트 분석](/help/components/segments/sub-event.md) 및 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)에 대한 설명서입니다. |
 | 인라인 분류 | [인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)에 대한 설명서입니다. |
 | **2026년 6월** | |
 | 새로운 GA4 안내서 | [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)이 추가되었습니다. |
