@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="계정 ID"
->abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인 대 계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 식별자로 사용됩니다."
+>abstract="Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비 ID 또는 비개인 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
@@ -414,12 +414,12 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
 >title="개인 ID"
->abstract="이벤트에 대한 적용 범위가 큰 ID 또는 identityMap 유형 필드를 선택합니다. 포함된 값은 이전에 구성된 개인 식별자 네임스페이스의 값으로 상승됩니다."
+>abstract="이벤트에 대한 적용 범위가 큰 ID 또는 identityMap 유형 필드를 선택합니다. 포함된 값은 이전에 구성된 개인 ID 네임스페이스에 있는 값으로 상승됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="계정 ID"
->abstract="필요한 경우 XDM 스키마에 정의된 사용 가능한 비ID 또는 비사용자 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유 계정 식별자로 사용됩니다."
+>abstract="필요한 경우 XDM 스키마에 정의된 사용 가능한 비ID 또는 비사용자 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -742,7 +742,7 @@ ht-degree: 90%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 글로벌 계정 ID]** | 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다.<br/>Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 글로벌 계정 ID(계정의 고유 식별자)를 선택합니다. 포함된 값은 개인 대 계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 식별자로 사용됩니다.  <p>레코드에 이벤트 데이터 세트의 계정 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
+| **[!UICONTROL 글로벌 계정 ID]** | 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다.<br/>Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 글로벌 계정 ID(계정의 고유 식별자)를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다.  <p>레코드에 이벤트 데이터 세트의 계정 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
 | **[!UICONTROL 계정 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우 적용할 수 있습니다. |
 | **[!UICONTROL 기회 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 기회 ID(기회에 대한 고유 식별자)를 선택합니다. |
 | **[!UICONTROL 구매 그룹 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID 중에서 구매 그룹 ID(구매 그룹에 대한 고유 식별자)를 선택합니다. |
