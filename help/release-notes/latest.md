@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
+source-git-commit: 5f347e3dc3080e47f0dd81d34aa6f4341a892061
 workflow-type: tm+mt
-source-wordcount: 696
-ht-degree: 39%
+source-wordcount: 800
+ht-degree: 33%
 
 ---
 
@@ -46,10 +46,11 @@ ht-degree: 39%
 | -----------|-----------|-----------|
 | **하위 이벤트 분석** <br/>[하위 이벤트 분석](/help/components/segments/sub-event.md)을 사용하면 이벤트 수준보다 더 세분화된 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)(으)로 정의할 수도 있습니다. | 2026년 7월 21일 | 2026년 7월 말 |
 | **B2B edition: Ad Hoc 및 관계형 데이터 세트 지원** <br/>Ad Hoc 및 관계형 데이터 세트는 이제 Customer Journey Analytics B2B edition의 계정 기반 연결에서도 지원됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 20일 |
+| **CX Enterprise Coworker: Customer Journey Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker Chat은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>자세한 내용은 [동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat)을 참조하세요.</p> | | 2026년 7월 23일 |
+| **CX Enterprise Coworker: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 때 데이터 유효성 검사** <br/>CX Enterprise Coworker의 새로운 기술을 사용하면 기존 Adobe Analytics 구현의 데이터에 대해 Customer Journey Analytics 구현의 데이터를 확인할 수 있습니다. <p>이 스킬은 필요에 따라 각 차원, 지표 및 트렌드를 개별적으로 자동으로 비교합니다. 또한 모든 Adobe Analytics 보고서 세트를 모든 Customer Journey Analytics 데이터 보기와 비교할 수도 있습니다. 그런 다음 스킬은 Customer Journey Analytics으로의 마이그레이션을 용이하게 하기 위해 구현할 수 있는 AI 기반 인사이트와 권장 사항을 생성합니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)를 참조하십시오.</p> | | 2026년 7월 24일 |
+| **인라인 분류**<br/>[&#x200B;인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면 | 2026년 7월 20일 | 2026년 7월 25일 |
 | **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
 | **연결 사용 인터페이스 업데이트** <br/>연결을 관리할 때 사용 인터페이스에서 이제 Customer Journey Analytics 또는 Customer Journey Analytics B2B edition과 같은 각 개별 모듈에 대한 사용 세부 정보를 볼 수 있습니다. <p>또한 이제 월별 각 모듈에 대한 사용 보고를 분류할 수 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
-| **CX Enterprise Coworker: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 때 데이터 유효성 검사** <br/>CX Enterprise Coworker의 새로운 기술을 사용하면 기존 Adobe Analytics 구현의 데이터에 대해 Customer Journey Analytics 구현의 데이터를 확인할 수 있습니다. <p>이 스킬은 필요에 따라 각 차원, 지표 및 트렌드를 개별적으로 자동으로 비교합니다. 또한 모든 Adobe Analytics 보고서 세트를 모든 Customer Journey Analytics 데이터 보기와 비교할 수도 있습니다. 그런 다음 스킬은 Customer Journey Analytics으로의 마이그레이션을 용이하게 하기 위해 구현할 수 있는 AI 기반 인사이트와 권장 사항을 생성합니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
-| **인라인 분류**<br/>[&#x200B;인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면 | 2026년 7월 20일 | 2026년 7월 25일 |
 
 ### Customer Journey Analytics의 수정 사항
 
