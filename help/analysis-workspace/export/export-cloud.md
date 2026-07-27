@@ -6,25 +6,12 @@ feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
 source-wordcount: 3268
 ht-degree: 58%
@@ -238,22 +225,22 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 다음 구성 요소는 지원되지 않으며, Analysis Workspace에서 전체 테이블 내보내기를 수행할 때 테이블에서 이러한 구성 요소를 제거하라는 메시지를 표시합니다.
 
-* 지표 정의에서 지원되지 않는 함수를 사용하는 계산된 지표. 자세한 내용은 [지원되지 않는 계산된 지표 함수](#unsupported-calculated-metric-functions)를 참조하십시오.
+* 지표 정의에서 지원되지 않는 함수를 사용하는 계산된 지표. 자세한 내용은 [지원되지 않는 계산된 지표 함수](#calculated-metric-functions-support)를 참조하십시오.
 * 관리자가 제한한 구성 요소의 내보내기 제한(자세한 내용은 [레이블 및 정책](/help/data-views/data-governance.md)의 *데이터 보기의 데이터 거버넌스 정책에 대한 세그먼트* 섹션 참조)
 * 다음 모든 기준을 충족하는 차원:
-   * [개체 배열](/help/use-cases/object-arrays.md)의 일부인 필드에서 만들어집니다(Adobe Analytics의 다중 값 변수와 유사).
-   * [지속성이 활성화됨](/help/data-views/component-settings/persistence.md).
-   * [바인딩 차원](/help/use-cases/data-views/binding-dimensions-metrics.md)을 사용하지 않습니다.
+  * [개체 배열](/help/use-cases/object-arrays.md)의 일부인 필드에서 만들어집니다(Adobe Analytics의 다중 값 변수와 유사).
+  * [지속성이 활성화됨](/help/data-views/component-settings/persistence.md).
+  * [바인딩 차원](/help/use-cases/data-views/binding-dimensions-metrics.md)을 사용하지 않습니다.
 * 다양한 [오브젝트 배열](/help/use-cases/object-arrays.md)을 참조하는 필드에서 나온 여러 차원. (동일한 오브젝트 배열을 참조하는 여러 차원이 허용됨.)
 * 보고서당 10개 이상의 차원과 10개의 지표 (최대 10개의 차원과 10개의 지표가 지원됨)
 * 테이블 열:
-   * 날짜 범위
-   * 차원
+  * 날짜 범위
+  * 차원
 * 테이블 행:
-   * 계산된 지표
-   * 지표
-   * 날짜 범위
-   * 세그먼트
+  * 계산된 지표
+  * 지표
+  * 날짜 범위
+  * 세그먼트
 
 ## 계산된 지표 함수 지원
 
