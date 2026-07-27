@@ -4,11 +4,18 @@ description: Analysis Workspace, Report Builder, 전체 테이블 내보내기, 
 keywords: 클릭스트림, 데이터 피드, 데이터피드, 제품 비교, Analysis Workspace, Report Builder, 전체 테이블 내보내기
 feature: Components
 hold: true
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: d5ecbbc28bc3892a2114de2c73df3287f22cf1a0
 workflow-type: tm+mt
 source-wordcount: 345
@@ -34,7 +41,7 @@ ht-degree: 59%
 | **여러 데이터 보기** | 예 | 예 | 아니요 | 아니요 | 예 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 | 제한 없음 |
 | **세분화** <br> [자세히 알아보기](/help/components/segments/seg-overview.md) | 예 | 예 | 예 | 예. [제한 사항](/help/components/exports/cja-data-feeds/df-segmentation.md) 있음 | 예 | 예 |
-| **계산된 지표** <br> [자세히 알아보기](/help/components/calc-metrics/calc-metr-overview.md) | 예. [속성 ](/help/analysis-workspace/attribution/overview.md) 사용 | 예. 속성 사용 | 아니요 | 아니요 | 예. 속성 사용 | 예. 속성 사용 |
+| **계산된 지표** <br> [자세히 알아보기](/help/components/calc-metrics/calc-metr-overview.md) | 예. [속성 &#x200B;](/help/analysis-workspace/attribution/overview.md) 사용 | 예. 속성 사용 | 아니요 | 아니요 | 예. 속성 사용 | 예. 속성 사용 |
 | **파생 필드** <br> [자세히 알아보기](/help/data-views/derived-fields/derived-fields.md) | 예 | 예 | 예 | 예 | 예 | 예 |
 | **집단 분석** | [예](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
 | **속성** <br> [자세히 알아보기](/help/analysis-workspace/attribution/overview.md) | 예 | 제한적 | 아니요 | 아니요 | 예 | 예 |
