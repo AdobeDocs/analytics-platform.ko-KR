@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: ea98309e823b1d4249ac09ca11f0d9f22406c8f3
+source-git-commit: cd71195e30ae7fcc877b395a2756a924fa61b11c
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1469'
 ht-degree: 94%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 94%
     + [랜딩 페이지](../getting-started/landing.md)
     + [자주 묻는 질문](../getting-started/cja-faq.md)
     + [BI 솔루션과 비교](../getting-started/cja-vs-bi.md)
+    + {hide-from-toc}[Analytics 제품 비교](/help/getting-started/analytics-product-comparison.md)
     + [AI 어시스턴트](../ai-assistant.md)
     + [Data Insights 에이전트](../data-analysis-ai.md)
   + Customer Journey Analytics B2B Edition {#cja-b2b}
@@ -425,6 +426,7 @@ ht-degree: 94%
       + {hide-from-toc}[열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md)
+      + {hide-from-toc}[데이터 피드의 세분화](/help/components/exports/cja-data-feeds/df-segmentation.md)
   + 데이터 사전 {#data-dictionary}
     + [개요](../components/data-dictionary/data-dictionary-overview.md)
     + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
