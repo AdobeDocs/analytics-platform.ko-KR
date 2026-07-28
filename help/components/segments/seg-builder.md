@@ -5,22 +5,14 @@ feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
-source-wordcount: 1851
-ht-degree: 85%
+source-wordcount: 1812
+ht-degree: 79%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="이 세그먼트의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
+>abstract="세그먼트 데이터를 데이터 보기 데이터와 비교합니다. 미리 보기 비율은 **지난 90일**&#x200B;의 데이터 보기의 총 수를 반영합니다.<br><br/>미리 보기를 로드하지 못하면 연결이 다시 채워집니다."
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segments/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
 
@@ -78,8 +70,8 @@ ht-degree: 85%
 
 정의의 유형과 범위를 구성할 수 있습니다.
 
-1. 정의 유형을 지정하려면 포함 정의를 작성할지, 제외 정의를 작성할지 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
-1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]**, **[!UICONTROL 개인]**, **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 또는 **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 중 하나를 선택합니다.
+1. 정의 유형을 지정하려면 포함 또는 제외 정의를 빌드할지 여부를 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 선택합니다. **[!UICONTROL 이벤트]**, **[!UICONTROL 세션]**, **[!UICONTROL 개인]**, **[!UICONTROL 글로벌 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL 영업 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 또는 **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
 
 나중에 언제든지 이러한 설정을 변경할 수 있습니다.
 
@@ -93,7 +85,7 @@ ht-degree: 85%
 
 1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다.
    * 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**&#x200B;구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
+   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
 1. 필요한 경우 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](seg-operators.md)를 참조하십시오.
 
@@ -130,20 +122,20 @@ ht-degree: 85%
 | **[!UICONTROL 이름 컨테이너]** | 기본 설명에서 컨테이너의 이름을 바꿉니다. 텍스트 필드에 이름을 입력합니다. 아무런 입력도 하지 않으면 기본 설명이 사용됩니다. |
 | **[!UICONTROL 컨테이너 삭제]** | 정의에서 컨테이너를 삭제합니다. |
 
-[컨테이너](/help/data-views/create-dataview.md#containers-1)(으)로 정의한 차원 또는 지표를 세그먼트 빌더 또는 빠른 세그먼트 패널로 드래그하면 시스템에서 적절한 컨테이너를 자동으로 선택하고 기본 **[!UICONTROL 이벤트]** 컨테이너를 사용하지 않습니다. 이 비헤이비어는 세그먼트 범위를 전체 이벤트가 아닌 개별 컨테이너로 유지합니다.
+[컨테이너](/help/data-views/create-dataview.md#containers-1)(으)로 정의된 차원 또는 지표를 세그먼트 빌더로 드래그하면 기본 **[!UICONTROL 이벤트]** 컨테이너 대신 적절한 컨테이너가 자동으로 선택됩니다. 이 비헤이비어는 세그먼트 범위를 전체 이벤트가 아닌 개별 컨테이너로 유지합니다.
 
 [컨테이너](/help/data-views/create-dataview.md#containers-1) 수준 및 이벤트 수준 구성 요소를 모두 단일 세그먼트 규칙으로 드래그하면 시스템에서 가장 높은(세분화되지 않은) 공유 컨테이너인 **[!UICONTROL 이벤트]** 컨테이너를 사용합니다. 세그먼트 규칙의 일부인 모든 구성 요소가 동일한 컨테이너 수준에 있는 경우 해당 컨테이너가 사용됩니다.
 
 ## 날짜 범위
 
-순환 날짜 범위를 포함하는 세그먼트를 만들 수 있습니다. 따라서 진행 중인 캠페인이나 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들면 *지난 60일 동안 온라인으로 구매한 모든 사람*&#x200B;을 포함하는 세그먼트를 작성할 수 있습니다.
+순환 날짜 범위를 포함하는 세그먼트를 만들 수 있습니다. 따라서 진행 중인 캠페인이나 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들어 *지난 60일 동안 온라인 구매를 한 모든 사람*&#x200B;을 포함하는 세그먼트를 만들 수 있습니다.
 
 ![순환 날짜 범위를 사용하여 세분화](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -152,11 +144,11 @@ ht-degree: 85%
 
 세그먼트를 사용하여 세그먼트를 작성할 수 있습니다. 세그먼트에서 세그먼트를 사용하면 세그먼트를 최적화하고 복잡성을 줄일 수 있습니다.
 
-디바이스 유형(2)과 미국 주(50)의 조합을 세분화하려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 100개의 세그먼트를 만들 수 있습니다. 캘리포니아의 태블릿 사용자를 얻으려면 100개 세그먼트 중 하나를 사용하면 됩니다.
+디바이스 유형(2)과 미국 주(50)의 조합을 세분화하려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 100개의 세그먼트를 만들 수 있습니다. 캘리포니아에서 태블릿 사용자를 가져오려면 100개의 세그먼트 중 하나를 사용합니다.
 
 ![캘리포니아 및 태블릿용 간단한 세그먼트](assets/filter-ca-tablet-single.png)
 
-또는 52개의 세그먼트를 정의할 수 있습니다. 미국 주에 대한 세그먼트 50개, 휴대전화에 대한 세그먼트 1개, 태블릿에 대한 세그먼트필터 1개입니다. 그런 다음 세그먼트를 누적하여 동일한 결과를 얻을 수 있습니다. 캘리포니아의 태블릿 사용자를 얻으려면 두 가지 세그먼트를 적용해야 합니다.
+또는 미국 주에 대한 50개 세그먼트, 휴대폰용 세그먼트, 태블릿용 세그먼트 등 52개 세그먼트를 정의합니다. 동일한 결과를 얻으려면 세그먼트를 스택합니다. 캘리포니아 태블릿 사용자를 가져오려면 다음 두 개의 세그먼트를 스택합니다.
 
 ![CA 및 태블릿용 스택 세그먼트](assets/filter-ca-tablet-stacked.png)
 
@@ -208,10 +200,10 @@ ht-degree: 85%
 아래 테이블은 각 속성 모델에 대해 해당 조건에 적합한 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)에 해당하는 수신 이벤트를 설명합니다.
 
 
-| 여성 페이지 - 속성 - <br/>*속성 모델* | 이벤트 1:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 2:<br/>페이지 이름이 남성과 같음<br/> | 이벤트 3:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 4:<br/>페이지 이름이<br/>여성과 같음<br/>(지속) | 이벤트 5:<br/>페이지 이름이 체크아웃과 같음<br/> | 이벤트 6:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 7:<br/>페이지 이름이 홈과 같음<br/> |
+| 여성 페이지 - 속성 - <br/>*속성 모델* | 이벤트 1:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 2:<br/>페이지 이름이 남성과 같음<br/> | 이벤트 3:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 4:<br/>페이지 이름이<br/>여성과 같음<br/>(지속) | 이벤트 5:<br/>페이지 이름이 체크아웃과 같음<br/> | 이벤트 6:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 7:<br/>페이지 이름이 <br/>여성(명시적으로 설정됨) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 반복 (기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
-| 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
+| 반복 (기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 비반복 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 
 세 가지 세그먼트를 사용한 이벤트 보고서의 예는 다음과 같습니다.
