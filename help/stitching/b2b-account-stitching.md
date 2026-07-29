@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
+source-git-commit: 593dc8e9eb32e092545b74882ce2a85bcecc3c56
 workflow-type: tm+mt
-source-wordcount: 1245
-ht-degree: 26%
+source-wordcount: 1349
+ht-degree: 22%
 
 ---
 
@@ -68,7 +68,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="개인 식별자 네임스페이스"
->abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 결합]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서는 개인 ID가 이 개인 식별자 네임스페이스로 승격됩니다."
+>abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 연결]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서 개인 ID는 이 개인 식별자 네임스페이스로 승격됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -89,6 +89,12 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >id="connection_b2b_stitching_start_time"
 >title="시작 시간"
 >abstract="개인-계정 관계가 활성화된 시기를 나타내는 타임스탬프 필드를 선택합니다."
+
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_mapping_creation_time"
+>title="매핑 생성 시간"
+>abstract="개인-계정 매핑이 생성된 날짜 및 시간을 나타내는 필드를 선택합니다(선택적). 사용자가 시간이 지남에 따라 여러 계정을 전환하는 경우에 유용합니다."
 
 
 1. Customer Journey Analytics에서 **[!UICONTROL 연결]** 및 [새 연결 만들기](/help/connections/create-connection.md#create-a-connection) 또는 [기존 연결 편집](/help/connections/create-connection.md#edit-a-connection)으로 이동합니다.
@@ -118,7 +124,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
       | **[!UICONTROL 계정에 대한 개인 데이터 세트]** | ![필수](/help/assets/icons/Required.svg) | 개인을 계정에 매핑하는 조회(레코드 또는 비시계열 데이터 세트)를 선택합니다. |
       | **[!UICONTROL 개인 ID]** | ![필수](/help/assets/icons/Required.svg) | 개인 ID가 포함된 데이터 세트에서 필드를 선택합니다. 해당 필드는 ID로 표시되어야 하며 **[!UICONTROL 계정 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
       | **[!UICONTROL 계정 ID]** | ![필수](/help/assets/icons/Required.svg) | 계정 ID가 포함된 데이터 세트에서 필드를 선택합니다. 해당 필드는 **[!UICONTROL 개인 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
-      | **시작 시간** | | 개인-계정 관계가 활성화된 시기를 나타내는 타임스탬프 필드를 선택합니다. |
+      | **매핑 생성 시간** | | 개인-계정 매핑이 생성된 날짜 및 시간을 나타내는 필드를 선택합니다(선택적). 사용자가 시간이 지남에 따라 여러 계정을 전환하는 경우에 유용합니다.<br/><br/>**예**(**update_date** 필드를 선택한 경우):<table><thead><tr><th>update_date</th><th>사람</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>2026년 5월 1일 이전의 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Apple에 매핑됩니다.</li><li>2026년 5월 1일 또는 그 이후에 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Adobe에 매핑됩니다.</li><ul> |
 
       >[!NOTE]
       >
@@ -127,7 +133,6 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
    1. **[!UICONTROL 저장]**&#x200B;을 선택하여 **[!UICONTROL B2B 결합 구성]** 대화 상자를 닫고 연결 설정으로 돌아갑니다.
 
    1. 연결을 [저장](#save)할 때까지 **B2B 결합 구성 열기** 단추 옆에 **[!UICONTROL _저장하지 않은 변경 내용_]** 표시기가 나타납니다.
-
 
 ### 이벤트 데이터 세트에서 B2B 결합 활성화
 
