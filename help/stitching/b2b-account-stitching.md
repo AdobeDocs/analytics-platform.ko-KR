@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -68,11 +68,11 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="개인 식별자 네임스페이스"
->abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 연결]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서는 개인 ID가 이 개인 식별자 네임스페이스로 상승됩니다."
+>abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 결합]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서는 개인 ID가 이 개인 식별자 네임스페이스로 승격됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
->title="개인 - 계정 데이터 세트"
+>title="개인-계정 데이터 세트"
 >abstract="개인 ID를 계정 ID에 매핑하는 조회 데이터 세트를 선택합니다."
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="계정 ID"
->abstract="고유한 계정 ID 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 **[!UICONTROL 개인 대 계정 연결]**&#x200B;이 활성화된 모든 이벤트 데이터 세트의 행에서 사용할 수 있습니다."
+>abstract="고유한 계정 ID 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 **[!UICONTROL 개인-계정 결합]**&#x200B;이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -134,8 +134,8 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
->title="개인 - 계정 결합 활성화"
->abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>사용하지 않도록 설정된 경우 이 데이터 집합은 B2B 개인을 사용하여 계정을 결합하지 않으므로 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
+>title="개인-계정 결합 활성화"
+>abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 승격된 다음, 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="B2B 결합 설정 구성"
 
 연결 수준에서 B2B 결합을 구성한 후에는 결합할 각 이벤트 데이터 세트에 대해 개별적으로 B2B 계정 결합을 활성화해야 합니다.

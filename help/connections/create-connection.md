@@ -419,7 +419,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="계정 ID"
->abstract="필요한 경우 XDM 스키마에 정의된 사용 가능한 비ID 또는 비사용자 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다."
+>abstract="필요한 경우 XDM 스키마에 정의된 사용 가능한 비 ID 또는 비개인 ID 필드에서 계정 ID를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"

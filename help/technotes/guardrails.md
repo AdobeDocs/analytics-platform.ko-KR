@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
+source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
@@ -250,8 +250,8 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 | 이름 | 값 | 제한 유형 | 설명 |
 |---|--:|---|---|
 | 보고서당 행 수 | 300만~3억 | 시스템 강제 보호 | 보고서당 최대 보고 행 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
-| 테이블당 분류 | 5 | 시스템 강제 보호 | 테이블당 최대 분류 수. |
-| 테이블당 지표 | 5 | 시스템 강제 보호 | 테이블당 최대 지표 수. |
+| 테이블당 차원 | 10 | 시스템 강제 보호 | 테이블당 최대 차원 수. |
+| 테이블당 지표 | 10 | 시스템 강제 보호 | 테이블당 최대 지표 수. |
 | 일정 빈도 | 1 | 시스템 강제 보호 | 내보내기는 하루에 한 번 또는 더 긴 일정으로 예약할 수 있습니다(예: 2일에 한 번 또는 매주). |
 
 {style="table-layout:auto"}
