@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 53%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 53%
 
    ![표시되는 행 수에 대한 의 드롭다운 메뉴를 표시하는 자유 형식 테이블입니다. 400개 행이 선택되었습니다.](assets/change-row-count.gif)
 
-1. 드롭다운 메뉴에서 테이블에 표시할 행 수를 선택합니다.
+1. 드롭다운 메뉴에서 표시할 테이블의 행 수를 선택합니다.
 
 
 ## 컨텍스트 메뉴
@@ -118,8 +118,6 @@ ht-degree: 53%
 
 ## 인라인 분류 {#inline-classifications-example}
 
-{{release-limited-testing-section}}
-
 인라인 분류를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면
 
 아래 예제에서는 **[!UICONTROL 선택한 행 이름 바꾸기]**, **[!UICONTROL 선택한 행 결합]** 및 **[!UICONTROL 파생된 필드로 수정된 행 만들기]** 컨텍스트 메뉴 옵션을 사용하는 방법을 보여 줍니다. 수정된 자유 형식 테이블을 재설정하는 방법 을 참조하십시오.
@@ -152,6 +150,11 @@ ht-degree: 53%
      1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
 * 자유 형식 테이블의 수정 사항에서 파생된 필드를 만듭니다.
+
+  >[!NOTE]
+  >
+  >  Customer Journey Analytics 제품 관리자인 경우 자유 형식 테이블의 수정 사항에서 파생된 필드만 만들 수 있습니다.
+
 
   1. 수정된 테이블에서 선택한 행에 대한 컨텍스트 메뉴에서 **[!UICONTROL 수정된 행을 파생 필드로 만들기]**&#x200B;를 선택합니다.
 
