@@ -8,11 +8,22 @@ feature: Connections
 role: Admin
 autotag-review: '2026-05-19T08:50:02.853Z'
 TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
 source-wordcount: 7300
@@ -67,10 +78,10 @@ ht-degree: 87%
 | **[!UICONTROL 데이터 세트]** | 연결의 일부인 데이터 세트에 대한 하나 이상의 링크. 데이터 세트 하이퍼링크를 선택하면 이 연결의 데이터 세트를 볼 수 있습니다. 선택한 연결에 더 많은 데이터 세트가 포함된 경우, **[!UICONTROL +*x* 자세히]**&#x200B;를 선택하여 **[!UICONTROL 데이터 세트 포함]** 패널을 표시합니다. 이 패널은 모든 데이터 세트에 대한 링크와 연결의 일부인 특정 데이터 세트를 ![검색](/help/assets/icons/Search.svg)하는 옵션을 보여 줍니다.<p>![데이터 세트 포함](assets/datasets-included.png)<p>데이터 세트 이름을 선택하여 Experience Platform 인터페이스의 새 탭에서 해당 데이터 세트를 엽니다. |
 | **[!UICONTROL 샌드박스]** | 이 연결이 데이터 세트를 가져오는 출처가 되는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home). 이 샌드박스는 연결을 만들 때 선택합니다. 연결이 저장되면 샌드박스를 변경할 수 없습니다. |
 | **[!UICONTROL 소유자]** | 연결을 만든 사람입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)    **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)    **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오도록 구성되지 않은 데이터 세트의 경우. |
 | **[!UICONTROL 생성된 일자]** | 연결을 처음 만든 타임스탬프. |
 | **[!UICONTROL 마지막 수정일]** | 연결을 마지막으로 업데이트한 타임스탬프. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트 전체의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 주황색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
 | **[!UICONTROL 통합]** | 연결에서 사용할 수 있는 모든 Experience Platform 애플리케이션을 표시합니다. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 사용할 수 있도록 연결을 활성화했는지 여부를 표시합니다. |
 
@@ -287,9 +298,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 결합됨]** | 데이터 세트가 [연결 UI에서 결합에 대해 활성화되면](/help/stitching/use-stitching-ui.md) 값은 **[!UICONTROL true]**&#x200B;입니다. 그렇지 않은 경우 값은 **[!UICONTROL false]**&#x200B;입니다. [결합 절차 요청](/help/stitching//use-stitching.md)의 결과로 생성된 결합된 데이터 세트는 이 테이블에서 결합된 것으로 식별되지 않으며 기본적으로 **[!UICONTROL false]** 값을 갖습니다. |
 | **[!UICONTROL 스키마]** | 해당 데이터 세트가 기반으로 삼는 Experience Platform 스키마입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 해당 데이터 세트의 경우, <p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 변환이 가능하지 않은 해당 데이터 세트의 경우<p>**[!UICONTROL 없음]** 다른 모든 데이터 세트에는 변환이 적용되지 않는 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
 >[!IMPORTANT]
 >
@@ -313,9 +324,9 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | [!BADGE BB2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 기본 ID 유형&#x200B;]** | 연결의 기본 ID 유형: 개인 기반 연결의 경우 **[!UICONTROL 개인]**, 계정 기반 연결의 경우 **[!UICONTROL 계정]**&#x200B;입니다. |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 컨테이너&#x200B;]** | 연결에 대해 구성된 컨테이너입니다. |
 | **[!UICONTROL 연결을 이용한 데이터 보기]** | 이 연결을 사용하는 데이터 보기입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
-| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**변환이 가능한 데이터 세트 수에 대해. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오기 위해 구성된 데이터 세트 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새로운 데이터 가져오기가 꺼진 데이터 세트 수에 대해. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트에 대한 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;데이터 세트 전체에서 실패한 채우기 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;데이터 세트 전체의 처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;데이터 세트에 대해 완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 연결에 있는 데이터 세트에 대해 채우기가 정의되지 않은 경우. |
+| **[!UICONTROL 데이터 변환]** | 해당 B2B 조회 데이터 세트의 변환 상태. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오.<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;변환이 가능한 데이터 세트 수에 대해. |
 | **[!UICONTROL 작성자]** | 연결을 만든 사람의 이름. |
 | **[!UICONTROL 마지막 수정일]** | 연결에 대한 마지막 변경의 타임스탬프. |
 | **[!UICONTROL 마지막 수정자]** | 연결을 마지막으로 수정한 사람의 이름입니다. |
@@ -326,8 +337,8 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
 | 세부 사항 | 설명 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID ]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID ]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 글로벌 계정 ID &#x200B;]** | 연결에 대한 글로벌 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성된 계정 기반 연결에만 적용됩니다. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 계정 ID &#x200B;]** | 연결에 대한 계정 ID로 지정한 ID입니다. 글로벌 계정 컨테이너가 구성되지 않은 계정 기반 연결에만 적용됩니다. |
 | **[!UICONTROL 개인 ID]** | 연결에 대한 개인 ID로 지정한 ID입니다. |
 | **[!UICONTROL 키]** | 조회 데이터 세트에 대해 지정한 키. |
 | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 대해 지정한 일치하는 키. |
@@ -338,8 +349,8 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 | **[!UICONTROL 추가된 배치]** | 연결에 추가된 배치의 수입니다. |
 | **[!UICONTROL 삭제된 레코드]** | 선택한 날짜 범위 동안 연결에서 제거된 데이터 세트 레코드(행) 수입니다. |
 | **[!UICONTROL 마지막으로 추가됨]** | 연결에 추가된 최신 배치의 타임스탬프입니다. |
-| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
+| **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+| **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우.<p>데이터 세트의 이전 채우기에 대한 개요가 있는 대화 상자를 표시하려면 선택합니다. <img src="./assets/pastbackfill.svg" alt="이전 채우기" width="15"/> **[!UICONTROL 이전 채우기]**. |
 | **[!UICONTROL 데이터 소스 유형]** | 연결에 데이터 세트를 추가할 때 정의된 데이터 소스 유형입니다. |
 | **[!UICONTROL 데이터 세트 유형]** | [데이터 세트 유형](create-connection.md#dataset-types)입니다. 유형은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]**, **[!UICONTROL 요약]**&#x200B;일 수 있습니다. 애드 혹 또는 관계형 데이터 세트는 **[!UICONTROL (애드 혹)]** 또는 **[!UICONTROL (관계형)]**&#x200B;으로 식별됩니다. 예를 들어 **[!UICONTROL 이벤트(애드 혹)]** 또는 **[!UICONTROL 조회(관계형)]**&#x200B;입니다. |
 | **[!UICONTROL 스키마]** | 이 데이터 세트가 기반으로 삼는 Experience Platform 스키마. |
