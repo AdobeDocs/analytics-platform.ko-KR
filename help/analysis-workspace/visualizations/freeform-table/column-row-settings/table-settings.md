@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 53%
 
 ---
@@ -37,7 +30,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -51,7 +44,7 @@ ht-degree: 53%
 
    ![표시되는 행 수에 대한 의 드롭다운 메뉴를 표시하는 자유 형식 테이블입니다. 400개 행이 선택되었습니다.](assets/change-row-count.gif)
 
-1. 드롭다운 메뉴에서 테이블에 표시할 행 수를 선택합니다.
+1. 드롭다운 메뉴에서 표시할 테이블의 행 수를 선택합니다.
 
 
 ## 컨텍스트 메뉴
@@ -113,12 +106,10 @@ ht-degree: 53%
 
 ## 행 높이 변경
 
-프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
 
 
 ## 인라인 분류 {#inline-classifications-example}
-
-{{release-limited-testing-section}}
 
 인라인 분류를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면
 
@@ -153,6 +144,11 @@ ht-degree: 53%
 
 * 자유 형식 테이블의 수정 사항에서 파생된 필드를 만듭니다.
 
+  >[!NOTE]
+  >
+  >  Customer Journey Analytics 제품 관리자인 경우 자유 형식 테이블의 수정 사항에서 파생된 필드만 만들 수 있습니다.
+
+
   1. 수정된 테이블에서 선택한 행에 대한 컨텍스트 메뉴에서 **[!UICONTROL 수정된 행을 파생 필드로 만들기]**&#x200B;를 선택합니다.
 
      ![수정된 행을 파생된 필드 메뉴 옵션으로 만들기 선택](assets/context-derived.png)
@@ -163,7 +159,7 @@ ht-degree: 53%
 
 * 자유 형식 테이블을 수정 전 상태로 재설정합니다.
 
-  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
+  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
   1. **[!UICONTROL 수정된 행]** 팝업에서 **[!UICONTROL 수정된 행 재설정]**&#x200B;을 선택합니다.
 
      ![자유 형식 테이블 재설정](assets/popup-reset.png)
