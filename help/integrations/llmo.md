@@ -62,7 +62,7 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 LLM Optimizer 관리 커넥터는 데이터를 요약 데이터 세트로 Experience Platform에 전달합니다. Customer Journey Analytics에서 측정하려면 두 가지 설정 단계를 직접 완료합니다.
 
 1. LLM Optimizer 데이터 세트를 포함하는 연결을 만듭니다. [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}을 참조하세요.
-2. 해당 연결에 대한 데이터 보기를 만듭니다. 데이터 보기를 통해 Analysis Workspace에서 아래의 차원 및 지표를 사용할 수 있습니다. [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}을 참조하세요.
+2. 해당 연결에 대한 데이터 보기를 만듭니다. 데이터 보기를 통해 Analysis Workspace에서 아래의 차원 및 지표를 사용할 수 있습니다. [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}을 참조하세요.
 
 데이터 세트:
 
@@ -187,7 +187,7 @@ LLM Optimizer 데이터 세트를 포함하는 연결을 설정한 후에는 다
 
 # LLM Optimizer integration
 
-[Adobe LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
+[Adobe LLM Optimizer](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
 
 AI has become a primary discovery channel. LLM agents, such as ChatGPT, Claude, Copilot, and Perplexity, crawl and reference brand content. 
 
