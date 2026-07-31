@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 19610ab5059b070bda0066d593f3dd966702a35d
+source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
 workflow-type: tm+mt
-source-wordcount: 6973
+source-wordcount: 6984
 ht-degree: 99%
 
 ---
@@ -50,6 +50,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 7월** | |
+| LLM Optimizer 인바운드 통합 | [LLM Optimizer 인바운드 통합](/help/integrations/llmo.md#inbound-integration)에 대한 설명서. |
 | 사용 인터페이스 | 연결을 위한 [사용 인터페이스](/help/connections/manage-connections.md#usage) 설명서에 대한 업데이트입니다. |
 | 하위 이벤트 분석 | [하위 이벤트 분석](/help/components/segments/sub-event.md) 및 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)에 대한 설명서입니다. |
 | 인라인 분류 | [인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)에 대한 설명서입니다. |
