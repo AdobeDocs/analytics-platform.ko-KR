@@ -6,22 +6,11 @@ feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 806
@@ -68,8 +57,8 @@ Customer Journey Analytics에서 이벤트는 순서대로 수집되지 않고 �
 
 * 결합은 매일 또는 매주 데이터를 _재생_&#x200B;할 수 있으며 익명 이벤트를 알려진 이벤트와 연결합니다. 자세한 내용은 [결합](../../stitching/overview.md)을 참조하십시오.
 * 세션 및 지속된 값은 매번 변경됩니다
-   * 새 데이터가 수집되거나
-   * 결합하면 개인 기록에 이벤트가 추가됩니다.
+  * 새 데이터가 수집되거나
+  * 결합하면 개인 기록에 이벤트가 추가됩니다.
 
 보고서 처리 시간은 Customer Journey Analytics에서 데이터를 내보내는 데 영향을 줍니다. 지속된 값을 포함하는 내보내기는 Customer Journey Analytics 보고서와 일치하지 않으며 값은 시간이 지남에 따라 사라집니다.
 
@@ -77,22 +66,22 @@ Customer Journey Analytics에서 이벤트는 순서대로 수집되지 않고 �
 
 * 새로운 데이터 소스 및 데이터 내보내기 대상 처리
 
-   * 비디지털 데이터 소스 포함,
-   * 비즈니스 규칙에 따라 사용자 지정 속성 및 세션 적용
-   * 고객 여정을 계속 업데이트하며 결합합니다.
+  * 비디지털 데이터 소스 포함,
+  * 비즈니스 규칙에 따라 사용자 지정 속성 및 세션 적용
+  * 고객 여정을 계속 업데이트하며 결합합니다.
 
 * 맞춤형 데이터 내보내기 사용 사례 실현
 
-   * Business Intelligence(BI) 도구 및 클라우드 대상을 포함하여 필요한 위치로 데이터 내보내기
-   * bi 도구 통합을 통해 Analysis Workspace과 데이터 동기화 유지,
-   * 자체 시스템에서 처리 논리를 복제할 필요가 없습니다.
-   * 계산된 지표, 파생 필드 및 세분화에 대한 새로운 지원
+  * Business Intelligence(BI) 도구 및 클라우드 대상을 포함하여 필요한 위치로 데이터 내보내기
+  * bi 도구 통합을 통해 Analysis Workspace과 데이터 동기화 유지,
+  * 자체 시스템에서 처리 논리를 복제할 필요가 없습니다.
+  * 계산된 지표, 파생 필드 및 세분화에 대한 새로운 지원
 
 * 설계에 의한 보안 및 데이터 거버넌스 고려
 
-   * 사용자 및 대상별로 모든 데이터 내보내기 모니터링,
-   * 내보낼 수 있는 데이터에 대한 제한 설정 및
-   * 배달 문제에 대한 경고 및 예약된 배달 기간에 대한 제한을 설정합니다.
+  * 사용자 및 대상별로 모든 데이터 내보내기 모니터링,
+  * 내보낼 수 있는 데이터에 대한 제한 설정 및
+  * 배달 문제에 대한 경고 및 예약된 배달 기간에 대한 제한을 설정합니다.
 
 
 ## 사용 사례 및 기능
