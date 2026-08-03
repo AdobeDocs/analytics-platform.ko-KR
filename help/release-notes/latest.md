@@ -3,74 +3,54 @@ title: 현재 Customer Journey Analytics 릴리스 노트
 description: 최신 Customer Journey Analytics 릴리스 정보 보기
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d3547118dae86f9cf00255bab08e6a1e31b52842
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 32%
+source-wordcount: 711
+ht-degree: 39%
 
 ---
 
-# 최신 Customer Journey Analytics 릴리스 정보 (2026년 7월)
+# 최신 Customer Journey Analytics 릴리스 정보 (2026년 8월)
 
-**마지막 업데이트**: 2026년 7월 8일
+**마지막 업데이트**: 2026년 8월 4일
 
-이 릴리스 정보는 2026년 7월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 8월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 업데이트된 기능
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
-| **브랜드 가시성 통합**<br>[브랜드 가시성 인바운드 통합](/help/integrations/bv.md#inbound-integration)을(를) 사용하면 추가 분석을 위해 브랜드 가시성 데이터를 Customer Journey Analytics에 수집할 수 있습니다. | 2026년 7월 28일 | 2026년 7월 28일 |
-| **하위 이벤트 분석** <br/>[하위 이벤트 분석](/help/components/segments/sub-event.md)을 사용하면 이벤트 수준보다 더 세분화된 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)(으)로 정의할 수도 있습니다. | 2026년 7월 21일 | 2026년 7월 말 |
-| **B2B edition: Ad Hoc 및 관계형 데이터 세트 지원** <br/>Ad Hoc 및 관계형 데이터 세트는 이제 Customer Journey Analytics B2B edition의 계정 기반 연결에서도 지원됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 20일 |
-| **CX Enterprise Coworker: Customer Journey Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker Chat은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>자세한 내용은 [동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/analytics-chat)을 참조하세요.</p> | | 2026년 7월 23일 |
-| **CX Enterprise Coworker: Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 때 데이터 유효성 검사** <br/>CX Enterprise Coworker의 새로운 기술을 사용하면 기존 Adobe Analytics 구현의 데이터에 대해 Customer Journey Analytics 구현의 데이터를 확인할 수 있습니다. <p>이 스킬은 필요에 따라 각 차원, 지표 및 트렌드를 개별적으로 자동으로 비교합니다. 또한 모든 Adobe Analytics 보고서 세트를 모든 Customer Journey Analytics 데이터 보기와 비교할 수도 있습니다. 그런 다음 스킬은 Customer Journey Analytics으로의 마이그레이션을 용이하게 하기 위해 구현할 수 있는 AI 기반 인사이트와 권장 사항을 생성합니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)를 참조하십시오.</p> | | 2026년 7월 24일 |
-| **인라인 분류**<br/>[&#x200B;인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)를 사용하면 자유 형식 테이블의 행 이름을 바꾸거나 결합할 수 있습니다. 테이블의 수정된 행에서 파생된 필드를 만들려면 | 2026년 7월 20일 | 2026년 7월 25일 |
-| **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 31일 |
-| **연결 사용 인터페이스 업데이트** <br/>연결을 관리할 때 [사용 인터페이스](/help/connections/manage-connections.md#usage)에서 Customer Journey Analytics 또는 Customer Journey Analytics B2B edition과 같은 각 개별 모듈에 대한 사용 세부 정보를 볼 수 있습니다. <br/>또한 이제 각 모듈에 대한 사용 보고를 월별 분류할 수 있습니다. | 2026년 7월 23일 | 2026년 7월 30일 |
+| **LLM Optimizer에서 Analytics 데이터 사용**<br> LLM Optimizer을 조직의 Customer Journey Analytics 데이터와 연결하면 AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 14일 |
+| **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡선화)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. |  | 2026년 8월 18일 |
+| **추가 데이터 사용 레이블 지원**<br>&#x200B;이제 Customer Journey Analytics에서 데이터 집합 내의 요소에 대해 다음과 같은 추가 데이터 사용 레이블을 지원합니다.<ul><li>C2 - 서드파티 데이터 내보내기 제한(현재 사용 가능)</li><li>C3 - 직접 식별 가능한 데이터 조합 제한(현재 사용 가능)</li><li>C9 - 데이터 과학 제한(8월 릴리스 예정)</li></ul><p>자세한 내용은 [레이블, 정책 및 마케팅 작업](/help/data-views/data-governance.md)을 참조하십시오.</p> | | 2026년 8월 |
+| **동의 정책 필터링 및 보고**<br>&#x200B;이제 Adobe Experience Platform 동의 정책과 일치하는 방문자를 보고할 수 있습니다. (동의 정책 차원 및 지표가 연결의 데이터 보기에 추가됩니다.)<p>또한 데이터가 Customer Journey Analytics에 수집되기 전에 동의하지 않는 방문자를 제외할 수 있습니다.</p><p>자세한 내용은 동의 보고 및 필터링 개요를 참조하십시오.</p> | | 2026년 8월 |
+| **마이그레이션 플래너: Adobe Analytics에서 Customer Journey Analytics으로**<br>&#x200B;마이그레이션 플래너는 XDM 스키마 만들기 및 AppMeasurement 또는 Analytics 확장 프로그램(태그)에서 Experience Platform Web SDK으로 마이그레이션하는 작업을 포함하여 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 작업과 관련된 가장 복잡하고 시간이 오래 걸리는 작업 중 일부를 자동화하는 마이그레이션 마법사를 제공합니다. <p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
 
 ### Customer Journey Analytics의 수정 사항
 
-**Analysis Workspace**: AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
+**Analysis Workspace**:
 **구성 요소**:
-**연결**: AN-457065
+**연결**:
 **콘텐츠 분석**:
 **안내식 분석**:
 **내보내기**:
-**데이터 보기**: AN-453201
+**데이터 보기**:
 **데이터 수집**:
 **구현**:
-**Report Builder**: AN-457533, AN-453683
-**보고**: AN-457607, AN-447692, AN-451259, AN-455713
+**Report Builder**:
+**보고**:
 **세분화**:
-**예약된 보고서**: AN-450715
+**예약된 보고서**:
 **공유된 지표 및 차원**:
 **대상 분석**:
-**기타**: AN-457063
+**기타**:
 
 ## 연기된 기능
 
