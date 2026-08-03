@@ -27,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
+source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
 workflow-type: tm+mt
 source-wordcount: 826
 ht-degree: 32%
@@ -44,7 +44,7 @@ ht-degree: 32%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
-| **LLM Optimizer 통합**<br>[LLM Optimizer 인바운드 통합](/help/integrations/llmo.md#inbound-integration)을(를) 사용하면 추가 분석을 위해 LLM Optimizer 데이터를 Customer Journey Analytics에 수집할 수 있습니다. | 2026년 7월 28일 | 2026년 7월 28일 |
+| **브랜드 가시성 통합**<br>[브랜드 가시성 인바운드 통합](/help/integrations/bv.md#inbound-integration)을(를) 사용하면 추가 분석을 위해 브랜드 가시성 데이터를 Customer Journey Analytics에 수집할 수 있습니다. | 2026년 7월 28일 | 2026년 7월 28일 |
 | **하위 이벤트 분석** <br/>[하위 이벤트 분석](/help/components/segments/sub-event.md)을 사용하면 이벤트 수준보다 더 세분화된 수준에서 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다. 이벤트 데이터의 일부인 개체 또는 배열을 데이터 보기 내에서 별도의 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)(으)로 정의할 수도 있습니다. | 2026년 7월 21일 | 2026년 7월 말 |
 | **B2B edition: Ad Hoc 및 관계형 데이터 세트 지원** <br/>Ad Hoc 및 관계형 데이터 세트는 이제 Customer Journey Analytics B2B edition의 계정 기반 연결에서도 지원됩니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 20일 |
 | **CX Enterprise Coworker: Customer Journey Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker Chat은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기에서 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>자세한 내용은 [동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/analytics-chat)을 참조하세요.</p> | | 2026년 7월 23일 |

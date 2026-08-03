@@ -22,7 +22,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 3355
+source-wordcount: 3315
 ht-degree: 5%
 
 ---
@@ -209,11 +209,11 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
   이렇게 하려면 다음을 수행해야 합니다.
 
-   - 처리 상태 테이블 `checkpoint_log`을(를) 사용하여 현재 시간과 마지막 수집 시간을 추적합니다. 자세한 내용은 [이 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/incremental-load)를 참조하십시오.
-   - `_acp_system_metadata.ingestTime`을(를) 사용할 수 있도록 시스템 열을 삭제하지 않도록 설정하십시오.
-   - 가장 안쪽의 `SELECT`을(를) 사용하여 사용할 필드를 선택하고 세션 및/또는 속성 계산을 위해 이벤트를 전환 기간으로 제한합니다. 예를 들어 90일입니다.
-   - 다음 수준 `SELECT`을(를) 사용하여 세션 및/또는 속성 창 함수와 기타 계산을 적용합니다.
-   - 출력 테이블에서 `INSERT INTO`을(를) 사용하여 마지막 처리 시간 이후 도착한 이벤트로만 전환 확인을 제한합니다. `_acp_system_metadata.ingestTime `을(를) 처리 상태 테이블에 마지막으로 저장한 시간과 비교하여 필터링하여 이 작업을 수행합니다.
+  - 처리 상태 테이블 `checkpoint_log`을(를) 사용하여 현재 시간과 마지막 수집 시간을 추적합니다. 자세한 내용은 [이 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/query/key-concepts/incremental-load)를 참조하십시오.
+  - `_acp_system_metadata.ingestTime`을(를) 사용할 수 있도록 시스템 열을 삭제하지 않도록 설정하십시오.
+  - 가장 안쪽의 `SELECT`을(를) 사용하여 사용할 필드를 선택하고 세션 및/또는 속성 계산을 위해 이벤트를 전환 기간으로 제한합니다. 예를 들어 90일입니다.
+  - 다음 수준 `SELECT`을(를) 사용하여 세션 및/또는 속성 창 함수와 기타 계산을 적용합니다.
+  - 출력 테이블에서 `INSERT INTO`을(를) 사용하여 마지막 처리 시간 이후 도착한 이벤트로만 전환 확인을 제한합니다. `_acp_system_metadata.ingestTime `을(를) 처리 상태 테이블에 마지막으로 저장한 시간과 비교하여 필터링하여 이 작업을 수행합니다.
 
   **세션화 창 함수 예제**
 
