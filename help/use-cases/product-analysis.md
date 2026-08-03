@@ -56,7 +56,7 @@ Adobe Experience Platform 및 Customer Journey Analytics의 다음 기능을 통
 * Adobe Experience Platform
   * [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview)
   * [데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home)
-  * [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
+  * [Data Distiller](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
   * [연결](/help/connections/overview.md)
   * [파생 필드](/help/data-views/derived-fields/derived-fields.md)을(를) 포함한 [데이터 &#x200B; 보기](/help/data-views/data-views.md)
@@ -122,8 +122,8 @@ CX Enterprise의 다음 기능을 사용하면 통찰력에 효과적으로 대�
 * Customer Journey Analytics에서 활성화할 [대상 만들기 및 게시](/help/components/audiences/publish.md)
 * CX 엔터프라이즈 제품을 통해 대상 활성화:
   * AJO 및 Adobe Target에서 [실험을 실행](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment)하고 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)을 사용하여 Customer Journey Analytics의 변형의 영향을 측정합니다.
-  * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app).
-* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview).
+  * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/get-started-in-app).
+* Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview).
 
 ## 조직에 인사이트 공유
 
