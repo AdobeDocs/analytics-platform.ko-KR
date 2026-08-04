@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3920
+source-wordcount: 3921
 ht-degree: 48%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 48%
 
 {{release-limited-testing}}
 
-Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에 true 1:1 매핑을 수행할 수 없습니다. 두 제품은 근본적으로 다르며, 각 조직의 구현도 크게 달라질 수 있다.
+Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에는 true 1:1 매핑이 불가능합니다. 두 제품은 근본적으로 다르며, 각 조직의 구현도 크게 달라질 수 있다.
 
 이 참조는 데이터 엔지니어가 Adobe Analytics 데이터 피드 열을 평가하고 워크플로우에 가장 가까운 Customer Journey Analytics을 식별하는 데 도움이 됩니다.
 
@@ -446,12 +446,12 @@ Adobe Advertising 통합에 사용되는 EF ID.
 * Adobe Analytics에서 지표가 방문별로 중복을 제거하는 경우 해당 지표의 구성 요소 설정에서 중복 제거 범위를 세션으로 설정할 수 있습니다.
 * 지표가 Adobe Analytics에서 이벤트 ID별로 중복을 제거하는 경우 해당 지표에 대한 XDM 개체에 `value` 및 `id` 필드가 모두 포함되어 있을 수 있습니다. 스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 해당 지표는 다음 XDM 필드에 있을 수 있습니다. 지표의 구성 요소 설정에서 **[!UICONTROL 중복 제거 ID]** 필드를 설정할 수 있습니다.
 
-   * **체크아웃**: `xdm.commerce.checkouts.id`
-   * **장바구니 추가**: `xdm.commerce.productListAdds.id`
-   * **장바구니 열기**: `xdm.commerce.productListOpens.id`
-   * **장바구니 제거**: `xdm.commerce.productListRemovals.id`
-   * **장바구니 보기**: `xdm.commerce.productListViews.id`
-   * **제품 보기**: `xdm.commerce.productViews.id`
+  * **체크아웃**: `xdm.commerce.checkouts.id`
+  * **장바구니 추가**: `xdm.commerce.productListAdds.id`
+  * **장바구니 열기**: `xdm.commerce.productListOpens.id`
+  * **장바구니 제거**: `xdm.commerce.productListRemovals.id`
+  * **장바구니 보기**: `xdm.commerce.productListViews.id`
+  * **제품 보기**: `xdm.commerce.productViews.id`
 
 주문 지표의 중복을 제거하려는 경우 `duplicate_purchase`을(를) 참조하십시오.
 

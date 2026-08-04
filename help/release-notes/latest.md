@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 034186edab4bcd66073236e070a37ee9317830e4
+source-git-commit: feb7b3364e7981c42e3a31f75acfbddfdc463485
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 36%
+source-wordcount: 795
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 36%
 | **추가 데이터 사용 레이블 지원**<br>&#x200B;이제 Customer Journey Analytics에서 데이터 집합 내의 요소에 대해 다음과 같은 추가 데이터 사용 레이블을 지원합니다.<ul><li>C2 - 서드파티 데이터 내보내기 제한(현재 사용 가능)</li><li>C3 - 직접 식별 가능한 데이터 조합 제한(현재 사용 가능)</li><li>C9 - 데이터 과학 제한(8월 릴리스 예정)</li></ul><p>자세한 내용은 [레이블, 정책 및 마케팅 작업](/help/data-views/data-governance.md)을 참조하십시오.</p> | | 2026년 8월 |
 | **동의 정책 필터링 및 보고**<br>&#x200B;이제 Adobe Experience Platform 동의 정책과 일치하는 방문자를 보고할 수 있습니다. (동의 정책 차원 및 지표가 연결의 데이터 보기에 추가됩니다.)<p>또한 데이터가 Customer Journey Analytics에 수집되기 전에 동의하지 않는 방문자를 제외할 수 있습니다.</p><p>자세한 내용은 동의 보고 및 필터링 개요를 참조하십시오.</p> | | 2026년 8월 |
 | **마이그레이션 플래너: Adobe Analytics에서 Customer Journey Analytics으로**<br>&#x200B;마이그레이션 플래너는 XDM 스키마 만들기 및 AppMeasurement 또는 Analytics 확장 프로그램(태그)에서 Experience Platform Web SDK으로 마이그레이션하는 작업을 포함하여 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 작업과 관련된 가장 복잡하고 시간이 오래 걸리는 작업 중 일부를 자동화하는 마이그레이션 마법사를 제공합니다. <p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
-| **B2B: 개인-계정 연결**<br>&#x200B;이제 ID 연결을 사용하여 계정 정보를 데이터 세트의 모든 이벤트에 연결할 수 있습니다. 계정은 Customer Journey Analytics B2B edition에서 가장 높은 보고 컨테이너이므로, 계정 ID가 포함되지 않은 이벤트는 수집 중에 삭제됩니다.</li></ul><p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
+| **B2B: 개인-계정 연결**<br> B2B 계정 연결을 통해 계정 정보로 이벤트 데이터 세트를 강화하고 Customer Journey Analytics의 전체 고객 여정에서 전체 분석을 수행할 수 있습니다. <p>이벤트에 수집에 필요한 Customer Journey Analytics B2B edition의 계정 ID가 없는 경우 계정 결합은 사용자가 제공하는 개인-계정 매핑 데이터 세트를 사용하여 해당 정보를 자동으로 파생하고 추가합니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
 | **CJA Report API 첫 번째 호출 안내서**<br> Adobe Customer Journey Analytics API 첫 번째 호출 안내서는 기본 보고서 요청을 구성하는 지침 및 예를 제공합니다. | | 2026년 8월 10일 |
 | **CJA Report API 날짜 트렌드 가이드**<br> Adobe Customer Journey Analytics API 날짜 트렌드 가이드는 기본 보고서 요청을 구성하는 지침 및 예를 제공합니다. | | 2026년 8월 17일 |
 
