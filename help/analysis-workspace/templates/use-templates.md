@@ -6,11 +6,27 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
 workflow-type: tm+mt
 source-wordcount: 21144
@@ -72,7 +88,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >
    >이러한 템플릿을 사용하려면 먼저 관리자가 누락된 구성 요소에 필요한 컨텍스트 레이블을 데이터 보기에 추가해야 합니다. 자세한 내용은 [템플릿 사용](/help/analysis-workspace/templates/create-templates.md)에서 [지정된 템플릿의 데이터 보기에 누락된 구성 요소 추가](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)를 참조하십시오.
    >
-   >컨텍스트 레이블에 대한 자세한 내용은 [ 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+   >컨텍스트 레이블에 대한 자세한 내용은 [&#x200B; 구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
    1. 세그먼트 아이콘을 선택합니다.
 
@@ -247,7 +263,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **교육 튜토리얼**] | 일반적인 Analysis Workspace 용어와 첫 번째 분석 빌드 단계 알아보기 |
 | [!UICONTROL **페이지**] | <!--duplicated in Engagement section--> 방문 빈도가 가장 높은 페이지와 가장 낮은 페이지를 파악합니다. <p>**이를 통해** 대상자와 대상자가 가장 관심을 갖는 정보의 유형을 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 조회수가 적은 페이지의 가시성을 높이기 위해 페이지 메타데이터를 조정하거나 가장 많이 조회된 페이지의 콘텐츠를 향상시키는 데 시간을 할애하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 페이지 차원과 페이지 조회수 지표를 사용합니다.</p> |
@@ -395,7 +411,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **주요 지표**] | <!--duplicated in Most popular section--> 페이지 조회수, 방문자 수, 고유 방문자 수 지표를 나란히 표시한 보고서를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. <p>**이를 통해** 이러한 중요한 지표를 비교하여 사이트를 방문한 고유 사용자 수, 페이지 방문 횟수 및 세션 수를 보다 완벽하게 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 특정 주 또는 월에 사이트를 방문한 사람별로 조회한 평균 페이지 수, 일년 중 특정 시간대 또는 마케팅 캠페인이 실행되기 전과 후에 어떻게 변화했는지 평가하는 등 다양한 작업을 수행할 수 있습니다. </p><p>이 템플릿은 일 차원, 페이지 조회수 지표, 방문자 수 지표, 고유 방문자 수 지표를 사용합니다.</p> |
 | [!UICONTROL **페이지 조회수**] | <!--duplicated in Most popular section-->총 페이지 조회수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. <p>**이를 통해** 사이트의 트래픽이 시간이 지남에 따라 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 사이트 트래픽을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 트래픽을 비교할 수도 있습니다.</p><p>이 템플릿은 일 차원과 페이지 조회수 지표를 사용합니다.</p> |
@@ -473,7 +489,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **제품 전환 단계**] | 장바구니, 체크아웃, 주문을 표시하는 단계 시각화에서 제품 전환을 확인할 수 있습니다. 전환율, 매출 평균, 단위 평균, 주문 평균을 확인할 수도 있습니다.<p>**이를 통해** 사람들이 전환 프로세스를 어떻게 진행하고 드롭 오프하는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 웹 사이트를 개선하여 체크아웃 프로세스를 더욱 원활하게 진행하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **제품** | 어떤 제품이 최상위 판매자 또는 가장 많이 본 제품 등의 주요 지표를 주도하는지 확인합니다. <p>**이를 통해** 어떤 제품이 가장 성공적인지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 성공적인 제품에 대한 자금 지원을 늘리고 덜 성공적인 제품에 대한 자금 지원을 줄이는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 주문 지표와 제품 차원을 사용합니다. |
@@ -659,7 +675,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | **[!UICONTROL 대상 개요]** | 사이트를 방문하는 사람 중 어떤 대상자가 표시되는지 확인합니다.<p>**이를 통해** 대상자가 시작된 위치(RTCDP, Customer Journey Analytics 등), 대상자 오버랩 등에 대한 일반적인 정보를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 데이터를 사용하여 특정 대상자를 위한 마케팅 활동에 집중하거나 여러 대상자를 아우르는 고객용 맞춤 경험을 만드는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 대상 이름, 대상 원본, 종료된 대상 이름 및 종료된 대상 원본 차원을 사용합니다.</p><p>자세한 내용은 [Customer Journey Analytics에서 Experience Platform 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)을 참조하십시오.</p> |
 | [!UICONTROL **첫 방문자 대 재방문자**] | 처음 방문자 수와 재방문자 수를 비교해 보십시오. <p>**이를 통해** 고객 충성도를 유지하는 데 있어 사이트의 효과를 이해하거나 새로운 고객을 확보하는 속도를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 첫 방문자에게 추후 구매를 장려하는 인센티브를 제공하여 다시 방문하도록 유도하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
@@ -779,7 +795,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **마케팅 채널**] > [!UICONTROL **채널 개요 보고서**] | 사용자 정의 속성을 사용할 때 이 템플릿은 방문자가 사이트에 접속하는 방법을 보여 줍니다.<p>**이를 통해** 어떤 마케팅 채널이 가장 효과적인지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 효과적인 마케팅 채널에 더 많이 투자하고 효과가 낮은 마케팅 채널에서 철수하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 ID(변수/마케팅채널) 차원과 매출 지수를 사용합니다.</p> |
 | [!UICONTROL **마케팅 채널**] > [!UICONTROL **첫 번째 터치 채널**] | 방문자의 참여 기간(기본 30일) 동안 방문자가 매칭한 첫 번째 마케팅 채널을 확인할 수 있습니다. <p>**이를 통해** 사이트로 초기 트래픽을 유도하는 마케팅 채널을 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 효과적인 분야에 마케팅 활동을 집중하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 첫 번째 터치 채널 차원을 사용합니다.</p> |
@@ -849,7 +865,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **모바일 앱 화면**] | 모바일 앱에서 각 화면과 관련된 이벤트, 세션 및 참여자 수를 확인할 수 있습니다.<p>**이를 통해** 사이트에서 방문 빈도가 높은 화면을 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 방문 빈도가 높은 화면의 콘텐츠를 개선하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 이벤트, 세션, 개인, 백분율 변경 지표를 사용합니다. 또한 페이지 제목 차원을 사용합니다.</p> |
 | **모바일 앱 액션** | 모바일 앱에서 사람들이 수행하는 액션을 확인할 수 있습니다. <p>**이를 통해** 사람들이 앱을 어떻게 사용하고 있는지 앱을 통해 어떤 가치를 얻을 수 있는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 방문 빈도가 높은 페이지를 보완하거나 개선하는 기능을 개발하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 이벤트, 세션, 개인, 백분율 변경 지표를 사용합니다. |
@@ -885,7 +901,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **이동통신사**] | 사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스에 셀룰러 네트워크 연결을 제공하는 통신 회사를 확인할 수 있습니다.<p>**이를 통해** 사용자 사이에서 가장 인기 있는 이동통신사를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 다양한 통신사의 네트워크 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 이동통신사 차원을 사용합니다.</p> |
 | **디바이스** | 사람들이 귀하의 사이트에 접속하는 데 사용하는 모바일 디바이스의 제조사와 모델을 확인할 수 있습니다.<p>**이를 통해** 사용자 사이에서 가장 인기 있는 모바일 디바이스를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 일반적인 모바일 디바이스에 맞게 사이트 렌더링을 최적화하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 모바일 디바이스 이름 차원을 사용합니다.</p> |
@@ -949,7 +965,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **분 단위**] | 사이트의 이벤트, 세션 및 참여자 수를 분 단위로 분류하여 확인합니다. 예: 보고 일정이 1일인 보고서가 있는 경우, 당일 각 시간의 첫 번째 분은 동일한 차원 항목으로 그룹화됩니다.<p>**이를 통해** 세부적인 수준에서 트렌드를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 분 단위까지 피크타임에 맞춰 리소스를 최적화하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 분 단위 차원을 사용합니다.</p> |
 | **시간(일 기준)** | 사이트의 이벤트, 세션 및 참여자 수를 시간(일 기준) 단위로 분류하여 확인합니다. 예: 1월 1일~1월 7일 범위의 보고서가 있는 경우, 각 날의 첫 번째 시간은 동일한 차원 항목으로 그룹화됩니다.<p>**이를 통해** 사이트에 가장 많이 방문하거나 가장 적게 방문하는 시간대를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 트래픽이 높은 시간대에 더 많은 컴퓨팅 리소스를 사이트에 할당하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 시간(일 기준) 차원을 사용합니다.</p> |
@@ -989,7 +1005,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **멀티 채널 개요**] | 여러 채널의 트래픽 분포를 확인합니다. <p>**이를 통해** 트래픽과 참여를 성공적으로 유도하는 채널을 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 투자 수익률이 가장 높은 채널에 마케팅 활동을 집중하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 사용자, 세션 및 이벤트 지표를 사용합니다.</p> |
 | **웹+앱** | 웹 트래픽과 모바일 트래픽을 함께 확인합니다.<p>**이를 통해** 사이트로 유입되는 웹 및 모바일 트래픽의 분포를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 트래픽이 특정 수준에 도달하면 더 많은 리소스를 모바일 앱 경험에 전용하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 웹 세션, 모바일 앱 세션, 웹+앱 크로스 채널 세션 지표를 사용합니다.</p> |
@@ -1026,7 +1042,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **콜센터 대시보드**] | 고객이 호출한 이유와 호출 횟수 등 콜센터 데이터를 확인할 수 있습니다. <p>**이를 통해** 고객 문제 발생 시점과 콜센터 리소스 사용 출처를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 콜센터 트래픽을 증가시키는 제품 문제를 해결하여 최종적으로 제품 수익성을 개선하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **판매 시점** | 매출, 주문, 판매 수량을 비롯해 POS(판매 시점) 거래 데이터를 조회합니다. 이 템플릿에는 최우수 스토어, 최우수 제품, 최우수 제품 카테고리와 온라인 대 오프라인 판매에 대한 정보를 표시하는 시각화도 포함됩니다. <p>**이를 통해** 어떤 제품이 스토어와 온라인에서 가장 많이 판매되는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 성과가 가장 높은 제품과 채널에 더 많은 마케팅 리소스를 사이트에 할당하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 사용자, 매출, 주문 지표를 사용합니다.</p> |
@@ -1065,7 +1081,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Journey Optimizer 캠페인**] | 이메일 캠페인, 실험, 인앱, SMS 등을 포함하여 Journey Optimizer 캠페인에 필요한 필수 지표를 확인합니다.<p>**이를 통해** 클릭 수와 게재된 메시지 수와 같은 세부 정보를 파악하게 되면 캠페인의 효과 및 사용자 참여 수준에 대한 포괄적인 인사이트를 얻을 수 있습니다.</p><p>**학습한 내용을 바탕으로** 타깃 대상자의 참여 수준에 따라 캠페인을 조정하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **Journey Optimizer 여정** | 이메일 여정, 실험, 인앱, SMS 등을 포함하여 Journey Optimizer 여정에 필요한 필수 지표를 확인합니다.<p>**이를 통해** 클릭 수와 게재된 메시지 수와 같은 세부 정보를 파악하게 되면 여정의 효과 및 사용자 참여 수준에 대한 포괄적인 인사이트를 얻을 수 있습니다.</p><p>**학습한 내용을 바탕으로** 타깃 대상자의 참여 수준에 따라 캠페인을 조정하는 등 다양한 작업을 수행할 수 있습니다.</p> |
@@ -1085,7 +1101,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >title="B2B 회의 요청의 전체 라이프사이클을 추적합니다. 전환율, 컨설턴트 성과를 모니터링하고 가장 효과적인 리드 생성 채널을 파악합니다."
 >abstract="**이를 통해** 회의 전환율을 추적하고, 성과가 높은 팀원을 파악하며, 예약 행동의 계절별 트렌드를 이해하고, 가장 중요한 회의 요청을 생성하는 페이지를 정확히 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 회의 요청 프로세스 최적화, 높은 전환율의 페이지에 리소스 재분배, 예약률이 낮은 컨설턴트를 위해 타기팅된 교육 개발, 누락된 회의를 줄이기 위한 새로운 전략 구현 등 다양한 작업을 수행할 수 있습니다."
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Brand Concierge 개요**] | 대화 패턴, 사용자 피드백, 추천의 효과를 통해 사용자 참여도를 분석합니다. <p>**이를 통해** 참여 패턴을 파악하고, 대화 품질을 평가하며, 고객 만족도 트렌드를 추적하고, 링크 추천의 효과를 측정할 수 있습니다.</p><p>**학습한 내용을 바탕으로** AI 에이전트의 응답을 개선하거나, 자주 발생하는 문제에 대해 타기팅된 콘텐츠를 개발하거나, 추천 알고리즘을 개선하거나, 다양한 사용자 세그먼트에 특화된 경로를 만드는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **Brand Concierge B2B 모임** | B2B 모임 요청의 전체 라이프사이클을 추적합니다. 전환율을 모니터링하고, 컨설턴트 예약 실적을 평가하고, 가장 효과적인 리드 생성 채널을 식별합니다. <p>**이를 통해 모임 전환율을 추적하고, 성과가 좋은 팀원을 식별하고, 예약 동작의 시즌 트렌드를 이해하고, 가장 중요한 모임 요청을 생성하는 페이지 URL을 파악할 수 있습니다**. </p><p>**학습한 내용에 따라** 모임 요청 프로세스를 최적화하고, 리소스를 높은 전환 페이지 URL로 재배포하거나, 예약률이 낮은 컨설턴트를 위한 타깃팅된 교육을 개발하거나, 누락된 모임을 줄이기 위한 새로운 전략을 구현하는 등 여러 가지 작업을 수행할 수 있습니다.</p> |
@@ -1115,7 +1131,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **B2B 계정 참여 개요**] | 이벤트, 사람, 기회에 따라 계정이 얼마나 활성화되어 있는지 살펴보십시오.<p>**이를 통해 계정 수준에서의 참여도가 상승 추세인지 하락 추세인지 더 잘 이해하고, 계정 간의 활동을 비교하며, 보유 또는 인수 노력에 집중할 위치를 결정하는데 도움이 됩니다.**</p><p>**학습한 내용을 바탕으로** 참여도는 낮지만 계정의 중요성 때문에 더 많은 주의가 필요한 계정에 주의를 기울이는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | [!UICONTROL **B2B 기회 참여 개요**] | 기회 수준과 표면 거래에서 참여도를 추적하여 견인력을 얻거나 잃습니다.<p>**이를 통해 거래 진행 상황을 보다 정확하게 예측하고 참여가 급증하거나 정체되는 부분에 집중할 수 있습니다.**</p><p>**학습한 내용을 바탕으로 거의 성사된 거래에 추가 노력을 기울이고 다른 거래가 주목받지 못하는 이유를 조사하는 등 다양한 작업을 수행할 수 있습니다.**</p> |
@@ -1126,7 +1142,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Mix Modeler 증분 모델 인사이트**] | Mix Modeler에서 생성된 일부 모델의 인사이트를 확인합니다.<p>**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <p>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul></p> |
 
