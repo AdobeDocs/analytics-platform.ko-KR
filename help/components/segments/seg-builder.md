@@ -5,22 +5,14 @@ feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
 source-wordcount: 1812
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="세그먼트 데이터를 데이터 보기 데이터와 비교합니다. 미리 보기 비율은 **지난 90일**&#x200B;의 데이터 보기의 총 수를 반영합니다.<br><br/>미리 보기를 로드하지 못하면 연결이 다시 채워집니다."
+>abstract="세그먼트 데이터를 데이터 보기 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 반영합니다.<br><br/>미리보기를 로드하지 못하는 경우 연결이 다시 채워지는 중입니다."
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segments/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
 
@@ -93,7 +85,7 @@ ht-degree: 79%
 
 1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다.
    * 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**&#x200B;구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
+   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
 1. 필요한 경우 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](seg-operators.md)를 참조하십시오.
 
@@ -143,7 +135,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
