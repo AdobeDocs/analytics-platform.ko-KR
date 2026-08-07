@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
 source-wordcount: 1812
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="세그먼트 데이터를 데이터 보기 데이터와 비교합니다. 미리 보기 비율은 **지난 90일**&#x200B;의 데이터 보기의 총 수를 반영합니다.<br><br/>미리 보기를 로드하지 못하면 연결이 다시 채워집니다."
+>abstract="세그먼트 데이터를 데이터 보기 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 반영합니다.<br><br/>미리보기를 로드하지 못하는 경우 연결이 다시 채워지는 중입니다."
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segments/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
 
