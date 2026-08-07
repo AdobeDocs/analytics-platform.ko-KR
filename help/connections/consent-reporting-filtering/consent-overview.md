@@ -5,24 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 1058
-ht-degree: 2%
+source-wordcount: 1060
+ht-degree: 3%
 
 ---
 
@@ -81,8 +72,8 @@ ht-degree: 2%
 
   | 마케팅 액션 | 설명 |
   |---------|----------|
-  | **[!UICONTROL Analytics]** | Analysis Workspace의 표준 Customer Journey Analytics 보고. |
-  | **[!UICONTROL 데이터 과학]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례. |
+  | **[!UICONTROL 분석 데이터]** | Analysis Workspace의 표준 Customer Journey Analytics 보고입니다. |
+  | **[!UICONTROL 데이터 과학 데이터]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례입니다. |
 
 * 방문자의 데이터는 해당 동의 정책 **모두**&#x200B;와(과) 일치하는 경우에만 수집됩니다. 방문자에게 적용 가능한 정책이 없는 경우 해당 방문자의 데이터는 제외됩니다.
 
