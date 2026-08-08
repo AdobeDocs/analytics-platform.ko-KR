@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 770
 ht-degree: 2%
 
 ---
@@ -62,7 +62,11 @@ ht-degree: 2%
 
 1. **[!UICONTROL 데이터 보기 사용]**&#x200B;을 선택합니다.
 
-1. (선택 사항) **[!UICONTROL 필터링]** 섹션에서 다음 마케팅 작업에 대해 필터링을 활성화할 수 있습니다.
+1. (선택 사항) **[!UICONTROL 필터링]** 섹션에서 [!UICONTROL **필터링 활성화**]&#x200B;를 선택하여 동의 데이터를 필터링합니다.
+
+   필터링이 활성화되면 Customer Journey Analytics은 방문자가 활성화된 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다. 자세한 내용은 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)의 [동의 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering)을 참조하세요.
+
+1. (선택 사항) 다음 마케팅 작업에 대해 필터링을 활성화합니다.
 
    >[!NOTE]
    >
@@ -70,8 +74,8 @@ ht-degree: 2%
 
    | 마케팅 액션 | 설명 |
    |---------|----------|
-   | **[!UICONTROL Analytics]** | Analysis Workspace의 표준 Customer Journey Analytics 보고에 사용되는 데이터를 필터링합니다. |
-   | **[!UICONTROL 데이터 과학]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례에 사용되는 데이터를 필터링합니다. |
+   | **[!UICONTROL 분석 데이터]** | Analysis Workspace의 표준 Customer Journey Analytics 보고에 사용되는 데이터를 필터링합니다. |
+   | **[!UICONTROL 데이터 과학 데이터]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례에 사용되는 데이터를 필터링합니다. |
 
 1. 구성을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 선택하십시오.
 
