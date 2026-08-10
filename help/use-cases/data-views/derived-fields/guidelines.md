@@ -44,11 +44,11 @@ Customer Journey Analytics [파생 필드](/help/data-views/derived-fields/deriv
 
 * **성능 최적화**: 쿼리 실행 속도가 느려지거나 시스템 제한에 도달하는 패턴을 식별하여 작업에 적합한 도구를 선택하십시오.
 
-   * [파생 필드](/help/data-views/derived-fields/derived-fields.md)
-   * [데이터 보기 설정](/help/data-views/component-settings/overview.md)
-   * [데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home)
-   * [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)
-   * [조회 데이터 세트](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+  * [파생 필드](/help/data-views/derived-fields/derived-fields.md)
+  * [데이터 보기 설정](/help/data-views/component-settings/overview.md)
+  * [데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home)
+  * [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)
+  * [조회 데이터 세트](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
 
 * **유지 관리 기능 개선**: 명확하고 모듈식이며 업데이트가 용이한 파생된 필드 논리를 빌드합니다.
 * **정확성 확인**: 분류, 속성 및 데이터 변환에서 일반적인 논리적 오류를 방지합니다.
@@ -105,8 +105,8 @@ Customer Journey Analytics은 파생 필드당 명시적 [함수 및 연산자 �
 **패턴**
 
 * 복잡한 **[!UICONTROL If]** 및 **[!UICONTROL Else If]** 체인을 사용하는 매우 큰 [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) 함수:
-   * 많은 조건(예: 20개 이상의 연산자) 또는 딥 중첩(3개 또는 4개 이상의 중첩 [사례 When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** 및 **[!UICONTROL Else If]** 논리).
-   * 동일한 필드에 다른 값으로 반복된 조건.
+  * 많은 조건(예: 20개 이상의 연산자) 또는 딥 중첩(3개 또는 4개 이상의 중첩 [사례 When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** 및 **[!UICONTROL Else If]** 논리).
+  * 동일한 필드에 다른 값으로 반복된 조건.
 * 상수 문자열 일치를 반복했습니다.
 
   +++ 예
@@ -138,26 +138,26 @@ Customer Journey Analytics은 파생 필드당 명시적 [함수 및 연산자 �
 **패턴**
 
 * 파생 필드는 구성 요소 설정에서 이미 사용 가능한 동작을 복제합니다.
-   * 대소문자 표준화, 트리밍 또는 간단한 필터링(예: `unknown`, `undefined` 또는 `null` 제외)을 통해 복잡성을 가중시키지 않습니다.
-   * 숫자 범위에 대한 기본 버킷팅.
+  * 대소문자 표준화, 트리밍 또는 간단한 필터링(예: `unknown`, `undefined` 또는 `null` 제외)을 통해 복잡성을 가중시키지 않습니다.
+  * 숫자 범위에 대한 기본 버킷팅.
 
-     +++ 예
+    +++ 예
 
-     ![잘못된 기본 버킷팅 사용](assets/best-practices-wrong-usage.png)
+    ![잘못된 기본 버킷팅 사용](assets/best-practices-wrong-usage.png)
 
-     +++
+    +++
 
-     대신 데이터 보기의 차원에서 [값 버킷팅](/help/data-views/component-settings/value-bucketing.md)을 사용하십시오.
-   * 데이터 보기 [속성](/help/data-views/component-settings/attribution.md) 및 [만료](/help/data-views/component-settings/persistence.md) 설정이 충분할 경우 [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous) 또는 수동 시퀀스 논리로 코딩된 지속성 또는 속성 논리입니다.
-   * 조건에서 기존 지표를 간단히 계산하는 파생 지표입니다.
+    대신 데이터 보기의 차원에서 [값 버킷팅](/help/data-views/component-settings/value-bucketing.md)을 사용하십시오.
+  * 데이터 보기 [속성](/help/data-views/component-settings/attribution.md) 및 [만료](/help/data-views/component-settings/persistence.md) 설정이 충분할 경우 [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous) 또는 수동 시퀀스 논리로 코딩된 지속성 또는 속성 논리입니다.
+  * 조건에서 기존 지표를 간단히 계산하는 파생 지표입니다.
 
-     +++ 예
+    +++ 예
 
-     ![잘못된 조건부 논리 사용](assets/best-practices-wrong-usage-2.png)
+    ![잘못된 조건부 논리 사용](assets/best-practices-wrong-usage-2.png)
 
-     +++
+    +++
 
-     이 방법은 필터링된 지표 또는 [포함/제외 값](/help/data-views/component-settings/include-exclude-values.md)에서 달성할 수 있는 내용을 복제합니다.
+    이 방법은 필터링된 지표 또는 [포함/제외 값](/help/data-views/component-settings/include-exclude-values.md)에서 달성할 수 있는 내용을 복제합니다.
 
 **위험 진단: 데이터 품질, 높은 유지 관리**
 
@@ -172,8 +172,8 @@ Customer Journey Analytics은 파생 필드당 명시적 [함수 및 연산자 �
 * 속성 및 지속성: [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous) 또는 기타 순차적 논리를 사용하여 파생 필드에서 차원을 시뮬레이션하는 대신 차원에 대한 데이터 보기 [지속성](/help/data-views/component-settings/persistence.md) 설정(**[!UICONTROL 할당 모델]** 및 **[!UICONTROL 만료]**)을 사용합니다.
 * 숫자 버킷팅: 파생된 필드를 숫자로 유지하고 데이터 보기에서 [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) 체인에 범위 레이블을 하드 코딩하는 대신 맨 위에 버킷 차원을 만들 수 있도록 합니다.
 * 조건부 논리: 단순 0 또는 1 플래그 논리를 다음 중 하나로 변환합니다.
-   * Analysis Workspace에 적용된 포함 또는 제외 값이 있는 원래 지표 필터 논리입니다.
-   * 데이터 보기 구성 요소 설정 구성을 사용하여 필터링된 지표.
+  * Analysis Workspace에 적용된 포함 또는 제외 값이 있는 원래 지표 필터 논리입니다.
+  * 데이터 보기 구성 요소 설정 구성을 사용하여 필터링된 지표.
 
 ## 지표 및 차원의 잘못된 분류
 
@@ -182,8 +182,8 @@ Customer Journey Analytics은 파생 필드당 명시적 [함수 및 연산자 �
 **패턴**
 
 * 파생된 필드는 다음을 분명히 생성합니다.
-   * 숫자 출력(개수, 비율 또는 산술)이지만 구성 요소는 차원으로 구성됩니다.
-   * 범주형 출력(레이블 또는 문자열)이지만 구성 요소는 지표로 구성됩니다.
+  * 숫자 출력(개수, 비율 또는 산술)이지만 구성 요소는 차원으로 구성됩니다.
+  * 범주형 출력(레이블 또는 문자열)이지만 구성 요소는 지표로 구성됩니다.
 * 파생된 필드는 0/1 플래그를 문자열로 인코딩합니다.
 
 Customer Journey Analytics을 사용하면 숫자 필드를 차원으로, 문자열 필드를 데이터 보기 수준의 지표로 강제 변환할 수 있지만 잘못 정렬하면 보고에 혼동을 줄 수 있습니다.
@@ -195,10 +195,10 @@ Customer Journey Analytics을 사용하면 숫자 필드를 차원으로, 문자
 **추천**
 
 * 출력이 숫자인 경우
-   * 데이터 보기에서 구성 요소 유형을 **[!UICONTROL 지표]**(으)로 설정하십시오.
-   * 구성 요소가 하위 집합 지표를 나타내는 경우(예: **[!UICONTROL 페이지 보기 수 체크아웃]**) 파생 문자열과 맨 위의 계산된 지표가 아닌 데이터 보기 내에서 필터링된 지표를 사용하십시오.
+  * 데이터 보기에서 구성 요소 유형을 **[!UICONTROL 지표]**(으)로 설정하십시오.
+  * 구성 요소가 하위 집합 지표를 나타내는 경우(예: **[!UICONTROL 페이지 보기 수 체크아웃]**) 파생 문자열과 맨 위의 계산된 지표가 아닌 데이터 보기 내에서 필터링된 지표를 사용하십시오.
 * 출력이 레이블인 경우:
-   * 구성 요소 유형을 **[!UICONTROL Dimension]**(으)로 설정하고 그에 따라 [지속성](/help/data-views/component-settings/persistence.md) 설정(**[!UICONTROL 할당 모델]** 및 **[!UICONTROL 만료]**)을 구성하십시오.
+  * 구성 요소 유형을 **[!UICONTROL Dimension]**(으)로 설정하고 그에 따라 [지속성](/help/data-views/component-settings/persistence.md) 설정(**[!UICONTROL 할당 모델]** 및 **[!UICONTROL 만료]**)을 구성하십시오.
 
 ## 마케팅 채널 및 캠페인 논리 위험
 
@@ -212,9 +212,9 @@ Customer Journey Analytics을 사용하면 숫자 필드를 차원으로, 문자
 
 * Customer Journey Analytics 마케팅 채널은 종종 파생 필드를 사용하여 구현됩니다.
 
-   * URL 매개 변수, 레퍼러, 랜딩 페이지 등을 기반으로 마케팅 채널 또는 캠페인 버킷을 구현하는 파생 필드입니다.
-   * 의심스러운 순서 지정: 더 구체적인 규칙이 적용되기 전에 일반적인 다목적 캐치 규칙이 표시됩니다.
-   * 가능한 모든 옵션을 불완전하게 처리합니다. **[!UICONTROL 참조 도메인에 대한 명시적 분기가 설정되지 않았거나]** **[!UICONTROL 쿼리 매개 변수가 설정되지 않았습니다]**.
+  * URL 매개 변수, 레퍼러, 랜딩 페이지 등을 기반으로 마케팅 채널 또는 캠페인 버킷을 구현하는 파생 필드입니다.
+  * 의심스러운 순서 지정: 더 구체적인 규칙이 적용되기 전에 일반적인 다목적 캐치 규칙이 표시됩니다.
+  * 가능한 모든 옵션을 불완전하게 처리합니다. **[!UICONTROL 참조 도메인에 대한 명시적 분기가 설정되지 않았거나]** **[!UICONTROL 쿼리 매개 변수가 설정되지 않았습니다]**.
 
 **위험 진단: 데이터 품질**
 
@@ -301,8 +301,8 @@ Customer Journey Analytics을 사용하면 숫자 필드를 차원으로, 문자
 **위험 진단: 데이터 품질**
 
 * 거버넌스 및 디자인 질문: 산술을 다음과 같이 배치하는 것이 더 나을 수 있습니다.
-   * 파생 필드 지표(파생 필드를 모든 사용자에 대해 관리되는 표준 지표로 하려는 경우).
-   * Analysis Workspace의 계산된 지표(계산된 지표가 분석별로 계산된 경우).
+  * 파생 필드 지표(파생 필드를 모든 사용자에 대해 관리되는 표준 지표로 하려는 경우).
+  * Analysis Workspace의 계산된 지표(계산된 지표가 분석별로 계산된 경우).
 
 **추천**
 
@@ -340,8 +340,8 @@ Customer Journey Analytics을 사용하면 숫자 필드를 차원으로, 문자
 
 * 파생 필드는 암시적으로 특정 [컨테이너 수준](/help/getting-started/cja-b2b-concepts-features.md#containers)(이벤트, 세션 또는 사용자)을 가정하지만:
 
-   * 파생된 필드는 세션 또는 사용자 수준 특성을 참조하지 않습니다.
-   * 데이터 보기 세션 설정이 의도한 논리와 충돌합니다.
+  * 파생된 필드는 세션 또는 사용자 수준 특성을 참조하지 않습니다.
+  * 데이터 보기 세션 설정이 의도한 논리와 충돌합니다.
 
 **위험 진단: 데이터 품질**
 
