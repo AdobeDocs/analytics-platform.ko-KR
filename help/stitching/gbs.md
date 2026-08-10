@@ -7,29 +7,28 @@ role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
 autotag-review: '2026-05-19T09:24:07.100Z'
 TQID: 'https://experienceleague.adobe.com/f-HOhKLpbM4u4MAzzoUCc0cMvVIu1k3FXg4FShValVE'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 711e4bd71a4939eec96a6c454242e96b350fe4e2
 workflow-type: tm+mt
-source-wordcount: 1899
-ht-degree: 70%
+source-wordcount: 2017
+ht-degree: 64%
 
 ---
 
 # 그래프 기반 결합
 
-그래프 기반 결합에서는 이벤트 데이터 세트, 해당 데이터 세트에 대한 영구 ID(쿠키) 및 ID 그래프에서 원하는 개인 ID 네임스페이스를 지정합니다. 그래프 기반 결합은 모든 이벤트에 대한 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 합니다. 영구 ID는 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 지정된 네임스페이스에서 개인 ID를 얻는 데 사용됩니다.
+그래프 기반 결합에서는 이벤트 데이터 세트, 해당 데이터 세트에 대한 영구 ID(쿠키) 및 ID 그래프에서 원하는 개인 ID 네임스페이스를 지정합니다. 그래프 기반 결합은 모든 이벤트에 대한 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 합니다. 영구 ID는 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 지정된 네임스페이스에서 개인 ID를 얻는 데 사용됩니다. 이는 아래 그림에 표시된 대로 Real-Time Customer Data Platform과 같은 다른 Experience Platform 애플리케이션에서 사용하는 것과 동일한 ID 서비스입니다.
+
+![ID 서비스](assets/uis-gbs.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>[ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)는 추가 라이선스가 필요하지 않은 핵심 Experience Platform 서비스입니다. 자세한 내용은 [Experience Platform 인프라 내에서 ID 서비스의 역할 이해](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure)를 참조하십시오.
+>
 
 이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 따라서 결합용으로 활성화된 데이터 세트가 포함된 [연결](/help/connections/overview.md)과(와) 연결된 [데이터 보기](/help/data-views/data-views.md)에서 개인 ID 데이터 보기 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
 
@@ -41,8 +40,8 @@ ht-degree: 70%
 그래프 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
 - `identityMap` 네임스페이스에서 기본 ID를 사용하여 persistentID를 정의합니다.
-   - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 사전순으로 정렬되고 첫 번째 ID가 선택됩니다.
-   - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우, 알파벳순으로 첫 번째 가용 기본 ID가 선택됩니다.
+  - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 사전순으로 정렬되고 첫 번째 ID가 선택됩니다.
+  - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우, 알파벳순으로 첫 번째 가용 기본 ID가 선택됩니다.
 
   아래 예시에서 네임스페이스 및 ID는 정렬된 기본 ID 목록과 마지막으로 선택한 ID를 생성합니다.
 
@@ -73,7 +72,7 @@ ht-degree: 70%
   </table>
 
 - `identityMap` 네임스페이스를 사용하여 persistentID를 정의합니다.
-   - `identityMap` 네임스페이스에 persistentID에 대한 값이 여러 개인 경우, 알파벳순으로 첫 번째 가용 ID가 사용됩니다.
+  - `identityMap` 네임스페이스에 persistentID에 대한 값이 여러 개인 경우, 알파벳순으로 첫 번째 가용 ID가 사용됩니다.
 
   아래 예제에서는 사용할 네임스페이스로 ECID를 선택했습니다. 이렇게 하면 정렬된 ID 목록이 생성되고 선택한 ID가 표시됩니다.
 
@@ -111,10 +110,10 @@ ht-degree: 70%
 - **라이브 결합**: ID 그래프를 쿼리하여 선택한 네임스페이스에 대한 개인 ID를 조회하기 위해 영구 ID를 사용하여 각 히트(이벤트)를 들어오는 대로 결합하려고 시도합니다. 조회에서 개인 ID를 사용할 수 있는 경우, 이 개인 ID가 즉시 결합됩니다.
 
 - **재생 결합**: ID 그래프에서 업데이트된 ID를 기반으로 하는 *재생* 데이터입니다. 이 단계에서 ID 그래프가 네임스페이스에 대한 ID를 해결함으로써 이전에 알 수 없었던 디바이스(영구 ID)의 히트가 결합됩니다. 두 매개 변수가 재생을 결정합니다. **빈도** 및 **전환 확인 기간**. Adobe는 다음과 같은 매개 변수 조합을 제공합니다.
-   - **일별 빈도에 대한 일별 전환 확인**: 데이터는 매일 24시간 전환 확인 기간으로 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 프로필은 사이트를 방문하는 당일 인증해야 합니다.
-   - **주별 빈도에 대한 주별 전환 확인**: 주별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
-   - **주별 빈도에 대한 격주 전환 확인**: 격주 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 2주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
-   - **주별 빈도에 대한 월별 전환 확인**: 월별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1개월 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **일별 빈도에 대한 일별 전환 확인**: 데이터는 매일 24시간 전환 확인 기간으로 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 프로필은 사이트를 방문하는 당일 인증해야 합니다.
+  - **주별 빈도에 대한 주별 전환 확인**: 주별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **주별 빈도에 대한 격주 전환 확인**: 격주 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 2주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **주별 빈도에 대한 월별 전환 확인**: 월별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1개월 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
 
 - **개인정보**: 개인정보 보호 관련 요청이 수신되면 소스 데이터 세트에서 요청된 ID를 제거할 뿐 아니라 인증되지 않은 이벤트에서 해당 ID의 모든 결합을 실행 취소해야 합니다. 또한 특정 ID에 대한 향후 그래프 기반 결합을 방지하려면 ID 그래프에서 ID를 제거해야 합니다.
 
@@ -160,7 +159,7 @@ ht-degree: 70%
 
 +++ 세부 사항
 
-2023-05-13 16:30에 재생 결합이 발생하고 24시간 전환 확인 기간이 구성되면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](/help/assets/icons/Replay.svg)으로 표시됨).
+2023-05-13 16:30에 24시간 전환 확인 기간 구성이 적용되는 재생 결합이 발생하면 샘플의 일부 이벤트가 다시 결합됩니다(![재생](/help/assets/icons/Replay.svg)(으)로 표시됨).
 
 | | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID<br/>(live stitch 후) | 결과 ID<br/>(재생 24시간 후) |
 |---|---|---|---|---|---|
@@ -197,7 +196,7 @@ ht-degree: 70%
 
 +++ 세부 사항
 
-다음 테이블은 위와 동일한 데이터를 나타내나, 개인정보 보호 요청(예: 2023-05-13 18:00)이 샘플 이벤트에 미치는 영향을 보여 줍니다.
+다음 테이블은 위와 동일한 데이터를 나타내지만 개인 정보 보호 요청(예: 2023-05-13 18:00)이 샘플 이벤트에 미치는 영향을 보여 줍니다.
 
 | | 시간 | 영구 ID<br/>`ECID` | 네임스페이스<br/>`Email` ![데이터 매핑](/help/assets/icons/DataMapping.svg) | 결과 ID(개인 정보 보호 요청 이후) |
 |--:|---|---|---|---|
@@ -219,12 +218,12 @@ ht-degree: 70%
 
 - 결합을 적용하려는 Adobe Experience Platform의 이벤트 데이터 세트에는 모든 행에서 프로필을 식별하는 하나의 열인 **영구 ID**&#x200B;가 있어야 합니다. 예를 들면 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Experience Platform ID 서비스에서 생성된 ECID입니다.
 - 그래프 기반 결합을 활성화하기 전에 Experience Platform Identity 서비스의 ID 그래프를 샌드박스 수준에서 설정해야 합니다.
-   - ID 그래프에는 결합 중에 개인 ID를 확인하는 데 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다.
-   - ID 그래프는 관련 데이터 세트(*event* 또는 *profile* 유형이고 ID 값이 있는 유용한 네임스페이스가 두 개 이상 포함된)의 ID 정보로 채워야 합니다.
-   - 이러한 관련 ID를 포함하는 모든 데이터 세트는 ID 그래프 데이터 수집에 대해 [활성화됨](faq.md#enable-a-dataset-for-the-identity-service)이어야 합니다. 이 기능을 사용하면 시간이 지남에 따라 필요한 모든 소스에서 들어오는 ID를 그래프에 추가할 수 있습니다.
-   - 이미 잠시 동안 실시간 고객 데이터 프로필 또는 Adobe Journey Optimizer을 사용하는 경우 그래프가 이미 특정 범위로 설정되어야 합니다.<br/>그래프 기반 결합으로 활성화된 데이터 세트에 내역 결합 채우기도 필요한 경우 원하는 결합 결과를 얻으려면 그래프에 전체 기간에 대한 내역 ID가 이미 포함되어 있어야 합니다.
+  - ID 그래프에는 결합 중에 개인 ID를 확인하는 데 사용할 네임스페이스(예: `Email` 또는 `Phone`)가 있어야 합니다.
+  - ID 그래프는 관련 데이터 세트(*event* 또는 *profile* 유형이고 ID 값이 있는 유용한 네임스페이스가 두 개 이상 포함된)의 ID 정보로 채워야 합니다.
+  - 이러한 관련 ID를 포함하는 모든 데이터 세트는 ID 그래프 데이터 수집에 대해 [활성화됨](faq.md#enable-a-dataset-for-the-identity-service)이어야 합니다. 이 기능을 사용하면 시간이 지남에 따라 필요한 모든 소스에서 들어오는 ID를 그래프에 추가할 수 있습니다.
+  - 이미 잠시 동안 실시간 고객 데이터 프로필 또는 Adobe Journey Optimizer을 사용하는 경우 그래프가 이미 특정 범위로 설정되어야 합니다.<br/>그래프 기반 결합으로 활성화된 데이터 세트에 내역 결합 채우기도 필요한 경우 원하는 결합 결과를 얻으려면 그래프에 전체 기간에 대한 내역 ID가 이미 포함되어 있어야 합니다.
 - 그래프 기반 결합을 사용하고 이벤트 데이터 세트가 ID 그래프에 기여할 것으로 예상되면 [ID 서비스에 대한 데이터 세트를 활성화](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)해야 합니다.
-- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
+- 영구 ID 및 개인 ID는 [identityMap](#identitymap)과 함께 사용할 수 있습니다. 또는 영구 ID 및 개인 ID는 XDM 스키마의 필드일 수 있습니다. 이 경우 필드는 스키마에서 [ID로 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)되어야 합니다.
 
 >[!NOTE]
 >
@@ -239,7 +238,7 @@ ht-degree: 70%
 - 그래프의 네임스페이스에 여러 ID가 포함된 공유 디바이스 시나리오에서는 알파벳순으로 첫 번째 그래픽 ID가 사용됩니다. 네임스페이스 제한 사항 및 우선순위가 그래프 연결 규칙 릴리스의 일부로 구성된 경우, 마지막으로 인증된 사용자의 ID가 사용됩니다. 자세한 내용은 [공유 디바이스](/help/use-cases/stitching/shared-devices.md)를 참조하십시오.
 - ID를 ID 그래프에 다시 채우는 데에는 3개월이라는 엄격한 제한 사항이 적용됩니다. ID 그래프 채우기에 Real-time Customer Data Platform 등의 Experience Platform 애플리케이션을 사용하지 않는 경우, ID 다시 채우기를 사용할 수 있습니다.
 - [ID 서비스 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails)이 적용됩니다. 이와 관련하여 다음 [정적 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/guardrails#static-limits) 등을 참조하십시오.
-   - 그래프의 최대 ID 수: 50
-   - 단일 배치 수집을 위해 ID에 연결할 수 있는 최대 링크 수는 50개입니다.
-   - 그래프 수집을 위한 XDM 레코드의 최대 ID 수: 20
-   - 그래프 수집을 위한 XDM 레코드의 최소 ID 수: 2
+  - 그래프의 최대 ID 수: 50
+  - 단일 배치 수집을 위해 ID에 연결할 수 있는 최대 링크 수는 50개입니다.
+  - 그래프 수집을 위한 XDM 레코드의 최대 ID 수: 20
+  - 그래프 수집을 위한 XDM 레코드의 최소 ID 수: 2
