@@ -5,27 +5,55 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: de01c1e07af1a3e746e7cdb2dc95d36a420e883d
 workflow-type: tm+mt
-source-wordcount: 770
-ht-degree: 2%
+source-wordcount: 981
+ht-degree: 14%
 
 ---
 
-# 동의 보고 및 필터링 구성
+# 동의 보고 및 필터링 구성 {#configure-consent-reporting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-merge-policy"
+>title="병합 정책"
+>abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 통합 고객 프로필로 결합하여 대상자 생성에 사용합니다. 여러 병합 정책이 표시되고 어떤 정책을 선택해야 할지 확실하지 않은 경우 “기본 시간 기반”을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-sandbox"
+>title="샌드박스"
+>abstract="올바른 Experience Platform 프로필 데이터 세트가 포함된 샌드박스를 선택합니다. 이러한 데이터 세트에는 Analysis Workspace에서 보고할 동의 데이터를 포함해야 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-person-id"
+>title="개인 ID"
+>abstract="모델 기반 스키마에서 개인 ID를 나타내는 필드를 선택합니다. 선택 항목은 &#39;ID&#39;로 표시되고 ID 네임스페이스가 있는 스키마의 필드 목록으로 제한됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-identity-namespace"
+>title="기본 ID 네임스페이스 사용"
+>abstract="Customer Journey Analytics이 ID 맵에서 primary=true 속성으로 표시된 ID를 찾고 해당 ID를 해당 행의 개인 ID로 사용하려면 이 옵션을 활성화합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. <br/>이 옵션을 비활성화한 상태로 두면 아래의 ID 네임스페이스 필드에서 네임스페이스를 선택합니다. Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 시스템 관리자는 동의 보고 및 선택적으로 하나 이상의 연결에 대한 동의 필터링을 활성화할 수 있습니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 
