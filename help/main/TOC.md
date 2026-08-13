@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: ba83c48866308eba6148230ea08bc759951d37af
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 94%
+source-wordcount: '1477'
+ht-degree: 93%
 
 ---
 
@@ -423,6 +423,7 @@ ht-degree: 94%
     + 데이터 피드 {#cja-data-feeds}
       + {hide-from-toc}[데이터 피드 개요](/help/components/exports/cja-data-feeds/data-feed-overview.md)
       + {hide-from-toc}[Adobe Analytics 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)
+      + {hide-from-toc}[Workspace 및 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison-workspace.md)
       + {hide-from-toc}[열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md)
