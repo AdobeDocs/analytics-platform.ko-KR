@@ -26,9 +26,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19bd7f26d503f7397c283dca8f8b71b2d6854adb
+source-git-commit: edce3047747f1635c9790c8b19794a2f51e7460f
 workflow-type: tm+mt
-source-wordcount: 3367
+source-wordcount: 3372
 ht-degree: 93%
 
 ---
@@ -170,7 +170,7 @@ Experience Platform Web SDK를 사용하여 충분한 내역 데이터를 수집
 
    파생 필드에서 [마케팅 채널 기능 템플릿](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}을 사용하여 마케팅 채널에 대한 파생 필드를 빠르게 만듭니다.
 
-1. [이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)하여 차이점과 차이점이 존재하는 이유를 파악하십시오.
+1. [이전 구현의 Adobe Analytics 데이터와 새 구현의 Customer Journey Analytics 데이터를 비교](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja)하여 차이점과 차이점이 존재하는 이유를 파악하십시오.
 
 1. Analytics 소스 커넥터를 사용하여 Adobe Analytics에서 내역 데이터 가져오기:
 

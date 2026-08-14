@@ -15,10 +15,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 09d8d3fd3cbc6e4ddfc30aca96b041a7c51002d0
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 41%
+source-wordcount: 930
+ht-degree: 40%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="폴아웃 컨테이너"
->abstract="경로 지정을 분석할 컨테이너를 선택합니다. 이렇게 하면 참여를 이해하고 선택한 컨테이너에 대한 분석을 제한하는 데 도움이 됩니다."
+>abstract="경로 지정을 분석할 컨테이너를 선택합니다. 이렇게 선택하면 참여를 이해하고 분석을 선택한 컨테이너로 제한할 수 있습니다."
 
 시각화의 일부로 특정 설정을 사용할 수 있습니다.
 
