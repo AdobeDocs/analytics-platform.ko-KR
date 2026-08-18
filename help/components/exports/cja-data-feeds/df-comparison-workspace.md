@@ -4,9 +4,9 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Customer Journey Analytics 및 Adobe Analytics의 데이터 피드 기능 비교
 feature: Components
 hide: true
-source-git-commit: a72ed21bdea40e2441443d7218d9fd7c906adc3e
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 ## 전환 확인 날짜 범위(데이터 피드)와 보고 날짜 범위(Analysis Workspace)
 
-데이터 피드의 전환 확인 날짜 범위는 데이터 피드 배달에 적합한 이벤트를 찾을 때 Customer Journey Analytics이 표시되는 전환 확인 시간을 결정합니다. 그러한 의미에서 전환 확인 날짜 범위는 Analysis Workspace의 보고 날짜 범위와 유사합니다. 하지만, 중요한 차이점이 있습니다.
+데이터 피드의 전환 확인 날짜 범위는 데이터 피드 배달에 적합한 이벤트를 찾을 때 Customer Journey Analytics이 표시되는 전환 확인 시간을 결정합니다. 예제를 포함하여 전환 확인 날짜 범위에 대한 자세한 내용은 [전환 확인 날짜 범위 이해](/help/components/exports/cja-data-feeds/create-feed.md#understand-the-lookback-date-range)를 참조하십시오.
+
+그러한 의미에서 전환 확인 날짜 범위는 Analysis Workspace의 보고 날짜 범위와 유사합니다. 하지만, 중요한 차이점이 있습니다.
 
 | 주요 차이점 | 보고 날짜 범위(Analysis Workspace) | 전환 확인 날짜 범위(데이터 피드) |
 |---------|---------|----------|

@@ -6,27 +6,14 @@ feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: f62c202f92ffc842a9abe2a91bec5231a606f67c
 workflow-type: tm+mt
-source-wordcount: 3268
+source-wordcount: 3275
 ht-degree: 58%
 
 ---
@@ -167,7 +154,7 @@ Analysis Workspace에서 전체 테이블 내보내는 방법:
    | 모든 사용자에 대한 대상 보기 | 시스템 관리자는 이 옵션을 선택하여 계정 및 위치를 생성한 사용자와 관계없이 모두 볼 수 있습니다. |
    | 계정 | 데이터를 전송할 클라우드 내보내기 계정을 선택합니다. <p>또는 사용하려는 클라우드 계정을 아직 구성하지 않은 경우 새 계정을 구성할 수 있습니다.<ol><li>**[!UICONTROL 계정]** 드롭다운 메뉴에서 **[!UICONTROL 계정 추가]**&#x200B;를 선택한 후 다음 정보를 지정하십시오.<ul><li>**[!UICONTROL 위치 계정 이름]**: 위치 계정의 이름을 지정합니다. 위치가 생성되면 이 이름이 표시됩니다. </li><li>**[!UICONTROL 위치 계정 설명]**: 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다.</li><li>**조직의 모든 사용자가 계정을 사용할 수 있도록 합니다**: 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 선택하십시오.</li><li>**[!UICONTROL 계정 유형]**: 내보내려는 클라우드 계정 유형을 선택합니다. 사용 가능한 계정 유형은 Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake, AEP 데이터 랜딩 존입니다.</li></ul><li>계정 구성을 완료하려면 선택한 **[!UICONTROL 계정 유형]**&#x200B;에 해당하는 아래 링크에서 계속합니다.<ul><li>[AEP 데이터 랜딩 영역](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
    | 위치 | 내보내기 데이터를 보낼 계정의 위치를 선택합니다.<p>또는 사용하려는 클라우드 계정을 아직 구성하지 않은 경우 새 계정을 구성할 수 있습니다.<ol><li>**[!UICONTROL 위치]** 드롭다운 메뉴에서 **[!UICONTROL 위치 추가]**&#x200B;를 선택한 후 다음 정보를 지정하십시오.<ul><li>**[!UICONTROL 이름]**: 위치 이름.</li><li>**[!UICONTROL 설명]**: 계정의 다른 위치와 구분할 수 있도록 위치에 대한 간단한 설명을 제공합니다.</li><li>**조직의 모든 사용자가 위치를 사용할 수 있도록 설정**: 조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 선택하십시오.</li><li>**[!UICONTROL 위치 계정]**: 위치를 만들려는 계정을 선택합니다.</li></ul><li>위치 구성을 완료하려면 **[!UICONTROL 위치 계정]** 필드에서 선택한 계정 유형에 해당하는 아래 링크를 계속 진행합니다.<ul><li>[AEP 데이터 랜딩 영역](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
-   | 알림 | 이 내보내기가 실패했거나 만료될 예정일 때 알림을 받을 사용자와 그룹을 추가합니다. 사용자의 이름 또는 이메일 주소를 입력하거나 그룹 이름을 입력한 다음 드롭다운 목록에 표시될 때 선택합니다. |
+   | 완료 시 또는 만료 시 문제 알림 | 이 내보내기가 실패했거나 만료될 예정일 때 알림을 받을 사용자와 그룹을 추가합니다. 사용자의 이름 또는 이메일 주소를 입력하거나 그룹 이름을 입력한 다음 드롭다운 목록에 표시될 때 선택합니다. |
 
    {style="table-layout:auto"}
 
