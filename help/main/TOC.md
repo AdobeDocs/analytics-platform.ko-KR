@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: ba83c48866308eba6148230ea08bc759951d37af
+source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1481'
 ht-degree: 93%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 93%
       + [Analytics 소스 커넥터](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)
     + 기타 업그레이드 시나리오 {#other-upgrade-scenarios}
       + [Analytics 소스 커넥터에서 Web SDK로 이동](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
-      + [Adobe Analytics 솔루션이 아닌 솔루션에서 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
+      + [Adobe Analytics가 아닌 분석 솔루션에서 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
     + 추가 정보 {#additional-information}
       + [Analytics 구현 이해](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [업그레이드 시 Adobe Analytics 기능 지원](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
@@ -340,6 +340,10 @@ ht-degree: 93%
   + [업계 사용 사례](../guided-analysis/industry-use-cases.md)
   + [FAQ](../guided-analysis/faq.md)
 
++ 대화 통찰력 {#conversation-insights}
+  + {hide-from-toc}[개요](/help/conversatiion-insights/conversation-insights.md)
+  + {hide-from-toc}[구성](/help/conversatiion-insights/config/guided.md)
+
 + 구성 요소 {#cja-components}
   + [개요](../components/overview.md)
   + [구성 요소 사용](../components/use-components-in-workspace.md)
@@ -385,7 +389,7 @@ ht-degree: 93%
       + [계산된 지표 빌드](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
       + [간단한 예](../components/calc-metrics/cm-workflow/cm-pvv.md)
       + [더 복잡한 예](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
-      + [지표 유형 및 속성](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+      + [지표 유형 및 기여도](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
       + [참여도 지표](../components/calc-metrics/cm-workflow/participation-metric.md)
       + [세분화된 지표](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
