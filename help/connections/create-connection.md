@@ -6,21 +6,11 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
@@ -195,7 +185,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본에 연결](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본에 연결](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -208,7 +198,7 @@ ht-degree: 92%
 
 | **셀렉트** 패키지 | **파운데이션** 패키지 |
 | --- | --- |
-| 이벤트, 프로필, 조회 또는 요약 데이터 세트의 모든 조합, 최대 100개까지 추가 | 연결당 하나의 이벤트 데이터 세트 |
+| 이벤트, 프로필, 조회 또는 요약 데이터 세트의 모든 조합, 총 100개까지 추가 | 연결당 하나의 이벤트 데이터 세트 |
 |  | 연결당 최대 99개의 프로필, 조회 또는 요약 데이터 세트 |
 
 {style="table-layout:auto"}
@@ -231,7 +221,7 @@ ht-degree: 92%
 
 ### Customer Journey Analytics
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1.png)
 
@@ -239,10 +229,10 @@ ht-degree: 92%
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 연결 이름]** | 연결의 고유한 이름을 입력합니다. |
+   | **[!UICONTROL 연결 이름]** | 연결의 고유 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 태그]** | 태그를 지정하여 연결에 태그를 추가하면 해당 태그를 사용하여 이후 단계에서 연결을 검색할 수 있습니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 제외)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
    | **[!UICONTROL 데이터 세트 추가]** | 데이터 세트를 추가하려면 ![데이터 추가](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
@@ -252,7 +242,7 @@ ht-degree: 92%
    | 열 | 설명 |
    |---|---|
    | **[!UICONTROL 데이터 세트 이름]** | Customer Journey Analytics으로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.<p>(선택할 데이터 세트가 여러 개인 경우 데이터 세트 목록 위에 있는 데이터 세트 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.) |
-   | ![자세히](/help/assets/icons/More.svg) | 선택한 데이터 세트에 대한 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택합니다. 데이터 세트(유형)에 따라 다음을 선택할 수 있습니다.<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL 데이터 세트 삭제]**&#x200B;를 통해 [데이터 세트를 삭제](#delete-a-dataset)합니다.</li><li>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 통해 [데이터 세트를 편집](#edit-a-dataset)합니다.</li><li>![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 통해 [데이터 세트에 대한 이전 채우기](#past-backfills)를 표시합니다. |
+   | ![자세히](/help/assets/icons/More.svg) | 선택한 데이터 세트에 대한 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택합니다. 데이터 세트 유형에 따라 다음을 선택할 수 있습니다.<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL 데이터 세트 삭제]**&#x200B;를 통해 [데이터 세트를 삭제](#delete-a-dataset)합니다.</li><li>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 통해 [데이터 세트를 편집](#edit-a-dataset)합니다.</li><li>![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 통해 [데이터 세트에 대한 이전 채우기](#past-backfills)를 표시합니다. |
    | **[!UICONTROL 마지막으로 업데이트됨]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. “N/A”는 이 데이터 세트에 데이터가 없음을 의미합니다. |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)입니다. |
@@ -263,8 +253,8 @@ ht-degree: 92%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치하는 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -272,7 +262,7 @@ ht-degree: 92%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**&#x200B;화면에서 다음을 수행합니다.
+**[!UICONTROL 연결]** > **[!UICONTROL *연결 이름&#x200B;*]**화면에서 다음을 수행합니다.
 
 ![제목 없는 연결 설정](assets/create-conn1-b2b.png)
 
@@ -280,13 +270,13 @@ ht-degree: 92%
 
    | 설정 | 설명 |
    | --- | --- |
-   | **[!UICONTROL 연결 이름]** | 연결의 고유한 이름을 입력합니다. |
+   | **[!UICONTROL 연결 이름]** | 연결의 고유 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 태그]** | 태그를 지정하여 연결에 태그를 추가하면 해당 태그를 사용하여 이후 단계에서 연결을 검색할 수 있습니다. |
    | **[!UICONTROL 기본 ID]** | 연결에 적합한 기본 ID를 선택합니다. <ul><li>B2C 시나리오에서 일반적으로 사용하는 개인 기반 연결의 경우, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 개인]**&#x200B;입니다.</li><li> B2B 시나리오에서 일반적으로 사용하는 계정 기반 연결을 위한 ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;입니다.</li></ul>연결에 데이터 세트를 하나 이상 추가하는 즉시 기본 ID를 더 이상 변경할 수 없습니다. <br/>기본 ID를 선택하면 연결의 개인 기반 또는 계정 기반 여부가 정의됩니다. 연결 기반은 특정 데이터 세트 유형에 사용할 수 있는 [설정](#dataset-settings)을 결정합니다. |
    | **[!UICONTROL 선택 가능한 컨테이너]** | ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;을 **[!UICONTROL 기본 ID]**&#x200B;로 선택한 경우, 선택 가능한 컨테이너를 선택합니다.<ul><li>**[!UICONTROL 글로벌 계정]**: 연결에서 글로벌 계정의 구성을 활성화합니다.</li><li>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.</li><li>**[!UICONTROL 구매 그룹]**: 연결에서 구매 그룹의 구성을 활성화합니다.</li><ul> |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 제외)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 보존 기간이 Adobe Experience Platform 데이터 보존 설정으로 대체됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 데이터 세트 추가]** | [데이터 세트를 추가](#add-datasets)하려면 ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
 
@@ -295,7 +285,7 @@ ht-degree: 92%
    | 열 | 설명 |
    |---|---|
    | **[!UICONTROL 데이터 세트 이름]** | Customer Journey Analytics으로 가져올 데이터 세트를 한 개 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.<p>(선택할 데이터 세트가 여러 개인 경우 데이터 세트 목록 위에 있는 데이터 세트 검색 막대를 사용하여 올바른 데이터 세트를 검색할 수 있습니다.) |
-   | ![자세히](/help/assets/icons/More.svg) | 선택한 데이터 세트에 대한 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택합니다. 데이터 세트(유형)에 따라 다음을 선택할 수 있습니다.<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL 데이터 세트 삭제]**&#x200B;를 통해 [데이터 세트를 삭제](#delete-a-dataset)합니다.</li><li>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 통해 [데이터 세트를 편집](#edit-a-dataset)합니다.</li><li>![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 통해 [데이터 세트에 대한 이전 채우기](#past-backfills)를 표시합니다. |
+   | ![자세히](/help/assets/icons/More.svg) | 선택한 데이터 세트에 대한 컨텍스트 메뉴를 열려면 ![자세히](/help/assets/icons/More.svg)를 선택합니다. 데이터 세트 유형에 따라 다음을 선택할 수 있습니다.<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL 데이터 세트 삭제]**&#x200B;를 통해 [데이터 세트를 삭제](#delete-a-dataset)합니다.</li><li>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 통해 [데이터 세트를 편집](#edit-a-dataset)합니다.</li><li>![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 통해 [데이터 세트에 대한 이전 채우기](#past-backfills)를 표시합니다. |
    | **[!UICONTROL 마지막으로 업데이트됨]** | 이벤트 데이터 세트의 경우에만 이 설정이 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. “N/A”는 이 데이터 세트에 데이터가 없음을 의미합니다. |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | **[!UICONTROL 스키마]** | Adobe Experience Platform에서 데이터 세트를 만드는 데 사용한 [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)입니다. |
@@ -309,8 +299,8 @@ ht-degree: 92%
    | **[!UICONTROL 개인 ID]** | 데이터 세트에 대한 개인 기반 보고를 지원하는 데 사용되는 개인 ID입니다. |
    | **[!UICONTROL 키]** | 조회 데이터 세트에 사용되는 키입니다. |
    | **[!UICONTROL 일치하는 키]** | 조회 데이터 세트에 사용되는 일치하는 키입니다. |
-   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**&#x200B;새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
-   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**&#x200B;실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**&#x200B;처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**&#x200B;완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
+   | **[!UICONTROL 새 데이터 가져오기]** | 데이터 세트에 대한 새 데이터 가져오기 상태: <p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _켜짐]**새 데이터를 가져오도록 구성된 데이터 세트의 경우<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _x 꺼짐_]** 새 데이터를 가져오지 않도록 구성된 데이터 세트의 경우. |
+   | **[!UICONTROL 채우기 데이터]** | 데이터 세트의 채우기 데이터 상태.<p>![상태 빨간색](assets/status-red.svg)   **[!UICONTROL _x _채우기 실패]**실패한 채우기의 수에 대해,<p>![상태 빨간색](assets/status-orange.svg)   **[!UICONTROL _x _채우기 처리]**처리 채우기 수에 대해,<p>![상태 녹색](assets/status-green.svg)   **[!UICONTROL _x _채우기 완료]**완료된 채우기 수에 대해<p>![상태 회색](assets/status-gray.svg)   **[!UICONTROL _꺼짐_]** 채우기가 구성되지 않은 경우. |
 
    ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 특정 데이터 세트를 검색할 수 있습니다.
 
@@ -369,7 +359,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="일치하는 키"
->abstract="이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
+>abstract="이벤트 데이터 세트 중 하나와 조인할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
@@ -444,7 +434,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="일치하는 키"
->abstract="이벤트 데이터 세트 중 하나와 연결할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
+>abstract="이벤트 데이터 세트 중 하나와 조인할 필드를 선택합니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkeytype"
@@ -474,7 +464,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_enable"
 >title="ID 결합 활성화"
->abstract="크로스 채널 분석에 대해 이벤트 데이터 세트를 업그레이드하려면 ID 결합을 활성화하십시오."
+>abstract="크로스 채널 분석을 위해 이 이벤트 데이터 세트를 향상시키려면 ID 결합을 활성화하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/overview" text="결합 개요"
 
 >[!CONTEXTUALHELP]
@@ -522,8 +512,8 @@ ht-degree: 92%
 |---|---|---|---|---|
 | **[!UICONTROL 이벤트]** | 시간으로 이벤트를 나타내는 데이터입니다. 예를 들어 웹 방문, 상호 작용, 거래, POS 데이터, 설문 조사 데이터, 광고 노출 횟수 데이터 등이 있습니다. 이 데이터는 고객 ID나 쿠키 ID와 타임스탬프가 있는 일반적인 클릭스트림 데이터일 수 있습니다. 이벤트 데이터를 사용하면 개인 ID로 사용되는 ID를 유연하게 사용할 수 있습니다. | [!UICONTROL Experience Platform]의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 설정합니다. | *시계열* 동작이 있는 XDM 클래스를 기반으로 하는 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. 예를 들면 *XDM 경험 이벤트* 또는 *XDM 결정 이벤트*&#x200B;가 해당됩니다. | 포함하고자 하는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. Experience Platform에 정의된 각 데이터 세트 스키마에는 ID 네임스페이스에 정의되고 연결된 하나 이상의 ID 세트가 있을 수 있습니다. 이러한 ID는 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})로 사용할 수 있습니다. 예를 들면 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 등이 있습니다. |
 | **[!UICONTROL 조회]** | 프로필, 조회 및 이벤트 데이터 세트(후자의 경우 항상 지원됨) 등 모든 데이터 세트 유형 내의 필드 조회로 데이터세트를 추가할 수 있습니다. 이 추가 기능은 B2B 등 복잡한 데이터 모델을 지원하는 Customer Journey Analytics의 기능을 확장합니다. 이 데이터는 이벤트, 프로필 또는 조회 데이터에 있는 값이나 키를 찾는 데 사용됩니다. 최대 3개 조회 수준을 추가할 수 있습니다. 예를 들어 이벤트 데이터의 숫자 ID를 제품 이름에 매핑하는 조회 데이터를 업로드할 수 있습니다. 사례에 대해서는 [B2B 예시](/help/use-cases/b2b/example.md)를 참조하십시오. <br/><br/>**참고**: <ul><li>[파생 필드](/help/data-views/derived-fields/derived-fields.md)은(는) 연결 내에서 조회에 대해 일치하는 키로 사용할 수 없습니다.</li><li>[고객 관리 키](/help/privacy/cmk.md) 및 [임시 데이터 세트](#ad-hoc-dataset)에 대해서는 대량 조회가 지원되지 않습니다.</li></ul> | 해당 사항 없음 | *XDM 개별 프로필* 클래스를 제외하고, *레코드* 동작이 있는 XDM 클래스를 기반으로 한 모든 기본 제공 스키마 또는 사용자 정의 스키마입니다. | 해당 사항 없음 |
-| **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 계정, 개인, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 사항 없음 | *XDM 개인 프로필* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마입니다. | 포함하고자 하는 개인 ID/계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트(요약 데이터 세트 제외)에는 하나 이상의 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})가 정의되어 있습니다. 예를 들어 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID 등이 있습니다.<br>![개인 ID &#x200B;](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 병합하려면 동일한 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})를 사용해야 합니다. |
-| **요약** | 개별 개인 ID와 관련이 없는 시계열 데이터입니다. 요약 데이터는 캠페인과 같이 여러 집계 수준에서 집계된 데이터를 나타냅니다. 이 데이터를 Customer Journey Analytics에 활용해 다양한 사용 사례를 지원할 수 있습니다. 자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하십시오. | Experience Platform의 이벤트 기반 요약 지표 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. 시간별 또는 일별 세부 기간만 지원됩니다. | *XDM 요약 지표* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. | 해당 사항 없음 |
+| **[!UICONTROL 프로필]** | [!UICONTROL 이벤트] 데이터에서 계정, 개인, 사용자 또는 고객에 적용되는 데이터. 예를 들어 고객에 대한 CRM 데이터를 업로드할 수 있습니다. | 해당 사항 없음 | *XDM 개인 프로필* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마입니다. | 포함하고자 하는 개인 ID/계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})을 선택할 수 있습니다. [!DNL Experience Platform]에 정의된 각 데이터 세트(요약 데이터 세트 제외)에는 하나 이상의 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})가 정의되어 있습니다. 예를 들어 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드, 계정 ID 등이 있습니다.<br>![개인 ID ](assets/person-id.png)**참고**: ID가 다른 데이터 세트가 포함된 연결을 만들면 이러한 내용이 보고에 반영됩니다. 데이터 세트를 병합하려면 동일한 개인 ID 또는 계정 ID([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})를 사용해야 합니다. |
+| **요약** | 개별 개인 ID와 관련이 없는 시계열 데이터입니다. 요약 데이터는 예를 들어 캠페인과 같이 다른 집계 수준의 집계 데이터를 나타냅니다. 이 데이터를 Customer Journey Analytics에 활용해 다양한 사용 사례를 지원할 수 있습니다. 자세한 내용은 [요약 데이터](/help/data-views/summary-data.md)를 참조하십시오. | Experience Platform의 이벤트 기반 요약 지표 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. 시간별 또는 일별 세부 기간만 지원됩니다. | *XDM 요약 지표* 클래스를 기반으로 하는 모든 기본 제공 또는 사용자 정의 스키마. | 해당 사항 없음 |
 
 또는 위에 나열된 데이터 세트 유형은 일반 XDM 기반 스키마 대신 애드 혹이나 관계형 스키마를 기반으로 할 수 있습니다.
 
@@ -545,17 +535,17 @@ ht-degree: 92%
 
    ![데이터 세트 선택](assets/select-datasets.png)
 
-   각 데이터 세트에 대해, 목록은 다음과 같이 나타납니다.
+   각 데이터 세트에 대해 목록에는 다음이 표시됩니다.
 
    | 열 | 설명 |
    |---|---|
-   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동할 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 유형]** | 데이터 세트 유형: [이벤트](#event-dataset), [프로필](#profile-dataset), [조회](#lookup-dataset), [요약](#summary-dataset), [임시](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
-   | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동할 이름을 선택합니다. |
+   | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. 이름을 선택하면 Experience Platform의 스키마로 이동합니다. |
    | **[!UICONTROL 마지막 배치]** | Experience Platform에서 수집된 마지막 배치의 상태입니다. 더 자세한 내용은 [배치 상태](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/batch/troubleshooting#batch-states)를 참조하시기 바랍니다. |
    | **[!UICONTROL 데이터 세트 ID]** | 데이터 세트의 ID입니다. |
-   | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트에서 마지막으로 업데이트된 타임스탬프입니다. |
+   | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트가 마지막으로 업데이트된 타임스탬프입니다. |
 
    * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
    * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
@@ -581,7 +571,7 @@ ht-degree: 92%
 
    * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
    * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
-   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
+   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;]**대화 상자에서:**[!UICONTROL 
      1. 테이블에 표시할 열을 선택합니다.
      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
    * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
@@ -608,17 +598,17 @@ ht-degree: 92%
 
    ![데이터 세트 선택](assets/select-datasets.png)
 
-   각 데이터 세트에 대해, 목록은 다음과 같이 나타납니다.
+   각 데이터 세트에 대해 목록에는 다음이 표시됩니다.
 
    | 열 | 설명 |
    |---|---|
-   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. Experience Platform의 데이터 세트로 사용자를 이동할 이름을 선택합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 유형]** | 데이터 세트 유형: [이벤트](#event-dataset), [프로필](#profile-dataset), [조회](#lookup-dataset), [요약](#summary-dataset), [임시](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
-   | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. Experience Platform의 스키마로 사용자를 이동할 이름을 선택합니다. |
+   | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. 이름을 선택하면 Experience Platform의 스키마로 이동합니다. |
    | **[!UICONTROL 마지막 배치]** | Experience Platform에서 수집된 마지막 배치의 상태입니다. 더 자세한 내용은 [배치 상태](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/batch/troubleshooting#batch-states)를 참조하시기 바랍니다. |
    | **[!UICONTROL 데이터 세트 ID]** | 데이터 세트의 ID입니다. |
-   | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트에서 마지막으로 업데이트된 타임스탬프입니다. |
+   | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트가 마지막으로 업데이트된 타임스탬프입니다. |
 
    * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
    * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
@@ -649,7 +639,7 @@ ht-degree: 92%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. ❶ **[!UICONTROL 데이터 집합 설정]**&#x200B;에서 **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**&#x200B;대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
+1. ❶ **[!UICONTROL 데이터 집합 설정]**&#x200B;에서 **[!UICONTROL 데이터 집합 편집: _데이터 집합 이름_]**대화 상자에서 [데이터 집합 설정](#dataset-settings)을 구성하십시오.
 
    ![Edit dataset](assets/edit-dataset-b2c.png)
 
@@ -673,7 +663,7 @@ ht-degree: 92%
 
    * 테이블의 각 열에 대한 네임스페이스를 표시하려면 **[!UICONTROL 열 네임스페이스 표시]**&#x200B;를 사용하도록 설정하십시오.
    * 샘플 데이터를 검색하려면 ![검색](/help/assets/icons/Search.svg)을 사용하십시오.
-   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
+   * 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. <br/>테이블 사용자 지정&#x200B;]**대화 상자에서:**[!UICONTROL 
      1. 테이블에 표시할 열을 선택합니다.
      1. **[!UICONTROL 적용]**&#x200B;을 선택하여 선택 항목을 적용하거나 **[!UICONTROL 취소]**&#x200B;을 선택하여 선택 항목을 취소합니다.
    * 배열 또는 개체 데이터가 포함된 열의 데이터를 표시하려면 **[!UICONTROL 값]**&#x200B;을(를) 선택하십시오.
@@ -693,7 +683,7 @@ ht-degree: 92%
 1. 편집할 데이터 세트 테이블에 나열된 데이터 세트에 대해 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 데이터 세트 편집]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 데이터 세트 편집: _데이터 세트 이름_]**&#x200B;대화 상자에서 [데이터 세트 설정](#dataset-settings)을 구성합니다.
+1. **[!UICONTROL 데이터 세트 편집: _데이터 세트 이름_]**대화 상자에서 [데이터 세트 설정](#dataset-settings)을 구성합니다.
 
    ![Edit dataset](assets/edit-dataset-b2b.png)
 
@@ -728,7 +718,7 @@ ht-degree: 92%
 | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 해당 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#use-identity-map-as-a-person-id)을 참조하십시오.<p>선택할 개인 ID가 없는 경우, 스키마에 정의된 개인 ID가 없음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다.<p>레코드에 이벤트 데이터 세트의 개인 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
 | **[!UICONTROL ID 결합 활성화]** | 이 이벤트 데이터 세트에 대해 [ID 결합을 활성화](/help/stitching/overview.md)하려면 선택합니다. |
 | **[!UICONTROL 타임스탬프]** | 이 설정은 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
-| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
+| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드는 사용 중인 데이터 소스 유형을 파악하는 데 사용됩니다. |
 | **[!UICONTROL 데이터 소스 설명]** | 데이터 소스 유형으로 기타를 선택했을 때 데이터 소스에 대한 설명입니다. |
 
 
@@ -742,13 +732,13 @@ ht-degree: 92%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 글로벌 계정 ID]** | 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다.<br/>Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 글로벌 계정 ID(계정의 고유 식별자)를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다.  <p>레코드에 이벤트 데이터 세트의 계정 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
-| **[!UICONTROL 계정 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우 적용할 수 있습니다. |
+| **[!UICONTROL 글로벌 계정 ID]** | 글로벌 계정을 연결에 컨테이너로 추가한 경우에 적용됩니다.<br/>Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 비ID 또는 비개인 ID 필드에서 글로벌 계정 ID(계정의 고유 식별자)를 선택합니다. 포함된 값은 개인-계정 데이터 세트에서 관련 계정 ID 정보를 사용할 수 없을 때마다 행 수준에서 고유한 계정 ID로 사용됩니다.  <p>레코드에 이벤트 데이터 세트의 계정 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
+| **[!UICONTROL 계정 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 계정 ID(계정에 대한 고유 식별자)를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우에 적용됩니다. |
 | **[!UICONTROL 기회 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 기회 ID(기회에 대한 고유 식별자)를 선택합니다. |
 | **[!UICONTROL 구매 그룹 ID]** | Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID 중에서 구매 그룹 ID(구매 그룹에 대한 고유 식별자)를 선택합니다. |
 | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 이러한 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우 하나 이상의 개인 ID가 스키마에 정의되어 있지 않음을 의미합니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. |
 | **[!UICONTROL 타임스탬프]** | 이 설정은 Experience Platform의 이벤트 기반 스키마에서 기본 타임스탬프 필드로 자동 설정됩니다. |
-| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
+| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드는 사용 중인 데이터 소스 유형을 파악하는 데 사용됩니다. |
 | **[!UICONTROL 데이터 소스 설명]** | 데이터 소스 유형으로 기타를 선택했을 때 데이터 소스에 대한 설명입니다. |
 
 #### 프로필 데이터 세트
@@ -764,7 +754,7 @@ ht-degree: 92%
 | 설정 | 설명 |
 | --- | --- |
 | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 해당 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우, 스키마에 정의된 개인 ID가 없는 것입니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. <p>레코드에 프로필 데이터 세트의 개인 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
-| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
+| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드는 사용 중인 데이터 소스 유형을 파악하는 데 사용됩니다. |
 | **[!UICONTROL 데이터 소스 설명]** | 데이터 소스 유형으로 기타를 선택했을 때 데이터 소스에 대한 설명입니다. |
 
 #### 계정 기반 연결
@@ -778,7 +768,7 @@ ht-degree: 92%
 | **[!UICONTROL 개인 ID]** | 사용 가능한 ID의 드롭다운 메뉴에서 개인 ID를 선택합니다. 해당 ID는 Experience Platform의 데이터 세트 스키마에 정의되어 있습니다. ID 맵을 개인 ID로 사용하는 방법에 대한 자세한 내용은 [ID 맵을 개인 ID로 사용](#id-map)을 참조하십시오.<p>선택할 개인 ID가 없는 경우, 스키마에 정의된 개인 ID가 없는 것입니다. 자세한 내용은 [UI에서 ID 필드 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity)를 참조하십시오. <p>선택한 개인 ID의 값은 대소문자를 구분하는 것으로 간주됩니다. 예를 들어 `abc123` 및 `ABC123`은 서로 다른 두 값입니다. <p>레코드에 프로필 데이터 세트의 개인 ID로 선택한 ID에 대한 값이 없는 경우 레코드를 건너뜁니다. |
 | **[!UICONTROL 글로벌 계정 필드]** | 사용 가능한 ID의 드롭다운 메뉴에서 데이터 세트에 대한 계정 기반 보고를 지원할 글로벌 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가한 경우 적용할 수 있습니다. |
 | **[!UICONTROL 계정 필드]** | 사용 가능한 ID의 드롭다운 메뉴에서 데이터 세트에 대한 계정 기반 보고를 지원할 계정 필드를 선택합니다. 글로벌 계정을 연결에 컨테이너로 추가하지 않은 경우 적용할 수 있습니다. |
-| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
+| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드는 사용 중인 데이터 소스 유형을 파악하는 데 사용됩니다. |
 | **[!UICONTROL 데이터 소스 설명]** | 데이터 소스 유형으로 기타를 선택했을 때 데이터 소스에 대한 설명입니다. |
 
 #### 조회 데이터 세트
@@ -795,7 +785,7 @@ ht-degree: 92%
 |---|---|
 | **[!UICONTROL 키]** | 조회 데이터 세트에 사용할 키입니다. <p>레코드에 조회 데이터 세트에 대해 선택한 키의 값이 없는 경우, 레코드를 건너뜁니다. |
 | **[!UICONTROL 일치하는 키]** | 이벤트 데이터 세트 중 하나에 연결할 일치하는 키입니다. 이 목록이 비어 있다면 이벤트 데이터 세트를 추가하거나 구성하지 않았을 가능성이 높습니다. |
-| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드를 사용하여 사용 중인 데이터 소스 유형을 조사합니다. |
+| **[!UICONTROL 데이터 소스 유형]** | 데이터 소스 유형을 선택합니다. 데이터 소스 유형에는 다음이 포함됩니다. <ul><li>[!UICONTROL 웹 데이터]</li><li>[!UICONTROL 모바일 앱 데이터]</li><li>[!UICONTROL POS 데이터]</li><li>[!UICONTROL CRM 데이터]</li><li>[!UICONTROL 설문 조사 데이터]</li><li>[!UICONTROL 콜 센터 데이터]</li><li>[!UICONTROL 제품 데이터]</li><li> [!UICONTROL 계정 데이터]</li><li> [!UICONTROL 트랜잭션 데이터]</li><li>[!UICONTROL 고객 피드백 데이터]</li><li> [!UICONTROL 기타]</li></ul>이 필드는 사용 중인 데이터 소스 유형을 파악하는 데 사용됩니다. |
 | **[!UICONTROL 데이터 소스 설명]** | 데이터 소스 유형으로 기타를 선택했을 때 데이터 소스에 대한 설명입니다. |
 | **[!UICONTROL 데이터 세트 변환]** | 특정 B2B 조회 데이터 세트의 경우 적절한 B2B 개인 기반 보고 시나리오에 맞게 데이터 세트 변환을 활성화할 수 있습니다. 자세한 내용은 [B2B 조회를 위해 데이터 세트 변환](transform-datasets-b2b-lookups.md)을 참조하십시오. |
 
@@ -840,7 +830,7 @@ ht-degree: 92%
 | 설정 | 선택한 데이터 세트 유형 | 설명 |
 |---|---|---|
 | **[!UICONTROL 데이터 세트 유형]** | 해당 사항 없음 | 애드 혹 데이터 세트의 데이터 유형입니다. 가능한 값은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]** 및 **[!UICONTROL 요약]**&#x200B;입니다. |
-| **[!UICONTROL 개인 ID]** | 이벤트, 프로필 | 개인 ID를 나타내는 애드 혹 또는 관계형 스키마에서 필드를 선택합니다. 이 필드는 데이터 세트의 어떠한 필드도 될 수 있습니다. **[!UICONTROL ID 네임스페이스 필드]** 또는 **[!UICONTROL 비 ID 필드]**&#x200B;에서 선택합니다. <br/>애드 혹 스키마의 필드 중 하나 이상에 ID 레이블이 지정되고 ID 네임스페이스가 있는 경우에만 **[!UICONTROL ID 네임스페이스]**&#x200B;에서 식별자를 선택할 수 있습니다. |
+| **[!UICONTROL 개인 ID]** | 이벤트, 프로필 | 개인 ID를 나타내는 애드 혹 또는 관계형 스키마의 필드를 선택합니다. 이 필드는 데이터 세트의 어떠한 필드도 될 수 있습니다. **[!UICONTROL ID 네임스페이스 필드]** 또는 **[!UICONTROL 비 ID 필드]**&#x200B;에서 선택합니다. <br/>애드 혹 스키마의 필드 중 하나 이상에 ID 레이블이 지정되고 ID 네임스페이스가 있는 경우에만 **[!UICONTROL ID 네임스페이스]**&#x200B;에서 식별자를 선택할 수 있습니다. |
 | **[!UICONTROL ID 네임스페이스]** | 이벤트 | **[!UICONTROL 비 ID]** 필드에서 개인 ID를 선택한 경우, ID 네임스페이스를 선택합니다. |
 | **[!UICONTROL 타임스탬프]** | 이벤트, 요약 | 타임스탬프 필드를 나타내는 애드 혹 스키마에서 필드를 선택합니다. 이 필드는 사용 가능한 `DateTime` 형식의 필드일 수 있습니다. |
 | **[!UICONTROL 키]** | 조회 | 조회 데이터 세트에 사용할 키입니다.<br/>레코드에 조회 데이터 세트에 대해 선택한 키의 값이 없는 경우, 레코드를 건너뜁니다. |
@@ -851,7 +841,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->관계형 데이터 세트는 예정된 Customer Journey Analytics용 Experience Platform Data Mirror 기능을 지원하는 데 주로 사용됩니다.
+>관계형 데이터 세트는 예정된 Customer Journey Analytics용 Adobe Experience Platform Data Mirror 기능을 지원하는 데 주로 사용됩니다.
 >
 
 관계형 데이터 세트에 대한 특정 설정은 다음과 같습니다.
@@ -880,8 +870,8 @@ ht-degree: 92%
 
    1. 다음 중 하나를 변경합니다.
 
-      * 이미 수집된 이벤트 데이터 세트에 대한 식별자(개인 ID, 계정 ID 또는 기타 ID)입니다.
-      * 이미 수집된 프로필 또는 조회 데이터 세트에 대한 키, 일치하는 키 또는 일치하는 키 유형(필드 또는 컨테이너)입니다.
+      * 이미 수집된 이벤트 데이터 세트의 식별자(개인 ID, 계정 ID 또는 기타 ID)입니다.
+      * 이미 수집된 프로필 또는 조회 데이터 세트의 키, 일치하는 키 또는 일치하는 키 유형(필드 또는 컨테이너)입니다.
 
       또는 데이터 세트에서 **[!UICONTROL 기존 데이터 채우기 모두 채우기]**&#x200B;를 전환할 수 있습니다.
 
@@ -899,7 +889,7 @@ ht-degree: 92%
 
 ### 이전 채우기
 
-인터페이스에서 ![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 선택하면 **[!UICONTROL 이전 채우기: _데이터 세트 이름_]**&#x200B;대화 상자에 데이터 세트에서 가장 최근 채우기가 표시됩니다.
+인터페이스에서 ![기록](/help/assets/icons/History.svg) **[!UICONTROL 이전 채우기]**&#x200B;를 선택하면 **[!UICONTROL 이전 채우기: _데이터 세트 이름_]**대화 상자에 데이터 세트에서 가장 최근 채우기가 표시됩니다.
 
 
 ## 연결 미리보기 {#preview}
@@ -922,7 +912,7 @@ ht-degree: 92%
 
 ## 숫자 필드를 조회 키 및 조회 값으로 사용 {#numeric}
 
-이 조회 기능은 비용 또는 이윤과 같은 숫자 필드를 문자열 기반 키 필드에 추가할 때 유용합니다. 숫자 값을 키 또는 값으로 조회에 포함할 수 있습니다. 조회 스키마에서는 제품 이름, COGS, 캠페인 마케팅 비용 또는 이윤과 같은 숫자 값을 연결할 수 있습니다. 다음은 Adobe Experience Platform의 조회 스키마 예제입니다.
+이 조회 기능은 비용 또는 이윤과 같은 숫자 필드를 문자열 기반 키 필드에 추가할 때 유용합니다. 숫자 값을 키 또는 값으로 조회에 포함할 수 있습니다. 조회 스키마에는 예를 들어 제품 이름, COGS, 캠페인 마케팅 비용 또는 이윤에 연결된 숫자 값이 있을 수 있습니다. 다음은 Adobe Experience Platform의 조회 스키마 예제입니다.
 
 ![조회 스키마](assets/schema.png)
 
@@ -934,7 +924,7 @@ ht-degree: 92%
 
 ## ID 맵을 개인 ID로 사용 {#id-map}
 
-Customer Journey Analytics에서는 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 사용자의 키 값 쌍 업로드를 허용하는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 있으며 해당 행에 맞게 작성됩니다.
+Customer Journey Analytics에서는 개인 ID로 ID 맵을 사용하는 기능을 지원합니다. ID 맵은 키 값 쌍을 업로드할 수 있는 맵 데이터 구조입니다. 키는 ID 네임스페이스이며, 값은 ID 값을 가지는 구조입니다. ID 맵은 업로드된 각 행/이벤트에 존재하며 각 행에 따라 채워집니다.
 
 ID 맵은 [ExperienceEvent XDM](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 클래스 기반의 스키마를 사용하는 데이터 세트에 사용 가능합니다. Customer Journey Analytics 연결에 이러한 데이터 세트를 포함하도록 선택하는 경우 필드를 기본 ID나 ID 맵으로 선택하는 옵션이 제공됩니다.
 
@@ -945,18 +935,18 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 | 옵션 | 설명 |
 |---|---|
 | **[!UICONTROL 기본 ID 네임스페이스 사용]** | 이 옵션을 통해 Customer Journey Analytics는 ID 맵에서 `primary=true` 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. 이 ID는 Customer Journey Analytics 개인 ID로 사용하기에 가장 적합한 후보이기도 합니다(Customer Journey Analytics 연결에 데이터 세트가 구성되는 방법에 따라 다름). |
-| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Experience Platform Identity Service](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)의 구성 요소입니다. 네임스페이스는 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics에서는 사용 중인 네임스페이스가 무엇인지 확인하기 위해서 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 메뉴에 표시됩니다. 데이터에 지정된 네임스페이스를 알지만 해당 네임스페이스는 자동으로 검색되지 않습니다. |
+| **[!UICONTROL 네임스페이스]** | (이 옵션은 기본 ID 네임스페이스를 사용하지 않는 경우에만 사용할 수 있습니다.) ID 네임스페이스는 [Experience Platform Identity Service](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)의 구성 요소입니다. 네임스페이스는 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 네임스페이스를 지정하면 Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다. Customer Journey Analytics에서는 사용 중인 네임스페이스가 무엇인지 확인하기 위해서 모든 행의 전체 데이터 세트를 스캔할 수 없으므로 가능한 모든 네임스페이스가 드롭다운 메뉴에 표시됩니다. 데이터에 어떤 네임스페이스가 지정되어 있는지 알아두어야 합니다. 이러한 네임스페이스는 자동으로 검색되지 않습니다. |
 
 {style="table-layout:auto"}
 
-### ID 맵의 극단적 사례 {#id-map-edge}
+### ID 맵 엣지 케이스 {#id-map-edge}
 
-이 테이블에서는 극단적 사례가 있을 때 이 사례들이 처리되는 방식을 두 가지 구성 옵션으로 보여 줍니다.
+이 테이블은 엣지 케이스가 있을 때 두 가지 구성 옵션과 이러한 사례가 처리되는 방식을 보여 줍니다.
 
-| 옵션 | ID가 해당 ID 맵에 없음 | 여러 ID가 기본 ID로 표시되지 않음 | 여러 ID가 기본 ID로 표시됨 | 단일 ID가 기본 ID로 표시되거나 표시되지 않음 | 기본 ID로 표시된 ID의 네임스페이스가 잘못됨 |
+| 옵션 | ID가 해당 ID 맵에 없음 | 여러 ID가 기본 ID로 표시되지 않음 | 여러 ID가 기본 ID로 표시됨 | 기본 ID로 표시되었거나 표시되지 않은 단일 ID | ID가 기본으로 표시된 잘못된 네임스페이스 |
 |---|---|---|---|---|---|
-| **[!UICONTROL 기본 ID 네임스페이스 사용]이 선택됨**<br/>![&#x200B;기본 ID 네임스페이스 사용](assets/use-primary-identity-namespace.png) | Customer Journey Analytics에서 행이 삭제됩니다. | 기본 ID가 지정되지 않아서 Customer Journey Analytics에서 행이 삭제됩니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 추출됩니다. 그런 다음 알파벳순으로 정렬됩니다. 이렇게 정렬되면 첫 번째 ID가 있는 첫 번째 네임스페이스가 개인 ID로 사용됩니다. | 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(Adobe Experience Platform에 없음) Customer Journey Analytics는 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
-| **[!UICONTROL 특정 ID 맵 네임스페이스]이(가) 선택됨**<br/>![&#x200B;기본 ID 네임스페이스를 사용하지 않음](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics에서 행이 삭제됩니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. (연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 개인 ID로 사용할 수 없습니다.) |
+| **[!UICONTROL 기본 ID 네임스페이스 사용]이 선택됨**<br/>![&#x200B;기본 ID 네임스페이스 사용](assets/use-primary-identity-namespace.png) | Customer Journey Analytics에서 해당 행을 제외합니다. | 기본 ID가 지정되지 않았으므로 Customer Journey Analytics에서 해당 행을 제외합니다. | 모든 네임스페이스에서 기본 ID로 표시된 모든 ID가 목록으로 추출됩니다. 그런 다음 알파벳순으로 정렬됩니다. 이렇게 정렬되면 첫 번째 ID가 있는 첫 번째 네임스페이스가 개인 ID로 사용됩니다. | 단일 ID가 개인 ID로 사용됩니다. | 네임스페이스가 유효하지 않을 수 있지만(Adobe Experience Platform에 없음) Customer Journey Analytics는 해당 네임스페이스 아래의 기본 ID를 개인 ID로 사용합니다. |
+| **[!UICONTROL 특정 ID 맵 네임스페이스]이(가) 선택됨**<br/>![&#x200B;기본 ID 네임스페이스를 사용하지 않음](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics에서 해당 행을 제외합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. | 선택한 네임스페이스 아래의 모든 ID가 목록으로 추출되며 첫 번째 ID를 개인 ID로 사용합니다. (연결 생성 시 올바른 네임스페이스만 선택할 수 있으므로 잘못된 네임스페이스/ID를 개인 ID로 사용할 수 없습니다.) |
 
 {style="table-layout:auto"}
 
@@ -980,5 +970,5 @@ ID 맵을 선택하면 두 가지 추가 구성 옵션이 제공됩니다.
 >[!MORELIKETHIS]
 >
 >* [데이터 수집 개요](/help/data-ingestion/data-ingestion.md)
->* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699?profile.language=ko)
+>* 블로그: [Adobe Customer Journey Analytics에서 이벤트, 조회 및 프로필 데이터 세트를 활용하는 방법](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699)
 

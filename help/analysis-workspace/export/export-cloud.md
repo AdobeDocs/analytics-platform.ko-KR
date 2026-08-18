@@ -6,24 +6,11 @@ feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
 source-wordcount: 3268
@@ -52,7 +39,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 
 [전체 테이블 내보내기의 장점](#advantages-of-full-table-export)에는 수백만 개의 행을 내보내고, 계산된 지표를 포함하며, 연결된 값으로 데이터 출력을 구조화하는 기능 등이 있습니다.
 
-전체 테이블을 내보낼 때 다음 사항을 고려합니다.
+전체 테이블을 내보낼 때는 다음 사항을 고려하십시오.
 
 * 클라우드로 내보내기 전에 테이블, 환경 및 권한이 [최소 내보내기 요구 사항](#minimum-requirements)을 충족하는지 확인하십시오.
 
@@ -62,7 +49,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 
 1. [클라우드 계정 구성](/help/components/exports/cloud-export-accounts.md)
 
-1. [계정에서 위치 구성](/help/components/exports/cloud-export-locations.md)
+1. [계정에 위치 구성](/help/components/exports/cloud-export-locations.md)
 
 1. [Workspace에서 전체 테이블 내보내기](#export-full-tables)
 
@@ -114,7 +101,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-destination"
 >title="목적지"
->abstract="데이터를 전송할 클라우드 내보내기 계정 및 위치를 선택합니다. 기존 계정 및 위치를 선택하거나 “새로 추가”를 선택하여 만들 수 있습니다. 내보내기 실패 또는 만료 사실을 알릴 사용자 및 그룹을 지정합니다."
+>abstract="데이터를 전송할 클라우드 계정 및 위치를 선택합니다. 기존 계정 및 위치를 선택하거나 “새로 추가”를 선택하여 만들 수 있습니다. 내보내기 실패 또는 만료 사실을 알릴 사용자 및 그룹을 지정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -132,7 +119,7 @@ Analysis Workspace에서 전체 테이블을 클라우드 공급자(예: Google,
 >[!CONTEXTUALHELP]
 >id="cja-export-notifications"
 >title="알림"
->abstract="이 내보내기가 실패했거나 만료될 예정일 때 알림을 받을 사용자와 그룹을 추가합니다."
+>abstract="이 내보내기가 실패하거나 곧 만료될 때 알림을 받을 사용자와 그룹을 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,10 +145,10 @@ Analysis Workspace에서 전체 테이블 내보내는 방법:
    | 데이터 보기 | 내보내기에 포함할 구성 요소가 들어 있는 데이터 보기를 선택합니다. ![데이터](/help/assets/icons/Data.svg) 데이터 보기 드롭다운 메뉴는 대화 상자의 왼쪽 위 모서리에 있습니다.  <p>**참고:** 데이터 테이블에 이미 포함된 구성 요소가 없는 데이터 보기를 선택하면 선택한 데이터 보기에 포함된 구성 요소를 사용하여 패널을 지우고 다시 만들라는 메시지가 표시됩니다. </p> |
    | 데이터 구조 | 내보내고 있는 자유 형식 테이블을 표시합니다. 왼쪽 패널에서 테이블로 구성 요소를 드래그하여 데이터 구조를 수정할 수 있습니다. 필터 영역으로 구성 요소를 드래그하여 필터를 적용할 수 있습니다. 캔버스에 구성 요소를 추가하면 테이블이 동적으로 업데이트됩니다. 최대 10개의 열을 포함할 수 있습니다.<p>프로젝트의 전체 테이블에 적용된 모든 세그먼트는 테이블 위에 나타납니다. 내보내기에 세그먼트 또는 세그먼트 그룹을 적용할 수 있습니다.</p> |
    | 보고 창 | 각 내보내기 파일에 포함할 보고 기간을 선택합니다. 옵션에는 [!UICONTROL **오늘**], **[!UICONTROL 어제]**, **[!UICONTROL 지난 7일]**, **[!UICONTROL 지난 30일]**, **[!UICONTROL 이번 주]**, **[!UICONTROL 이번 달]**&#x200B;이 있습니다. <p>**[!UICONTROL 내보내기 빈도]**&#x200B;를 **[!UICONTROL 지금 보내기(일회성)]**&#x200B;로 설정한 경우 이 옵션은 표시되지 않습니다.</p> |
-   | 모두 지우기 | 데이터 테이블의 내용을 지웁니다. 이렇게 하면 새 테이블 내보내기 대화 상자에서 직접 새 테이블 만들기를 시작할 수 있습니다. |
+   | 모두 지우기 | 데이터 테이블의 내용을 지웁니다. 이렇게 하면 새 전체 테이블 내보내기 대화 상자에서 직접 새 테이블 만들기를 시작할 수 있습니다. |
    | 파일 포맷 | 내보낸 데이터가 .csv, .json 또는 .parquet 형식이어야 하는지 여부를 선택합니다. <p>Parquet 파일 형식을 선택하면 구성 요소 이름에 포함된 다음 문자가 밑줄(_)로 바뀝니다. <ul><li>&#39; &#39; - ASCII 공간</li><li>&#39;,&#39; - ASCII 쉼표</li><li>&#39;;&#39; - ASCII 콜론</li><li>&#39;{&#39; 또는 &#39;}&#39; - ASCII 열기/닫기 중괄호</li><li>&#39;(&#39; 또는 &#39;)&#39; - ASCII 열기/닫기 괄호</li><li>&#39;\n&#39; - ASCII 줄바꿈</li><li>&#39;\t&#39; - ASCII 탭</li><li>&#39;=&#39; - ASCII가 같음</li></ul></p> |
    | 매니페스트 파일 포함 | 이 기능을 활성화하면 모든 성공적인 내보내기 게재에 매니페스트 파일이 포함됩니다. <p>매니페스트 파일을 통해 모든 파일이 성공적으로 게재되었는지 확인할 수 있습니다. 다음과 같은 정보가 포함됩니다.</p> <ul><li>게재된 모든 파일의 목록</li><li>각 파일의 MD5 체크섬</li></ul><p>내보낸 데이터는 구성한 클라우드 대상에 압축 파일로 제공됩니다. 자세한 내용은 [클라우드 내보내기 계정 구성](/help/components/exports/cloud-export-accounts.md) 및 [클라우드 내보내기 위치 구성](/help/components/exports/cloud-export-locations.md)에 설명되어 있습니다.</p><p>압축 파일의 파일 이름은 파일 형식으로 **[!UICONTROL csv]**, **[!UICONTROL json]** 또는 **[!UICONTROL parquet]**&#x200B;을(를) 선택했는지 여부에 따라 다음과 같습니다.</p><ul> <li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li><li>`cja-export-<instanceId>-<idx>.snappy.parquet`<p>Parquet 파일의 각 열이 압축됩니다.</p></li></ul><p>위의 **[!UICONTROL 파일 형식]** 필드에서 파일 형식을 선택하십시오.</p> |
-   | 빈도 | 내보내기가 얼마나 자주 수행되어야 하는지 일정을 설정합니다. <p>[!UICONTROL **지금 보내기(일회성)**]&#x200B;를 선택하면 내보내기를 한 번만 보낼 수 있습니다. 이 옵션을 선택하면 내보내기가 즉시 시작됩니다.</p><p>또는 정의된 일정에 따라 내보내기를 보낼 수 있습니다. 일정에 따라 보낼 경우 옵션으로는 **[!UICONTROL 매일]**, **[!UICONTROL 매주]**, **[!UICONTROL 매월 특정 주의 요일]**, **[!UICONTROL 매월 특정 날짜]**, **[!UICONTROL 매년 특정 월의 특정 요일]**, **[!UICONTROL 매년 특정 날짜]**&#x200B;가 있습니다. </p> <p>내보내기 빈도를 선택할 때 다음 사항을 고려합니다.</p><ul><li>**[!UICONTROL 전환 확인 기간]** 필드의 옵션은 여기에서 선택한 항목에 따라 달라집니다.</li><li>선택한 옵션에 따라 추가 구성 필드가 표시됩니다.</li></ul> |
+   | 빈도 | 내보내기가 얼마나 자주 수행되어야 하는지 일정을 설정합니다. <p>[!UICONTROL **지금 보내기(일회성)**]&#x200B;를 선택하면 내보내기를 한 번만 보낼 수 있습니다. 이 옵션을 선택하면 내보내기가 즉시 시작됩니다.</p><p>또는 정의된 일정에 따라 내보내기를 보낼 수 있습니다. 일정에 따라 보낼 경우 옵션으로는 **[!UICONTROL 매일]**, **[!UICONTROL 매주]**, **[!UICONTROL 매월 특정 주의 요일]**, **[!UICONTROL 매월 특정 날짜]**, **[!UICONTROL 매년 특정 월의 특정 요일]**, **[!UICONTROL 매년 특정 날짜]**&#x200B;가 있습니다. </p> <p>내보내기 빈도를 선택할 때는 다음 사항을 고려하십시오.</p><ul><li>**[!UICONTROL 전환 확인 기간]** 필드의 옵션은 여기에서 선택한 항목에 따라 달라집니다.</li><li>선택한 옵션에 따라 추가 구성 필드가 표시됩니다.</li></ul> |
    | 시작 날짜 | 예약된 내보내기가 시작되어야 하는 날짜 및 시간. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
    | 종료 날짜 | 예약된 내보내기가 만료되는 날짜 및 시간. 예약된 내보내기 작업은 설정한 날짜 및 시간 이후에는 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
    | 모든 사용자에 대한 대상 보기 | 시스템 관리자는 이 옵션을 선택하여 계정 및 위치를 생성한 사용자와 관계없이 모두 볼 수 있습니다. |
@@ -408,15 +395,15 @@ Customer Journey Analytics 데이터를 클라우드로 내보내면 다음 작�
 
 * **단일 차원에서 지표 속성을 포함하는 보고서의 경우**: [지표 속성](/help/data-views/component-settings/attribution.md)은 일반적으로 [지표 속성](/help/data-views/component-settings/persistence.md)을 사용할 때 수행되는 할당 모델을 재정의합니다.
 
-  예를 들어 “첫 번째 터치” 지표 속성은 “가장 최근” 차원 할당을 재정의합니다.
+  예를 들어 &quot;첫 번째 터치&quot; 지표 기여도는 &quot;가장 최근&quot; 차원 할당을 재정의합니다.
 
 * **동시에 여러 차원에 대한 지표 속성을 포함하는 보고서의 경우:** [지표 속성](/help/data-views/component-settings/attribution.md)은 차원 [할당 모델](/help/data-views/component-settings/persistence.md)과 함께 적용됩니다.
 
-  예를 들어 “가장 최근” 차원 할당과 함께 “첫 번째 터치” 지표 속성이 적용됩니다. 또한 지표 기여도 분석은 일반적으로 자유 형식 테이블에서 수행되는 것처럼 각 차원 항목에 독립적으로 적용되는 것이 아니라, 단일 차원 항목인 것처럼 사후 할당된 차원 항목 쌍에 적용됩니다.
+  예를 들어 “가장 최근” 차원 할당과 함께 “첫 번째 터치” 지표 기여도가 적용됩니다. 또한 지표 기여도 분석은 일반적으로 자유 형식 테이블에서 수행되는 것처럼 각 차원 항목에 독립적으로 적용되는 것이 아니라, 단일 차원 항목인 것처럼 사후 할당된 차원 항목 쌍에 적용됩니다.
 
   >[!NOTE]
   >
-  >다차원 보고서는 이 문서에서 설명한 대로 클라우드 데이터를 내보낼 때만 지원됩니다.
+  >다차원 보고서는 이 문서에서 설명한 대로 데이터를 클라우드로 내보낼 때만 지원됩니다.
 
 ## Data Warehouse과의 비교
 

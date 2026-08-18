@@ -6,23 +6,11 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: dcc1be6e0c0e0dab19b4067232e48dc175011ed1
 workflow-type: tm+mt
 source-wordcount: 4127
@@ -77,7 +65,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 유형 설정](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -108,8 +96,8 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 * **일관성**: 컨텍스트 레이블을 사용하는 데이터 보기에 기반한 하나 이상의 프로젝트에서 작업하는 조직의 모든 사용자는 동일한 동작을 갖습니다.
 * **기능 및 템플릿 표시**: 특정 시각화 및 기능은 적절한 컨텍스트 레이블이 지정된 경우에만 표시됩니다. 예:
 
-   * Customer Journey Analytics에서 위도와 경도를 나타내는 구성 요소를 알고 있는 경우에만 [맵](/help/analysis-workspace/visualizations/map.md) 시각화가 제대로 표시됩니다.
-   * 특정 [템플릿](/help/analysis-workspace/templates/use-templates.md)은(는) 올바른 컨텍스트 레이블이 적용되고 관련 구성 요소를 사용할 수 있는 경우에만 표시됩니다.
+  * Customer Journey Analytics에서 위도와 경도를 나타내는 구성 요소를 알고 있는 경우에만 [맵](/help/analysis-workspace/visualizations/map.md) 시각화가 제대로 표시됩니다.
+  * 특정 [템플릿](/help/analysis-workspace/templates/use-templates.md)은(는) 올바른 컨텍스트 레이블이 적용되고 관련 구성 요소를 사용할 수 있는 경우에만 표시됩니다.
 
 다음과 같은 경우 컨텍스트 레이블이 필요할 수 있습니다.
 
@@ -173,19 +161,19 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 
 | 이름 | 설명 |
 |------|-------------|
-| [콘텐츠 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content) | 재생 중인 콘텐츠에 대한 고유 식별자. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 ID]** 라디오 단추를 사용하도록 설정합니다. |
-| [콘텐츠 체류 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-time-spent) | 광고를 제외한 콘텐츠를 보는 데 소요된 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 체류 시간]** 고급 설정을 실행합니다. |
-| [에피소드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode) | 시리즈 내 에피소드 번호. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 에피소드별 필터링을 활성화합니다. |
+| [콘텐츠 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 재생 중인 콘텐츠에 대한 고유 식별자. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 ID]** 라디오 단추를 사용하도록 설정합니다. |
+| [콘텐츠 체류 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 광고를 제외한 콘텐츠를 보는 데 소요된 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 콘텐츠 체류 시간]** 고급 설정을 실행합니다. |
+| [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 시리즈 내 에피소드 번호. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 에피소드별 필터링을 활성화합니다. |
 | 이벤트 유형 | 미디어 이벤트 유형(예: `media.play` 또는 `media.ping`). Customer Journey Analytics에서 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
-| [미디어 사용 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/media-time-spent) | 콘텐츠, 광고, 버퍼링 및 일시 중지를 포함한 총 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널 및 **[!UICONTROL 미디어 소요 시간]** 고급 설정을 실행합니다. |
-| [시즌](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season) | 시리즈 내의 시즌 번호입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 시즌별 필터링을 활성화합니다. |
+| [미디어 사용 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 콘텐츠, 광고, 버퍼링 및 일시 중지를 포함한 총 시간입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 패널 및 **[!UICONTROL 미디어 소요 시간]** 고급 설정을 실행합니다. |
+| [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 시리즈 내의 시즌 번호입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 시즌별 필터링을 활성화합니다. |
 | 마지막 통화 이후 지난 시간 (초) | 이전 하트비트 Ping 이후 경과된 시간(초)입니다. Customer Journey Analytics에서 세션이 여전히 활성 상태인 시기를 식별하는 [미디어 동시 뷰어](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) 파생 지표를 계산하는 데 필요합니다. |
-| [표시](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show) | 프로그램 또는 시리즈 이름. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에 표시별로 필터링을 사용하도록 설정합니다. |
-| [시작 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/time-to-start) | 컨텐츠 선택 시점부터 재생이 시작되는 시점까지의 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [총 버퍼 지속 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 세션 중 버퍼링에 소요된 총 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [총 일시 중단 기간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 세션 중 일시 중지된 총 체류 시간. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
-| [비디오 길이](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length) | 콘텐츠의 기간(초)입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널의 **[!UICONTROL 특정 콘텐츠]** 모드에 필요합니다. |
-| [비디오 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name) | 콘텐츠의 표시 이름입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 비디오 이름]** 라디오 단추를 사용하도록 설정합니다. |
+| [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 프로그램 또는 시리즈 이름. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에 표시별로 필터링을 사용하도록 설정합니다. |
+| [시작 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 컨텐츠 선택 시점부터 재생이 시작되는 시점까지의 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 버퍼 지속 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 세션 중 버퍼링에 소요된 총 시간입니다. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [총 일시 중단 기간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 세션 중 일시 중지된 총 체류 시간. [미디어 재생 소요 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) 계산에 포함됩니다. |
+| [비디오 길이](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 콘텐츠의 기간(초)입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널의 **[!UICONTROL 특정 콘텐츠]** 모드에 필요합니다. |
+| [비디오 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 콘텐츠의 표시 이름입니다. [미디어 분당 평균 시청 시간](/help/analysis-workspace/c-panels/average-minute-audience-panel.md) 패널에서 **[!UICONTROL 비디오 이름]** 라디오 단추를 사용하도록 설정합니다. |
 
 +++
 
@@ -358,21 +346,21 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 자산 전경색 | 에셋 전경색입니다. |
 | 자산 ID | 자산 ID. |
 | 자산 이미지 유형 | 자산 이미지 유형. |
-| 자산을 마지막으로 업데이트한 사람 | 자산이 마지막으로 업데이트되었습니다. |
-| 자산 마지막 업데이트 일자 | 에셋이 마지막으로 업데이트된 날짜. |
+| 에셋을 마지막으로 업데이트한 사람 | 자산이 마지막으로 업데이트되었습니다. |
+| 에셋 마지막 업데이트 일자 | 에셋이 마지막으로 업데이트된 날짜. |
 | 자산 조명 조건 | 에셋 조명 조건. |
 | 자산 링크 URL | 자산 링크 Url. |
 | 자산 이름 | 에셋 이름. |
 | 자산 사람 카테고리 | 자산 사용자 범주. |
-| 자산 인식 ID | 인식적으로 동일한 자산의 고유 식별자입니다. |
+| 자산 인식 ID | 인식적으로 동일한 에셋의 고유 식별자입니다. |
 | 자산 포토그래피 스타일 | 에셋 사진 스타일. |
 | 자산 장면 | 자산 장면. |
 | 자산 소스 | 에셋 Source. |
 | 자산 태그 | 자산 태그 |
 | 자산 유형 | 에셋 유형. |
 | 자산 조회수 | 자산 보기. |
-| 자산 시각적 주의 분산 | 자산 시각적 주의 확산. |
-| 자산 시각적 콘텐츠 밀도 | 자산 시각적 컨텐츠 밀도입니다. |
+| 에셋 시각적 주의 분산 | 자산 시각적 주의 확산. |
+| 에셋 시각적 콘텐츠 밀도 | 자산 시각적 컨텐츠 밀도입니다. |
 | 경험 속성 | 경험 속성 을 참조하십시오. |
 | 경험 채널 | 경험 채널. |
 | 경험 클릭 수 | 경험 클릭수. |
@@ -459,7 +447,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 여정 종료 (AJO) | 여정 종료. |
 | 여정 이벤트 노드 이름 | 이 값은 여정에서 세그먼트 또는 외부 이벤트가 발생할 때마다 설정됩니다. |
 | 여정 제외 이유 | 여정 인스턴스 제외 이유. |
-| 여정 제외 규칙 이름 | 여정 진입의 거부를 야기한 규칙의 이름입니다. |
+| 여정 제외 규칙 이름 | 여정 진입이 거부된 원인이 된 규칙의 이름입니다. |
 | 여정 제외 사항 (AJO) | 현재 단계 이벤트로 인해 프로필에 대한 여정 취소가 발생했는지 여부를 나타냅니다. 이는 일반적으로 적용되는 최대 가용량 또는 동시 실행 규칙으로 인해 발생하여 여정의 추가 진행을 방해합니다. |
 | 여정 종료 유형 (AJO) | 여정 인스턴스에 대해 발생한 종료 유형입니다. |
 | 여정 실패 | 실행이 완료된 단계의 현재 상태를 제공합니다. |
@@ -503,7 +491,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 아웃바운드 전송 (사용되지 않음) | 아웃바운드 채널을 통해 전송된 총 메시지 수입니다. |
 | 관심 영역 | 관심 영역 |
 | 제안 ID (AJO) | 제안 ID. |
-| 푸시 사용자 정의 작업 (AJO) | 푸시 인터랙션의 총 사용자 정의 작업 수입니다. |
+| 푸시 사용자 정의 액션 (AJO) | 푸시 인터랙션의 총 사용자 정의 작업 수입니다. |
 | 푸시 인터랙션 (AJO) | 직접 푸시 메시지 상호 작용으로 인해 모바일 앱이 실행된 횟수입니다. |
 | 푸시 플랫폼 (AJO) | 푸시 공급자 서비스(예: APNS 또는 FCM). |
 | 푸시 제목 | 푸시 제목, 개인화되지 않음. |
@@ -512,7 +500,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 재시도 횟수 (AJO) | 성공 또는 실패 전에 메시지 전송을 재시도한 횟수 |
 | 규칙 이름 | 여정 진입의 거부를 야기한 규칙의 이름입니다. |
 | 선택 유형 (AJO) | 항목이 결정의 일부로 파생될 때 사용되는 선택 유형입니다. |
-| 전송 (사용되지 않음) | 모든 채널의 전송된 총 메시지 수입니다. |
+| 전송 (사용되지 않음) | 모든 채널에서 전송된 메시지의 총수입니다. |
 | SMS 인바운드 메시지 (AJO) | SMS 인바운드 회신(예: 중지, 시작, 구독 등) |
 | SMS 인바운드 메시지 (AJO) | SMS 인바운드 응답(예: 정지, 시작, 구독 등)입니다. |
 | SMS 메시지 유형(AJO) | SMS 공급자(예: inbound, inboundReply 또는 send). |
@@ -535,7 +523,7 @@ Adobe에서 제공하는 프로젝트 템플릿을 간소화하기 위해 Journe
 | 처리 이름 (AJO) | 실험에 대한 처리 이름입니다. |
 | 실험의 고유 방문자 (AJO) | 실험의 고유 방문자 수. |
 | 구독 취소 (AJO) | 총 구독 취소 수. |
-| URL 레이블 (AJO) | 사람이 인식할 수 있는 URL 레이블입니다. |
+| URL 레이블 (AJO) | 사람이 읽기 쉬운 URL 레이블입니다. |
 | URL ID (AJO) | 사용자가 클릭한 URL의 고유 식별자입니다. |
 
 +++

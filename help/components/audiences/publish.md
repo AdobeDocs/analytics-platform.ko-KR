@@ -5,22 +5,11 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
 source-wordcount: 2520
@@ -53,7 +42,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="component_audiences_refreshlookbackwindow"
 >title="전환 확인 기간 새로 고침"
->abstract="대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의하십시오."
+>abstract="오늘부터 대상자를 평가할 때 거슬러 올라가는 전환 확인 기간(일수)을 정의하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -96,11 +85,11 @@ ht-degree: 94%
 
 1. [대상자 빌더](#audience-builder)를 사용하여 대상자를 빌드합니다.
 
-1. [&#x200B; 날짜 미리보기](#data-preview) 패널을 사용하여 데이터를 해석합니다.
+1. [ 날짜 미리보기](#data-preview) 패널을 사용하여 데이터를 해석합니다.
 
 1. 이 대상자의 ID 샘플을 보려면 **[!UICONTROL [!UICONTROL 샘플 ID 보기]]**&#x200B;를 선택합니다. **[!UICONTROL 샘플 ID]** 대화 상자에서 샘플 ID를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *샘플 ID 검색*]&#x200B;을 사용할 수 있습니다.
 
-1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
+1. 대상자 구성을 다시 한 번 확인하고 **[!UICONTROL 게시]**를 선택합니다.
 대상자가 게시되었다는 확인 메시지를 받게 됩니다. 이 대상자가 Experience Platform에 나타나는 데는 불과 1~2분밖에 소요되지 않습니다.
 
 1. 동일한 메시지 내에서 **[!UICONTROL AEP의 대상자 보기]**&#x200B;를 선택하면 Adobe Experience Platform의 [Segment UI](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview)로 이동합니다. 자세한 내용은 아래를 참조하십시오.
@@ -117,7 +106,7 @@ ht-degree: 94%
 | **[!UICONTROL 이름]** | 대상자의 이름. 예를 들어 `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 태그]** | 조직용으로 대상자에 할당하고자 하는 모든 태그. 하나 이상의 기존 태그를 선택하거나 새 태그를 입력할 수 있습니다. |
 | **[!UICONTROL 설명]** | 해당 대상자를 다른 대상자와 구별하기 위해 대상자에 대한 설명. 예를 들어 `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/><p>Customer Journey Analytics 권한에 따라 제한된 대상자 수(75~150명 사이)에 대해 예약된 새로 고침을 구성할 수 있습니다. </p><p>다음 옵션 중에서 선택할 수 있습니다.</p><ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 예약된 새로 고침 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul></ul> |
+| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/><p>Customer Journey Analytics 권한에 따라 제한된 대상자 수(75~150명 사이)에 대해 예약된 새로 고침을 구성할 수 있습니다. </p><p>다음 옵션 중에서 선택할 수 있습니다.</p><ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 예약된 새로 고침 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본값은 생성일로부터 1년입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul></ul> |
 | **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 패널에서 세그먼트 영역으로 하나 이상의 세그먼트를 끌어다 놓습니다. 세그먼트를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *세그먼트 검색*]&#x200B;을 사용할 수 있습니다. 최대 20개의 세그먼트를 추가할 수 있습니다. 세그먼트는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자와 결합할 수 있습니다.<p>Analysis Workspace(예: 자유 형식 테이블 또는 여정 캔버스)의 시각화에서 대상자를 만들 때 패널이나 열에 적용된 세그먼트는 그대로 유지됩니다. 자동으로 적용된 모든 세그먼트를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리보기]** | 선택된 날짜 범위에 대해 [데이터 미리보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택합니다. |
 
@@ -127,12 +116,12 @@ ht-degree: 94%
 
 | 요소 | 설명 |
 | --- | --- |
-| **[!UICONTROL 총 인원]** | 이 대상자의 총 인원수에 대한 요약 숫자입니다. 최대 크기는 2천만 명입니다. 대상자가 2천만 명을 초과하는 경우 대상자의 크기를 줄여야 게시할 수 있습니다. |
+| **[!UICONTROL 총 인원]** | 이 대상자의 총 인원수에 대한 요약 수치입니다. 최대 크기는 2천만 명입니다. 대상자가 2천만 명을 초과하는 경우 대상자의 크기를 줄여야 게시할 수 있습니다. |
 | **[!UICONTROL 대상자 크기 제한]** | 대상자가 2천만 명 한도에서 얼마나 멀리 떨어져 있는지 보여 주는 시각화. |
 | **[!UICONTROL 예상 대상자 반환]** | 이 값을 사용하여 사이트, 모바일 앱 또는 다른 채널로 돌아오는 이 대상자의 사람들을 다시 타기팅할 수 있습니다.<p>돌아올 수 있는 예상 고객 수에 대한 시간대(**[!UICONTROL 다음 7일]**, **[!UICONTROL 다음 2주]** 또는 **[!UICONTROL 다음 달]**)를 선택할 수 있습니다. |
 | **[!UICONTROL 예상 반환]** | 이 숫자는 선택한 시간대 동안 돌아오는 예상 고객 수를 알려 줍니다. 이 숫자를 예측하기 위해 이 대상자의 과거 이탈률을 사용합니다. |
-| **[!UICONTROL 지표 미리보기]** | 특정 지표를 선택하면 해당 지표의 데이터가 정의한 대상자를 기반으로 어떻게 이루어지는지 확인할 수 있습니다.  각 미리보기 지표는 대상자를 기준으로 지표의 합계를 표시합니다. 데이터 보기에서 정의된 전체 지표 중 대상자 기반 지표의 비율. 예를 들어 381명(선택한 지표)은 데이터 보기에서 사용할 수 있는 전체 인원의 5%에 해당하는 대상자 정의의 결과입니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
-| **[!UICONTROL 네임스페이스 포함됨]** | 대상자의 인원과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
+| **[!UICONTROL 지표 미리보기]** | 특정 지표를 선택하면 해당 지표의 데이터가 정의한 대상자를 기반으로 어떻게 이루어지는지 확인할 수 있습니다.  각 미리보기 지표는 대상자를 기준으로 지표의 합계를 표시합니다. 데이터 보기에서 정의된 전체 지표 중 대상자 기반 지표의 비율. 예를 들어 381명(선택한 지표)은 대상자 정의의 결과이며, 이는 데이터 보기에서 사용할 수 있는 전체 인원의 5%입니다. 데이터 보기에서 사용할 수 있는 지표를 선택할 수 있습니다. |
+| **[!UICONTROL 네임스페이스 포함됨]** | 대상자에 속한 사람들과 연결된 특정 네임스페이스입니다. 예를 들어 ECID, CRM ID, 이메일 주소 등이 있습니다. |
 | **[!UICONTROL 샌드박스]** | 이 대상자가 있는 [Experience Platform 샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)입니다. 이 대상자를 Platform에 게시할 때 이 샌드박스의 범위 내에서만 작업할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -207,7 +196,7 @@ Customer Journey Analytics과 Real-Time Customer Data Platform 간에는 대상�
 
 #### 게시 간격 및 속도
 
-대상자는 초당 1,500개의 레코드(RPS)의 속도로 Real-Time Customer Data Platform에 게시합니다. 예를 들어 2,000만 명의 멤버를 보유한 대상자가 완전히 게시하는 데는 약 3.7시간이 소요됩니다(2,000만/1,500RPS/시간당 3,600초). 이 기간 동안 두 앱 간의 대상자 멤버십에는 차이가 있을 가능성이 높습니다.
+대상자는 초당 1,500개의 레코드(RPS) 속도로 Real-Time Customer Data Platform에 게시됩니다. 예를 들어 2,000만 명의 멤버를 보유한 대상자가 완전히 게시되는 데는 약 3.7시간이 소요됩니다(2,000만/1,500RPS/시간당 3,600초). 이 기간 동안 두 앱 간의 대상자 멤버십에는 차이가 있을 가능성이 높습니다.
 
 #### 프로필 단편화
 
@@ -237,7 +226,7 @@ Customer Journey Analytics 대상자는 일일 배치 평가 작업에 포함되
 
 +++**Customer Journey Analytics에서 대상자를 삭제하면 어떻게 됩니까?**
 
-Customer Journey Analytics 대상자가 삭제되면 해당 대상자가 더 이상 Experience Platform UI에 표시되지 않습니다. 단, 해당 대상자와 관련된 프로필은 실제 Experience Platform에서 삭제되지 않습니다.
+Customer Journey Analytics 대상자가 삭제되면 해당 대상자가 더 이상 Experience Platform UI에 표시되지 않습니다. 단, 해당 대상자와 관련된 프로필은 Experience Platform에서 삭제되지 않습니다.
 
 +++
 

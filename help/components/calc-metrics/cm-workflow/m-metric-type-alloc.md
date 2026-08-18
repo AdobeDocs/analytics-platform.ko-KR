@@ -1,31 +1,22 @@
 ---
-description: 지표 유형 및 속성에 대해 알아봅니다.
-title: 지표 유형 및 속성
+description: 지표 유형 및 기여도에 대해 알아봅니다.
+title: 지표 유형 및 기여도
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 TQID: https://experienceleague.adobe.com/aRrDxJeaU4xEzn2egBC5X-kUysJ00lrmfMUb7VE1CSc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 622
 ht-degree: 99%
 
 ---
 
-# 지표 유형 및 속성
+# 지표 유형 및 기여도
 
 계산된 지표 정의에서 지표의 지표 유형과 [속성 모델](#attribution-models)을 구성할 수 있습니다.
 
@@ -39,20 +30,20 @@ ht-degree: 99%
      | 지표 유형 | 정의 |
      |---|---|
      | **[!UICONTROL 표준]** | 공식이 하나의 표준 지표로 구성된 경우 계산되지 않은 지표에 해당하는 대응값과 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별로 계산된 지표를 만드는 데 유용합니다. <p>예를 들어 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션]**&#x200B;은 특정 라인 항목에 대한 주문을 가져와 해당 특정 라인 항목의 세션 수로 나눕니다. |
-     | **[!UICONTROL 총 합계]** | 각 라인 항목에 있는 보고 기간에 대한 **[!UICONTROL 총 합계]**&#x200B;를 사용합니다. 수식에 단일 총 합계 지표가 포함된 경우 계산된 지표는 모든 라인 항목에 동일한 총 합계를 표시합니다. 총 합계 지표는 사이트 합계 데이터를 기준으로 비교하는 계산된 지표를 만들고자 할 때 유용합니다. <p>예를 들어 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 세션]**&#x200B;은 특정 라인 항목에 대한 세션뿐만 아니라 모든 세션에 대한 주문 비율을 보여 줍니다. 이 예에서 계산된 지표의 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션 지표]**&#x200B;에 대한 **[!UICONTROL 총 합계]**&#x200B;를 지정하면 자동으로 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 세션]**&#x200B;으로 변환됩니다. |
+     | **[!UICONTROL 총 합계]** | 각 라인 항목에 있는 보고 기간에 대한 **[!UICONTROL 총 합계]**&#x200B;를 사용합니다. 수식에 단일 총 합계 지표가 포함된 경우 계산된 지표는 모든 라인 항목에 동일한 총 합계를 표시합니다. 총 합계 지표는 총 데이터와 비교하는 계산된 지표를 만들고자 할 때 유용합니다. <p>예를 들어 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 세션]**&#x200B;은 특정 라인 항목에 대한 세션뿐만 아니라 모든 세션에 대한 주문 비율을 보여 줍니다. 이 예에서 계산된 지표의 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션 지표]**&#x200B;에 대한 **[!UICONTROL 총 합계]**&#x200B;를 지정하면 자동으로 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 세션]**&#x200B;으로 변환됩니다. |
 
    * **[!UICONTROL 속성]**&#x200B;을 지정합니다.
 
-      1. 다음과 같은 작업을 수행할 수 있습니다.
+     1. 다음과 같은 작업을 수행할 수 있습니다.
 
-         * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
-         * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
+        * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
+        * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
 
-            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
-            * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
-            * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
+          * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
+          * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
+          * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
 
-      1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
+     1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
 
      비기본 속성 모델을 이미 정의한 경우 **[!UICONTROL 편집]**&#x200B;을 선택해 선택 항목을 수정합니다.
 
@@ -63,23 +54,23 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="비기본 속성 모델 사용"
->abstract="선택한 지표에 기본이 아닌 속성 모델을 사용합니다."
+>title="비기본 기여도 모델 사용"
+>abstract="선택한 지표에 대해 기본이 아닌 기여도 모델을 활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="모델"
->abstract="지표에 대한 속성 모델을 선택합니다."
+>abstract="지표에 대한 기여도 모델을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="마지막 터치"
->abstract="100%의 크레딧이 방문자가 본 마지막 차원 값으로 이동합니다."
+>abstract="크레딧의 100%가 방문자가 본 마지막 차원 값에 할당됩니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="첫 번째 터치"
->abstract="100%의 크레딧이 방문자가 본 첫 번째 차원 값으로 이동합니다."
+>abstract="크레딧의 100%가 방문자가 본 첫 번째 차원 값에 할당됩니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
@@ -129,22 +120,22 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="시간 감소"
->abstract="시간적으로 변환에 가장 가까운 차원 값에 가장 많은 크레딧이 제공됩니다."
+>abstract="전환 시점에 가장 가까운 차원 값이 가장 많은 기여도를 받습니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="사용자 정의"
->abstract="고유한 위치 기반 속성 가중치를 정의합니다."
+>abstract="고유한 위치 기반 기여도 가중치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_positionbased"
 >title="사용자 정의"
->abstract="고유한 위치 기반 속성 가중치를 정의합니다."
+>abstract="고유한 위치 기반 기여도 가중치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="알고리즘"
->abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
+>abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정됩니다."
 
 {{attribution-models-details}}
 
@@ -164,7 +155,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="전환 확인 기간"
->abstract="이 설정은 각 변환에 적용될 데이터 속성의 기간을 결정합니다."
+>abstract="이 설정은 각 전환에 적용될 데이터 기여도 기간을 결정합니다."
 
 {{attribution-lookback-window}}
 
