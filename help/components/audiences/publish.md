@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2478
-ht-degree: 98%
+source-wordcount: 2520
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="새로 고침 빈도"
->abstract="대상자의 멤버십을 재평가할 빈도를 확인합니다.<br/>일회성 대상자는 한 번만 평가됩니다."
+>abstract="대상자의 멤버십을 재평가하는 빈도입니다.<br/>일회성 대상은 한 번만 평가되며 새로 고침 제한에 포함되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,8 +43,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="대상자 제한"
->abstract="새로 고치는 대상자는 새로 고침 빈도에 따라 제한됩니다."
+>title="대상 제한 새로 고침"
+>abstract="예약된 빈도에서 자동으로 새로 고침되도록 구성된 환경의 대상 수입니다. 제한은 Customer Journey Analytics 권한에 따라 75~150입니다. 새로 고침 횟수는 이 제한에 포함되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +117,7 @@ ht-degree: 98%
 | **[!UICONTROL 이름]** | 대상자의 이름. 예를 들어 `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 태그]** | 조직용으로 대상자에 할당하고자 하는 모든 태그. 하나 이상의 기존 태그를 선택하거나 새 태그를 입력할 수 있습니다. |
 | **[!UICONTROL 설명]** | 해당 대상자를 다른 대상자와 구별하기 위해 대상자에 대한 설명. 예를 들어 `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/>다음 중에 선택할 수 있습니다. <ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul> Customer Journey Analytics 권한에 따라 최대 75~150회로 대상자 새로 고침이 제한됩니다.</li></ul> |
+| **[!UICONTROL 새로 고침 빈도]** | 대상자를 새로 고침하는 빈도입니다.<p/><p>Customer Journey Analytics 권한에 따라 제한된 대상자 수(75~150명 사이)에 대해 예약된 새로 고침을 구성할 수 있습니다. </p><p>다음 옵션 중에서 선택할 수 있습니다.</p><ul><li>**[!UICONTROL 일회성]** 대상자: 새로 고침이 필요 없는 대상자(기본값). 이 옵션은 예를 들어 특정 일회성 캠페인에 유용합니다.<br/>**[!UICONTROL 일회성 날짜 범위]**&#x200B;를 지정해야 합니다. 날짜 범위를 입력하려면 ![캘린더](/help/assets/icons/Calendar.svg)를 사용합니다.</li><li>새로 고침 대상자. 다음 예약된 새로 고침 옵션 중에서 선택할 수 있습니다.<ul><li>**[!UICONTROL 4시간마다]**: 4시간마다 새로 고침하는 대상자.</li><li>**[!UICONTROL 일별]**: 매일 새로 고침하는 대상자</li><li>**[!UICONTROL 주별]**: 매주 새로 고침하는 대상자.</li><li>**[!UICONTROL 월별]**: 매달 새로 고침하는 대상자</li></ul></li>새로 고침 대상자의 경우 다음을 지정해야 합니다.<ul><li>**[!UICONTROL 전환 확인 기간 새로 고침]**. 대상자 평가의 시점인 오늘부터 전환 확인 일수를 정의합니다. 옵션에서 선택하거나 사용자 정의 시간을 정의할 수 있습니다. 최대값은 90일입니다.</li><li>**[!UICONTROL 만료 날짜]**: 대상자가 새로 고침을 멈추는 시점을 정의합니다. ![캘린더](/help/assets/icons/Calendar.svg)를 사용해 날짜를 선택할 수 있습니다. 기본 설정은 생성일로부터 1년이 되는 날입니다. 만료되는 대상자는 만료 예정인 예약된 보고서와 유사하게 처리됩니다. 관리자는 대상자가 만료되기 한 달 전에 이메일을 받습니다.</li></ul></ul> |
 | **[!UICONTROL 필터]** | 필터는 대상자의 주요 입력입니다. 왼쪽 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 패널에서 세그먼트 영역으로 하나 이상의 세그먼트를 끌어다 놓습니다. 세그먼트를 검색하기 위해 ![검색](/help/assets/icons/Search.svg) [!UICONTROL *세그먼트 검색*]&#x200B;을 사용할 수 있습니다. 최대 20개의 세그먼트를 추가할 수 있습니다. 세그먼트는 **[!UICONTROL And]** 또는 **[!UICONTROL Or]** 연산자와 결합할 수 있습니다.<p>Analysis Workspace(예: 자유 형식 테이블 또는 여정 캔버스)의 시각화에서 대상자를 만들 때 패널이나 열에 적용된 세그먼트는 그대로 유지됩니다. 자동으로 적용된 모든 세그먼트를 제거할 수 있습니다.</p> |
 | **[!UICONTROL 데이터 미리보기]** | 선택된 날짜 범위에 대해 [데이터 미리보기](#data-preview)를 표시하거나 숨기려면 ![정보](/help/assets/icons/Info.svg)를 선택합니다. |
 

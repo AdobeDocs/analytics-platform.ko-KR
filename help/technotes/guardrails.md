@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2441
+source-wordcount: 2440
 ht-degree: 9%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 9%
 | 대상 새로 고침 빈도 | 4 | 시스템 강제 보호 | [대상](../components/audiences/audiences-overview.md)의 최대 빈도를 시간 단위로 새로 고칠 수 있습니다. |
 | 대상자 새로 고침 전환 확인 기간 | 90 | 시스템 강제 보호 | 전환 확인 기간 새로 고침의 최대 일 수. |
 | 대상자 만료일 새로 고침 | 13 | 시스템 강제 보호 | 대상자가 생성된 날짜부터 새로 고침이 중단되는 최대 기간(월)입니다. 고객은 이 기간을 13개월 더 연장할 수 있습니다. |
-| 새로 고치는 대상 수 | 75, 150 | 시스템 강제 보호 | 새로 고치는 최대 대상자 수. 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
+| 새로 고치는 대상 수 | 75 - 150 | 시스템 강제 보호 | 예약된 빈도에서 [&#128279;](/help/components/audiences/publish.md#audience-builder)을(를) 새로 고치도록 구성된 최대 대상 수(1회 새로 고침은 이 제한에 포함되지 않음). 값은 Customer Journey Analytics 패키지에 따라 다릅니다(제품 설명 참조). |
 
 {style="table-layout:auto"}
 
@@ -301,7 +301,7 @@ Experience Platform [데이터 집합 내보내기 보호](https://experiencelea
 | 결합(선택적 기능. 자세한 내용은 [결합 개요](../stitching/overview.md)를 참조하십시오.) | 4시간 미만 |
 | 100억 개 미만의 이벤트(최대 13개월의 내역 데이터) Adobe Analytics Source 커넥터 채우기 | &lt; 4주 |
 | 실시간 고객 프로필에 게시하는 대상(스트리밍 세그먼트의 자동 생성 및 세그먼트의 데이터 수신 준비 허용 포함). | ≈분 |
-| 대상의 새로 고침 빈도 | 1회 새로 고침: 지연 시간은 5분 미만입니다.<br/>매일, 매주, 매월 4시간마다 새로 고칩니다. 지연 시간은 새로 고침 빈도와 비슷합니다. |
+| 대상의 새로 고침 빈도 | 매일, 매주, 매월 4시간마다 새로 고칩니다. |
 
 | 실시간 보고 대기 시간 | 예상 지연 시간 |
 |---|---|

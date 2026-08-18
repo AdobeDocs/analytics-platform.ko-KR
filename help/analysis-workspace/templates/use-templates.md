@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
+source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
 workflow-type: tm+mt
-source-wordcount: 21144
+source-wordcount: 21140
 ht-degree: 98%
 
 ---
@@ -624,8 +624,8 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
->title="사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다."
->abstract="**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 국가 차원을 사용합니다."
+>title="Adobe Experience Platform의 동의 정책 멤버십 데이터를 기반으로 한 방문자 보기"
+>abstract="**방문자 동의 정책 구성원 자격 보고의 시작점으로**&#x200B;에 도움이 될 수 있습니다. 동의 보고를 위해 데이터 보기가 구성된 경우, Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 자동으로 사용할 수 있도록 합니다. <br/>**학습한 내용에 따라 분석 보고에서 동의하지 않는 방문자를 제외하는 것과 같이** 여러 가지 작업을 수행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"

@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
 workflow-type: tm+mt
-source-wordcount: 6984
-ht-degree: 99%
+source-wordcount: 7019
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 8월** | |
+| 대상자 새로 고침에 대한 명확한 정보 | [대상 게시](/help/components/audiences/publish.md#audience-builder)할 때 새로 고침을 예약할 수 있는 대상 수는 Customer Journey Analytics 권한에 따라 다르며 75개에서 150개 사이임을 명확히 했습니다. |
 | **2026년 7월** | |
 | 브랜드 가시성 인바운드 통합 | [브랜드 가시성 인바운드 통합](/help/integrations/bv.md#inbound-integration)에 대한 설명서. |
 | 사용 인터페이스 | 연결을 위한 [사용 인터페이스](/help/connections/manage-connections.md#usage) 설명서에 대한 업데이트입니다. |
