@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
+source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
-source-wordcount: 4177
-ht-degree: 65%
+source-wordcount: 4186
+ht-degree: 64%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 65%
 >
 >구성 마법사는 여러 데이터 보기 및 채널을 지원하며, 한 데이터 보기 및 웹 채널만 지원하던 이전 버전과 다릅니다. [데이터 보기](#data-views) 섹션에서 하나 이상의 데이터 보기를 선택하려면 먼저 샌드박스와 연결을 선택해야 합니다. **[!UICONTROL 경험 캡처]**, **[!UICONTROL 데이터 수집]** 및 **[!UICONTROL 헤더 재정의]**&#x200B;에 대한 구성은 채널에 따라 다르며 [채널](#channels) 섹션에서 구성하는 각 채널의 일부입니다.
 
-Content Analytics 구성 액세스 방법
+Content Analytics 구성에 액세스하려면
 
 * Customer Journey Analytics 메인 메뉴에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL Content Analytics 구성]**&#x200B;을 선택합니다.
 
@@ -59,7 +59,7 @@ Content Analytics 구성 액세스 방법
 | **[!UICONTROL 이름]** | 구성의 이름 |
 | **[!UICONTROL 작성자]** | 구성을 생성한 기술 계정 |
 | **[!UICONTROL 생성 일자]** | 구성을 처음 만든 타임스탬프 |
-| **[!UICONTROL 수정 일자]** | 구성이가 마지막으로 수정된 타임스탬프 |
+| **[!UICONTROL 수정 일자]** | 구성이 마지막으로 수정된 타임스탬프 |
 | **[!UICONTROL 샌드박스]** | Content Analytics가 구성되고 구현될 (예정인) 조직 내의 샌드박스 |
 | **[!UICONTROL 상태]** | 구성의 상태. 상태는 활성화된 채널 중 구성이 완료된 채널 수를 나타냅니다. 자세한 정보가 있는 팝업을 열려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 사용하세요. |
 
@@ -84,12 +84,12 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="세부 사항"
->abstract="연결의 이름을 입력합니다. **[!UICONTROL 데이터 보기]**, **[!UICONTROL 경험 캡처 및 정의]**, **[!UICONTROL 데이터 수집]** 섹션에서 세부 정보를 제공하여 Content Analytics가 올바르게 구성되도록 합니다."
+>abstract="연결의 이름을 입력합니다. 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="세부 사항"
->abstract="이 안내서에서는 Content Analytics를 구성하는 데 필요한 요구 사항에 대해 설명합니다. 이 구성에 대한 이름을 제공합니다."
+>abstract="이 안내서에서는 Content Analytics를 구성하는 데 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,9 +99,9 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="연결"
->abstract="Customer Journey Analytics에서 기존 연결을 선택하여 원하는 Content Analytics 데이터를 병합합니다."
+>abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics의 기존 연결을 선택합니다."
 
-각 구성에는 고유한 이름이 필요합니다. 예, `Example Content Analytics configuration`. 해당 이름은 구성을 저장하거나 구현하는 데 필요합니다.
+각 구성에는 고유 이름이 필요합니다. 예, `Example Content Analytics configuration`. 해당 이름은 구성을 저장하거나 구현하는 데 필요합니다.
 
 또한 각 구성에 대해 Content Analytics을 구성할 샌드박스를 선택해야 합니다.
 
@@ -140,7 +140,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다."
+>abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics의 기존 데이터 보기를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -165,7 +165,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
 >title="새로운 데이터 보기"
->abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기의 유사한 지표 및 차원은 제거됩니다.<br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 Content Analytics 데이터 세트를 포함하도록 업데이트됩니다. Content Analytics 데이터 세트는 기존 구성에서 제거되지 않습니다."
+>abstract="이 구성에 대한 새로운 데이터 보기를 선택했습니다. 새 데이터 보기가 Content Analytics 지표 및 차원을 포함하도록 업데이트됩니다. 기존 데이터 보기의 유사한 지표 및 차원은 제거됩니다.<br/>새 데이터 보기에 다른 연결이 연결된 경우 해당 연결은 Content Analytics 데이터 세트를 포함하도록 업데이트됩니다. 참고로, Content Analytics 데이터 세트는 기존 구성에서 제거되지 않습니다."
 
 
 >[!CONTEXTUALHELP]
@@ -176,7 +176,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header"
 >title="데이터 보기"
->abstract="Customer Journey Analytics에서 하나 이상의 데이터 보기를 선택하여 원하는 Content Analytics 데이터를 병합합니다."
+>abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics의 기존 데이터 보기 하나 이상을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header_alt"
@@ -297,17 +297,17 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * 기존 모바일 태그 속성을 사용하거나 새 모바일 태그 속성을 만듭니다.
 
-   * 기존 모바일 태그 속성을 사용하려면 다음을 수행하십시오.
+  * 기존 모바일 태그 속성을 사용하려면 다음을 수행하십시오.
 
-      1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
-      2. **[!UICONTROL 태그 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 속성을 입력하여 검색하고 사용 가능한 옵션을 제한할 수 있습니다. 다른 구현된 Content Analytics 구성에서 이미 사용하고 있는 태그 속성을 선택할 수 없습니다.
+    1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
+    2. **[!UICONTROL 태그 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 입력을 시작하여 검색하고 사용 가능한 옵션을 제한할 수 있습니다. 다른 구현된 Content Analytics 구성에서 이미 사용하고 있는 태그 속성을 선택할 수 없습니다.
 
 
-   * 새 모바일 태그 속성을 만들려면 다음 작업을 수행하십시오.
+  * 새 모바일 태그 속성을 만들려면 다음 작업을 수행하십시오.
 
-      1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
-      1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
-      1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
+    1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
+    1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
+    1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 경험 위치를 나타냅니다. 개인 식별이 가능한 경험 위치를 제외해야 합니다.
 
@@ -467,7 +467,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 ![Content Analytics 구성 경험 캡처 및 정의](../assets/aca-configuration-experience.png)
 
-1. **[!UICONTROL 경험 포함]**&#x200B;을 활성화합니다. 경험을 활성화하도록 토글하면 다음에 영향을 미칩니다.
+1. **[!UICONTROL 경험 포함]**&#x200B;을 활성화합니다. 경험을 활성화하는 토글은 다음에 영향을 미칩니다.
 
    * Content Analytics 확장 기능의 데이터 수집
    * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스
@@ -483,14 +483,14 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 ###### 구현된 구성 {#implemented-experiences-configuration}
 
-기존 경험을 편집하거나 구현된 구성에 새 경험을 포함하는 방법은 다음과 같습니다.
+구현된 구성에서 기존 경험을 편집하거나 새 경험을 포함하려면 다음을 수행하십시오.
 
 ![Content Analytics 구성 경험 캡처 및 정의](../assets/aca-configuration-experience-edit.png)
 
 * **[!UICONTROL 경험 포함]**&#x200B;을 토글하여 다음을 활성화 또는 비활성화합니다.
 
-   * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스
-   * Customer Journey Analytics의 보고 템플릿
+  * Content Analytics 이벤트 데이터에서 경험 속성을 생성하는 프로세스
+  * Customer Journey Analytics의 보고 템플릿
 
 * Content Analytics의 경험에 대한 데이터 수집 구성을 더 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 태그 속성의 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다.
 
@@ -502,25 +502,25 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * 기존 웹 태그 속성을 사용하거나 새 웹 태그 속성을 만듭니다.
 
-   * 기존 웹 태그 속성을 사용하려면 다음을 수행하십시오.
+  * 기존 웹 태그 속성을 사용하려면 다음을 수행하십시오.
 
-      1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
-      2. **[!UICONTROL 태그 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 속성을 입력하여 검색하고 사용 가능한 옵션을 제한할 수 있습니다. 다른 구현된 Content Analytics 구성에서 이미 사용하고 있는 태그 속성을 선택할 수 없습니다.
+    1. **[!UICONTROL 기존 항목 선택]**&#x200B;을 선택합니다.
+    2. **[!UICONTROL 태그 속성]** 드롭다운 메뉴에서 기존 속성을 선택합니다. 입력을 시작하여 검색하고 사용 가능한 옵션을 제한할 수 있습니다. 다른 구현된 Content Analytics 구성에서 이미 사용하고 있는 태그 속성을 선택할 수 없습니다.
 
 
-   * 새 웹 태그 속성을 만들려면 다음 작업을 수행하십시오.
+  * 새 웹 태그 속성을 만들려면 다음 작업을 수행하십시오.
 
-      1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
-      1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
-      1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
+    1. **[!UICONTROL 새로 만들기]**&#x200B;를 선택합니다.
+    1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
+    1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
 
-     [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널에 대한 태그 독립적인 구현을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
+    [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널에 대한 태그 독립적인 구현을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별이 가능한 페이지를 제외해야 합니다.
+* Content Analytics용 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별이 가능한 페이지를 제외해야 합니다.
 
   **[!UICONTROL 포함/제외]**&#x200B;할 페이지에 대해 **[!UICONTROL 정규식 문자열]**&#x200B;을 지정하십시오. <br/>예를 들어 `^(?!.*documentation).*`을 지정하여 Content Analytics에서 모든 설명서 페이지를 제외할 수 있습니다.
 
-* Content Analytics를 통해 데이터를 수집할 때 포함하거나 제외할 자산을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다.
+* Content Analytics용 데이터를 수집할 때 포함하거나 제외할 에셋을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다.
 
   **[!UICONTROL 포함/제외]**&#x200B;할 자산에 대해 **[!UICONTROL 정규식 문자열]**&#x200B;을 지정하십시오. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 Content Analytics에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
 
@@ -582,24 +582,24 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 * **[!UICONTROL 나중을 위해 저장]**: 구성에 대한 변경 사항이 저장됩니다. 나중에 구성을 다시 방문하여 추가로 변경하거나 구성을 구현할 수 있습니다. 구성을 저장하려면 [!UICONTROL 이름] 값만 필요합니다.
 * **[!UICONTROL 구현]**: 구성에 대한 설정 또는 변경 사항이 저장되고 구현됩니다. ![필수](/help/assets/icons/Required.svg)(으)로 표시된 모든 필드에는 적절한 값이 있어야 합니다. 구현은 다음으로 구성됩니다.
 
-   * **[!UICONTROL Customer Journey Analytics]** 구성:
-      * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
-      * 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 속성 데이터 세트를 포함하도록 수정됩니다.
-      * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
+  * **[!UICONTROL Customer Journey Analytics]** 구성:
+    * 선택한 데이터 보기가 Content Analytics 차원 및 지표를 포함하도록 업데이트됩니다.
+    * 선택한 데이터 보기에 연결된 연결이 Content Analytics 이벤트 및 속성 데이터 세트를 포함하도록 수정됩니다.
+    * Content Analytics 보고 템플릿이 Workspace에 추가됩니다.
 
 
-   * **[!UICONTROL Adobe Experience Platform]** 구성:
-      * Content Analytics 이벤트, 자산 속성 및 (구성된 경우) 경험 속성을 모델링하기 위한 스키마 생성.
-      * Content Analytics 이벤트, 자산 속성 및 (구성된 경우) 경험 속성을 수집하기 위한 데이터 세트 생성.
-      * Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하기 위해 기능화 서비스를 사용하는 데이터 흐름 생성.
+  * **[!UICONTROL Adobe Experience Platform]** 구성:
+    * Content Analytics 이벤트, 에셋 속성 및 (구성된 경우) 경험 속성을 모델링하기 위한 스키마 생성.
+    * Content Analytics 이벤트, 에셋 속성 및 (구성된 경우) 경험 속성을 수집하기 위한 데이터 세트 생성.
+    * Content Analytics 이벤트에서 콘텐츠 속성을 생성하고 업데이트하기 위해 기능화 서비스를 사용하는 데이터 흐름 생성.
 
 
-   * **[!UICONTROL 데이터 수집]** 구성:
-      * 새 태그 속성 또는 기존 태그 속성이 Content Analytics 데이터 수집을 지원하도록 구성됩니다. 이 구성에는 태그에 대한 Adobe Content Analytics 확장 기능이 포함됨을 의미합니다.
-      * Content Analytics 이벤트에 대한 데이터스트림이 생성됩니다.
-      * Adobe Content Analytics 확장 기능은 Content Analytics 이벤트가 Content Analytics의 데이터스트림으로 전송되도록 구성됩니다.
-      * 웹 SDK 또는 모바일 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 또는 모바일 SDK 구성이 만들어집니다.
-      * 웹 SDK 또는 모바일 SDK이 태그 속성에 대해 구성된 경우 기존 웹 SDK 또는 모바일 SDK 구성이 변경되지 않습니다.
+  * **[!UICONTROL 데이터 수집]** 구성:
+    * 새 태그 속성 또는 기존 태그 속성이 Content Analytics 데이터 수집을 지원하도록 구성됩니다. 이 구성에는 태그에 대한 Adobe Content Analytics 확장 기능이 포함됨을 의미합니다.
+    * Content Analytics 이벤트에 대한 데이터스트림이 생성됩니다.
+    * Adobe Content Analytics 확장 기능은 Content Analytics 이벤트가 Content Analytics의 데이터 스트림으로 전송되도록 구성됩니다.
+    * 웹 SDK 또는 모바일 SDK이 Tags 속성에 대해 구성되지 않은 경우 Content Analytics 이벤트만 전송하도록 새 웹 SDK 또는 모바일 SDK 구성이 만들어집니다.
+    * 웹 SDK 또는 모바일 SDK이 태그 속성에 대해 구성된 경우 기존 웹 SDK 또는 모바일 SDK 구성이 변경되지 않습니다.
 
 
 * **[!UICONTROL 저장]**: 구현된 구성의 변경 사항이 저장되고 구현이 업데이트됩니다.
