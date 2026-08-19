@@ -4,9 +4,9 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Customer Journey Analytics 및 Adobe Analytics의 데이터 피드 기능 비교
 feature: Components
 hide: true
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 7fe885e928c495a2518038645ec841229d1f1852
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | 주요 차이점 | 보고 날짜 범위(Analysis Workspace) | 전환 확인 날짜 범위(데이터 피드) |
 |---------|---------|----------|
-| **데이터 경계**<br/>&#x200B;데이터가 보고서 또는 피드에 포함되는지 여부 | 유연성<p>보고 날짜 범위를 벗어나는 이벤트는 이벤트가 다음 요인 중 하나에 의해 영향을 받는 경우 여전히 Workspace 보고서에 포함될 수 있습니다.</p><ul><li>**Dimension 지속성**: 보고 날짜 범위 이상으로 지속될 수 있습니다. 데이터가 집계됩니다.</li><li>**세그먼트 선별**: 기본적으로 세그먼트는 보고 날짜 범위 이상으로 확장할 수 있습니다.<p>사용자는 세그먼트를 만들 때 보고 날짜 범위로 세그먼트를 제한하도록 선택할 수 있습니다.<!--add link to new docs--></p></li><li>**세션 계산**: 세션이 보고 날짜 범위 이상으로 확장될 수 있습니다. </li><li>**파생 필드 변환**</li></ul> | 고정<p>전환 확인 날짜 범위를 벗어나는 이벤트는 다음 요인의 영향을 받는지 여부에 관계없이 데이터 피드에 포함되지 않습니다.</p></p><ul><li>**Dimension 지속성**: 전환 확인 날짜 범위를 초과하여 지속할 수 없습니다. 데이터가 집계되지 않습니다.</li><li>**세그먼트 자격**: 항상 전환 확인 날짜 범위로 제한됩니다.</li><li>**세션 계산**: 항상 전환 확인 날짜 범위로 제한됩니다.</li><li>**파생 필드 변환**: 컨테이너를 참조하는 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다.</li></ul><p>전환 확인 날짜 범위 구성에 대한 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-a-data-feed)를 참조하십시오.</p> |
+| **데이터 경계**<br/>&#x200B;데이터가 보고서 또는 피드에 포함되는지 여부 | 유연성<p>보고 날짜 범위를 벗어나는 이벤트는 이벤트가 다음 요인 중 하나에 의해 영향을 받는 경우 여전히 Workspace 보고서에 포함될 수 있습니다.</p><ul><li>**Dimension 지속성**: 세션, 사용자 지정 시간 또는 지표 [만료](/help/data-views/component-settings/persistence.md#expiration-settings)을(를) 사용할 때 보고 날짜 범위 이상으로 지속될 수 있습니다. 개인 보고 기간 [만료](/help/data-views/component-settings/persistence.md#expiration-settings)을(를) 사용할 때의 보고 날짜 범위와 동일합니다. 데이터가 집계됩니다.</li><li>**세그먼트 선별**: 기본적으로 세그먼트는 보고 날짜 범위 이상으로 확장할 수 있습니다.<p>사용자는 세그먼트를 만들 때 보고 날짜 범위로 세그먼트를 제한하도록 선택할 수 있습니다.<!--add link to new docs--></p></li><li>**세션 계산**: 세션이 보고 날짜 범위 이상으로 확장될 수 있습니다. </li><li>**파생 필드 변환**</li></ul> | 고정<p>전환 확인 날짜 범위를 벗어나는 이벤트는 다음 요인의 영향을 받는지 여부에 관계없이 데이터 피드에 포함되지 않습니다.</p></p><ul><li>**Dimension 지속성**: [만료 설정](/help/data-views/component-settings/persistence.md#expiration-settings)에 관계없이 전환 확인 날짜 범위 이상으로 유지할 수 없습니다. 데이터가 집계되지 않습니다.</li><li>**세그먼트 자격**: 항상 전환 확인 날짜 범위로 제한됩니다.</li><li>**세션 계산**: 항상 전환 확인 날짜 범위로 제한됩니다.</li><li>**파생 필드 변환**: 컨테이너를 참조하는 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다.</li></ul><p>전환 확인 날짜 범위 구성에 대한 자세한 내용은 [데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-a-data-feed)를 참조하십시오.</p> |
 | **보고 기간**<br/>&#x200B;보고할 시간대입니다 | 보고 기간(보고할 시간대)과 동일합니다. | 보고할 시간대와 동일하지 않습니다. <p>보고할 시간대는 빈도 창이며, 이 기간은 1시간 또는 하루일 수 있습니다.</p> |
 
 >[!BEGINSHADEBOX]
