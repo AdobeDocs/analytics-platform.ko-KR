@@ -38,58 +38,58 @@ ht-degree: 20%
 * 영구 ID 또는 개인 ID에 대해 [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 필드를 사용하려는 경우 이벤트 데이터 세트에 대한 스키마에 ID가 올바르게 표시되었는지 확인하십시오. [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 참조하십시오.
 * 영구 ID와 개인 ID 모두에 대한 ID 범위 확인:
 
-   * **[!UICONTROL 영구 ID]**
+  * **[!UICONTROL 영구 ID]**
 
-     영구 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 95% 이상이어야 합니다.
+    영구 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 95% 이상이어야 합니다.
 
-     확인에 사용할 수 있는 쿼리의 예:
+    확인에 사용할 수 있는 쿼리의 예:
 
-     ```sql
-     SELECT
-       COUNT(*) AS total_events,
-       COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
-       ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
-     FROM 
-       {DATASET_TABLE_NAME}
-     WHERE
-       TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-       AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-     ```
+    ```sql
+    SELECT
+      COUNT(*) AS total_events,
+      COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
+      ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
+    FROM 
+      {DATASET_TABLE_NAME}
+    WHERE
+      TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+      AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+    ```
 
-     여기서
+    여기서
 
-      * `{PERSISTENT_ID_FIELD}`은(는) 영구 ID의 필드입니다. 예: `identityMap.ecid[0]`.
+    * `{PERSISTENT_ID_FIELD}`은(는) 영구 ID의 필드입니다. 예: `identityMap.ecid[0]`.
+    * `{DATASET_TABLE_NAME}`은(는) 이벤트 데이터 세트의 테이블 이름입니다.
+    * `{FORMAT_STRING}`은(는) 타임스탬프 필드의 형식 문자열입니다. 예: `MM/DD/YY HH12:MI AM`.
+    * `{START_DATE}`은(는) 시작 날짜입니다. 예: `2024-01-01 00:00:00`.
+    * `{END_DATE}`은(는) 표준 형식의 종료 날짜입니다. 예: `2024-01-08 00:00:00`.
+
+
+  * **[!UICONTROL 개인 ID]**
+    * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 테스트를 실행하고 일부 샘플 영구 ID 값으로 그래프를 쿼리할 수 있습니다. 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
+    * 필드 기반 결합의 경우 개인 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 이상적으로 5%를 초과해야 합니다.
+
+      확인에 사용할 수 있는 쿼리의 예:
+
+      ```sql
+      SELECT
+        COUNT(*) AS total_events,
+        COUNT({PERSON_ID_FIELD}) AS events_with_personid,
+        ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
+      FROM 
+        {DATASET_TABLE_NAME}
+      WHERE
+        TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+      ```
+
+      여기서
+
+      * `{PERSON_ID_FIELD}`은(는) 개인 ID에 대한 필드입니다. 예: `identityMap.crmId[0]`.
       * `{DATASET_TABLE_NAME}`은(는) 이벤트 데이터 세트의 테이블 이름입니다.
       * `{FORMAT_STRING}`은(는) 타임스탬프 필드의 형식 문자열입니다. 예: `MM/DD/YY HH12:MI AM`.
       * `{START_DATE}`은(는) 시작 날짜입니다. 예: `2024-01-01 00:00:00`.
       * `{END_DATE}`은(는) 표준 형식의 종료 날짜입니다. 예: `2024-01-08 00:00:00`.
-
-
-   * **[!UICONTROL 개인 ID]**
-      * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 테스트를 실행하고 일부 샘플 영구 ID 값으로 그래프를 쿼리할 수 있습니다. 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
-      * 필드 기반 결합의 경우 개인 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 이상적으로 5%를 초과해야 합니다.
-
-        확인에 사용할 수 있는 쿼리의 예:
-
-        ```sql
-        SELECT
-          COUNT(*) AS total_events,
-          COUNT({PERSON_ID_FIELD}) AS events_with_personid,
-          ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
-        FROM 
-          {DATASET_TABLE_NAME}
-        WHERE
-          TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-          AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-        ```
-
-        여기서
-
-         * `{PERSON_ID_FIELD}`은(는) 개인 ID에 대한 필드입니다. 예: `identityMap.crmId[0]`.
-         * `{DATASET_TABLE_NAME}`은(는) 이벤트 데이터 세트의 테이블 이름입니다.
-         * `{FORMAT_STRING}`은(는) 타임스탬프 필드의 형식 문자열입니다. 예: `MM/DD/YY HH12:MI AM`.
-         * `{START_DATE}`은(는) 시작 날짜입니다. 예: `2024-01-01 00:00:00`.
-         * `{END_DATE}`은(는) 표준 형식의 종료 날짜입니다. 예: `2024-01-08 00:00:00`.
 
 
 
@@ -194,8 +194,8 @@ ht-degree: 20%
 **[!UICONTROL 결합 지표]**&#x200B;은(는) 지난 7일 동안의 이벤트 타임스탬프가 있는 샘플 데이터 집합을 사용하여 계산됩니다. 이 샘플 데이터 집합은 일반적으로 **[!UICONTROL Preview]** 테이블에 사용된 샘플 데이터와 다릅니다. 결합 지표는 다음에 대한 세부 정보를 제공합니다.
 
 * **[!UICONTROL 개인 ID 범위]**: 결합 프로세스(실시간 및 재생) 중에 식별에 사용되는 선택한 개인 ID의 범위입니다.
-   * 최상의 필드 기반 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)가 전송되어야 합니다.
-   * 최상의 그래프 기반 결합 결과를 위해 (영구 ID, 개인 ID) 관계가 각 영구 ID의 ID 그래프에 존재해야 합니다.
+  * 최상의 필드 기반 결합 결과를 얻으려면 각 영구 ID(장치 정보)에 대해 하나 이상의 이벤트에서 개인 ID(사용자 정보)가 전송되어야 합니다.
+  * 최상의 그래프 기반 결합 결과를 위해 (영구 ID, 개인 ID) 관계가 각 영구 ID의 ID 그래프에 존재해야 합니다.
 
   개인 ID 범위는 백분율로 표시되며, 안정적인 개발 또는 프로덕션 설정에서 권장되는 사항과 비교됩니다. 이 적용 범위 값이 높을수록 선택한 개인 ID로 더 나은 결합 결과를 얻을 수 있습니다.
 

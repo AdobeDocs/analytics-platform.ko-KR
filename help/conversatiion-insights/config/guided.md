@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 hide: true
-source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
+source-git-commit: 30194647c56e7eaa8441b915d16f53ba3ff1bd40
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 8%
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
@@ -40,6 +40,6 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="연결"
+>title="데이터 보기"
 >abstract="대화 통찰력 분석에 사용할 연결과 연결된 데이터 보기를 선택합니다. 대화 통찰력 지표 및 차원이 선택한 데이터 보기에 추가됩니다."
 

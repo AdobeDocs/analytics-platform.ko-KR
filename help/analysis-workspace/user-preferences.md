@@ -123,8 +123,8 @@ ht-degree: 94%
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** | | |
-|  | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 카테고리형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
+|  | [보기 밀도](/help/analysis-workspace/build-workspace-project/view-density.md) | 왼쪽 패널, 자유 형식 테이블 및 코호트 테이블의 수직 안쪽 여백을 줄여 화면에 표시할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
+| | [색상 팔레트](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Analysis Workspace 및 가이드 분석에서 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li> 카테고리형 팔레트: Analysis Workspace 및 가이드 분석의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 사용자 정의 팔레트를 입력합니다.</li><li> 다양한 팔레트: Analysis Workspace 및 사용자 성장 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.<li> 순차적 팔레트: 빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
 |  | [데이터 보기](/help/analysis-workspace/c-panels/panels.md#data-view) | 테이블 및 시각화가 데이터를 도출하는 데이터를 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 데이터 보기</li></ul> |
 |  | [캘린더](/help/analysis-workspace/c-panels/panels.md#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>[!UICONTROL 기본적으로 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]를 활성화할 수 있습니다.</li></ul> |
@@ -156,7 +156,7 @@ ht-degree: 94%
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이블 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 편집](#edit-preferences)을 참조하십시오.
 
-개별 프로젝트에 맞게 동일한 환경 설정 중 일부를 사용자 정의할 수도 있습니다.
+이러한 동일한 환경 설정 중 일부는 개별 테이블에 대해서도 사용자 정의할 수 있습니다.
 
 사용 가능한 환경 설정에 대한 자세한 내용과 컨텍스트를 보려면 링크된 섹션 제목을 선택합니다.
 
@@ -173,12 +173,12 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | | 총계 표시 | 이 합계 숫자는 수집된 모든 이벤트 수를 나타내며 *데이터 보기 합계*&#x200B;라고도 합니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 이벤트를 반영하도록 조정됩니다. [정적 행](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
 | | 스파크라인 표시 | 차트 하단에 선 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
 | | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
-| | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 폭을 크게 늘릴 수 있도록 상한을 1,000%로 옮길 수도 있습니다. |
+| | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 매우 커질 수 있도록 상한을 1,000%로 높일 수도 있습니다. |
 | | 예외 항목 표시 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. |
 | | 예측 표시 | 만든 시계열 자유 형식 테이블의 첫 번째 지표 열에 대한 예측 값이 자동으로 표시되는지 여부를 결정합니다. |
 | | 0을 값없음으로 해석 | 값이 0인 셀에 대해, 0을 표시할지 아니면 빈 셀을 표시할지를 결정합니다. 달의 각 날에 대한 데이터를 보고 일부 날은 아직 일어나지 않은 경우 유용합니다.  차후의 날짜에 대해 0을 표시하는 대신 빈 셀을 표시할 수 있습니다. 차트에 이 설정도 적용됩니다(예를 들어 이 설정을 선택한 경우 차트에 값이 0인 줄 또는 막대가 표시되지 않습니다). |
-| | 배경 | 막대 그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다 <ul><li>막대 그래프</li> 열에 대한 합계와 상대적인 셀 값을 나타내는 수평 막대 그래프를 표시합니다. <li>조건부 서식</li>조건부 서식에 대한 자세한 내용은 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)의 “조건부 서식”을 참조하십시오.</ul> |
-| | 셀 미리보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리보기를 표시합니다. |
+| | 배경 | 막대 그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다 <ul><li>막대 그래프</li> 열 합계에 대한 셀 값의 상대적 크기를 나타내는 수평 막대 그래프를 표시합니다. <li>조건부 서식</li>조건부 서식에 대한 자세한 내용은 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)의 “조건부 서식”을 참조하십시오.</ul> |
+| | 셀 미리보기 | 현재 선택된 서식 옵션이 적용되었을 때 각 셀이 어떻게 표시되는지 미리 보여 줍니다. |
 | **[행](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 위치별 분류 | 분류를 항목 자체가 아닌 항목 위치로 유지하려면 이 옵션을 선택합니다. 분류에 대한 자세한 내용은 [차원 분류](/help/components/dimensions/t-breakdown-fa.md)를 참조하십시오. |
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
@@ -221,7 +221,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 최대 항목 수 제한 | 모든 시각화에 대한 X축의 항목 수를 줄입니다. 이 환경 설정은 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
 | | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 이 환경 설정은 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 이 환경 설정은 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
-| | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 업데이트됩니다. 이 상자를 선택하면 y축이 0이 되고 차트가 다시 그려집니다. |
+| | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 업데이트됩니다. 이 상자를 선택하면 y축이 0으로 고정되고 차트가 다시 그려집니다. |
 | | 예외 항목을 고정하여 Y축의 크기 조절 | 예외 항목 값을 사용하여 Y축의 크기를 조절합니다. |
 | **[라인](/help/analysis-workspace/visualizations/line.md)** | | |
 | | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
@@ -229,11 +229,11 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 최대 항목 수 제한 | 라인 시각화에서 X축의 항목 수를 줄입니다. 이 환경 설정은 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
 | | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 이 환경 설정은 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 이 환경 설정은 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
-| | X축 표시 | 선 차트에 X축을 표시합니다. |
-| | Y축 표시 | 선 차트에 Y축을 표시합니다. |
-| | Y축 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 렌더링됩니다. 이 상자를 선택하면 y축이 0이 되고 차트가 다시 그려집니다. |
-| | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있는 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 설정을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
-| | 예측을 Y축으로 확장하도록 허용 | 과거 값의 상한 및 하한을 벗어나는 예측 값이 있는 경우 y축에서는 이러한 예측 값이 자동으로 조정되지 않습니다. 이 옵션을 켜면 예측 값에 대한 y축의 크기가 적절하게 조정됩니다. |
+| | X축 표시 | 선 그래프에 X축을 표시합니다. |
+| | Y축 표시 | 선 그래프에 Y축을 표시합니다. |
+| | Y축 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 렌더링됩니다. 이 상자를 선택하면 y축이 0으로 고정되고 차트가 다시 그려집니다. |
+| | 예외 항목이 Y축 크기 조절에 반영되도록 허용 | 차트에 여러 개의 지표가 있는 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 설정을 사용하면 신뢰 구간이 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
+| | 예측이 Y축 크기 조절에 반영되도록 허용 | 과거 값의 상한 및 하한을 벗어나는 예측 값이 있는 경우 y축은 이러한 예측 값을 자동으로 크기 조정하지 않습니다. 이 옵션을 켜면 예측 값에 맞게 y축이 적절히 조정됩니다. |
 | | 최소 표시 | 최소값 레이블을 오버레이하여 지표의 최저점을 빠르게 강조 표시합니다. 참고: 최소값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
 | | 최대 표시 | 최대값 레이블을 오버레이하여 지표의 최고점을 빠르게 강조 표시합니다. 참고: 최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
 | | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세선을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
@@ -250,11 +250,11 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **[주요 지표 요약](/help/analysis-workspace/visualizations/key-metric.md)** | | |
 | | 요약 표시 유형 | <ul><li>백분율 변경 강조</li><li>숫자 값 강조</li></ul> |
 | | 스파크라인 표시 | 차트 하단에 선 차트를 표시하거나 숨기는 방법. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
-| | 스파크라인에서 최대 및 최소 표시 | 기본 및 비교 선 차트에서 최소값 및 최대값 표시 또는 숨기기. |
+| | 스파크라인에서 최대 및 최소 표시 | 기본 및 비교 선 차트에서 최소값 및 최대값 표시. |
 | | 비교 보기 | 비교 데이터 표시. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 오브젝트가 모두 표시되지 않습니다. |
 | | 숫자 값 옵션 | [!UICONTROL **주요 지표 요약**] 섹션에서 <ul><li>백분율 변경 표시</li><li>원시 차이 표시</li>기본 날짜 범위와 보조 날짜 범위의 총 지표 값 간의 원시 차이</ul> |
 | **[폴아웃](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 컨테이너 | 경로를 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>구매 그룹 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>기회 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>세션</li><li>개인</li></ul> |
+| | 컨테이너 | 경로 지정을 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>구매 그룹 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>기회 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>세션</li><li>개인</li></ul> |
 | **[흐름](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
 | | 컨테이너 | 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>구매 그룹 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>기회 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>세션</li><li>개인</li></ul> |
 | | 줄 바꿈 레이블 | 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다. 기본값 = 선택 해제. |
@@ -263,15 +263,15 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 열 수 | 흐름 다이어그램에 사용할 열 수를 결정합니다. |
 | | 열당 항목 확장됨 | 각 열에 원하는 항목 수입니다. |
 | **[여정 캔버스](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | 컨테이너 | 경로를 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>구매 그룹 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>기회 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>세션</li><li>개인</li></ul> |
+| | 컨테이너 | 경로 지정을 분석할 기본 컨테이너를 선택합니다. 기본 컨테이너는 다양한 B2B 컨테이너 수준에서의 계정 참여도([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})나 개인 수준(세션 전체)에서의 개인 참여도를 파악하는 데 도움이 되며, 분석을 단일 세션으로 제한하는 데도 도움이 됩니다. <p>다음 옵션을 사용할 수 있습니다.</p> <ul><li>글로벌 계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>계정 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>구매 그룹 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>기회 ([!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"})</li><li>세션</li><li>개인</li></ul> |
 | **스택형 차트** | | |
 | | 100% 스택 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | 버킷 수 | 시각화에서 날짜 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
-| | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>세션</li><li>개인</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문 페이지 조회수 또는 이벤트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유 형식 테이블에서 Y축 지표로 사용됩니다.</p> |
+| | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>세션</li><li>개인</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문당 페이지 조회수 또는 이벤트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유 형식 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[요약 변경](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
-| | 백분율 | 요약 변경 시각화 값을 백분율로 표시합니다. |
+| | 백분율 | 요약 변경 시각화에서 값을 백분율로 표시합니다. |
 | | 범례 표시 | 요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | **[요약 숫자](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 백분율 | 요약 숫자 시각화 값을 백분율로 표시합니다. |
@@ -284,10 +284,10 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | **[벤](/help/analysis-workspace/visualizations/venn.md)** | | |
 | | 범례 표시 | 벤 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | **[분산](/help/analysis-workspace/visualizations/scatterplot.md)** | | |
-| | 백분율 | 분산 시각화 값을 백분율로 표시합니다. |
+| | 백분율 | 산점도 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 분산 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 최대 항목 수 제한 | 분산 시각화에서 X축의 항목 수를 줄입니다.  이 환경 설정은 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-| | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 렌더링됩니다. 이 상자를 선택하면 y축이 0이 되고 차트가 다시 그려집니다. |
+| | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 렌더링됩니다. 이 상자를 선택하면 y축이 0으로 고정되고 차트가 다시 그려집니다. |
 
 ## 기본 환경 설정 복원
 

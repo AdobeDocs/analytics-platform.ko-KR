@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 21%
+source-wordcount: 230
+ht-degree: 20%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 21%
 Customer Journey Analytics에서 데이터 피드를 사용하려면 먼저 Customer Journey Analytics의 데이터 피드가 Adobe Analytics의 데이터 피드와 어떻게 다른지 이해하십시오. 차이점을 이해하면 Adobe Analytics 데이터 피드를 Customer Journey Analytics에 매핑한 다음 데이터 피드 만들기를 시작할 수 있습니다.
 
 1. [Customer Journey Analytics과 Adobe Analytics의 데이터 피드 간 차이점을 이해합니다](/help/components/exports/cja-data-feeds/df-comparison.md).
+
+1. [데이터 피드와 Analysis Workspace 간의 데이터 불일치 이해](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
 
 1. [Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 981
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-sandbox"
 >title="샌드박스"
->abstract="올바른 Experience Platform 프로필 데이터 세트가 포함된 샌드박스를 선택합니다. 이러한 데이터 세트에는 Analysis Workspace에서 보고할 동의 데이터를 포함해야 합니다."
+>abstract="올바른 Experience Platform 프로필 데이터 세트가 포함된 샌드박스를 선택합니다. 이 데이터 세트에는 Analysis Workspace에서 보고하고자 하는 동의 데이터를 포함해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-person-id"
 >title="개인 ID"
->abstract="모델 기반 스키마에서 개인 ID를 나타내는 필드를 선택합니다. 선택 항목은 &#39;ID&#39;로 표시되고 ID 네임스페이스가 있는 스키마의 필드 목록으로 제한됩니다."
+>abstract="개인 ID를 나타내는 모델 기반 스키마에서 필드를 선택합니다. 선택 항목은 &#39;ID&#39;로 표시되고 ID 네임스페이스가 있는 스키마의 필드 목록으로 제한됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +59,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
 >title="기본 ID 네임스페이스 사용"
->abstract="Customer Journey Analytics이 ID 맵에서 primary=true 속성으로 표시된 ID를 찾고 해당 ID를 해당 행의 개인 ID로 사용하려면 이 옵션을 활성화합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. <br/>이 옵션을 비활성화한 상태로 두면 아래의 ID 네임스페이스 필드에서 네임스페이스를 선택합니다. Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다."
+>abstract="Customer Journey Analytics를 통해 ID 맵에서 primary=true 속성으로 표시된 ID를 찾아 해당 행의 개인 ID로 사용하려면 이 옵션을 활성화합니다. 이 ID는 Experience Platform에서 파티셔닝에 사용하는 기본 키입니다. <br/>이 옵션을 비활성화한 상태로 두면 아래의 ID 네임스페이스 필드에서 네임스페이스를 선택합니다. Customer Journey Analytics에서 각 행의 ID 맵을 검색하여 이 네임스페이스 키를 찾고 해당 네임스페이스 아래의 ID를 해당 행의 개인 ID로 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
