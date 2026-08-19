@@ -40,6 +40,6 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="데이터 보기"
+>title="데이터 보기
 >abstract="대화 통찰력 분석에 사용할 연결과 연결된 데이터 보기를 선택합니다. 대화 통찰력 지표 및 차원이 선택한 데이터 보기에 추가됩니다."
 
