@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
 workflow-type: tm+mt
-source-wordcount: 4066
-ht-degree: 20%
+source-wordcount: 4033
+ht-degree: 21%
 
 ---
 
@@ -81,7 +73,7 @@ ht-degree: 20%
 
 1. 인터페이스 오른쪽 상단에 있는 앱 전환기 ![App](/help/assets/icons/Apps.svg)에서 [!UICONTROL **Customer Journey Analytics**]&#x200B;를 선택합니다.
 
-1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**] (으)로 이동합니다.
+1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**](으)로 이동합니다.
 
 1. [!UICONTROL **데이터 피드**] 탭을 선택합니다.
 
@@ -349,7 +341,7 @@ ht-degree: 20%
 이 옵션을 구성할 때는 다음 중요 개념을 고려하십시오.
 
 * 일반적으로 전환 확인 날짜 범위가 길면 데이터가 더 정확해지고, 범위가 짧을수록 게재 성능이 향상됩니다.
-* 전환 확인 날짜 범위는 빈도 창과 함께 Analysis Workspace 보고 날짜 범위와 유사하게 작동합니다. 그러나 [주요 차이점](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)이 있습니다. 이러한 차이로 인해 Workspace 보고서와 데이터 피드 게재 간에 데이터가 다를 수 있습니다.
+* 전환 확인 날짜 범위는 빈도 창과 함께 Analysis Workspace 보고 날짜 범위와 유사하게 작동합니다. 그러나 [주요 차이점](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)이 있습니다. 이러한 차이로 인해 Workspace 보고서와 데이터 피드 게재 간에 데이터가 일치하지 않을 수 있습니다.
 
 전환 확인 날짜 범위 내에서 데이터를 처리할 때 세그먼트 자격, 세션 계산, 차원 지속성 및 파생된 필드 변환을 각각 고려합니다.
 
@@ -376,7 +368,7 @@ ht-degree: 20%
 
 ### 세션 계산
 
-세션 경계는 전환 확인 날짜 범위 내의 데이터를 사용하여 계산됩니다. 세션 ID가 무엇인지와 관련하여 더 중요할 수 있습니까? 세션 ID에 영향을 줄 수 있습니까? 세션 기반 지속성과 같은 많은 사항에 영향을 줄 수 있습니다.
+세션 경계는 전환 확인 날짜 범위 내의 데이터를 사용하여 계산됩니다. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Dimension 지속성
 
@@ -385,7 +377,7 @@ ht-degree: 20%
 데이터 보기에서 다음 옵션 중 하나로 만료를 설정하면 전환 확인 날짜 범위가 차원 지속성에 영향을 줍니다.
 
 * [!UICONTROL **개인 보고 기간**]: 전환 확인 날짜 범위는 [!UICONTROL **개인 보고 기간**]&#x200B;을 만료로 사용하는 데이터 피드 정의의 각 차원에 대한 새 보고 기간이 됩니다.
-* [!UICONTROL **사용자 지정 시간**]: 선택한 사용자 지정 시간이 전환 확인 날짜 범위를 벗어나는 경우 사용자 지정 시간은 무시되고, 전환 확인 날짜 범위는 [!UICONTROL **사용자 지정 시간**]&#x200B;을(를) 만료로 사용하는 데이터 피드 정의의 각 차원에 대한 차원 만료에 사용됩니다. 전환 확인 날짜 범위 전에 발생한 값은 고려되지 않습니다.
+* [!UICONTROL **사용자 지정 시간**]: 선택한 사용자 지정 시간이 전환 확인 날짜 범위를 벗어나는 경우 사용자 지정 시간은 무시되고, 전환 확인 날짜 범위는 [!UICONTROL **사용자 지정 시간**]&#x200B;을(를) 만료로 사용하는 데이터 피드 정의의 각 차원에 대한 차원 만료에 사용됩니다. 전환 확인 날짜 범위 이전에 발생한 값은 고려되지 않습니다.
 
   데이터 보기 내의 차원에 대한 지속성 설정에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오.
 
@@ -411,7 +403,7 @@ ht-degree: 20%
 
 ### 파생 필드 변형
 
-컨테이너를 참조하는 모든 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다. 파생된 필드에 존재하는 날짜 기능은 무엇입니까? 이것이 어떻게 적용되는지 확실하지 않습니다.
+컨테이너를 참조하는 모든 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다. 파생된 필드에 존재하는 날짜 기능은 무엇입니까? <!--Not sure how this applies.-->
 
 
 
