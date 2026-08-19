@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4066
 ht-degree: 20%
 
 ---
@@ -81,7 +73,7 @@ ht-degree: 20%
 
 1. 인터페이스 오른쪽 상단에 있는 앱 전환기 ![App](/help/assets/icons/Apps.svg)에서 [!UICONTROL **Customer Journey Analytics**]&#x200B;를 선택합니다.
 
-1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**] (으)로 이동합니다.
+1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**](으)로 이동합니다.
 
 1. [!UICONTROL **데이터 피드**] 탭을 선택합니다.
 
@@ -160,6 +152,26 @@ ht-degree: 20%
    | 주 | 이벤트 발생 주 | 사용할 수 없음 |
    | 주(한 해 기준) | 이벤트가 발생한 주 | 사용할 수 없음 |
    | 년 | 이벤트 발생 연도 | 사용할 수 없음 |
+
+   +++
+
+   +++ 데이터 피드에 포함할 수 없는 지표
+
+   다음 Customer Journey Analytics 표준 지표는 데이터 피드에 포함할 수 없습니다.
+
+   | 지표 이름 | 참고 | 데이터 피드 |
+   |---|---|---|
+   | Adobe 방문자 프로필 | | 사용할 수 없음 |
+   | Adobe Opportunities Union | | 사용할 수 없음 |
+   | Adobe 영업 기회 프로필 | | 사용할 수 없음 |
+   | Adobe 계정 조합 | | 사용할 수 없음 |
+   | Adobe 계정 프로필 | | 사용할 수 없음 |
+   | Adobe 구매 그룹 연합 | | 사용할 수 없음 |
+   | Adobe 구매 그룹 프로필 | | 사용할 수 없음 |
+   | Adobe 글로벌 계정 연합 | | 사용할 수 없음 |
+   | Adobe 글로벌 계정 프로필 | | 사용할 수 없음 |
+   | Adobe 사람 조합 | | 사용할 수 없음 |
+   | Adobe 사용자 프로필 | | 사용할 수 없음 |
 
    +++
 
@@ -318,20 +330,20 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="전환 확인 날짜 범위"
->abstract="데이터 피드 게재를 처리할 때 Customer Journey Analytics에서 얼마나 지난 날짜까지 조회할지를 제어합니다. 이 설정은 Analysis Workspace 보고 날짜 범위와 유사하지만, 중요한 차이가 있습니다.<ul><li>전환 확인 날짜 범위 내에 있지 않고 빈도 창 내에 타임스탬프가 있는 이벤트는 데이터 피드에 포함됩니다. (Analysis Workspace에서 이벤트는 보고 날짜 범위에 해당하는 타임스탬프가 있는 경우 보고서에 포함됩니다.)</li><li>전환 확인 날짜 범위 내에 있지만 빈도 창 외부에 있는 타임스탬프가 있는 이벤트는 세그먼트 자격, 세션 계산, 파생된 필드 변환 및 차원 지속성을 통해 피드에 표시되는 데이터에 여전히 영향을 줄 수 있습니다.</li><p>일반적으로 전환 확인 날짜 범위가 길면 더 정확한 이벤트가 발생하고, 범위가 짧으면 게재 성능이 향상됩니다.</p>"
+>abstract="각 게재를 처리할 때 Customer Journey Analytics이 표시되는 거리를 제어합니다.<p>빈도 창(시간 또는 일)은 데이터 피드에 포함되는 이벤트를 결정하는 반면 **전환 확인 날짜 범위**&#x200B;는 이러한 이벤트를 올바르게 분류하는 데 필요한 기록 컨텍스트를 제공합니다.</p><p>세그먼트 자격, 차원 지속성, 세션 계산 및 파생된 필드 변환은 모두 포함된 이벤트에 영향을 줄 수 있습니다.</p><p>전환 확인이 길면 정확도가 향상되고, 전환 확인이 짧으면 성능이 향상됩니다.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+전환 확인 날짜 범위는 각 데이터 피드 게재를 처리할 때 Customer Journey Analytics이 표시되는 거리를 제어합니다.
 
-
-전환 확인 날짜 범위는 데이터 피드 게재를 처리할 때 Customer Journey Analytics이 표시되는 거리를 제어합니다. 기본값은 30일입니다.
+이벤트에는 게재에 포함할 빈도 창(시간 또는 일)에 속하는 타임스탬프가 있어야 하지만, **전환 확인 날짜 범위**&#x200B;에 속하는 데이터는 이러한 이벤트를 올바르게 분류하는 데 필요한 기록 컨텍스트를 제공합니다.
 
 이 옵션을 구성할 때는 다음 중요 개념을 고려하십시오.
 
 * 일반적으로 전환 확인 날짜 범위가 길면 데이터가 더 정확해지고, 범위가 짧을수록 게재 성능이 향상됩니다.
-* 데이터 피드의 전환 확인 날짜 범위는 Analysis Workspace의 보고 날짜 범위와 비슷하지만 [주요 차이점](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)이 있습니다. 이러한 차이로 인해 Workspace 보고서와 데이터 피드 게재 간에 데이터가 다를 수 있습니다.
-* 전환 확인 날짜 범위는 데이터 피드 출력에 포함할 이벤트의 시간 프레임을 정의하는 빈도 창(시간 또는 일)을 변경하지 않습니다.
-* 전환 확인 날짜 범위 내에 있는 데이터는 아래 섹션에 설명된 요소에 따라 데이터 피드(빈도 창)에 포함된 내용에 영향을 줄 수 있습니다.
+* 전환 확인 날짜 범위는 빈도 창과 함께 Analysis Workspace 보고 날짜 범위와 유사하게 작동합니다. 그러나 [주요 차이점](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)이 있습니다. 이러한 차이로 인해 Workspace 보고서와 데이터 피드 게재 간에 데이터가 다를 수 있습니다.
+
+전환 확인 날짜 범위 내에서 데이터를 처리할 때 세그먼트 자격, 세션 계산, 차원 지속성 및 파생된 필드 변환을 각각 고려합니다.
 
 ### 세그먼트 선별
 
@@ -357,10 +369,6 @@ ht-degree: 20%
 ### 세션 계산
 
 세션 경계는 전환 확인 날짜 범위 내의 데이터를 사용하여 계산됩니다. 세션 ID가 무엇인지와 관련하여 더 중요할 수 있습니까? 세션 ID에 영향을 줄 수 있습니까? 세션 기반 지속성과 같은 많은 사항에 영향을 줄 수 있습니다.
-
-### 파생 필드 변형
-
-컨테이너를 참조하는 모든 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다. 파생된 필드에 존재하는 날짜 기능은 무엇입니까? 이것이 어떻게 적용되는지 확실하지 않습니다.
 
 ### Dimension 지속성
 
@@ -393,6 +401,9 @@ ht-degree: 20%
 
 >[!ENDSHADEBOX]
 
+### 파생 필드 변형
+
+컨테이너를 참조하는 모든 파생 필드 함수는 데이터 피드 내보내기에서 전환 확인 날짜 범위를 사용합니다. 파생된 필드에 존재하는 날짜 기능은 무엇입니까? 이것이 어떻게 적용되는지 확실하지 않습니다.
 
 
 
