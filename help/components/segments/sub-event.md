@@ -6,16 +6,14 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 9%
+source-wordcount: 680
+ht-degree: 8%
 
 ---
 
 # 하위 이벤트 분석
-
-{{release-limited-testing}}
 
 하위 이벤트 분석을 사용하면 이벤트 수준보다 더 세분화된 수준에서 이벤트 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. 예:
 
@@ -43,7 +41,7 @@ Customer Journey Analytics에서는 하위 이벤트 분석을 사용할 컨테�
 ![제품 범주 전문가 모임에 대한 이벤트 수준의 세분화를 보여 주는 패널](./assets/product-category-segmentation-events.png)
 
 따라서 최소 하나 이상의 **[!UICONTROL 전문 수트]** **[!UICONTROL product_category]**&#x200B;가 포함된 모든 주문이 고려되며, 이러한 주문의 다른 제품 매출은 **[!UICONTROL 매출]** 지표에 포함됩니다.
-카테고리에 대해 보고할 때 **[!UICONTROL 전문 수트]** **[!UICONTROL product_category]**&#x200B;와 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL product_category]**&#x200B;의 다른 모든 값이 보고됩니다.
+카테고리에 대해 보고할 때, **[!UICONTROL 전문 수트]** **[!UICONTROL product_category]**&#x200B;와 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL product_category]**&#x200B;의 다른 모든 값이 보고됩니다.
 
 >[!TAB 하위 이벤트 분석]
 

@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3d3015ac59eefd5bd5e948996b2880310332a5e1
+source-git-commit: b65a411e35963b97ab159e8c3b61010927ea911d
 workflow-type: tm+mt
-source-wordcount: 989
-ht-degree: 27%
+source-wordcount: 984
+ht-degree: 28%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 27%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
 | **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡률)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. |  | 2026년 8월 18일 |
-| **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다. <p>이 옵션은 최상위 컨테이너가 개인인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segments/seg-builder.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
 | **추가 데이터 사용 레이블 지원**<br>&#x200B;이제 Customer Journey Analytics에서 데이터 집합 내의 요소에 대해 다음과 같은 추가 데이터 사용 레이블을 지원합니다.<ul><li>C2 - 서드파티 데이터 내보내기 제한(현재 사용 가능)</li><li>C3 - 직접 식별 가능한 데이터 조합 제한(현재 사용 가능)</li><li>C9 - 데이터 과학 제한(8월 또는 9월 릴리스 예정)</li></ul><p>자세한 내용은 [레이블, 정책 및 마케팅 작업](/help/data-views/data-governance.md)을 참조하십시오.</p> | | 2026년 8월 또는 9월 |
-| **동의 정책 필터링 및 보고**<br>&#x200B;이제 Adobe Experience Platform 동의 정책과 일치하는 방문자를 보고할 수 있습니다. (동의 정책 차원 및 지표가 연결의 데이터 보기에 추가됩니다.)<p>또한 데이터가 Customer Journey Analytics에 수집되기 전에 동의하지 않는 방문자를 제외할 수 있습니다.</p><p>자세한 내용은 동의 보고 및 필터링 개요를 참조하십시오.</p> | | 2026년 8월 |
-| **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 31일 |
-| **B2B: 개인-계정 연결**<br> B2B 계정 연결을 통해 계정 정보로 이벤트 데이터 세트를 강화하고 Customer Journey Analytics의 전체 고객 여정에서 전체 분석을 수행할 수 있습니다. <p>이벤트에 수집에 필요한 Customer Journey Analytics B2B edition의 계정 ID가 없는 경우 계정 결합은 사용자가 제공하는 개인-계정 매핑 데이터 세트를 사용하여 해당 정보를 자동으로 파생하고 추가합니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
+| **Content Analytics: 유료 미디어 데이터** <br/>유료 미디어를 이제 Content Analytics의 세 번째 채널로 사용할 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 8월 31일 |
+| **B2B: 개인-계정 연결**<br> B2B 계정 연결을 통해 계정 정보로 이벤트 데이터 세트를 강화하고 Customer Journey Analytics의 전체 고객 여정에서 전체 분석을 수행할 수 있습니다. <p>이벤트에 수집에 필요한 Customer Journey Analytics B2B edition의 계정 ID가 없는 경우 계정 결합은 사용자가 제공하는 개인-계정 매핑 데이터 세트를 사용하여 해당 정보를 자동으로 파생하고 추가합니다.</p><p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 8월 또는 9월 말 |
 | **CJA Report API 첫 번째 호출 안내서**<br> Adobe Customer Journey Analytics API 첫 번째 호출 안내서는 기본 보고서 요청을 구성하는 지침 및 예를 제공합니다. | | 2026년 8월 10일 |
 | **CJA Report API 날짜 트렌드 가이드**<br> Adobe Customer Journey Analytics API 날짜 트렌드 가이드는 기본 보고서 요청을 구성하는 지침 및 예를 제공합니다. | | 2026년 8월 17일 |
+| **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다. <p>이 옵션은 최상위 컨테이너가 개인인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segments/seg-builder.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
+| **동의 정책 필터링 및 보고**<br>&#x200B;이제 Adobe Experience Platform 동의 정책과 일치하는 방문자를 보고할 수 있습니다. (동의 정책 차원 및 지표가 연결의 데이터 보기에 추가됩니다.)<p>또한 데이터가 Customer Journey Analytics에 수집되기 전에 동의하지 않는 방문자를 제외할 수 있습니다.</p><p>(참조할 설명서 링크입니다.)<!--For more information, see Consent reporting and filtering overview.--></p> | | 2026년 9월 |
 
 ### Customer Journey Analytics의 수정 사항
 
