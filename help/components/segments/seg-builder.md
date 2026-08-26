@@ -5,22 +5,14 @@ feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e65b2ec10593c19ab056ecf72716a9267cfc0528
 workflow-type: tm+mt
-source-wordcount: 1812
-ht-degree: 80%
+source-wordcount: 1932
+ht-degree: 76%
 
 ---
 
@@ -55,7 +47,7 @@ ht-degree: 80%
    | 요소 | 설명 |
    | --- | --- |
    | **[!UICONTROL 데이터 보기]** | 세그먼트에 대한 데이터 보기를 선택할 수 있습니다.  정의한 세그먼트는 데이터 보기의 [설정](/help/data-views/create-dataview.md#settings-filters) 탭에서 세그먼트로 사용할 수 있습니다. |
-   | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 표시되며 구성 요소 목록에 세그먼트가 추가되지 않았다는 것을 설명하는 정보 상자. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
+   | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 표시되며 구성 요소 목록에 세그먼트가 추가되지 않는다는 것을 설명하는 정보 상자. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 세그먼트의 이름을 지정합니다(예: `Last month mobile customers`). |
    | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력합니다(예: `Segment to define the mobile customers for the last month`). |
    | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
@@ -93,15 +85,29 @@ ht-degree: 80%
 
 1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다.
    * 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**&#x200B;구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
+   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
+
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
-1. 필요한 경우 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](seg-operators.md)를 참조하십시오.
+
+1. (선택 사항) [!UICONTROL **결과를 보고 날짜 범위로 제한**]&#x200B;하는 옵션을 활성화합니다.
+
+   세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위 이상으로 확장될 수 있습니다.
+
+   세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한하려면 이 옵션을 활성화합니다.
+
+   이 옵션은 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 [!UICONTROL **개인**]&#x200B;을(를) 정의의 범위(컨테이너)로 선택한 경우에만 표시됩니다.
+
+   **참고**: 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Customer Journey Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
+1. (선택 사항) 기본 연산자를 수정합니다.
+
+   예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](seg-operators.md)를 참조하십시오.
 
 구성 요소 편집 방법:
 
 * 연산자 드롭다운 메뉴에서 구성 요소에 대한 새 연산자를 선택합니다.
 * 적절한 경우 연산자에 대해 다른 값을 선택하거나 지정합니다.
-* 구성 요소 유형이 차원인 경우, 속성 모델을 정의할 수 있습니다. 자세한 내용은 [속성 모델](#attribution)을 참조하십시오.
+* 구성 요소 유형이 차원인 경우 기여도 모델을 정의할 수 있습니다. 자세한 내용은 [속성 모델](#attribution)을 참조하십시오.
 
 구성 요소 삭제 방법:
 
@@ -116,7 +122,7 @@ ht-degree: 80%
 * 컨테이너를 추가하려면 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;에서 **[!UICONTROL 컨테이너 추가]**&#x200B;를 선택합니다.
 * 컨테이너에 기존 구성 요소를 추가하려면 구성 요소를 컨테이너로 끌어다 놓습니다.
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
-* 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부가 아닌 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
+* 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부이지만 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. Then을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
 * 컨테이너 수준을 전환하려면 ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL 전역 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![계정](/help/assets/icons/Account.svg) **[!UICONTROL 계정]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![기회](/help/assets/icons/Opportunity.svg) **[!UICONTROL 기회]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![구매 그룹](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 구매 그룹]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 이벤트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 세션]**, ![을(를) 선택하십시오. 사용자](/help/assets/icons/User.svg) **[!UICONTROL 사람]** 또는 ![계층](/help/assets/icons/Layer.svg) **[!UICONTROL 개체]**. ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL 개체]**&#x200B;를 선택하는 경우 사용할 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#containers-1)를 선택하십시오. (예: 제품 또는 컨텐츠 Assets)
 
@@ -126,7 +132,7 @@ ht-degree: 80%
 |---|---|
 | **[!UICONTROL 컨테이너 추가]** | 컨테이너에 중첩된 컨테이너를 추가합니다. |
 | **[!UICONTROL 제외]** | 세그먼트 정의의 컨테이너에서 결과를 제외합니다. 가는 빨간색 왼쪽 막대가 제외 컨테이너를 식별합니다. |
-| **[!UICONTROL 포함]** | 세그먼트 정의의 컨테이너에서 결과를 포함합니다. 포함이 기본값입니다. 가는 회색 왼쪽 막대는 포함 컨테이너를 식별합니다. |
+| **[!UICONTROL 포함]** | 세그먼트 정의에 컨테이너의 결과를 포함합니다. 포함이 기본값입니다. 가는 회색 왼쪽 막대는 포함 컨테이너를 식별합니다. |
 | **[!UICONTROL 이름 컨테이너]** | 기본 설명에서 컨테이너의 이름을 바꿉니다. 텍스트 필드에 이름을 입력합니다. 아무런 입력도 하지 않으면 기본 설명이 사용됩니다. |
 | **[!UICONTROL 컨테이너 삭제]** | 정의에서 컨테이너를 삭제합니다. |
 
@@ -143,7 +149,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -152,7 +158,7 @@ ht-degree: 80%
 
 세그먼트를 사용하여 세그먼트를 작성할 수 있습니다. 세그먼트에서 세그먼트를 사용하면 세그먼트를 최적화하고 복잡성을 줄일 수 있습니다.
 
-디바이스 유형(2)과 미국 주(50)의 조합을 세분화하려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 100개의 세그먼트를 만들 수 있습니다. 캘리포니아에서 태블릿 사용자를 가져오려면 100개의 세그먼트 중 하나를 사용합니다.
+디바이스 유형(2)과 미국 주(50)의 조합을 기준으로 세그먼트를 만들려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 100개의 세그먼트를 만들 수 있습니다. 캘리포니아에서 태블릿 사용자를 가져오려면 100개의 세그먼트 중 하나를 사용합니다.
 
 ![캘리포니아 및 태블릿용 간단한 세그먼트](assets/filter-ca-tablet-single.png)
 
@@ -166,7 +172,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="반복"
->abstract="차원에 대한 인스턴스 및 지속된 값 포함"
+>abstract="차원에 대한 인스턴스 및 지속된 값을 포함합니다."
 
 
 >[!CONTEXTUALHELP]
@@ -183,7 +189,7 @@ ht-degree: 80%
 
 
 
-세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 속성 모델을 지정하는 옵션이 제공됩니다. 선택한 속성 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
+세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 기여도 모델을 지정하는 옵션이 제공됩니다. 선택한 기여도 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
 
 차원 구성 요소 내에서 ![설정](/help/assets/icons/Setting.svg)을 선택하고 팝업에서 속성 모델 중 하나를 선택합니다.
 
@@ -198,11 +204,11 @@ ht-degree: 80%
 
 ### 예
 
-세그먼트 정의의 일부로 다음 조건을 지정했습니다. 페이지 이름이 여성과 같다. 위의 예와 유사합니다. 나머지 두 가지 속성 모델을 사용하여 이 세그먼트 정의를 반복합니다. 따라서 각각 고유한 속성 모델이 있는 세 개의 세그먼트가 있습니다.
+세그먼트 정의의 일부로 다음 조건을 지정했습니다. 페이지 이름이 여성과 같다. 위의 예와 유사합니다. 나머지 두 가지 기여도 모델을 사용하여 이 세그먼트 정의를 반복합니다. 따라서 각각 자체 기여도 모델이 있는 세 개의 세그먼트가 있습니다.
 
 * 여성 페이지 - 속성 - 반복 (기본값)
-* 여성 페이지 - 속성 - 인스턴스
-* 여성 페이지 - 속성 - 비반복 인스턴스
+* 여성 페이지 - 기여도 - 인스턴스
+* 여성 페이지 - 기여도 - 비반복 인스턴스
 
 
 아래 테이블은 각 속성 모델에 대해 해당 조건에 적합한 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)에 해당하는 수신 이벤트를 설명합니다.
