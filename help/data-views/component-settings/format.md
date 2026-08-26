@@ -7,19 +7,12 @@ feature: Data Views
 role: Admin
 autotag-review: '2026-05-19T09:12:17.807Z'
 TQID: 'https://experienceleague.adobe.com/LYz2PLV0TlTYRDuRfh8yP8p457Q5LEnJbsowqY0XPqA'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a4f7eef26a019f4f8a716f44d49985290b135112
 workflow-type: tm+mt
 source-wordcount: 759
 ht-degree: 88%
@@ -106,7 +99,7 @@ Customer Journey Analytics에서 통화 전환은 국제적으로 운영되는 �
 
    * [!UICONTROL **통화 코드 차원 선택**] 필드에서 변환하려는 통화를 나타내는 차원을 선택합니다(데이터의 기반이 되는 통화). 예를 들어 [!UICONTROL **통화 코드**]&#x200B;라 불리는 차원을 선택합니다.
 
-     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
+     통화 코드 필드가 포함된 현재 데이터 스키마에 차원이 없는 경우 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용하여 새 통화 코드 필드를 만들 수 있습니다. 데이터 준비는 앞으로만 진행되기 때문에 새로운 구현에만 적합합니다. 조직의 설정에 따라 Data Distiller와 파생 필드를 사용하여 과거 통화 코드 값에 액세스할 수 있습니다.
 
    * [!UICONTROL **통화 변환 및 표시**] 필드에서 데이터를 변환할 통화를 선택합니다.
 

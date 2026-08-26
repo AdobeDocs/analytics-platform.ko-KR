@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: f7bbbaf0b737ab33088c7c585d6415f93deff4c8
+source-git-commit: 1ce48a6e077ee1069c55f3ef8969ed2eced4742e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 4%
 
 ---
 
 # 총 모집단 보고
 
-총 모집단 보고에서는 프로필 및 조회 데이터 세트에 정의된 엔터티와 이벤트 데이터 세트의 시간 기반 이벤트 시리즈 이상에 대해 분석하고 보고할 수 있는 기능을 도입했습니다. 이 기능을 사용하면 비즈니스 고객 기반의 전체 범위를 반영하는 새로운 클래스의 쿼리, 지표 및 대상 정의를 사용할 수 있습니다.
+총 모집단 보고에서는 Customer Journey Analytics 연결에 있는 프로필 및 조회 데이터 세트에 정의된 엔터티를 분석하고 보고하는 기능이 도입되었습니다. 이러한 분석 및 보고는 이벤트 데이터 세트의 시간 기반 이벤트 시리즈를 능가합니다. 이 기능을 사용하면 비즈니스 고객 기반의 전체 범위를 반영하는 새로운 클래스의 쿼리, 지표 및 대상 정의를 사용할 수 있습니다.
 
 Customer Journey Analytics은 이벤트를 중심으로 구축됩니다. 모든 지표, 모든 시각화, 모든 패널, 모든 보고서는 날짜 시간 범위와 해당 날짜 시간 범위 동안 발생하는 이벤트에 고정됩니다. 다음과 같은 솔루션에 대해 질문할 수 있습니다.
 
