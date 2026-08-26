@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="대상 제한 새로 고침"
->abstract="예약된 빈도에서 자동으로 새로 고침되도록 구성된 환경의 대상 수입니다. 제한은 Customer Journey Analytics 권한에 따라 75~150입니다. 일회성 요청은 이 제한에 포함되지 않습니다."
+>title="대상자 새로 고침 제한"
+>abstract="사용자 환경에 있으며 예약된 빈도에 따라 자동으로 새로 고쳐지도록 구성된 대상자 수입니다. Customer Journey Analytics 권한에 따라 75~150회로 제한됩니다. 일회성 요청은 이 제한에 포함되지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
