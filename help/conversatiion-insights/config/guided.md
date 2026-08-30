@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 30194647c56e7eaa8441b915d16f53ba3ff1bd40
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 9%
+ht-degree: 81%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_datasets"
 >title="데이터 세트"
->abstract="프롬프트, 응답 및 피드백이 포함된 이벤트 데이터 세트를 선택하십시오."
+>abstract="프롬프트, 응답 및 피드백이 포함된 이벤트 데이터 세트를 선택합니다."
 
 ## 연결
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_connection"
 >title="연결"
->abstract="Customer Journey Analytics에서 대화 데이터가 추가되는 연결을 선택합니다."
+>abstract="대화 데이터가 추가되는 Customer Journey Analytics 내 연결을 선택택합니다."
 
 ## 데이터 보기
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
 >title="데이터 보기"
->abstract="대화 통찰력 분석에 사용할 연결과 연결된 데이터 보기를 선택합니다. 대화 통찰력 지표 및 차원이 선택한 데이터 보기에 추가됩니다."
+>abstract="대화 인사이트 분석에 사용할 연결과 관련된 데이터 보기를 선택합니다. 대화 인사이트 지표 및 차원이 선택한 데이터 보기에 추가됩니다."
 

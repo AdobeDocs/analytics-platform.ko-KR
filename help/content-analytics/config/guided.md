@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
 source-wordcount: 4186
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
@@ -89,7 +89,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="세부 사항"
->abstract="이 안내서에서는 Content Analytics를 구성하는 데 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택하십시오."
+>abstract="이 안내서에서는 Content Analytics를 구성하는 데 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
