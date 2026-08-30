@@ -7,19 +7,14 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
 TQID: https://experienceleague.adobe.com/hvK60b1ST9yjl9fz0kFnSncTRXtZQCYvDmLCUCP1Yik
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 14%
+source-wordcount: 934
+ht-degree: 13%
 
 ---
 
@@ -29,12 +24,15 @@ ht-degree: 14%
 
 단일 통합 문서에 여러 일정을 만들 수 있습니다. 예를 들어 매일 팀에게 통합 문서를 보내고 일주일에 한 번 관리자에게 보내는 두 개의 일정을 만듭니다.
 
-일정 기능을 사용하면 통합 문서에 대한 암호 보호를 설정하고 이전에 예약된 통합 문서를 편집할 수도 있습니다.
+일정 기능을 사용하면 통합 문서에 대한 암호 보호를 설정하고 이전에 예약된 통합 문서에 대한 일정을 편집할 수도 있습니다.
 
+>[!NOTE]
+>
+>일정은 일정을 만들 때 존재했던 통합 문서 버전을 보냅니다. 나중에 통합 문서를 변경하고 저장하는 경우 기존 일정이 해당 변경 사항을 선택하지 않고 원본 버전을 계속 보냅니다. 업데이트된 통합 문서를 배포하려면 변경 내용을 저장한 후 새 일정을 만듭니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
