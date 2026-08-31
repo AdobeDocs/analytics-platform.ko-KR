@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 1309
-ht-degree: 40%
+source-wordcount: 1343
+ht-degree: 39%
 
 ---
 
@@ -53,10 +53,6 @@ Report Builder에서 클라우드로 통합 문서를 내보낼 때 다음 프�
 ![1~4단계에 설명된 내보내기 프로세스입니다.](assets/report-builder-export-process.png)
 
 ## Report Builder에서 보고서 내보내기
-
->[!NOTE]
->
->이 섹션에 설명된 대로 데이터를 내보내기 전에 위의 섹션에서 [내보내기 프로세스](#understand-the-export-process)에 대해 자세히 알아보세요.
 
 Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
 
@@ -100,6 +96,10 @@ Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
    데이터는 사용자가 지정한 빈도로 지정한 클라우드 계정으로 전송됩니다.
 
 1. (선택 사항) 내보내기를 만든 후 지금 보내기로 선택했든 정의된 일정에 따라 보내기로 선택했든 [내보내기 페이지](/help/components/exports/manage-exports.md)에서 보고 관리할 수 있으며 [내보내기 로그](/help/components/exports/manage-export-logs.md)에서 볼 수 있습니다.</p>
+
+>[!NOTE]
+>
+>일정은 일정을 만들 때 있었던 통합 문서 버전을 내보냅니다. 나중에 통합 문서를 변경하고 저장하는 경우 기존 일정이 해당 변경 사항을 선택하지 않고 원본 버전을 계속 내보냅니다. 업데이트된 통합 문서를 내보내려면 변경 내용을 저장한 후 새 일정을 만듭니다.
 
 ## 내보내기 관리
 
