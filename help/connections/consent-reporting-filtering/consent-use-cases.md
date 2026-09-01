@@ -5,21 +5,14 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -53,7 +46,7 @@ ht-degree: 0%
 
 1. 구성을 만들고 동의 정책 멤버십 데이터가 포함된 샌드박스, 프로필 데이터 세트 및 연결을 선택합니다.
 
-1. **[!UICONTROL Analytics]** 및 **[!UICONTROL 데이터 과학]** 필터링 기능을 모두 해제하세요.
+1. **[!UICONTROL Analytics 데이터]** 및 **[!UICONTROL 데이터 과학 데이터]** 필터링을 모두 해제합니다.
 
 1. Analysis Workspace에서 정책별 적용 범위를 보려면 **[!UICONTROL 정책 이름]** 차원과 **[!UICONTROL 동의를 받은 방문자 수]** 지표로 자유 형식 테이블을 작성하십시오.
 
@@ -70,7 +63,7 @@ ht-degree: 0%
 
 1. 분석 보고를 향상시키는 연결에 대한 구성을 만들거나 편집합니다.
 
-1. **[!UICONTROL Analytics]** 필터링 토글을 사용하도록 설정합니다.
+1. **[!UICONTROL Analytics 데이터]** 필터링 토글을 사용하도록 설정합니다.
 
 1. 구성을 확인합니다. 이제부터 Customer Journey Analytics은 방문자가 Analytics 마케팅 작업에 적용되는 모든 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다.
 
@@ -86,7 +79,7 @@ ht-degree: 0%
 
 1. 관련 연결에 대한 구성을 만들거나 편집합니다.
 
-1. 각 사용 사례에 대한 동의 요구 사항에 따라 **[!UICONTROL Analytics]** 토글, **[!UICONTROL 데이터 과학]** 토글 또는 둘 다를 활성화합니다.
+1. 각 사용 사례에 대한 동의 요구 사항에 따라 **[!UICONTROL Analytics 데이터]** 토글, **[!UICONTROL 데이터 과학 데이터]** 토글 또는 둘 다를 활성화합니다.
 
 1. 구성을 확인합니다. Customer Journey Analytics은 활성화된 각 마케팅 작업에 적용되는 동의 정책을 독립적으로 평가합니다.
 
