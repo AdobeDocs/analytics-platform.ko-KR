@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
+source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
 workflow-type: tm+mt
-source-wordcount: 21213
-ht-degree: 98%
+source-wordcount: 21458
+ht-degree: 97%
 
 ---
 
@@ -153,17 +153,17 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    * **[[!UICONTROL 최고 인기 항목]](#most-popular)**
 
-   * **[[!UICONTROL 웹]** > **[!UICONTROL 참여]](#engagement)**
+   * **[!UICONTROL 웹]** > **[[!UICONTROL 참여]](#web-engagement)**
 
-   * **[[!UICONTROL 웹]** > **[!UICONTROL 전환]](#web-conversion)**
+   * **[!UICONTROL 웹]** > **[[!UICONTROL 전환]](#web-conversion)**
 
-   * **[[!UICONTROL 웹]** > **[!UICONTROL 대상자]](#web-audience)**
+   * **[!UICONTROL 웹]** > **[[!UICONTROL 대상]](#web-audience)**
 
-   * **[[!UICONTROL 웹]** > **[!UICONTROL 고객 확보]](#web-acquisition)**
+   * **[!UICONTROL 웹]** > **[[!UICONTROL 획득]](#web-acquisition)**
 
-   * **[[!UICONTROL 모바일]** > **[!UICONTROL 모바일 앱]](#mobile-mobile-app)**
+   * **[!UICONTROL 모바일]** > **[[!UICONTROL 모바일 앱]](#mobile-mobile-app)**
 
-   * **[[!UICONTROL 모바일]** > **[!UICONTROL 모바일 디바이스 정보]](#mobile-mobile-device-information)**
+   * **[!UICONTROL 모바일]** > **[[!UICONTROL 모바일 장치 정보]](#mobile-mobile-device-information)**
 
    * **[[!UICONTROL 시간 분할]](#time-parting)**
 
@@ -171,7 +171,13 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    * **[[!UICONTROL 기타 채널]](#other-channels)**
 
-   * **[[!UICONTROL AJO]](#ajo)**
+   * **[[!UICONTROL Journey Optimizer]](#ajo-templates)**
+
+   * **[[!UICONTROL Brand Concierge]](#brand-concierge)**
+
+   * **[[!UICONTROL Mix Modeler]](#mix-modeler)**
+
+
 
 ### 최고 인기 항목 {#most-popular}
 
@@ -409,6 +415,12 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >abstract="**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. [추가 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다."
 
 
+
+>[!CONTEXTUALHELP]
+>id="template--content-analytics-paid-media"
+>title="유료 미디어 콘텐츠 및 콘텐츠 특성이 가장 성과가 좋은 방법에 대해 알아봅니다."
+>abstract="**유료 미디어 콘텐츠가 세분화된 수준에서 어떻게 작동하는지 알아보는 데 도움이 될 수 있습니다**. 네트워크, 계정, 캠페인, 경험 및 에셋 전반에서 유료 미디어 도달, 참여, 지출 및 효율성을 검토할 수 있습니다. 이 패널의 지표 및 차원은 의도적으로 유료 미디어 자산 요약 그레인에 유지됩니다. 요약 데이터 세트를 이벤트 데이터와 결합하지 마십시오.  [추가 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**학습한 내용에 따라** 유료 미디어 채널에 돈을 쓰는 방법, 성과가 낮은 캠페인에 더 많은 돈을 쓰는 방법, 성과가 좋은 자산이 있는 캠페인에 더 많은 돈을 쓰는 방법 등에 초점을 맞추는 등 여러 가지 작업을 수행할 수 있습니다."
+
 다음 템플릿을 사용할 수 있습니다.
 
 &#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
@@ -427,7 +439,8 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | **시작 페이지** | 사용자가 사이트를 처음 방문했을 때 액세스하는 상위 페이지를 확인할 수 있습니다. <p>**이를 통해** 사이트에 가장 많은 트래픽이 유입되는 페이지를 더 잘 이해하거나 방문자가 사이트에 대해 갖는 첫인상을 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사람들이 사이트에서 처음 접하는 초기 경험을 최적화하거나 사이트에 들어갈 때 처음 보는 페이지가 환영하는 분위기이고 사이트의 다른 영역에 대한 필요한 링크를 제공하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 세션 지표를 사용합니다. 또한 막대 시각화와 자유 형식 테이블 시각화도 사용합니다.</p> |
 | **종료 페이지** | 사이트를 떠나기 직전에 사람들이 액세스하는 상위 페이지를 확인할 수 있습니다.<p>**이를 통해** 사람들이 사이트에서 어떤 페이지 기피하고 있는지 더 잘 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 사람들이 떠나기 전에 경험하는 것을 최적화하기 위해 일반 종료 페이지를 업데이트하거나 사용자가 사이트에 머물도록 유도하는 콘텐츠 또는 링크를 포함하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 세션 지표를 사용합니다. 또한 막대 시각화와 자유 형식 테이블 시각화도 사용합니다.</p> |
 | **제품 사용 개요** | 조직 내에서 Customer Journey Analytics 제품이 사용되는 방식을 확인합니다. <p>**이를 통해** Customer Journey Analytics를 사용하는 사람의 수, 사용 빈도, 그리고 시간에 따른 사용 추세를 보다 정확하게 파악할 수 있습니다. 또한 생성된 프로젝트 수와 해당 프로젝트의 세부 정보(가장 일반적으로 사용되는 구성 요소, 시각화, 패널 등)를 확인할 수 있으며, 그 외에도 다양한 사용 통계를 볼 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사용되지 않는 프로젝트나 구성 요소를 삭제하거나, 인기 기능에 대한 사용자 교육을 제공하는 등의 다양한 조치를 취할 수 있습니다.</p> |
-| **Content Analytics** | 어떤 콘텐츠와 콘텐츠 속성이 가장 성과가 좋은지 알아봅니다.<p>**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. 자세한 내용은 [Content Analytics](/help/content-analytics/content-analytics.md){target="_blank"}를 참조하십시오.</p><p>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다.</p> |
+| **Content Analytics** | 어떤 콘텐츠와 콘텐츠 속성이 가장 성과가 좋은지 알아봅니다.<p>**이를 통해** 세부적인 수준에서 콘텐츠 성과를 파악할 수 있습니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다. Content Analytics는 AI를 사용하여 자동으로 속성을 생성하고 해당 속성으로 콘텐츠에 태그를 지정합니다. 자세한 내용은 [Content Analytics](/help/content-analytics/content-analytics.md)를 참조하십시오.</p><p>**학습한 내용을 바탕으로** 홈 페이지에서 성과가 좋은 자산을 홍보하거나, 성과가 좋은 속성을 포함하도록 특정 세그먼트에 맞춰 콘텐츠를 개인화하거나, 오래된 콘텐츠를 교체하는 등 다양한 작업을 수행할 수 있습니다.</p> |
+| **유료 미디어 Content Analytics** | 유료 미디어 콘텐츠 및 콘텐츠 특성이 가장 성과가 좋은 방법에 대해 알아봅니다.<p>**유료 미디어 콘텐츠가 세분화된 수준에서 어떻게 작동하는지 알아보는 데 도움이 될 수 있습니다**. 네트워크, 계정, 캠페인, 경험 및 에셋 전반에서 유료 미디어 도달, 참여, 지출 및 효율성을 검토할 수 있습니다. 이 패널의 지표 및 차원은 의도적으로 유료 미디어 자산 요약 그레인에 유지됩니다. 요약 데이터 세트를 이벤트 데이터와 결합하지 마십시오. 자세한 내용은 [Content Analytics](/help/content-analytics/content-analytics.md)를 참조하십시오.<p/><p>**학습한 내용에 따라** 유료 미디어 채널에 돈을 쓰는 방법, 성과가 낮은 캠페인에 더 많은 돈을 쓰는 방법, 성과가 좋은 자산이 있는 캠페인에 더 많은 돈을 쓰는 방법 등에 초점을 맞추는 등 여러 가지 작업을 수행할 수 있습니다.</p> |
 
 ### 웹: 전환 {#web-conversion}
 
@@ -1051,7 +1064,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | **설문 조사** | 설문 조사에 대한 사용자 참여를 조회합니다. 시작 횟수와 완료 횟수, 가장 많이 나온 질문 및 답변, 첫 참가자 수 대 반복 참가자 수를 조회합니다.<p>**이를 통해** 설문 조사의 참여도와 참여 성공률을 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 향후 설문 조사를 조정하여 참여도를 높이는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 사용자, 이벤트, 설문 조사 시작, 설문 조사 완료, 설문 조사 완료율 지표를 사용합니다.</p> |
 | **제품 사용 개요** | 귀하의 조직에서 Customer Journey Analytics를 사용하는 방식을 확인합니다.<p>**이를 통해** 귀하의 조직에서 Customer Journey Analytics를 사용하는 사람의 수, 사용 빈도, 그리고 시간에 따른 해당 데이터를 추세적으로 파악할 수 있습니다. 또한 생성된 프로젝트 수와 해당 프로젝트에 대한 세부 정보를 볼 수 있습니다. 다른 사용 통계와 함께 가장 일반적으로 사용되는 구성 요소, 시각화 및 패널을 확인합니다. [자세히 알아보기](/help/tools/product-usage/usage-overview.md)</p><p>**학습한 내용을 바탕으로** 사용되지 않는 프로젝트나 구성 요소를 삭제하거나, 인기 기능에 대한 사용자 교육을 제공하는 등의 다양한 조치를 취할 수 있습니다.</p> |
 
-### Journey Optimizer {#AJO-templates}
+### Journey Optimizer {#ajo-templates}
 
 <!--CJA only-->
 
@@ -1139,13 +1152,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | [!UICONTROL **B2B 구매 그룹 활동**] | 각 계정 내 구매 그룹 활동을 시각화하여 계정 및 구매 그룹 마케팅 플레이에 정보를 제공합니다.<p>**이를 통해 어떤 구매 그룹과 그 구매 그룹 내에서 가장 적극적으로 참여하는 사람들을 시각화하여 그룹 참여의 격차를 강조하는데 도움이 됩니다.**</p><p>**학습한 내용을 바탕으로 구매 그룹에 속해 있지만 참여하지 않는 듯한 사람들과 더 많이 소통하려고 노력하는 등 여러 가지 일을 할 수 있습니다.**</p> |
 
 
-### Mix Modeler 템플릿 {#mix-modeler-templates}
-
-다음 템플릿을 사용할 수 있습니다.
-
-&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- |
-| [!UICONTROL **Mix Modeler 증분 모델 인사이트**] | Mix Modeler에서 생성된 선택한 모델의 인사이트를 확인합니다.<p>**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <p>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul></p> |
+### Mix Modeler {#mix-modeler-templates}
 
 <!-- CJA only -->
 
@@ -1153,3 +1160,13 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >id="template--mixmodeler-incremental-models-insights"
 >title="Mix Modeler에서 생성된 선택한 모델의 인사이트를 확인합니다."
 >abstract="**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <br/>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul>"
+
+다음 템플릿을 사용할 수 있습니다.
+
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Mix Modeler 증분 모델 인사이트**] | Mix Modeler에서 생성된 선택한 모델의 인사이트를 확인합니다.<p>**이를 통해** Mix Modeler에서 생성된 모델의 점진적 인사이트를 더 잘 이해할 수 있습니다. <p>**이러한 인사이트를 바탕으로** 다음을 수행할 수 있습니다.<ul><li>조직의 마케팅 활동이 미치는 영향을 시각화하고 수량화합니다.</li><li>성과가 좋은 채널을 파악합니다.</li><li>최적화가 필요할 수 있는 채널을 파악합니다.</li></ul></p> |
+
+
+
+
