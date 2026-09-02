@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: fdd9b5738103166d7c64666f85d0c508c7176fd0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
-source-wordcount: 4178
-ht-degree: 31%
+source-wordcount: 4217
+ht-degree: 30%
 
 ---
 
@@ -77,11 +69,20 @@ ht-degree: 31%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_required_dimensions"
+>title="필수 차원"
+>abstract="모든 데이터 피드에는 차원 이름 옆에 **필수** 레이블로 식별된 특정 차원이 포함되어야 합니다. 이러한 차원은 이벤트 수준 분석에 필요한 최소 구조를 제공합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 
 1. 인터페이스 오른쪽 상단에 있는 앱 전환기 ![App](/help/assets/icons/Apps.svg)에서 [!UICONTROL **Customer Journey Analytics**]&#x200B;를 선택합니다.
 
-1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**] (으)로 이동합니다.
+1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**](으)로 이동합니다.
 
 1. [!UICONTROL **데이터 피드**] 탭을 선택합니다.
 
@@ -114,13 +115,13 @@ ht-degree: 31%
 
    여기에 적용하는 세그먼트는 데이터 보기에 이미 적용되었을 수 있는 모든 세그먼트와 추가됩니다.
 
-1. (선택 사항) 왼쪽 레일에서 **검색** 필드를 사용하여 특정 구성 요소를 찾거나 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택하여 다음 정렬 옵션을 적용합니다.
+1. (선택 사항) 왼쪽 레일에서 **검색** 필드를 사용하여 특정 구성 요소를 찾습니다. 또는 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택하여 다음 정렬 옵션을 적용합니다.
 
    | 옵션 | 함수 |
-   |---------|----------|
+   | --------- | ---------- |
    | [!UICONTROL **권장**] | 목록 맨 위에 권장되는 순서로 구성 요소를 정렬합니다. 귀하 또는 귀사의 다른 사용자가 가장 자주 그리고 가장 최근에 사용한 구성 요소가 목록의 위쪽에 표시됩니다. |
    | [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
-   | [!UICONTROL **범주**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
+   | [!UICONTROL **범주**] | 계산된 지표와 표준 지표가 함께 혼합되지 않고 별도로 그룹화된다는 점을 제외하면 [!UICONTROL **권장**]&#x200B;과(와) 유사한 구성 요소를 정렬합니다. |
 
 1. 데이터 피드 구성에 구성 요소를 추가합니다. 왼쪽 레일에는 데이터 피드에 유효한 구성 요소만 표시됩니다.
 
@@ -138,11 +139,11 @@ ht-degree: 31%
 
    | 차원 이름 | 참고 | 데이터 피드 | 기타 보고 |
    |---|---|---|---|
-   | 타임스탬프 UTC | 이벤트가 발생한 날짜 및 시간으로, UTC 시간대로 표시됩니다. 초 미만(초단위) 세부 기간을 지원합니다. | 필수 | 사용할 수 없음 |
-   | 행 ID | 데이터 피드에 포함된 각 행의 고유 식별자입니다. | 필수 | 사용할 수 없음 |
-   | 세션 ID | 데이터 피드에 포함된 각 세션의 고유 식별자입니다. | 필수 | 사용할 수 없음 |
-   | 개인 ID | 데이터 보기 및 연결에 대한 개인 식별자 | 필수 | 선택 사항 표준 |
-   | 계정 ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 계정 컨테이너를 사용할 때의 계정 ID | 필수 | 선택 사항 표준 |
+   | 타임스탬프 UTC | 이벤트가 발생한 날짜 및 시간으로, UTC 시간대로 표시됩니다. 초 미만(초단위) 세부 기간을 지원합니다. | 필수 여부 | 사용할 수 없음 |
+   | 행 ID | 데이터 피드에 포함된 각 행의 고유 식별자입니다. | 필수 여부 | 사용할 수 없음 |
+   | 세션 ID | 데이터 피드에 포함된 각 세션의 고유 식별자입니다. | 필수 여부 | 사용할 수 없음 |
+   | 개인 ID | 데이터 보기 및 연결에 대한 개인 식별자 | 필수 여부 | 선택 사항 표준 |
+   | 계정 ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 계정 컨테이너를 사용할 때의 계정 ID | 필수 여부 | 선택 사항 표준 |
 
    +++
 

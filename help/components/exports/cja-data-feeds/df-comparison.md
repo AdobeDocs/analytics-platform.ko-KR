@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 247c75f73f523ad60b2576c478cde930af87a97e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
 workflow-type: tm+mt
-source-wordcount: 1607
+source-wordcount: 1629
 ht-degree: 0%
 
 ---
@@ -31,7 +25,9 @@ ht-degree: 0%
 
 Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하면 원시 데이터를 서드파티 플랫폼으로 내보낼 수 있습니다.
 
-이전에 Adobe Analytics에서 데이터 피드를 사용한 적이 있는 경우 다음 정보를 사용하여 사용 가능한 기능과 개념의 차이점을 이해하십시오.
+이전에 Adobe Analytics에서 데이터 피드를 사용한 적이 있는 경우 다음 정보를 사용하여 사용 가능한 기능과 개념의 차이점을 파악하십시오.
+
+데이터 피드를 전체 테이블 내보내기와 같은 다른 Customer Journey Analytics 내보내기 방법과 비교하려면 [Analytics 제품 비교](/help/getting-started/analytics-product-comparison.md)를 참조하십시오.
 
 ## Customer Journey Analytics 데이터 피드에서만 사용할 수 있는 기능
 
