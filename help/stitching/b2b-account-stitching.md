@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4ff89823bf1e4e4aa6d299b74567ed8cb486d06
+source-git-commit: 0552cfeb3d7ee834ba7928a40dc151b782dc9330
 workflow-type: tm+mt
-source-wordcount: 1924
-ht-degree: 26%
+source-wordcount: 1926
+ht-degree: 23%
 
 ---
 
@@ -154,7 +154,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="개인 식별자 네임스페이스"
->abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인-계정 결합]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서는 개인 ID가 이 개인 식별자 네임스페이스로 승격되어 있습니다."
+>abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 연결]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서 영구 개인 ID가 이 개인 식별자 네임스페이스로 승격되었습니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -228,7 +228,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="개인-계정 결합 활성화"
->abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 승격된 다음, 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
+>abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 영구 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="B2B 결합 설정 구성"
 
 연결 수준에서 B2B 결합을 구성한 후에는 결합할 각 이벤트 데이터 세트에 대해 개별적으로 B2B 계정 결합을 활성화해야 합니다.

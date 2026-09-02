@@ -1,6 +1,6 @@
 ---
 title: 동의 보고 및 필터링 구성
-description: 프로비저닝 마법사를 사용하여 Customer Journey Analytics에서 연결에 대한 동의 보고와 선택적 수집 시간 필터링을 활성화하는 방법에 대해 알아봅니다.
+description: Customer Journey Analytics에서 연결에 대한 동의 보고 및 선택적 수집 시간 필터링을 활성화하는 구성을 만드는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 981
-ht-degree: 23%
+source-wordcount: 1326
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="병합 정책"
->abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 통합 고객 프로필로 결합하여 대상자 생성에 사용합니다. 여러 병합 정책이 표시되고 어떤 정책을 선택해야 할지 확실하지 않은 경우 “기본 시간 기반”을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
+>abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 통합 고객 프로필로 결합하여 대상자 생성에 사용합니다. 보고할 동의 정책 구성원 자격 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 집합에 해당하는 병합 정책을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,6 +63,24 @@ ht-degree: 23%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-reporting"
+>title="보고 활성화"
+>abstract="Analysis Workspace을 사용하여 연결에서 사용할 수 있는 동의 데이터에 대해 보고하려면 이 옵션을 활성화합니다. 동의 정책 차원 및 지표가 선택한 데이터 보기에 추가됩니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-filtering"
+>title="필터링 활성화"
+>abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화하십시오. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
+
+<!-- markdownlint-enable MD034 -->
+
 시스템 관리자는 동의 보고 및 선택적으로 하나 이상의 연결에 대한 동의 필터링을 활성화할 수 있습니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 
 >[!IMPORTANT]
@@ -71,13 +89,15 @@ ht-degree: 23%
 
 ## 구성 만들기
 
-동의 보고 및 필터링에 대한 구성을 만들 때 동의 정책 멤버십 데이터가 포함된 샌드박스 및 프로필 데이터 세트를 선택하고, 구성할 연결 또는 연결을 선택하고, 각 마케팅 작업에 대한 데이터를 필터링할지 여부를 선택합니다. 그런 다음 Customer Journey Analytics은 동의 정책 조회 데이터 세트와 동의 정책 구성 요소를 자동으로 만듭니다.
+동의 보고 및 필터링에 대한 구성을 만들 때 동의 정책 멤버십 데이터가 포함된 샌드박스 및 병합 정책을 선택하고, 구성할 연결 또는 연결을 선택하고, 각 마케팅 작업에 대한 데이터를 필터링할지 여부를 선택합니다. 그런 다음 Customer Journey Analytics은 동의 정책 조회 데이터 세트와 동의 정책 구성 요소를 자동으로 만듭니다.
 
 동의 보고 및 필터링 구성을 만들려면 다음 작업을 수행하십시오.
 
 1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 동의 보고 및 필터링]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 구성 만들기]**&#x200B;를 선택합니다.
+
+   ![동의 구성 페이지](assets/consent-configure.png)
 
 1. **[!UICONTROL 세부 정보]** 섹션에서 다음 정보를 지정하십시오.
 
@@ -86,32 +106,50 @@ ht-degree: 23%
    | **[!UICONTROL 이름]** | 구성의 이름을 지정합니다. |
    | **[!UICONTROL 샌드박스]** | 동의 정책 멤버십 데이터와 함께 프로필 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. <p>샌드박스당 최대 1개의 동의 정책 조회 데이터 세트가 있습니다. 동일한 샌드박스의 여러 구성이 동일한 조회 데이터 세트를 공유합니다.</p> |
 
-1. **[!UICONTROL 프로필 데이터 세트]** 섹션에서 보고할 동의 정책 구성원 자격 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 세트를 선택합니다. 동의 보고를 활성화하면 이 프로필 데이터 세트가 아직 일부가 아닌 경우 선택하는 연결에 추가됩니다.
+1. **[!UICONTROL 프로필 데이터 집합]** 섹션의 **[!UICONTROL 병합 정책]** 필드에서 보고할 동의 정책 구성원 자격 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 집합에 해당하는 병합 정책을 선택합니다. 동의 보고를 활성화하면 이 프로필 데이터 세트가 아직 일부가 아닌 경우 선택하는 연결에 추가됩니다.<p>병합 정책은 Adobe Experience Platform이 여러 데이터 세트의 프로필 데이터를 동의 정책 멤버십 데이터에 사용되는 통합 고객 프로필에 결합하는 방법을 결정합니다. 매일 Experience Platform에서 이 데이터의 스냅샷이 생성됩니다. 이 스냅샷은 특정 시점의 데이터에 대한 정적 보기를 제공하며 이벤트 데이터를 포함하지 않습니다.</p><p>여러 병합 정책이 표시되고 선택할 정책을 모를 경우 **[!UICONTROL 기본 시간 기반]** 병합 정책을 선택합니다. 각 병합 정책과 관련된 동의 데이터를 더 잘 이해하려면 데이터 팀에 문의하십시오.</p>
 
-1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 선택하고 구성할 하나 이상의 연결 옆에 있는 확인란을 선택한 다음 **[!UICONTROL 연결 사용]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 연결 선택]**&#x200B;을 선택하고 연결 옆에 있는 확인란을 선택하여 구성한 다음 **[!UICONTROL 연결 사용]**&#x200B;을 선택합니다.
 
    동의 보고 및 필터링은 연결 수준에서 적용됩니다. 구성된 연결의 모든 데이터 보기는 동일한 동작을 상속합니다.
 
-1. **[!UICONTROL 데이터 보기]** 섹션에서 **[!UICONTROL 데이터 보기 선택]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 개인 ID]** 필드의 모델 기반 스키마에서 개인 ID를 나타내는 필드를 선택합니다. 선택 항목은 &#39;ID&#39;로 표시되고 ID 네임스페이스가 있는 스키마의 필드 목록으로 제한됩니다.
 
-1. 데이터 보기 대화 상자에서 동의 보고에 사용할 하나 이상의 데이터 보기 옆의 확인란을 선택합니다. 이러한 데이터 보기는 보고를 위해 Experience Platform 동의 데이터를 사용하여 자동으로 구성됩니다.
+1. 동의 데이터에 대한 보고를 사용할지 여부를 선택합니다.
 
-1. **[!UICONTROL 데이터 보기 사용]**&#x200B;을 선택합니다.
+   보고를 사용하도록 설정하는 시기에 대한 자세한 내용은 [동의 보고와 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering)을 참조하세요.
 
-1. (선택 사항) **[!UICONTROL 필터링]** 섹션에서 [!UICONTROL **필터링 활성화**]&#x200B;를 선택하여 동의 데이터를 필터링합니다.
+   보고를 활성화하고 구성하려면 다음 작업을 수행하십시오.
 
-   필터링이 활성화되면 Customer Journey Analytics은 방문자가 활성화된 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다. 자세한 내용은 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)의 [동의 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering)을 참조하세요.
+   1. **[!UICONTROL 보고]** 섹션에서 **[!UICONTROL 보고 사용]**&#x200B;을 선택합니다.
 
-1. (선택 사항) 다음 마케팅 작업에 대해 필터링을 활성화합니다.
+   1. Analysis Workspace 내에서 플랫폼 동의 데이터를 분석할 때 사용할 연결과 관련된 임의의 데이터 보기를 선택하십시오. **[!UICONTROL 데이터 보기]** 섹션에서 **[!UICONTROL 데이터 보기 선택]**&#x200B;을 클릭합니다.
 
-   >[!NOTE]
-   >
-   >마케팅 액션에 대한 필터링이 활성화된 경우 Customer Journey Analytics은 방문자가 해당 마케팅 액션에 적용되는 **모두** 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다. 자세한 내용은 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)의 [동의 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering)을 참조하세요.
+   1. 데이터 보기 대화 상자에서 동의 보고에 사용할 하나 이상의 데이터 보기 옆의 확인란을 선택합니다. 이러한 데이터 보기는 보고를 위해 Experience Platform 동의 데이터를 사용하여 자동으로 구성됩니다.
 
-   | 마케팅 액션 | 설명 |
-   |---------|----------|
-   | **[!UICONTROL 분석 데이터]** | Analysis Workspace의 표준 Customer Journey Analytics 보고에 사용되는 데이터를 필터링합니다. |
-   | **[!UICONTROL 데이터 과학 데이터]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례에 사용되는 데이터를 필터링합니다. |
+   1. **[!UICONTROL 데이터 보기 사용]**&#x200B;을 선택합니다.
+
+1. 수집 시 동의하지 않는 방문자를 제외하는 필터링을 활성화할지 여부를 선택합니다.
+
+   필터링이 활성화되면 Customer Journey Analytics은 방문자가 활성화된 모든 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다.
+
+   필터링을 사용할 시기에 대한 자세한 내용은 [동의 보고와 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering)을 참조하십시오.
+
+   필터링을 활성화하고 구성하려면 다음을 수행합니다.
+
+   1. **[!UICONTROL 필터링]** 섹션에서 **[!UICONTROL 필터링 사용]**&#x200B;을(를) 선택하여 동의 데이터를 필터링합니다.
+
+   1. 다음 마케팅 작업 중 하나 또는 둘 다에 대해 필터링을 활성화합니다.
+
+      >[!NOTE]
+      >
+      >마케팅 액션에 대한 필터링이 활성화된 경우 Customer Journey Analytics은 방문자가 해당 마케팅 액션에 적용되는 **모두** 동의 정책과 일치하는 경우에만 방문자의 데이터를 수집합니다. 자세한 내용은 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)의 [동의 필터링](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering)을 참조하세요.
+
+      마케팅 작업은 Experience Platform에서 구성하는 데이터 사용 레이블 및 정책에 연결되어 있습니다. 자세한 내용은 [레이블, 정책 및 마케팅 작업](/help/data-views/data-governance.md)을 참조하십시오.
+
+      | 마케팅 액션 | 설명 |
+      | --------- | ---------- |
+      | **[!UICONTROL 분석 데이터]** | Analysis Workspace의 표준 Customer Journey Analytics 보고에 사용되는 데이터를 필터링합니다. |
+      | **[!UICONTROL 데이터 과학 데이터]** | 고급 분석, 머신 러닝 및 데이터 과학 사용 사례에 사용되는 데이터를 필터링합니다. |
 
 1. 구성을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 선택하십시오.
 

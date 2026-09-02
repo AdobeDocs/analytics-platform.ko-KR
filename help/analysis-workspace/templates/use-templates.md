@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
+source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
 workflow-type: tm+mt
-source-wordcount: 21140
+source-wordcount: 21213
 ht-degree: 98%
 
 ---
@@ -677,6 +677,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 &#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| [!UICONTROL **동의 정책 개요**] | Adobe Experience Platform에서 동의 정책 멤버십 데이터를 기반으로 방문자를 확인할 수 있습니다.<p>**이를 통해** 방문자 동의 정책 멤버십을 보고할 때 시작점으로 활용할 수 있습니다. 데이터 보기가 동의 보고용으로 구성되면 Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 사용할 수 있도록 자동으로 설정합니다. <br/>**학습한 내용을 바탕으로** 동의하지 않은 방문자를 분석 보고에서 제외하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **[!UICONTROL 대상 개요]** | 사이트를 방문하는 사람들 가운데 어떤 대상자가 포함되어 있는지 확인합니다.<p>**이를 통해** 대상자가 시작된 위치(RTCDP, Customer Journey Analytics 등), 대상자 오버랩 등에 대한 일반적인 정보를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 데이터를 사용하여 특정 대상자를 위한 마케팅 활동에 집중하거나 여러 대상자를 아우르는 고객용 맞춤 경험을 만드는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 대상 이름, 대상 원본, 종료된 대상 이름 및 종료된 대상 원본 차원을 사용합니다.</p><p>자세한 내용은 [Customer Journey Analytics에서 Experience Platform 대상 분석](/help/connections/audience-analysis/analyze-audiences.md)을 참조하십시오.</p> |
 | [!UICONTROL **첫 방문자 대 재방문자**] | 처음 방문자 수와 재방문자 수를 비교해 보십시오. <p>**이를 통해** 고객 충성도를 유지하는 데 있어 사이트의 효과를 이해하거나 새로운 고객을 확보하는 속도를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 첫 방문자에게 추후 구매를 장려하는 인센티브를 제공하여 다시 방문하도록 유도하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 | **개인 ID** | 다양한 채널에서 개별 사용자 행동을 확인할 수 있습니다.<p>**이를 통해** 여러 접점에서 전체 고객 여정과 상호 작용을 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사용자 환경 설정 타기팅에 가장 적합한 마케팅 활동을 개인화하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
