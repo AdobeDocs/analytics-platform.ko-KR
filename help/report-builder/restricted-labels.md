@@ -51,7 +51,7 @@ Experience Platform에서 사용하는 데이터 세트에 생성된 개인정�
 
 이러한 정책의 적용을 받는 구성 요소는 회색으로 표시되며 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 아이콘이 있습니다. 정보 아이콘 위로 마우스를 가져가면 다음이 표시됩니다. **[!UICONTROL 이 데이터의 사용을 금지하는 정책이 이 필드에 적용되었습니다]**.
 
-자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)을 참조하십시오.
+자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-governance)을 참조하십시오.
 
 
 ![금지된 데이터 사용을 나타내는 정책 참고입니다.](assets/restricted-label.png){zoomable="yes"}

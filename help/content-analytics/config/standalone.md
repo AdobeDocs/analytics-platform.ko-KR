@@ -60,8 +60,8 @@ Content Analytics은 독립 실행형 제품으로 라이선스가 부여되지�
 | **연결** | [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)은(는) 수집되는 Experience Platform 데이터 세트를 정의합니다. 연결은 데이터 세트(AEP에 데이터가 저장되는 데이터 세트)와 Customer Journey Analytics(데이터를 분석하는 데이터 세트) 간의 링크를 정의합니다. 연결을 통해 수집된 데이터를 보고에 사용할 수 있습니다. |
 | **데이터 보기** | [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)는 연결에서 데이터를 해석하는 방법을 결정할 수 있는 컨테이너입니다. 데이터 보기는 사용자가 보고할 수 있는 모든 차원과 지표를 지정합니다. 데이터 보기는 분석에 사용할 수 있는 행과 열을 결정하는 구성과 같습니다. |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)은(는) Content Analytics 보고서와 분석을 작성하는 데 사용하는 드래그 앤 드롭 브라우저 인터페이스입니다. |
-| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
-| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
+| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
+| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
 
 
 ## 설정 개요
