@@ -5,16 +5,10 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 TQID: https://experienceleague.adobe.com/yj0864tQCuKNQocyhuqyi-N647uoy2IeqhT9RHmrRK0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
 source-wordcount: 680
@@ -37,7 +31,7 @@ Customer Journey Analytics 랜딩 페이지에는 다음 하위 탭이 포함되
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 랜딩 페이지](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/customer-journey-analytics-landing-page){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -114,7 +108,7 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest CX Enterprise release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
@@ -150,8 +144,8 @@ Customer Journey Analytics의 학습 경로 정보에 액세스하려면:
 * **콘텐츠 필터링**: ![Filter](/help/assets/icons/Filter.svg)를 사용하여 **[!UICONTROL 유형]**(**[!UICONTROL 문서]**, **[!UICONTROL 비디오]**&#x200B;와 **[!UICONTROL 둘러보기 및 튜토리얼]**)과 **[!UICONTROL 경험 수준]**(**[!UICONTROL 초보]**, **[!UICONTROL 중급]** 또는 **[!UICONTROL 고급]**)에 따라 학습 콘텐츠를 필터링합니다.
 * **진행 상황 추적**: 콘텐츠 일부를 선택하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
 * **추가 콘텐츠 보기:** 비디오를 시청하는 동안 **[!UICONTROL 자세히 알아보기]**&#x200B;를 선택하여 Experience League에 대한 관련 설명서 콘텐츠를 볼 수 있습니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
-   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
-   * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Customer Journey Analytics 설명서 세트를 봅니다.
+  * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
+  * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Customer Journey Analytics 설명서 세트를 봅니다.
 * **신규 사용자를 위한 기본 사항:** [!UICONTROL Workspace 기본 사항 학습] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 [자유 형식 패널](/help/analysis-workspace/c-panels/freeform-panel.md) 또는 [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) 헤더의 도구 설명을 통해 Workspace에서 다시 실행할 수도 있습니다.
 
 ### Customer Journey Analytics로 업그레이드

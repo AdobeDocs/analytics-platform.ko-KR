@@ -5,22 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin, User
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -68,6 +61,6 @@ Experience Platform 프로필 데이터 세트의 동의 정책 데이터를 Cus
 
 ## 동의 정책 분석 템플릿 사용
 
-동의 보고를 위해 데이터 보기가 구성된 경우, Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 자동으로 사용할 수 있도록 합니다. 이 템플릿은 방문자 동의 정책 멤버십에 대한 보고의 시작점을 제공합니다.
+데이터 보기가 동의 보고용으로 구성되면 Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 사용할 수 있도록 자동으로 설정합니다. 이 템플릿은 방문자 동의 정책 멤버십에 대한 보고의 시작점을 제공합니다.
 
 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 액세스 및 실행](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)을 참조하십시오.

@@ -7,19 +7,14 @@ exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 autotag-review: '2026-05-19T09:24:34.962Z'
 TQID: 'https://experienceleague.adobe.com/Y7Q0pAx9s4p2YxrcfVKsvJcppHFmtNCKAgA0oCc0CeA'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1024
 ht-degree: 62%
 
 ---
@@ -30,11 +25,11 @@ ht-degree: 62%
 >
 >이 섹션에 설명된 기능을 사용하려면 Customer Journey Analytics **Select** 패키지 이상([필드 기반 결합](fbs.md)의 경우) 또는 Customer Journey Analytics **Prime** 패키지 이상([그래프 기반 결합](gbs.md)의 경우)이 있어야 합니다. 보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.
 
-ID 결합(또는 간단히 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics의 주요 사용 사례입니다. 이 기능을 통해 다양한 채널의 여러 데이터 세트 대한 보고서를 공통 식별자(개인 ID)를 기준으로 원활하게 결합하고 실행할 수 있습니다.
+ID 결합(또는 간단히 결합)은 크로스 채널 분석에 대한 이벤트 데이터 세트의 적합성을 높이는 강력한 기능입니다. 크로스 채널 분석은 Customer Journey Analytics의 주요 사용 사례입니다. 이 기능을 통해 다양한 채널의 여러 데이터 세트에 대한 보고서를 공통 식별자(개인 ID)를 기준으로 원활하게 결합하고 실행할 수 있습니다.
 
-유사한 개인 ID를 사용하여 데이터 세트를 결합하면 속성이 디바이스 및 채널 간에 전달됩니다. 예를 들어 사용자가 데스크탑 컴퓨터의 광고를 통해 사이트를 방문합니다. 사용자가 제품을 구매하지만 주문에 문제가 발생합니다. 그런 다음 사용자가 고객 서비스 팀에 문의하여 문제 해결을 요청합니다. 크로스 채널 분석을 사용하면 콜센터 이벤트를 사용자가 원래 클릭한 광고에 연결할 수 있습니다.
+유사한 개인 ID를 사용하여 데이터 세트를 결합하면 기여도가 디바이스 및 채널 간에 전달됩니다. 예를 들어 사용자가 데스크탑 컴퓨터에서 광고를 통해 사이트를 방문합니다. 사용자가 제품을 구매하지만 주문에 문제가 발생합니다. 그런 다음 사용자가 고객 서비스 팀에 문의하여 문제 해결을 요청합니다. 크로스 채널 분석을 사용하면 콜센터 이벤트를 사용자가 원래 클릭한 광고에 연결할 수 있습니다.
 
-안타깝게도 Customer Journey Analytics에서 연결에 포함된 모든 이벤트 기반 데이터 세트에 이러한 속성을 지원할 수 있는 데이터가 충분히 채워져 있는 것은 아닙니다. 특히 웹 기반 또는 모바일 기반 경험 데이터 세트에는 모든 이벤트에 대한 실제 개인 ID 정보가 없는 경우가 많습니다.
+안타깝게도 Customer Journey Analytics에서 연결에 포함된 모든 이벤트 기반 데이터 세트에 이 기여도를 기본적으로 지원할 만큼 데이터가 충분히 채워져 있는 것은 아닙니다. 특히 웹 기반 또는 모바일 기반 경험 데이터 세트에는 모든 이벤트에 대한 실제 개인 ID 정보가 없는 경우가 많습니다.
 
 결합은 한 데이터 세트의 행 내에 ID를 다시 입력하여 가능한 한 많은 이벤트에서 원하는 개인 ID 정보를 사용할 수 있도록 합니다. 결합은 인증된 세션과 인증되지 않은 세션의 사용자 데이터를 모두 확인하여 사용할 수 있는 일반 개인 ID 값을 결정합니다. 이렇게 재입력하면 디바이스나 쿠키 수준이 아닌 개인 수준에서 분석할 개별 레코드를 단일 개인 ID로 확인하게 됩니다. 그러나 일반 개인 ID 값을 결정할 수 없는 경우에는 영구 ID 값이 대신 사용됩니다.
 
@@ -52,8 +47,8 @@ Customer Journey Analytics은 [필드 기반 결합](fbs.md)과 [그래프 기�
 
 - 원하는 데이터를 Adobe Experience Platform으로 가져옵니다.
 
-   - Adobe Analytics 데이터는 [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)을 참조하십시오.
-   - 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/create-schema-ui) 및 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)을 참조하십시오.
+  - Adobe Analytics 데이터는 [Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터 활용](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)을 참조하십시오.
+  - 다른 유형의 데이터는 Adobe Experience Platform 문서에서 [스키마 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/create-schema-ui) 및 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)을 참조하십시오.
 
 Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 결합된 데이터 세트를 콜센터 데이터와 같은 다른 데이터 세트와 결합하면 크로스 채널 분석의 이점을 얻을 수 있습니다. 이 연결 구성은 이러한 다른 데이터 세트에 이미 가능한 한 많은 행에 동일한 네임스페이스의 개인 ID가 포함되어 있다고 가정합니다.
 
@@ -64,7 +59,7 @@ Customer Journey Analytics 연결을 정의하는 과정에서 하나 이상의 
 결합은 획기적이고 강력한 기능이지만 사용 방법에 대한 제한 사항이 있습니다.
 
 - 이벤트 데이터 세트만 지원됩니다. 조회 데이터 세트와 같은 다른 데이터 세트는 지원되지 않습니다.
-- 결합은 결합에 사용되는 필드를 어떤 방식으로도 변형시키지 않습니다. 결합은 데이터 레이크 내의 분해 데이터 세트에 존재하는 것처럼 지정된 필드의 값을 사용합니다.
+- 결합은 결합에 사용되는 필드를 어떤 방식으로도 변형시키지 않습니다. 결합은 데이터 레이크 내의 결합되지 않은 데이터 세트에 있는 지정된 필드의 값을 사용합니다.
 - 결합 프로세스는 대소문자를 구분합니다. 예를 들어 ID 값 `Bob`과(와) `BOB`은(는) 두 명의 개별 사용자로 취급됩니다.
 
 다음과 같은 결합을 혼동하지 않도록 주의하십시오.

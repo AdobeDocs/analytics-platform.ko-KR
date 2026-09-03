@@ -6,20 +6,11 @@ feature: Privacy
 role: Admin
 autotag-review: '2026-05-19T07:58:20.300Z'
 TQID: 'https://experienceleague.adobe.com/eI0cv42QWTm0NqS-4FTuudTDefQ-MZBUMFsyy5-VLaM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: c1cf8502-455a-452a-9f49-d22dfdff8033
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: c1cf8502-455a-452a-9f49-d22dfdff8033
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 999
@@ -68,7 +59,7 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 기본적으로 오늘과 어제의 감사 로그가 표시됩니다.
 
-![오늘과 어제를 강조 표시한 감사 로그. &#x200B;](assets/audit_ui.png)
+![오늘과 어제를 강조 표시한 감사 로그. ](assets/audit_ui.png)
 
 오른쪽 상단의 열 선택기로 이동하여 표시할 열을 선택할 수 있습니다.
 
@@ -76,54 +67,54 @@ Customer Journey Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL 감사 
 
 설명 옆에 있는 정보(i) 버튼을 더블 클릭합니다.
 
-![정보 버튼을 강조한 감사 로그. &#x200B;](assets/info-button-audit.png)
+![정보 버튼을 강조한 감사 로그. ](assets/info-button-audit.png)
 
 다음 항목이 표시됩니다.
 
 * **[!UICONTROL 액션 이름]**: 수행된 액션. 가능한 값은 다음과 같습니다.
-   * API_REQUEST: 모든 액션이 백엔드 API 요청을 트리거합니다. API 요청이 무엇이었는지에 대한 세부정보가 표시됩니다.
-   * APPROVE: “승인” 액션이 수행되었습니다.
-   * CREATE: “생성” 액션이 수행되었습니다.
-   * 삭제: “삭제” 액션이 수행되었습니다.
-   * EDIT: “편집” 액션이 수행되었습니다.
-   * EMBARGO: [보고 활동 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)에서 요청을 제한하면 해당 작업이 감사 로그에 EMBARGO로 기록됩니다.
-   * EXPORT: “내보내기” 액션이 수행되었습니다.
-   * ORG_CHANGE: 조직 변경 액션이 수행되었습니다.
-   * REFRESH: “새로 고침” 액션이 수행되었습니다.
-   * SHARE: “공유” 액션이 수행되었습니다.
-   * TRANSFER: 이전 액션이 수행되었습니다.
-   * UNAPPROVE: “승인 취소” 액션이 수행되었습니다.
-   * UNSHARE: “공유 취소” 액션이 수행되었습니다.
+  * API_REQUEST: 모든 액션이 백엔드 API 요청을 트리거합니다. API 요청이 무엇이었는지에 대한 세부정보가 표시됩니다.
+  * APPROVE: “승인” 액션이 수행되었습니다.
+  * CREATE: “생성” 액션이 수행되었습니다.
+  * 삭제: “삭제” 액션이 수행되었습니다.
+  * EDIT: “편집” 액션이 수행되었습니다.
+  * EMBARGO: [보고 활동 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)에서 요청을 제한하면 해당 작업이 감사 로그에 EMBARGO로 기록됩니다.
+  * EXPORT: “내보내기” 액션이 수행되었습니다.
+  * ORG_CHANGE: 조직 변경 액션이 수행되었습니다.
+  * REFRESH: “새로 고침” 액션이 수행되었습니다.
+  * SHARE: “공유” 액션이 수행되었습니다.
+  * TRANSFER: 전송 액션이 수행되었습니다.
+  * UNAPPROVE: “승인 취소” 액션이 수행되었습니다.
+  * UNSHARE: “공유 안 함” 액션이 수행되었습니다.
 * **[!UICONTROL 생성 날짜]**: 액션이 수행된 날짜 및 시간.
 * **[!UICONTROL 설명]**: 액션 요약.
 * **[!UICONTROL 사용자 이름]**: 액션을 수행한 사용자. 경우에 따라 사용자 이름이 누락될 수도 있습니다. [제품 사용](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/product-usage/usage-overview) 기능은 항상 로그인 사용자 이름을 포함하므로 사용하는 것을 고려해 보십시오.
 * **[!UICONTROL 이메일]**: 액션을 수행한 사용자의 이메일 주소.
 * **[!UICONTROL 구성 요소 이름]**: 사용자가 액션을 취한 구성 요소.
 * **[!UICONTROL 구성 요소 유형]**: 구성 요소의 유형. 가능한 값은 다음과 같습니다.
-   * 주석
-   * 대상자
-   * CALCULATED_METRIC
-   * 연결
-   * DATA_GROUP
-   * DATA_VIEW
-   * DATASET_STITCHING
-   * DATE_RANGE
-   * FEATURE_ACCESS
-   * 필터
-   * IMS_ORG
-   * 모바일
-   * 프로젝트(Workspace)
-   * 보고서
-   * SCHEDULED_PROJECT
-   * 사용자
-   * USER_GROUP
+  * 주석
+  * 대상자
+  * CALCULATED_METRIC
+  * 연결
+  * DATA_GROUP
+  * DATA_VIEW
+  * DATASET_STITCHING
+  * DATE_RANGE
+  * FEATURE_ACCESS
+  * 필터
+  * IMS_ORG
+  * 모바일
+  * 프로젝트(Workspace)
+  * 보고서
+  * SCHEDULED_PROJECT
+  * 사용자
+  * USER_GROUP
 * **[!UICONTROL 구성 요소 ID]**: 사용자가 액션 수행한 구성 요소의 ID.
 * **[!UICONTROL IMS 조직 ID]**: 조직의 IMS ID이며 형식은 `ABC123@AdobeOrg`입니다.
 * **[!UICONTROL 로그 ID]**: 이 로그 항목을 식별하는 고유 ID.
 * **[!UICONTROL 사용자 ID]**: 액션을 수행한 사용자를 식별하는 고유 ID.
 * **[!UICONTROL 사용자 유형]**: 사용된 인증 유형. 유효 값 항목:
-   * IMS
-   * OKTA
+  * IMS
+  * OKTA
 
 ### 감사 로그 필터링
 
@@ -139,14 +130,14 @@ UI의 감사 이벤트에 사용할 수 있는 필터는 다음과 같습니다.
 | [!UICONTROL 액션] | 위에 나열된 모든 액션 이름을 필터링합니다. |
 | [!UICONTROL 사용자 ID] | 사용자 ID로 특정 사용자를 필터링합니다. 사용자 ID는 사용자 이름 옆에 있는 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
 | [!UICONTROL 이메일] | 특정 사용자의 이메일 주소를 필터링합니다. 이메일은 사용자 이름 옆에 있는 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
-| [!UICONTROL 구성 요소 ID] | 특정 구성 요소 ID를 필터링합니다. 사용자 ID는 원하는 구성 요소의 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
+| [!UICONTROL 구성 요소 ID] | 특정 구성 요소 ID로 필터링합니다. 사용자 ID는 원하는 구성 요소의 정보(i) 버튼을 선택하여 찾을 수 있습니다. |
 | [!UICONTROL 구성 요소 유형] | 위에 나열된 모든 구성 요소 유형을 필터링합니다. |
 
 {style="table-layout:auto"}
 
 ## 감사 로그로 캡처된 이벤트 유형
 
-다음 테이블에서는 감사 로그에서 구성 요소 유형을 기록하는 액션을 설명합니다.
+다음 테이블에서는 어떤 구성 요소 유형에서 어떤 액션이 감사 로그에 기록되는지 설명합니다.
 
 | 구성 요소 유형 | 액션 |
 | --- | --- |

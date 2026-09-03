@@ -7,20 +7,11 @@ role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
 autotag-review: '2026-05-19T08:48:44.273Z'
 TQID: 'https://experienceleague.adobe.com/hE-nAiD8K4lHdZkC2YJpqpqfh2d3CY6tq4KiTJjEXs0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: cf731116-8803-4027-85aa-9c0a126e8321
-  - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545id: cf731116-8803-4027-85aa-9c0a126e8321id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 521
@@ -34,10 +25,10 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 
 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.
 
-* [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -61,8 +52,8 @@ B2B 조회 데이터 세트에 대한 변환을 활성화하려면 다음을 수
 
 * 각 데이터 세트에 대해 **[!UICONTROL Key]** 및 **[!UICONTROL 일치하는 키]**&#x200B;에 대해 제안된 값을 확인하십시오. 제안 값에서 값을 변경하면 계속 진행하라는 경고가 표시됩니다. 다음을 확인해야 합니다.
 
-   * **키**&#x200B;에 대해 선택한 값은 개인 ID 데이터 형식을 기반으로 합니다.
-   * **일치하는 키**&#x200B;에 대해 선택한 값이 이벤트 데이터 세트에 대한 기본 ID 필드로 정의됩니다.
+  * **키**&#x200B;에 대해 선택한 값은 개인 ID 데이터 형식을 기반으로 합니다.
+  * **일치하는 키**&#x200B;에 대해 선택한 값이 이벤트 데이터 세트에 대한 기본 ID 필드로 정의됩니다.
 
 * 새 데이터 및 데이터 세트 채우기를 가져오는 옵션을 선택합니다.
 

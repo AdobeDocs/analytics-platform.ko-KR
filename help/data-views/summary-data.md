@@ -7,22 +7,15 @@ role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
 autotag-review: '2026-05-19T08:58:30.172Z'
 TQID: 'https://experienceleague.adobe.com/bG1thChKFsIHc1--pfT2rXHBgcay21qgpSa-ifilfF8'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-  - id: e6d52a4d-79b6-4c52-8c8b-df194d83a207
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6id: e6d52a4d-79b6-4c52-8c8b-df194d83a207
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1166
-ht-degree: 96%
+source-wordcount: 1168
+ht-degree: 95%
 
 ---
 
@@ -96,7 +89,7 @@ ht-degree: 96%
 
 1. [조회](/help/data-views/derived-fields/derived-fields.md#lookup) 함수를 사용하여 조회 데이터 세트에서 캠페인 이름을 조회하는 새로운 파생 필드를 만듭니다. [조회](/help/data-views/derived-fields/derived-fields.md#lookup) 함수의 정의에서 캠페인 코드와 추적 코드가 일치하는 항목을 사용하여 캠페인 이름을 조회합니다.
 1. 새로 만든 파생 필드를 데이터 보기에 차원 구성 요소로 추가합니다.
-1. 새로 만든 파생 필드에 요약 데이터 그룹화를 적용하기 위해 캠페인 이름 차원 구성요소(조회 데이터 세트에서)를 구성합니다.
+1. 캠페인 이름 차원 구성 요소(조회 데이터 세트에서)가 새로 만든 파생 필드와 함께 요약 데이터 그룹화를 갖도록 구성합니다.
 
 Customer Journey Analytics에서 요약 데이터를 활용하고, 보고하고, 분석하는 방법에 대한 자세한 내용은 [요약 데이터 수집 및 보고](/help/use-cases/data-views/summary-data.md) 사용 사례를 참조하십시오.
 
@@ -117,7 +110,7 @@ Customer Journey Analytics에서 요약 데이터가 포함된 데이터 세트�
 
 요약 데이터의 시간대는 Experience Platform의 요약 스키마 수준에서 정의됩니다. 시간대는 시간별 세부 데이터에만 적용됩니다.
 
-- 일별 세부 기간의 경우 Experience Platform은 타임스탬프에 시간대 간격이 포함되지 않는 한 UTC를 가정합니다. 일별 요약 데이터가 포함된 요약 데이터 세트를 추가할 때 Customer Journey Analytics는 스키마에 설정된 시간대 정의를 무시하고 데이터 세트의 데이터에 있는 타임스탬프와 연관된 날짜를 따릅니다.
+- 일별 세부 기간의 경우 Experience Platform은 타임스탬프에 시간대 오프셋이 포함되지 않는 한 UTC를 가정합니다. 일별 요약 데이터가 포함된 요약 데이터 세트를 추가할 때 Customer Journey Analytics는 스키마에 설정된 시간대 정의를 무시하고 데이터 세트의 데이터에 있는 타임스탬프와 연관된 날짜를 따릅니다.
 - 시간별 세부 기간의 경우 Customer Journey Analytics는 타임스탬프를 해석할 때 Experience Platform의 요약 데이터 스키마에 구성된 시간대를 따릅니다. 아래 테이블은 이러한 해석의 몇 가지 예를 보여 줍니다.
 
   | 타임스탬프 <br/>소스 데이터 | 시간대<br/>스키마 | 타임스탬프<br/>Experience<br/>Platform | 시간대<br/> 데이터<br/> 보기 | 타임스탬프<br/>Customer<br/>Journey<br>Analytics |
@@ -130,7 +123,7 @@ Customer Journey Analytics에서 요약 데이터가 포함된 데이터 세트�
   | 2024-07-29T01:00:00 | `America/`<br/>`Los_Angeles` | 2024-07-28T18:00:00 | PST | 2024-07-28T18:00:00 |
   | 2024-07-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 2024-07-30T17:00:00 | CET | 2024-07-30T08:00:00 |
 
-  30분 간격이 있는 시간대(예: IST, 인도 표준시)의 경우 요약 데이터를 보고할 때 30분 간격은 삭제됩니다. 예를 들어 12:30이(가) 12:00(으)로 보고됩니다.
+  30분 간격이 있는 시간대(예: IST, 인도 표준시)의 경우 요약 데이터를 보고할 때 30분 간격은 삭제됩니다. 예를 들어 12:30은 12:00으로 보고됩니다.
 
 
 시간별 세부 요약 데이터에 적절한 시간대가 사용되도록 하려면 요약 데이터에 사용된 스키마에 적절한 시간대가 구성되어 있는지 확인해야 합니다.
@@ -168,5 +161,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 요약 데이터를 사용하고 보고하는 방법에 대한 자세한 사용 사례 예제는 [요약 데이터 사용](/help/use-cases/data-views/summary-data.md) 문서에서 확인하십시오.
->- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=ko)
+>- 블로그: [요약 데이터가 Adobe Customer Journey Analytics 데이터 세트를 향상하는 방법](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

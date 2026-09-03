@@ -6,23 +6,15 @@ feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 TQID: https://experienceleague.adobe.com/McecE-5AGq-IVw-rdkZpV5WgTvax-gubrpQk0ow4JJc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 62%
+source-wordcount: 721
+ht-degree: 66%
 
 ---
 
@@ -50,13 +42,13 @@ ht-degree: 62%
 
 * **web**&#x200B;의 경우:
 
-   1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
-   1. Content Analytics 구성에 연결된 웹 태그 속성을 삭제합니다.
+  1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
+  1. Content Analytics 구성에 연결된 웹 태그 속성을 삭제합니다.
 
 * **mobile**&#x200B;의 경우:
 
-   1. 앱에서 [Content Analytics 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 제거합니다.
-   1. Content Analytics 구성에 연결된 모바일 태그 속성을 삭제합니다.
+  1. 앱에서 [Content Analytics 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 제거합니다.
+  1. Content Analytics 구성에 연결된 모바일 태그 속성을 삭제합니다.
 
 변경 내용을 적용하려면 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따르십시오.
 

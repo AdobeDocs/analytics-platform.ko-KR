@@ -7,20 +7,11 @@ feature: Use Cases
 role: Admin
 autotag-review: '2026-05-19T07:58:46.205Z'
 TQID: 'https://experienceleague.adobe.com/X5R0sqTkZKxvzH7mwv69-Ez3MIbuTg6XDGuxrw-iugw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 662
@@ -37,7 +28,7 @@ ht-degree: 83%
 이러한 작업을 달성하려면 다음의 액세스 및 권한이 필요합니다.
 
 * Adobe Experience Platform 액세스
-* Google Analytics 액세스(GA Standard 또는 GA 360))
+* Google Analytics 액세스(GA Standard 또는 GA 360)
 * Customer Journey Analytics에 대한 [관리자 액세스](/help/technotes/access-control.md)
 
 ## BigQuery 내보내기 설정
@@ -98,16 +89,16 @@ Google Cloud Platform에서 **내보내기 > GCS로 내보내기**&#x200B;로 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Experience Platform으로 Google Analytics 데이터 가져오기](https://video.tv.adobe.com/v/3437173?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Experience Platform으로 Google Analytics 데이터 가져오기](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!TIP]
 >
->내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터를 모두 내보내려면 각 데이터 세트에 동일한 스키마를 사용해야 합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md)를 사용하여 Customer Journey Analytics의 데이터 세트를 병합할 수 있습니다.
+>내역 Google Analytics 데이터와 라이브 스트리밍 Google Analytics 데이터를 모두 가져오려는 경우 두 데이터 세트에 동일한 스키마를 사용해야 합니다. [결합된 데이터 세트](/help/connections/combined-dataset.md)를 사용하여 Customer Journey Analytics의 데이터 세트를 병합할 수 있습니다.
 
-선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko#ui)에 자동으로 사전 매핑합니다.
+선택한 XDM 스키마를 사용하여, 이전에 생성한 기존의 데이터 세트에 GA 이벤트 데이터를 매핑하거나 새 데이터 세트를 만들 수 있습니다. 스키마를 선택하면 Experience Platform이 머신 러닝을 적용해 Google Analytics 데이터의 각 필드를 해당 [XDM 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)에 자동으로 사전 매핑합니다.
 
 ![GA 데이터 필드 및 대상 스키마 매핑을 강조 표시하는 스키마 맵](../../assets/schema-map.png)
 

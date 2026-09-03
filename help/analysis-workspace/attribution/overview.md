@@ -1,26 +1,15 @@
 ---
 title: 속성 개요
-description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 분석하는 개념에 대해 알아봅니다.
+description: 성공 이벤트의 기여도를 여러 차원 항목에 할당하는 개념에 대해 알아봅니다.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 TQID: https://experienceleague.adobe.com/ncY8TuwUb3duwfK3n8u69eyXWUDzI5OMF-AACOoDmIY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 453
@@ -30,12 +19,12 @@ ht-degree: 96%
 
 # 속성 개요
 
-속성을 사용하면 분석자는 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
+기여도를 사용하면 분석자는 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다. 예:
 
 1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
 2. 다음날 친구 중 한 사람의 소셜 미디어 게시물을 보고 링크를 클릭한 다음 구매를 완료합니다.
 
-일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe와 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 Adobe 계정 팀에게 문의하십시오.
+일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 주문이 Social에 기여한 것으로 표시되기를 원할 수도 있습니다. 기여도를 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe와 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 Adobe 계정 팀에게 문의하십시오.
 
 ## 속성 값
 
@@ -45,20 +34,20 @@ ht-degree: 96%
 ![Attribution problem](assets/attribution_iq_problem.png)
 -->
 
-Adobe Analytics는 다음을 통해 속성을 강화합니다.
+Adobe Analytics는 다음을 통해 기여도를 향상합니다.
 
-* 유료 미디어 이외의 속성 정의: 차원, 지표, 채널 또는 이벤트는 마케팅 캠페인뿐 아니라 모델(예: 내부 검색)에 적용할 수 있습니다.
-* 무제한 속성 모델 비교를 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
-* 구현 변경 방지: 보고서 처리 시간 및 컨텍스트 인식 세션으로 고객 여정 컨텍스트를 구축하고 런타임에 적용할 수 있습니다.
+* 유료 미디어 이외의 기여도 정의: 차원, 지표, 채널 또는 이벤트는 마케팅 캠페인뿐 아니라 모델(예: 내부 검색)에 적용할 수 있습니다.
+* 무제한 기여도 모델 비교 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
+* 구현 변경 방지: 보고 시점 처리 및 컨텍스트 인식 세션으로 고객 여정 컨텍스트를 구축하고 런타임에 적용할 수 있습니다.
 * 사용자의 속성 시나리오와 일치하는 세션을 생성합니다.
-* 세그먼트별 속성 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 등급 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
+* 세그먼트별 기여도 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 등급 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
 * 채널 교차 및 다중 터치 분석: 벤 다이어그램, 히스토그램 및 트렌드 속성 결과를 사용합니다.
-* 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 시각적으로 전환된 경로를 탐색합니다.
+* 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 전환으로 이어진 경로를 시각적으로 탐색합니다.
 * 계산된 지표 작성: 여러 속성 할당 방법을 사용합니다.
 
 ## 기능
 
-속성은 다음 기능으로 구성됩니다.
+기여도는 다음 기능으로 구성됩니다.
 
 * [속성 패널](/help/analysis-workspace/c-panels/attribution.md): 모든 차원과 지표를 가져와 다양한 속성 모델과 신속하게 비교할 수 있습니다.
 * [지표에 속성 적용](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
@@ -73,7 +62,7 @@ Attribution IQ
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freeform tables](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freeform tables](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +72,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in F
 Attribution IQ 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in calculated metrics](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in calculated metrics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +81,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in c
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -102,7 +91,7 @@ Attribution IQ
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding side-by-side comparisons of Attribution models](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding side-by-side comparisons of Attribution models](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

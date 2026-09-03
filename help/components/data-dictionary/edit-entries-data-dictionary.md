@@ -5,22 +5,11 @@ feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
 TQID: https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1301
@@ -71,7 +60,7 @@ Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데
    | **[!UICONTROL 세그먼트]** | 세그먼트인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 **[!UICONTROL 빠른 세그먼트]** 탭에서도 사용할 수 있습니다.) |
    | **[!UICONTROL 날짜 범위]** | 날짜 범위인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 **[!UICONTROL 빠른 세그먼트]** 탭에서도 사용할 수 있습니다.) |
    | **[!UICONTROL 모두 표시]** | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | **[!UICONTROL 승인되지 않음]** | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | **[!UICONTROL 승인되지 않음]** | 관리자가 아직 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL 설명 누락]** | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL 중복 항목 표시]** | 선택한 데이터 보기에서 다른 구성 요소와 이름 또는 설명이 동일한 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 중복 항목으로 표시하려면 이름이나 설명이 정확히 일치해야 합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL 최근 데이터 없음]** | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |

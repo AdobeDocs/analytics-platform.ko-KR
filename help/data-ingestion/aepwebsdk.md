@@ -6,26 +6,11 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 3523
@@ -55,7 +40,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
-> 이 빠른 시작 안내서는 사이트에서 수집된 데이터를 Adobe Experience Platform으로 수집하고 Customer Journey Analytics에서 사용하는 방법에 대한 간단한 안내서입니다. 추가 정보를 참고하는 경우 연구하는 것이 좋습니다.
+> 이 빠른 시작 안내서는 사이트에서 수집된 데이터를 Adobe Experience Platform으로 수집하고 Customer Journey Analytics에서 사용하는 방법에 대한 간단한 안내서입니다. 참조가 있을 때는 추가 정보를 살펴보는 것이 좋습니다.
 
 ## 스키마 및 데이터 세트 설정
 
@@ -63,13 +48,14 @@ ht-degree: 84%
 
 스키마를 정의한 후에는 하나 이상의 데이터 세트를 사용하여 데이터 컬렉션을 저장하고 관리합니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다.
 
-Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 지속되기 전에 사전 정의된 스키마를 준수해야 합니다.
+Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 저장되기 전에 사전 정의된 스키마를 준수해야 합니다.
 
 ### 스키마 설정
 
-웹 사이트 방문 프로필(예: 페이지 이름, ID 등)에서 최소한의 일부 데이터를 추적하려고 합니다.먼저 이 데이터를 모델링하는 스키마를 정의해야 합니다.
+웹 사이트 방문 프로필(예: 페이지 이름, ID 등)에서 최소한의 일부 데이터를 추적하려고 합니다.
+먼저 이 데이터를 모델링하는 스키마를 정의해야 합니다.
 
-스키마를 설정하는 경우:
+스키마를 설정하려면:
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
@@ -124,7 +110,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=ko#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field.png)
 
@@ -138,7 +124,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
 
-   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ECID 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
+   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
@@ -154,7 +140,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -164,9 +150,9 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-웹 사이트에서 캡처할 수 있는 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하여 웹 사이트에서 캡처된 데이터가 실시간 고객 프로필에 추가되었는지 확인합니다.
+웹 사이트에서 캡처할 수 있는 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하면 웹 사이트에서 캡처된 데이터가 실시간 고객 프로필에 추가됩니다.
 
-비헤이비어 데이터 옆에서 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
+행동 데이터 외에도 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
 
 이 프로필 데이터를 캡처하려면 다음 작업을 수행하십시오.
 
@@ -180,7 +166,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필용으로 스키마 활성화
 
-스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 ### 데이터 세트 설정
 
@@ -200,7 +186,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 4. 이전에 만든 스키마를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
+5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 입력합니다.
 
    ![데이터 세트 이름 지정](./assets/name-your-datatest.png)
 
@@ -216,7 +202,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![프로필용으로 스키마 활성화](./assets/aepwebsdk-dataset-profile.png)
 
-데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
+데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
 
 ## 데이터스트림 설정
 
@@ -252,13 +238,13 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 이제 데이터스트림을 구성하여 웹 사이트에서 수집한 데이터를 Adobe Experience Platform의 데이터 세트로 전달합니다.
 
-데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)를 참조하십시오.
+데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)를 참조하십시오.
 
 
 
 ## 태그 사용
 
-사이트에서 코드를 구현하여 실제로 데이터를 수집하려면 Adobe Experience Platform 내의 태그 기능 을 사용하십시오. 이는 다른 태그 지정 요구 사항과 함께 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. 태그는 Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Experience Platform과 원활하게 통합할 수 있도록 해 줍니다.
+사이트에서 코드를 구현하여 실제로 데이터를 수집하려면 Adobe Experience Platform 내의 태그 기능 을 사용하십시오. 이는 다른 태그 지정 요구 사항과 함께 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. 태그는 Adobe Experience Platform Web SDK 확장 기능을 사용하여 Adobe Experience Platform과 원활한 통합을 제공합니다.
 
 ### 태그 만들기
 
@@ -281,7 +267,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 데이터 스트림을 통해 Adobe Experience Platform으로 데이터를 보낼 수 있도록 Adobe Platform 웹 SDK 확장을 태그에 추가합니다.
 
-Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
+Adobe Experience Platform Web SDK 확장 기능을 만들고 구성하려면:
 
 1. 왼쪽 레일에서 **[!UICONTROL 확장]**&#x200B;을 선택합니다.
 
@@ -297,13 +283,13 @@ Adobe Experience Platform Web SDK 확장을 만들고 구성하는 경우:
 
    **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko)을 참조하십시오.
+자세한 내용은 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)을 참조하십시오.
 
 웹 SDK에는 Experience Platform Identity 서비스가 포함되어 있으므로 속성에 [!UICONTROL Experience Cloud ID 서비스] 태그 확장을 추가할 필요가 없습니다.
 
 #### **데이터 요소**
 
-데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 데이터 레이어에서 읽고 데이터를 Adobe Experience Platform으로 전달하는 데 사용할 수 있는 데이터 요소를 태그에 설정합니다.
+데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성 단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 데이터 레이어에서 읽고 데이터를 Adobe Experience Platform으로 전달하는 데 사용할 수 있는 데이터 요소를 태그에 설정합니다.
 
 데이터 요소에는 세 가지 유형이 있습니다. 먼저 데이터 요소를 설정하여 사이트에서 사람들이 보고 있는 페이지 이름을 캡처합니다.
 
@@ -360,7 +346,7 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
 #### **규칙**
 
-Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 사용자 상호 작용과 관련 데이터를 찾습니다. 규칙에 요약된 기준이 충족되면 규칙이 정의한 확장, 스크립트 또는 클라이언트측 코드를 트리거합니다. Adobe Experience Platform Web SDK 확장을 통해 규칙을 사용하여 데이터(예: XDM 오브젝트)를 Adobe Experience Platform에 전송할 수 있습니다.
+Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 사용자 상호 작용과 관련 데이터를 찾습니다. 규칙에 설명된 기준이 충족되면 규칙이 식별한 확장 기능, 스크립트 또는 클라이언트측 코드를 트리거합니다. Adobe Experience Platform Web SDK 확장을 통해 규칙을 사용하여 데이터(예: XDM 오브젝트)를 Adobe Experience Platform에 전송할 수 있습니다.
 
 규칙을 정의하는 경우:
 
@@ -376,13 +362,13 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 이벤트 구성] 대화 상자에서:
 
-      - **[!UICONTROL 확장]** 목록에서 [!UICONTROL 코어]를 선택합니다.
+     - **[!UICONTROL 확장]** 목록에서 [!UICONTROL 코어]를 선택합니다.
 
-      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 로드된 창]**&#x200B;을 선택합니다.
+     - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 로드된 창]**&#x200B;을 선택합니다.
 
-        ![규칙 - 이벤트 구성](./assets/event-windowloaded-pageview.png)
+       ![규칙 - 이벤트 구성](./assets/event-windowloaded-pageview.png)
 
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+     - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
 
 
@@ -390,17 +376,17 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 액션 구성] 대화 상자에서:
 
-      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
+     - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
 
-      - [!UICONTROL 액션 유형] 목록에서 **[!UICONTROL 이벤트 전송]**&#x200B;을 선택합니다.
+     - [!UICONTROL 액션 유형] 목록에서 **[!UICONTROL 이벤트 전송]**&#x200B;을 선택합니다.
 
-      - [!UICONTROL 유형] 목록에서 **[!UICONTROL web.webpagedetails.pageViews]**&#x200B;를 선택합니다.
+     - [!UICONTROL 유형] 목록에서 **[!UICONTROL web.webpagedetails.pageViews]**&#x200B;를 선택합니다.
 
-      - [!UICONTROL XDM 데이터] 옆의 원통 아이콘을 선택하고 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 조회수]**&#x200B;를 선택합니다.
+     - [!UICONTROL XDM 데이터] 옆의 원통 아이콘을 선택하고 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 조회수]**&#x200B;를 선택합니다.
 
      ![규칙 - 액션 구성](./assets/action-pageview-xdm.png)
 
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+     - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
    - 규칙은 다음과 같습니다.
 
@@ -412,13 +398,13 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
 태그에서 다양한 방식으로 규칙을 사용하여 변수를 조작할 수 있습니다(데이터 요소 사용).
 
-자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko)을 참조하십시오.
+자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)을 참조하십시오.
 
 ### 태그 빌드 및 게시
 
 데이터 요소와 규칙을 정의한 후에는 태그를 빌드하고 게시해야 합니다. 라이브러리 빌드를 만들면 이를 환경에 지정해야 합니다. 그런 다음 빌드의 확장, 규칙 및 데이터 요소를 컴파일하여 지정된 환경에 배치합니다. 각 환경에서는 지정된 빌드를 사이트에 통합할 수 있는 고유한 임베드 코드를 제공합니다.
 
-태그를 빌드하고 게시하는 경우:
+태그를 빌드하고 게시하려면:
 
 1. 왼쪽 레일에서 **[!UICONTROL 흐름 게시]**&#x200B;를 선택합니다.
 
@@ -436,22 +422,22 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   개발 환경에 대해 태그가 저장되고 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   태그가 저장되고 개발 환경용으로 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 4. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
    ![게시 - 라이브러리 빌드](./assets/build-library.png)
 
-Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 수용해야 하는 간단하면서 복잡한 게시 워크플로를 지원합니다.
+Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 지원할 수 있는 단순한 게시 워크플로부터 복잡한 게시 워크플로까지 지원합니다.
 
-자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko)를 참조하십시오.
+자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)를 참조하십시오.
 
 
 ### 태그 코드 검색
 
 마지막으로 추적할 웹 사이트에 태그를 설치해야 합니다. 이는 웹 사이트 템플릿의 헤더 태그에 코드를 배치함을 의미합니다.
 
-태그를 참조하는 코드를 가져오는 경우:
+태그를 참조하는 코드를 가져오려면:
 
 1. 왼쪽 레일에서 **[!UICONTROL 환경]**&#x200B;을 선택합니다.
 
@@ -469,13 +455,13 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 
 
 개발 환경의 코드 대신 Adobe Experience Platform Web SDK 배포 과정을 기준으로 다른 환경(스테이징, 프로덕션)을 선택할 수 있습니다.
 
-자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ko&)을 참조하십시오.
+자세한 내용은 [환경](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)을 참조하십시오.
 
 ## 배포 및 검증
 
 이제 `<head>` 태그 내에 있는 웹 사이트 개발 버전에 코드를 배포할 수 있습니다. 배포되면 웹 사이트에서 Adobe Experience Platform으로 데이터 수집을 시작합니다.
 
-구현의 유효성을 검사하고 필요한 경우 수정합니다. 수정되면 태그의 게시 워크플로 기능을 사용하여 스테이징 및 프로덕션 환경에 배포합니다.
+구현의 유효성을 검사하고 필요한 경우 수정합니다. 올바르게 수정되면 태그의 게시 워크플로 기능을 사용하여 스테이징 및 프로덕션 환경에 배포합니다.
 
 ## 연결 설정
 
@@ -511,11 +497,11 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - 각 데이터 세트의 경우:
 
-      - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
+     - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
 
-      - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
+     - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
 
-      - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
+     - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
      ![데이터 세트 구성](./assets/cja-connections-3b.png)
 
@@ -529,7 +515,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
-데이터 보기를 만드는 경우:
+데이터 보기를 만들려면:
 
 1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 

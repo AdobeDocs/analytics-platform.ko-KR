@@ -7,19 +7,11 @@ feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
 autotag-review: '2026-05-19T07:08:08.190Z'
 TQID: 'https://experienceleague.adobe.com/jrPqS9duYpmQRlQlzurMAQzdtXvW-y-PAsTiyuVfd28'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 883
@@ -45,7 +37,7 @@ Adobe Experience Platform 및 Customer Journey Analytics에서 Adobe Analytics �
 
 데이터가 준비되면 Adobe Experience Platform 및 Customer Journey Analytics에서 사용할 보고서 세트 구성을 시작할 수 있습니다.
 
-1. **Adobe Experience Platform 및 Customer Journey Analytics에서 사용할 각 보고서 세트에 대한 데이터 흐름을 만듭니다.** [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)는 Adobe Analytics과 Adobe Experience Platform 간에 [연결을 만들고](/help/connections/create-connection.md)(데이터 흐름이라고도 함)할 수 있는 도구입니다. 소스 커넥터를 사용하여 Adobe Experience Platform에서 사용하려는 각 보고서 세트에 대해 하나의 데이터 흐름을 만듭니다. 데이터 흐름은 Customer Journey Analytics를 포함한 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 스키마가 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR)으로 변환된 보고서 세트 데이터의 복사본을 만듭니다.<p>소스 커넥터를 통한 데이터 흐름으로 구성된 각 보고서 세트는 Adobe Experience Platform 데이터 레이크에 별도의 데이터 세트로 저장됩니다. 각 데이터 흐름에는 13개월 분량의 기록 보고서 세트 데이터가 자동으로 포함되며, 새 데이터가 지속적으로 Adobe Experience Platform으로 유입됩니다. (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.) Analytics 소스 커넥터를 사용하면 스키마를 미리 생성할 필요가 없습니다. Adobe Analytics 전용 표준화된 스키마가 자동으로 생성됩니다. 그러나 데이터가 데이터 레이크에 저장되고 Customer Journey Analytics에서 사용할 수 있게 되기 전에 Adobe Experience Platform의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko) 도구를 사용하여 이 스키마를 향상시킬 수 있습니다. 일부 데이터 유형은 소스 커넥터에 의해 세그먼트화되며 Adobe Experience Platform 데이터 레이크의 데이터 세트에 표시되지 않습니다. 다른 행은 데이터 레이크와 Customer Journey Analytics 간에 세그먼트화될 수 있습니다. 자세한 내용은 [Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교](/help/troubleshooting/compare.md)를 참조하십시오.
+1. **Adobe Experience Platform 및 Customer Journey Analytics에서 사용할 각 보고서 세트에 대한 데이터 흐름을 만듭니다.** [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR)는 Adobe Analytics과 Adobe Experience Platform 간에 [연결을 만들고](/help/connections/create-connection.md)(데이터 흐름이라고도 함)할 수 있는 도구입니다. 소스 커넥터를 사용하여 Adobe Experience Platform에서 사용하려는 각 보고서 세트에 대해 하나의 데이터 흐름을 만듭니다. 데이터 흐름은 Customer Journey Analytics를 포함한 Adobe Experience Platform 애플리케이션에서 사용할 수 있도록 스키마가 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR)으로 변환된 보고서 세트 데이터의 복사본을 만듭니다.<p>소스 커넥터를 통한 데이터 흐름으로 구성된 각 보고서 세트는 Adobe Experience Platform 데이터 레이크에 별도의 데이터 세트로 저장됩니다. 각 데이터 흐름에는 13개월 분량의 기록 보고서 세트 데이터가 자동으로 포함되며, 새 데이터가 지속적으로 Adobe Experience Platform으로 유입됩니다. (2023년 4월 26일부터 비프로덕션 샌드박스의 채우기 기간은 3개월로 제한됩니다.) Analytics 소스 커넥터를 사용하면 스키마를 미리 생성할 필요가 없습니다. Adobe Analytics 전용 표준화된 스키마가 자동으로 생성됩니다. 그러나 데이터가 데이터 레이크에 저장되고 Customer Journey Analytics에서 사용할 수 있게 되기 전에 Adobe Experience Platform의 [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 도구를 사용하여 이 스키마를 향상시킬 수 있습니다. 일부 데이터 유형은 소스 커넥터에 의해 제외되며 Adobe Experience Platform 데이터 레이크의 데이터 세트에 표시되지 않습니다. 다른 행은 데이터 레이크와 Customer Journey Analytics 사이에서 제외될 수 있습니다. 자세한 내용은 [Adobe Analytics 데이터와 Customer Journey Analytics 데이터 비교](/help/troubleshooting/compare.md)를 참조하십시오.
 1. **데이터 준비를 사용하여 Customer Journey Analytics에서 보고서 세트를 결합할 수 있습니다.** 데이터 준비는 다양한 유형의 데이터 변환에 사용할 수 있으며 Adobe Analytics 데이터의 일반적인 용도 중 하나는 보고서 세트를 Customer Journey Analytics 내에서 쉽게 결합할 수 있도록 여러 보고서 세트에서 prop 및/또는 eVar 매핑의 차이를 해결하는 것입니다. 자세한 내용은 [보고서 세트를 다른 스키마와 결합](/help/use-cases/aa-data/combine-report-suites.md)을 참조하십시오.
 1. 필요에 따라 **결합을 활성화합니다**. Customer Journey Analytics에서 여러 데이터 세트를 결합할 때 결합 기능을 사용하면 서로 다른 ID 네임스페이스를 결합된 단일 ID로 변환하여 여러 디바이스 및 채널에서 고객을 한 눈에 볼 수 있습니다. 자세한 내용은 [결합 개요](../../stitching/overview.md)를 참조하십시오.
 1. **하나 이상의 Customer Journey Analytics 연결을 만듭니다.** Adobe Experience Platform 데이터 레이크에서 보고서 세트의 데이터 세트를 사용할 수 있게 되면 하나 이상의 [Customer Journey Analytics 연결](/help/connections/overview.md)을 만들어 해당 데이터 세트를 Customer Journey Analytics으로 가져올 수 있습니다. 연결 내에서 보고서 세트 데이터를 다른 유형의 데이터와 결합하여 고객 경험에 대한 진정한 크로스 채널 보기를 만들 수 있습니다.

@@ -7,15 +7,10 @@ type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/XqkSB2GCQ6mQ1iR1uESpafVDqb2-g1NcysPOh-6r7fM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 360
@@ -27,7 +22,7 @@ ht-degree: 93%
 
 Customer Journey Analytics용 Report Builder를 통해 Adobe Customer Journey Analytics 데이터를 사용하여 Microsoft Excel에서 맞춤형 보고서를 쉽게 만들고 편집하고 새로 고칠 수 있습니다.
 
-Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform 상단에 구축된 애플리케이션입니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 인터페이스를 사용하여 Microsoft Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
+Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform 상단에 구축된 애플리케이션입니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 인터페이스를 사용하여 Microsoft Excel 내에서 Customer Journey Analytics 데이터로 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
 
 Customer Journey Analytics용 Report Builder를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -58,7 +53,7 @@ Customer Journey Analytics용 Report Builder는 Microsoft Excel 추가 기능입
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics용 Report Builder](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

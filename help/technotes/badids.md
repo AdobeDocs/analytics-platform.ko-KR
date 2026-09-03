@@ -7,18 +7,11 @@ role: Admin
 exl-id: 4f71fbf2-290b-4076-b2ad-b086c2b854d9
 autotag-review: '2026-05-19T06:53:00.572Z'
 TQID: 'https://experienceleague.adobe.com/6vut30l-BSIxhTK96Tt3BG01q-rjHagcmer0WZ2GL-c'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 632
@@ -41,8 +34,8 @@ ht-degree: 2%
 Customer Journey Analytics에서 잘못된 ID는 연결에 정의된 모든 데이터의 일부인 식별자입니다.
 
 * (출처: 특정 ID 값)
-   * 개인 ID 필드(연결되지 않은 데이터 세트)에서 **또는**
-   * 영구 ID 또는 개인 ID 필드(결합이 활성화된 데이터 세트)에서
+  * 개인 ID 필드(연결되지 않은 데이터 세트)에서 **또는**
+  * 영구 ID 또는 개인 ID 필드(결합이 활성화된 데이터 세트)에서
 
   **및**
 * 는 한 달 내에 연결 데이터(연결 내의 모든 데이터 세트에 대해 계산됨)의 1백만 개 이상의 이벤트(100만 개)에 있습니다.

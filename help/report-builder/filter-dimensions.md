@@ -7,12 +7,9 @@ type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/SAoyiEbKE1Niv3uwBMNB-M3F7WcdBQ-Guzs2mkRKHLE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 993
@@ -111,7 +108,7 @@ Customer Journey Analytics에서 일부 차원은 *값 없음* 항목을 수집�
 
 #### 기준별 필터링
 
-모든 기준이 충족되는지 또는 충족되는 기준이 있는지 여부에 따라 차원 항목을 필터링할 수 있습니다.
+모든 기준이 충족되는지 또는 하나 이상의 기준이 충족되는지 여부에 따라 차원 항목을 필터링할 수 있습니다.
 
 필터링 기준을 설정하려면 다음을 수행합니다.
 
@@ -151,7 +148,7 @@ Customer Journey Analytics에서 일부 차원은 *값 없음* 항목을 수집�
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-Report Builder는 적용한 특정 필터링을 표시하도록 목록을 업데이트합니다.
+Report Builder는 적용한 특정 필터가 표시되도록 목록을 업데이트합니다.
 
 #### 셀 범위에서
 

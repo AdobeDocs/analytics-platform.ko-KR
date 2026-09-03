@@ -7,19 +7,11 @@ feature: Use Cases
 role: Admin
 autotag-review: '2026-05-19T09:33:58.249Z'
 TQID: 'https://experienceleague.adobe.com/FJOAnB2Dumw9txeabYMfrIqE1uihee-TcA8ZFcAbU2Y'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: cf731116-8803-4027-85aa-9c0a126e8321
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e8abc408-b05c-427f-9e37-f8b033a6b3c3id: bfef374d-acfd-4c57-bf74-a2b36053c545id: cf731116-8803-4027-85aa-9c0a126e8321
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 518
@@ -82,20 +74,20 @@ ht-degree: 59%
 데이터 보기를 만들 때 다음 차원과 지표를 사용할 수 있습니다(스키마를 기준).
 
 * **차원:**
-   * ID
-   * product : SKU
-   * product : name
-   * product : order_id
-   * product : warranty : coverage
-   * prodcut : warranty : length
-   * product : warranty : name
-   * product : warranty : type
+  * ID
+  * product : SKU
+  * product : name
+  * product : order_id
+  * product : warranty : coverage
+  * prodcut : warranty : length
+  * product : warranty : name
+  * product : warranty : type
 * **지표:**
-   * product : orders
-   * product : units
-   * product : revenue
-   * product : warranty
-   * product : warranty : revenue
+  * product : orders
+  * product : units
+  * product : revenue
+  * product : warranty
+  * product : warranty : revenue
 
 ### 동일한 이벤트 예(보고 동작)
 
@@ -151,7 +143,7 @@ Customer Journey Analytics은 표를 기반으로 개체의 차원과 지표를 
 +}
 ```
 
-보증 수익만 보고하려면 프로젝트가 다음과 비슷합니다.
+보증 매출만 보고하려면 프로젝트가 다음과 비슷합니다.
 
 | `product : warranty : coverage` | `product : warranty : revenue` |
 | --- | --- |
@@ -205,7 +197,7 @@ Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고
 
 건조기에 보증서가 포함되지 않았으므로 테이블에 건조기가 포함되지 않습니다.
 
-차원과 지표를 모두 결합할 수 있으므로 다음 테이블에서 데이터에 어떻게 지정되지 않은 차원 항목이 있는지 확인할 수 있습니다.
+모든 차원을 모든 지표와 결합할 수 있으므로 다음 테이블은 지정되지 않은 차원 항목이 있을 때 데이터가 어떻게 표시되는지 보여 줍니다.
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -257,7 +249,7 @@ Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고
 +}
 ```
 
-연결된 이름이 없는 주문에 주의하십시오. 이는 &#39;지정되지 않음&#39; 차원 항목으로 인한 주문입니다.
+이름이 연결되지 않은 주문을 확인하십시오. 이러한 주문은 &#39;지정되지 않음&#39; 차원 항목에 귀속됩니다.
 
 ### 지표 결합
 
@@ -285,5 +277,5 @@ Customer Journey Analytics은 이름이 비슷한 지표가 다른 객체 수준
 
 ## 제한 사항
 
-제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
+제한 사항은 Customer Journey Analytics에서 사용하고 Experience Platform의 스키마의 일부로 모델링되는 데이터의 배열에 적용됩니다. [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails)에서 [데이터 모델 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) 및 [데이터 크기 제한](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)을 참조하십시오.
 

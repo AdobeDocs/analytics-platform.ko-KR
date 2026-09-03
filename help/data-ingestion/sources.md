@@ -6,23 +6,11 @@ feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
 TQID: https://experienceleague.adobe.com/tkPB8BHD6t3LiIhTiLyoQYH-Ucknl1YyUm5MOcxujBY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2150
@@ -59,18 +47,18 @@ ht-degree: 75%
 
 스키마를 정의한 후에는 하나 이상의 데이터 세트를 사용하여 데이터 컬렉션을 저장하고 관리합니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다.
 
-Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 지속되기 전에 사전 정의된 스키마를 준수해야 합니다.
+Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 저장되기 전에 사전 정의된 스키마를 준수해야 합니다.
 
 ### 스키마 설정
 
 이 빠른 시작의 경우 일부 로열티 데이터(예: 로열티 ID, 로열티 포인트, 로열티 상태)를 수집하려고 합니다.
 먼저 이 데이터를 모델링하는 스키마를 정의해야 합니다.
 
-스키마를 설정하는 경우:
+스키마를 설정하려면:
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
@@ -89,7 +77,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    1. **[!UICONTROL 스키마 디스플레이 이름]**&#x200B;과 **[!UICONTROL 설명]**(선택 사항)을 입력합니다.
 
-      ![스키마 이름을 지정할 필드를 표시하는 스키마 만들기 창 &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
+      ![스키마 이름을 지정할 필드를 표시하는 스키마 만들기 창 ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
@@ -129,7 +117,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![이메일을 ID로 지정](./assets/specify-email-loyalty-id.png)
 
-   이메일 주소를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 결합하는 데 사용할 수 있는 ID로 지정합니다.
+   이메일 주소를 Adobe Experience Platform ID 서비스가 프로필의 동작을 결합(스티치)하는 데 사용할 수 있는 ID로 지정합니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택합니다. 이메일 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
@@ -137,7 +125,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -147,9 +135,9 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하여 스트리밍 소스의 데이터가 실시간 고객 프로필에 추가되었는지 확인합니다.
+Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 프로필용으로 스키마를 활성화하면 스트리밍 소스의 데이터가 실시간 고객 프로필에 추가됩니다.
 
-스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 ### 데이터 세트 설정
 
@@ -169,7 +157,7 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
 4. 이전에 만든 스키마를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
+5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 입력합니다.
 
    ![데이터 세트 이름 지정](./assets/name-your-datatest.png)
 
@@ -185,7 +173,7 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
    ![프로필용으로 스키마 활성화](./assets/loyalty-dataset-profile.png)
 
-데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
+데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
 
 
 ## 소스 커넥터 사용
@@ -194,11 +182,11 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
 다양한 소스에서 데이터를 수집할 수 있습니다. 다음은 사용 가능한 여러 소스 중 일부에 불과합니다.
 
-- Adobe 애플리케이션(소스 커넥터에는 [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) 등이 포함)
+- Adobe 애플리케이션(소스 커넥터에는 [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) 등이 포함)
 
-- 클라우드 저장소(소스 커넥터에는 [Amazon S3](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/blob) 등이 포함)
+- 클라우드 저장소(소스 커넥터에는 [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) 등이 포함)
 
-- 데이터베이스(소스 커넥터에는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/sql-server) 등이 포함)
+- 데이터베이스(소스 커넥터에는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) 등이 포함)
 
 소스 커넥터를 설정하는 경우:
 
@@ -232,7 +220,7 @@ Adobe Analytics 소스 커넥터 사용 방법에 대한 자세한 내용은 [�
 
 HTTP API 원본 커넥터를 사용하는 방법에 대한 자세한 내용은 [스트리밍 데이터 수집 및 사용](./streaming.md)을 참조하세요.
 
-각 커넥터에 대한 추가 정보 링크를 포함하여 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#terms-and-conditions)를 참조하십시오.
+각 커넥터에 대한 추가 정보 링크를 포함하여 소스 커넥터의 개요는 [소스 커넥터 개요](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)를 참조하십시오.
 
 
 ## 연결 설정
@@ -287,7 +275,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
-데이터 보기를 만드는 경우:
+데이터 보기를 만들려면:
 
 1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 

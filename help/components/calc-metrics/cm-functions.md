@@ -5,16 +5,10 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 TQID: https://experienceleague.adobe.com/UqQ3US8EQKJxdsuZI8QMoFVFJpLvpJ4Th8vFafPDxIw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3641
@@ -85,13 +79,13 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
 >title="열 최댓값"
->abstract="지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
+>abstract="지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 요소 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(지표, include_zeros)]**
 
-지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
+지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. MAXV는 차원 요소 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -104,7 +98,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
+>**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
 >
 
 ## 열 최솟값 {#column-minimum}
@@ -114,14 +108,14 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
 >title="열 최솟값"
->abstract="지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
+>abstract="지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 요소 전반에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(지표, include_zeros)]**
 
-지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 열 전체에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
+지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. MINV는 차원 요소 전반에 걸쳐 단일 열(지표) 내에서 수직으로 평가됩니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -134,7 +128,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
+>**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
 >
 
 
@@ -175,7 +169,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-count"
 >title="개수"
->abstract="열 내의 한 지표에 대한 0이 아닌 모든 숫자 값의 개수 또는 카운트를 반환합니다(한 차원 내에서 보고된 고유 요소의 수)."
+>abstract="열 내의 한 지표에 대한 0이 아닌 값의 개수 또는 카운트를 반환합니다(차원 내에서 보고된 고유 요소의 수)."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -263,14 +257,14 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-median"
 >title="중간값"
->abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다."
+>abstract="열에 있는 지표에 대한 중간값을 반환합니다. 중앙값은 숫자 세트의 중간에 있는 숫자입니다. 즉, 숫자의 절반은 중간값보다 크거나 같고 나머지 절반은 중간값보다 작거나 같습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(지표, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"} 열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 즉, 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다.
+[!BADGE 테이블]{type="Neutral"} 열에 있는 지표에 대한 중간값을 반환합니다. 중간값은 숫자 집합의 가운데에 있는 숫자입니다. 즉, 숫자의 절반은 중간값보다 크거나 같고 나머지 절반은 중간값보다 작거나 같습니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -319,7 +313,7 @@ ht-degree: 48%
 
 ### 추가 예
 
-반환 값의 부호는 입력과 같습니다(또는 0임).
+반환 값은 입력과 같은 부호를 갖거나 0입니다.
 
 ```
 MODULO(4,3) = 1
@@ -327,7 +321,7 @@ MODULO(-4,3) = -1
 MODULO(-3,3) = 0
 ```
 
-항상 양수를 얻으려면 다음을 사용합니다
+항상 양수를 얻으려면 다음을 사용하십시오
 
 ```
 MODULO(MODULO(x,y)+y,y)
@@ -340,14 +334,14 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="백분위수"
->abstract="0~100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다."
+>abstract="0~100 사이의 값인 n번째 백분위수를 반환합니다. n &lt; 0이면 이 함수는 0을 사용합니다. n > 100이면 이 함수는 100을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(지표, k, include_zeros)]**
 
-[!BADGE Table]{type="Neutral"} 0~100 사이의 값인 n번째 백분위수를 반환합니다. N &lt; 0이면 이 함수는 0을 사용합니다. N > 100이면 이 함수는 100을 반환합니다.
+[!BADGE Table]{type="Neutral"} 0~100 사이의 값인 n번째 백분위수를 반환합니다. n &lt; 0이면 이 함수는 0을 사용합니다. n > 100이면 이 함수는 100을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -381,7 +375,7 @@ x를 y의 거듭제곱으로 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
-| metric_X | metric_Y 거듭제곱으로 올리려는 지표. |
+| metric_X | metric_Y 제곱하려는 지표. |
 | metric_Y | metric_X를 높이려는 거듭제곱. |
 
 **사용 사례**: 값을 제곱하거나 지수 가중치를 적용하는 것과 같이 한 숫자 또는 지표를 다른 숫자의 거듭제곱으로 늘립니다. 이는 성장을 모델링하거나, 값을 확장하거나, 고급 수학 변환을 수행할 때 유용합니다.
@@ -674,7 +668,7 @@ VARIANCE 방정식은 다음과 같습니다.
 
 1. 그 값을 총계에 더합니다.
 
-전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 해당 숫자는 열의 변량입니다. 단일 번호입니다. 그러나 숫자 열로 표시됩니다.
+전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그런 다음 그 총계를 열의 항목 수로 나눕니다. 해당 숫자는 열의 변량입니다. 단일 번호입니다. 그러나 숫자 열로 표시됩니다.
 
 다음 3개 항목 열의 예:
 

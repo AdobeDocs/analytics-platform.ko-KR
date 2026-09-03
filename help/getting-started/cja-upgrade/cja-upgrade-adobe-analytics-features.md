@@ -7,19 +7,11 @@ feature: Basics
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 autotag-review: '2026-05-19T08:07:04.110Z'
 TQID: 'https://experienceleague.adobe.com/SP2BT-sh552jPgJRQOpUv2QuEE6iYfz6TX06s6wON34'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 561
@@ -106,7 +98,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
 >title="프로젝트 및 구성 요소 마이그레이션"
->abstract="Adobe Analytics 프로젝트 및 관련 모든 구성 요소를 Customer Journey Analytics로 가져옵니다."
+>abstract="Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics로 가져옵니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -122,6 +114,6 @@ Customer Journey Analytics로 업그레이드할 때 계속 사용하고자 하�
 | [활동 맵 오버레이 및 링크 추적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/activity-map/overview) | 아직 사용할 수 없음 |
 | [분류 데이터](https://experienceleague.adobe.com/ko/docs/analytics/components/classifications/c-classifications) | 조회 데이터 세트는 Customer Journey Analytics에서 데이터를 분류하는 방법입니다.<p>[분류 데이터를 포함하는 각 차원에 대한 조회 데이터 세트 만들기.](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
 | [마케팅 채널](https://experienceleague.adobe.com/ko/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 파생 필드는 데이터 보기 내에서 생성됩니다. <p>[마케팅 채널 파생 필드 만들기.](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform과 Customer Journey Analytics는 독립적으로 또는 결합하여 다양한 내보내기 요구 사항을 해결할 수 있는 다양한 기능을 제공합니다. 이러한 기능에는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko), [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko), [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 및 [BI 도구 통합](/help/data-views/bi-extension.md)이 포함됩니다.<p>내보내기 옵션에 대한 자세한 내용은 [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md)를 참조하십시오.</p> |
+| [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform과 Customer Journey Analytics는 독립적으로 또는 결합하여 다양한 내보내기 요구 사항을 해결할 수 있는 다양한 기능을 제공합니다. 이러한 기능에는 [Experience Platform 데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html), [Experience Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html), [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md) 및 [BI 도구 통합](/help/data-views/bi-extension.md)이 포함됩니다.<p>내보내기 옵션에 대한 자세한 내용은 [데이터 내보내기 사용 사례](/help/use-cases/data-export/overview.md)를 참조하십시오.</p> |
 | [Data Warehouse](https://experienceleague.adobe.com/ko/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)는 현재 Data Warehouse에서 사용할 수 없지만 자주 요청되는 새로운 기능을 다수 포함하는 Adobe Analytics의 Data Warehouse 보고서에 대한 개선 사항입니다. |
 | [스트리밍 미디어 데이터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) | 스트리밍 미디어 데이터는 Analytics 소스 커넥터를 미디어 동시 뷰어 패널 및 Workspace의 미디어 재생 소요 시간 패널의 일부로 사용할 수 있습니다. |

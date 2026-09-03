@@ -6,21 +6,11 @@ role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/78Bp5YSZg7Qs-qBnCfIoS6mjxda7CAglDG19Qq07Fw4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b21c7889-c659-4a99-a779-de1bae57e47e
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 720
@@ -34,7 +24,7 @@ ht-degree: 65%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko)에서 새 사용자를 설정합니다.
+1. [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드가 기반으로 하는 데이터 보기, 세그먼트, 지표 및 차원과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -98,17 +88,17 @@ ht-degree: 65%
 
 * 스파크라인의 세부 기간은 날짜 범위의 길이에 따라 달라집니다.
 * 하루는 시간별 트렌드를 표시함
-   * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
-   * 1년 이상은 주별 트렌드를 표시함
-   * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
-   * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
+  * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
+  * 1년 이상은 주별 트렌드를 표시함
+  * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
+  * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 
 
-1. 타일에 대한 세부 분류가 어떻게 작동하는지 표시하려면 타일을 탭합니다.
+1. 타일에 대한 세부 분류가 어떻게 작동하는지 보려면 타일을 탭합니다.
 
    ![분류 보기](assets/sparkline.png)
 
-   * 스파크라인의 아무 지점이나 눌러 해당 포인트와 연관된 데이터를 라인에서 볼 수 있습니다.
+   * 스파크라인의 아무 지점이나 눌러 해당 지점과 연관된 데이터를 볼 수 있습니다.
 
    * 타일에 추가된 차원의 데이터를 표시하는 테이블이 포함됩니다. 아래쪽 화살표를 눌러 차원을 선택합니다. 타일에 추가된 차원이 없으면 테이블에 차트 데이터가 표시됩니다.
 
@@ -129,6 +119,6 @@ ht-degree: 65%
 ![아무 것도 공유되지 않음](assets/nothing.png)
 
 * 경영진 사용자가 잘못된 Customer Journey Analytics 샌드박스를 선택했을 수 있습니다.
-* 스코어카드가 경영진 사용자와 공유되지 않았을 수 있음.
+* 스코어카드가 경영진 사용자와 공유되지 않았을 수 있습니다.
 
 경영진 사용자가 올바른 Customer Journey Analytics 샌드박스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.

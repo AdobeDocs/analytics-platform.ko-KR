@@ -6,23 +6,11 @@ role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
 TQID: https://experienceleague.adobe.com/Sb4kVGW3EHe85km5NDp-qWQu8MIeW5v2gwrYNTmNevY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b21c7889-c659-4a99-a779-de1bae57e47e
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1849
@@ -44,7 +32,7 @@ ht-degree: 81%
 
 타일을 클릭하면 앱에서 경영진 사용자에게 세부 슬라이드가 표시되는 방식이 동적 팝업 창에 표시됩니다. 차원을 추가하여 특정 요구 사항에 맞게 데이터를 분류할 수 있습니다. 차원이 적용되지 않았다면 분류 차원은 기본 날짜 범위에 따라 **시간** 또는 **일**&#x200B;이 됩니다.
 
-분류는 문자 그대로 지표를 다음과 같은 차원 항목으로 분류하여 분석을 구체화합니다.
+분류는 다음과 같은 차원 항목별로 지표를 분류하여 분석을 구체화합니다.
 
 * 광고 플랫폼(AMO ID)별로 분류된 고유 방문자 지표
 * 제품 카테고리(소매)별로 분류된 방문 횟수
@@ -56,11 +44,11 @@ ht-degree: 81%
 
 ## 세부 슬라이드 사용자 정의 {#customize-detail-slide}
 
-사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다.
+사용자 정의 세부 슬라이드를 사용하면 대상자와 공유할 정보를 더욱 구체적으로 정할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +71,7 @@ ht-degree: 81%
 
 차트에 포함된 내용에 대한 의미 있는 정보 또는 데이터에 대한 뉘앙스를 제공하는 텍스트를 추가할 수 있습니다.
 
-세부 슬라이드에 텍스트를 추가하려면 `T` 기호를 표시하는 레이아웃을 선택하거나 텍스트 시각화 구성 요소를 왼쪽 레일에서 드래그 앤 드롭합니다. 텍스트 편집기는 새 텍스트 시각화를 추가하거나 텍스트가 있는 슬라이드 레이아웃을 선택하면 자동으로 열립니다. 텍스트 편집기는 텍스트 형식을 지정하는 모든 표준 옵션을 제공합니다. 단락, 제목 및 부제목과 같은 텍스트 스타일을 적용하고 굵은 글꼴과 기울임꼴 글꼴을 적용할 수 있습니다. 텍스트를 맞추고, 글머리 기호 및 번호 매기기 목록을 추가하고, 링크를 추가할 수 있습니다. 편집을 마치면 텍스트 편집기의 오른쪽 상단에 있는 최소화 버튼을 선택하여 닫습니다. 이미 추가한 텍스트를 편집하려면 연필 아이콘을 선택하여 텍스트 편집기를 다시 엽니다.
+세부 슬라이드에 텍스트를 추가하려면 `T` 기호를 표시하는 레이아웃을 선택하거나 텍스트 시각화 구성 요소를 왼쪽 레일에서 드래그 앤 드롭합니다. 텍스트 편집기는 새 텍스트 시각화를 추가하거나 텍스트가 있는 슬라이드 레이아웃을 선택하면 자동으로 열립니다. 텍스트 편집기는 텍스트 형식을 지정하는 모든 표준 옵션을 제공합니다. 단락, 제목 및 부제목과 같은 텍스트 스타일을 적용하고 굵게 및 기울임꼴 서식을 적용할 수 있습니다. 텍스트 정렬을 지정하고, 글머리 기호 및 번호 매기기 목록을 추가하고, 링크를 추가할 수 있습니다. 편집을 마치면 텍스트 편집기의 오른쪽 상단에 있는 최소화 버튼을 선택하여 닫습니다. 이미 추가한 텍스트를 편집하려면 연필 아이콘을 선택하여 텍스트 편집기를 다시 엽니다.
 
 ![슬라이드 레이아웃 변경](assets/add-descriptive-text.png)
 
@@ -104,7 +92,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 프로젝트용 데이터 스토리](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -119,11 +107,11 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
    ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width=".50%"}
 1. 슬라이드를 추가하여 데이터 스토리를 작성합니다. 기본적으로 첫 번째 슬라이드가 생성됩니다.
 새 슬라이드를 추가하려면 슬라이드 위로 마우스를 가져가거나 슬라이드를 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
-   * &#x200B;+ 기호를 탭하여 새 슬라이드를 만듭니다.
+   * + 기호를 탭하여 새 슬라이드를 만듭니다.
    * 복제 아이콘을 탭하여 기존 슬라이드를 복제합니다.
 1. 빈 슬라이드를 만드는 경우 왼쪽 레일에서 구성 요소를 끌어다 놓거나 레이아웃을 선택하여 타일의 데이터로 슬라이드를 자동으로 채웁니다.
    ![데이터 스토리 만들기](assets/data-story2.png)
-슬라이드를 삭제하려면 휴지통 아이콘을 탭합니다.
+   슬라이드를 삭제하려면 휴지통 아이콘을 탭합니다.
 
 ### 데이터 스토리 사용자 정의 {#customize-data-story}
 
@@ -135,7 +123,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 1. 제목, 차트 유형 및 기타 타일 옵션을 변경합니다.
 1. 구성 요소를 타일로 끌어옵니다.
    ![데이터 스토리 만들기](assets/data-story3.png)
-시각화와 같은 구성 요소를 타일에 끌어다 놓으면 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
+   시각화와 같은 구성 요소를 타일에 끌어다 놓으면 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
 1. 제목에만 변경 사항을 적용하려면 Shift 키를 누른 상태에서 변경 사항을 적용하십시오.
    ![데이터 스토리 만들기](assets/data-story4.png)
 
@@ -162,7 +150,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
 ## Preview_scorecards {#preview}
 
-Adobe Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이는지와 기능을 미리 볼 수 있습니다.
+Adobe Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이고 작동하는지 미리 볼 수 있습니다.
 
 1. 화면 오른쪽 상단에 있는 **[!UICONTROL 미리보기]**&#x200B;를 클릭합니다.
 
@@ -197,7 +185,7 @@ Adobe Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 �
 
 ![Share_Scorecards](assets/new_share.png)
 
-스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌더에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
+스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 해당 스코어카드에 액세스할 수 있습니다. 스코어카드 빌더에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
 새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션 선택)할 수 있습니다.
 

@@ -5,19 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 TQID: https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 478
@@ -35,13 +26,13 @@ Customer Journey Analytics 패키지를 기반으로 예외 항목 임계값에 
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 *누적된* 경고를 만듭니다.
 * 다음 기준에 따라 경고 작성:
-   * 존재하는 지표의 예외 항목이 예상 임계값 초과 또는 미만입니다.
+  * 존재하는 지표의 예외 항목이 예상 임계값 초과 또는 미만입니다.
 
-     [예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)는 이전 데이터를 사용하여 예상 값과 상한 및 하한을 빌드합니다. 실제 지표 값이 임계값으로 정의된 상한 또는 하한 미만이면 이 이벤트는 임계값 신뢰 수준에서 예외 항목으로 간주되고 경고를 트리거합니다. 높은 임계값(예: 99% 또는 99.9%)은 더 넓은 대역을 의미하므로 더 극단적인 예외 항목으로 인해 발생하는 경고 수가 줄어듭니다. 낮은 임계값(예: 90%)은 더 좁은 대역을 의미하며, 이로 인해 덜 극단적인 예외로 인해 더 많은 경고가 발생합니다.
-   * 특정 비율에 따른 지표 변경.
-   * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
+    [예외 항목 탐지](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)는 이전 데이터를 사용하여 예상 값과 상한 및 하한을 빌드합니다. 실제 지표 값이 임계값으로 정의된 상한 또는 하한 미만이면 이 이벤트는 임계값 신뢰 수준에서 예외 항목으로 간주되고 경고를 트리거합니다. 높은 임계값(예: 99% 또는 99.9%)은 더 넓은 대역을 의미하므로 더 극단적인 예외 항목으로 인해 발생하는 경고 수가 줄어듭니다. 낮은 임계값(예: 90%)은 더 좁은 대역을 의미하며, 이로 인해 덜 극단적인 예외로 인해 더 많은 경고가 발생합니다.
+  * 특정 비율에 따른 지표 변경.
+  * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
 
-이 [비디오 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
+이 [비디오 튜토리얼](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
 
 
 

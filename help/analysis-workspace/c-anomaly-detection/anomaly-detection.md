@@ -5,17 +5,13 @@ feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
 role: User
 TQID: https://experienceleague.adobe.com/beFLMQfzXJUoCbg6fSLpFqcbaB7GSuo6SHroSS6V5wI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: 188
 ht-degree: 83%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 83%
 
 Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 
-[예외 항목 탐지 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html?lang=ko)&#x200B;(4:53)
+[예외 항목 탐지 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)&#x200B;(4:53)
 
 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
@@ -33,7 +29,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 조사할 수 있는 이상 현상의 예에는 다음 내용이 포함됩니다.
 
 * 평균 주문 가격의 급격한 하락
-* 매출액이 낮은 주문의 급등
+* 매출이 낮은 주문의 급등
 * 체험판 등록 급등 또는 하락
 * 랜딩 페이지 조회수의 하락
 * 비디오 버퍼 이벤트의 스파이크

@@ -6,24 +6,15 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 TQID: https://experienceleague.adobe.com/QSgHLiPoLQyr0DzEvWfSt535YR6Kch-XhWUyPXOO6gU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 42%
+source-wordcount: 452
+ht-degree: 43%
 
 ---
 
@@ -31,7 +22,7 @@ ht-degree: 42%
 
 >[!IMPORTANT]
 >
->표준 조회는 Customer Journey Analytics의 Analytics 소스 커넥터 데이터 소스에만 사용할 수 있습니다. 표준 Adobe Analytics 구현, [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 또는 Experience Platform 데이터 수집 API에서 사용할 수 있습니다.
+>표준 조회는 Customer Journey Analytics의 Analytics 소스 커넥터 데이터 소스에만 사용할 수 있습니다. 표준 Adobe Analytics 구현, [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 또는 Experience Platform 데이터 수집 API에서 사용할 수 있습니다.
 >
 
 표준 조회(Adobe 제공 조회)를 사용하면 Customer Journey Analytics의 기능이 확장되어 단독으로는 유용하지 않지만 다른 데이터와 결합될 때 유용하게 사용할 수 있는 일부 차원/속성에 대해 보고할 수 있습니다. 이러한 예로는 모바일 디바이스의 속성과 브라우저 버전 번호와 같은 OS 및 브라우저 차원의 속성이 있습니다. &#39;표준 조회&#39;는 조회 데이터 세트와 유사합니다. 표준 조회는 CX 엔터프라이즈 조직 전체에 대해 적용할 수 있습니다. 특정 XDM 스키마 필드를 포함하는 모든 이벤트 데이터 세트에 자동으로 적용됩니다(특정 필드는 아래 참조). 표준 조회 데이터 세트는 Adobe에서 분류하는 각 스키마 위치에 대해 존재합니다.
@@ -58,13 +49,13 @@ The catch here is that they can only populate those IDs today if they have a dir
 ### 사용 가능한 표준 조회 필드
 
 * `browser`
-   * `browser`, `group_id`, `id`
+  * `browser`, `group_id`, `id`
 * `browser_group`
-   * `browser_group`, `id`
+  * `browser_group`, `id`
 * `os`
-   * `os`, `group_id`, `id`
+  * `os`, `group_id`, `id`
 * `os_group`
-   * `os_group`, `id`
+  * `os_group`, `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`

@@ -5,14 +5,10 @@ exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
 TQID: https://experienceleague.adobe.com/1QpmW2FTqA2B7JgqJEO6MNJzrBkGIL9s4gZYxhIp9UI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1357
@@ -22,7 +18,7 @@ ht-degree: 70%
 
 # 바인딩 차원 및 지표 사용
 
-Customer Journey Analytics는 설정된 히트 이후에 차원 값이 유지하는 몇 가지 방법을 제공합니다. Adobe가 제공하는 지속성 방법 중 하나는 바인딩이라고 합니다. 이전 버전의 Adobe Analytics에서는 이 개념을 머천다이징이라고 했습니다.
+Customer Journey Analytics는 차원 값이 설정된 히트 이후에도 유지되도록 하는 몇 가지 방법을 제공합니다. Adobe가 제공하는 지속성 방법 중 하나는 바인딩이라고 합니다. 이전 버전의 Adobe Analytics에서는 이 개념을 머천다이징이라고 했습니다.
 
 최상위 이벤트 데이터로 바인딩 차원을 사용할 수 있지만 이 개념은 [개체 배열](/help/use-cases/object-arrays.md)로 작업할 때 가장 적합합니다. 특정 이벤트의 모든 속성에 차원을 적용하지 않고 개체 배열의 한 부분에 차원을 지정할 수 있습니다. 예를 들어 검색어를 전체 이벤트에 바인딩하지 않고 장바구니 개체 배열의 한 제품에 검색어를 지정할 수 있습니다.
 
@@ -222,7 +218,7 @@ Adobe Analytics에서 가장 일반적인 머천다이징 방법 중 하나는 �
    }
    ```
 
-7. 방문자는 체크아웃 프로세스를 거쳐 이 세 가지 물건을 구매합니다.
+7. 방문자는 체크아웃 프로세스를 거쳐 이 세 가지 항목을 구매합니다.
 
    ```json
    {
@@ -246,7 +242,7 @@ Adobe Analytics에서 가장 일반적인 머천다이징 방법 중 하나는 �
    }
    ```
 
-검색어를 바인딩하는 차원이 포함되지 않은 배분 모델을 사용하는 경우, 세 가지 제품 모두 단일 검색어에만 매출을 귀속시킵니다. 예를 들어 검색어 차원과 함께 [!UICONTROL 원본] 할당을 사용한 경우:
+검색어가 포함된 바인딩 차원이 없는 배분 모델을 사용하는 경우, 세 가지 제품 모두 단일 검색어에만 매출을 귀속시킵니다. 예를 들어 검색어 차원과 함께 [!UICONTROL 원본] 할당을 사용한 경우:
 
 | search_term | 매출 |
 | --- | --- |
@@ -272,7 +268,7 @@ Analysis Workspace에서 결과 보고서는 다음과 유사합니다.
 | 테니스 라켓 | $34.99 |
 | 신발 | $79.99 |
 
-Customer Journey Analytics은 선택한 차원과 바인딩 차원 간의 관계를 자동으로 감지합니다. 선택한 차원이 상위 수준에 있고 바인딩 차원이 개체 배열에 있는 경우 바인딩 지표가 필요합니다. 바인딩 지표는 바인딩 차원의 트리거 역할을 하므로 바인딩 지표가 있는 이벤트에만 바인딩됩니다. 위의 예에서 검색 결과 페이지에는 항상 검색어 차원과 검색 지표가 포함됩니다.
+Customer Journey Analytics은 선택한 차원과 바인딩 차원 간의 관계를 자동으로 감지합니다. 선택한 차원이 상위 수준에 있고 바인딩 차원이 오브젝트 배열에 있는 경우 바인딩 지표가 필요합니다. 바인딩 지표는 바인딩 차원의 트리거 역할을 하므로 바인딩 지표가 있는 이벤트에만 바인딩됩니다. 위의 예에서 검색 결과 페이지에는 항상 검색어 차원과 검색 지표가 포함됩니다.
 
 검색어 차원을 이 지속성 모델로 설정하면 다음 논리가 실행됩니다.
 
@@ -331,7 +327,7 @@ Customer Journey Analytics은 선택한 차원과 바인딩 차원 간의 관계
    }
    ```
 
-1. 다음 날, 그들은 자녀를 위해 “Orangey” 프로를 계속 재생합니다. 그들은 이미 프로를 알고 있기 때문에 검색할 필요가 없습니다.
+1. 다음 날, 그들은 자녀를 위해 “Orangey” 프로그램을 계속 시청합니다. 그들은 이미 그 프로그램을 알고 있기 때문에 검색할 필요가 없습니다.
 
    ```json
    {
@@ -408,7 +404,7 @@ Analysis Workspace은 다른 프로필의 검색을 고려하지 않고 Orangey�
    }
    ```
 
-1. 체크아웃 프로세스를 거쳐 이 두 가지 물건을 구매합니다.
+1. 체크아웃 프로세스를 거쳐 이 두 품목을 구매합니다.
 
    ```json
    {
@@ -448,4 +444,4 @@ Analysis Workspace은 다른 프로필의 검색을 고려하지 않고 Orangey�
 
 >[!MORELIKETHIS]
 >
->[데이터 보기의 바인딩 차원](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=ko) 자습서.
+>[데이터 보기의 바인딩 차원](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) 자습서.

@@ -6,25 +6,15 @@ feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
 TQID: https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 4858
-ht-degree: 16%
+source-wordcount: 5045
+ht-degree: 15%
 
 ---
 
@@ -485,7 +475,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          |---|---|---|---|
          | 광고 그룹(조회) | 조회 데이터 데이터 세트 예 | 문자열 | *_tenant*.ad_group |
          | 광고 그룹 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.ad_group |
-         | 캠페인 Id | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_id |
+         | 캠페인 ID | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_id |
          | 캠페인 이름(조회) | 조회 데이터 데이터 세트 예 | 문자열 | *_tenant*.campaign_name |
          | 캠페인 이름 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_name |
          | 네트워크 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.network |

@@ -7,22 +7,11 @@ feature: Basics
 role: User
 autotag-review: '2026-05-19T09:29:03.007Z'
 TQID: 'https://experienceleague.adobe.com/BxQ-hPP9Uh5gfdnEaVOWkfVG8UVj0KVhhmFqKtMXtRA'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cf731116-8803-4027-85aa-9c0a126e8321
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cf731116-8803-4027-85aa-9c0a126e8321id: bc7a5a86-1a70-451f-985c-037b65f091d1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 331
@@ -45,4 +34,5 @@ ht-degree: 95%
 
 ## Adobe Experience Platform 용어
 
-Adobe Experience Platform은 기업 전체의 데이터 및 콘텐츠를 표준화하므로 실시간 고객 프로필을 기반으로 데이터 과학을 구현하고 콘텐츠 속도를 가속화하여 고객 여정 전반에서 경험 개인화를 촉진합니다.자세한 내용은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko)을 참조하십시오.
+Adobe Experience Platform은 기업 전체의 데이터 및 콘텐츠를 표준화하므로 실시간 고객 프로필을 기반으로 데이터 과학을 구현하고 콘텐츠 속도를 가속화하여 고객 여정 전반에서 경험 개인화를 촉진합니다.
+자세한 내용은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html)을 참조하십시오.

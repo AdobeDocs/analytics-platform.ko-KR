@@ -6,31 +6,15 @@ feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
 TQID: https://experienceleague.adobe.com/UXeVx5LF0ww0guz-62swqmGapSfjiTduYjojcZqqIYQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 8%
+source-wordcount: 1476
+ht-degree: 9%
 
 ---
 
@@ -93,13 +77,13 @@ Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데�
 
 +++Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 +++
 
 +++Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 +++
 
@@ -120,7 +104,7 @@ Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience
 
 탐색할 수 있는 한 가지 사용 사례는 다음과 같습니다. 2020년 4월~6월에 리드별 웹 페이지 방문 횟수는?
 
-1. [Analytics Workspace](/help/analysis-workspace/home.md)을(를) 열고 새 프로젝트를 만듭니다.
+1. [Analytics Workspace](/help/analysis-workspace/home.md)를 열고 새 프로젝트를 만듭니다.
 B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타일의 분석을 수행할 수 있습니다. B2B 오브젝트는 아직 사용할 수 없습니다.
 
 1. 다음과 같이 웹 페이지 조회수에 대한 [세그먼트](/help/components/segments/seg-create.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :

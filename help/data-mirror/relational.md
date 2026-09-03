@@ -6,23 +6,14 @@ feature: Basics
 role: Admin
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
 TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2375
 ht-degree: 15%
 
 ---
@@ -227,17 +218,17 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
 * Google BigQuery에 대한 계정을 이미 설정한 경우 **[!UICONTROL 기존 계정]**. [데이터 선택](#select-data) 단계로 진행합니다.
 * Google BigQuery에 연결해야 하는 경우 **[!UICONTROL 새 계정]**.
-   1. **[!UICONTROL 계정 이름]** 및 (선택 사항) **[!UICONTROL 설명]**&#x200B;을(를) 지정하십시오.
-   1. **[!UICONTROL 인증 유형]**&#x200B;을 선택하십시오. **[!UICONTROL 기본 인증]** 또는 **[!UICONTROL 서비스 인증]**. 선택한 항목에 따라 필요한 입력을 제공합니다.
-   1. **[!UICONTROL 소스에 연결]** 선택
+  1. **[!UICONTROL 계정 이름]** 및 (선택 사항) **[!UICONTROL 설명]**&#x200B;을(를) 지정하십시오.
+  1. **[!UICONTROL 인증 유형]**&#x200B;을 선택하십시오. **[!UICONTROL 기본 인증]** 또는 **[!UICONTROL 서비스 인증]**. 선택한 항목에 따라 필요한 입력을 제공합니다.
+  1. **[!UICONTROL 소스에 연결]** 선택
 
-      ![Google BigQuery - 인증](assets/googlebg-authentication.png)
+     ![Google BigQuery - 인증](assets/googlebg-authentication.png)
 
-      연결이 확인되었습니다. ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL 연결됨]**&#x200B;이(가) 연결에 성공했음을 나타냅니다.
+     연결이 확인되었습니다. ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL 연결됨]**&#x200B;이(가) 연결에 성공했음을 나타냅니다.
 
-   1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+  1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
+  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
 
 
 ### 데이터 선택

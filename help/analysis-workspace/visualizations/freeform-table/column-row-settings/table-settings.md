@@ -5,17 +5,10 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
 source-wordcount: 1650
@@ -25,7 +18,7 @@ ht-degree: 53%
 
 # 행 설정
 
-행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 개체 내에서 차원, 세그먼트, 지표, 기간 또는 분류 옆에 있는 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;을 선택하십시오.
+행 설정은 테이블에 드래그한 구성 요소에 따라 다릅니다. 테이블 행 설정에 액세스하려면 이러한 각 개체 내에서 차원, 세그먼트, 지표, 기간 또는 분류 옆에 있는 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;을 선택하십시오.
 
 ![지표에 대한 설정 아이콘을 강조 표시한 자유 형식 테이블](assets/row-settings.png)
 
@@ -37,7 +30,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 {{videoaa}}
 
@@ -61,7 +54,7 @@ ht-degree: 53%
 | 옵션 | 설명 |
 | --- | --- |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
-| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원의 차원 항목은 최대 50,000개입니다. |
 | **[!UICONTROL CSV로 선택 항목 다운로드]** | 시각화의 차원 항목을 즉시 로컬 디바이스에 다운로드합니다. |
 | **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 만들기]** | 모든 차원 항목에 대한 하이퍼링크를 만듭니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
 | **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 편집]** | 모든 차원 항목에 대한 하이퍼링크를 편집합니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
@@ -77,7 +70,7 @@ ht-degree: 53%
 | 옵션 | 설명 |
 | --- | --- |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 자유 형식 테이블의 선택한 셀에 있는 정보를 복사합니다. |
-| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원의 차원 항목은 최대 50,000개입니다. |
 | **[!UICONTROL 하이퍼링크 만들기]** | 해당 항목에 대한 하이퍼링크를 만듭니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
 | **[!UICONTROL 하이퍼링크 편집]** | 해당 항목에 대한 하이퍼링크를 편집합니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
 | **[!UICONTROL 하이퍼링크 제거]** | 해당 항목에 대한 하이퍼링크를 제거합니다. [자유 형식 테이블의 차원에 대한 하이퍼링크](../freeform-table-hyperlinks.md) 참조 |
@@ -103,8 +96,8 @@ ht-degree: 53%
 | **[!UICONTROL 선택 항목으로 지표 만들기]** | 선택한 지표에서 새 지표를 만듭니다. 지표는 평균, 미디어, 열 최대값, 열 최소값, 열 합계가 될 수 있습니다. 계산된 지표 빌더에서 열기를 선택하여 계산된 지표를 만들 수도 있습니다. |
 | **[!UICONTROL 기간 열 추가]** | 기간 열을 추가합니다. 패널의 캘린더 범위에 따라 *날짜 범위*&#x200B;가 결정되는 여러 옵션이 제공됩니다. <ul><li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위까지 이 *날짜 범위*]**.</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li></ul>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
 | **[!UICONTROL 기간 비교]** | 비교 기간 열을 추가합니다. 차원이 시간을 기준으로 하지 않을 때만 사용할 수 있습니다. *날짜 범위*&#x200B;를 결정하는 몇 가지 옵션이 제공됩니다. <ul><li>**[!UICONTROL 이 날짜 범위보다 이전 *날짜 범위*]**</li><li>**[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**. **[!UICONTROL 날짜 범위 빌더]**&#x200B;를 열어서 날짜 범위를 지정합니다.</li></ul>자세한 내용은 [날짜 비교](/help/components/date-ranges/time-comparison.md)를 참조하십시오. |
-| **[!UICONTROL 속성 모델 수정]** | 열에 대한 속성 모델을 수정합니다. |
-| **[!UICONTROL 속성 모델 비교]** | 새로운 속성 모델을 지정하고 선택한 열의 속성 모델과 비교합니다. 새로운 속성 모델 지표가 포함된 새 열이 추가되었습니다. 또한 비교를 위해 백분율 변경 열이 추가되었습니다. |
+| **[!UICONTROL 속성 모델 수정]** | 열에 대한 기여도 모델을 수정합니다. |
+| **[!UICONTROL 속성 모델 비교]** | 새로운 기여도 모델을 지정하고 선택한 열의 기여도 모델과 비교합니다. 새로운 기여도 모델 지표가 포함된 새 열이 추가되었습니다. 또한 비교를 위해 백분율 변경 열이 추가되었습니다. |
 | **[!UICONTROL 열 너비 재설정]** | 열 너비를 기본 너비로 재설정합니다. |
 | **[!UICONTROL 선택 항목으로 주석 만들기]** | [주석 빌더](/help/components/annotations/create-annotations.md#annotation-builder)를 열어 선택 항목을 위한 주석을 빌드합니다. |
 | **[!UICONTROL 선택 항목에서 세그먼트 만들기]** | [세그먼트 빌더](/help/components/segments/seg-builder.md)를 열어 선택 항목에서 세그먼트를 빌드합니다. |
@@ -113,7 +106,7 @@ ht-degree: 53%
 
 ## 행 높이 변경
 
-프로젝트의 [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
+프로젝트의 [보기 밀도](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.
 
 
 ## 인라인 분류 {#inline-classifications-example}
@@ -166,7 +159,7 @@ ht-degree: 53%
 
 * 자유 형식 테이블을 수정 전 상태로 재설정합니다.
 
-  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
+  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
   1. **[!UICONTROL 수정된 행]** 팝업에서 **[!UICONTROL 수정된 행 재설정]**&#x200B;을 선택합니다.
 
      ![자유 형식 테이블 재설정](assets/popup-reset.png)

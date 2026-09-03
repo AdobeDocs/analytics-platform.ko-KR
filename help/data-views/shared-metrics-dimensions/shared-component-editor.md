@@ -3,18 +3,10 @@ title: 공유 구성 요소 편집기
 description: 공유 차원 및 지표를 만들거나 편집합니다.
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
 TQID: https://experienceleague.adobe.com/vHmMlOpgjLAVzEg9t-MORtrHKsbqBABVcDFkuMlo5FM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 394
@@ -40,9 +32,9 @@ ht-degree: 0%
 인터페이스에는 다음과 같은 세 가지 기본 열/섹션이 포함됩니다.
 
 * **스키마 필드 선택기**: 원하는 스키마 필드를 찾아 포함된 구성 요소 영역으로 끌어서 놓습니다.
-   * **연결**: 활성 연결입니다. [공유 지표 및 차원 관리자](smd-overview.md)에서 활성 연결을 변경합니다.
-   * **구성 요소 목록**: 드롭다운 메뉴에서 [!UICONTROL 스키마 필드]&#x200B;(새로운 공유 차원 및 지표) 또는 [!UICONTROL 지표 및 차원]&#x200B;(기존 공유 구성 요소)을 선택할 수 있습니다.
-   * **검색**: ![검색 아이콘](/help/assets/icons/Search.svg) 텍스트 검색을 사용하여 원하는 스키마 필드 또는 공유 구성 요소를 이름별로 찾습니다. ![필터 아이콘](/help/assets/icons/Filter.svg) 필터를 사용하여 구성 요소 목록의 범위를 좁힐 수도 있습니다. `Is not deprecated` 필터는 기본적으로 활성화되어 있습니다.
-   * **파생 필드 만들기**: [파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md).
+  * **연결**: 활성 연결입니다. [공유 지표 및 차원 관리자](smd-overview.md)에서 활성 연결을 변경합니다.
+  * **구성 요소 목록**: 드롭다운 메뉴에서 [!UICONTROL 스키마 필드]&#x200B;(새로운 공유 차원 및 지표) 또는 [!UICONTROL 지표 및 차원]&#x200B;(기존 공유 구성 요소)을 선택할 수 있습니다.
+  * **검색**: ![검색 아이콘](/help/assets/icons/Search.svg) 텍스트 검색을 사용하여 원하는 스키마 필드 또는 공유 구성 요소를 이름별로 찾습니다. ![필터 아이콘](/help/assets/icons/Filter.svg) 필터를 사용하여 구성 요소 목록의 범위를 좁힐 수도 있습니다. `Is not deprecated` 필터는 기본적으로 활성화되어 있습니다.
+  * **파생 필드 만들기**: [파생 필드를 만들 수 있습니다](/help/data-views/derived-fields/derived-fields.md).
 * **포함된 구성 요소**: 공유하도록 구성하는 구성 요소입니다. 공유 구성 요소를 만들 때 두 개 이상의 스키마 필드를 이 영역으로 드래그하여 여러 구성 요소를 동시에 만들 수 있습니다. 공유 구성 요소를 편집할 때 편집할 여러 구성 요소를 선택할 수 있습니다. 이 구성 요소에는 이 영역에서 선택한 모든 구성 요소가 나열됩니다.
 * **구성 요소 설정**: 포함된 구성 요소 영역에서 구성 요소를 선택할 때 이 열에서 사용 가능한 모든 설정을 구성할 수 있습니다. 차원 및 지표에 사용할 수 있는 모든 옵션은 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오. 포함된 구성 요소 영역에서 Shift 키를 누른 상태에서 여러 요소를 클릭하면 공통 필드를 동시에 편집할 수 있습니다.

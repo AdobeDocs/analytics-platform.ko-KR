@@ -5,17 +5,11 @@ feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 TQID: https://experienceleague.adobe.com/555a8gxm8jBGyatt1Vp6e40Wj2gqgRl95oFiHC4NMhQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 547
@@ -39,12 +33,12 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 ## 키보드 탐색
 
-[!UICONTROL Analysis Workspace]에서 탐색은 위쪽 아래쪽, 왼쪽 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
+[!UICONTROL Analysis Workspace]에서 탐색은 위쪽 아래쪽, 왼쪽 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 높이는 데 도움이 됩니다.
 
 * **[!UICONTROL 탭]** 키를 통해 작업 영역 내의 더 큰 섹션 사이를 이동하는 랜드마크 단축키를 사용할 수 있습니다. 왼쪽 패널에서 **[!UICONTROL 탭]**&#x200B;을 사용하면 드래그 가능한 하나의 옵션에서 다음 옵션으로 이동할 수도 있습니다
 * ◀︎ 및 ▶︎는 **[!UICONTROL 탭]** 키가 요소를 강조 표시한 후 개별 요소 사이를 이동합니다.
 * **[!UICONTROL F6]** 키는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
-* 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 포커스가 있는 패널에 파란색 테두리가 표시됩니다. 최근 선택한 기능과 기능 내 선택 항목에 회색 배경이 표시됩니다. 예시에서 최근 [!UICONTROL 구성 요소] 및 페이지 차원이 선택되었습니다.
+* 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기는 포커스가 있는 패널의 파란색 테두리입니다. 최근 선택한 기능과 기능 내 선택 항목에 회색 배경이 표시됩니다. 예시에서 최근 [!UICONTROL 구성 요소] 및 페이지 차원이 선택되었습니다.
 
   ![자유 형식 테이블 showing a focus ndicator of a blue border around the 자유 형식 테이블.](assets/focus-indicator.png)
 
@@ -59,7 +53,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 [!UICONTROL Analysis Workspace]는 드래그 앤 드롭 사용자 인터페이스입니다. 그러나 사용자는 키보드를 사용하여 구성 요소를 추가할 수 있습니다.
 
-1. 왼쪽 패널에 있는 구성 요소에 탭으로 이동합니다.
+1. Tab 키를 눌러 왼쪽 패널의 구성 요소로 이동합니다.
 1. **[!UICONTROL Enter]** 키를 눌러 선택합니다.
 1. 화살표 키를 사용하여 구성 요소를 놓을 영역으로 이동합니다.
 1. **[!UICONTROL Enter]** 키를 눌러 구성 요소를 배치합니다.
@@ -80,10 +74,10 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 
 ## 필수 유효성 검사
 
-구성 요소나 시각화 또는 패널을 작성할 때 저장 시 필수 필드의 유효성이 검사됩니다. 필수 필드가 유효성 검사를 통과하지 못하면 오류 아이콘과 함께 빨간색으로 표시됩니다. 수정해야 하는 문제에 대한 서면 설명이 표시됩니다.
+구성 요소나 시각화 또는 패널을 작성할 때 저장 시 필수 필드의 유효성이 검사됩니다. 필수 필드가 유효성 검사를 통과하지 못하면 오류 아이콘과 함께 빨간색으로 표시됩니다. 서면 설명은 수정해야 할 사항을 설명합니다.
 
 ![Segment Builder and error validation indicator.](assets/error-validation.png)
 
 ## 운영 체제 접근성 기능 지원
 
-Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 기본 제공되는 Windows 및 macOS 접근성 기능을 지원합니다. 또한 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.
+Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 기본 제공되는 Windows 및 macOS 접근성 기능을 지원합니다. 또한 macOS용 VoiceOver 및 Windows용 NVDA와 같은 화면 판독기를 포함한 보조 기술과 상호 작용할 수 있도록 사용자 인터페이스에 대한 정보를 운영 체제에 제공합니다.

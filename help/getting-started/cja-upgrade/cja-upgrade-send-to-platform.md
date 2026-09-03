@@ -6,20 +6,11 @@ feature: Basics
 hide: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
 TQID: https://experienceleague.adobe.com/OQzCu-gf3Br-rXU0AnWCVzMTxdEq28M7aEAKmZN6b7c
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 1018
@@ -58,7 +49,7 @@ ht-degree: 98%
 | 업그레이드 경로 | Platform으로 데이터를 전송하는 프로세스 | 추가 정보 |
 |---------|----------|----------|
 | Experience Platform Web SDK의 새로운 구현 | <ol><li>조직을 위한 XDM 스키마를 만듭니다.<p>데이터 팀과 협력하여 Customer Journey Analytics에 대한 조직의 이상적인 스키마 디자인을 확인합니다.</p></li><li>Experience Platform Web SDK를 구현합니다.</li><li>Platform으로 데이터를 전송합니다.</li></ol><p>각 단계에 대한 자세한 내용은 [Adobe Experience Platform Web SDK를 통해 데이터 수집](/help/data-ingestion/aepwebsdk.md)을 참조하십시오. | 이는 Experience Platform Web SDK의 새로운 구현이므로 구현 중 첫 번째 단계 중 하나로 스키마를 생성해야 하기 때문에 스키마 매핑이 필요하지 않습니다. |
-| Web SDK를 사용하도록 Adobe Analytics 구현 마이그레이션 | <ol><li>기존 Adobe Analytics 구현을 Experience Platform Web SDK로 옮기고 모든 것이 Adobe Analytics에서 제대로 작동하는지 확인합니다.<p>이 작업을 수행하는 방법에 대한 자세한 내용은 현재 구현이 Analytics 태그 확장 기능인지 AppMeasurement인지에 따라 다음 리소스를 참조하십시오.</p><ul><li>Analytics 태그 확장 기능을 사용하는 경우[Adobe Analytics 태그 확장 기능에서 Web SDK 태그 확장 기능으로 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)을 참조하십시오.</li><li>AppMeasurement를 사용하는 경우 [AppMeasurement에서 Web SDK로 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)을 참조하십시오.</li></ul><li>[조직을 위한 XDM 스키마를 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema-and-dataset).<p>데이터 팀과 협력하여 Customer Journey Analytics에 대한 조직의 이상적인 스키마 디자인을 확인합니다.</p></li><li>[데이터 준비를 사용하여 데이터 오브젝트의 모든 필드를 XDM 스키마에 매핑합니다](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home).</li><li>[데이터스트림 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream)을 통해 Platform으로 데이터 전송을 시작합니다.</li></ol> |  |
+| Web SDK를 사용하도록 Adobe Analytics 구현을 마이그레이션 | <ol><li>기존 Adobe Analytics 구현을 Experience Platform Web SDK로 옮기고 모든 것이 Adobe Analytics에서 제대로 작동하는지 확인합니다.<p>이 작업을 수행하는 방법에 대한 자세한 내용은 현재 구현이 Analytics 태그 확장 기능인지 AppMeasurement인지에 따라 다음 리소스를 참조하십시오.</p><ul><li>Analytics 태그 확장 기능을 사용하는 경우[Adobe Analytics 태그 확장 기능에서 Web SDK 태그 확장 기능으로 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)을 참조하십시오.</li><li>AppMeasurement를 사용하는 경우 [AppMeasurement에서 Web SDK로 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)을 참조하십시오.</li></ul><li>[조직을 위한 XDM 스키마를 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema-and-dataset).<p>데이터 팀과 협력하여 Customer Journey Analytics에 대한 조직의 이상적인 스키마 디자인을 확인합니다.</p></li><li>[데이터 준비를 사용하여 데이터 오브젝트의 모든 필드를 XDM 스키마에 매핑합니다](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home).</li><li>[데이터스트림 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream)을 통해 Platform으로 데이터 전송을 시작합니다.</li></ol> |  |
 | 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송합니다. | <ol><li>[데이터스트림 설정](/help/data-ingestion/aepwebsdk.md#set-up-a-datastream)을 통해 Platform으로 데이터 전송을 시작합니다.<p>Adobe Analytics 구현이 이미 Experience Platform Web SDK를 사용하고 있으므로 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)의 다른 섹션은 무시할 수 있습니다.</p><p>Adobe Analytics 구현을 통해 이미 Platform으로 데이터를 전송하고 있는 경우 이 단계는 필요하지 않습니다. 이 프로세스의 뒷부분에 설명된 대로 Platform 데이터 세트와 Customer Journey Analytics 간의 연결만 만들면 됩니다.</p></li><li>(선택 사항) [조직을 위한 XDM 스키마를 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema-and-dataset).<p>데이터 팀과 협력하여 Customer Journey Analytics에 대한 조직의 이상적인 스키마 디자인을 확인합니다.</p><p>참고: XDM 스키마를 만드는 이점에 대한 정보는 [스키마 선택](/help/getting-started/cja-upgrade/cja-upgrade-path.md#choose-your-schema)을 참조하십시오.</li><li>(조건부) XDM 스키마를 만든 경우 [데이터 준비를 사용하여 데이터 오브젝트의 모든 필드를 XDM 스키마에 매핑합니다](https://experienceleague.adobe.com/ko/docs/experience-platform/data-prep/home).</li></ol> |  |
 | Analytics 소스 커넥터 사용 | [기존 Adobe Analytics에서 데이터 수집 및 사용](/help/data-ingestion/analytics.md) | Analytics 소스 커넥터를 사용하면 Adobe Analytics 데이터가 자동으로 XDM 스키마에 매핑됩니다. 추가 매핑이 필요하지 않습니다. |
 

@@ -5,17 +5,10 @@ feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
 TQID: https://experienceleague.adobe.com/46ewVgVmZKjyURw5hEa6au2KwLloRJCPXi3axy1bu6Q
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 765
@@ -53,7 +46,7 @@ ht-degree: 91%
 | **[!UICONTROL 소유자]** | 주석 소유자. 사용자가 소유한 주석 또는 사용자와 공유된 주석만 표시합니다. |
 | **[!UICONTROL 적용된 날짜 범위]** | 이 주석이 적용되는 날짜 또는 날짜 범위입니다. |
 | **[!UICONTROL 태그]** | 이 주석의 태그입니다. |
-| **[!UICONTROL 다음 사용자와 공유]** | 주석을 공유한 개인 또는 그룹을 표시합니다. **[!UICONTROL 구성 요소 공유]** 대화 상자를 열지 선택합니다. |
+| **[!UICONTROL 다음 사용자와 공유]** | 주석을 공유한 대상인 개인 또는 그룹입니다. **[!UICONTROL 구성 요소 공유]** 대화 상자를 열지 선택합니다. |
 | **[!UICONTROL 수정한 날짜]** | 주석을 마지막으로 수정한 날짜와 시간을 표시합니다. |
 
 {style="table-layout:auto"}
@@ -81,7 +74,7 @@ ht-degree: 91%
 
 ### 필터 패널
 
-왼쪽 패널 ➍에서 **[!UICONTROL 필터]**&#x200B;를 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터를 처리하는 주석의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
+왼쪽 패널 ➍에서 **[!UICONTROL 필터]**&#x200B;를 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터와 일치하는 주석 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
 
 필터 목록을 필터링하는 방법:
 
@@ -122,7 +115,7 @@ ht-degree: 91%
 * 다른 사용자와 공유하는 프로젝트 전용 주석이 해당 사용자에게 표시됩니다. 사용자는 이 프로젝트 전용 주석을 편집하거나 삭제할 수 없습니다.
 * 주석을 저장하고 주석을 다른 사용자와 직접 공유하는 경우 해당 사용자는 관리자 권한을 보유한 경우에만 주석을 편집 및 삭제할 수 있습니다.
 
-* 프로젝트가 공유되면 해당 프로젝트에서 생성된 주석은 해당 프로젝트에만 표시됩니다. 주석이 직접 공유되는 경우 해당 주석이 표시될 수 있는 모든 프로젝트에 주석이 표시됩니다.
+* 프로젝트가 사용자와 공유되면 해당 프로젝트에서 생성된 주석은 해당 프로젝트에만 표시됩니다. 주석이 직접 공유되는 경우 해당 주석이 표시될 수 있는 모든 프로젝트에 주석이 표시됩니다.
 
 ## 주석 및 시간대
 

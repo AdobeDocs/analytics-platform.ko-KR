@@ -7,18 +7,11 @@ role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
 autotag-review: '2026-05-19T09:25:02.883Z'
 TQID: 'https://experienceleague.adobe.com/0A4WNJ6TQDD3QrbupAK7R2sT25Nc-ovCnLFWjIyk0tU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 422
@@ -42,11 +35,11 @@ ht-degree: 27%
    - 다시 입력할 데이터 세트에 대한 데이터 세트 ID입니다.
    - 원하는 데이터 세트(모든 행에 표시되는 식별자)에 대한 영구 ID의 열 이름(ID 경로 및 네임스페이스)입니다.
    - 데이터 집합이 `identityMap`을(를) 지원하는 경우:
-      - 필드 기반 결합의 경우 영구 ID와 개인 ID 모두에 대한 네임스페이스를 지정합니다.
-      - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 영구 ID의 네임스페이스와 ID 네임스페이스를 지정하십시오.
+     - 필드 기반 결합의 경우 영구 ID와 개인 ID 모두에 대한 네임스페이스를 지정합니다.
+     - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 영구 ID의 네임스페이스와 ID 네임스페이스를 지정하십시오.
    - 데이터 집합에서 `identityMap`을(를) 지원하지 않는 경우:
-      - 필드 기반 결합의 경우, 원하는 데이터 세트에 대한 개인 ID의 열 이름 (연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자).
-      - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 ID 네임스페이스입니다.
+     - 필드 기반 결합의 경우, 원하는 데이터 세트에 대한 개인 ID의 열 이름 (연결 컨텍스트에서 데이터 세트 간 링크 역할도 하는 개인 식별자).
+     - 그래프 기반 결합의 경우 ID 그래프 쿼리에 사용할 ID 네임스페이스입니다.
    - 전환 확인 기간 및 재생 빈도에 대한 사용자 기본 설정입니다. 사용 가능한 [옵션](#options)은 Customer Journey Analytics 패키지를 참조하세요.
    - 샌드박스 이름
 

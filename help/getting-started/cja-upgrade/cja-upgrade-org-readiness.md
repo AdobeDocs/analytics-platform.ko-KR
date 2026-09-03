@@ -6,23 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: bd19250e-91c0-49f6-b6dc-3abd641344aa
 TQID: https://experienceleague.adobe.com/DtETa7Qh3l2X9YSjkX56zX8CmDTWVpGvvyrd9HFayt4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1186
@@ -125,7 +113,7 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
 * 비즈니스 프로세스
 
-* 사용자 지정 구성 요소
+* 사용자 정의 구성 요소
 
 이 정보를 수집하는 데 도움이 되는 다음 리소스를 참조하십시오.
 
@@ -157,13 +145,13 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
   시작하는 데 도움이 되는 리소스는 다음과 같습니다.
 
-   * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
+  * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+  * [Customer Journey Analytics란?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
-   * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
+  * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
-   * [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)
+  * [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)
 
 ## 권장되는 업그레이드 단계 수행
 

@@ -7,21 +7,14 @@ role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
 autotag-review: '2026-05-19T09:20:59.053Z'
 TQID: 'https://experienceleague.adobe.com/V2OisDuYtD0SxUo8OlCEMKJ5wYEWS7nfxOp2IOMQWJQ'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1902
+source-wordcount: 1938
 ht-degree: 82%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 82%
 
 이벤트에 대한 개인 ID 정보를 검색할 수 없는 경우 해당 *연결되지 않은* 이벤트에 대해 영구 ID가 대신 사용됩니다. 결과적으로, 결합을 위해 활성화된 데이터 세트가 포함된 [연결](/help/connections/overview.md)과(와) 연결된 [데이터 보기](/help/data-views/data-views.md)에서 개인 ID 구성 요소는 이벤트 수준에서 개인 ID 값 또는 영구 ID 값을 포함합니다.
 
-Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Experience Platform Identity 서비스 및 관련 ID 그래프에 대한 액세스 권한이 없음) 필드 기반 결합을 사용할 수 있습니다. 사용 가능한 ID 그래프를 사용하지 않으려는 경우도 마찬가지입니다.
+Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Experience Platform Identity 서비스 및 관련 ID 그래프에 대한 액세스 권한이 없음) 필드 기반 결합을 사용할 수 있습니다. 또는 사용 가능한 ID 그래프를 사용하지 않으려는 경우입니다.
 
 ![필드 기반 결합](/help/stitching/assets/fbs.png)
 
@@ -42,8 +35,8 @@ Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Exp
 필드 기반 결합은 다음 시나리오에서 [`identityMap` 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)의 사용을 지원합니다.
 
 - `identityMap` 네임스페이스에서 기본 ID를 사용하여 persistentID를 정의합니다.
-   - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 사전순으로 정렬되고 첫 번째 ID가 선택됩니다.
-   - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우, 알파벳순으로 첫 번째 가용 기본 ID가 선택됩니다.
+  - 서로 다른 네임스페이스에 여러 개의 기본 ID가 있는 경우 네임스페이스의 ID가 사전순으로 정렬되고 첫 번째 ID가 선택됩니다.
+  - 단일 네임스페이스에 여러 개의 기본 ID가 있는 경우, 알파벳순으로 첫 번째 가용 기본 ID가 선택됩니다.
 
   아래 예시에서 네임스페이스 및 ID는 정렬된 기본 ID 목록과 마지막으로 선택한 ID를 생성합니다.
 
@@ -75,8 +68,8 @@ Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Exp
 
 
 - `identityMap` 네임스페이스를 사용하여 영구 ID나 개인 ID 중 하나 또는 둘 다 정의합니다.
-   - `identityMap` 네임스페이스에 영구 ID 또는 개인 ID에 대한 값이 여러 개 있는 경우, 알파벳순으로 첫 번째 가용 값이 사용됩니다.
-   - 영구 ID와 개인 ID의 네임스페이스는 상호 배타적이어야 합니다.
+  - `identityMap` 네임스페이스에 영구 ID 또는 개인 ID에 대한 값이 여러 개 있는 경우, 알파벳순으로 첫 번째 가용 값이 사용됩니다.
+  - 영구 ID와 개인 ID의 네임스페이스는 상호 배타적이어야 합니다.
 
   아래 예제에서는 사용할 네임스페이스로 ECID를 선택했습니다. 이렇게 하면 정렬된 ID 목록이 생성되고 선택한 ID가 표시됩니다.
 
@@ -108,21 +101,21 @@ Customer Journey Analytics을 독립 실행형 솔루션으로 사용할 때(Exp
 
 ## 필드 기반 결합의 작동 방식
 
-결합은 주어진 데이터 세트의 데이터에 대해 최소 2개의 전달을 만듭니다.
+결합은 주어진 데이터 세트의 데이터에 대해 최소 두 번 수행됩니다.
 
 - **라이브 결합**: 각 히트(이벤트)가 들어올 때 히트를 결합하려고 합니다. 데이터 세트에 *새롭게 표시*&#x200B;되며 인증되지 않은 디바이스의 히트는 일반적으로 이 레벨에서 결합되지 않습니다. 이미 인식된 디바이스의 히트는 즉시 결합됩니다.
 
 - **재생 결합**: 고유 식별자(개인 ID)를 기반으로 하는 데이터를 *재생*&#x200B;합니다. 이 단계에서 이전에 알려지지 않은 디바이스(영구 ID)의 히트가 개인 ID에 결합됩니다. 두 매개 변수가 재생을 결정합니다. **빈도** 및 **전환 확인 기간**. Adobe는 다음과 같은 매개 변수 조합을 제공합니다.
-   - **일별 빈도에 대한 일별 전환 확인**: 데이터는 매일 24시간 전환 확인 기간으로 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 프로필은 사이트를 방문하는 당일 인증해야 합니다.
-   - **주별 빈도에 대한 주별 전환 확인**: 주별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
-   - **주별 빈도에 대한 격주 전환 확인**: 격주 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 2주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
-   - **주별 빈도에 대한 월별 전환 확인**: 월별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1개월 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **일별 빈도에 대한 일별 전환 확인**: 데이터는 매일 24시간 전환 확인 기간으로 재생됩니다. 이 옵션은 재생이 훨씬 빈번한 이점이 있지만 인증되지 않은 프로필은 사이트를 방문하는 당일 인증해야 합니다.
+  - **주별 빈도에 대한 주별 전환 확인**: 주별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **주별 빈도에 대한 격주 전환 확인**: 격주 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 2주 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
+  - **주별 빈도에 대한 월별 전환 확인**: 월별 전환 확인 기간으로 일주일에 한 번 데이터를 재생합니다([옵션](overview.md#options) 참조). 이 옵션은 인증되지 않은 세션을 인증하는 데 보다 관대한 시간을 주는 이점이 있습니다. 하지만 1개월 미만의 미결합 데이터는 다음 주별 재생 시점까지 재처리되지 않습니다.
 
 - **개인정보**: 개인정보 보호 관련 요청이 수신되면 요청된 ID를 제거할 뿐 아니라 인증되지 않은 이벤트에서 해당 ID의 모든 결합을 실행 취소해야 합니다.
 
   >[!IMPORTANT]
   >
-  >개인정보 보호 요청의 일부인 결합 해제 프로세스는 2025년 초에 변경됩니다. 현재의 결합 해제 프로세스는 알려진 ID의 최신 버전을 사용하여 이벤트를 다시 결합합니다. 이벤트를 다른 ID로 재할당하는 경우, 원하지 않은 법적 결과가 발생할 수 있습니다. 이러한 문제를 해결하기 위해 새로운 결합 해제 프로세스는 2025년부터 영구 ID로 개인정보 보호 요청의 대상인 이벤트를 업데이트합니다.
+  >개인정보 보호 요청의 일부인 결합 해제 프로세스는 2025년 초에 변경됩니다. 현재의 결합 해제 프로세스는 알려진 ID의 최신 버전을 사용하여 이벤트를 다시 결합합니다. 이벤트를 다른 ID로 재할당하는 경우, 바람직하지 않은 법적 결과가 발생할 수 있습니다. 이러한 문제를 해결하기 위해 새로운 결합 해제 프로세스는 2025년부터 영구 ID로 개인정보 보호 요청의 대상인 이벤트를 업데이트합니다.
   > 
 
 
@@ -156,7 +149,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 새 디바이스에서 인증되지 않은 이벤트와 인증된 이벤트는 모두 별도의 사람(일시적으로)으로 계산됩니다. 인식된 장치의 인증되지 않은 이벤트는 라이브 결합됩니다.
 
-속성은 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예에서 이벤트 1, 8, 9, 10을 제외한 모든 이벤트는 라이브로 결합됩니다(모두 `Bob` 식별자를 사용). 라이브 결합은 이벤트 4, 6 및 12의 결과 ID를 &quot;확인&quot;합니다.
+기여도는 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예에서 이벤트 1, 8, 9, 10을 제외한 모든 이벤트는 라이브로 결합됩니다(모두 `Bob` 식별자를 사용). 라이브 결합은 이벤트 4, 6 및 12의 결과 ID를 &quot;확인&quot;합니다.
 
 타임스탬프가 24시간 이상 된 데이터인 지연된 데이터는 최선의 노력으로 처리되며, 최상의 품질을 위해 현재 데이터를 우선 결합합니다.
 
@@ -190,7 +183,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 {style="table-layout:auto"}
 
-속성은 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예제에서 이벤트 1과 10은 재생의 결과로 결합되고 이벤트 8과 9만 결합되지 않습니다. 또한 인원 지표(누적)가 2로 줄어듭니다.
+기여도는 식별 사용자 정의 변수가 디바이스에 연결되면 작동합니다. 위의 예제에서 이벤트 1과 10은 재생 결과로 결합되고 이벤트 8과 9만 결합되지 않습니다. 또한 인원 지표(누적)가 2로 줄어듭니다.
 
 +++ 
 
@@ -200,7 +193,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 +++ 세부 사항
 
-다음 테이블은 위와 동일한 데이터를 나타내지만, Bob에 대한 개인정보 보호 요청이 요청 처리 후 데이터에 미치는 영향을 보여 줍니다. Bob이 인증된 행은 다른 행의 개인 ID로 Bob을 제거할 때 함께 제거됩니다(2, 3, 5, 7 및 11).
+다음 테이블은 위와 동일한 데이터를 나타내지만, Bob에 대한 개인정보 보호 요청이 요청 처리 후 데이터에 미치는 영향을 보여 줍니다. Bob이 인증된 행(2, 3, 5, 7 및 11)은 제거되며, 다른 행에서는 개인 ID로서의 Bob도 제거됩니다.
 
 *Bob에 대한 개인정보 보호 요청 후의 동일한 데이터:*
 
@@ -228,11 +221,11 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 - 결합을 적용할 Adobe Experience Platform의 이벤트 데이터 세트에는 프로필을 식별하는 데 도움이 되는 두 개의 열이 있어야 합니다.
 
-   - 모든 행에서 사용 가능한 식별자인 **영구 ID**. 예를 들면 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
-   - **개인 ID**&#x200B;는 일부 행에서만 사용할 수 있는 식별자입니다. 예를 들어 프로필이 인증을 받은 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 식별자를 거의 모두 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 개인 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 한 번 이상 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우, 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
+  - 모든 행에서 사용 가능한 식별자인 **영구 ID**. 예를 들면 Adobe Analytics AppMeasurement 라이브러리에서 생성된 방문자 ID 또는 Adobe Experience Platform ID 서비스에서 생성된 ECID입니다.
+  - **개인 ID**&#x200B;는 일부 행에서만 사용할 수 있는 식별자입니다. 예를 들어 프로필이 인증된 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 식별자를 거의 모두 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 개인 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 한 번 이상 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우, 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
@@ -240,9 +233,9 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
 
 다음 제한 사항은 특히 필드 기반 결합에 적용됩니다.
 
-- 현재 재입력 기능은 한 단계로 제한됩니다(영구 ID를 개인 ID로). 여러 단계의 키 재입력(예: 영구 ID를 개인 ID로, 그다음 다른 개인 ID로 변경)은 지원되지 않습니다.
+- 현재 키 재지정 기능은 한 단계(영구 ID에서 개인 ID로)로 제한됩니다. 여러 단계의 키 재입력(예: 영구 ID를 개인 ID로, 그다음 다른 개인 ID로 변경)은 지원되지 않습니다.
 - 여러 사람이 디바이스를 공유하고 사용자 간 총 전환 수가 50,000개를 초과하는 경우 Customer Journey Analytics은 해당 디바이스에 대한 데이터 결합을 중지합니다.
-- 조직에서 사용한 사용자 정의 ID 맵은 지원되지 않습니다.
+- 조직에서 사용하는 사용자 정의 ID 맵은 지원되지 않습니다.
 - 결합은 대/소문자를 구분합니다. Analytics 소스 커넥터를 통해 생성된 데이터 세트의 경우, Adobe는 개인 ID 필드에 적용되는 VISTA 규칙 또는 처리 규칙을 검토할 것을 권장합니다. 이러한 검토를 통해 동일한 ID의 새로운 형식을 도입하는 규칙이 없는지 확인할 수 있습니다. 예를 들어 VISTA 또는 처리 규칙이 이벤트의 일부에서만 개인 ID 필드에 소문자를 도입하지 않는지 확인해 보아야 합니다.
 - 결합은 필드를 결합하거나 연결하지 않습니다.
 - 개인 ID 필드는 단일 유형의 ID(단일 네임스페이스의 ID)를 포함해야 합니다. 예를 들어 개인 ID 필드는 로그인 ID와 이메일 ID의 조합을 포함해서는 안 됩니다.

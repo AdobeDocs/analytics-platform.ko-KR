@@ -5,23 +5,14 @@ exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
 role: User
 TQID: https://experienceleague.adobe.com/Gr0XohCP1P57crLYW34oL-tr9kFuC6E-VxjWYtqEEdA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 1332
+source-wordcount: 1338
 ht-degree: 65%
 
 ---
@@ -30,8 +21,8 @@ ht-degree: 65%
 
 보고에 도움이 되기 전에 데이터를 처리해야 하는 경우가 있습니다. 데이터 수집과 보고서 또는 시각화 생성에 걸쳐 여정의 여러 단계에서 해당 데이터를 처리할 수 있습니다.
 
-Adobe Analytics에서 해당 데이터 처리는 대부분 데이터가 수집되면 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능을 사용하여 이 **수집 시간 처리**&#x200B;를 지원할 수 있습니다.
-그런 다음 데이터를 저장하고 보고서 시간에 추가 처리를 적용할 수 있습니다. 보고 시 처리 차원을 분류하고 세분화를 적용하거나 다른 속성 모델을 선택합니다. 이 **보고 시 처리**&#x200B;는 작동 중에 발생합니다.
+Adobe Analytics에서 해당 데이터 처리는 대부분 데이터가 수집되면 발생합니다. VISTA 규칙, 처리 규칙, 마케팅 채널 처리 규칙과 같은 기능을 사용하여 이 **수집 시간 처리**를 지원할 수 있습니다.
+그런 다음 데이터가 저장되고 보고서 시간에 추가 처리를 적용할 수 있습니다. 예를 들어 차원을 분류하고 세분화를 적용하거나 다른 기여도 모델을 선택합니다. 이 **보고 시 처리**&#x200B;는 작동 중에 발생합니다.
 
 Adobe Analytics에서 보고 시 처리는 일반적으로 수집 시 발생하는 양보다 적은 처리량을 나타냅니다.
 
@@ -54,14 +45,14 @@ Adobe Analytics에서 보고 시 처리는 일반적으로 수집 시 발생하�
 | 용어 | 정의 | 참고 |
 | --- | --- | --- |
 | 수집 시간 처리 | 데이터가 수집 및 처리될 때 보고 및 분석 목적으로 저장되기 전에 수행되는 논리입니다. | 이 논리는 내역 데이터에 &#39;반영되며&#39; 일반적으로 쉽게 변경할 수 없습니다. |
-| 보고 시 처리 | 보고서가 실행되는 시간에 수행되는 논리입니다. | 이 논리는 보고서 실행 시 비파괴적인 방식으로 미래 및 내역 데이터에 적용할 수 있습니다. |
+| 보고 시 처리 | 보고서가 실행될 때 수행되는 논리입니다. | 이 논리는 보고서 실행 시 비파괴적인 방식으로 미래 및 내역 데이터에 적용할 수 있습니다. |
 | 히트 수준 논리 | 행별 수준에서 적용된 논리입니다. | 예: 처리 규칙, VISTA, 특정 마케팅 채널 규칙. |
 | 방문 수준 논리 | 방문 수준에서 적용되는 논리입니다. | 예: 방문 및 세션 정의. |
-| 방문자 수준 논리 | 개인 수준에서 적용되는 논리입니다. | 예: 크로스 디바이스/크로스 채널 개인 결합. |
+| 방문자 수준 논리 | 개인 수준에서 적용되는 논리입니다. | 예: 크로스 디바이스/크로스 채널 개인 연결. |
 | 세그먼트 논리 | 이벤트/방문/개인(이벤트/세션/개인) 세그먼트 규칙의 평가입니다. | 예: 빨간 신발을 구입한 사람. |
 | 계산된 지표 | 고객이 만든 사용자 지정 지표의 평가입니다. 계산된 지표는 세그먼트를 포함한 복잡한 공식을 기반으로 할 수 있습니다. | 예를 들어 빨간 신발을 구입한 사람의 수입니다. |
 | 기여도 논리 | 기여도를 계산하는 논리입니다. | 예: eVar 지속성. |
-| 구성 요소 설정 | 속성, 동작, 형식 등과 같은 지표 또는 차원에 사용자 지정 적용 | 예: 범위를 기준으로 숫자 값을 조합할 수 있는 값 버킷팅 |
+| 구성 요소 설정 | 속성, 동작, 형식 등과 같은 지표 또는 차원에 사용자 지정 적용 | 예: 범위를 기준으로 숫자 값을 결합하는 값 버킷팅 |
 | 파생 필드 | 데이터 보기에서 구성 요소를 정의할 때 스키마 또는 표준 필드에 적용되는 논리입니다. | 예: 마케팅 채널 차원 새로 만들기 |
 
 {style="table-layout:auto"}
@@ -74,12 +65,12 @@ Adobe Analytics 및 Customer Journey Analytics에서 수행하는 데이터 처�
 
 | 기능 | 처리 시간에 적용 | 보고서 시간에 적용 | 사용할 수 없음 | 참고 |
 | --- | --- | --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics) 보고<br/>(보고서 시간이 처리되는 고급 속성 기능 또는 가상 보고서 세트를 포함하지 않음) | <ul><li>[처리 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)</li><li>[VISTA 규칙](https://experienceleague.adobe.com/ko/docs/analytics/technotes/terms)</li><li>히트 수준 [마케팅 채널 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)</li><li>방문 수준 마케팅 채널 규칙 (메모 참조)</li><li>방문 정의</li><li>기여도 논리</li></ul> | <ul><li>세그먼트 논리</li><li>계산된 지표</li></ul> | <ul><li>Cross-Device Analytics (메모 참조)</li></ul> | <ul><li>교차 디바이스 분석을 사용하려면 보고서 처리 시간이 포함된 가상 보고서 세트를 사용해야 합니다.</li><li>“방문 수준 마케팅 채널 규칙”에는 **방문의 첫 번째 페이지임**, **마지막 접촉 채널 무시** 및 **마케팅 채널 만료**&#x200B;가 포함됩니다. ([설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels)를 참조하십시오.)</li></ul> |
+| [Adobe Analytics](https://experienceleague.adobe.com/ko/docs/analytics) 보고<br/>(보고서 시간이 처리되는 고급 속성 기능 또는 가상 보고서 세트를 포함하지 않음) | <ul><li>[처리 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)</li><li>[VISTA 규칙](https://experienceleague.adobe.com/en/docs/analytics/technotes/terms)</li><li>히트 수준 [마케팅 채널 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)</li><li>방문 수준 마케팅 채널 규칙 (메모 참조)</li><li>방문 정의</li><li>기여도 논리</li></ul> | <ul><li>세그먼트 논리</li><li>계산된 지표</li></ul> | <ul><li>Cross-Device Analytics (메모 참조)</li></ul> | <ul><li>교차 디바이스 분석을 사용하려면 보고서 처리 시간이 포함된 가상 보고서 세트를 사용해야 합니다.</li><li>“방문 수준 마케팅 채널 규칙”에는 **방문의 첫 번째 페이지임**, **마지막 접촉 채널 무시** 및 **마케팅 채널 만료**&#x200B;가 포함됩니다. ([설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels)를 참조하십시오.)</li></ul> |
 | Adobe Analytics [데이터 웨어하우스](https://experienceleague.adobe.com/ko/docs/analytics/export/data-warehouse/data-warehouse) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li><li>방문 정의</li><li>기여도 논리</li></ul> | <ul><li>세그먼트 논리</li></ul> | <ul><li>계산된 지표</li><li>크로스 디바이스 분석</li></ul> |     |
-| Adobe Analytics [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li><li>방문 정의(visitnum 필드)</li><li>기여도 논리(이후 열에서)</li></ul> |   | <ul><li>세그먼트 논리</li><li>계산된 지표</li><li>크로스 디바이스 분석</li></ul> | <ul><li>데이터 피드의 특정 마케팅 채널 관련 열에 대한 ID 매핑은 데이터 피드에 포함되지 않습니다. ([데이터 피드 설명서](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 참조하십시오.)</li></ul> |
+| Adobe Analytics [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li><li>방문 정의(visitnum 필드)</li><li>기여도 논리(포스트 열에서)</li></ul> |   | <ul><li>세그먼트 논리</li><li>계산된 지표</li><li>크로스 디바이스 분석</li></ul> | <ul><li>데이터 피드의 특정 마케팅 채널 관련 열에 대한 ID 매핑은 데이터 피드에 포함되지 않습니다. ([데이터 피드 설명서](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 참조하십시오.)</li></ul> |
 | Adobe Analytics [라이브스트림](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) | <ul><li> 처리 규칙</li><li>VISTA 규칙</li><ul> |   | <ul><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li><li>방문 논리</li><li>기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li><li>크로스 디바이스 분석</li></ul> |  |
-| Adobe Analytics [고급 속성 기능](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/overview) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>방문 정의 (메모 참조)</li><li>Cross-Device Analytics (메모 참조)</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙 (메모 참조)</li><li>방문 수준 마케팅 채널 규칙 (메모 참조) 기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li></ul> |  | <ul><li>교차 디바이스 분석을 사용하려면 보고서 처리 시간이 포함된 가상 보고서 세트를 사용해야 합니다.</li><li>코어 Analytics의 고급 속성 기능은 보고서 시간에 완전히 파생된 마케팅 채널(즉, 파생된 중간 값)을 사용합니다.</li><li>고급 속성 기능은 보고서 시간 처리 가상 보고서 세트에 사용되는 경우를 제외하고 처리 시간 방문 정의를 사용합니다.</li></ul> |
-| [보고 시 처리](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing) 기능이 있는 Adobe Analytics 가상 보고서 세트 | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>[크로스 디바이스 분석](https://experienceleague.adobe.com/ko/docs/analytics/components/cda/overview)</li></ul> | <ul><li>방문 정의</li><li>기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li><li>기타 가상 보고서 세트 보고 시 처리 설정</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>가상 보고서 세트 보고 시 처리 [설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)를 참조하십시오.</li></ul> |
+| Adobe Analytics [고급 속성 기능](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/overview) | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>방문 정의 (메모 참조)</li><li>Cross-Device Analytics (메모 참조)</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙 (메모 참조)</li><li>방문 수준 마케팅 채널 규칙 (메모 참조) 기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li></ul> |  | <ul><li>교차 디바이스 분석을 사용하려면 보고서 처리 시간이 포함된 가상 보고서 세트를 사용해야 합니다.</li><li>코어 Analytics의 고급 속성 기능은 보고서 시간에 완전히 파생된 마케팅 채널(즉, 파생된 중간 값)을 사용합니다.</li><li>고급 속성 기능은 보고서 시간 처리 가상 보고서 세트에 사용되는 경우를 제외하고 처리 시간 방문 정의를 사용합니다.</li></ul> |
+| [보고 시 처리](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing) 기능이 있는 Adobe Analytics 가상 보고서 세트 | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>[크로스 디바이스 분석](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)</li></ul> | <ul><li>방문 정의</li><li>기여도 논리</li><li>세그먼트 논리</li><li>계산된 지표</li><li>기타 가상 보고서 세트 보고 시 처리 설정</li></ul> | <ul><li>히트 수준 마케팅 채널 규칙</li><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>가상 보고서 세트 보고 시 처리 [설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)를 참조하십시오.</li></ul> |
 | Adobe Experience Platform 데이터 레이크의 [Analytics 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics) 기반 데이터 세트 | <ul><li>처리 규칙</li><li>VISTA 규칙</li><li>히트 수준 마케팅 채널 규칙</li><li>필드 기반 결합 (메모 참조)</li></ul> |   | <ul><li>[방문 수준 마케팅 채널 규칙](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels)</li><li>방문 논리</li><li>기여도 논리</li><li>세그먼트 논리</li></ul> | <ul><li>자체 세그먼트 논리 및 계산된 지표 적용</li><li>필드 기반 결합은 Analytics 소스 커넥터에서 만든 데이터 세트 외에 별도의 결합된 데이터 세트를 만듭니다.</li></ul> |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/cja-landing) 보고 | <ul><li>Adobe Experience Platform 데이터 수집의 일부로 구현</li></ul> | <ul><li>세션 정의</li><li>[데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views) 설정<li>기여도 논리</li><li>계산된 지표</li><li>세그먼트 논리</li></ul> | <ul><li>방문 수준 마케팅 채널 규칙</li></ul> | <ul><li>결합된 데이터 세트를 사용하여 크로스 채널 분석을 활용합니다.</li></ul> |
 

@@ -7,27 +7,15 @@ role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
 autotag-review: '2026-05-19T09:47:24.777Z'
 TQID: 'https://experienceleague.adobe.com/8Xq8mUchtogMLiEuPVv-DWpkWtD5ubJGSQm2SRaZmps'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24bid: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 16%
+source-wordcount: 743
+ht-degree: 18%
 
 ---
 
@@ -68,7 +56,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 마지막 인증 속성
 
-Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Experience Platform Identity 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다. 자세한 내용은 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)을 참조하십시오.
+Last-auth는 공유 장치에서 마지막으로 인증된 사용자에게 알 수 없는 모든 활동을 연결합니다. Experience Platform Identity 서비스는 마지막 인증 속성을 기반으로 그래프를 작성하며, 따라서 그래프 기반 결합에 사용됩니다. 자세한 내용은 [ID 그래프 연결 규칙](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)을 참조하십시오.
 
 결합에 마지막 인증 속성이 사용되면 아래 표에 표시된 대로 결합된 ID가 확인됩니다.
 

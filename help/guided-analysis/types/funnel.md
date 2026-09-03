@@ -6,20 +6,11 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
 TQID: https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 685
@@ -40,7 +31,7 @@ ht-degree: 100%
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 최종 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431277/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -62,10 +53,10 @@ ht-degree: 100%
 
 * **[!UICONTROL 보기]**: 이 분석과 [전환 트렌드](conversion-trends.md)를 전환합니다.
 * **[!UICONTROL 단계]**: 추적하려는 이벤트 터치포인트. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-   * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계 내에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
+  * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계 내에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
 * **[!UICONTROL 다음으로 계산됨]**: 단계에 적용하려는 범위. 옵션에는 [!UICONTROL 세션]과 [!UICONTROL 사용자]가 있습니다.
-   * [!UICONTROL 세션]: 모든 단계가 동일한 세션 내에서 진행되어야 계산할 수 있습니다.
-   * [!UICONTROL 사용자]: 모든 단계가 선택한 보고 창 내에서 이루어져야 계산할 수 있습니다.
+  * [!UICONTROL 세션]: 모든 단계가 동일한 세션 내에서 진행되어야 계산할 수 있습니다.
+  * [!UICONTROL 사용자]: 모든 단계가 선택한 보고 창 내에서 이루어져야 계산할 수 있습니다.
 * **[!UICONTROL 세그먼트]**: 단계를 비교할 세그먼트. 선택된 각 세그먼트는 각 단계를 여러 개의 막대로 나눕니다. 각 색상은 다른 세그먼트를 나타냅니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ### 차트 설정

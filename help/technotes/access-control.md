@@ -7,39 +7,11 @@ exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
 TQID: https://experienceleague.adobe.com/-Zv1B2pvTFAAgwV1uAV6ik65jtKVRBsF-2rc0tCHuUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a4cd176f-aea0-45b8-80e6-7f1b931e5847
-  - id: a67cb189-a535-41f6-afa2-448f39c4759f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d13dba12-733d-4914-8d92-d643658bbe5d
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
-  - id: f24857a4-4b64-4b25-b237-d43026362144
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a4cd176f-aea0-45b8-80e6-7f1b931e5847id: a67cb189-a535-41f6-afa2-448f39c4759fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: bf2b169f-d8b2-488a-97b9-f3bc9532e35cid: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8id: c38ed341-fab2-46df-9d72-88d8166edebbid: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d13dba12-733d-4914-8d92-d643658bbe5did: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e0cfe18a-f68c-495b-bafc-f6bcc0392d6cid: e1471301-a189-438e-8d48-264a8db508a6id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e8abc408-b05c-427f-9e37-f8b033a6b3c3id: f24857a4-4b64-4b25-b237-d43026362144id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1661
@@ -116,36 +88,36 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
   | [!UICONTROL 대상] | [!UICONTROL 대상 관리] | 대상 연결 및 대상 계정을 읽고 만들고 삭제할 수 있는 액세스 권한. |
-  | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 기존 대상에 대한 세그먼트를 활성화할 수 있도록 허용합니다. 활성화 워크플로에서 매핑 단계를 활성화합니다. 이 권한을 사용하려면 대상에 데이터를 활성화하려는 사용자에게 대상 보기 권한도 부여되어야 합니다. |
+  | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 세그먼트를 기존 대상으로 활성화할 수 있도록 허용합니다. 활성화 워크플로에서 매핑 단계를 활성화합니다. 이 권한을 사용하려면 대상에 데이터를 활성화하려는 사용자에게 대상 보기 권한도 부여되어야 합니다. |
 
   Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
 
 * [BI 확장 기능](../data-views/bi-extension.md) 사용
 
-  사용자가 BI 확장을 사용할 수 있도록 지원, 제품 관리자
+  사용자가 BI 확장 기능을 사용할 수 있도록 하려면 제품 관리자는
 
-   * 사용자의 Experience Platform 권한에는 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 포함된 쿼리 서비스 리소스가 있는 역할이 포함되어야 합니다. Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
+  * 사용자의 Experience Platform 권한에는 쿼리 관리 및 쿼리 서비스 통합 관리 옵션이 포함된 쿼리 서비스 리소스가 있는 역할이 포함되어야 합니다. Experience Platform 권한에 대한 자세한 내용은 [제품 프로필에 대한 권한 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/permissions)를 참조하십시오.
 
-     | 카테고리 | 사용 권한 | 설명 |
-     |---|---|---|
-     | [!UICONTROL 쿼리 서비스] | [!UICONTROL 쿼리 관리] | Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한 |
-     | [!UICONTROL 쿼리 서비스] | [!UICONTROL 쿼리 서비스 통합 관리] | 쿼리 서비스 액세스에 대해 만료되지 않는 자격 증명을 생성, 업데이트 및 삭제할 수 있는 액세스 권한입니다. |
+    | 카테고리 | 사용 권한 | 설명 |
+    |---|---|---|
+    | [!UICONTROL 쿼리 서비스] | [!UICONTROL 쿼리 관리] | Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한 |
+    | [!UICONTROL 쿼리 서비스] | [!UICONTROL 쿼리 서비스 통합 관리] | 쿼리 서비스 액세스에 대해 만료되지 않는 자격 증명을 생성, 업데이트 및 삭제할 수 있는 액세스 권한입니다. |
 
-   * 사용자에게 적절한 Customer Journey Analytics 권한, 즉
-      * 관련 데이터 보기에 대한 액세스 권한이 있는지 확인해야 합니다. [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기]를 참조하십시오.
-      * Customer Journey Analytics BI 확장 기능에 액세스할 수 있는 권한 [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기 도구]를 참조하십시오.
+  * 사용자에게 적절한 Customer Journey Analytics 권한, 즉
+    * 관련 데이터 보기에 액세스할 수 있는 권한. [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기]를 참조하십시오.
+    * Customer Journey Analytics BI 확장 기능에 액세스할 수 있는 권한 [사용자 수준 액세스](#user-level-access)에서 [!UICONTROL 데이터 보기 도구]를 참조하십시오.
 
 ### 제품 프로필 관리자 역할
 
 제품 프로필은 권한 그룹입니다. 제품 관리자는 제품 프로필을 만들고 제품 프로필 관리자를 지정하여 하나 이상의 제품 프로필을 관리하도록 할 수 있습니다. 그런 다음 제품 프로필 관리자는 다음 작업을 수행할 수 있습니다.
 
-* 할당된 제품 프로필을 관리합니다. 사용자 또는 사용자 그룹을 추가 또는 제거하고 제품 프로필에 대한 권한을 수정합니다.
+* 할당된 제품 프로필을 관리합니다. 예를 들어 사용자 또는 사용자 그룹을 추가 또는 제거하고 제품 프로필에 대한 권한을 수정합니다.
 
 * Customer Journey Analytics에서 지정된 제품 프로필의 일부인 데이터 보기를 편집합니다. 제품 프로필 관리자는 새 데이터 보기를 만들 수 없습니다.
 
 ### 사용자 수준 액세스
 
-아래 표는 관련 사용자에 대해 구성할 수 있는 다양한 Customer Journey Analytics 기능에 대한 기본 액세스 권한을 간략하게 설명합니다. 제품 프로필을 통해 다양한 수준의 사용자 액세스를 관리할 수 있습니다. 제품 프로필은 여러 권한을 결합하여 개별 사용자 또는 사용자 그룹에 할당할 수 있습니다.
+아래 표는 관련 사용자에 대해 구성할 수 있는 다양한 Customer Journey Analytics 기능의 주요 액세스 권한을 간략하게 설명합니다. 제품 프로필을 통해 다양한 수준의 사용자 액세스를 관리할 수 있습니다. 제품 프로필은 여러 권한을 결합한 것으로, 이를 개별 사용자 또는 사용자 그룹에 할당할 수 있습니다.
 
 **[!UICONTROL 권한]** 탭은 [Admin Console](https://adminconsole.adobe.com/enterprise/) 각 제품 프로필의 일부입니다.
 
@@ -158,7 +130,7 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 | [!UICONTROL 보고 도구] | [!UICONTROL 계산된 지표 만들기] | 사용자가 [계산된 지표](/help/components/calc-metrics/calc-metr-overview.md)를 만들 수 있도록 합니다. 사용자는 자신이 만든 계산된 지표 또는 자신과 공유된 계산된 지표만 태그 지정, 공유, 삭제 및 이름 변경을 수행할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 세그먼트 만들기] | 사용자가 [세그먼트](/help/components/segments/seg-overview.md)를 만들 수 있도록 합니다. 사용자는 자신이 만든 세그먼트 또는 자신과 공유된 세그먼트만 태그 지정, 공유, 삭제 및 이름 변경을 수행할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL Labs 액세스] | 사용자가 Customer Journey Analytics의 [Labs](/help/labs/labs.md) 탭에 액세스할 수 있도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 합니다. 사용자는 본인이 만든 주석이나 본인에게 공유된 주석을 태그 지정, 공유, 삭제, 이름 변경할 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL 주석 작성] | 사용자가 [주석](/help/components/annotations/overview.md)을 만들 수 있도록 합니다. 사용자는 본인이 만든 주석이나 본인에게 공유된 주석만 태그 지정, 공유, 삭제 및 이름 변경할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 보기] | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 볼 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 대상자 생성] | 사용자가 [대상자](/help/components/audiences/audiences-overview.md)를 만들 수 있도록 합니다. Adobe Experience Platform에서 [세그먼트 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)가 필요합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 데이터 스토리텔링] | 사용자가 [Workspace 프로젝트를 기반으로 슬라이드 프레젠테이션을 생성](/help/analysis-workspace/curate-share/generate-slides.md)할 수 있도록 합니다. |
@@ -180,7 +152,7 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 ## 개별 지표 또는 차원에 대한 액세스 권한 부여
 
-Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 변경할 수 있으므로 Customer Journey Analytics 내 변경 사항의 영향을 받습니다. 소급하여 변경하면 보고도 변경됩니다.
+Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 개별 지표 또는 차원에 대한 권한을 부여하거나 거부할 수 없습니다. 지표와 차원은 [데이터 보기](/help/data-views/data-views.md)에서 변경할 수 있으므로 Customer Journey Analytics 내 변경 사항의 영향을 받습니다. 이를 변경하면 보고도 소급하여 변경됩니다.
 
 ## 사용 사례
 
@@ -188,7 +160,7 @@ Customer Journey Analytics에서는 기존의 Adobe Analytics에서와 같이 �
 
 ### 서드파티 액세스
 
-귀하가 근무하는 서드파티의 팀 리더에게 제품 프로필 관리 액세스 권한을 제공할 수 있습니다. 그러면 이 관리자는 서드파티의 팀 사용자를 이 제품 프로필에 추가할 수 있습니다. 이 제품 프로필 관리자는 특정 데이터 보기에 대한 액세스 권한을 부여하고 서드파티 내의 다른 사용자를 이 제품 프로필에 추가할 수 있습니다. 제품 프로필 관리자는 서드파티 팀의 요구 사항에 맞게 데이터 보기를 수정할 수 있습니다.
+귀사가 협력하는 서드파티의 팀 리더에게 제품 프로필 관리 액세스 권한을 제공할 수 있습니다. 그러면 이 관리자는 서드파티의 팀 사용자를 이 제품 프로필에 추가할 수 있습니다. 이 제품 프로필 관리자는 특정 데이터 보기에 대한 액세스 권한을 부여하고 서드파티 내의 다른 사용자를 이 제품 프로필에 추가할 수 있습니다. 제품 프로필 관리자는 서드파티 팀의 요구 사항에 맞게 데이터 보기를 수정할 수 있습니다.
 
 ### 행 수준 액세스 제어
 

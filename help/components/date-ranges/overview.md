@@ -5,16 +5,10 @@ feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 TQID: https://experienceleague.adobe.com/SLxxyE8fc1OPZ1uc90jCDCE1vfnbF6Kctpbkcrk8WYs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 530
@@ -26,7 +20,7 @@ ht-degree: 100%
 
 Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/analysis-workspace/c-panels/panels.md#calendar)를 사용하여 해당 패널의 시각화 날짜 범위를 지정합니다.
 
-날짜 범위 구성 요소를 사용하면 패널의 캘린더 설정을 정의할 수 있습니다.
+날짜 범위 구성 요소를 사용하면 패널의 캘린더 설정을 정의하고 재정의할 수 있습니다.
 
 ## 날짜 범위 사용
 
@@ -53,7 +47,7 @@ Workspace 프로젝트에서는 일반적으로 [패널의 캘린더](/help/anal
 
 자유 형식 테이블 시각화에 날짜 범위 열을 직접 추가할 수도 있습니다.
 
-1. 지표 열의 컨텍스트 메뉴에서 선택합니다.
+1. 지표 열의 컨텍스트 메뉴에서 다음을 선택합니다.
 
    - **[!UICONTROL 기간 열 추가]**. 현재 캘린더를 기반으로 제안된 옵션 중에서 선택하거나 [사용자 정의 날짜 범위](#custom-date-ranges)를 만들 수 있습니다.
    - **[!UICONTROL 기간 비교]**. 현재 캘린더를 기반으로 제안된 옵션 중에서 선택하거나 [사용자 정의 날짜 범위](#custom-date-ranges)를 만들 수 있습니다.

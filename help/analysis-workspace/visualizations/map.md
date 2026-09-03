@@ -5,24 +5,11 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 TQID: https://experienceleague.adobe.com/HFEY-P7m7s0Mukkzw-vWL7I5-WHSncEppX-basxJHGw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -37,7 +24,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="맵"
->abstract="이 시각화는 지표를 맵 위에 중첩되도록 표현합니다. 이는 지리적으로 다른 지역들의 데이터를 식별하는 데 유용합니다."
+>abstract="이 시각화는 지표를 맵 위에 오버레이하여 표시합니다. 이는 지리적으로 다른 지역들의 데이터를 식별하는 데 유용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +48,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 맵 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을 참조하십시오._
+_이 문서에서는 맵 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -225,21 +212,21 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
    * **확대**: 다음 방법 중 하나로 특정 영역을 확대하도록 맵을 확대할 수 있습니다.
 
-      * 마우스를 사용하여 맵을 두 번 클릭합니다.
+     * 마우스를 사용하여 맵을 두 번 클릭합니다.
 
-      * 트랙패드에서 마우스 스크롤 휠이나 유사한 작업을 사용합니다.
+     * 트랙패드에서 마우스 스크롤 휠이나 유사한 작업을 사용합니다.
 
-      * 맵 시각화에서 더하기 아이콘 ![확대 아이콘](assets/map-zoomin-icon.png)을(를) 선택합니다.
+     * 맵 시각화에서 더하기 아이콘 ![확대 아이콘](assets/map-zoomin-icon.png)을(를) 선택합니다.
 
      그에 따라 맵이 확대/축소됩니다. 필요한 차원(국가 > 주 > 구/군/시)은 확대/축소 수준에 따라 자동으로 업데이트됩니다.
 
    * **축소**: 맵을 축소하여 다음 방법 중 하나로 더 큰 영역을 볼 수 있습니다.
 
-      * Shift 키를 누른 채 마우스로 맵을 두 번 클릭합니다.
+     * Shift 키를 누른 채 마우스로 맵을 두 번 클릭합니다.
 
-      * 트랙패드에서 마우스 스크롤 휠이나 유사한 작업을 사용합니다.
+     * 트랙패드에서 마우스 스크롤 휠이나 유사한 작업을 사용합니다.
 
-      * 맵 시각화에서 마이너스 아이콘 ![축소 아이콘](assets/map-zoomout-icon.png)을 선택합니다.
+     * 맵 시각화에서 마이너스 아이콘 ![축소 아이콘](assets/map-zoomout-icon.png)을 선택합니다.
 
      그에 따라 맵이 확대/축소됩니다. 필요한 차원(국가 > 주 > 구/군/시)은 확대/축소 수준에 따라 자동으로 업데이트됩니다.
 
@@ -255,13 +242,13 @@ Customer Journey Analytics의 맵 시각화는 Adobe Analytics의 맵 시각화�
 
    * **기간별 비교 표시(예: 연도별)**:
 
-      * 음수를 표시합니다.
+     * 음수를 표시합니다.
 
-        예를 들어 연도별 지표를 맵에 그리는 경우 뉴욕에 대해 -33%를 맵에 표시할 수 있습니다.
+       예를 들어 연도별 지표를 맵에 그리는 경우 뉴욕에 대해 -33%를 맵에 표시할 수 있습니다.
 
-      * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
+     * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
 
-      * 녹색 및 빨간색 색상 구성표는 양수 및 음수를 나타냅니다.
+     * 녹색 및 빨간색 색상 구성표는 양수 및 음수를 나타냅니다.
 
    * **추가 시각화 설정**: 맵 시각화에 대한 추가 설정을 보려면 시각화 헤더에서 설정 아이콘 ![설정](/help/assets/icons/Setting.svg)을 선택하십시오. 자세한 내용은 [시각화 설정 구성](#configure-visualization-settings)을 참조하십시오.
 

@@ -5,16 +5,10 @@ exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters, Segments
 role: User
 TQID: https://experienceleague.adobe.com/16SJDNJiR49Ztw0jGO8Jj3iIuoDZJKFWmGDtK26P1Ps
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1215
@@ -58,7 +52,7 @@ ht-degree: 33%
 | **[!UICONTROL 모두 포함]** | 함께 결합된 여러 값을 포함하여 하위 문자열과 비교한 항목을 반환합니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 이 연산자와 함께 `Search Results`을(를) 입력하면 *검색 결과* 및 *검색 결과*&#x200B;는 일치하지만, 개별적으로 *검색* 또는 *결과*&#x200B;는 일치하지 않습니다. 규칙이 *검색*&#x200B;과(와) *결과*&#x200B;을(를) 함께 찾았습니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
 | **[!UICONTROL 다음을 모두 포함하지 않음]** | 함께 결합된 여러 값을 포함하여 하위 문자열과 비교하여 항목을 식별한 다음 이 값이 없는 항목만 반환합니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 이 연산자와 함께 `Search Results`을(를) 입력하면 *검색 결과* 및 *검색 결과*(개별적으로 *검색* 또는 *결과*&#x200B;는 아님)를 식별한 다음 이 항목을 제외합니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
 | **[!UICONTROL 다음 중 하나 이상의 항목 포함]** | 결합되거나 독립적으로 식별된 여러 값을 포함하여 하위 문자열과 비교한 항목을 반환합니다. 예를 들어, 이 연산자와 함께 `Search Results`을(를) 입력하면 *검색 결과*, *검색 결과*, *검색 결과* 및 *결과*&#x200B;와 일치합니다. *Search* 또는 *Results*&#x200B;이(가) 함께 검색되거나 독립적으로 검색됩니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
-| **[!UICONTROL 다음 중 포함하는 항목 없음]** | 부분 문자열을 기반으로 항목을 식별한 다음 이 하위 문자열이 없는 값을 반환합니다. 여러 개의 결합된 값이나 독립적으로 식별되는 값이 있을 수 있습니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 `Search Results`을(를) 입력하면 *검색* 또는 *결과*&#x200B;가 함께 또는 독립적으로 검색되는 *검색 결과*, *검색 결과*, *검색 결과* 및 *결과*&#x200B;와 일치합니다. 그런 다음 이 부분 문자열이 들어 있는 항목을 제외합니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
+| **[!UICONTROL 다음 중 포함하는 항목 없음]** | 부분 문자열을 기반으로 항목을 식별한 다음 이러한 부분 문자열이 없는 값을 반환합니다. 여러 개의 결합된 값이나 독립적으로 식별되는 값이 있을 수 있습니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 `Search Results`을(를) 입력하면 *검색* 또는 *결과*&#x200B;가 함께 또는 독립적으로 검색되는 *검색 결과*, *검색 결과*, *검색 결과* 및 *결과*&#x200B;와 일치합니다. 그런 다음 이 부분 문자열이 들어 있는 항목을 제외합니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
 | **[!UICONTROL 다음으로 시작]** | 입력한 문자열 값으로 시작하는 항목을 반환합니다. |
 | **[!UICONTROL 다음으로 시작하지 않음]** | 입력한 문자열 값으로 시작하지 않는 모든 항목을 반환합니다. **[!UICONTROL 다음으로 시작]** 연산자의 역입니다. |
 | **[!UICONTROL 다음으로 끝남]** | 입력한 문자열 값으로 끝나는 항목을 반환합니다. |
@@ -93,6 +87,6 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [개별 차원 개수](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [개별 차원 개수](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]

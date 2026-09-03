@@ -5,14 +5,10 @@ feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 TQID: https://experienceleague.adobe.com/21Rc7-uX7Ie2qj5FHzjb89CTmvi79Ne-FR92okGF5uo
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,15 +42,15 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
 
   ![프로젝트 저장](assets/save-project.png)
 
-   1. 다음을 지정합니다.
+  1. 다음을 지정합니다.
 
-      * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
-      * **[!UICONTROL 설명]**. 프로젝트의 설명.
-      * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
-      * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
-      * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
+     * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
+     * **[!UICONTROL 설명]**. 프로젝트의 설명.
+     * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
+     * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
+     * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
 
-   1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+  1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
   프로젝트를 저장하면 실제로 90일 동안 저장되는 프로젝트 버전이 저장됩니다.
 
@@ -62,8 +58,8 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
 
   ![프로젝트 공유 저장](assets/save-project-shared.png)
 
-   * 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-   * 프로젝트를 새 이름의 복제 프로젝트로 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
+  * 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+  * 프로젝트를 새 이름의 복제 프로젝트로 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
 
 
 * **[!UICONTROL 메모와 함께 저장]**
@@ -72,8 +68,8 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
 
   프로젝트를 저장할 때 프로젝트의 변경 내용에 대한 메모를 추가합니다. 버전 메모 저장 대화 상자에서:
 
-   1. **[!UICONTROL 메모 추가]** 텍스트 영역에 **[!UICONTROL 버전 메모]**&#x200B;를 입력합니다.
-   1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+  1. **[!UICONTROL 메모 추가]** 텍스트 영역에 **[!UICONTROL 버전 메모]**&#x200B;를 입력합니다.
+  1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
   메모는 프로젝트 버전과 함께 저장되며, [이전 버전의 프로젝트를 열 때](open-projects.md#open-previous-version) 사용할 수 있습니다. 메모와 함께 저장된 버전은 1년간 자동으로 저장됩니다.
 
@@ -83,22 +79,22 @@ Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다. �
 
   새 이름으로 프로젝트 복제본을 만듭니다. 다른 이름으로 저장 대화 상자가 표시됩니다.
 
-   1. 다음을 지정합니다.
+  1. 다음을 지정합니다.
 
-      * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
-      * **[!UICONTROL 설명]**. 프로젝트의 설명.
-      * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
-      * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
-      * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
+     * **[!UICONTROL 이름]**(필수). 프로젝트의 이름.
+     * **[!UICONTROL 설명]**. 프로젝트의 설명.
+     * **[!UICONTROL 태그]**. [!UICONTROL *태그 검색*] 필드에서 태그를 검색하거나 **[!UICONTROL ENTER]**&#x200B;를 눌러 새로운 태그를 추가합니다.
+     * **[!UICONTROL 폴더]**. [!UICONTROL *폴더 선택*] 드롭다운 메뉴에서 폴더를 선택합니다. 폴더를 지정하지 않으면 프로젝트는 새 프로젝트를 만든 현재 폴더에 저장됩니다.
+     * **[!UICONTROL 버전 메모]**. *메모 추가* 텍스트 영역에 버전 메모를 추가합니다.
 
-   1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+  1. 프로젝트를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
   프로젝트를 다른 폴더에 저장할 수 있습니다. 원본 프로젝트는 영향을 받지 않습니다.
 
 
 <!-- 
 Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## 자동 저장
@@ -113,7 +109,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 ### 새 프로젝트
 
-다른 프로젝트로 전환하거나 브라우저 탭을 닫는 등의 경우 Analysis Workspace에 새 프로젝트를 수동으로 저장하라는 메시지가 표시됩니다.
+다른 프로젝트로 전환하거나 브라우저 탭을 닫는 등의 경우 Analysis Workspace에서 새 프로젝트를 수동으로 저장하라는 메시지가 표시됩니다.
 
 어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 프로젝트의 복구 버전이 **[!UICONTROL 복구된 프로젝트(지난 7일)]** 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장합니다.
 

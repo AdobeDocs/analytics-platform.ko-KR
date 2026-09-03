@@ -6,23 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
 TQID: https://experienceleague.adobe.com/ECcpEFMughC-9Tf1P6-0f82-NusPJ4r5johJMLnD34w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1186
@@ -47,7 +35,7 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Experience Business용 Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}를 확인하십시오.
+Customer Journey Analytics 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Experience Business용 Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +80,7 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 ## 용어 업데이트
 
-기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
+기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
 * 이제 가상 보고서 세트를 “데이터 보기”라고 합니다
 * 이제 분류를 &#39;조회 데이터 세트&#39;라고 합니다.
@@ -117,18 +105,18 @@ Adobe Experience Platform을 사용하면 모든 시스템의 고객 데이터�
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics에서 데이터를 활용하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터를 활용](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}을 확인하십시오.
+Customer Journey Analytics에서 데이터를 활용하는 방법에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 데이터를 활용](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Customer Journey Analytics의 아키텍처와 통합에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [아키텍처 및 통합](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}을 확인하십시오.
+Customer Journey Analytics의 아키텍처와 통합에 대한 소개 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [아키텍처 및 통합](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
->* [분석가용 Adobe Customer Journey Analytics 집중 과정](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=ko)
->* [사고방식과 Adobe Customer Journey Analytics 워크플로 최적화: 모든 규모의 조직을 위한 팀 모델](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=ko)
->* [조직 준비성 구축: Adobe Customer Journey Analytics 확장을 위한 사람 중심 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=ko)
+>* [분석가용 Adobe Customer Journey Analytics 집중 과정](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [사고방식과 Adobe Customer Journey Analytics 워크플로 최적화: 모든 규모의 조직을 위한 팀 모델](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [조직 준비성 구축: Adobe Customer Journey Analytics 확장을 위한 사람 중심 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)

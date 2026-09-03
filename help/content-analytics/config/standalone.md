@@ -6,29 +6,15 @@ feature: Content Analytics
 role: Admin
 exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
 TQID: https://experienceleague.adobe.com/gWxcD93bl5qrSNaMf1CJF4yoIUrAg6qUF8b-4RXLquQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a67cb189-a535-41f6-afa2-448f39c4759f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a67cb189-a535-41f6-afa2-448f39c4759f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -60,8 +46,8 @@ Content Analytics은 독립 실행형 제품으로 라이선스가 부여되지�
 | **연결** | [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview)은(는) 수집되는 Experience Platform 데이터 세트를 정의합니다. 연결은 데이터 세트(AEP에 데이터가 저장되는 데이터 세트)와 Customer Journey Analytics(데이터를 분석하는 데이터 세트) 간의 링크를 정의합니다. 연결을 통해 수집된 데이터를 보고에 사용할 수 있습니다. |
 | **데이터 보기** | [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views)는 연결에서 데이터를 해석하는 방법을 결정할 수 있는 컨테이너입니다. 데이터 보기는 사용자가 보고할 수 있는 모든 차원과 지표를 지정합니다. 데이터 보기는 분석에 사용할 수 있는 행과 열을 결정하는 구성과 같습니다. |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)은(는) Content Analytics 보고서와 분석을 작성하는 데 사용하는 드래그 앤 드롭 브라우저 인터페이스입니다. |
-| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
-| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
+| **경험** | Content Analytics에서 [경험](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 페이지 URL을 기반으로 캡처하고 분석할 수 있는 웹 페이지의 모든 텍스트 콘텐츠를 참조합니다. |
+| **자산** | Content Analytics에서 [asset](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)은(는) 이미지와 같은 개별적이고 고유한 콘텐츠입니다. |
 
 
 ## 설정 개요
@@ -111,15 +97,15 @@ Content Analytics은 독립 실행형 제품으로 라이선스가 부여되지�
 독립형 Content Analytics을 사용하려면 다음 제품 및 제품 프로필에 대한 제품 관리자여야 합니다.
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users(프로덕션 샌드박스에 액세스하기 위한 기본 프로필)
+  * AEP-Default-All-Users(프로덕션 샌드박스에 액세스하기 위한 기본 프로필)
 
 * Adobe Experience Platform 데이터 수집
-   * 기본 데이터 수집 모든 액세스
+  * 기본 데이터 수집 모든 액세스
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics (사용자 지정)
-   * Customer Journey Analytics(또는 기타 기본 제공된 제품 프로필)
+  * Customer Journey Analytics(또는 기타 기본 제공된 제품 프로필)
 
 Admin Console을 통해 제품 관리자 액세스 권한을 정의합니다.
 
@@ -157,31 +143,31 @@ Content Analytics의 경우 다음 리소스 및 관련 권한이 이러한 역�
 
 * 기본 프로덕션 모든 액세스 역할
 
-   * 데이터 수집
-      * 데이터스트림 보기
-      * 데이터 스트림 관리
+  * 데이터 수집
+    * 데이터스트림 보기
+    * 데이터 스트림 관리
 
-   * 데이터 관리
-      * 데이터 세트 보기
-      * 데이터 세트 관리
+  * 데이터 관리
+    * 데이터 세트 보기
+    * 데이터 세트 관리
 
-   * 데이터 모델링
-      * 스키마 보기
-      * 스키마 관리
-      * ID 메타데이터 관리
+  * 데이터 모델링
+    * 스키마 보기
+    * 스키마 관리
+    * ID 메타데이터 관리
 
 
 * 샌드박스 관리자 역할
 
-   * 샌드박스
-      * Prod
-      * (Content Analytics에 사용할 다른 모든 샌드박스)
+  * 샌드박스
+    * Prod
+    * (Content Analytics에 사용할 다른 모든 샌드박스)
 
-   * 샌드박스 관리
-      * 패키지 관리
-      * 샌드박스 관리
-      * 샌드박스 재설정
-      * 샌드박스 보기
+  * 샌드박스 관리
+    * 패키지 관리
+    * 샌드박스 관리
+    * 샌드박스 재설정
+    * 샌드박스 보기
 
 
 권한 인터페이스에서 역할과 관련 권한을 모두 확인할 수 있습니다. 또한 인터페이스에 해당 역할에 속하는 사용자가 표시됩니다.
@@ -217,21 +203,21 @@ Customer Journey Analytics은 속성 기반 액세스 제어를 지원하지 않
 Content Analytics의 경우 다음 Customer Journey Analytics 제품 프로필 권한이 포함되어 있는지 확인해야 합니다.
 
 * 데이터 보기
-   * 사용 가능한 모든 데이터 보기.
+  * 사용 가능한 모든 데이터 보기.
 
 * 보고 도구
-   * 계산된 지표 만들기
-   * 세그먼트 생성
-   * 주석 작성
-   * 감사 로그 액세스
-   * 모든 사용자와 프로젝트 링크 공유
-   * 예측
-   * AI 어시스턴트: 제품 지식
-   * Data Insights 에이전트
-   * 지능형 캡션
+  * 계산된 지표 만들기
+  * 세그먼트 생성
+  * 주석 작성
+  * 감사 로그 액세스
+  * 모든 사용자와 프로젝트 링크 공유
+  * 예측
+  * AI 어시스턴트: 제품 지식
+  * Data Insights 에이전트
+  * 지능형 캡션
 
 * 데이터 보기 도구
-   * 전체 테이블 내보내기
+  * 전체 테이블 내보내기
 
 Customer Journey Analytics에 대한 이러한 권한을 확인하고 업데이트하려면 다음을 수행하십시오.
 

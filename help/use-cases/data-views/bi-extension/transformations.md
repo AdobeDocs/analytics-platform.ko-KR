@@ -6,21 +6,13 @@ feature: Data Views
 role: User
 exl-id: 2022a841-fc2a-4a76-8d91-8227e7a2130a
 TQID: https://experienceleague.adobe.com/Z-D08miremjia0hNYhh6SSFe7YpiCqkl0gH-BLNPG6k
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 1691
+source-wordcount: 1762
 ht-degree: 0%
 
 ---
@@ -51,7 +43,7 @@ Customer Journey Analytics에서는 [데이터 보기](/help/data-views/data-vie
 Customer Journey Analytics 개체는 **[!UICONTROL 데이터]** 창에서 사용할 수 있으며 Power BI Desktop에서 선택한 테이블에서 검색됩니다. 예: **[!UICONTROL public.cc_data_view]**. 테이블 이름은 Customer Journey Analytics에서 데이터 보기에 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
 **차원**
-Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Power BI Desktop에 있는 차원의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**&#x200B;이(가) 있습니다.
+Customer Journey Analytics의 차원은 [!UICONTROL 구성 요소 ID]로 식별됩니다. [!UICONTROL 구성 요소 ID]이(가) Customer Journey Analytics 데이터 보기에 정의되어 있습니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Power BI Desktop에 있는 차원의 이름인 [!UICONTROL 구성 요소 ID] **[!UICONTROL product_name]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]**, **[!UICONTROL 날짜 범위]** 등으로 사용할 수 있습니다.
 
 **지표**
@@ -61,7 +53,7 @@ Customer Journey Analytics의 지표는 [!UICONTROL 구성 요소 ID]로 식별�
 Customer Journey Analytics에서 정의하는 필터는 **[!UICONTROL filterName]** 필드의 일부로 사용할 수 있습니다. Power BI Desktop에서 **[!UICONTROL filterName]** 필드를 사용하는 경우 사용할 필터를 지정할 수 있습니다.
 
 **계산된 지표**
-Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI Desktop에는 **[!UICONTROL cm_product_name_count_distinct]**&#x200B;t로 표시됩니다.
+Customer Journey Analytics에서 정의하는 계산된 지표는 계산된 지표에 대해 정의한 [!UICONTROL 외부 ID]로 식별됩니다. 예를 들어 계산된 지표 **[!UICONTROL 제품 이름(고유 개수)]**&#x200B;에는 [!UICONTROL 외부 ID] **[!UICONTROL product_name_count_distinct]**&#x200B;가 있으며 Power BI Desktop에는 **[!UICONTROL cm_product_name_count_distinct]**t로 표시됩니다.
 
 **날짜 범위**
 Customer Journey Analytics에서 정의하는 날짜 범위는 **[!UICONTROL daterangeName]** 필드의 일부로 사용할 수 있습니다. **[!UICONTROL daterangeName]** 필드를 사용하는 경우 사용할 날짜 범위를 지정할 수 있습니다.
@@ -145,7 +137,7 @@ Customer Journey Analytics에서 정의하는 날짜 범위는 **[!UICONTROL 날
 Tableau Desktop은 [계산된 필드](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)를 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 [등급 단일 차원](#single-dimension-ranked) 사용 사례를 실행하려고 합니다.
 
 1. 기본 메뉴에서 **[!UICONTROL 분석]** > **[!UICONTROL 계산된 필드 만들기]**&#x200B;를 선택합니다.
-   1. `LOWER([Product Name])` 함수를 사용하여 **[!UICONTROL 소문자 제품 이름]**&#x200B;을(를) 정의합니다.
+   1. `LOWER([Product Name])` 함수를 사용하여 **[!UICONTROL 소문자 제품 이름]**을(를) 정의합니다.
       ![타블로 계산 필드](../assets/uc14-tableau-calculated-field.png)
    1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 데이터]** 시트를 선택하십시오.
@@ -174,7 +166,7 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 Customer Journey Analytics 개체는 **[!UICONTROL 탐색]** 인터페이스에서 사용할 수 있습니다. 및 는 Looker에서 연결, 프로젝트 및 모델 설정의 일부로 검색됩니다. 예: **[!UICONTROL cc_data_view]**. 보기 이름은 Customer Journey Analytics에서 데이터 보기에 대해 정의한 외부 ID와 동일합니다. 예를 들어 **[!UICONTROL 제목]** `C&C - Data View` 및 **[!UICONTROL 외부 ID]** `cc_data_view`의 데이터 보기입니다.
 
 **차원**
-Customer Journey Analytics의 차원은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Looker의 차원 이름인 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**&#x200B;이(가) 있습니다.
+Customer Journey Analytics의 차원은 **[!UICONTROL Cc 데이터 보기]** 왼쪽 레일에 **[!UICONTROL DIMENSION]**(으)로 나열됩니다. 차원은 Customer Journey Analytics 데이터 보기에서 정의됩니다. 예를 들어 Customer Journey Analytics의 **[!UICONTROL 제품 이름]** 차원에는 Looker의 차원 이름인 **[!UICONTROL DIMENSION]** **[!UICONTROL 제품 이름]**이(가) 있습니다.
 **[!UICONTROL 일]**, **[!UICONTROL 주]**, **[!UICONTROL 월]** 등과 같은 Customer Journey Analytics의 날짜 범위 차원은 **[!UICONTROL Daterangeday 날짜]**, **[!UICONTROL Daterangeweek 날짜]**, **[!UICONTROL Daterangemonth 날짜]** 등으로 사용할 수 있습니다.  날짜 범위 차원을 사용하는 경우 적절한 날짜 또는 시간 정의를 선택해야 합니다. 예: **[!UICONTROL 년]**, **[!UICONTROL 분기]**, **[!UICONTROL 월]**, **[!UICONTROL 날짜]**.
 
 **지표**
@@ -192,7 +184,7 @@ Customer Journey Analytics에서 정의하는 날짜 범위는 **[!UICONTROL 날
 **사용자 지정 변형**
 Looker는 위에 표시된 대로 사용자 지정 필드 빌더를 사용하여 사용자 지정 변환 기능을 제공합니다. 예를 들어 제품 이름이 소문자인 [등급 단일 차원](#single-dimension-ranked) 사용 사례를 실행하려고 합니다.
 
-1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;**섹션에서 다음을 수행합니다.**
+1. 왼쪽 레일의 {0‣} 사용자 지정 필드&#x200B;]**섹션에서 다음을 수행합니다.**[!UICONTROL 
    1. **[!UICONTROL + 추가]** 드롭다운 메뉴에서 **[!UICONTROL 사용자 지정 Dimension]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 식]** 텍스트 영역에 `lower(${cc_data_view.product_name})`을(를) 입력하십시오. `Product Name`을(를) 입력할 때 올바른 구문이 도움이 됩니다.
       ![로커 변환 예](../assets/uc14-looker-transformation.png)

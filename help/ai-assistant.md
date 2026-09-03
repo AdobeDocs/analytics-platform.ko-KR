@@ -7,22 +7,11 @@ feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 autotag-review: '2026-05-19T07:16:56.858Z'
 TQID: 'https://experienceleague.adobe.com/v5QCNZReBnq8uFMSUSJz1VBbzm2J8ztbr8mciozSY0E'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ae3aff40-b2f6-4df1-8c01-0b0720d1510fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 660
@@ -44,7 +33,7 @@ Customer Journey Analytics의 AI 어시스턴트는 Adobe Experience League 설�
 * Customer Journey Analytics는 무엇에 가장 적합합니까?
 * 데이터 보기는 어떻게 설정해야 합니까?
 
-Adobe Target 및 Adobe Creative Cloud Suite과 같은 다른 Adobe 제품에 대한 질문 등 Customer Journey Analytics의 범위를 벗어난 질문은 답변할 수 없습니다.
+Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문 등 Customer Journey Analytics의 범위를 벗어난 질문은 답변할 수 없습니다.
 
 Customer Journey Analytics용 AI 어시스턴트는 모든 제품 계층에서 사용할 수 있습니다.
 
@@ -71,15 +60,15 @@ AI 어시스턴트 내에서 Data Insights Agent를 사용하는 방법에 대�
 * **계약적 액세스**: AI 어시스턴트를 사용할 수 없는 경우, 조직의 관리자나 Adobe 계정 담당자(관리자)에게 문의하십시오. 조직에서 AI 어시스턴트를 사용하려면 먼저 특정 생성형 AI 관련 법적 조건에 동의해야 합니다.
 
 * **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI 어시스턴트: 제품 지식]** 권한은 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]의 다음 단계를 따라야 합니다.
-   1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
-   1. [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
-   1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
-   1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
-   1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **AI 어시스턴트: 제품 지식**&#x200B;을 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 추가합니다.
+  1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
+  1. [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
+  1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+  1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
+  1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **AI 어시스턴트: 제품 지식**&#x200B;을 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 추가합니다.
 
-      ![권한 추가](assets/ai-assistant-permissions.png).
+     ![권한 추가](assets/ai-assistant-permissions.png).
 
-   1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+  1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
@@ -91,7 +80,7 @@ AI 어시스턴트 내에서 Data Insights Agent를 사용하는 방법에 대�
 
    AI 어시스턴트를 처음 사용하면 어시스턴트 사용에 대한 몇 가지 약관이 적힌 면책 조항이 표시됩니다.
 
-1. 제공된 상자에 AI 어시스턴트에게 구체적인 자연어 질문을 합니다.
+1. 제공된 상자에 AI 어시스턴트에게 구체적인 자연어 질문을 하십시오.
 
    ![질문 상자](assets/ai-asst2.png)
 

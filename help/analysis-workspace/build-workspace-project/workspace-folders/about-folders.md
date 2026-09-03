@@ -6,18 +6,11 @@ feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 TQID: https://experienceleague.adobe.com/g8h5ym4QWd-8r8Sm7Ow6LFwtKCGf-V2wmyLUoYVwUPY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a67cb189-a535-41f6-afa2-448f39c4759f
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a67cb189-a535-41f6-afa2-448f39c4759fid: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 422
@@ -31,7 +24,7 @@ Workspace의 폴더는 프로젝트를 구성하고 분류하는 데 도움이 �
 
 [폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)가 선택된 경우 Customer Journey Analytics의 폴더는 Workspace 랜딩 페이지에서 사용할 수 있습니다.
 
-Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다. 공유 회사 폴더를 통해 관리자는 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있게 합니다.
+Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다. 공유 회사 폴더를 통해 관리자는 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있습니다.
 
 [폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)가 선택되면 프로젝트 홈 페이지에 회사 폴더 및 만든 모든 개인 폴더와 함께 프로젝트 목록이 표시됩니다. 그렇지 않으면 프로젝트 목록만 표시됩니다.
 
@@ -40,7 +33,7 @@ Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 �
 
 회사 폴더는 관리자가 모든 사용자와 공유할 수 있는 프로젝트의 공유 액세스 폴더입니다.
 
-관리자는 모든 사용자와 프로젝트를 빠르게 공유하고 사용자 그룹의 하위 폴더에 프로젝트를 그룹화할 수 있습니다. 예를 들어 마케터가 조사를 시작하는 데 사용할 프로젝트 세트가 있습니다. 그러면 회사 폴더 내에 마케팅 폴더를 만든 다음 선택한 프로젝트를 마케팅 폴더에 배치할 수 있습니다. 이 폴더를 통해 공유 프로젝트에 직접 액세스할 수 있으며 마케팅 팀이 어디서부터 일반적인 프로젝트를 검색해야 하는지 쉽게 알 수 있습니다.
+관리자는 모든 사용자와 프로젝트를 빠르게 공유하고 사용자 그룹의 하위 폴더에 프로젝트를 그룹화할 수 있습니다. 예를 들어 마케터가 조사를 시작하는 데 사용할 프로젝트 세트가 있습니다. 그러면 회사 폴더 내에 마케팅 폴더를 만든 다음 선택한 프로젝트를 마케팅 폴더에 배치할 수 있습니다. 이 폴더를 통해 공유 프로젝트에 직접 액세스할 수 있으며 마케팅 팀이 공통 프로젝트를 어디에서 찾아야 하는지 더 쉽게 알 수 있습니다.
 
 Workspace에 로그인하면 회사 폴더가 프로젝트 및 폴더 목록에 자동으로 추가됩니다. 회사 폴더에 포함된 프로젝트에 대해 특정 권한은 없습니다.
 

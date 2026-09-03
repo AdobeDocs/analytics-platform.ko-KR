@@ -6,26 +6,11 @@ feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 TQID: https://experienceleague.adobe.com/qAYUiD5wa5PhvEjTi397PC4n0xX0rWKJSYaAjCR6jtg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a3b826fd-7a63-4a83-8736-83eee6668f44id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: c38ed341-fab2-46df-9d72-88d8166edebbid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: f21d8c43-b886-433b-93ea-5982cbfc16b7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 2183
@@ -46,7 +31,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 * Customer Journey Analytics에 대한 액세스 권한이 있는 조직의 사용자 및 그룹
 
-  편집, 복제 또는 보기 액세스 권한 공유 가능
+  편집, 복제 또는 보기 액세스 권한을 공유할 수 있습니다.
 
 * Customer Journey Analytics에 액세스할 수 없는 조직의 사용자 및 그룹
 
@@ -61,7 +46,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 프로젝트 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +69,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 * Customer Journey Analytics에서 그룹은 [CX Enterprise Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-getting-started)의 제품 프로필로 정의됩니다. 관리자는 *모두*&#x200B;를 비롯한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 *모두*&#x200B;를 제외하고 자신이 멤버로 있는 그룹과 공유할 수 있습니다.
 
-* 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 사용자가 개인과 그룹의 일부 모두로 추가되는 경우 여러 역할에 배치될 수 있습니다. 예를 들어 사용자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할이 주어지고 및 그룹의 멤버로 **[!UICONTROL 읽기 전용]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다.
+* 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 사용자가 개인으로도 추가되고 그룹의 일부로도 추가되는 경우 이러한 시나리오가 발생할 수 있습니다. 예를 들어 사용자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할이 주어지고 및 그룹의 멤버로 **[!UICONTROL 읽기 전용]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다.
 
 * **[!UICONTROL 사본 편집]** 또는 **[!UICONTROL 읽기 전용]** 역할에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 관리자는 다음 절차에 설명된 대로 프로젝트를 자신과 공유하고 편집 역할을 부여하여 자신의 역할을 **[!UICONTROL 원본 편집]**&#x200B;으로 변경할 수 있습니다.
 
@@ -102,7 +87,8 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
+   저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
 
@@ -110,7 +96,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 1. 제공된 역할 필드 중 하나에 수신자 또는 수신자 그룹을 추가합니다.
 
-   **원본 편집:** 수신자는 프로젝트 및 기능에 대한 변경 내용을 공동 소유자로서 **[!UICONTROL 저장]**&#x200B;할 수 있습니다. 이 역할은 다른 동료와 함께 프로젝트를 공동으로 관리하려는 경우 유용합니다. 이 역할에는 공유 프로젝트의 수신자 목록을 편집, 삭제 및 수정하는 작업이 포함됩니다. <br>참고: Analysis Workspace는 현재 라이브 공동 작업을 지원하지 않으므로 주어진 시간에 한 명의 사용자만 프로젝트를 편집하는 것이 좋습니다. 프로젝트를 동시에 저장하는 경우 마지막 버전이 유지됩니다.
+   **원본 편집:** 수신자는 프로젝트 및 기능에 대한 변경 내용을 공동 소유자로서 **[!UICONTROL 저장]**&#x200B;할 수 있습니다. 이 역할은 다른 동료와 함께 프로젝트를 공동으로 관리하려는 경우 유용합니다. 이 역할에는 공유 프로젝트의 수신자 목록을 편집, 삭제 및 수정하는 작업이 포함됩니다. <br>참고: Analysis Workspace는 현재 라이브 공동 작업을 지원하지 않으므로 주어진 시간에 한 명의 사용자만 프로젝트를 편집하는 것이 좋습니다. 프로젝트가 동시에 저장되면 마지막 버전이 유지됩니다.
 
    **사본 편집:** 수신자는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하고 왼쪽 패널에 액세스할 수 있습니다. 이 역할에는 프로젝트 상호 작용이 제한되지 않습니다. 이 역할은 조직의 데이터를 이해하고 Analysis Workspace 사용 방법을 알고 있는 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. 단, 이러한 사용자가 프로젝트를 수정하지 못하도록 제한하고자 하는 경우에 적합합니다.
 
@@ -171,7 +157,7 @@ Customer Journey Analytics에 액세스할 수 없는 사용자에게 Analysis W
 >
 >* 프로젝트를 공유받는 사용자는 [조정](curate.md) 중에 프로젝트에 적용된 모든 세그먼트를 볼 수 있습니다.
 > 
->* 공유 받는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 공유 주체인 사용자가 프로젝트에 대해 설정한 날짜 범위가 기본적으로 표시됩니다.
+>* 공유 받는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 프로젝트에 대해 설정한 날짜 범위가 기본적으로 표시됩니다.
 >
 >* 많은 사용자가 동시에 특정 링크에 액세스하려고 하면 프로젝트에 액세스하는 것이 불가능할 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 단일 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 동안 기다린 후 링크에 다시 액세스해 보십시오.
 >
@@ -179,7 +165,7 @@ Customer Journey Analytics에 액세스할 수 없는 사용자에게 Analysis W
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모두와 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -208,15 +194,15 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
      Customer Journey Analytics 관리자는 [환경 설정](/help/analysis-workspace/user-preferences.md)에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. 관리자가 이 옵션을 구성한 방식에 따라 다음 시나리오가 발생할 수 있습니다.
 
-      * 이 옵션이 표시되지 않으면 Customer Journey Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
+     * 이 옵션이 표시되지 않으면 Customer Journey Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
-      * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 잠김 옵션은 Customer Journey Analytics 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자를 위해 CX 엔터프라이즈 인증이 필요하다는 것을 의미합니다. Healthcare Shield 라이선스를 보유한 조직의 경우 항상 해당됩니다.
+     * 이 옵션이 활성화되어 있고 비활성화할 수 없는 경우, 잠김 옵션은 Customer Journey Analytics 관리자가 Analysis Workspace 프로젝트에 액세스하는 모든 사용자를 위해 CX 엔터프라이즈 인증이 필요하다는 것을 의미합니다. Healthcare Shield 라이선스를 보유한 조직의 경우 항상 해당됩니다.
 
 1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 ![링크](/help/assets/icons/Link.svg)를 선택하여 링크를 시스템 클립보드에 복사합니다.
 
 1. 프로젝트에 액세스하도록 할 사람에게 링크를 공유합니다. 예를 들어 이메일에 링크를 붙여넣을 수 있습니다.
 
-   링크를 공유하는 사람은 누구나 Analysis Workspace 프로젝트를 볼 수 있습니다.
+   링크를 공유받은 사람은 누구나 Analysis Workspace 프로젝트를 볼 수 있습니다.
 
 1. (선택 사항) ![새 링크 생성 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 선택하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
 
@@ -234,7 +220,7 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 임베드된 구성 요소 공유](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -243,7 +229,7 @@ Analysis Workspace 프로젝트를 다른 사람과 공유하는 방법:
 
 | 질문 | 답변 |
 |---|---|
-| 두 명의 편집자가 동시에 프로젝트를 저장하면 어떻게 됩니까? | 변경 사항은 병합되지 않고 마지막으로 저장한 프로젝트 버전이 유지됩니다. Analysis Workspace는 현재 실시간 공동 작업을 지원하지 않습니다. |
+| 두 명의 편집자가 동시에 프로젝트를 저장하면 어떻게 됩니까? | 변경 사항은 병합되지 않고 마지막으로 저장된 프로젝트 버전이 유지됩니다. Analysis Workspace는 현재 실시간 공동 작업을 지원하지 않습니다. |
 | 관리자는 어떤 프로젝트 경험을 보게 됩니까? | **[!UICONTROL 사본 편집]** 또는 **[!UICONTROL 읽기 전용]** 역할에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;를 통해 언제든지 자신의 역할을 **[!UICONTROL 원본 편집]**&#x200B;으로 확장할 수 있습니다. |
-| 수신자가 하나의 역할에서 개인 또는 그룹의 멤버로서의 다른 역할에 배치되면 어떻게 됩니까? | 수신자가 여러 역할에 배치되면 항상 더 높은 경험을 받게 됩니다. 예를 들어 수신자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할이 주어지고 및 그룹의 멤버로 **[!UICONTROL 보기 가능]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다. |
-| 프로젝트 링크를 열면 수신자는 어떤 경험을 얻을 수 있습니까? | 수신자는 공유 모달에서 지정한 역할을 받습니다. 수신자에게 역할이 할당되지 않고 프로젝트에 대한 링크를 받은 경우(**[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**, 이후 **[!UICONTROL 링크로 공유]** 필드 옆의 **[!UICONTROL 복사]** 선택) 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 원본 편집]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 역할을 받습니다. |
+| 수신자가 개인으로서 하나의 역할에 배치되고 그룹 구성원으로서 다른 역할에 배치되면 어떻게 됩니까? | 수신자가 여러 역할에 배치되면 항상 더 높은 경험을 받게 됩니다. 예를 들어 수신자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할이 주어지고 및 그룹의 멤버로 **[!UICONTROL 보기 가능]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다. |
+| 프로젝트 링크를 열면 수신자는 어떤 경험을 하게 됩니까? | 수신자는 공유 모달에서 지정한 역할을 받습니다. 수신자에게 역할이 할당되지 않고 프로젝트에 대한 링크를 받은 경우(**[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**, 이후 **[!UICONTROL 링크로 공유]** 필드 옆의 **[!UICONTROL 복사]** 선택) 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 원본 편집]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 역할을 받습니다. |

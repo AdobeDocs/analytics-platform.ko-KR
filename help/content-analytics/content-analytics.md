@@ -6,29 +6,14 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: 906
 ht-degree: 55%
 
 ---
@@ -40,7 +25,7 @@ Content Analytics는 콘텐츠가 기업에서 정의한 주요 성과 지표에
 
 Content Analytics는 AI 및 머신 러닝 기반의 **기능화 서비스**&#x200B;를 사용하여 콘텐츠를 구성 요소와 속성으로 분류합니다. 모든 콘텐츠에 구조화된 메타데이터 프로필을 만들어 해당 콘텐츠의 어떤 콘텐츠와 어떤 속성이 비즈니스 결과를 도출하는지 분석할 수 있습니다.
 
-이 구조화된 메타데이터 프로필을 만드는 것 외에도, Content Analytics는 단일 식별자를 사용하여 자산과 경험을 식별하는 **ID 서비스**&#x200B;를 제공합니다. ID 서비스는 동일한 자산이 여러 장소에 나타날 때를 인식할 수 있습니다. 그렇게 되면 이 자산의 인스턴스가 동일한 자산으로 취급되어 콘텐츠 사용과 소비에 대한 보다 전체적인 보기가 가능해집니다.
+이 구조화된 메타데이터 프로필을 만드는 것 외에도, Content Analytics는 단일 식별자를 사용하여 자산과 경험을 식별하는 **ID 서비스**&#x200B;를 제공합니다. ID 서비스는 동일한 에셋이 여러 장소에 나타날 때를 인식할 수 있습니다. 그렇게 되면 이 에셋의 인스턴스가 동일한 에셋으로 취급되어 콘텐츠 사용과 소비에 대한 보다 전체적인 보기가 가능해집니다.
 
 ## 값
 
@@ -58,7 +43,7 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 ![자산 및 경험](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
 * **경험**: 경험은 초기 사용자가 웹 페이지를 방문하는 데 사용한 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트입니다. 또는 모바일 앱에서 텍스트, 에셋 및 클릭 투 액션의 조합입니다. 각 경험에는 고유 식별자가 부여됩니다.
-* **자산**: 자산은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 자산에는 고유 식별자와 지각 ID가 부여됩니다. 지각 ID는 시각적으로 동일한 자산과 공유되는 식별자입니다. 가시 범위 ID는 다른 에셋 URL과 따라서 다른 에셋 ID가 있을 수 있지만 가시 범위적으로 동일한 에셋을 중복 제거하는 데 도움이 됩니다.
+* **자산**: 자산은 이미지와 같은 개별적이고 고유한 콘텐츠입니다. 각 에셋에는 고유 식별자와 지각 ID가 부여됩니다. 지각 ID는 시각적으로 동일한 자산과 공유되는 식별자입니다. 가시 범위 ID는 다른 에셋 URL과 따라서 다른 에셋 ID가 있을 수 있지만 가시 범위적으로 동일한 에셋을 중복 제거하는 데 도움이 됩니다.
 * **속성**: 속성은 경험이나 자산과 관련된 설명적 메타데이터 요소입니다. 속성의 예로는 사진 스타일, 가독성, 설득 전략, 오브젝트 색상, 배경색 등이 있습니다.
 
 ## 작동 방식
@@ -82,7 +67,7 @@ Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 �
 
 >[!NOTE]
 >
->Privacy 및 Security Shield 추가 기능에 라이선스를 부여한 경우 DULE 레이블 지정 또는 고객 관리 키에는 Content Analytics이 적용되는 경험 및 자산이 포함되지 않습니다. 또한 Content Analytics HIPAA 준수 서비스가 아닙니다.
+>Privacy 및 Security Shield 추가 기능에 라이선스를 부여한 경우 DULE 레이블 지정 또는 고객 관리 키에는 Content Analytics이 적용되는 경험 및 자산이 포함되지 않습니다. 또한 Content Analytics는 HIPAA-Ready 서비스가 아닙니다.
 >
 
 >[!IMPORTANT]
@@ -95,6 +80,6 @@ Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 �
 >
 >[Content Analytics 보고](report/report.md)
 >[Content Analytics 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=ko)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 

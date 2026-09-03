@@ -5,25 +5,14 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 TQID: https://experienceleague.adobe.com/4UiJUXEOGW3paTCi293AADuY1VYiu2egk0A4Oyv5uD8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2809
+source-wordcount: 2812
 ht-degree: 41%
 
 ---
@@ -40,10 +29,10 @@ ht-degree: 41%
 | --- | --- |
 | [빈 패널](/help/analysis-workspace/c-panels/blank-panel.md) | 사용 가능한 패널 및 시각화 중에서 선택하여 분석을 시작합니다. |
 | [속성](attribution.md) | 차원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
-| [실험](experimentation.md) | 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. |
-| [자유 형식](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
-| [미디어 평균 분당 시청 대상자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 시청 대상자를 분석합니다. |
-| [미디어 동시 뷰어](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
+| [실험](experimentation.md) | 다양한 사용자 경험, 마케팅 또는 메시지 변화를 비교하여 어떤 것이 특정 결과를 도출하는 데 가장 적합한지 판단합니다. |
+| [자유 형식](freeform-panel.md) | 무제한 비교 및 분류를 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
+| [미디어 평균 분당 시청 대상자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 대상자를 분석합니다. |
+| [미디어 동시 뷰어](media-concurrent-viewers.md) | 최대 동시성에 대한 세부 정보와 분류 및 비교 기능을 통해 시간 경과에 따른 동시 뷰어를 분석합니다. |
 | [미디어 재생 체류 시간](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생하는 위치 또는 시청 감소가 발생하는 위치를 파악할 수 있습니다. |
 | [다음 또는 이전 항목](next-previous.md) | 사용자가 이동하는 다음 또는 이전 페이지를 표시합니다. |
 | [빠른 인사이트](quickinsight.md) | 인사이트를 더 빨리 분석하고 발견하려면 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 빌드합니다. |
@@ -106,7 +95,7 @@ ht-degree: 41%
 
 ## 데이터 보기
 
-각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**&#x200B;을(를) 식별할 수 있습니다.
+각 패널은 [데이터 보기](/help/data-views/data-views.md)와 연결되어 있습니다. 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *데이터 보기의 이름&#x200B;*]**을(를) 식별할 수 있습니다.
 
 빈 Workspace 프로젝트를 만들면 초기 패널의 기본 데이터 보기는 Customer Journey Analytics에서 마지막으로 작업한 데이터 보기입니다.
 
@@ -117,7 +106,7 @@ ht-degree: 41%
 >선택한 데이터 보기는 패널에서 시각화를 빌드할 수 있는 차원, 지표 및 세그먼트를 결정합니다.
 >
 >
->패널의 데이터 보기를 전환하면 해당 새 데이터 보기에서 일부 구성 요소를 사용하지 못할 수 있습니다. 전환되면 시각화가 제대로 렌더링되지 않을 수 있습니다. 다음과 같은 경고가 표시될 수 있습니다.
+>패널의 데이터 보기를 전환하면 해당 새 데이터 보기에서 일부 구성 요소를 사용하지 못할 수 있습니다. 이 변경으로 인해 시각화가 제대로 렌더링되지 않을 수 있습니다. 다음과 같은 경고가 표시될 수 있습니다.
 >
 >* 이 패널에는 선택한 데이터 보기에서 활성화되지 않은 구성 요소가 포함됩니다. 데이터 보기를 변경하거나 데이터 보기에서 필수 구성 요소를 활성화하십시오.
 >* 시각화를 렌더링할 수 없습니다. 열과 행을 확인하여 유효한 구성 요소가 포함되어 있는지 확인하십시오.
@@ -125,7 +114,7 @@ ht-degree: 41%
 
 ## 캘린더
 
-패널 캘린더는 패널 내의 테이블 및 시각화에 대한 데이터 범위를 제어합니다.
+패널 캘린더는 패널 내의 테이블 및 시각화에 대한 보고 날짜 범위를 제어합니다.
 
 >[!NOTE]
 >
@@ -142,22 +131,22 @@ ht-degree: 41%
 
    * 기본 `12:00 AM`(`0:00`) 및 `11:59 PM`(`23:59`)가 아닌 다른 **[!UICONTROL 시작 시간]** 및 **[!UICONTROL 종료 시간]**&#x200B;을 지정합니다. 종료 시간은 항상 59초를 포함합니다. 날짜 범위가 여러 날에 걸친 경우 시작 시간은 날짜 범위의 첫 번째 날에 적용되고 종료 시간은 날짜 범위의 마지막 날에 적용됩니다. **[!UICONTROL (시간 값 재설정)]**&#x200B;을 사용하여 시작 및 종료 시간을 기본값으로 재설정합니다.
    * **[!UICONTROL 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]**. 비활성화되면 패널에서 사용되는 날짜 범위 구성 요소는 현재 시간을 기준으로 합니다. 활성화된 경우 패널에서 사용되는 날짜 범위 구성 요소는 패널 달력을 기준으로 합니다.
-   * **[!UICONTROL 순환 날짜 사용]**. 활성화되면 현재 날짜와 시간이 경과함에 따라 **[!UICONTROL 지난 7일]**&#x200B;과 같은 사전 설정 날짜 범위가 동적으로 업데이트됩니다. 비활성화되면 해당 사전 설정이 적용되어 업데이트되지 않습니다.
+   * **[!UICONTROL 순환 날짜 사용]**. 활성화되면 현재 날짜와 시간이 경과함에 따라 **[!UICONTROL 지난 7일]**&#x200B;과 같은 사전 설정 날짜 범위가 동적으로 업데이트됩니다. 비활성화하면 이러한 사전 설정은 한 번 적용된 후에는 업데이트되지 않습니다.
 
      ![롤링 날짜](assets/calendar-rolling.png)
 
      대괄호 안의 텍스트(예: **[!UICONTROL 고정된 시작 - 매일 롤링]**)를 선택하여 패널을 확장하고 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]**&#x200B;에 대한 세부 정보를 지정할 수 있습니다.
 
-      1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
-      1. **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 연도]** **[!UICONTROL 종료]** **[!UICONTROL +]** `1` **[!UICONTROL 일]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
-         * 현재 값을 선택합니다. 예: **[!UICONTROL 현재 연도]**.
-         * 추가 계산 값을 선택합니다. 예: **[!UICONTROL 더하기]**.
-         * 추가 계산이 지정된 경우 값을 지정합니다. (예: `1`)
-         * 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
+     1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
+     1. **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 연도]** **[!UICONTROL 종료]** **[!UICONTROL +]** `1` **[!UICONTROL 일]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
+        * 현재 값을 선택합니다. 예: **[!UICONTROL 현재 연도]**.
+        * 추가 계산 값을 선택합니다. 예: **[!UICONTROL 더하기]**.
+        * 추가 계산이 지정된 경우 값을 지정합니다. (예: `1`)
+        * 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -184,14 +173,14 @@ ht-degree: 41%
    ![놓기 영역에 추가 또는 바꾸기](assets/add-or-replace-to-drop-zone.png)
 
    * 선택 항목을 놓아 다음 구성 요소를 만듭니다.
-      * ❷을(를) 놓는 모든 세그먼트 구성 요소에 대한 [세그먼트](#segment).
-      * ❸을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 [빠른 세그먼트](#quick-segment).
+     * ❷을(를) 놓는 모든 세그먼트 구성 요소에 대한 [세그먼트](#segment).
+     * ❸을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 [빠른 세그먼트](#quick-segment).
    * 다음 구성 요소를 만들려면 **누른 상태에서**⇧(Shift) 선택 항목을 드롭하십시오.
-      * ❹을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
-      * ❺을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
-      * ❻을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
-      * ❼을(를) 삭제한 선택한 차원 *항목*&#x200B;에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
-      * ❽을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
+     * ❹을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+     * ❺을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+     * ❻을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+     * ❼을(를) 삭제한 선택한 차원 *항목*&#x200B;에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
+     * ❽을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
 
 
 ### 세그먼트
@@ -293,7 +282,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -301,7 +290,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 필터](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -326,7 +315,7 @@ ht-degree: 41%
 | **[!UICONTROL 패널에서 모든 시각화 축소]** | 현재 패널의 모든 시각화를 축소합니다. |
 | **[!UICONTROL 패널에서 모든 시각화 확장]** | 현재 패널의 모든 시각화를 확장합니다. |
 | **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가(또는 편집)합니다. |
-| **[!UICONTROL 패널 링크 가져오기]** | 프로젝트 내의 특정 패널로 사용자를 안내합니다. 링크를 선택하면 연결된 정확한 패널로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
+| **[!UICONTROL 패널 링크 가져오기]** | 프로젝트 내의 특정 패널로 사용자를 안내합니다. 링크를 선택하면 연결된 정확한 패널로 이동하기 전에 먼저 해당 사용자가 로그인해야 합니다. |
 
 ## 구성
 

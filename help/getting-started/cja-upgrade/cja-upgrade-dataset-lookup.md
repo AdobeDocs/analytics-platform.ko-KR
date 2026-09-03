@@ -7,21 +7,11 @@ feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 autotag-review: '2026-05-19T08:11:57.362Z'
 TQID: 'https://experienceleague.adobe.com/mu-yJABb7bfRMW6Kn5DBUZuSxggVyIUeOeGQHMgxetM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 818
@@ -50,7 +40,7 @@ Customer Journey Analytics에서 Experience Platform Web SDK를 사용할 때 �
 
 ## 조회 데이터 세트와 함께 사용할 사용자 정의 스키마 만들기
 
-Customer Journey Analytics에서 분류하고자 하는 데이터를 포함하는 각 차원에 대한 새로운 사용자 정의 스키마를 생성합니다. 이후 단계에서 조회 데이터 세트를 생성하면 이 스키마를 참조할 것입니다.
+Customer Journey Analytics에서 분류하고자 하는 데이터를 포함하는 각 차원에 대한 새로운 사용자 정의 스키마를 생성합니다. 이후 단계에서 조회 데이터 세트를 생성하면 이 스키마를 참조합니다.
 
 분류하려는 데이터가 포함된 각 차원에 대해 이 과정을 반복합니다.
 
@@ -110,7 +100,7 @@ Customer Journey Analytics에서 스키마와 함께 사용할 조회 데이터 
 
 1. 파일을 업로드한 후 매핑을 검토하여 정확한지 확인합니다. CSV 파일의 열은 **[!UICONTROL 소스 데이터]** 아래에 나열되어 있고, 해당 XDM 스키마 필드는 **[!UICONTROL 대상 필드]** 아래에 나열되어 있습니다.
 
-   Platform은 사용자가 선택한 대상 스키마나 데이터 세트를 기반으로 자동 매핑된 필드에 대한 지능형 추천을 자동으로 제공합니다. 사용 사례에 맞게 매핑 규칙을 수동으로 조정할 수 있습니다.
+   Platform은 사용자가 선택한 대상 스키마나 데이터 세트를 기반으로 자동 매핑된 필드에 대한 지능형 추천을 제공합니다. 사용 사례에 맞게 매핑 규칙을 수동으로 조정할 수 있습니다.
 
    매핑 프로세스에 대한 자세한 내용은 Experience Platform 설명서의 [CSV 파일을 기존 XDM 스키마에 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema)을 참조하십시오.
 

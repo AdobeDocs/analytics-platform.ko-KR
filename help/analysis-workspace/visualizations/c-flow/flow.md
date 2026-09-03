@@ -6,16 +6,11 @@ exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
 autotag-review: '2026-05-19T08:39:33.544Z'
 TQID: 'https://experienceleague.adobe.com/X0VLZhluDR9Q-ax7TcTOHEcn4r0V5yu64spZlfc4fwU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 349
@@ -42,7 +37,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 플로우 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)을 참조하십시오._
+_이 문서에서는 플로우 시각화에 대해 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [플로우](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -53,12 +48,12 @@ _이 문서에서는 플로우 시각화에 대해 설명합니다._ ![CustomerJ
 
 * 웹 사이트나 애플리케이션 내의 고객 여정 시각화.
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석.
-* 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성.
+* 선택한 경로에서 특정 지점을 지정하여 세그먼트를 생성합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화 만들기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 
@@ -67,7 +62,7 @@ _이 문서에서는 플로우 시각화에 대해 설명합니다._ ![CustomerJ
 
 ## 차원 간 흐름
 
-[차원 간 플로우](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음 &#39;신발&#39; 부문으로 이동할 수 있습니다.
+[차원 간 플로우](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 부서를 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음 &#39;신발&#39; 부문으로 이동할 수 있습니다.
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 드롭 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 
@@ -90,8 +85,8 @@ _이 문서에서는 플로우 시각화에 대해 설명합니다._ ![CustomerJ
 
 플로우 시각화는 다음과 같은 경우에 가장 적합합니다.
 
-* 경로상의 바로 다음 터치포인트에 대한 탐색적, 애드혹 분석을 수행합니다. (여정 캔버스를 사용하여 사전 정의된 페이지 시퀀스가 있는 여정이나 최종 경로를 사용하는 여정에 사용합니다.)
+* 경로상의 바로 다음 터치포인트에 대한 탐색적, 애드혹 분석을 수행합니다. (사전 정의된 페이지 시퀀스가 있거나 최종 경로를 사용하는 여정에는 여정 캔버스를 사용합니다.)
 
-* 여러 진입점과 경로가 있는 비선형 여정. (여정 캔버스를 사용하여 사전 정의된 페이지 시퀀스가 있는 여정에 사용합니다.)
+* 여러 진입점과 경로가 있는 비선형 여정. (사전 정의된 페이지 시퀀스가 있는 여정에는 여정 캔버스를 사용합니다.)
 
 [위의 테이블](#understand-the-differences)을 사용하여 플로우, 폴아웃 및 여정 캔버스의 차이점을 이해합니다.

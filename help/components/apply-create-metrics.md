@@ -5,18 +5,10 @@ feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
 TQID: https://experienceleague.adobe.com/e0vvc9JN5k-KPI2zVAezIjdgViKdAcLJEAx0QUV-tAA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 885
@@ -44,9 +36,9 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
   Adobe Analytics과 달리 Customer Journey Analytics에서는 연결 및 데이터 보기 범위 내에서 유연한 방식으로 표준 지표를 정의할 수 있습니다.
 
-   * **사람**: Customer Journey Analytics의 사람 지표는 개인 ID의 고유 개수입니다. 연결에서 데이터 세트를 구성할 때 개인 ID로 선택한 항목에 따라 사람 지표는 다른 의미를 가질 수 있습니다.
-   * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
-   * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
+  * **사람**: Customer Journey Analytics의 사람 지표는 개인 ID의 고유 개수입니다. 연결에서 데이터 세트를 구성할 때 개인 ID로 선택한 항목에 따라 사람 지표는 다른 의미를 가질 수 있습니다.
+  * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
+  * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
 
   표준 지표의 전체 목록은 [표준 지표](#standard-metrics)를 참조하십시오.
 

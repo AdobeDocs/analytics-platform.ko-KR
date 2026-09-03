@@ -4,18 +4,11 @@ description: 차원이 무엇이고 Customer Journey Analytics에서 차원이 �
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 TQID: https://experienceleague.adobe.com/bMM7desF2wr71h-SR1mzD7-oSwm-8cPvmeU7SeM7-fU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 253
@@ -27,11 +20,11 @@ ht-degree: 100%
 
 차원은 데이터를 분석하는 데 사용되는 Customer Journey Analytics의 구성 요소 유형입니다. 예를 들어 [Analysis Workspace](/help/analysis-workspace/home.md) 또는 [Report Builder](/help/report-builder/rb-overview.md)에서 보고서를 작성할 때 차원을 사용합니다.
 
-Customer Journey Analytics 차원은 무제한이며, 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합일 수 있습니다.
+Customer Journey Analytics 차원은 무제한 유형이며, 값은 숫자, 텍스트, 오브젝트, 목록 또는 이들의 혼합일 수 있습니다.
 
 Customer Journey Analytics의 기본 보고서는 지표 열(일반적으로 숫자 값)에 대한 차원 행(일반적으로 문자열 값)을 표시합니다.
 
-예를 들어 페이지 차원을 사용자 지표와 결합하면 사용자별 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 만들어집니다.
+예를 들어 페이지 차원을 사용자 지표와 결합하면 사용자별 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 생성됩니다.
 
 | 페이지 | 사람 |
 | --- | ---: |
@@ -57,10 +50,10 @@ Customer Journey Analytics 관리자는 [데이터 보기 내에서 차원을 �
 
 ## 차원 설명 추가
 
-Customer Journey Analytics는 데이터 보기 내에서 또는 Analysis Workspace 내에서 직접 차원 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 차원에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)를 참조하십시오.
+Customer Journey Analytics 관리자는 데이터 보기 내에서 또는 Analysis Workspace 내에서 직접 차원 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 차원에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/components/add-component-descriptions.md)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=ko#M576)
+>[이벤트 심도 기능으로 더욱 심층적인 고객 인사이트 탐색](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

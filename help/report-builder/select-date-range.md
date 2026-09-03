@@ -7,19 +7,13 @@ type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/g7-pu7H2LQVNRShRj5Jr6gGWYfB-eMxoLRexdfBUGiE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: 860
 ht-degree: 52%
 
 ---
@@ -49,7 +43,7 @@ ht-degree: 52%
 
 ![날짜 범위 사전 설정](assets/date-range-presets.png){zoomable="yes"}
 
-사전 설정 드롭다운 메뉴에는 사용자가 저장한 데이터 보기 또는 사용자와 공유한 데이터 보기에 대한 사전 설정 날짜 범위 및 날짜 범위 구성 요소의 표준 세트가 포함됩니다.
+사전 설정 드롭다운 메뉴에는 사용자가 저장했거나 사용자와 공유된 데이터 보기에 대한 사전 설정 날짜 범위 및 날짜 범위 구성 요소의 표준 세트가 포함됩니다.
 
 ### 순환 날짜
 
@@ -63,10 +57,10 @@ ht-degree: 52%
 
    - **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 연도]** **[!UICONTROL 종료]** **[!UICONTROL +]** `1` **[!UICONTROL 일]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
 
-      - 현재 값을 선택합니다. 예: **[!UICONTROL 현재 연도]**.
-      - 선택적 추가 계산을 위한 값을 선택합니다. 예: **[!UICONTROL 더하기]**.
-      - 추가 계산이 지정된 경우 값을 지정합니다. (예: `1`)
-      - 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
+     - 현재 값을 선택합니다. 예: **[!UICONTROL 현재 연도]**.
+     - 선택적 추가 계산을 위한 값을 선택합니다. 예: **[!UICONTROL 더하기]**.
+     - 추가 계산이 지정된 경우 값을 지정합니다. (예: `1`)
+     - 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
 
    - **[!UICONTROL 고정 날짜]**&#x200B;를 선택한 경우 고정 날짜를 지정하거나 선택기를 사용하여 날짜를 선택하십시오.
 
@@ -159,7 +153,7 @@ ht-degree: 52%
 
 - 순환 날짜를 사용할 때 시작 날짜는 오늘이나 과거의 날짜여야 합니다. **[!UICONTROL 오늘 제외]**&#x200B;를 선택한 경우 시작일은 과거여야 합니다.
 
-- 미래를 위한 정적 날짜 범위 세트를 만들 수 있습니다. 예를 들어 다음 주에 시작하는 마케팅 캠페인을 위해 미래 날짜를 설정해야 할 수 있습니다. 이 옵션은 사전에 캠페인에 대한 통합 문서 모니터링을 만듭니다.
+- 미래를 위한 정적 날짜 범위 세트를 만들 수 있습니다. 예를 들어 다음 주에 시작하는 마케팅 캠페인을 위해 미래 날짜를 설정해야 할 수 있습니다. 이 옵션은 캠페인을 사전에 모니터링하기 위한 통합 문서를 만듭니다.
 
 ## 날짜 범위 변경
 

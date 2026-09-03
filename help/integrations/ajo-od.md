@@ -6,20 +6,11 @@ feature: Experience Platform Integration
 role: Admin
 autotag-review: '2026-05-19T07:19:20.352Z'
 TQID: 'https://experienceleague.adobe.com/n3xsScsv43IG-tOQhgNjeqB2UmWzbIVw7sv5CcpZPd0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: df066828-d385-4da6-af58-80137fb27d7b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: df066828-d385-4da6-af58-80137fb27d7b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 753
@@ -32,17 +23,17 @@ ht-degree: 100%
 
 Adobe Journey Optimizer [의사 결정 관리](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ko-KR)를 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하도록 도와주는 의사 결정 엔진을 통해 쉽게 개인화할 수 있습니다.
 
-의사 결정 관리는 Adobe Journey Optimizer의 일부이며 Adobe Journey Optimizer와 통합되어 있습니다. 또한 풍부한 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=ko) 지원을 사용하여 Adobe Journey Optimizer에 정의된 여정 및 캠페인과 독립적으로 사용할 수도 있습니다.
+의사 결정 관리는 Adobe Journey Optimizer의 일부이며 Adobe Journey Optimizer와 통합되어 있습니다. 또한 풍부한 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 지원을 사용하여 Adobe Journey Optimizer에 정의된 여정 및 캠페인과 독립적으로 사용할 수도 있습니다.
 
 다음 단계를 수행하여 의사 결정 관리에서 생성된 데이터를 가져와 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다.
 
 ## 의사 결정 관리의 데이터를 Adobe Experience Platform에 전송
 
-Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. 의사 결정 관리의 데이터는 Experience Platform에서 **자동으로** 또는 **명시적으로 전송된 경험 이벤트**(예: 노출 또는 클릭)의 일부로 수집됩니다. 자세한 내용은 [데이터 수집 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 사이를 연결하는 중앙 데이터 소스의 역할을 합니다. 의사 결정 관리의 데이터는 Experience Platform에서 **자동으로** 또는 **명시적으로 전송된 경험 이벤트**(예: 노출 또는 클릭)의 일부로 수집됩니다. 자세한 내용은 [데이터 수집 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)를 참조하십시오.
 
 ## 연결 만들기
 
-의사 결정 관리 데이터를 Adobe Experience Platform으로 가져온 다음에는 의사 결정 관리 데이터 세트를 기반으로 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko)을 만들 수 있습니다. 또는 기존 연결에 의사 결정 관리 데이터 세트를 추가할 수 있습니다.
+의사 결정 관리 데이터를 Adobe Experience Platform으로 가져온 다음에는 의사 결정 관리 데이터 세트를 기반으로 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)을 만들 수 있습니다. 또는 기존 연결에 의사 결정 관리 데이터 세트를 추가할 수 있습니다.
 
 다음 데이터 세트를 선택하고 구성합니다.
 
@@ -58,15 +49,15 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 
 ## 데이터 보기 만들기
 
-연결을 만든 다음에는 하나 이상의 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
+연결을 만든 다음에는 하나 이상의 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)를 만들어 Customer Journey Analytics에서 사용할 수 있는 차원 및 지표를 구성할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
+>Adobe Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 처리 시간으로 인한 불일치를 완화하려면 오늘을 제외한 날짜 범위를 사용하십시오.
 
 ### 차원 구성
 
-데이터 보기에서 다음 차원을 만들어 의사 결정 관리에 있는 유사한 차원과 거의 정확한 동등성을 달성할 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+데이터 보기에서 다음 차원을 만들어 의사 결정 관리의 유사한 차원과 대략적으로 동일한 수준을 맞출 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
 | 차원 | 스키마 요소 | 구성 요소 설정 |
 | --- | --- | --- |
@@ -82,14 +73,14 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 
 ### 지표 구성
 
-의사 결정 관리에서 다음 지표를 만들어 Journey Optimizer에 있는 유사한 지표와 거의 정확한 동등성을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+데이터 보기에서 다음 지표를 만들어 의사 결정 관리의 유사한 지표와 거의 동등한 수준을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
 | 지표 | 설명 | 스키마 요소 | 구성 요소 설정 |
 | --- | --- | --- | --- |
 | 이벤트 유형(특정 이벤트를 참조하도록 이름 바꾸기, 예: `message.feedback`의 경우 `Feedback`) [1] | 특정 유형의 이벤트 양 | `eventType` | 구성 요소 유형: 지표<br/>**[!UICONTROL 포함 제외 값 설정&#x200B;]**: 켜짐<br/>**[!UICONTROL 일치]**: [!UICONTROL 모든 기준을 충족하는 경우]<br/>**[!UICONTROL 기준&#x200B;]**:**[!UICONTROL &#x200B;같음&#x200B;]**`message.feedback` |
 | 결정 옵션 점수 | 단일 범위의 맥락에서 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 구성 요소 유형: 지표 |
 | 대체 결정 옵션 점수 | 단일 범위의 맥락에서 대체 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 구성 요소 유형: 지표 |
-| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 닫거나 거부한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
+| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 무시되거나 거부된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
 | 오퍼 표시 | 프로필에 표시된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.display` | 구성 요소 유형: 지표 |
 | 오퍼 상호 작용 | 프로필이 상호 작용한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.interact` | 구성 요소 유형: 지표 |
 | 오퍼 전송 | 프로필에 전송된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.send` | 구성 요소 유형: 지표 |

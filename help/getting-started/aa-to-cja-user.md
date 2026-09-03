@@ -7,25 +7,11 @@ feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 autotag-review: '2026-05-19T06:30:45.150Z'
 TQID: 'https://experienceleague.adobe.com/Qyb6t5w-DTcecgqvhUE6NplDrlPmW2lzhk0RWbf7g-g'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1539
@@ -35,7 +21,7 @@ ht-degree: 95%
 
 # Adobe Analytics 사용자를 위한 사용 안내서
 
-조직에서 Adobe Customer Journey Analytics를 사용하기 시작하는 경우 Adobe Analytics와 Customer Journey Analytics 간의 몇 가지 유사성과 차이점을 볼 수 있습니다. 이 페이지에서는 조직이 새로운 구현 및 보고 워크플로를 가능하게 하는 이러한 차이점에 대해 설명합니다. 또한 이 페이지에서는 새로운 개념에 대한 추가 리소스를 제공하며 분석가로서 여정을 보다 쉽고 성공적으로 수행할 수 있도록 합니다.
+조직에서 Adobe Customer Journey Analytics를 사용하기 시작하는 경우 Adobe Analytics와 Customer Journey Analytics 간의 몇 가지 유사성과 차이점을 볼 수 있습니다. 이 페이지에서는 조직이 새로운 구현 및 보고 워크플로에 적응하는 데 도움이 되도록 이러한 차이점을 설명합니다. 또한 이 페이지에서는 새로운 개념에 대한 추가 리소스와 분석가로서의 여정을 더 쉽고 성공적으로 만드는 데 도움이 되는 다음 단계도 제공합니다.
 
 업계 표준에 맞게 Customer Journey Analytics의 여러 기능 이름이 변경되고 재디자인됩니다. 업데이트된 용어 중 일부는 세그먼트, 가상 보고서 세트, 분류, 고객 속성 및 컨테이너 이름을 포함합니다. 유연한 사용자 정의 차원 및 지표를 위해 eVar 및 prop의 제한 사항이 더 이상 존재하지 않습니다.
 
@@ -55,11 +41,11 @@ ht-degree: 95%
 
 ## 데이터 아키텍처 변경 사항 {#architecture}
 
-Customer Journey Analytics는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 시스템 학습을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다.
+Customer Journey Analytics는 Adobe Experience Platform에서 데이터를 가져옵니다. Experience Platform을 사용하면 모든 시스템 또는 채널의 고객 데이터와 콘텐츠를 중앙 집중화 및 표준화하고 데이터 과학 및 머신 러닝을 적용하여 개인화된 경험의 디자인과 게재를 향상시킬 수 있습니다.
 
 Experience Platform의 고객 데이터는 데이터 세트에 저장되며, 데이터 세트는 [스키마](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=ko-KR)와 데이터 배치로 구성됩니다. 플랫폼에 대한 자세한 내용은 [Adobe Experience Platform 아키텍처 개요](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=ko-KR)를 참조하십시오.
 
-Customer Journey Analytics 관리자는 Experience Platform의 데이터 세트에 [연결](/help/connections/create-connection.md)을 설정합니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 Customer Journey Analytics의 보고 기준입니다. Experience Platform은 보고를 위한 모든 데이터를 소스화하므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
+Customer Journey Analytics 관리자는 Experience Platform의 데이터 세트에 [연결](/help/connections/create-connection.md)을 설정합니다. 그런 다음 빌드합니다 [데이터 보기](/help/data-views/data-views.md) 해당 연결 사용. 데이터 보기는 가상 보고서 세트와 개념적으로 유사하며 Customer Journey Analytics에서 보고의 기반이 됩니다. Experience Platform이 보고를 위한 모든 데이터의 소스이므로 보고서 세트는 더 이상 데이터를 위한 컨테이너로 존재하지 않습니다.
 
 연결을 통해 Analytics 관리자는 Adobe Experience Platform의 데이터 세트를 Customer Journey Analytics에 통합할 수 있습니다.
 
@@ -80,7 +66,7 @@ Adobe는 Analytics 소스 커넥터 또는 Web SDK를 통해 보고서 세트 �
 
 ## 가상 보고서 세트의 개념 변경 {#data-views}
 
-[!UICONTROL 데이터 보기]는 현재 존재하는 가상 보고서 세트의 개념을 사용하고 이를 확장하여 연결을 통해 사용할 수 있는 [데이터에 대한 추가 제어 기능을 활성화](/help/data-views/create-dataview.md)합니다. 이러한 변경 사항은 시간대 및 세션 시간 초과 간격과 같은 일반 설정을 구성 및 소급 적용할 수 있도록 합니다. 기여도 분석 및 만료와 같은 개별 변수 설정은 보고서 또는 데이터 보기 수준에서 사용자 정의할 수도 있습니다. 이러한 설정은 비파괴적이고 소급 적용됩니다.
+[!UICONTROL 데이터 보기]는 현재 존재하는 가상 보고서 세트의 개념을 사용하고 이를 확장하여 연결을 통해 사용할 수 있는 [데이터에 대한 추가 제어 기능을 활성화](/help/data-views/create-dataview.md)합니다. 이러한 변경 사항은 시간대 및 세션 시간 초과 간격과 같은 일반 설정을 구성 및 소급 적용할 수 있도록 합니다. 기여도 및 만료와 같은 개별 변수 설정은 보고서 또는 데이터 보기 수준에서 사용자 정의할 수도 있습니다. 이러한 설정은 비파괴적이고 소급 적용됩니다.
 
 이제 오른쪽 상단의 보고서 세트 선택기를 사용하여 사용 가능한 데이터 보기 중에서 선택할 수 있습니다.
 
@@ -90,19 +76,19 @@ Adobe는 Analytics 소스 커넥터 또는 Web SDK를 통해 보고서 세트 �
 
 ## eVar 및 prop의 개념 변경
 
-기존 Adobe Analytics의 [!UICONTROL eVar], [!UICONTROL Prop], [!UICONTROL 이벤트] 개념은 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. Adobe Analytics에서 eVar 및 prop은 콘텐츠, 고객, 캠페인 등에 대한 설명을 저장하고 이벤트는 생성된 수입, 구독 또는 리드와 같은 것을 계산합니다. Customer Journey Analytics은 두 유형의 데이터를 모두 보존하며, Analysis Workspace의 왼쪽 레일에서 각각 Dimension 또는 지표 아래에 있는 동일한 방식으로 액세스할 수 있습니다.
+기존 Adobe Analytics의 [!UICONTROL eVar], [!UICONTROL Prop], [!UICONTROL 이벤트] 개념은 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. Adobe Analytics에서 eVar 및 prop은 콘텐츠, 고객, 캠페인 등에 대한 설명을 저장하고 이벤트는 생성된 수입, 구독 또는 리드와 같은 것을 계산합니다. Customer Journey Analytics은 두 유형의 데이터를 모두 보존하며, Analysis Workspace의 왼쪽 레일에서 각각 차원 또는 지표 아래에 있는 동일한 방식으로 액세스할 수 있습니다.
 
-Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소를 사용할 수 있습니다. 이는 Experience Platform의 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소에 매핑됩니다. 이제 Adobe Analytics의 처리 규칙 이후에 적용된 모든 방문 및 속성 설정이 Customer Journey Analytics의 쿼리 시간에 적용됩니다.
+Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소를 사용할 수 있습니다. 이는 Experience Platform의 차원, 지표 및 목록 필드를 포함한 무제한 스키마 요소에 매핑됩니다. 이제 Adobe Analytics의 처리 규칙 이후에 적용된 모든 방문 및 기여도 설정이 Customer Journey Analytics의 쿼리 시간에 적용됩니다.
 
 이러한 유연성으로 인해 단일 스키마 필드를 차원과 지표로 사용하여 다양한 추적 요구 사항을 지원할 수 있는 상황이 발생할 수 있습니다.
 
 ## 세그먼트 개념 변경
 
-세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 매핑된 차원 및 지표를 기반으로 세그먼트를 Customer Journey Analytics에서 다시 만듭니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ko)를 참조하십시오.
+세그먼트는 기술적으로 Adobe Analytics에서 Customer Journey Analytics로 마이그레이션되지 않지만 구성 요소 마이그레이션 도구를 사용하여 Customer Journey Analytics에서 Adobe Analytics 세그먼트를 다시 만들 수 있습니다. 세그먼트는 매핑된 차원 및 지표를 기반으로 Customer Journey Analytics에서 다시 생성됩니다. 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics로 구성 요소 및 프로젝트 마이그레이션 준비](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)를 참조하십시오.
 
 [!DNL Customer Journey Analytics]의 [!UICONTROL 세그먼트]&#x200B;([!UICONTROL 세그먼트])를 Experience Platform 통합 프로필로 공유하거나 게시하는 기능은 아직 제공되지 않으며, 현재 개발 중입니다.
 
-세그먼트 컨테이너는 변경되는 세그먼트 개념 외에도 업데이트됩니다.
+세그먼트 개념의 변경 외에도 세그먼트 컨테이너도 업데이트됩니다.
 
 * **히트 컨테이너는 이제 [!UICONTROL 이벤트] 컨테이너**&#x200B;입니다. [!UICONTROL 이벤트] 컨테이너를 사용하여 개별 이벤트에 따라 개인 정보를 분류할 수 있습니다.
 * **방문 컨테이너는 이제 [!UICONTROL 세션] 컨테이너입니다**. [!UICONTROL 세션] 컨테이너에서 특정 세션에 대한 페이지 상호 작용, 캠페인 또는 대화를 식별할 수 있습니다.
@@ -119,13 +105,13 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 >[!ENDSHADEBOX]
 
-## 변수 속성 및 만료 설정 변경
+## 변수 기여도 및 만료 설정 변경
 
 [!UICONTROL Customer Journey Analytics] 보고서 시간에 속성 및 만료를 포함한 모든 변수 설정을 적용합니다. 이제 이러한 설정이 [데이터 보기](/help/data-views/component-settings/persistence.md)및 일부 변수 설정(예: 속성)은 작업 영역 프로젝트에서 변경할 수 있습니다.
 
-동일한 데이터 보기에 동일한 변수의 여러 버전이 있을 수 있습니다. 예를 들어 30일 후에 만료되는 추적 코드 차원 하나와 세션 종료 시 만료되는 추적 코드 차원이 있을 수 있습니다. 이러한 추적 코드 차원은 모두 동일한 소스 데이터를 사용하지만 다른 속성 설정을 사용합니다.
+동일한 데이터 보기에 동일한 변수의 여러 버전이 있을 수 있습니다. 예를 들어 30일 후에 만료되는 추적 코드 차원 하나와 세션 종료 시 만료되는 추적 코드 차원이 있을 수 있습니다. 이러한 추적 코드 차원은 모두 동일한 소스 데이터를 사용하지만 다른 기여도 설정을 사용합니다.
 
-동일한 연결을 기반으로 여러 데이터 보기를 가질 수도 있습니다. 예를 들어 세션 시간 제한이 30분이고, 세션 시간 제한이 15분인 데이터 보기가 한 개 있을 수 있습니다. 두 데이터 보기는 오른쪽 위의 선택기에 표시되므로 두 보기 간에 원활하게 전환할 수 있습니다.
+동일한 연결을 기반으로 여러 데이터 보기를 가질 수도 있습니다. 예를 들어 세션 시간 제한이 30분인 데이터 보기 하나와 세션 시간 제한이 15분인 또 다른 데이터 보기를 가질 수 있습니다. 두 데이터 보기는 오른쪽 위의 선택기에 표시되므로 두 보기 간에 원활하게 전환할 수 있습니다.
 
 ## 분류 개념 변경
 
@@ -137,15 +123,15 @@ Customer Journey Analytics에서는 차원, 지표 및 목록 필드를 포함�
 
 ## Adobe가 방문자를 식별하는 방법 변경
 
-Customer Journey Analytics는 ECID 이상의 ID의 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등을 포함하여 사용할 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
+Customer Journey Analytics는 ECID를 넘어 ID 개념을 확장하여 고객 ID, 쿠키 ID, 결합된 ID, 사용자 ID, 추적 코드 등 사용하려는 모든 ID를 포함합니다. 데이터 세트에서 공통 네임스페이스 ID 사용 또는 [결합](../stitching/overview.md)은 서로 다른 데이터 세트에서 사람들을 서로 연결하는 데 도움이 됩니다. Customer Journey Analytics에서 작업 영역 프로젝트를 설정하는 모든 사용자는 데이터 세트에서 사용되는 ID를 이해해야 합니다. Customer Journey Analytics에서 ID의 사용을 강조 표시하는 다음 비디오를 참조하십시오.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics에서 ID 사용](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 ## 낮은 트래픽 차원 항목 개념 변경
 
-기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. Customer Journey Analytics에는 높은 카디널리티 필드에 제한이 없습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. Customer Journey Analytics가 고유 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용은 [높은 카디널리티 차원](../components/dimensions/high-cardinality.md)을 참조하십시오.
+기존 Adobe Analytics에서 고유 값을 너무 많이 받는 변수는 아래의 차원 항목을 그룹화하기 시작합니다 [!UICONTROL 낮은 트래픽]. Customer Journey Analytics에는 높은 카디널리티 필드에 대한 제한이 더 적습니다. 보고 아키텍처를 변경하면 Analysis Workspace에서 더 많은 고유한 차원 항목에 대해 보고할 수 있습니다. Customer Journey Analytics가 고유 값이 많은 차원에 대한 보고를 최적화하는 방법에 대한 자세한 내용은 [높은 카디널리티 차원](../components/dimensions/high-cardinality.md)을 참조하십시오.

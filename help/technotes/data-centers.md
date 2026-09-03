@@ -6,19 +6,11 @@ role: Admin
 exl-id: a41686bb-1a7b-4d27-8415-f4a1880b7de5
 autotag-review: '2026-05-19T09:26:11.873Z'
 TQID: 'https://experienceleague.adobe.com/aGyAPxA9wATPVbfByvJqae9memBphvCnq44CmrO8juM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 239
@@ -32,7 +24,7 @@ Adobe Customer Journey Analytics은 북미, 유럽 및 APAC의 퍼블릭 클라�
 
 프로비저닝 시 고객은 Adobe Experience Platform 데이터가 위치할 지역을 지정합니다. Adobe Experience Platform 데이터 레이크에서 Customer Journey Analytics으로 수집된 데이터는 동일한 영역에 저장됩니다.
 
-자세한 내용은 Adobe CX Enterprise 설명서의 [지역 데이터 수집](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/rdc)을 참조하십시오.
+자세한 내용은 Adobe CX Enterprise 설명서의 [지역 데이터 수집](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc)을 참조하십시오.
 
 
 ## 데이터가 저장된 데이터 센터 보기

@@ -7,23 +7,11 @@ feature: Use Cases
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
 autotag-review: '2026-05-19T09:50:19.249Z'
 TQID: 'https://experienceleague.adobe.com/ez4GO2CJ0g-nOGI4GlYrZQhuGKxQRvWoXPe4vcHGznU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 685
@@ -57,7 +45,7 @@ Quantum Metric은 페이지 로드 속도, 페이지 로드 오류, 페이지 �
 
 ## 2단계: 양자 지표 태그 확장을 사용하여 마찰 이벤트 캡처
 
-양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
+양자 지표 데이터를 포함하도록 태그를 설정하는 방법에 대한 지침은 Adobe Experience Platform 대상 안내서의 [양자 지표 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 참조하십시오. 이 확장을 사용하면 기존 데이터 세트에 더 많은 행이 전달됩니다.
 
 Adobe Experience Platform 데이터 수집 의 태그를 사용하여 XDM 개체에 포함되고 분석될 수 있도록 마찰 이벤트의 이름을 수동으로 설정합니다. 이를 수행하는 한 가지 방법은 규칙의 사용자 지정 코드입니다.
 

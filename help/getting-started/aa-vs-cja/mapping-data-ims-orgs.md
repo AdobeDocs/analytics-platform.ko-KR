@@ -7,18 +7,11 @@ feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
 autotag-review: '2026-05-19T09:13:16.649Z'
 TQID: 'https://experienceleague.adobe.com/sMivwoUTSa8KcQcaK8kR5PlbCF8stVNGeL5YET4usMI'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1127
@@ -65,7 +58,7 @@ Analytics 소스 커넥터는 기본적으로 단일 조직 내의 Adobe Analyti
 
 Adobe 계정 관리자가 여러 조직의 Analytics 데이터를 매핑하라는 요청과 함께 이메일을 수신하면 Adobe 내에서 요청을 검토합니다. 추가 질문, 선택적 교육 및 기타 정보가 필요하면 Adobe 계정 관리자가 연락합니다.
 
-승인되면 요청된 매핑이 만들어지고 사용자에게 알림이 전송됩니다. 소스 IMS 조직 이름이 Experience Platform의 Analytics 보고서 세트 [목록](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)에 있는 보고서 세트 이름에 추가됩니다.
+승인되면 요청된 매핑이 만들어지고 사용자에게 알림이 전송됩니다. 소스 IMS 조직 이름이 Experience Platform의 Analytics 보고서 세트 [목록](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)에 있는 보고서 세트 이름에 추가됩니다.
 
 
 ## 제한 사항
@@ -85,7 +78,7 @@ Adobe 계정 관리자가 여러 조직의 Analytics 데이터를 매핑하라�
 
 *IMS 간 데이터 매핑* 기능이 승인되면 대상 IMS 조직에 있는 하나 이상의 보고서 세트에 대한 데이터를 Experience Platform에 추가할 수 있습니다. [Analytics 원본 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)의 구성을 통해 이 작업을 수행합니다. 그런 다음 Experience Platform에서 Target 데이터 세트가 만들어집니다. 이 구성 및 프로세스의 일부로 하나 이상의 보고서 세트에서 프로필 서비스로 프로필 데이터를 전송하는 옵션이 있습니다.
 
-위에 설명된 대로 구성 및 프로세스의 결과인 총 프로필 수를 예측합니다. 총 수가 대상 조직에 대해 계약상 부여되는 프로필 수 이내인지 확인합니다. [필터링 규칙 및 조건](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}을(를) 적용하여 데이터를 수집에서 프로필 서비스에 선택적으로 포함하거나 제외합니다. 또는 관련 보고서 세트에 대해 프로필 서비스로 프로필 데이터를 전송하는 옵션을 비활성화합니다.
+위에 설명된 대로 구성 및 프로세스의 결과인 총 프로필 수를 예측합니다. 총 수가 대상 조직에 대해 계약상 부여되는 프로필 수 이내인지 확인합니다. [필터링 규칙 및 조건](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}을(를) 적용하여 데이터를 수집에서 프로필 서비스에 선택적으로 포함하거나 제외합니다. 또는 관련 보고서 세트에 대해 프로필 서비스로 프로필 데이터를 전송하는 옵션을 비활성화합니다.
 
 
 #### 결합
