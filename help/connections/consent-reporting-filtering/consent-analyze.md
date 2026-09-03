@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,6 @@ Experience Platform 프로필 데이터 세트의 동의 정책 데이터를 Cus
 
 ## 동의 정책 분석 템플릿 사용
 
-동의 보고를 위해 데이터 보기가 구성된 경우, Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 자동으로 사용할 수 있도록 합니다. 이 템플릿은 방문자 동의 정책 멤버십에 대한 보고의 시작점을 제공합니다.
+데이터 보기가 동의 보고용으로 구성되면 Customer Journey Analytics은 동의 정책 분석 템플릿을 Analysis Workspace에서 사용할 수 있도록 자동으로 설정합니다. 이 템플릿은 방문자 동의 정책 멤버십에 대한 보고의 시작점을 제공합니다.
 
 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 액세스 및 실행](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)을 참조하십시오.

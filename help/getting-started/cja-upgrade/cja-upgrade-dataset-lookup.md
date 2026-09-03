@@ -50,7 +50,7 @@ Customer Journey Analytics에서 Experience Platform Web SDK를 사용할 때 �
 
 ## 조회 데이터 세트와 함께 사용할 사용자 정의 스키마 만들기
 
-Customer Journey Analytics에서 분류하고자 하는 데이터를 포함하는 각 차원에 대한 새로운 사용자 정의 스키마를 생성합니다. 이후 단계에서 조회 데이터 세트를 생성하면 이 스키마를 참조할 것입니다.
+Customer Journey Analytics에서 분류하고자 하는 데이터를 포함하는 각 차원에 대한 새로운 사용자 정의 스키마를 생성합니다. 이후 단계에서 조회 데이터 세트를 생성하면 이 스키마를 참조합니다.
 
 분류하려는 데이터가 포함된 각 차원에 대해 이 과정을 반복합니다.
 
@@ -110,7 +110,7 @@ Customer Journey Analytics에서 스키마와 함께 사용할 조회 데이터 
 
 1. 파일을 업로드한 후 매핑을 검토하여 정확한지 확인합니다. CSV 파일의 열은 **[!UICONTROL 소스 데이터]** 아래에 나열되어 있고, 해당 XDM 스키마 필드는 **[!UICONTROL 대상 필드]** 아래에 나열되어 있습니다.
 
-   Platform은 사용자가 선택한 대상 스키마나 데이터 세트를 기반으로 자동 매핑된 필드에 대한 지능형 추천을 자동으로 제공합니다. 사용 사례에 맞게 매핑 규칙을 수동으로 조정할 수 있습니다.
+   Platform은 사용자가 선택한 대상 스키마나 데이터 세트를 기반으로 자동 매핑된 필드에 대한 지능형 추천을 제공합니다. 사용 사례에 맞게 매핑 규칙을 수동으로 조정할 수 있습니다.
 
    매핑 프로세스에 대한 자세한 내용은 Experience Platform 설명서의 [CSV 파일을 기존 XDM 스키마에 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema)을 참조하십시오.
 

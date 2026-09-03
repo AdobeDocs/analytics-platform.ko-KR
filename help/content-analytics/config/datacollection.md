@@ -35,14 +35,14 @@ ht-degree: 52%
 이 문서의 컨텍스트에서는 다음 정의가 사용됩니다.
 
 * **경험**:
-   * **web** 채널의 경우 경험은 전체 웹 페이지에서 텍스트 콘텐츠로 정의됩니다. 데이터 수집의 경우 Content Analytics은 페이지 URL을 기반으로 하는 경험 ID를 기록합니다. 나중에 해당 페이지의 텍스트는 검색 서비스를 통해 캡처됩니다.
-   * **mobile** 채널의 경우 Adobe Experience Platform Mobile SDK용 Content Analytics 확장을 사용하여 모바일 앱에서 경험을 정의하고 추적합니다.
+  * **web** 채널의 경우 경험은 전체 웹 페이지에서 텍스트 콘텐츠로 정의됩니다. 데이터 수집의 경우 Content Analytics은 페이지 URL을 기반으로 하는 경험 ID를 기록합니다. 나중에 해당 페이지의 텍스트는 검색 서비스를 통해 캡처됩니다.
+  * **mobile** 채널의 경우 Adobe Experience Platform Mobile SDK용 Content Analytics 확장을 사용하여 모바일 앱에서 경험을 정의하고 추적합니다.
 * **경험 ID**:
-   * 웹 채널의 경우 경험 ID는 관련 URL(기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수)과 [경험 버전](manual.md#versioning)의 고유한 조합입니다.
-      * [구성](configuration.md)의 일부로 주어진 전체 URL에 관련된 매개변수를 지정합니다.
-      * 사용할 [버전 식별자](manual.md#versioning)를 정의하면 환경의 변경 사항을 적절하게 수집할 수 있습니다.
-   * **mobile** 채널의 경우 경험 ID는 `registerExperience` API 호출을 사용한 반환 값입니다.
-* **자산**: 이미지입니다. Content Analytics는 자산 URL을 기록합니다.
+  * 웹 채널의 경우 경험 ID는 관련 URL(기본 URL과 페이지의 콘텐츠를 유도하는 모든 매개 변수)과 [경험 버전](manual.md#versioning)의 고유한 조합입니다.
+    * [구성](configuration.md)의 일부로 주어진 전체 URL에 관련된 매개변수를 지정합니다.
+    * 사용할 [버전 식별자](manual.md#versioning)를 정의하면 환경의 변경 사항을 적절하게 수집할 수 있습니다.
+  * **mobile** 채널의 경우 경험 ID는 `registerExperience` API 호출을 사용한 반환 값입니다.
+* **자산**: 이미지입니다. Content Analytics는 에셋 URL을 기록합니다.
 * **자산 ID**: 자산의 URL입니다.
 * **관련 URL**: 기본 URL과 페이지의 콘텐츠를 구동하는 모든 매개변수입니다.
 
@@ -64,12 +64,12 @@ Content Analytics 라이브러리는 다음과 같은 경우 데이터를 수집
 Content Analytics 이벤트는 다음으로 구성됩니다.
 
 * 표준 필드
-   * 타임스탬프
-   * ID
+  * 타임스탬프
+  * ID
 * 경험 보기(있는 경우 및 구성된 경우)
 * 경험 클릭 수(있는 경우 및 구성된 경우)
-* 자산 조회수(있는 경우 및 구성된 경우)
-* 자산 클릭 수(있는 경우 및 구성된 경우)
+* 에셋 조회수(있는 경우 및 구성된 경우)
+* 에셋 클릭 수(있는 경우 및 구성된 경우)
 
 Content Analytics 이벤트는 다음의 시퀀스로 수집됩니다.
 
@@ -80,21 +80,21 @@ Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라
 
 ### 기록된 보기 또는 클릭
 
-자산 보기는 다음과 같은 경우 기록됩니다.
+에셋 보기는 다음과 같은 경우 기록됩니다.
 
-* Content Analytics 확장 기능 구성에 따라 자산이 제외되지 않았습니다.
+* Content Analytics 확장 기능 구성에 따라 에셋이 제외되지 않았습니다.
 * 자산이 75% 정도 검토 중입니다.
 * 해당 자산이 아직 이 페이지에 기록되지 않았습니다.
 
-자산 클릭은 다음과 같은 경우 기록됩니다.
+에셋 클릭은 다음과 같은 경우 기록됩니다.
 
-* 자산이 조회되었습니다.
-* Content Analytics 확장 기능 구성에 따라 자산이 제외되지 않았습니다.
+* 에셋이 조회되었습니다.
+* Content Analytics 확장 기능 구성에 따라 에셋이 제외되지 않았습니다.
 * 링크인 에셋을 바로 클릭하면 다른 페이지로 연결됩니다.
 
 경험 보기는 다음과 같은 경우 기록됩니다.
 
-* Content Analytics 구성에서 경험이 활성화되었습니다.
+* Content Analytics 구성에서 경험이 활성화되어 있습니다.
 
 경험 클릭은 다음과 같은 경우 기록됩니다.
 
@@ -107,11 +107,11 @@ Content Analytics는 이벤트를 바로 다음에 수집하는 것이 아니라
 
 * 웹 SDK 또는 Adobe AppMeasurement에서 이벤트를 전송합니다.
 * 표시 여부가 숨김으로 변경되었습니다. 예:
-   * 페이지 언로드
-   * 탭 전환
-   * 브라우저 최소화
-   * 브라우저 닫기
-   * 화면 잠금
+  * 페이지 언로드
+  * 탭 전환
+  * 브라우저 최소화
+  * 브라우저 닫기
+  * 화면 잠금
 * URL이 변경되어 관련 URL도 수정되었습니다.
 * 기록된 자산 보기 및 전송할 준비가 32개를 초과했습니다.
 
@@ -164,7 +164,7 @@ Content Analytics ID 데이터와 Web SDK 데이터 ID 데이터가 필드 수�
 
 ### 모바일
 
-모바일 앱에서 ID를 사용하여 작업하는 방법에 대한 자세한 내용은 [Experience Cloud ID 서비스 확장에 대한 ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/) 및 [Edge Network 모바일 확장에 대한 ID](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)를 참조하십시오.
+모바일 앱에서 ID를 사용하여 작업하는 방법에 대한 자세한 내용은 [Experience Cloud ID 서비스 확장에 대한 ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/) 및 [Edge Network 모바일 확장에 대한 ID](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)을 참조하십시오.
 
 모바일 앱에서 ID가 바뀌자마자 Content Analytics 데이터의 현재 [batch](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/#batching-settings)이(가) 재설정되어 새 ID에 대한 Content Analytics 데이터의 새 컬렉션을 시작합니다.
 

@@ -106,7 +106,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
 >title="프로젝트 및 구성 요소 마이그레이션"
->abstract="Adobe Analytics 프로젝트 및 관련 모든 구성 요소를 Customer Journey Analytics로 가져옵니다."
+>abstract="Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics로 가져옵니다."
 
 <!-- markdownlint-enable MD034 -->
 

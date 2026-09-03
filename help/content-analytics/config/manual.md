@@ -21,8 +21,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 62%
+source-wordcount: 721
+ht-degree: 66%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 62%
 
 * **web**&#x200B;의 경우:
 
-   1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
-   1. Content Analytics 구성에 연결된 웹 태그 속성을 삭제합니다.
+  1. Content Analytics에 따라 개발, 스테이징 또는 프로덕션 환경의 페이지 `<head>` 요소에서 [임베드된 코드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/environments/environments)를 제거합니다.
+  1. Content Analytics 구성에 연결된 웹 태그 속성을 삭제합니다.
 
 * **mobile**&#x200B;의 경우:
 
-   1. 앱에서 [Content Analytics 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 제거합니다.
-   1. Content Analytics 구성에 연결된 모바일 태그 속성을 삭제합니다.
+  1. 앱에서 [Content Analytics 확장](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)을 제거합니다.
+  1. Content Analytics 구성에 연결된 모바일 태그 속성을 삭제합니다.
 
 변경 내용을 적용하려면 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/overview){target="_blank"}을 따르십시오.
 

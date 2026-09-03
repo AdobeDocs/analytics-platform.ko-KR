@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: 188
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 조사할 수 있는 이상 현상의 예에는 다음 내용이 포함됩니다.
 
 * 평균 주문 가격의 급격한 하락
-* 매출액이 낮은 주문의 급등
+* 매출이 낮은 주문의 급등
 * 체험판 등록 급등 또는 하락
 * 랜딩 페이지 조회수의 하락
 * 비디오 버퍼 이벤트의 스파이크

@@ -49,7 +49,7 @@ Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에는 tru
 
 +++**`accept_language`**
 
-이미지 요청의 Accept-Language HTTP 헤더에 표시된 대로 모든 수락된 언어를 나열합니다.
+이미지 요청의 Accept-Language HTTP 헤더에 표시된 대로 허용되는 모든 언어를 나열합니다.
 
 +++
 
@@ -63,7 +63,7 @@ Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에는 tru
 
 +++**`aemassetid`**
 
-Adobe Experience Manager Assets 세트의 자산 ID(GUID)에 해당하는 다중 값 변수입니다. 노출 이벤트를 증가시킵니다.
+Adobe Experience Manager Assets 세트의 에셋 ID(GUID)에 해당하는 다중 값 변수입니다. 노출 이벤트를 증가시킵니다.
 
 {{cja-df-post}}
 
@@ -71,14 +71,14 @@ Adobe Experience Manager Assets 세트의 자산 ID(GUID)에 해당하는 다중
 
 +++**`aemassetsource`**
 
-자산 이벤트의 소스를 식별합니다. Adobe Experience Manager에서 사용됩니다.
+에셋 이벤트의 소스를 식별합니다. Adobe Experience Manager에서 사용됩니다.
 
 {{cja-df-post}}
 +++
 
 +++**`aemclickedassetid`**
 
-Adobe Experience Manager 자산의 자산 ID입니다. 클릭 이벤트를 증가시킵니다.
+Adobe Experience Manager 에셋의 에셋 ID입니다. 클릭 이벤트를 증가시킵니다.
 
 {{cja-df-post}}
 
@@ -506,7 +506,7 @@ Customer Journey Analytics은 기본 제공되는 &quot;제외된 히트&quot;�
 
 +++**`first_hit_time_gmt`**
 
-UNIX® 시간에서 방문자의 첫 번째 히트 타임스탬프입니다.
+방문자의 첫 번째 히트의 타임스탬프(UNIX® 시간)입니다.
 
 +++
 
@@ -560,7 +560,7 @@ IP를 기반으로 하는 히트가 발생한 지역의 우편 번호입니다. 
 
 +++**`hit_time_gmt`**
 
-히트 Adobe 데이터 수집 서버의 타임스탬프가 UNIX® 시간을 기준으로 히트를 받았습니다.
+Adobe 데이터 수집 서버가 수신한 히트의 타임스탬프이며, UNIX® 시간을 기준으로 합니다.
 
 +++
 
@@ -638,13 +638,13 @@ Java 활성화 차원. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 �
 
 +++**`latlon23`**
 
-위치 (100m까지)
+위치 (100 m까지)
 
 +++
 
 +++**`latlon45`**
 
-위치 (1m까지)
+위치 (1 m까지)
 
 +++
 
@@ -664,7 +664,7 @@ Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비�
 
 +++**`mobileaction`**
 
-모바일 작업입니다. 모바일 구현에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다.
+모바일 작업입니다. 모바일 구현에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 자동 액션 경로 지정을 허용합니다.
 
 {{cja-df-post}}
 
@@ -694,31 +694,31 @@ Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 충�
 
 +++**`mobileappstoreobjectid`**
 
-[!DNL Appfigures] Data Connector에서 사용됩니다. 앱스토어 오브젝트 ID.
+[!DNL Appfigures] Data Connector에서 사용됩니다. 앱 스토어 오브젝트 ID.
 
 +++
 
 +++**`mobilebeaconmajor`**
 
-Mobile Services 비콘 Major
+모바일 서비스 비콘 Major
 
 +++
 
 +++**`mobilebeaconminor`**
 
-Mobile Services 비콘 Minor
+모바일 서비스 비콘 Minor
 
 +++
 
 +++**`mobilebeaconproximity`**
 
-Mobile Services 비콘 Proximity
+모바일 서비스 비콘 Proximity
 
 +++
 
 +++**`mobilebeaconuuid`**
 
-Mobile Services 비콘 UUID
+모바일 서비스 비콘 UUID
 
 +++
 
@@ -748,7 +748,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobilecampaignsource`**
 
-뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러. 모바일 앱 획득을 통해 채워집니다.
+뉴스레터 또는 소셜 미디어 네트워크와 같은 원래 레퍼러. 모바일 앱 획득을 통해 채워집니다.
 
 {{cja-df-post}}
 
@@ -756,7 +756,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobilecampaignterm`**
 
-이 획득으로 추적할 유료 키워드 또는 기타 조건입니다. 모바일 앱 획득을 통해 채워집니다.
+이 확보로 추적할 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다.
 
 {{cja-df-post}}
 
@@ -764,7 +764,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobiledayofweek`**
 
-앱을 시작한 요일의 수입니다.
+앱이 실행된 요일 번호입니다.
 
 {{cja-df-post}}
 
@@ -794,7 +794,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobiledevice`**
 
-모바일 디바이스 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 디바이스 생성을 나타내고 두 번째 숫자는 디바이스 제품군을 나타냅니다.
+모바일 디바이스 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 디바이스 세대를 나타내고 두 번째 숫자는 디바이스 제품군을 나타냅니다.
 
 {{cja-df-post}}
 
@@ -830,7 +830,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobilemessagebuttonname`**
 
-컨텍스트 데이터 변수 `a.message.button.id`에서 수집됩니다. 메시지를 닫은 버튼을 식별하는 인앱 메시지에 사용됩니다.
+컨텍스트 데이터 변수 `a.message.button.id`에서 수집됩니다. 메시지를 닫은 버튼을 식별하기 위해 인앱 메시지에서 사용됩니다.
 
 {{cja-df-post}}
 
@@ -854,7 +854,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobilemessagepushoptin`**
 
-컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지를 사용할 때 “true”로 설정됩니다. 그러지 않는 경우에는 값이 “false”입니다.
+컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지 수신에 동의하면 &quot;true&quot;로 설정되고, 그렇지 않으면 값은 &quot;false&quot;입니다.
 
 {{cja-df-post}}
 
@@ -870,7 +870,7 @@ Mobile Services 비콘 UUID
 
 +++**`mobileosversion`**
 
-Mobile Services 운영 체제 버전
+모바일 서비스 운영 체제 버전
 
 {{cja-df-post}}
 
@@ -918,19 +918,19 @@ Mobile Services 실행 콘텐츠
 
 +++**`mobilerelaunchcampaignmedium`**
 
-Mobile Services 실행 미디어
+모바일 서비스 실행 미디어
 
 +++
 
 +++**`mobilerelaunchcampaignsource`**
 
-Mobile Services 실행 소스
+모바일 서비스 실행 소스
 
 +++
 
 +++**`mobilerelaunchcampaignterm`**
 
-Mobile Services 실행 용어
+모바일 서비스 실행 용어
 
 +++
 
@@ -963,7 +963,7 @@ Mobile Services 실행 용어
 
 +++**`mvvar1`** - **`mvvar3`**
 
-변수 값을 나열합니다. 구현에 따라 구분된 사용자 정의 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다.
+변수 값을 나열합니다. 구현에 따라 구분자로 구분된 사용자 정의 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다.
 
 {{cja-df-post}}
 
@@ -979,7 +979,7 @@ Mobile Services 실행 용어
 
 +++**`new_visit`**
 
-현재 히트가 새 방문인지를 판별하는 플래그. 30분 동안 방문 활동이 없으면 Adobe 서버에서 설정합니다.
+현재 히트가 새 방문인지를 판별하는 플래그. 30분 동안 방문 활동이 없으면 Adobe에서 설정합니다.
 
 +++
 
@@ -1017,7 +1017,7 @@ Mobile Services 실행 용어
 
 +++**`page_event`**
 
-이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다.
+이미지 요청에서 전송되는 히트 유형(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)입니다.
 
 {{cja-df-post}}
 
@@ -1027,7 +1027,7 @@ Mobile Services 실행 용어
 
 +++**`page_event_var1`**
 
-링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다.
+링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 지정 링크의 URL입니다.
 
 {{cja-df-post}}
 
@@ -1035,7 +1035,7 @@ Mobile Services 실행 용어
 
 +++**`page_event_var2`**
 
-링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름 (지정된 경우). `page_event`의 값에 따라 사용자 지정 링크, 다운로드 링크 또는 종료 링크를 설정합니다.
+링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 정의 이름(지정된 경우). `page_event`의 값에 따라 사용자 지정 링크, 다운로드 링크 또는 종료 링크를 설정합니다.
 
 {{cja-df-post}}
 
@@ -1059,7 +1059,7 @@ Mobile Services 실행 용어
 
 +++**`paid_search`**
 
-히트가 유료 검색 발견과 일치하는 지 판별하는 플래그.
+히트가 유료 검색 감지와 일치하는지 판별하는 플래그.
 
 +++
 
@@ -1073,7 +1073,7 @@ Mobile Services 실행 용어
 
 +++**`pointofinterest`**
 
-Mobile Services 관심 영역 이름
+모바일 서비스 관심 영역 이름
 
 {{cja-df-post}}
 
@@ -1081,7 +1081,7 @@ Mobile Services 관심 영역 이름
 
 +++**`pointofinterestdistance`**
 
-Mobile Services 관심 영역 중앙까지의 거리
+모바일 서비스 관심 영역 중심까지의 거리
 
 {{cja-df-post}}
 
@@ -1150,7 +1150,7 @@ Mobile Services 관심 영역 중앙까지의 거리
 
 +++**`search_engine`**
 
-방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID. 검색 엔진 차원에 사용됩니다.
+방문자를 사이트로 참조한 검색 엔진을 나타내는 숫자 ID. 검색 엔진 차원에 사용됩니다.
 
 {{cja-df-post}}
 
@@ -1160,13 +1160,13 @@ Mobile Services 관심 영역 중앙까지의 거리
 
 +++**`search_page_num`**
 
-모든 검색 페이지 등급 차원에 사용됩니다. 사용자가 사이트를 클릭하기 전에 사이트가 표시된 검색 결과 페이지를 나타냅니다.
+모든 검색 페이지 등급 차원에 사용됩니다. 사용자가 사이트를 클릭하기 전에 사이트가 표시된 검색 결과의 몇 번째 페이지였는지를 나타냅니다.
 
 +++
 
 +++**`secondary_hit`**
 
-히트가 보조 히트인지 여부를 결정하는 플래그. 이 플래그는 일반적으로 히트 수를 복사하는 다중 세트 태그 지정 및 VISTA 규칙에서 시작됩니다.
+히트가 보조 히트인지 여부를 결정하는 플래그. 이 플래그는 일반적으로 히트를 복사하는 다중 세트 태그 지정 및 VISTA 규칙에서 시작됩니다.
 
 +++
 
@@ -1262,7 +1262,7 @@ Adobe Target 통합에서 사용됩니다. 대상 인스턴스 변수
 
 +++**`user_hash`**
 
-사용하지 않습니다. 보고서 세트 ID의 해시. 대신 `username`를 사용하십시오.
+사용하지 않습니다. 보고서 세트 ID의 해시 값입니다. 대신 `username`를 사용하십시오.
 
 +++
 

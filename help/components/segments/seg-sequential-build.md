@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2491
+source-wordcount: 2496
 ht-degree: 4%
 
 ---
@@ -47,8 +47,8 @@ ht-degree: 4%
 
 * 세그먼트 정의에 대한 전체 시퀀스의 일부로 [include](#include)할 데이터입니다. 또는 컨테이너의 일부로 정의된 시퀀스의 경우. 기본적으로 일치하는 모든 데이터가 고려됩니다. 해당 데이터는 ![사용자 그룹](/help/assets/icons/UserGroup.svg) [!UICONTROL 모든 사용자 포함]에 의해 식별됩니다.
 
-   * ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**&#x200B;를 선택하여 시퀀스 전의 데이터만 고려합니다.
-   * ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**&#x200B;를 선택하여 시퀀스 후의 데이터만 고려합니다.
+  * ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**&#x200B;를 선택하여 시퀀스 전의 데이터만 고려합니다.
+  * ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**&#x200B;를 선택하여 시퀀스 후의 데이터만 고려합니다.
 
 * 순차적 세그먼트 정의의 일부로 [exclude](#exclude)할 데이터입니다.
 
@@ -129,7 +129,7 @@ ht-degree: 4%
 
 ![다음 순서](assets/sequence-after.png)
 
-홈의 페이지 보기가 2024년 6월 1일 00:01에 있는 경우 Women 페이지에 대한 페이지 보기가 표시됩니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 이후에 발생하는 한 일치합니다:01.
+홈의 페이지 보기가 2024년 6월 1일 00:01에 있는 경우, 페이지 보기는 여성을 표시합니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 00:01 이후에 발생하는 한 일치합니다.
 
 ##### [!UICONTROL Within] 연산자
 
@@ -137,7 +137,7 @@ ht-degree: 4%
 
 ![다음 범위 내의 시퀀스](assets/sequence-within.png)
 
-홈의 페이지 보기가 2024년 6월 1일 12:01에 있는 경우 Women의 페이지 보기가 표시됩니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 12:16 전에 발생하는 한 일치합니다.
+홈의 페이지 보기가 2024년 6월 1일 12:01에 있는 경우, 페이지 보기는 여성을 표시합니다 | Shoes는 해당 페이지 보기가 2024년 6월 15일 12:16 전에 발생하는 한 일치합니다.
 
 ##### [!UICONTROL After], [!UICONTROL Within] 연산자
 
@@ -145,7 +145,7 @@ ht-degree: 4%
 
 ![다음 이후지만 &#x200B;](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
-2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 신발 페이지가 세그먼트에 적합합니다.:01
+2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 사람 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 신발 페이지가 세그먼트에 적합합니다.
 
 
 ### [!UICONTROL 이벤트], [!UICONTROL 세션] 및 [!UICONTROL Dimension] 제약 조건

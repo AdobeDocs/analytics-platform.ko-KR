@@ -27,7 +27,7 @@ Customer Journey Analytics를 사용하면 Analysis Workspace의 강력함과 �
 
 >[!TIP]
 >
->Analysis Workspace에 데이터가 없는 경우 [데이터 수집 프로세스](/help/data-ingestion/data-ingestion.md)를 따랐는지 확인하십시오. 이 프로세스에는 다음이 포함됩니다.<ul><li>[연결 만들기](/help/connections/create-connection.md#create-and-configure-the-connection) </br>새 데이터, 채우기 데이터 또는 양쪽 모두를 가져오도록 연결이 구성되어 있는지 확인합니다.</li><li>[Add datasets](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[데이터 보기 만들기](/help/data-views/create-dataview.md)</li></ul>
+>Analysis Workspace에 데이터가 없는 경우 [데이터 수집 프로세스](/help/data-ingestion/data-ingestion.md)를 따랐는지 확인하십시오. 이 프로세스에는 다음이 포함됩니다.<ul><li>[연결 만들기](/help/connections/create-connection.md#create-and-configure-the-connection) </br>새 데이터, 채우기 데이터 또는 양쪽 모두를 가져오도록 연결이 구성되어 있는지 확인합니다.</li><li>[데이터 세트 추가](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[데이터 보기 만들기](/help/data-views/create-dataview.md)</li></ul>
 
 차원과 지표를 자유롭게 테스트하고 끌어오고, 차원과 지표 속성 설정, 친숙한 이름, 시간대, 세션 설정 등을 변경할 수 있습니다.
 

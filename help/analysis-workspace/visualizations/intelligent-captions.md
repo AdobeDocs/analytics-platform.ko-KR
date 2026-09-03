@@ -1,5 +1,5 @@
 ---
-description: 인텔리전트 캡션을 사용하여 시각화 내에서 추세를 표면화하기 위한 자연어 인사이트를 생성하는 방법에 대해 알아봅니다.
+description: 인텔리전트 캡션을 사용하여 시각화 내의 추세를 보여 주는 자연어 인사이트를 생성하는 방법에 대해 알아봅니다.
 title: 지능형 캡션
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
@@ -38,7 +38,7 @@ ht-degree: 100%
 인텔리전트 캡션은 다음을 대상으로 합니다.
 
 * 다른 사용자와 공유할 스토리가 필요한 분석가. 분석가는 사용자에게 컨텍스트를 제공하기 위해 이러한 인사이트가 필요합니다.
-* 빠르게 높은 수준의 핵심 정보를 발견하고 싶어하는 비즈니스 사용자.
+* 높은 수준의 핵심 사항을 빠르게 파악하려는 비즈니스 사용자.
 
 >[!BEGINSHADEBOX]
 
@@ -58,11 +58,11 @@ ht-degree: 100%
 
 * 캡션을 성공적으로 생성하려면 최소 3개의 데이터 포인트가 필요합니다. 그렇지 않으면 **[!UICONTROL 분석할 데이터가 충분하지 않습니다]**&#x200B;와 같은 오류가 발생할 수 있습니다.
 
-* 캡션은 시각화를 실행하는 테이블에서 기본적으로 선택된 데이터가 변경될 때마다 생성됩니다.
+* 캡션은 시각화의 기반이 되는 테이블에서 기본적으로 선택된 데이터가 변경될 때마다 생성됩니다.
 
 * 연관된 자유 형식 테이블에 여러 개의 지표가 있는 경우, 캡션은 첫 번째 지표나 사용자가 현재 선택한 지표에만 생성됩니다. 그러나 라인 및 영역 시각화의 여러 지표에 대한 캡션을 생성할 수 있습니다.
 
-* 특정 지점에서 프로젝트를 저장한 다음 나중에 다시 로드하면 캡션이 새로운 데이터로 자동 업데이트됩니다. 프로젝트에서 내보낸 예약된 프로젝트와 PDF 파일에도 동일하게 적용됩니다.
+* 특정 지점에서 프로젝트를 저장한 다음 나중에 다시 로드하면 캡션이 새로운 데이터로 자동 업데이트됩니다. 예약된 프로젝트와 프로젝트에서 내보낸 PDF 파일에도 동일하게 적용됩니다.
 
 
 ## 시각화 {#visualizations}
@@ -89,13 +89,13 @@ Here is an example of what intelligent captions could look like:
 
 ### 클립보드에 복사 {#copy}
 
-캡션을 클립보드에 복사하여 PowerPoint 또는 다른 도구에 붙여넣을 수 있습니다. 개별 캡션을 하나씩 복사하거나 확장된 캡션 보기에서 모든 캡션을 한 번에 복사할 수 있습니다.
+캡션을 클립보드에 복사하여 PowerPoint 또는 다른 도구에 붙여넣을 수 있습니다. 하나씩 보기에서 개별 캡션을 복사하거나 확장된 캡션 보기에서 모든 캡션을 한 번에 복사할 수 있습니다.
 
 * 캡션을 복사하려면 캡션 대화 상자 오른쪽 상단에 있는 ![캡션을 클립보드에 복사](/help/assets/icons/Copy.svg)를 선택합니다.
 
 ### 모든 인텔리전트 캡션 또는 개별 인텔리전트 캡션 표시  {#show-all-or-individual}
 
-확장된 보기에서 모든 인텔리전트 캡션을 한 번에 표시하거나 개별 인텔리전트 캡션을 하나씩 보도록 표시할 수도 있습니다.
+확장된 보기에서 모든 인텔리전트 캡션을 한 번에 표시하거나, 하나씩 보기에서 개별 인텔리전트 캡션을 표시할 수도 있습니다.
 
 * 모든 인텔리전트 캡션을 표시하려면 ![모든 인텔리전트 캡션 표시](/help/assets/icons/Maximize.svg)를 선택합니다.
 * 개별 인텔리전트 캡션을 하나씩 표시하려면 ![개별 인텔리전트 캡션 표시](/help/assets/icons/Minimize.svg)를 선택합니다.
@@ -125,7 +125,7 @@ Here is an example of what intelligent captions could look like:
 
 ### 내보내기 {#export}
 
-프로젝트가 생성된 인텔리전트 캡션과 함께 저장되면 PDF의 일부로 인텔리전트 캡션을 내보낼 수 있습니다.
+프로젝트가 생성된 인텔리전트 캡션과 함께 저장되어 있으면 PDF의 일부로 인텔리전트 캡션을 내보낼 수 있습니다.
 
 ### 끄기 {#toggle}
 
@@ -152,14 +152,14 @@ Here is an example of what intelligent captions could look like:
 * **계약적 액세스**: 인텔리전트 캡션을 사용할 수 없는 경우, 조직의 관리자나 Adobe 계정 담당자(관리자)에게 문의하십시오. 조직 내에서 인텔리전트 캡션을 사용하려면 먼저 특정 생성형 AI 관련 법적 약관에 동의해야 합니다.
 
 * **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL 인텔리전트 캡션]** 권한은 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]의 다음 단계를 따라야 합니다.
-   1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
-   1. 인텔리전트 캡션에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
-   1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
-   1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
-   1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **인텔리전트 캡션**&#x200B;을 추가합니다.
+  1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
+  1. 인텔리전트 캡션에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
+  1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+  1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
+  1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 **인텔리전트 캡션**&#x200B;을 추가합니다.
 
-      ![권한 추가](./assets/intelligent-captions-permissions.png)
+     ![권한 추가](./assets/intelligent-captions-permissions.png)
 
-   1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+  1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.

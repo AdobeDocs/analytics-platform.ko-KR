@@ -23,7 +23,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 242
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 12%
 * [속성](/help/analysis-workspace/c-panels/attribution.md)
 * [다음 또는 이전 항목](/help/analysis-workspace/c-panels/next-previous.md)
 
-가장 최근 데이터 새로 고침의 타임스탬프가 포함된 메시지가 표시됩니다. 예: [!UICONTROL &#x200B; *오후 7시:55에 마지막으로 새로 고침*].
+가장 최근 데이터 새로 고침의 타임스탬프가 포함된 메시지가 표시됩니다. 예: [!UICONTROL &#x200B; *오후 7시 55분에 마지막으로 새로 고침*].
 
 드롭다운 메뉴에서 보고할 실시간 기간을 선택합니다. 사용 가능한 옵션은 다음과 같습니다.
 
@@ -54,7 +54,7 @@ ht-degree: 12%
 
 이제 실시간 새로 고침이 활성화된 패널이 있는 브라우저 탭이 활성화되는 동안 패널의 모든 시각화가 매 분마다 최대 30분 동안 업데이트됩니다.
 
-예를 들어, 시간이 **[!UICONTROL *06:26pm*]**&#x200B;에서 **[!UICONTROL *06:27 pm *]**(으)로 이동할 때&#x200B;**[!UICONTROL &#x200B;총 수익/시간&#x200B;]**&#x200B;막대 시각화 및&#x200B;**[!UICONTROL &#x200B;총 수익/시간&#x200B;]**&#x200B;자유 형식 테이블을 새로 고치는&#x200B;**[!UICONTROL &#x200B;실시간 보고 패널&#x200B;]**&#x200B;의 스냅숏을 아래를 참조하십시오.
+예를 들어, 시간이 **[!UICONTROL *06:26pm *]**&#x200B;에서&#x200B;**[!UICONTROL * 06:27pm *]**(으)로 이동할 때 **[!UICONTROL 총 수익/시간]** 막대 시각화 및 **[!UICONTROL 총 수익/시간]** 자유 형식 테이블을 새로 고치는 **[!UICONTROL 실시간 보고 패널]**&#x200B;의 스냅숏을 아래를 참조하십시오.
 
 ![실시간 새로 고침](assets/real-time-refresh.gif)
 

@@ -56,7 +56,7 @@ Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 과정
 
 * [파생 필드](/help/data-views/derived-fields/derived-fields.md)
 
-  파생 필드를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다.
+  파생 필드를 사용하면 보고 시 데이터에 변환을 적용할 수 있습니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 모든 보고에 소급 적용됩니다.
 
 * [데이터 보기는 가상 보고서 세트를 대체합니다.](/help/getting-started/aa-to-cja-user.md#changes-to-the-concept-of-virtual-report-suites)
 

@@ -23,7 +23,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: 583
 ht-degree: 100%
 
 ---
@@ -76,9 +76,9 @@ ht-degree: 100%
 [!UICONTROL 타임라인] 분석에서는 다음과 같은 차트 설정을 제공하며, 차트 위의 메뉴에서 조정할 수 있습니다.
 
 * **[!UICONTROL 다음으로 표시]**: 원하는 속성 값을 표시합니다.
-   * [!UICONTROL 모두 표시]: 세션의 모든 속성 값을 표시합니다.
-   * [!UICONTROL 강조]: 쿼리 필터와 일치하는 세션의 속성 값을 시각적으로 강조 표시합니다.
-   * [!UICONTROL 보기 전용]: 쿼리 필터와 일치하는 세션의 속성 값만 표시합니다.
+  * [!UICONTROL 모두 표시]: 세션의 모든 속성 값을 표시합니다.
+  * [!UICONTROL 강조]: 쿼리 필터와 일치하는 세션의 속성 값을 시각적으로 강조 표시합니다.
+  * [!UICONTROL 보기 전용]: 쿼리 필터와 일치하는 세션의 속성 값만 표시합니다.
 
 ### 날짜 범위
 

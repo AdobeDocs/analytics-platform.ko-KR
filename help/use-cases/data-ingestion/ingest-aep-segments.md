@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -497,7 +497,7 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 
 * 대상 데이터가 Customer Journey Analytics 내에서 지속적으로 새로 고쳐지도록 이 프로세스를 정기적으로 수행해야 합니다.
 * 단일 Customer Journey Analytics 연결 내에서 여러 대상을 가져올 수 있습니다. 이는 프로세스에 복잡성을 가중시키지만 실행 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
-   1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
-   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. `audienceMembershipId` 또는 `audienceMembershipIdName`에 대해 [개체 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)을 사용하는 것이 가장 좋습니다.
-   1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
-   1. 이제 Customer Journey Analytics Workspace 내에서 이 새 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.
+  1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
+  1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. `audienceMembershipId` 또는 `audienceMembershipIdName`에 대해 [개체 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)을 사용하는 것이 가장 좋습니다.
+  1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.
+  1. 이제 Customer Journey Analytics Workspace 내에서 이 새 차원 `audienceMembershipIds`에 대해 보고할 수 있습니다.

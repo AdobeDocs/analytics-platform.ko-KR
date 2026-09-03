@@ -125,7 +125,7 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
 * 비즈니스 프로세스
 
-* 사용자 지정 구성 요소
+* 사용자 정의 구성 요소
 
 이 정보를 수집하는 데 도움이 되는 다음 리소스를 참조하십시오.
 
@@ -157,13 +157,13 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
   시작하는 데 도움이 되는 리소스는 다음과 같습니다.
 
-   * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
+  * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+  * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
-   * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
+  * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
-   * [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)
+  * [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)
 
 ## 권장되는 업그레이드 단계 수행
 

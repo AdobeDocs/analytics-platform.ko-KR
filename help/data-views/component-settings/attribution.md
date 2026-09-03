@@ -1,6 +1,6 @@
 ---
 title: 속성 구성 요소 설정
-description: 지표에 대한 기본 속성을 설정할 수 있습니다.
+description: 지표에 대한 기본 기여도를 설정할 수 있습니다.
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
@@ -34,12 +34,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_attribution"
 >title="속성"
->abstract="보고서의 지표에 적용되는 기본 속성 모델을 구성합니다."
+>abstract="보고서의 지표에 적용되는 기본 기여도 모델을 구성합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
-속성을 통해 차원 항목이 성공 이벤트에 대한 크레딧을 얻는 방식을 맞춤화할 수 있습니다.
+기여도를 통해 차원 항목이 성공 이벤트에 대한 크레딧을 얻는 방식을 맞춤화할 수 있습니다.
 
 예:
 
@@ -62,9 +62,9 @@ ht-degree: 63%
 >
 > 배분에 대한 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오.
 
-구성 요소의 기본 속성 모델을 업데이트하는 방법:
+구성 요소의 기본 기여도 모델을 업데이트하는 방법:
 
-1. 업데이트하려는 기본 속성 모델이 포함된 데이터 보기로 이동합니다.
+1. 업데이트하려는 기본 기여도 모델이 있는 구성 요소가 포함된 데이터 보기로 이동합니다.
 
 1. 구성 요소를 선택한 다음 화면 오른쪽의 **[!UICONTROL 속성]** 섹션을 확장합니다.
 
@@ -78,9 +78,9 @@ ht-degree: 63%
 
 >[!TIP]
 >
->조직에서 지표에 여러 속성 설정이 필요한 경우 다음 중 하나를 수행할 수 있습니다.
+>조직에서 지표에 여러 기여도 설정이 필요한 경우 다음 중 하나를 수행할 수 있습니다.
 >
-> * 데이터 보기에서 원하는 각각의 속성 설정에 따라 지표를 복사합니다. 데이터 보기에 동일한 지표를 여러 번 포함하여 각 지표에 다른 설정을 부여할 수 있습니다. 보고서를 생성할 때 분석가들이 이러한 지표들 간의 차이를 이해할 수 있도록 각 지표에 적절하게 레이블을 지정해야 합니다.
+> * 데이터 보기에서 원하는 각각의 기여도 설정에 따라 지표를 복사합니다. 데이터 보기에 동일한 지표를 여러 번 포함하여 각 지표에 다른 설정을 부여할 수 있습니다. 보고서를 생성할 때 분석가들이 이러한 지표들 간의 차이를 이해할 수 있도록 각 지표에 적절하게 레이블을 지정해야 합니다.
 >
 > * Analysis Workspace에서 지표를 재정의합니다. 지표의 [열 설정](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)에서 **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 선택해 특정 보고서에 대한 지표의 속성 모델과 전환 확인 기간을 변경합니다.
 
@@ -91,7 +91,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="dataviews_component_attribution_attributionmodels"
 >title="모델"
->abstract="지표에 대한 속성 모델을 선택합니다."
+>abstract="지표에 대한 기여도 모델을 선택합니다."
 
 <!-- markdownlint-enable MD034 -->
 

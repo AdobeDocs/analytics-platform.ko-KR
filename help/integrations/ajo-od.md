@@ -62,11 +62,11 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 
 >[!NOTE]
 >
->Adobe Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 오늘을 제외한 날짜 범위를 사용하여 처리 시간을 포함한 불일치를 완화할 수 있습니다.
+>Adobe Journey Optimizer와 Customer Journey Analytics 간의 데이터 불일치는 일반적으로 1~2% 미만입니다. 최근 2시간 이내에 수집된 데이터의 경우 더 큰 불일치가 발생할 수 있습니다. 처리 시간으로 인한 불일치를 완화하려면 오늘을 제외한 날짜 범위를 사용하십시오.
 
 ### 차원 구성
 
-데이터 보기에서 다음 차원을 만들어 의사 결정 관리에 있는 유사한 차원과 거의 정확한 동등성을 달성할 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+데이터 보기에서 다음 차원을 만들어 의사 결정 관리의 유사한 차원과 대략적으로 동일한 수준을 맞출 수 있습니다. 차원 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
 | 차원 | 스키마 요소 | 구성 요소 설정 |
 | --- | --- | --- |
@@ -82,14 +82,14 @@ Adobe Experience Platform은 의사 결정 관리와 Customer Journey Analytics 
 
 ### 지표 구성
 
-의사 결정 관리에서 다음 지표를 만들어 Journey Optimizer에 있는 유사한 지표와 거의 정확한 동등성을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
+데이터 보기에서 다음 지표를 만들어 의사 결정 관리의 유사한 지표와 거의 동등한 수준을 달성할 수 있습니다. 지표 사용자 정의 옵션에 대한 자세한 내용은 데이터 보기 관리자의 [구성 요소 설정](/help/data-views/component-settings/overview.md)을 참조하십시오.
 
 | 지표 | 설명 | 스키마 요소 | 구성 요소 설정 |
 | --- | --- | --- | --- |
 | 이벤트 유형(특정 이벤트를 참조하도록 이름 바꾸기, 예: `message.feedback`의 경우 `Feedback`) [1] | 특정 유형의 이벤트 양 | `eventType` | 구성 요소 유형: 지표<br/>**[!UICONTROL 포함 제외 값 설정&#x200B;]**: 켜짐<br/>**[!UICONTROL 일치]**: [!UICONTROL 모든 기준을 충족하는 경우]<br/>**[!UICONTROL 기준&#x200B;]**:**[!UICONTROL &#x200B;같음&#x200B;]**`message.feedback` |
 | 결정 옵션 점수 | 단일 범위의 맥락에서 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 구성 요소 유형: 지표 |
 | 대체 결정 옵션 점수 | 단일 범위의 맥락에서 대체 결정 옵션에 대해 계산된 값입니다. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 구성 요소 유형: 지표 |
-| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 닫거나 거부한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
+| 오퍼 닫기 | 다른 직접적인 상호 작용 없이 무시되거나 거부된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 구성 요소 유형: 지표 |
 | 오퍼 표시 | 프로필에 표시된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.display` | 구성 요소 유형: 지표 |
 | 오퍼 상호 작용 | 프로필이 상호 작용한 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.interact` | 구성 요소 유형: 지표 |
 | 오퍼 전송 | 프로필에 전송된 오퍼 수입니다. | `_experience.decisioning.`<br/>`propositionEventType.send` | 구성 요소 유형: 지표 |

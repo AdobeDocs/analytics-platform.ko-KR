@@ -35,7 +35,7 @@ ht-degree: 88%
 
 Adobe Customer Journey Analytics와 [Adobe Experience Platform 데이터 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)의 통합을 통해 중요한 Customer Journey Analytics 데이터에 레이블을 지정하고 개인정보 처리방침을 시행할 수 있습니다.
 
-Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 중단 또는 경고합니다.
+Experience Platform에서 사용하는 데이터 세트에 생성된 개인정보 보호 레이블 및 정책은 Customer Journey Analytics 데이터 보기 워크플로에 표시될 수 있습니다. 이러한 레이블은 중요한 필드에서 지표 및/또는 차원을 생성하는 사용자를 차단하거나 경고합니다.
 
 또한 보고, 내보내기, API 등을 통해 Customer Journey Analytics에서 데이터를 내보낼 경우, 보고서에 특정 방식으로 처리해야 하는 기밀 정보가 포함되어 있음을 사용자에게 통지하기 위해 경고 또는 레이블이 추가됩니다.
 
@@ -57,11 +57,13 @@ Customer Journey Analytics는 Adobe Experience Platform에서 제공하는 데�
 
 ## GDPR
 
-Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central Service에 직접 가입되어 있지 않으며 대신 Experience Platform에서 수행한 데이터 세트 변경 사항을 모두 상속합니다. Customer Journey Analytics는 GDPR 삭제 요청을 강제하고 요청이 완료되면 Customer Journey Analytics에 알리기 위해 Platform Data Lake를 활용합니다. 이벤트 데이터 세트에 대한 Customer Journey Analytics에서 영향을 받는 배치의 모든 변경 사항을 Platform 데이터와 동기화합니다. GDPR 삭제 요청의 영향을 받는 프로필 및 조회 데이터 세트는 각 삭제 요청 이후에 완전히 다시 수집됩니다. 삭제 요청은 일반적으로 Data Lake에서 삭제 이벤트가 발생한 후 7일 이내에 완료됩니다.
+Customer Journey Analytics는 GDPR(General Data Protection Regulation) Central Service에 직접 가입되어 있지 않으며 대신 Experience Platform에서 수행한 데이터 세트 변경 사항을 모두 상속합니다. Customer Journey Analytics는 GDPR 삭제 요청을 강제하고 요청이 완료되면 Customer Journey Analytics에 알리기 위해 Platform Data Lake를 활용합니다. 이벤트 데이터 세트에 대한 Customer Journey Analytics에서 영향을 받는 배치의 모든 변경 사항을 Platform 데이터와 동기화합니다. GDPR 삭제 요청의 영향을 받는 프로필 및 조회 데이터 세트는 각 삭제 요청 이후에 완전히 다시 수집됩니다. 삭제 요청은 일반적으로 데이터 레이크에서 삭제 이벤트가 발생한 후 7일 이내에 완료됩니다.
 
 ## CCPA
 
-CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 위해 개인정보 보호 권한 및 소비자 보호를 개선합니다. 이 법은 2020년 1월 1일부터 시행되었습니다.CCPA는 개인 데이터의 판매 및 공개 여부(및 공개된 대상)를 인지하고, 개인 데이터 판매를 거부하기 위한 개인 데이터 액세스 및 삭제 권한과 같은 새로운 데이터 개인정보 보호 권한을 캘리포니아주 거주자에게 제공합니다.CCPA에 따라 Privacy Service는 개인 데이터 판매를 거부하도록 요청을 지원합니다.
+CCPA(California Consumer Privacy Act)는 미국 캘리포니아주 거주자를 위해 개인정보 보호 권한 및 소비자 보호를 개선합니다. 이 법은 2020년 1월 1일부터 시행되었습니다.
+CCPA는 캘리포니아주 거주자에게 개인 데이터에 액세스하고 이를 삭제할 권리, 자신의 개인 데이터가 판매되거나 공개되는지 여부(그리고 누구에게 공개되는지)를 알 권리, 그리고 자신의 개인 데이터 판매를 거부할 권리와 같은 새로운 데이터 개인정보 보호 권리를 제공합니다.
+CCPA에 따라 Privacy Service는 개인 데이터 판매에 대한 옵트아웃 요청을 지원합니다.
 
 >[!MORELIKETHIS]
 >

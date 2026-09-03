@@ -64,7 +64,7 @@ ht-degree: 63%
 
 스키마를 정의한 후에는 하나 이상의 데이터 세트를 사용하여 데이터 컬렉션을 저장하고 관리합니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다.
 
-Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 지속되기 전에 사전 정의된 스키마를 준수해야 합니다.
+Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 저장되기 전에 사전 정의된 스키마를 준수해야 합니다.
 
 ### 스키마 설정
 
@@ -140,7 +140,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
 
-   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ECID 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
+   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
@@ -188,7 +188,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 스키마를 통해 데이터 모델은 정의됩니다. 이제 데이터 세트를 사용하여 해당 데이터를 저장하고 관리할 구성을 정의해야 합니다.
 
-데이터 세트를 설정하는 경우:
+데이터 세트를 설정하려면:
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
 
@@ -202,7 +202,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 4. 이전에 만든 스키마를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
+5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 입력합니다.
 
    ![데이터 세트 이름 지정](./assets/name-your-datatest.png)
 
@@ -311,7 +311,7 @@ Adobe Experience Platform Mobile SDK 확장을 만들고 구성하려면:
 
 #### **데이터 요소**
 
-데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 태그에서 모바일 앱 데이터 또는 이벤트를 읽고 Adobe Experience Platform으로 데이터를 전달하는 데 사용할 수 있는 데이터 요소를 설정합니다.
+데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성 단위입니다. 데이터 요소를 사용하여 마케팅 및 광고 기술 전반에서 데이터를 수집, 구성 및 전달합니다. 태그에서 모바일 앱 데이터 또는 이벤트를 읽고 Adobe Experience Platform으로 데이터를 전달하는 데 사용할 수 있는 데이터 요소를 설정합니다.
 
 예를 들어 모바일 앱에서 통신사 이름을 수집하려는 경우
 
@@ -357,27 +357,27 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - [!UICONTROL 이벤트 구성] 대화 상자에서:
 
-      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
+     - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 전경]**&#x200B;을 선택합니다.
+     - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 전경]**&#x200B;을 선택합니다.
 
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+     - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
    - [!UICONTROL 모바일 코어 - 전경] 옆에 있는 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)를 클릭합니다.
 
-      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
+     - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
-      - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 배경]**&#x200B;을(를) 선택하십시오.
+     - [!UICONTROL 이벤트 유형] 목록에서 **[!UICONTROL 배경]**&#x200B;을(를) 선택하십시오.
 
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+     - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
    - [!UICONTROL 작업] 아래에 ![더하기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
 
-      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택합니다.
+     - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택합니다.
 
-      - [!UICONTROL 작업 유형] 목록에서 **[!UICONTROL Edge Network에 이벤트 전달]**&#x200B;을 선택합니다.
+     - [!UICONTROL 작업 유형] 목록에서 **[!UICONTROL Edge Network에 이벤트 전달]**&#x200B;을 선택합니다.
 
-      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
+     - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
    - 규칙은 다음과 같습니다.
 
@@ -395,7 +395,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
 데이터 요소 및 규칙을 정의한 후 태그를 빌드하고 게시해야 합니다. 라이브러리 빌드를 만들면 이를 환경에 지정해야 합니다. 그런 다음 빌드의 확장, 규칙 및 데이터 요소를 컴파일하여 지정된 환경에 배치합니다. 각 환경에서는 지정된 빌드를 사이트에 통합할 수 있는 고유한 임베드 코드를 제공합니다.
 
-태그를 빌드하고 게시하는 경우:
+태그를 빌드하고 게시하려면:
 
 1. 왼쪽 레일에서 **[!UICONTROL 흐름 게시]**&#x200B;를 선택합니다.
 
@@ -413,7 +413,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    - **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   개발 환경에 대해 태그가 저장되고 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   태그가 저장되고 개발 환경용으로 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 4. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 
@@ -448,7 +448,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 구현의 유효성을 검사하고 필요한 경우 수정합니다. 수정되면 태그의 게시 워크플로 기능을 사용하여 스테이징 및 프로덕션 환경에 배포합니다.
 
-자세한 내용은 [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)를 참조하십시오.
+자세한 내용은 [모바일 앱에서 Adobe Experience Cloud 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)을 참조하십시오.
 
 ## 연결 설정
 
@@ -484,11 +484,11 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - 각 데이터 세트의 경우:
 
-      - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
+     - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
 
-      - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
+     - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
 
-      - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
+     - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
      ![데이터 세트 구성](./assets/cja-connections-ajopushid.png)
 
@@ -502,7 +502,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
-데이터 보기를 만드는 경우:
+데이터 보기를 만들려면:
 
 1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 

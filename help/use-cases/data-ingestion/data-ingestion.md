@@ -35,7 +35,7 @@ ht-degree: 86%
 
 # Customer Journey Analytics의 데이터 수집 옵션
 
-데이터를 Customer Journey Analytics로 수집하는 방법은 여러 가지가 있습니다. 일부 고객은 기존 Adobe Analytics 데이터를 이전하려는 것으로 간주하며 일부는 Adobe Experience Platform에서 직접 데이터를 수집한다고 가정합니다. 이 참조는 보다 자세한 정보에 대한 링크를 포함하여 따라야 할 고급 단계를 제공합니다.
+데이터를 Customer Journey Analytics로 수집하는 방법은 여러 가지가 있습니다. 일부는 기존 Adobe Analytics 데이터를 이전하려는 경우를 전제로 하고, 일부는 Adobe Experience Platform에서 직접 데이터를 수집하는 경우를 전제로 합니다. 이 참조는 보다 자세한 정보에 대한 링크를 포함하여 따라야 할 고급 단계를 제공합니다.
 
 ## 기존 Adobe Analytics에서 데이터 수집
 

@@ -85,7 +85,7 @@ ht-degree: 89%
 
   ![차원 중심](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* 대표적인 이벤트 및 사용자 중심 가이드 분석 접근 방식은 “홈 페이지를 방문한 사용자 수에 대한 질문”입니다.
+* 대표적인 이벤트 및 사용자 중심 가이드 분석 접근 방식은 “홈 페이지를 방문한 사용자는 몇 명입니까?”입니다.
 
   ![이벤트 중심](assets/event-centered.png){style="border:1px solid gray"}
 

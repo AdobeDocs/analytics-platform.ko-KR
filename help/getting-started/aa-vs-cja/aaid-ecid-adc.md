@@ -33,9 +33,9 @@ Adobe Analytics 데이터에는 여러 ID 필드가 포함되어 있습니다. [
 
 ## AAID
 
-AAID(Adobe Analytics ID)는 Adobe Analytics의 기본 디바이스 식별자이며, Analytics 소스 커넥터를 통해 전달되는 모든 이벤트에 존재할 수 있습니다. AAID를 때로 “레거시 Analytics ID” 또는 `s_vi` 쿠키 ID라고도 합니다. 단, AAID는 `s_vi` 쿠키가 없는 경우에도 생성됩니다. AAID는 [Adobe Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR#columns%2C-descriptions%2C-and-data-types)의 `post_visid_high/post_visid_low` 열에 표시됩니다.
+AAID(Adobe Analytics ID)는 Adobe Analytics의 기본 디바이스 식별자이며, Analytics 소스 커넥터를 통해 전달되는 모든 이벤트에 반드시 존재합니다. AAID를 때로 “레거시 Analytics ID” 또는 `s_vi` 쿠키 ID라고도 합니다. 단, AAID는 `s_vi` 쿠키가 없는 경우에도 생성됩니다. AAID는 [Adobe Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR#columns%2C-descriptions%2C-and-data-types)의 `post_visid_high/post_visid_low` 열에 표시됩니다.
 
-Analytics 소스 커넥터에서 AAID는 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`로 변환됩니다. 주어진 이벤트의 AAID 필드는 [Analytics ID에 대한 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=ko)에서 설명한 바와 같이 여러 가지 다른 유형 중 하나일 수 있는 단일 ID를 포함합니다. (전체 보고서 세트 내에서 AAID에는 여러 이벤트에 걸쳐 혼합된 유형을 포함할 수 있습니다. 각 이벤트의 유형은 Analytics 데이터 피드의 `post_visid_type` 열에 표시됩니다.) 참고 항목: [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko).
+Analytics 소스 커넥터에서 AAID는 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`로 변환됩니다. 주어진 이벤트의 AAID 필드는 [Analytics ID에 대한 작업 순서](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=ko)에서 설명한 바와 같이 여러 가지 다른 유형 중 하나일 수 있는 단일 ID를 포함합니다. (전체 보고서 세트 내에서 AAID는 여러 이벤트에 걸쳐 여러 유형이 혼합되어 있을 수 있습니다. 각 이벤트의 유형은 Analytics 데이터 피드의 `post_visid_type` 열에 표시됩니다.) 참고 항목: [데이터 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko).
 
 ## ECID
 
@@ -61,11 +61,12 @@ Analytics 소스 커넥터는 다음과 같이 XDM 형식으로 Adobe Experience
 * `{ "key": "ECID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
 * `{ "key": "AACUSTOMID", "value": [ { "id": "<identity>", "primary": false } ] }`
 
-대괄호 &lt;> 안의 항목은 실제 값이 표시되는 위치를 나타냅니다.
+꺾쇠 괄호 &lt;> 안의 항목은 실제 값이 표시되는 위치를 나타냅니다.
 
 identityMap 내:
 
-* ECID가 있으면 이벤트의 기본 ID로 표시됩니다. 이 경우 AAID는 위의 설명에 따라 ECID를 기반으로 할 수 있습니다.그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
+* ECID가 있으면 이벤트의 기본 ID로 표시됩니다. 이 경우 AAID는 위의 설명에 따라 ECID를 기반으로 할 수 있습니다.
+그렇지 않으면 AAID가 이벤트의 기본 ID로 표시됩니다.
 * AACUSTOMID는 이벤트의 기본 ID로 표시되지 않습니다. 단, AACUSTOMID가 있으면 AAID는 위의 설명에 따라 AACUSTOMID를 기반으로 합니다.
 
 하나 또는 여러 개의 ID가 `identityMap`에 복사되면 `endUserIDs._experience.mcid.namespace.code`도 동일한 이벤트에 대해 다음과 같이 설정됩니다.

@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 4%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_scope"
 >title="범위"
->abstract="보고서에서 사용될 때 구성 요소의 범위가 어떻게 지정되는지 결정합니다. 이벤트 기반, 프로필 기반 또는 합계 기반 중에서 선택할 수 있습니다."
+>abstract="보고서에서 사용될 때 구성 요소의 범위가 설정되는 방법을 결정합니다. 이벤트 기반, 프로필 기반 또는 합계 기반 중에서 선택할 수 있습니다."
 
 지표 구성 요소의 범위는 구성 요소가 보고서에서 사용되는 방식을 결정합니다.
 

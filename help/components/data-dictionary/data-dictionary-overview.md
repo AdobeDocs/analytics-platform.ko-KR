@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
+description: Analysis Workspace의 데이터 사전을 사용하면 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있으며, 여기에는 해당 구성 요소의 용도, 승인 여부, 중복 여부 등이 포함됩니다.
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin

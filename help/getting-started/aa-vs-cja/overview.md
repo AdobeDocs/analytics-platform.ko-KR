@@ -34,7 +34,7 @@ ht-degree: 100%
 
 두 솔루션의 기본적인 차이점은 보고서 및 분석을 작성할 때 고려할 수 있는 데이터의 폭입니다.
 
-Customer Journey Analytics에서는 *모든* 데이터 소스가 보고 및 분석에 사용하는 데이터의 일부가 될 수 있습니다. Adobe Analytics는 주로 웹 사이트와 모바일 앱에서 수집된 온라인 데이터를 대상으로 합니다. Adobe Analytics는 다른 소스에서 데이터를 가져오는 기능을 제공하지만. 이 기능의 주요 목적은 이전에 언급한 온라인 데이터에 더 많은 컨텍스트를 제공하는 것입니다.
+Customer Journey Analytics에서는 *모든* 데이터 소스가 보고 및 분석에 사용하는 데이터의 일부가 될 수 있습니다. Adobe Analytics는 주로 웹 사이트와 모바일 앱에서 수집된 온라인 데이터를 대상으로 합니다. Adobe Analytics는 다른 소스에서 데이터를 가져오는 기능을 제공하지만, 이 기능의 주요 목적은 이전에 언급한 온라인 데이터에 더 많은 컨텍스트를 제공하는 것입니다.
 
 ## 데이터 수집
 
@@ -65,7 +65,7 @@ Customer Journey Analytics는 기본 XDM(경험 데이터 모델) 기반의 스�
 
 ## 가상 보고 환경 및 샌드박스
 
-Adobe Analytics에는 수집된 데이터를 분류하고 분류된 데이터에 대한 액세스를 제어할 수 있는 가상 보고서 세트라는 개념이 있습니다.
+Adobe Analytics에는 수집된 데이터를 세그먼트화하고 세그먼트화된 데이터에 대한 액세스를 제어할 수 있는 가상 보고서 세트라는 개념이 있습니다.
 
 Customer Journey Analytics에는 데이터 보기라는 유사한 개념이 있습니다. 데이터 보기는 연결에서 데이터를 해석하는 방법을 결정할 수 있는 컨테이너입니다. 보고 및 분석을 준비할 때 차원 및 지표를 지정하고 구성할 수 있는 뛰어난 유연성을 지원합니다.
 
@@ -78,7 +78,7 @@ Experience Platform은 주어진 환경에 대한 데이터와 애플리케이�
 
 Customer Journey Analytics는 데이터가 포함된 데이터 세트가 준수하는 스키마의 일부로 정의되는 ID를 지원합니다. 따라서, ID는 Experience Platform의 기본 개념으로, 이는 [연결](../../connections/overview.md)을 설정(각 데이터 세트에 대한 개인 ID 정의)하고 크로스 채널 분석 시 [결합](../../stitching/overview.md)을 적용할 때 Customer Journey Analytics에서 사용합니다. Experience Platform SDK 및 API에서 사용되는 중요한 ID는 ECID(Experience Cloud ID)입니다.
 
-Adobe Analytics는 Adobe Analytics ID(AAID)와 같은 보다 명확한 ID 필드 세트를 사용합니다. Analytics 소스 커넥터를 사용할 때 이러한 Adobe Analytics ID 필드는 특별 처리됩니다. 자세한 내용은 [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=ko)를 참조하십시오.
+Adobe Analytics는 Adobe Analytics ID(AAID)와 같은 보다 명확한 ID 필드 세트를 사용합니다. Analytics 소스 커넥터를 사용할 때 이러한 Adobe Analytics ID 필드는 특별하게 처리됩니다. 자세한 내용은 [AAID, ECID, AACUSTOMID 및 Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=ko)를 참조하십시오.
 
 
 ## 지원되는 기능

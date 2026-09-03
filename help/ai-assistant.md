@@ -44,7 +44,7 @@ Customer Journey Analytics의 AI 어시스턴트는 Adobe Experience League 설�
 * Customer Journey Analytics는 무엇에 가장 적합합니까?
 * 데이터 보기는 어떻게 설정해야 합니까?
 
-Adobe Target 및 Adobe Creative Cloud Suite과 같은 다른 Adobe 제품에 대한 질문 등 Customer Journey Analytics의 범위를 벗어난 질문은 답변할 수 없습니다.
+Adobe Target 및 Adobe Creative Cloud Suite와 같은 다른 Adobe 제품에 대한 질문 등 Customer Journey Analytics의 범위를 벗어난 질문은 답변할 수 없습니다.
 
 Customer Journey Analytics용 AI 어시스턴트는 모든 제품 계층에서 사용할 수 있습니다.
 
@@ -71,15 +71,15 @@ AI 어시스턴트 내에서 Data Insights Agent를 사용하는 방법에 대�
 * **계약적 액세스**: AI 어시스턴트를 사용할 수 없는 경우, 조직의 관리자나 Adobe 계정 담당자(관리자)에게 문의하십시오. 조직에서 AI 어시스턴트를 사용하려면 먼저 특정 생성형 AI 관련 법적 조건에 동의해야 합니다.
 
 * **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL AI 어시스턴트: 제품 지식]** 권한은 이 도구에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)는 [!UICONTROL Admin Console]의 다음 단계를 따라야 합니다.
-   1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
-   1. [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
-   1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
-   1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
-   1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **AI 어시스턴트: 제품 지식**&#x200B;을 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 추가합니다.
+  1. **[!UICONTROL Admin Console]** > **[!UICONTROL 제품 및 서비스]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 제품 프로필]**&#x200B;로 이동합니다.
+  1. [!UICONTROL AI 어시스턴트: 제품 지식]에 대한 액세스를 제공하려는 제품 프로필의 제목을 선택합니다.
+  1. 특정 제품 프로필에서 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+  1. ![편집](/help/assets/icons/Edit.svg)을 선택하여 **[!UICONTROL 보고 도구]**&#x200B;를 편집합니다.
+  1. ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 **AI 어시스턴트: 제품 지식**&#x200B;을 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 추가합니다.
 
-      ![권한 추가](assets/ai-assistant-permissions.png).
+     ![권한 추가](assets/ai-assistant-permissions.png).
 
-   1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+  1. 권한을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
@@ -91,7 +91,7 @@ AI 어시스턴트 내에서 Data Insights Agent를 사용하는 방법에 대�
 
    AI 어시스턴트를 처음 사용하면 어시스턴트 사용에 대한 몇 가지 약관이 적힌 면책 조항이 표시됩니다.
 
-1. 제공된 상자에 AI 어시스턴트에게 구체적인 자연어 질문을 합니다.
+1. 제공된 상자에 AI 어시스턴트에게 구체적인 자연어 질문을 하십시오.
 
    ![질문 상자](assets/ai-asst2.png)
 

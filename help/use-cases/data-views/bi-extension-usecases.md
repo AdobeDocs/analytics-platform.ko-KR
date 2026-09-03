@@ -39,26 +39,26 @@ ht-degree: 18%
 다음 사용 사례가 문서화되어 있습니다.
 
 * **연결**
-   * [데이터 보기 연결 및 나열](bi-extension/connect-and-validate.md)
+  * [데이터 보기 연결 및 나열](bi-extension/connect-and-validate.md)
 
 * **보고 및 분석**
-   * [일별 트렌드](bi-extension/daily-trend.md)
-   * [시간별 트렌드](bi-extension/hourly-trend.md)
-   * [월별 트렌드](bi-extension/monthly-trend.md)
-   * [단일 차원 등급](bi-extension/single-dimension-ranked.md)
-   * [여러 차원 등급](bi-extension/multiple-dimension-ranked.md)
-   * [개별 차원 값 계산](bi-extension/count-distinct-dimension-values.md)
-   * [일자 범위 이름을 사용하여 필터링](bi-extension/use-date-range-names-to-filter.md)
-   * [세그먼트 이름을 사용하여 세분화](bi-extension/use-segment-names-to-segment.md)
-   * [차원 값을 사용하여 세분화](bi-extension/use-dimension-values-to-segment.md)
-   * [정렬](bi-extension/sort.md)
-   * [제한](bi-extension/limits.md)
+  * [일별 트렌드](bi-extension/daily-trend.md)
+  * [시간별 트렌드](bi-extension/hourly-trend.md)
+  * [월별 트렌드](bi-extension/monthly-trend.md)
+  * [단일 차원 등급](bi-extension/single-dimension-ranked.md)
+  * [여러 차원 등급](bi-extension/multiple-dimension-ranked.md)
+  * [개별 차원 값 계산](bi-extension/count-distinct-dimension-values.md)
+  * [일자 범위 이름을 사용하여 필터링](bi-extension/use-date-range-names-to-filter.md)
+  * [세그먼트 이름을 사용하여 세분화](bi-extension/use-segment-names-to-segment.md)
+  * [차원 값을 사용하여 세분화](bi-extension/use-dimension-values-to-segment.md)
+  * [정렬](bi-extension/sort.md)
+  * [제한](bi-extension/limits.md)
 
 * **이해**
 
-   * [변환](bi-extension/transformations.md)
-   * [시각화](bi-extension/visualizations.md)
-   * [주의 사항](bi-extension/caveats.md)
+  * [변환](bi-extension/transformations.md)
+  * [시각화](bi-extension/visualizations.md)
+  * [주의 사항](bi-extension/caveats.md)
 
 **연결** 사용 사례는 Customer Journey Analytics BI 확장을 사용하여 BI 도구를 연결하는 방법에 중점을 둡니다.
 

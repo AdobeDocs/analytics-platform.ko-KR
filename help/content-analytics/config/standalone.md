@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -111,15 +111,15 @@ Content Analytics은 독립 실행형 제품으로 라이선스가 부여되지�
 독립형 Content Analytics을 사용하려면 다음 제품 및 제품 프로필에 대한 제품 관리자여야 합니다.
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users(프로덕션 샌드박스에 액세스하기 위한 기본 프로필)
+  * AEP-Default-All-Users(프로덕션 샌드박스에 액세스하기 위한 기본 프로필)
 
 * Adobe Experience Platform 데이터 수집
-   * 기본 데이터 수집 모든 액세스
+  * 기본 데이터 수집 모든 액세스
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics (사용자 지정)
-   * Customer Journey Analytics(또는 기타 기본 제공된 제품 프로필)
+  * Customer Journey Analytics(또는 기타 기본 제공된 제품 프로필)
 
 Admin Console을 통해 제품 관리자 액세스 권한을 정의합니다.
 
@@ -157,31 +157,31 @@ Content Analytics의 경우 다음 리소스 및 관련 권한이 이러한 역�
 
 * 기본 프로덕션 모든 액세스 역할
 
-   * 데이터 수집
-      * 데이터스트림 보기
-      * 데이터 스트림 관리
+  * 데이터 수집
+    * 데이터스트림 보기
+    * 데이터 스트림 관리
 
-   * 데이터 관리
-      * 데이터 세트 보기
-      * 데이터 세트 관리
+  * 데이터 관리
+    * 데이터 세트 보기
+    * 데이터 세트 관리
 
-   * 데이터 모델링
-      * 스키마 보기
-      * 스키마 관리
-      * ID 메타데이터 관리
+  * 데이터 모델링
+    * 스키마 보기
+    * 스키마 관리
+    * ID 메타데이터 관리
 
 
 * 샌드박스 관리자 역할
 
-   * 샌드박스
-      * Prod
-      * (Content Analytics에 사용할 다른 모든 샌드박스)
+  * 샌드박스
+    * Prod
+    * (Content Analytics에 사용할 다른 모든 샌드박스)
 
-   * 샌드박스 관리
-      * 패키지 관리
-      * 샌드박스 관리
-      * 샌드박스 재설정
-      * 샌드박스 보기
+  * 샌드박스 관리
+    * 패키지 관리
+    * 샌드박스 관리
+    * 샌드박스 재설정
+    * 샌드박스 보기
 
 
 권한 인터페이스에서 역할과 관련 권한을 모두 확인할 수 있습니다. 또한 인터페이스에 해당 역할에 속하는 사용자가 표시됩니다.
@@ -217,21 +217,21 @@ Customer Journey Analytics은 속성 기반 액세스 제어를 지원하지 않
 Content Analytics의 경우 다음 Customer Journey Analytics 제품 프로필 권한이 포함되어 있는지 확인해야 합니다.
 
 * 데이터 보기
-   * 사용 가능한 모든 데이터 보기.
+  * 사용 가능한 모든 데이터 보기.
 
 * 보고 도구
-   * 계산된 지표 만들기
-   * 세그먼트 생성
-   * 주석 작성
-   * 감사 로그 액세스
-   * 모든 사용자와 프로젝트 링크 공유
-   * 예측
-   * AI 어시스턴트: 제품 지식
-   * Data Insights 에이전트
-   * 지능형 캡션
+  * 계산된 지표 만들기
+  * 세그먼트 생성
+  * 주석 작성
+  * 감사 로그 액세스
+  * 모든 사용자와 프로젝트 링크 공유
+  * 예측
+  * AI 어시스턴트: 제품 지식
+  * Data Insights 에이전트
+  * 지능형 캡션
 
 * 데이터 보기 도구
-   * 전체 테이블 내보내기
+  * 전체 테이블 내보내기
 
 Customer Journey Analytics에 대한 이러한 권한을 확인하고 업데이트하려면 다음을 수행하십시오.
 

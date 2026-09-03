@@ -1,7 +1,7 @@
 ---
 keywords: Analysis Workspace
 title: Analysis Workspace 개요
-description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 대해 알아봅니다. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 생생하게 표현하고 분석을 조정하여 공유할 수 있습니다.
+description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 대해 알아봅니다. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 생생하게 표현하고 분석을 선별하여 공유할 수 있습니다.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
@@ -64,7 +64,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 | ![가이드 분석](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 가이드 분석]** | [가이드 분석](../guided-analysis/overview.md)을 이용하면 가이드 워크플로를 통해 고객 여정에 대한 고품질 데이터와 인사이트를 직접 얻을 수 있습니다. Workspace 프로젝트에 포함될 분석을 만들거나 이전에 저장된 기존 분석을 포함할 수 있습니다. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 시각화]** | 막대 또는 선 차트와 같은 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 사용하여 데이터를 시각적으로 생동감 있게 표현할 수 있습니다. 맨 왼쪽 패널에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 시각화의 전체 목록을 확인합니다. |
 | ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 구성 요소]** | [구성 요소](/help/components/overview.md)에는 다음 요소가 포함됩니다.<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [차원](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [지표](/help/components/apply-create-metrics.md)</li><li>![세분화](/help/assets/icons/Segmentation.svg) [세그먼트](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [날짜 범위](/help/components/date-ranges/overview.md)</li></ul> |
-| ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차가 프로젝트에 포함된 모든 패널 및 시각화를 축소 가능한 목록으로 구성하면 특정 패널이나 시각화에 빠르게 액세스할 수 있습니다. |
+| ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 목차]** | 목차는 프로젝트에 포함된 모든 패널 및 시각화를 축소 가능한 목록으로 구성하여 특정 패널이나 시각화에 빠르게 액세스할 수 있도록 합니다. |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **데이터 사전** | [데이터 사전](/help/components/data-dictionary/data-dictionary-overview.md)은 사용자와 관리자 모두 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다. |
 
 
@@ -74,7 +74,7 @@ Analysis Workspace의 기능 대부분은 드래그 앤 드롭을 통해, 패널
 
 Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할 수 있습니다. 단축키는 브라우저가 실행 중인 운영 체제에 따라 다릅니다. 개요는 아래 테이블을 참조하십시오.
 
-키보드에서 다음 기호를 사용해야 합니다.
+키보드에서 다음 기호가 사용될 수 있습니다.
 
 - **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
 - **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
@@ -143,7 +143,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 |---|---|
 | **[!UICONTROL 비디오]** | 새 브라우저 탭에서 Customer Journey Analytics YouTube 채널을 엽니다. |
 | **[!UICONTROL 도움말 설명서]** | 설명서를 엽니다(실제로 지금 읽고 있는 중...) 새 브라우저 탭에서. |
-| **[!UICONTROL 도움말 포럼]** | 새 브라우저 탭에서 Adobe Analytics Experience League 커뮤니티 포럼을 엽니다. |
+| **[!UICONTROL 도움말 포럼]** | 새 브라우저 탭에서 Adobe Analytics Experience League Communities 포럼을 엽니다. |
 | **[!UICONTROL 핫키]** | Workspace에서 사용할 수 있는 핫키(단축키)에 대한 개요를 표시합니다. |
 | **[!UICONTROL 디버거 활성화]** | 디버거를 활성화합니다. 프로젝트가 다시 로드됩니다. |
 | **[!UICONTROL 디버거 비활성화]** | 디버거를 비활성화합니다. 프로젝트가 다시 로드됩니다. |

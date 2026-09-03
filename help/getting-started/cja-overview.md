@@ -92,7 +92,7 @@ Customer Journey Analytics 사용을 시작하려면 먼저 다음과 같은 사
 
 ## 용어 업데이트
 
-기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능이 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
+기존 Adobe Analytics과 비교하여 업계 표준에 맞게 Customer Journey Analytics의 여러 기능 이름이 변경되었습니다. 업데이트된 용어 중 일부는 다음과 같습니다.
 
 * 이제 가상 보고서 세트를 “데이터 보기”라고 합니다
 * 이제 분류를 &#39;조회 데이터 세트&#39;라고 합니다.

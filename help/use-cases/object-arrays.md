@@ -82,20 +82,20 @@ ht-degree: 59%
 데이터 보기를 만들 때 다음 차원과 지표를 사용할 수 있습니다(스키마를 기준).
 
 * **차원:**
-   * ID
-   * product : SKU
-   * product : name
-   * product : order_id
-   * product : warranty : coverage
-   * prodcut : warranty : length
-   * product : warranty : name
-   * product : warranty : type
+  * ID
+  * product : SKU
+  * product : name
+  * product : order_id
+  * product : warranty : coverage
+  * prodcut : warranty : length
+  * product : warranty : name
+  * product : warranty : type
 * **지표:**
-   * product : orders
-   * product : units
-   * product : revenue
-   * product : warranty
-   * product : warranty : revenue
+  * product : orders
+  * product : units
+  * product : revenue
+  * product : warranty
+  * product : warranty : revenue
 
 ### 동일한 이벤트 예(보고 동작)
 
@@ -151,7 +151,7 @@ Customer Journey Analytics은 표를 기반으로 개체의 차원과 지표를 
 +}
 ```
 
-보증 수익만 보고하려면 프로젝트가 다음과 비슷합니다.
+보증 매출만 보고하려면 프로젝트가 다음과 비슷합니다.
 
 | `product : warranty : coverage` | `product : warranty : revenue` |
 | --- | --- |
@@ -205,7 +205,7 @@ Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고
 
 건조기에 보증서가 포함되지 않았으므로 테이블에 건조기가 포함되지 않습니다.
 
-차원과 지표를 모두 결합할 수 있으므로 다음 테이블에서 데이터에 어떻게 지정되지 않은 차원 항목이 있는지 확인할 수 있습니다.
+모든 차원을 모든 지표와 결합할 수 있으므로 다음 테이블은 지정되지 않은 차원 항목이 있을 때 데이터가 어떻게 표시되는지 보여 줍니다.
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -257,7 +257,7 @@ Customer Journey Analytics은 다음과 같은 이벤트 부분을 보고 보고
 +}
 ```
 
-연결된 이름이 없는 주문에 주의하십시오. 이는 &#39;지정되지 않음&#39; 차원 항목으로 인한 주문입니다.
+이름이 연결되지 않은 주문을 확인하십시오. 이러한 주문은 &#39;지정되지 않음&#39; 차원 항목에 귀속됩니다.
 
 ### 지표 결합
 

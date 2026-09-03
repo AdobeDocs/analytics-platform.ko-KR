@@ -29,8 +29,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 8%
+source-wordcount: 1476
+ht-degree: 9%
 
 ---
 
@@ -120,7 +120,7 @@ Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience
 
 탐색할 수 있는 한 가지 사용 사례는 다음과 같습니다. 2020년 4월~6월에 리드별 웹 페이지 방문 횟수는?
 
-1. [Analytics Workspace](/help/analysis-workspace/home.md)을(를) 열고 새 프로젝트를 만듭니다.
+1. [Analytics Workspace](/help/analysis-workspace/home.md)를 열고 새 프로젝트를 만듭니다.
 B2B/B2P CDP를 보유한 고객은 Customer Journey Analytics에서 B2C 스타일의 분석을 수행할 수 있습니다. B2B 오브젝트는 아직 사용할 수 없습니다.
 
 1. 다음과 같이 웹 페이지 조회수에 대한 [세그먼트](/help/components/segments/seg-create.md)를 만듭니다. 이벤트 유형 = web.webpagedetails.pageViews :

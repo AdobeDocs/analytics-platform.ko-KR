@@ -72,7 +72,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 
 여정 캔버스 시각화는 사용자와 고객에게 제공하는 여정을 분석하고 깊이 있는 인사이트를 얻을 수 있습니다. 이를 통해 여정을 처음부터 정의하거나 Journey Optimizer에서 여정을 본 다음 사람들이 어떻게 여정을 떠나거나(폴아웃) 따라가는지(폴스루) 확인할 수 있습니다.
 
-이벤트, 차원 항목, 세그먼트 및 날짜 범위를 조합하여 여정 노드를 생성함으로써 [사용자 여정에 대한 분석을 구축](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)할 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 데이터를 변경하면 실시간으로 업데이트합니다.
+이벤트, 차원 항목, 세그먼트 및 날짜 범위를 조합하여 여정 노드를 생성함으로써 [사용자 여정에 대한 분석을 구축](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)할 수 있습니다. 노드를 연결하여 여정의 흐름을 만들고, 여러 경로와 결정 지점을 포함합니다. 캔버스에서 노드를 드래그하여 여정의 이벤트와 조건을 재배열합니다. 변경하면 데이터가 실시간으로 업데이트됩니다.
 
 [노드는 &quot;최종 경로&quot;로 연결](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)됩니다. 즉, 방문자는 두 노드 사이에서 발생하는 모든 이벤트에 관계없이 한 노드에서 다른 노드로 이동하는 한 계산됩니다. 사용자가 경로를 따라 이동할 수 있는 시간은 컨테이너 설정에 따라 결정됩니다.
 
@@ -175,7 +175,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 >
 >조직에서 Journey Optimizer에 액세스할 수 없는 경우에도 [여정 캔버스에 분석을 구축](#build-analyses-in-customer-journey-analytics)할 수 있습니다.
 
-여정 캔버스에서 Journey Optimizer 여정 분석은 사람들이 여정과 어떻게 상호작용하는지에 대한 깊고 실행 가능한 인사이트를 제공합니다.
+여정 캔버스에서 Journey Optimizer 여정을 분석하면 사람들이 여정과 어떻게 상호작용하는지에 대한 심층적이고 실행 가능한 인사이트를 얻을 수 있습니다.
 
 Journey Optimizer 여정을 여정 캔버스에서 분석할 때 여정은 Journey Optimizer에서와 동일한 순서, 시퀀스, 구조로 표시됩니다. 여정 캔버스 내에서 여정을 크게 변경하면 [Journey Optimizer에서 더 이상 변경 사항이 동기화되지 않습니다](#synchronization-between-journey-optimizer-and-journey-canvas).
 
@@ -187,7 +187,7 @@ Journey Optimizer에서 생성된 여정을 분석하기 위해 여정 캔버스
 
 * Customer Journey Analytics 차원, 지표, 세그먼트 또는 날짜 범위를 사용하여 이벤트를 만듭니다.
 
-  Journey Optimizer에서 기술 사용자는 이벤트를 먼저 생성한 후에 여정에 이벤트를 추가할 수 있습니다.
+  Journey Optimizer에서는 기술 사용자가 이벤트를 여정에 추가하기 전에 먼저 생성해야 합니다.
 
 * 사용자가 만든 사용자 정의 노드를 기반으로 대상자를 만듭니다(Customer Journey Analytics 대상자 빌더 실행).
 
@@ -219,7 +219,7 @@ Journey Optimizer와 여정 캔버스 간의 동기화를 이해하려면 다음
 
 * **“모두와 공유” 링크를 사용하려면 Journey Optimizer에서 변경 사항을 적용한 후 프로젝트를 Customer Journey Analytics에 저장해야 합니다.**
 
-  “모두와 공유” 링크를 사용하는 경우, 프로젝트를 Customer Journey Analytics에 저장해야 Journey Optimizer에서 변경한 내용이 Journey Canvas에 반영됩니다.
+  “모두와 공유” 링크를 사용하는 경우, 프로젝트를 Customer Journey Analytics에 저장해야 Journey Optimizer에서 변경한 내용이 여정 캔버스에 반영됩니다.
 
   &quot;모든 사람과 공유&quot; 링크에 대한 자세한 내용은 [프로젝트 공유](/help/analysis-workspace/curate-share/share-projects.md)에서 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오.
 
@@ -243,7 +243,7 @@ Journey Optimizer와 여정 캔버스 간의 동기화를 이해하려면 다음
 
 #### 데이터 처리 차이점
 
-여정 캔버스에서 Journey Optimizer 여정을 수정한 후 여정에 비기본 속성 모델이 있는 지표가 포함된 경우 데이터에 변경 사항이 있을 수 있습니다.
+여정 캔버스에서 Journey Optimizer 여정을 수정한 후 여정에 비기본 기여도 모델이 있는 지표가 포함된 경우 데이터에 변경 사항이 있을 수 있습니다.
 
 이는 Journey Optimizer와 달리 여정 캔버스를 사용하면 단일 여정 내에 여러 차원을 적용할 수 있기 때문입니다. 이 기능은 [지표 속성](/help/data-views/component-settings/attribution.md)이 지원되지 않음을 의미합니다.
 
@@ -271,7 +271,7 @@ Journey Optimizer에서 한 가지 의미를 갖는 특정 용어는 Customer Jo
 
 여정 캔버스에서 Journey Optimizer 여정 분석에 대한 정보는 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
 
-## 여정 캔버스에서 분석 구축
+## 여정 캔버스에서 분석 작성
 
 Analysis Workspace에서 사용할 수 있는 모든 차원이나 지표를 기반으로 한 분석을 여정 캔버스에 구축할 수 있습니다. 또는 Journey Optimizer에서 생성된 여정을 분석할 수 있습니다. 자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.
 

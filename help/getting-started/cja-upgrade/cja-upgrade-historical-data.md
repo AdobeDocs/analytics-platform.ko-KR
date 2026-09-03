@@ -60,7 +60,7 @@ Adobe Analytics에서 Customer Journey Analytics로 이동할 때 내역 데이�
 
 [Analytics 소스 커넥터](/help/data-ingestion/analytics.md)를 사용하면 내역 데이터를 보관할 수 있습니다. 선택한 업그레이드 경로에 관계없이(Web SDK를 사용하여 업그레이드하는 경우에도) Analytics 소스 커넥터를 사용하여 Adobe Analytics 환경의 내역 데이터를 보관할 수 있습니다.
 
-Analytics 소스 커넥터를 사용하면 내역 데이터를 현재 데이터와 별도로 내역 데이터를 전용 위치로 가져와 보관할 수 있습니다.
+Analytics 소스 커넥터를 사용하면 내역 데이터를 현재 데이터와 별도의 전용 위치로 가져와 보관할 수 있습니다.
 
 Analytics 소스 커넥터는 내역 데이터에 액세스해야 하는 동안 작동해야 합니다.
 
@@ -72,13 +72,13 @@ Analytics 소스 커넥터는 내역 데이터에 액세스해야 하는 동안 
 
 * Experience Platform에서는 데이터를 사용할 수 없습니다.
 
-* Customer Journey Analytics에서 충분한 데이터를 수집한 후에는 Adobe Analytics 구현을 중단 계획을 세워야 합니다.
+* Customer Journey Analytics에서 충분한 데이터를 수집한 후에는 Adobe Analytics 구현을 중단할 계획을 세워야 합니다.
 
 ## 이후 추가 구현 작업 수행
 
 업그레이드 프로세스의 이 시점에서는 Customer Journey Analytics 환경을 사용할 준비가 되기 전에 다양한 구현 작업을 수행해야 합니다.
 
-이러한 추가 작업은 Adobe Analytics의 업그레이드뿐 아니라 새로운 Customer Journey Analytics 구현에도 적용됩니다.
+이러한 추가 작업은 Adobe Analytics에서 업그레이드하는 경우뿐 아니라 새로운 Customer Journey Analytics 구현에도 적용됩니다.
 
 이러한 작업에는 다음이 포함됩니다.
 
@@ -88,9 +88,9 @@ Analytics 소스 커넥터는 내역 데이터에 액세스해야 하는 동안 
 
 * 데이터 보기 만들기
 
-* 보고 API 사용량 이식
+* 보고 API 사용 이식
 
-* 데이터 피드 및 Data Warehouse 사용 사례 확인
+* 데이터 피드 및 Data Warehouse 사용 사례 고려
 
 * 프로젝트 및 구성 요소 마이그레이션
 

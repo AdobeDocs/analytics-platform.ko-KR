@@ -1,5 +1,5 @@
 ---
-description: Adobe는 다양한 계산된 지표를 사용할 수 있도록 제공합니다. 이 페이지에는 해당 지표와 그 용도가 나열되어 있습니다.
+description: Adobe는 사용할 수 있는 다양한 계산 지표를 제공합니다. 이 페이지에는 해당 지표와 그 용도가 나열되어 있습니다.
 title: 계산된 지표 템플릿
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
@@ -41,8 +41,8 @@ Customer Journey Analytics은 가장 일반적인 사용 사례를 다루기 위
 | **[!UICONTROL 모바일 앱 세션]** | 모바일 앱에서 발생한 세션의 수. |
 | **[!UICONTROL 웹+앱 교차 채널 세션]** | 웹 트래픽과 모바일 트래픽을 모두 포함하여 발생한 세션의 수. |
 | **[!UICONTROL 통화 비용]** | 콜센터 통화에 드는 총 비용. <!-- <p>Summary: Call length</p> --> |
-| **[!UICONTROL 평균 통화 시간]** | 콜센터에 걸려온 전화 통화의 평균 시간. |
-| **[!UICONTROL 통화당 평균 비용]** | 콜센터에 걸려온 전화 통화의 평균 비용. |
-| **[!UICONTROL 평균 통화 설문 조사 점수]** | 콜센터에 걸려온 전화에 대한 평균 설문 조사 점수. |
+| **[!UICONTROL 평균 통화 시간]** | 콜센터로 건 전화 통화의 평균 시간. |
+| **[!UICONTROL 통화당 평균 비용]** | 콜센터로 건 전화 통화의 평균 비용. |
+| **[!UICONTROL 평균 통화 설문 조사 점수]** | 콜센터로 건 전화에 대한 평균 설문 조사 점수. |
 
 {style="table-layout:auto"}

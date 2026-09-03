@@ -62,10 +62,10 @@ ht-degree: 100%
 
 * **[!UICONTROL 보기]**: 이 분석과 [전환 트렌드](conversion-trends.md)를 전환합니다.
 * **[!UICONTROL 단계]**: 추적하려는 이벤트 터치포인트. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-   * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계 내에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
+  * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계 내에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
 * **[!UICONTROL 다음으로 계산됨]**: 단계에 적용하려는 범위. 옵션에는 [!UICONTROL 세션]과 [!UICONTROL 사용자]가 있습니다.
-   * [!UICONTROL 세션]: 모든 단계가 동일한 세션 내에서 진행되어야 계산할 수 있습니다.
-   * [!UICONTROL 사용자]: 모든 단계가 선택한 보고 창 내에서 이루어져야 계산할 수 있습니다.
+  * [!UICONTROL 세션]: 모든 단계가 동일한 세션 내에서 진행되어야 계산할 수 있습니다.
+  * [!UICONTROL 사용자]: 모든 단계가 선택한 보고 창 내에서 이루어져야 계산할 수 있습니다.
 * **[!UICONTROL 세그먼트]**: 단계를 비교할 세그먼트. 선택된 각 세그먼트는 각 단계를 여러 개의 막대로 나눕니다. 각 색상은 다른 세그먼트를 나타냅니다. 최대 3개의 세그먼트를 포함할 수 있습니다.
 
 ### 차트 설정

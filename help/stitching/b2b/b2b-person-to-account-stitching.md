@@ -1,6 +1,6 @@
 ---
-title: B2B 개인-계정 결합
-description: Customer Journey Analytics에서 B2B 사용자가 스티칭을 계산하는 방법에 대해 알아보십시오. 이렇게 하면 계정 정보로 이벤트 데이터 세트를 강화하고 B2B 데이터 전체에서 완전한 여정 분석을 할 수 있습니다.
+title: B2B 개인 대 계정 결합
+description: Customer Journey Analytics의 B2B 개인 계정 결합은 계정 정보로 이벤트 데이터 세트를 강화하고 B2B 데이터 전반에서 완전한 여정 분석을 가능하게 하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
@@ -19,18 +19,18 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a971b268208ec49b5ccd84b11543263ff3a1abea
+source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
 workflow-type: tm+mt
-source-wordcount: 2100
-ht-degree: 21%
+source-wordcount: 2116
+ht-degree: 19%
 
 ---
 
 # 계정 간 B2B 사람 결합
 
-B2B 사용자 대 계정 결합은 계정 ID로 이벤트 데이터 세트를 강화하고 Customer Journey Analytics의 전체 고객 여정 전반에서 전체 분석을 가능하게 합니다. Customer Journey Analytics B2B edition에서 수집하기 위해 필요한 계정 ID가 이벤트에 없는 경우, 개인-계정 결합은 사용자가 제공한 [개인-계정 간 매핑 데이터 세트](#prerequisites)를 사용하여 해당 정보를 자동으로 파생하고 추가합니다.
+B2B 사용자 대 계정 결합은 계정 ID로 이벤트 데이터 세트를 강화하고 Customer Journey Analytics의 전체 고객 여정 전반에서 전체 분석을 가능하게 합니다. Customer Journey Analytics B2B edition에서 수집하기 위해 필요한 계정 ID가 이벤트에 없는 경우, 계정간 결합은 사용자가 제공한 [개인-계정 간 매핑 데이터 세트](#prerequisites)를 사용하여 해당 정보를 자동으로 파생하고 추가합니다.
 
-계정 결합을 할 수 없는 경우, 계정 ID가 포함되지 않은 모든 이벤트는 수집 중에 삭제됩니다. 개인 간 계정 결합은 각 이벤트에서 개인과 연결된 계정을 검색하고 이벤트가 수집될 때 및 소급하여 계정 ID를 추가하여 이 제한을 해결합니다.
+계정 결합을 할 수 없는 경우, 계정 ID가 포함되지 않은 모든 이벤트는 수집 중에 삭제됩니다. 개인 대 계정 결합은 각 이벤트에서 개인과 연결된 계정을 검색하고 이벤트가 수집될 때 및 소급하여 계정 ID를 추가하여 이 제한을 해결합니다.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ B2B 사용자 대 계정 결합은 계정 ID로 이벤트 데이터 세트를 �
 계정 간 결합은 데이터 세트에 대해 다음 작업을 수행합니다.
 
 * **개인 ID 개선**: [B2C 결합 방법](/help/stitching/overview.md)과(와) 마찬가지로 영구 개인 ID를 포함하는 필드를 구성합니다. ID 그래프를 사용하면 각 이벤트에 대한 영구 개인 ID가 구성된 개인 식별자 네임스페이스의 개인 ID로 상승됩니다.
-* **누락된 계정 ID 추가**: 이벤트에 대한 개인 ID 정보를 가져온 후 [개인-계정 매핑](#prerequisites)을 사용하여 계정 ID 정보를 파생하고 추가합니다. 이벤트 자체에서 사용할 수 있는 모든 계정 ID는 대체 메서드로 사용됩니다.&quot;
+* **누락된 계정 ID 추가**: 이벤트에 대한 개인 ID 정보를 가져온 후 [개인-계정 매핑](#prerequisites)을 사용하여 계정 ID 정보를 파생하고 추가합니다. 이벤트 자체에서 사용할 수 있는 모든 계정 ID는 대체 메서드로 사용됩니다.
 
 ## B2B 개인 대 계정 연결 작동 방식
 
-B2B 계정 연결이 작동하는 방식을 보여주기 위해 아래에 표시된 데이터 세트를 시작점으로 사용합니다.
+B2B 사용자와 계정 간 결합이 작동하는 방식을 보여주기 위해 아래에 표시된 데이터 세트를 시작점으로 사용합니다.
 
 ### 기본 이벤트 데이터 세트
 
@@ -69,7 +69,7 @@ Customer Journey Analytics B2B edition에서 결합되지 않은 이 이벤트 �
 
 +++ 세부 사항
 
-B2B 개인-계정 결합을 지원하기 위해 개인-계정 매핑 데이터 세트를 제공합니다. 예:
+B2B 개인 간 계정 결합을 지원하기 위해 개인 간 계정 매핑 데이터 세트를 제공합니다. 예:
 
 | CRM ID | 계정 ID |
 |---|---|
@@ -126,12 +126,12 @@ B2B 개인-계정 결합을 지원하기 위해 개인-계정 매핑 데이터 �
 
 ### 결과
 
-이 예는 B2B 계정 스티칭이 입력으로 제공한 개인 간 매핑 데이터 세트를 기반으로 누락된 개인 식별자 또는 누락되고 잘못된 계정 식별자로 경험 이벤트 데이터를 업데이트하는 방법을 보여줍니다.
+이 예는 B2B 개인 대 계정 결합은 입력으로서 제공한 개인 대 계정 매핑 데이터 세트를 기반으로 누락된 개인 식별자 또는 누락 및 잘못된 계정 식별자로 경험 이벤트 데이터를 업데이트하는 방법을 보여줍니다.
 
 
 ## 사전 요구 사항
 
-B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다음 데이터 세트를 준비하십시오.
+B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe Experience Platform에서 다음 데이터 세트를 준비하십시오.
 
 | 데이터 세트 | 필수 여부 | 설명 |
 |---|---|---|
@@ -149,8 +149,8 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="B2B 계정 결합 구성"
->abstract="**[!UICONTROL B2B 결합 구성 열기]**&#x200B;를 선택하여 B2B 계정 결합을 구성합니다. 연결이 아직 저장되지 않은 경우 구성에 **[!UICONTROL _저장되지 않은 변경 사항_]** 레이블이 지정됩니다."
+>title="B2B 결합 구성"
+>abstract="**[!UICONTROL B2B 결합 구성 열기]**&#x200B;를 선택하여 B2B 사용자를 계정 결합으로 구성합니다. 연결이 아직 저장되지 않은 경우 구성에 **[!UICONTROL _저장되지 않은 변경 사항_]** 레이블이 지정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
@@ -204,7 +204,7 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 
    1. **[!UICONTROL 사용자]** 섹션을 구성하십시오.
 
-      * 보고와 가장 관련성이 높은 개인 ID 네임스페이스(예: 이메일)를 선택합니다. 개인 대 계정 결합을 사용하는 모든 이벤트 데이터 세트에는 영구 개인 ID가 이 개인 식별자 네임스페이스로 상승되어 있습니다. 이 필드는 필수입니다.
+      * 보고와 가장 관련성이 높은 개인 ID 네임스페이스(예: 이메일)를 선택합니다. 개인 대 계정 결합을 사용하는 모든 이벤트 데이터 세트에는 영구 개인 ID가 이 개인 식별자 네임스페이스로 승격됩니다. 이 필드는 반드시 입력해야 합니다.
 
    1. **[!UICONTROL 계정에 대한 사용자]** 아래의 **[!UICONTROL 계정]** 섹션을 구성하십시오.
 
@@ -230,33 +230,33 @@ B2B 계정 결합을 활성화하기 전에 Adobe Experience Platform에서 다�
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="개인-계정 결합 활성화"
 >abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 영구 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
 
-연결 수준에서 계정 결합에 B2B 사람을 구성한 후에는 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합에 B2B 사람이 계정 결합에 사용할 수 있도록 해야 합니다.
+연결 수준에서 B2B 결합을 구성한 후에는 B2B 사람이 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합을 활성화할 수 있어야 합니다.
 
 1. 연결 설정에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택하거나 기존 이벤트 데이터 세트에 대한 설정을 엽니다.<br/>자세한 내용은 [데이터 세트 추가](/help/connections/create-connection.md#add-datasets) 또는 [데이터 세트 편집](/help/connections/create-connection.md#edit-a-dataset)을 참조하십시오.
 
-1. B2B 계정 결합을 구성할 특정 이벤트 데이터 세트의 경우 **[!UICONTROL 개인을 계정에 연결 활성화]**&#x200B;로 전환하십시오.
+1. B2B 개인을 계정 결합으로 구성할 특정 이벤트 데이터 세트의 경우 **[!UICONTROL 개인을 계정 결합으로 활성화]**&#x200B;를 전환하십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 날짜]
 
-**[!UICONTROL 개인 계정 연결 활성화]**&#x200B;가 **on**&#x200B;인 경우 데이터 세트에 대한 B2B 계정 연결을 구성했습니다.
+**[!UICONTROL 개인 계정 연결 활성화]**&#x200B;가 **on**&#x200B;인 경우 데이터 집합에 대한 연결을 계산하도록 B2B 개인을 구성했습니다.
 
 * 개인 ID 구성이 필요합니다. 해당 개인 ID는 [개인-계정 데이터 세트](#prerequisites)를 기반으로 계정 ID를 조회하는 데 사용됩니다.
 * 계정 ID 구성은 선택 사항입니다.
 
-![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 B2B 계정 연결
+![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 B2B 사람
 
 >[!TAB 해제]
 
-**[!UICONTROL 개인 계정 연결 활성화]**&#x200B;가 **해제**&#x200B;인 경우 데이터 세트에 대해 B2B 계정 연결이 *구성되지*&#x200B;않았습니다.
+**[!UICONTROL 개인 계정 연결 활성화]**&#x200B;가 **해제**&#x200B;인 경우 데이터 집합에 대한 연결을 계산하도록 B2B 개인을 *구성하지 않음*&#x200B;합니다.
 
 * 계정 ID를 구성해야 합니다.
 * 개인 ID 구성은 선택 사항입니다.
 
-![이벤트 데이터 세트에 대한 B2B 계정 연결 해제](../assets/b2b-event-dataset-stitching-off.png)
+![B2B 사용자가 이벤트 데이터 세트 연결을 사용하지 않음](../assets/b2b-event-dataset-stitching-off.png)
 
 >[!ENDTABS]
 

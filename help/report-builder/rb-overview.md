@@ -27,7 +27,7 @@ ht-degree: 93%
 
 Customer Journey Analytics용 Report Builder를 통해 Adobe Customer Journey Analytics 데이터를 사용하여 Microsoft Excel에서 맞춤형 보고서를 쉽게 만들고 편집하고 새로 고칠 수 있습니다.
 
-Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform 상단에 구축된 애플리케이션입니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 인터페이스를 사용하여 Microsoft Excel 내의 모든 Customer Journey Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
+Customer Journey Analytics는 여러 데이터 소스에 연결하여 비즈니스를 전반적으로 검토할 수 있는 Adobe Experience Platform 상단에 구축된 애플리케이션입니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 인터페이스를 사용하여 Microsoft Excel 내에서 Customer Journey Analytics 데이터로 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
 
 Customer Journey Analytics용 Report Builder를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 

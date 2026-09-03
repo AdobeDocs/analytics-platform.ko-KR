@@ -27,14 +27,14 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 780
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
 
 # Content Analytics 구성
 
-이 문서에서는 Content Analytics 구성 방법에 대해 자세히 설명합니다.
+이 문서에서는 Content Analytics를 구성하는 방법을 개괄적으로 설명합니다.
 
 Content Analytics를 구성하기 전에 [전제 조건](#prerequisites)이 충족되었는지, 필요한 [액세스 제어 권한](#access-control)을 갖고 있는지, [제한 사항](#limitations)을 알고 있는지 확인해야 합니다.
 
@@ -62,23 +62,23 @@ Content Analytics를 구성하기 전에 다음 사전 요구 사항이 충족�
 * Customer Journey Analytics 제품 관리자 역할이 있으며, 연결과 데이터 보기를 관리할 수 있는 추가 권한이 있습니다.
 * Content Analytics 경험을 수집하려면 웹 페이지에 대한 변경 사항을 기반으로 Content Analytics 버전 관리를 설정하고 업데이트해야 합니다.
 * 다음 [데이터 수집 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions){target="_blank"}을 보유하고 있습니다.
-   * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
-   * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
+  * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
+  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
 * 다음 중요한 구성 옵션을 신중하게 고려했습니다.
 
-   * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때에만 가능합니다.
-      * 사이트의 페이지는 페이지 URL을 사용하여 재현될 수 있어야 합니다.
-      * 특정 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재생산될 수 있으며, 쿠키나 기타 개인화 메커니즘에 의존하지 않아야 합니다.
-   * 컨텐츠 참여 분석 및 통찰력을 위해 캡처할 페이지를 명확하게 파악할 수 있습니다.
-   * 어떤 유형의 자산에서 콘텐츠 참여 분석과 인사이트를 확보하고 싶은지 명확하게 이해하고 있어야 합니다.
+  * 사이트가 경험 보고에 적합합니다. 적절한 경험 보고는 다음 조건이 충족될 때에만 가능합니다.
+    * 사이트의 페이지는 페이지 URL을 사용하여 재현될 수 있어야 합니다.
+    * 특정 사용자가 보는 텍스트 콘텐츠는 페이지 URL을 사용하여 재생산될 수 있으며, 쿠키나 기타 개인화 메커니즘에 의존하지 않아야 합니다.
+  * 컨텐츠 참여 분석 및 통찰력을 위해 캡처할 페이지를 명확하게 파악할 수 있습니다.
+  * 어떤 유형의 자산에서 콘텐츠 참여 분석과 인사이트를 확보하고 싶은지 명확하게 이해하고 있어야 합니다.
 
 ### 모바일
 
 * 모바일 앱에 대해 [Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) 및 [Edge Network용 Experience Platform ID](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) 확장이 활성화되어 있는지 확인하십시오.
 * Customer Journey Analytics 제품 관리자 역할이 있으며, 연결과 데이터 보기를 관리할 수 있는 추가 권한이 있습니다.
 * 다음 [데이터 수집 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions){target="_blank"}을 보유하고 있습니다.
-   * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
-   * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
+  * [Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"} 사용 권한.
+  * [Experience Platform 데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"} 권한.
 
 
 

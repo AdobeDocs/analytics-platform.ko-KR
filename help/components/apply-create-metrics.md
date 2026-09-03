@@ -44,9 +44,9 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
   Adobe Analytics과 달리 Customer Journey Analytics에서는 연결 및 데이터 보기 범위 내에서 유연한 방식으로 표준 지표를 정의할 수 있습니다.
 
-   * **사람**: Customer Journey Analytics의 사람 지표는 개인 ID의 고유 개수입니다. 연결에서 데이터 세트를 구성할 때 개인 ID로 선택한 항목에 따라 사람 지표는 다른 의미를 가질 수 있습니다.
-   * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
-   * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
+  * **사람**: Customer Journey Analytics의 사람 지표는 개인 ID의 고유 개수입니다. 연결에서 데이터 세트를 구성할 때 개인 ID로 선택한 항목에 따라 사람 지표는 다른 의미를 가질 수 있습니다.
+  * **세션**: Customer Journey Analytics의 세션 지표는 데이터 보기의 세션 설정 구성의 일부로 정의하는 지표입니다. [세션 설정](/help/data-views/session-settings.md)을 참조하세요.
+  * **이벤트**: Customer Journey Analytics의 이벤트 지표는 연결의 일부로 구성한 이벤트 데이터 세트의 일부인 이벤트로 구성됩니다.
 
   표준 지표의 전체 목록은 [표준 지표](#standard-metrics)를 참조하십시오.
 

@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-dataset"
 >title="연결에 Analytics 소스 커넥터 데이터 세트 추가"
->abstract="Analytics 보고서 모음의 과거 데이터가 Adobe Experience Platform에 있으므로, Customer Journey Analytics를 처음 구성할 때 만든 기존 연결에 해당 데이터 세트를 추가합니다. 이 단계가 완료되면 Customer Journey Analytics의 과거 데이터를 사용할 수 있습니다.<br><br>Customer Journey Analytics에서 연결에 데이터 세트를 추가하는 작업은 간단하여 완료하는 데 몇 분밖에 걸리지 않습니다."
+>abstract="Analytics 보고서 세트의 내역 데이터가 Adobe Experience Platform에 있으므로, Customer Journey Analytics를 처음 구성할 때 만든 기존 연결에 해당 데이터 세트를 추가합니다. 이 단계가 완료되면 Customer Journey Analytics의 내역 데이터를 사용할 수 있습니다.<br><br>Customer Journey Analytics에서 연결에 데이터 세트를 추가하는 작업은 간단하여 완료하는 데 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 

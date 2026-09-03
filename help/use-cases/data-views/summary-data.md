@@ -23,8 +23,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 4858
-ht-degree: 16%
+source-wordcount: 5045
+ht-degree: 15%
 
 ---
 
@@ -485,7 +485,7 @@ Workspace에서 올바른 데이터에 대해 보고할 수 있도록 관련 지
          |---|---|---|---|
          | 광고 그룹(조회) | 조회 데이터 데이터 세트 예 | 문자열 | *_tenant*.ad_group |
          | 광고 그룹 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.ad_group |
-         | 캠페인 Id | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_id |
+         | 캠페인 ID | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_id |
          | 캠페인 이름(조회) | 조회 데이터 데이터 세트 예 | 문자열 | *_tenant*.campaign_name |
          | 캠페인 이름 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.campaign_name |
          | 네트워크 | 예제 요약 데이터 데이터 데이터 세트 | 문자열 | *_tenant*.network |

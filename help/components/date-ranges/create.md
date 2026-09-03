@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 542
 ht-degree: 95%
 
 ---
@@ -77,12 +77,12 @@ Should we really mention API here. If so, we can do it all over the place in the
 
      ![Rollinf dates](assets/rolliing-dates.png)
 
-      1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
-      1. **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 분기]** **[!UICONTROL 말]**&#x200B;에서 `20`**[!UICONTROL 일]** **[!UICONTROL 빼기]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
-         * 현재 값을 선택합니다. 예: **[!UICONTROL 현재 분기]**.
-         * 추가 계산 값을 선택합니다. 예: **[!UICONTROL 빼기]**.
-         * 추가 계산이 지정된 경우 값을 지정합니다. (예: `20`)
-         * 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
+     1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
+     1. **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 분기]** **[!UICONTROL 말]**&#x200B;에서 `20`**[!UICONTROL 일]** **[!UICONTROL 빼기]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
+        * 현재 값을 선택합니다. 예: **[!UICONTROL 현재 분기]**.
+        * 추가 계산 값을 선택합니다. 예: **[!UICONTROL 빼기]**.
+        * 추가 계산이 지정된 경우 값을 지정합니다. (예: `20`)
+        * 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
