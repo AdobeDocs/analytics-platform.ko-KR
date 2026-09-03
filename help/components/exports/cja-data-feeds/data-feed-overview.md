@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
 workflow-type: tm+mt
-source-wordcount: 230
-ht-degree: 20%
+source-wordcount: 252
+ht-degree: 18%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 20%
 {{release-limited-testing}}
 
 데이터 피드는 Customer Journey Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 조직의 판단에 따라 Adobe 외부의 다른 플랫폼에서 이 원시 데이터를 사용할 수 있습니다. 데이터는 매 시간이 끝날 때 시간별 배치로 전달되거나, 하루가 끝날 때 일별 배치로 전달됩니다.
+
+데이터 피드를 전체 테이블 내보내기와 같은 다른 Customer Journey Analytics 내보내기 방법과 비교하려면 [Analytics 제품 비교](/help/getting-started/analytics-product-comparison.md)를 참조하십시오.
 
 ## 사전 요구 사항
 
