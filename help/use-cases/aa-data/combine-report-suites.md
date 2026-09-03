@@ -6,11 +6,16 @@ feature: Use Cases
 role: User
 autotag-review: '2026-05-19T09:35:22.411Z'
 TQID: 'https://experienceleague.adobe.com/La2B-Yvc3-OHQsgmr5EPILZQBcm6zKCAAcKPLZ3PbIQ'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2: id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1390
@@ -165,6 +170,6 @@ Experience Platform 데이터 준비 기능은 Analytics 소스 커넥터와 통
 
 ## 데이터 준비 대 구성 요소 ID
 
-위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)을 참조하십시오.
+위에서 설명한 대로 데이터 준비를 사용하면 여러 Adobe Analytics 보고서 세트에서 다른 필드를 함께 매핑할 수 있습니다. 이 기능은 여러 데이터 세트의 데이터를 단일 Customer Journey Analytics 연결로 결합하려는 Customer Journey Analytics에서 유용합니다. 그러나 보고서 세트를 별도의 Customer Journey Analytics 연결로 유지하되 이러한 연결 및 데이터 보기에서 하나의 보고서 세트를 사용하려는 경우 Customer Journey Analytics에서 기본 구성 요소 ID를 변경하면 스키마가 다르더라도 보고서가 호환되도록 할 수 있습니다. 자세한 내용은 [구성 요소 설정 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)을 참조하십시오.
 
 구성 요소 ID 변경은 Customer Journey Analytics 전용 기능이며 실시간 고객 프로필 및 RTCDP으로 전송되는 Analytics 소스 커넥터의 데이터에는 영향을 주지 않습니다.

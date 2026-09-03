@@ -5,10 +5,15 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 774
@@ -85,9 +90,9 @@ Customer Journey Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 
 
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
-| ![레이블](/help/assets/icons/Labels.svg) | **[!UICONTROL 태그]** | 선택한 대상자에 태그를 지정합니다. **[!UICONTROL 태그 업데이트: *대상자 이름&#x200B;*]**대화 상자의 드롭다운 메뉴에서 태그를 선택하거나 하나 이상의 새 태그를 입력합니다. 저장하려면**[!UICONTROL 저장&#x200B;]**을 선택합니다. |
+| ![레이블](/help/assets/icons/Labels.svg) | **[!UICONTROL 태그]** | 선택한 대상자에 태그를 지정합니다. **[!UICONTROL 태그 업데이트: *대상자 이름&#x200B;*]**&#x200B;대화 상자의 드롭다운 메뉴에서 태그를 선택하거나 하나 이상의 새 태그를 입력합니다. 저장하려면&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 대상자를 삭제합니다. |
-| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 대상자의 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *대상자 이름&#x200B;*]**대화 상자를 사용하여 대상자의 이름을 바꾸고**[!UICONTROL 저장&#x200B;]**을 선택하여 저장합니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 대상자의 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: *대상자 이름&#x200B;*]**&#x200B;대화 상자를 사용하여 대상자의 이름을 바꾸고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택하여 저장합니다. |
 
 하나 이상의 예약된 프로젝트를 선택하면 파란색 작업 표시줄에서 다음 액션을 사용할 수 있습니다.
 

@@ -6,11 +6,18 @@ feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
 autotag-review: '2026-05-19T09:30:13.855Z'
 TQID: 'https://experienceleague.adobe.com/SWjkycY-YwNFMXRXwBypDtTL2ffFn40-Fp88vSxv-74'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 258
@@ -22,11 +29,11 @@ ht-degree: 37%
 
 >[!TIP]
 >
->Customer Journey Analytics의 모든 연결에서 수집 및 보고 가능한 행의 사용을 **보기**&#x200B;하려면 [**[!UICONTROL 사용&#x200B;]**인터페이스](/help/connections/manage-connections.md#usage)를 사용하십시오.
+>Customer Journey Analytics의 모든 연결에서 수집 및 보고 가능한 행의 사용을 **보기**&#x200B;하려면 [**[!UICONTROL 사용&#x200B;]**&#x200B;인터페이스](/help/connections/manage-connections.md#usage)를 사용하십시오.
 
 
 
-[**[!UICONTROL 연결&#x200B;]**인터페이스](/help/connections/create-connection.md)에서 Customer Journey Analytics 사용을 관리할 수 있습니다. 이 인터페이스에서 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
+[**[!UICONTROL 연결&#x200B;]**&#x200B;인터페이스](/help/connections/create-connection.md)에서 Customer Journey Analytics 사용을 관리할 수 있습니다. 이 인터페이스에서 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 

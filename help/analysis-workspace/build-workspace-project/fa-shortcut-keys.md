@@ -6,11 +6,17 @@ title: 핫키
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 TQID: https://experienceleague.adobe.com/YWKW578JfolnUul64XLty6ehTVlsdsdTRAgHQG3wzbY
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 418
@@ -24,11 +30,11 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL ** Shift **]**&#x200B;의 경우 **⇧**
-- **⌘****[!UICONTROL ** Cmd **]**(명령)의 경우.
-- **⌃****[!UICONTROL ** Ctrl **]**(제어)의 경우.
-- **⌥****[!UICONTROL ** Opt **]**(옵션)의 경우.
-- **⎇****[!UICONTROL ** Alt **]**(대체)의 경우.
+- **[!UICONTROL **&#x200B; Shift &#x200B;**]&#x200B;**&#x200B;의 경우 &#x200B;**⇧**
+- **⌘**&#x200B;**[!UICONTROL **&#x200B; Cmd &#x200B;**]**(명령)의 경우.
+- **⌃**&#x200B;**[!UICONTROL **&#x200B; Ctrl &#x200B;**]**(제어)의 경우.
+- **⌥**&#x200B;**[!UICONTROL **&#x200B; Opt &#x200B;**]**(옵션)의 경우.
+- **⎇**&#x200B;**[!UICONTROL **&#x200B; Alt &#x200B;**]**(대체)의 경우.
 
 ## 탐색 작업
 
