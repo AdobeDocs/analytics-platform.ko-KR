@@ -11,9 +11,9 @@ feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
 subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
 role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 62ee184e96a1f22e97bafaae6e71d6bef1267cb4
+source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
 workflow-type: tm+mt
-source-wordcount: 2120
+source-wordcount: 2116
 ht-degree: 19%
 
 ---
@@ -222,9 +222,9 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="개인-계정 결합 활성화"
 >abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 영구 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
 
-연결 수준에서 계정 결합에 B2B 사람을 구성한 후에는 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합에 B2B 사람이 계정 결합에 사용할 수 있도록 해야 합니다.
+연결 수준에서 B2B 결합을 구성한 후에는 B2B 사람이 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합을 활성화할 수 있어야 합니다.
 
 1. 연결 설정에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택하거나 기존 이벤트 데이터 세트에 대한 설정을 엽니다.<br/>자세한 내용은 [데이터 세트 추가](/help/connections/create-connection.md#add-datasets) 또는 [데이터 세트 편집](/help/connections/create-connection.md#edit-a-dataset)을 참조하십시오.
 
