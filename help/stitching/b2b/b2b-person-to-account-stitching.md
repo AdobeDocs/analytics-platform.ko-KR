@@ -6,20 +6,12 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 2116
 ht-degree: 19%
@@ -91,7 +83,7 @@ B2B 개인 간 계정 결합을 지원하기 위해 개인 간 계정 매핑 데
 
 그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어 **emily@adobe.com**&#x200B;에 대해 업데이트된 값을 참조하십시오.
 
-그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어, [데이터 세트에 대한 결합을 활성화](#enable-b2b-stitching-on-event-datasets)할 때 영구 ID(ECID) 필드를 영구 개인 ID로 사용하도록 구성합니다. `5678`을(를) ECID 값으로 사용하고 `emily@adobe.com`을(를) 이메일 값으로 사용하는 경우 `emily@adobe.com`은(는) 관련 이벤트에 대해 관리자 권한 개인 ID로 설정됩니다.
+그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어, [데이터 세트에 대한 결합을 활성화](#enable-b2b-person-to-account-stitching-on-event-datasets)할 때 영구 ID(ECID) 필드를 영구 개인 ID로 사용하도록 구성합니다. `5678`을(를) ECID 값으로 사용하고 `emily@adobe.com`을(를) 이메일 값으로 사용하는 경우 `emily@adobe.com`은(는) 관련 이벤트에 대해 관리자 권한 개인 ID로 설정됩니다.
 
 | 타임스탬프 | 영구 ID | 원래 계정 ID | 원래 개인 ID | 개인 ID 상승 |
 |--|--|---|---|---|
@@ -230,7 +222,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="개인-계정 결합 활성화"
 >abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 영구 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인-계정 데이터 세트를 기반으로 계정 ID를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
 
 연결 수준에서 B2B 결합을 구성한 후에는 B2B 사람이 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합을 활성화할 수 있어야 합니다.
 
@@ -247,7 +239,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 * 개인 ID 구성이 필요합니다. 해당 개인 ID는 [개인-계정 데이터 세트](#prerequisites)를 기반으로 계정 ID를 조회하는 데 사용됩니다.
 * 계정 ID 구성은 선택 사항입니다.
 
-![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 B2B 사람
+](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 ![B2B 사람
 
 >[!TAB 해제]
 

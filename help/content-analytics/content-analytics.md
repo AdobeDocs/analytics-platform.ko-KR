@@ -4,30 +4,14 @@ description: Content Analytics의 가치 및 용어에 대해 알아보고 Conte
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
-hold: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1019
 ht-degree: 43%
@@ -49,7 +33,7 @@ Content Analytics는 점점 더 높은 수준의 가치를 제공합니다.
 
 1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 자산이 노출되고 있는지, 그리고 자산이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 통찰력을 통해 웹 및 모바일 속성에서 에셋이 과소 사용되는지 또는 과다 사용되는지를 확인할 수 있습니다.
 1. 콘텐츠 **참여**: Content Analytics는 특정 속성을 가진 자산에 대한 평균 클릭스루 비율과 같은 참여 인사이트를 제공할 수 있습니다. 이러한 인사이트는 특정 유형의 경험이 여전히 효과적인지 여부를 판단하는 데 도움이 됩니다.
-1. 컨텐츠 여정: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합될 때 컨텐츠 여정에 대한 추가 통찰력을 얻을 수 있습니다. 예를 들어 특정 컨텐츠가 참여 외에 전환으로 이어지는지 여부를 확인할 수 있습니다. 예를 들어 특정 콘텐츠가 참여 외에 전환으로 연결되는지 여부입니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
+1. 컨텐츠 **여정**: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합되면 컨텐츠 여정에 대한 추가적인 통찰력을 얻을 수 있습니다. 예를 들어 특정 컨텐츠가 참여 외에 전환으로 이어지는지 여부를 확인할 수 있습니다. 예를 들어 특정 콘텐츠가 참여 외에 전환으로 연결되는지 여부입니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
 1. 콘텐츠 **개인화**: 궁극적으로 Content Analytics를 통해 인사이트에 따라 조치를 취하고 이러한 인사이트를 활용하여 콘텐츠에 비용을 어떻게 사용할지 결정할 수 있습니다. 예를 들어 특정 대상자에게 특정 유형의 콘텐츠를 보내야 합니까? 어떤 콘텐츠가 나에게 높은 개인화 기회를 제공합니까?
 
 ## 용어
@@ -104,6 +88,6 @@ Content Analytics은 웹 및 모바일 이미지 보기 데이터와 Experience 
 >
 >[Content Analytics 보고](report/report.md)
 >[Content Analytics 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=ko)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
