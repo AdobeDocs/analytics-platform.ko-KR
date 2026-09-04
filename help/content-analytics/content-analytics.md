@@ -4,32 +4,18 @@ description: Content Analytics의 가치 및 용어에 대해 알아보고 Conte
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
+hold: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 55%
+source-wordcount: 1019
+ht-degree: 43%
 
 ---
 
@@ -63,13 +49,21 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 
 ## 작동 방식
 
-Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 모바일 이미지 보기 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 모바일 SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. Web SDK, Mobile SDK 또는 Analytics Source Connector를 사용하여 동작 데이터를 수집할 수 있습니다.
+Content Analytics은 웹 및 모바일 이미지 보기 데이터와 Experience Platform 이벤트 데이터 세트의 유료 미디어 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 모바일 SDK, 서버 API)를 통해 또는 Experience Platform 소스 커넥터를 통해 데이터를 수집해야 합니다.
 
-![Content Analytics - 작동 방식](assets/aca-overview-new.gif)
+* Web SDK, Mobile SDK 또는 Analytics Source Connector를 사용하여 동작 데이터를 수집할 수 있습니다.
+* 유료 미디어의 경우 사용 가능한 유료 미디어 소스 커넥터를 통해 Experience Platform에서 수집된 유료 미디어 이벤트 데이터 소스에서 경험 데이터가 재구성됩니다.
+
+![Content Analytics - 작동 방식](assets/aca-overview-new-paid-media.gif)
+
 
 1. 사용자가 사이트 또는 앱([Content Analytics용으로 구성됨](config/configuration.md))을 방문하면 Experience Platform 웹 또는 모바일 SDK은 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
-1. ID 및 기능 서비스는 이러한 상호 작용을 처리합니다. 해당 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 검색된 모든 URL에 대해 ID 서비스는 경험과 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험 및 에셋 메타데이터와 속성을 검색합니다.
-1. 이러한 서비스의 결과([구성 요소, 속성, ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
+유료 미디어 데이터는 소스 커넥터에서 매일 데이터 세트로 수집됩니다(예: Google 및 Meta). Content Analytics은 새롭고 기능화되지 않은 에셋 및 경험에 대해 [구성된 유료 미디어 데이터 세트](config/configuration.md)를 모니터링하고 광고 데이터 세트 메타데이터를 사용하여 experience HTML을 구성합니다. 해당 경험 HTML은 유료 미디어 경험으로 에셋 세부 사항과 결합됩니다.
+
+1. ID 및 기능 서비스는 이러한 상호 작용(웹 및 모바일에서) 및 경험(유료 미디어에서)을 처리합니다. 이 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전 및 경험을 정의하는 HTML을 다시 방문하는 검색 서비스로 구성됩니다. 이렇게 검색된 모든 URL 및 HTML에 대해 ID 서비스는 경험 및 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험 및 에셋 메타데이터와 속성을 검색합니다.
+
+1. ID 및 기능 서비스([구성 요소, 특성 및 ID](/help/content-analytics/report/components.md)) 결과는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
+
 1. Content Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 데이터를 사용할 수 있습니다. 해당 설정은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 위한 기반을 제공합니다. <br/>Content Analytics 보고서와 분석은 [Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 빠르게 시작할 수 있습니다.
 
 
@@ -95,6 +89,6 @@ Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 �
 >
 >[Content Analytics 보고](report/report.md)
 >[Content Analytics 구성](config/configuration.md)
->[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=ko)
+>[Customer Journey Analytics에서 바운스 및 바운스 비율 계산](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
