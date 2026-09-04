@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 2116
 ht-degree: 19%
@@ -91,7 +91,7 @@ B2B 개인 간 계정 결합을 지원하기 위해 개인 간 계정 매핑 데
 
 그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어 **emily@adobe.com**&#x200B;에 대해 업데이트된 값을 참조하십시오.
 
-그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어, [데이터 세트에 대한 결합을 활성화](#enable-b2b-stitching-on-event-datasets)할 때 영구 ID(ECID) 필드를 영구 개인 ID로 사용하도록 구성합니다. `5678`을(를) ECID 값으로 사용하고 `emily@adobe.com`을(를) 이메일 값으로 사용하는 경우 `emily@adobe.com`은(는) 관련 이벤트에 대해 관리자 권한 개인 ID로 설정됩니다.
+그래프 기반 결합은 경험 이벤트 데이터 세트에서 개인 ID를 향상시키는 데에도 사용됩니다. 예를 들어, [데이터 세트에 대한 결합을 활성화](#enable-b2b-person-to-account-stitching-on-event-datasets)할 때 영구 ID(ECID) 필드를 영구 개인 ID로 사용하도록 구성합니다. `5678`을(를) ECID 값으로 사용하고 `emily@adobe.com`을(를) 이메일 값으로 사용하는 경우 `emily@adobe.com`은(는) 관련 이벤트에 대해 관리자 권한 개인 ID로 설정됩니다.
 
 | 타임스탬프 | 영구 ID | 원래 계정 ID | 원래 개인 ID | 개인 ID 상승 |
 |--|--|---|---|---|

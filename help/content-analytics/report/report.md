@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 1365
-ht-degree: 48%
+source-wordcount: 1643
+ht-degree: 41%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 48%
 
 
 ## 템플릿
+
+Content Analytics에서는 프로젝트를 빠르게 만들 수 있도록 Workspace에 두 개의 프로젝트 템플릿을 제공합니다.
+
+### Content Analytics 템플릿
 
 Content Analytics [template](/help/analysis-workspace/templates/use-templates.md)을(를) 사용하여 가장 성과가 좋은 콘텐츠와 콘텐츠 특성을 알아볼 수 있습니다. 템플릿은 [웹 채널 및 참여 사용 사례](/help/analysis-workspace/templates/use-templates.md#web-engagement)의 일부이며 콘텐츠가 세부적으로 어떻게 성과를 내는지 자세히 설명합니다. 개별 자산 또는 특정 속성의 성과를 살펴볼 수 있습니다.
 
@@ -195,6 +199,21 @@ Content Analytics은 AI 및 GenAI를 사용하여 모든 에셋에 제목, 장�
 
     또한 [!UICONTROL 자산 인식 ID]를 [!UICONTROL 자산 ID]로 바꿔서 특정 이미지 URL이 참조되는 위치에 대한 기록을 얻을 수 있습니다.
 
+
+### 유료 미디어 Content Analytics 템플릿
+
+유료 미디어 Content Analytics [템플릿](/help/analysis-workspace/templates/use-templates.md)을(를) 사용하여 가장 성과가 좋은 유료 미디어 콘텐츠와 콘텐츠 특성을 확인할 수 있습니다. 템플릿은 [웹 채널 및 참여 사용 사례](/help/analysis-workspace/templates/use-templates.md#web-engagement)의 일부이며 유료 미디어 콘텐츠가 세분화된 수준에서 어떻게 작동하는지 이해하는 데 도움이 됩니다. 네트워크, 계정, 캠페인, 경험 및 에셋 전반에서 유료 미디어 도달, 참여, 지출 및 효율성을 검토할 수 있습니다. 이 패널의 지표 및 차원은 의도적으로 유료 미디어 자산 요약 그레인에 유지됩니다. 이 템플릿에 있는 패널의 요약 데이터 세트를 이벤트 데이터와 결합하지 마십시오.
+
+학습한 내용에 따라 유료 미디어 채널에 비용을 지출하거나, 성과가 낮은 캠페인에 더 많은 비용을 지출하거나, 성과가 높은 자산이 있는 캠페인에 더 많은 비용을 지출하는 방법에 초점을 맞추는 등 다양한 작업을 수행할 수 있습니다.
+
+템플릿 사용하려면:
+
+1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
+1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
+1. **[!UICONTROL 유료 미디어 Content Analytics]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여]**&#x200B;를 검색하거나 사용하십시오.
+1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
+
+**[!UICONTROL Content Analytics - 유료 미디어 요약 데이터]** 프로젝트가 [Analysis Workspace](/help/analysis-workspace/home.md)에서 열립니다. 프로젝트는 **[!UICONTROL 유료 미디어 성능]** [패널](/help/analysis-workspace/c-panels/panels.md), [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 및 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 구성됩니다. 패널을 사용하여 네트워크, 계정, 캠페인, 경험 및 에셋 전반에서 유료 미디어 도달, 참여, 지출 및 효율성을 검토할 수 있습니다. 패널의 지표 및 차원은 의도적으로 유료 미디어 에셋 요약 그레인에 머무릅니다. 요약 데이터 세트를 이벤트 데이터와 결합하지 마십시오.
 
 >[!MORELIKETHIS]
 >

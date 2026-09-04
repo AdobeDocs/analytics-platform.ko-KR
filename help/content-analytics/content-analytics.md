@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 55%
+source-wordcount: 1019
+ht-degree: 43%
 
 ---
 
@@ -48,7 +48,7 @@ Content Analytics는 점점 더 높은 수준의 가치를 제공합니다.
 
 1. 콘텐츠 **사용**: Content Analytics를 이용하면 어떤 자산이 노출되고 있는지, 그리고 자산이 어디에서 노출되고 있는지에 대한 인사이트를 얻을 수 있습니다. 이러한 통찰력을 통해 웹 및 모바일 속성에서 에셋이 과소 사용되는지 또는 과다 사용되는지를 확인할 수 있습니다.
 1. 콘텐츠 **참여**: Content Analytics는 특정 속성을 가진 자산에 대한 평균 클릭스루 비율과 같은 참여 인사이트를 제공할 수 있습니다. 이러한 인사이트는 특정 유형의 경험이 여전히 효과적인지 여부를 판단하는 데 도움이 됩니다.
-1. 컨텐츠 여정: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합될 때 컨텐츠 여정에 대한 추가 통찰력을 얻을 수 있습니다. 예를 들어 특정 컨텐츠가 참여 외에 전환으로 이어지는지 여부를 확인할 수 있습니다. 예를 들어 특정 콘텐츠가 참여 외에 전환으로 연결되는지 여부입니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
+1. 컨텐츠 **여정**: 또한 Experience Platform에서 사용할 수 있는 다른 모든 데이터와 결합되면 컨텐츠 여정에 대한 추가적인 통찰력을 얻을 수 있습니다. 예를 들어 특정 컨텐츠가 참여 외에 전환으로 이어지는지 여부를 확인할 수 있습니다. 예를 들어 특정 콘텐츠가 참여 외에 전환으로 연결되는지 여부입니다. 그리고 그 지식을 바탕으로 콘텐츠 유형에 대한 ROI를 결정할 수 있습니다.
 1. 콘텐츠 **개인화**: 궁극적으로 Content Analytics를 통해 인사이트에 따라 조치를 취하고 이러한 인사이트를 활용하여 콘텐츠에 비용을 어떻게 사용할지 결정할 수 있습니다. 예를 들어 특정 대상자에게 특정 유형의 콘텐츠를 보내야 합니까? 어떤 콘텐츠가 나에게 높은 개인화 기회를 제공합니까?
 
 ## 용어
@@ -63,13 +63,21 @@ Content Analytics에서는 다음과 같은 주요 용어를 사용합니다.
 
 ## 작동 방식
 
-Content Analytics은 Experience Platform 이벤트 데이터 세트의 웹 및 모바일 이미지 보기 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 모바일 SDK, 서버 API)를 사용하여 데이터를 수집해야 합니다. Web SDK, Mobile SDK 또는 Analytics Source Connector를 사용하여 동작 데이터를 수집할 수 있습니다.
+Content Analytics은 웹 및 모바일 이미지 보기 데이터와 Experience Platform 이벤트 데이터 세트의 유료 미디어 데이터를 사용하여 [컨텐츠 이벤트 데이터를 수집](config/datacollection.md)합니다. 이러한 컨텐츠 경험 이벤트를 사용하려면 Experience Platform Edge Network(웹 SDK, 모바일 SDK, 서버 API)를 통해 또는 Experience Platform 소스 커넥터를 통해 데이터를 수집해야 합니다.
 
-![Content Analytics - 작동 방식](assets/aca-overview-new.gif)
+* Web SDK, Mobile SDK 또는 Analytics Source Connector를 사용하여 동작 데이터를 수집할 수 있습니다.
+* 유료 미디어의 경우 사용 가능한 유료 미디어 소스 커넥터를 통해 Experience Platform에서 수집된 유료 미디어 이벤트 데이터 소스에서 경험 데이터가 재구성됩니다.
+
+![Content Analytics - 작동 방식](assets/aca-overview-new-paid-media.gif)
+
 
 1. 사용자가 사이트 또는 앱([Content Analytics용으로 구성됨](config/configuration.md))을 방문하면 Experience Platform 웹 또는 모바일 SDK은 노출 횟수 및 콘텐츠와의 상호 작용을 기록합니다.
-1. ID 및 기능 서비스는 이러한 상호 작용을 처리합니다. 해당 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전을 다시 방문하는 검색 서비스로 구성됩니다. 검색된 모든 URL에 대해 ID 서비스는 경험과 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험 및 에셋 메타데이터와 속성을 검색합니다.
-1. 이러한 서비스의 결과([구성 요소, 속성, ID](/help/content-analytics/report/components.md))는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
+유료 미디어 데이터는 소스 커넥터에서 매일 데이터 세트로 수집됩니다(예: Google 및 Meta). Content Analytics은 새롭고 기능화되지 않은 에셋 및 경험에 대해 [구성된 유료 미디어 데이터 세트](config/configuration.md)를 모니터링하고 광고 데이터 세트 메타데이터를 사용하여 experience HTML을 구성합니다. 해당 경험 HTML은 유료 미디어 경험으로 에셋 세부 사항과 결합됩니다.
+
+1. ID 및 기능 서비스는 이러한 상호 작용(웹 및 모바일에서) 및 경험(유료 미디어에서)을 처리합니다. 이 프로세스는 상호 작용을 정의하는 구성된 URL의 공개 버전 및 경험을 정의하는 HTML을 다시 방문하는 검색 서비스로 구성됩니다. 이렇게 검색된 모든 URL 및 HTML에 대해 ID 서비스는 경험 및 자산을 고유하게 식별합니다. 또한 기능 서비스는 AI/ML 서비스를 적용하여 경험 및 에셋 메타데이터와 속성을 검색합니다.
+
+1. ID 및 기능 서비스([구성 요소, 특성 및 ID](/help/content-analytics/report/components.md)) 결과는 Experience Platform에서 관련된 특정 Content Analytics 데이터 세트를 업데이트하는 데 사용됩니다.
+
 1. Content Analytics 설정([연결](/help/connections/overview.md), [데이터 보기](/help/data-views/data-views.md) 및 [Workspace](/help/analysis-workspace/home.md))에서 동작 데이터 및 기타 조회 데이터와 함께 Customer Journey Analytics 데이터를 사용할 수 있습니다. 해당 설정은 콘텐츠에 대한 고유한 매크로 수준 인사이트를 위한 기반을 제공합니다. <br/>Content Analytics 보고서와 분석은 [Content Analytics 템플릿](/help/content-analytics/report/report.md#template)을 사용하여 빠르게 시작할 수 있습니다.
 
 

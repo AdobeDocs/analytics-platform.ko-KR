@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 4186
-ht-degree: 65%
+source-wordcount: 4806
+ht-degree: 54%
 
 ---
 
@@ -77,7 +77,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 
 ## 가이드 구성 마법사
 
-안내식 구성 마법사는 네 개의 섹션([세부 정보](#details), [연결](#connection), [데이터 보기](#data-view), [채널](#channels))으로 구성되며, 각 섹션에는 Content Analytics을 올바르게 설정하고 구성하는 데 필요한 세부 정보를 묻는 메시지가 표시됩니다. 섹션의 일부 설정은 이전 섹션의 구성 값에 따라 달라질 수 있으므로 다음 섹션으로 이동하기 전에 각 섹션을 완료합니다.
+안내식 구성 마법사에는 [세부 정보](#details), [연결](#connection), [데이터 보기](#data-view) 및 [채널](#channels)의 네 개의 섹션이 포함됩니다. 각 섹션은 Content Analytics을 구성하는 데 필요한 세부 정보를 묻는 메시지를 표시합니다. 일부 설정은 이전 섹션의 구성 값에 따라 달라지므로 다음 섹션으로 이동하기 전에 각 섹션을 완료하십시오.
 
 ### 세부 사항 {#onboarding-details}
 
@@ -89,7 +89,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="세부 사항"
->abstract="이 안내서에서는 Content Analytics를 구성하는 데 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
+>abstract="이 안내서는 Content Analytics 구성을 위한 요구 사항을 설정합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,7 +99,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="연결"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics의 기존 연결을 선택합니다."
+>abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 연결을 선택합니다."
 
 각 구성에는 고유 이름이 필요합니다. 예, `Example Content Analytics configuration`. 해당 이름은 구성을 저장하거나 구현하는 데 필요합니다.
 
@@ -140,7 +140,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics의 기존 데이터 보기를 선택합니다."
+>abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -238,14 +238,16 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 ### 채널
 
-**[!UICONTROL 채널]** 섹션에서 Content Analytics에 사용할 채널을 선택합니다. **[!UICONTROL 모바일]**&#x200B;에서 **[!UICONTROL 웹]** 중 하나를 선택할 수 있습니다.
+**[!UICONTROL 채널]** 섹션에서 Content Analytics에 사용할 채널을 선택합니다. **[!UICONTROL 모바일]**, **[!UICONTROL 웹]** 및 **[!UICONTROL 유료 미디어]** 중에서 선택할 수 있습니다.
 
 * 아직 구성하지 않은 채널을 선택하려면 **[!UICONTROL 사용]**&#x200B;을 선택하세요.
 * 이미 구성되었지만 구성을 변경할 채널을 선택하려면 **[!UICONTROL 구성 편집]**&#x200B;을 선택하십시오.
 
-그런 다음 채널을 더 자세히 구성할 수 있습니다. 이 구성은 [mobile](#mobile) 또는 [web](#web) 채널에 대한 구성을 사용 및 구성하는지 또는 편집하는지에 따라 다릅니다.
+그런 다음 채널을 더 자세히 구성할 수 있습니다. 해당 구성은 [mobile](#mobile), [web](#web) 또는 [유료 미디어](#paid-media) 채널에 대한 구성을 사용 및 구성하는지 또는 편집하는지에 따라 다릅니다.
 
-#### 모바일 {#mobile}
+#### 모바일
+
++++ 세부 사항
 
 <!-- For updated ACA -->
 
@@ -281,7 +283,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 모바일 채널의 경우 [경험 캡처 및 정의](#experience-capture-and-definition), [데이터 수집](#data-collection) 및 [헤더 재정의](#header-overrides)를 구성할 수 있습니다.
 
-##### 경험 캡처 및 정의 {#mobile-experience-capture-and-definition}
+### 경험 캡처 및 정의 {#mobile-experience-capture-and-definition}
 
 이 섹션에서는 Content Analytics으로 수집하는 모바일 데이터에 경험을 포함하도록 선택할 수 있습니다.  모바일 채널의 경우 경험은 Content Analytics용 Adobe Experience Platform SDK을 사용하여 경험으로 등록한 것입니다.
 
@@ -289,7 +291,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 경험을 등록하고 경험 보기 및 경험 클릭을 추적하기 위해 모바일 앱을 계측한 경우에만 경험을 포함시키는 것을 고려하십시오.
 
-##### 데이터 수집 {#mobile-data-collection}
+### 데이터 수집 {#mobile-data-collection}
 
 데이터 수집 설정을 사용하면 Content Analytics에 대해 수집할 데이터(경험 위치, 에셋 위치, 에셋 URL)를 정의할 수 있습니다. 해당 데이터 수집의 일부로 개인 식별 정보를 수집하지 않도록 하십시오.
 
@@ -322,7 +324,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
   **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
-##### 헤더 재정의 {#mobile-header-overrides}
+### 헤더 재정의 {#mobile-header-overrides}
 
 <!-- needs modification for mobile channel -->
 
@@ -334,12 +336,15 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 1. **[!UICONTROL 헤더 이름]**&#x200B;을(를) 입력하십시오. (예: `x-asset-service`)
 1. **[!UICONTROL 헤더 값]**&#x200B;을(를) 입력하십시오. 지정하는 내용은 비밀이며 사용자 인터페이스에 표시되지 않습니다(입력 중에 ![가시성](/help/assets/icons/Visibility.svg)을(를) 공개하도록 명시적으로 선택하지 않은 경우).
 
-##### 저장 {#mobile-save}
+### 저장 {#mobile-save}
 
 모바일 채널을 구성했으면 **[!UICONTROL 저장]**&#x200B;을 선택하여 구성을 저장합니다. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
++++
 
 #### 웹 {#web}
+
++++ 세부 사항
 
 웹 채널의 경우 [경험 캡처 및 정의](#experience-capture-and-definition-1), [데이터 수집](#data-collection-1) 및 [헤더 재정의](#header-overrides-1)를 구성할 수 있습니다.
 
@@ -444,7 +449,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >abstract="Content Analytics를 위한 데이터를 수집할 때 **포함**&#x200B;하거나 **제외**&#x200B;할 에셋을 지정합니다. 개인 식별이 가능한 에셋을 제외해야 합니다."
 
 
-##### 경험 캡처 및 정의 {#web-experience-capture-and-definition}
+### 경험 캡처 및 정의 {#web-experience-capture-and-definition}
 
 이 섹션에서는 Content Analytics으로 수집하는 웹 데이터에 경험을 포함하도록 선택할 수 있습니다.  경험은 초기 사용자 방문의 URL을 사용하여 재현할 수 있는 웹 페이지의 모든 텍스트로 구성됩니다.
 
@@ -459,9 +464,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >
 >Content Analytics의 적용을 받는 경험(페이지)에 대한 변경 사항을 수집하도록 [Content Analytics 버전 관리](manual.md#versioning)를 구현하십시오.
 
-
-
-###### 새 구성 {#new-experiences-configuration}
+#### 새 구성 {#new-experiences-configuration}
 
 새 구성이나 구현되지 않은 구성에 경험을 포함하는 방법은 다음과 같습니다.
 
@@ -475,13 +478,13 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 1. 도메인 정규식과 쿼리 매개 변수의 조합을 추가하려면 **[!UICONTROL 정규식 추가]**&#x200B;를 선택하십시오.
 1. 페이지 콘텐츠에 영향을 주는 **[!UICONTROL 도메인 정규식]** 및 **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 조합을 정의하여 웹 사이트에서 콘텐츠가 렌더링되는 방식을 지정합니다.
-   1. **[!UICONTROL 도메인 정규 표현식]**&#x200B;을 입력합니다(예: `/^(?!.*\b(store|help|admin)\b)/`). `/`을 사용하여 정규 표현식을 이스케이프해야 합니다. 도메인 정규 표현식은 이러한 매개변수가 적용되는 URL을 나타냅니다. 예를 들어 여러 사이트가 있고 각 사이트마다 다른 매개변수가 콘텐츠를 결정할 수 있습니다. 쿼리 매개변수가 모든 페이지에 적용되는 경우 `.*`를 사용하여 모든 페이지를 나타낼 수 있습니다.
+   1. **[!UICONTROL 도메인 정규 표현식]**&#x200B;을 입력합니다(예: `/^(?!.*\b(store|help|admin)\b)/`). `/`을 사용하여 정규 표현식을 이스케이프해야 합니다. 도메인 정규 표현식은 이러한 매개변수가 적용되는 URL을 나타냅니다. 예를 들어 여러 사이트가 있고 서로 다른 매개 변수가 각 사이트에 대한 콘텐츠를 유도합니다. 쿼리 매개변수가 모든 페이지에 적용되는 경우 `.*`를 사용하여 모든 페이지를 나타낼 수 있습니다.
    1. **[!UICONTROL 쿼리 매개 변수]**&#x200B;의 쉼표로 구분된 목록을 지정하십시오(예: `outdoors, patio, kitchen`).
 1. 도메인 정규 표현식과 쿼리 매개변수의 조합을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 선택합니다.
 1. 정규 표현식과 쿼리 매개변수의 다른 조합을 추가하려면 **[!UICONTROL 정규 표현식 추가]**&#x200B;를 선택합니다.
 
 
-###### 구현된 구성 {#implemented-experiences-configuration}
+#### 구현된 구성 {#implemented-experiences-configuration}
 
 구현된 구성에서 기존 경험을 편집하거나 새 경험을 포함하려면 다음을 수행하십시오.
 
@@ -494,7 +497,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics의 경험에 대한 데이터 수집 구성을 더 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 선택하십시오. 현재 구성과 연결된 태그 속성의 [Adobe Content Analytics 확장 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)으로 리디렉션됩니다.
 
-##### 데이터 수집 {#web-data-collection}
+### 데이터 수집 {#web-data-collection}
 
 데이터 수집 설정을 사용하면 Content Analytics에 대해 수집할 데이터(페이지, 에셋)를 정의할 수 있습니다. 해당 데이터 수집의 일부로 개인 식별 정보를 수집하지 마십시오.
 
@@ -514,7 +517,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
     1. **[!UICONTROL 태그 이름]**&#x200B;을 지정합니다(예: `ACA Test for Documentation`).
     1. **[!UICONTROL 도메인]**&#x200B;을 지정합니다(예: `example.com`).
 
-    [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널에 대한 태그 독립적인 구현을 만들려면 새 태그 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
+    [Content Analytics JavaScript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널에 대해 Tags 관련 구현을 만들려면 새 Tags 속성을 사용하십시오. Tags 속성이 만들어지지만 불가지론적 구현에서는 이 속성을 사용하지 않습니다. 그러나 불가지론적 구현은 안내가 있는 구성 마법사를 한 번 이상 실행해야 합니다.
 
 * Content Analytics용 데이터를 수집할 때 포함하거나 제외할 페이지를 지정합니다. 개인 식별이 가능한 페이지를 제외해야 합니다.
 
@@ -525,7 +528,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
   **[!UICONTROL 포함/제외]**&#x200B;할 자산에 대해 **[!UICONTROL 정규식 문자열]**&#x200B;을 지정하십시오. <br/>예를 들어 `^(?!.*(logo\.jpg)).*$`를 지정하여 Content Analytics에서 모든 로고 JPEG 이미지를 제외할 수 있습니다.
 
 
-##### 헤더 재정의 {#web-header-overrides}
+### 헤더 재정의 {#web-header-overrides}
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_boldheader"
@@ -548,22 +551,162 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 1. **[!UICONTROL 헤더 값]**&#x200B;을(를) 입력하십시오. 지정하는 내용은 비밀이며 사용자 인터페이스에 표시되지 않습니다(입력 중에 ![가시성](/help/assets/icons/Visibility.svg)을(를) 공개하도록 명시적으로 선택하지 않은 경우).
 
 
+
+
+### 저장 {#web-save}
+
+웹 채널에 대한 세부 정보를 지정한 후 **[!UICONTROL 저장]**&#x200B;을 선택하여 구성을 저장합니다. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+
++++
+
+#### 유료 미디어 {#paid-media}
+
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="소스 커넥터 없음"
 >abstract="유료 미디어의 경우 광고 게시자를 위한 Experience Platform 소스 커넥터가 필요합니다. 이 샌드박스에서 사용할 수 있는 Google 광고 또는 Meta 광고 커넥터가 없습니다. **[!UICONTROL Experience Platform]** > **[!UICONTROL 소스]** 인터페이스에서 이들 커넥터 중 하나 이상을 구성하고 이 단계로 돌아와 Content Analytics 유료 미디어에 대한 구성을 계속 진행합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/ads" text="Google 광고 소스"
 
-##### 저장 {#web-save}
++++ 세부 사항
 
-웹 채널에 대한 세부 정보를 지정한 후 **[!UICONTROL 저장]**&#x200B;을 선택하여 구성을 저장합니다. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+>[!NOTE]
+>
+>유료 미디어 채널은 AWS의 Customer Journey Analytics 및 Experience Platform 배포에 사용할 수 없습니다.
 
+
+유료 미디어 채널의 경우 구성된 샌드박스에서 연결된 지원되는 모든 [광고 플랫폼](#paidmedia-adplatforms)이(가) 자동으로 Content Analytics에 포함됩니다.
+
+### 광고 플랫폼 {#paidmedia-adplatforms}
+
+유료 미디어를 사용하려면 광고 게시자에 대한 Experience Platform 소스 커넥터 구성이 필요합니다.
+
+**[!UICONTROL 지원되는 소스 커넥터를 찾을 수 없음]**&#x200B;이 표시되면 구성된 샌드박스에서 사용 가능한 광고 플랫폼에 대해 소스 커넥터를 구성하지 않은 것입니다.
+
+![구성된 소스 커넥터가 없습니다](/help/content-analytics/assets/aca-paid-media-no-source-connectors.png)
+
+광고 플랫폼에 대한 소스 커넥터를 구성하려면 **[!UICONTROL AEP 소스로 이동]**&#x200B;을 선택하십시오. Experience Platform의 **[!UICONTROL 소스]** 인터페이스로 리디렉션되었습니다.
+
+Google 광고 및 Meta 광고 소스 커넥터를 구성하는 방법에 대한 예는 아래를 참조하십시오.
+
+>[!BEGINTABS]
+
+>[!TAB Google 광고]
+
+1. Experience Platform > **[!UICONTROL 소스]**&#x200B;에서 **[!UICONTROL Google 광고]** 카드의 **[!UICONTROL 설정]**&#x200B;을(를) 선택하여 설정 마법사를 시작합니다.
+
+   >[!WARNING]
+   >
+   >**Google 광고(베타)** 카드에서 **[!UICONTROL 설치]**&#x200B;를 사용하지 마십시오.
+
+
+1. 마법사의 ➊ **[!UICONTROL 인증]** 단계에서 **[!UICONTROL 새 계정]**&#x200B;을 선택하고 **[!UICONTROL 계정 이름]**&#x200B;을 입력합니다.
+
+   ![Google Ads 소스 커넥터 인증 단계 1](../assets/paid-media-google-authentication-1.png)
+
+1. **[!UICONTROL Google으로 로그인]** 대화 상자에서 Google Ads Manager 계정 및 Google Ads 계정을 보유한 계정을 선택합니다.
+
+   ![Google Ads 소스 커넥터 인증 단계 2](../assets/paid-media-google-authentication-2.png)
+
+1. 암호 키 또는 기타 인증 메커니즘을 사용하여 자격 증명을 확인합니다.
+
+   ![Google Ads 소스 커넥터 인증 단계 3](../assets/paid-media-google-authentication-3.png)
+
+1. 대화 상자에서 **[!UICONTROL 계속]**&#x200B;을 선택합니다. **[!UICONTROL Adobe Experience Platform이 Google 계정에 액세스하려고 합니다]**.
+
+   ![Google Ads 소스 커넥터 인증 단계 4](../assets/paid-media-google-authentication-4.png)
+
+1. 인증에 성공하면 마법사의 ➊ **[!UICONTROL 인증]** 단계에 ![CheckmarkCircle](/help/assets/icons2/CheckmarkCircle.svg) **[!UICONTROL 연결됨]**&#x200B;이 표시됩니다.
+
+   ![Google Ads 소스 커넥터 인증 단계 5](../assets/paid-media-google-authentication-5.png)
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. 마법사의 ➋ **[!UICONTROL 데이터 흐름 세부 정보]** 단계에서 **[!UICONTROL 데이터 흐름]** 이름을 입력하십시오. 경고를 구독하는 옵션을 선택할 수도 있습니다.
+
+   ![Google Ads 소스 커넥터 데이터 흐름 세부 정보](../assets/paid-media-google-dataflow-1.png)
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. 마법사의 ➌ **[!UICONTROL 검토]** 단계에서 소스 커넥터 세부 사항을 검토하십시오.
+
+   ![Google Ads 소스 커넥터 검토](../assets/paid-media-google-review-1.png)
+
+   **[!UICONTROL 마침]**&#x200B;을 선택합니다.
+
+1. 성공적으로 구성된 Google 소스 커넥터의 세부 정보가 표시됩니다.
+
+   ![Google 광고 소스 커넥터 최종](../assets/paid-media-google-final.png)
+
+
+>[!TAB Meta 광고]
+
+1. Experience Platform > **[!UICONTROL 소스]**&#x200B;에서 **[!UICONTROL Meta 광고]** 카드의 **[!UICONTROL 설정]**&#x200B;을(를) 선택하여 설정 마법사를 시작합니다.
+
+1. 마법사의 ➊ **[!UICONTROL 인증]** 단계에서 **[!UICONTROL 새 계정]**&#x200B;을 선택하고 **[!UICONTROL 계정 이름]**&#x200B;을 입력합니다.
+
+   ![Meta Ads 소스 커넥터 인증 단계 1](../assets/paid-media-meta-authentication-1.png)
+
+1. Ads Manager를 구성한 Facebook 계정에 로그인합니다. 이미 로그인한 경우 로그인한 사용자로 대화 상자가 표시됩니다.
+
+   ![Meta Ads 소스 커넥터 인증 단계 2](../assets/paid-media-meta-authentication-2.png)
+
+1. 인증에 성공하면 마법사의 ➊ **[!UICONTROL 인증]** 단계에 ![CheckmarkCircle](/help/assets/icons2/CheckmarkCircle.svg) **[!UICONTROL 연결됨]**&#x200B;이 표시됩니다.
+
+   ![Meta Ads 소스 커넥터 인증 단계 3](../assets/paid-media-meta-authentication-3.png)
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. 마법사의 ➋ **[!UICONTROL 계정 선택]** 단계에서 구성할 계정을 선택합니다.
+
+   ![Meta Ads 소스 커넥터 계정 선택](paid-media-meta-select-account.png)
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. 마법사의 ➌ **[!UICONTROL 데이터 흐름 세부 정보]** 단계에서 **[!UICONTROL 데이터 흐름]** 이름을 입력하십시오. 경고를 구독하는 옵션을 선택할 수도 있습니다.
+
+   ![Meta Ads 소스 커넥터 데이터 흐름](../assets/paid-media-meta-dataflow-1.png)
+
+   **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+
+1. 마법사의 ➍ **[!UICONTROL 검토]** 단계에서 소스 커넥터 세부 사항을 검토하십시오.
+
+   ![Meta Ads 소스 커넥터 검토](../assets/paid-media-meta-review-1.png)
+
+1. 성공적으로 구성된 Google 소스 커넥터의 세부 정보가 표시됩니다.
+
+   ![Meta 광고 소스 커넥터 최종](../assets/paid-media-meta-final.png)
+
+>[!ENDTABS]
+
+유료 미디어 채널에 대해 지원되는 소스 커넥터에 대한 자세한 내용은 [Source 커넥터 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 참조하십시오.
+
+Experience Platform에서 소스 커넥터를 구성한 후 ![새로 고침](/help/assets/icons/Refresh.svg) **[!UICONTROL 새로 고침]**&#x200B;을 선택하여 소스 커넥터 목록을 업데이트합니다.
+
+사용 가능한 광고 플랫폼 목록과 이러한 플랫폼 중 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **연결됨** 및 ![StatusGray](/help/assets/icons/StatusGray.svg) **구성되지 않음**&#x200B;인 플랫폼이 표시됩니다.
+
+![Google 커넥터 구성됨](/help/content-analytics/assets/aca-paid-media-google-source-connectors.png)
+
+
+### 데이터 비헤이비어 {#paidmedia-databehavior}
+
+**[!UICONTROL 저장]**&#x200B;을 선택하면 Content Analytics에서 자동으로 다음 작업을 수행합니다.
+
+* 이 샌드박스에 연결된 모든 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
+* 선택된 모든 데이터 보기에서 유료 미디어 차원 및 지표를 활성화합니다.
+* Workspace 보고서에서 필터링 가능한 차원으로 유료 미디어 채널을 표면화합니다.
+
+### 저장 {#paidmedia-save}
+
+**[!UICONTROL 유료 미디어]** 구성을 저장하려면 **[!UICONTROL 저장]**&#x200B;을(를) 선택하십시오.
+
+
++++
 
 ### 요약 {#summary}
 
 필요한 모든 세부 정보를 제공하면 요약을 통해 생성되거나 수정된 아티팩트에 대한 세부 정보가 제공됩니다.
 
-* 새 구성을 구현하면 **[!UICONTROL Content Analytics에 대한 _구성 이름_을 구현할 준비가 거의 되었습니다]** 요약이 표시됩니다.
+* 새 구성을 구현할 때 **[!UICONTROL Content Analytics에 대한 _구성 이름_을 구현할 준비가 되었습니다]** 요약이 표시됩니다.
 
 * 기존에 구현된 구성의 경우 **[!UICONTROL Content Analytics에 대한 _구성 이름_을 구현했습니다]** 요약이 표시됩니다.
 
@@ -579,7 +722,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 구성을 생성하거나 편집할 때 다음과 같은 옵션이 있습니다.
 
 * **[!UICONTROL 삭제]**: 구성의 일부로 적용된 모든 변경 사항이 삭제됩니다.
-* **[!UICONTROL 나중을 위해 저장]**: 구성에 대한 변경 사항이 저장됩니다. 나중에 구성을 다시 방문하여 추가로 변경하거나 구성을 구현할 수 있습니다. 구성을 저장하려면 [!UICONTROL 이름] 값만 필요합니다.
+* **[!UICONTROL 나중을 위해 저장]**: 구성에 대한 변경 사항이 저장됩니다. 구성을 추가로 변경하거나 구현하려면 나중에 다시 방문하십시오. 구성을 저장하려면 [!UICONTROL 이름] 값만 필요합니다.
 * **[!UICONTROL 구현]**: 구성에 대한 설정 또는 변경 사항이 저장되고 구현됩니다. ![필수](/help/assets/icons/Required.svg)(으)로 표시된 모든 필드에는 적절한 값이 있어야 합니다. 구현은 다음으로 구성됩니다.
 
   * **[!UICONTROL Customer Journey Analytics]** 구성:

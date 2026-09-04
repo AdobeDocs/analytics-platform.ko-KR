@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 56%
@@ -38,8 +38,8 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 * [자산 메타데이터](#asset-metadata)
 * [자산 속성](#asset-attributes)
 * [자산 이벤트](#asset-events)
-* [유료 미디어](#paid-media)
 * [계산된 지표](#calculated-metrics)
+* [유료 미디어](#paid-media)
 
 아래 테이블에서 ![AI 생성](/help/assets/icons/AI.svg)은 AI/ML에서 생성된 속성/값 쌍을 나타냅니다.
 
@@ -158,11 +158,23 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 {style="table-layout:fixed"}
 -->
 
+
+## 계산된 지표
+
+| 제목 | 설명 | 유형 |
+|---|---|---|
+| 자산 클릭률 | 에셋 클릭수/에셋 조회수 | 계산된 지표 |
+| 경험 클릭스루 비율 | 경험 클릭수/경험 조회수 | 계산된 지표 |
+
+{style="table-layout:fixed"}
+
+
+
 ## 유료 미디어
 
 이러한 구성 요소는 [Adobe Experience Platform 유료 미디어 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 통해 **유료 미디어** 채널이 활성화되면 데이터 보기에 추가됩니다(예: Meta 광고 또는 Google 광고). 이를 통해 유료 미디어 엔티티에 대해 보고하고, 창의적이고, 웹 및 모바일 콘텐츠와 함께 사용할 수 있습니다.
 
-위에서 설명한 AI 생성 **자산 특성** 및 **경험 특성**&#x200B;도 유료 미디어 크리에이티브에 사용할 수 있습니다. 웹, 모바일 및 유료 미디어 채널에서도 동일한 기능이 실행됩니다.
+위에서 설명한 AI 생성 [자산 특성](#asset-attributes) 및 [경험 특성](#experience-attributes)도 유료 미디어 크리에이티브에 사용할 수 있습니다. 웹, 모바일 및 유료 미디어 채널에서 동일한 기능이 실행됩니다.
 
 ### 유료 미디어 차원
 
@@ -266,14 +278,3 @@ Content Analytics는 Customer Journey Analytics에서 이미 사용 가능한 �
 | 평균 주문 가격 | 총 주문 가격을 구매로 나눈 값입니다. | 계산된 지표 |
 
 {style="table-layout:fixed"}
-
-
-## 계산된 지표
-
-| 제목 | 설명 | 유형 |
-|---|---|---|
-| 자산 클릭률 | 에셋 클릭수/에셋 조회수 | 계산된 지표 |
-| 경험 클릭스루 비율 | 경험 클릭수/경험 조회수 | 계산된 지표 |
-
-{style="table-layout:fixed"}
-
