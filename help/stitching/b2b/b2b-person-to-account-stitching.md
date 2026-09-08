@@ -6,23 +6,15 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
 workflow-type: tm+mt
 source-wordcount: 2230
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -157,7 +149,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="개인 식별자 네임스페이스"
->abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 연결]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서 영구 개인 ID가 이 개인 식별자 네임스페이스로 승격되었습니다."
+>abstract="보고를 위해 가장 관련성이 높은 개인 ID 네임스페이스를 선택합니다. 예를 들면 이메일이 있습니다. **[!UICONTROL 개인 대 계정 결합]**&#x200B;이 활성화된 모든 이벤트 데이터 세트에서는 영구 개인 ID가 이 개인 식별자 네임스페이스로 승격됩니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -172,7 +164,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="계정 ID"
->abstract="고유한 계정 ID 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 **[!UICONTROL 개인-계정 결합]**&#x200B;이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다."
+>abstract="고유한 계정 식별자 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 **[!UICONTROL 개인-계정 결합]**&#x200B;이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -214,7 +206,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
       |---|:---:|---|
       | **[!UICONTROL 계정에 대한 개인 데이터 세트]** | ![필수](/help/assets/icons/Required.svg) | 개인을 계정에 매핑하는 조회(레코드 또는 비시계열 데이터 세트)를 선택합니다. |
       | **[!UICONTROL 개인 ID]** | ![필수](/help/assets/icons/Required.svg) | 개인 ID가 포함된 데이터 세트에서 필드를 선택합니다. 이 필드의 네임스페이스는 선택한 개인 ID 네임스페이스와 다르거나 동일할 수 있습니다. 서로 다른 경우에는 ID 그래프에서 두 네임스페이스를 연결해야 합니다.  해당 필드는 ID로 표시되어야 하며 **[!UICONTROL 계정 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
-      | **[!UICONTROL 계정 ID]** | ![필수](/help/assets/icons/Required.svg) | 고유한 계정 ID 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 개인-계정 결합이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다. 해당 필드는 **[!UICONTROL 개인 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
+      | **[!UICONTROL 계정 ID]** | ![필수](/help/assets/icons/Required.svg) | 고유한 계정 식별자 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 개인-계정 결합이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다. 해당 필드는 **[!UICONTROL 개인 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
       | **매핑 생성 시간** | | 선택적으로, 개인-계정 매핑이 만들어진 날짜 및 시간을 나타내는 필드를 선택할 수 있습니다. 시간 경과에 따라 사용자가 여러 계정 간에 전환하는 경우에 유용합니다.<br/><br/>**예**(**update_date** 필드를 선택한 경우):<table><thead><tr><th>update_date</th><th>사람</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>2026년 5월 1일 이전의 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Apple에 매핑됩니다.</li><li>2026년 5월 1일 또는 그 이후에 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Adobe에 매핑됩니다.</li></ul>매핑 시간이 지정되지 않으면 사전 편집된 첫 번째 계정이 사용됩니다. 두 개의 다른 계정 이름에 정확히 동일한 **[!UICONTROL update_date]** 값이 있고 매핑 생성 시간이 지정된 경우에도 동일한 알고리즘이 사용됩니다. |
 
       >[!NOTE]
@@ -232,7 +224,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="개인-계정 결합 활성화"
 >abstract="활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용합니다. **[!UICONTROL 영구 개인 ID]** 값은 구성된 **[!UICONTROL 개인 식별자 네임스페이스]**&#x200B;의 값으로 상승된 다음 개인을 기반으로 계정 데이터 세트를 조회하는 데 사용됩니다.<br/>비활성화된 경우 이 데이터 세트는 B2B 개인-계정 결합을 사용하지 않으며, 대신 필요한 **[!UICONTROL 계정 ID]**&#x200B;를 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="계정 연결 설정에 대한 B2B 개인 구성"
 
 연결 수준에서 B2B 결합을 구성한 후에는 B2B 사람이 결합할 각 이벤트 데이터 세트에 대해 개별적으로 계정 결합을 활성화할 수 있어야 합니다.
 
@@ -246,10 +238,10 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 
 **[!UICONTROL 개인 계정 연결 활성화]**&#x200B;가 **on**&#x200B;인 경우 데이터 집합에 대한 연결을 계산하도록 B2B 개인을 구성했습니다.
 
-* 개인 ID 구성이 필요합니다. 해당 개인 ID는 계정 데이터 세트 [&#128279;](#prerequisites)에 대한 개인을 기반으로 계정 ID를 조회하는 데 사용됩니다.
+* 개인 ID 구성이 필요합니다. 해당 개인 ID는 계정 데이터 세트 ](#prerequisites)에 대한 [개인을 기반으로 계정 ID를 조회하는 데 사용됩니다.
 * 계정 ID 구성은 선택 사항입니다.
 
-![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 B2B 사람
+](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 ![B2B 사람
 
 >[!TAB 해제]
 

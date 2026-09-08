@@ -5,23 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 20%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="병합 정책"
->abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 통합 고객 프로필로 결합하여 대상자 생성에 사용합니다. 보고할 동의 정책 구성원 자격 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 집합에 해당하는 병합 정책을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
+>abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 대상자 생성에 사용되는 통합 고객 프로필로 결합합니다. 보고하려는 동의 정책 멤버십 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 세트에 해당하는 병합 정책을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +60,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
 >title="보고 활성화"
->abstract="Analysis Workspace을 사용하여 연결에서 사용할 수 있는 동의 데이터에 대해 보고하려면 이 옵션을 활성화합니다. 동의 정책 차원 및 지표가 선택한 데이터 보기에 추가됩니다."
+>abstract="Analysis Workspace을 사용하여 연결에서 사용 가능한 동의 데이터에 대해 보고하려면 이 옵션을 활성화합니다. 동의 정책 차원 및 지표가 선택한 데이터 보기에 추가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +69,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
 >title="필터링 활성화"
->abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화하십시오. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
+>abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화합니다. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
 
 <!-- markdownlint-enable MD034 -->
 
