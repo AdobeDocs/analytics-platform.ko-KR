@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 20%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="병합 정책"
->abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 통합 고객 프로필로 결합하여 대상자 생성에 사용합니다. 보고할 동의 정책 구성원 자격 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 집합에 해당하는 병합 정책을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
+>abstract="병합 정책은 여러 데이터 세트의 프로필 데이터를 대상자 생성에 사용되는 통합 고객 프로필로 결합합니다. 보고하려는 동의 정책 멤버십 데이터(`consentPoliciesIDMap` 필드)가 포함된 프로필 데이터 세트에 해당하는 병합 정책을 선택합니다. 또는 데이터 팀과 상의하여 각 병합 정책과 연결된 대상자를 확인하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +68,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
 >title="보고 활성화"
->abstract="Analysis Workspace을 사용하여 연결에서 사용할 수 있는 동의 데이터에 대해 보고하려면 이 옵션을 활성화합니다. 동의 정책 차원 및 지표가 선택한 데이터 보기에 추가됩니다."
+>abstract="Analysis Workspace을 사용하여 연결에서 사용 가능한 동의 데이터에 대해 보고하려면 이 옵션을 활성화합니다. 동의 정책 차원 및 지표가 선택한 데이터 보기에 추가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +77,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
 >title="필터링 활성화"
->abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화하십시오. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
+>abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화합니다. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
 
 <!-- markdownlint-enable MD034 -->
 

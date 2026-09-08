@@ -476,7 +476,7 @@ Customer Journey Analytics에서 연결을 제거하려면 다음과 같은 작�
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
->title="과거  비즈니스 프로필 보고 가능 행"
+>title="과거 비즈니스 프로필 보고 가능 행"
 >abstract="과거 비즈니스 프로필 보고 가능 행은 집계된 합계가 아닌 스냅샷 값입니다. 이러한 값은 선택한 날짜 범위의 마지막 달을 기준으로 동적으로 업데이트됩니다. 값은 선택된 달의 스냅샷을 반영합니다."
 
 >[!CONTEXTUALHELP]
