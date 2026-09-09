@@ -5,31 +5,23 @@ feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
 TQID: https://experienceleague.adobe.com/7Q8q-e58PrmANht9DpOXuNFImYC48ELhrXPRhBG6gYQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 34593a4407e6334e9abab6034accd84fc5a70d33
 workflow-type: tm+mt
-source-wordcount: 410
-ht-degree: 44%
+source-wordcount: 452
+ht-degree: 40%
 
 ---
 
 # Target 보고
 
-Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 Adobe Target 활동을 측정하고 보고할 수 있습니다. 이 기능은 Analytics for Target(A4T)을 통해 Adobe Analytics(AA)에서 수행되는 것과 비슷하지만 Adobe Experience Platform(AEP)에 대한 연결을 통해 수행됩니다.
+Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Analytics에서 직접 Adobe Target 활동을 측정하고 보고할 수 있습니다. 이 기능은 Analytics for Target(A4T)을 통해 Adobe Analytics(AA)에서 수행되는 것과 비슷하지만 Adobe Experience Platform(AEP)에 대한 연결로 수행됩니다. Customer Journey Analytics을 보고 소스로 사용하는 Target 활동을 만들면 해당 샌드박스에 Adobe Target 분류 이벤트라는 조회 데이터 세트가 생성됩니다. 이 조회 데이터 세트는 Target 활동 ID를 사용자에게 친숙한 속성(예: 활동 이름 및 경험 이름)으로 분류하여 보고를 강화합니다.
 
-이제 Experience Platform에서 기본적으로 사용할 수 있는 Target 분류 조회 데이터 세트를 Customer Journey Analytics 연결에 추가하여 사용자가 Target 보고 도구, Target 주문 속성 및 기타 기능에 적절히 노출할 수 있습니다. Customer Journey Analytics 데이터 보기 내에서 약간의 준비와 조정만 수행하면 Target 데이터를 CJA으로 직접 전송하려는 모든 사용자가 이러한 활동을 즉시 사용할 수 있습니다.
+이 조회 데이터 세트를 Customer Journey Analytics 연결에 추가하면 사용자는 이제 Target 보고 도구, Target 주문 속성 및 기타 기능에 적절히 노출될 수 있습니다. Customer Journey Analytics 데이터 보기 내에서 약간의 준비와 조정만 수행하면 Target 데이터를 Customer Journey Analytics으로 직접 전송하려는 모든 사용자가 이러한 활동을 즉시 사용할 수 있습니다.
 
 ## 주요 이점
 
@@ -41,7 +33,7 @@ Customer Journey Analytics의 Target 보고를 사용하면 Customer Journey Ana
 
 Target 활동에서는 [보고 소스로 Customer Journey Analytics을 사용](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja)해야 합니다.
 
-Target 분류 이벤트 데이터 세트가 연결에 추가되면 이들 구성 요소가 차원으로 추가되면 데이터 보기 내에서 다음과 같은 몇 가지 사소한 조정을 수행할 수 있습니다.
+Adobe Target 분류 이벤트 조회 데이터 세트가 연결에 추가되면 다음 구성 요소를 차원으로 추가한 후 데이터 보기 내에서 몇 가지 사소한 조정이 있습니다.
 
 * 지속성을 Target에서 추적하는 방식과 유사하게 설정합니다(적절한 설정이 있는지 Target 컨설턴트 또는 고객에게 확인).
 
