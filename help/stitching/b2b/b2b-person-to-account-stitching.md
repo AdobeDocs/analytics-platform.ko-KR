@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
+source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
 workflow-type: tm+mt
-source-wordcount: 2268
+source-wordcount: 2270
 ht-degree: 21%
 
 ---
@@ -213,8 +213,8 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
       | 필드 | 필수 여부 | 설명 |
       |---|:---:|---|
       | **[!UICONTROL 계정에 대한 개인 데이터 세트]** | ![필수](/help/assets/icons/Required.svg) | 개인을 계정에 매핑하는 조회(레코드 또는 비시계열 데이터 세트)를 선택합니다. |
-      | **[!UICONTROL 개인 ID]** | ![필수](/help/assets/icons/Required.svg) | 개인 ID가 포함된 데이터 세트에서 필드를 선택합니다. 이 필드의 네임스페이스는 선택한 개인 ID 네임스페이스와 다르거나 동일할 수 있습니다. 서로 다른 경우에는 ID 그래프에서 두 네임스페이스를 연결해야 합니다.  해당 필드는 ID로 표시되어야 하며 **[!UICONTROL 계정 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
-      | **[!UICONTROL 계정 ID]** | ![필수](/help/assets/icons/Required.svg) | 고유한 계정 식별자 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 개인-계정 결합이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다. 해당 필드는 **[!UICONTROL 개인 ID]** 필드 또는 **[!UICONTROL 시작 시간]** 필드와 같을 수 없습니다. |
+      | **[!UICONTROL 개인 ID]** | ![필수](/help/assets/icons/Required.svg) | 개인 ID가 포함된 데이터 세트에서 필드를 선택합니다. 이 필드의 네임스페이스는 선택한 개인 ID 네임스페이스와 다르거나 동일할 수 있습니다. 서로 다른 경우에는 ID 그래프에서 두 네임스페이스를 연결해야 합니다.  해당 필드는 ID로 표시되어야 하며 **[!UICONTROL 계정 ID]** 필드 또는 **[!UICONTROL 매핑 생성 시간]** 필드와 같을 수 없습니다. |
+      | **[!UICONTROL 계정 ID]** | ![필수](/help/assets/icons/Required.svg) | 고유한 계정 식별자 값이 포함된 데이터 세트에서 필드를 선택합니다. 계정 ID 정보는 개인-계정 결합이 활성화된 이벤트 데이터 세트의 행에서 사용할 수 있습니다. 해당 필드는 **[!UICONTROL 개인 ID]** 필드 또는 **[!UICONTROL 매핑 생성 시간]** 필드와 같을 수 없습니다. |
       | **매핑 생성 시간** | | 선택적으로, 개인-계정 매핑이 만들어진 날짜 및 시간을 나타내는 필드를 선택할 수 있습니다. 시간 경과에 따라 사용자가 여러 계정 간에 전환하는 경우에 유용합니다.<br/><br/>**예**(**update_date** 필드를 선택한 경우):<table><thead><tr><th>update_date</th><th>사람</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>2026년 5월 1일 이전의 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Apple에 매핑됩니다.</li><li>2026년 5월 1일 또는 그 이후에 **[!UICONTROL update_date]** 필드에 타임스탬프가 있는 모든 이벤트의 경우 a@b.com이 Adobe에 매핑됩니다.</li></ul>매핑 시간이 지정되지 않으면 사전 편집된 첫 번째 계정이 사용됩니다. 두 개의 다른 계정 이름에 정확히 동일한 **[!UICONTROL update_date]** 값이 있고 매핑 생성 시간이 지정된 경우에도 동일한 알고리즘이 사용됩니다. |
 
       >[!NOTE]
