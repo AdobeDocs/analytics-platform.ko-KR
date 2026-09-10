@@ -3,9 +3,9 @@ title: 브랜드 가시성 통합
 description: Customer Journey Analytics과 브랜드 가시성 통합
 feature: Experience Platform Integration
 role: User
-source-git-commit: e90a8d978f8d910f426dcb0fbf28881724d0f5a7
+source-git-commit: ab73c95a3ff0d57a4868d74266084a79c4c3721d
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2572'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 브랜드 가시성 관리 커넥터는 데이터를 요약 데이터 세트로 Experience Platform에 전달합니다. Customer Journey Analytics에서 측정하려면 두 가지 설정 단계를 직접 완료합니다.
 
 1. 브랜드 가시성 데이터 세트를 포함하는 연결을 만듭니다. [연결 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}을 참조하세요.
-2. 해당 연결에 대한 데이터 보기를 만듭니다. 데이터 보기를 통해 Analysis Workspace에서 아래의 차원 및 지표를 사용할 수 있습니다. [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}을 참조하세요.
+2. 해당 연결에 대한 데이터 보기를 만듭니다. 데이터 보기를 통해 Analysis Workspace에서 아래의 차원 및 지표를 사용할 수 있습니다. [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}을 참조하세요.
 
 데이터 세트:
 
@@ -178,4 +178,4 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 
 ## 아웃바운드 통합
 
-결정될 예정입니다.
+아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.
