@@ -3,9 +3,9 @@ title: 브랜드 가시성 통합
 description: Customer Journey Analytics과 브랜드 가시성 통합
 feature: Experience Platform Integration
 role: User
-source-git-commit: e90a8d978f8d910f426dcb0fbf28881724d0f5a7
+source-git-commit: ab73c95a3ff0d57a4868d74266084a79c4c3721d
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2572'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,4 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 
 ## 아웃바운드 통합
 
-결정될 예정입니다.
+아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.
