@@ -7,17 +7,11 @@ exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 autotag-review: '2026-05-19T08:57:43.886Z'
 TQID: 'https://experienceleague.adobe.com/79GGBxPwVb2uQytFBwgAP2QTd57VbjXuwQqq4oKGGUY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 535
@@ -63,7 +57,7 @@ Customer Journey Analytics에서 사람들이 디지털 경험과 상호 작용�
 
    1. **[!UICONTROL 지표를 사용하여 새 세션 시작]** 드롭다운 메뉴에서 지표를 선택합니다. 또는 **[!UICONTROL _여기에 지표 놓기_]**&#x200B;의 왼쪽 창에 있는 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**&#x200B;에서 지표를 끌어서 놓을 수 있습니다. 선택한 지표는 새 세션의 시작을 정의합니다. 지표를 여러 개 정의할 수 있습니다.
 
-      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 앱을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서 **[!UICONTROL appInteraction]** **[!UICONTROL 이름]** 스키마 필드를 기반으로 하는 **[!UICONTROL Launch]**(이)라는 유형 지표의 구성 요소를 정의합니다. 값이 `launch`와(과) 일치하는 경우에만 값을 계산하도록 **[!UICONTROL Launch]** 지표 구성 요소를 추가로 지정합니다.
+      모든 종류의 지표를 사용하여 새 세션을 정의할 수 있습니다. 예를 들어 프로필이 모바일 애플리케이션을 시작할 때마다 새 세션을 정의한다고 가정해 보십시오. **[!UICONTROL 데이터 보기]** > **[!UICONTROL 구성 요소]**&#x200B;에서 **[!UICONTROL appInteraction]** **[!UICONTROL 이름]** 스키마 필드를 기반으로 하는 **[!UICONTROL Launch]**(이)라는 유형 지표의 구성 요소를 정의합니다. 값이 `launch`와(과) 일치하는 경우에만 값을 계산하도록 **[!UICONTROL Launch]** 지표 구성 요소를 추가로 지정합니다.
 
       ![앱 인터랙션 지표 구성 요소 론치](assets/component-launches.png)
 

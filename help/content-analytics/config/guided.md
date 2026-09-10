@@ -7,28 +7,15 @@ role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 autotag-review: '2026-05-19T08:54:42.845Z'
 TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 4806
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -89,7 +76,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="세부 사항"
->abstract="이 안내서는 Content Analytics 구성을 위한 요구 사항을 설정합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
+>abstract="이 안내서에서는 Content Analytics 구성에 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,7 +86,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="연결"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 연결을 선택합니다."
+>abstract="Customer Journey Analytics에서 기존 연결을 선택하여 Content Analytics 데이터와 병합합니다."
 
 각 구성에는 고유 이름이 필요합니다. 예, `Example Content Analytics configuration`. 해당 이름은 구성을 저장하거나 구현하는 데 필요합니다.
 
@@ -140,7 +127,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다."
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터와 병합합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -321,7 +308,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ### 헤더 재정의 {#mobile-header-overrides}
@@ -691,7 +678,7 @@ Experience Platform에서 소스 커넥터를 구성한 후 ![새로 고침](/he
 
 **[!UICONTROL 저장]**&#x200B;을 선택하면 Content Analytics에서 자동으로 다음 작업을 수행합니다.
 
-* 이 샌드박스에 연결된 모든 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
+* 이 샌드박스 내 모든 연결된 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
 * 선택된 모든 데이터 보기에서 유료 미디어 차원 및 지표를 활성화합니다.
 * Workspace 보고서에서 필터링 가능한 차원으로 유료 미디어 채널을 표면화합니다.
 
