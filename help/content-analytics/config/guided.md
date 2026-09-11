@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 4806
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -89,7 +89,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="세부 사항"
->abstract="이 안내서는 Content Analytics 구성을 위한 요구 사항을 설정합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
+>abstract="이 안내서에서는 Content Analytics 구성에 필요한 요구 사항에 대해 설명합니다. 이 구성의 이름을 입력하고 분석할 콘텐츠 분석 데이터가 포함된 샌드박스를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,7 +99,7 @@ Content Analytics **[!UICONTROL 구성]** 화면에서 새로운 구성을 만�
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="연결"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 연결을 선택합니다."
+>abstract="Customer Journey Analytics에서 기존 연결을 선택하여 Content Analytics 데이터와 병합합니다."
 
 각 구성에는 고유 이름이 필요합니다. 예, `Example Content Analytics configuration`. 해당 이름은 구성을 저장하거나 구현하는 데 필요합니다.
 
@@ -140,7 +140,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="데이터 보기"
->abstract="Content Analytics 데이터를 병합할 Customer Journey Analytics에서 기존 데이터 보기를 선택합니다."
+>abstract="Customer Journey Analytics에서 기존 데이터 보기를 선택하여 원하는 Content Analytics 데이터와 병합합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -691,7 +691,7 @@ Experience Platform에서 소스 커넥터를 구성한 후 ![새로 고침](/he
 
 **[!UICONTROL 저장]**&#x200B;을 선택하면 Content Analytics에서 자동으로 다음 작업을 수행합니다.
 
-* 이 샌드박스에 연결된 모든 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
+* 이 샌드박스 내 모든 연결된 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
 * 선택된 모든 데이터 보기에서 유료 미디어 차원 및 지표를 활성화합니다.
 * Workspace 보고서에서 필터링 가능한 차원으로 유료 미디어 채널을 표면화합니다.
 

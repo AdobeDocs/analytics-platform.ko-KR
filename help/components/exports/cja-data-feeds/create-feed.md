@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
 source-wordcount: 4217
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -81,8 +81,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_required_dimensions"
->title="필수 차원"
->abstract="모든 데이터 피드에는 차원 이름 옆에 **필수** 레이블로 식별된 특정 차원이 포함되어야 합니다. 이러한 차원은 이벤트 수준 분석에 필요한 최소 구조를 제공합니다."
+>title="필요한 차원"
+>abstract="모든 데이터 피드는 차원 이름 옆에 **필수** 레이블로 식별되는 특정 차원을 포함해야 합니다. 이러한 차원은 이벤트 수준 분석에 필요한 최소한의 구조를 제공합니다."
 
 <!-- markdownlint-enable MD034 -->
 
