@@ -27,9 +27,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: ab985ab32df3a8ba8518a7dc3cb8f0b194b8c7c7
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1451
 ht-degree: 3%
 
 ---
@@ -100,11 +100,6 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <td><strong>ChatGPT-User</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +<a href="https://openai.com/bot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/bot</a></code></td>
 <td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">ChatGPT가 사용자 대신 웹 사이트를 탐색할 때 사용됩니다(레거시).</a></td>
-</tr>
-<tr>
-<td><strong>ChatGPT-User v2</strong></td>
-<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/2.0; +<a href="https://openai.com/bot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/bot</a></code></td>
-<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">온디맨드 가져오기 및 응답형 조회에 대한 ChatGPT의 업데이트된 버전</a></td>
 </tr>
 <tr>
 <td><strong>OAI-SearchBot</strong></td>
