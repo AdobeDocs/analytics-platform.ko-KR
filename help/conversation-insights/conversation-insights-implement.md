@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 6%
@@ -18,8 +18,9 @@ ht-degree: 6%
 
 >[!PREREQUISITES]
 >
->데이터를 수집하려면 Experience Platform 환경(조직 및 샌드박스)을 사용할 수 있어야 합니다.
->실험 에이전트 및 대화 필드 그룹에 대해 Adobe 조직을 활성화해야 합니다.
+>* 데이터를 수집하려면 Experience Platform 환경(조직 및 샌드박스)을 사용할 수 있어야 합니다.
+>* 실험 에이전트 및 대화 필드 그룹에 대해 Adobe 조직을 활성화해야 합니다.
+>
 
 ## 스키마 및 데이터 세트
 
@@ -304,6 +305,10 @@ ht-degree: 6%
 | `metadata[]` | 선택적 생성자 정의 키/값 메타데이터. |
 
 
+신호 추출 서비스가 신호 데이터 집합에 대한 `signals` 개체를 채웁니다.
+
+이전 `signals[].attributes.{subjects,intents,tones,sentiment}` 컨테이너는 사용되지 않습니다.
+
 #### 대화
 
 대화 개체에 대한 자세한 내용은 아래를 참조하십시오.
@@ -356,9 +361,6 @@ ht-degree: 6%
 +++
 
 
-신호 추출 서비스가 신호 데이터 집합에 대한 `signals` 개체를 채웁니다.
-
-이전 `signals[].attributes.{subjects,intents,tones,sentiment}` 컨테이너는 사용되지 않습니다.
 
 
 ### 추가 필드 그룹

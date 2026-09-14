@@ -1,22 +1,21 @@
 ---
-title: 대화 통찰력 구성
+title: 대화 통찰력 구성 만들기 또는 편집
 description: 대화 통찰력 구성을 구성하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '638'
 ht-degree: 8%
 ---
-# 대화 통찰력 구성
+# 구성 만들기 또는 편집
 
 
 대화 인사이트를 사용하면 대규모 언어 모델(LLM) 또는 사람으로부터 대화를 분석하고 전체 고객 여정 내에서 해당 대화 컨텍스트를 제공할 수 있습니다. 대화 인사이트를 통해 담당자가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
 
-
-## 구성 만들기 또는 편집
+Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티팩트(연결, 데이터 보기 등)를 빠르게 만들거나 편집할 수 있습니다.
 
 대화 통찰력 구성을 만들거나 편집할 때 프롬프트, 응답 및 피드백 데이터가 포함된 샌드박스 및 이벤트 데이터 세트를 지정합니다. 이러한 데이터 세트를 추가할 Customer Journey Analytics 연결도 선택합니다. 대화 통찰력 지표 및 차원을 추가할 데이터 보기.
 
@@ -24,12 +23,12 @@ ht-degree: 8%
 
 [대화 통찰력 구성 인터페이스](./conversation-insights-manage.md)에서 구성을 만들거나 편집합니다.
 
-### 누락된 혼합 데이터 세트 복원
+## 누락된 혼합 데이터 세트 복원
 
 구성을 편집하고 구성에 대해 생성된 혼합 데이터 세트가 더 이상 존재하지 않는 경우 **[!UICONTROL 복원]**&#x200B;을 선택하여 혼합 데이터 세트를 다시 생성합니다.
 
 
-### 구성 단계
+## 구성 단계
 
 각 구성의 경우:
 
