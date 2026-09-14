@@ -9,31 +9,44 @@ autotag-review: '2026-05-19T11:02:18.748Z'
 TQID: 'https://experienceleague.adobe.com/uwZ-wOZblEpNl5gGw673Lo11Sqqwfz5u0bxd0d2hOLE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
   - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
+    internal-label: Derived fields
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Admin
+  - 
+    id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ab985ab32df3a8ba8518a7dc3cb8f0b194b8c7c7
+    internal-label: Data management
+source-git-commit: 0a86745b9a1a1e14c3e77fcfa5b97ba0c5236d10
 workflow-type: tm+mt
-source-wordcount: 1451
+source-wordcount: '1453'
 ht-degree: 3%
-
 ---
-
 # LLM 및 AI 생성 트래픽에 대한 보고서
 
 이 사용 사례 문서에서는 Customer Journey Analytics 파생 필드 기능을 LLM(대형 언어 모델) 및 AI 생성 트래픽에 대한 보고의 기반으로 사용하는 방법에 대해 알아봅니다.
@@ -102,6 +115,9 @@ LLM 및 AI 에이전트는 디지털 속성과 상호 작용할 때 복잡하고
 <td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">ChatGPT가 사용자 대신 웹 사이트를 탐색할 때 사용됩니다(레거시).</a></td>
 </tr>
 <tr>
+<td><strong>OAI-AdsBot</strong></td>
+<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-AdsBot/1.0; +<a href="https://openai.com/adsbot" target="_blank" rel="noopener nofoloow noreferrer">https://openai.com/adsbot</a></code></td>
+</tr>
 <td><strong>OAI-SearchBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +<a href="https://openai.com/searchbot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/searchbot</a></code></td>
 <td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">콘텐츠 검색을 위한 ChatGPT의 검색 중심 웹 크롤러</a></td>

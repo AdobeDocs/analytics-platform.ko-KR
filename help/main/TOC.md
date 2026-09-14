@@ -2,13 +2,11 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 2983f972813a84a141109c5d14c81394802f226c
+source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1493'
 ht-degree: 93%
-
 ---
-
 # Adobe Customer Journey Analytics 안내서 {#using}
 
 + [Adobe Customer Journey Analytics 안내서](../getting-started/cja-landing.md)
@@ -342,8 +340,12 @@ ht-degree: 93%
   + [FAQ](../guided-analysis/faq.md)
 
 + 대화 통찰력 {#conversation-insights}
-  + {hide-from-toc}[개요](/help/conversatiion-insights/conversation-insights.md)
-  + {hide-from-toc}[구성](/help/conversatiion-insights/config/guided.md)
+  + {hide-from-toc}[개요](/help/conversation-insights/conversation-insights-overview.md)
+  + {hide-from-toc}[구성](/help/conversation-insights/conversation-insights-configure.md)
+  + {hide-from-toc}[관리](/help/conversation-insights/conversation-insights-manage.md)
+  + {hide-from-toc}[구현](/help/conversation-insights/conversation-insights-implement.md)
+  + {hide-from-toc}[분석](/help/conversation-insights/conversation-insights-analyze.md)
+
 
 + 구성 요소 {#cja-components}
   + [개요](../components/overview.md)
