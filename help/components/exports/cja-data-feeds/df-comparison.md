@@ -9,22 +9,26 @@ autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
+    internal-label: Customer journeys
+source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
 workflow-type: tm+mt
-source-wordcount: 1629
+source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 # Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교
 
 {{release-limited-testing}}
@@ -40,6 +44,8 @@ Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하�
 다음 기능은 Customer Journey Analytics 데이터 피드에서 사용할 수 있지만 Adobe Analytics 데이터 피드에서는 사용할 수 없습니다.
 
 * **파생 필드**: 데이터 피드 스키마에 포함할 수 있는 규칙 기반 변환에서 빌드된 사용자 지정 구성 요소입니다. <!-- add benefit -->
+
+* **구성 요소 설정**: 지속성, 지표 중복 제거 및 값 버킷팅과 같은 데이터 보기 구성 요소 설정은 SQL 없이도 데이터 피드 출력에서 직접 구성 요소의 값을 변환할 수 있습니다.
 
 * **결합**: 여러 장치의 이벤트를 한 사람에게 연결하는 장치 간 ID 확인입니다.
 
@@ -80,6 +86,7 @@ Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하�
 | **스키마**<br/>&#x200B;데이터 피드 스키마는 데이터 피드에 포함할 수 있는 열을 결정합니다. | 데이터 피드 스키마는 데이터 보기 구성을 기반으로 합니다.  데이터 피드 스키마에 포함할 수 있는 구성 요소는 데이터 보기 구성에서 사용할 수 있는 구성 요소의 하위 집합입니다. | ~1,100개 이상의 변수에 대한 사전 정의된 정적 목록입니다. 많은 열을 **사전 및 사후 처리 쌍**(예: `eVar1` / `post_eVar1`)으로 내보내 열 수의 대부분을 차지합니다. |
 | **데이터 피드 빌더**<br/>&#x200B;데이터 피드에 포함되는 열을 구성하는 데 사용되는 인터페이스입니다. | 데이터 보기에서 사용할 수 있는 동일한 명명된 차원 및 지표가 있고 Analysis Workspace 경험과 일치하는 구성 요소 레일을 사용합니다. | 미리 정의된 ~1,100개 이상의 열 집합에서 선택한 원시 변수 이름(예: `eVar1`, `prop5`)의 단순 목록을 사용합니다. 구성 요소는 변수 식별자 외부에서 이름이 지정되거나 설명되지 않습니다. |
 | **파생 필드**<br/>&#x200B;보고서 시간에 적용된 규칙 기반 변환을 사용하여 정의된 사용자 지정 구성 요소입니다. | 지원됨. 파생 필드 구성 요소는 표준 차원 및 지표와 함께 데이터 피드 스키마에 포함될 수 있습니다. | 지원되지 않습니다. |
+| **구성 요소 설정**<br/>&#x200B;지속성, 지표 중복 제거 및 값 버킷과 같은 데이터 보기 구성 요소 설정으로 보고서 시간에 구성 요소의 값을 변환합니다. | 대부분의 설정에 대해 지원됩니다. 이러한 설정은 Analysis Workspace에서 적용되는 것과 동일한 방식으로 데이터 피드 출력에 적용됩니다. | 지원되지 않습니다. |
 | **구성 요소 업데이트**<br/>&#x200B;구성 요소 구성 변경 내용이 과거 및 향후 데이터 피드 출력에 반영되는지 여부. | 데이터 보기의 구성 요소에 대한 변경 사항(예: 이름 변경 또는 차원 제거)은 향후 데이터 피드로 전파되며 다시 채우기에 반영됩니다. | 보고서 세트의 구성 요소에 대한 변경 사항은 나중에 수집되는 데이터에만 적용됩니다. |
 | **조회**<br/> Customer Journey Analytics의 조회 데이터 세트는 Adobe Analytics의 분류와 동일합니다. | 모든 조회는 데이터에 직접 포함됩니다. | 분류는 Adobe 분석 데이터 피드에 포함되지 않습니다. |
 | **세션 정의**<br/>&#x200B;방문 또는 세션 경계를 정의하는 방법. 이것은 이벤트를 그룹화하고 특성을 지정하는 방법에 영향을 줍니다. | 데이터 보기에 정의됩니다. | 컬렉션 시간에 정의됩니다. |
