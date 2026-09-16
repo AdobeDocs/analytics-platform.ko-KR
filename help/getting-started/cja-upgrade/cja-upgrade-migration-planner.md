@@ -5,13 +5,11 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
-source-git-commit: db34e721f156b3eb0aab20b2dca57e194c83d6fb
+source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 5%
-
+source-wordcount: '2338'
+ht-degree: 16%
 ---
-
 # 태그에서 XDM으로 마이그레이션 {#upgrade-migration-planner}
 
 {{upgrade-note-step}}
@@ -21,7 +19,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="migration_intro"
 >title="마이그레이션 개요"
->abstract="Customer Journey Analytics으로 업그레이드할 때 Tags 구현을 Adobe Experience Platform Web SDK으로 마이그레이션하십시오.<br/>기존 마이그레이션을 계속하거나 새 마이그레이션을 시작하십시오."
+>abstract="Customer Journey Analytics로 업그레이드할 때 태그 구현을 Adobe Experience Platform Web SDK로 마이그레이션합니다.<br/>기존 마이그레이션으로 계속하거나 새 마이그레이션을 시작하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -88,7 +86,8 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 1. 마이그레이션 플래너의 [!UICONTROL **마이그레이션**] 탭에서 [!UICONTROL **새로 만들기**]&#x200B;를 선택합니다.
 
-   ![마이그레이션 유형을 선택하고 마이그레이션 이름을 입력할 수 있는 새 마이그레이션 대화 상자입니다.](assets/migration-planner-new-migration.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
+
 
 1. 다음 정보를 지정합니다.
 
@@ -135,17 +134,17 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
    마이그레이션 개요 페이지에는 마이그레이션 및 해당 아티팩트에 대한 요약과 함께 완료할 세 단계가 표시됩니다.
 
-   ![감사, 매핑 및 구현 단계 카드가 있는 마이그레이션 개요 페이지입니다.](assets/migration-planner-overview.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
 
 1. [!UICONTROL **감사**] 단계 완료:
 
    1. 마이그레이션 유형에 따라 감사 카드([!UICONTROL **태그 확장 감사**] 또는 [!UICONTROL **JavaScript 감사**])에서 [!UICONTROL **감사 시작**]&#x200B;을(를) 선택하여 마이그레이션에 포함된 규칙 및 데이터 요소를 검토합니다.
 
-      ![규칙과 데이터 요소를 선택하고 결과를 확인하는 감사 페이지입니다.](assets/migration-planner-audit.png)
+      <!-- Confirm the exact image: ![The audit page, where you select rules and data elements and resolve any findings.](assets/migration-planner-audit.png) -->
 
    1. [!UICONTROL **규칙**] 및 [!UICONTROL **데이터 요소**] 탭에서 마이그레이션에 포함할 항목을 선택합니다.
 
-      [!UICONTROL **In library**] (으)로 표시된 규칙이 게시되었습니다. [!UICONTROL **속성만**] (으)로 표시된 규칙이 속성에 있지만 선택한 라이브러리에 속하지 않습니다.
+      [!UICONTROL **In library**](으)로 표시된 규칙이 게시되었습니다. [!UICONTROL **속성만**](으)로 표시된 규칙이 속성에 있지만 선택한 라이브러리에 속하지 않습니다.
 
    1. 선택한 규칙에 대한 결과를 검토합니다. 각 검색 결과에 대해 [!UICONTROL **검토**]&#x200B;를 선택하여 해결하거나 [!UICONTROL **무시**]&#x200B;를 선택하여 해결되지 않은 상태로 두십시오.
 
@@ -247,13 +246,13 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 >[!CONTEXTUALHELP]
 >id="migration_mapping_sets"
 >title="매핑 세트"
->abstract="매핑 세트는 Analytics 변수가 XDM 필드에 매핑되는 방법을 결정합니다.<br/>새 매핑 집합을 만들거나 기존 매핑 집합을 선택하여 여러 마이그레이션에 동일한 매핑을 적용합니다. 다른 마이그레이션 작업에서 매핑 세트를 참조할 수도 있습니다."
+>abstract="매핑 세트는 Analytics 변수가 XDM 필드에 매핑되는 방법을 결정합니다.<br/>새 매핑 세트를 만들거나 기존 매핑 세트를 선택하여 여러 마이그레이션에 걸쳐 동일한 매핑을 적용합니다. 다른 마이그레이션 작업에서 매핑 세트를 참조할 수도 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
 매핑 세트는 Analytics 변수가 XDM 스키마 필드에 매핑되는 방법을 결정합니다.
 
-마이그레이션 프로세스[&#128279;](#migrate-an-analytics-implementation-to-the-web-sdk)에서 새 매핑 집합 을(를) 만들 수 있습니다. 또는 향후 마이그레이션 또는 다른 마이그레이션 작업에 사용할 독립형 매핑 세트를 만들 수 있습니다.
+마이그레이션 프로세스](#migrate-an-analytics-implementation-to-the-web-sdk)에서 새 매핑 집합 [을(를) 만들 수 있습니다. 또는 향후 마이그레이션 또는 다른 마이그레이션 작업에 사용할 독립형 매핑 세트를 만들 수 있습니다.
 
 ### 독립형 매핑 세트 만들기 {#xdm-mapping}
 
@@ -262,7 +261,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 >[!CONTEXTUALHELP]
 >id="migration_mapping_schema"
 >title="스키마 선택"
->abstract="매핑 세트는 Analytics 변수가 XDM 필드에 매핑되는 방법을 결정합니다.<br/>새 매핑 집합을 만들거나 기존 매핑 집합을 선택하여 여러 마이그레이션에 동일한 매핑을 적용합니다. 다른 마이그레이션 작업에서 매핑 세트를 참조할 수도 있습니다."
+>abstract="매핑 세트는 Analytics 변수가 XDM 필드에 매핑되는 방법을 결정합니다.<br/>새 매핑 세트를 만들거나 기존 매핑 세트를 선택하여 여러 마이그레이션에 걸쳐 동일한 매핑을 적용합니다. 다른 마이그레이션 작업에서 매핑 세트를 참조할 수도 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -271,7 +270,7 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 >[!CONTEXTUALHELP]
 >id="migration_mapping_field_group"
 >title="필드 그룹 환경 설정"
->abstract="가능한 경우 게시된 Adobe 필드 그룹을 사용하려면 표준 필드 그룹을 선택하십시오. 이렇게 하면 최대 일관성이 향상되고, 표준 필드를 사용할 수 없을 때 사용자 정의 테넌트 필드로 대체됩니다.<br/>가능한 경우 테넌트 네임스페이스 사용자 지정 필드를 사용하려면 사용자 지정 필드 그룹을 선택하십시오. 이를 통해 최대 유연성을 높일 수 있습니다."
+>abstract="(가능한 경우) 게시된 Adobe 필드 그룹을 사용하려면 표준 필드 그룹을 선택합니다. 이는 최대 일관성을 향상시켜 주며, 표준 필드를 사용할 수 없을 때 사용자 정의 테넌트 필드로 대체됩니다.<br/>(가능한 경우) 테넌트-네임스페이스 사용자 정의 필드를 사용하려면 사용자 정의 필드 그룹을 선택합니다. 이는 최대 유연성을 높여 줍니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -279,8 +278,8 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_lookback"
->title="전환 기간"
->abstract="현재 데이터를 받고 있는 변수를 결정할 때 살펴볼 거리를 제어합니다. 전환 확인 기간 내에 데이터를 포함하는 변수는 스키마에 포함됩니다."
+>title="전환 확인 기간"
+>abstract="어떤 변수가 현재 데이터를 수신하고 있는지 결정할 때 얼마나 멀리까지 살펴보는지를 제어합니다. 전환 확인 기간 내 데이터를 포함하는 변수는 스키마에 포함됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -304,13 +303,13 @@ Migration Planner는 다음과 같은 복잡하고 시간이 많이 소요되는
 
 1. [!UICONTROL **필드 그룹 환경 설정**] 드롭다운 메뉴에서 사용자 지정 변수를 필드 그룹으로 구성하는 방법을 선택합니다.
 
-   * [!UICONTROL **표준 우선**]: 가능한 경우 게시된 Adobe 필드 그룹을 사용합니다. 이렇게 하면 최대 일관성이 향상되고, 표준 필드를 사용할 수 없을 때 사용자 정의 테넌트 필드로 대체됩니다.
+   * [!UICONTROL **표준 우선**]: 가능한 경우 게시된 Adobe 필드 그룹을 사용합니다. 이는 최대 일관성을 향상시켜 주며, 표준 필드를 사용할 수 없을 때 사용자 정의 테넌트 필드로 대체됩니다.
 
-   * [!UICONTROL **사용자 지정 먼저**]: 가능한 경우 테넌트 네임스페이스 사용자 지정 필드를 사용합니다. 이를 통해 최대 유연성을 높일 수 있습니다.
+   * [!UICONTROL **사용자 지정 먼저**]: 가능한 경우 테넌트 네임스페이스 사용자 지정 필드를 사용합니다. 이는 최대 유연성을 높여 줍니다.
 
    <!-- * [!UICONTROL **Ask each time**]: Prompt for each signal so you can decide individually. -->
 
-1. [!UICONTROL **전환 확인 기간**] 필드에서 데이터를 적극적으로 받고 있는 변수를 결정할 때 표시되는 전환 확인 기간을 선택합니다. 전환 확인 기간 내에 데이터를 포함하는 변수는 스키마에 포함됩니다.
+1. [!UICONTROL **전환 확인 기간**] 필드에서 데이터를 적극적으로 받고 있는 변수를 결정할 때 표시되는 전환 확인 기간을 선택합니다. 전환 확인 기간 내 데이터를 포함하는 변수는 스키마에 포함됩니다.
 
 1. [!UICONTROL **매핑 집합 만들기**]&#x200B;를 선택합니다.
 
