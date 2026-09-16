@@ -4,27 +4,32 @@ description: Customer Journey Analytics에서 연결에 대한 동의 보고 및
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1325'
 ht-degree: 28%
-
 ---
-
 # 동의 보고 및 필터링 구성 {#configure-consent-reporting}
 
 <!-- markdownlint-disable MD034 -->
@@ -80,6 +85,8 @@ ht-degree: 28%
 >abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화합니다. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
 
 <!-- markdownlint-enable MD034 -->
+
+{{release-limited-testing}}
 
 시스템 관리자는 동의 보고 및 선택적으로 하나 이상의 연결에 대한 동의 필터링을 활성화할 수 있습니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 

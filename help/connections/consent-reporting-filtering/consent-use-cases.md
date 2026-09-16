@@ -4,27 +4,33 @@ description: Customer Journey Analytics에서 방문자 동의 정책 멤버십�
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 0%
-
 ---
-
 # 동의 보고 및 필터링 사용 사례
+
+{{release-limited-testing}}
 
 동의 보고 및 필터링은 방문자 동의 정책 멤버십을 보고하고, 데이터가 Customer Journey Analytics에 입력되기 전에 동의하지 않는 방문자를 선택적으로 제외하는 데 도움이 됩니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 * **동의 정책 멤버십은 프로필 데이터 집합에서 가져옵니다**: 보고는 프로필 데이터 집합의 `consentPoliciesIDMap` 필드에 있는 동의 정책 멤버십을 반영합니다. 보고에 나타나려면 방문자에게 연결에 해당 이벤트가 있어야 합니다.
 
-## 예시 사용 사례
+## 사용 사례 예시
 
 ### 사용 사례 1: 데이터를 필터링하지 않고 동의 보고
 
