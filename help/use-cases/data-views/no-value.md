@@ -202,4 +202,4 @@ Customer Journey Analytics은 누락되거나 빈 배열에 대한 자리 표시
 
 >[!MORELIKETHIS]
 >
->[Adobe Customer Journey Analytics에서 **[!UICONTROL 값 없음]**&#x200B;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769)
+>[Adobe Customer Journey Analytics에서 **[!UICONTROL 값 없음]**&#x200B;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=ko)
