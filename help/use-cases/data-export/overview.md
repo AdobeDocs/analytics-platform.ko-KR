@@ -8,27 +8,36 @@ exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Machine learning
+source-git-commit: 06d3fa4838d48567f1b9804992aa0f718937916d
 workflow-type: tm+mt
-source-wordcount: 806
-ht-degree: 7%
-
+source-wordcount: '1079'
+ht-degree: 1%
 ---
-
 # 데이터 내보내기 사용 사례 {#data-export-use-cases}
 
 <!-- This contextual help is for the upgrade checklist -->
@@ -38,7 +47,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="데이터 피드와 유사한 내보내기 기능 사용"
->abstract="Customer Journey Analytics에서는 아직 데이터 피드를 완벽하게 대체할 수 있는 기능이 제공되지 않습니다. 단, 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API와 같은 기능을 사용하면 유사한 기능을 얻을 수 있습니다."
+>abstract="Customer Journey Analytics에서는 데이터 피드에 대한 정확한 대체 기능을 아직 사용할 수 없지만 전체 테이블 내보내기, Platform 데이터 세트 내보내기, BI 도구 통합 및 보고 API를 통해 유사한 기능을 사용할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +80,7 @@ Customer Journey Analytics에서 이벤트는 순서대로 수집되지 않고 �
   * 새 데이터가 수집되거나
   * 결합하면 개인 기록에 이벤트가 추가됩니다.
 
-보고서 처리 시간은 Customer Journey Analytics에서 데이터를 내보내는 데 영향을 줍니다. 지속된 값을 포함하는 내보내기는 Customer Journey Analytics 보고서와 일치하지 않으며 값은 시간이 지남에 따라 사라집니다.
+보고서 처리 시간은 Customer Journey Analytics에서 데이터를 내보내는 데 영향을 줍니다. 지속된 값을 포함하는 내보내기는 Customer Journey Analytics 보고서와 일치하지 않으며 값은 시간이 지남에 따라 달라집니다.
 
 지표의 일관성을 위해 Customer Journey Analytics의 새 기능을 사용하는 것이 좋습니다. 일반적으로 Experience Platform 및 Customer Journey Analytics 데이터 내보내기 기능은 Adobe Analytics의 데이터 피드 기능을 초과합니다. Experience Platform 및 Customer Journey Analytics은 다음을 제공합니다.
 
@@ -81,14 +90,14 @@ Customer Journey Analytics에서 이벤트는 순서대로 수집되지 않고 �
   * 비즈니스 규칙에 따라 사용자 지정 속성 및 세션 적용
   * 고객 여정을 계속 업데이트하며 결합합니다.
 
-* 맞춤형 데이터 내보내기 사용 사례 실현
+* 맞춤형 데이터 내보내기 사용 사례 구현
 
   * Business Intelligence(BI) 도구 및 클라우드 대상을 포함하여 필요한 위치로 데이터 내보내기
   * bi 도구 통합을 통해 Analysis Workspace과 데이터 동기화 유지,
   * 자체 시스템에서 처리 논리를 복제할 필요가 없습니다.
   * 계산된 지표, 파생 필드 및 세분화에 대한 새로운 지원
 
-* 설계에 의한 보안 및 데이터 거버넌스 고려
+* 보안 및 데이터 거버넌스 고려
 
   * 사용자 및 대상별로 모든 데이터 내보내기 모니터링,
   * 내보낼 수 있는 데이터에 대한 제한 설정 및
@@ -105,3 +114,15 @@ Customer Journey Analytics에서 이벤트는 순서대로 수집되지 않고 �
 | **데이터 유효성 검사**<br/>&#x200B;클릭스트림 데이터를 평가하여 데이터 수집 정확도를 확인합니다. | **Experience Platform**: [**쿼리 서비스(Data Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> 대화형 PostgreSQL 인터페이스를 사용하여 즐겨 사용하는 SQL 도구를 사용하여 임시 SQL 쿼리를 실행하여 데이터 세트의 데이터를 확인합니다.<br/><br/>**Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/>&#x200B;속성 및 세션화가 적용된 CJA에서 처리된 데이터의 유효성을 검사합니다. |
 | **데이터 레이크, Data Warehouse 또는 BI 도구**<br/>&#x200B;추가 데이터 세트와 함께 사용할 수 있도록 디지털 데이터를 고유한 BI 도구 또는 Data Lake로 가져옵니다. | **Customer Journey Analytics**: [**BI 확장**](bi-extension.md)<br/> Customer Journey Analytics에서 처리된 지표를 Power BI과 같은 데이터 시각화 도구에 추가하고 사용자 지정 보고서에 대한 추가 데이터와 결합&#x200B;<br/><br/>**Experience Platform**: [**쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br> SQL을 사용하여 클라우드 대상으로 배달할 사용자 지정 클릭스트림 데이터를 생성합니다. |
 | **AI/ML에 대한 준비**<br/> Customer Journey Analytics 데이터를 사용하여 인공 지능/머신 러닝 모델과 작업을 개선합니다. | **Customer Journey Analytics**: [**전체 테이블 내보내기**](export-full-table.md)<br/> Customer Journey Analytics 처리 차원 및 지표를 계산된 지표 및 세분화를 포함하여 클라우드 대상으로 한 번 또는 반복적으로 내보냅니다.<br/><br/>**Experience Platform**: [**쿼리 서비스(Data Distiller) 및 데이터 세트 내보내기**](queryservice-export-datasets.md)<br/> SQL을 사용하여 사용자 지정된 클릭스트림 데이터를 생성하여 AI/ML 모델을 보강합니다. |
+| **임시 및 반복 보고**<br/>&#x200B;개인 사용자 또는 비즈니스 팀에 데이터 파이프라인을 설정하지 않고도 처리된 Customer Journey Analytics 데이터에 대한 셀프 서비스 액세스 권한을 부여합니다. | **Customer Journey Analytics**: [**Workspace 내보내기**](workspace-export.md)<br/>&#x200B;일회성 분석 또는 공유를 위해 Analysis Workspace 프로젝트에서 직접 데이터를 다운로드하거나 이메일로 보냅니다.<br/><br/>**Customer Journey Analytics**: [**Report Builder**](report-builder.md)<br/>&#x200B;비즈니스 사용자에게 친숙한 반복 보고를 위해 Customer Journey Analytics 데이터를 Excel 통합 문서로 가져옵니다. |
+| **사용자 지정 응용 프로그램 통합**<br/> Customer Journey Analytics 데이터를 사용하여 대시보드, 내부 도구 또는 자동화된 워크플로를 지원합니다. | **Customer Journey Analytics**: [**Reporting API**](reporting-api.md)<br/>&#x200B;프로그래밍 방식으로 Customer Journey Analytics 데이터를 검색하여 고유한 응용 프로그램 또는 자동화와 통합합니다. |
+
+## 기능 중에서 선택
+
+여러 기능을 사용하여 동일한 사용 사례를 구현할 수 있습니다. 둘 중 하나를 선택할 때는 다음을 고려하십시오.
+
+* **데이터 볼륨**: [Workspace 내보내기](/help/use-cases/data-export/workspace-export.md) 및 [Report Builder](/help/use-cases/data-export/report-builder.md)와 같은 임시 메서드는 수만 개의 행으로 제한됩니다. [전체 테이블 내보내기](/help/use-cases/data-export/export-full-table.md) 및 [데이터 세트 내보내기](/help/use-cases/data-export/export-datasets.md)는 수백만 개의 행을 지원합니다.
+* **원시 데이터와 처리된 데이터 비교**: [데이터 세트 내보내기](/help/use-cases/data-export/export-datasets.md) 및 [쿼리 서비스(데이터 Distiller) 및 데이터 세트 내보내기](/help/use-cases/data-export/queryservice-export-datasets.md)는 데이터 레이크에서 처리되지 않은 원시 데이터를 제공합니다. [BI 확장](/help/use-cases/data-export/bi-extension.md), [전체 테이블 내보내기](/help/use-cases/data-export/export-full-table.md), [Workspace 내보내기](/help/use-cases/data-export/workspace-export.md), [Report Builder](/help/use-cases/data-export/report-builder.md) 및 [Reporting API](/help/use-cases/data-export/reporting-api.md)는 속성, 세션화, 계산된 지표를 포함하여 Customer Journey Analytics에서 이미 처리한 데이터를 제공합니다.
+* **기술 전문 지식**: [쿼리 서비스(Data Distiller) 및 데이터 세트 내보내기](/help/use-cases/data-export/queryservice-export-datasets.md) 및 [BI 확장](/help/use-cases/data-export/bi-extension.md)에 SQL 지식이 필요합니다. [Workspace 내보내기](/help/use-cases/data-export/workspace-export.md) 및 [Report Builder](/help/use-cases/data-export/report-builder.md)은(는) 포인트 앤 클릭 인터페이스를 사용합니다. [보고 API](/help/use-cases/data-export/reporting-api.md)에는 프로그래밍 지식이 필요합니다.
+* **예약 필요**: [데이터 세트 내보내기](/help/use-cases/data-export/export-datasets.md), [전체 테이블 내보내기](/help/use-cases/data-export/export-full-table.md) 및 [Report Builder](/help/use-cases/data-export/report-builder.md)에서 반복 예약된 배달을 지원합니다. [Workspace 내보내기](/help/use-cases/data-export/workspace-export.md) 다운로드는 애드혹 전용입니다.
+* **출력 형식 및 대상**: 클라우드 저장소에 있는 파일, BI 도구의 표, Excel의 통합 문서 또는 API 호출의 응답이 필요한지 여부를 고려한 다음 해당 파일을 제공하는 기능과 일치시키십시오.

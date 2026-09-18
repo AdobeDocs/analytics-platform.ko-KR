@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: 0b2548c1caa15fe7e50c000178e691ea9743ff19
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 93%
+source-wordcount: '1502'
+ht-degree: 92%
 ---
 # Adobe Customer Journey Analytics 안내서 {#using}
 
@@ -511,6 +511,7 @@ ht-degree: 93%
       + [제품 가치 빌드](/help/use-cases/b2b/b2b-edition/build-product-value.md)
   + 복잡한 데이터 {#complex-data}
     + [오브젝트 배열 사용](../use-cases/object-arrays.md)
+    + [처리 값 없음](../use-cases/data-views/no-value.md)
   + 크로스 채널 데이터 {#cross-channel}
     + [채널 간 데이터 분석](../use-cases/cross-channel/cross-channel.md)
     + [콜센터 및 웹 데이터 가져오기](../use-cases/cross-channel/call-center.md)
@@ -520,6 +521,9 @@ ht-degree: 93%
     + [데이터 세트 내보내기](../use-cases/data-export/export-datasets.md)
     + [전체 테이블 내보내기](../use-cases/data-export/export-full-table.md)
     + [쿼리 서비스 및 데이터 세트 내보내기](../use-cases/data-export/queryservice-export-datasets.md)
+    + [Workspace 내보내기](../use-cases/data-export/workspace-export.md)
+    + [Report Builder](../use-cases/data-export/report-builder.md)
+    + [보고 API](../use-cases/data-export/reporting-api.md)
   + 데이터 수집 {#data-ingestion}
     + [Marketo Engage 데이터 수집 및 사용](../use-cases/data-ingestion/marketo.md)
     + [Experience Platform 대상자 수집 및 활용](../use-cases/data-ingestion/ingest-aep-segments.md)
