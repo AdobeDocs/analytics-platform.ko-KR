@@ -23,14 +23,12 @@ topic_v2:
     internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 7%
 ---
 # 동의 정책 데이터 분석
-
-{{release-limited-testing}}
 
 Experience Platform 프로필 데이터 세트의 동의 정책 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다.
 

@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 0b2548c1caa15fe7e50c000178e691ea9743ff19
+source-git-commit: ed1569087178fe1941d13f481914db6982ed18a1
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 92%
@@ -145,11 +145,11 @@ ht-degree: 92%
     + [분석](/help/connections/audience-analysis/analyze-audiences.md)
     + [사용 사례](/help/connections/audience-analysis/audience-analysis-use-cases.md)
   + 동의 보고 및 필터링 {#consent-reporting-filtering}
-    + {hide-from-toc}[개요](/help/connections/consent-reporting-filtering/consent-overview.md)
-    + {hide-from-toc}[구성](/help/connections/consent-reporting-filtering/consent-configure.md)
-    + {hide-from-toc}[관리](/help/connections/consent-reporting-filtering/consent-manage.md)
-    + {hide-from-toc}[분석](/help/connections/consent-reporting-filtering/consent-analyze.md)
-    + {hide-from-toc}[사용 사례](/help/connections/consent-reporting-filtering/consent-use-cases.md)
+    + [개요](/help/connections/consent-reporting-filtering/consent-overview.md)
+    + [구성](/help/connections/consent-reporting-filtering/consent-configure.md)
+    + [관리](/help/connections/consent-reporting-filtering/consent-manage.md)
+    + [분석](/help/connections/consent-reporting-filtering/consent-analyze.md)
+    + [사용 사례](/help/connections/consent-reporting-filtering/consent-use-cases.md)
 + 데이터 보기 {#cja-dataviews}
   + [데이터 보기 개요](../data-views/data-views.md)
   + [데이터 보기 만들기 또는 편집](../data-views/create-dataview.md)

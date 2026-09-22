@@ -23,14 +23,12 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
 ---
 # 동의 보고 및 필터링 사용 사례
-
-{{release-limited-testing}}
 
 동의 보고 및 필터링은 방문자 동의 정책 멤버십을 보고하고, 데이터가 Customer Journey Analytics에 입력되기 전에 동의하지 않는 방문자를 선택적으로 제외하는 데 도움이 됩니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 
