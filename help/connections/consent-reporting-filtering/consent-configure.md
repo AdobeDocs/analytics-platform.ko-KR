@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 28%
@@ -85,8 +85,6 @@ ht-degree: 28%
 >abstract="동의하지 않는 방문자 데이터가 Customer Journey Analytics에 수집되지 않도록 제외하려면 이 옵션을 활성화합니다. 활성화되면 방문자의 데이터가 아래 활성화된 모든 동의 정책과 일치하는 경우에만 수집됩니다. <br>이 옵션은 수집 시 동의하지 않는 방문자 데이터를 제외하는 데 필요한 요구 사항이 있는 조직을 위한 것입니다."
 
 <!-- markdownlint-enable MD034 -->
-
-{{release-limited-testing}}
 
 시스템 관리자는 동의 보고 및 선택적으로 하나 이상의 연결에 대한 동의 필터링을 활성화할 수 있습니다. 개요 정보는 [동의 보고 및 필터링 개요](/help/connections/consent-reporting-filtering/consent-overview.md)를 참조하십시오.
 

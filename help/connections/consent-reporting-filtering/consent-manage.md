@@ -21,14 +21,12 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 5%
 ---
 # 동의 보고 및 필터링 구성 관리
-
-{{release-limited-testing}}
 
 [동의 보고 및 필터링 구성을 만들기](/help/connections/consent-reporting-filtering/consent-configure.md)한 후 이를 보거나 편집하거나 삭제할 수 있습니다.
 
