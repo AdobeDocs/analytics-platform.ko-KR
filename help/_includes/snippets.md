@@ -1,9 +1,8 @@
 ---
-source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: '5455'
-ht-degree: 98%
-
+source-wordcount: '5542'
+ht-degree: 97%
 ---
 # 스니펫
 
@@ -326,3 +325,11 @@ Customer Journey Analytics에는 사전 처리 및 사후 처리의 개념이 �
 ## CJA 데이터 피드 사용자 에이전트 {#cja-df-ua}
 
 사용자 에이전트 정보와 디바이스 조회 정보를 동시에 수집할 수는 없으며, 이러한 차원의 모집단은 함께 사용할 수 없습니다. [데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#geolocation-device-lookup) 시 사용자 에이전트를 직접 수집할지 또는 디바이스 조회 정보(사용자 에이전트 기반)를 수집할지 선택해야 합니다.
+
+
+## 관계형 데이터 세트 중요 메시지 {#relational-dataset-important}
+
+>[!IMPORTANT]
+>
+>관계형 데이터 세트는 관계형 스키마 유형을 기반으로 합니다. 해당 관계형 스키마에 정의된 관계 설명자는 관련성이 없으며 일반적인 Customer Journey Analytics 연결의 정의 및 구성 또는 관계형 데이터 세트에 대한 데이터 세트 설정에 적용되지 않습니다. <br/><br>Customer Journey Analytics 보고 및 분석의 경우 [데이터 세트 설정](/help/connections/create-connection.md#relational-dataset)에서 일반 개인 ID 또는 계정 ID를 기준으로 관계형 데이터 세트의 데이터가 다른 데이터 세트에 연결되는 방식을 명시적으로 구성해야 합니다.
+>
