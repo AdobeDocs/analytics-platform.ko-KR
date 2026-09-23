@@ -4,28 +4,35 @@ description: Data Warehouse 기본 솔루션과 Customer Journey Analytics 간�
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
+hold: true
 autotag-review: '2026-05-19T06:55:09.938Z'
 TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Privacy
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: 888
+source-wordcount: '890'
 ht-degree: 1%
-
 ---
-
 # Experience Platform Data Mirror 고려 사항
 
 이 문서에서는 Data Mirror 데이터 세트를 설정할 때 고려해야 하는 요소에 대해 설명합니다.
@@ -88,7 +95,7 @@ CDC를 사용할 수 있는 데이터 미러링된 데이터 세트의 소스 �
 
 ## 거버넌스 차이점
 
-XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) 및 [필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#field-group)과(와) 같은 기본 개념에서 필드 그룹 내의 정의된 [필드](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#field)은(는) 필드 그룹이 사용되는 모든 데이터 세트에서 해당 레이블을 전파합니다. 예를 들어 필드 그룹 `identities`의 전자 메일 필드 `emailID`은(는) 필드 그룹 `identities`이(가) 사용되는 모든 데이터 세트에서 동일하게 레이블이 지정됩니다.
+XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition) 및 [필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)과(와) 같은 기본 개념에서 필드 그룹 내의 정의된 [필드](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field)은(는) 필드 그룹이 사용되는 모든 데이터 세트에서 해당 레이블을 전파합니다. 예를 들어 필드 그룹 `identities`의 전자 메일 필드 `emailID`은(는) 필드 그룹 `identities`이(가) 사용되는 모든 데이터 세트에서 동일하게 레이블이 지정됩니다.
 
 관계형 스키마에서 열 이름은 독립적입니다. `customers` 테이블의 `email` 열은 `prospects` 테이블의 `email` 열과 독립적이며 서로 다릅니다. 이 동작은 레이블(예: DULE 사용 레이블, 정책)이 미러된 데이터 세트의 필드에 개별적으로 적용되어야 함을 의미합니다. 위의 예제를 기반으로 `customers` 데이터 세트의 `email` 필드와 `prospects` 데이터 세트의 `email` 필드 모두에 레이블을 적용해야 합니다.
 
@@ -96,6 +103,10 @@ XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/x
 
 * 고객은 보다 수동적인 거버넌스 및 구성을 사용할 수 있습니다.
 * 명시적인 지침이 필요할 수 있으므로 필드 그룹을 통한 일회성 레이블 지정이 적절한 거버넌스에 충분하다고 가정하지 마십시오.
+
+## 데이터 세트 설정
+
+{{relational-dataset-important}}
 
 ## 결합
 
@@ -109,9 +120,9 @@ XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/x
 
 다음 고려 사항은 시스템 키 및 필드에 적용됩니다.
 
-* 기본 키, 버전 설명자 및 타임스탬프 설명자는 관계형 XDM 스키마의 루트 레벨 필드여야 합니다. 이 요구 사항을 지원하려면 수집 중에 [필드 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)을(를) 사용하십시오.
-* [매핑 단계](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) 동안 적절한 소스 필드를 생략할 수 있습니다.
+* 기본 키, 버전 설명자 및 타임스탬프 설명자는 관계형 XDM 스키마의 루트 레벨 필드여야 합니다. 이 요구 사항을 지원하려면 수집 중에 [필드 매핑](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)을(를) 사용하십시오.
+* [매핑 단계](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) 동안 적절한 소스 필드를 생략할 수 있습니다.
 
 ## 미러링된 데이터의 배치 크기
 
-연결의 일부로 구성된 모든 미러된 데이터 세트의 경우, 미러된 데이터 세트에 대한 데이터를 수집하기 위한 각 배치가 100GB를 초과하지 않도록 해야 합니다. 자세한 내용은 [일괄 처리 수집을 위한 보호](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}를 참조하십시오.
+연결의 일부로 구성된 모든 미러된 데이터 세트의 경우, 미러된 데이터 세트에 대한 데이터를 수집하기 위한 각 배치가 100GB를 초과하지 않도록 해야 합니다. 자세한 내용은 [일괄 처리 수집을 위한 보호](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}를 참조하십시오.
