@@ -8,27 +8,36 @@ exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
 TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Privacy
+source-git-commit: 8dc03b7c76c53c327f4a20c8fa9d75298d3d13c1
 workflow-type: tm+mt
-source-wordcount: 3763
-ht-degree: 87%
-
+source-wordcount: '3765'
+ht-degree: 86%
 ---
-
 # Customer Journey Analytics BI 확장 기능
 
 {{select-package}}
@@ -65,7 +74,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/ko/
 
 만료되지 않는 자격 증명을 사용하는 방법:
 
-1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
+1. Experience Platform에서 [만료되지 않는 자격 증명을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). 만료되지 않는 기존 자격 증명을 사용하려면 해당 자격 증명이 [OAuth로 마이그레이션되었는지](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)확인하십시오.
 
 1. Customer Journey Analytics 제품 및 제품 프로필에 대해 만료되지 않는 자격 증명을 사용할 수 있는지 확인합니다. 다음 단계를 실행하려면 조직의 시스템 관리자여야 합니다.
    1. ![앱](/help/assets/icons/Apps.svg)에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
@@ -127,7 +136,7 @@ Adobe Experience Platform:
 
    1. **[!UICONTROL 데이터베이스]** 드롭다운 메뉴의 데이터베이스 목록에서 샌드박스의 `cja` 데이터베이스를 선택하십시오. 예 `prod:cja`.
 
-   1. 명령 문자열을 복사하려면 **[!UICONTROL **&#x200B; PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
+   1. 명령 문자열을 복사하려면 **[!UICONTROL ** PSQL 명령&#x200B;**]** 섹션의 ![복사](assets/Smock_Copy_18_N.svg)를 사용합니다.
 
 1. 명령 또는 터미널 창을 엽니다.
 
@@ -160,9 +169,9 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일에서 **[!UICONTROL 자세히...]**&#x200B;를 선택합니다.
 
-   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL **&#x200B; PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
+   1. **데이터 가져오기** 화면에서 `PostgresSQL`을 검색하고 해당 목록에서 **[!UICONTROL ** PostgresSQL 데이터베이스&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL **&#x200B; PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
+   1. **[!UICONTROL ** PostgressSQL 데이터베이스&#x200B;**]** 대화 상자에서 다음 작업을 수행하십시오.
 
       1. Experience Platform 쿼리 [!UICONTROL 자격 증명]의 **[!UICONTROL **&#x200B;호스트&#x200B;**]** 매개변수를 **[!UICONTROL **&#x200B;서버&#x200B;**]** 텍스트 필드에 붙여넣습니다.
 
@@ -201,7 +210,7 @@ Adobe Experience Platform:
 
    1. 왼쪽 레일의 **[!UICONTROL **&#x200B;서버로&#x200B;**]**&#x200B;에서 **[!UICONTROL **&#x200B;자세히&#x200B;**]**&#x200B;를 선택합니다.
 
-   1. 목록에서 **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**&#x200B;을 선택합니다.
+   1. 목록에서 **[!UICONTROL ** PostgresSQL **]**&#x200B;을 선택합니다.
 
    1. [!UICONTROL PostgresSQL] 대화 상자에서 다음 작업을 수행하십시오.
 
@@ -312,7 +321,7 @@ Customer Journey Analytics BI 확장 기능을 사용하여 다양한 사용 사
 
 ## 기능
 
-기본적으로 데이터 보기에는 친숙한 이름에서 생성된 테이블에 안전한 이름이 있습니다. 예를 들어 [!UICONTROL 내 웹 데이터 보기]라는 데이터 보기의 보기 이름은 `my_web_data_view`입니다. BI 도구에서 데이터 보기에 사용할 기본 이름을 정의할 수 있습니다. 자세한 내용은 [데이터 보기 설정](create-dataview.md#settings)을 참조하십시오.
+기본적으로 데이터 보기에는 데이터 보기 기본 외부 ID에서 생성된 테이블 이름이 있습니다. 예를 들어, 이름이 **[!UICONTROL 내 웹 데이터 보기]**&#x200B;인 데이터 보기의 외부 ID는 `My_web_data_view`입니다. BI 도구에서 데이터 보기에 사용할 기본 이름을 정의할 수 있습니다. 자세한 내용은 [데이터 보기 설정](create-dataview.md#settings)을 참조하십시오.
 
 데이터 보기 ID를 테이블 이름으로 사용하려면 연결할 때 데이터베이스 이름에 옵션인 `CJA_USE_IDS` 설정을 추가할 수 있습니다. 예를 들어 `prod:cja?CJA_USE_IDS`에는 `dv_ABC123`과 같은 데이터 보기가 표시됩니다.
 
@@ -327,12 +336,12 @@ Experience Platform에서 사용하는 데이터 세트에 생성된 개인정�
 표준 PostgreSQL CLI에서 `\dv`를 사용하여 보기를 나열할 수 있음
 
 ```sql
-prod:all=> \dv
+prod:cja=> \dv
                        List of relations
  Schema |                    Name                    | Type |  Owner             
 --------+--------------------------------------------+------+----------
- public | my_web_data_view                           | view | postgres
- public | my_mobile_data_view                        | view | postgres
+ public | My_web_data_view                           | view | postgres
+ public | My_mobile_data_view                        | view | postgres
 ```
 
 ### 중첩 및 평면화

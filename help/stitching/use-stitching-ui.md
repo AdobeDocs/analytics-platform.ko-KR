@@ -8,19 +8,21 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
+    internal-label: Admin
+source-git-commit: 79f124f639c35a97991690e18f6451fc20b02da9
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: '1788'
 ht-degree: 20%
-
 ---
-
 # 결합 활성화
 
 연결의 일부로 구성한 하나 이상의 이벤트 데이터 세트에 대한 결합을 활성화할 수 있습니다. 라이선스가 부여된 Customer Journey Analytics 패키지에 따라 연결할 수 있는 이벤트 데이터 세트 수가 결정됩니다.
@@ -53,7 +55,7 @@ ht-degree: 20%
       {DATASET_TABLE_NAME}
     WHERE
       TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-      AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+      AND TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') < TIMESTAMP '{END_DATE}';
     ```
 
     여기서
@@ -80,7 +82,7 @@ ht-degree: 20%
         {DATASET_TABLE_NAME}
       WHERE
         TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+        AND TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') < TIMESTAMP '{END_DATE}';
       ```
 
       여기서
@@ -100,7 +102,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
 >title="ID 그래프로 변경"
->abstract="결합할 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하십시오."
+>abstract="결합에 ID 그래프를 사용하기 전에 ID 그래프 설정을 완료했는지 확인하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/stitching/gbs" text="그래프 기반 결합"
 
 >[!CONTEXTUALHELP]
@@ -126,7 +128,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="영구 ID 적용 범위"
->abstract="이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(라이브 및 재생) 중 식별에 사용됩니다. <br/>영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다."
+>abstract="이 값은 개인 ID 값을 감지할 수 없는 경우 결합 프로세스(라이브 및 재생) 중 식별에 사용됩니다. <br/>영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다."
 
 
 >[!CONTEXTUALHELP]
@@ -199,7 +201,7 @@ ht-degree: 20%
 
   개인 ID 범위는 백분율로 표시되며, 안정적인 개발 또는 프로덕션 설정에서 권장되는 사항과 비교됩니다. 이 적용 범위 값이 높을수록 선택한 개인 ID로 더 나은 결합 결과를 얻을 수 있습니다.
 
-* **[!UICONTROL 영구 ID 범위]**: 이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(실시간 및 재생) 중에 식별에 사용됩니다. 영구 ID와 개인 ID가 없는 이벤트는 데이터에서 삭제됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다.
+* **[!UICONTROL 영구 ID 범위]**: 이 값은 개인 ID 값을 검색할 수 없는 경우 결합 프로세스(실시간 및 재생) 중에 식별에 사용됩니다. 영구 ID와 개인 ID가 없는 이벤트는 데이터에서 제외됩니다. 최상의 결합 결과를 얻으려면 모든 이벤트에 영구 ID가 있어야 합니다.
 
   영구 ID 범위는 백분율로 표시되며, 안정적인 개발 또는 프로덕션 설정에서 권장되는 최소 사항과 비교됩니다.
 
