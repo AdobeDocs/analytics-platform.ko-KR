@@ -3,9 +3,9 @@ title: 데이터 피드에 데이터 변환 적용
 description: 구성 요소 설정, 파생 필드 또는 SQL을 사용하여 데이터 피드 데이터를 변환하는 다양한 방법에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: 6ee0530b8f67f738274817e2535267d71dee0463
+source-git-commit: 6400a6bfcd65bee012beaf39aca873b2f225e45e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1594'
 ht-degree: 5%
 ---
 # 데이터 피드에 데이터 변환 적용
@@ -28,9 +28,9 @@ ht-degree: 5%
 
 | 메서드 | 장점 | 단점 |
 | --- | --- | --- |
-| **구성 요소 설정** | <ul><li>데이터 피드가 배달되기 전에 보고서 시간에 적용됩니다.</li><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다.</li><li>은(는) 계정의 제한된 파생 필드 중 하나를 사용하지 않습니다. (사용할 수 있는 구성 요소 설정의 수에는 제한이 없습니다.)</li><li>지속성 및 지표 중복 제거와 같은 일부 변환은 SQL에서 복제하기가 어렵고, 현재 파생된 필드에서는 지속성이 불가능합니다.</li></ul> | <ul><li>각 구성 요소가 지원하는 특정 설정 세트에만 사용할 수 있으며, 파생 필드를 사용하여 사용자 지정 논리를 작성하는 것만큼 유연하지는 않습니다.</li><li>설정이 데이터 피드 출력에 영향을 미치는지 여부는 몇 가지 설정에 대해 계속 확인되고 있습니다. 아래 표를 참조하십시오.</li></ul> |
-| **파생 필드** | <ul><li>데이터 피드가 배달되기 전에 보고서 시간에 적용됩니다.</li><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다.</li><li>체인 조건부 규칙과 같은 단일 구성 요소 설정보다 유연한 사용자 지정 로직을 지원합니다.</li><li>일부 변형, 특히 범위 설정에 따라 달라지거나 URL을 구문 분석하는 변형은 SQL에서 복제하기 어렵습니다.</li></ul> | <ul><li>데이터 피드 전달 성능에 영향을 줄 수 있는 처리 오버헤드를 추가합니다.<!--Under a future usage-based pricing model, this could also add cost.--></li><li>계정의 제한된 파생 필드 중 하나를 사용합니다. 구성 요소 설정이 동일한 변형을 수행할 수 있는 경우 대신 해당 변형을 선호합니다.</li></ul> |
-| **SQL** | <ul><li>파생 필드에 적용되는 함수 및 연산자 제한에 의해 제한되지 않습니다.</li><li>는 데이터 피드 전달 성능에 영향을 주지 않습니다.</li></ul> | <ul><li>데이터 피드가 이미 전달된 후에 적용됩니다.</li><li>논리는 Analysis Workspace에 적용되지 않으므로 별도로 복제해야 합니다.</li><li>일부 변형, 특히 범위 설정에 따라 달라지거나, URL을 구문 분석하거나, 범위에서 중복 제거를 수행하거나 값을 유지하는 변형은 복제하기 어렵거나 비현실적입니다.</li></ul> |
+| **구성 요소 설정** | <ul><li>데이터 피드가 배달되기 전에 보고서 시간에 적용됩니다.</li><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다.</li><li>은(는) 계정의 제한된 파생 필드 중 하나를 사용하지 않습니다.</li><li>사용할 수 있는 구성 요소 설정의 수에는 제한이 없습니다.</li></ul> | <ul><li>각 구성 요소가 지원하는 특정 설정 세트에만 사용할 수 있습니다. 파생 필드로 사용자 지정 논리를 작성하는 것만큼 유연하지는 않습니다.</li></ul> |
+| **파생 필드** | <ul><li>데이터 피드가 배달되기 전에 보고서 시간에 적용됩니다.</li><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다.</li><li>체인 조건부 규칙과 같은 단일 구성 요소 설정보다 유연한 사용자 지정 로직을 지원합니다.</li><li>일부 변형, 특히 범위 설정에 따라 달라지거나 URL을 구문 분석하는 변형은 SQL에서 복제하기 어렵습니다.</li></ul> | <ul><li>데이터 피드 전달 성능에 영향을 줄 수 있는 처리 오버헤드를 추가합니다.<!--Under a future usage-based pricing model, this could also add cost.--></li><li>계정의 제한된 파생 필드 중 하나를 사용합니다. 구성 요소 설정이 동일한 변형을 수행할 수 있는 경우 대신 해당 변형을 사용합니다.</li></ul> |
+| **SQL** | <ul><li>파생 필드에 적용되는 함수 및 연산자 제한에 의해 제한되지 않습니다.</li><li>는 데이터 피드 전달 성능에 영향을 주지 않습니다.</li></ul> | <ul><li>데이터 피드가 이미 전달된 후에 적용됩니다.</li><li>논리는 Analysis Workspace에 적용되지 않으므로 별도로 복제해야 합니다.</li><li>일부 변환은 복제하기 어렵거나 비현실적입니다. 특히 범위 설정에 따라 달라지거나, URL을 구문 분석하거나, 범위 전체에 걸쳐 중복을 제거하거나 값을 유지하는 변환이 많습니다.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 | **이벤트, 프로필 또는 합계를 기준으로 지표 범위 지정** | [범위](/help/data-views/component-settings/scope.md) | 사용할 수 없음 | | | <!--Not yet discussed with the team. Don't assume this affects data feed output until confirmed.--> |
 | **구분된 값 분할** | [하위 문자열](/help/data-views/component-settings/substring.md)(구분 기호 또는 왼쪽/오른쪽 메서드에서) | [분할](/help/data-views/derived-fields/derived-fields.md#split) | 쉬움/보통 | 구성 요소 설정<p>권장 이유:</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | |
 | **범위 전체에 걸쳐 값 요약 또는 집계** | 사용할 수 없음 | [요약](/help/data-views/derived-fields/derived-fields.md#summarize) | 어려움 | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 범위 설정에 따라 다릅니다. [범위 설정이 데이터 피드에 미치는 영향](#scope-settings)을 참조하세요. |
-| **문자열에서 문자 트리밍** | [하위 문자열](/help/data-views/component-settings/substring.md)(Trim 메서드) | [트리밍](/help/data-views/derived-fields/derived-fields.md#trim) | 쉬움/보통 | 구성 요소 설정<p>세 가지 접근 방식 모두 동일한 결과를 생성하지만, 다음과 같은 이유로 구성 요소 설정을 선호합니다.</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | |
+| **문자열에서 문자 트리밍** | [하위 문자열](/help/data-views/component-settings/substring.md)(Trim 메서드) | [트리밍](/help/data-views/derived-fields/derived-fields.md#trim) | 쉬움/보통 | 구성 요소 설정<p>권장 이유:</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | |
 
 {style="table-layout:auto"}
 
@@ -80,6 +80,6 @@ ht-degree: 5%
 
 ## 파생 필드 함수 템플릿
 
-[파생 필드 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#templates)을 사용하면 마케팅 채널 구축, 봇 검색 또는 URL에서 UTM 매개 변수 추출과 같은 특정 사용 사례에 대한 파생 필드를 빠르게 만들 수 있습니다. 템플릿은 미리 작성된 규칙 체인으로 작성되므로 SQL에서 동일한 논리를 처음부터 재현하는 것보다 항상 하나를 사용하는 것이 좋습니다.
+[파생 필드 함수 템플릿](/help/data-views/derived-fields/derived-fields.md#templates)을 사용하면 마케팅 채널 구축, 봇 검색 또는 URL에서 UTM 매개 변수 추출과 같은 특정 사용 사례에 대한 파생 필드를 빠르게 만들 수 있습니다. 템플릿은 미리 작성된 규칙 체인으로 작성되기 때문에 `Marketing Channel Template`에서와 같이 SQL에서 동일한 논리를 처음부터 재현하는 것보다 항상 하나를 사용하는 것이 좋습니다.
 
 템플릿에 범위 설정에 의존하는 함수가 포함된 경우 템플릿에는 해당 함수의 범위 주의 사항이 상속됩니다. [범위 설정이 데이터 피드에 미치는 영향](#scope-settings)을 참조하세요.
