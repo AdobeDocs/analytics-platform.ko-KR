@@ -96,7 +96,7 @@ ht-degree: 31%
 
 1. 인터페이스 오른쪽 상단에 있는 앱 전환기 ![App](/help/assets/icons/Apps.svg)에서 [!UICONTROL **Customer Journey Analytics**]&#x200B;를 선택합니다.
 
-1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**](으)로 이동합니다.
+1. 위쪽 탐색 모음에서 [!UICONTROL **구성 요소**] > [!UICONTROL **내보내기**] (으)로 이동합니다.
 
 1. [!UICONTROL **데이터 피드**] 탭을 선택합니다.
 
