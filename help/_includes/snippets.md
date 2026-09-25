@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
+source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
 workflow-type: tm+mt
-source-wordcount: '5542'
-ht-degree: 97%
+source-wordcount: '5602'
+ht-degree: 96%
 ---
 # 스니펫
 
@@ -329,7 +329,10 @@ Customer Journey Analytics에는 사전 처리 및 사후 처리의 개념이 �
 
 ## 관계형 데이터 세트 중요 메시지 {#relational-dataset-important}
 
+관계형 데이터 세트는 관계형 스키마 유형을 기반으로 합니다. 해당 관계형 스키마 **에 정의된 관계 설명자는 일반적인 Customer Journey Analytics 연결의 정의 및 구성 또는 관계형 데이터 세트에 대한 데이터 세트 설정에**&#x200B;을(를) 적용하지 않습니다.
+
+또한 Customer Journey Analytics에서 표준 XDM 스키마 **의 필드는 관계형 스키마의 유사한 명명된 필드와 자동으로 병합되지 않습니다**.
 >[!IMPORTANT]
 >
->관계형 데이터 세트는 관계형 스키마 유형을 기반으로 합니다. 해당 관계형 스키마에 정의된 관계 설명자는 관련성이 없으며 일반적인 Customer Journey Analytics 연결의 정의 및 구성 또는 관계형 데이터 세트에 대한 데이터 세트 설정에 적용되지 않습니다. <br/><br>Customer Journey Analytics 보고 및 분석의 경우 [데이터 세트 설정](/help/connections/create-connection.md#relational-dataset)에서 일반 개인 ID 또는 계정 ID를 기준으로 관계형 데이터 세트의 데이터가 다른 데이터 세트에 연결되는 방식을 명시적으로 구성해야 합니다.
+>Customer Journey Analytics 보고 및 분석의 경우 [데이터 세트 설정](/help/connections/create-connection.md#relational-dataset)에서 일반 개인 ID 또는 계정 ID를 기반으로 관계형 데이터 세트의 데이터가 다른 데이터 세트에 연결되는 방식을 명시적으로 구성해야 합니다. <br/><br/>파생 필드 [필드 병합](/help/data-views/derived-fields/derived-fields.md#merge-fields) 함수를 사용하여 XDM 스키마 및 관계형 스키마에서 비슷한 명명된 필드(개체 배열의 일부가 아님)를 병합하는 것이 좋습니다. 오브젝트 배열의 필드에 대해 XDM과 관련 스키마 간에 필드를 병합할 솔루션이 현재 없습니다.
 >
