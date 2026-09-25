@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
+source-git-commit: ede5644096e8b1169819fb94399d5360066ca529
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1746'
 ht-degree: 0%
 ---
 # Customer Journey Analytics 및 Adobe Analytics에서 데이터 피드 비교
@@ -93,6 +93,7 @@ Customer Journey Analytics 및 Adobe Analytics의 데이터 피드를 사용하�
 | **세그먼테이션**<br/>&#x200B;세그먼트를 사용하여 데이터 피드 출력을 필터링하는 기능. | 데이터 보기에 적용된 세그먼트는 데이터 피드에 의해 자동으로 상속됩니다. 추가 세그먼트를 개별 데이터 피드에 직접 적용할 수도 있습니다. 자세한 내용은 [데이터 피드의 세그먼테이션](/help/components/exports/cja-data-feeds/df-segmentation.md)을 참조하세요. | 지원되지 않습니다. 데이터 피드는 수집된 모든 데이터를 세그먼트 필터링 없이 내보냅니다. |
 | **계산된 지표**<br/>&#x200B;기존 지표에서 만들 수 있는 사용자 지정 지표입니다. | 지원되지 않음 | 지원되지 않음 |
 | **지속성 모델**<br/>&#x200B;차원 값이 한 이벤트에서 다음 이벤트로 지속되는지 여부입니다. | 유연합니다. 데이터 보기의 지속성 설정(할당 및 만료)은 피드가 생성될 때 보고서 시간에 적용됩니다. 데이터 보기에서 사용할 수 있는 모든 할당 설정을 지원합니다. **원래**, **가장 최근**, **모두**, **처음 알려짐** 및 **마지막 알려짐**. | **가장 최근(마지막 터치)** 및 **원래 값(첫 번째 터치)** 속성 모델만 표시됩니다. 선형 할당은 마지막 터치와 동일하게 처리됩니다. |
+| **하위 이벤트 처리**<br/>&#x200B;하위 이벤트가 데이터 피드 출력에 표시되는 방식입니다. | 단일 행에 표시되지만 관계형 계층은 유지됩니다. 자세한 내용은 [데이터 피드의 하위 이벤트](/help/components/exports/cja-data-feeds/df-sub-event.md)를 참조하세요. | 단일 행에 병합되고 구분된 문자열로 표시됩니다. 문자열을 구문 분석하려면 사용자 지정 논리가 필요합니다. |
 | **출력 파일 형식**<br/>&#x200B;클라우드 대상에 전달된 데이터 피드 출력 파일에 사용되는 형식입니다. | 쪽모이 세공<p>는 기본적으로 복잡한 중첩 및 구조화된 데이터를 지원합니다. `post_product_list`과(와) 같은 필드는 구조화된 배열/중첩된 개체로 표시됩니다. </p><p>BigQuery, Snowflake 또는 Apache Spark와 같이 읽을 수 있는 Parquet 인식 도구가 필요합니다.</p><p>스키마 구조는 출력 파일 내에 포함되어 있습니다.</p> | TSV<p>사람이 읽을 수 있는 평면형 행. 는 구조화된 데이터를 기본적으로 지원하지 않습니다. 제품 목록과 같은 복잡한 필드는 사용자 지정 구문 분석 논리를 필요로 하는 배타적으로 구분된 문자열로 인코딩해야 합니다.</p> |
 | **출력 파일 경로**<br/>&#x200B;전달된 출력 파일에 사용되는 디렉터리 구조입니다. | **하이브 스타일 파티션 경로**(예: `year=2024/month=01/day=15/`)을(를) 사용하여 Databricks 또는 Apache Spark와 같은 데이터 레이크 환경에서 데이터를 쿼리할 때 효율적인 파티션 정리를 활성화합니다. | 플랫 디렉토리 구조를 사용합니다. 하이브 스타일 경로는 지원되지 않습니다. |
 | **배달 대상**<br/>&#x200B;데이터 피드 출력 파일을 보낼 수 있는 클라우드 저장소 위치입니다. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform <p>**SFTP**&#x200B;도 지원합니다.</p> |
