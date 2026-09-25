@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: ed1569087178fe1941d13f481914db6982ed18a1
+source-git-commit: 137eef954a6300405aa2c045ff29008e1daa72ce
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 92%
+source-wordcount: '1496'
+ht-degree: 93%
 ---
 # Adobe Customer Journey Analytics 안내서 {#using}
 
@@ -428,14 +428,14 @@ ht-degree: 92%
     + [내보내기 로그 관리](/help/components/exports/manage-export-logs.md)
     + [내보내기 문제 해결](/help/components/exports/troubleshoot-exports.md)
     + 데이터 피드 {#cja-data-feeds}
-      + {hide-from-toc}[데이터 피드 개요](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+      + {hide-from-toc}[개요](/help/components/exports/cja-data-feeds/data-feed-overview.md)
       + {hide-from-toc}[Adobe Analytics 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison.md)
       + {hide-from-toc}[Workspace 및 데이터 피드 비교](/help/components/exports/cja-data-feeds/df-comparison-workspace.md)
       + {hide-from-toc}[열 매핑 준비](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[열 매핑](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[데이터 피드 만들기](/help/components/exports/cja-data-feeds/create-feed.md)
       + {hide-from-toc}[데이터 피드의 세분화](/help/components/exports/cja-data-feeds/df-segmentation.md)
-      + {hide-from-toc}[데이터 피드에서 파생된 필드 사용](/help/components/exports/cja-data-feeds/df-derived-fields.md)
+      + {hide-from-toc}[데이터 변환 적용](/help/components/exports/cja-data-feeds/df-data-transformations.md)
   + 데이터 사전 {#data-dictionary}
     + [개요](../components/data-dictionary/data-dictionary-overview.md)
     + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)

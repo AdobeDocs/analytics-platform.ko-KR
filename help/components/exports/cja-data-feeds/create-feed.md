@@ -7,24 +7,30 @@ autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
+    internal-label: Customer journeys
+source-git-commit: 2391b13373992de30834f846da2fb7b71f5279ee
 workflow-type: tm+mt
-source-wordcount: 4217
+source-wordcount: '4250'
 ht-degree: 31%
-
 ---
-
 # 데이터 피드 만들기
 
 {{release-limited-testing}}
@@ -293,6 +299,10 @@ ht-degree: 31%
    +++
 
 1. (선택 사항) 캔버스에서 구성 요소를 드래그하여 순서를 변경합니다. 정의한 순서는 내보낸 데이터 피드 파일의 열 순서로 유지됩니다.
+
+1. (선택 사항) 열 테두리를 끌어 캔버스에서 열 크기를 조정합니다.
+
+   열 너비는 쿠키에 저장되고 다음에 동일한 브라우저에서 이 데이터 피드로 돌아갈 때 지속됩니다.
 
 1. (선택 사항) 데이터 피드 출력에 표시되는 구성 요소 ID를 변경합니다.
 
