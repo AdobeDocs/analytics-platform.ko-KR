@@ -4,7 +4,6 @@ description: Data Warehouse 기본 솔루션과 Customer Journey Analytics 간�
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-hold: true
 autotag-review: '2026-05-19T06:55:09.938Z'
 TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
 product_v2:
@@ -28,14 +27,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
+source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 1%
 ---
 # Experience Platform Data Mirror 고려 사항
 
 이 문서에서는 Data Mirror 데이터 세트를 설정할 때 고려해야 하는 요소에 대해 설명합니다.
+
+## 제한 사항
+
+{{relational-dataset-important}}
 
 ## 소스 테이블에 새 열 추가
 
@@ -103,10 +106,6 @@ XDM [스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/x
 
 * 고객은 보다 수동적인 거버넌스 및 구성을 사용할 수 있습니다.
 * 명시적인 지침이 필요할 수 있으므로 필드 그룹을 통한 일회성 레이블 지정이 적절한 거버넌스에 충분하다고 가정하지 마십시오.
-
-## 데이터 세트 설정
-
-{{relational-dataset-important}}
 
 ## 결합
 
