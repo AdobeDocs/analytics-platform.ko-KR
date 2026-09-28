@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
+source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
 workflow-type: tm+mt
-source-wordcount: '10488'
-ht-degree: 92%
+source-wordcount: '10597'
+ht-degree: 91%
 ---
 # 연결 만들기 또는 편집 {#create-or-edit-a-connection}
 
@@ -250,7 +250,7 @@ ht-degree: 92%
    | **[!UICONTROL 연결 이름]** | 연결의 고유 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 태그]** | 태그를 지정하여 연결에 태그를 추가하면 해당 태그를 사용하여 이후 단계에서 연결을 검색할 수 있습니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
    | **[!UICONTROL 데이터 세트 추가]** | 데이터 세트를 추가하려면 ![데이터 추가](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
@@ -844,13 +844,13 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->구성 및 선택이 가능하기는 하지만 성능을 위해 시계열(이벤트, 요약) 데이터에 애드 혹 데이터 세트를 사용하지 말아야 합니다. 관계형 또는 일반 XDM 기반 데이터 세트는 애드 혹 데이터 세트보다 시계열 데이터에 훨씬 적합합니다.
+>구성 및 선택할 수는 있지만, 성능상의 이유로 시계열(이벤트, 요약) 데이터에 임시 데이터 세트를 사용하지 말아야 합니다. 관계형 또는 일반 XDM 기반 데이터 세트는 애드 혹 데이터 세트보다 시계열 데이터에 훨씬 적합합니다.
 
 애드 혹 데이터 세트에 대한 특정 설정은 다음과 같습니다.
 
 | 설정 | 선택한 데이터 세트 유형 | 설명 |
 |---|---|---|
-| **[!UICONTROL 데이터 세트 유형]** | 해당 사항 없음 | 애드 혹 데이터 세트의 데이터 유형입니다. 가능한 값은 **[!UICONTROL 이벤트]**, **[!UICONTROL 프로필]**, **[!UICONTROL 조회]** 및 **[!UICONTROL 요약]**&#x200B;입니다. |
+| **[!UICONTROL 데이터 세트 유형]** | 해당 사항 없음 | 애드 혹 데이터 세트의 데이터 유형입니다. 가능한 값은 **[!UICONTROL Event]**, **[!UICONTROL Profile]**([!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}에는 사용할 수 없음), **[!UICONTROL Lookup]** 및 **[!UICONTROL Summary]**&#x200B;입니다. 계정 기반 연결에 애드혹 프로필 데이터를 사용하려면 **[!UICONTROL 조회]**&#x200B;를 **[!UICONTROL 데이터 세트 유형]**(으)로 선택하고 **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]**&#x200B;를 사용하여 계정 데이터를 가져옵니다. |
 | **[!UICONTROL 개인 ID]** | 이벤트, 프로필 | 개인 ID를 나타내는 애드 혹 또는 관계형 스키마의 필드를 선택합니다. 이 필드는 데이터 세트의 어떠한 필드도 될 수 있습니다. **[!UICONTROL ID 네임스페이스 필드]** 또는 **[!UICONTROL 비 ID 필드]**&#x200B;에서 선택합니다. <br/>애드 혹 스키마의 필드 중 하나 이상에 ID 레이블이 지정되고 ID 네임스페이스가 있는 경우에만 **[!UICONTROL ID 네임스페이스]**&#x200B;에서 식별자를 선택할 수 있습니다. |
 | **[!UICONTROL ID 네임스페이스]** | 이벤트 | **[!UICONTROL 비 ID]** 필드에서 개인 ID를 선택한 경우, ID 네임스페이스를 선택합니다. |
 | **[!UICONTROL 타임스탬프]** | 이벤트, 요약 | 타임스탬프 필드를 나타내는 애드 혹 스키마에서 필드를 선택합니다. 이 필드는 사용 가능한 `DateTime` 형식의 필드일 수 있습니다. |
@@ -871,7 +871,7 @@ ht-degree: 92%
 
 | 설정 | 선택한 데이터 세트 유형 | 설명 |
 |---|---|---|
-| **[!UICONTROL 데이터 세트 유형]** | 해당 사항 없음 | 관계형 데이터 세트의 데이터 유형입니다.<br/>데이터 세트에 시계열 데이터가 포함되어 있는 경우, 가능한 값은 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 요약]**&#x200B;입니다. <br/>데이터 세트에 레코드 데이터가 포함되어 있는 경우, 가능한 값은 **[!UICONTROL 프로필]** 및 **[!UICONTROL 조회]**&#x200B;입니다. |
+| **[!UICONTROL 데이터 세트 유형]** | 해당 사항 없음 | 관계형 데이터 세트의 데이터 유형입니다.<br/>데이터 세트에 시계열 데이터가 포함되어 있는 경우, 가능한 값은 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 요약]**&#x200B;입니다. <br/>데이터 집합에 레코드 데이터가 들어 있는 경우 가능한 값은 **[!UICONTROL Profile]**([!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}에는 사용할 수 없음) 및 **[!UICONTROL Lookup]**&#x200B;입니다. 계정 기반 연결에 관계형 프로필 데이터를 사용하려면 **[!UICONTROL 조회]**&#x200B;를 **[!UICONTROL 데이터 세트 유형]**(으)로 선택하고 **[!UICONTROL 키]** 및 **[!UICONTROL 일치하는 키]**&#x200B;를 사용하여 계정 데이터를 가져옵니다. |
 | **[!UICONTROL 개인 ID]** | 이벤트, 프로필 | 개인 ID를 나타내는 관계형 스키마에서 필드를 선택합니다. 선택 항목은 ID로 표시되고 ID 네임스페이스가 있는 관계형 스키마의 필드 목록으로 제한됩니다. |
 | **[!UICONTROL 타임스탬프]** | 이벤트, 요약 | 스키마에서 타임스탬프 설명자로 정의된 필드입니다. 이 필드는 자동으로 채워집니다. |
 | **[!UICONTROL 키]** | 조회 | 조회 데이터 세트에 사용할 키입니다.<br/>레코드에 조회 데이터 세트에 대해 선택한 키의 값이 없는 경우, 레코드를 건너뜁니다. |
