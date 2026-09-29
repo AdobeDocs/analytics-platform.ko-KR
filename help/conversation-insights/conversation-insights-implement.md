@@ -2,12 +2,25 @@
 title: 대화 통찰력 구현
 description: Conversation Insights용 에이전트 애플리케이션 또는 서비스를 계측하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2322'
 ht-degree: 6%
 ---
 # 대화 통찰력 구현
@@ -19,19 +32,19 @@ ht-degree: 6%
 >[!PREREQUISITES]
 >
 >* 데이터를 수집하려면 Experience Platform 환경(조직 및 샌드박스)을 사용할 수 있어야 합니다.
->* 실험 에이전트 및 대화 필드 그룹에 대해 Adobe 조직을 활성화해야 합니다.
+>* 에이전트 및 대화 필드 그룹에 대해 Adobe 조직을 활성화해야 합니다.
 >
 
 ## 스키마 및 데이터 세트
 
-기본 대화 이벤트(프롬프트, 응답, 피드백)를 위한 데이터 세트를 구성합니다. 이러한 데이터 세트는 동일한 스키마(예: 일반 대화 통찰력 스키마) 또는 개별 스키마를 기반으로 할 수 있습니다.
-프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 모든 대화 이벤트에 단일 데이터 세트를 사용합니다.
+기본 대화 이벤트(프롬프트, 응답, 피드백)를 위한 데이터 세트를 구성합니다. 프롬프트, 응답 및 피드백 데이터 세트는 XDM 경험 이벤트 기본 스키마를 [대화 이벤트 필드 그룹](#conversation-event-field-group)과(와) 함께 확장해야 하며 선택적으로 [에이전트 정보 필드 그룹](#agentic-information-field-group) 및 기타 [추가 필드 그룹](#additional-field-groups)을 포함할 수 있습니다.
 
-프롬프트, 응답 및 피드백 데이터 세트에 사용되는 스키마는 XDM 경험 이벤트 기본 스키마를 필수 필드 그룹으로 확장해야 합니다. 추가 필드 그룹으로 XDM 경험 이벤트 기본 스키마를 확장할 수 있습니다.
+프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 모든 대화 이벤트에 단일 데이터 세트를 사용합니다.
+데이터 세트에 대해 동일한 기본 스키마를 사용합니다.
 
 ### 에이전트 정보 필드 그룹
 
-**[!UICONTROL 에이전트 정보]** 필드 그룹은 필수 필드 그룹이며 `agenticExperience` 개체를 사용합니다.
+**[!UICONTROL 에이전트 정보]** 필드 그룹은 선택적 필드 그룹이며 `agenticExperience` 개체를 사용합니다. 에이전트 정보를 추적하려면 이 필드 그룹을 사용하는 것이 좋습니다.
 
 +++ 세부 사항
 
@@ -203,7 +216,7 @@ ht-degree: 6%
 
 #### 대화
 
-고유한 `conversationID`이(가) 대화를 식별합니다. 예: `conversationID = "conv-001"`. 스키마에서도 `conversationName`을(를) 지원합니다. 사용자가 읽을 수 있는 이름으로, 대화의 전체 컨텍스트를 설명합니다(예: `France Geography Q&A`).
+고유한 `conversationID`이(가) 대화를 식별합니다. 예: `conversationID = "conv-001"`. 스키마에서도 `conversationName`을(를) 지원합니다. 사용자가 읽을 수 있는 이름으로, 대화의 전체 컨텍스트를 설명합니다(예: `France Geography Q&A`). 대화 이름이 자동으로 생성되지만 생성된 이름을 업데이트할 수 있습니다. 대화 이름도 `signals[].name`(으)로 채워집니다.
 
 `conversationID`을(를) 사용하면 관련된 모든 회전 이벤트를 동일한 대화 경험으로 그룹화할 수 있습니다.
 
@@ -216,7 +229,7 @@ ht-degree: 6%
 `conversationID = "conv-001"`
 `turnID = "turn-001"`
 
-같은 `conversationID` 및 `turnID`을(를) 사용하여 해당 전환과 연결된 프롬프트, 응답 및 피드백을 상호 연관시킵니다. 이러한 상관 관계는 별도로 제공되거나 다른 데이터 세트로 끝나는 레코드 간에 작동합니다.
+같은 `conversationID` 및 `turnID`을(를) 사용하여 해당 전환과 연결된 프롬프트, 응답 및 피드백을 상호 연관시킵니다. 이러한 상관 관계는 별도로 제공되거나 다른 데이터 세트로 끝나는 레코드 간에 작동합니다. `turnId`은(는) 동일한 대화 내에서만 고유해야 하지만 여러 대화 간에 다시 사용할 수 있습니다. 예를 들어 `conversationID` `conv-001` 및 `conv-002`과(와) 대화에서 `turn-001`을(를) 모두 `turnID`(으)로 사용할 수 있습니다.
 
 
 #### 프롬프트
@@ -231,7 +244,7 @@ ht-degree: 6%
 |---|---|
 | `prompt.source` | 프롬프트를 만든 사람 또는 무엇, 일반적으로 최종 사용자. |
 | `prompt.raw[]` | 하나 이상의 원시 콘텐츠 세그먼트. |
-| `prompt.raw[].text` | 실제 프롬프트 텍스트 또는 콘텐츠입니다. |
+| `prompt.raw[].text` | 실제 프롬프트 텍스트 또는 콘텐츠 링크(예: 스크린샷). |
 | `prompt.raw[].purpose` | 콘텐츠의 목적(예: 사용자 입력 또는 링크) |
 
 프롬프트에 여러 원시 세그먼트가 포함될 수 있습니다. 예를 들어 사용자가 텍스트를 입력하고 URL을 포함합니다.
@@ -257,6 +270,8 @@ ht-degree: 6%
 | `response.raw[].purpose` | 콘텐츠 세그먼트의 목적. |
 
 문서화된 소스 유형은 다음과 같습니다.
+
+<!-- randy buck to provide additional details -->
 
 | 소스 | 의미 |
 |---|----|
@@ -287,7 +302,9 @@ ht-degree: 6%
 
 #### 신호
 
-신호는 대화 내용에 대한 구조화된 분석적 관찰입니다. 신호 추출 서비스는 신호를 추출합니다.
+신호는 대화 내용에 대한 구조화된 분석적 관찰입니다. 신호 서비스는 기본 신호를 제공합니다. 신호를 제공하는 데 필요한 작업은 없지만 통합의 일부로 신호를 추가할 수 있습니다.
+
+<!-- randy buck to provide additional details -->
 
 신호에는 다음 필드가 있습니다.
 
@@ -360,9 +377,6 @@ ht-degree: 6%
 
 +++
 
-
-
-
 ### 추가 필드 그룹
 
 프롬프트, 응답 및 피드백 데이터 세트에 사용하는 스키마에 선택적 필드 그룹을 추가할 수 있습니다. 예:
@@ -382,9 +396,9 @@ ht-degree: 6%
 
 | 값 | 설명 |
 |---|---|
-| `conversation turn` | 대화에 대한 프롬프트 및 응답 완료 |
-| `conversation recommendation` | 대화 기반 추천 |
-| `conversation feedback` | 피드백 전용 이벤트 |
+| `conversation.turn` | 대화에 대한 프롬프트 및 응답 완료 |
+| `conversation.recommendation` | 대화 기반 추천 |
+| `conversation.feedback` | 피드백 전용 이벤트 |
 
 
 ### Source 유형
@@ -401,6 +415,8 @@ ht-degree: 6%
 ### 목적 유형(원시 텍스트)
 
 `prompt`, `response` 또는 `feedback` 개체에 있는 `raw` 개체의 모든 요소에 대해 `purpose` 특성에 대해 다음 값 중 하나를 설정해야 합니다.
+
+<!-- randy buck to provide details -->
 
 | 값 | 설명 |
 |---|---|

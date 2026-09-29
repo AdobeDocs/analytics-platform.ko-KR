@@ -2,18 +2,31 @@
 title: 대화 통찰력 구성 만들기 또는 편집
 description: 대화 통찰력 구성을 구성하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 8%
+source-wordcount: '654'
+ht-degree: 7%
 ---
 # 구성 만들기 또는 편집
 
-
-대화 인사이트를 사용하면 대규모 언어 모델(LLM) 또는 사람으로부터 대화를 분석하고 전체 고객 여정 내에서 해당 대화 컨텍스트를 제공할 수 있습니다. 대화 인사이트를 통해 담당자가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
+대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 예를 들어, 고객 또는 콜 센터 대본과 상호 작용하는 챗봇입니다.
+대화 인사이트를 통해 담당자가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
 
 Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티팩트(연결, 데이터 보기 등)를 빠르게 만들거나 편집할 수 있습니다.
 
@@ -88,7 +101,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 
    * 만들어지지 않은 새 구성에 대해 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
-   * 저장하려고 하지만 아티팩트를 만들지 않으려는 새 구성에 대해 **[!UICONTROL 나중에 저장]**&#x200B;을 선택합니다(예: 데이터 보기에 대한 업데이트). 따라서 나중에 구성을 다시 방문하여 실제 구성 생성을 완료할 수 있습니다.
+   * 저장하려고 하지만 아티팩트를 만들지 않으려는 새 구성에 대해 **[!UICONTROL 나중에 저장]**&#x200B;을 선택합니다(예: 데이터 보기에 대한 업데이트). 나중에 구성을 다시 방문하여 실제 구성 만들기를 완료할 수 있습니다.
 
    * 새 구성을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 선택하십시오.
 

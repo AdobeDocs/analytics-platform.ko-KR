@@ -2,17 +2,32 @@
 title: 대화 통찰력 개요
 description: 대화 통찰력 값 및 용어에 대해 알아보고 대화 통찰력이 작동하는 방식을 알아봅니다.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 1%
 ---
 # 대화 통찰력
 
-대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 대화 통찰력 은 규모에 맞게 대화를 분석하고 전체 고객 여정 내에서 이러한 대화에 대한 컨텍스트를 제공합니다. 대화 인사이트를 통해 에이전트가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
+대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 예를 들어, 고객 또는 콜 센터 대본과 상호 작용하는 챗봇입니다.
+
+대화 통찰력 은 규모에 맞게 대화를 분석하고 전체 고객 여정 내에서 이러한 대화에 대한 컨텍스트를 제공합니다. 대화 인사이트를 통해 에이전트가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
 
 대화 인사이트는 사용자가 겪을 수 있는 문제를 해결합니다. 예를 들어
 
@@ -29,7 +44,7 @@ Conversation Insights 를 통해 다음을 이해할 수 있습니다.
 * 사용자가 에이전트에게 요청하는 내용.
 * 대화가 KPI에 미치는 영향
 
-에이전트가 지침과 비교하여 어떤 성과를 거두고 있는지, 에이전트가 브랜드 지침을 얼마나 긴밀하게 준수하고 있는지, 에이전트 실행 비용이 결과에 의해 정당화되는지 여부를 확인할 수 있습니다.
+에이전트가 지침과 비교하여 어떤 성과를 거두고 있는지, 에이전트가 브랜드 지침을 얼마나 긴밀하게 준수하고 있는지, 그리고 그 결과로 에이전트 실행 비용을 정당화하는지 여부를 확인할 수 있습니다.
 
 
 ## 개념
@@ -146,7 +161,7 @@ Conversation Insights는 다음 세 가지 핵심 기능을 기반으로 구축�
 * **신호 추출 및 대화 혼합**: 구조화되지 않은 프롬프트 및 응답(회전이라고도 함)을 의도 및 감정과 같은 보고 가능한 데이터 포인트로 변환합니다. 따라서 사용자가 이러한 데이터 포인트에 대해 규모에 맞게 보고할 수 있습니다.
 * **보고**: 에이전트의 효율성 및 ROI를 확인하려면 고객 여정 컨텍스트에서 규모에 맞게 대화를 분석하십시오.
 
-데이터 수집, 신호 추출 및 대화 혼합의 전체 과정은 아래와 같다.
+데이터 수집, 신호 추출 및 대화 혼합의 전반적인 과정은 아래에 설명되어 있습니다.
 
 ![대화 통찰력 작동 방식 그림](assets/conversation-insights.png){zoomable="yes"}
 
