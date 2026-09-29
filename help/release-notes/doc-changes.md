@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 29538d06c3b4a6db567c2a84e5785cc56af3d33d
+source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
 workflow-type: tm+mt
-source-wordcount: '7124'
-ht-degree: 97%
+source-wordcount: '7162'
+ht-degree: 96%
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
@@ -70,6 +70,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 9월** | |
+| 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
 | 블로그 게시물 통합 | 다음과 같은 블로그 게시물을 통합했습니다.<ul><li>[Adobe CJA에서 &#39;값 없음&#39;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=ko#M598)</li><li>[Adobe Experience Platform 및 Customer Journey Analytics 데이터 이그레스 사용 사례 심층 분석](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=ko)</li></ul>[데이터 내보내기](/help/use-cases/data-export/overview.md) 사용 사례와 새로운 [값 없음](/help/use-cases/data-views/no-value.md) 사용 사례 문서에서. |
 | 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
 | **2026년 8월** | |
