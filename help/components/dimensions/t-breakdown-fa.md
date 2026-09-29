@@ -9,21 +9,25 @@ role: User
 TQID: https://experienceleague.adobe.com/GTRg4PodKPvehRu0CwAq8QTMUmoOtY2qIU1kHzmwHRI
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: 6db1cfff1578b11a62710382aed783e56996342d
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '615'
 ht-degree: 54%
-
 ---
-
 # 차원 분류
 
 Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한으로 분류할 수 있습니다. 관련 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성하십시오.
@@ -32,7 +36,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
    ![선택한 항목에서 경고 만들기를 보여 주는 단계 결과.](assets/breakdown.png)
 
-1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**&#x200B;필드에서 구성 요소를 검색하면 됩니다.
+1. 하위 메뉴에서 **[!UICONTROL 차원]**, **[!UICONTROL 지표]**, **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 날짜 범위]**&#x200B;를 선택한 다음 항목을 선택하십시오. 또는 **[!UICONTROL *검색&#x200B;*]**필드에서 구성 요소를 검색하면 됩니다.
 
 선택한 기간에 걸쳐 지표를 차원 항목이나 대상자 세그먼트별로 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
@@ -62,7 +66,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 Dimension](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -71,7 +75,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/31092?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension 분류](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -80,7 +84,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 및 지표 추가](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
@@ -89,7 +93,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}을 참조하십시오.
 
 {{videoaa}}
 
@@ -98,7 +102,7 @@ Analysis Workspace에서 특정 요구 사항에 맞게 데이터를 무제한�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/30874?captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 Dimension 분류](https://video.tv.adobe.com/v/24033){target="_blank"}를 참조하십시오.
 
 {{videoaa}}
 
