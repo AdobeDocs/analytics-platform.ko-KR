@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
+TQID: 'https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -21,6 +21,8 @@ subfeature_v2:
     internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -31,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
+source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
 workflow-type: tm+mt
-source-wordcount: '10597'
-ht-degree: 91%
+source-wordcount: '10738'
+ht-degree: 90%
 ---
 # 연결 만들기 또는 편집 {#create-or-edit-a-connection}
 
@@ -250,7 +252,7 @@ ht-degree: 91%
    | **[!UICONTROL 연결 이름]** | 연결의 고유 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 태그]** | 태그를 지정하여 연결에 태그를 추가하면 해당 태그를 사용하여 이후 단계에서 연결을 검색할 수 있습니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
    | **[!UICONTROL 데이터 세트 추가]** | 데이터 세트를 추가하려면 ![데이터 추가](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
@@ -294,7 +296,7 @@ ht-degree: 91%
    | **[!UICONTROL 기본 ID]** | 연결에 적합한 기본 ID를 선택합니다. <ul><li>B2C 시나리오에서 일반적으로 사용하는 개인 기반 연결의 경우, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 개인]**&#x200B;입니다.</li><li> B2B 시나리오에서 일반적으로 사용하는 계정 기반 연결을 위한 ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;입니다.</li></ul>연결에 데이터 세트를 하나 이상 추가하는 즉시 기본 ID를 더 이상 변경할 수 없습니다. <br/>기본 ID를 선택하면 연결의 개인 기반 또는 계정 기반 여부가 정의됩니다. 연결 기반은 특정 데이터 세트 유형에 사용할 수 있는 [설정](#dataset-settings)을 결정합니다. |
    | **[!UICONTROL 선택 가능한 컨테이너]** | ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;을 **[!UICONTROL 기본 ID]**&#x200B;로 선택한 경우, 선택 가능한 컨테이너를 선택합니다.<ul><li>**[!UICONTROL 글로벌 계정]**: 연결에서 글로벌 계정의 구성을 활성화합니다.</li><li>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.</li><li>**[!UICONTROL 구매 그룹]**: 연결에서 구매 그룹의 구성을 활성화합니다.</li><ul> |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 데이터 세트 추가]** | [데이터 세트를 추가](#add-datasets)하려면 ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
 
@@ -724,7 +726,29 @@ ht-degree: 91%
 
 
 
-#### 이벤트 데이터 세트
+#### 이벤트 데이터 세트 {#event-dataset-settings}
+
+<!-- RIdM: Lengthy contextual help due to not yey allowed public facing docs. Modify when public facing docs are allowed. -->
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter"
+>title="행 필터링 활성화"
+>abstract="행 필터는 Customer Journey Analytics에 수집되는 이벤트를 결정합니다. 포함 규칙과 일치하는 이벤트만 수집됩니다. 다른 모든 이벤트는 영구적으로 제외되며 Customer Journey Analytics에서 보고, 세그먼테이션 또는 분석에 사용할 수 없습니다.<ul><li>최대 10개의 필터를 만들 수 있습니다.</li><li> 필터 변경 사항은 변경 후 수집된 새 데이터에만 적용되며 이전에 수집된 데이터에 소급하여 영향을 미치거나 내역 채우기를 트리거하지 않습니다.</li></ul>"
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_field"
+>title="필드"
+>abstract="조건에 사용할 이벤트 데이터 세트에서 필드를 선택합니다. 모든 유형의 필드를 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_operator"
+>title="조건"
+>abstract="연산자를 선택합니다. 연산자는 값에 대해 선택한 필드의 유효성을 검사하는 데 사용됩니다."
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_values"
+>title="값"
+>abstract="값을 하나 이상 입력합니다. 정확한 문자열 값이 사용됩니다. 쉼표를 사용하여 값을 구분하십시오. 쉼표로 구분된 각 값은 구별되는 것으로 간주되어 조건에 포함됩니다."
 
 이벤트 데이터 세트에 대한 특정 설정은 연결 유형에 따라 다릅니다.
 
