@@ -5,33 +5,49 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-TQID: https://experienceleague.adobe.com/HdeLAq13nYEHMV5ns75gTgux9KKRE0on5TiMRw6ZHoo
+TQID: 'https://experienceleague.adobe.com/HdeLAq13nYEHMV5ns75gTgux9KKRE0on5TiMRw6ZHoo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
+    internal-label: FAQ
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
+    internal-label: Personalization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2320
+source-wordcount: '2323'
 ht-degree: 95%
-
 ---
-
 # 자주 묻는 질문
 
 Adobe Customer Journey Analytics는 차세대 분석 제품입니다. 이 문서에서는 Customer Journey Analytics와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다. 자세한 내용은 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md)을 검토하십시오.
@@ -85,7 +101,7 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 
 +++**내역 데이터(채우기)의 결합은 어떻게 작동합니까?**
 
-처음으로 활성화할 때 Adobe는 사용자가 선택한 범위(사용 권한이 있는 Customer Journey Analytics 패키지에 따라 최대 25개월)까지 연결된 데이터의 채우기를 제공합니다. 이 채우기 작업을 수행하려면 오래된 결합되지 않은 데이터에 임시 ID가 있어야 합니다. [자세히 알아보기](../stitching/overview.md)
+처음으로 활성화할 때 Adobe는 사용자가 선택한 범위(사용 권한이 있는 Customer Journey Analytics 패키지에 따라 최대 25개월)까지 연결된 데이터의 채우기를 제공합니다. 이 채우기 작업을 수행하려면 임시 ID가 그만큼 과거 시점의 결합되지 않은 데이터에 있어야 합니다. [자세히 알아보기](../stitching/overview.md)
 
 +++
 
@@ -114,7 +130,7 @@ Customer Journey Analytics에는 [데이터 준비](https://experienceleague.ado
 
 +++**오프라인 데이터를 [!UICONTROL Customer Journey Analytics]로 가져오려면 어떻게 해야 합니까?**
 
-Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experience Platform에 수집할 수 있습니다. 그런 다음 Analysis Workspace에서의 보고를 위해 [!UICONTROL Customer Journey Analytics]에서 해당 데이터 및 데이터 보기에 대한 연결을 만들 수 있습니다. 필요한 경우 Experience Platform의 데이터 온보딩팀에서 추천이나 컨설팅 서비스를 제공할 수 있습니다.
+Customer Journey Analytics에 대한 사용 권한을 통해 데이터를 Experience Platform에 수집할 수 있습니다. 그런 다음 Analysis Workspace에서의 보고를 위해 [!UICONTROL Customer Journey Analytics]에서 해당 데이터 및 데이터 보기에 대한 연결을 만들 수 있습니다. 필요한 경우 Experience Platform의 데이터 온보딩팀에서 추천이나 컨설팅 서비스를 제공할 수 있습니다.
 
 +++
 
@@ -158,14 +174,14 @@ Customer Journey Analytics에 대한 자격 증명을 통해 데이터를 Experi
 * 소규모 채우기: 7일 이내
 * 대규모 채우기: 30일 이내
 
-최근 Customer Journey Analytics에서 데이터를 처리하는 방법이 변경되었습니다.
+Adobe는 최근 Customer Journey Analytics에서 데이터를 처리하는 방식을 변경했습니다.
 
 * “현재” 날짜에 대한 이벤트 데이터는 라이브 데이터로 스트리밍됩니다. 전날 오후 11:59:59(23:59:59) 이전의 이벤트 시간을 포함하는 모든 데이터는 채우기로 처리됩니다.
 * 타임스탬프가 24시간 이상 지난 모든 이벤트 데이터(최신 데이터와 동일한 배치에 있는 경우 포함)는 채우기로 간주되며 낮은 우선 순위로 수집됩니다.
 
 ## &#x200B;5. [!UICONTROL 연결] 데이터 보존에 대한 롤링 기간 설정 {#data-retention}
 
-[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**&#x200B;설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
+[**[!UICONTROL 롤링 데이터 기간 활성화&#x200B;]**설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)을 사용하면 Customer Journey Analytics 데이터 보존을 개월(3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다. [!UICONTROL 데이터 세트] 수준이 아닌 [!UICONTROL 연결] 수준에서 설정됩니다. 데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 데이터 보존 설정은 없습니다.
 
 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.
 
@@ -200,13 +216,13 @@ For data deletion, you should be concerned about six types of components: sandbo
 | 변수 | 보고서 세트에 [!UICONTROL eVar]와 같은 변수를 정렬할 수 없습니다. 예를 들어 보고서 세트 1의 eVar1은 **[!UICONTROL 페이지]**&#x200B;를 지정할 수 있습니다. eVar1이 보고서 세트2에서 **[!UICONTROL 내부 캠페인]**&#x200B;을 지정하는 경우 보고가 혼합되고 정확하지 않을 수 있습니다. |
 | [!UICONTROL 세션] 및 [!UICONTROL 인원] 수 | 보고서 세트에 대해서는 중복 제거되지 않습니다. 결과적으로 수는 일치하지 않을 수 있습니다. |
 | 지표 중복 제거 | 여러 행에 동일한 거래 ID(예: [!UICONTROL 구매 ID])가 있는 경우 지표의 인스턴스(예: [!UICONTROL 주문])를 중복 제거합니다. 이로써 주요 지표의 초과 계산을 방지합니다. 따라서 보고서 세트에서 [!UICONTROL 주문]과 같은 지표를 추가할 수 없습니다. |
-| 통화 | 통화 전환은 Customer Journey Analytics에서 지원되지 않습니다. 병합하려는 보고서 세트가 서로 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
+| 통화 | 통화 변환은 Customer Journey Analytics에서 아직 지원되지 않습니다. 병합하려는 보고서 세트가 서로 다른 기본 통화를 사용하는 경우 문제가 발생할 수 있습니다. |
 | [!UICONTROL 지속성] | [지속성](../data-views/component-settings/persistence.md)이 보고서 세트 전반에 확장되어 [!UICONTROL 세그먼트], [!UICONTROL 속성] 등에 영향을 미칩니다. 번호가 제대로 추가될 수 없습니다. |
 | [!UICONTROL 분류] | [!UICONTROL 분류]: 보고서 세트를 병합하는 경우 자동으로 중복 제거되지 않습니다. 여러 분류 파일을 단일 [!UICONTROL 조회] 데이터 세트에 결합하는 경우 문제가 발생할 수 있습니다. |
 
 ## &#x200B;8. [!UICONTROL Adobe Analytics] 구성 요소
 
-+++**[!DNL Customer Journey Analytics]의 [!UICONTROL 대상]을(를) Experience Platform Real-Time CDP 또는 다른 CX 엔터프라이즈 응용 프로그램에 공유/게시할 수 있습니까?**
++++**Experience Platform Real-Time CDP 또는 다른 CX Enterprise 애플리케이션에 [!DNL Customer Journey Analytics]의 [!UICONTROL 대상]을 공유/게시할 수 있습니까?**
 
 고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 식별된 [대상자를 Adobe Experience Platform의 실시간 고객 프로필을 만들어 게시](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)할 수 있습니다.
 
@@ -214,7 +230,7 @@ For data deletion, you should be concerned about six types of components: sandbo
 
 +++**이전 [!UICONTROL eVar] 설정은 어떻게 됩니까?**
 
-Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 속성 설정이 쿼리 시간에 적용됩니다.
+Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL 이벤트]는 [!UICONTROL Customer Journey Analytics]에 더 이상 존재하지 않습니다. 무제한 스키마 요소(차원, 지표, 목록 필드)가 있습니다. 따라서 이제 데이터 수집 프로세스 동안 적용했던 모든 기여도 설정이 쿼리 시간에 적용됩니다.
 
 +++
 
@@ -238,7 +254,7 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 +++**기존 [!DNL Data Workbench] 고객은 바로 Customer Journey Analytics로 이동할 수 있습니까?**
 
-사용 사례에 따라 다릅니다. Adobe 계정 팀의 도움을 받으십시오. 현재 사용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다.
+사용 사례에 따라 다르므로 Adobe 계정 팀과 협력하십시오. 현재 사용 사례가 이미 Customer Journey Analytics에 적합할 수도 있습니다.
 
 +++
 
@@ -250,11 +266,11 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 사용 제한은 Adobe에서 정기적으로 모니터링하고 시행합니다. “데이터 행”은 Customer Journey Analytics 내에서 분석에 사용할 수 있는 데이터의 일일 평균 행을 의미합니다.
 
-예를 들어 계약에 따라 1백만 행의 데이터에 대한 권한이 있습니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
+예를 들어 계약에 따라 1백만 행의 데이터를 사용할 수 있습니다. Customer Journey Analytics를 사용한 첫 날에 2백만 행의 데이터를 업로드한다고 가정해 보겠습니다. 2일째에는 1백만 행을 삭제하고 라이선스 기간이 끝날 때까지 약정된 최대값(즉, 1백만 행의 데이터)으로 사용량을 유지합니다. 계약 조건에 따라 “데이터 행”에 대한 라이선스 권한을 초과했기 때문에 일할 계산된 1일 차 초과 사용 요금이 부과될 수 있습니다.
 
 ## &#x200B;11. 데이터 불일치 진단 {#discrepancies}
 
-경우에 따라 연결에서 수집된 총 이벤트 수가 [!UICONTROL Adobe Experience Platform]의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 예에서 데이터 세트 “B2B 노출 횟수”에는 7650개의 행이 있지만 데이터 세트에 [!UICONTROL Adobe Experience Platform]의 3830개의 행이 포함됩니다. 불일치 발생에는 몇 가지 이유가 있으며 다음 단계를 수행하여 진단할 수 있습니다.
+경우에 따라 연결에서 수집된 총 이벤트 수가 [!UICONTROL Adobe Experience Platform]의 데이터 세트에 있는 행 수와 다를 수 있습니다. 이 예에서 데이터 세트 “B2B 노출 횟수”에는 7650개의 행이 있지만 데이터 세트에 [!UICONTROL Adobe Experience Platform]의 3830개의 행이 포함됩니다. 불일치가 발생하는 데에는 몇 가지 이유가 있으며 다음 단계를 수행하여 진단할 수 있습니다.
 
 1. 이 차원을 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;로 분류하면 크기가 같지만 다른 **[!UICONTROL 플랫폼 데이터 세트 ID]**&#x200B;를 사용하는 데이터 세트가 2개 있음을 알 수 있습니다. 각 데이터 세트에 3825개의 레코드가 있습니다. 즉, 개인 ID가 없거나 타임스탬프가 누락되어 [!UICONTROL Customer Journey Analytics]에서 5개의 레코드를 무시했습니다.
 
@@ -267,19 +283,19 @@ Adobe Analytics 센스의 [!UICONTROL eVar], [!UICONTROL 속성], [!UICONTROL �
 
 ## &#x200B;12. 지역 데이터 수집
 
-Adobe CX Enterprise는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 비 Adobe 솔루션 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
+Adobe CX Enterprise은 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 및 비 Adobe 솔루션 간의 상호 작용이 가능한 한 방문자에게 가까운 위치에서 발생합니다. 데이터가 데이터 수집 센터(DCC, Platform Edge Network의 일부인 에지 사이트라고도 함)에 지역적으로 수집되면 데이터스트림 및/또는 이벤트 전달 구성을 기반으로 보안 연결을 통해 관련 솔루션으로 전달됩니다.
 
 ![Data flow using Edge Networks](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
-1. DNS는 방문자에게 가장 가까운 데이터 수집 센터의 IP 주소에 대한 수집 호스트 이름을 자동으로 확인합니다.
+1. DNS는 수집 호스트 이름을 방문자에게 가장 가까운 데이터 수집 센터의 IP 주소로 자동 확인합니다.
 1. 방문자가 이 위치로 데이터를 보냅니다.
-1. 데이터는 보안 연결을 통해 데이터스트림 또는 이벤트 전달 구성에 의해 정의된 솔루션으로 즉시 전달됩니다.
+1. 데이터는 보안 연결을 통해 데이터 스트림 또는 이벤트 전달 구성에 의해 정의된 솔루션으로 즉시 전달됩니다.
 
 지역 데이터 수집을 사용하면 다음과 같은 몇 가지 이점이 있습니다.
 
-* **성능**: RDC를 사용하면 방문자가 가장 가까운 DCC에 연결됩니다. 이러한 최적화를 통해 추적이 더 정확해지고 로딩 시간이 더 빨라집니다.
+* **성능**: RDC를 사용하면 방문자가 가장 가까운 DCC에 연결됩니다. 이러한 최적화를 통해 가장 빠른 응답 시간을 제공하므로 추적이 더 정확해지고 로딩 시간이 더 빨라집니다.
 * **중복**: DCC와 DPC 간의 통신이 중단되면 Adobe의 RDC 인프라에서 데이터를 로컬에 저장했다가 통신이 복원될 때 DPC로 전달합니다.
 
 현재 RDC에는 다음 위치(변경될 수 있음)가 포함되어 있습니다.
@@ -299,4 +315,4 @@ Adobe CX Enterprise는 RDC(지역 데이터 수집)를 사용하므로 방문자
 Customer Journey Analytics에는 Adobe Experience Platform의 데이터 세트가 필요하므로 데이터스트림/이벤트 전달 구성에는 지역 데이터 센터에서 Adobe Experience Platform 인스턴스가 위치한 데이터 센터로 데이터를 라우팅하는 Adobe Experience Platform 서비스가 필요합니다. Customer Journey Analytics와 지원 서비스 및 인프라는 동일한 Adobe Experience Platform 인스턴스에 배포됩니다.
 
 
-Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform Edge Network 및 지역 데이터 센터 외부의 데이터 수집 프로세스에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)를 참조하십시오.

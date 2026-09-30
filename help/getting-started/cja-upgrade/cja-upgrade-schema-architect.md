@@ -5,32 +5,47 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-TQID: https://experienceleague.adobe.com/oNFeGuF3o7WGgp6nxSFv1GAVMcXL3Pt9N3isQo0r6TA
+TQID: 'https://experienceleague.adobe.com/oNFeGuF3o7WGgp6nxSFv1GAVMcXL3Pt9N3isQo0r6TA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Taxonomy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1545
-ht-degree: 10%
-
+source-wordcount: '1545'
+ht-degree: 11%
 ---
-
 # Customer Journey Analytics에 사용할 스키마 설계 {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,7 +53,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
 >title="스키마 설계"
->abstract="조직 내에서 데이터 수집 요구 사항에 대해 논의하고 Adobe Experience Platform에서 사용할 스키마를 빌드하는 방법을 결정합니다. 이 단계는 조직에 맞춘 스키마를 사용하는 권장 프로세스를 사용하고자 하기 때문에 나타납니다. 이 단계를 올바르게 수행하는 것이 매우 중요합니다. 조직 내 모든 팀이 일치하는 스키마를 적용하면 데이터 수집이 훨씬 쉬워지기 때문입니다.<br><br>조직 내 모든 관련자들이 통합된 스키마를 구성하는 데 소요되는 예상 시간은 1~2개월입니다. 이 기간은 조정해야 하는 팀의 수와 정렬할 차원과 지표의 수에 따라 크게 달라집니다."
+>abstract="조직 내에서 데이터 수집 요구 사항에 대해 논의하고 Adobe Experience Platform에서 사용할 스키마를 빌드하는 방법을 결정합니다. 이 단계는 조직에 맞춘 스키마를 사용하는 권장 프로세스를 따르고자 하기 때문에 나타납니다. 이 단계를 올바르게 수행하는 것이 매우 중요합니다. 조직 내 모든 팀이 합의한 스키마가 있으면 데이터 수집이 훨씬 쉬워지기 때문입니다.<br><br>조직 내 모든 관련자들이 통합된 스키마를 구성하는 데 소요되는 예상 시간은 1~2개월입니다. 이 기간은 조정해야 하는 팀의 수와 정렬할 차원과 지표의 수에 따라 크게 달라집니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -110,14 +125,14 @@ Adobe Analytics에서 많은 팀은 `events` 변수를 유일한 지표 추적 �
 스키마를 디자인할 때는 팩트를 사용하십시오. 예: `error.type = "validation"`, `user.isLoggedIn = true`, `checkout.step = "shipping"`. 데이터 보기에서 지표를 해당 팩트에 대한 카운트 및 필터링된 카운트로 정의합니다. 예:
 
 * `checkout.step`(enum/string)은 다음 기능을 제공할 수 있습니다.
-   * &quot;체크아웃: 배송 단계에 도달함&quot;(위치: `checkout.step == "shipping"`)
-   * &quot;체크아웃: 결제 단계 도달&quot;
+  * &quot;체크아웃: 배송 단계에 도달함&quot;(위치: `checkout.step == "shipping"`)
+  * &quot;체크아웃: 결제 단계 도달&quot;
 * `error.type`(enum/string)은 다음 기능을 제공할 수 있습니다.
-   * &quot;유효성 검사 오류&quot;
-   * &quot;인증 오류&quot;
+  * &quot;유효성 검사 오류&quot;
+  * &quot;인증 오류&quot;
 * `user.isLoggedIn`(부울)이(가) 다음 기능을 제공할 수 있습니다.
-   * &quot;인증된 세션&quot;
-   * &quot;인증된 전환&quot;
+  * &quot;인증된 세션&quot;
+  * &quot;인증된 전환&quot;
 
 >[!TIP]
 >
@@ -129,7 +144,7 @@ Adobe Analytics에서 많은 팀은 `events` 변수를 유일한 지표 추적 �
 
 1. **Adobe Analytics에서 인식하고 자동으로 매핑하는 XDM 필드 경로 사용:** 인식된 XDM 필드를 Edge Network을 통해 Adobe Analytics으로 보낼 때 추가 구성 없이 [자동으로 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)됩니다.
 1. **조직별 개념에 사용자 지정 XDM 필드 사용:** Analytics 변수에 자동으로 매핑되지 않은 모든 XDM 필드는 Adobe Analytics에서 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/contextdata)&#x200B;(으)로 전달됩니다.
-1. **Adobe Analytics 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수를 props/eVars에 매핑합니다.** [처리 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) 최종적으로 사용자 지정 XDM 필드를 eVar 또는 prop에 매핑할 수 있습니다. 이 개념은 Adobe Analytics에서 패리티 보고를 지원하면서 스키마를 깔끔하고 Customer Journey Analytics을 중심으로 합니다.
+1. **Adobe Analytics 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수를 props/eVars에 매핑합니다.** [처리 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) 최종적으로 사용자 지정 XDM 필드를 eVar 또는 prop에 매핑할 수 있습니다. 이 개념은 Adobe Analytics에서 패리티 보고를 지원하면서 스키마를 깔끔하고 Customer Journey Analytics을 중심으로 합니다.
 
 ## 이해 당사자 식별 및 소유권 정의
 
@@ -147,7 +162,7 @@ Adobe Analytics에서 많은 팀은 `events` 변수를 유일한 지표 추적 �
 스키마 디자인은 조직의 개인정보 처리방침에 따라 개인정보 및 거버넌스 기대치를 반영해야 합니다. 스키마를 설계할 때 다음 사항을 고려하십시오.
 
 * 정의된 사용 사례를 지원하는 데 필요한 사항만 수집합니다.
-* 동의 및 데이터 사용 요구 사항이 수집 전략에 반영되었는지 확인합니다. 자세한 내용은 [웹 SDK을 사용하여 고객 동의 데이터를 처리](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/sdk)를 참조하십시오.
+* 동의 및 데이터 사용 요구 사항이 수집 전략에 반영되었는지 확인합니다. 자세한 내용은 [웹 SDK을 사용하여 고객 동의 데이터를 처리](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk)를 참조하십시오.
 * Adobe Experience Platform 거버넌스 도구 내에서 중요한 필드에 어떻게 레이블이 지정되고 제어되는지 생각해 보십시오. 자세한 내용은 [Adobe Customer Journey Analytics 및 데이터 거버넌스](/help/privacy/privacy-overview.md)를 참조하십시오.
 
 ## 다음 단계

@@ -5,32 +5,47 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
-TQID: https://experienceleague.adobe.com/aInqrIT7Z22NV6kkdJkydpPNEEP46Xbc4CQZxXzzcNk
+TQID: 'https://experienceleague.adobe.com/aInqrIT7Z22NV6kkdJkydpPNEEP46Xbc4CQZxXzzcNk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Customer profiles
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2447
+source-wordcount: '2447'
 ht-degree: 62%
-
 ---
-
 # Edge Network Server API를 통해 데이터 수집
 
 이 빠른 시작 안내서에서는 Adobe Experience Platform Edge Network 서버 API 및 Edge Network을 사용하여 IoT 장치, 셋톱 박스, 게임 콘솔 및 데스크탑 애플리케이션과 같은 장치에서 Adobe Experience Platform으로 직접 추적 데이터를 수집하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
@@ -62,18 +77,18 @@ ht-degree: 62%
 
 스키마를 정의한 후에는 하나 이상의 데이터 세트를 사용하여 데이터 컬렉션을 저장하고 관리합니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다.
 
-Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 지속되기 전에 사전 정의된 스키마를 준수해야 합니다.
+Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트로 저장되기 전에 사전 정의된 스키마를 준수해야 합니다.
 
 ### 스키마 설정
 
 식별, 점수, 진행률 및 기타 정보 등 콘솔에서 게임을 플레이하는 프로필의 최소한의 데이터를 추적하려는 경우
 먼저 이 데이터를 모델링하는 스키마를 정의해야 합니다.
 
-스키마를 설정하는 경우:
+스키마를 설정하려면:
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
@@ -124,11 +139,11 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=ko#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](./assets/identification-field-gaming.png)
 
-   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 사용자의 경우 게임 콘솔에 로그인하는 데 사용하는 Experience Cloud ID 및 이메일 주소를 사용하여 게임을 수행하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
+   식별 오브젝트는 스키마에 식별 기능을 추가합니다. 사용자의 경우 Experience Cloud ID와 게임 콘솔에 로그인하는 데 사용하는 이메일 주소를 사용하여 게임을 플레이하는 프로필을 식별하려고 합니다. 개인의 식별을 추적하는 데 사용할 수 있는 다른 많은 속성들이 있습니다.
 
    **[!UICONTROL 적용]**&#x200B;을 선택하여 이 오브젝트를 스키마에 추가합니다.
 
@@ -138,7 +153,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
 
-   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ECID 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
+   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
@@ -154,7 +169,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -180,13 +195,13 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 - 프로필용으로 스키마 활성화
 
-스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 ### 데이터 세트 설정
 
 스키마를 통해 데이터 모델은 정의됩니다. 이제 데이터 세트를 사용하여 해당 데이터를 저장하고 관리할 구성을 정의해야 합니다.
 
-데이터 세트를 설정하는 경우:
+데이터 세트를 설정하려면:
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 데이터 세트]**&#x200B;를 선택합니다.
 
@@ -200,7 +215,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 4. 이전에 만든 스키마를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 제공합니다.
+5. 데이터 세트의 이름을 지정하고 (선택 사항) 설명을 입력합니다.
 
    ![데이터 세트 이름 지정](./assets/name-your-datatest.png)
 
@@ -216,7 +231,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
    ![프로필용으로 스키마 활성화](./assets/aepwebsdk-dataset-profile.png)
 
-데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
+데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법.
 
 ## 데이터스트림 설정
 
@@ -252,7 +267,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 이제 게임에서 수집된 데이터를 Adobe Experience Platform의 데이터 세트로 전달하도록 데이터 스트림이 구성되었습니다.
 
-데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko)를 참조하십시오.
+데이터스트림을 구성하는 방법과 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [데이터스트림 개요](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)를 참조하십시오.
 
 ## Edge Network 서버 API 사용
 
@@ -291,7 +306,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 예제 POST 요청에서 `{DATASTREAM_ID}`은(는) 이전에 구성한 예제 데이터 스트림의 식별자를 가리킵니다. `{sandbox}`은(는) 사용자 정의 블라인드 라이트 필드 그룹의 경로를 식별하는 샌드박스의 고유 이름입니다.
 
-Edge Network Server API 사용 방법에 대한 자세한 내용은 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ko)을 참조하십시오.
+Edge Network Server API 사용 방법에 대한 자세한 내용은 [대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR) 및 [비대화형 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html)을 참조하십시오.
 
 ## 연결 설정
 
@@ -325,11 +340,11 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
    - 각 데이터 세트의 경우:
 
-      - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
+     - Adobe Experience Platform의 데이터 세트 스키마에 정의된 사용 가능한 ID에서 [!UICONTROL 개인 ID]를 선택합니다.
 
-      - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
+     - [!UICONTROL 데이터 소스 유형] 목록에서 올바른 데이터 소스를 선택합니다. **[!UICONTROL 기타]**&#x200B;를 지정한 경우 데이터 소스에 대한 설명을 추가합니다.
 
-      - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
+     - 환경 설정에 따라 **[!UICONTROL 새 데이터 모두 가져오기]** 및 **[!UICONTROL 데이터 세트 기존 데이터 채우기]**&#x200B;를 설정합니다.
 
    - **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다.
 
@@ -341,7 +356,7 @@ Customer Journey Analytics에서 Adobe Experience Platform 데이터를 사용�
 
 데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
-데이터 보기를 만드는 경우:
+데이터 보기를 만들려면:
 
 1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 

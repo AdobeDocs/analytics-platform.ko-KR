@@ -1,6 +1,6 @@
 ---
 title: Google Analytics 데이터에 대한 보고
-description: Customer Journey Analytics에서 Google Analytics 데이터에 대한 유용한 보고서 표시
+description: Customer Journey Analytics에서 Google Analytics 데이터에 대한 유용한 보고서를 표시합니다.
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -9,32 +9,41 @@ autotag-review: '2026-05-19T09:49:08.813Z'
 TQID: 'https://experienceleague.adobe.com/dRY1wvTEzrhnNsqE-fJq9DyzOAEKTygzSkVb8r6huoM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
+    internal-label: Web experience
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: '704'
 ht-degree: 83%
-
 ---
-
 # Google Analytics 데이터에 대한 보고
 
 이제 Customer Journey Analytics에서 데이터를 사용할 수 있으니 다음 예제를 통해 이러한 데이터에 대한 보고를 수행하는 데 유용한 시나리오를 살펴보십시오. Customer Journey Analytics의 GA4 보고서 등가물에 대한 포괄적인 조회는 Customer Journey Analytics의 [GA4 보고서](/help/getting-started/ga-to-cja/reports.md)를 참조하십시오.
 
 ## 웹 데이터와 앱 데이터를 통합된 데이터 세트로 시각화
 
-이 Venn 다이어그램은 웹 사이트의 사용자(Google Analytics 데이터 기반), 모바일 앱 사용자(Firebase 데이터 기반), 콜센터의 사용자를 중첩하여 보여 줍니다. 또한 성과가 가장 좋은 제품들을 웹뿐 아니라 모바일 앱에서도 볼 수 있습니다. 계산된 지표를 사용하여 두 플랫폼 모두로부터 총 매출을 산출할 수도 있습니다. 통합된 매출을 살펴보면 최우수 제품에 대해 미처 파악하지 못했던 정보를 파악할 수 있습니다. 통합된 데이터 세트가 없었다면 &quot;트윌 캡&quot;이 우수한 성과를 보이는 제품이었다는 사실을 절대 몰랐을 것입니다.
+이 Venn 다이어그램은 웹 사이트의 사용자(Google Analytics 데이터 기반), 모바일 앱 사용자(Firebase 데이터 기반), 콜센터의 사용자를 중첩하여 보여 줍니다. 또한 성과가 가장 좋은 제품들을 웹뿐 아니라 모바일 앱에서도 볼 수 있습니다. 계산된 지표를 사용하여 두 플랫폼 모두로부터 총 매출을 산출할 수도 있습니다. 통합된 매출을 살펴보면 상위 제품이 전혀 다른 양상을 보인다는 것을 알 수 있습니다. 통합된 데이터 세트가 없었다면 &quot;트윌 캡&quot;이 우수한 성과를 보이는 제품이었다는 사실을 절대 몰랐을 것입니다.
 
 ![결합된 데이터 세트](../../assets/combined-datasets.png)
 
@@ -54,21 +63,21 @@ ht-degree: 83%
 
 이제 어떤 웹 사이트 페이지가 콜센터에 접수되는 문의 전화를 유도했는지 살펴볼 수 있습니다. 이 보고서를 통해 웹 사이트 내에서 성과가 부진한 경험이 어디에 위치해 있는지 알 수 있으며 제품 관리자가 이러한 어려움을 해결하는 데 도움을 줄 수 있습니다. 다음 예에서는 기여도 속성 모델과 함께 계산된 지표를 사용하여 콜센터 문의 전화를 유도한 세션만 볼 수 있도록 세부 필터링합니다.
 
-다음 예제는 “장바구니”와 “체크아웃 정보” 페이지가 문의 전화의 대부분을 유도한 것을 알 수 있습니다.
+다음 예제는 “장바구니”와 “체크아웃 정보” 페이지가 문의 전화의 대부분을 유도한다는 것을 보여 줍니다.
 
 ![기여 페이지](../../assets/contributing-pages.png)
 
-집단 테이블을 사용하면 사용자들이 웹 사이트를 방문한 후 콜센터에 문의 전화를 하기까지 대체로 얼마나 걸렸는지 알아볼 수 있습니다. 다음 예제는 이 예제 데이터 세트의 평균 시간이 3~4주임을 나타냅니다.
+코호트 테이블을 사용하면 사용자들이 웹 사이트를 방문한 후 콜센터에 문의 전화를 하기까지 대체로 얼마나 걸렸는지 알아볼 수 있습니다. 다음 예제는 이 예제 데이터 세트의 평균 시간이 3~4주임을 나타냅니다.
 
 ![집단](../../assets/cohort.png)
 
-## 고급 마케팅 속성 사용
+## 고급 마케팅 기여도 사용
 
-Customer Journey Analytics에서는 채널 간 데이터에 대해 정교한 속성 모델을 사용할 수 있습니다. 다음의 예에서는 Google Analytics 채널 그룹화 차원에 매출의 마지막 터치, 첫 번째 터치, U자형, 그리고 알고리즘 속성을 적용한 경우를 비교해 볼 수 있습니다.
+Customer Journey Analytics에서는 채널 간 데이터에 대해 정교한 속성 모델을 사용할 수 있습니다. 다음의 예에서는 Google Analytics 채널 그룹화 차원에 매출의 마지막 터치, 첫 번째 터치, U자형, 그리고 알고리즘 기여도를 적용한 경우를 비교해 볼 수 있습니다.
 
 ![마케팅 속성](../../assets/mktg-attribution.png)
 
-계산된 지표를 사용하면 이러한 속성을 웹 매출과 모바일 앱 매출에 적용할 수 있으며 심지어 제품 반품을 제외할 수 있습니다. 그리고 결과적으로 각 마케팅 채널의 진정한 순 매출을 볼 수 있습니다.
+계산된 지표를 사용하면 이러한 기여도를 웹 매출과 모바일 앱 매출에 적용할 수 있으며 심지어 제품 반품을 제외할 수 있습니다. 그리고 결과적으로 각 마케팅 채널의 진정한 순 매출을 볼 수 있습니다.
 
 ![계산된 지표](../../assets/calc-metric.png)
 

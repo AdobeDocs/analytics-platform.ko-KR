@@ -4,27 +4,37 @@ title: 프로젝트 및 데이터 다운로드
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-TQID: https://experienceleague.adobe.com/GZEoPBNO5ELAQTN-44YR9A7zCWy-0hgVB98wNDsvXzE
+TQID: 'https://experienceleague.adobe.com/GZEoPBNO5ELAQTN-44YR9A7zCWy-0hgVB98wNDsvXzE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Governance
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 23%
-
 ---
-
 # 프로젝트 및 데이터 다운로드
 
 Analysis Workspace 프로젝트 및 데이터를 로컬 장치에 다운로드할 수 있습니다. 이 다운로드는 데이터, CSV(쉼표로 구분된 값 데이터) 파일 또는 PDF(휴대용 문서 형식) 문서를 복사할 수 있습니다.
@@ -81,7 +91,7 @@ Customer Journey Analytics 데이터를 내보내는 추가 방법은 [내보내
 >핫키 **_cmd + c_**(macOS) 또는 **_ctrl + c_**(Windows)을 사용하여 선택 항목을 클립보드에 복사할 수 있습니다. 그런 다음 **_cmd + v_**(macOS) 또는 **_ctrl + v_**(Windows)을 사용하여 데이터를 붙여넣으십시오.
 
 
-![선택 항목을 클립보드로 복사 옵션. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![선택 항목을 클립보드로 복사 옵션. ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## 시각화 내의 데이터를 CSV 파일로 다운로드 {#download-data}
 
@@ -131,8 +141,8 @@ Only relevant as soon as CJA supports Map visualization
 
 파일이 다운로드되면 다음 알림이 표시됩니다.
 
-* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**&#x200B;를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
-* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**&#x200B;완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
+* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
+* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 
@@ -148,5 +158,5 @@ Only relevant as soon as CJA supports Map visualization
 | 질문 | 답변 |
 | --- | --- |
 | 다운로드한 PDF이 한 페이지로만 구성되는 이유는 무엇입니까? | [PDF 다운로드](#download-as-csv-or-pdf) 기능은 다운로드한 PDF에 페이지를 매기지 않습니다. |
-| **[!UICONTROL CSV로 항목 다운로드]** 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 테이블의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
+| **[!UICONTROL CSV로 항목 다운로드]** 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 테이블의 정렬을 변경하여 더 긴 테일 항목을 가져오거나 필터를 적용하여 더 구체적인 항목을 다운로드할 수 있습니다. |
 | **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | [!UICONTROL **클립보드에 데이터 복사**] 또는 [!UICONTROL **클립보드에 선택 항목 복사**]&#x200B;와 달리 **[!UICONTROL 시각화 복사]** 상황에 맞는 메뉴 옵션은 내보내기 옵션이 아닙니다. 이 옵션을 사용하면 Workspace의 한 위치에서 다른 위치로 [시각화를 복사](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) 또는 [패널을 복사](/help/analysis-workspace/c-panels/panels.md#context-menu)할 수 있습니다. 예를 들어 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. |

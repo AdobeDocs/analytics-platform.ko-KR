@@ -17,6 +17,8 @@ feature_v2:
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
     internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -27,7 +29,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 76379e1cd9a42f2b2651a66768c195776eabecff
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 25%
@@ -255,7 +257,7 @@ B2B 사용자가 계정 결합을 활성화할 수 있도록 하기 전에 Adobe
 * 영구 개인 ID 구성이 필요합니다. 해당 영구 사용자 ID는 이전에 구성된 사용자 식별자 네임스페이스에서 사용자 ID로 승격된 다음 [계정 데이터 집합에 대한 사용자](#prerequisites)을(를) 기반으로 계정 ID를 조회하는 데 사용됩니다.
 * 계정 ID 구성은 선택 사항입니다. 이 구성은 개인에서 계정 데이터 세트에 대한 관련 계정 ID 정보를 사용할 수 없을 때마다 폴백 방법으로 사용됩니다.
 
-![&#128279;](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 B2B 사람
+](../assets/b2b-event-dataset-stitching-on.png)의 이벤트 데이터 세트에 대한 계정 결합에 대한 ![B2B 사람
 
 >[!TAB 해제]
 

@@ -4,31 +4,35 @@ title: 예측 개요
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-TQID: https://experienceleague.adobe.com/jH55Cg37nwIX6iYgQe1JCBvpgzw2jgW-zx1id2ZW6PU
+TQID: 'https://experienceleague.adobe.com/jH55Cg37nwIX6iYgQe1JCBvpgzw2jgW-zx1id2ZW6PU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: d13dba12-733d-4914-8d92-d643658bbe5d
+    internal-label: Forecasting
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 100%
-
 ---
-
 # 예측 개요
 
 {{select-package}}
 
-예측은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함합니다. 예측은 자유 형식 테이블과 선 그래프 시각화로 표시될 수 있습니다. 사용자는 Customer Journey Analytics UI에서 사용자 기본 설정을 통해 예측이 자동으로 포함되는지 여부를 제어할 수 있습니다. 열 설정 내에서 열별로 켜거나 끌 수도 있습니다. 테이블에 추가된 첫 번째 열에만 예측 기능이 켜져 있습니다.
+예측은 Customer Journey Analytics에 이미 있는 내역 데이터를 기반으로 시계열 관련 데이터에 대한 통계 예측을 포함합니다. 예측은 자유 형식 테이블과 선 그래프 시각화에 표시될 수 있습니다. 사용자는 Customer Journey Analytics UI에서 사용자 기본 설정을 통해 예측이 자동으로 포함되는지 여부를 제어할 수 있습니다. 열 설정 내에서 열별로 켜거나 끌 수도 있습니다. 테이블에 추가된 첫 번째 열에만 예측 기능이 켜져 있습니다.
 
 예측 기능은 “Select” 이상의 Customer Journey Analytics 라이선스 계층에서 사용할 수 있습니다.
 
-다음에서 예측 기능을 활용할 수 있습니다.
+예측 기능을 다음과 같은 용도로 활용할 수 있습니다.
 
 * **계획 수립**: 트렌드를 분석하고 미래 결과를 예측하여 잠재적인 기회와 위협을 파악하고 그에 따라 전략을 조정할 수 있습니다. 이를 통해 자원을 보다 효율적이고 효과적으로 배분할 수 있습니다
 * **예산 책정**: 미래의 수익과 비용을 예측하여 팀이 비용을 충당하고 성장 기회에 투자할 수 있는 충분한 자금을 확보할 수 있습니다.

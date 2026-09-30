@@ -8,26 +8,31 @@ autotag-review: '2026-05-19T07:59:04.368Z'
 TQID: 'https://experienceleague.adobe.com/zGhMuhWJlWiQPNNgFVbZ2ito9yeVYsV9upoenI9E3fk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '243'
 ht-degree: 69%
-
 ---
-
 # 막대(스택)
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 막대 및 막대 누적 시각화를 문서화합니다._<br/>__&#x200B;에 대한 [막대 및 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/bar)을 참조하십시오![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
 
 
 >[!ENDSHADEBOX]
@@ -51,7 +56,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 
 ![페이지 조회수, 방문 수, 진입 수, 종료 수 등 여러 지표를 보여 주는 가상 막대 시각화.](assets/bar.png)
 
-시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화 (예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
 
 ## 스택 막대 {#bar-stacked}
 
@@ -75,7 +80,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [영역 시각화](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [영역 시각화](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

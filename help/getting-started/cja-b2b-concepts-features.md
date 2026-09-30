@@ -6,30 +6,43 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
+TQID: 'https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: '1592'
 ht-degree: 3%
-
 ---
-
 # B2B edition 개념 및 기능
 
 이 문서에서는 Customer Journey Analytics에서 일반적으로 사용되는 연결, 식별자, 컨테이너 및 데이터 세트와 같은 개념에 대해 설명합니다. 그리고 Customer Journey Analytics B2B edition이 이러한 개념에 추가 기능을 추가하는 방법입니다.
@@ -97,7 +110,7 @@ B2B 컨테이너와 함께 세그먼트, 속성 및 시각화는 딥 B2B 분석 
 
 ## 스키마
 
-Customer Journey Analytics B2B 편집기는 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을(를) 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
+Customer Journey Analytics B2B 편집기는 [XDM(Adobe Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을(를) 사용하여 B2B 데이터를 표준화하고 B2B 데이터에 대한 스키마를 정의합니다. Real-Time CDP B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)에서 제공하는 [표준 클래스를 기반으로 스키마를 지정하거나 사용자 정의 클래스 및 스키마를 사용할 수 있습니다. [사용 사례](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) 문서에서는 Real-Time CDP B2B edition 클래스 및 스키마를 사용하지만 표준 클래스 및 스키마를 활용하는 데에는 Real-Time CDP B2B edition 라이선스가 필요하지 않습니다.
 
 ## 데이터 세트
 

@@ -9,35 +9,46 @@ autotag-review: '2026-05-19T08:48:44.273Z'
 TQID: 'https://experienceleague.adobe.com/hE-nAiD8K4lHdZkC2YJpqpqfh2d3CY6tq4KiTJjEXs0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: cf731116-8803-4027-85aa-9c0a126e8321
+    internal-label: Dataset configuration
   - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
+    internal-label: Identity
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 521
+source-wordcount: '521'
 ht-degree: 9%
-
 ---
-
 # B2B 조회를 위한 데이터 세트 변환
 
 B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 사용자 기반 조회를 지원하기 위해 B2B 조회 데이터 세트를 변환하면 데이터 정확도를 향상시킬 수 있습니다.
 
 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.
 
-* [XDM 비즈니스 계정 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM 비즈니스 계정 개인 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -49,7 +60,7 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 >
 >| 스키마를 따르는 데이터가 포함된 데이터 세트 | 데이터로 채워진 필드 |
 >|---|---|
->| XDM 비즈니스 계정 사용자 관계 | `accountPersonID` |
+>| XDM 비즈니스 계정 개인 관계 | `accountPersonID` |
 >| XDM 비즈니스 영업 기회 사용자 | `opportunityPersonID` |
 >| XDM 비즈니스 마케팅 목록 | `marketingListMemberID` |
 >| XDM 비즈니스 캠페인 멤버 | `campaign.sourceKey` |

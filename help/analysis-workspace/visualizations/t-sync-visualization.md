@@ -9,21 +9,26 @@ autotag-review: '2026-05-19T08:30:43.942Z'
 TQID: 'https://experienceleague.adobe.com/UU1RlISeu-NOFAttolNcjV-p2EgtxBPFy3w7ZrLz-vY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 89%
-
 ---
-
 # 데이터 소스 관리 {#manage-data-sources}
 
 >[!CONTEXTUALHELP]
@@ -58,4 +63,4 @@ ht-degree: 89%
 | **[!UICONTROL 데이터 소스]** | 드롭다운 메뉴에서 시각화의 기반이 되는 데이터 소스를 선택합니다. |
 | **[!UICONTROL 연결된 시각화]** | 연결된 모든 시각화를 나열합니다. 데이터 소스(자유 형식 테이블)에 적용됩니다. |
 | **[!UICONTROL 데이터 소스 표시]** | 시각화에 해당하는 데이터 소스(자유 형식 테이블)를 표시하거나 숨길 수 있습니다. |
-| **[!UICONTROL 선택 사항 잠금]** | 이 옵션을 선택하면 해당 데이터 테이블에서 현재 선택된 데이터로 시각화 ![LockClosed](/help/assets/icons/LockClosed.svg)를 잠급니다. 활성화되면 다음 중에서 선택합니다.  <ul><li>**선택한 위치**: 시각화가 해당 데이터 테이블에서 선택한 **위치**&#x200B;에 잠깁니다. 이 위치는 특정 항목이 위치(예: 정렬 또는 필터링)에서 변경되더라도 계속 시각화됩니다. 예를 들어 데이터 소스에 나열된 상위 5개 캠페인 이름을 이 시각화에 항상 표시하려면 이 옵션을 선택합니다. 어떤 캠페인 이름이 표시되는지는 중요하지 않습니다.</li> <li>**선택한 항목**: 시각화가 해당 데이터 테이블에서 현재 선택한 특정 **항목**&#x200B;에 잠깁니다. 이러한 항목은 테이블의 항목 간에 순위가 바뀌는 경우에도 계속 시각화됩니다. 예를 들어 데이터 소스에 나열된 동일한 5개의 특정 캠페인 이름을 이 시각화에 항상 표시하려면 이 옵션을 선택합니다. 캠페인 이름의 순위가 어떻게 되는지는 중요하지 않습니다.</li></ul>연결된 데이터 테이블에 시각화가 더 이상 표시되지 않는 데이터로 잠긴 경우 새 테이블을 생성할 수 있습니다. **[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다. |
+| **[!UICONTROL 선택 사항 잠금]** | 이 옵션을 선택하면 해당 데이터 테이블에서 현재 선택된 데이터로 시각화 ![LockClosed](/help/assets/icons/LockClosed.svg)를 잠급니다. 활성화되면 다음 중에서 선택합니다.  <ul><li>**선택한 위치**: 시각화가 해당 데이터 테이블에서 선택한 **위치**&#x200B;에 잠깁니다. 이러한 위치는 해당 위치의 특정 항목이 변경되더라도(예: 정렬 또는 필터링으로 인해) 계속 시각화됩니다. 예를 들어 데이터 소스에 나열된 상위 5개 캠페인 이름을 이 시각화에 항상 표시하려면 이 옵션을 선택합니다. 어떤 캠페인 이름이 표시되는지는 중요하지 않습니다.</li> <li>**선택한 항목**: 시각화가 해당 데이터 테이블에서 현재 선택한 특정 **항목**&#x200B;에 잠깁니다. 이러한 항목은 테이블의 항목 간에 순위가 바뀌는 경우에도 계속 시각화됩니다. 예를 들어 데이터 소스에 나열된 동일한 5개의 특정 캠페인 이름을 이 시각화에 항상 표시하려면 이 옵션을 선택합니다. 캠페인 이름의 순위가 어떻게 되는지는 중요하지 않습니다.</li></ul>시각화가 연결된 데이터 테이블에 더 이상 표시되지 않는 데이터에 잠겨 있는 경우 새 테이블을 생성할 수 있습니다. **[!UICONTROL 테이블 표시]**&#x200B;를 선택하면 현재 시각화에 대한 새 데이터 소스를 생성하여 원래 데이터 소스와 분리시킬 수 있습니다. |

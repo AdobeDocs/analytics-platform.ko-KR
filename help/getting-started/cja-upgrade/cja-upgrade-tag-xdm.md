@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 95%
-
 ---
-
 # 태그에 XDM 데이터 수집 논리 추가 {#upgrade-tag-xdm}
 
 <!-- markdownlint-disable MD034 -->
@@ -99,9 +106,9 @@ ht-degree: 95%
 
 수집하려는 각 유형의 데이터에 대한 데이터 요소를 생성합니다. [페이지 이름 데이터 요소](#page-name-data-element)에 설명된 것과 동일한 프로세스를 사용하여 각 추가 데이터 요소를 만듭니다.
 
-생성하는 데이터 요소는 스키마에 상관 필드가 있어야 합니다.
+생성하는 데이터 요소에는 스키마에 해당하는 필드가 있어야 합니다.
 
-일반 데이터 요소는 업계 및 비즈니스 요구 사항에 따라 달라집니다. 업계별로 정리된 다음의 일반 데이터 요소를 고려합니다.
+일반 데이터 요소는 업계 및 비즈니스 요구 사항에 따라 달라집니다. 업계별로 정리된 다음의 일반 데이터 요소를 살펴보십시오.
 
 **소매 데이터 요소**
 
@@ -133,7 +140,7 @@ ht-degree: 95%
 
 마지막으로, 이제 생성한 데이터 요소를 이전에 [생성한 스키마](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 매핑하려고 합니다. 이를 수행하려면 XDM 스키마를 표현하는 XDM 오브젝트 데이터 요소를 정의해야 합니다.
 
-XDM 오브젝트 데이터 요소를 정의하는 경우:
+XDM 오브젝트 데이터 요소를 정의하려면:
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
@@ -167,7 +174,7 @@ XDM 오브젝트 데이터 요소를 정의하는 경우:
 
 ## **규칙 구성**
 
-Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 사용자 상호 작용과 관련 데이터를 찾습니다. 규칙에 요약된 기준이 충족되면 규칙이 정의한 확장, 스크립트 또는 클라이언트측 코드를 트리거합니다. Adobe Experience Platform Web SDK 확장을 통해 규칙을 사용하여 데이터(예: XDM 오브젝트)를 Adobe Experience Platform에 전송할 수 있습니다.
+Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 사용자 상호 작용과 관련 데이터를 찾습니다. 규칙에 설명된 기준이 충족되면 규칙이 식별한 확장 기능, 스크립트 또는 클라이언트측 코드를 트리거합니다. Adobe Experience Platform Web SDK 확장을 통해 규칙을 사용하여 데이터(예: XDM 오브젝트)를 Adobe Experience Platform에 전송할 수 있습니다.
 
 규칙을 정의하는 경우:
 
@@ -177,7 +184,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 >
 >태그에서 다양한 방식으로 규칙을 사용하여 변수를 조작할 수 있습니다(데이터 요소 사용).
 >
->자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko)을 참조하십시오.
+>자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)을 참조하십시오.
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
@@ -195,27 +202,27 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
    * **[!UICONTROL 이벤트]**: **[!UICONTROL + 추가]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 이벤트 구성]** 대화 상자에서 다음 정보를 지정합니다. 작업이 끝나면 **[!UICONTROL 변경 내용 유지]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL 코어]**&#x200B;를 선택합니다.
+     * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL 코어]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 이벤트 유형]**: 목록에서 **[!UICONTROL 로드된 창]**&#x200B;을 선택합니다.
+     * **[!UICONTROL 이벤트 유형]**: 목록에서 **[!UICONTROL 로드된 창]**&#x200B;을 선택합니다.
 
-        ![규칙 - 이벤트 구성](assets/event-windowloaded-pageview.png)
+       ![규칙 - 이벤트 구성](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL 액션]**: **[!UICONTROL + 추가]**&#x200B;를 선택합니다. 그런 다음 [!UICONTROL 액션 구성] 대화 상자에서 다음 정보를 지정합니다. 작업이 끝나면 **[!UICONTROL 변경 내용 유지]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
+     * **[!UICONTROL 확장]**: 목록에서 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL 액션 유형]**: 목록에서 **[!UICONTROL 이벤트 전송]**&#x200B;을 선택합니다.
+     * **[!UICONTROL 액션 유형]**: 목록에서 **[!UICONTROL 이벤트 전송]**&#x200B;을 선택합니다.
 
-      * **[!UICONTROL 유형]**: 목록에서 **[!UICONTROL 웹 Webpagedetails 페이지 조회수]**&#x200B;를 선택합니다.
+     * **[!UICONTROL 유형]**: 목록에서 **[!UICONTROL 웹 Webpagedetails 페이지 조회수]**&#x200B;를 선택합니다.
 
-      * **[!UICONTROL XDM 데이터]**: 원통 아이콘을 선택한 후 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 조회수]**&#x200B;를 선택합니다.
+     * **[!UICONTROL XDM 데이터]**: 원통 아이콘을 선택한 후 데이터 요소 목록에서 **[!UICONTROL XDM - 페이지 조회수]**&#x200B;를 선택합니다.
 
-        ![규칙 - 액션 구성](assets/action-pageview-xdm.png)
+       ![규칙 - 액션 구성](assets/action-pageview-xdm.png)
 
-        규칙은 다음과 같습니다.
+       규칙은 다음과 같습니다.
 
-        ![규칙 만들기](assets/rule-pageview.png)
+       ![규칙 만들기](assets/rule-pageview.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -227,11 +234,11 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
 ## 태그 빌드 및 게시
 
-데이터 요소 및 규칙을 정의한 후 태그를 빌드하고 게시해야 합니다. 라이브러리 빌드를 만들면 이를 환경에 지정해야 합니다. 그런 다음 빌드의 확장, 규칙 및 데이터 요소를 컴파일하여 지정된 환경에 배치합니다. 각 환경에서는 지정된 빌드를 사이트에 통합할 수 있는 고유한 임베드 코드를 제공합니다.
+데이터 요소 및 규칙을 정의한 후 태그를 빌드하고 게시해야 합니다. 라이브러리 빌드를 만들면 이를 환경에 할당해야 합니다. 그런 다음 빌드의 확장, 규칙 및 데이터 요소를 컴파일하여 지정된 환경에 배치합니다. 각 환경에서는 지정된 빌드를 사이트에 통합할 수 있는 고유한 임베드 코드를 제공합니다.
 
-Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 수용해야 하는 간단하면서 복잡한 게시 워크플로를 지원합니다. 자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 수용해야 하는 간단하면서 복잡한 게시 워크플로를 지원합니다. 자세한 내용은 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)를 참조하십시오.
 
-태그를 빌드하고 게시하는 경우:
+태그를 빌드하고 게시하려면:
 
 1. Adobe ID 자격 증명을 사용하여 experience.adobe.com에 로그인합니다.
 
@@ -255,7 +262,7 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Web SDK 배포를 
 
 1. **[!UICONTROL 개발에 저장 및 빌드]**&#x200B;을 선택합니다.
 
-   개발 환경에 대해 태그가 저장되고 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
+   태그가 저장되고 개발 환경용으로 빌드됩니다. 녹색 점은 개발 환경에서 태그의 빌드가 완료되었음을 나타냅니다.
 
 1. **[!UICONTROL ...]**&#x200B;를 선택하여 라이브러리를 다시 빌드하거나 라이브러리를 스테이징 또는 프로덕션 환경으로 이동할 수 있습니다.
 

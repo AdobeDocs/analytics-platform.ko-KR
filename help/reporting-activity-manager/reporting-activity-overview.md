@@ -9,22 +9,30 @@ autotag-review: '2026-05-19T09:20:21.544Z'
 TQID: 'https://experienceleague.adobe.com/p3-A9niD983wGg3yw78Hcrb1q0ApWZxHrw8xfpZ9ESg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: d897176a-4262-4425-ba97-0aa9fcc9c1aa
+    internal-label: Reporting Activity Manager
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 100%
-
 ---
-
 # 보고 활동 관리자 개요
 
 [!UICONTROL 보고 활동 관리자]는 관리자에게 제공됩니다.
@@ -38,7 +46,7 @@ ht-degree: 100%
 * 조직 내 각 연결에 대한 보고 용량을 모니터링하고 관리할 수 있습니다.
 * 연결 전체에 걸쳐 실시간으로 현재 보고 용량에 대해 알려 줍니다.
 * 대기열에 있거나 진행 중인지 여부에 관계없이 현재 보고 요청에 대해 상세한 보고서 정보를 제공합니다.
-* 용량을 확보하기 위해 일부 보고 요청의 우선순위를 지정하고 다른 보고 요청을 취소하여 보고 대기열을 최적화하도록 해 줍니다. 이 보고서는 다음과 같은 질문에 대한 답을 제공합니다. 이 보고서가 지금 필요합니까, 아니면 더 긴급한 보고서를 위해 취소할 수 있습니까?
+* 용량을 확보하기 위해 일부 보고 요청의 우선순위를 지정하고 다른 보고 요청을 취소하여 보고 대기열을 최적화하도록 해 줍니다. 이는 다음과 같은 질문에 대한 답을 제공합니다. 이 보고서가 지금 필요합니까, 아니면 더 긴급한 보고서를 위해 취소할 수 있습니까?
 * 지정된 기간 동안의 향후 요청을 제한할 수 있습니다. 특정 요청을 제한할 수도 있고, 특정 사용자의 요청이나 특정 프로젝트와 관련된 모든 요청을 제한할 수도 있습니다.
 
 ## 권한

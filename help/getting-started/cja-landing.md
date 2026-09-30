@@ -4,35 +4,50 @@ description: Customer Journey Analytics 랜딩 페이지.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-TQID: https://experienceleague.adobe.com/QBGCqJ3GBKAh4jfAAvA3sO6GXjJHGEAtaRXyASH8PhA
+TQID: 'https://experienceleague.adobe.com/QBGCqJ3GBKAh4jfAAvA3sO6GXjJHGEAtaRXyASH8PhA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 63%
-
+source-wordcount: '1063'
+ht-degree: 64%
 ---
-
 # Customer Journey Analytics 안내서
 
-이 기술 설명서 안내서는 Customer Journey Analytics에 대한 자가 진단 지원을 제공합니다. Customer Journey Analytics를 사용하면 선택한 모든 채널(온라인 및 오프라인)의 고객 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 현재 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다.
+이 기술 설명서 안내서는 Customer Journey Analytics에 대한 셀프서비스 지원을 제공합니다. Customer Journey Analytics를 사용하면 선택한 모든 채널(온라인 및 오프라인)의 고객 데이터를 Adobe Experience Platform으로 가져올 수 있습니다. 그런 다음 현재 Analysis Workspace를 사용하여 기존 디지털 데이터를 분석하는 것처럼 이 데이터를 분석할 수 있습니다.
 
 Customer Journey Analytics을 사용하면 Analysis Workspace에서 임의 일반 고객 ID의 온라인과 오프라인 데이터를 연결하는 방법을 제어할 수 있으므로 고객 데이터 전반에 걸쳐 속성, 세그먼트, 흐름, 폴아웃 등을 수행할 수 있습니다.
 
@@ -135,7 +150,7 @@ Content Analytics를 사용하면 대량의 콘텐츠 데이터를 쉽고 빠르
 
 ## 설명서 살펴보기
 
-Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니다. 또한 솔루션에서 데이터를 가져온 다음 해당 데이터와 결과 분석 및 보고서를 준비하고, 보고, 분석하고, 민주화하는 방법을 이해합니다.
+Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니다. 또한 데이터를 솔루션에 가져온 다음 해당 데이터와 그 결과인 분석 및 보고서를 준비하고, 보고, 분석하고, 민주화하는 방법을 이해합니다.
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -182,4 +197,4 @@ Customer Journey Analytics와 Adobe Analytics의 비교 내용을 이해합니�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>최신 정보를 얻고 커뮤니티에 기여하고 Customer Journey Analytics 환경을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 다른 실무자와 이 기능에 대해 논의하십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>
+<b>최신 정보를 얻고 커뮤니티에 기여하고 Customer Journey Analytics 환경을 향상시키십시오!</b><br>Adobe Analytics 커뮤니티를 방문하여 다른 실무자와 이 기능에 대해 논의하십시오. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">지금 커뮤니티에 가입하십시오!</a></td></tr></tbody></table>

@@ -9,25 +9,34 @@ autotag-review: '2026-05-19T08:15:52.067Z'
 TQID: 'https://experienceleague.adobe.com/RxYBLvBJnhWb-YL6HeVpTz-9dKrr5DQZhOBond8Xano'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: '1294'
 ht-degree: 100%
-
 ---
-
 # Customer Journey Analytics에 사용할 사용자 정의 스키마 만들기 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
@@ -45,7 +54,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="프로필용으로 스키마 활성화"
->abstract="Adobe Real-time CDP에서 사용할 수 있도록 스키마에서 프로필을 활성화합니다. 이 단계는 Adobe Real-time CDP와 통합하기를 선택했기 때문에 나타납니다.<br><br>이 단계에서는 상자 하나만 클릭하기 때문에 몇 분밖에 걸리지 않습니다."
+>abstract="Adobe Real-Time CDP에서 사용할 수 있도록 스키마에서 프로필을 활성화합니다. 이 단계는 Adobe Real-time CDP와 통합하기를 선택했기 때문에 나타납니다.<br><br>이 단계에서는 상자 하나만 클릭하기 때문에 몇 분밖에 걸리지 않습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -67,7 +76,7 @@ ht-degree: 100%
 
 Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experience Platform에 수집하는 데이터 모델을 나타냅니다.
 
-사용자 정의 스키마를 만드는 방법:
+사용자 정의 스키마를 만들려면 다음과 같이 하십시오:
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
@@ -140,7 +149,7 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    >[!NOTE]
    >
-   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=ko) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=ko#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
+   >해당 필드 그룹을 사용할 수 없는 경우 ID 필드가 포함된 다른 필드 그룹을 찾습니다. 또는 [새로운 필드 그룹을 만들고](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 필드 그룹에 [새로운 ID 필드(`ecid`, `crmId` 등 필요한 필드)를 추가](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field)한 다음 해당 새로운 필드 그룹을 선택합니다.
 
    ![식별 오브젝트](assets/identification-field.png)
 
@@ -154,7 +163,7 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    Experience Cloud ID를 Adobe Experience Platform ID 서비스가 프로필의 비헤이비어를 동일한 ECID와 결합하는 데 사용할 수 있는 기본 ID로 지정합니다.
 
-   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ECID 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
+   **[!UICONTROL 적용]**&#x200B;을 선택합니다. ecid 속성에 지문 아이콘이 표시되는 것을 볼 수 있습니다.
 
 1. 방금 추가한 식별 오브젝트에서 **[!UICONTROL 이메일]** 필드를 선택한 다음 [!UICONTROL 필드 속성] 패널의 [!UICONTROL ID 네임스페이스] 목록에서 **[!UICONTROL ID]** 및 **[!UICONTROL 이메일]**&#x200B;을 선택합니다.
 
@@ -170,7 +179,7 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    스키마를 프로필용으로 활성화하라는 메시지가 표시됩니다. 활성화한 후 데이터가 이 스키마를 기반으로 데이터 세트로 수집되면 해당 데이터는 실시간 고객 프로필에 병합됩니다.
 
-   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#profile)를 참조하십시오.
+   자세한 내용은 [실시간 고객 프로필에 사용할 스키마 활성화](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -180,9 +189,9 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
 1. 스키마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   웹 사이트에서 캡처할 수 있는 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하여 웹 사이트에서 캡처된 데이터가 실시간 고객 프로필에 추가되었는지 확인합니다.
+   웹 사이트에서 캡처할 수 있는 데이터를 모델링하는 최소한의 스키마를 만들었습니다. 스키마를 통해 Experience Cloud ID 및 이메일 주소를 사용하여 프로필을 식별할 수 있습니다. 스키마를 프로필용으로 활성화하면 웹 사이트에서 캡처된 데이터가 실시간 고객 프로필에 추가됩니다.
 
-   비헤이비어 데이터 옆에서 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
+   행동 데이터 외에도 사이트의 프로필 속성 데이터(예: 뉴스레터를 구독하는 프로필의 세부 정보)를 캡처할 수도 있습니다.
 
    이 프로필 데이터를 캡처하려면 다음 작업을 수행하십시오.
 
@@ -196,6 +205,6 @@ Web SDK 구현에 대해 정의한 사용자 정의 스키마는 Adobe Experienc
 
    * 프로필용으로 스키마 활성화
 
-   스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko)을 참조하십시오.
+   스키마에 필드 그룹 및 개별 필드 추가 및 제거에 대한 자세한 내용은 [UI에서 스키마 생성 및 편집](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)을 참조하십시오.
 
 {{upgrade-final-step}}

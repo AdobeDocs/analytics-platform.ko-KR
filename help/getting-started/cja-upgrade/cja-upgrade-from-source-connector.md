@@ -9,25 +9,34 @@ autotag-review: '2026-05-19T08:14:22.976Z'
 TQID: 'https://experienceleague.adobe.com/af02lBhLgsKQOkm2yVW4jHvFYVbqOCDi6-puKoKytMo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '539'
 ht-degree: 100%
-
 ---
-
 # Customer Journey Analytics를 위해 Analytics 소스 커넥터에서 Web SDK로 전환 {#transition-from-source-connector}
 
 <!-- markdownlint-disable MD034 -->
@@ -64,7 +73,7 @@ Analytics 소스 커넥터를 사용하는 데 따른 장단점에 대한 자세
 
 1. [Adobe Analytics에서 Customer Journey Analytics로 업그레이드](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md) 문서의 [자세한 권장 업그레이드 단계](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)에 설명된 대로 Web SDK 구현을 만듭니다.
 
-   Web SDK 구현이 구성된 후 다음 단계를 계속 진행합니다.
+   Web SDK 구현이 구성된 후 다음 단계를 진행합니다.
 
 1. [Analytics 소스 커넥터용 XDM 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 

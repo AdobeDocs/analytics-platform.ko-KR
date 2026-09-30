@@ -9,29 +9,44 @@ autotag-review: '2026-05-19T08:55:53.979Z'
 TQID: 'https://experienceleague.adobe.com/10YCh2cnMTVriKKVOyYfzFfngvGQ2VVHOxzedE5NpWA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '466'
 ht-degree: 3%
-
 ---
-
 # Experience Platform Data Mirror 개요
 
 Data Mirror은 관계형 스키마를 사용하여 외부 데이터베이스에서 데이터 레이크로 행 수준 변경 사항을 수집할 수 있는 Experience Platform 기능입니다. ETL(업스트림 추출, 변환 및 로드) 프로세스 없이도 데이터 관계를 유지하고, 고유성을 적용하며, 버전 관리를 지원합니다.
@@ -50,7 +65,7 @@ Data Mirror은 데이터베이스 동기화를 위한 다음과 같은 필수 �
 
 Data Mirror을 사용하여 소스 시스템에서 직접 변경 사항을 수집하고, 스키마 무결성을 적용하며, 분석, 여정 오케스트레이션 및 규정 준수 워크플로우에 데이터를 사용할 수 있도록 합니다. Data Mirror은 기존 데이터베이스 모델의 직접 미러링을 활성화하여 복잡한 업스트림 ETL 프로세스를 제거하고 구현 시간을 단축합니다. 이를 통해 삭제 및 데이터 위생 작업을 정확하게 제어하여 데이터 거버넌스를 향상시킬 수 있습니다.
 
-Data Mirror의 [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}도 참조하세요.
+Data Mirror의 [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}도 참조하세요.
 
 ## Customer Journey Analytics용 Data Mirror
 
@@ -74,6 +89,6 @@ Customer Journey Analytics용 Experience Platform Data Mirror은 선택한 데�
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용](relational.md)
->[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
+>[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용합니다.](relational.md)
+>[Data Mirror (Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
 >[관계형 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)

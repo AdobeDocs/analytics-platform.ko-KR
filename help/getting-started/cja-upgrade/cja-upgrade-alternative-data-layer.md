@@ -9,28 +9,40 @@ autotag-review: '2026-05-19T08:09:26.880Z'
 TQID: 'https://experienceleague.adobe.com/IsYrCVRcY1cd2xSYV7A-iJ2jx8Ku-oZ-BtHu8If-55Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Personalization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: '696'
 ht-degree: 54%
-
 ---
-
 # 업그레이드 대안: 데이터 레이어를 Customer Journey Analytics로 전송 {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,7 +50,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer"
 >title="Adobe로 데이터 레이어 전송"
->abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 전체 데이터 레이어를 Adobe로 전송할 수 있습니다.<br><br>이 옵션을 사용하면 XDM 오브젝트를 처음부터 직접 채우는 대신 데이터 레이어를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 단, Adobe가 즉시 해석할 수 없는 상당한 양의 데이터가 전송되므로, 이러한 매핑에는 많은 작업이 필요합니다. 또한 이 옵션을 선택하면 나중에 데이터에 추가하는 모든 필드를 데이터스트림의 XDM에 매핑해야 하므로 시간이 지남에 따라 복잡성이 증가합니다."
+>abstract="XDM 오브젝트를 통해 데이터를 전송하는 대신 데이터 오브젝트를 통해 전체 데이터 레이어를 Adobe로 전송할 수 있습니다.<br><br>이 옵션을 사용하면 XDM 오브젝트를 처음부터 직접 채우는 대신 데이터 레이어를 XDM에 매핑할 수 있으므로 구현 시간이 절약됩니다. 단, Adobe가 즉시 해석할 수 없는 상당한 양의 데이터가 있으므로 이러한 매핑에는 많은 작업이 필요합니다. 또한 이 옵션을 선택하면 나중에 데이터에 추가하는 모든 필드를 데이터스트림의 XDM에 매핑해야 하므로 시간이 지남에 따라 복잡성이 증가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,7 +86,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 전체 데이터 레
 
 | 장점 | 단점 |
 |----------|---------|
-| <ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ko)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 CX 엔터프라이즈 제품(AJO, RTCDP 등) 간에 Adobe CX 엔터프라이즈 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**현재 데이터 계층 논리를 사용합니다**: 이 메서드는 일반적인 웹 SDK 구현 대신 현재 데이터 계층 논리를 사용합니다. 이 접근 방식에서는 일부 구성이 필요하지만 처음부터 완전히 새로운 구현이 필요하지 않으며 데이터 요소나 태그 규칙을 채울 필요가 없습니다. 이를 통해 처음부터 XDM 개체를 채우는 대신 데이터 레이어의 데이터를 XDM에 매핑할 수 있습니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. <p>이 옵션을 사용하면 전체 클라이언트측 데이터 레이어를 데이터 개체에 넣고 Adobe으로 보낼 수 있으므로 Adobe에서 쉽게 해석할 수 없는 상당한 양의 데이터가 생성됩니다. Adobe에서 데이터를 해석할 수 있도록 하려면 데이터스트림 매핑을 사용하여 모든 개별 필드를 원하는 XDM 필드에 매핑해야 합니다.</p></li><li>**엄격한 구현**: 구현은 히트가 전송될 때 데이터 계층이 제공하는 것으로 제한됩니다. 기본 데이터 요구 사항이 있는 조직에서도 이 기능을 사용할 수 있지만, 대부분의 조직에서는 데이터 요소를 채울 수 있는 보다 유연한 구현을 위해 이러한 유형의 엄격한 구현을 피해야 합니다.</li><li>**향후 변경 내용은 구현하기 더 어렵습니다**: 나중에 데이터에 추가하는 필드는 데이터 스트림의 XDM에 매핑해야 합니다.</li></ul> |
+| <ul><li>**Experience Edge Network에서 데이터 호스팅의 모든 장점을 제공합니다**. <p>이러한 장점은 다음과 같습니다.</p><ul><li>Adobe Experience Platform은 [실시간 개인화 사용 사례](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)를 지원하도록 구축되었기 때문에 뛰어난 성능의 보고 및 데이터 가용성</li><li>다른 CX Enterprise 제품(AJO, RTCDP 등) 간에 Adobe CX Enterprise 데이터 수집을 위한 구현 통합</li><li>Adobe Analytics 명명법(Prop, eVar, 이벤트 등)에 의존하지 않음</li></ul><li>**현재 데이터 계층 논리를 사용합니다**: 이 메서드는 일반적인 웹 SDK 구현 대신 현재 데이터 계층 논리를 사용합니다. 이 접근 방식에서는 일부 구성이 필요하지만 처음부터 완전히 새로운 구현이 필요하지 않으며 데이터 요소나 태그 규칙을 채울 필요가 없습니다. 이를 통해 처음부터 XDM 개체를 채우는 대신 데이터 레이어의 데이터를 XDM에 매핑할 수 있습니다.</li></ul> | <ul><li>**Platform으로 데이터를 전송하기 위해 매핑 필요**: 조직에서 Customer Journey Analytics를 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. <p>이 옵션을 사용하면 전체 클라이언트측 데이터 레이어를 데이터 개체에 넣고 Adobe으로 보낼 수 있으므로 Adobe에서 쉽게 해석할 수 없는 상당한 양의 데이터가 생성됩니다. Adobe에서 데이터를 해석할 수 있도록 하려면 데이터스트림 매핑을 사용하여 모든 개별 필드를 원하는 XDM 필드에 매핑해야 합니다.</p></li><li>**엄격한 구현**: 구현은 히트가 전송될 때 데이터 계층이 제공하는 것으로 제한됩니다. 기본 데이터 요구 사항이 있는 조직에서도 이 기능을 사용할 수 있지만, 대부분의 조직에서는 데이터 요소를 채울 수 있는 보다 유연한 구현을 위해 이러한 유형의 엄격한 구현을 피해야 합니다.</li><li>**향후 변경 내용은 구현하기 더 어렵습니다**: 나중에 데이터에 추가하는 필드는 데이터 스트림의 XDM에 매핑해야 합니다.</li></ul> |
 
 {style="table-layout:auto"}
 

@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 6%
-
+source-wordcount: '605'
+ht-degree: 5%
 ---
-
 # Experience Platform 구성
 
 Experience Platform Data Mirror for Customer Journey Analytics을 사용하려면 여러 Experience Platform 구성 요소를 적절하게 구성해야 합니다.
@@ -47,9 +55,9 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 * 스키마의 필드 및 해당 속성을 정의합니다.
 * 관계형 스키마의 필드에 필요한 속성을 구성합니다.
 
-   * **기본 키**.
-   * **버전 설명자**(순차적 번호(정수 필드 형식) 또는 DateTime 필드 형식으로 구성해야 함). DateTime 필드 유형을 사용하는 경우, 버전 설명자는 데이터 수정 타임스탬프를 정의합니다(예: 마지막으로 수정된 타임스탬프를 포함).
-   * **타임스탬프 설명자**(시계열 데이터의 경우), 이벤트가 캡처되는 순간에 변경할 수 없는 타임스탬프를 정의합니다. 레코드 기반 관계형 스키마에는 타임스탬프 설명자가 필요하지 않습니다.
+  * **기본 키**.
+  * **버전 설명자**(순차적 번호(정수 필드 형식) 또는 DateTime 필드 형식으로 구성해야 함). DateTime 필드 유형을 사용하는 경우, 버전 설명자는 데이터 수정 타임스탬프를 정의합니다(예: 마지막으로 수정된 타임스탬프를 포함).
+  * **타임스탬프 설명자**(시계열 데이터의 경우), 이벤트가 캡처되는 순간에 변경할 수 없는 타임스탬프를 정의합니다. 레코드 기반 관계형 스키마에는 타임스탬프 설명자가 필요하지 않습니다.
 
 
 
@@ -67,9 +75,9 @@ Experience Platform Data Mirror for Customer Journey Analytics을 사용하려�
 
 지원되는 Data Warehouse 네이티브 솔루션에 대한 인증은 관련 Experience Platform 설명서를 참조하십시오.
 
-* [Azure Databricks](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 데이터 선택
@@ -104,6 +112,6 @@ Data Warehouse 네이티브 솔루션의 테이블에서 Experience Platform의 
 
 >[!MORELIKETHIS]
 >
->[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용](relational.md)
->[Data Mirror(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-mirror/overview)
+>[Data Mirror 빠른 시작 안내서: 관계형 데이터를 미러링하고 사용합니다.](relational.md)
+>[Data Mirror (Experience Platform 설명서)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
 >[관계형 스키마(Experience Platform 설명서)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)

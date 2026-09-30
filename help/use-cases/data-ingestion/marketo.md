@@ -5,35 +5,53 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-TQID: https://experienceleague.adobe.com/UXeVx5LF0ww0guz-62swqmGapSfjiTduYjojcZqqIYQ
+TQID: 'https://experienceleague.adobe.com/UXeVx5LF0ww0guz-62swqmGapSfjiTduYjojcZqqIYQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+    internal-label: Report Builder
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 9%
-
 ---
-
 # Marketo Engage 데이터에 대한 보고서
 
 Experience Platform의 사용 가능한 Marketo Engage 데이터 세트를 활용하여 B2B 마케터에게 중요한 분석 및 보고 솔루션을 제공할 수 있습니다. 그런 다음 Customer Journey Analytics에서 이러한 데이터 세트에 대해 보고합니다.
@@ -93,13 +111,13 @@ Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데�
 
 +++Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 +++
 
 +++Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 +++
 
@@ -112,7 +130,7 @@ Experience Platform 데이터 세트에 대해 보고하려면 먼저 Experience
 
 +++하나 이상의 데이터 보기 만들기
 
-[데이터 보기](/help/data-views/data-views.md)는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용할 가능한 모든 차원과 지표(이 경우 Marketo와 관련된 지표 및 차원)를 지정합니다. 또한 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
+[데이터 보기](/help/data-views/data-views.md)는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용할 수 있는 모든 차원과 지표, 즉 이 경우 Marketo 관련 지표와 차원을 지정합니다. 또한 해당 차원과 지표가 데이터를 가져오는 열도 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
 +++ 
 

@@ -5,29 +5,41 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-TQID: https://experienceleague.adobe.com/eqmDvuaNGFj8q2pfKNCzf5-affyrUTYP7MA5UgsRrCI
+TQID: 'https://experienceleague.adobe.com/eqmDvuaNGFj8q2pfKNCzf5-affyrUTYP7MA5UgsRrCI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1674
+source-wordcount: '1674'
 ht-degree: 26%
-
 ---
-
 # 애드 혹 데이터 수집 및 사용
 
 이 빠른 시작 안내서에서는 임시 데이터를 Experience Platform으로 수집한 다음 Customer Journey Analytics에서 해당 데이터를 사용하는 방법을 설명합니다.
@@ -46,7 +58,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->이 빠른 시작 안내서는 를 사용하여 Experience Platform으로 임시 데이터를 수집하고 Customer Journey Analytics에서 해당 임시 데이터를 사용하는 방법에 대한 간단한 안내서입니다. 추가 정보를 참고하는 경우 연구하는 것이 좋습니다.
+>이 빠른 시작 안내서는 를 사용하여 Experience Platform으로 임시 데이터를 수집하고 Customer Journey Analytics에서 해당 임시 데이터를 사용하는 방법에 대한 간단한 안내서입니다. 참조되는 경우 추가 정보를 살펴보는 것이 좋습니다.
 
 
 ## CSV 파일로 데이터 세트 만들기
@@ -171,7 +183,7 @@ Customer Journey Analytics에서 Experience Platform 데이터 세트를 사용�
 
 >[!IMPORTANT]
 >
->시계열 데이터에 임시 데이터 세트 및 스키마를 사용하지 않는 것이 좋다는 일반적인 권장 사항 외에 시계열 데이터에 **[!UICONTROL CSV에서 데이터 세트 만들기]** 워크플로우를 사용할 수 없습니다. 이 워크플로우는 나중에 수정할 수 없는 문자열 유형의 모든 필드를 정의합니다. 연결에 시계열 기반 데이터 세트(이벤트 또는 요약)를 추가할 때 이 데이터 세트 유형에는 DateTime 유형의 필드를 하나 이상 정의해야 합니다.<br/>임시 시계열 데이터를 사용해야 하는 경우 [API를 사용하여 임시 스키마를 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)한 다음 [스키마에서 데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#schema) 워크플로우를 사용하십시오.
+>시계열 데이터에 임시 데이터 세트 및 스키마를 사용하지 않는 것이 좋다는 일반적인 권장 사항 외에 시계열 데이터에 **[!UICONTROL CSV에서 데이터 세트 만들기]** 워크플로우를 사용할 수 없습니다. 이 워크플로우는 나중에 수정할 수 없는 문자열 유형의 모든 필드를 정의합니다. 연결에 시계열 기반 데이터 세트(이벤트 또는 요약)를 추가할 때 이 데이터 세트 유형에는 DateTime 유형의 필드를 하나 이상 정의해야 합니다.<br/>임시 시계열 데이터를 사용해야 하는 경우 [API를 사용하여 임시 스키마를 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)한 다음 [스키마에서 데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#schema) 워크플로우를 사용하십시오.
 
 
 [연결](/help/connections/overview.md)을 만든 후 [데이터 세트 선택 및 결합](/help/connections/combined-dataset.md), [연결의 데이터 세트 상태 및 데이터 수집 상태 확인](/help/connections/manage-connections.md) 등 다양한 관리 작업을 수행할 수 있습니다.
@@ -180,7 +192,7 @@ Customer Journey Analytics에서 Experience Platform 데이터 세트를 사용�
 
 데이터 보기는 Customer Journey Analytics와 관련된 컨테이너입니다. 이를 통해 연결에서 데이터를 해석하는 방법을 결정할 수 있습니다. Analysis Workspace에서 사용 가능한 모든 차원과 지표를 지정하고, 해당 차원과 지표가 데이터를 얻을 수 있는 열을 지정합니다. 데이터 보기는 Analysis Workspace의 데이터에 대한 보고 준비에 따라 정의됩니다.
 
-데이터 보기를 만드는 경우:
+데이터 보기를 만들려면:
 
 1. Customer Journey Analytics UI의 상단 메뉴에서 **[!UICONTROL 데이터 보기]**(선택 사항: **[!UICONTROL 데이터 관리]**)를 선택합니다.
 
@@ -222,7 +234,7 @@ Customer Journey Analytics에서 Experience Platform 데이터 세트를 사용�
 
 ## 프로젝트 설정
 
-Analysis Workspace은 데이터를 기반으로 분석을 빠르게 작성하고 통찰력을 공유할 수 있는 유연한 브라우저 도구입니다. 작업 영역 프로젝트를 사용하여 데이터 구성 요소, 테이블 및 시각화를 결합하여 분석을 작성하고 조직의 모든 사람과 공유할 수 있습니다.
+Analysis Workspace은 데이터를 기반으로 분석을 빠르게 작성하고 통찰력을 공유할 수 있는 유연한 브라우저 도구입니다. 작업 영역 프로젝트를 사용하여 데이터 구성 요소, 테이블 및 시각화를 결합해 분석을 수행하고 조직의 모든 사람과 공유할 수 있습니다.
 
 프로젝트를 만드는 경우:
 

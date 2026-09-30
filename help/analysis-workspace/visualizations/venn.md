@@ -4,24 +4,30 @@ title: 벤
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-TQID: https://experienceleague.adobe.com/CxkgYLy9HfZEWEqU0r7UnuF5VStvjcKeX8SBwUqxj-s
+TQID: 'https://experienceleague.adobe.com/CxkgYLy9HfZEWEqU0r7UnuF5VStvjcKeX8SBwUqxj-s'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: '238'
 ht-degree: 57%
-
 ---
-
 # 벤 {#venn}
 
 <!-- markdownlint-disable MD034 -->
@@ -29,14 +35,14 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="workspace_venn_button"
 >title="벤"
->abstract="두 요소와 중복 크기를 시각적으로 빠르게 비교하는 벤 차트 시각화를 만듭니다."
+>abstract="두 요소와 겹치는 영역의 크기를 시각적으로 빠르게 비교할 수 있도록 벤 차트 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전._
+_이 문서에서는 벤 시각화를 설명합니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_이 문서의_&#x200B;에 대한 [벤](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/venn) 참조![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +71,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}를 확인하십시오.
 
 {{videoaa}}
 

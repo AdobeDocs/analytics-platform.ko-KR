@@ -5,27 +5,39 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-TQID: https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI
+TQID: 'https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1268
+source-wordcount: '1268'
 ht-degree: 96%
-
 ---
-
 # 유지 분석 {#retention}
 
 <!-- markdownlint-disable MD034 -->
@@ -44,7 +56,7 @@ ht-degree: 96%
 
 이 분석에서 차트의 x축은 사용자의 초기 시작 이벤트 이후의 시간을 나타내며, y축은 하나 이상의 재방문 이벤트에 참여한 사용자의 비율을 나타냅니다. 유지율과 이탈율을 기간별로 볼 수 있으며, 표시되는 기간은 쿼리 설정을 통해 사용자 정의할 수 있습니다. 차트 아래에 있는 테이블은 집계 데이터를 제공하며, 같은 날짜에 시작 이벤트를 수행한 사람들의 그룹인 개별 코호트를 표시하는 옵션이 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435785/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -86,7 +98,7 @@ ht-degree: 96%
 
 ### 날짜 범위
 
-분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
+분석에 원하는 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
 * **[!UICONTROL 간격]**: 유지 데이터를 보고자 하는 날짜 세부 기간입니다. 유효한 옵션으로는 일별, 주별 및 월별이 있습니다. 동일한 날짜 범위에도 간격이 다를 수 있으며, 이는 기간 버킷 옵션에 영향을 미칩니다.
 * **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.

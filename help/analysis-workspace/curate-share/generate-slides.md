@@ -5,32 +5,47 @@ title: Workspace 보고서에서 프레젠테이션 생성
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-TQID: https://experienceleague.adobe.com/FS8pF5-orvK65JCWs8stf2gMbrUXYmcsM-DXJhzlML4
+TQID: 'https://experienceleague.adobe.com/FS8pF5-orvK65JCWs8stf2gMbrUXYmcsM-DXJhzlML4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1720
+source-wordcount: '1720'
 ht-degree: 9%
-
 ---
-
 # Data storytelling: Workspace 보고서에서 슬라이드 프레젠테이션 생성 {#generate-powerpoint}
 
 >[!NOTE]
@@ -108,7 +123,7 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
 >title="강조된 구성 요소"
->abstract="프레젠테이션에서 강조할 시각화에서 최대 5개의 지표와 5개의 차원을 선택합니다. 선택한 지표는 기울임체로 표시되고, 차원은 굵은 글씨로 표시되며, 차원은 항목은 대비색으로 표시됩니다."
+>abstract="프레젠테이션에서 강조할 시각화의 지표와 차원을 각각 최대 5개까지 선택합니다. 선택한 지표는 기울임체로 표시되고, 차원은 굵은 글씨로 표시되며, 차원 항목은 대비색으로 표시됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -239,21 +254,21 @@ Analysis Workspace은 다음 프로젝트 요소를 고려하여 데이터 스�
 
   대부분의 시각화는 Workspace 프로젝트에서 생성된 슬라이드에 포함할 수 있습니다. 하지만 다음 시각화는 포함할 수 없으며 구성 옵션이 표시될 때 흐리게 표시됩니다.
 
-   * 영역
+  * 영역
 
-   * 글머리 기호
+  * 글머리 기호
 
-   * 코호트 테이블
+  * 코호트 테이블
 
-   * 콤보
+  * 콤보
 
-   * 여러 차원 열이 있는 자유 형식 테이블(단일 차원 열이 있는 테이블이 지원됨)
+  * 여러 차원 열이 있는 자유 형식 테이블(단일 차원 열이 있는 테이블이 지원됨)
 
-   * 여정 캔버스
+  * 여정 캔버스
 
-   * 분산
+  * 분산
 
-   * 트리맵
+  * 트리맵
 
 * 안내식 분석
 

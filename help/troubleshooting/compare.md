@@ -6,33 +6,44 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 쿼리 서비스;쿼리 서비스;SQL 구문
-TQID: https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE
+TQID: 'https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: cbc7b6aa-4963-4ebf-9bb9-963336957623
+    internal-label: Troubleshooting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Troubleshooting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: '770'
 ht-degree: 100%
-
 ---
+# Analytics 소스 커넥터 데이터를 Adobe Analytics와 비교
 
-# Analytics 소스 커넥터 데이터와 Adobe Analytics 비교
+조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이러한 차이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 Adobe Analytics에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 이러한 유연성으로 인해 Customer Journey Analytics이 데이터를 해석하는 방식에 약간의 차이가 발생할 수 있습니다. 이 문서를 사용하여 Customer Journey Analytics 및 Adobe Analytics가 데이터를 처리하는 방식의 잠재적 차이점을 이해하십시오.
 
-조직에서 Customer Journey Analytics를 채택함에 따라 Adobe Analytics와 Customer Journey Analytics 간의 데이터 차이가 있을 수 있습니다. 이러한 차이는 정상이며 여러 가지 이유로 발생할 수 있습니다. Customer Journey Analytics는 Adobe Analytics에서의 데이터에 대한 몇 가지 제한 사항을 개선할 수 있도록 설계되었습니다. 이러한 유연성으로 인해 Customer Journey Analytics이 데이터를 해석하는 방식에 약간의 차이가 발생할 수 있습니다. 이 문서를 사용하여 Customer Journey Analytics 및 Adobe Analytics가 데이터를 처리하는 방식의 잠재적 차이점을 이해합니다.
-
-이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
+이 페이지에서는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 사용하여 Adobe Analytics 데이터를 Adobe Experience Platform에 수집한 다음 Customer Journey Analytics에서 [연결](/help/connections/overview.md) 및 [데이터 보기](/help/data-views/data-views.md)를 생성한다고 가정합니다.
 
 ![해당 데이터는 Adobe Analytics에서 데이터 커넥터를 통해 Adobe Experience Platform으로, 그리고 CJA 연결을 사용하여 Custoer Journey Analytics로 이동합니다.](assets/compare.png)
 
@@ -43,13 +54,13 @@ ht-degree: 100%
 * **추가 데이터 세트**: Customer Journey Analytics는 단일 연결 내에 여러 데이터 세트를 포함할 수 있는 기능을 제공합니다. 이러한 차이점에는 추가 이벤트 데이터 세트, 프로필 데이터 세트 또는 조회 데이터 세트가 포함됩니다. 이 기능은 Adobe Analytics와 Customer Journey Analytics의 핵심 차별화 요소로, 교차 채널 데이터에 대한 인사이트를 제공합니다.
 * **결합된 데이터 세트**: Adobe는 두 데이터 세트 간의 개인 ID를 분석할 수 있는 기능을 제공하여 결합된 ID가 포함된 새로운 데이터 세트를 생성합니다. 이러한 [결합된 데이터 세트](/help/stitching/overview.md)에는 Adobe Analytics 보고서 세트에서 제공하는 것 이상의 추가 데이터가 포함되어 있습니다.
 * **데이터 소스**: Customer Journey Analytics에는 요약 데이터 원본 또는 트랜잭션 ID 데이터 원본을 포함하여 Adobe Analytics 보고서 세트에 업로드된 모든 유형의 [데이터 소스](https://experienceleague.adobe.com/ko/docs/analytics/import/data-sources/overview)가 포함되지 않습니다.
-* **차원 및 지표 설정**: 데이터 보기 내 모든 차원과 지표는 조직에서 변경할 수 있는 자체 설정을 포함합니다. 이러한 변경 사항은 보고서가 실행될 때 적용되므로 소급 적용됩니다. Adobe Analytics의 차원 및 지표 설정은 데이터 수집 방법을 변경하여 해당 시점부터 이러한 변경 사항이 적용됩니다. 두 제품 중 하나에서 구성 요소 설정을 변경하면 보고 차이를 만들 수 있습니다. 특정 차원에 집중하는 경우 Adobe Analytics와 Customer Journey Analytics 간의 속성 및 지속성 설정이 일치하는지 확인합니다.
+* **차원 및 지표 설정**: 데이터 보기 내 모든 차원과 지표는 조직에서 변경할 수 있는 자체 설정을 포함합니다. 이러한 변경 사항은 보고서가 실행될 때 적용되므로 소급 적용됩니다. Adobe Analytics의 차원 및 지표 설정은 데이터 수집 방법을 변경하여 해당 시점부터 이러한 변경 사항이 적용됩니다. 두 제품 중 하나에서 구성 요소 설정을 변경하면 보고 차이가 발생할 수 있습니다. 특정 차원에 집중하는 경우 Adobe Analytics와 Customer Journey Analytics 간의 기여도 및 지속성 설정이 일치하는지 확인합니다.
 
   >[!TIP]
   >
   >Adobe는 Adobe Analytics의 차원에서 “[!UICONTROL 가장 최근(마지막)]”의 할당을 사용할 것을 강력히 권장합니다. 이 할당 설정을 사용하면 Customer Journey Analytics에서 보다 많은 속성 유연성을 사용할 수 있습니다.
 
-* **방문 정의**: 개별 차원 및 지표 설정 외에도 데이터 보기 자체에는 방문자 데이터 해석 방식을 근본적으로 변경하는 설정이 포함되어 있습니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이를 보고하는 데 중요한 영향을 미칠 수 있습니다.
+* **방문 정의**: 개별 차원 및 지표 설정 외에도 데이터 보기 자체에는 방문자 데이터 해석 방식을 근본적으로 변경하는 설정이 포함되어 있습니다. 예를 들어, 세그먼트를 전체 데이터 보기에 적용할 수 있습니다(Adobe Analytics의 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about)와 유사). 방문 기간의 정의를 변경하거나 원하는 이벤트에 자동으로 새 방문을 시작할 수도 있습니다. 이러한 설정은 Customer Journey Analytics와 Adobe Analytics 간의 보고 차이에 상당한 영향을 미칠 수 있습니다.
 
 ## 제품 간 레코드 수 확인
 

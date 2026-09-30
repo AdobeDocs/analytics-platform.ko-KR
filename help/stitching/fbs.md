@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T09:20:59.053Z'
 TQID: 'https://experienceleague.adobe.com/V2OisDuYtD0SxUo8OlCEMKJ5wYEWS7nfxOp2IOMQWJQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1938
+source-wordcount: '1938'
 ht-degree: 82%
-
 ---
-
 # 필드 기반 결합
 
 필드 기반 결합에서는 이벤트 데이터 세트와 해당 데이터 세트에 대한 영구 ID(쿠키) 및 개인 ID를 지정합니다. 필드 기반 결합은 특정 영구 ID와 함께 제공되는 모든 익명 이벤트에서 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 하려고 합니다.  해당 정보는 특정 영구 ID에 대한 개인 ID가 있는 행에서 검색됩니다.
@@ -232,7 +239,7 @@ Bob이 다른 이벤트를 이벤트 데이터 세트의 일부로 기록하는 
   - **개인 ID**&#x200B;는 일부 행에서만 사용할 수 있는 식별자입니다. 예를 들어 프로필이 인증된 후 해시된 사용자 이름 또는 이메일 주소입니다. 원하는 식별자를 거의 모두 사용할 수 있습니다. 결합에서는 이 필드를 실제 개인 ID 정보로 간주합니다. 최상의 결합 결과를 위해 개인 ID는 각 영구 ID에 대해 데이터 세트의 이벤트 내에서 한 번 이상 전송되어야 합니다. 이 데이터 세트를 Customer Journey Analytics 연결 내에 포함하려는 경우, 다른 데이터 세트에도 유사한 공통 식별자가 있는 것이 좋습니다.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

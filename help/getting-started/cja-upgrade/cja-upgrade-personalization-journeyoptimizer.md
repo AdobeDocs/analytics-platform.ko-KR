@@ -9,35 +9,47 @@ autotag-review: '2026-05-19T08:15:27.160Z'
 TQID: 'https://experienceleague.adobe.com/5XSv4yQAi5iaQp35AzS7sLNoH40-DFilzZheETca5MQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Machine learning
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 155
+source-wordcount: '155'
 ht-degree: 100%
-
 ---
-
 # Adobe Journey Optimizer와 함께 사용할 개인화 오브젝트 사용 {#upgrade-personalization}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
->title="Adobe Journey Optimizer에 대한 개인화 오브젝트 사용"
+>title="Adobe Journey Optimizer용 개인화 오브젝트 사용"
 >abstract="최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 맞춤형 오퍼를 제공하고 KPI를 극대화할 수 있도록 합니다."
 
 <!-- markdownlint-enable MD034 -->

@@ -6,28 +6,39 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-TQID: https://experienceleague.adobe.com/LLrYpPlbagFAIeuD9TMgA3E8lrcUrMxMSWLC-8SiiIY
+TQID: 'https://experienceleague.adobe.com/LLrYpPlbagFAIeuD9TMgA3E8lrcUrMxMSWLC-8SiiIY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 942cc774812d4a6b3b7f45df837ff9277e8f9b46
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 4%
-
 ---
-
 # Customer Journey Analytics에 양자 지표 데이터 추가
 
 >[!IMPORTANT]
@@ -54,7 +65,7 @@ Quantum 지표 데이터에 대한 소스 커넥터를 만들면 Adobe Experienc
 1. **[!UICONTROL 저장을]** 클릭합니다.
 
 >[!NOTE]
->양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
+>양자 지표 데이터를 나머지 Customer Journey Analytics 데이터와 동일한 연결에 추가할 수 있지만, 두 데이터 세트 간에 공통 개인 ID가 없으면 해당 데이터를 함께 결합할 수 없습니다. 이 동작을 원하는 경우 Adobe에서는 소스 커넥터 대신 [Tag 확장](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)을 사용하는 것이 좋습니다.
 
 ## 3단계: Customer Journey Analytics에서 데이터 보기 만들기
 

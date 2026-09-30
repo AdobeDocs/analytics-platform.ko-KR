@@ -8,33 +8,50 @@ autotag-review: '2026-05-19T09:53:49.596Z'
 TQID: 'https://experienceleague.adobe.com/Yt2CmGRpO6s8natf9s-KLsMBKHc-qdSQHvi3UyPyLgg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 3921
+source-wordcount: '3921'
 ht-degree: 48%
-
 ---
-
 # Adobe Analytics 데이터 피드 열을 Customer Journey Analytics에 매핑
 
 {{release-limited-testing}}
@@ -45,7 +62,7 @@ Adobe Analytics과 Customer Journey Analytics 데이터 피드 열 간에는 tru
 
 >[!NOTE]
 >
->이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
+>이 참조에는 [Analytics 데이터 피드 열 참조](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)를 기반으로 Adobe에서 현재 것으로 간주되는 열만 포함됩니다. 이 표에 Analytics 데이터 피드 열이 나열되어 있지 않고 현재 사용 중인 경우에는 조직의 솔루션 디자인 문서를 참조하여 Customer Journey Analytics에서 가장 적합한 데이터 피드를 결정하십시오.
 
 +++**`accept_language`**
 
@@ -166,7 +183,7 @@ Adobe Analytics에서 클라이언트 힌트는 이 열에서 연결된 문자�
 
 Adobe Analytics에서 클라이언트 힌트는 이 열에서 연결된 문자열로 포함됩니다. `user_agent` 열보다 최신 접근 방식으로 간주됩니다.
 
-웹 SDK을 구성할 때 [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/context) 컨텍스트 문자열을 사용하여 이 데이터를 수집할 수 있습니다. 하나의 길게 연결된 문자열 대신 여러 XDM 필드가 채워집니다.
+웹 SDK을 구성할 때 [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context) 컨텍스트 문자열을 사용하여 이 데이터를 수집할 수 있습니다. 하나의 길게 연결된 문자열 대신 여러 XDM 필드가 채워집니다.
 
 * **운영 체제 버전**: `xdm.environment.browserDetails.userAgentClientHints.platformVersion`
 * **아키텍처**: `xdm.environment.browserDetails.userAgentClientHints.architecture`
@@ -176,7 +193,7 @@ Adobe Analytics에서 클라이언트 힌트는 이 열에서 연결된 문자�
 * **브라우저 이름**: `xdm.environment.browserDetails.userAgentClientHints.brand`
 * **브라우저 버전**: `xdm.environment.browserDetails.userAgentClientHints.version`
 
-자세한 내용은 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/use-cases/client-hints)를 참조하십시오.
+자세한 내용은 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)를 참조하십시오.
 
 {{cja-df-ua}}
 
@@ -322,7 +339,7 @@ Customer Journey Analytics에는 타임스탬프와 타임스탬프가 아닌 �
 
 `visitorID`를 사용하여 설정한 경우 사용자 정의 방문자 ID.
 
-Customer Journey Analytics은 [`identityMap`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/identitymap)을(를) 사용하여 원하는 수의 id를 지원합니다. 조직에서 사용자 정의 ID를 사용하는 경우 ID 맵 내에 있을 수 있습니다.
+Customer Journey Analytics은 [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)을(를) 사용하여 원하는 수의 id를 지원합니다. 조직에서 사용자 정의 ID를 사용하는 경우 ID 맵 내에 있을 수 있습니다.
 
 {{cja-df-post}}
 
@@ -388,7 +405,7 @@ Customer Journey Analytics에는 VISTA 규칙에 대한 개념이 없으므로 �
 
 {{cja-df-na}}
 
-Customer Journey Analytics에는 모든 지표에 대해 중복 제거 플래그 역할을 하는 단일 필드가 없습니다. 대신 각 지표에는 고유한 [지표 중복 제거 구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)이 포함되어 있습니다. 따라서 Customer Journey Analytics에는 이 Adobe Analytics 데이터 피드 열에 대한 동등한 필드가 없습니다.
+Customer Journey Analytics에는 모든 지표에 대해 중복 제거 플래그 역할을 하는 단일 필드가 없습니다. 대신 각 지표에는 고유한 [지표 중복 제거 구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)이 포함되어 있습니다. 따라서 Customer Journey Analytics에는 이 Adobe Analytics 데이터 피드 열에 대한 동등한 필드가 없습니다.
 
 +++
 
@@ -396,7 +413,7 @@ Customer Journey Analytics에는 모든 지표에 대해 중복 제거 플래그
 
 중복이라는 이유로 이 히트에 대한 구매 이벤트가 무시되는지 여부를 결정하는 플래그.
 
-이 Analytics 데이터 피드 열에 대한 직접 번역은 없지만 구매 중복 제거를 수행하는 기능은 여전히 존재합니다. [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 **[!UICONTROL 중복 제거 ID]**&#x200B;이(가) `xdm.commerce.purchases.id`인 [지표 중복 제거 구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)을 설정할 수 있습니다.
+이 Analytics 데이터 피드 열에 대한 직접 번역은 없지만 구매 중복 제거를 수행하는 기능은 여전히 존재합니다. [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 **[!UICONTROL 중복 제거 ID]**&#x200B;이(가) `xdm.commerce.purchases.id`인 [지표 중복 제거 구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)을 설정할 수 있습니다.
 
 중복 구매에 대한 플래그를 원하는 위치에 직접 번역해야 하는 경우 규칙 집합에서 **중복 제거** 함수를 사용하여 [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 사용할 수 있습니다.
 
@@ -431,7 +448,7 @@ Adobe Advertising 통합에 사용되는 EF ID.
 
 {{cja-df-post}}
 
-스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 일부 지표가 다음 XDM 필드에 직접 매핑될 수 있습니다.
+스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 일부 지표가 다음 XDM 필드에 직접 매핑될 수 있습니다.
 
 * **체크아웃**: `xdm.commerce.checkouts.value`
 * **장바구니 추가**: `xdm.commerce.productListAdds.value`
@@ -444,7 +461,7 @@ Adobe Advertising 통합에 사용되는 EF ID.
 일부 지표는 Adobe Analytics에서 중복 제거를 완전히 제어하는 방식인 이벤트 직렬화를 사용할 수 있습니다. [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 구성 요소 설정을 사용하여 중복 제거 패리티를 달성할 수 있습니다.
 
 * Adobe Analytics에서 지표가 방문별로 중복을 제거하는 경우 해당 지표의 구성 요소 설정에서 중복 제거 범위를 세션으로 설정할 수 있습니다.
-* 지표가 Adobe Analytics에서 이벤트 ID별로 중복을 제거하는 경우 해당 지표에 대한 XDM 개체에 `value` 및 `id` 필드가 모두 포함되어 있을 수 있습니다. 스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 해당 지표는 다음 XDM 필드에 있을 수 있습니다. 지표의 구성 요소 설정에서 **[!UICONTROL 중복 제거 ID]** 필드를 설정할 수 있습니다.
+* 지표가 Adobe Analytics에서 이벤트 ID별로 중복을 제거하는 경우 해당 지표에 대한 XDM 개체에 `value` 및 `id` 필드가 모두 포함되어 있을 수 있습니다. 스키마에서 [[!UICONTROL Commerce 세부 정보]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) 필드 그룹을 사용하는 경우 해당 지표는 다음 XDM 필드에 있을 수 있습니다. 지표의 구성 요소 설정에서 **[!UICONTROL 중복 제거 ID]** 필드를 설정할 수 있습니다.
 
   * **체크아웃**: `xdm.commerce.checkouts.id`
   * **장바구니 추가**: `xdm.commerce.productListAdds.id`
@@ -463,7 +480,7 @@ Adobe Advertising 통합에 사용되는 EF ID.
 
 Customer Journey Analytics은 기본 제공되는 &quot;제외된 히트&quot;를 지원하지 않습니다. 그러나 제외할 특정 히트에 플래그를 지정하는 XDM 필드가 있는 경우 이 기능을 다시 만들 수 있습니다.
 
-1. 제외된 히트에 플래그를 지정하는 XDM 필드가 구성 요소(이 플래그를 설정한 방법에 따라 차원 또는 지표)로 포함되어 있는지 확인합니다. [보고에서 구성 요소 숨기기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)를 선택하면 이 필드에 도움이 될 수 있습니다.
+1. 제외된 히트에 플래그를 지정하는 XDM 필드가 구성 요소(이 플래그를 설정한 방법에 따라 차원 또는 지표)로 포함되어 있는지 확인합니다. [보고에서 구성 요소 숨기기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)를 선택하면 이 필드에 도움이 될 수 있습니다.
 1. [데이터 보기 설정](/help/data-views/session-settings.md)에서 **[!UICONTROL 세그먼트 추가]** 드롭다운 메뉴를 선택하고 **[!UICONTROL 세그먼트 만들기]**&#x200B;를 선택합니다.
 1. 제외 히트 구성 요소가 존재하거나 제외할 값을 포함하는 모든 이벤트를 제외하는 세그먼트를 만듭니다.
 1. 세그먼트와 데이터 보기 모두에서 **[!UICONTROL 저장]**&#x200B;을(를) 선택하십시오.

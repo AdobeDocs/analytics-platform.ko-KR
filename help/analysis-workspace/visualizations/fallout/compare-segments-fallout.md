@@ -9,25 +9,31 @@ autotag-review: '2026-05-19T08:42:20.474Z'
 TQID: 'https://experienceleague.adobe.com/ZJqvJYmUSMfWD-yX3B-qbR5QNq7bjr9xtGN-yPXkl5E'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 26%
-
 ---
-
 # 폴아웃 분석에서 세그먼트 적용
 
-터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
+터치포인트에서 세그먼트를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -39,11 +45,11 @@ ht-degree: 26%
 
 <!-- 
 Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * 
 -->
 
-## 터치 포인트에서 세그먼트 만들기
+## 터치포인트에서 세그먼트 만들기
 
 1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트로부터 세그먼트를 만듭니다. 터치 포인트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 터치 포인트에서 세그먼트 만들기]**&#x200B;를 선택합니다.
 
@@ -57,7 +63,7 @@ Should we add B2B context here?
 
    이제 원하는 프로젝트에서 이 세그먼트를 사용할 수 있습니다.
 
-## 터치 포인트로서 세그먼트 추가
+## 터치포인트로 세그먼트 추가
 
 예를 들어 미국 사용자의 트렌드를 확인하고 폴아웃에 영향을 주는 방법을 확인하려면 미국 사용자 세그먼트를 폴아웃으로 드래그하십시오.
 

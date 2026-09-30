@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T09:32:28.410Z'
 TQID: 'https://experienceleague.adobe.com/qGrpX20MMcrjeEO75K2Ndoki4eiDmEvmaUCzED8jR1w'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: a67cb189-a535-41f6-afa2-448f39c4759f
+    internal-label: Access control
+  - id: cbc7b6aa-4963-4ebf-9bb9-963336957623
+    internal-label: Troubleshooting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: '218'
 ht-degree: 94%
-
 ---
-
 # 권한 부족
 
 Customer Journey Analytics는 특정 Adobe Experience Platform 권한이 없으면 제대로 작동하지 않습니다.
@@ -43,9 +51,9 @@ Customer Journey Analytics는 특정 Adobe Experience Platform 권한이 없으�
 
 1. 올바른 액세스 제어가 있는지 확인하십시오.
 
-   * Experience Platform 제품을 보유한 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#platform-permissions)를 참조하십시오.
+   * Experience Platform 제품을 보유한 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions)를 참조하십시오.
 
-   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 권한이 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [액세스 제어 계층 구조 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#access-control-hierarchy-and-workflow)를 참조하십시오.
+   * AEP-Default-All-Users 제품 프로필의 사용자여야 합니다. 이 프로필에 자신을 추가할 권한이 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [액세스 제어 계층 구조 및 워크플로](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow)를 참조하십시오.
 
 
 1. Adobe Experience Platform UI로 이동합니다.

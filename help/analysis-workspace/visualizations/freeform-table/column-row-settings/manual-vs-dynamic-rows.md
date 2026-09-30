@@ -4,25 +4,32 @@ description: Analysis Workspace의 자유 형식 테이블에서 동적 차원 �
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-TQID: https://experienceleague.adobe.com/q9X-MNr4r3Xrs16gAgH6-F3yrRDJP73xfXdd8BcFg84
+TQID: 'https://experienceleague.adobe.com/q9X-MNr4r3Xrs16gAgH6-F3yrRDJP73xfXdd8BcFg84'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '549'
 ht-degree: 77%
-
 ---
-
 # 동적 및 정적 차원 항목
 
 자유 형식 테이블에서 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적(시간에 따라 변경) 또는 정적(시간에 따라 변경되지 않음)일 수 있습니다.
@@ -62,7 +69,7 @@ ht-degree: 77%
 
 ## 자유 형식 합계 행
 
-동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
+동적 및 정적 행은 자유 형식 테이블의 합계 행에서 다르게 동작합니다. 기본적으로
 
-* 동적 행은 세션이나 개인과 같이 합계로서 계산된 서버측 및 중복 제거 지표입니다.
+* 동적 행은 서버측에서 합산되며 세션이나 개인과 같은 지표는 중복 제거됩니다.
 * 정적 행은 클라이언트측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [자세히 알아보기](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)

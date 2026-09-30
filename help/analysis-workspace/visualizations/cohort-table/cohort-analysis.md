@@ -4,27 +4,35 @@ description: 집단 분석을 통해 대상자에 대한 데이터를 더 깊이
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-TQID: https://experienceleague.adobe.com/3WB5sKKSaLe9VvAe6rlCTUqDYsG3kiqLCN-KaEtIlDw
+TQID: 'https://experienceleague.adobe.com/3WB5sKKSaLe9VvAe6rlCTUqDYsG3kiqLCN-KaEtIlDw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: addf009e-030a-4310-8534-776a3e62ed48
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Customer lifecycle
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 90%
-
 ---
-
 # 코호트 테이블 개요 {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -48,7 +56,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에 있는 집단 테이블을 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 버전에 대한 [집단 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
+_이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에 있는 집단 테이블을 설명합니다._<br/>_이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 버전에 대한 [집단 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +88,7 @@ _이 문서는 이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/Cus
 >
 >[!UICONTROL 코호트 분석]은 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표 (매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에 사용할 수 있는 지표만 [!UICONTROL 코호트 분석]에 사용될 수 있으며 한번에 1 이상으로 증분될 수 있습니다.
 
-Customer Journey Analytics의 코호트 테이블은 이중 기반(또는 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics 소스 커넥터를 통해 Adobe Experience Platform에 전달되는 모든 지표도 두 배가 됩니다.
+Customer Journey Analytics의 코호트 테이블은 이중 기반(또는 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics 소스 커넥터를 통해 Adobe Experience Platform에 전달되는 모든 지표도 double입니다.
 
 ## 코호트 테이블 기능
 

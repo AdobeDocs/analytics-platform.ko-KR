@@ -4,30 +4,40 @@ description: 가상 보고 환경 및 샌드박스 환경에 대해 알아보십
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
 role: User
-TQID: https://experienceleague.adobe.com/U-90bs2lmli3TxdxDyu2jQZvIU29C80tbiHSDyAmGFA
+TQID: 'https://experienceleague.adobe.com/U-90bs2lmli3TxdxDyu2jQZvIU29C80tbiHSDyAmGFA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: '785'
 ht-degree: 96%
-
 ---
-
 # 가상 보고서 세트, 데이터 보기, Adobe Experience Platform 샌드박스 및 Analytics 소스 커넥터
 
-Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)와 어떻게 관련되어 있는지 이해하는 것이 유용합니다.
+Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수단을 제공합니다. 다음 기능 간의 유사점과 차이점 및 이러한 기능이 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)와 어떻게 관련되어 있는지 이해하는 것이 유용합니다.
 
 * Adobe Analytics 가상 보고서 세트
 * Customer Journey Analytics 데이터 보기
@@ -35,17 +45,17 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 
 ## Adobe Analytics 가상 보고서 세트
 
-자세한 내용은 [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko)를 참조하십시오.
+자세한 내용은 [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html)를 참조하십시오.
 
 가상 보고서 세트:
 
 * Adobe Analytics 세그먼트를 기반으로 할 수 있습니다.
 * 과거 데이터와 새 데이터 모두에 비파괴적인 방식으로 적용할 수 있습니다.
 * 여러 비즈니스 팀에서 사용할 수 있도록 Adobe Analytics 보고서 세트 위에 가상 보기를 하나 이상 만들 수 있습니다.
-* Adobe Analytics에서 다양한 사용자에 대해 다양한 종류의 데이터 액세스를 제어하고 큐레이션하는 데 사용할 수 있습니다.
+* Adobe Analytics에서 다양한 종류의 데이터에 대한 액세스를 제어하고 다양한 사용자를 위해 해당 데이터를 큐레이션하는 데 사용할 수 있습니다.
 * Adobe Analytics에 대해 선택적 [보고서 시간 처리](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ko-KR) 기능을 제공합니다. 이 경우 가상 보고서 세트를 사용하여 “방문”에 대한 맞춤형 정의 생성에 사용할 수 있습니다.
 * 세그먼트 평가와 유사하게 보고서 런타임에 적용됩니다. 이는 Adobe Analytics 내에서 데이터를 수집하고 저장한 _후_&#x200B;입니다.
-* Adobe Analytics에서 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko)에 필요합니다.
+* Adobe Analytics에서 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)에 필요합니다.
 * 표준 Analytics 보고서 세트(250개 eVar, 250개 Prop, 1,000개 이벤트)와 동일한 수의 변수를 사용할 수 있지만 가상 보고서 세트 큐레이션은 사용자에게 노출되는 변수를 제한할 수 있습니다.
 * 사용자 정의 캘린더 옵션을 지원합니다.
 
@@ -58,7 +68,7 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 
 ## Customer Journey Analytics 데이터 보기
 
-자세한 내용은 [데이터 보기 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=ko)를 참조하십시오.
+자세한 내용은 [데이터 보기 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html)를 참조하십시오.
 
 데이터 보기:
 
@@ -80,7 +90,7 @@ Adobe는 가상 보고 환경과 샌드박스 환경을 만드는 다양한 수�
 
 ## Adobe Experience Platform 샌드박스
 
-자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
+자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)를 참조하십시오.
 
 Adobe Experience Platform 샌드박스:
 
@@ -95,4 +105,4 @@ Adobe Experience Platform 샌드박스는 다음과 같지 않습니다.
 참고:
 
 * 서로 다른 샌드박스의 데이터는 Customer Journey Analytics 내에서 결합할 수 없습니다.
-* Analytics 소스 커넥터는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics 소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하십시오.
+* Analytics 소스 커넥터는 보고서 세트 데이터를 특정 샌드박스로 _보냅니다_. 각 보고서 세트는 단일 샌드박스에 대한 소스로 구성할 수 있습니다. 자세한 내용은 [Analytics 소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.

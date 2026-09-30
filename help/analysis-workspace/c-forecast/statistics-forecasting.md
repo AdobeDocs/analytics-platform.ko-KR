@@ -4,23 +4,28 @@ title: 통계 기법
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-TQID: https://experienceleague.adobe.com/hbfehTAPC7nw96Wdm47bdX-D5c4cfTCeCtlHlINBBxI
+TQID: 'https://experienceleague.adobe.com/hbfehTAPC7nw96Wdm47bdX-D5c4cfTCeCtlHlINBBxI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: d13dba12-733d-4914-8d92-d643658bbe5d
+    internal-label: Forecasting
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 552
+source-wordcount: '552'
 ht-degree: 3%
-
 ---
-
 # 통계 기법
 
 예측 서비스는 현재 Promise를 지원하며 대부분의 데이터에 대해 효율적이고 안정적으로 작동하는 것으로 나타났습니다. 프로페터는 Meta이 개발한 오픈소스 예측 패키지로 광범위하게 쓰인다. 트렌드, 계절성 및 이벤트 구성 요소로 데이터를 분해합니다. Promise 모델은 효율적이며 많은 예측 애플리케이션에 맞게 확장됩니다. 또한 모델은 이상치 및 누락된 데이터에 대해 강력하게 작동합니다.

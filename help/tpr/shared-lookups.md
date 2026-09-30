@@ -5,13 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: e1c7ffa9a2ac58717ee0050d4e7019b6f3f94518
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 13%
-
 ---
-
 # 공유 조회
 
 Customer Journey Analytics에서 조회 데이터 세트는 추가 컨텍스트를 통해 이벤트 데이터를 강화합니다. 예를 들어 구매 이벤트에 제품 이름, 카테고리 및 가격을 추가하는 제품 카탈로그 데이터 세트입니다. 또는 마케팅 이벤트에 캠페인 세부 사항을 추가하는 캠페인 메타데이터 데이터 세트입니다.

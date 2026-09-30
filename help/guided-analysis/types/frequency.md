@@ -5,27 +5,39 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-TQID: https://experienceleague.adobe.com/q-egeF94DZ-kxHpVBJX7A-Th0N30t7ji-V2EoXMe1P4
+TQID: 'https://experienceleague.adobe.com/q-egeF94DZ-kxHpVBJX7A-Th0N30t7ji-V2EoXMe1P4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Optimization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 빈도] 분석 {#frequency}
 
 <!-- markdownlint-disable MD034 -->
@@ -39,7 +51,7 @@ ht-degree: 100%
 
 ![빈도](/help/assets/icons/Histogram.svg) **[!UICONTROL 빈도]** 분석은 제품에서 이벤트가 발생하는 빈도에 따라 이벤트 데이터를 그룹화합니다. 이 분석의 세로축에는 이벤트의 빈도를 나타내는 버킷이 포함됩니다. 가로축은 각 버킷의 사용자 또는 세션 수를 측정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435809/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -85,10 +97,10 @@ ht-degree: 100%
 
 ### 날짜 범위
 
-분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
+분석에 원하는 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
 * **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 차트와 테이블은 기본적으로 집계된 데이터를 보여 주며, 테이블을 트렌드 보기로 확장할 수 있는 옵션이 있습니다. 트렌드 보기에서는 사용자들이 총 사용 빈도와 각 간격에 따라 버킷화됩니다. 즉, 한 명의 사용자가 서로 다른 간격으로 서로 다른 버킷에 포함될 수 있습니다.
-* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
+* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 편의를 위해 순환 날짜 범위 사전 설정과 이전에 저장한 사용자 정의 범위를 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 
 <!--

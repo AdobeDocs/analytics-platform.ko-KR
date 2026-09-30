@@ -5,27 +5,39 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-TQID: https://experienceleague.adobe.com/2E5Q2eE6dhvViTJ64eQ41I4S9ZsQO-WohKBY07CGJpg
+TQID: 'https://experienceleague.adobe.com/2E5Q2eE6dhvViTJ64eQ41I4S9ZsQO-WohKBY07CGJpg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 94%
-
 ---
-
 # [!UICONTROL 순성장] 분석 {#net-growth}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,7 +67,7 @@ ht-degree: 94%
 >
 >반복 사용자는 사용자 수의 증가나 감소를 나타내지 않으므로 이 계산에는 반영되지 않습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423464/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 ## 사용 사례
 
@@ -84,10 +96,10 @@ ht-degree: 94%
 
 ### 날짜 범위
 
-분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
+분석에 원하는 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
 * **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 시간별, 일별, 주별, 월별, 분기별이 있습니다. 동일한 날짜 범위는 차트의 데이터 포인트 수와 테이블의 열 수에 영향을 미치는 다양한 간격을 가질 수 있습니다. 예를 들어, 일별 세부 기간으로 3일에 걸친 분석을 보면 데이터 포인트가 3개만 표시되는 반면, 시간별 세부 기간으로 3일을 분석하면 72개의 데이터 포인트가 표시됩니다.
-* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
+* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 편의를 위해 순환 날짜 범위 사전 설정과 이전에 저장한 사용자 정의 범위를 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 <!-- 
 ## Example

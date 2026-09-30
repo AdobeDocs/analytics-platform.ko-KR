@@ -5,28 +5,39 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
+TQID: 'https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2375
+source-wordcount: '2375'
 ht-degree: 15%
-
 ---
-
 # 관계형 데이터 미러링 및 사용
 
 이 빠른 시작 안내서에서는 [Customer Journey Analytics용 Experience Platform Data Mirror](data-mirror.md)를 사용하여 Adobe Experience Platform의 Data Warehouse 기본 솔루션에서 관계형 데이터를 미러링하는 방법을 설명합니다. 그런 다음 Customer Journey Analytics에서 해당 데이터를 사용합니다.
@@ -51,7 +62,7 @@ Experience Platform Data Mirror for Customer Journey Analytics에는 관계형 �
 
 >[!NOTE]
 >
->이 빠른 시작 안내서는 Adobe Experience Platform의 관계형 데이터를 미러링하고 Customer Journey Analytics에서 해당 데이터를 사용하는 방법에 대해 간략하게 설명합니다. 추가 정보를 참고하는 경우 연구하는 것이 좋습니다.
+>이 빠른 시작 안내서는 Adobe Experience Platform의 관계형 데이터를 미러링하고 Customer Journey Analytics에서 해당 데이터를 사용하는 방법에 대해 간략하게 설명합니다. 참조하라는 안내가 있을 때는 추가 정보도 함께 살펴보는 것이 좋습니다.
 
 {{relational-model-based}}
 
@@ -237,7 +248,7 @@ Experience Platform 인터페이스에서 다음을 수행합니다.
 
   1. **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
-  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
+  [Experience Platform 데이터베이스](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) 또는 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) 커넥터를 사용하는 경우 연결 및 인증 방법에 대한 자세한 내용은 Azure 설명서를 참조하십시오.
 
 
 ### 데이터 선택
@@ -395,7 +406,7 @@ Customer Journey Analytics 인터페이스에서 다음을 수행합니다.
 
 ## 프로젝트 설정
 
-Analysis Workspace은 데이터를 기반으로 분석을 빠르게 작성하고 통찰력을 공유할 수 있는 유연한 브라우저 도구입니다. 작업 영역 프로젝트를 사용하여 데이터 구성 요소, 테이블 및 시각화를 결합하여 분석을 작성하고 조직의 모든 사람과 공유할 수 있습니다.
+Analysis Workspace은 데이터를 기반으로 분석을 빠르게 작성하고 통찰력을 공유할 수 있는 유연한 브라우저 도구입니다. 작업 영역 프로젝트를 사용하여 데이터 구성 요소, 테이블 및 시각화를 결합해 분석을 수행하고 조직의 모든 사람과 공유할 수 있습니다.
 
 프로젝트를 만드는 경우:
 

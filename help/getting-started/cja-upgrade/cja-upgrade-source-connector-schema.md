@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T08:17:31.632Z'
 TQID: 'https://experienceleague.adobe.com/ov6cr-MF9OeH8OU23Km0KdD2l0LirVpVor4nndHpqo8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '587'
 ht-degree: 100%
-
 ---
-
 # Analytics 소스 커넥터용 사용자 정의 스키마 만들기 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
@@ -33,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create-schema"
 >title="Analytics 소스 커넥터용 스키마 만들기"
->abstract="이 스키마는 Adobe Analytics ExperienceEvent 필드 그룹과 조직의 사용자 정의 스키마를 구성하는 모든 필드 그룹을 결합한 것입니다. Analytics 소스 커넥터에서 사용하는 필드를 조직의 스키마에 매핑할 수 있으며, 과거 데이터에만 사용됩니다.<br><br>기술적인 측면에서 이 스키마를 만드는 작업은 몇 시간 안에 완료될 수 있으며, 조직의 사용자 정의 스키마를 구성하는 필드 그룹을 정확히 알고 있다면 더 빠를 수 있습니다."
+>abstract="이 스키마는 Adobe Analytics ExperienceEvent 필드 그룹과 조직의 사용자 정의 스키마를 구성하는 모든 필드 그룹을 결합한 것입니다. Analytics 소스 커넥터에서 사용하는 필드를 조직의 스키마에 매핑할 수 있으며, 내역 데이터에만 사용됩니다.<br><br>기술적인 측면에서 이 스키마를 만드는 작업은 몇 시간 안에 완료될 수 있으며, 조직의 사용자 정의 스키마를 구성하는 필드 그룹을 정확히 알고 있다면 더 빠를 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,7 +63,7 @@ Analytics 소스 커넥터를 사용하여 Adobe Analytics 보고서 세트 데�
 
 Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey Analytics로 가져오려면 다음 작업을 수행해야 합니다.
 
-1. 아래 설명한 대로 Analytics 소스 커넥터용 사용자 정의 스키마를 만듭니다.
+1. 아래에 설명된 대로 Analytics 소스 커넥터용 사용자 정의 스키마를 만듭니다.
 
 1. 아직 Analytics 소스 커넥터가 없는 경우 [Analytics 소스 커넥터를 생성하고 필드를 사용자 정의 스키마에 매핑](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)합니다.
 
@@ -78,13 +85,13 @@ Analytics 소스 커넥터에 대한 이 스키마에는 다음이 포함되어�
 
 * Adobe Analytics ExperienceEvent 템플릿 필드 그룹
 
-Analytics 소스 커넥터와 함께 사용할 사용자 정의 스키마 만드는 방법:
+Analytics 소스 커넥터와 함께 사용할 사용자 정의 스키마를 만들려면 다음과 같이 하십시오:
 
 1. Adobe Experience Platform에서 [Customer Journey Analytics Web SDK 구현에 사용할 사용자 정의 스키마 만들기](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)에 설명된 대로 새 사용자 정의 스키마를 만듭니다.
 
 1. Web SDK 구현을 위해 만든 스키마에 포함된 모든 필드 그룹(사용자 정의 필드 그룹 포함)을 추가합니다.
 
-1. 이러한 필드 그룹을 추가한 후 Adobe Analytics ExperienceEvent 필드 그룹을 추가합니다.
+1. 이러한 필드 그룹을 추가한 후 Adobe Analytics ExperienceEvent 필드 그룹을 추가합니다:
 
    **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택하여 필드 그룹을 추가합니다.
 

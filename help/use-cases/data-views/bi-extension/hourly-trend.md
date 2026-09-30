@@ -9,22 +9,28 @@ autotag-review: '2026-05-19T09:44:47.922Z'
 TQID: 'https://experienceleague.adobe.com/hTM-x-QidEW5q-tZwsVM7TF6l1JJJWKCf9cToYaCxj8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: f24857a4-4b64-4b25-b237-d43026362144
+    internal-label: BI extension
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '656'
 ht-degree: 1%
-
 ---
-
 # 시간별 트렌드
 
 
@@ -100,9 +106,9 @@ ht-degree: 1%
 1. **[!UICONTROL 필터]** 아래의 **[!UICONTROL + 필터]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 필터 추가]** 대화 상자에서:
    1. **[!UICONTROL ‣Cc 데이터 보기 선택]**
-   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**&#x200B;을 선택합니다.
+   1. 필드 목록에서 **[!UICONTROL 날짜 범위 날짜]**‣을 선택한 다음 **[!UICONTROL 날짜 범위 날짜]**을 선택합니다.
       ![조회 필터](../assets/uc2-looker-filter.png)
-1. **[!UICONTROL 이(가) 범위에 있으므로**&#x200B;[!UICONTROL &#x200B; Cc 데이터 보기 날짜&#x200B;]&#x200B;**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/01/02]**.
+1. **[!UICONTROL 이(가) 범위에 있으므로**[!UICONTROL  Cc 데이터 보기 날짜&#x200B;]**필터를 지정하십시오]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 까지(이전)]** **[!UICONTROL 2023/01/02]**.
 1. 왼쪽 레일의 **[!UICONTROL Cc 데이터 보기]** 섹션에서
    1. **[!UICONTROL ‣차원]** 목록에서 **[!UICONTROL Daterangehour 날짜]**&#x200B;을 선택한 다음 **[!UICONTROL 시간]**&#x200B;을 선택합니다.
    1. 왼쪽 레일(맨 아래)에서 **[!UICONTROL MEASURES]** 아래의 **[!UICONTROL Count]**&#x200B;을(를) 선택하십시오.

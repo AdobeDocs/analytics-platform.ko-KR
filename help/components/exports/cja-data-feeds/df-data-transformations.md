@@ -3,7 +3,18 @@ title: 데이터 피드에 데이터 변환 적용
 description: 구성 요소 설정, 파생 필드 또는 SQL을 사용하여 데이터 피드 데이터를 변환하는 다양한 방법에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: 3203774ba463c070783125e0b02ef8c391f46308
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 5%
@@ -52,7 +63,7 @@ ht-degree: 5%
 | **리터럴 값 찾기 및 바꾸기** | 사용할 수 없음 | [찾기 및 바꾸기](/help/data-views/derived-fields/derived-fields.md#find-and-replace) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통 | |
 | **표시할 값 서식 지정** | [포맷](/help/data-views/component-settings/format.md) | 사용할 수 없음 | 구성 요소 설정<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 어려움 | <!-- Date-time formatting isn't yet reflected in data feed output — feeds currently show the standard timestamp regardless of this setting, though Adobe plans to support this for general availability. Whether numeric formats (decimal, currency, percent) on metrics affect data feed output is still being confirmed with the team.--> |
 | **요약 데이터 세트에서 차원 그룹화** | 적용할 수 없음 | 적용할 수 없음 | 적용할 수 없음 | 적용할 수 없음 | 요약 데이터 그룹은 데이터 피드에서 사용되지 않는 요약 데이터 세트에만 적용됩니다. 이 변환은 데이터 피드 출력에 적용되지 않습니다. |
-| **빈(&quot;값 없음&quot;) 필드 처리** | [값 옵션 없음](/help/data-views/component-settings/no-value-options.md)<br/>&quot;값 없음&quot;을 값으로 취급&#x200B;**옵션은 데이터 피드에 적용되지만[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시 안 함&#x200B;**]및[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시&#x200B;**]옵션은 데이터 피드에 적용되지 않습니다.** | 사용할 수 없음 | 구성 요소 설정 | 불가능 | 모든 &quot;값 없음&quot;은 &quot;값 없음&quot; 문자열이 아닌 최종 데이터 피드 출력에서 null로 반환됩니다. |
+| **빈(&quot;값 없음&quot;) 필드 처리** | [값 옵션 없음](/help/data-views/component-settings/no-value-options.md)<br/>&quot;값 없음&quot;을 값으로 취급&#x200B;**]옵션은 데이터 피드에 적용되지만[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시 안 함&#x200B;**]및[!UICONTROL **&#x200B;기본적으로 &quot;값 없음&quot; 표시&#x200B;**]옵션은 데이터 피드에 적용되지 않습니다.[!UICONTROL ** | 사용할 수 없음 | 구성 요소 설정 | 불가능 | 모든 &quot;값 없음&quot;은 &quot;값 없음&quot; 문자열이 아닌 최종 데이터 피드 출력에서 null로 반환됩니다. |
 | **조회 데이터 집합에서 값 조회** | 사용할 수 없음 | [조회](/help/data-views/derived-fields/derived-fields.md#lookup) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통<p>조회 테이블이 이미 있어야 합니다.</p> | |
 | **문자열의 소문자** | [비헤이비어](/help/data-views/component-settings/behavior.md) | [소문자](/help/data-views/derived-fields/derived-fields.md#lowercase) | 구성 요소 설정<p>권장 이유:</p><ul><li>동일한 논리가 Analysis Workspace 및 데이터 피드 출력 모두에서 일관되게 적용됩니다(SQL에서는 가능하지 않음)</li><li>제한된 파생 필드 중 하나를 사용하지 않습니다.</li></ul> | 쉬움/보통 | |
 | **여러 필드를 하나로 병합** | 사용할 수 없음 | [필드 병합](/help/data-views/derived-fields/derived-fields.md#merge) | 파생 필드<p>사용하기 쉽고 동일한 논리가 Analysis Workspace과 데이터 피드 출력 모두에서 일관되게 적용되므로 권장됩니다.</p> | 쉬움/보통 | |
