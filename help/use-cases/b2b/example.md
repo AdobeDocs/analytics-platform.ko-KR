@@ -63,7 +63,7 @@ Experience Platform의 모든 관련 B2B 데이터 세트를 포함하도록 연
 -->
 
 
-B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-Time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
+B2B 조회 스키마, 프로필 스키마 및 이벤트 스키마 간의 관계는 Experience Platform 내의 B2B 설정에서 정의됩니다. [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/schemas/b2b)의 스키마 및 [Real-Time Customer Data Platform B2B edition의 두 스키마 간의 다대일 관계 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/relationship-b2b)를 참조하십시오.
 
 
 B2B 데이터의 개인 기반 조회를 지원하는 연결을 적절하게 설정하려면 개요를 보려면 다음 그림을 사용하고 다음 단계를 수행하십시오.
