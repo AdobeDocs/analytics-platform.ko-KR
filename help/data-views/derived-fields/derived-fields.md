@@ -51,7 +51,7 @@ ht-degree: 98%
 
 파생 필드는 Adobe Customer Journey Analytics의 실시간 보고 기능에서 중요한 부분입니다. 파생 필드를 사용하면 사용자 정의 가능한 규칙 빌더를 통해 즉석에서 (종종 복잡한) 데이터 조작을 정의할 수 있습니다. 파생 필드를 [Workspace](../../analysis-workspace/home.md)의 구성 요소(지표 또는 차원)로 사용하거나 [데이터 보기](../data-views.md)에서 파생 필드를 구성 요소로 정의할 수도 있습니다.
 
-파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
+파생 필드를 활용하면 Customer Journey Analytics 외부의 다른 위치에서 데이터를 변환하거나 조작하는 것에 비해 상당한 시간과 노력을 절약할 수 있습니다. [데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko), [Data Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=ko) 또는 자체 ETL(추출, 변환, 로드) / ELT(추출, 로드, 변환) 프로세스 내.
 
 파생 필드는 [데이터 보기](../data-views.md) 내에서 정의되며, 규칙으로 정의된 함수 집합을 기반으로 하며, 사용 가능한 표준 및/또는 스키마 필드에 적용됩니다.
 
@@ -724,7 +724,7 @@ ht-degree: 98%
 
 ## 추가 정보 {#casewhen-more-info}
 
-Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 더 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
+Customer Journey Analytics는 Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)&#x200B;(경험 데이터 모델)의 모델에 따라 중첩된 컨테이너 구조를 사용합니다. 더 자세한 배경 정보는 [컨테이너](../create-dataview.md#containers) 및 [세그먼트 컨테이너](/help/components/segments/seg-overview.md#containers)를 참조하십시오. 이 컨테이너 모델은 본질적으로 유연하지만 규칙 빌더를 사용할 때 몇 가지 제한이 있습니다.
 
 Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사용합니다.
 
@@ -1631,10 +1631,10 @@ URL 일부를 가져와서 고유한 페이지 식별자로 사용하여 트래�
 
 | 페이지 URL |
 |---|
-| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/kr/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/kr/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/kr/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/kr/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -2195,7 +2195,7 @@ Customer Journey Analytics 내에서 추가 변환에 사용할 수 있도록 �
 
 >[!MORELIKETHIS]
 >
->- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [블로그: 데이터 최대한 활용하기: Customer Journey Analytics에서 파생 필드 사용을 위한 프레임워크](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=ko)
+>- [블로그: Customer Journey Analytics의 파생 필드 사용 사례](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=ko)
+>- [블로그: Adobe Customer Journey Analytics 파생 필드 개선 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=ko)
 

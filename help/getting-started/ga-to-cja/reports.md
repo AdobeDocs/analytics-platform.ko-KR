@@ -242,7 +242,7 @@ Analysis Workspace에서 다음 차원은 표준 XDM 필드에서 각각 제공�
 
 >[!NOTE]
 >
->최신 브라우저는 사용자 에이전트 문자열의 세부 정보를 줄였기 때문에 완전하고 정확한 값은 웹 SDK 구성에서 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)를 수집하는 것에 따라 달라집니다.
+>최신 브라우저는 사용자 에이전트 문자열의 세부 정보를 줄였기 때문에 완전하고 정확한 값은 웹 SDK 구성에서 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/use-cases/client-hints)를 수집하는 것에 따라 달라집니다.
 
 +++
 

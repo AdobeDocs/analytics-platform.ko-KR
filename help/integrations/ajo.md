@@ -90,7 +90,7 @@ IMS Org에 대해 처리량 높음 트랜잭션 메시지 추가 기능을 활�
 * **[!UICONTROL 7일 P95 대기 시간 위젯 롤링]**: P95 대기 시간을 이전 주와의 백분율 변경을 포함하여 단일 값으로 표시합니다.
 * **[!UICONTROL 7일 연속 P95 처리량 위젯]**: 이전 주와의 백분율 변경을 포함하여 P95 처리량을 단일 값으로 표시합니다.
 
-이러한 데이터 세트 및 처리량이 많은 트랜잭션 메시지 추가 기능에 대한 자세한 내용은 Adobe Journey Optimizer 설명서의 [API 트리거 캠페인에 대한 처리량이 많은 모드 활성화](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)를 참조하십시오.
+이러한 데이터 세트 및 처리량이 많은 트랜잭션 메시지 추가 기능에 대한 자세한 내용은 Adobe Journey Optimizer 설명서의 [API 트리거 캠페인에 대한 처리량이 많은 모드 활성화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)를 참조하십시오.
 
 ### 데이터 보기
 

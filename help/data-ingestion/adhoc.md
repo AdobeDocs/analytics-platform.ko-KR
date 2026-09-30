@@ -183,7 +183,7 @@ Customer Journey Analytics에서 Experience Platform 데이터 세트를 사용�
 
 >[!IMPORTANT]
 >
->시계열 데이터에 임시 데이터 세트 및 스키마를 사용하지 않는 것이 좋다는 일반적인 권장 사항 외에 시계열 데이터에 **[!UICONTROL CSV에서 데이터 세트 만들기]** 워크플로우를 사용할 수 없습니다. 이 워크플로우는 나중에 수정할 수 없는 문자열 유형의 모든 필드를 정의합니다. 연결에 시계열 기반 데이터 세트(이벤트 또는 요약)를 추가할 때 이 데이터 세트 유형에는 DateTime 유형의 필드를 하나 이상 정의해야 합니다.<br/>임시 시계열 데이터를 사용해야 하는 경우 [API를 사용하여 임시 스키마를 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)한 다음 [스키마에서 데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#schema) 워크플로우를 사용하십시오.
+>시계열 데이터에 임시 데이터 세트 및 스키마를 사용하지 않는 것이 좋다는 일반적인 권장 사항 외에 시계열 데이터에 **[!UICONTROL CSV에서 데이터 세트 만들기]** 워크플로우를 사용할 수 없습니다. 이 워크플로우는 나중에 수정할 수 없는 문자열 유형의 모든 필드를 정의합니다. 연결에 시계열 기반 데이터 세트(이벤트 또는 요약)를 추가할 때 이 데이터 세트 유형에는 DateTime 유형의 필드를 하나 이상 정의해야 합니다.<br/>임시 시계열 데이터를 사용해야 하는 경우 [API를 사용하여 임시 스키마를 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)한 다음 [스키마에서 데이터 세트 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#schema) 워크플로우를 사용하십시오.
 
 
 [연결](/help/connections/overview.md)을 만든 후 [데이터 세트 선택 및 결합](/help/connections/combined-dataset.md), [연결의 데이터 세트 상태 및 데이터 수집 상태 확인](/help/connections/manage-connections.md) 등 다양한 관리 작업을 수행할 수 있습니다.

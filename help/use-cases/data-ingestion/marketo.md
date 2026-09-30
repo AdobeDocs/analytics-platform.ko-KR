@@ -111,13 +111,13 @@ Marketo 및 Customer Journey Analytics 데이터를 연결하려면 관련 데�
 
 +++Marketo 소스 데이터 필드를 XDM 대상에 매핑
 
-[사용자](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
+[사용자](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 및 [활동](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) 오브젝트를 해당 XDM 스키마 대상 필드에 매핑합니다.
 
 +++
 
 +++Marketo 데이터를 Adobe Experience Platform에 수집
 
-[Marketo Engage 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
+[Marketo Engage 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)를 사용하여 Marketo에서 Experience Platform으로 데이터를 가져오고 Experience Platform 응용 프로그램을 사용하여 이 데이터를 최신 상태로 유지하십시오.
 
 +++
 
