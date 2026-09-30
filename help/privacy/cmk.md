@@ -48,7 +48,7 @@ Azure에서 실행되는 Customer Journey Analytics를 위한 CMK를 설정하�
 1. Azure에서 애플리케이션 관리자, 클라우드 애플리케이션 관리자 또는 전역 관리자와 같은 권한이 부여된 역할을 가진 관리자인지 확인하십시오. 자세한 내용은 [Microsoft Entra 기본 제공 역할](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference)을 참조하십시오.
 1. Customer Journey Analytics에서만 사용할 새 Azure Key Vault를 만듭니다. 자세한 내용은 [Microsoft Azure 키 자격 증명 설명서](https://learn.microsoft.com/ko-kr/azure/key-vault/general/)를 참조하십시오.
 1. 키 저장소의 키에 대한 액세스 권한을 Adobe Azure 앱에 부여합니다. 다음 방법 중 하나를 사용하여 이 작업을 수행할 수 있습니다.
-   * 다음 URL을 통해 인증 동의를 통해 권한을 부여합니다. [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&amp;redirect_uri=https://experience.adobe.com&amp;scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
+   * 다음 URL을 통해 인증 동의를 통해 권한을 부여합니다. [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
 
    * [기존 계정에 대한 고객 관리 키 구성](https://learn.microsoft.com/ko-kr/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)의 지침을 따르십시오. Adobe 애플리케이션 ID는 다음과 같습니다.
 

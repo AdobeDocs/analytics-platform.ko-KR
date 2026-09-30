@@ -173,7 +173,7 @@ ht-degree: 53%
 
 * 자유 형식 테이블을 수정 전 상태로 재설정합니다.
 
-  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
+  1. **[!UICONTROL _차원 이름&#x200B;_(수정됨)]**&#x200B;옆의 ![톱니바퀴](/help/assets/icons/Gear.svg)을(를) 선택합니다.
   1. **[!UICONTROL 수정된 행]** 팝업에서 **[!UICONTROL 수정된 행 재설정]**&#x200B;을 선택합니다.
 
      ![자유 형식 테이블 재설정](assets/popup-reset.png)
