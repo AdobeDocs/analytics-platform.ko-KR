@@ -4,32 +4,42 @@ description: 처리 규칙 및 VISTA를 사용한 데이터 변환과 데이터 
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
 role: User
-TQID: https://experienceleague.adobe.com/MuJbtTwSbGbKBifnyWz6SNybYX9JsMpIL9QwVJv031Y
+TQID: 'https://experienceleague.adobe.com/MuJbtTwSbGbKBifnyWz6SNybYX9JsMpIL9QwVJv031Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '632'
 ht-degree: 92%
-
 ---
-
 # 처리 규칙, VISTA 및 분류 대 데이터 준비
 
 Adobe Analytics [처리 규칙 및 VISTA 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html?lang=ko)은 Adobe Analytics [데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)으로 전달되는 데이터를 변환하고 조작하는 수단을 제공합니다. 이러한 변환은 Adobe Analytics에 보고 및 분석 목적으로 데이터가 저장되기 전에 Adobe 데이터 처리의 일부로 발생합니다.
 
-[데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko)는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)에 수집된 데이터에 행 기반 매핑 및 변환을 적용할 수 있는 도구입니다. 그런 다음 Customer Journey Analytics 등을 포함한 Experience Platform 애플리케이션에 데이터를 사용할 수 있습니다. 데이터 준비는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)뿐만 아니라 많은 Platform [소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)와 통합됩니다. 이 커넥터는 Adobe Analytics에서 플랫폼으로 보고서 세트 데이터를 수집하는 방법을 제공합니다.
+[데이터 준비](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ko)는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ko)에 수집된 데이터에 행 기반 매핑 및 변환을 적용할 수 있는 도구입니다. 그런 다음 해당 데이터는 Customer Journey Analytics 등을 포함한 Experience Platform 애플리케이션에서 사용할 수 있게 됩니다. 데이터 준비는 [Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)뿐만 아니라 많은 Platform [소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)와 통합됩니다. 이 커넥터는 Adobe Analytics에서 플랫폼으로 보고서 세트 데이터를 수집하는 방법을 제공합니다.
 
 ## 데이터 준비를 사용한 추가 변환 {#data-prep}
 

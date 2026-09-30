@@ -8,21 +8,26 @@ autotag-review: '2026-05-19T08:32:13.517Z'
 TQID: 'https://experienceleague.adobe.com/xXpUD-E71BVVe0WOQ-tbLILq1c5kRN-Jy2xHufxBfBk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '626'
 ht-degree: 92%
-
 ---
-
 # 콤보 {#combo}
 
 <!-- markdownlint-disable MD034 -->
@@ -82,7 +87,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 
    ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 &#x200B;](assets/combo-output.png)
 
-   현재 기간은 막대 차트로 표시됩니다. 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “*바벨*”이라고 합니다.
+   현재 기간은 막대 그래프로 표시됩니다. 비교 기간은 선 그래프로 표시됩니다. 선 차트의 점을 “*바벨*”이라고 합니다.
 
 ## 지원되는 함수
 
@@ -92,7 +97,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 | --- | --- |
 | **[!UICONTROL 열 합계]** | 열 내의 한 지표에 대한 모든 숫자 값을 추가합니다(차원의 요소들에 대해). |
 | **[!UICONTROL 누적 평균]** | 마지막 N개 행의 평균을 반환합니다. |
-| **[!UICONTROL 중간값]** | 열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 이 값의 반은 중간값보다 크거나 같은 값이고 다른 반은 중간값보다 작거나 같습니다. |
+| **[!UICONTROL 중간값]** | 열에 있는 지표에 대한 중간값을 반환합니다. 중간은 숫자 세트의 중간에 있는 숫자입니다. 숫자의 절반은 중간값보다 크거나 같고, 나머지 절반은 중간값보다 작거나 같습니다. |
 | **[!UICONTROL 누적]** | N개 행의 누적 합계입니다. |
 | **[!UICONTROL 열 최대값]** | 지표 열에 대한 차원 요소 세트에서 가장 큰 값을 반환합니다. |
 | **[!UICONTROL 평균]** | 지표에 대한 산술 평균 또는 평균을 반환합니다. |
@@ -100,7 +105,7 @@ _이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200
 
 {style="table-layout:auto"}
 
-다음은 수익 지표에 대한 누적 평균의 예입니다.
+다음은 매출 지표에 대한 누적 평균의 예입니다.
 
 ![누적 평균을 보여 주는 콤보 차트](assets/combo-cumul-avg.png)
 

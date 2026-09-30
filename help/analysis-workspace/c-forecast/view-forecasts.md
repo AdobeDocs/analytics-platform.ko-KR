@@ -4,22 +4,26 @@ title: 예측 보기
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-TQID: https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc
+TQID: 'https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: d13dba12-733d-4914-8d92-d643658bbe5d
+    internal-label: Forecasting
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '372'
 ht-degree: 5%
-
 ---
-
 # 예측 보기
 
 자유 형식 테이블 또는 라인 차트에서 예측을 볼 수 있습니다.
@@ -56,8 +60,8 @@ ht-degree: 5%
 
 * 라인 차트의 현재 지표 값은 세로 막대로 표시됩니다. 해당 세로 라인 위로 마우스를 가져가면 마지막 현재 날짜가 포함된 팝업이 표시됩니다.
 * 하나 이상의 지표에 대한 예측 값이 점선을 사용하여 세로 막대에서 바로 표시됩니다. 지표에 대한 데이터 포인트 위로 마우스를 가져갈 수 있습니다. 팝업에 다음이 표시됩니다.
-   * 예측 일자
-   * 지표에 대한 예측 값
-   * 지표에 대한 예측 값의 상한
-   * 지표에 대한 예측 값의 하한
+  * 예측 일자
+  * 지표에 대한 예측 값
+  * 지표에 대한 예측 값의 상한
+  * 지표에 대한 예측 값의 하한
 * 음영처리된 영역은 예측의 신뢰 대역을 보여 줍니다.

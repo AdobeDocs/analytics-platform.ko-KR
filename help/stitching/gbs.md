@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T09:24:07.100Z'
 TQID: 'https://experienceleague.adobe.com/f-HOhKLpbM4u4MAzzoUCc0cMvVIu1k3FXg4FShValVE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 711e4bd71a4939eec96a6c454242e96b350fe4e2
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2017
+source-wordcount: '2017'
 ht-degree: 64%
-
 ---
-
 # 그래프 기반 결합
 
 그래프 기반 결합에서는 이벤트 데이터 세트, 해당 데이터 세트에 대한 영구 ID(쿠키) 및 ID 그래프에서 원하는 개인 ID 네임스페이스를 지정합니다. 그래프 기반 결합은 모든 이벤트에 대한 Customer Journey Analytics 데이터 분석에 개인 ID 정보를 사용할 수 있도록 합니다. 영구 ID는 Experience Platform ID 서비스에서 ID 그래프를 쿼리하여 지정된 네임스페이스에서 개인 ID를 얻는 데 사용됩니다. 이는 아래 그림에 표시된 대로 Real-Time Customer Data Platform과 같은 다른 Experience Platform 애플리케이션에서 사용하는 것과 동일한 ID 서비스입니다.

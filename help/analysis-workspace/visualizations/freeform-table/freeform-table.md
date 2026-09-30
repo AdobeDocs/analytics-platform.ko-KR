@@ -4,25 +4,32 @@ description: Analysis Workspace에서 데이터 분석을 위한 기반인 자�
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-TQID: https://experienceleague.adobe.com/2eJdFymbKxJE6XjLm0FlWocfVSsCml5ac5n0Y8YAQY8
+TQID: 'https://experienceleague.adobe.com/2eJdFymbKxJE6XjLm0FlWocfVSsCml5ac5n0Y8YAQY8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '824'
 ht-degree: 94%
-
 ---
-
 # 자유 형식 테이블 개요 {#freeform-table-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -100,7 +107,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 | 옵션 | 설명 |
 |---|---|
-| **[!UICONTROL 각 열의 날짜가 같은 행에서 모두 시작하도록 맞춥니다.]** | 또한 각 열의 날짜가 같은 행에서 시작하도록 맞추거나 맞추지 않을 수 있습니다. |
+| **[!UICONTROL 각 열의 날짜가 같은 행에서 모두 시작하도록 맞춥니다.]** | 각 열의 날짜를 모두 같은 행에서 시작하도록 맞출지 여부입니다. |
 
 
 ## 컨텍스트 메뉴
@@ -116,8 +123,8 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
 | **[!UICONTROL 데이터 CSV 다운로드]** | 시각화에 표시된 데이터를 로컬 디바이스에 즉시 다운로드합니다. |
 | **[!UICONTROL 전체 테이블 내보내기...]** | 전체 테이블을 지정된 클라우드 위치로 내보냅니다. [Customer Journey Analytics 보고서를 클라우드로 내보내기](../../export/export-cloud.md) 참조 |
-| **[!UICONTROL 시각화 복제]** | 시각화를 정확하게 복제합니다. |
-| **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. [텍스트](../text.md)를 확인합니다. |
+| **[!UICONTROL 시각화 복제]** | 시각화의 동일한 복사본을 만듭니다. |
+| **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가(또는 편집)합니다. [텍스트](../text.md)를 확인합니다. |
 | **[!UICONTROL 시각화 링크 가져오기]** | 시각화에 대한 링크를 직접 복사하여 공유합니다. 링크 공유 대화 상자에 링크가 표시됩니다. 복사를 선택하면 링크를 클립보드에 복사할 수 있습니다. |
 | **[!UICONTROL 시작]** | 현재 시각화에 대한 구성을 삭제하여 처음부터 다시 구성할 수 있습니다. |
 

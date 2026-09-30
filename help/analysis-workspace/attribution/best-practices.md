@@ -3,26 +3,33 @@ title: 속성 모범 사례
 description: 모범 사례를 이해하고 사용할 속성 모델을 결정합니다.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-TQID: https://experienceleague.adobe.com/noNo2rP-srAtUJbG-kYgipLHknMsWWZR4iJwDv-2ioc
+TQID: 'https://experienceleague.adobe.com/noNo2rP-srAtUJbG-kYgipLHknMsWWZR4iJwDv-2ioc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '466'
 ht-degree: 63%
-
 ---
-
 # 속성 모범 사례
 
-조직에 적합한 속성 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
+조직에 적합한 기여도 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
 
 * [탐색적 분석](#exploratory-analysis)
 * [규칙 기반 속성](#rule-base-attribution)
@@ -31,7 +38,7 @@ ht-degree: 63%
 ## 탐색적 분석
 
 >[!NOTE]
->이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
+>이 분석은 기여도 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
 이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview)&#x200B;(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
@@ -39,7 +46,7 @@ ht-degree: 63%
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
 
 예를 들어 고객의 50%가 전환하기 전에 세 개의 채널을 터치한다면 이들 세 개의 채널 사이에 인터랙션이 있습니까?
-그런 다음 상위 및 하위 단계 분석을 수행하여 이해를 확장할 수 있습니다.
+그런 다음 상위 및 하위 퍼널 분석을 수행하여 이해를 확장할 수 있습니다.
 
 ### 상위 단계 분석
 
@@ -67,11 +74,11 @@ ht-degree: 63%
 
 ## 알고리즘 속성 사용
 
-모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 속성은 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
+모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 기여도는 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
 
 ## 기타 고려 사항
 
-* Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
+* Analysis Workspace에만 의존하는 대신 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
 * 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
 

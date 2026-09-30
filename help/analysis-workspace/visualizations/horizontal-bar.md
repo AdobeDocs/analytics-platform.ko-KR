@@ -4,22 +4,26 @@ title: 가로 막대 및 스택 가로 막대
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-TQID: https://experienceleague.adobe.com/-A-UUiraQfKIjVHrAR5c-lYBBt6-1kPWzHuvtDa6DK0
+TQID: 'https://experienceleague.adobe.com/-A-UUiraQfKIjVHrAR5c-lYBBt6-1kPWzHuvtDa6DK0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 236
+source-wordcount: '236'
 ht-degree: 65%
-
 ---
-
 # 가로 막대(스택)
 
 >[!BEGINSHADEBOX]
@@ -28,7 +32,7 @@ _이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 
 
 >[!ENDSHADEBOX]
 
-가로 막대 시각화에는 표준 옵션과 스택 옵션이 있습니다.
+가로 막대 시각화에는 표준 옵션과 누적 옵션이 있습니다.
 
 ## 가로 막대 {#horizontal-bar}
 
@@ -53,7 +57,7 @@ _이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbarstacked_button"
 >title="스택 가로 막대"
->abstract="하나 이상의 스택 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
+>abstract="하나 이상의 누적 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

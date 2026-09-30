@@ -2,17 +2,25 @@
 title: 하위 이벤트 분석
 description: 하위 이벤트 분석을 통해 고객 여정 분석에서 이벤트 내의 개별 제품 또는 다른 컨테이너를 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
+    internal-label: Segment Builder
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: '680'
 ht-degree: 8%
-
 ---
-
 # 하위 이벤트 분석
 
 하위 이벤트 분석을 사용하면 이벤트 수준보다 더 세분화된 수준에서 이벤트 데이터를 분석할 수 있습니다. 전체 이벤트를 필터링하는 대신 이벤트 내의 개별 컨테이너에서 세그먼트화할 수 있습니다. 예:

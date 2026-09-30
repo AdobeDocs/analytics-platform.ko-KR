@@ -18,10 +18,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 6%
+source-wordcount: '2592'
+ht-degree: 5%
 ---
 # 대화 통찰력 구현
 
@@ -39,8 +39,225 @@ ht-degree: 6%
 
 기본 대화 이벤트(프롬프트, 응답, 피드백)를 위한 데이터 세트를 구성합니다. 프롬프트, 응답 및 피드백 데이터 세트는 XDM 경험 이벤트 기본 스키마를 [대화 이벤트 필드 그룹](#conversation-event-field-group)과(와) 함께 확장해야 하며 선택적으로 [에이전트 정보 필드 그룹](#agentic-information-field-group) 및 기타 [추가 필드 그룹](#additional-field-groups)을 포함할 수 있습니다.
 
-프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 모든 대화 이벤트에 단일 데이터 세트를 사용합니다.
-데이터 세트에 대해 동일한 기본 스키마를 사용합니다.
+프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 [작동 방법](/help/conversation-insights/conversation-insights-overview.md#how-it-works)에 나와 있는 대로 각 유형의 대화 이벤트에 대해 별도의 데이터 세트를 사용합니다.
+
+예제를 보려면 다음을 사용하십시오.
+
+* **개별 데이터 집합 구현**. 프롬프트, 응답 및 피드백 이벤트에 대한 개별 데이터 세트. 다음과 같은 경우 이 구현 접근 방식을 따르십시오.
+
+  * 클라이언트 구현에서 더 적은 상태를 유지 관리하려고 합니다.
+  * 지연 또는 존재하지 않는 응답과 관계없이 프롬프트 데이터를 전송합니다.
+
+* **결합된 데이터 집합 구현**. 예를 들어 결합된 프롬프트 및 응답 이벤트 데이터 세트와 별도의 피드백 이벤트 데이터 세트가 있습니다.  다음과 같은 경우 이 구현 접근 방식을 따르십시오.
+
+  * 구현에서 전체 회전을 지원하므로 호출을 줄이려고 합니다.
+  * 응답이 도착하기를 기다릴 때 지연에 신경 쓰지 마십시오.
+
+>[!IMPORTANT]
+>
+>데이터 세트에 대해 동일한 기본 스키마를 사용합니다.
+>
+
+데이터 세트 레이아웃과 이러한 데이터 세트로 대화 이벤트를 전달하는 것은 별개의 문제입니다. 안정적인 대화 식별자 및 회전 식별자를 보장하기 위해 데이터를 사용할 수 있는 즉시 각 대화 이벤트를 전송합니다. 안정적인 식별자는 데이터 세트 간 [대화 블렌더 서비스](#data-blending)에서 적절한 상관 관계를 용이하게 합니다.
+
+
+### 대화 이벤트 필드 그룹
+
+**[!UICONTROL 대화 이벤트]** 필드 그룹은 필수 필드 그룹이며 `conversation` 개체를 사용합니다.
+
+대화 개체는 다음에 대한 데이터를 캡처합니다.
+
+#### 대화
+
+고유한 `conversationID`이(가) 대화를 식별합니다. 예: `conversationID = "conv-001"`. `conversationID`을(를) 사용하면 관련된 모든 회전 이벤트를 동일한 대화 경험으로 그룹화할 수 있습니다.
+
+스키마에서도 `conversationName`을(를) 지원합니다. 사용자가 읽을 수 있는 이름으로, 대화의 전체 컨텍스트를 설명합니다(예: `France Geography Q&A`). 대화 이름이 자동으로 생성되지만 생성된 이름을 업데이트할 수 있습니다. 대화 이름도 `signals[].name`(으)로 채워집니다. Adobe이 `conversationName`을(를) `signals[].name` = &quot;title&quot; 신호와 동일한 값으로 채웁니다. 채운 데이터 집합에 대해 `conversation.conversationName`을(를) 설정하고 Adobe 제공 값을 덮어쓸 수 있습니다.
+
+#### 회전
+
+차례는 대화 내의 상호 작용 주기 중 하나입니다.
+
+`turnID` 고유한 `turnID`이(가) 회전을 식별합니다. 예:
+
+`conversationID = "conv-001"`
+`turnID = "turn-001"`
+
+같은 `conversationID` 및 `turnID`을(를) 사용하여 해당 전환과 연결된 프롬프트, 응답 및 피드백을 상호 연관시킵니다. 이러한 상관 관계는 별도로 제공되거나 다른 데이터 세트로 끝나는 레코드 간에 작동합니다. `turnId`은(는) 동일한 대화 내에서만 고유해야 하지만 여러 대화 간에 다시 사용할 수 있습니다. 예를 들어 `conversationID` `conv-001` 및 `conv-002`과(와) 대화에서 `turn-001`을(를) 모두 `turnID`(으)로 사용할 수 있습니다.
+
+
+#### 프롬프트
+
+프롬프트는 에이전트에 제출된 입력입니다. 대부분의 고객 시나리오에서 이 입력은 사용자의 질문, 요청, 지침 또는 메시지입니다.
+
+프롬프트에서 다음 표현을 사용합니다. `conversation.prompt`
+
+중요한 프롬프트 필드는 다음과 같습니다.
+
+| 필드 | 의미 |
+|---|---|
+| `prompt.source` | 프롬프트를 만든 사람 또는 무엇, 일반적으로 최종 사용자. |
+| `prompt.raw[]` | 하나 이상의 원시 콘텐츠 세그먼트. |
+| `prompt.raw[].text` | 실제 프롬프트 텍스트 또는 콘텐츠 링크(예: 스크린샷). |
+| `prompt.raw[].purpose` | 콘텐츠의 목적(예: 사용자 입력 또는 링크) |
+
+프롬프트에 여러 원시 세그먼트가 포함될 수 있습니다. 예를 들어 사용자가 텍스트를 입력하고 URL을 포함합니다.
+
+* `Prompt`
+  * `"What is the capital of France"`
+  * `"https://example.com/france"`
+
+
+#### 응답
+
+응답은 에이전트나 다른 응답 당사자가 반환하는 컨텐츠입니다.
+
+`conversation.response` 고유한 `responseID`은(는) 응답을 나타냅니다.
+
+중요 응답 필드는 다음과 같습니다.
+
+| 필드 | 의미 |
+|---|---|
+| `response.source` | 반응을 일으킨 사람 또는 그 사람. |
+| `response.raw[]` | 하나 이상의 응답 콘텐츠 세그먼트 |
+| `response.raw[].text` | 응답 텍스트 또는 콘텐츠입니다. |
+| `response.raw[].purpose` | 콘텐츠 세그먼트의 목적. |
+
+문서화된 소스 유형은 다음과 같습니다.
+
+<!-- randy buck to provide additional details -->
+
+| 소스 | 의미 |
+|---|----|
+| `bot` | 자동화된 에이전트 응답. |
+| `canned` | 사전 정의되거나 템플릿화된 응답. |
+| `concierge` | 인간 에이전트 응답. |
+| `end-user` | 해당되는 경우 사용자 생성 콘텐츠. |
+
+#### 피드백
+
+피드백은 상호 작용에 대한 사용자의 명시적인 평가 또는 반응이다.
+
+피드백 구조에는 `conversation.feedback`이(가) 포함됩니다.
+
+예:
+
+* `feedback.raw[].text: "Great help"`
+* `feedback.rating.score:` 1
+* `feedback.rating.classification`: `"Thumbs Up"`
+* `feedback.rating.reasons[]: ["Accurate", "Quick response"]`
+
+문서화된 등급 점수 범위는 `-1.0`에서 `1.0`까지입니다.
+
+`eventType = "conversation.feedback"`을(를) 사용하여 피드백 이벤트를 피드백 전용 이벤트로 표시할 수 있습니다.
+
+피드백이 특정 차례대로 적용되는 경우 대화 믹서기가 해당 피드백을 관련 상호 작용과 연결할 수 있도록 적절한 `conversationID` 및 `turnID`을(를) 유지하십시오.
+
+
+#### 신호
+
+신호는 대화 내용에 대한 구조화된 분석적 관찰입니다. [신호 추출 서비스](#signal-extraction)에서 기본 제공 신호를 제공합니다. 신호를 제공하는 데 필요한 작업은 없지만 통합의 일부로 신호를 추가할 수 있습니다.
+
+신호에는 다음 필드가 있습니다.
+
+| 필드 | 의미 |
+|---|----|
+| `scope` | 신호를 파생시키는 데 사용되는 입력 범위(예: 대화 또는 최신 대화). |
+| `name` | 제목, 의도, 색조 또는 감정 등 신호 식별자. 제품 정의 신호 이름도 지원됩니다. |
+| `type` | 값 유형은 문자열, 숫자 또는 부울입니다. |
+| `values[]` | 신호와 연결된 하나 이상의 값. |
+| `stringValue` | 의도, 톤 또는 제목과 같은 문자열 신호 값입니다. |
+| `numberValue` | 감정 점수와 같은 숫자 신호 값입니다. |
+| `booleanValue` | true/false 신호 값. |
+| `confidence` | 신호 값에 대한 선택적 생산자 신뢰도(일반적으로 0과 1 사이). |
+| `qualifiers[]` | 신호 값에 컨텍스트를 추가하는 선택적 설명자입니다. |
+| `metadata[]` | 선택적 생성자 정의 키/값 메타데이터. |
+
+
+신호 추출 서비스가 신호 데이터 집합에 대한 `signals` 개체를 채웁니다.
+
+이전 `signals[].attributes.{subjects,intents,tones,sentiment}` 컨테이너는 사용되지 않습니다.
+
+#### Source 유형
+
+이벤트의 각 `prompt`, `response` 또는 `feedback` 개체에 대해 `source`의 값을 설정해야 합니다. 모든 값을 사용할 수 있습니다. 데이터의 출처를 이해하는 데 도움이 되는 값을 사용합니다. 예:
+
+| 값 | 설명 |
+|---|---|
+| `end-user` | 사람 사용자 입력. |
+| `agent` | 에이전트 입력. |
+| `bot` | 자동화된 에이전트 응답. |
+| `canned-prompt` | 사전 정의된/템플릿화된 응답. |
+| `concierge` | 인간 에이전트 응답. |
+
+#### 목적 유형(원시 텍스트)
+
+`prompt`, `response` 또는 `feedback` 개체에 있는 `raw` 개체의 모든 요소에 대해 `purpose` 특성 값을 설정해야 합니다. 모든 문자열 값을 사용할 수 있습니다. 이 필드는 원시 텍스트에 저장된 내용을 구분하는 데 사용됩니다. 유용한 값은 아래에 있으며 다른 값도 동일하게 유효합니다.
+
+| 값 | 설명 |
+|---|---|
+| `free-form-text` | 자유 형식 텍스트 . |
+| `screenshot` | 스크린샷 세부 정보. |
+| `attachment` | 첨부 파일 세부 정보. |
+| `link` | 외부 링크. |
+| `url` | URL. |
+| `image-link` | 이미지에 연결. |
+| `citation` | 표창장 |
+| `media` | 미디어. |
+
+
+
+#### 대화
+
+대화 개체에 대한 자세한 내용은 아래를 참조하십시오.
+
++++ 세부 사항 
+
+| 필드 경로(점 표기법) | 유형 | 예제 값 | 참고 |
+|---|---|---|---|
+| `conversationID` | 문자열 | `"conv-001"` | 여러 회전을 함께 그룹화합니다. |
+| `conversationName` | 문자열 | `"France Geography Q&A"` | **새로 만들기.** 전체 컨텍스트를 나타내는 대화에 지정된 이름입니다. |
+| `turnID` | 문자열 | `"turn-001"` | 이번 차례에 대한 고유 ID. |
+| `prompt.source` | 문자열 | `"end-user"` | 프롬프트 Source, 기타 옵션에는 캐시된 값, 빈 값 등이 포함될 수 있습니다. |
+| `prompt.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 프롬프트 데이터. |
+| `prompt.raw[].text` | 문자열 | `"What is the capital of France?"` | 실제 텍스트 컨텐츠. |
+| `prompt.raw[].purpose` | 문자열 | `"User Input"` | 이 텍스트 세그먼트의 목적입니다. |
+| `response.source` | 문자열 | `"bot"` | Source 응답. |
+| `response.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 응답 데이터. |
+| `response.raw[].text` | 문자열 | `"The capital of France is Paris."` | 응답 텍스트 컨텐츠. |
+| `response.raw[].purpose` | 문자열 | `"main"` | 응답 세그먼트의 목적상, 다른 옵션에는 링크, 사진 등이 포함될 수 있습니다. |
+| `feedback.source` | 문자열 | `"end-user"` | Source of feedback. |
+| `feedback.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 피드백 데이터 . |
+| `feedback.raw[].text` | 문자열 | `"Great help"` | 피드백 텍스트. |
+| `feedback.raw[].purpose` | 문자열 | `"free-form text"` | 피드백 세그먼트의 목적, 다른 옵션에는 스크린샷, 미디어 등이 포함될 수 있습니다. |
+| `feedback.rating.score` | 숫자 | `1` | `-1.0`부터 `1.0`까지의 수치 평가 점수입니다. |
+| `feedback.rating.classification` | 문자열 | `"Thumbs Up"` | 등급 분류. |
+| `feedback.rating.reasons[]` | 배열 | `["Accurate", "Quick response"]` | 등급 이유 배열. |
+| `signals[]` | 배열 | 아래 신호 개체 참조 | 이 이벤트와 그동안의 대화를 기반으로 파생된 신호입니다. 각 항목은 자체 범위가 있는 단일 명명된 신호입니다. |
+| `signals[].scope` | 문자열 | `"turn"` | 이 신호 집합이 파생되는 입력 범위(회전, 대화 누락, 마지막 N회전, 피드백). |
+| `signals[].attributes` | 오브젝트 | 아래 속성을 참조하십시오. | **사용되지 않습니다.** 신호 속성에 대한 컨테이너입니다. 각 속성은 값 또는 값이 포함된 객체입니다. 이는 신호를 생성하는 데 사용되는 ML/에이전트 정보의 모집단을 지원할 필요가 예상됨에 따른 것이다. |
+| `signals[].attributes.subjects` | 오브젝트 | 아래 제목 참조 | **사용되지 않습니다.** 주제 컨테이너. |
+| `signals[].attributes.subjects.values[]` | 배열 | 아래 제목 값을 참조하십시오 | **사용되지 않습니다.** 제목 값의 배열입니다. |
+| `signals[].attributes.subjects.values[].phrase` | 문자열 | `"product pricing"` | **사용되지 않습니다.** 범위 입력에서 추출된 구문 또는 키워드입니다. |
+| `signals[].attributes.subjects.values[].qualifiers[]` | 배열 | `["important", "urgent"]` | **사용되지 않습니다.** 구문에 대한 한정자 목록 |
+| `signals[].attributes.intents` | 오브젝트 | 아래 의도 참조 | **사용되지 않습니다.** 의도한 컨테이너. |
+| `signals[].attributes.intents.values[]` | 배열 | `["make a purchase", "learn more"]` | **사용되지 않습니다.** 범위 입력에서 파생된 의도. |
+| `signals[].attributes.tones` | 오브젝트 | 아래 색조 참조 | **사용되지 않습니다.** 톤 컨테이너. |
+| `signals[].attributes.tones.values[]` | 배열 | `["thrilled", "contemplative"]` | **사용되지 않습니다.** 범위 입력에서 파생된 색조. |
+| `signals[].attributes.sentiment` | 오브젝트 | 아래 감정 참조 | **사용되지 않습니다.** 감정 컨테이너입니다. |
+| `signals[].attributes.sentiment.value` | 숫자 | `0.71` | **사용되지 않습니다.** 감정을 나타내는 `-1`(음수)부터 `1`(양수)까지의 점수. |
+| `signals[].name` | 문자열 | `"sentiment"` | **새로 만들기**(더 이상 사용되지 않는 `attributes` 컨테이너를 대체). 이 신호에 대한 식별자(예: &quot;주제&quot;, &quot;의도&quot;, &quot;톤&quot;, &quot;감정&quot; 또는 생성자 정의 이름). 생산자는 스키마 변경 없이 새로운 신호 유형을 추가할 수 있습니다. |
+| `signals[].type` | 문자열 | `"number"` | **새로 만들기.** 이 신호 값의 데이터 형식(`string`, `number` 또는 `boolean`)입니다. 소비자에게 `values[]`의 각 항목에서 입력된 값 필드를 채우도록 알려 줍니다. |
+| `signals[].values[]` | 배열 | 아래 값 개체 참조 | 이 신호에 대한 하나 이상의 값. |
+| `signals[].values[].stringValue` | 문자열 | `"curious"` | `type`이(가) 문자열이면 채워집니다. 의도, 톤 또는 추출된 구/와 같은 범주형 값 |
+| `signals[].values[].numberValue` | 숫자 | `0.71` | `type`이(가) 숫자이면 채워집니다. 예를 들어 `-1`부터 `1`까지의 감정 점수 또는 강도/ |
+| `signals[].values[].booleanValue` | 부울 | `true` | `type`이(가) 부울이면 채워집니다. `true` / `false` 플래그 |
+| `signals[].values[].confidence` | 숫자 | `0.9` | **새로 만들기.** 생성자가 `0`에서 `1` 사이의 이 값에 할당하는 신뢰도입니다. |
+| `signals[].values[].qualifiers[]` | 배열 | `["important", "urgent"]` | 이 값에 대한 추가 설명자. 키워드와 유사하지만 더 의미 있음/ |
+| `signals[].values[].metadata[]` | 배열 | 아래 매개 변수 참조 | **새로 만들기.** 키/값 쌍(예: 신호를 생성한 ML/에이전트에 대한 컨텍스트)으로서 이 값에 대한 생성자 정의 메타데이터 |
+
++++
+
+
 
 ### 에이전트 정보 필드 그룹
 
@@ -77,7 +294,7 @@ ht-degree: 6%
 | `skills[].score` | 숫자 | `0.95` | 스킬 일치로 인한 점수 |
 | `skills[].failed` | 부울 | `false` | 스킬 실행이 실패했음을 나타내는 플래그 |
 | `skills[].errorReason` | 문자열 | `"timeout"` | `failed`이(가) true인 경우 스킬이 실패한 원인 |
-| `skills[].sequenceNumber` | 정수 | `1` | 단일 에이전트 실행 내에서 이 스킬 호출의 인덱스를 단조롭게 증가(하위 에이전트가 동시에 실행되므로 전환되지 않음). 소비자는 타임브레이커로 `agentID`, `sequenceNumber`, `timestamp`씩 주문합니다. 선택 사항입니다 |
+| `skills[].sequenceNumber` | 정수 | `1` | 단일 에이전트 실행 내에서 이 스킬 호출의 인덱스를 단조롭게 늘립니다. 하위 에이전트가 동시에 실행되므로 이 색인은 turn-global이 아닙니다. 소비자는 타임브레이커로 `agentID`, `sequenceNumber`, `timestamp`씩 주문합니다. 선택 사항입니다 |
 | `skills[].timestamp` | 문자열(날짜-시간) | `"2026-09-11T00:03:15Z"` | 스킬이 호출된 시간, ISO 8601 UTC. `sequenceNumber` 이후에 사용되는 순서 지정 키입니다. 제작자는 항상 이 항목을 채워야 합니다. |
 | `skills[].skillSource` | 문자열 | `"inline"` | 기술 정의가 런타임으로 배달되는 방법: `inline`(컨텍스트에 인라인으로 로드됨) 또는 `deferred`(온디맨드로 로드됨) |
 | `skills[].executionContext` | 문자열 | `"inline"` | 호출 에이전트를 기준으로 스킬을 실행하는 경우: `inline` 또는 `forked`(포크된 하위 에이전트 컨텍스트에서 실행) |
@@ -207,176 +424,6 @@ ht-degree: 6%
 
 +++
 
-
-### 대화 이벤트 필드 그룹
-
-**[!UICONTROL 대화 이벤트]** 필드 그룹은 필수 필드 그룹이며 `conversation` 개체를 사용합니다.
-
-대화 개체는 다음에 대한 데이터를 캡처합니다.
-
-#### 대화
-
-고유한 `conversationID`이(가) 대화를 식별합니다. 예: `conversationID = "conv-001"`. 스키마에서도 `conversationName`을(를) 지원합니다. 사용자가 읽을 수 있는 이름으로, 대화의 전체 컨텍스트를 설명합니다(예: `France Geography Q&A`). 대화 이름이 자동으로 생성되지만 생성된 이름을 업데이트할 수 있습니다. 대화 이름도 `signals[].name`(으)로 채워집니다.
-
-`conversationID`을(를) 사용하면 관련된 모든 회전 이벤트를 동일한 대화 경험으로 그룹화할 수 있습니다.
-
-#### 회전
-
-차례는 대화 내의 상호 작용 주기 중 하나입니다.
-
-`turnID` 고유한 `turnID`이(가) 회전을 식별합니다. 예:
-
-`conversationID = "conv-001"`
-`turnID = "turn-001"`
-
-같은 `conversationID` 및 `turnID`을(를) 사용하여 해당 전환과 연결된 프롬프트, 응답 및 피드백을 상호 연관시킵니다. 이러한 상관 관계는 별도로 제공되거나 다른 데이터 세트로 끝나는 레코드 간에 작동합니다. `turnId`은(는) 동일한 대화 내에서만 고유해야 하지만 여러 대화 간에 다시 사용할 수 있습니다. 예를 들어 `conversationID` `conv-001` 및 `conv-002`과(와) 대화에서 `turn-001`을(를) 모두 `turnID`(으)로 사용할 수 있습니다.
-
-
-#### 프롬프트
-
-프롬프트는 에이전트에 제출된 입력입니다. 대부분의 고객 시나리오에서 이 입력은 사용자의 질문, 요청, 지침 또는 메시지입니다.
-
-프롬프트에서 다음 표현을 사용합니다. `conversation.prompt`
-
-중요한 프롬프트 필드는 다음과 같습니다.
-
-| 필드 | 의미 |
-|---|---|
-| `prompt.source` | 프롬프트를 만든 사람 또는 무엇, 일반적으로 최종 사용자. |
-| `prompt.raw[]` | 하나 이상의 원시 콘텐츠 세그먼트. |
-| `prompt.raw[].text` | 실제 프롬프트 텍스트 또는 콘텐츠 링크(예: 스크린샷). |
-| `prompt.raw[].purpose` | 콘텐츠의 목적(예: 사용자 입력 또는 링크) |
-
-프롬프트에 여러 원시 세그먼트가 포함될 수 있습니다. 예를 들어 사용자가 텍스트를 입력하고 URL을 포함합니다.
-
-* `Prompt`
-  * `"What is the capital of France"`
-  * `"https://example.com/france"`
-
-
-#### 응답
-
-응답은 에이전트나 다른 응답 당사자가 반환하는 컨텐츠입니다.
-
-`conversation.response` 고유한 `responseID`은(는) 응답을 나타냅니다.
-
-중요 응답 필드는 다음과 같습니다.
-
-| 필드 | 의미 |
-|---|---|
-| `response.source` | 반응을 일으킨 사람 또는 그 사람. |
-| `response.raw[]` | 하나 이상의 응답 콘텐츠 세그먼트 |
-| `response.raw[].text` | 응답 텍스트 또는 콘텐츠입니다. |
-| `response.raw[].purpose` | 콘텐츠 세그먼트의 목적. |
-
-문서화된 소스 유형은 다음과 같습니다.
-
-<!-- randy buck to provide additional details -->
-
-| 소스 | 의미 |
-|---|----|
-| `bot` | 자동화된 에이전트 응답. |
-| `canned` | 사전 정의되거나 템플릿화된 응답. |
-| `concierge` | 인간 에이전트 응답. |
-| `end-user` | 해당되는 경우 사용자 생성 콘텐츠. |
-
-#### 피드백
-
-피드백은 상호 작용에 대한 사용자의 명시적인 평가 또는 반응이다.
-
-피드백 구조에는 `conversation.feedback`이(가) 포함됩니다.
-
-예:
-
-* `feedback.raw[].text: "Great help"`
-* feedback.rating.score: 1
-* feedback.rating.classification: &quot;엄지손가락 위로&quot;
-* `feedback.rating.reasons[]: ["Accurate", "Quick response"]`
-
-문서화된 등급 점수 범위는 `-1.0`에서 `1.0`까지입니다.
-
-`eventType = "conversation.feedback"`을(를) 사용하여 피드백 이벤트를 피드백 전용 이벤트로 표시할 수 있습니다.
-
-피드백이 특정 차례대로 적용되는 경우 대화 믹서기가 해당 피드백을 관련 상호 작용과 연결할 수 있도록 적절한 `conversationID` 및 `turnID`을(를) 유지하십시오.
-
-
-#### 신호
-
-신호는 대화 내용에 대한 구조화된 분석적 관찰입니다. 신호 서비스는 기본 신호를 제공합니다. 신호를 제공하는 데 필요한 작업은 없지만 통합의 일부로 신호를 추가할 수 있습니다.
-
-<!-- randy buck to provide additional details -->
-
-신호에는 다음 필드가 있습니다.
-
-| 필드 | 의미 |
-|---|----|
-| `scope` | 신호를 파생시키는 데 사용되는 입력 범위(예: 대화 또는 최신 대화). |
-| `name` | 제목, 의도, 색조 또는 감정 등 신호 식별자. 제품 정의 신호 이름도 지원됩니다. |
-| `type` | 값 유형은 문자열, 숫자 또는 부울입니다. |
-| `values[]` | 신호와 연결된 하나 이상의 값. |
-| `stringValue` | 의도, 톤 또는 제목과 같은 문자열 신호 값입니다. |
-| `numberValue` | 감정 점수와 같은 숫자 신호 값입니다. |
-| `booleanValue` | true/false 신호 값. |
-| `confidence` | 신호 값에 대한 선택적 생산자 신뢰도(일반적으로 0과 1 사이). |
-| `qualifiers[]` | 신호 값에 컨텍스트를 추가하는 선택적 설명자입니다. |
-| `metadata[]` | 선택적 생성자 정의 키/값 메타데이터. |
-
-
-신호 추출 서비스가 신호 데이터 집합에 대한 `signals` 개체를 채웁니다.
-
-이전 `signals[].attributes.{subjects,intents,tones,sentiment}` 컨테이너는 사용되지 않습니다.
-
-#### 대화
-
-대화 개체에 대한 자세한 내용은 아래를 참조하십시오.
-
-+++ 세부 사항 
-
-| 필드 경로(점 표기법) | 유형 | 예제 값 | 참고 |
-|---|---|---|---|
-| `conversationID` | 문자열 | `"conv-001"` | 여러 회전을 함께 그룹화합니다 |
-| `conversationName` | 문자열 | `"France Geography Q&A"` | **새로 만들기.** 전체 컨텍스트를 나타내는 대화에 지정된 이름 |
-| `turnID` | 문자열 | `"turn-001"` | 이 차례에 대한 고유 ID |
-| `prompt.source` | 문자열 | `"end-user"` | 프롬프트 Source, 기타 옵션에는 캐시된 값, 빈 값 등이 포함될 수 있습니다. |
-| `prompt.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 프롬프트 데이터 |
-| `prompt.raw[].text` | 문자열 | `"What is the capital of France?"` | 실제 텍스트 컨텐츠 |
-| `prompt.raw[].purpose` | 문자열 | `"User Input"` | 이 텍스트 세그먼트의 목적 |
-| `response.source` | 문자열 | `"bot"` | 응답의 Source |
-| `response.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 응답 데이터 |
-| `response.raw[].text` | 문자열 | `"The capital of France is Paris."` | 응답 텍스트 콘텐츠 |
-| `response.raw[].purpose` | 문자열 | `"main"` | 응답 세그먼트의 목적상, 다른 옵션에는 링크, 사진 등이 포함될 수 있습니다. |
-| `feedback.source` | 문자열 | `"end-user"` | 피드백 Source |
-| `feedback.raw[]` | 배열 | 아래 원시 개체 참조 | 원시 피드백 데이터 |
-| `feedback.raw[].text` | 문자열 | `"Great help"` | 피드백 텍스트 |
-| `feedback.raw[].purpose` | 문자열 | `"free-form text"` | 피드백 세그먼트의 목적, 다른 옵션에는 스크린샷, 미디어 등이 포함될 수 있습니다. |
-| `feedback.rating.score` | 숫자 | `1` | -1.0에서 1.0까지의 수치 평가 점수 |
-| `feedback.rating.classification` | 문자열 | `"Thumbs Up"` | 등급 분류 |
-| `feedback.rating.reasons[]` | 배열 | `["Accurate", "Quick response"]` | 등급 이유 배열 |
-| `signals[]` | 배열 | 아래 신호 개체 참조 | 이 이벤트와 그동안의 대화를 기반으로 파생된 신호입니다. 각 항목은 자체 범위가 있는 단일 명명된 신호입니다 |
-| `signals[].scope` | 문자열 | `"turn"` | 이 신호 집합이 파생되는 입력 범위(전환, 대화 누락, 마지막 N회 전환, 피드백) |
-| `signals[].attributes` | 오브젝트 | 아래 속성을 참조하십시오. | **사용되지 않습니다.** 신호 속성에 대한 컨테이너입니다. 각 속성은 값 또는 값이 포함된 객체입니다. 이는 신호를 생성하는 데 사용되는 ML/에이전트 정보의 모집단을 지원할 필요가 예상됨에 따른 것이다. |
-| `signals[].attributes.subjects` | 오브젝트 | 아래 제목 참조 | **사용되지 않습니다.** 주제 컨테이너 |
-| `signals[].attributes.subjects.values[]` | 배열 | 아래 제목 값을 참조하십시오 | **사용되지 않습니다.** 제목 값 배열 |
-| `signals[].attributes.subjects.values[].phrase` | 문자열 | `"product pricing"` | **사용되지 않습니다.** 선택한 범위의 입력에서 추출된 구문 또는 키워드입니다. |
-| `signals[].attributes.subjects.values[].qualifiers[]` | 배열 | `["important", "urgent"]` | **사용되지 않습니다.** 구문에 대한 한정자 목록 |
-| `signals[].attributes.intents` | 오브젝트 | 아래 의도 참조 | **사용되지 않습니다.** 의도 컨테이너 |
-| `signals[].attributes.intents.values[]` | 배열 | `["make a purchase", "learn more"]` | **사용되지 않습니다.** 범위 입력에서 파생된 의도 |
-| `signals[].attributes.tones` | 오브젝트 | 아래 색조 참조 | **사용되지 않습니다.** 톤 컨테이너 |
-| `signals[].attributes.tones.values[]` | 배열 | `["thrilled", "contemplative"]` | **사용되지 않습니다.** 범위 입력에서 파생된 톤 |
-| `signals[].attributes.sentiment` | 오브젝트 | 아래 감정 참조 | **사용되지 않습니다.** 감정 컨테이너 |
-| `signals[].attributes.sentiment.value` | 숫자 | `0.71` | **사용되지 않습니다.** 감정을 나타내는 -1(음수)에서 1(양수)까지의 점수 |
-| `signals[].name` | 문자열 | `"sentiment"` | **새로 만들기**(더 이상 사용되지 않는 `attributes` 컨테이너를 대체). 이 신호에 대한 식별자(예: &quot;주제&quot;, &quot;의도&quot;, &quot;색조&quot;, &quot;감정&quot; 또는 생성자가 정의한 이름) - 생성자는 스키마를 변경하지 않고 새 신호 유형을 추가할 수 있습니다 |
-| `signals[].type` | 문자열 | `"number"` | **새로 만들기.** 이 신호 값의 데이터 형식(`string`, `number` 또는 `boolean`) - 소비자에게 `values[]`의 각 항목에 입력된 값 필드가 채워져 있는지 알려줍니다. |
-| `signals[].values[]` | 배열 | 아래 값 개체 참조 | 이 신호에 대한 하나 이상의 값 |
-| `signals[].values[].stringValue` | 문자열 | `"curious"` | `type`이(가) &quot;string&quot;인 경우 채워집니다. 인텐트, 색조 또는 추출된 구문과 같은 범주형 값 |
-| `signals[].values[].numberValue` | 숫자 | `0.71` | `type`이(가) &quot;숫자&quot;일 때 채워집니다(예: 감정 점수가 -1에서 1까지 또는 강도). |
-| `signals[].values[].booleanValue` | 부울 | `true` | `type`이(가) &quot;부울&quot;일 때 채워짐 - true/false 플래그 |
-| `signals[].values[].confidence` | 숫자 | `0.9` | **새로 만들기.** 생성자가 이 값에 할당하는 신뢰도(0-1) |
-| `signals[].values[].qualifiers[]` | 배열 | `["important", "urgent"]` | 이 값에 대한 추가 설명자. 키워드와 유사하지만 더 의미 있음 |
-| `signals[].values[].metadata[]` | 배열 | 아래 매개 변수 참조 | **새로 만들기.** 키/값 쌍(예: 신호를 생성한 ML/에이전트에 대한 컨텍스트)으로서 이 값에 대한 생성자 정의 메타데이터 |
-
-+++
-
 ### 추가 필드 그룹
 
 프롬프트, 응답 및 피드백 데이터 세트에 사용하는 스키마에 선택적 필드 그룹을 추가할 수 있습니다. 예:
@@ -396,37 +443,9 @@ ht-degree: 6%
 
 | 값 | 설명 |
 |---|---|
-| `conversation.turn` | 대화에 대한 프롬프트 및 응답 완료 |
-| `conversation.recommendation` | 대화 기반 추천 |
-| `conversation.feedback` | 피드백 전용 이벤트 |
-
-
-### Source 유형
-
-이벤트의 각 `prompt`, `response` 또는 `feedback` 개체에 대해 `source`에 대해 다음 값 중 하나를 설정해야 합니다.
-
-| 값 | 설명 |
-|---|---|
-| `end-user` | 사람 사용자 입력 |
-| `bot` | 자동화된 에이전트 응답 |
-| `canned` | 사전 정의/템플릿 응답 |
-| `concierge` | 인간 에이전트 응답 |
-
-### 목적 유형(원시 텍스트)
-
-`prompt`, `response` 또는 `feedback` 개체에 있는 `raw` 개체의 모든 요소에 대해 `purpose` 특성에 대해 다음 값 중 하나를 설정해야 합니다.
-
-<!-- randy buck to provide details -->
-
-| 값 | 설명 |
-|---|---|
-| `User Input` | 기본 사용자 입력 |
-| `main` | 주요 응답 콘텐츠 |
-| `advertisement` | 프로모션 콘텐츠 |
-| `citation` | 참조/소스 링크 |
-| `link` | 외부 링크 |
-| `image` | 이미지 참조 |
-| `enum picker` | 구조화된 피드백 선택 |
+| `conversation.turn` | 대화는 즉각적으로 하고 응답하라. |
+| `conversation.recommendation` | 대화 기반 추천. |
+| `conversation.feedback` | 대화 피드백 전용 이벤트. |
 
 
 ### 예
@@ -637,7 +656,25 @@ ht-degree: 6%
 
 ## 신호 추출
 
-신호 추출은 데이터 수집 후에 발생합니다. 에이전트 애플리케이션 또는 서비스가 추가 신호를 채우지 않습니다.
+신호 추출은 데이터 수집 후에 발생합니다. 에이전트 애플리케이션 또는 서비스가 추가 신호를 채울 수 있습니다.
+
+### 신호 이름
+
+`signals[].name`에 대한 값을 설정해야 합니다. 모든 문자열 값은 사용할 수 있지만, Adobe은 신호 추출 프로세스 중에 다음 이름을 채웁니다. 보내는 모든 신호에 `name`에 이 값을 사용하지 마십시오. 이 값은 덮어쓰기됩니다.
+
+* `intents`
+* `sentiment`
+* `tones`
+* `topics`
+* `keywords`
+* `title`
+
+### 신호 범위
+
+모든 문자열 값은 사용할 수 있지만, Adobe은 신호 추출 프로세스 중에 다음 범위를 채웁니다. 보내는 모든 신호에 `scope`에 이 값을 사용하지 마십시오. 이 값은 덮어쓰기됩니다.
+
+* `turn`
+* `feedback`
 
 +++ 신호가 있는 선반가공 이벤트 예
 

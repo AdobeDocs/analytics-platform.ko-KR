@@ -5,26 +5,35 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-TQID: https://experienceleague.adobe.com/GEH0qD9G2uRs36-yzWjUbfH8VdSezkhUffcDuDQcsfw
+TQID: 'https://experienceleague.adobe.com/GEH0qD9G2uRs36-yzWjUbfH8VdSezkhUffcDuDQcsfw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: '843'
 ht-degree: 2%
-
 ---
-
 # Customer Journey Analytics의 데이터에 양자 지표 세션 재생 연결
 
 Quantum Metric 세션 재생과 CJA 데이터를 연결함으로써 고객은 &quot;내용&quot; 이면의 &quot;이유&quot;를 더 잘 이해할 수 있습니다.  Workspace을 사용하여 마찰이 있는 세션을 검색한 다음 하이퍼링크된 세션 ID를 클릭하여 Quantum 지표에서 세션 재생 을 탐색할 수 있습니다.  이 데이터를 사용하면 세션 내의 비헤이비어를 볼 수 있으며 무엇이 소비자 마찰을 유도하는지 더 잘 이해할 수 있습니다.  CJA과 연결된 세션 재생을 통해 경험에서 고객 행동에 대한 중요한 컨텍스트를 캡처할 수 있습니다.

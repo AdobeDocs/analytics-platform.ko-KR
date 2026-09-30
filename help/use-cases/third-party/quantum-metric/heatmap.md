@@ -9,23 +9,32 @@ autotag-review: '2026-05-19T09:50:41.180Z'
 TQID: 'https://experienceleague.adobe.com/EvPGghY3E7eoiJb6TcWnaOhneS6oQJj4bcwU3K2v3Ng'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '366'
 ht-degree: 1%
-
 ---
-
 # Customer Journey Analytics과 함께 Quantum Metric Heatmap 사용
 
 CJA 데이터에 Quantum 지표 히트매핑을 연결하면 페이지 수준 참여를 더 잘 이해하고 소비자 행동을 기반으로 페이지를 최적화할 수 있습니다. Workspace을 사용하여 소비자 사용자 흐름을 이해하고 소비자가 한 페이지에서 다음 페이지로 이동하는 경로를 확인할 수 있습니다. 그런 다음 하이퍼링크가 설정된 페이지 URL을 클릭하여 사용자가 콘텐츠에 어떻게 참여하는지를 시각적으로 열 매핑할 수 있습니다. 이제 Quantum Metric Heatmapping을 CJA에 연결하여 분석을 한 다음 페이지 수준 상호 작용을 비즈니스 결과와 연결할 수 있습니다.

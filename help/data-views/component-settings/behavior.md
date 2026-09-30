@@ -5,24 +5,31 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-TQID: https://experienceleague.adobe.com/ra-O8TGxS6ByFEClZR7FtOnJ70YwclBiVMh9vubmGxk
+TQID: 'https://experienceleague.adobe.com/ra-O8TGxS6ByFEClZR7FtOnJ70YwclBiVMh9vubmGxk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 100%
-
 ---
-
 # 비헤이비어 구성 요소 설정 {#behavior-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -30,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="비헤이비어"
->abstract="차원 및 지표 구성 요소에 적용 가능합니다. 이 지표에 대한 라인 항목을 집계하는 방법을 결정합니다. 이 차원에 대한 문자열 값이 소문자인지 여부를 지정합니다."
+>abstract="차원 및 지표 구성 요소에 적용 가능합니다. 이 지표에 대한 라인 항목을 집계하는 방법을 결정합니다. 이 차원의 문자열 값을 소문자로 변환할지 여부를 지정합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,10 +64,10 @@ ht-degree: 100%
 
 | 설정 | 설명/사용 사례 |
 | --- | --- |
-| [!UICONTROL 값 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 지정된 수량만큼 지표를 늘립니다. 예를 들어 열의 값이 `50`인 경우 지표를 50까지 늘립니다. |
-| [!UICONTROL 인스턴스 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 값에 관계없이 지표를 1까지 늘립니다. 값이 존재하면 지표가 증가합니다. 예를 들어 열의 값이 `50`인 경우 지표를 1까지 늘립니다. |
+| [!UICONTROL 값 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 지정된 양만큼 지표를 늘립니다. 예를 들어 열의 값이 `50`인 경우 지표를 50까지 늘립니다. |
+| [!UICONTROL 인스턴스 계산] | Integer 및 Double 스키마 데이터 유형에 표시됩니다. 값에 관계없이 지표를 1씩 늘립니다. 값이 존재하면 지표가 증가합니다. 예를 들어 열의 값이 `50`인 경우 지표를 1까지 늘립니다. |
 | [!UICONTROL 계산할 값] | 부울 스키마 데이터 유형에 표시됩니다. `true`, `false` 또는 두 가지 모두를 계산하여 지표의 증가 여부를 결정할 수 있습니다. |
 
 {style="table-layout:auto"}
 
-비헤이비어가 다른 동일한 이벤트 데이터 세트 열을 사용하여 Analysis Workspace에서 “주문” 및 “매출” 지표 모두를 생성할 수 있습니다. ‘매출’ 데이터 세트 열을 데이터 보기로 드래그한 다음 한 개의 열을 “값 계산”으로 설정하고 다른 열을 “인스턴스 계산”으로 설정합니다. ‘주문’ 지표는 인스턴스를 계산하지만 “매출”은 값을 계산합니다.
+비헤이비어가 다른 동일한 이벤트 데이터 세트 열을 사용하여 Analysis Workspace에서 “주문” 및 “매출” 지표 모두를 생성할 수 있습니다. ‘매출’ 데이터 세트 열을 데이터 보기로 두 번 드래그한 다음 하나는 “값 계산”으로 설정하고 다른 하나는 “인스턴스 계산”으로 설정합니다. ‘주문’ 지표는 인스턴스를 계산하지만 “매출”은 값을 계산합니다.

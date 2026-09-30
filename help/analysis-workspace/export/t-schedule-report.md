@@ -6,24 +6,32 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-TQID: https://experienceleague.adobe.com/9PqVAdD1FP8I5rNimNfSoUrVNOTmMAXaPgMMsYT8gGQ
+TQID: 'https://experienceleague.adobe.com/9PqVAdD1FP8I5rNimNfSoUrVNOTmMAXaPgMMsYT8gGQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: '838'
 ht-degree: 50%
-
 ---
-
 # 프로젝트 보내기 및 예약
 
 Customer Journey Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 프로젝트를 보내도록 구성할 수 있습니다.
@@ -90,7 +98,7 @@ Customer Journey Analytics 데이터를 내보내는 다른 방법도 사용할 
 >[!CONTEXTUALHELP]
 >id="workspace_sendfile_password"
 >title="암호 암호화"
->abstract="제공된 암호는 예약 프로젝트의 파일을 암호화하는 데 사용됩니다. 조직의 보안 요구 사항에 따라 암호를 암호화해야 합니다."
+>abstract="제공된 암호는 예약 프로젝트의 파일을 암호화하는 데 사용됩니다. 조직의 보안 요구 사항에 따라 암호 암호화가 필요합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -105,7 +113,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 * 누군가 예약된 프로젝트를 새로 만드는 경우
 
-* 기존의 예약된 프로젝트를 전송하려고 하는 경우 현재의 예약된 프로젝트는 암호 보호가 적용될 때까지 비활성화됩니다. 예약된 프로젝트의 소유자는 이 요구 사항을 알리는 이메일을 받습니다.
+* 기존 예약된 프로젝트가 전송되려고 하는 경우 현재의 예약된 프로젝트는 암호 보호가 적용될 때까지 비활성화됩니다. 예약된 프로젝트의 소유자는 이 요구 사항을 알리는 이메일을 받습니다.
 
 ### 암호 요구 사항
 
@@ -122,7 +130,7 @@ Adobe는 .pdf 또는 .csv 포맷으로 전송되는지 여부에 관계없이 �
 
 ![조직에 비밀번호 암호화가 필요하다 내용의 Customer Journey Analytics 이메일 알림.](assets/email-password.png)
 
-1. Customer Journey Analytics로 로그인합니다.
+1. Customer Journey Analytics에 로그인합니다.
 1. **[!UICONTROL 예약된 프로젝트 보기]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 예약된 프로젝트 편집]** 대화 상자에서 암호를 입력한 후 다시 입력합니다.
 1. 예약된 프로젝트의 수신자에게 이 암호를 알려 줍니다. 예약된 프로젝트의 수신자가 아닌 사람에게 암호를 배포하지 마십시오.

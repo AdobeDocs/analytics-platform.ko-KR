@@ -8,32 +8,48 @@ autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 21458
+source-wordcount: '21458'
 ht-degree: 98%
-
 ---
-
 # 템플릿 사용
 
 Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 보고 시나리오에 대한 빠른 인사이트를 제공합니다. 다음은 템플릿을 통해 답변할 수 있는 몇 가지 질문의 예입니다.
@@ -887,7 +903,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | **모바일 앱 여정** | 모바일 앱의 눈에 띄는 사용 패턴을 확인합니다. <p>**이를 통해** 사람들이 앱을 어떻게 사용하고 있는지 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 가장 일반적인 워크플로를 타기팅하기 위해 사람들이 한 화면에서 다른 화면으로 이동하는 방법을 개선하는 등 다양한 작업을 수행할 수 있습니다. </p><!-- This template uses the --> |
 | **모바일 앱 지표** | 가장 일반적인 모바일 앱 지표를 확인합니다. <p>**이를 통해** 모바일 앱의 기본 성능을 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 앱의 전반적인 상태 및 성능을 평가하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 | **모바일 앱 메시지** | 앱의 인앱 메시지와 푸시 메시지에 대한 성과 데이터를 조회합니다.<p>**이를 통해** 사람들이 인앱 메시지 기능을 어떻게 사용하고 있는지, 푸시 알림이 얼마나 효율적으로 앱으로 트래픽을 유도하고 있는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 인앱 메시지 푸시 알림 경험을 개선하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
-| **모바일 앱 성능** | 앱의 성능과 사용자가 문제를 겪고 있는 위치를 확인합니다. <p>**이를 통해** 속도나 성능 저하 등 앱 사용자가 직면하는 문제를 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 기존 문제를 해결하거나 문제가 발생하기 이전에 앱 성능을 개선하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
+| **모바일 앱 성능** | 앱의 성능과 사용자가 문제를 겪고 있는 부분을 확인합니다. <p>**이를 통해** 속도나 성능 저하 등 앱 사용자가 직면하는 문제를 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 기존 문제를 해결하거나 문제가 발생하기 이전에 앱 성능을 개선하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 | **모바일 앱 유지** | 충성도가 가장 높은 앱 고객이 누구인지, 앱에서 어떤 작업을 하는지 확인합니다. <p>**이를 통해** 충성도가 가장 높은 고객이 앱을 어떻게 사용하고 있는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 충성도가 가장 높은 고객이 사용하는 기능에 대한 마케팅 활동을 개선하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
 
 ### 모바일: 모바일 디바이스 정보 {#mobile-devices}

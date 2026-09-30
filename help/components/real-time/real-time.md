@@ -4,27 +4,37 @@ title: 실시간 보고 개요
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+TQID: 'https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: d1779026-aeed-458e-a1c7-839d4acac922
+    internal-label: Real-time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 5%
-
 ---
-
 # 실시간 보고 개요
 
 Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 이상의 패널 내에서 데이터와 시각화를 실시간으로 표시하고 업데이트합니다.
@@ -43,16 +53,16 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 * 실시간 보고에 가장 중요한 사용 사례는 주요 판매, 프로모션 또는 제품 출시에 대한 것입니다.
 론치의 일부로 다음을 알고 싶습니다.
 
-   * 지난번 세일보다 매출이 어떻습니까?
-   * 이 제품 출시는 마지막 제품 출시에 비해 어떻습니까?
-   * 이 중요한 날이나 이벤트에 대한 프로모션이 실제로 작동합니까?
+  * 지난번 세일보다 매출이 어떻습니까?
+  * 이 제품 출시는 마지막 제품 출시에 비해 어떻습니까?
+  * 이 중요한 날이나 이벤트에 대한 프로모션이 실제로 작동합니까?
 
 * 관련성이 있지만 실시간 보고에 대한 사용 사례는 유효성 검사 사용 사례입니다.
 유효성을 검사하려는 예:
 
-   * 최근에 시작한 캠페인 여정이 실제로 작동합니까?
-   * 새 제품 페이지가 라이브로 전환되면 페이지에서 고객 데이터를 수집하고 있습니까?
-   * 라이브 미디어 이벤트가 정상적으로 진행되고 있습니까?
+  * 최근에 시작한 캠페인 여정이 실제로 작동합니까?
+  * 새 제품 페이지가 라이브로 전환되면 페이지에서 고객 데이터를 수집하고 있습니까?
+  * 라이브 미디어 이벤트가 정상적으로 진행되고 있습니까?
 
 작업 모니터링 사용 사례에 대한 실시간 보고를 고려하지 마십시오. 예를 들어, 사이트가 제대로 작동하는지 여부를 묻는 질문에 답변합니다. [실시간 새로 고침 토글](use-real-time.md)이 30분 후에 자동으로 비활성화되고 실시간 보고서의 새로 고침이 중지되므로, 이러한 사용 사례에 신뢰할 수 있는 소스로 실시간 보고서를 사용해서는 안 됩니다.
 
@@ -88,5 +98,5 @@ Customer Journey Analytics의 실시간 보고는 Analysis Workspace의 하나 �
 * 실시간 보고와 결합을 결합할 수 없습니다. 실시간 보고는 이벤트 및 세션 수준 데이터에 대한 것이며 사용자 기반 데이터와는 관련성이 낮습니다.
 * 미디어 시작 및 미디어 닫기 지표를 제외하고 하트비트 수집 미디어 지표를 사용할 수 없습니다. 따라서 여전히 실시간 보고를 사용하여 미디어 사용 사례를 활성화할 수 있습니다.
 * [다운로드 또는 내보내기 옵션](/help/analysis-workspace/export/download-send.md)을 사용하여 프로젝트를 다운로드하거나 자유 형식 테이블에서 데이터를 내보낼 때 다음 사항을 고려하십시오.
-   * 다운로드한 CSV 프로젝트 또는 내보낸 CSV 파일에는 다운로드 또는 내보내기 시점에 사용할 수 있는 실시간 데이터가 포함됩니다.
-   * 다운로드한 PDF 프로젝트에는 실시간 새로 고침이 비활성화될 때 표시되는 데이터와 유사한 비실시간 데이터가 포함됩니다.
+  * 다운로드한 CSV 프로젝트 또는 내보낸 CSV 파일에는 다운로드 또는 내보내기 시점에 사용할 수 있는 실시간 데이터가 포함됩니다.
+  * 다운로드한 PDF 프로젝트에는 실시간 새로 고침이 비활성화될 때 표시되는 데이터와 유사한 비실시간 데이터가 포함됩니다.

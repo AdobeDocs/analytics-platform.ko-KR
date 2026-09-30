@@ -5,31 +5,45 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-TQID: https://experienceleague.adobe.com/tkPB8BHD6t3LiIhTiLyoQYH-Ucknl1YyUm5MOcxujBY
+TQID: 'https://experienceleague.adobe.com/tkPB8BHD6t3LiIhTiLyoQYH-Ucknl1YyUm5MOcxujBY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Customer profiles
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2150
+source-wordcount: '2150'
 ht-degree: 75%
-
 ---
-
 # 소스 커넥터를 사용하여 데이터 수집 및 사용
 
 이 빠른 시작 안내서에서는 데이터 공급자의 소스 커넥터를 사용하여 데이터를 Adobe Experience Platform으로 수집한 다음 Customer Journey Analytics에서 해당 데이터를 사용하는 방법을 설명합니다.
@@ -208,7 +222,7 @@ Adobe Experience Platform으로 수집할 수 있는 로열티 데이터를 모�
 
    각 커넥터는 유사한 워크플로를 따릅니다.
 
-   1. **[!UICONTROL 인증]**. 데이터 소스에 액세스할 수 있는 인증 세부 사항을 제공합니다.
+   1. **[!UICONTROL 인증]**. 데이터 소스에 액세스하기 위한 인증 정보를 제공합니다.
 
    1. **[!UICONTROL 데이터 선택]**: 수집할 소스 데이터를 선택합니다.
 

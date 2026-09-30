@@ -3,7 +3,18 @@ title: 데이터 피드의 하위 이벤트 및 개체 배열 이해
 description: Customer Journey Analytics 데이터 피드가 스키마 배열에서 하위 이벤트를 내보내고 Workspace처럼 병합하지 않고 계층 구조를 유지하는 방법에 대해 알아봅니다.
 hide: true
 feature: Components
-source-git-commit: afc1b55eb54b5f3342800489d0a7f63508ee8b10
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%

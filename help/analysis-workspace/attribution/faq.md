@@ -4,24 +4,32 @@ description: 속성에 대해 자주 묻는 질문에 대한 답변을 얻습니
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-TQID: https://experienceleague.adobe.com/AY9LM5Beia2e9FrGZ5gF3Ao6qVzIe3raOQuB9qP-rOg
+TQID: 'https://experienceleague.adobe.com/AY9LM5Beia2e9FrGZ5gF3Ao6qVzIe3raOQuB9qP-rOg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ef7ee8a74e952e5e462f9d71ae9bd9d7a23378b1
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '186'
 ht-degree: 6%
-
 ---
-
 # 자주 묻는 질문
 
 다음은 속성에 대해 자주 묻는 질문에 대한 답변입니다.
@@ -35,7 +43,7 @@ ht-degree: 6%
 
 +++다른 Analytics 기능에서 속성 모델을 사용할 수 있습니까?
 
-예. 속성 모델은 데이터 보기에서 지표 구성 요소에 대한 구성 요소 설정의 일부로 사용할 수도 있습니다. [속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)을 참조하세요. 차원 구성 요소의 경우 지속성을 사용할 수 있습니다. 지속성 은 특정 차원 값이 설정된 이벤트에서 벗어난 지표에 속성을 지정할 수 있는 기능입니다. 지속성은 할당과 만료의 조합입니다. 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오
+예. 속성 모델은 데이터 보기에서 지표 구성 요소에 대한 구성 요소 설정의 일부로 사용할 수도 있습니다. [속성 구성 요소 설정](/help/data-views/component-settings/attribution.md)을 참조하세요. 차원 구성 요소의 경우 지속성을 사용할 수 있습니다. 지속성 은 특정 차원 값이 설정된 이벤트에서 벗어난 지표에 속성을 지정할 수 있는 기능입니다. 할당과 만료의 조합을 사용합니다. 자세한 내용은 [지속성 구성 요소 설정](/help/data-views/component-settings/persistence.md)을 참조하십시오
 
 +++
 

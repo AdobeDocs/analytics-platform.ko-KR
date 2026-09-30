@@ -5,28 +5,41 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 role: User
-TQID: https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc
+TQID: 'https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Optimization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 685
+source-wordcount: '685'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 단계] 분석 {#funnel}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,7 +51,7 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 최종 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 단계&#x200B;]**분석은 제품에 대한 중요한 사용자 여정을 시각적으로 표현합니다. 가로축은 사용자가 통과해야 하는 각 단계를 나타냅니다. 세로축은 각 단계의 사용자 또는 세션의 비율을 나타냅니다. 모든 단계는 정해진 순서대로 수행되어야 하지만 보고 기간 내에 언제든지 발생할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431277/?captions=kor&quality=12&learn=on)
 
@@ -46,11 +59,11 @@ ht-degree: 100%
 
 이 분석의 사용 사례는 다음과 같습니다.
 
-* **전환 분석**: 소매 결제, 계정 가입, 구독 흐름 또는 제품 경험 내 다른 중요한 여정과 같은 각 단계에서 전환을 분석할 수 있습니다. 한 단계에서 다음 단계로 진행하는 사용자 수를 추적함으로써 비정상적이거나 바람직하지 않는 전환율을 가진 병목 현상을 식별할 수 있습니다. 이 정보는 제품 여정을 개선하여 즉각적인 결과를 얻을 수 있는 곳을 이해하는 데 유용합니다.
-* **실험 분석**: 선택적 단계 또는 A/B 실험이 실행되는 단계가 있는 단계의 전환율을 비교할 수 있습니다. 이 정보는 단계의 어떤 베리에이션이 가장 높은 전환율로 이어지는지 파악하는 데 도움이 되며, 이를 통해 더 많은 사용자를 유도할 수 있습니다.
+* **전환 분석**: 소매 결제, 계정 가입, 구독 흐름 또는 제품 경험 내 다른 중요한 여정과 같은 각 단계에서 전환을 분석할 수 있습니다. 한 단계에서 다음 단계로 진행하는 사용자 수를 추적함으로써 비정상적이거나 바람직하지 않은 전환율을 가진 병목 현상을 식별할 수 있습니다. 이 정보는 제품 여정을 개선하여 즉각적인 결과를 얻을 수 있는 곳을 이해하는 데 유용합니다.
+* **실험 분석**: 선택적 단계 또는 A/B 실험이 실행되는 단계가 있는 단계의 전환율을 비교할 수 있습니다. 이 정보는 단계의 어떤 베리에이션이 가장 높은 전환율로 이어지는지 파악하는 데 도움이 되며, 이를 통해 더 많은 사용자를 해당 경로로 유도할 수 있습니다.
 * **온보딩 최적화**: 주요 이벤트에 대한 사용자 행동을 조사하여 제품의 온보딩 프로세스를 최적화합니다. 사용자가 어려움을 겪거나 완료하지 못하는 단계를 파악할 수 있습니다.
 * **기능 채택 및 참여**: 사용자가 제품의 특정 기능과 어떻게 상호 작용하는지 이해합니다. 기능 관련 단계를 통해 사용자의 진행 상황을 분석하면 채택률을 확인하고 특정 기능을 충분히 활용하지 못하는 영역을 파악할 수 있습니다. 그런 다음 이 정보를 사용하여 기능 개선에 집중하여 채택률을 높일 수 있습니다.
-* **마케팅 채널 효과**: 마케팅 채널의 효과를 측정합니다. 유료 검색, 디스플레이, 자연어 검색 또는 직접 검색 등 다양한 마케팅 채널과 상호 작용한 사용자에 초점을 맞춘 세그먼트를 만들 수 있습니다. 그런 다음 여정을 비교하여 어떤 채널이 최고의 제품 결과로 이어지는지 확인할 수 있습니다.
+* **마케팅 채널 효과**: 마케팅 채널의 효과를 측정합니다. 유료 검색, 디스플레이, 자연어 검색 또는 직접 유입 등 다양한 마케팅 채널과 상호 작용한 사용자에 초점을 맞춘 세그먼트를 만들 수 있습니다. 그런 다음 여정을 비교하여 어떤 채널이 최고의 제품 결과로 이어지는지 확인할 수 있습니다.
 
 ## 인터페이스
 
@@ -62,7 +75,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 보기]**: 이 분석과 [전환 트렌드](conversion-trends.md)를 전환합니다.
 * **[!UICONTROL 단계]**: 추적하려는 이벤트 터치포인트. 차트의 각 막대는 단계를 나타냅니다. 최대 10개의 단계를 포함할 수 있습니다.
-  * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계 내에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
+  * [!UICONTROL 비교]: 각 단계는 하나의 단계에서 여러 이벤트를 비교할 수 있는 옵션을 제공하여 “포크된 단계”를 만듭니다 이 기능을 사용하면 두 개의 별도 분석을 생성하지 않고도 두 여정의 마찰을 나란히 비교할 수 있습니다. 단계 옵션이 있거나 단계에서 A/B 실험이 실행 중일 때 유용합니다. Customer Journey Analytics 튜토리얼의 [단계](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel)에서 단계를 비교하는 방법을 설명하는 영상을 확인하십시오.
 * **[!UICONTROL 다음으로 계산됨]**: 단계에 적용하려는 범위. 옵션에는 [!UICONTROL 세션]과 [!UICONTROL 사용자]가 있습니다.
   * [!UICONTROL 세션]: 모든 단계가 동일한 세션 내에서 진행되어야 계산할 수 있습니다.
   * [!UICONTROL 사용자]: 모든 단계가 선택한 보고 창 내에서 이루어져야 계산할 수 있습니다.
@@ -83,10 +96,10 @@ ht-degree: 100%
 
 ### 날짜 범위
 
-분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
+분석에 원하는 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
 * **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 이 설정은 [단계](funnel.md)와 같이 추세가 없는 분석에는 영향을 미치지 않습니다.
-* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
+* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 편의를 위해 순환 날짜 범위 사전 설정과 이전에 저장한 사용자 정의 범위를 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 <!--
 ## Example

@@ -5,24 +5,31 @@ title: 공유 가능한 링크 만들기
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-TQID: https://experienceleague.adobe.com/JAaRhcC3q49W00TRNo5yQ3HQU9dHrSJ7j5Uhll0fT3U
+TQID: 'https://experienceleague.adobe.com/JAaRhcC3q49W00TRNo5yQ3HQU9dHrSJ7j5Uhll0fT3U'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 42%
-
 ---
-
 # 공유 가능한 링크 만들기
 
 Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형은 수신자가 프로젝트에 액세스하기 전에 Customer Journey Analytics에 로그인해야 하지만, 다른 링크 유형은 로그인하지 않아도 됩니다.
@@ -41,7 +48,7 @@ Customer Journey Analytics에 대한 액세스 권한이 없는 사용자와 Ana
 
 ## 패널 또는 시각화 링크 가져오기 {#panel-link}
 
-패널 또는 개별 시각화 등 프로젝트의 특정 부분에 대한 링크를 공유할 수도 있습니다. 이를 내부 연결이라고도 합니다. 이 기능은 프로젝트 내의 주요 인사이트에 사용자의 주의를 기울이는 데 유용할 수 있습니다.
+패널 또는 개별 시각화 등 프로젝트의 특정 부분에 대한 링크를 공유할 수도 있습니다. 이를 내부 연결이라고도 합니다. 이 기능은 프로젝트 내의 주요 인사이트에 사용자의 주의를 끄는 데 유용할 수 있습니다.
 
 * 패널 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 선택합니다.
 * 시각화 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택합니다.
@@ -56,5 +63,5 @@ Customer Journey Analytics에 대한 액세스 권한이 없는 사용자와 Ana
 
 ## 목차에 링크 사용 {#TOC}
 
-다양한 링크 옵션을 활용하는 한 가지 팁은 Workspace 프로젝트 상단에 항상 [목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 포함하는 것입니다. 목차에서는 다른 관련 프로젝트, 특정 패널 및 특정 시각화에 연결할 수 있습니다. 이렇게 하면 프로젝트의 수신자가 보다 쉽게 탐색할 수 있습니다.
+다양한 링크 옵션을 활용하는 한 가지 팁은 Workspace 프로젝트 상단에 항상 [목차](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)를 포함하는 것입니다. 목차에서는 다른 관련 프로젝트, 특정 패널 및 특정 시각화에 링크할 수 있습니다. 이렇게 하면 프로젝트의 수신자가 보다 쉽게 탐색할 수 있습니다.
 

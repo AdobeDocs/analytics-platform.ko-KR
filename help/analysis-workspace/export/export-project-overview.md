@@ -9,22 +9,30 @@ autotag-review: '2026-05-19T08:26:15.356Z'
 TQID: 'https://experienceleague.adobe.com/9pyrzsluOss-Dz4yrDJAmVqxjjeiEYTNILIz4llAMPA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 96%
-
 ---
-
 # 내보내기 개요
 
 Analysis Workspace에서 Customer Journey Analytics 프로젝트(일부)를 내보낼 수 있습니다. 서드파티 도구를 사용하거나 외부 데이터와 결합하는 등 다양한 이유로 Customer Journey Analytics 보고서를 내보내고자 하는 경우가 있습니다.
@@ -47,8 +55,8 @@ Analysis Workspace에서 내보내고자 할 때 다양한 방법을 사용할 �
 
 | 내보내기 방법 | 다음과 같은 경우 이 방법을 사용하십시오. |
 |---------|----------|
-| [워크스테이션에 다운로드](/help/analysis-workspace/export/download-send.md) | <li>개인 워크스테이션에 프로젝트를 다운로드합니다.</li><li>애드혹 데이터만 다운로드합니다(예약되지 않음).</li> <li>최대 50,000개의 행을 다운로드합니다.</li> <!--true? Are there 2 different options to download to your workstation? is this emailing it? --> |
+| [워크스테이션에 다운로드](/help/analysis-workspace/export/download-send.md) | <li>개인 워크스테이션에 프로젝트를 다운로드합니다.</li><li>애드 혹 데이터만 다운로드합니다(예약되지 않음).</li> <li>최대 50,000개의 행을 다운로드합니다.</li> <!--true? Are there 2 different options to download to your workstation? is this emailing it? --> |
 | [다른 사용자에게 보내기](/help/analysis-workspace/export/t-schedule-report.md) | <li>내보내기한 Customer Journey Analytics 데이터를 조직의 다른 사용자에게 이메일로 보냅니다.</li><li>이메일을 애드혹 또는 일정에 맞춰 보냅니다.</li> <li>이메일에 최대 400개의 행을 포함합니다.</li> <!--true?--> |
-| [클라우드 위치로 내보내기](/help/analysis-workspace/export/export-cloud.md) | <li>다음과 같은 클라우드 위치로 내보내기 <ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>애드혹 또는 일정에 따라 데이터를 내보냅니다.</li><li>더 많은 양의 Customer Journey Analytics 데이터를 저장합니다.</li><li>수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [클라우드 위치로 내보내기](/help/analysis-workspace/export/export-cloud.md) | <li>다음과 같은 클라우드 위치로 내보내기 <ul><li>Adobe Experience Platform 데이터 랜딩 영역</li><li>Google Cloud 플랫폼</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>애드혹 또는 일정에 따라 데이터를 내보냅니다.</li><li>더 많은 양의 Customer Journey Analytics 데이터를 저장합니다.</li><li>수천 또는 수백만 개의 행이 포함된 전체 테이블을 내보냅니다.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

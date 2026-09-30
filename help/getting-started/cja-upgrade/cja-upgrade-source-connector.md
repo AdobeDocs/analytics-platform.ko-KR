@@ -1,6 +1,6 @@
 ---
 title: Analytics 소스 커넥터 및 맵 필드 만들기
-description: Analytics 소스 커넥터 및 맵 필드를 만드는 방법 알아보기
+description: Analytics 소스 커넥터를 만들고 필드를 매핑하는 방법 알아보기
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -9,25 +9,34 @@ autotag-review: '2026-05-19T08:18:13.585Z'
 TQID: 'https://experienceleague.adobe.com/IQVDwcpMVnEa-dFXbNkpmHQRofC6d8z2ocf-PIaK--Q'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: '758'
 ht-degree: 100%
-
 ---
-
 # Analytics 소스 커넥터 및 맵 필드 만들기 {#create-source-connector}
 
 <!-- markdownlint-disable MD034 -->
@@ -104,7 +113,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
       AppMeasurement와 XDM 간의 고유한 아키텍처 차이로 인해 모든 Adobe Analytics 필드에 XDM에 해당 필드가 있는 것은 아닙니다.
 
-   1. Adobe Analytics에서 데이터를 수집하는 데 사용하는 Adobe Analytics ExperienceEvent Template 필드 그룹의 각 필드에 대해 이 과정을 반복합니다.
+   1. Adobe Analytics에서 데이터를 수집하는 데 사용하는 Adobe Analytics ExperienceEvent 템플릿 필드 그룹의 각 필드에 대해 이 과정을 반복합니다.
 
 1. 화면 오른쪽 상단에서 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 

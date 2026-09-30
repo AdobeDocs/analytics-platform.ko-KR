@@ -5,24 +5,34 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-TQID: https://experienceleague.adobe.com/TRLnyHuOUno5zy2QT2Uc8vFnWeVy2snRu-ispS0ClKk
+TQID: 'https://experienceleague.adobe.com/TRLnyHuOUno5zy2QT2Uc8vFnWeVy2snRu-ispS0ClKk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 최초 사용 영향] 분석 {#first-use-impact}
 
 <!-- markdownlint-disable MD034 -->
@@ -45,7 +55,7 @@ ht-degree: 100%
 * **새로운 기능 분석**: 제품 내에서 새로운 기능을 출시하는 경우, 사용자가 해당 새로운 기능에 처음 노출되기 전과 후의 주요 지표가 어떻게 작동했는지 비교할 수 있습니다.
 * **단계적 출시**: 분석은 고정된 날짜가 아닌 기능의 첫 번째 사용을 목표로 하기 때문에, 이 분석은 시간이 지남에 따라 기능의 출시 단계를 거치면 도움이 됩니다.
 * **새로운 제품 버전 분석**: 제품의 새로운 버전을 출시하는 경우 사용자가 새로운 버전에 처음 노출되기 전과 후의 주요 지표를 비교할 수 있습니다. 첫 번째 사용 이벤트로 “모든 이벤트”를 선택하고 버전 번호 속성으로 필터링합니다.
-* **기존 기능 개선**: 제품 내 기존 기능을 개선하는 경우 사용자가 처음으로 이러한 새로운 개선 사항에 노출되기 전과 후의 주요 지표의 성과를 비교할 수 있습니다. 이 분석은 기능 기기에 따라 하나 이상의 방법으로 수행할 수 있습니다.
+* **기존 기능 개선**: 제품 내 기존 기능을 개선하는 경우 사용자가 처음으로 이러한 새로운 개선 사항에 노출되기 전과 후의 주요 지표의 성과를 비교할 수 있습니다. 이 분석은 기능 계측 방식에 따라 하나 이상의 방법으로 수행할 수 있습니다.
   * 개선 사항을 나타내는 이벤트를 첫 번째 사용 이벤트로 선택
   * 변경 사항이 적용되기 시작한 날짜 선택
   * 개선 사항에 노출된 사람들로 분석을 세분화
@@ -77,7 +87,7 @@ ht-degree: 100%
 
 분석이 쿼리 레일에 지정된 날짜를 중심으로 진행되기 때문에 [!UICONTROL 최초 사용 영향] 분석에서 날짜 선택은 다른 분석과 다르게 작동합니다. 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 [!UICONTROL 일별], [!UICONTROL 주별], [!UICONTROL 월별], [!UICONTROL 분기별]이 있습니다. 간격을 변경하면 기간 전후에 사용할 수 있는 옵션에 영향을 줍니다.
+* **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 [!UICONTROL 일별], [!UICONTROL 주별], [!UICONTROL 월별], [!UICONTROL 분기별]이 있습니다. 간격을 변경하면 전후 기간에 사용할 수 있는 옵션에 영향을 줍니다.
 * **[!UICONTROL 이벤트 전후 기간]**: 쿼리 레일에 지정된 첫 번째 사용 이벤트 전후에 분석하는 시간. 사용 가능한 옵션은 [!UICONTROL 간격] 선택에 따라 다릅니다.
 
 <!--

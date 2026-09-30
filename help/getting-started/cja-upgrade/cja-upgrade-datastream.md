@@ -9,32 +9,41 @@ autotag-review: '2026-05-19T08:13:03.106Z'
 TQID: 'https://experienceleague.adobe.com/vzavQGq0OyhXTpSkqe3nnXQEW0Nax9RXt4SwTRwa4UU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 100%
-
 ---
-
-# Customer Journey Analytics에 사용할 데이터스트림 만들기 {#upgrade-create-datastream}
+# Customer Journey Analytics에 사용할 데이터 스트림 만들기 {#upgrade-create-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
->title="Adobe Experience Platform에 데이터스트림 만들기"
+>title="Adobe Experience Platform에 데이터 스트림 만들기"
 >abstract="데이터스트림은 구성된 모든 서비스에 데이터를 전달하는 중개 위치입니다. Adobe Experience Platform에 이 위치를 만듭니다.<br><br>몇 분 정도면 플랫폼 인터페이스에서 데이터스트림을 처음 만들 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -43,7 +52,7 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-데이터스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 것은 데이터스트림입니다.
+데이터 스트림은 Adobe Experience Platform Web 및 Mobile SDK 구현 시 서버측 구성을 나타냅니다. Adobe Experience Platform SDK로 데이터를 수집하는 경우 데이터는 Adobe Experience Platform Edge Network로 전송됩니다. 데이터가 전달되는 서비스를 결정하는 것은 데이터스트림입니다.
 
 설정에서 Adobe Experience Platform의 데이터 세트로 수집한 데이터를 전송하기 위해 데이터스트림을 구성하려고 합니다.
 
@@ -51,7 +60,7 @@ ht-degree: 100%
 >
 >다음 단계는 AppMeasurement 또는 Analytics 확장 기능(태그)을 사용하는 Adobe Analytics 구현에만 필요합니다.
 >
->Adobe Analytics 구현에서 Web SDK 또는 Web SDK 확장 기능을 사용하는 경우 데이터스트림이 이미 Adobe Analytics 환경에 존재합니다.
+>Adobe Analytics 구현에서 Web SDK 또는 Web SDK 확장 기능을 사용하는 경우 데이터 스트림이 이미 Adobe Analytics 환경에 존재합니다.
 
 데이터스트림을 설정하는 경우:
 

@@ -8,22 +8,28 @@ autotag-review: '2026-05-19T08:41:54.033Z'
 TQID: 'https://experienceleague.adobe.com/sitlejANJcDN2u-baGg2iz2SaOyZJe8jbyXjgBbasss'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '389'
 ht-degree: 80%
-
 ---
-
 # 폴아웃 개요 {#fallout-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -31,7 +37,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
 >title="폴아웃"
->abstract="방문자가 원하는 체크포인트로 진행하는 방법을 보여 주는 시각화를 만듭니다."
+>abstract="방문자가 원하는 체크포인트로 성공적으로 진행하는 방식을 볼 수 있는 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,7 +62,7 @@ _이 문서에서는 폴아웃 시각화에 대해 설명합니다._ ![CustomerJ
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
-* 동일한 보고서에서 서로 다른 두 개의 세그먼트를 나란히 놓고 비교
+* 동일한 보고서에서 서로 다른 두 개의 세그먼트를 나란히 비교합니다.
 * 단계 절차(터치포인트) 드래그 앤 드롭(다시 정렬).
 * 서로 다른 차원 및 지표의 값을 혼합 및 대응.
 * 차원이 여러 개인 폴아웃 보고서 작성.

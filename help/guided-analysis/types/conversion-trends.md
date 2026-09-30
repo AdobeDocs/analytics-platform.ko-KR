@@ -5,26 +5,37 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 제품 분석
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-TQID: https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM
+TQID: 'https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Optimization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 전환 트렌드] 분석 {#conversion-trends}
 
 <!-- markdownlint-disable MD034 -->
@@ -47,7 +58,7 @@ ht-degree: 100%
 
 * **최적화 노력 추적**: [단계](funnel.md) 분석을 사용하여 개선하고자 하는 주요 병목 현상을 파악한 후 이 분석을 사용하여 최적화가 시간이 지남에 따라 전환율에 미치는 영향을 추적할 수 있습니다.
 * **A/B 테스트 평가**: 단계의 컨텍스트 내에서 수행된 A/B 테스트 또는 실험의 효과를 평가합니다. 다양한 베리에이션 간의 전환율을 비교함으로써 어떤 테스트가 더 높은 전환율을 제공하는지 쉽게 파악할 수 있으며, 이는 어떤 베리에이션을 영구적으로 구현할지에 대한 데이터 기반 결정으로 이어집니다.
-* **시간 경과에 따른 캠페인 평가**: 시간 경과에 따른 마케팅 캠페인의 효과를 측정합니다. 특정 캠페인에 참여한 사용자를 중심으로 세그먼트를 만들고, 해당 세그먼트의 전환율을 다른 캠페인과 비교할 수 있습니다. 현재 전환율을 과거에 실행된 유사한 캠페인과 비교할 수도 있습니다.
+* **시간 경과에 따른 캠페인 평가**: 시간 경과에 따른 마케팅 캠페인의 효과를 측정합니다. 특정 캠페인에 참여한 사용자를 중심으로 세그먼트를 만들고, 해당 사용자의 전환율을 다른 캠페인과 비교할 수 있습니다. 현재 전환율을 과거에 실행된 유사한 캠페인과 비교할 수도 있습니다.
 
 ## 인터페이스
 
@@ -80,10 +91,10 @@ ht-degree: 100%
 
 ### 날짜 범위
 
-분석에 원하는 날짜 범위. 이 설정에는 두 가지 구성 요소가 있습니다.
+분석에 원하는 날짜 범위입니다. 이 설정에는 두 가지 구성 요소가 있습니다.
 
 * **[!UICONTROL 간격]**: 추세 데이터를 보려는 날짜별 세부 기간. 유효한 옵션으로는 시간별, 일별, 주별, 월별, 분기별이 있습니다. 동일한 날짜 범위는 차트의 데이터 포인트 수와 테이블의 열 수에 영향을 미치는 다양한 간격을 가질 수 있습니다. 예를 들어, 일별 세부 기간으로 3일에 걸친 분석을 보면 데이터 포인트가 3개만 표시되는 반면, 시간별 세부 기간으로 3일을 분석하면 72개의 데이터 포인트가 표시됩니다.
-* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 순환 날짜 범위 사전 설정과 이전에 저장된 사용자 정의의 범위를 편리하게 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
+* **[!UICONTROL 날짜]**: 시작 및 종료 날짜. 편의를 위해 순환 날짜 범위 사전 설정과 이전에 저장한 사용자 정의 범위를 사용할 수 있으며, 캘린더 선택기를 사용하여 고정된 날짜 범위를 선택할 수도 있습니다.
 
 <!--
 ## Example

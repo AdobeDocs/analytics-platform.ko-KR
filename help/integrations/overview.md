@@ -4,25 +4,33 @@ description: 다른 Adobe 솔루션 및 서비스의 데이터를 통합하는 �
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
-TQID: https://experienceleague.adobe.com/QSKL1Lb9-jduB7QU8ePe-0xmKYGvvOlBZZ8r6xiokqk
+TQID: 'https://experienceleague.adobe.com/QSKL1Lb9-jduB7QU8ePe-0xmKYGvvOlBZZ8r6xiokqk'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: '144'
 ht-degree: 100%
-
 ---
-
 # Customer Journey Analytics와 Adobe 솔루션 통합
 
 Adobe는 Adobe Experience Platform에 호스팅된 데이터를 활용하는 다양한 제품 및 솔루션을 제공합니다. 이들 안내서를 사용하여 고급 보고서를 실행하기 위해 해당 데이터를 Analysis Workspace로 가져오는 주요 워크플로에 대해 알아볼 수 있습니다.

@@ -9,22 +9,28 @@ autotag-review: '2026-05-19T09:41:04.245Z'
 TQID: 'https://experienceleague.adobe.com/DeHkKlRDLWPlJNf9DgiXdV9jPPlOjZNmIVpVBKL0CGo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: f24857a4-4b64-4b25-b237-d43026362144
+    internal-label: BI extension
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: '798'
 ht-degree: 1%
-
 ---
-
 # 차원 값을 사용하여 세분화
 
 **[!UICONTROL 제품 범주]**&#x200B;에 대해 동적 **[!UICONTROL Hunting]** 값을 사용하여 헌팅 범주의 제품을 세그먼트화합니다. 또는 제품 카테고리 값의 동적 검색을 지원하지 않는 BI 도구의 경우 Customer Journey Analytics에서 헌팅 제품 카테고리의 제품을 세그먼트화하는 새 세그먼트를 만듭니다.

@@ -5,27 +5,37 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-TQID: https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM
+TQID: 'https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1680
+source-wordcount: '1680'
 ht-degree: 14%
-
 ---
-
 # Experience Platform 대상자 수집 및 활용
 
 이 사용 사례에서는 Experience Platform 대상을 Customer Journey Analytics으로 수집하는 임시 솔루션을 탐색합니다. 이러한 대상은 Experience Platform 세그먼트 빌더, Adobe Audience Manager 또는 기타 도구에서 생성되었을 수 있으며 실시간 고객 프로필에 저장됩니다. 대상은 적용 가능한 속성, 이벤트 등과 함께 프로필 ID 세트로 구성됩니다. 추가 분석을 위해 해당 대상 데이터를 Customer Journey Analytics으로 가져오려고 합니다.
@@ -496,7 +506,7 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 ## 추가 참고 사항
 
 * 대상 데이터가 Customer Journey Analytics 내에서 지속적으로 새로 고쳐지도록 이 프로세스를 정기적으로 수행해야 합니다.
-* 단일 Customer Journey Analytics 연결 내에서 여러 대상을 가져올 수 있습니다. 이는 프로세스에 복잡성을 가중시키지만 실행 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
+* 단일 Customer Journey Analytics 연결 내에서 여러 대상을 가져올 수 있습니다. 이로 인해 프로세스가 더 복잡해지지만, 가능합니다. 이 기능이 작동하려면 위의 프로세스를 몇 가지 수정해야 합니다.
   1. RTCP 내의 대상자 컬렉션에서 원하는 각 대상자에 대해 이 프로세스를 수행합니다.
   1. Customer Journey Analytics은 프로필 데이터 세트에서 배열/개체 배열을 지원합니다. `audienceMembershipId` 또는 `audienceMembershipIdName`에 대해 [개체 배열](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=ko)을 사용하는 것이 가장 좋습니다.
   1. 데이터 보기에서 `audienceMembershipId` 필드의 하위 문자열 변환을 사용하여 새 차원을 만들어 쉼표로 구분된 값 문자열을 배열로 변환합니다. 참고: 현재 배열의 값은 10개로 제한됩니다.

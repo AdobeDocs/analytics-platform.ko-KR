@@ -18,15 +18,15 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 20%
 ---
 # 구성 만들기 또는 편집
 
 대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 예를 들어, 고객 또는 콜 센터 대본과 상호 작용하는 챗봇입니다.
-대화 인사이트를 통해 담당자가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
+대화 인사이트를 통해 에이전트가 실제 사용자 결과에 미치는 영향을 이해할 수 있습니다.
 
 Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티팩트(연결, 데이터 보기 등)를 빠르게 만들거나 편집할 수 있습니다.
 
@@ -114,7 +114,47 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 
 ## 데이터 보기 확인
 
-(관련 데이터 세트에서 볼 수 있는 지표 및 차원 설명)
+[구성 단계](#configuration-steps)에서 구성한 데이터 보기는 [데이터 보기](/help/data-views/manage-dataviews.md)에서 **[!UICONTROL 통합]**&#x200B;에 대한 값으로 **[!UICONTROL 대화 인사이트]**&#x200B;를 가집니다.
+
+구성된 각 데이터 보기의 경우:
+
+* **컨테이너**: [컨테이너 탭](/help/data-views/create-dataview.md#containers)에 새 **[!UICONTROL 컨테이너 이름]**: **[!UICONTROL 대화]**(추가 **[!UICONTROL 시스템]** **[!UICONTROL 컨테이너 형식]**(으)로 **[!UICONTROL 표시 이름]**: **[!UICONTROL 컨테이너]** 포함).
+* **구성 요소**: 추가 스키마 필드 폴더가 표시됩니다. 예: agentExperience 및 conversation. 또한 다음 구성 요소가 자동으로 추가됩니다.
+
+  | 지표 | 스키마 데이터 유형 | 스키마 경로 |
+  |---|---|---|
+  | 고객 피드백 | 문자열 | eventType |
+  | 긍정적 감정 | 문자열 | 파생 필드 |
+  | 추천 항목 | 문자열 | eventType |
+  | 회전 | 문자열 | eventType |
+
+  | 차원 | 스키마 데이터 유형 | 스키마 경로 |
+  |---|---|---|
+  | 에이전트 ID | 문자열 | `agenticExperience.agents.agentID` |
+  | 에이전트 이름 | 문자열 | `agenticExperience.agents.name` |
+  | Concierge 이름 | 문자열 | `agenticExperience.name` |
+  | Concierge 버전 | 문자열 | `agenticExperience.version` |
+  | 대화 ID | 문자열 | `conversation.conversationID` |
+  | 대화 이름 | 문자열 | `conversation.conversationName` |
+  | 대화 신호 이름 | 문자열 | `conversation.signals.name` |
+  | 대화 요약 부울 값 | 부울 | `conversation.signals.values.booleanValue` |
+  | 대화 요약 신뢰도 | 더블 | `conversation.signals.values.confidence` |
+  | 대화 요약 메타데이터 키 | 문자열 | `conversation.signals.values.metadata.key` |
+  | 대화 요약 숫자 값 | 더블 | `conversation.signals.values.numberValue` |
+  | 대화 요약 한정자 | 문자열 | `conversation.signals.values.qualifiers` |
+  | 대화 톤 신호 | 문자열 | `conversation.signals.attributes.tones.values` |
+  | 환경 | 문자열 | `agenticExperience.environment` |
+  | 피드백 분류 | 문자열 | 파생 필드 |
+  | 피드백 평가 분류 | 문자열 | `conversation.feedback.rating.classification` |
+  | 피드백 섹션 목적 | 문자열 | `conversation.feedback.raw.purpose` |
+  | 피드백 소스 | 문자열 | `conversation.feedback.source` |
+  | 구문 | 문자열 | `conversation.signals.attributes.subjects.values.phrase` |
+  | 응답 원시 텍스트 | 문자열 | `conversation.response.raw.text` |
+  | 응답 소스 | 문자열 | `conversation.response.source` |
+  | 감정 분류 | 문자열 | 파생 필드 |
+  | 스킬 이름 | 문자열 | `agenticExperience.agents.skills.name` |
+  | 스킬 ID | 문자열 | `agenticExperience.agents.skills.version` |
+  | 값 | 문자열 | `agenticExperience.agents.skills.parameters.value` |
 
 
 <!--
