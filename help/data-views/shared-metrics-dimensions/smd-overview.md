@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 권한
 
-* [제품 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
+* [제품 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
 
 ## 워크플로
 
