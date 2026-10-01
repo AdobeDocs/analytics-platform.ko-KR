@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
+source-git-commit: 91497f695a693fd15135dc5173e8a35537616e72
 workflow-type: tm+mt
-source-wordcount: '10738'
-ht-degree: 90%
+source-wordcount: '10677'
+ht-degree: 89%
 ---
 # 연결 만들기 또는 편집 {#create-or-edit-a-connection}
 
@@ -252,7 +252,7 @@ ht-degree: 90%
    | **[!UICONTROL 연결 이름]** | 연결의 고유 이름을 입력합니다. |
    | **[!UICONTROL 연결 설명]** | 이 연결의 목적에 대해 설명합니다. |
    | **[!UICONTROL 태그]** | 태그를 지정하여 연결에 태그를 추가하면 해당 태그를 사용하여 이후 단계에서 연결을 검색할 수 있습니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Experience Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
    | **[!UICONTROL 데이터 세트 추가]** | 데이터 세트를 추가하려면 ![데이터 추가](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
@@ -296,7 +296,7 @@ ht-degree: 90%
    | **[!UICONTROL 기본 ID]** | 연결에 적합한 기본 ID를 선택합니다. <ul><li>B2C 시나리오에서 일반적으로 사용하는 개인 기반 연결의 경우, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 개인]**&#x200B;입니다.</li><li> B2B 시나리오에서 일반적으로 사용하는 계정 기반 연결을 위한 ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;입니다.</li></ul>연결에 데이터 세트를 하나 이상 추가하는 즉시 기본 ID를 더 이상 변경할 수 없습니다. <br/>기본 ID를 선택하면 연결의 개인 기반 또는 계정 기반 여부가 정의됩니다. 연결 기반은 특정 데이터 세트 유형에 사용할 수 있는 [설정](#dataset-settings)을 결정합니다. |
    | **[!UICONTROL 선택 가능한 컨테이너]** | ![Building](/help/assets/icons/Building.svg) **[!UICONTROL 계정]**&#x200B;을 **[!UICONTROL 기본 ID]**&#x200B;로 선택한 경우, 선택 가능한 컨테이너를 선택합니다.<ul><li>**[!UICONTROL 글로벌 계정]**: 연결에서 글로벌 계정의 구성을 활성화합니다.</li><li>**[!UICONTROL 기회]**: 연결에서 기회의 구성을 활성화합니다.</li><li>**[!UICONTROL 구매 그룹]**: 연결에서 구매 그룹의 구성을 활성화합니다.</li><ul> |
    | **[!UICONTROL 샌드박스]** | 연결을 만들 데이터 세트가 포함된 Experience Platform의 샌드박스를 선택합니다.<p>Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 Platform 인스턴스를 별도의 가상 환경으로 분할하는 [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 제공합니다. 샌드박스를 데이터 세트가 포함된 “데이터 사일로”로 간주할 수 있습니다. 샌드박스는 데이터 세트에 대한 액세스를 제어하는 데 사용됩니다.<p>샌드박스를 선택하면 왼쪽 레일에 해당 샌드박스에서 가져올 수 있는 모든 데이터 세트가 표시됩니다. |
-   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 프로필 또는 조회 데이터 세트(하나 이상의 이벤트 데이터 세트 외에)가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
+   | **[!UICONTROL 롤링 데이터 기간 활성화]** | 이 확인란이 선택되어 있으면 Customer Journey Analytics 데이터 보존을 연결 수준에서 개월(1개월, 3개월, 6개월 등) 단위의 롤링 기간으로 정의할 수 있습니다.<p>데이터 보존은 이벤트 데이터 세트 타임스탬프를 기반으로 하며 이벤트 데이터 세트에만 적용됩니다. 적용 가능한 타임스탬프가 없기 때문에 프로필 또는 조회 데이터 세트에 대한 롤링 데이터 기간 설정이 없습니다. 그러나 연결에 하나 이상의 이벤트 데이터 세트 외에 프로필 또는 조회 데이터 세트가 포함된 경우 해당 데이터는 동일한 기간 동안 유지됩니다.<p> 주요 이점은 적용 가능하고 유용한 데이터에 대해서만 저장하거나 보고하고 더 이상 유용하지 않은 오래된 데이터를 삭제한다는 것입니다. 계약 한도 이하를 유지하고 초과 비용의 위험을 줄이는 데 도움이 됩니다.<p><ul><li>기본값(선택 해제)을 그대로 두면 Adobe Experience Platform 데이터 보존 설정이 보존 기간보다 우선 적용됩니다. Experience Platform에 25개월 분량의 데이터가 있는 경우 Customer Journey Analytics는 채우기를 통해 25개월 분량의 데이터를 받습니다. Platform에서 이러한 개월 중 10개월을 삭제하면 Customer Journey Analytics는 나머지 15개월을 유지합니다.</li><li>롤링 데이터 기간을 사용하는 경우, **[!UICONTROL 개월 수 선택]**&#x200B;에서 롤링 데이터 기간을 사용하는 개월 수를 지정합니다. |
    | **[!UICONTROL 데이터 세트 추가]** | [데이터 세트를 추가](#add-datasets)하려면 ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택합니다. 연결에 아직 데이터 세트가 없는 경우, 데이터 세트 테이블에서 **[!UICONTROL 데이터 세트 추가]**&#x200B;를 선택할 수도 있습니다. |
 
 
@@ -560,7 +560,7 @@ ht-degree: 90%
 
    | 열 | 설명 |
    |---|---|
-   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 집합에 대한 자세한 정보가 포함된 팝업을 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 유형]** | 데이터 세트 유형: [이벤트](#event-dataset), [프로필](#profile-dataset), [조회](#lookup-dataset), [요약](#summary-dataset), [임시](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. 이름을 선택하면 Experience Platform의 스키마로 이동합니다. |
@@ -568,10 +568,10 @@ ht-degree: 90%
    | **[!UICONTROL 데이터 세트 ID]** | 데이터 세트의 ID입니다. |
    | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트가 마지막으로 업데이트된 타임스탬프입니다. |
 
-   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
-   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
-   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)**[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
-   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 선택하고 [!UICONTROL 테이블 사용자 지정] 대화 상자에 표시할 열을 선택하십시오.
+   * 특정 데이터 세트를 검색하려면 ![검색](/help/assets/icons/Search.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 집합을 표시하거나 숨기려면 ![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL 선택한 항목 숨기기]** 또는 **[!UICONTROL 선택한 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](/help/assets/icons2/Close.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
    * 데이터 세트에 대한 세부 정보를 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다.
 
 
@@ -623,7 +623,7 @@ ht-degree: 90%
 
    | 열 | 설명 |
    |---|---|
-   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
+   | **[!UICONTROL 데이터 세트]** | 데이터 세트의 이름입니다. 이름을 선택하면 Experience Platform의 데이터 세트로 이동합니다. 데이터 세트에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![정보](/help/assets/icons/InfoOutline.svg)를 선택합니다. **[!UICONTROL 플랫폼에서 편집]**&#x200B;을 선택하면 Experience Platform에서 바로 데이터 세트를 편집할 수 있습니다. |
    | **[!UICONTROL 데이터 세트 유형]** | 데이터 세트 유형: [이벤트](#event-dataset), [프로필](#profile-dataset), [조회](#lookup-dataset), [요약](#summary-dataset), [임시](#ad-hoc-dataset) 또는 [관계형](#relational-dataset) |
    | **[!UICONTROL 레코드 수]** | Experience Platform의 데이터 세트에 대한 지난달의 총 레코드입니다. |
    | **[!UICONTROL 스키마]** | 데이터 세트의 스키마입니다. 이름을 선택하면 Experience Platform의 스키마로 이동합니다. |
@@ -631,10 +631,10 @@ ht-degree: 90%
    | **[!UICONTROL 데이터 세트 ID]** | 데이터 세트의 ID입니다. |
    | **[!UICONTROL 마지막으로 업데이트됨]** | 데이터 세트가 마지막으로 업데이트된 타임스탬프입니다. |
 
-   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
-   * 특정 데이터 세트를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용합니다.
-   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)**[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
-   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
+   * 데이터 세트 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택한 다음 [!UICONTROL 테이블 맞춤화] 대화 상자에 표시할 열을 선택합니다.
+   * 특정 데이터 세트를 검색하려면 ![검색](/help/assets/icons/Search.svg) 검색 필드를 사용합니다.
+   * 선택한 데이터 세트 표시 또는 숨기기 간 전환하려면 ![선택](/help/assets/icons/SelectBoxAll.svg)**[!UICONTROL 선택 항목 숨기기]** 또는 **[!UICONTROL 선택 항목 표시]**&#x200B;를 선택합니다.
+   * 선택한 데이터 세트 목록에서 데이터 세트를 제거하려면 ![닫기](/help/assets/icons/Close.svg)를 사용합니다. 선택한 데이터 세트를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.
    * 데이터 세트에 대한 세부 정보를 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다.
 
 

@@ -4,7 +4,6 @@ description: 대화 통찰력 구성을 구성하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 20%
+source-wordcount: '810'
+ht-degree: 16%
 ---
 # 구성 만들기 또는 편집
 
@@ -34,7 +33,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 
 시스템 관리자만 대화 통찰력 구성을 만들거나 편집할 수 있습니다.
 
-[대화 통찰력 구성 인터페이스](./conversation-insights-manage.md)에서 구성을 만들거나 편집합니다.
+[대화 통찰력 구성 인터페이스](./manage.md)에서 구성을 만들거나 편집합니다.
 
 ## 누락된 혼합 데이터 세트 복원
 
@@ -80,7 +79,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
    1. **[!UICONTROL 연결 사용]**&#x200B;을 선택합니다.
 
    * 선택할 연결 목록에서 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용하십시오.
-   * 테이블에 표시할 열을 구성하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택합니다. **[!UICONTROL 표 사용자 지정]** 대화 상자에서 표시할 열을 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+   * 테이블에 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. **[!UICONTROL 표 사용자 지정]** 대화 상자에서 표시할 열을 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 데이터 보기]** 섹션에서 데이터 보기가 이미 구성되어 있지 않으면 **[!UICONTROL 데이터 보기 선택]**&#x200B;을 선택하여 데이터 보기를 선택하십시오.
 
@@ -95,7 +94,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
    1. 데이터 보기를 사용하려면 **[!UICONTROL 데이터 보기 사용]**&#x200B;을 선택하세요. 취소하려면 취소를 선택합니다.
 
    * 선택할 데이터 보기 목록에서 검색하려면 ![검색](/help/assets/icons/Search.svg) 필드를 사용하십시오.
-   * 테이블에 표시할 열을 구성하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택합니다. **[!UICONTROL 표 사용자 지정]** 대화 상자에서 표시할 열을 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+   * 테이블에 표시할 열을 구성하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택합니다. **[!UICONTROL 표 사용자 지정]** 대화 상자에서 표시할 열을 선택합니다. 그런 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 1. 구성을 완료하려면
 

@@ -7,33 +7,43 @@ exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
 TQID: https://experienceleague.adobe.com/b-y-D9Ba6SlV0tW8D1btQLWYU32HpKrgG3DIftie1W8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 63%
-
+source-wordcount: '1322'
+ht-degree: 62%
 ---
-
 # 구성 요소 정보 보기
 
 데이터 사전을 사용하면 구성 요소에 대한 설명, 유사 구성 요소 및 구성 요소가 자주 사용되는 기타 구성 요소 등을 포함하여 구성 요소에 대한 정보를 볼 수 있습니다.
 
-데이터 사전의 구성 요소에 대한 정보 보기:
+데이터 사전에서 구성 요소에 대한 정보를 보려면 다음과 같이 하십시오.
 
 1. 확인할 구성 요소가 포함된 Analysis Workspace 프로젝트로 이동합니다.
 
@@ -51,19 +61,19 @@ ht-degree: 63%
 
    구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다.
 
-   * **차원** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)이 주황색입니다.
+   * **차원** ![Dimension 아이콘](/help/assets/icons/Data.svg)이 주황색입니다.
 
-   * **세그먼트** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)이 파란색입니다.
+   * **세그먼트** ![세그먼트 아이콘](/help/assets/icons/Segmentation.svg)이 파란색입니다.
 
-   * **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)이 보라색입니다.
+   * **날짜 범위** ![날짜 범위 아이콘](/help/assets/icons/Calendar.svg)이 보라색입니다.
 
-   * **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)이 녹색입니다.
+   * **지표** ![지표 아이콘](/help/assets/icons/Event.svg)이 녹색입니다.
 
    * **Adobe 아이콘** ![Adobe 아이콘](assets/default-calc-metric-icon.png)은(는) 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타냅니다
 
-   * **계산기 아이콘** ![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)은(는) 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다
+   * **계산기 아이콘** ![계산기 아이콘](/help/assets/icons/Calculator.svg)은(는) 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다
 
-1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -74,7 +84,7 @@ ht-degree: 63%
    | [!UICONTROL **세그먼트**] | 세그먼트인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 [!UICONTROL **빠른 세그먼트**] 탭에서도 사용할 수 있습니다.) |
    | [!UICONTROL **날짜 범위**] | 날짜 범위인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 [!UICONTROL **빠른 세그먼트**] 탭에서도 사용할 수 있습니다.) |
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | [!UICONTROL **승인되지 않음**] | 관리자가 아직 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **중복 항목 표시**] | 선택한 데이터 보기에서 다른 구성 요소와 이름 또는 설명이 동일한 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 중복 항목으로 표시하려면 이름이나 설명이 정확히 일치해야 합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
@@ -82,11 +92,11 @@ ht-degree: 63%
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
+1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](/help/assets/icons/SortOrderDown.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
 
    | 옵션 | 함수 |
    |---------|----------|
-   | **[!UICONTROL 권장]** | 각 유형(차원, 지표, 세그먼트 및 날짜 범위)에 대한 구성 요소를 권장 사항에 따라 정렬합니다. 귀하 또는 귀사의 다른 사용자가 가장 자주 그리고 가장 최근에 사용한 구성 요소가 각 목록의 위쪽에 표시됩니다. |
+   | **[!UICONTROL 권장]** | 각 유형(차원, 지표, 세그먼트 및 날짜 범위)에 대한 구성 요소를 추천에 따라 정렬합니다. 귀하 또는 귀사의 다른 사용자가 가장 자주 그리고 가장 최근에 사용한 구성 요소가 각 목록에서 더 높은 위치에 표시됩니다. |
    | **[!UICONTROL 마지막 수정일]** | 각 유형(차원, 지표, 세그먼트 및 날짜 범위)에 대한 구성 요소를 마지막 수정일을 기준으로 정렬합니다. 가장 최근에 수정된 구성 요소는 각 목록에서 위에 표시됩니다. |
    | **[!UICONTROL 알파벳]** | 각 유형(차원, 지표, 세그먼트 및 날짜 범위)에 대한 구성 요소를 오름차순 알파벳 순서로 정렬합니다. |
    | **[!UICONTROL 카테고리]** | 각 유형(차원, 지표, 세그먼트 및 날짜 범위)에 대한 구성 요소를 카테고리에 따라 정렬합니다. 예: 조정된 데이터 보기와 조정되지 않은 데이터 보기 구성 요소. |

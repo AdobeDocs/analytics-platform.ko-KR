@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: 7357a8b929d72095aee7c154ea9e77791ac1a751
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 92%
@@ -316,15 +316,7 @@ ht-degree: 92%
     + [JavaScript 라이브러리](/help/content-analytics/config/tags-agnostic.md)
     + [데이터 수집](/help/content-analytics/config/datacollection.md)
 
-+ Analytics 대시보드 {#cja-dashboards}
-  + [개요](../mobile-app/home.md)
-  + [큐레이터 작업](../mobile-app/curator.md)
-  + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
-  + [모바일 스코어카드 관리](../mobile-app/manage-scorecard.md)
-  + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
-  + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
-
-+ 가이드 분석 {#guided-analysis}
++ 안내식 분석 {#guided-analysis}
   + [개요](../guided-analysis/overview.md)
   + [활성 증가](../guided-analysis/types/active-growth.md)
   + [전환 트렌드](../guided-analysis/types/conversion-trends.md)
@@ -341,12 +333,19 @@ ht-degree: 92%
   + [FAQ](../guided-analysis/faq.md)
 
 + 대화 통찰력 {#conversation-insights}
-  + {hide-from-toc}[개요](/help/conversation-insights/conversation-insights-overview.md)
-  + {hide-from-toc}[구성](/help/conversation-insights/conversation-insights-configure.md)
-  + {hide-from-toc}[관리](/help/conversation-insights/conversation-insights-manage.md)
-  + {hide-from-toc}[구현](/help/conversation-insights/conversation-insights-implement.md)
-  + {hide-from-toc}[분석](/help/conversation-insights/conversation-insights-analyze.md)
+  + [개요](/help/conversation-insights/overview.md)
+  + [구성](/help/conversation-insights/configure.md)
+  + [관리](/help/conversation-insights/manage.md)
+  + [구현](/help/conversation-insights/implement.md)
+  + [분석](/help/conversation-insights/analyze.md)
 
++ Analytics 대시보드 {#cja-dashboards}
+  + [개요](../mobile-app/home.md)
+  + [큐레이터 작업](../mobile-app/curator.md)
+  + [모바일 스코어카드 만들기](../mobile-app/create-scorecard.md)
+  + [모바일 스코어카드 관리](../mobile-app/manage-scorecard.md)
+  + [경영진이 대시보드를 사용할 수 있도록 설정](../mobile-app/set-up-execs.md)
+  + [경영진 빠른 시작 안내서](../mobile-app/executive.md)
 
 + 구성 요소 {#cja-components}
   + [개요](../components/overview.md)

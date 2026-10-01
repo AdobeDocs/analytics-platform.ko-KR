@@ -4,7 +4,6 @@ description: Conversation Insights용 에이전트 애플리케이션 또는 서
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,12 +12,11 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 5%
@@ -39,7 +37,7 @@ ht-degree: 5%
 
 기본 대화 이벤트(프롬프트, 응답, 피드백)를 위한 데이터 세트를 구성합니다. 프롬프트, 응답 및 피드백 데이터 세트는 XDM 경험 이벤트 기본 스키마를 [대화 이벤트 필드 그룹](#conversation-event-field-group)과(와) 함께 확장해야 하며 선택적으로 [에이전트 정보 필드 그룹](#agentic-information-field-group) 및 기타 [추가 필드 그룹](#additional-field-groups)을 포함할 수 있습니다.
 
-프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 [작동 방법](/help/conversation-insights/conversation-insights-overview.md#how-it-works)에 나와 있는 대로 각 유형의 대화 이벤트에 대해 별도의 데이터 세트를 사용합니다.
+프롬프트, 응답 및 피드백에 대해 별도의 데이터 세트를 정의하거나 데이터를 데이터 세트로 결합할 수 있습니다. 예를 들어, 프롬프트 및 응답에는 한 데이터 세트를 사용하고 피드백에는 다른 데이터 세트를 사용합니다. 또는 [작동 방법](/help/conversation-insights/overview.md#how-it-works)에 나와 있는 대로 각 유형의 대화 이벤트에 대해 별도의 데이터 세트를 사용합니다.
 
 예제를 보려면 다음을 사용하십시오.
 

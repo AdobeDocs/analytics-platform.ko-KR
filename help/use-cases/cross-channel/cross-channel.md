@@ -9,26 +9,34 @@ autotag-review: '2026-05-19T09:37:23.903Z'
 TQID: 'https://experienceleague.adobe.com/zguhaVwn2XtF0vSGqYAgjiL2IwUq-DMH-WUd0uQRnPc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases, Use cases (CJA)
   - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '614'
 ht-degree: 100%
-
 ---
-
 # 크로스 채널 분석 {#cross-channel}
 
 <!-- markdownlint-disable MD034 -->
@@ -40,7 +48,7 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-크로스 채널 분석은 여러 웹, 모바일 및 오프라인 속성에서 데이터를 통합하여 다양한 채널에 고객 행동에 대한 통합된 단일 보기를 제공합니다. 예를 들어 이 통합된 뷰를 사용하여 데스크탑 및 모바일에서 고객 상호 작용을 분석하고, 고객 행동을 이해하고 인사이트를 추출하여 디지털 고객 경험을 최적화할 수 있습니다. 또한 지원 상호 작용 및 매장 구매 등 디지털 및 오프라인 채널을 포함하여 다양한 채널에서 고객 상호 작용을 분석하여 고객 여정을 효율적으로 이해하고 최적화할 수 있습니다.
+크로스 채널 분석은 여러 웹, 모바일 및 오프라인 속성의 데이터를 통합하여 다양한 채널 전반의 고객 행동에 대한 통합된 단일 보기를 제공합니다. 예를 들어 이 통합된 뷰를 사용하여 데스크탑 및 모바일에서 고객 상호 작용을 분석하고, 고객 행동을 이해하고 인사이트를 추출하여 디지털 고객 경험을 최적화할 수 있습니다. 또한 지원 상호 작용 및 매장 구매 등 디지털 및 오프라인 채널을 포함하여 다양한 채널에서 고객 상호 작용을 분석하여 고객 여정을 효율적으로 이해하고 최적화할 수 있습니다.
 
 ## 구현 절차
 
@@ -49,14 +57,14 @@ ht-degree: 100%
 1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko).
 1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko).
 1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=ko):
-   1. Edge Network 또는 Analytics 소스 커넥터를 통한 웹 사이트나 모바일 앱의 이벤트 기반 데이터 ![이벤트](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg).
-   2. 프로필 데이터 ![프로필](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg)&#x200B;(예: CRM 시스템, 콜센터 애플리케이션, 로열티 애플리케이션).
-   3. 조회 데이터 ![조회](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)&#x200B;(예: 제품 정보 시스템에서 제품 이름, 카테고리)
+   1. Edge Network 또는 Analytics 소스 커넥터를 통한 웹 사이트나 모바일 앱의 이벤트 기반 데이터 ![이벤트](/help/assets/icons/Events.svg).
+   2. 프로필 데이터 ![프로필](/help/assets/icons/User.svg)(예: CRM 시스템, 콜센터 애플리케이션, 로열티 애플리케이션).
+   3. 조회 데이터 ![조회](/help/assets/icons/Search.svg)(예: 제품 정보 시스템에서 제품 이름, 카테고리)
 
-1. 여러 데이터 세트에서 공통 네임스페이스 ID를 사용합니다. 각 행에 공통 ID를 제공하는 것과 관련하여 이벤트 기반 데이터 세트의 ![데이터 새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)을 향상시키는 데 [결합](../../stitching/overview.md)을 사용합니다. Customer Journey Analytics에서 현재 Experience Platform Profile 또는 결합용 ID 서비스를 사용하지 않습니다.
+1. 여러 데이터 세트에서 공통 네임스페이스 ID를 사용합니다. 각 행에 공통 ID를 제공하는 것과 관련하여 이벤트 기반 데이터 세트의 ![데이터 새로 고침](/help/assets/icons/DataRefresh.svg)을 향상시키는 데 [결합](../../stitching/overview.md)을 사용합니다. Customer Journey Analytics에서 현재 Experience Platform Profile 또는 결합용 ID 서비스를 사용하지 않습니다.
 1. 사용자 정의 데이터 준비를 수행하여 시계열 데이터 세트에서 Customer Journey Analytics에 수집할 공통 키를 확보할 수 있습니다.
 1. 조회 데이터에는 이벤트 데이트의 필드에 연결할 수 있는 기본 ID를 제공합니다. 라이선스 할당 시 행으로 간주됩니다.
-1. 프로필 데이터에 대한 동일한 기본 ID를 이벤트 데이터의 기본 ID로 설정합니다.
+1. 프로필 데이터의 기본 ID를 이벤트 데이터의 기본 ID와 동일하게 설정합니다.
 1. [연결을 만들어](../../connections/overview.md) Experience Platform의 관련 데이터 세트를 Customer Journey Analytics로 수집할 수 있습니다.
 1. 연결을 기반으로 [데이터 보기를 만들어](/help/data-views/create-dataview.md) 보기에 포함되는 특정 차원 및 지표를 선택할 수 있습니다. 데이터 보기에 속성 및 할당 설정을 구성하기도 합니다. 보고서 시간에 이러한 설정을 계산합니다.
 1. [프로젝트를 만들어](/help/analysis-workspace/home.md) Analysis Workspace 내에 대시보드 및 보고서를 구성합니다.

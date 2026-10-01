@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '10602'
+source-wordcount: '10578'
 ht-degree: 98%
 ---
 # 파생 필드 {#derived-fields}
@@ -877,10 +877,10 @@ Customer Journey Analytics는 다음과 같은 기본 컨테이너 모델을 사
 
 분류 규칙 인터페이스에서는 다음과 같은 추가 기능을 사용할 수 있습니다.
 
-- 모든 테이블 값을 빠르게 지우려면 ![지우기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 모든 테이블 값 지우기]**&#x200B;를 선택합니다.
-- 값이 같을 때의 원래 값과 다음 항목으로 값 바꾸기의 새 값이 포함된 CSV 파일을 업로드하려면 ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV 업로드]**&#x200B;를 선택합니다.
-- 원래 값과 새 값을 업로드하여 CSV 파일을 만드는 템플릿을 다운로드하려면 ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 선택합니다.
-- 규칙 인터페이스에 입력된 모든 원래 값과 새 값이 포함된 CSV 파일을 다운로드하려면 ![다운로드](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL CSV 값 다운로드]**&#x200B;를 선택합니다.
+- 모든 테이블 값을 빠르게 지우려면 ![지우기](/help/assets/icons/Erase.svg) **[!UICONTROL 모든 테이블 값 지우기]**&#x200B;를 선택합니다.
+- 값이 같을 때의 원래 값과 다음 항목으로 값 바꾸기의 새 값이 포함된 CSV 파일을 업로드하려면 ![CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV 업로드]**&#x200B;를 선택합니다.
+- 원래 값과 새 값을 업로드하여 CSV 파일을 만드는 템플릿을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 선택합니다.
+- 규칙 인터페이스에 입력된 모든 원래 값과 새 값이 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL CSV 값 다운로드]**&#x200B;를 선택합니다.
 
 
 +++

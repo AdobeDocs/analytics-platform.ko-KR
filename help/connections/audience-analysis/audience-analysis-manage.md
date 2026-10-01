@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '296'
+ht-degree: 2%
 ---
 # 대상 분석 구성 관리{#manage-audience-analysis}
 
@@ -65,9 +65,9 @@ ht-degree: 5%
 
    * **[!UICONTROL 상태]**: 구성의 상태입니다. 가능한 상태는 완료, 진행 중 또는 실패입니다. <!--true?-->
 
-   열 아이콘 ![열 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택하고 숨길 열을 선택 취소한 다음 **[!UICONTROL 적용]**&#x200B;을 선택하여 열을 숨길 수 있습니다.
+   열 아이콘 ![열 아이콘](/help/assets/icons2/ColumnSettings.svg)을 선택하고 숨길 열을 선택 취소한 다음 **[!UICONTROL 적용]**&#x200B;을 선택하여 열을 숨길 수 있습니다.
 
-1. (선택 사항) 구성 목록을 필터링하려면 **필터** ![대상 분석 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 조건 중 하나를 기준으로 필터링합니다.
+1. (선택 사항) 구성 목록을 필터링하려면 **필터** ![대상 분석 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 조건 중 하나를 기준으로 필터링합니다.
 
    * **[!UICONTROL 연결]**
 

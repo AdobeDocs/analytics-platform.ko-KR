@@ -4,7 +4,6 @@ description: 대화 통찰력을 분석하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -41,7 +40,7 @@ ht-degree: 0%
 
 * 대화 통찰력 이벤트를 다른 이벤트 데이터 세트, 추가 프로필 및 조회 데이터 세트와 결합합니다. 대화 통찰력 구성에 대해 선택한 연결에 이러한 데이터 세트를 추가합니다.
 * 대화 통찰력 구성에 대해 선택한 데이터 보기에 추가 구성 요소(지표 및 차원)를 추가합니다.
-* ...
+
 
 +++ 예제 프로젝트
 

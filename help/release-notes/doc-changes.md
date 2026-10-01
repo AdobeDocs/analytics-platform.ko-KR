@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
+source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
 workflow-type: tm+mt
-source-wordcount: '7162'
+source-wordcount: '7170'
 ht-degree: 96%
 ---
 
@@ -69,6 +69,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 
 | 기능 | 설명 |
 |---|---|
+| **2026년 10월** | |
+| 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
 | 블로그 게시물 통합 | 다음과 같은 블로그 게시물을 통합했습니다.<ul><li>[Adobe CJA에서 &#39;값 없음&#39;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=ko#M598)</li><li>[Adobe Experience Platform 및 Customer Journey Analytics 데이터 이그레스 사용 사례 심층 분석](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=ko)</li></ul>[데이터 내보내기](/help/use-cases/data-export/overview.md) 사용 사례와 새로운 [값 없음](/help/use-cases/data-views/no-value.md) 사용 사례 문서에서. |
@@ -81,7 +83,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 하위 이벤트 분석 | [하위 이벤트 분석](/help/components/segments/sub-event.md) 및 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)에 대한 설명서입니다. |
 | 인라인 분류 | [인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)에 대한 설명서입니다. |
 | **2026년 6월** | |
-| 새로운 GA4 안내서 | [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)이 추가되었습니다. |
+| 새로운 GA4 안내서 | [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)이 추가되었습니다. |
 | **2026년 5월** | |
 | Content Analytics용 JavaScript 라이브러리 | Experience Platform 데이터 수집 태그 없이 [Content Analytics Javascript 라이브러리](/help/content-analytics/config/tags-agnostic.md)를 사용하여 웹 채널용 Content Analytics을 구현하는 방법에 대한 설명서입니다. |
 | Data Mirror 고려 사항 | [Data Mirror 데이터 세트](/help/data-mirror/data-mirror.md)를 설정할 때 고려해야 하는 요소를 설명하는 [설명서](/help/data-mirror/considerations.md)입니다. |

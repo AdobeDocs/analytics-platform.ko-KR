@@ -9,18 +9,20 @@ exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
 TQID: https://experienceleague.adobe.com/HcKyD-v3I1hsxWwiDZJwgvO9pH9ifBVOjBapARdYQVQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # 예약된 통합 문서 관리
 
 다음 문서에 설명된 대로 이메일을 통해 공유하거나 클라우드 대상으로 내보내는 방식으로 통합 문서를 예약할 수 있습니다.
@@ -49,7 +51,7 @@ ht-degree: 6%
 
    * 표시할 열을 정의하려면 열 아이콘 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 선택하십시오.
 
-   * 필터 아이콘 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 다음 [!UICONTROL **모두 표시**]&#x200B;를 선택하여 지정된 조직에 대해 예약된 통합 문서를 모두 표시합니다.
+   * 필터 아이콘 ![필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 다음 [!UICONTROL **모두 표시**]&#x200B;를 선택하여 지정된 조직에 대해 예약된 통합 문서를 모두 표시합니다.
 
 1. 통합 문서를 하나 이상 선택합니다.
 

@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 2%
 ---
 # 동의 보고 및 필터링 구성 관리
 
@@ -56,9 +56,9 @@ ht-degree: 5%
 
    * **[!UICONTROL 상태]**: 구성의 상태입니다.
 
-   열 아이콘 ![열 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택하고 숨길 열을 선택 취소한 다음 **[!UICONTROL 적용]**&#x200B;을 선택하여 열을 숨길 수 있습니다.
+   열 아이콘 ![열 아이콘](/help/assets/icons2/ColumnSettings.svg)을 선택하고 숨길 열을 선택 취소한 다음 **[!UICONTROL 적용]**&#x200B;을 선택하여 열을 숨길 수 있습니다.
 
-1. (선택 사항) 구성 목록을 필터링하려면 **필터** ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 조건 중 하나를 기준으로 필터링합니다.
+1. (선택 사항) 구성 목록을 필터링하려면 **필터** ![필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 조건 중 하나를 기준으로 필터링합니다.
 
    * **[!UICONTROL 연결]**
 

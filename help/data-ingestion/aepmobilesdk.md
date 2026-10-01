@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3512'
 ht-degree: 63%
 ---
 # 모바일 SDK을 통해 데이터 수집
@@ -380,7 +380,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
-   - [!UICONTROL 모바일 코어 - 전경] 옆에 있는 ![플러스](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)를 클릭합니다.
+   - [!UICONTROL 모바일 코어 - 전경] 옆에 있는 ![플러스](/help/assets/icons/AddCircle.svg)를 클릭합니다.
 
      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다.
 
@@ -388,7 +388,7 @@ Adobe Experience Platform의 태그는 규칙 기반 시스템을 따릅니다. 
 
      - **[!UICONTROL 변경사항 유지]**&#x200B;를 선택합니다.
 
-   - [!UICONTROL 작업] 아래에 ![더하기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
+   - [!UICONTROL 작업] 아래에 ![더하기](/help/assets/icons/AddCircle.svg) 추가를 클릭합니다. [!UICONTROL 액션 구성] 대화 상자에서:
 
      - [!UICONTROL 확장] 목록에서 **[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;을(를) 선택합니다.
 
@@ -447,9 +447,9 @@ Adobe Experience Platform 태그는 Adobe Experience Platform Edge Network 배�
 
 1. 왼쪽 레일에서 **[!UICONTROL 환경]**&#x200B;을 선택합니다.
 
-2. 환경 목록에서 올바른 설치 ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) 단추를 선택합니다.
+2. 환경 목록에서 올바른 설치 ![Box](/help/assets/icons/Box.svg) 단추를 선택합니다.
 
-   [!UICONTROL 모바일 설치 지침] 대화 상자에서 적절한 플랫폼([!UICONTROL iOS], [!UICONTROL Android])을 선택합니다. 그런 다음 모바일 앱을 설정하고 초기화하는 데 사용할 각 관련 코드 조각 옆에 있는 복사 ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 단추를 사용합니다.
+   [!UICONTROL 모바일 설치 지침] 대화 상자에서 적절한 플랫폼([!UICONTROL iOS], [!UICONTROL Android])을 선택합니다. 그런 다음 모바일 앱을 설정하고 초기화하는 데 사용할 각 관련 코드 조각 옆에 있는 복사 ![복사](/help/assets/icons/Copy.svg) 단추를 사용합니다.
 
    ![환경](./assets/environment-mobile.png)
 

@@ -9,24 +9,30 @@ autotag-review: '2026-05-19T10:45:24.919Z'
 TQID: 'https://experienceleague.adobe.com/fPYOLKGTjiZDeSWLRhvkywKht8Yoq4k54EOcazJw74M'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data management
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 933
-ht-degree: 12%
-
+source-wordcount: '915'
+ht-degree: 10%
 ---
-
 # 데이터 보기 관리
 
 
@@ -43,8 +49,8 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 | 열 또는 아이콘 | 설명 |
 | --- | --- |
 | **[!UICONTROL 이름]** | 데이터 이름 보기. |
-| ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 데이터 보기에 대한 정보를 보려면 데이터 보기 이름 옆에 있는 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오.<br/>데이터 보기에 대한 세부 정보가 팝업 창에 표시됩니다. |
-| ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | ![자세히](/help/assets/icons/More.svg)를 선택하여 컨텍스트 메뉴를 엽니다. 데이터 보기에서 <br/>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]** - [편집](#edit-data-views)을(를) 선택할 수 있습니다.<br/>![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]**&#x200B;를 [데이터 보기를 복사](#copy-data-views)합니다.<br/>![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** - [삭제](#delete-data-views) 데이터 보기.<br/>![파일CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** - [데이터 보기의 세부 사항을 CSV 파일로 내보내기](#export-data-views-to-csv).<br/>![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 프로젝트 만들기]** - [데이터 보기에 대한 새 Workspace 프로젝트 만들기](#create-project-from-data-views).<br/>![추가Circle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Data Insights Agent에 대해 활성화]**&#x200B;하여 Data Insights Agent에 대한 데이터 보기를 활성화합니다.<br/>![제거Circle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Data Insights Agent에 대해 비활성화]** 데이터 보기를 비활성화합니다 Data Insights Agent. |
+| ![정보](/help/assets/icons/InfoOutline.svg) | 데이터 보기에 대한 정보를 보려면 데이터 보기 이름 옆에 있는 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오.<br/>데이터 보기에 대한 세부 정보가 팝업 창에 표시됩니다. |
+| ![자세히](/help/assets/icons/More.svg) | ![자세히](/help/assets/icons/More.svg)를 선택하여 컨텍스트 메뉴를 엽니다. 데이터 보기에서 <br/>![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]** - [편집](#edit-data-views)을(를) 선택할 수 있습니다.<br/>![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]**&#x200B;를 [데이터 보기를 복사](#copy-data-views)합니다.<br/>![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 삭제]** - [삭제](#delete-data-views) 데이터 보기.<br/>![파일CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** - [데이터 보기의 세부 사항을 CSV 파일로 내보내기](#export-data-views-to-csv).<br/>![프로젝트 추가](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 프로젝트 만들기]** - [데이터 보기에 대한 새 Workspace 프로젝트 만들기](#create-project-from-data-views).<br/>![추가Circle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Data Insights Agent에 대해 활성화]**&#x200B;하여 Data Insights Agent에 대한 데이터 보기를 활성화합니다.<br/>![제거Circle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Data Insights Agent에 대해 비활성화]** 데이터 보기를 비활성화합니다 Data Insights Agent. |
 | **[!UICONTROL 연결]** | 데이터 보기와 연결된 연결의 이름입니다. |
 | **[!UICONTROL 샌드박스]** | 데이터 보기와 연결된 샌드박스의 이름입니다. |
 | **[!UICONTROL 소유자]** | 데이터 보기의 소유자입니다. |
@@ -59,7 +65,7 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 
 ## 데이터 보기 검색
 
-![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 상자를 사용하여 데이터 보기를 빠르게 검색할 수 있습니다.
+![검색](/help/assets/icons/Search.svg) 상자를 사용하여 데이터 보기를 빠르게 검색할 수 있습니다.
 
 ## 데이터 보기 필터링
 

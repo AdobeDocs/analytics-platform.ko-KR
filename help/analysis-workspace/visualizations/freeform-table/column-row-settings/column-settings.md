@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 76%
 ---
 # 열 설정
@@ -46,7 +46,7 @@ ht-degree: 76%
 >[!ENDSHADEBOX]
 
 
-[!UICONTROL 열 설정]에 액세스하려면 열 머리글에서 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택합니다.
+[!UICONTROL 열 설정]에 액세스하려면 열 머리글에서 ![열 설정](/help/assets/icons2/Settings.svg)을 선택합니다.
 
 ![열 설정](assets/column-settings.png)
 
