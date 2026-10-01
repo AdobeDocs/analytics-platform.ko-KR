@@ -6,22 +6,27 @@ exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
 TQID: https://experienceleague.adobe.com/no7rAZUl25LTEPqwRyC7vY4XcottzPGRq-DCAR5ez54
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 9%
-
+source-wordcount: '226'
+ht-degree: 6%
 ---
-
 # 참여도 지표
 
 기여도 지표는 차원(예: 페이지 보기 수)에 대한 개별 값이 기여하는 정도를 수량화하거나 특정 지표(예: 주문)가 포함된 세션에 참여하는 데 사용됩니다.
@@ -34,7 +39,7 @@ ht-degree: 9%
 
 1. [계산된 지표를 만듭니다](cm-workflow.md). [계산된 지표 빌더](cm-build-metrics.md)에서 지표 이름을 `Participation` 또는 이와 유사하게 지정합니다.
 1. 성공 이벤트(예: [!DNL Orders])가 포함된 지표를 [!UICONTROL **[!UICONTROL 정의]**] 영역으로 끌어서 놓습니다.
-1. 지표에 대해 ![톱니바퀴](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)를 선택합니다.
+1. 지표에 대해 ![톱니바퀴](/help/assets/icons2/Settings.svg)를 선택합니다.
 1. 표시되는 팝업에서 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하여 해당 이벤트의 [속성 모델](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)을(를) **[!UICONTROL 참여]**&#x200B;에 정의하고 [!UICONTROL 컨테이너]에 대해 **[!UICONTROL 세션]**&#x200B;을(를) 선택합니다. **[!UICONTROL 적용]**&#x200B;을 선택하여 확인하십시오.
 
 

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '4806'
+source-wordcount: '4800'
 ht-degree: 56%
 ---
 
@@ -332,7 +332,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ### 헤더 재정의 {#mobile-header-overrides}
@@ -382,7 +382,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
 >title="경험 캡처 및 정의"
->abstract="이 기능을 활성화하면 경험 데이터가 수집되고, 경험 속성이 생성되며, 경험 보고가 가능합니다. <br><br/>편집 ![사용](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 편집]**&#x200B;을 사용하여 태그 속성에서 현재 구성과 관련 있는 경험에 대한 수집 구성을 수정합니다."
+>abstract="이 기능을 활성화하면 경험 데이터가 수집되고, 경험 속성이 생성되며, 경험 보고가 가능합니다. <br><br/>편집 ![사용](/help/assets/icons/Edit.svg) **[!UICONTROL 편집]**&#x200B;을 사용하여 태그 속성에서 현재 구성과 관련 있는 경험에 대한 수집 구성을 수정합니다."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"

@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3122'
 ht-degree: 77%
 ---
 # 데이터 보기 만들기 또는 편집
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 | 설정 | 설명 |
 | --- | --- |
-| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer에서 사용할 수 있도록 Customer Journey Analytics의 관련 연결에서 필요한 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li><li>이 데이터 보기와 연결된 연결에서 **[!UICONTROL CJA에서 사용]** 옵션을 자동 사용하도록 설정합니다. (이 옵션에 대한 자세한 내용은 [Customer Journey Analytics에서 Journey Optimizer 연결 사용](/help/connections/manage-connections.md)을 참조하십시오.)<p>이 설정을 활성화한 후 수동으로 비활성화하면 연결 및 연결된 데이터 보기가 기본 상태로 다시 설정됩니다. 이로 인해 보고서의 데이터가 변경될 수 있습니다.</p></li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하는 추가 사용자 정의를 수행합니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li><li>이 옵션을 선택하면 데이터 보기와 관련된 연결을 삭제할 수 없습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
+| [!UICONTROL **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**] | 이 구성 옵션을 사용하면 Journey Optimizer 및 Customer Journey Analytics 전반에 걸쳐 보고를 표준화할 수 있습니다. 또한 Journey Optimizer에서 ![열기](/help/assets/icons/OpenInLight.svg) [!UICONTROL **CJA에서 분석**]&#x200B;을 선택하여 Customer Journey Analytics에서 Adobe Journey Optimizer 데이터에 대한 고급 분석을 수행할 수 있습니다.<p>이러한 유형의 분석을 수행하려면 Journey Optimizer에서 Customer Journey Analytics 데이터 보기에 액세스해야 합니다.<p>사용자의 샌드박스를 위한 Journey Optimizer 보고에 사용되는 기본 데이터 보기로 설정하려면 이 옵션을 활성화하십시오.</p><p>이 구성 옵션은 자동으로 다음 작업을 수행합니다.</p><ul><li>Journey Optimizer에서 사용할 수 있도록 Customer Journey Analytics의 관련 연결에서 필요한 모든 Journey Optimizer 데이터 세트를 구성합니다.</li><li>데이터 보기에서 Journey Optimizer 지표 및 차원 세트를 생성합니다(파생 필드 및 계산된 지표 포함). 컨텍스트 레이블은 이러한 모든 지표와 차원에 자동으로 설정됩니다.</li><li>이 데이터 보기와 연결된 연결에서 **[!UICONTROL CJA에서 사용]** 옵션을 자동 사용하도록 설정합니다. (이 옵션에 대한 자세한 내용은 [Customer Journey Analytics에서 Journey Optimizer 연결 사용](/help/connections/manage-connections.md)을 참조하십시오.)<p>이 설정을 활성화한 후 수동으로 비활성화하면 연결 및 연결된 데이터 보기가 기본 상태로 다시 설정됩니다. 이로 인해 보고서의 데이터가 변경될 수 있습니다.</p></li></ul><p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오. <ul><li>나중에 기본 데이터 보기를 변경할 수 있지만 그렇게 하면 Journey Optimizer 보고 데이터가 변경될 수 있습니다. 이 옵션을 활성화한 후 비활성화하면 새 기본 데이터 보기를 선택하라는 메시지가 표시됩니다.</li><li>Customer Journey Analytics 데이터 보기에서 데이터 세트, 차원 또는 지표를 이미 수동 사용자 정의한 경우 이 구성 옵션을 활성화해도 수동 사용자 정의는 그대로 유지됩니다. 이 옵션은 Journey Optimizer 및 Customer Journey Analytics 전반에서 보고를 더욱 표준화하는 추가 사용자 정의를 수행합니다. 이 옵션을 활성화한 후 수동 사용자 정의할 수도 있습니다.</li><li>이 옵션을 선택하면 데이터 보기와 관련된 연결을 삭제할 수 없습니다.</li></ul>자세한 정보는 [Adobe Customer Journey Analytics와 Adobe Journey Optimizer 통합](/help/integrations/ajo.md)을 참조하시기 바랍니다. |
 
 {style="table-layout:auto"}
 
@@ -233,9 +233,9 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
    데이터 세트를 포함하는 왼쪽 상단의 [!UICONTROL 연결]과 아래의 [!UICONTROL 스키마 필드]를 볼 수 있습니다.  모든 데이터 보기에는 이벤트, 사람, 세션 지표 및 시간 차원과 같은 표준 구성 요소가 포함됩니다.<ul><li>[사용자 지정 컨테이너](#containers-1)를 정의하면 지표가 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _사용자 지정 컨테이너 이름&#x200B;_회 발생]**(으)로 자동으로 추가됩니다.</li><li>시스템에서 기본적으로 **[!UICONTROL 은(는) 더 이상 사용되지 않습니다]** 필터를 적용하여 더 이상 사용되지 않는 스키마 필드만 나타납니다.</li></ul>
 
-1. ![검색 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL 이벤트 데이트 세트]** 또는 ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL 조회 데이터 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다. 이벤트 데이터 세트의 경우 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL XDM 필드]** 및 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 임시 및 관계 필드]**&#x200B;에 대한 개별 컬렉션을 사용할 수 있습니다.<br/>또는 ![데이터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **파생 필드 만들기**&#x200B;를 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
+1. ![검색 아이콘](/help/assets/icons/Search.svg) **[!UICONTROL 스키마 필드 검색]**&#x200B;을 사용하여 스키마 필드를 검색하거나 ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL 이벤트 데이트 세트]** 또는 ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL 조회 데이터 세트]** 등 데이터 세트 컬렉션으로 이동하여 필드를 찾습니다. 이벤트 데이터 세트의 경우 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL XDM 필드]** 및 ![폴더](/help/assets/icons/Folder.svg) **[!UICONTROL 임시 및 관계 필드]**&#x200B;에 대한 개별 컬렉션을 사용할 수 있습니다.<br/>또는 ![데이터 아이콘](/help/assets/icons/Data.svg) **파생 필드 만들기**&#x200B;를 사용하여 파생 필드를 만들 수 있습니다. 자세한 내용은 [파생 필드](./derived-fields/derived-fields.md)를 참조하십시오.
 
-1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 ![Handle icon](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
+1. 특정 스키마 필드를 찾거나 파생 필드를 정의한 경우 ![Handle icon](/help/assets/icons/DragHandle.svg) **[!UICONTROL Page Name]**&#x200B;과 같은 필드를 왼쪽 레일에서 **[!UICONTROL 포함된 구성 요소]** 아래의 **[!UICONTROL 지표]** 또는 **[!UICONTROL 차원]** 섹션으로 끌어옵니다.
 동일한 스키마 필드를 차원 또는 지표 섹션으로 여러 번 드래그하고 동일한 차원 또는 지표를 여러 가지 방법으로 구성할 수 있습니다. 예를 들어 pageName 필드에서 오른쪽의 다른 [구성 요소 설정](component-settings/overview.md)을 사용하여 `Product Pages` 및 `Error pages` 차원을 만듭니다.
 왼쪽 레일에서 스키마 필드 폴더를 드래그하면 폴더 내 필드들이 적절한 섹션으로 자동 정렬됩니다. 문자열 필드는 [!UICONTROL 차원] 섹션에 표시되고 숫자 스키마 유형은 [!UICONTROL 지표] 섹션에 표시됩니다. **[!UICONTROL 모두 추가]**&#x200B;를 클릭하면 각 섹션에 모든 스키마 필드가 추가됩니다.
 
@@ -262,7 +262,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 
 ### 필터, 스키마 필드 또는 데이터 세트
 
-[!UICONTROL 데이터 유형], [!UICONTROL 데이터 세트], [!UICONTROL 데이터 거버넌스]와 [!UICONTROL 기타] 기준([!UICONTROL 데이터 포함 여부], [!UICONTROL ID 여부] 및 [!UICONTROL 미사용 여부] 기준)을 사용하여 왼쪽 레일의 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 스키마 필드를 필터링할 수 있습니다.
+[!UICONTROL 데이터 유형], [!UICONTROL 데이터 세트], [!UICONTROL 데이터 거버넌스]와 [!UICONTROL 기타] 기준([!UICONTROL 데이터 포함 여부], [!UICONTROL ID 여부] 및 [!UICONTROL 미사용 여부] 기준)을 사용하여 왼쪽 레일의 ![필터 아이콘](/help/assets/icons/Filter.svg) 스키마 필드를 필터링할 수 있습니다.
 
 ![필터 필드](assets/dataview-components-filter.png)
 

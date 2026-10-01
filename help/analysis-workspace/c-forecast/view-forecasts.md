@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 2%
 ---
 # 예측 보기
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 시계열 자유 형식 테이블에서 예측을 볼 수 있습니다. [사용자 환경 설정](../user-preferences.md)에서 자유 형식 테이블에 대해 [!UICONTROL 예측 표시]를 사용하면 테이블에 추가된 첫 번째 지표 열에 대한 예측이 자동으로 표시됩니다. 추가 열의 경우:
 
-1. 열 헤더에서 열 설정 아이콘 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;를 선택했는지 확인하십시오. 자세한 내용은 [열 설정](../visualizations/freeform-table/column-row-settings/column-settings.md)을 참조하십시오.
+1. 열 헤더에서 열 설정 아이콘 ![열 설정](/help/assets/icons2/Settings.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;를 선택했는지 확인하십시오. 자세한 내용은 [열 설정](../visualizations/freeform-table/column-row-settings/column-settings.md)을 참조하십시오.
 
 1. 설정을 저장하고 업데이트된 테이블을 보려면 **[!UICONTROL 열 설정]** 메뉴 바깥쪽을 클릭하십시오.
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
 라인 차트는 예측을 볼 수 있는 유일한 시각화입니다.
 
-1. 시각화 헤더에서 설정 아이콘 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;가 선택되어 있는지 확인하십시오.
+1. 시각화 헤더에서 설정 아이콘 ![열 설정](/help/assets/icons2/Settings.svg)을 선택한 다음 옵션 목록에서 **[!UICONTROL 예측 표시]**&#x200B;가 선택되어 있는지 확인하십시오.
 
 1. (선택 사항) 예측이 차트의 크기를 적절히 조절하도록 하려면 **[!UICONTROL Y축 크기 조절 허용]**&#x200B;을 선택하십시오. 이 옵션은 간혹 읽기 쉬운 차트를 렌더링할 수 있으므로 기본적으로 선택되지 않습니다.
 

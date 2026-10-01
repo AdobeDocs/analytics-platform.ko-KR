@@ -7,27 +7,36 @@ exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
 TQID: https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 67%
-
+source-wordcount: '1247'
+ht-degree: 65%
 ---
-
 # 구성 요소 항목 편집
 
 Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데이터 사전의 구성 요소 항목을 편집할 수 있습니다. 모든 변경 사항은 데이터 보기의 모든 사용자에게 표시됩니다.
@@ -48,19 +57,19 @@ Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데
 
    구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다.
 
-   * **차원** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)이 주황색입니다.
+   * **차원** ![Dimension 아이콘](/help/assets/icons/Data.svg)이 주황색입니다.
 
-   * **세그먼트** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)이 파란색입니다.
+   * **세그먼트** ![세그먼트 아이콘](/help/assets/icons/Segmentation.svg)이 파란색입니다.
 
-   * **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)이 보라색입니다.
+   * **날짜 범위** ![날짜 범위 아이콘](/help/assets/icons/Calendar.svg)이 보라색입니다.
 
-   * **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)이 녹색입니다.
+   * **지표** ![지표 아이콘](/help/assets/icons/Event.svg)이 녹색입니다.
 
    * **Adobe 아이콘** ![Adobe 아이콘](assets/default-calc-metric-icon.png)은(는) 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타냅니다
 
-   * **계산기 아이콘** ![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)은(는) 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다
+   * **계산기 아이콘** ![계산기 아이콘](/help/assets/icons/Calculator.svg)은(는) 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다
 
-1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -79,7 +88,7 @@ Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데
 
    {style="table-layout:auto"}
 
-1. (선택 사항) **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택한 후 다음 세그먼트 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+1. (선택 사항) **정렬** 아이콘 ![구성 요소 정렬 아이콘](/help/assets/icons/SortOrderDown.svg)을 선택한 후 다음 세그먼트 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -91,7 +100,7 @@ Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데
 
 1. 구성 요소 목록에서 편집할 구성 요소를 선택합니다.
 
-1. 구성 요소 이름 옆에 있는 **편집** 아이콘 ![데이터 사전 편집 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택합니다.
+1. 구성 요소 이름 옆에 있는 **편집** 아이콘 ![데이터 사전 편집 아이콘](/help/assets/icons/Edit.svg)을 선택합니다.
 
 1. 구성 요소에 대한 다음 정보를 편집합니다.
 
@@ -111,4 +120,4 @@ Customer Journey Analytics 관리자는 지정된 데이터 보기에 대한 데
 
    {style="table-layout:auto"}
 
-1. **저장** 아이콘 ![데이터 사전 저장 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg)을 클릭하여 변경 사항을 저장합니다.
+1. **저장** 아이콘 ![데이터 사전 저장 아이콘](/help/assets/icons/SaveFloppy.svg)을 클릭하여 변경 사항을 저장합니다.
