@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -38,7 +38,8 @@ ht-degree: 2%
 공유 차원 및 지표를 통해 여러 데이터 보기에서 공통 구성 요소를 사용할 수 있지만 연결 간에 공유할 수는 없습니다.
 
 ## 권한
-* [제품 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
+
+* [제품 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
 
 ## 워크플로
 
