@@ -38,7 +38,7 @@ ht-degree: 2%
 공유 차원 및 지표를 통해 여러 데이터 보기에서 공통 구성 요소를 사용할 수 있지만 연결 간에 공유할 수는 없습니다.
 
 ## 권한
-* [제품 관리자](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
+* [제품 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
 
 ## 워크플로
 
