@@ -110,7 +110,7 @@ Experience Platform에서 다음 액세스 권한이 있는지 확인하십시�
 
 1. 필요한 Experience Platform 소스 권한 및 광고 플랫폼 액세스 권한이 있는지 확인합니다.
 1. Experience Platform에서 **[!UICONTROL 소스]** > **[!UICONTROL 카탈로그]** > **[!UICONTROL Advertising]**(으)로 이동합니다.
-1. 
+1. &#x200B;
    1. 유료 미디어 데이터 세트를 포함하는 샌드박스에 있는지 확인합니다.
 1. 사용할 커넥터(예: **[!DNL Meta Ads]**)를 선택하십시오. **[!UICONTROL 설정]**&#x200B;을 선택하여 새 연결을 만들거나 **[!UICONTROL 데이터 추가]**&#x200B;를 선택하여 기존 연결에 데이터를 더 추가합니다.
 1. 필요한 광고주 수준 액세스 권한이 있는 사용자로 로그인하여 [!DNL OAuth 2.0]을(를) 인증합니다.
