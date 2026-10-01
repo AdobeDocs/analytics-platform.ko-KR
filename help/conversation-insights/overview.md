@@ -17,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -151,6 +151,7 @@ Conversation Insights 를 통해 다음을 이해할 수 있습니다.
 에이전트 경험 애플리케이션이 처리 중에 호출된 기능을 나타내는 기술 호출을 지원하는 경우 이러한 기술 호출을 에이전트 정보 필드 그룹의 일부로 추가할 수 있습니다.
 
 구현 세부 정보는 [대화 인사이트 구현](./implement.md) 설명서의 [에이전트 정보](./implement.md#agentic-information-field-group) 필드 그룹을 참조하십시오.
+
 
 ## 작동 방식
 
