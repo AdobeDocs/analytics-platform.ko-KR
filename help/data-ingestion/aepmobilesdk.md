@@ -92,7 +92,7 @@ Adobe Experience Platform으로 수집된 모든 데이터는 데이터 세트�
 
 1. 왼쪽 레일의 Adobe Experience Platform UI에서 [!UICONTROL 데이터 관리]에 있는 **[!UICONTROL 스키마]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 스키마 만들기]**를 선택합니다.
+1. **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 .
 1. 스키마 만들기 마법사의 클래스 선택 단계에서 다음을 수행합니다.
 
