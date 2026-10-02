@@ -4,6 +4,7 @@ description: Customer Journey Analytics에서 이벤트 데이터 세트에 대�
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
+hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -24,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 20%
+source-wordcount: '1929'
+ht-degree: 18%
 ---
 # 결합 활성화
 
@@ -41,16 +42,16 @@ ht-degree: 20%
 
 ## Preflight 확인
 
-사전 요구 사항을 충족하는 경우 ID 결합을 활성화하기 전에 이벤트 데이터 세트의 데이터에 대해 일부 프리플라이트 검사를 수행할 수 있습니다.
+사전 요구 사항을 충족하는 경우 ID 결합을 활성화하기 전에 이벤트 데이터 세트의 데이터에 대해 일부 프리플라이트 검사를 수행하십시오.
 
-* 영구 ID 또는 개인 ID에 대해 [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 필드를 사용하려는 경우 이벤트 데이터 세트에 대한 스키마에 ID가 올바르게 표시되었는지 확인하십시오. [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 참조하십시오.
+* 영구 ID 또는 개인 ID에 대해 [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 필드를 사용하는 경우 이벤트 데이터 세트에 대한 스키마에서 ID가 올바르게 표시되는지 확인하십시오. [ID 네임스페이스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 참조하십시오.
 * 영구 ID와 개인 ID 모두에 대한 ID 범위 확인:
 
   * **[!UICONTROL 영구 ID]**
 
     영구 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 95% 이상이어야 합니다.
 
-    확인에 사용할 수 있는 쿼리의 예:
+    확인을 위한 쿼리의 예:
 
     ```sql
     SELECT
@@ -74,10 +75,10 @@ ht-degree: 20%
 
 
   * **[!UICONTROL 개인 ID]**
-    * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 테스트를 실행하고 일부 샘플 영구 ID 값으로 그래프를 쿼리할 수 있습니다. 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
-    * 필드 기반 결합의 경우 개인 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 이상적으로 5%를 초과해야 합니다.
+    * 그래프 기반 결합의 경우, ID 그래프가 선택한 영구 ID 네임스페이스 및 개인 ID 네임스페이스의 ID 값을 연결하는 조각을 포함하는지 확인하십시오. [Experience Platform ID 그래프 뷰어](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}(으)로 이동하여 일부 샘플 영구 ID 값으로 그래프를 쿼리합니다. 확인하려면 이러한 영구 ID 값이 그래프의 개인 ID 값에 연결되어 있는지 확인합니다.
+    * 필드 기반 결합의 경우 개인 ID 필드가 null이 아닌 7일 데이터를 쿼리하고 데이터 세트의 모든 이벤트에 대한 7일 데이터 쿼리로 나눕니다. 이 비율은 이상적으로 5% 이상이어야 합니다.
 
-      확인에 사용할 수 있는 쿼리의 예:
+      확인을 위한 쿼리의 예:
 
       ```sql
       SELECT
@@ -146,7 +147,7 @@ ht-degree: 20%
 
 ### 데이터 세트 설정
 
-결합을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 **[!UICONTROL 데이터 세트 설정]** 섹션에서 확인하세요.
+연결을 활성화하려면 **[!UICONTROL 데이터 세트 추가]** 또는 **[!UICONTROL 데이터 세트 편집]** 대화 상자의 이벤트 데이터 세트 **[!UICONTROL 데이터 세트 설정]** 섹션을 사용하십시오.
 
 기능을 사용하도록 설정할 때 ![ID 결합 옵션](assets/identity-stitching-ui.png)
 
@@ -226,14 +227,14 @@ ht-degree: 20%
 Customer Journey Analytics에서 잘못된 ID는 식별자입니다.
 
 * 연결을 사용할 수 있는 데이터 세트의 영구 ID 또는 개인 ID 필드에서 비롯된 특정 ID 값으로 **과(와)**
-* 는 한 달 내에 연결 데이터의 백만 개 이상의 이벤트(100만 개)에 있습니다.
+* 매월 연결 데이터의 백만 개 이상의 이벤트에 나타납니다.
 
 ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤트는 연결 데이터에서 삭제되고 보고에 표시되지 않습니다.
 
 잘못된 ID 사용 사례의 예:
 
 * 개인 ID 필드에 사용자 지정 또는 자리 표시자 값이 있습니다(예: `undefined`). 이러한 값은 [결합 및 보고 데이터 품질](/help/stitching/faq.md#undefined-person-id-values)에도 영향을 줄 수 있습니다.
-* 필드 기반 결합 구성에서 여러 사람이 장치를 공유하고 사용자 간 총 전환 수가 50,000개를 초과하는 경우. 이 시나리오에서는 결합 프로세스가 중지되어 해당 디바이스에 대한 개인 ID 정보가 사용되고 대신 영구 ID 정보만 사용됩니다. 따라서 해당 장치의 모든 데이터 세트 이벤트가 영구 ID ID를 가진 연결 데이터로 전송되어 잘못된 ID 상황이 발생할 가능성이 높습니다.
+* 필드 기반 결합 구성에서 여러 사람이 장치를 공유하고 사용자 간 총 전환 수가 50,000개를 초과하는 경우. 이 시나리오에서는 결합 프로세스가 해당 디바이스에 대한 개인 ID 정보를 사용하는 것을 중단하고 대신 영구 ID 정보만 사용합니다. 따라서 해당 장치의 모든 데이터 세트 이벤트가 영구 ID ID를 가진 연결 데이터로 전송되어 잘못된 ID 상황이 발생할 수 있습니다.
 
 
 >[!NOTE]
@@ -243,11 +244,25 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
 ### 저장
 
-연결을 저장하면 이러한 데이터 세트에 대한 데이터 수집이 시작되는 즉시 활성화된 데이터 세트를 결합하기 위한 결합 프로세스가 시작됩니다.
+
+
+연결을 저장하면 구성된 데이터 세트에서 연결을 활성화하는 프로세스가 트리거됩니다. 결합이 설정되면 결합 서비스는 라이브로 스트리밍되는 데이터를 처리하고 Experience Platform의 이벤트 데이터 세트에서 채우기를 시작한 다음 데이터를 Customer Journey Analytics 연결에 수집합니다.
+
+프로세스의 각 부분은 특정 지연을 추가합니다. 아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다.
+
+저장되며 결합이 활성화된 데이터 세트가 포함된 유효한 초기 연결 설정의 경우:
+
+* 라이브 데이터는 처음에 몇 시간 후(17시간 미만) Customer Journey Analytics에 표시됩니다. 라이브 데이터는 스티칭 활성화가 완료된 실제 순간과 일치하는 이벤트 타임스탬프 값으로 시작됩니다.
+
+  라이브 데이터가 유입되기 시작하려면 데이터 집합에 대해 **[!UICONTROL 모든 새 데이터 가져오기]** 옵션을 활성화하십시오.
+
+  Experience Platform의 소스 이벤트 데이터 세트에 수집된 새 데이터는 4시간 이내에 Customer Journey Analytics에 표시됩니다.
+
+* 채워진 데이터(처음에 요청된 경우)는 라이브 데이터와 거의 동시에 Customer Journey Analytics에 표시되지만, 관련된 볼륨에 따라 처리하는 데 며칠 또는 몇 주(4주 미만)가 소요됩니다. 채워진 데이터는 가장 오래된 이벤트 타임스탬프 값으로 시작됩니다.
 
 >[!CAUTION]
 >
->연결 인터페이스에서 연결을 사용하도록 설정된 데이터 세트의 경우 완료된 다시 채우기 횟수에 대해 다시 채우기 상태가 즉시 ![녹색 상태](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _다시 채우기 완료됨]**(으)로 잘못 보고됩니다. 다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오.
+>연결 인터페이스에서 결합을 위해 활성화된 데이터 세트의 경우 알려진 제한 사항 때문에 현재 채우기 상태를 보고할 수 없습니다. 다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오.
 >
 
 
@@ -264,5 +279,5 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
 예를 들어 이전 또는 현재 결합 요청의 결과로 데이터 레이크에 웹 기반 결합 데이터 세트가 있는 경우. 연결 인터페이스를 사용하여 콜 센터 데이터 세트에서 결합된 데이터를 추가하여 해당 데이터를 웹 기반 데이터와 결합할 수 있습니다.
 
-결국, Adobe은 요청 기반의 결합된 데이터 세트를 연결 경험의 새로운 결합으로 마이그레이션하게 됩니다.
+결국 Adobe은 요청 기반의 결합된 데이터 세트를 연결 경험의 새로운 결합으로 마이그레이션합니다.
 
