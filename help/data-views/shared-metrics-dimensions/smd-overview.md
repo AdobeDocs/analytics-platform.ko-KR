@@ -5,36 +5,47 @@ exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
 TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Governance
+source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 3%
-
+source-wordcount: '1337'
+ht-degree: 2%
 ---
-
 # 공유 지표 및 차원 개요
 
-공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 여러 데이터 보기를 사용하는 조직에게 특히 유용하며, 이러한 데이터 보기가 공통 구성 요소 설정을 공유하는 경우 더욱 유용합니다. 공유 지표 및 차원에 대한 변경 사항은 공유되는 모든 데이터 보기에 즉시 적용됩니다. 개별 데이터 보기를 편집할 때 구성 요소 이름 옆에 있는 ![공유 구성 요소 아이콘](/help/assets/icons/CCLibrary.svg) 아이콘을 통해 공유 차원 및 지표를 식별할 수 있습니다.
+공유 지표 및 차원은 다양한 데이터 보기에서 사용할 수 있는 차원 및 지표를 관리하는 중앙 위치를 제공합니다. 이러한 구성 요소는 여러 데이터 보기를 사용하는 조직에게 특히 유용하며, 이러한 데이터 보기가 공통 구성 요소 설정을 공유하는 경우 더욱 유용합니다. 공유 지표 및 차원에 대한 변경 사항은 공유되는 모든 데이터 보기에 즉시 적용됩니다. 개별 데이터 보기를 편집할 때 구성 요소 이름 옆에 있는 ![공유 구성 요소 아이콘](/help/assets/icons/CCLibrary.svg) 아이콘으로 공유 차원 및 지표를 식별할 수 있습니다.
 
 공유 차원 및 지표를 통해 여러 데이터 보기에서 공통 구성 요소를 사용할 수 있지만 연결 간에 공유할 수는 없습니다.
+
+## 권한
+
+* [제품 관리자](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#product-administrator-role)도 [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions)의 모든 샌드박스에 대해 **데이터 사용 정책 관리** 및 **데이터 사용 정책 보기** 권한이 필요합니다.
 
 ## 워크플로
 
 대부분의 조직에서는 시간에 따라 차원 및 지표의 중복을 제거하고 유지 관리하기 위해 다음과 같은 중요한 워크플로우를 사용합니다.
 
-1. 여러 데이터 보기에서 공유할 수 있는 각 데이터 보기에서 구성 요소를 가져옵니다. 동일한 차원 또는 지표가 여러 데이터 보기에 있는 경우 Adobe에서는 해당 구성 요소의 모든 인스턴스를 가져오는 것을 권장합니다. 이 모범 사례에서는 중복을 가져오지만, 중복을 제거하여 Workspace 프로젝트에 대한 각 참조를 유지할 수 있도록 가져오게 됩니다.
+1. 여러 데이터 보기에서 공유되는 각 데이터 보기에서 구성 요소를 가져옵니다. 동일한 차원 또는 지표가 여러 데이터 보기에 있는 경우 Adobe에서는 해당 구성 요소의 모든 인스턴스를 가져오는 것을 권장합니다. 이 모범 사례에서는 중복을 가져오지만, 중복을 제거하여 Workspace 프로젝트에 대한 각 참조를 유지할 수 있도록 가져오게 됩니다.
 1. 동일한 구성 요소 ID를 사용하지만 구성 요소 설정이 다른 모든 구성 요소를 검토합니다. 각 중복 구성 요소 그룹에 대해 해당 구성 요소 ID를 공유하는 다른 모든 구성 요소에 적용할 원하는 구성 요소 설정을 선택합니다.
 1. 동일한 구성 요소 ID를 사용하고 동일한 구성 요소 설정을 갖는 모든 구성 요소를 검토하십시오. 이러한 차원 또는 지표를 쉽고 안전하게 병합할 수 있습니다.
 
@@ -61,40 +72,40 @@ ht-degree: 3%
 ![사용 가능한 차원 및 지표 미리 보기](assets/shared-metrics-dimensions.png)
 
 * **필터**: ![필터 아이콘](../../assets/icons/Filter.svg) 아이콘을 선택하여 사용 가능한 필터를 표시하거나 숨깁니다. 다음 필터를 사용할 수 있습니다.
-   * **[!UICONTROL 구성 요소 유형]**: 차원만 보거나 지표만 봅니다.
-   * **[!UICONTROL 데이터 집합]**: 구성 요소가 공유되는 데이터 보기에 데이터 집합이 포함된 구성 요소만 표시합니다.
-   * **[!UICONTROL 데이터 보기]**: 해당 데이터 보기에 공유된 구성 요소만 봅니다.
-   * **[!UICONTROL 만든 사람]**: 지정한 사용자가 만든 구성 요소만 표시합니다.
-   * **[!UICONTROL 중복]**: 다른 구성 요소와 구성 요소 ID가 같은 구성 요소만 표시합니다. 이러한 필터는 개요 카드를 통해 구성 요소를 검토하는 것과 동일합니다.
+  * **[!UICONTROL 구성 요소 유형]**: 차원만 보거나 지표만 봅니다.
+  * **[!UICONTROL 데이터 집합]**: 구성 요소가 공유되는 데이터 보기에 데이터 집합이 포함된 구성 요소만 표시합니다.
+  * **[!UICONTROL 데이터 보기]**: 해당 데이터 보기에 공유된 구성 요소만 봅니다.
+  * **[!UICONTROL 만든 사람]**: 지정한 사용자가 만든 구성 요소만 표시합니다.
+  * **[!UICONTROL 중복]**: 다른 구성 요소와 구성 요소 ID가 같은 구성 요소만 표시합니다. 이러한 필터는 개요 카드를 통해 구성 요소를 검토하는 것과 동일합니다.
 * **검색**: ![검색 아이콘](../../assets/icons/Search.svg) 아이콘을 사용하여 이름으로 구성 요소를 검색합니다.
 * **[!UICONTROL 연결]**: [연결](/help/connections/overview.md)을 변경하는 드롭다운 메뉴입니다. 공유 차원 및 지표는 항상 단일 연결에 한정됩니다.
 * **[!UICONTROL 테이블 사용자 지정]**: 테이블에서 열을 표시하거나 숨기려면 ![테이블 사용자 지정 아이콘](/help/assets/icons/ColumnSetting.svg) 아이콘을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
-   * **[!UICONTROL 필드 이름]**: 공유 차원 또는 지표의 이름입니다. 이 필드는 항상 표시됩니다.
-   * **[!UICONTROL 유형]**: 구성 요소가 차원인지 지표인지 나타냅니다. 이 필드는 항상 표시됩니다.
-   * **[!UICONTROL 데이터 집합 형식]**: 데이터 집합의 형식입니다. 대부분의 데이터 세트는 이벤트 데이터 세트입니다.
-   * **[!UICONTROL 데이터 보기에 공유]**: 이 구성 요소가 공유되는 모든 데이터 보기. 이 필드는 항상 표시됩니다. 링크를 선택하여 이 구성 요소를 사용할 수 있는 모든 데이터 보기를 나열하는 모달을 엽니다.
-   * **[!UICONTROL 데이터 세트]**: 이 구성 요소가 공유되는 각 데이터 보기에 포함된 모든 데이터 세트입니다. 링크를 선택하여 구성 요소에 대한 모든 데이터 세트를 나열하는 모달을 엽니다.
-   * **[!UICONTROL 작성자]**: 구성 요소를 만들거나 공유 지표 및 차원 인터페이스로 가져온 개인의 이름입니다.
-   * **[!UICONTROL 스키마 형식]**: 데이터가 저장되는 형식입니다. 예를 들면 `string`, `double` 또는 `boolean`이(가) 있습니다.
-   * **[!UICONTROL 구성 요소 ID]**: 차원 또는 지표의 구성 요소 ID. 이 인터페이스에서 동일한 구성 요소 ID를 공유하는 모든 구성 요소는 검토 및 중복 제거되어야 합니다.
-   * **[!UICONTROL 스키마]**: 차원 또는 지표의 스키마 경로입니다. (예: `web.webPageDetails.URL`)
-   * **[!UICONTROL 설명]**: 구성 요소의 [설명](/help/data-views/component-settings/overview.md).
-   * **[!UICONTROL 컨텍스트 레이블]**: 구성 요소에 대한 [컨텍스트 레이블](/help/data-views/component-settings/overview.md).
-   * **[!UICONTROL 값 포함/제외]**: [값 포함/제외](/help/data-views/component-settings/include-exclude-values.md)에 지정된 규칙 수를 나열합니다.
-   * **[!UICONTROL 데이터 사용 레이블]**: 스키마 필드의 [데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview).
-   * **[!UICONTROL 사용되지 않음]**: 사용되지 않는 플래그가 설정되었는지 여부를 나타냅니다.
-   * **[!UICONTROL 형식]**: 값이 표시되는 형식입니다. 부울은 일반적으로 `True | False`(으)로 표시되고 지표는 일반적으로 `Decimal`(으)로 표시됩니다.
-   * **[!UICONTROL 지표 중복 제거]**: 구성 요소의 [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 설정입니다.
-   * **[!UICONTROL 동작]**: 구성 요소의 [동작](/help/data-views/component-settings/behavior.md) 설정입니다.
-   * **[!UICONTROL 속성]**: 구성 요소의 [속성](/help/data-views/component-settings/attribution.md) 설정.
-   * **[!UICONTROL 값 옵션 없음]**: 구성 요소의 [값 옵션 없음](/help/data-views/component-settings/no-value-options.md).
-   * **[!UICONTROL 값 버킷팅]**: 구성 요소의 [값 버킷팅](/help/data-views/component-settings/value-bucketing.md) 설정입니다.
-   * **[!UICONTROL 지속성]**: 구성 요소의 [지속성](/help/data-views/component-settings/persistence.md) 설정입니다.
-   * **[!UICONTROL 소문자]**: 구성 요소의 [동작](/help/data-views/component-settings/behavior.md) 설정에 따라 구성 요소가 소문자로 사용되는지 여부를 나타냅니다.
-   * **[!UICONTROL 하위 문자열]**: 구성 요소의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정입니다.
-   * **[!UICONTROL 요약 데이터 그룹]**: 구성 요소의 [요약 데이터 그룹](/help/data-views/component-settings/summary-data-group.md) 설정입니다.
-   * **[!UICONTROL 만든 날짜]**: 구성 요소를 만들거나 가져온 날짜입니다.
-   * **[!UICONTROL 마지막 수정일]**: 구성 요소를 만든 후 수정한 경우 마지막으로 수정한 날짜입니다.
+  * **[!UICONTROL 필드 이름]**: 공유 차원 또는 지표의 이름입니다. 이 필드는 항상 표시됩니다.
+  * **[!UICONTROL 유형]**: 구성 요소가 차원인지 지표인지 나타냅니다. 이 필드는 항상 표시됩니다.
+  * **[!UICONTROL 데이터 집합 형식]**: 데이터 집합의 형식입니다. 대부분의 데이터 세트는 이벤트 데이터 세트입니다.
+  * **[!UICONTROL 데이터 보기에 공유]**: 이 구성 요소가 공유되는 모든 데이터 보기. 이 필드는 항상 표시됩니다. 링크를 선택하여 이 구성 요소를 사용할 수 있는 모든 데이터 보기를 나열하는 모달을 엽니다.
+  * **[!UICONTROL 데이터 세트]**: 이 구성 요소가 공유되는 각 데이터 보기에 포함된 모든 데이터 세트입니다. 링크를 선택하여 구성 요소에 대한 모든 데이터 세트를 나열하는 모달을 엽니다.
+  * **[!UICONTROL 작성자]**: 구성 요소를 만들거나 공유 지표 및 차원 인터페이스로 가져온 개인의 이름입니다.
+  * **[!UICONTROL 스키마 형식]**: 데이터가 저장되는 형식입니다. 예를 들면 `string`, `double` 또는 `boolean`이(가) 있습니다.
+  * **[!UICONTROL 구성 요소 ID]**: 차원 또는 지표의 구성 요소 ID. 이 인터페이스에서 동일한 구성 요소 ID를 공유하는 모든 구성 요소는 검토 및 중복 제거되어야 합니다.
+  * **[!UICONTROL 스키마]**: 차원 또는 지표의 스키마 경로입니다. (예: `web.webPageDetails.URL`)
+  * **[!UICONTROL 설명]**: 구성 요소의 [설명](/help/data-views/component-settings/overview.md).
+  * **[!UICONTROL 컨텍스트 레이블]**: 구성 요소에 대한 [컨텍스트 레이블](/help/data-views/component-settings/overview.md).
+  * **[!UICONTROL 값 포함/제외]**: [값 포함/제외](/help/data-views/component-settings/include-exclude-values.md)에 지정된 규칙 수를 나열합니다.
+  * **[!UICONTROL 데이터 사용 레이블]**: 스키마 필드의 [데이터 사용 레이블](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview).
+  * **[!UICONTROL 사용되지 않음]**: 사용되지 않는 플래그가 설정되었는지 여부를 나타냅니다.
+  * **[!UICONTROL 형식]**: 값이 표시되는 형식입니다. 부울은 일반적으로 `True | False`(으)로 표시되고 지표는 일반적으로 `Decimal`(으)로 표시됩니다.
+  * **[!UICONTROL 지표 중복 제거]**: 구성 요소의 [지표 중복 제거](/help/data-views/component-settings/metric-deduplication.md) 설정입니다.
+  * **[!UICONTROL 동작]**: 구성 요소의 [동작](/help/data-views/component-settings/behavior.md) 설정입니다.
+  * **[!UICONTROL 속성]**: 구성 요소의 [속성](/help/data-views/component-settings/attribution.md) 설정.
+  * **[!UICONTROL 값 옵션 없음]**: 구성 요소의 [값 옵션 없음](/help/data-views/component-settings/no-value-options.md).
+  * **[!UICONTROL 값 버킷팅]**: 구성 요소의 [값 버킷팅](/help/data-views/component-settings/value-bucketing.md) 설정입니다.
+  * **[!UICONTROL 지속성]**: 구성 요소의 [지속성](/help/data-views/component-settings/persistence.md) 설정입니다.
+  * **[!UICONTROL 소문자]**: 구성 요소의 [동작](/help/data-views/component-settings/behavior.md) 설정에 따라 구성 요소가 소문자로 사용되는지 여부를 나타냅니다.
+  * **[!UICONTROL 하위 문자열]**: 구성 요소의 [하위 문자열](/help/data-views/component-settings/substring.md) 설정입니다.
+  * **[!UICONTROL 요약 데이터 그룹]**: 구성 요소의 [요약 데이터 그룹](/help/data-views/component-settings/summary-data-group.md) 설정입니다.
+  * **[!UICONTROL 만든 날짜]**: 구성 요소를 만들거나 가져온 날짜입니다.
+  * **[!UICONTROL 마지막 수정일]**: 구성 요소를 만든 후 수정한 경우 마지막으로 수정한 날짜입니다.
 * **[!UICONTROL 작업 내역]**: 많은 수의 구성 요소를 가져오거나 공유하는 경우 작업이 자동으로 만들어집니다. ![내역 아이콘](/help/assets/icons/History.svg) 아이콘을 선택하여 개별 데이터 보기에서 차원 및 지표를 가져오는 모든 인스턴스를 표시하는 모달 창을 엽니다. 작업을 트리거할 만큼 큰 가져오기 또는 공유 작업이 없으면 이 단추가 표시되지 않습니다.
 
 ## 구성 요소를 편집하거나 데이터 보기에 구성 요소 공유

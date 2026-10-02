@@ -17,12 +17,14 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: e550b7005c12bc5e2fb92bea44767bae0d7db3dc
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 ---
 # 대화 통찰력
+
+{{release-limited-testing}}
 
 대화 인사이트를 사용하면 고객에게 제공하는 에이전트 경험에서 대화를 분석할 수 있습니다. 이러한 에이전트 경험은 대형 언어 모델(LLM) 또는 사람의 대화를 기반으로 할 수 있습니다. 예를 들어, 고객 또는 콜 센터 대본과 상호 작용하는 챗봇입니다.
 
@@ -151,6 +153,7 @@ Conversation Insights 를 통해 다음을 이해할 수 있습니다.
 에이전트 경험 애플리케이션이 처리 중에 호출된 기능을 나타내는 기술 호출을 지원하는 경우 이러한 기술 호출을 에이전트 정보 필드 그룹의 일부로 추가할 수 있습니다.
 
 구현 세부 정보는 [대화 인사이트 구현](./implement.md) 설명서의 [에이전트 정보](./implement.md#agentic-information-field-group) 필드 그룹을 참조하십시오.
+
 
 ## 작동 방식
 
