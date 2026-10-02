@@ -16,9 +16,9 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+source-git-commit: 7bd10643bc54f5923f590f849d05890bffd77a2e
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # 대화 통찰력 구현
@@ -275,7 +275,7 @@ ht-degree: 5%
 | `agents[].name` | 문자열 | `"Chatbot Assistant"` | 에이전트 이름 |
 | `agents[].version` | 문자열 | `"2.1.3"` | 에이전트 버전 |
 | `agents[].score` | 숫자 | `0.92` | 반환된 값의 에이전트 신뢰도 점수 |
-| `agents[].skills[]` | 배열 | 아래 스킬 오브젝트 참조 | **사용하지 않음** — `agentID`을(를) 통해 기술 호출 및 각 에이전트를 연결하는 순서가 지정된 전체 목록을 소유하고 있는 아래 최상위 수준 `skills[]` 배열을 대신 사용합니다. |
+| `agents[].skills[]` | 배열 | 아래 스킬 오브젝트 참조 | **사용하지 않음**. 대신 `agentID`을(를) 통해 기술 호출의 전체 순서 목록을 소유하고 각 기술 호출을 에이전트에 연결하는 아래 최상위 `skills[]` 배열을 사용하십시오. |
 | `agents[].skills[].name` | 문자열 | `"Intent Recognition"` | 스킬 이름(사용되지 않는 배열) |
 | `agents[].skills[].version` | 문자열 | `"1.0.0"` | 스킬 버전(사용되지 않는 배열) |
 | `agents[].skills[].score` | 숫자 | `0.95` | 스킬 신뢰도 점수(0-1)(더 이상 사용되지 않는 배열) |
@@ -429,11 +429,7 @@ ht-degree: 5%
 * **웹 세부 정보** 필드 그룹입니다. 대화가 포함된 웹 페이지의 세부 정보를 캡처합니다.
 * **Commerce 세부 정보** 필드 그룹. 대화의 일부로 언급된 권장 제품의 제품 세부 정보를 캡처합니다.
 
-
-
-고객은 소스 대화 이벤트를 생성할 책임이 있습니다. Adobe 플랫폼은 후속적으로 신호 추출 및 데이터 블렌딩을 수행합니다. 고객은 신호 추출 또는 혼합 서비스를 구현할 필요가 없습니다.
-
-이 문서에서는 대화 통찰력 MVP 입력 요구 사항 및 현재 에이전트 스키마 업데이트에 대해 설명합니다. 여기에는 Conversation Insights 1.0 기능 또는 이후 릴리스 요구 사항이 포함되지 않습니다.
+고객은 소스 대화 이벤트를 생성할 책임이 있습니다. Adobe은 신호 추출 및 데이터 혼합을 수행합니다. 고객은 신호 추출 또는 혼합 서비스를 구현할 필요가 없습니다.
 
 ### 이벤트 유형
 
