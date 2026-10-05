@@ -187,5 +187,5 @@ Customer Journey Analytics은 Experience Platform 데이터 세트에 대해 직
 
 >[!MORELIKETHIS]
 >
->[Meta 광고 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)
+>[Meta 광고 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/advertising/meta-ads)
 >
