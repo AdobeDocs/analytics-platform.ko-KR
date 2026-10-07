@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
+source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1979'
 ht-degree: 18%
 ---
 # 결합 활성화
@@ -238,15 +238,13 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
 
 >[!NOTE]
->**[!UICONTROL 잘못된 ID]**&#x200B;을(를) 포함한 **[!UICONTROL 결합 지표]**&#x200B;은(는) 제한된 데이터 집합을 기반으로 계산됩니다. 결합에 사용할 데이터 세트에 대해 잘못된 ID가 있는지 식별하려면 [잘못된 ID 기술 정보](/help/technotes/badids.md)를 참조하세요.
+>**[!UICONTROL 잘못된 ID]**&#x200B;을(를) 포함한 **[!UICONTROL 결합 지표]**&#x200B;은(는) 제한된 데이터 집합을 기반으로 계산됩니다. 결합에 사용할 데이터 세트에 대해 잘못된 ID가 있는지 식별하려면 [잘못된 ID 기술 정보](/help/technotes/badids.md)를 참조하십시오.
 >
 
 
 ### 저장
 
-
-
-연결을 저장하면 구성된 데이터 세트에서 연결을 활성화하는 프로세스가 트리거됩니다. 결합이 설정되면 결합 서비스는 라이브로 스트리밍되는 데이터를 처리하고 Experience Platform의 이벤트 데이터 세트에서 채우기를 시작한 다음 데이터를 Customer Journey Analytics 연결에 수집합니다.
+연결을 저장하면 구성된 데이터 세트에서 연결을 활성화하는 프로세스가 트리거됩니다. 결합 서비스가 설정되면 이 서비스는 Experience Platform의 이벤트 데이터 세트에서 요청된 채우기와 라이브 스트리밍된 데이터를 처리합니다. 그런 다음 데이터가 Customer Journey Analytics 연결에 수집됩니다.
 
 프로세스의 각 부분은 특정 지연을 추가합니다. 아래의 처리 시간은 계약상의 SLA(서비스 수준 계약)가 아닌 보호입니다.
 
@@ -256,15 +254,16 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
   라이브 데이터가 유입되기 시작하려면 데이터 집합에 대해 **[!UICONTROL 모든 새 데이터 가져오기]** 옵션을 활성화하십시오.
 
-  Experience Platform의 소스 이벤트 데이터 세트에 수집된 새 데이터는 4시간 이내에 Customer Journey Analytics에 표시됩니다.
+  Experience Platform 소스 이벤트 데이터 세트에 수집된 새 데이터는 4시간 이내에 Customer Journey Analytics에 표시됩니다.
 
-* 채워진 데이터(처음에 요청된 경우)는 라이브 데이터와 거의 동시에 Customer Journey Analytics에 표시되지만, 관련된 볼륨에 따라 처리하는 데 며칠 또는 몇 주(4주 미만)가 소요됩니다. 채워진 데이터는 가장 오래된 이벤트 타임스탬프 값으로 시작됩니다.
+* 채워진 데이터(처음에 요청된 경우)는 라이브 데이터와 거의 동시에 Customer Journey Analytics에 표시되지만, 관련된 볼륨에 따라 완전히 처리하는 데 며칠이 걸릴 수 있습니다. 채워진 데이터는 가장 오래된 이벤트 타임스탬프 값으로 시작됩니다.
 
->[!CAUTION]
->
->연결 인터페이스에서 결합을 위해 활성화된 데이터 세트의 경우 알려진 제한 사항 때문에 현재 채우기 상태를 보고할 수 없습니다. 다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오.
->
+  >[!CAUTION]
+  >
+  >연결 인터페이스에서 결합을 위해 활성화된 데이터 세트의 경우 알려진 제한 사항 때문에 현재 채우기 상태를 보고할 수 없습니다.
+  >
 
+  다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오. 예를 들어 [Experience Platform 쿼리 서비스 UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)를 사용하여 데이터 집합에서 관련 기간에 대한 이벤트 수를 추출합니다. 같은 기간에 대해 해당 이벤트 수를 [Customer Journey Analytics 보고](/help/analysis-workspace/home.md)의 이벤트 지표와 비교합니다. 해당 숫자가 일치하면 채우기 작업이 완료됩니다.
 
 ## 제한 사항
 
