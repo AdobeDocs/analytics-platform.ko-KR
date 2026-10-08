@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
 workflow-type: tm+mt
 source-wordcount: '4800'
 ht-degree: 56%
@@ -669,7 +669,7 @@ Google 광고 및 Meta 광고 소스 커넥터를 구성하는 방법에 대한 
 
 1. 마법사의 ➋ **[!UICONTROL 계정 선택]** 단계에서 구성할 계정을 선택합니다.
 
-   ![Meta Ads 소스 커넥터 계정 선택](paid-media-meta-select-account.png)
+   ![Meta Ads 소스 커넥터 계정 선택](../assets/paid-media-meta-select-account.png)
 
    **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
