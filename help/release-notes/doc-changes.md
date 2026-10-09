@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '7170'
+source-wordcount: '7183'
 ht-degree: 96%
 ---
 
@@ -71,6 +71,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 |---|---|
 | **2026년 10월** | |
 | 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
+| 2026년 10월 | |
+| Brand Visibility | 자세한 정보로 [브랜드 가시성 인바운드 통합](/help/integrations/bv/bv.md#inbound-integration)에 대한 설명서를 업데이트했습니다. |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
 | 블로그 게시물 통합 | 다음과 같은 블로그 게시물을 통합했습니다.<ul><li>[Adobe CJA에서 &#39;값 없음&#39;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=ko#M598)</li><li>[Adobe Experience Platform 및 Customer Journey Analytics 데이터 이그레스 사용 사례 심층 분석](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=ko)</li></ul>[데이터 내보내기](/help/use-cases/data-export/overview.md) 사용 사례와 새로운 [값 없음](/help/use-cases/data-views/no-value.md) 사용 사례 문서에서. |
@@ -78,7 +80,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2026년 8월** | |
 | 대상자 새로 고침에 대한 명확한 정보 | [대상 게시](/help/components/audiences/publish.md#audience-builder)할 때 새로 고침을 예약할 수 있는 대상 수는 Customer Journey Analytics 권한에 따라 다르며 75개에서 150개 사이임을 명확히 했습니다. |
 | **2026년 7월** | |
-| 브랜드 가시성 인바운드 통합 | [브랜드 가시성 인바운드 통합](/help/integrations/bv.md#inbound-integration)에 대한 설명서. |
+| Brand Visibility | [브랜드 가시성 인바운드 통합](/help/integrations/bv/bv.md#inbound-integration)에 대한 설명서. |
 | 사용 인터페이스 | 연결을 위한 [사용 인터페이스](/help/connections/manage-connections.md#usage) 설명서에 대한 업데이트입니다. |
 | 하위 이벤트 분석 | [하위 이벤트 분석](/help/components/segments/sub-event.md) 및 [사용자 지정 컨테이너](/help/data-views/create-dataview.md#custom-containers)에 대한 설명서입니다. |
 | 인라인 분류 | [인라인 분류](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)에 대한 설명서입니다. |
