@@ -4,30 +4,39 @@ description: Customer Journey Analytics의 대상자 게시 개념에 대해 알
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-TQID: https://experienceleague.adobe.com/x64-Q7kfdcy4pAPrOb-TfliMFMNSTafJILEaxR3qbrs
+TQID: 'https://experienceleague.adobe.com/x64-Q7kfdcy4pAPrOb-TfliMFMNSTafJILEaxR3qbrs'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 553
+source-wordcount: '564'
 ht-degree: 80%
-
 ---
-
 # 대상자 게시 개요
 
 >[!NOTE]
@@ -37,7 +46,7 @@ ht-degree: 80%
 >* **대상 분석**: Experience Platform 프로필 데이터 세트의 대상 멤버십 데이터를 Customer Journey Analytics 연결로 수집할 수 있습니다. 대상 분석에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
 >* **대상 게시**: 고객 타기팅 및 개인화를 위해 Customer Journey Analytics에서 검색된 대상을 만들어 Adobe Experience Platform에 게시할 수 있습니다.
 
-고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 검색된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)을 만들어 게시할 수 있습니다. Experience Platform 프로필 데이터 세트에서 Customer Journey Analytics 연결로 대상 멤버십 데이터를 수집하는 방법에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
+고객 타기팅 및 맞춤화를 위해 Customer Journey Analytics에서 검색된 대상을 Adobe Experience Platform의 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)을 만들어 게시할 수 있습니다. Experience Platform 프로필 데이터 세트에서 Customer Journey Analytics 연결로 대상 멤버십 데이터를 수집하는 방법에 대한 자세한 내용은 [대상 분석 개요](/help/connections/audience-analysis/audience-analysis-overview.md)를 참조하십시오.
 
 대상자 게시는 Customer Journey Analytics 내에서 발견된 인사이트를 활성화하고 조치를 취하는 명확한 방법을 제공합니다. 이러한 조치에는 다음이 포함될 수 있습니다.
 
@@ -45,7 +54,7 @@ ht-degree: 80%
 Experience Platform에 게시된 대상자를 사용하는 방법에 대한 자세한 내용은 Journey Optimizer 설명서의 [대상자 시작하기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) 항목을 참조하십시오.
 * Experience Platform 대상을 통해 서드파티에 대상자 내보내기
 * Customer Journey Analytics의 이벤트 기반 데이터에서 파생된 유용한 속성으로 실시간 고객 프로필 강화
-* 대상자를 게시한 후 대기 시간을 최소화하면서 이 모든 작업을 수행할 수 있습니다.
+* 대상자를 게시한 후 지연을 최소화하면서 이 모든 작업을 수행할 수 있습니다.
 자세한 내용은 [대상자 생성 및 게시](/help/components/audiences/publish.md)의 [지연 고려 사항](/help/components/audiences/publish.md#latency-considerations)을 참조하십시오.
 * 일회성 대상자 또는 반복 대상자 게시.
 
@@ -67,7 +76,7 @@ Customer Journey Analytics에서 만드는 대상자는 프로필을 위해 활�
 
 ## 데이터 거버넌스 및 동의
 
-Customer Journey Analytics에서 대상자를 게시하면 해당 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다.  Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy).
+Customer Journey Analytics에서 대상자를 게시하면 해당 대상자에서 사용되는 필드에 연결된 데이터 거버넌스 레이블 및 정책이 기록됩니다.  Adobe Experience 앱에서 대상자가 활성화되면 해당 대상자에 대해 연결된 모든 데이터 거버넌스 레이블 및 정책을 사용할 수 있으며 적절한 시행이 적용될 수 있습니다. [동의에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
 ## 다음 단계
 

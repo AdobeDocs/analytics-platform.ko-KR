@@ -6,31 +6,41 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-TQID: https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8
+TQID: 'https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1530'
 ht-degree: 97%
-
 ---
-
 # Analysis Workspace 개요 {#analysis-workspace-overview}
 
 Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저 인터페이스를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 [프로젝트](/help/analysis-workspace/build-workspace-project/freeform-overview.md)를 공유 및 예약할 수 있습니다.
@@ -76,11 +86,11 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 키보드에서 다음 기호가 사용될 수 있습니다.
 
-- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL *Ctrl *]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL *Opt *]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL *Alt *]**(대체)의 경우.
+- **[!UICONTROL *Shift *]**의 경우**⇧**
+- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
@@ -119,7 +129,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 자유 형식 테이블]** | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** | [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 라인]** | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** | [라인](/help/analysis-workspace/visualizations/line.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 막대]** | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** | [막대](/help/analysis-workspace/visualizations/bar.md) 시각화를 삽입합니다. |
-| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [&#x200B; 콤보](/help/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
+| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [ 콤보](/help/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
 
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |
@@ -181,5 +191,5 @@ Analysis Workspace에서 분석을 만들면 작업이 [자동으로 저장됩�
 
 - Customer Journey Analytics의 [학습 랜딩](/help/getting-started/landing.md#learning) 페이지. 이 페이지는 Analysis Workspace에 익숙해질 수 있는 좋은 방법이기도 합니다. 특히 Workspace 기초 학습에도 익숙해질 수 있습니다. 이 템플릿은 Workspace에 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내합니다.
 - Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview)을 제공합니다.
-- 새로운 기능에 대한 업데이트는 [CX 엔터프라이즈 릴리스 노트](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current)를 참조하십시오.
+- 새로운 기능에 대한 업데이트는 [CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current)를 참조하세요.
 

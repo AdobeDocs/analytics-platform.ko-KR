@@ -4,27 +4,33 @@ description: 세그먼트 생성 사용자 인터페이스를 이해합니다.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters, Segments
 role: User
-TQID: https://experienceleague.adobe.com/mzu9V8ETlAV0gREJQQhRIDFUwZNlKUR-8P1dtwJTCIA
+TQID: 'https://experienceleague.adobe.com/mzu9V8ETlAV0gREJQQhRIDFUwZNlKUR-8P1dtwJTCIA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # 세그먼트 만들기
 
 Customer Journey Analytics에서 다양한 유형의 세그먼트를 만들 수 있습니다.  선택하는 유형은 세그먼트가 얼마나 복잡해야 하는지, 세그먼트가 현재 Workspace 프로젝트에만 적용되어야 하는지 또는 모든 프로젝트에 적용되어야 하는지에 따라 다릅니다. Customer Journey Analytics의 기본 인터페이스에서 직접 또는 Workspace 프로젝트에서 작업할 때 세그먼트를 만들 수 있습니다.

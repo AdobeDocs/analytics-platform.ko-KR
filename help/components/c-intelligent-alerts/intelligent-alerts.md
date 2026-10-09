@@ -4,27 +4,34 @@ title: 경고 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-TQID: https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E
+TQID: 'https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 57%
-
 ---
-
 # 경고 개요
 
 Customer Journey Analytics의 경고 기능을 사용하면 변경된 백분율이나 특정 데이터 포인트에 따라 알림을 받을 수 있습니다.
@@ -41,7 +48,7 @@ Customer Journey Analytics 패키지를 기반으로 예외 항목 임계값에 
   * 특정 비율에 따른 지표 변경.
   * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
 
-이 [비디오 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
+이 [비디오 튜토리얼](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
 
 
 

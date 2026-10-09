@@ -17,7 +17,7 @@ feature_v2:
     internal-label: Data management
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-    internal-label: Use cases, Use cases (CJA)
+    internal-label: Use cases
   - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
     internal-label: Cross channel analysis
 role_v2:
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
@@ -54,9 +54,9 @@ ht-degree: 100%
 
 ![이 섹션에 설명된 구현 절차의 플로우.](../assets/cca-architecture.png)
 
-1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko).
-1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ko).
-1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=ko):
+1. 데이터 수집을 위한 [스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
+1. 데이터 수집을 위한 [데이터 세트 만들기](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html).
+1. [Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
    1. Edge Network 또는 Analytics 소스 커넥터를 통한 웹 사이트나 모바일 앱의 이벤트 기반 데이터 ![이벤트](/help/assets/icons/Events.svg).
    2. 프로필 데이터 ![프로필](/help/assets/icons/User.svg)(예: CRM 시스템, 콜센터 애플리케이션, 로열티 애플리케이션).
    3. 조회 데이터 ![조회](/help/assets/icons/Search.svg)(예: 제품 정보 시스템에서 제품 이름, 카테고리)

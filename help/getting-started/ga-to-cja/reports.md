@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
     internal-label: Administration
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '3202'
 ht-degree: 0%
@@ -242,7 +244,7 @@ Analysis Workspace에서 다음 차원은 표준 XDM 필드에서 각각 제공�
 
 >[!NOTE]
 >
->최신 브라우저는 사용자 에이전트 문자열의 세부 정보를 줄였기 때문에 완전하고 정확한 값은 웹 SDK 구성에서 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/use-cases/client-hints)를 수집하는 것에 따라 달라집니다.
+>최신 브라우저는 사용자 에이전트 문자열의 세부 정보를 줄였기 때문에 완전하고 정확한 값은 웹 SDK 구성에서 [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)를 수집하는 것에 따라 달라집니다.
 
 +++
 
