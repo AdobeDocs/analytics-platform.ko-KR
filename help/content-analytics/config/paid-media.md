@@ -194,7 +194,7 @@ URL이 웹 사이트 이벤트 데이터에 캡처되고 웹 사이트 이벤트
 
 유료 미디어 투자와 관련된 자산 성과를 보고하고 분석하려면 광고 네트워크 유료 미디어 구성에 특정 자산 UTM 매개 변수를 추가하는 것이 좋습니다. 예를 들어, s`ite_source_name`, `campaign.id`, `adset.id` 또는 `placement`과(와) 같은 표준 동적 매개 변수 외에 `aca_asset_id=999999`과(와) 같은 정적 사용자 지정 매개 변수를 추가합니다.
 
-이 사용자 지정 매개 변수는 랜딩 페이지 URL에 추가됩니다. 예: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
+이 사용자 지정 매개 변수는 랜딩 페이지 URL에 추가됩니다. 예: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
 
 이제 페이지의 에셋과 유료 미디어 데이터 간의 관계가 유지됩니다. Analysis Workspace의 해당 관계를 사용하여 Content Analytics 에셋 메타데이터(예: **[!UICONTROL 에셋 전경색]**)가 유료 미디어 캠페인 성공에 어떻게 기여하는지 확인하십시오.
 
