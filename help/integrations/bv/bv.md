@@ -94,4 +94,4 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 
 ## 아웃바운드 통합
 
-아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.
+아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.

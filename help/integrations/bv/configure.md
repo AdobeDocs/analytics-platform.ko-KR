@@ -40,7 +40,7 @@ CDN 액세스 로그는 각 브랜드 가시성 사이트에 대해 Adobe Brand 
 1. Adobe에서 관련 사이트에 대한 로그가 수신 및 검색되고 있음을 확인했습니다.
 
 BYOCDN 로그 전달은 자동화된 에이전트 트래픽 분석에 사용되는 서버측 CDN 요청 데이터를 제공합니다. 데이터는 브라우저에서 실행되는 JavaScript 태그에 따라 달라지지 않습니다. 필수
-CDN 로그 피드는 다운스트림 요약 데이터 세트에 의도된 브랜드 가시성 에이전트 트래픽 데이터가 포함되어 있는지 확인합니다. 자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
+CDN 로그 피드는 다운스트림 요약 데이터 세트에 의도된 브랜드 가시성 에이전트 트래픽 데이터가 포함되어 있는지 확인합니다. 자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
 
 ### 필수 정보
 
