@@ -4,7 +4,8 @@ description: 대화 통찰력 구성을 구성하는 방법을 알아봅니다.
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-TQID: https://experienceleague.adobe.com/yw5FGvOYbxxpcm3CfDyKed1-T7sGFTIRkvRz3Q4xj4I
+autotag-review: '2026-10-02T07:00:50.074Z'
+TQID: 'https://experienceleague.adobe.com/yw5FGvOYbxxpcm3CfDyKed1-T7sGFTIRkvRz3Q4xj4I'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -12,7 +13,7 @@ feature_v2:
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
   - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
-    internal-label: Conversation Insights
+    internal-label: Conversation Insights (CJA)
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -29,8 +30,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-autotag-review: '2026-10-02T07:00:50.074Z'
-source-git-commit: ebc2d1d9992150683fb642862e0ea29b7f70ddb0
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 16%
@@ -138,7 +138,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
   | 고객 피드백 | 문자열 | eventType |
   | 긍정적 감정 | 문자열 | 파생 필드 |
   | 추천 항목 | 문자열 | eventType |
-  | 회전 | 문자열 | eventType |
+  | 턴 수 | 문자열 | eventType |
 
   | 차원 | 스키마 데이터 유형 | 스키마 경로 |
   |---|---|---|

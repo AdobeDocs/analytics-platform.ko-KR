@@ -4,23 +4,26 @@ title: 예외 항목 보기
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
 role: User
-TQID: https://experienceleague.adobe.com/LnQBV8OMK6D1tg1JgnBKARqYvKgAGqDME3vGpsmgJ0E
+TQID: 'https://experienceleague.adobe.com/LnQBV8OMK6D1tg1JgnBKARqYvKgAGqDME3vGpsmgJ0E'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 46%
-
 ---
-
 # 예외 항목 보기
 
 Analysis Workspace의 예외 항목을 표 또는 선 차트로 볼 수 있습니다.
@@ -41,27 +44,27 @@ Analysis Workspace의 예외 항목을 표 또는 선 차트로 볼 수 있습�
 
 1. 예외 항목에 대한 세부 정보를 보려면 행의 오른쪽 상단 모서리에서 ◥을(를) 선택하십시오. 실제 값이 예상 값보다 위 또는 아래로 벗어나는 정도(백분율로)가 표시됩니다.
 
-## 선 차트에서 예외 항목 보기
+## 선 그래프에서 예외 항목 보기
 
-라인 차트는 예외 항목을 볼 수 있는 유일한 시각화입니다.
+라인 차트는 이상 항목을 볼 수 있는 유일한 시각화입니다.
 
-라인 차트에서 예외 항목을 보려는 경우:
+선 그래프에서 예외 항목을 보려는 경우:
 
 1. 시각화 헤더에서 ![설정](/help/assets/icons/Setting.svg)을 선택한 다음 옵션 목록에서 [!UICONTROL **예외 항목 표시**] 옵션이 선택되어 있는지 확인하십시오. 자세한 내용은 [라인](/help/analysis-workspace/visualizations/line.md)을 참조하십시오.
 
 1. (선택 사항) 신뢰 구간에서 차트의 크기를 조절하려면 시각화 헤더에서 ![설정](/help/assets/icons/Setting.svg)을 선택한 다음 **[!UICONTROL 예외 항목이 Y축의 크기 조절을 허용하도록]** 옵션을 선택합니다.
 
-   때때로 차트를 읽기 어렵게 만들 수 있으므로 이 옵션은 기본적으로 선택하지 않습니다.
+   이 옵션은 때때로 차트를 읽기 어렵게 만들 수 있으므로 기본적으로 선택되어 있지 않습니다.
 
-   예외 항목은 다음과 같이 라인 차트에 표시됩니다.
+   예외 항목은 다음과 같이 선 그래프에 표시됩니다.
 
    ![예외 항목이 선 시각화를 검색함](assets/anomaly-detected-line.png)
 
    데이터 예외 항목이 탐지될 때마다 **흰색 점**&#x200B;이 라인에 나타납니다. (관찰은 [예외 항목 탐지에 사용된 통계 기법](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)에 설명된 고급 통계 기법을 기반으로 예외적인 것으로 간주됩니다.)
 
-   **밝은 음영 처리 영역**&#x200B;은 값이 발생해야 하는 신뢰 대역 또는 예상 범위입니다. 이 예상 범위를 벗어나는 모든 값은 예외 항목입니다.
+   **밝은 음영 처리 영역**&#x200B;은 값이 발생해야 하는 신뢰 대역 또는 예상 범위입니다. 이 예상 범위를 벗어나는 모든 값은 이상 항목입니다.
 
-   라인 차트에 여러 개의 지표가 있을 경우에는 예외 항목만 표시되고, 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다.
+   선 그래프에 여러 개의 지표가 있을 경우에는 예외 항목만 표시되고, 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다.
 
    **점선**&#x200B;은 정확한 예상 값입니다.
 

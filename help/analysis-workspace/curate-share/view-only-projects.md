@@ -9,23 +9,28 @@ autotag-review: '2026-05-19T08:24:39.395Z'
 TQID: 'https://experienceleague.adobe.com/unXy2ZoBYHCtuKNQ9VfM3iJEEjVUU-fr-XRQ7pci5fo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: '328'
 ht-degree: 39%
-
 ---
-
 # 읽기 전용 프로젝트
 
 [공유 기능](/help/analysis-workspace/curate-share/share-projects.md)을 통해 받는 사람에게 프로젝트를 읽기 전용으로 공유할 수 있습니다. **[!UICONTROL 읽기 전용]** 역할에 배치된 수신자는 보다 제한된 프로젝트 경험을 받게 됩니다.
@@ -43,9 +48,9 @@ ht-degree: 39%
 보기 전용 프로젝트에서 비활성화된 상호 작용은 다음과 같습니다.
 
 * 숨겨진 왼쪽 패널
-* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)에 추가하십시오.
+* 패널 캘린더 날짜 범위 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 있는 드롭다운 세그먼트](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)에 추가하십시오.
 * 자유 형식 세그먼트화
-* 보이는 행의 자유 형식 수
+* 자유 형식의 표시되는 행 수
 * 자유 형식 행, 열 또는 시각화 설정
 * 패널 세그먼트
 * 편집, 삽입 및 구성 요소 메뉴

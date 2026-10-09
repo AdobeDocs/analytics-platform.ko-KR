@@ -3,29 +3,37 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 빌드
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-TQID: https://experienceleague.adobe.com/ilqzP7cMRQqi7-zoylBlfYGv-mgRqbC-66utGrNVFdY
+TQID: 'https://experienceleague.adobe.com/ilqzP7cMRQqi7-zoylBlfYGv-mgRqbC-66utGrNVFdY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 1693
+source-wordcount: '1699'
 ht-degree: 93%
-
 ---
-
 # 계산된 지표 빌드 {#build-metrics}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +47,7 @@ ht-degree: 93%
 >title="외부 ID"
 >abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 계산된 지표가 표시되는 방식에 영향을 미칠 수 있습니다."
 
-Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어다 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 정의 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단하거나 복잡한 계산된 지표를 빌드하고 저장할 수 있습니다.
+Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어다 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 정의 지표를 만들 수 있는 캔버스를 제공합니다. 이 통합 개발 도구를 사용하여 간단하거나 복잡한 계산된 지표를 빌드하고 저장할 수 있습니다.
 
 계산된 지표 빌더를 사용하여 계산된 지표를 만들거나 편집할 수 있습니다. 이렇게 생성되면 계산된 지표가 구성 요소 목록에서 사용 가능하며, 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/components/apply-create-metrics.md)에서 [단일 프로젝트에 대한 계산된 지표 만들기](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 계산된 지표가 생성된 프로젝트에 대해서만 사용할 수 있는 계산된 지표를 빠르게 만들 수 있습니다.
 
@@ -74,7 +82,7 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
    | **[!UICONTROL 소수점 이하 자리 수]** | 선택한 형식에 소수점 이하 자리 수를 지정합니다. 선택한 형식이 소수점, 통화, 백분율인 경우에만 활성화됩니다. |
    | **[!UICONTROL 증가 트렌드를 다음으로 표시]** | 계산된 지표의 상승 추세를 ▲ **[!UICONTROL 좋음(녹색)]**&#x200B;으로 표시할지 ▼ **[!UICONTROL 나쁨(빨간색)]**&#x200B;으로 표시할지 지정합니다. |
    | **[!UICONTROL 통화]** | 계산된 지표의 통화를 지정합니다. 형식이 통화로 선택된 경우에만 활성화됩니다. |
-   | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 계산된 지표를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
+   | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 계산된 지표를 구성합니다. 입력을 시작하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 미리보기]** | 미리보기는 지난 90일을 포함하며, 이를 통해 지표를 올바르게 정의했는지 측정할 수 있습니다. |
    | **[!UICONTROL 요약]** | 계산된 지표의 정의 요약을 표시합니다. <br/>예: ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 세션]**. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 세그먼트를 정의합니다. |
@@ -84,8 +92,8 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
    **[!UICONTROL 제품 호환성]**&#x200B;은(는) 계산된 지표를 실험 및 전체 테이블 내보내기에 사용할 수 있는지 여부를 나타냅니다. 가능한 값은 다음과 같습니다.
    * **[!UICONTROL Customer Journey Analytics의 모든 곳]**: 계산된 지표는 Customer Journey Analytics 전반에서 사용할 수 있습니다.
    * **[!UICONTROL 호환되지 않는 위치:]**
-      * **[!UICONTROL 실험]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
-      * **[!UICONTROL 전체 테이블 내보내기]**: 계산된 지표는 Workspace에서 전체 테이블을 내보낼 때를 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다. 전체 테이블을 내보낼 때 일부 함수가 지원되는 것은 아닙니다. 전체 표를 내보낼 때 계산된 지표를 포함해야 하는 경우 지원되는 함수를 사용하십시오. 자세한 내용은 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 [지원되지 않는 계산된 지표 함수](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions)를 참조하십시오.
+     * **[!UICONTROL 실험]**: 계산된 지표는 실험 패널을 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다.
+     * **[!UICONTROL 전체 테이블 내보내기]**: 계산된 지표는 Workspace에서 전체 테이블을 내보낼 때를 제외하고 모든 Customer Journey Analytics 전체에서 사용할 수 있습니다. 전체 테이블을 내보낼 때 일부 함수가 지원되는 것은 아닙니다. 전체 표를 내보낼 때 계산된 지표를 포함해야 하는 경우 지원되는 함수를 사용하십시오. 자세한 내용은 [클라우드로 전체 테이블 내보내기](/help/analysis-workspace/export/export-cloud.md)에서 [지원되지 않는 계산된 지표 함수](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions)를 참조하십시오.
 
 1. 다음을 선택합니다.
    * 계산된 지표를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -99,7 +107,7 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 
 ![계산된 지표 만들기](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
-**[!UICONTROL 정의]** 영역에서는 지표만 단일 구성 요소로 정의됩니다. 다른 모든 구성 요소는 컨테이너, 자동 줄바꿈 지표 또는 다른 컨테이너로 정의됩니다. 자세한 내용은 [컨테이너](#containers)를 참조하십시오.
+**[!UICONTROL 정의]** 영역에서는 지표만 단일 구성 요소로 정의됩니다. 다른 모든 구성 요소는 지표 또는 다른 컨테이너를 감싸는 컨테이너로 정의됩니다. 자세한 내용은 [컨테이너](#containers)를 참조하십시오.
 
 ### 지표
 
@@ -112,7 +120,7 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 지표 수정 방법:
 
 1. ![정의](/help/assets/icons/Setting.svg) 영역에서 지표 구성 요소의 **[!UICONTROL 설정]**&#x200B;을 선택합니다.
-1. 팝업 대화 상자에서 지표 유형과 속성 모델을 정의할 수 있습니다. [지표 유형 및 속성](m-metric-type-alloc.md)을 확인합니다.
+1. 팝업 대화 상자에서 지표 유형과 기여도 모델을 정의할 수 있습니다. [지표 유형 및 속성](m-metric-type-alloc.md)을 확인합니다.
 
 지표 삭제 방법:
 
@@ -155,22 +163,22 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 
 * 차원에서 세그먼트 컨테이너를 추가하는 방법은 다음과 같습니다.
 
-   1. 구성 요소 패널에서 ![차원](/help/assets/icons/Dimensions.svg) **[!UICONTROL 차원]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   1. **[!UICONTROL 차원에서 세그먼트 만들기]** 팝업에서 세그먼트에 대한 조건을 정의합니다. 연산자 목록에서 선택한 후 값을 선택하거나 값을 입력합니다. 예를 들어 **[!UICONTROL 월]**&#x200B;은 ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`와 **[!UICONTROL 같습니다]**.
-   1. **[!UICONTROL 완료]**&#x200B;를 선택합니다. **[!UICONTROL 정의]**&#x200B;에 세그먼트 컨테이너가 추가됩니다.
+  1. 구성 요소 패널에서 ![차원](/help/assets/icons/Dimensions.svg) **[!UICONTROL 차원]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
+  1. **[!UICONTROL 차원에서 세그먼트 만들기]** 팝업에서 세그먼트에 대한 조건을 정의합니다. 연산자 목록에서 선택한 후 값을 선택하거나 값을 입력합니다. 예를 들어 **[!UICONTROL 월]**&#x200B;은 ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`와 **[!UICONTROL 같습니다]**.
+  1. **[!UICONTROL 완료]**&#x200B;를 선택합니다. **[!UICONTROL 정의]**&#x200B;에 세그먼트 컨테이너가 추가됩니다.
 
 
-* 세그먼트에서 세그먼트 컨테이너를 추가하기 위해 다음을 사용할 수 있습니다.
+* 세그먼트에서 세그먼트 컨테이너를 추가하려면 다음을 사용할 수 있습니다.
 
-   * 구성 요소 패널에서 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 세그먼트를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-세그먼트 이름을 사용하여 세그먼트 컨테이너가 자동으로 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
+  * 구성 요소 패널에서 ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 세그먼트를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
+    세그먼트 이름을 사용하여 세그먼트 컨테이너가 자동으로 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
 
-   * ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소를 구성 요소 패널에서 일반 컨테이너로 끌어다 놓습니다. 해당 컨테이너가 세그먼트 컨테이너로 수정됩니다.
+  * ![세분화](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소를 구성 요소 패널에서 일반 컨테이너로 끌어다 놓습니다. 해당 컨테이너가 세그먼트 컨테이너로 수정됩니다.
 
-   * 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+  * 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
-      1. **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. **[!UICONTROL 정의]**&#x200B;에 세그먼트 컨테이너가 추가됩니다.
-      1. 새 세그먼트 컨테이너에서의 [!UICONTROL *선택...*] 드롭다운 메뉴에서 세그먼트를 선택합니다.
+    1. **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. **[!UICONTROL 정의]**&#x200B;에 세그먼트 컨테이너가 추가됩니다.
+    1. 새 세그먼트 컨테이너에서의 [!UICONTROL *선택...*] 드롭다운 메뉴에서 세그먼트를 선택합니다.
 
   >[!TIP]
   >
@@ -190,13 +198,13 @@ Customer Journey Analytics는 차원, 지표, 세그먼트 및 함수를 끌어�
 
 * 드래그 앤 드롭:
 
-   1. 구성 요소 패널에서 ![함수](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 함수를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   1. 함수 이름을 사용하여 함수 컨테이너가 자동으로 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
+  1. 구성 요소 패널에서 ![함수](/help/assets/icons/Effect.svg) **[!UICONTROL 함수]** 구성 요소를 끌어다 **[!UICONTROL 지표, 차원, 차원 항목, 세그먼트 및/또는 함수를 여기에 드래그 앤 드롭]**&#x200B;에 놓습니다. 특정 함수를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
+  1. 함수 이름을 사용하여 함수 컨테이너가 자동으로 **[!UICONTROL 정의]**&#x200B;에 추가됩니다.
 
 * 컨테이너 내에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL 함수]**&#x200B;를 선택합니다.
-   1. 컨테이너의 [!UICONTROL *선택...*] 드롭다운 메뉴에서 함수를 선택합니다.
+  1. **[!UICONTROL 함수]**&#x200B;를 선택합니다.
+  1. 컨테이너의 [!UICONTROL *선택...*] 드롭다운 메뉴에서 함수를 선택합니다.
 
 함수 컨테이너는 함수 구성 요소의 이름을 따서 명명됩니다. 예: ![함수](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(지표)]**. 함수에 대한 더 자세한 내용이 포함된 팝업이 표시되도록 하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택합니다. 함수에 대한 자세한 내용은 **[!UICONTROL 자세히 알아보기]**&#x200B;를 참조하십시오.
 

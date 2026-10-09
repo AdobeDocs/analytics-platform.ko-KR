@@ -9,30 +9,42 @@ autotag-review: '2026-05-19T11:01:56.579Z'
 TQID: 'https://experienceleague.adobe.com/Uqoyk9k3hEOB90hzLtXhoYtmfX18wmXPHp-AWxgNIwU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 827
+source-wordcount: '827'
 ht-degree: 86%
-
 ---
-
 # Customer Journey Analytics의 데이터 수집 옵션
 
 데이터를 Customer Journey Analytics로 수집하는 방법은 여러 가지가 있습니다. 일부는 기존 Adobe Analytics 데이터를 이전하려는 경우를 전제로 하고, 일부는 Adobe Experience Platform에서 직접 데이터를 수집하는 경우를 전제로 합니다. 이 참조는 보다 자세한 정보에 대한 링크를 포함하여 따라야 할 고급 단계를 제공합니다.
@@ -52,7 +64,7 @@ ht-degree: 86%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)은(는) Adobe CX Enterprise 고객이 Adobe Experience Platform Edge Network을 통해 CX Enterprise의 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
 
-1. [태그에서 Adobe Experience Platform Web SDK 확장을 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko)하여 Adobe Experience Platform Edge Network을 통해 웹 속성에서 CX Enterprise로 데이터를 전송합니다.
+1. [태그에서 Adobe Experience Platform Web SDK 확장을 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko)하여 Adobe Experience Platform Edge Network을 통해 웹 속성에서 CX Enterprise으로 데이터를 전송합니다.
 1. 채널 간 보고를 알리는 하나 이상의 [연결](/help/connections/create-connection.md) 및 [데이터 보기](/help/data-views/data-views.md)를 만들려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=ko)를 사용합니다.
 
 ## 배치 수집 및 스트리밍 수집을 통한 데이터 수집

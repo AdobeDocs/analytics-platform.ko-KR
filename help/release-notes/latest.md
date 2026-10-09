@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 0a83f4d08806b4d9b97265989f9d687011b232c3
+source-git-commit: c9d7bb10d15aa25bf3fa6dcd2e95fea39cd6faf7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 28%
+source-wordcount: '863'
+ht-degree: 27%
 ---
 # 최신 Customer Journey Analytics 릴리스 정보 (2026년 10월)
 
@@ -64,7 +64,7 @@ ht-degree: 28%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | -----------|-----------|-----------|
-| **Customer Journey Analytics MCP 서버에 대한 읽기 전용 권한**<br/>&#x200B;이제 관리자는 사용자에게 Customer Journey Analytics MCP 서버에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 새 [!UICONTROL MCP 읽기 전용] 권한 항목은 사용자에게 프로젝트, 세그먼트 또는 계산된 지표를 만들지 않고도 모든 읽기 전용 도구에 액세스할 수 있도록 합니다.<p>기존 [!UICONTROL MCP 액세스] 권한 항목의 이름이 [!UICONTROL MCP 전체 액세스]&#x200B;(으)로 변경되었습니다. 이 권한이 있는 사용자는 구성 요소를 만들거나, 변경하거나, 삭제하는 도구를 포함하여 모든 도구에 대한 액세스 권한을 유지합니다.</p><p>자세한 내용은 [Customer Journey Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/cja/)를 참조하십시오.</p> | | 2026년 10월 6일 |
+| **Customer Journey Analytics MCP 서버에 대한 읽기 전용 권한**<br/>&#x200B;이제 관리자는 사용자에게 Customer Journey Analytics MCP 서버에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 새 [!UICONTROL MCP 읽기 전용 액세스] 권한 항목은 사용자에게 프로젝트, 세그먼트 또는 계산된 지표를 만들지 않고도 모든 읽기 전용 도구에 액세스할 수 있도록 합니다.<p>기존 [!UICONTROL MCP 액세스] 권한 항목의 이름이 [!UICONTROL MCP 전체 액세스]&#x200B;(으)로 변경되었습니다. 이 권한이 있는 사용자는 구성 요소를 만들거나, 변경하거나, 삭제하는 도구를 포함하여 모든 도구에 대한 액세스 권한을 유지합니다.</p><p>자세한 내용은 Customer Journey Analytics MCP 서버 설명서에서 [권한 설정](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)을 참조하십시오.</p> | | 2026년 10월 6일 |
 | **대화 통찰력을 사용하여 Analysis Workspace에서 LLM 고객 경험 분석**<br/> Customer Journey Analytics은 이제 구조화되지 않은 채팅 데이터를 Analysis Workspace으로 가져와서 사용자의 자산 전체에서 발생하는 LLM 기반 탐색 및 구매 경험을 보고할 수 있습니다.<p>이 기능을 사용하여 다음과 같은 작업을 수행할 수 있습니다.</p><ul><li>Web SDK을 통해 대화형 에이전트(조직의 사용자 지정 에이전트 또는 Adobe Brand Concierge)의 프롬프트, 응답 및 에이전트 메타데이터를 수집합니다.</li><li>고객이 무엇을 묻고 있는지, 에이전트가 어떻게 반응하는지, 고객이 상호 작용에 대해 어떻게 느끼는지 이해할 수 있도록 의도, 톤 및 감정을 분석합니다.</li><li>기존 스키마, 데이터 세트 및 데이터 보기를 사용하여 규모에 맞게 분석한 다음 Analysis Workspace에서 통찰력을 표시합니다.</li><li>상담원 상호 작용을 더 광범위한 고객 여정과 연결하여 대화를 결과와 연결하여 전환, 참여 등에 대한 실질적인 영향을 측정할 수 있습니다.</li></ul><p>이전에는 LLM 기반 여정을 측정하기가 어렵고 기존 고객 경험에 연결하는 것이 거의 불가능했습니다.</p><p>자세한 내용은 [대화 인사이트](/help/conversation-insights/overview.md)를 참조하십시오.</p> | | 2026년 10월 8일<p>(원래 2026년 9월 22일로 계획됨)</p> |
 | **구성 요소 설명 자동 생성** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.</p> <p>(참조할 설명서 링크입니다.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026년 10월 28일 |
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Customer Journey Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월 |

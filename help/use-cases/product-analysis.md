@@ -2,36 +2,51 @@
 title: Customer Journey Analytics의 제품 분석
 description: Customer Journey Analytics 내에서 제품 분석을 효과적으로 수행하기 위해 사용할 수 있는 기능에 대해 알아봅니다.
 exl-id: b185a2ed-18c8-4fb3-8c69-693d5fee0e67
-TQID: https://experienceleague.adobe.com/24OrFfxJY7XuqMYoTrmijM5xRfsdGhfA-aKe5tY-7xw
+TQID: 'https://experienceleague.adobe.com/24OrFfxJY7XuqMYoTrmijM5xRfsdGhfA-aKe5tY-7xw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
+    internal-label: Derived fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+    internal-label: Data management
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 896
+source-wordcount: '896'
 ht-degree: 5%
-
 ---
-
 # Customer Journey Analytics의 제품 분석
 
 제품 분석은 사용자가 여정의 모든 단계에서 제품과 상호 작용하는 방법을 이해하는 프로세스입니다. 여기에는 사용자 행동, 제품 성과 및 성장 기회에 대한 통찰력을 발견하기 위한 데이터 분석이 포함됩니다. 효과적인 제품 분석을 통해 팀은 정보에 입각한 결정을 내려 사용자 경험을 개선하고 참여를 유도하며 비즈니스 목표를 달성할 수 있습니다.
@@ -117,10 +132,10 @@ Customer Journey Analytics의 다음 기능을 사용하여 유지 및 이탈을
 
 인사이트는 작업을 추진할 때만 가치를 제공합니다. 분석 결과를 사용자 경험을 개선하고 장기적인 제품 성장을 지원하는 작업으로 변환합니다.
 
-CX Enterprise의 다음 기능을 사용하면 통찰력에 효과적으로 대처할 수 있습니다.
+CX Enterprise 내의 다음 기능을 사용하면 통찰력에 효과적으로 대처할 수 있습니다.
 
 * Customer Journey Analytics에서 활성화할 [대상 만들기 및 게시](/help/components/audiences/publish.md)
-* CX 엔터프라이즈 제품을 통해 대상 활성화:
+* CX Enterprise 제품을 통해 대상자 활성화:
   * AJO 및 Adobe Target에서 [실험을 실행](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment)하고 [실험 패널](/help/analysis-workspace/c-panels/experimentation.md)을 사용하여 Customer Journey Analytics의 변형의 영향을 측정합니다.
   * AJO의 사용자에게 [인앱 참여 제공](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/in-app/get-started-in-app).
 * Adobe Real-time CDP를 사용하여 외부 대상에 대해 [대상자 활성화](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activation-overview).
