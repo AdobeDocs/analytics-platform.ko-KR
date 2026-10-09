@@ -122,7 +122,7 @@ Content Analytics [template](/help/analysis-workspace/templates/use-templates.md
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
+1. 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL 웹]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여도]**)를 검색하거나 사용하여 **[!UICONTROL Content Analytics]** 템플릿을 찾고 선택합니다.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 템플릿 설정]**&#x200B;대화 상자의 **[!UICONTROL 전환 지표 선택]** 대화 상자에서 지표를 선택합니다. 예를 들어 **[!UICONTROL 자산 CTR]**.
 1. **[!UICONTROL 계속]**&#x200B;을 선택합니다.
@@ -219,7 +219,7 @@ Content Analytics은 AI 및 GenAI를 사용하여 모든 에셋에 제목, 장�
 
 1. 메인 메뉴에서 **[!UICONTROL Workspace]**&#x200B;를 선택합니다.
 1. Content Analytics에 구성된 데이터 보기를 선택해야 합니다.
-1. **[!UICONTROL 유료 미디어 Content Analytics]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**&#x200B;의 경우 **[!UICONTROL 참여]**&#x200B;를 검색하거나 사용하십시오.
+1. **[!UICONTROL 유료 미디어 Content Analytics]** 템플릿을 찾거나 선택하려면 세그먼트(**[!UICONTROL 채널]**&#x200B;의 경우 **[!UICONTROL Web]**, **[!UICONTROL 사용 사례]**의 경우 **[!UICONTROL 참여]**&#x200B;를 검색하거나 사용하십시오.
 1. **[!UICONTROL 템플릿 사용]**&#x200B;을 선택합니다.
 
 **[!UICONTROL Content Analytics - 유료 미디어 요약 데이터]** 프로젝트가 [Analysis Workspace](/help/analysis-workspace/home.md)에서 열립니다. 프로젝트는 **[!UICONTROL 유료 미디어 성능]** [패널](/help/analysis-workspace/c-panels/panels.md), [자유 형식 테이블](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) 및 [시각화](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 구성됩니다. 패널을 사용하여 네트워크, 계정, 캠페인, 경험 및 에셋 전반에서 유료 미디어 도달, 참여, 지출 및 효율성을 검토할 수 있습니다. 패널의 지표 및 차원은 의도적으로 유료 미디어 에셋 요약 그레인에 머무릅니다. 요약 데이터 세트를 이벤트 데이터와 결합하지 마십시오.

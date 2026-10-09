@@ -90,7 +90,7 @@ GA4는 SDK을 통해 자동으로 이벤트 세트를 수집합니다. 다음 �
 
 GA4에서 사용자 지정 이벤트에는 이름과 최대 25개의 매개 변수가 있습니다. Customer Journey Analytics에서 사용자 지정 이벤트는 구현 중에 정의된 사용자 지정 XDM 스키마 필드에 매핑됩니다.
 
-* **이벤트 이름**&#x200B;이(가) XDM 필드의 필드 값이 됩니다(일반적으로 [`xdm.eventType`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent)).
+* **이벤트 이름**&#x200B;이(가) XDM 필드의 필드 값이 됩니다(일반적으로 [`xdm.eventType`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)).
 * 각 **parameter**&#x200B;은(는) 별도의 XDM 스키마 필드가 됩니다. [데이터 보기를 구성](/help/data-views/component-settings/overview.md)할 때 모든 XDM 필드가 차원 또는 지표로 노출될 수 있습니다.
 
 >[!NOTE]

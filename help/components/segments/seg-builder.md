@@ -99,7 +99,7 @@ ht-degree: 76%
 
 1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다.
    * 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
-   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**&#x200B;구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
+   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL *컨테이너&#x200B;*]**구성 요소(예: 제품, 컨텐츠 Assets)를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
 
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
 
@@ -163,7 +163,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
