@@ -265,7 +265,7 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
   >연결 인터페이스에서 결합을 위해 활성화된 데이터 세트의 경우 알려진 제한 사항 때문에 현재 채우기 상태를 보고할 수 없습니다.
   >
 
-  다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오. 예를 들어 [Experience Platform 쿼리 서비스 UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)를 사용하여 데이터 집합에서 관련 기간에 대한 이벤트 수를 추출합니다. 같은 기간에 대한 [Customer Journey Analytics 보고](/help/analysis-workspace/home.md)의 **[!UICONTROL 이벤트]** 지표 값과 해당 이벤트 수를 비교합니다. 해당 숫자가 일치하면 채우기 작업이 완료됩니다.
+  다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오. 예를 들어 [Experience Platform 쿼리 서비스 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/overview)를 사용하여 데이터 집합에서 관련 기간에 대한 이벤트 수를 추출합니다. 같은 기간에 대한 [Customer Journey Analytics 보고](/help/analysis-workspace/home.md)의 **[!UICONTROL 이벤트]** 지표 값과 해당 이벤트 수를 비교합니다. 해당 숫자가 일치하면 채우기 작업이 완료됩니다.
 
 ## 제한 사항
 
