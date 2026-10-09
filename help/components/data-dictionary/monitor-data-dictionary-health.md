@@ -31,7 +31,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="데이터 사전"
->abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 공유 받은 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합된 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다.
+>abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 공유 받은 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합된 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다."
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
