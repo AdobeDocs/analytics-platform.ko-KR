@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
+source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1990'
 ht-degree: 18%
 ---
 # 결합 활성화
@@ -250,7 +250,7 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
 저장되며 결합이 활성화된 데이터 세트가 포함된 유효한 초기 연결 설정의 경우:
 
-* 라이브 데이터는 처음에 몇 시간 후(17시간 미만) Customer Journey Analytics에 표시됩니다. 라이브 데이터는 스티칭 활성화가 완료된 실제 순간과 일치하는 이벤트 타임스탬프 값으로 시작됩니다.
+* 라이브 데이터는 처음에 몇 시간 후(14시간 미만) Customer Journey Analytics에 표시됩니다. 새 라이브 데이터는 몇 시간 안에 사용할 수 있습니다. 라이브 데이터는 스티칭 활성화가 완료된 실제 순간과 일치하는 이벤트 타임스탬프 값으로 시작됩니다.
 
   라이브 데이터가 유입되기 시작하려면 데이터 집합에 대해 **[!UICONTROL 모든 새 데이터 가져오기]** 옵션을 활성화하십시오.
 
@@ -258,12 +258,14 @@ ID 값이 잘못된 ID로 표시되면 해당 ID 값이 포함된 이후 이벤�
 
 * 채워진 데이터(처음에 요청된 경우)는 라이브 데이터와 거의 동시에 Customer Journey Analytics에 표시되지만, 관련된 볼륨에 따라 완전히 처리하는 데 며칠이 걸릴 수 있습니다. 채워진 데이터는 가장 오래된 이벤트 타임스탬프 값으로 시작됩니다.
 
+   
+
   >[!CAUTION]
   >
   >연결 인터페이스에서 결합을 위해 활성화된 데이터 세트의 경우 알려진 제한 사항 때문에 현재 채우기 상태를 보고할 수 없습니다.
   >
 
-  다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오. 예를 들어 [Experience Platform 쿼리 서비스 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/query/ui/overview)를 사용하여 데이터 집합에서 관련 기간에 대한 이벤트 수를 추출합니다. 같은 기간에 대해 해당 이벤트 수를 [Customer Journey Analytics 보고](/help/analysis-workspace/home.md)의 이벤트 지표와 비교합니다. 해당 숫자가 일치하면 채우기 작업이 완료됩니다.
+  다른 방법을 사용하여 결합된 데이터 세트의 데이터가 채워졌는지 확인하십시오. 예를 들어 [Experience Platform 쿼리 서비스 UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)를 사용하여 데이터 집합에서 관련 기간에 대한 이벤트 수를 추출합니다. 같은 기간에 대한 [Customer Journey Analytics 보고](/help/analysis-workspace/home.md)의 **[!UICONTROL 이벤트]** 지표 값과 해당 이벤트 수를 비교합니다. 해당 숫자가 일치하면 채우기 작업이 완료됩니다.
 
 ## 제한 사항
 
