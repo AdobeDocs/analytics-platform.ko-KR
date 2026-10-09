@@ -91,7 +91,7 @@ ht-degree: 4%
    * JSON (응답)
    * cURL 요청
 
-1. 요청을 클립보드에 복사하려면 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사**[!UICONTROL  cURL 요청&#x200B;]**아래의]**&#x200B;을(를) 사용합니다.
+1. 요청을 클립보드에 복사하려면 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사**&#x200B;[!UICONTROL &#x200B; cURL 요청&#x200B;]&#x200B;**아래의]**&#x200B;을(를) 사용합니다.
 1. **[!UICONTROL 요청]** 또는 **[!UICONTROL 응답]** 텍스트 영역 위로 마우스를 가져간 후 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택하여 해당 텍스트 영역(XML 또는 JSON)의 내용을 클립보드에 복사합니다.
 
 1. 복사한 정보와 Adobe 지원에서 Analysis Workspace 프로젝트의 시각화 문제를 해결하기 위해 요청한 정보를 교환합니다.
