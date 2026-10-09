@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 60%
+ht-degree: 63%
 ---
 # 경고 만들기 {#create-alerts}
 
@@ -57,7 +57,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="components_alerts_delay"
 >title="지연"
->abstract="경고는 이 지연 후에 선택한 세부 기간으로 트리거됩니다. 연결의 데이터는 1~24시간 동안 서로 다른 지연 시간으로 도착할 수 있습니다. 기본 지연은 각 경고 창 후 9시간 후에 트리거됩니다."
+>abstract="이 지연이 발생한 이후에 선택한 시간 세부 기간에 따라 경고가 트리거됩니다. 연결을 통해 유입되는 데이터는 1~24시간 사이의 서로 다른 지연 시간을 두고 도착할 수 있습니다. 기본 지연은 각 경고 기간이 종료된 시점을 기준으로 9시간 후에 트리거됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
