@@ -1,6 +1,6 @@
 ---
-title: 태그 속성 만들기 및 Web SDK 확장 기능 추가
-description: 태그 속성 만들기 및 Web SDK 확장 기능 추가에 대해 자세히 알아보기
+title: NPM 패키지를 사용하여 Platform Web SDK 설치
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 NPM 패키지를 사용하여 웹 SDK을 설치하는 방법에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,12 +28,12 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 73%
+source-wordcount: '146'
+ht-degree: 47%
 ---
-# Edge Network API와 함께 Platform Web SDK 설치 {#upgrade-manual}
+# NPM 패키지를 사용하여 Platform Web SDK 설치 {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -48,7 +48,7 @@ ht-degree: 73%
 
 Adobe Experience Platform Web SDK JavaScript의 빌드 프로세스를 제어하려면 NPM 패키지를 설치하여 Platform Web SDK를 설치할 수 있습니다.
 
-1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) 섹션에 있는 정보를 따르십시오.
+1. Web SDK 안내서의 [Web SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/edge/fundamentals/installing-the-sdk)에서 [옵션 3: NPM 패키지 사용](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-3-using-the-npm-package) 섹션에 있는 정보를 따르십시오.
 
 {{upgrade-final-step}}
 

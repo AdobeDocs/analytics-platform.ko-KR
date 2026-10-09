@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 ---
 # 연결에 Analytics 소스 커넥터 데이터 세트 추가 {#upgrade-source-connector-dataset}
 
@@ -115,7 +115,7 @@ Analytics 소스 커넥터를 사용하여 내역 데이터를 Customer Journey 
 
 1. **[!UICONTROL 데이터 세트 채우기]** 섹션에서 **[!UICONTROL 채우기 요청]**&#x200B;을 선택합니다.
 
-1. Customer Journey Analytics에 연결 채우기를 포함할 기간을 정의하려면 시작 및 종료 날짜를 입력하거나 캘린더 아이콘 ![캘린더](/help/assets/icons/Calendar.svg)를 선택합니다.
+1. 시작 및 종료 날짜를 입력하거나 달력 아이콘 ![달력](/help/assets/icons/Calendar.svg)을 선택하여 Customer Journey Analytics에 연결을 다시 채울 기간을 정의합니다.
 
    채우기를 요청할 때는 날짜를 명확하게 지정합니다. 여러 가지 요소에 따라 다음 중 하나를 수행할 수 있습니다.
 

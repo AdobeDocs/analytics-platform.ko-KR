@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics용 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
+title: Customer Journey Analytics에 사용할 데이터 세트 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터에 대한 Experience Platform 데이터 세트를 만드는 방법을 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 91%
 ---
 # Customer Journey Analytics에 사용할 데이터 세트 만들기 {#upgrade-create-dataset}
 
@@ -88,6 +88,6 @@ ht-degree: 100%
 
    ![프로필용으로 스키마 활성화](assets/aepwebsdk-dataset-profile.png)
 
-   데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 가이드](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법도 배울 수 있습니다.
+   데이터 세트를 보고, 미리 보고, 만들고, 삭제하는 방법에 대한 자세한 내용은 [데이터 세트 UI 가이드](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)를 참조하십시오. 데이터 세트를 실시간 고객 프로필용으로 활성화하는 방법도 배울 수 있습니다.
 
 {{upgrade-final-step}}

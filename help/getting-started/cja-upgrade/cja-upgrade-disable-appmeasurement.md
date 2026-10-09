@@ -1,6 +1,6 @@
 ---
-title: 연결에 Analytics 소스 커넥터 데이터 세트 추가
-description: 연결에 Analytics 소스 커넥터 데이터 세트 추가 방법 알아보기
+title: Adobe Analytics 비활성화
+description: Customer Journey Analytics으로 업그레이드한 후 Adobe Analytics 데이터 수집을 비활성화하는 방법에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 85%
 ---
 # Adobe Analytics 비활성화 {#disable-appmeasurement}
 
@@ -54,7 +54,7 @@ Adobe Analytics를 비활성화하기 전에 [Customer Journey Analytics로 업�
 
 * **태그:** Adobe Analytics 확장 기능 비활성화
 
-* **AppMeasurment:** AppMeasurement.js 라이브러리를 s=newobject로 교체
+* **AppMeasurement:** AppMeasurement.js 라이브러리 s=newobject 바꾸기
 
 >[!NOTE]
 >

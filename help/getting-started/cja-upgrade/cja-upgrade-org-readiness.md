@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics에서 Customer Journey Analytics로 업그레이드
-description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 단계 자세히 알아보기
+title: Customer Journey Analytics로 업그레이드할 조직 준비하기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 수 있도록 조직을 준비하는 방법에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 15%
+source-wordcount: '1189'
+ht-degree: 14%
 ---
 # Customer Journey Analytics로 업그레이드할 조직 준비하기
 
@@ -173,7 +173,7 @@ Customer Journey Analytics이 조직에 제공하는 가치와 이를 통해 비
 
   * [Customer Journey Analytics 튜토리얼](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/overview)
 
-  * [Customer Journey Analytics란?](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+  * [Customer Journey Analytics란?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
   * [Customer Journey Analytics 소개](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 

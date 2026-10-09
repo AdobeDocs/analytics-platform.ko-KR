@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # Customer Journey Analytics에 사용할 스키마 설계 {#upgrade-schema-architect}
@@ -74,7 +74,7 @@ Customer Journey Analytics용 데이터 파이프라인에는 데이터 수집 �
 
 ## 스키마를 Adobe Analytics 데이터 수집과 비교
 
-Customer Journey Analytics이 사용하는 Experience Data Model은 대부분의 다른 Analytics 솔루션(Adobe Analytics 포함)보다 훨씬 더 많은 유연성을 제공합니다. 견고한 스키마를 설정하는 것은 다른 Analytics 제품에 존재하는 제약 조건을 전달할 수 없는 조직의 기회입니다.
+Adobe Analytics과 달리 Customer Journey Analytics은 들어오는 데이터를 사전 정의된 변수에 자동으로 매핑하지 않습니다. 스키마는 필드를 정의하고 데이터 보기는 필드 보고 방법을 결정합니다. Customer Journey Analytics이 사용하는 Experience Data Model은 대부분의 다른 Analytics 솔루션(Adobe Analytics 포함)보다 훨씬 더 많은 유연성을 제공합니다. 견고한 스키마를 설정하는 것은 다른 Analytics 제품에 존재하는 제약 조건을 전달할 수 없는 조직의 기회입니다.
 
 | 일반적인 Adobe Analytics 습관 | XDM + Customer Journey Analytics에서의 더 나은 접근 방식 |
 |---|---|
@@ -144,7 +144,7 @@ Adobe Analytics에서 많은 팀은 `events` 변수를 유일한 지표 추적 �
 
 1. **Adobe Analytics에서 인식하고 자동으로 매핑하는 XDM 필드 경로 사용:** 인식된 XDM 필드를 Edge Network을 통해 Adobe Analytics으로 보낼 때 추가 구성 없이 [자동으로 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)됩니다.
 1. **조직별 개념에 사용자 지정 XDM 필드 사용:** Analytics 변수에 자동으로 매핑되지 않은 모든 XDM 필드는 Adobe Analytics에서 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/contextdata)&#x200B;(으)로 전달됩니다.
-1. **Adobe Analytics 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수를 props/eVars에 매핑합니다.** [처리 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) 최종적으로 사용자 지정 XDM 필드를 eVar 또는 prop에 매핑할 수 있습니다. 이 개념은 Adobe Analytics에서 패리티 보고를 지원하면서 스키마를 깔끔하고 Customer Journey Analytics을 중심으로 합니다.
+1. **Adobe Analytics 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수를 props/eVars에 매핑합니다.** [처리 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) 최종적으로 사용자 지정 XDM 필드를 eVar 또는 prop에 매핑할 수 있습니다. 이 개념은 Adobe Analytics에서 패리티 보고를 지원하면서 스키마를 깔끔하고 Customer Journey Analytics을 중심으로 합니다.
 
 ## 이해 당사자 식별 및 소유권 정의
 
@@ -162,7 +162,7 @@ Adobe Analytics에서 많은 팀은 `events` 변수를 유일한 지표 추적 �
 스키마 디자인은 조직의 개인정보 처리방침에 따라 개인정보 및 거버넌스 기대치를 반영해야 합니다. 스키마를 설계할 때 다음 사항을 고려하십시오.
 
 * 정의된 사용 사례를 지원하는 데 필요한 사항만 수집합니다.
-* 동의 및 데이터 사용 요구 사항이 수집 전략에 반영되었는지 확인합니다. 자세한 내용은 [웹 SDK을 사용하여 고객 동의 데이터를 처리](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/sdk)를 참조하십시오.
+* 동의 및 데이터 사용 요구 사항이 수집 전략에 반영되었는지 확인합니다. 자세한 내용은 [웹 SDK을 사용하여 고객 동의 데이터를 처리](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk)를 참조하십시오.
 * Adobe Experience Platform 거버넌스 도구 내에서 중요한 필드에 어떻게 레이블이 지정되고 제어되는지 생각해 보십시오. 자세한 내용은 [Adobe Customer Journey Analytics 및 데이터 거버넌스](/help/privacy/privacy-overview.md)를 참조하십시오.
 
 ## 다음 단계

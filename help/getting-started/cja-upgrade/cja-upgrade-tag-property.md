@@ -1,6 +1,6 @@
 ---
-title: 태그 속성 만들기 및 Web SDK 확장 기능 추가
-description: 태그 속성 만들기 및 Web SDK 확장 기능 추가에 대해 자세히 알아보기
+title: 속성용 태그 만들기
+description: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 태그 속성을 만드는 방법을 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 92%
+source-wordcount: '315'
+ht-degree: 86%
 ---
 # 속성용 태그 만들기 {#upgrade-tag-property}
 
