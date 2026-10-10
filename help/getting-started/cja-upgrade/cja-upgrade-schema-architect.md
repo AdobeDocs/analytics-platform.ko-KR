@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # Customer Journey Analytics에 사용할 스키마 설계 {#upgrade-schema-architect}
@@ -74,7 +74,7 @@ Customer Journey Analytics용 데이터 파이프라인에는 데이터 수집 �
 
 ## 스키마를 Adobe Analytics 데이터 수집과 비교
 
-Customer Journey Analytics이 사용하는 Experience Data Model은 대부분의 다른 Analytics 솔루션(Adobe Analytics 포함)보다 훨씬 더 많은 유연성을 제공합니다. 견고한 스키마를 설정하는 것은 다른 Analytics 제품에 존재하는 제약 조건을 전달할 수 없는 조직의 기회입니다.
+Adobe Analytics과 달리 Customer Journey Analytics은 들어오는 데이터를 사전 정의된 변수에 자동으로 매핑하지 않습니다. 스키마는 필드를 정의하고 데이터 보기는 필드 보고 방법을 결정합니다. Customer Journey Analytics이 사용하는 Experience Data Model은 대부분의 다른 Analytics 솔루션(Adobe Analytics 포함)보다 훨씬 더 많은 유연성을 제공합니다. 견고한 스키마를 설정하는 것은 다른 Analytics 제품에 존재하는 제약 조건을 전달할 수 없는 조직의 기회입니다.
 
 | 일반적인 Adobe Analytics 습관 | XDM + Customer Journey Analytics에서의 더 나은 접근 방식 |
 |---|---|

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
 workflow-type: tm+mt
-source-wordcount: '3881'
+source-wordcount: '3924'
 ht-degree: 12%
 ---
 # 데이터 피드 만들기
@@ -125,11 +125,11 @@ ht-degree: 12%
    * **더하기 단추**: 왼쪽 레일에서 구성 요소 옆에 있는 더하기 ![추가](/help/assets/icons/Add.svg) 아이콘을 선택하여 캔버스에 추가합니다.
    * **[!UICONTROL 모두 표시]**: 구성 요소 목록의 맨 아래에서 **[!UICONTROL 모두 표시]**&#x200B;를 선택하여 사용 가능한 모든 구성 요소를 표시하는 대화 상자를 엽니다. 추가할 각 구성 요소 옆의 확인란을 선택한 다음 **[!UICONTROL 선택한 항목 추가]**&#x200B;를 선택합니다. 검색어 또는 필터 태그가 왼쪽 레일에서 활성화되면 필터링된 모든 결과를 한 번에 추가할 수 있는 **[!UICONTROL 모두 추가]** 단추도 나타납니다.
 
-   XDM 배열 필드(예: Adobe Journey Optimizer 제안 필드)에 속하는 구성 요소를 추가하면 캔버스에 플랫 항목이 아닌 축소 가능한 중첩 그룹으로 표시됩니다. 그룹은 기본 데이터 구조를 반영하며 내보낸 파일에 중첩 배열로 출력합니다.
+   필드를 추가할 때 다음 사항을 고려하십시오.
 
-   <!--add screenshot-->
+   * 일부 구성 요소는 필수 요소이거나 지원되지 않거나 데이터 피드에 제한 사항이 있습니다. 자세한 내용은 [데이터 피드의 구성 요소 가용성](/help/components/exports/cja-data-feeds/df-components.md)을 참조하세요.
 
-   일부 구성 요소는 필수 요소이거나 지원되지 않거나 데이터 피드에 제한 사항이 있습니다. 자세한 내용은 [데이터 피드의 구성 요소 가용성](/help/components/exports/cja-data-feeds/df-components.md)을 참조하세요.
+   * XDM 배열 필드(예: Adobe Journey Optimizer 제안 필드)나 맵 필드에 속하는 구성 요소를 추가하면 동일한 하위 컨테이너에서 다른 구성 요소를 추가하라는 대화 상자가 표시됩니다. 데이터 피드 출력에서 이러한 모든 구성 요소는 단일 열에 나타납니다. 자세한 내용은 [데이터 피드의 하위 컨테이너 구성 요소](/help/components/exports/cja-data-feeds/df-sub-event.md)를 참조하세요.
 
 1. (선택 사항) 캔버스에서 구성 요소를 드래그하여 순서를 변경합니다. 정의한 순서는 내보낸 데이터 피드 파일의 열 순서로 유지됩니다.
 
@@ -342,9 +342,11 @@ ht-degree: 12%
 
 #### 2단계: 데이터가 데이터 레이크에서 Customer Journey Analytics으로 수집됩니다
 
-최대 90분 정도 소요될 수 있습니다([대기 시간](/help/technotes/guardrails.md#latencies) 참조).
+데이터 수집 시간은 데이터 세트에 결합이 활성화되었는지 여부에 따라 달라집니다.
 
-* **결합된 데이터 세트**: 결합은 최대 4시간을 추가할 수 있습니다([지연 시간](/help/technotes/guardrails.md#latencies) 참조). 연결에 대해 연결이 활성화된 경우 지연을 최소 6시간으로 설정하고 잠재적으로 8시간으로 설정하십시오. 결합 재생으로 업데이트된 데이터는 일반적으로 이미 처리된 데이터 피드 파일에 포함되지 않습니다.
+* **연결되지 않은 데이터 세트**: 최대 90분 정도 소요될 수 있습니다([대기 시간](/help/technotes/guardrails.md#latencies) 참조).
+
+* **결합된 데이터 세트**: 결합되지 않은 데이터 세트의 경우 90분 외에 최대 4시간을 결합할 수 있습니다([대기 시간](/help/technotes/guardrails.md#latencies) 참조). 연결에 대해 연결이 활성화된 경우 지연을 최소 6시간으로 설정하고 잠재적으로 8시간으로 설정하십시오. 결합 재생으로 업데이트된 데이터는 일반적으로 이미 처리된 데이터 피드 파일에 포함되지 않습니다.
 
   결합이 활성화된 경우 결합된 데이터를 처리하기 위해 최소 처리 지연이 2시간에서 6시간으로 늘어납니다.
 

@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics용 스키마 만들기
-description: Adobe Analytics에서 Customer Journey Analytics로 업그레이드할 때 권장되는 경로 자세히 알아보기
+title: 데이터가 Customer Journey Analytics로 흐르는지 확인
+description: Adobe Analytics에서 업그레이드한 후 데이터가 Customer Journey Analytics으로 전송되고 있는지 확인하는 방법을 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '143'
+ht-degree: 88%
 ---
 # 데이터가 Customer Journey Analytics로 흐르는지 확인 {#validate-data}
 

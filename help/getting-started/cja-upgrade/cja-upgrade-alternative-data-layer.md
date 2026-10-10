@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics으로 업그레이드할 때의 대체 방법
-description: Customer Journey Analytics으로 업그레이드할 때의 대체 방법에 대해 알아봅니다.
+title: '업그레이드 대안: 데이터 레이어를 Customer Journey Analytics로 전송'
+description: XDM 개체를 사용하여 데이터를 수집하는 대신 전체 데이터 레이어를 Customer Journey Analytics으로 전송하는 방법에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '707'
 ht-degree: 54%
 ---
 # 업그레이드 대안: 데이터 레이어를 Customer Journey Analytics로 전송 {#data-collection-data-layer}

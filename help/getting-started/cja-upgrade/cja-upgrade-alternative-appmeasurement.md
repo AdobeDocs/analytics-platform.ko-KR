@@ -1,6 +1,6 @@
 ---
-title: Customer Journey Analytics으로 업그레이드할 때의 대체 방법
-description: Customer Journey Analytics으로 업그레이드할 때의 대체 방법에 대해 알아봅니다.
+title: '업그레이드 대안: AppMeasurement 데이터 수집을 Experience Platform Web SDK 및 Customer Journey Analytics와 함께 사용'
+description: 기존 AppMeasurement 또는 Analytics 확장 데이터 수집 로직을 웹 SDK과 함께 사용하여 데이터를 Customer Journey Analytics으로 전송하는 방법에 대해 알아봅니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 59%
+source-wordcount: '1471'
+ht-degree: 56%
 ---
 # 업그레이드 대안: AppMeasurement 데이터 수집을 Experience Platform Web SDK 및 Customer Journey Analytics와 함께 사용 {#data-collection-appmeasurement}
 
@@ -59,7 +59,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="Web SDK를 가리키도록 AppMeasurement 논리 변경"
->abstract="이 단계는 구현 지름길을 선택했기 때문에 표시됩니다. AppMeasurement 논리를 복사하거나 변경하여 s 오브젝트 대신 데이터 오브젝트에 값을 채웁니다. 예를 들어 s.eVar1의 할당을 data.__adobe.analytics.eVar1로 변경하고 모든 Analytics 변수에 대해 반복합니다."
+>abstract="이 단계는 구현 바로 가기를 선택했기 때문에 나타납니다. AppMeasurement 논리를 복사하거나 변경하여 s 오브젝트 대신 데이터 오브젝트에 값을 채웁니다. 예를 들어 s.eVar1의 할당을 data.__adobe.analytics.eVar1로 변경하고 모든 Analytics 변수에 대해 반복합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ XDM 개체를 사용하여 데이터를 수집하는 대신 웹 SDK에서 AppMea
 
 ## 장점과 단점
 
-이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1&rbrace;을 통과하므로 더욱 세련되었습니다._
+이 메서드는 [전체 데이터 레이어를 Customer Journey Analytics으로 보내기](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)와 함께 사용할 수 없습니다. 두 메서드가 동일한 작업을 수행하기 때문입니다. (이 방법은 전체 데이터 레이어를 Adobe으로 보내는 것이 좋습니다. prop과 evar는 모두 data.adobe.analytics._variable-name__1&rbrace;을 통과하므로 더욱 세련되었습니다._
 
 이 업그레이드 대체 요소를 사용할 때 다음과 같은 장점과 단점을 고려하십시오.
 
@@ -101,7 +101,7 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
 
    1. 데이터 개체를 통해 모든 변수를 AppMeasurement 형식으로 보냅니다.
 
-      자세한 내용은 [Adobe Analytics에 대한 데이터 개체 변수 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/data-var-mapping)을 참조하십시오.
+      이 데이터를 Adobe Analytics에도 전송하는 경우 Edge Network은 이러한 데이터 개체 필드를 Adobe Analytics 변수에 자동으로 매핑합니다. 지원되는 필드 목록은 [Adobe Analytics에 대한 데이터 개체 필드 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/data-var-mapping)을 참조하십시오. Customer Journey Analytics은 이러한 매핑을 사용하지 않습니다. 이후 단계에서 데이터 개체 필드를 Customer Journey Analytics에 대한 XDM 스키마에 매핑합니다.
 
    1. 스키마를 선택합니다.
 
@@ -127,7 +127,7 @@ Adobe Analytics 구현(AppMeasurement 또는 Analytics 확장)을 마이그레�
 
    1. 데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.
 
-      자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
+      Customer Journey Analytics에서는 스키마에 매핑하는 데이터 개체 필드만 사용할 수 있습니다. 자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
 
 {{upgrade-final-step}}를 참조하십시오.
 

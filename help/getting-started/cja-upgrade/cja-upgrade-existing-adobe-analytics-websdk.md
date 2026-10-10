@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 64%
+source-wordcount: '1117'
+ht-degree: 60%
 ---
 # 기존 Adobe Analytics Web SDK 구현을 구성하여 데이터를 Platform으로 전송합니다. {#existing-websdk-implementation}
 
@@ -75,7 +75,7 @@ Adobe Analytics 구현에서 이미 Adobe Experience Platform Web SDK을 사용�
 
 1. Edge Network에서 플랫폼으로 데이터 전송을 시작합니다. 데이터 개체를 통해 모든 변수를 AppMeasurement 형식으로 보냅니다.
 
-   자세한 내용은 [Adobe Analytics에 대한 데이터 개체 변수 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/data-var-mapping)을 참조하십시오.
+   Edge Network은 이러한 데이터 개체 필드를 Adobe Analytics 변수에 자동으로 매핑하므로 업그레이드 중에 Adobe Analytics 보고가 그대로 유지됩니다. 지원되는 필드 목록은 [Adobe Analytics에 대한 데이터 개체 필드 매핑](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/data-var-mapping)을 참조하십시오. Customer Journey Analytics은 이러한 매핑을 사용하지 않습니다. 이후 단계에서 데이터 개체 필드를 Customer Journey Analytics에 대한 XDM 스키마에 매핑합니다.
 
 1. 스키마를 선택합니다.
 
@@ -101,6 +101,6 @@ Adobe Analytics 구현에서 이미 Adobe Experience Platform Web SDK을 사용�
 
 1. 데이터 스트림 매핑을 사용하여 데이터 개체의 모든 필드를 XDM 스키마에 매핑합니다.
 
-   자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
+   Customer Journey Analytics에서는 스키마에 매핑하는 데이터 개체 필드만 사용할 수 있습니다. 자세한 내용은 Experience Platform 설명서의 [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep)에서 [매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep?lang=en#mapping)을 참조하십시오.
 
 {{upgrade-final-step}}

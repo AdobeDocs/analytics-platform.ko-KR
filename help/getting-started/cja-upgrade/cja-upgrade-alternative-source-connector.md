@@ -1,6 +1,6 @@
 ---
-title: Analytics 소스 커넥터만 사용하여 Customer Journey Analytics로 업그레이드
-description: Analytics 소스 커넥터 및 맵 필드를 만드는 방법 알아보기
+title: '업그레이드 대안: Analytics 소스 커넥터만 사용하여 Customer Journey Analytics로 업그레이드'
+description: Analytics 소스 커넥터를 Customer Journey Analytics의 유일한 구현 경로로 사용할 때의 장단점을 이해합니다. Adobe에서는 이 방법을 권장하지 않습니다.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 94%
+source-wordcount: '437'
+ht-degree: 88%
 ---
 # 업그레이드 대안: Analytics 소스 커넥터만 사용하여 Customer Journey Analytics로 업그레이드 {#use-source-connector-exclusively}
 
