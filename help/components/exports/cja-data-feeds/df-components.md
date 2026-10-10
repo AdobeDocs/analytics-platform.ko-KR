@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 44%
+source-wordcount: '1419'
+ht-degree: 43%
 ---
 # 데이터 피드의 구성 요소 가용성
 
@@ -98,6 +98,8 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 <!-- markdownlint-disable MD034 -->
 
+<!-- pretty sure this isn't being used -->
+
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -109,14 +111,20 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 >
 >특정 차원은 Experience Platform 데이터 세트에서 함께 사용할 수 없으므로 동일한 데이터 피드에 포함할 수 없습니다.
 >
->데이터 피드에 **사용자 에이전트** 또는 **Mobile ID** 차원을 포함하도록 선택한 경우 아래 나열된 차원을 데이터 피드에 추가할 수 없습니다.
+>데이터 피드에 **사용자 에이전트** 또는 **모바일 ID** 차원을 포함하도록 선택한 경우 아래 나열된 차원을 데이터 피드에 추가할 수 없습니다.
 >
 >웹 SDK을 사용하는 경우 데이터가 Experience Platform 데이터 세트에 도달하기 전에 데이터 스트림에 이 제한이 적용됩니다. 자세한 내용은 데이터 수집 가이드의 [데이터 스트림 만들기 및 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)에서 [장치 조회 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#geolocation-device-lookup)을 참조하십시오.
 
 다음 차원은 **사용자 에이전트** 또는 **Mobile ID** 차원과 함께 사용할 수 없습니다.
 
+>[!NOTE]
+>
+>다음 목록은 기본 차원 이름을 사용합니다. 데이터 보기에서 이름이 변경된 차원은 사용자 지정 이름과 함께 데이터 피드에 표시됩니다.
+
+
 * 브라우저 유형
 * 브라우저
+* 브라우저 ID
 * 모바일 제조업체
 * 모바일 디바이스 유형
 * 모바일 오디오 지원
@@ -141,6 +149,7 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 * 모바일 디바이스 이름
 * 운영 체제 유형
 * 운영 체제
+* 운영 체제 ID
 
 ## 대체가 필요한 지표 {#substitute-metrics}
 

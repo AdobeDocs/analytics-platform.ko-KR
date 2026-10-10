@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 안내서
 user-guide-description: Adobe Customer Journey Analytics란 무엇이며 Experience Platform의 데이터와 함께 Analysis Workspace를 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: Customer Journey Analytics 안내서
-source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
+source-git-commit: f5e2a6604ee1bf2b5a5a393b402da24b66d9b81d
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 92%
+source-wordcount: '1517'
+ht-degree: 91%
 ---
 # Adobe Customer Journey Analytics 안내서 {#using}
 
@@ -65,7 +65,7 @@ ht-degree: 92%
       + [Web SDK 확장 기능용 로더 태그 구현](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [태그에 XDM 데이터 수집 논리 추가](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
     + [Web SDK 수동 구현](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
-    + [API를 사용하여 Web SDK 구현](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
+    + [NPM 패키지를 사용하여 웹 SDK 구현](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
     + [연결 만들기](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
     + [데이터 보기 만들기](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
     + [마케팅 채널 파생 필드 만들기](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
@@ -438,7 +438,7 @@ ht-degree: 92%
       + {hide-from-toc}[구성 요소 가용성](/help/components/exports/cja-data-feeds/df-components.md)
       + {hide-from-toc}[데이터 피드의 세분화](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[데이터 변환 적용](/help/components/exports/cja-data-feeds/df-data-transformations.md)
-      + {hide-from-toc}[데이터 피드의 하위 이벤트](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + {hide-from-toc}[하위 컨테이너 구성 요소](/help/components/exports/cja-data-feeds/df-sub-event.md)
   + 데이터 사전 {#data-dictionary}
     + [개요](../components/data-dictionary/data-dictionary-overview.md)
     + [데이터 사전의 구성 요소 정보 보기](../components/data-dictionary/view-data-dictionary.md)
