@@ -96,4 +96,4 @@ Experience Platform에서 Adobe Brand Visibility 소스를 활성화합니다. �
 
 ## 아웃바운드 통합
 
-아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.
+아웃바운드 통합에 대한 자세한 내용은 Adobe Brand Visibility 설명서의 [Customer Journey Analytics 통합](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}을 참조하십시오.
