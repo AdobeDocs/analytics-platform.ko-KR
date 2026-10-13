@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fb3ebdba335ce2dde30d37b8aff4e8f201dc5d9f
+source-git-commit: e3958dfbad19f5fdd78b2755817d21afad8f8e84
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '844'
 ht-degree: 3%
 ---
 
@@ -29,12 +29,14 @@ AI는 주요 검색 채널이 되었습니다. ChatGPT, Copilot, Copilot, 크롤
 
 >[!NOTE]
 >
->브랜드 가시성 유료 서비스가 프로비저닝되어 있고 관리 커넥터를 통해 Experience Platform 구성에 연결되어 있어야 합니다.
+>브랜드 가시성 유료 서비스가 있어야 합니다. 그런 다음 Experience Platform 샌드박스에서 Adobe Brand Visibility 소스를 [구성 및 활성화](./configure.md)합니다.
+>
 
 
 >[!IMPORTANT]
 >
 >이 통합의 일부로, 미국에서 브랜드 가시성 데이터의 일부 임시 처리가 발생합니다. 데이터는 Customer Journey Analytics 계약에 구성된 대로 지정된 영역에 최종적으로 저장됩니다.
+>
 
 
 ## 사용 사례
@@ -68,7 +70,7 @@ LLM 트래픽은 두 가지 방법으로 사이트에 도달합니다. Customer 
 
 ### 데이터 세트 온보드
 
-브랜드 가시성 관리 커넥터는 데이터를 요약 데이터 세트로 Experience Platform에 전달합니다. Customer Journey Analytics에서 측정하려면 두 가지 설정 단계를 직접 완료합니다.
+Experience Platform에서 Adobe Brand Visibility 소스를 활성화합니다. 소스는 데이터를 요약 데이터 세트로 샌드박스에 전달합니다. Customer Journey Analytics에서 데이터를 측정하려면 다음 두 가지 설정 단계를 직접 완료하십시오.
 
 1. 브랜드 가시성 데이터 세트를 포함하는 연결을 만듭니다.
 2. 해당 연결에 대한 데이터 보기를 만듭니다. 데이터 보기를 통해 Analysis Workspace에서 아래의 차원 및 지표를 사용할 수 있습니다.
