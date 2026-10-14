@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
+source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '3924'
 ht-degree: 12%
@@ -129,7 +129,7 @@ ht-degree: 12%
 
    * 일부 구성 요소는 필수 요소이거나 지원되지 않거나 데이터 피드에 제한 사항이 있습니다. 자세한 내용은 [데이터 피드의 구성 요소 가용성](/help/components/exports/cja-data-feeds/df-components.md)을 참조하세요.
 
-   * XDM 배열 필드(예: Adobe Journey Optimizer 제안 필드)나 맵 필드에 속하는 구성 요소를 추가하면 동일한 하위 컨테이너에서 다른 구성 요소를 추가하라는 대화 상자가 표시됩니다. 데이터 피드 출력에서 이러한 모든 구성 요소는 단일 열에 나타납니다. 자세한 내용은 [데이터 피드의 하위 컨테이너 구성 요소](/help/components/exports/cja-data-feeds/df-sub-event.md)를 참조하세요.
+   * XDM 배열 필드(예: Adobe Journey Optimizer 제안 필드)나 맵 필드에 속하는 구성 요소를 추가하면 동일한 하위 이벤트에서 다른 구성 요소를 추가하라는 대화 상자가 표시됩니다. 데이터 피드 출력에서 이러한 모든 구성 요소는 단일 열에 나타납니다. 자세한 내용은 [데이터 피드의 하위 이벤트 구성 요소](/help/components/exports/cja-data-feeds/df-sub-event.md)를 참조하세요.
 
 1. (선택 사항) 캔버스에서 구성 요소를 드래그하여 순서를 변경합니다. 정의한 순서는 내보낸 데이터 피드 파일의 열 순서로 유지됩니다.
 
