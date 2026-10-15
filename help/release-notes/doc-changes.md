@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '7183'
-ht-degree: 96%
+source-wordcount: '7222'
+ht-degree: 95%
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
@@ -70,8 +70,8 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 10월** | |
+| Content Analytics 유료 미디어 채널 | 유료 미디어 소스 커넥터(예: Google 광고 또는 Meta 광고)를 사용하고 Content Analytics 유료 미디어 채널을 구성 및 활성화하여 데이터 세트 및 데이터 보기 구성 요소의 자동 구성에 대한 포괄적인 [설명서](/help/content-analytics/config/paid-media.md). |
 | 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
-| 2026년 10월 | |
 | Brand Visibility | 자세한 정보로 [브랜드 가시성 인바운드 통합](/help/integrations/bv/bv.md#inbound-integration)에 대한 설명서를 업데이트했습니다. |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |

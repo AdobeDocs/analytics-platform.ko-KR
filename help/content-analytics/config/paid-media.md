@@ -3,9 +3,8 @@ title: Content Analytics 유료 미디어 자동 구성
 description: 데이터 세트의 자동 구성, 연결, 데이터 보기 등에 대해 알아봅니다.
 solution: Customer Journey Analytics
 feature: Content Analytics
-hold: true
 role: Admin
-source-git-commit: 2a788aa5cf007a434e5b40c65aea0c887bc357e3
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 2%
