@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '4800'
-ht-degree: 56%
+source-wordcount: '4844'
+ht-degree: 55%
 ---
 
 # Content Analytics 가이드 구성
@@ -332,7 +332,7 @@ Content Analytics 데이터 수집을 추가할 연결을 선택해야 합니다
 
 * Content Analytics에 대한 데이터를 수집할 때 제외할 자산 URL을 나타냅니다. 개인 식별이 가능한 에셋 URL을 제외해야 합니다.
 
-  **[!UICONTROL 제외할 자산 URL에 대해**&#x200B;[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]&#x200B;**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
+  **[!UICONTROL 제외할 자산 URL에 대해**[!UICONTROL &#x200B;정규 표현식 문자열&#x200B;]**을 지정하십시오]**. <br/>예: `^(?!.*(logo\.jpg)).*$` Content Analytics에서 로고 JPEG 이미지를 참조하는 모든 에셋 URL을 제외합니다.
 
 
 ### 헤더 재정의 {#mobile-header-overrides}
@@ -705,6 +705,11 @@ Experience Platform에서 소스 커넥터를 구성한 후 ![새로 고침](/he
 * 이 샌드박스 내 모든 연결된 소스 커넥터의 유료 미디어 데이터 세트를 포함하도록 Customer Journey Analytics 연결을 업데이트합니다.
 * 선택된 모든 데이터 보기에서 유료 미디어 차원 및 지표를 활성화합니다.
 * Workspace 보고서에서 필터링 가능한 차원으로 유료 미디어 채널을 표면화합니다.
+
+자세한 내용은 [유료 미디어 자동 구성](./paid-media.md)을 참조하십시오.
+
+* 유료 미디어 소스 커넥터를 처음 사용하여 발생한 유료 미디어 데이터 세트의 자동 구성입니다.
+* Content Analytics에서 유료 미디어 채널 구성 및 활성화 시 생성되는 데이터 보기 구성 요소입니다.
 
 ### 저장 {#paidmedia-save}
 
