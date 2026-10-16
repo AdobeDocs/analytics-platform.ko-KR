@@ -137,9 +137,9 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 보기] | 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스 권한. |
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 관리] | 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
-* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
+* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
@@ -150,14 +150,14 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 * [대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets)으로 데이터 세트 내보내기
 
-  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
+  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
   | [!UICONTROL 대상] | [!UICONTROL 대상 관리] | 대상 연결 및 대상 계정을 읽고 만들고 삭제할 수 있는 액세스 권한. |
   | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 세그먼트를 기존 대상으로 활성화할 수 있도록 허용합니다. 활성화 워크플로에서 매핑 단계를 활성화합니다. 이 권한을 사용하려면 대상에 데이터를 활성화하려는 사용자에게 대상 보기 권한도 부여되어야 합니다. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
 
 * [BI 확장 기능](../data-views/bi-extension.md) 사용
