@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # 액세스 제어
 
@@ -137,9 +137,9 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 보기] | 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스 권한. |
   | [!UICONTROL 데이터 거버넌스] | [!UICONTROL 데이터 사용 정책 관리] | 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제할 수 있는 액세스 권한. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
-* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
+* Journey Optimizer이 Journey Optimizer 연결이 있는 Customer Journey Analytics과 통합되는 경우 [여정 권한](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)도 연결에 추가해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
@@ -150,14 +150,14 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 * [대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets)으로 데이터 세트 내보내기
 
-  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
+  이 작업을 수행하려면 사용자는 다음 [대상 권한](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)을 제공하는 **Experience Platform 역할**&#x200B;에 속해야 합니다.
 
   | 카테고리 | 사용 권한 | 설명 |
   |---|---|---|
   | [!UICONTROL 대상] | [!UICONTROL 대상 관리] | 대상 연결 및 대상 계정을 읽고 만들고 삭제할 수 있는 액세스 권한. |
   | [!UICONTROL 대상] | [!UICONTROL 대상 활성화] | 사용자가 세그먼트를 기존 대상으로 활성화할 수 있도록 허용합니다. 활성화 워크플로에서 매핑 단계를 활성화합니다. 이 권한을 사용하려면 대상에 데이터를 활성화하려는 사용자에게 대상 보기 권한도 부여되어야 합니다. |
 
-  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
+  Experience Platform 권한에 대한 자세한 내용은 [샌드박스 및 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)을 참조하세요.
 
 
 * [BI 확장 기능](../data-views/bi-extension.md) 사용
@@ -191,6 +191,8 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 ![Admin Console 권한](assets/permissions.png)
 
+<!-- FOLLOW-UP (waiting on PM): The AI Assistant: Product Knowledge and Data Insights Agent permissions haven't been updated in the product yet. When the PM confirms the Coworker permission name and category, update both rows below. Links to the retired AI Assistant and Data Insights Agent pages were removed. -->
+
 | 카테고리 | 사용 권한 | 설명 |
 | --- | --- | ---|
 | [!UICONTROL 데이터 보기] | *데이터 보기 이름* | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
@@ -205,8 +207,8 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 | [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 모든 사용자와 프로젝트 링크 공유] | 사용자가 [누구에게나 프로젝트를 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 예측] | 사용자가 Analysis Workspace의 [예측](../analysis-workspace/c-forecast/forecasting.md) 기능에 액세스할 수 있도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 [AI 어시스턴트](../ai-assistant.md)에 액세스하여 제품 지식을 얻도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL Data Insights 에이전트] | 사용자가 AI 기반 데이터 인사이트를 위한 [Data Insights Agent](../data-analysis-ai.md)에 액세스할 수 있도록 허용합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 AI Assistant에 액세스하여 제품 지식을 얻을 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL Data Insights 에이전트] | 사용자가 Data Insights Agent for AI 기반 데이터 인사이트에 액세스할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 인텔리전트 캡션] | 사용자가 [인텔리전트 캡션](/help/analysis-workspace/visualizations/intelligent-captions.md)에 액세스할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL MCP 액세스] | 사용자가 [Customer Journey Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/cja/)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 데이터 보기 도구] | [!UICONTROL 전체 테이블 내보내기] | 사용자가 [클라우드로 전체 테이블을 내보내기](/help/analysis-workspace/export/export-cloud.md)할 수 있도록 합니다. |

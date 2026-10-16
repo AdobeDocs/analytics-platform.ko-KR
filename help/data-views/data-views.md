@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 88%
@@ -91,7 +91,7 @@ Customer Journey Analytics의 Workspace 프로젝트는 데이터 보기를 기�
 
 * 데이터 보기에서 컨테이너의 이름을 바꾸고 해당 데이터 보기를 기반으로 하는 모든 Workspace 프로젝트에 이름이 변경된 컨테이너가 표시되도록 할 수 있습니다.
 
-* 데이터 보기에 대해 Data Insights Agent을 활성화하거나 비활성화할 수 있습니다.
+* 데이터 보기에 대해 Data Insights Agent을 활성화하거나 비활성화할 수 있습니다. <!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but this setting is still in the UI. Confirm with the SME. -->
 
 ## 데이터 보기의 사전 요구 사항 {#prerequisites}
 
