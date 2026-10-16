@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4cdf80f86cea6a60e3b098c6efbaab0821a256c7
 workflow-type: tm+mt
 source-wordcount: '7372'
-ht-degree: 82%
+ht-degree: 83%
 ---
 # 여정 캔버스 시각화 구성
 
@@ -150,7 +150,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare_percentages"
 >title="백분율 비교"
->abstract="기본 지표를 기준으로 현재 날짜 범위와 선택한 비교 날짜 범위 사이의 여정에 있는 각 노드, 화살표 및 폴아웃의 백분율 변경을 비교합니다. 이 옵션을 비활성화하면 백분율 변경 대신 원시 값 백분율이 표시됩니다."
+>abstract="기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 여정의 각 노드, 화살표, 폴아웃에 대한 백분율 변화를 비교합니다. 이 옵션을 비활성화하면 백분율 변화 대신 원시 값 백분율이 표시됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
