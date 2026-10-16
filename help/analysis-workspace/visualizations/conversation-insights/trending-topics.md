@@ -4,12 +4,11 @@ title: 트렌딩 항목
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 137dba69c8827f3b67d5656760d7715437c58b73
+source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
 ---
-
 # 트렌딩 항목
 
 >[!CONTEXTUALHELP]
@@ -44,7 +43,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오.
 
-트렌드 항목 시각화를 다시 구성하려면 **순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_**.
+트렌드 항목 시각화를 다시 구성하려면 **[!UICONTROL 순위 지표: _순위 지표_ 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다. | 하위 항목 수준: _x_]**.
 
 ## 사용
 
