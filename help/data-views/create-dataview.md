@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3165'
 ht-degree: 77%
 ---
 # 데이터 보기 만들기 또는 편집
@@ -117,9 +117,20 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 {style="table-layout:auto"}
 
 
-### AI 설정
+### AI 설정 {#ai-settings}
 
-[Data Insights Agent](/help/data-analysis-ai.md)에 대한 데이터 보기를 사용하려면 **[!UICONTROL Data Insights Agent에 대해 사용]**&#x200B;을 선택하십시오. Data Insights Agent은 Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 생성 AI 대화 에이전트입니다. 이 에이전트는 텍스트 프롬프트를 통해 데이터를 빠르게 분석하는 데 도움이 됩니다. 에이전트는 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
+<!-- FOLLOW-UP: The Enable for Data Insights Agent setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what this setting does now and whether it will be renamed or removed. This contextual help block was moved here from the retired data-analysis-ai.md page; confirm that the in-product help still resolves. -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="Data Insights 에이전트에 대해 활성화"
+>abstract="이 옵션을 사용하면 이 데이터 보기를 활성화하여 Data Insights 에이전트에서 사용할 수 있습니다. Data Insights Agent은 텍스트 프롬프트로 데이터를 빠르게 분석하는 데 도움이 되는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+Data Insights Agent에 대한 데이터 보기를 활성화하려면 **[!UICONTROL Data Insights Agent에 대해 활성화]**&#x200B;를 선택하십시오. Data Insights Agent은 텍스트 프롬프트로 데이터를 빠르게 분석하는 데 도움이 되는 생성 AI 대화 에이전트입니다. 에이전트는 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다.
 
 
 ### 캘린더

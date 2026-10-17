@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 10%
@@ -46,6 +46,8 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 
 표에서 사용할 수 있는 열과 아이콘은 다음과 같습니다.
 
+<!-- FOLLOW-UP (engineering): The Data views table UI still shows a Data Insights Agent column, a Data Insights Agent Status pop-up, and Enable/Disable for Data Insights Agent context menu options. These presumably should change to Coworker. Log with engineering, then update the labels, descriptions, and the data-views-dia-status.png screenshot. -->
+
 | 열 또는 아이콘 | 설명 |
 | --- | --- |
 | **[!UICONTROL 이름]** | 데이터 이름 보기. |
@@ -54,7 +56,7 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 | **[!UICONTROL 연결]** | 데이터 보기와 연결된 연결의 이름입니다. |
 | **[!UICONTROL 샌드박스]** | 데이터 보기와 연결된 샌드박스의 이름입니다. |
 | **[!UICONTROL 소유자]** | 데이터 보기의 소유자입니다. |
-| **[!UICONTROL Data Insights Agent]** ![InfoOutline](/help/assets/icons/InfoOutline.svg) | 데이터 보기에 대해 [Data Insights Agent](/help/data-analysis-ai.md)이(가) **[!UICONTROL 활성화됨]** 또는 **[!UICONTROL 비활성화됨]**&#x200B;인지 여부를 나타냅니다. <br/>데이터 보기에서 **[!UICONTROL Data Insights Agent 상태]**&#x200B;의 팝업을 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오. <br/>![Data Insights Agent 사용](/help/data-views/assets/data-views-dia-status.png) |
+| **[!UICONTROL Data Insights Agent]** ![InfoOutline](/help/assets/icons/InfoOutline.svg) | 데이터 보기에 대해 [Data Insights Agent](/help/data-views/create-dataview.md#ai-settings)이(가) **[!UICONTROL 활성화됨]** 또는 **[!UICONTROL 비활성화됨]**&#x200B;인지 여부를 나타냅니다. <br/>데이터 보기에서 **[!UICONTROL Data Insights Agent 상태]**&#x200B;의 팝업을 표시하려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하십시오. <br/>![Data Insights Agent 사용](/help/data-views/assets/data-views-dia-status.png) |
 | **[!UICONTROL 통합]** | 다른 솔루션과 통합 나열 예: Adobe Audience Analysis, Content Analytics, Brand Concierge, Journey Optimizer, GenStudio 및 사용 분석. |
 | **[!UICONTROL CJA에서 사용]** | Customer Journey Analytics에서 데이터 보기를 사용하는지 여부를 나타냅니다. 이 값은 Adobe Journey Optimizer 통합의 일부로 자동으로 생성되는 데이터 보기의 경우에만 **[!UICONTROL 해제]**&#x200B;입니다. |
 | **[!UICONTROL 생성된 일자]** | 데이터 보기가 생성된 타임스탬프. |
@@ -166,7 +168,9 @@ Customer Journey Analytics의 기본 메뉴 모음에서 **[!UICONTROL 데이터
 
 ## Data Insights Agent에 대한 데이터 보기 활성화 또는 비활성화
 
-[Data Insights Agent](/help/data-analysis-ai.md)에 대한 데이터 보기를 활성화하거나 비활성화할 수 있습니다.
+<!-- FOLLOW-UP: This setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what the setting does now and whether it will be renamed or removed. This also applies to the Data Insights Agent column above. -->
+
+[Data Insights Agent](/help/data-views/create-dataview.md#ai-settings)에 대한 데이터 보기를 활성화하거나 비활성화할 수 있습니다.
 
 1. 데이터 보기 이름 옆에 있는 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Data Insights Agent에 대해 사용]** 또는 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Data Insights Agent에 대해 사용 안 함]**&#x200B;을 선택합니다.

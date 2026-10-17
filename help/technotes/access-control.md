@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # 액세스 제어
 
@@ -191,6 +191,8 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 
 ![Admin Console 권한](assets/permissions.png)
 
+<!-- FOLLOW-UP (waiting on PM): The AI Assistant: Product Knowledge and Data Insights Agent permissions haven't been updated in the product yet. When the PM confirms the Coworker permission name and category, update both rows below. Links to the retired AI Assistant and Data Insights Agent pages were removed. -->
+
 | 카테고리 | 사용 권한 | 설명 |
 | --- | --- | ---|
 | [!UICONTROL 데이터 보기] | *데이터 보기 이름* | **[!UICONTROL 자동 포함]**&#x200B;을 **[!UICONTROL 켜기]**&#x200B;로 전환하면 이 제품 프로필의 일부인 사용자가 기존 데이터 보기와 새로 생성된 데이터 보기를 모두 볼 수 있습니다. 이 설정을 **[!UICONTROL 끄기]**&#x200B;로 설정하면 사용자가 액세스할 수 있는 특정 데이터 보기를 선택할 수 있습니다. |
@@ -205,8 +207,8 @@ Customer Journey Analytics는 제품 관리자 역할, 제품 프로필 관리�
 | [!UICONTROL 보고 도구] | [!UICONTROL 감사 로그 액세스] | [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 및 감사 로그 UI에 대한 권한 검사를 시행합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 모든 사용자와 프로젝트 링크 공유] | 사용자가 [누구에게나 프로젝트를 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 예측] | 사용자가 Analysis Workspace의 [예측](../analysis-workspace/c-forecast/forecasting.md) 기능에 액세스할 수 있도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 [AI 어시스턴트](../ai-assistant.md)에 액세스하여 제품 지식을 얻도록 합니다. |
-| [!UICONTROL 보고 도구] | [!UICONTROL Data Insights 에이전트] | 사용자가 AI 기반 데이터 인사이트를 위한 [Data Insights Agent](../data-analysis-ai.md)에 액세스할 수 있도록 허용합니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL AI 어시스턴트: 제품 지식] | 사용자가 AI Assistant에 액세스하여 제품 지식을 얻을 수 있습니다. |
+| [!UICONTROL 보고 도구] | [!UICONTROL Data Insights 에이전트] | 사용자가 Data Insights Agent for AI 기반 데이터 인사이트에 액세스할 수 있습니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL 인텔리전트 캡션] | 사용자가 [인텔리전트 캡션](/help/analysis-workspace/visualizations/intelligent-captions.md)에 액세스할 수 있도록 합니다. |
 | [!UICONTROL 보고 도구] | [!UICONTROL MCP 액세스] | 사용자가 [Customer Journey Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/cja/)에 액세스할 수 있도록 허용합니다. |
 | [!UICONTROL 데이터 보기 도구] | [!UICONTROL 전체 테이블 내보내기] | 사용자가 [클라우드로 전체 테이블을 내보내기](/help/analysis-workspace/export/export-cloud.md)할 수 있도록 합니다. |

@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 8b1f9d95fb38c0fcb1a7f3d9b41bf3cfb9355ed9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 ---
 # 동료에 대한 제품 내 경험 사용
@@ -42,13 +42,15 @@ ht-degree: 0%
 
   Workspace에서 Coworker에 액세스할 수 없는 경우 관리자에게 문의하십시오. 자세한 내용은 [IMS 조직 환경 설정](/help/analysis-workspace/user-preferences.md#ims-organization-preferences)을 참조하십시오. <!-- need to update this section with the new toggle -->
 
-<!-- **[PLACEHOLDER: Permissions and product profile requirements. Include the Admin Console steps to grant access, if applicable.]** -->
+<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
+
+* **권한**: [!UICONTROL Adobe Admin Console]에서 [!UICONTROL 보고 도구] **[!UICONTROL Coworker]** 권한이 Coworker에 대한 액세스를 결정합니다. [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 이 권한을 제품 프로필에 추가해야 합니다. 자세한 내용은 [액세스 제어](/help/technotes/access-control.md#access-control)를 참조하십시오.
 
 * **데이터 보기 액세스**: Coworker가 기존 Analysis Workspace 및 데이터 보기 권한을 사용합니다. 아직 액세스 권한이 없는 데이터 또는 구성 요소에는 액세스할 수 없습니다.
 
 ### Workspace의 Coworker와 Coworker 애플리케이션 중 선택
 
-Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
+Coworker의 제품 내 경험에는 액세스 권한이 있는 기술을 포함하여 [CX Enterprise Coworker 애플리케이션](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)과(와) 동일한 기능이 많이 있습니다. 그러나 둘 중 하나를 사용할 수 있는 시기를 결정하는 중요한 차이점이 있습니다.
 
 | | 동료에 대한 제품 내 경험 | 동료 응용 프로그램 |
 | --- | --- | --- |
@@ -112,7 +114,7 @@ Coworker에게 프로젝트에서 항목을 작성하거나 편집하도록 요�
 
 1. Customer Journey Analytics에서 기존 Workspace 프로젝트를 열거나 새 프로젝트를 만듭니다.
 
-1. **[PLACEHOLDER: 아이콘 이름 및 위치와 같은 Coworker 패널을 여는 방법입니다. 스크린샷을 추가합니다.]**
+1. 헤더의 오른쪽 위 모서리에 있는 **Coworker** 아이콘 ![Ask](/help/assets/icons/coworker.svg)을(를) 선택하여 Coworker 채팅 패널을 엽니다.
 
 1. 채팅 패널에서 동료가 수행할 작업을 설명합니다.
 
@@ -147,7 +149,7 @@ Coworker에게 프로젝트에서 항목을 작성하거나 편집하도록 요�
 
 1. Customer Journey Analytics에서 기존 Workspace 프로젝트를 열거나 새 프로젝트를 만듭니다.
 
-1. **[PLACEHOLDER: 아이콘 이름 및 위치와 같은 Coworker 패널을 여는 방법입니다. 스크린샷을 추가합니다.]**
+1. 헤더의 오른쪽 위 모서리에 있는 **Coworker** 아이콘 ![Ask](/help/assets/icons/coworker.svg)을(를) 선택하여 Coworker 채팅 패널을 엽니다.
 
 1. 채팅 패널에서 동료가 수행할 작업을 설명합니다.
 

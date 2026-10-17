@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 10%
@@ -242,7 +242,7 @@ Content Analytics의 경우 다음 Customer Journey Analytics 제품 프로필 �
   * 감사 로그 액세스
   * 모든 사용자와 프로젝트 링크 공유
   * 예측
-  * AI 어시스턴트: 제품 지식
+  * AI Assistant: 제품 지식 <!-- FOLLOW-UP (waiting on PM): These two permissions haven't been updated in the product yet. Update when the PM confirms the Coworker permission name. -->
   * Data Insights 에이전트
   * 지능형 캡션
 

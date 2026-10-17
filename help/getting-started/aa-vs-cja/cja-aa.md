@@ -81,10 +81,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3109'
-ht-degree: 99%
+source-wordcount: '3102'
+ht-degree: 98%
 ---
 # Customer Journey Analytics 기능 지원
 
@@ -94,6 +94,8 @@ ht-degree: 99%
 
 다음 테이블은 Customer Journey Analytics에서 사용할 수 있지만 Adobe Analytics에서 지원되지 않는 기능을 보여 줍니다.
 
+<!-- FOLLOW-UP (Thursday): When the in-app Coworker experience launches, point the Coworker row link to /help/analysis-workspace/coworker.md. FOLLOW-UP (later): When Coworker becomes available in Adobe Analytics, remove the "coming soon" sentence and move the Coworker row to the Fully supported table. -->
+
 | 기능 | 자세한 내용 |
 | --- | --- |
 | **데이터 세트(예: Adobe Analytics 보고서 세트) 결합 기능** | Customer Journey Analytics를 사용하면 여러 보고서 세트의 데이터를 마치 Adobe Analytics의 단일 보고서 세트인 것처럼 [결합](/help/connections/combined-dataset.md)할 수 있습니다. |
@@ -102,8 +104,8 @@ ht-degree: 99%
 | **BI 확장 기능** | [BI 확장 기능](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)을 사용하면 Customer Journey Analytics를 Power BI 또는 Tableau와 같은 널리 사용되는 BI 시각화 도구에 직접 연결할 수 있습니다. 이 확장 기능을 통해 BI 보고서가 Analysis Workspace 및 기타 Customer Journey Analytics 보고 인터페이스에 표시되는 내용과 정확하게 일치하도록 할 수 있습니다. 이 확장 기능을 사용하면 원시 데이터에서 보고서/지표를 다시 만들 필요 없이 훨씬 간편하게 Customer Journey Analytics에 대한 BI 보고를 얻을 수 있습니다. |
 | **작업 영역 프로젝트의 댓글** | 댓글을 사용하면 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en)의 맥락 내에서 인사이트를 공유하고 질문을 할 수 있습니다. 이 기능은 논의 중인 데이터의 컨텍스트 내에서 대화를 유지함으로써 데이터 관련 논의를 간소화할 수 있도록 합니다. |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/content-analytics)는 콘텐츠가 기업에서 정의한 주요 성과 지표에 어떤 영향을 미치는지 마케터가 이해할 수 있도록 돕습니다. Content Analytics는 동작 데이터 외에 콘텐츠가 어떻게 소비되는지, 콘텐츠가 어떤 영향을 미치는지에 대한 데이터를 수집합니다. |
+| **Coworker** | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)은(는) 데이터에 대한 자연어 질문에 답변하는 AI 팀 동료입니다. 데이터 보기 및 실제 데이터의 구성 요소를 사용하여 시각화를 구축하고, 통찰력을 찾고, 지표가 변경된 이유를 설명합니다. 동료가 곧 Adobe Analytics에 올 예정입니다. |
 | **크로스 디바이스 분석** | Customer Journey Analytics는 인증되지 않은 세션과 인증된 세션에서 디바이스별 데이터 세트의 원활한 조합을 지원합니다. Customer Journey Analytics는 알려진 디바이스에 내역 데이터 채우기를 제공합니다. Adobe Analytics에서 이 기능은 단일 보고서 세트와 디바이스 그래프 사용으로 제한됩니다. |
-| **Data Insights 에이전트** | Customer Journey Analytics의 AI 어시스턴트 중 하나인 [Data Insights 에이전트](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en)는 생성형 AI 대화 에이전트입니다. Analysis Workspace에서 관련 시각화를 빌드함으로써 데이터 보기 및 실제 데이터의 구성 요소를 활용하여 데이터에 대한 질문에 빠르고 효율적으로 답변합니다. |
 | **차원 개선 사항** | Customer Journey Analytics는 차원을 사용할 때 더 큰 유연성을 제공합니다: <ul><li>**사용자 정의 숫자 기반 차원**: [데이터 보기 내에서 숫자 기반 차원을 직접 만듭니다](/help/data-views/create-dataview.md#components).</li><li>**문자열 기반 차원 정렬**: [자유 형식 테이블에서 문자열 기반 차원을 알파벳순으로 정렬합니다.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>Adobe Analytics에서는 소수의 기본 제공 숫자 차원만 사용할 수 있었으며 문자열 기반 차원별로 정렬하는 것은 불가능했습니다.</p> |
 | **파생 필드** | [파생 필드](/help/data-views/derived-fields/derived-fields.md)를 통해 데이터에 대한 보고 시간 변환이 가능합니다. 데이터는 즉시 결합하거나, 수정하거나, 생성할 수 있으며 이러한 변환은 모든 보고에 소급 적용됩니다. |
 | **향상된 보안 및 개인정보 보호 옵션** - HIPAA 지원 | Customer Journey Analytics는 HIPAA를 지원하고 규정 준수를 위한 [추가 보안 옵션](/help/privacy/cmk.md)을 제공합니다. Adobe Analytics는 HIPAA를 지원할 준비가 되어 있지 않습니다. |

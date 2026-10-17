@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '7222'
+source-wordcount: '7309'
 ht-degree: 95%
 ---
 
@@ -70,6 +70,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 10월** | |
+| AI Assistant 및 Data Insights Agent이 Coworker로 대체됨 | AI Assistant 및 Data Insights Agent 문서를 제거했습니다. Adobe CX Enterprise Coworker은 두 기능을 모두 대체합니다. 자세한 내용은 [동료 채팅으로 데이터 분석](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)을 참조하세요. 또한 변경 내용을 반영하도록 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)을 업데이트했습니다. |
 | Content Analytics 유료 미디어 채널 | 유료 미디어 소스 커넥터(예: Google 광고 또는 Meta 광고)를 사용하고 Content Analytics 유료 미디어 채널을 구성 및 활성화하여 데이터 세트 및 데이터 보기 구성 요소의 자동 구성에 대한 포괄적인 [설명서](/help/content-analytics/config/paid-media.md). |
 | 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
 | Brand Visibility | 자세한 정보로 [브랜드 가시성 인바운드 통합](/help/integrations/bv/bv.md#inbound-integration)에 대한 설명서를 업데이트했습니다. |
@@ -116,7 +117,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2025년 11월** | |
 | 연결당 일일 행 수에 대한 가드레일 | 연결당 하루 최대 평균 행 수에 대한 [데이터 전송 제한 가드레일 정보](/help/technotes/guardrails.md)가 추가되었습니다. |
 | **2025년 10월** | |
-| Data Insights 에이전트에 대한 액세스 관리 | [데이터 보기를 활성화하기 위한 권한 요구 사항과 프로세스](/help/data-analysis-ai.md#manage-access-to-data-insights-agent)가 업데이트되었습니다. |
+| Data Insights 에이전트에 대한 액세스 관리 | [데이터 보기를 활성화하기 위한 권한 요구 사항과 프로세스](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)가 업데이트되었습니다. |
 | 기여도 구성 | 모델, 컨테이너 및 전환 확인 기간에 대한 새 기여도 구성 옵션을 반영하도록 추가 업데이트 |
 | Experience Platform 대상자 수집 및 활용 | [Experience Platform 대상자 수집 및 사용](/help/use-cases/data-ingestion/ingest-aep-segments.md) 방법에 대한 사용 사례 문서를 업데이트했습니다. |
 | Customer Journey Analytics로 업그레이드할 조직 준비하기 | [Customer Journey Analytics로 업그레이드할 조직을 준비하는 방법](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)에 대한 정보가 추가되었습니다. |
@@ -201,7 +202,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스가 “스트리밍 미디어 컬렉션 추가 기능” 및 “스트리밍 미디어 컬렉션”이라는 이름으로 대체되었습니다. <p>이번 업데이트는 Customer Journey Analytics 설명서와 [스트리밍 미디어 컬렉션 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
 | 그래프 기반 결합 | 그래프 기반 스티칭을 도입하여 [결합 설명서](/help/stitching/overview.md)를 업데이트하고 재구성했습니다. |
-| AI 어시스턴트 | Customer Journey Analytics을 위한 AI 어시스턴트에 대한 [설명서](../ai-assistant.md)를 추가했습니다. |
+| AI 어시스턴트 | Customer Journey Analytics을 위한 AI 어시스턴트에 대한 [설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)를 추가했습니다. |
 | B2B 조회를 위한 데이터 세트 변환 | B2B 조회 데이터 세트의 변환을 사용하여 [B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에서 개인 기반 조회](/help/connections//transform-datasets-b2b-lookups.md)를 지원하는 방법에 대한 설명서를 추가했습니다. |
 | 파생 필드 함수 및 함수 템플릿 | 추가 파생 필드 함수([수학](/help/data-views/derived-fields/derived-fields.md#math), [다음 또는 이전](/help/data-views/derived-fields/derived-fields.md#next-or-previous), [요약](/help/data-views/derived-fields/derived-fields.md#summarize)) 및 [함수 템플릿](/help/data-views/derived-fields/derived-fields.md#function-templates)에 대한 설명서를 추가했습니다. |
 | **2024년 5월** | |
