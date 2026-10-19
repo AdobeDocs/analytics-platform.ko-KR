@@ -7,22 +7,26 @@ role: User
 TQID: https://experienceleague.adobe.com/555a8gxm8jBGyatt1Vp6e40Wj2gqgRl95oFiHC4NMhQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Accessibility
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 100%
-
+source-wordcount: '903'
+ht-degree: 60%
 ---
-
 # Analysis Workspace 액세스 가능 여부
 
 Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접근성 지원에 대해 알아보십시오.
@@ -63,6 +67,48 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 1. **[!UICONTROL Enter]** 키를 눌러 선택합니다.
 1. 화살표 키를 사용하여 구성 요소를 놓을 영역으로 이동합니다.
 1. **[!UICONTROL Enter]** 키를 눌러 구성 요소를 배치합니다.
+
+### 표 열의 키보드 탐색 {#table-columns}
+
+키보드를 사용하여 표 열의 크기를 조정하고 재배열할 수 있습니다. macOS 및 Windows에서 동일한 키가 작동합니다.
+
+#### 열 크기 조정 {#resize-columns}
+
+두 열 머리글 사이의 경계인 열 크기 조정 구분 기호를 사용하여 자유 형식 테이블 및 집단 테이블에서 열 크기를 조정할 수 있습니다.
+
+1. 열 크기 조정 구분 기호에 포커스가 생길 때까지 **[!UICONTROL Tab]**&#x200B;을 누릅니다.
+
+   구분 기호에 포커스가 있는 동안 표시 크기 조정 지침 화면 판독기는 이러한 지침과 열의 현재 너비를 백분율로 알려줍니다.
+
+1. 다음 키를 사용하여 열 크기를 조정합니다. 열은 최소 또는 최대 너비를 초과하여 크기를 조정할 수 없습니다.
+
+   | 키 | 작업 |
+   | --- | --- |
+   | **[!UICONTROL 왼쪽 화살표]** | 구분 기호 왼쪽에 있는 열의 범위를 10픽셀로 좁힙니다. |
+   | **[!UICONTROL 오른쪽 화살표]** | 구분 기호 왼쪽의 열을 10픽셀씩 확장합니다. |
+   | **[!UICONTROL 입력]** | 열 너비를 재설정합니다. |
+
+#### 열 재배열 {#rearrange-columns}
+
+편집할 수 있는 자유 형식 테이블에서 열 헤더의 **[!UICONTROL 다시 정렬]** 메뉴를 사용하여 열을 왼쪽 또는 오른쪽으로 이동할 수 있습니다.
+
+1. 열 헤더의 **[!UICONTROL 다시 정렬]** 단추에 포커스가 생길 때까지 **[!UICONTROL Tab]**&#x200B;을 누릅니다.
+1. **[!UICONTROL Enter]**, **[!UICONTROL 스페이스]** 또는 **[!UICONTROL 아래쪽 화살표]**&#x200B;를 눌러 메뉴를 엽니다.
+1. **[!UICONTROL 열을 왼쪽으로 이동]** 또는 **[!UICONTROL 열을 오른쪽으로 이동]**&#x200B;을 선택합니다.
+
+   열을 이동하지 않고 메뉴를 닫으려면 **[!UICONTROL Esc]**&#x200B;을 누릅니다. 포커스가 **[!UICONTROL 다시 정렬]** 단추로 돌아갑니다.
+
+   열을 이동하면 화면 판독기는 열 이름과 해당 그룹 내의 새 위치를 알려줍니다.
+
+키보드로 열을 재배열할 때 다음 사항을 고려하십시오.
+
+* 열은 동일한 상위 머리글 아래에 있는 동일한 수준의 열인 동위 열 그룹 내에서만 이동합니다. 키보드를 사용하여 열을 다른 그룹으로 이동하거나 열을 복사할 수는 없습니다.
+* 상위 헤더를 이동하면 중첩된 열과 필터가 함께 이동합니다.
+* **[!UICONTROL 왼쪽 열 이동]**&#x200B;은(는) 그룹의 첫 번째 열에 사용할 수 없습니다. 그룹의 마지막 열에 대해 **[!UICONTROL 오른쪽으로 열 이동]**&#x200B;을 사용할 수 없습니다.
+* **[!UICONTROL 다시 정렬]** 단추는 끌어서 다시 정렬할 수 있는 열에만 사용할 수 있습니다. 다음에 대해 사용할 수 없음:
+  * 읽기 전용 테이블 또는 상호 작용이 비활성화된 테이블.
+  * 열을 드래그할 수 없는 [여러 차원 열](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)이 있는 자유 형식 테이블입니다.
+  * 집단 테이블의 날짜 열입니다.
 
 ### 키보드 단축키 (핫키)
 

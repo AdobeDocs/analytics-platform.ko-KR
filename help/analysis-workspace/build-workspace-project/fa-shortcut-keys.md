@@ -8,33 +8,37 @@ role: User
 TQID: https://experienceleague.adobe.com/YWKW578JfolnUul64XLty6ehTVlsdsdTRAgHQG3wzbY
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
+    internal-label: Insights
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '527'
+ht-degree: 72%
 ---
-
 # 핫키
 
 Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 탐색, 분석 및 민주화를 수행할 수 있습니다.
 
 키보드에서는 다음 기호가 사용될 수 있습니다.
 
-- **[!UICONTROL **&#x200B; Shift &#x200B;**]&#x200B;**&#x200B;의 경우 &#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL **&#x200B; Cmd &#x200B;**]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL **&#x200B; Ctrl &#x200B;**]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL **&#x200B; Opt &#x200B;**]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL **&#x200B; Alt &#x200B;**]**(대체)의 경우.
+- **[!UICONTROL ** Shift **]**&#x200B;의 경우 **⇧**
+- **⌘****[!UICONTROL ** Cmd **]**(명령)의 경우.
+- **⌃****[!UICONTROL ** Ctrl **]**(제어)의 경우.
+- **⌥****[!UICONTROL ** Opt **]**(옵션)의 경우.
+- **⎇****[!UICONTROL ** Alt **]**(대체)의 경우.
 
 ## 탐색 작업
 
@@ -97,6 +101,10 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | 더 짧게 크기 조정 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + 위쪽&#x200B;*]** |
 
 너비는 한 격자 열의 단계에서 크기가 조정되고, 높이는 한 격자 셀의 단계에서 크기가 조정됩니다(약 25픽셀).
+
+## 테이블 열 작업
+
+키보드를 사용하여 표 열의 크기를 조정하고 재배열할 수 있습니다. 이러한 작업은 글로벌 핫키가 아닙니다. 열 크기 조정 구분 기호 또는 열 머리글의 **[!UICONTROL 다시 정렬]** 단추에 포커스가 있는 경우 사용할 수 있습니다. 표 열에 대한 [키보드 탐색](/help/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns)을 참조하세요.
 
 ## 민주화 동작
 
