@@ -2114,8 +2114,8 @@ Customer Journey Analytics 내에서 추가 변환에 사용할 수 있도록 �
 
 | [!DNL Page URL] |
 |----|
-| `https://www.adobe.com/?cid=abc123` |
-| `https://www.adobe.com/?em=email1234&cid=def123` |
+| `https://www.adobe.com/kr/?cid=abc123` |
+| `https://www.adobe.com/kr/?em=email1234&cid=def123` |
 | `https://www.adobe.com/landingpage?querystring1=test&test2=1234&cid=xyz123` |
 
 {style="table-layout:auto"}
