@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: '7309'
-ht-degree: 95%
+source-wordcount: '7341'
+ht-degree: 94%
 ---
 
 # Customer Journey Analytics - 설명서 업데이트
@@ -70,6 +70,7 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 10월** | |
+| 표 열의 키보드 탐색 | 화면 판독기 피드백을 포함하여 키보드를 사용하여 Analysis Workspace에서 테이블 열을 [크기 조정](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) 및 [다시 정렬](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)하는 방법을 문서화했습니다. 또한 [테이블 열 작업](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) 섹션이 핫키에 추가되었습니다. |
 | AI Assistant 및 Data Insights Agent이 Coworker로 대체됨 | AI Assistant 및 Data Insights Agent 문서를 제거했습니다. Adobe CX Enterprise Coworker은 두 기능을 모두 대체합니다. 자세한 내용은 [동료 채팅으로 데이터 분석](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)을 참조하세요. 또한 변경 내용을 반영하도록 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)을 업데이트했습니다. |
 | Content Analytics 유료 미디어 채널 | 유료 미디어 소스 커넥터(예: Google 광고 또는 Meta 광고)를 사용하고 Content Analytics 유료 미디어 채널을 구성 및 활성화하여 데이터 세트 및 데이터 보기 구성 요소의 자동 구성에 대한 포괄적인 [설명서](/help/content-analytics/config/paid-media.md). |
 | 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
