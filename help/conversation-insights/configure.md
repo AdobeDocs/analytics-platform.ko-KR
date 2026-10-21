@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 16%
+source-wordcount: '1185'
+ht-degree: 12%
 ---
 # 구성 만들기 또는 편집
 
@@ -64,7 +64,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
    | 필드 | 설명 |
    |---------|----------|
    | **[!UICONTROL 이름]** | 구성의 이름을 지정합니다. |
-   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프롬프트, 응답 및 피드백 이벤트 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. |
+   | **[!UICONTROL 샌드박스]** | 연결에 추가하려는 프롬프트, 응답 및 피드백 이벤트 데이터 세트가 포함된 Experience Platform 샌드박스를 선택합니다. 선택한 샌드박스에 사용할 수 있는 호환 데이터 세트가 없는 경우 알림을 받습니다. |
 
 1. **[!UICONTROL 데이터 집합]** 섹션에서 다음 정보를 지정하십시오.
 
@@ -75,6 +75,13 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
    | **[!UICONTROL 이벤트 데이터 집합을 묻는 메시지 표시]** | 프롬프트 이벤트 데이터를 포함하는 데이터 세트를 선택합니다. |
    | **[!UICONTROL 응답 이벤트 데이터 세트]** | 응답 이벤트 데이터를 포함하는 데이터 세트를 선택합니다. |
    | **[!UICONTROL 피드백 이벤트 데이터 세트]** | 피드백 이벤트 데이터가 포함된 데이터 세트를 선택합니다. |
+
+   데이터 집합에 프롬프트와 응답이 모두 포함되어 있으면 **[!UICONTROL 프롬프트 이벤트 데이터 집합]** 및 **[!UICONTROL 응답 이벤트 데이터 집합]**&#x200B;에 대해 동일한 데이터 집합을 선택하십시오.
+
+   [결합된 대화 지정](#blend-specification)부터 **[!UICONTROL 결합된 세부 항목을 구성]**&#x200B;하는 옵션은 한 번만 사용할 수 있습니다.
+   * 이 구성이 완료되었습니다.
+   * 모든 데이터 세트를 사용할 수 있습니다.
+   * Customer Journey Analytics [연결을 편집할 수 있는 권한](/help/technotes/access-control.md)이 있습니다.
 
 1. **[!UICONTROL 연결]** 섹션에서 연결이 이미 구성되지 않은 경우 **[!UICONTROL 연결 선택]**&#x200B;을 사용하여 연결을 선택하십시오.
 
@@ -123,10 +130,52 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 
    * 구성에 대한 변경 내용을 무시하려면 **[!UICONTROL 종료]**&#x200B;를 선택하십시오.
 
+## 혼합 사양
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_blend_specification"
+>title="혼합 사양 구성"
+>abstract="이 대화 통찰력 구성을 완료한 후에만 블렌드 사양을 편집할 수 있으며, 모든 데이터 세트를 사용할 수 있고 연결을 편집할 수 있는 Customer Journey Analytics 권한이 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control" text="액세스 제어"
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_dataset_winner"
+>title="우선 데이터 세트"
+>abstract="혼합된 대화 데이터 집합에서 해당 이름이 지정된 필드(컨테이너인 경우)에 대한 값을 결정하는 데이터 집합을 선택합니다."
+
+구성을 만든 후에는 [프롬프트, 응답, 피드백 및 신호 데이터 세트의 대화 혼합 방법](/help/conversation-insights/overview.md#how-it-works)을 구성할 수 있습니다.
+
+이 사양을 사용하면 혼합된 대화 데이터 세트에서 해당 이름이 지정된 필드(컨테이너의 경우)에 대한 값을 결정하는 데이터 세트를 선택할 수 있습니다.
+
+예를 들어 혼합 대화 데이터 세트의 **[!UICONTROL 제작자]** 필드 이름을 피드백 데이터 세트의 해당 유사한 명명된 필드에서 정의하려면 해당 필드에 대한 **[!UICONTROL 데이터 세트 우승자]** 드롭다운 메뉴에서 **[!UICONTROL 피드백 데이터 세트]**&#x200B;을(를) 선택합니다.
+
+혼합 대화를 지정하려면 다음을 수행합니다.
+
+1. **[!UICONTROL 혼합 사양 구성]**&#x200B;을 선택합니다.
+
+1. **[!UICONTROL 혼합 사양]** 대화 상자에서 각 **[!UICONTROL 필드 이름]**&#x200B;에 대해 제안된 **[!UICONTROL 데이터 세트 승자]**&#x200B;를 검토하고 선택적으로 다른 데이터 세트를 선택하십시오.
+
+   * 활성화된 각 필드에 대해 선택적으로 다른 **[!UICONTROL 데이터 세트 우승자]**&#x200B;를 선택합니다. **[!UICONTROL 프롬프트 데이터 세트]**, **[!UICONTROL 응답 데이터 세트]** 및 **[!UICONTROL 피드백 데이터 세트]** 중에서 선택할 수 있습니다.
+   * 각 컨테이너 필드에 대해 선택적으로 다른 **[!UICONTROL 데이터 집합 우승자]**&#x200B;를 선택하여 컨테이너에 속하는 모든 필드를 업데이트합니다. **[!UICONTROL 프롬프트 데이터 세트]**, **[!UICONTROL 응답 데이터 세트]** 및 **[!UICONTROL 피드백 데이터 세트]** 중에서 선택할 수 있습니다.
+   * 대화 데이터 세트(프롬프트, 응답, 피드백 및 신호) 간에 공유되는 필드에 대해서는 **[!UICONTROL 데이터 세트 승자]**&#x200B;를 선택할 수 없습니다. 이러한 필드는 다음 필드 그룹의 일부입니다.
+
+     | 필드 이름 | 필드 그룹 | 우선 데이터 세트 |
+     |---|---|---|
+     | **[!UICONTROL 프롬프트]** | `conversation.prompt.*` | **[!UICONTROL 프롬프트 데이터 세트]** |
+     | **[!UICONTROL 응답]** | `conversation.response.*` | **[!UICONTROL 응답 데이터 세트]** |
+     | **[!UICONTROL 피드백]** | `conversation.feedback.*` | **[!UICONTROL 피드백 데이터 세트]** |
+     | **[!UICONTROL agentExperience]** | `agentExperience.*` | **[!UICONTROL 응답 데이터 세트]** |
+     | **[!UICONTROL 신호]** | `conversation.signals.*` | **[!UICONTROL 신호 데이터 세트]** |
+
+   * 특정 ID 필드(예: **[!UICONTROL 대화 ID]** 또는 **[!UICONTROL Turn ID]**)에 대해 **[!UICONTROL 데이터 세트 승자]** 선택을 사용할 수 없습니다.
+
+1. 세부 항목을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하십시오. 세부 항목을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
 ## 데이터 보기 확인
 
-[구성 단계](#configuration-steps)에서 구성한 데이터 보기는 [데이터 보기](/help/data-views/manage-dataviews.md)에서 **[!UICONTROL 통합]**&#x200B;에 대한 값으로 **[!UICONTROL 대화 인사이트]**&#x200B;를 가집니다.
+[구성 단계](#configuration-steps)에서 구성한 데이터 보기의 값은 [데이터 보기](/help/data-views/manage-dataviews.md)에서 **[!UICONTROL 통합]**&#x200B;에 대한 값으로 **[!UICONTROL 대화 인사이트]**&#x200B;입니다.
 
 구성된 각 데이터 보기의 경우:
 
