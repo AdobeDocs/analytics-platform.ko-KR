@@ -137,7 +137,7 @@ Conversation Insights 구성 인터페이스를 통해 구성 및 관련 아티�
 >id="conversationinsights_blend_specification"
 >title="혼합 사양 구성"
 >abstract="이 대화 통찰력 구성을 완료한 후에만 블렌드 사양을 편집할 수 있으며, 모든 데이터 세트를 사용할 수 있고 연결을 편집할 수 있는 Customer Journey Analytics 권한이 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control" text="액세스 제어"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control" text="액세스 제어"
 
 
 >[!CONTEXTUALHELP]
