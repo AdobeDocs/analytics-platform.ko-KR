@@ -7,19 +7,19 @@ hide: true
 source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 5%
+ht-degree: 20%
 ---
-# 트렌딩 항목
+# 트렌딩 토픽
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
->title="트렌딩 항목"
->abstract="발생 횟수 및 백분율과 함께 트렌드 주제에 대한 계층적 드릴다운 지원 분류를 보여 주는 시각화를 만들어 대화에서 중요한 테마를 식별하는 데 도움이 됩니다."
+>title="트렌딩 토픽"
+>abstract="대화에서 중요한 테마를 식별할 수 있도록 발생 횟수 및 백분율과 함께 트렌드 토픽에 대한 계층적 드릴다운 기반 분류를 보여주는 시각화를 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
->title="트렌딩 항목"
->abstract="선택한 등급 지표를 기반으로 트렌드 주제를 분석합니다. 최대 5개 수준 깊이로 드릴다운할 주제를 선택합니다. 특정 주제를 검색하고 주제를 다른 날짜 범위와 비교합니다."
+>title="트렌딩 토픽"
+>abstract="선택된 등급 지표를 기반으로 트렌딩 토픽을 분석합니다. 최대 5개 수준 깊이로 드릴 다운할 토픽을 선택합니다. 특정 토픽을 검색하고 토픽을 다른 날짜 범위와 비교합니다."
 
 ![피드](/help/assets/icons/Feed.svg) **[!UICONTROL 트렌드 주제]** 시각화를 사용하면 대화 통찰력의 일부로 트렌드 주제를 탐색하고 분석할 수 있습니다.
 

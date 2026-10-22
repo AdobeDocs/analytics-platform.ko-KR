@@ -7,7 +7,7 @@ hide: true
 source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 13%
+ht-degree: 85%
 ---
 # 대화 요약
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_panel"
 >title="대화 요약"
->abstract="필터링된 대화 그룹을 요약합니다. 요약 길이를 제어합니다. 추출된 신호의 정확성을 확인하려면 고객의 대표 따옴표 를 참조하십시오. 전체 대화 재생으로 이동하려면 견적을 선택하십시오."
+>abstract="필터링된 대화 그룹을 요약합니다. 요약 길이를 제어합니다. 추출된 신호의 정확성을 검증하려면 고객의 대표 구문을 확인합니다. 전체 대화 재생으로 이동하려면 구문을 선택합니다."
 
 ![피드](/help/assets/icons/Summarize.svg)
 
