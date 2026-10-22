@@ -70,7 +70,7 @@ ht-degree: 60%
 
 가설이 *이라고 가정해 보십시오.&quot;여행 산업에서 속성 기간은 30일이 아니라 60일 또는 90일입니다. 이는 고객이 구매하기 전에 많은 조사를 하기 때문입니다.&quot;*
 
-이 경우 [전환 확인 기간](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경하십시오.
+이 경우 [전환 확인 기간](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경하십시오.
 
 ## 알고리즘 속성 사용
 
@@ -84,5 +84,5 @@ ht-degree: 60%
 
 * Analysis Workspace에만 의존하는 대신 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
 
