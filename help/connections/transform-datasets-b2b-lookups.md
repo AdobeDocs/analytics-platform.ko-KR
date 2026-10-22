@@ -45,10 +45,10 @@ B2B 데이터(계정, 기회, 마케팅 목록 및 캠페인 포함)에 대한 �
 
 이 변환은 다음 클래스를 기반으로 B2B 조회 스키마에 대한 데이터가 있는 데이터 세트에만 사용할 수 있습니다.
 
-* [XDM 비즈니스 계정 개인 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM 비즈니스 계정 개인 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM 비즈니스 영업 기회 사용자 관계](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM 비즈니스 마케팅 목록 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 비즈니스 캠페인 멤버](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
