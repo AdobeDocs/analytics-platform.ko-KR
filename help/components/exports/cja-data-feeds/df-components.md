@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
+source-git-commit: 5006a5e7f48fb107cc32cf56051062cc88f35c8e
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 43%
+source-wordcount: '1548'
+ht-degree: 40%
 ---
 # 데이터 피드의 구성 요소 가용성
 
@@ -98,8 +98,6 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 <!-- markdownlint-disable MD034 -->
 
-<!-- pretty sure this isn't being used -->
-
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -107,20 +105,37 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 
 <!-- markdownlint-enable MD034 -->
 
->[!IMPORTANT]
->
->특정 차원은 Experience Platform 데이터 세트에서 함께 사용할 수 없으므로 동일한 데이터 피드에 포함할 수 없습니다.
->
->데이터 피드에 **사용자 에이전트** 또는 **모바일 ID** 차원을 포함하도록 선택한 경우 아래 나열된 차원을 데이터 피드에 추가할 수 없습니다.
+특정 차원은 Experience Platform 데이터 세트에서 함께 사용할 수 없습니다. 데이터 피드는 다음 그룹 중 하나의 차원을 포함할 수 있지만 두 그룹 모두의 차원을 포함할 수는 없습니다.
+
+* **사용자 에이전트** 및 **Mobile ID** 차원. <!--UI shows "Type identifier" for device.typeID; align with docs name "Mobile ID" (open question for Danny Carmen).-->
+
+* 브라우저, 모바일 장치 및 운영 체제 차원과 같은 장치 조회 차원입니다. 전체 목록에 대해서는 [장치 조회 차원](#device-lookup-dimensions)을 참조하십시오.
+
+>[!NOTE]
 >
 >웹 SDK을 사용하는 경우 데이터가 Experience Platform 데이터 세트에 도달하기 전에 데이터 스트림에 이 제한이 적용됩니다. 자세한 내용은 데이터 수집 가이드의 [데이터 스트림 만들기 및 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)에서 [장치 조회 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#geolocation-device-lookup)을 참조하십시오.
 
-다음 차원은 **사용자 에이전트** 또는 **Mobile ID** 차원과 함께 사용할 수 없습니다.
+### 차원 충돌 해결
+
+함께 사용할 수 없는 차원을 추가하면 추가될 차원 및 추가되지 않거나 제거될 차원을 나열하는 대화 상자가 나타납니다. 발생하는 내용은 충돌이 있는 위치에 따라 다릅니다.
+
+* **추가 중인 차원이 이미 데이터 피드에 있는 차원과 충돌합니다**: 추가 중인 차원이 우선합니다. 선택 항목을 추가하고 데이터 피드에서 충돌하는 차원을 제거하라는 대화 상자가 표시됩니다.
+
+* **추가 중인 차원이 서로 충돌합니다**: **사용자 에이전트** 및 **Mobile ID** 차원이 우선합니다. 대화 상자에 차원을 추가하라는 메시지가 표시됩니다. 선택 항목의 디바이스 조회 차원은 추가되지 않습니다.
+
+데이터 피드를 변경하지 않고 유지하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+
+<!--Open questions for Danny Carmen: behavior when a batch contains both groups and the feed already has conflicting dimensions; whether "add all" adds the full selection or only the listed dimensions.-->
+
+### 장치 조회 차원 {#device-lookup-dimensions}
+
+다음 차원은 **사용자 에이전트** 또는 **Mobile ID** 차원과 동일한 데이터 피드에 포함할 수 없습니다.
 
 >[!NOTE]
 >
 >다음 목록은 기본 차원 이름을 사용합니다. 데이터 보기에서 이름이 변경된 차원은 사용자 지정 이름과 함께 데이터 피드에 표시됩니다.
 
+<!--Engineering lists 30 device lookup fields; this list has 28. Likely missing: environment.operatingSystemIDStr and environment.browserIDStr. Confirm display names with Danny Carmen.-->
 
 * 브라우저 유형
 * 브라우저
@@ -179,7 +194,7 @@ Customer Journey Analytics 표준 차원은 데이터 피드에 포함할 수 �
 | 날짜 (월 기준) | 차원 시간 분할 | 1-31 | 사용할 수 없음 |
 | 요일 | 차원 시간 분할 | 월요일부터 일요일까지 | 사용할 수 없음 |
 | 일(한 해 기준) | 차원 시간 분할 | 1-366 | 사용할 수 없음 |
-| 이벤트 심도 | 치수 | 순차적 숫자 값(1, 2, 3 등) 세션 내의 각 이벤트 상호 작용에 할당됨<p>각 새 세션이 시작될 때 재설정</p> | 사용 가능 |
+| 이벤트 심도 | 차원 | 순차적 숫자 값(1, 2, 3 등) 세션 내의 각 이벤트 상호 작용에 할당됨<p>각 새 세션이 시작될 때 재설정</p> | 사용 가능 |
 | 시간 | 차원 시간 분할 | 0-23 | 사용할 수 없음 |
 | 월(연 기준) | 차원 시간 분할 | 1월-12월 | 사용할 수 없음 |
 | 최초 세션 | 지표 | 보고 기간 내에 개인의 첫 번째 정의된 세션 | 사용할 수 없음 |
