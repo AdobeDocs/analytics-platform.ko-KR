@@ -44,7 +44,7 @@ topic_v2:
 source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '3165'
-ht-degree: 77%
+ht-degree: 78%
 ---
 # 데이터 보기 만들기 또는 편집
 
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +126,7 @@ Customer Journey Analytics 외에 Adobe Journey Optimizer를 사용할 때 적�
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="Data Insights 에이전트에 대해 활성화"
->abstract="이 옵션을 사용하면 이 데이터 보기를 활성화하여 Data Insights 에이전트에서 사용할 수 있습니다. Data Insights Agent은 텍스트 프롬프트로 데이터를 빠르게 분석하는 데 도움이 되는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
+>abstract="이 옵션을 사용하면 이 데이터 보기를 활성화하여 Data Insights 에이전트에서 사용할 수 있습니다. Data Insights 에이전트는 텍스트 프롬프트로 데이터를 빠르게 분석할 수 있도록 지원하는 생성형 AI 대화 에이전트입니다. 데이터 보기의 구성 요소와 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 빌드합니다."
 
 <!-- markdownlint-enable MD034 -->
 
