@@ -8,24 +8,33 @@ autotag-review: '2026-05-19T07:20:44.651Z'
 TQID: 'https://experienceleague.adobe.com/XPFzwdaB2d1PaGEyiYSlzri7Luo4E2uqlMdKClsExdw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: c6330935bb6b36fab622b7884e9182ebd4bdc610
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 42%
-
+source-wordcount: '297'
+ht-degree: 43%
 ---
-
 # 알고리즘 속성
+
+>[!NOTE]
+>
+>이 섹션에 설명된 기능을 사용하려면 Customer Journey Analytics **Ultimate** 패키지가 있어야 합니다. 보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.
 
 Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 속성 모델과 마찬가지로 모든 차원 또는 지표에서 알고리즘 속성을 사용할 수 있습니다. 알고리즘 속성은 무제한 세그먼테이션 및 분류를 지원하고, 테이블의 하나 이상의 차원에 100% 전환을 분배합니다(&quot;분수&quot; 속성이라고도 함).
 
@@ -33,7 +42,7 @@ Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기�
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +50,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 
 속성에 사용되는 알고리즘은 협업 게임 이론의 Harsanyi 배당을 기반으로 합니다. Harsanyi 배당은 결과에 불평등한 기여와 함께 플레이어들 간의 크레딧을 분배하기 위해 Shapley 값 솔루션(노벨 경제학상 수상자인 Lloyd Shapley의 이름을 따서 이름이 지어짐)의 일반화입니다.
 
-높은 수준에서 각 접점에 대한 전환 크레딧의 속성 계산은 전환 창 내의 각 마케팅 접점을 플레이어의 연합으로 간주합니다. 이런 연대에는 흑자가 균등하게 분배돼야 한다. 각 연합의 잉여금은 각 하위 연합이 이전에 재귀적으로 만든 잉여금에서 결정됩니다.
+각 접점에 대한 전환 크레딧의 속성 계산에서는 전환 창 내의 각 마케팅 접점을 플레이어의 연합으로 간주합니다. 이런 연대에는 흑자가 균등하게 분배돼야 한다. 각 연합의 잉여금은 각 하위 연합이 이전에 재귀적으로 만든 잉여금에서 결정된다.
 
 자세한 내용은 John Harsanyi 및 Lloyd Shapley의 원본 논문을 참조하십시오.
 
@@ -50,4 +59,4 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 
 >[!NOTE]
 >
->주어진 전환 창 내에 여러 접점이 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 접점을 사용하는 전환은 속성 모델에 상관없이 100% 크레딧을 받습니다.
+>주어진 전환 창 내에 여러 접점이 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 접점이 있는 전환은 기여도 모델에 관계없이 100% 크레딧을 받습니다.
