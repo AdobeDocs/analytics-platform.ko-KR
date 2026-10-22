@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 33%
+source-wordcount: '1216'
+ht-degree: 31%
 ---
 # 연산자
 
@@ -51,13 +51,19 @@ ht-degree: 33%
 
 ## 표준 연산자
 
+>[!NOTE]
+>
+>표준 연산자를 사용할 때 입력한 값은 대소문자에 관계없이 결과를 반환합니다. 단, **[!UICONTROL 일치]**&#x200B;와(과) **[!UICONTROL 불일치]**&#x200B;를 제외합니다.
+>
+>예를 들어 **[!UICONTROL 페이지 이름]** **[!UICONTROL 같음]** `search results`은(는) *검색 결과*, *검색 결과* 및 *검색 결과*&#x200B;를 반환합니다.
+
 | 연산자 | 선택한 차원, 세그먼트 또는 지표 이벤트... |
 |--- |--- |
 | **[!UICONTROL 같음]** | 숫자나 문자열 값에 대해 정확히 일치하는 항목을 반환합니다. 참고: 와일드카드 문자를 사용하는 경우 **[!UICONTROL 일치]** 연산자를 사용하십시오. |
 | **[!UICONTROL 같지 않음]** | 입력한 값의 정확한 일치를 포함하지 않는 모든 항목을 반환합니다.  참고: 와일드카드 문자를 사용하는 경우 **[!UICONTROL 와(과) 일치하지 않음]** 연산자를 사용하십시오. |
 | **[!UICONTROL 다음 중 1개 이상의 항목과 같음]** | 입력 필드의 값 (최대 500개 항목)에 대해 정확히 일치하는 항목을 반환합니다. 예를 들어 이 연산자와 함께 **[!UICONTROL 페이지 이름]** 차원에 대해 `Search Results, Homepage`을(를) 입력하면 *검색 결과* 및 *홈 페이지*&#x200B;와(과) 일치하고 2개 항목으로 계산됩니다. 이 연산자의 입력 필드는 쉼표로 구분됩니다. |
 | **[!UICONTROL 다음 중 같은 항목 없음]** | 입력 필드의 값 (최대 500개 항목)에 대해 정확히 일치하는 항목을 식별한 다음 이러한 값이 없는 항목만 반환합니다. 예를 들어 **[!UICONTROL 페이지 이름]** 차원에 대해 이 연산자와 함께 `Search Results, Homepage`을(를) 입력하면 *검색 결과* 및 *홈 페이지*&#x200B;을(를) 식별한 다음 반환된 항목에서 **제외**&#x200B;합니다. 이 예는 2개 항목으로 카운트됩니다. 이 연산자의 입력 필드는 쉼표로 구분됩니다. |
-| **[!UICONTROL 포함]** | 입력한 값의 하위 문자열에 해당하는 항목을 반환합니다. 예를 들어, 규칙이 **[!UICONTROL 페이지 이름]** **[!UICONTROL 포함]** `Search`인 경우 이 규칙은 *검색 결과*, *검색*, *검색*&#x200B;을 포함하여 하위 문자열 `Search`이(가) 포함된 모든 페이지와 일치합니다. &quot;포함&quot; 조항은 Adobe Analytics에서 대소문자를 구분하지 않지만, Customer Journey Analytics에서는 대소문자를 구분합니다. |
+| **[!UICONTROL 포함]** | 입력한 값의 하위 문자열에 해당하는 항목을 반환합니다. 예를 들어, 규칙이 **[!UICONTROL 페이지 이름]** **[!UICONTROL 포함]** `Search`인 경우 이 규칙은 *검색 결과*, *검색*, *검색*&#x200B;을 포함하여 하위 문자열 `Search`이(가) 포함된 모든 페이지와 일치합니다. |
 | **[!UICONTROL 포함하지 않음]** | **[!UICONTROL contains]** 규칙의 역함수를 반환합니다. 특히 입력한 값과 일치하는 모든 항목은 입력한 값에서 제외됩니다. 예를 들어, 규칙이 **[!UICONTROL 페이지 이름]** **[!UICONTROL 에]** `Search`이(가) 없으면 *검색 결과*, *검색*, *검색*&#x200B;을 포함하여 하위 문자열 `Search`이(가) 있는 페이지와 일치하지 않습니다. 이 값은 결과에서 제외됩니다. |
 | **[!UICONTROL 모두 포함]** | 함께 결합된 여러 값을 포함하여 하위 문자열과 비교한 항목을 반환합니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 이 연산자와 함께 `Search Results`을(를) 입력하면 *검색 결과* 및 *검색 결과*&#x200B;는 일치하지만, 개별적으로 *검색* 또는 *결과*&#x200B;는 일치하지 않습니다. 규칙이 *검색*&#x200B;과(와) *결과*&#x200B;을(를) 함께 찾았습니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
 | **[!UICONTROL 다음을 모두 포함하지 않음]** | 함께 결합된 여러 값을 포함하여 하위 문자열과 비교하여 항목을 식별한 다음 이 값이 없는 항목만 반환합니다. 예를 들어, **[!UICONTROL 페이지 이름]** 차원에 대해 이 연산자와 함께 `Search Results`을(를) 입력하면 *검색 결과* 및 *검색 결과*(개별적으로 *검색* 또는 *결과*&#x200B;는 아님)를 식별한 다음 이 항목을 제외합니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
@@ -67,7 +73,7 @@ ht-degree: 33%
 | **[!UICONTROL 다음으로 시작하지 않음]** | 입력한 문자열 값으로 시작하지 않는 모든 항목을 반환합니다. **[!UICONTROL 다음으로 시작]** 연산자의 역입니다. |
 | **[!UICONTROL 다음으로 끝남]** | 입력한 문자열 값으로 끝나는 항목을 반환합니다. |
 | **[!UICONTROL 다음으로 끝나지 않음]** | 입력한 문자열 값으로 끝나지 않는 모든 항목을 반환합니다. **[!UICONTROL 다음으로 끝남]** 연산자의 역입니다. |
-| **[!UICONTROL 일치]** | 지정된 숫자나 문자열 값을 기반으로 정확히 일치하는 항목을 반환합니다. **[!UICONTROL matches]** 절은 Adobe Analytics 및 Customer Journey Analytics에서 대/소문자를 구분합니다. **참고**: [와일드카드](#wildcards)(globbing) 기능을 사용할 때 이 연산자를 사용하십시오. &quot;globbing&quot; 예시:<ul><li>`a*e`는 `ae`, `abcde`, `adobe`, `a whole sentence`와 일치합니다</li><li>`adob*`는 `adobe`, `adobe analytics`, `adobo recipe`와 일치합니다</li><li>`*dobe`는 `dobe`, `adobe`, `cute little dobe`와 일치합니다</li></ul> |
+| **[!UICONTROL 일치]** | 지정된 숫자나 문자열 값을 기반으로 정확히 일치하는 항목을 반환합니다. **참고**: [와일드카드](#wildcards)(globbing) 기능을 사용할 때 이 연산자를 사용하십시오. &quot;globbing&quot; 예시:<ul><li>`a*e`는 `ae`, `abcde`, `adobe`, `a whole sentence`와 일치합니다</li><li>`adob*`는 `adobe`, `adobe analytics`, `adobo recipe`와 일치합니다</li><li>`*dobe`는 `dobe`, `adobe`, `cute little dobe`와 일치합니다</li></ul> |
 | **[!UICONTROL 일치하지 않음]** | 입력한 값의 정확한 일치를 포함하지 않는 모든 항목을 반환합니다. 참고: [와일드카드](#wildcards)(globbing) 기능 사용 시 이 연산자를 사용하십시오. |
 | **[!UICONTROL 존재함]** | 존재하는 항목의 수를 반환합니다. 예를 들어 **[!UICONTROL 존재]** 연산자를 사용하여 **[!UICONTROL 페이지를 찾을 수 없음]** 차원을 평가하는 경우, 존재하는 오류 페이지 수가 반환됩니다. |
 | **[!UICONTROL 존재하지 않음]** | 존재하지 않는 모든 항목을 반환합니다. 예를 들어 **[!UICONTROL 존재하지 않음]** 연산자를 사용하여 **[!UICONTROL 페이지를 찾을 수 없음]** 차원을 평가하는 경우, 이 오류 페이지가 존재하지 않았던 페이지의 수가 반환됩니다. |
@@ -97,6 +103,6 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [개별 차원 개수](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [개별 차원 개수](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
