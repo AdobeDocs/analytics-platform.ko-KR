@@ -49,14 +49,14 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 952a54cc63b5d725c40c8f99cb1821e8b8e9f362
+source-git-commit: fbfd8f635d4a861d3d52dc2448ff8ae5d5f5b149
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 22%
 ---
 # 최신 Customer Journey Analytics 릴리스 정보 (2026년 10월)
 
-**마지막 업데이트**: 2026년 10월 20일
+**마지막 업데이트**: 2026년 10월 22일
 
 이 릴리스 정보는 2026년 10월 릴리스 기간을 다룹니다. Adobe Customer Journey Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -69,7 +69,7 @@ ht-degree: 22%
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Customer Journey Analytics 데이터와 연결합니다.<p>자세한 내용은 [Adobe Brand Visibility 통합](/help/integrations/bv/bv.md)을 참조하세요.</p> | | 2026년 10월 8일 |
 | **여정 캔버스: 백분율 비교**<br/>&#x200B;여정을 이전 기간과 비교할 때 이제 새로운 [!UICONTROL 백분율 비교] 옵션을 활성화하여 각 노드, 화살표 및 폴아웃의 백분율 점수 변경을 표시할 수 있습니다. 이 기능은 여정의 사람 수가 날짜 범위 간에 다른 경우에도 비교가 정확하게 유지되므로 노드 간 유지나 폴아웃과 같은 비율을 비교할 때 유용합니다.<p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &quot;백분율 비교&quot;를 참조하십시오.</p> | | 2026년 10월 19일 |
 | **구성 요소 설명 자동 생성** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.</p> <p>(참조할 설명서 링크입니다.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026년 10월 28일 |
-| **동료의 제품 내 경험**<br/>&#x200B;이제 Analysis Workspace의 채팅 패널에서 동료가 사용할 수 있습니다. 동료는 사용자가 연 프로젝트를 컨텍스트로 사용하므로 프로젝트에 포함된 내용을 설명하지 않고도 분석에 대한 질문을 할 수 있습니다.<p>Coworker의 제품 내 경험을 사용하여 다음을 수행할 수 있습니다.</p><ul><li>열려 있는 프로젝트를 요약하고 통찰력을 찾은 다음 근본 원인 분석을 실행합니다.</li><li>자연어 프롬프트로 프로젝트를 빌드하고 편집합니다. 예를 들어, 패널 및 테이블을 추가하고, 데이터를 분류하고, 시각화 유형 및 날짜 범위를 변경하고, 세그먼트를 만들 수 있습니다.</li></ul><p>(참조할 설명서 업데이트)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 2026년 10월 22일(원래 2026년 10월 15일로 계획됨) | TBD |
+| **동료의 제품 내 경험**<br/>&#x200B;이제 Analysis Workspace의 채팅 패널에서 동료가 사용할 수 있습니다. 동료는 사용자가 연 프로젝트를 컨텍스트로 사용하므로 프로젝트에 포함된 내용을 설명하지 않고도 분석에 대한 질문을 할 수 있습니다.<p>Coworker의 제품 내 경험을 사용하여 다음을 수행할 수 있습니다.</p><ul><li>열려 있는 프로젝트를 요약하고 통찰력을 찾은 다음 근본 원인 분석을 실행합니다.</li><li>자연어 프롬프트로 프로젝트를 빌드하고 편집합니다. 예를 들어, 패널 및 테이블을 추가하고, 데이터를 분류하고, 시각화 유형 및 날짜 범위를 변경하고, 세그먼트를 만들 수 있습니다.</li></ul><p>(참조할 설명서 업데이트)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | TBD(원래 2026년 10월 15일로 계획됨) | TBD |
 
 
 ### Customer Journey Analytics의 수정 사항
