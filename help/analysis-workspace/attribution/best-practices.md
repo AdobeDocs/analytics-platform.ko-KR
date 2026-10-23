@@ -22,17 +22,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: c6330935bb6b36fab622b7884e9182ebd4bdc610
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 63%
+source-wordcount: '470'
+ht-degree: 60%
 ---
 # 속성 모범 사례
 
 조직에 적합한 기여도 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
 
 * [탐색적 분석](#exploratory-analysis)
-* [규칙 기반 속성](#rule-base-attribution)
+* [규칙 기반 속성](#rule-based-attribution)
 * [알고리즘 속성 사용](#use-algorithmic-attribution)
 
 ## 탐색적 분석
@@ -46,11 +46,11 @@ ht-degree: 63%
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
 
 예를 들어 고객의 50%가 전환하기 전에 세 개의 채널을 터치한다면 이들 세 개의 채널 사이에 인터랙션이 있습니까?
-그런 다음 상위 및 하위 퍼널 분석을 수행하여 이해를 확장할 수 있습니다.
+이해를 확장하려면 상위 및 하위 funnel 분석을 수행합니다.
 
 ### 상위 단계 분석
 
-상위 단계 분석 채널은 브랜드 또는 제품 인지도를 창출하기 위해 사용됩니다. 예를 들어 대부분의 TV 광고의 목표는 브랜드 인지도입니다. 사람들은 시간이 지남에 따라 TV 광고를 잊게 되므로 [시간 감소 속성 모델](/help/analysis-workspace/attribution/models.md)을 사용할 수 있습니다.
+상위 단계 분석 채널은 브랜드 또는 제품 인지도를 창출하기 위해 사용됩니다. 예를 들어 대부분의 TV 광고의 목표는 브랜드 인지도입니다. 사람들이 시간이 지남에 따라 TV 광고를 잊게 되므로 [시간 감소 속성 모델](/help/analysis-workspace/attribution/models.md)을 사용하십시오.
 
 ### 하위 단계 분석
 
@@ -64,15 +64,19 @@ ht-degree: 63%
 
 가설: &quot;*첫 번째 터치 채널이 마지막 터치 채널보다 전환에 더 많은 영향을 미칩니다.*&quot;
 
-이 경우 [역 J자형 속성 모델](/help/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트합니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
+이 경우 [역 J자형 속성 모델](/help/analysis-workspace/attribution/models.md)을(를) 사용하여 이 가설을 테스트하십시오. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
 
 **예 2**
 
-가설이 *이라고 가정해 보십시오.&quot;특정 업계(예: 여행 업계)에서는 고객이 제품을 구매하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이라고 가정합니다.*&quot;
+가설이 *이라고 가정해 보십시오.&quot;여행 산업에서 속성 기간은 30일이 아니라 60일 또는 90일입니다. 이는 고객이 구매하기 전에 많은 조사를 하기 때문입니다.&quot;*
 
-이 경우 [전환 확인 기간](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경할 수 있습니다.
+이 경우 [전환 확인 기간](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경하십시오.
 
 ## 알고리즘 속성 사용
+
+>[!NOTE]
+>
+>알고리즘 속성을 사용하려면 Customer Journey Analytics **Ultimate** 패키지가 있어야 합니다. 보유 중인 Customer Journey Analytics 패키지가 무엇인지 확실하지 않은 경우에는 귀사의 관리자에게 문의하십시오.
 
 모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 기여도는 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
 

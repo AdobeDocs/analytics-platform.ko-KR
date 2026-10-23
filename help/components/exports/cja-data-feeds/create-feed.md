@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 39d7aae2c47754899a2ac7d1a544a0b585d99b8b
+source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
 workflow-type: tm+mt
-source-wordcount: '4362'
-ht-degree: 15%
+source-wordcount: '4243'
+ht-degree: 16%
 ---
 # 데이터 피드 만들기
 
@@ -71,24 +71,6 @@ ht-degree: 15%
 >id="cja_datafeed_frequency_granularity"
 >title="빈도 및 세부 기간"
 >abstract="**게재 빈도**(라이브 피드): 데이터 피드 게재 빈도입니다. 시간별 게재는 1시간 동안의 데이터를 포함하며, 일별 게재는 1일 동안의 데이터가 포함되어 있습니다. 전환 확인 날짜 범위 및 처리 지연은 어떤 이벤트가 포함되는지에도 영향을 줄 수 있습니다.<p>**세부 기간**(채우기 피드): 이전 데이터 나누기에 사용되는 시간 간격입니다. 각 청크에는 하루치 데이터가 포함되어 있으며 하루 한 번 전송되는 것이 아니라 가능한 한 빠르게 전송됩니다. 이 필드는 항상 일별로 설정되며 이는 수정할 수 없습니다.</p>"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name"
->title="경로 또는 파일 이름"
->abstract="경로나 파일 이름(또는 둘 다)을 지정하여 선택한 위치 내에서 파일이 전송되는 위치를 파악합니다. 위치의 최상위 폴더에 파일을 저장하려면 `/`을(를) 지정하십시오.<br/>실시간 피드의 경우 변수를 사용하여 경로나 파일 이름을 동적으로 만들 수 있습니다. <br/>예를 들어 `${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`을(를) 지정하는 경우 2027년 1월 15일에 배달되는 라이브 피드의 파일 경로와 이름은 다음과 같습니다. `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet` <br/>사용 가능한 변수 목록을 보려면 아래 링크를 선택하십시오."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name-override"
->title="기본 경로 또는 파일 이름 재정의"
->abstract="이 위치에 설정된 기본 경로 또는 파일 이름을 무시하려면 이 옵션을 활성화합니다. 재정의는 이 데이터 피드에만 적용되며 데이터 피드 파일이 전송되는 위치를 결정합니다."
 
 <!-- markdownlint-enable MD034 -->
 

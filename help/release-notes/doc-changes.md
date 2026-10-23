@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
+source-git-commit: 6bc56f504e19548e7e1cf0a6b32df54c45240749
 workflow-type: tm+mt
-source-wordcount: '7341'
+source-wordcount: '7362'
 ht-degree: 94%
 ---
 
@@ -70,14 +70,15 @@ Customer Journey Analytics 문서가 시작된 이후로 다음과 같이 업데
 | 기능 | 설명 |
 |---|---|
 | **2026년 10월** | |
+| 세그먼트 연산자에 대한 대소문자 구분 | [표준 연산자](/help/components/segments/seg-operators.md#standard-operators)이(가) 대소문자에 관계없이 결과를 반환합니다. 단, **[!UICONTROL 일치]**&#x200B;와(과) **[!UICONTROL 일치하지 않음]**&#x200B;은(는) 예외입니다. |
 | 표 열의 키보드 탐색 | 화면 판독기 피드백을 포함하여 키보드를 사용하여 Analysis Workspace에서 테이블 열을 [크기 조정](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) 및 [다시 정렬](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)하는 방법을 문서화했습니다. 또한 [테이블 열 작업](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) 섹션이 핫키에 추가되었습니다. |
 | AI Assistant 및 Data Insights Agent이 Coworker로 대체됨 | AI Assistant 및 Data Insights Agent 문서를 제거했습니다. Adobe CX Enterprise Coworker은 두 기능을 모두 대체합니다. 자세한 내용은 [동료 채팅으로 데이터 분석](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)을 참조하세요. 또한 변경 내용을 반영하도록 [Customer Journey Analytics 기능 지원](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)을 업데이트했습니다. |
 | Content Analytics 유료 미디어 채널 | 유료 미디어 소스 커넥터(예: Google 광고 또는 Meta 광고)를 사용하고 Content Analytics 유료 미디어 채널을 구성 및 활성화하여 데이터 세트 및 데이터 보기 구성 요소의 자동 구성에 대한 포괄적인 [설명서](/help/content-analytics/config/paid-media.md). |
-| 대화 통찰력 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
+| 대화 인사이트 | 대화 통찰력에 대한 [설명서](/help/conversation-insights/overview.md). |
 | Brand Visibility | 자세한 정보로 [브랜드 가시성 인바운드 통합](/help/integrations/bv/bv.md#inbound-integration)에 대한 설명서를 업데이트했습니다. |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
-| 블로그 게시물 통합 | 다음과 같은 블로그 게시물을 통합했습니다.<ul><li>[Adobe CJA에서 &#39;값 없음&#39;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=ko&lang=ko#M598)</li><li>[Adobe Experience Platform 및 Customer Journey Analytics 데이터 이그레스 사용 사례 심층 분석](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=ko&lang=ko)</li></ul>[데이터 내보내기](/help/use-cases/data-export/overview.md) 사용 사례와 새로운 [값 없음](/help/use-cases/data-views/no-value.md) 사용 사례 문서에서. |
+| 블로그 게시물 통합 | 다음과 같은 블로그 게시물을 통합했습니다.<ul><li>[Adobe CJA에서 &#39;값 없음&#39;을 처리하기 위한 전체 플레이북](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?lang=ko#M598)</li><li>[Adobe Experience Platform 및 Customer Journey Analytics 데이터 이그레스 사용 사례 심층 분석](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?lang=ko)</li></ul>[데이터 내보내기](/help/use-cases/data-export/overview.md) 사용 사례와 새로운 [값 없음](/help/use-cases/data-views/no-value.md) 사용 사례 문서에서. |
 | 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
 | **2026년 8월** | |
 | 대상자 새로 고침에 대한 명확한 정보 | [대상 게시](/help/components/audiences/publish.md#audience-builder)할 때 새로 고침을 예약할 수 있는 대상 수는 Customer Journey Analytics 권한에 따라 다르며 75개에서 150개 사이임을 명확히 했습니다. |
