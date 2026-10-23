@@ -14,10 +14,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 ---
 # 데이터 피드의 하위 이벤트 구성 요소
 
@@ -110,7 +110,7 @@ Adobe Experience Platform의 XDM 스키마 내에서 하위 이벤트를 보려�
 
 하위 이벤트 데이터 [은(는) Customer Journey Analytics 데이터 피드에서 다르게 표시되므로](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics)에 사용하는 쿼리와 Adobe Analytics 데이터 피드에 사용하는 쿼리가 다릅니다.
 
-다음 예는 특정 제품을 포함하는 이벤트를 찾는 방법을 보여줍니다. 이 예제에서는 Google BigQuery 구문을 사용합니다. Snowflake 및 Databricks 와 같은 다른 데이터 웨어하우스는 구문 차이가 적은 동일한 접근 방식을 지원합니다.
+다음 예는 특정 제품을 포함하는 이벤트를 찾는 방법을 보여줍니다. 이 예제에서는 Google BigQuery 구문을 사용합니다. 여기서 `UNNEST`은(는) 배열을 행으로 확장합니다. 다른 데이터 웨어하우스는 Snowflake의 `FLATTEN` 또는 데이터 저장소의 `explode`과 같은 고유한 배열 함수로 동일한 방법을 지원합니다.
 
 +++ Customer Journey Analytics 데이터 피드에서 제품 데이터 쿼리
 
@@ -133,7 +133,7 @@ Customer Journey Analytics 데이터 피드에서 동일한 두 제품이 `produ
 
 **이벤트당 하나의 행 반환**
 
-행 수를 변경하지 않고 이벤트를 필터링하려면 `EXISTS` 하위 쿼리 내에서 `UNNEST`을(를) 사용합니다.
+행 수를 변경하지 않고 이벤트를 필터링하려면 `EXISTS` 하위 쿼리 내에서 `UNNEST`과(와) 같은 배열 함수를 사용합니다.
 
 ```sql
 SELECT row_id, timestamp_utc, product_list_items
@@ -149,7 +149,7 @@ WHERE EXISTS (
 
 **일치하는 제품당 하나의 행 반환**
 
-일치하는 각 제품에 대해 하나의 행을 반환하려면 `UNNEST`을(를) 외부 `FROM` 절로 이동하십시오.
+일치하는 각 제품에 대해 하나의 행을 반환하려면 배열 함수를 외부 `FROM` 절로 이동합니다.
 
 ```sql
 SELECT f.row_id, f.timestamp_utc, item.product, item.quantity, item.revenue
@@ -220,7 +220,7 @@ XDM 스키마 저장소 키-값 쌍의 필드를 매핑합니다. 데이터 피�
 
 ### ID 맵
 
-[`identityMap`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드의 각 ID를 하나의 개체로 내보냅니다. 개체에는 식별자, 인증된 상태 및 기본 플래그와 함께 ID 네임스페이스(키)가 포함되어 있습니다. 네임스페이스는 해당 네임스페이스의 각 ID에 대해 반복됩니다.
+[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) 필드의 각 ID를 하나의 개체로 내보냅니다. 개체에는 식별자, 인증된 상태 및 기본 플래그와 함께 ID 네임스페이스(키)가 포함되어 있습니다. 네임스페이스는 해당 네임스페이스의 각 ID에 대해 반복됩니다.
 
 데이터 보기에 차원으로 존재하며 데이터 피드에 추가한 ID 맵 속성만 내보내집니다.
 
