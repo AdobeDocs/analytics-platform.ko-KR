@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1211'
 ht-degree: 31%
 ---
 # 연산자
@@ -53,7 +53,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->표준 연산자를 사용할 때 입력한 값은 대소문자에 관계없이 결과를 반환합니다. 단, **[!UICONTROL 일치]**&#x200B;와(과) **[!UICONTROL 불일치]**&#x200B;를 제외합니다.
+>표준 연산자를 사용하는 경우 결과는 대소문자를 구분하지 않습니다. 단, **[!UICONTROL 일치]**&#x200B;와 **[!UICONTROL 일치하지 않음]**&#x200B;은 예외입니다.
 >
 >예를 들어 **[!UICONTROL 페이지 이름]** **[!UICONTROL 같음]** `search results`은(는) *검색 결과*, *검색 결과* 및 *검색 결과*&#x200B;를 반환합니다.
 
