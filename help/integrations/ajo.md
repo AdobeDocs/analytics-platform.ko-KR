@@ -70,7 +70,7 @@ Journey Optimizer용 Customer Journey Analytics 보고를 활성화하면 자동
 | 데이터 세트 이름 | 스키마 | 데이터 세트 유형 | 데이터 소스 유형 | 개인 ID | 키 | 일치하는 키 | 새 데이터 가져오기 | 데이터 채우기 |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL AJO 엔티티 데이터 세트] | [!UICONTROL AJO 엔티티 레코드 스키마] | [!UICONTROL 조회] | [!UICONTROL 기타] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
-| [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration용 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL &#x200B; IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
+| [!UICONTROL 여정 단계 이벤트] | [!UICONTROL Journey Orchestration용 여정 단계 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 이메일 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 이메일 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 메시지 피드백 이벤트 데이터 세트] | [!UICONTROL AJO 메시지 피드백 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
 | [!UICONTROL AJO 푸시 추적 경험 이벤트 데이터 세트] | [!UICONTROL AJO 푸시 추적 경험 이벤트 스키마] | [!UICONTROL 이벤트] | [!UICONTROL 기타] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Status Green](assets/../../connections/assets/status-green.svg) 켜짐 | ![Status Gray](assets/../../connections/assets/status-gray.svg) 꺼짐 |
@@ -90,7 +90,7 @@ IMS Org에 대해 처리량 높음 트랜잭션 메시지 추가 기능을 활�
 * **[!UICONTROL 7일 P95 대기 시간 위젯 롤링]**: P95 대기 시간을 이전 주와의 백분율 변경을 포함하여 단일 값으로 표시합니다.
 * **[!UICONTROL 7일 연속 P95 처리량 위젯]**: 이전 주와의 백분율 변경을 포함하여 P95 처리량을 단일 값으로 표시합니다.
 
-이러한 데이터 세트 및 처리량이 많은 트랜잭션 메시지 추가 기능에 대한 자세한 내용은 Adobe Journey Optimizer 설명서의 [API 트리거 캠페인에 대한 처리량이 많은 모드 활성화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)를 참조하십시오.
+이러한 데이터 세트 및 처리량이 많은 트랜잭션 메시지 추가 기능에 대한 자세한 내용은 Adobe Journey Optimizer 설명서의 [API 트리거 캠페인에 대한 처리량이 많은 모드 활성화](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)를 참조하십시오.
 
 ### 데이터 보기
 
