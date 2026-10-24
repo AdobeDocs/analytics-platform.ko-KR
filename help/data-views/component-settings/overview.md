@@ -51,7 +51,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="구성 요소 설정"
->abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성합니다. Analysis Workspace 인터페이스에서 관리자가 아닌 사용자에게 이 구성 요소를 숨기려면 이 확인란을 선택합니다. 관리자는 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
+>abstract="구성 요소와 관련된 이름, 설명 및 기타 설정을 조회하고 구성합니다. Analysis Workspace 인터페이스에서 관리자가 아닌 사용자에게 이 구성 요소를 표시하지 않으려면 이 체크박스를 선택합니다. 관리자는 Workspace 프로젝트에서 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 선택하여 구성 요소에 액세스할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
