@@ -38,7 +38,7 @@ ht-degree: 18%
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 빌드합니다. 구성 값을 기본값으로 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하십시오. 구성을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
-**[!UICONTROL 대화 검토]** 시각화를 다시 구성하려면 **[!UICONTROL 대화: _대화_]**옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다.
+**[!UICONTROL 대화 검토]** 시각화를 다시 구성하려면 **[!UICONTROL 대화: _대화_]**&#x200B;옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택합니다.
 
 ## 사용
 
